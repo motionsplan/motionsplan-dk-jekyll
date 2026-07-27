@@ -1,0 +1,452 @@
+<div class="ftt-widget">
+  
+  <!-- Info Modal -->
+  <div class="ftt-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Finger Tapping Testen (FTT)</h4>
+        <span class="modal-subtitle-text">Måling af neuromuskulær træthed (KNS)</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>HVAD MÅLER TESTEN?</strong><br>
+        Finger Tapping Testen måler centralnervesystemets (KNS) parathed og motoriske hastighed. Et fald i din normale score (ca. 10-15%) kan være en stærk indikator på overtræning eller manglende restitution, selvom musklerne ikke føles ømme.<br><br>
+        <strong>SÅDAN UDFØRES TESTEN:</strong><br>
+        1. Vælg hvilken hånd du vil teste (dominant / non-dominant).<br>
+        2. Tryk på <strong>"Start 10s Test"</strong>.<br>
+        3. Efter 3-2-1 nedtællingen trykker du så hurtigt du overhovedet kan på det store felt (brug enten pegefingeren, musen eller <strong>Mellemrumstasten</strong> på PC).<br>
+        4. Testen stopper automatisk efter 10 sekunder. Tag 3 forsøg med hver hånd for det mest præcise resultat.
+      </p>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="ftt-topbar">
+    <div class="ftt-header-card">
+      <div class="card-text-group">
+        <div class="card-title-row">
+          <span class="card-title">Finger Tapping Test (KNS Status)</span>
+          <button class="info-icon-btn" type="button" title="Læs om testen">ℹ️</button>
+        </div>
+        <div class="card-desc">Tryk så hurtigt du kan i 10 sek. Test din neuromuskulære restitution.</div>
+      </div>
+    </div>
+
+    <!-- Indstillinger (Hånd & Lyd) -->
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <span class="setting-label">Test Hånd:</span>
+        <div class="btn-toggle-group" id="hand-toggle">
+          <button type="button" class="toggle-btn active" data-val="Dominant">Dominant (Skrivehånd)</button>
+          <button type="button" class="toggle-btn" data-val="Non-dominant">Non-dominant</button>
+        </div>
+      </div>
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Status & Counters -->
+  <div class="ftt-stats-grid">
+    <div class="stat-box">
+      <span class="stat-label">RESTERENDE TID</span>
+      <span class="stat-value time-display">10.0s</span>
+    </div>
+    <div class="stat-box highlight">
+      <span class="stat-label">ANTAL TRYK</span>
+      <span class="stat-value tap-display">0</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-label">FREKVENS (HZ)</span>
+      <span class="stat-value hz-display">0.0</span>
+    </div>
+  </div>
+
+  <!-- Den KÆMPE Tap-Zone -->
+  <div class="ftt-action-zone">
+    <button class="ftt-tap-area" disabled>
+      <span class="tap-area-main-text">KLAR TIL START</span>
+      <span class="tap-area-sub-text">Tryk på 'Start Test' for at begynde</span>
+    </button>
+  </div>
+
+  <!-- Kontroller -->
+  <div class="ftt-controls">
+    <button class="btn btn--primary btn-start">Start 10s Test</button>
+    <button class="btn btn--warning btn-reset">Nulstil Log</button>
+  </div>
+
+  <!-- Resultat Log Tabel -->
+  <div class="ftt-log-wrapper" style="display: none;">
+    <h5 class="log-title">Dine Resultater (Session)</h5>
+    <table class="ftt-log-table">
+      <thead>
+        <tr>
+          <th>Forsøg</th>
+          <th>Hånd</th>
+          <th>Antal Tryk</th>
+          <th>Frekvens (Hz)</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<style>
+.ftt-widget {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.ftt-widget * { box-sizing: border-box; }
+
+.ftt-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; text-align: left; }
+.ftt-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 12px 14px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; transition: transform 0.1s ease; }
+.info-icon-btn:hover { transform: scale(1.15); }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.ftt-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Knapper */
+.topbar-subrow { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 4px; flex-wrap: wrap; width: 100%; }
+.setting-item { display: flex; align-items: center; gap: 6px; }
+.setting-label { font-size: 0.72rem; font-weight: 800; color: #495057; white-space: nowrap; }
+
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 4px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; transition: all 0.15s ease; white-space: nowrap; }
+.toggle-btn:hover:not(.active) { color: #212529; background: rgba(0,0,0,0.04); }
+.toggle-btn.active { background: #228be6; color: #ffffff; box-shadow: 0 1px 3px rgba(34, 139, 230, 0.3); }
+
+/* Stats Grid */
+.ftt-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
+.stat-box { background: #f8f9fa; padding: 12px 6px; border-radius: 12px; border: 1px solid #e9ecef; display: flex; flex-direction: column; align-items: center; }
+.stat-box.highlight { background: #fff9db; border-color: #fcc419; }
+.stat-box.highlight .stat-value { color: #e67700; }
+.stat-value { font-size: 1.8rem; font-weight: 900; color: #212529; font-variant-numeric: tabular-nums; line-height: 1.1; margin-top: 4px; }
+.stat-label { font-size: 0.65rem; font-weight: 800; color: #868e96; letter-spacing: 0.05em; }
+
+/* Kæmpe Tap Zone */
+.ftt-action-zone { margin-bottom: 16px; }
+.ftt-tap-area {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  background: #f1f3f5;
+  border: 4px dashed #ced4da;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.05s ease; /* Lynhurtig transition */
+  user-select: none;
+  touch-action: manipulation; /* Forhindrer zoom på mobil */
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+.ftt-tap-area.state-countdown { background: #fff3bf; border-color: #fcc419; color: #e67700; border-style: solid; }
+.ftt-tap-area.state-active { background: #20c997; border-color: #0ca678; color: #ffffff; border-style: solid; box-shadow: 0 8px 30px rgba(32, 201, 151, 0.4); }
+.ftt-tap-area.state-active:active, .ftt-tap-area.is-tapped { transform: scale(0.96); background: #12b886; }
+.ftt-tap-area.state-finished { background: #e7f5ff; border-color: #74c0fc; color: #1864ab; border-style: solid; }
+.ftt-tap-area:disabled { cursor: not-allowed; opacity: 0.8; }
+
+.tap-area-main-text { font-size: 2.2rem; font-weight: 900; letter-spacing: 0.02em; pointer-events: none; }
+.tap-area-sub-text { font-size: 0.9rem; font-weight: 700; opacity: 0.8; margin-top: 8px; pointer-events: none; }
+
+/* Controls */
+.ftt-controls { display: flex; gap: 8px; margin-bottom: 16px; }
+.ftt-controls button { flex: 1; padding: 14px; font-size: 1rem; font-weight: 800; border-radius: 10px; border: none; cursor: pointer; transition: opacity 0.2s; }
+.ftt-controls button:active { transform: scale(0.98); }
+.btn--primary { background: #228be6; color: white; box-shadow: 0 4px 12px rgba(34, 139, 230, 0.3); }
+.btn--primary:disabled { background: #adb5bd; cursor: not-allowed; box-shadow: none; transform: none; }
+.btn--warning { background: #f1f3f5; color: #495057; border: 1px solid #ced4da; }
+
+/* Result Log */
+.ftt-log-wrapper { text-align: left; border-top: 1px solid #e9ecef; padding-top: 14px; }
+.log-title { font-size: 0.9rem; font-weight: 800; margin: 0 0 10px 0; color: #495057; }
+.ftt-log-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+.ftt-log-table th { background: #f8f9fa; padding: 8px; border-bottom: 2px solid #dee2e6; text-align: left; font-weight: 800; color: #495057; }
+.ftt-log-table td { padding: 8px; border-bottom: 1px solid #f1f3f5; color: #212529; font-weight: 600; }
+.ftt-log-table tr:hover td { background: #f8f9fa; }
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .ftt-tap-area { height: 240px; } /* Større trykflade på mobil */
+  .tap-area-main-text { font-size: 1.8rem; }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const TEST_DURATION = 10.0; // 10 sekunder
+  
+  let isTesting = false;
+  let isCountingDown = false;
+  let tapCount = 0;
+  let timeRemaining = TEST_DURATION;
+  let startTime = 0;
+  let animFrameId = null;
+  let audioCtx = null;
+  let attemptCount = 0;
+
+  let selectedHand = 'Dominant';
+  let selectedSound = 'on';
+
+  const widget = document.querySelector(".ftt-widget");
+  if (!widget) return;
+
+  const timeDisplay = widget.querySelector(".time-display");
+  const tapDisplay = widget.querySelector(".tap-display");
+  const hzDisplay = widget.querySelector(".hz-display");
+  
+  const tapArea = widget.querySelector(".ftt-tap-area");
+  const tapAreaMainText = widget.querySelector(".tap-area-main-text");
+  const tapAreaSubText = widget.querySelector(".tap-area-sub-text");
+  
+  const btnStart = widget.querySelector(".btn-start");
+  const btnReset = widget.querySelector(".btn-reset");
+  
+  const logWrapper = widget.querySelector(".ftt-log-wrapper");
+  const logTbody = widget.querySelector(".log-tbody");
+
+  const infoModal = widget.querySelector(".ftt-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  // Toggle Setup
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (isTesting || isCountingDown) return; // Lås under test
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+
+  setupToggleGroup("hand-toggle", (val) => { selectedHand = val; });
+  setupToggleGroup("sound-toggle", (val) => { selectedSound = val; });
+
+  // Lydfunktion
+  function playBeep(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+
+    const now = audioCtx.currentTime;
+    if (type === 'countdown') {
+      osc.frequency.value = 600;
+      gain.gain.setValueAtTime(0.2, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+      osc.start(now); osc.stop(now + 0.15);
+    } else if (type === 'go') {
+      osc.frequency.value = 1200;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+      osc.start(now); osc.stop(now + 0.4);
+    } else if (type === 'finish') {
+      [800, 1000, 1200].forEach((freq, idx) => {
+        const o = audioCtx.createOscillator();
+        const g = audioCtx.createGain();
+        o.connect(g); g.connect(audioCtx.destination);
+        o.frequency.value = freq;
+        g.gain.setValueAtTime(0.3, now + (idx * 0.15));
+        g.gain.exponentialRampToValueAtTime(0.001, now + (idx * 0.15) + 0.3);
+        o.start(now + (idx * 0.15)); o.stop(now + (idx * 0.15) + 0.3);
+      });
+    }
+  }
+
+  // Timer Loop (RequestAnimationFrame for præcision)
+  function updateTimer() {
+    if (!isTesting) return;
+
+    const now = performance.now();
+    const elapsed = (now - startTime) / 1000;
+    timeRemaining = Math.max(0, TEST_DURATION - elapsed);
+    
+    timeDisplay.textContent = timeRemaining.toFixed(1) + "s";
+    
+    // Live Hz update (undgå division med 0)
+    if (elapsed > 0.5 && tapCount > 0) {
+      hzDisplay.textContent = (tapCount / elapsed).toFixed(1);
+    }
+
+    if (timeRemaining <= 0) {
+      finishTest();
+    } else {
+      animFrameId = requestAnimationFrame(updateTimer);
+    }
+  }
+
+  // Startsekvens (3, 2, 1)
+  function startSequence() {
+    if (isTesting || isCountingDown) return;
+    isCountingDown = true;
+    
+    btnStart.disabled = true;
+    tapCount = 0;
+    timeRemaining = TEST_DURATION;
+    
+    timeDisplay.textContent = "10.0s";
+    tapDisplay.textContent = "0";
+    hzDisplay.textContent = "0.0";
+
+    tapArea.className = "ftt-tap-area state-countdown";
+    tapArea.disabled = true;
+    tapAreaSubText.textContent = "Gør dig klar!";
+
+    let count = 3;
+    tapAreaMainText.textContent = count;
+    playBeep('countdown');
+
+    const countdownInterval = setInterval(() => {
+      count--;
+      if (count > 0) {
+        tapAreaMainText.textContent = count;
+        playBeep('countdown');
+      } else {
+        clearInterval(countdownInterval);
+        isCountingDown = false;
+        startActiveTest();
+      }
+    }, 1000);
+  }
+
+  function startActiveTest() {
+    isTesting = true;
+    playBeep('go');
+    
+    tapArea.disabled = false;
+    tapArea.className = "ftt-tap-area state-active";
+    tapAreaMainText.textContent = "TAP HURTIGT!";
+    tapAreaSubText.textContent = "Brug finger eller mellemrumstast";
+    
+    startTime = performance.now();
+    animFrameId = requestAnimationFrame(updateTimer);
+    
+    // Sæt fokus på knappen, så spacebar virker med det samme
+    tapArea.focus();
+  }
+
+  function finishTest() {
+    isTesting = false;
+    cancelAnimationFrame(animFrameId);
+    playBeep('finish');
+
+    tapArea.disabled = true;
+    tapArea.className = "ftt-tap-area state-finished";
+    tapAreaMainText.textContent = "TEST SLUT!";
+    tapAreaSubText.textContent = `Du nåede ${tapCount} tryk`;
+    
+    btnStart.disabled = false;
+    btnStart.textContent = "Prøv Igen (Ny Test)";
+    
+    const finalHz = (tapCount / TEST_DURATION).toFixed(1);
+    hzDisplay.textContent = finalHz;
+
+    logResult(tapCount, finalHz);
+  }
+
+  function logResult(taps, hz) {
+    attemptCount++;
+    logWrapper.style.display = "block";
+    
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>#${attemptCount}</td>
+      <td>${selectedHand}</td>
+      <td><strong>${taps}</strong></td>
+      <td>${hz} Hz</td>
+    `;
+    // Indsæt øverst
+    logTbody.insertBefore(tr, logTbody.firstChild);
+  }
+
+  function resetLog() {
+    if (!confirm("Vil du slette alle resultater fra denne session?")) return;
+    attemptCount = 0;
+    logTbody.innerHTML = "";
+    logWrapper.style.display = "none";
+    
+    timeDisplay.textContent = "10.0s";
+    tapDisplay.textContent = "0";
+    hzDisplay.textContent = "0.0";
+    
+    tapArea.className = "ftt-tap-area";
+    tapAreaMainText.textContent = "KLAR TIL START";
+    tapAreaSubText.textContent = "Tryk på 'Start Test' for at begynde";
+    btnStart.textContent = "Start 10s Test";
+  }
+
+  // Registrering af tryk (Pointerdown virker på både mus og touch uden delay)
+  function handleTap(e) {
+    if (!isTesting) return;
+    e.preventDefault(); // Forhindrer dobbelt-aktivering (click + touch) og scrolling
+    
+    tapCount++;
+    tapDisplay.textContent = tapCount;
+    
+    // Visuel blink-effekt uden at fjerne CSS-classes klodset
+    tapArea.classList.add("is-tapped");
+    setTimeout(() => {
+      if(isTesting) tapArea.classList.remove("is-tapped");
+    }, 40);
+  }
+
+  tapArea.addEventListener("pointerdown", handleTap);
+
+  // Global Keyboard listener for Mellemrum / Enter (kun aktiv under testen)
+  document.addEventListener("keydown", (e) => {
+    if (!isTesting) return;
+    if (e.code === "Space" || e.code === "Enter") {
+      e.preventDefault(); // Forhindrer at skærmen scroller ned når man hamrer på mellemrum
+      handleTap(e);
+    }
+  });
+
+  // Forhindrer right-click/context menu på tap-area på mobiler
+  tapArea.addEventListener("contextmenu", e => e.preventDefault());
+
+  btnStart.addEventListener("click", startSequence);
+  btnReset.addEventListener("click", resetLog);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+});
+</script>

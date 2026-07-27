@@ -1,0 +1,686 @@
+<div class="cooper-widget">
+  
+  <!-- Info Modal -->
+  <div class="cooper-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Cooper-testen (12 min)</h4>
+        <span class="modal-subtitle-text">12 minutters maksimal løbetest på 400m bane</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>SÅDAN UDFØRES TESTEN:</strong><br>
+        1. Vælg din måldistance (eller dit forventede tempo) øverst.<br>
+        2. Løb så langt du kan på 12 minutter på en 400m bane.<br>
+        3. Tryk på knappen <strong>"🏃 Passererede 400m"</strong> hver gang du runder en omgang på banen.<br>
+        4. Afspilleren bipper automatisk, når du <em>bør</em> passere hver 400m markering for at nå dit mål.<br>
+        5. Ved 11:00 minutter lyder en slutspurts-alarm – giv alt det sidste det sidste minut!
+      </p>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="cooper-topbar">
+    <div class="cooper-header-card">
+      <div class="card-text-group">
+        <div class="card-title-row">
+          <span class="card-title">Cooper-test (12 min Pacer & Timer)</span>
+          <button class="info-icon-btn" type="button" title="Læs om testproceduren">ℹ️</button>
+        </div>
+        <div class="card-desc">Løb så langt du kan på 12 minutter. Følg omgangstider og pacer-bip.</div>
+      </div>
+    </div>
+
+    <!-- Indstillinger som Knapper -->
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <span class="setting-label">Mål:</span>
+        <div class="btn-toggle-group" id="target-toggle">
+          <button type="button" class="toggle-btn" data-val="2400">2.400m</button>
+          <button type="button" class="toggle-btn active" data-val="2800">2.800m</button>
+          <button type="button" class="toggle-btn" data-val="3000">3.000m</button>
+          <button type="button" class="toggle-btn" data-val="3200">3.200m</button>
+          <button type="button" class="toggle-btn" data-val="3500">3.500m</button>
+        </div>
+      </div>
+
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- Hoved-skærm -->
+  <div class="cooper-display-screen state-idle">
+    
+    <div class="phase-title">Klar til start</div>
+    <div class="total-timer-display">12:00</div>
+    <div class="phase-subtitle">Måltempo: <strong class="target-pace-text">04:17 min/km</strong> (<span class="target-lap-text">01:42</span> pr. 400m)</div>
+    
+    <!-- Pace & Estimations Grid -->
+    <div class="cooper-stats-grid">
+      <div class="stat-box">
+        <span class="stat-value current-laps-display">0</span>
+        <span class="stat-label">OMGANGE (400M)</span>
+      </div>
+      <div class="stat-box highlight">
+        <span class="stat-value pred-dist-display">2800m</span>
+        <span class="stat-label">FORVENTET DISTANCE</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-value live-vo2-display">51.3</span>
+        <span class="stat-label">EST. VO₂MAX</span>
+      </div>
+    </div>
+
+    <!-- Live Delta Status Badge -->
+    <div class="delta-badge delta-neutral">Ingen omgange registreret endnu</div>
+  </div>
+
+  <!-- Progress Bar (12 minutter) -->
+  <div class="cooper-progress-container">
+    <div class="progress-label-row">
+      <span>TEST FREMGANG (12 MIN)</span>
+      <span class="progress-pct-display">0%</span>
+    </div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- Manuel Omgangs-knap & Kontroller -->
+  <div class="cooper-action-zone">
+    <button class="btn btn--lap btn-lap" disabled>🏃 Passererede 400m (Ny omgang)</button>
+  </div>
+
+  <div class="cooper-controls">
+    <button class="btn btn--primary btn-start">Start Test</button>
+    <button class="btn btn--secondary btn-pause" disabled>Pause</button>
+    <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
+  </div>
+
+  <!-- Omgangslog Tabel -->
+  <div class="cooper-log-wrapper" style="display: none;">
+    <h5 class="log-title">Omgangslog & Splittider</h5>
+    <table class="cooper-log-table">
+      <thead>
+        <tr>
+          <th>Omgang</th>
+          <th>Passeret</th>
+          <th>Måltid</th>
+          <th>Faktisk tid</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody"></tbody>
+    </table>
+  </div>
+
+  <!-- Download Lydfil -->
+  <div class="cooper-download-zone">
+    <button class="btn btn--download btn-download">📥 Download 12-min Cooper Pacer Lydfil (WAV)</button>
+  </div>
+</div>
+
+<style>
+.cooper-widget {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.cooper-widget * { box-sizing: border-box; }
+
+.cooper-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; text-align: left; }
+.cooper-header-card {
+  background: #e7f5ff;
+  border: 1px solid #a5d8ff;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn {
+  background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px;
+  border-radius: 6px; transition: transform 0.1s ease;
+}
+.info-icon-btn:hover { transform: scale(1.15); }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.cooper-info-modal {
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left;
+}
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Knapper */
+.topbar-subrow { 
+  display: flex; align-items: center; justify-content: flex-start; gap: 8px; margin-top: 4px; flex-wrap: nowrap; width: 100%;
+}
+.setting-item { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
+.setting-label { font-size: 0.72rem; font-weight: 800; color: #495057; white-space: nowrap; }
+
+.btn-toggle-group {
+  display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; flex-shrink: 0;
+}
+.toggle-btn {
+  background: transparent; border: none; padding: 3px 6px; font-size: 0.72rem; font-weight: 700;
+  color: #495057; border-radius: 6px; cursor: pointer; transition: all 0.15s ease; white-space: nowrap;
+}
+.toggle-btn:hover:not(.active) { color: #212529; background: rgba(0,0,0,0.04); }
+.toggle-btn.active { background: #228be6; color: #ffffff; box-shadow: 0 1px 3px rgba(34, 139, 230, 0.3); }
+.toggle-btn:disabled { cursor: not-allowed; opacity: 0.6; }
+
+.wakelock-status { 
+  font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb;
+  padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; white-space: nowrap; flex-shrink: 0;
+}
+.wakelock-status.active { opacity: 1; }
+
+/* Display skærm */
+.cooper-display-screen {
+  padding: 16px; border-radius: 16px; margin-bottom: 12px; transition: all 0.3s ease;
+  background: #f1f3f5; border: 3px solid #dee2e6; color: #343a40; position: relative;
+}
+.cooper-display-screen.state-running { background: #e7f5ff; border-color: #a5d8ff; color: #1c7ed6; }
+.cooper-display-screen.state-sprint { background: #fff3bf; border-color: #fcc419; color: #f59f00; animation: pulseBorder 1s infinite alternate; }
+.cooper-display-screen.state-finished { background: #d3f9d8; border-color: #51cf66; color: #2b8a3e; }
+
+@keyframes pulseBorder { from { border-color: #fcc419; } to { border-color: #f59f00; } }
+
+.phase-title { font-size: 1.1rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.03em; }
+.total-timer-display { font-size: 3.6rem; font-weight: 900; line-height: 1; margin: 4px 0; font-variant-numeric: tabular-nums; }
+.phase-subtitle { font-size: 0.8rem; font-weight: 700; opacity: 0.85; margin-bottom: 12px; }
+
+/* Stats grid */
+.cooper-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 10px; }
+.stat-box { background: rgba(255,255,255,0.8); padding: 8px 4px; border-radius: 8px; display: flex; flex-direction: column; align-items: center; }
+.stat-box.highlight { background: #ffffff; border: 1px solid #a5d8ff; }
+.stat-value { font-size: 1.2rem; font-weight: 900; color: #212529; }
+.stat-label { font-size: 0.58rem; font-weight: 800; color: #868e96; margin-top: 2px; }
+
+.delta-badge {
+  padding: 6px 12px; border-radius: 8px; font-weight: 800; font-size: 0.82rem; display: inline-block;
+}
+.delta-neutral { background: #e9ecef; color: #495057; }
+.delta-ahead { background: #d3f9d8; color: #2b8a3e; }
+.delta-behind { background: #ffe3e3; color: #c92a2a; }
+
+/* Action zone (Lap Button) */
+.cooper-action-zone { margin-bottom: 10px; }
+.btn--lap {
+  width: 100%; padding: 14px; font-size: 1.1rem; font-weight: 900; border-radius: 12px;
+  background: #12b886; color: white; border: none; cursor: pointer; box-shadow: 0 4px 12px rgba(18, 184, 134, 0.3);
+  transition: all 0.1s ease;
+}
+.btn--lap:active:not(:disabled) { transform: scale(0.98); background: #0ca678; }
+.btn--lap:disabled { opacity: 0.4; cursor: not-allowed; box-shadow: none; }
+
+/* Progress bar */
+.cooper-progress-container { margin-bottom: 12px; text-align: left; }
+.progress-label-row { display: flex; justify-content: space-between; font-size: 0.68rem; font-weight: 800; color: #868e96; margin-bottom: 4px; }
+.progress-bar-track { background: #e9ecef; height: 8px; border-radius: 4px; overflow: hidden; }
+.progress-bar-fill { background: #228be6; height: 100%; width: 0%; transition: width 0.2s linear; }
+
+/* Controls */
+.cooper-controls { display: flex; gap: 8px; margin-bottom: 12px; }
+.cooper-controls button { flex: 1; padding: 12px; font-size: 1rem; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; }
+.btn--primary { background: #228be6; color: white; }
+.btn--secondary { background: #868e96; color: white; }
+.btn--warning { background: #fa5252; color: white; }
+
+/* Log Table */
+.cooper-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0 0 6px 0; color: #495057; }
+.cooper-log-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+.cooper-log-table th { background: #f8f9fa; padding: 6px; border-bottom: 2px solid #dee2e6; text-align: center; }
+.cooper-log-table td { padding: 5px 6px; border-bottom: 1px solid #f1f3f5; text-align: center; }
+
+.cooper-download-zone { padding-top: 10px; border-top: 1px dashed #e9ecef; }
+.btn--download { background: transparent; color: #6c757d; border: 1px solid #ced4da; padding: 6px 12px; font-size: 0.78rem; font-weight: 700; border-radius: 6px; cursor: pointer; }
+.btn--download:hover:not(:disabled) { background: #f8f9fa; color: #212529; }
+
+.cooper-controls button:disabled, .btn--download:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const TOTAL_TEST_TIME = 720; // 12 minutter i sekunder
+
+  let isRunning = false;
+  let hasStarted = false;
+  let startTime = 0;
+  let pausedTime = 0;
+  let totalElapsed = 0;
+
+  let animFrameId = null;
+  let audioCtx = null;
+  let wakeLock = null;
+
+  let selectedTargetDist = 2800;
+  let selectedSound = 'on';
+
+  let currentLaps = 0;
+  let lapTimes = [];
+  let lastPacerBeepLap = 0;
+  let hasSignaled6Min = false;
+  let hasSignaled11Min = false;
+
+  const widget = document.querySelector(".cooper-widget");
+  if (!widget) return;
+
+  const displayScreen = widget.querySelector(".cooper-display-screen");
+  const phaseTitle = widget.querySelector(".phase-title");
+  const totalTimerDisplay = widget.querySelector(".total-timer-display");
+  const targetPaceText = widget.querySelector(".target-pace-text");
+  const targetLapText = widget.querySelector(".target-lap-text");
+
+  const currentLapsDisplay = widget.querySelector(".current-laps-display");
+  const predDistDisplay = widget.querySelector(".pred-dist-display");
+  const liveVo2Display = widget.querySelector(".live-vo2-display");
+  const deltaBadge = widget.querySelector(".delta-badge");
+
+  const progressBarFill = widget.querySelector(".progress-bar-fill");
+  const progressPctDisplay = widget.querySelector(".progress-pct-display");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const btnLap = widget.querySelector(".btn-lap");
+  const btnStart = widget.querySelector(".btn-start");
+  const btnPause = widget.querySelector(".btn-pause");
+  const btnReset = widget.querySelector(".btn-reset");
+  const btnDownload = widget.querySelector(".btn-download");
+
+  const logWrapper = widget.querySelector(".cooper-log-wrapper");
+  const logTbody = widget.querySelector(".log-tbody");
+
+  const infoModal = widget.querySelector(".cooper-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  function formatTime(secs) {
+    const m = Math.floor(secs / 60).toString().padStart(2, '0');
+    const s = Math.floor(secs % 60).toString().padStart(2, '0');
+    return `${m}:${s}`;
+  }
+
+  function calcVO2Max(distanceMeters) {
+    if (distanceMeters <= 504) return "0.0";
+    return ((distanceMeters - 504.9) / 44.73).toFixed(1);
+  }
+
+  function getTargetLapTime() {
+    const lapsNeeded = selectedTargetDist / 400;
+    return TOTAL_TEST_TIME / lapsNeeded; // sekunder pr. 400m
+  }
+
+  function updateTargetInfo() {
+    const lapSecs = getTargetLapTime();
+    targetLapText.textContent = formatTime(lapSecs);
+
+    const paceSecsPerKm = (TOTAL_TEST_TIME / selectedTargetDist) * 1000;
+    targetPaceText.textContent = `${formatTime(paceSecsPerKm)} min/km`;
+
+    predDistDisplay.textContent = `${selectedTargetDist}m`;
+    liveVo2Display.textContent = calcVO2Max(selectedTargetDist);
+  }
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (isRunning) return;
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+
+  setupToggleGroup("target-toggle", (val) => { selectedTargetDist = parseInt(val); updateTargetInfo(); });
+  setupToggleGroup("sound-toggle", (val) => { selectedSound = val; });
+
+  function playBeep(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+
+    const now = audioCtx.currentTime;
+    if (type === 'pacer') { // 400m target split beep
+      osc.frequency.value = 880;
+      gain.gain.setValueAtTime(0.2, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+      osc.start(now); osc.stop(now + 0.2);
+    } else if (type === 'ahead') { // Good lap
+      osc.frequency.value = 1200;
+      gain.gain.setValueAtTime(0.25, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+      osc.start(now); osc.stop(now + 0.15);
+    } else if (type === 'behind') { // Slow lap
+      osc.frequency.value = 450;
+      gain.gain.setValueAtTime(0.25, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+      osc.start(now); osc.stop(now + 0.25);
+    } else if (type === 'chime') { // 6 min / 11 min / finish
+      [1000, 1300, 1600].forEach((freq, idx) => {
+        const o = audioCtx.createOscillator();
+        const g = audioCtx.createGain();
+        o.connect(g); g.connect(audioCtx.destination);
+        o.frequency.value = freq;
+        g.gain.setValueAtTime(0.3, now + (idx * 0.15));
+        g.gain.exponentialRampToValueAtTime(0.001, now + (idx * 0.15) + 0.3);
+        o.start(now + (idx * 0.15)); o.stop(now + (idx * 0.15) + 0.3);
+      });
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function update() {
+    if (!isRunning) return;
+
+    const now = performance.now();
+    totalElapsed = (now - startTime) / 1000;
+    const remainingSecs = Math.max(0, TOTAL_TEST_TIME - totalElapsed);
+
+    // Nedtællingstimer (12:00 -> 00:00)
+    totalTimerDisplay.textContent = formatTime(remainingSecs);
+
+    // Automatisk Pacer Bip (Når tiden matcher en teoretisk 400m omgang)
+    const lapSecs = getTargetLapTime();
+    const targetLapsPassed = Math.floor(totalElapsed / lapSecs);
+    if (targetLapsPassed > lastPacerBeepLap && targetLapsPassed > 0) {
+      lastPacerBeepLap = targetLapsPassed;
+      playBeep('pacer');
+    }
+
+    // Taktiske alarmer
+    if (totalElapsed >= 360 && !hasSignaled6Min) { // 6:00 Halvvejs
+      hasSignaled6Min = true;
+      playBeep('chime');
+    }
+    if (totalElapsed >= 660 && !hasSignaled11Min) { // 11:00 Slutspurt
+      hasSignaled11Min = true;
+      playBeep('chime');
+    }
+
+    if (totalElapsed >= TOTAL_TEST_TIME) {
+      finishTest();
+      return;
+    } else if (totalElapsed >= 660) {
+      displayScreen.className = "cooper-display-screen state-sprint";
+      phaseTitle.textContent = "⚡ SIDSTE MINUT – SLUTSPURT!";
+    } else {
+      displayScreen.className = "cooper-display-screen state-running";
+      phaseTitle.textContent = "🏃 TEST I GANG";
+    }
+
+    const pct = Math.min(100, Math.round((totalElapsed / TOTAL_TEST_TIME) * 100));
+    progressBarFill.style.width = `${pct}%`;
+    progressPctDisplay.textContent = `${pct}%`;
+
+    animFrameId = requestAnimationFrame(update);
+  }
+
+  function recordLap() {
+    if (!isRunning) return;
+    currentLaps++;
+    currentLapsDisplay.textContent = currentLaps;
+
+    const lapSecs = getTargetLapTime();
+    const targetTimeForLap = currentLaps * lapSecs;
+    const actualTimeForLap = totalElapsed;
+    const diffSecs = actualTimeForLap - targetTimeForLap; // Negativt = hurtigere end målet
+
+    // Estimeret slutdistance ud fra gennemsnitstempo
+    const avgSecsPerLap = actualTimeForLap / currentLaps;
+    const estTotalLaps = TOTAL_TEST_TIME / avgSecsPerLap;
+    const estTotalDistance = Math.round(estTotalLaps * 400);
+
+    predDistDisplay.textContent = `${estTotalDistance}m`;
+    liveVo2Display.textContent = calcVO2Max(estTotalDistance);
+
+    // Live Delta Badge opdatering
+    if (Math.abs(diffSecs) < 1.5) {
+      deltaBadge.className = "delta-badge delta-neutral";
+      deltaBadge.textContent = "🎯 Præcis på måltempo!";
+      playBeep('ahead');
+    } else if (diffSecs < 0) {
+      deltaBadge.className = "delta-badge delta-ahead";
+      deltaBadge.textContent = `🚀 ${Math.abs(diffSecs).toFixed(1)}s foran planen!`;
+      playBeep('ahead');
+    } else {
+      deltaBadge.className = "delta-badge delta-behind";
+      deltaBadge.textContent = `⚠️ ${diffSecs.toFixed(1)}s bagud planen`;
+      playBeep('behind');
+    }
+
+    // Log i tabellen
+    logWrapper.style.display = "block";
+    const tr = document.createElement("tr");
+    const statusText = diffSecs <= 0 ? `<span style="color:#2b8a3e;font-weight:bold;">-${Math.abs(diffSecs).toFixed(1)}s</span>` : `<span style="color:#c92a2a;font-weight:bold;">+${diffSecs.toFixed(1)}s</span>`;
+    tr.innerHTML = `
+      <td><strong>${currentLaps}. omgang</strong></td>
+      <td>${currentLaps * 400}m</td>
+      <td>${formatTime(targetTimeForLap)}</td>
+      <td>${formatTime(actualTimeForLap)}</td>
+      <td>${statusText}</td>
+    `;
+    logTbody.insertBefore(tr, logTbody.firstChild);
+  }
+
+  function startTest() {
+    if (isRunning) return;
+    isRunning = true;
+    requestWakeLock();
+
+    btnStart.disabled = true;
+    btnPause.disabled = false;
+    btnReset.disabled = false;
+    btnLap.disabled = false;
+
+    if (!hasStarted) {
+      hasStarted = true;
+      startTime = performance.now();
+    } else {
+      startTime = performance.now() - pausedTime;
+    }
+
+    animFrameId = requestAnimationFrame(update);
+  }
+
+  function pauseTest() {
+    if (!isRunning) return;
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    pausedTime = performance.now() - startTime;
+    btnStart.disabled = false;
+    btnStart.textContent = "Genoptag Test";
+    btnPause.disabled = true;
+    btnLap.disabled = true;
+
+    displayScreen.className = "cooper-display-screen state-idle";
+    phaseTitle.textContent = "Pauset";
+  }
+
+  function finishTest() {
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    playBeep('chime');
+    totalTimerDisplay.textContent = "00:00";
+    progressBarFill.style.width = "100%";
+    progressPctDisplay.textContent = "100%";
+
+    displayScreen.className = "cooper-display-screen state-finished";
+    phaseTitle.textContent = "🎉 12 MINUTTER GENNEMFØRT";
+    btnStart.disabled = true;
+    btnPause.disabled = true;
+    btnLap.disabled = true;
+  }
+
+  function resetTest() {
+    if (isRunning || hasStarted) {
+      if (!confirm("Vil du nulstille Cooper-testen?")) return;
+    }
+    isRunning = false;
+    hasStarted = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    totalElapsed = 0;
+    currentLaps = 0;
+    lastPacerBeepLap = 0;
+    hasSignaled6Min = false;
+    hasSignaled11Min = false;
+
+    btnStart.disabled = false;
+    btnStart.textContent = "Start Test";
+    btnPause.disabled = true;
+    btnReset.disabled = true;
+    btnLap.disabled = true;
+
+    currentLapsDisplay.textContent = "0";
+    deltaBadge.className = "delta-badge delta-neutral";
+    deltaBadge.textContent = "Ingen omgange registreret endnu";
+
+    logTbody.innerHTML = "";
+    logWrapper.style.display = "none";
+
+    totalTimerDisplay.textContent = "12:00";
+    progressBarFill.style.width = "0%";
+    progressPctDisplay.textContent = "0%";
+
+    displayScreen.className = "cooper-display-screen state-idle";
+    phaseTitle.textContent = "Klar til start";
+    updateTargetInfo();
+  }
+
+  // Generer WAV Pacer Lydfil
+  async function generateWavFile() {
+    btnDownload.disabled = true;
+    const origText = btnDownload.textContent;
+    btnDownload.textContent = "⏳ Genererer lydfil...";
+
+    const lapSecs = getTargetLapTime();
+    const lapsTotal = Math.floor(TOTAL_TEST_TIME / lapSecs);
+
+    let events = [];
+    for (let i = 1; i <= lapsTotal; i++) {
+      events.push({ time: i * lapSecs, type: 'pacer' });
+    }
+    events.push({ time: 360, type: 'chime' }); // 6 min
+    events.push({ time: 660, type: 'chime' }); // 11 min
+    events.push({ time: 720, type: 'chime' }); // 12 min
+
+    const sampleRate = 16000;
+    const totalSamples = Math.ceil(sampleRate * 722);
+
+    try {
+      const offlineCtx = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(1, totalSamples, sampleRate);
+      
+      events.forEach(ev => {
+        if (ev.type === 'pacer') {
+          const osc = offlineCtx.createOscillator();
+          const gain = offlineCtx.createGain();
+          osc.connect(gain); gain.connect(offlineCtx.destination);
+          osc.frequency.value = 880;
+          gain.gain.setValueAtTime(0.2, ev.time);
+          gain.gain.exponentialRampToValueAtTime(0.001, ev.time + 0.2);
+          osc.start(ev.time); osc.stop(ev.time + 0.2);
+        } else {
+          [1000, 1300, 1600].forEach((freq, idx) => {
+            const osc = offlineCtx.createOscillator();
+            const gain = offlineCtx.createGain();
+            osc.connect(gain); gain.connect(offlineCtx.destination);
+            osc.frequency.value = freq;
+            gain.gain.setValueAtTime(0.3, ev.time + (idx * 0.15));
+            gain.gain.exponentialRampToValueAtTime(0.001, ev.time + (idx * 0.15) + 0.3);
+            osc.start(ev.time + (idx * 0.15)); osc.stop(ev.time + (idx * 0.15) + 0.3);
+          });
+        }
+      });
+
+      const renderedBuffer = await offlineCtx.startRendering();
+      let result = new Float32Array(renderedBuffer.length);
+      renderedBuffer.copyFromChannel(result, 0, 0);
+      let dataLength = result.length * 2;
+      let buffer = new ArrayBuffer(44 + dataLength);
+      let view = new DataView(buffer);
+
+      function writeString(v, offset, str) { for (let i = 0; i < str.length; i++) v.setUint8(offset + i, str.charCodeAt(i)); }
+      writeString(view, 0, 'RIFF'); view.setUint32(4, 36 + dataLength, true); writeString(view, 8, 'WAVE'); writeString(view, 12, 'fmt ');
+      view.setUint32(16, 16, true); view.setUint16(20, 1, true); view.setUint16(22, 1, true); view.setUint32(24, sampleRate, true);
+      view.setUint32(28, sampleRate * 2, true); view.setUint16(32, 2, true); view.setUint16(34, 16, true); writeString(view, 36, 'data');
+      view.setUint32(40, dataLength, true);
+
+      let offset = 44;
+      for (let i = 0; i < result.length; i++, offset += 2) {
+        let s = Math.max(-1, Math.min(1, result[i]));
+        view.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+      }
+
+      const blob = new Blob([view], { type: 'audio/wav' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `cooper-pacer-${selectedTargetDist}m.wav`;
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      alert("Fejl ved generering af lydfil.");
+    }
+
+    btnDownload.textContent = origText;
+    btnDownload.disabled = false;
+  }
+
+  btnLap.addEventListener("click", recordLap);
+  btnStart.addEventListener("click", startTest);
+  btnPause.addEventListener("click", pauseTest);
+  btnReset.addEventListener("click", resetTest);
+  btnDownload.addEventListener("click", generateWavFile);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  updateTargetInfo();
+});
+</script>

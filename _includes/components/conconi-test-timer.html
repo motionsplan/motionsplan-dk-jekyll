@@ -1,0 +1,848 @@
+<div class="conconi-widget">
+  
+  <!-- Info Modal -->
+  <div class="conconi-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Conconi-testen</h4>
+        <span class="modal-subtitle-text">Trinvis banetest til bestemmelse af den anaerobe tærskel (HRdp)</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>SÅDAN UDFØRES TESTEN:</strong><br>
+        1. Vælg din start-hastighed (fx 8,0 km/t eller 10,0 km/t).<br>
+        2. Hver gang du hører bippet, skal du passere den næste 200m kegle på atletikbanen.<br>
+        3. Farten øges med <strong>0,5 km/t for hver 200m</strong>.<br>
+        4. Notér din puls ved hver 200m passage.<br>
+        5. Fortsæt indtil du ikke længere kan holde tempoet.<br>
+        6. Tjek grafen og tærskelberegneren nederst: Modulet finder automatisk det punkt, hvor pulstigningen begynder at flade ud (din anaerobe tærskel / HRdp).
+      </p>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="conconi-topbar">
+    <div class="conconi-header-card">
+      <div class="card-text-group">
+        <div class="card-title-row">
+          <span class="card-title">Conconi Løbetest & Tærskelberegner</span>
+          <button class="info-icon-btn" type="button" title="Læs om testen">ℹ️</button>
+        </div>
+        <div class="card-desc">Bip-styret tempo (+0,5 km/t pr. 200m) med automatisk beregning af anaerob tærskel.</div>
+      </div>
+    </div>
+
+    <!-- Indstillinger -->
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <span class="setting-label">Startfart:</span>
+        <div class="btn-toggle-group" id="speed-toggle">
+          <button type="button" class="toggle-btn" data-val="8">8 km/t</button>
+          <button type="button" class="toggle-btn active" data-val="10">10 km/t</button>
+          <button type="button" class="toggle-btn" data-val="12">12 km/t</button>
+        </div>
+      </div>
+
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- Hoved-skærm -->
+  <div class="conconi-display-screen state-idle">
+    
+    <!-- Løbebane Visualisering -->
+    <div class="track-viz-container">
+      <svg width="100%" viewBox="0 0 400 160" preserveAspectRatio="xMidYMid meet">
+        <rect x="50" y="10" width="300" height="140" rx="70" ry="70" fill="#ebfbee"/>
+        <path id="track-path" d="M 200,140 L 300,140 A 60,60 0 0,0 300,20 L 100,20 A 60,60 0 0,0 100,140 Z" fill="none" stroke="#e03131" stroke-width="26"/>
+        <path d="M 200,140 L 300,140 A 60,60 0 0,0 300,20 L 100,20 A 60,60 0 0,0 100,140 Z" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+        <circle cx="200" cy="140" r="6" fill="#fcc419" stroke="#212529" stroke-width="2"/>
+        <circle cx="200" cy="20" r="6" fill="#fcc419" stroke="#212529" stroke-width="2"/>
+        <text x="200" y="123" font-size="10" text-anchor="middle" font-weight="bold" fill="#495057">START (0m)</text>
+        <text x="200" y="44" font-size="10" text-anchor="middle" font-weight="bold" fill="#495057">200m MÆRKE</text>
+        <circle id="runner-dot" cx="200" cy="140" r="8" fill="#228be6" stroke="#ffffff" stroke-width="2"/>
+      </svg>
+    </div>
+
+    <div class="phase-title">Klar til start</div>
+    <div class="total-timer-display">00:00</div>
+    
+    <!-- Speed & Lap Info -->
+    <div class="conconi-stats-grid">
+      <div class="stat-box highlight">
+        <span class="stat-value speed-display">10.0 km/t</span>
+        <span class="stat-label">NUVÆRENDE FART</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-value lap-time-display">01:12</span>
+        <span class="stat-label">200M SKÆRINGSTID</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-value dist-display">0 m</span>
+        <span class="stat-label">TOTAL DISTANCE</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- BREDERE OG MERE RUMMELIGT PULSFELT -->
+  <div class="conconi-pulse-input-card">
+    <div class="pulse-input-header">⚡ REGISTRÉR PULS VED 200M SKÆRING</div>
+    <div class="pulse-input-row">
+      <div class="input-group-large">
+        <input type="number" id="hr-input" class="hr-input-field" placeholder="150" min="40" max="230" step="1">
+        <span class="bpm-unit">bpm</span>
+      </div>
+      <button class="btn btn--log-hr btn-save-hr" type="button">💾 GEM PULS</button>
+    </div>
+  </div>
+
+  <!-- Progress Bar (Trin) -->
+  <div class="conconi-progress-container">
+    <div class="progress-label-row">
+      <span class="progress-stage-label">TRIN 1 (200m)</span>
+      <span class="next-beep-label">Næste bip om: --s</span>
+    </div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- Kontroller -->
+  <div class="conconi-controls">
+    <button class="btn btn--primary btn-start">Start Test</button>
+    <button class="btn btn--secondary btn-pause" disabled>Pause</button>
+    <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
+  </div>
+
+  <!-- Omgangslog & Pulskurve Tabel med Underoverskrift -->
+  <div class="conconi-log-wrapper">
+    <div class="log-header-row">
+      <div class="log-title-group">
+        <h5 class="log-title">Conconi Datatabel (Redigerbar)</h5>
+        <div class="log-subtitle">Klar til at registrere puls for hver 200 meter</div>
+      </div>
+      <button class="btn btn--add-row btn-add-row" type="button">➕ Tilføj ekstra række</button>
+    </div>
+    <table class="conconi-log-table">
+      <thead>
+        <tr>
+          <th>Trin</th>
+          <th>Distance</th>
+          <th>Hastighed (km/t)</th>
+          <th>Måltid</th>
+          <th>Puls (bpm)</th>
+          <th>Slet</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody"></tbody>
+    </table>
+  </div>
+
+  <!-- CONCONI GRAF & BEREGNER SECTION -->
+  <div class="conconi-chart-wrapper">
+    <div class="chart-header-row">
+      <h5 class="chart-title">📈 Conconi Pulskurve (Hastighed vs. Puls)</h5>
+      
+      <!-- Model-Vælger Dropdown -->
+      <div class="method-selector-group">
+        <label for="method-select" class="method-label">Metode:</label>
+        <select id="method-select" class="method-select-box">
+          <option value="bilinear" selected>To-delt Regression (Bilinear)</option>
+          <option value="dmax">D-max Metoden</option>
+          <option value="none">Ingen (Visuel Inspektion)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Tærskel Resultat-Badge med ét enkelt ikon -->
+    <div class="threshold-result-card neutral" id="threshold-result-card">
+      <span class="threshold-icon" id="threshold-icon">ℹ️</span>
+      <span class="threshold-text" id="threshold-text">Indtast mindst 4 pulsværdier for at beregne den anaerobe tærskel</span>
+    </div>
+
+    <div class="chart-container">
+      <svg id="conconi-svg-chart" width="100%" height="240" viewBox="0 0 500 240" preserveAspectRatio="none">
+        <!-- SVG graf genereres dynamisk via JavaScript -->
+      </svg>
+    </div>
+    <div class="chart-legend">
+      <span class="legend-item"><span class="legend-dot"></span> Puls (bpm)</span>
+      <span class="legend-item"><span class="legend-target-dot"></span> Beregnet Tærskel (HRdp)</span>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.conconi-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 20px;
+  max-width: 680px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.conconi-widget * { box-sizing: border-box; }
+
+.conconi-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; text-align: left; }
+.conconi-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 12px 14px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.conconi-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Knapper */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 8px; margin-top: 4px; flex-wrap: nowrap; width: 100%; }
+.setting-item { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
+.setting-label { font-size: 0.72rem; font-weight: 800; color: #495057; white-space: nowrap; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; flex-shrink: 0; }
+.toggle-btn { background: transparent; border: none; padding: 3px 6px; font-size: 0.72rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; white-space: nowrap; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; white-space: nowrap; }
+.wakelock-status.active { opacity: 1; }
+
+/* Display skærm */
+.conconi-display-screen { padding: 16px; border-radius: 16px; margin-bottom: 12px; background: #f1f3f5; border: 3px solid #dee2e6; color: #343a40; position: relative; }
+.track-viz-container { margin: 0 auto 12px; max-width: 380px; width: 100%; }
+.conconi-display-screen.state-running { background: #e7f5ff; border-color: #a5d8ff; color: #1c7ed6; }
+.conconi-display-screen.state-beep { background: #fff9db; border-color: #fcc419; color: #f59f00; }
+.conconi-display-screen.state-beep #runner-dot { fill: #fcc419; stroke: #212529; transform: scale(1.3); }
+
+.phase-title { font-size: 1.1rem; font-weight: 900; text-transform: uppercase; }
+.total-timer-display { font-size: 3.6rem; font-weight: 900; line-height: 1; margin: 4px 0; font-variant-numeric: tabular-nums; }
+
+.conconi-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 10px; }
+.stat-box { background: rgba(255,255,255,0.85); padding: 8px 4px; border-radius: 8px; display: flex; flex-direction: column; align-items: center; }
+.stat-box.highlight { background: #ffffff; border: 1px solid #a5d8ff; }
+.stat-value { font-size: 1.2rem; font-weight: 900; color: #212529; }
+.stat-label { font-size: 0.58rem; font-weight: 800; color: #868e96; margin-top: 2px; }
+
+/* BREDERE Touch-venligt Pulsfelt */
+.conconi-pulse-input-card { background: #e7f5ff; border: 2px solid #74c0fc; border-radius: 14px; padding: 14px 18px; margin-bottom: 14px; }
+.pulse-input-header { font-size: 0.78rem; font-weight: 900; color: #1864ab; margin-bottom: 10px; letter-spacing: 0.03em; }
+.pulse-input-row { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; }
+.input-group-large { display: flex; align-items: center; gap: 8px; background: #ffffff; padding: 6px 14px; border-radius: 10px; border: 2px solid #a5d8ff; min-width: 130px; }
+.hr-input-field { width: 95px; border: none; font-size: 1.6rem; font-weight: 900; text-align: center; color: #1e293b; background: transparent; outline: none; }
+.bpm-unit { font-size: 0.95rem; font-weight: 800; color: #475569; }
+
+.btn--log-hr { background: #12b886; color: white; border: none; padding: 12px 22px; border-radius: 10px; font-weight: 900; font-size: 1rem; cursor: pointer; box-shadow: 0 4px 12px rgba(18, 184, 134, 0.3); transition: transform 0.1s ease; }
+.btn--log-hr:active { transform: scale(0.96); }
+
+/* Progress bar */
+.conconi-progress-container { margin-bottom: 12px; text-align: left; }
+.progress-label-row { display: flex; justify-content: space-between; font-size: 0.68rem; font-weight: 800; color: #868e96; margin-bottom: 4px; }
+.progress-bar-track { background: #e9ecef; height: 8px; border-radius: 4px; overflow: hidden; }
+.progress-bar-fill { background: #228be6; height: 100%; width: 0%; transition: width 0.1s linear; }
+
+/* Controls */
+.conconi-controls { display: flex; gap: 8px; margin-bottom: 16px; }
+.conconi-controls button { flex: 1; padding: 12px; font-size: 1rem; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; }
+.btn--primary { background: #228be6; color: white; }
+.btn--secondary { background: #868e96; color: white; }
+.btn--warning { background: #fa5252; color: white; }
+
+/* Redigerbar Tabel med Underoverskrift */
+.conconi-log-wrapper { margin-top: 16px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 12px; }
+.log-header-row { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; flex-wrap: wrap; gap: 8px; }
+.log-title-group { display: flex; flex-direction: column; gap: 2px; }
+.log-title { font-size: 0.90rem; font-weight: 800; margin: 0; color: #343a40; }
+.log-subtitle { font-size: 0.75rem; font-weight: 600; color: #6c757d; }
+
+.btn--add-row { background: #e7f5ff; color: #1c7ed6; border: 1px solid #a5d8ff; padding: 6px 12px; border-radius: 6px; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.conconi-log-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+.conconi-log-table th { background: #f8f9fa; padding: 6px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; }
+.conconi-log-table td { padding: 4px 6px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+/* Fremhævet Tærskel-række i tabel */
+.conconi-log-table tr.threshold-row { background: #fff3bf !important; border-left: 4px solid #f59f00; }
+.conconi-log-table tr.threshold-row td { font-weight: 900; color: #212529; }
+
+.table-input-speed, .table-input-hr { width: 65px; padding: 4px; border: 1px solid #ced4da; border-radius: 6px; text-align: center; font-weight: 800; font-size: 0.82rem; }
+.table-input-hr { color: #e67700; background: #fff9db; border-color: #fcc419; }
+.btn-delete-row { background: transparent; border: none; color: #fa5252; font-size: 1rem; cursor: pointer; padding: 2px 6px; display: none; }
+
+/* Graf Section */
+.conconi-chart-wrapper { margin-top: 20px; text-align: left; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 14px; }
+.chart-header-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+.chart-title { font-size: 0.88rem; font-weight: 800; margin: 0; color: #343a40; }
+
+.method-selector-group { display: flex; align-items: center; gap: 6px; }
+.method-label { font-size: 0.75rem; font-weight: 800; color: #495057; }
+.method-select-box { padding: 4px 8px; border-radius: 6px; border: 1px solid #ced4da; font-weight: 800; font-size: 0.75rem; background: #ffffff; color: #212529; outline: none; }
+
+/* Result Card */
+.threshold-result-card { padding: 10px 14px; border-radius: 8px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; font-size: 0.82rem; font-weight: 800; }
+.threshold-result-card.success { background: #d3f9d8; border: 1px solid #51cf66; color: #2b8a3e; }
+.threshold-result-card.warning { background: #fff3bf; border: 1px solid #fcc419; color: #e67700; }
+.threshold-result-card.neutral { background: #f1f3f5; border: 1px solid #ced4da; color: #495057; }
+.threshold-icon { font-size: 1.1rem; line-height: 1; flex-shrink: 0; }
+
+.chart-container { background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 8px; position: relative; }
+.chart-legend { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; font-size: 0.72rem; font-weight: 700; color: #6c757d; flex-wrap: wrap; gap: 8px; }
+.legend-item { display: flex; align-items: center; gap: 4px; color: #495057; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; background: #fcc419; border: 2px solid #e67700; }
+.legend-target-dot { width: 10px; height: 10px; border-radius: 50%; background: #fa5252; border: 2px solid #c92a2a; }
+
+.conconi-controls button:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let isRunning = false;
+  let hasStarted = false;
+  let startTime = 0;
+  let pausedTime = 0;
+  let totalElapsed = 0;
+
+  let animFrameId = null;
+  let audioCtx = null;
+  let wakeLock = null;
+
+  let initialSpeed = 10; 
+  let selectedSound = 'on';
+
+  let currentStage = 1;
+  let currentSpeed = 10;
+  let stageStartTime = 0;
+  let stageDuration = 0; 
+  let totalDistance = 0;
+
+  const widget = document.querySelector(".conconi-widget");
+  if (!widget) return;
+
+  const displayScreen = widget.querySelector(".conconi-display-screen");
+  const phaseTitle = widget.querySelector(".phase-title");
+  const totalTimerDisplay = widget.querySelector(".total-timer-display");
+
+  const trackPath = widget.querySelector("#track-path");
+  const runnerDot = widget.querySelector("#runner-dot");
+  let trackLength = trackPath ? trackPath.getTotalLength() : 0;
+
+  const speedDisplay = widget.querySelector(".speed-display");
+  const lapTimeDisplay = widget.querySelector(".lap-time-display");
+  const distDisplay = widget.querySelector(".dist-display");
+
+  const hrInput = widget.querySelector("#hr-input");
+  const btnSaveHr = widget.querySelector(".btn-save-hr");
+
+  const progressStageLabel = widget.querySelector(".progress-stage-label");
+  const nextBeepLabel = widget.querySelector(".next-beep-label");
+  const progressBarFill = widget.querySelector(".progress-bar-fill");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const btnStart = widget.querySelector(".btn-start");
+  const btnPause = widget.querySelector(".btn-pause");
+  const btnReset = widget.querySelector(".btn-reset");
+  const btnAddRow = widget.querySelector(".btn-add-row");
+
+  const logTbody = widget.querySelector(".log-tbody");
+  const svgChart = widget.querySelector("#conconi-svg-chart");
+  const methodSelect = widget.querySelector("#method-select");
+  const thresholdResultCard = widget.querySelector("#threshold-result-card");
+  const thresholdIcon = widget.querySelector("#threshold-icon");
+  const thresholdText = widget.querySelector("#threshold-text");
+
+  const infoModal = widget.querySelector(".conconi-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  function formatTime(secs) {
+    const m = Math.floor(secs / 60).toString().padStart(2, '0');
+    const s = Math.floor(secs % 60).toString().padStart(2, '0');
+    return `${m}:${s}`;
+  }
+
+  function getLapDurationForSpeed(speedKmH) {
+    return 720 / speedKmH;
+  }
+
+  function updateStageInfo() {
+    currentSpeed = initialSpeed + ((currentStage - 1) * 0.5);
+    stageDuration = getLapDurationForSpeed(currentSpeed);
+
+    speedDisplay.textContent = `${currentSpeed.toFixed(1)} km/t`;
+    lapTimeDisplay.textContent = formatTime(stageDuration);
+    progressStageLabel.textContent = `TRIN ${currentStage} (Mål: ${currentStage * 200}m)`;
+  }
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (isRunning) return;
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+
+  setupToggleGroup("speed-toggle", (val) => { initialSpeed = parseFloat(val); updateStageInfo(); });
+  setupToggleGroup("sound-toggle", (val) => { selectedSound = val; });
+
+  function playBeep(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain); gain.connect(audioCtx.destination);
+
+    const now = audioCtx.currentTime;
+    if (type === 'beep') {
+      osc.frequency.value = 1000;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.start(now); osc.stop(now + 0.3);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function update() {
+    if (!isRunning) return;
+
+    const now = performance.now();
+    totalElapsed = (now - startTime) / 1000;
+    const stageElapsed = totalElapsed - stageStartTime;
+    const stageRemaining = Math.max(0, stageDuration - stageElapsed);
+
+    totalTimerDisplay.textContent = formatTime(totalElapsed);
+    nextBeepLabel.textContent = `Næste bip om: ${stageRemaining.toFixed(1)}s`;
+
+    const pct = Math.min(100, Math.round((stageElapsed / stageDuration) * 100));
+    progressBarFill.style.width = `${pct}%`;
+
+    if (trackLength > 0) {
+      const currentRunDistance = totalDistance + (stageElapsed / stageDuration) * 200;
+      const trackPct = (currentRunDistance % 400) / 400; 
+      const pt = trackPath.getPointAtLength(trackPct * trackLength);
+      runnerDot.setAttribute("cx", pt.x);
+      runnerDot.setAttribute("cy", pt.y);
+    }
+
+    if (stageElapsed >= stageDuration) {
+      playBeep('beep');
+      addOrUpdateRow(currentStage, currentStage * 200, currentSpeed, stageDuration, null);
+
+      currentStage++;
+      stageStartTime = totalElapsed;
+      totalDistance = (currentStage - 1) * 200;
+      distDisplay.textContent = `${totalDistance} m`;
+
+      updateStageInfo();
+      
+      displayScreen.className = "conconi-display-screen state-beep";
+      setTimeout(() => { if (isRunning) displayScreen.className = "conconi-display-screen state-running"; }, 400);
+    }
+
+    animFrameId = requestAnimationFrame(update);
+  }
+
+  // ALGORITMER TIL BEREGNING AF ANAEROB TÆRSKEL (HRdp)
+  function linearRegression(pts) {
+    let n = pts.length;
+    let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
+    for (let p of pts) {
+      sumX += p.speed; sumY += p.hr;
+      sumXY += p.speed * p.hr; sumXX += p.speed * p.speed;
+    }
+    let denom = (n * sumXX - sumX * sumX);
+    if (denom === 0) return { m: 0, b: sumY / n };
+    let m = (n * sumXY - sumX * sumY) / denom;
+    let b = (sumY - m * sumX) / n;
+    return { m, b };
+  }
+
+  function calculateThreshold(dataPoints, method) {
+    if (!dataPoints || dataPoints.length < 4 || method === 'none') {
+      return { 
+        success: false, 
+        reason: method === 'none' ? "Visuel inspektion valgt – aflæs knækket manuelt på grafen" : "Indtast mindst 4 pulsværdier for at beregne den anaerobe tærskel" 
+      };
+    }
+
+    if (method === 'bilinear') {
+      let bestK = -1;
+      let minRss = Infinity;
+
+      for (let k = 1; k < dataPoints.length - 1; k++) {
+        const set1 = dataPoints.slice(0, k + 1);
+        const set2 = dataPoints.slice(k);
+
+        const reg1 = linearRegression(set1);
+        const reg2 = linearRegression(set2);
+
+        let rss = 0;
+        set1.forEach(p => rss += Math.pow(p.hr - (reg1.m * p.speed + reg1.b), 2));
+        set2.forEach(p => rss += Math.pow(p.hr - (reg2.m * p.speed + reg2.b), 2));
+
+        if (rss < minRss && reg1.m > reg2.m) {
+          minRss = rss;
+          bestK = k;
+        }
+      }
+
+      if (bestK !== -1) {
+        return { success: true, point: dataPoints[bestK], methodName: 'To-delt Regression' };
+      } else {
+        return { success: false, reason: "Ingen klar udfladning identificeret (brug visuel inspektion)" };
+      }
+    } else if (method === 'dmax') {
+      const pStart = dataPoints[0];
+      const pEnd = dataPoints[dataPoints.length - 1];
+      const m = (pEnd.hr - pStart.hr) / (pEnd.speed - pStart.speed);
+      const b = pStart.hr - m * pStart.speed;
+
+      let maxDist = -1;
+      let bestIndex = -1;
+
+      for (let i = 1; i < dataPoints.length - 1; i++) {
+        const pt = dataPoints[i];
+        const lineY = m * pt.speed + b;
+        const dist = pt.hr - lineY; 
+
+        if (dist > maxDist) {
+          maxDist = dist;
+          bestIndex = i;
+        }
+      }
+
+      if (bestIndex !== -1 && maxDist > 0.5) {
+        return { success: true, point: dataPoints[bestIndex], methodName: 'D-max Metoden' };
+      } else {
+        return { success: false, reason: "Ingen D-max afbøjning fundet (brug visuel inspektion)" };
+      }
+    }
+
+    return { success: false, reason: "Ukendt metode" };
+  }
+
+  // SLET-KNAP KUN PÅ SIDSTE RÆKKE
+  function updateDeleteButtons() {
+    const trs = logTbody.querySelectorAll("tr");
+    trs.forEach((tr, idx) => {
+      const delBtn = tr.querySelector(".btn-delete-row");
+      if (delBtn) {
+        delBtn.style.display = (idx === trs.length - 1 && trs.length > 0) ? "inline-block" : "none";
+      }
+    });
+  }
+
+  // Tilføj / Opdater række i datatabellen
+  function addOrUpdateRow(stageNum, distM, speedKmH, timeSecs, hrVal) {
+    let tr = logTbody.querySelector(`tr[data-stage="${stageNum}"]`);
+    
+    if (!tr) {
+      tr = document.createElement("tr");
+      tr.setAttribute("data-stage", stageNum);
+      tr.innerHTML = `
+        <td><strong>Trin ${stageNum}</strong></td>
+        <td>${distM}m</td>
+        <td><input type="number" class="table-input-speed" value="${speedKmH.toFixed(1)}" step="0.5"></td>
+        <td>${formatTime(timeSecs)}</td>
+        <td><input type="number" class="table-input-hr" placeholder="bpm" value="${hrVal || ''}"></td>
+        <td><button class="btn-delete-row" type="button" title="Slet kun sidste række">✖</button></td>
+      `;
+      logTbody.appendChild(tr);
+
+      const hrIn = tr.querySelector(".table-input-hr");
+      const speedIn = tr.querySelector(".table-input-speed");
+      const delBtn = tr.querySelector(".btn-delete-row");
+
+      hrIn.addEventListener("input", renderChart);
+      speedIn.addEventListener("input", renderChart);
+      delBtn.addEventListener("click", () => { tr.remove(); renumberStages(); renderChart(); });
+    } else {
+      if (hrVal) {
+        tr.querySelector(".table-input-hr").value = hrVal;
+      }
+    }
+
+    updateDeleteButtons();
+    renderChart();
+  }
+
+  function renumberStages() {
+    const trs = logTbody.querySelectorAll("tr");
+    trs.forEach((tr, idx) => {
+      const stageNum = idx + 1;
+      tr.setAttribute("data-stage", stageNum);
+      tr.cells[0].innerHTML = `<strong>Trin ${stageNum}</strong>`;
+      tr.cells[1].textContent = `${stageNum * 200}m`;
+    });
+    updateDeleteButtons();
+  }
+
+  function saveHeartRate() {
+    const val = parseInt(hrInput.value);
+    if (isNaN(val) || val < 40 || val > 230) {
+      alert("Indtast venligst en gyldig puls (fx 155)");
+      return;
+    }
+    addOrUpdateRow(currentStage, currentStage * 200, currentSpeed, stageDuration, val);
+    hrInput.value = "";
+    hrInput.focus();
+  }
+
+  // TEGN CONCONI GRAF & MARKÉR TÆRSKEL
+  function renderChart() {
+    const trs = Array.from(logTbody.querySelectorAll("tr"));
+    
+    // Nulstil tabel-fremhævninger
+    trs.forEach(tr => tr.classList.remove("threshold-row"));
+
+    if (trs.length === 0) {
+      svgChart.innerHTML = '<text x="250" y="120" text-anchor="middle" font-size="12" fill="#adb5bd">Ingen data i tabellen endnu</text>';
+      thresholdResultCard.className = "threshold-result-card neutral";
+      thresholdIcon.textContent = "ℹ️";
+      thresholdText.textContent = "Indtast mindst 4 pulsværdier for at beregne den anaerobe tærskel";
+      return;
+    }
+
+    let dataPoints = [];
+    trs.forEach(tr => {
+      const stage = parseInt(tr.getAttribute("data-stage"));
+      const speed = parseFloat(tr.querySelector(".table-input-speed").value);
+      const hr = parseInt(tr.querySelector(".table-input-hr").value);
+      if (!isNaN(speed) && !isNaN(hr)) {
+        dataPoints.push({ stage, speed, hr });
+      }
+    });
+
+    if (dataPoints.length === 0) {
+      svgChart.innerHTML = '<text x="250" y="120" text-anchor="middle" font-size="12" fill="#adb5bd">Indtast pulsværdier i tabellen for at generere grafen</text>';
+      thresholdResultCard.className = "threshold-result-card neutral";
+      thresholdIcon.textContent = "ℹ️";
+      thresholdText.textContent = "Indtast pulsværdier i tabellen for at starte tærskelanalysen";
+      return;
+    }
+
+    dataPoints.sort((a, b) => a.speed - b.speed);
+
+    // Kør Tærskelberegning
+    const selectedMethod = methodSelect.value;
+    const calcResult = calculateThreshold(dataPoints, selectedMethod);
+
+    // Opdater Resultat-Card & Tabel-fremhævning UDEN dobbelte ikoner
+    if (calcResult.success) {
+      thresholdResultCard.className = "threshold-result-card success";
+      thresholdIcon.textContent = "🎯";
+      thresholdText.innerHTML = `BEREGNET ANAEROB TÆRSKEL: <strong>${calcResult.point.speed.toFixed(1)} km/t</strong> v. <strong>${calcResult.point.hr} bpm</strong> (${calcResult.methodName})`;
+      
+      const matchTr = logTbody.querySelector(`tr[data-stage="${calcResult.point.stage}"]`);
+      if (matchTr) {
+        matchTr.classList.add("threshold-row");
+      }
+    } else {
+      thresholdResultCard.className = "threshold-result-card warning";
+      thresholdIcon.textContent = "⚠️";
+      thresholdText.textContent = calcResult.reason;
+    }
+
+    // Graf-skalering
+    const minSpeed = Math.min(...dataPoints.map(d => d.speed)) - 0.5;
+    const maxSpeed = Math.max(...dataPoints.map(d => d.speed)) + 0.5;
+    const minHr = Math.min(...dataPoints.map(d => d.hr)) - 10;
+    const maxHr = Math.max(...dataPoints.map(d => d.hr)) + 10;
+
+    const width = 500;
+    const height = 240;
+    const padL = 45;
+    const padR = 25;
+    const padT = 25;
+    const padB = 35;
+
+    function getX(speed) {
+      return padL + ((speed - minSpeed) / (maxSpeed - minSpeed)) * (width - padL - padR);
+    }
+    function getY(hr) {
+      return height - padB - ((hr - minHr) / (maxHr - minHr)) * (height - padT - padB);
+    }
+
+    let svgHtml = '';
+
+    // Gitterlinjer
+    const hrStep = Math.ceil((maxHr - minHr) / 4);
+    for (let h = Math.floor(minHr); h <= maxHr; h += hrStep) {
+      const y = getY(h);
+      svgHtml += `<line x1="${padL}" y1="${y}" x2="${width - padR}" y2="${y}" stroke="#f1f3f5" stroke-width="1"/>`;
+      svgHtml += `<text x="${padL - 6}" y="${y + 4}" font-size="9" text-anchor="end" fill="#868e96" font-weight="bold">${Math.round(h)}</text>`;
+    }
+
+    // X-akse hastigheder
+    dataPoints.forEach(pt => {
+      const x = getX(pt.speed);
+      svgHtml += `<text x="${x}" y="${height - 10}" font-size="9" text-anchor="middle" fill="#495057" font-weight="bold">${pt.speed.toFixed(1)}</text>`;
+    });
+
+    // Pulskurve linje
+    let pathD = '';
+    dataPoints.forEach((pt, i) => {
+      const x = getX(pt.speed);
+      const y = getY(pt.hr);
+      pathD += (i === 0 ? `M ${x},${y}` : ` L ${x},${y}`);
+    });
+    svgHtml += `<path d="${pathD}" fill="none" stroke="#e67700" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>`;
+
+    // Sigtekorn for tærskel
+    if (calcResult.success) {
+      const tx = getX(calcResult.point.speed);
+      const ty = getY(calcResult.point.hr);
+      svgHtml += `<line x1="${tx}" y1="${padT}" x2="${tx}" y2="${height - padB}" stroke="#fa5252" stroke-width="1.5" stroke-dasharray="4,4"/>`;
+      svgHtml += `<line x1="${padL}" y1="${ty}" x2="${width - padR}" y2="${ty}" stroke="#fa5252" stroke-width="1.5" stroke-dasharray="4,4"/>`;
+    }
+
+    // Datapunkter
+    dataPoints.forEach(pt => {
+      const x = getX(pt.speed);
+      const y = getY(pt.hr);
+      const isTarget = calcResult.success && pt.stage === calcResult.point.stage;
+
+      if (isTarget) {
+        svgHtml += `<circle cx="${x}" cy="${y}" r="8" fill="#fa5252" stroke="#ffffff" stroke-width="2"/>`;
+        svgHtml += `<circle cx="${x}" cy="${y}" r="12" fill="none" stroke="#fa5252" stroke-width="1.5" stroke-dasharray="2,2"/>`;
+        svgHtml += `<text x="${x}" y="${y - 14}" font-size="10" text-anchor="middle" font-weight="900" fill="#c92a2a">AT (${pt.speed.toFixed(1)} km/t)</text>`;
+      } else {
+        svgHtml += `<circle cx="${x}" cy="${y}" r="5" fill="#fcc419" stroke="#e67700" stroke-width="2"/>`;
+        svgHtml += `<text x="${x}" y="${y - 9}" font-size="9" text-anchor="middle" font-weight="bold" fill="#212529">${pt.hr}</text>`;
+      }
+    });
+
+    svgHtml += `<text x="${width/2}" y="${height - 1}" font-size="8" text-anchor="middle" font-weight="bold" fill="#868e96">HASTIGHED (KM/T)</text>`;
+
+    svgChart.innerHTML = svgHtml;
+  }
+
+  // Manuelt tilføj række
+  btnAddRow.addEventListener("click", () => {
+    const nextStage = logTbody.querySelectorAll("tr").length + 1;
+    const nextDist = nextStage * 200;
+    const nextSpd = initialSpeed + ((nextStage - 1) * 0.5);
+    const nextDur = getLapDurationForSpeed(nextSpd);
+
+    addOrUpdateRow(nextStage, nextDist, nextSpd, nextDur, null);
+  });
+
+  methodSelect.addEventListener("change", renderChart);
+
+  function startTest() {
+    if (isRunning) return;
+    isRunning = true;
+    requestWakeLock();
+
+    btnStart.disabled = true;
+    btnPause.disabled = false;
+    btnReset.disabled = false;
+
+    if (!hasStarted) {
+      hasStarted = true;
+      startTime = performance.now();
+      stageStartTime = 0;
+      updateStageInfo();
+    } else {
+      const pausedDuration = performance.now() - pausedTime;
+      startTime += pausedDuration;
+      stageStartTime += pausedDuration / 1000;
+    }
+
+    displayScreen.className = "conconi-display-screen state-running";
+    phaseTitle.textContent = "🏃 TEST I GANG";
+    animFrameId = requestAnimationFrame(update);
+  }
+
+  function pauseTest() {
+    if (!isRunning) return;
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    pausedTime = performance.now();
+    btnStart.disabled = false;
+    btnStart.textContent = "Genoptag Test";
+    btnPause.disabled = true;
+
+    displayScreen.className = "conconi-display-screen state-idle";
+    phaseTitle.textContent = "PAUSET";
+  }
+
+  function resetTest() {
+    if (isRunning || hasStarted) {
+      if (!confirm("Vil du nulstille Conconi-testen?")) return;
+    }
+    isRunning = false;
+    hasStarted = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    totalElapsed = 0;
+    currentStage = 1;
+    stageStartTime = 0;
+    totalDistance = 0;
+
+    btnStart.disabled = false;
+    btnStart.textContent = "Start Test";
+    btnPause.disabled = true;
+    btnReset.disabled = true;
+    hrInput.value = "";
+
+    totalTimerDisplay.textContent = "00:00";
+    distDisplay.textContent = "0 m";
+    progressBarFill.style.width = "0%";
+    runnerDot.setAttribute("cx", 200);
+    runnerDot.setAttribute("cy", 140);
+
+    logTbody.innerHTML = "";
+    renderChart();
+
+    displayScreen.className = "conconi-display-screen state-idle";
+    phaseTitle.textContent = "Klar til start";
+    updateStageInfo();
+  }
+
+  btnSaveHr.addEventListener("click", saveHeartRate);
+  hrInput.addEventListener("keydown", (e) => { if (e.key === 'Enter') saveHeartRate(); });
+
+  btnStart.addEventListener("click", startTest);
+  btnPause.addEventListener("click", pauseTest);
+  btnReset.addEventListener("click", resetTest);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  updateStageInfo();
+  renderChart();
+
+  if(trackPath) {
+     const pt = trackPath.getPointAtLength(0);
+     runnerDot.setAttribute("cx", pt.x);
+     runnerDot.setAttribute("cy", pt.y);
+  }
+});
+</script>

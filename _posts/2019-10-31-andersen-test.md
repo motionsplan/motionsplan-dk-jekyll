@@ -108,10 +108,21 @@ Skal du afvikle Andersen-testen med en klasse? Hent vores færdige skemaer og re
 
 {% include feature_row type="right" %}
 
-## Timer og musik til Andersen-testen
+## Interaktiv timer og lydspor til Andersen-testen
 {: id="timer" }
 
-For at undgå at skulle holde øje med et stopur hvert 15. sekund, anbefales det at bruge en interval-timer app eller en færdig Youtube-timer.
+For at undgå at skulle holde øje med et stopur hvert 15. sekund i 10 minutter i træk, har vi bygget en interaktiv **Andersen Test-timer** direkte her på siden. 
+
+{% include components/andersen-test-timer.html %}
+
+Med afspilleren slipper du for eksterne apps og Youtube-reklamer. Du kobler blot din telefon eller computer til en højttaler i hallen, trykker på start og lader afspilleren klare resten:
+
+* **Tydelige lydsignaler:** Et skarpt start-bip fortæller hvornår der skal løbes, og et dybere bip markerer hvornår pausen starter.
+* **Visuel farvekode:** Skærmen skifter automatisk mellem **Grøn (🏃 LØB)** og **Gul (🚶 PAUSE)**, så det er nemt for løberne at følge med på afstand.
+* **Indbygget konditals-beregner:** Når de 10 minutter er gået, indtaster du blot den samlede tilbagelagte distance og får straks beregnet dit estimerede kondital.
+* **Download offline lydfil (WAV):** Skal du afvikle testen på et stadion eller i en idrætshal uden stabil internetforbindelse? Du kan hente den samlede 10-minutters lydfil ned på din enhed med ét klik.
+
+### Brug en app
 
 I appen **[Interval Timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da){: rel="nofollow noopener" }** (Android) eller **[Interval Timer HIIT](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568){: rel="nofollow noopener" }** (iOS) kan du indstille:
 * **Work:** 15 sekunder
@@ -121,6 +132,8 @@ I appen **[Interval Timer](https://play.google.com/store/apps/details?id=cc.drea
 Du kan afspille musik fra Spotify eller Youtube Music i baggrunden, mens appen bipper ved hver skift.
 
 {% include figure image_path="/assets/images/blog/andersen-test-timer.png" caption="Andersen Test timer med 20 gentagelser af 15/15 lavet på [www.intervaltimer.com](https://www.intervaltimer.com/timers/11192285-andersen-test){: rel='nofollow noopener' }." alt="Andersen Test Timer" %}
+
+### Find lyden på Youtube
 
 Du kan også finde videoer på Youtube, fx denne timer til at styre tiden undervejs.
 

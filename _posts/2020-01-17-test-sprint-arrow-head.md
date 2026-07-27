@@ -31,7 +31,7 @@ Formålet med arrowhead testen er at teste hastighed, acceleration, kropskontrol
 
 {% include video provider="youtube" id="Zdq6X4QlRg4" %}
 
-## Udstyr til arrowhead testen
+{% include components/arrowhead-test-timer.html %}
 
 Du skal bruge følgende udstyr for at kunne udføre arrowhead testen:
 

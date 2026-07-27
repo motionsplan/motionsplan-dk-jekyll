@@ -1,0 +1,677 @@
+<div class="politi-widget">
+  
+  <!-- Info Modal med Vurderingstabel -->
+  <div class="politi-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Politiskolens 8-tals Løb</h4>
+        <span class="modal-subtitle-text">Hurtighedstest til politiets optagelsesprøve</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057; margin-bottom: 12px;">
+        <strong>UDFØRELSE OG REGLER:</strong><br>
+        1. Yderkeglerne er opstillet med en samlet afstand på <strong>13,40 meter</strong>.<br>
+        2. Midterkeglen står stillet lidt forskudt for ruten som referencemærke.<br>
+        3. Løbet starter <strong>neden for den venstre kegle</strong> (ved den gule prik).<br>
+        4. Rute-rækkefølge: <strong>Blå ➔ Orange ➔ Grøn ➔ Rød ➔ Sort (Lige frem til mål)</strong>.<br>
+        5. Bedømmeren giver meldingen: <em>”Færdige — Løb”</em> og starter tidtagningen.<br>
+        6. Under løbet må du <strong>ikke røre keglerne</strong>.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Officiel Karakterskala</h5>
+      <table class="modal-grade-table">
+        <thead>
+          <tr>
+            <th>Karakter</th>
+            <th>Mænd (sek.)</th>
+            <th>Kvinder (sek.)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>12</strong></td><td>15,0 eller derunder</td><td>16,4 eller derunder</td></tr>
+          <tr><td><strong>10</strong></td><td>15,1 – 15,6</td><td>16,5 – 17,1</td></tr>
+          <tr><td><strong>7</strong></td><td>15,7 – 16,2</td><td>17,2 – 17,7</td></tr>
+          <tr><td><strong>4</strong></td><td>16,3 – 16,8</td><td>17,8 – 18,3</td></tr>
+          <tr><td><strong>02</strong></td><td>16,9 – 17,5</td><td>18,4 – 18,7</td></tr>
+          <tr><td><strong>00</strong></td><td>17,6 – 18,1</td><td>18,8 – 19,3</td></tr>
+          <tr><td><strong>-3</strong></td><td>18,2 eller derover</td><td>19,4 eller derover</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="politi-topbar">
+    <div class="politi-header-card">
+      <div class="card-title-row">
+        <span class="card-title">Politiskolens 8-tals Test (Hurtighed)</span>
+        <button class="info-icon-btn" type="button" title="Læs om testen og karakterskala">ℹ️</button>
+      </div>
+      <div class="card-desc">Offentlig karakterskala, interaktiv banetegning og automatisk tidtagning.</div>
+    </div>
+
+    <!-- Køn & Lyd -->
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <span class="setting-label">Køn:</span>
+        <div class="btn-toggle-group" id="gender-toggle">
+          <button type="button" class="toggle-btn active" data-val="m">Mænd</button>
+          <button type="button" class="toggle-btn" data-val="k">Kvinder</button>
+        </div>
+      </div>
+
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- Hovedskærm -->
+  <div class="politi-display-screen state-idle">
+    
+    <!-- 8-TALS BANE VISUALISERING -->
+    <div class="track-viz-container">
+      <svg width="100%" viewBox="0 0 480 180" preserveAspectRatio="xMidYMid meet">
+        <defs>
+          <pattern id="floor-stripes" width="10" height="10" patternUnits="userSpaceOnUse">
+            <line x1="0" y1="0" x2="0" y2="10" stroke="#000000" stroke-width="1"/>
+          </pattern>
+        </defs>
+
+        <!-- Hallens Trægulv -->
+        <rect x="10" y="10" width="460" height="160" rx="12" fill="#f4e3c1" stroke="#d4b483" stroke-width="2"/>
+        
+        <!-- Stribet målfelt i midten -->
+        <rect x="190" y="20" width="100" height="140" fill="url(#floor-stripes)" opacity="0.10"/>
+
+        <!-- 1. BLÅ LINJE -->
+        <path d="M 100,105 C 160,100 210,85 240,75 C 270,65 340,45 380,45 C 415,45 415,105 380,105" fill="none" stroke="#228be6" stroke-width="4" stroke-linecap="round"/>
+        
+        <!-- 2. ORANGE LINJE -->
+        <path d="M 380,105 C 340,105 270,85 240,75 C 210,65 150,45 100,45" fill="none" stroke="#ff922b" stroke-width="4" stroke-linecap="round"/>
+
+        <!-- 3. GRØN LINJE -->
+        <path d="M 100,45 C 65,45 65,105 100,105" fill="none" stroke="#51cf66" stroke-width="4" stroke-linecap="round"/>
+
+        <!-- 4. RØD LINJE -->
+        <path d="M 100,105 C 160,105 210,85 240,75 C 270,65 340,45 380,45 C 415,45 415,105 380,105 C 340,105 270,85 240,75 C 210,65 150,45 100,45 C 60,45 60,115 100,115" fill="none" stroke="#e03131" stroke-width="4" stroke-linecap="round"/>
+
+        <!-- 5. SORT LINJE (VANDRET LIGE FREM TIL MÅL) -->
+        <line x1="100" y1="115" x2="250" y2="115" stroke="#212529" stroke-width="5" stroke-linecap="round"/>
+
+        <!-- Målflag Ikon 🏁 -->
+        <circle cx="250" cy="115" r="11" fill="#228be6" stroke="#ffffff" stroke-width="2.5"/>
+        <text x="250" y="120" font-size="12" text-anchor="middle">🏁</text>
+
+        <!-- MASTER-STI TIL LØBER-ANIMATION -->
+        <path id="figure8-path" d="M 100,105 C 160,100 210,85 240,75 C 270,65 340,45 380,45 C 415,45 415,105 380,105 C 340,105 270,85 240,75 C 210,65 150,45 100,45 C 65,45 65,105 100,105 C 160,105 210,85 240,75 C 270,65 340,45 380,45 C 415,45 415,105 380,105 C 340,105 270,85 240,75 C 210,65 150,45 100,45 C 60,45 60,115 100,115 L 250,115" fill="none" stroke="transparent"/>
+
+        <!-- KEGLER (Grønne) -->
+        <circle cx="100" cy="75" r="8" fill="#2b8a3e" stroke="#212529" stroke-width="2"/>
+        <circle cx="380" cy="75" r="8" fill="#2b8a3e" stroke="#212529" stroke-width="2"/>
+        <circle cx="260" cy="45" r="8" fill="#2b8a3e" stroke="#212529" stroke-width="2"/>
+
+        <!-- STARTPUNKT (Gul Prik) -->
+        <circle cx="100" cy="105" r="8" fill="#fcc419" stroke="#212529" stroke-width="2"/>
+
+        <!-- Afstandsmarkering 13,40m i bunden -->
+        <line x1="100" y1="162" x2="380" y2="162" stroke="#495057" stroke-width="1.5" stroke-dasharray="2,2"/>
+        <polygon points="100,162 106,159 106,165" fill="#495057"/>
+        <polygon points="380,162 374,159 374,165" fill="#495057"/>
+        <text x="240" y="156" font-size="9" font-weight="900" text-anchor="middle" fill="#343a40">AFSTAND YDERKEGLER: 13,40 METER</text>
+
+        <!-- Animeret Løber-prik -->
+        <circle id="runner-dot" cx="100" cy="105" r="9" fill="#fcc419" stroke="#ffffff" stroke-width="2.5"/>
+      </svg>
+    </div>
+
+    <!-- Tids-display -->
+    <div class="main-timer-display">00.00s</div>
+    
+    <!-- Karakter Resultat-Badge -->
+    <div class="grade-result-card neutral" id="grade-result-card">
+      <span class="grade-badge-value" id="grade-value">--</span>
+      <div class="grade-text-group">
+        <span class="grade-title" id="grade-title">POLITI KARAKTER</span>
+        <span class="grade-subtext" id="grade-subtext">Tryk på 'Færdige... Løb!' for at starte tidtagningen</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- KÆMPE START / STOP KNAP FOR TIDTAGER -->
+  <div class="politi-controls">
+    <button class="btn btn--giant-action btn-start-stop" type="button">🚀 FÆRDIGE... LØB!</button>
+    <button class="btn btn--secondary btn-reset" type="button">Nulstil</button>
+  </div>
+
+  <!-- MANUEL TIDSINDTASTNING -->
+  <div class="politi-manual-card">
+    <div class="manual-input-row">
+      <label for="manual-time-input" class="manual-label">Manuel tid:</label>
+      <input type="number" id="manual-time-input" class="manual-input-field" placeholder="15.4" step="0.01" min="8" max="40">
+      <span class="unit-text">sek.</span>
+      <button class="btn btn--save-manual btn-save-manual" type="button">💾 Gem Tid</button>
+    </div>
+  </div>
+
+  <!-- LOCALSTORAGE LOG TABEL I PRECISELY 100% BREDDE -->
+  <div class="politi-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Forsøg (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="politi-log-table">
+      <thead>
+        <tr>
+          <th>Dato & Tid</th>
+          <th>Køn</th>
+          <th>Tid</th>
+          <th>Karakter</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="4" style="color: #adb5bd;">Ingen gemte forsøg endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BLÅ KNAP: TAG ET BILLEDE NEDERST -->
+  <div class="politi-screenshot-wrapper">
+    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag et billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.politi-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 20px;
+  max-width: 640px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.politi-widget * { box-sizing: border-box; }
+
+.politi-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; text-align: left; }
+.politi-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 12px 14px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.politi-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Modal Vurderingstabel */
+.modal-grade-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; margin-top: 6px; }
+.modal-grade-table th { background: #f8f9fa; padding: 6px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #343a40; }
+.modal-grade-table td { padding: 6px; border-bottom: 1px solid #f1f3f5; text-align: center; }
+
+/* Settings */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 4px; flex-wrap: wrap; }
+.setting-item { display: flex; align-items: center; gap: 6px; }
+.setting-label { font-size: 0.80rem; font-weight: 800; color: #495057; }
+
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Display Skærm */
+.politi-display-screen {
+  padding: 16px; border-radius: 16px; margin-bottom: 14px; background: #f1f3f5; border: 3px solid #dee2e6; color: #343a40; transition: all 0.2s ease;
+}
+.track-viz-container { margin: 0 auto 10px; max-width: 480px; width: 100%; }
+.main-timer-display { font-size: 4.2rem; font-weight: 900; line-height: 1; margin: 4px 0; font-variant-numeric: tabular-nums; color: #1e293b; }
+
+.politi-display-screen.state-running { background: #e7f5ff; border-color: #74c0fc; }
+.politi-display-screen.state-running .main-timer-display { color: #1c7ed6; }
+
+/* Karakter Resultat Card */
+.grade-result-card {
+  padding: 10px 14px; border-radius: 12px; margin-top: 10px; display: flex; align-items: center; justify-content: center; gap: 14px; text-align: left; transition: all 0.2s ease;
+}
+.grade-result-card.neutral { background: #ffffff; border: 1px solid #ced4da; color: #495057; }
+.grade-result-card.pass { background: #d3f9d8; border: 2px solid #51cf66; color: #2b8a3e; }
+.grade-result-card.fail { background: #ffe3e3; border: 2px solid #ff6b6b; color: #c92a2a; }
+
+.grade-badge-value {
+  font-size: 2.2rem; font-weight: 900; line-height: 1; padding: 6px 12px; border-radius: 8px; background: rgba(0,0,0,0.06); min-width: 55px; text-align: center;
+}
+.grade-text-group { display: flex; flex-direction: column; }
+.grade-title { font-size: 0.9rem; font-weight: 900; letter-spacing: 0.03em; }
+.grade-subtext { font-size: 0.78rem; font-weight: 700; opacity: 0.85; margin-top: 2px; }
+
+/* KÆMPE KNAPPER FOR TIDTAGER */
+.politi-controls { display: flex; gap: 10px; margin-bottom: 14px; }
+.btn--giant-action {
+  flex: 3; padding: 18px 12px; font-size: 1.35rem; font-weight: 900; border-radius: 14px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 6px 16px rgba(34, 139, 230, 0.35); transition: transform 0.1s ease, background-color 0.2s ease;
+}
+.btn--giant-action:active { transform: scale(0.97); }
+.btn--giant-action.is-running { background: #fa5252; box-shadow: 0 6px 16px rgba(250, 82, 82, 0.35); }
+
+.btn--secondary { flex: 1; background: #868e96; color: white; border: none; padding: 14px; border-radius: 14px; font-weight: 800; font-size: 0.95rem; cursor: pointer; }
+
+/* Manuel Tidsindtastning */
+.politi-manual-card { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 10px; margin-bottom: 14px; }
+.manual-input-row { display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; }
+.manual-label { font-size: 0.80rem; font-weight: 800; color: #495057; }
+.manual-input-field { width: 80px; padding: 6px; border: 1px solid #ced4da; border-radius: 8px; font-weight: 900; font-size: 1rem; text-align: center; }
+.unit-text { font-size: 0.80rem; font-weight: 700; color: #868e96; }
+.btn--save-manual { background: #12b886; color: white; border: none; padding: 6px 12px; border-radius: 8px; font-weight: 800; font-size: 0.80rem; cursor: pointer; }
+
+/* TABEL GENNEMT VUNGET TIL 100% BREDDE */
+.politi-log-wrapper {
+  margin-top: 16px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 12px;
+  width: 100% !important; display: block !important; box-sizing: border-box !important;
+}
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; width: 100%; }
+.log-title { font-size: 0.88rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.politi-log-table {
+  width: 100% !important; max-width: 100% !important; display: table !important; border-collapse: collapse;
+  font-size: 0.80rem; table-layout: fixed; margin: 0; box-sizing: border-box;
+}
+.politi-log-table th { background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.politi-log-table td { padding: 8px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+/* Kolonnebredder */
+.politi-log-table th:nth-child(1), .politi-log-table td:nth-child(1) { width: 30%; }
+.politi-log-table th:nth-child(2), .politi-log-table td:nth-child(2) { width: 25%; }
+.politi-log-table th:nth-child(3), .politi-log-table td:nth-child(3) { width: 25%; }
+.politi-log-table th:nth-child(4), .politi-log-table td:nth-child(4) { width: 20%; }
+
+/* Redigerbar køn-dropdown i tabellen */
+.log-gender-select {
+  padding: 2px 4px; border: 1px solid #ced4da; border-radius: 6px; background: #ffffff;
+  font-size: 0.75rem; font-weight: 700; color: #495057; cursor: pointer; text-align: center; width: 100%; max-width: 75px; outline: none;
+}
+
+/* Farvede karakter-badges */
+.log-grade-badge {
+  display: inline-block; padding: 4px 8px; border-radius: 6px; font-weight: 900; font-size: 0.85rem; color: #ffffff; min-width: 34px; text-align: center;
+}
+.badge-green { background: #2b8a3e; }
+.badge-blue { background: #1c7ed6; }
+.badge-yellow { background: #fcc419; color: #212529; }
+.badge-red { background: #e03131; }
+.badge-gray { background: #868e96; }
+
+/* Billed-knap nederst */
+.politi-screenshot-wrapper { margin-top: 16px; width: 100%; }
+.btn--screenshot {
+  width: 100%; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 10px;
+  border: none; background: #228be6; color: #ffffff; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); transition: background 0.15s ease;
+}
+.btn--screenshot:hover { background: #1c7ed6; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let isRunning = false;
+  let startTime = 0;
+  let elapsedSecs = 0;
+  let animFrameId = null;
+
+  let selectedGender = 'm';
+  let selectedSound = 'on';
+
+  let audioCtx = null;
+  let wakeLock = null;
+
+  const widget = document.querySelector(".politi-widget");
+  if (!widget) return;
+
+  const displayScreen = widget.querySelector(".politi-display-screen");
+  const mainTimerDisplay = widget.querySelector(".main-timer-display");
+  
+  const gradeResultCard = widget.querySelector("#grade-result-card");
+  const gradeValue = widget.querySelector("#grade-value");
+  const gradeTitle = widget.querySelector("#grade-title");
+  const gradeSubtext = widget.querySelector("#grade-subtext");
+
+  const btnStartStop = widget.querySelector(".btn-start-stop");
+  const btnReset = widget.querySelector(".btn-reset");
+
+  const manualTimeInput = widget.querySelector("#manual-time-input");
+  const btnSaveManual = widget.querySelector(".btn-save-manual");
+
+  const logTbody = widget.querySelector(".log-tbody");
+  const btnClearLog = widget.querySelector(".btn-clear-log");
+  const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const figure8Path = widget.querySelector("#figure8-path");
+  const runnerDot = widget.querySelector("#runner-dot");
+  let pathLength = figure8Path ? figure8Path.getTotalLength() : 0;
+
+  const infoModal = widget.querySelector(".politi-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  // OFFICIEL POLITI KARAKTERSKALA
+  function calculatePolitiGrade(timeInSecs, genderCode) {
+    const t = parseFloat(timeInSecs.toFixed(2));
+    if (genderCode === 'm') {
+      if (t <= 15.0) return { grade: '12', pass: true, label: 'Fremragende (Optaget)' };
+      if (t <= 15.6) return { grade: '10', pass: true, label: 'Fortrinlig' };
+      if (t <= 16.2) return { grade: '7',  pass: true, label: 'God' };
+      if (t <= 16.8) return { grade: '4',  pass: true, label: 'Jævn' };
+      if (t <= 17.5) return { grade: '02', pass: true, label: 'Tilstrækkelig (Bestået)' };
+      if (t <= 18.1) return { grade: '00', pass: false, label: 'Utilstrækkelig (Ikke bestået)' };
+      return { grade: '-3', pass: false, label: 'Ringe (Ikke bestået)' };
+    } else {
+      if (t <= 16.4) return { grade: '12', pass: true, label: 'Fremragende (Optaget)' };
+      if (t <= 17.1) return { grade: '10', pass: true, label: 'Fortrinlig' };
+      if (t <= 17.7) return { grade: '7',  pass: true, label: 'God' };
+      if (t <= 18.3) return { grade: '4',  pass: true, label: 'Jævn' };
+      if (t <= 18.7) return { grade: '02', pass: true, label: 'Tilstrækkelig (Bestået)' };
+      if (t <= 19.3) return { grade: '00', pass: false, label: 'Utilstrækkelig (Ikke bestået)' };
+      return { grade: '-3', pass: false, label: 'Ringe (Ikke bestået)' };
+    }
+  }
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+
+  setupToggleGroup("gender-toggle", (val) => {
+    selectedGender = val;
+    if (elapsedSecs > 0 && !isRunning) {
+      evaluateTime(elapsedSecs, false);
+    }
+  });
+
+  setupToggleGroup("sound-toggle", (val) => { selectedSound = val; });
+
+  function playSound(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain); gain.connect(audioCtx.destination);
+    const now = audioCtx.currentTime;
+
+    if (type === 'start') {
+      osc.frequency.value = 1000;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.start(now); osc.stop(now + 0.3);
+    } else if (type === 'stop') {
+      [800, 1200].forEach((freq, idx) => {
+        const o = audioCtx.createOscillator();
+        const g = audioCtx.createGain();
+        o.connect(g); g.connect(audioCtx.destination);
+        o.frequency.value = freq;
+        g.gain.setValueAtTime(0.3, now + (idx * 0.12));
+        g.gain.exponentialRampToValueAtTime(0.001, now + (idx * 0.12) + 0.25);
+        o.start(now + (idx * 0.12)); o.stop(now + (idx * 0.12) + 0.25);
+      });
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function updateTimer() {
+    if (!isRunning) return;
+    const now = performance.now();
+    elapsedSecs = (now - startTime) / 1000;
+    mainTimerDisplay.textContent = `${elapsedSecs.toFixed(2)}s`;
+
+    if (pathLength > 0) {
+      const animPct = Math.min(1, elapsedSecs / 16.0);
+      const pt = figure8Path.getPointAtLength(animPct * pathLength);
+      runnerDot.setAttribute("cx", pt.x);
+      runnerDot.setAttribute("cy", pt.y);
+    }
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function startTimer() {
+    isRunning = true;
+    requestWakeLock();
+    playSound('start');
+
+    startTime = performance.now();
+    displayScreen.className = "politi-display-screen state-running";
+    btnStartStop.className = "btn btn--giant-action is-running";
+    btnStartStop.textContent = "🛑 STOP (I MÅL)";
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function stopTimer() {
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+    playSound('stop');
+
+    displayScreen.className = "politi-display-screen state-idle";
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 FÆRDIGE... LØB!";
+
+    evaluateTime(elapsedSecs, true);
+  }
+
+  function evaluateTime(timeSecs, autoSave) {
+    const res = calculatePolitiGrade(timeSecs, selectedGender);
+    
+    gradeValue.textContent = res.grade;
+    gradeTitle.textContent = `KARAKTER: ${res.grade}`;
+    gradeSubtext.textContent = `${res.label} (${selectedGender === 'm' ? 'Mand' : 'Kvinde'})`;
+
+    if (res.pass) {
+      gradeResultCard.className = "grade-result-card pass";
+    } else {
+      gradeResultCard.className = "grade-result-card fail";
+    }
+
+    if (autoSave) {
+      saveToLocalStorage(timeSecs, selectedGender, res.grade);
+    }
+  }
+
+  // LOCALSTORAGE & TABEL STYRING
+  function saveToLocalStorage(timeSecs, genderCode, grade) {
+    const logs = JSON.parse(localStorage.getItem("politi_8tal_logs") || "[]");
+    const now = new Date();
+    const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+    logs.unshift({
+      date: dateStr,
+      genderCode: genderCode,
+      time: parseFloat(timeSecs.toFixed(2)),
+      grade: grade
+    });
+
+    localStorage.setItem("politi_8tal_logs", JSON.stringify(logs.slice(0, 20)));
+    renderLocalStorageLog();
+  }
+
+  function getBadgeClass(grade) {
+    if (grade === '12' || grade === '10') return 'badge-green';
+    if (grade === '7' || grade === '4') return 'badge-blue';
+    if (grade === '02') return 'badge-yellow';
+    if (grade === '00' || grade === '-3') return 'badge-red';
+    return 'badge-gray';
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem("politi_8tal_logs") || "[]");
+    logTbody.innerHTML = "";
+
+    if (logs.length === 0) {
+      logTbody.innerHTML = '<tr class="empty-row"><td colspan="4" style="color: #adb5bd;">Ingen gemte forsøg endnu</td></tr>';
+      return;
+    }
+
+    logs.forEach((item, index) => {
+      let gCode = item.genderCode;
+      if (!gCode) gCode = (item.gender === 'Mand') ? 'm' : 'k';
+      
+      const badgeClass = getBadgeClass(item.grade);
+      const cleanTime = typeof item.time === 'number' ? item.time.toFixed(2) : parseFloat(item.time).toFixed(2);
+
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td>
+          <select class="log-gender-select" data-index="${index}">
+            <option value="m" ${gCode === 'm' ? 'selected' : ''}>Mand</option>
+            <option value="k" ${gCode === 'k' ? 'selected' : ''}>Kvinde</option>
+          </select>
+        </td>
+        <td><strong>${cleanTime}s</strong></td>
+        <td><span class="log-grade-badge ${badgeClass}">${item.grade}</span></td>
+      `;
+      logTbody.appendChild(tr);
+    });
+
+    const genderSelects = logTbody.querySelectorAll(".log-gender-select");
+    genderSelects.forEach(select => {
+      select.addEventListener("change", function() {
+        updateLogGender(this.dataset.index, this.value);
+      });
+    });
+  }
+
+  function updateLogGender(index, newGenderCode) {
+    const logs = JSON.parse(localStorage.getItem("politi_8tal_logs") || "[]");
+    if (logs[index]) {
+      const timeVal = parseFloat(logs[index].time);
+      const newRes = calculatePolitiGrade(timeVal, newGenderCode);
+      
+      logs[index].genderCode = newGenderCode;
+      logs[index].grade = newRes.grade;
+      
+      localStorage.setItem("politi_8tal_logs", JSON.stringify(logs));
+      renderLocalStorageLog();
+    }
+  }
+
+  function resetWidget() {
+    if (isRunning) {
+      if (!confirm("Vil du afbryde den igangværende tidtagning?")) return;
+    }
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    elapsedSecs = 0;
+    mainTimerDisplay.textContent = "00.00s";
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 FÆRDIGE... LØB!";
+    displayScreen.className = "politi-display-screen state-idle";
+
+    gradeValue.textContent = "--";
+    gradeTitle.textContent = "POLITI KARAKTER";
+    gradeSubtext.textContent = "Tryk på 'Færdige... Løb!' for at starte tidtagningen";
+    gradeResultCard.className = "grade-result-card neutral";
+
+    if (figure8Path) {
+      const pt = figure8Path.getPointAtLength(0);
+      runnerDot.setAttribute("cx", pt.x);
+      runnerDot.setAttribute("cy", pt.y);
+    }
+  }
+
+  // BILLEDE TAGNINGS FUNKTION (html2canvas integration)
+  function takeScreenshot() {
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `politi-8tal-resultat-${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  btnStartStop.addEventListener("click", () => {
+    if (!isRunning) startTimer();
+    else stopTimer();
+  });
+
+  btnReset.addEventListener("click", resetWidget);
+
+  btnSaveManual.addEventListener("click", () => {
+    const val = parseFloat(manualTimeInput.value);
+    if (isNaN(val) || val < 8 || val > 40) {
+      alert("Indtast venligst en gyldig tid i sekunder (fx 15.4)");
+      return;
+    }
+    elapsedSecs = val;
+    mainTimerDisplay.textContent = `${val.toFixed(2)}s`;
+    evaluateTime(val, true);
+    manualTimeInput.value = "";
+    
+    if (figure8Path) {
+      const pt = figure8Path.getPointAtLength(pathLength);
+      runnerDot.setAttribute("cx", pt.x);
+      runnerDot.setAttribute("cy", pt.y);
+    }
+  });
+
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Vil du slette alle gemte forsøg fra dette modul?")) {
+      localStorage.removeItem("politi_8tal_logs");
+      renderLocalStorageLog();
+    }
+  });
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  renderLocalStorageLog();
+  if (figure8Path) {
+    const pt = figure8Path.getPointAtLength(0);
+    runnerDot.setAttribute("cx", pt.x);
+    runnerDot.setAttribute("cy", pt.y);
+  }
+});
+</script>

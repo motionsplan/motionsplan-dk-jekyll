@@ -61,6 +61,8 @@ Selvom styrketræning formentlig ikke forårsager længerevarende CNS-fatigue, s
 
 Man kan også forestille sig, at man kan bruge finger tapping test til at se, om dit opvarmningsprogram formår gøre nervesystemet endnu mere klar til den efterfølgende træning ved at lave en før- og eftertest.
 
+{% include components/finger-tapping.html %}
+
 ## En app til en finger tapping test
 
 Med introduktionen af smartphones er det ret let at lave en finger tapping test, da du kan gøre det direkte på din smartphone.

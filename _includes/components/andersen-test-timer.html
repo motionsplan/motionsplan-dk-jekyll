@@ -1,0 +1,509 @@
+<div class="andersen-widget">
+  
+  <!-- Info Modal -->
+  <div class="andersen-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Andersen-testen</h4>
+        <span class="modal-subtitle-text">10 minutters intervalløb • 15s løb / 15s pause</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>SÅDAN UDFØRES TESTEN:</strong><br>
+        1. Placér to kridtstreger/kegler med præcis <strong>20 meters afstand</strong>.<br>
+        2. Løb frem og tilbage i 15 sekunder (rør stregen med foden ved vending).<br>
+        3. Stå eller gå stille og roligt i 15 sekunders pause.<br>
+        4. Gentag i alt <strong>20 runder</strong> (samlet tid: 10 minutter).<br>
+        5. Tæl den samlede tilbagelagte distance i meter og indtast den i beregneren på siden.
+      </p>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="andersen-topbar">
+    <div class="andersen-header-card">
+      <div class="card-text-group">
+        <div class="card-title-row">
+          <span class="card-title">Andersen-testen (15s Løb / 15s Pause)</span>
+          <button class="info-icon-btn" type="button" title="Læs om testproceduren">ℹ️</button>
+        </div>
+        <div class="card-desc">20 intervaller à 15 sekunder løb (med vendinger på 20m bane) og 15 sekunder pause.</div>
+      </div>
+    </div>
+
+    <div class="topbar-subrow">
+      <select class="sound-select" title="Lydindstilling">
+        <option value="on">🔊 Lyd slået til</option>
+        <option value="off">🔇 Lydløs</option>
+      </select>
+      <div class="wakelock-status">📱 Skærm holdes tændt</div>
+    </div>
+  </div>
+
+  <!-- Hoved-skærm (Skifter mellem Grøn Løb og Rød Pause) -->
+  <div class="andersen-display-screen state-idle">
+    <div class="phase-title">Klar til start</div>
+    <div class="phase-countdown">15.0s</div>
+    
+    <div class="meta-subrow">
+      <div class="meta-item">
+        <span class="meta-label">RESTERENDE TID</span>
+        <strong class="total-time">10:00</strong>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">INTERVAL (LØB)</span>
+        <strong class="interval-count">0 / 20</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress Bar for samlet test-fremgang -->
+  <div class="andersen-progress-container">
+    <div class="progress-label-row">
+      <span>SAMLET FREMGANG (10 MIN)</span>
+      <span class="progress-pct-display">0%</span>
+    </div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- Kontroller -->
+  <div class="andersen-controls">
+    <button class="btn btn--primary btn-start">Start Test</button>
+    <button class="btn btn--secondary btn-pause" disabled>Pause</button>
+    <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
+  </div>
+
+  <!-- Download Lydfil -->
+  <div class="andersen-download-zone">
+    <button class="btn btn--download btn-download">📥 Download 10-min Lydspor (WAV)</button>
+  </div>
+</div>
+
+<style>
+.andersen-widget {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.andersen-widget * { box-sizing: border-box; }
+
+.andersen-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; text-align: left; }
+.andersen-header-card {
+  background: #e7f5ff;
+  border: 1px solid #a5d8ff;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn {
+  background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px;
+  border-radius: 6px; transition: transform 0.1s ease;
+}
+.info-icon-btn:hover { transform: scale(1.15); }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Info Modal */
+.andersen-info-modal {
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left;
+}
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+.topbar-subrow { display: flex; justify-content: space-between; align-items: center; margin-top: 4px; }
+.sound-select { padding: 6px 10px; border-radius: 8px; border: 1px solid #ced4da; font-weight: bold; font-size: 0.8rem; background: #f8f9fa; }
+.wakelock-status { font-size: 0.75rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 4px 10px; border-radius: 12px; opacity: 0; }
+.wakelock-status.active { opacity: 1; }
+
+/* STOR VISUEL SKÆRM MED SKIFT MELLEM GRØN OG RØD */
+.andersen-display-screen {
+  padding: 24px 16px;
+  border-radius: 16px;
+  margin-bottom: 14px;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  background: #f1f3f5;
+  border: 3px solid #dee2e6;
+  color: #343a40;
+}
+
+/* Grøn Løbe-fase */
+.andersen-display-screen.state-run {
+  background: #2b8a3e;
+  border-color: #2b8a3e;
+  color: #ffffff;
+  box-shadow: 0 8px 24px rgba(43, 138, 62, 0.25);
+}
+
+/* Rød Pause-fase */
+.andersen-display-screen.state-rest {
+  background: #c92a2a;
+  border-color: #c92a2a;
+  color: #ffffff;
+  box-shadow: 0 8px 24px rgba(201, 42, 42, 0.25);
+}
+
+/* Afsluttet tilstand */
+.andersen-display-screen.state-finished {
+  background: #1864ab;
+  border-color: #1864ab;
+  color: #ffffff;
+}
+
+.phase-title {
+  font-size: 1.35rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+
+.phase-countdown {
+  font-size: 3.8rem;
+  font-weight: 900;
+  line-height: 1;
+  margin: 10px 0 16px 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.meta-subrow {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.12);
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+.andersen-display-screen.state-idle .meta-subrow {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.meta-item { display: flex; flex-direction: column; align-items: center; }
+.meta-label { font-size: 0.65rem; font-weight: 800; opacity: 0.85; letter-spacing: 0.03em; }
+.meta-item strong { font-size: 1.15rem; font-weight: 900; margin-top: 2px; }
+
+/* Progress bar */
+.andersen-progress-container { margin-bottom: 14px; text-align: left; }
+.progress-label-row { display: flex; justify-content: space-between; font-size: 0.68rem; font-weight: 800; color: #868e96; margin-bottom: 4px; }
+.progress-bar-track { background: #e9ecef; height: 8px; border-radius: 4px; overflow: hidden; }
+.progress-bar-fill { background: #228be6; height: 100%; width: 0%; transition: width 0.2s linear; }
+
+/* Knapper */
+.andersen-controls { display: flex; gap: 8px; margin-bottom: 14px; }
+.andersen-controls button { flex: 1; padding: 12px; font-size: 1rem; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; }
+.btn--primary { background: #228be6; color: white; }
+.btn--secondary { background: #868e96; color: white; }
+.btn--warning { background: #fa5252; color: white; }
+
+.andersen-download-zone { padding-top: 10px; border-top: 1px dashed #e9ecef; }
+.btn--download { background: transparent; color: #6c757d; border: 1px solid #ced4da; padding: 6px 12px; font-size: 0.78rem; font-weight: 700; border-radius: 6px; cursor: pointer; }
+.btn--download:hover:not(:disabled) { background: #f8f9fa; color: #212529; }
+
+.andersen-controls button:disabled, .btn--download:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const TOTAL_TEST_TIME = 600; // 10 minutter
+  const PHASE_TIME = 15;        // 15 sekunder
+  const TOTAL_INTERVALS = 20;
+
+  let isRunning = false;
+  let hasStarted = false;
+  let startTime = 0;
+  let pausedTime = 0;
+  let totalElapsed = 0;
+
+  let animFrameId = null;
+  let audioCtx = null;
+  let wakeLock = null;
+  let lastPhaseIdx = -1;
+
+  const widget = document.querySelector(".andersen-widget");
+  if (!widget) return;
+
+  const displayScreen = widget.querySelector(".andersen-display-screen");
+  const phaseTitle = widget.querySelector(".phase-title");
+  const phaseCountdown = widget.querySelector(".phase-countdown");
+  const totalTimeDisplay = widget.querySelector(".total-time");
+  const intervalCountDisplay = widget.querySelector(".interval-count");
+  
+  const progressBarFill = widget.querySelector(".progress-bar-fill");
+  const progressPctDisplay = widget.querySelector(".progress-pct-display");
+  const soundSelect = widget.querySelector(".sound-select");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const btnStart = widget.querySelector(".btn-start");
+  const btnPause = widget.querySelector(".btn-pause");
+  const btnReset = widget.querySelector(".btn-reset");
+  const btnDownload = widget.querySelector(".btn-download");
+
+  const infoModal = widget.querySelector(".andersen-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  function playBeep(type) {
+    if (soundSelect.value === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+
+    const now = audioCtx.currentTime;
+    if (type === 'start_run') {
+      osc.frequency.value = 1200;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+      osc.start(now); osc.stop(now + 0.35);
+    } else if (type === 'start_rest') {
+      osc.frequency.value = 500;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+      osc.start(now); osc.stop(now + 0.35);
+    } else if (type === 'finished') {
+      osc.frequency.value = 900;
+      gain.gain.setValueAtTime(0.4, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.8);
+      osc.start(now); osc.stop(now + 0.8);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function update() {
+    if (!isRunning) return;
+
+    const now = performance.now();
+    totalElapsed = (now - startTime) / 1000;
+
+    if (totalElapsed >= TOTAL_TEST_TIME) {
+      totalElapsed = TOTAL_TEST_TIME;
+      finishTest();
+      return;
+    }
+
+    const currentPhaseIdx = Math.floor(totalElapsed / PHASE_TIME);
+    const isRunningPhase = (currentPhaseIdx % 2 === 0);
+    const timeInPhase = totalElapsed % PHASE_TIME;
+    const remainingInPhase = PHASE_TIME - timeInPhase;
+    const currentInterval = Math.floor(currentPhaseIdx / 2) + 1;
+
+    // Lyd-bip ved faseskift
+    if (currentPhaseIdx > lastPhaseIdx) {
+      if (lastPhaseIdx !== -1) {
+        if (isRunningPhase) playBeep('start_run');
+        else playBeep('start_rest');
+      }
+      lastPhaseIdx = currentPhaseIdx;
+    }
+
+    // UI Opdateringer
+    const remTotal = Math.max(0, TOTAL_TEST_TIME - totalElapsed);
+    const totalMins = Math.floor(remTotal / 60).toString().padStart(2, '0');
+    const totalSecs = Math.floor(remTotal % 60).toString().padStart(2, '0');
+    totalTimeDisplay.textContent = `${totalMins}:${totalSecs}`;
+
+    phaseCountdown.textContent = `${remainingInPhase.toFixed(1)}s`;
+    intervalCountDisplay.textContent = `${currentInterval} / 20`;
+
+    if (isRunningPhase) {
+      displayScreen.className = "andersen-display-screen state-run";
+      phaseTitle.textContent = "🏃 LØB!";
+    } else {
+      displayScreen.className = "andersen-display-screen state-rest";
+      phaseTitle.textContent = "🚶 PAUSE";
+    }
+
+    const pct = Math.min(100, Math.round((totalElapsed / TOTAL_TEST_TIME) * 100));
+    progressBarFill.style.width = `${pct}%`;
+    progressPctDisplay.textContent = `${pct}%`;
+
+    animFrameId = requestAnimationFrame(update);
+  }
+
+  function startTest() {
+    if (isRunning) return;
+    isRunning = true;
+    requestWakeLock();
+
+    btnStart.disabled = true;
+    btnPause.disabled = false;
+    btnReset.disabled = false;
+
+    if (!hasStarted) {
+      hasStarted = true;
+      startTime = performance.now();
+      playBeep('start_run');
+      lastPhaseIdx = 0;
+    } else {
+      startTime = performance.now() - pausedTime;
+    }
+
+    animFrameId = requestAnimationFrame(update);
+  }
+
+  function pauseTest() {
+    if (!isRunning) return;
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    pausedTime = performance.now() - startTime;
+    btnStart.disabled = false;
+    btnStart.textContent = "Genoptag Test";
+    btnPause.disabled = true;
+
+    displayScreen.className = "andersen-display-screen state-idle";
+    phaseTitle.textContent = "PAUSET";
+  }
+
+  function finishTest() {
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    playBeep('finished');
+    totalTimeDisplay.textContent = "00:00";
+    phaseCountdown.textContent = "0.0s";
+    intervalCountDisplay.textContent = "20 / 20";
+    progressBarFill.style.width = "100%";
+    progressPctDisplay.textContent = "100%";
+
+    displayScreen.className = "andersen-display-screen state-finished";
+    phaseTitle.textContent = "🎉 TEST GENNEMFØRT";
+    btnStart.disabled = true;
+    btnPause.disabled = true;
+  }
+
+  function resetTest() {
+    if (isRunning || hasStarted) {
+      if (!confirm("Vil du nulstille Andersen-testen?")) return;
+    }
+    isRunning = false;
+    hasStarted = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    totalElapsed = 0;
+    lastPhaseIdx = -1;
+
+    btnStart.disabled = false;
+    btnStart.textContent = "Start Test";
+    btnPause.disabled = true;
+    btnReset.disabled = true;
+
+    totalTimeDisplay.textContent = "10:00";
+    phaseCountdown.textContent = "15.0s";
+    intervalCountDisplay.textContent = "0 / 20";
+    progressBarFill.style.width = "0%";
+    progressPctDisplay.textContent = "0%";
+
+    displayScreen.className = "andersen-display-screen state-idle";
+    phaseTitle.textContent = "Klar til start";
+  }
+
+  // Generer WAV-lydfil
+  async function generateWavFile() {
+    btnDownload.disabled = true;
+    const origText = btnDownload.textContent;
+    btnDownload.textContent = "⏳ Genererer lydfil...";
+
+    let events = [];
+    for (let i = 0; i < 40; i++) {
+      const time = i * 15;
+      const type = (i % 2 === 0) ? 'start_run' : 'start_rest';
+      events.push({ time, type });
+    }
+    events.push({ time: 600, type: 'finished' });
+
+    const sampleRate = 16000;
+    const totalSamples = Math.ceil(sampleRate * 602);
+
+    try {
+      const offlineCtx = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(1, totalSamples, sampleRate);
+      
+      events.forEach(ev => {
+        const osc = offlineCtx.createOscillator();
+        const gain = offlineCtx.createGain();
+        osc.connect(gain);
+        gain.connect(offlineCtx.destination);
+
+        if (ev.type === 'start_run') osc.frequency.value = 1200;
+        else if (ev.type === 'start_rest') osc.frequency.value = 500;
+        else osc.frequency.value = 900;
+
+        gain.gain.setValueAtTime(0.3, ev.time);
+        gain.gain.exponentialRampToValueAtTime(0.001, ev.time + (ev.type === 'finished' ? 0.8 : 0.35));
+        osc.start(ev.time);
+        osc.stop(ev.time + 1.0);
+      });
+
+      const renderedBuffer = await offlineCtx.startRendering();
+      let result = new Float32Array(renderedBuffer.length);
+      renderedBuffer.copyFromChannel(result, 0, 0);
+      let dataLength = result.length * 2;
+      let buffer = new ArrayBuffer(44 + dataLength);
+      let view = new DataView(buffer);
+
+      function writeString(v, offset, str) { for (let i = 0; i < str.length; i++) v.setUint8(offset + i, str.charCodeAt(i)); }
+      writeString(view, 0, 'RIFF'); view.setUint32(4, 36 + dataLength, true); writeString(view, 8, 'WAVE'); writeString(view, 12, 'fmt ');
+      view.setUint32(16, 16, true); view.setUint16(20, 1, true); view.setUint16(22, 1, true); view.setUint32(24, sampleRate, true);
+      view.setUint32(28, sampleRate * 2, true); view.setUint16(32, 2, true); view.setUint16(34, 16, true); writeString(view, 36, 'data');
+      view.setUint32(40, dataLength, true);
+
+      let offset = 44;
+      for (let i = 0; i < result.length; i++, offset += 2) {
+        let s = Math.max(-1, Math.min(1, result[i]));
+        view.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+      }
+
+      const blob = new Blob([view], { type: 'audio/wav' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "andersen-test-10min-lydspor.wav";
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      alert("Fejl ved generering af lydfil.");
+    }
+
+    btnDownload.textContent = origText;
+    btnDownload.disabled = false;
+  }
+
+  btnStart.addEventListener("click", startTest);
+  btnPause.addEventListener("click", pauseTest);
+  btnReset.addEventListener("click", resetTest);
+  btnDownload.addEventListener("click", generateWavFile);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+});
+</script>

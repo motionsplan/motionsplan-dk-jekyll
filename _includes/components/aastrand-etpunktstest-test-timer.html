@@ -1,0 +1,694 @@
+<div class="astrand-widget">
+  
+  <!-- Info Modal -->
+  <div class="astrand-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Åstrands et-punktstest</h4>
+        <span class="modal-subtitle-text">6 minutters submaksimal cykeltest</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>SÅDAN UDFØRES TESTEN:</strong><br>
+        1. Indstil belastningen på ergometercyklen (fx 100-150W for mænd, 50-100W for kvinder).<br>
+        2. Træd med en konstant kadence på <strong>50 RPM</strong> (følg metronomens tik eller blink).<br>
+        3. Aflæs og notér pulsen præcis ved <strong>5:00</strong> og <strong>6:00</strong>.<br>
+        4. Hvis pulsforskellen mellem min 5 og 6 er <strong>under 5 slag/min</strong>, er testen slut (Steady State).<br>
+        5. Er forskellen større, fortsættes cyklingen i ét minut mere til pulsen er stabil.<br>
+        6. Indtast gennemsnitspulsen i beregneren på siden.
+      </p>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="astrand-topbar">
+    <div class="astrand-header-card">
+      <div class="card-text-group">
+        <div class="card-title-row">
+          <span class="card-title">Åstrands et-punktstest (Cykeltest)</span>
+          <button class="info-icon-btn" type="button" title="Læs om testproceduren">ℹ️</button>
+        </div>
+        <div class="card-desc">6 minutters cykling med fast kadence og pulsaflæsning ved 5 og 6 min.</div>
+      </div>
+    </div>
+
+    <!-- Indstillinger som Knapper -->
+    <div class="topbar-subrow">
+      <!-- Kadence Knapper -->
+      <div class="setting-item">
+        <span class="setting-label">Kadence:</span>
+        <div class="btn-toggle-group" id="rpm-toggle">
+          <button type="button" class="toggle-btn active" data-val="50">50 RPM</button>
+          <button type="button" class="toggle-btn" data-val="60">60 RPM</button>
+        </div>
+      </div>
+
+      <!-- Rytme Knapper -->
+      <div class="setting-item">
+        <span class="setting-label">Rytme:</span>
+        <div class="btn-toggle-group" id="tick-toggle">
+          <button type="button" class="toggle-btn active" data-val="one_leg" title="1 tik pr. omdrejning (kun ét ben i bund)">1 tik / omdr.</button>
+          <button type="button" class="toggle-btn" data-val="both_legs" title="2 tik pr. omdrejning (begge ben)">2 tik / omdr.</button>
+        </div>
+      </div>
+
+      <!-- Lyd Knapper -->
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- Hoved-skærm -->
+  <div class="astrand-display-screen state-idle">
+    
+    <!-- Stor Stroboskop / Kadence LED-Indikator -->
+    <div class="cadence-indicator-wrapper">
+      <div class="cadence-dot"></div>
+      <span class="cadence-label">KADENCE-LYS (TEMPO)</span>
+    </div>
+
+    <div class="phase-title">Klar til start</div>
+    <div class="total-timer-display">00:00</div>
+    <div class="phase-subtitle">Mål: 6 minutter v. stabil belastning</div>
+    
+    <div class="pulse-check-row">
+      <div class="pulse-check-box p5">
+        <span class="pulse-time-label">5. MINUT PULS</span>
+        <strong class="pulse-val-5">-- bpm</strong>
+      </div>
+      <div class="pulse-check-box p6">
+        <span class="pulse-time-label">6. MINUT PULS</span>
+        <strong class="pulse-val-6">-- bpm</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress Bar (6 minutter) -->
+  <div class="astrand-progress-container">
+    <div class="progress-label-row">
+      <span>TEST FREMGANG (6 MIN)</span>
+      <span class="progress-pct-display">0%</span>
+    </div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- Kontroller -->
+  <div class="astrand-controls">
+    <button class="btn btn--primary btn-start">Start Test</button>
+    <button class="btn btn--secondary btn-pause" disabled>Pause</button>
+    <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
+  </div>
+
+  <!-- Download Lydfil -->
+  <div class="astrand-download-zone">
+    <button class="btn btn--download btn-download">📥 Download 6-min Metronom Lydfil (WAV)</button>
+  </div>
+</div>
+
+<style>
+.astrand-widget {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.astrand-widget * { box-sizing: border-box; }
+
+.astrand-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; text-align: left; }
+.astrand-header-card {
+  background: #e7f5ff;
+  border: 1px solid #a5d8ff;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn {
+  background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px;
+  border-radius: 6px; transition: transform 0.1s ease;
+}
+.info-icon-btn:hover { transform: scale(1.15); }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.astrand-info-modal {
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left;
+}
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* VANDRET KNAP-INDSTILLINGSBJÆLKE */
+/* VANDRET KNAP-INDSTILLINGSBJÆLKE PÅ ÉN LINJE */
+.topbar-subrow { 
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-start; 
+  gap: 8px; 
+  margin-top: 4px;
+  flex-wrap: nowrap; /* Forhindrer linjeskift */
+  width: 100%;
+}
+
+.setting-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0; /* Sikrer at knapperne ikke trykkes skæve */
+}
+
+.setting-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #495057;
+  white-space: nowrap;
+}
+
+/* Toggle Knap Grupper (Segmented Controls) */
+.btn-toggle-group {
+  display: inline-flex;
+  background: #f1f3f5;
+  padding: 2px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  flex-shrink: 0;
+}
+
+.toggle-btn {
+  background: transparent;
+  border: none;
+  padding: 3px 6px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #495057;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.toggle-btn:hover:not(.active) {
+  color: #212529;
+  background: rgba(0,0,0,0.04);
+}
+
+.toggle-btn.active {
+  background: #228be6;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(34, 139, 230, 0.3);
+}
+
+.toggle-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.wakelock-status { 
+  font-size: 0.70rem; 
+  font-weight: bold; 
+  color: #2b8a3e; 
+  background: #ebfbee; 
+  border: 1px solid #b2f2bb; 
+  padding: 3px 6px; 
+  border-radius: 12px; 
+  opacity: 0;
+  margin-left: auto;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.wakelock-status.active { opacity: 1; }
+
+/* Hoved-skærm */
+.astrand-display-screen {
+  padding: 20px 16px;
+  border-radius: 16px;
+  margin-bottom: 14px;
+  transition: all 0.3s ease;
+  background: #f1f3f5;
+  border: 3px solid #dee2e6;
+  color: #343a40;
+  position: relative;
+}
+
+/* STØRRE OG TYDELIGERE KADENCE LED-KNAP */
+.cadence-indicator-wrapper {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; margin-bottom: 12px;
+}
+.cadence-dot {
+  width: 54px; 
+  height: 54px; 
+  border-radius: 50%; 
+  background: #adb5bd; 
+  border: 3px solid #ced4da;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.15);
+  transition: transform 0.05s ease, background-color 0.05s ease, box-shadow 0.05s ease;
+}
+.cadence-dot.beat { 
+  background: #20c997; 
+  border-color: #099268;
+  transform: scale(1.18); 
+  box-shadow: 0 0 25px rgba(32, 201, 151, 0.9), inset 0 0 8px rgba(255,255,255,0.8);
+}
+.cadence-label { font-size: 0.65rem; font-weight: 800; color: #6c757d; letter-spacing: 0.05em; }
+
+.astrand-display-screen.state-running {
+  background: #e7f5ff; border-color: #a5d8ff; color: #1c7ed6;
+}
+.astrand-display-screen.state-measure {
+  background: #fff9db; border-color: #fcc419; color: #f59f00; animation: pulseBorder 1s infinite alternate;
+}
+@keyframes pulseBorder {
+  from { border-color: #fcc419; }
+  to { border-color: #f59f00; }
+}
+
+.astrand-display-screen.state-finished {
+  background: #d3f9d8; border-color: #51cf66; color: #2b8a3e;
+}
+
+.phase-title { font-size: 1.2rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.03em; }
+.total-timer-display {
+  font-size: 3.8rem; font-weight: 900; line-height: 1; margin: 6px 0; font-variant-numeric: tabular-nums;
+}
+.phase-subtitle { font-size: 0.8rem; font-weight: 700; opacity: 0.85; margin-bottom: 14px; }
+
+/* Puls tjek faste brikker */
+.pulse-check-row { display: flex; gap: 10px; justify-content: center; }
+.pulse-check-box {
+  flex: 1; max-width: 200px; background: rgba(255, 255, 255, 0.7); border-radius: 8px; padding: 8px;
+  border: 1px solid rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center;
+}
+.pulse-time-label { font-size: 0.62rem; font-weight: 800; opacity: 0.85; }
+.pulse-check-box strong { font-size: 1.1rem; font-weight: 900; margin-top: 2px; }
+.pulse-check-box.active-measure { background: #ffe066; border-color: #f59f00; color: #212529; }
+
+/* Progress bar */
+.astrand-progress-container { margin-bottom: 14px; text-align: left; }
+.progress-label-row { display: flex; justify-content: space-between; font-size: 0.68rem; font-weight: 800; color: #868e96; margin-bottom: 4px; }
+.progress-bar-track { background: #e9ecef; height: 8px; border-radius: 4px; overflow: hidden; }
+.progress-bar-fill { background: #228be6; height: 100%; width: 0%; transition: width 0.2s linear; }
+
+/* Knapper */
+.astrand-controls { display: flex; gap: 8px; margin-bottom: 14px; }
+.astrand-controls button { flex: 1; padding: 12px; font-size: 1rem; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; }
+.btn--primary { background: #228be6; color: white; }
+.btn--secondary { background: #868e96; color: white; }
+.btn--warning { background: #fa5252; color: white; }
+
+.astrand-download-zone { padding-top: 10px; border-top: 1px dashed #e9ecef; }
+.btn--download { background: transparent; color: #6c757d; border: 1px solid #ced4da; padding: 6px 12px; font-size: 0.78rem; font-weight: 700; border-radius: 6px; cursor: pointer; }
+.btn--download:hover:not(:disabled) { background: #f8f9fa; color: #212529; }
+
+.astrand-controls button:disabled, .btn--download:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const TOTAL_TEST_TIME = 360; // 6 minutter i sekunder
+
+  let isRunning = false;
+  let hasStarted = false;
+  let startTime = 0;
+  let pausedTime = 0;
+  let totalElapsed = 0;
+
+  let animFrameId = null;
+  let audioCtx = null;
+  let wakeLock = null;
+
+  let lastBeatIndex = -1;
+  let hasSignaled5Min = false;
+  let hasSignaled6Min = false;
+
+  // Tilstande for knap-valg
+  let selectedRpm = 50;
+  let selectedTickMode = 'one_leg';
+  let selectedSound = 'on';
+
+  const widget = document.querySelector(".astrand-widget");
+  if (!widget) return;
+
+  const displayScreen = widget.querySelector(".astrand-display-screen");
+  const phaseTitle = widget.querySelector(".phase-title");
+  const totalTimerDisplay = widget.querySelector(".total-timer-display");
+  const phaseSubtitle = widget.querySelector(".phase-subtitle");
+  const cadenceDot = widget.querySelector(".cadence-dot");
+
+  const pulseBox5 = widget.querySelector(".pulse-check-box.p5");
+  const pulseBox6 = widget.querySelector(".pulse-check-box.p6");
+  const pulseVal5 = widget.querySelector(".pulse-val-5");
+  const pulseVal6 = widget.querySelector(".pulse-val-6");
+
+  const progressBarFill = widget.querySelector(".progress-bar-fill");
+  const progressPctDisplay = widget.querySelector(".progress-pct-display");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const btnStart = widget.querySelector(".btn-start");
+  const btnPause = widget.querySelector(".btn-pause");
+  const btnReset = widget.querySelector(".btn-reset");
+  const btnDownload = widget.querySelector(".btn-download");
+
+  const infoModal = widget.querySelector(".astrand-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  // Håndtering af Toggle-knapper
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (isRunning) return;
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+
+  setupToggleGroup("rpm-toggle", (val) => { selectedRpm = parseInt(val); });
+  setupToggleGroup("tick-toggle", (val) => { selectedTickMode = val; });
+  setupToggleGroup("sound-toggle", (val) => { selectedSound = val; });
+
+  function setToggleButtonsDisabled(disabled) {
+    const allToggleBtns = widget.querySelectorAll(".toggle-btn");
+    allToggleBtns.forEach(b => b.disabled = disabled);
+  }
+
+  function getBpm() {
+    return selectedTickMode === 'both_legs' ? selectedRpm * 2 : selectedRpm;
+  }
+
+  function playMetronomeTick() {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+
+    const now = audioCtx.currentTime;
+    osc.frequency.value = 850;
+    gain.gain.setValueAtTime(0.2, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.05);
+    osc.start(now);
+    osc.stop(now + 0.05);
+  }
+
+  function playAlertChime() {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const now = audioCtx.currentTime;
+    [1000, 1300, 1600].forEach((freq, idx) => {
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(0.3, now + (idx * 0.15));
+      gain.gain.exponentialRampToValueAtTime(0.001, now + (idx * 0.15) + 0.3);
+      osc.start(now + (idx * 0.15));
+      osc.stop(now + (idx * 0.15) + 0.3);
+    });
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function update() {
+    if (!isRunning) return;
+
+    const now = performance.now();
+    totalElapsed = (now - startTime) / 1000;
+
+    // Metronom beregning
+    const bpm = getBpm();
+    const intervalSec = 60 / bpm;
+    const currentBeatIndex = Math.floor(totalElapsed / intervalSec);
+
+    if (currentBeatIndex > lastBeatIndex) {
+      lastBeatIndex = currentBeatIndex;
+      playMetronomeTick();
+
+      // Visuelt metronom blink (LED lys)
+      cadenceDot.classList.add("beat");
+      setTimeout(() => cadenceDot.classList.remove("beat"), 100);
+    }
+
+    // Tidsvisning (Tæller op fra 00:00)
+    const mins = Math.floor(totalElapsed / 60).toString().padStart(2, '0');
+    const secs = Math.floor(totalElapsed % 60).toString().padStart(2, '0');
+    totalTimerDisplay.textContent = `${mins}:${secs}`;
+
+    // Faser & Notifikationer
+    if (totalElapsed >= 295 && totalElapsed < 310) { // 5. minut
+      if (!hasSignaled5Min && totalElapsed >= 300) {
+        hasSignaled5Min = true;
+        playAlertChime();
+        pulseVal5.textContent = "AFLÆS NU!";
+      }
+      displayScreen.className = "astrand-display-screen state-measure";
+      phaseTitle.textContent = "🔔 5. MINUT: AFLÆS PULS";
+      phaseSubtitle.textContent = "Notér pulsen nu – fortsæt cykling i samme tempo";
+      pulseBox5.classList.add("active-measure");
+    } else if (totalElapsed >= 355 && totalElapsed < 360) { // 6. minut
+      if (!hasSignaled6Min && totalElapsed >= 360) {
+        hasSignaled6Min = true;
+        playAlertChime();
+        pulseVal6.textContent = "AFLÆS NU!";
+      }
+      displayScreen.className = "astrand-display-screen state-measure";
+      phaseTitle.textContent = "🔔 6. MINUT: AFLÆS PULS";
+      phaseSubtitle.textContent = "Notér pulsen nu – tjek om forskellen er < 5 slag";
+      pulseBox5.classList.remove("active-measure");
+      pulseBox6.classList.add("active-measure");
+    } else if (totalElapsed >= TOTAL_TEST_TIME) {
+      finishTest();
+      return;
+    } else {
+      displayScreen.className = "astrand-display-screen state-running";
+      const modeText = selectedTickMode === 'one_leg' ? '1 tik/omdr.' : '2 tik/omdr.';
+      phaseTitle.textContent = `🚴 CYKLER (${selectedRpm} RPM)`;
+      phaseSubtitle.textContent = `Hold jævn kadence (${modeText}) og konstant belastning`;
+      pulseBox5.classList.remove("active-measure");
+      pulseBox6.classList.remove("active-measure");
+    }
+
+    const pct = Math.min(100, Math.round((totalElapsed / TOTAL_TEST_TIME) * 100));
+    progressBarFill.style.width = `${pct}%`;
+    progressPctDisplay.textContent = `${pct}%`;
+
+    animFrameId = requestAnimationFrame(update);
+  }
+
+  function startTest() {
+    if (isRunning) return;
+    isRunning = true;
+    requestWakeLock();
+
+    btnStart.disabled = true;
+    btnPause.disabled = false;
+    btnReset.disabled = false;
+    setToggleButtonsDisabled(true);
+
+    if (!hasStarted) {
+      hasStarted = true;
+      startTime = performance.now();
+      lastBeatIndex = -1;
+    } else {
+      startTime = performance.now() - pausedTime;
+    }
+
+    animFrameId = requestAnimationFrame(update);
+  }
+
+  function pauseTest() {
+    if (!isRunning) return;
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    pausedTime = performance.now() - startTime;
+    btnStart.disabled = false;
+    btnStart.textContent = "Genoptag Test";
+    btnPause.disabled = true;
+
+    displayScreen.className = "astrand-display-screen state-idle";
+    phaseTitle.textContent = "PAUSET";
+  }
+
+  function finishTest() {
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    playAlertChime();
+    totalTimerDisplay.textContent = "06:00";
+    progressBarFill.style.width = "100%";
+    progressPctDisplay.textContent = "100%";
+
+    displayScreen.className = "astrand-display-screen state-finished";
+    phaseTitle.textContent = "🎉 6 MINUTTER GENNEMFØRT";
+    phaseSubtitle.textContent = "Tjek pulsforskellen (Min 5 vs Min 6). Er forskellen ≤ 5 slag?";
+    
+    pulseBox5.classList.remove("active-measure");
+    pulseBox6.classList.remove("active-measure");
+    btnStart.disabled = true;
+    btnPause.disabled = true;
+  }
+
+  function resetTest() {
+    if (isRunning || hasStarted) {
+      if (!confirm("Vil du nulstille Åstrand-testen?")) return;
+    }
+    isRunning = false;
+    hasStarted = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    totalElapsed = 0;
+    lastBeatIndex = -1;
+    hasSignaled5Min = false;
+    hasSignaled6Min = false;
+
+    btnStart.disabled = false;
+    btnStart.textContent = "Start Test";
+    btnPause.disabled = true;
+    btnReset.disabled = true;
+    setToggleButtonsDisabled(false);
+
+    totalTimerDisplay.textContent = "00:00";
+    progressBarFill.style.width = "0%";
+    progressPctDisplay.textContent = "0%";
+
+    pulseVal5.textContent = "-- bpm";
+    pulseVal6.textContent = "-- bpm";
+    pulseBox5.classList.remove("active-measure");
+    pulseBox6.classList.remove("active-measure");
+
+    displayScreen.className = "astrand-display-screen state-idle";
+    phaseTitle.textContent = "Klar til start";
+    phaseSubtitle.textContent = "Mål: 6 minutter v. stabil belastning";
+  }
+
+  // Generer WAV-metronom lydfil
+  async function generateWavFile() {
+    btnDownload.disabled = true;
+    const origText = btnDownload.textContent;
+    btnDownload.textContent = "⏳ Genererer lydfil...";
+
+    const bpm = getBpm();
+    const intervalSec = 60 / bpm;
+    const totalBeats = Math.floor(TOTAL_TEST_TIME / intervalSec);
+
+    const sampleRate = 16000;
+    const totalSamples = Math.ceil(sampleRate * 362);
+
+    try {
+      const offlineCtx = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(1, totalSamples, sampleRate);
+      
+      // Ticks
+      for (let i = 0; i < totalBeats; i++) {
+        const time = i * intervalSec;
+        const osc = offlineCtx.createOscillator();
+        const gain = offlineCtx.createGain();
+        osc.connect(gain);
+        gain.connect(offlineCtx.destination);
+        osc.frequency.value = 850;
+        gain.gain.setValueAtTime(0.2, time);
+        gain.gain.exponentialRampToValueAtTime(0.001, time + 0.05);
+        osc.start(time);
+        osc.stop(time + 0.05);
+      }
+
+      // Alarmer ved 300s (5 min) og 360s (6 min)
+      [300, 360].forEach(time => {
+        [1000, 1300, 1600].forEach((freq, idx) => {
+          const osc = offlineCtx.createOscillator();
+          const gain = offlineCtx.createGain();
+          osc.connect(gain);
+          gain.connect(offlineCtx.destination);
+          osc.frequency.value = freq;
+          gain.gain.setValueAtTime(0.3, time + (idx * 0.15));
+          gain.gain.exponentialRampToValueAtTime(0.001, time + (idx * 0.15) + 0.3);
+          osc.start(time + (idx * 0.15));
+          osc.stop(time + (idx * 0.15) + 0.3);
+        });
+      });
+
+      const renderedBuffer = await offlineCtx.startRendering();
+      let result = new Float32Array(renderedBuffer.length);
+      renderedBuffer.copyFromChannel(result, 0, 0);
+      let dataLength = result.length * 2;
+      let buffer = new ArrayBuffer(44 + dataLength);
+      let view = new DataView(buffer);
+
+      function writeString(v, offset, str) { for (let i = 0; i < str.length; i++) v.setUint8(offset + i, str.charCodeAt(i)); }
+      writeString(view, 0, 'RIFF'); view.setUint32(4, 36 + dataLength, true); writeString(view, 8, 'WAVE'); writeString(view, 12, 'fmt ');
+      view.setUint32(16, 16, true); view.setUint16(20, 1, true); view.setUint16(22, 1, true); view.setUint32(24, sampleRate, true);
+      view.setUint32(28, sampleRate * 2, true); view.setUint16(32, 2, true); view.setUint16(34, 16, true); writeString(view, 36, 'data');
+      view.setUint32(40, dataLength, true);
+
+      let offset = 44;
+      for (let i = 0; i < result.length; i++, offset += 2) {
+        let s = Math.max(-1, Math.min(1, result[i]));
+        view.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+      }
+
+      const blob = new Blob([view], { type: 'audio/wav' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `astrand-metronom-${selectedRpm}rpm-${selectedTickMode}.wav`;
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      alert("Fejl ved generering af lydfil.");
+    }
+
+    btnDownload.textContent = origText;
+    btnDownload.disabled = false;
+  }
+
+  btnStart.addEventListener("click", startTest);
+  btnPause.addEventListener("click", pauseTest);
+  btnReset.addEventListener("click", resetTest);
+  btnDownload.addEventListener("click", generateWavFile);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+});
+</script>

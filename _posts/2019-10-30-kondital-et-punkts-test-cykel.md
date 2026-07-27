@@ -47,7 +47,8 @@ feature_row:
 
 Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan Åstrands test udføres?
 
-[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump } [<i class='fas fa-volume-up'></i> Hop til timer](#timer){: .btn .btn--success .btn--jump }
+
 
 ## Hvad er Åstrands etpunktstest?
 
@@ -83,6 +84,21 @@ Vælg en belastning, der gør, at din puls opnår _steady state_ omkring 120-160
 Skriv pulsen ned hvert minut gennem testen. Hvis ikke pulsen er inden for 5 pulsslag pr. minut for minut 5 og 6, så fortsæt i et ekstra minut. Hvis ikke pulsen ligger mellem 120 og 170 så fortsæt et minut mere med en justeret modstand.
 
 {% include video provider="youtube" id="6KOoejoYP8A" %}
+
+## Interaktiv metronom & timer til Åstrands et-punktstest
+{: id="timer" }
+
+For at udføre Åstrands et-punktstest på cykel korrekt er det afgørende at holde en helt præcis pedalkadence på **50 RPM** (100 pedaltråd/min) og aflæse pulsen på de helt rigtige tidspunkter. 
+
+Når testen er gennemført, indtaster du blot gennemsnitspulsen i vores beregner herunder.
+
+{% include components/aastrand-etpunktstest-test-timer.html %}
+
+Med vores interaktive Åstrand-timer klares kadence og tidtagning automatisk:
+
+* **Indbygget rytme-metronom:** Afspiller et præcist tik-signal ved 50 RPM (eller 60 RPM) kombineret med et visuelt blink på skærmen, så du nemt kan holde tempoet.
+* **Automatisk puls-notifikation:** Timeren bipper og skifter farve ved **5:00** og **6:00**, så du præcist ved, hvornår pulsen skal noteres for at tjekke for *steady state*.
+* **Download offline metronom (WAV):** Hent det komplette 6-minutters lydspor ned på din telefon, så du kan køre testen uden internetforbindelse.
 
 ## Beregn kondital med Åstrands etpunktstest
 {: id="calculator" }

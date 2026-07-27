@@ -37,6 +37,8 @@ Testen udføres ved at løbe i et 8-tal rundt om to kegler, hvor både hastighed
 
 I denne guide gennemgår vi testens opbygning, regler, samt hvordan du kan træne for at forbedre din præstation.
 
+ [<i class='fas fa-clock'></i> Timer](#timer){: .btn .btn--success .btn--jump }
+
 ## Sådan udfører du 8-tals hurtighedstest
 
 **Udgangsstilling**: Med keglen på din venstre side tager du opstilling bag startlinjen med hænder, knæ og underbøjede tæer i gulvet. Lår og arme skal følge en lodret linje mod underlaget.
@@ -46,6 +48,11 @@ I denne guide gennemgår vi testens opbygning, regler, samt hvordan du kan træn
 **Udførelse**: Bedømmeren giver meldingen: ”Færdige ---- Løb” og starter tidtagningen. Du løber 2 1/4 gang i ottetal omkring keglerne. Under løbet må du ikke røre keglerne. Keglerne er opstillet med en afstand af 13,40 m.
 
 {% include video provider="youtube" id="TbaBYiS7JrU" %}
+
+## Timer
+{: id="timer" }
+
+{% include components/politi-8-tals-timer.html %}
 
 ## Sådan bedømmes 8-tals løbet
 

@@ -1,0 +1,604 @@
+<div class="rast-widget">
+  
+  <!-- Info Modal -->
+  <div class="rast-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om RAST-Testen</h4>
+        <span class="modal-subtitle-text">Running-based Anaerobic Sprint Test (6 x 35m)</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>SÅDAN UDFØRES TESTEN:</strong><br>
+        1. Indtast løberens kropsvægt i kg.<br>
+        2. Tryk på <strong>Start Test</strong>. Modulet tæller 3... 2... 1... LØB! ned.<br>
+        3. Løberen sprinter 35m med 100% maksimal indsats.<br>
+        4. Tryk på den store knap <strong>STOP SPRINT</strong> i det sekund løberen krydser mållinjen.<br>
+        5. Modulet tæller automatisk 10 sekunders pause ned og instruerer træneren i at råbe 3-2-1-LØB!<br>
+        6. Efter 6. sprint genereres den samlede effektberegning samt søjlediagram over udmattelseskurven.
+      </p>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="rast-topbar">
+    <div class="rast-header-card">
+      <div class="card-title-row">
+        <span class="card-title">RAST-Test (6 x 35m Anaerob Sprint)</span>
+        <button class="info-icon-btn" type="button" title="Læs om testen">ℹ️</button>
+      </div>
+      <div class="card-desc">Anaerob effekttest: 6 maksimale 35m sprints med 10 sekunders pause.</div>
+    </div>
+
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <label for="weight-input" class="setting-label">Kropsvægt:</label>
+        <input type="number" id="weight-input" class="weight-input-field" value="75" min="30" max="200" step="1">
+        <span class="setting-unit">kg</span>
+      </div>
+
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- Hovedskærm med Fast Låst Højde -->
+  <div class="rast-display-screen state-idle">
+    <div class="sprint-stage-badge">KLAR TIL START</div>
+    
+    <!-- Stor Timer Display -->
+    <div class="main-timer-display">0.00s</div>
+    
+    <!-- Træner-Instruks Banner (Fast højde på 54px) -->
+    <div class="trainer-callout-banner">
+      <span class="trainer-icon">📣</span>
+      <span class="trainer-command-text">Tryk på 'Start Test' for at begynde nedtællingen</span>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="rast-stats-grid">
+      <div class="stat-box">
+        <span class="stat-value peak-power-display">0 W</span>
+        <span class="stat-label">PEAK POWER (MAX)</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-value avg-power-display">0 W</span>
+        <span class="stat-label">GENNEMSNIT EFFEKT</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-value fatigue-index-display">0.0 W/s</span>
+        <span class="stat-label">FATIGUE INDEX</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kontroller -->
+  <div class="rast-controls">
+    <button class="btn btn--action btn-main-action" type="button">🚀 Start Test (3-2-1)</button>
+    <button class="btn btn--warning btn-reset" type="button">Nulstil</button>
+  </div>
+
+  <!-- Datatabel I PRECISELY 100% BREDDE -->
+  <div class="rast-log-wrapper">
+    <h5 class="log-title">Sprint Oversigt & Effektberegning</h5>
+    <table class="rast-log-table">
+      <thead>
+        <tr>
+          <th>Sprint</th>
+          <th>Tid (s)</th>
+          <th>Effekt (W)</th>
+          <th>Relativ (W/kg)</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="4" style="color: #adb5bd;">Ingen registrerede sprints endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SØJLEDIAGRAM OVER SPRINTEFFEKT (WATT) -->
+  <div class="rast-chart-wrapper">
+    <h5 class="chart-title">📊 Ydelseskurve (Effekt i Watt pr. Sprint)</h5>
+    <div class="chart-container">
+      <svg id="rast-svg-chart" width="100%" height="180" viewBox="0 0 500 180" preserveAspectRatio="none">
+        <text x="250" y="90" text-anchor="middle" font-size="12" fill="#adb5bd">Gennemfør testen for at se søjlediagrammet</text>
+      </svg>
+    </div>
+    <div class="chart-legend">
+      <span class="legend-item"><span class="legend-dot peak"></span> Peak Power (Max Watt)</span>
+      <span class="legend-item"><span class="legend-dot min"></span> Laveste Effekt</span>
+      <span class="legend-item"><span class="legend-dot normal"></span> Sprint Effekt</span>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.rast-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 20px;
+  max-width: 620px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.rast-widget * { box-sizing: border-box; }
+
+.rast-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; text-align: left; }
+.rast-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 12px 14px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.rast-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Settings */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 4px; flex-wrap: wrap; }
+.setting-item { display: flex; align-items: center; gap: 6px; }
+.setting-label { font-size: 0.80rem; font-weight: 800; color: #495057; }
+.weight-input-field { width: 65px; padding: 4px; border: 1px solid #ced4da; border-radius: 6px; font-size: 0.9rem; font-weight: 800; text-align: center; }
+.setting-unit { font-size: 0.80rem; font-weight: 800; color: #868e96; }
+
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Display Skærm med Stabil Højde */
+.rast-display-screen {
+  padding: 16px; border-radius: 16px; margin-bottom: 14px; background: #e7f5ff; border: 3px solid #a5d8ff; color: #1c7ed6;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  min-height: 250px; display: flex; flex-direction: column; justify-content: space-between;
+}
+.rast-display-screen.state-sprinting { background: #e7f5ff; border-color: #339af0; color: #1c7ed6; }
+.rast-display-screen.state-pause { background: #fff9db; border-color: #fcc419; color: #e67700; }
+.rast-display-screen.state-countdown { background: #fff0f6; border-color: #f783ac; color: #d6336c; }
+.rast-display-screen.state-finished { background: #d3f9d8; border-color: #51cf66; color: #2b8a3e; }
+
+.sprint-stage-badge { font-size: 1.1rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.03em; }
+.main-timer-display { font-size: 4rem; font-weight: 900; line-height: 1; margin: 4px 0; font-variant-numeric: tabular-nums; }
+
+/* Træner Banner med FAST 54px Højde */
+.trainer-callout-banner {
+  background: #ffffff; border: 2px solid #fcc419; border-radius: 10px; padding: 6px 12px;
+  margin: 8px 0; display: flex; align-items: center; justify-content: center; gap: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  height: 54px; min-height: 54px; box-sizing: border-box; flex-shrink: 0;
+}
+.trainer-icon { font-size: 1.2rem; flex-shrink: 0; }
+.trainer-command-text {
+  font-size: 0.92rem; font-weight: 900; color: #d9480f; line-height: 1.25; text-align: center;
+}
+
+/* Stats grid */
+.rast-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 6px; }
+.stat-box { background: rgba(255,255,255,0.9); padding: 8px 4px; border-radius: 8px; display: flex; flex-direction: column; align-items: center; }
+.stat-value { font-size: 1.1rem; font-weight: 900; color: #212529; }
+.stat-label { font-size: 0.58rem; font-weight: 800; color: #868e96; margin-top: 2px; }
+
+/* Knapper */
+.rast-controls { display: flex; gap: 10px; margin-bottom: 16px; }
+.btn--action { flex: 2; padding: 14px; font-size: 1.15rem; font-weight: 900; border-radius: 10px; border: none; cursor: pointer; color: white; background: #228be6; box-shadow: 0 4px 12px rgba(34, 139, 230, 0.3); transition: all 0.15s ease; }
+.btn--action.btn-sprinting { background: #12b886; box-shadow: 0 4px 12px rgba(18, 184, 134, 0.3); }
+.btn--action.btn-countdown { background: #e64980; opacity: 0.8; }
+.btn--action:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn--warning { flex: 1; background: #fa5252; color: white; border: none; padding: 14px; border-radius: 10px; font-weight: 800; font-size: 1rem; cursor: pointer; }
+
+/* Datatabel I PRECISELY 100% BREDDE */
+.rast-log-wrapper { margin-top: 16px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 12px; width: 100%; }
+.log-title { font-size: 0.88rem; font-weight: 800; margin: 0 0 8px 0; color: #343a40; }
+.rast-log-table { width: 100%; border-collapse: collapse; font-size: 0.80rem; table-layout: fixed; }
+.rast-log-table th { background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.rast-log-table td { padding: 8px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; word-break: break-word; }
+
+.rast-log-table th:nth-child(1), .rast-log-table td:nth-child(1) { width: 22%; }
+.rast-log-table th:nth-child(2), .rast-log-table td:nth-child(2) { width: 23%; }
+.rast-log-table th:nth-child(3), .rast-log-table td:nth-child(3) { width: 28%; }
+.rast-log-table th:nth-child(4), .rast-log-table td:nth-child(4) { width: 27%; }
+
+/* Chart Section */
+.rast-chart-wrapper { margin-top: 18px; text-align: left; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 12px; width: 100%; }
+.chart-title { font-size: 0.85rem; font-weight: 800; margin: 0 0 8px 0; color: #343a40; }
+.chart-container { background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 8px; width: 100%; }
+.chart-legend { display: flex; justify-content: space-around; margin-top: 8px; font-size: 0.70rem; font-weight: 700; color: #6c757d; }
+.legend-item { display: flex; align-items: center; gap: 4px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 3px; }
+.legend-dot.peak { background: #2b8a3e; }
+.legend-dot.min { background: #fa5252; }
+.legend-dot.normal { background: #228be6; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let state = 'idle'; // idle, countdown, sprinting, pause, finished
+  let currentSprint = 1;
+  let sprintTimes = [];
+  
+  let timerStartTime = 0;
+  let sprintElapsed = 0;
+  let animFrameId = null;
+  
+  let pauseTimeLeft = 10;
+  let countdownVal = 3;
+  let intervalId = null;
+
+  let audioCtx = null;
+  let wakeLock = null;
+  let selectedSound = 'on';
+
+  const widget = document.querySelector(".rast-widget");
+  if (!widget) return;
+
+  const weightInput = widget.querySelector("#weight-input");
+  const displayScreen = widget.querySelector(".rast-display-screen");
+  const stageBadge = widget.querySelector(".sprint-stage-badge");
+  const mainTimerDisplay = widget.querySelector(".main-timer-display");
+  
+  const trainerCallout = widget.querySelector(".trainer-callout-banner");
+  const trainerCommandText = widget.querySelector(".trainer-command-text");
+
+  const peakPowerDisplay = widget.querySelector(".peak-power-display");
+  const avgPowerDisplay = widget.querySelector(".avg-power-display");
+  const fatigueIndexDisplay = widget.querySelector(".fatigue-index-display");
+
+  const btnMainAction = widget.querySelector(".btn-main-action");
+  const btnReset = widget.querySelector(".btn-reset");
+
+  const logTbody = widget.querySelector(".log-tbody");
+  const svgChart = widget.querySelector("#rast-svg-chart");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const infoModal = widget.querySelector(".rast-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (state !== 'idle') return;
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+  setupToggleGroup("sound-toggle", (val) => { selectedSound = val; });
+
+  function playSound(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain); gain.connect(audioCtx.destination);
+    const now = audioCtx.currentTime;
+
+    if (type === 'pip') {
+      osc.frequency.value = 800;
+      gain.gain.setValueAtTime(0.2, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+      osc.start(now); osc.stop(now + 0.15);
+    } else if (type === 'go') {
+      osc.frequency.value = 1400;
+      gain.gain.setValueAtTime(0.4, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+      osc.start(now); osc.stop(now + 0.4);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  // 1. STARTE TEST (3-2-1 Nedtælling)
+  function startInitialCountdown() {
+    state = 'countdown';
+    requestWakeLock();
+    countdownVal = 3;
+
+    displayScreen.className = "rast-display-screen state-countdown";
+    stageBadge.textContent = "KLAR TIL SPRINT 1";
+    trainerCallout.style.borderColor = "#f783ac";
+    
+    btnMainAction.className = "btn btn--action btn-countdown";
+    btnMainAction.disabled = true;
+
+    runCountdownStep();
+    intervalId = setInterval(runCountdownStep, 1000);
+  }
+
+  function runCountdownStep() {
+    if (countdownVal > 0) {
+      playSound('pip');
+      mainTimerDisplay.textContent = `${countdownVal}`;
+      trainerCommandText.innerHTML = `Træner råber: <strong>"${countdownVal}..."</strong>`;
+      btnMainAction.textContent = `Nedtælling: ${countdownVal}...`;
+      countdownVal--;
+    } else {
+      clearInterval(intervalId);
+      playSound('go');
+      startSprint();
+    }
+  }
+
+  // 2. SPRINT I GANG
+  function startSprint() {
+    state = 'sprinting';
+    timerStartTime = performance.now();
+
+    displayScreen.className = "rast-display-screen state-sprinting";
+    stageBadge.textContent = `⚡ SPRINT ${currentSprint} / 6`;
+    
+    trainerCallout.style.borderColor = "#a5d8ff";
+    // Vis 'LØB!' i det øjeblik sprintet starter
+    trainerCommandText.innerHTML = "📣 Træner råber: <strong style='color:#2b8a3e;'>'LØB!'</strong>";
+
+    // Skift til opmuntrende tekst efter 1.2 sekunder
+    setTimeout(() => {
+      if (state === 'sprinting') {
+        trainerCommandText.innerHTML = "🏃 <strong>Giv alt hvad du har over 35 meter!</strong>";
+      }
+    }, 1200);
+
+    btnMainAction.disabled = false;
+    btnMainAction.className = "btn btn--action btn-sprinting";
+    btnMainAction.textContent = `⏱️ STOP SPRINT ${currentSprint} (I MÅL)`;
+
+    updateTimer();
+  }
+
+  function updateTimer() {
+    if (state !== 'sprinting') return;
+    const now = performance.now();
+    sprintElapsed = (now - timerStartTime) / 1000;
+    mainTimerDisplay.textContent = `${sprintElapsed.toFixed(2)}s`;
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  // 3. SPRINT STOPPET
+  function stopSprint() {
+    cancelAnimationFrame(animFrameId);
+    playSound('pip');
+
+    const duration = parseFloat(sprintElapsed.toFixed(2));
+    sprintTimes.push(duration);
+
+    updateResultsTableAndStats();
+
+    if (currentSprint < 6) {
+      startPause();
+    } else {
+      finishTest();
+    }
+  }
+
+  // 4. 10 SEKUNDERS PAUSE
+  function startPause() {
+    state = 'pause';
+    currentSprint++;
+    pauseTimeLeft = 10;
+
+    displayScreen.className = "rast-display-screen state-pause";
+    stageBadge.textContent = `⏸️ PAUSE HOS 35M-LINJEN`;
+    trainerCallout.style.borderColor = "#fcc419";
+
+    btnMainAction.disabled = true;
+    btnMainAction.className = "btn btn--action";
+    btnMainAction.textContent = `Pause i gang...`;
+
+    runPauseStep();
+    intervalId = setInterval(runPauseStep, 1000);
+  }
+
+  function runPauseStep() {
+    mainTimerDisplay.textContent = `${pauseTimeLeft}s`;
+
+    if (pauseTimeLeft > 3) {
+      trainerCommandText.textContent = "Løber vender om og gør klar ved startlinjen";
+    } else if (pauseTimeLeft === 3) {
+      playSound('pip');
+      trainerCommandText.innerHTML = `Træner råber: <strong>"3..."</strong>`;
+    } else if (pauseTimeLeft === 2) {
+      playSound('pip');
+      trainerCommandText.innerHTML = `Træner råber: <strong>"2..."</strong>`;
+    } else if (pauseTimeLeft === 1) {
+      playSound('pip');
+      trainerCommandText.innerHTML = `Træner råber: <strong>"1..."</strong>`;
+    } else if (pauseTimeLeft === 0) {
+      clearInterval(intervalId);
+      playSound('go');
+      startSprint();
+      return;
+    }
+
+    pauseTimeLeft--;
+  }
+
+  // 5. TEST GENNEMFØRT
+  function finishTest() {
+    state = 'finished';
+    releaseWakeLock();
+
+    displayScreen.className = "rast-display-screen state-finished";
+    stageBadge.textContent = "🎉 RAST-TEST GENNEMFØRT";
+    mainTimerDisplay.textContent = "SLUT";
+    trainerCallout.style.borderColor = "#51cf66";
+    trainerCommandText.innerHTML = "🎉 <strong>Flot kørt! Se dine effekttal og kurve nedenunder.</strong>";
+
+    btnMainAction.style.display = "none";
+    renderChart();
+  }
+
+  // EFFEKT- BEREGNINGER & RESULTAT
+  function updateResultsTableAndStats() {
+    const weight = parseFloat(weightInput.value) || 75;
+    logTbody.innerHTML = "";
+
+    let powers = [];
+
+    sprintTimes.forEach((time, idx) => {
+      const watt = Math.round((weight * 1225) / Math.pow(time, 3));
+      const relWatt = (watt / weight).toFixed(1);
+      powers.push(watt);
+
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td><strong>Sprint ${idx + 1}</strong></td>
+        <td>${time.toFixed(2)}s</td>
+        <td><strong>${watt} W</strong></td>
+        <td>${relWatt} W/kg</td>
+      `;
+      logTbody.appendChild(tr);
+    });
+
+    if (powers.length > 0) {
+      const peak = Math.max(...powers);
+      const min = Math.min(...powers);
+      const sumPower = powers.reduce((a, b) => a + b, 0);
+      const avg = Math.round(sumPower / powers.length);
+
+      const totalTime = sprintTimes.reduce((a, b) => a + b, 0);
+      const fatigueIndex = ((peak - min) / totalTime).toFixed(1);
+
+      peakPowerDisplay.textContent = `${peak} W`;
+      avgPowerDisplay.textContent = `${avg} W`;
+      fatigueIndexDisplay.textContent = `${fatigueIndex} W/s`;
+    }
+
+    renderChart();
+  }
+
+  // TEGN SØJLEDIAGRAM OVER WATT EFFEKT
+  function renderChart() {
+    const weight = parseFloat(weightInput.value) || 75;
+    if (sprintTimes.length === 0) {
+      svgChart.innerHTML = '<text x="250" y="90" text-anchor="middle" font-size="12" fill="#adb5bd">Gennemfør testen for at se søjlediagrammet</text>';
+      return;
+    }
+
+    const powers = sprintTimes.map(t => Math.round((weight * 1225) / Math.pow(t, 3)));
+    const peakPower = Math.max(...powers);
+    const minPower = Math.min(...powers);
+
+    const width = 500;
+    const height = 180;
+    const padL = 40;
+    const padR = 20;
+    const padT = 20;
+    const padB = 30;
+
+    const maxWattScale = Math.max(800, Math.ceil(peakPower / 200) * 200);
+
+    let svgHtml = '';
+
+    // Gitterlinjer
+    for (let w = 0; w <= maxWattScale; w += maxWattScale / 4) {
+      const y = height - padB - (w / maxWattScale) * (height - padT - padB);
+      svgHtml += `<line x1="${padL}" y1="${y}" x2="${width - padR}" y2="${y}" stroke="#f1f3f5" stroke-width="1"/>`;
+      svgHtml += `<text x="${padL - 6}" y="${y + 4}" font-size="9" text-anchor="end" fill="#868e96" font-weight="bold">${Math.round(w)}W</text>`;
+    }
+
+    // Søjler for 6 sprints
+    const numBars = 6;
+    const availWidth = width - padL - padR;
+    const barWidth = 40;
+    const barGap = (availWidth - (numBars * barWidth)) / (numBars + 1);
+
+    for (let i = 0; i < 6; i++) {
+      const x = padL + barGap + i * (barWidth + barGap);
+      const val = powers[i] || 0;
+      const barHeight = val > 0 ? (val / maxWattScale) * (height - padT - padB) : 0;
+      const y = height - padB - barHeight;
+
+      let color = "#228be6";
+      if (val === peakPower && val > 0) color = "#2b8a3e";
+      else if (val === minPower && powers.length === 6) color = "#fa5252";
+
+      if (val > 0) {
+        svgHtml += `<rect x="${x}" y="${y}" width="${barWidth}" height="${barHeight}" rx="4" fill="${color}"/>`;
+        svgHtml += `<text x="${x + barWidth/2}" y="${y - 5}" font-size="9" text-anchor="middle" font-weight="900" fill="#212529">${val}W</text>`;
+      } else {
+        svgHtml += `<rect x="${x}" y="${height - padB - 2}" width="${barWidth}" height="2" fill="#e9ecef"/>`;
+      }
+
+      svgHtml += `<text x="${x + barWidth/2}" y="${height - 12}" font-size="9" text-anchor="middle" font-weight="bold" fill="#495057">S${i + 1}</text>`;
+    }
+
+    svgChart.innerHTML = svgHtml;
+  }
+
+  // NULSTIL TEST
+  function resetTest() {
+    if (state !== 'idle' && state !== 'finished') {
+      if (!confirm("Vil du nulstille RAST-testen?")) return;
+    }
+    clearInterval(intervalId);
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    state = 'idle';
+    currentSprint = 1;
+    sprintTimes = [];
+
+    displayScreen.className = "rast-display-screen state-idle";
+    stageBadge.textContent = "KLAR TIL START";
+    mainTimerDisplay.textContent = "0.00s";
+    
+    trainerCallout.style.borderColor = "#fcc419";
+    trainerCommandText.textContent = "Tryk på 'Start Test' for at begynde nedtællingen";
+
+    btnMainAction.style.display = "block";
+    btnMainAction.disabled = false;
+    btnMainAction.className = "btn btn--action btn-main-action";
+    btnMainAction.textContent = "🚀 Start Test (3-2-1)";
+
+    peakPowerDisplay.textContent = "0 W";
+    avgPowerDisplay.textContent = "0 W";
+    fatigueIndexDisplay.textContent = "0.0 W/s";
+
+    logTbody.innerHTML = '<tr class="empty-row"><td colspan="4" style="color: #adb5bd;">Ingen registrerede sprints endnu</td></tr>';
+    renderChart();
+  }
+
+  // HANDLERE
+  btnMainAction.addEventListener("click", function() {
+    if (state === 'idle') {
+      startInitialCountdown();
+    } else if (state === 'sprinting') {
+      stopSprint();
+    }
+  });
+
+  btnReset.addEventListener("click", resetTest);
+  weightInput.addEventListener("input", updateResultsTableAndStats);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  renderChart();
+});
+</script>

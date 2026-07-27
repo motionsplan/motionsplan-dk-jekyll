@@ -78,7 +78,8 @@ I denne guide gennemgår vi:
 **⚡ Spring direkte til:**
 
 [🧮 Beregn kondital](#calculator){: .btn .btn--danger }
-[📊 Skema & Tabeller](#cooper-test-skema-og-tabeller-normtal){: .btn .btn--info }
+[📊 Skema & Tabeller](#skema){: .btn .btn--info }
+[⏱️ Timer](#timer){: .btn .btn--info }
 
 {% include figure image_path="https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" %}
 
@@ -196,6 +197,7 @@ Tidligere havde Letesenbet Gidey fra Etiopien verdensrekorden. Du kan se en anal
 Så langt når du nok ikke, men du kan sammenligne dig selv i tabellerne nedenunder.
 
 ## Tabel og skema: Hvad betyder dine resultater?
+{: id="skema" }
 
 Her har jeg givet et bud på vurderingskriterier for distancen gennemført på Cooper-testen for mænd og kvinder.
 
@@ -317,6 +319,20 @@ Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brug
 | 50+   | 2200+ m    | 1700 - 2200 m | 1400 - 1699 m | 1100 - 1399 m | op til 1100 m |
 
 {% endcomment %}
+
+## Interaktiv Cooper-test Timer & Pacer
+{: id="timer" }
+
+Nøglen til et godt resultat i Cooper-testen er jævn tempostyring (pacing), så du undgår at lægge for hårdt ud og syre til halvvejs. Denne interaktive timer fungerer som din digitale pacer og omgangstæller under de 12 minutter.
+
+{% include components/cooper-test-timer.html %}
+
+**Funktioner i afspilleren:**
+* **Måltempo & Pacer-bip:** Vælg din måldistance (fx 2.800 m eller 3.000 m), og modtag automatiske bip-signaler, hver gang du bør passere en 400m-omgang for at nå dit mål.
+* **Live Omgangsregistrering:** Tryk på knappen *"Passerede 400m"*, hver gang du runder en omgang på atletikbanen. Værktøjet fortæller dig med det samme, om du er foran eller bagud i forhold til din tidsplan.
+* **Prognose & Kondital (VO₂max):** Modulet genberegner løbende din forventede slutdistance og dit estimerede kondital baseret på dit reelle omgangstempo.
+* **Taktiske Alarmer:** Tydelige lydsignaler giver besked ved 6 minutter (halvvejs) og ved 11 minutter (sidste minut til at sætte slutspurten ind).
+* **Download Pacer-lydfil:** Generér og hent et tilpasset 12-minutters WAV-lydspor direkte ned på telefonen, så du kan lytte til pacer-bip i dine høretelefoner ude på banen.
 
 ## Fordele ved Coopers løbetest
 
