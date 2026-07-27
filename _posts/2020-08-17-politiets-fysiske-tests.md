@@ -136,7 +136,7 @@ Længden af springet rundes ned til nærmeste 5 centimeter. Den afrundede længd
 ## 4️⃣ Kropshævninger
 
 <details markdown="1" class="faq">
-  <summary<h3>Kropshævninger for mænd</h3></summary>
+  <summary><h3>Kropshævninger for mænd</h3></summary>
 
 Du har ét forsøg til at gennemføre op til 14 kropshævninger.
 
@@ -157,7 +157,7 @@ Jeg har skrevet en mere grundig vejledning til, [hvordan du kan lære at tage en
 </details>
 
 <details markdown="1" class="faq">
-  <summary<h3>Kropshævninger for kvinder</h3></summary>
+  <summary><h3>Kropshævninger for kvinder</h3></summary>
 
 Du har ét forsøg til at gennemføre op til 22 kropshævninger.
 
@@ -203,12 +203,14 @@ Du oplyser, hvilken vægtbelastning (kg), du ønsker at udføre testen med.
 
 Skulderparti og sæde skal have kontakt med bænken under hele testen.
 
+{% include components/politi-benchpress-widget.html %}
+
 Du får karakter på baggrund af det antal godkendte gentagelser, du gennemfører.
 
 Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
 
 <details markdown="1" class="faq">
-  <summary<h3>Bænkpres for mænd</h3></summary>
+  <summary><h3>Bænkpres for mænd</h3></summary>
 
 | Karakter | 8 - 9 gentagelser med vægtbelastning:           | 10 - 12 gentagelser med vægtbelastning: |
 | -------- | ----------------------------------------------- | --------------------------------------- |
@@ -223,7 +225,7 @@ Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
 </details>
 
 <details markdown="1" class="faq">
-  <summary<h3>Bænkpres for kvinder</h3></summary>
+  <summary><h3>Bænkpres for kvinder</h3></summary>
 
 | Karakter | 8 - 9 gentagelser med vægtbelastning:           | 10 - 12 gentagelser med vægtbelastning: |
 | -------- | ----------------------------------------------- | --------------------------------------- |
