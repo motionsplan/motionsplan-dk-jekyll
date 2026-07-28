@@ -16,7 +16,7 @@ tags:
   - sprint
   - sideløb
 header:
-  teaser: /assets/images/t-test.jpg
+  teaser: /assets/images/tests/t-test.webp
   caption: Agility T-Test – En klassisk test af hurtighed og retningsskift i fire retninger
 author_profile: true
 last_modified_at: '2026-07-29T10:00:00Z'

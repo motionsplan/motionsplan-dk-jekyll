@@ -13,6 +13,77 @@
 @import "star-rating";
 
 
+/* Skjul forfatterprofilen i sidebaren på mobil og tablet */
+@media screen and (max-width: 1024px) {
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    display: none !important;
+  }
+}
+
+/* Sammenklappelig Indholdsfortegnelse (TOC) på Mobil & Tablet */
+@media screen and (max-width: 1024px) {
+  .toc {
+    background-color: #6c757d; /* Grå baggrund som på dit screenshot */
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+
+    header {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .nav__title {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: flex-start !important; /* Venstrestiller teksten */
+      text-align: left !important;
+      padding: 0.75rem 1rem !important;
+      margin: 0 !important;
+      color: #ffffff;
+
+      /* Luft mellem dokument-ikon og tekst */
+      i, svg {
+        margin-right: 0.6rem !important;
+      }
+
+      /* Skubber KUN pilen helt ud til højre */
+      &::after {
+        content: "▼";
+        margin-left: auto !important; 
+        font-size: 0.75em;
+        opacity: 0.8;
+        transition: transform 0.2s ease-in-out;
+      }
+    }
+
+    /* Skjul selve listen som standard på mobil */
+    .toc__menu {
+      display: none;
+      padding: 0.75rem 1rem 1rem 1rem;
+      background-color: #ffffff; /* Lys baggrund til menu-links */
+      color: #333333;
+    }
+
+    /* Tilstand når TOC er foldet ud */
+    &.is-open {
+      .nav__title::after {
+        transform: rotate(180deg); /* Pilen peger opad */
+      }
+      .toc__menu {
+        display: block !important; /* Viser menuen */
+      }
+    }
+  }
+}
+
+
+
+
+
+
 table.dashboard {
   font-size: 0.6em;
   text-align: center;
