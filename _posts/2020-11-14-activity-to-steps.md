@@ -1,6 +1,6 @@
 ---
 title: 'Motionsomregner: Omregn aktivitet og sport til skridt 🚴‍♀️ ⇒ 🚶‍♀️'
-seo_title: 'Skridtomregner: Hvor mange skridt svarer din motion til?'
+seo_title: 'Tæl skridt omregner: Hvor mange skridt svarer motion til?'
 description: GRATIS ultimative tæl skridt omregner! Leder du efter en motionsomregner? Her kan du lave en omregning fra din
   aktivitet, motion og sport til antal skridt!
 permalink: /omregn-motion-aktivitet-sport-til-skridt/
@@ -22,6 +22,13 @@ meta:
   equipment: ingen
   measures: energiforbrug
   type: kalorieberegner
+tools:
+  - title: "Motionsomregner fra aktivitet til skridt"
+    description: "Omregn cykling, svømning, styrketræning og anden sport til ækvivalente skridt baseret på fysiologisk energiforbrug (MET)."
+    anchor: "#skridtomregner-omregn-aktivitet-motion-og-sport-til-skridt"
+    type: "omregner"
+    measures: "skridt, energiforbrug"
+    category: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-13T23:14:14Z'
 toc: 'true'
 faq:
@@ -33,16 +40,17 @@ faq:
     mellem sport og aktivitet.
 - question: Hvordan omregner du aktivitet til skridt?
   answer: Vælg din aktivitet i omregneren, og indtast det antal minutter du har været aktiv. Så kan du lave en omregning til det antal skridt, du kan notere i stedet for din aktivitet i dit skridtregnskab. Du kan også bruge tabellen her på siden.
-
 ---
 
-Hvis du gerne vil have svar på hvor mange skridt 10 km cykling svarer til - eller hvor mange skridt du kan skrive i regnskabet for anden motion, sport og aktivitet, så tjek vores "tæl skridt beregner" og motionsomregner.
+Hvis du gerne vil have svar på, hvor mange skridt 10 km cykling svarer til – eller hvor mange skridt du kan skrive i regnskabet for din træning – så er du landet det helt rigtige sted. Vores **tæl skridt omregner** hjælper dig lynhurtigt med at konvertere din sport til antal skridt.
 
-Mangler du skridt i regnskabet? Vælg din aktivitet herunder, indtast antallet af minutter, og få omregnet din **cykling**, **svømning** eller **styrketræning** til skridt med det samme.
+*(Leder du i stedet efter en beregner til afstand? Så brug vores [omregner fra skridt til km](/skridt-pr-km-10000/)).*
 
-## Skridtomregner: Omregn aktivitet, motion og sport til skridt
+Mangler du skridt i det daglige regnskab? Vælg din aktivitet herunder, indtast antallet af minutter, og få omregnet din cykling, svømning, styrketræning eller anden sport til skridt med det samme.
 
-Du kan omregne anden motion, sport og aktivitet til skridt i vores "Tæl skridt beregner" og motionsomregner.
+## Tæl skridt omregner: Fra motion og sport til skridt
+
+Du kan omregne anden motion, sport og aktivitet til skridt i vores interaktive tæl skridt omregner herunder.
 
 {% include calc/activity-step-converter.html %}
 

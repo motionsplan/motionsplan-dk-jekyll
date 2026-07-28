@@ -173,7 +173,7 @@ Jeg har skrevet en række artikler, hvor jeg har inkluderet beregnere for at ill
 
 </div>
 
-## Alle beregnere på Motionsplan
+## Alle beregnere
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | sort: "date" %}
 
