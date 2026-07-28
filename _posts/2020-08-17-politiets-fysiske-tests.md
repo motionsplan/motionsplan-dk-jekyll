@@ -51,7 +51,7 @@ Når du søger ind til Politiet og er så heldig at komme til optagelsesprøve, 
 
 Den fysiske optagelsesprøve til Politiet tager omkring tre timer inklusiv tilbagemelding på din præstation i de fysiske tests.
 
-Jeg gennemgår i det følgende de forskellige fysiske [krav til mænd](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-maend) og fysiske [krav til kvinder](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-kvinder), og giver gode råd til, hvordan du kan bestå politiets fysiske tests og forbedre din præstation.
+Jeg gennemgår i det følgende de forskellige fysiske [krav til mænd](https://politi.dk/politiskolen/adgangskrav-ansoegning-og-proeveforloeb/fysisk-proeve-for-maend) og fysiske [krav til kvinder](https://politi.dk/politiskolen/adgangskrav-ansoegning-og-proeveforloeb/fysisk-proeve-for-kvinder), og giver gode råd til, hvordan du kan bestå politiets fysiske tests og forbedre din præstation.
 
 ## Oversigt over Politiets fysiske tests
 

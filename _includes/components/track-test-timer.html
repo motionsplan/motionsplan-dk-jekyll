@@ -1,0 +1,1215 @@
+<div class="track-test-widget">
+  
+  <!-- Info Modal -->
+  <div class="track-info-modal" id="track-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Banetest Tidtageren</h4>
+        <span class="modal-subtitle-text">Multi-løber tidtagning & pacing til løbebane</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>SÅDAN BRUGES SYSTEMET:</strong><br>
+        1. Vælg forudindstilling eller indstil <strong>Type</strong> (Distance/Tid) og <strong>Målværdi</strong>.<br>
+        2. Indstil antal løbere og omgangsdistance.<br>
+        3. Tryk <strong>🚀 START</strong>. Skærmen holdes automatisk tændt.<br>
+        4. Tryk på <strong>BLÅ LAP</strong> for hver omgang.<br>
+        5. Ved tidstest (fx 12 min) trykkes på den store <strong>🛑 STOP</strong> knap, hvorefter alle kort viser deres resultat.<br>
+        6. Klik direkte på distancen på et kort for at redigere den præcise metersum. Når du trykker **Gem**, lægges resultatet automatisk i loggen.<br>
+        7. Skift køn (♂/♀) ved at trykke på tegnet for at beregne den korrekte karakter på 2400m.<br>
+        8. Brug <strong>📊 Eksporter CSV</strong> knappen i bunden til at hente alle data direkte ned i Excel.
+      </p>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="track-topbar">
+    <div class="track-header-card">
+      <div class="card-title-row">
+        <span class="card-title">Banetest Tidtager (Multi-Løber)</span>
+        <button class="info-icon-btn" type="button" title="Læs om modulet">ℹ️</button>
+      </div>
+      <div class="card-desc">Tag tid på op til 20 løbere med automatisk karakterskala og manuel override.</div>
+    </div>
+
+    <!-- Presets & Konfiguration -->
+    <div class="topbar-subrow">
+      <div class="setting-group">
+        <span class="setting-label">Presets:</span>
+        <div class="preset-btn-group">
+          <button type="button" class="preset-btn active" data-type="distance" data-target="2400" data-label="2400m">🏃‍♂️ 2400 m</button>
+          <button type="button" class="preset-btn" data-type="time" data-target="360" data-label="6min">⏱️ 6 Min</button>
+          <button type="button" class="preset-btn" data-type="time" data-target="720" data-label="12min">🏃‍♀️ 12 Min</button>
+        </div>
+      </div>
+
+      <div class="setting-item">
+        <label for="test-mode-select" class="setting-label">Type:</label>
+        <select id="test-mode-select" class="setting-select">
+          <option value="distance" selected>Distance (m)</option>
+          <option value="time">Tid (min)</option>
+        </select>
+      </div>
+
+      <div class="setting-item">
+        <label for="test-target-input" class="setting-label">Mål:</label>
+        <input type="number" id="test-target-input" class="setting-input-field wide-input" value="2400" min="1" step="1">
+        <span class="setting-unit" id="target-unit-label">m</span>
+      </div>
+
+      <div class="setting-item">
+        <label for="runner-count-select" class="setting-label">Løbere:</label>
+        <select id="runner-count-select" class="setting-select"></select>
+      </div>
+
+      <div class="setting-item">
+        <label for="lap-dist-input" class="setting-label">Omg.:</label>
+        <input type="number" id="lap-dist-input" class="setting-input-field wide-input" value="400" step="50" min="50" max="2000">
+        <span class="setting-unit">m</span>
+      </div>
+
+      <!-- Lyd Toggle -->
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd ved tryk slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <!-- Dvale-Indikator -->
+      <div class="wakelock-status active" id="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- Fælles Ur & Kontroller -->
+  <div class="track-display-screen state-idle" id="main-display">
+    <div class="timer-info-col">
+      <div class="test-badge" id="test-type-badge">TEST: 2400 METER (DISTANCETEST)</div>
+      <div class="main-timer-display" id="global-timer">00:00.0</div>
+    </div>
+    
+    <div class="global-controls-col">
+      <div class="action-btn-row">
+        <button class="btn btn--giant-action btn-start-all" id="btn-start-all" type="button">🚀 START</button>
+        <button class="btn btn--secondary btn-reset-all" id="btn-reset-all" type="button">Nulstil</button>
+      </div>
+
+      <!-- INTEGRERET SORTERING -->
+      <div class="inline-sort-container">
+        <span class="sort-label">Sorter:</span>
+        <div class="btn-toggle-group" id="sort-toggle-active">
+          <button type="button" class="toggle-btn active" data-sort="number">Nummer</button>
+          <button type="button" class="toggle-btn" data-sort="placement">Omgange</button>
+          <button type="button" class="toggle-btn" data-sort="name">Navn</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION HVOR MODALEN DÆKKER KORT & LOG NEDAD -->
+  <div class="lower-section-relative">
+    
+    <!-- Løber Detaljer Modal -->
+    <div class="track-detail-modal" id="runner-detail-modal" style="display: none;">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h4 class="modal-title-text" id="detail-runner-title">Løber Mellemtider</h4>
+          <span class="modal-subtitle-text" id="detail-runner-sub">Oversigt over omgange</span>
+        </div>
+        <button class="modal-close-btn" id="close-detail-modal" type="button">✖</button>
+      </div>
+      <div class="modal-body">
+        <table class="detail-split-table">
+          <thead><tr><th>Omgang</th><th>Mellemtid</th><th>Samlet Tid</th><th>Forventet Slut</th></tr></thead>
+          <tbody id="detail-split-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- LØBER KORT GRID (4 PÅ EN RÆKKE) -->
+    <div class="runners-grid" id="runners-grid"></div>
+
+    <!-- Gemte Resultater Log -->
+    <div class="track-log-wrapper">
+      <div class="log-header-row">
+        <h5 class="log-title">Gemte Resultater (Hukommelse)</h5>
+        <button class="btn btn--clear-log btn-clear-log" id="btn-clear-log" type="button">🗑️ Ryd log</button>
+      </div>
+      <table class="track-log-table">
+        <thead><tr><th>Dato & Tid</th><th>Testtype</th><th>Løbere i Mål</th><th>Bedste</th></tr></thead>
+        <tbody class="log-tbody" id="history-tbody">
+          <tr class="empty-row"><td colspan="4" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- Historik-Vindue (For gemte test) -->
+  <div class="track-history-view-modal" id="history-view-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text" id="history-view-title">Test Resultat</h4>
+        <span class="modal-subtitle-text" id="history-view-sub">Dato: --/--</span>
+      </div>
+      <button class="modal-close-btn" id="close-history-view-modal" type="button">✖</button>
+    </div>
+    <div class="modal-body">
+      <div class="sort-bar-container" style="justify-content: flex-start; margin-bottom: 12px;">
+        <span class="sort-label">Sorter:</span>
+        <div class="btn-toggle-group" id="sort-toggle-history">
+          <button type="button" class="toggle-btn active" data-sort="number">Nummer</button>
+          <button type="button" class="toggle-btn" data-sort="placement">Omgange</button>
+          <button type="button" class="toggle-btn" data-sort="name">Navn</button>
+        </div>
+      </div>
+      <div class="runners-grid-history" id="history-runners-grid"></div>
+    </div>
+  </div>
+
+  <!-- HANDLINGSKNAPPER I BUNDEN: BILLEDE & CSV EKSPORT -->
+  <div class="track-action-buttons-bottom">
+    <button class="btn btn--screenshot btn-take-screenshot" id="btn-take-screenshot" type="button">📸 Tag et billede</button>
+    <button class="btn btn--csv btn-export-csv" id="btn-export-csv" type="button">📊 Eksporter CSV (Excel)</button>
+  </div>
+
+</div>
+
+<style>
+.track-test-widget { background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 12px; max-width: 880px; width: 100%; margin: 1.2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif; box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden; }
+.track-test-widget * { box-sizing: border-box; }
+
+.track-topbar { display: flex; flex-direction: column; gap: 6px; margin-bottom: 6px; text-align: left; }
+.track-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 6px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.92rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 1px; line-height: 1.25; }
+
+/* MODALS */
+.track-info-modal, .track-history-view-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 40; padding: 14px; display: flex; flex-direction: column; text-align: left; overflow: hidden; }
+
+.lower-section-relative { position: relative; width: 100%; }
+
+.track-detail-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 30; padding: 12px; display: flex; flex-direction: column; text-align: left; overflow: hidden; border-radius: 12px; border: 2px solid #228be6; box-shadow: 0 8px 24px rgba(0,0,0,0.15); }
+
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 6px; border-bottom: 2px solid #f1f3f5; flex-shrink: 0; }
+.modal-title-text { font-size: 0.95rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.72rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 28px; height: 28px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 6px; width: 100%; }
+
+.detail-split-table { width: 100% !important; max-width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.82rem; table-layout: fixed; margin-top: 4px; }
+.detail-split-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.detail-split-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; }
+.detail-split-table th:nth-child(1), .detail-split-table td:nth-child(1) { width: 28%; }
+.detail-split-table th:nth-child(2), .detail-split-table td:nth-child(2) { width: 22%; }
+.detail-split-table th:nth-child(3), .detail-split-table td:nth-child(3) { width: 24%; }
+.detail-split-table th:nth-child(4), .detail-split-table td:nth-child(4) { width: 26%; font-weight: 800; }
+
+/* Topbar Controls */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 8px; margin-top: 2px; flex-wrap: wrap; }
+.setting-group { display: flex; align-items: center; gap: 4px; }
+.preset-btn-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.preset-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 800; color: #495057; border-radius: 6px; cursor: pointer; }
+.preset-btn.active { background: #228be6; color: #ffffff; }
+.setting-item { display: flex; align-items: center; gap: 4px; }
+.setting-label { font-size: 0.75rem; font-weight: 800; color: #495057; }
+.setting-select { padding: 3px 6px; border: 1px solid #ced4da; border-radius: 6px; font-size: 0.82rem; font-weight: 800; text-align: center; background: #ffffff; }
+
+.setting-input-field.wide-input { width: 80px !important; min-width: 80px !important; padding: 3px 4px; border: 1px solid #ced4da; border-radius: 6px; font-size: 0.82rem; font-weight: 800; text-align: center; background: #ffffff; }
+.setting-unit { font-size: 0.72rem; font-weight: 700; color: #868e96; }
+
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.72rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 8px; border-radius: 10px; margin-left: auto; display: flex; align-items: center; gap: 4px; }
+
+/* VANDRET TIMER BOKS */
+.track-display-screen {
+  padding: 8px 12px; border-radius: 12px; margin-bottom: 8px; background: #f1f3f5; border: 2px solid #dee2e6; color: #343a40; transition: all 0.2s ease;
+  display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;
+}
+.track-display-screen.state-running { background: #e7f5ff; border-color: #74c0fc; }
+
+.timer-info-col { text-align: left; flex: 1; min-width: 160px; }
+.test-badge { font-size: 0.70rem; font-weight: 900; color: #1c7ed6; text-transform: uppercase; letter-spacing: 0.03em; }
+.main-timer-display { font-size: 3.2rem; font-weight: 900; line-height: 1; margin: 1px 0 0 0; font-variant-numeric: tabular-nums; color: #1e293b; }
+
+.global-controls-col { display: flex; flex-direction: column; gap: 5px; align-items: flex-end; flex-shrink: 0; }
+.action-btn-row { display: flex; gap: 6px; }
+
+.btn--giant-action {
+  padding: 8px 14px; font-size: 0.95rem; font-weight: 900; border-radius: 8px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 4px 10px rgba(34, 139, 230, 0.25); transition: background 0.2s ease; white-space: nowrap;
+  min-width: 230px !important; text-align: center;
+}
+.btn--giant-action.is-running { background: #fa5252; box-shadow: 0 4px 10px rgba(250, 82, 82, 0.25); }
+.btn--giant-action.is-confirming { background: #e03131 !important; animation: pulse-confirm 0.8s infinite alternate; }
+@keyframes pulse-confirm { 0% { transform: scale(0.99); } 100% { transform: scale(1.01); } }
+
+.btn--secondary { background: #868e96; color: white; border: none; padding: 8px 10px; border-radius: 8px; font-weight: 800; font-size: 0.82rem; cursor: pointer; }
+
+/* INTEGRERET INLINE SORTERING I TOPBOKSEN */
+.inline-sort-container { display: flex; align-items: center; gap: 4px; }
+.sort-label { font-size: 0.68rem; font-weight: 800; color: #495057; }
+
+/* RUNNER GRID: LÅST TIL PRÆCIS 4 KORT PR. RÆKKE */
+.runners-grid, .runners-grid-history {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 720px) {
+  .runners-grid, .runners-grid-history {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 440px) {
+  .runners-grid, .runners-grid-history {
+    grid-template-columns: 1fr;
+  }
+}
+
+.runner-card { background: #ffffff; border: 2.5px solid #ced4da; border-radius: 12px; padding: 6px 6px 0 6px; text-align: left; position: relative; transition: border-color 0.2s ease, background-color 0.2s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; flex-shrink: 0; }
+.runner-card.is-finished { border-color: #51cf66 !important; background: #ebfbee !important; }
+
+/* Omgangs Farve-Klasser */
+.lap-color-0 { border-color: #ced4da; background: #ffffff; }
+.lap-color-1 { border-color: #339af0; background: #f4f9ff; }
+.lap-color-2 { border-color: #cc5de8; background: #fcf4ff; }
+.lap-color-3 { border-color: #fcc419; background: #fffde6; }
+.lap-color-4 { border-color: #20c997; background: #e6fcf5; }
+.lap-color-5 { border-color: #ff6b6b; background: #fff5f5; }
+.lap-color-6 { border-color: #845ef7; background: #f3f0ff; }
+.lap-color-7 { border-color: #ff922b; background: #fff4e6; }
+.lap-color-goal { border-color: #1e2529 !important; background: #f1f3f5 !important; border-style: dashed !important; }
+
+.runner-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 3px; gap: 4px; }
+
+/* NUMMERBOKS (#1) */
+.runner-number-badge {
+  background: #212529; color: #ffffff; font-weight: 900; font-size: 1.1rem;
+  min-width: 36px; height: 28px; padding: 2px 8px; display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 6px; line-height: 1; flex-shrink: 0; box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+}
+
+/* KØNSKNAP: INGEN RAMME, TRANSPARENT BAGGRUND, MEGET FEDT SYMBOL (♂ / ♀) */
+.gender-toggle-btn {
+  background: transparent !important;
+  color: #000000 !important;
+  border: none !important;
+  font-size: 1.15rem;
+  font-weight: 900;
+  padding: 0 4px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  flex-shrink: 0;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 0.6px #000000;
+}
+.gender-toggle-btn:hover { transform: scale(1.15); }
+.gender-toggle-btn:active { transform: scale(0.95); }
+
+.runner-alias-input { border: none; background: transparent; font-weight: 800; font-size: 0.82rem; color: #212529; width: 100%; border-bottom: 1px dashed #ced4da; outline: none; padding: 1px; text-overflow: ellipsis; }
+.runner-alias-input:focus { border-bottom: 2px solid #228be6; background: #ffffff; }
+
+/* ULTRAKOMPAKT ENKELT-LINJE STATS */
+.runner-stats-body { margin-bottom: 4px; cursor: pointer; padding: 4px 6px; border-radius: 6px; background: rgba(255,255,255,0.85); border: 1px solid rgba(0,0,0,0.06); flex: 1; display: flex; align-items: center; justify-content: space-between; }
+.runner-stats-body:hover { background: rgba(0,0,0,0.04); }
+.stat-single-row { display: flex; justify-content: space-between; align-items: center; width: 100%; font-size: 0.74rem; color: #343a40; white-space: nowrap; }
+
+/* FAST HØJDE PÅ KNAP-OMRÅDE (52px) */
+.runner-card-actions { display: flex; margin: 4px -6px 0 -6px; width: calc(100% + 12px); flex-shrink: 0; height: 52px !important; max-height: 52px !important; overflow: hidden; }
+
+.btn-lap, .btn-finish, .btn-finished-done, .btn-undo-finish {
+  height: 52px !important; max-height: 52px !important; border: none; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.15; font-weight: 900; box-sizing: border-box; overflow: hidden; padding-top: 6px; padding-bottom: 6px;
+}
+
+/* BLÅ LAP KNAP */
+.btn-lap { flex: 1; background: #228be6; color: white; border-bottom-left-radius: 10px; font-size: 0.85rem; }
+.btn-lap:active { background: #1c7ed6; }
+
+/* LAP KNAP I FULD BREDDE TIL TIDSTEST */
+.btn-lap.btn-full-width {
+  width: 100% !important; flex: 1 1 100% !important; border-bottom-left-radius: 10px !important; border-bottom-right-radius: 10px !important; border-left: none !important; font-size: 0.90rem !important;
+}
+
+/* RØD STOP KNAP */
+.btn-finish { flex: 1; background: #fa5252; color: white; border-bottom-right-radius: 10px; border-left: 1px solid rgba(255,255,255,0.25); font-size: 0.85rem; }
+.btn-finish:active { background: #e03131; }
+
+/* FULD BREDDE VED SIDSTE OMGANG */
+.btn-finish.btn-full-width {
+  width: 100% !important; flex: 1 1 100% !important; border-bottom-left-radius: 10px !important; border-bottom-right-radius: 10px !important; border-left: none !important; font-size: 0.88rem !important;
+}
+
+/* GRØN I MÅL KNAP */
+.btn-finished-done {
+  width: 100% !important; flex: 1 1 100% !important; background: #2b8a3e !important; color: #ffffff !important; border-bottom-left-radius: 10px !important; border-bottom-right-radius: 10px !important; font-size: 0.92rem !important; cursor: pointer; transition: background 0.15s ease;
+}
+.btn-finished-done:hover { background: #237032 !important; }
+
+/* PRÆCIS 52PX INLINE EDIT CONTAINER TIL DISTANCE */
+.inline-dist-edit-container {
+  display: flex; align-items: center; gap: 6px; width: 100%; height: 52px !important; max-height: 52px !important;
+  padding: 6px; background: #e7f5ff; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+  box-sizing: border-box; overflow: hidden;
+}
+
+.inline-dist-input {
+  flex: 1; height: 40px !important; border: 2px solid #228be6; border-radius: 8px;
+  font-size: 1rem; font-weight: 900; text-align: center; color: #1c7ed6; outline: none;
+  background: #ffffff; padding: 0 4px; box-sizing: border-box;
+}
+
+.btn-save-dist-inline {
+  height: 40px !important; padding: 0 14px; background: #12b886; color: white; border: none;
+  border-radius: 8px; font-size: 0.88rem; font-weight: 800; cursor: pointer; white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(18, 184, 134, 0.25);
+}
+.btn-save-dist-inline:active { transform: scale(0.96); }
+
+/* KARAKTER BADGE UDEN PARENTESER [ ] */
+.grade-badge-inline {
+  background: rgba(255,255,255,0.22); border: 1px solid rgba(255,255,255,0.5); padding: 2px 6px; border-radius: 5px; font-weight: 900; margin-left: 6px; font-size: 0.85rem; display: inline-block;
+}
+
+.btn-subtext { font-size: 0.64rem; font-weight: 700; opacity: 0.95; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+
+.btn-undo-finish { width: 100%; font-size: 0.82rem; background: #fa5252; color: white; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; animation: pulse-undo-card 0.8s infinite alternate; }
+@keyframes pulse-undo-card { 0% { transform: scale(0.99); background: #fa5252; } 100% { transform: scale(1.01); background: #e03131; } }
+
+.btn-finish:disabled, .btn-lap:disabled { opacity: 0.35; cursor: not-allowed; }
+
+/* Log Tabel 100% Bredde Fix */
+.track-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100% !important; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
+.log-title { font-size: 0.88rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.track-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.80rem; table-layout: fixed; margin: 0; }
+.track-log-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.track-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+.track-log-table th:nth-child(1), .track-log-table td:nth-child(1) { width: 30%; }
+.track-log-table th:nth-child(2), .track-log-table td:nth-child(2) { width: 22%; }
+.track-log-table th:nth-child(3), .track-log-table td:nth-child(3) { width: 22%; }
+.track-log-table th:nth-child(4), .track-log-table td:nth-child(4) { width: 26%; font-weight: 900; }
+
+.log-view-link { color: #228be6; font-weight: 800; cursor: pointer; text-decoration: underline; }
+
+/* HANDLINGS BOKS BUND TIL BILLEDE OG CSV */
+.track-action-buttons-bottom { display: flex; gap: 8px; margin-top: 14px; width: 100%; }
+.btn--screenshot { flex: 1; padding: 10px; font-size: 0.88rem; font-weight: 800; border-radius: 10px; border: none; background: #228be6; color: #ffffff; cursor: pointer; box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); }
+.btn--csv { flex: 1; padding: 10px; font-size: 0.88rem; font-weight: 800; border-radius: 10px; border: none; background: #12b886; color: #ffffff; cursor: pointer; box-shadow: 0 4px 12px rgba(18, 184, 134, 0.25); transition: background 0.15s ease; }
+.btn--csv:hover { background: #0ca678; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const STORAGE_KEY_ACTIVE = "track_active_test_state_v12";
+  const STORAGE_KEY_HISTORY = "track_test_logs_v12";
+
+  // State
+  let testMode = 'distance';
+  let testTargetValue = 2400;
+  let runnerCount = 4;
+  let lapDistance = 400;
+
+  let isRunning = false;
+  let startTimestamp = null;
+  let elapsedSecs = 0;
+  let timerId = null;
+
+  let stopPendingTimer = null;
+  let stopPendingSecs = 0;
+
+  let sortByActive = 'number';
+  let sortByHistory = 'placement';
+  let selectedSound = 'on';
+  let audioCtx = null;
+  let wakeLock = null;
+
+  let runners = [];
+  let historicalRunners = [];
+
+  const widget = document.querySelector(".track-test-widget");
+  if (!widget) return;
+
+  const presetBtns = widget.querySelectorAll(".preset-btn");
+  const testModeSelect = widget.querySelector("#test-mode-select");
+  const testTargetInput = widget.querySelector("#test-target-input");
+  const targetUnitLabel = widget.querySelector("#target-unit-label");
+  const runnerCountSelect = widget.querySelector("#runner-count-select");
+  const lapDistInput = widget.querySelector("#lap-dist-input");
+
+  const mainDisplay = widget.querySelector("#main-display");
+  const testBadge = widget.querySelector("#test-type-badge");
+  const globalTimer = widget.querySelector("#global-timer");
+  const btnStartAll = widget.querySelector("#btn-start-all");
+  const btnResetAll = widget.querySelector("#btn-reset-all");
+
+  const runnersGrid = widget.querySelector("#runners-grid");
+  const historyTbody = widget.querySelector("#history-tbody");
+  const btnClearLog = widget.querySelector("#btn-clear-log");
+  const btnScreenshot = widget.querySelector("#btn-take-screenshot");
+  const btnExportCsv = widget.querySelector("#btn-export-csv");
+  const wakelockStatus = widget.querySelector("#wakelock-status");
+
+  const infoModal = widget.querySelector("#track-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const detailModal = widget.querySelector("#runner-detail-modal");
+  const detailTitle = widget.querySelector("#detail-runner-title");
+  const detailSub = widget.querySelector("#detail-runner-sub");
+  const detailTbody = widget.querySelector("#detail-split-tbody");
+  const historyViewModal = widget.querySelector("#history-view-modal");
+  const historyViewTitle = widget.querySelector("#history-view-title");
+  const historyViewSub = widget.querySelector("#history-view-sub");
+  const historyRunnersGrid = widget.querySelector("#history-runners-grid");
+
+  for (let i = 1; i <= 20; i++) {
+    const opt = document.createElement("option");
+    opt.value = i; opt.textContent = `${i} ${i === 1 ? 'løber' : 'løbere'}`;
+    if (i === 4) opt.selected = true;
+    runnerCountSelect.appendChild(opt);
+  }
+
+  // WAKE LOCK
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try {
+        wakeLock = await navigator.wakeLock.request('screen');
+        if (wakelockStatus) wakelockStatus.classList.add("active");
+      } catch (e) {}
+    }
+  }
+
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; }
+  }
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === 'visible' && isRunning) {
+      requestWakeLock();
+    }
+  });
+
+  // SOUND
+  function playSound(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    const osc = audioCtx.createOscillator(); const gain = audioCtx.createGain();
+    osc.connect(gain); gain.connect(audioCtx.destination); const now = audioCtx.currentTime;
+    if (type === 'lap') {
+      osc.frequency.value = 1000; gain.gain.setValueAtTime(0.2, now); gain.gain.exponentialRampToValueAtTime(0.001, now + 0.10); osc.start(now); osc.stop(now + 0.10);
+    } else if (type === 'finish') {
+      [800, 1200, 1600].forEach((f, i) => {
+        const o = audioCtx.createOscillator(); const g = audioCtx.createGain(); o.connect(g); g.connect(audioCtx.destination);
+        o.frequency.value = f; g.gain.setValueAtTime(0.2, now + (i * 0.07)); g.gain.exponentialRampToValueAtTime(0.001, now + (i * 0.07) + 0.15);
+        o.start(now + (i * 0.07)); o.stop(now + (i * 0.07) + 0.15);
+      });
+    }
+  }
+
+  function formatTime(seconds) {
+    if (isNaN(seconds) || seconds < 0) return "--:--";
+    const mins = Math.floor(seconds / 60); const secs = (seconds % 60).toFixed(1);
+    return `${mins.toString().padStart(2, '0')}:${secs.padStart(4, '0')}`;
+  }
+
+  function parseTimeToSeconds(inputStr) {
+    if (!inputStr) return NaN;
+    const str = inputStr.trim().replace(',', '.');
+    if (str.includes(':')) {
+      const parts = str.split(':');
+      const mins = parseFloat(parts[0]) || 0;
+      const secs = parseFloat(parts[1]) || 0;
+      return (mins * 60) + secs;
+    }
+    return parseFloat(str);
+  }
+
+  // 2400M KARAKTER BEREGNING
+  function get2400mGrade(timeInSeconds, gender) {
+    if (isNaN(timeInSeconds) || timeInSeconds <= 0) return null;
+    if (gender === 'K') {
+      if (timeInSeconds <= 630) return '12';
+      if (timeInSeconds <= 690) return '10';
+      if (timeInSeconds <= 720) return '7';
+      if (timeInSeconds <= 760) return '4';
+      if (timeInSeconds <= 810) return '02';
+      return '00';
+    } else { // 'M'
+      if (timeInSeconds <= 540) return '12';
+      if (timeInSeconds <= 580) return '10';
+      if (timeInSeconds <= 620) return '7';
+      if (timeInSeconds <= 660) return '4';
+      if (timeInSeconds <= 720) return '02';
+      return '00';
+    }
+  }
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`); if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => btn.addEventListener("click", () => {
+      btns.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      onChange(btn.dataset.sort || btn.dataset.val);
+    }));
+  }
+  setupToggleGroup("sound-toggle", (val) => { selectedSound = val; });
+  setupToggleGroup("sort-toggle-active", (val) => { sortByActive = val; renderRunnerCards(); });
+  setupToggleGroup("sort-toggle-history", (val) => { sortByHistory = val; renderHistoricalRunnerCards(); });
+
+  function saveActiveState() {
+    const state = {
+      testMode, testTargetValue, runnerCount, lapDistance, elapsedSecs, isRunning, startTimestamp,
+      runners: runners.map(r => ({ ...r, undoTimer: null }))
+    };
+    localStorage.setItem(STORAGE_KEY_ACTIVE, JSON.stringify(state));
+  }
+
+  function loadActiveState() {
+    const data = localStorage.getItem(STORAGE_KEY_ACTIVE);
+    if (!data) return false;
+    try {
+      const state = JSON.parse(data);
+      testMode = state.testMode; testTargetValue = state.testTargetValue;
+      runnerCount = state.runnerCount; lapDistance = state.lapDistance;
+
+      testModeSelect.value = testMode;
+      targetUnitLabel.textContent = testMode === 'distance' ? 'm' : 'min';
+      testTargetInput.value = testMode === 'distance' ? testTargetValue : (testTargetValue / 60);
+
+      runnerCountSelect.value = runnerCount; lapDistInput.value = lapDistance;
+
+      runners = state.runners;
+      updateTestBadge();
+
+      isRunning = state.isRunning;
+      startTimestamp = state.startTimestamp;
+      elapsedSecs = state.elapsedSecs;
+
+      if (isRunning && startTimestamp) {
+        startGlobalTimer(true);
+      } else {
+        globalTimer.textContent = formatTime(elapsedSecs);
+        renderRunnerCards();
+      }
+      return true;
+    } catch (e) { localStorage.removeItem(STORAGE_KEY_ACTIVE); return false; }
+  }
+
+  function clearActiveState() { localStorage.removeItem(STORAGE_KEY_ACTIVE); }
+
+  function initRunners(force = false) {
+    if (!force && loadActiveState()) return;
+
+    runnerCount = parseInt(runnerCountSelect.value);
+    lapDistance = parseInt(lapDistInput.value) || 400;
+    runners = [];
+
+    for (let i = 1; i <= runnerCount; i++) {
+      runners.push({ id: i, alias: `Løber #${i}`, gender: 'M', laps: [], finished: false, finishTime: null, finishDistance: null, isEditingDist: false, isSaved: false, undoTimer: null, undoSecondsLeft: 0 });
+    }
+
+    updateTestBadge();
+    renderRunnerCards();
+    saveActiveState();
+  }
+
+  function updateTestBadge() {
+    if (testMode === 'distance') {
+      testBadge.textContent = `TEST: ${testTargetValue} METER (DISTANCETEST)`;
+    } else {
+      const mins = testTargetValue / 60;
+      testBadge.textContent = `TEST: ${mins} MINUTTER (TIDSTEST)`;
+    }
+  }
+
+  function getSortedList(runnersArray, sortBy) {
+    const list = [...runnersArray];
+    if (sortBy === 'number') return list.sort((a, b) => a.id - b.id);
+    if (sortBy === 'name') return list.sort((a, b) => a.alias.localeCompare(b.alias));
+    if (sortBy === 'placement') {
+      return list.sort((a, b) => {
+        if (b.laps.length !== a.laps.length) return b.laps.length - a.laps.length;
+        return (a.laps.length > 0 ? a.laps[a.laps.length - 1].totalSecs : 999999) - (b.laps.length > 0 ? b.laps[b.laps.length - 1].totalSecs : 999999);
+      });
+    }
+    return list;
+  }
+
+  // OPRETTELSE AF KORT
+  function createCardHtml(r, mode, targetVal, currentLapDist, isActive) {
+    const card = document.createElement("div");
+    const totalLaps = r.laps.length;
+    const totalDistance = r.finishDistance !== null ? r.finishDistance : (totalLaps * currentLapDist);
+
+    const totalTargetLaps = mode === 'distance' ? Math.ceil(targetVal / currentLapDist) : 999;
+    const isLastLap = mode === 'distance' && totalLaps === (totalTargetLaps - 1);
+    const isGoalReached = mode === 'distance' && totalDistance >= targetVal;
+
+    let lapColorClass = `lap-color-${totalLaps % 8}`;
+    if (isGoalReached) lapColorClass = 'lap-color-goal';
+
+    card.className = `runner-card ${r.finished ? 'is-finished' : lapColorClass}`;
+    card.id = isActive ? `runner-card-${r.id}` : `history-card-${r.id}`;
+
+    const lastLap = totalLaps > 0 ? r.laps[totalLaps - 1] : null;
+
+    let projectionSubtext = isActive ? "Stop" : "Færdig";
+    if (totalLaps > 0 && lastLap && !r.finished) {
+      if (mode === 'distance') {
+        const projSecs = (lastLap.totalSecs / totalDistance) * targetVal;
+        projectionSubtext = `🎯 ${formatTime(projSecs)}`;
+      } else {
+        const projMeters = Math.round((totalDistance / lastLap.totalSecs) * targetVal);
+        projectionSubtext = `🎯 ${projMeters}m`;
+      }
+    }
+
+    const nextLapNum = totalLaps + 1;
+    const nextLapDist = nextLapNum * currentLapDist;
+
+    let actionButtonsHtml = "";
+    if (isActive) {
+      if (r.undoSecondsLeft > 0) {
+        actionButtonsHtml = `<button class="btn-undo-finish" data-id="${r.id}">↩️ FORTRYD (${r.undoSecondsLeft}s)</button>`;
+      } else if (r.finished) {
+        if (mode === 'time' && r.isEditingDist) {
+          // KOMPAKT INLINE REDIGERING (PRÆCIS 52PX HØJDE)
+          actionButtonsHtml = `
+            <div class="inline-dist-edit-container">
+              <input type="number" class="inline-dist-input" data-id="${r.id}" value="${r.finishDistance !== null ? r.finishDistance : totalDistance}" step="10">
+              <button class="btn-save-dist-inline" data-id="${r.id}">Gem</button>
+            </div>
+          `;
+        } else {
+          const finishDisplay = mode === 'distance' ? formatTime(r.finishTime) : `${totalDistance}m`;
+          let gradeBadge = "";
+          if (mode === 'distance' && targetVal === 2400) {
+            const gr = get2400mGrade(r.finishTime, r.gender || 'M');
+            if (gr) gradeBadge = ` <span class="grade-badge-inline">${gr}</span>`;
+          }
+
+          actionButtonsHtml = `
+            <button class="btn-finished-done edit-finish-trigger" data-id="${r.id}" title="Klik for at redigere resultatet manuelt">
+              <span>🏁 ${finishDisplay}${gradeBadge}</span>
+            </button>`;
+        }
+      } else if (mode === 'time') {
+        // TIDSBASERET KØRENDE/IDLE: Kun LAP knap
+        actionButtonsHtml = `
+          <button class="btn-lap btn-full-width" data-id="${r.id}" ${!isRunning ? 'disabled' : ''}>
+            <span>LAP ${nextLapNum}</span>
+            <span class="btn-subtext">${nextLapDist}m</span>
+          </button>
+        `;
+      } else if (isLastLap || isGoalReached) {
+        actionButtonsHtml = `
+          <button class="btn-finish btn-full-width" data-id="${r.id}" ${!isRunning ? 'disabled' : ''}>
+            <span>STOP</span>
+            <span class="btn-subtext">${projectionSubtext}</span>
+          </button>
+        `;
+      } else {
+        actionButtonsHtml = `
+          <button class="btn-lap" data-id="${r.id}" ${!isRunning ? 'disabled' : ''}>
+            <span>LAP ${nextLapNum}</span>
+            <span class="btn-subtext">${nextLapDist}m</span>
+          </button>
+          <button class="btn-finish" data-id="${r.id}" ${!isRunning ? 'disabled' : ''}>
+            <span>STOP</span>
+            <span class="btn-subtext">${projectionSubtext}</span>
+          </button>
+        `;
+      }
+    } else {
+      const finishDisplay = mode === 'distance' ? formatTime(r.finishTime) : `${totalDistance}m`;
+      actionButtonsHtml = `<button class="btn-finished-done" disabled style="background:#868e96 !important;">🏁 ${finishDisplay}</button>`;
+    }
+
+    const formattedLastLapTime = lastLap ? formatTime(lastLap.splitSecs) : '--';
+    const genderSymbol = (r.gender === 'K') ? '♀' : '♂';
+
+    card.innerHTML = `
+      <div class="runner-card-header">
+        <span class="runner-number-badge">#${r.id}</span>
+        ${isActive ? `<input type="text" class="runner-alias-input" data-id="${r.id}" value="${r.alias}">` : `<span class="runner-alias-input" style="border:none;">${r.alias}</span>`}
+        ${(mode === 'distance' && targetVal === 2400 && isActive) ? `<button class="gender-toggle-btn" data-id="${r.id}" title="Skift køn M/K">${genderSymbol}</button>` : ''}
+      </div>
+      <div class="runner-stats-body" data-id="${r.id}">
+        <div class="stat-single-row">
+          <span>🔁 <strong>${totalLaps}</strong> <small>(${totalDistance}m)</small></span>
+          <span>⏱️ <span style="font-weight: 500;">${formattedLastLapTime}</span></span>
+        </div>
+      </div>
+      <div class="runner-card-actions">${actionButtonsHtml}</div>
+    `;
+    return card;
+  }
+
+  function updateSingleRunnerCard(runnerId) {
+    const r = runners.find(x => x.id === runnerId);
+    if (!r) return;
+    const oldCard = widget.querySelector(`#runner-card-${runnerId}`);
+    if (oldCard) {
+      const newCard = createCardHtml(r, testMode, testTargetValue, lapDistance, true);
+      oldCard.replaceWith(newCard);
+      attachCardListeners(newCard);
+    }
+  }
+
+  function attachCardListeners(container) {
+    container.querySelectorAll(".runner-alias-input").forEach(i => i.addEventListener("change", function() { const r = runners.find(x => x.id === parseInt(this.dataset.id)); if (r) { r.alias = this.value; saveActiveState(); } }));
+    container.querySelectorAll(".gender-toggle-btn").forEach(b => b.addEventListener("click", function(e) {
+      e.stopPropagation();
+      const r = runners.find(x => x.id === parseInt(this.dataset.id));
+      if (r) {
+        r.gender = (r.gender === 'K') ? 'M' : 'K';
+        updateSingleRunnerCard(r.id);
+        saveActiveState();
+      }
+    }));
+    container.querySelectorAll(".btn-lap").forEach(b => b.addEventListener("click", function(e) { e.stopPropagation(); recordLap(parseInt(this.dataset.id)); }));
+    container.querySelectorAll(".btn-finish").forEach(b => b.addEventListener("click", function(e) { e.stopPropagation(); finishRunner(parseInt(this.dataset.id)); }));
+    container.querySelectorAll(".btn-undo-finish").forEach(b => b.addEventListener("click", function(e) { e.stopPropagation(); undoFinishRunner(parseInt(this.dataset.id)); }));
+    container.querySelectorAll(".edit-finish-trigger").forEach(b => b.addEventListener("click", function(e) { e.stopPropagation(); editRunnerResult(parseInt(this.dataset.id)); }));
+    
+    // Gem redigeret distance i Time-mode -> GEMMER AUTOMATISK I LOGGEN
+    container.querySelectorAll(".btn-save-dist-inline").forEach(b => b.addEventListener("click", function(e) {
+      e.stopPropagation();
+      const runnerId = parseInt(this.dataset.id);
+      const r = runners.find(x => x.id === runnerId);
+      const inp = container.querySelector(`.inline-dist-input[data-id="${runnerId}"]`);
+      if (r && inp) {
+        const val = parseInt(inp.value);
+        if (!isNaN(val) && val >= 0) {
+          r.finishDistance = val;
+        }
+        r.isEditingDist = false;
+        
+        // AUTOMATISK GEM I LOG VED KLIK PÅ GEM
+        saveRunnerToLog(r);
+        r.isSaved = true;
+        
+        updateSingleRunnerCard(runnerId);
+        saveActiveState();
+      }
+    }));
+
+    container.querySelectorAll(".runner-stats-body").forEach(b => b.addEventListener("click", function() { openRunnerDetail(parseInt(this.dataset.id), runners); }));
+  }
+
+  function renderRunnerCards() {
+    runnersGrid.innerHTML = "";
+    const sortedList = getSortedList(runners, sortByActive);
+    sortedList.forEach(r => {
+      const card = createCardHtml(r, testMode, testTargetValue, lapDistance, true);
+      runnersGrid.appendChild(card);
+      attachCardListeners(card);
+    });
+  }
+
+  // REDIGERING AF SLUTTID / DISTANCE
+  function editRunnerResult(runnerId) {
+    const r = runners.find(x => x.id === runnerId);
+    if (!r || !r.finished) return;
+
+    if (testMode === 'distance') {
+      const currentStr = formatTime(r.finishTime);
+      const input = prompt(`Rediger sluttid for ${r.alias} (format mm:ss.s eller ss.s):`, currentStr);
+      if (input !== null) {
+        const secs = parseTimeToSeconds(input);
+        if (!isNaN(secs) && secs > 0) {
+          r.finishTime = secs;
+          saveRunnerToLog(r);
+          updateSingleRunnerCard(runnerId);
+          saveActiveState();
+        } else {
+          alert("Ugyldigt tidsformat. Brug mm:ss.s (f.eks. 09:15.0)");
+        }
+      }
+    } else {
+      r.isEditingDist = true;
+      updateSingleRunnerCard(runnerId);
+      const inp = widget.querySelector(`.inline-dist-input[data-id="${runnerId}"]`);
+      if (inp) { inp.focus(); inp.select(); }
+    }
+  }
+
+  // LØBER ACTIONS
+  function recordLap(runnerId) {
+    if (!isRunning) return;
+    const r = runners.find(x => x.id === runnerId);
+    if (!r || r.finished || (testMode === 'distance' && (r.laps.length * lapDistance >= testTargetValue))) return;
+
+    playSound('lap');
+    const totalLaps = r.laps.length;
+    const splitSecs = totalLaps > 0 ? (elapsedSecs - r.laps[totalLaps - 1].totalSecs) : elapsedSecs;
+    r.laps.push({ lapNum: totalLaps + 1, splitSecs, totalSecs: elapsedSecs, distance: (totalLaps + 1) * lapDistance });
+    
+    updateSingleRunnerCard(runnerId);
+    saveActiveState();
+  }
+
+  function finishRunner(runnerId) {
+    const r = runners.find(x => x.id === runnerId);
+    if (!r || r.finished) return;
+    playSound('finish'); r.finished = true;
+
+    if (testMode === 'distance') {
+      r.finishTime = elapsedSecs;
+    } else {
+      const laps = r.laps.length;
+      r.finishDistance = r.finishDistance !== null ? r.finishDistance : (laps * lapDistance);
+    }
+
+    r.undoSecondsLeft = 5;
+    updateSingleRunnerCard(runnerId);
+    saveActiveState();
+
+    if (r.undoTimer) clearInterval(r.undoTimer);
+    r.undoTimer = setInterval(() => {
+      r.undoSecondsLeft--;
+      if (r.undoSecondsLeft <= 0) {
+        clearInterval(r.undoTimer); r.undoTimer = null; r.undoSecondsLeft = 0;
+        checkAllFinished();
+      }
+      updateSingleRunnerCard(runnerId);
+      saveActiveState();
+    }, 1000);
+  }
+
+  function undoFinishRunner(runnerId) {
+    const r = runners.find(x => x.id === runnerId); if (!r) return;
+    if (r.undoTimer) clearInterval(r.undoTimer);
+    r.finished = false; r.finishTime = null; r.finishDistance = null; r.undoSecondsLeft = 0;
+    updateSingleRunnerCard(runnerId);
+    saveActiveState();
+  }
+
+  function checkAllFinished() {
+    if (runners.every(r => r.finished && r.undoSecondsLeft === 0) && isRunning) {
+      finalizeGlobalStop();
+    }
+  }
+
+  // TIMER LOOP
+  function timerLoop() {
+    if (!isRunning) return;
+    elapsedSecs = (Date.now() - startTimestamp) / 1000;
+    globalTimer.textContent = formatTime(elapsedSecs);
+
+    if (testMode === 'time' && elapsedSecs >= testTargetValue) {
+      finalizeGlobalStop();
+      return;
+    }
+
+    saveActiveState();
+    timerId = setTimeout(timerLoop, 100);
+  }
+
+  function startGlobalTimer(fromSync = false) {
+    isRunning = true;
+    requestWakeLock();
+    
+    startTimestamp = Date.now() - (elapsedSecs * 1000);
+
+    mainDisplay.className = "track-display-screen state-running";
+    btnStartAll.className = "btn btn--giant-action is-running";
+    btnStartAll.innerHTML = "🛑 STOP";
+    renderRunnerCards(); timerLoop();
+    saveActiveState();
+  }
+
+  function handleGlobalStartStop() {
+    if (!isRunning && stopPendingSecs === 0) {
+      startGlobalTimer();
+    } else if (isRunning && stopPendingSecs === 0) {
+      isRunning = false;
+      stopPendingSecs = 5;
+      
+      btnStartAll.className = "btn btn--giant-action is-confirming";
+      btnStartAll.innerHTML = `↩️ FORTRYD (${stopPendingSecs}s)`;
+
+      stopPendingTimer = setInterval(() => {
+        stopPendingSecs--;
+        if (stopPendingSecs <= 0) {
+          clearInterval(stopPendingTimer);
+          finalizeGlobalStop();
+        } else {
+          btnStartAll.innerHTML = `↩️ FORTRYD (${stopPendingSecs}s)`;
+        }
+      }, 1000);
+    } else if (!isRunning && stopPendingSecs > 0) {
+      clearInterval(stopPendingTimer);
+      stopPendingSecs = 0;
+      startGlobalTimer(false);
+    }
+  }
+
+  function finalizeGlobalStop() {
+    stopPendingSecs = 0;
+    isRunning = false;
+    clearTimeout(timerId);
+    releaseWakeLock();
+
+    mainDisplay.className = "track-display-screen state-idle";
+    btnStartAll.className = "btn btn--giant-action";
+    btnStartAll.innerHTML = "🚀 START";
+
+    // VED TIDSTEST: Markér alle uafsluttede løbere som færdige
+    if (testMode === 'time') {
+      runners.forEach(r => {
+        r.finished = true;
+        if (r.finishDistance === null || r.finishDistance === undefined) {
+          r.finishDistance = r.laps.length * lapDistance;
+        }
+      });
+    }
+
+    renderRunnerCards();
+    autoSaveToLocalStorage();
+    clearActiveState();
+  }
+
+  // CONFIGURATION INPUT EVENTS
+  presetBtns.forEach(btn => btn.addEventListener("click", function() {
+    if (isRunning || stopPendingSecs > 0) return;
+    presetBtns.forEach(b => b.classList.remove("active"));
+    this.classList.add("active");
+
+    testMode = this.dataset.type;
+    testTargetValue = parseInt(this.dataset.target);
+
+    testModeSelect.value = testMode;
+    targetUnitLabel.textContent = testMode === 'distance' ? 'm' : 'min';
+    testTargetInput.value = testMode === 'distance' ? testTargetValue : (testTargetValue / 60);
+
+    initRunners(true);
+  }));
+
+  testModeSelect.addEventListener("change", function() {
+    if (isRunning || stopPendingSecs > 0) return;
+    testMode = this.value;
+    targetUnitLabel.textContent = testMode === 'distance' ? 'm' : 'min';
+    if (testMode === 'distance') { testTargetValue = 2400; testTargetInput.value = 2400; } 
+    else { testTargetValue = 360; testTargetInput.value = 6; }
+    presetBtns.forEach(b => b.classList.remove("active"));
+    initRunners(true);
+  });
+
+  testTargetInput.addEventListener("change", function() {
+    if (isRunning || stopPendingSecs > 0) return;
+    const val = parseFloat(this.value) || 1;
+    testTargetValue = testMode === 'distance' ? val : (val * 60);
+    presetBtns.forEach(b => b.classList.remove("active"));
+    initRunners(true);
+  });
+
+  runnerCountSelect.addEventListener("change", function() { if (!isRunning && stopPendingSecs === 0) initRunners(true); });
+  lapDistInput.addEventListener("change", function() { if (!isRunning && stopPendingSecs === 0) initRunners(true); });
+
+  // MELLEMTIDER MODAL
+  function openRunnerDetail(runnerId, sourceRunners) {
+    const r = sourceRunners.find(x => x.id === runnerId); if (!r) return;
+    detailTitle.textContent = `${r.alias} (#${r.id}) - Mellemtider`;
+    detailSub.textContent = `Totalt ${r.laps.length} omgange registrerede`;
+    detailTbody.innerHTML = "";
+
+    if (r.laps.length === 0) {
+      detailTbody.innerHTML = '<tr><td colspan="4" style="color:#adb5bd; text-align:center;">Ingen omgange endnu.</td></tr>';
+    } else {
+      r.laps.forEach(lap => {
+        let p = "--";
+        if (testMode === 'distance') { p = formatTime((lap.totalSecs / lap.distance) * testTargetValue); } 
+        else { p = `${Math.round((lap.distance / lap.totalSecs) * testTargetValue)} m`; }
+        const tr = document.createElement("tr");
+        tr.innerHTML = `<td>Omg ${lap.lapNum} (${lap.distance}m)</td><td>${formatTime(lap.splitSecs)}</td><td>${formatTime(lap.totalSecs)}</td><td style="color:#1c7ed6; font-weight:800;">${p}</td>`;
+        detailTbody.appendChild(tr);
+      });
+    }
+    detailModal.style.display = "flex";
+  }
+
+  // GEM ENKELT LØBER TIL LOG
+  function saveRunnerToLog(runner) {
+    const logs = JSON.parse(localStorage.getItem(STORAGE_KEY_HISTORY) || "[]");
+    const now = new Date(); const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+    const testLabel = testMode === 'distance' ? `${testTargetValue}m` : `${testTargetValue/60} Min`;
+
+    let activeLog = logs.find(l => l.date === dateStr && l.testLabel === testLabel);
+
+    if (activeLog) {
+      const idx = activeLog.runners.findIndex(r => r.id === runner.id);
+      if (idx !== -1) activeLog.runners[idx] = JSON.parse(JSON.stringify(runner));
+      else activeLog.runners.push(JSON.parse(JSON.stringify(runner)));
+      
+      const finishedRunners = activeLog.runners.filter(r => r.finished);
+      activeLog.finishedCount = `${finishedRunners.length}/${runners.length}`;
+      if (finishedRunners.length > 0) {
+        if (testMode === 'distance') {
+          activeLog.topResult = formatTime(Math.min(...finishedRunners.map(r => r.finishTime)));
+        } else {
+          activeLog.topResult = `${Math.max(...finishedRunners.map(r => r.finishDistance !== null ? r.finishDistance : (r.laps.length * lapDistance)))} m`;
+        }
+      }
+      localStorage.setItem(STORAGE_KEY_HISTORY, JSON.stringify(logs));
+    } else {
+      autoSaveToLocalStorage();
+    }
+    renderLocalStorageLog();
+  }
+
+  // GEMTE RESULTATER LOG
+  function autoSaveToLocalStorage() {
+    const logs = JSON.parse(localStorage.getItem(STORAGE_KEY_HISTORY) || "[]");
+    const now = new Date(); const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+    const finishedRunners = runners.filter(r => r.finished);
+    let top = "--";
+
+    if (finishedRunners.length > 0) {
+      if (testMode === 'distance') top = formatTime(Math.min(...finishedRunners.map(r => r.finishTime)));
+      else top = `${Math.max(...finishedRunners.map(r => r.finishDistance !== null ? r.finishDistance : (r.laps.length * lapDistance)))} m`;
+    }
+
+    const testLabel = testMode === 'distance' ? `${testTargetValue}m` : `${testTargetValue/60} Min`;
+
+    logs.unshift({
+      date: dateStr, testMode, testTargetValue, testLabel, lapDistance,
+      runners: JSON.parse(JSON.stringify(runners)),
+      finishedCount: `${finishedRunners.length}/${runners.length}`, topResult: top
+    });
+
+    localStorage.setItem(STORAGE_KEY_HISTORY, JSON.stringify(logs.slice(0, 20))); renderLocalStorageLog();
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem(STORAGE_KEY_HISTORY) || "[]");
+    historyTbody.innerHTML = "";
+    if (logs.length === 0) {
+      historyTbody.innerHTML = '<tr class="empty-row"><td colspan="4" style="color:#adb5bd;">Ingen gemte test endnu</td></tr>';
+    } else {
+      logs.forEach((log, index) => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `<td>${log.date}</td><td><span class="log-view-link" data-index="${index}">${log.testLabel}</span></td><td>${log.finishedCount}</td><td><span style="color:#2b8a3e;">${log.topResult}</span></td>`;
+        historyTbody.appendChild(tr);
+      });
+      widget.querySelectorAll(".log-view-link").forEach(l => l.addEventListener("click", function() { openHistoryView(parseInt(this.dataset.index)); }));
+    }
+  }
+
+  function openHistoryView(index) {
+    const logs = JSON.parse(localStorage.getItem(STORAGE_KEY_HISTORY) || "[]");
+    const log = logs[index]; if (!log) return;
+    historyViewTitle.textContent = `Test Resultat: ${log.testLabel}`;
+    historyViewSub.textContent = `Dato: ${log.date} | Omg: ${log.lapDistance}m`;
+    historicalRunners = log.runners;
+    historicalRunners.testMode = log.testMode;
+    historicalRunners.testTargetValue = log.testTargetValue;
+    historicalRunners.lapDistance = log.lapDistance;
+    renderHistoricalRunnerCards();
+    historyViewModal.style.display = "flex";
+  }
+
+  function renderHistoricalRunnerCards() {
+    historyRunnersGrid.innerHTML = "";
+    getSortedList(historicalRunners, sortByHistory).forEach(r => {
+      const card = createCardHtml(r, historicalRunners.testMode, historicalRunners.testTargetValue, historicalRunners.lapDistance, false);
+      historyRunnersGrid.appendChild(card);
+    });
+    historyRunnersGrid.querySelectorAll(".runner-stats-body").forEach(b => b.addEventListener("click", function() { openRunnerDetail(parseInt(this.dataset.id), historicalRunners); }));
+  }
+
+  // CSV EKSPORT FUNKTION (MED UTF-8 BOM & SEMIKOLON)
+  function exportToCSV() {
+    const logs = JSON.parse(localStorage.getItem(STORAGE_KEY_HISTORY) || "[]");
+    if (logs.length === 0) {
+      alert("Der er ingen gemte test i loggen endnu.");
+      return;
+    }
+
+    let csvRows = [];
+    csvRows.push(["Dato", "Testtype", "Løber #", "Navn", "Køn", "Omgange", "Sluttid / Distance", "Karakter (2400m)"].join(";"));
+
+    logs.forEach(log => {
+      log.runners.forEach(r => {
+        const finishDisplay = log.testMode === 'distance' ? formatTime(r.finishTime) : `${r.finishDistance !== null ? r.finishDistance : (r.laps.length * log.lapDistance)}m`;
+        let grade = "";
+        if (log.testMode === 'distance' && log.testTargetValue === 2400 && r.finishTime) {
+          grade = get2400mGrade(r.finishTime, r.gender || 'M') || "";
+        }
+        csvRows.push([
+          `"${log.date}"`,
+          `"${log.testLabel}"`,
+          `"#${r.id}"`,
+          `"${r.alias}"`,
+          `"${r.gender || 'M'}"`,
+          `"${r.laps.length}"`,
+          `"${finishDisplay}"`,
+          `"${grade}"`
+        ].join(";"));
+      });
+    });
+
+    const csvString = "\uFEFF" + csvRows.join("\n");
+    const blob = new Blob([csvString], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.setAttribute("href", url);
+    link.setAttribute("download", `banetest-resultater-${new Date().toISOString().slice(0, 10)}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+  // RESET & NULSTIL
+  btnResetAll.addEventListener("click", () => {
+    if ((isRunning || stopPendingSecs > 0) && !confirm("Nulstil igangværende test?")) return;
+    if (stopPendingTimer) clearInterval(stopPendingTimer);
+    stopPendingSecs = 0;
+    isRunning = false;
+    clearTimeout(timerId);
+    releaseWakeLock();
+    elapsedSecs = 0; globalTimer.textContent = "00:00.0";
+    
+    mainDisplay.className = "track-display-screen state-idle";
+    btnStartAll.className = "btn btn--giant-action";
+    btnStartAll.innerHTML = "🚀 START";
+
+    initRunners(true); clearActiveState();
+  });
+
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Slet historik?")) { localStorage.removeItem(STORAGE_KEY_HISTORY); renderLocalStorageLog(); }
+  });
+
+  btnScreenshot.addEventListener("click", function() {
+    function capture() { html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => { const link = document.createElement('a'); link.download = `banetest-${new Date().toISOString().slice(0,10)}.png`; link.href = canvas.toDataURL('image/png'); link.click(); }); }
+    if (typeof html2canvas === 'undefined') { const script = document.createElement('script'); script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js'; script.onload = capture; document.head.appendChild(script); } else { capture(); }
+  });
+
+  btnExportCsv.addEventListener("click", exportToCSV);
+
+  // Modal close listeners
+  widget.querySelectorAll(".modal-close-btn").forEach(b => b.addEventListener("click", () => b.closest('.track-info-modal, .track-detail-modal, .track-history-view-modal').style.display = 'none'));
+  infoIconBtn.addEventListener("click", () => infoModal.style.display = "flex");
+  btnStartAll.addEventListener("click", handleGlobalStartStop);
+
+  // INITIALISER
+  if (!loadActiveState()) initRunners();
+  renderLocalStorageLog();
+});
+</script>

@@ -1,0 +1,887 @@
+<div class="five0five-widget">
+  
+  <!-- Info Modal -->
+  <div class="five0five-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om 5-0-5 Agility Testen</h4>
+        <span class="modal-subtitle-text">180° retningsskift & opbremsnings-asymmetri</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>OFFICIEL OPSTILLING OG BANEMÅL:</strong><br>
+        1. <strong>Linje A til Linje B (Tilløbszone):</strong> 10,0 meter (ikke-tidtaget tilløb til opbygning af max fart).<br>
+        2. <strong>Linje B til Linje C (Tidtagningszone):</strong> 5,0 meter frem + 5,0 meter tilbage.<br>
+        3. Samlet tidtaget distance pr. gennemløb: <strong>10,0 meter</strong>.
+      </p>
+
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057; margin-top: 10px;">
+        <strong>KORREKT LØBESEKVENS:</strong><br>
+        1. Start bag <strong>Linje A</strong> og spurt 10m frem mod Linje B.<br>
+        2. Tidtagningen starter automatisk, idet <strong>Linje B (port)</strong> passeres.<br>
+        3. Spurt 5m frem til <strong>Linje C</strong>, træd over linjen med det valgte ben (Venstre/Højre), vend 180° og spurt 5m tilbage.<br>
+        4. Tidtagningen slutter idet <strong>Linje B</strong> passeres igen.<br>
+        • Der afvikles i alt <strong>3 forsøg pr. vende-ben</strong>.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Vurderingsskala & Asymmetri (Elite Fodbold)</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0;">
+        <li><strong>Fremragende (Mænd):</strong> &lt; 2.20 sek.</li>
+        <li><strong>Middel (Mænd):</strong> 2.25 – 2.45 sek.</li>
+        <li><strong>Side-asymmetri &lt; 3.0%:</strong> Optimal balance mellem benene.</li>
+        <li><strong>Side-asymmetri &gt; 5.0%:</strong> Markant side-ubalance (øget skadesrisiko ved opbremsning).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="five0five-topbar">
+    <div class="five0five-header-card">
+      <div class="card-title-row">
+        <span class="card-title">5-0-5 Agility Test (180° Vende-test)</span>
+        <button class="info-icon-btn" type="button" title="Læs om opsætning og regler">ℹ️</button>
+      </div>
+      <div class="card-desc">3 forsøg pr. vende-ben. Måler opbremsning, 180° vendehurtighed og side-asymmetri.</div>
+    </div>
+
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="f0f-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- 2 KORT MED TEGNING & FORSØG (VENSTRE VS HØJRE VENDE-BEN) -->
+  <div class="five0five-sides-grid">
+    
+    <!-- VENSTRE BEN KORT -->
+    <div class="side-card active-card-left" id="card-left">
+      <div class="side-card-header left-header">
+        <span>👈 VENSTRE VENDEBEN</span>
+      </div>
+
+      <!-- SVG Tegning for Venstre Vende-rute (10m vs 5m skaleret 2:1) -->
+      <div class="side-svg-container">
+        <svg width="100%" viewBox="0 0 290 180" preserveAspectRatio="xMidYMid meet">
+          <rect x="5" y="5" width="280" height="170" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+          
+          <line x1="35" y1="35" x2="35" y2="135" stroke="#adb5bd" stroke-width="2" stroke-dasharray="3,3"/>
+          <polygon points="30,35 40,35 35,23" fill="#ff922b"/>
+          <polygon points="30,135 40,135 35,123" fill="#ff922b"/>
+          
+          <line x1="175" y1="35" x2="175" y2="135" stroke="#228be6" stroke-width="3"/>
+          <polygon points="170,35 180,35 175,23" fill="#ff922b"/>
+          <polygon points="170,135 180,135 175,123" fill="#ff922b"/>
+
+          <line x1="245" y1="35" x2="245" y2="135" stroke="#e03131" stroke-width="3"/>
+          <polygon points="240,35 250,35 245,23" fill="#ff922b"/>
+          <polygon points="240,135 250,135 245,123" fill="#ff922b"/>
+
+          <text x="35" y="152" font-size="8" font-weight="900" text-anchor="middle" fill="#495057">LINJE A</text>
+          <text x="35" y="162" font-size="7" font-weight="700" text-anchor="middle" fill="#868e96">(Start)</text>
+
+          <text x="175" y="152" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">LINJE B</text>
+          <text x="175" y="162" font-size="7" font-weight="700" text-anchor="middle" fill="#1c7ed6">(Tid Port)</text>
+
+          <text x="245" y="152" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">LINJE C</text>
+          <text x="245" y="162" font-size="7" font-weight="700" text-anchor="middle" fill="#e03131">(Vend 180°)</text>
+
+          <text x="105" y="28" font-size="7" font-weight="800" text-anchor="middle" fill="#868e96">10m tilløb</text>
+          <text x="210" y="28" font-size="7" font-weight="800" text-anchor="middle" fill="#1c7ed6">5m tid</text>
+
+          <path id="path-left" d="M 35,75 L 175,75 L 245,75 C 253,75 253,95 245,95 L 175,95" 
+                fill="none" stroke="#228be6" stroke-width="2.5" stroke-dasharray="4,3" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <circle id="runner-dot-left" cx="35" cy="75" r="5" fill="#fcc419" stroke="#212529" stroke-width="1.5" style="display:none;"/>
+        </svg>
+      </div>
+
+      <!-- Forsøg 1, 2 & 3 for Venstre -->
+      <div class="trials-row">
+        <div class="trial-box active-target" id="box-v1" data-trial="v1">
+          <span class="trial-label">Forsøg V1</span>
+          <input type="number" id="input-v1" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+        <div class="trial-box" id="box-v2" data-trial="v2">
+          <span class="trial-label">Forsøg V2</span>
+          <input type="number" id="input-v2" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+        <div class="trial-box" id="box-v3" data-trial="v3">
+          <span class="trial-label">Forsøg V3</span>
+          <input type="number" id="input-v3" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+      </div>
+      <div class="side-best-footer" id="best-left-display">Bedste V: --</div>
+    </div>
+
+    <!-- HØJRE BEN KORT -->
+    <div class="side-card" id="card-right">
+      <div class="side-card-header right-header">
+        <span>👉 HØJRE VENDEBEN</span>
+      </div>
+
+      <!-- SVG Tegning for Højre Vende-rute (10m vs 5m skaleret 2:1) -->
+      <div class="side-svg-container">
+        <svg width="100%" viewBox="0 0 290 180" preserveAspectRatio="xMidYMid meet">
+          <rect x="5" y="5" width="280" height="170" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+          
+          <line x1="35" y1="35" x2="35" y2="135" stroke="#adb5bd" stroke-width="2" stroke-dasharray="3,3"/>
+          <polygon points="30,35 40,35 35,23" fill="#ff922b"/>
+          <polygon points="30,135 40,135 35,123" fill="#ff922b"/>
+          
+          <line x1="175" y1="35" x2="175" y2="135" stroke="#e03131" stroke-width="3"/>
+          <polygon points="170,35 180,35 175,23" fill="#ff922b"/>
+          <polygon points="170,135 180,135 175,123" fill="#ff922b"/>
+
+          <line x1="245" y1="35" x2="245" y2="135" stroke="#228be6" stroke-width="3"/>
+          <polygon points="240,35 250,35 245,23" fill="#ff922b"/>
+          <polygon points="240,135 250,135 245,123" fill="#ff922b"/>
+
+          <text x="35" y="152" font-size="8" font-weight="900" text-anchor="middle" fill="#495057">LINJE A</text>
+          <text x="35" y="162" font-size="7" font-weight="700" text-anchor="middle" fill="#868e96">(Start)</text>
+
+          <text x="175" y="152" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">LINJE B</text>
+          <text x="175" y="162" font-size="7" font-weight="700" text-anchor="middle" fill="#e03131">(Tid Port)</text>
+
+          <text x="245" y="152" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">LINJE C</text>
+          <text x="245" y="162" font-size="7" font-weight="700" text-anchor="middle" fill="#1c7ed6">(Vend 180°)</text>
+
+          <text x="105" y="28" font-size="7" font-weight="800" text-anchor="middle" fill="#868e96">10m tilløb</text>
+          <text x="210" y="28" font-size="7" font-weight="800" text-anchor="middle" fill="#e03131">5m tid</text>
+
+          <path id="path-right" d="M 35,75 L 175,75 L 245,75 C 253,75 253,95 245,95 L 175,95" 
+                fill="none" stroke="#e03131" stroke-width="2.5" stroke-dasharray="4,3" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <circle id="runner-dot-right" cx="35" cy="75" r="5" fill="#fcc419" stroke="#212529" stroke-width="1.5" style="display:none;"/>
+        </svg>
+      </div>
+
+      <!-- Forsøg 1, 2 & 3 for Højre -->
+      <div class="trials-row">
+        <div class="trial-box" id="box-h1" data-trial="h1">
+          <span class="trial-label">Forsøg H1</span>
+          <input type="number" id="input-h1" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+        <div class="trial-box" id="box-h2" data-trial="h2">
+          <span class="trial-label">Forsøg H2</span>
+          <input type="number" id="input-h2" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+        <div class="trial-box" id="box-h3" data-trial="h3">
+          <span class="trial-label">Forsøg H3</span>
+          <input type="number" id="input-h3" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+      </div>
+      <div class="side-best-footer" id="best-right-display">Bedste H: --</div>
+    </div>
+
+  </div>
+
+  <!-- AKTIV HOVEDSKÆRM OG TIDTAGER-KONTROL -->
+  <div class="five0five-main-control-card">
+    <div class="active-trial-badge" id="active-trial-indicator">🎯 AKTIV: VENSTRE FORSØG 1 (V1)</div>
+    <div class="main-timer-display" id="main-timer">0.00s</div>
+    
+    <div class="five0five-controls">
+      <button class="btn btn--giant-action btn-start-stop" type="button">🚀 START TIMING</button>
+      <button class="btn btn--secondary btn-reset" type="button">Nulstil Alt</button>
+    </div>
+  </div>
+
+  <!-- RESULTAT BEREGNINGER (SPEED & ASYMMETRI) -->
+  <div class="five0five-stats-wrapper">
+    <h5 class="section-title">📊 Testanalyse & Side-asymmetri</h5>
+    <div class="five0five-stats-grid">
+      <div class="stat-box">
+        <span class="stat-value" id="stat-best-left">--</span>
+        <span class="stat-label">BEDSTE VENSTRE</span>
+        <span class="stat-sub" id="stat-speed-left">-- km/t</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-value" id="stat-best-right">--</span>
+        <span class="stat-label">BEDSTE HØJRE</span>
+        <span class="stat-sub" id="stat-speed-right">-- km/t</span>
+      </div>
+      <div class="stat-box highlight-box" id="asym-box">
+        <span class="stat-value" id="stat-asymmetry">0.0%</span>
+        <span class="stat-label">SIDE-ASYMMETRI</span>
+        <span class="stat-sub" id="stat-asymmetry-label">Ingen data</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HASTIGHEDS SØJLEDIAGRAM (KM/T OVER 10M TIDTAGNING) -->
+  <div class="five0five-chart-wrapper">
+    <h5 class="section-title">📈 Vendehastighed (km/t over 10m tidtagning)</h5>
+    <div class="chart-container">
+      <svg id="five0five-svg-chart" width="100%" height="180" viewBox="0 0 480 180" preserveAspectRatio="none">
+        <text x="240" y="90" text-anchor="middle" font-size="12" fill="#adb5bd">Gennemfør forsøg for at se hastighedsgrafen</text>
+      </svg>
+    </div>
+    <div class="chart-legend">
+      <span class="legend-item"><span class="legend-dot left"></span> Venstre Ben Vende</span>
+      <span class="legend-item"><span class="legend-dot right"></span> Højre Ben Vende</span>
+    </div>
+  </div>
+
+  <!-- LOCALSTORAGE LOG TABEL -->
+  <div class="five0five-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="five0five-log-table">
+      <thead>
+        <tr>
+          <th>Dato & Tid</th>
+          <th>Bedste V</th>
+          <th>Bedste H</th>
+          <th>Hurtigste</th>
+          <th>Asymmetri</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BLÅ KNAP: TAG ET BILLEDE NEDERST -->
+  <div class="five0five-screenshot-wrapper">
+    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag et billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.five0five-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 20px;
+  max-width: 680px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.five0five-widget * { box-sizing: border-box; }
+
+.five0five-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; text-align: left; }
+.five0five-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 12px 14px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.five0five-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Settings */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 4px; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Side Grid (Venstre / Højre Kort) */
+.five0five-sides-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+@media (max-width: 580px) {
+  .five0five-sides-grid { grid-template-columns: 1fr; }
+}
+
+.side-card {
+  background: #ffffff; border: 2px solid #dee2e6; border-radius: 14px; padding: 12px;
+  transition: all 0.2s ease-in-out; position: relative;
+}
+.side-card.active-card-left {
+  border-color: #228be6; background: #f4f9ff; box-shadow: 0 0 0 3px rgba(34, 139, 230, 0.2);
+}
+.side-card.active-card-right {
+  border-color: #e03131; background: #fff5f5; box-shadow: 0 0 0 3px rgba(224, 49, 49, 0.2);
+}
+
+.side-card-header { display: flex; justify-content: center; align-items: center; font-size: 0.85rem; font-weight: 900; margin-bottom: 8px; height: 22px; }
+.left-header { color: #1c7ed6; }
+.right-header { color: #e03131; }
+
+.side-svg-container { width: 100%; margin-bottom: 8px; }
+.side-best-footer { font-size: 0.75rem; font-weight: 800; color: #495057; margin-top: 6px; text-align: center; }
+
+/* Trial Boxes (3 FORSØG SIDE OM SIDE) */
+.trials-row { display: flex; gap: 4px; justify-content: center; width: 100%; }
+.trial-box {
+  flex: 1; background: #f8f9fa; border: 2px solid #ced4da; border-radius: 8px; padding: 5px 2px;
+  display: flex; flex-direction: column; align-items: center; cursor: pointer; transition: all 0.15s ease; min-width: 0;
+}
+.trial-box:hover { border-color: #74c0fc; }
+.trial-box.active-target { border-color: #228be6; background: #e7f5ff; box-shadow: 0 0 0 2px rgba(34, 139, 230, 0.25); }
+.trial-box.completed { border-color: #51cf66; background: #ebfbee; }
+
+.trial-label { font-size: 0.65rem; font-weight: 800; color: #495057; margin-bottom: 2px; white-space: nowrap; }
+.trial-input {
+  width: 100%; max-width: 68px; text-align: center; border: 1px solid #ced4da; border-radius: 5px;
+  font-size: 0.80rem; font-weight: 900; color: #212529; background: #ffffff; padding: 4px 1px; outline: none;
+}
+.trial-input:focus { border-color: #228be6; background: #ffffff; }
+.trial-unit { font-size: 0.60rem; font-weight: 700; color: #868e96; margin-top: 1px; }
+
+/* Hoved kontrol & timer skærm */
+.five0five-main-control-card { background: #f1f3f5; border: 3px solid #dee2e6; border-radius: 16px; padding: 14px; margin-bottom: 16px; transition: all 0.2s ease; }
+.five0five-main-control-card.is-timing { background: #e7f5ff; border-color: #74c0fc; }
+
+.active-trial-badge { font-size: 0.85rem; font-weight: 900; color: #1c7ed6; letter-spacing: 0.02em; }
+.main-timer-display { font-size: 3.8rem; font-weight: 900; color: #1e293b; font-variant-numeric: tabular-nums; line-height: 1.1; margin: 4px 0 10px 0; }
+
+.five0five-controls { display: flex; gap: 10px; }
+.btn--giant-action {
+  flex: 3; padding: 16px; font-size: 1.25rem; font-weight: 900; border-radius: 12px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 4px 14px rgba(34, 139, 230, 0.35); transition: transform 0.1s ease, background-color 0.2s ease;
+}
+.btn--giant-action:active { transform: scale(0.97); }
+.btn--giant-action.is-running { background: #fa5252; box-shadow: 0 4px 14px rgba(250, 82, 82, 0.35); }
+
+.btn--secondary { flex: 1; background: #868e96; color: white; border: none; padding: 14px; border-radius: 12px; font-weight: 800; font-size: 0.90rem; cursor: pointer; }
+
+/* Stats Section */
+.five0five-stats-wrapper { margin-top: 16px; text-align: left; }
+.section-title { font-size: 0.88rem; font-weight: 800; margin: 0 0 8px 0; color: #343a40; }
+
+.five0five-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 10px 6px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.highlight-box { background: #fff9db; border-color: #fcc419; }
+.stat-box.alert-box { background: #ffe3e3; border-color: #ff6b6b; }
+
+.stat-value { font-size: 1.3rem; font-weight: 900; color: #212529; line-height: 1; }
+.stat-label { font-size: 0.62rem; font-weight: 800; color: #868e96; margin-top: 4px; }
+.stat-sub { font-size: 0.72rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+/* Chart Section */
+.five0five-chart-wrapper { margin-top: 18px; text-align: left; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 12px; }
+.chart-container { background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 8px; width: 100%; }
+.chart-legend { display: flex; justify-content: center; gap: 16px; margin-top: 8px; font-size: 0.72rem; font-weight: 700; color: #6c757d; }
+.legend-item { display: flex; align-items: center; gap: 4px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 3px; }
+.legend-dot.left { background: #228be6; }
+.legend-dot.right { background: #e03131; }
+
+/* Log Tabel (100% bredde) */
+.five0five-log-wrapper { margin-top: 18px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 12px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; width: 100%; }
+.log-title { font-size: 0.88rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.five0five-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.80rem; table-layout: fixed; margin: 0; }
+.five0five-log-table th { background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.five0five-log-table td { padding: 8px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+.five0five-log-table th:nth-child(1), .five0five-log-table td:nth-child(1) { width: 32%; }
+.five0five-log-table th:nth-child(2), .five0five-log-table td:nth-child(2) { width: 17%; }
+.five0five-log-table th:nth-child(3), .five0five-log-table td:nth-child(3) { width: 17%; }
+.five0five-log-table th:nth-child(4), .five0five-log-table td:nth-child(4) { width: 18%; }
+.five0five-log-table th:nth-child(5), .five0five-log-table td:nth-child(5) { width: 16%; font-weight: 900; }
+
+/* Billed knap */
+.five0five-screenshot-wrapper { margin-top: 16px; width: 100%; }
+.btn--screenshot {
+  width: 100%; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 10px;
+  border: none; background: #228be6; color: #ffffff; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); transition: background 0.15s ease;
+}
+.btn--screenshot:hover { background: #1c7ed6; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const TIMED_DISTANCE_METERS = 10.0; // 5m frem og 5m tilbage = 10m tidtaget zone
+
+  let isRunning = false;
+  let startTime = 0;
+  let elapsedSecs = 0;
+  let animFrameId = null;
+
+  let activeTarget = 'v1'; // Sequence: v1 -> v2 -> v3 -> h1 -> h2 -> h3
+  let selectedSound = 'on';
+
+  let audioCtx = null;
+  let wakeLock = null;
+
+  const widget = document.querySelector(".five0five-widget");
+  if (!widget) return;
+
+  const activeTrialIndicator = widget.querySelector("#active-trial-indicator");
+  const mainTimer = widget.querySelector("#main-timer");
+  const mainControlCard = widget.querySelector(".five0five-main-control-card");
+
+  const btnStartStop = widget.querySelector(".btn-start-stop");
+  const btnReset = widget.querySelector(".btn-reset");
+
+  const cardLeft = widget.querySelector("#card-left");
+  const cardRight = widget.querySelector("#card-right");
+
+  const inputV1 = widget.querySelector("#input-v1");
+  const inputV2 = widget.querySelector("#input-v2");
+  const inputV3 = widget.querySelector("#input-v3");
+  
+  const inputH1 = widget.querySelector("#input-h1");
+  const inputH2 = widget.querySelector("#input-h2");
+  const inputH3 = widget.querySelector("#input-h3");
+
+  const bestLeftDisplay = widget.querySelector("#best-left-display");
+  const bestRightDisplay = widget.querySelector("#best-right-display");
+
+  const statBestLeft = widget.querySelector("#stat-best-left");
+  const statBestRight = widget.querySelector("#stat-best-right");
+  const statSpeedLeft = widget.querySelector("#stat-speed-left");
+  const statSpeedRight = widget.querySelector("#stat-speed-right");
+
+  const asymBox = widget.querySelector("#asym-box");
+  const statAsymmetry = widget.querySelector("#stat-asymmetry");
+  const statAsymmetryLabel = widget.querySelector("#stat-asymmetry-label");
+
+  const svgChart = widget.querySelector("#five0five-svg-chart");
+  const logTbody = widget.querySelector(".log-tbody");
+  const btnClearLog = widget.querySelector(".btn-clear-log");
+  const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const pathLeft = widget.querySelector("#path-left");
+  const runnerDotLeft = widget.querySelector("#runner-dot-left");
+  let pathLeftLen = pathLeft ? pathLeft.getTotalLength() : 0;
+
+  const pathRight = widget.querySelector("#path-right");
+  const runnerDotRight = widget.querySelector("#runner-dot-right");
+  let pathRightLen = pathRight ? pathRight.getTotalLength() : 0;
+
+  const infoModal = widget.querySelector(".five0five-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  const targetBoxes = {
+    v1: widget.querySelector("#box-v1"),
+    v2: widget.querySelector("#box-v2"),
+    v3: widget.querySelector("#box-v3"),
+    h1: widget.querySelector("#box-h1"),
+    h2: widget.querySelector("#box-h2"),
+    h3: widget.querySelector("#box-h3")
+  };
+
+  const inputs = { v1: inputV1, v2: inputV2, v3: inputV3, h1: inputH1, h2: inputH2, h3: inputH3 };
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+  setupToggleGroup("f0f-sound-toggle", (val) => { selectedSound = val; });
+
+  function playSound(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain); gain.connect(audioCtx.destination);
+    const now = audioCtx.currentTime;
+
+    if (type === 'start') {
+      osc.frequency.value = 1000;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+      osc.start(now); osc.stop(now + 0.25);
+    } else if (type === 'stop') {
+      osc.frequency.value = 1400;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.start(now); osc.stop(now + 0.3);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function setActiveTarget(targetKey) {
+    if (isRunning) return;
+    activeTarget = targetKey;
+    
+    Object.keys(targetBoxes).forEach(k => {
+      if (targetBoxes[k]) targetBoxes[k].classList.remove("active-target");
+    });
+    if (targetBoxes[targetKey]) {
+      targetBoxes[targetKey].classList.add("active-target");
+    }
+
+    const isLeft = targetKey.startsWith('v');
+    if (isLeft) {
+      cardLeft.className = "side-card active-card-left";
+      cardRight.className = "side-card";
+    } else {
+      cardLeft.className = "side-card";
+      cardRight.className = "side-card active-card-right";
+    }
+
+    const labels = {
+      v1: "🎯 AKTIV: VENSTRE FORSØG 1 (V1)",
+      v2: "🎯 AKTIV: VENSTRE FORSØG 2 (V2)",
+      v3: "🎯 AKTIV: VENSTRE FORSØG 3 (V3)",
+      h1: "🎯 AKTIV: HØJRE FORSØG 1 (H1)",
+      h2: "🎯 AKTIV: HØJRE FORSØG 2 (H2)",
+      h3: "🎯 AKTIV: HØJRE FORSØG 3 (H3)"
+    };
+    activeTrialIndicator.textContent = labels[targetKey] || "🎯 AKTIVT FORSØG";
+  }
+
+  Object.keys(targetBoxes).forEach(k => {
+    if (targetBoxes[k]) {
+      targetBoxes[k].addEventListener("click", () => setActiveTarget(k));
+    }
+  });
+
+  Object.keys(inputs).forEach(k => {
+    if (inputs[k]) {
+      inputs[k].addEventListener("input", () => {
+        if (inputs[k].value !== "") {
+          targetBoxes[k].classList.add("completed");
+        } else {
+          targetBoxes[k].classList.remove("completed");
+        }
+        updateCalculationsAndChart();
+      });
+    }
+  });
+
+  function updateTimer() {
+    if (!isRunning) return;
+    const now = performance.now();
+    elapsedSecs = (now - startTime) / 1000;
+    mainTimer.textContent = `${elapsedSecs.toFixed(2)}s`;
+
+    // Animation ud fra ca 2.4s norm-tid
+    const animPct = Math.min(1, elapsedSecs / 2.40);
+    if (activeTarget.startsWith('v')) {
+      if (runnerDotLeft && pathLeftLen > 0) {
+        runnerDotLeft.style.display = "block";
+        const pt = pathLeft.getPointAtLength(animPct * pathLeftLen);
+        runnerDotLeft.setAttribute("cx", pt.x);
+        runnerDotLeft.setAttribute("cy", pt.y);
+      }
+    } else {
+      if (runnerDotRight && pathRightLen > 0) {
+        runnerDotRight.style.display = "block";
+        const pt = pathRight.getPointAtLength(animPct * pathRightLen);
+        runnerDotRight.setAttribute("cx", pt.x);
+        runnerDotRight.setAttribute("cy", pt.y);
+      }
+    }
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function startTimer() {
+    isRunning = true;
+    requestWakeLock();
+    playSound('start');
+
+    startTime = performance.now();
+    mainControlCard.classList.add("is-timing");
+    btnStartStop.className = "btn btn--giant-action is-running";
+    btnStartStop.textContent = "🛑 STOP (I MÅL)";
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function stopTimer() {
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+    playSound('stop');
+
+    mainControlCard.classList.remove("is-timing");
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TIMING";
+
+    const timeVal = parseFloat(elapsedSecs.toFixed(2));
+    if (inputs[activeTarget]) {
+      inputs[activeTarget].value = timeVal.toFixed(2);
+      targetBoxes[activeTarget].classList.add("completed");
+    }
+
+    if (runnerDotLeft) runnerDotLeft.style.display = "none";
+    if (runnerDotRight) runnerDotRight.style.display = "none";
+
+    updateCalculationsAndChart();
+
+    // Automatisk fremdrift: v1 -> v2 -> v3 -> h1 -> h2 -> h3
+    if (activeTarget === 'v1') setActiveTarget('v2');
+    else if (activeTarget === 'v2') setActiveTarget('v3');
+    else if (activeTarget === 'v3') setActiveTarget('h1');
+    else if (activeTarget === 'h1') setActiveTarget('h2');
+    else if (activeTarget === 'h2') setActiveTarget('h3');
+  }
+
+  function updateCalculationsAndChart() {
+    const v1 = parseFloat(inputV1.value);
+    const v2 = parseFloat(inputV2.value);
+    const v3 = parseFloat(inputV3.value);
+    
+    const h1 = parseFloat(inputH1.value);
+    const h2 = parseFloat(inputH2.value);
+    const h3 = parseFloat(inputH3.value);
+
+    const leftTimes = [v1, v2, v3].filter(t => !isNaN(t) && t > 0);
+    const rightTimes = [h1, h2, h3].filter(t => !isNaN(t) && t > 0);
+
+    const bestLeft = leftTimes.length > 0 ? Math.min(...leftTimes) : null;
+    const bestRight = rightTimes.length > 0 ? Math.min(...rightTimes) : null;
+
+    bestLeftDisplay.textContent = bestLeft ? `Bedste V: ${bestLeft.toFixed(2)}s` : "Bedste V: --";
+    bestRightDisplay.textContent = bestRight ? `Bedste H: ${bestRight.toFixed(2)}s` : "Bedste H: --";
+
+    if (bestLeft) {
+      statBestLeft.textContent = `${bestLeft.toFixed(2)}s`;
+      const speedKmH = (TIMED_DISTANCE_METERS / bestLeft) * 3.6;
+      statSpeedLeft.textContent = `${speedKmH.toFixed(1)} km/t`;
+    } else {
+      statBestLeft.textContent = "--";
+      statSpeedLeft.textContent = "-- km/t";
+    }
+
+    if (bestRight) {
+      statBestRight.textContent = `${bestRight.toFixed(2)}s`;
+      const speedKmH = (TIMED_DISTANCE_METERS / bestRight) * 3.6;
+      statSpeedRight.textContent = `${speedKmH.toFixed(1)} km/t`;
+    } else {
+      statBestRight.textContent = "--";
+      statSpeedRight.textContent = "-- km/t";
+    }
+
+    if (bestLeft && bestRight) {
+      const minT = Math.min(bestLeft, bestRight);
+      const diff = Math.abs(bestLeft - bestRight);
+      const asymPct = (diff / minT) * 100;
+
+      statAsymmetry.textContent = `${asymPct.toFixed(1)}%`;
+
+      if (asymPct > 5.0) {
+        asymBox.className = "stat-box alert-box";
+        const fastSide = bestLeft < bestRight ? "Hurtigst v. Venstre" : "Hurtigst v. Højre";
+        statAsymmetryLabel.textContent = `⚠️ Markant forskel (${fastSide})`;
+      } else {
+        asymBox.className = "stat-box highlight-box";
+        statAsymmetryLabel.textContent = bestLeft === bestRight ? "Perfekt balance" : "Godkendt balance";
+      }
+
+      autoSaveToLocalStorage(bestLeft, bestRight, asymPct);
+    } else {
+      statAsymmetry.textContent = "0.0%";
+      statAsymmetryLabel.textContent = "Kræver tid fra begge sider";
+      asymBox.className = "stat-box highlight-box";
+    }
+
+    renderBarChart(v1, v2, v3, h1, h2, h3);
+  }
+
+  function renderBarChart(v1, v2, v3, h1, h2, h3) {
+    const trials = [
+      { label: 'V1', time: v1, color: '#339af0' },
+      { label: 'V2', time: v2, color: '#228be6' },
+      { label: 'V3', time: v3, color: '#1c7ed6' },
+      { label: 'H1', time: h1, color: '#ff8787' },
+      { label: 'H2', time: h2, color: '#ff6b6b' },
+      { label: 'H3', time: h3, color: '#e03131' }
+    ];
+
+    const activeTrials = trials.filter(t => !isNaN(t.time) && t.time > 0);
+
+    if (activeTrials.length === 0) {
+      svgChart.innerHTML = '<text x="240" y="90" text-anchor="middle" font-size="12" fill="#adb5bd">Gennemfør forsøg for at se hastighedsgrafen</text>';
+      return;
+    }
+
+    trials.forEach(t => {
+      t.speed = (!isNaN(t.time) && t.time > 0) ? (TIMED_DISTANCE_METERS / t.time) * 3.6 : 0;
+    });
+
+    const maxSpeed = Math.max(...trials.map(t => t.speed), 20);
+    const width = 480;
+    const height = 180;
+    const padL = 35;
+    const padR = 15;
+    const padT = 20;
+    const padB = 30;
+
+    let svgHtml = '';
+
+    const gridSteps = 4;
+    for (let i = 0; i <= gridSteps; i++) {
+      const spdVal = (maxSpeed / gridSteps) * i;
+      const y = height - padB - (spdVal / maxSpeed) * (height - padT - padB);
+      svgHtml += `<line x1="${padL}" y1="${y}" x2="${width - padR}" y2="${y}" stroke="#f1f3f5" stroke-width="1"/>`;
+      svgHtml += `<text x="${padL - 5}" y="${y + 4}" font-size="9" text-anchor="end" fill="#868e96" font-weight="bold">${Math.round(spdVal)}</text>`;
+    }
+
+    const numBars = 6;
+    const availWidth = width - padL - padR;
+    const barWidth = 32;
+    const barGap = (availWidth - (numBars * barWidth)) / (numBars + 1);
+
+    trials.forEach((t, i) => {
+      const x = padL + barGap + i * (barWidth + barGap);
+      const barHeight = t.speed > 0 ? (t.speed / maxSpeed) * (height - padT - padB) : 0;
+      const y = height - padB - barHeight;
+
+      if (t.speed > 0) {
+        svgHtml += `<rect x="${x}" y="${y}" width="${barWidth}" height="${barHeight}" rx="4" fill="${t.color}"/>`;
+        svgHtml += `<text x="${x + barWidth/2}" y="${y - 5}" font-size="8" text-anchor="middle" font-weight="900" fill="#212529">${t.speed.toFixed(1)}kmt</text>`;
+      } else {
+        svgHtml += `<rect x="${x}" y="${height - padB - 2}" width="${barWidth}" height="2" fill="#e9ecef"/>`;
+      }
+
+      svgHtml += `<text x="${x + barWidth/2}" y="${height - 12}" font-size="9" text-anchor="middle" font-weight="bold" fill="#495057">${t.label}</text>`;
+    });
+
+    svgChart.innerHTML = svgHtml;
+  }
+
+  let lastSavedKey = "";
+  function autoSaveToLocalStorage(bestL, bestR, asymPct) {
+    const saveKey = `${bestL.toFixed(2)}_${bestR.toFixed(2)}`;
+    if (saveKey === lastSavedKey) return;
+    lastSavedKey = saveKey;
+
+    const logs = JSON.parse(localStorage.getItem("five0five_test_logs") || "[]");
+    const now = new Date();
+    const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+    const fastSide = bestL < bestR ? 'Venstre' : (bestR < bestL ? 'Højre' : 'Ens');
+
+    logs.unshift({
+      date: dateStr,
+      bestL: bestL.toFixed(2) + 's',
+      bestR: bestR.toFixed(2) + 's',
+      fastSide: fastSide,
+      asym: asymPct.toFixed(1) + '%'
+    });
+
+    localStorage.setItem("five0five_test_logs", JSON.stringify(logs.slice(0, 20)));
+    renderLocalStorageLog();
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem("five0five_test_logs") || "[]");
+    logTbody.innerHTML = "";
+
+    if (logs.length === 0) {
+      logTbody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+      return;
+    }
+
+    logs.forEach(item => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td><strong>${item.bestL}</strong></td>
+        <td><strong>${item.bestR}</strong></td>
+        <td>${item.fastSide}</td>
+        <td><span style="color:${parseFloat(item.asym) > 5 ? '#e03131' : '#2b8a3e'};">${item.asym}</span></td>
+      `;
+      logTbody.appendChild(tr);
+    });
+  }
+
+  function resetWidget() {
+    if (isRunning) {
+      if (!confirm("Afbryd igangværende tidtagning?")) return;
+    }
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    elapsedSecs = 0;
+    mainTimer.textContent = "0.00s";
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TIMING";
+    mainControlCard.classList.remove("is-timing");
+
+    Object.keys(inputs).forEach(k => {
+      if (inputs[k]) {
+        inputs[k].value = "";
+        targetBoxes[k].classList.remove("completed");
+      }
+    });
+
+    setActiveTarget('v1');
+    updateCalculationsAndChart();
+  }
+
+  function takeScreenshot() {
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `505-agility-test-resultat-${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  btnStartStop.addEventListener("click", () => {
+    if (!isRunning) startTimer();
+    else stopTimer();
+  });
+
+  btnReset.addEventListener("click", resetWidget);
+
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Vil du slette alle gemte test fra hukommelsen?")) {
+      localStorage.removeItem("five0five_test_logs");
+      renderLocalStorageLog();
+    }
+  });
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  setActiveTarget('v1');
+  renderLocalStorageLog();
+  updateCalculationsAndChart();
+});
+</script>

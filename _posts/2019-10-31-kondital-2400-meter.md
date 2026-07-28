@@ -11,6 +11,7 @@ header:
   caption: '2400-meter løbetest: Sådan beregner du dit kondital 🏃'
 category:
 - Kondition
+classes: wide
 meta:
   name: 2400-meters løbetest
   measures: kondital
@@ -59,9 +60,7 @@ faq:
 
 Testen anvendes blandt andet som den afsluttende løbetest i [Politiets optagelsesprøve](/politiets-optagelsesproeve/).
 
-[<i class='fas fa-calculator'></i> Hop direkte til beregneren](#calculator){: .btn .btn--success .btn--jump }
-
----
+[<i class='fas fa-calculator'></i> Hop direkte til beregneren](#calculator){: .btn .btn--success .btn--jump } [<i class='fas fa-calculator'></i> Hop direkte til timer](#timer){: .btn .btn--success .btn--jump }
 
 ## Beregner til 2400-meter testen
 {: id="calculator" }
@@ -160,6 +159,18 @@ Du kan sammenligne dit fundne resultat direkte i vores samlede [tabel for kondit
 
 {% include motionsplan/faq.html %}
 
+---
+
+## Timer
+{: id="timer" }
+
+Vi har lavet en timer, hvor du kan holde styr på en række løbere på 2400-meter-testen. Som en ekstra lille feature giver tidtageren automatisk karakter, og det er muligt at registrere omgangstider.
+
+Læg mærke til at tidtageren ikke gemmer resultaterne. Så du skal huske lige at tage et billede af resultaterne.
+
+{% include components/track-test-timer.html %}
+
+---
 
 ## Litteratur og referencer
 

@@ -1,0 +1,727 @@
+<div class="ybalance-widget">
+  
+  <!-- Info Modal -->
+  <div class="ybalance-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Y-Balance Testen</h4>
+        <span class="modal-subtitle-text">Måling af dynamisk postural kontrol & side-asymmetri</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>SÅDAN UDFØRES TESTEN:</strong><br>
+        1. Mål atletens <strong>benlængde (cm)</strong> fra ASIS til den mediale malleol.<br>
+        2. Atleten står på ét ben på midterpladen og rækker ud med det modsat ben i 3 retninger:<br>
+        &nbsp;&nbsp;• <strong>Anterior (ANT):</strong> Lige fremad.<br>
+        &nbsp;&nbsp;• <strong>Posteromedial (PM):</strong> Skråt bagud og ind over standbenet.<br>
+        &nbsp;&nbsp;• <strong>Posterolateral (PL):</strong> Skråt bagud og ud til siden.<br>
+        3. Registrer den bedste godkendte rækkevidde i cm (3 forsøg pr. retning).
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Klinisk vurdering & Skadesrisiko</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0;">
+        <li><strong>Anterior asymmetri &gt; 4,0 cm:</strong> Indikerer op til 2.5–4x øget risiko for skader i underekstremiteten.</li>
+        <li><strong>Composite Score &lt; 89-95%:</strong> Indikerer nedsat samlet dynamisk balance (afhænger af idræt og køn).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="ybalance-topbar">
+    <div class="ybalance-header-card">
+      <div class="card-title-row">
+        <span class="card-title">Y-Balance Test Beregner & Visualisering</span>
+        <button class="info-icon-btn" type="button" title="Læs om regler og beregning">ℹ️</button>
+      </div>
+      <div class="card-desc">Indtast målinger for at plotte rækkevidde og beregne Composite Score (%) samt side-asymmetri.</div>
+    </div>
+
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="yb-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- FÆLLES BENLÆNGDE INPUT -->
+  <div class="limb-length-card">
+    <label class="limb-label" for="input-limb-length">🦵 Atletens Benlængde (cm):</label>
+    <input type="number" id="input-limb-length" class="limb-input" placeholder="f.eks. 90" step="0.5" min="40" max="130">
+    <span class="limb-hint">(Målt fra ASIS til medial malleol)</span>
+  </div>
+
+  <!-- 2 SIDER: VENSTRE VS HØJRE INDTASTNING OG VISUEL PLOTTING -->
+  <div class="ybalance-sides-grid">
+    
+    <!-- VENSTRE STANDBEN -->
+    <div class="side-card active-card-left">
+      <div class="side-card-header left-header">
+        <span>👈 VENSTRE STANDBEN</span>
+      </div>
+
+      <!-- SVG Tegning for Venstre Y-diagram -->
+      <div class="side-svg-container">
+        <svg id="svg-left" width="100%" viewBox="0 0 220 200" preserveAspectRatio="xMidYMid meet">
+          <rect x="5" y="5" width="210" height="190" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+          
+          <!-- Y-Akser -->
+          <line x1="110" y1="105" x2="110" y2="25" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+          <line x1="110" y1="105" x2="45" y2="170" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+          <line x1="110" y1="105" x2="175" y2="170" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+          
+          <!-- Midterfod / Center -->
+          <circle cx="110" cy="105" r="12" fill="#e7f5ff" stroke="#228be6" stroke-width="2"/>
+          <text x="110" y="108" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">V</text>
+
+          <!-- Akse Labels -->
+          <text x="110" y="18" font-size="8" font-weight="900" text-anchor="middle" fill="#495057">Anterior</text>
+          <text x="35" y="182" font-size="7" font-weight="800" text-anchor="middle" fill="#868e96">PL (Udad)</text>
+          <text x="185" y="182" font-size="7" font-weight="800" text-anchor="middle" fill="#868e96">PM (Indad)</text>
+
+          <!-- Dynamisk Polygon -->
+          <polygon id="poly-left" points="110,105 110,105 110,105" fill="rgba(34, 139, 230, 0.25)" stroke="#228be6" stroke-width="2" stroke-linejoin="round"/>
+
+          <!-- Dynamiske Punkter -->
+          <circle id="dot-l-ant" cx="110" cy="105" r="5" fill="#228be6" stroke="#ffffff" stroke-width="1.5"/>
+          <circle id="dot-l-pl" cx="110" cy="105" r="5" fill="#228be6" stroke="#ffffff" stroke-width="1.5"/>
+          <circle id="dot-l-pm" cx="110" cy="105" r="5" fill="#228be6" stroke="#ffffff" stroke-width="1.5"/>
+
+          <!-- Måleværdier på Graf -->
+          <text id="val-l-ant" x="110" y="38" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">--</text>
+          <text id="val-l-pl" x="38" y="160" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">--</text>
+          <text id="val-l-pm" x="182" y="160" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">--</text>
+        </svg>
+      </div>
+
+      <!-- Inputs for Venstre -->
+      <div class="inputs-column">
+        <div class="input-field-group">
+          <label class="field-label" for="input-l-ant">Anterior (cm):</label>
+          <input type="number" id="input-l-ant" class="yb-input" placeholder="0.0" step="0.5">
+        </div>
+        <div class="input-field-group">
+          <label class="field-label" for="input-l-pm">Posteromedial (cm):</label>
+          <input type="number" id="input-l-pm" class="yb-input" placeholder="0.0" step="0.5">
+        </div>
+        <div class="input-field-group">
+          <label class="field-label" for="input-l-pl">Posterolateral (cm):</label>
+          <input type="number" id="input-l-pl" class="yb-input" placeholder="0.0" step="0.5">
+        </div>
+      </div>
+
+      <div class="side-score-footer" id="score-left-display">Composite: -- %</div>
+    </div>
+
+    <!-- HØJRE STANDBEN -->
+    <div class="side-card active-card-right">
+      <div class="side-card-header right-header">
+        <span>👉 HØJRE STANDBEN</span>
+      </div>
+
+      <!-- SVG Tegning for Højre Y-diagram -->
+      <div class="side-svg-container">
+        <svg id="svg-right" width="100%" viewBox="0 0 220 200" preserveAspectRatio="xMidYMid meet">
+          <rect x="5" y="5" width="210" height="190" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+          
+          <!-- Y-Akser -->
+          <line x1="110" y1="105" x2="110" y2="25" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+          <line x1="110" y1="105" x2="45" y2="170" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+          <line x1="110" y1="105" x2="175" y2="170" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+          
+          <!-- Midterfod / Center -->
+          <circle cx="110" cy="105" r="12" fill="#fff5f5" stroke="#e03131" stroke-width="2"/>
+          <text x="110" y="108" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">H</text>
+
+          <!-- Akse Labels -->
+          <text x="110" y="18" font-size="8" font-weight="900" text-anchor="middle" fill="#495057">Anterior</text>
+          <text x="35" y="182" font-size="7" font-weight="800" text-anchor="middle" fill="#868e96">PM (Indad)</text>
+          <text x="185" y="182" font-size="7" font-weight="800" text-anchor="middle" fill="#868e96">PL (Udad)</text>
+
+          <!-- Dynamisk Polygon -->
+          <polygon id="poly-right" points="110,105 110,105 110,105" fill="rgba(224, 49, 49, 0.25)" stroke="#e03131" stroke-width="2" stroke-linejoin="round"/>
+
+          <!-- Dynamiske Punkter -->
+          <circle id="dot-r-ant" cx="110" cy="105" r="5" fill="#e03131" stroke="#ffffff" stroke-width="1.5"/>
+          <circle id="dot-r-pm" cx="110" cy="105" r="5" fill="#e03131" stroke="#ffffff" stroke-width="1.5"/>
+          <circle id="dot-r-pl" cx="110" cy="105" r="5" fill="#e03131" stroke="#ffffff" stroke-width="1.5"/>
+
+          <!-- Måleværdier på Graf -->
+          <text id="val-r-ant" x="110" y="38" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">--</text>
+          <text id="val-r-pm" x="38" y="160" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">--</text>
+          <text id="val-r-pl" x="182" y="160" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">--</text>
+        </svg>
+      </div>
+
+      <!-- Inputs for Højre -->
+      <div class="inputs-column">
+        <div class="input-field-group">
+          <label class="field-label" for="input-r-ant">Anterior (cm):</label>
+          <input type="number" id="input-r-ant" class="yb-input" placeholder="0.0" step="0.5">
+        </div>
+        <div class="input-field-group">
+          <label class="field-label" for="input-r-pm">Posteromedial (cm):</label>
+          <input type="number" id="input-r-pm" class="yb-input" placeholder="0.0" step="0.5">
+        </div>
+        <div class="input-field-group">
+          <label class="field-label" for="input-r-pl">Posterolateral (cm):</label>
+          <input type="number" id="input-r-pl" class="yb-input" placeholder="0.0" step="0.5">
+        </div>
+      </div>
+
+      <div class="side-score-footer" id="score-right-display">Composite: -- %</div>
+    </div>
+
+  </div>
+
+  <!-- RESULTATER OG SAMMENLIGNINGS-TABEL -->
+  <div class="ybalance-stats-wrapper">
+    <h5 class="section-title">📊 Beregnet Score & Forskelle</h5>
+    
+    <div class="ybalance-stats-grid">
+      <div class="stat-box highlight-box">
+        <span class="stat-value" id="stat-left-comp">--%</span>
+        <span class="stat-label">COMPOSITE VENSTRE</span>
+        <span class="stat-sub" id="stat-left-abs">-- cm total</span>
+      </div>
+      <div class="stat-box highlight-box">
+        <span class="stat-value" id="stat-right-comp">--%</span>
+        <span class="stat-label">COMPOSITE HØJRE</span>
+        <span class="stat-sub" id="stat-right-abs">-- cm total</span>
+      </div>
+      <div class="stat-box" id="asym-card">
+        <span class="stat-value" id="stat-ant-diff">0.0 cm</span>
+        <span class="stat-label">ANTERIOR FORSKEL</span>
+        <span class="stat-sub" id="stat-risk-status">Afventer data</span>
+      </div>
+    </div>
+
+    <!-- SPECIFIK DETALJE-TABEL (NU 100% BREDDE) -->
+    <div class="table-card">
+      <table class="yb-detail-table">
+        <thead>
+          <tr>
+            <th>Retning</th>
+            <th>Venstre</th>
+            <th>Højre</th>
+            <th>Difference</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Anterior</strong></td>
+            <td id="cell-l-ant">-- cm</td>
+            <td id="cell-r-ant">-- cm</td>
+            <td id="cell-diff-ant" class="diff-cell">-- cm</td>
+          </tr>
+          <tr>
+            <td><strong>Posteromedial</strong></td>
+            <td id="cell-l-pm">-- cm</td>
+            <td id="cell-r-pm">-- cm</td>
+            <td id="cell-diff-pm" class="diff-cell">-- cm</td>
+          </tr>
+          <tr>
+            <td><strong>Posterolateral</strong></td>
+            <td id="cell-l-pl">-- cm</td>
+            <td id="cell-r-pl">-- cm</td>
+            <td id="cell-diff-pl" class="diff-cell">-- cm</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- BROWSER LOG TABEL -->
+  <div class="ybalance-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="ybalance-log-table">
+      <thead>
+        <tr>
+          <th>Dato</th>
+          <th>Comp V</th>
+          <th>Comp H</th>
+          <th>Ant. Diff</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BLÅ KNAP: SCREENSHOT -->
+  <div class="ybalance-screenshot-wrapper">
+    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag et billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.ybalance-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 20px;
+  max-width: 680px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.ybalance-widget * { box-sizing: border-box; }
+
+.ybalance-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; text-align: left; }
+.ybalance-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 12px 14px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.ybalance-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Settings */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 4px; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Benlængde Card */
+.limb-length-card {
+  background: #f8f9fa; border: 2px solid #ced4da; border-radius: 12px; padding: 10px 14px;
+  display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin-bottom: 14px;
+}
+.limb-label { font-size: 0.85rem; font-weight: 800; color: #212529; }
+.limb-input {
+  width: 90px; text-align: center; border: 2px solid #228be6; border-radius: 8px;
+  font-size: 0.95rem; font-weight: 900; color: #1c7ed6; padding: 5px; outline: none; background: #ffffff;
+}
+.limb-hint { font-size: 0.70rem; color: #868e96; font-weight: 600; }
+
+/* Grid med 2 kort (Venstre / Højre) */
+.ybalance-sides-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+@media (max-width: 580px) {
+  .ybalance-sides-grid { grid-template-columns: 1fr; }
+}
+
+.side-card {
+  background: #ffffff; border: 2px solid #dee2e6; border-radius: 14px; padding: 12px;
+  transition: all 0.2s ease-in-out; position: relative; display: flex; flex-direction: column;
+}
+.side-card.active-card-left { border-color: #74c0fc; background: #f4f9ff; }
+.side-card.active-card-right { border-color: #ff8787; background: #fff5f5; }
+
+.side-card-header { font-size: 0.82rem; font-weight: 900; margin-bottom: 8px; height: 22px; display: flex; align-items: center; justify-content: center; }
+.left-header { color: #1c7ed6; }
+.right-header { color: #e03131; }
+
+.side-svg-container { width: 100%; margin-bottom: 10px; }
+
+/* Inputs styling */
+.inputs-column { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+.input-field-group { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.field-label { font-size: 0.72rem; font-weight: 800; color: #495057; text-align: left; }
+.yb-input {
+  width: 70px; text-align: center; border: 1px solid #ced4da; border-radius: 6px;
+  font-size: 0.85rem; font-weight: 900; color: #212529; background: #ffffff; padding: 4px; outline: none;
+}
+.yb-input:focus { border-color: #228be6; }
+
+.side-score-footer { font-size: 0.80rem; font-weight: 900; color: #212529; margin-top: 10px; text-align: center; background: #ffffff; border-radius: 8px; padding: 6px; border: 1px solid #e9ecef; }
+
+/* Stats & Tabel */
+.ybalance-stats-wrapper { margin-top: 16px; text-align: left; }
+.section-title { font-size: 0.88rem; font-weight: 800; margin: 0 0 8px 0; color: #343a40; }
+
+.ybalance-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 10px 6px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.highlight-box { background: #e7f5ff; border-color: #a5d8ff; }
+.stat-box.alert-box { background: #ffe3e3; border-color: #ff6b6b; }
+.stat-box.ok-box { background: #ebfbee; border-color: #b2f2bb; }
+
+.stat-value { font-size: 1.25rem; font-weight: 900; color: #212529; line-height: 1; }
+.stat-label { font-size: 0.62rem; font-weight: 800; color: #868e96; margin-top: 4px; }
+.stat-sub { font-size: 0.70rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+/* DETALJETABEL MED 100% BREDDE */
+.table-card {
+  background: #ffffff; border: 1px solid #dee2e6; border-radius: 12px; padding: 8px;
+  width: 100%; box-sizing: border-box; overflow: hidden; margin-top: 10px;
+}
+.yb-detail-table {
+  width: 100% !important; display: table !important; border-collapse: collapse;
+  font-size: 0.80rem; table-layout: fixed; margin: 0;
+}
+.yb-detail-table th {
+  background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6;
+  text-align: center; font-weight: 800; color: #495057;
+}
+.yb-detail-table td {
+  padding: 8px 4px; border-bottom: 1px solid #f1f3f5;
+  text-align: center; vertical-align: middle; color: #212529;
+}
+
+.yb-detail-table th:nth-child(1), .yb-detail-table td:nth-child(1) { width: 34%; text-align: left; padding-left: 10px; }
+.yb-detail-table th:nth-child(2), .yb-detail-table td:nth-child(2) { width: 22%; }
+.yb-detail-table th:nth-child(3), .yb-detail-table td:nth-child(3) { width: 22%; }
+.yb-detail-table th:nth-child(4), .yb-detail-table td:nth-child(4) { width: 22%; font-weight: 900; }
+
+.diff-cell { font-weight: 900; }
+
+/* Log Tabel */
+.ybalance-log-wrapper { margin-top: 18px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 12px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; width: 100%; }
+.log-title { font-size: 0.88rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.ybalance-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.78rem; table-layout: fixed; margin: 0; }
+.ybalance-log-table th { background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.ybalance-log-table td { padding: 8px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+/* Billed knap */
+.ybalance-screenshot-wrapper { margin-top: 16px; width: 100%; }
+.btn--screenshot {
+  width: 100%; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 10px;
+  border: none; background: #228be6; color: #ffffff; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); transition: background 0.15s ease;
+}
+.btn--screenshot:hover { background: #1c7ed6; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let selectedSound = 'on';
+  let audioCtx = null;
+  let wakeLock = null;
+
+  const widget = document.querySelector(".ybalance-widget");
+  if (!widget) return;
+
+  const inputLimb = widget.querySelector("#input-limb-length");
+
+  // Inputs Venstre
+  const inputLAnt = widget.querySelector("#input-l-ant");
+  const inputLPm = widget.querySelector("#input-l-pm");
+  const inputLPl = widget.querySelector("#input-l-pl");
+
+  // Inputs Højre
+  const inputRAnt = widget.querySelector("#input-r-ant");
+  const inputRPm = widget.querySelector("#input-r-pm");
+  const inputRPl = widget.querySelector("#input-r-pl");
+
+  // Visual SVG elementer Venstre
+  const polyLeft = widget.querySelector("#poly-left");
+  const dotLAnt = widget.querySelector("#dot-l-ant");
+  const dotLPm = widget.querySelector("#dot-l-pm");
+  const dotLPl = widget.querySelector("#dot-l-pl");
+  const valLAnt = widget.querySelector("#val-l-ant");
+  const valLPm = widget.querySelector("#val-l-pm");
+  const valLPl = widget.querySelector("#val-l-pl");
+  const scoreLeftDisplay = widget.querySelector("#score-left-display");
+
+  // Visual SVG elementer Højre
+  const polyRight = widget.querySelector("#poly-right");
+  const dotRAnt = widget.querySelector("#dot-r-ant");
+  const dotRPm = widget.querySelector("#dot-r-pm");
+  const dotRPl = widget.querySelector("#dot-r-pl");
+  const valRAnt = widget.querySelector("#val-r-ant");
+  const valRPm = widget.querySelector("#val-r-pm");
+  const valRPl = widget.querySelector("#val-r-pl");
+  const scoreRightDisplay = widget.querySelector("#score-right-display");
+
+  // Stats Displays
+  const statLeftComp = widget.querySelector("#stat-left-comp");
+  const statLeftAbs = widget.querySelector("#stat-left-abs");
+  const statRightComp = widget.querySelector("#stat-right-comp");
+  const statRightAbs = widget.querySelector("#stat-right-abs");
+  const statAntDiff = widget.querySelector("#stat-ant-diff");
+  const statRiskStatus = widget.querySelector("#stat-risk-status");
+  const asymCard = widget.querySelector("#asym-card");
+
+  // Detail Tabel Celler
+  const cellLAnt = widget.querySelector("#cell-l-ant");
+  const cellLPm = widget.querySelector("#cell-l-pm");
+  const cellLPl = widget.querySelector("#cell-l-pl");
+  const cellRAnt = widget.querySelector("#cell-r-ant");
+  const cellRPm = widget.querySelector("#cell-r-pm");
+  const cellRPl = widget.querySelector("#cell-r-pl");
+  const cellDiffAnt = widget.querySelector("#cell-diff-ant");
+  const cellDiffPm = widget.querySelector("#cell-diff-pm");
+  const cellDiffPl = widget.querySelector("#cell-diff-pl");
+
+  const logTbody = widget.querySelector(".log-tbody");
+  const btnClearLog = widget.querySelector(".btn-clear-log");
+  const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const infoModal = widget.querySelector(".ybalance-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  const CX = 110;
+  const CY = 105;
+  const MAX_RADIUS = 75;
+  const SCALE_MAX_CM = 110;
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+  setupToggleGroup("yb-sound-toggle", (val) => { selectedSound = val; });
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+
+  const allInputs = [inputLimb, inputLAnt, inputLPm, inputLPl, inputRAnt, inputRPm, inputRPl];
+  allInputs.forEach(input => {
+    input.addEventListener("input", () => {
+      requestWakeLock();
+      updateCalculationsAndGraphics();
+    });
+  });
+
+  function getAxisPoint(direction, cmValue) {
+    if (isNaN(cmValue) || cmValue <= 0) return { x: CX, y: CY };
+    const ratio = Math.min(cmValue / SCALE_MAX_CM, 1.0);
+    const r = ratio * MAX_RADIUS;
+
+    if (direction === 'ANT') {
+      return { x: CX, y: CY - r };
+    } else if (direction === 'DOWN_LEFT') {
+      const dx = r * Math.sin(Math.PI * 0.75);
+      const dy = r * Math.cos(Math.PI * 0.25);
+      return { x: CX - dx, y: CY + dy };
+    } else if (direction === 'DOWN_RIGHT') {
+      const dx = r * Math.sin(Math.PI * 0.75);
+      const dy = r * Math.cos(Math.PI * 0.25);
+      return { x: CX + dx, y: CY + dy };
+    }
+    return { x: CX, y: CY };
+  }
+
+  function updateCalculationsAndGraphics() {
+    const limb = parseFloat(inputLimb.value);
+
+    const lAnt = parseFloat(inputLAnt.value);
+    const lPm = parseFloat(inputLPm.value);
+    const lPl = parseFloat(inputLPl.value);
+
+    const rAnt = parseFloat(inputRAnt.value);
+    const rPm = parseFloat(inputRPm.value);
+    const rPl = parseFloat(inputRPl.value);
+
+    // VENSTRE TEGNING
+    const ptLAnt = getAxisPoint('ANT', lAnt);
+    const ptLPl = getAxisPoint('DOWN_LEFT', lPl);
+    const ptLPm = getAxisPoint('DOWN_RIGHT', lPm);
+
+    dotLAnt.setAttribute("cx", ptLAnt.x); dotLAnt.setAttribute("cy", ptLAnt.y);
+    dotLPl.setAttribute("cx", ptLPl.x);  dotLPl.setAttribute("cy", ptLPl.y);
+    dotLPm.setAttribute("cx", ptLPm.x);  dotLPm.setAttribute("cy", ptLPm.y);
+
+    polyLeft.setAttribute("points", `${ptLAnt.x},${ptLAnt.y} ${ptLPl.x},${ptLPl.y} ${ptLPm.x},${ptLPm.y}`);
+
+    valLAnt.textContent = lAnt > 0 ? `${lAnt.toFixed(1)}` : "--";
+    valLPl.textContent = lPl > 0 ? `${lPl.toFixed(1)}` : "--";
+    valLPm.textContent = lPm > 0 ? `${lPm.toFixed(1)}` : "--";
+
+    // HØJRE TEGNING
+    const ptRAnt = getAxisPoint('ANT', rAnt);
+    const ptRPm = getAxisPoint('DOWN_LEFT', rPm);
+    const ptRPl = getAxisPoint('DOWN_RIGHT', rPl);
+
+    dotRAnt.setAttribute("cx", ptRAnt.x); dotRAnt.setAttribute("cy", ptRAnt.y);
+    dotRPm.setAttribute("cx", ptRPm.x);  dotRPm.setAttribute("cy", ptRPm.y);
+    dotRPl.setAttribute("cx", ptRPl.x);  dotRPl.setAttribute("cy", ptRPl.y);
+
+    polyRight.setAttribute("points", `${ptRAnt.x},${ptRAnt.y} ${ptRPm.x},${ptRPm.y} ${ptRPl.x},${ptRPl.y}`);
+
+    valRAnt.textContent = rAnt > 0 ? `${rAnt.toFixed(1)}` : "--";
+    valRPm.textContent = rPm > 0 ? `${rPm.toFixed(1)}` : "--";
+    valRPl.textContent = rPl > 0 ? `${rPl.toFixed(1)}` : "--";
+
+    // SCORES & TOTALER
+    const isLValid = !isNaN(lAnt) && !isNaN(lPm) && !isNaN(lPl) && lAnt > 0 && lPm > 0 && lPl > 0;
+    const isRValid = !isNaN(rAnt) && !isNaN(rPm) && !isNaN(rPl) && rAnt > 0 && rPm > 0 && rPl > 0;
+    const isLimbValid = !isNaN(limb) && limb > 0;
+
+    let lComp = null, rComp = null;
+    let lSum = lAnt + lPm + lPl;
+    let rSum = rAnt + rPm + rPl;
+
+    if (isLValid) {
+      if (isLimbValid) {
+        lComp = (lSum / (3 * limb)) * 100;
+        statLeftComp.textContent = `${lComp.toFixed(1)}%`;
+        scoreLeftDisplay.textContent = `Composite: ${lComp.toFixed(1)}%`;
+      } else {
+        statLeftComp.textContent = "--%";
+        scoreLeftDisplay.textContent = `Total: ${lSum.toFixed(1)} cm`;
+      }
+      statLeftAbs.textContent = `${lSum.toFixed(1)} cm total`;
+    } else {
+      statLeftComp.textContent = "--%";
+      statLeftAbs.textContent = "-- cm total";
+      scoreLeftDisplay.textContent = "Composite: -- %";
+    }
+
+    if (isRValid) {
+      if (isLimbValid) {
+        rComp = (rSum / (3 * limb)) * 100;
+        statRightComp.textContent = `${rComp.toFixed(1)}%`;
+        scoreRightDisplay.textContent = `Composite: ${rComp.toFixed(1)}%`;
+      } else {
+        statRightComp.textContent = "--%";
+        scoreRightDisplay.textContent = `Total: ${rSum.toFixed(1)} cm`;
+      }
+      statRightAbs.textContent = `${rSum.toFixed(1)} cm total`;
+    } else {
+      statRightComp.textContent = "--%";
+      statRightAbs.textContent = "-- cm total";
+      scoreRightDisplay.textContent = "Composite: -- %";
+    }
+
+    // OPDATER TABEL
+    cellLAnt.textContent = !isNaN(lAnt) ? `${lAnt.toFixed(1)} cm` : "-- cm";
+    cellLPm.textContent = !isNaN(lPm) ? `${lPm.toFixed(1)} cm` : "-- cm";
+    cellLPl.textContent = !isNaN(lPl) ? `${lPl.toFixed(1)} cm` : "-- cm";
+
+    cellRAnt.textContent = !isNaN(rAnt) ? `${rAnt.toFixed(1)} cm` : "-- cm";
+    cellRPm.textContent = !isNaN(rPm) ? `${rPm.toFixed(1)} cm` : "-- cm";
+    cellRPl.textContent = !isNaN(rPl) ? `${rPl.toFixed(1)} cm` : "-- cm";
+
+    if (!isNaN(lAnt) && !isNaN(rAnt)) {
+      const antDiff = Math.abs(lAnt - rAnt);
+      cellDiffAnt.textContent = `${antDiff.toFixed(1)} cm`;
+      statAntDiff.textContent = `${antDiff.toFixed(1)} cm`;
+
+      if (antDiff > 4.0) {
+        asymCard.className = "stat-box alert-box";
+        statRiskStatus.textContent = "⚠️ Øget skadesrisiko (> 4cm)";
+      } else {
+        asymCard.className = "stat-box ok-box";
+        statRiskStatus.textContent = "✅ Godkendt balance (≤ 4cm)";
+      }
+    } else {
+      cellDiffAnt.textContent = "-- cm";
+      statAntDiff.textContent = "0.0 cm";
+      asymCard.className = "stat-box";
+      statRiskStatus.textContent = "Afventer data";
+    }
+
+    if (!isNaN(lPm) && !isNaN(rPm)) {
+      cellDiffPm.textContent = `${Math.abs(lPm - rPm).toFixed(1)} cm`;
+    } else { cellDiffPm.textContent = "-- cm"; }
+
+    if (!isNaN(lPl) && !isNaN(rPl)) {
+      cellDiffPl.textContent = `${Math.abs(lPl - rPl).toFixed(1)} cm`;
+    } else { cellDiffPl.textContent = "-- cm"; }
+
+    if (isLValid && isRValid && isLimbValid) {
+      autoSaveToLocalStorage(lComp, rComp, Math.abs(lAnt - rAnt));
+    }
+  }
+
+  let lastSavedKey = "";
+  function autoSaveToLocalStorage(lComp, rComp, antDiff) {
+    const saveKey = `${lComp.toFixed(1)}_${rComp.toFixed(1)}`;
+    if (saveKey === lastSavedKey) return;
+    lastSavedKey = saveKey;
+
+    const logs = JSON.parse(localStorage.getItem("ybalance_test_logs") || "[]");
+    const now = new Date();
+    const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+    logs.unshift({
+      date: dateStr,
+      lComp: lComp.toFixed(1) + '%',
+      rComp: rComp.toFixed(1) + '%',
+      antDiff: antDiff.toFixed(1) + ' cm',
+      status: antDiff > 4.0 ? '⚠️ Risiko' : '✅ Godkendt'
+    });
+
+    localStorage.setItem("ybalance_test_logs", JSON.stringify(logs.slice(0, 20)));
+    renderLocalStorageLog();
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem("ybalance_test_logs") || "[]");
+    logTbody.innerHTML = "";
+
+    if (logs.length === 0) {
+      logTbody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+      return;
+    }
+
+    logs.forEach(item => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td><strong>${item.lComp}</strong></td>
+        <td><strong>${item.rComp}</strong></td>
+        <td>${item.antDiff}</td>
+        <td><span style="color:${item.status.includes('Risiko') ? '#e03131' : '#2b8a3e'}; font-weight:800;">${item.status}</span></td>
+      `;
+      logTbody.appendChild(tr);
+    });
+  }
+
+  function takeScreenshot() {
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `ybalance-resultat-${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Vil du slette alle gemte test fra hukommelsen?")) {
+      localStorage.removeItem("ybalance_test_logs");
+      renderLocalStorageLog();
+    }
+  });
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  renderLocalStorageLog();
+  updateCalculationsAndGraphics();
+});
+</script>

@@ -1,0 +1,742 @@
+<div class="illinois-widget">
+  
+  <!-- Info Modal -->
+  <div class="illinois-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Illinois Agility Testen</h4>
+        <span class="modal-subtitle-text">Standardiseret test af acceleration & retningsskift</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>OFFICIEL LØBERUTE OG OPSTILLING:</strong><br>
+        1. Baneanlæg: <strong>10 meter lang x 5 meter bred</strong> med 4 hjørnekegler.<br>
+        2. I midten placeres 4 kegler på stribe med <strong>3,3 meters mellemrum</strong>.<br>
+        3. Samlet tilbagelagt distance pr. gennemløb: <strong>60,0 meter</strong>.
+      </p>
+
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057; margin-top: 10px;">
+        <strong>KORREKT LØBESEKVENS:</strong><br>
+        1. Start liggende på maven til <strong>venstre for startkeglen</strong>.<br>
+        2. Spurt 10 m op på venstre side, rund over top-venstre kegle og løb ned igen.<br>
+        3. Sving under nederste midterkegle og slalom op igennem de 4 midterkegler.<br>
+        4. Rund øverste midterkegle, slalom ned igen og sving under nederste midterkegle.<br>
+        5. Løb op på venstre side af top-højre kegle, rund toppen og spurt ned på <strong>højre side i mål</strong>.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Vurderingsskala (Voksne mænd / kvinder)</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0;">
+        <li><strong>Fremragende:</strong> Mænd &lt; 15.2s | Kvinder &lt; 17.0s</li>
+        <li><strong>Over middel:</strong> Mænd 15.2 - 16.1s | Kvinder 17.0 - 17.9s</li>
+        <li><strong>Middel:</strong> Mænd 16.2 - 18.1s | Kvinder 18.0 - 21.7s</li>
+        <li><strong>Under middel:</strong> Mænd &gt; 18.2s | Kvinder &gt; 21.8s</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="illinois-topbar">
+    <div class="illinois-header-card">
+      <div class="card-title-row">
+        <span class="card-title">Illinois Agility Test (60m Slalom)</span>
+        <button class="info-icon-btn" type="button" title="Læs om opsætning og regler">ℹ️</button>
+      </div>
+      <div class="card-desc">Måler eksplosivitet, retningsskift og agility (10m x 5m bane).</div>
+    </div>
+
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="illinois-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- STØRRE SVG BANEGRAFIK -->
+  <div class="illinois-diagram-card">
+    <div class="side-card-header">
+      <span>📐 BANE OVERSIGT OG LØBERUTE (60m)</span>
+    </div>
+    <div class="side-svg-container">
+      <svg width="100%" viewBox="0 0 260 250" preserveAspectRatio="xMidYMid meet">
+        <rect x="5" y="5" width="250" height="240" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+        
+        <!-- Kegler (Orange Triangler) -->
+        <!-- Venstre kolonne (x = 35) -->
+        <polygon points="30,190 40,190 35,178" fill="#ff922b"/> <!-- Start kegle -->
+        <polygon points="30,40 40,40 35,28" fill="#ff922b"/>   <!-- Top-venstre kegle -->
+        
+        <!-- Midterkolonne (x = 130) -->
+        <polygon points="125,190 135,190 130,178" fill="#ff922b"/> <!-- Midt 1 (nederst) -->
+        <polygon points="125,140 135,140 130,128" fill="#ff922b"/> <!-- Midt 2 -->
+        <polygon points="125,90 135,90 130,78" fill="#ff922b"/>     <!-- Midt 3 -->
+        <polygon points="125,40 135,40 130,28" fill="#ff922b"/>     <!-- Midt 4 (øverst) -->
+        
+        <!-- Højre kolonne (x = 225) -->
+        <polygon points="220,40 230,40 225,28" fill="#ff922b"/>   <!-- Top-højre kegle -->
+        <polygon points="220,190 230,190 225,178" fill="#ff922b"/> <!-- Mål kegle -->
+
+        <!-- Tekster / Labels -->
+        <text x="20" y="208" font-size="8" font-weight="900" text-anchor="middle" fill="#2b8a3e">START</text>
+        <text x="240" y="208" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">MÅL</text>
+        
+        <!-- Afstandsangivelser -->
+        <text x="152" y="167" font-size="7" font-weight="800" fill="#868e96">3.3m</text>
+        <text x="152" y="117" font-size="7" font-weight="800" fill="#868e96">3.3m</text>
+        <text x="152" y="67" font-size="7" font-weight="800" fill="#868e96">3.3m</text>
+        <text x="130" y="234" font-size="8" font-weight="800" text-anchor="middle" fill="#495057">← 5.0 meter →</text>
+
+        <!-- PRECIS LØBERUTE PATH (Starter v. startkegle, runder toppe og målkegle på ydersiden) -->
+        <path id="illinois-path" 
+              d="M 20,185 
+                 L 20,40 
+                 C 20,15 50,15 50,40 
+                 L 50,175 
+                 C 50,212 115,215 130,208 
+                 C 145,200 145,170 118,160 
+                 C 100,150 100,120 142,110 
+                 C 160,100 160,70 118,60 
+                 C 105,50 110,18 130,18 
+                 C 150,18 155,50 142,60 
+                 C 100,70 100,100 142,110 
+                 C 160,120 160,150 118,160 
+                 C 100,170 105,200 130,208 
+                 C 145,215 210,212 210,175 
+                 L 210,40 
+                 C 210,15 240,15 240,40 
+                 L 240,185" 
+              fill="none" stroke="#228be6" stroke-width="2.5" stroke-dasharray="4,3" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <!-- Animeret løberprik -->
+        <circle id="illinois-runner-dot" cx="20" cy="185" r="5" fill="#fcc419" stroke="#212529" stroke-width="1.5" style="display:none;"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- FORSØG REGISTRERING (FORSØG 1, 2 & 3) -->
+  <div class="illinois-trials-card">
+    <div class="trials-row">
+      <div class="trial-box active-target" id="box-f1" data-trial="f1">
+        <span class="trial-label">Forsøg 1</span>
+        <input type="number" id="input-f1" class="trial-input" placeholder="0.00" step="0.01">
+        <span class="trial-unit">sek.</span>
+      </div>
+      <div class="trial-box" id="box-f2" data-trial="f2">
+        <span class="trial-label">Forsøg 2</span>
+        <input type="number" id="input-f2" class="trial-input" placeholder="0.00" step="0.01">
+        <span class="trial-unit">sek.</span>
+      </div>
+      <div class="trial-box" id="box-f3" data-trial="f3">
+        <span class="trial-label">Forsøg 3</span>
+        <input type="number" id="input-f3" class="trial-input" placeholder="0.00" step="0.01">
+        <span class="trial-unit">sek.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- AKTIV HOVEDSKÆRM OG TIDTAGER-KONTROL -->
+  <div class="illinois-main-control-card">
+    <div class="active-trial-badge" id="illinois-active-indicator">🎯 AKTIV: FORSØG 1</div>
+    <div class="main-timer-display" id="illinois-main-timer">0.00s</div>
+    
+    <div class="illinois-controls">
+      <button class="btn btn--giant-action btn-start-stop" type="button">🚀 START TIMING</button>
+      <button class="btn btn--secondary btn-reset" type="button">Nulstil Alt</button>
+    </div>
+  </div>
+
+  <!-- RESULTAT BEREGNINGER (BEDSTE TID & HASTIGHED) -->
+  <div class="illinois-stats-wrapper">
+    <h5 class="section-title">📊 Testanalyse & Hastighed</h5>
+    <div class="illinois-stats-grid">
+      <div class="stat-box highlight-box">
+        <span class="stat-value" id="stat-best-time">--</span>
+        <span class="stat-label">BEDSTE TID</span>
+        <span class="stat-sub" id="stat-best-speed">-- km/t</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-value" id="stat-avg-time">--</span>
+        <span class="stat-label">GENNEMSNIT</span>
+        <span class="stat-sub" id="stat-avg-speed">-- km/t</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-value" id="stat-trials-count">0/3</span>
+        <span class="stat-label">GENNEMFØRT</span>
+        <span class="stat-sub" id="stat-rating-label">Afventer data</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HASTIGHEDS SØJLEDIAGRAM (KM/T) -->
+  <div class="illinois-chart-wrapper">
+    <h5 class="section-title">📈 Hastighed pr. forsøg (km/t over 60m)</h5>
+    <div class="chart-container">
+      <svg id="illinois-svg-chart" width="100%" height="180" viewBox="0 0 480 180" preserveAspectRatio="none">
+        <text x="240" y="90" text-anchor="middle" font-size="12" fill="#adb5bd">Gennemfør et forsøg for at se hastighedsgrafen</text>
+      </svg>
+    </div>
+  </div>
+
+  <!-- LOCALSTORAGE LOG TABEL -->
+  <div class="illinois-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="illinois-log-table">
+      <thead>
+        <tr>
+          <th>Dato & Tid</th>
+          <th>Bedste Tid</th>
+          <th>Topfart</th>
+          <th>Gns. Tid</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="4" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BLÅ KNAP: TAG ET BILLEDE NEDERST -->
+  <div class="illinois-screenshot-wrapper">
+    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag et billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.illinois-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 20px;
+  max-width: 680px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.illinois-widget * { box-sizing: border-box; }
+
+.illinois-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; text-align: left; }
+.illinois-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 12px 14px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.illinois-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Settings */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 4px; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* SVG Diagram Card - STØRRE OG RENT OPSTILLET */
+.illinois-diagram-card {
+  background: #ffffff; border: 2px solid #dee2e6; border-radius: 14px; padding: 14px;
+  margin-bottom: 16px; text-align: center;
+}
+.side-card-header { display: flex; justify-content: center; align-items: center; font-size: 0.85rem; font-weight: 900; margin-bottom: 10px; color: #1c7ed6; }
+
+.side-svg-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0;
+}
+.side-svg-container svg {
+  width: 100%;
+  max-width: 440px; /* Øget fra 340px for et markant større diagram */
+  height: auto;
+  display: block;
+}
+
+/* Trial boxes */
+.illinois-trials-card { margin-bottom: 16px; }
+.trials-row { display: flex; gap: 8px; justify-content: center; }
+.trial-box {
+  flex: 1; background: #f8f9fa; border: 2px solid #ced4da; border-radius: 10px; padding: 8px 4px;
+  display: flex; flex-direction: column; align-items: center; cursor: pointer; transition: all 0.15s ease;
+}
+.trial-box:hover { border-color: #74c0fc; }
+.trial-box.active-target { border-color: #228be6; background: #e7f5ff; box-shadow: 0 0 0 3px rgba(34, 139, 230, 0.25); }
+.trial-box.completed { border-color: #51cf66; background: #ebfbee; }
+
+.trial-label { font-size: 0.72rem; font-weight: 800; color: #495057; margin-bottom: 4px; }
+.trial-input {
+  width: 100%; max-width: 90px; text-align: center; border: 1px solid #ced4da; border-radius: 6px;
+  font-size: 0.88rem; font-weight: 900; color: #212529; background: #ffffff; padding: 5px 2px; outline: none;
+}
+.trial-input:focus { border-color: #228be6; background: #ffffff; }
+.trial-unit { font-size: 0.65rem; font-weight: 700; color: #868e96; margin-top: 2px; }
+
+/* Main Control Card */
+.illinois-main-control-card { background: #f1f3f5; border: 3px solid #dee2e6; border-radius: 16px; padding: 14px; margin-bottom: 16px; transition: all 0.2s ease; }
+.illinois-main-control-card.is-timing { background: #e7f5ff; border-color: #74c0fc; }
+
+.active-trial-badge { font-size: 0.85rem; font-weight: 900; color: #1c7ed6; letter-spacing: 0.02em; }
+.main-timer-display { font-size: 3.8rem; font-weight: 900; color: #1e293b; font-variant-numeric: tabular-nums; line-height: 1.1; margin: 4px 0 10px 0; }
+
+.illinois-controls { display: flex; gap: 10px; }
+.btn--giant-action {
+  flex: 3; padding: 16px; font-size: 1.25rem; font-weight: 900; border-radius: 12px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 4px 14px rgba(34, 139, 230, 0.35); transition: transform 0.1s ease, background-color 0.2s ease;
+}
+.btn--giant-action:active { transform: scale(0.97); }
+.btn--giant-action.is-running { background: #fa5252; box-shadow: 0 4px 14px rgba(250, 82, 82, 0.35); }
+
+.btn--secondary { flex: 1; background: #868e96; color: white; border: none; padding: 14px; border-radius: 12px; font-weight: 800; font-size: 0.90rem; cursor: pointer; }
+
+/* Stats Section */
+.illinois-stats-wrapper { margin-top: 16px; text-align: left; }
+.section-title { font-size: 0.88rem; font-weight: 800; margin: 0 0 8px 0; color: #343a40; }
+
+.illinois-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 10px 6px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.highlight-box { background: #e7f5ff; border-color: #a5d8ff; }
+
+.stat-value { font-size: 1.3rem; font-weight: 900; color: #212529; line-height: 1; }
+.stat-label { font-size: 0.62rem; font-weight: 800; color: #868e96; margin-top: 4px; }
+.stat-sub { font-size: 0.72rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+/* Chart Section */
+.illinois-chart-wrapper { margin-top: 18px; text-align: left; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 12px; }
+.chart-container { background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 8px; width: 100%; }
+
+/* Log Tabel */
+.illinois-log-wrapper { margin-top: 18px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 12px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; width: 100%; }
+.log-title { font-size: 0.88rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.illinois-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.80rem; table-layout: fixed; margin: 0; }
+.illinois-log-table th { background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.illinois-log-table td { padding: 8px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+.illinois-log-table th:nth-child(1), .illinois-log-table td:nth-child(1) { width: 35%; }
+.illinois-log-table th:nth-child(2), .illinois-log-table td:nth-child(2) { width: 22%; }
+.illinois-log-table th:nth-child(3), .illinois-log-table td:nth-child(3) { width: 22%; }
+.illinois-log-table th:nth-child(4), .illinois-log-table td:nth-child(4) { width: 21%; }
+
+/* Billed knap */
+.illinois-screenshot-wrapper { margin-top: 16px; width: 100%; }
+.btn--screenshot {
+  width: 100%; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 10px;
+  border: none; background: #228be6; color: #ffffff; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); transition: background 0.15s ease;
+}
+.btn--screenshot:hover { background: #1c7ed6; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const DISTANCE_METERS = 60.0;
+
+  let isRunning = false;
+  let startTime = 0;
+  let elapsedSecs = 0;
+  let animFrameId = null;
+
+  let activeTarget = 'f1';
+  let selectedSound = 'on';
+
+  let audioCtx = null;
+  let wakeLock = null;
+
+  const widget = document.querySelector(".illinois-widget");
+  if (!widget) return;
+
+  const activeTrialIndicator = widget.querySelector("#illinois-active-indicator");
+  const mainTimer = widget.querySelector("#illinois-main-timer");
+  const mainControlCard = widget.querySelector(".illinois-main-control-card");
+
+  const btnStartStop = widget.querySelector(".btn-start-stop");
+  const btnReset = widget.querySelector(".btn-reset");
+
+  const inputF1 = widget.querySelector("#input-f1");
+  const inputF2 = widget.querySelector("#input-f2");
+  const inputF3 = widget.querySelector("#input-f3");
+
+  const statBestTime = widget.querySelector("#stat-best-time");
+  const statBestSpeed = widget.querySelector("#stat-best-speed");
+  const statAvgTime = widget.querySelector("#stat-avg-time");
+  const statAvgSpeed = widget.querySelector("#stat-avg-speed");
+  const statTrialsCount = widget.querySelector("#stat-trials-count");
+  const statRatingLabel = widget.querySelector("#stat-rating-label");
+
+  const svgChart = widget.querySelector("#illinois-svg-chart");
+  const logTbody = widget.querySelector(".log-tbody");
+  const btnClearLog = widget.querySelector(".btn-clear-log");
+  const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const illinoisPath = widget.querySelector("#illinois-path");
+  const runnerDot = widget.querySelector("#illinois-runner-dot");
+  let pathLength = illinoisPath ? illinoisPath.getTotalLength() : 0;
+
+  const infoModal = widget.querySelector(".illinois-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  const targetBoxes = {
+    f1: widget.querySelector("#box-f1"),
+    f2: widget.querySelector("#box-f2"),
+    f3: widget.querySelector("#box-f3")
+  };
+
+  const inputs = { f1: inputF1, f2: inputF2, f3: inputF3 };
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+  setupToggleGroup("illinois-sound-toggle", (val) => { selectedSound = val; });
+
+  function playSound(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain); gain.connect(audioCtx.destination);
+    const now = audioCtx.currentTime;
+
+    if (type === 'start') {
+      osc.frequency.value = 1000;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+      osc.start(now); osc.stop(now + 0.25);
+    } else if (type === 'stop') {
+      osc.frequency.value = 1400;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.start(now); osc.stop(now + 0.3);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function setActiveTarget(targetKey) {
+    if (isRunning) return;
+    activeTarget = targetKey;
+    
+    Object.keys(targetBoxes).forEach(k => {
+      targetBoxes[k].classList.remove("active-target");
+    });
+    if (targetBoxes[targetKey]) {
+      targetBoxes[targetKey].classList.add("active-target");
+    }
+
+    const labels = {
+      f1: "🎯 AKTIV: FORSØG 1 (F1)",
+      f2: "🎯 AKTIV: FORSØG 2 (F2)",
+      f3: "🎯 AKTIV: FORSØG 3 (F3)"
+    };
+    activeTrialIndicator.textContent = labels[targetKey] || "🎯 AKTIVT FORSØG";
+  }
+
+  Object.keys(targetBoxes).forEach(k => {
+    targetBoxes[k].addEventListener("click", () => setActiveTarget(k));
+  });
+
+  Object.keys(inputs).forEach(k => {
+    inputs[k].addEventListener("input", () => {
+      if (inputs[k].value !== "") {
+        targetBoxes[k].classList.add("completed");
+      } else {
+        targetBoxes[k].classList.remove("completed");
+      }
+      updateCalculationsAndChart();
+    });
+  });
+
+  function updateTimer() {
+    if (!isRunning) return;
+    const now = performance.now();
+    elapsedSecs = (now - startTime) / 1000;
+    mainTimer.textContent = `${elapsedSecs.toFixed(2)}s`;
+
+    const animPct = Math.min(1, elapsedSecs / 16.0);
+    if (runnerDot && pathLength > 0) {
+      runnerDot.style.display = "block";
+      const pt = illinoisPath.getPointAtLength(animPct * pathLength);
+      runnerDot.setAttribute("cx", pt.x);
+      runnerDot.setAttribute("cy", pt.y);
+    }
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function startTimer() {
+    isRunning = true;
+    requestWakeLock();
+    playSound('start');
+
+    startTime = performance.now();
+    mainControlCard.classList.add("is-timing");
+    btnStartStop.className = "btn btn--giant-action is-running";
+    btnStartStop.textContent = "🛑 STOP (I MÅL)";
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function stopTimer() {
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+    playSound('stop');
+
+    mainControlCard.classList.remove("is-timing");
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TIMING";
+
+    const timeVal = parseFloat(elapsedSecs.toFixed(2));
+    if (inputs[activeTarget]) {
+      inputs[activeTarget].value = timeVal.toFixed(2);
+      targetBoxes[activeTarget].classList.add("completed");
+    }
+
+    if (runnerDot) runnerDot.style.display = "none";
+
+    updateCalculationsAndChart();
+
+    if (activeTarget === 'f1') setActiveTarget('f2');
+    else if (activeTarget === 'f2') setActiveTarget('f3');
+  }
+
+  function updateCalculationsAndChart() {
+    const f1 = parseFloat(inputF1.value);
+    const f2 = parseFloat(inputF2.value);
+    const f3 = parseFloat(inputF3.value);
+
+    const validTimes = [f1, f2, f3].filter(t => !isNaN(t) && t > 0);
+
+    statTrialsCount.textContent = `${validTimes.length}/3`;
+
+    if (validTimes.length > 0) {
+      const bestTime = Math.min(...validTimes);
+      const avgTime = validTimes.reduce((a, b) => a + b, 0) / validTimes.length;
+
+      const bestSpeedKmH = (DISTANCE_METERS / bestTime) * 3.6;
+      const avgSpeedKmH = (DISTANCE_METERS / avgTime) * 3.6;
+
+      statBestTime.textContent = `${bestTime.toFixed(2)}s`;
+      statBestSpeed.textContent = `${bestSpeedKmH.toFixed(1)} km/t`;
+
+      statAvgTime.textContent = `${avgTime.toFixed(2)}s`;
+      statAvgSpeed.textContent = `${avgSpeedKmH.toFixed(1)} km/t`;
+
+      if (bestTime < 15.2) statRatingLabel.textContent = "🔥 Fremragende";
+      else if (bestTime <= 16.1) statRatingLabel.textContent = "⚡ Over middel";
+      else if (bestTime <= 18.1) statRatingLabel.textContent = "👌 Middel";
+      else statRatingLabel.textContent = "🏃 Under middel";
+
+      autoSaveToLocalStorage(bestTime, bestSpeedKmH, avgTime);
+    } else {
+      statBestTime.textContent = "--";
+      statBestSpeed.textContent = "-- km/t";
+      statAvgTime.textContent = "--";
+      statAvgSpeed.textContent = "-- km/t";
+      statRatingLabel.textContent = "Afventer data";
+    }
+
+    renderBarChart(f1, f2, f3);
+  }
+
+  function renderBarChart(f1, f2, f3) {
+    const trials = [
+      { label: 'Forsøg 1', time: f1, color: '#228be6' },
+      { label: 'Forsøg 2', time: f2, color: '#1c7ed6' },
+      { label: 'Forsøg 3', time: f3, color: '#0b7285' }
+    ];
+
+    const activeTrials = trials.filter(t => !isNaN(t.time) && t.time > 0);
+
+    if (activeTrials.length === 0) {
+      svgChart.innerHTML = '<text x="240" y="90" text-anchor="middle" font-size="12" fill="#adb5bd">Gennemfør et forsøg for at se hastighedsgrafen</text>';
+      return;
+    }
+
+    trials.forEach(t => {
+      t.speed = (!isNaN(t.time) && t.time > 0) ? (DISTANCE_METERS / t.time) * 3.6 : 0;
+    });
+
+    const maxSpeed = Math.max(...trials.map(t => t.speed), 18);
+    const width = 480;
+    const height = 180;
+    const padL = 35;
+    const padR = 15;
+    const padT = 20;
+    const padB = 30;
+
+    let svgHtml = '';
+
+    const gridSteps = 4;
+    for (let i = 0; i <= gridSteps; i++) {
+      const spdVal = (maxSpeed / gridSteps) * i;
+      const y = height - padB - (spdVal / maxSpeed) * (height - padT - padB);
+      svgHtml += `<line x1="${padL}" y1="${y}" x2="${width - padR}" y2="${y}" stroke="#f1f3f5" stroke-width="1"/>`;
+      svgHtml += `<text x="${padL - 5}" y="${y + 4}" font-size="9" text-anchor="end" fill="#868e96" font-weight="bold">${Math.round(spdVal)}</text>`;
+    }
+
+    const numBars = 3;
+    const availWidth = width - padL - padR;
+    const barWidth = 60;
+    const barGap = (availWidth - (numBars * barWidth)) / (numBars + 1);
+
+    trials.forEach((t, i) => {
+      const x = padL + barGap + i * (barWidth + barGap);
+      const barHeight = t.speed > 0 ? (t.speed / maxSpeed) * (height - padT - padB) : 0;
+      const y = height - padB - barHeight;
+
+      if (t.speed > 0) {
+        svgHtml += `<rect x="${x}" y="${y}" width="${barWidth}" height="${barHeight}" rx="4" fill="${t.color}"/>`;
+        svgHtml += `<text x="${x + barWidth/2}" y="${y - 5}" font-size="9" text-anchor="middle" font-weight="900" fill="#212529">${t.speed.toFixed(1)} km/t</text>`;
+      } else {
+        svgHtml += `<rect x="${x}" y="${height - padB - 2}" width="${barWidth}" height="2" fill="#e9ecef"/>`;
+      }
+
+      svgHtml += `<text x="${x + barWidth/2}" y="${height - 12}" font-size="9" text-anchor="middle" font-weight="bold" fill="#495057">${t.label}</text>`;
+    });
+
+    svgChart.innerHTML = svgHtml;
+  }
+
+  let lastSavedKey = "";
+  function autoSaveToLocalStorage(bestT, topSpd, avgT) {
+    const saveKey = `${bestT.toFixed(2)}_${topSpd.toFixed(1)}`;
+    if (saveKey === lastSavedKey) return;
+    lastSavedKey = saveKey;
+
+    const logs = JSON.parse(localStorage.getItem("illinois_test_logs") || "[]");
+    const now = new Date();
+    const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+    logs.unshift({
+      date: dateStr,
+      bestT: bestT.toFixed(2) + 's',
+      topSpd: topSpd.toFixed(1) + ' km/t',
+      avgT: avgT.toFixed(2) + 's'
+    });
+
+    localStorage.setItem("illinois_test_logs", JSON.stringify(logs.slice(0, 20)));
+    renderLocalStorageLog();
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem("illinois_test_logs") || "[]");
+    logTbody.innerHTML = "";
+
+    if (logs.length === 0) {
+      logTbody.innerHTML = '<tr class="empty-row"><td colspan="4" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+      return;
+    }
+
+    logs.forEach(item => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td><strong>${item.bestT}</strong></td>
+        <td><span style="color:#2b8a3e; font-weight:800;">${item.topSpd}</span></td>
+        <td>${item.avgT}</td>
+      `;
+      logTbody.appendChild(tr);
+    });
+  }
+
+  function resetWidget() {
+    if (isRunning) {
+      if (!confirm("Afbryd igangværende tidtagning?")) return;
+    }
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    elapsedSecs = 0;
+    mainTimer.textContent = "0.00s";
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TIMING";
+    mainControlCard.classList.remove("is-timing");
+
+    Object.keys(inputs).forEach(k => {
+      inputs[k].value = "";
+      targetBoxes[k].classList.remove("completed");
+    });
+
+    setActiveTarget('f1');
+    updateCalculationsAndChart();
+  }
+
+  function takeScreenshot() {
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `illinois-test-resultat-${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  btnStartStop.addEventListener("click", () => {
+    if (!isRunning) startTimer();
+    else stopTimer();
+  });
+
+  btnReset.addEventListener("click", resetWidget);
+
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Vil du slette alle gemte test fra hukommelsen?")) {
+      localStorage.removeItem("illinois_test_logs");
+      renderLocalStorageLog();
+    }
+  });
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  setActiveTarget('f1');
+  renderLocalStorageLog();
+  updateCalculationsAndChart();
+});
+</script>
