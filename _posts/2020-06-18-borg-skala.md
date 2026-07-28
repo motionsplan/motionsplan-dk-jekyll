@@ -1,13 +1,12 @@
 ---
 title: 'Borg-skala: Hvordan bruger du anstrengelsesskalaen?'
-seo_title: Borg-skala • Alt om anstrengelsesskalaen [Download PDF]
-description: Er du på udkig efter mere viden om Borg-skala? Her kan du downloade Borgskalaen til fysisk aktivitet GRATIS som
-  en PDF.
-excerpt: Du kan bruge Borg-skalaen til at vurdere den følte anstrengelse i træningen og ved tests. Her kan du læse mere om
-  baggrunden for Borgs skala, og hvordan skalaen for anstrengelse skal forstås.
+seo_title: 'Borg-skala (6-20 & 1-10): Alt om RPE + Gratis PDF-Skema'
+description: 'Lær alt om Borg-skalaen (RPE 6-20) til vurdering af oplevet anstrengelse. Se forskellen på Borg 15, RPE 1-10 og download gratis PDF-skema.'
+excerpt: 'Du kan bruge Borg-skalaen til at vurdere den følte anstrengelse i træningen og ved tests. Læs om baggrunden for Borgs skala og download gratis PDF.'
 permalink: /borg-skala/
+classes: wide
 redirect_from:
-- /borg/
+  - /borg/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1486739985386-d4fae04ca6f7.jpg
@@ -15,31 +14,35 @@ header:
   teaser: /assets/images/unsplash/photo-1486739985386-d4fae04ca6f7.jpg
   caption: 'Borg-skala: Hvordan bruger du anstrengelsesskalaen?'
 category:
-- Kondition
+  - Kondition
 tags:
-- konditionstræning
-- kondition
-- kredsløb
-last_modified_at: '2022-10-02T08:14:14Z'
+  - konditionstræning
+  - kondition
+  - kredsløb
+last_modified_at: '2026-07-28T10:14:14Z'
 toc: 'true'
 feature_row:
-- image_path: /assets/images/borg-skala-724x1024.jpg
-  url: /assets/pdf/borg-skala-a4-format.pdf
-  title: Download Borg-skala
-  excerpt: Borgskala bearbejdet af [Morten Zacho](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}.
-    Set på [marinaagaardblog.com](https://marinaaagaardblog.com/2019/09/18/borg-skala-vurdering-af-oplevet-anstrengelse/).
-  alt: Download Borgs intensitetsskala i PDF til løb og træning - Borg -skala
-  btn_label: <i class='fas fa-file-pdf'></i> Download Borg skala
-  btn_class: btn--info
+  - image_path: /assets/images/borg-skala-724x1024.jpg
+    url: /assets/pdf/borg-skala-a4-format.pdf
+    title: Download Borg-skala
+    excerpt: "Borgskala bearbejdet af [Morten Zacho](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}. Set på [marinaagaardblog.com](https://marinaaagaardblog.com/2019/09/18/borg-skala-vurdering-af-oplevet-anstrengelse/)."
+    alt: Download Borgs intensitetsskala i PDF til løb og træning - Borg -skala
+    btn_label: <i class='fas fa-file-pdf'></i> Download Borg skala
+    btn_class: btn--info
 faq:
-- question: Hvorfor starter Borg-skalaen på 6 og ikke på 1?
-  answer: Borgs 15-skala starter på 6, fordi tankerne bag den nogenlunde modsvarer pulsen for de fleste mennesker. Arbejde
-    på niveau 6 i Borg-skalaen er således omkring puls 60 slag/min.
-- question: Hvem har lavet Borg-skala?
-  answer: Borgs skala er lavet af Gunnar Borg. Den mest brugte version i Danmark er bearbejdet af Morten Zacho.
+  - question: Hvorfor starter Borg-skalaen på 6 og ikke på 1?
+    answer: Borgs 15-skala starter på 6, fordi tankerne bag den nogenlunde modsvarer pulsen for de fleste mennesker. Arbejde på niveau 6 i Borg-skalaen er således omkring puls 60 slag/min.
+  - question: Hvem har lavet Borg-skala?
+    answer: Borgs skala er lavet af Gunnar Borg. Den mest brugte version i Danmark er bearbejdet af Morten Zacho.
+  - question: Hvad er forskellen på Borg 6-20 og Borg CR10?
+    answer: Borg 6-20 bruges primært til samlet kredsløbs- og konditionstræning, hvor tallene korrelerer med pulsen. Borg CR10 (1-10 skalaen) bruges mere til specifik smerte, åndedrætsbesvær eller lokal muskeltræthed.
 ---
 
 Er du på udkig efter mere viden om Borg-skala? Her kan du downloade Borg-skalaen til fysisk aktivitet GRATIS som en PDF.
+
+> 🚴 **Leder du efter den fysiske konditionstest på cykel?**  
+> Hvis du vil lave cykeltesten for at beregne dit kondital, skal du gå til vores dedikerede [Borg 15 Cykelergometertest & Beregner](/kondital-borg15/).
+{: .notice--info }
 
 Jeg bruger ofte Borg-skalaen i min undervisning til at vurdere anstrengelse i træningen og ved tests. Jeg har researchet lidt på, hvad baggrunden for Borgs skala er, og hvordan skalaen for anstrengelse skal forstås.
 
@@ -55,6 +58,10 @@ I dette indlæg kan du læse mere om:
 **Borg-skalaen er et subjektivt værktøj til at vurdere anstrengelse ved fysisk aktivitet. Borg-skalaen er altså en vurdering af oplevet eller følt anstrengelse. Skalaen går fra 6-20, hvor 20 er maksimal anstrengelse.**
 
 Den oprindelige tanke var, at den afspejler udøverens puls, hvis man sætter et 0 efter den vurderede anstrengelse.
+
+## Design din egen Borg-skala
+
+{% include components/borg-skala.html %}
 
 ## Den oprindelige Borg-skala
 
@@ -86,7 +93,7 @@ Borg-skalaen kan i sin oprindelige form godt være lidt besværlig at anvende. D
 | 19 | Meget, Meget anstrengende | Very, very hard |
 | 20 |  | |
 
-Men hvordan føles _Noget anstrengende_ i forhold til _Anstrengende_?
+Men hvordan føles *Noget anstrengende* i forhold til *Anstrengende*?
 
 ## Bearbejdet Borg-skala af Morten Zacho
 
@@ -120,13 +127,13 @@ Jeg kan godt lide at anvende Borg-skalaen sammen med pulsmåling og forskellige 
 
 I sidste ende kan skalaen være med til at styrke din egen kropslige fornemmelse af, om man er i det rigtige træningsområde. Hvis du bruger den i forbindelse med tests, så skal du bruge tid på at lære folk at bruge skalaen (Whaley et al 1997, Borg 1998).
 
-For at bruge Borg-skalaen optimalt skal du kende på din egen krop, hvordan alle intensiteter føles. Du kan fx prøve at [teste din maksimale puls](/test-max-puls/) eller prøve en [Watt-max-test](/kondital-wattmax/), så får du en fornemmelse af, hvordan "maksimalt anstrengende" føles. Du kan også prøve at løbe 30 sekunder _allout_ efterfulgt af halvandet minuts pause og gøre det 3-6 gange.
+For at bruge Borg-skalaen optimalt skal du kende på din egen krop, hvordan alle intensiteter føles. Du kan fx prøve at [teste din maksimale puls](/test-max-puls/) eller prøve en [Watt-max-test](/kondital-wattmax/), så får du en fornemmelse af, hvordan "maksimalt anstrengende" føles. Du kan også prøve at løbe 30 sekunder *allout* efterfulgt af halvandet minuts pause og gøre det 3-6 gange.
 
 Men tanken med skalaen er jo at undgå at skulle bruge pulsmåler, så prøv også at vurdere din træning uden at kigge pulsmåleren. Prøv mange forskellige intensiteter, så du kan bruge Borg-skalaen som rettesnor i træningen. Det kan gøre det lettere at ramme de [rigtige pulszoner](/pulszoner-beregner/).
 
 ## Alternativer til Borg-skalaen
 
-I fitnessregi hænger der mange fortolkninger af skalaen rundt omkring. Især hænger disse skalaer i spinninglokaler sammen med pulszoner. Skalaerne er inspireret af Borgs oprindelige Borg-skala, men flere af dem bruger efterhånden en intensitetsskala fra 1-10 (måske inspireret af CR10, som Borg også står bag, men som særligt er rettet mod lungepatienter). Denne intensitetsskala kaldes på engelsk _rate of perceived exertion_ (RPE).
+I fitnessregi hænger der mange fortolkninger af skalaen rundt omkring. Især hænger disse skalaer i spinninglokaler sammen med pulszoner. Skalaerne er inspireret af Borgs oprindelige Borg-skala, men flere af dem bruger efterhånden en intensitetsskala fra 1-10 (måske inspireret af CR10, som Borg også står bag, men som særligt er rettet mod lungepatienter). Denne intensitetsskala kaldes på engelsk *rate of perceived exertion* (RPE).
 
 ## Rate of Perceived Exertion (RPE) - CR-10
 
@@ -143,6 +150,34 @@ Til konditionstræning kunne følgende RPE-skala bruges, hvor der også er pulsz
 {% include figure image_path="/assets/images/rpe-intensitetsskala.jpg" caption="Fysiologisk intensitetsskala baseret på Borgs skala set fra [DGI](https://www.dgi.dk/butikken/intensitetsskala-indoor-cycling-137-x-200)." alt="Fysiologisk intensitetsskala baseret på Borgskalaen - Borg RPE Skala  og intensitetsskala" %}
 
 RPE-skalaen er også adapteret til styrketræning. Jeg har skrevet lidt mere om [RPE-skalaen til styrketræning her](/rpe/).
+
+## Borg CR10: Hvad er Borg-skalaen fra 1 til 10?
+
+Udover den klassiske 6-20 skala udviklede Gunnar Borg også **Borg CR10-skalaen** (Category-Ratio scale), som går fra **0 til 10** (ofte omtalt som RPE 1-10).
+
+Mange motionister finder 1-10 skalaen mere intuitiv at bruge i hverdagen, men der er en klar fysiologisk forskel på de to skalaer:
+
+* **Borg 6–20 (Lineær):** Er designet til kredsløbstræning. Belastningen stiger jævnt i takt med iltoptagelsen og hjertets puls.
+* **Borg CR10 / 1–10 (Krumlinjet):** Er designet til at måle lokal muskeltræthed, smerte og åndedrætsbesvær. Belastningen opleves eksponentielt hårdere i den tunge ende – forskellen på niveau 8 og 9 er altså fysiologisk større end forskellen på 2 og 3.
+
+### Borg 6-20 vs. Borg CR10: Hvilken skal du vælge?
+
+| Parameter | Borg 6–20 Skala | Borg CR10 / RPE 1–10 |
+| :--- | :--- | :--- |
+| **Primært fokus** | Hele kredsløbet og pulsen | Lokal muskelanstrengelse og smerte |
+| **Bedst egnet til** | Løb, cykling, roining og konditests | Styrketræning, genoptræning og HIIT |
+| **Skalatype** | Lineær ($6 = 60 \text{ bpm}$, $20 = 200 \text{ bpm}$) | Krumlinjet / Eksponentiel |
+| **Hvornår bruger du den?** | Når du vil estimere din pulszone | Når du vil vurdere muskulær udmattelse |
+
+### Hurtig omregning mellem 6-20 og 1-10
+
+Hvis du står med et træningsprogram angivet i Borg 6-20, men foretrækker at tænke i 1-10, kan du bruge denne tommelfingerregel:
+
+* **Borg 9–10 (Meget let)** $\approx$ **RPE 2**
+* **Borg 12–13 (Noget anstrengende)** $\approx$ **RPE 4**
+* **Borg 15 (Anstrengende / Snakketærskel)** $\approx$ **RPE 6**
+* **Borg 17 (Meget anstrengende)** $\approx$ **RPE 8**
+* **Borg 20 (Maksimalt)** $\approx$ **RPE 10**
 
 {% comment %}
 
@@ -164,7 +199,7 @@ Borgs skala bliver også ofte brugt som intensitetsskala i spinning.
 
 Borg-skalaen er udviklet til konditionstræning, men den er også blevet adapteret til styrketræning som RPE-skalaen. Jeg har skrevet lidt mere om [RPE-skalaen til styrketræning her](/rpe/).
 
-Hvis du vil teste dig selv på et cykelergometer, så kan du kigge på [Borg 15 cykelergometertesten](/kondital-borg15/).
+Hvis du vil teste dig selv på et cykelergometer, så kan du kigge på den specifikke [Borg 15 cykelergometertest](/kondital-borg15/).
 
 ## Ofte stillede spørgsmål om Borg-skala
 

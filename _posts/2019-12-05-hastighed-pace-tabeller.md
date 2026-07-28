@@ -14,6 +14,7 @@ header:
     url: '#print'
 category:
 - Hastighed
+classes: wide
 tags:
 - tabel
 - løb
@@ -50,6 +51,10 @@ Løbehastighed kan angives i km/t, min/km (pace) eller m/s. Hvis du vil vide mer
 I denne tabel kan du se, hvad en hastighed betyder i forhold til de tider, du kan forvente på 5 km, 10 km, halvmaraton og maraton. Hvis du vil have dine realistiske tider for de distancer baseret på en tidligere præstation, kan du tjekke vores [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
 
 {% include table/table-kmt-minkm.html %}
+
+## Interaktiv pace-tabel - lav dine egne indstillinger
+
+{% include components/pace-tabel.html %}
 
 ## Print din egen pace-tabel
 {: id="print" }

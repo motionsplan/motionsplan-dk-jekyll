@@ -125,6 +125,9 @@ Her kan du se alle de løbetests, som tester din kondition eller hastighed ved d
 
 </div>
 
+> 🏃 **Mål din løbehastighed ved VO₂max ($vVO_2max$):**  
+> Se enten [Billat-intervaller og 6-min all-out test](/billat-vvovmax-tlimvo2max/) eller den skånsomme [Olher submaksimal 6-min test](/submaximal-6min-vvo2max-test/).
+
 ## Hvordan vælger du den rette test?
 
 Valget af løbetest afhænger af dine mål, dit træningsniveau og de ressourcer, du har til rådighed.

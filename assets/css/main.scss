@@ -91,33 +91,32 @@ table.dashboard {
   span { font-size: 2em; display: block; }
 }
 
-/////// ADD COUNTER 
-/// 
-/// /* Set up a counter for h2 elements */
-body {
-  counter-reset: section;
+
+/* Giver alle H2'er et flot, professionelt anker i venstre side */
+h2:not(.feature__wrapper h2, #references, .calculator h2) {
+  border-left: 5px solid #000; /* Eller din primære temafarve / orange */
+  padding-left: 0.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-h2:not(.feature__wrapper h2, #references, .calculator h2)::before {
-  counter-increment: section;
-  content: counter(section);
-  
-  /* Square styling */
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  margin-right: 0.5rem;
-  text-align: center;
-  line-height: 2rem;
-  font-weight: bold;
-  font-size: 1.2rem;
-  
-  /* Inverted colors */
-  color: white;
-  background-color: black;
-  
-  /* Optional: Rounded corners */
-  border-radius: 0.25rem;
+/* Tilføj pil-indikatorer mellem trin på større skærme */
+@media screen and (min-width: 768px) {
+  ul.process-steps {
+    /* Lille pil i højre side af alle kort undtagen det sidste */
+    li:not(:last-child)::after {
+      content: "➔";
+      position: absolute;
+      right: -0.85rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #f39c12;
+      font-size: 0.9rem;
+      z-index: 2;
+      background: #121212; /* Matcher din baggrundsfarve så linjen brydes pænt */
+      padding: 2px 0;
+    }
+  }
 }
 
 /*** PULL QUOTE ***/

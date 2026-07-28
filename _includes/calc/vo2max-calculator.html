@@ -1,0 +1,145 @@
+<div class="vo2-calculator-box">
+  <h3 class="vo2-calc-title">⚡ VO₂max & Kondital Omregner</h3>
+  <p class="vo2-calc-sub">Omregn nemt mellem absolut iltoptagelse (L/min) og relativ iltoptagelse / kondital (ml/kg/min).</p>
+
+  <div class="vo2-calc-grid">
+    <div class="vo2-input-group">
+      <label for="vo2-weight">Din vægt (kg):</label>
+      <input type="number" id="vo2-weight" placeholder="f.eks. 75" step="0.1" min="30" max="250">
+    </div>
+
+    <div class="vo2-input-group">
+      <label for="vo2-abs">Absolut VO₂max (L/min):</label>
+      <input type="number" id="vo2-abs" placeholder="f.eks. 4.5" step="0.01" min="0.5" max="10">
+    </div>
+
+    <div class="vo2-input-group">
+      <label for="vo2-rel">Relativ VO₂max / Kondital (ml/kg/min):</label>
+      <input type="number" id="vo2-rel" placeholder="f.eks. 60" step="0.1" min="10" max="110">
+    </div>
+  </div>
+
+  <div class="vo2-result-card">
+    <div class="vo2-result-main" id="vo2-result-text">Indtast vægt samt enten absolut eller relativ VO₂max</div>
+    <div class="vo2-result-sub" id="vo2-result-detail">Beregneren opdaterer automatisk, når du taster.</div>
+  </div>
+</div>
+
+<style>
+.vo2-calculator-box {
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 1.5rem 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.vo2-calc-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 1.15rem;
+  color: #1e293b;
+}
+.vo2-calc-sub {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+.vo2-calc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.vo2-input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.vo2-input-group label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 4px;
+}
+.vo2-input-group input {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+.vo2-input-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+.vo2-result-card {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 14px;
+  text-align: center;
+}
+.vo2-result-main {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #1e3a8a;
+}
+.vo2-result-sub {
+  font-size: 0.8rem;
+  color: #3b82f6;
+  margin-top: 4px;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const weightInput = document.getElementById("vo2-weight");
+  const absInput = document.getElementById("vo2-abs");
+  const relInput = document.getElementById("vo2-rel");
+  const resultMain = document.getElementById("vo2-result-text");
+  const resultDetail = document.getElementById("vo2-result-detail");
+
+  function calcFromAbs() {
+    const w = parseFloat(weightInput.value);
+    const abs = parseFloat(absInput.value);
+
+    if (w > 0 && abs > 0) {
+      const rel = (abs * 1000) / w;
+      relInput.value = rel.toFixed(1);
+      resultMain.innerHTML = `Kondital / Relativ VO₂max: <strong>${rel.toFixed(1)} ml/kg/min</strong>`;
+      resultDetail.textContent = `Baseret på ${abs} L/min iltoptagelse og en vægt på ${w} kg.`;
+    }
+  }
+
+  function calcFromRel() {
+    const w = parseFloat(weightInput.value);
+    const rel = parseFloat(relInput.value);
+
+    if (w > 0 && rel > 0) {
+      const abs = (rel * w) / 1000;
+      absInput.value = abs.toFixed(2);
+      resultMain.innerHTML = `Absolut VO₂max: <strong>${abs.toFixed(2)} L/min</strong>`;
+      resultDetail.textContent = `Baseret på et kondital på ${rel} ml/kg/min og en vægt på ${w} kg.`;
+    }
+  }
+
+  absInput.addEventListener("input", function() {
+    if (weightInput.value && absInput.value) calcFromAbs();
+  });
+
+  relInput.addEventListener("input", function() {
+    if (weightInput.value && relInput.value) calcFromRel();
+  });
+
+  weightInput.addEventListener("input", function() {
+    if (absInput.value) {
+      calcFromAbs();
+    } else if (relInput.value) {
+      calcFromRel();
+    }
+  });
+});
+</script>

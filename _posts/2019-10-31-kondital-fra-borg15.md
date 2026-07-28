@@ -1,21 +1,29 @@
 ---
-title: &title "Borg 15 konditest på cykel 🚴🚴‍♀️"
-seo_title: "Borg 15 konditest på cykel"
+title: "Borg 15 Test: Beregn dit kondital på cykel 🚴"
+seo_title: "Borg 15 Test & Beregner: Submaksimal Cykeltest til Kondital"
 permalink: /kondital-borg15/
-excerpt: "Borg 15-testen eller _Graded Cycling Test with Talk Test_ er en submaksimal konditest på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
+excerpt: "Tag Borg 15-testen på cykel og beregn dit kondital. En skånsom submaksimal konditest baseret på Borg-skalaen og watt."
 language: da
 header:
   teaser: /assets/images/i.ytimg.com/maxresdefault-57623931.jpg
   credit: https://i.ytimg.com/vi/gEQ1M-NKHCA/maxresdefault.jpg
-  caption: *title
+  caption: 'Borg 15 Test: Konditest på cykel'
 category:
   - Kondition
 meta:
-  measures: kondital
-  type: cykeltest
-  equipment: cykel
-  max: submaksimal test
-  direct: indirekte test
+  name: "Borg 15 Test"
+  measures: "kondital, VO2max"
+  type: "cykeltest"
+  equipment: "cykel"
+  max: "submaksimal test"
+  direct: "indirekte test"
+tools:
+  - title: "Borg 15 Kondital Beregner"
+    description: "Beregn dit kondital og VO2max ud fra alder, vægt og dine opnåede watt på Borg 15 cykeltesten."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "kondital"
+    category: "HealthAndFitnessApplication"
 tags:
   - test
   - konditionstest
@@ -24,47 +32,51 @@ tags:
   - indirekte test
   - cykeltest
   - testberegner
-last_modified_at: 2019-10-31T23:14:14Z
+last_modified_at: '2026-07-28T12:00:00Z'
 toc: true
 breadcrumbs: true
+faq:
+  - question: "Hvad er Borg 15 testen?"
+    answer: "Borg 15-testen er en submaksimal cykeltest, hvor du gradvist øger belastningen på en kondicykel, indtil anstrengelsen i benene føles som niveau 15 (anstrengende) på Borg-skalaen. Ud fra de opnåede watt estimeres dit kondital."
+  - question: "Hvor meget stiger belastningen i en Borg 15 test?"
+    answer: "Efter to minutters let opvarmning stiger belastningen på cyklen med 15 watt for hvert minut, du cykler. Du skal holde en jævn kadence på omkring 60 RPM under hele testen."
 ---
 
-I Borg 15-testen cykler forsøgspersonen på et cykelergometer med en gradvist højere belastning, indtil arbejdet vurderes til at være “Anstrengende” i forhold til Borg-skalaen (15 er anstrengende på Borg-skalaen). Derefter estimeres konditallet ud fra den opnåede belastning på cykeltesten.
+I **Borg 15-testen** cykler forsøgspersonen på et cykelergometer med en gradvist højere belastning, indtil arbejdet vurderes til at være “Anstrengende” i forhold til Borg-skalaen (niveau 15). Derefter estimeres konditallet ud fra den opnåede belastning i watt.
 
-Konditionstesten Borg 15 har fået sit navn efter professor Gunnar Borg, som opfandt den. Senere kaldes den også på engelsk for _Graded Cycling Test with Talk Test_.
+Konditionstesten Borg 15 har fået sit navn efter professor Gunnar Borg, som opfandt den fysiologiske anstrengelsesskala. På engelsk omtales en videreudvikling af testen ofte som *Graded Cycling Test with Talk Test*.
 
-{% include figure image_path=page.header.teaser caption="Cykeltesten Borg 15 kan være med til at finde dit kondital med en submaksimal test" alt="Borg 15 cykeltest" %}
+> 💡 **Leder du efter selve anstrengelsesskalaen eller en PDF til print?**  
+> Hvis du vil lære teorien bag skalaen eller downloade skemaet, skal du gå til vores [store guide om Borg-skalaen](/borg-skala/). Denne side er udelukkende til udførelse og beregning af **Borg 15 konditionstesten**.
+{: .notice--info }
+
+{% include figure image_path=page.header.teaser caption="Cykeltesten Borg 15 kan være med til at estimere dit kondital via en submaksimal test." alt="Borg 15 cykeltest" %}
 
 *[RPE]: Rate of Perceived Exertion
 
-Fordelen med Borg 15-testen er, at den ikke ikke tager udgangspunkt i en anslået, [aldersbestemt maxpuls](/max-puls-beregner/), og at man kun skal arbejde på en intensitet op til ca. 65% af sin maksimale ydeevne.
+Fordelen ved Borg 15-testen er, at den ikke tager udgangspunkt i en anslået, [aldersbestemt maxpuls](/max-puls-beregner/), og at man kun skal arbejde med en intensitet op til ca. 65% af sin maksimale ydeevne. Testen er derfor meget skånsom.
 
-Ulempen er selvfølgelig, at testresultatet er afhængigt af testpersonens egen subjektive opfattelse af anstrengelse. For at få det mest pålidelige resultat, skal du formentlig prøve Borg 15-testen nogle gange.
+Ulempen er selvfølgelig, at testresultatet er stærkt afhængigt af testpersonens egen subjektive opfattelse af anstrengelse. For at få det mest pålidelige resultat, skal du formentlig prøve Borg 15-testen et par gange for at kende din krops signaler.
 
-Inden du går i gang med at udføre testen, kan det være en god ide at læse grundigt op på [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}).
+Inden du går i gang med at udføre testen, er det en god ide at læse grundigt op på [Borg-skalaen](/borg-skala/).
 
 ## Gennemførelse af Borg 15-cykeltest
 
-1. Varm op i 2 minutter på kondicyklen uden belastning.
-2. Kør testen med omkring 60 RPM.
-3. Øg herefter belastningen med 15 watt for hvert minut.
-4. I slutningen af hvert minut peger forsøgspersonen på sin subjektive vurdering af anstrengelse på Borg-skalaen. I beregneren bruges formler fra Okura og Tanaka (2001), som er baseret på følelsen i benene (og altså ikke følelsen på selve kredsløbet).
-5. Når personen vurderer belastningen til at være 15 - altså "Anstrengende" - for benene er testen slut.
-6. Du noterer watt, alder og vægt, som du kan indtaste i beregneren nedenunder for at udregne dit kondital.
-
-## Borg-skalaen
-
-{% comment %}
-
-{% include figure image_path="https://hjerteforeningen.dk/wp-content/uploads/sites/14/2018/02/borg-skala-dorthe-768x1086.jpg" caption="Borg-skalaen fra [hjerteforeningen.dk](https://hjerteforeningen.dk)" alt="Borg-skalaen" %}
-
-{% endcomment %}
-
-Jeg har skrevet en mere udførlig artikel om selve [Borg-skalaen, hvor du også kan downloade Borg skala som PDF](/borg-skala/).
+1. **Opvarmning:** Varm op i 2 minutter på kondicyklen uden belastning.
+2. **Kadence:** Kør testen med en stabil kadence på omkring 60 RPM (omdrejninger pr. minut).
+3. **Belastning:** Øg herefter belastningen med 15 watt for hvert minut.
+4. **Vurdering:** I slutningen af hvert minut peger forsøgspersonen på sin subjektive vurdering af anstrengelse på Borg-skalaen. *Bemærk:* I denne beregner bruges formler fra Okura og Tanaka (2001), som er baseret specifikt på følelsen **i benene** (og altså ikke den samlede følelse af belastning på kredsløbet).
+5. **Afslutning:** Når personen vurderer belastningen for benene til at være 15 – altså "Anstrengende" – er testen slut.
+6. **Beregning:** Du noterer de opnåede watt, alder og vægt, som du efterfølgende indtaster i beregneren nedenunder for at udregne dit kondital.
 
 ## Beregn kondital fra Borg 15-testen
+{: id="calculator" }
+
+Indtast dine resultater fra cykeltesten herunder for at estimere din maksimale iltoptagelse (VO₂max) og dit kondital.
 
 {% include calculator/calculate-fitness-borg15.html %}
+
+---
 
 ## Formlerne bag Borg 15-testen
 
@@ -72,35 +84,46 @@ Jeg har fundet formlen til beregneren i [Okura og Tanaka (2001)](https://doi.org
 
 ***
 
-VO₂max = 1.19 * W<sub>Borg 15</sub> - 15.84 * age + 13.06 * weight + 1365
+$\text{VO}_2\text{max} = 1{,}19 \times W_{\text{Borg 15}} - 15{,}84 \times \text{alder} + 13{,}06 \times \text{vægt} + 1365$
 
 ***
 
-W er workload i kgm·min<sup>-1</sup> (kilogram-force meter/minute). Jeg bruger typisk watt-målinger, og dem er beregneren lavet på baggrund af. For at konvertere kgm·min<sup>-1</sup> deler du med tyngdekraften som i Danmark er 9,816 m/s<sup>2</sup> i følge [Wikipedia](https://da.wikipedia.org/wiki/Tyngdeacceleration) og ganger med 60 sekunder.
+**W** er *workload* målt i kgm·min⁻¹ (kilogram-force meter/minute). Da de fleste moderne cykler måler i watt, er beregneren bygget til at modtage watt-målinger. 
 
-## Forbedring af Borg 15-cykeltesten
+For at konvertere kgm·min⁻¹ til watt deler man med tyngdeaccelerationen, som i Danmark er $9{,}816 \text{ m/s}^2$ ifølge [Wikipedia](https://da.wikipedia.org/wiki/Tyngdeacceleration), og ganger med 60 sekunder.
 
-[Morten Zacho vurderer](https://www.motion-online.dk/borg-15-test/), at validiteten stiger, når Borg15-testen kobles sammen med en systematisk snakketest. Zacho foreslår, at man i slutningen af hvert minut får forsøgspersonen til at læse op af en tekst af ca. 10 sekunders varighed. Når oplæsningen bliver tydeligt og hørbart forstyrret af den øgede vejrtrækning, så er 15 nået på Borg-skalaen.
+## Forbedring af Borg 15-cykeltesten (Talk Test)
 
-At en snakketest gør det lettere at finde niveauet for anstrengelse er undersøgt af [Persinger et al (2004)](https://pubmed.ncbi.nlm.nih.gov/15354048/), men det er mig bekendt ikke lavet studier, hvor snakketesten er blevet valideret i forhold til Borg 15-testen.
+[Morten Zacho vurderer](https://www.motion-online.dk/borg-15-test/){:rel="nofollow"}, at validiteten af testen stiger, når Borg 15-testen kobles sammen med en systematisk "snakketest" (Talk Test). 
 
-Jeg er ved at undersøge, om der er lavet valideringsstudier af testen under søgningen _Graded Cycling Test with Talk Test_.
+Zacho foreslår, at man i slutningen af hvert minut får forsøgspersonen til at læse op af en tekst af ca. 10 sekunders varighed. Når oplæsningen bliver tydeligt og hørbart forstyrret af den øgede vejrtrækning og mangel på luft, er niveau 15 nået på Borg-skalaen.
+
+At en snakketest gør det lettere at finde niveauet for anstrengelse er undersøgt af [Persinger et al. (2004)](https://pubmed.ncbi.nlm.nih.gov/15354048/), men der er mig bekendt endnu ikke lavet studier, hvor snakketesten er blevet formelt valideret i direkte relation til Okura og Tanakas formel for Borg 15-testen. 
+
+*Jeg undersøger løbende, om der udgives valideringsstudier af testen under søgetermen "Graded Cycling Test with Talk Test".*
 
 ## Konklusion på Borg 15-testen
 
-Borg 15 testen er en submaksimal test, og den går op til omkring 250 watt. For meget veltrænede cyklister er det ret lavt, så derfor er formlen ikke så pålidelig, da de vil have vanskeligt ved at opnå "Anstrengende" på Borg-skalaen.
+Borg 15-testen er en submaksimal test, og belastningen stiger typisk op til maksimalt omkring 250 watt for almindelige motionister. For meget veltrænede cykelryttere er dette niveau ret lavt, og formlen er derfor ikke pålidelig for eliteudøvere, da de vil have vanskeligt ved at opnå følelsen "Anstrengende" (Borg 15) i benene ved så lave watt-tal.
 
-Okura og Tanaka (2001) fandt den bedste korrelation med VO₂max med følelsen af, hvor anstrengende arbejdet føles for benene, når de skulle angive arbejdets hårdhed på Borg-skalaen.
+Okura og Tanaka (2001) fandt den bedste korrelation mellem testen og den reelle VO₂max ud fra følelsen af, hvor anstrengende arbejdet føltes **for benene**.
 
-Selvom man bruger snakketesten og måske en pulsmåler som ekstra parametre, så skal forsøgspersonen altså kunne adskille belastningen på åndedrættet og benene i testen.
+Selvom man supplerer med en snakketest og eventuelt en pulsmåler, skal forsøgspersonen altså være i stand til at adskille belastningen på åndedrættet og den muskulære træthed i benene, når testen udføres.
 
-Borg 15-konditesten er valideret på 154 japanske mænd i alderen 20-64 år. Jeg har ikke kunnet finde studier, der validerer testen med kvinder eller andre befolkningsgrupper.
+### Validitet og målgruppe
+Det er vigtigt at bemærke, at Borg 15-konditestens formel er valideret på et begrænset grundlag af 154 japanske mænd i alderen 20-64 år. Jeg har indtil videre ikke kunnet finde faglige studier, der validerer testens algoritme specifikt på kvinder eller andre befolkningsgrupper, hvorfor resultatet skal ses som et velkvalificeret estimat.
 
-Du kan sammenligne dit kondital i [tabellen for kondital for mænd og kvinder](/kondital/).
+Når du har fundet dit tal, kan du sammenligne dit resultat i [tabellen for kondital for mænd og kvinder](/kondital/).
+
+---
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Okura, T., og K. Tanaka. 2001. “A Unique Method for Predicting Cardiorespiratory Fitness Using Rating of Perceived Exertion”. Journal of Physiological Anthropology and Applied Human Science 20 (5): 255–61. <https://doi.org/10.2114/jpa.20.255>.
-- R, Persinger, Foster C, Gibson M, Fater Dc, og Porcari Jp. 2004. “Consistency of the Talk Test for Exercise Prescription”. Medicine and Science in Sports and Exercise. Med Sci Sports Exerc. september 2004. <https://pubmed.ncbi.nlm.nih.gov/15354048/>.
+- Okura, T., og K. Tanaka. 2001. “A Unique Method for Predicting Cardiorespiratory Fitness Using Rating of Perceived Exertion”. *Journal of Physiological Anthropology and Applied Human Science* 20 (5): 255–61. <https://doi.org/10.2114/jpa.20.255>.
+- Persinger, R., C. Foster, M. Gibson, D. C. Fater, og J. P. Porcari. 2004. “Consistency of the Talk Test for Exercise Prescription”. *Medicine and Science in Sports and Exercise*. September 2004. <https://pubmed.ncbi.nlm.nih.gov/15354048/>.
 </details>

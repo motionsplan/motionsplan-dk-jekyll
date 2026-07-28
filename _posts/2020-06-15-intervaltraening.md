@@ -20,7 +20,7 @@ tags:
 - aerob træning
 - featured
 popular: 'true'
-last_modified_at: '2025-03-14 15:03:00'
+last_modified_at: '2026-07-14 15:03:00'
 toc: 'true'
 breadcrumb: 'true'
 faq:
@@ -107,13 +107,13 @@ Jeg har alligevel forsøgt at lave en tabel, som indeholder nogle af de mest udb
 
 Her har du en oversigt over effektive intervalprogrammer baseret på formålet med de forskellige intervaller. Intervalformerne i skemaet ser lidt forskellige ud alt efter, hvor intensive intervallerne er. De kan enten skubbe til den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [anaerobe tærskel](/anaerobe-taerskel/), eller de kan skubbe til den anaerobe kapacitet og produktion. Endelig er der intervaller, der skal træne den maksimale hastighed.
 
-| Intervalform | Formål | Distance | Total | Pause | Hastighed |
-|-|-|-|-|-|-|
-| Sprintintervaller | Hurtighed og power | 20-200 m | <1500 m | 1:10 | Maksimal |
-| Anaerobe intervaller | Mælkesyreproduktion | 200-600 m | 2000-3000 m | 1:3 | |
-| Anaerobe intervaller | Mælkesyretolerance | 400-1000 m | 3000-5000 m | 1:2 | |
-| Aerobe intervaller | Konditalintervaller | 400-1500 m | 4000-6000 m | | |
-| Tærskelintervaller | Anaerob tærskel | 8-15 min | 30-60 min | 1:1/4 | |
+| Intervaltype | Formål | Arbejstid pr. interval | Samlet arbejdstid | Pause (Arbejde:Pause) | Intensitet (% af max) |
+|---|---|---|---|---|---|
+| **Sprintintervaller** | Neuromuskulær power og tophastighed | 5–15 sek. | < 2 min. | 1:10 – 1:12 (Fuld hvile) | 100% Maximal (All-out) |
+| **Anaerobe produktion** | Mælkesyreproduktion og sprintudholdenhed | 15–45 sek. | 2–5 min. | 1:3 – 1:5 | 95–100% af max |
+| **Anaerobe tolerance** | Mælkesyretolerance og træthedsmodstand | 45–90 sek. | 5–12 min. | 1:1 – 1:2 | 90–95% af max |
+| **Aerobe (VO₂max)** | Maksimal iltoptagelse og kondital | 2–5 min. | 12–20 min. | 1:0.5 – 1:1 | 90–95% HRmax / vVO₂max |
+| **Tærskelintervaller** | Anaerob tærskel og udholdenhed | 8–20 min. | 20–60 min. | 1:0.2 – 1:0.25 | 82–88% HRmax / FTP |
 
 Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Hvis du vil forstå formålet med de forskellige itnervaller, så kan du dykke ned i [vores guide til energisystemer](/energisystemer/).
 
@@ -201,13 +201,15 @@ Jeg kan også godt lide at lave 6-10 s **sprints** med en god pause. Igen er det
 
 Endelig har jeg løbet mange **4 minutters-intervaller**, hvor jeg har arbejdet med min maksimale iltoptagelse. Det er virkelig hårdt undervejs, men overskueligt, fordi man ved, at man har pause “lige om lidt”.
 
-## Sådan laver du intervaltræning?
+## Sådan opbygger du et intervaltræningspas
 
-- Start altid dit intervalløb med mindst 10 minutters roligt løb og generel opvarmning.
-- Løb intervallerne i et passende tempo. Mange typer intervaltræning lægger op til, at du skal løbe i et så højt tempo, at du kun lige kan gennemføre de planlagte intervaller (men kan holde samme intensitet hele vejen igennem). Andre typer intervaller har andre træningsformål og derfor en anden intensitet.
-- I pausen kan du holde dig i gang med langsomt løb eller gang, så systemet hurtigst muligt restituerer igen. Hvis du har pulsmåler på, så kan du holde øje med at pulsen, når at falde til det samme niveau i alle pauserne.
+Uanset om du træner på cykel, i løbesko, på romaskine eller med kropsvægt, bør et intervaltræningspas altid opbygges efter tre faser:
 
-Læs: [Aktiv eller passiv pause ved HIIT-intervaller](/hiit-aktiv-eller-passiv-pause/)
+1. **Grundig opvarmning (10–15 min.):** Start med let bevægelse ved lav intensitet og afslut med et par korte stigninger i tempo for at gøre kredsløb og muskler klar.
+2. **Selve intervalblokken:** Gennemfør intervallerne med passende intensitet. Mange typer intervaltræning lægger op til, at du skal arbejde med så høj intensitet, at du kun lige kan gennemføre de planlagte intervaller (men kan holde samme intensitet hele vejen igennem). Andre typer intervaller har andre træningsformål og derfor en anden intensitet.
+3. **Aktiv restitution i pauserne:** I pauserne holdes kroppen typisk i let bevægelse (fx let tråd, rolig gang eller langsom roning), da det fjerner affaldsstoffer hurtigere end passiv hvile. Hvis du har pulsmåler på, så kan du holde øje med at pulsen, når at falde til det samme niveau i alle pauserne.
+
+Læs også: [Aktiv eller passiv pause ved intervaltræning](/hiit-aktiv-eller-passiv-pause/)
 {: .notice }
 
 ## Sådan integrerer du intervaltræning i dit program
@@ -222,15 +224,17 @@ Det er meget bedre at vokse med programmet end at blive skadet efter et par uger
 
 Typisk kan du holde til intervaltræning 1-2 gange om ugen. Resten af træningen må meget gerne være i en lavere [intensitetszone](/traeningszoner/). Hvis du kun baserer din træning på intervaller, kan du være ret sikker på, at du på et tidspunkt ender med at blive meget træt eller skadet.
 
-## Hvor mange gange om ugen kan jeg træne intervaller?
+## Hvor mange gange om ugen kan du træne intervaller?
 
-Når du går i gang med at træne intervaller, hvor intensiteten er rigtig høj, fx over 90% af VO₂max, så vil jeg anbefale dig højest at køre intervallerne en gang om ugen.
+Højintensiv intervaltræning stiller store krav til centralnervesystemet og kroppens restitution. Hvor ofte du bør træne intervaller afhænger af dit erfaringsniveau og idrætsgren:
 
-Ofte så starter man med at løbe intervaller, der skal flytte den maksimale iltoptagelse. Det er relativt hårde intervaller, hvor man arbejder over 95% af iltoptagelsens ydeevne.
+* **Begyndere:** 1 gang om ugen er rigeligt til at skabe markante fremgange i iltoptagelsen uden risiko for overbelastning.
+* **Mellemniveau og øvede atleter:** 2 gange om ugen. Typisk opdelt så det ene pas fokuserer på maksimal iltoptagelse (VO₂max), og det andet pas fokuserer på den anaerobe tærskel.
+* **Skånsomme idrætter (fx cykling og roning):** Kan ofte tåle en anelse højere intervalvolumen end vægtbærende idrætter som løb, da der ikke opstår de samme stød op gennem leddene.
 
-Rutinerede løbere kan måske godt holde til at løbe intervaller 2 gange om ugen. Typisk vil man måske som den anden intervaltræning vælge nogle intervaller, som skubber lidt til tærsklen.
+Hver uge kan du også overveje at inkludere nogle sprintintervaller, som kan skubbe lidt til bevægelsesøkonomien. Hvis du kører disse med relativt lav volumen, kan de være en del af opvarmningen. Men hvis du vælger at køre en højere volumen, så skal du overveje kun at have en anden type intervaller i den uge.
 
-Hver uge kan du også overveje at inkludere nogle sprintintervaller, som kan skubbe lidt til løbeøkonomien. Hvis du kører disse med relativt lav volumen, kan de være en del af opvarmningen. Men hvis du vælger at køre en højere volumen, så skal du overveje kun at have en anden type intervaller i den uge.
+Husk at lade resten af ugens træningspas foregå ved lav til moderat intensitet i de lavere [træningszoner](/traeningszoner/).
 
 ## Effektive intervalprogrammer til intervaltræningen
 
@@ -238,51 +242,18 @@ Der findes rigtig mange forskellige metoder til intervaltræning. Typisk så er 
 
 I sidste ende skal du vælge dit intervalprogram ud fra dine mål, og hvilket energisystem du gerne vil træne.
 
-{% comment %}
+## Find intervalprogrammer til din idrætsgren
 
-## Intervaltræning for begynder
+Intervalprincipperne er de samme på tværs af fysiologien, men den praktiske udførelse, tempoet og bærende udstyr varierer fra sport til sport. Vælg din idrætsgren herunder for at se specifikke programmer og tidsintervaller:
 
-{% endcomment %}
-
-<details markdown="1" class="faq">
-<summary><h3>🔥 HIIT – High Intensity Interval Training</h3></summary>
-
-En type intervaltræning er HIIT-træning i dens oprindelige form. Begrebet bliver desværre i øjeblikket brugt lidt i flæng, så det kan være vanskeligt helt at forstå, hvad formålet er, hvordan denne intervaltype skal udføres og hvad effekten er.
-
-[HIIT træning](/hvad-er-hiit-traeningsprogrammer/) er intervaller, som udføres med en intensitet over 90 % af den maksimale iltoptagelse. Formålet er at forbedre din VO₂max og kredsløb.
-
-Læs: [Hvad er HIIT træning?](/hvad-er-hiit-traeningsprogrammer/)  
-{: .notice }
-</details>
-
-<details markdown="1" class="faq">
-<summary><h3>🏃 Intervaltræning for løbere</h3></summary>
-
-Intervaltræning til løb styrker dit kredsløb og din kondition effektivt, fordi du er i stand til at løbe med højere intensitet. Formålet med intervalløb er ofte at arbejde med hastighed og maksimal iltoptagelse.
-
-Jeg løber ofte intervaller baseret på mit tempo, især på en flad rute eller løbebane. Ved længere intervaller bruger jeg også puls eller wattmåling.
-
-Læs: [Intervalløb: 10 effektive metoder til intervaltræning til løb](/intervallob-intervaltraening/)  
-{: .notice }
-</details>
-
-<details markdown="1" class="faq">
-<summary><h3>🚴 Intervaltræning på cykel</h3></summary>
-
-Intervaller kan være en effektiv træningsform til cykling, hvis du vil udnytte din tid optimalt. Men hvordan bruger du intervaltræning til cykling? Vi kigger på den nyeste forskning og effektive programmer.
-
-Læs: [Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️](/intervaltraening-cykling/)  
-{: .notice }
-</details>
-
-<details markdown="1" class="faq">
-<summary><h3>🚣 Intervaller på romaskine</h3></summary>
-
-Jeg har fået Anders Krintel, som er ekspert i roprogrammer, til at hjælpe med at finde intervaller, der egner sig til indendørs roning. Han har en forkærlighed for grumme programmer, så hvis du er klar på en udfordring, så tjek artiklen nedenfor.
-
-Læs: [Rotræning: Intervaller og træningsprogram til romaskine 🚣](/artikel/traeningsprogrammer-intervaller-roning/)  
-{: .notice }
-</details>
+* 🏃 **[Intervalløb & Løbeprogrammer](/intervallob-intervaltraening/)**  
+  Se 10-20-30 metoden, Billat 30-30, bakkeintervaller og tempotabeller for løbere.
+* 🚴 **[Intervaltræning på Cykel](/intervaltraening-cykling/)**  
+  Find watt-baserede intervaller, 40/20 pas, FTP-tærskelintervaller og hometrainer-guider.
+* 🔥 **[HIIT & Tabata Træning](/hvad-er-hiit-traeningsprogrammer/)**  
+  Korte, eksplosive kropsvægts- og styrkeintervaller til fedtforbrænding og kredsløb.
+* 🚣 **[Intervaller til Romaskine](/artikel/traeningsprogrammer-intervaller-roning/)**  
+  Effektive ropas opdelt på split-tider og kadence for hele kroppen.
 
 {% comment %}
 

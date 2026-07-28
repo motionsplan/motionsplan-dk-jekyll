@@ -1,0 +1,600 @@
+<!-- html2canvas bibliotek til lyntæt PNG-download -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<div class="mp-borg-wrapper">
+  
+  <!-- SELVE POSTER-KORTET (GEMMES SOM BILLEDE / PRINTERS) -->
+  <div class="mp-borg-card" id="borg-poster-card">
+    
+    <!-- CARD HEADER MED LOGO -->
+    <div class="mp-card-header">
+      <div class="mp-header-titles">
+        <span class="mp-badge">Fysiologisk Anstrengelsesskema</span>
+        <h2 class="mp-reset-h2">BORG-SKALAEN & RPE (6–20)</h2>
+        <p class="mp-reset-p">Vurdering af oplevet anstrengelse ved fysisk aktivitet og test</p>
+      </div>
+      <div class="mp-header-brand">
+        <img src="/android-chrome-192x192.png" alt="Motionsplan.dk logo" class="mp-logo-img">
+      </div>
+    </div>
+
+    <!-- INDBYGGET KONTROLPANEL (SKJULES KUN VED EXPORT/PRINT) -->
+    <div class="mp-card-controls no-export">
+      <div class="mp-controls-row">
+        <div class="mp-control-group">
+          <span class="mp-control-label">Hurtigvalg:</span>
+          <button type="button" class="mp-chip-btn" onclick="applyBorgPreset('pege')">🎯 Rent Pege-skema (6–20)</button>
+          <button type="button" class="mp-chip-btn" onclick="applyBorgPreset('talk')">🗣️ Vejrtrækning & Snakketest</button>
+          <button type="button" class="mp-chip-btn" onclick="applyBorgPreset('full')">📊 Fuld Matrix</button>
+        </div>
+      </div>
+
+      <div class="mp-controls-row mp-toggles-row">
+        <span class="mp-control-label">Kolonner:</span>
+        <label class="mp-checkbox-label"><input type="checkbox" id="chk-cr10" checked onchange="toggleBorgCol('col-cr10')"> CR10 (0–10)</label>
+        <label class="mp-checkbox-label"><input type="checkbox" id="chk-desc" checked onchange="toggleBorgCol('col-desc')"> Anstrengelse</label>
+        <label class="mp-checkbox-label"><input type="checkbox" id="chk-body" checked onchange="toggleBorgCol('col-body')"> Kropsfornemmelse</label>
+        <label class="mp-checkbox-label"><input type="checkbox" id="chk-talk" checked onchange="toggleBorgCol('col-talk')"> Vejrtrækning & Snakketest</label>
+        <label class="mp-checkbox-label"><input type="checkbox" id="chk-effect" checked onchange="toggleBorgCol('col-effect')"> Træningsrespons</label>
+      </div>
+      
+      <p class="mp-pege-hint">💡 <em>Tip: Klik eller tap på et tal for at låse fokus (pege-funktion under test).</em></p>
+    </div>
+
+    <!-- SKEMA TABEL (FYLDER ALTID 100%) -->
+    <div class="mp-table-container">
+      <table class="mp-borg-table" id="interactive-borg-table">
+        <thead>
+          <tr>
+            <th class="col-borg">Borg (6-20)</th>
+            <th class="col-cr10">CR10</th>
+            <th class="col-desc">Oplevet Anstrengelse</th>
+            <th class="col-body">Kropsfornemmelse</th>
+            <th class="col-talk">Vejrtrækning & Snakketest</th>
+            <th class="col-effect">Træningsrespons / Zone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ZONE 1: RECOVERY / LYSBLÅ (BORG 6-10) -->
+          <tr class="zone-blue" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">6</span></td>
+            <td class="col-cr10 num-sub">0</td>
+            <td class="col-desc fw-bold">Ingen anstrengelse</td>
+            <td class="col-body">Hvile / Ingen aktivitet</td>
+            <td class="col-talk">Rolig og langsom vejrtrækning. Kan synge ubesværet.</td>
+            <td class="col-effect">Restitution & Hvile</td>
+          </tr>
+          <tr class="zone-blue" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">7</span></td>
+            <td class="col-cr10 num-sub">0.5</td>
+            <td class="col-desc fw-bold">Ekstremt let</td>
+            <td class="col-body">Næsten inaktiv bevægelse</td>
+            <td class="col-talk">Helt roligt åndedræt. Normal samtale uden pauser.</td>
+            <td class="col-effect">Opvarmning / Nedvarmning</td>
+          </tr>
+          <tr class="zone-blue" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">8</span></td>
+            <td class="col-cr10 num-sub">1</td>
+            <td class="col-desc fw-bold">Meget svag</td>
+            <td class="col-body">Meget let bevægelse uden modstand</td>
+            <td class="col-talk">Rolig vejrtrækning. Ubesværet samtale.</td>
+            <td class="col-effect">Opvarmning / Nedvarmning</td>
+          </tr>
+          <tr class="zone-blue" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">9</span></td>
+            <td class="col-cr10 num-sub">1.5</td>
+            <td class="col-desc fw-bold">Meget let</td>
+            <td class="col-body">Afslappet muskelarbejde</td>
+            <td class="col-talk">Let øget vejrtrækning. Fører lange samtaler uafbrudt.</td>
+            <td class="col-effect">Aktiv restitution</td>
+          </tr>
+          <tr class="zone-blue" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">10</span></td>
+            <td class="col-cr10 num-sub">2</td>
+            <td class="col-desc fw-bold">Meget let / Behageligt tempo</td>
+            <td class="col-body">Lidt varm i kroppen</td>
+            <td class="col-talk">Hørbar vejrtrækning. Taler frit og ubesværet.</td>
+            <td class="col-effect">Aktiv restitution</td>
+          </tr>
+
+          <!-- ZONE 2: AEROB UDHOLDENHED / GRØN (BORG 11-13) -->
+          <tr class="zone-green" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">11</span></td>
+            <td class="col-cr10 num-sub">2.5</td>
+            <td class="col-desc fw-bold">Let</td>
+            <td class="col-body">Ubesværet og jævnt arbejde</td>
+            <td class="col-talk">Tydelig og rytmisk vejrtrækning. Kan føre fulde samtaler.</td>
+            <td class="col-effect">Aerob udholdenhed (Zone 2)</td>
+          </tr>
+          <tr class="zone-green" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">12</span></td>
+            <td class="col-cr10 num-sub">3</td>
+            <td class="col-desc fw-bold">Moderat let</td>
+            <td class="col-body">Varm muskelfornemmelse</td>
+            <td class="col-talk">Rytmisk og dyb vejrtrækning. Samtalen glider nemt.</td>
+            <td class="col-effect">Aerob udholdenhed (Zone 2)</td>
+          </tr>
+          <tr class="zone-green" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">13</span></td>
+            <td class="col-cr10 num-sub">4</td>
+            <td class="col-desc fw-bold">Noget anstrengende</td>
+            <td class="col-body">Mærkbart arbejde, varm</td>
+            <td class="col-talk">Moderat forpustet. Trækker vejret mellem sætninger.</td>
+            <td class="col-effect">Aerob kapacitet & Tempo</td>
+          </tr>
+
+          <!-- ZONE 3: TEMPO & TÆRSKEL / GUL (BORG 14-15) -->
+          <tr class="zone-yellow" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">14</span></td>
+            <td class="col-cr10 num-sub">5</td>
+            <td class="col-desc fw-bold">Relativt hårdt</td>
+            <td class="col-body">Varm, svedende muskeltræthed</td>
+            <td class="col-talk">Hurtigere åndedræt. Sætninger afbrydes hyppigt af åndedrag.</td>
+            <td class="col-effect">Aerob kapacitet & Tempo</td>
+          </tr>
+          <tr class="zone-yellow" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">15</span></td>
+            <td class="col-cr10 num-sub">6</td>
+            <td class="col-desc fw-bold">Anstrengende (Snakketærskel)</td>
+            <td class="col-body">Lidt anstrengt, sveder</td>
+            <td class="col-talk">Kraftigt forpustet. Kan kun sige korte sætninger (Snakketærskel).</td>
+            <td class="col-effect">Anaerob tærskel (AT)</td>
+          </tr>
+
+          <!-- ZONE 4: MEGET HÅRD / ORANGE (BORG 16-17) -->
+          <tr class="zone-orange" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">16</span></td>
+            <td class="col-cr10 num-sub">7</td>
+            <td class="col-desc fw-bold">Meget hårdt</td>
+            <td class="col-body">Anstrengt muskel/kredsløb</td>
+            <td class="col-talk">Tung og dyb vejrtrækning. Svarer kun i enkeltord.</td>
+            <td class="col-effect">Anaerob tærskel & Tempotræning</td>
+          </tr>
+          <tr class="zone-orange" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">17</span></td>
+            <td class="col-cr10 num-sub">8</td>
+            <td class="col-desc fw-bold">Meget anstrengende</td>
+            <td class="col-body">Meget anstrengt i benene</td>
+            <td class="col-talk">Meget forpustet. Tale er meget besværlig.</td>
+            <td class="col-effect">VO₂max & Intervaltræning</td>
+          </tr>
+
+          <!-- ZONE 5: MAKSIMAL / RØD (BORG 18-20) -->
+          <tr class="zone-red" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">18</span></td>
+            <td class="col-cr10 num-sub">9</td>
+            <td class="col-desc fw-bold">Ekstremt anstrengende</td>
+            <td class="col-body">Meget hårdt presset (få min.)</td>
+            <td class="col-talk">Ekstremt tungt åndedræt. Næsten umuligt at tale.</td>
+            <td class="col-effect">VO₂max & Mælkesyretolerance</td>
+          </tr>
+          <tr class="zone-red" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">19</span></td>
+            <td class="col-cr10 num-sub">10</td>
+            <td class="col-desc fw-bold">Ekstremt hårdt</td>
+            <td class="col-body">Nær komplet udmattelse</td>
+            <td class="col-talk">Gisper efter vejret. Tale fuldstændig umulig.</td>
+            <td class="col-effect">Maksimal Sprint / Anaerob power</td>
+          </tr>
+          <tr class="zone-red" onclick="focusBorgRow(this)">
+            <td class="col-borg num"><span class="mp-num-box">20</span></td>
+            <td class="col-cr10 num-sub">10+</td>
+            <td class="col-desc fw-bold">Maksimal anstrengelse</td>
+            <td class="col-body">Total udmattelse (stop)</td>
+            <td class="col-talk">Gisper desperat efter luft. Fuldstændig tavs.</td>
+            <td class="col-effect">Maksimal Sprint / All-Out</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- FOOTER MED FORBEHOLD OG QR-KODE -->
+    <div class="mp-card-footer">
+      <div class="mp-footer-text">
+        <p class="mp-reset-p mp-disclaimer">
+          <strong>Kilde & Forbehold:</strong> Borg-skalaen (RPE 6-20 & CR10) er udviklet af professor Gunnar Borg. Denne sammensatte fysiologiske matrix bygger på principper om snakketest og pulszoner med faglig inspiration fra formidling af Morten Zacho og Marina Aagaard.
+        </p>
+      </div>
+      <div class="mp-footer-qr-box">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=90x90&data=https://www.motionsplan.dk/borg-skala/" alt="QR Kode til Borg-skala" class="mp-qr-img" crossorigin="anonymous">
+        <span class="mp-qr-subtext">www.motionsplan.dk/borg-skala/</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SEPARAT HANDLINGS-BAR UNDER KORTET -->
+  <div class="mp-actions-bar no-export">
+    <button type="button" class="mp-btn-export-primary" onclick="exportBorgPNG()">⚡ Download Billede (A4 PNG)</button>
+    <button type="button" class="mp-btn-export-secondary" onclick="window.print()">🖨️ Udskriv (A4 PDF)</button>
+  </div>
+
+</div>
+
+<style>
+/* CSS RESET SCOPED TIL KOMPONENTEN */
+.mp-borg-wrapper * { box-sizing: border-box; }
+.mp-borg-wrapper .mp-reset-h2 {
+  all: unset;
+  display: block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 1.45rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.02em !important;
+}
+.mp-borg-wrapper .mp-reset-p {
+  all: unset;
+  display: block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 0.8rem !important;
+  color: #64748b !important;
+  margin: 3px 0 0 0 !important;
+  line-height: 1.35 !important;
+}
+
+/* CONTAINER DESIGN */
+.mp-borg-wrapper {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 1.2rem 0;
+}
+.mp-borg-card {
+  background: #ffffff;
+  border: 2px solid #cbd5e1;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.08);
+}
+
+/* CARD HEADER */
+.mp-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e2e8f0;
+}
+.mp-badge {
+  display: inline-block;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 3px 7px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+.mp-logo-img {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* KONTROLPANEL INLINE I KORTET */
+.mp-card-controls {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 12px 0 14px 0;
+}
+.mp-controls-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.mp-controls-row + .mp-controls-row {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px dashed #e2e8f0;
+}
+.mp-control-group { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.mp-control-label { font-size: 0.78rem; font-weight: 700; color: #334155; }
+
+.mp-chip-btn {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  padding: 4px 9px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.mp-chip-btn:hover { background: #0284c7; color: #ffffff; border-color: #0284c7; }
+
+.mp-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #334155;
+  cursor: pointer;
+}
+.mp-checkbox-label input { cursor: pointer; width: 14px; height: 14px; }
+
+.mp-pege-hint {
+  all: unset;
+  display: block;
+  font-size: 0.72rem !important;
+  color: #64748b !important;
+  margin-top: 5px !important;
+}
+
+/* TABEL DESIGN - 100% ELASTISK BREDDE */
+.mp-table-container { width: 100%; overflow-x: auto; }
+.mp-borg-table {
+  width: 100% !important;
+  table-layout: auto; /* Sikrer at resterende kolonner fylder pladsen ud */
+  border-collapse: collapse;
+  font-size: 0.76rem;
+  text-align: left;
+}
+.mp-borg-table th {
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 8px 8px;
+  border: 1px solid #0f172a;
+}
+
+.mp-borg-table tbody tr {
+  cursor: pointer;
+  transition: background-color 0.12s ease;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.1);
+}
+
+.mp-borg-table td {
+  padding: 6px 8px;
+  vertical-align: middle;
+  line-height: 1.25;
+  color: #0f172a;
+}
+
+/* BOKS OM BORG-NUMMERET */
+.mp-borg-table td.num {
+  white-space: nowrap !important;
+  text-align: center;
+  width: 65px;
+}
+.mp-num-box {
+  display: inline-block;
+  min-width: 38px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  background: rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(15, 23, 42, 0.18);
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: #0f172a;
+  transition: all 0.15s ease;
+}
+
+.mp-borg-table td.num-sub {
+  white-space: nowrap !important;
+  font-weight: 700;
+  text-align: center;
+  font-size: 0.88rem;
+  color: #334155;
+  width: 55px;
+}
+.fw-bold { font-weight: 600; color: #0f172a; }
+
+/* SKARPE MARINA AAGAARD-FARVEZONER */
+.zone-blue td { background-color: #dbeafe; }   /* Lys Blå */
+.zone-green td { background-color: #dcfce7; }  /* Klar Grøn */
+.zone-yellow td { background-color: #fef08a; } /* Klar Gul */
+.zone-orange td { background-color: #ffedd5; } /* Skarp Orange */
+.zone-red td { background-color: #fee2e2; }    /* Skarp Rød */
+
+/* DYNAMISK LIVE PEGE- / FOKUS-TILSTAND */
+.mp-borg-table tbody tr.is-focused {
+  outline: 3px solid #0284c7;
+  outline-offset: -3px;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.35);
+}
+.mp-borg-table tbody tr.is-focused td {
+  filter: brightness(0.94);
+}
+.mp-borg-table tbody tr.is-focused .mp-num-box {
+  background: #0f172a;
+  color: #ffffff;
+  border-color: #0f172a;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.3);
+}
+
+/* FOOTER MED QR-KODE OG FORBEHOLD */
+.mp-card-footer {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 2px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+}
+.mp-footer-text { flex: 1; }
+.mp-disclaimer { font-size: 0.68rem !important; line-height: 1.35 !important; color: #64748b !important; }
+
+.mp-footer-qr-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 75px;
+}
+.mp-qr-img {
+  width: 62px;
+  height: 62px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  padding: 2px;
+  background: #ffffff;
+}
+.mp-qr-subtext {
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: #0284c7;
+  margin-top: 3px;
+  white-space: nowrap;
+}
+
+/* HANDLINGS-BAR UNDER KORTET */
+.mp-actions-bar {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  justify-content: flex-start;
+}
+.mp-btn-export-primary {
+  background: #0284c7;
+  color: #ffffff;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 7px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  box-shadow: 0 2px 6px rgba(2, 132, 199, 0.25);
+}
+.mp-btn-export-primary:hover { background: #0369a1; }
+
+.mp-btn-export-secondary {
+  background: #ffffff;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  padding: 9px 18px;
+  border-radius: 7px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+.mp-btn-export-secondary:hover { background: #f1f5f9; }
+
+/* UDSKRIFT (PRINT) METRICS */
+@media print {
+  .no-export { display: none !important; }
+  body * { visibility: hidden; }
+  #borg-poster-card, #borg-poster-card * { visibility: visible; }
+  #borg-poster-card {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+}
+</style>
+
+<script>
+// SLÅ KOLONNER TIL/FRA
+function toggleBorgCol(colClass) {
+  const chk = document.getElementById(colClass.replace('col-', 'chk-'));
+  const isChecked = chk ? chk.checked : true;
+  const elements = document.querySelectorAll('.' + colClass);
+  elements.forEach(el => {
+    el.style.display = isChecked ? '' : 'none';
+  });
+}
+
+// HURTIGVALG / PRESETS
+function applyBorgPreset(type) {
+  const cr10 = document.getElementById('chk-cr10');
+  const desc = document.getElementById('chk-desc');
+  const body = document.getElementById('chk-body');
+  const talk = document.getElementById('chk-talk');
+  const effect = document.getElementById('chk-effect');
+
+  if (type === 'pege') {
+    cr10.checked = false;
+    desc.checked = true;
+    body.checked = false;
+    talk.checked = false;
+    effect.checked = false;
+  } else if (type === 'talk') {
+    cr10.checked = true;
+    desc.checked = true;
+    body.checked = false;
+    talk.checked = true;
+    effect.checked = false;
+  } else if (type === 'full') {
+    cr10.checked = true;
+    desc.checked = true;
+    body.checked = true;
+    talk.checked = true;
+    effect.checked = true;
+  }
+
+  toggleBorgCol('col-cr10');
+  toggleBorgCol('col-desc');
+  toggleBorgCol('col-body');
+  toggleBorgCol('col-talk');
+  toggleBorgCol('col-effect');
+}
+
+// LIVE PEGE- & FOKUS-FUNKTION
+function focusBorgRow(rowElem) {
+  const isAlreadyFocused = rowElem.classList.contains('is-focused');
+  const allRows = document.querySelectorAll('#interactive-borg-table tbody tr');
+  
+  allRows.forEach(r => r.classList.remove('is-focused'));
+
+  if (!isAlreadyFocused) {
+    rowElem.classList.add('is-focused');
+  }
+}
+
+// PNG EKSPORT SOM STÅENDE A4-FORMAT
+function exportBorgPNG() {
+  const cardNode = document.getElementById('borg-poster-card');
+  const noExportElems = cardNode.querySelectorAll('.no-export');
+  
+  // Skjul kontrolpanel
+  noExportElems.forEach(el => el.style.display = 'none');
+
+  const origWidth = cardNode.style.width;
+  const origMinHeight = cardNode.style.minHeight;
+
+  // Gennemtving A4-proportioner
+  cardNode.style.width = '1000px';
+  cardNode.style.minHeight = '1414px';
+
+  html2canvas(cardNode, {
+    scale: 2,
+    useCORS: true,
+    backgroundColor: '#ffffff'
+  }).then(canvas => {
+    // Genopret visning
+    cardNode.style.width = origWidth;
+    cardNode.style.minHeight = origMinHeight;
+    noExportElems.forEach(el => el.style.display = '');
+
+    const link = document.createElement('a');
+    link.download = 'motionsplan-borg-skala-A4.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  }).catch(() => {
+    cardNode.style.width = origWidth;
+    cardNode.style.minHeight = origMinHeight;
+    noExportElems.forEach(el => el.style.display = '');
+  });
+}
+</script>
