@@ -13,10 +13,21 @@ tags:
   - fedtprocent
   - kropskomposition
   - skinfold
+# 1. Til dit eget Jekyll-site og oversigter (/tests/)
 meta:
-  name: YMCA metoden fedtprocent
-  equipment: hudfoldsmåler
-  measures: fedtprocent
+  name: "YMCA metoden"
+  measures: "fedtprocent"
+  type: "skinfold"
+  equipment: "hudfoldsmaaler"
+  intensity: "ingen"
+  method: "indirekte"
+tools:
+  - title: "YMCA Hudfoldsberegner"
+    description: "Beregn din fedtprocent med YMCA-metoden ud fra 3 eller 4 hudfoldsmålinger (mave, triceps, hofte og valgfrit lår)."
+    anchor: "#ymca-fedtprocent-beregner"
+    type: "beregner"
+    measures: "fedtprocent"
+    category: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 feature_row:

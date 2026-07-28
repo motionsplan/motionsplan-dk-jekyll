@@ -14,9 +14,19 @@ tags:
   - kropskomposition
   - skinfold
 meta:
-  name: Jackson & Pollock 3-punktsmåling
-  equipment: hudfoldsmåler
-  measures: fedtprocent
+  name: "Jackson & Pollock 3-punktsmåling"
+  measures: "fedtprocent"
+  type: "skinfold"
+  equipment: "hudfoldsmaaler"
+  intensity: "ingen"
+  method: "indirekte"
+tools:
+  - title: "Jackson & Pollock 3-punkts Hudfoldsberegner"
+    description: "Beregn din fedtprocent ud fra 3 hudfoldsmålinger med Jackson & Pollock-formlen for mænd (bryst, mave, lår) og kvinder (triceps, hoftekam, lår)."
+    anchor: "#fedtprocent-for-maend"
+    type: "beregner"
+    measures: "fedtprocent"
+    category: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 feature_row:

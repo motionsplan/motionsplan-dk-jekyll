@@ -16,9 +16,19 @@ tags:
   - kropskomposition
   - skinfold
 meta:
-  name: Durnin & Womersley 4-punktsmåling
-  equipment: hudfoldsmåler
-  measures: fedtprocent
+  name: "Durnin & Womersley 4-punktsmåling"
+  measures: "fedtprocent"
+  type: "skinfold"
+  equipment: "hudfoldsmaaler"
+  intensity: "ingen"
+  method: "indirekte"
+tools:
+  - title: "Durnin & Womersley 4-punkts Hudfoldsberegner"
+    description: "Beregn din fedtprocent ud fra 4 hudfoldsmålinger (biceps, triceps, subscapularis og suprailiac) med Durnin & Womersley-formlen."
+    anchor: "#udregn-din-fedtprocent"
+    type: "beregner"
+    measures: "fedtprocent"
+    category: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 feature_row:

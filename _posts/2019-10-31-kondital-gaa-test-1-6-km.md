@@ -16,12 +16,21 @@ category:
 - Kondition
 - Gang
 meta:
-  name: Rockports 1,6 km gangtest
-  measures: kondital
-  type: gangtest
-  equipment: fladt underlag
-  max: submaksimal test
-  direct: indirekte test
+  name: "Rockports 1,6 km gangtest"
+  measures: "kondital"
+  type: "gangtest"
+  equipment: "fladt-underlag"
+  max: "submaksimal"
+  method: "indirekte"
+  intensity: "moderat"
+  target: "begyndere"
+tools:
+  - title: "Rockport 1,6 km gangtest Beregner"
+    description: "Beregn dit kondital (VO2max) ud fra din tid og slutpuls på 1,6 km gang med Rockport-formlerne fra Kline eller Lunt."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "kondital"
+    category: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

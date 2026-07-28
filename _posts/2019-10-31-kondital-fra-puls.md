@@ -18,11 +18,19 @@ category:
 - Beregnere
 - Kondition
 meta:
-  measures: kondital
-  type: pulstest
-  equipment: pulsbælte
-  max: maksimal test
-  direct: indirekte test
+  name: "Kondital ud fra puls"
+  measures: "kondital"
+  type: "beregner"
+  equipment: "pulsbaelte"
+  intensity: "ingen"
+  method: "formel"
+tools:
+  - title: "Kondital Beregner ud fra Puls (Uth's Formel)"
+    description: "Beregn dit estimerede kondital (VO2max) ud fra forholdet mellem din hvilepuls og din maxpuls baseret på Uth et al. formlen."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "kondital"
+    category: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

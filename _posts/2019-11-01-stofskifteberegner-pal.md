@@ -23,11 +23,26 @@ tags:
 - kost & ernæring
 - guide
 meta:
-  name: PAL-beregner
-  equipment: ingen
-  measures: hvilestofskifte
-  type: energiforbrug
-last_modified_at: '2025-02-27T23:14:14Z'
+  name: "PAL-beregner"
+  measures: "PAL, fysisk aktivitetsniveau, energiforbrug"
+  type: "beregner"
+  equipment: "ingen"
+  intensity: "ingen"
+  method: "formel"
+tools:
+  - title: "Hurtig PAL-beregner (Aktivitetstabel)"
+    description: "Estimer dit fysiske aktivitetsniveau (PAL) nemt ud fra din daglige livsstil og ugentlige træning baseret på Nordic Nutrition Recommendations."
+    anchor: "#pal-tabel"
+    type: "beregner"
+    measures: "PAL"
+    category: "HealthAndFitnessApplication"
+  - title: "Detaljeret PAL-beregner (MET-værdier)"
+    description: "Beregn din præcise PAL-værdi ved hjælp af MET-værdier ud fra en tidsregistrering af døgnets specifikke aktiviteter."
+    anchor: "#pal-met"
+    type: "beregner"
+    measures: "PAL"
+    category: "HealthAndFitnessApplication"
+last_modified_at: '2026-07-27T23:14:14Z'
 toc: 'true'
 feature_row:
 - image_path: /assets/images/pal-schedule.png

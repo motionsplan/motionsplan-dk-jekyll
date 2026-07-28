@@ -22,10 +22,26 @@ tags:
 - løb
 - cykling
 meta:
-  name: Beregn hastighed i km/t, m/s og min/km
-  equipment: ingen
-  measures: hastighed og pace
-  type: løb, gang og cykling
+#  name: Beregn hastighed i km/t, m/s og min/km
+  name: "Paceberegner & Hastighedsberegner"
+  measures: "hastighed, pace, tid, distance"
+  type: "beregner"
+  equipment: "ingen"
+  intensity: "ingen"
+  method: "formel"
+tools:
+  - title: "Paceberegner (min/km)"
+    description: "Beregn dit løbetempo (pace i min/km) ud fra tid og distance, eller omregn dit tempo direkte til en sluttid på 5 km, 10 km eller maraton."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "pace, tid, distance"
+    category: "SportsActivityLocation"
+  - title: "Hastighedsberegner (km/t)"
+    description: "Udregn din gennemsnitshastighed i km/t eller m/s ud fra distance og tid. Perfekt til både løbebånd, cykling og løbetræning."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "hastighed, km/t"
+    category: "SportsActivityLocation"
 last_modified_at: '2026-07-24T00:00:00Z'
 toc: 'true'
 feature_row:

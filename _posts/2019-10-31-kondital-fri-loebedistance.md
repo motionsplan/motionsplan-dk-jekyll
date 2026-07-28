@@ -15,13 +15,22 @@ header:
     url: '#calculator'
 category:
 - Kondition
+# 1. Til dit eget Jekyll-site og oversigter (/tests/ og /beregnere/)
 meta:
-  name: Beregning kondital tid på løbedistance
-  measures: kondital
-  type: løbetest
-  equipment: flad løberute
-  max: maksimal test
-  direct: indirekte test
+  name: "Kondital ud fra tid og løbedistance"
+  measures: "kondital"
+  type: "løbetest"
+  equipment: "flad-loeberute"
+  max: "maksimal"
+  method: "indirekte"
+  intensity: "maksimal"
+tools:
+  - title: "Kondital Beregner fra Løbetur (Tid & Distance)"
+    description: "Beregn dit kondital (VO2max) og VDOT-værdi ud fra tiden og distancen på en valgfri maksimal løbetur med Tokmakidis et al. formlen."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "kondital"
+    category: "HealthAndFitnessApplication"
 tags:
 - beregner
 - test

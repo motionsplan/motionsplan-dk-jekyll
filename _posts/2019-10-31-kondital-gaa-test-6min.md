@@ -13,13 +13,21 @@ category:
   - Kondition
   - Gang
 meta:
-  name: 6 minutters gangtest (6MWT)
-  measures: kondital
-  type: gangtest
-  equipment: fladt underlag
-  max: submaksimal test
-  direct: indirekte test
-  target: ældre mennesker
+  name: "6 minutters gangtest (6MWT)"
+  measures: "kondital"
+  type: "gangtest"
+  equipment: "fladt-underlag"
+  max: "submaksimal"
+  method: "indirekte"
+  intensity: "moderat"
+  target: "aeldre"
+tools:
+  - title: "6 Minutters Gangtest (6MWT) Beregner"
+    description: "Udregn den forventede gangdistance for 6 minutters gangtest (6MWT) ud fra alder, køn, højde og vægt baseret på Enright & Sherrill samt Gibbons formlerne."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "funktionsevne, distance"
+    category: "HealthAndFitnessApplication"
 tags:
   - test
   - konditionstest

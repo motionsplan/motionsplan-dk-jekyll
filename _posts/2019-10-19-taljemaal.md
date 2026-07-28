@@ -35,10 +35,31 @@ faq:
   - question: Hvad er talje-højde-ratioen?
     answer: Talje-højde-ratioen sætter dit taljemål i forhold til din højde. Tommelfingerreglen er, at dit taljemål bør være under halvdelen af din højde (ratio under 0,5).
 meta:
-  name: Taljemål og Ratios
-  equipment: målebånd
-  measures: taljemål, talje-hofte-ratio, talje-højde-ratio
-  type: antropometri
+  name: "Taljemål og Ratios"
+  measures: "taljemål, talje-hofte-ratio, talje-højde-ratio"
+  type: "antropometri"
+  equipment: "maalebaand"
+  intensity: "ingen"
+  method: "direkte"
+tools:
+  - title: "Samlet Taljemål & Ratio Beregner"
+    description: "Beregn dit taljemål, din talje-højde-ratio (WHtR) og din talje-hofte-ratio (WHR) samlet i ét dashboard med øjeblikkelig sundhedsanalyse."
+    anchor: "#beregn-alle-dine-taljemaal"
+    type: "beregner"
+    measures: "taljemål, talje-hofte-ratio, talje-højde-ratio"
+    category: "HealthAndFitnessApplication"
+  - title: "Talje-Højde-Ratio Beregner (WHtR)"
+    description: "Beregn dit talje-højde-forhold og se din placering i Ashwell Shape Chart over sundhedszoner."
+    anchor: "#2-talje-højde-ratio-whtr"
+    type: "beregner"
+    measures: "talje-højde-ratio"
+    category: "HealthAndFitnessApplication"
+  - title: "Talje-Hofte-Ratio Beregner (WHR)"
+    description: "Beregn din talje-hofte-ratio og få vurderet din fedtfordeling (æbleform vs. pæreform) ud fra WHO's grænseværdier."
+    anchor: "#3-talje-hofte-ratio-whr"
+    type: "beregner"
+    measures: "talje-hofte-ratio"
+    category: "HealthAndFitnessApplication"
 ---
 
 Dit taljemål er en enkel og utrolig præcis måling, der siger meget om din sundhed. Studier viser, at fedtet omkring maveområdet (det intraabdominale fedt) er direkte knyttet til risikofaktorer for livsstilssygdomme som hjertekarsygdomme og type 2-diabetes.

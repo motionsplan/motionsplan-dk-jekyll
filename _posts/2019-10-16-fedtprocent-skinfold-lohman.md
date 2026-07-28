@@ -16,11 +16,22 @@ tags:
   - kropskomposition
   - skinfold
   - børn
+# 1. Til dit eget Jekyll-site og oversigter (/tests/)
 meta:
-  name: Lohmans 2-punktsmåling
-  equipment: hudfoldsmåler
-  measures: fedtprocent
-  target: børn
+  name: "Lohmans 2-punktsmåling til børn"
+  measures: "fedtprocent"
+  type: "skinfold"
+  equipment: "hudfoldsmaaler"
+  target: "børn"
+  intensity: "ingen"
+  method: "indirekte"
+tools:
+  - title: "Lohman 2-punkts Hudfoldsberegner til Børn"
+    description: "Beregn fedtprocent hos børn og unge (8-18 år) ud fra 2 hudfoldsmålinger (triceps og læg) med Lohman-formlen."
+    anchor: "#beregn-fedtprocent-med-lohman-formlen"
+    type: "beregner"
+    measures: "fedtprocent"
+    category: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 feature_row:

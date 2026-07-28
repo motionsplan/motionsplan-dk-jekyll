@@ -36,7 +36,16 @@ meta:
   name: RM-beregner til styrketræning
   measures: styrke
   equipment: vægtudstyr
-  type: styrketræning
+  type: "beregner"
+  intensity: "submaksimal"
+  method: "formel"
+tools:
+  - title: "1RM Beregner til Styrketræning"
+    description: "Udregn dit 1RM max ud fra vægt og gentagelser i øvelser som bænkpres, squat og dødløft."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "styrke"
+    category: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-24T07:14:14Z'
 toc: 'true'
 feature_row_sheet:

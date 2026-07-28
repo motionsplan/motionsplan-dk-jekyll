@@ -65,7 +65,7 @@
   <!-- Status / Fase-indikator -->
   <div class="montreal-phase-badge phase-indicator">Klar til start</div>
 
-  <!-- Visuel Oval 400m Løbebane med 8 Kegler og Animering -->
+  <!-- Visuel Oval 400m Løbebane med 8 Kegler, Samlet Tid Display og Animering -->
   <div class="montreal-track-wrapper">
     <svg class="montreal-track-svg" viewBox="0 0 400 200">
       <!-- Løbebane stribe/græs -->
@@ -73,6 +73,13 @@
       <!-- Inderbane græs -->
       <rect x="70" y="50" width="260" height="100" rx="50" ry="50" fill="#37b24d" stroke="#ffffff" stroke-width="2" />
       
+      <!-- Display til Samlet Løbetid midt i banen -->
+      <g transform="translate(200, 100)" text-anchor="middle">
+        <rect x="-65" y="-28" width="130" height="56" rx="12" fill="#1b5e20" opacity="0.3" />
+        <text y="-8" font-size="10" font-weight="800" fill="#ffffff" opacity="0.9" letter-spacing="0.5">SAMLET TID</text>
+        <text id="track-total-time" y="18" font-size="24" font-weight="900" fill="#ffffff">00:00</text>
+      </g>
+
       <!-- Hoved løbespor (Path på 400m i skala) -->
       <path id="montreal-track-path" d="M 120,30 L 280,30 A 70,70 0 0,1 280,170 L 120,170 A 70,70 0 0,1 120,30 Z" fill="none" stroke="#d9480f" stroke-width="18" stroke-linecap="round" />
       <path d="M 120,30 L 280,30 A 70,70 0 0,1 280,170 L 120,170 A 70,70 0 0,1 120,30 Z" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="4,4" />
@@ -97,10 +104,10 @@
     <div class="live-vo2-text" style="font-size: 0.75rem; color: #868e96; font-weight: 700;">Live VO₂max: <strong class="live-vo2-display" style="color: #212529;">0.0</strong></div>
   </div>
 
-  <!-- Kontroller & Advarsels-system -->
+  <!-- Kontroller -->
   <div class="montreal-controls" style="margin-top: 14px;">
     <button class="btn btn--primary btn-start">Start Test</button>
-    <button class="btn btn--secondary btn-pause" disabled>Pause</button>
+    <button class="btn btn--secondary btn-lap" disabled>Lap (Runde)</button>
     <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
   </div>
 
@@ -109,10 +116,37 @@
     <button class="btn btn--fault btn-fault" disabled>⚠️ Registrér Fejl/Forsinkelse (>5m fra kegle) (<span class="fault-count">0</span>/2)</button>
   </div>
 
-  <!-- Download-zone -->
+  <!-- 100% Indvendig Lap-tabel -->
+  <div class="montreal-laps-wrapper" style="display: none;">
+    <h5 class="laps-title">Registrerede Runder / Laps</h5>
+    <div class="laps-table-container">
+      <table class="montreal-laps-table">
+        <thead>
+          <tr>
+            <th style="width: 10%;">#</th>
+            <th style="width: 20%;">Splittid</th>
+            <th style="width: 20%;">Total tid</th>
+            <th style="width: 18%;">Niveau</th>
+            <th style="width: 16%;">Fart</th>
+            <th style="width: 16%;">Distance</th>
+          </tr>
+        </thead>
+        <tbody class="laps-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Download Lydspor Zone -->
   <div class="montreal-download-zone">
     <button class="btn btn--download btn-download">📥 Download Montreal Lydspor (WAV)</button>
   </div>
+
+  <!-- Nederste Handlingers-knapper (Side-om-side) -->
+  <div class="montreal-bottom-actions">
+    <button class="btn btn--action btn-screenshot">📸 Tag et billede</button>
+    <button class="btn btn--action btn-csv">📊 Download CSV</button>
+  </div>
+
 </div>
 
 <style>
@@ -188,33 +222,88 @@
 .montreal-track-svg { width: 100%; height: auto; display: block; }
 
 .montreal-controls { display: flex; gap: 8px; }
-.montreal-controls button { flex: 1; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; }
+.montreal-controls button { flex: 1; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; transition: background 0.15s ease; }
 .btn--primary { background: #228be6; color: white; }
-.btn--secondary { background: #868e96; color: white; }
+.btn--stop { background: #e03131; color: white; }
+.btn--secondary { background: #495057; color: white; }
 .btn--warning { background: #fa5252; color: white; }
 .btn--fault { background: #ff922b; color: white; width: 100%; padding: 10px; font-weight: 800; border: none; border-radius: 8px; cursor: pointer; }
 
-.montreal-download-zone { margin-top: 12px; padding-top: 8px; border-top: 1px dashed #e9ecef; }
-.btn--download { background: transparent; color: #6c757d; border: 1px solid #ced4da; padding: 6px 12px; font-size: 0.78rem; font-weight: 700; border-radius: 6px; cursor: pointer; }
+/* Lap Tabel Styling – 100% INDVENDIG BREDDE */
+.montreal-laps-wrapper {
+  width: 100%;
+  margin-top: 16px;
+  text-align: left;
+}
+.laps-title {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #495057;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.laps-table-container {
+  width: 100%;
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #ffffff;
+}
+.montreal-laps-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+.montreal-laps-table th {
+  background: #f1f3f5;
+  padding: 9px 4px;
+  border-bottom: 2px solid #ced4da;
+  text-align: center;
+  font-weight: 800;
+  color: #343a40;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.montreal-laps-table td {
+  padding: 7px 4px;
+  border-bottom: 1px solid #f1f3f5;
+  text-align: center;
+  color: #212529;
+  word-break: break-word;
+}
+.montreal-laps-table tr:nth-child(even) { background: #f8f9fa; }
+
+.montreal-download-zone { margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e9ecef; }
+.btn--download { background: transparent; color: #6c757d; border: 1px solid #ced4da; padding: 6px 12px; font-size: 0.78rem; font-weight: 700; border-radius: 6px; cursor: pointer; width: 100%; }
 .btn--download:hover:not(:disabled) { background: #f8f9fa; color: #212529; }
 
-.montreal-controls button:disabled, .btn--fault:disabled, .btn--download:disabled { opacity: 0.4; cursor: not-allowed; }
+/* Bottom Action Knapper (Side-om-side) */
+.montreal-bottom-actions { display: flex; gap: 10px; margin-top: 12px; width: 100%; }
+.montreal-bottom-actions .btn--action { flex: 1; padding: 10px 8px; font-size: 0.85rem; font-weight: 800; border-radius: 8px; border: 1px solid #ced4da; background: #f8f9fa; color: #343a40; cursor: pointer; transition: all 0.15s ease; }
+.montreal-bottom-actions .btn--action:hover:not(:disabled) { background: #e9ecef; color: #000; border-color: #adb5bd; }
+
+.montreal-controls button:disabled, .btn--fault:disabled, .btn--download:disabled, .btn--action:disabled { opacity: 0.4; cursor: not-allowed; }
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // Montreal Track Test Specifikationer (Ahmaidi / Léger & Boucher 1980)
-  // Starter v. 6.0 km/t, stiger 1.2 km/t hvert 2. minut (120s)
   const STAGE_DURATION = 120; // 2 minutter pr. niveau
-  const CONE_DISTANCE = 50;   // Kegle for hver 50 meter (8 kegler på 400m)
+  const CONE_DISTANCE = 50;   // Kegle for hver 50m
+  const STORAGE_KEY = "montreal_track_test_state";
 
   let isRunning = false;
   let hasStarted = false;
   let startTime = 0;
-  let pausedTime = 0;
   let totalElapsed = 0;
   let currentDistance = 0;
   let faults = 0;
+
+  let laps = [];
+  let lastLapTime = 0;
 
   let animFrameId = null;
   let audioCtx = null;
@@ -227,6 +316,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const trackPath = widget.querySelector("#montreal-track-path");
   const conesGroup = widget.querySelector("#montreal-cones-group");
   const runner = widget.querySelector("#montreal-runner");
+  const trackTotalTimeDisplay = widget.querySelector("#track-total-time");
   const pathLength = trackPath.getTotalLength();
 
   const levelDisplay = widget.querySelector(".level-display");
@@ -241,25 +331,103 @@ document.addEventListener("DOMContentLoaded", function() {
   const wakelockStatus = widget.querySelector(".wakelock-status");
 
   const btnStart = widget.querySelector(".btn-start");
-  const btnPause = widget.querySelector(".btn-pause");
+  const btnLap = widget.querySelector(".btn-lap");
   const btnReset = widget.querySelector(".btn-reset");
   const btnFault = widget.querySelector(".btn-fault");
   const faultCountDisplay = widget.querySelector(".fault-count");
   const btnDownload = widget.querySelector(".btn-download");
+
+  const lapsWrapper = widget.querySelector(".montreal-laps-wrapper");
+  const lapsTbody = widget.querySelector(".laps-tbody");
+
+  const btnScreenshot = widget.querySelector(".btn-screenshot");
+  const btnCsv = widget.querySelector(".btn-csv");
 
   const tableModal = widget.querySelector(".montreal-table-modal");
   const tableIconBtn = widget.querySelector(".table-icon-btn");
   const modalCloseBtn = widget.querySelector(".modal-close-btn");
   const modalBody = widget.querySelector(".modal-body");
 
-  // Tegn de 8 kegler på SVG-banen (hver 50m)
+  // --- LOCALSTORAGE GEM & INDLÆS ---
+  function saveState() {
+    const state = {
+      isRunning: isRunning,
+      hasStarted: hasStarted,
+      wallClockStartTime: isRunning ? (Date.now() - (totalElapsed * 1000)) : null,
+      totalElapsed: totalElapsed,
+      faults: faults,
+      laps: laps,
+      lastLapTime: lastLapTime,
+      lastBeepSegment: lastBeepSegment
+    };
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {}
+  }
+
+  function loadState() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (!saved) return;
+
+    try {
+      const state = JSON.parse(saved);
+      hasStarted = state.hasStarted || false;
+      isRunning = state.isRunning || false;
+      faults = state.faults || 0;
+      laps = state.laps || [];
+      lastLapTime = state.lastLapTime || 0;
+      lastBeepSegment = state.lastBeepSegment !== undefined ? state.lastBeepSegment : -1;
+
+      faultCountDisplay.textContent = faults;
+
+      if (hasStarted) {
+        btnReset.disabled = false;
+        btnFault.disabled = (faults >= 2);
+
+        if (isRunning && state.wallClockStartTime) {
+          const nowWall = Date.now();
+          totalElapsed = Math.max(0, (nowWall - state.wallClockStartTime) / 1000);
+          startTime = performance.now() - (totalElapsed * 1000);
+
+          btnStart.textContent = "Stop";
+          btnStart.className = "btn btn--stop btn-start";
+          btnLap.disabled = false;
+
+          phaseIndicator.className = "montreal-phase-badge running";
+          phaseIndicator.textContent = "🏃 TEST I GANG";
+
+          requestWakeLock();
+          animFrameId = requestAnimationFrame(update);
+        } else {
+          totalElapsed = state.totalElapsed || 0;
+          btnStart.textContent = "Start Test";
+          btnStart.className = "btn btn--primary btn-start";
+          btnLap.disabled = true;
+
+          phaseIndicator.className = "montreal-phase-badge finished";
+          phaseIndicator.textContent = faults >= 2 ? "🛑 TEST SLUTTET (2 advarsler)" : "🛑 TEST STOPPET";
+          
+          updateUI(totalElapsed);
+        }
+      }
+      renderLapsTable();
+    } catch (e) {
+      console.error("Kunne ikke genoprette tilstand:", e);
+    }
+  }
+
+  function clearState() {
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch (e) {}
+  }
+
   function renderTrackCones() {
     conesGroup.innerHTML = '';
     for (let i = 0; i < 8; i++) {
       const distPct = i / 8;
       const pt = trackPath.getPointAtLength(distPct * pathLength);
       const cone = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-      // Kegle trekant koordinater
       const points = `${pt.x},${pt.y-7} ${pt.x-5},${pt.y+5} ${pt.x+5},${pt.y+5}`;
       cone.setAttribute("points", points);
       cone.setAttribute("fill", "#ffd43b");
@@ -280,13 +448,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  // Beregn nuværende hastighed ud fra samlet tid
   function getSpeedAtTime(seconds) {
     const stage = Math.floor(seconds / STAGE_DURATION);
     return 6.0 + (stage * 1.2);
   }
 
-  // Beregn samlet tilbagelagt distance ud fra tid
   function getDistanceAtTime(seconds) {
     let dist = 0;
     let remTime = seconds;
@@ -303,7 +469,6 @@ document.addEventListener("DOMContentLoaded", function() {
     return dist;
   }
 
-  // Ahmaidi et al. (1992) VO2max formel for Montreal Track Test
   function calcVO2Max(speedKmH) {
     if (speedKmH <= 0) return "0.0";
     const vo2 = 1.353 + (3.163 * speedKmH) + (0.0122586 * Math.pow(speedKmH, 2));
@@ -343,19 +508,14 @@ document.addEventListener("DOMContentLoaded", function() {
     if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
   }
 
-  function update() {
-    if (!isRunning) return;
+  function updateUI(elapsedSecs) {
+    currentDistance = getDistanceAtTime(elapsedSecs);
 
-    const now = performance.now();
-    totalElapsed = (now - startTime) / 1000;
-    currentDistance = getDistanceAtTime(totalElapsed);
-
-    const stageIdx = Math.floor(totalElapsed / STAGE_DURATION);
+    const stageIdx = Math.floor(elapsedSecs / STAGE_DURATION);
     const stageLevel = stageIdx + 1;
     const currentSpeed = 6.0 + (stageIdx * 1.2);
-    const timeInCurrentStage = totalElapsed % STAGE_DURATION;
+    const timeInCurrentStage = elapsedSecs % STAGE_DURATION;
 
-    // UI Opdatering
     levelDisplay.textContent = `Niveau ${stageLevel}`;
     speedDisplay.textContent = currentSpeed.toFixed(1);
     distanceDisplay.textContent = Math.floor(currentDistance);
@@ -367,17 +527,40 @@ document.addEventListener("DOMContentLoaded", function() {
     const secs = Math.floor(timeInCurrentStage % 60).toString().padStart(2, '0');
     levelTimeDisplay.textContent = `${mins}:${secs} / 02:00`;
 
-    // Løber placering på 400m banen
+    // Samlet løbetid ur inde i banen
+    const totMins = Math.floor(elapsedSecs / 60).toString().padStart(2, '0');
+    const totSecs = Math.floor(elapsedSecs % 60).toString().padStart(2, '0');
+    if (trackTotalTimeDisplay) {
+      trackTotalTimeDisplay.textContent = `${totMins}:${totSecs}`;
+    }
+
     const lapDistance = currentDistance % 400;
     const trackProgress = lapDistance / 400;
     const pt = trackPath.getPointAtLength(trackProgress * pathLength);
     runner.setAttribute("transform", `translate(${pt.x}, ${pt.y})`);
 
-    // Kegle Bip Logik (Hver 50m)
+    const speedMS = currentSpeed / 3.6;
+    const distToNextCone = CONE_DISTANCE - (currentDistance % CONE_DISTANCE);
+    const timeToNextCone = distToNextCone / speedMS;
+    timeToBeepDisplay.textContent = `${timeToNextCone.toFixed(1)}s`;
+
+    liveVo2Display.textContent = calcVO2Max(currentSpeed);
+  }
+
+  function update() {
+    if (!isRunning) return;
+
+    const now = performance.now();
+    totalElapsed = (now - startTime) / 1000;
+    
+    updateUI(totalElapsed);
+
+    const stageIdx = Math.floor(totalElapsed / STAGE_DURATION);
+    const timeInCurrentStage = totalElapsed % STAGE_DURATION;
+
     const currentSegment = Math.floor(currentDistance / CONE_DISTANCE);
     if (currentSegment > lastBeepSegment) {
       if (lastBeepSegment !== -1) {
-        // Tjek om det også er niveauskift (hvert 2. min)
         if (timeInCurrentStage < 1.0 && stageIdx > 0) {
           playBeep('stage');
         } else {
@@ -385,60 +568,108 @@ document.addEventListener("DOMContentLoaded", function() {
         }
       }
       lastBeepSegment = currentSegment;
+      saveState();
     }
-
-    // Tid til næste 50m kegle-bip
-    const speedMS = currentSpeed / 3.6;
-    const distToNextCone = CONE_DISTANCE - (currentDistance % CONE_DISTANCE);
-    const timeToNextCone = distToNextCone / speedMS;
-    timeToBeepDisplay.textContent = `${timeToNextCone.toFixed(1)}s`;
-
-    liveVo2Display.textContent = calcVO2Max(currentSpeed);
 
     animFrameId = requestAnimationFrame(update);
   }
 
-  function startTest() {
-    if (isRunning) return;
-    isRunning = true;
-    requestWakeLock();
-
-    btnStart.disabled = true;
-    btnPause.disabled = false;
-    btnReset.disabled = false;
-    btnFault.disabled = false;
-
-    phaseIndicator.className = "montreal-phase-badge running";
-    phaseIndicator.textContent = "🏃 TEST I GANG";
-
-    if (!hasStarted) {
+  function handleStartStop() {
+    if (!isRunning) {
+      isRunning = true;
       hasStarted = true;
-      startTime = performance.now();
-    } else {
-      startTime = performance.now() - pausedTime;
-    }
+      startTime = performance.now() - (totalElapsed * 1000);
+      requestWakeLock();
 
-    animFrameId = requestAnimationFrame(update);
+      btnStart.textContent = "Stop";
+      btnStart.className = "btn btn--stop btn-start";
+      btnLap.disabled = false;
+      btnReset.disabled = false;
+      btnFault.disabled = (faults >= 2);
+
+      phaseIndicator.className = "montreal-phase-badge running";
+      phaseIndicator.textContent = "🏃 TEST I GANG";
+
+      saveState();
+      animFrameId = requestAnimationFrame(update);
+    } else {
+      if (confirm("Er du sikker på, at du vil stoppe testen?")) {
+        stopTest();
+      }
+    }
   }
 
-  function pauseTest() {
-    if (!isRunning) return;
+  function stopTest() {
     isRunning = false;
     cancelAnimationFrame(animFrameId);
     releaseWakeLock();
 
-    pausedTime = performance.now() - startTime;
-    btnStart.disabled = false;
-    btnStart.textContent = "Genoptag Test";
-    btnPause.disabled = true;
+    btnStart.textContent = "Start Test";
+    btnStart.className = "btn btn--primary btn-start";
+    btnLap.disabled = true;
 
-    phaseIndicator.className = "montreal-phase-badge";
-    phaseIndicator.textContent = "Pauset";
+    phaseIndicator.className = "montreal-phase-badge finished";
+    phaseIndicator.textContent = faults >= 2 ? "🛑 TEST SLUTTET (2 advarsler)" : "🛑 TEST STOPPET";
+
+    saveState();
+  }
+
+  function formatSecs(seconds) {
+    const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+    const s = (seconds % 60).toFixed(1).padStart(4, '0');
+    return `${m}:${s}`;
+  }
+
+  function recordLap() {
+    if (!isRunning) return;
+
+    const lapNum = laps.length + 1;
+    const splitSec = totalElapsed - lastLapTime;
+    lastLapTime = totalElapsed;
+
+    const stageIdx = Math.floor(totalElapsed / STAGE_DURATION);
+    const stageLevel = stageIdx + 1;
+    const currentSpeed = 6.0 + (stageIdx * 1.2);
+
+    const lapData = {
+      num: lapNum,
+      splitSec: splitSec,
+      totalSec: totalElapsed,
+      level: stageLevel,
+      speed: currentSpeed.toFixed(1),
+      dist: Math.floor(currentDistance),
+      vo2: calcVO2Max(currentSpeed)
+    };
+
+    laps.push(lapData);
+    renderLapsTable();
+    saveState();
+  }
+
+  function renderLapsTable() {
+    if (laps.length === 0) {
+      lapsWrapper.style.display = "none";
+      return;
+    }
+    lapsWrapper.style.display = "block";
+    lapsTbody.innerHTML = laps.map(l => `
+      <tr>
+        <td><strong>${l.num}</strong></td>
+        <td>${formatSecs(l.splitSec)}</td>
+        <td>${formatSecs(l.totalSec)}</td>
+        <td>Niveau ${l.level}</td>
+        <td>${l.speed} km/t</td>
+        <td>${l.dist} m</td>
+      </tr>
+    `).join('');
+
+    const container = widget.querySelector(".laps-table-container");
+    container.scrollTop = container.scrollHeight;
   }
 
   function resetTest() {
     if (isRunning || hasStarted) {
-      if (!confirm("Vil du nulstille Montreal Track Testen?")) return;
+      if (!confirm("Vil du nulstille Montreal Track Testen og slette alle gemte runder?")) return;
     }
     isRunning = false;
     hasStarted = false;
@@ -449,12 +680,16 @@ document.addEventListener("DOMContentLoaded", function() {
     currentDistance = 0;
     faults = 0;
     lastBeepSegment = -1;
+    laps = [];
+    lastLapTime = 0;
+
+    clearState();
 
     faultCountDisplay.textContent = '0';
     btnFault.disabled = true;
-    btnStart.disabled = false;
     btnStart.textContent = "Start Test";
-    btnPause.disabled = true;
+    btnStart.className = "btn btn--primary btn-start";
+    btnLap.disabled = true;
     btnReset.disabled = true;
 
     levelDisplay.textContent = "Niveau 1";
@@ -462,6 +697,7 @@ document.addEventListener("DOMContentLoaded", function() {
     distanceDisplay.textContent = "0";
     progressBarFill.style.width = "0%";
     levelTimeDisplay.textContent = "00:00 / 02:00";
+    if (trackTotalTimeDisplay) trackTotalTimeDisplay.textContent = "00:00";
     phaseIndicator.className = "montreal-phase-badge";
     phaseIndicator.textContent = "Klar til start";
     timeToBeepDisplay.textContent = "0.0s";
@@ -469,17 +705,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const startPt = trackPath.getPointAtLength(0);
     runner.setAttribute("transform", `translate(${startPt.x}, ${startPt.y})`);
+
+    renderLapsTable();
   }
 
   function registerFault() {
     faults++;
     faultCountDisplay.textContent = faults;
+    saveState();
+
     if (faults >= 2) {
-      pauseTest();
+      stopTest();
       phaseIndicator.className = "montreal-phase-badge finished";
       phaseIndicator.textContent = "🛑 TEST SLUTTET (2 advarsler)";
       btnFault.disabled = true;
-      btnStart.disabled = true;
     }
   }
 
@@ -515,13 +754,61 @@ document.addEventListener("DOMContentLoaded", function() {
     modalBody.innerHTML = html;
   }
 
-  // Generer WAV-lydfil til download
+  function takeScreenshot() {
+    btnScreenshot.disabled = true;
+    const origText = btnScreenshot.textContent;
+    btnScreenshot.textContent = "⏳ Genererer...";
+
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const a = document.createElement('a');
+        a.href = canvas.toDataURL('image/png');
+        a.download = `montreal-test-${new Date().toISOString().slice(0,10)}.png`;
+        a.click();
+        btnScreenshot.textContent = origText;
+        btnScreenshot.disabled = false;
+      }).catch(() => {
+        alert("Kunne ikke oprette billede.");
+        btnScreenshot.textContent = origText;
+        btnScreenshot.disabled = false;
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  function downloadCSV() {
+    if (laps.length === 0) {
+      alert("Der er ingen registrerede runder (laps) endnu. Tryk på 'Lap (Runde)' under testen for at gemme data.");
+      return;
+    }
+
+    let csvContent = "Runde,Splittid,Samlet Tid,Niveau,Fart (km/t),Distance (m),Live VO2max\n";
+    laps.forEach(l => {
+      csvContent += `${l.num},"${formatSecs(l.splitSec)}","${formatSecs(l.totalSec)}",Niveau ${l.level},${l.speed},${l.dist},${l.vo2}\n`;
+    });
+
+    const blob = new Blob(["\uFEFF" + csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `montreal-test-laps-${new Date().toISOString().slice(0,10)}.csv`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
   async function generateWavFile() {
     btnDownload.disabled = true;
     const origText = btnDownload.textContent;
     btnDownload.textContent = "⏳ Genererer lydfil...";
 
-    // 12 niveauer á 2 min = 24 minutter totalt
     const TOTAL_TEST_TIME = 12 * 120;
     let events = [];
 
@@ -531,7 +818,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     while (elapsed <= TOTAL_TEST_TIME) {
       const spd = getSpeedAtTime(elapsed);
-      dist += (spd / 3.6) * 0.1; // 0.1s opløsning
+      dist += (spd / 3.6) * 0.1;
       elapsed += 0.1;
 
       const seg = Math.floor(dist / 50);
@@ -561,8 +848,6 @@ document.addEventListener("DOMContentLoaded", function() {
       });
 
       const renderedBuffer = await offlineCtx.startRendering();
-      
-      // WAV header konvertering
       let result = new Float32Array(renderedBuffer.length);
       renderedBuffer.copyFromChannel(result, 0, 0);
       let dataLength = result.length * 2;
@@ -583,7 +868,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       const blob = new Blob([view], { type: 'audio/wav' });
       const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
+      const a = document.createElement('a');
       a.href = url;
       a.download = "montreal-track-test-audio.wav";
       a.click();
@@ -596,15 +881,21 @@ document.addEventListener("DOMContentLoaded", function() {
     btnDownload.disabled = false;
   }
 
-  btnStart.addEventListener("click", startTest);
-  btnPause.addEventListener("click", pauseTest);
+  window.addEventListener("beforeunload", saveState);
+
+  btnStart.addEventListener("click", handleStartStop);
+  btnLap.addEventListener("click", recordLap);
   btnReset.addEventListener("click", resetTest);
   btnFault.addEventListener("click", registerFault);
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+  btnCsv.addEventListener("click", downloadCSV);
   btnDownload.addEventListener("click", generateWavFile);
 
   tableIconBtn.addEventListener("click", () => { renderModalTable(); tableModal.style.display = "flex"; });
   modalCloseBtn.addEventListener("click", () => { tableModal.style.display = "none"; });
 
   renderTrackCones();
+  loadState();
 });
 </script>

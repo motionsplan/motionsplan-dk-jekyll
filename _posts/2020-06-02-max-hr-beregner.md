@@ -21,6 +21,15 @@ meta:
   equipment: ingen
   max: let
   direct: indirekte test
+  method: "formel"
+  intensity: "let"
+tools:
+  - title: "Interaktiv Max-puls Beregner"
+    description: "Beregn din maksimale puls ud fra din alder med anerkendte aldersformler som Tanaka og Gellish."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "maxpuls"
+    category: "HealthAndFitnessApplication"
 last_modified_at: 2026-07-02T08:14:14Z
 faq:
   - question: "Hvordan beregnes min maxpuls?"

@@ -20,10 +20,20 @@ tags:
 - featured
 popular: 'true'
 meta:
-  name: BMI-beregner for voksne
-  equipment: målebånd og vægt
-  measures: BMI
-  type: kropskomposition
+  name: "BMI-beregner for voksne"
+  measures: "BMI"
+  type: "beregner"
+  equipment: "vaegt-og-maalebaand"
+  target: "voksne"
+  intensity: "ingen"
+  method: "formel"
+tools:
+  - title: "BMI Beregner for Voksne"
+    description: "Beregn dit Body Mass Index (BMI) lynhurtigt ud fra din højde og vægt. Gælder for både voksne mænd og kvinder."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "BMI"
+    category: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-25T16:09:22Z'
 faq:
 - question: Gælder denne BMI beregner for både mænd og kvinder?

@@ -17,12 +17,26 @@ category:
 - Kondition
 - Løb
 meta:
-  name: Coopers 12 minutters løbetest
-  measures: kondital
-  type: løbetest
-  equipment: løbebane
-  max: maksimal test
-  direct: indirekte test
+  name: "Coopers 12 minutters løbetest"
+  measures: "kondital"
+  type: "løbetest"
+  equipment: "loebebane"
+  max: "maksimal"
+  method: "indirekte"
+  intensity: "maksimal"
+tools:
+  - title: "Cooper-test Kondital Beregner"
+    description: "Beregn dit kondital (VO2max) ud fra den tilbagelagte distance på 12 minutters Cooper løbetest."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "kondital"
+    category: "HealthAndFitnessApplication"
+  - title: "Cooper-test Timer & Digital Pacer"
+    description: "Interaktiv 12-minutters løbetimer med pacer-bip, 400m-omgangstæller, live prognose og generator til pacer-lydspor."
+    anchor: "#timer"
+    type: "timer"
+    measures: "tid, tempo"
+    category: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

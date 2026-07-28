@@ -14,11 +14,6 @@ header:
   caption: 'Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag'
 category:
 - Kost & Ernæring
-meta:
-  name: Beregn energiforbrug
-  equipment: ingen
-  measures: dagligt energiforbrug
-  type: energiforbrug
 tags:
 - kost & ernæring
 - stofskifte

@@ -12,12 +12,21 @@ header:
 category:
 - Kondition
 meta:
-  name: 1,6 km submaksimal løbetest
-  measures: kondital
-  type: løbetest
-  equipment: løbebane
-  max: submaksimal test
-  direct: indirekte test
+  name: "1,6 km submaksimal løbetest"
+  measures: "kondital"
+  type: "løbetest"
+  equipment: "loebebane"
+  max: "submaksimal"
+  method: "indirekte"
+  intensity: "moderat"
+  target: "begyndere"
+tools:
+  - title: "1,6 km Jogging-test Kondital Beregner"
+    description: "Beregn dit kondital (VO2max) ud fra din tid og gennemsnitspuls på en submaksimal 1,6 km (1 mil) jogging-test."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "kondital"
+    category: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

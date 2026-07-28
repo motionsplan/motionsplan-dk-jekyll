@@ -21,10 +21,19 @@ tags:
 - featured
 - populær
 meta:
-  name: Jack Daniels formel til beregning af løbetider
-  equipment: ingen
-  measures: løbetid
-  type: løb
+  name: "Jack Daniels Løbeberegner (VDOT)"
+  measures: "VDOT, løbetid, træningstempo"
+  type: "beregner"
+  equipment: "ingen"
+  intensity: "ingen"
+  method: "formel"
+tools:
+  - title: "Jack Daniels VDOT & Løbeberegner"
+    description: "Beregn din VDOT-værdi, dine specifikke træningszoner (Easy, Marathon, Threshold, Interval, Repetition) og estimerede konkurrencetider ud fra Jack Daniels Running Formula."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "VDOT, løbetempo, konkurrencetid"
+    category: "HealthAndFitnessApplication"
 feature_row:
 - image_path: https://imgcdn.saxo.com/_9781718203662/0x500
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/daniels-running-formula_jack-daniels_paperback_9781718203662

@@ -18,10 +18,19 @@ tags:
   - kalorieberegner
   - kost & ernæring
 meta:
-  name: Omregner fra kJ til kcal
-  equipment: ingen
-  measures: omregner energi
-  type: kalorieberegner
+  name: "Omregner fra kJ til kcal"
+  measures: "energi, kilojoule, kalorier"
+  type: "beregner"
+  equipment: "ingen"
+  intensity: "ingen"
+  method: "formel"
+tools:
+  - title: "kJ til kcal Omregner"
+    description: "Omregn lynhurtigt og præcist mellem kilojoule (kJ) og kilokalorier (kcal) med vores gratis energiberegner."
+    anchor: "#kj-til-kcal-omregner"
+    type: "beregner"
+    measures: "energi, kJ, kcal"
+    category: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-25T18:00:00Z'
 toc: 'true'
 faq:

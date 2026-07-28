@@ -13,10 +13,19 @@ category:
 - Beregnere
 - Kalorieberegnere
 meta:
-  name: Hvilestofskifte baseret på fedtfri masse (FFM)
-  equipment: ingen
-  measures: hvilestofskifte for atleter
-  type: energiforbrug
+  name: "Hvilestofskifte ud fra fedtfri masse (FFM)"
+  measures: "hvilestofskifte, BMR, FFM, fedtprocent"
+  type: "beregner"
+  equipment: "ingen"
+  intensity: "ingen"
+  method: "formel"
+tools:
+  - title: "BMR-beregner ud fra Fedtfri Masse (FFM)"
+    description: "Beregn dit hvilestofskifte (BMR) ud fra din fedtfrie masse eller fedtprocent med anerkendte formler som Cunningham og Katch-McArdle."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "hvilestofskifte, BMR"
+    category: "HealthAndFitnessApplication"
 tags:
 - beregner
 - fedtfri masse

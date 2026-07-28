@@ -16,10 +16,19 @@ category:
 - Beregnere
 - Kalorieberegnere
 meta:
-  name: BMR-beregner (hvilestofskifte)
-  equipment: ingen
-  measures: hvilestofskifte
-  type: energiforbrug
+  name: "BMR-beregner (hvilestofskifte)"
+  measures: "hvilestofskifte, BMR, basalstofskifte"
+  type: "beregner"
+  equipment: "ingen"
+  intensity: "ingen"
+  method: "formel"
+tools:
+  - title: "BMR & Hvilestofskifte Beregner"
+    description: "Beregn dit hvilestofskifte (BMR) ud fra køn, alder, vægt og højde med videnskabeligt anerkendte formler."
+    anchor: "#bmr-beregner"
+    type: "beregner"
+    measures: "hvilestofskifte, BMR"
+    category: "HealthAndFitnessApplication"
 tags:
 - beregner
 - stofskifte

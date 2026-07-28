@@ -28,6 +28,13 @@ meta:
   type: kropskomposition
   equipment: beregner
   measures: fedtprocent
+tools:
+  - title: "Fedtprocent Beregner (Alder, Højde & Vægt)"
+    description: "Beregn din estimerede fedtprocent ud fra køn, alder, højde og vægt med anerkendte formler som Gallagher, Duerenberg og Heitmann."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "fedtprocent"
+    category: "HealthAndFitnessApplication"
 feature_row:
 - image_path: https://imgcdn.saxo.com/_9781975217303/0x500
   alt: Exercise Physiology - Nutrition, Energy, and Human Performance

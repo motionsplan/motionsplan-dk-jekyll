@@ -10,11 +10,6 @@ header:
   caption: 'BMR-formler: Sådan beregner du dit basale stofskifte'
 category:
 - Kost & Ernæring
-meta:
-  name: Hvilestofskifte og basalstofskifte
-  equipment: ingen
-  measures: hvilestofskifte
-  type: energiforbrug
 tags:
 - stofskifte
 last_modified_at: '2025-03-06T23:14:14Z'

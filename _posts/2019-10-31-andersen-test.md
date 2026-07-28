@@ -14,13 +14,27 @@ category:
 - Kondition
 - Løb
 meta:
-  name: Andersen Test
-  measures: kondital
-  type: løbetest
-  equipment: 20 meter fladt underlag
-  max: maksimal test
-  direct: indirekte test
-  target: børn
+  name: "Andersen Test"
+  measures: "kondital"
+  type: "løbetest"
+  equipment: "20m-bane"
+  max: "maksimal"
+  method: "indirekte"
+  intensity: "høj"
+  target: "børn"
+tools:
+  - title: "Andersen Test Kondital Beregner"
+    description: "Beregn kondital for børn og unge ud fra den samlede løbedistance i den 10-minutters Andersen 15/15 intervalløbetest."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "kondital"
+    category: "HealthAndFitnessApplication"
+  - title: "Andersen Test Timer & Lyd-afspiller"
+    description: "Interaktiv 10-minutters 15/15 interval-timer med lydsignaler, farvekoder og muligheden for at downloade lydsporet til offline brug i hallen."
+    anchor: "#timer"
+    type: "timer"
+    measures: "tid"
+    category: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstræning

@@ -14,9 +14,19 @@ tags:
   - kropskomposition
   - skinfold
 meta:
-  name: Peterson 4-punktsmåling
-  equipment: hudfoldsmåler
-  measures: fedtprocent
+  name: "Peterson 4-punktsmåling"
+  measures: "fedtprocent"
+  type: "skinfold"
+  equipment: "hudfoldsmaaler"
+  intensity: "ingen"
+  method: "indirekte"
+tools:
+  - title: "Peterson 4-punkts Hudfoldsberegner"
+    description: "Beregn din fedtprocent baseret på 4-komponentmodellen ud fra 4 hudfoldsmålinger (triceps, skulderblad, hoftekam og lår), højde, vægt og alder."
+    anchor: "#udregn-din-fedtprocent-med-peterson-et-al-beregneren"
+    type: "beregner"
+    measures: "fedtprocent"
+    category: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 feature_row:

@@ -12,12 +12,26 @@ header:
   credit: https://www.healthcheckshop.com/wp-content/uploads/2019/07/12A0041.jpg
   caption: *title
 meta:
-  name: Åstrands et-punktstest
-  measures: kondital
-  type: cykeltest
-  equipment: cykel
-  max: submaksimal test
-  direct: indirekte test
+  name: "Åstrands 1-punktstest"
+  measures: "kondital"
+  type: "cykeltest"
+  equipment: "kondicykel"
+  max: "submaksimal"
+  method: "indirekte"
+  intensity: "moderat"
+tools:
+  - title: "Åstrands 1-punktstest Beregner"
+    description: "Beregn dit kondital (VO2max) ud fra din steady-state puls og belastning i Åstrands 6-minutters cykeltest."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "kondital"
+    category: "HealthAndFitnessApplication"
+  - title: "Åstrand Metronom & Test Timer"
+    description: "Interaktiv 6-minutters cykeltimer med indbygget 50 RPM kadence-metronom og automatiske notifikationer ved 5 og 6 minutter."
+    anchor: "#timer"
+    type: "timer"
+    measures: "kadence, tid"
+    category: "HealthAndFitnessApplication"
 category:
   - Kondition
 tags:

@@ -14,12 +14,20 @@ header:
 category:
   - Kondition
 meta:
-  name: Åstrands 2-punktstest
-  measures: kondital
-  type: cykeltest
-  equipment: cykel
-  max: submaksimal test
-  direct: indirekte test
+  name: "Åstrands 2-punktstest"
+  measures: "kondital"
+  type: "cykeltest"
+  equipment: "ergometercykel"
+  max: "submaksimal"
+  method: "indirekte"
+  intensity: "moderat"
+tools:
+  - title: "Åstrands 2-punktstest Beregner"
+    description: "Beregn dit kondital (VO2max) ud fra en submaksimal cykeltest med to belastninger og pulsmålinger på ergometercykel."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "kondital"
+    category: "HealthAndFitnessApplication"
 tags:
   - test
   - konditionstest

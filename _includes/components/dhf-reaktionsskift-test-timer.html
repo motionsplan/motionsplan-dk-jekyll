@@ -1,0 +1,1039 @@
+<div class="dhf-cod-widget">
+  
+  <!-- Info Modal -->
+  <div class="dhf-cod-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om DHF Retningsskiftetest</h4>
+        <span class="modal-subtitle-text">Dansk Håndboldforbunds standardiserede COD-test</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>TESTENS 7 SKRIDT OG LØBESEKVENS:</strong><br>
+        1. <strong>Startpind (5,5m / Pk 1):</strong> Hånd placeres på startpind i hoftehøjde. Tiden starter idet hånden fjernes.<br>
+        2. <strong>Sprint & Hop (Pk 2):</strong> Spurt frem mod 1,5m mærket og hop over 20cm barriere.<br>
+        3. <strong>Landingsfelt (Pk 3):</strong> Land samtidigt på begge fødder (2-fods finte) i feltsonen.<br>
+        4. <strong>6m Kegle (Pk 4):</strong> Tryk kraftigt af til siden, rør 6m keglen med modsat hånd.<br>
+        5. <strong>Sidevers løb (Pk 5):</strong> Flyt dig sidevers skråt bagud UDEN at krydse benene.<br>
+        6. <strong>Bagerste Pind (Pk 6):</strong> Rør 130cm højdemarkeringen på staven.<br>
+        7. <strong>Slutsprint (Pk 7):</strong> Spurt 5m frem mod mållinjekeglen. Tiden stoppes v. mållinjen.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Diskvallifikations- & Fejl-kriterier</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0;">
+        <li>Overtrædelse af markeringen før/efter hoppet (Pk 2).</li>
+        <li>Landing på ét ben eller udenfor landingsfeltet (Pk 3).</li>
+        <li>Manglende berøring af keglen på 6m-linjen (Pk 4).</li>
+        <li>Krydsning af fødder ved sidevers bevægelse (Pk 5).</li>
+        <li>Manglende berøring af 130cm højdemarkeringen på staven (Pk 6).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="dhf-cod-topbar">
+    <div class="dhf-cod-header-card">
+      <div class="card-title-row">
+        <span class="card-title">DHF Retningsskift-Test (Håndbold)</span>
+        <button class="info-icon-btn" type="button" title="Læs om regler og opsætning">ℹ️</button>
+      </div>
+      <div class="card-desc">Måler retningsskift, 2-fods landinger, sidevers agility og 180° afsæt (2 forsøg v/h).</div>
+    </div>
+
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="dhf-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off">🔇</button>
+        </div>
+      </div>
+
+      <div class="category-selectors">
+        <select id="select-gender" class="cat-select">
+          <option value="men">Herre/Mænd</option>
+          <option value="women">Dame/Kvinder</option>
+        </select>
+        <select id="select-age" class="cat-select">
+          <option value="Senior">Senior</option>
+          <option value="U19">U19</option>
+          <option value="U17">U17</option>
+          <option value="U15">U15</option>
+        </select>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- 2 KORT MED DHF BANETEGNING (PRECISE PROPORTIONER OG MARKØRER) -->
+  <div class="dhf-cod-sides-grid">
+    
+    <!-- VENSTRE SIDE KORT -->
+    <div class="side-card active-card-left" id="card-left">
+      <div class="side-card-header left-header">
+        <span>👈 VENSTRE SIDE gennemløb</span>
+      </div>
+
+      <div class="side-svg-container">
+        <svg width="100%" viewBox="0 0 340 420" preserveAspectRatio="xMidYMid meet">
+          <!-- Baggrund -->
+          <rect x="5" y="5" width="330" height="410" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+          
+          <!-- Håndboldstreger (Grå) -->
+          <!-- 6m optrukken buelinje -->
+          <path d="M 20,65 Q 170,110 320,65" fill="none" stroke="#adb5bd" stroke-width="2"/>
+          <!-- 9m stiplet buelinje -->
+          <path d="M 20,180 Q 170,225 320,180" fill="none" stroke="#adb5bd" stroke-width="2" stroke-dasharray="4,3"/>
+
+          <!-- Banens Hovedlinjer (Sorte) -->
+          <line x1="170" y1="40" x2="170" y2="360" stroke="#212529" stroke-width="2"/>
+          <line x1="50" y1="40" x2="290" y2="40" stroke="#212529" stroke-width="2"/>
+          <line x1="50" y1="40" x2="50" y2="340" stroke="#212529" stroke-width="1.5"/>
+          <line x1="290" y1="40" x2="290" y2="340" stroke="#212529" stroke-width="1.5"/>
+          <line x1="110" y1="95" x2="230" y2="95" stroke="#212529" stroke-width="1.5"/>
+
+          <!-- Blå/Cyan Tapestreger -->
+          <line x1="145" y1="300" x2="195" y2="300" stroke="#00a8ff" stroke-width="3"/> <!-- 4.5m -->
+          <line x1="145" y1="205" x2="195" y2="205" stroke="#00a8ff" stroke-width="3"/> <!-- 1.5m -->
+          <line x1="145" y1="165" x2="195" y2="165" stroke="#00a8ff" stroke-width="3"/> <!-- 70cm -->
+          <line x1="145" y1="140" x2="195" y2="140" stroke="#00a8ff" stroke-width="3"/> <!-- 50cm -->
+
+          <!-- Rød Barriere / Forhindring (20cm hække v. 30cm markering) -->
+          <line x1="140" y1="120" x2="200" y2="120" stroke="#868e96" stroke-width="2"/>
+          <path d="M 140,120 Q 155,100 170,120 M 170,120 Q 185,100 200,120" fill="none" stroke="#e03131" stroke-width="2.5"/>
+
+          <!-- Firkanter: Gule = Pinde, Orange = Kegler -->
+          <!-- 1. Startpind (Gul) -->
+          <rect x="163" y="343" width="14" height="14" fill="#ffd43b" stroke="#212529" stroke-width="1.5"/>
+          <!-- 6. Pinde (Gul) -->
+          <rect x="43" y="323" width="14" height="14" fill="#ffd43b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="283" y="323" width="14" height="14" fill="#ffd43b" stroke="#212529" stroke-width="1.5"/>
+          <!-- 7. Mål Pinde (Gul) -->
+          <rect x="43" y="33" width="14" height="14" fill="#ffd43b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="283" y="33" width="14" height="14" fill="#ffd43b" stroke="#212529" stroke-width="1.5"/>
+          <!-- 4. Kegler (Orange) -->
+          <rect x="103" y="88" width="14" height="14" fill="#ff922b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="223" y="88" width="14" height="14" fill="#ff922b" stroke="#212529" stroke-width="1.5"/>
+          <!-- Topplan 2m Kegler (Orange) -->
+          <rect x="103" y="33" width="14" height="14" fill="#ff922b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="223" y="33" width="14" height="14" fill="#ff922b" stroke="#212529" stroke-width="1.5"/>
+
+          <!-- TEKST & TAL MARKERINGER -->
+          <text x="185" y="355" font-size="10" font-weight="800" fill="#212529">1. Startpind</text>
+          <text x="202" y="304" font-size="10" font-weight="800" fill="#212529">1. Start med fod</text>
+          <text x="202" y="209" font-size="10" font-weight="800" fill="#212529">2.</text>
+          
+          <!-- 3. Landingsfelt i midten mellem de to linjer -->
+          <text x="170" y="155" font-size="9" font-weight="900" text-anchor="middle" fill="#212529">3. Landingsfelt</text>
+          
+          <text x="92" y="98" font-size="11" font-weight="900" text-anchor="end" fill="#212529">4.</text>
+          
+          <!-- 6. Pind og 7. Mål -->
+          <text x="40" y="358" font-size="9" font-weight="900" text-anchor="start" fill="#212529">6. Pind (130 cm)</text>
+          <text x="50" y="25" font-size="10" font-weight="900" text-anchor="middle" fill="#2b8a3e">7. Mål</text>
+
+          <!-- KORREKT VENSTRE LØBERUTE (Rød linje) -->
+          <path id="path-left" d="M 170,350 L 170,205 C 170,180 170,170 170,152 L 110,95 L 50,330 L 50,33" 
+                fill="none" stroke="#e03131" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <!-- 5. Markering midt på linjen -->
+          <text x="72" y="220" font-size="12" font-weight="900" fill="#e03131">5.</text>
+
+          <!-- Animeret løberprik -->
+          <circle id="runner-dot-left" cx="170" cy="350" r="6" fill="#fcc419" stroke="#212529" stroke-width="1.5" style="display:none;"/>
+        </svg>
+      </div>
+
+      <!-- Forsøg V1 & V2 -->
+      <div class="trials-row">
+        <div class="trial-box active-target" id="box-v1" data-trial="v1">
+          <span class="trial-label">Forsøg V1</span>
+          <input type="number" id="input-v1" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+        <div class="trial-box" id="box-v2" data-trial="v2">
+          <span class="trial-label">Forsøg V2</span>
+          <input type="number" id="input-v2" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+      </div>
+      <div class="side-best-footer" id="best-left-display">Bedste V: --</div>
+    </div>
+
+    <!-- HØJRE SIDE KORT -->
+    <div class="side-card" id="card-right">
+      <div class="side-card-header right-header">
+        <span>👉 HØJRE SIDE gennemløb</span>
+      </div>
+
+      <div class="side-svg-container">
+        <svg width="100%" viewBox="0 0 340 420" preserveAspectRatio="xMidYMid meet">
+          <!-- Baggrund -->
+          <rect x="5" y="5" width="330" height="410" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+          
+          <!-- Håndboldstreger (Grå) -->
+          <path d="M 20,65 Q 170,110 320,65" fill="none" stroke="#adb5bd" stroke-width="2"/>
+          <path d="M 20,180 Q 170,225 320,180" fill="none" stroke="#adb5bd" stroke-width="2" stroke-dasharray="4,3"/>
+
+          <!-- Banens Hovedlinjer (Sorte) -->
+          <line x1="170" y1="40" x2="170" y2="360" stroke="#212529" stroke-width="2"/>
+          <line x1="50" y1="40" x2="290" y2="40" stroke="#212529" stroke-width="2"/>
+          <line x1="50" y1="40" x2="50" y2="340" stroke="#212529" stroke-width="1.5"/>
+          <line x1="290" y1="40" x2="290" y2="340" stroke="#212529" stroke-width="1.5"/>
+          <line x1="110" y1="95" x2="230" y2="95" stroke="#212529" stroke-width="1.5"/>
+
+          <!-- Blå/Cyan Tapestreger -->
+          <line x1="145" y1="300" x2="195" y2="300" stroke="#00a8ff" stroke-width="3"/>
+          <line x1="145" y1="205" x2="195" y2="205" stroke="#00a8ff" stroke-width="3"/>
+          <line x1="145" y1="165" x2="195" y2="165" stroke="#00a8ff" stroke-width="3"/>
+          <line x1="145" y1="140" x2="195" y2="140" stroke="#00a8ff" stroke-width="3"/>
+
+          <!-- Rød Barriere -->
+          <line x1="140" y1="120" x2="200" y2="120" stroke="#868e96" stroke-width="2"/>
+          <path d="M 140,120 Q 155,100 170,120 M 170,120 Q 185,100 200,120" fill="none" stroke="#e03131" stroke-width="2.5"/>
+
+          <!-- Firkanter: Gule = Pinde, Orange = Kegler -->
+          <rect x="163" y="343" width="14" height="14" fill="#ffd43b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="43" y="323" width="14" height="14" fill="#ffd43b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="283" y="323" width="14" height="14" fill="#ffd43b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="43" y="33" width="14" height="14" fill="#ffd43b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="283" y="33" width="14" height="14" fill="#ffd43b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="103" y="88" width="14" height="14" fill="#ff922b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="223" y="88" width="14" height="14" fill="#ff922b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="103" y="33" width="14" height="14" fill="#ff922b" stroke="#212529" stroke-width="1.5"/>
+          <rect x="223" y="33" width="14" height="14" fill="#ff922b" stroke="#212529" stroke-width="1.5"/>
+
+          <!-- TEKST & TAL MARKERINGER -->
+          <text x="185" y="355" font-size="10" font-weight="800" fill="#212529">1. Startpind</text>
+          <text x="202" y="304" font-size="10" font-weight="800" fill="#212529">1. Start med fod</text>
+          <text x="202" y="209" font-size="10" font-weight="800" fill="#212529">2.</text>
+          <text x="170" y="155" font-size="9" font-weight="900" text-anchor="middle" fill="#212529">3. Landingsfelt</text>
+          
+          <text x="248" y="98" font-size="11" font-weight="900" text-anchor="start" fill="#212529">4.</text>
+          <text x="290" y="358" font-size="9" font-weight="900" text-anchor="end" fill="#212529">6. Pind (130 cm)</text>
+          <text x="290" y="25" font-size="10" font-weight="900" text-anchor="middle" fill="#2b8a3e">7. Mål</text>
+
+          <!-- KORREKT HØJRE LØBERUTE (Rød linje) -->
+          <path id="path-right" d="M 170,350 L 170,205 C 170,180 170,170 170,152 L 230,95 L 290,330 L 290,33" 
+                fill="none" stroke="#e03131" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <!-- 5. Markering midt på linjen -->
+          <text x="260" y="220" font-size="12" font-weight="900" fill="#e03131">5.</text>
+
+          <circle id="runner-dot-right" cx="170" cy="350" r="6" fill="#fcc419" stroke="#212529" stroke-width="1.5" style="display:none;"/>
+        </svg>
+      </div>
+
+      <!-- Forsøg H1 & H2 -->
+      <div class="trials-row">
+        <div class="trial-box" id="box-h1" data-trial="h1">
+          <span class="trial-label">Forsøg H1</span>
+          <input type="number" id="input-h1" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+        <div class="trial-box" id="box-h2" data-trial="h2">
+          <span class="trial-label">Forsøg H2</span>
+          <input type="number" id="input-h2" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+      </div>
+      <div class="side-best-footer" id="best-right-display">Bedste H: --</div>
+    </div>
+
+  </div>
+
+  <!-- BEVÆGELSESKVALITET & FEJL-CHECKLISTE FOR AKTIVT FORSØG -->
+  <div class="faults-checklist-card">
+    <div class="faults-title-row">
+      <span class="faults-title">⚠️ Bevægelseskvalitet & Fejl-mærker (Aktivt Forsøg)</span>
+      <span class="faults-status-badge ok-badge" id="fault-status-text">✅ Godkendt udførsel</span>
+    </div>
+    <div class="faults-buttons-grid">
+      <button type="button" class="fault-btn" data-fault="f2">
+        <span>Overtrædelse (2)</span>
+      </button>
+      <button type="button" class="fault-btn" data-fault="f3">
+        <span>Ej 2-fods landing (3)</span>
+      </button>
+      <button type="button" class="fault-btn" data-fault="f4">
+        <span>Ingen 6m kegletouch (4)</span>
+      </button>
+      <button type="button" class="fault-btn" data-fault="f5">
+        <span>Krydsede ben (5)</span>
+      </button>
+      <button type="button" class="fault-btn" data-fault="f6">
+        <span>Ingen 130cm touch (6)</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- AKTIV HOVEDSKÆRM OG TIDTAGER-KONTROL -->
+  <div class="dhf-cod-main-control-card">
+    <div class="active-trial-badge" id="active-trial-indicator">🎯 AKTIV: VENSTRE FORSØG 1 (V1)</div>
+    <div class="main-timer-display" id="main-timer">0.00s</div>
+    
+    <div class="dhf-cod-controls">
+      <button class="btn btn--giant-action btn-start-stop" type="button">🚀 START TIMING</button>
+      <button class="btn btn--secondary btn-reset" type="button">Nulstil Alt</button>
+    </div>
+  </div>
+
+  <!-- RESULTAT BEREGNINGER & DHF EVALUERING -->
+  <div class="dhf-cod-stats-wrapper">
+    <h5 class="section-title">📊 Testanalyse, DHF-Score & Side-asymmetri</h5>
+    <div class="dhf-cod-stats-grid">
+      <div class="stat-box">
+        <span class="stat-value" id="stat-best-left">--</span>
+        <span class="stat-label">BEDSTE VENSTRE</span>
+        <span class="stat-sub" id="stat-rating-left">--</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-value" id="stat-best-right">--</span>
+        <span class="stat-label">BEDSTE HØJRE</span>
+        <span class="stat-sub" id="stat-rating-right">--</span>
+      </div>
+      <div class="stat-box highlight-box" id="asym-box">
+        <span class="stat-value" id="stat-asymmetry">0.0%</span>
+        <span class="stat-label">SIDE-ASYMMETRI</span>
+        <span class="stat-sub" id="stat-asymmetry-label">Ingen data</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SØJLEDIAGRAM -->
+  <div class="dhf-cod-chart-wrapper">
+    <h5 class="section-title">📈 Gennemførselstid pr. forsøg (sek)</h5>
+    <div class="chart-container">
+      <svg id="dhf-cod-svg-chart" width="100%" height="170" viewBox="0 0 480 170" preserveAspectRatio="none">
+        <text x="240" y="85" text-anchor="middle" font-size="12" fill="#adb5bd">Gennemfør forsøg for at se tidssammenligningen</text>
+      </svg>
+    </div>
+  </div>
+
+  <!-- LOCALSTORAGE LOG TABEL -->
+  <div class="dhf-cod-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="dhf-cod-log-table">
+      <thead>
+        <tr>
+          <th>Dato</th>
+          <th>Kategori</th>
+          <th>Bedste V</th>
+          <th>Bedste H</th>
+          <th>Asymmetri</th>
+          <th>DHF Rating</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="6" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SCREENSHOT BUTTON -->
+  <div class="dhf-cod-screenshot-wrapper">
+    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag et billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.dhf-cod-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 18px;
+  max-width: 680px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.dhf-cod-widget * { box-sizing: border-box; }
+
+.dhf-cod-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; text-align: left; }
+.dhf-cod-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.35; }
+
+/* Modal */
+.dhf-cod-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Settings */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 8px; margin-top: 2px; flex-wrap: wrap; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.category-selectors { display: flex; gap: 4px; }
+.cat-select { border: 1px solid #ced4da; border-radius: 6px; padding: 3px 6px; font-size: 0.75rem; font-weight: 800; color: #212529; background: #ffffff; outline: none; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Side Grid (Venstre / Højre Kort) */
+.dhf-cod-sides-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px; }
+@media (max-width: 580px) {
+  .dhf-cod-sides-grid { grid-template-columns: 1fr; }
+}
+
+.side-card {
+  background: #ffffff; border: 2px solid #dee2e6; border-radius: 14px; padding: 10px;
+  transition: all 0.2s ease-in-out; position: relative;
+}
+.side-card.active-card-left {
+  border-color: #228be6; background: #f4f9ff; box-shadow: 0 0 0 3px rgba(34, 139, 230, 0.2);
+}
+.side-card.active-card-right {
+  border-color: #e03131; background: #fff5f5; box-shadow: 0 0 0 3px rgba(224, 49, 49, 0.2);
+}
+
+.side-card-header { display: flex; justify-content: center; align-items: center; font-size: 0.82rem; font-weight: 900; margin-bottom: 6px; height: 20px; }
+.left-header { color: #1c7ed6; }
+.right-header { color: #e03131; }
+
+.side-svg-container { width: 100%; margin-bottom: 6px; }
+.side-best-footer { font-size: 0.75rem; font-weight: 800; color: #495057; margin-top: 6px; text-align: center; }
+
+/* Trial Boxes */
+.trials-row { display: flex; gap: 6px; justify-content: center; }
+.trial-box {
+  flex: 1; background: #f8f9fa; border: 2px solid #ced4da; border-radius: 8px; padding: 5px 2px;
+  display: flex; flex-direction: column; align-items: center; cursor: pointer; transition: all 0.15s ease;
+}
+.trial-box:hover { border-color: #74c0fc; }
+.trial-box.active-target { border-color: #228be6; background: #e7f5ff; box-shadow: 0 0 0 2px rgba(34, 139, 230, 0.25); }
+.trial-box.completed { border-color: #51cf66; background: #ebfbee; }
+.trial-box.has-faults { border-color: #fa5252; background: #ffe3e3; }
+
+.trial-label { font-size: 0.68rem; font-weight: 800; color: #495057; margin-bottom: 2px; }
+.trial-input {
+  width: 100%; max-width: 80px; text-align: center; border: 1px solid #ced4da; border-radius: 5px;
+  font-size: 0.82rem; font-weight: 900; color: #212529; background: #ffffff; padding: 4px 1px; outline: none;
+}
+.trial-input:focus { border-color: #228be6; background: #ffffff; }
+.trial-unit { font-size: 0.62rem; font-weight: 700; color: #868e96; margin-top: 1px; }
+
+/* Fejl Checkliste Boks */
+.faults-checklist-card {
+  background: #f8f9fa; border: 1.5px solid #dee2e6; border-radius: 12px; padding: 10px 12px; margin-bottom: 12px; text-align: left;
+}
+.faults-title-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 4px; }
+.faults-title { font-size: 0.78rem; font-weight: 800; color: #343a40; }
+.faults-status-badge { font-size: 0.70rem; font-weight: 800; padding: 2px 8px; border-radius: 10px; }
+.faults-status-badge.ok-badge { background: #ebfbee; color: #2b8a3e; border: 1px solid #b2f2bb; }
+.faults-status-badge.fault-badge { background: #ffe3e3; color: #e03131; border: 1px solid #ffa8a8; }
+
+.faults-buttons-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 6px; }
+.fault-btn {
+  background: #ffffff; border: 1px solid #ced4da; border-radius: 6px; padding: 6px 4px;
+  font-size: 0.68rem; font-weight: 800; color: #495057; cursor: pointer; text-align: center; transition: all 0.15s ease;
+}
+.fault-btn.active-fault { background: #fa5252; color: #ffffff; border-color: #e03131; box-shadow: 0 2px 6px rgba(224, 49, 49, 0.3); }
+
+/* Main Control Card */
+.dhf-cod-main-control-card { background: #f1f3f5; border: 2.5px solid #dee2e6; border-radius: 14px; padding: 12px; margin-bottom: 12px; transition: all 0.2s ease; }
+.dhf-cod-main-control-card.is-timing { background: #e7f5ff; border-color: #74c0fc; }
+
+.active-trial-badge { font-size: 0.82rem; font-weight: 900; color: #1c7ed6; letter-spacing: 0.01em; }
+.main-timer-display { font-size: 3.6rem; font-weight: 900; color: #1e293b; font-variant-numeric: tabular-nums; line-height: 1.0; margin: 4px 0 8px 0; }
+
+.dhf-cod-controls { display: flex; gap: 8px; }
+.btn--giant-action {
+  flex: 3; padding: 14px; font-size: 1.15rem; font-weight: 900; border-radius: 10px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.35); transition: transform 0.1s ease, background-color 0.2s ease;
+}
+.btn--giant-action:active { transform: scale(0.97); }
+.btn--giant-action.is-running { background: #fa5252; box-shadow: 0 4px 12px rgba(250, 82, 82, 0.35); }
+
+.btn--secondary { flex: 1; background: #868e96; color: white; border: none; padding: 14px; border-radius: 10px; font-weight: 800; font-size: 0.85rem; cursor: pointer; }
+
+/* Stats Section */
+.dhf-cod-stats-wrapper { margin-top: 14px; text-align: left; }
+.section-title { font-size: 0.85rem; font-weight: 800; margin: 0 0 6px 0; color: #343a40; }
+
+.dhf-cod-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 8px 4px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.highlight-box { background: #fff9db; border-color: #fcc419; }
+.stat-box.alert-box { background: #ffe3e3; border-color: #ff6b6b; }
+
+.stat-value { font-size: 1.25rem; font-weight: 900; color: #212529; line-height: 1; }
+.stat-label { font-size: 0.60rem; font-weight: 800; color: #868e96; margin-top: 3px; }
+.stat-sub { font-size: 0.70rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+/* Chart Section */
+.dhf-cod-chart-wrapper { margin-top: 14px; text-align: left; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 10px; }
+.chart-container { background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 6px; width: 100%; }
+
+/* Log Tabel */
+.dhf-cod-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.dhf-cod-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.76rem; table-layout: fixed; margin: 0; }
+.dhf-cod-log-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.dhf-cod-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+/* Billed knap */
+.dhf-cod-screenshot-wrapper { margin-top: 12px; width: 100%; }
+.btn--screenshot {
+  width: 100%; padding: 10px; font-size: 0.90rem; font-weight: 800; border-radius: 10px;
+  border: none; background: #228be6; color: #ffffff; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); transition: background 0.15s ease;
+}
+.btn--screenshot:hover { background: #1c7ed6; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const DHF_NORMS = {
+    men: {
+      Senior: { excel: 4.40, over: 4.59, under: 4.75 },
+      U19:    { excel: 4.45, over: 4.64, under: 4.80 },
+      U17:    { benchmark: 4.75 },
+      U15:    { benchmark: 4.85 }
+    },
+    women: {
+      Senior: { excel: 4.60, over: 4.75, under: 4.90 },
+      U19:    { excel: 4.65, over: 4.79, under: 4.95 },
+      U17:    { benchmark: 4.85 },
+      U15:    { benchmark: 5.00 }
+    }
+  };
+
+  let isRunning = false;
+  let startTime = 0;
+  let elapsedSecs = 0;
+  let animFrameId = null;
+
+  let activeTarget = 'v1';
+  let selectedSound = 'on';
+
+  const trialFaults = { v1: [], v2: [], h1: [], h2: [] };
+
+  let audioCtx = null;
+  let wakeLock = null;
+
+  const widget = document.querySelector(".dhf-cod-widget");
+  if (!widget) return;
+
+  const selectGender = widget.querySelector("#select-gender");
+  const selectAge = widget.querySelector("#select-age");
+
+  const activeTrialIndicator = widget.querySelector("#active-trial-indicator");
+  const mainTimer = widget.querySelector("#main-timer");
+  const mainControlCard = widget.querySelector(".dhf-cod-main-control-card");
+
+  const btnStartStop = widget.querySelector(".btn-start-stop");
+  const btnReset = widget.querySelector(".btn-reset");
+
+  const cardLeft = widget.querySelector("#card-left");
+  const cardRight = widget.querySelector("#card-right");
+
+  const inputV1 = widget.querySelector("#input-v1");
+  const inputV2 = widget.querySelector("#input-v2");
+  const inputH1 = widget.querySelector("#input-h1");
+  const inputH2 = widget.querySelector("#input-h2");
+
+  const bestLeftDisplay = widget.querySelector("#best-left-display");
+  const bestRightDisplay = widget.querySelector("#best-right-display");
+
+  const statBestLeft = widget.querySelector("#stat-best-left");
+  const statBestRight = widget.querySelector("#stat-best-right");
+  const statRatingLeft = widget.querySelector("#stat-rating-left");
+  const statRatingRight = widget.querySelector("#stat-rating-right");
+
+  const asymBox = widget.querySelector("#asym-box");
+  const statAsymmetry = widget.querySelector("#stat-asymmetry");
+  const statAsymmetryLabel = widget.querySelector("#stat-asymmetry-label");
+
+  const faultBtns = widget.querySelectorAll(".fault-btn");
+  const faultStatusText = widget.querySelector("#fault-status-text");
+
+  const svgChart = widget.querySelector("#dhf-cod-svg-chart");
+  const logTbody = widget.querySelector(".log-tbody");
+  const btnClearLog = widget.querySelector(".btn-clear-log");
+  const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const pathLeft = widget.querySelector("#path-left");
+  const runnerDotLeft = widget.querySelector("#runner-dot-left");
+  let pathLeftLen = pathLeft ? pathLeft.getTotalLength() : 0;
+
+  const pathRight = widget.querySelector("#path-right");
+  const runnerDotRight = widget.querySelector("#runner-dot-right");
+  let pathRightLen = pathRight ? pathRight.getTotalLength() : 0;
+
+  const infoModal = widget.querySelector(".dhf-cod-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  const targetBoxes = {
+    v1: widget.querySelector("#box-v1"),
+    v2: widget.querySelector("#box-v2"),
+    h1: widget.querySelector("#box-h1"),
+    h2: widget.querySelector("#box-h2")
+  };
+
+  const inputs = { v1: inputV1, v2: inputV2, h1: inputH1, h2: inputH2 };
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+  setupToggleGroup("dhf-sound-toggle", (val) => { selectedSound = val; });
+
+  function playSound(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain); gain.connect(audioCtx.destination);
+    const now = audioCtx.currentTime;
+
+    if (type === 'start') {
+      osc.frequency.value = 1000;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+      osc.start(now); osc.stop(now + 0.25);
+    } else if (type === 'stop') {
+      osc.frequency.value = 1400;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.start(now); osc.stop(now + 0.3);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function setActiveTarget(targetKey) {
+    if (isRunning) return;
+    activeTarget = targetKey;
+    
+    Object.keys(targetBoxes).forEach(k => {
+      if (targetBoxes[k]) targetBoxes[k].classList.remove("active-target");
+    });
+    if (targetBoxes[targetKey]) {
+      targetBoxes[targetKey].classList.add("active-target");
+    }
+
+    const isLeft = targetKey.startsWith('v');
+    if (isLeft) {
+      cardLeft.className = "side-card active-card-left";
+      cardRight.className = "side-card";
+    } else {
+      cardLeft.className = "side-card";
+      cardRight.className = "side-card active-card-right";
+    }
+
+    const labels = {
+      v1: "🎯 AKTIV: VENSTRE FORSØG 1 (V1)",
+      v2: "🎯 AKTIV: VENSTRE FORSØG 2 (V2)",
+      h1: "🎯 AKTIV: HØJRE FORSØG 1 (H1)",
+      h2: "🎯 AKTIV: HØJRE FORSØG 2 (H2)"
+    };
+    activeTrialIndicator.textContent = labels[targetKey] || "🎯 AKTIVT FORSØG";
+
+    renderFaultButtonsForActiveTarget();
+  }
+
+  function renderFaultButtonsForActiveTarget() {
+    const faults = trialFaults[activeTarget] || [];
+    faultBtns.forEach(btn => {
+      const code = btn.dataset.fault;
+      if (faults.includes(code)) {
+        btn.classList.add("active-fault");
+      } else {
+        btn.classList.remove("active-fault");
+      }
+    });
+
+    if (faults.length > 0) {
+      faultStatusText.textContent = `⚠️ Fejl markeret (${faults.length})`;
+      faultStatusText.className = "faults-status-badge fault-badge";
+      if (targetBoxes[activeTarget]) targetBoxes[activeTarget].classList.add("has-faults");
+    } else {
+      faultStatusText.textContent = "✅ Godkendt udførsel";
+      faultStatusText.className = "faults-status-badge ok-badge";
+      if (targetBoxes[activeTarget]) targetBoxes[activeTarget].classList.remove("has-faults");
+    }
+  }
+
+  faultBtns.forEach(btn => {
+    btn.addEventListener("click", function() {
+      const code = btn.dataset.fault;
+      let list = trialFaults[activeTarget];
+      if (list.includes(code)) {
+        trialFaults[activeTarget] = list.filter(item => item !== code);
+      } else {
+        trialFaults[activeTarget].push(code);
+      }
+      renderFaultButtonsForActiveTarget();
+      updateCalculationsAndChart();
+    });
+  });
+
+  Object.keys(targetBoxes).forEach(k => {
+    if (targetBoxes[k]) {
+      targetBoxes[k].addEventListener("click", () => setActiveTarget(k));
+    }
+  });
+
+  Object.keys(inputs).forEach(k => {
+    if (inputs[k]) {
+      inputs[k].addEventListener("input", () => {
+        if (inputs[k].value !== "") {
+          targetBoxes[k].classList.add("completed");
+        } else {
+          targetBoxes[k].classList.remove("completed");
+        }
+        updateCalculationsAndChart();
+      });
+    }
+  });
+
+  selectGender.addEventListener("change", updateCalculationsAndChart);
+  selectAge.addEventListener("change", updateCalculationsAndChart);
+
+  function updateTimer() {
+    if (!isRunning) return;
+    const now = performance.now();
+    elapsedSecs = (now - startTime) / 1000;
+    mainTimer.textContent = `${elapsedSecs.toFixed(2)}s`;
+
+    const animPct = Math.min(1, elapsedSecs / 4.60);
+    if (activeTarget.startsWith('v')) {
+      if (runnerDotLeft && pathLeftLen > 0) {
+        runnerDotLeft.style.display = "block";
+        const pt = pathLeft.getPointAtLength(animPct * pathLeftLen);
+        runnerDotLeft.setAttribute("cx", pt.x);
+        runnerDotLeft.setAttribute("cy", pt.y);
+      }
+    } else {
+      if (runnerDotRight && pathRightLen > 0) {
+        runnerDotRight.style.display = "block";
+        const pt = pathRight.getPointAtLength(animPct * pathRightLen);
+        runnerDotRight.setAttribute("cx", pt.x);
+        runnerDotRight.setAttribute("cy", pt.y);
+      }
+    }
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function startTimer() {
+    isRunning = true;
+    requestWakeLock();
+    playSound('start');
+
+    startTime = performance.now();
+    mainControlCard.classList.add("is-timing");
+    btnStartStop.className = "btn btn--giant-action is-running";
+    btnStartStop.textContent = "🛑 STOP (I MÅL)";
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function stopTimer() {
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+    playSound('stop');
+
+    mainControlCard.classList.remove("is-timing");
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TIMING";
+
+    const timeVal = parseFloat(elapsedSecs.toFixed(2));
+    if (inputs[activeTarget]) {
+      inputs[activeTarget].value = timeVal.toFixed(2);
+      targetBoxes[activeTarget].classList.add("completed");
+    }
+
+    if (runnerDotLeft) runnerDotLeft.style.display = "none";
+    if (runnerDotRight) runnerDotRight.style.display = "none";
+
+    updateCalculationsAndChart();
+
+    if (activeTarget === 'v1') setActiveTarget('v2');
+    else if (activeTarget === 'v2') setActiveTarget('h1');
+    else if (activeTarget === 'h1') setActiveTarget('h2');
+  }
+
+  function evaluateDHFRating(time, gender, age) {
+    if (!time || isNaN(time) || time <= 0) return "--";
+    const data = DHF_NORMS[gender][age];
+    if (!data) return "--";
+
+    if (data.benchmark) {
+      if (time <= data.benchmark) return "✅ Godkendt";
+      return "⚠️ Mål ej nået";
+    } else {
+      if (time < data.excel) return "🔥 Fremragende";
+      if (time <= data.over) return "⚡ Over middel";
+      if (time <= data.under) return "👌 Under middel";
+      return "🏃 Jævnt";
+    }
+  }
+
+  function updateCalculationsAndChart() {
+    const gender = selectGender.value;
+    const age = selectAge.value;
+
+    const v1 = parseFloat(inputV1.value);
+    const v2 = parseFloat(inputV2.value);
+    const h1 = parseFloat(inputH1.value);
+    const h2 = parseFloat(inputH2.value);
+
+    const leftTimes = [v1, v2].filter(t => !isNaN(t) && t > 0);
+    const rightTimes = [h1, h2].filter(t => !isNaN(t) && t > 0);
+
+    const bestLeft = leftTimes.length > 0 ? Math.min(...leftTimes) : null;
+    const bestRight = rightTimes.length > 0 ? Math.min(...rightTimes) : null;
+
+    bestLeftDisplay.textContent = bestLeft ? `Bedste V: ${bestLeft.toFixed(2)}s` : "Bedste V: --";
+    bestRightDisplay.textContent = bestRight ? `Bedste H: ${bestRight.toFixed(2)}s` : "Bedste H: --";
+
+    if (bestLeft) {
+      statBestLeft.textContent = `${bestLeft.toFixed(2)}s`;
+      statRatingLeft.textContent = evaluateDHFRating(bestLeft, gender, age);
+    } else {
+      statBestLeft.textContent = "--";
+      statRatingLeft.textContent = "--";
+    }
+
+    if (bestRight) {
+      statBestRight.textContent = `${bestRight.toFixed(2)}s`;
+      statRatingRight.textContent = evaluateDHFRating(bestRight, gender, age);
+    } else {
+      statBestRight.textContent = "--";
+      statRatingRight.textContent = "--";
+    }
+
+    if (bestLeft && bestRight) {
+      const minT = Math.min(bestLeft, bestRight);
+      const diff = Math.abs(bestLeft - bestRight);
+      const asymPct = (diff / minT) * 100;
+
+      statAsymmetry.textContent = `${asymPct.toFixed(1)}%`;
+
+      if (asymPct > 5.0) {
+        asymBox.className = "stat-box alert-box";
+        const fastSide = bestLeft < bestRight ? "Hurtigst v. Venstre" : "Hurtigst v. Højre";
+        statAsymmetryLabel.textContent = `⚠️ Markant ubalance (${fastSide})`;
+      } else {
+        asymBox.className = "stat-box highlight-box";
+        statAsymmetryLabel.textContent = bestLeft === bestRight ? "Perfekt balance" : "Godkendt balance";
+      }
+
+      const overallBest = Math.min(bestLeft, bestRight);
+      const overallRating = evaluateDHFRating(overallBest, gender, age);
+
+      autoSaveToLocalStorage(bestLeft, bestRight, asymPct, `${selectAge.options[selectAge.selectedIndex].text} (${selectGender.value === 'men' ? 'Herre' : 'Dame'})`, overallRating);
+    } else {
+      statAsymmetry.textContent = "0.0%";
+      statAsymmetryLabel.textContent = "Kræver tid fra begge sider";
+      asymBox.className = "stat-box highlight-box";
+    }
+
+    renderBarChart(v1, v2, h1, h2);
+  }
+
+  function renderBarChart(v1, v2, h1, h2) {
+    const trials = [
+      { label: 'V1', time: v1, color: '#339af0' },
+      { label: 'V2', time: v2, color: '#1c7ed6' },
+      { label: 'H1', time: h1, color: '#ff8787' },
+      { label: 'H2', time: h2, color: '#e03131' }
+    ];
+
+    const activeTrials = trials.filter(t => !isNaN(t.time) && t.time > 0);
+
+    if (activeTrials.length === 0) {
+      svgChart.innerHTML = '<text x="240" y="85" text-anchor="middle" font-size="12" fill="#adb5bd">Gennemfør forsøg for at se tidssammenligningen</text>';
+      return;
+    }
+
+    const times = activeTrials.map(t => t.time);
+    const maxTime = Math.max(...times, 6.0);
+    const width = 480;
+    const height = 170;
+    const padL = 35;
+    const padR = 15;
+    const padT = 20;
+    const padB = 30;
+
+    let svgHtml = '';
+
+    const gridSteps = 4;
+    for (let i = 0; i <= gridSteps; i++) {
+      const tVal = (maxTime / gridSteps) * i;
+      const y = height - padB - (tVal / maxTime) * (height - padT - padB);
+      svgHtml += `<line x1="${padL}" y1="${y}" x2="${width - padR}" y2="${y}" stroke="#f1f3f5" stroke-width="1"/>`;
+      svgHtml += `<text x="${padL - 5}" y="${y + 4}" font-size="9" text-anchor="end" fill="#868e96" font-weight="bold">${tVal.toFixed(1)}s</text>`;
+    }
+
+    const numBars = 4;
+    const availWidth = width - padL - padR;
+    const barWidth = 42;
+    const barGap = (availWidth - (numBars * barWidth)) / (numBars + 1);
+
+    trials.forEach((t, i) => {
+      const x = padL + barGap + i * (barWidth + barGap);
+      const barHeight = (!isNaN(t.time) && t.time > 0) ? (t.time / maxTime) * (height - padT - padB) : 0;
+      const y = height - padB - barHeight;
+
+      if (!isNaN(t.time) && t.time > 0) {
+        svgHtml += `<rect x="${x}" y="${y}" width="${barWidth}" height="${barHeight}" rx="4" fill="${t.color}"/>`;
+        svgHtml += `<text x="${x + barWidth/2}" y="${y - 5}" font-size="9" text-anchor="middle" font-weight="900" fill="#212529">${t.time.toFixed(2)}s</text>`;
+      } else {
+        svgHtml += `<rect x="${x}" y="${height - padB - 2}" width="${barWidth}" height="2" fill="#e9ecef"/>`;
+      }
+
+      svgHtml += `<text x="${x + barWidth/2}" y="${height - 10}" font-size="9" text-anchor="middle" font-weight="bold" fill="#495057">${t.label}</text>`;
+    });
+
+    svgChart.innerHTML = svgHtml;
+  }
+
+  let lastSavedKey = "";
+  function autoSaveToLocalStorage(bestL, bestR, asymPct, catStr, ratingStr) {
+    const saveKey = `${bestL.toFixed(2)}_${bestR.toFixed(2)}_${catStr}`;
+    if (saveKey === lastSavedKey) return;
+    lastSavedKey = saveKey;
+
+    const logs = JSON.parse(localStorage.getItem("dhf_cod_test_logs") || "[]");
+    const now = new Date();
+    const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+    logs.unshift({
+      date: dateStr,
+      cat: catStr,
+      bestL: bestL.toFixed(2) + 's',
+      bestR: bestR.toFixed(2) + 's',
+      asym: asymPct.toFixed(1) + '%',
+      rating: ratingStr
+    });
+
+    localStorage.setItem("dhf_cod_test_logs", JSON.stringify(logs.slice(0, 20)));
+    renderLocalStorageLog();
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem("dhf_cod_test_logs") || "[]");
+    logTbody.innerHTML = "";
+
+    if (logs.length === 0) {
+      logTbody.innerHTML = '<tr class="empty-row"><td colspan="6" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+      return;
+    }
+
+    logs.forEach(item => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td>${item.cat}</td>
+        <td><strong>${item.bestL}</strong></td>
+        <td><strong>${item.bestR}</strong></td>
+        <td><span style="color:${parseFloat(item.asym) > 5 ? '#e03131' : '#2b8a3e'};">${item.asym}</span></td>
+        <td><strong>${item.rating}</strong></td>
+      `;
+      logTbody.appendChild(tr);
+    });
+  }
+
+  function resetWidget() {
+    if (isRunning) {
+      if (!confirm("Afbryd igangværende tidtagning?")) return;
+    }
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    elapsedSecs = 0;
+    mainTimer.textContent = "0.00s";
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TIMING";
+    mainControlCard.classList.remove("is-timing");
+
+    Object.keys(inputs).forEach(k => {
+      if (inputs[k]) {
+        inputs[k].value = "";
+        targetBoxes[k].classList.remove("completed");
+        targetBoxes[k].classList.remove("has-faults");
+      }
+      trialFaults[k] = [];
+    });
+
+    setActiveTarget('v1');
+    updateCalculationsAndChart();
+  }
+
+  function takeScreenshot() {
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `dhf-retningsskift-resultat-${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  btnStartStop.addEventListener("click", () => {
+    if (!isRunning) startTimer();
+    else stopTimer();
+  });
+
+  btnReset.addEventListener("click", resetWidget);
+
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Vil du slette alle gemte test fra hukommelsen?")) {
+      localStorage.removeItem("dhf_cod_test_logs");
+      renderLocalStorageLog();
+    }
+  });
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  setActiveTarget('v1');
+  renderLocalStorageLog();
+  updateCalculationsAndChart();
+});
+</script>

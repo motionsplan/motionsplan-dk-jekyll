@@ -1,75 +1,77 @@
-{% if page.url == '/' %}
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {% assign comma = false %}
+
+    {% if page.url == '/' %}
       {% if site.social.type == "Organization" %}
+      {
         "@type": "Organization",
-        "@id": "{{ site.url| absolute_url }}#organization",
+        "@id": "{{ site.url | absolute_url }}#organization",
         "legalName": {{ site.name | jsonify }},
         "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
         "logo": {{ site_og_image | jsonify }}{% endif %}{% if site.social.links %},
         "sameAs": {{ site.social.links | jsonify }}{% endif %}
+      }
       {% else %}
+      {
         "@type": "Person",
+        "@id": "{{ site.url | absolute_url }}#person",
         "name": {{ site.social.name | default: site.name | jsonify }},
         "url": {{ '/' | absolute_url | jsonify }}{% if site.social.links %},
         "sameAs": {{ site.social.links | jsonify }}{% endif %}
+      }
       {% endif %}
-    }
-</script>
-<script type="application/ld+json">
+      {% assign comma = true %}
+
+      {% if comma %},{% endif %}
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url | absolute_url }}#website",
+        "url": {{ site.url | absolute_url | jsonify }},
+        "name": {{ site.name | jsonify }},
+        "description": {{ site.description | jsonify }},
+        "inLanguage": {{ site.locale | jsonify }}
+      }
+
+      {% if comma %},{% endif %}
+      {
+        "@type": "ImageObject",
+        "@id": "{{ site.url | absolute_url }}#primaryimage",
+        "inLanguage": {{ site.locale | jsonify }},
+        "url": {{ page.og_image | default: site.og_image | default: site.logo | absolute_url | jsonify }},
+        "contentUrl": {{ page.og_image | default: site.og_image | default: site.logo | absolute_url | jsonify }}
+      }
+    {% endif %}
+
+    {% if comma %},{% endif %}
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebSite",
-          "@id": "{{ site.url | absolute_url }}#website",
-          "url": {{ site.url | absolute_url | jsonify }},
-          "name": {{ site.name | jsonify }},
-          "description": {{ site.description  | jsonify }},
-          "inLanguage": {{ site.locale | jsonify }}
-        },
-        {
-          "@type": "ImageObject",
-          "@id": "{{ site.url | absolute_url }}#primaryimage",
-          "inLanguage": {{ site.locale | jsonify }},
-          "url": {{ default: page.og_image | default: site.og_image | default: site.logo | absolute_url | jsonify }},
-          "contentUrl": {{ default: page.og_image | default: site.og_image | default: site.logo | absolute_url | jsonify }}
-        }
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}#webpage",
+      "name": {{ seo_title | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "description": {{ page.description | default: page.excerpt | strip_newlines | strip | jsonify }},
+      "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" },
+      "datePublished": {{ page.date | default: page.last_modified_at | date_to_xmlschema | jsonify }},
+      "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+      {% if page.about %}
+      "about": {
+        "@type": "Thing",
+        "name": {{ page.about.name | jsonify }},
+        "url": {{ page.about.url | absolute_url | jsonify }}
+      },
+      {% endif %}
+      "inLanguage": {{ page.locale | default: site.locale | jsonify }},
+      "potentialAction": [
+        { "@type": "ReadAction", "target": [{{ page.url | absolute_url | jsonify }}] }
       ]
     }
-</script>
-{% endif %}
+    {% assign comma = true %}
 
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "{{ page.url | absolute_url }}#webpage",
-        "name": {{ seo_title | jsonify }},
-        "url": {{ page.url | absolute_url | jsonify }},
-        "description": {{ page.description | default: page.excerpt | strip_newlines | strip | jsonify }},
-        "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" },
-        "datePublished": {{ page.date | default: page.last_modified_at | date_to_xmlschema | jsonify }},
-        "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
-        {% if page.about %}
-        "about": {
-            "@type": "Thing",
-            "name": {{ page.about.name | jsonify }},
-            "url": {{ page.about.url | absolute_url | jsonify }}
-        },
-        {% endif %}
-        "inLanguage": {{ page.locale | default: site.locale | jsonify }},
-        "potentialAction": [
-          { "@type": "ReadAction", "target": [{{ page.url | absolute_url | jsonify }}] }
-        ]
-    }
-</script>
-
-{% if og_type == "article" %}
-<script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
+    {% if og_type == "article" %}
+      {% if comma %},{% endif %}
+      {
         "@type": "Article",
         "@id": "{{ page.url | absolute_url }}#article",
         "inLanguage": {{ site.locale | jsonify }},
@@ -79,41 +81,66 @@
         "description": {{ page.excerpt | strip_newlines | strip | jsonify }},
         "articleBody": {{ page.content | strip_html | jsonify }},
         "image": [
-            {% if page_large_image %}
-                {{ page_large_image | absolute_url | jsonify }}
-            {% endif %}
+          {% if page_large_image %}
+            {{ page_large_image | absolute_url | jsonify }}
+          {% endif %}
         ],
         "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": {{ page.url | absolute_url | jsonify }}
+          "@type": "WebPage",
+          "@id": "{{ page.url | absolute_url }}#webpage"
         },
         "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
         "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
-        "isAccessibleForFree": "True",
+        "isAccessibleForFree": true,
         "author": {
-            "@type": "Person",
-            "name": {{ author.name | jsonify }},
-            "description": {{ author.bio | jsonify }},
-            {% if site.social.links %}"sameAs": [{% for link in author.links %}{% if link.url contains 'http' %}{{ link.url | jsonify }}{% if forloop.last == false %},{% endif %}{% endif %}{% endfor %}],{% endif %}
-            "image": {
-                "@type": "ImageObject",
-                "url": {{ author.avatar | absolute_url | jsonify }}
-            },
-            "publishingPrinciples": {{ "/om/" | absolute_url | jsonify }}
+          "@type": "Person",
+          "name": {{ author.name | jsonify }},
+          "description": {{ author.bio | jsonify }},
+          {% if site.social.links %}"sameAs": [{% for link in author.links %}{% if link.url contains 'http' %}{{ link.url | jsonify }}{% if forloop.last == false %},{% endif %}{% endif %}{% endfor %}],{% endif %}
+          "image": {
+            "@type": "ImageObject",
+            "url": {{ author.avatar | absolute_url | jsonify }}
+          },
+          "publishingPrinciples": {{ "/om/" | absolute_url | jsonify }}
         },
         "publisher": {
-            "@type": "Organization",
-            "name": {{ site.name | jsonify }},
-            "description": {{ site.description | jsonify }},
-            "sameAs": {{ site.url | absolute_url | jsonify }},
-            "logo": {
-                "@type": "ImageObject",
-                "url": {{ site.logo | absolute_url | jsonify }}
-            },
-            "publishingPrinciples": {{ "/om/" | absolute_url | jsonify }}
+          "@type": "Organization",
+          "name": {{ site.name | jsonify }},
+          "description": {{ site.description | jsonify }},
+          "sameAs": {{ site.url | absolute_url | jsonify }},
+          "logo": {
+            "@type": "ImageObject",
+            "url": {{ site.logo | absolute_url | jsonify }}
+          },
+          "publishingPrinciples": {{ "/om/" | absolute_url | jsonify }}
         }
-    }
+      }
+      {% assign comma = true %}
+    {% endif %}
+
+    {% if page.tools %}
+      {% for tool in page.tools %}
+        {% if comma %},{% endif %}
+        {
+          "@type": "WebApplication",
+          "@id": "{{ page.url | absolute_url }}#{{ tool.title | slugify }}",
+          "name": {{ tool.title | jsonify }},
+          "description": {{ tool.description | default: tool.descrip | jsonify }},
+          "applicationCategory": {{ tool.category | default: "HealthAndFitnessApplication" | jsonify }},
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "{{ page.url | absolute_url }}#webpage"
+          }
+        }
+        {% assign comma = true %}
+      {% endfor %}
+    {% endif %}
+  ]
+}
 </script>
-{% endif %}
-
-

@@ -27,10 +27,25 @@ tags:
   - tdee
   - pal
 meta:
-  name: Dagligt ligevægtsindtag og samlet energibehov (TDEE)
-  equipment: ingen
-  measures: dagligt energiforbrug
-  type: energiforbrug
+  name: "Ligevægtsindtag og TDEE"
+  measures: "ligevægtsindtag, energiforbrug, TDEE, PAL, BMR"
+  type: "beregner"
+  equipment: "ingen"
+  intensity: "ingen"
+  method: "formel"
+tools:
+  - title: "Ligevægtsindtag & TDEE Beregner"
+    description: "Beregn dit daglige ligevægtsindtag (TDEE) ud fra dit hvilestofskifte (BMR) og dit fysiske aktivitetsniveau (PAL) med enten hurtig PAL-faktor eller 24-timers tidsregistrering."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "ligevægtsindtag, energibehov"
+    category: "HealthAndFitnessApplication"
+  - title: "Vægtændring & Kalorieberegner"
+    description: "Beregn din potentielle vægtændring over tid baseret på et specifikt kalorieunderskud (cut) eller kalorieoverskud (bulk)."
+    anchor: "#beregn-din-potentielle-vaegtaendring-over-tid"
+    type: "beregner"
+    measures: "vægtændring, vægttab"
+    category: "HealthAndFitnessApplication"
 popular: 'true'
 last_modified_at: '2026-07-24T00:00:00Z'
 toc: 'true'

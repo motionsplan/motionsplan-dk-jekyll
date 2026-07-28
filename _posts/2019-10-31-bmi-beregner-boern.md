@@ -18,10 +18,20 @@ tags:
 - kropskomposition
 - børn
 meta:
-  name: BMI-beregner for børn
-  equipment: målebånd og vægt
-  measures: BMI
-  type: kropskomposition
+  name: "BMI-beregner for børn"
+  measures: "BMI"
+  type: "beregner"
+  equipment: "vaegt-og-maalebaand"
+  target: "boern"
+  intensity: "ingen"
+  method: "formel"
+tools:
+  - title: "BMI Beregner for Børn & Unge"
+    description: "Beregn BMI for børn og teenagere (2-19 år) og få en præcis vurdering i forhold til WHO og IOTF's alders- og kønsspecifikke normer."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "BMI"
+    category: "HealthAndFitnessApplication"
 popular: 'true'
 last_modified_at: '2026-07-13T10:14:14Z'
 faq:

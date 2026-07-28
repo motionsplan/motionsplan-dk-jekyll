@@ -13,17 +13,11 @@ header:
   - label: <i class='fas fa-print'></i> Print tabel →
     url: '#print'
 category:
-- Beregnere
 - Hastighed
 tags:
 - tabel
 - løb
 - cykling
-meta:
-  name: Beregn hastighed i km/t, m/s og min/km
-  equipment: ingen
-  measures: hastighed og pace
-  type: løb, gang og cykling
 last_modified_at: '2026-07-24T00:00:00Z'
 toc: 'true'
 feature_row:
