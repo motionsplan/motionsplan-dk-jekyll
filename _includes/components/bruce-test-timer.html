@@ -1,0 +1,714 @@
+<div class="bruce-widget">
+  
+  <!-- Info Modal -->
+  <div class="bruce-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Bruce Protocol Løbetesten</h4>
+        <span class="modal-subtitle-text">Standardiseret maksimal belastningstest på løbebånd</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>TESTENS OPBYGNING:</strong><br>
+        1. Testen udføres på et motoriseret løbebånd.<br>
+        2. Hvert trin varer nøjagtigt <strong>3 minutter</strong>.<br>
+        3. For hvert trin øges både <strong>hastigheden (km/t)</strong> og <strong>hældningen (%)</strong>.<br>
+        4. Testen fortsætter indtil atleten når udmattelse og stopper.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Bruce Protokol Skema</h5>
+      <table style="width:100%; font-size:0.80rem; border-collapse:collapse; text-align:center;">
+        <thead>
+          <tr style="background:#f1f3f5; font-weight:bold;">
+            <th style="padding:4px;">Trin</th>
+            <th style="padding:4px;">Tidsrum</th>
+            <th style="padding:4px;">Hastighed</th>
+            <th style="padding:4px;">Hældning</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Trin 1</td><td>0 - 3 min</td><td>2,7 km/t</td><td>10 %</td></tr>
+          <tr><td>Trin 2</td><td>3 - 6 min</td><td>4,0 km/t</td><td>12 %</td></tr>
+          <tr><td>Trin 3</td><td>6 - 9 min</td><td>5,5 km/t</td><td>14 %</td></tr>
+          <tr><td>Trin 4</td><td>9 - 12 min</td><td>6,8 km/t</td><td>16 %</td></tr>
+          <tr><td>Trin 5</td><td>12 - 15 min</td><td>8,0 km/t</td><td>18 %</td></tr>
+          <tr><td>Trin 6</td><td>15 - 18 min</td><td>8,8 km/t</td><td>20 %</td></tr>
+          <tr><td>Trin 7</td><td>18 - 21 min</td><td>9,6 km/t</td><td>22 %</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="bruce-topbar">
+    <div class="bruce-header-card">
+      <div class="card-title-row">
+        <span class="card-title">Bruce Protocol Løbetest Timer</span>
+        <button class="info-icon-btn" type="button" title="Læs om opsætning og regler">ℹ️</button>
+      </div>
+      <div class="card-desc">Automatisk 3-minutters timer med visuel advarsel før trinskift.</div>
+    </div>
+
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="bruce-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- 1. ØVERST: SAMLET TID & HVED-FREMGANGSBAR -->
+  <div class="bruce-total-timer-card" id="bruce-total-card">
+    <div class="timer-top-label">⏱️ SAMLET TESTTID</div>
+    <div class="main-timer-display" id="bruce-main-timer">00:00</div>
+    <div class="total-progress-bar-wrapper">
+      <div class="total-progress-bar-fill" id="total-progress-fill" style="width: 0%;"></div>
+    </div>
+  </div>
+
+  <!-- 2. MIDTE: 2 MARKANTE BOKSE (NUVÆRENDE & NÆSTE TRIN) -->
+  <div class="bruce-stages-grid">
+    
+    <!-- NUVÆRENDE TRIN KORT (TÆLLER OP) -->
+    <div class="stage-card current-stage-card" id="card-current-stage">
+      <div class="stage-card-header">
+        <span class="badge-current">⚡ NUVÆRENDE: TRIN <span id="current-stage-num">1</span></span>
+      </div>
+      <div class="stage-metrics">
+        <div class="metric-box">
+          <span class="metric-label">HASTIGHED</span>
+          <span class="metric-val" id="current-speed">2,7 <small>km/t</small></span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">HÆLDNING</span>
+          <span class="metric-val" id="current-incline">10<small>%</small></span>
+        </div>
+      </div>
+      
+      <!-- Fremgangsbar TÆLLER OP -->
+      <div class="stage-bar-container">
+        <div class="stage-bar-label">
+          <span>Trin tid:</span>
+          <span id="current-stage-time-elapsed">00:00 / 03:00</span>
+        </div>
+        <div class="stage-progress-track">
+          <div class="stage-progress-fill fill-up" id="current-stage-fill" style="width: 0%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NÆSTE TRIN KORT (TÆLLER NED & HAR ADVARSELS-PULSERING) -->
+    <div class="stage-card next-stage-card" id="card-next-stage">
+      <div class="stage-card-header">
+        <span class="badge-next">⏭️ NÆSTE: TRIN <span id="next-stage-num">2</span></span>
+      </div>
+      <div class="stage-metrics">
+        <div class="metric-box">
+          <span class="metric-label">NÆSTE HASTIGHED</span>
+          <span class="metric-val" id="next-speed">4,0 <small>km/t</small></span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-label">NÆSTE HÆLDNING</span>
+          <span class="metric-val" id="next-incline">12<small>%</small></span>
+        </div>
+      </div>
+
+      <!-- Fremgangsbar TÆLLER NED -->
+      <div class="stage-bar-container">
+        <div class="stage-bar-label">
+          <span>Skift om:</span>
+          <span id="next-stage-time-remaining" class="time-rem-val">03:00</span>
+        </div>
+        <div class="stage-progress-track">
+          <div class="stage-progress-fill fill-down" id="next-stage-fill" style="width: 100%;"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 3. NEDERST: START & NULSTIL KNAPPER -->
+  <div class="bruce-controls-card">
+    <div class="bruce-controls">
+      <button class="btn btn--giant-action btn-start-stop" id="btn-bruce-start-stop" type="button">🚀 START TEST</button>
+      <button class="btn btn--icon-reset btn-reset" id="btn-bruce-reset" type="button" title="Nulstil Alt">🗑️</button>
+    </div>
+  </div>
+
+  <!-- 4. SAMMENSMELTET RESULTAT KORT (VISES NÅR MAN KLIKKER STOP) -->
+  <div class="bruce-result-card" id="bruce-result-card" style="display: none;">
+    <h5 class="result-title">🏁 Test Resultat Registreret</h5>
+    <div class="merged-result-box">
+      <div class="merged-res-col left-col">
+        <span class="res-sub-label">SAMLET TID</span>
+        <span class="res-main-time" id="res-total-time">00:00</span>
+      </div>
+      <div class="merged-res-divider"></div>
+      <div class="merged-res-col right-col">
+        <span class="res-sub-label">OPNÅET BELASTNING</span>
+        <span class="res-main-stage" id="res-final-stage">Trin 1</span>
+        <span class="res-main-load" id="res-final-load">2,7 km/t  •  10% Hældning</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- BROWSER LOG TABEL -->
+  <div class="bruce-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="bruce-log-table">
+      <thead>
+        <tr>
+          <th>Dato & Tid</th>
+          <th>Samlet Tid</th>
+          <th>Opnået Trin</th>
+          <th>Slut Belastning</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="4" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SCREENSHOT BUTTON -->
+  <div class="bruce-screenshot-wrapper">
+    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag et billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.bruce-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 16px;
+  max-width: 680px; width: 100%; margin: 1.5rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.bruce-widget * { box-sizing: border-box; }
+
+.bruce-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; text-align: left; }
+.bruce-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.3; }
+
+/* Modal */
+.bruce-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Settings */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 2px; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* 1. TOTAL TIMER CARD (ØVERST) */
+.bruce-total-timer-card {
+  background: #f8f9fa; border: 2px solid #dee2e6; border-radius: 14px; padding: 12px; margin-bottom: 12px;
+  transition: all 0.2s ease;
+}
+.bruce-total-timer-card.is-running { background: #f4f9ff; border-color: #a5d8ff; }
+.timer-top-label { font-size: 0.72rem; font-weight: 900; color: #868e96; letter-spacing: 0.03em; }
+.main-timer-display {
+  font-size: 4.0rem; font-weight: 900; color: #1e293b; font-variant-numeric: tabular-nums; line-height: 0.95; margin: 2px 0 8px 0;
+}
+
+.total-progress-bar-wrapper {
+  width: 100%; height: 8px; background: #e9ecef; border-radius: 4px; overflow: hidden;
+}
+.total-progress-bar-fill {
+  height: 100%; background: #228be6; width: 0%; transition: width 0.2s linear;
+}
+
+/* 2. STAGES GRID (MIDTEN - 2 MARKANTE BOKSE) */
+.bruce-stages-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px;
+}
+@media (max-width: 560px) {
+  .bruce-stages-grid { grid-template-columns: 1fr; }
+}
+
+.stage-card {
+  background: #ffffff; border: 2.5px solid #dee2e6; border-radius: 14px; padding: 12px 10px;
+  display: flex; flex-direction: column; justify-content: space-between; text-align: center;
+  transition: all 0.25s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+/* NUVÆRENDE TRIN BOKS (BLÅ/GRØN) */
+.current-stage-card {
+  border-color: #228be6; background: #f4f9ff; box-shadow: 0 0 0 3px rgba(34, 139, 230, 0.15);
+}
+.badge-current { font-size: 0.82rem; font-weight: 900; color: #1c7ed6; letter-spacing: 0.01em; }
+
+/* NÆSTE TRIN BOKS (ORANGE) */
+.next-stage-card {
+  border-color: #f59f00; background: #fff9db;
+}
+.badge-next { font-size: 0.82rem; font-weight: 900; color: #d9480f; letter-spacing: 0.01em; }
+
+/* VISUEL ADVARSEL VED SKIFT (< 15 SEKUNDER TILBAG) */
+@keyframes warningPulse {
+  0% { transform: scale(1); border-color: #fa5252; box-shadow: 0 0 0 0 rgba(250, 82, 82, 0.4); }
+  50% { transform: scale(1.015); border-color: #e03131; background: #ffe3e3; box-shadow: 0 0 0 8px rgba(250, 82, 82, 0); }
+  100% { transform: scale(1); border-color: #fa5252; box-shadow: 0 0 0 0 rgba(250, 82, 82, 0); }
+}
+
+.next-stage-card.is-warning {
+  animation: warningPulse 1.2s infinite ease-in-out;
+}
+.next-stage-card.is-warning .badge-next { color: #e03131; }
+.next-stage-card.is-warning .time-rem-val { color: #e03131; font-weight: 900; }
+
+.stage-metrics { display: flex; justify-content: space-around; gap: 4px; margin: 8px 0; }
+.metric-box { display: flex; flex-direction: column; align-items: center; }
+.metric-label { font-size: 0.60rem; font-weight: 800; color: #868e96; }
+.metric-val { font-size: 1.45rem; font-weight: 900; color: #212529; line-height: 1.1; }
+.metric-val small { font-size: 0.72rem; font-weight: 700; color: #495057; margin-left: 1px; }
+
+/* TRIN FREMGANGSBARE */
+.stage-bar-container { margin-top: 4px; display: flex; flex-direction: column; gap: 4px; }
+.stage-bar-label { display: flex; justify-content: space-between; font-size: 0.68rem; font-weight: 800; color: #495057; }
+.stage-progress-track {
+  width: 100%; height: 10px; background: #e9ecef; border-radius: 5px; overflow: hidden;
+}
+.stage-progress-fill { height: 100%; transition: width 0.2s linear; }
+
+/* Farver på barer */
+.fill-up { background: #228be6; }
+.fill-down { background: #f59f00; }
+.next-stage-card.is-warning .fill-down { background: #e03131; }
+
+/* 3. CONTROLS CARD (NEDERST) */
+.bruce-controls-card { margin-bottom: 12px; }
+.bruce-controls { display: flex; gap: 8px; width: 100%; }
+.btn--giant-action {
+  flex: 1; height: 46px; font-size: 1.1rem; font-weight: 900; border-radius: 10px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.3); transition: all 0.15s ease; display: flex; align-items: center; justify-content: center;
+}
+.btn--giant-action.is-running {
+  background: #fa5252; box-shadow: 0 4px 12px rgba(250, 82, 82, 0.35);
+}
+.btn--giant-action:active { transform: scale(0.98); }
+
+.btn--icon-reset {
+  width: 46px; height: 46px; background: #868e96; color: white; border: none; border-radius: 10px;
+  font-size: 1.15rem; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  transition: background 0.15s ease;
+}
+.btn--icon-reset:hover { background: #495057; }
+
+/* 4. SAMMENSMELTET RESULTAT KORT */
+.bruce-result-card {
+  background: #ebfbee; border: 2px solid #b2f2bb; border-radius: 12px; padding: 12px; margin-bottom: 12px; text-align: center;
+}
+.result-title { font-size: 0.88rem; font-weight: 900; color: #2b8a3e; margin: 0 0 8px 0; }
+
+.merged-result-box {
+  background: #ffffff; border: 1.5px solid #d3f9d8; border-radius: 10px; padding: 10px 14px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+.merged-res-col { display: flex; flex-direction: column; align-items: center; flex: 1; }
+.merged-res-divider { width: 1px; height: 40px; background: #d3f9d8; }
+
+.res-sub-label { font-size: 0.60rem; font-weight: 800; color: #868e96; margin-bottom: 2px; }
+.res-main-time { font-size: 1.6rem; font-weight: 900; color: #2b8a3e; line-height: 1; }
+.res-main-stage { font-size: 1.15rem; font-weight: 900; color: #212529; line-height: 1.1; }
+.res-main-load { font-size: 0.78rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+/* Log Table */
+.bruce-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.bruce-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.78rem; table-layout: fixed; margin: 0; }
+.bruce-log-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.bruce-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+/* Billed knap */
+.bruce-screenshot-wrapper { margin-top: 12px; width: 100%; }
+.btn--screenshot {
+  width: 100%; padding: 10px; font-size: 0.90rem; font-weight: 800; border-radius: 10px;
+  border: none; background: #228be6; color: #ffffff; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); transition: background 0.15s ease;
+}
+.btn--screenshot:hover { background: #1c7ed6; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // BRUCE PROTOCOL STAGES DATA (Hvert trin er 3 minutter = 180s)
+  const STAGES = [
+    { stage: 1, minMin: 0,  maxMin: 3,  speed: "2,7", incline: "10" },
+    { stage: 2, minMin: 3,  maxMin: 6,  speed: "4,0", incline: "12" },
+    { stage: 3, minMin: 6,  maxMin: 9,  speed: "5,5", incline: "14" },
+    { stage: 4, minMin: 9,  maxMin: 12, speed: "6,8", incline: "16" },
+    { stage: 5, minMin: 12, maxMin: 15, speed: "8,0", incline: "18" },
+    { stage: 6, minMin: 15, maxMin: 18, speed: "8,8", incline: "20" },
+    { stage: 7, minMin: 18, maxMin: 21, speed: "9,6", incline: "22" },
+    { stage: 8, minMin: 21, maxMin: 24, speed: "10,5", incline: "24" }
+  ];
+
+  let isRunning = false;
+  let startTime = 0;
+  let elapsedTimeMs = 0;
+  let animFrameId = null;
+
+  let lastStageIndex = 0;
+  let lastWarnedSec = -1;
+  let selectedSound = 'on';
+
+  let audioCtx = null;
+  let wakeLock = null;
+
+  const widget = document.querySelector(".bruce-widget");
+  if (!widget) return;
+
+  const bruceTotalCard = widget.querySelector("#bruce-total-card");
+  const bruceMainTimer = widget.querySelector("#bruce-main-timer");
+  const totalProgressFill = widget.querySelector("#total-progress-fill");
+
+  const cardNextStage = widget.querySelector("#card-next-stage");
+
+  const btnStartStop = widget.querySelector("#btn-bruce-start-stop");
+  const btnReset = widget.querySelector("#btn-bruce-reset");
+
+  // Current Stage elements
+  const currentStageNum = widget.querySelector("#current-stage-num");
+  const currentSpeed = widget.querySelector("#current-speed");
+  const currentIncline = widget.querySelector("#current-incline");
+  const currentStageTimeElapsed = widget.querySelector("#current-stage-time-elapsed");
+  const currentStageFill = widget.querySelector("#current-stage-fill");
+
+  // Next Stage elements
+  const nextStageNum = widget.querySelector("#next-stage-num");
+  const nextSpeed = widget.querySelector("#next-speed");
+  const nextIncline = widget.querySelector("#next-incline");
+  const nextStageTimeRemaining = widget.querySelector("#next-stage-time-remaining");
+  const nextStageFill = widget.querySelector("#next-stage-fill");
+
+  // Result card elements
+  const bruceResultCard = widget.querySelector("#bruce-result-card");
+  const resTotalTime = widget.querySelector("#res-total-time");
+  const resFinalStage = widget.querySelector("#res-final-stage");
+  const resFinalLoad = widget.querySelector("#res-final-load");
+
+  const logTbody = widget.querySelector(".log-tbody");
+  const btnClearLog = widget.querySelector(".btn-clear-log");
+  const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const infoModal = widget.querySelector(".bruce-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+  setupToggleGroup("bruce-sound-toggle", (val) => { selectedSound = val; });
+
+  function playSound(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain); gain.connect(audioCtx.destination);
+    const now = audioCtx.currentTime;
+
+    if (type === 'warn') {
+      osc.frequency.value = 880;
+      gain.gain.setValueAtTime(0.2, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+      osc.start(now); osc.stop(now + 0.15);
+    } else if (type === 'stage') {
+      osc.frequency.value = 1200;
+      gain.gain.setValueAtTime(0.4, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+      osc.start(now); osc.stop(now + 0.4);
+    } else if (type === 'stop') {
+      osc.frequency.value = 500;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.start(now); osc.stop(now + 0.3);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function formatMMSS(totalSeconds) {
+    const mins = Math.floor(totalSeconds / 60);
+    const secs = Math.floor(totalSeconds % 60);
+    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  }
+
+  function updateTimer() {
+    if (!isRunning) return;
+
+    const now = performance.now();
+    elapsedTimeMs = now - startTime;
+    const totalSecs = elapsedTimeMs / 1000;
+
+    bruceMainTimer.textContent = formatMMSS(totalSecs);
+
+    // Samlet overordnet progress (op til 21 min)
+    const maxProtocolSecs = 21 * 60;
+    const totalPct = Math.min(100, (totalSecs / maxProtocolSecs) * 100);
+    totalProgressFill.style.width = `${totalPct}%`;
+
+    // Beregn trin (180 sekunder pr trin)
+    const stageIndex = Math.floor(totalSecs / 180);
+    const currStageData = STAGES[Math.min(stageIndex, STAGES.length - 1)];
+    const nextStageData = STAGES[Math.min(stageIndex + 1, STAGES.length - 1)];
+
+    // Trin fremskridt i sekunder (0 til 180)
+    const secInStage = totalSecs % 180;
+    const secRemainingInStage = 180 - secInStage;
+
+    // VISUEL ADVARSEL VED SKIFT (< 15 SEKUNDER TILBAGE)
+    if (secRemainingInStage <= 15) {
+      cardNextStage.classList.add("is-warning");
+    } else {
+      cardNextStage.classList.remove("is-warning");
+    }
+
+    // Lyd-advarsel
+    const currentSecInt = Math.floor(totalSecs);
+    if (currentSecInt !== lastWarnedSec) {
+      if (secRemainingInStage <= 10 && secRemainingInStage > 0 && Math.floor(secRemainingInStage) % 2 === 0) {
+        playSound('warn');
+      }
+      if (stageIndex > lastStageIndex) {
+        playSound('stage');
+        lastStageIndex = stageIndex;
+      }
+      lastWarnedSec = currentSecInt;
+    }
+
+    // OPDATER NUVÆRENDE TRIN
+    currentStageNum.textContent = currStageData.stage;
+    currentSpeed.innerHTML = `${currStageData.speed} <small>km/t</small>`;
+    currentIncline.innerHTML = `${currStageData.incline}<small>%</small>`;
+    currentStageTimeElapsed.textContent = `${formatMMSS(secInStage)} / 03:00`;
+    
+    // BAR 1: TÆLLER OP (0 -> 100%)
+    const fillUpPct = (secInStage / 180) * 100;
+    currentStageFill.style.width = `${fillUpPct}%`;
+
+    // OPDATER NÆSTE TRIN
+    if (stageIndex + 1 < STAGES.length) {
+      nextStageNum.textContent = nextStageData.stage;
+      nextSpeed.innerHTML = `${nextStageData.speed} <small>km/t</small>`;
+      nextIncline.innerHTML = `${nextStageData.incline}<small>%</small>`;
+      nextStageTimeRemaining.textContent = formatMMSS(secRemainingInStage);
+      
+      // BAR 2: TÆLLER NED (100 -> 0%)
+      const fillDownPct = (secRemainingInStage / 180) * 100;
+      nextStageFill.style.width = `${fillDownPct}%`;
+    } else {
+      nextStageNum.textContent = "MAX";
+      nextSpeed.innerHTML = `${currStageData.speed} <small>km/t</small>`;
+      nextIncline.innerHTML = `${currStageData.incline}<small>%</small>`;
+      nextStageTimeRemaining.textContent = "MAX TRIN";
+      nextStageFill.style.width = "0%";
+    }
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function startTest() {
+    isRunning = true;
+    requestWakeLock();
+
+    startTime = performance.now() - elapsedTimeMs;
+    bruceTotalCard.classList.add("is-running");
+    btnStartStop.className = "btn btn--giant-action is-running";
+    btnStartStop.textContent = "🛑 STOP TEST (UDMATTELSE)";
+    bruceResultCard.style.display = "none";
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function stopTest() {
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+    playSound('stop');
+
+    bruceTotalCard.classList.remove("is-running");
+    cardNextStage.classList.remove("is-warning");
+
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TEST";
+
+    // Beregn endeligt resultat
+    const totalSecs = elapsedTimeMs / 1000;
+    const finalFormattedTime = formatMMSS(totalSecs);
+
+    const stageIndex = Math.floor(totalSecs / 180);
+    const finalStageData = STAGES[Math.min(stageIndex, STAGES.length - 1)];
+
+    resTotalTime.textContent = finalFormattedTime;
+    resFinalStage.textContent = `Trin ${finalStageData.stage}`;
+    resFinalLoad.textContent = `${finalStageData.speed} km/t  •  ${finalStageData.incline}% Hældning`;
+
+    bruceResultCard.style.display = "block";
+
+    autoSaveToLocalStorage(finalFormattedTime, finalStageData.stage, `${finalStageData.speed} km/t (${finalStageData.incline}%)`);
+  }
+
+  function resetTest() {
+    if (isRunning) {
+      if (!confirm("Afbryd igangværende Bruce-test?")) return;
+    }
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    elapsedTimeMs = 0;
+    lastStageIndex = 0;
+    lastWarnedSec = -1;
+
+    bruceMainTimer.textContent = "00:00";
+    totalProgressFill.style.width = "0%";
+    bruceTotalCard.classList.remove("is-running");
+    cardNextStage.classList.remove("is-warning");
+
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TEST";
+
+    // Reset til Trin 1 & Trin 2
+    const s1 = STAGES[0];
+    currentStageNum.textContent = s1.stage;
+    currentSpeed.innerHTML = `${s1.speed} <small>km/t</small>`;
+    currentIncline.innerHTML = `${s1.incline}<small>%</small>`;
+    currentStageTimeElapsed.textContent = "00:00 / 03:00";
+    currentStageFill.style.width = "0%";
+
+    const s2 = STAGES[1];
+    nextStageNum.textContent = s2.stage;
+    nextSpeed.innerHTML = `${s2.speed} <small>km/t</small>`;
+    nextIncline.innerHTML = `${s2.incline}<small>%</small>`;
+    nextStageTimeRemaining.textContent = "03:00";
+    nextStageFill.style.width = "100%";
+
+    bruceResultCard.style.display = "none";
+  }
+
+  let lastSavedKey = "";
+  function autoSaveToLocalStorage(timeStr, stageNum, loadStr) {
+    const saveKey = `${timeStr}_${stageNum}`;
+    if (saveKey === lastSavedKey) return;
+    lastSavedKey = saveKey;
+
+    const logs = JSON.parse(localStorage.getItem("bruce_test_logs") || "[]");
+    const now = new Date();
+    const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+    logs.unshift({
+      date: dateStr,
+      time: timeStr,
+      stage: `Trin ${stageNum}`,
+      load: loadStr
+    });
+
+    localStorage.setItem("bruce_test_logs", JSON.stringify(logs.slice(0, 20)));
+    renderLocalStorageLog();
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem("bruce_test_logs") || "[]");
+    logTbody.innerHTML = "";
+
+    if (logs.length === 0) {
+      logTbody.innerHTML = '<tr class="empty-row"><td colspan="4" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+      return;
+    }
+
+    logs.forEach(item => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td><strong>${item.time}</strong></td>
+        <td>${item.stage}</td>
+        <td><span style="color:#1c7ed6; font-weight:800;">${item.load}</span></td>
+      `;
+      logTbody.appendChild(tr);
+    });
+  }
+
+  function takeScreenshot() {
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `bruce-test-resultat-${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  btnStartStop.addEventListener("click", () => {
+    if (!isRunning) startTest();
+    else stopTest();
+  });
+
+  btnReset.addEventListener("click", resetTest);
+
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Vil du slette alle gemte test fra hukommelsen?")) {
+      localStorage.removeItem("bruce_test_logs");
+      renderLocalStorageLog();
+    }
+  });
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  renderLocalStorageLog();
+});
+</script>
