@@ -2,6 +2,14 @@
 title: Hvor lang tid tager det at gå 10.000 skridt?
 description: Få svaret på, hvor lang tid det tager at gå 10.000 skridt, hvor hurtigt man går 1 kilometer og hvor langt man
   kan gå på en time?
+seo_title: 'Hvor lang tid tager det at gå 10.000 skridt? [Svar + Beregner]'
+tools:
+  - title: "Gangberegner: Hvor lang tid tager det at gå X skridt?"
+    description: "Beregn præcis hvor lang tid det tager at gå et bestemt antal skridt (f.eks. 10.000 skridt) baseret på dit personlige gangtempo."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "tid, hastighed, skridt"
+    category: "HealthAndFitnessApplication"
 permalink: /tid-at-gaa/
 language: da
 header:
@@ -31,11 +39,13 @@ faq:
 
 Hvis du gerne vil vide, hvor lang tid det tager at gå 10.000 skridt, så er du kommet til det rigtige sted. Her får du også svaret på, hvor hurtigt man går 1 kilometer?
 
-Det kan være rart at vide, hvor længe man skal gå for at få de anbefalede 10.000 skridt om dagen. På denne side finder du en beregner, som kan hjælpe med at finde ud af det.
+Hvis du gerne vil vide, hvor lang tid det tager at gå 10.000 skridt – eller hvor hurtigt man går 1 kilometer – så har vi både gennemsnitstallene og en præcis beregner til dig her.
 
-[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+> **Kort Svar:** For en gennemsnitlig voksen, der går i et normalt/raskt tempo (ca. 5 km/t), tager det cirka **1 time og 40 minutter** at gå 10.000 skridt (svarende til små 8 km). 
+> * Går du i slentretår (3 km/t), tager det **ca. 2 timer og 40 min.**
+> * Går du meget hurtigt (6,5 km/t), tager det **ca. 1 time og 15 min.**
 
-{% include figure image_path="https://images.unsplash.com/photo-1451156351305-d4f9bff58036?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10" caption="Hvor hurtigt går man 1 kilometer, og hvor lang tid tager det at gå 10.000 skridt. Tjek vores beregner for svaret!" alt="skridt til km og 10.000 skridt" %}
+[<i class='fas fa-calculator'></i> Prøv vores tidsberegner til skridt her](#calculator){: .btn .btn--success .btn--jump }
 
 Vi kigger altså i dette indlæg lidt på ganghastighed og gangtempo. Vi tager udgangspunkt i almindelige mennesker, som går i et almindeligt tempo.
 
@@ -76,6 +86,9 @@ Læs: [Hvor lang tid tager det at gå en kilometer?](/tid-at-gaa/)
 
 10.000 skridt svarer til ca. 8 kilometer, hvis du har en gennemsnitlig skridtlængde. Moderat aktive kan typisk gennemføre den distance med 5 kilometer i timen, hvilket giver omkring 1 time og 40 minutter.
 
+> **Vil du bare vide, hvor langt ét skridt er?**  
+> Hvis du leder efter gennemsnittet for, [hvor langt et skridt er](/skridtlaengde-gang/){: .read-more-link } for mænd og kvinder, så brug vores skridtlængde-beregner.
+
 Men du kan tage udgangspunkt i dine egne målinger ved at bruge nedenstående beregner.
 
 Hvis vi omregner fra antal skridt og skridtlængde, så kan vi finde distancen. Sammen med den viden kan vi beregne distancen. Bruger vi hastigheden fra tabellen ovenfor, så kan vi estimere, hvor længe det tager at gå 10.000 skridt.
@@ -86,6 +99,8 @@ Hvis vi omregner fra antal skridt og skridtlængde, så kan vi finde distancen. 
 Tjek denne beregner:
 
 {% include calculator/calculate-fitness-walking-how-fast.html %}
+
+{% include figure image_path="https://images.unsplash.com/photo-1451156351305-d4f9bff58036?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10" caption="Hvor hurtigt går man 1 kilometer, og hvor lang tid tager det at gå 10.000 skridt. Tjek vores beregner for svaret!" alt="skridt til km og 10.000 skridt" %}
 
 ## Verdensrekorden i kapgang
 
@@ -123,6 +138,9 @@ Du kan jo tage tiderne og sætte ind i vores [hastighedsberegner](/hastighed/). 
 ## Konklusion
 
 Nu har du en ide om, hvor lang tid det tager at gå. Hvis du kender din distance og tid, så kan du også [regne din gennemsnitsfart i vores fartberegner](/hastighed/).
+
+> **Vil du beregne den samlede distance for dine skridt?**  
+> Når du kender din skridtlængde, kan du hurtigt omregne dine daglige skridt til kilometer (f.eks. hvor langt 10.000 skridt er for dig). Prøv vores [skridt til km omregner her](/skridt-pr-km-10000/){: .read-more-link }.
 
 ## Ofte stillede spørgsmål
 

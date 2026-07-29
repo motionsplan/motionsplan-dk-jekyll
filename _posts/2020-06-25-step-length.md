@@ -1,9 +1,9 @@
 ---
-title: Sådan måler du din skridtlængde præcist
-permalink: /skridtlaengde-gang/
-seo_title: 'Skridtlængde: Sådan finder du dit antal skridt per km'
+title: Hvor langt er et skridt? (Sådan måler du din skridtlængde)
+seo_title: "Hvor langt er et skridt? [Se gennemsnit & skridtlængde-beregner]"
 description: Find din skridtlængde nemt – mål den selv eller brug vores beregner til at se dine skridt per kilometer.
 excerpt: Vil du kende din præcise skridtlængde? Lær, hvordan du måler den med en nem metode eller bruger vores beregner til at finde ud af, hvor mange skridt du tager per kilometer.
+permalink: /skridtlaengde-gang/
 header:
   teaser: /assets/images/unsplash/photo-1530902815270-606a8f82b563.jpg
   credit: "https://images.unsplash.com/photo-1530902815270-606a8f82b563"
@@ -23,6 +23,13 @@ meta:
   equipment: ingen
   measures: skridt og distance
   type: gang
+tools:
+  - title: "Skridtlængde Beregner: Hvor langt er dit skridt?"
+    description: "Beregn præcist hvor langt dit skridt er i centimeter baseret på din højde og dit køn, eller indtast din egen praktiske test."
+    anchor: "#calculator"
+    type: "beregner"
+    measures: "skridtlængde, højde, afstand"
+    category: "HealthAndFitnessApplication"
 popular: true
 last_modified_at: '2026-07-05T08:12:14.000Z'
 toc: true
@@ -58,7 +65,12 @@ faq:
 
 Hvis du vil omregne skridt til kilometer nøjagtigt, er det vigtigt at kende din egen skridtlængde. Gennemsnitsværdier kan give et godt estimat, men der kan være stor individuel variation.
 
-I denne guide lærer du, hvordan du nemt måler din skridtlængde – enten ved at bruge en beregning baseret på din højde eller ved at lave en praktisk måling med et kridt. 
+I denne guide lærer du, hvordan du nemt måler din skridtlængde – enten ved at bruge en beregning baseret på din højde eller ved at lave en praktisk måling med et kridt.
+
+> **Kort svar:** Et skridt for en voksen er i gennemsnit **ca. 65 til 78 cm** langt. 
+> * **Mænd:** Ca. 75 cm pr. skridt
+> * **Kvinder:** Ca. 68 cm pr. skridt
+> * **Tommelfingerregel:** Din højde i cm × 0,414 (for kvinder) eller × 0,415 (for mænd).
 
 Til sidst kan du bruge vores skridtlængde-beregner for at få en præcis værdi.
 
