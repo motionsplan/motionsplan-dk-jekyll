@@ -28,7 +28,7 @@ meta:
   equipment: ingen
   measures: tid
   type: gang
-last_modified_at: '2022-10-5T10:21:26Z'
+last_modified_at: '2027-07-5T10:21:26Z'
 faq:
 - question: Hvor mange km går man på en time?
   answer: Hvis du går rask gang, så går du 5-6 km i timen. Se flere hastigheder her på siden.
