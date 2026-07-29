@@ -78,6 +78,11 @@ Gennemsnitspulsen i arbejdstiden i testen kan fortolkes som den anaerobe tærske
 
 Hvis du bruger pulsen som rettesnor for dine træningszoner, så skal du huske at pulsen er meget specifik i forhold til, om du laver et [roprogram på en romaskine](/artikel/traeningsprogrammer-intervaller-roning/), løber eller cykler.
 
+> 📈 **Find din anaerobe tærskel (LT2 / MLSS) med en laktatkurve**  
+> En blodlaktattest er guldstandarden til at identificere det punkt, hvor mælkesyren begynder at ophobe sig i blodet. Se hvordan du udfører testen korrekt, og brug vores beregner med modeller som *Baseline + 1,5* og *Modificeret Dmax*.  
+> 👉 **[Læs guiden til laktattest og prøv laktatberegneren →](/laktattest/)**
+{: .notice--warning }
+
 ## Pulszoner på baggrund af _lactate threshold heart rate (LTHR)_?
 
 Hvis du selv tester din anaerobe tærskel med en pulsmåler, så ender du med at få en gennemsnitspuls, der bliver din LTHR, som er den højeste intensitet du kan løbe med før produktionen af laktat overstiger, hvor meget mælkesyre der kan fjernes fra musklerne.

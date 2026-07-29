@@ -15,7 +15,7 @@ category:
 - Anatomi
 tags:
 - anatomi
-last_modified_at: '2022-01-31T08:14:14Z'
+last_modified_at: '2026-07-31T08:14:14Z'
 toc: 'true'
 sidebar:
   nav: anatomi
@@ -50,6 +50,10 @@ Hvorfor "forsvinder" der næsten 100 knogler fra vi bliver født, til vi er voks
 
 Herunder kan du dykke ned i anatomien bag skelettet, eller du kan springe direkte til vores [fulde liste over alle knoglerne i kroppen på dansk og latin →](#liste-over-knogler-i-kroppen).
 
+> 🏋️ **Hvor mange muskler har mennesket?**  
+> Mens det voksne skelet består af 206 knogler, har kroppen til sammenligning over **600 skeletmuskler**, som arbejder sammen for at bevæge knoglerne.  
+> 👉 **[Se det præcise antal muskler i kroppen her →](/hvor-mange-muskler-har-et-menneske/)**
+
 ---
 
 ## Fra 300 til 206 knogler: Hvordan hænger det sammen?
@@ -65,8 +69,6 @@ Når vi når voksenalderen omkring de 20-25 år, er fusionen komplet, og vi ende
 *(Læs mere i vores artikel om [hvad knoglerne vejer](/hvad-vejer-skelettet/))*
 
 {% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Det voksne menneske har i alt 206 stærke knogler." alt="Hvor mange knogler har mennesket" %}
-
----
 
 ---
 
@@ -118,3 +120,12 @@ Hvis du leder efter de absolut bedste lærebøger til studiet eller detaljerede 
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer & Kilder</h2></summary>
+
+- **Bojsen-Møller, F., Simonsen, E. B., & Tranum-Jensen, J.** (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard. (Standardværket inden for dansk anatomiundervisning på universitet og professionshøjskoler).
+- **Standring, S.** (2020). *Gray's Anatomy: The Anatomical Basis of Clinical Practice* (42nd ed.). Elsevier. (Den internationale guldstandard for humananatomi).
+- **Sundhed.dk / Lægehåndbogen.** *Skelettet – opbygning og funktion*. Tilgængelig online via [sundhed.dk](https://www.sundhed.dk).
+- **National Institutes of Health (NIH) / MedlinePlus.** *Bone Health and Osteoporosis*. U.S. National Library of Medicine.
+</details>

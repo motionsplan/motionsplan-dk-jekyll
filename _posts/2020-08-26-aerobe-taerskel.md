@@ -58,6 +58,11 @@ Der er forskellige bud på, hvordan du kan finde den aerobe tærskel. Lad os kig
 
 Den mest præcise måde at finde din aerobe tærskel er ved en [blodlaktattest](/laktattest/). Denne test kræver en laktatmåler, men så får du også bestemt din aerobe zone helt præcist. Testen kan kombineres med en submaksimal iltoptagelsestest, hvor du kan sammenholde din iltoptagelse og puls med dine laktatværdier.
 
+> 🧪 **Vil du finde din nøjagtige aerobe tærskel i praksis?**  
+> I vores komplette guide til laktattests gennemgår vi den præcise trin-test protokol for løbebånd og cykling. Du kan også indtaste dine egne målinger i vores interaktive laktatberegner og finde dit LT1-niveau.  
+> 👉 **[Gå til laktattest-guiden og interaktiv beregner →](/laktattest/#calculator)**
+{: .notice--info }
+
 ### 2. Træningszoner - pulsberegninger
 
 Når du finder dine [træningszoner](/traeningszoner/), så kan du [udregne dine pulszoner](/pulszoner-beregner/). Det kan du gøre på flere forskellige måder. Den aerobe tærskel vil teoretisk set svare til toppen af zone 2 i disse beregninger i en 5-zone model og toppen af zone 1 i en 3-zone model.

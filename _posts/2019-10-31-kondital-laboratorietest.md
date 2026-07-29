@@ -220,6 +220,11 @@ Her er en kort guide til, hvilken test der kan være mest relevant for dig:
 
 Hvis du dyrker en særlig idrætsgren, er det naturligvis mest relevant at lave testen på en måde, der ligner din idrætsgren mest.
 
+> 🔬 **Lav din egen laktattest uden for laboratoriet**  
+> Du behøver ikke et dyrt testcenter for at bestemme dine tærskler. Med en håndholdt laktatmåler, et løbebånd eller en hometrainer kan du selv udføre en fuldt valideret trin-test.  
+> 👉 **[Se hvordan du laver en laktattest derhjemme eller i klubben →](/laktattest/)**
+{: .notice--info }
+
 ## Oversigt over testprotokoller
 
 Her finder du beskrivelser af forskellige testprotokoller, som bruges til at måle iltoptagelse og kondition. Klik på en test for at få en detaljeret beskrivelse.

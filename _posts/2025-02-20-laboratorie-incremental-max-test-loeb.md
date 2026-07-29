@@ -94,6 +94,11 @@ Forsøgspersonen får en maske på, så der løbende måles på iltoptagelsen og
 
 Testresultaterne bruges efterfølgende til at identificere træningszoner, der kan bruges i den efterfølgende træningsperiode.
 
+> 🩸 **Kombiner din trappetest med blodlaktatmålinger**  
+> Tager du laktatmålinger i de sidste 30 sekunder af hvert trin i trappetesten, kan du koble din iltoptagelse og puls direkte til dine fysiologiske tærskler (LT1 og LT2).  
+> 👉 **[Se protokollen for laktat-trappetest og beregn din kurve her →](/laktattest/)**
+{: .notice--success }
+
 ## Diagram over testen
 
 {% include figure image_path="/assets/images/motionsplan/incremental-max-test.jpg" alt="diagram over trappe max-teststen på løbebånd" caption="Diagram over trappetesten til løb." %}

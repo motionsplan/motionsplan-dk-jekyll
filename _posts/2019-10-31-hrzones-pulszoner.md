@@ -175,6 +175,13 @@ En anden udbredt angivelse af de fysiologiske zoner i forhold til HR<sub>max</su
 
 ---
 
+> 🎯 **Få 100 % præcise pulszoner i stedet for gæt**  
+> Formler baseret på maxpuls rammer ofte forkert. Ved at udføre en blodlaktattest måler du direkte på blodets kemi og finder de nøjagtige pulsslag for din aerobe (Zone 2-loft) og anaerobe tærskel.  
+> 👉 **[Brug laktattesten til at indstille dine personlige pulszoner →](/laktattest/)**
+{: .notice--info }
+
+---
+
 ## Næste skridt i din træning
 
 Når du har styr på dine pulszoner, kan du dykke dybere ned i fysiologien bag:
