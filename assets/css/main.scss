@@ -12,6 +12,15 @@
 @import "youtube";
 @import "star-rating";
 
+// Rich link inline icons for exercises
+.exercise-icon {
+  height: 1.2em; /* Følger tekstens skriftstørrelse */
+  width: auto;
+  vertical-align: -0.15em; /* Justerer ikonet perfekt ind på tekstlinjen */
+  margin-right: 0.25em;
+  display: inline-block;
+}
+
 
 /* Skjul forfatterprofilen i sidebaren på mobil og tablet */
 @media screen and (max-width: 1024px) {

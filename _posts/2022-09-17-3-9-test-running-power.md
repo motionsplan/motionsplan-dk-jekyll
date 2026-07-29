@@ -1,7 +1,6 @@
 ---
 title: Hvordan finder du din rFTPw til løb med 3-9 test?
-excerpt: Vil du gerne kende din rFTPw til løb, så kan du bruge en 3-9 test. Der er nogle forskellige variationer, som vi prøver
-  at gøre dig klogere på her.
+excerpt: Vil du gerne kende din rFTPw til løb, så kan du bruge en 3-9 test. Der er nogle forskellige variationer, som vi prøver at gøre dig klogere på her.
 permalink: /rftp-test/
 language: da
 header:
@@ -9,39 +8,11 @@ header:
   credit: https://images.unsplash.com/photo-1631899539565-1fd2dd5af4a0
   caption: Hvordan finder du din rFTPw til løb med 3-9 test?
 category:
-- Løb
+  - Løb
 tags:
-- træning
-- løb
+  - træning
+  - løb
 last_modified_at: '2022-08-22T11:10:26Z'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781782551096/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
-  title: The Secret of Running
-  excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow nooopener
-- image_path: https://imgcdn.saxo.com/_9781937715434/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/run-with-power_jim-vance_paperback_9781937715434
-  title: Run With Power
-  alt: Run With Power. Jim Vance.
-  excerpt: RUN WITH POWER er en guide skrevet til at finde dit sande potentiale med at løbe med løbeeffekt og _running power_.
-    Guiden er skrevet af Jim Vance.
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow nooopener
-feature_row_stryd:
-- image_path: /assets/images/static.wixstatic.com/3c82eb_70f1384f64584b009ccc002dbe0fe482_mv2-68a09ff4.webp
-  credit: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
-  alt: STRYD Wattmåler - Next Generation
-  title: STRYD Wattmåler - Next Generation
-  excerpt: STRYD er en wattmåler til løberne. Du kan bruge wattmåleren til at arbejde med din løbeøkonomi og afprøve lidt
-    forskellige teknikker for at se, hvordan din kraft og hastighed ændrer sig i forhold til, hvor hårdt arbejdet er.
-  url: https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 ---
 
 Vil du gerne kende din rFTPw til løb, så kan du bruge en 3-9 test. Der er nogle forskellige variationer, som vi prøver at gøre dig klogere på her.
@@ -58,10 +29,19 @@ For at lave en wattmåling i løb, så har du brug for en **måde, du kan måle 
 
 Jeg har selv brugt to forskellige måder:
 
-- [Stryd](https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413){: rel="sponsored nofollow noopener" }. Du kobler Stryd til dit ur eller bruger Appen på telefonen.
-- _Garmin Running Power_ kræver, at du har et løbeur og et [Garmin HRM Pro](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Smartwatch-Tilbehoer/Garmin-HRM-Pro-heart-rate-sensor/2883995){: rel="sponsored nofollow noopener" } pulsbælte eller en [Garmin Running Dynamics Pod](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Mobil-Andet-Tilbehoer/Garmin-Running-Dynamics-Pod/2598847){: rel="sponsored nofollow noopener" }.
+### 1. STRYD Footpod
+Stryd monteres direkte på snørebåndet af din løbesko og måler effekten ekstremt præcist uanset terræn.
 
-Du bør løbe testene **udendørs på et fladt underlag** meget gerne en løbebane.
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.stryd_wattmaaler view="card" %}
+
+### 2. Garmin Running Power
+Kræver et kompatibelt Garmin-løbeur kombineret med enten et **Garmin HRM-Pro pulsbælte** eller en **Garmin Running Dynamics Pod**:
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.garmin_hrm_pro view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.garmin_running_dynamics_pod view="card" %}
+
+Du bør altid udføre testene **udendørs på et helt fladt underlag** – meget gerne på en 400-meter løbebane for de mest præcise resultater.
 
 ## Varm op til testene
 
@@ -201,5 +181,8 @@ Det skyldes at du med watt jo ikke er begrænset af din maxpuls, når du skal an
 
 Nu har du fået et par ideer til, hvordan du kan finde din rFTPw. Der findes helt sikkert andre måder, men disse metoder er let at gå til, og de bliver brugt i miljøet med wattmåling i øjeblikket.
 
+## Bøger om løb med watt
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.the_secret_of_running view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.run_with_power view="card" %}

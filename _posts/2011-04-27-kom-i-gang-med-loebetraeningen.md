@@ -2,10 +2,8 @@
 title: 'Løbetræning for begyndere: Kom godt i gang 🏃🏃‍♀️'
 seo_title: 'Løb for begyndere: Kom godt i gang med et løbeprogram'
 permalink: /artikel/kom-i-gang-med-loebetraeningen/
-description: Kom i gang med løbetræning! Læs vores guide til begyndere og få et nemt løbeprogram, gode råd om tempo og motivation
-  til din første løbetur.
-excerpt: Kom i gang med løbetræning! Læs vores guide til begyndere og få et nemt løbeprogram, gode råd om tempo og motivation
-  til din første løbetur.
+description: Kom i gang med løbetræning! Læs vores guide til begyndere og få et nemt løbeprogram, gode råd om tempo og motivation til din første løbetur.
+excerpt: Kom i gang med løbetræning! Læs vores guide til begyndere og få et nemt løbeprogram, gode råd om tempo og motivation til din første løbetur.
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1530655638484-de9ff231551e.jpg
@@ -13,47 +11,17 @@ header:
   teaser: /assets/images/unsplash/photo-1530655638484-de9ff231551e.jpg
   caption: 'Løbetræning for begyndere: Kom godt i gang 🏃🏃‍♀️'
 tags:
-- løb
-- kondition
-- træningsplanlægning
-- løbeprogram
-- løbetræning
-- konditionstræning
-- begynder
-- guide
+  - løb
+  - kondition
+  - træningsplanlægning
+  - løbeprogram
+  - løbetræning
+  - konditionstræning
+  - begynder
+  - guide
 category:
-- Løb
+  - Løb
 last_modified_at: '2025-02-13T21:41:09Z'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781718203662/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/daniels-running-formula_jack-daniels_paperback_9781718203662
-  title: Daniels' Running Formula
-  excerpt: Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels'
-    Running Formula, shows you why. Whether your race of choice is the 800 meters, the marathon, or anything in between, Daniels'
-    Running Formula, Third Edition, offers a proven recipe for success.
-  btn_label: Tjek prisen
-  btn_class: btn--danger
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/_9788702160390/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/loeb-som-eliten_claus-hechmann_indbundet_9788702160390
-  title: Løb som eliten
-  excerpt: Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest
-    muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og
-    helt op til maraton.
-  btn_label: Tjek prisen
-  btn_class: btn--danger
-  rel: sponsored nofollow noopener
-feature_row_stryd:
-- image_path: /assets/images/static.wixstatic.com/3c82eb_70f1384f64584b009ccc002dbe0fe482_mv2-68a09ff4.webp
-  credit: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
-  alt: STRYD Wattmåler - Next Generation
-  title: STRYD Wattmåler - Next Generation
-  excerpt: STRYD – Wattmåler og nu med vindmåler STRYD er en af de mest nyttige og imponerende teknologiske løbegadgets, der
-    er til rådighed på markedet
-  url: https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 ---
 
 Vil du gerne i gang med at løbe, eller løbetræner du for at blive en bedre løber? Hvordan kommer du i gang med [løbetræningen](/loebesiden/), og hvordan laver du et godt løbeprogram, som motiverer dig og skaber resultater?
@@ -276,10 +244,14 @@ Der er fordele og ulemper ved alle fremgangsmåderne.
 - **Tempo**. Du kan udregne dit løbetempo ud fra din løbehastighed på dit seneste maksimale løb. Du kan bruge [Jack Daniels løbsberegner til at udregne dit løbetempo](/loebesiden-jack-daniels-loebeberegner/). Hvis du laver et løbeprogram baseret på beregneren, så er det utrolig vigtigt, at du respekterer det langsomme løb.
 - **Watt**. Hvis du fx har en [Stryd Wattmåler](/loeb-watt/) eller anden løbewattmåler, så kan du bruge den til at planlægge træningen. Den har samme fordele som at basere træningen på baggrund af pulsen.
 
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.stryd_wattmaaler view="card" %}
+
 ## Konklusion
 
 Jeg har skrevet mere om [forskellige løbeprogrammer](/loebeprogrammer/), hvis du gerne vil finde ud af, hvilket løbeprogram, der er det rigtige for dig. I denne artikel har vi forsøgt at give nogle overordnede pejlemærker for, hvordan du kan skrue din løbetræning sammen, når du gerne vil i gang med at løbe.
 
 ## Bøger om løbetræning og løbeprogrammer
-**
-{% include feature_row type="left" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.daniels_running_formula view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.loeb_som_eliten view="card" %}

@@ -1,10 +1,8 @@
 ---
 title: 'Biohacking: Definition og begynderguide til at blive biohacker'
 seo_title: Biohacking - Bliv biohacker med træning [Begynderguide]
-description: Jeg har lavet en begynderguide til biohacking. Mød 5 fascinerende biohackere og få råd til, hvordan du kan planlægge
-  din biohacker træning. Kom i gang nu!
-excerpt: Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution
-  og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
+description: Jeg har lavet en begynderguide til biohacking. Mød 5 fascinerende biohackere og få råd til, hvordan du kan planlægge din biohacker træning. Kom i gang nu!
+excerpt: Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
 permalink: /hvad-er-biohacking/
 language: da
 header:
@@ -14,30 +12,11 @@ header:
   overlay_filter: '0.2'
   caption: 'Biohacking: Definition og begynderguide til at blive biohacker'
 category:
-- Træning
+  - Træning
 tags:
-- biohacking
+  - biohacking
 last_modified_at: '2021-04-03T08:14:14Z'
 toc: 'true'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781512121278/0x500
-  alt: The Biohacking Manifesto
-  title: The Biohacking Manifesto
-  excerpt: Biohacking is just a fancy word for optimizing your own biological potential, and in the context of this brand
-    new book from James Lee (author of The Methuselah Project) it means achieving this via - - Slowing the process of cellular
-    aging to extend longevity
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-biohacking-manifesto_james-lee_paperback_9781512121278
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/Image?ImageID=10149040
-  alt: Saxos bøger om Biohacking
-  title: Saxos bøger om Biohacking
-  excerpt: Der er skrevet en masse bøger om Biohacking efterhånden, og Saxo har flere spændende bøger, bl.a. af John Board.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=biohacking
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 ---
 
 Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
@@ -64,7 +43,7 @@ For mange biohackere er det et samlet system, hvor man forsøger at optimere sig
 
 ## Biohacking har en _gør-det-selv-mentalitet_
 
-Helt basalt er vi jo alle biohackere. Når vi spser forskellige ting, så biohacker vi kroppen. Kosten har nemlig stor betydning for, hvordan kroppen fungerer. Det kan en gåtur i frisk luft, et koldt bad, eller hvis du forsøger at undgå at kigge på en skærm tæt på sengetid for at undgå det blå lys.
+Helt basalt er vi jo alle biohackere. Når vi spiser forskellige ting, så biohacker vi kroppen. Kosten har nemlig stor betydning for, hvordan kroppen fungerer. Det kan en gåtur i frisk luft, et koldt bad, eller hvis du forsøger at undgå at kigge på en skærm tæt på sengetid for at undgå det blå lys.
 
 Men mange almindelige mennesker laver også målinger i hverdagen allerede med de nye smartere ure.
 
@@ -147,11 +126,11 @@ Aaron Traywick blev i 2018 fundet død i en såkaldt en lydisoleret, mørk vandt
 
 {% include figure image_path="/assets/images/e/fim-com-biohacker-teemu-arina.jpg" caption="Teemu Arina begynder at biohacke sig selv for at blive rask. Kilde: [fim.com](https://lounge.fim.com/wp-content/uploads/2018/10/FIM_asiantuntija_Teemu-Arina_3_.jpg)" alt="teemu arina biohacker handbook" %}
 
-Teemu Arina gik som 19 årig ned med stress og blev medicineret hårdt mod et mavesår. Teemu valgte at gøre, som mang gør nu om dag. Han søgte på internettet efter en måde at få det bedre på. På den måde er Teemu et godt billede på mange biohackere.
+Teemu Arina gik som 19 årig ned med stress og blev medicineret hårdt mod et mavesår. Teemu valgte at gøre, som man gør nu om dage. Han søgte på internettet efter en måde at få det bedre på. På den måde er Teemu et godt billede på mange biohackere.
 
 Teemu fik øjnene op for de utallige _wearables_ og mobile teknologier, der gør os alle i stand til at tracke sit helbred. Han læste en masse forskningsartikler og skriver bogen _A Biohacker Handbook_ og stifter tænketanken _Biohacker Center_.
 
-I bogen _A Biohacker Handbook_ kan man bl.a. Læse om, hvordan man kan påvirke sin søvn og energiproduktion - og hvordan måle på det.
+I bogen _A Biohacker Handbook_ kan man bl.a. Læse om, hvordan man kan påvirke sin søvn og energiproduktion - og hvordan man kan måle på det.
 
 Teemu bruger selv urter, lydterapi og laserteknologi til at optimere sit liv. Og så måler han sig selv med en specialdesignet t-shirt.
 
@@ -159,7 +138,7 @@ Teemu bruger selv urter, lydterapi og laserteknologi til at optimere sit liv. Og
 
 ## Josiah Zayner ændrer sine egne gener med biohacking
 
-[Information](https://www.information.dk/udland/2018/01/biohacker-hjaelpe-mennesker-genmodificere) fortæller historien om Josiah Zayner - og hvordan han forsøger at ændre sine egne gener ved at spøjte genmodificeret materiale direkte i musklerne.
+[Information](https://www.information.dk/udland/2018/01/biohacker-hjaelpe-mennesker-genmodificere) fortæller historien om Josiah Zayner - og hvordan han forsøger at ændre sine egne gener ved at sprøjte genmodificeret materiale direkte i musklerne.
 
 {% include video provider="youtube" id="4vmHweDC5SY" %}
 
@@ -177,4 +156,6 @@ Som skrevet har jeg selv eksperimenteret med at måle min HRV, som jeg har skrev
 
 ## Køb bøger om biohacking
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.the_biohacking_manifesto view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.saxo_boeger_biohacking view="card" %}

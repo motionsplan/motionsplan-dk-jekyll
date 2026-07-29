@@ -33,23 +33,6 @@ tools:
 popular: true
 last_modified_at: '2026-07-05T08:12:14.000Z'
 toc: true
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788702259803/0x500
-    alt: Gå-bogen af Bente Klarlund
-    title: Gå-bogen af Bente Klarlund
-    excerpt: "Med _Gå-bogen_ får du en klog og lærerig bog, der lærer dig om alle fordelene ved at gå. Bente Klarlund Pedersen står bag værket, der handler om at gå."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/gaa-bogen_bente-klarlund-pedersen_indbundet_9788702259803"
-    btn_label: Tjek prisen
-    btn_class: btn--success
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9788790524814/0x500
-    alt: Gå - eller kunsten at leve et vildt og poetisk liv
-    title: Gå - eller kunsten at leve et vildt og poetisk liv
-    excerpt: "Tomas Espedal starter med at gå, der hvor han bor, han vandrer i Bergens gader, ud på landet, besøger venner, forfattere og litterater. Himlen er hans tag, og mens han går, fører han samtaler med filosoffer og digtere som Rousseau, Wordsworth, Baudelaire, Kierkegaard og Nietzsche."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/gaa-eller-kunsten-at-leve-et-vildt-og-poetisk-liv_tomas-espedal_haeftet_9788790524814"
-    btn_label: Tjek prisen
-    btn_class: btn--success
-    rel: sponsored nofollow noopener
 faq:
   - question: Hvor mange skridt er 1 km?
     answer: "Det afhænger af din skridtlængde! Hvis du regner i almindelige hverdags-skridt (trin), tager mænd med en gennemsnitlig skridtlængde på 79 cm ca. 1.266 skridt på 1 km. Kvinder med en gennemsnitlig skridtlængde på 66 cm tager ca. 1.515 skridt på 1 km. Regner du i hele gangcyklusser (2 trin = 132-158 cm), er tallet ca. 633-757."
@@ -123,7 +106,7 @@ Du kan måle din egen skridtlængde på følgende lavpraktiske måde, hvis du ge
 - Sæt et kridtmærke ved dine hæle.
 - Gå 10 skridt - 5 med højre ben og 5 skridt med venstre.
 - Sæt kridtstreg ved hælen efter sidste skridt.
-- Mål den samlede distance mellem de to kridtstrger.
+- Mål den samlede distance mellem de to kridtstreger.
 - Del distance med 10 for at finde længden for et enkelt skridt.
 
 ## Hvor mange skridt er der per kilometer?
@@ -164,7 +147,9 @@ Og hvis du undrer dig over, hvor mange kalorier du forbrænder under gang, kan d
 
 ## Køb bøger om at gå
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.gaa_bogen view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.gaa_kunsten_at_leve view="card" %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -1,9 +1,7 @@
 ---
 title: 'Løb og wattmåling: Hvordan bruger du running power?'
-description: Få en mere præcis måling af din intensitet i løb med wattmåling. Her får du en guide til, hvordan løbeeffekt
-  kan hjælpe dig i din løbetræning.
-excerpt: Vil du gerne have en mere præcis måling af din intensitet i løb? Wattmåling kan være svaret. Vi kigger på, hvordan
-  løbeeffekt kan hjælpe dig i din løbetræning.
+description: Få en mere præcis måling af din intensitet i løb med wattmåling. Her får du en guide til, hvordan løbeeffekt kan hjælpe dig i din løbetræning.
+excerpt: Vil du gerne have en mere præcis måling af din intensitet i løb? Wattmåling kan være svaret. Vi kigger på, hvordan løbeeffekt kan hjælpe dig i din løbetræning.
 permalink: /loeb-watt/
 language: da
 header:
@@ -11,39 +9,11 @@ header:
   credit: https://images.unsplash.com/photo-1602853186862-723dee51784c
   caption: 'Løb og wattmåling: Hvordan bruger du running power?'
 category:
-- Løb
+  - Løb
 tags:
-- træning
-- løb
+  - træning
+  - løb
 last_modified_at: '2022-08-22T11:10:26Z'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781782551096/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
-  title: The Secret of Running
-  excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow nooopener
-- image_path: https://imgcdn.saxo.com/_9781937715434/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/run-with-power_jim-vance_paperback_9781937715434
-  title: Run With Power
-  alt: Run With Power. Jim Vance.
-  excerpt: RUN WITH POWER er en guide skrevet til at finde dit sande potentiale med at løbe med løbeeffekt og _running power_.
-    Guiden er skrevet af Jim Vance.
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow nooopener
-feature_row_stryd:
-- image_path: /assets/images/static.wixstatic.com/3c82eb_70f1384f64584b009ccc002dbe0fe482_mv2-68a09ff4.webp
-  credit: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
-  alt: STRYD Wattmåler - Next Generation
-  title: STRYD Wattmåler - Next Generation
-  excerpt: STRYD er en wattmåler til løberne. Du kan bruge wattmåleren til at arbejde med din løbeøkonomi og afprøve lidt
-    forskellige teknikker for at se, hvordan din kraft og hastighed ændrer sig i forhold til, hvor hårdt arbejdet er.
-  url: https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 ---
 
 Vil du gerne have en mere præcis måling af din intensitet i løb? Så kan wattmåling være svaret. Her ser vi på, hvordan løbeeffekt kan hjælpe dig i din løbetræning.
@@ -110,11 +80,11 @@ Der er en lang række måder, som du kan måle watt i dit løb på. Jeg har brug
 
 Måske har du brugt nogle af følgende?
 
-- [Stryd](https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413){: rel="sponsored nofollow noopener" }
-- Running Power Estimator IQ-app til Garmin
+- **Stryd Footpod** (dedikeret sensor til snørebåndet)
+- **Garmin Running Power** (via Garmin pulsrem eller Running Dynamics Pod)
 - Power2Run til Apple Watch
-- Garmin Running Power
 - Polar Vantage V
+- Running Power Estimator IQ-app til Garmin
 
 Her får du et indblik i Stryds måde at måle løbepower på:
 
@@ -228,9 +198,9 @@ Lad os dykke ned i mulighederne for at måle watt på Garmin og med Stryd.
 
 ### 1. Stryd Footpod Wattmåler
 
-{% include feature_row id="feature_row_stryd" type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.stryd_wattmaaler view="card" %}
 
-[Stryd](https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413){: rel="sponsored nofollow noopener" } er en lille _footpod_, som du sætter på din sko. Den måler effekten ved at kombinere GPS-data med et accelerometer, gyroskop og barometer. Stryd-appen bruger disse data til at give dig målinger som fx watt, kadence og stivheden i dine afsæt.
+Stryd er en lille footpod, som du sætter på din sko. Den måler effekten ved at kombinere GPS-data med et accelerometer, gyroskop og barometer. Stryd-appen bruger disse data til at give dig målinger som fx watt, kadence og stivheden i dine afsæt.
 
 {% include video provider="youtube" id="jjM349agXm4" %}
 
@@ -254,9 +224,13 @@ Garmin Running Power er blevet implementeret i de nyere ure fra Garmin. Jeg har 
 
 {% include video provider="youtube" id="h8StihzMR4g" %}
 
-For at bruge Garmin Running Power, så skal du ud over dit løbeur have en [Garmin HRM Pro](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Smartwatch-Tilbehoer/Garmin-HRM-Pro-heart-rate-sensor/2883995){: rel="sponsored nofollow noopener" } pulsbælte eller en [Garmin Running Dynamics Pod](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Mobil-Andet-Tilbehoer/Garmin-Running-Dynamics-Pod/2598847){: rel="sponsored nofollow noopener" }. Jeg bruger selv pulsbæltet med løbedynamik i, for så får jeg også adgang til min puls målt på en god måde.
+For at bruge Garmin Running Power skal du ud over dit løbeur have et **Garmin HRM-Pro pulsbælte** eller en **Garmin Running Dynamics Pod**:
 
-Værdierne målt med Garmin Running Power er noget højere end med Stryd. [Forklaringen](https://hetgeheimvanhardlopen.nl/wp-content/uploads/2021/10/28.-Why-are-Stryd-and-Polar-Running-Power-numbers-different.pdf) er formentligt, at Garmin (og Polar) måler _Gross Running Power_, hvor den elastiske energi  fra sener og ligamenter tæles med, mens Stryd måler _Net Running Power_.
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.garmin_hrm_pro view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.garmin_running_dynamics_pod view="card" %}
+
+Værdierne målt med Garmin Running Power er noget højere end med Stryd. [Forklaringen](https://hetgeheimvanhardlopen.nl/wp-content/uploads/2021/10/28.-Why-are-Stryd-and-Polar-Running-Power-numbers-different.pdf) er formentligt, at Garmin (og Polar) måler _Gross Running Power_, hvor den elastiske energi fra sener og ligamenter tælles med, mens Stryd måler _Net Running Power_.
 
 ### 3. RunPowerModel
 
@@ -326,56 +300,12 @@ Det anslås i noget litteratur, at den returnerede energi fra achillessenen kan 
 
 På grund af disse forklaringer, så fortolker van Dijk og van Megen Stryds watt som _Net Running Power_ og Polars tal som _Gross Running Power_, hvor forskellen er den elastiske energi, der returneres i sener og ligamenter.
 
-{% comment %}
-
-Stryd på almindelig løbebånd
-
-Stryd på kurvet løbebånd
-
-{% endcomment %}
-
 ## Konklusion
 
 Hvis du vil måle dit løb med en wattmåler og løbe med _power_, så skal du være opmærksom på, at du skal bruge det samme _device_ fra gang til gang. Som med pulszonetræning, så kan du også lave zoner til din watt-træning.
 
-Hvis du vil dykke lidt mere ned i wattmåling, så er [Run With Power](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/run-with-power_jim-vance_paperback_9781937715434){: rel="sponsored nofollow noopener" } virkelig et godt køb. Du kan også finde inspiration i dette glimrende indlæg fra [www.trainingpeaks.com](https://www.trainingpeaks.com/blog/running-with-power-how-it-works-and-what-it-means/).
+## Bøger om løb med watt
 
-{% comment %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.the_secret_of_running view="card" %}
 
-https://www.trainingpeaks.com/blog/running-with-power-how-it-works-and-what-it-means/
-
-https://hetgeheimvanhardlopen.nl/wp-content/uploads/2021/10/28.-Why-are-Stryd-and-Polar-Running-Power-numbers-different.pdf
-
-
-
-https://blog.stryd.com/2019/12/06/how-to-use-stryd-power-to-calculate-your-vo2/
-
-
-
-https://blog.stryd.com/2019/12/06/how-to-analyze-running-power-data/
-
-
-
-https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/
-
-
-
-https://blog.stryd.com/2019/12/06/the-impact-of-speed-on-the-running-economy/
-
-
-
-https://blog.stryd.com/2019/12/06/the-impact-of-cadence-on-the-running-economy/
-
-
-
-https://blog.stryd.com/2019/12/05/the-secret-of-running-run-smart-to-run-faster/
-
-
-
-https://hetgeheimvanhardlopen.nl/en/what-level-is-your-running-power-the-performance-index/
-
-
-
-{% endcomment %}
-
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.run_with_power view="card" %}

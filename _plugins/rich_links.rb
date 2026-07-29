@@ -1,38 +1,55 @@
 # _plugins/rich_links.rb
 
-# 1. Byg et lyn hurtigt opslagsværk (Hash) én gang, når Jekyll har læst sitet
+# 1. Byg et hurtigt opslagsværk med ALLE URL-variationer
 Jekyll::Hooks.register :site, :post_read do |site|
   site.data['exercise_icons'] = {}
   
   if site.collections['exercises']
     site.collections['exercises'].docs.each do |doc|
-      if doc.data['icon']
-        # Gem ikonet på øvelsens URL
-        site.data['exercise_icons'][doc.url] = doc.data['icon']
-      end
+      icon = doc.data['icon']
+      next unless icon
+
+      # Gem URL'en både MED og UDEN skråstreg i enden, 
+      # så opslaget (O(1)) aldrig slår fejl pga. URL-formatering.
+      clean_url = doc.url.chomp('/')
+      site.data['exercise_icons'][clean_url] = icon
+      site.data['exercise_icons']["#{clean_url}/"] = icon
     end
   end
 end
 
-# 2. Erstat links i teksten med ikoner under render
+# 2. Erstat links i HTML-outputtet
 Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
-  # Spring over med det samme, hvis siden ikke er HTML eller ikke indeholder øvelseslinks
-  next unless page.output && (page.output.include?("/oevelse/") || page.output.include?("/exercise/"))
+  # Kør KUN på HTML-filer (undgå RSS, XML, JSON) og kun hvis relevante stier findes
+  next unless page.output && page.extname == '.html'
+  next unless page.output.include?('/oevelse/') || page.output.include?('/exercise/')
 
   icons = page.site.data['exercise_icons'] || {}
+  next if icons.empty?
 
-  # Matcher både /oevelse/ og /exercise/
-  page.output.gsub!(/<a href="(\/(?:oevelse|exercise)\/[^"]+)">([^<]+)<\/a>/) do
-    href = Regexp.last_match(1)
-    text = Regexp.last_match(2)
+  # Regex forklaring:
+  # - Matcher <a> tags med /oevelse/ eller /exercise/
+  # - Håndterer ekstra attributter (f.eks. class="...", id="...")
+  # - Håndterer HTML inde i linket (f.eks. <a><strong>Bænkpres</strong></a>)
+  page.output.gsub!(/<a\s+([^>]*?\s+)?href="(\/(?:oevelse|exercise)\/[^"#?]+)(?:\/)?([^"#?]*)"([^>]*)>(.*?)<\/a>/im) do |match|
+    before_href = Regexp.last_match(1) || ''
+    href_path   = Regexp.last_match(2) # f.eks. /oevelse/baenkpres
+    extra_params = Regexp.last_match(3) || '' # query params / ankre hvis nogen
+    after_href  = Regexp.last_match(4) || ''
+    content     = Regexp.last_match(5)
 
-    # Lynhurtigt O(1) opslag
-    icon = icons[href]
-
-    if icon
-      "<img style='height: 44px;' src='#{icon}' alt='#{text}'> <a href='#{href}'>#{text}</a>"
+    # Hvis linket I FORVEJEN indeholder et billede, gør vi intet (forhindrer dobbelt-ikoner)
+    if content.include?('<img')
+      match
     else
-      "<a href='#{href}'>#{text}</a>"
+      icon = icons[href_path]
+
+      if icon
+        # Byg det nye link med tilgængeligt billede og CSS-klasse
+        "<img style='height: 44px;' class=\"exercise-icon\" src=\"#{icon}\" alt=\"\" aria-hidden=\"true\"> <a #{before_href}href=\"#{href_path}/#{extra_params}\"#{after_href}>#{content}</a>"
+      else
+        match
+      end
     end
   end
 end

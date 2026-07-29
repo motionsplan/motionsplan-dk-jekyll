@@ -29,23 +29,6 @@ tags:
   - antropometri
 last_modified_at: 2026-07-19T08:14:14Z
 toc: true
-feature_row:
-  - image_path: /assets/images/e/accumeasure-fat-caliper.jpg
-    alt: "Accu-Measure Fitness 3000 Body Fat Caliper"
-    title: "Accu-Measure Fitness 3000 Body Fat Caliper"
-    excerpt: "Mål din fedtprocent nemt med Accu-Measure Fitness 3000 Body Fat Caliper. Fedttangen bliver brugt af mange amerikanske personlige trænere på grund af dens præcise målinger. Du kan både bruge den hjemme eller have den med på farten."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://www.billig-fitness.dk/products/body-fat-caliper-fedttang-fedtmaaler"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: /assets/images/blog/harpenden-skinfold-caliper.png
-    alt: "Harpenden Skinfold Caliper"
-    title: "Harpenden Skinfold Caliper"
-    excerpt: "Harpenden Skinfold Caliper - Kvalitetscaliper fra Baty til nem og præcis måling af fedtprocent!"
-    url: "https://medshop.dk/da/kropsfedtmaaler/6096-harpenden-skinfold-caliper-fedtmaaler-tang-p-1053-859001.html?SubmitCurrency=1&id_currency=5"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: nofollow noopener
 ---
 
 Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en hudfoldsmåler. Her kan du lære mere om meste almindelige metoder til fedtmåling med en fedttang. Vi dykker ned i både fordele og ulemper ved hudfoldsmålinger.
@@ -76,7 +59,7 @@ Målingerne med fedttangen skal naturligvis være til at stole på, så derfor s
 
 En fedttang eller hudfoldsmåler ser sådan her ud:
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.accumeasure_fat_caliper view="card" %}
 
 ## Generelt om om måling af hudfoldstykkelse med fedttang
 
@@ -179,4 +162,6 @@ Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startsku
 
 ## Køb en fedttang til hudfoldsmåling
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.accumeasure_fat_caliper view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.harpenden_skinfold_caliper view="card" %}

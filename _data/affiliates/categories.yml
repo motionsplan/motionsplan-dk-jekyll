@@ -1,0 +1,23 @@
+# Overkategorier og generelle shoplinks til indoor cycling
+
+hometrainers:
+  title: "Udvalg af Hometrainers & Smartbikes"
+  description: "Find det nyeste udvalg af hometrainers med direkte drev og smartbikes hos vores anbefalede forhandlere."
+  shops:
+    - name: "Cykelexperten"
+      text: "Se det aktuelle udvalg af hometrainers hos Cykelexperten"
+      url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/"
+    - name: "Cykelpartner"
+      text: "Se hometrainers og tilbehør hos Cykelpartner"
+      url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere"
+
+hometrainer_tilbehoer:
+  title: "Tilbehør til Indendørs Cykling"
+  description: "Alt i blæsere, cykelborde, måtter og svedcovers til din hometrainer-opsætning."
+  shops:
+    - name: "Cykelexperten"
+      text: "Se tilbehør til hometrainers hos Cykelexperten"
+      url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/"
+    - name: "Cykelpartner"
+      text: "Se udstyr og tilbehør hos Cykelpartner"
+      url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere"

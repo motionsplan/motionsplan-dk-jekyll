@@ -1,10 +1,8 @@
 ---
 title: 'Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag'
 seo_title: Stofskifte og energibehov – Beregn BMR, TDEE og mere
-description: Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit
-  daglige kaloriebehov og optimere din sundhed.
-excerpt: Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige
-  kaloriebehov og optimere din sundhed.
+description: Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige kaloriebehov og optimere din sundhed.
+excerpt: Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige kaloriebehov og optimere din sundhed.
 permalink: /stofskifte/
 language: da
 header:
@@ -13,57 +11,35 @@ header:
   teaser: /assets/images/unsplash/photo-1550859492-d5da9d8e45f3.jpg
   caption: 'Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag'
 category:
-- Kost & Ernæring
+  - Kost & Ernæring
 tags:
-- kost & ernæring
-- stofskifte
-- guide
-- featured
+  - kost & ernæring
+  - stofskifte
+  - guide
+  - featured
 last_modified_at: '2025-03-06T23:14:14Z'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781975217303/0x500
-  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
-  title: Exercise Physiology - Nutrition, Energy, and Human Performance
-  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/_9788762813762/0x500
-  alt: Menneskets ernæring
-  title: Menneskets ernæring
-  excerpt: 'Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer,
-    der er nødvendige for opretholdelse af liv. '
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 keywords:
-- bmr beregner
-- basalstofskifte beregner
-- basalstofskifte
-- udregn bmr
-- beregn bmr
-- hvilestofskifte
-- beregn hvilestofskifte
-- beregn basalstofskifte
-- udregn basalstofskifte
-- bmr udregning
-- udregn hvilestofskifte
-- basalstofskifte udregning
-- basalstofskifte hvilestofskifte
-- udregning af basalstofskifte
+  - bmr beregner
+  - basalstofskifte beregner
+  - basalstofskifte
+  - udregn bmr
+  - beregn bmr
+  - hvilestofskifte
+  - beregn hvilestofskifte
+  - beregn basalstofskifte
+  - udregn basalstofskifte
+  - bmr udregning
+  - udregn hvilestofskifte
+  - basalstofskifte udregning
+  - basalstofskifte hvilestofskifte
+  - udregning af basalstofskifte
 faq:
-- question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
-  answer: Hvilestofskifte (BMR) og basalstofskifte refererer ofte til den samme ting, nemlig den energi, kroppen bruger i
-    hvile. BMR måler dette på et minimumsniveau, mens basalstofskifte kan være en mere generel term. Begge begreber bruges
-    til at forstå kroppens grundlæggende energiforbrug.
-- question: Hvad betyder det, hvis jeg har lavt stofskifte?
-  answer: Lavt stofskifte betyder, at kroppen forbrænder energi langsommere, hvilket kan føre til vægtøgning, træthed, og
-    lavt energiniveau. Det kan skyldes hormonelle ubalancer som ved hypothyroidisme.
-- question: Kan man øge sit stofskifte?
-  answer: Ja, fysisk aktivitet, især styrketræning og intensiv cardio, kan øge stofskiftet. Desuden kan en proteinrig kost,
-    regelmæssige måltider og tilstrækkelig søvn også hjælpe med at booste stofskiftet.
+  - question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
+    answer: Hvilestofskifte (BMR) og basalstofskifte refererer ofte til den samme ting, nemlig den energi, kroppen bruger i hvile. BMR måler dette på et minimumsniveau, mens basalstofskifte kan være en mere generel term. Begge begreber bruges til at forstå kroppens grundlæggende energiforbrug.
+  - question: Hvad betyder det, hvis jeg har lavt stofskifte?
+    answer: Lavt stofskifte betyder, at kroppen forbrænder energi langsommere, hvilket kan føre til vægtøgning, træthed, og lavt energiniveau. Det kan skyldes hormonelle ubalancer som ved hypothyroidisme.
+  - question: Kan man øge sit stofskifte?
+    answer: Ja, fysisk aktivitet, især styrketræning og intensiv cardio, kan øge stofskiftet. Desuden kan en proteinrig kost, regelmæssige måltider og tilstrækkelig søvn også hjælpe med at booste stofskiftet.
 ---
 
 Dit stofskifte – eller energiforbrug – handler om, hvor meget energi kroppen bruger i hvile og i aktivitet. Her får du et samlet overblik og adgang til beregnere og baggrundsviden.
@@ -142,7 +118,7 @@ Ud over BMR og fysisk aktivitet påvirkes dit stofskifte og forbrænding af andr
 - NEAT (Non-Exercise Activity Thermogenesis): Småbevægelser som at gå rundt, vippe med foden, rejse sig op osv.
 - Træning: Planlagt motion øger din forbrænding betydeligt.
 
-🔗 [Nøjagtig estimering af din dagelige forbrænding](/ligevaegtsindtag-beregner/)
+🔗 [Nøjagtig estimering af din daglige forbrænding](/ligevaegtsindtag-beregner/)
 
 ## 3. Ligevægtsindtag – Find dit balancepunkt
 
@@ -187,10 +163,14 @@ For at få det bedste ud af dit stofskifte og optimere dit energiforbrug, kan du
 
 Uanset om du ønsker at tabe dig, tage på eller bare forstå din krop bedre, så kan du finde de rette værktøjer og ressourcer her.
 
+## Bøger om fysiologi og ernæring
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.exercise_physiology_mcardle view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.menneskets_ernaering view="card" %}
+
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
-
-{% include feature_row type="left" %}
 
 - Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. <https://doi.org/10.1016/j.clnu.2013.03.022>.
 - Gerrior, Shirley, WenYen Juan, og Basiotis Peter. 2006. “An Easy Approach to Calculating Estimated Energy Requirements”. Preventing Chronic Disease 3 (4). <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/>.

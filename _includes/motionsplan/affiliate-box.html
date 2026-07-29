@@ -1,0 +1,27 @@
+{% assign item = include.item %}
+{% assign view_type = include.view | default: "card" %}
+
+{% if view_type == "card" %}
+  <div class="affiliate-card-row" style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin: 1.5rem 0; padding: 1.25rem; background: #fff; border: 1px solid #eef0f2; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.03);">
+    {% if item.image %}
+      <div class="affiliate-card-img" style="flex: 0 0 140px; text-align: center; margin: 0 auto;">
+        <img src="{{ item.image }}" alt="{{ item.title }}" style="max-height: 130px; width: auto; object-fit: contain;">
+      </div>
+    {% endif %}
+    
+    <div class="affiliate-card-content" style="flex: 1 1 240px;">
+      <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.2rem;">{{ include.title | default: item.title }}</h3>
+      <p style="margin-bottom: 1rem; font-size: 0.95rem; line-height: 1.5; color: #444;">
+        {{ include.text | default: item.excerpt }}
+      </p>
+      <a href="{{ item.url }}" target="_blank" rel="sponsored nofollow noopener" class="btn btn--danger" style="margin: 0;">
+        Tjek prisen hos {{ item.shop_name | default: "forhandler" }} →
+      </a>
+    </div>
+  </div>
+
+{% elsif view_type == "text" %}
+  <p class="affiliate-inline-text" style="font-style: italic; background: #fff8e6; padding: 0.6rem 0.8rem; border-radius: 4px; display: inline-block; border-left: 3px solid #f0ad4e; margin: 1rem 0;">
+    👉 <strong>Tip:</strong> {{ include.title | default: item.title }} – <a href="{{ item.url }}" target="_blank" rel="sponsored nofollow noopener">Se udvalg og seneste priser her</a>.
+  </p>
+{% endif %}

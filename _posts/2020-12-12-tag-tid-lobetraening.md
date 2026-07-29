@@ -15,32 +15,13 @@ tags:
   - løb
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
-feature_row:
-  - image_path: /assets/images/resources.chainbox.io/010-12883-00ny_A_default-164ceee5.jpg
-    credit: https://resources.chainbox.io/cykelpartner/public/pim/accfaaab-7a3f-45d3-aeeb-713be660062d/010-12883-00ny_A_default.jpg
-    alt: "Garmin HRM-Dual"
-    title: "Garmin HRM-Dual"
-    excerpt: "HRM-dual Pulsmåler fra Garmin, der er kompatibel med alle Garmin-computere med pulsfunktion. Måleren er blevet opgraderet, så den nu også anvender Bluetooth (BLE), og dermed også er kompatibel med alle andre mærker, der benytter ANT+ eller Bluetooth."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/pulsbaelter/garmin-hrm-dual---pulsmaalerrem---ant-plus--og-ble
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: /assets/images/plusshop.dk/bose_sport_earbuds_black-8dada93b.png
-    credit: https://plusshop.dk/media/catalog/product/b/o/bose_sport_earbuds_black.png
-    alt: "Bose Sport Free"
-    title: "Bose Sport Free"
-    excerpt: "Bose Soundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
 ---
 
 Jeg tager tid på de fleste løbeture, jeg løber. Det gør jeg for at holde styr på, hvor lang tid jeg træner og for at se, hvilket tempo jeg løber i. Tag tid på dine løbeture, hvis du vil holde styr på din træning.
 
 Når du tager tid på din træning, så kan du måle, om du gør fremskridt i din løbetræning. Jeg bruger selv et ur med puls, tid og GPS. På den måde kan jeg både bruge uret til at få en relativ præcis angivelse af min træningsbelastning i min løbetræning.
 
-Det er godt at finde et ur, som kan måle din tid præcist - og som er let at bruge, mens du løbe udenforr. Jeg er selv motionsløber, men hvis du er eliteløber, så kan sekunder gøre en forskel, når du tager tid på dine løbeture.
+Det er godt at finde et ur, som kan måle din tid præcist - og som er let at bruge, mens du løber udenfor. Jeg er selv motionsløber, men hvis du er eliteløber, så kan sekunder gøre en forskel, når du tager tid på dine løbeture.
 
 Hvis du mest løber indenfor på [løbebånd](/guide-loebebaand/), så er der ofte et display på løbebåndet, hvor du kan indstille tiden.
 
@@ -68,12 +49,14 @@ Din løbetid skulle naturligvis gerne blive bedre, hvis du træner regelmæssigt
 
 Tidtagning er også vigtigt, når du laver [intervaltræning](/intervaltraening/). Det er godt at have have en let måde at tage tid på, når du løber intervaller. Der er mange forskellige måder at lave [intervalløb](/intervallob-intervaltraening/) på. Jeg kan programmere mit løbeur, så jeg undervejs i træningen ikke behøver at tænke på intervallerne. Jeg starter bare uret, og så bipper mit løbeur, når det passer med intervallerne.
 
-## Køb et løbeur til at tage tid med
+## Køb et løbeur og udstyr til at tage tid med
 
 Jeg bruger selv et Garmin Fenix med en pulsmåler. Det giver mig et virkelig godt ur, som jeg bruger hver dag. Når det kombineres med en pulsmåler fra Garmin, så får man desuden kadence, puls og andre løbemetrics, som du også kan analysere i forhold til din træning.
 
 Det jeg nyder mest ved Garmin løbeuret er, at det er let at bruge til at tage tid på min træning og i mine intervaller, samtidig med at jeg får pulsmålingerne og kan arbejde med træning i pulszoner.
 
-De nyeste Garmin-løbeure kan du endda have [musik til din træning](/artikel/musik-til-traeningen/) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }. De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
+De nyeste Garmin-løbeure kan du endda have [musik til din træning](/artikel/musik-til-traeningen/) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv Bose Sport Earbuds. De spiller rigtig godt, og de sidder godt i ørerne.
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.garmin_hrm_dual view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.bose_sport_earbuds view="card" %}

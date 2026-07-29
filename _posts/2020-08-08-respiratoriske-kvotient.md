@@ -1,10 +1,9 @@
 ---
 title: Respiratoriske (RER) og metaboliske udvekslingskvotient (RQ)
-description: Den respiratoriske udvekslingskvotient (R eller RER) og metaboliske udvekslingskvotient (RQ) beskriver forholdet
-  mellem fedt og kulhydrat i forbrændingen.
+description: Den respiratoriske udvekslingskvotient (R eller RER) og metaboliske udvekslingskvotient (RQ) beskriver forholdet mellem fedt og kulhydrat i forbrændingen.
 permalink: /respiratoriske-metaboliske-udvekslingskvotient/
 redirect_from:
-- /rer/
+  - /rer/
 last_modified_at: '2022-10-05T20:41:09Z'
 language: da
 header:
@@ -12,27 +11,15 @@ header:
   credit: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc
   caption: Respiratoriske (RER) og metaboliske udvekslingskvotient (RQ)
 category:
-- Fysiologi
+  - Fysiologi
 tags:
-- begreb
-- forbrænding
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9788777497162/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-fysiologi_bente-schibye_indbundet_9788777497162
-  title: Menneskets fysiologi - Bente Schibye (2017)
-  excerpt: Lærebogsklassikeren _Menneskets fysiologi_ af Bente Schibye dækker hele menneskets fysiologi, og som noget særligt
-    beskrives fysiologien både i hvile og under fysisk aktivitet.
-  btn_label: Tjek prisen
-  btn_class: btn--info
-  rel: sponsored nofollow noopener
+  - begreb
+  - forbrænding
 faq:
-- question: Hvad er den respiratoriske kvotient?
-  answer: Den respiratoriske kvotient er et lidt kortere navn for den respiratoriske udvekslingskvotient, som også forkortes
-    R eller RER.
-- question: Hvad er forskellen på den metaboliske udvekslingskvotient og den respiratoriske udvekslingskvotient?
-  answer: Begge kvotienter er forholdet mellem mængden af kuldioxid, der udskilles, divideret med mængden af ilt, der optages,
-    på samme tid. Forskellen er at den metaboliske kvotient måles på celleniveau, mens den respiratoriske kvotient måles i
-    udåndingsluften.
+  - question: Hvad er den respiratoriske kvotient?
+    answer: Den respiratoriske kvotient er et lidt kortere navn for den respiratoriske udvekslingskvotient, som også forkortes R eller RER.
+  - question: Hvad er forskellen på den metaboliske udvekslingskvotient og den respiratoriske udvekslingskvotient?
+    answer: Begge kvotienter er forholdet mellem mængden af kuldioxid, der udskilles, divideret med mængden af ilt, der optages, på samme tid. Forskellen er at den metaboliske kvotient måles på celleniveau, mens den respiratoriske kvotient måles i udåndingsluften.
 ---
 
 Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratoriske udvekslingskvotient, som også kaldes R eller RER. 
@@ -173,5 +160,6 @@ Vi har lavet en side, der går mere i dybden med [test af iltoptagelse i laborat
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.menneskets_fysiologi_bente_schibye view="card" %}
+
 </details>

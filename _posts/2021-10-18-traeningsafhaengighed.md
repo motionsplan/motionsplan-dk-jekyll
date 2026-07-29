@@ -9,39 +9,21 @@ header:
   teaser: /assets/images/unsplash/photo-1608272667943-cbf5ee73c0fa.jpg
   caption: 'Test af træningsafhængighed: Er du afhængig af træning?'
 category:
-- Vurderingsværktøjer
-- Psykologi
+  - Vurderingsværktøjer
+  - Psykologi
 tags:
-- vurderingsværktøj
-- træning
-- psykologi
-- psykologisk test
-- populær
+  - vurderingsværktøj
+  - træning
+  - psykologi
+  - psykologisk test
+  - populær
 last_modified_at: '2021-10-14T08:14:14Z'
 toc: 'true'
 faq:
-- question: Hvad hedder træningsafhængighed på engelsk?
-  answer: På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise addiction' og 'exercise dependence'.
-- question: Er træningsafhængighed en spiseforstyrrelse?
-  answer: Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig ikke centreret omkring spisevaner,
-    men derimod motion og træning. Træningsafhængig og spiseforstyrrelser følges dog ofte ad.
-feature_row:
-- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/besat-af-traening_mia-beck-lichtenstein_haeftet_9788777068515
-  image_path: https://imgcdn.saxo.com/_9788777068515/0x500
-  title: Besat af træning
-  excerpt: Denne bog er den første på dansk, der omhandler den overdrevne og ekstreme træningsiver, som i nogle tilfælde kan
-    udvikle sig til en negativ afhængighedstilstand. Bogen er skrevet af Mia Beck Lichtenstein.
-  btn_class: btn--danger
-  btn_label: Læs mere
-  rel: sponsored nofollow noopener
-- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/find-traeningsbalancen_mia-beck-lichtenstein_epub_9788771581973
-  image_path: https://imgcdn.saxo.com/_9788771581973/0x500
-  title: Find træningsbalancen
-  excerpt: Er du vild med sport, at bruge kroppen, træne målrettet og konkurrere? Giver motion og idræt dig glæde og energi?
-    Men sker det også at træningen styrer dit liv? Eller at du træner , selvom du har smerter og ved, at du burde lade være?
-  btn_class: btn--danger
-  btn_label: Læs mere
-  rel: sponsored nofollow noopener
+  - question: Hvad hedder træningsafhængighed på engelsk?
+    answer: På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise addiction' og 'exercise dependence'.
+  - question: Er træningsafhængighed en spiseforstyrrelse?
+    answer: Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og spiseforstyrrelser følges dog ofte ad.
 ---
 
 Træningsafhængighed betegner en tilstand, hvor en person træner hele tiden og ikke kan stoppe igen. For personer, der lider af træningsafhængighed, fylder træning det meste af livet.
@@ -58,7 +40,7 @@ Her kan du teste, om du har tegn på træningsafhængighed. Du skal score dig se
 
 Læg tallene sammen fra de seks udsagn. Hvis du har en samlet score på 24-30, er det sandsynligt, at du er afhængig af træning på en måde, der kan skade dig.
 
-Testen er fra [Terry et al (2004)](https://psycnet.apa.org/record/2004-20487-007) og oversat af Mia Beck Lichtenstein i forbindelse med hendes Phd-projekt. Du kan finde testen i hendes bog [Find Træningsbalancen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/besat-af-traening_mia-beck-lichtenstein_haeftet_9788777068515){: rel="sponsored nofollow noopener" }.
+Testen er fra [Terry et al (2004)](https://psycnet.apa.org/record/2004-20487-007) og oversat af Mia Beck Lichtenstein i forbindelse med hendes Phd-projekt. Du kan finde testen i hendes bog [Find Træningsbalancen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/find-traeningsbalancen_mia-beck-lichtenstein_epub_9788771581973){: rel="sponsored nofollow noopener" }.
 
 Hvis du finder ud af, at du er træningsafhængig, så søg professionel hjælp. Fx hos [mialic.dk](https://mialic.dk/).
 
@@ -68,7 +50,9 @@ Mia Beck Lichtenstein har skrevet nogle rigtig gode bøger om træningsafhængig
 
 {% include video provider="youtube" id="FWndQhMuYeY" %}
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.besat_af_traening view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.find_traeningsbalancen view="card" %}
 
 ## Ofte stillede spørgsmål om træningsafhængighed
 

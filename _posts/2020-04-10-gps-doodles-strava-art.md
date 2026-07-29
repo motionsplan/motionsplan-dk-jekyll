@@ -18,16 +18,6 @@ tags:
   - træning
 last_modified_at: 2020-04-10T23:14:14Z
 toc: true
-feature_row:
-  - image_path: /assets/images/resources.chainbox.io/010-12883-00ny_A_default-164ceee5.jpg
-    credit: https://resources.chainbox.io/cykelpartner/public/pim/accfaaab-7a3f-45d3-aeeb-713be660062d/010-12883-00ny_A_default.jpg
-    alt: "Garmin HRM-Dual"
-    title: "Garmin HRM-Dual"
-    excerpt: "HRM-dual Pulsmåler fra Garmin, der er kompatibel med alle Garmin-computere med pulsfunktion. Måleren er blevet opgraderet, så den nu også anvender Bluetooth (BLE), og dermed også er kompatibel med alle andre mærker, der benytter ANT+ eller Bluetooth."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/pulsbaelter/garmin-hrm-dual---pulsmaalerrem---ant-plus--og-ble
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
 gallery:
   - url: https://www.facebook.com/GPSdoodles/photos
     image_path: /assets/images/blog/gpsdoodles.jpg
@@ -86,5 +76,4 @@ Du kan også kigge på [Stephen Lunds Sketchbook og af GPS-artist](https://www.g
 - [Artist Draws World’s Largest Doodles By Riding His Bike With GPS](https://www.boredpanda.com/bike-gps-doodle-stephen-lund/)
 - [How to make GPS Art](https://www.outsideonline.com/1978066/how-make-gps-art)
 
-{% include feature_row id="feature_row" type="left" %}
 </details>

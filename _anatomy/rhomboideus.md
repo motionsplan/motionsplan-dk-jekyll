@@ -48,7 +48,7 @@ Da musklen ligger under trapezius, er det primært gennem dens funktion (at saml
 
 For at ramme rhomboideus effektivt skal du fokusere på øvelser, hvor du trækker skulderbladene aktivt sammen (retraktion). Jeg kan rigtig godt lide at bruge [rows](/rows/) og særligt Bent over Rows.
 
-{% include motionsplan/exercise key="261" title="Bent over rows" %}
+{% include motionsplan/exercise-detail.html key="261" title="Bent over rows" %}
 
 Andre gode øvelser inkluderer:
 * **Face Pulls:** Giver en fantastisk isolation af de øvre rygmuskler.

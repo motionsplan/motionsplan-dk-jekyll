@@ -1,10 +1,8 @@
 ---
 title: Hvordan beregner du dit daglige energibehov? (Guide)
 seo_title: 'Sådan beregner du dit daglige energibehov: Step-by-step guide'
-description: Følg vores guide til at beregne dit daglige energibehov. Vi forklarer, hvordan du finder dit TDEE ved hjælp af
-  enkle formler og hvad du skal tage højde for.
-excerpt: Følg vores guide til at beregne dit daglige energibehov. Vi forklarer, hvordan du finder dit TDEE ved hjælp af enkle
-  formler og hvad du skal tage højde for.
+description: Følg vores guide til at beregne dit daglige energibehov. Vi forklarer, hvordan du finder dit TDEE ved hjælp af enkle formler og hvad du skal tage højde for.
+excerpt: Følg vores guide til at beregne dit daglige energibehov. Vi forklarer, hvordan du finder dit TDEE ved hjælp af enkle formler og hvad du skal tage højde for.
 permalink: /hvordan-beregne-dagligt-energibehov/
 language: da
 header:
@@ -13,33 +11,15 @@ header:
   teaser: /assets/images/unsplash/photo-1550859492-d5da9d8e45f3.jpg
   caption: Hvordan beregner du dit daglige energibehov? (Guide)
 category:
-- Kost & Ernæring
-- Kalorieberegnere
+  - Kost & Ernæring
+  - Kalorieberegnere
 tags:
-- stofskifte
+  - stofskifte
 last_modified_at: '2025-03-06T23:14:14Z'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781975217303/0x500
-  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
-  title: Exercise Physiology - Nutrition, Energy, and Human Performance
-  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/_9788762813762/0x500
-  alt: Menneskets ernæring
-  title: Menneskets ernæring
-  excerpt: 'Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer,
-    der er nødvendige for opretholdelse af liv. '
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 faq:
-- question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
-- question: Hvad betyder det, hvis jeg har lavt stofskifte?
-- question: Kan man øge sit stofskifte?
+  - question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
+  - question: Hvad betyder det, hvis jeg har lavt stofskifte?
+  - question: Kan man øge sit stofskifte?
 ---
 
 At kende dit daglige energibehov er grundlaget for at kunne tilpasse din kost og træning efter dine mål. Uanset om du ønsker at tabe dig, tage på eller vedligeholde vægten, giver en præcis beregning af dit **daglige stofskifte** og **energibehov** dig værdifuld viden.
@@ -63,24 +43,24 @@ Dit **hvilestofskifte** (Basal Metabolic Rate, BMR) er den mængde energi, din k
 En af de mest populære måder at beregne BMR på er **Mifflin-St. Jeor-formlen**:
 
 - **For mænd:**
-  $$ \text{BMR} = (10 \cdot \text{Vægt}) + (6{,}25 \cdot \text{Højde}) - (5 \cdot \text{Alder}) + 5 $$
+  $$ 	ext{BMR} = (10 \cdot 	ext{Vægt}) + (6{,}25 \cdot 	ext{Højde}) - (5 \cdot 	ext{Alder}) + 5 $$
 
 - **For kvinder:**
-  $$ \text{BMR} = (10 \cdot \text{Vægt}) + (6{,}25 \cdot \text{Højde}) - (5 \cdot \text{Alder}) - 161 $$
+  $$ 	ext{BMR} = (10 \cdot 	ext{Vægt}) + (6{,}25 \cdot 	ext{Højde}) - (5 \cdot 	ext{Alder}) - 161 $$
 
 ### Eksempel:
 
 En mand på 30 år, der vejer 75 kg og er 180 cm høj:
 
-$$ \text{BMR} = (10 \cdot 75) + (6{,}25 \cdot 180) - (5 \cdot 30) + 5 $$
-$$ \text{BMR} = 750 + 1125 - 150 + 5 $$
-$$ \text{BMR} = 1730 \text{ kcal/dag} $$
+$$ 	ext{BMR} = (10 \cdot 75) + (6{,}25 \cdot 180) - (5 \cdot 30) + 5 $$
+$$ 	ext{BMR} = 750 + 1125 - 150 + 5 $$
+$$ 	ext{BMR} = 1730 	ext{ kcal/dag} $$
 
 En kvinde på 30 år, der vejer 60 kg og er 165 cm høj:
 
-$$ \text{BMR} = (10 \cdot 60) + (6{,}25 \cdot 165) - (5 \cdot 30) - 161 $$
-$$ \text{BMR} = 600 + 1031{,}25 - 150 - 161 $$
-$$ \text{BMR} = 1320{,}25 \text{ kcal/dag} $$
+$$ 	ext{BMR} = (10 \cdot 60) + (6{,}25 \cdot 165) - (5 \cdot 30) - 161 $$
+$$ 	ext{BMR} = 600 + 1031{,}25 - 150 - 161 $$
+$$ 	ext{BMR} = 1320{,}25 	ext{ kcal/dag} $$
 
 Du kan også bruge vores [BMR-beregner](/bmr-beregner/) for at få en hurtigere beregning. Eller du kan se nogle af alle de andre [formler til hvilestofskiftet](/hvilestofskiftet-formler/).
 
@@ -104,11 +84,11 @@ Lad os bruge det tidligere eksempel for en mand med et BMR på 1730 kcal/dag:
 
 Hvis han har **moderat aktivitet** (3-5 dage træning om ugen), vil hans TDEE være:
 
-$$ \text{TDEE} = 1730 \cdot 1{,}55 = 2681 \text{ kcal/dag} $$
+$$ 	ext{TDEE} = 1730 \cdot 1{,}55 = 2681 	ext{ kcal/dag} $$
 
 Hvis han derimod har **let aktivitet** (1-3 dage træning om ugen), vil hans TDEE være:
 
-$$ \text{TDEE} = 1730 \cdot 1{,}375 = 2378 \text{ kcal/dag} $$
+$$ 	ext{TDEE} = 1730 \cdot 1{,}375 = 2378 	ext{ kcal/dag} $$
 
 
 ***
@@ -183,10 +163,14 @@ Brug vores beregnere for at få en hurtig og præcis beregning af dit energibeho
 
 **Er du klar til at komme i gang?** Brug beregnerne ovenfor, og få et klart billede af, hvordan du kan tilpasse din kost og træning for at nå dine mål! 🚀
 
+## Bøger om fysiologi og ernæring
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.exercise_physiology_mcardle view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.menneskets_ernaering view="card" %}
+
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
-
-{% include feature_row type="left" %}
 
 - Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. <https://doi.org/10.1016/j.clnu.2013.03.022>.
 - Gerrior, Shirley, WenYen Juan, og Basiotis Peter. 2006. “An Easy Approach to Calculating Estimated Energy Requirements”. Preventing Chronic Disease 3 (4). <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/>.

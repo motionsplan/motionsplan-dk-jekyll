@@ -108,7 +108,7 @@ Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) o
 
 Hvis du leder efter de absolut bedste lærebøger til studiet eller detaljerede plancher til væggen, har jeg samlet mine personlige anbefalinger her:
 
-👉 [**Se anbefalinger til anatomibøger og plakater her**](/anatomi/udstyr-og-boeger/)
+👉 [**Se anbefalinger til anatomibøger og plakater her**](/traeningsboeger-boeger-om-traening/#anatomi-og-fysiologi)
 </div>
 
 ## Ofte stillede spørgsmål

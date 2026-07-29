@@ -1,14 +1,12 @@
 ---
 layout: single
-toc: 'true'
+toc: true
 permalink: /beregnere/
-excerpt: Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og meget mere. Få præcise beregninger til
-  din træning og sundhed her.
-description: Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og meget mere. Få præcise beregninger
-  til din træning og sundhed her.
-title: Beregnere til træning og sundhed
-seo_title: Præcise beregnere til træning, sundhed og kost | Motionsplan
-author_profile: 'true'
+excerpt: "Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og meget mere. Få præcise beregninger til din træning og sundhed her."
+description: "Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og meget mere. Få præcise beregninger til din træning og sundhed her."
+title: "Beregnere til træning og sundhed"
+seo_title: "Beregnere til træning, sundhed og kost"
+author_profile: true
 header:
   overlay_image: /assets/images/unsplash/photo-1608792992053-f397e328a56d.jpg
   credit: https://images.unsplash.com/photo-1608792992053-f397e328a56d
@@ -16,173 +14,71 @@ header:
   caption: Beregnere til træning og sundhed
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
-  - label: <i class='fas fa-stopwatch'></i> Tests
-    url: /tests/
-  - label: <i class='fas fa-calculator'></i> Beregnere
-    url: '#calculators'
-  - label: <i class='fas fa-tools'></i> Værktøjer
-    url: /vaerktoejer/
-  - label: <i class='fas fa-brain'></i> Psykologiske tests
-    url: /vurderingsvaerktoejer/
-breadcrumbs: 'true'
+    - label: "<i class='fas fa-stopwatch'></i> Tests"
+      url: "/tests/"
+    - label: "<i class='fas fa-calculator'></i> Beregnere"
+      url: "/beregnere/"
+    - label: "<i class='fas fa-tools'></i> Værktøjer"
+      url: "/vaerktoejer/"
+    - label: "<i class='fas fa-brain'></i> Psykologiske tests"
+      url: "/vurderingsvaerktoejer/"
+breadcrumbs: true
 classes: wide
 ---
 
-Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og meget mere. Få præcise beregninger til din træning og sundhed her.
+Brug vores interaktive beregnere til at få hurtige og præcise svar på din energibalance, dit BMI, din kropssammensætning og din træningsfremgang.
 
-Beregnerne hjælper dig med at omregne fra en enhed til en anden, eller udregne fakta om din kost eller sundhed. Du kan også finde [alle tests til træning her](/tests/).
+Vælg en kategori herunder, eller søg i den samlede tabel efter det specifikke beregningsværktøj, du har brug for.
 
-## Oversigt over alle beregnere
+---
+
+## Søg i den komplette liste af beregnere
 {: id="calculators" }
 
-<!-- 2. Gem den tunge tabel i en foldud-boks -->
-<details markdown="1" style="background: #f8f9fa; padding: 12px 18px; border-radius: 6px; margin-bottom: 30px;">
-  <summary><strong style="cursor: pointer; font-size: 1.1em;">🔍 Vil du søge i den komplette liste? (Klik her for tabel)</strong></summary>
+{: .notice--info}
+**Leder du efter en specifik beregner?** Åbn tabellen herunder for at søge og filtrere i alle vores interaktive beregnere.
 
-  {% include table/filter-table-beregnere.html %}
+<details markdown="1" style="background: #f8f9fa; padding: 14px 18px; border-radius: 8px; margin-bottom: 25px; border: 1px solid #e9ecef;">
+  <summary><strong style="cursor: pointer; font-size: 1.1em;">🔍 Klik her for at åbne den søgbare beregnertabel</strong></summary>
 
+  <div style="margin-top: 15px;">
+    {% include table/filter-table-beregnere.html %}
+  </div>
 </details>
 
+---
 
-<details markdown="1" class="faq">
-  <summary><h3>🏋️‍♀️📏 BMI beregner, taljemål og idealvægt</h3></summary>
+## Beregnere opdelt efter emne
 
-Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi-beregner/), hvor du kan læse mere om BMI og lave en beregning af dit eget BMI. Tjek også vores [BMI beregner til børn](/bmi-beregner-boern-unge-teenagere/).
-
-Du kan bl.a. prøve vores [beregner til idealvægt](/idealvaegt/) samt vores samlede beregner til [taljemål og talje-hofte-forhold](/taljemaal/).
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>🧑‍🔬📊 Beregnere til kropssammensætning og fedtprocent</h3></summary>
-
-Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men der er mange måder at finde sin kropskomposition på.
-
-{% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "kropskomposition" | where: "tags", "metode" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Alle metoder til kropskomposition](/maal-fedtprocent/){: .btn .btn--success .btn--center }
-
+<div class="notice--success" markdown="1">
+### 🍏🔢 Kalorier, Kost & Energi
+Få styr på dit energiforbrug, dit kaloriebehov og din kost.
+* **[Ligevægtsindtag Beregner](/ligevaegtsindtag-beregner/)** – Udregn hvor mange kalorier du forbrænder om dagen.
+* **[BMR-beregner](/bmr-beregner/)** – Udregn hvor mange kalorier du forbrænder om dagen.
+* **[Kalorieberegnere Oversigt](/kalorieberegner/)** – Læs om de forskellige formler til kalorieberegning.
 </div>
 
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>🍏🔢 Kalorieberegner, ligevægtsindtag, energi og forbrænding</h3></summary>
-
-Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag](/ligevaegtsindtag-beregner/). Det er et af de rigtig populære punkter her på siden.
-
-Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
-
-{% assign site_posts = site.posts | where: "tags", "kalorieberegner" | sort: "date" %}
-
-<div class="feature__wrapper markdown="1">
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>🏋️‍♂️📐 Træningsberegnere</h3></summary>
-
-{% assign site_posts = site.posts | where: "tags", "træning" | where: "tags", "beregner" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-</details>
-
-
-<details markdown="1" class="faq">
-  <summary><h3>🏃‍♂️📊 Løbeberegnere & Løbeværktøjer</h3></summary>
-
-{% assign site_posts = site.posts | where: "tags", "løb" | where: "tags", "beregner" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle løbeværktøjer](/loeb/vaerktoejer/){: .btn .btn--success .btn--center }
-
-</div>
-</details>
-
-## De mest populære beregnere
-
-{% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
+<div class="notice--info" markdown="1">
+### 🏋️‍♀️📏 BMI, Kropssammensætning & Vægt
+Få overblik over din kropsbygning, ideelle vægt og sundhedsindikatorer.
+* **[BMI Beregner](/bmi-beregner/)** – Beregn dit BMI og se officielle vægtklasser.
+* **[BMI Beregner til Børn & Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek alderssvarende BMI-kurver.
+* **[Mål din Fedtprocent](/maal-fedtprocent/)** – Oversigt over alle metoder til at finde din fedtprocent.
+* **[Idealvægt Beregner](/idealvaegt/)** – Udregn din teoretiske idealvægt.
+* **[Taljemål & Talje-Hofte Ratio](/taljemaal/)** – Vurdér din fedtfordeling og sundhedsrisiko.
 </div>
 
-## Interaktive artikler med beregnere
-
-Jeg har skrevet en række artikler, hvor jeg har inkluderet beregnere for at illustrere pointerne i artiklerne. Jeg synes selv, at det gør artiklerne meget engagerende.
-
-{% assign site_posts = site.posts | where: "tags", "interaktiv artikel" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
+<div class="notice--warning" markdown="1">
+### 🏃‍♂️📊 Løb & Kondition
+Optimér din løbetræning, hastighed og udholdenhed med vores løbeberegnere.
+* **[Oversigt over Løbeværktøjer & Beregnere](/loeb/vaerktoejer/)** – Samlet overblik over løberelevante beregnere.
+* **[Konditionstests & VO2-max](/kondition/tests/)** – Beregn dit kondital ud fra dine testresultater.
 </div>
 
-## De mest populære tests
+---
 
-{% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "featured" | sort: "date" %}
+## Leder du efter noget andet?
 
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle tests](/tests/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Alle beregnere
-
-{% assign site_posts = site.posts | where: "tags", "beregner" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
+* ⏱️ **[Det samlede Fysiske Testkatalog](/tests/)** – Mål din kondition, styrke og udholdenhed.
+* 🛠️ **[Træningsværktøjer & Biomekanik](/vaerktoejer/)** – Analysér dit squat, bænkpres og dødløft med tændstikmænd.
+* 🧠 **[Psykologiske Tests](/vurderingsvaerktoejer/)** – Test dit mentale velvære og din trivsel.

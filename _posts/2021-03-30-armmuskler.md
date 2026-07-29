@@ -47,11 +47,11 @@ Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du e
 
 ## Vigtige øvelser til træning af armmuskler
 
-{% include motionsplan/exercise key="170" title="Armstrækning" %}
+{% include motionsplan/exercise-detail.html key="170" title="Armstrækning" %}
 
-{% include motionsplan/exercise key="279" title="Biceps curl" %}
+{% include motionsplan/exercise-detail.html key="279" title="Biceps curl" %}
 
-{% include motionsplan/exercise key="19" title="Chinup" %}
+{% include motionsplan/exercise-detail.html key="19" title="Chinup" %}
 
 ## Konklusion
 

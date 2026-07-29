@@ -1,7 +1,6 @@
 ---
 title: 'Powerprofil i cykling: Hvordan tester du den?'
-excerpt: Som cykelrytter er det interessant at kende sin _power profile_. Ud fra din powerprofil kan du nemlig få en indsigt
-  i, hvilken type rytter du er.
+excerpt: Som cykelrytter er det interessant at kende sin _power profile_. Ud fra din powerprofil kan du nemlig få en indsigt i, hvilken type rytter du er.
 permalink: /powerprofil-cykling/
 language: da
 header:
@@ -9,20 +8,12 @@ header:
   credit: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9
   caption: 'Powerprofil i cykling: Hvordan tester du den?'
 category:
-- Cykling
+  - Cykling
 tags:
-- test
-- cykeltest
+  - test
+  - cykeltest
 last_modified_at: '2022-01-20T08:14:14Z'
 toc: 'true'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781937715939/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/training-and-racing-with-a-power-meter_hunter-allen_paperback_9781937715939
-  rel: sponsored nofollow noopener
-  title: Training and Racing with a Power Meter
-  excerpt: Pioneering cycling coach Hunter Allen and exercise physiologists Dr. Andy Coggan and Stephen McGregor show how
-    to use a power meter to find your baseline power data, profile your strengths and weaknesses, measure fitness and fatigue,
-    optimize your daily workouts, peak for races, and set and adjust your racing strategy during af race.
 meta:
   name: Powerprofil på cykel
   measures: powerprofil
@@ -40,16 +31,18 @@ Hvis du har en hometrainer, der kan måle watt, så kan du lave dine egne tests 
 
 ## Hvordan kan en powerprofil se ud?
 
-En powerprofil viser, hvor mange watt du kan holde over forskellige tidsperioder. Der er forskellige måder at lave powerprofiler på. En meget brugt måde er præsenteret af i bogen [Training and Racing with a Power Meter](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/training-and-racing-with-a-power-meter_hunter-allen_paperback_9781937715939){: rel="sponsored nofollow noopener" } skrevet af Allen, Coggan og McGregor operer med følgende parametre.
+En powerprofil viser, hvor mange watt du kan holde over forskellige tidsperioder. Der er forskellige måder at lave powerprofiler på. En meget brugt måde er præsenteret af Allen, Coggan og McGregor i bogen *Training and Racing with a Power Meter*, som opererer med følgende parametre:
 
 - 5 sekunder
 - 1 minut
 - 5 minutter
 - FTP
 
-Ud fra disse fire målinger kan du sammenligne dig med med eliten, og du får en cykelrytterprofil.
+Ud fra disse fire målinger kan du sammenligne dig med eliten, og du får en cykelrytterprofil.
 
-{% include figure image_path="/assets/images/zwiftinsider.com/pursuiter-phenotype-a5d5e265.jpg" caption="Kilde: [Training and Racing with a Power Meter](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/training-and-racing-with-a-power-meter_hunter-allen_paperback_9781937715939){: rel='sponsored nofollow noopener' } [📷](https://zwiftinsider.com/wp-content/uploads/2019/04/pursuiter-phenotype.jpg){: rel='nofollow noopener' }" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.training_and_racing_with_a_power_meter view="card" %}
+
+{% include figure image_path="/assets/images/zwiftinsider.com/pursuiter-phenotype-a5d5e265.jpg" caption="Kilde: Training and Racing with a Power Meter [📷](https://zwiftinsider.com/wp-content/uploads/2019/04/pursuiter-phenotype.jpg){: rel='nofollow noopener' }" %}
 
 Hvis du kører Zwift og har sat din brugerprofil sammen med ZwiftPower, så kan du se en variation af denne vurdering på din profil på ZwiftPower. Her kan du se en powerprofil for en af de dygtigste ryttere i Zwift.
 
@@ -67,7 +60,7 @@ Hvis du gerne vil sammenligne din powerprofil med andre, så skal du normalisere
 
 På [Training Peaks](https://www.trainingpeaks.com/blog/power-profiling/) kan du finde en samlet tabel over, hvordan power fordeler sig på forskellige niveauer. I tabellen nedenunder kan du sammenligne dit _maksimale power output (MPO)_ pr. kilo kropsvægt med alt fra begyndere til verdensklassecykelryttere.
 
-{% include figure image_path="/assets/images/wpassets.trainingpeaks.com/PowerProfilewidth700height608-c1025837.jpg" caption="Kilde: [www.trainingpeaks.com](https://www.trainingpeaks.com/blog/power-profiling/) [📷](https://wpassets.trainingpeaks.com/wp-content/uploads/2017/01/PowerProfilewidth700height608.jpg){: rel='nofollow noopener' }"  %}
+{% include figure image_path="/assets/images/wpassets.trainingpeaks.com/PowerProfilewidth700height608-c1025837.jpg" caption="Kilde: [www.trainingpeaks.com](https://www.trainingpeaks.com/blog/power-profiling/) [📷](https://wpassets.trainingpeaks.com/wp-content/uploads/2017/01/PowerProfilewidth700height608.jpg){: rel='nofollow noopener' }" %}
 
 ## Hvordan laver man en powerprofil?
 

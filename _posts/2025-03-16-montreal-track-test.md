@@ -69,16 +69,6 @@ faq:
   answer: Ja, gentagne tests kan vise ændringer i aerob kapacitet over tid.
 - question: Er der en digital version af testen?
   answer: Der findes apps til testadministration, men selve testen kræver stadig en fysisk bane og lydoptagelse.
-feature_row:
-- image_path: https://kinetikshop.dk/cdn/shop/files/KINETIK_VX1_-_Vaegtvest.png?v=1687445993&width=1946
-  alt: KINETIK Vægtvest VX1
-  title: KINETIK Vægtvest VX1
-  excerpt: KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest
-    er specialdesignet til at aktivere din styrke, og effektivisere din træning.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 ---
   
 Den **Université de Montréal Track Test (UM-TT)**, også kendt som **Montreal Track Test**, er en maksimal, kontinuerlig, indirekte multistage-løbetest, der vurderer den aerobe kapacitet baseret på løbets energiforbrug. Denne test blev først beskrevet af **Léger & Boucher (1980)** og var en forløber for den mere kendte [Bip Test](/bip-test/).

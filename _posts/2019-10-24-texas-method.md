@@ -20,16 +20,6 @@ tags:
 - styrketræning
 - populær
 - øvet
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-  alt: Stærk
-  title: Stærk - Jacob Beermann
-  excerpt: Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob
-    Beermann med bogen Stærk. Her får du en god og grundig introduktion til hvordan man styrketræner bedst.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 language: da
 meta:
   name: Texas Method
@@ -118,5 +108,4 @@ Du kan prøve programmet i **[Liftosaur-appen](/liftosaur/)**. Her behøver du i
 * [Texas Method](https://www.t-nation.com/training/texas-method)
 * [Why The Texas Method May Be The Best Intermediate Program](https://www.powerliftingtowin.com/texas-method/)
 
-{% include feature_row type="left" %}
 </details>

@@ -13,24 +13,6 @@ category:
 tags:
 - stofskifte
 last_modified_at: '2025-03-06T23:14:14Z'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781975217303/0x500
-  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
-  title: Exercise Physiology - Nutrition, Energy, and Human Performance
-  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/_9788762813762/0x500
-  alt: Menneskets ernæring
-  title: Menneskets ernæring
-  excerpt: 'Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer,
-    der er nødvendige for opretholdelse af liv. '
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 ---
 
 At forstå hvordan man beregner sit hvilestofskifte (BMR) er vigtigt for at kunne tilpasse sin kost og træning. I denne artikel gennemgår vi de mest anvendte BMR-formler, herunder Mifflin-St Jeor og Harris-Benedict, og viser dig, hvordan du kan bruge dem til at beregne dit BMR.

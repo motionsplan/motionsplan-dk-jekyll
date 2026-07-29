@@ -1,14 +1,12 @@
 ---
 title: Virker kompressionsstrømper 🧦 til løb 🏃?
 seo_title: 'Kompressionsstrømper: Effekt og bivirkninger løb'
-description: Hvilken effekt er der af kompressionsstrømper på præstation og restitution i forbindelse med løb - og er der
-  bivirkninger ved kompressionsstrømper?
+description: Hvilken effekt er der af kompressionsstrømper på præstation og restitution i forbindelse med løb - og er der bivirkninger ved kompressionsstrømper?
 permalink: /kompressionsstroemper-restitution-praestation-bivirkninger/
 redirect_from:
-- /artikel/virker-kompressionsstroemper/
-- /artikel/kompressionsstroemper-en-god-ide
-excerpt: Kompressionsstrømper foretrækkes af flere og flere løbere og cykelryttere, men hvad er effekten og virker kompressionsstrømper
-  på præstationsevnen og restitutionen til løb? Og er der bivirkninger ved at bruge kompressionsstrømper?
+  - /artikel/virker-kompressionsstroemper/
+  - /artikel/kompressionsstroemper-en-god-ide
+excerpt: Kompressionsstrømper foretrækkes af flere og flere løbere og cykelryttere, men hvad er effekten og virker kompressionsstrømper på præstationsevnen og restitutionen til løb? Og er der bivirkninger ved at bruge kompressionsstrømper?
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1504733059175-e37302dfce31.jpg
@@ -16,38 +14,16 @@ header:
   teaser: /assets/images/unsplash/photo-1504733059175-e37302dfce31.jpg
   caption: Virker kompressionsstrømper på restitution og præstation til og løb?
 category:
-- Løb
-- Restitution
+  - Løb
+  - Restitution
 tags:
-- løb
-- restitution
-- tøj
-- skader
-- udstyr
+  - løb
+  - restitution
+  - tøj
+  - skader
+  - udstyr
 last_modified_at: '2021-02-02T20:27:57Z'
 toc: 'true'
-feature_row:
-- image_path: https://www.billigsport24.dk/media/catalog/product/cache/1/image/17f82f742ffe127f42dca9de82fb58b1/6/1/6150_compression_calf_profcare_neoprene_kinesiological_effect_pl.jpg
-  alt: Seger kompressionsløbestrømper - kompressionsstrømper der virker
-  title: Seger Kompressionsstrømper til Løb
-  excerpt: Segers kompressionsløbestrømper giver den optimale blodgennemstrømning i underbenet. Løbestrømper med kompression
-    giver dig mange fordele, når du løber. Til orientering har jeg kun set studier på CEPs løbestrømper med kompression.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/seger-compression-lobestromper-2-par-326708
-  btn_label: Tjek pris
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-feature_row_bike:
-- image_path: /assets/images/resources.chainbox.io/15100128_A_default-f5922ebf.jpg
-  credit: https://resources.chainbox.io/cykelpartner/public/pim/d06973ae-ebd1-48f6-bbb6-05f81d87a53d/15100128_A_default.jpg
-  alt: Sensor Compress - Kompressions cykelstrømper
-  title: Sensor Compress - Kompressionsstrømper cykelstrømper der virker
-  excerpt: Kompressionsstrømperne fra Sensor stimulere blodcirkulationen og får musklernes regeneration til at foregå hurtigere.
-    Cykelstrømperne er udviklet med en anatomisk svang, samt forstærket tå og hælområde. Derudover modvirker de trætte ben
-    og giver foden en bedre støtte.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/sensor-compress---kompressions-cykelstroemper---sortblaa---str-6-8--39-42
-  btn_label: Tjek pris
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 ---
 
 Man har i mange år brugt kompressionstøj som behandling af folk med dårligt blodomløb i benene, men kompressionstøj har også vundet indpas i træningsverden.
@@ -134,7 +110,7 @@ Hvis du kender flere studier, der kan forbedre denne artikel, så skriv det ende
 
 Det er tydeligt, at der stadig mangler mere forskning for at kunne give et helt præcist svar. Der mangler studier der kan belyse det venøse returløb, træningspræstationerne, muskeltræthed og DOMS, før vi kan sige noget endeligt. Det skal også understreges, at resultaterne for folk med problemer ikke direkte kan overføres til raske mennesker.
 
-Det ser dog ud til, at strømperne er en fordel ift. restitutionsfasen. Selvom Perrey et al (2009) ikke kunne finde forbedret restitution på de funktionelle parametre, så har flere studier vist, at ømheden kan være nedsat. Der er ingen studier der viser, at det er en ulempe at bruge strømperne.
+Det ser dog ud til, at strømperne er en fordel ift. restitutionsfasen. Selvom Perrey et al (2009) ikke kunne finde forbedret restitution på de funktionelle parametre, så har flere studier viste, at ømheden kan være nedsat. Der er ingen studier der viser, at det er en ulempe at bruge strømperne.
 
 ## Hvordan virker kompressionsstrømper?
 
@@ -195,7 +171,9 @@ Hvis du specifikt er interesseret i, hvordan kompressionsstrømper kan gavne cyk
 
 ## Køb kompressionsstrømper
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.seger_kompressionsstroemper view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.sensor_compress_cykelstroemper view="card" %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

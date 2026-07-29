@@ -1,65 +1,53 @@
 ---
 title: Regler i styrkeløft – sådan dømmes dine løft 🏋️‍♀️
 seo_title: 'Regler for styrkeløft: Squat, bænkpres og dødløft'
-excerpt: Få en grundig introduktion til styrkeløftens regler. Styrkeløft handler om at løfte så mange kilo som muligt i squat,
-  bænkpres og dødløft – men altid inden for de fastsatte konkurrencekrav.
+excerpt: Få en grundig introduktion til styrkeløftens regler. Styrkeløft handler om at løfte så mange kilo som muligt i squat, bænkpres og dødløft – men altid inden for de fastsatte konkurrencekrav.
 description: Få en detaljeret oversigt over de officielle regler for squat, bænkpres og dødløft i styrkeløft.
 permalink: /powerlifting-rules/
-slanguage: da
+language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1583187938491-1dcc103c9e14.jpg
   credit: https://images.unsplash.com/photo-1534367990512-edbdca781b00
   teaser: /assets/images/unsplash/photo-1534367990512-edbdca781b00.jpg
   caption: Regler til styrkeløft og powerlifting
 category:
-- Styrketræning
-- Styrkeløft
+  - Styrketræning
+  - Styrkeløft
 tags:
-- styrkeløft
-- guide
+  - styrkeløft
+  - guide
 last_modified_at: '2024-11-19T23:14:14Z'
 feature_row:
-- image_path: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
-  credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
-  alt: Squat - styrkeløft og powerlifting regler for squat
-  excerpt: Squat
-- image_path: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
-  credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
-  alt: Bænkpres - powerlifting og styrkeløft regler for bænkpres
-  excerpt: Bænkpres
-- image_path: /assets/images/i.ytimg.com/maxresdefault-753765c5.jpg
-  credit: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
-  alt: Dødløft - poserlifting og styrkeløft regler for dødløft
-  excerpt: Dødløft
+  - image_path: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
+    credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+    alt: Squat - styrkeløft og powerlifting regler for squat
+    excerpt: Squat
+  - image_path: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
+    credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+    alt: Bænkpres - powerlifting og styrkeløft regler for bænkpres
+    excerpt: Bænkpres
+  - image_path: /assets/images/i.ytimg.com/maxresdefault-753765c5.jpg
+    credit: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
+    alt: Dødløft - poserlifting og styrkeløft regler for dødløft
+    excerpt: Dødløft
 feature_row_spreadsheet:
-- image_path: /assets/images/blog/spreadsheet-calculate-powerlifting-attempts.png
-  alt: Udregn dine forsøg
-  title: Udregn dine forsøg
-  excerpt: Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne.
-  url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
-  rel: nofollow noopener
-  btn_label: <i class='fas fa-file-excel'></i> Sheet med forslag til forsøg
-  btn_class: btn--success
-feature_row_books:
-- image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-  alt: Stærk
-  title: Stærk - Jacob Beermann
-  excerpt: Kunne du godt tænke dig at blive rigtigt stærk til styrkeløft og powerlifting, så har en af Danmarks bedste styrkeløftere
-    Jacob Beermann skrevet bogen _Stærk_. Her får du en god og grundig introduktion til, hvordan man bliver stærk. Med i købet
-    får du et fremragende program målrettet på powerlifting.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
+  - image_path: /assets/images/blog/spreadsheet-calculate-powerlifting-attempts.png
+    alt: Udregn dine forsøg
+    title: Udregn dine forsøg
+    excerpt: Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne.
+    url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
+    rel: nofollow noopener
+    btn_label: <i class='fas fa-file-excel'></i> Sheet med forslag til forsøg
+    btn_class: btn--success
 quiz:
-- question: Hvor langt skal man ned i squat for at få godkendt løftet?
-  question-attachment: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
-  credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
-  answer: Hofteleddet skal være under knæleddet.
-- question: Må hovedet løftes fra bænken i bænkpres?
-  answer: Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
-  answer-attachment: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
-  credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+  - question: Hvor langt skal man ned i squat for at få godkendt løftet?
+    question-attachment: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
+    credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+    answer: Hofteleddet skal være under knæleddet.
+  - question: Må hovedet løftes fra bænken i bænkpres?
+    answer: Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
+    answer-attachment: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
+    credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
 ---
 
 Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft.
@@ -105,10 +93,6 @@ Kommandoerne i squat er:
 - Vent på **"Squat!"**-kommandoen. Squat ned så hofteleddet er lavere end knæleddet. Rejs dig igen.
 - Vent på **"Rack"**-kommandoen.
 
-{% comment %}
-{% include video provider="youtube" id="dnhe34Xbvc0" %}
-{% endcomment %}
-
 {% include video provider="youtube" id="MGD0UmsZnek" %}
 
 **Lær endnu mere**: [Guide til squat i styrkeløft](/styrkeloeft/squat/)
@@ -126,10 +110,6 @@ Kommandoerne i bænkpres i en styrkeløft-konkurrence er:
 - Vent på **"Pres"**-kommandoen. Pres vægtstangen op i helt strakte arme.
 - Vent på **"Rack"**-kommandoen.
 
-{% comment %}
-{% include video provider="youtube" id="jrZCsEwlKxM" %}
-{% endcomment %}
-
 {% include video provider="youtube" id="ifrev2QcGXg" %}
 
 **Lær endnu mere**: [Guide til bænkpres i styrkeløft](/styrkeloeft/baenkpres/)
@@ -146,10 +126,6 @@ Kommandoerne under dødløft er:
 - **Stangen er klar** eller **Bar is loaded**.
 - Når man er klar til at løfte, løfter dommeren sin arm.
 - Når løfteren står oprejst med stangen, sænker dommeren armen og siger **ned**.
-
-{% comment %}
-{% include video provider="youtube" id="WtPdpWnkYV4" %}
-{% endcomment %}
 
 {% include video provider="youtube" id="gbnOJuNVt6M" %}
 
@@ -173,7 +149,7 @@ Du kan læse mere om farvekoderne for løftets godkendelse og fejl under de enke
 
 ## Vægtklasser og IPF-Point
 
-I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft. Sammenligningen foregår ved hjælp af IPF-point, som uddeles i forhold til ægten, kønnet og det løftede. Der er også lavet en formel, hvor alderen tages med i betragning.
+I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft. Sammenligningen foregår ved hjælp af IPF-point, som uddeles i forhold til vægten, kønnet og det løftede. Der er også lavet en formel, hvor alderen tages med i betragtning.
 
 Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af styrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig kropsvægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
 
@@ -224,4 +200,4 @@ Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig 
 
 ## Køb bog om styrkeløft og træning til powerlifting
 
-{% include feature_row id="feature_row_books" type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.staerk_jacob_beermann view="card" %}

@@ -7,18 +7,10 @@ header:
   credit: https://images.unsplash.com/photo-1619037961380-5ab533fc7129
   caption: Begynderguide til løbedynamik og løbemålinger
 category:
-- Løb
+  - Løb
 tags:
-- løbeteknik & løbestil
+  - løbeteknik & løbestil
 last_modified_at: '2022-01-27T22:21:26Z'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781782551096/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
-  title: The Secret of Running
-  excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
-  btn_label: Læs mere
-  btn_class: btn--success
-  rel: sponsored nofollow nooopener
 ---
 
 Hvis du har et pulsur eller en _foot pod_ til løb, så er du sikkert blevet overvældet over en masse løbemålinger af din løbedynamik. Det her er en begynderguide til at forstå, hvad alle tallene betyder.
@@ -58,7 +50,7 @@ Tabellen tager udgangspunkt i van Dijk og van Megens forslag til nogle mål, man
 
 ### 1. Løbekadence
 
-Løbekadence er det antal skridt en løber tager på et minut. De fleste eliteløbere ligger omkring 180 skridt pr. minut, men det  afhænger naturligvis af din løbestil og løbeteknik. Løbekadencen kan være et parameter i din løbeøkonomi, og derfor også interessant at forsøge at måle i forhold til fx ECOR.
+Løbekadence er det antal skridt en løber tager på et minut. De fleste eliteløbere ligger omkring 180 skridt pr. minut, men det afhænger naturligvis af din løbestil og løbeteknik. Løbekadencen kan være et parameter i din løbeøkonomi, og derfor også interessant at forsøge at måle i forhold til fx ECOR.
 
 Løbekadencen er et rigtig godt parameter at træne, hvis du gerne vil være en bedre løber. Vi går meget mere i dybden med dette i indlægget om [løbekadence og skridtlængde](/gennemsnitlige-skridtlaengde-kadence-loeb/).
 
@@ -187,36 +179,6 @@ På en jævn hård bane, hvor man måler watt og hastighed med Stryd, så er ECO
 
 Formålet for alle løbere skal således være at sænke deres ECOR. Så vil de nemlig være mere effektive.
 
+## Bøger om løbedynamik og løbeeffekt
 
-{% comment %}
-
-Intensity Factor: Intensity factor is a ratio of normalized or average power for a run divided by critical or functional threshold power (FTP) of a runner. There are multiple methods of measuring FTP which signifies the power a runner can hold for a significant amount of time. FTP will change over the course of time as a runner gains more experience of holding a higher power.
-The following IF is measured based on an FTP of 180 W
-
-Intensity Factor data from TrainingPeaks
-Intensity Factor (IF) is calculated as 190 / 180 which is 1.05
-
-Efficiency Factor: Efficiency factor (EF) is a ratio of normalized or average power and heart rate when both power and heart rate have been tracked. Increase in efficiency factor indicates an improvement in aerobic fitness
-
-Aerobic Decoupling: Aerobic Decoupling (Pw:Hr) is the comparison of the efficiency factor between the first half of the activity and the second half of the activity. A smaller value of aerobic decoupling signifies better aerobic fitness.
-Here is an example of these two metrics:
-
-Aerobic Decoupling data from TrainingPeaks
-Efficiency factor (EF) is determined by dividing normalized power (NP) with Avg heart rate
-207 (W) / 166 (BPM) = 1.25
-Aerobic decoupling (Pw:Hr) for this run was 6.89%
-
-## Category 3: Pace, Grade Adjusted Pace, Elevation
-
-Pace & Grade Adjusted Pace (GAP): Pace is one metric that I consider a reflection of a runner’s current ability based on the input provided during the activity. Most of the training methods are comprised of sessions where a different pacing zone needs to be maintained. The pacing zone should also be created based on a runner’s ability. So, an 8 min/mile (5 min/km) pace can be a tempo pace for a beginner runner but for an experienced runner that could be an easy or recovery pace.
-Grade adjusted pace (GAP) is adjusted pace when elevation is taken into account.
-Here are some examples of pace and GAP:
-
-
-Pace and GAP data from Strava
-Elevation: Hill training is a staple of every runner’s training schedule. So, it would be interesting to see the elevation gain and loss during a running activity.
-Here is an example of the elevation gained and lost for my run:
-
-Elevation data from TrainingPeaks
-This will bring an end to this post. Feel free to comment if you have any questions regarding the metrics as it will help all of us to be a better data-driven runner. Happy running!
-{% endcomment %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.the_secret_of_running view="card" %}

@@ -96,7 +96,10 @@ Der er naturligvis ikke noget i vejen med de klassiske øvelser til bentræninge
 
 ## Øvelser til bentræning og underkropstræning
 
-{% include motionsplan/exercises-list %}
+{% assign exercises = page[include.id] | default: page.exercises %}
+{% for exercise in exercises %}
+  {% include motionsplan/exercise-detail.html key=exercise.key %}
+{% endfor %}
 
 ## Ofte stillede spørgsmål om benøvelser
 

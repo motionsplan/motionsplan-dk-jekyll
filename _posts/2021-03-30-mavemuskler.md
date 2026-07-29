@@ -69,11 +69,11 @@ Jeg har lavet en samlet [liste over alle muskler i kroppen her](/muskler/), hvis
 
 En komplet mavetræning bør indeholde øvelser, der udfordrer maven fra alle vinkler.
 
-{% include motionsplan/exercise key="31" title="Planken" %}
+{% include motionsplan/exercise-detail.html key="31" title="Planken" %}
 
-{% include motionsplan/exercise key="156" title="Hanging Leg Raise" %}
+{% include motionsplan/exercise-detail.html key="156" title="Hanging Leg Raise" %}
 
-{% include motionsplan/exercise key="212" title="Russian Twist" %}
+{% include motionsplan/exercise-detail.html key="212" title="Russian Twist" %}
 
 ## Konklusion
 

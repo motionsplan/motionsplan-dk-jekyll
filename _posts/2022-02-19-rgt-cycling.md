@@ -1,112 +1,113 @@
 ---
-title: 'MyWhoosh Cycling: Gratis alternativ til Zwift'
+title: &title "MyWhoosh Cycling: Gratis alternativ til Zwift 🚴‍♂️"
+seo_title: "MyWhoosh Cycling: Gratis alternativ til Zwift"
+description: "Kom godt i gang med MyWhoosh Cycling. Læs vores komplette guide til den gratis e-cykling platform, hardwarekrav, ruter og løb."
+excerpt: "Kom godt i gang med MyWhoosh Cycling. Læs vores komplette guide til den gratis e-cykling platform, hardwarekrav, ruter og løb."
 permalink: /mywhoosh-cycling/
-redirect_from:
-- /rgt-cycling/
 language: da
+toc: true
+toc_label: "Indhold i guiden"
+toc_sticky: true
 header:
-  teaser: /assets/images/unsplash/photo-1605235186583-a8272b61f9fe.jpg
-  credit: https://images.unsplash.com/photo-1605235186583-a8272b61f9fe
-  caption: 'MyWhoosh Cycling: Gratis alternativ til Zwift'
+  overlay_image: /assets/images/blog/mywhoosh-guide.jpg
+  teaser: /assets/images/blog/mywhoosh-guide.jpg
+  caption: *title
 category:
-- Cykling
+  - Cykling
 tags:
-- apps
-- virtuel cykling
-- hometrainer
-- cykling
-last_modified_at: '2024-01-23T22:21:26Z'
-gallery:
-- image_path: /assets/images/blog/wahoo-rgt-1.jpg
-  url: /assets/images/blog/wahoo-rgt-1.jpg
-- image_path: /assets/images/blog/wahoo-rgt-2.jpg
-  url: /assets/images/blog/wahoo-rgt-2.jpg
-- image_path: /assets/images/blog/wahoo-rgt-3.jpg
-  url: /assets/images/blog/wahoo-rgt-3.jpg
-- image_path: /assets/images/blog/wahoo-rgt-4.jpg
-  url: /assets/images/blog/wahoo-rgt-4.jpg
+  - hometrainer
+  - cykling
+  - virtuel cykling
+  - e-cykling
+  - mywhoosh
+last_modified_at: '2026-07-29T16:20:00Z'
 ---
 
-Her har du en guide til at cykle på hometrainer med MyWhoosh Cycling. Det er en virtuel cykelplatform, som kan gøre indendørs træningen lidt mere interessant.
+MyWhoosh er den hurtigst voksende virtuelle cykelplatform på markedet. Platformen har skabt enorm opmærksomhed i e-cykling verdenen, da den er **100% gratis at bruge** og samtidig har overtaget værtskabet for det officielle UCI Cycling Esports World Championship (VM i e-cykling).
 
-MyWhoosh Cykling er et alternativ til det meget populære Zwift. Fordelen ved MyWhoosh Cykling er, at du kan komme i gang gratis og køre nogle enkelte ruter uden at skulle betale. Samtidig kan du også gratis deltage i events på platformen.
+Med flot 3D-grafik bygget i Unreal Engine, realistiske bjergetaper, strukturerede træningsprogrammer og pengepræmier i deres løbsserier er MyWhoosh blevet en direkte konkurrent til [Zwift](/komplet-begynderguide-zwift/) og [Rouvy](/rouvy/).
 
-Her har du en guide til at cykle på hometrainer med MyWhoosh Cyling. Det er en [virtuel cykelplatform på hometrainer](/hometrainer-apps/), som kan gøre indendørs træningen lidt mere interessant.
+I denne guide gennemgår vi alt, hvad du skal vide om MyWhoosh, systemkrav, funktioner og hvordan du kommer i gang.
 
-MyWhoosh Cykling er et alternativ til det meget [populære Zwift](/komplet-begynderguide-zwift/). Fordelen ved MyWhoosh Cykling er, at du kan komme i gang gratis og køre nogle enkelte ruter uden at skulle betale. Samtidig kan du også gratis deltage i events på platformen. Bl.a. derfor køres VM også på MyWhoosh i 2022.
+---
 
-{% include figure image_path="/assets/images/blog/wahoo-rgt-4.jpg" alt="MyWhoosh Cycling" %}
+## Hvad er MyWhoosh?
 
-## Hvad er MyWhoosh Cycling?
+MyWhoosh er en online cykelplatform udviklet i De Forenede Arabiske Emirater (UAE). Platformen forbinder din smart hometrainer, wattmåler og pulsmåler til en virtuel verden, hvor du kan træne, cykle ture eller køre løb mod ryttere fra hele verden.
 
-MyWhoosh Cycling er en relativt ny platform inden for træning på hometrainer. Det er gratis at deltage i cykelløb på platformen. Du skal altså ikke betale et abonnement for at køre på platformen.
+Hvor andre platforme kræver et fast månedligt abonnement, har MyWhoosh valgt en forretningsmodel, hvor appen indtil videre er fuldstændig gratis at downloade og bruge for alle.
 
-{% include video provider="youtube" id="D29q_wssy0k" %}
+{% include figure image_path="/assets/images/blog/mywhoosh-screenshot.jpg" caption="MyWhoosh benytter Unreal Engine til at skabe flot, realistisk 3D-grafik." alt="MyWhoosh screenshot" %}
 
-MyWhoosh har lige nu også et lille forspring på en mere realistisk dynamik i løbene. På MyWhoosh kan du blive lukket inde i en sprint, hvis du sidder forkert. Du kan heller ikke træde rundt i skarpe sving, hvor farten altså bliver lidt lavere.
+### Nøglefunktioner i MyWhoosh:
 
-I 2022 køres flere af de nationale forbund deres mesterskaber på MyWhoosh, og USA benytter fx platformen til at udtage deres landshold, som i 2022 køres på Zwift.
+1. **100% Gratis:** Ingen abonnementsbetaling eller skjulte gebyrer.
+2. **Flot 3D-grafik:** Detaljerede virtuelle verdener med realistiske lys- og skyggeeffekter.
+3. **Målrettet e-sport:** Omfattende verifikationssystemer til konkurrencer samt store præmiepuljer i deres online løbsserier.
+4. **Stort træningsbibliotek:** Hundreder af strukturerede workouts og træningsplaner udarbejdet af professionelle trænere.
 
-## Fordele ved MyWhoosh
+---
 
-MyWhoosh Cykling fungerer rigtig godt. Du behøver kun en app til at styre platformen. Jeg synes grafikken i appen er lidt bedre end Zwift, og det er lidt lettere at have overblik over ruten, mens du kører.
+## Hardware og systemkrav (VIGTIGT)
 
-Desuden tæller det altid i min bog, at platformen er gratis. Udvalget af ruter på den gratis udgave og træninger er meget begrænset, men du kan gratis deltage i alle de enkelte løb og events.
+Da MyWhoosh er bygget på grafikmotoren Unreal Engine, stiller appen **højere krav til din hardware** end eksempelsvis Zwift eller BKOOL. Hvis din PC, Mac eller tablet er af ældre dato, kan du opleve, at spillet hakker.
 
-Fordelene ved at bruge MyWhoosh som din virtuelle cykelplatform omfatter :
+### Anbefalede specifikationer:
+* **PC / Windows:** Dedikeret grafikkort (NVIDIA GTX 1660 / RTX-serien eller tilsvarende) og minimum 16 GB RAM.
+* **Mac:** Mac-computere med M1-, M2- eller M3-chip anbefales.
+* **iOS / iPad:** Nyere iPads (f.eks. iPad Air/Pro fra de seneste generationer) eller iPhones med kraftig processor.
+* **Apple TV:** Apple TV 4K fungerer, men grafikopløsningen er nedskaleret i forhold til en stærk PC.
 
-- Platformen er gratis at bruge for den begrænsede udgave.
-- Der er et stort udvalg af løb og begivenheder at deltage i, og der er noget for enhver smag.
-- Grafikken og app-designet er god, hvilket gør oplevelsen meget realistisk.
+{% include motionsplan/affiliate-box.html type="category" item=site.data.affiliates.categories.hometrainers view="card" title="Er dit hometrainer-setup klar til MyWhoosh?" text="MyWhoosh kræver en smart hometrainer for at justere modstanden automatisk på stigningerne. Se vores udstyrsguide for at finde det rette setup:" %}
 
-## Ulemper ved MyWhoosh
+---
 
-Jeg synes ikke, at der er så mange ulemper ved MyWhoosh Cykling. Hvis du gerne vil køre på en social platform med flere brugere, så er Zwift i øjeblikket et bedre alternativ, men jeg tror MyWhoosh Cykling kommer efter det ganske snart.
+## Verdener og ruter på MyWhoosh
 
-Hvis du gerne vil have en mere livagtig grafik, så er [Rouvy](/rouvy/) eller [BKOOL](/bkool-begynderguide/) formentlig bedre alternativer, da de tager udgangspunkt i realistiske optagelser.
+MyWhoosh udvider løbende deres virtuelle univers. Ruterne er inspirerede af virkelige steder og byder på alt fra flade kyststrækninger til ekstremt stejle bjergetaper:
 
-MyWhoosh Cykling kan heller ikke connecte til så mange eksterne services som Zwift. Det er dog ikke noget problem for mig, da jeg optager alle mine træninger på Garmin Connect, så jeg har alle træningsdata samlet der. Så synkroniserer jeg mine Zwift og MyWhoosh træninger op til Strava og sletter de træningspas på Strava, der bliver synkroniseret fra Garmin.
+* **Arabia (UAE & Saudi-Arabien):** Kør gennem spektakulære ørkenlandskaber, moderne storbyer og tekniske bjergetaper som Jebel Jais.
+* **Colombia:** Udfordrende stigninger i højderne inspireret af sydamerikanske bjerge.
+* **Belgium:** Flade ruter og brostensstykker kendt fra de klassiske forårsklassikere.
+* **Australia:** Varierede kystruter med bløde bakker og hurtige opløbsstrækninger.
 
-På Strava kan jeg således dele alle mine træninger og løb på en fornuftig måde, men jeg bruger Garmin Connect til at analysere min træning.
+---
 
-Zwift har et større netværk, og de har Companion app'en, som rigtig mange mennesker synes er rigtig smart til at få overblik over fællesskabet og events. Samtidig er der Zwiftpower, som giver et godt overblik over dine data fra de løb, du har deltaget i.
+## Træning og FTP-tests på MyWhoosh
 
-## Sådan bruger du MyWhoosh
+Hvis du vil bruge indendørssæsonen til at forbedre din form, har MyWhoosh et af de mest omfattende træningsmoduler. 
 
-Du skal først og fremmest bruge en hometrainer før du kan gå i gang med at køre MyWhoosh. Langt de fleste nyere hometrainers kan bruges med programmet til MyWhoosh. MyWhoosh bruger ANT+ og Bluetooth Smart til at oprette forbindelse til trænere.
+Du kan tage indbyggede **FTP-tests** (både ramp-tests og 20-minutters tests) til at bestemme din Functional Threshold Power. Ud fra din FTP tilpasser MyWhoosh automatisk belastningen på alle træningspas, så du træner i de korrekte [træningszoner](/traeningszoner/).
 
-Når du har downloadet MyWhoosh appen, skal du oprette en konto. Det kan du gøre direkte i appen eller på hjemmesiden.
+---
 
-Hvis du vil bruge MyWhoosh sammen med en pulsmåler, skal du tilslutte pulsmåleren til appen. MyWhoosh bruger ANT+ og Bluetooth Smart til at oprette forbindelse til pulsmåler.
+## MyWhoosh Sunday Race Club & E-sport
 
-{% include gallery id="gallery" layout="half" %}
+MyWhoosh er særligt kendt for deres massive satsning på professionel e-cykling. Gennem konceptet *Sunday Race Club* og deres officielle ligaer kan både amatører og elite-ryttere køre om pengepræmier.
 
-Når du har konfigureret alt, kan du begynde at køre!
+For at sikre fair konkurrence kræver MyWhoosh streng dual-recording (parallel måling af watt fra både hometrainer og pedal/krank) samt nøjagtig vægtverifikation af rytterne i de øverste klasser.
 
-Når du er færdig med at køre, skal du ikke glemme at synkronisere din træning i din træningslogbog. MyWhoosh synkroniserer med Garmin Connect, Strava og TrainingPeaks.
+---
 
-Det er det hele! Nu er du klar til at begynde at cykle på MyWhoosh. God fornøjelse med turen!
+## MyWhoosh vs. Zwift
 
-## Begivenheder og løb, der er tilgængelige på MyWhoosh
+| Feature | MyWhoosh | Zwift |
+| :--- | :--- | :--- |
+| **Pris** | Gratis | Ca. 15–20 € / måned |
+| **Grafik** | Realistisk 3D (Unreal Engine) | Gamificeret 3D / Tegneseriestil |
+| **Hardwarekrav** | Høje | Moderate |
+| **Brugertal** | Voksende | Markedets største |
+| **Officielt UCI VM** | Ja (Vært fra 2024–2026) | Nej (Tidligere vært) |
 
-MyWhoosh tilbyder en bred vifte af arrangementer og løb. Du kan finde noget for enhver smag, uanset om du er nybegynder eller en erfaren rytter.
-
-Her er nogle af de begivenheder og løb, der er tilgængelige på MyWhoosh:
-
-- De hollandske bjerge Grand Tour (DMG)
-- Den belgiske vaffelkørsel (BWR)
-- Udfordringen i de franske alper (FAC)
-- Udfordringen i de schweiziske alper (SAC)
-- Den italienske Dolomites Challenge (IDC)
-
-Dette er blot nogle af de begivenheder og løb, der er tilgængelige på MyWhoosh. Tjek hjemmesiden for at få flere oplysninger.
+---
 
 ## Konklusion
 
-MyWhoosh er et gratis alternativ til Zwift, der tilbyder nogle fordele i forhold til sidstnævnte. MyWhoosh forsøger at være lidt mere realistisk med hensyn til løbsdynamikken, og der er ikke behov for at betale et abonnementsgebyr for at deltage i begivenheder på platformen.
+MyWhoosh er et fantastisk gratis alternativ for cykelryttere, der har en nyere computer eller iPad. Hvis du ønsker høj grafisk kvalitet, dybdegående træningsprogrammer og adgang til virtuelle løb uden at betale et månedligt abonnement, er MyWhoosh et oplagt valg.
 
-Derudover er grafikken på MyWhoosh Cycling-appener lidt bedre end på Zwift-appen, og det er lettere at få et overblik over ruten, mens man kører. MyWhoosh har dog ikke så mange brugere som Zwift, og udvalget af ruter på den gratis version er meget begrænset.
+---
 
-Ikke desto mindre er MyWhoosh en god mulighed for dem, der er på udkig efter en gratis alternativ til Zwift.
+> 🚴 **Skal du have optimeret dit indendørs cykelsetup?**  
+> Læs vores komplette [Guide til det bedste hometrainer-udstyr og e-cykling](/udstyr-hometrainer-ecykling/), hvor vi lister de bedste smarttrainers, blæsere, puls- og wattmålere.
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/) - [Oversigt over Hometrainer Apps](/hometrainer-apps/)

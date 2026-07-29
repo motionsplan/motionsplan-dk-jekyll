@@ -10,27 +10,17 @@ header:
   teaser: /assets/images/unsplash/photo-1589955791915-526198ae4ee9.jpg
   caption: Gør træning hjemme med kropsvægt og hjemmetræning mere effektivt 💪
 category:
-- Styrketræning
+  - Styrketræning
 tags:
-- styrketræning
-- hjemmetræning
+  - styrketræning
+  - hjemmetræning
 last_modified_at: '2020-12-03T23:14:14Z'
 toc: 'true'
-feature_row:
-- image_path: https://kinetikshop.dk/cdn/shop/files/KINETIK_VX1_-_Vaegtvest.png?v=1687445993&width=1946
-  alt: KINETIK Vægtvest VX1
-  title: KINETIK Vægtvest VX1
-  excerpt: KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest
-    er specialdesignet til at aktivere din styrke, og effektivisere din træning.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 ---
 
 Jeg har samlet metoder til at gøre din hjemmetræning mere effektiv. Når du træner hjemme, så træner du ofte uden udstyr eller med begrænset udstyr. Jeg træner ofte selv øvelser med kropsvægt, når jeg træner hjemme, men jeg vælger effektive øvelser, og så bruger jeg forskellige metoder for at gøre træningen endnu mere effektiv.
 
-Metoderne kan også også bruges i styrketræningsrummet, men er også særdeles effektive, når du kaster dig ud i [hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}).
+Metoderne kan også bruges i styrketræningsrummet, men er særdeles effektive, når du kaster dig ud i [hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}).
 
 {% comment %}
 
@@ -88,7 +78,7 @@ Christian Thibaudeau foreslår følgende positioner for forskellige kropsvægts�
 
 Du skal gå efter at holde det isometriske hold i 10-60 sekunder. Derefter skal du lave så mange reps som muligt. Men du skal have fornemmelsen for den samme spænding i musklerne gennem hele bevægelsen. Hvis du kan lave flere end 12 reps, så kan du forlænge dit isometriske hold eller gøre de enkelte reps lidt langsommere.
 
-Husk også at du skal gøre det isomtriske hold så hårdt som du kan. I en pushup kan du forsøge at trække hænderne tættere på hinanden, selvom de ikke bevæger sig. I squat kan du fx "presse ned i gulvet med tæerne" eller "skrue dine fødder ned i gulvet" ved at lave en udadrotation i hoften samtidig med at du spænder maksimalt i maven, som om "nogen ville slå dig i maven".
+Husk også at du skal gøre det isometriske hold så hårdt som du kan. I en pushup kan du forsøge at trække hænderne tættere på hinanden, selvom de ikke bevæger sig. I squat kan du fx "presse ned i gulvet med tæerne" eller "skrue dine fødder ned i gulvet" ved at lave en udadrotation i hoften samtidig med at du spænder maksimalt i maven, som om "nogen ville slå dig i maven".
 
 Fordelen ved denne metode er, at du kan øve dig i at blive bedre til at aktivere den rigtige muskulatur, når du skal løfte vægte igen.
 
@@ -128,7 +118,7 @@ So you can progress either by doing more reps per set under the same conditions 
 
 Du kan lave sæt, hvor du laver et isometrisk hold flere gange i løbet af sættet.
 
-Hold fx den nederste position i en armstrækning i 10 sekunder. Så laver du 5 gentagelser. Derefter holder du igen den samme postion. Lav 5 yderligere reps. Hold igen positionen og lav så mange gentagelser som muligt.
+Hold fx den nederste position i en armstrækning i 10 sekunder. Så laver du 5 gentagelser. Derefter holder du igen den samme position. Lav 5 yderligere reps. Hold igen positionen og lav så mange gentagelser som muligt.
 
 Hvis du kan lave flere end 12 samlede gentagelser, så kan du arbejde med pauserne eller hastigheden i løftet.
 
@@ -174,9 +164,9 @@ Ideally, you wouldn't have to do more than twelve total reps. If you can, either
 
 Lav en øvelse hvor du kan komme tæt på _failure_ på under 20 gentagelser.
 
-Når du har nået _failure_, så holder du pause på 5-10 dyge vejrtrækninger - omkring 10 sekunder.
+Når du har nået _failure_, så holder du pause på 5-10 dybe vejrtrækninger - omkring 10 sekunder.
 
-Dereefter laver du yderligere tre reps.
+Derefter laver du yderligere tre reps.
 
 Hold pause igen i 10 sekunder og lav tre reps yderligere.
 
@@ -214,10 +204,10 @@ Remember, rather than doing one rep of an exercise, you'd do half the movement f
 
 Ud over at du kan bruge forskellige metoder, så husk også, at du kan øge sværhedsgraden ved at tilføje vægt til dine kropsvægtsøvelser.
 
-Du kan fx tage en rygsæk på eller bruge en vægtvest. Jeg synes [Kinetik laver en fed vægtvest](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){: rel='sponsored nofollow noopener' }.
+Du kan fx tage en rygsæk på eller bruge en vægtvest. Kinetik laver en rigtig fed vægtvest til formålet.
 
 Jeg har skrevet et andet indlæg om [træning med kropsvægt](/artikel/traening-med-kropsvaegt/).
 
 ## Køb en vægtvest
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.kinetik_vx1_vaegtvest view="card" %}

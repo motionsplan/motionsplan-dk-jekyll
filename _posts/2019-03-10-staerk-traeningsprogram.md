@@ -18,32 +18,21 @@ tags:
   - populær
   - begynder
 last_modified_at: 2025-03-10T08:39:32Z
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk - Jacob Beermann"
-    title: "Stærk - Jacob Beermann"
-    excerpt: "Jacob Beermann fortæller i _Stærk_, hvordan du kan gribe styrketræning an i styrkeløft. Du får en god beskrivelse af, hvordan du bygger træning op og udfører de forskellige løft. Med bogen får du også eksklusiv adgang til en Facebookgrupppe, og du får et træningsprogram på 16 uger."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
 gallery:
   - image_path: /assets/images/cdn.shopify.com/IMG_8426_1024x1024-ca1b0452.jpg
     credit: https://cdn.shopify.com/s/files/1/0129/4532/products/IMG_8426_1024x1024.jpg?v=1329043769
     url: https://shop.maxer.dk/products/no-brain-no-gain
     title: "T-shirt lavet af Jacob Beermann"
-    alt:  "T-shirt lavet af Jacob Beermann"
+    alt: "T-shirt lavet af Jacob Beermann"
 gallery_content:
   - image_path: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse-6fc22c02.jpg
     credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse.jpg
     url: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse-6fc22c02.jpg
-    credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse.jpg
     title: "Indholdsfortegnelse til Stærk"
     alt: "Indholdsfortegnelse til Stærk"
   - image_path: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse2-06206062.jpg
     credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse2.jpg
     url: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse2-06206062.jpg
-    credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse2.jpg
     title: "Indholdsfortegnelse til Stærk"
     alt: "Indholdsfortegnelse til Stærk"
 ---
@@ -56,11 +45,9 @@ Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en 
 
 Når du køber bogen, får du også et **træningsprogram til styrkeløft** og adgang til en **eksklusiv Facebookgruppe**, hvor læserne af bøgerne deler tips, og hvor Jacob Beermann også er aktiv med at svare på spørgsmål.
 
-"Stærk" viser dig, hvordan du med tålmodighed kan blive rigtig stærk. Du lærer at principperne som **progressivt overload** og **specificitetsprincippet**. Bogen er en rigtig god indføring i styrketræning, og hvis du har forståelse for principperne i bogen, kan det spare dig for rigtig mange ærgelser og fejl, når du starter din træning. Men bogen kan også sagtens bruges af den mere erfarne, hvis du vil finde et godt system for din træning.
+"Stærk" viser dig, hvordan du med tålmodighed kan blive rigtig stærk. Du lærer principperne som **progressivt overload** og **specificitetsprincippet**. Bogen er en rigtig god indføring i styrketræning, og hvis du har forståelse for principperne i bogen, kan det spare dig for rigtig mange ærgelser og fejl, når du starter din træning. Men bogen kan også sagtens bruges af den mere erfarne, hvis du vil finde et godt system for din træning.
 
 Stærk er en virkelig god bog til at blive klogere af, hvis du gerne vil blive stærk i de tre store løft fra styrkeløft.
-
-{% include gallery id="feature_row" %}
 
 ## Principperne i Stærk styrketræningsprogrammet
 
@@ -80,11 +67,11 @@ I programmet er der typisk 5+ sæt i de enkelte løft, hvilket også tager sin t
 
 Programmet er et **procentbaseret styrketræningsprogram**, hvor du starter med at [finde din 1RM-max](/rm-maxtest/) ud fra en 5RM test. Vi har lavet en [1RM-beregner](/rm-beregner/), som kan hjælpe dig.
 
-Køb Stærk hos [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_epub_9788771801842){:rel="sponsored nofollow noopener" class="btn btn--large btn--danger" }
+Du kan købe bogen og få adgang til programmet hos Saxo.
 
 Programmet er delt op i to faser, der hver tager 8 uger:
 
-1. **Grundtræning**. Fokus er på relativt stor volumen, hvor uge 1 starter med 5-6 sæt med 6-8 reps i de forskellige løft. Mandag er typisk konkurrenceløftene squat, bænkpres og dødløft, mens de andre dage er variationer af løftene. Grundtræningen er i 8 uger, hvor der i uge 7 køres ned mo 5-6 sæt med 4-6 reps. I uge 8 laves der mandag en ny tung 5'er, som bliver udga ngspunktet for opkøringsfasen.
+1. **Grundtræning**. Fokus er på relativt stor volumen, hvor uge 1 starter med 5-6 sæt med 6-8 reps i de forskellige løft. Mandag er typisk konkurrenceløftene squat, bænkpres og dødløft, mens de andre dage er variationer af løftene. Grundtræningen er i 8 uger, hvor der i uge 7 køres ned mod 5-6 sæt med 4-6 reps. I uge 8 laves der mandag en ny tung 5'er, som bliver udgangspunktet for opkøringsfasen.
 2. **Opkøring**. Fokus er på at blive mere specifik mod at kunne lave en 1RM i de tre løft. Det er mere blandet med, hvor mange sæt og gentagelser, hvilket kan være alt fra 5-12 sæt med 1-8 reps. Frem mod uge 8 bliver det mere og mere specifikt med færre reps.
 
 Træningsprogrammet tager typisk mellem 1-2 timer, da der er rigtig mange sæt og gentagelser, og du skal have lidt pause undervejs. I begyndelsen af programmet er vægtene ikke så tunge, og der kan du lave pauserne lidt kortere, mens du senere får brug for lidt længere pauser.
@@ -121,7 +108,7 @@ Den overordnede progression i programmet giver en god ide om, hvordan programmet
 
 Jeg har indtryk af, at mange undrer sig over, at vægten i uge 5, hvor man begynder at køre 5'ere ligger noget under vægten fra din 5RM, du har lavet i den første uge.
 
-Beermanns pointe med denne opbyging er, at man kan fokusere på perfekt teknik. Når du fokuserer på en høj _[intended bar speed](https://www.strongerbyscience.com/speed-kills-2x-the-intended-bar-speed-yields-2x-the-bench-press-gains/)_, så kan du pga. den højfrekvente træning stadig have styrkefremgang, selvom du løfter under din maksimale styrke.
+Beermanns pointe med denne opbygning er, at man kan fokusere på perfekt teknik. Når du fokuserer på en høj _[intended bar speed](https://www.strongerbyscience.com/speed-kills-2x-the-intended-bar-speed-yields-2x-the-bench-press-gains/)_, så kan du pga. den højfrekvente træning stadig have styrkefremgang, selvom du løfter under din maksimale styrke.
 
 Når du har kørt en cyklus, så kan du egentlig bare starte på programmet igen med nye 5RM-tests.
 
@@ -146,7 +133,7 @@ Programmet udnytter [forskellige variationer af squat, bænkpres og dødløft](/
 
 ## Suppleringsøvelser
 
-I træningsprogrammet er der angivet 3x12 i forskellige suppleringsøvelser, som du kan lave efter de primære løft. Suppleringsøvelserne til de forskellige dage er baseret på generelle kategorier for muskelgrupper. I bogen kan du læse nogle af Jacob Beermans forslag til suppleringsøvelser.
+I træningsprogrammet er der angivet 3x12 i forskellige suppleringsøvelser, som du kan lave efter de primære løft. Suppleringsøvelserne til de forskellige dage er baseret på generelle kategorier for muskelgrupper. I bogen kan du læse nogle af Jacob Beermanns forslag til suppleringsøvelser.
 
 Jeg har her skrevet nogle forslag til øvelser, som du kunne vælge til suppleringsøvelserne, men du skal naturligvis vælge nogle øvelser, som passer til netop dine mål og dine programmer.
 
@@ -195,4 +182,4 @@ Hvis du er mere interesseret i selve bogen, så kan du læse vores gennemgang af
 
 ## Køb Stærk
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.staerk_jacob_beermann view="card" %}

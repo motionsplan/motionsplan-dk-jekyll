@@ -65,11 +65,11 @@ Jeg har lavet en samlet [liste over alle muskler i kroppen her](/muskler/), hvis
 
 En god rygtræning bør kombinere tunge basisløft med isolationsøvelser for at ramme både de dybe og de overfladiske lag.
 
-{% include motionsplan/exercise key="15" title="Dødløft" %}
+{% include motionsplan/exercise-detail.html key="15" title="Dødløft" %}
 
-{% include motionsplan/exercise key="43" title="Pullup" %}
+{% include motionsplan/exercise-detail.html key="43" title="Pullup" %}
 
-{% include motionsplan/exercise key="261" title="Bent over rows" %}
+{% include motionsplan/exercise-detail.html key="261" title="Bent over rows" %}
 
 ## Konklusion
 

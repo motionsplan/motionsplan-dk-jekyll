@@ -4,22 +4,22 @@ seo_title: 'Jack Daniels Løbeberegner: Beregn VDOT & Træningstempo'
 excerpt: Har du brug for at få udregnet din løbehastighed og løbepace? I denne løbsberegner kan du beregne det og dine konkurrencetider ud fra Jack Daniels Running Formula.
 description: 'Gratis Jack Daniels løbeberegner. Indtast din løbetid og få beregnet din VDOT-værdi, træningszoner (E, M, T, I, R) og estimerede konkurrencetider.'
 permalink: /loebesiden-jack-daniels-loebeberegner/
-last_modified_at: '2025-04-28T09:41:09Z'
+last_modified_at: '2026-07-28T09:41:09Z'
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1529795533870-ea8020391255.jpg
   credit: https://images.unsplash.com/photo-1529795533870-ea8020391255
   caption: Jack Daniels løbeberegner kan udregne træningstempo og konkurrencetider
 category:
-- Løb
+  - Løb
 tags:
-- beregner
-- kondition
-- løbeberegner
-- programlægning
-- løb
-- featured
-- populær
+  - beregner
+  - kondition
+  - løbeberegner
+  - programlægning
+  - løb
+  - featured
+  - populær
 meta:
   name: "Jack Daniels Løbeberegner (VDOT)"
   measures: "VDOT, løbetid, træningstempo"
@@ -34,32 +34,14 @@ tools:
     type: "beregner"
     measures: "VDOT, løbetempo, konkurrencetid"
     category: "HealthAndFitnessApplication"
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781718203662/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/daniels-running-formula_jack-daniels_paperback_9781718203662
-  title: Daniels' Running Formula
-  excerpt: Jack Daniels er en af de toneangivende løbetrænere i verden. Han har udviklet Daniels' Running Formula, hvor du
-    via dine konkurrencetider kan udregne dine løbetider til træning og konkurrence. Læs alle detaljerne i hans bog.
-  btn_label: Tjek prisen
-  btn_class: btn--info
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/_9788702160390/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/loeb-som-eliten_claus-hechmann_indbundet_9788702160390
-  title: Løb som eliten
-  excerpt: Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest
-    muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og
-    helt op til maraton.
-  btn_label: Tjek prisen
-  btn_class: btn--danger
-  rel: sponsored nofollow noopener
 template:
-- image_path: /assets/images/template/jack-daniels.png
-  url: https://docs.google.com/document/d/1LRwLogpMtkM88HQnEa2hjgpkQmOIPIM7TcnZGM-erlQ/copy
-  title: Løbetræning og løbeprogram skabelon
-  excerpt: Skabelon til at lave et løbeprogram, hvor man kan tage udgangspunkt i Jack Daniels Running Formula og løbsberegner.
-  btn_label: <i class='fas fa-file-alt'></i> Download Google Docs
-  btn_class: btn--info
-  rel: nofollow noopener
+  - image_path: /assets/images/template/jack-daniels.png
+    url: https://docs.google.com/document/d/1LRwLogpMtkM88HQnEa2hjgpkQmOIPIM7TcnZGM-erlQ/copy
+    title: Løbetræning og løbeprogram skabelon
+    excerpt: Skabelon til at lave et løbeprogram, hvor man kan tage udgangspunkt i Jack Daniels Running Formula og løbsberegner.
+    btn_label: <i class='fas fa-file-alt'></i> Download Google Docs
+    btn_class: btn--info
+    rel: nofollow noopener
 faq:
   - question: Hvad er Jack Daniels løbeberegner?
     answer: >
@@ -86,7 +68,7 @@ Du skal blot indtaste en nylig løbetid, så får du præcise anbefalinger til, 
 
 Løbsberegneren er baseret på statistikker og analyser fra tusindvis af løbere og giver dig en **VDOT-værdi**, som er et mål for din nuværende løbeevne. VDOT anvendes til at estimere både din nuværende form og hvilke tempoer du bør bruge i træning.
 
-Jack Daniels har udviklet metoden i bogen [*Running Formula*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/daniels-running-formula_jack-daniels_paperback_9781718203662){: rel='sponsored nofollow noopener' }, og beregneren her følger samme principper.
+Jack Daniels har udviklet metoden i bogen *Running Formula*, og beregneren her følger samme principper.
 
 Før Jack Daniels' metode blev udbredt, brugte mange løbere [Pete Riegels formel](/riegels-loebeberegner/) til at beregne konkurrencetider, men Daniels' tilgang er i dag den foretrukne, især når det gælder tempoanbefalinger til træning.
 
@@ -105,7 +87,7 @@ Indtast en nylig løbetid for at beregne din VDOT og dine anbefalede træningste
 
 Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval](/hvor-langt-per-interval/)?
 
-Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pace i min/km til km/t](/hastighed/omregner-tempo-fart/). Du kan også være interesseret i vores andre [hastighedsberegnere](/hastighed/).
+Jeg har også lavet en beregner, hvor du kan [omregne din løbehastighed fra pace i min/km til km/t](/hastighed/omregner-tempo-fart/). Du kan også være interesseret i vores andre [hastighedsberegnere](/hastighed/).
 
 ## Om Løbesidens løbsberegner
 
@@ -196,7 +178,7 @@ Vi har samlet det hele i en overskuelig tabel:
 
 [📊 Se pacetabellen med distancer og sluttider](/hastighed/pace-tabeller/){: .btn .btn--primary }
 
-Tabellen viser sluttider og tilhørende tempoer (pace) for forskellige distancer, justeret for at du naturligt løber langsommere på længere løb.
+Tabellen viser sluttider og tilhørende tempoer (pace) for forskellige distancer, justeret for at du naturally løber langsommere på længere løb.
 
 Hvis du har en mere præcis tid fra et nyligt løb, anbefaler vi dog at bruge beregneren her på siden – så får du tempoer og tider, der passer præcist til dit niveau.
 
@@ -204,11 +186,11 @@ Hvis du har en mere præcis tid fra et nyligt løb, anbefaler vi dog at bruge be
 
 Træningstempoet udregnet ved hjælp af Jack Daniels Running Formula er baseret på konkurrencetempo for fx 5 kilometer.
 
-Claus Hechmann påpeger i sin bog [Løb som eliten](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/loeb-som-eliten_claus-hechmann_indbundet_9788702160390){: rel='sponsored nofollow noopener' }, at udregninger baseret på så korte løb primært tager udgangspunkt i den maksimale iltoptagelse, men ikke tager højde for udholdenheden i tilstrækkelig grad.
+Claus Hechmann påpeger i sin bog *Løb som eliten*, at udregninger baseret på så korte løb primært tager udgangspunkt i den maksimale iltoptagelse, men ikke tager højde for udholdenheden i tilstrækkelig grad.
 
 Det betyder i praksis for løbere, som ikke har en så god udholdenhed (altså evne til at bruge fedtforbrænding ved forskellige hastigheder), vil ende med hastigheder i de langsommere løb, som ikke tilgodeser forbedring af fedtforbrændingen i tilstrækkeligt omfang.
 
-Hechmann foreslår i sin virkelig gode og grundige bog en 10 minutters test og en 60 minutters test for at få indblik i tempoet ved den maksimale iltoptagelse og tempoet ved den anaerobe tærskel. Du kan [tjekke prisen på Hechmanns bog](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/loeb-som-eliten_claus-hechmann_indbundet_9788702160390){: rel='sponsored nofollow noopener' }.
+Hechmann foreslår i sin virkelig gode og grundige bog en 10 minutters test og en 60 minutters test for at få indblik i tempoet ved den maksimale iltoptagelse og tempoet ved den anaerobe tærskel.
 
 Når du har lavet det to tests, så kan du få Hechmanns bud på hastigheder i hans træningszoner ved at bruge løbeberegneren på [www.hechmannsport.dk](https://www.hechmannsport.dk/beregneren).
 
@@ -260,4 +242,6 @@ Er du klar til at tage din træning til næste niveau? Læs mere om [Jack Daniel
 
 ## Gode bøger om løbetræning
 
-{% include gallery id="feature_row" caption="Du kan købe bøgerne hos [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: rel='sponsored nofollow noopener' }." %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.daniels_running_formula view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.loeb_som_eliten view="card" %}

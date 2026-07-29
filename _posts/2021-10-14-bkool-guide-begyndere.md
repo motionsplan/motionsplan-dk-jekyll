@@ -1,200 +1,114 @@
 ---
-title: 'BKOOL cykling på hometrainer: Komplet guide til begyndere 🚵🚵‍♀️'
-seo_title: 'BKOOL cykling på hometrainer: Komplet guide til begyndere'
+title: &title "BKOOL cykling på hometrainer: Komplet guide til begyndere 🚴‍♂️"
+seo_title: "BKOOL cykling på hometrainer: Komplet guide til begyndere"
+description: "Kom godt i gang med BKOOL Cycling. Få overblik over 3D-verdenen, priser, virtuelle ligaer, opsætning og det nødvendige hometrainer-udstyr."
+excerpt: "Kom godt i gang med BKOOL Cycling. Få overblik over 3D-verdenen, priser, virtuelle ligaer, opsætning og det nødvendige hometrainer-udstyr."
 permalink: /bkool-begynderguide/
 language: da
+toc: true
+toc_label: "Indhold i guiden"
+toc_sticky: true
 header:
-  teaser: /assets/images/unsplash/photo-1601625193660-86f2807b024b.jpg
-  credit: https://images.unsplash.com/photo-1601625193660-86f2807b024b
-  caption: 'BKOOL cykling på hometrainer: Komplet guide til begyndere 🚵🚵‍♀️'
+  overlay_image: /assets/images/blog/bkool-guide.jpg
+  teaser: /assets/images/blog/bkool-guide.jpg
+  caption: *title
 category:
-- Kondition
-- Cykling
+  - Cykling
 tags:
-- konditionstræning
-- kondition
-- cykling
-- hometrainer
-- virtuel cykling
-gallery:
-- image_path: /assets/images/blog/bkool-1.jpg
-  url: /assets/images/blog/bkool-1.jpg
-- image_path: /assets/images/blog/bkool-2.jpg
-  url: /assets/images/blog/bkool-2.jpg
-- image_path: /assets/images/blog/bkool-3.jpg
-  url: /assets/images/blog/bkool-3.jpg
-- image_path: /assets/images/blog/bkool-4.jpg
-  url: /assets/images/blog/bkool-4.jpg
-last_modified_at: '2021-10-14T08:14:14Z'
-feature_row:
-- image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
-  title: Wahoo Kickr 5.0 til BKOOL
-  excerpt: Du kan fx køre BKOOL på en Wahoo Kickr 5.0. Den kører relativt støjsvagt, og har både effektmåler og kadencemåler.
-    Husk at tjekke om gear kasetten passer til din cykel på den version, du køber.
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: /assets/images/resources.chainbox.io/150066_A_default-81b7a74a.jpg
-  credit: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger
-  title: Wahoo Kickr Climb til Zwift
-  excerpt: En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel
-    oplevelse af, at du kører i virkeligheden, og Kickr Climb kan bruges sammen med Zwift.
-  btn_label: Tjek prisen
-  btn_class: btn--info
-  rel: sponsored nofollow noopener
-- image_path: /assets/images/cykelexperten.b-cdn.net/uploads_2018_10_wahoo-kickr-headwind-e1540299465291-a28a9c35.jpeg
-  credit: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
-  title: Wahoo Kickr Headwind til BKOOL
-  excerpt: Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i BKOOL, om du ligger i
-    læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder i BKOOL.
-  btn_label: Tjek prisen
-  btn_class: btn--warning
-  rel: sponsored nofollow noopener
-- image_path: /assets/images/fribikeshop-cdn-endpoint.azureedge.net/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1-ebcd60aa.jpg
-  credit: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2900S-64/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1.jpg?v=b962e90c04d63509ae39945d5da3510d&width=600
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/
-  title: Tacx Flux 2 Smart Zwift Bundle
-  excerpt: Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen
-    med Zwift og er lidt billigere end Wahoo Kickr 5.0.
-  btn_label: Tjek prisen
-  btn_class: btn--danger
-  rel: sponsored nofollow noopener
+  - hometrainer
+  - cykling
+  - virtuel cykling
+  - e-cykling
+  - bkool
+last_modified_at: '2026-07-29T16:15:00Z'
 ---
 
-Jeg er lige gået i gang med at afprøve BKOOL på hometrainer, så jeg har skrevet en guide til at komme i gang med virtuel cykling. Det er en guide til en begynder, som besvarer alle de spørgsmål, jeg selv havde første gang jeg satte mig på på cyklen for at køre BKOOL.
+BKOOL Cycling er en af de mest alsidige platforme til [indendørs cykeltræning på hometrainer](/hometrainer-apps/). Hvor andre platforme enten fokuserer 100% på fiktiv spilgrafik eller ren video, kombinerer BKOOL simuleret 3D-grafik, rigtige videooptagelser, bane-cykling på velodrom og strukturerede workout-programmer.
 
-BKOOL står lidt i skyggen af den lidt mere populære Zwift. Jeg har skrevet en [begynderguide til Zwift]({% link _posts/2021-02-14-zwift-guide-begyndere.md %}). Men det er også værd at prøve BKOOL, hvor du kan cykle på rigtige ruter.
+Uanset om du vil genopleve klassiske bjergetaper fra Tour de France, deltage i virtuelle ligaer eller bare holde formen ved lige over vinteren, er BKOOL en oplagt mulighed.
 
-Det er motiverende at bruge enten BKOOL eller Zwift, når du skal træne indendørs. Selvom du egentlig bare bliver til en avatar på skærmen, så bliver du hurtigt suget ind i appen, for at forsøge at følge med de andre ryttere på skærmen.
+I denne guide gennemgår vi alt, hvad du skal vide for at komme godt i gang med BKOOL.
 
-I denne guide kan du få svar på:
+---
 
-- Hvad er BKOOL?
-- Hvad koster et BKOOL abonnement?
-- Hvilket udstyr skal du bruge for at køre BKOOL?
-- Hvordan kommer du i gang med BKOOL?
+## Hvad er BKOOL Cycling?
 
-Lad os dykke ned i begynderguiden til BKOOL.
+BKOOL er en spanskudviklet software til e-cykling, som kobles op til din smart hometrainer, wattmåler eller pulsmåler via Bluetooth eller ANT+. 
 
-{% include figure image_path="https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="BKOOL begynder" %}
+Når du træder i pedalerne derhjemme, justerer BKOOL automatisk modstanden i din hometrainer i forhold til stigningsprocenten på skærmen. 
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) - [MyWhoosh Cycling](/mywhoosh-cycling/) - [Rouvy](/rouvy/)
+Noget af det mest unikke ved BKOOL er deres overflod af ruter. Da brugerne selv kan uploade GPS-filer og rutevideoer, finder du hundredtusindvis af kilometer ruter fra hele verden.
 
-## Hvad er BKOOL og hvordan kommer jeg i gang?
+{% include figure image_path="/assets/images/blog/bkool-3d-sim.jpg" caption="BKOOLs 3D-verden genereres ud fra GPS-data og kombineres med realistisk vind og vejr." alt="BKOOL 3D simulation" %}
 
-BKOOL er [virtuel cykling](/hometrainer-apps/), som kobles sammen med din _hometrainer_ til cykling. BKOOL er en platform for cykelryttere. BKOOL giver dig mulighed for at linke din _hometrainer_ op til din computer, iPad, iPhone, Apple TV, Android device, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i BKOOL og køre løb mod andre i den virtuelle BKOOL-verden.
+### BKOOLs primære funktioner:
 
-Ud over at konkurrere mod andre cykelryttere i BKOOL-cykelløb kan du også lægge hele din træning ind i BKOOL. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i BKOOL er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i programmet. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din [functional threshold power (FTP)](/ftp-cykling/).
+1. **3D World & Real Video:** Du kan vælge at se ruten enten som en simuleret 3D-verden med din egen avatar eller som en rigtig videooptagelse fra ruten.
+2. **Real Weather Simulation:** BKOOL kan hente live-vejrdata for den rute, du kører. Regner det på Mont Ventoux i virkeligheden, vil det også regne på din skærm, og modstanden påvirkes af den reelle vindretning.
+3. **Velodrom & Banecykling:** Du kan køre på fiktive eller realistiske indendørs velodromer og køre discipliner som *Elimination*, *Pursuit* og kilometer-tidskørsel.
+4. **Workouts & FTP-tests:** Omfattende bibliotek af målrettede træningspas opdelt efter intensitet, varighed og træningszoner.
 
-{% include figure image_path="/assets/images/cdnwebpub.bkool.com/bkool-family-2x-6641ad95.jpg" caption="Typisk setup i Zwift. Kilde: [bkool.com](https://www.bkool.com/en) [📷](https://cdnwebpub.bkool.com/bkool-2019/images/public-web/home/bkool-family-2x.jpg){: rel='nofollow noopener' }" alt="Typisk setup i BKOOL" %}
+---
 
-BKOOL er et rigtig godt alternativ til cykling udenfor. Hvis vejret er dårligt, trafikken forfærdelig, du har begrænset tid eller bor langt væk fra andre cykelryttere, du kan træne sammen med. Der er ikke langt til de andre cyklister i BKOOL. Jeg ved, at hvis det er koldt og vådt udenfor, så trækker oplevelsen for mig selv på BKOOL i hvert fald mere.
+## Hvad koster et BKOOL abonnement?
 
-Der er desværre lidt færre, der kører BKOOL end Zwift. Så hvis du vil køre med mange andre, så tjek Zwift ud.
+BKOOL tilbyder en **gratis prøveperiode** (typisk 30 dage), hvor du får ubegrænset adgang til alle platformens funktioner. 
 
-Når du kører BKOOL, så kan du køre en række forskellige ruter fra den virkelige verden. Når du nu ikke kan vælge [rigtige cykelruter i Danmark](https://www.cykel-ruter.dk/cykelruter-danmark/), så er det motiverende at cykle de virtuelle cykelruer i BKOOL.
+Efter prøveperioden koster et BKOOL Premium-abonnement ca. **11 € / måned** (eller en årspris, hvor du opnår en rabat). Abonnementet er uden binding og kan sættes på pause i sommermånederne, hvis du kun cykler indendørs i vinterhalvåret.
 
-## Er BKOOL gratis?
+---
 
-Nej. Prisen på et BKOOL abonnement er omkring 9,99 EUR om måneden. Du får 30 dage gratis, hvor du kan prøve alle features i programmet for at se, om det er noget for dig.
+## Hvilket udstyr skal du bruge til BKOOL?
 
-Derefter kan du tegne et abonnement for en måned, som du kan opsige, når du vil.
+For at få det fulde udbytte af BKOOL anbefales en **Smart Hometrainer** med interaktiv modstandskontrol. Det er dog også muligt at bruge en klassisk "dum" hometrainer kombineret med en ekstern wattmåler eller hastighedssensor.
 
-## Hvilket udstyr har jeg brug for for at cykle på BKOOL?
+### Minimumskrav til udstyr:
+* **En cykel:** Racercykel, gravel, MTB eller hometrainer-specifik cykel.
+* **En hometrainer:** Direct-drive hometrainer (anbefales) eller wheel-on trainer.
+* **Enhed til appen:** PC (Windows), Mac, iPad/tablet, Apple TV eller Android-smartphone.
+* **Forbindelse:** Bluetooth eller ANT+ antenne (USB-dongle til PC/Mac).
 
-Når du vil bruge BKOOL, så skal du bruge udstyr, der kan måle hvor mange watt, du træder på cyklen. De fleste bruger en _hometrainer_ til cykling, hvis du vil cykle derhjemme. Hvis du køber en hjemmetræner til BKOOL, så skal du have din egen cykel også.
+{% include motionsplan/affiliate-box.html type="category" item=site.data.affiliates.categories.hometrainers view="card" title="Mangler du udstyr til BKOOL?" text="Er du i tvivl om, hvilken hometrainer, blæser eller måtte der passer bedst til dit behov og budget? Læs vores samlede udstyrsguide:" %}
 
-Jeg cykler selv på en [Wahoo Kickr 5.0](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D){: rel='sponsored nofollow noopener' }, som jeg synes er utrolig behagelig at køre på og giver en rigtig god cykeloplevelse og som tidligere professionelle cykelrytter Martin Mortensen også anbefaler.
+---
 
-Der er adaptere med, så du kan sætte cykler på med forskellige nav, men du skal huske at tjekke, at den passer til din cykel. Du kan også køre BKOOL på en mountainbike så længe den passer på home traineren.
+## Sådan kommer du i gang med BKOOL (Trin for trin)
 
-En hjemmetræner har typisk indbygget effektmåler og variabel modstand, som kan spille sammen med BKOOL.
+Det tager under 10 minutter at blive klar til din første tur på BKOOL:
 
-Den variable modstand på din _smart trainer_ giver dig fornemmelsen for, at du rent faktisk kører rigtigt. Når det går op ad bakke, så øges modstanden, og modstanden sænkes, når du kører ned ad bakke.
+### 1. Opret en profil og download appen
+Gå til BKOOLs hjemmeside, opret en brugerprofil og aktiver din gratis prøveperiode. Download derefter **BKOOL Cycling**-appen til din enhed (PC, Mac, iPad eller tablet).
 
-Hvis du gerne vil forbedre oplevelsen og _tracke_ om du kommer i bedre form, så kan du med fordel også koble en **pulsmåler** til systemet. Jeg bruger selv en Polar H10, som kan sende både via Bluetooth og ANT+.
+### 2. Forbind dine sensorer
+Tænd for Bluetooth eller indsæt din ANT+ dongle. Åbn appen, gå til *Sensors* og par din hometrainer, kadencesensor og eventuelle pulsbælte. 
 
-{% include feature_row type="left" %}
+### 3. Vælg din tur
+Fra hovedmenuen kan du vælge mellem fire hovedkategorier:
+* **Rutes (Routes):** Søg på kendte bjerge, flade etaper eller populære lokale ruter.
+* **Workouts:** Vælg et struktureret træningspas ud fra dit watt-niveau.
+* **Velodrome:** Kør banecykling mod andre online ryttere.
+* **Leagues:** Deltag i officielle eller brugeroprettede løbsserier og etapeløb.
 
-## Hvad er computerkravene til BKOOL?
+---
 
-BKOOL kan køres på Windows, iOS, iPhone, iPad eller AppleTV og Google Play. Der er altså ikke mange undskyldninger, hvad angår dit device. Jeg kører mest fra en computer, men hvis du har en større tablet, så er der også rigtig mange, der bruger det. Du kan også i en snæver vending kører på telefonen, men det bliver meget småt i hvert fald for mine øjne.
+## BKOOL vs. Zwift og Rouvy
 
-{% include figure image_path="/assets/images/i.pinimg.com/62b1d69426d4cc6241a0e5d9cf0a3028-47ea6354.jpg" caption="BKOOL setup hvor computeren står på et [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' } og med en blæser foran [📷](https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg){: rel='nofollow noopener' }" alt="Typisk setup i BKOOL med et Wahoo Bike Desk"  %}
+| Feature | BKOOL | Zwift | Rouvy |
+| :--- | :--- | :--- | :--- |
+| **Primært fokus** | Rigtige ruter (3D & Video) + Velodrom | Virtuel spilverden & Gruppeture | Rigtige HD-videoer |
+| **Udvalg af ruter** | Næsten ubegrænset (brugeruploadet) | Begrænset antal faste verdener | Mange tusinde reelle ruter |
+| **Grafik** | Mix af 3D & Video | 3D Animation / Gamification | Real-Video med 3D-avatars |
+| **Banecykling** | Ja (Unik feature) | Nej | Nej |
 
-Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen. Jeg tror klart de fleste bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/) eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
-
-Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret [smarte kombinerede smartphone-holder og svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/){: rel='sponsored nofollow noopener' }, som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem etaperne på BKOOL.
-
-Du skal naturligvis også have en **ordentlig og stabil internetforbindelse** for at køre BKOOL.
-
-## Hvilke downloads findes til BKOOL?
-
-1. BKOOL Cycling
-   Dette er det vi kalder Bsim eller BKOOL simulatoren, som er der hvor du kan køre cykelløb og køre mod andre.
-2. BKOOL Fitness
-   En fitness app med forskellige workouts, som du kan træne til.
-3. BKOOL Video Route Editor
-   Du kan få et program til PC og Mac, som du kan bruge til at oprette dine egne videoer i BKOOL simulatoren.
-
-## Hvordan opretter jeg min profil i BKOOL?
-
-Så fik du styr på alt udstyret til BKOOL. Nu er det tid til at komme i gang med at bruge BKOOL. Der er et par trin, som du skal i gang med.
-
-1. Først skal du downloade BKOOL-appen til dit foretrukne device.
-2. Opret en profil direkte fra appen. Du skal bruge et betalingskort, men det er gratis de første 30 dage, hvis du opsiger abonnementet til rette tid.
-
-Derefter skal du oprette en konto og udfylde oplysninger om dit køn, højde og vægt. Oplysningerne bliver brugt for at oprette din _avatar_ i BKOOL, og så er det med til at give nøjagtige målinger i forhold til din hastighed i spillet. Derfor skal du huske at udfylde de personlige oplysninger korrekt.
-
-Højden betyder noget i forhold til vindmodstanden. Vægten betyder noget i forhold den vigtigste _metric_ i spillet som er watt/kg. Det er nemlig watt per kilo, der betyder noget for, hvordan du klarer dig i forhold til de andre i spillet - altså din nøjagtige hastighed.
-
-Nu er du klar til at køre BKOOL.
-
-## Hvor kan jeg køre i BKOOL?
-
-Ruterne I BKOOL er baseret på et virkeligt GPS track. Det er derfor virkelige ture fra hele verden, som du kan prøve kræfter med. Du kan også selv uploade en cykelrute og knytte en video til ruten.
-
-{% include gallery layout="half" caption="Screenshots fra BKOOL" %}
-
-Der er video på mange ruter, og grafikken er baseret på GPS-tracket fra den uploadede rute.
-
-Du kan [søge efter ruter](https://my.bkool.com/search/searchTracksGps), som du kan tilføje til din profil, så de kan vælges i simulatoren efterfølgende.
-
-Du kan også søge efter cykelruter direkte fra simulatoren.
-
-Første gang jeg prøvede BKOOL blev jeg lidt forvirret. I Zwift er der arrangeret virtuelle cykelløb på forskellige tidspunkter. I BKOOL startes ruterne op af **EN** person. Derefter kan andre _joine_ ruten i simulatoren.
-
-{% comment %}
-
-## BKOOL ligaen
-
-{% endcomment %}
-
-## Beskyt cyklen mod sveden
-
-Du kommer til at svede meget, og blæseren kan være en god ide. Men du kan også [forhindre sved i øjnene](/undgaa-sved-i-ojnene/) ved fx at have et pandebånd eller noget andet. Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/){: rel='sponsored nofollow noopener' }. Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }. Måtten reducerer også lyden, når du kører og støddæmper lidt, så kørekomforten bliver bare bedre. Her hjælper en blæser naturligvis også fx [Wahoo Kickr Headwind](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads){: rel='sponsored nofollow noopener' }.
-
-## Få fat i Bluetooth høretelefoner
-
-Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, når du træner. Hvis du har et på høretelefoner, så kan du få passende [musik til træningen](/artikel/musik-til-traeningen/). Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }, som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html){: rel='sponsored nofollow noopener' }.
-
-{% comment %}
-
-## Svar på almindelige spørgsmål om Zwift
-
-{% include motionsplan/faq.html %}
-
-{% endcomment %}
-
-## Køb udstyr til BKOOL
-
-{% include feature_row type="left" %}
+---
 
 ## Konklusion
 
-Læs mere om BKOOL på [ecycleklub.dk](https://www.ecykleklub.dk/page/kom-godt-igang-med-bkool). Særligt afsnit 5 er en god oversigt.
+BKOOL er et fremragende valg for cykelryttere, der ønsker maksimal variation i deres træning. Muligheden for at skifte mellem 3D-animation, reelle videooptagelser og banecykling gør, at man sjældent keder sig.
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) - [MyWhoosh Cycling](/mywhoosh-cycling/) - [Rouvy](/rouvy/)
+---
+
+> 🚴 **Leder du efter det rette indendørs setup?**  
+> Læs vores dybdegående [Guide til det bedste hometrainer-udstyr og e-cykling](/udstyr-hometrainer-ecykling/), hvor vi gennemgår alt fra smarttrainers og blæsere til måtter og pulsbælter.
+
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Rouvy](/rouvy/) - [MyWhoosh Cycling](/mywhoosh-cycling/) - [Oversigt over Hometrainer Apps](/hometrainer-apps/)

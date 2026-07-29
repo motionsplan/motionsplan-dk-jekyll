@@ -11,50 +11,22 @@ header:
   teaser: /assets/images/unsplash/photo-1570997491915-47ade51fed9f.jpg
   caption: Komplet guide til yoga solhilsen A og B
 tags:
-- yoga
-- træning
-- meditation
+  - yoga
+  - træning
+  - meditation
 category:
-- Yoga
+  - Yoga
 last_modified_at: '2026-07-26T12:00:00Z'
-plakat:
-- image_path: /assets/images/trendyliving.dk/Solhilsen-ff97e62f.jpg
-  credit: https://trendyliving.dk/images/Solhilsen.jpg
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=47232&htmlurl=https://trendyliving.dk/shop/vissevasse-solhilsen-29714p.html
-  title: Solhilsen plakat fra Vissevasse
-  alt: Solhilsen plakat fra Vissevasse
-  excerpt: Smuk plakat fra Vissevasse med solhilsen. Plakaten illustrerer riterne i en hilsen til solen og er velegnet til børneværelset eller yogarummet.
-  btn_label: Tjek prisen
-  btn_class: btn--warning
-  rel: sponsored nofollow noopener
-books:
-- image_path: https://imgcdn.saxo.com/_9788771900774
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/den-lille-solhilsen-med-de-store-virkninger_inge-maria-niebuhr_epub_9788771900774
-  title: Den lille solhilsen med de store virkninger
-  alt: Den lille solhilsen med de store virkninger
-  excerpt: Solhilsenen er en kendt yogaøvelse, der er let at udøve – selv for folk, der ikke er vant til at strække kroppen.
-  btn_class: btn--danger
-  btn_label: Tjek prisen
-  rel: sponsored nofollow noopener
-feature_row_yogamat:
-- image_path: /assets/images/denintelligentekrop.dk/manduka-x-mat-moerkeblaa-03_1-80695b5e.jpg
-  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
-  alt: Manduka X Yoga Mat
-  title: Manduka X Yoga Mat
-  excerpt: Hvis du laver meget træning og yoga, anbefaler vi at investere i en yogamåtte af høj kvalitet med godt greb.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
+toc: 'true'
 faq:
-- question: Hvad er forskellen på Solhilsen A og B?
-  answer: Solhilsen A er den mest grundlæggende sekvens, bestående af 9 bevægelser. Solhilsen B er mere avanceret, indeholder 17 bevægelser og tilføjer blandt andet Stolen (Utkatasana) og Kriger 1 (Virabhadrasana I).
-- question: Kan man tabe sig af at lave solhilsener?
-  answer: Ja, en dynamisk solhilsen (særligt i et hurtigere Vinyasa-tempo) øger pulsen, opbygger muskelmasse og forbrænder mellem 150 og 300 kalorier pr. halvtimes intensiv praksis, hvilket understøtter et vægttab.
-- question: Skal jeg bruge noget bestemt udstyr for at lave Solhilsen?
-  answer: Nej, du kan lave solhilsen helt uden udstyr. Det er dog en fordel med en skridsikker yogamåtte, så hænder og fødder ikke glider i Hundestrækket eller Planken.
-- question: Kan børn lave solhilsen?
-  answer: Ja! Solhilsen er fantastisk for børn, da øvelserne er kropslige, legefulde og nemme at lære ved at efterligne dyrenes navne (som Hundestræk og Kobra).
+  - question: Hvad er forskellen på Solhilsen A og B?
+    answer: Solhilsen A er den mest grundlæggende sekvens, bestående af 9 bevægelser. Solhilsen B er mere avanceret, indeholder 17 bevægelser og tilføjer blandt andet Stolen (Utkatasana) og Kriger 1 (Virabhadrasana I).
+  - question: Kan man tabe sig af at lave solhilsener?
+    answer: Ja, en dynamisk solhilsen (særligt i et hurtigere Vinyasa-tempo) øger pulsen, opbygger muskelmasse og forbrænder mellem 150 og 300 kalorier pr. halvtimes intensiv praksis, hvilket understøtter et vægttab.
+  - question: Skal jeg bruge noget bestemt udstyr for at lave Solhilsen?
+    answer: Nej, du kan lave solhilsen helt uden udstyr. Det er dog en fordel med en skridsikker yogamåtte, så hænder og fødder ikke glider i Hundestrækket eller Planken.
+  - question: Kan børn lave solhilsen?
+    answer: Ja! Solhilsen er fantastisk for børn, da øvelserne er kropslige, legefulde og nemme at lære ved at efterligne dyrenes navne (som Hundestræk og Kobra).
 ---
 
 Vil du gerne lære at udføre en klassisk **yoga solhilsen**? Solhilsen – på sanskrit kendt som *Surya Namaskar* – er en af de mest populære og alsidige øvelsessekvenser i yogaens verden. 
@@ -143,7 +115,7 @@ Solhilsen A tager omkring 5 minutter at udføre og er det perfekte udgangspunkt 
 
 Gentag sekvensen 5-10 gange eller måske endnu flere gange.
 
-{% include feature_row type="left" id="plakat" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.vissevasse_solhilsen_plakat view="card" %}
 
 ---
 
@@ -178,7 +150,7 @@ Gentag sekvensen 5-10 gange eller måske endnu længere. Det kan være godt at s
 
 Ja, i høj grad! Børn elsker solhilsen, fordi øvelserne tager udgangspunkt i kropslige dyrebevægelser som Hundestrækket og Kobraen. Det er en fantastisk måde for børn at få bedre kropsbevidsthed, motorik og ro på. 
 
-En fin [Solhilsen-plakat](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=47232&htmlurl=https://trendyliving.dk/shop/vissevasse-solhilsen-29714p.html){: rel="sponsored nofollow noopener" } på børneværelset kan gøre det til en sjov vane at lave et par stræk sammen om morgenen.
+En fin plakat på børneværelset eller i yogarummet kan gøre det til en sjov vane at lave et par stræk sammen om morgenen.
 
 ---
 
@@ -192,7 +164,6 @@ Udfører du solhilsener i et dynamisk og kontinuerligt tempo (f.eks. 10-15 runde
 * **Muskelopbygning:** Øvelser som Planken, Chaturanga og Kriger 1 opbygger muskelmasse i arme, skuldre, kropstamme og ben, hvilket øger din hvileforbrænding.
 
 ---
-
 
 ## Hvilke muskler aktiveres i solhilsen?
 
@@ -209,7 +180,15 @@ Det viser, at du med tiden opnår en mere balanceret og skånsom muskelaktiverin
 
 Du behøver intet udstyr for at starte, men en skridsikker **yogamåtte** gør træningen langt mere behagelig. Læs vores [komplette guide til yogaudstyr]({% link _posts/2021-01-20-yoga-udstyr.md %}) for mere inspiration.
 
-{% include feature_row id="feature_row_yogamat" type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.manduka_x_yoga_mat view="card" %}
+
+---
+
+## Bøger om solhilsen og yoga
+
+Hvis du vil fordybe dig mere i teknikken og filosofien bag solhilsenen, kan du læse mere her:
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.den_lille_solhilsen view="card" %}
 
 ---
 

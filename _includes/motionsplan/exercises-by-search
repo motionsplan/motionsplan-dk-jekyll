@@ -1,9 +1,0 @@
-{% assign e = include.exercises %}
-{% if e.size > 0 %}
-<h2>{{ include.title }}</h2>
-<div class="feature__wrapper">
-  {% for post in e %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-</div>
-{% endif %}

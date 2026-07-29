@@ -1,194 +1,84 @@
 ---
 layout: single
-toc: 'true'
+toc: true
 permalink: /vurderingsvaerktoejer/
-excerpt: Brug vores vurderingsværktøjer til at få indsigt i din sundhed, trivsel og livsstil. Screening, risikovurderinger
-  og selvtests samlet ét sted.
-description: Brug vores vurderingsværktøjer til at få indsigt i din sundhed, trivsel og livsstil. Screening, risikovurderinger
-  og selvtests samlet ét sted.
-title: Vurderingsværktøjer til din sundhed og trivsel
-seo_title: Vurderingsværktøjer – få indsigt i din sundhed og trivsel
-author_profile: 'true'
+excerpt: "Brug vores vurderingsværktøjer til at få indsigt i din sundhed, trivsel og livsstil. Screening, risikovurderinger og selvtests samlet ét sted."
+description: "Brug vores vurderingsværktøjer til at få indsigt i din sundhed, trivsel og livsstil. Screening, risikovurderinger og selvtests samlet ét sted."
+title: "Vurderingsværktøjer til din sundhed og trivsel"
+seo_title: "Vurderingsværktøjer – få indsigt i din sundhed og trivsel | Motionsplan"
+author_profile: true
 header:
   overlay_image: /assets/images/unsplash/photo-1434030216411-0b793f4b4173.jpg
   credit: https://images.unsplash.com/photo-1434030216411-0b793f4b4173
   caption: Vurderingsværktøjer til din sundhed og trivsel
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
-  - label: <i class='fas fa-stopwatch'></i> Tests
-    url: /tests/
-  - label: <i class='fas fa-calculator'></i> Beregnere
-    url: /beregnere/
-  - label: <i class='fas fa-tools'></i> Værktøjer
-    url: /vaerktoejer/
-  - label: <i class='fas fa-brain'></i> Psykologiske tests
-    url: '#tests'
-breadcrumbs: 'true'
+    - label: "<i class='fas fa-stopwatch'></i> Tests"
+      url: "/tests/"
+    - label: "<i class='fas fa-calculator'></i> Beregnere"
+      url: "/beregnere/"
+    - label: "<i class='fas fa-tools'></i> Værktøjer"
+      url: "/vaerktoejer/"
+    - label: "<i class='fas fa-brain'></i> Psykologiske tests"
+      url: "/vurderingsvaerktoejer/"
+breadcrumbs: true
 classes: wide
 ---
 
-Vil du have bedre indsigt i din sundhed, trivsel eller livsstil? Vores vurderingsværktøjer hjælper dig med at forstå din fysiske form, mentale velvære og livsstilsvaner.
+Vil du have bedre indsigt i din sundhed, trivsel eller livsstil? Vores **vurderingsværktøjer** hjælper dig med at forstå din fysiske form, dit mentale velvære og dine livsstilsvaner.
 
-Uanset om du vil teste din kondition, måle dit stressniveau eller vurdere din risiko for livsstilssygdomme, finder du her et samlet overblik.
+Uanset om du vil undersøge dit mentale overskud, vurdere din risiko for livsstilssygdomme eller tjekke dit forhold til træning, finder du de direkte links til vores selvtests herunder.
 
-Brug værktøjerne som et første skridt mod bedre sundhed og trivsel – og husk, at ingen test kan erstatte en professionel vurdering. Gå i gang med din vurdering i dag!
+> **Bemærk:** Vores vurderingsværktøjer og selvtests fungerer som en vejledende indikator og rettesnor, men kan ikke erstatte en professionel medicinsk eller psykologisk vurdering.
 
-## Kategorier af vurderingsværktøjer
+---
 
-Fysiske vurderinger
-: Her finder du værktøjer til at vurdere din kondition, styrke og generelle fysiske form. Brug dem til at måle din nuværende status og følge din udvikling over tid. De fleste af de fysiske vurderinger finder du under [oversigten over tests](/tests/).
+## Vurderingsværktøjer opdelt efter emne
 
-Mentale vurderinger
-: Disse værktøjer hjælper dig med at vurdere trivsel, stress og mentale ressourcer. De kan give en indikation af, hvordan du har det, men erstatter ikke professionel rådgivning.
+<div class="notice--info" markdown="1">
+### 🧠💭 Mentale Vurderinger & Psykologiske Tests
+Anerkendte værktøjer og spørgeskemaer til at vurdere mentalt velvære, trivsel, stress og tanker.
+* **[WHO-5 Trivselsindeks](/trivselsindeks-who-5/)** – Mål din generelle livskvalitet og mentale trivsel.
+* **[Depressionstest (PHQ-2 og PHQ-9)](/phq-9-depression-test/)** – Screening for tegn på nedtrykthed og depression.
+* **[Anerkendt Stresstest](/stresstest/)** – Vurdér dit nuværende stressniveau.
+* **[Test af Træningsafhængighed (EAI)](/traeningsafhaengighed/)** – Tjek om dit forhold til motion er sundt eller tvangspræget.
+* **[Automatisk Negative Tanker (ATQ)](/atq-automatiske-negative-tanker/)** – Mål omfanget af negative tankemønstre.
+* **[Spiseforstyrrelser Selvtest](/spiseforstyrrelser/)** – Screening for forstyrret spisemønster.
 
-Livsstils- og helbredsrisici
-: Få indsigt i, hvordan din livsstil påvirker din sundhed. Disse værktøjer giver dig en idé om risikofaktorer og mulige forbedringsområder.
+[Se alle psykologiske sundhedstests »](/psykiske-sundhedstest/){: .btn .btn--info }
+</div>
 
-## Oversigt over alle vurderingsværktøjer
-{: id="tests" }
+<div class="notice--warning" markdown="1">
+### 🍏⚖️ Livsstils- & Helbredsrisici
+Værktøjer til screening af sundhedsrisici, kropstype og kropssammensætning.
+* **[Cooper Clinic Mortality Risk Index](/cooper-mortality/)** – Beregn risiko for livsstilssygdomme (for mænd).
+* **[Somatotype Beregner](/somatotype-og-kropstype/)** – Find din kropstype (Ektomorf, Mesomorf, Endomorf).
+* **[BMI Beregner](/bmi-beregner/)** & **[BMI til Børn og Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek dit BMI i forhold til officielle sundhedsintervaller.
+* **[Taljemål & Talje-Hofte Ratio](/taljemaal/)** – Vurdér din fedtfordeling og sundhedsrisiko.
+</div>
 
-{% assign site_posts = site.posts | where: "tags", "vurderingsværktøj" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+<div class="notice--success" markdown="1">
+### 🏃‍♂️📊 Fysiske Vurderinger & Præstation
+Vurdér din nuværende fysiske kapacitet, kondition og styrke for at følge din udvikling over tid.
+* **[Det Samlede Fysiske Testkatalog](/tests/)** – Oversigt over alle konditions-, løbe-, cykel- og styrketests.
+* **[Kondition & VO2-max Vurdering](/kondition/tests/)** – Indirekte og direkte målinger af din iltoptagelse.
+* **[Mål din Fedtprocent](/maal-fedtprocent/)** – Vurdér din fedtprocent med 7 forskellige metoder.
+</div>
 
-{% if site_posts.size > 0 %}
-| Test | Måler |
-|------|-------|
-  {%- for post in site_posts %}
-| [{{ post.meta.name | default: post.title  }}]({{ post.url }}) | {{ post.meta.measures }} |
-  {%- endfor %}
-{% endif %}
+---
 
 ## Sådan bruger du vurderingsværktøjerne
 
-For at få mest muligt ud af disse værktøjer er det vigtigt at besvare spørgsmålene ærligt og i en rolig situation. Brug resultaterne som en rettesnor, men vær opmærksom på, at de ikke erstatter professionel rådgivning.
+For at få de mest præcise og brugbare resultater anbefaler vi:
 
-Hvis et resultat giver anledning til bekymring, kan det være en god idé at søge yderligere vejledning hos en fagperson.
+1. **Vær ærlig i dine svar:** Besvar spørgsmålene ud fra, hvordan du reelt har haft det den seneste tid – ikke ud fra, hvordan du ønsker at have det.
+2. **Skab en rolig ramme:** Gennemfør spørgeskemaer og selvtests uden forstyrrelser.
+3. **Brug resultatet aktivt:** Se din score som et udgangspunkt for at tage hånd om din trivsel, justere din træning eller drøfte det med din læge eller fagperson.
 
-## Mest populære vurderingsværktøjer
+---
 
-{% assign site_posts = site.posts | where: "tags", "vurderingsværktøj" | where: "tags", "populær" | sort: "date" %}
+## Udforsk flere redskaber på Motionsplan
 
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Psykologiske tests
-
-{% assign site_posts = site.posts | where: "tags", "psykologisk test" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle psykologiske tests](/psykiske-sundhedstest/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Afslutning
-
-Udforsk de forskellige vurderingsværktøjer og få værdifuld indsigt i din sundhed og trivsel. Vil du dykke dybere ned i et område? Se vores guides og artikler for mere viden, eller prøv andre [tests](/tests/) og [beregnere](/beregnere/) på Motionsplan.dk!
-
-{% comment %}
-
-***
-
-## BMI beregner, taljemål og idealvægt
-
-Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi-beregner/), hvor du kan læse mere om BMI og lave en beregning af dit eget BMI. Tjek også vores [BMI beregner til børn](/bmi-beregner-boern-unge-teenagere/).
-
-Du kan bl.a. prøve vores [beregner til idealvægt](/idealvaegt/) samt vores samlede beregner til [taljemål og talje-hofte-ratio](/taljemaal/).
-
-## Beregnere til kropssammensætning og fedtprocent
-
-Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men der er mange måder at finde sin kropskomposition på.
-
-{% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "kropskomposition" | where: "tags", "metode" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Alle metoder til kropskomposition](/maal-fedtprocent/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Energi & Forbrænding
-
-## Kalorieberegner og ligevægtsindtag
-
-Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag](/ligevaegtsindtag-beregner/). Det er et af de rigtig populære punkter her på siden.
-
-Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
-
-{% assign site_posts = site.posts | where: "tags", "kalorieberegner" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Træningsberegnere
-
-## De mest populære beregnere
-
-{% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Alle beregnere på Motionsplan
-
-{% assign site_posts = site.posts | where: "tags", "beregner" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## De mest populære tests
-
-{% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "featured" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle tests](/tests/){: .btn .btn--success .btn--center }
-
-</div>
-
-{% endcomment %}
+* 🧮 **[Interaktive Beregnere](/beregnere/)** – Udregn 1RM, kaloriebehov og pulszoner.
+* 🛠️ **[Træningsværktøjer & Biomekanik](/vaerktoejer/)** – Analysér din løfteteknik i squat, bænkpres og dødløft.
+* 👮 **[Politiets Optagelsesprøve](/politiets-optagelsesproeve/)** – Se de fysiske krav og testprocedurer.

@@ -1,13 +1,11 @@
 ---
 title: 'Rotræning: Intervaller og træningsprogram til romaskine 🚣'
 seo_title: 'Rointervaller: Effektiv rotræning på romaskine'
-description: Få effektive træningsprogrammer og intervaller til romaskine, der styrker konditionen og udholdenheden. Inspiration
-  fra ekspert Anders Krintel.
-excerpt: Få effektive træningsprogrammer og intervaller til romaskine, der styrker konditionen og udholdenheden. Inspiration
-  fra ekspert Anders Krintel.
+description: Få effektive træningsprogrammer og intervaller til romaskine, der styrker konditionen og udholdenheden. Inspiration fra ekspert Anders Krintel.
+excerpt: Få effektive træningsprogrammer og intervaller til romaskine, der styrker konditionen og udholdenheden. Inspiration fra ekspert Anders Krintel.
 permalink: /artikel/traeningsprogrammer-intervaller-roning/
 redirect_from:
-- /artikel/ropro-traeningsprogrammer-til-ro-og-kajaksporten
+  - /artikel/ropro-traeningsprogrammer-til-ro-og-kajaksporten
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1519505645104-c7be90e0d630.jpg
@@ -15,27 +13,16 @@ header:
   teaser: /assets/images/unsplash/photo-1519505645104-c7be90e0d630.jpg
   caption: 'Rotræning: Roprogrammer, træningsprogrammer og intervaller til indendørs roning på romaskine.'
 tags:
-- træning
-- roning
-- konditionstræning
-- kondition
-- anaerob træning
-- aerob træning
-- intervaltræning
+  - træning
+  - roning
+  - konditionstræning
+  - kondition
+  - anaerob træning
+  - aerob træning
+  - intervaltræning
 category:
-- Træning
+  - Træning
 last_modified_at: '2020-07-05T21:42:12Z'
-feature_row:
-- image_path: /assets/images/shop93647.sfstatic.io/Concept_2_model_D_sort1_w774_h774_fill-ad0c2dde.jpg
-  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Concept_2_model_D_sort1.w774.h774.fill.jpg
-  alt: Concept 2 egnet til rotræning og ropoprogrammer
-  title: Concept 2 - Model D Sort + PM5
-  excerpt: Concept 2 er er en fantastisk romaskine. Du kan lave dine træningsprogrammer til roning og forskellige intervaller,
-    så din rotræning får høj kvalitet og en helt unik træningsoplevelse.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/?search=concept2
-  btn_label: Tjek pris
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 ---
 
 Jeg har været på udkig efter et træningsprogram til indendørs roning på romaskine, og heldigvis kender jeg en ekspert indenfor området. Bliv klar til din rotræning ved at sammensætte dit eget træningsprogram!
@@ -90,14 +77,14 @@ Det kunne fx se sådan her ud ud fra den en [intensitetsskala](/borg-skala/), de
 
 | Ugedag | Varighed | RPE |
 |-|-|-|
-| Mandag | 60 mintter | 7 |
-| Tirsdag | 60 minutter |7 |
+| Mandag | 60 minutter | 7 |
+| Tirsdag | 60 minutter | 7 |
 | Torsdag | 45 minutter | 8-10 |
 | Lørdag | 70 minutter | 6 |
 
 Hårdheden af de enkelte træningspas bliver bestemt af den intensitet du bruger i de enkelte intervaller.
 
-> Du kan jo sagtens ro 30 sekunder med 30 sekunders aktiv hvile, hvor det er utrolig hårdt, men du kan også slappe lidt mere af arbjedsintervallet og på den måde have et langt træningspas, der kører på den måde. Du kan selv lære at styre intensiteten, som du kommer i bedre form.
+> Du kan jo sagtens ro 30 sekunder med 30 sekunders aktiv hvile, hvor det er utrolig hårdt, men du kan også slappe lidt mere af arbejdsintervallet og på den måde have et langt træningspas, der kører på den måde. Du kan selv lære at styre intensiteten, som du kommer i bedre form.
 >
 > --- <cite>[Anders Krintel](https://www.ropro.dk/)</cite>
 
@@ -112,7 +99,7 @@ Alle intervallerne er konstrueret som [intervaltræning](/intervaltraening/), me
 - 5 x 90/30
 - 5 x 30/30
 
-Tallene er sekunder og 210/30 betyder 210 sekunders arbejde (3,5 min) og 30 sekunders aktiv hvile
+Tallene er sekunder og 210/30 betyder 210 sekunders arbejde (3,5 min) og 30 sekunders aktiv hvile.
 
 Således varer grupperne henholdsvis 20, 15, 10 og 5 minutter.
 
@@ -134,7 +121,7 @@ Jeg holder bare 1 minuts pause for hver.
 
 ### 3. Pyramid of fours
 
-En eller to omgange af (1111 22 4 22 1111 minutter)
+En eller to omgange af (1111 22 4 22 1111 minutter).
 
 Hele tiden med 1 minuts pause.
 
@@ -142,7 +129,7 @@ Hele tiden med 1 minuts pause.
 
 ### 4. Krintels Favorit
 
-Den her ror Krintel selv ofte for tiden, fordi den er et godt miks mellem lidt længere intervaller og lidt korter intervaller
+Den her ror Krintel selv ofte for tiden, fordi den er et godt miks mellem lidt længere intervaller og lidt kortere intervaller:
 
 2-3 serier af (3x2/1 + 3x1/1 + 3x30/30)
 
@@ -158,7 +145,7 @@ Krintel kan godt lide, når tallene passer sammen. Hans kommentar til dette inte
 - 21
 - 1
 
-Hele tiden 1 minutters pause mellem de enkelte intervaller.
+Hele tiden 1 minuts pause mellem de enkelte intervaller.
 
 {% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2 ro maskine" %}
 
@@ -226,12 +213,6 @@ Nu skulle du gerne være i stand til at lave dit eget effektive træningsprogram
 Hvis du fx vil træne tre gange om ugen, så kan du vælge tre forskellige af Anders Krintels yndlingsintervaller til hver gang. Husk at styre intensiteten fra gang til gang i din rotræning, så du ikke ror dig helt i sænk hver gang.
 
 God fornøjelse. Meld rigtig gerne tilbage i kommentarerne, hvis du har fået gang i rotræningen eller hvis du har et godt træningsprogram til romaskine, du vil dele.
-
-## Køb din egen indendørs romaskine
-
-Hvis du gerne vil lave din egen rotræning hjemme, så har du brug for din egen romaskine. Heldigvis koster en romaskine overraskende lidt. Tjek fx prisen på denne model.
-
-{% include feature_row type="left" %}
 
 ## Andre forslag til træningsprogram på romaskine
 
@@ -304,6 +285,6 @@ Du kan også lave [Concept2s 2000 meter test for at finde dit kondital]({% link 
 
 ## Køb din egen indendørs romaskine
 
-Hvis du gerne vil lave din egen rotræning hjemme, så har du brug for din egen romaskine. Heldigvis koster en romaskine overraskende lidt. Tjek fx prisen på denne model.
+Hvis du gerne vil lave din egen rotræning hjemme, så har du brug for din egen romaskine. Heldigvis koster en romaskine overraskende lidt. Tjek fx prisen på denne model fra Concept 2:
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.concept_2_model_d_sort view="card" %}

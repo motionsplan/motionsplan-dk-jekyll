@@ -13,11 +13,6 @@ tags:
   - styrketræning
   - konditionstræning
 last_modified_at: 2022-05-22T10:21:26Z
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788771415070/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=svinetr%C3%A6ning
-    title: Svinetræning - rå og effektiv udetræning for alle
-    excerpt: Svinetræning er sjov og stærkt motiverende. Det er svinehård, effektiv træning, og fordi man indimellem roder rundt på jorden og bliver beskidt. Svinetræning foregår altid udendørs, og selv om det hviler på et solidt, fagligt grundlag, så er det sjovt, anderledes, lidt skørt og lidt vildt. Og så er man glad som en lille gris, når man er færdig med at træne. 
 ---
 
 Er du klar til svinehård og effektiv træning? Er du klar til at være uden for og rulle rundt på jorden og blive beskidt samtidig med at du kommer i form? Så er Svinetræning netop noget for dig.
@@ -37,7 +32,7 @@ Svinetræning er svinehård, effektiv træning, hvor der næsten er garanti for 
 
 Svinetræning er en træningsform, som Jens Bojsen-Møller og Peter Løwenstein står bag. De har lavet en [hjemmeside](https://svinetraening.dk/), hvor du kan læse endnu mere om træningen.
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.svinetraening view="card" %}
 
 ## Typer af svinetræning
 

@@ -28,11 +28,11 @@ Klude er særdeles velegnede til, hvis du er ved at planlægge et [træningsprog
 
 ## Øvelser til træning med klude og sliders
 
-{% include motionsplan/exercise key="20131002101354" title="Træning af hoftebøjer med klude" %}
+{% include motionsplan/exercise-detail.html key="20131002101354" title="Træning af hoftebøjer med klude" %}
 
-{% include motionsplan/exercise key="20131003102221" title="Træning af baglår, glid ud på to ben" %}
+{% include motionsplan/exercise-detail.html key="20131003102221" title="Træning af baglår, glid ud på to ben" %}
 
-{% include motionsplan/exercise key="20131003142257" title="Træning af baglår, glid ud på et ben" %}
+{% include motionsplan/exercise-detail.html key="20131003142257" title="Træning af baglår, glid ud på et ben" %}
 
 ## Flere øvelser til træning med klude og sliders
 

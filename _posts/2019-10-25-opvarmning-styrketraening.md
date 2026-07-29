@@ -16,15 +16,6 @@ tags:
   - begynder
 last_modified_at: 2020-03-06T23:14:14Z
 toc: true
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk af Jacob Beermann indeholder også opvarmning"
-    title: "Stærk - Jacob Beermann"
-    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Jacob Beermann har med bogen Stærk skrevet en god og grundig introduktion til hvordan man styrketræner bedst, og hvordan man laver opvarmning til styrketræning."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
 ---
 
 Opvarmning er vigtigt, og du kan bruge den fornuftigt. Det gælder også opvarmning til styrketræning. Formålet med opvarmning er at øge kropstemperaturen, smøre leddene, øge mobiliteten, gøre nervesystemet klar og forbedre ens evne til at bevæge sig.

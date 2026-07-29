@@ -18,27 +18,6 @@ tags:
 - moc
 last_modified_at: '2026-07-01T22:14:14Z'
 toc: 'true'
-feature_row:
-- image_path: /assets/images/shop93647.sfstatic.io/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co_w774_h774_fill-a4f59501.jpg
-  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
-  alt: Tanita DC 360P Kropsanalysevægt
-  title: Tanita DC 360P Kropsanalysevægt
-  excerpt: Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er
-    det muligt at få en fuld kropsanalyse og måle din fedtprocent.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1764-tanita-dc-360p-kropsanalysevaegt/
-  btn_label: Tjek pris
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: /assets/images/shop93647.sfstatic.io/tanita-mc_w774_h774_fill-7d7a5bf0.webp
-  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
-  alt: Tanita MC 780 P MA
-  title: Tanita MC 780 P MA
-  excerpt: Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte.
-    Med det todelte display, kan du nemt overskue den målte og beregnede data.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1771-tanita-mc-780-p-ma/
-  btn_label: Tjek pris
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 faq:
 - question: Hvad er en god fedtprocent?
   answer: 'Der er ikke noget entydigt svar på, hvad en god fedtprocent er. Det kommer an på, hvad du fokuserer på. Her på

@@ -2,12 +2,10 @@
 layout: single
 toc: 'true'
 permalink: /tests/
-excerpt: Find tests du selv kan lave i vores oversigt over alle fysiske fitness tests til gang, løb, cykling, styrketræning,
-  balance, smidighed og roning og træning.
-description: Find fysiske tests, du selv kan lave, og få indsigt i din kondition, styrke, balance og smidighed. Vælg mellem
-  tests til gang, løb, cykling, roning og styrketræning.
-title: Tests – find den rette test for dig
-seo_title: Fysiske tests – test din kondition, styrke og udholdenhed selv
+title: "Tests & Måleværktøjer: Find den rette test"
+seo_title: "Fysiske Tests & Sundhedstests – Komplet Testkatalog"
+excerpt: "Komplet katalog over fysiske og psykologiske tests. Find den rette test til kondition, løb, cykling, styrke, balance og mentalt helbred."
+description: "Find fysiske og psykologiske tests i vores komplette katalog. Vælg mellem konditionstests, løbetests, cykeltests, styrketests og vurderingsværktøjer."
 author_profile: 'true'
 header:
   overlay_image: /assets/images/unsplash/photo-1706029831332-67734fbf73d9.jpg
@@ -56,183 +54,109 @@ feature_row_police_test:
 classes: wide
 ---
 
-Tests hjælper dig med at få en præcis måling af din fysiske form og træningsfremgang. Uanset om du er løber, cyklist, eller vil teste din generelle kondition, finder du den rette test her.
+Velkommen til vores samlede **testkatalog**. Fysiske og psykologiske tests er det bedste redskab til at objektivisere din fysiske form, måle træningsfremgang og identificere svagheder.
 
-De fleste tests indeholder et værktøj, der hjælper dig med at finde resultaterne. Du kan også tjekke [vores side med beregnere](/beregnere/).
+Uanset om du vil måle dit kondital, din trækstyrke, din løbekapacitet eller dit mentale helbred, finder du de direkte links til vores specialiserede testkategorier og beregnere herunder.
 
-## Oversigt over alle tests
+---
+
+## Søg i det komplette testkatalog
 {: id="tests" }
 
-<!-- 2. Gem den tunge tabel i en foldud-boks -->
-<details markdown="1" style="background: #f8f9fa; padding: 12px 18px; border-radius: 6px; margin-bottom: 30px;">
-  <summary><strong style="cursor: pointer; font-size: 1.1em;">🔍 Vil du søge i den komplette liste? (Klik her for tabel)</strong></summary>
+{: .notice--info}
+**Leder du efter en helt specifik test?** Åbn tabellen herunder for at søge og filtrere på tværs af alle vores fysiske og psykologiske måleværktøjer.
 
-  <p style="margin-top: 10px;">Brug søgefeltet herunder til at filtrere på tværs af alle vores fysiske og psykologiske tests:</p>
+<details markdown="1" style="background: #f8f9fa; padding: 14px 18px; border-radius: 8px; margin-bottom: 25px; border: 1px solid #e9ecef;">
+  <summary><strong style="cursor: pointer; font-size: 1.1em;">🔍 Klik her for at åbne den søgbare testtabel</strong></summary>
 
-  {% include table/filter-table-tests.html %}
-
+  <div style="margin-top: 15px;">
+    {% include table/filter-table-tests.html %}
+  </div>
 </details>
 
-***
+---
 
-<details markdown="1" class="faq" id="konditionstests">
-  <summary><h3>💨🫁 Konditionstests</h3></summary>
+## Alle Testkategorier
+{: id="kategorier" }
 
-Det er altid interessant at teste sin kondition, sin [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og sit [kondital](/kondital/). Her har jeg samlet alle konditionstests her på Motionsplan.
+Vælg den relevante kategori herunder for at gå direkte til vores uddybende guides, normtabeller og interaktive timere.
 
-Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen. Du kan se en mere uddybende side om [konditionstests](/kondition/tests/).
+<div class="notice--success" markdown="1">
+### 💨🫁 Konditionstests
+Mål din maksimale iltoptagelse ($\text{VO}_2\text{-max}$), dit kondital og din generelle udholdenhed. Vi har samlet både direkte laboratorietests og feltbaserede indirekte tests.
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "populær" | sort: "last_modified_date" %}
+[Se alle konditionstests »](/kondition/tests/){: .btn .btn--success }
+</div>
 
-<div class="feature__wrapper" markdown="1">
+<div class="notice--info" markdown="1">
+### 🏃‍♀️📏 Løbetests
+Oversigt over videnskabelige løbetests – fra distancetests som 12-minutters Cooper-testen til interval- og shuttle-tests som Bip-testen og Yo-Yo testen.
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
+[Se alle løbetests »](/tests/loeb/){: .btn .btn--info }
+</div>
 
-[Se alle konditionstests](/kondition/tests/){: .btn .btn--success .btn--center }
+<div class="notice" markdown="1">
+### 🚶‍♂️📊 Gangtests
+Skånsomme og præcise gængertests til ældre, genoptræningsforløb eller klinisk brug (f.eks. 6-minutters gangtest og Rockport walk test).
+
+[6 min gåtest for ældre (6MWT) »](/gaatest-6min/){: .btn .btn--primary } [Rockports 1,6 km gangtest »](/gaatest/){: .btn .btn--primary }
 
 </div>
-</details>
 
-<details markdown="1" class="faq" id="lobetests">
-  <summary><h3>🏃‍♀️📏 Løbetests</h3></summary>
+<div class="notice--warning" markdown="1">
+### 🚴‍♀️💨 Cykeltests
+Vurdér din anaerobe effekt, FTP og kondition på cykelergometer eller spindingcykel (f.eks. Åstrand, Wattbike, Wingate og RST).
 
-Der findes flere løbetests, som du kan bruge til at teste dit nuværende niveau.
-
-{% assign site_posts = site.posts | where: "tags", "løbetest" | where: "tags", "populær" | sort: "last_modified_date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle løbetests](/tests/loeb/){: .btn .btn--success .btn--center }
-
+[Se alle cykeltests »](/tests/cykling/){: .btn .btn--warning }
 </div>
-</details>
 
-<details markdown="1" class="faq" id="gangtests">
-  <summary><h3>🚶‍♂️📊 Gangtests</h3></summary>
+<div class="notice--danger" markdown="1">
+### 🦘🏋️‍♀️ Springtests & Hoppetests
+Mål din eksplosive underkropsstyrke og reaktive hoppehøjde (f.eks. Squat Jump, Countermovement Jump og Sargent Jump test).
 
-Gangtests kan være en rigtig god måde at få tjekket sit nuværende fysiske niveau. Disse gangtests er ofte benyttet til lidt ældre mennesker, som ikke kan løbe eller cykle.
-
-{% assign site_posts = site.posts | where: "tags", "gangtest" | sort: "last_modified_date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
+[Se alle spring- og hoppetests »](/springtests-hoppehoejde/){: .btn .btn--danger }
 </div>
-</details>
 
-<details markdown="1" class="faq" id="cykeltests">
-  <summary><h3>🚴‍♀️💨 Cykeltests</h3></summary>
+<div class="notice--success" markdown="1">
+### 🏃‍♂️💨 Sprint- & Hurtighedstests
+Test din lineære tophastighed og acceleration over korte distancer (f.eks. 30-meter sprint og RAST-test).
 
-Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet en oversigt over alle cykeltests her på siden.
-
-{% assign site_posts = site.posts | where: "tags", "cykeltest" | where: "tags", "populær" | sort: "last_modified_date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle cykeltests](/tests/cykling/){: .btn .btn--success .btn--center }
-
+[Se alle sprint- og hurtighedstests »](/retningsskift-test/){: .btn .btn--success }
 </div>
-</details>
 
-<details markdown="1" class="faq" id="hoppetests">
-  <summary><h3>🦘🏋️‍♀️ Springtest og hoppetests</h3></summary>
+<div class="notice--info" markdown="1">
+### 💥🔬 Retningsskift & Eksplosivitet
+Mål din agilitet, Change of Direction Speed (CODS) og evne til hurtige vendinger på banen (f.eks. Illinois, 505-test, T-test og Arrowhead).
 
-{% assign site_posts = site.posts | where: "tags", "springtest" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle hoppe- og springtests](/springtests-hoppehoejde/){: .btn .btn--success .btn--center }
-
+[Se guides til retningsskift og agilitet »](/retningsskift-test/){: .btn .btn--info }
 </div>
-</details>
 
-<details markdown="1" class="faq" id="sprinttests">
-  <summary><h3>🏃‍♂️💨 Sprint- og hurtighedstests</h3></summary>
+<div class="notice" markdown="1">
+### 🧠💭 Psykologiske Tests & Vurderingsværktøjer
+Mål din mentale sundhed, trivsel og dit forhold til motion med validerede psykologiske spørgeskemaer (f.eks. træningsafhængighed og mentalt velvære).
 
-{% assign site_posts = site.posts | where: "tags", "sprinttest" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se hurtighedstests med retningsskift](/retningsskift-test/){: .btn .btn--success .btn--center }
-
+[Se alle psykologiske sundhedstests »](/psykiske-sundhedstest/){: .btn .btn--primary }
 </div>
-</details>
 
-<details markdown="1" class="faq">
-  <summary><h3>💥🔬 Eksplosivitet og tests</h3></summary>
+---
 
-{% assign site_posts = site.posts | where: "tags", "eksplosivitet" | where: "tags", "test" | sort: "date" %}
+## Genveje til Populære Enkelttests
+{: id="populaere" }
 
-<div class="feature__wrapper" markdown="1">
+Leder du efter en af vores mest benyttede specifikke guides eller beregnere, kan du gå direkte til dem her:
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
+*   **[Cooper-test (12 minutters løbetest)](/cooper-test/)** – Beregn dit kondital ud fra den tilbagelagte distance på 12 minutter.
+*   **[Bip-test (Multi-Stage Fitness Test)](/bip-test/)** – Officiel shuttle-run test med lydspor og niveau-omregner.
+*   **[IMTP Trækstyrketest (Isometric Mid-Thigh Pull)](/imtp-test/)** – Mål din maksimale eksplosive muskelstyrke og Rate of Force Development (RFD).
+*   **[Træningsafhængighed-test (EAI)](/traeningsafhaengighed/)** – Test om dit forhold til træning og motion er sundt eller tvangspræget.
+*   **[Illinois Agility Test](/illinois-agility-test/)** – Den klassiske bane-test til måling af hurtighed og retningsskift.
 
-[Se mere om eksplosivitet](/eksplosivitet/){: .btn .btn--success .btn--center }
+---
 
-</div>
-</details>
-
-<details markdown="1" class="faq" id="psykologiske">
-  <summary><h3>🧠💭 Psykologiske tests</h3></summary>
-
-{% assign site_posts = site.posts | where: "tags", "psykologisk test" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle psykologiske tests](/psykiske-sundhedstest/){: .btn .btn--success .btn--center }
-
-</div>
-</details>
-
-## Flere tests og prøver
+## Specifikke Testpakker & Sundhedsprofiler
 
 {% include feature_row id="feature_row_police_test" type="left" %}
 
 {% include feature_row id="feature_row_test_fat_percent" type="left" %}
-
-## Psykologiske tests
 
 {% include feature_row id="feature_row_mental_tests" type="left" %}

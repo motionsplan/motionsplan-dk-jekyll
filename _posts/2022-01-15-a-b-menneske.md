@@ -5,38 +5,27 @@ excerpt: Test om du er A- eller B-menneske. Lær om de fysiologiske kendetegn fo
 description: Er du A- eller B-menneske? Se den visuelle sammenligningstabel over kendetegn, forstå din kronotype og tag en gratis online kronotype test her.
 permalink: /a-eller-b-menneske/
 redirect_from:
-- /a-eller-b-menneske
+  - /a-eller-b-menneske
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1585577529540-a8095ea25427.jpg
   credit: https://images.unsplash.com/photo-1585577529540-a8095ea25427
 category:
-- Restitution
-- Søvn
+  - Restitution
+  - Søvn
 tags:
-- søvn
+  - søvn
 last_modified_at: '2022-08-15T08:14:14Z'
 toc: 'true'
-feature_row:
-- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/jeg-er-b-menneske_camilla-kring_epub_9788702163698
-  image_path: https://imgcdn.saxo.com/_9788702163681/0x500
-  title: Jeg er B-menneske
-  alt: Forside til Jeg er B-menneske af Camilla Kring
-  excerpt: Camilla Kring skriver en kritik af samfundets arbejdstider, hvor der ikke er plads til at at være B-menneske, så
-    kan du læse med her. Kring giver sine bud på, hvordan en anden type arbejdstid kan øge produktiviteten og livskvaliteten
-    i samfundet.
-  rel: sponsored nofollow noopener
 gallery:
-- image_path: /assets/images/k9-drupal-images.k.dk/graf2-bc893f91.jpg
-  credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
-  url: /assets/images/k9-drupal-images.k.dk/graf2-bc893f91.jpg
-  credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
-  alt: Søvndagbog for et A-menneske
-- image_path: /assets/images/k9-drupal-images.k.dk/graf3-85718ff2.jpg
-  credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
-  url: /assets/images/k9-drupal-images.k.dk/graf3-85718ff2.jpg
-  credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
-  alt: Søvndagbog for et B-menneske
+  - image_path: /assets/images/k9-drupal-images.k.dk/graf2-bc893f91.jpg
+    credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
+    url: /assets/images/k9-drupal-images.k.dk/graf2-bc893f91.jpg
+    alt: Søvndagbog for et A-menneske
+  - image_path: /assets/images/k9-drupal-images.k.dk/graf3-85718ff2.jpg
+    credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
+    url: /assets/images/k9-drupal-images.k.dk/graf3-85718ff2.jpg
+    alt: Søvndagbog for et B-menneske
 ---
 
 Om du er et A-menneske eller et B-menneske styres af et indre biologisk ur. Vores kronotype styres altså ubevidst af en masse mekanismer, som påvirker døgnrytmen og hvornår du er mest frisk på dagen.
@@ -57,7 +46,7 @@ Vi kan naturligvis ikke [reducere](https://videnskab.dk/krop-sundhed/vores-doegn
 
 ## Hvad er en kronotype og dit søvnmidtpunkt?
 
-Till Roenneberg fra Ludwig-Maximilians-Universität i München har kortlagt mere end 220.000 menneskers døgnrytme. Han har fundet ud af, at fordelingen af kronotyper  og døgnrytmer spænder fra ekstremt A-menneske til ekstremt B-menneske.
+Till Roenneberg fra Ludwig-Maximilians-Universität i München har kortlagt mere end 220.000 menneskers døgnrytme. Han har fundet ud af, at fordelingen af kronotyper og døgnrytmer spænder fra ekstremt A-menneske til ekstremt B-menneske.
 
 Søvnbehovet for den enkelte er ifølge Till Roenneberg individuelt og uafhængigt af døgnrytmen. Derfor beregner man døgnrytmen ud fra **midtpunktet af søvnen**.
 
@@ -116,7 +105,7 @@ Du kan få hjælp til at fastslå din egen kronotype i nedenstående validerede 
 
 Rockwool Fondens Forskningsenhed [konkluderer](https://www.rockwoolfonden.dk/app/uploads/2016/02/Nyhedsbrev-April-2011.pdf) i en søvnundersøgelse, at A-mennesker tjener mere end B-mennesker. Det har ifølge forskerne den enkle forklaring, at samfundet og arbejdsmarkedet er indrettet til A-mennesker.
 
-Det er netop dette faktum Camilla Kring kritiserer i bogen [Jeg er B-menneske](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/jeg-er-b-menneske_camilla-kring_epub_9788702163698){: rel="sponsored nofollow noopener" }.Døgnrytmen har betydning for din livskvalitet, helbred og produktivitet - og samfundets indretning passer ikke til B-mennesker.
+Det er netop dette faktum Camilla Kring kritiserer i bogen *Jeg er B-menneske*. Døgnrytmen har betydning for din livskvalitet, helbred og produktivitet - og samfundets indretning passer ikke til B-mennesker.
 
 ## Find søvnens midtpunkt med en søvndagbog
 
@@ -208,4 +197,6 @@ Nu skulle du gerne have en ide om, du er et A- eller B-menneske eller et eller a
 
 Måske er ud også interesseret i at læse mere om, hvordan du kan [kortlægge din søvn med søvndagbog](/soevndagbog/) eller [bruge dit ur til søvntracking](/soevn-tracking/).
 
-{% include feature_row type="left" %}
+## Bøger om at være B-menneske
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.jeg_er_b_menneske view="card" %}

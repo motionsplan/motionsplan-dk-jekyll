@@ -9,47 +9,21 @@ header:
   credit: https://images.unsplash.com/photo-1549675584-c22bde15df72
   caption: Hvor meget søvn har vi brug for?
 category:
-- Restitution
-- Søvn
+  - Restitution
+  - Søvn
 tags:
-- søvn
+  - søvn
 last_modified_at: '2022-08-17T23:14:14Z'
 toc: 'true'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9788711731611/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sov-rigtigt_nick-littlehales_epub_9788711724569
-  title: Sov Rigtigt
-  excerpt: Glem alt om det, du troede, du vidste om søvn. Restitution er noget, der kan foregå hele døgnet rundt, ikke kun
-    om natten – restitutionsprocessen er en konstant rytme, som vi alle må lære at følge. Så hvis du vil starte i dag, betyder
-    det lige nu – ikke når du går i seng i aften. - Nick Littlehales
-  alt: Sov Rigtigt - Nick Littlehales
-  btn_label: Tjek prisen
-  btn_class: btn--danger
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/_9780674975392/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/internal-time_till-roenneberg_paperback_9780674975392
-  title: Internal time
-  excerpt: Till Roenneberg viser at hvis vi ikke respekterer vores indre ur, så risikerer vi at være i kronisk søvnunderskud,
-    hvilket kan få os til at ryge, tage på i vægt, føle os deprimeret og blive syge. Hvis man forstår den indre tid, så kan
-    vi også leve bedre. Till Roenneberg står bl.a. bag Munich Chronotype Questionnaire (MCTQ).
-  alt: Internal Time - Roenneberg
-  btn_label: Tjek prisen
-  btn_class: btn--danger
-  rel: sponsored nofollow noopener
 faq:
-- question: Hvor meget skal man sove?
-  answer: I gennemsnit skal voksne mennesker sove 7,5 timer hver nat. Anbefalingerne er at man sover mellem 7-9 timer. Nogle
-    kan imidlertid godt nøjes med mindre søvn, og nogle har brug for flere timers søvn. Søvnbehovet ændrer sig også med alderen.
-- question: Hvordan ved man om man sover for lidt?
-  answer: Hvis du har svært ved vågne, og du har brug for et vækkeur for at komme op, så kan det være, at du sover for lidt.
-    Hvis du føler dig træt gennem dagen, og hjernen føles slukket, så bør du sove lidt mere eller forbedre kvaliteten af din
-    søvn. Måske passer din [kronotype ikke med din hverdag](/a-eller-b-menneske/).
-- question: Hvordan ved man om man sover nok?
-  answer: Hvis du vågner frisk og veludhvilet de fleste morgener, så får du formentlig den søvn du har brug for. Selvom der
-    findes nogle generelle anbefalinger, så er søvn en meget individuel ting.
-- question: Hvor meget søvn skal man have i forhold til sin alder?
-  answer: Dit søvnbehov ændrer sig med alderen. Små børn har brug for mere søvn end ældre mennesker. Du kan finde en tabel
-    med generelle anbefalinger for sovetider i dette indlæg.
+  - question: Hvor meget skal man sove?
+    answer: I gennemsnit skal voksne mennesker sove 7,5 timer hver nat. Anbefalingerne er at man sover mellem 7-9 timer. Nogle kan imidlertid godt nøjes med mindre søvn, og nogle har brug for flere timers søvn. Søvnbehovet ændrer sig også med alderen.
+  - question: Hvordan ved man om man sover for lidt?
+    answer: Hvis du har svært ved vågne, og du har brug for et vækkeur for at komme op, så kan det være, at du sover for lidt. Hvis du føler dig træt gennem dagen, og hjernen føles slukket, så bør du sove lidt mere eller forbedre kvaliteten af din søvn. Måske passer din [kronotype ikke med din hverdag](/a-eller-b-menneske/).
+  - question: Hvordan ved man om man sover nok?
+    answer: Hvis du vågner frisk og veludhvilet de fleste morgener, så får du formentlig den søvn du har brug for. Selvom der findes nogle generelle anbefalinger, så er søvn en meget individuel ting.
+  - question: Hvor meget søvn skal man have i forhold til sin alder?
+    answer: Dit søvnbehov ændrer sig med alderen. Små børn har brug for mere søvn end ældre mennesker. Du kan finde en tabel med generelle anbefalinger for sovetider i dette indlæg.
 ---
 
 Hvor meget søvn har du brug for, hvis din krop skal fungere optimalt, hjernen nå at blive renset og nulstillet, restitutionen være god og for at få forbedringer i immunsystemet?
@@ -125,6 +99,12 @@ Alle søvnfaserne er naturligvis vigtige, men den dybe søvn har særlige effekt
 I denne grafik kan du få en fornemmelse af, om du sover for meget eller for lidt.
 
 {% include figure image_path="/assets/images/bedrenaetter.dk/Anbefaling_Af_S_vn_Uden_Overskrift-7388ea11.jpg" caption="Kilde: [www.bedrenaetter.dk](https://www.bedrenaetter.dk/inspiration-artikler/sover-du-for-meget.html) [📷](https://www.bedrenaetter.dk/media/wysiwyg/Artikler/Sover_du_for_meget/Anbefaling_Af_S_vn_Uden_Overskrift.jpg){: rel='nofollow noopener' }" %}
+
+## Bøger om søvn og døgnrytme
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.sov_rigtigt view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.internal_time view="card" %}
 
 ## Konklusion
 

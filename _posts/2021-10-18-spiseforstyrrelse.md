@@ -1,8 +1,7 @@
 ---
 title: 'Spiseforstyrrelser: Har du forstyrret spisning?'
 seo_title: Har du en spiseforstyrrelse? Har du forstyrret spisning? (Test)
-description: Har du en spiseforstyrrelse? Test om du har forstyrret spisning i dette spørgeskema, som er baseret på videnskabelige
-  studier af spiseforstyrrelser.
+description: Har du en spiseforstyrrelse? Test om du har forstyrret spisning i dette spørgeskema, som er baseret på videnskabelige studier af spiseforstyrrelser.
 permalink: /spiseforstyrrelser/
 language: da
 header:
@@ -11,32 +10,15 @@ header:
   teaser: /assets/images/unsplash/photo-1620302044674-2b39db73b8db.jpg
   caption: 'Spiseforstyrrelser: Har du forstyrret spisning?'
 category:
-- Vurderingsværktøjer
-- Psykologi
+  - Vurderingsværktøjer
+  - Psykologi
 tags:
-- vurderingsværktøj
-- kost & ernæring
-- psykologi
-- psykologisk test
+  - vurderingsværktøj
+  - kost & ernæring
+  - psykologi
+  - psykologisk test
 last_modified_at: '2021-10-14T08:14:14Z'
 toc: 'true'
-feature_row:
-- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/besat-af-traening_mia-beck-lichtenstein_haeftet_9788777068515
-  image_path: https://imgcdn.saxo.com/_9788777068515/0x500
-  title: Besat af træning
-  excerpt: Denne bog er den første på dansk, der omhandler den overdrevne og ekstreme træningsiver, som i nogle tilfælde kan
-    udvikle sig til en negativ afhængighedstilstand. Bogen er skrevet af Mia Beck Lichtenstein.
-  btn_class: btn--danger
-  btn_label: Læs mere
-  rel: sponsored nofollow noopener
-- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/find-traeningsbalancen_mia-beck-lichtenstein_epub_9788771581973
-  image_path: https://imgcdn.saxo.com/_9788771581973/0x500
-  title: Find træningsbalancen
-  excerpt: Er du vild med sport, at bruge kroppen, træne målrettet og konkurrere? Giver motion og idræt dig glæde og energi?
-    Men sker det også at træningen styrer dit liv? Eller at du træner , selvom du har smerter og ved, at du burde lade være?
-  btn_class: btn--danger
-  btn_label: Læs mere
-  rel: sponsored nofollow noopener
 ---
 
 En spiseforstyrrelse er kendetegnet ved et usundt og tvangspræget forhold til mad, krop og vægt. Det er en psykisk lidelse, som kan komme til udtryk på forskellige måder, fx ved at man spiser alt for meget eller undgår at spise.
@@ -67,4 +49,8 @@ Du kan se hele interviewet her:
 
 Du kan læse mere om [træningsafhængighed](/traeningsafhaengighed/).
 
-{% include feature_row type="left" %}
+## Læs mere om træning og balance
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.besat_af_traening view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.find_traeningsbalancen view="card" %}

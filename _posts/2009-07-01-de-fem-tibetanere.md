@@ -5,8 +5,8 @@ description: 'Lær de fem tibetanere: Yogaøvelser for styrke, fleksibilitet og 
 excerpt: 'Lær de fem tibetanere: Yogaøvelser for styrke, fleksibilitet og velvære. Få en komplet guide med billeder, videoer, vejrtrækning og historien bag riterne.'
 permalink: /artikel/de-fem-tibetanere/
 redirect_from:
-- /2009-07-01-de-fem-tibetanere/
-- /artikel/de-fem-tibetanere/historie/
+  - /2009-07-01-de-fem-tibetanere/
+  - /artikel/de-fem-tibetanere/historie/
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1599901860904-17e6ed7083a0.jpg
@@ -14,82 +14,54 @@ header:
   caption: 'De fem tibetanere: 5 tibetanske yoga øvelser og riter'
 popular: 'true'
 tags:
-- yoga
-- træning
-- meditation
-- træningsprogram
-- populær
-- featured
-- begynder
+  - yoga
+  - træning
+  - meditation
+  - træningsprogram
+  - populær
+  - featured
+  - begynder
 category:
-- Yoga
+  - Yoga
 last_modified_at: '2026-07-26T12:00:00Z'
-feature_row:
-- image_path: /assets/images/denintelligentekrop.dk/de-fem-tibetanere-1-77eebdf6.jpg
-  credit: https://imgcdn.saxo.com/_9788777594281/0x500
-  alt: Bogen De 5 tibetanere af Peter Kelder
-  title: De fem tibetanere (bog 1)
-  excerpt: Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser er skrevet af Peter Kelder og solgt i mere end 2 millioner eksemplarer.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/de-fem-tibetanere-bog1_peter-kelder_paperback_9788777594281
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/_9788777594304/0x500
-  alt: Peter Kelders anden bog om de 5 tibetanere
-  title: De fem tibetanere (bog 2)
-  excerpt: Opfølgeren til bog nr. 1 om De 5 tibetanere. Denne bog er mere omfattende og præsenterer blandt andet den sjette tibetaner.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/de-fem-tibetanere-bog-2_brugtbog_sx106906273
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-feature_row_yogamat:
-- image_path: /assets/images/denintelligentekrop.dk/manduka-x-mat-moerkeblaa-03_1-80695b5e.jpg
-  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
-  alt: Manduka X Yoga Mat
-  title: Manduka X Yoga Mat
-  excerpt: Hvis du laver meget træning og yoga, anbefaler vi at investere i en yogamåtte af høj kvalitet for bedre greb og komfort.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 gallery:
-- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_1-4a0d82be.gif
-  credit: https://upload.wikimedia.org/wikipedia/commons/7/77/Five_tibetan_rite_1.gif
-  alt: Rite 1
-  title: 'Rite 1: De 5 tibetanere'
-- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_2-77389d5c.gif
-  credit: https://upload.wikimedia.org/wikipedia/commons/a/a2/Five_tibetan_rite_2.gif
-  alt: Rite 2
-  title: 'Rite 2: De 5 tibetanere'
-- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_3-6f7cc038.gif
-  credit: https://upload.wikimedia.org/wikipedia/commons/3/3a/Five_tibetan_rite_3.gif
-  alt: Rite 3
-  title: 'Rite 3: De 5 tibetanere'
-- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_4-fabd0585.gif
-  credit: https://upload.wikimedia.org/wikipedia/commons/5/5e/Five_tibetan_rite_4.gif
-  alt: Rite 4
-  title: 'Rite 4: De 5 tibetanere'
-- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_5-294233e2.gif
-  credit: https://upload.wikimedia.org/wikipedia/commons/3/3d/Five_tibetan_rite_5.gif
-  alt: Rite 5
-  title: 'Rite 5: De 5 tibetanere'
+  - image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_1-4a0d82be.gif
+    credit: https://upload.wikimedia.org/wikipedia/commons/7/77/Five_tibetan_rite_1.gif
+    alt: Rite 1
+    title: 'Rite 1: De 5 tibetanere'
+  - image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_2-77389d5c.gif
+    credit: https://upload.wikimedia.org/wikipedia/commons/a/a2/Five_tibetan_rite_2.gif
+    alt: Rite 2
+    title: 'Rite 2: De 5 tibetanere'
+  - image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_3-6f7cc038.gif
+    credit: https://upload.wikimedia.org/wikipedia/commons/3/3a/Five_tibetan_rite_3.gif
+    alt: Rite 3
+    title: 'Rite 3: De 5 tibetanere'
+  - image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_4-fabd0585.gif
+    credit: https://upload.wikimedia.org/wikipedia/commons/5/5e/Five_tibetan_rite_4.gif
+    alt: Rite 4
+    title: 'Rite 4: De 5 tibetanere'
+  - image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_5-294233e2.gif
+    credit: https://upload.wikimedia.org/wikipedia/commons/3/3d/Five_tibetan_rite_5.gif
+    alt: Rite 5
+    title: 'Rite 5: De 5 tibetanere'
 faq:
-- question: Hvad er de 5 tibetanere?
-  answer: De 5 tibetanere er fem yogabaserede øvelser skabt af tibetanske munke. Yogaøvelserne blev bragt til Vesten af Oberst Bradford og beskrevet af Peter Kelder i hans berømte bog. De fem tibetanske riter laves op til 21 gange hver og tager 10-20 minutter.
-- question: Hvordan skal jeg trække vejret ved de fem tibetanere?
-  answer: Vejrtrækningen er en helt central del af riterne. Tommelfingerreglen er, at du trækker vejret ind på de løftende eller udvidende bevægelser, og puster ud på de sænkende eller sammentrækkende bevægelser.
-- question: Hvor lang tid tager det at lave de 5 tibetanere?
-  answer: Det tager kun omkring 10-20 minutter at gennemføre alle fem riter med 21 gentagelser hver.
-- question: Virker de 5 tibetanere?
-  answer: Riterne opbygger kropsstamme, mobilitet og balance. Mange oplever øget energi, bedre søvn og større mental klarhed ved daglig praksis.
-- question: Hvorfor skal man lave præcis 21 gentagelser?
-  answer: 21 anses ifølge den østerlandske filosofi for det optimale antal gentagelser til at stimulere kropsenergien og chakraerne uden at overbelaste systemet.
-- question: Hvad er den sjette tibetaner?
-  answer: Den sjette tibetaner er en supplerende rite beskrevet i Peter Kelders bog nr. 2. Den er designet til at omdanne overskydende seksuel energi til livskraft og udføres kun efter behov.
-- question: Findes der "de syv tibetanere"?
-  answer: Mange søger på "de 7 tibetanere" eller "de syv tibetanere øvelser", men det oprindelige program består af 5 riter (plus den valgfri 6. rite). Forvekslingen opstår ofte, fordi øvelserne stimulerer kroppens 7 chakraer.
-- question: Findes der forskning om de fem tibetanere?
-  answer: Der findes ikke direkte kliniske forsøg på det samlede program med de 5 tibetanere. Men forskningen i de enkelte elementer (Hatha Yoga, vestibulær balancetræning, kropstammestyrke og kontrolleret vejrtrækning) dokumenterer klare fordele som forbedret smidighed, lavere stressniveau og bedre balance.
+  - question: Hvad er de 5 tibetanere?
+    answer: De 5 tibetanere er fem yogabaserede øvelser skabt af tibetanske munke. Yogaøvelserne blev bragt til Vesten af Oberst Bradford og beskrevet af Peter Kelder i hans berømte bog. De fem tibetanske riter laves op til 21 gange hver og tager 10-20 minutter.
+  - question: Hvordan skal jeg trække vejret ved de fem tibetanere?
+    answer: Vejrtrækningen er en helt central del af riterne. Tommelfingerreglen er, at du trækker vejret ind på de løftende eller udvidende bevægelser, og puster ud på de sænkende eller sammentrækkende bevægelser.
+  - question: Hvor lang tid tager det at lave de 5 tibetanere?
+    answer: Det tager kun omkring 10-20 minutter at gennemføre alle fem riter med 21 gentagelser hver.
+  - question: Virker de 5 tibetanere?
+    answer: Riterne opbygger kropsstamme, mobilitet og balance. Mange oplever øget energi, bedre søvn og større mental klarhed ved daglig praksis.
+  - question: Hvorfor skal man lave præcis 21 gentagelser?
+    answer: 21 anses ifølge den østerlandske filosofi for det optimale antal gentagelser til at stimulere kropsenergien og chakraerne uden at overbelaste systemet.
+  - question: Hvad er den sjette tibetaner?
+    answer: Den sjette tibetaner er en supplerende rite beskrevet i Peter Kelders bog nr. 2. Den er designet til at omdanne overskydende seksuel energi til livskraft og udføres kun efter behov.
+  - question: Findes der "de syv tibetanere"?
+    answer: Mange søger på "de 7 tibetanere" eller "de syv tibetanere øvelser", men det oprindelige program består af 5 riter (plus den valgfri 6. rite). Forvekslingen opstår ofte, fordi øvelserne stimulerer kroppens 7 chakraer.
+  - question: Findes der forskning om de fem tibetanere?
+    answer: Der findes ikke direkte kliniske forsøg på det samlede program med de 5 tibetanere. Men forskningen i de enkelte elementer (Hatha Yoga, vestibulær balancetræning, kropstammestyrke og kontrolleret vejrtrækning) dokumenterer klare fordele som forbedret smidighed, lavere stressniveau og bedre balance.
 toc_sticky: 'true'
 ---
 
@@ -207,7 +179,7 @@ Vejrtrækningen fungerer som benzin for riterne. Når du koordinerer ind- og ud�
 
 Du behøver i princippet intet udstyr, men en god **yogamåtte** er en kæmpe hjælp. Den giver stødabsorbering til ryggen i Rite 2 og sikrer et godt skridsikkert greb i Rite 4 og 5.
 
-{% include feature_row id="feature_row_yogamat" type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.manduka_x_yoga_mat view="card" %}
 
 Hvis du ønsker mere ro og fokus under din træning, kan du også overveje at [vælge noget passende musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
 
@@ -301,7 +273,9 @@ Vejrtrækningen under riterne aktiverer det parasympatiske nervesystem via **vag
 
 Vil du dykke endnu dybere ned i filosofien og de oprindelige beretninger, kan Peter Kelders klassiske bøger stærkt anbefales:
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.de_fem_tibetanere_1 view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.de_fem_tibetanere_2 view="card" %}
 
 ---
 

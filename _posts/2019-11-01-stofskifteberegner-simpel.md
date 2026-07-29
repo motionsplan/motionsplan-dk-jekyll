@@ -13,8 +13,8 @@ header:
   teaser: /assets/images/unsplash/photo-1507413245164-6160d8298b31.jpg
   caption: 'BMR-beregner: Beregn hvilestofskifte og basalstofskifte 🔥'
 category:
-- Beregnere
-- Kalorieberegnere
+  - Beregnere
+  - Kalorieberegnere
 meta:
   name: "BMR-beregner (hvilestofskifte)"
   measures: "hvilestofskifte, BMR, basalstofskifte"
@@ -30,43 +30,25 @@ tools:
     measures: "hvilestofskifte, BMR"
     category: "HealthAndFitnessApplication"
 tags:
-- beregner
-- stofskifte
-- stofskifteberegner
+  - beregner
+  - stofskifte
+  - stofskifteberegner
 last_modified_at: '2026-07-06T23:14:14Z'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781975217303/0x500
-  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
-  title: Exercise Physiology - Nutrition, Energy, and Human Performance
-  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/_9788762813762/0x500
-  alt: Menneskets ernæring
-  title: Menneskets ernæring
-  excerpt: 'Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer,
-    der er nødvendige for opretholdelse af liv. '
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 keywords:
-- bmr beregner
-- basalstofskifte beregner
-- basalstofskifte
-- udregn bmr
-- beregn bmr
-- hvilestofskifte
-- beregn hvilestofskifte
-- beregn basalstofskifte
-- udregn basalstofskifte
-- bmr udregning
-- udregn hvilestofskifte
-- basalstofskifte udregning
-- basalstofskifte hvilestofskifte
-- udregning af basalstofskifte
+  - bmr beregner
+  - basalstofskifte beregner
+  - basalstofskifte
+  - udregn bmr
+  - beregn bmr
+  - hvilestofskifte
+  - beregn hvilestofskifte
+  - beregn basalstofskifte
+  - udregn basalstofskifte
+  - bmr udregning
+  - udregn hvilestofskifte
+  - basalstofskifte udregning
+  - basalstofskifte hvilestofskifte
+  - udregning af basalstofskifte
 ---
 
 **Jeg har lavet en BMR-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.**
@@ -163,7 +145,7 @@ Hård aktivitet dagen inden kan også påvirke BMR, og bør derfor undgås. Dett
 Faktorer som har betydning for hvilestofskiftet er:
 
 - **Vægt**: Ved en større kropsvægt vil kroppen have en større energiomsætning.
-- **Kropssammensætning**: Omkring 85% af den individuelle variation i hvilestofskiftet skyldes den fedtfrie masse (FFM). FFM er kropsvægt – fedtmasse (FM). FFM har højere energiomsætning end FM. Muskler har en energiomsætning på 54 kJ/kg per dag. Fedt har en forbrænding på 19 kJ/kg per dag. De andre vævstyper og hjernen kræver naturligvis også en del energi.
+- **Kropssammensætning**: Omkring 85% af den individuelle variation i hvilestofskiftet skyldes den fedtfrie masse (FFM). FFM er kropsvægt – fedtmasse (FM). FFM har højere energiomsætning end FM. Muskler har en energiomsætning på 54 kJ/kg per dag. Fedt har en forbrænding på 19 kJ/kg per dag. De backendvævstyper og hjernen kræver naturligvis også en del energi.
 - **Alder**: Med alderen ændres kropssammensætningen. Væskemængden, muskelmassen og knoglemassen reduceres, mens mængden af fedtvæv stiger relativt. Derfor falder hvilestofskiftet typisk, hvilket til dels kan forklares udfra en mindre FFM og en større FM. Foruden forandringen i kropssammensætningen falder hvilkestofskiftet i gennemsnit med 150 kJ/10 år om dagen.
 - **Køn**: Kvinder har et lavere hvilestofskifte, som hovedsageligt kan forklares med en mindre FFM og større FM.
 - **Genetik**: Hvilestofskiftet varierer op til plus/minus 10% mellem personer med samme alder, køn, vægt og FFM. En del af dette menes at være genetisk.
@@ -223,18 +205,14 @@ I dette indlæg bruger jeg hvilestofskiftet og basalstofskiftet næsten som syno
 >
 > --- <cite>[McMurray et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4535334/)</cite>
 
-## Opsummering
 
-Dit hvilestofskifte (BMR) er grundlaget for at forstå dit samlede energibehov – men det er kun én del af ligningen. For at få et mere præcist billede af, hvor meget energi du samlet forbrænder i løbet af en dag, skal du også tage højde for fysisk aktivitet og fordøjelse.
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.exercise_physiology_mcardle view="card" %}
 
-👉 **Prøv TEE-beregneren og find dit samlede daglige energiforbrug (Total Energy Expenditure) baseret på dit aktivitetsniveau:**
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.menneskets_ernaering view="card" %}
 
-➡️ [Beregn dit daglige energibehov med TEE-beregneren](/ligevaegtsindtag-beregner/)
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
-
-{% include feature_row type="left" %}
 
 - Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. <https://doi.org/10.1016/j.clnu.2013.03.022>.
 - Gerrior, Shirley, WenYen Juan, og Basiotis Peter. 2006. “An Easy Approach to Calculating Estimated Energy Requirements”. Preventing Chronic Disease 3 (4). <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/>.

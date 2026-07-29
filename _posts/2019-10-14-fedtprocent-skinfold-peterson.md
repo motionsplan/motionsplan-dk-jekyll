@@ -29,15 +29,6 @@ tools:
     category: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
-feature_row:
-  - image_path: /assets/images/e/accumeasure-fat-caliper.jpg
-    alt: "Accu-Measure Fitness 3000 Body Fat Caliper"
-    title: "Accu-Measure Fitness 3000 Body Fat Caliper"
-    excerpt: "Mål din fedtprocent nemt med Accu-Measure Fitness 3000 Body Fat Caliper. Fedttangen bliver brugt af mange amerikanske personlige trænere på grund af dens præcise målinger. Du kan både bruge den hjemme eller have den med på farten."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://www.billig-fitness.dk/products/body-fat-caliper-fedttang-fedtmaaler"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
 ---
 
 Peterson 4-punktsmåling er en nyere formel til hudfoldsmåling til bestemmelse af fedtprocent baseret på 4-komponentmodellen for kropskomposition.
@@ -80,7 +71,9 @@ Sammenlign den fedtprocent, du har fundet med [anbefalet fedtprocent for voksne 
 
 ## Køb en tang til hudfoldsmålinger
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.accumeasure_fat_caliper view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.harpenden_skinfold_caliper view="card" %}
 
 ## Alternativer til Petersons formel
 

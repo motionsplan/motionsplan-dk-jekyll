@@ -22,21 +22,6 @@ faq:
     answer: "Det er jo op til dig. Men Intervals.icu integrerer med rigtig mange forskellige aps, fx Garmin Connect, Polar Flow, Suuntu, Coros, Wahoo og Strava. Jeg tror du vil komme til at holde af Intervals.icu. Den er gratis, så der sker ikke noget ved at prøve."
   - question: "Er Intervals.icu gratis?"
     answer: "Ja. Og det er faktisk for vildt, når man tænker på funktionaliteten i programmet. Du bliver spurgt om du gerne vil støtte udviklingen af programmet, og hvis du finder det brugbart så kan du overveje det."
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788777498848/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/watt_andrew-coggan-dansk-bearbejdelse-ved-brian-overkaer_hardback_9788777498848
-    title: Watt - træning og konkurrence
-    excerpt: "*Watt - træning og konkurrence* er den definitive guide til at benytte sig af træning med watt. Med hjælp fra denne bog kan du vende hele din træning op og ned - og blive markant hurtigere og bedre."
-    rel: sponsored nofollow noopener
-    btn_label: Se prisen
-    btn_class: btn--success
-  - image_path: https://imgcdn.saxo.com/_9788702189179/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/cykeltraening_claus-hechmann_haeftet_9788702189179
-    title: Cykeltræning - Claus Hechmann
-    excerpt: "Cykeltræning er en fokuseret og præcis guide til at forbedre dine præstationer på cyklen med effekttræning. Princippet er enkelt: Du skal træne i at kunne cykle så hurtigt som muligt i så lang tid som muligt."
-    rel: sponsored nofollow noopener
-    btn_label: Se prisen
-    btn_class: btn--success
 gallery_ftp_why:
   - image_path: /assets/images/ftp-test/ftp-test-hvorfor-1.jpg
   - image_path: /assets/images/ftp-test/ftp-test-hvorfor-2.jpg

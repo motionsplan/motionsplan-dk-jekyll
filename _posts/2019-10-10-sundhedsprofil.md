@@ -11,7 +11,6 @@ header:
   overlay_image: /assets/images/cdn-dk-mk-me.clio.me/HVad_er_sundhed-9bd57401.jpg
   credit: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
   teaser: /assets/images/cdn-dk-mk-me.clio.me/HVad_er_sundhed-9bd57401.jpg
-  credit: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
   caption: *title
 category:
   - Tests
@@ -20,32 +19,6 @@ tags:
   - fitness
   - moc
 last_modified_at: 2019-03-10T08:39:32Z
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788799095872/0x500
-    title: "Fitness testning"
-    alt: "Fitness testning - fysisk testning og sundhedstestning i fitnesscentre, skole og hjem"
-    excerpt: "Populær opslagsbog med allround fysisk testning med nemme  fitness tests, der kan udføres i et fitnesscenter, i en gymnastiksal, sportshal eller i hjemmet. De fleste tests og selvtests kan udføres med kroppen alene eller få, små, billige redskaber. Der forudsættes ikke adgang til specialudstyr. Tre komplette testprogrammer og over 40 fitnesstests samt Fitnessbarometer og Fitness Profil til motivation af fysisk inaktive og fysisk aktive. For personlige trænere, fitness instruktører, fysioterapeuter, idrætsstuderende, idrætsundervisere og supermotionister. Gennemillustreret. 144 sider."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/fitness-testning_marina-aagaard_haeftet_9788799095872"
-    rel: sponsored nofollow noopener
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-  - image_path: https://imgcdn.saxo.com/_9788799369591/0x500
-    title: &book_title "Sundhedstjek og formtest"
-    alt: *book_title
-    excerpt: "Aktuel populærbog om tjek og forbedring af sundhed, motion og livsstil med motiverende og nemme tests - som set på DR TV. Til selvtests eller med familie og venner. Med inspirerende dataark Fitness Profil og Fitnessbarometer, der giver overblik over sundhedsstatus og fysisk form, og mål-og-plan-skema samt motions-dagbog til planlægning af gode vaner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sundhedstjek-og-formtest_marina-aagaard_haeftet_9788799369591"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-feature_row_references:
-  - image_path: https://imgcdn.saxo.com/_9781469825885/0x500
-    alt: "ACSM's Guidelines for Exercise Testing and Prescription"
-    title: "ACSM's Guidelines for Exercise Testing and Prescription"
-    excerpt: "The flagship title of the certification suite from the American College of Sports Medicine, ACSM's Guidelines for Exercise Testing and Prescription is a handbook that delivers scientifically based standards on exercise testing and prescription to the certification candidate, the professional, and the student. The 9th edition focuses on evidence-based recommendations that reflect the latest research and clinical information."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/acsms-guidelines-for-exercise-testing-and-prescription_american-college-of-sports-medicine_epub_9781469825885?gclid=CjwKCAiA5JnuBRA-EiwA-0ggPdXHFExjFsqJLnGbAfydZFfXbHNc8LCSWFplRzuKmJ9vjX1Z3A8TfRoCzqgQAvD_BwE"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
 toc: true
 ---
 
@@ -191,12 +164,14 @@ På Omnicalculator finder du en række [sundhedsværtøjer](https://www.omnicalc
 - [Testning: Fysisk testning øger motivation og træningseffekt](https://marinaaagaardblog.com/2015/04/14/testning-fysisk-testning-oger-motivation-og-traeningseffekt/)
 - [Test dig selv: Fitness testning giver mere målrettet og motiverende træning](https://marinaaagaardblog.com/2013/08/28/test-dig-selv-fitness-testning-giver-mere-malrettet-og-motiverende-traening/)
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.fitness_testning view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.sundhedstjek_og_formtest view="card" %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-{% include feature_row id="feature_row_references" type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.acsm_guidelines view="card" %}
 
 - Sørensen, Jan, Knud Juel, Henrik Brønnum-Hansen, Danmark, Sundhedsstyrelsen, Danmark, og Statens Institut for Folkesundhed. 2008. Risikofaktorer og folkesundhed i Danmark. Kbh.: Statens Institut for Folkesundhed. <https://www.sst.dk/da/udgivelser/2006/~/media/762BA0CB12714748810B93946E95730F.ashx>.
 - Golding, Lawrence A., red. 2000. Ymca Fitness Testing and Assessment Manual. 4 edition. Champaign, Ill.: Human Kinetics.

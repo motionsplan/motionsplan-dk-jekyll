@@ -7,20 +7,11 @@ header:
   credit: https://images.unsplash.com/photo-1628176634111-3e6eac912d5c
   caption: Kadence i cykling og 'det runde tråd'
 category:
-- Cykling
+  - Cykling
 tags:
-- cykling
+  - cykling
 last_modified_at: '2022-01-20T08:14:14Z'
 toc: 'true'
-feature_row:
-- title: 'Netop gentagelsen er det smukke: Samtaler om cykling'
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/netop-gentagelsen-er-det-smukke_joergen-lethrolf-soerensenflemming-toft_indbundet_9788771083590
-  image_path: https://imgcdn.saxo.com/_9788771083590/0x500
-  excerpt: I Samtaler om cykling mødes Danmarks mest vindende cykelrytter gennem tiden, Rolf Sørensen, og kunstneren og cykelentutiasten,
-    Jørgen Leth, i en samtale om netop cykelsporten.
-  btn_label: Tjek prisen
-  btn_class: btn--danger
-  rel: sponsored nofollow noopener
 ---
 
 Kadence i cykling og 'det runde tråd' er begreber, man hører ofte. Men hvad er egentlig en optimal kadence, og hvad betyder 'et rundt tråd'?
@@ -29,7 +20,7 @@ I dette indlæg dykker vi lidt ned i, hvad kadence betyder på en cykel, og hvor
 
 Derefter kigger vi lidt på, hvad et rundt tråd er, og hvordan du kan træne det.
 
-Netop kadencen er noget, af det Rolf Sørensen og Jørgen Leth kalder den smukke gentagelse, som du kan læse mere om i deres bog med [samtaler om cykling](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/netop-gentagelsen-er-det-smukke_joergen-lethrolf-soerensenflemming-toft_indbundet_9788771083590){: rel="sponsored nofollow noopener" }.
+Netop kadencen er noget af det, Rolf Sørensen og Jørgen Leth kalder den smukke gentagelse, som du kan læse mere om i deres bog med samtaler om cykling.
 
 {% include figure image_path="https://images.unsplash.com/photo-1516725630185-19ae408fbc83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="At finde den rigtige kadence på cyklen for at være mest effektiv på cyklen kan hjælpe dine præstationer." alt="kadence cykling" %}
 
@@ -43,8 +34,6 @@ Der er mange eksempler på cykelryttere, som klarer sig på topniveau med vidt f
 
 I cykelsporten taler man sommetider om at "være ovenpå pedalerne". Men hvad betyder det at være ovenpå pedalerne?
 
-
-
 {% comment %}
 
 https://www.trainerroad.com/blog/whats-the-most-efficient-cycling-cadence-and-how-cadence-drills-can-make-you-faster/
@@ -55,11 +44,7 @@ https://videnskab.dk/krop-sundhed/traed-i-pedalerne-som-du-plejer-teknikken-bety
 
 ***
 
-
-
-
 https://www.datasport.com/en/essentials/figuring-out-the-correct-pedal-stroke/
-
 
 Fra verdenen uden for laboratorierne er der også talrige eksempler på, at cykelryttere og triatleter præsterer på topniveau med vidt forskellig kadence.
 
@@ -124,7 +109,7 @@ Polar View er en grafisk repræsentation af kræfterne i din pedalleringteknik. 
 
 Hvis du gerne vil forstå 'det runde tråd', så er det faktisk ikke rundt. Men det bliver rundere, desto mere effektivt det er. At kunne lave et rigtig godt tråd kræver selvfølgelig, at du har cykelsko på.
 
-Lad os migge på de forskellige eksempler på et tråd i forhold til dit niveau.
+Lad os kigge på de forskellige eksempler på et tråd i forhold til dit niveau.
 
 ### Begynder: 8-tallet
 
@@ -140,7 +125,6 @@ Den letøvede kan fastholde lidt af pedalens momentum, når der skiftes ben. Der
 
 {% include figure image_path="/assets/images/cdn.shopify.com/Wattbike-The-Peanut-acf9e833.jpg" caption="[📷](https://cdn.shopify.com/s/files/1/0942/6160/files/Wattbike-The-Peanut.jpg?10528249343562057681){: rel='nofollow noopener' }" %}
 
-
 Hvis den letøvede gerne vil forbedre sit tråd, så kan man forestille sig, at man skraber mudder af det forreste af fodsålen for at forbedre transitionen mellem højre og venstre ben.
 
 ### Eliten: Pølsen
@@ -148,7 +132,6 @@ Hvis den letøvede gerne vil forbedre sit tråd, så kan man forestille sig, at 
 Elitecykelryttere kan lave en stor rund figure, som er meget konsistent og balanceret mellem hvert ben. Der er et godt momentum igennem hele runden i pedalerne.
 
 {% include figure image_path="/assets/images/cdn.shopify.com/Wattbike-The-Sausage-d8767c8a.jpg" caption="[📷](https://cdn.shopify.com/s/files/1/0942/6160/files/Wattbike-The-Sausage.jpg?17207390738609430523){: rel='nofollow noopener' }" %}
-
 
 ## Wattbikes Polar View
 
@@ -213,4 +196,6 @@ Du kan også sammenstille wattmålinger og pulsmålinger med de forskellige kade
 
 Uanset hvilken kadence der er optimal for dig, så husk også at få trænet teknikken i dit tråd.
 
-{% include feature_row type="left" %}
+## Bøger om cykling
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.netop_gentagelsen_er_det_smukke view="card" %}

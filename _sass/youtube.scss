@@ -1,9 +1,9 @@
 .youtube-container {
-    display: block;
-    margin: 20px auto;
-    width: 100%;
-    max-width: 600px;
-  }
+  display: block;
+  margin: 1.5rem 0; /* Giver pæn luft op/ned */
+  width: 100%;
+  max-width: 100%; /* Nu fylder videoen altid 100% af tekstspalten */
+}
   .youtube-player {
     display: block;
     width: 100%;

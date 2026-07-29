@@ -68,11 +68,11 @@ Jeg har lavet en samlet [liste over alle muskler i kroppen her](/muskler/), hvis
 
 For at ramme alle dele af skulderen bør din træning indeholde både pres over hovedet og løft til siden eller bagsiden.
 
-{% include motionsplan/exercise key="45" title="Military Press" %}
+{% include motionsplan/exercise-detail.html key="45" title="Military Press" %}
 
-{% include motionsplan/exercise key="272" title="Lateral Raise" %}
+{% include motionsplan/exercise-detail.html key="272" title="Lateral Raise" %}
 
-{% include motionsplan/exercise key="285" title="Face Pulls" %}
+{% include motionsplan/exercise-detail.html key="285" title="Face Pulls" %}
 
 ## Konklusion
 

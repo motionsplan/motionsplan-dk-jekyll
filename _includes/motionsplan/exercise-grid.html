@@ -1,6 +1,7 @@
 {% assign exercises = '' | split: '' %}
 {% assign maximum = include.maximum | default: 50 %}
-{% if include.input_type != "array" %}
+
+{% if include.input_type != "array" and include.exercises %}
   {% assign ex = include.exercises | split: "; " %}
 {% else %}
   {% assign ex = include.exercises %}
@@ -11,16 +12,14 @@
     {% assign found = site.exercises | where: "title", e | sort: "title" %}
     {% assign exercises = exercises | concat: found %}
   {% endfor %}
-{% else include.exercises %}
-  {% for e in ex limit:maximum %}
-    {% assign exercises = site.exercises | where_exp: "exercises", "exercises.title contains include.search" | sort: "title" %}
-    {% assign exercises = exercises | concat: found %}
-  {% endfor %}
+{% elsif include.search %}
+  {% assign exercises = site.exercises | where_exp: "item", "item.title contains include.search" | sort: "title" %}
+{% elsif include.input_type == "array" %}
+  {% assign exercises = include.exercises %}
 {% endif %}
 
 <div class="grid__wrapper">
-  {% for f in exercises %}
-
+  {% for f in exercises limit: maximum %}
     {% if f.url contains "://" %}
       {% capture f_url %}{{ f.url }}{% endcapture %}
     {% else %}
@@ -31,13 +30,7 @@
       <div class="archive__item">
         {% if f.header.teaser %}
           <div class="archive__item-teaser">
-            <img src=
-              {% if f.image_path contains "://" %}
-                "{{ f.header.teaser }}"
-              {% else %}
-                "{{ f.header.teaser | relative_url }}"
-              {% endif %}
-            alt="{% if f.title %}{{ f.title }}{% endif %}">
+            <img src="{% if f.header.teaser contains '://' %}{{ f.header.teaser }}{% else %}{{ f.header.teaser | relative_url }}{% endif %}" alt="{% if f.title %}{{ f.title }}{% endif %}">
             {% if f.header.caption %}
               <span class="archive__item-caption">{{ f.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
             {% endif %}
@@ -62,5 +55,4 @@
       </div>
     </div>
   {% endfor %}
-
 </div>

@@ -10,8 +10,8 @@ header:
   teaser: /assets/images/unsplash/photo-1481966115753-963394378f23.jpg
   caption: 'Beregn hvilestofskifte ud fra fedtfri masse (FFM) 🔥'
 category:
-- Beregnere
-- Kalorieberegnere
+  - Beregnere
+  - Kalorieberegnere
 meta:
   name: "Hvilestofskifte ud fra fedtfri masse (FFM)"
   measures: "hvilestofskifte, BMR, FFM, fedtprocent"
@@ -27,38 +27,20 @@ tools:
     measures: "hvilestofskifte, BMR"
     category: "HealthAndFitnessApplication"
 tags:
-- beregner
-- fedtfri masse
-- cunningham
-- katch-mcardle
-- bmr atlet
+  - beregner
+  - fedtfri masse
+  - cunningham
+  - katch-mcardle
+  - bmr atlet
 last_modified_at: '2026-03-29T00:00:00Z'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781975217303/0x500
-  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
-  title: Exercise Physiology - Nutrition, Energy, and Human Performance
-  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/_9788762813762/0x500
-  alt: Menneskets ernæring
-  title: Menneskets ernæring
-  excerpt: 'Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer,
-    der er nødvendige for opretholdelse af liv. '
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 keywords:
-- bmr fedtfri masse
-- cunningham formel hvilestofskifte
-- katch mcardle beregner
-- hvilestofskifte fedtprocent
-- bmr for atleter
-- basalstofskifte kropskomposition
-- ffm bmr beregning
+  - bmr fedtfri masse
+  - cunningham formel hvilestofskifte
+  - katch mcardle beregner
+  - hvilestofskifte fedtprocent
+  - bmr for atleter
+  - basalstofskifte kropskomposition
+  - ffm bmr beregning
 ---
 
 I denne specialiserede BMR-beregner kan du udregne dit basalstofskifte direkte baseret på din **fedtfrie masse (FFM)** eller **fedtprocent**.
@@ -145,7 +127,7 @@ BMR (kcal/døgn) = 370 + 21,6 * FFM (kg)
 <details markdown="1" class="equation">
   <summary>Nordiska Næringsrekommendationer (1996)</summary>
 
-I [Menneskets Ernæring](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762){: rel='sponsored nofollow noopener' } angives følgende formler til udregning af basalstofskiftet ud fra FFM:
+I Menneskets Ernæring angives følgende formler til udregning af basalstofskiftet ud fra FFM:
 
 - **Basalstofskifte (MJ/døgn)** = $0{,}09 \times \text{FFM (kg)} + 1{,}55$
 
@@ -163,10 +145,14 @@ Dit hvilestofskifte (BMR) angiver kun, hvad din krop forbrænder i fuldstændig 
 
 👉 **Find dit samlede daglige energibehov i vores [Ligevægtsindtag-beregner](/ligevaegtsindtag-beregner/)**
 
+## Bøger om fysiologi og ernæring
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.exercise_physiology_mcardle view="card" %}
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.menneskets_ernaering view="card" %}
+
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
-
-{% include feature_row type="left" %}
 
 - Cunningham, J. J. 1991. “Body composition as a determinant of energy expenditure: a synthetic review and a proposed general prediction equation”. *The American Journal of Clinical Nutrition* 54 (5): 963–69.
 - Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. *Clinical Nutrition* 32 (6): 976–82.

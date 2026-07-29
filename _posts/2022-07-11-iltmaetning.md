@@ -8,21 +8,10 @@ header:
   credit: https://images.unsplash.com/photo-1626851528990-fee2c2e6fadb
   caption: 'Iltmætningsprocent: Hvad er din iltmætning i blodet?'
 category:
-- Fysiologi
+  - Fysiologi
 tags:
-- træning
+  - træning
 last_modified_at: '2022-07-10T10:21:26Z'
-feature_row:
-- image_path: /assets/images/denintelligentekrop.dk/pulsoximeter-cms50d2-700x700-b8436ab3.jpg
-  credit: https://www.denintelligentekrop.dk/media/catalog/product/p/u/pulsoximeter-cms50d2-700x700.jpg
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/pulsoximeter-cms50d2
-  alt: Pulsoximeter til at måle iltmætningsgrad i blodet
-  title: Pulsoximeter CMS50D2
-  excerpt: Pulsoximeteret CMS50D2 er et lille og handy pulsoximeter, der hurtigt og nemt kan måle dit blods iltmætning blot
-    ved at gennemlyse din pegefinger.
-  btn_label: Tjek prisen
-  btn_class: btn--danger
-  rel: sponsored nofollow noopener
 ---
 
 Kun få mennesker ved, hvad deres iltmætningsgrad i blodet er? Iltmætningen i blodet kan give et øjebliksbillede af dit generelle helbred.
@@ -81,7 +70,7 @@ Du kan købe et pulsoximeter overraskende billigt.
 
 Her har du en god vejledning til, hvordan du måler iltmætningsniveauet med et af de mest brugte pulsoximetere.
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.pulsoximeter_cms50d2 view="card" %}
 
 1. Find dit pulsoximeter og sæt dig ved et bord.
 2. Mærk om du har varme fingre - og hold dig i ro i mindst 10 minutter, inden du måler.

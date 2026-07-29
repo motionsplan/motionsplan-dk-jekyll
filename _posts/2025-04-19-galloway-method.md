@@ -1,10 +1,8 @@
 ---
 title: 'Galloway-metoden: The Golden Mile og Run-Walk-Run'
 seo_title: Galloway-metoden – Skiftevis løb og gang i din træning
-description: Galloway-metoden kombinerer løb og gang for at øge udholdenhed og mindske skader. Læs hvordan metoden kan bruges
-  i din træning til løb.
-excerpt: Galloway-metoden kombinerer løb og gang for at øge udholdenhed og mindske skader. Læs hvordan metoden kan bruges
-  i din træning til løb.
+description: Galloway-metoden kombinerer løb og gang for at øge udholdenhed og mindske skader. Læs hvordan metoden kan bruges i din træning til løb.
+excerpt: Galloway-metoden kombinerer løb og gang for at øge udholdenhed og mindske skader. Læs hvordan metoden kan bruges i din træning til løb.
 permalink: /galloway-metoden/
 language: da
 header:
@@ -12,22 +10,12 @@ header:
   credit: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f
   caption: 'Galloway-metoden: The Golden Mile og Run-Walk-Run'
 category:
-- Løb
+  - Løb
 tags:
-- løb
-- løbeprogram
-- træningsfilosofi
+  - løb
+  - løbeprogram
+  - træningsfilosofi
 last_modified_at: '2024-01-13T22:21:26Z'
-feature_row:
-- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-run-walk-run-method_jeff-galloway_paperback_9781782550822
-  image_path: https://imgcdn.saxo.com/_9781782550822/0x500
-  title: Run-Walk-Run Method
-  excerpt: Jeff Galloways injury-free marathon training program has helped hundreds of thousands of runners of all abilities.
-    His training schedules have inspired the second wave of marathoners who follow the Galloway RUN-WALK-RUN, low mileage,
-    three-day suggestions to an over 98% success rate.
-  btn_label: Tjek prisen
-  btn_class: btn--warning
-  rel: sponsored nofollow noopener
 ---
 
 Galloway-metoden veksler mellem løb og gang for at kunne træne længere tid uden at blive træt og derved undgå skader. Og du kan stadig flytte dine personlige rekorder. Her får du en introduktion til metoden, og du kan bruge vores beregner til at udregne dine egne intervaller.
@@ -48,7 +36,7 @@ Lad os dykke ned i det.
 
 ## Hvem er Jeff Galloway?
 
-Jeff Galloway er en tidligere olympisk løber fra USA. Han slog mange løberekorder i 1970'erne, hvor han også fostrede Run-Walk-Run-metoden.
+Jeff Galloway er en tidligere olympisk løber fra USA. Han slag mange løberekorder i 1970'erne, hvor han også fostrede Run-Walk-Run-metoden.
 
 Men det er jo ikke nok at have vundet en række større løb på forskellige distancer. Han forsøgte at sætte sin træning i system, og han opfattes nu som en af de toneangivende løbetrænere i verden. Han er bl.a. en af de coaches, som Garmin bruger til at lave løbeprogrammer.
 
@@ -76,7 +64,7 @@ Acceleration Gliders minder lidt om _strides_ eller stigningsløb. Disse _glider
 
 Run Walk Run er helt grundlæggende i Galloways metode. De lidt længere løb organiseres på denne måde. Vi kommer tilbage til, hvordan træningen skal skrues sammen. Lidt længere nede går vi ekstra i dybden med Run Walk Run-metoden.
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.run_walk_run_method view="card" %}
 
 ### Magic Mile
 

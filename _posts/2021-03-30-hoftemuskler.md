@@ -64,11 +64,11 @@ Jeg har lavet en samlet [liste over alle muskler i kroppen her](/muskler/), hvis
 
 For en komplet hoftetræning bør du både træne stræk, bøjning og sidelæns stabilitet.
 
-{% include motionsplan/exercise key="15" title="Dødløft" %}
+{% include motionsplan/exercise-detail.html key="15" title="Dødløft" %}
 
-{% include motionsplan/exercise key="11" title="Squat" %}
+{% include motionsplan/exercise-detail.html key="11" title="Squat" %}
 
-{% include motionsplan/exercise key="123" title="Glute Bridge" %}
+{% include motionsplan/exercise-detail.html key="123" title="Glute Bridge" %}
 
 ## Konklusion
 

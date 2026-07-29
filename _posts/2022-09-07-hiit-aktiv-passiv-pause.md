@@ -9,55 +9,45 @@ header:
   credit: https://images.unsplash.com/photo-1612032882906-2fa6f7b5f30f
   caption: Aktiv eller passiv pause ved HIIT - hvad er optimalt?
 category:
-- Kondition
+  - Kondition
 tags:
-- kondition
-- træningsprogram
-- træning
-- aerob træning
-- anaerob træning
-- intervaltræning
-- træningsmetode
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781492552123/0x500
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/science-and-application-of-high-intensity-interval-training_paul-laursen_hardback_9781492552123
-  title: Science and Application of High Intensity Interval Training
-  excerpt: Paul Laursen og Martin Buchheit har skrevet _Science and Application of High-Intensity Interval Training_, som
-    er _must-have_ for alle coaches, trænere, fysiologer og researchers, der bruger HIIT - high-intensity interval training
-    - som en del af deres arbejdsområde og laver træning og træningsprogrammer.
-  alt: HIIT - Højintensitets Intervaltræning - træningsprogram - træning
-  btn_label: Tjek prisen*
-  btn_class: btn--info
-  rel: sponsored nofollow noopener
+  - kondition
+  - træningsprogram
+  - træning
+  - aerob træning
+  - anaerob træning
+  - intervaltræning
+  - træningsmetode
 gallery:
-- image_path: /assets/images/pinterest/hiit-47x15.jpg
-  url: /assets/images/pinterest/hiit-47x15.jpg
-  title: HIIT træning
-  alt: HIIT træning
-- image_path: /assets/images/pinterest/hiit-4x4.jpg
-  url: /assets/images/pinterest/hiit-4x4.jpg
-  title: HIIT træningsprogram
-  alt: HIIT træning
-- image_path: /assets/images/pinterest/hiit-4x30.jpg
-  url: /assets/images/pinterest/hiit-4x30.jpg
-  title: HIIT træning
-  alt: HIIT træning
+  - image_path: /assets/images/pinterest/hiit-47x15.jpg
+    url: /assets/images/pinterest/hiit-47x15.jpg
+    title: HIIT træning
+    alt: HIIT træning
+  - image_path: /assets/images/pinterest/hiit-4x4.jpg
+    url: /assets/images/pinterest/hiit-4x4.jpg
+    title: HIIT træningsprogram
+    alt: HIIT træning
+  - image_path: /assets/images/pinterest/hiit-4x30.jpg
+    url: /assets/images/pinterest/hiit-4x30.jpg
+    title: HIIT træning
+    alt: HIIT træning
 language: da
 sidebar:
   nav: methods
 ---
+
 Skal dine pauser i HIIT-træning være aktive eller passive? Hvordan gør du egentlig bedst klar til det næste interval, når det det skal være rigtig hårdt? Få svaret her!
 
 [Høj-intensiv interval træning (HIIT)](/hiit/) er et effektivt træningsværktøj til at forbedre din kondition, når den udføres efter foreskrifterne. 
 
-Træningsprincippet involverer en række høj-intensive arbejdsintervaller, der hver afbrydes af en periode af restitution. Pausen skal  sikre, at man kan opretholde den høje intensitet.
+Træningsprincippet involverer en række høj-intensive arbejdsintervaller, der hver afbrydes af en periode af restitution. Pausen skal sikre, at man kan opretholde den høje intensitet.
 
 Denne træningsform gør det muligt at akkumulere flere høj-intense træningsminutter under et træningspas, end hvis man udførte det som kontinuerlig træning.
 
 HITT er med andre ord knaldhård [intervaltræning](/intervaltraening/).
 
-Her bruger vi HIIT i den oprindelige form og forveksler ikke brugen af begrebet med den  populistiske anvendelse af HIIT i fitness-industrien. Det har vi diskuteret i tidligere artikler om [HIIT-træning](/hiit/) og [Hvad er HIIT-træningsprogrammer](/hvad-er-hiit-traeningsprogrammer/). 
-{: .notice .notice–info }
+Her bruger vi HIIT i den oprindelige form og forveksler ikke brugen af begrebet med den populistiske anvendelse af HIIT i fitness-industrien. Det har vi diskuteret i tidligere artikler om [HIIT-træning](/hiit/) og [Hvad er HIIT-træningsprogrammer](/hvad-er-hiit-traeningsprogrammer/). 
+{: .notice .notice--info }
 
 I programmeringen af HIIT er det oftest arbejdsintensiteten og varigheden af arbejdsintervallerne og restitutionsperioderne, der tildeles mest opmærksomhed i planlægningen.
 
@@ -84,7 +74,7 @@ Lad os kigge på, hvad litteraturen rent faktisk siger om emnet.
 Umiddelbare argumenter for at anvende aktiv restitution mellem arbejdsperioder kunne være:
 
 * Man holder gang i blodomløbet, venepumperne m.m., således at blod og “affaldsstoffer” ikke ophobes i og omkring den arbejdende muskulatur.
-* Man holder gang i et minimum af tråd ogkadence, der gør det nemmere og hurtigere at komme op i intensitet når arbejdsintervallet starter igen. Således starter man ikke fra “nul” ved hvert arbejdsinterval.
+* Man holder gang i et minimum af tråd og kadence, der gør det nemmere og hurtigere at komme op i intensitet, når arbejdsintervallet starter igen. Således starter man ikke fra “nul” ved hvert arbejdsinterval.
 
 Ovenstående argumenter kunne tale for, at aktiv restitution i din intervaltræning sikrer, at du kan yde bedre i dine arbejdsintervaller.
 
@@ -117,7 +107,9 @@ Læs: [Alt om intervalløb](/intervallob-intervaltraening/)
 
 ## Passive pauser genoplader batteriet hurtigere
 
-Martin Buchheit og Paul Laursen behandler også emnet i deres [velskrevne HIIT-bog](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/science-and-application-of-high-intensity-interval-training_paul-laursen_hardback_9781492552123){: rel='sponsored nofollow noopener' }, hvori de anvender et batteri som en analogi for den begrænsede mængde energi (W’) vores muskulatur besidder.
+Martin Buchheit og Paul Laursen behandler også emnet i deres velskrevne bog, hvori de anvender et batteri som en analogi for den begrænsede mængde energi (W’) vores muskulatur besidder.
+
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.hiit_science view="card" %}
 
 Hertil skal restitutionsperioden imellem arbejdsintervaller anses som værende musklernes mulighed for at genoplade batteriet under HIIT. Jo længere restitutionsperioden er, og jo lavere intensitet der arbejdes med i restitutionsperiode, desto bedre forudsætninger har vores muskler for at nå at genoplade batteriet inden næste arbejdsperiode.
 
@@ -210,5 +202,5 @@ Da det ikke vil vælte din intervaltræning, om du vælger aktive eller passive 
 Lidt mere udpenslet er de praktiske anbefalinger:
 
 * Har du planlagt en hård intervaltræning med korte og meget intensive intervaller (eks. 15/15s), hvor du ved, at du bliver udfordret henimod slutningen af træningen, så vil det være anbefalelsesværdigt at lade restitutionsperioderne være passive. Således sikrer du, at du kan gennemføre det planlagte antal intervaller.
-* Har du planlagt en mængde intervaller af omkring 1-3 min. varighed, og relativ kort pause (30s-1 min. pause)  kan du ligeledes med fordel holde dig til passiv restitution mellem dine intervaller. Dette med henblik på at forsøge at optimere tiden tæt ved VO₂peak i dine arbejdsintervaller.
+* Har du planlagt en mængde intervaller af omkring 1-3 min. varighed, og relativ kort pause (30s-1 min. pause) kan du ligeledes med fordel holde dig til passiv restitution mellem dine intervaller. Dette med henblik på at forsøge at optimere tiden tæt ved VO₂peak i dine arbejdsintervaller.
 * Har du planlagt længere intervaller (4 min. eller derover) og tilsvarende længere restitution (på 2-3 min. eller derover) er det sandsynligvis mindre relevant, om du vælger det ene fremfor det andet.

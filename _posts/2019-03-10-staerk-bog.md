@@ -12,32 +12,21 @@ tags:
   - styrkeløft
   - styrketræning
 last_modified_at: 2025-03-10T08:39:32Z
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk - Jacob Beermann"
-    title: "Stærk - Jacob Beermann"
-    excerpt: "Jacob Beermann fortæller i _Stærk_, hvordan du kan gribe styrketræning an i styrkeløft. Du får en god beskrivelse af, hvordan du bygger træning op og udfører de forskellige løft. Med bogen får du også eksklusiv adgang til en Facebookgrupppe, og du får et træningsprogram på 16 uger."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
 gallery:
   - image_path: /assets/images/cdn.shopify.com/IMG_8426_1024x1024-ca1b0452.jpg
     credit: https://cdn.shopify.com/s/files/1/0129/4532/products/IMG_8426_1024x1024.jpg?v=1329043769
     url: https://shop.maxer.dk/products/no-brain-no-gain
     title: "T-shirt lavet af Jacob Beermann"
-    alt:  "T-shirt lavet af Jacob Beermann"
+    alt: "T-shirt lavet af Jacob Beermann"
 gallery_content:
   - image_path: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse-6fc22c02.jpg
     credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse.jpg
     url: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse-6fc22c02.jpg
-    credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse.jpg
     title: "Indholdsfortegnelse til Stærk"
     alt: "Indholdsfortegnelse til Stærk"
   - image_path: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse2-06206062.jpg
     credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse2.jpg
     url: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse2-06206062.jpg
-    credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse2.jpg
     title: "Indholdsfortegnelse til Stærk"
     alt: "Indholdsfortegnelse til Stærk"
 ---
@@ -54,11 +43,9 @@ Du får en rigtig grundig introduktion til, hvordan du kan bygge din styrketræn
 
 Når du køber bogen, får du også et **træningsprogram til styrkeløft** og adgang til en **eksklusiv Facebookgruppe**, hvor læserne af bøgerne deler tips, og hvor Jacob Beermann også er aktiv med at svare på spørgsmål.
 
-"Stærk" viser dig, hvordan du med tålmodighed kan blive rigtig stærk. Du lærer at principperne som **progressivt overload** og **specificitetsprincippet**. Bogen er en rigtig god indføring i styrketræning, og hvis du har forståelse for principperne i bogen, kan det spare dig for rigtig mange ærgelser og fejl, når du starter din træning. Men bogen kan også sagtens bruges af den mere erfarne, hvis du vil finde et godt system for din træning.
+"Stærk" viser dig, hvordan du med tålmodighed kan blive rigtig stærk. Du lærer principperne som **progressivt overload** og **specificitetsprincippet**. Bogen er en rigtig god indføring i styrketræning, og hvis du har forståelse for principperne i bogen, kan det spare dig for rigtig mange ærgelser og fejl, når du starter din træning. Men bogen kan også sagtens bruges af den mere erfarne, hvis du vil finde et godt system for din træning.
 
 Stærk er en virkelig god bog til at blive klogere af, hvis du gerne vil blive stærk i de tre store løft fra styrkeløft.
-
-{% include gallery id="feature_row" %}
 
 ## Video om Stærk
 
@@ -99,7 +86,7 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
    - Jagt forbedringer
    - Kend dig selv og dine tendenser
    - Sæt livet i perspektiv
-6. Alt det udonom træningen
+6. Alt det udenom træningen
    - Kosten er dit brændstof
    - [Søvn](/soevn/)
    - Alkohol
@@ -127,7 +114,7 @@ I programmet er der typisk 5+ sæt i de enkelte løft, hvilket også tager sin t
 
 Programmet er et **procentbaseret styrketræningsprogram**, hvor du starter med at [finde din 1RM-max](/rm-maxtest/) ud fra en 5RM test. Vi har lavet en [1RM-beregner](/rm-beregner/), som kan hjælpe dig.
 
-Programmet følger med, når du køber Stærk hos [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_epub_9788771801842){:rel="sponsored nofollow noopener" class="btn btn--large btn--danger" }
+Programmet følger med, når du køber Stærk hos Saxo.
 
 ## Konklusion
 
@@ -139,4 +126,4 @@ Hvis du kunne lide tankerne her i bogen, så kan du sikkert også lide [Stærk-s
 
 ## Køb Stærk
 
-{% include feature_row type="left" %}
+{% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.staerk_jacob_beermann view="card" %}

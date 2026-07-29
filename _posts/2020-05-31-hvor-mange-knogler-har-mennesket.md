@@ -114,7 +114,7 @@ Herunder finder du en komplet oversigt over kroppens vigtigste knogler med både
 
 Hvis du leder efter de absolut bedste lærebøger til studiet eller detaljerede plancher til at hænge op på væggen, har jeg samlet mine personlige anbefalinger her:
 
-👉 [**Se anbefalinger til anatomibøger og plakater her**](/anatomi/udstyr-og-boeger/)
+👉 [**Se anbefalinger til anatomibøger og plakater her**](/traeningsboeger-boeger-om-traening/#anatomi-og-fysiologi)
 </div>
 
 ## Ofte stillede spørgsmål

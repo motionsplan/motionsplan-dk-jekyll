@@ -24,15 +24,6 @@ meta:
   measures: fedtprocent
 last_modified_at: '2019-03-06T23:14:14Z'
 toc: 'true'
-feature_row:
-- image_path: https://imgcdn.saxo.com/_9781975217303/0x500
-  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
-  title: Exercise Physiology - Nutrition, Energy, and Human Performance
-  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 ---
 
 US Navy har udarbejdet denne metode til at beregne fedtprocenten på baggrund af nogle enkelte målinger, som du let kan lave med et målebånd.
