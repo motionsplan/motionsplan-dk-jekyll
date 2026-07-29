@@ -20,8 +20,8 @@ main:
 #    url: /loebesiden/
   - title: "Træningsøvelser"
     url: /traeningsoevelser/
-  - title: "Udstyr"
-    url: /udstyr/
+#  - title: "Udstyr"
+#    url: /udstyr/
 blog:
   - title: "Populære sider"
     children:
