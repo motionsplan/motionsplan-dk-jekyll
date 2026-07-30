@@ -45,7 +45,7 @@ I en undersøgelse, der involverede 27 basketballspillere opdelt i tre grupper, 
 - **Gruppe 2**: Udførte springtræning med vægtveste svarende til 10-11% af deres kropsvægt.
 - **Gruppe 3**: Var kontrolgruppe og deltog ikke i nogen springtræning.
 
-Deltagerne i gruppe 1 og 2 trænede i 10 uger og blev evalueret på deres evne til at hoppe, målt gennem en såkaldt [counter movement jump](/countermovement-jump-cmj-squat-jump-sj/) og [squat jump-test](/squat-jump-test/). Resultaterne viste, at begge grupper forbedrede deres springevne, men gruppe 2, som anvendte vægtveste, opnåede de bedste resultater.
+Deltagerne i gruppe 1 og 2 trænede i 10 uger og blev evalueret på deres evne til at hoppe, målt gennem en såkaldt [counter movement jump](/countermovement-jump-cmj-squat-jump-sj/#cmj) og [squat jump-test](/countermovement-jump-cmj-squat-jump-sj/#sj). Resultaterne viste, at begge grupper forbedrede deres springevne, men gruppe 2, som anvendte vægtveste, opnåede de bedste resultater.
 
 Deltagerne fulgte denne protokol lavet af Luebbers et al (2003):
 

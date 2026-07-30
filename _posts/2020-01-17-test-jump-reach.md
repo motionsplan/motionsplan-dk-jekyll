@@ -1,5 +1,7 @@
 ---
-title: &title "Jump and Reach: Hvor højt springer du?"
+title: &title "Jump and Reach Test: Mål din funktionelle hoppehøjde"
+seo_title: "Jump and Reach Test (Vertec) – Mål din funktionelle hoppehøjde"
+description: "Guide til Jump and Reach-testen med Vertec. Mål din funktionelle hoppehøjde og rækkevidde med/uden tilløb, højre/venstre ben og 1/2-hånds berøring."
 permalink: /jump-reach/
 language: da
 header:
@@ -16,162 +18,187 @@ tags:
   - fitnesstest
   - anaerob test
   - eksplosivitet
-last_modified_at: 2011-11-19T23:14:14Z
+  - jump and reach
+last_modified_at: '2026-07-30T10:00:00Z'
 toc: true
+faq:
+  - question: Hvad måler en Jump and Reach test?
+    answer: Jump and Reach-testen måler din funktionelle hoppehøjde og eksplosive underkropsstyrke ved at udregne forskellen på din stående rækkehøjde og dit maksimale vertikale hop.
+  - question: Kan man udføre Jump & Reach med tilløb og ét ben?
+    answer: Ja, testen kan udføres både stående og med tilløb, samt med afsæt på to ben eller ét ben (højre/venstre). Det er vigtigt at bruge samme metode hver gang for at kunne sammenligne.
+  - question: Hvad er forskellen på en-hånds og to-hånds rækkevidde?
+    answer: Ved en-hånds rækkevidde kan skulderen og hoften roteres i luften, hvilket giver en højere samlet rækkehøjde. Ved to-hånds berøring (f.eks. volleyball-blokering) er rækkehøjden lavere, da skulderrotation udelukkes.
 meta:
   name: Jump & Reach test
-  measures: springstyrke
+  measures: springstyrke og eksplosivitet
   type: spring test
-  equipment: se testbeskrivelse
+  equipment: Vertec eller basketballplade og målebånd
   max: maksimal test
   direct: direkte test
 ---
 
-Jump & Reach test er en god springtest, som både måler springhøjde og rækkehøjde. Det er en meget funktionel test, som også fortæller noget om din evne til at koordinere, eksplosivitet og relativ styrke.
+**Jump and Reach-testen** er en af de mest udbredte og funktionelle hoppetests inden for idrætsgrene som basketball, volleyball, atletik og amerikansk fodbold (f.eks. i NFL Combine).
 
-Jump & Reach testen er en relativt enkel test at sætte op, men koordinationen med at skulle række op med en arm har naturligvis betydning for resultatet.
+Testen måler forskellen mellem din stående **rækkehøjde** og din **maksimale hoppehøjde**. Den evaluerer ikke kun underkroppens eksplosivitet og relative styrke, men også din evne til at koordinere et kraftfuldt armtræk og afsæt i luften.
 
-[Sargent Jump Testen](/sargent-jump-test/) er en lavpraktisk og gratis måde at lave Jump & Reach-testen på. I dette indlæg forudsætter vi, at du har adgang til en Vertec. Jump & Reach testen er bare en [hoppetest](/springtests-hoppehoejde/).
+<div class="notice--info" markdown="1">
+### 💡 Leder du efter en anden hoppetest?
+* **[Sargent Jump Test](/sargent-jump-test/)** – Den gratis lavpraktiske udgave, som du kan lave mod en bar mur med kridt på fingrene.
+* **[CMJ & Squat Jump](/countermovement-jump-cmj-squat-jump-sj/)** – Videnskabelige springtests på hoppemåtte eller kraftplatform (uden krav om at række op).
+* **[Oversigt over alle springtests](/springtests-hoppehoejde/)** – Se hele kataloget over hoppetests.
+</div>
 
-Du kan læse meget mere om Jump and Reach-testen hos [Science for Sport](https://www.scienceforsport.com/vertec-jump-test/).
+---
+
+## Udstyret: Mål præcist med en Vertec
+
+I professionelle sammenhænge udføres Jump & Reach-testen typisk med en **Vertec**. En Vertec er en høj stang monteret med en række vandrette, drejelige plastiklameller med 1 cm mellemrum.
 
 {% include video provider="youtube" id="85EtdsmFCoY" %}
 
-## Brug en Vertec til målingen
+### Fordele og ulemper ved Vertec:
+* **Fordele:** Giver hurtige, præcise målinger, og atleten kan hoppe helt frit i luften uden at risikere at ramme en væg.
+* **Ulemper:** En professionel Vertec er relativt dyr (typisk over 600 USD). Mange vælger derfor at bygge deres eget [DIY Vertec-projekt](https://www.youtube.com/watch?v=j0pZ75N970A) eller bruge en markeret basketballplade.
 
-En Vertec er en lang stang, som har en masse horisontale flade og lange plader, der kan rotere omkring stangen. Først skal du måle din rækkevidde. Derefter måler man springhøjden ved at se, hvor mange plader du kan skubbe til side.
+---
 
-Det er sjovt at bruge en Vertec, og den kan give hurtige og præcise resultater, når den bliver brugt rigtigt.
+## Mange måder at hoppe på: Tilløb, afsæt og berøring
 
-Ulempen er, at man godt kan snyde med sin rækkehøjde, hvilket gør at man får et højere resultat. En god Vertec er heller ikke billig. Den vil formentlig koste omkring 650 USD. Derfor er det nok de færreste, der vil købe en derhjemme. Men så kan du naturligvis lave dit eget lille [DIY-projekt](https://www.youtube.com/watch?v=j0pZ75N970A).
+Jump and Reach-testen kan skræddersys til specifikke idrætsgrene ved at variere tilløbet, afsætsbenet og berøringsteknikken. 
 
-## Sådan udfører du Jump & Reach-testen
+> **Vigtigt:** Hver variation giver forskellige testresultater. Sørg altid for at **notere den præcise udførelsesform**, så du sammenligner testresultater på et identisk grundlag over tid.
 
-Der er forskellige måder at udføre Jump & Reach testen. Du kan bruge den både med tilløb eller fra stående afsæt.
+### Oversigt over variationer:
+* **1. Tilløb:** Stående (uden tilløb) **eller** med tilløb.
+* **2. Afsæt:** Dobbelt afsæt (2 ben) **eller** enkeltbensafsæt (højre / venstre ben).
+* **3. Berøring:** Én-hånds rækkevidde **eller** to-hånds berøring (begge hænder).
 
-Vi foretrækker følgende fremgangsmåde til at finde springhøjden uanset om du har tilløb eller ej.
+### 1. Med eller uden tilløb
+* **Stående afsæt (uden tilløb):** Standardtesten i f.eks. NFL Combine og generel fitnesstesting. Måler ren eksplosiv underkropskraft uden hjælp fra fremadrettet bevægelsesmængde.
+* **Med tilløb:** Anvendes hyppigt i basketball, volleyball og håndbold. Tilløbet lader atleten konvertere horisontal hastighed til vertikalt løft og resulterer typisk i et mærkbart højere hop.
 
-1. Mål forsøgspersonens rækkehøjde, hvor man rækker så højt som man overhovedet kan. Rækkehøjden måles stående på hele fodfladen. Rækkehøjden noteres.
-2. Lad forsøgspersonen springe så højt som muligt. Denne højde måles.
-3. Nu trækkes rækkehøjden fra springhøjden, og derved har vi et mål for vores "Jump and Reach"-højde.
+### 2. Afsætsteknik (dobbelt afsæt vs. enkeltben)
+* **Dobbelt afsæt (to ben):** Kan udføres både fra stående stilling og fra tilløb (f.eks. med et stem-skridt / plant-step). Giver maksimal udnyttelse af underkroppens samlede muskelmasse.
+* **Enkeltbensafsæt (højre ben eller venstre ben):** Yderst relevant for basketballspillere (layups/dunks) og atletikudøvere (højdespring). Det anbefales altid at teste **både højre og venstre ben separat** for at afdække eventuel sideulighed (asymmetri) i springstyrken.
 
-Du kan se instruktioner til Jump & Reach-testen i nedenstående video.
+### 3. Berøring med hånd (højre, venstre eller begge hænder)
+* **Én-hånds rækkevidde (højre eller venstre hånd):** Standard i de fleste tests. Ved kun at række med én arm kan udøveren rotere skulderen og hoften i luften og opnå den absolut højeste rækkehøjde.
+* **To-hånds rækkevidde (både højre og venstre hånd samtidigt):** Bruges især i volleyball til måling af blokeringshøjde over nettet. Da begge hænder skal røre mærket samtidigt, udelukkes skulderrotation, hvilket resulterer i en lavere målt hoppehøjde end ved én-hånds rækkevidde.
+
+---
+
+## Sådan udfører du testen (trin for trin)
+
+Uanset hvilken kombination af tilløb, afsæt og rækkehånd du vælger, følges disse tre grundlæggende trin:
+
+1. **Mål rækkehøjden:** Stå helt oprejst med flade fødder på jorden ved siden af apparatet. Ræk hånden (eller begge hænder, hvis du tester to-hånds rækkevidde) så højt op som muligt og notér rækkehøjden.
+2. **Udfør hoppet:** Tag afsæt (stående eller med tilløb) og hop så højt som muligt. Slå til lamellerne på Vertec'en (eller marker pladen) i toppunktet af hoppet med den valgte hånd/hænder.
+3. **Beregn resultatet:** Træk din stående rækkehøjde fra din målte springhøjde. Forskellen udgør din *Jump & Reach score*.
 
 {% include video provider="youtube" id="J8qxpUJdxjk" %}
 
-## Udregn hoppehøjde
+---
+
+## 🧮 Beregner: Udregn din Jump & Reach score
+
+Indtast din stående rækkehøjde og din målte hoppehøjde herunder:
 
 {% include calculator/calculate-jump-reach.html %}
 
-## Udregn power på baggrund af Jump & Reach
+---
+
+## Kan man udregne eksplosiv power ud fra hoppehøjden?
+
+Hoppehøjden i sig selv fortæller ikke hele historien om din atletiske ydeevne. En tung udøver, der hopper 60 cm, skal udvikle væsentligt mere kraft end en let udøver, der hopper samme højde.
+
+Det mekaniske arbejde ($W$) for hoppet kan beregnes direkte:
+
+$$W = F \cdot d = (m \cdot g) \cdot d$$
+
+Hvor $m$ er kropsvægten i kg, $g = 9{,}81\text{ m/s}^2$ er tyngdeaccelerationen, og $d$ er hoppehøjden i meter.
+
+For at beregne den reelle mekaniske effekt (Power i Watt) kræves tiden $t$, hvor kraften virker mod underlaget:
+
+$$P = \frac{W}{t}$$
+
+Da tiden i afsættet er vanskelig at måle uden en kraftplatform, benytter man i stedet videnskabeligt validerede formler til at estimere **Peak Power**.
+
+---
+
+## Formler til estimering af Peak Power
+
+### 1. Sayers et al. (1999) – Mest præcise formler
+Sayers et al. påviste, at deres formler gav den mest præcise estimering af Peak Power i Watt:
+
+* **Ved Countermovement Jump (CMJ):**
+
+$$\text{Peak Power (W)} = 51{,}9 \cdot h + 48{,}9 \cdot m - 2007$$
+
+* **Ved Squat Jump (SJ):**
+
+$$\text{Peak Power (W)} = 60{,}7 \cdot h + 45{,}3 \cdot m - 2055$$
+
+*(Hvor $h$ er hoppehøjden i cm, og $m$ er kropsvægten i kg).*
+
+<details markdown="1" class="equation">
+  <summary>Se Harman (1991), Lewis (1974) og Johnson & Bahamonde formler</summary>
+
+#### Harman et al. (1991):
+
+$$\text{Peak Power (W)} = 61{,}9 \cdot h + 36 \cdot m - 1822$$
+
+#### Johnson & Bahamonde (1996) (inkluderer højde):
+
+$$\text{Peak Power (W)} = 78{,}6 \cdot h + 60{,}3 \cdot m - 15{,}3 \cdot \text{højde (cm)} - 1308$$
+
+#### Lewis (1974) (Gennemsnitlig power):
+
+$$\text{Gennemsnitlig Power (kg}\cdot\text{m/s)} = \sqrt{4{,}9} \cdot m \cdot \sqrt{\frac{h}{100}}$$
+
+*(Gang med 9,81 for at omregne til Watt. Bemærk at Lewis underestimerer Peak Power med 6–10%).*
+</details>
+
+---
+
+## 🧮 Beregner: Udregn din Peak Power i Watt
 
 {% include calculator/calculate-vertical-jump-power.html %}
 
-## Kan power udregnes?
+---
 
-I tests med vertikale hop, så bliver kun distancen ofte rapporteret. Dette fortæller imidlertid ikke den fulde historie. En tungere person der hopper den samme højde som en lettere person, skal udvikle meget mere kraft for at bevæge den større kropsvægt.
+## Teknik: Sådan springer du højere med tilløb
 
-Derfor kan det sommetider være interessant at få et mål for _power_ eller arbejde.
-
-Det mekaniske arbejde for at hoppe kan bestemmes med med hoppehøjden.
-
-    Arbejde = Force x Distance
-
-Hvor
-
-    Force = Mass x Acceleration
-
-Power kan imidlertid ikke udregnes:
-
-    Power = Work / time
-
-Vi kender nemlig ikke tiden, hvor kraften reagerede på kropsvægten.
-
-Hvis vi har en kraftplatform, så kan vi måle kraften direkte. Vi har imidlertid ikke altid en kraftplatform til rådighed. Der er i stedet lavet formler til at estimere _force_ fra målinger af vertikale hop. Disse formler er mere eller mindre præcise. Du vil også se, at du får relativt forskellige resultater alt efter, hvilken formel du bruger til at estimere kraften.
-
-## Formler til at udregne power fra hoppehøjde?
-
-Du kan finde formlerne til at udregne power fra hoppehøjder hos [www.topendsports.com](https://www.topendsports.com/testing/vertical-jump-power.htm) og i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx).
-
-Formlerne er så vidt jeg kan se primært skabt på baggrund af hhv. [squat jumps og countermovement jumps](/countermovement-jump-cmj-squat-jump-sj/), men de bruges også jævnligt i forbindelse med Jump and Reach-testen.
-
-Den mest brugte formel ser ud til at være Harman (1991), men den nyere formel fra [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx), hvor de sammenlignede Lewis (1974), Harman (1991) og lavede deres egne formler fandt de, at **[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) egne formler var de mest præcise til at estimere _peak power_**.
-
-<details markdown="1" class="equation">
-  <summary>Se Lewis (1974) formler</summary>
-
-$$
-\text{Gennemsnitlig effekt (kg}\cdot\text{m/s)} = \sqrt{4{,}9} \times \text{kropsvægt (kg)} \times \sqrt{\text{jump-and-reach score (m)}}
-$$
-
-For at få værdien i watt, så skal Power ganges med 9,81, som er tyngdekraften.
-
-[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) fandet at Peak Power blev underestimeret med 6,7-9,9% alt efter om de brugte data fra et CMJ eller et SJ-jump.
-</details>
-
-<details markdown="1" class="equation">
-  <summary>Se Harman (1991) formler</summary>
-
-Peak Power (W) = 61.9 * jump height (cm) + 36 * body mass (kg) - 1822
-
-I den oprindelige reference står der **+ 1822**, men i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx), hvor Harman er co-author, står formlen opgivet til **- 1822**, hvilket får værdierne til at passe meget bedre med de andre formler.
-
-[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) fandet at Peak Power blev underestimeret med 6,7-9,9% alt efter om de brugte data fra et CMJ eller et SJ-jump.
-</details>
-
-<details markdown="1" class="equation">
-  <summary>Se Johnson & Bahmamonde formler</summary>
-
-Peak Power = 78.6 * jump_height + 60.3 * body_mass - 15.3 * height - 1308
-
-Johnson og Bahamonde inkluderer deltagernes højde i formularerne.
-</details>
-
-<details markdown="1" class="equation">
-  <summary>Se Sayers et al (1999) formler</summary>
-
-[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) gennemgik formlerne fra Lewis (1974) og Harman (1991).
-
-I studiet fandt de ud af, at man med fordel kan bruge to forskellige formler alt efter om man laver et Squat Jump eller et Counter Movement Jump.
-
-Ved brug af data fra SJ.
-
-Peak Power = 60.7 * jump_height + 45.3 * body_mass - 2055;
-
-Ved brug fra CMJ.
-
-Peak Power = 51.9 * jump_height + 48.9 * body_mass - 2007;
-</details>
-
-## Sådan springer du højere med tilløb?
-
-Hvis du sørger for en god teknik, så kan du springe højere med tilløb. Se fx de gode råd i denne Youtube-video.
+Hvis din sport tillader tilløb (f.eks. basketball eller volleyball), kan en optimeret tilløbsteknik øge din hoppehøjde markant ved at omdanne den horisontale hastighed til vertikalt afsæt.
 
 {% include video provider="youtube" id="51yEI3snWmI" %}
 
-Det er også godt at tænke på, hvilken strategi du bruger i luften for at manipulere dit tyngdepunkt. Hvis du sørger for at have så meget af kroppen nede, så kan du springe højere.
+Vær også opmærksom på din kropspositionering i luften. Ved at holde den ikke-strækkende arm og hovedet i en hensigtsmæssig vinkel kan du optimere dit tyngdepunkt i forhold til rækkerækkevidden:
 
 {% include video provider="youtube" id="KNtoP1P2dUA" %}
 
+---
+
 ## Hvor bruges Jump & Reach?
 
-Jump & Reach bruges bl.a. i NFL Combine. Denne version foregår uden tilløb, men med fuldt armtræk.
+Jump & Reach testen anvendes i adskillige professionelle ligaer. I **NFL Combine** testes alle spillere uden tilløb, men med fuldt armtræk.
 
 {% include video provider="youtube" id="mKZCqWMQmVI" %}
 
-Topendsports har samlet en række [hoppehøjder for forskellige personer](https://www.topendsports.com/testing/results/vertical-jump.htm), og de foreslår også [normer for hoppehøjden i Jump & Reach uden tilløb](https://www.topendsports.com/testing/norms/vertical-jump.htm).
+Du kan læse mere om [normer for vertikale hop hos Topend Sports](https://www.topendsports.com/testing/results/vertical-jump.htm). 
 
-Zach LaVine springer her 116 cm i en etbenet jump & reach-test med tilløb.
+Vil du forbedre dit hop? Læs vores dybdegående artikel om **[springstyrke og springtræning](/springstyrke-og-springtraening/)**.
 
-<iframe src="https://vine.co/v/MDmK2MaeV3P/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
+---
 
-Du kan læse mere om [springstyrke, at hoppe højere og eksplosivitet her](/springstyrke-og-springtraening/).
+## FAQ - Ofte stillede spørgsmål om Jump & Reach
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- [Vertec Jump Test](https://www.scienceforsport.com/vertec-jump-test/)
-- Harman, Everett, Michael Rosenstein, Peter Frykman, Richard Rosenstein, og William Kraemer. 1991. “Estimation of Human Power Output from Vertical Jump”. Journal of Strength and Conditioning Research 5 (3): 116–20.
-- Johnson, Doug, og Rafael Bahamonde. 1996. “Power Output Estimate in University Athletes”. Journal of Strength and Conditioning Research 10 (3): 161–66.
-- Sayers, S. P., D. V. Harackiewicz, E. A. Harman, P. N. Frykman, og M. T. Rosenstein. 1999. “Cross-Validation of Three Jump Power Equations”. Medicine and Science in Sports and Exercise 31 (4): 572–77. https://doi.org/10.1097/00005768-199904000-00013.
+- **Science for Sport.** [Vertec Jump Test Guide](https://www.scienceforsport.com/vertec-jump-test/).
+- **Sayers, S. P., et al.** (1999). *Cross-Validation of Three Jump Power Equations.* Medicine and Science in Sports and Exercise, 31(4), 572-577.
+- **Harman, E., et al.** (1991). *Estimation of Human Power Output from Vertical Jump.* Journal of Applied Sport Science Research, 5(3), 116-120.
+- **Johnson, D., & Bahamonde, R.** (1996). *Power Output Estimate in University Athletes.* Journal of Strength and Conditioning Research, 10(3), 161-166.
 </details>
