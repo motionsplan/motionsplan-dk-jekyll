@@ -3,6 +3,8 @@ title: &title "Countermovement Jump (CMJ) & Squat Jump: Test din eksplosivitet"
 seo_title: "Countermovement Jump (CMJ) & Squat Jump – Test eksplosivitet"
 description: "Komplet guide til vertikale hoppetests: Countermovement Jump (CMJ), Squat Jump (SJ) og Abalakov-test. Mål din eksplosivitet og sammenlign resultater."
 permalink: /countermovement-jump-cmj-squat-jump-sj/
+redirect_from:
+  - /squat-jump-test/
 language: da
 header:
   overlay_image: /assets/images/i.ytimg.com/maxresdefault-06f8a2b2.jpg
