@@ -1,26 +1,35 @@
 ---
-# Just for development
 layout: null
 ---
 [
   {% for exercise in site.exercises %}
-  {
-    "title": {{ exercise.title | jsonify }},
-    "id": {{ exercise.id | default: "" | jsonify }},
-    "key": {{ exercise.key | default: "" | jsonify }},
-    "excerpt": {{ exercise.excerpt | default: "" | jsonify }},
-    "description": {{ exercise.description | default: "" | jsonify }},
-    "permalink": {{ exercise.permalink | jsonify }},
-    "tags": {{ exercise.tags | default: empty | jsonify }},
-    "categories": {{ exercise.categories | default: empty | jsonify }},
-    "training_type": {{ exercise.training_type | default: empty | jsonify }},
-    "training_focus": {{ exercise.training_focus | default: empty | jsonify }},
-    "equipment": {{ exercise.equipment | default: empty | jsonify }},
-    "muscle_group": {{ exercise.muscle_group | default: empty | jsonify }},
-    "gallery_pics_no": {{ exercise.gallery.size | default: empty | jsonify }},
-    "icon": {{ exercise.icon | default: "" | jsonify }},
-    "gallery_video": {{ exercise.video | default: empty | jsonify }},    
-    "word_count": {{ exercise.content | strip_html | number_of_words }}
-  }{% unless forloop.last %},{% endunless %}
+    {
+      "id": {{ exercise.slug | default: exercise.title | slugify | jsonify }},
+      "name": {{ exercise.title | strip_html | jsonify }},
+      "url": {{ exercise.url | relative_url | jsonify }},
+      "category": {% if exercise.categories %}{{ exercise.categories | jsonify }}{% elsif exercise.category %}{{ exercise.category | jsonify }}{% else %}[]{% endif %},
+      "featured": {% if exercise.tags contains "featured" %}true{% else %}false{% endif %},
+      "equipment": {% if exercise.equipment %}{{ exercise.equipment | jsonify }}{% else %}[]{% endif %},
+      "primaryMuscles": {% if exercise.muscle_group %}{{ exercise.muscle_group | jsonify }}{% else %}[]{% endif %},
+      "secondaryMuscles": {% if exercise.secondary_muscles %}{{ exercise.secondary_muscles | jsonify }}{% else %}[]{% endif %},
+      "images": [
+        {% if exercise.gymvisual_id %}
+          {{ "/assets/images/gymvisual/" | append: exercise.gymvisual_id | append: ".gif" | relative_url | jsonify }}
+        {% elsif exercise.gallery and exercise.gallery.size > 0 %}
+          {% for img in exercise.gallery %}
+            {% assign img_path = img.image_path | default: img.url %}
+            {% if img_path contains "://" %}
+              {{ img_path | jsonify }}
+            {% else %}
+              {{ img_path | relative_url | jsonify }}
+            {% endif %}{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        {% elsif exercise.header.teaser %}
+          {{ exercise.header.teaser | relative_url | jsonify }}
+        {% elsif exercise.teaser %}
+          {{ exercise.teaser | relative_url | jsonify }}
+        {% endif %}
+      ]
+    }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

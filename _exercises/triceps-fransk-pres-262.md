@@ -18,7 +18,7 @@ training_focus: []
 equipment:
   - vægtstang
 muscle_group:
-  - triceps
+  - Triceps
 alternative_titles:
   - Albuestræk stang
 gallery:

@@ -3,233 +3,201 @@ layout: single
 permalink: /traeningsoevelser/
 redirect_from:
   - /exercise-search/
-title: &title "Træningsøvelser: De bedste øvelser til træning 🏋"
-seo_title: "Træningsøvelser – styrke, udstrækning, yoga og balance"
-excerpt: "Vi har samlet de bedste træningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio."
-description: "Find træningsøvelser til styrke, udstrækning, yoga og balance. Få inspiration til øvelser, der forbedrer din mobilitet, stabilitet og styrke."
+title: "Træningsøvelser 🏋️‍♂️"
+seo_title: "Træningsøvelser – Styrketræning, udstrækning, mave & ben"
+excerpt: "Komplet overblik over træningsøvelser. Find øvelser til styrketræning, hjemmetræning, udstrækning og mobilitet."
+description: "Find træningsøvelser til styrke, udstrækning, yoga og balance. Få inspiration til øvelser, der forbedrer din mobilitet og styrke."
 comments: false
-author_profile: true
-gallery:
-  - image_path: /assets/images/i.pinimg.com/3f17845a79b4552c5fbbcbd584d1c36a-cca30250.jpg
-    credit: https://i.pinimg.com/564x/3f/17/84/3f17845a79b4552c5fbbcbd584d1c36a.jpg
-    url: /assets/images/i.pinimg.com/3f17845a79b4552c5fbbcbd584d1c36a-cca30250.jpg
-    credit: https://i.pinimg.com/564x/3f/17/84/3f17845a79b4552c5fbbcbd584d1c36a.jpg
-    alt: *title
-    title: *title
-    data_pin_id: 579768152024756849
+author_profile: false
 sidebar:
   nav: exercises
-toc: true
-category:
-  - Træning
+toc: false
 breadcrumbs: true
 classes: wide
 ---
 
-Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
+Velkommen til det samlede overblik over **{{ site.exercises.size }} træningsøvelser**. Vælg en muskelgruppe eller træningsform herunder for at se øvelserne.
 
-Hvis du er på udkig efter [maveøvelser](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [brystøvelser](/brystoevelser/), [balleøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/), [skulderøvelser](/skulderoevelser/), så har vi lavet en selvstændig side om de muskelgrupper. Vi har også skrevet selvstændigt om [balanceøvelser](/balancetraening/), [coretræning](/core/) eller [udstrækningsøvelser](/udstraekning-udspaending/).
+**🏋️‍♂️ Leder du specifikt efter styrketræningsøvelser?** Hvis du vil opbygge et styrkeprogram til muskelvækst eller kropsstyrke, har vi samlet en komplet guide med alle [styrketræningsøvelser](/styrketraeningsoevelser/) opdelt efter bevægemønstre og udstyr.
+{: .notice--info}
 
-**Hvis ud gerne vil hjælpe med at forbedre beskrivelserne, eller der mangler den helt perfekte øvelse, så skriv endelig.**
+---
 
-## Forskellige træningsformer
+<style>
+  .mp-category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    margin: 1.2rem 0 2.5rem 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-{% assign site_posts = site.posts | where: "category", "Træning" | where: "tags", "moc" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+  .mp-category-card {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 16px 18px;
+    text-decoration: none !important;
+    color: #1e293b !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  }
+
+  .mp-category-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    border-color: #2563eb;
+    background-color: #f8fafc;
+  }
+
+  .mp-category-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .mp-category-excerpt {
+    font-size: 0.85rem;
+    color: #64748b;
+    line-height: 1.4;
+    margin: 0;
+  }
+</style>
+
+## 🏋️‍♂️ Vælg muskelgruppe
+
+<div class="mp-category-grid">
+  <a href="/maveoevelser/" class="mp-category-card">
+    <div class="mp-category-title">🏋️ Mave & Core</div>
+    <p class="mp-category-excerpt">Planken, rollouts, hanging leg raises m.m.</p>
+  </a>
+
+  <a href="/brystoevelser/" class="mp-category-card">
+    <div class="mp-category-title">🏋️‍♂️ Bryst</div>
+    <p class="mp-category-excerpt">Bænkpres, push-ups, incline pres m.m.</p>
+  </a>
+
+  <a href="/rygoevelser/" class="mp-category-card">
+    <div class="mp-category-title">💪 Ryg & Vinger</div>
+    <p class="mp-category-excerpt">Pull-ups, bent over rows, dødløft m.m.</p>
+  </a>
+
+  <a href="/benoevelser/" class="mp-category-card">
+    <div class="mp-category-title">🦵 Ben & Forlår</div>
+    <p class="mp-category-excerpt">Squat, leg extensions, benpres m.m.</p>
+  </a>
+
+  <a href="/balleoevelser/" class="mp-category-card">
+    <div class="mp-category-title">🍑 Baller & Bagkæde</div>
+    <p class="mp-category-excerpt">Hip thrusts, glute bridges, nordic hamstring m.m.</p>
+  </a>
+
+  <a href="/hofteoevelser/" class="mp-category-card">
+    <div class="mp-category-title">🧘 Hofte & Hoftebøjer</div>
+    <p class="mp-category-excerpt">Mobilitet, 90/90 stræk, Copenhagen plank og hoftebøjere.</p>
+  </a>
+
+  <a href="/skulderoevelser/" class="mp-category-card">
+    <div class="mp-category-title">🏋️‍♀️ Skuldre</div>
+    <p class="mp-category-excerpt">Military press, lateral raises, facepulls m.m.</p>
+  </a>
+
+  <a href="/arme-triceps-biceps/" class="mp-category-card">
+    <div class="mp-category-title">💪 Arme</div>
+    <p class="mp-category-excerpt">Biceps curls, fransk pres, dips, kabeltræk m.m.</p>
+  </a>
+</div>
+
+---
+
+## ⚡ Øvelser efter funktion
+
+<div class="mp-category-grid">
+  <a href="/knaedominante-oevelser/" class="mp-category-card">
+    <div class="mp-category-title">🦵 Knædominante</div>
+    <p class="mp-category-excerpt">Squat, lunges, step-ups og knæstrækkere.</p>
+  </a>
+
+  <a href="/hoftedominante-oevelser/" class="mp-category-card">
+    <div class="mp-category-title">🍑 Hoftedominante</div>
+    <p class="mp-category-excerpt">Dødløft, RDL, hip thrust og hip hinge.</p>
+  </a>
+
+  <a href="/traekoevelser/" class="mp-category-card">
+    <div class="mp-category-title">🪝 Trækøvelser</div>
+    <p class="mp-category-excerpt">Horisontale og vertikale træk som rows og pulldowns.</p>
+  </a>
+
+  <a href="/presoevelser/" class="mp-category-card">
+    <div class="mp-category-title">➡️ Presøvelser</div>
+    <p class="mp-category-excerpt">Bænkpres, skulderpres, dips og push-ups.</p>
+  </a>
+</div>
+
+---
+
+## 🧘 Smidighed, Balance & Massage
+
+<div class="mp-category-grid">
+  <a href="/balancetraening/" class="mp-category-card">
+    <div class="mp-category-title">⚖️ Balance & Stabilitet</div>
+    <p class="mp-category-excerpt">Skadesforebyggelse, ankler, knæ og kropskontrol.</p>
+  </a>
+
+  <a href="/udstraekning-udspaending/" class="mp-category-card">
+    <div class="mp-category-title">🤸 Udstrækning & Smidighed</div>
+    <p class="mp-category-excerpt">Dynamiske og statiske stræk for øget mobilitet.</p>
+  </a>
+
+  <a href="/foamrolling-foamroller-lacrossebolde/" class="mp-category-card">
+    <div class="mp-category-title">🎾 Foamrolling & SMR</div>
+    <p class="mp-category-excerpt">Egenmassage, triggerpunkter og udspænding.</p>
+  </a>
+</div>
+
+---
+
+## 🔍 Søg direkte i alle øvelser
+
+{% include components/exercises-table.html %}
+
+---
+
+## 🌟 Udvalgte guides
+
+<div class="feature__wrapper">
+
+{% assign featured_exercises = site.exercises | where: "tags", "featured" | sort: "title" %}
+
+{% if featured_exercises.size > 0 %}
+  {% for post in featured_exercises limit: 4 %}
+    {% include_cached archive-single.html post=post type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## 🎯 Forskellige træningsformer
+
+Udforsk vores overordnede guides til de mest populære træningsformer – fra cirkeltræning og hypertrofiprogrammer til udendørstræning og cardio.
 
 <div class="feature__wrapper" markdown="1">
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
+{% assign training_forms = site.posts | where: "category", "Træning" | where: "tags", "moc" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+
+{% if training_forms.size > 0 %}
+  {% for post in training_forms limit: 4 %}
     {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
-[Se alle træningsformer](/traeningsformer/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Senest opdaterede øvelser
-
-Her kan du se de nyeste træningsøvelser.
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.exercises | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Træningsøvelser efter muskelgrupper
-
-<details markdown="1" class="faq">
-  <summary>🏋️ Maveøvelser, mavetræning og coretræning</summary>
-
-Vi har en lang række maveøvelser, der styrker din core og kropsstamme. Øvelserne kan udføres med kropsvægt, håndvægte, elastikker, bolde eller hjul. 
-
-Læs mere om [coretræning](/core/) og [fedttab på maven](/tab-fedt-paa-maven/).
-
-[Se alle maveøvelser](/maveoevelser/).
-</details>
-
-<details markdown="1" class="faq">
-  <summary>💪 Armøvelser (biceps, triceps, underarme)</summary>
-
-Vi har samlet de bedste armøvelser til biceps, triceps og underarme – både med frie vægte og kropsvægt. 
-
-Læs mere om [armøvelser her](/arme-triceps-biceps/).
-</details>
-
-<details markdown="1" class="faq">
-  <summary>🦵 Benøvelser (squat, lunges, benpres)</summary>
-
-Bentræning kan foregå både med frie vægte og maskiner. Squat, lunges og dødløft er fundamentale øvelser, men vi dækker også leg extensions, benpres og træning med Safety Squat Bar.
-
-[Tjek alle benøvelser](/benoevelser/).
-</details>
-
-<details markdown="1" class="faq">
-  <summary>🏋️‍♂️ Brystøvelser (bænkpres, push-ups)</summary>
-
-Træn dit bryst effektivt med vægtstang, håndvægte, kabler eller elastikker. Vi guider dig til den bedste teknik og variation.
-
-[Se alle brystøvelser](/brystoevelser/).
-</details>
-
-<details markdown="1" class="faq">
-  <summary>🍑 Balleøvelser (hip thrust, glute bridge)</summary>
-
-Ballemusklerne arbejder i mange bevægelser. Vi har samlet de mest effektive øvelser, som du kan lave både hjemme og i træningscenteret.
-
-[Se alle balleøvelser](/balleoevelser/).
-</details>
-
-<details markdown="1" class="faq">
-  <summary>💪 Rygøvelser (pull-ups, dødløft, rows)</summary>
-
-Din ryg skal udfordres med effektive øvelser. Rows og pull-ups træner ryggen i både horisontale og vertikale træk, mens dødløft aktiverer hele bagsiden.
-
-[Se alle rygøvelser](/rygoevelser/).
-</details>
-
-<details markdown="1" class="faq">
-  <summary>🏋️‍♀️ Skulderøvelser (militærpres, lateral raises)</summary>
-
-Skuldertræning kræver en god balance mellem styrke og stabilitet. Læs om træning af bagskulderen, rotatormanchetten og variationer af presøvelser.
-
-[Se alle skulderøvelser](/skulderoevelser/).
-</details>
-
-<details markdown="1" class="faq">
-  <summary>⚖️ Balanceøvelser (single-leg stance, bosu-træning)</summary>
-
-Balancetræning er vigtigt for skadesforebyggelse og stabilitet. Vi gennemgår de bedste balanceøvelser, du kan integrere i din træning for at forbedre din [balanceevne](/balance/).
-
-[Læs mere om balance og balanceøvelser](/balancetraening/).
-</details>
-
-## Træningsøvelser efter funktion
-
-<details markdown="1" class="faq">
-  <summary>🦵 Knædominante øvelser (squat, lunges)</summary>
-
-Knædominerede øvelser aktiverer forlår, baglår og baller. Squat og lunges er essentielle for underkropsstyrke.
-
-[Se knædominante øvelser](/knaedominante-oevelser/)
-</details>
-
-<details markdown="1" class="faq">
-  <summary>🍑 Hoftedominante øvelser (dødløft, hip hinge)</summary>
-
-Hoftedominerede øvelser fokuserer på baglår, baller og den nedre ryg. En korrekt hip hinge-teknik er afgørende for at løfte tungt uden at overbelaste ryggen.
-
-[Se hoftedominante øvelser](/hoftedominante-oevelser/)
-</details>
-
-<details markdown="1" class="faq">
-  <summary>🪝 Trækøvelser (rows, pull-ups)</summary>
-
-Trækøvelser træner øvre ryg, skuldre og biceps. Vi ser på både horisontale træk som barbell row og vertikale træk som pull-ups.
-
-[Se alle trækøvelser](/traekoevelser/)
-</details>
-
-<details markdown="1" class="faq">
-  <summary>➡️ Presøvelser (bænkpres, skulderpres)</summary>
-
-Presøvelser styrker bryst, skuldre og triceps. Horisontale pres involverer bænkpres, mens vertikale pres inkluderer skulderpres og dips.
-
-[Se alle presøvelser](/presoevelser/)
-</details>
-
-<details markdown="1" class="faq">
-  <summary>🏋️ Coreøvelser (planke, hanging leg raises)</summary>
-
-Core-træning handler om stabilitet i mave, bækken og ryg. Vi gennemgår både statiske og dynamiske øvelser.
-
-[Se alle coreøvelser](/core/)
-</details>
-
-<details markdown="1" class="faq">
-  <summary>🔄 Rotation og anti-rotation (Russian twists, Pallof press)</summary>
-
-Rotationsøvelser træner skrå mavemuskler, mens anti-rotation styrker kropsstabiliteten.
-</details>
-
-<details markdown="1" class="faq">
-  <summary>🚶 Bæreøvelser (farmer’s walk, bear hug walk)</summary>
-
-Bæreøvelser forbedrer grebsstyrke, corestabilitet og kropskontrol. Farmer’s walk og bear hug walk er gode eksempler.
-</details>
-
-## Typer træningsøvelser
-
-<details markdown="1" class="faq">
-  <summary>🤸 Stræk- og smidighedsøvelser (dynamisk og statisk udstrækning)</summary>
-
-Udstrækning bruges i mange idrætsgrene. Dynamiske øvelser forbedrer bevægelighed, mens statiske øger fleksibilitet.
-
-[Læs mere om strækøvelser og smidighedstræning](/udstraekning-udspaending/)
-</details>
-
-<details markdown="1" class="faq">
-  <summary>🎾 Foamrolling og trigger point-massage</summary>
-
-Foamrolling løsner spændte muskler og trigger points. Lacrossebolde kan bruges til mere præcis massage.
-
-[Læs mere om foamrolling og self-myofascial release](/foamrolling-foamroller-lacrossebolde/).
-</details>
-
-## Artikler om træningsøvelser
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "tags", "træningsøvelse" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Alle {{ site.exercises.size }} træningsøvelser til træning
-
-Vi har i alt samlet {{ site.exercises.size }} træningsøvelser, som du kan bruge i din træning.
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.exercises | sort: "title" %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
+[Se alle træningsformer](/traeningsformer/){: .btn .btn--success }
 
 </div>

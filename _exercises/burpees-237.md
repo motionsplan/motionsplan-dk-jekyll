@@ -26,7 +26,7 @@ training_focus:
 equipment:
   - kropsvægt
 muscle_group:
-  - hele kroppen
+  - Helkropsøvelse
 alternative_titles:
   - burpee
 gallery:

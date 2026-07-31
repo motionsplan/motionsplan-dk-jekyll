@@ -21,7 +21,7 @@ training_focus: []
 equipment:
   - håndvægte
 muscle_group:
-  - Skulder
+  - Skuldre
 gallery:
   - url: /assets/images/exercises/skulderpres-vaegte-0.jpg
     image_path: /assets/images/exercises/skulderpres-vaegte-0-320.jpg

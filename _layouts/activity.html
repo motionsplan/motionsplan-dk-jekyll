@@ -23,21 +23,14 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
-{% comment %}
-author
-thumbnailUrl
-video
-image
-url
-{% endcomment %}
-
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% assign edit_url = 'https://github.com/{{site.repository}}/edit/master/' | append: page.path | absolute_url %}
+          
           {% assign edit_url = '/admin/#/collections/exercises/entries/' | append: page.slug | absolute_url %}
-          <p><a href="{{ edit_url }}" rel="nofollow noopener"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
+          <p class="page__meta-edit"><a href="{{ edit_url }}" rel="nofollow noopener"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
+
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
@@ -54,12 +47,65 @@ url
           </aside>
         {% endif %}
 
-        {{ page.excerpt | markdownify }}
-
-        <hr>
-
+        {% comment %} Håndtering af video {% endcomment %}
         {% if page.video %}
-          {% include video provider=page.video.provider id=page.video.id %}
+          <div class="exercise-video-wrapper" style="margin-bottom: 1.5em;">
+            {% include video provider=page.video.provider id=page.video.id %}
+          </div>
+        {% elsif page.gallery_video.id and page.gallery_video.provider %}
+          <div class="exercise-video-wrapper" style="margin-bottom: 1.5em;">
+            {% include video provider=page.gallery_video.provider id=page.gallery_video.id %}
+          </div>
+        {% endif %}
+
+        {% comment %} Excerpt tjek (udskrives kun hvis det ikke allerede står i content) {% endcomment %}
+        {% if page.excerpt %}
+          {% unless content contains page.excerpt %}
+            <div class="archive__item-teaser-lead">
+              {{ page.excerpt | markdownify }}
+            </div>
+          {% endunless %}
+        {% endif %}
+
+        {% comment %} Metadata tjek uden syntaksfejl {% endcomment %}
+        {% assign has_muscles = false %}
+        {% if page.muscle_group != blank and page.muscle_group.size > 0 %}
+          {% assign has_muscles = true %}
+        {% endif %}
+
+        {% assign has_equipment = false %}
+        {% if page.equipment != blank and page.equipment.size > 0 %}
+          {% assign has_equipment = true %}
+        {% endif %}
+
+        {% assign has_type = false %}
+        {% if page.training_type != blank and page.training_type.size > 0 %}
+          {% assign has_type = true %}
+        {% endif %}
+
+        {% assign has_focus = false %}
+        {% if page.training_focus != blank and page.training_focus.size > 0 %}
+          {% assign has_focus = true %}
+        {% endif %}
+
+        {% if has_muscles or has_equipment or has_type or has_focus %}
+          <div class="notice--info exercise-meta-box" style="margin: 1.5em 0;">
+            <h4 style="margin-top: 0;"><i class="fas fa-list-ul"></i> Fakta om øvelsen</h4>
+            <ul style="list-style: none; padding-left: 0; margin-bottom: 0;">
+              {% if has_muscles %}
+                <li><strong><i class="fas fa-child"></i> Muskelgruppe:</strong> {{ page.muscle_group | array_to_sentence_string: "og" }}</li>
+              {% endif %}
+              {% if has_equipment %}
+                <li><strong><i class="fas fa-dumbbell"></i> Udstyr:</strong> {{ page.equipment | array_to_sentence_string: "og" }}</li>
+              {% endif %}
+              {% if has_type %}
+                <li><strong><i class="fas fa-heartbeat"></i> Træningsform:</strong> {{ page.training_type | array_to_sentence_string: "og" }}</li>
+              {% endif %}
+              {% if has_focus %}
+                <li><strong><i class="fas fa-bullseye"></i> Træningsfokus:</strong> {{ page.training_focus | array_to_sentence_string: "og" }}</li>
+              {% endif %}
+            </ul>
+          </div>
         {% endif %}
 
         {{ content }}
@@ -68,35 +114,39 @@ url
           {% include gallery id="gallery" %}
         {% endif %}
 
-        {% if page.alternative_titles.size > 0 %}
-          <p><strong>Alternative navne</strong>: {{ page.alternative_titles | join: ", " }}</p>
+        {% if page.alternative_titles != blank and page.alternative_titles.size > 0 %}
+          <p class="notice"><strong>Alternative navne:</strong> {{ page.alternative_titles | join: ", " }}</p>
         {% endif %}
 
-        <div>
-          {% if page.muscle_group and page.muscle_group != "" and page.muscle_group.size > 0 %}
-            <strong>Muskelgruppe</strong>: {{ page.muscle_group | join: ", " }}<br />
-          {% endif %}
-          {% if page.training_type and page.training_type != "" and page.training_type.size > 0 %}
-            <strong>Træningsform</strong>: {{ page.training_type | join: ", " }}<br />
-          {% endif %}
-          {% if page.training_focus and page.training_focus != "" and page.training_focus.size > 0 %}
-            <strong>Træningsfokus</strong>: {{ page.training_focus | join: ", " }}<br />
-          {% endif %}
-          {% if page.equipment and page.equipment != "" and page.equipment.size > 0 %}
-            <strong>Udstyr</strong>: {{ page.equipment | join: ", " }}<br />
-          {% endif %}
-        </div>
+        {% comment %} Tjek for PDF-download {% endcomment %}
+        {% capture pdf_filename %}{{ page.path | replace: "_exercises/", "" | replace: ".md", "" }}.pdf{% endcapture %}
+        {% capture pdf_path %}/assets/pdf/exercises/{{ pdf_filename }}{% endcapture %}
+        {% assign file_exists = site.static_files | where: "path", pdf_path %}
 
-        {% capture path %}/assets/pdf/exercises/{{ page.path | replace: "_exercises/", "" | replace: ".md", "" }}.pdf{% endcapture %}
-        {% assign file_exists = site.static_files | where: "path", path %}
-
-        {% if file_exists.size != 0 %}
-        <div style="margin-top: 1em;">
-          <a href="{{ path }}" rel="nofollow" class="btn btn--danger btn--large"><i class="far fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].pdf_label | default: "Download PDF" }}</a>
-        </div>
+        {% if file_exists.size > 0 %}
+          <div style="margin: 1.5em 0;">
+            <a href="{{ pdf_path | relative_url }}" rel="nofollow" class="btn btn--danger btn--large">
+              <i class="far fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].pdf_label | default: "Download PDF" }}
+            </a>
+          </div>
         {% endif %}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      
+
+        {% if page.link %}
+          <div style="margin-top: 1em;">
+            <a href="{{ page.link }}" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+              {{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}
+            </a>
+          </div>
+        {% endif %}
+
+        {% comment %} Link til Master Hub ift. udstyr {% endcomment %}
+        {% if page.equipment contains "bildæk" %}
+          <div class="notice--warning" style="margin-top: 2em;">
+            <h4><i class="fas fa-tree"></i> Vil du træne udendørs?</h4>
+            <p>Denne øvelse er en del af vores samlede guide til <strong><a href="/artikler/dogmefitness/">Dogmefitness og Outdoor Fitness</a></strong>. Se alle øvelser med bildæk og udendørsudstyr her.</p>
+          </div>
+        {% endif %}
+
         {% assign signup = page.signup | default: site.signup.enabled %}
         {% if signup %}{% include_cached motionsplan/signup.html %}{% endif %}
       </section>
@@ -119,7 +169,6 @@ url
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
@@ -129,7 +178,6 @@ url
         {% endfor %}
       </div>
     </div>
-  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
   {% elsif page.id and page.related %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>

@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /presoevelser/
-title: 'Presøvelser: Effektive styrketræningsøvelser til at træne pres'
+title: 'Presøvelser: Effektive styrketræningsøvelser til at træne pres 🏋️‍♂️'
 seo_title: 'Presøvelser: Effektive øvelser til at træne pres'
 author_profile: 'true'
 classes: wide
@@ -17,6 +17,12 @@ breadcrumbs: 'true'
 sidebar:
   nav: exercises
 ---
+
+**🏋️‍♂️ Leder du specifikt efter brystøvelser eller skuldertræning?**  
+Presøvelser dækker over alle skubbebevægelser for overkroppen. Hvis du leder specifikt efter øvelser til brystmusklen, bænkpres-varianter eller skuldertræning, anbefaler vi vores dedikerede guides:  
+👉 **[Gå til overblik over Brystøvelser &rarr;](/brystoevelser/)**  
+👉 **[Gå til overblik over Skulderøvelser &rarr;](/skulderoevelser/)**
+{: .notice--info}
 
 Presøvelser udgør den ene halvdel af alle overkropsbevægelser i [styrketræning](/styrketraening/) og er fundamentet i det klassiske *Push/Pull*-træningskoncept. En presøvelse defineres ved, at du skubber en belastning væk fra kroppen – eller skubber din kropsvægt væk fra et underlag eller et redskab.
 
@@ -53,25 +59,15 @@ Når du udfører en presøvelse, samarbejder flere muskelgrupper i et komplekst 
 
 1. **Undgå at "flare" albuerne 90° ud til siden:** At lade albuerne peges helt ud til siden i et fladt bænkpres eller militærpres sætter skulderleddet i en udsat mekanisk position. Hold albuerne i en vinkel på ca. 45–70° i forhold til torsoen for at beskytte skuldrene og optimere kraftoverførslen.
 2. **Skab stabilitet med skulderbladene:** Træk altid skulderbladene sammen og ned mod baglommerne (*retraction og depression*), før du indleder et pres fra bænk eller gulv. Det skaber en fast platform og forhindrer, at skuldrene ruller fremad under belastning.
-3. **Huske balancen med trækøvelser:** For at undgå foroverbøjede skuldre og skader i rotator cuffen bør du altid træne lige så mange [trækøvelser](/traekoevelser/) og [rygøvelser](/rygoevelser/), som du træner presøvelser. Læs mere om [strukturel balance](/strukturel-balance/).
+3. **Husk balancen med trækøvelser:** For at undgå foroverbøjede skuldre og skader i rotator cuffen bør du altid træne lige så mange [trækøvelser](/traekoevelser/) og [rygøvelser](/rygoevelser/), som du træner presøvelser. Læs mere om [strukturel balance](/strukturel-balance/).
 
 ---
 
-## Øvelser til træning af pres
+## 🔍 Søg og filtrer i alle presøvelser
 
-Nedenfor finder du vores samlede oversigt over presøvelser med faste instrukser, tekniktips og videodemonstrationer.
+Nedenfor finder du vores samlede oversigt over presøvelser. Brug tabellen til at søge og filtrere direkte efter udstyr (vægtstang, håndvægte, kabel, kropsvægt osv.):
 
-{% assign site_posts = site.exercises | where: "tags", "Pres" | where_exp: "post", "post.url != page.url" | sort: "title" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
+{% include components/exercises-table.html %}
 
 ---
 
@@ -79,5 +75,6 @@ Nedenfor finder du vores samlede oversigt over presøvelser med faste instrukser
 
 * 🏋️ **[Brystøvelser](/brystoevelser/)** – Se specifikke isolations- og presøvelser målrettet brysttræning.
 * 🎯 **[Skulderøvelser](/skulderoevelser/)** – Fokusér på skuldrenes 3 hoveder og rotator cuffens stabilitet.
+* 🦾 **[Armøvelser](/arme-triceps-biceps/)** – Dyk ned i træning af triceps og biceps.
 * 🔀 **[Trækøvelser](/traekoevelser/)** – Find modbevægelserne (Rows, Pull-ups), der skaber balance i din træning.
 * 📐 **[Bænkpresmekanik](/baenkpres-biomekanik/)** – Dyk ned i den biomekaniske model for pres over brystet.

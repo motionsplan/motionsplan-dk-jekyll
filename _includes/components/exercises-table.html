@@ -1,0 +1,357 @@
+<style>
+  .exercise-search-wrapper {
+    margin: 2em 0;
+    background: #f9f9f9;
+    padding: 1.2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .mp-filter-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+    height: 42px;
+  }
+  .mp-filter-btn:hover {
+    border-color: #999;
+    background: #f0f0f0;
+  }
+  .mp-filter-btn.active {
+    background: #e2e8f0;
+    border-color: #475569;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);
+  }
+  .mp-heart-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 4px 8px;
+    transition: transform 0.15s ease;
+  }
+  .mp-heart-btn:hover {
+    transform: scale(1.2);
+  }
+</style>
+
+<div class="exercise-search-wrapper">
+  
+  <!-- FILTRE -->
+  <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1em; width: 100%; align-items: center;">
+    
+    <!-- Søgefelt -->
+    <input type="text" id="exercise-search-input" placeholder="🔍 Søg på øvelsesnavn..." style="flex: 2; min-width: 180px; padding: 9px 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.95em; height: 42px; box-sizing: border-box;">
+    
+    <!-- Kategori Filter -->
+    <select id="filter-category" style="flex: 1; min-width: 130px; padding: 9px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.9em; height: 42px; box-sizing: border-box;">
+      <option value="">Alle kategorier</option>
+    </select>
+
+    <!-- Muskelgruppe Filter -->
+    <select id="filter-muscle" style="flex: 1; min-width: 130px; padding: 9px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.9em; height: 42px; box-sizing: border-box;">
+      <option value="">Alle muskelgrupper</option>
+    </select>
+    
+    <!-- Udstyr Filter -->
+    <select id="filter-equipment" style="flex: 1; min-width: 130px; padding: 9px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.9em; height: 42px; box-sizing: border-box;">
+      <option value="">Alt udstyr</option>
+    </select>
+
+    <!-- ⭐ Anbefalede Toggle Button -->
+    <button type="button" id="btn-filter-featured" class="mp-filter-btn" title="Vis kun anbefalede øvelser">
+      ⭐
+    </button>
+
+    <!-- ❤️ Favoritter Toggle Button -->
+    <button type="button" id="btn-filter-favorites" class="mp-filter-btn" title="Vis mine favoritter">
+      🤍 <span id="fav-count" style="font-size: 0.75em; margin-left: 4px; font-weight: bold; color: #666;">(0)</span>
+    </button>
+
+  </div>
+
+  <!-- RESULTAT TÆLLER -->
+  <div id="exercise-count" style="margin-bottom: 0.8em; font-weight: bold; color: #555; font-size: 0.9em;">
+    Indlæser øvelser...
+  </div>
+
+  <!-- TABEL -->
+  <div style="overflow-x: auto; width: 100%; background: #fff; border-radius: 6px; border: 1px solid #e0e0e0; box-sizing: border-box;">
+    <table id="exercise-table" style="width: 100% !important; min-width: 100% !important; display: table !important; border-collapse: collapse; margin: 0; font-size: 0.95em; table-layout: fixed;">
+      <thead>
+        <tr style="background: #f1f1f1; border-bottom: 2px solid #ddd; text-align: left;">
+          <th style="padding: 10px; width: 55px; text-align: center;">Visuel</th>
+          <th style="padding: 10px; width: 40%;">Øvelse</th>
+          <th style="padding: 10px; width: 25%;">Muskelgruppe</th>
+          <th style="padding: 10px; width: 25%;">Udstyr</th>
+          <th style="padding: 10px; width: 50px; text-align: center;" title="Gem som favorit">Favorit</th>
+        </tr>
+      </thead>
+      <tbody id="exercise-tbody">
+        <!-- Indlæses dynamisk -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- PAGINERING -->
+  <div id="pagination-controls" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1em; padding-top: 0.8em; border-top: 1px solid #e0e0e0;">
+    <button id="btn-prev" class="btn btn--small" style="margin: 0; padding: 6px 14px;" disabled>&laquo; Forrige</button>
+    <span id="page-info" style="font-size: 0.9em; font-weight: bold; color: #666;">Side 1</span>
+    <button id="btn-next" class="btn btn--small" style="margin: 0; padding: 6px 14px;">Næste &raquo;</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Parametre til forhåndsfiltrering fra Jekyll include
+  const defaultMuscle = '{{ include.default_muscle }}';
+  const defaultCategory = '{{ include.default_category }}';
+  const defaultEquipment = '{{ include.default_equipment }}';
+
+  const jsonUrl = '{{ include.json_url | default: "/assets/data/exercises.json" | relative_url }}';
+  let exercisesData = [];
+  let currentFilteredData = [];
+  let currentPage = 1;
+  const itemsPerPage = 10;
+
+  // Toggle tilstande
+  let showOnlyFeatured = false;
+  let showOnlyFavorites = false;
+
+  const searchInput = document.getElementById('exercise-search-input');
+  const categoryFilter = document.getElementById('filter-category');
+  const muscleFilter = document.getElementById('filter-muscle');
+  const equipmentFilter = document.getElementById('filter-equipment');
+  const btnFeatured = document.getElementById('btn-filter-featured');
+  const btnFavorites = document.getElementById('btn-filter-favorites');
+  const favCountDisplay = document.getElementById('fav-count');
+
+  const tbody = document.getElementById('exercise-tbody');
+  const countDisplay = document.getElementById('exercise-count');
+  const btnPrev = document.getElementById('btn-prev');
+  const btnNext = document.getElementById('btn-next');
+  const pageInfo = document.getElementById('page-info');
+
+  // --- LOCALSTORAGE FAVORITTER LOGIK ---
+  function getFavorites() {
+    try {
+      return JSON.parse(localStorage.getItem('mp_favorites') || '[]');
+    } catch(e) {
+      return [];
+    }
+  }
+
+  function toggleFavorite(id) {
+    let favs = getFavorites();
+    if (favs.includes(id)) {
+      favs = favs.filter(favId => favId !== id);
+    } else {
+      favs.push(id);
+    }
+    localStorage.setItem('mp_favorites', JSON.stringify(favs));
+    updateFavCount();
+    filterData();
+  }
+
+  function updateFavCount() {
+    const count = getFavorites().length;
+    if (favCountDisplay) {
+      favCountDisplay.textContent = `(${count})`;
+    }
+  }
+
+  function getArray(val) {
+    if (!val) return [];
+    return Array.isArray(val) ? val : [val];
+  }
+
+  // --- HENT DATA ---
+  fetch(jsonUrl)
+    .then(res => {
+      if (!res.ok) throw new Error('Status: ' + res.status);
+      return res.json();
+    })
+    .then(data => {
+      exercisesData = data.sort((a, b) => {
+        if (a.featured === b.featured) {
+          return a.name.localeCompare(b.name, 'da');
+        }
+        return a.featured ? -1 : 1;
+      });
+
+      populateDropdowns(exercisesData);
+
+      // Sæt default værdier fra include hvis angivet på undersiden
+      if (defaultMuscle) muscleFilter.value = defaultMuscle;
+      if (defaultCategory) categoryFilter.value = defaultCategory;
+      if (defaultEquipment) equipmentFilter.value = defaultEquipment;
+
+      updateFavCount();
+      filterData();
+    })
+    .catch(err => {
+      console.error('JSON Fetch Fejl:', err);
+      countDisplay.innerHTML = '<span style="color: #c0392b;">⚠️ Kunne ikke indlæse data. Tjek at JSON-filen findes.</span>';
+    });
+
+  function populateDropdowns(data) {
+    const categories = new Set();
+    const muscles = new Set();
+    const equipment = new Set();
+
+    data.forEach(ex => {
+      getArray(ex.category).forEach(c => c && categories.add(c));
+      getArray(ex.primaryMuscles).forEach(m => m && muscles.add(m));
+      getArray(ex.equipment).forEach(eq => eq && equipment.add(eq));
+    });
+
+    Array.from(categories).sort((a,b) => a.localeCompare(b, 'da')).forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c;
+      opt.textContent = c;
+      categoryFilter.appendChild(opt);
+    });
+
+    Array.from(muscles).sort((a,b) => a.localeCompare(b, 'da')).forEach(m => {
+      const opt = document.createElement('option');
+      opt.value = m;
+      opt.textContent = m;
+      muscleFilter.appendChild(opt);
+    });
+
+    Array.from(equipment).sort((a,b) => a.localeCompare(b, 'da')).forEach(eq => {
+      const opt = document.createElement('option');
+      opt.value = eq;
+      opt.textContent = eq;
+      equipmentFilter.appendChild(opt);
+    });
+  }
+
+  function filterData() {
+    const query = searchInput.value.toLowerCase().trim();
+    const selectedCategory = categoryFilter.value;
+    const selectedMuscle = muscleFilter.value;
+    const selectedEquipment = equipmentFilter.value;
+    const favorites = getFavorites();
+
+    currentFilteredData = exercisesData.filter(ex => {
+      const exId = ex.id || ex.url;
+      const matchQuery = !query || ex.name.toLowerCase().includes(query);
+      const matchCategory = !selectedCategory || getArray(ex.category).includes(selectedCategory);
+      const matchMuscle = !selectedMuscle || getArray(ex.primaryMuscles).includes(selectedMuscle);
+      const matchEquipment = !selectedEquipment || getArray(ex.equipment).includes(selectedEquipment);
+      const matchFeatured = !showOnlyFeatured || ex.featured === true;
+      const matchFavorite = !showOnlyFavorites || favorites.includes(exId);
+
+      return matchQuery && matchCategory && matchMuscle && matchEquipment && matchFeatured && matchFavorite;
+    });
+
+    currentPage = 1;
+    renderTable();
+  }
+
+  function renderTable() {
+    tbody.innerHTML = '';
+    const totalItems = currentFilteredData.length;
+    const totalPages = Math.ceil(totalItems / itemsPerPage) || 1;
+    const favorites = getFavorites();
+
+    countDisplay.textContent = `Viser ${totalItems} øvelser (${itemsPerPage} pr. side)`;
+
+    if (totalItems === 0) {
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding: 25px; color: #888;">Ingen øvelser matcher din søgning.</td></tr>';
+      pageInfo.textContent = 'Side 0 af 0';
+      btnPrev.disabled = true;
+      btnNext.disabled = true;
+      return;
+    }
+
+    const startIdx = (currentPage - 1) * itemsPerPage;
+    const pageItems = currentFilteredData.slice(startIdx, startIdx + itemsPerPage);
+
+    pageItems.forEach(ex => {
+      const tr = document.createElement('tr');
+      tr.style.borderBottom = '1px solid #eee';
+
+      const exId = ex.id || ex.url;
+      const isFav = favorites.includes(exId);
+      const heartIcon = isFav ? '❤️' : '🤍';
+
+      const imgUrl = (ex.images && ex.images.length > 0 && ex.images[0]) ? ex.images[0] : '';
+      const imgHtml = imgUrl 
+        ? `<a href="${ex.url}"><img src="${imgUrl}" alt="${ex.name}" style="width: 42px; height: 42px; object-fit: cover; border-radius: 4px; display: block; margin: 0 auto;"></a>` 
+        : `<span style="font-size: 1.4em; display: block; text-align: center;">🏋️‍♂️</span>`;
+
+      const muscles = getArray(ex.primaryMuscles).length > 0 ? getArray(ex.primaryMuscles).join(', ') : '-';
+      const eq = getArray(ex.equipment).length > 0 ? getArray(ex.equipment).join(', ') : '-';
+      const star = ex.featured ? '<span title="Anbefalet øvelse">⭐</span> ' : '';
+
+      tr.innerHTML = `
+        <td style="padding: 6px; vertical-align: middle; text-align: center;">${imgHtml}</td>
+        <td style="padding: 10px 12px; vertical-align: middle;"><strong><a href="${ex.url}" style="text-decoration: none; color: #1d4ed8;">${star}${ex.name}</a></strong></td>
+        <td style="padding: 10px 12px; vertical-align: middle; color: #555;">${muscles}</td>
+        <td style="padding: 10px 12px; vertical-align: middle; color: #555;">${eq}</td>
+        <td style="padding: 6px; vertical-align: middle; text-align: center;">
+          <button type="button" class="mp-heart-btn" data-id="${exId}" title="${isFav ? 'Fjern fra favoritter' : 'Gem som favorit'}">${heartIcon}</button>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    tbody.querySelectorAll('.mp-heart-btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const id = this.getAttribute('data-id');
+        toggleFavorite(id);
+      });
+    });
+
+    pageInfo.textContent = `Side ${currentPage} af ${totalPages}`;
+    btnPrev.disabled = currentPage === 1;
+    btnNext.disabled = currentPage === totalPages;
+  }
+
+  btnFeatured.addEventListener('click', function() {
+    showOnlyFeatured = !showOnlyFeatured;
+    this.classList.toggle('active', showOnlyFeatured);
+    filterData();
+  });
+
+  btnFavorites.addEventListener('click', function() {
+    showOnlyFavorites = !showOnlyFavorites;
+    this.classList.toggle('active', showOnlyFavorites);
+    const count = getFavorites().length;
+    this.innerHTML = `${showOnlyFavorites ? '❤️' : '🤍'} <span id="fav-count" style="font-size: 0.75em; margin-left: 4px; font-weight: bold; color: #666;">(${count})</span>`;
+    filterData();
+  });
+
+  btnPrev.addEventListener('click', () => {
+    if (currentPage > 1) {
+      currentPage--;
+      renderTable();
+    }
+  });
+
+  btnNext.addEventListener('click', () => {
+    const totalPages = Math.ceil(currentFilteredData.length / itemsPerPage);
+    if (currentPage < totalPages) {
+      currentPage++;
+      renderTable();
+    }
+  });
+
+  searchInput.addEventListener('input', filterData);
+  categoryFilter.addEventListener('change', filterData);
+  muscleFilter.addEventListener('change', filterData);
+  equipmentFilter.addEventListener('change', filterData);
+});
+</script>

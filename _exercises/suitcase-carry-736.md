@@ -7,7 +7,7 @@ id: 736
 language: da
 tags: []
 categories:
-  - Loaded carry
+  - Loaded carries
 training_type: []
 training_focus: []
 equipment:

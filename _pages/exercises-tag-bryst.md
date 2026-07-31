@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /brystoevelser/
-title: 'Øvelser til brystet: Effektive styrketræningsøvelser til brystet 🏋'
+title: 'Øvelser til brystet: Effektive styrketræningsøvelser til brystet 🏋️‍♂️'
 seo_title: 'Brystøvelser: Effektive øvelser til træning af bryst'
 author_profile: 'true'
 classes: wide
@@ -18,6 +18,10 @@ sidebar:
   nav: exercises
 ---
 
+**📋 En del af vores overordnede træningsportal**  
+Brysttræning udgør en helt central del af overkroppens pressemekanik. Se også vores samlede overblik over [træningsøvelser](/traeningsoevelser/), [presøvelser](/presoevelser/) samt strukturerede [træningsprogrammer](/traeningsprogrammer/).
+{: .notice--info}
+
 En veludviklet brystmuskulatur er ikke kun æstetisk attraktiv, men afgørende for overkroppens samlede pressekraft og skuldrenes stabilitet. Hvad enten dit mål er at opbygge [muskelmasse (hypertrofi)](/muskelvaekst-hypertrofi/), øge din [maksimale styrke i bænkpres](/styrkeloeft/baenkpres/) eller forbedre din atletiske ydeevne i kastsport, kræver effektiv brysttræning et gennemtænkt øvelsesvalg.
 
 På denne side har vi samlet de mest effektive brystøvelser med både vægtstang, håndvægte, kabler, maskiner og kropsvægt.
@@ -33,20 +37,29 @@ Når du træner brystet, arbejder du primært med den store brystmuskel (**Pecto
 
 Derudover ligger den mindre brystmuskel (**Pectoralis Minor**) dybere under den store brystmuskel. Den har til opgave at stabilisere og trække skulderbladet fremad og nedad.
 
-> 🧬 **Vil du helt ned i anatomien?** 
+> 🧬 **Vil du helt ned i anatomien?**  
 > Læs den komplekse anatomiske gennemgang med udspring, hæfte og latinske betegnelser på vores side om [Pectoralis Major](/pectoralis-major/) og [Pectoralis Minor](/pectoralis-minor/).
 
 ---
 
 ## Flerledsøvelser (Basis) vs. Isolationsøvelser
 
-For at opnå maksimal fremgang i din brysttræning bør dit træningsprogram bestå af en god balance mellem to overordnede øvelsestyper:
+For at opnå maksimal fremgang i din brysttræning bør dit træningsprogram bestå af en god balance mellem overkroppens tunge baseløft og målrettede isolationsøvelser:
 
 ### 1. Flerledsøvelser (Basisøvelser)
-Øvelser som [bænkpres](/oevelse/baenkpres/), skråt håndvægtspres, [armstrækninger](/armbojninger-eller-armstraekninger-pushups/) og dips involverer flere led samtidigt (skulderled og albueled). Her arbejder brystmusklen sammen med skuldrenes forside (*Anterior Deltoid*) og armenes bagside (*Triceps Brachii*). Flerledsøvelser giver dig mulighed for at løfte tungere belastning og skabe det [progressive overload](/progressionsmodeller-progressivt-overload/), der er nøglen til styrke og vækst.
+Flerledsøvelser involverer flere led samtidigt (skulderled og albueled). Her arbejder brystmusklen sammen med skuldrenes forside (*Anterior Deltoid*) og armenes bagside (*Triceps Brachii*). Flerledsøvelser giver dig mulighed for at løfte tungere belastning og skabe det [progressive overload](/progressionsmodeller-progressivt-overload/), der er nøglen til styrke og vækst.
+
+* 🟢 **Armstrækninger / Push-ups (Kropsvægt / Begynder):** En fantastisk basisøvelse for overkroppen. Kan udføres på knæene, på gulvet eller med hænderne hævet på en bænk.
+* 🟢 **Flad Bænkpres med vægtstang (Barbell Bench Press):** Kongen af presøvelser til opbygning af overkroppens maksimale styrke.
+* 🟠 **Skråt Håndvægtspres (Incline Dumbbell Press):** Sætter ekstra fokus på det øverste brystmuskelhoved (clavicular head) og giver et større bevægelsesudslag end vægtstangen.
+* 🔴 **Dips på parallelle barer:** En kropsvægtsøvelse med høj intensitet, der rammer det nedre bryst og triceps voldsomt hårdt.
 
 ### 2. Isolationsøvelser
-Øvelser som cable flyes, pec deck og håndvægtsflyes isolerer brystmusklen over kun ét led (skulderleddet). Da triceps fjernes fra bevægelsen, tillader isolationsøvelser dig at fokusere 100% på et dybt stræk i bunden og en kraftig sammentrækning (*squeeze*) i toppen uden at blive begrænset af armstyrken.
+Isolationsøvelser isolerer brystmusklen over kun ét led (skulderleddet). Da triceps fjernes fra bevægelsen, tillader isolationsøvelser dig at fokusere 100% på et dybt stræk i bunden og en kraftig sammentrækning (*squeeze*) i toppen uden at blive begrænset af armstyrken.
+
+* 🟢 **Pec Deck / Brystmaskine:** Nem og sikker isolationsøvelse til at ramme brystet med konstant modstand.
+* 🟠 **Cable Flyes (Kabel-kryds):** Kabelstativet sikrer en konstant spænding i musklen igennem hele bevægelsesbanen – både i det dybe stræk og sammentrækningen.
+* 🟠 **Håndvægtsflyes på flad/skrå bænk:** Klassisk øvelse med fokus på et kontrolleret stræk i bunden af bevægelsen.
 
 ---
 
@@ -58,21 +71,11 @@ For at opnå maksimal fremgang i din brysttræning bør dit træningsprogram bes
 
 ---
 
-## Øvelser til træning af brystet
+## 🔍 Søg og filtrer i alle brystøvelser
 
-Nedenfor finder du vores komplette øvelseskatalog med detaljerede instruktioner, videoer og tekniktips til træning af brystet.
+Nedenfor finder du vores komplette øvelseskatalog. Brug tabellen til at søge og filtrere direkte i alle brystøvelser sorteret efter udstyr (vægtstang, håndvægte, kabel, kropsvægt osv.):
 
-{% assign site_posts = site.exercises | where: "tags", "Bryst" | where_exp: "post", "post.url != page.url" | sort: "title" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
+{% include components/exercises-table.html default_muscle="Bryst" %}
 
 ---
 
