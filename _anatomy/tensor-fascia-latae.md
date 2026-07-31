@@ -58,8 +58,6 @@ Da TFL ofte er overaktiv (især hvis ballemusklerne er svage), handler det ofte 
 * **Foam rolling:** Rulning af ydersiden af hoften (lige under hoftekammen) kan hjælpe med at løsne spændinger i TFL.
 * **Hoftebøjer-stræk:** Klassiske stræk for forsiden af hoften rammer også de forreste fibre i TFL.
 
-Læs mere om de øvrige [muskler i hoften her](/muskler/hofte/).
-
 ---
 
 ## Se oversigt over muskler

@@ -46,7 +46,7 @@ Når musklerne omkring rygsøjlen og skulderbladene er stærke, aflaster de ledd
 Ryggens muskler kan overordnet deles op i to hovedgrupper:
 
 1.  **De overfladiske rygmuskler:** Det er de store, synlige muskler, der primært styrer bevægelser af skuldrene og armene. Det inkluderer [**Latissimus Dorsi**](/latissimus-dorsi/) (den brede rygmuskel), [**Trapezius**](/trapezius/) (kappemusklen) og [**Rhomboideus**](/rhomboideus/). Det er disse muskler, der giver ryggen dens form og bredde.
-2.  **De dybe rygmuskler:** Disse muskler ligger tættere på rygsøjlen og er ofte ikke synlige. Deres vigtigste opgave er at stabilisere rygsøjlen, styre din holdning og sørge for, at du kan rette ryggen ud. En af de mest centrale er [**Erector Spinae**](/rygstraekkere/).
+2.  **De dybe rygmuskler:** Disse muskler ligger tættere på rygsøjlen og er ofte ikke synlige. Deres vigtigste opgave er at stabilisere rygsøjlen, styre din holdning og sørge for, at du kan rette ryggen ud. En af de mest centrale er [**Erector Spinae**](/erector-spinae/).
 
 I dette indlæg fokuserer vi primært på de overfladiske muskler, som du direkte kan træne med træk-bevægelser, og som medvirker til en visuelt stærk og funktionel ryg.
 

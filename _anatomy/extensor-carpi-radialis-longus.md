@@ -62,7 +62,7 @@ For at styrke de radiale strækkere kan man benytte følgende øvelser:
 * **Radial Deviation:** Hold en håndvægt i den ene ende og løft tommelfingersiden af hånden opad mod underarmen.
 * **Hammer Curls:** Træner brachioradialis og de radiale strækkere i synergi.
 
-Læs også om [Extensor Carpi Radialis Brevis](/extensor-carpi-radialis-brevis/), som ligger lige under og supplerer denne muskel.
+_Extensor Carpi Radialis Brevis ligger lige under og supplerer denne muskel.
 
 ## Se oversigt over muskler
 

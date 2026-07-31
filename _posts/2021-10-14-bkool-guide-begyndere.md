@@ -39,7 +39,7 @@ Når du træder i pedalerne derhjemme, justerer BKOOL automatisk modstanden i di
 
 Noget af det mest unikke ved BKOOL er deres overflod af ruter. Da brugerne selv kan uploade GPS-filer og rutevideoer, finder du hundredtusindvis af kilometer ruter fra hele verden.
 
-{% include figure image_path="/assets/images/blog/bkool-3d-sim.jpg" caption="BKOOLs 3D-verden genereres ud fra GPS-data og kombineres med realistisk vind og vejr." alt="BKOOL 3D simulation" %}
+{% include figure image_path="/assets/images/blog/bkool-3d-sim.webp" caption="BKOOLs 3D-verden genereres ud fra GPS-data og kombineres med realistisk vind og vejr." alt="BKOOL 3D simulation" %}
 
 ### BKOOLs primære funktioner:
 

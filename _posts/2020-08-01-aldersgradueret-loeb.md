@@ -112,7 +112,7 @@ Hvis du også vil tage højde for kropsvægt ud over alderen, kan du prøve vore
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- **WMA Aldersfaktorer (World Masters Athletics):** Grubb, H. (2015/2020). *WMA Age-grading factors and tables for road running and track & field events*. World Masters Athletics. <http://www.howardgrubb.co.uk/athletics/wmafactors15.html>
+- **WMA Aldersfaktorer (World Masters Athletics):** Grubb, H. (2015/2020). *WMA Age-grading factors and tables for road running and track & field events*. World Masters Athletics. <https://www.howardgrubb.co.uk/athletics/wmalookup06.html>
 - **Aldersfaktorer i løb:** Macey, R., & Grubb, H. (2010). *WMA Age-Grading Tables*. Masters Athletics.
 - **Fysiologiske ændringer og løb med alderen:** Tanaka, H., & Seals, D. R. (2008). *Endurance exercise performance in Masters athletes: age-associated decline and underlying physiological mechanisms*. The Journal of Physiology, 586(1), 55–63. <https://doi.org/10.1113/jphysiol.2007.141879>
 - **VoresPuls:** VoresPuls.dk (2018). *Alderen tærer på tiderne – sådan bevarer du løbeformen*. <https://vorespuls.dk/loeb/artikler/alderen-taerer-paa-tiderne>

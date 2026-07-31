@@ -29,7 +29,7 @@ function:
       extended: "Musklen fungerer som et korset, der trækker bugvæggen indad og øger bugtrykket (intra-abdominalt tryk)."
     - short: Kompression af bughulen
       extended: "Vigtig ved forceret udånding, hoste og når vi skal stabilisere kroppen under tunge løft."
-image: /assets/images/anatomy/transversus-abdominis.jpg
+image: /assets/images/anatomy/transversus-abdominis.png
 breadcrumbs: true
 ---
 

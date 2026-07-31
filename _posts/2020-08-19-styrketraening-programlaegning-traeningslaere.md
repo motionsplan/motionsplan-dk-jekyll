@@ -156,8 +156,8 @@ Ved at anvende disse principper systematisk kan du optimere din styrketræning, 
 - Nuckols, Greg & Isuf, Omar (2015a): [The art of lifting](https://www.strongerbyscience.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
 - Nuckols, Greg & Isuf, Omar (2015b): [The science of lifting](https://www.strongerbyscience.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
 - Robertson, Mike (2012): [6 questions about tempo training](https://www.t-nation.com/training/questions-about-tempo-training), t-nation.com
-- Tumminello, Nick (2015): [Exercise science I’ve never used as a personal training](http://nicktumminello.com/2015/03/exercise-science-ive-never-used-as-a-personal-trainer/), nicktumminello.com.
+- Tumminello, Nick (2015): [Exercise science I’ve never used as a personal training](https://web.archive.org/web/20230331122131/http://nicktumminello.com/2015/03/exercise-science-ive-never-used-as-a-personal-trainer/), nicktumminello.com.
 - Contreas, Bret (2015): [Current position on anterior pelvic tilt](http://bretcontreras.com/current-position-statement-on-anterior-pelvic-tilt/), bretcontreas.com
-- Contreas, Bret: [List of Lower Body Progressions](http://bretcontreras.com/wp-content/uploads/List-of-Progressions.pdf), e-book
+- Contreas, Bret: [List of Lower Body Progressions](https://web.archive.org/web/20170215071010/https://bretcontreras.com/wp-content/uploads/List-of-Progressions.pdf), e-book
 - Cressey, Eric (2013): [The Performance Handbook](http://www.highperformancehandbook.com/),  [www.highperformancehandbook.com](http://www.highperformancehandbook.com)
 </details>

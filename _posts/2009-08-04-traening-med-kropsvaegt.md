@@ -37,7 +37,7 @@ At blive stærkere handler om **modstand**, og derfor kan øvelser med kropsvæg
 
 Det er befriende at kunne træne uden at have travlt med redskaber. Hvis du har brug for et bevis på, at man kan blive rigtig stærk ved at bruge kropsvægt som modstand, kan du kigge på følgende ressource:
 
-- [Beast Skills Tutorials](http://www.beastskills.com/tutorials/){: rel="nofollow noopener" }: Sitet er lidt rodet, men her kan man få mange gode ideer til, hvordan kroppen bliver rigeligt tung til at give stor styrkemæssig udfordring.
+- [Beast Skills Tutorials](https://www.beastskills.com/tutorials/){: rel="nofollow noopener" }: Sitet er lidt rodet, men her kan man få mange gode ideer til, hvordan kroppen bliver rigeligt tung til at give stor styrkemæssig udfordring.
 
 ## Kan jeg nøjes med kropsvægtøvelser?
 

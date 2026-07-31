@@ -149,7 +149,7 @@ Mange TFW-sessioner afsluttes med en "finisher", som booster konditionen, forbr�
 
 Baseret på skabelonen ovenfor kunne dette være et eksempel på et program.
 
-{% include figure image_path="/assets/images/strengthprograms/training-for-warriors-upper_lower" caption="Du kan bruge det direkte i Liftosaur for at afprøve det. Se den præcise kode længere nede på siden." %}
+{% include figure image_path="/assets/images/strengthprograms/training-for-warriors-upper_lower.png" caption="Du kan bruge det direkte i Liftosaur for at afprøve det. Se den præcise kode længere nede på siden." %}
 
 ## Progression
 

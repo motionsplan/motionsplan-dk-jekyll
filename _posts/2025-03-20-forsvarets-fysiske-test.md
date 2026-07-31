@@ -7,8 +7,7 @@ description: "Se de konkrete fysiske krav til Forsvarets optagelsesprøve og væ
 last_modified_at: '2026-07-29T08:00:00Z'
 language: da
 header:
-  overlay_image: /assets/images/blog/forsvarets-fysiske-test.jpeg
-  teaser: /assets/images/blog/forsvarets-fysiske-test.jpeg
+  teaser: https://i.ytimg.com/vi/SaZVJZkfwX4/hqdefault.jpg
   caption: *title
 category:
   - Tests
@@ -61,6 +60,8 @@ For at bestå skal du leve op til minimumskravene i enten [12 minutters løb (Co
 ---
 
 ## Overblik: Fysiske krav til Forsvarets Basistest (Niveau 1)
+
+{% include video provider="youtube" id="SaZVJZkfwX4" %}
 
 Basistesten pointgives på en skala fra 1 til 5 i hver delprøve. For at bestå **Niveau 1 (Optagelsesprøve og Værnepligt)** skal du opnå **mindst 2 point i hver enkelt øvelse**.
 

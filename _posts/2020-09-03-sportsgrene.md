@@ -45,7 +45,7 @@ Herunder finder du de største sportsgrene i Danmark målt på antallet af aktiv
 
 *Oversigten er baseret på de seneste officielle opgørelser over aktive foreningsmedlemmer fra [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal).*
 
-[Fodbold](/fodbold/) er Danmarks ubestridte nationalsport og største idrætsgren, efterfulgt af gymnastik, svømning og golf. På DIF's medlemslister kan du også se opdelingen på køn og aldersgrupper, hvis du vil dykke dybere ned i tallene.
+[Fodbold](https://www.legestue.net/) er Danmarks ubestridte nationalsport og største idrætsgren, efterfulgt af gymnastik, svømning og golf. På DIF's medlemslister kan du også se opdelingen på køn og aldersgrupper, hvis du vil dykke dybere ned i tallene.
 
 ---
 

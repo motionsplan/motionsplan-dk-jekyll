@@ -73,7 +73,7 @@ Herunder kan du se udvalgte børnesvinsaktiviteter for 5.-7. klasse. Svinetræni
 
 ### Balance
 
-[Træning af balance](/balance/traening/) og [balanceevne](/balance/) ved hjælp af "svin".
+[Træning af balance](/balancetraening/) og [balanceevne](/balance/) ved hjælp af "svin".
 
 {% include video provider="vimeo" id="193683259" %}
 

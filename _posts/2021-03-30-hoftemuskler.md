@@ -30,7 +30,7 @@ Jeg har samlet en liste over muskler i din hofte her. Det er vigtigt at vide, hv
 
 [Squats](/squat/) og [lunges](/lunges/) er fantastiske øvelser til hoften, ligesom du ikke kan komme udenom [hip thrusts](/oevelse/hip-thrusters/) for målrettet træning af bagkæden.
 
-Jeg har lavet en liste over [gode øvelser til hoften](/hofteoevelser/).
+Jeg har lavet en liste over [gode øvelser til hoften](/hoftedominante-oevelser/).
 
 ## Hvorfor træne musklerne i hoften?
 
@@ -72,7 +72,7 @@ For en komplet hoftetræning bør du både træne stræk, bøjning og sidelæns 
 
 ## Konklusion
 
-Det er fundamentalt for din krops sundhed at træne hoftens muskler. En stærk hofte beskytter både din ryg og dine knæ. Jeg har samlet flere forslag til din [hoftetræning og øvelser til træning af hoften her](/hofteoevelser/).
+Det er fundamentalt for din krops sundhed at træne hoftens muskler. En stærk hofte beskytter både din ryg og dine knæ. Jeg har samlet flere forslag til din [hoftetræning og øvelser til træning af hoften her](/hoftedominante-oevelser/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -98,12 +98,12 @@ Vil du gerne skære toppen af din månedlige træningsregning? Her er de fem mes
 
 Hvis du vil helt ud af månedlige abonnementer, kan **hjemmetræning** være den absolut billigste løsning på lang sigt. 
 
-Et par gode [kettlebells](/kettlebell-traening/), et sæt [træningselastikker](/traeningselastik/) og en justerbar bænk koster i indkøb det samme som 6–12 måneders fitnessabonnement. Derefter er din månedlige udgift præcis 0 kr.
+Et par gode [kettlebells](/artikel/hvordan-traener-man-med-kettlebells/), et sæt træningselastikker og en justerbar bænk koster i indkøb det samme som 6–12 måneders fitnessabonnement. Derefter er din månedlige udgift præcis 0 kr.
 
 👉 **Læs også vores guider til hjemmetræning og udstyr:**
 * [Overblik over danske fitnessbutikker og online forhandlere](/fitnessbutikker/)
-* [Guide til køb af det bedste træningsudstyr til hjemmet](/traeningsudstyr-hjemme/)
-* [Kom godt i gang med hjemmetræning uden udstyr](/hjemmetraening/)
+* [Guide til køb af det bedste træningsudstyr til hjemmet](/fitnessbutikker/)
+* [Kom godt i gang med hjemmetræning uden udstyr](/hjemmetraening-traeningsprogram/)
 
 ---
 

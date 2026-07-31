@@ -45,7 +45,7 @@ coords:
 
 ## Hvad er {{ page.title }}?
 
-Flexor carpi radialis (FCR) er en af de overfladiske muskler på underarmens forside. Den er placeret medialt for [brachioradialis](/brachioradialis/) og lateralt for [palmaris longus](/palmaris-longus/). Musklen har en lang sene, der løber gennem en separat kanal i karpaltunnelen, før den hæfter på mellemhånden.
+Flexor carpi radialis (FCR) er en af de overfladiske muskler på underarmens forside. Den er placeret medialt for [brachioradialis](/brachioradialis/) og lateralt for _palmaris longus_. Musklen har en lang sene, der løber gennem en separat kanal i karpaltunnelen, før den hæfter på mellemhånden.
 
 En praktisk detalje er, at man ofte finder pulsen (*arteria radialis*) lige lateralt for senen fra flexor carpi radialis ved håndleddet.
 

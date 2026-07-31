@@ -36,7 +36,7 @@ MyWhoosh er en online cykelplatform udviklet i De Forenede Arabiske Emirater (UA
 
 Hvor andre platforme kræver et fast månedligt abonnement, har MyWhoosh valgt en forretningsmodel, hvor appen indtil videre er fuldstændig gratis at downloade og bruge for alle.
 
-{% include figure image_path="/assets/images/blog/mywhoosh-screenshot.jpg" caption="MyWhoosh benytter Unreal Engine til at skabe flot, realistisk 3D-grafik." alt="MyWhoosh screenshot" %}
+{% include figure image_path="/assets/images/blog/mywhoosh-screenshot.webp" caption="MyWhoosh benytter Unreal Engine til at skabe flot, realistisk 3D-grafik." alt="MyWhoosh screenshot" %}
 
 ### Nøglefunktioner i MyWhoosh:
 

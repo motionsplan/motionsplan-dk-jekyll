@@ -59,7 +59,7 @@ Når belastningen nærmer sig den anaerobe tærskel (omkring $85\text{--}90\%$ a
 
 Dette fænomen kaldes i litteraturen for **Heart Rate Deflection Point ($HR_{dp}$)** eller "Conconi-knækket". Hastigheden og pulsen ved dette afbøjningspunkt svarer ifølge Conconi et al. (1982) til den anaerobe tærskel.
 
-{% include figure image_path="/assets/images/blog/conconi-graph-example.webp" caption="Teoretisk Conconi-graf: Forholdet mellem hastighed og puls knækker (HRdp) ved den anaerobe tærskel." %}
+{% include figure image_path="https://i.ytimg.com/vi/DpKBBAsekP4/maxresdefault.jpg" caption="Teoretisk Conconi-graf: Forholdet mellem hastighed og puls knækker (HRdp) ved den anaerobe tærskel." %}
 
 ---
 
@@ -83,6 +83,8 @@ For at gennemføre Conconi-testen med høj præcision kræves:
 ---
 
 ## Testprocedure
+
+{% include video provider="youtube" id="DpKBBAsekP4" %}
 
 Testen er en **kontinuerlig, trinvist stigende belastningstest**:
 

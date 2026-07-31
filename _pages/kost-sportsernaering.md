@@ -37,7 +37,7 @@ Kulhydrater er kroppens primære brændstof ved høj intensitet. Lær at time di
 <div class="notice--success" markdown="1">
 ### 💧 Væske, hydrering og svedtab
 Dehydrering forringer din præstationsevne markant og øger risikoen for kramper og overophedning.
-* **[Overblik over væske og hydrering](/vaeske/)** – Hvad og hvor meget bør du drikke under træning?
+* **[Overblik over væske og hydrering](/hvad-skal-jeg-drikke/)** – Hvad og hvor meget bør du drikke under træning?
 * **[Hvor meget vand skal man drikke om dagen?](/hvor-meget-vand-skal-man-drikke-om-dagen/)** – Beregn dit basisbehov.
 * **[Mål din egen svedrate (svedtest)](/vaesketest/)** – Se hvor meget væske du mister pr. træningstime.
 * **[Lav din egen sportsdrik](/sportsdrik/)** – Opskrift på den optimale energidrik med sukker og elektrolytter.

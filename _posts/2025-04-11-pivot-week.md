@@ -219,7 +219,7 @@ Overhead One Arm Carry / 3x1 / 50%
 
 En pivot uge er ikke bare en deload – det er en strategisk mulighed for at “genstarte” systemet og gøre dig klar til næste blok med ny energi og færre skavanker.
 
-Vil du gøre det endnu skarpere? Brug pivot ugen til at planlægge din næste træningsblok. Du kan få inspiration i vores [styrketræningsprogrammer](/styrketræningsprogrammer/) eller øvrige [træningsprogrammer](/traeningsprogrammer/).
+Vil du gøre det endnu skarpere? Brug pivot ugen til at planlægge din næste træningsblok. Du kan få inspiration i vores [styrketræningsprogrammer](/styrketraeningsprogrammer/) eller øvrige [træningsprogrammer](/traeningsprogrammer/).
 
 Hvad er dine næste mål med din [træning](/traening/)?
 

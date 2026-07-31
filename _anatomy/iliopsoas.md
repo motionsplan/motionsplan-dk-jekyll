@@ -35,11 +35,10 @@ function:
   en:
     - short: Flexes the hip.
     - short: Stabilizes the lumbar spine.
-image: /assets/images/anatomy/iliopsoas.png
+image: /assets/images/anatomy/iliopsoas.webp
 ---
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin }}*. Musklen sørger primært for {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} samt {% endif %}{{ f.short | downcase }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er den absolut vigtigste del af {{ page.functional_group | join: ", " | downcase }}.
-
 
 
 ## Hvad er {{ page.title }}?
@@ -53,7 +52,7 @@ Uden en velfungerende iliopsoas ville du hverken kunne gå, løbe eller stå opr
 Iliopsoas kaldes ofte for "sjælens muskel" eller "følelsesmusklen". Det skyldes dens tætte forbindelse til det **autonome nervesystem**. 
 
 1. **Kamp/Flugt-respons:** Når vi bliver bange eller stressede, er psoas den første muskel, der trækker sig sammen for at beskytte vores vitale organer i bughulen (vi "krummer" os sammen). 
-2. **Åndedrættet:** Psoas er gennem bindevæv (fascia) direkte forbundet med din store åndedrætsmuskel, [diafragma](/diafragma/). Hvis din hoftebøjer er kronisk spændt, kan det bogstaveligt talt blokere for et dybt og frit åndedræt.
+2. **Åndedrættet:** Psoas er gennem bindevæv (fascia) direkte forbundet med din store åndedrætsmuskel, diafragma. Hvis din hoftebøjer er kronisk spændt, kan det bogstaveligt talt blokere for et dybt og frit åndedræt.
 
 ## Problemer med en stram iliopsoas
 
