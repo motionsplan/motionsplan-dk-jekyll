@@ -54,4 +54,4 @@ Jeg har også [skrevet om cirkeltræning](/cirkeltraening/), som kan være en go
 Har du nogle gode sites eller nogle gode øvelser, så del dem gerne i kommentarerne.
 
 {% assign exercises = site.exercises | where: "equipment", "kropsvægt" | sort: "title" %}
-{% include motionsplan/exercise-grid.html title="Øvelser med kropsvægt" exercises=exercises %}
+{% include motionsplan/exercise-grid.html title="Øvelser med kropsvægt" exercises=exercises input_type="array" %}

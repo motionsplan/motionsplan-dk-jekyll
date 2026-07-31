@@ -64,4 +64,4 @@ Du kan sikkert finde lidt inspiration i videoerne nedenunder:
 {% include video provider="youtube" id="pR9KNdpen1g" %}
 
 {% assign exercises = site.exercises | where: "equipment", "kettlebell" | sort: "title" %}
-{% include motionsplan/exercise-grid.html title="Øvelser med kettlebells" exercises=exercises %}
+{% include motionsplan/exercise-grid.html title="Øvelser med kettlebells" exercises=exercises input_type="array" %}

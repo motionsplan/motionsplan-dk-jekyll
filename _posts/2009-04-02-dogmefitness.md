@@ -42,7 +42,7 @@ Træstubbe, grene, traktordæk, forhøjninger, reb og fliser er alle glimrende t
 
 ## Dogmefitness med dæk
 
-{% include video provider="youtube" id="SW_sn8cw8Qw" ezoic="ezoic-pub-video-placeholder-2" %}
+{% include video provider="youtube" id="SW_sn8cw8Qw" %}
 
 ## Hvordan kan man organisere dogmefitness?
 
@@ -53,7 +53,8 @@ Man kan organisere det på et utal af måder.
 
 Hvordan gør du?
 
-## Øvelser til dogmefitness og outdoor fitness
-
 {% assign exercises = site.exercises | where: "tags", "outdoor" | sort: "title" %}
-{% include motionsplan/exercise-grid.html title="Inspiration til outdoor træning" exercises=exercises %}
+
+## {{ exercises.size }} øvelser til dogmefitness og outdoor fitness
+
+{% include motionsplan/exercise-grid.html title="Inspiration til outdoor træning" exercises=exercises input_type="array" %}

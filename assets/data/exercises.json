@@ -1,0 +1,26 @@
+---
+# Just for development
+layout: null
+---
+[
+  {% for exercise in site.exercises %}
+  {
+    "title": {{ exercise.title | jsonify }},
+    "id": {{ exercise.id | default: "" | jsonify }},
+    "key": {{ exercise.key | default: "" | jsonify }},
+    "excerpt": {{ exercise.excerpt | default: "" | jsonify }},
+    "description": {{ exercise.description | default: "" | jsonify }},
+    "permalink": {{ exercise.permalink | jsonify }},
+    "tags": {{ exercise.tags | default: empty | jsonify }},
+    "categories": {{ exercise.categories | default: empty | jsonify }},
+    "training_type": {{ exercise.training_type | default: empty | jsonify }},
+    "training_focus": {{ exercise.training_focus | default: empty | jsonify }},
+    "equipment": {{ exercise.equipment | default: empty | jsonify }},
+    "muscle_group": {{ exercise.muscle_group | default: empty | jsonify }},
+    "gallery_pics_no": {{ exercise.gallery.size | default: empty | jsonify }},
+    "icon": {{ exercise.icon | default: "" | jsonify }},
+    "gallery_video": {{ exercise.video | default: empty | jsonify }},    
+    "word_count": {{ exercise.content | strip_html | number_of_words }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

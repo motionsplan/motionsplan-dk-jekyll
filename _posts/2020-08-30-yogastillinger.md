@@ -44,4 +44,4 @@ De fleste yogastillinger, skal man lige øve sig på.
 Jeg har samlet en række gode yogaøvelser og yogastillinger, som du kan gå i gang med allerede i dag. Yogaøvelser er rigtig gode at bruge alene som træning, men fungerer også rigtig godt i opvarmning til andre idrætsgrene.
 
 {% assign exercises = site.exercises | where: "tags", "Yoga" | sort: "title" %}
-{% include motionsplan/exercise-grid.html title="Øvelser til yoga" exercises=exercises %}
+{% include motionsplan/exercise-grid.html title="Øvelser til yoga" exercises=exercises input_type="array" %}

@@ -52,6 +52,6 @@ Jeg har samlet alle øvelserne, der bruges i forbindelse med Fitnessinstruktør.
 På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktoer/). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
 
 {% assign exercises = site.exercises | where: "tags", "fitnessinstruktør" | sort: "title" %}
-{% include motionsplan/exercise-grid.html exercises=exercises %}
+{% include motionsplan/exercise-grid.html exercises=exercises input_type="array" %}
 
 {% include feature_row type="left" %}
