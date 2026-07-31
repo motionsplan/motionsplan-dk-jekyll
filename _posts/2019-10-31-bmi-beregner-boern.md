@@ -69,7 +69,7 @@ Men lad os først springe til selve BMI beregneren til børn og unge.
 
 {% include calc/bmi.html calc_id="bmi-child" title="📊 BMI Beregner for Børn & Unge" %}
 
-[Ponderal Index]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}) er et alternativ til BMI, som burde fungere bedre, når folk har forskellige højder. Desværre har jeg ikke kunnet finde nogle standarder.
+[Ponderal Index](/ponderal-index/) er et alternativ til BMI, som burde fungere bedre, når folk har forskellige højder. Desværre har jeg ikke kunnet finde nogle standarder.
 
 ## BMI for børn og teenagere
 

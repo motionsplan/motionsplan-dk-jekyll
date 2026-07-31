@@ -18,7 +18,7 @@ toc: 'true'
 
 Men når du træner fire gange om ugen, så kan det altså være en overvejelse værd at bruge et splitprogram. Her beskriver jeg et 2-split-program til styrketræning, som er baseret på push/pull eller træk/pres. Det er en meget typisk måde at gøre det på.
 
-Et træningsprogram skal være motiverende og tilpasset dine personlige mål og behov. Derfor har vi også lavet en side med [forskellige gratis styrketræningsprogrammer](/styrketraeningsprogrammer/), som du kan lade dig inspirere af. Jeg har beskrevet, hvad du skal tænke på, når du [vælger et træningsprogram]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
+Et træningsprogram skal være motiverende og tilpasset dine personlige mål og behov. Derfor har vi også lavet en side med [forskellige gratis styrketræningsprogrammer](/styrketraeningsprogrammer/), som du kan lade dig inspirere af. Jeg har beskrevet, hvad du skal tænke på, når du [vælger et træningsprogram](/vaelg-traeningsprogram/).
 
 Grundlæggende er det godt at træne en muskelgruppe 2 gange om ugen, bruge store flerledsøvelser, som fx variationer af squat, bænkpres og dødløft. Derudover kan du supplere basisøvelserne med mere specifikke øvelser for de forskellige muskelgrupper.
 
@@ -26,7 +26,7 @@ Du skal træne mindst fire gange om ugen, inden det er nødvendigt at overveje e
 
 ## 2-splitprogrammer
 
-Hvis du træner 1-3 gange om ugen, så anbefales det ofte at tage udgangspunkt i et [fullbody træningsprogram]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md%}). Hvis du træner 4 gange eller flere, så er det relevant at lade sig inspirere af et 2-splitprogram.
+Hvis du træner 1-3 gange om ugen, så anbefales det ofte at tage udgangspunkt i et [fullbody træningsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/). Hvis du træner 4 gange eller flere, så er det relevant at lade sig inspirere af et 2-splitprogram.
 
 Fordelen ved et splitprogram er, at du kan fokusere endnu mere på hver muskelgruppe. Du kan i det enkelte træningspas udføre mere arbejde og derved højere volumen for den enkelte muskelgruppe, men stadig nå at restituere inden næste træning. Et splitprogram kan altså stadig være effektivt, så længe du rammer de enkelte muskelgrupper 2 gange om ugen.
 

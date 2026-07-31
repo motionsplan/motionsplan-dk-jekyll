@@ -61,7 +61,7 @@ Nu skal du hinke i den rigtige rækkefølge gennem hinkebanen på et ben. Du ska
 
 ### Y- balance-test
 
-Y-balancetest er en enkel test til at teste balancen. Det er en forenkling af STAR-balancetesten med de vigtigste retninger at teste balancen i. Du kan læse [mere om Y-balancetesten her]({% link _posts/2020-11-19-y-balance.md %}).
+Y-balancetest er en enkel test til at teste balancen. Det er en forenkling af STAR-balancetesten med de vigtigste retninger at teste balancen i. Du kan læse [mere om Y-balancetesten her](/y-balance-test/).
 
 ## Opsamling på balancetests
 

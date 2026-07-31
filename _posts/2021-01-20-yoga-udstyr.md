@@ -43,7 +43,7 @@ Du får svaret på:
 
 ## Hvilket yogaudstyr skal du bruge for at dyrke yoga?
 
-Når du dyrker yoga, så skal du ikke nødvendigvis investere i en masse dyrt yogaudstyr. Men noget udstyr kan gøre din yogapraksis til en større fornøjelse, så du har mulighed for at slappe af i øvelserne og udføre de enkelte [yogaøvelser]({% link _posts/2020-08-30-yogastillinger.md %}) mere hensigtsmæssigt, så de passer til dit nuværende niveau.
+Når du dyrker yoga, så skal du ikke nødvendigvis investere i en masse dyrt yogaudstyr. Men noget udstyr kan gøre din yogapraksis til en større fornøjelse, så du har mulighed for at slappe af i øvelserne og udføre de enkelte [yogaøvelser](/yogastillinger-yogaovelser/) mere hensigtsmæssigt, så de passer til dit nuværende niveau.
 
 Hvis du dyrker yoga i et center, så kan du som regel låne yogaudstyr. Jeg foretrækker dog at bruge yogamåtter og yogatæpper, som andre ikke har svedt på. Når du har dit eget yogaudstyr, så kan du jo også bruge udstyret derhjemme.
 
@@ -157,7 +157,7 @@ Det kan også være inspirerende at pynte dit yogarum op med wallstickers og pla
 
 Du kan komme i gang med yoga uden udstyr, men jeg vil helt klar anbefale i hvert fald en yogamåtte, og du vil formentlig også blive glad for at hav enogle yogablokke.
 
-Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere](/artikel/de-fem-tibetanere/) og [Solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/) - eller [musik til yoga, mindfulness og meditation]({% link _posts/2020-07-02-musik-yoga.md %}). Jeg kan også læse mere om [mindfulness meditation](/mindfulness-meditation/).
+Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere](/artikel/de-fem-tibetanere/) og [Solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/) - eller [musik til yoga, mindfulness og meditation](/yoga-musik/). Jeg kan også læse mere om [mindfulness meditation](/mindfulness-meditation/).
 
 Hvis du vælger at købe noget udstyr, og finder noget du kan lide hos vores samarbejdspartnere  [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034){: rel='sponsored nofollow noopener' } og [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484){: rel='sponsored nofollow noopener' }, så brug gerne vores links. Vi tjener en lille kommision for det du vælger at købe, men din pris er den samme. Tjek dem ud! De har nogle ret fede ting.
 

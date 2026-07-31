@@ -22,7 +22,7 @@ breadcrumbs: 'true'
 
 Løb på løbebånd er en af de træningsformer, der kan skabe mange diskussioner. Nogle kan godt lide at træne på løbebånd, mens andre meget hellere vil udendørs. Et løbebånd er i hvert fald et godt redskab til tests og analyse, fordi det er lettere at benytte end at løbe udenfor.
 
-Løbebånd bruges også ofte nu om dage, hvis man skal have nye løbesko. Mange forretninger laver en såkaldt “løbestilsanalyse”, hvor de forsøger at analysere sig frem til, hvilke løbesko man har brug for. Jeg har skrevet et andet indlæg, der kort berører, hvilken [betydning løbesko har for risikoen for løbeskader]({% link _posts/2013-05-04-loeb-uden-skader.md %}).
+Løbebånd bruges også ofte nu om dage, hvis man skal have nye løbesko. Mange forretninger laver en såkaldt “løbestilsanalyse”, hvor de forsøger at analysere sig frem til, hvilke løbesko man har brug for. Jeg har skrevet et andet indlæg, der kort berører, hvilken [betydning løbesko har for risikoen for løbeskader](/artikel/loebeskader-loebe-uden-skader/).
 
 ## Hvordan får du det optimale ud af træning på løbebånd?
 

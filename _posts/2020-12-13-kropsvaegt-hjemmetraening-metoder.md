@@ -20,7 +20,7 @@ toc: 'true'
 
 Jeg har samlet metoder til at gøre din hjemmetræning mere effektiv. Når du træner hjemme, så træner du ofte uden udstyr eller med begrænset udstyr. Jeg træner ofte selv øvelser med kropsvægt, når jeg træner hjemme, men jeg vælger effektive øvelser, og så bruger jeg forskellige metoder for at gøre træningen endnu mere effektiv.
 
-Metoderne kan også bruges i styrketræningsrummet, men er særdeles effektive, når du kaster dig ud i [hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}).
+Metoderne kan også bruges i styrketræningsrummet, men er særdeles effektive, når du kaster dig ud i [hjemmetræning](/hjemmetraening-traeningsprogram/).
 
 {% comment %}
 
@@ -67,7 +67,7 @@ Weak lateral hips can be a precursor to injury by altering movement mechanics. E
 
 ### Iso Pre-fatigue - udtræt først musklen
 
-Metoden går ud på at udtrætte muskulaturen først med et isometrisk hold i bevægelsen. Isometrisk betyder, at man holder samme stilling i kroppen. Udtrætning med et [isometrisk]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}) hold er også en måde at arbejde med din vilje på.
+Metoden går ud på at udtrætte muskulaturen først med et isometrisk hold i bevægelsen. Isometrisk betyder, at man holder samme stilling i kroppen. Udtrætning med et [isometrisk](/koncentrisk-excentrisk-isometrisk/) hold er også en måde at arbejde med din vilje på.
 
 I et isometrisk hold vælger du en position i bevægelsen, hvor du kan føle høj spænding i musklen. Det gælder særligt, hvis du gerne vil arbejde med muskelvækst.
 
@@ -124,7 +124,7 @@ Hvis du kan lave flere end 12 samlede gentagelser, så kan du arbejde med pauser
 
 ## Brug tempoet
 
-Når man arbejder med tempoet i sine bevægelser, så kan man virkelig gøre det hele meget vanskeligere. Du kan både sænke tempoet i den [excentriske og koncentriske fase]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}).
+Når man arbejder med tempoet i sine bevægelser, så kan man virkelig gøre det hele meget vanskeligere. Du kan både sænke tempoet i den [excentriske og koncentriske fase](/koncentrisk-excentrisk-isometrisk/).
 
 ### Darden 30-10-30
 
@@ -136,7 +136,7 @@ Darden 30-10-30 er virkelig en hård øvelse, og du udfører den sådan her, fx 
 - Lav øjeblikkeligt derefter **10 almindelige gentagelser**, hvor du stadig kontrollerer den excentriske fase, fx med 2 sekunder.
 - Slut med **30 sekunders excentrisk fase** umiddelbart efter den 10. gentagelse.
 
-Hvis det er for let at bruge denne metode på _body weight squats_, så kan du prøve at lave flere gentagelser eller lave en squat-variation på et ben, fx [Bulgarian Split Squats]({% link _exercises/squat-bulgarian-split-39.md %}).
+Hvis det er for let at bruge denne metode på _body weight squats_, så kan du prøve at lave flere gentagelser eller lave en squat-variation på et ben, fx [Bulgarian Split Squats](/oevelse/bulgarian-split-squat/).
 
 {% comment %}
 

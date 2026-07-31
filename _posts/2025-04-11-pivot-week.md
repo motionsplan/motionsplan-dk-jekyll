@@ -140,7 +140,7 @@ Nogle eksempler på øvelser:
 <details markdown="1" class="faq">
   <summary>🦖 Pivot week i fitnesscenter</summary>
 
-Tilføj mobilitetstræning og [balancetræning](/balanacetraening/) til programmet. Du kan kopiere følgende program direkte ind i [Liftosaur](/liftosaur/), og så har du udgangspunktet for en pivot-uge.
+Tilføj mobilitetstræning og [balancetræning](/balancetraening/) til programmet. Du kan kopiere følgende program direkte ind i [Liftosaur](/liftosaur/), og så har du udgangspunktet for en pivot-uge.
 
 ```
 // Pivot week. Focus is on changing exercises. Do 1-2 weeks and get back to your regular training program.

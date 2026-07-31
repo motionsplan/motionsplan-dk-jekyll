@@ -71,7 +71,7 @@ Her kan du se de nyeste træningsøvelser.
 
 Vi har en lang række maveøvelser, der styrker din core og kropsstamme. Øvelserne kan udføres med kropsvægt, håndvægte, elastikker, bolde eller hjul. 
 
-Læs mere om [coretræning](/core/) og [fedttab på maven]({% link _posts/2020-07-07-mavefedt.md %}).
+Læs mere om [coretræning](/core/) og [fedttab på maven](/tab-fedt-paa-maven/).
 
 [Se alle maveøvelser](/maveoevelser/).
 </details>

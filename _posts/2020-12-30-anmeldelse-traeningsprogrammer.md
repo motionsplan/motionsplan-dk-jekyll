@@ -161,7 +161,7 @@ Eric Helms har lavet et par rigtig gode videoer, som du kan tage udgangspunkt i,
 
 ## Progression
 
-Et godt træningsprogram har en indbygget progression i programmet. Hvis du gerne vil have resultater på lang sigt, så skal du altså have [progression og progressivt overload i din styrketræning]({% link _posts/2020-12-07-progression-strength-training.md %}). Det betyder, at du fra uge til uge enten stiger i vægt, antal sæt, antal gentagelser eller andre måder at lave progression i dit styrketræningsprogram.
+Et godt træningsprogram har en indbygget progression i programmet. Hvis du gerne vil have resultater på lang sigt, så skal du altså have [progression og progressivt overload i din styrketræning](/progressionsmodeller-progressivt-overload/). Det betyder, at du fra uge til uge enten stiger i vægt, antal sæt, antal gentagelser eller andre måder at lave progression i dit styrketræningsprogram.
 
 Hvis der ikke er tænkt progression ind i træningsprogrammet, så overvej om ikke du skal vælge et andet program.
 
@@ -176,7 +176,7 @@ Når træningen er i gang, skal træningsplanen naturligvis tage udgangspunkt i 
 Du kan organisere styrketræningen på mange måder. Enten kan du køre sættene færdige i en øvelse, eller du kan blande øvelserne lidt. Du skal altså vælge mellem:
 
 - At køre sættene adskilt - fx hvis du træner for at blive rigtig stærk
-- At lave _supersets_, hvor du blander to øvelser - se [fx Superset Training Survival Guide]({% link _posts/2020-06-29-superset-guide.md %})
+- At lave _supersets_, hvor du blander to øvelser - se [fx Superset Training Survival Guide](/guide-superset/)
 
 ## Checkliste for valg af et styrketræningsprogram
 

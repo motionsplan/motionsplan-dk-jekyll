@@ -91,7 +91,7 @@ Ud over dit kondital (VO₂max) estimerer beregneren ovenfor også din **VDOT-v�
 
 VDOT er et begreb udviklet af den legendariske løbecoach Jack Daniels. Hvor konditallet fortæller, hvor stor din biologiske 'motor' er, tager VDOT også højde for din løbeøkonomi. Det gør VDOT ideelt til at planlægge din træning.
 
-👉 **[Brug vores Jack Daniels Løbeberegner til at finde dine specifikke træningstempi og VDOT-forudsigelser](/jack-daniels-loebeberegner/)**
+👉 **[Brug vores Jack Daniels Løbeberegner til at finde dine specifikke træningstempi og VDOT-forudsigelser](/loebesiden-jack-daniels-loebeberegner/)**
 
 ---
 

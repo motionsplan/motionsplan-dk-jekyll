@@ -112,33 +112,33 @@ Du kan se et af Fitness Worlds træningsprogrammer, som man kan lave hjemme kun 
 
 Det er relativt let at lave et styrketræningsprogram til hjemme. Først vælger du nogle kropsvægtsbaserede øvelser, som du kan skalere op og ned i forhold til hvor hårde de er.
 
-Vi har fx en artikel med nogle fremragende [benøvelser med kropsvægt]({% link _posts/2020-11-23-skadesforebyggelse.md %}).
+Vi har fx en artikel med nogle fremragende [benøvelser med kropsvægt](/skadesforebyggelse-skadesforebyggende-traening/).
 
-Du kan bruge [disse metoder til at gøre kropsvægtsøvelser mere effektive]({% link _posts/2020-12-13-kropsvaegt-hjemmetraening-metoder.md %}).
+Du kan bruge [disse metoder til at gøre kropsvægtsøvelser mere effektive](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/).
 
 ## Træn hjemme med klude og sliders
 
 Træning med sliders eller klude kan være rigtig effektivt til at give mere modstand i din træning. Jeg bruger ofte klude og sliders, når jeg skal lave nogle øvelser kun med kropsvægt. Det kan virkelig give en god effekt.
 
-Læs mere om [hjemmetræning med klude og sliders]({% link _posts/2020-12-13-hjemmetraening-med-klude.md %}).
+Læs mere om [hjemmetræning med klude og sliders](/hjemmetraening-med-klude-sliders/).
 
 ## TRX hjemmetræning
 
 Hvis man hænger en snor op med to håndtag, kalder man det 'suspension' træning. Træningsformen kaldes også slyngetræning, træning med slynger, TRX og Powersling.
 TRX er helt oplagt til hjemmetræning, fordi den er let at sætte op og kan være med til at give en alsidig træning.
 
-Vi har samlet nogle [TRX-øvelser]({% link _posts/2014-04-14-træning-med-slynger-trx-powersling-suspension-training.md %})
+Vi har samlet nogle [TRX-øvelser](/artikel/traening-med-slynger-trx-powersling-suspension-training/)
 
 ## Yoga hjemmetræning
 
-Det er oplagt at træne yoga hjemme på stuegulvet. Der findes en masse forskellige forslag til, hvordan du kan komme i gang med yoga. Hvis du vil se om det er noget for dig, så tjek vores forskellige [yogaøvelser og yogastillinger]({% link _posts/2020-08-30-yogastillinger.md %}).
+Det er oplagt at træne yoga hjemme på stuegulvet. Der findes en masse forskellige forslag til, hvordan du kan komme i gang med yoga. Hvis du vil se om det er noget for dig, så tjek vores forskellige [yogaøvelser og yogastillinger](/yogastillinger-yogaovelser/).
 
 Du kan fx prøve [yogaserien De fem Tibetanere](/artikel/de-fem-tibetanere/) eller en af de [kendte solhilsner](/artikel/solhilsen-a-b-surya-namaskar/)
 
 ## Corona Workouts til hjemmetræning
 
-Mette Bjerre som underviser på [Vejle Idrætshøjskole](https://www.vih.dk) har lavet nedenstående Corona-workouts, som du kan træne hjemme uden udstyr. Mette Bjerre var inspireret af eleverne til at lave en række knaldhårde [crossfit-inspirerede workouts]({% link _posts/2021-01-18-crossfit-workouts.md %}), som du kan bruge i din hjemmetræning.
-Her er inspiration til nogle [Corona workouts]({% link _posts/2021-01-14-corona-workouts.md %}).
+Mette Bjerre som underviser på [Vejle Idrætshøjskole](https://www.vih.dk) har lavet nedenstående Corona-workouts, som du kan træne hjemme uden udstyr. Mette Bjerre var inspireret af eleverne til at lave en række knaldhårde [crossfit-inspirerede workouts](/crossfit-workouts/), som du kan bruge i din hjemmetræning.
+Her er inspiration til nogle [Corona workouts](/corona-workouts/).
 {% include gallery id="gallery" caption="Øvelser til hjemmetræning og et hjemmetræningsprogram lavet af @mette_bjerre fra @vihdk" layout="half" %}
 Mette og de andre lærere lavede i alt workouts til 28 dage, så der er nok at tage fat på.
 
@@ -157,7 +157,7 @@ Hvis du vil i gang med at træne hjemme, så er der nogle ting, du kan være væ
 ### Ulemper ved hjemmetræning
 
 - du har måske brug for fantasi for at bevare interessen og motivationen til at fortsætte med din træning derhjemme.
-- du har ikke nogen til at hjælpe med, hvordan man udfører øvelserne og lave en god progression for din træning, så du [undgår skader]({% link _posts/2009-04-22-kan-styrketraening-forebygge-skader.md %}).
+- du har ikke nogen til at hjælpe med, hvordan man udfører øvelserne og lave en god progression for din træning, så du [undgår skader](/artikel/kan-styrketraening-forebygge-skader/).
 - hvis du ønsker fx vægtstænger eller andet lidt mere avanceret udstyr, så kan det være dyrt.
 - det kan blive kedeligt og demotiverende altid at træne alene.
 - der er mere inspirerende udstyr i et træningscenter.
@@ -169,11 +169,11 @@ Du kan lave hjemmetræning utrolig effektivt, hvis du finder motivationen til at
 
 Andre har brug for selskab for rigtig at blive motiveret, men det kan du også sagtens være ved hjemmetræning. Du kan finde sammen med andre, og I kan enten gøre det online, hvis I skal holde afstand, eller I kan mødes udenfor et sted.
 
-Der kan I fx skiftes til at stå for træningsøvelserne, og på den måde motivere hinanden. Vi har skrevet andre artikler, der handler om [træning med kropsvægt](/artikel/traening-med-kropsvaegt/) eller [udendørs træning]({% link _posts/2012-07-31-naturfitness.md %}), hvor der også er masser af inspiration at finde til hjemmetræning.
+Der kan I fx skiftes til at stå for træningsøvelserne, og på den måde motivere hinanden. Vi har skrevet andre artikler, der handler om [træning med kropsvægt](/artikel/traening-med-kropsvaegt/) eller [udendørs træning](/naturfitness/), hvor der også er masser af inspiration at finde til hjemmetræning.
 
 ## Har jeg brug for udstyr til hjemmetræning?
 
-Du behøver ikke noget udstyr for at træne hjemme. Måske kan du finde inspiration og motivation i at bruge elastikker, [kettlebells]({% link _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md %}), [TRX og slyngetræning]({% link _posts/2014-04-14-træning-med-slynger-trx-powersling-suspension-training.md %}) eller måske vil du gerne have det helt store udstyr.
+Du behøver ikke noget udstyr for at træne hjemme. Måske kan du finde inspiration og motivation i at bruge elastikker, [kettlebells](/artikel/hvordan-traener-man-med-kettlebells/), [TRX og slyngetræning](/artikel/traening-med-slynger-trx-powersling-suspension-training/) eller måske vil du gerne have det helt store udstyr.
 
 Hvis du har brug for udstyr, så kan du tjekke nogle af vores samarbejdspartnere ud. De har gode priser, og du er med til at støtte dette site, hvis du handler hos dem efter at have trykket på vores links.
 

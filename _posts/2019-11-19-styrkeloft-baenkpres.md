@@ -133,7 +133,7 @@ Vil du vide mere? [Alt om bælter til styrketræning](/baelte-styrketraening/)
 
 Det var en hurtig gennemgang af reglerne til styrkeløft til bænkpres, så du ikke er helt på bar bund, hvis du skal være med i et styrkeløftstævne.
 
-Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest]({% link _posts/2020-11-29-pap-prepare-to-maxtest.md %}).
+Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest](/pap-post-activation-potentiation-1rm-maxtest/).
 
 - Er du ny i styrkeløft? Læs den [komplette guide til styrkeløft](/styrkeloeft/).
 - Lær mere om teknikken i [guiden til bænkpres med stang](/oevelse/baenkpres/).

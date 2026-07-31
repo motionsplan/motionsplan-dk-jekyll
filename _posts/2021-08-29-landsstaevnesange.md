@@ -81,11 +81,11 @@ Jeg har samlet de officielle landsstævnesange her. Jeg har ikke kunnet finde an
 
 DGI holder landsstævne hver 4. år, og der bliver hvert år lavet officiel sang til begivenheden. Det er altid nogle flotte og ørehængende sange, som kan inspiere dig til bevægelse.
 
-Jeg har skrevet mere om [musik til træning](/artikel/musik-til-traeningen/) og et indlæg om den [bedste musik til yoga og meditation]({% link _posts/2020-07-02-musik-yoga.md %}).
+Jeg har skrevet mere om [musik til træning](/artikel/musik-til-traeningen/) og et indlæg om den [bedste musik til yoga og meditation](/yoga-musik/).
 
 ## Sange til Efterskolernes Landsstævne hold
 
-Ligesom der laves [sange til de olympiske lege]({% link _posts/2021-07-23-ol-sange.md %}) og fodboldslutrunderne laves [fodboldsange og kampsange](https://www.legestue.net/danske-fodboldsange-og-kampsange/), så findes der også officielle landsstævnesange.
+Ligesom der laves [sange til de olympiske lege](/ol-sange/) og fodboldslutrunderne laves [fodboldsange og kampsange](https://www.legestue.net/danske-fodboldsange-og-kampsange/), så findes der også officielle landsstævnesange.
 
 Sangene er egentlig skrevet til Efterskolernes Landsstævnehold, men typisk bliver sangene betragtet som mere eller mindre kendetegnende for landsstævnet som en slags stævnesang.
 

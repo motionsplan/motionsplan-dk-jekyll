@@ -30,7 +30,7 @@ At være effektiv handler om at få mest mulig træningseffekt for færrest muli
 
 Når du løber med høj intensitet i træningen, så får du både effekt på den maksimale iltoptagelse, den anaerobe tærskel og løbeøkonomien.
 
-Du kan udnytte [intervaltræning til løb](/intervallob-intervaltraening/), hvis du gerne vil have [dit kondital til at stige]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}), men du kan faktisk også gøre det meget enkelt ved at finde en gylden mellemvej mellem løbetræning med lav intensitet og løbetræning med høj intensitet.
+Du kan udnytte [intervaltræning til løb](/intervallob-intervaltraening/), hvis du gerne vil have [dit kondital til at stige](/hvor-hurtigt-mister-form-kondition/), men du kan faktisk også gøre det meget enkelt ved at finde en gylden mellemvej mellem løbetræning med lav intensitet og løbetræning med høj intensitet.
 
 Det mest enkle og effektive løbetræningsprogram, man kan forestille sig er utrolig effektivt. [Motion-online.dk](https://web.archive.org/web/20110606134040/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/det_mest_effektive_loebeprogram!/){:rel="nofollow"} foreslår dette effektive løbeprogram:
 
@@ -38,7 +38,7 @@ Det mest enkle og effektive løbetræningsprogram, man kan forestille sig er utr
 
 Det behøver faktisk ikke at være mere kompliceret at lave et effektivt løbeprogram, men der er et par retningslinjer, du skal følge i programmet.
 
-- Lav en [grundig opvarmning](/opvarmning/) først. Tjek vores [specifikke løbeopvarmning]({% link _posts/2021-08-23-opvarmning-loeb.md %}).
+- Lav en [grundig opvarmning](/opvarmning/) først. Tjek vores [specifikke løbeopvarmning](/opvarmning-loeb/).
 - Start lidt langsommere end du har lyst til på den første kilometer.
 - Løb de sidste fire kilometer i et konstant tempo. Tempoet skal være så højt som muligt.
 
@@ -85,6 +85,6 @@ Når du skal flytte din maksimale ydeevne, så skal du arbejde tæt på din maks
 
 ## Konklusion
 
-Du kan altså lave effektiv løbetræning på flere forskellige måder. Du kan gøre det ekstremt enkelt, eller du kan kigge lidt mere på en plan, som tager højde for forskellige energisystemer over tid. Vi har skrevet mange flere [træningsprogrammer til løb](/loebeprogrammer/). Du kan fx kigge på vores forslag til et [løbeprogram til 5 km]({% link _posts/2021-08-24-loebeprogrammer-5k.md %}).
+Du kan altså lave effektiv løbetræning på flere forskellige måder. Du kan gøre det ekstremt enkelt, eller du kan kigge lidt mere på en plan, som tager højde for forskellige energisystemer over tid. Vi har skrevet mange flere [træningsprogrammer til løb](/loebeprogrammer/). Du kan fx kigge på vores forslag til et [løbeprogram til 5 km](/loebeprogram-5km/).
 
 God fornøjelse med din effektive løbetræning.

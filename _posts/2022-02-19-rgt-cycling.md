@@ -9,8 +9,7 @@ toc: true
 toc_label: "Indhold i guiden"
 toc_sticky: true
 header:
-  overlay_image: /assets/images/blog/mywhoosh-guide.jpg
-  teaser: /assets/images/blog/mywhoosh-guide.jpg
+  teaser: /assets/images/unsplash/photo-1605235186583-a8272b61f9fe.jpg
   caption: *title
 category:
   - Cykling

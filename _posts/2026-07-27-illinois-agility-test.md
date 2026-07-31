@@ -15,7 +15,7 @@ tags:
   - retningsskift
   - sprint
 header:
-  teaser: /assets/images/illinois-test.jpg
+  teaser: /assets/images/tests/illinois-agility-test.webp
   caption: Illinois Agility Test – Standarden for måling af Change of Direction Speed (CODS)
 author_profile: true
 last_modified_at: '2026-07-28T08:00:00Z'

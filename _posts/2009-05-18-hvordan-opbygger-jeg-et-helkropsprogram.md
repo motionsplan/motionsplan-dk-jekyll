@@ -65,7 +65,7 @@ Du kan vælge fra følgende øvelser:
 
 Find øvelser der aktiverer de store muskler i benene og omkring hoften. Disse øvelser udfordrer især musklerne på lårets forside. Det kan være en god ide at nogle af øvelserne foregår på et ben for at udfordre balancen også.
 
-Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser]({% link _pages/exercises-tag-knee-dominant.md %}).
+Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser](/knaedominante-oevelser/).
 
 {% include figure image_path="/assets/images/crossfys.dk/www_Crossfys_dk_-1024x1024-33828490.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/) [📷](https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png){: rel='nofollow noopener' }" %}
 
@@ -76,7 +76,7 @@ Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser]({
 
 Find hoftedominante øvelser der især udfordrer musklerne omkring baglår og hofte og nederste ryg.
 
-Fx [dødløft](/doedloeft/) og [rumænsk dødløft](/oevelse/romanian-deadlift/) - [se flere hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}).
+Fx [dødløft](/doedloeft/) og [rumænsk dødløft](/oevelse/romanian-deadlift/) - [se flere hoftedominante øvelser](/hoftedominante-oevelser/).
 </details>
 
 <details markdown="1" class="faq">
@@ -84,7 +84,7 @@ Fx [dødløft](/doedloeft/) og [rumænsk dødløft](/oevelse/romanian-deadlift/)
 
 Find øvelser hvor du starter med hænderne tæt på kroppen og skubber en modstand væk fra dig. Du ksla gøre det både lodret og vandret. Det betyder at du skal vælge to øvelser i denne gruppe.
 
-Fx [armstrækning](/armbojninger-eller-armstraekninger-pushups/), [dips](/oevelse/dips/) og [arnold press](/oevelse/arnold-press/) - [Se flere presøvelser]({% link _pages/exercises-tag-press.md %}).
+Fx [armstrækning](/armbojninger-eller-armstraekninger-pushups/), [dips](/oevelse/dips/) og [arnold press](/oevelse/arnold-press/) - [Se flere presøvelser](/presoevelser/).
 
 </details>
 
@@ -93,13 +93,13 @@ Fx [armstrækning](/armbojninger-eller-armstraekninger-pushups/), [dips](/oevels
 
 Find øvelser hvor du starter med hænderne væk fra kroppen og trækker en modstand til dig. Du skal gøre det både lodret og vandret. Det betyder at du skal vælge to øvelser i denne gruppe.
 
-Fx [pullups](/oevelse/pullup/) og [rows](/oevelse/bent-over-rows-bor/) - [Se flere trækøvelser]({% link _pages/exercises-tag-pull.md %}).
+Fx [pullups](/oevelse/pullup/) og [rows](/oevelse/bent-over-rows-bor/) - [Se flere trækøvelser](/traekoevelser/).
 </details>
 
 <details markdown="1" class="faq">
   <summary><h3>Loaded carries</h3></summary>
 
-Jeg holder selv meget af *loaded carries*. De er med til at skabe en god stabilitet i kroppen, samtidig med at du lærer at håndtere vægt, mens du flytter kroppen. En meget brugt øvelse er [farmer walk]({% link _exercises/farmerwalk-304.md %}).
+Jeg holder selv meget af *loaded carries*. De er med til at skabe en god stabilitet i kroppen, samtidig med at du lærer at håndtere vægt, mens du flytter kroppen. En meget brugt øvelse er [farmer walk](/oevelse/farmerwalk/).
 
 Se flere [øvelser til loaded carries](/loaded-carries/).
 </details>
@@ -142,7 +142,7 @@ Hvordan du strukturerer de enkelte workouts er helt op til dig. Du kan enten væ
 Fordelene ved en helkropstræning er følgende.
 
 1. Du rammer hver muskelgruppe og bevægelsesmønster 3 gange om ugen, hvilket er rigtig godt for styrkefremgang, og det kan formentlig også virke rigtig fornuftigt for muskelvækst.
-2. Du har mulighed for at bruge forskellige træningsmetoder, intensitetszoner og måder at træne den enkelte muskel på. Et eksempel er fx [daily undulating periodisering]({% link _posts/2019-11-15-daily-undulating.md %}), hvor der bliver brugt forskellige intensiteter, men de samme øvelser og [Stærk-programmet](/artikel/staerk-traeningsprogram/), hvor der bruges forskellige variationer af de enkelte lignende løft hen over den ugentlige træning.
+2. Du har mulighed for at bruge forskellige træningsmetoder, intensitetszoner og måder at træne den enkelte muskel på. Et eksempel er fx [daily undulating periodisering](/dup/), hvor der bliver brugt forskellige intensiteter, men de samme øvelser og [Stærk-programmet](/artikel/staerk-traeningsprogram/), hvor der bruges forskellige variationer af de enkelte lignende løft hen over den ugentlige træning.
 3. Det er meget effektivt.
 4. Helkropstræning sænker måske myostatin mere end split træning. Myostatin er et protein, kroppen udskiller, for at begrænse væksten i musklerne.
 
@@ -150,7 +150,7 @@ Hvis du gerne vil udnytte alle fordelene ved et helkropsprogram, men samtidig og
 
 ## Ulemper ved et helkropsprogram
 
-Det kan være meget drænende at lave et helkropsprogram. Du bruger store basisløft, og det tager meget energi i kroppen. Samtidig kan en træning tage relativt lang tid, fordi du har brug for pauser mellem de enkelte sæt, men også mellem de enkelte øvelser. Du kan overveje at udnytte [supersæt]({% link _posts/2020-06-29-superset-guide.md %}), hvor du skifter mellem to øvelser.
+Det kan være meget drænende at lave et helkropsprogram. Du bruger store basisløft, og det tager meget energi i kroppen. Samtidig kan en træning tage relativt lang tid, fordi du har brug for pauser mellem de enkelte sæt, men også mellem de enkelte øvelser. Du kan overveje at udnytte [supersæt](/guide-superset/), hvor du skifter mellem to øvelser.
 
 ## Hvordan skal jeg træne i et fullbodyprogram?
 

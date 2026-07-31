@@ -63,4 +63,4 @@ Du kan variere grebet lidt. Et smallere greb vil aktivere triceps mere, mens et 
 
 ## Variationer af military
 
-En variation af military press er [push press]({% link _exercises/push-press.md %}).
+En variation af military press er [push press](/oevelse/push-press/).

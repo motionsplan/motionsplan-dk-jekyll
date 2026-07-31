@@ -35,8 +35,7 @@ function:
   en:
     - short: Depresses the scapula.
     - short: Protracts the scapula.
-image: /assets/images/anatomy/pectoralis-minor.jpg
-image_focus: /assets/images/anatomy/focus-pectoralis-minor.jpg
+image: /assets/images/anatomy/pectoralis-minor.webp
 ---
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen sørger primært for {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} samt {% endif %}{{ f.short | downcase }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en vigtig del af {{ page.functional_group | join: ", " | downcase }}.

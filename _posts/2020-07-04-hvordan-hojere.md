@@ -230,7 +230,7 @@ Vi er blevet vænnet til en lidt sammenkrøben positur, når vi sidder eller kig
 
 Du retter ryggen lidt mere, hvis du forestiller dig at der er en, der nænsomt tager fat i dit hoved og trækker det opad. På den måde bliver ryggen mere ret, brystkassen lidt mere fremskudt, og du vil opleve, at det faktisk er mere afslappende i ryggen.
 
-Jeg har skrevet et andet indlæg om at få en [bedre kropsholdning og rette ryggen]({% link _posts/2020-07-01-ret-ryg.md %}).
+Jeg har skrevet et andet indlæg om at få en [bedre kropsholdning og rette ryggen](/ret-ryggen-kropsholdning/).
 
 ## Bliv højere med strækøvelser
 
@@ -265,7 +265,7 @@ Hvis du er ældre end 20 år, så er din vækst formentlig stoppet. Hvis vi ser 
 
 Overvej dog ikke om du allerede nu kan være godt tilfreds med lige netop den højde, du har?
 
-Jeg har skrevet et andet indlæg om at få en [bedre kropsholdning og rette ryggen]({% link _posts/2020-07-01-ret-ryg.md %}), som får alle til at være lidt højere.
+Jeg har skrevet et andet indlæg om at få en [bedre kropsholdning og rette ryggen](/ret-ryggen-kropsholdning/), som får alle til at være lidt højere.
 
 ## Reklamer
 

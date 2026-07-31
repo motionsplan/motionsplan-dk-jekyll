@@ -89,19 +89,21 @@ jobs:
           path: "_site/"
           key: ${{ runner.os }}-${{ github.sha }}
 
-      - name: ⚡️ Cache HTMLProofer
-        id: cache-htmlproofer
-        uses: actions/cache@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          path: tmp/.htmlproofer
-          key: ${{ runner.os }}-htmlproofer
+          node-version: '20'
 
-      - name: 📉 Check HTML
-        uses: chabad360/htmlproofer@master
-        with:
-          directory: "./_site"
-          arguments: |
-            --only-4xx
-            --disable-external
-            --ignore-empty-alt
-            --allow-hash-href
+      - name: 📉 Check internal links with Linkinator
+        run: |
+          # 1. Start en lynhurtig statisk webserver i baggrunden (&) for mappen _site
+          npx http-server _site -p 4000 &
+          
+          # 2. Giv serveren 2 sekunder til at boote op
+          sleep 2
+          
+          # 3. Kør Linkinator som en crawler på tværs af hele det lokale site
+          # --skip '^http' sikrer, at vi kun tjekker de interne links
+          # --recurse sikrer, at den crawler hele sitet fra forsiden
+          # --silent sikrer, at du KUN ser fejl/fails i GitHub Actions loggen
+          npx linkinator http://localhost:4000 --skip '^http' --recurse --silent

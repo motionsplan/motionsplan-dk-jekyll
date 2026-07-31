@@ -35,4 +35,4 @@ video:
 
 ## Hvad er triceps?
 
-Triceps er musklen bag på overarmen, som er med til at strække armen som sin primære funktion. For at strække den rigtigt, er det godt at vide, hvor musklen udspringer og hæfter. Du kan læse mere om [triceps under vores anatomi guide]({% link _anatomy/triceps-brachii.md %}).
+Triceps er musklen bag på overarmen, som er med til at strække armen som sin primære funktion. For at strække den rigtigt, er det godt at vide, hvor musklen udspringer og hæfter. Du kan læse mere om [triceps under vores anatomi guide](/triceps-brachii/).

@@ -23,7 +23,7 @@ header:
     - label: "<i class='fas fa-tools'></i> Værktøjer"
       url: "/vaerktoejer/"
     - label: "<i class='fas fa-brain'></i> Psykologiske tests"
-      url: "/vuderingsvaerktoejer/"
+      url: "/vurderingsvaerktoejer/"
 breadcrumbs: true
 classes: wide
 feature_row_navigation:
@@ -121,7 +121,7 @@ Værktøjer til dig, der træner i gymmet eller dyrker vægtløftning.
 <div class="notice--warning" markdown="1">
 ### 🏃‍♀️ Kondition & Løbeværktøjer
 Optimér din løbetræning og præstation.
-* **[Pulszoner Beregner](/pulszoner/)** – Find dine optimale træningszoner ud fra din hvile- og maxpuls.
+* **[Pulszoner Beregner](/pulszoner-beregner/)** – Find dine optimale træningszoner ud fra din hvile- og maxpuls.
 * **[Hastighed & Pace Beregner](/hastighed/)** – Omregn nemt mellem km/t og min/km.
 * **[VDOT & Løbetider](/loebesiden-jack-daniels-loebeberegner/)** – Forudsig dine løbetider på 5k, 10k, halvmaraton og maraton.
 

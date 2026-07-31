@@ -218,7 +218,7 @@ Jeg har skrevet en side, hvor du kan få hjælp til at [udregne dine egne pulszo
 
 ## Konklusion
 
-Træningszoner er et rigtig godt redskab til at kategorisere din træning. Du skal sørge for at ramme alle zonerne i løbet af din træning. Vi har skrevet mere om, [hvordan du laver et løbeprogram her]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}). Jeg kan rigtig godt lide at programmere træning ud fra tid i stedet for distance. Derved kan både de hurtigere og langsommere løbere følge samme fremgangsmåde.
+Træningszoner er et rigtig godt redskab til at kategorisere din træning. Du skal sørge for at ramme alle zonerne i løbet af din træning. Vi har skrevet mere om, [hvordan du laver et løbeprogram her](/guide-til-loebeprogram/). Jeg kan rigtig godt lide at programmere træning ud fra tid i stedet for distance. Derved kan både de hurtigere og langsommere løbere følge samme fremgangsmåde.
 
 Hvis du vil lære lidt mere om forskellige træningsmodeller, så kan du lade dig inspirere af følgende video:
 
@@ -243,7 +243,7 @@ Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 
 Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer](/energisystemer/), som er nødvendige for effekten af løbetræningen.
 
-Det kan være meget [effektivt at løbe fem kilometer med høj intensitet tre gange om ugen]({% link _posts/2010-07-26-det-mest-effektive-loebeprogram-til-forbedre-din-praestation.md %}), men på sigt kan du få endnu bedre resultater af dit løbeprogram ved at variere det tempo, du løber i. Når du varierer træningen, bliver løbetræningen forhåbentlig også mere inspirerende.
+Det kan være meget [effektivt at løbe fem kilometer med høj intensitet tre gange om ugen](/artikel/det-mest-effektive-loebeprogram-til-forbedre-din-praestation/), men på sigt kan du få endnu bedre resultater af dit løbeprogram ved at variere det tempo, du løber i. Når du varierer træningen, bliver løbetræningen forhåbentlig også mere inspirerende.
 
 Der er fordele og ulemper ved de forskellige måder at måle intensiteten i din træning.
 
@@ -272,7 +272,7 @@ Udholdenhedstræning kaldes også sommetider for Long Slow Distance (LSD). Når 
 
 Udholdenhed er naturligvis vigtig, når du træner langdistanceløb. Udholdenhedstræningen fremmer kroppens evne til at tolerere bevægelse over længere tid, evnen til at forbrænde fedt og forbedre kredsløbet.
 
-Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapacitet. Der sker altså nogle [fysiologiske tilpasninger og adaptation er til udholdenhedstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapacitet. Der sker altså nogle [fysiologiske tilpasninger og adaptation er til udholdenhedstræning](/tilpasning-konditionstraening/).
 
 - Der kommer flere mitochondrier, og de bliver mere effektive
 - Der kommer flere små blodårer (kapillærer) omkring musklerne og ved lungerne
@@ -283,7 +283,7 @@ Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapac
 
 Når du træner udholdenhedstræning, så skal intensiteten være med en pulsbelastning på omkring 60-75% af din _heart rate reserve_.
 
-Hvis man fx bruger [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}), så skal tempoet med andre ord være i "snakketempo". Du skal finde et behageligt tempo, hvor du kan føre en samtale undervejs i længere sætninger. Tempoet er 30-60 sekunder/km langsommere end det såkaldte maratontempo.
+Hvis man fx bruger [Borg-skalaen](/borg-skala/), så skal tempoet med andre ord være i "snakketempo". Du skal finde et behageligt tempo, hvor du kan føre en samtale undervejs i længere sætninger. Tempoet er 30-60 sekunder/km langsommere end det såkaldte maratontempo.
 
 Når du træner udholdenhedstræning vil det typisk være en tur på 1-2 timer. Du kan opbygge turen, så du starter lidt langsommere på omkring 60% pulsbelastning og bygger op mod 80% i slutningen.
 
@@ -350,7 +350,7 @@ Træningsmængden indenfor AT-træning bør ikke overstige 10% af ugens samlede 
 
 ## Træning af maksimal iltoptagelse (VO₂max)
 
-Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den [maksimale iltoptagelse]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}) er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob).
+Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den [maksimale iltoptagelse](/hvor-hurtigt-mister-form-kondition/) er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob).
 
 Der er flere faktorer, der bestemmer den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), som fx:
 
@@ -358,7 +358,7 @@ Der er flere faktorer, der bestemmer den [maksimale iltoptagelse](/maksimale-ilt
 - Mængden af røde blodlegemer
 - Musklernes evne til at optage blodet fra blodet.
 
-Når du forbedrer din maksimale iltoptagelse, så vil du også alt andet lige [forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Du kan altså med en højere maksimal iltoptagelse lettere forbedre din ydeevne i forhold til din vægt. Det betyder, at du i praksis kan løbe med højere hastighed.
+Når du forbedrer din maksimale iltoptagelse, så vil du også alt andet lige [forbedre dit kondital](/hvor-hurtigt-mister-form-kondition/). Du kan altså med en højere maksimal iltoptagelse lettere forbedre din ydeevne i forhold til din vægt. Det betyder, at du i praksis kan løbe med højere hastighed.
 
 ### Udførelse
 
@@ -481,7 +481,7 @@ Roligt løb kan bruges meget i træning, så længe den samlede træningsmængde
 
 Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen](/restitution/) og [restitutionstiden](/restitution/).
 
-Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2020-05-28-restitutionstraening.md %}).
+Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning](/restitutionstraening/).
 
 Nogle af de ting restitutionstræning kan hjælpe med er at:
 

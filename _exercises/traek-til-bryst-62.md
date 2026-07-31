@@ -89,7 +89,7 @@ Pulldown er flerledsøvelse, som er i kategorien for vertikale trækøvelser. Pu
 
 ## Træk til bryst eller nakke
 
-Pulldown kaldes på dansk ‘træk til bryst’ eller ‘træk til nakke’ afhængigt af, hvordan du udfører øvelsen. Jeg har skrevet lidt om [træk til nakke her]({% link _exercises/traek-til-nakke-286.md %}).
+Pulldown kaldes på dansk ‘træk til bryst’ eller ‘træk til nakke’ afhængigt af, hvordan du udfører øvelsen. Jeg har skrevet lidt om [træk til nakke her](/oevelse/traek-til-nakke/).
 
 ## Teknikken i pulldown
 

@@ -43,7 +43,7 @@ Derudover ligger den mindre brystmuskel (**Pectoralis Minor**) dybere under den 
 For at opnå maksimal fremgang i din brysttræning bør dit træningsprogram bestå af en god balance mellem to overordnede øvelsestyper:
 
 ### 1. Flerledsøvelser (Basisøvelser)
-Øvelser som [bænkpres](/baenkpres-17.md), skråt håndvægtspres, [armstrækninger](/armbojninger-eller-armstraekninger-pushups/) og dips involverer flere led samtidigt (skulderled og albueled). Her arbejder brystmusklen sammen med skuldrenes forside (*Anterior Deltoid*) og armenes bagside (*Triceps Brachii*). Flerledsøvelser giver dig mulighed for at løfte tungere belastning og skabe det [progressive overload](/progressionsmodeller-progressivt-overload/), der er nøglen til styrke og vækst.
+Øvelser som [bænkpres](/oevelse/baenkpres/), skråt håndvægtspres, [armstrækninger](/armbojninger-eller-armstraekninger-pushups/) og dips involverer flere led samtidigt (skulderled og albueled). Her arbejder brystmusklen sammen med skuldrenes forside (*Anterior Deltoid*) og armenes bagside (*Triceps Brachii*). Flerledsøvelser giver dig mulighed for at løfte tungere belastning og skabe det [progressive overload](/progressionsmodeller-progressivt-overload/), der er nøglen til styrke og vækst.
 
 ### 2. Isolationsøvelser
 Øvelser som cable flyes, pec deck og håndvægtsflyes isolerer brystmusklen over kun ét led (skulderleddet). Da triceps fjernes fra bevægelsen, tillader isolationsøvelser dig at fokusere 100% på et dybt stræk i bunden og en kraftig sammentrækning (*squeeze*) i toppen uden at blive begrænset af armstyrken.

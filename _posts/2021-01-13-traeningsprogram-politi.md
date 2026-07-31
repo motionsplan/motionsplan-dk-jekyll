@@ -272,4 +272,4 @@ Du kan lade dig inspirere til, hvordan du kan [forberede dig til politiets fysis
 
 Vi har andre forslag til [træningsprogrammer](/traeningsprogrammer/), [styrketræningsprogrammer](/styrketraeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/).
 
-Hvis du mere er typen, der gerne vil have en workout inspiraret af crossfit, så kan du tjekke flere eksempler på [workouts til hjemmetræning og træningsprogrammer]({% link _posts/2020-08-06-hjemmetraening.md %}) eller vores [28 Corona Workouts](/corona-workouts/).
+Hvis du mere er typen, der gerne vil have en workout inspiraret af crossfit, så kan du tjekke flere eksempler på [workouts til hjemmetræning og træningsprogrammer](/hjemmetraening-traeningsprogram/) eller vores [28 Corona Workouts](/corona-workouts/).

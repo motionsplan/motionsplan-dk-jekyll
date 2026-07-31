@@ -281,7 +281,7 @@ Du kan også finde inspiration i de 10 ugers træningsprogram. Det er nemlig væ
 
 Hvis du gerne vil _tracke_ om du kommer i bedre form, så kan du holde styr på træningsbelastningen med et pulsur. Romaskinen måler dit arbejde, og hvis du med det samme arbejde efterhånden får en lavere puls, så er du kommet i bedre form.
 
-Du kan også lave [Concept2s 2000 meter test for at finde dit kondital]({% link _posts/2020-11-08-kondital-roning.md %}) før og efter dit træningsprogram. På den måde har du et godt mål for din træning.
+Du kan også lave [Concept2s 2000 meter test for at finde dit kondital](/kondital-roning/) før og efter dit træningsprogram. På den måde har du et godt mål for din træning.
 
 ## Køb din egen indendørs romaskine
 

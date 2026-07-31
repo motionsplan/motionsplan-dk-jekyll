@@ -146,11 +146,11 @@ Med udgangspunkt i R7-faserne fra Bulletproof Athlete så kunne et forslag til e
 
 ### R1 --- Release
 
-I denne fase bruger jeg ofte [foamrolling eller SMR]({% link _posts/2020-04-16-smr.md %}).
+I denne fase bruger jeg ofte [foamrolling eller SMR](/foamrolling-foamroller-lacrossebolde/).
 
 ### R2 --- Reset
 
-[Åndedrætsøvelser og vejrtrækningsøvelser]({% link _posts/2020-04-30-forbedr-din-udholdenhed-aandedraet.md %}), som gør dig klar til træningen. Det kunne også være specifikke øvelser, som forbedrer din evne til at komme i den rigtige position.
+[Åndedrætsøvelser og vejrtrækningsøvelser](/aandedraetstraening-forbedrer-udholdenheden/), som gør dig klar til træningen. Det kunne også være specifikke øvelser, som forbedrer din evne til at komme i den rigtige position.
 
 ### R3 --- Readiness
 

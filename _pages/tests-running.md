@@ -39,7 +39,7 @@ feature_row_cooper_test:
   credit: https://images.unsplash.com/photo-1496163668521-39614a16b23f
   alt: Cooper-test
   title: Cooper-test eller 2400 meter test
-  excerpt: Hvis du ikke har adgang til et laboratorie og måleudstyr, så er [Coopers 12 minutters løbetest](/cooper-test/) eller [2400 meter testen](/kondital-2400-meter/) et rigtig godt bud på en maksimal konditionstest. Du kan også vælge [bib-testen](/bip-tests/),
+  excerpt: Hvis du ikke har adgang til et laboratorie og måleudstyr, så er [Coopers 12 minutters løbetest](/cooper-test/) eller [2400 meter testen](/kondital-2400-meter/) et rigtig godt bud på en maksimal konditionstest. Du kan også vælge [bib-testen](/bip-test/),
     som er let at udføre på begrænset plads.
   url: /cooper-test/
   btn_label: Prøv Cooper-testen

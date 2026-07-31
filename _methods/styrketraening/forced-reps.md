@@ -54,7 +54,7 @@ card_data:
   {% include figure image_path=page.header.teaser %}
 {% endif %}
 
-Selvom _forced reps_ ser noget anderledes ud, så kan de sammenlignes med [dropsæt]({% link _methods/styrketraening/dropset.md %}). I _forced reps_ er det bare en spotter, der hjælper med at reducere den eksterne modstand ved at hjælpe med løftet i stedet for at reducere vægten på stangen.
+Selvom _forced reps_ ser noget anderledes ud, så kan de sammenlignes med [dropsæt](/styrketraening/dropset/). I _forced reps_ er det bare en spotter, der hjælper med at reducere den eksterne modstand ved at hjælpe med løftet i stedet for at reducere vægten på stangen.
 
 Der er ikke lavet ret meget research på _forced repetititions_, og den aktuelle research har kun kigget på maksimal styrke og ikke på muskelstørrelse. Da metoden ligner dropset, så må man imidlertid forvente lignende effekter.
 

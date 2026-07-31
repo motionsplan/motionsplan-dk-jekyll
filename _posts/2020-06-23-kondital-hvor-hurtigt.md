@@ -98,9 +98,9 @@ Den maksimale iltoptagelse og evnen til at udnytte ilten afhænger af forskellig
 
 Hvilken af disse parametre der har en så hurtig tilpasningsgrad, har jeg endnu ikke fundet svaret på. Hvis du ved det, så brug endelig kommentarerne.
 
-Jeg har skrevet endnu mere om de fysiologiske tilpasninger til konditionstræning tidligere, hvis du er interesseret i at gå endnu mere i dybden med de [fysiologiske adaptationer til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+Jeg har skrevet endnu mere om de fysiologiske tilpasninger til konditionstræning tidligere, hvis du er interesseret i at gå endnu mere i dybden med de [fysiologiske adaptationer til konditionstræning](/tilpasning-konditionstraening/).
 
-Jeg har også skrevet om, hvor hurtigt musklemasse og muskelstyrke kan [vokse]({% link _posts/2020-06-19-hurtigt-vokser-muskler.md %}) eller [forsvinde]({% link _posts/2020-06-23-atrofi-hvor-hurtigt.md %}) og de [fysiologiske tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
+Jeg har også skrevet om, hvor hurtigt musklemasse og muskelstyrke kan [vokse](/hvor-hurtigt-vokser-muskler/) eller [forsvinde](/atrofi-muskelmasse-muskelstyrke/) og de [fysiologiske tilpasninger til styrketræning](/fysiologiske-tilpasninger/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

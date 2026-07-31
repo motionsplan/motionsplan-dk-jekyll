@@ -18,7 +18,7 @@ sidebar:
   nav: exercises
 ---
 
-En stærk og veludviklet baldemuskulatur er ikke kun æstetisk eftertragtet – den er en fysiologisk kraftstation. Ballerne udgør det primære hængsel i kroppens [hoftemønster](/hoftemoenster/) og er afgørende for din præstation i alt fra tunge løft og sprint til hop og retningsskift.
+En stærk og veludviklet baldemuskulatur er vigtig for kroppens funktion. Ballerne udgør det primære hængsel i kroppens _hip hinge_ og er afgørende for din præstation i alt fra tunge løft og sprint til hop og retningsskift.
 
 Derudover fungerer stærke baldemuskler som kroppens naturlige værn mod lændesmerter og knæproblemer ved at sikre en stabil bækkenstilling og korrekt knæjustering under belastning.
 
@@ -32,7 +32,7 @@ For at opbygge et komplet og balanceret træningsprogram til ballerne er det en 
 
 ### 1. Gluteus Maximus (Den store baldemuskel)
 Dette er kroppens største og kraftigste muskel. Hovedfunktionen er **hofteekstension** (at strække hoften ud og skubbe bækkenet fremad), samt udadrotation i hoften.
-* **Bedste øvelser:** [Hip Thrust](/oevelse/hip-thrusters/), [Squat](/squat-dybt/), [Rumænsk Dødløft](/rumaensk-doedloeft/) og Step-ups.
+* **Bedste øvelser:** [Hip Thrust](/oevelse/hip-thrusters/), [Squat](/squat-dybt/), [Rumænsk Dødløft](/oevelse/romanian-deadlift/) og Step-ups.
 
 ### 2. Gluteus Medius (Den midterste baldemuskel)
 Sidder på ydersiden af hoften. Hendes primære opgave er **abduktion** (at føre benet ud til siden) og at holde bækkenet stabilt, når du står eller går på ét ben.
@@ -57,7 +57,7 @@ Vil du nørde fysiologien og lære mere om udspring, hæfte, nerveforsyning og f
 For at stimulere alle muskelfibre i ballerne optimalt bør dit træningsprogram indeholde en blanding af to overordnede bevægelsesvektorer:
 
 1. **Aksiale/Vertikale øvelser (Maksimal spænding i udstrakt position):** 
-   I øvelser som [squat](/squat-dybt/), lunges og [rumænsk dødløft](/rumaensk-doedloeft/) er belastningen størst i bunden af bevægelsen, hvor baldemusklen er helt udstrakt. Det dybe stræk under belastning er en af de stærkeste udløsere af [muskelvækst (hypertrofi)](/muskelvaekst-hypertrofi/).
+   I øvelser som [squat](/squat-dybt/), lunges og [rumænsk dødløft](/oevelse/romanian-deadlift/) er belastningen størst i bunden af bevægelsen, hvor baldemusklen er helt udstrakt. Det dybe stræk under belastning er en af de stærkeste udløsere af [muskelvækst (hypertrofi)](/muskelvaekst-hypertrofi/).
 2. **Anteroposteriore/Horisontale øvelser (Maksimal spænding i afkortet position):** 
    I øvelser som [Hip Thrust](/oevelse/hip-thrusters/) og Glute Bridge rammer spændingen sit absolutte toppunkt i toppen af bevægelsen, når hoften er fuldt strakte igennem.
 
@@ -92,6 +92,5 @@ Nedenfor finder du vores samlede oversigt over balleøvelser med detaljerede ins
 ## Relaterede emner og næste skridt
 
 * 🍗 **[Benøvelser](/benoevelser/)** – Se den samlede oversigt over øvelser til lår, baglår og lægge.
-* 🔄 **[Hoftemønster](/hoftemoenster/)** – Lær fysiologien bag hoftehængslet og dødløftvariationer.
 * 🏋️ **[Styrketræning](/styrketraening/)** – Bliv klogere på træningsplanlægning, sæt, reps og pauser.
-* 🧬 **[Gluteus Maximus anatomi](/muskler/gluteus-maximus/)** – Dyk ned i udspring, hæfte og innervation for den store baldemuskel.
+* 🧬 **[Gluteus Maximus anatomi](/gluteus-maximus/)** – Dyk ned i udspring, hæfte og innervation for den store baldemuskel.

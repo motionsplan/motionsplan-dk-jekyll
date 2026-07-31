@@ -9,8 +9,8 @@ toc: true
 toc_label: "Indhold i guiden"
 toc_sticky: true
 header:
-  overlay_image: /assets/images/blog/bkool-guide.jpg
-  teaser: /assets/images/blog/bkool-guide.jpg
+  overlay_image: /assets/images/cdnwebpub.bkool.com/bkool-family-2x-6641ad95.jpg
+  teaser: /assets/images/cdnwebpub.bkool.com/bkool-family-2x-6641ad95.jpg
   caption: *title
 category:
   - Cykling

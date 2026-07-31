@@ -131,13 +131,13 @@ Du kan få ømme muskler af forskellige øvelser, så snart du arbejder hårdere
 
 Der er imidlertid også nogle øvelser, hvor risikoen for ømme muskler er større end ved andre øvelser.
 
-Hvis du laver øvelser med et stort [excentrisk komponent]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}), så bliver mikroskaderne i musklerne typisk lidt større. Det sker formentlig, fordi proteintrådene, som holder fast for at skabe muskelkontraktionen, ender med at blive skadet, fordi kraften er høj. Derfor forårsager [excentrisk træning](/excentrisk-traening/) flere mikroskader, og for at undgå ømhed foreslår [Cheung et al (2003)](https://pubmed.ncbi.nlm.nih.gov/12617692/), at du indfaser excentrisk træning over 1-2 uger.
+Hvis du laver øvelser med et stort [excentrisk komponent](/koncentrisk-excentrisk-isometrisk/), så bliver mikroskaderne i musklerne typisk lidt større. Det sker formentlig, fordi proteintrådene, som holder fast for at skabe muskelkontraktionen, ender med at blive skadet, fordi kraften er høj. Derfor forårsager [excentrisk træning](/excentrisk-traening/) flere mikroskader, og for at undgå ømhed foreslår [Cheung et al (2003)](https://pubmed.ncbi.nlm.nih.gov/12617692/), at du indfaser excentrisk træning over 1-2 uger.
 
 Hvis du laver mange sprintøvelser og spring med landinger, er der et stort excentrisk komponent, fordi du skal bremse bevægelsen nedad. Hvis du aldrig har prøvet at blive øm i musklerne i forbindelse med træning, så kan du prøve at sprinte flere gange efter hinanden på en bakke, der går en lille smule nedad. Så lover jeg dig, at du finder ud af, hvad andendagsømhed er.
 
 Når du laver fx squat, lunges, romanian deadlift (RDL) for første gang i et stykke tid, så kan du også ende med at blive rigtig øm i benene dagen efter. Typisk kan man godt lave en del gentagelser i den enkelte træning, så man kan godt blive lidt overrasket dagen efter.
 
-Hvis man kigger på [sportsgrene og idrætsgrene]({% link _posts/2020-09-03-sportsgrene.md %}), så er der bevægelsesmønstre i badminton, squash og fodbold, hvor du også kan redde dig en gevaldig omgang DOMS.
+Hvis man kigger på [sportsgrene og idrætsgrene](/sportsgrene-liste/), så er der bevægelsesmønstre i badminton, squash og fodbold, hvor du også kan redde dig en gevaldig omgang DOMS.
 
 ## Hvordan undgår jeg at blive øm efter træning?
 

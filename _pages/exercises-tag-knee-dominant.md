@@ -46,7 +46,7 @@ faq:
 
 Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af knædominante øvelser, som du kan bruge i din styrketræning af benene. De knædominante øvelser træner særligt forsiden af benene.
 
-Bentræning kan foregå både med frie vægte og lave squat og lunges og i benmaskine som benpres og leg extensions. Du kan bruge vægtstang, håndvægte, kettlebells og [Safety Bar Squats]({% link _posts/2020-07-05-safetybar-squat.md %}).
+Bentræning kan foregå både med frie vægte og lave squat og lunges og i benmaskine som benpres og leg extensions. Du kan bruge vægtstang, håndvægte, kettlebells og [Safety Bar Squats](/safety-bar-squats/).
 
 Når man træner underkoppen, så opererer man med et kontinuum for, hvornår en øvelse karakteriseres som hoftedomineret frem for knædomineret.
 
@@ -93,4 +93,4 @@ Der er naturligvis ikke noget i vejen med de klassiske øvelser til bentræninge
 
 ## Konklusion om knædominante øvelser
 
-Vi har også skrevet om [ankelleddet og musklerne i anklen]({% link _pages/anatomy/ankelleddet-og-fodleddet.md %}), [knæleddet og musklerne omkring knæet]({% link _pages/anatomy/knaeleddet.md %}) og [hofteleddet og musklerne omkring hofteleddet]({% link _pages/anatomy/hofteleddet.md %}), som du træner med med benøvelser.
+Vi har også skrevet om [ankelleddet og musklerne i anklen](/joints/ankelleddet-og-fodleddet/), [knæleddet og musklerne omkring knæet](/joints/knaeleddet/) og [hofteleddet og musklerne omkring hofteleddet](/joints/hofteleddet/), som du træner med med benøvelser.

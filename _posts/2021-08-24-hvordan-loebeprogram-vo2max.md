@@ -35,7 +35,7 @@ Der er flere faktorer, der bestemmer den [maksimale iltoptagelse](/maksimale-ilt
 - Mængden af røde blodlegemer
 - Musklernes evne til at optage blodet fra blodet.
 
-Når du forbedrer din maksimale iltoptagelse, så vil du også alt andet lige [forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Du kan altså med en højere maksimal iltoptagelse lettere forbedre din ydeevne i forhold til din vægt. Det betyder, at du i praksis kan løbe med højere hastighed.
+Når du forbedrer din maksimale iltoptagelse, så vil du også alt andet lige [forbedre dit kondital](/hvor-hurtigt-mister-form-kondition/). Du kan altså med en højere maksimal iltoptagelse lettere forbedre din ydeevne i forhold til din vægt. Det betyder, at du i praksis kan løbe med højere hastighed.
 
 ## Udførelse
 

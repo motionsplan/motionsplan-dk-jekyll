@@ -48,7 +48,7 @@ Jeg har skrevet et andet indlæg om at vælge musik til træningen, hvor jeg skr
 >
 > --- <cite>[Musik til træningen: Hvordan finder du de bedste sange?](/artikel/musik-til-traeningen/)</cite>
 
-Når musik kan påvirke retitutionsfasen i din træning, så er musik til yoga helt sikkert også en god ide. Musikken kan altså gøre dig mere afslappet under de enkelte [yogaøvelser]({% link _posts/2020-08-30-yogastillinger.md %}).
+Når musik kan påvirke retitutionsfasen i din træning, så er musik til yoga helt sikkert også en god ide. Musikken kan altså gøre dig mere afslappet under de enkelte [yogaøvelser](/yogastillinger-yogaovelser/).
 
 ## 5 tips til den perfekte playliste til yoga og mindfulness
 
@@ -127,4 +127,4 @@ Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træni
 
 Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere](/artikel/de-fem-tibetanere/) eller [Solhilsen](/artikel/solhilsen-a-b-surya-namaskar/) - eller måske er du interesseret i [Mindful meditation](/mindfulness-meditation/).
 
-Hvis du er på udkig efter [yogaudstyr, så tjek min guide]({% link _posts/2021-01-20-yoga-udstyr.md %}).
+Hvis du er på udkig efter [yogaudstyr, så tjek min guide](/guide/yoga-udstyr/).

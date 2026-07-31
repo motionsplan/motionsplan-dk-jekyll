@@ -19,7 +19,7 @@ toc: 'true'
 
 {{ page.excerpt }}
 
-Når du skal finde nogle gode løberuter, så er der nogle ting, du med fordel kan være opmærksom på. Det kan være en god ide at variere dine løberuter, når du gerne vil få det [optimale ud af din løbetur]({% link _posts/2021-08-24-loebetur.md %}).
+Når du skal finde nogle gode løberuter, så er der nogle ting, du med fordel kan være opmærksom på. Det kan være en god ide at variere dine løberuter, når du gerne vil få det [optimale ud af din løbetur](/loebetur/).
 
 Lad os kigge på nogle tips til at finde den optimale løberute.
 
@@ -37,7 +37,7 @@ Når du virkelig skal have fart på intervallerne og tiden for de enkelte interv
 
 Hvis du skal løbe en bestemt distance, så kan det være en fordel at måle ruten op hjemmefra. Jeg kan godt lide at løbe rundture, men faktisk er en ud-og-hjem-tur også rigtig dejlig at løbe. Der er stor forskel på, hvad du oplever, når du løber en rute den anden vej.
 
-Jeg har gennemgået [forskellige ruteopmålere til løberuter]({% link _posts/2021-08-24-loeberuter-ruteomaalere.md %}).
+Jeg har gennemgået [forskellige ruteopmålere til løberuter](/ruteopmaaler-loebetur/).
 
 ## Find en testrute
 
@@ -53,7 +53,7 @@ Når du løbetræner, så kan du både løbe hurtigt, løbe intervaller og løbe
 
 Når du skal løbe på en bestemt tid, så kan du overveje at få løberuten til at gå forbi fx et atletikstadion eller flade passager. Hvis du skal løbe bakkesprints, så kan du gøre det midt på en løberute, hvor du finder en bakke i passende hældning.
 
-Vi har skrevet meget mere om de forskellige [løbeformer og hvordan du laver et løbeprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %})?
+Vi har skrevet meget mere om de forskellige [løbeformer og hvordan du laver et løbeprogram](/guide-til-loebeprogram/)?
 
 ## Brug det du kommer forbi
 

@@ -123,7 +123,7 @@ P = power in watts, T = time in seconds, CP = critical power in Watts, W’ = �
 
 ## Træningszoner baseret på CP
 
-Hvis du vil basere dine [træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}) på *critical power*, så kan du ifølge [www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/) bruge FTP-zonerne med et let modificeret Critical Power.
+Hvis du vil basere dine [træningszoner](/traeningszoner/) på *critical power*, så kan du ifølge [www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/) bruge FTP-zonerne med et let modificeret Critical Power.
 
 > Critical power is not the same as FTP, but can be used to estimate your training zones. If using the zones above, take 94 per cent of your Critical Power to replace FTP, then apply the percentages to find your values for each zone.
 >

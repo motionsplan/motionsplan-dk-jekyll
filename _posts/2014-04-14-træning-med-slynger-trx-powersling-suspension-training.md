@@ -22,7 +22,7 @@ Hvis man hænger en snor op med to håndtag, kalder man det 'suspension' trænin
 
 Man kan enten sætte hænderne eller fødderne i håndtagene og så er man klar til at udfordre hele kroppen med en varieret træning, som især udfordrer kropsstammen, fordi man skal stabilisere meget undervejs.
 
-Du kan stort set lave suspension træning overalt. Det kræver bare et eller andet, du kan hænge din slynge op i - og de fleste systemer inden for træningsformen er konstrueret, så det er let at finde plads til dem. En TRX er derfor også oplagt at bruge til [hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}).
+Du kan stort set lave suspension træning overalt. Det kræver bare et eller andet, du kan hænge din slynge op i - og de fleste systemer inden for træningsformen er konstrueret, så det er let at finde plads til dem. En TRX er derfor også oplagt at bruge til [hjemmetræning](/hjemmetraening-traeningsprogram/).
 
 {% include video provider="youtube" id="Lan2_c0uEtE" %}
 

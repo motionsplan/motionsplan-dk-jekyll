@@ -48,13 +48,13 @@ faq:
 
 Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af benøvelser, som du kan bruge i din styrketræning af benene. Bentræning er både for dig, der gerne vil blive mere eksplosiv og dig der vil have større og stærkere ben.
 
-Bentræning kan foregå både med frie vægte og lave squat og lunges og i benmaskine som benpres og leg extensions. Du kan bruge vægtstang, håndvægte, kettlebells og [Safety Bar Squats]({% link _posts/2020-07-05-safetybar-squat.md %}).
+Bentræning kan foregå både med frie vægte og lave squat og lunges og i benmaskine som benpres og leg extensions. Du kan bruge vægtstang, håndvægte, kettlebells og [Safety Bar Squats](/safety-bar-squats/).
 
 Vi har samlet en række simple og effektive benøvelser, som du kan bruge til at styrke benmusklerne, din hofte og dine knæ.
 
 ## Funktionel opdeling af benøvelserne
 
-Typisk opdeler man øvelserne til underkoppen i enten [knædominante øvelser]({% link _pages/exercises-tag-knee-dominant.md %}) eller [hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}). Det kan illustreres meget godt på dette kontinuum, hvornår en øvelse kan siges at tilhøre den ene eller anden kategori.
+Typisk opdeler man øvelserne til underkoppen i enten [knædominante øvelser](/knaedominante-oevelser/) eller [hoftedominante øvelser](/hoftedominante-oevelser/). Det kan illustreres meget godt på dette kontinuum, hvornår en øvelse kan siges at tilhøre den ene eller anden kategori.
 
 {% include figure image_path="/assets/images/crossfys.dk/www_Crossfys_dk_-1024x1024-33828490.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/) [📷](https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png){: rel='nofollow noopener' }" %}
 
@@ -107,4 +107,4 @@ Der er naturligvis ikke noget i vejen med de klassiske øvelser til bentræninge
 
 ## Konklusion om bentræning
 
-Vi har også skrevet om [ankelleddet og musklerne i anklen]({% link _pages/anatomy/ankelleddet-og-fodleddet.md %}), [knæleddet og musklerne omkring knæet]({% link _pages/anatomy/knaeleddet.md %}) og [hofteleddet og musklerne omkring hofteleddet]({% link _pages/anatomy/hofteleddet.md %}), som du træner med med benøvelser.
+Vi har også skrevet om [ankelleddet og musklerne i anklen](/joints/ankelleddet-og-fodleddet/), [knæleddet og musklerne omkring knæet](/joints/knaeleddet/) og [hofteleddet og musklerne omkring hofteleddet](/joints/hofteleddet/), som du træner med med benøvelser.

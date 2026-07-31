@@ -28,7 +28,7 @@ Velkommen til vores samlede overblik over **kost, ernæring og forbrænding**. U
 ### 🏃‍♂️⚡ Sportsernæring & Præstation
 Er du aktiv motionist eller atlet, og vil du optimere din mad i forhold til din træning?
 * **[Sportsernæring – Guide til træning og præstation](/sportsernaering/)** – Alt om måltidstiming, kulhydrater og restitution.
-* **[Væske og hydrering](/vaeske/)** – Hvor meget skal du drikke før, under og efter træning?
+* **[Væske og hydrering](/hvad-skal-jeg-drikke/)** – Hvor meget skal du drikke før, under og efter træning?
 * **[Kosttilskud i sport](/kosttilskud/)** – Hvilke tilskud virker reelt til træning?
 </div>
 
@@ -95,4 +95,3 @@ Vil du slå kalorie- og næringsindholdet op i specifikke fødevarer?
 
 * 🥞 **[Proteinpandekager uden banan](/proteinpandekager-uden-banan/)**
 * 🍝 **[Lækker proteinlasagne](/opskrift/protein-lasagne/)**
-* 🍳 **[Se alle vores opskrifter](/opskrifter/)**

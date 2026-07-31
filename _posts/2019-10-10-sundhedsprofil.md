@@ -59,7 +59,7 @@ I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hv
 
 Hvis du for nylig har løbet en distance så hurtigt, du kunne, så kan du også anslå din kredsløbsfitness ud fra Jack Daniels formel.
 
-[Anslå kondital fra løb]({% link _posts/2019-10-31-kondital-fri-loebedistance.md %}){: .btn .btn--large .btn--info }
+[Anslå kondital fra løb](/kondital-loeb-distance-tid/){: .btn .btn--large .btn--info }
 
 ## Teoretisk baggrund for sundhedsprofilen og sundhedstest
 
@@ -105,7 +105,7 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 
 {% endcomment %}
 
-[Test din styrke]({% link _posts/2020-09-04-pushup-test.md %}){: .btn .btn--large .btn--success }
+[Test din styrke](/armstraekninger-test/){: .btn .btn--large .btn--success }
 
 > ### Smidighed
 >
@@ -113,7 +113,7 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 >
 > --- <cite> [Morten Zacho](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
-[Test din smidighed]({% link _posts/2020-09-11-smidighedstest.md %}){: .btn .btn--large .btn--success }
+[Test din smidighed](/smidighedstest/){: .btn .btn--large .btn--success }
 
 {% comment %}
 

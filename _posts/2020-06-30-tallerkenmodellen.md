@@ -227,7 +227,7 @@ De officielle anbefaler til det daglige energiindtag er:
 | Protein | 15 (10-20) E% |
 | Fedt | 30% (20-35) E% |
 
-Læg mærke til, at det er energifordelingen og ikke vægtfordelingen. Du kan læse lidt mere om [fedtenergiprocentent og udregne den i et andet indlæg, jeg har skrevet]({% link _posts/2020-06-11-fedtenergiprocent.md %}).
+Læg mærke til, at det er energifordelingen og ikke vægtfordelingen. Du kan læse lidt mere om [fedtenergiprocentent og udregne den i et andet indlæg, jeg har skrevet](/fedtenergiprocent/).
 
 Som tommelfingerregel så kan energiindtaget fordeles således i løbet af dagen:
 

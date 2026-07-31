@@ -177,7 +177,7 @@ Du kan også benytte dig af en række andre metoder, som vi vil komme tilbage ti
 
 Hvilke metoder bruger du i forbindelse med maksimal styrke - og hvilke erfaringer har du med _waves_ og _rest-pause_?
 
-Jeg har skrevet et andet indlæg om [metoder til maksimal muskeltilvækst og hypertrofi]({% link _posts/2019-10-22-metoder-til-hypertrofi.md %}).
+Jeg har skrevet et andet indlæg om [metoder til maksimal muskeltilvækst og hypertrofi](/hypertrofi-metoder/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

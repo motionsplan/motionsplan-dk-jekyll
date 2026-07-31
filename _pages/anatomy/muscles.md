@@ -59,7 +59,7 @@ Teorien om "sliding filaments" er den mest populære forklaring på, hvordan en 
 
 {% include video provider="youtube" id="7V-zFVnFkWg" %}
 
-👉 **Læs også:** [Sliding Filament Teorien: Hvordan trækker musklen sig sammen? →]({% link _posts/2020-06-06-muskelsammentraekning.md %})
+👉 **Læs også:** [Sliding Filament Teorien: Hvordan trækker musklen sig sammen? →](/muskelsammentraekning/)
 {: .notice--info }
 
 ## Skeletmusklernes opdeling
@@ -167,7 +167,7 @@ Læs mere om funktionel træning af [mavemusklerne her](/muskler/mave/).
 <details markdown="1" class="faq">
   <summary><h3 id="armmuskler">Armmuskler</h3></summary>
 
-I overarmen fokuserer mange ofte på [biceps](biceps-brachii/), men det er faktisk [**triceps brachii**](triceps-brachii/) (armstrækkeren), der er den største muskel. Da triceps udgør ca. 2/3 af armens samlede muskelvolumen, er det den vigtigste muskel at træne, hvis du ønsker fyldige overarme.
+I overarmen fokuserer mange ofte på [biceps](/biceps-brachii/), men det er faktisk [**triceps brachii**](/triceps-brachii/) (armstrækkeren), der er den største muskel. Da triceps udgør ca. 2/3 af armens samlede muskelvolumen, er det den vigtigste muskel at træne, hvis du ønsker fyldige overarme.
 
 Se også vores rangliste over [kroppens største og mindste muskler](/stoerste-og-mindste-muskel-i-kroppen/).
 

@@ -90,7 +90,7 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
    - Kosten er dit brændstof
    - [Søvn](/soevn/)
    - Alkohol
-   - [Stress]({% link _posts/2021-11-10-stress.md %})
+   - [Stress](/stress-test/)
    - Bogens slutning er din start
 7. Træningsprogram
 
@@ -98,7 +98,7 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
 
 ## Styrketræningsprogram til styrkeløft
 
-Der er mange måder at blive stærk på. Jeg har beskrevet et eksempel på [Reactive Training Systems]({% link _posts/2019-10-24-rts-training-intermediate.md %}) og [Texas Method](/texas-method/), men der er virkelig mange programmer og forslag til at blive stærk.
+Der er mange måder at blive stærk på. Jeg har beskrevet et eksempel på [Reactive Training Systems](/rts-generalized-intermediate/) og [Texas Method](/texas-method/), men der er virkelig mange programmer og forslag til at blive stærk.
 
 Jacob Beermann skruer frekvensen op ud fra **specificitetsprincippet**, fordi man bliver bedre til det, man træner. Fokus er styrkeløft, og derfor giver det god mening, at man hver dag træner de forskellige løft. I Beermanns program træner man squat, bænkpres og dødløft hver gang med forskellige variationer. Programmet findes til 3, 4 eller 5 dage.
 
@@ -118,9 +118,9 @@ Programmet følger med, når du køber Stærk hos Saxo.
 
 ## Konklusion
 
-Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild med sin viden. Beermann har bl.a. lavet [maxer.dk](https://maxer.dk), som jeg også nævner på listen over de [bedste danske blogs]({% link _posts/2020-07-31-bedste-danske-blogs.md %}), hvor han deler et væld af gratis indhold af virkelig høj kvalitet.
+Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild med sin viden. Beermann har bl.a. lavet [maxer.dk](https://maxer.dk), som jeg også nævner på listen over de [bedste danske blogs](/bedste-fitness-blogs/), hvor han deler et væld af gratis indhold af virkelig høj kvalitet.
 
-Jeg fremhæver også Beermanns Stærk & Smertefri på listen over de [bedste danske podcasts](/bedste-fitness-traening-podcasts/) og han har også en af de [bedste, følgeværdige Instagram-profiler]({% link _posts/2020-09-11-bedste-instagram.md %}).
+Jeg fremhæver også Beermanns Stærk & Smertefri på listen over de [bedste danske podcasts](/bedste-fitness-traening-podcasts/) og han har også en af de [bedste, følgeværdige Instagram-profiler](/bedste-fitness-instagram/).
 
 Hvis du kunne lide tankerne her i bogen, så kan du sikkert også lide [Stærk-styrkeløftprogrammet](/artikel/staerk-traeningsprogram/), som er baseret på Beermanns træningsfilosofi for styrkeløft.
 

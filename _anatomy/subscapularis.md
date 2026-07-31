@@ -23,8 +23,7 @@ function:
   en:
     - short: Medially rotates the upper arm.
       extended: Subscapularis rotates the head of the humerus medially (internal rotation).
-image: /assets/images/anatomy/subscapularis.jpg
-image_focus: /assets/images/anatomy/focus-subscapularis.jpg
+image: /assets/images/anatomy/subscapularis.png
 ---
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{{ f.short | downcase }}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

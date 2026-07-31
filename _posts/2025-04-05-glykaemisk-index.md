@@ -120,8 +120,6 @@ Fokusér på varieret kost med masser af fibre, grøntsager, fuldkorn og sunde f
   <summary><h2 id="references">Referencer</h2></summary>
 
 - [A satiety index of common foods](https://pubmed.ncbi.nlm.nih.gov/7498104/)
-- [Functional foods and the satiety cascade](http://www3.interscience.wiley.com/journal/119421483/abstract?CRETRY=1&SRETRY=0), Bellisle F. Nutrition Bulletin 2008, 33, 8–14
-- [Controlling satiety: how environmental factors influence food intake](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VHY-4VY2C6P-3&_user=10&_coverDate=07%2F31%2F2009&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1361066016&_rerunOrigin=google&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=df8c0af3526e0ce3922e690a446f9ad6), Smith & Ditschun. Trends in Food Science & Technology 20 (2009) 271-277
-- [Satiation, satiety and their effects on eating behaviour](http://www.ingentaconnect.com/content/bsc/nbu/2009/00000034/00000002/art00003), Benelam B. Nutrition Bulletin 2009, 34, 126–173
+- [Satiation, satiety and their effects on eating behaviour](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-3010.2009.01753.x), Benelam B. Nutrition Bulletin 2009, 34, 126–173
 
 </details>

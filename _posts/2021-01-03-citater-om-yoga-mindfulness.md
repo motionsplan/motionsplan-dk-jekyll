@@ -94,7 +94,7 @@ Du kender sikkert også en masse forskellige citater, som du bruger som motivati
 
 {% include figure image_path="https://www.cdn.alt.dk/99959288abca4422af1727e52177f813/583e68750af645ca9fa2957fad719939_1125.jpg" caption="Joan Crawford: 'Kærlighed er en ild, men om det kommer til at varme dit hjerte eller brænde dit hus ned, kan du aldrig regne ud.'" %}
 
-Husk også at tjekke vores [træningscitater om løb, styrketræning og motivation]({% link _posts/2020-08-03-citater.md %}), inden du drager videre på din søgen.
+Husk også at tjekke vores [træningscitater om løb, styrketræning og motivation](/citater-traening-motivation/), inden du drager videre på din søgen.
 
 Husk også at tjekke vores side om [De fem tibetanere](/artikel/de-fem-tibetanere/) og [solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/).
 

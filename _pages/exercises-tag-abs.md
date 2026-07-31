@@ -37,7 +37,7 @@ Du man måske få mere ud af din mavetræning. Her får du en grundig indføring
 
 Der kan være mange grunde til at træne maven. Den vigtigste grund er, at maven er en del af din core. En stærk kropsstamme er med til at skabe et godt fundament for at bevæge sig. Vi har skrevet et indlæg om [coretræning](/core/).
 
-Der er mange muligheder for at supplere mavebøjningerne med meget mere udfordrende varianter af øvelser for maven, men hvis du gerne vil have en sixpack, så er der ikke en magisk øvelse, som vil hjælpe dig. Så skal du [tabe fedt på maven]({% link _posts/2020-07-07-mavefedt.md %}).
+Der er mange muligheder for at supplere mavebøjningerne med meget mere udfordrende varianter af øvelser for maven, men hvis du gerne vil have en sixpack, så er der ikke en magisk øvelse, som vil hjælpe dig. Så skal du [tabe fedt på maven](/tab-fedt-paa-maven/).
 
 ## Styrketræning mave
 

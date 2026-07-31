@@ -55,7 +55,7 @@ Watt max-testen kan estimere den maksimale iltoptagelse og konditallet med en re
 Watt max-testen er enkel at gennemføre. Testen kræver, at du har adgang til en ergometercykel, hvor du kan styre belastningen i watt. De sidste 2-4 minutter af testen er virkelig hårde.
 
 > **👦 Skal du teste børn (7–15 år)?**
-> Børn skal køre med en anden belastningsstigning (Wedderkopp-protokollen). Gå til den specifikke [Wattmax-test for børn]({% link _posts/2019-10-31-kondital-watt-max-children-test.md %}).
+> Børn skal køre med en anden belastningsstigning (Wedderkopp-protokollen). Gå til den specifikke [Wattmax-test for børn](/kondital-wattmax-boern/).
 {: .notice--info }
 
 [<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }

@@ -163,6 +163,6 @@ Vil du have mere inspiration til din forberedelse? Se også:
 
 - [Oversigt over træning til politiets fysiske test](/traening-politiets-fysiske-test/)
 - [Træningsprogram til politiets fysiske test derhjemme](/politi-traeningsprogram/)
-- [Guide til politiets optagelsesprøve](/guide-politiets-optagelsesproeve/)
+- [Guide til politiets optagelsesprøve](/politiets-optagelsesproeve/)
 
 Held og lykke med din træning!

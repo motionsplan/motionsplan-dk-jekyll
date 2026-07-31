@@ -178,7 +178,7 @@ Det viser, at du med tiden opnår en mere balanceret og skånsom muskelaktiverin
 
 ## Udstyr til din yoga-praksis
 
-Du behøver intet udstyr for at starte, men en skridsikker **yogamåtte** gør træningen langt mere behagelig. Læs vores [komplette guide til yogaudstyr]({% link _posts/2021-01-20-yoga-udstyr.md %}) for mere inspiration.
+Du behøver intet udstyr for at starte, men en skridsikker **yogamåtte** gør træningen langt mere behagelig. Læs vores [komplette guide til yogaudstyr](/guide/yoga-udstyr/) for mere inspiration.
 
 {% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.manduka_x_yoga_mat view="card" %}
 
@@ -198,7 +198,7 @@ Vil du udvide din daglige praksis med mere energi og ro? Læs også:
 
 * **[De 5 Tibetanere: Komplet guide til de 5 yoga øvelser](/artikel/de-fem-tibetanere/)** – Udforsk det berømte tibetanske morgenritual.
 * **[Kom i gang med mindfulness meditation](/mindfulness-meditation/)** – Lær at skabe ro i sindet efter din solhilsen.
-* **[Find den bedste musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %})** – Afspilningslister der skaber den rette stemning under træningen.
+* **[Find den bedste musik til yoga](/yoga-musik/)** – Afspilningslister der skaber den rette stemning under træningen.
 
 ---
 

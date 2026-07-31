@@ -24,7 +24,7 @@ Løftetempoet er nemlig med til at afgøre, hvilke resultater du får af trænin
 
 ### Hvordan noterer jeg tempoet?
 
-Tempoet noteres med tre tal, som fx "3010". De tre tal svarer til tre forskellige tidspunkter i løftet, og du har brug for en lille viden om [forskellen på koncentrisk og excentrisk]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}) for helt at forstå, hvad tempoet refererer til?
+Tempoet noteres med tre tal, som fx "3010". De tre tal svarer til tre forskellige tidspunkter i løftet, og du har brug for en lille viden om [forskellen på koncentrisk og excentrisk](/koncentrisk-excentrisk-isometrisk/) for helt at forstå, hvad tempoet refererer til?
 
 - 3 = Den excentriske fase, hvor musklerne arbejder under forlængelse
 - 0 = Pausen halvvejs i bevægelsen

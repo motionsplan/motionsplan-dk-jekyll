@@ -77,7 +77,7 @@ Det kan være en god ide at lave en screening for [træningsafhængighed](/traen
 
 Hverdagen kommer til at bestemme, hvor sandsynligt det er, at man kan gennemføre et træningsprogram. Træningsprogrammet skal passe ind i hverdagen - ikke omvendt.
 
-Hvor meget tid bruges på skole eller arbejde? [Oplever du et højt stress i hverdagen?]({% link _posts/2021-11-10-stress.md %})
+Hvor meget tid bruges på skole eller arbejde? [Oplever du et højt stress i hverdagen?](/stress-test/)
 
 Hvordan er dit aktivitetsniveau til daglig? Har du et stillesiddende job eller er du fysisk aktiv?
 
@@ -121,6 +121,6 @@ Når du laver en screening skal du naturligvis først have planlagt nogle spørg
 
 Når du har lavet en screening, så kan du gå i gang med at lave et træningsprogram.
 
-Du kan fx [lave et løbeprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}) eller [udforme et styrketræningsprogram](/traeningsprogram-programlaegning-styrketraening/).
+Du kan fx [lave et løbeprogram](/guide-til-loebeprogram/) eller [udforme et styrketræningsprogram](/traeningsprogram-programlaegning-styrketraening/).
 
 [<i class='fas fa-file-alt'></i> Bonus: Ark til screening »](https://docs.google.com/document/d/1XHq9-ydpCJ1ggxoKHUvP_MoyKJuVwLF4MZLfuaDZSCQ/copy){: .btn .btn--large .btn--success rel="nofollow noopener" }

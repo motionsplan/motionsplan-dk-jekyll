@@ -102,7 +102,7 @@ Ifølge [TV2](https://livsstil.tv2.dk/2016-07-26-ny-forskning-afslorer-disse-lan
 
 Vi bliver altså gennemsnitligt højere i Danmark - ligesom resten af verden. Men gennemsnitshøjden i Danmark er altså blandt de højeste i verden. Det bliver spændende at se de næste undersøgelser af danskernes højde.
 
-Jeg har skrevet et andet indlæg, der handler om, [hvordan man bliver højere](/hvordan-bliver-jeg-hojere/). Hvis du gerne vil syne højere, så kan du også kigge på [din kropsholdning og rette ryggen]({% link _posts/2020-07-01-ret-ryg.md %}).
+Jeg har skrevet et andet indlæg, der handler om, [hvordan man bliver højere](/hvordan-bliver-jeg-hojere/). Hvis du gerne vil syne højere, så kan du også kigge på [din kropsholdning og rette ryggen](/ret-ryggen-kropsholdning/).
 
 ## Ofte stillede spørgsmål
 

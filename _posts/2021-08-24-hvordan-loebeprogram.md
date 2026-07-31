@@ -39,15 +39,15 @@ I denne guide gennemgår vi 5 enkle trin, der hjælper dig med at planlægge din
 
 Når du skal lave et løbeprogram, så er der flere faktorer, du kan tage hensyn til. Hvis du vil lave et alsidigt effektivt program til løb, så kan det være godt at tænke forskellige træningskategorier ind i træningen.
 
-Vi har skrevet mere om forskellige modeller for [træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}). Her tager vi udgangspunkt i en simpel 3-zoners model, som er enkel at administrere i forhold til planlægningen af løbetræningen.
+Vi har skrevet mere om forskellige modeller for [træningszoner](/traeningszoner/). Her tager vi udgangspunkt i en simpel 3-zoners model, som er enkel at administrere i forhold til planlægningen af løbetræningen.
 
 Først skal du naturligvis have kigget på dit mål for træningen. Det er forskelligt at lave et [begynder løbeprogram](/loebeprogram-begyndere/), [træne til at løbe 5 km rigtig hurtigt](/loebeprogram-5km/) eller lave en [træningsplan til maraton](/loebeprogram-maraton-42km/).
 
 Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer](/energisystemer/), som er nødvendige for effekten af løbetræningen.
 
-Det kan være meget [effektivt at løbe fem kilometer med høj intensitet tre gange om ugen]({% link _posts/2010-07-26-det-mest-effektive-loebeprogram-til-forbedre-din-praestation.md %}), men på sigt kan du få endnu bedre resultater af dit løbeprogram ved at variere det tempo, du løber i. Når du varierer træningen, bliver løbetræningen forhåbentlig også mere inspirerende.
+Det kan være meget [effektivt at løbe fem kilometer med høj intensitet tre gange om ugen](/artikel/det-mest-effektive-loebeprogram-til-forbedre-din-praestation/), men på sigt kan du få endnu bedre resultater af dit løbeprogram ved at variere det tempo, du løber i. Når du varierer træningen, bliver løbetræningen forhåbentlig også mere inspirerende.
 
-Vi har skrevet mere om forskellige modeller for [træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}). Her tager vi udgangspunkt i en simpel 3-zoners model, som er enkel at administrere i forhold til løbetræningen.
+Vi har skrevet mere om forskellige modeller for [træningszoner](/traeningszoner/). Her tager vi udgangspunkt i en simpel 3-zoners model, som er enkel at administrere i forhold til løbetræningen.
 
 {% include figure image_path="/assets/images/loebeprogram/polarized-traeningszoner.png" caption="Polarized træningszoner kan være en enkel måde at strukturere sin træning på med en intensitet, der er lav, moderat og høj." %}
 
@@ -102,7 +102,7 @@ Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på borgskalaen.
 - **Watt**. Du har brug for særligt udstyr for at bruge Watt, men det kan både lade sig gøre med løb og cykling at måle watt. Du kan læse lidt mere om [Functional Threshold Power](/ftp-cykling/) og [critical speed](/critical-power/). Tjek også afsnittet om [løbeøkonomi og løbeteknik](/lobeokonomi/).
 
-Der er fordele og ulemper ved de forskellige måder at måle intensiteten i din træning, som du kan læse mere om under overvejelserne i forhold til [intensitet og træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}).
+Der er fordele og ulemper ved de forskellige måder at måle intensiteten i din træning, som du kan læse mere om under overvejelserne i forhold til [intensitet og træningszoner](/traeningszoner/).
 
 ## Komponenter i dit ugentlige løbeprogram
 
@@ -135,7 +135,7 @@ Udholdenhedstræning kan øge distancen på dine løbeture og gøre kroppen vant
 
 Formålet med udholdenhedstræning og **den længere løbetur** er at fremme kroppens evne til at arbejde længere med lav intensitet, hvilket forbedrer både kredsløb og den aerobe kapacitet. Fysiologiske tilpasninger inkluderer flere mitochondrier og blodårer, samt en større hjertevolumen.
 
-Læs mere om de [fysiologiske tilpasninger og adaptationer er til udholdenhedstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+Læs mere om de [fysiologiske tilpasninger og adaptationer er til udholdenhedstræning](/tilpasning-konditionstraening/).
 
 [Læs uddybende om udholdenhedstræning til løb](/loeb/udholdenhedstraening/)
 
@@ -209,7 +209,7 @@ Roligt løb kan bruges meget i træning, så længe den samlede træningsmængde
 <details markdown="1" class="faq">
   <summary>💪 Restitutionsløb</summary>
 
-Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2020-05-28-restitutionstraening.md %}).
+Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning](/restitutionstraening/).
 
 Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen](/restitution/) og [restitutionstiden](/restitutionstid/).
 

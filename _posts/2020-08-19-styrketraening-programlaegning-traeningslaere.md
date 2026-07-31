@@ -80,7 +80,7 @@ Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øge
 
 Når du træner, sker der to typer af tilpasninger i kroppen. Først der der de **neurale ændringer**, hvilket ganske enkelt betyder, at hjernen bliver bedre til at aktivere mere muskelmasse. Desuden er der ændringer i **musklens struktur**. 
 
-Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
+Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger til styrketræning](/fysiologiske-tilpasninger/).
 
 Det er sandsynligt at den neurale tilpasning sker først - nærmest fra allerførste gang, du træner. Derefter følger muskelmassen. Figuren viser også, at når man har trænet et stykke tid, bliver det vanskeligere at forbedre sig - og det kræver en større og større indsats.
 
@@ -106,7 +106,7 @@ I denne forståelse maskerer trætheden, hvor stor fremgangen er for den enkelte
 
 {% include figure image_path="/assets/images/training/bannister.svg" caption="Banisters Impuls-Respons-model" alt="banisters impuls-respons model" %}
 
-Denne model har konsekvenser for træningsplanlægningen. Der kan godt være noget træthed i kroppen, selvom man er i ‘resistance’-fasen. Og måske kan trætheden være en indikator for, hvornår man skal træne næste gang, så man hver gang kan træne i [superkompensationsfasen]({% link _posts/2020-08-07-superkompensation.md %}), hvor kroppen overkompenserer på stiumulus.
+Denne model har konsekvenser for træningsplanlægningen. Der kan godt være noget træthed i kroppen, selvom man er i ‘resistance’-fasen. Og måske kan trætheden være en indikator for, hvornår man skal træne næste gang, så man hver gang kan træne i [superkompensationsfasen](/superkompensation/), hvor kroppen overkompenserer på stiumulus.
 
 ## Specific Adaptions to Imposed Demands (SAID) - Træn specifikt
 
@@ -152,9 +152,9 @@ Ved at anvende disse principper systematisk kan du optimere din styrketræning, 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Nuckols, Greg (2014): Speed kills: [2x the intended bar speed yelds ~2x the bench press gains](http://www.strengtheory.com/speed-kills-2x-the-intended-bar-speed-yields-2x-the-bench-press-gains/), strengtheory.com
-- Nuckols, Greg & Isuf, Omar (2015a): [The art of lifting](http://www.strengtheory.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
-- Nuckols, Greg & Isuf, Omar (2015b): [The science of lifting](http://www.strengtheory.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
+- Nuckols, Greg (2014): Speed kills: [2x the intended bar speed yelds ~2x the bench press gains](https://www.strongerbyscience.com/speed-kills-2x-the-intended-bar-speed-yields-2x-the-bench-press-gains/), strengtheory.com
+- Nuckols, Greg & Isuf, Omar (2015a): [The art of lifting](https://www.strongerbyscience.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
+- Nuckols, Greg & Isuf, Omar (2015b): [The science of lifting](https://www.strongerbyscience.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
 - Robertson, Mike (2012): [6 questions about tempo training](https://www.t-nation.com/training/questions-about-tempo-training), t-nation.com
 - Tumminello, Nick (2015): [Exercise science I’ve never used as a personal training](http://nicktumminello.com/2015/03/exercise-science-ive-never-used-as-a-personal-trainer/), nicktumminello.com.
 - Contreas, Bret (2015): [Current position on anterior pelvic tilt](http://bretcontreras.com/current-position-statement-on-anterior-pelvic-tilt/), bretcontreas.com

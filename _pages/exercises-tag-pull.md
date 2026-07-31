@@ -21,7 +21,7 @@ sidebar:
 
 Trækøvelser træner ryggen og armene. Vi samlet mere om gode trækøvelser både med og uden vægte, så du kan få trænet det øverste af din ryg og dine arme på en god måde.
 
-I et godt træningsprogram skal der både være nogle [presøvelser]({% link _pages/exercises-tag-press.md %}) og nogle trækøvelser.
+I et godt træningsprogram skal der både være nogle [presøvelser](/presoevelser/) og nogle trækøvelser.
 
 Trækøvelser opdeles typisk i vandrette træk og lodrette træk. [Rows](/rows/) er i gruppen horisontale træk og [chinup og pullup](/chinup-vs-pullup/) er et eksempel på vertikale eller lodrette trækøvelser.
 
@@ -29,13 +29,13 @@ Trækøvelser opdeles typisk i vandrette træk og lodrette træk. [Rows](/rows/)
 
 Ryggen er delt op i øvre ryg og nedre ryg. Når du vælger øvelser, så skal du både træne lænden, men også den øvre ryg. Derfor er det en god ide med et alsidigt program. Heldigvis findes der nogle store *basisøvelser*, så du kan ramme rigtig mange af rygmusklerne på samme tid.
 
-En ting er at træne rygmusklerne, men du har også brug for stærke og udholdende mavemuskler for at have et godt muskelkorset omkring din [rygsøjle]({% link _pages/anatomy/rygsojlen.md %}). Her har samlet en masse gode [maveøvelser til din mavetræning](/maveoevelser/).
+En ting er at træne rygmusklerne, men du har også brug for stærke og udholdende mavemuskler for at have et godt muskelkorset omkring din [rygsøjle](/joints/rygsojlen/). Her har samlet en masse gode [maveøvelser til din mavetræning](/maveoevelser/).
 
 ## De bedste trækøvelser til træktræning
 
 {% include motionsplan/exercise-detail.html key="20210819092000" title="1) Rows" %}
 
-Rows er en helt central del af din træning. Når du gerne vil træne den øvre ryg, så er det en god ide at bruge flere forskellige varianter. Jeg har samlet en artikel over [rows](/rows/) her. Nogle af de mest kendte er [bent over barbell rows]({% link _exercises/roning-foroverboejet-63.md %}). Alt efter hvordan du laver din teknik, så kan du ramme ryggen på forskellig måde med dine rows.
+Rows er en helt central del af din træning. Når du gerne vil træne den øvre ryg, så er det en god ide at bruge flere forskellige varianter. Jeg har samlet en artikel over [rows](/rows/) her. Nogle af de mest kendte er [bent over barbell rows](/oevelse/bent-over-rows-bor/). Alt efter hvordan du laver din teknik, så kan du ramme ryggen på forskellig måde med dine rows.
 
 {% include motionsplan/exercise-detail.html key="20210819092600" title="2) Pulldown" %}
 

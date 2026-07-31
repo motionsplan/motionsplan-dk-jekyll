@@ -46,4 +46,4 @@ Sæt dig på en skråbænk med vægtene foran dig med bøjede arme. Derfra skal 
 
 Herfra fører du vægtene kontrolleret op over hovedet og sænker vægten igen til udgangspunktet.
 
-**Bemærk**: Du kan også lave skulderpres med en vægtstang. Så gør man det typisk stående i form af [military press]({% link _exercises/military-press-56.md %}). Men det er også en fordel at gøre det med håndvægte, da skuldrene har flere frihedsgrader og du skal kontrollere vægtene på en anden måde.
+**Bemærk**: Du kan også lave skulderpres med en vægtstang. Så gør man det typisk stående i form af [military press](/oevelse/military-press/). Men det er også en fordel at gøre det med håndvægte, da skuldrene har flere frihedsgrader og du skal kontrollere vægtene på en anden måde.

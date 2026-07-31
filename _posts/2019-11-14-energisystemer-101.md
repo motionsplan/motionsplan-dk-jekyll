@@ -175,7 +175,7 @@ Målet er at forbedre udholdenheden af _fast twitch_-muskelfibrene. Skal ske med
 
 {% include video provider="facebook" id="8weeksout/videos/10155741321175787" %}
 
-Jeg har skrevet endnu mere om [hvad aerob træning er her]({% link _posts/2021-06-19-aerob-traening.md %}).
+Jeg har skrevet endnu mere om [hvad aerob træning er her](/aerob-traening/).
 
 ## Træning af det anaerobe system
 
@@ -225,13 +225,13 @@ I træning er det altid godt at sætte en baseline, som du kan sammenligne dit f
 I den **aerobe træning** kan du sætte din baseline med følgende:
 
 - Måle din [hvilepuls](/hvilepuls/)
-- Bruge [Heart Rate Variability (HRV)]({% link _posts/2019-10-28-hrv.md %})
+- Bruge [Heart Rate Variability (HRV)](/hrv/)
 - Måle dit kondital med fx en [2400 meter-test](/kondital-2400-meter/) eller [Coopers 12-minutters test](/cooper-test/)
 - Måle Heart Rate Recovery efter lignende aktiviteter eller pulsen ved en stabil belastning.
 
 En baseline for den **anaerobe træning** kan være:
 
-- Alactic power 3-6 sec, fx [6 sekunders sprint]({% link _posts/2019-11-18-6-sek-sprint.md %})
+- Alactic power 3-6 sec, fx [6 sekunders sprint](/6sek/)
 - Alactic capacity 6-10 sec
 - Jump tests, fx [counter movement jump](/countermovement-jump-cmj-squat-jump-sj/) eller [jump & reach](/jump-reach/)
 - Lactic power 30-40 sec, fx [Wingate 30 sekunders test](/wingate/)
@@ -285,7 +285,7 @@ Når man træner det aerobe og anaerobe system, så er det godt at skelne mellem
 
 ## Mere om energisystemer
 
-Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}) og [hvor hurtigt du kan forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Vi har også skrevet om [HIIT-træning eller højintensive intervaller]({% link _posts/2020-09-22-hiit.md %}). Tjek også vores indlæg om [anaerob træning](/anaerob-traening/).
+Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/) og [hvor hurtigt du kan forbedre dit kondital](/hvor-hurtigt-mister-form-kondition/). Vi har også skrevet om [HIIT-træning eller højintensive intervaller](/hiit/). Tjek også vores indlæg om [anaerob træning](/anaerob-traening/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -61,7 +61,7 @@ icon: /assets/images/exercise-icons/squat_barbell_single_small.png
 
 Squat er en rigtig vigtig træningsøvelse. Den træner en funktionel bevægelse i kroppen. Her kigger vi på squat teknik og nogle af de rigtig mange variationer, der findes til at træne benene med knæbøjninger.
 
-Den mest kendte squat variation er [back squat med vægten på skuldrene]({% link _exercises/squat-back-53.md %}), men der findes rigtig mange andre måder at lave squat på. Faktisk er der endda lavet en særlig stang, [safety squat bar]({% link _posts/2020-07-05-safetybar-squat.md %}), som er særligt udviklet til at kunne arbejde med bevægelsen.
+Den mest kendte squat variation er [back squat med vægten på skuldrene](/oevelse/back-squat/), men der findes rigtig mange andre måder at lave squat på. Faktisk er der endda lavet en særlig stang, [safety squat bar](/safety-bar-squats/), som er særligt udviklet til at kunne arbejde med bevægelsen.
 
 Men lad os først dykke ned i den generelle teknik for squat, hvorefter vi kigger mere specifikt på de forskellige variationer af squat.
 
@@ -93,7 +93,7 @@ Husk at teknik og bevægelsesmønster først og fremmest handler om:
 
 ## Sådan laver du squat
 
-Her kigger jeg på nogle grundlæggende fokuspunkter for at lave squat. De forskellige variationer af squat har hver deres små detaljer, som du skal være opmærksom på. Mange søger efter [teknik til back-squat]({% link _exercises/squat-back-53.md %}), hvor selve stangens placering, hvordan du foretrækker at starte bevægelsen og din stand betyder meget. Hop derfor direkte til den øvelse, hvis du vil have mere specifikke guidelines.
+Her kigger jeg på nogle grundlæggende fokuspunkter for at lave squat. De forskellige variationer af squat har hver deres små detaljer, som du skal være opmærksom på. Mange søger efter [teknik til back-squat](/oevelse/back-squat/), hvor selve stangens placering, hvordan du foretrækker at starte bevægelsen og din stand betyder meget. Hop derfor direkte til den øvelse, hvis du vil have mere specifikke guidelines.
 
 ### Fodstilling og stand
 
@@ -323,7 +323,7 @@ Når disse tre faktorer arbejder sammen, kan du opnå en mere stabil og effektiv
 
 ## Etbenssquat
 
-En god måde at lave varianter på er ved at lave etbenssquat. Der er nogle gode variationer, som gør, at du kan belaste dit ben rigtig meget uden at skulle bruge høje vægte. Jeg kan særlig godt lide [Bulgarian Split Squats]({% link _exercises/squat-bulgarian-split-39.md %}), men der er mange gode variationer. Du kan også kigge lidt på [forskellige lunges variationer]({% link _exercises/lunges.md %}).
+En god måde at lave varianter på er ved at lave etbenssquat. Der er nogle gode variationer, som gør, at du kan belaste dit ben rigtig meget uden at skulle bruge høje vægte. Jeg kan særlig godt lide [Bulgarian Split Squats](/oevelse/bulgarian-split-squat/), men der er mange gode variationer. Du kan også kigge lidt på [forskellige lunges variationer](/lunges/).
 
 {% include figure image_path="https://images.unsplash.com/photo-1572432332292-6ec3392bee00?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c3F1YXR8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="[Pistol squat](/oevelse/pistol-squat/) er en rigtig hård variation af squat" alt="pistol squat" %}
 
@@ -334,7 +334,7 @@ En anden variation er **split squat** hvor du står med et langt skridt. Det ser
 
 ## Variationer af squat
 
-Her kan du se de mange forskellige variationer af squat. De mest brugte er som nævnt [back squat]({% link _exercises/squat-back-53.md %}), [front squat]({% link _exercises/squat-med-vaegtstang-foran-15.md %}) og [goblet squat]({% link _exercises/squat-vaegt-i-favnen-368.md %}).
+Her kan du se de mange forskellige variationer af squat. De mest brugte er som nævnt [back squat](/oevelse/back-squat/), [front squat](/oevelse/front-squat/) og [goblet squat](/oevelse/goblet-squat/).
 
 {% assign site_posts = site.exercises | where: "categories", "Squat" | where_exp: "post", "post.url != page.url" | sort: "title" %}
 

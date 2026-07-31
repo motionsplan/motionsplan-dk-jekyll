@@ -120,7 +120,7 @@ Et godt *cue* kan være at tænke foden som en 'tripod foot'. Mærk at du har ko
 
 ## Variationer af dødløft
 
-Der findes flere forskellige variationer af dødløft. Her kan du se en liste over de almindelige, men også nogle lidt anderledes udgaver. Du kan fx også kigge på [rack pull]({% link _exercises/rackpull-0-268.md %}), hvor du arbejder med en kortere *range of motion*.
+Der findes flere forskellige variationer af dødløft. Her kan du se en liste over de almindelige, men også nogle lidt anderledes udgaver. Du kan fx også kigge på [rack pull](/oevelse/rackpull-0/), hvor du arbejder med en kortere *range of motion*.
 
 {% assign site_posts = site.exercises | where: "categories", "Dødløft" | where_exp: "post", "post.url != page.url" | sort: "title" %}
 
@@ -136,7 +136,7 @@ Der findes flere forskellige variationer af dødløft. Her kan du se en liste ov
 
 ## Dødløft på et ben
 
-Du kan også lave dødløft på et ben. Jeg er særligt glad for at bruge [etbens rumænsk dødløft]({% link _exercises/doedloeft-one-leg-42.md %}) i min træning. Øvelsen udfordrer virkelig balancen og even til at holde kontrol i kropsstammen.
+Du kan også lave dødløft på et ben. Jeg er særligt glad for at bruge [etbens rumænsk dødløft](/oevelse/deadlift-one-leg/) i min træning. Øvelsen udfordrer virkelig balancen og even til at holde kontrol i kropsstammen.
 
 ## Hvilken dødløft-variant skal jeg vælge?
 

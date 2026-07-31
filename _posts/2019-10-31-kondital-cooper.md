@@ -194,7 +194,7 @@ Lad os prøve at sammenligne med de bedste løbere i verden?
 
 ## Hvad er rekorden 12 minutters løbetest?
 
-Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}), så løber han 23,84 km/t i gennemsnit.
+Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed](/hastighed/), så løber han 23,84 km/t i gennemsnit.
 
 Det svarer til, at Cheptegei løber 4,8 kilometer på 12 minutter.
 

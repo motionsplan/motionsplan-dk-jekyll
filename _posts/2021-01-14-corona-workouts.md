@@ -132,7 +132,7 @@ gallery:
 
 Vi har lavet en række Corona workouts, som du kan bruge til din træning under nedlukningen. I alt er der 28 workouts, som du kan bruge de næste 28 dage for at holde formen oppe under lockdown.
 
-I øjeblikket kan man ikke så let komme i træningscenteret, og på [Vejle Idrætshøjskole](https://www.vih.dk/) kan vi pga. restriktioner i forhold til Corona ikke få elever på skolen. Derfor har Mette Bjerre lavet en række workouts og suppleret af unglærerene, Simon og Michelle, så har du her mulighed for en hel perlerække af Corona workouts, du kan lave som [hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}) i Corona Lockdown. De enkelte workouts kan laves uden udstyr, men det er nogle hårde workouts.
+I øjeblikket kan man ikke så let komme i træningscenteret, og på [Vejle Idrætshøjskole](https://www.vih.dk/) kan vi pga. restriktioner i forhold til Corona ikke få elever på skolen. Derfor har Mette Bjerre lavet en række workouts og suppleret af unglærerene, Simon og Michelle, så har du her mulighed for en hel perlerække af Corona workouts, du kan lave som [hjemmetræning](/hjemmetraening-traeningsprogram/) i Corona Lockdown. De enkelte workouts kan laves uden udstyr, men det er nogle hårde workouts.
 
 ## Hvordan laver jeg Corona Workouts?
 
@@ -148,7 +148,7 @@ Her kan du se den komplette liste over Corona Workouts. God træning.
 
 ## Læs mere om hjemmetræning og kropsvægtstræning
 
-Hjemmetræning og kropsvægtstræning er oplagt at lave i nedlukningen under Corona. Du kan altså sagtens lave dine egne Corona Workouts. Fx kan du læse mere om [øvelser til hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}). Vi har skrevet andre artikler, der handler om [træning med kropsvægt](/artikel/traening-med-kropsvaegt/) eller [udendørs træning]({% link _posts/2012-07-31-naturfitness.md %}), hvor der også er masser af inspiration at finde til din Corona-træning.
+Hjemmetræning og kropsvægtstræning er oplagt at lave i nedlukningen under Corona. Du kan altså sagtens lave dine egne Corona Workouts. Fx kan du læse mere om [øvelser til hjemmetræning](/hjemmetraening-traeningsprogram/). Vi har skrevet andre artikler, der handler om [træning med kropsvægt](/artikel/traening-med-kropsvaegt/) eller [udendørs træning](/naturfitness/), hvor der også er masser af inspiration at finde til din Corona-træning.
 
 ## Har jeg brug for udstyr til Corona træning?
 
@@ -156,7 +156,7 @@ I vores Corona workouts har du ikke brug for udstyr. Men du kan naturligvis alti
 
 {% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.kinetik_vx1_vaegtvest view="card" %}
 
-Du behøver dog ikke noget udstyr for at træne hjemme. Måske kan du finde inspiration og motivation i at bruge elastikker, [kettlebells]({% link _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md %}), [TRX og slyngetræning]({% link _posts/2014-04-14-træning-med-slynger-trx-powersling-suspension-training.md %}) eller måske vil du gerne have det helt store udstyr. Hvis du leder efter udstyr, kan du finde det hos disse webshops:
+Du behøver dog ikke noget udstyr for at træne hjemme. Måske kan du finde inspiration og motivation i at bruge elastikker, [kettlebells](/artikel/hvordan-traener-man-med-kettlebells/), [TRX og slyngetræning](/artikel/traening-med-slynger-trx-powersling-suspension-training/) eller måske vil du gerne have det helt store udstyr. Hvis du leder efter udstyr, kan du finde det hos disse webshops:
 
 {% include motionsplan/affiliate-box.html type="shop" item=site.data.affiliates.shops.apuls view="card" %}
 {% include motionsplan/affiliate-box.html type="shop" item=site.data.affiliates.shops.den_intelligente_krop view="card" %}

@@ -103,7 +103,7 @@ Hvis du stopper med at træne, så vil en del af muskelstørrelsen, muskeltykkel
 
 Allerede efter en pause på nogle uger vil der ske atrofi i muskelfibrene. Taaffe og Marcus (1997) målte i et forsøg med ældre mænd et øget tværsnitsareal i lårmusklen på 26% efter et 24 ugers træningsprogram. Efter tolv uger pause var tværsnitsarealet imidlertid tilbage til udgangspunktet.
 
-Læs: [Hvor hurtigt forsvinder muskler igen?]({% link _posts/2020-06-23-atrofi-hvor-hurtigt.md %})
+Læs: [Hvor hurtigt forsvinder muskler igen?](/atrofi-muskelmasse-muskelstyrke/)
 {: .notice }
 
 ## Hvad er den øvre grænse for muskelvækst?
@@ -134,7 +134,7 @@ Jeg vil kalde mig selv letøvet i træning, fordi jeg holder lidt for mange træ
 
 Det følgende år måske maksimalt 2,5 kg og derefter bliver det bare endnu vanskeligere med under et kg om året. Jeg skal nok aldrig regne med at opfylde mit fulde potentiale ifølge denne model.
 
-David Epstein foreslår i bogen ‘The sports gene’ fra 2013, at der er en ratio på 5:1 i forhold til knoglemassen. Musklerne kan altså aldrig komme til at veje mere end 5 gange så meget som knoglemassen, hvis hans observationer er korrekte. Jeg har lavet et indlæg om, [hvor meget skelettet vejer]({% link _posts/2020-05-31-hvad-vejer-skelettet.md %}).
+David Epstein foreslår i bogen ‘The sports gene’ fra 2013, at der er en ratio på 5:1 i forhold til knoglemassen. Musklerne kan altså aldrig komme til at veje mere end 5 gange så meget som knoglemassen, hvis hans observationer er korrekte. Jeg har lavet et indlæg om, [hvor meget skelettet vejer](/hvad-vejer-skelettet/).
 
 Hvis du gerne vil lære mere om kropskomposition, og hvordan man måler det, så har jeg skrevet et indlæg om [forskellige modeller for kropskomposition](/kropskomposition/).
 
@@ -154,7 +154,7 @@ Hvis du er interesseret, så har vi skrevet mere om [hvordan muskler vokser?](/h
 
 Det er klart lettest at bygge muskelmasse op i starten af ens styrketræningskarriere, og det bliver stadig vanskeligere og vanskeligere. Du kan formentlig bygge helt op til 10 kg muskelmasse på i løbet af det første år, hvis du gør alt rigtigt. Det følgende år er den mængde muskel allerede halveret. Det ser ud til, at responset er klart størst de første 12-18 uger.
 
-Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger, der sker ved styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
+Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger, der sker ved styrketræning](/fysiologiske-tilpasninger/).
 
 ## Ofte stillede spørgsmål
 

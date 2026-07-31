@@ -24,7 +24,7 @@ Jeg har lavet mine egne sliders af et lille stykke tæppe, som jeg fik foræret 
 
 Jeg har her samlet nogle gode øvelser, hvor klude og sliders i træningen giver rigtig god mening.
 
-Klude er særdeles velegnede til, hvis du er ved at planlægge et [træningsprogram til hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}).
+Klude er særdeles velegnede til, hvis du er ved at planlægge et [træningsprogram til hjemmetræning](/hjemmetraening-traeningsprogram/).
 
 ## Øvelser til træning med klude og sliders
 

@@ -35,7 +35,7 @@ Jeg har researchet lidt på, hvad der får muskler til at vokse, og hvordan musk
 
 Muskelvækst er en kompliceret størrelse. Hvis musklerne skal vokse kræver det først og fremmest, at kroppen er i **overskud**. Det betyder, at træningen skal være planlagt, så man også når at **restituere**, og det er lettere at opbygge muskler, når man er i **energioverskud** gennem kosten.
 
-Den enkeltes genetik spiller naturligvis også kraftigt ind i evnen til at vokse, men den hormonelle sammensætning kan også spille ind for den enkelte i forhold til hvor let det er at få større muskler. I den forbindelse er der imidlertid [ikke så meget forskel på mænd og kvinders muskler og potentiale for at vokse]({% link _posts/2020-06-29-maend-kvinder-muskler.md %}).
+Den enkeltes genetik spiller naturligvis også kraftigt ind i evnen til at vokse, men den hormonelle sammensætning kan også spille ind for den enkelte i forhold til hvor let det er at få større muskler. I den forbindelse er der imidlertid [ikke så meget forskel på mænd og kvinders muskler og potentiale for at vokse](/maend-kvinder-muskler/).
 
 Hvorfor er det interessant at kigge på hypertrofi?
 

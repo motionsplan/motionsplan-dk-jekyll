@@ -21,4 +21,4 @@ Du kan vælge de øvelser, du synes bedst om. Det er dog smart at følge vores v
 
 Er du klar til at tage udfordringen op og træne din alder? Hvilke øvelser foreslår du, at der skal være i programmet.
 
-Jeg har skrevet lidt mere om, [hvad træning over 40 kunne indebære]({% link _posts/2020-06-19-traening-over-40.md %}) i forhold til måde kroppen ændrer sig på.
+Jeg har skrevet lidt mere om, [hvad træning over 40 kunne indebære](/traening-40-plus/) i forhold til måde kroppen ændrer sig på.

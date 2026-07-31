@@ -49,7 +49,7 @@ Du kan også belaste dine kropsvægtsøvelser med en vægtvest for at få endnu 
 
 ## Yderligere inspiration
 
-Jeg har også [skrevet om cirkeltræning]({% link _posts/2020-06-16-cirkeltraening.md %}), som kan være en god måde at organisere dine kropsvægtsøvelser på.
+Jeg har også [skrevet om cirkeltræning](/cirkeltraening/), som kan være en god måde at organisere dine kropsvægtsøvelser på.
 
 Har du nogle gode sites eller nogle gode øvelser, så del dem gerne i kommentarerne.
 

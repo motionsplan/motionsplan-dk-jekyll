@@ -76,4 +76,4 @@ Anders Nedergaard gør det klart, at:
 
 Selvom der bliver skrevet mange forunderlige ting rundt omkring på nettet, så er et sikkert: Muskler vejer mere end fedt, hvis man tager den samme volumen af begge, fordi massefylden for musklerne er højere end for fedt.
 
-Jeg har skrevet lidt mere om [musklerne](/muskler/), hvis du vil dykke mere ned i anatomien, men årsagen til [at man tager på af træning]({% link _posts/2020-05-25-tager-paa-ved-traening.md %}) er altså ikke fordi musklerne vejer mere end fedt.
+Jeg har skrevet lidt mere om [musklerne](/muskler/), hvis du vil dykke mere ned i anatomien, men årsagen til [at man tager på af træning](/vaegt-stiger-traening/) er altså ikke fordi musklerne vejer mere end fedt.

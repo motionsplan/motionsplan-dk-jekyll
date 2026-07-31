@@ -133,7 +133,7 @@ Læs vores **dybdegående guide til at vælge forsøg** og få konkrete strategi
 
 Det var en hurtig gennemgang af reglerne til styrkeløft, så du ikke er helt på bar bund, hvis du skal være med i et styrkeløftstævne.
 
-Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest]({% link _posts/2020-11-29-pap-prepare-to-maxtest.md %}).
+Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest](/pap-post-activation-potentiation-1rm-maxtest/).
 
 - Er du ny i styrkeløft? Læs den komplette [styrkeløft guide her](/styrkeloeft/).
 - Vil du lære mere om squat generelt? Se vores [store squat-guide](/squat/).

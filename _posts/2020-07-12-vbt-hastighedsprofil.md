@@ -106,7 +106,7 @@ Velocity based training er individuel. Selvom der er nogle generelle guidelines 
 
 Det er heldigvis relativt let at lave en _velocity load profile_, men først skal du lige vide lidt om RPE.
 
-Det er en fordel at sætte dig ind i skalaen Rate of Perceived Exertion først (RPE). [RPE-skalaen](/rpe/) går fra 1-10 og er en modificeret [Borgskala]({% link _posts/2020-06-18-borg-skala.md %}). På RPE-skalaen er 1 det letteste arbejde, du kan forestille dig, mens 10 er det hårdest mulige arbejde.
+Det er en fordel at sætte dig ind i skalaen Rate of Perceived Exertion først (RPE). [RPE-skalaen](/rpe/) går fra 1-10 og er en modificeret [Borgskala](/borg-skala/). På RPE-skalaen er 1 det letteste arbejde, du kan forestille dig, mens 10 er det hårdest mulige arbejde.
 
 Når man bruger RPE-skalaen til styrketræning, så kan man tænke på tallene ud fra hvor mange _Repetitions in Reserved (RIR)_, man har. Hvis du fx laver et sæt med 5 gentagelser på RPE 8, så betyder det, at du stadig have 2 gentagelser i reserve; altså at du kunne have taget i alt 7 gentagelser. Hvis det var RPE 10, var der altså 0 gentagelser i reserve, og det var dit absolutte maxløft og en 5RM.
 

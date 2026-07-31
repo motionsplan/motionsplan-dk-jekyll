@@ -75,9 +75,9 @@ Skeletmusklerne er kroppens aktive del. De trækker sig sammen (kontraherer) og 
 * **[Interaktiv muskeloversigt 💪](/muskler/)** – Oversigt over kroppens muskler og muskelgrupper på dansk og latin.
 * **[Koncentrisk, excentrisk og isometrisk arbejde](/koncentrisk-excentrisk-isometrisk/)** – Hvordan muskler arbejder under belastning.
 * **Specifik anatomisk gennemgang af leddene:**
-  * **[Ankelleddet og fodleddet](/ankelleddet-og-fodleddet/)**
-  * **[Knæleddets anatomi](/knaeleddet/)**
-  * **[Hofteleddets anatomi](/hofteleddet/)**
+  * **[Ankelleddet og fodleddet](/joints/ankelleddet-og-fodleddet/)**
+  * **[Knæleddets anatomi](/joints/knaeleddet/)**
+  * **[Hofteleddets anatomi](/joints/hofteleddet/)**
 </div>
 
 ---

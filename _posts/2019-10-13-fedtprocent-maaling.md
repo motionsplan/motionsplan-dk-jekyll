@@ -104,7 +104,7 @@ Ulempen er at man kan blive snydt af fedt, der sidder omkring organerne, men som
 
 ### 4. Udregning af fedtprocent
 
-Der findes nogle formler, hvor du kan udregne din fedtprocent ud fra simple antropometriske mål som køn, højde og vægt. Formlerne er imidlertid behæftet med stor usikkerhed, og de kan ikke stå alene. Jeg har lavet en [beregner som kan udregne fedtprocenten på baggrund af højde, vægt, alder og køn]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
+Der findes nogle formler, hvor du kan udregne din fedtprocent ud fra simple antropometriske mål som køn, højde og vægt. Formlerne er imidlertid behæftet med stor usikkerhed, og de kan ikke stå alene. Jeg har lavet en [beregner som kan udregne fedtprocenten på baggrund af højde, vægt, alder og køn](/artikel/udregning-af-fedtprocent/).
 
 ### 5. Bestemmelse af fedtprocent med målebånd
 

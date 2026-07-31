@@ -37,13 +37,13 @@ Du kan efterhånden få løbeure i alle mulige prisklasser og med mange forskell
 
 Når du tager tid på din løbetid, så kan du holde øje med, om du forbedrer din løbetid. Hvis du jævnligt løber en fast rute, så kan det være meget motiverende at tage tid på den. Hvis du samtidig måler din puls, så kan du både se om tiden forbedrer sig - eller om den gennemsnitlige puls ved at gennemføre løberuten forbedres.
 
-Hvis du tager tid, og du bruger mindre tid på den samme strækning, så er din hastighed steget. Vi har lavet en beregner, hvor du kan [udregne din hastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}) eller [omregne fra km/t til min/km]({% link _posts/2019-12-05-hastighed-beregnere.md %}).
+Hvis du tager tid, og du bruger mindre tid på den samme strækning, så er din hastighed steget. Vi har lavet en beregner, hvor du kan [udregne din hastighed](/hastighed/) eller [omregne fra km/t til min/km](/hastighed/).
 
 Du kan også på løbebane eller med et GPS-ur løbe et bestemt antal minutter, fx en [Cooper-test](/cooper-test/), for at se om du kan komme længere på det samme tidsrum. Du kan også bare bruge den samme løberute, for at se om du kommer længere frem på den samme tid.
 
 Når du tager tid på løbeturene, så kan du regelmæssigt tjekke, om du bliver en bedre og hurtigere løber. Der kan være forskellige grunde til, at du bliver hurtigere som løber. Du kan enten have forbedret din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), være bedre til at løbe på den [anaerobe tærskel](/anaerobe-taerskel/) eller have forbedret din [løbeøkonomi og løbeteknik](/lobeokonomi/).
 
-Din løbetid skulle naturligvis gerne blive bedre, hvis du træner regelmæssigt, fordi kroppen [tilpasser sig løbetræningen og konditionstræningen]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+Din løbetid skulle naturligvis gerne blive bedre, hvis du træner regelmæssigt, fordi kroppen [tilpasser sig løbetræningen og konditionstræningen](/tilpasning-konditionstraening/).
 
 ## Tag tid under intervaltræning
 

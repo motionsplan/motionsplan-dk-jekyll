@@ -24,7 +24,7 @@ Jeg taler ikke om rigtig eller forkert løbestil og løbeteknik, men om at finde
 
 Jeg tror mange har glemt at arbejde med deres løbeteknik og bare løber som de “plejer”. Løbeteknik handler om, hvordan du håndterer din krop helt fra hovedets position, brug af armene, afslappede skuldre, kroppens hældning, knæløft og hælisæt.
 
-Løbeteknikken har betydning for dit flow i løbet og din effektivitet og [løbeøkonomi](/lobeokonomi/), men din løbestil har også betydning for risikoen for og forebyggelse af [løbeskader]({% link _posts/2013-05-04-loeb-uden-skader.md %}).
+Løbeteknikken har betydning for dit flow i løbet og din effektivitet og [løbeøkonomi](/lobeokonomi/), men din løbestil har også betydning for risikoen for og forebyggelse af [løbeskader](/artikel/loebeskader-loebe-uden-skader/).
 
 {% include figure image_path="https://images.unsplash.com/photo-1539966903171-89770f33f468?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Her kan du se en del forskellige løbestile samlet på et billede. Der er tydelige hællandere og folk, der lander lidt mere på midtfoden." alt="løbeteknik og løbestil for almindelige løbere" %}
 

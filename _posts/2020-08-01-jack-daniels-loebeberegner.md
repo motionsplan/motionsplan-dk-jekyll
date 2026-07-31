@@ -154,7 +154,7 @@ Der er flere forskellige måder at beskrive og kategorisere træningszoner, som 
 - **Coggans træningszoner**: [Coggans træningszoner](/traeningszoner/) minder på nogle måder om Jack Daniels' zoner, afhængigt af hvordan de bliver fortolket. Begge metoder tager udgangspunkt i forskellige intensitetsniveauer, men de har lidt forskellige måder at definere grænserne på.
 - **Polarized træning**: En anden tilgang er **polarized træning**, hvor du følger en 80/20-plan. Her skal omkring 80% af din træning være i de lettere zoner, mens 20% skal være i de højere intensitetszoner. Denne metode lægger kun lidt fokus på træning omkring den anaerobe tærskel.
 
-For mere inspiration til, hvordan du sammensætter et træningsprogram, kan du læse om [hvordan man laver et løbetræningsprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}).
+For mere inspiration til, hvordan du sammensætter et træningsprogram, kan du læse om [hvordan man laver et løbetræningsprogram](/guide-til-loebeprogram/).
 
 {% include feature_row id="template" type="left" %}
 

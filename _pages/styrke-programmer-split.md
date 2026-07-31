@@ -174,7 +174,7 @@ Husk at de fleste kan have bedre effekt af et mere enkelt program end et mere ko
 
 ## Helkropsprogram eller splitprogram
 
-Selv avancerede løftere kan træne helkropsprogrammer hver gang, men det handler om at programmere det rigtigt, så du kan restituere mellem træningerne. Jeg har skrevet mere om, [hvordan du vælger mellem helkropsprogram og splitprogrammer her]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
+Selv avancerede løftere kan træne helkropsprogrammer hver gang, men det handler om at programmere det rigtigt, så du kan restituere mellem træningerne. Jeg har skrevet mere om, [hvordan du vælger mellem helkropsprogram og splitprogrammer her](/vaelg-traeningsprogram/).
 
 Du kan grundlæggende fx vælge mellem følgende programtyper:
 

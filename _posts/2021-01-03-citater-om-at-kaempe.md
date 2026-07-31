@@ -67,7 +67,7 @@ Jeg har set mange gode citater om at kæmpe, og jeg har samlet {{ page.feature_q
 
 Jeg har samlet en masse forskellige citater om at kæmpe her på siden, men jeg har også oprettet en [Pinterest Opslagstavle med citater](https://pin.it/6VHPDcC). Skynd dig at følge den opslagstavle. Husk også at bruge kommentarerne, hvis du har det perfekte citat, som du gerne vil dele med os andre.
 
-Da jeg kiggede [træningscitater om løb, styrketræning og motivation]({% link _posts/2020-08-03-citater.md %}) igennem, var der faktisk et par stykker, som jeg også har valgt til denne liste.
+Da jeg kiggede [træningscitater om løb, styrketræning og motivation](/citater-traening-motivation/) igennem, var der faktisk et par stykker, som jeg også har valgt til denne liste.
 
 {% include video provider="youtube" id="Z63w5PefxTQ" %}
 
@@ -108,7 +108,7 @@ Her er også en inspirerende sang sunget af Calysta Bevier, som har kæmpet med 
 
 {% include video provider="youtube" id="EDOgOrPrVDk" %}
 
-Husk også at tjekke vores [træningscitater om løb, styrketræning og motivation]({% link _posts/2020-08-03-citater.md %}), inden du kæmper videre.
+Husk også at tjekke vores [træningscitater om løb, styrketræning og motivation](/citater-traening-motivation/), inden du kæmper videre.
 
 ## Flere citater
 

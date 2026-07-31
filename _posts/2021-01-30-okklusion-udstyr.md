@@ -238,7 +238,7 @@ Okklusionsstropperne fra klarer sig også rigtig godt i Maxers anmeldelse af bå
 
 Jacob Beermann konkluderer, at alle de forskellige mærker fungerer udmærket, og at du med alle stropperne kan udføre okklusionstræning på en tilfredsstillende måde.
 
-Uanset hvilken du vælger så skal du huske at tage højde for de risici, der er ved at lave okklusionstræning. Det kan du læse mere om [begynderguiden til okklusionstræning]({% link _posts/2021-01-30-okklusion-vol1.md %}).
+Uanset hvilken du vælger så skal du huske at tage højde for de risici, der er ved at lave okklusionstræning. Det kan du læse mere om [begynderguiden til okklusionstræning](/introduktion-okklusionstraening/).
 
 ## Udstyr med manuel pumpe til okklusionstræning
 

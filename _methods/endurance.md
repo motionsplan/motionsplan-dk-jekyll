@@ -54,7 +54,7 @@ Når du laver udholdenhedstræning, så skal du holde en intensitet, der gør, a
 
 Udholdenhedstræning skal særligt forbedre evnen til at forbrænde kulhydrat og fedt. Denne metode hjælper også med at forbedre det vaskulære system og forbedrer udholdenheden i de langsomme muskelfibre - type I fibrene.
 
-Du skal typisk mindst lave udholdenhedstræning metoden i 30 minutter for at stimulere til [fysiologiske tilpasninger til udholdenhedstræningen]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+Du skal typisk mindst lave udholdenhedstræning metoden i 30 minutter for at stimulere til [fysiologiske tilpasninger til udholdenhedstræningen](/tilpasning-konditionstraening/).
 
 Joel Jamieson kalder lidt misvisende træningsformen for _cardiac output_-træning, fordi han skriver, at hjertet særligt kan lave tilpasninger med slagvolumen ved de lavere intensiteter.
 {: .notice .notice--info }

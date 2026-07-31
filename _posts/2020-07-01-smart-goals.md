@@ -101,8 +101,8 @@ En typisk målsætning og nytårsfortsæt for mange handler om deres sundhed ell
 
 Hvis vi skal **lave disse eksempler på målsætninger specifikke**, så kan du gøre følgende, som drejer målsætningerne i en mere præcis retning.
 
-- “Jeg vil spise plantebaseret og proteinrigt efter [Y-tallerkenmodellen]({% link _posts/2020-06-30-tallerkenmodellen.md %}), så jeg igen kan passe mine bukser {{ "now" | date: "%Y" }}”
-- “Jeg vil løbe 5 km uden pauser og gå [10.000 skridt om dagen]({% link _posts/2020-06-25-steps.md %}) {{ "now" | date: "%Y" }}”.
+- “Jeg vil spise plantebaseret og proteinrigt efter [Y-tallerkenmodellen](/tallerken-modeller/), så jeg igen kan passe mine bukser {{ "now" | date: "%Y" }}”
+- “Jeg vil løbe 5 km uden pauser og gå [10.000 skridt om dagen](/skridt-pr-km-10000/) {{ "now" | date: "%Y" }}”.
 
 Forskellen er, at man sætter ord på præcis, hvad man vil i målsætningerne.
 
@@ -142,7 +142,7 @@ Her er et par eksempler på **urealistiske målsætninger**:
 
 Lad os prøve at gøre det til **realistiske målsætninger**.
 
-Jeg er generelt imod målsætninger om at tabe sig. Det er langt mere inspirerende og givende at tænke på at blive stærk, eksplosiv, udholdende, få mere energi. Samtidig er vægten et dårligt mål, da den svinger op og ned, og mange fx oplever at [tage på når de starter med at træne]({% link _posts/2020-05-25-tager-paa-ved-traening.md %}). Men lad os bare tage udgangspunkt i ovenstående målsætning i eksemplet med at gøre et SMART-mål realistisk.
+Jeg er generelt imod målsætninger om at tabe sig. Det er langt mere inspirerende og givende at tænke på at blive stærk, eksplosiv, udholdende, få mere energi. Samtidig er vægten et dårligt mål, da den svinger op og ned, og mange fx oplever at [tage på når de starter med at træne](/vaegt-stiger-traening/). Men lad os bare tage udgangspunkt i ovenstående målsætning i eksemplet med at gøre et SMART-mål realistisk.
 {: .notice .notice--info }
 
 - Jeg vil tabe mig et halvt kg om ugen, og så har jeg tabt 10 kg om fem måneder

@@ -19,7 +19,7 @@ toc: 'true'
 
 Det horisontale hop bliver ofte brugt som en test for styrken i benene. Fordelen ved _[broad jump](/broadjump/)_ er, at det er relativt let at teste og måle.
 
-Jeg har skrevet om [fysikkens love og det vertikale spring]({% link _posts/2021-11-19-vertical-jump-forces.md %}), men det er også rigtig interessant at kigge på, hvordan man kan forstå fysikken bag længdespring med stående afsæt.
+Jeg har skrevet om [fysikkens love og det vertikale spring](/fysik-vertikalt-hop/), men det er også rigtig interessant at kigge på, hvordan man kan forstå fysikken bag længdespring med stående afsæt.
 
 Det kan bl.a. gøre dig i stand til bedre at forstå, hvordan du kan springe længere i springet. Det er nemlig ikke nok at have kraft i benene, du skal også kunne springe med den rigtige teknik, hvor afsætsvinklen er en af de vigtigste tekniske parametre.
 

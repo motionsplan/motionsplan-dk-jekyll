@@ -45,9 +45,9 @@ Tag vores online selvtests for at vurdere dit mentale overskud, din trivsel og d
 
 <div class="notice--info" markdown="1">
 ### 🧠💭 Psykologiske Spørgeskemaer & Selvtests
-* **[WHO-5 Trivselsindeks](/trivselsindeks-who-5/)** – Mål din generelle livskvalitet og mentale trivsel over de seneste 14 dage.
+* **[WHO-5 Trivselsindeks](/who5-trivselindekset/)** – Mål din generelle livskvalitet og mentale trivsel over de seneste 14 dage.
 * **[Depressionstest (PHQ-2 og PHQ-9)](/phq-9-depression-test/)** – Klinisk anerkendt screening for tegn på nedtrykthed og depression.
-* **[Anerkendt Stresstest](/stresstest/)** – Vurdér dit nuværende belastnings- og stressniveau.
+* **[Anerkendt Stresstest](/stress-test/)** – Vurdér dit nuværende belastnings- og stressniveau.
 * **[Test af Træningsafhængighed (EAI)](/traeningsafhaengighed/)** – Tjek om dit forhold til motion og træning er sundt eller tvangspræget.
 * **[Automatisk Negative Tanker (ATQ)](/atq-automatiske-negative-tanker/)** – Mål omfanget af ubevidste negative tankemønstre.
 * **[Spiseforstyrrelser Selvtest](/spiseforstyrrelser/)** – Screening for forstyrret spisemønster og kropsopfattelse.

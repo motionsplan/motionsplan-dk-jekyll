@@ -72,7 +72,7 @@ Jeg har fundet nogle rigtig gode eksempler på mikrotræning direkte fra det dan
 
 ## Eksempler på kortvarig træning med kondition
 
-Du kan naturligvis også lade dig inspirere af [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/), grusomme [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}) eller [forskellige typer for anaerob træning](/anaerob-traening/).
+Du kan naturligvis også lade dig inspirere af [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/), grusomme [Tabata-intervaller](/artikel/tabata-traening-intervaller/) eller [forskellige typer for anaerob træning](/anaerob-traening/).
 
 ## Hvem kan bruge mikrotræning?
 

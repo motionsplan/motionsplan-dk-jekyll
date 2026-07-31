@@ -61,8 +61,6 @@ Hvis du vil isolere Soleus, skal du bøje i knæet. Når knæet er bøjet, blive
 
 Soleus består primært af langsomme muskelfibre (Type I), hvilket gør den ekstremt udholdende. Den er aktiv næsten hele tiden, når vi står op, for at holde balancen. Inden for sport er den afgørende for løbere, da den absorberer store kræfter ved landing og hjælper med afsættet.
 
-Læs også om [akillessenen her](/sener/akillessenen/), som Soleus hæfter i.
-
 ---
 
 ## Se oversigt over muskler

@@ -154,4 +154,4 @@ Mål din fremgang med videnskabelige feltbaserede tests:
 Hold dig skadesfri ved at bygge stærkere muskler og sener omkring leddene:
 
 * 🏋️‍♂️ **[Styrketræning for løbere](/styrketraening-til-loeb/)** – De vigtigste øvelser for bagkæde, lår og core.
-* 🩹 **[Undgå løbeskader](/kategori/skader/)** – Guides til genkendelse og forebyggelse af typiske overbelastningsskader (som skindebensbetændelse og løberknæ).
+* 🩹 **[Undgå løbeskader](/artikel/loebeskader-loebe-uden-skader/)** – Guides til genkendelse og forebyggelse af typiske overbelastningsskader (som skindebensbetændelse og løberknæ).

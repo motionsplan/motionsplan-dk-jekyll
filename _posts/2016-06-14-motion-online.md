@@ -24,12 +24,12 @@ Jeg gennemgår her, hvordan du stadig kan finde følgende funktioner:
 
 - motion online **kondital** --> Du kan [læse mere om kondital](/kondital/) og [teste dit kondital](/kondition/tests/) på Motionsplan.
 - motion online **rm beregner** --> Du kan bruge vores **meget bedre** [RM-beregner](/rm-beregner/).
-- motion online **bmi** --> Du kan læse vores [forbedrede guide til BMI]({% link _posts/2019-10-31-bmi.md %}).
+- motion online **bmi** --> Du kan læse vores [forbedrede guide til BMI](/bmi/).
 - motion online forum --> Desværre er der i øjeblikket ikke noget forum, der matcher, som jeg kender til.
 - motion online **løbeprogram** --> Jeg har endnu ikke lavet løbeprogrammer, men hvis du er interesseret i det, så skriv endelig i kommentarerne.
-- motion online **cirkeltræning** --> Du kan læse Motionsplans [udvidede guide til cirkeltræning]({% link _posts/2020-06-16-cirkeltraening.md %}).
+- motion online **cirkeltræning** --> Du kan læse Motionsplans [udvidede guide til cirkeltræning](/cirkeltraening/).
 - motion online **coopertest** --> Du kan læse vores dybdegående [forklaring på Cooper-testen](/cooper-test/).
-- motion online **6 min gangtest** --> Du kan læse vores [fine guide til 6 minutters gangtest]({% link _posts/2019-10-31-kondital-gaa-test-6min.md %}).
+- motion online **6 min gangtest** --> Du kan læse vores [fine guide til 6 minutters gangtest](/gaatest-6min/).
 - motion online løberute --> Jeg bruger selv Garmin Connect
 - motion online ruteplanner --> Jeg bruger selv Garmin Connect
 
@@ -114,11 +114,11 @@ Vi har også skrevet mange andre artikler om kondition og konditionstræning.
 
 ## Motion-online.dk og BMI
 
-Motion-online.dk havde flere artikler om BMI, bl.a. hvordan man retfærdigt vurderer børn i forhold til BMI-målingerne. Det har vi skrevet om i vores [udvidede guide til BMI]({% link _posts/2019-10-31-bmi.md %}).
+Motion-online.dk havde flere artikler om BMI, bl.a. hvordan man retfærdigt vurderer børn i forhold til BMI-målingerne. Det har vi skrevet om i vores [udvidede guide til BMI](/bmi/).
 
 ## Motion-online.dk's cirkeltræning
 
-Motion-online.dk havde lavet nogle sider med _cirkeltræning_. Jeg har skrevet en [grundig guide til cirkeltræning]({% link _posts/2020-06-16-cirkeltraening.md %}). Vi har også et stort øvelsesbibliotek, så du selv kan lave din egen træning.
+Motion-online.dk havde lavet nogle sider med _cirkeltræning_. Jeg har skrevet en [grundig guide til cirkeltræning](/cirkeltraening/). Vi har også et stort øvelsesbibliotek, så du selv kan lave din egen træning.
 
 ## Motion Online og Cooper-testen
 
@@ -126,7 +126,7 @@ Motion-online.dk fik relativt mange besøgende på deres side om Cooper-testen. 
 
 ## Motion-Onlines gangtest og gåtest
 
-Motion-online.dk havde en del tests liggende på deres site med beregnere. Jeg har allerede linket til beregnerne, hvor du også kan finde vores gåtest og gangtest. Bl.a. har jeg denne [guide til 6 minutters gangtest]({% link _posts/2019-10-31-kondital-gaa-test-6min.md %}) og denne [guide til Rockports 1,6 km gåtest](/gaatest/).
+Motion-online.dk havde en del tests liggende på deres site med beregnere. Jeg har allerede linket til beregnerne, hvor du også kan finde vores gåtest og gangtest. Bl.a. har jeg denne [guide til 6 minutters gangtest](/gaatest-6min/) og denne [guide til Rockports 1,6 km gåtest](/gaatest/).
 
 ## Motion Onlines forum
 

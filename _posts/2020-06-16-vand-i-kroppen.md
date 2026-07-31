@@ -129,7 +129,7 @@ Hvis det er rigtig varmt, og du drikker meget, så vær opmærksom på også at 
 
 ## Konklusion
 
-Kroppen består altså af en rigtig stor del vand. Jeg har skrevet et andet indlæg, der besvarer spørgsmålet: [Hvor meget vand skal du drikke om dagen?]({% link _posts/2020-12-14-hvor-meget-vand-om-dagen.md %}).
+Kroppen består altså af en rigtig stor del vand. Jeg har skrevet et andet indlæg, der besvarer spørgsmålet: [Hvor meget vand skal du drikke om dagen?](/hvor-meget-vand-skal-man-drikke-om-dagen/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

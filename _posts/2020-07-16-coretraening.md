@@ -36,9 +36,9 @@ Det kan være nødvendigt at skelne mellem en stærk og udholdende core, når ma
 - En **stærk core** er vigtig, fordi den skal holde din rygsøjle stabil ved høje vægte og være udgangspunkt for kraftoverførsel, når du laver forskellige bevægelser.
 - En **udholdende core** er vigtig, fordi musklerne skal kunne holde rygsøjlen stabil over lang tid.
 
-Men **husk en stærk _core_ giver dig _ikke_ en sixpack**. Core-træning kan godt være med til at gøre maven fladere, fordi du arbejder med tonus i musklerne, men hvis du vil have markerede mavemuskler, så handler det om fedtprocent. Jeg har skrevet et andet indlæg, der dykker lidt ned i [fænomenet sixpack her]({% link _posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md %}).
+Men **husk en stærk _core_ giver dig _ikke_ en sixpack**. Core-træning kan godt være med til at gøre maven fladere, fordi du arbejder med tonus i musklerne, men hvis du vil have markerede mavemuskler, så handler det om fedtprocent. Jeg har skrevet et andet indlæg, der dykker lidt ned i [fænomenet sixpack her](/artikel/du-faar-ikke-sixpack-af-maverulninger/).
 
-Core-træning er så meget mere end at træne [planken]({% link _exercises/planken-103.md %}) i timevis. Så læs videre og find lidt inspiration til, hvordan du sammensætter en _allround core-træning_.
+Core-træning er så meget mere end at træne [planken](/oevelse/planken/) i timevis. Så læs videre og find lidt inspiration til, hvordan du sammensætter en _allround core-træning_.
 
 ## Hvad er core-træning?
 
@@ -96,7 +96,7 @@ En stærk core skaber er fundamentet for en god stabilitet, når vi bevæger os.
 
 Der kan være mange kræfter, der virker på rygsøjlen. Store helkropsøvelser som squat, dødløft, [armstrækninger](/armbojninger-eller-armstraekninger-pushups/), [kropshævninger](/chinup-vs-pullup/) er med til at træne core-musklerne, fordi de alle kræver et godt opspænd omkring ryggen.
 
-Men forskellige _loaded carries_ (at bære noget tungt) og _unilaterale øvelser_ (fx one arm rows, en arms bænkpres, stepups) kan også være med til at forbedre stabiliteten. Jeg har skrevet et indlæg om at arbejde med [unilaterale øvelser her]({% link _posts/2010-03-09-unilateral-traening.md %}).
+Men forskellige _loaded carries_ (at bære noget tungt) og _unilaterale øvelser_ (fx one arm rows, en arms bænkpres, stepups) kan også være med til at forbedre stabiliteten. Jeg har skrevet et indlæg om at arbejde med [unilaterale øvelser her](/artikel/unilateral-traening/).
 
 ## Hvorfor er en udholdende core vigtig?
 
@@ -151,4 +151,4 @@ Jeg har opdelt øvelserne i de funktioner, jeg mener kropsstammen skal kunne.
 
 ## Videre med træning af core og kropsstammen
 
-Det var nogle af mine favoritter til at træne coremuskulaturen. Du kan finde mere inspiration til stabilisering af rygsøjlen i mit indlæg om [planken]({% link _exercises/planken-103.md %}) eller hvis du gerne vil lave [ab wheel rollouts]({% link _exercises/maveoevelse-hjul-rollout-280.md %}). Husk også at [unilateral træning]({% link _posts/2010-03-09-unilateral-traening.md %}) er en rigtig god måde at træne core på.
+Det var nogle af mine favoritter til at træne coremuskulaturen. Du kan finde mere inspiration til stabilisering af rygsøjlen i mit indlæg om [planken](/oevelse/planken/) eller hvis du gerne vil lave [ab wheel rollouts](/oevelse/maveoevelse-hjul-rollout/). Husk også at [unilateral træning](/artikel/unilateral-traening/) er en rigtig god måde at træne core på.

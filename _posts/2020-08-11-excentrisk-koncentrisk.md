@@ -53,7 +53,7 @@ Hvis du foretrækker at få forskellene forklaret på video, så bliver det genn
 
 Rigtig mange programmer inden for styrketræning giver forslag til, hvordan du skal styre tempoet i bevægelsen. Man siger ofte at den excentriske fase skal udføres kontrolleret og relativt langsomt, mens den koncentriske fase skal være kraftfuld og relativt hurtig, men sådan behøver det ikke at være.
 
-Det kan du læse mere om i artiklen om at [styre tempoet i dine løft]({% link _posts/2015-04-06-foelg-tempoet-naar-du-loefter.md %}).
+Det kan du læse mere om i artiklen om at [styre tempoet i dine løft](/artikel/foelg-tempoet-naar-du-loefter/).
 
 ## Hvad er forskellen på koncentrisk og excentrisk muskelarbejde?
 
@@ -65,7 +65,7 @@ Langsom, tung styrketræning og [excentrisk træning](/excentrisk-traening/) er 
 
 Der er lavet protokoller, hvor man har lavet tung, langsom styrketræning 2-3 gange om ugen, og der er lavet protokoller, hvor man har lavet excentrisk arbejde 2 gange om dagen. Det er blevet foreslået, at den excentriske kontraktion i musklerne er med til at understøtte opbygningen i muskel og senevævet, så det bedre kan modstå belastningerne.
 
-[Henning Langberg](https://web.archive.org/web/20210417203404/http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/){: rel="nofollow noopener" } konkluderer, at man ikke præcist ved om excentrisk træning er bedre end koncentrisk træning i forhold til at regenerere senevævet. Mange anbefaler imidlertid i øjeblikket at lave excentrisk muskelarbejde i forbindelse med [skadesforebyggelse og nedsættelse af smerter omkring senerne]({% link _posts/2020-11-23-skadesforebyggelse.md %}).
+[Henning Langberg](https://web.archive.org/web/20210417203404/http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/){: rel="nofollow noopener" } konkluderer, at man ikke præcist ved om excentrisk træning er bedre end koncentrisk træning i forhold til at regenerere senevævet. Mange anbefaler imidlertid i øjeblikket at lave excentrisk muskelarbejde i forbindelse med [skadesforebyggelse og nedsættelse af smerter omkring senerne](/skadesforebyggelse-skadesforebyggende-traening/).
 
 [Kongsgaard et al (2009)](https://www.ncbi.nlm.nih.gov/pubmed/19793213) konkluderer, at tung, langsom styrketræning med både koncentrisk og excentrisk fase er bedre på lang sigt end excentrisk træning alene. Dette træningsforløb var lavet på patellasenen, som er et ligament og ikke en sene.
 
@@ -81,4 +81,4 @@ I koncentrisk træning er [rate of force development (RFD)](/rate-of-force-devel
 
 ## Hvad er isometrisk træning?
 
-Isometrisk træning er, når du bibeholder den samme stilling og arbejder mod en udefrakommende kraft eller tyngdekraften. Når du laver en **isometrisk kontraktion** i din bevægelse, så kan du træne stabilitet i kroppen, udtrætte musklerne på forhånd eller træne styrken i bestemte vinkler. Du kan fx bruge isometrisk træning i forbindelse med [træning af kropsvægt hjemme]({% link _posts/2020-12-13-kropsvaegt-hjemmetraening-metoder.md %}).
+Isometrisk træning er, når du bibeholder den samme stilling og arbejder mod en udefrakommende kraft eller tyngdekraften. Når du laver en **isometrisk kontraktion** i din bevægelse, så kan du træne stabilitet i kroppen, udtrætte musklerne på forhånd eller træne styrken i bestemte vinkler. Du kan fx bruge isometrisk træning i forbindelse med [træning af kropsvægt hjemme](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/).

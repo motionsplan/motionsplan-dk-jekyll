@@ -51,7 +51,7 @@ Da testen spørger om din oplevelse de seneste 14 dage, så kan du fx teste dig 
 
 Onlineskemaet lægger automatiske dine svar sammen. Hver valgmulighed har forskellige point tilknyttet sig. Tallene lægges sammen, og derefter ganges tallet med 4. Det betyder, at du har et tal mellem 0 og 100 i trivsel. Jo flere point du har, jo højere trivsel.
 
-Hvis dit tal er under 50, så kan der være risiko for en depression, eller du kan måske være udsat for en stressbelastning. Du kan tjekke vores anden [test for stress]({% link _posts/2021-11-10-stress.md %}) eller [vores depressionstest](/phq-9-depression-test/).
+Hvis dit tal er under 50, så kan der være risiko for en depression, eller du kan måske være udsat for en stressbelastning. Du kan tjekke vores anden [test for stress](/stress-test/) eller [vores depressionstest](/phq-9-depression-test/).
 
 ## Tolkning af resultater
 
@@ -90,4 +90,4 @@ nedre grænse omkring 50.
 
 ## Konklusion
 
-Hvis du synes at denne type test var interessant, så kunne du måske også være interesseret i vores test af [træningsafhængighed]({% link _posts/2021-10-18-traeningsafhaengighed.md %}).
+Hvis du synes at denne type test var interessant, så kunne du måske også være interesseret i vores test af [træningsafhængighed](/traeningsafhaengighed/).

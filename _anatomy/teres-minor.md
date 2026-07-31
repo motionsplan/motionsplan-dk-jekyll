@@ -38,8 +38,7 @@ function:
       extended: "Draws the arm toward the side of the body."
     - short: Stabilizes the shoulder joint.
       extended: "Helps hold the humeral head in the glenoid cavity."
-image: /assets/images/anatomy/teres-minor.jpg
-image_focus: /assets/images/anatomy/focus-teres-minor.jpg
+image: /assets/images/anatomy/teres-minor.png
 ---
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

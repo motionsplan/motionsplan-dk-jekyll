@@ -126,7 +126,7 @@ Når du har lavet testen, så får du et tilnærmet kondital. Du kan sammenligne
 
 Du kan lade 1,6 km gå-testen være en del af dit mål om at komme i bedre form. Du kan sammenligne din egen tid med [hvor hurtigt man normalt går](/tid-at-gaa/).
 
-Du kan også udregne, hvor meget [energi og kalorier du bruger på at gå](/forbraending-ved-gaa-gang/). Jeg kan godt lide at motivere mig selv ved at [tælle mine daglige skridt]({% link _posts/2021-01-01-tael-skridt.md %}). Måske er du også interesseret i at finde ud af, [hvor mange skridt, du går på en kilometer](/skridt-pr-km-10000/).
+Du kan også udregne, hvor meget [energi og kalorier du bruger på at gå](/forbraending-ved-gaa-gang/). Jeg kan godt lide at motivere mig selv ved at [tælle mine daglige skridt](/artikel/tael-skridt/). Måske er du også interesseret i at finde ud af, [hvor mange skridt, du går på en kilometer](/skridt-pr-km-10000/).
 
 > **Andre konditionstests**
 > Vi har mange [flere konditionstests](/kondition/tests/), du kan lade dig inspirere af.

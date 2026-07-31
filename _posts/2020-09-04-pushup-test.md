@@ -76,11 +76,11 @@ Armstrækningstesten tester altså relativ styrke.
 
 Denne vurdering af normer for armstrækninger er baseret på "The Canadian Standardized Test of Fitness". Der findes tidligere standarder for armstrækninger baseret på arbejde af Pollock, Wilmore og Fox (1978), som du kan se på [exrx.net](https://exrx.net/Calculators/PushUps3).
 
-Jeg leder efter en test, hvor kvinder kan få lov til at tage armstrækninger på fødderne også. Da der [ikke rigtig er forskel på kvinders og mænds muskler]({% link _posts/2020-06-29-maend-kvinder-muskler.md %}), synes jeg det giver mere mening i forhold til styrke.
+Jeg leder efter en test, hvor kvinder kan få lov til at tage armstrækninger på fødderne også. Da der [ikke rigtig er forskel på kvinders og mænds muskler](/maend-kvinder-muskler/), synes jeg det giver mere mening i forhold til styrke.
 
 ## Mere om armstrækninger
 
-Jeg har skrevet mere om [forskellen på armstrækninger og armbøjninger](/armbojninger-eller-armstraekninger-pushups/). Jeg har også skrevet om, [hvordan du tager din første armstrækning eller træner op til at kunne tage mange armstrækninger]({% link _posts/2011-08-24-hvordan-laerer-jeg-tage-en-armstraekning.md %}).
+Jeg har skrevet mere om [forskellen på armstrækninger og armbøjninger](/armbojninger-eller-armstraekninger-pushups/). Jeg har også skrevet om, [hvordan du tager din første armstrækning eller træner op til at kunne tage mange armstrækninger](/artikel/hvordan-laerer-jeg-tage-en-armstraekning/).
 
 ## Ofte stillede spørgsmål
 

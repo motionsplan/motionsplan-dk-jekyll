@@ -36,9 +36,9 @@ video:
 last_modified_at: 2021-08-18T07:23:32Z
 ---
 
-Push press er for dig, der allerede har godt styr på [military press]({% link _exercises/military-press-56.md %}). Forskellen på push press og military press er, at du kan bruge kraften fra benene til at løfte flere kilo. Øvelsen stiller altså krav til, at du kan koordinere at få stangen til at flytte sig ved at lave en lille knæbøjning, men kan gøre presset færdigt ved at strække armene helt over hovedet.
+Push press er for dig, der allerede har godt styr på [military press](/oevelse/military-press/). Forskellen på push press og military press er, at du kan bruge kraften fra benene til at løfte flere kilo. Øvelsen stiller altså krav til, at du kan koordinere at få stangen til at flytte sig ved at lave en lille knæbøjning, men kan gøre presset færdigt ved at strække armene helt over hovedet.
 
-Øvelsen bruges også meget i vægtløftning, hvor den bliver brugt til at styrke positionen over hovedet. Push press er også den sidste del af [clean and jerk]({% link _exercises/traek-og-stoed-olympisk-275.md %})
+Øvelsen bruges også meget i vægtløftning, hvor den bliver brugt til at styrke positionen over hovedet. Push press er også den sidste del af [clean and jerk](/oevelse/traek-og-stoed-olympisk/)
 
 ## Hvordan laver man push press?
 

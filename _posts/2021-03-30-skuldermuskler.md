@@ -32,13 +32,13 @@ Jeg har samlet en liste over muskler i din skulder her. Det er afgørende at for
 
 {% include figure image_path=page.header.teaser caption="Skulderen er kroppens mest bevægelige led, hvilket stiller store krav til muskulaturen." alt="skuldermuskler og anatomi" %}
 
-Skulderen er et komplekst led, hvor balancen mellem styrke og mobilitet er nøglen. For at træne skulderen effektivt skal du både fokusere på de synlige muskler som [deltoideus](/deltoid/) og de dybe stabilisatorer i [rotator cuffen](/rotator-cuff/).
+Skulderen er et komplekst led, hvor balancen mellem styrke og mobilitet er nøglen. For at træne skulderen effektivt skal du både fokusere på de synlige muskler som [deltoideus](/deltoideus/) og de dybe stabilisatorer i [rotator cuffen](/rotator-cuff/).
 
 Jeg har lavet en liste over [gode øvelser til skuldrene](/skulderoevelser/).
 
 ## Hvorfor træne musklerne i skulderen?
 
-Skulderleddet er et kugleled med en meget flad ledskål. Det betyder, at det er musklerne, der primært holder overarmen på plads. Stærke skuldre er derfor ikke kun vigtige for udseendet (den klassiske V-form), men i høj grad for at [forebygge skader]({% link _posts/2020-11-23-skadesforebyggelse.md %}) som indeklemning (impingement) og instabilitet.
+Skulderleddet er et kugleled med en meget flad ledskål. Det betyder, at det er musklerne, der primært holder overarmen på plads. Stærke skuldre er derfor ikke kun vigtige for udseendet (den klassiske V-form), men i høj grad for at [forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/) som indeklemning (impingement) og instabilitet.
 
 Når skuldermusklerne er stærke og i balance, vil du præstere bedre i alle presse-øvelser som bænkpres og overhead press, samt i sportsgrene som svømning, kast og ketsjersport.
 

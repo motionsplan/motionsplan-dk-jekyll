@@ -96,7 +96,7 @@ Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [indlæg om biom
   <summary><h2 id="references">Referencer</h2></summary>
 
 - [**Deconstructing the Deadlift - A Deep Analysis of Proper Deadlift Mechanics**](https://www.t-nation.com/training/deconstructing-the-deadlift) by Mark Rippetoe (06/29/2015)  
-- [**Everything You Think Is Wrong With Your Deadlift Is Probably Right**](http://www.strengtheory.com/everything-you-think-is-wrong-with-your-deadlift/) by Greg Nuckols (10/24/2014)  
+- [**Everything You Think Is Wrong With Your Deadlift Is Probably Right**](https://www.strongerbyscience.com/everything-you-think-is-wrong-with-your-deadlift/) by Greg Nuckols (10/24/2014)  
 - [**Deadlift Set-up and Body Shape**](https://www.youtube.com/watch?v=WaNb5HDniYE) by Alan Thrall (05/25/2015)  
 
 </details>

@@ -20,13 +20,13 @@ Dette 2-split program til styrketræning er baseret på upper/lower. Jeg skriver
 
 Du skal træne mindst fire gange om ugen, inden det er nødvendigt at overveje et splitprogram. Typisk er et 2-split eller [3-split](/3-split-push-pull/) de mest hensigtsmæssige splitprogrammer.
 
-Dit program skal være motiverende og tilpasset dine personlige behov. Du kan se [andre træningsprogrammer til styrke](/styrketraeningsprogrammer/), som du kan lade dig inspirere af. Jeg går også mere i dybden med, [hvordan du vælger et træningsprogram]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
+Dit program skal være motiverende og tilpasset dine personlige behov. Du kan se [andre træningsprogrammer til styrke](/styrketraeningsprogrammer/), som du kan lade dig inspirere af. Jeg går også mere i dybden med, [hvordan du vælger et træningsprogram](/vaelg-traeningsprogram/).
 
 Grundlæggende er det godt at træne en muskelgruppe 2 gange om ugen, bruge store basisøvelser, som fx squat, bænkpres og dødløft. I et splitprogram er der gode muligheder for at supplere basisøvelserne med mere isolationsøvelser for de forskellige muskelgrupper, hvis du godt kan lide det.
 
 Et upper/lower-split er en meget brugt måde at lave et split-program på, og det er relativt enkelt at programmere. Opdelingen giver dig mulighed for at træne rigtig hårdt i forhold til overkroppen eller underkoppen. Samtidig er der minimal negativ overførsel fra den ene træning til den næste.
 
-Et 2-split opdelt i overkrop og underkrop giver dig mulighed for at lave mere volumen og direkte arbejde af de enkelte muskler end et [fullbody program]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md%}). Du kan stadig bruge de store basisløft, men i den enkelte træning vil der være færre, hvilket gør træningen lidt mere overskuelig for mange.
+Et 2-split opdelt i overkrop og underkrop giver dig mulighed for at lave mere volumen og direkte arbejde af de enkelte muskler end et [fullbody program](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/). Du kan stadig bruge de store basisløft, men i den enkelte træning vil der være færre, hvilket gør træningen lidt mere overskuelig for mange.
 
 I dette split bliver bentræningen til gengæld rigtig hård. Hvis du har vanskeligt ved at motivere dig til bentræning, så kan træningen altså være psykologisk hård.
 
@@ -36,7 +36,7 @@ Det er et split som er let at tilpasse dig selv og dine egne behov.
 
 ## Jim Wendlers upper/lower-split
 
-[Jim Wendlers 5/3/1]({% link _posts/2021-02-04-wendler.md %}) er et program, der er baseret på en upper/lower. Wendlers program er skruet sammen på følgende måde:
+[Jim Wendlers 5/3/1](/wendler-531-styrketraeningsprogram/) er et program, der er baseret på en upper/lower. Wendlers program er skruet sammen på følgende måde:
 
 - Squat
 - Bænkpres

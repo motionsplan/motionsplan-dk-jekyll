@@ -160,7 +160,7 @@ Reactive Training Systems bruger en rigtig interessant måde at lave progression
 >
 > — <cite>Reactive Training Systems</cite>
 
-Jeg har bl.a. skrevet om at bruge [Reactive Training systems app som en træningslog]({% link _posts/2019-10-10-rts-app.md %}). Appen er gratis og genial.
+Jeg har bl.a. skrevet om at bruge [Reactive Training systems app som en træningslog](/rts-app/). Appen er gratis og genial.
 
 ## Hvad betyder progressivt overload egentlig?
 

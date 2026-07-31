@@ -211,7 +211,7 @@ Det er sandsynligt at den neurale adaptation sker først - nærmest fra allerfø
 <details markdown="1" class="faq">
   <summary>3. Muskelvækst</summary>
 
-Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske adaptationer og tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
+Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske adaptationer og tilpasninger til styrketræning](/fysiologiske-tilpasninger/).
 
 For at få muskeltilvækst kræver det en relativt stor volumen, så hvis du gerne vil være stærkere og mere eksplosiv uden at dine muskler vokser, kan du altså træne med relativt tunge vægte, men en lav volumen. Vær dog opmærksom på at det kan være en god ide at oparbejde en større arbejdskapacitet, så du kan holde til at træne nok (Nucklos & Isuf 2015b).
 </details>
@@ -896,9 +896,9 @@ Nu kan du enten kaste dig ud i at lave dit eget træningsprogram, eller du kan s
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Nuckols, Greg (2014): Speed kills: [2x the intended bar speed yelds ~2x the bench press gains](http://www.strengtheory.com/speed-kills-2x-the-intended-bar-speed-yields-2x-the-bench-press-gains/), strengtheory.com
-- Nuckols, Greg & Isuf, Omar (2015a): [The art of lifting](http://www.strengtheory.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
-- Nuckols, Greg & Isuf, Omar (2015b): [The science of lifting](http://www.strengtheory.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
+- Nuckols, Greg (2014): Speed kills: [2x the intended bar speed yelds ~2x the bench press gains](https://www.strongerbyscience.com/speed-kills-2x-the-intended-bar-speed-yields-2x-the-bench-press-gains/), strengtheory.com
+- Nuckols, Greg & Isuf, Omar (2015a): [The art of lifting](https://www.strongerbyscience.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
+- Nuckols, Greg & Isuf, Omar (2015b): [The science of lifting](https://www.strongerbyscience.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
 - Robertson, Mike (2012): [6 questions about tempo training](https://www.t-nation.com/training/questions-about-tempo-training), t-nation.com
 - Tumminello, Nick (2015): [Exercise science I’ve never used as a personal training](http://nicktumminello.com/2015/03/exercise-science-ive-never-used-as-a-personal-trainer/), nicktumminello.com.
 - Contreas, Bret (2015): [Current position on anterior pelvic tilt](http://bretcontreras.com/current-position-statement-on-anterior-pelvic-tilt/), bretcontreas.com

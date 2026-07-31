@@ -106,7 +106,7 @@ Så kan du analysere de forskellige faser i bevægelsen bagefter. De fleste idr�
 - Hvilke led bevæges under bevægelsen i de forskellige faser?
 - Hvilke bevægelser foregår der? Sker der en fleksion, ekstension eller rotation i leddet?
 - Hvilke muskler arbejder i bevægelsen?
-- Arbejder de aktive muskler [excentrisk, koncentrisk eller statisk]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}) i bevægelsen?
+- Arbejder de aktive muskler [excentrisk, koncentrisk eller statisk](/koncentrisk-excentrisk-isometrisk/) i bevægelsen?
 
 ## Hvordan griber du bevægelsesanalyse an?
 

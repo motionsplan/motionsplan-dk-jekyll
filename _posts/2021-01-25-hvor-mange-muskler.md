@@ -60,7 +60,7 @@ Det er altså kun **skeletmusklerne**, vi reelt kan tælle og navngive.
 
 ## Har mænd og kvinder lige mange muskler?
 
-Ja. Mænd og kvinder har anatomisk set præcis det samme antal skeletmuskler. Mænds muskler er oftest større på grund af testosteron og genetik, men der er [helt grundlæggende ikke forskel på selve opbygningen af mænds og kvinders muskler]({% link _posts/2020-06-29-maend-kvinder-muskler.md %}).
+Ja. Mænd og kvinder har anatomisk set præcis det samme antal skeletmuskler. Mænds muskler er oftest større på grund af testosteron og genetik, men der er [helt grundlæggende ikke forskel på selve opbygningen af mænds og kvinders muskler](/maend-kvinder-muskler/).
 
 Når vi taler om *antallet*, findes der dog en speciel, kønsspecifik muskulatur:
 * Det er kun kvinder, der har en livmoder, som mestendels består af stærk, glat muskulatur.
@@ -95,9 +95,9 @@ Derudover er vores **hænder og fødder** også fyldt med et enormt antal bittes
 ## Læs mere om kroppens anatomi
 
 Hvis du vil dykke dybere ned i kroppens maskinrum, har jeg skrevet en række andre artikler:
-* Læs alt om [hvordan muskler trækker sig sammen]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
-* Se min store, detaljerede [muskeloversigt over kroppens vigtigste muskelgrupper]({% link _pages/anatomy/muscles.md %}).
-* Bliv klogere på skelettet og se [hvor mange knogler menneskekroppen har]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %}).
+* Læs alt om [hvordan muskler trækker sig sammen](/muskelsammentraekning/).
+* Se min store, detaljerede [muskeloversigt over kroppens vigtigste muskelgrupper](/muskler/).
+* Bliv klogere på skelettet og se [hvor mange knogler menneskekroppen har](/hvor-mange-knogler-har-mennesket/).
 
 ---
 

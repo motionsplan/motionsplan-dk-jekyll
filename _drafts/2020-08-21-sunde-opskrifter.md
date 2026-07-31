@@ -43,6 +43,6 @@ Det hænger nøje sammen med folks valg af træningsfrekvens. Træne du ikke oft
 
 ## GAS princippet (General Adaption Syndrome)
 
-Dette princip indebærer at hvis man vil blive ved med at have fremgang, så skal højintense perioder efterfølges af lav-intense perioder (kunne være 3 hårde uger, efterfulgt af 1 let uge). Der er mange måder at tilrettelægge sin træning på, men en ting er sikkert, du il ikke opnå maksimal fremgang hvis du altid kører med ekstrem høj intensitet og grad af nstrengelse. Folk som kører med maks intensitet hver gang, træner generelt med en eget uhensigtsmæssig træningsfrekvens. Tjek også [princippet om superkompensation]({% link _posts/2020-08-07-superkompensation.md %}).
+Dette princip indebærer at hvis man vil blive ved med at have fremgang, så skal højintense perioder efterfølges af lav-intense perioder (kunne være 3 hårde uger, efterfulgt af 1 let uge). Der er mange måder at tilrettelægge sin træning på, men en ting er sikkert, du il ikke opnå maksimal fremgang hvis du altid kører med ekstrem høj intensitet og grad af nstrengelse. Folk som kører med maks intensitet hver gang, træner generelt med en eget uhensigtsmæssig træningsfrekvens. Tjek også [princippet om superkompensation](/superkompensation/).
 
 Jeg har skrevet en meget mere [dybdegående artikel om programlægning](/traeningsprogram-programlaegning-styrketraening/), som du måske også kunne blive inspireret af.

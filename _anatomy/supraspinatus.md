@@ -23,8 +23,7 @@ function:
   en:
     - short: Abducts the arm at the shoulder.
       extended: The supraspinatus initiates abduction of the arm at the shoulder joint.
-image: /assets/images/anatomy/supraspinatus.jpg
-image_focus: /assets/images/anatomy/focus-supraspinatus.jpg
+image: /assets/images/anatomy/supraspinatus.png
 ---
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{{ f.short | downcase }}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

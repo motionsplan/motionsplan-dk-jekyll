@@ -122,13 +122,13 @@ Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [indlæg om biom
   <summary><h2 id="references">Referencer</h2></summary>
 
 - [**How to Squat: The Definitive Guide**](https://www.strongerbyscience.com/how-to-squat/) by Greg Nuckols (03/16/2016)  
-- [**Squat Mechanics – The Red Pill**](http://www.strengtheory.com/squat-mechanics-the-red-pill/) by Greg Nuckols (02/23/2015)  
+- [**Squat Mechanics – The Red Pill**](https://www.strongerbyscience.com/squat-mechanics-the-red-pill/) by Greg Nuckols (02/23/2015)  
 - [**Calculating Joint Moments in the Squat**](http://bretcontreras.com/calculating-joint-moments-in-the-squat/) by Andrew Vigotsky (09/21/2015)  
 - [**Squat Mechanics: A Deep Analysis**](https://www.t-nation.com/training/squat-mechanics-a-deep-analysis) by Mark Rippetoe (01/15/2015)  
-- [**The Squat, or How I Learned to Stop Leg-Pressing and Use My Ass**](http://startingstrength.com/articles/squat_rippetoe.pdf) by Mark Rippetoe (2009)  
+- [**The Squat, or How I Learned to Stop Leg-Pressing and Use My Ass**](https://startingstrength.com/articles/squat_rippetoe.pdf) by Mark Rippetoe (2009)  
 - [**Squats Part 1: Fold-Ability and Proportions**](https://youtu.be/Av3LO2GwpAk) by PersonalTrainingdotcom (2015)  
 - [**Squats Part 2: Fold-Ability and Proportions (Examples and Adjustments)**](https://youtu.be/KGEKRjlZKf8) by PersonalTrainingdotcom (2015)  
-- [de Leva P, **Adjustments to Zatsiorsky-Seluyanov's segment inertia parameters**](http://www.exrx.net/Kinesiology/Segments.html), J Biomech. 1996 Sep;29(9):1223-30.  
+- [de Leva P, **Adjustments to Zatsiorsky-Seluyanov's segment inertia parameters**](https://exrx.net/Kinesiology/Segments), J Biomech. 1996 Sep;29(9):1223-30.  
 - [Hawkins D, Hull ML, **A method for determining lower extremity muscle-tendon lengths during flexion/extension movements**](https://www.researchgate.net/profile/Maury_Hull/publication/20781812_A_method_for_determining_lower_extremity_muscle-tendon_lengths_during_flexionextension_movements/links/0deec5296a6dbe683f000000.pdf), J Biomech. 1990;23(5):487-94.  
 - [**Biomechanics and Motor Control of Human Movement**](https://books.google.com.au/books?id=_bFHL08IWfwC&printsec=frontcover#v=onepage&q&f=false) by David A. Winter, ISBN: 978-0-470-39818-0  
 

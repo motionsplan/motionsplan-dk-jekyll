@@ -30,7 +30,7 @@ For at opnå en komplet og balanceret overkropstræning opdales presøvelser fys
 
 ### 1. Horisontalt Pres (Skub fremad i forhold til torsoen)
 Horisontale presøvelser rammer primært den store brystmuskel (*Pectoralis Major*), forsiden af skulderen (*Anterior Deltoid*) og triceps. 
-* **Eksempler:** [Bænkpres](/baenkpres-17.md), skråt håndvægtspres, [armstrækninger (push-ups)](/armbojninger-eller-armstraekninger-pushups/) og dips.
+* **Eksempler:** [Bænkpres](/oevelse/baenkpres/), skråt håndvægtspres, [armstrækninger (push-ups)](/armbojninger-eller-armstraekninger-pushups/) og dips.
 
 ### 2. Vertikalt Pres (Skub op over hovedet)
 Vertikale presøvelser flytter fokus op mod skuldrenes deltamuskel (*Deltoideus*) og triceps, mens kernemuskulaturen (*core*) og øvre ryg arbejder intensivt på at stabilisere rygsøjlen under belastningen.

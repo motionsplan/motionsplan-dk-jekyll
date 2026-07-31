@@ -38,7 +38,7 @@ Aerob træning er [konditionstræning](/konditionstraening/), hvor formålet er 
 - **[anaerobe tærskel](/anaerobe-taerskel/)**. Evnen til at arbejde med en høj intensitet i forhold til den maksimale iltoptagelse.
 - **udholdenheden**. Altså musklernes evne til at blive ved med at arbejde effektivt over lang tid.
 
-Du kan læse mere om de [fysiologiske tilpasninger, der sker ved konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+Du kan læse mere om de [fysiologiske tilpasninger, der sker ved konditionstræning](/tilpasning-konditionstraening/).
 
 I den følgende tabel kan du se eksempler på, hvordan du kan gribe træningen an:
 
@@ -121,7 +121,7 @@ HIIT-træning er [intervaltræning](/intervaltraening/), og du kommer nok til at
 
 Du kan forbedre det aerobe system på mange måder.
 
-Du kan se mange flere eksempler under [intervalløb](/intervallob-intervaltraening/). [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}) har også vist sig at have en god effekt på det aerobe system.
+Du kan se mange flere eksempler under [intervalløb](/intervallob-intervaltraening/). [Tabata-intervaller](/artikel/tabata-traening-intervaller/) har også vist sig at have en god effekt på det aerobe system.
 
 Når man laver aerob træning, så er intensiteten vigtig. Det er blevet ret populært at lave _polarized_ træning. Det betyder, at man enten arbejder meget intenst eller relaivt lavintenst.
 

@@ -38,7 +38,7 @@ I dette indlæg vil du måske blive overrasket over, at **mælkesyre IKKE er år
 
 Når man laver meget anstrengende arbejde, så skal musklerne producere energi uden brug af ilt. Denne proces kaldes [anaerob energiomsætning](/energisystemer/). Meget anstrengende arbejde kan fx være [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/), 100 meter sprint eller 30-60 sekunders maksimalt arbejde.
 
-Andelen af energien der produceres anaerobt stiger, når intensiteten stiger. Hvis du bruger [Borgskalaen til at vurdere intensiteten og anstrengelsen]({% link _posts/2020-06-18-borg-skala.md %}) nærmer arbejdet sig altså maksimal intensitet på Borg 18-20.
+Andelen af energien der produceres anaerobt stiger, når intensiteten stiger. Hvis du bruger [Borgskalaen til at vurdere intensiteten og anstrengelsen](/borg-skala/) nærmer arbejdet sig altså maksimal intensitet på Borg 18-20.
 
 Når kroppen kører på anaerob energiomsætning, så producerer musklerne energi fra kroppens hurtigste energikilder, som er ATP og [kreatinfosfat](/kreatin/) og spaltning af glykose. ATP er vores energimolekyle, som vi hele tiden skal genoplade, så kroppen kan fungere.
 
@@ -159,6 +159,6 @@ Selvom man ved mere om den anaerobe tærskel, så er der ikke fuldstændig enigh
 
 Du kan træne din evne til at udholde mælkesyre i kroppen. Jeg er fortaler for, at man træner alle kroppens energisystemer, og glykolytisk arbejde med mælkesyre er en af formerne. Typisk kræver det maksimalt arbejde i 30 sekunder til 2 minutter.
 
-Du kan fx stifte bekendtskab med en [assault bike eller airbike]({% link _posts/2020-08-06-airbikes.md %}), [rointervaller](/artikel/traeningsprogrammer-intervaller-roning/) eller en [prowler](/prowler-traening-workout-intervaller/), hvor det er let at komme til at arbejde med mælkesyre som biprodukt af træning. Det kan du også i [intervalløb](/intervallob-intervaltraening/) og [anaerob træning](/anaerob-traening/). Hvis du virkelig vil føle mælkesyre i benene, så kan du også prøve den [anaerobe test Wingate-testen](/wingate/).
+Du kan fx stifte bekendtskab med en [assault bike eller airbike](/airbike-assault-bike-workout-intervaller/), [rointervaller](/artikel/traeningsprogrammer-intervaller-roning/) eller en [prowler](/prowler-traening-workout-intervaller/), hvor det er let at komme til at arbejde med mælkesyre som biprodukt af træning. Det kan du også i [intervalløb](/intervallob-intervaltraening/) og [anaerob træning](/anaerob-traening/). Hvis du virkelig vil føle mælkesyre i benene, så kan du også prøve den [anaerobe test Wingate-testen](/wingate/).
 
 Jeg har skrevet en grundig artikel om [kroppens energisystemer og aerob og anaerob energiforsyning](/energisystemer/).

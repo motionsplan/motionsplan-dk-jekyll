@@ -152,7 +152,7 @@ Du får karakteren ud fra det antal godkendte gentagelser, du gennemfører.
 
 Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
 
-Jeg har skrevet en mere grundig vejledning til, [hvordan du kan lære at tage en pullup med et træningsprogram]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}).
+Jeg har skrevet en mere grundig vejledning til, [hvordan du kan lære at tage en pullup med et træningsprogram](/laer-kropshaevning-chinup-pullup-program/).
 
 </details>
 

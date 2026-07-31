@@ -108,7 +108,7 @@ Hun kalder meditationen "Find fodfæste". Der er en grundig introduktion på 3 m
 
 ##  Mere om yoga...
 
-Hvis du er interesseret i at læse lidt om musik til mindfulness og yoga, så har jeg skrevet et [andet indlæg med fem tips til at vælge det rigtige musik]({% link _posts/2020-07-02-musik-yoga.md %}).
+Hvis du er interesseret i at læse lidt om musik til mindfulness og yoga, så har jeg skrevet et [andet indlæg med fem tips til at vælge det rigtige musik](/yoga-musik/).
 
 Du skal naturligvis også lige kigge forbi et af vores mest populære indlæg, som handler om [De Fem Tibetanere og se de fem øvelser](/artikel/de-fem-tibetanere/) eller [yogaøvelserne til Solhilsen](/artikel/solhilsen-a-b-surya-namaskar/).
 

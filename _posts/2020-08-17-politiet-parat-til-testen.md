@@ -64,7 +64,7 @@ Opvarmningen varer ca. 15 minutter og indeholder både løb, hop og styrkeøvels
 ### 4. Kropshævninger (Pullups / Bodyrows)
 * **Træningsfokus (Mænd - Pullups):** Fokuser på rygmuskulaturen og grebsstyrke. Hvis du endnu ikke kan tage 4 godkendte pullups, så brug elastik-assist eller eksocentriske (langsomt sænkende) gentagelser.
 * **Træningsfokus (Kvinder - Bodyrows):** Træn kropsstammen (core) til at holde en lige linje under hele øvelsen, mens du arbejder med at trække brystet helt op til bommen.
-* 📖 [Guide: Lær at tage flere kropshævninger med vores træningsprogram]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %})
+* 📖 [Guide: Lær at tage flere kropshævninger med vores træningsprogram](/laer-kropshaevning-chinup-pullup-program/)
 
 ### 5. Bænkpres
 * **Træningsfokus:** Arbejd både med din maksimale styrke (tunge løft med 3-5 gentagelser) og din udholdenhed (sæt med 10-12 gentagelser på din ønskede testvægt).

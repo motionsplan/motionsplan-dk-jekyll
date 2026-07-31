@@ -99,7 +99,7 @@ Hvis du har sat et bestemt tidsrum af til motion og træning, så kan det i forh
 
 Vi kan altså ifølge rationalet fra Morten Zacho godt glemme fedtforbrændingszonen som et gyldent sted, hvor man maksimere den samlede fedtforbrænding i løbet af din træning.
 
-Jeg har i et andet indlæg diskuteret [om kontinuerlig træning eller intervaltræning er mest effektivt for fedtforbrændingen]({% link _posts/2010-07-22-er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen.md %}). Her viser det sig, at det betyder rigtig meget, hvor meget energi det lykkes at forbrænde i træningen, fordi efterforbrændingen ikke er så forskellig, som det somme tider lyder som om, når folk advokerer for _high intensity training_ for at tabe fedt.
+Jeg har i et andet indlæg diskuteret [om kontinuerlig træning eller intervaltræning er mest effektivt for fedtforbrændingen](/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/). Her viser det sig, at det betyder rigtig meget, hvor meget energi det lykkes at forbrænde i træningen, fordi efterforbrændingen ikke er så forskellig, som det somme tider lyder som om, når folk advokerer for _high intensity training_ for at tabe fedt.
 
 Men hvis du ser på andre sundhedseffekter, fx forbedring af slagvolumen og at træne fedtforbrændingen og den [anaerobe tærskel](/anaerobe-taerskel/), så kan det være en anden sag.
 

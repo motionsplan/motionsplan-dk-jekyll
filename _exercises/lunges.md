@@ -36,7 +36,7 @@ toc: true
 
 Lunges er en rigtig god og funktionel øvelse til at træne forlår, baglår og baller. Der er mange forskellige variationer af lunges. Her kigger vi lidt på den generelle teknik til udfaldsskridt.
 
-Den mest kendte lunge-variation er formentlig [fremfaldsskridt eller udfaldsskridt]({% link _exercises/lunges-dynamisk-69.md %}), men _reverse lunges_, _walking lunges_ og _lateral lunges_ er også rigtig gode måder at udfordre dig selv i forskellige bevægelsesplaner.
+Den mest kendte lunge-variation er formentlig [fremfaldsskridt eller udfaldsskridt](/oevelse/lunges-dynamisk/), men _reverse lunges_, _walking lunges_ og _lateral lunges_ er også rigtig gode måder at udfordre dig selv i forskellige bevægelsesplaner.
 
 Men lad os først kigge på den grundlæggende teknik for lunges og bagefter kigge lidt mere specifikt på de forskellige andre måder at lave bevægelsen på.
 

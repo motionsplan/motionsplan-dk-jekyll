@@ -36,8 +36,7 @@ function:
     - short: Lateral flexion of the spine.
     - short: Extension of the lumbar spine.
     - short: Elevation of the pelvis.
-image: /assets/images/anatomy/quadratus-lumborum.jpg
-image_focus: /assets/images/anatomy/focus-quadratus-lumborum.jpg
+image: /assets/images/anatomy/quadratus-lumborum.png
 ---
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen sørger for {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} samt {% endif %}{{ f.short | downcase }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en vigtig del af {{ page.functional_group | join: ", " | downcase }}.

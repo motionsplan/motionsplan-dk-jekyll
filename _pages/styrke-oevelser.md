@@ -88,7 +88,7 @@ Her kan du se de nyeste træningsøvelser.
 
 ### Maveøvelser, mavetræning og coretræning
 
-Vi har en lang række maveøvelser, som kan hjælpe dig med at få en stærkere og mere udholdende _core_ og kropsstamme. Maveøvelserne kan enten udføres med kropsvægt, håndvægte, elastikker, bolde og hjul. Du kan også læse meget mere om [kropsstammetræning og coretræning i dette indlæg](/core/) og udfordringerne med [fedttab på maven]({% link _posts/2020-07-07-mavefedt.md %}).
+Vi har en lang række maveøvelser, som kan hjælpe dig med at få en stærkere og mere udholdende _core_ og kropsstamme. Maveøvelserne kan enten udføres med kropsvægt, håndvægte, elastikker, bolde og hjul. Du kan også læse meget mere om [kropsstammetræning og coretræning i dette indlæg](/core/) og udfordringerne med [fedttab på maven](/tab-fedt-paa-maven/).
 
 <div class="feature__wrapper" markdown="1">
 
@@ -124,7 +124,7 @@ Vi har samlet det bedste og mest effektive armøvelser til træning af biceps og
 
 ### Benøvelser
 
-Bentræning kan foregå med virkelig mange forskellige øvelser. Bentræning kan foregå både med frie vægte og lave [squat](/squat/) og [lunges](/lunges/) og i benmaskine som benpres og leg extensions. Du kan finde øvelser med vægtstang, håndvægte, kettlebells og [Safety Squat Bar]({% link _posts/2020-07-05-safetybar-squat.md %}). [Dødløft](/doedloeft/) er også en af de gode benøvelser.
+Bentræning kan foregå med virkelig mange forskellige øvelser. Bentræning kan foregå både med frie vægte og lave [squat](/squat/) og [lunges](/lunges/) og i benmaskine som benpres og leg extensions. Du kan finde øvelser med vægtstang, håndvægte, kettlebells og [Safety Squat Bar](/safety-bar-squats/). [Dødløft](/doedloeft/) er også en af de gode benøvelser.
 
 <div class="feature__wrapper">
 
@@ -198,7 +198,7 @@ Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din 
 
 Skuldertræning skal tage højde for et kompliceret led, og du kan vælge forskellige øvelser til at træne din skulder. Skulderøvelser handler naturligvis om [armstrækninger](/armbojninger-eller-armstraekninger-pushups/), [rows](/rows/) og [pullups og chinups](/chinup-vs-pullup/), men der er også andre øvelser, der udfordrer skulderbladet og for- og bagskulder på forskellige måder.
 
-Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatormanchetten]({% link _posts/2020-12-12-styrk-dine-skuldre.md %}), og du kan også læse mere om [anatomiske opbygning af skulderleddet]({% link _pages/anatomy/skulderleddet.md %}).
+Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatormanchetten](/skuldertraening-styrk-dine-skuldre-rotatormanchet/), og du kan også læse mere om [anatomiske opbygning af skulderleddet](/joints/skulderleddet/).
 
 <div class="feature__wrapper">
 

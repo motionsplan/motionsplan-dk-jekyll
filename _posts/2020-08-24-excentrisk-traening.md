@@ -38,7 +38,7 @@ Excentrisk træning indeholder øvelser, hvor musklen udvikler kraft samtidig me
 
 ## Hvad sker der ved excentrisk arbejde?
 
-Musklerne kan enten arbejde [koncentrisk, excentrisk eller isometrisk]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}). Men hvad er forskellen på excentrisk og koncentrisk træning? Når musklerne laver en koncentrisk bevægelse trækker de sig sammen, mens de arbejder under forlængelse i i excentriske bevægelser.
+Musklerne kan enten arbejde [koncentrisk, excentrisk eller isometrisk](/koncentrisk-excentrisk-isometrisk/). Men hvad er forskellen på excentrisk og koncentrisk træning? Når musklerne laver en koncentrisk bevægelse trækker de sig sammen, mens de arbejder under forlængelse i i excentriske bevægelser.
 
 Musklerne kan yde mere kraft i den excentriske fase end i den koncentriske fase.
 
@@ -54,7 +54,7 @@ Sommetider kalder man også den excentriske sammentrækning for **negativt arbej
 
 ## Mekanisme af excentrisk muskelhandling
 
-For at forstå hvad en excentrisk muskelsammentrækning er, så kan det hjælpe at vide, [hvordan muskler trækker sig sammen]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
+For at forstå hvad en excentrisk muskelsammentrækning er, så kan det hjælpe at vide, [hvordan muskler trækker sig sammen](/muskelsammentraekning/).
 
 En muskel har to myofibriller, der ligger parallelt. De to proteiner hedder actin og myosin. Når musklerne får signal fra hjernen kan actin og myosin lave en _cross bridge_ og knytte sig til hinanden.
 
@@ -124,7 +124,7 @@ Hvis du ikke har en træningsmakker, så kan du lave **selvspottet træning**. H
 
 Du kan lave [glute ham raise](/oevelse/glute-ham-raises/) og [nordic hamstring](/oevelse/nordic-hamstring/), som har vist sig at være rigtig gode til at beskytte baglårene for skader.
 
-Du kan også lave [dips](/oevelse/dips/) og [pull-ups og chinups](/chinup-vs-pullup/), hvor det er relativt let at finde måder, hvor man kan hjælpe sig selv op i den koncentriske fase og sænke dig langsomt i den excentriske fase. Excentrisk træning kan fx i et [træningsprogram til pullups]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}) også være med til at træne dig op til, at du til sidst kan tage en pullup.
+Du kan også lave [dips](/oevelse/dips/) og [pull-ups og chinups](/chinup-vs-pullup/), hvor det er relativt let at finde måder, hvor man kan hjælpe sig selv op i den koncentriske fase og sænke dig langsomt i den excentriske fase. Excentrisk træning kan fx i et [træningsprogram til pullups](/laer-kropshaevning-chinup-pullup-program/) også være med til at træne dig op til, at du til sidst kan tage en pullup.
 
 Hvis du er på udkig efter mere inspiration til excentrisk træning, så har [Christian Thibaudeau](https://www.t-nation.com/training/accentuated-eccentric-training) lavet en guide til det.
 

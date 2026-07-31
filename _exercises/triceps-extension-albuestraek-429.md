@@ -49,4 +49,4 @@ Placer håndvægten i den ene hånd og stræk armen opad.
 
 Man vælger en håndvægt med passende vægt, som man tager i hånden. Herefter strækker man armen over hovedet. Nu bøjes albuen så hånden føres nedad, og håndvægten går mod skulderen. Man skal så langt ned med håndvægten som smidigheden tillader. Herefter strækkes albuen, indtil du tilbage til start positionen.
 
-Hvis du er på udkig efter [fransk pres eller skull crushers, så se her]({% link _exercises/triceps-fransk-pres-262.md %}).
+Hvis du er på udkig efter [fransk pres eller skull crushers, så se her](/oevelse/triceps-fransk-pres/).

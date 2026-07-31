@@ -240,7 +240,7 @@ I de følgende konditalberegnere har forskerne stillet spørgsmål om krop og ak
 
 {% include gallery id="polar" layout="third" %}
 
-Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar Beat og en brystmåler. Jeg har skrevet mere om, hvordan du kan bruge dit [ur til at måle din kondition](/watch-vo2-max/).
+Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar Beat og en brystmåler. Jeg har skrevet mere om, hvordan du kan bruge dit [ur til at måle din kondition](/ur-vo2max/).
 
 </details>
 
@@ -259,7 +259,7 @@ Her kan du finde vores mest populære fysiske konditionstests:
 * **[Andersen-test](/andersen-test/)** — intervaltest velegnet til børn og unge.
 * **[Vilkårlig løbedistance](/kondital-loeb-distance-tid/)** — intervaltest velegnet til børn og unge.
 
-Du kan også finde flere [løbetests](/tests/loeb/), [cykeltests](/tests/cykling/), [rotests](/tests/roing/) eller [gangtests](/tests/gang/) på vores samleside.
+Du kan også finde flere [løbetests](/tests/loeb/), [cykeltests](/tests/cykling/), rotests eller gangtests på vores samleside.
 
 [Se alle konditionstests](/kondition/tests/){: .btn .btn--large .btn--info }
 

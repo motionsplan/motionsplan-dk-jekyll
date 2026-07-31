@@ -68,7 +68,7 @@ Rigshospitalet bruger dog en mere præcis metode på deres afdeling til at estim
 
 ## Konklusion
 
-Du kan sammenligne den udregnede højde med [gennemsnitshøjden i Danmark](/hvad-er-gennemsnitshoejden-i-danmark/) eller læse mere om, [hvordan du bliver højere]({% link _posts/2020-07-04-hvordan-hojere.md %})?.
+Du kan sammenligne den udregnede højde med [gennemsnitshøjden i Danmark](/hvad-er-gennemsnitshoejden-i-danmark/) eller læse mere om, [hvordan du bliver højere](/hvordan-bliver-jeg-hojere/)?.
 
 
 {% comment %}

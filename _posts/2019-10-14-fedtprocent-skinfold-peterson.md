@@ -43,7 +43,7 @@ Bestemmelsen af 4-komponentmodellen er baseret på tre forskellige metoder, som 
 
 På baggrund af 4-komponentmodellen fik lavede forskerne regressionsligninger med forskellige parametre, og de fandt frem til en sammenhæng for både kvinder og mænd, hvor man skulle måle fire hudfolde, vægt, højde og alder for at bestemme fedtprocenten.
 
-I [Peterson et al (2003)](https://academic.oup.com/ajcn/article/77/5/1186/4689818) undersøgte de også formlerne fra [Womersley og Durnin]({% link _posts/2019-10-14-fedtprocent-skinfold-durnin-womersley.md %}) og [Jackson og Pollock]({% link _posts/2019-10-14-fedtprocent-skinfold-jackson-pollock.md %}). Peterson et al (2003) fandt, at deres nyudviklede formel havde en bedre korrelation med formlen baseret på 4-komponentmodellen end de ældre formler, som kun var baseret og valideret i forhold til undervandsvejning.
+I [Peterson et al (2003)](https://academic.oup.com/ajcn/article/77/5/1186/4689818) undersøgte de også formlerne fra [Womersley og Durnin](/skinfold-durnin-womersley/) og [Jackson og Pollock](/skinfold-jackson-pollock/). Peterson et al (2003) fandt, at deres nyudviklede formel havde en bedre korrelation med formlen baseret på 4-komponentmodellen end de ældre formler, som kun var baseret og valideret i forhold til undervandsvejning.
 
 ## Beskrivelse af hudfoldsmålinger i Peterson (2003)
 

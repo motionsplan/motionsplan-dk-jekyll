@@ -223,7 +223,7 @@ Det allervigtigste er, at hvis du gerne vil lære noget, så skal du lave en pro
 
 ## Konklusion
 
-Et andet sted har vi skrevet om, at [styrketræning forebygger skader i andre idrætsgrene]({% link _posts/2009-04-22-kan-styrketraening-forebygge-skader.md %}).
+Et andet sted har vi skrevet om, at [styrketræning forebygger skader i andre idrætsgrene](/artikel/kan-styrketraening-forebygge-skader/).
 
 Hvis du vil læse en rigtig god bog om teknik i styrketræning, så kan jeg på det kraftigste anbefale denne bog af Jacob Beermann. Det er den bedste danske bog om styrketræning, jeg har læst.
 

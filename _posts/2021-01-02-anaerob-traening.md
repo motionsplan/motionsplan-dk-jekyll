@@ -23,7 +23,7 @@ Anaerob træning bør være en del af din træning. Det anaerobe system er en vi
 
 Hvad er anaerob træning? **Anaerob træning forbedrer kroppens evne til at levere energi uden ilt til stede. Anaerobt arbejde kan være alaktacid og laktacid og træner evnen til at genopbygge ATP enten spalte kreatinfosfat eller ved at spalte glykose, hvor der kommer mælkesyre som biprodukt.**
 
-Jeg har skrevet mere uddybende om, [hvordan det anaerobe og aerobe energisystem hænger sammen her](/energisystemer/). Hvis du ledte efter [aerob træning, så tjek her]({% link _posts/2021-06-19-aerob-traening.md %}).
+Jeg har skrevet mere uddybende om, [hvordan det anaerobe og aerobe energisystem hænger sammen her](/energisystemer/). Hvis du ledte efter [aerob træning, så tjek her](/aerob-traening/).
 
 I dette indlæg kan du få svar på følgende spørgsmål:
 
@@ -165,9 +165,9 @@ Husk at den anaerobe træning kræver tilvænning, og husk at tænke på princip
 
 Jeg kan godt lide at lave intervaller, hvor jeg arbejder maksimalt i 30 sekunder og holder 1-5 minutters pause alt efter om jeg forsøger at træne den anaerobe kapacitet eller effekt med intervallet. Det bliver ikke lettere af at holde længere pauser, men du kan lave mere arbejde i arbejdsintervallet. Du kan fx lave det som [Wingate-tests](/wingate/). Du kan fx starte med 3x30 sekunder med tre minutters pause. Næste uge kan du lave 4x30 sekunder med 3 minutters pause.
 
-Du har sikkert også hørt om [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}), som virkelig sætter det anaerob system på prøve.
+Du har sikkert også hørt om [Tabata-intervaller](/artikel/tabata-traening-intervaller/), som virkelig sætter det anaerob system på prøve.
 
-Intervaltræningsformen 10-20-30 som her præsenteres af [vorespuls.dk](https://vorespuls.dk/loeb/artikler/saadan-loeber-du-10-20-30-loeb) er også en sjov og effektiv måde at få trænet det anaerobe system. Husk at de 10 sekunders sprint er det vigtigste, hvis du skal ramme de anaerobe system. Jeg kan også godt lide at lave [Sprint 8-intervaller]({% link _posts/2013-04-28-sprint-8-intervaltraening-der-virker.md %}).
+Intervaltræningsformen 10-20-30 som her præsenteres af [vorespuls.dk](https://vorespuls.dk/loeb/artikler/saadan-loeber-du-10-20-30-loeb) er også en sjov og effektiv måde at få trænet det anaerobe system. Husk at de 10 sekunders sprint er det vigtigste, hvis du skal ramme de anaerobe system. Jeg kan også godt lide at lave [Sprint 8-intervaller](/artikel/sprint-8-intervaltraening-der-virker/).
 
 ## Øvelser til anaerob træning
 

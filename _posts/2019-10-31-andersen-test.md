@@ -78,9 +78,6 @@ Andersen testen bliver ofte brugt til at test af børns kondition. Det er også 
 
 Testen er egnet fordi den ikke udstiller _ikke_ de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane. Derfor kan testen være et godt alternativ til [Coopers 12 minutters løbetest](/cooper-test/).
 
-Andersen-testen udstiller ikke de mindst trænede børn, da alle løber frem og tilbage på den samme bane samtidig, så man kan umiddelbart ikke se, hvem der har løbet kortest og længst. Derfor kan testen være et godt alterantiv til fx [Cooper-testen](/kondital-cooper-test/).
-
-
 ## Hvad er Andersen Test?
 
 Andersen Testen er en konditionstest for børn og unge udviklet af professor [Lars Bo Andersen (2008)](https://pubmed.ncbi.nlm.nih.gov/18997644/). Testen foregår på en 20 meter lang bane, hvor deltagerne skal løbe fra side til side. Deltagerne skal løbe i 15 sekunder og holder pause i 15 sekunder. Det gør de 20 gange, så testen tager altså kun 10 minutter at gennemføre.

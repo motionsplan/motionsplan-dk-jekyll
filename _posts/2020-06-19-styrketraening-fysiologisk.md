@@ -246,7 +246,7 @@ Det er vigtigt at huske på, at _rep ranges_ er en tommelfingerregel i forhold t
 
 Tidligere har vi skrevet en artikel, der handler om, [hvordan muskler vokser](/hvordan-vokser-muskler/), som giver nogle praktiske anvisninger på, hvordan du kan træne for muskeltilvækst.
 
-Vi har skrevet et andet indlæg om [de fysiologiske tilpasningerne til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+Vi har skrevet et andet indlæg om [de fysiologiske tilpasningerne til konditionstræning](/tilpasning-konditionstraening/).
 
 *[RM]: Repetition Maximum
 *[BMD]: Bone Mass Density

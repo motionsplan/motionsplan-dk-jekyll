@@ -37,7 +37,7 @@ Jeg har lavet en liste over [gode øvelser til ryggen](/rygoevelser/).
 
 ## Hvorfor træne musklerne i ryggen?
 
-Vi bruger ryggen i næsten alt, hvad vi foretager os. Ryggens muskler skal bære overkroppens vægt og beskytte din rygmarv. Derfor kan det i høj grad betale sig at styrke muskulaturen – både for at [forebygge skader]({% link _posts/2020-11-23-skadesforebyggelse.md %}) som diskusprolaps og lændespændinger, men også for at forbedre din præstation i sport.
+Vi bruger ryggen i næsten alt, hvad vi foretager os. Ryggens muskler skal bære overkroppens vægt og beskytte din rygmarv. Derfor kan det i høj grad betale sig at styrke muskulaturen – både for at [forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/) som diskusprolaps og lændespændinger, men også for at forbedre din præstation i sport.
 
 Når musklerne omkring rygsøjlen og skulderbladene er stærke, aflaster de leddene, når du står, går og løfter. Det er med til at sikre en sund ryg gennem mange år.
 

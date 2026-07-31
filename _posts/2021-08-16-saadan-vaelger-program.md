@@ -217,7 +217,7 @@ Du kan også bruge et avanceret fullbodyprogram over fire dage – fx med forske
 
 Hvis du gerne vil træne fem eller flere dage om ugen, får du adgang til endnu flere muligheder.
 
-Du kan stadig bruge fullbody, fx [Jakob Beermans Stærk-program]({% link _posts/2019-03-10-staerk-traeningsprogram.md %}), som er bygget op til op til fem ugentlige træninger.
+Du kan stadig bruge fullbody, fx [Jakob Beermans Stærk-program](/artikel/staerk-traeningsprogram/), som er bygget op til op til fem ugentlige træninger.
 
 Mange vælger dog at arbejde med splitprogrammer, hvor hver træning har fokus på bestemte muskelgrupper. De mest relevante for de fleste er 2-split og 3-split-programmer, da de giver god variation og høj træningsfrekvens.
 
@@ -231,7 +231,7 @@ Læs meget mere om [helkropsprogrammer](/styrketraening/helkropsprogrammer/) og 
 
 ## Styrketræningsprogram til kvinder
 
-Der er **ikke forskel** på [mænd og kvinders muskler]({% link _posts/2020-06-29-maend-kvinder-muskler.md %}), så træning for mænd og kvinder skal følge de samme principper.
+Der er **ikke forskel** på [mænd og kvinders muskler](/maend-kvinder-muskler/), så træning for mænd og kvinder skal følge de samme principper.
 
 Men ofte har mænd og kvinder forskellige mål med deres træning, hvilket gør at programmerne skal se forskellige ud. Husk at lave dit træningsprogram ud fra dine mål og ikke ud fra det køn, du identificerer dig med.
 
@@ -249,7 +249,7 @@ Du kan sagtens bruge de forskellige træningsprogrammer, selvom du foretrækker 
 
 Du kan lave styrketræning uden at være medlem af et fitnesscenter eller bruge en masse udstyr.
 
-Hvis du ikke har adgang til udstyr eller et fitnesscenter, så tjek vores [udførlige guide til hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}).
+Hvis du ikke har adgang til udstyr eller et fitnesscenter, så tjek vores [udførlige guide til hjemmetræning](/hjemmetraening-traeningsprogram/).
 
 ***
 

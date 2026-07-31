@@ -52,7 +52,7 @@ Herunder kan du dykke ned i anatomien bag skelettet, eller du kan springe direkt
 
 > 🏋️ **Hvor mange muskler har mennesket?**  
 > Mens det voksne skelet består af 206 knogler, har kroppen til sammenligning over **600 skeletmuskler**, som arbejder sammen for at bevæge knoglerne.  
-> 👉 **[Se det præcise antal muskler i kroppen her →](/hvor-mange-muskler-har-et-menneske/)**
+> 👉 **[Se det præcise antal muskler i kroppen her →](/hvor-mange-muskler-i-kroppen/)**
 
 ---
 

@@ -110,7 +110,7 @@ I gennemsnit svarer 10.000 skridt til:
 * **Distance:** Ca. **7,5 – 8,0 kilometer** (afhængigt af din skridtlængde).
 * **Tid:** Ca. **1 time og 30-45 minutters** samlet gang om dagen.
 
-> **Vil du omregne dine egne skridt?** Tjek vores værktøj til [hvor langt 10.000 skridt er i kilometer]({% link _posts/2020-06-25-steps.md %}) ud fra din højde og skridtlængde.
+> **Vil du omregne dine egne skridt?** Tjek vores værktøj til [hvor langt 10.000 skridt er i kilometer](/skridt-pr-km-10000/) ud fra din højde og skridtlængde.
 
 ---
 

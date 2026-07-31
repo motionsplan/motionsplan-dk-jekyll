@@ -16,7 +16,7 @@ tags:
   - DHF
   - performance profil
 header:
-  teaser: /assets/images/dhf-retningsskift.jpg
+  teaser: https://i.ytimg.com/vi/vIxSoTU9LrY/hqdefault.jpg
   caption: Dansk Håndbolds Retningsskift-test – Test af specifikke bevægelsesmønstre for angreb og forsvar
 author_profile: true
 last_modified_at: '2026-07-28T14:00:00Z'

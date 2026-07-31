@@ -28,13 +28,13 @@ Jeg har samlet en liste over muskler i din hofte her. Det er vigtigt at vide, hv
 
 {% include figure image_path=page.header.teaser caption="Hoften er omdrejningspunktet for næsten alle bevægelser i din krop, fra gang til tunge løft." alt="hoftens muskler og anatomi" %}
 
-[Squats](/squat/) og [lunges](/lunges/) er fantastiske øvelser til hoften, ligesom du ikke kan komme udenom [hip thrusts](/hip-thrust/) for målrettet træning af bagkæden.
+[Squats](/squat/) og [lunges](/lunges/) er fantastiske øvelser til hoften, ligesom du ikke kan komme udenom [hip thrusts](/oevelse/hip-thrusters/) for målrettet træning af bagkæden.
 
 Jeg har lavet en liste over [gode øvelser til hoften](/hofteoevelser/).
 
 ## Hvorfor træne musklerne i hoften?
 
-Du bruger din hofte hele tiden. Hoften skal overføre kraft mellem din overkrop og dine ben. Derfor kan det i høj grad betale sig at styrke musklerne – både for at [forebygge skader]({% link _posts/2020-11-23-skadesforebyggelse.md %}), men også for at få bedre præstationer i sport og hverdag.
+Du bruger din hofte hele tiden. Hoften skal overføre kraft mellem din overkrop og dine ben. Derfor kan det i høj grad betale sig at styrke musklerne – både for at [forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/), men også for at få bedre præstationer i sport og hverdag.
 
 Hvis musklerne omkring hoften er stærke og mobile, vil det fjerne meget af den uhensigtsmæssige belastning på lænderyggen og knæene. En stabil hofte er fundamentet for et sundt bevægeapparat over mange år. Når hoftens muskler er stærke, vil du desuden kunne løbe hurtigere, hoppe højere og løfte tungere.
 

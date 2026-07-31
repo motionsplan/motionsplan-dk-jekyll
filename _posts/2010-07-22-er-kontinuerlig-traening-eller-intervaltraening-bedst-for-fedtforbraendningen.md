@@ -34,7 +34,7 @@ Jeg gennemgår i det følgende fedtforbrændingszonen, efterforbrændingen og de
 
 ## Fedtforbrændingszonen - effektiv fedtforbrænding?
 
-Vi har lært, at vi skal [glemme fedtforbrændingszonen]({% link _posts/2020-08-24-fedtforbraeningszonen.md %}) og holde en så høj intensitet, som vi kan holde til under træningen.
+Vi har lært, at vi skal [glemme fedtforbrændingszonen](/fedtforbraendingszonen/) og holde en så høj intensitet, som vi kan holde til under træningen.
 
 Det gælder om at finde et passende forhold mellem træningstid og intensitet, så man kan nå at restitutere, men man skal ikke lægge bånd på sig selv for at ramme en bestemt intensitet, fordi den giver en større fedtforbrænding.
 

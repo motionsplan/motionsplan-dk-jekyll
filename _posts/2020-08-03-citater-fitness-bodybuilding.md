@@ -65,7 +65,7 @@ Jeg har samlet en masse forskellige citater om fitness og bodybuilding her på s
 
 Her er bl.a. citater fra Arnold Schwarzenegger, som er en meget kendt bodybuilder. Desuden fra Jim Wendler, der har konkurreret i styrkeløft og så naturligvis John Zena og The Rock. Lad os dykke ned i citaterne.
 
-Et par citater fra [træningscitater om løb, styrketræning og motivation]({% link _posts/2020-08-03-citater.md %}) fik også lov til at være med på denne liste.
+Et par citater fra [træningscitater om løb, styrketræning og motivation](/citater-traening-motivation/) fik også lov til at være med på denne liste.
 
 {% include motionsplan/pinterest-gallery id="gallery" caption=page.title %}
 

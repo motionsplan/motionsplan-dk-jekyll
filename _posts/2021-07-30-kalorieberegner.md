@@ -145,7 +145,7 @@ Hvis du har brug for en kalorieberegner, der kan udregne [hvor meget energi du f
 
 ## 🔁 Kalorieomregner og energiomregner
 
-Det kan ogå være, at du bare er på udkig efter en energiomregner. Jeg har lavet et værktøj, hvor du kan [omregne fra kJ til kcal]({% link _posts/2021-07-23-kj-kcal-omregner.md %}).
+Det kan ogå være, at du bare er på udkig efter en energiomregner. Jeg har lavet et værktøj, hvor du kan [omregne fra kJ til kcal](/kj-kcal-omregner/).
 
 ***
 

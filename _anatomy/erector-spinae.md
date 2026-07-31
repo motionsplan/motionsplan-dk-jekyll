@@ -42,7 +42,7 @@ image: /assets/images/anatomy/erector-spinae.png
 
 ## Hvad er {{ page.title }}?
 
-Erector spinae er ikke bare én muskel, men et stort kompleks af muskelstrøg, der ligger dybt for de store overfladiske rygmuskler som [Latissimus Dorsi](latissimus-dorsi/) og [Trapezius](trapezius/). Gruppen deles anatomisk op i tre søjler (fra ydersiden mod midten):
+Erector spinae er ikke bare én muskel, men et stort kompleks af muskelstrøg, der ligger dybt for de store overfladiske rygmuskler som [Latissimus Dorsi](/latissimus-dorsi/) og [Trapezius](/trapezius/). Gruppen deles anatomisk op i tre søjler (fra ydersiden mod midten):
 
 1.  **m. iliocostalis:** Den yderste del, der hæfter på ribbenene.
 2.  **m. longissimus:** Den midterste og længste del.

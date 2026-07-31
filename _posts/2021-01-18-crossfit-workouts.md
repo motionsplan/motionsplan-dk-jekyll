@@ -28,7 +28,7 @@ Se opstilling med udstyr + øvelser her — https://wodwell.com/wod/the-300/
 
 {% endcomment %}
 
-I princippet kan alle lave en crossfit workout ved at sammensætte forskellige øvelser, men jeg synes det er sjovest at kigge lidt på de klassiske workouts. Jeg har skrevet lidt mere om de [mest brugte crossfitøvelser]({% link _posts/2009-06-13-crossfit.md %}).
+I princippet kan alle lave en crossfit workout ved at sammensætte forskellige øvelser, men jeg synes det er sjovest at kigge lidt på de klassiske workouts. Jeg har skrevet lidt mere om de [mest brugte crossfitøvelser](/crossfit-crossfit-oevelser/).
 
 Når du søger på 'Crossfit Workouts', så er et af de første resultater på Google [Wodwells populære crossfit workouts](https://wodwell.com/wods/?sort=popular). Det er en ret god samling af en masse fede crossfit workouts, hvor en del er de officielle crossfit workouts.
 

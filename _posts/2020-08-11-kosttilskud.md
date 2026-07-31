@@ -94,7 +94,7 @@ Hvis du ikke får dækket dit proteinbehov gennem kosten, så kan man tage prote
 
 [Bodylab](https://www.bodylab.dk/shop/boer-vi-i-2559c1.html) foreslår, at vi bør tale om proteinindtag pr. måltid og ikke pr. dag. Proteinindtaget bør formentlig fordeles på 4-5 måltider over dagen, og dosis inden sengetid er dobbelt så stor som de øvrige måltider (Trommelen og Loon 2016).
 
-Kerksick og Schoenfeld (2017) skriver også, at det sandsynligvis er fordelagtigt at indtage protein lige efter træning. Det gælder ikke overraskende særligt, hvis man ikke har spist lige inden træning og har trænet i lang tid. Der kan det være let at medbringe en _shake_ med protein. Der er også nogle der taler om, at der er et [åbent vindue]({% link _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md %}) lige efter træning, selvom det åbne vindue formentlig hverken åbner eller lukker så hurtigt eller tæt som tidligere foreslået.
+Kerksick og Schoenfeld (2017) skriver også, at det sandsynligvis er fordelagtigt at indtage protein lige efter træning. Det gælder ikke overraskende særligt, hvis man ikke har spist lige inden træning og har trænet i lang tid. Der kan det være let at medbringe en _shake_ med protein. Der er også nogle der taler om, at der er et [åbent vindue](/artikel/aabne-vindue-og-anabolic-window/) lige efter træning, selvom det åbne vindue formentlig hverken åbner eller lukker så hurtigt eller tæt som tidligere foreslået.
 
 Den primære fordel ved proteinpulver er, at det let at medbringe det, så du kan få det på de fordelt jævnt ud over dagen.
 
@@ -119,7 +119,7 @@ Vandenberghe et al (1997) lavede et styrketræningsstudium gennem 10 uger, hvor 
 
 Vi skal dog være opmærksom på, at kreatin også er med til at øge den intracellulære lagring af både glykogen og væske. Stigningen i den fedtfrie masse er således ikke kun fra en stigning i muskelmasse (se også Buford 2007).
 
-Når man kigger på studierne om kreatin, så skal man være opmærksom på, at man har brugt den fedtfri masse som markør for muskelvækst. Når man fx bruger en DEXA-scanner til at måle den fedtfrie masse, så vil mængden af vand og glykogen i musklerne påvirke resultatet, som jeg også har skrevet om i mit indlæg om [hypertrofi og hvor hutigt muskler vokser]({% link _posts/2020-06-19-hurtigt-vokser-muskler.md %}) (Bone et al 2016).
+Når man kigger på studierne om kreatin, så skal man være opmærksom på, at man har brugt den fedtfri masse som markør for muskelvækst. Når man fx bruger en DEXA-scanner til at måle den fedtfrie masse, så vil mængden af vand og glykogen i musklerne påvirke resultatet, som jeg også har skrevet om i mit indlæg om [hypertrofi og hvor hutigt muskler vokser](/hvor-hurtigt-vokser-muskler/) (Bone et al 2016).
 
 Kreatin virker heller ikke for alle. Nogle responderer rigtig godt på kreatin, og så fordeler folk sig hen til de omkring 30% af befolkningen som ikke responderer på kreatin (Buford 2007).
 

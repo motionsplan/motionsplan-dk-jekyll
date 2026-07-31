@@ -46,7 +46,7 @@ Når du laver udholdenhedstræning i dit løbeprogram, så handler det om at øg
 
 Udholdenhed er naturligvis vigtig, når du træner langdistanceløb. Udholdenhedstræningen fremmer kroppens evne til at tolerere bevægelse over længere tid, evnen til at forbrænde fedt og forbedrer kredsløbet.
 
-Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapacitet. Der sker altså nogle [fysiologiske tilpasninger og adaptation er til udholdenhedstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapacitet. Der sker altså nogle [fysiologiske tilpasninger og adaptation er til udholdenhedstræning](/tilpasning-konditionstraening/).
 
 - Der kommer flere mitochondrier, og de bliver mere effektive
 - Der kommer flere små blodårer (kapillærer) omkring musklerne og ved lungerne
@@ -57,7 +57,7 @@ Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapac
 
 Når du træner udholdenhedstræning, så skal intensiteten være med en pulsbelastning på omkring 60-75% af din _heart rate reserve_.
 
-Hvis man fx bruger [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}), så skal tempoet med andre ord være i "snakketempo". Du skal finde et behageligt tempo, hvor du kan føre en samtale undervejs i længere sætninger.
+Hvis man fx bruger [Borg-skalaen](/borg-skala/), så skal tempoet med andre ord være i "snakketempo". Du skal finde et behageligt tempo, hvor du kan føre en samtale undervejs i længere sætninger.
 
 Når du træner udholdenhedstræning skal du arbejde med nogenlunde konstant puls i 30 minutter til 2 timer. Du kan opbygge turen, så du starter lidt langsommere på omkring 60% pulsbelastning og bygger op mod 75% i slutningen.
 

@@ -108,7 +108,7 @@ Schoenfeld et al (2013) fandt kun:
 
 De lavede en subanalyse, der viste at mange af forskellene i hypertrofi kunne forklares af den **daglige totale proteinindtagelse** snarere end timing af proteinindtaget.
 
-Læs: [Hypertrofi, muskelvækst og de fysiologiske tilpasninger til træning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %})
+Læs: [Hypertrofi, muskelvækst og de fysiologiske tilpasninger til træning](/fysiologiske-tilpasninger/)
 {: .notice }
 
 Noget kan altså tyde på at de studier, der har fundet en positiv effekt af at spise protein i det såkaldet _anabolic window_ i virkeligheden bare har spist mere protein i alt i løbet af dagen.
@@ -165,7 +165,7 @@ Læs: [Hvor meget protein har du brug for om dagen?](/dagligt-protein-indtagelse
 - _... når jeg vil tabe mig?_ Sikkert ikke, men hvis det kan hjælpe dig med at holde blodsukkeret stabilt, så du ikke bliver lækkersulten, så er det nok en god ide.
 - _... når jeg har spist lige før træning?_ Måske! Hvis du i forhold til protein sørger for at få noget protein i et vindue på 4-6 timer omkring træningen, så er det formentlig tilstrækkeligt for at understøtte proteinsyntesen. I forhold til kulhydrat handler det lige så meget om at sørge for at have energi nok.
 - _... når aftensmaden står klar kort efter træning?_ Så er det ikke så nødvendigt. Hvis du træner rigtig meget - og rigtig hårdt kan du overveje om du skal spise en hurtig snack med hurtigt-optagelige kulhydrater og erstatte lidt af hovedmåltidet, får så er der måske en tendens til, at du hurtigere får genopfyldt glykogenlagrene.
-- _... når jeg styrketræner for at øge muskelmassen?_ Måske. Hvis du spiser en snack med et højt indhold af protein lige efter træning, så er det sandsynligt at du over en dag får et øget indhold af protein i din kost, som kan hjælpe med muskelopbygning. Jeg har skrevet lidt mere om [kosttilskud, hvor jeg også nævner protein]({% link _posts/2020-08-11-kosttilskud.md %}).
+- _... når jeg styrketræner for at øge muskelmassen?_ Måske. Hvis du spiser en snack med et højt indhold af protein lige efter træning, så er det sandsynligt at du over en dag får et øget indhold af protein i din kost, som kan hjælpe med muskelopbygning. Jeg har skrevet lidt mere om [kosttilskud, hvor jeg også nævner protein](/kosttilskud/).
 
 ## Hvad spiser du så lige efter træning?
 

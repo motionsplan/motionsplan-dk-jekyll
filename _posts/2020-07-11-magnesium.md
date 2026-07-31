@@ -38,7 +38,7 @@ Jeg har følt mig træt på det seneste, så derfor er jeg gået i gang med at r
 
 Hvorfor er magnesium så vigtigt? Hvad bidrager mineralet til?
 
-Det kan du læse meget mere om herunder, hvor jeg også konkluderer, at magnesium ikke er det første [kosttilskud, du skal overveje]({% link _posts/2020-08-11-kosttilskud.md %}).
+Det kan du læse meget mere om herunder, hvor jeg også konkluderer, at magnesium ikke er det første [kosttilskud, du skal overveje](/kosttilskud/).
 
 {% comment %}
 **Nøgleord**: magnesium piller, magnesium tilskud, magnesium bivirkninger, magnesium muskelkramper, magnesium muskelafslappende, hvilkem magnesium virker bedst?
@@ -193,7 +193,7 @@ I meget alvorlige tilfælde af overdosering af magnesium kan der også forekomme
 
 ## Typer af magnesium i kosttilskud
 
-Der findes mange typer af magnesium i diverse [kosttilskud]({% link _posts/2020-08-11-kosttilskud.md %}), så man skal holde tungen lige i munden. Det er fx ikke nok at kigge på, hvor meget magnesium der er i kosttilskuddet. Hvis optageligheden er lav, så skal mængden naturligvis være højere for at give samme effekt.
+Der findes mange typer af magnesium i diverse [kosttilskud](/kosttilskud/), så man skal holde tungen lige i munden. Det er fx ikke nok at kigge på, hvor meget magnesium der er i kosttilskuddet. Hvis optageligheden er lav, så skal mængden naturligvis være højere for at give samme effekt.
 
 De forskellige typer af magnesium adskiller sig primært på, hvor lette de er at optage i kroppen, og hvad prisen er. Typisk ser det ud til, at prisen bliver højere, jo lettere magnesiumtypen er at optage.
 

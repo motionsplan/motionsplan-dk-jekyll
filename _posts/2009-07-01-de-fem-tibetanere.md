@@ -181,7 +181,7 @@ Du behøver i princippet intet udstyr, men en god **yogamåtte** er en kæmpe hj
 
 {% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.manduka_x_yoga_mat view="card" %}
 
-Hvis du ønsker mere ro og fokus under din træning, kan du også overveje at [vælge noget passende musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
+Hvis du ønsker mere ro og fokus under din træning, kan du også overveje at [vælge noget passende musik til yoga](/yoga-musik/).
 
 ---
 
@@ -290,7 +290,7 @@ Vil du dykke endnu dybere ned i filosofien og de oprindelige beretninger, kan Pe
 Vil du gerne opbygge en endnu stærkere daglig praksis? Læs også vores andre guides:
 
 * **[Yoga Solhilsen (A & B): Trin-for-trin guide til Surya Namaskar](/artikel/solhilsen-a-b-surya-namaskar/)** – Lær den klassiske, dynamiske yoga-sekvens.
-* **[Find den bedste musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %})** – Få inspiration og afspilningslister til at skabe ro under din træning.
+* **[Find den bedste musik til yoga](/yoga-musik/)** – Få inspiration og afspilningslister til at skabe ro under din træning.
 * **[Kom i gang med mindfulness meditation](/mindfulness-meditation/)** – Enkle øvelser til at skabe ro i sindet efter dine riter.
 
 ---
