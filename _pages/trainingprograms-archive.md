@@ -1,189 +1,128 @@
 ---
 layout: single
-title: Træningsprogrammer - Find program til dine mål
-seo_title: Træningsprogrammer – Find det rette program til dine mål
+title: "Træningsprogrammer: Find det rette program til dine mål"
+seo_title: "Træningsprogrammer – Gratis programmer til styrke, løb & gang"
 permalink: /traeningsprogrammer/
-excerpt: Find træningsprogrammer der passer til dit niveau og dine mål. Få mere struktur på din træning til fx kondition,
-  styrketræning eller en kombination.
-description: Find træningsprogrammer der passer til dit niveau og dine mål. Få mere struktur på din træning til fx kondition,
-  styrketræning eller en kombination.
-comments: 'false'
-toc: 'true'
+excerpt: "Komplet overblik over træningsprogrammer. Find et gratis træningsprogram til styrketræning, løbetræning, gang eller hent skabeloner til dit eget program."
+description: "Find det perfekte træningsprogram til dine mål. Udforsk vores gratis træningsprogrammer til styrketræning, løb, gang og lær at opbygge dit eget program."
+comments: false
+toc: true
 category:
-- Træning
+  - Træning
 tags:
-- styrketræning
-breadcrumbs: 'true'
+  - træningsprogram
+breadcrumbs: true
 classes: wide
 header:
   overlay_image: /assets/images/unsplash/photo-1573858129683-59f4d9c445d9.jpg
   credit: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a
   teaser: /assets/images/unsplash/photo-1574680178050-55c6a6a96e0a.jpg
+  caption: "Træningsprogrammer til styrke, løb og gang"
   actions:
-  - label: <i class='fas fa-running'></i> Løbeprogrammer →
-    url: /loebeprogrammer/
-  - label: <i class='fas fa-dumbbell'></i> Styrkeprogrammer →
+    - label: "<i class='fas fa-dumbbell'></i> Styrkeprogrammer"
+      url: "/styrketraeningsprogrammer/"
+    - label: "<i class='fas fa-running'></i> Løbeprogrammer"
+      url: "/loebeprogrammer/"
+    - label: "<i class='fas fa-shoe-prints'></i> Gåprogrammer"
+      url: "#walking-programs"
+    - label: "<i class='fas fa-file-alt'></i> Skabeloner"
+      url: "#templates"
+
+feature_row_strength:
+  - image_path: /assets/images/unsplash/photo-1574680178050-55c6a6a96e0a.jpg
+    credit: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a
+    alt: "Træningsprogrammer til styrketræning"
+    title: "Styrketræningsprogrammer"
+    excerpt: "Udforsk vores store udvalg af gratis styrketræningsprogrammer – fra fullbody og splitprogrammer til specifikke bænkpres- og dødløftprogrammer."
     url: /styrketraeningsprogrammer/
-  - label: <i class='fas fa-shoe-prints'></i> Gåprogrammer →
-    url: '#walking-programs'
-  - label: <i class='fas fa-list-alt'></i> Andre programmer →
-    url: '#other-programs'
+    btn_label: "Se alle styrkeprogrammer →"
+    btn_class: btn--success
+
+feature_row_running:
+  - image_path: /assets/images/unsplash/photo-1594911772125-07fc7a2d8d9f.jpg
+    credit: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f
+    alt: "Løbeprogrammer til alle distancer"
+    title: "Løbeprogrammer"
+    excerpt: "Find et målrettet løbeprogram til begyndere, 5 km, 10 km, halvmaraton eller maraton. Tilpas din træningsmængde og byg formen op uden skader."
+    url: /loebeprogrammer/
+    btn_label: "Find dit løbeprogram →"
+    btn_class: btn--info
+
+feature_row_walking:
+  - image_path: /assets/images/unsplash/photo-1613931372190-b067a12f73b6.jpg
+    credit: https://images.unsplash.com/photo-1613931372190-b067a12f73b6
+    alt: "Gåprogrammer og gangtræning"
+    title: "Gåprogrammer & Gangtræning"
+    excerpt: "Vil du i gang med skånsom motion, vægttab eller genoptræning? Se vores guides og strukturerede træningsprogrammer til gangtræning."
+    url: /gangtraening/
+    btn_label: "Se gåprogrammer →"
+    btn_class: btn--warning
+
+feature_row_templates:
+  - image_path: /assets/images/template/jack-daniels.png
+    url: /skabeloner/
+    title: "Skabeloner til træningsprogrammer"
+    excerpt: "Vil du skræddersy din egen træning? Hent vores gratis skabeloner og opbyg dit eget træningsprogram i Excel eller PDF."
+    btn_label: "Hent skabeloner →"
+    btn_class: btn--primary
+
 faq:
-- question: Hvilket træningsprogram skal jeg vælge?
-  answer: Når du skal vælge et træningsprogram, så skal du kigge på dit mål og den tid du har til rådighed. Uanset om du gerne
-    vil forøge din styrke, opbygge muskler eller begge dele, så viser forskningen at det er en god ide at træne alle musklerne
-    i kroppen mindst 2 gange om ugen. Jeg har skrevet en guide til, [hvordan du vælger det rigtige træningsprogram](/vaelg-traeningsprogram/),
-    som du kan lade dig inspirere af.
-- question: Skal kvinder træne anderledes end mænd?
-  answer: Mænd og kvinder skal træne ud fra de samme principper. Det afgørende i valget af træningsprogram er, at du tilpasser
-    det din målsætning, dine forudsætninger og din kropsbygning. Både kvinder og mænd kan altså sagtens tage udgangspunkt
-    i et af de effektive træningsprogrammer på denne side.
-- question: Hvad er et godt træningsprogram til styrketræning?
-  answer: Et godt styrketræningsprogram fokuserer på basisøvelser, som udføres med god bevægelseskvalitet og tilpas hårdt
-    i forhold til dine mål. De fleste vil få mere ud af at træne med 1-3 gentagelser i overskud end til failure. En ugentlige
-    volumen 6-20 sæt for den enkelte muskelgruppe vil være passende. De bedste træningsprogrammer har også en plan for, hvordan
-    man fra uge til uge kan lave [progression og progressivt load](/progressionsmodeller-progressivt-overload/).
-feature_row_choose_running_program:
-- image_path: /assets/images/unsplash/photo-1594911772125-07fc7a2d8d9f.jpg
-  credit: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f
-  alt: Sådan vælger du et løbeprogram
-  title: Sådan vælger du et løbeprogram
-  excerpt: Løbeprogrammer til alle niveauer. Her kan du finde et løbeprogram, der passer til dig. Der er løbetræningsprogrammer
-    til at blive hurtigere på 5km, 10 km, halvmaraton og maraton.
-  url: /loebeprogrammer/
-  btn_label: Find dit løbeprogram
-  btn_class: btn--info
-feature_row_template:
-- image_path: /assets/images/template/jack-daniels.png
-  url: /skabeloner/
-  title: Skabeloner til træningsprogrammer
-  excerpt: Har du brug for en skabelon til dit træningsprogram, så kan du lade dig inspirere af vores GRATIS skabeloner til
-    træningsporgrammer.
-  btn_label: <i class='fas fa-file-alt'></i> Find skabeloner til træningsprogrammer
-  btn_class: btn--info
-  rel: nofollow noopener
-feature_row_good_program:
-- image_path: /assets/images/unsplash/photo-1605296867424-35fc25c9212a.jpg
-  credit: https://images.unsplash.com/photo-1605296867424-35fc25c9212a
-  alt: Hvad er et godt styrketræningsprogram?
-  title: Sådan vælger du et styrketræningsprogram
-  excerpt: Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan
-    vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater?
-    Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?
-  url: /vaelg-traeningsprogram/
-  btn_label: Vælg det rette styrketræningsprogram
-  btn_class: btn--info
-feature_row_walking_training:
-- image_path: /assets/images/unsplash/photo-1613931372190-b067a12f73b6.jpg
-  credit: https://images.unsplash.com/photo-1613931372190-b067a12f73b6
-  url: /gangtraening/
-  title: Træning og gang
-  excerpt: Vil du gerne i gang med at træne lidt mere, mens du går. Så tjek alle forslagene her for inspiration til gåtræning.
-  btn_label: <i class='fas fa-shoe-prints'></i> Inspiration til gåtræning
-  btn_class: btn--info
+  - question: "Hvordan vælger jeg det rigtige træningsprogram?"
+    answer: "Start med at afklare dit primære mål (f.eks. større muskler, mere styrke, bedre kondition eller vægttab) og hvor mange dage om ugen, du realistisk kan træne. Vælg derefter et program, der passer til dit nuværende træningsniveau."
+  - question: "Hvor ofte bør man skifte træningsprogram?"
+    answer: "Du behøver ikke skifte program hver 4.-6. uge, så længe du oplever fremgang. Et godt træningsprogram kan ofte følges i 8–12 uger eller længere, så længe du benytter progressivt overload (øger vægt, reps eller sæt over tid)."
+  - question: "Er træningsprogrammerne på Motionsplan gratis?"
+    answer: "Ja! Alle træningsprogrammer, guides, beregnere og skabeloner på Motionsplan er 100% gratis at benytte."
 ---
 
-Et godt træningsprogram giver struktur, motivation og de bedste forudsætninger for at nå dine mål. Uanset om du vil blive stærkere, løbe hurtigere eller forbedre din udholdenhed på cyklen, er et veltilrettelagt program afgørende. 
+Et veltilrettelagt **træningsprogram** giver struktur, kontinuitet og de bedste forudsætninger for at nå dine fysiske mål. Uanset om du vil opbygge muskelmasse i fitnesscentret, forbedre dit kondital på løbestien eller i gang med skånsom motion, finder du det rette program her.
 
-Her finder du træningsprogrammer til forskellige formål og niveauer – fra nybegynder til øvet. Vælg den type program, der passer bedst til din træning, og kom godt i gang!
+Vælg din foretrukne træningsform herunder for at komme direkte til vores specialiserede programkataloger og guides.
 
-***
+---
 
-## 🏃 Træningsprogrammer til løbetræning
+## 💪 Styrketræningsprogrammer
+{: id="styrke" }
 
-{% include feature_row id="feature_row_choose_running_program" type="left" %}
+Hvad end du vil træne i fitnesscentret eller derhjemme, har vi samlet et bredt udvalg af gratis styrketræningsprogrammer til alle niveauer:
 
-<div class="feature__wrapper" markdown="1">
+* **[Fullbody / Helkropsprogrammer](/styrketraening/helkropsprogrammer/)** – Perfekt til dig, der vil træne 2–3 gange om ugen og ramme hele kroppen hver gang.
+* **[Splitprogrammer](/styrketraening/split-programmer/)** – Ideelt til øvede løftede, der træner 3–5 gange om ugen (f.eks. 2-split eller 3-split push/pull).
 
-{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "løbeprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% include feature_row id="feature_row_strength" type="left" %}
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
+---
 
-[<i class='fas fa-running'></i> Se alle løbeprogrammer](/loebeprogrammer/){: .btn .btn--success .btn--large .btn--center }
+## 🏃 Løbeprogrammer
+{: id="loeb" }
 
-</div>
+Drømmer du om at gennemføre din første 5 km, skære minutter af din 10 km tid eller gennemføre et maraton? Vores løbeprogrammer er opbygget med en sikker og gradvis progression:
 
-## 💪 Træningsprogrammer til styrke
+* **Begynderprogrammer:** Kom fra sofaen til 5 km med skånsomme gå/løb-intervaller.
+* **Distancemål:** Strukturerede træningsplaner til 5 km, 10 km, halvmaraton og maraton.
 
-Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer til styrketræning](/styrketraeningsprogrammer/).
+{% include feature_row id="feature_row_running" type="left" %}
 
-{% include feature_row id="feature_row_good_program" type="left" %}
+---
 
-{% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | where: "tags", "populær" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[<i class='fas fa-dumbbell'></i> Se alle styrketræningsprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center .btn--large }
-
-</div>
-
-## 🚶‍♂️ Gangprogrammer - gå dig i form
+## 🚶‍♂️ Gåprogrammer & Skånsom Motion
 {: id="walking-programs" }
 
-{% include feature_row id="feature_row_walking_training" type="left" %}
+Gang er en af de mest undervurderede motionsformer. Gåtræning er skånsomt for leddene, sænker stress og er et fantastisk redskab til vægttab og genoptræning.
 
-***
+{% include feature_row id="feature_row_walking" type="left" %}
 
-## 📅 Andre træningsprogrammer
-{: id="other-programs" }
+---
 
-Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til dine behov.
+## 📋 Skabeloner & Programlægning
+{: id="templates" }
 
-<div class="feature__wrapper">
+Vil du hellere opbygge dit eget program fra bunden? Vi har samlet både teoretiske guides om [træningslære og programlægning](/traeningslaere/) samt gratis skabeloner, du kan tilpasse.
 
-{% assign site_posts = site.posts | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% include feature_row id="feature_row_templates" type="left" %}
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.programs | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Læs om programlægning og træningsplanlægning
-
-<div class="feature__wrapper" markdown="1">
-
-{% assign articles = site.posts | where: "tags", "programlægning" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if articles.size > 0 %}
-  {% for post in articles limit: 8 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Alt om træningslære](/traeningslaere/){: .btn .btn--success .btn--center .btn--large }
-</div>
-
-## Skabeloner til træningsprogrammer
-
-{% include feature_row id="feature_row_template" type="left" %}
+---
 
 ## Ofte stillede spørgsmål om træningsprogrammer
-
-Hvis du er i tvivl om, hvilket styrketræningsprogram, der er det bedste for dig, så får du hjælp her på siden. Vi hjælper dig med at vælge et gratis træningsprogram til fitness, som du kan bruge både i dit fitnesscenter eller hjemme.
 
 {% include motionsplan/faq.html %}

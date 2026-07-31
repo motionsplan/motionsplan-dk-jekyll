@@ -22,6 +22,38 @@ effect: ""
 video:
   provider: youtube
   id: BQ-gNR2lNoY
+layout: single
+title: "Giant Set"
+category: Styrketræning
+subcategory: Volumen & Konditionering
+permalink: /styrketraening/giantset/
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Høj Densitetsvolumen"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Øvelse 1"
+      detail: "10-12 reps"
+      weight: "Basisøvelse"
+      color: "#7b1fa2"
+    - label: "Øvelse 2"
+      detail: "10-12 reps"
+      weight: "Supplerende"
+      color: "#512da8"
+    - label: "Øvelse 3"
+      detail: "12-15 reps"
+      weight: "Isolation"
+      color: "#303f9f"
+    - label: "Øvelse 4"
+      detail: "15-20 reps"
+      weight: "Pumpeøvelse"
+      color: "#1976d2"
+  repeat: "4+ øvelser i træk uden pause"
+  rest: "3 min pause efter hele cirklen"
 ---
 
 {{ page.excerpt }}

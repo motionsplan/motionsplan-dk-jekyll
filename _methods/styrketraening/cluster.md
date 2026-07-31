@@ -22,6 +22,38 @@ effect: ""
 video:
   provider: youtube
   id: F3utbv6qe9Q
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Tung Styrke & Power"
+  time: "Intra-pause: 15-20 sek"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Kluster 1"
+      detail: "1-2 reps"
+      weight: "85-90% 1RM"
+      color: "#283593"
+    - label: "Mikro-pause"
+      detail: "15-20 sek"
+      weight: "Hvil"
+      color: "#cbd5e1"
+    - label: "Kluster 2"
+      detail: "1-2 reps"
+      weight: "85-90% 1RM"
+      color: "#283593"
+    - label: "Mikro-pause"
+      detail: "15-20 sek"
+      weight: "Hvil"
+      color: "#cbd5e1"
+    - label: "Kluster 3"
+      detail: "1-2 reps"
+      weight: "85-90% 1RM"
+      color: "#1a237e"
+  repeat: "Gentag sekvensen pr. hovedsæt"
+  rest: "3-5 min pause mellem hovedsæt"
 ---
 
 {{ page.excerpt }}

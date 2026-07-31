@@ -67,8 +67,6 @@ Den simple beregner af idealvægt og normalvægt tager udgangspunkt i de formler
 
 Jeg har udvidet beregneren med Peterson et al (2016) og Morten Zachos forslag til bestemmelse af den ideelle vægt baseret på BMI og kropstype, som jeg gennemgår nedenfor.
 
-{% include calculator/calculate-ideal-weight.html %}
-
 {% include calc/ideal-weight.html calc_id="ideal-weight-all" title="⚖️ Beregn Din Idealvægt" %}
 
 Lad os tage et eksempel:

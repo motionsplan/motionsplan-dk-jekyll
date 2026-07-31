@@ -24,6 +24,37 @@ effect: ""
 video:
   provider:
   id:
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "15-25 minutter"
+  heart_rate: "85-95% HRmax"
+  rpe: "7-9"
+  type: "interval"
+  sequence:
+    - label: "Trin 1"
+      duration: "1 min"
+      height: "75%"
+      color: "#fb8c00"
+    - label: "Trin 2"
+      duration: "2 min"
+      height: "85%"
+      color: "#f57c00"
+    - label: "Trin 3 (Top)"
+      duration: "3 min"
+      height: "95%"
+      color: "#d32f2f"
+    - label: "Trin 4"
+      duration: "2 min"
+      height: "85%"
+      color: "#f57c00"
+    - label: "Trin 5"
+      duration: "1 min"
+      height: "75%"
+      color: "#fb8c00"
+  repeat: "Stigende og derefter faldende varighed (1-2-3-2-1 min)"
+  rest: "Aktiv luntepause svarende til 1:1 eller halvdelen af arbejdstiden"
 ---
 
 {{ page.excerpt }}

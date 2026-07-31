@@ -1,139 +1,146 @@
 ---
 layout: single
-title: Træningsformer og motionsformer
-seo_title: Træningsformer og motionsformer - inspiration til bevægelse
+title: "Forskellige træningsformer og motionsformer: Den store oversigt"
+seo_title: "Forskellige træningsformer & motionsformer – Stor guide"
+description: "Oversigt over forskellige træningsformer og motionsformer. Lær om styrketræning, løb, kondition, cykling, yoga, calisthenics og funktionel træning."
+excerpt: "Oversigt over forskellige træningsformer og motionsformer. Lær om styrketræning, løb, kondition, cykling, yoga, calisthenics og funktionel træning."
 permalink: /traeningsformer/
-description: Er du på udkig efter spændende træningsformer og motionsformer? Her får du en grundig gennemgang af, hvad man
-  kan træne for at være fysisk aktiv.
-excerpt: Vi præsenterer viden om en lang række forskellige træningsformer og motionsformer. Du kan lade dig inspirere af alle
-  de forskellige måder at træne på.
+author_profile: true
+toc: true
+breadcrumbs: true
+classes: wide
 header:
   overlay_image: /assets/images/unsplash/photo-1540474238286-8fd6702d30d9.jpg
   credit: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9
   teaser: /assets/images/unsplash/photo-1540474238286-8fd6702d30d9.jpg
-  caption: Træningsformer
-  actions:
-  - label: <i class='fas fa-download'></i> Styrketræning
-    url: /styrketraening/
-  - label: <i class='fas fa-download'></i> Løb
-    url: /loebesiden/
-  - label: <i class='fas fa-download'></i> Konditionstræning
-    url: /kondition/
-  - label: <i class='fas fa-download'></i> Træningsøvelser
-    url: /traeningsoevelser/
-  - label: <i class='fas fa-download'></i> Træningsprogrammer
-    url: /traeningsprogrammer/
-author_profile: 'true'
-toc: 'true'
+  caption: Træningsformer og motionsformer
 sidebar:
   nav: trainingtypes
-breadcrumbs: 'true'
+feature_row_topics:
+  - image_path: /assets/images/unsplash/photo-1526403223670-2aa44aaface2.jpg
+    credit: https://images.unsplash.com/photo-1526403223670-2aa44aaface2
+    alt: Styrketræning
+    title: Styrketræning
+    excerpt: Byg muskelmasse, øg din styrke og styrk leddene med vægte eller kropsvægt.
+    url: /styrketraening/
+    btn_label: Læs om styrketræning
+    btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg
+    credit: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0
+    alt: Løbetræning
+    title: Løb og løbetræning
+    excerpt: Effektiv motionsform til at forbedre iltoptagelse, udholdenhed og sundhed.
+    url: /loebesiden/
+    btn_label: Læs om løbetræning
+    btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1709601414405-db08d323a87a.jpg
+    credit: https://images.unsplash.com/photo-1709601414405-db08d323a87a
+    alt: Konditionstræning
+    title: Kondition og cardio
+    excerpt: Træn kredsløbet med løb, roning, svømning eller højintensiv intervaltræning (HIIT).
+    url: /kondition/
+    btn_label: Læs om kondition
+    btn_class: btn--info
+  - image_path: /assets/images/unsplash/photo-1535913064547-c24f85802447.jpg
+    credit: https://images.unsplash.com/photo-1535913064547-c24f85802447
+    alt: Cykling
+    title: Cykling
+    excerpt: Skånsom og effektiv udholdenhedstræning – både udendørs og som spinning.
+    url: /cykling/
+    btn_label: Læs om cykling
+    btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1593810451137-5dc55105dace.jpg
+    credit: https://images.unsplash.com/photo-1593810451137-5dc55105dace
+    alt: Yoga og mindfulness
+    title: Yoga og smidighed
+    excerpt: Styrk kropsstammen, forbedr din fleksibilitet og find ro i hverdagen.
+    url: /yoga/
+    btn_label: Læs om yoga
+    btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1580058572462-98e2c0e0e2f0.jpg
+    credit: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0
+    alt: Gang og hverdagsmotion
+    title: Gang og walking
+    excerpt: Lavintensiv motionsform med store sundhedsfordele og lav skadesrisiko.
+    url: /gang/
+    btn_label: Læs om gang
+    btn_class: btn--info
 ---
 
-Vi præsenterer viden om en lang række forskellige træningsformer og motionsformer. Du kan lade dig inspirere af alle de forskellige måder at træne på.
+Der findes mange **forskellige træningsformer og motionsformer**, og den rette træningsform afhænger af dine individuelle mål, dit fysiske udgangspunkt og hvad du finder motiverende.
 
-Du kan også læse mere om, [hvordan du kan optimere din træning](/optimer-traening/). Vi har også lavet en oversigt over mange forskellige [træningsmetoder](/traeningsmetoder/), som du kan lade dig inspirere af.
+Hvad enten du ønsker at opbygge muskelmasse, forbedre dit kondital, tabe dig eller opnå mere bevægelighed og overskud i hverdagen, giver denne guide dig det samlede overblik over de mest udbredte trænings- og motionsformer.
 
-## Styrketræning
+---
 
-Styrketræning handler om at blive stærkere, bygge større muskler eller begge dele på samme tid. Vi har skrevet rigtig mange indlæg om styrketræning, styrketræningsprogrammer og øvelser til styrketræning.
+## Hovedkategorier inden for træning og motion
 
-Læs mere om [styrketræning her](/styrketraening/) eller se vores [begynderprogram til calisthenics]({% link _posts/2021-01-18-calistenics.md %}).
+{% include feature_row id="feature_row_topics" %}
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+---
 
-<div class="feature__wrapper">
+## Gennemgang af de mest populære træningsformer
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 3 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
+<div class="notice--success" markdown="1">
+### 🏋️‍♂️ 1. Styrkebaserede træningsformer
+Styrketræning stimulerer muskelopbygning (hypertrofi), øger knogletætheden og forbedrer kroppens holdning.
+* **[Styrketræning](/styrketraening/)** – Klassisk træning med vægtstænger, håndvægte og maskiner.
+* **[Calisthenics & kropsvægtstræning](/calisthenics-begynderprogram-kropsvaegtstraening/)** – Styrketræning kun ved brug af egen kropsvægt (pull-ups, push-ups, dips).
+* **[Funktionel træning](/artikel/funktionel-styrketraening/)** – Øvelser der efterligner hverdagens eller idrættens naturlige bevægemønstre.
+* **[Powerlifting & Vægtløftning](/styrketraening/)** – Fokus på maksimal styrke i de store basisløft (squat, bænkpres og dødløft).
 </div>
 
-## Løb
-
-Løb handler om at lære at løbe, blive en hurtigere løber eller kunne løbe længere. Vi hjælper dig i gang med træningsprogrammer og løbeøvelser.
-
-Læs mere om [løb og løbetræning her](/loebesiden/).
-
-{% assign site_posts = site.posts | where: "category", "Løb" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 3 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
+<div class="notice--info" markdown="1">
+### 🫁 2. Udholdenheds- og konditionsformer
+Cardiotræning styrker hjertet, forbedrer kredsløbet og øger kroppens fedtforbrænding.
+* **[Løb og løbetræning](/loebesiden/)** – Tilgængelig motionsform til opbygning af aerob kapacitet.
+* **[Kondition og cardio](/kondition/)** – Alt om kondital, iltoptagelse (VO2 max) og pulszoner.
+* **[HIIT (Højintensiv intervaltræning)](/hiit/)** – Korte, eksplosive træningspas med maksimal pulspåvirkning.
+* **[Cykeltræning](/cykling/)** – Skånsom konditionstræning til både landevej, gravel og spinning.
+* **[Gang og walking](/gang/)** – Tilgængelig lavintensiv motionsform med lav skadesrisiko.
+* **[Rotræning](/artikel/traeningsprogrammer-intervaller-roning/)** – Helkropstræning på romaskine, der aktiverer både over- og underkrop.
 </div>
 
-## Cardio og kondition
-
-Cardio handler om at træne din kondition og dit kredsløb. Du kan bruge mange forskellige måder til at træne på. Vi har forslag til træningsprogrammer og øvelser til din cardiotræning. Du kan også tjekke vores [guide til de bedste cardiomaskiner](/bedste-cardiomaskiner/).
-
-Læs mere om [cardio træning](/cardio-traening-workout/) og [konditionstræning](/kondition/).
-
-{% assign site_posts = site.posts | where: "category", "Kondition" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 3 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
+<div class="notice--warning" markdown="1">
+### 🧘 3. Smidighed, mobilitet og kropskontrol
+Kropskontrol og fleksibilitet forebygger skader og skaber balance i bevægeapparatet.
+* **[Yoga og mindfulness](/yoga/)** – Kombination af fysiske stillinger, smidighed, vejrtrækning og mental ro.
+* **[Udstrækning og udspænding](/udstraekning-udspaending/)** – Øvelser til forbedring af leddenes bevægelighed (ROM).
+* **[Balancetræning og core](/balancetraening/)** – Styrkelse af kropsstammen og den posturale kontrol.
+* **[Foam rolling](/foamrolling-foamroller-lacrossebolde/)** – Egenmassage til afspænding af muskler og fascievæv.
 </div>
 
-## Cykling
-
-Cykling bliver mere og mere populært. Vi har samlet masser indhold om cykling og tests, som du kan bruge, hvis cykling er din primære træningsform.
-
-Læs mere om [cykling og cykeltræning her](/cykling/).
-
-{% assign site_posts = site.posts | where: "category", "Cykling" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 3 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
+<div class="notice" markdown="1">
+### ⚡ 4. Eksplosivitet og springstyrke
+Træningsformer der fokuserer på hurtig kraftudvikling (rate of force development).
+* **[Springtræning](/springstyrke-og-springtraening/)** – Metoder til at forbedre din hoppehøjde og springlængde.
+* **[Plyometrisk træning](/plyometrisk-traening/)** – Eksplosive øvelser der udnytter musklernes *stretch-shortening cycle* (SSC).
 </div>
 
-## Yoga og mindfulness
+---
 
-Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
+## Hvordan vælger du den rette træningsform?
 
-{% assign site_posts = site.posts | where: "category", "Yoga" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+Når du skal vælge mellem de forskellige motionsformer, bør du overveje tre parametre:
 
-<div class="feature__wrapper">
+```
+┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
+│ 1. Dit Mål              │ ───► │ 2. Din Præference       │ ───► │ 3. Din Hverdag          │
+│ Vægt, styrke, kondition │      │ Hvad kan du lide?       │      │ Hvor meget tid har du?  │
+└─────────────────────────┘      └─────────────────────────┘      └─────────────────────────┘
+```
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 3 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
+* **Ønsker du vægttab?** Kombinér styrketræning (for at bevare muskelmasse) med udholdenhedstræning eller daglige gåture.
+* **Ønsker du bedre kondition?** Vælg udholdenhedsformer som løb, cykling, svømning eller HIIT.
+* **Ønsker du at opbygge muskler?** Fokusér primært på struktureret styrketræning med progression.
 
-</div>
+---
 
-## Springtræning og plyometrisk træning
+## Læs mere om træning, øvelser og programmer
 
-Hvis du gerne vil være mere eksplosiv og hoppe højere, så er der ingen vej uden om at komme i gang med [springtræning](/springstyrke-og-springtraening/). Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Her er fire enkle trin til, hvordan du [træne plyometrisk træning](/plyometrisk-traening/).
+Vil du dykke dybere ned i konkrete redskaber og teoretisk fundament?
 
-## Træning af muskelgrupper
-
-Når du gerne vil træne forskellige muskelgrupper, så skal du vælge passende træningsøvelser, så du træner de rigtige muskler.
-
-Vi har her på sitet samlet de [bedste træningsøvelser](/traeningsoevelser/), [strækøvelser](/udstraekning-udspaending/), [balanceøvelser](/balancetraening/), [træning af core og kropsstammen](/core/) og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
-
-Du kan også tjekke vores dedikerede sider til [øvelser til maven](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [øvelser til brystet](/brystoevelser/), [baldeøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/) eller [skulderøvelser](/skulderoevelser/).
-
-Nogle af vores meget populære guides til træning af muskelgrupper er vores [guide til chinups og pullups](/chinup-vs-pullup/) og [armstrækninger og armbøjninger](/armbojninger-eller-armstraekninger-pushups/).
-
-Under alle omstændigheder bør du til inspiration dykke ned i [alle vores træningsøvelser](/traeningsoevelser/).
+* 🏋️ **[Træningsøvelser](/traeningsoevelser/)** – Se udførelse af hundreder af øvelser til alle muskelgrupper.
+* 📋 **[Træningsprogrammer](/traeningsprogrammer/)** – Find færdige strukturerede træningsplaner.
+* 🧬 **[Træningslære](/traeningslaere/)** – Lær hvordan fysiologi, anatomi og træningsprincipper hænger sammen.
+* ⚙️ **[Træningsmetoder](/traeningsmetoder/)** – Udforsk specifikke træningsmetoder og pædagogiske tilgange.

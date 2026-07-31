@@ -22,6 +22,25 @@ effect: ""
 video:
   provider: youtube
   id: becM86QNnpQ
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Neuromuskulær Potentiering"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Bølge 1"
+      detail: "7 reps (70%) -> 5 reps (75%) -> 3 reps (80%)"
+      weight: "Moderat-tung"
+      color: "#1565c0"
+    - label: "Bølge 2"
+      detail: "7 reps (72%) -> 5 reps (77%) -> 3 reps (82%)"
+      weight: "Tungere"
+      color: "#0d47a1"
+  repeat: "Bølge: 7-5-3 reps -> 7-5-3 reps med tungere vægt"
+  rest: "3 min pause mellem sæt"
 ---
 
 {{ page.excerpt }}

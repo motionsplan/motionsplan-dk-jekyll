@@ -22,6 +22,29 @@ effect: ""
 video:
   provider: youtube
   id: BQ-gNR2lNoY
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Muskelvolumen & Densitetsbygning"
+  rir: "0-1"
+  rir_level: "low"
+  type: "strength"
+  sequence:
+    - label: "Øvelse A1"
+      detail: "8-12 reps"
+      weight: "Vinkel 1"
+      color: "#0288d1"
+    - label: "Øvelse A2"
+      detail: "8-12 reps"
+      weight: "Vinkel 2"
+      color: "#0097a7"
+    - label: "Øvelse A3"
+      detail: "10-15 reps"
+      weight: "Vinkel 3"
+      color: "#00796b"
+  repeat: "3 øvelser til samme muskel uden pause"
+  rest: "2-3 min pause efter fuldført triset"
 ---
 
 {{ page.excerpt }}

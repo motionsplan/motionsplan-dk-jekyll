@@ -51,8 +51,6 @@ Mål hudfoldstykkelsen med en fedttang fire steder på kroppen:
 
 Angiv værdierne i beregneren nedenunder.
 
-{% include calculator/calculate-fatpercent-skinfold-ymca.html %}
-
 {% include calc/skinfold.html 
    calc_id="skinfold-ymca-4" 
    title="📐 YMCA 4-punkt" 

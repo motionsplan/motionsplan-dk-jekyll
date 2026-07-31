@@ -8,6 +8,7 @@ header:
 tags:
   - conditioning
   - aerob træning
+category: Kondition
 rpe: 8-9
 intensity: HR ± 5 slag ift. ANT
 time: 5-10 min arbejdsperiode x 2-5 reps
@@ -25,6 +26,25 @@ effect: "Flytter den anaerobe tærskel, så det aerobe system kan skabe mere ATP
 video:
   provider: youtube
   id: 0SM5QMf1zvs
+has_full_article: /loeb/maelkesyretarskel/
+sitemap: false
+
+card_data:
+  time: "20-40 minutter"
+  heart_rate: "85-90% HRmax"
+  rpe: "7-8"
+  type: "interval"
+  sequence:
+    - label: "Tærskeltempo"
+      duration: "10 min"
+      height: "85%"
+      color: "#f57c00"
+    - label: "Kort Pause"
+      duration: "2 min"
+      height: "30%"
+      color: "#81c784"
+  repeat: "Kontinuerligt tærskeltempo eller 3x10 min"
+  rest: "2-3 min kort pause ved tempoblokke"
 ---
 
 {{ page.excerpt }}

@@ -72,6 +72,14 @@ Et løbeprogram kan være din genvej til fremgang, motivation og færre skader. 
 
 På denne side guider vi dig til at vælge det rette program baseret på dit nuværende udgangspunkt og dine ambitioner. Du får også praktiske råd om frekvens, progression og hvordan du bedst bruger et program uden at overbelaste dig. Brug oversigten nedenfor for at finde et program, der matcher dig og dine mål, og husk at lytte til din krop.
 
+<div class="notice--info" markdown="1">
+### 🏃‍♂️ Leder du efter andre typer træningsprogrammer?
+Siden her er fokuseret på løb. Hvis du leder efter træning i fitnesscenteret eller skabeloner, kan du tjekke vores andre sektioner:
+* 🏋️‍♂️ **[Styrketræningsprogrammer](/styrketraeningsprogrammer/)** – Fullbody, splitprogrammer og basisløft.
+* 🚶‍♂️ **[Gåprogrammer & Gangtræning](/gangtraening/)** – Skånsom motion og vægttab.
+* 📋 **[Alle Træningsprogrammer](/traeningsprogrammer/)** – Se vores samlede overblik og skabeloner.
+</div>
+
 ## Sådan vælger du det rigtige løbeprogram
 
 Der findes et hav af løbeprogrammer rundt omkring på nettet, men hvad skal du egentlig kigge efter for at finde et godt løbeprogram?

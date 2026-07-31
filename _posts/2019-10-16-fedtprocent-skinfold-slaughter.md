@@ -55,8 +55,6 @@ Mål hudfoldstykkelsen med en fedttang. Mål midt på triceps og lige under skul
 
 ## Slaughter fedtprocent beregner for børn
 
-{% include calculator/calculate-fatpercent-skinfold-children-slaughter.html %}
-
 {% include calc/skinfold.html 
    calc_id="skinfold-slaughter-2" 
    title="📐 Slaughter 2-punkt børn" 

@@ -101,8 +101,6 @@ På baggrund af disse målinger kan du så udregne dit kondital i beregneren ned
 
 Indtast din tid, puls, alder og vægt i beregneren herunder for at beregne dit estimerede kondital:
 
-{% include calculator/calculate-fitness-jog-vo2.html %}
-
 {% include calc/fitness-jogging.html %}
 
 Et eksempel:

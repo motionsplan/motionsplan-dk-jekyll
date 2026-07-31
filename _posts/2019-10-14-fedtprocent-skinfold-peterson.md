@@ -52,8 +52,7 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 {% include figure image_path="/assets/images/fedtprocent/peterson.png" caption="Her skal der måles til Peterson-formlen for fedtprocent for voksne." alt="peterson fedtprocent målinger for børn" %}
 
 ## Udregn din fedtprocent med Peterson et al.-beregneren
-
-{% include calculator/calculate-fatpercent-skinfold-peterson.html %}
+{: id="calculator" }
 
 {% include calc/skinfold.html 
    calc_id="skinfold-peterson-4" 

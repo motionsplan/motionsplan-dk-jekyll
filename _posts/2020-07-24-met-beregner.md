@@ -30,8 +30,6 @@ Vil du se en komplet oversigt over MET-værdier for forskellige aktiviteter? Bes
 
 ## Beregn MET-timer
 
-{% include calculator/calculate-met.html %}
-
 {% include calc/met-calculator.html %}
 
 ## Hvad er MET?

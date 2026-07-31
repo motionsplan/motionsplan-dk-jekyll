@@ -73,8 +73,6 @@ Men hvor vigtigt er det egentlig at kende din fedtprocent?
 
 Få en hurtig beregning af din fedtprocent ud fra dine personlige data. Beregneren herunder bruger anerkendte formler baseret på alder, køn, vægt og højde.
 
-{% include calculator/calculate-fat-percent.html %}
-
 {% include calc/fat-pct.html %}
 
 Et eksempel:

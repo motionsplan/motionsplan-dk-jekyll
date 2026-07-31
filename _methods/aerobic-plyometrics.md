@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Aerob plyometri"
+category: Kondition
 permalink: /metode/aerobic-plyometrics/
 excerpt: "Aerob plyometriske øvelser er gentagne elastiske bevægelser med 8-15 reps med 30 sekunders pause udført 3-12 minutter med 1-3 sæt. Aerobe plyometriske øvelser hjælper med at forbedre elasticiteten og holdbarheden i vævet i underkoppen, hvilket forbedrer sener og ligamenternes evne til at håndtere stress over tid."
 tags:
@@ -22,6 +23,25 @@ effect: "Aerob plyometri forbedrer elasticiteten i vævet og holdbarheden ved ge
 video:
   provider: youtube
   id: _P1LcWWpcPg
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "10-15 minutter"
+  heart_rate: "80-85% HRmax"
+  rpe: "7-8"
+  type: "interval"
+  sequence:
+    - label: "Plyometrisk Serie"
+      duration: "15s"
+      height: "80%"
+      color: "#ff6d00"
+    - label: "Aktiv Pause"
+      duration: "45s"
+      height: "30%"
+      color: "#81c784"
+  repeat: "Submaksimale hop i serier af 10-20 sek"
+  rest: "Korte kontrollerede pauser for at undgå syre"
 ---
 
 {{ page.excerpt }}

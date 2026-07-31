@@ -55,6 +55,8 @@ Men før du vælger et splitprogram, kan det være værd at overveje, om et [ful
 
 På denne side får du et overblik over forskellige splitprogrammer og hjælp til at vælge det, der passer til dig. Du kan også gå direkte til vores [oversigt over styrketræningsprogrammer](/styrketraeningsprogrammer/) – eller lære, hvordan du selv kan [lave dit eget splitprogram](/styrketraening/lav-dit-eget-splitprogram/), hvis du vil skræddersy det til dine mål.
 
+> 💡 **Se alle programmer:** Træner du 2–3 gange om ugen, er et helkropsprogram ofte mere effektivt. Se vores **[fullbody-programmer](/styrketraening/helkropsprogrammer/)** eller gå til det **[samlede katalog af styrkeprogrammer](/styrketraeningsprogrammer/)**.
+
 ## Hvad er et splitprogram?
 
 Splitprogrammer er en [type styrketræningsprogram](/styrketraeningsprogrammer/), hvor du træner forskellige kropsdele fra gang til gang. De kan være sammensat på mange forskellige måder.

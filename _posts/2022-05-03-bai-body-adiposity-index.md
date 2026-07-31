@@ -35,8 +35,6 @@ Body Adiposity Index beregneren er et alternativ til fx [BMI](/bmi/) samt [talje
 
 ## Body Adiposity Index Beregner
 
-{% include calculator/calculate-fat-bai.html %}
-
 {% include calc/waist.html 
    calc_id="bai" 
    title="📐 Body Adiposity Index (BAI)" 

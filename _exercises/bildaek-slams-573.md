@@ -2,9 +2,6 @@
 title: "Bildæk, slams"
 instructions: ""
 permalink: /oevelse/bildaek-slams/
-redirect_from:
-  - /node/573
-  - /oevelse/bildæk-slams/
 id: 573
 language: da
 header:

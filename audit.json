@@ -2,17 +2,25 @@
 layout: null
 ---
 [
-{% assign all_pages = site.pages | concat: site.posts %}
-  {% for page in all_pages %}
-    {% if page.url contains '.html' or page.url contains '/' %}
-    {
-      "url": {{ page.url | jsonify }},
-      "title": {{ page.title | jsonify }},
-      "seo_title": {{ page.seo_title | default: page.title | jsonify }},
-      "word_count": {{ page.content | number_of_words }},
-      "excerpt": {{ page.excerpt | strip_html | strip_newlines | jsonify }},
-      "description": {{ page.description | default: page.excerpt | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
+  {% assign all_pages = site.pages | concat: site.posts %}
+  {% assign filtered_pages = "" | split: "" %}
+
+  {% comment %} 1. Byg en ren liste UDEN redirects og UDEN audit.json selv {% endcomment %}
+  {% for p in all_pages %}
+    {% if p.title and p.title != "" and p.layout != "redirect" and p.redirect_to == nil and p.url != "/audit.json" %}
+      {% assign filtered_pages = filtered_pages | push: p %}
     {% endif %}
-{% endfor %}
+  {% endfor %}
+
+  {% comment %} 2. Generer ren JSON fra den filtrerede liste {% endcomment %}
+  {% for page in filtered_pages %}
+  {
+    "url": {{ page.url | jsonify }},
+    "title": {{ page.title | jsonify }},
+    "seo_title": {{ page.seo_title | default: page.title | jsonify }},
+    "word_count": {{ page.content | strip_html | number_of_words }},
+    "excerpt": {{ page.excerpt | strip_html | strip_newlines | jsonify }},
+    "description": {{ page.description | default: page.excerpt | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
 ]

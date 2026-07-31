@@ -31,7 +31,9 @@ På denne side finder du færdige fullbody-programmer til forskellige behov. Uan
 
 Hvis du vil se andre typer styrketræningsprogrammer, kan du gå til vores [oversigt over styrketræningsprogrammer](/styrketraeningsprogrammer/). Leder du efter programmer, hvor kroppen deles op over flere dage, kan du også se vores [splitprogrammer](/styrketraening/split-programmer/).
 
-## Eksempler på et fuldkropsprogrammer
+> 💡 **Se alle programmer:** Vil du hellere opdele din træning på specifikke muskelgrupper? Se vores overblik over **[splitprogrammer](/styrketraening/split-programmer/)** eller gå til vores **[samlede katalog af styrkeprogrammer](/styrketraeningsprogrammer/)**.
+
+## Eksempler på helkropsprogrammer (fullbody)
 
 Rigtig mange af de [klassiske træningsprogrammer til styrke](/styrketraeningsprogrammer/) er fuldkropsprogrammer. Her kan du se et udsnit af de helkropsprogrammer, jeg har beskrevet.
 

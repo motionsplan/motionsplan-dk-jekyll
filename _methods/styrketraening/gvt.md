@@ -27,6 +27,30 @@ effect: ""
 video:
   provider: youtube
   id: A97JrDdWXXg
+has_full_article: /gvt/
+sitemap: false
+
+card_data:
+  target: "Maksimal Muskelmasse"
+  time: "60-90 sek pause"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Sæt 1 - 3"
+      detail: "10 reps"
+      weight: "60% 1RM"
+      color: "#1565c0"
+    - label: "Sæt 4 - 7"
+      detail: "10 reps"
+      weight: "60% 1RM (Opbygget træthed)"
+      color: "#f57c00"
+    - label: "Sæt 8 - 10"
+      detail: "10 reps"
+      weight: "60% 1RM (Maksimal udtrætning)"
+      color: "#c62828"
+  repeat: "10 sæt x 10 gentagelser"
+  rest: "60 sek pause mellem sæt"
 ---
 
 {{ page.excerpt }}

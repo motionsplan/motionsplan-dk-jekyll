@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Alactacide intervaller"
+category: Kondition
 permalink: /metode/alactic-intervals/
 excerpt: "Alactacide intervaller udføres med 5-10 sekunders arbejde og 1-2 minutters pause med fx 10-20 reps. Vi træner den eksplosive power af det alactacide system samtidig med, at evnen til at restitutere mellem de enkelte intervaller med det aerobe system forbedres."
 header:
@@ -27,6 +28,25 @@ effect: "Udvikler det alactacide systems evne til at producere og regenerere ATP
 video:
   provider: youtube
   id: JU48QREqZwY
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "5-10 minutter"
+  heart_rate: "Maksimal kraft"
+  rpe: "10"
+  type: "interval"
+  sequence:
+    - label: "All-Out Sprint"
+      duration: "6s"
+      height: "100%"
+      color: "#b71c1c"
+    - label: "Fuld Restitution"
+      duration: "60s"
+      height: "15%"
+      color: "#cbd5e1"
+  repeat: "5-7 sek all-out sprint / acceleration"
+  rest: "60-90 sek fuld hvile (nul mælkesyre)"
 ---
 
 {{ page.excerpt }}

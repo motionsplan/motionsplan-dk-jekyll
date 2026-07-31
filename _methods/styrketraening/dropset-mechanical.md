@@ -22,6 +22,30 @@ effect: ""
 video:
   provider: youtube
   id: k4A2gqEixBY
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Mekanisk Spænding"
+  time: "0 sek pause (skift vinkel)"
+  rir: "0-1"
+  rir_level: "low"
+  type: "strength"
+  sequence:
+    - label: "Position 1 (Svagest)"
+      detail: "6-8 reps"
+      weight: "Svag vinkel"
+      color: "#d32f2f"
+    - label: "Position 2 (Mellem)"
+      detail: "6-8 reps"
+      weight: "Neutral vinkel"
+      color: "#f57c00"
+    - label: "Position 3 (Stærkest)"
+      detail: "6-8 reps"
+      weight: "Stærk vinkel"
+      color: "#388e3c"
+  repeat: "3 øvelsesvarianter i træk"
+  rest: "2-3 min pause efter serien"
 ---
 
 {{ page.excerpt }}

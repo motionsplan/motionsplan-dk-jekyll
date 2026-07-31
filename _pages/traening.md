@@ -1,506 +1,164 @@
 ---
 layout: single
-title: Træning - Find inspiration til din træning
-seo_title: Træning - Find inspiration til din træning
+title: "Træning: Inspiration, træningsformer og effektive træningsplaner"
+seo_title: "Træning – Inspiration, træningsformer & træningsplaner"
+description: "Få mest muligt ud af din træning. Dyk ned i træningsformer, øvelser, træningsprogrammer, tests og konkrete træningstips til din hverdag."
+excerpt: "Få mest muligt ud af din træning. Dyk ned i træningsformer, øvelser, træningsprogrammer, tests og konkrete træningstips til din hverdag."
 permalink: /traening/
-description: Få mest muligt ud af din træning med effektive træningsmetoder træningstips. Find den rette træningsplan og optimer
-  dine resultater i dag!
-excerpt: Få mest muligt ud af din træning med effektive træningsmetoder og træningstips. Find den rette træningsplan og optimer
-  dine resultater i dag!
+author_profile: true
+toc: true
+toc_sticky: true
+breadcrumbs: true
+classes: wide
 header:
   overlay_image: /assets/images/unsplash/photo-1658702041515-18275b138fda.jpg
   credit: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9
   teaser: /assets/images/unsplash/photo-1540474238286-8fd6702d30d9.jpg
   caption: Træning og træningsformer
   actions:
-  - label: <i class='fas fa-rocket'></i> Træningsprogrammer →
-    url: /traeningsprogrammer/
-author_profile: 'true'
+    - label: "<i class='fas fa-rocket'></i> Se træningsprogrammer →"
+      url: /traeningsprogrammer/
 sidebar:
   nav: trainingtypes
-breadcrumbs: 'true'
 feature_row_topics:
-- image_path: /assets/images/unsplash/photo-1526403223670-2aa44aaface2.jpg
-  credit: https://images.unsplash.com/photo-1526403223670-2aa44aaface2
-  alt: Styrketræning - komplet guide til øvelser og programmer
-  title: Styrketræning
-  excerpt: Bliv stærkere med effektive programmer, de bedste øvelser og viden om teknik. Undgå skader og træn smart.
-  url: /styrketraening/
-  btn_label: Læs mere
-  btn_class: btn--success
-- image_path: /assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg
-  credit: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0
-  alt: Løb, løbetræning & løbeprogrammer
-  title: Løb & løbetræning
-  excerpt: Find træningsprogrammer til 5 km, 10 km, halvmaraton og maraton. Optimer din løbestil og træn efter puls.
-  url: /loebesiden/
-  btn_label: Læs mere
-  btn_class: btn--success
-- image_path: /assets/images/unsplash/photo-1709601414405-db08d323a87a.jpg
-  credit: https://images.unsplash.com/photo-1709601414405-db08d323a87a
-  alt: Konditionstræning
-  title: Konditionstræning
-  excerpt: 'Bliv bedre til konditionstræning! Lær effektive metoder til at forbedre din udholdenhed og øg din VO2 max og dit
-    kondital.".
-
-    '
-  url: /kondition/
-  btn_label: Læs mere
-  btn_class: btn--info
-- image_path: /assets/images/unsplash/photo-1580058572462-98e2c0e0e2f0.jpg
-  credit: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0
-  alt: Gang - alt om at gå
-  title: Gang & træning
-  excerpt: Gåture forbedrer sundhed, forbrænder kalorier og reducerer stress. Få tips til at gå mere i din hverdag.
-  url: /gang/
-  btn_label: Læs mere
-  btn_class: btn--success
-- image_path: /assets/images/unsplash/photo-1535913064547-c24f85802447.jpg
-  credit: https://images.unsplash.com/photo-1535913064547-c24f85802447
-  alt: 'Cykling: Alt om cykeltræning og cykeltests'
-  title: Cykling & træning
-  excerpt: Guide til cykeltræning og tests. Lær om træning, teknik og udstyr, så du kan cykle hurtigere og længere.
-  url: /cykling/
-  btn_label: Læs mere
-  btn_class: btn--success
-- image_path: /assets/images/unsplash/photo-1593810451137-5dc55105dace.jpg
-  credit: https://images.unsplash.com/photo-1593810451137-5dc55105dace
-  alt: Yoga & Mindfulness
-  title: Yoga & Mindfulness
-  excerpt: Find artikler om yoga, mindfulness og vejrtrækning. Få teknikker til ro, fleksibilitet og mental balance.
-  url: /yoga/
-  btn_label: Læs mere
-  btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1526403223670-2aa44aaface2.jpg
+    credit: https://images.unsplash.com/photo-1526403223670-2aa44aaface2
+    alt: Styrketræning
+    title: Styrketræning
+    excerpt: Bliv stærkere med effektive programmer, øvelser og viden om teknik.
+    url: /styrketraening/
+    btn_label: Læs om styrketræning
+    btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg
+    credit: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0
+    alt: Løbetræning
+    title: Løb og løbetræning
+    excerpt: Find løbeprogrammer til 5 km, 10 km, halvmaraton og maraton.
+    url: /loebesiden/
+    btn_label: Læs om løbetræning
+    btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1709601414405-db08d323a87a.jpg
+    credit: https://images.unsplash.com/photo-1709601414405-db08d323a87a
+    alt: Konditionstræning
+    title: Konditionstræning
+    excerpt: Lær effektive metoder til at forbedre din udholdenhed og øge dit kondital.
+    url: /kondition/
+    btn_label: Læs om kondition
+    btn_class: btn--info
+  - image_path: /assets/images/unsplash/photo-1535913064547-c24f85802447.jpg
+    credit: https://images.unsplash.com/photo-1535913064547-c24f85802447
+    alt: Cykling
+    title: Cykling og cykeltræning
+    excerpt: Guide til cykeltræning, intervaller og cykeltests.
+    url: /cykling/
+    btn_label: Læs om cykling
+    btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1593810451137-5dc55105dace.jpg
+    credit: https://images.unsplash.com/photo-1593810451137-5dc55105dace
+    alt: Yoga og mindfulness
+    title: Yoga og mindfulness
+    excerpt: Teknikker til ro, smidighed, fleksibilitet og mental balance.
+    url: /yoga/
+    btn_label: Læs om yoga
+    btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1580058572462-98e2c0e0e2f0.jpg
+    credit: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0
+    alt: Gang og gåture
+    title: Gang og hverdagsmotion
+    excerpt: Gåture forbedrer sundheden, forbrænder kalorier og giver overskud.
+    url: /gang/
+    btn_label: Læs om gang
+    btn_class: btn--info
 feature_row_exercises:
-- image_path: /assets/images/unsplash/photo-1535743686920-55e4145369b9.jpg
-  credit: https://images.unsplash.com/photo-1535743686920-55e4145369b9
-  alt: Træningsøvelser
-  title: Få styr på øvelserne
-  excerpt: Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig
-    forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet
-    og cardio.
-  url: /traeningsoevelser/
-  btn_label: Se alle øvelser
-  btn_class: btn--success
-feature_row_injuries:
-- image_path: /assets/images/unsplash/photo-1644492097455-d5f39f458fcd.jpg
-  credit: https://images.unsplash.com/photo-1644492097455-d5f39f458fcd
-  alt: Skader
-  title: Hvad gør du, hvis du har fået en skade?
-  excerpt: Skader kan være en stor udfordring for både nybegyndere og erfarne idrætsudøvere. Her får du indsigt i de mest
-    almindelige skader, hvad der forårsager dem, og hvordan du kan forebygge og behandle dem.
-  url: /skader/
-  btn_label: Læs mere om skader
-  btn_class: btn--success
-feature_row_tests:
-- image_path: /assets/images/unsplash/photo-1428790067070-0ebf4418d9d8.jpg
-  credit: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8
-  alt: Tests
-  title: Tests
-  excerpt: Udforsk fysiske tests, der måler din kondition, styrke og præstation. Følg din udvikling og se din fremgang.
-  url: /tests/
-  btn_label: Gå til tests
-  btn_class: btn--success
-- image_path: /assets/images/unsplash/photo-1475274110913-480c45d0e873.jpg
-  credit: https://images.unsplash.com/photo-1475274110913-480c45d0e873
-  alt: Beregnere
-  title: Beregnere
-  excerpt: Brug vores beregnere til at få indsigt i din forbrænding, kondital og BMI. Få detaljeret information om din sundhed.
-  url: /beregnere/
-  btn_label: Gå til beregnere
-  btn_class: btn--success
-- image_path: /assets/images/unsplash/photo-1546016366-bf061374d54e.jpg
-  credit: https://images.unsplash.com/photo-1546016366-bf061374d54e
-  alt: Værktøjer
-  title: Værktøjer
-  excerpt: Test din mentale og fysiske sundhed. Få indsigt i dine styrker og opdag områder, der kan forbedres.
-  url: /vurderingsvaerktoejer/
-  btn_label: Gå til værktøjer
-  btn_class: btn--success
-classes: wide
-toc: 'true'
-toc_sticky: 'true'
+  - image_path: /assets/images/unsplash/photo-1535743686920-55e4145369b9.jpg
+    credit: https://images.unsplash.com/photo-1535743686920-55e4145369b9
+    alt: Træningsøvelser
+    title: Få styr på øvelserne
+    excerpt: Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser med grundig forklaring af teknik og udførelse.
+    url: /traeningsoevelser/
+    btn_label: Se alle øvelser
+    btn_class: btn--success
 ---
 
-På denne side får du overblik over forskellige træningsformer, effektive øvelser, træningsprogrammer og tests, der kan hjælpe dig med at måle din udvikling. Uanset dit niveau kan du finde viden og konkrete redskaber til at optimere din træning og nå dine mål.
+Velkommen til vores hovedsektion om **træning**. Uanset om dit mål er at opbygge muskelmasse, forbedre din kondition, tabe dig eller finde en holdbar **træningsplan** i en travl hverdag, finder du inspiration, øvelser og videnskabeligt baserede guides her.
 
-Du kan også læse mere om, [hvordan du kan optimere din træning](/optimer-traening/). Vi har også lavet en oversigt over mange forskellige [træningsmetoder](/traeningsmetoder/), som du kan lade dig inspirere af.
+> **Træningens guldregler:** Den bedste træning er den, der bliver gennemført regelmæssigt. Kontinuitet, progression og god teknik slår altid tilfældige "quick fixes".
 
-## Træningsformer
+---
 
-Der findes mange måder at træne på, og den bedste træningsform afhænger af dine mål. Vil du forbedre din kondition, opbygge muskelstyrke eller blot bevæge dig mere i hverdagen?
+## Hurtigt overblik over træningsområder
 
-Uanset hvad, er det vigtigt at vælge en træningsform, der passer til dine behov og interesser – så du holder motivationen oppe på lang sigt.
+<div class="notice--info" markdown="1">
+### 🏃‍♂️🚴‍♀️ 1. Træningsformer og discipliner
+Find den træningsform, der passer bedst til dine mål og interesser:
+* **[Styrketræning](/styrketraening/)** – Opbyg muskler, bliv stærkere og styrk knoglerne.
+* **[Løb og løbetræning](/loebesiden/)** – Programmer til alt fra 5 km til maraton.
+* **[Kondition og cardio](/kondition/)** – Forbedr din udholdenhed og øg dit kondital.
+* **[Cykeltræning](/cykling/)** – Intervaller, watt-tests og struktureret cykeltræning.
+* **[Yoga og mindfulness](/yoga/)** – Smidighed, mobilitet og mental balance.
+* **[Gang og hverdagsmotion](/gang/)** – Sundhedseffekter og kalorieforbrænding ved gåture.
+* **[Spring- og plyometrisk træning](/springtraening/)** – Bliv mere eksplosiv og hop højere.
+* **[Oversigt over alle træningsformer](/traeningsformer/)** & **[Træningsmetoder](/traeningsmetoder/)**.
+</div>
 
-I dette afsnit får du en oversigt over de mest populære [træningsformer](/traeningsformer/), deres fordele, og hvordan du kan kombinere dem for at få de bedste resultater. 🚀
+<div class="notice--success" markdown="1">
+### 📋🗓️ 2. Træningsprogrammer og træningsplaner
+En struktureret **træningsplan** gør det nemt at bevare motivationen og sikre kontinuerlig fremgang.
+* **[Katalog over træningsprogrammer](/traeningsprogrammer/)** – Færdige programmer til styrke, løb og vægttab.
+* **[Lav dit eget styrketræningsprogram](/traeningsprogram-programlaegning-styrketraening/)** – Trin-for-trin guide til programlægning.
+* **[Træningsplanlægning og periodisering](/traeningsplanlaegning/)** – Lær at opbygge ugeplaner og cyklusser.
+* **[Sammensæt dit løbeprogram](/artikel/kom-i-gang-med-loebetraeningen/)** – Sådan kommer du godt i gang med løb.
+</div>
+
+<div class="notice--warning" markdown="1">
+### 💪🏋️ 3. Træningsøvelser opdelt efter muskelgruppe
+Målret din træning med de helt rigtige øvelser for din krop:
+* **[Komplet øvelseskatalog](/traeningsoevelser/)** – Hundredvis af øvelser med instruktioner.
+* **[Øvelser til maven](/maveoevelser/)** & **[Core- og kropsstamme](/core/)**.
+* **[Øvelser til ryggen](/rygoevelser/)** & **[Brystøvelser](/brystoevelser/)**.
+* **[Benøvelser](/benoevelser/)** & **[Balleøvelser](/balleoevelser/)**.
+* **[Skulderøvelser](/skulderoevelser/)** & **[Armøvelser (biceps & triceps)](/arme-triceps-biceps/)**.
+* **[Smidighed og udstrækning](/udstraekning-udspaending/)** & **[Balanceøvelser](/balancetraening/)**.
+</div>
+
+<div class="notice" markdown="1">
+### 🧬🧠 4. Træningslære, fysiologi og skader
+Forstå videnskaben bag din træning, så du træner klogere og undgår skader.
+* **[Træningslære og optimal træning](/traeningslaere/)** – Alt om, hvordan kroppen tilpasser sig belastning.
+* **[Restitution og genopbygning](/restitution/)** – Balancen mellem træning og hvile.
+* **[Skader og skadesforebyggelse](/skader/)** – Undgå overbelastning og bliv hurtigt klar igen.
+* **[Sportsernæring](/sportsernaering/)** – Hvad skal du spise før, under og efter træning?
+</div>
+
+---
+
+## Udforsk populære træningsformer
 
 {% include feature_row id="feature_row_topics" %}
 
-Tjek også disse forskellige træningsformer:
+---
 
-{% assign site_posts = site.posts | where: "category", "Træning" | where: "tags", "moc" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+## Mål effekten: Tests og beregnere
 
-<div class="feature__wrapper" markdown="1">
+For at se om din træningsplan virker, bør du løbende [teste din form](/tests/) og tracke din udvikling.
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle træningsformer](/traeningsformer/){: .btn .btn--success .btn--center }
-
+<div class="notice--info" markdown="1">
+### ⏱️📊 Test og beregn din form
+* **[Konditionstests og VO2 max](/kondition/tests/)** – Test dit kondital med Cooper-test, Bip-test eller Rockport gå-test.
+* **[1RM Beregner](/rm-beregner/)** – Beregn din maksimale styrke i bænkpres, squat og dødløft.
+* **[Oversigt over alle beregnere](/beregnere/)** – Beregn alt fra kalorier og BMI til pulszoner og løbetider.
 </div>
 
-<details markdown="1" class="faq">
-  <summary><h3>🫁 Konditionstræning og cardio</h3></summary>
-
-Cardio handler om at træne din kondition og dit kredsløb. Du kan bruge mange forskellige måder til at træne på. Vi har forslag til træningsprogrammer og øvelser til din cardiotræning. Du kan også tjekke vores [guide til de bedste cardiomaskiner](/bedste-cardiomaskiner/).
-
-Læs mere om [cardio træning](/cardio-traening-workout/), [kondition](/kondition/) og [konditionstests](/kondition/tests/).
-
-{% assign site_posts = site.posts | where: "category", "Kondition" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Læs mere om konditionstræning](/konditionstraening/){: .btn .btn--success .btn--center }
-
-</div>
-
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>🏋️‍♂️ Styrketræning</h3></summary>
-
-Styrketræning handler om at blive stærkere, bygge større muskler eller begge dele på samme tid. Vi har skrevet rigtig mange indlæg om styrketræning, styrketræningsprogrammer og øvelser til styrketræning.
-
-Læs mere om [styrketræning her](/styrketraening/) eller se vores [begynderprogram til calisthenics]({% link _posts/2021-01-18-calistenics.md %}).
-
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Læs mere om styrketræning](/styrketraening/){: .btn .btn--success .btn--center }
-
-</div>
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>🏃 Løb</h3></summary>
-
-Løb handler om at lære at løbe, blive en hurtigere løber eller kunne løbe længere. Vi hjælper dig i gang med træningsprogrammer og løbeøvelser.
-
-Læs mere om [løb og løbetræning her](/loebesiden/).
-
-{% assign site_posts = site.posts | where: "category", "Løb" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Læs mere om løbetræning](/loebesiden/){: .btn .btn--success .btn--center }
-
-</div>
-
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>🚴 Cykling</h3></summary>
-
-Cykling bliver mere og mere populært. Vi har samlet masser indhold om cykling og tests, som du kan bruge, hvis cykling er din primære træningsform.
-
-Læs mere om [cykling og cykeltræning her](/cykling/).
-
-{% assign site_posts = site.posts | where: "category", "Cykling" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Læs mere om træning på cyklen](/cykling/){: .btn .btn--success .btn--center }
-
-</div>
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>💥 Crosstraining og HIIT</h3></summary>
-
-Måske har du lyst til at blande de forskellige kategorier af træning lidt. Du kan prøve [funktionel træning](/artikel/funktionel-styrketraening/) eller forskellige højintensive træningsformer.
-
-[Læs mere om HIIT](/hiit/){: .btn .btn--success .btn--center }
-
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>🧘 Yoga, mobilitetstræning og mindfulness</h3></summary>
-
-Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
-
-{% assign site_posts = site.posts | where: "category", "Yoga" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Læs mere om yoga og mindfulness](/yoga/){: .btn .btn--success .btn--center }
-
-</div>
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>🦘 Springtræning og plyometrisk træning</h3></summary>
-
-Hvis du gerne vil være mere eksplosiv og hoppe højere, så er der ingen vej uden om at komme i gang med [springtræning](/springtraening/). Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Her er fire enkle trin til, hvordan du [træne plyometrisk træning](/plyometrisk-traening/).
-
-</details>
-
-## Træning af muskelgrupper
-
-Når du gerne vil træne forskellige muskelgrupper, så skal du vælge passende træningsøvelser, så du træner de rigtige muskler.
-
-Vi har her på sitet samlet de [bedste træningsøvelser](/traeningsoevelser/), [strækøvelser](/udstraekning-udspaending/), [balanceøvelser](/balancetraening/), [træning af core og kropsstammen](/core/) og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
-
-Du kan også tjekke vores dedikerede sider til [øvelser til maven](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [øvelser til brystet](/brystoevelser/), [baldeøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/) eller [skulderøvelser](/skulderoevelser/).
-
-Nogle af vores meget populære guides til træning af muskelgrupper er vores [guide til chinups og pullups](/chinup-vs-pullup/) og [armstrækninger og armbøjninger](/armbojninger-eller-armstraekninger-pushups/).
-
-Under alle omstændigheder bør du til inspiration dykke ned i [alle vores træningsøvelser](/traeningsoevelser/).
-
-{% comment %}
-
-MÅSKE LISTE MED ØVELSESTYPERNE.
-
-{% endcomment %}
-
-{% include feature_row id="feature_row_exercises" type="left" %}
-
-## Test dig selv og mål effekten af din træning
-
-For at få mest muligt ud af din træning er det vigtigt at måle din fremgang. Uanset om du træner for at forbedre din kondition, øge din styrke eller optimere din udholdenhed, kan tests hjælpe dig med at forstå, hvor du står, og hvordan du kan justere din træning.
-
-{% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "featured" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Find mange flere tests](/tests/){: .btn .btn--success .btn--center }
-</div>
-
-## Beregnere til træning
-
-Du kan lade dig inspirere til vores lange liste af beregnere til træning.
-
-{% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle vores beregnere](/beregnere/){: .btn .btn--success .btn--center }
-</div>
-
-{% comment %}
-
-EVT. SKAL JEG TAGE DE STORE KATEGORI-SIDER OVER TESTS OG LINKE HERFRA I STEDET?
-
-### Mål din kondition og udholdenhed
-
-- **Kondital (VO2 max test)** – En af de mest præcise målinger af din aerobe kapacitet. Jo højere dit kondital, desto bedre er din iltoptagelse. [Beregn dit kondital her](/kondital/).
-- **Cooper-test** – En klassisk løbetest, hvor du løber så langt som muligt på 12 minutter. Se [hvordan du udfører Cooper-testen](/cooper-test/).
-- **Bip-testen** – En meget brugt test, hvor du let kan beregne dit kondital efterfølgende. Se [hvordan du gennemfører bip-testen](/bip-test/).
-- **Andre konditionstests** – Der findes flere måder at teste konditionen på, fx cykeltests, roning og step-tests. Se en [komplet oversigt over konditionstests](/kondition/tests/) her.
-
-### Test din styrke
-
-Ud over kondition kan du også teste din fysiske styrke og muskulære udholdenhed:
-
-- **1RM-test (maksimal styrke)** – Find ud af, hvor meget du maksimalt kan løfte i en given øvelse, x bænkpres eller squat. Prøv vores [1RM beregner](/rm-beregner/).
-- **Kropsvægt-tests** – Mål din styrke ved at se, hvor mange push-ups, pull-ups eller planke-sekunder du kan klare.
-- **Funktionelle tests** – Test din eksplosivitet, mobilitet eller styrke i forskellige øvelser.
-
-Se mere på vores [testoversigt](/tests/) og bliv inspireret til forskellige tests!
-
-### Følg din udvikling
-
-Når du har taget en test, kan du bruge resultaterne til at [planlægge din træning](/traeningsplanlaegning/) og sætte realistiske mål. Gentag tests med jævne mellemrum for at se dine fremskridt og juster din træning efter dine resultater.
-
-Gå til vores [testoversigt](/tests/) og find den bedste test til dig!
-
-{% endcomment %}
-
-## Programmer og træningsplaner
-
-Det er altid en god ide at have en eller anden form for træningsprogram, når du laver træning. Det vigtigtste er faktisk at have en plan, så du vedholdende gider at træne. Vi har skrevet indlæg om, hvordan du laver dit eget styrketræningsprogram og hvad du skal tænke på i et løbeprogram.
-
-Det er altid en god ide at have en eller anden form for træningsprogram, når du laver træning. Det vigtigtste er faktisk at have en plan, så du **vedholdende** gider at træne.
-
-Du kan lære mere om, [hvordan du laver dit eget styrketræningsprogram](/traeningsprogram-programlaegning-styrketraening/) og [hvad du skal tænke på i et løbeprogram](/artikel/kom-i-gang-med-loebetraeningen/).
-
-Her kan du finde inspiration til forskellige træningsplaner.
-
-{% assign site_posts = site.posts | where: "tags", "træningsprogram" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Find alle træningsprogrammer](/traeningsprogrammer/){: .btn .btn--success .btn--center }
-
-</div>
-
-{% comment %}
-
-## Kom godt i gang med træningen
-
-FEATURE_ROW
-
-{% endcomment %}
-
-## Spis rigtigt og få mere ud af din træning
-
-{% assign site_posts = site.posts | where: "tags", "kost & ernæring" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Læs mere om kost & ernæring](/kost-ernaering/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Spørgsmål og svar om træning
-
-{% assign site_posts = site.posts | where: "tags", "faq" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 8 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Har du fået en skade?
-
-{% include feature_row id="feature_row_injuries" type="left" %}
-
-## Læs meget mere om træning her
-
-{% assign site_posts = site.posts | where: "tags", "træning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 20 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Læs alle vores artikler](/blog/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Træningstips og råd
-
-For at få mest muligt ud af din træning handler det ikke kun om at vælge de rigtige øvelser – det er også vigtigt at have den rette tilgang. Her er nogle af de bedste træningstips, der kan hjælpe dig med at optimere din indsats og opnå bedre resultater.
-
-### 1. Sæt realistiske mål
-
-At have et klart mål gør det lettere at holde motivationen oppe. Uanset om du vil forbedre din kondition, øge din styrke eller tabe dig, så brug SMART-mål. Bliv endnu klogere på [SMART-målsætning](/smart/).
-
-### 2. Træn varieret for bedre resultater
-
-Ensformig træning kan føre til stagnation og øge risikoen for skader. Prøv at kombinere forskellige træningsformer:
-
-- ✅ Konditionstræning (løb, cykling, roning) for udholdenhed
-- ✅ Styrketræning (frie vægte, kropsvægtøvelser) for muskelstyrke
-- ✅ Mobilitet & fleksibilitet (yoga, dynamisk udstrækning) for bedre bevægelighed
-
-### 3. Husk restitution – din krop skal restituere for at blive stærkere
-
-Mange overser vigtigheden af hvile, men muskler vokser og bliver stærkere i restitutionen. Sørg for at:
-
-- Have min. 1-2 hviledage om ugen
-- Sove 7-9 timer pr. nat
-- Bruge aktiv restitution (let gang, yoga, foam rolling)
-
-Læs meget mere om [restitution](/restitution/).
-
-### 4. Hold motivationen oppe
-
-Det kan være svært at bevare motivationen på lang sigt. Prøv disse strategier:
-
-- 💪 Træn med en makker – Det er sjovere, og I kan holde hinanden ansvarlige.
-- 📈 Følg dine fremskridt – Brug en træningsdagbog eller en app.
-- 🎯 Beløn dig selv – Små delmål med belønninger kan holde dig på sporet.
-
-Måske kan du holde humøret oppe med nogle [træningscitater](/citater-traening-motivation/).
-
-### 5. Undgå de typiske fejl
-
-- ⚠️ For meget, for hurtigt – Begynd roligt og øg gradvist din træningsmængde.
-- ⚠️ Springer opvarmningen over – Opvarmning reducerer skadesrisikoen og forbedrer præstationen.
-- ⚠️ Dårlig teknik – Brug spejl, videoer eller en træner til at sikre korrekt udførelse.
-
-### 6. Find en træningsplan, der passer til dig
-
-Det er nemmere at holde motivationen oppe, hvis du har en plan at følge. Se vores anbefalede træningsprogrammer for forskellige mål og niveauer.
-
-### 7. 📌 Vil du have flere tips?
-
-➡️ [Følg vores blog](/nyhedsbrev/) for flere træningsråd og inspiration!
-
-## Afslutning
-
-Uanset om du er nybegynder eller erfaren, er det vigtigt at finde en træningsform, der passer til dig. Ved at kombinere de rette øvelser, følge en struktureret plan og holde motivationen oppe, kan du opnå bedre resultater og gøre træning til en fast del af din hverdag.
-
-**Klar til at tage din træning til næste niveau?**
-
-- 👉 Find det rette træningsprogram [her](/traeningsprogrammer/)
-- 👉 Test din form med vores [konditionstests](/kondition/tests/)
-- 👉 Bliv klogere på, [hvordan du optimerer din træning](/optimer-traening/)
-
-Nu har du alt, hvad du behøver for at komme i gang! 🚀
+---
+
+## 💡 7 konkrete træningstips til din hverdag
+
+For at få mest muligt ud af din indsats handler det ikke kun om at vælge de rigtige øvelser – det handler også om din tilgang:
+
+1. **Sæt klare SMART-mål:** Brug [SMART-modellen](/smart/) til at opstille konkrete, realistiske delmål.
+2. **Træn varieret:** Kombiner styrketræning, konditionstræning og mobilitet for at opbygge en alsidig, stærk krop.
+3. **Respektér restitutionen:** Muskler genopbygges under hvile og søvn. Sørg for minimum $1\text{--}2$ hviledage om ugen for [optimal restitution](/restitution/).
+4. **Brug en træningslog:** Registrering af vægt, gentagelser eller løbetider øger chancen for kontinuerlig progression.
+5. **Start roligt ud:** Undgå "for meget, for hurtigt" skader ved at øge træningsmængden gradvist.
+6. **Prioritér teknik frem for vægt:** God form beskytter mod ledsmerter og sikrer maksimal muskelaktivering.
+7. **Hold motivationen ved lige:** Træn med en makker eller variér dit øvelsesvalg, hvis træningen føles monoton.

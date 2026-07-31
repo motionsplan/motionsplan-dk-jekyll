@@ -2,6 +2,7 @@
 layout: single
 title: "Udholdenhed"
 permalink: /metode/udholdenhed/
+category: Kondition
 redirect_from:
   - /metode/cool-down/
   - /metode/dynamic-warmup/
@@ -27,6 +28,21 @@ effect: "Cardiac output er med til at forbedre det perifære netværk med kapill
 video:
   provider: facebook
   id: 8weeksout/videos/10155781664495787
+has_full_article: /loeb/udholdenhedstraening/
+sitemap: false
+
+card_data:
+  time: "45-120+ minutter"
+  heart_rate: "65-75% HRmax"
+  rpe: "4-5"
+  type: "interval"
+  sequence:
+    - label: "Jævnt Basistempo"
+      duration: "45-120 min"
+      height: "55%"
+      color: "#4caf50"
+  repeat: "Kontinuerligt arbejde uden afbrydelser"
+  rest: "Ingen pauser undervejs"
 ---
 
 {{ page.excerpt }}

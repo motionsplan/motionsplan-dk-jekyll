@@ -117,8 +117,6 @@ Med vores interaktive Åstrand-timer klares kadence og tidtagning automatisk:
 ## Beregn kondital med Åstrands etpunktstest
 {: id="calculator" }
 
-{% include calculator/calculate-etpunkttest.html %}
-
 {% include calc/aastrand-etpunktstest.html %}
 
 ## Baggrund for beregningen i Åstrands etpunktstest

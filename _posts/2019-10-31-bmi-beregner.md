@@ -49,8 +49,6 @@ Brug vores gratis BMI beregner herunder til lynhurtigt at udregne dit Body Mass 
 
 Indtast blot din højde og din vægt, og få svaret med det samme!
 
-{% include calculator/calculate-bmi.html %}
-
 {% include calc/bmi.html calc_id="bmi-adult" title="📊 BMI Beregner (Voksne)" %}
 
 *(Er du under 18 år? Så skal du bruge vores [BMI beregner til børn og unge](/bmi-beregner-boern-unge-teenagere/).)*

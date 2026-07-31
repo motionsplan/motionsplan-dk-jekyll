@@ -20,6 +20,33 @@ howto:
 exercises: ""
 progress:
 effect: ""
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Stigende Vægt / Faldende Reps"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Sæt 1"
+      detail: "12 reps"
+      weight: "65% 1RM"
+      color: "#81c784"
+    - label: "Sæt 2"
+      detail: "10 reps"
+      weight: "72% 1RM"
+      color: "#4caf50"
+    - label: "Sæt 3"
+      detail: "8 reps"
+      weight: "78% 1RM"
+      color: "#388e3c"
+    - label: "Sæt 4"
+      detail: "6 reps"
+      weight: "85% 1RM"
+      color: "#1b5e20"
+  repeat: "Øg vægten for hvert sæt (fx 12-10-8-6)"
+  rest: "2-3 min pause ved tunge sæt"
 ---
 
 {{ page.excerpt }}

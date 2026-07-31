@@ -25,6 +25,25 @@ effect: ""
 video:
   provider: youtube
   id: Lst75qvbtLA
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Presser Forbi Failure med Makker"
+  rir: "0"
+  rir_level: "low"
+  type: "strength"
+  sequence:
+    - label: "Ordinære Reps"
+      detail: "6-8 reps"
+      weight: "Egen kraft (failure)"
+      color: "#1976d2"
+    - label: "Tvungne Reps"
+      detail: "+2-3 reps"
+      weight: "Med makkerhjælp"
+      color: "#d32f2f"
+  repeat: "2-3 ekstra reps med let hjælp fra makker"
+  rest: "3 min pause"
 ---
 
 {{ page.excerpt }}

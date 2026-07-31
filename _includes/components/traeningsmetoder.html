@@ -1,0 +1,111 @@
+<input type="text" id="methodSearchInput" onkeyup="filterMethodTable()" placeholder="🔍 Søg efter metode eller nøgleord (f.eks. Aerob, Anaerob, Hypertrofi, Styrke, HIIT)..." style="width: 100%; padding: 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 15px;">
+
+<table id="methodsTable" class="tablesorter" style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr style="background-color: #f2f2f2; text-align: left;">
+      <th style="padding: 10px; width: 30%;">Træningsmetode</th>
+      <th style="padding: 10px; width: 25%;">Kategori / Fysiologisk fokus</th>
+      <th style="padding: 10px; width: 45%;">Beskrivelse</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Hovedkategorier -->
+    <tr>
+      <td style="padding: 10px; font-weight: bold;"><a href="/aerob-traening/">Aerob træning</a></td>
+      <td style="padding: 10px;"><span class="badge" style="background-color: #d1ecf1; padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">Kondition / Aerob</span></td>
+      <td style="padding: 10px; font-size: 0.9em;">Metoder til opbygning af aerob udholdenhed, iltoptagelse og hjerteslagvolumen.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;"><a href="/anaerob-traening/">Anaerob træning</a></td>
+      <td style="padding: 10px;"><span class="badge" style="background-color: #f8d7da; padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">Kondition / Anaerob</span></td>
+      <td style="padding: 10px; font-size: 0.9em;">Træningsmetoder til forbedring af sprintkapacitet, eksplosivitet og mælkesyretolerance.</td>
+    </tr>
+
+    <!-- Dynamiske metoder fra site.methods -->
+    {% assign all_methods = site.methods | sort: "title" %}
+    {% for method in all_methods %}
+      {% comment %} Udregn om metoderne har en dybdegående artikel {% endcomment %}
+      {% assign target_url = nil %}
+      {% assign article_val = method.full_article | default: method.has_full_article %}
+
+      {% if article_val == true %}
+        {% assign target_url = method.url %}
+      {% elsif article_val and article_val != false %}
+        {% assign target_url = article_val %}
+      {% endif %}
+
+      <tr>
+        <td style="padding: 10px; font-weight: bold;">
+          {% if target_url %}
+            <a href="{{ target_url | relative_url }}">{{ method.title }}</a>
+          {% else %}
+            <span>{{ method.title }}</span>
+          {% endif %}
+        </td>
+        <td style="padding: 10px;">
+          <span class="badge" style="background-color: #e0e0e0; padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">
+            {{ method.category | default: "Styrke / Kondition" }}
+          </span>
+          {% if target_url %}
+            <span class="badge" style="background-color: #d4edda; color: #155724; padding: 2px 6px; border-radius: 4px; font-size: 0.75em; margin-left: 4px;">Fuld guide</span>
+          {% else %}
+            <span class="badge" style="background-color: #f8f9fa; color: #6c757d; border: 1px solid #dee2e6; padding: 2px 6px; border-radius: 4px; font-size: 0.75em; margin-left: 4px;">Opslagskort</span>
+          {% endif %}
+        </td>
+        <td style="padding: 10px; font-size: 0.9em;">
+          {{ method.excerpt | strip_html | truncate: 120 }}
+        </td>
+      </tr>
+    {% endfor %}
+    <!-- Supplerende/fritstående sider og artikler -->
+    <tr>  
+      <td style="padding: 10px; font-weight: bold;"><a href="/guide-superset/">Supersæt & Compound Sets</a></td>
+      <td style="padding: 10px;"><span class="badge" style="background-color: #d4edda; padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">Styrke / Hypertrofi</span></td>
+      <td style="padding: 10px; font-size: 0.9em;">Tidsbesparende parring af to styrkeøvelser kørt ud i ét uden pauser.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;"><a href="/hiit/">HIIT & Intervaltræning</a></td>
+      <td style="padding: 10px;"><span class="badge" style="background-color: #d1ecf1; padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">Kondition / Aerob</span></td>
+      <td style="padding: 10px; font-size: 0.9em;">Højintensiv intervaltræning for optimal forbedring af iltoptagelse og kondition.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;"><a href="/artikel/sprint-8-intervaltraening-der-virker/">Sprint 8</a></td>
+      <td style="padding: 10px;"><span class="badge" style="background-color: #f8d7da; padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">Kondition / Anaerob</span></td>
+      <td style="padding: 10px; font-size: 0.9em;">8 x 30 sekunders all-out sprint intervaller med 90 sekunders pause.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;"><a href="/artikel/tabata-traening-intervaller/">Tabata-intervaller</a></td>
+      <td style="padding: 10px;"><span class="badge" style="background-color: #f8d7da; padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">Kondition / Anaerob</span></td>
+      <td style="padding: 10px; font-size: 0.9em;">Ultra-intensivt 4-minutters intervalpas med 20 sekunders arbejde og 10 sekunders pause.</td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+function filterMethodTable() {
+  var input, filter, table, tr, td, i, j, txtValue, match;
+  input = document.getElementById("methodSearchInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("methodsTable");
+  tr = table.getElementsByTagName("tr");
+
+  for (i = 1; i < tr.length; i++) {
+    match = false;
+    td = tr[i].getElementsByTagName("td");
+    for (j = 0; j < td.length; j++) {
+      if (td[j]) {
+        txtValue = td[j].textContent || td[j].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          match = true;
+          break;
+        }
+      }
+    }
+    if (match) {
+      tr[i].style.display = "";
+    } else {
+      tr[i].style.display = "none";
+    }
+  }
+}
+</script>

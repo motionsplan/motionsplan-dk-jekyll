@@ -22,6 +22,26 @@ effect: ""
 video:
   provider: youtube
   id: i8uPSGoHfD8
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Tung Sænke-fase (>100% 1RM)"
+  time: "Excentrisk: 3-5 sek"
+  rir: "0-1"
+  rir_level: "low"
+  type: "strength"
+  sequence:
+    - label: "Excentrisk fase"
+      detail: "3-5 sek"
+      weight: "100-110% 1RM"
+      color: "#c62828"
+    - label: "Koncentrisk fase"
+      detail: "1 sek"
+      weight: "Med makkerhjælp"
+      color: "#424242"
+  repeat: "Kontrolleret langsom sænkning"
+  rest: "2-3 min pause"
 ---
 
 {{ page.excerpt }}

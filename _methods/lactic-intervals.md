@@ -9,6 +9,7 @@ excerpt: "Lactacide intervaller skal forbedre det laktacide systems evne til at 
 tags:
   - conditioning
   - anaerob træning
+category: Kondition
 header:
   teaser: /assets/images/kondition/anaerob-kapacitet.jpg
 gallery:
@@ -35,6 +36,25 @@ video:
   provider: youtube
   id: 0sxhW661eHk
 toc: true
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "10-15 minutter"
+  heart_rate: "95-100% HRmax"
+  rpe: "9-10"
+  type: "interval"
+  sequence:
+    - label: "Syre-Spurt"
+      duration: "30-60s"
+      height: "100%"
+      color: "#c62828"
+    - label: "Aktiv Hvil"
+      duration: "2-3 min"
+      height: "25%"
+      color: "#cbd5e1"
+  repeat: "4-8 x (30-60 sek maksimal mælkesyrebelastning)"
+  rest: "2-4 min lang pause for delvis laktat-nedbrydning"
 ---
 
 {{ page.excerpt }}

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Cykeltests: FTP, Kondition og Eksplosivitet 🚴‍♂️"
+title: "Cykeltests: FTP, kondition og eksplosivitet 🚴‍♂️"
 seo_title: "Cykeltests: Test FTP, Kondition og Watt på Cykel"
 excerpt: "Den komplette oversigt over cykeltests. Find din FTP, test din maksimale iltoptagelse (VO2max) eller mål din eksplosive sprintstyrke."
 description: "Find den rette cykeltest til din træning. Prøv vores FTP-test beregnere, Åstrand-konditionstests, Wattmax og anaerobe sprinttests."

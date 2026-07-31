@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Tempo Method"
+title: "Tempo Method (TUT)"
 permalink: /styrketraening/tempo-method/
 header:
   teaser: /assets/images/hypertrofi/tempo-method.jpg
@@ -28,6 +28,30 @@ effect: "Udvikler evnen for de langsomme slow-twitch muskler til at oxidere bipr
 video:
   provider: youtube
   id: u68lrH5iq_A
+has_full_article: 
+sitemap: false
+
+card_data:
+  target: "Time Under Tension (TUT)"
+  time: "Fx 4-0-1-0 tempo"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Sænke-fase (Excentrisk)"
+      detail: "4 sek"
+      weight: "Kontrolleret"
+      color: "#0288d1"
+    - label: "Bund-pause (Isometrisk)"
+      detail: "1 sek"
+      weight: "Hold spænding"
+      color: "#7b1fa2"
+    - label: "Løfte-fase (Koncentrisk)"
+      detail: "1 sek"
+      weight: "Eksplosiv"
+      color: "#2e7d32"
+  repeat: "Kontrolleret kadence på hver rep"
+  rest: "90 sek pause"
 ---
 
 {{ page.excerpt }}

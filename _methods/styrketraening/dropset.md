@@ -22,6 +22,32 @@ effect: ""
 video:
   provider: youtube
   id: b1QsrqM7fTo
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "Nul pause"
+  rpe: "10"
+  rir: "0"
+  target: "Metabolsk stress"
+  type: "strength"
+  
+  sequence:
+    - label: "Sæt 1"
+      detail: "6 reps"
+      weight: "100%"
+      color: "#2e7d32"
+    - label: "Drop 1"
+      detail: "8 reps"
+      weight: "-25%"
+      color: "#4caf50"
+    - label: "Drop 2"
+      detail: "10 reps"
+      weight: "-25%"
+      color: "#81c784"
+
+  repeat: "Køres kun i det sidste sæt af en øvelse"
+  rest: "Fuld restitution efter dropsæt"
 ---
 
 {{ page.excerpt }}

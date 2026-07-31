@@ -81,8 +81,6 @@ Før Jack Daniels' metode blev udbredt, brugte mange løbere [Pete Riegels forme
 
 Indtast en nylig løbetid for at beregne din VDOT og dine anbefalede træningstempi:
 
-{% include calculator/calculate-jack-daniels.html %}
-
 {% include calc/running-performance.html %}
 
 Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval](/hvor-langt-per-interval/)?

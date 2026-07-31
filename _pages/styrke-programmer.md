@@ -1,12 +1,10 @@
 ---
 layout: single
-title: 'Træningsprogrammer: fullbody og splitprogrammer til styrke'
-seo_title: 'Styrketræningsprogrammer: fullbody og splitprogrammer til styrke'
+title: 'Styrketræningsprogrammer: Gratis programmer til dit niveau'
+seo_title: 'Styrketræningsprogrammer – Find et gratis styrkeprogram'
 permalink: /styrketraeningsprogrammer/
-excerpt: Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dit niveau og dine behov. Find
-  et program, der passer til netop dit niveau og behov.
-description: Få en komplet oversigt over de klassiske gratis træningsprogrammer til styrketræning. Find dit eget program der
-  passer til netop dit niveau og behov.
+excerpt: "Find et gratis styrketræningsprogram, der passer til dit niveau. Komplet oversigt over fullbody, 2-split, 3-split og avancerede styrkeprogrammer."
+description: "Få en komplet oversigt over gratis styrketræningsprogrammer. Vælg mellem helkropsprogrammer og splitprogrammer skræddersyet til dit niveau."
 comments: 'false'
 toc: 'true'
 category:
@@ -69,6 +67,15 @@ Når du skal finde et effektivt og gratis træningsprogram til styrketræning, s
 Når du skal vælge dit program, så husk at være ærlig over for dig selv i forhold til [dit styrketræningsniveau](/styrketraening/periodisering/). For langt de fleste kan det betale sig at starte med et enkelt, klassisk træningsprogram.
 
 [<i class='fas fa-table'></i> Direkte til oversigten](#oversigt){: .btn .btn--success .btn--jump }
+
+<div class="notice--info" markdown="1">
+### 🏋️‍♂️ Vælg den rette type styrketræningsprogram
+Herunder finder du alle vores styrkeprogrammer. Vil du direkte til en bestemt opbygning eller søger du andre træningsformer?
+* 🧩 **[Helkropsprogrammer (Fullbody)](/styrketraening/helkropsprogrammer/)** – Træn hele kroppen 2–3 gange om ugen.
+* 🔀 **[Splitprogrammer](/styrketraening/split-programmer/)** – 2-split, 3-split og opdelte programmer til øvede.
+* 🎯 **[Guide: Vælg det rette program](/vaelg-traeningsprogram/)** – Find dit niveau og dine behov.
+* 🏃 **[Løbeprogrammer](/loebeprogrammer/)** & **[Alle træningsprogrammer](/traeningsprogrammer/)** – Se samlet overblik.
+</div>
 
 ## Hvordan vælger du et styrketræningsprogram?
 

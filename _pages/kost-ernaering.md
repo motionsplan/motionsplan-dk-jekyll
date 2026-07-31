@@ -1,228 +1,98 @@
 ---
 layout: single
-title: Kost, ernæring & forbrænding
-seo_title: Kost og Ernæring – Bliv klogere på mad og forbrænding
+title: "Kost, ernæring og forbrænding: Alt om mad, kalorier og sundhed"
+seo_title: "Kost og ernæring – Guide til mad, kalorier og forbrænding"
 redirect_from:
-- /krop-og-sundhed/
+  - /krop-og-sundhed/
 permalink: /kost-ernaering/
-excerpt: Få indsigt i kost og ernæring med vores omfattende artikler og værktøjer. Lær om sunde spisevaner, næringsstoffer
-  og find kalorietabeller for forskellige fødevarer.
-description: Få indsigt i kost og ernæring med vores omfattende artikler og værktøjer. Lær om sunde spisevaner, næringsstoffer
-  og find kalorietabeller for forskellige fødevarer.
+excerpt: "Få styr på kost, ernæring og forbrænding. Find interaktive kalorieberegnere, kalorietabeller, BMI-tests og guides til et sundt vægttab."
+description: "Få styr på kost, ernæring og forbrænding. Find interaktive kalorieberegnere, kalorietabeller, BMI-tests og guides til et sundt vægttab."
 header:
   overlay_image: /assets/images/unsplash/photo-1517093728432-a0440f8d45af.jpg
   credit: https://images.unsplash.com/photo-1517093728432-a0440f8d45af
   teaser: /assets/images/unsplash/photo-1517093728432-a0440f8d45af.jpg
-  caption: Kost, ernæring & forbrænding
-author_profile: 'true'
-toc: 'true'
-breadcrumbs: 'true'
+  caption: Kost, ernæring og forbrænding
+author_profile: true
+toc: true
+breadcrumbs: true
 classes: wide
-feature_row_sportsnutrition:
-- image_path: /assets/images/unsplash/photo-1554284126-aa88f22d8b74.jpg
-  credit: https://images.unsplash.com/photo-1554284126-aa88f22d8b74
-  alt: Sportsernæring
-  title: Sportsernæring
-  excerpt: Når du træner, stiller kroppen andre krav til energi, væske og timing. Få styr på kosten før, under og efter træning
-    – og spis dig til bedre præstation.
-  url: /sportsernaering/
-  btn_label: Læs om sportsernæring
-  btn_class: btn--info
 ---
 
-Velkommen til vores sektion om kost og ernæring, hvor vi tilbyder evidensbaseret viden for at hjælpe dig med at træffe informerede valg om din kost. Uanset om du ønsker at optimere din træning, tabe dig eller blot leve sundere, finder du her ressourcer og værktøjer til at støtte dig på din rejse.
+Velkommen til vores samlede overblik over **kost, ernæring og forbrænding**. Uanset om dit mål er at opnå et varigt vægttab, beregne dit daglige kaloriebehov, sammensætte en sund kostplan eller forstå [kroppens stofskifte](/stofskifte/), finder du vores guides, tabeller og beregnere herunder.
 
-Vi dækker emner som makronæringsstoffer, tallerkenmodeller og kosttilskud, så du kan få en dybere forståelse af, hvordan forskellige fødevarer påvirker din krop. Vores kalorietabeller giver dig detaljerede oplysninger om energiinholdet i en lang række fødevarer, hvilket gør det nemmere at planlægge dine måltider og nå dine sundhedsmål.
+---
 
-Udforsk vores artikler og interaktive værktøjer for at få praktiske råd og inspiration til en sund livsstil. Vi er dedikerede til at levere opdateret og pålidelig information, der kan guide dig mod bedre sundhed og velvære.
+## Vores vigtigste emneområder
 
-## Guides til Kost & Ernæring
-
-{% assign site_posts = site.posts | where: "tags", "kost & ernæring" | where: "tags", "featured" | where: "tags", "guide" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
+<div class="notice--info" markdown="1">
+### 🏃‍♂️⚡ Sportsernæring & Præstation
+Er du aktiv motionist eller atlet, og vil du optimere din mad i forhold til din træning?
+* **[Sportsernæring – Guide til træning og præstation](/sportsernaering/)** – Alt om måltidstiming, kulhydrater og restitution.
+* **[Væske og hydrering](/vaeske/)** – Hvor meget skal du drikke før, under og efter træning?
+* **[Kosttilskud i sport](/kosttilskud/)** – Hvilke tilskud virker reelt til træning?
 </div>
 
-## Guides til kosttilskud
-
-{% assign site_posts = site.posts | where: "tags", "kosttilskud" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 8 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Guide til kosttilskud der virker](/kosttilskud/){: .btn .btn--success .btn--center }
-
+<div class="notice--success" markdown="1">
+### 📊🔥 Energi, Kalorier & Stofskifte
+Lær at beregne din krops energiforbrug og forstå kalorierne i din mad.
+* **[Ligevægtsindtag beregner](/ligevaegtsindtag-beregner/)** – Udregn dit samlede daglige kalorieforbrug (TDEE).
+* **[BMR & Hvilestofskifte](/bmr-beregner/)** – Beregn dit basalstofskifte ud fra køn, alder, højde og vægt.
+* **[BMR-formler](/hvilestofskiftet-formler/)** & **[Alt om stofskiftet](/stofskifte/)** – Lær hvordan stofskiftet fungerer.
+* **[Physical Activity Level (PAL)](/beregner/pal/)** & **[MET-beregner](/met-beregner/)** – Beregn dit fysiske aktivitetsniveau.
+* **[Hvad er kalorier?](/hvad-er-kalorier/)** & **[kJ til kcal omregner](/kj-kcal-omregner/)** – Lær grundlæggende kalorieteori.
+* **[Oversigt over alle kalorieberegnere](/kalorieberegner/)** – Samlet katalog over beregnere.
 </div>
 
-## BMI beregner, taljemål og idealvægt
-
-Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi-beregner/), hvor du kan læse mere om BMI og lave en beregning af dit eget BMI. Tjek også vores [BMI beregner til børn](/bmi-beregner-boern-unge-teenagere/).
-
-Du kan bl.a. prøve vores [beregner til idealvægt](/idealvaegt/) samt vores samlede beregner til [taljemål og talje-hofte-ratio](/taljemaal/).
-
-{% assign site_posts = site.posts | where: "tags", "kropskomposition" | where: "tags", "måling" | where: "tags", "antropometri" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Alt om BMI](/bmi/){: .btn .btn--success .btn--center }
-
+<div class="notice--warning" markdown="1">
+### ⚖️📏 Kropskomposition, BMI & Fedtprocent
+Redskaber til vurdering af kropssammensætning, sundhed og vægt.
+* **[BMI Beregner](/bmi-beregner/)** & **[BMI til Børn og Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek dit BMI.
+* **[Mål din fedtprocent](/maal-fedtprocent/)** – Guide til 7 forskellige målemetoder.
+* **[Fedtmåling med fedttang (Skinfold)](/skinfold/)** & **[Fedtprocent med målebånd](/fedtprocent-maalebaand/)**.
+* **[Bioimpedans (BIA)](/bioimpedans-maaling/)** – Lær om kropsanalysevægte og præcision.
+* **[Normer for fedtprocent](/fedtprocent-normer/)** – Skemaer og tabeller for mænd og kvinder.
+* **[Taljemål & Talje-Hofte-Ratio](/taljemaal/)** – Vurdér din fedtfordeling og helbredsrisiko.
+* **[Idealvægt beregner](/idealvaegt/)** – Se grænser for sund vægt.
 </div>
 
-## Beregnere til kropssammensætning og fedtprocent
-
-Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men der er også andre måder at finde din kropskomposition på. Tjek dem her:
-
-{% assign site_posts = site.posts | where: "tags", "kropskomposition" | where: "tags", "metode" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Alle metoder til kropskomposition](/maal-fedtprocent/){: .btn .btn--success .btn--center }
-
+<div class="notice" markdown="1">
+### 🥗🍏 Vægttab, Adfærd & Sunde Vaner
+Lær at opbygge et sundt forhold til mad uden strenge slankekure.
+* **[Et sundt syn på vægttab](/vaegttab/)** – Hvorfor varige vaner slår hurtige slankekure.
+* **[Er slankekure en god idé?](/slankekur/)** – Faldgruberne ved restriktive diæter.
+* **[Vaner og livsstilsændring](/vaner/)** – Sådan ændrer du dine spisevaner i praksis.
+* **[Mæthedsindekset](/maethedsindeks/)** – Hold dig mæt og slank med de rette fødevarer.
+* **[Sådan læser du en varedeklaration](/varedeklaration/)** – Forstå ingredienser og næringsindhold.
+* **[Tallerkenmodeller (Y, T, E, X)](/tallerken-modeller/)** – Visuel guide til opbygning af sunde måltider.
+* **[Kostregistrering & Kalorietæller apps](/kalorietaeller-apps/)** – Anmeldelse af de 5 bedste apps.
 </div>
 
-{% comment %}
+---
 
-## Energi & Forbrænding
+## Kalorietabeller & Næringsindhold
 
-{% endcomment %}
+Vil du slå kalorie- og næringsindholdet op i specifikke fødevarer?
 
-## Energi & Forbrænding: Dagligt energibehov og ligevægtsindtag
+* 🥩 **[Kalorietabel for kød, kylling og fisk](/kalorietabel-koed/)**
+* 🥦 **[Kalorietabel for grøntsager](/kalorietabel-groentsager/)**
+* 🥭 **[Kalorietabel for frugt og bær](/kalorietabel-frugt/)**
+* 🍞 **[Kalorietabel for brød og kornprodukter](/kalorietabel-broed/)**
+* 🍺 **[Kalorietabel for alkohol, øl og vin](/kalorietabel-alkohol/)**
+* 📋 **[Den Store Samlede Kalorietabel](/kalorietabellen/)** – Slå næringsindhold op i hundredvis af madvarer.
 
-Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag](/ligevaegtsindtag-beregner/). Det er et af de rigtig populære punkter her på siden.
+---
 
-{% assign site_posts = site.posts | where: "tags", "stofskifteberegner" | sort: "last_modified_at" | reverse %}
+## Næringsstoffer & Fysiologi
 
-<div class="feature__wrapper" markdown="1">
+* 🥑 **[Opbygning af kulhydrater og kostfibre](/kulhydrater-opbygning/)**
+* 📊 **[Udregn fedtenergiprocent i mad](/fedtenergiprocent/)**
+* 🥩 **[Hvor meget protein er der i madvarer?](/protein-i-madvarer/)**
+* 🧬 **[Læs alt om kroppens fysiologi](/fysiologi/)**
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
+---
 
-[Alt om stofskiftet](/stofskifte/){: .btn .btn--success .btn--center }
+## Sunde & Proteinrige Opskrifter
 
-</div>
-
-## Kalorieberegnere og energiberegnere
-
-Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
-
-{% assign site_posts = site.posts | where: "tags", "kalorieberegner" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Find flere kalorieberegnere](/kalorieberegner/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Opskrifter
-
-{% assign site_posts = site.posts | where: "tags", "opskrift" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Vægt & vægttab
-
-Vægttab fylder rigtig meget, når man taler om krop, træning og sundhed. Der findes en kæmpestor forretning af vægttabseksperter og kosttilskud til vægttab. Der bliver brugt før og efter-billeder af en afklædt krop for at vise, hvor effektive resultater, man kan få. Jeg har skrevet lidt om en [anden tilgang til vægttab]({% link _posts/2021-07-31-vaegttab.md %}).
-
-{% assign site_posts = site.posts | where: "tags", "vægttab" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Slankekur er en dårlig ide](/slankekur/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Kalorietabeller og næringsindhold i fødevarer
-
-{% assign site_posts = site.posts | where: "tags", "kalorietabel" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se den store kalorietabel](/kalorietabellen/){: .btn .btn--success .btn--center }
-
-</div>
-
-{% include feature_row id="feature_row_sportsnutrition" type="left" %}
-
-## Fysiologi
-
-Det er godt at kende mere til [kroppens fysiologi](/fysiologi/), når man gerne vil forstå træningslæren om kroppen. Du kan blive klogere i nogle af disse indlæg.
-
-{% assign site_posts = site.posts | where: "tags", "fysiologi" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alt om fysiologi](/fysiologi/){: .btn .btn--success .btn--center }
-</div>
-
-## Læs mere om Kost & Ernæring
-
-{% assign site_posts = site.posts | where: "category", "Kost & Ernæring" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
+* 🥞 **[Proteinpandekager uden banan](/proteinpandekager-uden-banan/)**
+* 🍝 **[Lækker proteinlasagne](/opskrift/protein-lasagne/)**
+* 🍳 **[Se alle vores opskrifter](/opskrifter/)**

@@ -23,6 +23,29 @@ effect: ""
 video:
   provider:
   id:
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "5-10 minutter"
+  heart_rate: "Teknikfokus (Lav udtrætning)"
+  rpe: "7-8"
+  type: "interval"
+  sequence:
+    - label: "Accelleration"
+      duration: "30m"
+      height: "60%"
+      color: "#81c784"
+    - label: "Topfart / Flydende"
+      duration: "40m"
+      height: "90%"
+      color: "#f57c00"
+    - label: "Udrul"
+      duration: "20m"
+      height: "40%"
+      color: "#a5d6a7"
+  repeat: "4-6 x 60-100 meter kontrollerede stigningsløb"
+  rest: "1-2 min gåpause indtil puls og åndedræt er helt i ro"
 ---
 
 {{ page.excerpt }}

@@ -29,7 +29,7 @@ meta:
   direct: direkte test
 last_modified_at: 2022-01-06T23:14:14Z
 toc: true
-quiz:
+flashcards:
   - question: "Hvor lang tid tager Wingate-testen?"
     answer: "30 sekunder"
   - question: "Hvad tester Wingate-testen?"
@@ -136,7 +136,7 @@ Wingate testen kan bruges til at teste din anaerobe kapacitet og power. Den er l
 
 ## Quiz
 
-{% include motionsplan/orbit.html cards=page.quiz %}
+{% include motionsplan/orbit.html cards=page.flashcards %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

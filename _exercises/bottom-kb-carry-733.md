@@ -2,10 +2,6 @@
 title: "Bottom up KB carry"
 instructions: ""
 permalink: /oevelse/bottom-kb-carry/
-redirect_from:
-  - /node/733
-  - /oevelse/bent-arm-waiter-walk/
-  - /node/727
 id: 733
 header:
   teaser: /assets/images/exercises/bent-arm-waiter-walk-0-320.jpg

@@ -1,6 +1,6 @@
 ---
-title: ️Liftosaur - app til styrketræning
-seo_title: ️Liftosaur - app til styrketræning
+title: Liftosaur - app til styrketræning
+seo_title: Liftosaur - app til styrketræning
 permalink: /liftosaur/
 description: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende
   bruge det til træningslog.

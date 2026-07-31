@@ -69,8 +69,6 @@ Brug afspilleren nedenfor til at holde den korrekte takt (96 BPM) og trinfølge 
 
 Når du har målt din puls i 1 minut efter testen, kan du indtaste dine data herunder for at beregne dit estimerede kondital.
 
-{% include calculator/calculate-steptest-ymca.html %}
-
 {% include calc/steptest.html test="ymca" %}
 
 ## Formlen bag beregning af konditallet

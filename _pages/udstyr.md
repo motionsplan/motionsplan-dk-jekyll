@@ -2,7 +2,7 @@
 layout: single
 title: Træningsudstyr – Find det rette udstyr til din træning
 seo_title: Træningsudstyr – Guide til det bedste udstyr til styrketræning, løb og cykling
-excerpt: "å overblik over det bedste træningsudstyr til styrketræning, løb og cykling. Vi guider dig til det rette udstyr, så du kan optimere din træning."
+excerpt: "Få overblik over det bedste træningsudstyr til styrketræning, løb og cykling. Vi guider dig til det rette udstyr, så du kan optimere din træning."
 permalink: /udstyr/
 redirect_from:
   - /inspiration/

@@ -2,10 +2,12 @@
 layout: single
 toc: 'true'
 permalink: /tests/
+redirect_from:
+  - /fitness/
 title: "Tests & Måleværktøjer: Find den rette test"
 seo_title: "Fysiske Tests & Sundhedstests – Komplet Testkatalog"
 excerpt: "Komplet katalog over fysiske og psykologiske tests. Find den rette test til kondition, løb, cykling, styrke, balance og mentalt helbred."
-description: "Find fysiske og psykologiske tests i vores komplette katalog. Vælg mellem konditionstests, løbetests, cykeltests, styrketests og vurderingsværktøjer."
+description: "Find fysiske og psykologiske tests i vores komplette katalog over fitnesstests. Vælg mellem konditionstests, løbetests, cykeltests, styrketests og vurderingsværktøjer."
 author_profile: 'true'
 header:
   overlay_image: /assets/images/unsplash/photo-1706029831332-67734fbf73d9.jpg
@@ -30,7 +32,7 @@ feature_row_mental_tests:
   title: Psykisk og mentalt velvære
   excerpt: Psykisk velvære er lige så vigtigt som fysisk sundhed. Med disse tests kan du få en bedre forståelse af din mentale
     tilstand og tage de første skridt mod at forbedre din trivsel.
-  url: /psykiske-sundhedstest/
+  url: /vurderingsvaerktoejer/
   btn_label: Test din mentale sundhed
   btn_class: btn--success
 feature_row_test_fat_percent:
@@ -121,7 +123,7 @@ Mål din eksplosive underkropsstyrke og reaktive hoppehøjde (f.eks. Squat Jump,
 ### 🏃‍♂️💨 Sprint- & Hurtighedstests
 Test din lineære tophastighed og acceleration over korte distancer (f.eks. 30-meter sprint og RAST-test).
 
-[Se alle sprint- og hurtighedstests »](/retningsskift-test/){: .btn .btn--success }
+[Se alle sprint- og hurtighedstests »](/tests/sprint/){: .btn .btn--success }
 </div>
 
 <div class="notice--info" markdown="1">
@@ -135,7 +137,7 @@ Mål din agilitet, Change of Direction Speed (CODS) og evne til hurtige vendinge
 ### 🧠💭 Psykologiske Tests & Vurderingsværktøjer
 Mål din mentale sundhed, trivsel og dit forhold til motion med validerede psykologiske spørgeskemaer (f.eks. træningsafhængighed og mentalt velvære).
 
-[Se alle psykologiske sundhedstests »](/psykiske-sundhedstest/){: .btn .btn--primary }
+[Se alle psykologiske sundhedstests »](/vurderingsvaerktoejer/){: .btn .btn--primary }
 </div>
 
 ---
@@ -150,6 +152,22 @@ Leder du efter en af vores mest benyttede specifikke guides eller beregnere, kan
 *   **[IMTP Trækstyrketest (Isometric Mid-Thigh Pull)](/imtp-test/)** – Mål din maksimale eksplosive muskelstyrke og Rate of Force Development (RFD).
 *   **[Træningsafhængighed-test (EAI)](/traeningsafhaengighed/)** – Test om dit forhold til træning og motion er sundt eller tvangspræget.
 *   **[Illinois Agility Test](/illinois-agility-test/)** – Den klassiske bane-test til måling af hurtighed og retningsskift.
+
+---
+
+---
+
+## Hvad er en fitnesstest?
+{: id="fitnesstest" }
+
+En **fitnesstest** er en struktureret måling af din fysiske formåen inden for et af kroppens primære kapacitetsområder. Formålet med fitnesstests er at give dig et objektivt nulpunkt, spore din træningsfremgang og identificere svagheder i din fysik:
+
+* 🫁 **Kondition & Aerob effekttest:** Måling af din maksimale iltoptagelse ($\text{VO}_2\text{-max}$) og udholdenhed (f.eks. [Cooper-test](/cooper-test/) eller [Bip-test](/bip-test/)).
+* 🏋️‍♂️ **Styrke- & Eksplosivitetstest:** Test af dit maksimale kraftudviklingspotentiale (f.eks. [IMTP trækstyrketest](/imtp-test/) eller [hoppetests](/springtests-hoppehoejde/)).
+* 📐 **Antropometri & Kropssammensætning:** Vurdering af fedtprocent, BMI og kropsmål (f.eks. [fedtprocentmåling](/maal-fedtprocent/)).
+* 🤸‍♂️ **Smidighed & Smidighedstest:** Måling af leddenes bevægelighed og fleksibilitet.
+
+> 💡 **Tip til præcise målinger:** Udfør altid dine fitnesstests under de samme forhold (samme tidspunkt på dagen, samme opvarmning og samme udstyr) for at få et pålideligt sammenligningsgrundlag.
 
 ---
 

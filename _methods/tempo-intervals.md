@@ -10,6 +10,7 @@ header:
 tags:
   - conditioning
   - aerob træning
+category: Kondition
 rpe: 5-6
 time: 10-12s arbejde; 60s aktiv pause
 intensity: 70% af max intensitet
@@ -27,6 +28,29 @@ effect: "Tempo-intervaller kan forbedre hastighed og arbejdskapacitet på træni
 video:
   provider: facebook
   id: 8weeksout/videos/10155692941440787
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "15-30 minutter totalt"
+  heart_rate: "80-88% HRmax"
+  rpe: "7-8"
+  type: "interval"
+  sequence:
+    - label: "Tempoblok"
+      duration: "5-10 min"
+      height: "75%"
+      color: "#f57c00"
+    - label: "Luntepause"
+      duration: "2 min"
+      height: "35%"
+      color: "#81c784"
+    - label: "Tempoblok"
+      duration: "5-10 min"
+      height: "75%"
+      color: "#f57c00"
+  repeat: "2-4 x (5-10 min kontrolleret tempoblok)"
+  rest: "2 min jævn luntepause mellem blokke"
 ---
 
 {{ page.excerpt }}

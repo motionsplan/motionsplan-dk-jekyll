@@ -3,6 +3,7 @@ layout: single
 title: "Cardiac Power Intervals"
 permalink: /metode/cardiac-power-intervals/
 excerpt: "I Cardiac Power Intervaller skal du drive din puls op til det maksimale niveau i 20-30 sekunder og holde den der. Cardiac Power Intervals skal forbedre hjertets evne til at trække sig sammen ved den højeste pulsfrekvens og forbedre ilttilgængeligheden ved maksimalt arbejde."
+category: Kondition
 header:
   teaser: /assets/images/kondition/cardiac-power.jpg
 tags:
@@ -27,6 +28,25 @@ effect: "Forbedrer ilttilgængeligheden ved højere intensiteter og forbedrer ud
 video:
   provider: youtube
   id: 4BAUVbXucmw
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "12-24 minutter"
+  heart_rate: "95-100% HRmax"
+  rpe: "9-10"
+  type: "interval"
+  sequence:
+    - label: "Maksimal Arbejde"
+      duration: "2-3 min"
+      height: "95%"
+      color: "#c62828"
+    - label: "Aktiv Hvil"
+      duration: "3-5 min"
+      height: "30%"
+      color: "#cbd5e1"
+  repeat: "4-6 x 2-3 minutter med maksimal intensitet"
+  rest: "Fuld restitution (3-5 min) indtil pulsen falder"
 ---
 
 {{ page.excerpt }}

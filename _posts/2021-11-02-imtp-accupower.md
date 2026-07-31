@@ -1,6 +1,6 @@
 ---
 title: &title "Opsætning og brug af AccuPower kraftplatform"
-seo_title: " AccuPower: Guide til opsætning og korrekt brug af kraftplatform"
+seo_title: "AccuPower: Guide til opsætning og korrekt brug af kraftplatform"
 excerpt: Lær hvordan du opsætter og bruger AccuPower kraftplatformen til præcise IMTP-målinger. Få detaljerede instruktioner om forbindelser, indstillinger og kalibrering.
 description: Lær hvordan du opsætter og bruger AccuPower kraftplatformen til præcise IMTP-målinger. Få detaljerede instruktioner om forbindelser, indstillinger og kalibrering.
 permalink: /accupower-setup/

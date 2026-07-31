@@ -25,6 +25,41 @@ effect: ""
 video:
   provider: youtube
   id: QzKh457O2E4
+has_full_article: false 
+sitemap: false
+
+card_data:
+  time: "Pause: 15-20s"
+  rpe: "9-10"
+  rir: "0-1"
+  target: "Hypertrofi"
+  type: "strength"  # Fortæller HTML-komponenten at den skal bruge styrke-rendering
+  
+  # Visuel opbygning på kortet
+  sequence:
+    - label: "Hovedsæt"
+      detail: "6-10 reps"
+      weight: "100%"
+      color: "#1e88e5"
+    - label: "Pause"
+      detail: "15-20 sek"
+      weight: "Hvil"
+      color: "#e0e0e0"
+    - label: "Mini-sæt 1"
+      detail: "2-4 reps"
+      weight: "100%"
+      color: "#1565c0"
+    - label: "Pause"
+      detail: "15-20 sek"
+      weight: "Hvil"
+      color: "#e0e0e0"
+    - label: "Mini-sæt 2"
+      detail: "1-3 reps"
+      weight: "100%"
+      color: "#0d47a1"
+      
+  repeat: "1 til 2 serier pr. øvelse"
+  rest: "3 min pause efter fuldført rest-pause serie"
 ---
 
 {{ page.excerpt }}

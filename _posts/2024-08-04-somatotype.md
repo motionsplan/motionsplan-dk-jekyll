@@ -1,6 +1,6 @@
 ---
-title: ️Hvilken kropstype er du? Find din somatotype med vores beregner!
-seo_title: ️Beregn din somatotype og find din kropstype [Beregner]
+title: Hvilken kropstype er du? Find din somatotype med vores beregner!
+seo_title: Beregn din somatotype og find din kropstype [Beregner]
 permalink: /somatotype-og-kropstype/
 description: Her kan du lære mere om somatotyperne endomorph, ectomorph og mesomorph. I vores beregner kan du find finde ud
   af, hvilken kropstype du er.

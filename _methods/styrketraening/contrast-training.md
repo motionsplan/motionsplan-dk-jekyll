@@ -22,6 +22,30 @@ effect: ""
 video:
   provider: youtube
   id: eDO7baOwcck
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Post-Activation Potentiation"
+  time: "Pause mellem øvelser: 30-60s"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Tungt Løft"
+      detail: "3-5 reps"
+      weight: "85% 1RM"
+      color: "#283593"
+    - label: "Kort Pause"
+      detail: "30-60 sek"
+      weight: "PAP-aktivering"
+      color: "#cbd5e1"
+    - label: "Eksplosiv Øvelse"
+      detail: "5 reps"
+      weight: "Medicinbold/Hop"
+      color: "#d84315"
+  repeat: "Tungt løft direkte til eksplosivt hop/kast"
+  rest: "3 min pause efter parret"
 ---
 
 {{ page.excerpt }}

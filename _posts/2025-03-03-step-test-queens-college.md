@@ -71,8 +71,6 @@ Brug timeren nedenfor til at holde den korrekte kadence under testen. Skærmen h
 
 Når du har målt din puls i 15 sekunder efter testen og ganget tallet med 4, kan du bruge vores beregner herunder til at estimere dit kondital.
 
-{% include calculator/calculate-steptest-queens-college.html %}
-
 {% include calc/steptest.html test="queens" %}
 
 ## Formlen bag beregning af konditallet

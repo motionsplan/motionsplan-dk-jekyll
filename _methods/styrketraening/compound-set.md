@@ -26,6 +26,25 @@ video:
   id: TTFVRdBXUsg
 #  provider: youtube
 #  id: avbzFfVEF_0
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Dobbelt Involvering af Samme Muskel"
+  rir: "0-1"
+  rir_level: "low"
+  type: "strength"
+  sequence:
+    - label: "Øvelse A"
+      detail: "8-10 reps"
+      weight: "Flerledsøvelse"
+      color: "#1565c0"
+    - label: "Øvelse B"
+      detail: "10-12 reps"
+      weight: "Isolationsøvelse"
+      color: "#0288d1"
+  repeat: "2 forskellige øvelser til samme muskel i træk"
+  rest: "2 min pause efter begge øvelser"
 ---
 
 {{ page.excerpt }}

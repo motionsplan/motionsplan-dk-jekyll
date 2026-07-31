@@ -22,6 +22,30 @@ effect: ""
 video:
   provider: youtube
   id: uYdyVtahiWE
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Statisk Styrke & Senevæv"
+  time: "Hold: 5-30 sek"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Excentrisk"
+      detail: "2 sek"
+      weight: "Sænkning"
+      color: "#0288d1"
+    - label: "Isometrisk Hold"
+      detail: "5-10 sek"
+      weight: "Statisk spænding"
+      color: "#d32f2f"
+    - label: "Koncentrisk"
+      detail: "1 sek"
+      weight: "Eksplosiv"
+      color: "#388e3c"
+  repeat: "Statisk spænding i bestemt vinkel"
+  rest: "60-90 sek pause mellem hold"
 ---
 
 {{ page.excerpt }}

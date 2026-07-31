@@ -23,7 +23,7 @@ header:
     - label: "<i class='fas fa-tools'></i> Værktøjer"
       url: "/vaerktoejer/"
     - label: "<i class='fas fa-brain'></i> Psykologiske tests"
-      url: "/psykiske-sundhedstest/"
+      url: "/vuderingsvaerktoejer/"
 breadcrumbs: true
 classes: wide
 feature_row_navigation:
@@ -150,5 +150,5 @@ Forstå hvordan din kropsbygning og antropometri (lårben, armlængde, ryglængd
 Hvis du er på udkig efter konkrete testprotokoller (som *Cooper-test, Bip-test, Wingate eller Agility-tests*), finder du dem i vores dedikerede testkataloger:
 
 * ⏱️ **[Fysisk Testkatalog (Kondition, Løb, Cykling, Styrke)](/tests/)**
-* 🧠 **[Psykologiske Tests & Mentalt Velvære](/psykiske-sundhedstest/)**
+* 🧠 **[Psykologiske Tests & Mentalt Velvære](/vurderingsvaerktoejer/)**
 * 👮 **[Politiets Optagelsesprøve](/politiets-optagelsesproeve/)**

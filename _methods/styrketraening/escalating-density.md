@@ -22,6 +22,30 @@ effect: ""
 video:
   provider: youtube
   id: QrZYVUHGmE4
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Flest Mulige Reps på Tid"
+  time: "Blok: 15-20 min"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Øvelse A1 (Antagonist 1)"
+      detail: "5 reps"
+      weight: "10RM vægt"
+      color: "#1565c0"
+    - label: "Øvelse A2 (Antagonist 2)"
+      detail: "5 reps"
+      weight: "10RM vægt"
+      color: "#2e7d32"
+    - label: "Gentag i 15-20 min"
+      detail: "Submaksimale sæt"
+      weight: "Maks volumen"
+      color: "#f57c00"
+  repeat: "Skift mellem 2 antagonistiske øvelser på tid"
+  rest: "Korte selvvalgte pauser"
 ---
 
 {{ page.excerpt }}

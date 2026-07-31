@@ -1,6 +1,6 @@
 ---
-title: ️Fysiologien bag temperaturregulering af menneskekroppen
-seo_title: ️Fysiologien bag temperaturregulering af menneskekroppen
+title: Fysiologien bag temperaturregulering af menneskekroppen
+seo_title: Fysiologien bag temperaturregulering af menneskekroppen
 permalink: /fysiologi-temperaturregulering/
 description: Temperaturreguleringen hos mennesker er ret unik. Ved at forstå den, så kan du bedre planlægge dine præstationer
   eller lave varmetræning.

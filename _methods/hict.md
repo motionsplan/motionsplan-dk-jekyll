@@ -3,6 +3,7 @@ layout: single
 title: "High Intensity Continuous Training (HICT)"
 permalink: /metode/hict/
 excerpt: "I High Intensity Continous Training (HICT) udfordrer både kadencen og modstanden udholdenheden i fast-twitch muskelfibrene med moderat tærskel (type IIa-muskelfibrene). HICT udføres med høj modstand i langsomt tempo i 5-20 minutter."
+category: Kondition
 tags:
   - conditioning
   - aerob træning
@@ -26,6 +27,25 @@ effect: "Skaber et højt stimulus for at forbedre iltudnyttelsen og forbedre udh
 video:
   provider: youtube
   id: q8zcxiucNkY
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "10-20 minutter"
+  heart_rate: "Lav puls / Høj lokal kraft"
+  rpe: "6-7"
+  type: "interval"
+  sequence:
+    - label: "Tung Rep"
+      duration: "1 rep / 3s"
+      height: "85%"
+      color: "#283593"
+    - label: "Kontinuerligt Tempo"
+      duration: "10-20 min"
+      height: "85%"
+      color: "#1565c0"
+  repeat: "1 langsom, ultra-tung rep hvert 3. sekund (fx stigning/cykel)"
+  rest: "Kontinuerligt arbejde uden pause i 10-20 minutter"
 ---
 
 {{ page.excerpt }}

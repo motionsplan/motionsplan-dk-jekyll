@@ -10,6 +10,7 @@ category:
   - Styrketræning
 tags:
   - træning
+  - test
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
 ---

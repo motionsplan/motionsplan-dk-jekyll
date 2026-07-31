@@ -1,368 +1,162 @@
 ---
 layout: single
-title: Styrketræning - komplet guide til øvelser og programmer
-redirect_from:
-- /styrke/
-seo_title: 'Styrketræning: Øvelser, programmer og tips'
-system:
-- fitnessinstruktør
+title: "Styrketræning: Den komplette guide til øvelser, programmer og teori"
+seo_title: "Styrketræning – Komplelt guide til øvelser, programmer & teknik"
 permalink: /styrketraening/
-excerpt: Bliv stærkere og undgå skader! Få de bedste øvelser, effektive træningsprogrammer og eksperttips til at opbygge muskelstyrke
-  og forbedre din teknik.
-description: Bliv stærkere og undgå skader! Få de bedste øvelser, effektive træningsprogrammer og eksperttips til at opbygge
-  muskelstyrke og forbedre din teknik.
+redirect_from:
+  - /styrke/
+excerpt: "Alt om styrketræning samlet ét sted. Få guides til opbygning af muskelmasse, vælg det rette træningsprogram, lær korrekt øvelsesteknik og brug vores beregnere."
+description: "Den ultimative guide til styrketræning. Find effektive styrketræningsprogrammer, lær korrekt teknik i styrkeøvelser, og forstå træningslæren bag fremgang."
 header:
   overlay_image: /assets/images/unsplash/photo-1526403223670-2aa44aaface2.jpg
   credit: https://images.unsplash.com/photo-1526403223670-2aa44aaface2
   teaser: /assets/images/unsplash/photo-1526403223670-2aa44aaface2.jpg
-  caption: Styrketræning
+  caption: "Styrketræning – fra begynder til erfaren løfter"
   actions:
-  - label: <i class='fas fa-table'></i> Styrketræningsprogrammer
-    url: /styrketraeningsprogrammer/
-author_profile: 'true'
-author: lsolesen
-toc: 'true'
+    - label: "<i class='fas fa-dumbbell'></i> Øvelser"
+      url: "#oevelser"
+    - label: "<i class='fas fa-table'></i> Programmer"
+      url: "/styrketraeningsprogrammer/"
+    - label: "<i class='fas fa-calculator'></i> Beregnere"
+      url: "#beregnere"
+author_profile: true
+toc: true
 category:
-- Træning
+  - Træning
 tag:
-- træningsformer
-breadcrumbs: 'true'
-feature_row_strength:
-- image_path: /assets/images/reponestrength.com/outerglow_hardware-1-370441b7.png
-  credit: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
-  alt: RepOne device
-  url: https://repone-strength.myshopify.com/lars-olesen
-  title: Repone
-  excerpt: RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet
-    med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med.
-  btn_class: btn--info
-  rel: sponsored nofollow noopener
-sidebar:
-  nav: trainingtypes
-feature_row_introduction:
-- image_path: /assets/images/unsplash/photo-1596357395217-80de13130e92.jpg
-  credit: https://images.unsplash.com/photo-1596357395217-80de13130e92
-  alt: 'Guide: Introduktion til styrketræning'
-  title: 'Guide: Introduktion til styrketræning'
-  excerpt: Styrketræning er en fællesbetegnelse for en række øvelser, der bruges til at styrke udøverens muskler. Formålet
-    med styrketræning kan både være stærkere eller få større muskler. Her får du en grundlæggende introduktion til styrketræning.
-  url: /styrketraening/introduktion/
-  btn_label: Grundlæggende guide til styrketræning
-  btn_class: btn--info
-feature_row_beginner_get_started:
-- image_path: /assets/images/unsplash/photo-1643142313816-0d9c86c49f91.jpg
-  credit: https://images.unsplash.com/photo-1643142313816-0d9c86c49f91
-  alt: 'Begynder: Sådan kommer du i gang med styrketræning'
-  title: 'Begynder: Sådan kommer du i gang med styrketræning'
-  excerpt: Hvis du gerne vil i gang med styrketræning, men ikke helt ved, hvordan du skal gribe det an, så er du kommet til
-    det rette sted. Her får du en guide til, hvordan du kommer i gang!
-  url: /styrketraening/begyndere/
-  btn_label: Kom i gang med styrketræning
-  btn_class: btn--info
-feature_row_powerlifting:
-- image_path: /assets/images/unsplash/photo-1534367990512-edbdca781b00.jpg
-  credit: https://images.unsplash.com/photo-1534367990512-edbdca781b00
-  alt: Styrkeløft
-  title: Styrkeløft - bliv stærk i squat, bænk og dødløft
-  excerpt: Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres
-    og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw).
-  url: /styrkeloeft/
-  btn_label: Kom i gang med styrkeløft
-  btn_class: btn--info
-feature_row_good_program:
-- image_path: /assets/images/unsplash/photo-1550345332-09e3ac987658.jpg
-  credit: https://images.unsplash.com/photo-1550345332-09e3ac987658
-  alt: Sådan vælger du dit styrketræningsprogram?
-  title: Sådan vælger du dit styrketræningsprogram
-  excerpt: Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan
-    vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater?
-    Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?
-  url: /vaelg-traeningsprogram/
-  btn_label: Vælg dit styrketræningsprogram
-  btn_class: btn--info
-feature_row_howto_program:
-- image_path: /assets/images/unsplash/photo-1526408984842-5f1323d42469.jpg
-  credit: https://images.unsplash.com/photo-1526408984842-5f1323d42469
-  alt: Hvordan laver jeg mit eget styrketræningsprogram?
-  title: Sådan laver du dit eget styrketræningsprogram
-  excerpt: I denne guide lærer du at sammensætte et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende træningsprincipper,
-    så du kan skabe et program, der er skræddersyet til dine mål og behov.
-  url: /traeningsprogram-programlaegning-styrketraening/
-  btn_label: Lav dit eget styrkeprogram
-  btn_class: btn--info
-feature_row_rm_calculator:
-- image_path: /assets/images/unsplash/photo-1526401485004-46910ecc8e51.jpg
-  credit: https://images.unsplash.com/photo-1526401485004-46910ecc8e51
-  alt: RM-beregner
-  title: RM-beregner
-  excerpt: RM-beregneren hjælper dig med at estimere dit maksimale løft (1RM) baseret på din præstation i en given øvelse.
-    Brug beregneren til at finde ud af, hvor meget du kan løfte i maksimal styrke, og tilpas din træning derefter.
-  url: /rm-beregner/
-  btn_label: Beregn din styrke
-  btn_class: btn--info
-feature_row_okklusion:
-- image_path: /assets/images/occlude/occlusion-training-768.jpg
-  alt: Okklusionstræning
-  title: Okklusionstræning
-  excerpt: Hvis du er blevet skadet og gerne vil sørge for at bibeholde din muskelmasse, så kan du overveje okklusionstræning.
-    Læs lidt mere om det her og spørg din fysioterapeut om gode råd.
-  url: /introduktion-okklusionstraening/
-  btn_label: Læs mere om okklusionstræning
-  btn_class: btn--info
-feature_row_helms:
-- image_path: /assets/images/blog/helms-training-pyramid.jpg
-  alt: Eric Helms Styrketræningspyramide
-  title: Eric Helms Styrketræningspyramide
-  excerpt: Jeg er meget inspireret af [The Muscle & Strength Pyramid](https://muscleandstrengthpyramids.com/), som bl.a. er
-    skrevet af Eric Helms. Eric Helms opstiller i pyramiden, hvad der er det vigtigste i forhold til styrketræning, og hvordan
-    du bør prioritere din indsats.
-  url: /traeningspyramiden-styrketraening/
-  btn_label: Læs introduktion til træningspyramiden
-  btn_class: btn--info
+  - træningsformer
+breadcrumbs: true
 classes: wide
-last_modified_at: '2025-02-20T19:14:14Z'
+
+feature_row_beginner_get_started:
+  - image_path: /assets/images/unsplash/photo-1643142313816-0d9c86c49f91.jpg
+    credit: https://images.unsplash.com/photo-1643142313816-0d9c86c49f91
+    alt: "Begynder: Sådan kommer du i gang med styrketræning"
+    title: "Begynder: Kom godt i gang med styrketræning"
+    excerpt: "Er du ny i fitnesscentret? Få en tryg og struktureret start med vores guide til begyndere. Lær de grundlæggende principper, undgå typiske skader og opbyg en fast vane."
+    url: /styrketraening/begyndere/
+    btn_label: "Læs begynderguiden →"
+    btn_class: btn--success
+
+feature_row_good_program:
+  - image_path: /assets/images/unsplash/photo-1550345332-09e3ac987658.jpg
+    credit: https://images.unsplash.com/photo-1550345332-09e3ac987658
+    alt: "Styrketræningsprogrammer"
+    title: "Styrketræningsprogrammer"
+    excerpt: "Uanset om dit mål er større muskler (hypertrofi), maksimal styrke eller fedttab, er struktureret træning afgørende. Se vores samlede katalog over helkrops- og splitprogrammer."
+    url: /styrketraeningsprogrammer/
+    btn_label: "Find et styrkeprogram →"
+    btn_class: btn--info
+
 feature_row_biomekanik:
-- image_path: /assets/images/blog/biomekanik-squat.jpg
-  alt: Biomekanik i squat - se dig selv som en tændstikmand
-  title: Squat model
-  excerpt: 'I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se,
-    hvordan løftet alt andet lige vil se ud.'
-  url: /squat-biomekanik/
-  btn_label: Prøv det
-  btn_class: btn--primary
-- image_path: /assets/images/blog/biomekanik-benchpress.jpg
-  alt: Biomekanik i bænkpres - forstå kraftoverførsel
-  title: Bænkpres model
-  excerpt: I bænkpres kan du indstille, hvordan du ligger på bænken, og hvordan du gerne vil have stangens bane til at være.
-    Gør det individuelt med din armlængde.
-  url: /baenkpres-biomekanik/
-  btn_label: Prøv det
-  btn_class: btn--primary
-- image_path: /assets/images/blog/biomekanik-doedloeft.jpg
-  alt: Biomekanik i dødløft - den rette løftevinkel
-  title: Dødløft model
-  excerpt: I dødløft kan du indstille en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt
-    dødløft alt andet lige vil se ud.
-  url: /doedloeft-biomekanik/
-  btn_label: Prøv det
-  btn_class: btn--primary
-feature_row_plate_calculator:
-- image_path: /assets/images/blog/plate-weight-calculator.jpg
-  alt: Vægtskiver på stangen
-  title: Hvilke vægtskiver skal på stangen?
-  excerpt: Hvis du ikke gider at lave hovedregning, når du træner, så kan du bruge vores nytte værktøj, der viser dig, hvilke
-    skiver du skal have på stangen, så den vejer det rigtige.
-  url: /skiver/
-  btn_label: Sæt skiver på stangen
-  btn_class: btn--success
+  - image_path: /assets/images/blog/biomekanik-squat.jpg
+    alt: "Biomekanik i squat"
+    title: "Squat Biomekanik"
+    excerpt: "Indtast dine egne kropsmål og se, hvordan din kropsbygning påvirker dit squat."
+    url: /squat-biomekanik/
+    btn_label: "Prøv Squat-modellen"
+    btn_class: btn--primary
+  - image_path: /assets/images/blog/biomekanik-benchpress.jpg
+    alt: "Biomekanik i bænkpres"
+    title: "Bænkpres Biomekanik"
+    excerpt: "Analysér stangens bane og kraftoverførsel ud fra din armlængde."
+    url: /baenkpres-biomekanik/
+    btn_label: "Prøv Bænkpres-modellen"
+    btn_class: btn--primary
+  - image_path: /assets/images/blog/biomekanik-doedloeft.jpg
+    alt: "Biomekanik i dødløft"
+    title: "Dødløft Biomekanik"
+    excerpt: "Se hvordan overkrop og lårben påvirker din rygvinkel i konventionelt dødløft."
+    url: /doedloeft-biomekanik/
+    btn_label: "Prøv Dødløft-modellen"
+    btn_class: btn--primary
+
+feature_row_powerlifting:
+  - image_path: /assets/images/unsplash/photo-1534367990512-edbdca781b00.jpg
+    credit: https://images.unsplash.com/photo-1534367990512-edbdca781b00
+    alt: "Styrkeløft"
+    title: "Styrkeløft – Mål din maksimale styrke"
+    excerpt: "Vil du være så stærk som overhovedet muligt i 'De Tre Store' (squat, bænkpres og dødløft)? Lær om reglerne, teknikken og programmeringen inden for styrkeløft."
+    url: /styrkeloeft/
+    btn_label: "Læs om styrkeløft →"
+    btn_class: btn--warning
 ---
 
-Få mere ud af din styrketræning! Her finder du beregnere, [effektive styrketræningsprogrammer](/styrketraeningsprogrammer/) og dybdegående artikler, der hjælper dig med at opbygge styrke og træne smartere.
+Velkommen til vores samlede portal om **styrketræning**. Styrketræning er en af de mest effektive måder at opbygge muskelmasse, styrke knogler og sener, forbedre kropsholdningen og øge din forbrænding på.
 
-{% include feature_row id="feature_row_introduction" type="left" %}
+Uanset om du aldrig har rørt en vægtstang før, eller om du er en erfaren løfter på udkig efter biomekaniske værktøjer og nye programmer, har vi samlet den nødvendige viden herunder.
 
-## Guides til styrketræning
+---
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "guide" | sort: "date" %}
+## 🟢 1. Begynder: Kom godt i gang
+{: id="begynder" }
 
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Begynder - Sådan kommer du i gang med styrketræning
+Er du ny inden for styrketræning, handler det i starten om at opbygge en god bevægelseskvalitet og vænne kroppen til den øgede belastning. Du behøver ikke komplicerede programmer for at se hurtige resultater.
 
 {% include feature_row id="feature_row_beginner_get_started" type="left" %}
 
-## Træningsprogrammer til styrke
+* 📖 **[Introduktion til Styrketræning](/styrketraening/introduktion/)** – Lær de grundlæggende begreber som sæt, reps, volumen og intensitet.
+* 📈 **[Progressivt Overload](/progressionsmodeller-progressivt-overload/)** – Forstå princippet bag, hvorfor muskler vokser og bliver stærkere over tid.
 
-Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **[gratis træningsprogram til styrketræning](/styrketraeningsprogrammer/)** her på siden. Men hvordan vælger du det rigtige program?
+---
+
+## 🏋️‍♂️ 2. Øvelser & Muskelgrupper
+{: id="oevelser" }
+
+Et godt styrketræningspas bygges op omkring store basisøvelser suppleret med isolationsøvelser for specifikke muskelgrupper.
+
+<div class="notice--info" markdown="1">
+### 🎯 Udforsk vores øvelsesbibliotek opdelt efter muskelgruppe:
+* 🦵 **[Benøvelser & Lår](/benoevelser/)** – Squat, lunge-varianter og leg press.
+* 🍑 **[Baldeøvelser](/balleoevelser/)** – Hip thrust, glute bridge og dødløft.
+* 🪵 **[Rygøvelser](/rygoevelser/)** – Rows, pull-ups, lat pulldown og dødløft.
+* 🛡️ **[Brystøvelser](/brystoevelser/)** – Bænkpres, dumbskilt pres og push-ups.
+* 🦾 **[Armøvelser (Biceps & Triceps)](/arme-triceps-biceps/)** – Curls, dips og triceps extension.
+* 🏋️ **[Skulderøvelser](/skulderoevelser/)** – Military press og side raises.
+* 🧱 **[Maveøvelser & Core](/maveoevelser/)** – Planken, kabel-crunches og core-stabilitet.
+
+👉 **[Se det samlede katalog over styrketræningsøvelser »](/styrketraeningsoevelser/){: .btn .btn--info }**
+</div>
+
+---
+
+## 📋 3. Styrketræningsprogrammer
+{: id="programmer" }
+
+Resultater kommer med kontinuitet. I stedet for at improvisere din træning fra gang til gang, anbefaler vi at følge et struktureret program tilpasset dit niveau:
 
 {% include feature_row id="feature_row_good_program" type="left" %}
 
-## Populære styrketræningsprogrammer
+* 🧩 **[Helkropsprogrammer (Fullbody)](/styrketraening/helkropsprogrammer/)** – Træn hele kroppen 2–3 gange om ugen (ideelt til begyndere og travle hverdage).
+* 🔀 **[Splitprogrammer](/styrketraening/split-programmer/)** – Opdel kroppen på 2-split eller 3-split (ideelt til øvede, der træner 3–5 gange om ugen).
+* 📝 **[Sådan opbygger du dit eget program](/traeningsprogram-programlaegning-styrketraening/)** – Lær at sammensætte volumen og øvelsesvalg selv.
 
-{% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | where: "tags", "populær" | sort: "date" %}
+---
 
-<div class="feature__wrapper" markdown="1">
+## 🧮 4. Biomekanik, Beregnere & Værktøjer
+{: id="beregnere" }
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
+Forstå fysikken og matematikken bag dine løft for at optimere din løfteteknik og planlægge vægtene på stangen.
 
-[Se alle styrketræningsprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Sådan laver du dit eget styrketræningsprogram
-
-{% include feature_row id="feature_row_howto_program" type="left" %}
-
-## Endnu mere om programlægning til styrketræning
-
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "programlægning" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-{% comment %}
-
-## Styrketræning begynder
-
-Styrketræning kan være en rigtig god træningsaktivitet. Vi har skrevet en del indlæg, der henvender sig til begyndere i styrketræning.
-
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "begynder" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-{% endcomment %}
-
-## Styr på øvelserne
-
-Styrketræning består typisk af en række forskellige øvelser. Vi har samlet de bedste træningsøvelser med forklaringer her på siden.
-
-Du kan finde [maveøvelser](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [brystøvelser](/brystoevelser/), [baldeøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/), [skulderøvelser](/skulderoevelser/), så har vi lavet en selvstændig side om de muskelgrupper.
-
-<div class="feature__wrapper" markdown="1">
-
-{% assign site_posts = site.exercises | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle styrketræningsøvelser](/styrketraeningsoevelser/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Biomekanik - dig selv som tændstikmand
-
-På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv som en tændstikmand med forskellige teknikvalg, mens du er i gang med at løfte et af dine favoritløft. Måske kan du endda slå en PR på papiret.
+### Interactive Biomekanik-modeller
+Test hvordan dine kropsproportioner (lårben, overkrop, armlængde) påvirker din optimale løftevinkel:
 
 {% include feature_row id="feature_row_biomekanik" %}
 
-## Test dig selv
+### Styrkeberegnere & Nytteværktøjer
+* 🧮 **[1RM Beregner](/rm-beregner/)** – Estimer dit maksimale løft (1 Rep Max) ud fra dine arbejdesæt.
+* 🏋️‍♀️ **[Vægtskive-beregner](/skiver/)** – Find hurtigt ud af, hvilke skiver du skal sætte på stangen.
+* 📊 **[Træningspyramiden (Eric Helms)](/traeningspyramiden-styrketraening/)** – Se hvordan du skal prioritere kontinuitet, volumen, intensitet og restitution.
 
-{% include feature_row id="feature_row_rm_calculator" type="left" %}
+---
 
-## Flere tests til styrketræning
+## 🏆 5. Specialiserede Træningsformer
+{: id="specialer" }
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "test" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Sæt de rigtige vægtskiver på stangen
-
-{% include feature_row id="feature_row_plate_calculator" type="left" %}
-
-## Beregnere til styrketræning
-
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "beregner" | sort: "last_modified_at" | reverse %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Prøv styrkeløft - og bliv rigtig stærk
+Vil du fordybe dig i en specifik niche inden for styrketræning?
 
 {% include feature_row id="feature_row_powerlifting" type="left" %}
 
-{% comment %}
-Lav måske denne om til støttetræning 
-{% endcomment %}
-
-## Styrketræning for løbere
-
-{% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "løb" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Okklusionstræning
-
-{% include feature_row id="feature_row_okklusion" type="left" %}
-
-## Træningspyramiden
-
-{% include feature_row id="feature_row_helms" type="left" %}
-
-## Udstyr til styrketræning
-
-Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
-
-{% include feature_row type="left" id="feature_row_strength" %}
-
-## Guides til udstyr til styrke
-
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "udstyr" | sort: "last_modified_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Mere udstyr til styrketræning](/styrketraening-udstyr/){: .btn .btn--info .btn--center }
-
-</div>
-
-## Læs meget mere om styrketræning
-
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | sort: "last_modified_at" | reverse %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
+* 🩸 **[Okklusionstræning](/introduktion-okklusionstraening/)** – Træn med lav belastning og afklemning ved genoptræning eller skader.
+* ⚡ **[Velocity Based Training (VBT)](/vbt/)** – Mål stangens hastighed for at styre intensiteten i dine løft.
+* 🏃 **[Styrketræning for Løbere](/styrketraening-til-loeb/)** – Styrk sener og muskler til at modstå stød og forbedre din løbeøkonomi.

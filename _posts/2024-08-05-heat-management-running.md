@@ -1,6 +1,6 @@
 ---
-title: ️Varmehåndtering på løb
-seo_title: ️Varmehåndtering i løb [Beregner]
+title: Varmehåndtering på løb
+seo_title: Varmehåndtering i løb [Beregner]
 permalink: /varme-management-loeb/
 description: Når det er varmt, men du stadig gerne vil løbe enten som træning eller konkurrence, så er det godt at vide, hvordan
   du kan håndtere varmen.

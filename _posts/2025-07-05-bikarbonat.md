@@ -1,10 +1,8 @@
 ---
 title: Bikarbonat som kosttilskud for din præstation
 seo_title: Bikarbonat som kosttilskud for din præstation
-description: Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får
-  større muskler.
-excerpt: Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får større
-  muskler.
+description: Bikarbonat (HCO₃⁻) er en naturlig base i kroppen, hvor det blandt andet fungerer som buffer i blodbanen og hjælper med at opretholde syre-base-balancen.
+excerpt: Bikarbonat (HCO₃⁻) er en naturlig base i kroppen, hvor det blandt andet fungerer som buffer i blodbanen og hjælper med at opretholde syre-base-balancen.
 permalink: /bikarbonat/
 language: da
 header:

@@ -23,6 +23,29 @@ effect: ""
 video:
   provider: youtube
   id: _QXIVNjdDO4
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Overvindelse af Stikpunkt"
+  rir: "0-1"
+  rir_level: "low"
+  type: "strength"
+  sequence:
+    - label: "Fase 1 (Partiel)"
+      detail: "5-7 reps"
+      weight: "Bund / Svag vinkel"
+      color: "#e65100"
+    - label: "Fase 2 (Partiel)"
+      detail: "5-7 reps"
+      weight: "Top / Stærk vinkel"
+      color: "#f57c00"
+    - label: "Fase 3 (Fuld ROM)"
+      detail: "5-7 reps"
+      weight: "Fuld bevægelse"
+      color: "#2e7d32"
+  repeat: "Delvist bevægelsesudslag (top/bund)"
+  rest: "2 min pause"
 ---
 
 {{ page.excerpt }}

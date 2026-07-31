@@ -88,8 +88,6 @@ I vores RM-beregner kan du indtaste en vægt du har løftet et antal gange, og s
 
 Indtast hvor mange kg du kan løfte og antallet af gentagelser og vælg en formel, så giver 1RM-beregneren dig din 1-10 RM baseret på formlen. **Bonus!**: Du får også et gennemsnit af resultatet fra alle [RM-formlerne](/1rm-formler/).
 
-{% include calculator/calculate-1rm.html %}
-
 {% include calc/1rm.html %}
 
 ## Hvad er en RM-beregner?

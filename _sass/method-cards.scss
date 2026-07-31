@@ -1,0 +1,370 @@
+/* ==========================================================================
+   METODE-KORT (Method Cards) - Motionsplan.dk
+   ========================================================================== */
+
+/* 1. Grid Wrapper (Brug denne klasse omkring kortene på hub-siden) */
+.method-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  margin: 2rem 0;
+}
+
+/* 2. Hovedkort Container */
+.method-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+}
+
+.method-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* 3. Header & QR-kode */
+.method-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 2px solid #f1f5f9;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.method-card__title-group {
+  flex: 1;
+  padding-right: 12px;
+}
+
+.method-card__category {
+  display: inline-block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #64748b;
+  letter-spacing: 0.5px;
+}
+
+.method-card__title {
+  margin: 2px 0 0 0;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.2;
+}
+
+.method-card__qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f8fafc;
+  padding: 4px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.method-card__qr img {
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+
+.method-card__qr span {
+  font-size: 0.55rem;
+  font-weight: 800;
+  color: #475569;
+  margin-top: 2px;
+  letter-spacing: 0.3px;
+}
+
+/* 4. Badges (Tid, Puls, RPE, RIR) */
+.method-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.badge {
+  background: #f1f5f9;
+  color: #334155;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+
+.badge--rpe {
+  background: #fff7ed;
+  color: #c2410c;
+  border: 1px solid #ffedd5;
+}
+
+/* 5. Visuel Sektion (Container til grafer og sekvenser) */
+.method-card__visual {
+  background: #f8fafc;
+  border: 1px solid #f1f5f9;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 14px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 5a. KONDITION: Interval-søjler */
+.interval-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  height: 100px;
+  padding-top: 15px;
+  border-bottom: 2px solid #cbd5e1;
+  margin-bottom: 8px;
+}
+
+.interval-bar {
+  flex: 1;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 2px;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  min-width: 0; /* Hindrer teksten i at trykke kassen */
+}
+
+.interval-bar__label {
+  font-size: 0.68rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.interval-bar__duration {
+  font-size: 0.75rem;
+}
+
+/* 5b. STYRKE: Sekvens-linjer */
+.strength-sequence {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.strength-step {
+  background: #ffffff;
+  padding: 8px 12px;
+  border-radius: 0 6px 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.82rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.strength-step__label {
+  color: #475569;
+  font-weight: 600;
+}
+
+.strength-step__detail {
+  color: #0f172a;
+}
+
+.strength-step__detail strong {
+  font-weight: 700;
+}
+
+/* Meta-tekst under grafikken (F.eks. pause og gentagelser) */
+.method-card__meta-text {
+  font-size: 0.82rem;
+  text-align: center;
+  color: #475569;
+  margin-top: 6px;
+  line-height: 1.3;
+}
+
+/* 6. Footer (Branding & Links) */
+.method-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.78rem;
+  padding-top: 10px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.brand {
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.method-card__link {
+  font-weight: 700;
+  color: #16a34a;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.method-card__link:hover {
+  color: #15803d;
+  text-decoration: underline;
+}
+
+.method-card__badge-quick {
+  color: #94a3b8;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+/* ==========================================================================
+   ILLUSTRATIONER & DYNAMISKE BADGES
+   ========================================================================== */
+
+/* 1. PNG / SVG Illustration Container */
+.method-card__illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  min-height: 140px;
+}
+
+.method-card__illustration img {
+  max-height: 160px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* 2. RIR BATTERI BADGE */
+.badge-battery {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f1f5f9;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border: 1px solid #e2e8f0;
+}
+
+.badge-battery__label {
+  color: #475569;
+}
+
+/* Selve Batteri-kroppen med den lille pol på højre side */
+.badge-battery__body {
+  width: 32px;
+  height: 14px;
+  border: 2px solid #1e293b;
+  border-radius: 3px;
+  padding: 1px;
+  position: relative;
+  background: #ffffff;
+}
+
+.badge-battery__body::after {
+  content: '';
+  position: absolute;
+  right: -4px;
+  top: 3px;
+  width: 2px;
+  height: 4px;
+  background: #1e293b;
+  border-radius: 0 1px 1px 0;
+}
+
+/* Fyld i batteriet */
+.badge-battery__fill {
+  height: 100%;
+  border-radius: 1px;
+  transition: width 0.3s ease;
+}
+
+/* Forskellige RIR niveauer (Farvekoder) */
+.badge-battery__fill--low {
+  width: 25%;
+  background: #ef4444; /* Rød: 0-1 RIR (Meget hårdt) */
+}
+
+.badge-battery__fill--medium {
+  width: 60%;
+  background: #f59e0b; /* Gul/Orange: 1-3 RIR */
+}
+
+.badge-battery__fill--high {
+  width: 90%;
+  background: #10b981; /* Grøn: 3+ RIR */
+}
+
+.badge-battery__val {
+  color: #0f172a;
+}
+
+/* 3. SPEEDOMETER BADGE */
+.badge-speedometer {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #fef3c7;
+  color: #92400e;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border: 1px solid #fde68a;
+}
+
+/* 1. Tving kortet til aldrig at blive bredere end sin grid-celle */
+.method-card {
+  width: 100%;
+  box-sizing: border-box;
+  min-width: 0; /* VIGTIG: Forhindrer flex-børn i at skubbe kortets bredde ud */
+}
+
+/* 2. Tillad styrke-trinene at håndtere lang tekst pænt */
+.strength-sequence {
+  min-width: 0;
+}
+
+.strength-step {
+  min-width: 0;
+}
+
+.strength-step__detail {
+  text-align: right;
+  word-break: break-word; /* Ombryder lange tekststrenge hvis nødvendigt */
+}
+
+/* 3. (Valgfrit) Gør styrkestrinene ekstra responsive på helt små skærme */
+@media (max-width: 480px) {
+  .strength-step {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  
+  .strength-step__detail {
+    text-align: left;
+  }
+}

@@ -128,7 +128,7 @@ De fleste kommercielle sportsdrikke og gels følger et **2:1- eller 1:0,8-forhol
 
 **Vil du læse mere om ernæring og præstation?**
 
-Tjek vores artikler om [bikarbonat som kosttilskud](/bikarbonat-kosttilskud) og [strategier til præstationsoptimering](/strategier-praestationsoptimering/).
+Tjek vores artikler om [bikarbonat som kosttilskud](/bikarbonat-kosttilskud) og [strategier til præstationsoptimering](/traeningslaere/).
 
 ## Ofte stilledes spørgsmål
 

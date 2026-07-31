@@ -39,7 +39,7 @@ feature_row_spreadsheet:
     rel: nofollow noopener
     btn_label: <i class='fas fa-file-excel'></i> Sheet med forslag til forsøg
     btn_class: btn--success
-quiz:
+flashcards:
   - question: Hvor langt skal man ned i squat for at få godkendt løftet?
     question-attachment: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
     credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
@@ -190,7 +190,7 @@ Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig 
 
 ## Quiz om regler for styrkeløft
 
-{% include motionsplan/orbit.html cards=page.quiz %}
+{% include motionsplan/orbit.html cards=page.flashcards %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

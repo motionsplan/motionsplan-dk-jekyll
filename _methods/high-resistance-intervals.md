@@ -6,6 +6,7 @@ excerpt: "High Resistance Intervals (HRI) er intervaller med høj modstand udfø
 tags:
   - conditioning
   - anaerob træning
+category: Kondition
 header:
   teaser: /assets/images/kondition/high-resistance-intervals.jpg
 rpe: 6-7
@@ -26,6 +27,25 @@ effect: "Forbedrer de aerobe egenskaber for de hurtige fast-twitch muskelfibre, 
 video:
   provider: youtube
   id: OtDHzC6KV3A
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "10-15 minutter"
+  heart_rate: "Maksimal lokal belastning"
+  rpe: "9-10"
+  type: "interval"
+  sequence:
+    - label: "Tung Bakke / Wattbike"
+      duration: "10-12s"
+      height: "95%"
+      color: "#bf360c"
+    - label: "Aktiv Pause"
+      duration: "60s"
+      height: "25%"
+      color: "#81c784"
+  repeat: "10-12s tunge bakkesprints eller wattbike på tung modstand"
+  rest: "60-90 sek aktiv restitution"
 ---
 
 {{ page.excerpt }}

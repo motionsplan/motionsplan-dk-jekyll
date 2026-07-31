@@ -135,8 +135,6 @@ Hvis du fx arbejder og bruger 2 L O₂/min, og min R-værdi er 0,85, så forbræ
 
 ## Beregn dit energiforbrug ud fra VO2 og R
 
-{% include calculator/calculate-rer.html %}
-
 {% include calc/vo2-rer-calculator.html rer_mode="vco2" title="🔬 Energiforbrug (VCO₂ / VO₂)" %}
 
 ## Konklusion

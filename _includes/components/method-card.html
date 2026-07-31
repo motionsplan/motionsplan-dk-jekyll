@@ -1,0 +1,117 @@
+{% assign card = include.method.card_data %}
+
+{% comment %} 
+  Bestem om der skal linkes til en fuld artikel, og hvad URL'en er:
+  - false: Ingen link (Hurtigt opslag)
+  - true: Linker til metodens egen side (include.method.url)
+  - "/stiksti/": Linker til en specifik artikel-URL
+{% endcomment %}
+{% assign target_url = nil %}
+{% assign article_val = include.method.full_article | default: include.method.has_full_article %}
+
+{% if article_val == true %}
+  {% assign target_url = include.method.url %}
+{% elsif article_val and article_val != false %}
+  {% assign target_url = article_val %}
+{% endif %}
+
+<div class="method-card">
+  <!-- 1. Header & QR-kode -->
+  <div class="method-card__header">
+    <div class="method-card__title-group">
+      <span class="method-card__category">
+        {{ include.method.category }}
+        {% if include.method.subcategory %} – {{ include.method.subcategory }}{% endif %}
+      </span>
+      <h3 class="method-card__title">{{ include.method.title }}</h3>
+    </div>
+    
+    {% if target_url %}
+    <div class="method-card__qr">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=50x50&amp;data=https://www.motionsplan.dk{{ target_url }}" alt="QR kode til {{ include.method.title | escape }}" />
+      <span>LÆS MERE</span>
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- 2. Badges (Tid, Muskel/Formål, RIR-Batteri / RPE-Gauge) -->
+  <div class="method-card__badges">
+    {% if card.time %}
+      <div class="badge">⏱️ {{ card.time }}</div>
+    {% endif %}
+
+    {% if card.target %}
+      <div class="badge">💪 {{ card.target }}</div>
+    {% endif %}
+
+    <!-- RIR BATTERI (Visuelt batteri til styrke) -->
+    {% if card.rir %}
+      <div class="badge-battery">
+        <span class="badge-battery__label">RIR</span>
+        <div class="badge-battery__body">
+          <div class="badge-battery__fill badge-battery__fill--{{ card.rir_level | default: 'medium' }}"></div>
+        </div>
+        <span class="badge-battery__val">{{ card.rir }}</span>
+      </div>
+    {% endif %}
+
+    <!-- RPE SPEEDOMETER (Visuelt speedometer til kondition) -->
+    {% if card.rpe %}
+      <div class="badge-speedometer">
+        <span class="badge-speedometer__icon">🧭</span>
+        <span class="badge-speedometer__val">RPE {{ card.rpe }}</span>
+      </div>
+    {% endif %}
+  </div>
+
+  <!-- 3. Visuel Grafik (Billede ELLER CSS-sekvens) -->
+  <div class="method-card__visual">
+    {% if card.image %}
+      <!-- DINE GOOGLE SLIDE PNG/SVG ILLUSTRATIONER -->
+      <div class="method-card__illustration">
+        <img src="{{ card.image }}" alt="Illustration af {{ include.method.title | escape }}" />
+      </div>
+
+    {% elsif card.type == "interval" %}
+      <!-- KONDITION SØJLER (CSS Fallback) -->
+      <div class="interval-bars">
+        {% for step in card.sequence %}
+          <div class="interval-bar" style="height: {{ step.height }}; background-color: {{ step.color }};">
+            <span class="interval-bar__label">{{ step.label }}</span>
+            <span class="interval-bar__duration">{{ step.duration }}</span>
+          </div>
+        {% endfor %}
+      </div>
+
+    {% elsif card.type == "strength" %}
+      <!-- STYRKE SEKVENS (CSS Fallback) -->
+      <div class="strength-sequence">
+        {% for step in card.sequence %}
+          <div class="strength-step" style="border-left: 4px solid {{ step.color }};">
+            <span class="strength-step__label">{{ step.label }}</span>
+            <span class="strength-step__detail">
+              {% if step.detail %}<strong>{{ step.detail }}</strong>{% endif %}
+              {% if step.weight %}({{ step.weight }}){% endif %}
+            </span>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- Meta-tekst i bunden af illustrationen -->
+    <div class="method-card__meta-text">
+      {% if card.repeat %}<strong>{{ card.repeat }}</strong>{% endif %}
+      {% if card.rest %}<span> — {{ card.rest }}</span>{% endif %}
+    </div>
+  </div>
+
+  <!-- 4. Footer -->
+  <div class="method-card__footer">
+    <span class="brand">www.motionsplan.dk</span>
+    {% if target_url %}
+      <a href="{{ target_url }}" class="method-card__link">Læs dybdegående guide →</a>
+    {% else %}
+      <span class="method-card__badge-quick">Hurtigt opslag</span>
+    {% endif %}
+  </div>
+</div>

@@ -80,8 +80,6 @@ Resultatet er en gennemsnitsberegning for personer med samme køn, alder, vægt 
 
 ## BMR beregner
 
-{% include calculator/calculate-stofskifte.html %}
-
 {% include calc/bmr-calculator.html 
   title="Hvilestofskifteberegner (BMR)"
   description="Beregn dit hvilestofskifte (BMR) på baggrund af din højde, alder og køn med anerkendte formler."

@@ -20,6 +20,29 @@ effect: ""
 video:
   provider: youtube
   id: DzJORrVlono
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Maksimal Styrke + Ekstra Volumen"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Tungt Topsæt"
+      detail: "3-5 reps"
+      weight: "85-90% 1RM"
+      color: "#b71c1c"
+    - label: "Pause"
+      detail: "3 min"
+      weight: "Restitution"
+      color: "#cbd5e1"
+    - label: "Backoff Sæt 1-3"
+      detail: "8-10 reps"
+      weight: "70% 1RM (-15-20%)"
+      color: "#1976d2"
+  repeat: "1 tungt topsæt -> Sænk vægten 10-20% for 2-3 volumentsæt"
+  rest: "2-3 min pause"
 ---
 
 {{ page.excerpt }}

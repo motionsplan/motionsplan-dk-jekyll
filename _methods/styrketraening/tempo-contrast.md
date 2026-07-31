@@ -22,6 +22,33 @@ effect: ""
 video:
   provider: youtube
   id: eDO7baOwcck
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Skift Mellem Langsom & Eksplosiv Rep"
+  rir: "1-2"
+  rir_level: "medium"
+  type: "strength"
+  sequence:
+    - label: "Rep 1 (Langsom)"
+      detail: "5 sek excentrisk"
+      weight: "Høj TUT"
+      color: "#0097a7"
+    - label: "Rep 2 (Eksplosiv)"
+      detail: "Maksimal fart"
+      weight: "Power"
+      color: "#d84315"
+    - label: "Rep 3 (Langsom)"
+      detail: "5 sek excentrisk"
+      weight: "Høj TUT"
+      color: "#0097a7"
+    - label: "Rep 4 (Eksplosiv)"
+      detail: "Maksimal fart"
+      weight: "Power"
+      color: "#d84315"
+  repeat: "Veksl mellem 4s langsom og 1s eksplosiv"
+  rest: "2 min pause"
 ---
 
 {{ page.excerpt }}

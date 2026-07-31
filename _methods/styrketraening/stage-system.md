@@ -22,6 +22,29 @@ effect: ""
 video:
   provider: youtube
   id: W2UKFibTudg
+has_full_article: false
+sitemap: false
+
+card_data:
+  target: "Opdelt Bevægelsesområde"
+  rir: "0-1"
+  rir_level: "low"
+  type: "strength"
+  sequence:
+    - label: "Trin 1 (Nedre halvdel)"
+      detail: "5-7 reps"
+      weight: "Partiel ROM"
+      color: "#0288d1"
+    - label: "Trin 2 (Øvre halvdel)"
+      detail: "5-7 reps"
+      weight: "Partiel ROM"
+      color: "#0097a7"
+    - label: "Trin 3 (Fuld ROM)"
+      detail: "5-7 reps"
+      weight: "Fuld bevægelse"
+      color: "#2e7d32"
+  repeat: "Kør bund-fase -> top-fase -> fuld ROM"
+  rest: "2 min pause"
 ---
 
 {{ page.excerpt }}

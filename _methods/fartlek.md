@@ -23,6 +23,33 @@ effect: ""
 video:
   provider:
   id:
+has_full_article: false
+sitemap: false
+
+card_data:
+  time: "20-40 minutter"
+  heart_rate: "70-95% HRmax"
+  rpe: "6-9"
+  type: "interval"
+  sequence:
+    - label: "Lunt"
+      duration: "2 min"
+      height: "50%"
+      color: "#4caf50"
+    - label: "Rykind / Bakke"
+      duration: "45s"
+      height: "90%"
+      color: "#d32f2f"
+    - label: "Jogg"
+      duration: "90s"
+      height: "40%"
+      color: "#81c784"
+    - label: "Spurt"
+      duration: "20s"
+      height: "100%"
+      color: "#b71c1c"
+  repeat: "Skiftende rykind i terrænet efter lyst/bakker"
+  rest: "Aktiv luntepause efter mavefornemmelse"
 ---
 
 {{ page.excerpt }}

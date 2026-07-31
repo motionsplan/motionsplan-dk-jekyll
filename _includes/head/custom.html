@@ -21,3 +21,16 @@
   })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
   sender('b7b3f25e1d2425')
 </script>
+
+{% comment %}Redirect guard for methods{% endcomment %}
+{% if page.has_full_article == false %}
+  <!-- 1. Fortæl Google at siden IKKE skal indekseres (Ingen thin content straf) -->
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="/traeningsmetoder/" />
+
+  <!-- 2. Send almindelige besøgende direkte over til Hub-siden -->
+  <meta http-equiv="refresh" content="0;url=/traeningsmetoder/">
+  <script>
+    window.location.replace("/traeningsmetoder/");
+  </script>
+{% endif %}
