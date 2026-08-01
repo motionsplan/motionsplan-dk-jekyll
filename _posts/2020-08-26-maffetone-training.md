@@ -38,6 +38,9 @@ Læs videre for at lære, hvordan du beregner din MAF-puls og implementerer meto
 
 [<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
+**Lavintensiv løbetræning:** Maffetone-metoden handler om at opbygge et stærkt aerobt fundament. Vil du se, hvordan metoden passer ind i en samlet opbygning, kan du læse vores hovedguide om [løbetræning](/loebesiden/).
+{: .notice--info}
+
 ## Find din maksimale aerobe puls
 
 Phil Maffetone har ifølge [uphillathlete.com](https://uphillathlete.com/aerobic-anaerobic-threshold-self-assessment/) forslået følgende formel til at finde den **aerobe tærskel**.

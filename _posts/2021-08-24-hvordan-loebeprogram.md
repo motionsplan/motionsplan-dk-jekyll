@@ -35,6 +35,9 @@ I denne guide gennemgår vi 5 enkle trin, der hjælper dig med at planlægge din
 
 [Bonus: Få GRATIS løbeprogram nu »](/loebeprogrammer/){: .btn--lead }
 
+**Leder du efter et konkret program?** Dette er vores teoretiske guide til, hvordan et program opbygges. Hvis du bare vil have en klar plan fra dag 1, kan du hoppe direkte til vores [løbeprogram for begyndere](/loebeprogram-begyndere/). Du kan også se den samlede oversigt over [løbetræning](/loebesiden/).
+{: .notice--info}
+
 ## Sådan laver du dit eget løbeprogram
 
 Når du skal lave et løbeprogram, så er der flere faktorer, du kan tage hensyn til. Hvis du vil lave et alsidigt effektivt program til løb, så kan det være godt at tænke forskellige træningskategorier ind i træningen.

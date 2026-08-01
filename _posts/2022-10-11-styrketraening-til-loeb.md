@@ -24,7 +24,7 @@ last_modified_at: '2024-02-04T07:14:14Z'
 
 Skal du lave styrketræning, hvis du gerne vil være en bedre løber? Kan det betale sig at styrketræne for at komme til at løbe hurtigere?
 
-Du kan finde masser af gode råd til, hvordan du [kombinerer styrketræning og løb](/artikel/bedste-kombination-af-loeb-og-styrketraening/), men her kigger vi udelukkende på, hvordan du kan styrketræne for at forbedre dit løb.
+Du kan finde masser af gode råd til, hvordan du [kombinerer styrketræning og løb](/artikel/bedste-kombination-af-loeb-og-styrketraening/), men her kigger vi udelukkende på, hvordan du kan styrketræne for at forbedre dit løb. Du kan også tjekke vores [guide til løbetræning](/loebesiden/).
 
 Lad os dykke direkte ned i det.
 
