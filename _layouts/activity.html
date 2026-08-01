@@ -108,28 +108,31 @@ layout: default
           </div>
         {% endif %}
 
-        {{ content }}
+        {% comment %} Instruktions-tjek (udskrives kun hvis det ikke står i content OG ikke er identisk med excerpt) {% endcomment %}
+        {% if page.instructions %}
+          {% assign instructions_clean = page.instructions | strip_html | strip %}
+          {% assign excerpt_clean = page.excerpt | strip_html | strip %}
+
+          {% if instructions_clean != excerpt_clean %}
+            {% unless content contains page.instructions %}
+              <div class="archive__item-teaser-lead">
+                {{ page.instructions | markdownify }}
+              </div>
+            {% endunless %}
+          {% endif %}
+        {% endif %}
 
         {% if page.gallery.size > 0 %}
           {% include gallery id="gallery" %}
         {% endif %}
 
+        {{ content }}
+
         {% if page.alternative_titles != blank and page.alternative_titles.size > 0 %}
           <p class="notice"><strong>Alternative navne:</strong> {{ page.alternative_titles | join: ", " }}</p>
         {% endif %}
 
-        {% comment %} Tjek for PDF-download {% endcomment %}
-        {% capture pdf_filename %}{{ page.path | replace: "_exercises/", "" | replace: ".md", "" }}.pdf{% endcapture %}
-        {% capture pdf_path %}/assets/pdf/exercises/{{ pdf_filename }}{% endcapture %}
-        {% assign file_exists = site.static_files | where: "path", pdf_path %}
-
-        {% if file_exists.size > 0 %}
-          <div style="margin: 1.5em 0;">
-            <a href="{{ pdf_path | relative_url }}" rel="nofollow" class="btn btn--danger btn--large">
-              <i class="far fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].pdf_label | default: "Download PDF" }}
-            </a>
-          </div>
-        {% endif %}
+        {% include components/exercise-pdf-card.html %}
 
         {% if page.link %}
           <div style="margin-top: 1em;">

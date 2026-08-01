@@ -81,6 +81,13 @@ Velkommen til **Løbesiden** – vores samlede portal om løb og løbetræning. 
 
 ---
 
+### Start her: Find det du mangler
+* **Ny løber?** Læs vores teori og guide til [løb for begyndere](/artikel/kom-i-gang-med-loebetraeningen/).
+* **Klar til en plan?** Følg vores [løbeprogram for begyndere](/loebeprogram-begyndere/).
+* **Vil du nørde strukturen?** Læs om de vigtigste [træningsprincipper og progression i løb](/traeningsprincipper-loeb/).
+
+---
+
 ## 🟢 1. Kom godt i gang med løbetræningen
 {: id="begynder" }
 

@@ -1,8 +1,7 @@
 ---
-title: 'Løbeprogram for begyndere: Kom i gang med løbetræningen'
-seo_title: 'Løbeprogram for nybegyndere: Løbetræning for begyndere'
-description: Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere,
-  der gerne vil i gang med løbetræning.
+title: "Løbeprogram for begyndere (Fra 0 til 5 km)"
+seo_title: "Løbeprogram begynder: Kom i form med vores gratis løbeprogram"
+description: "Trænger du til struktur? Brug vores gratis løbeprogram for begyndere. Følg planen uge for uge og kom sikkert og skadefrit i gang med at løbe."
 permalink: /loebeprogram-begyndere/
 language: da
 header:
@@ -36,6 +35,9 @@ breadcrumbs: 'true'
 Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med løbetræningen.
 
 Løbeprogrammet varer 16 uger og er meget overskueligt og enkelt.
+
+**Mangler du teori, inden du starter programmet?** Dette er en praktisk plan. Hvis du er helt grøn og vil have gode råd til udstyr og motivation, så læs vores guide til [løb for begyndere](/artikel/kom-i-gang-med-loebetraeningen/) først. Du kan også dykke ned i alle vores artikler om [løbetræning her](/loebesiden/).
+{: .notice--info}
 
 Programmet tager højde for, at du skal bygge træningen langsomt op. Vi bruger altså træningsprincippet **progressivt overload**, så du får en god oplevelse af at komme i gang med at løbe uden at blive skadet.
 

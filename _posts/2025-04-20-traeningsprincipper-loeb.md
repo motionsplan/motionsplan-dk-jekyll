@@ -84,6 +84,9 @@ I denne artikel dykker vi ned i de 4 grundlæggende træningsprincipper: specifi
 
 De forskellige træningsprincipper til løb bliver brugt på forskellige måder i [forskellige tilgange til løbetræningen](/traeningsfilosofier-loeb/).
 
+**Læs mere om løbetræning:** Træningsprincipper og progression er fundamentet for at undgå skader. Vil du have det fulde overblik over alle aspekter af løb, så besøg vores hovedside dedikeret til [løbetræning](/loebesiden/).
+{: .notice--info}
+
 {% include figure image_path="https://images.unsplash.com/photo-1734574226134-9f0f07e62407?q=60&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" %}
 
 ***

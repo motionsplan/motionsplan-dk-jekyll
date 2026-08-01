@@ -7,6 +7,7 @@ permalink: /artikel/de-fem-tibetanere/
 redirect_from:
   - /2009-07-01-de-fem-tibetanere/
   - /artikel/de-fem-tibetanere/historie/
+  - /program/de-fem-tibetanere/
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1599901860904-17e6ed7083a0.jpg
@@ -63,6 +64,22 @@ faq:
   - question: Findes der forskning om de fem tibetanere?
     answer: Der findes ikke direkte kliniske forsøg på det samlede program med de 5 tibetanere. Men forskningen i de enkelte elementer (Hatha Yoga, vestibulær balancetræning, kropstammestyrke og kontrolleret vejrtrækning) dokumenterer klare fordele som forbedret smidighed, lavere stressniveau og bedre balance.
 toc_sticky: 'true'
+workout:
+  - name: "Rite 1: Drej rundt"
+    key: 670
+    reps: 30
+  - name: "Rite 2: Maveøvelse"
+    key: 671
+    reps: 21
+  - name: "Rite 3: Forlår"
+    key: 672
+    reps: 21
+  - name: "Rite 4: Table pose"
+    key: 673
+    reps: 21
+  - name: "Rite 5: Sæl og omvendt V"
+    key: 674
+    reps: 21
 ---
 
 Vil du gerne lære **de fem tibetanere**? Her finder du den komplette guide til de 5 klassiske yogaøvelser. Du får **trin-for-trin instruktioner med billeder og video**, vejledning i vejrtrækning samt den fascinerende **historiske baggrund** om Oberst Bradford og munkene i Himalaya.
@@ -132,6 +149,16 @@ Lyt altid til kroppen, når du udfører riterne. Selvom slutmålet er **21 genta
 * **Startposition:** Lig på mave med hænderne under skuldrene. Stræk armene og løft brystet op (svarende til *Upward Dog*), mens hoften hænger tæt over gulvet.
 * **Bevægelse:** Skub hoften op og bagud, så kroppen danner et omvendt V (svarende til *Downward Dog*). Bøj hovedet ind mod brystet. Skift kontrolleret mellem de to stillinger.
 * **Vejrtrækning:** Indånding i den lave stilling (Upward Dog). Udånding når du skubber hoften op i V-stillingen.
+
+---
+
+{% include components/workout-player.html
+  exercises=page.workout
+  title="De Fem Tibetanere"
+  description="Udfør riterne i dit eget tempo og husk din vejrtrækning."
+  rounds=1
+  rest=15
+%}
 
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: 'Løbetræning for begyndere: Kom godt i gang 🏃🏃‍♀️'
-seo_title: 'Løb for begyndere: Kom godt i gang med et løbeprogram'
+title: "Løb for begyndere: Sådan kommer du godt i gang"
+seo_title: "Løb for begyndere: Kom i gang med løb uden skader"
+description: "Den ultimative guide til løb for begyndere. Lær hvordan du starter din løbetræning roligt op, finder motivationen og undgår de klassiske begynderfejl."
 permalink: /artikel/kom-i-gang-med-loebetraeningen/
-description: Kom i gang med løbetræning! Læs vores guide til begyndere og få et nemt løbeprogram, gode råd om tempo og motivation til din første løbetur.
 excerpt: Kom i gang med løbetræning! Læs vores guide til begyndere og få et nemt løbeprogram, gode råd om tempo og motivation til din første løbetur.
 language: da
 header:
@@ -28,6 +28,9 @@ Vil du gerne i gang med at løbe, eller løbetræner du for at blive en bedre l�
 
 Jeg dykker i det her indlæg ned i, hvad der skal til for, at du kan blive en bedre løber. Jeg vil vise dig, hvordan du selv kan lave et løbeprogram for din løbetræning, som vil skabe resultater på lang sigt. Du kan også vælge at springe direkte til vores [begynderløbeprogram](/loebeprogram-begyndere/).
 
+**Klar til at løbe?** Når du har læst vores tips til at komme i gang med *løb for begyndere*, kan du springe direkte til vores konkrete [løbeprogram for begyndere](/loebeprogram-begyndere/). Vil du se alt vores indhold om løb, så besøg vores store oversigt over [løbetræning](/loebesiden/).
+{: .notice--success}
+
 Der er ingen hemmeligheder.
 
 Men jeg kan godt afsløre, at der ikke er noget _quickfix_ for at blive en bedre løber.
@@ -43,6 +46,9 @@ Der er nogle ting, du skal tænke på, inden du går i gang med løbetræning.
 Det væsentligste er, at du ikke bliver alt for ivrig, så du sørger for at lave en langsigtet træningsplan med et løbeprogram, som tager højde for motivation, restitution og træning.
 
 Lad os dykke ned i, hvordan du kommer i gang med at lave dit eget løbeprogram.
+
+**Klar til at løbe?** Når du har læst vores tips til at komme i gang med *løb for begyndere*, kan du springe direkte til vores konkrete [løbeprogram for begyndere](/loebeprogram-begyndere/). Vil du se alt vores indhold om løb, så besøg vores store oversigt over [løbetræning](/loebesiden/).
+{: .notice--success}
 
 ## Løbetræning kræver regelmæssighed og vedholdenhed
 

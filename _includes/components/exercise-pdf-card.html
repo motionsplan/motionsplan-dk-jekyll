@@ -1,0 +1,272 @@
+<!-- 1. DOWNLOAD KNAP -->
+<button id="downloadPdfBtn" class="btn btn--danger btn--large">
+  <i class="far fa-file-pdf" aria-hidden="true"></i> Download PDF (A4)
+</button>
+
+<!-- 2. HTML TEMPLATE MED LIQUID DATA -->
+<template id="pdf-card-template">
+  {% assign pdf_images = "" | split: "" %}
+  {% if page.gallery %}
+    {% for g in page.gallery %}
+      {% assign g_path = g.image_path | default: g.url %}
+      {% assign pdf_images = pdf_images | push: g_path %}
+    {% endfor %}
+  {% elsif page.header.teaser %}
+    {% assign pdf_images = pdf_images | push: page.header.teaser %}
+  {% elsif page.image %}
+    {% assign pdf_images = pdf_images | push: page.image %}
+  {% endif %}
+
+  <div id="pdf-exercise-card">
+    <!-- TOP BAR -->
+    <div class="pdf-header">
+      <h1 class="pdf-title">{{ page.title }}</h1>
+      <div id="pdf-qrcode" class="pdf-qrcode"></div>
+    </div>
+
+    <!-- INDHOLD -->
+    <div class="pdf-content">
+      {% if pdf_images.size > 0 %}
+        {% assign img_count = pdf_images.size | at_most: 4 %}
+        <div class="pdf-gallery pdf-gallery--count-{{ img_count }}">
+          {% for img in pdf_images limit: 4 %}
+            <div class="pdf-gallery-item">
+              <img src="{{ img }}" alt="{{ page.title }}">
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <div class="pdf-instructions">
+        {% if page.instructions %}
+          <p>{{ page.instructions }}</p>
+        {% else %}
+          {{ content | strip_html | truncatewords: 150 }}
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- BUND MED LOGO OG STOR HALVCIRKEL -->
+    <div class="pdf-footer">
+      <div class="pdf-footer-brand">
+        <img src="/android-chrome-192x192.png" alt="Motionsplan Logo" class="pdf-brand-logo">
+        <strong>motionsplan</strong>
+      </div>
+      
+      <!-- Stor stilren halvcirkel uden tekst -->
+      <div class="pdf-station-arc"></div>
+    </div>
+  </div>
+</template>
+
+<!-- 3. JAVASCRIPT DER ÅBNER POPUP OG BRUGER HTML2PDF -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const downloadBtn = document.getElementById("downloadPdfBtn");
+  if (!downloadBtn) return;
+
+  downloadBtn.addEventListener("click", function() {
+    const template = document.getElementById("pdf-card-template");
+    if (!template) return;
+
+    // 1. Åbn nyt tomt vindue (_blank)
+    const printWin = window.open("", "_blank");
+    if (!printWin) {
+      alert("Tillad venligst pop-up vinduer for at downloade PDF'en.");
+      return;
+    }
+
+    const currentUrl = window.location.href;
+    const cardHtml = template.innerHTML;
+
+    // 2. Skriv ren HTML, A4-styles og indlæs html2pdf.js i det nye vindue
+    printWin.document.open();
+    printWin.document.write(`
+      <!DOCTYPE html>
+      <html lang="da">
+      <head>
+        <meta charset="UTF-8">
+        <title>{{ page.title | escape }} - PDF Generering</title>
+        <!-- QR Kode & html2pdf libraries -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"><\/script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"><\/script>
+        <style>
+          html, body {
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            font-family: system-ui, -apple-system, sans-serif;
+          }
+
+          /* KORT RENDER DIMENSIONER (Fast A4 ratio) */
+          #pdf-exercise-card {
+            width: 794px;
+            height: 1122px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            background: #ffffff;
+            color: #0f172a;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+          }
+
+          /* HEADER (Full Width Sort Bjælke) */
+          .pdf-header {
+            background: #000000 !important;
+            color: #ffffff !important;
+            padding: 30px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            width: 100%;
+          }
+
+          .pdf-title {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 1.25;
+            max-width: 520px;
+            color: #ffffff !important;
+          }
+
+          /* QR KODE CONTAINER */
+          .pdf-qrcode {
+            width: 70px;
+            height: 70px;
+            background: #ffffff;
+            padding: 4px;
+            border-radius: 6px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .pdf-qrcode canvas { display: none !important; }
+          .pdf-qrcode img { width: 62px; height: 62px; display: block; }
+
+          /* INDHOLD & BILLEDER */
+          .pdf-content {
+            padding: 40px;
+            flex: 1;
+            box-sizing: border-box;
+          }
+
+          /* BILLEDGALLERI */
+          .pdf-gallery {
+            display: grid;
+            gap: 16px;
+            margin-bottom: 30px;
+            width: 100%;
+            align-items: start;
+          }
+
+          .pdf-gallery--count-1 { grid-template-columns: 1fr; }
+          .pdf-gallery--count-2 { grid-template-columns: 1fr 1fr; }
+          .pdf-gallery--count-3 { grid-template-columns: repeat(3, 1fr); }
+          .pdf-gallery--count-4 { grid-template-columns: 1fr 1fr; } /* 2x2 grid */
+
+          .pdf-gallery-item img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: contain;
+            display: block;
+            border-radius: 4px;
+          }
+
+          .pdf-instructions {
+            font-size: 19px;
+            line-height: 1.6;
+            color: #1e293b;
+          }
+
+          /* FOOTER LOGO OG STOR HALVCIRKEL */
+          .pdf-footer {
+            padding: 30px 40px;
+            border-top: 1px solid #e2e8f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            box-sizing: border-box;
+            width: 100%;
+            position: relative;
+          }
+
+          .pdf-footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+          }
+
+          .pdf-brand-logo {
+            height: 36px;
+            width: auto;
+            display: block;
+          }
+
+          .pdf-footer-brand strong {
+            font-size: 24px;
+            color: #0f172a;
+            letter-spacing: -0.5px;
+          }
+
+          .pdf-station-arc {
+            position: absolute;
+            right: -70px;
+            bottom: -70px;
+            width: 250px;
+            height: 250px;
+            border: 3px solid #cbd5e1;
+            border-radius: 50%;
+            background: transparent;
+            pointer-events: none;
+          }
+        <\/style>
+      </head>
+      <body>
+        ${cardHtml}
+
+        <script>
+          window.onload = function() {
+            // 1. Byg QR Koden
+            var qrElem = document.getElementById("pdf-qrcode");
+            if (qrElem) {
+              new QRCode(qrElem, {
+                text: "${currentUrl}",
+                width: 62,
+                height: 62
+              });
+            }
+
+            // 2. Vent på billeder/QR og generer PDF via html2pdf
+            setTimeout(function() {
+              var element = document.getElementById("pdf-exercise-card");
+              var opt = {
+                margin:       0,
+                filename:     '{{ page.title | slugify }}-oevelseskort.pdf',
+                image:        { type: 'jpeg', quality: 0.98 },
+                html2canvas:  { scale: 2, useCORS: true, logging: false },
+                jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+              };
+
+              html2pdf().set(opt).from(element).save().then(function() {
+                // Luk det midlertidige vindue automatisk efter download
+                setTimeout(function() {
+                  window.close();
+                }, 500);
+              });
+            }, 400);
+          };
+        <\/script>
+      </body>
+      </html>
+    `);
+    printWin.document.close();
+  });
+});
+</script>

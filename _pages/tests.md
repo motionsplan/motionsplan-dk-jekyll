@@ -68,13 +68,7 @@ Uanset om du vil måle dit kondital, din trækstyrke, din løbekapacitet eller d
 {: .notice--info}
 **Leder du efter en helt specifik test?** Åbn tabellen herunder for at søge og filtrere på tværs af alle vores fysiske og psykologiske måleværktøjer.
 
-<details markdown="1" style="background: #f8f9fa; padding: 14px 18px; border-radius: 8px; margin-bottom: 25px; border: 1px solid #e9ecef;">
-  <summary><strong style="cursor: pointer; font-size: 1.1em;">🔍 Klik her for at åbne den søgbare testtabel</strong></summary>
-
-  <div style="margin-top: 15px;">
-    {% include table/filter-table-tests.html %}
-  </div>
-</details>
+{% include table/filter-table-tests.html %}
 
 ---
 
