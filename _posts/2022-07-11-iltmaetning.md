@@ -1,6 +1,7 @@
 ---
-title: 'Iltmætningsprocent: Hvad er din iltmætning i blodet?'
-seo_title: 'Iltmætningsprocent: Hvad er din iltmætning i blodet?'
+title: 'Iltmætning i blodet: Hvad er normal iltmætning og saturation?'
+seo_title: 'Normal iltmætning i blodet (SpO2) & Saturation: Se tabel'
+description: 'Hvad er en normal iltmætning i blodet (saturation)? Se normalværdier i vores tabel, lær hvordan du måler ilt i blodet med pulsoximeter, og hvad tallene betyder.'
 permalink: /iltmaetning/
 language: da
 header:
@@ -11,20 +12,29 @@ category:
   - Fysiologi
 tags:
   - træning
-last_modified_at: '2022-07-10T10:21:26Z'
+last_modified_at: '2026-08-01T10:00:00Z'
+faq:
+- question: Hvad er normal iltmætning i blodet?
+  answer: 'En normal iltmætning i blodet (også kaldet SpO2 eller saturation) hos en rask voksen person ligger typisk på mellem 96% og 99%. Det betyder, at næsten alt hæmoglobin i blodet er mættet med ilt.'
+- question: Hvad er saturation?
+  answer: 'Saturation er det medicinske fagudtryk for iltmætning. Det angiver i procent, hvor stor en del af blodets røde blodlegemer (hæmoglobin), der transporterer ilt rundt i kroppen.'
+- question: Hvad måler et pulsoximeter?
+  answer: 'Et pulsoximeter måler din iltmætningsprocent (%SpO2) samt din puls. Apparatet lyser igennem huden på din finger og måler, hvor meget lys der absorberes af det iltede blod.'
+- question: Hvornår er iltmætningen i blodet for lav?
+  answer: 'En iltmætning under 90% anses for at være lav (hypoksi) og kan give åndenød og træthed. Falder iltmætningen til under 80-85% hos en rask person, kræver det akut lægehjælp.'
 ---
 
 Kun få mennesker ved, hvad deres iltmætningsgrad i blodet er? Iltmætningen i blodet kan give et øjebliksbillede af dit generelle helbred.
 
-Her kan du lære om, hvad blodets iltmætningsprocent er, hvordan du måler det, og hvad de forskellige niveauer betyder for dit generelle helbred og din præstationsevne. Graden af iltmætning er en af de spændende [emner i fysiologien](/fysiologi/).
+Her kan du lære om, hvad blodets iltmætningsprocent (også kaldet **saturation**) er, hvordan du måler ilt i blodet, og hvad de forskellige niveauer betyder for dit generelle helbred og din præstationsevne. Graden af iltmætning er en af de spændende [emner i fysiologien](/fysiologi/).
 
 {% include figure image_path="https://images.unsplash.com/photo-1626851528990-fee2c2e6fadb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Pulsoximeter til at måle iltmætningsgraden i blodet." alt="pulsoximeter til måling af iltmætning procent" %}
 
-## Hvad er iltmætningsgrad i blodet?
+## Hvad er iltmætningsgrad i blodet (saturation)?
 
-Blodets iltmætningsniveau er et mål for den mængde ilt, som dine røde blodlegemer transporterer. Det udtrykkes normalt som en procentdel af, hvor mange hæmoglobinmolekyler, der har et iltmolekyle tilknyttet.
+Blodets iltmætningsniveau er et mål for den mængde ilt, som dine røde blodlegemer transporterer. I sundhedssektoren kaldes dette ofte for **saturation** eller **SpO2**. Det udtrykkes normalt som en procentdel af, hvor mange hæmoglobinmolekyler, der har et iltmolekyle tilknyttet.
 
-Iltmætningsgraden i blodet kan være et mål for, hvor godt dine lunger fungerer sammen med blodet. Typisk vil folk med lungeproblemer have en lavere iltmætning i blodet end raske personer.
+Iltmætningsgraden i blodet kan være et mål for, hvor godt dine lunger fungerer sammen med blodet. Typisk vil folk med lungeproblemer have en lavere iltmætning i blodet enn raske personer.
 
 I denne Youtube-video kan du få forklaringen på, hvad det vil sige, at ilten binder sig til hæmoglobinet i blodet.
 
@@ -64,7 +74,7 @@ Den mængde ilt, der er bundet til hæmoglobin (og dermed iltmætningen), påvir
 
 Ved at måle absorptionen ved disse to bølgelængder er det derfor muligt at vurdere iltmætningen.
 
-### 2. Pulsoximeter
+### 2. Pulsoximeter til måling af ilt i blodet
 
 Du kan købe et pulsoximeter overraskende billigt.
 
@@ -90,21 +100,21 @@ Et normalt iltmætningsniveau i blodet ligger typisk på mellem 96-99 %. Det bet
 
 Iltmætningsniveauer under 90 % anses for at være lave og kan forårsage åndenød, træthed eller forvirring. Hos raske voksne kræver iltmætningsniveauer på under 80% øjeblikkelig lægehjælp, da de kan føre til organskader.
 
-## Hvad er normalværdier når der tales om iltmætning af blodet?
+## Normal iltmætning i blodet (SpO2): Se tabel over normalværdier
 
-Når du måler din iltmætning med en iltmåler eller et pulsoximeter, så er det vigtigt at kunne tolke og forstå resultatet.
+Når du måler din iltmætning med en iltmåler eller et pulsoximeter, så er det vigtigt at kunne tolke og forstå resultatet. 
 
-Nedenstående tabel kan fungere som retningslinje for dine iltmætningsmålinger:
+Nedenstående tabel over **normal iltmætning** kan fungere som retningslinje for dine målinger af ilt i blodet (saturation):
 
-| SpO2 % | Klinisk betydning |
+| SpO2 % | Klinisk betydning (Saturation) |
 |-|-|
-| 99-97 | Ung normal mand/kvinde |
-| 97-95 | Sovende ung, vågen ældre |
-| 93 | Laveste normalværdi |
-| 90 | Let respirationssvigt. Ilttilskud nødvendigt |
-| 85 | Respirationssvigt kræver hospital |
-| 75 | Svær respirationssvigt |
-| 60 | Bevidstløs. Umiddelbar livsfare |
+| **97 - 99 %** | Normal iltmætning (Ung normal mand/kvinde) |
+| **95 - 97 %** | Sovende ung, vågen ældre |
+| **93 %** | Laveste normalværdi |
+| **90 %** | Let respirationssvigt. Ilttilskud nødvendigt |
+| **85 %** | Respirationssvigt (Kræver hospital) |
+| **75 %** | Svær respirationssvigt |
+| **60 %** | Bevidstløs. Umiddelbar livsfare |
 
 Dykkere og fridykkere kan sagtens træne sig op til at kunne håndtere en lavere iltmætningsprocent, når de dykker under vandet. Efter at have holdt vejret virkelig længe, så falder iltmætningen langt ned.
 
@@ -147,3 +157,7 @@ Dykkere og fridykkere kan træne sig selv til at håndtere en lavere iltmætning
 Hvis du gentagne gange måler et iltmætningsniveau, der ligger uden for det normale område, kan det være en god idé at kontakte din læge.
 
 Der er flere ting, du kan gøre for at forbedre dit iltmætningsniveau i blodet, herunder at få nok søvn, motionere, at spise sundt og trække vejret dybt.
+
+## Ofte stillede spørgsmål om iltmætning og saturation
+
+{% include motionsplan/faq.html %}
