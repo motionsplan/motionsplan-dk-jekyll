@@ -1,8 +1,7 @@
 ---
-title: Hvad vejer skelettet og knoglerne i mennesket? ⚖
-seo_title: Hvad vejer skelettet & knoglerne i mennesket?
-description: Hvad vejer knoglerne og skelettet egentlig? Her får du en guide til, hvor meget knoglevævet i mennesker vejer.
-  Du bliver sikkert overrasket over svaret!
+title: 'Hvad vejer skelettet? Se knoglernes vægt for mænd & kvinder'
+seo_title: 'Hvad vejer skelettet & knoglerne i et menneske? (Mænd/Kvinder)'
+description: 'Hvor meget vejer knoglerne og skelettet egentlig? Se hvad et mande- og kvindeskelet vejer, og lær hvordan knoglemassen påvirker din samlede kropsvægt.'
 permalink: /hvad-vejer-skelettet/
 language: da
 header:
@@ -17,34 +16,23 @@ category:
 tags:
 - anatomi
 - faq
-last_modified_at: '2020-05-31T08:14:14Z'
+last_modified_at: '2026-08-01T10:00:00Z'
 toc: 'true'
 faq:
 - question: Hvor mange knogler har et menneske?
-  answer: 'Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [led og forskellige
-    ledtyper](/led/). Alle mennesker har flere forskellige [knogletyper](/knogler/).
+  answer: 'Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [led og forskellige ledtyper](/led/). Alle mennesker har flere forskellige [knogletyper](/knogler/).
 
 
-    Jeg har skrevet et andet indlæg, hvor du kan få uddybet svaret til ''[Hvor mange knogler har mennesket?](/hvor-mange-knogler-har-mennesket/)'',
-    hvor du også får svaret på, hvor mange knogler en baby har?
-
-    '
+    Jeg har skrevet et andet indlæg, hvor du kan få uddybet svaret til ''[Hvor mange knogler har mennesket?](/hvor-mange-knogler-har-mennesket/)'', hvor du også får svaret på, hvor mange knogler en baby har?'
 - question: Vejer en babys knogler mindre end en voksen?
-  answer: 'Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden
-    sammen.
+  answer: 'Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
 
 
-    Spørgsmålet er, om de blødere bruskholdige knogler vejer mere eller mindre end de stivere, forbenede voksenknogler. Hvis
-    du ved det, så skriv endelig.
-
-    '
+    Spørgsmålet er, om de blødere bruskholdige knogler vejer mere eller mindre end de stivere, forbenede voksenknogler. Hvis du ved det, så skriv endelig.'
 - question: Hvad er den mindste og letteste knogle i kroppen?
-  answer: Den mindste knogle i menneskekroppen er _os stapes_. Os stapes kaldes også 'stigbøjlen', og den befinder sig i øret.
-    Os stapes er vigtig for transduktion af svingninger i luft til svingninger i væsken i vores indre øre, så vi kan høre
-    noget.
+  answer: Den mindste knogle i menneskekroppen er _os stapes_. Os stapes kaldes også 'stigbøjlen', og den befinder sig i øret. Os stapes er vigtig for transduktion af svingninger i luft til svingninger i væsken i vores indre øre, så vi kan høre noget.
 - question: Hvad er den største og tungeste knogle i kroppen?
-  answer: Den længste og tungeste knogle i menneskekroppen er lårbensknoglen, som i en voksen mand på omkring 80 kg vejer
-    omkring 1 kg.
+  answer: Den længste og tungeste knogle i menneskekroppen er lårbensknoglen, som i en voksen mand på omkring 80 kg vejer omkring 1 kg.
 ---
 
 Under mine anatomiundervisninger spørger mange, hvor meget knoglerne i kroppen vejer? Det er et spændende spørgsmål, og jeg har kigget nærmere på det for at give et præcist svar.
@@ -53,15 +41,29 @@ Hvis du vil lære mere om, hvor mange knogler der er i menneskekroppen, kan du f
 
 ## Hvor meget vejer skelettet?
 
-**Menneskets skelet og knogler udgør omkring 12-20 pct. af kropsvægten. Vægten af skelettet og knoglerne topper i 20-30 års alderen, hvor skelettet indeholder omkring 1200 g kalk. Hvis vi tager en et eksempel med en 80 kg tung person, så vejer knoglerne og skelettet omkring 12-14 kg.**
+**Menneskets skelet og knogler udgør omkring 12–20 % af kropsvægten.** Vægten af skelettet og knoglerne topper i 20-30 års alderen, hvor skelettet indeholder omkring 1200 g kalk. 
+
+Skelettets tørvægt (uden vand og rygmarv) vejer ofte kun 3-4 kg, men det levende, våde knoglevæv vejer væsentligt mere:
+
+* **Hvad vejer et mandeskelet?** For en voksen mand på 80 kg vejer det samlede levende skelet omkring **11 - 14 kg**.
+* **Hvad vejer et kvindeskelet?** For en voksen kvinde på 65 kg vejer det samlede levende skelet omkring **8 - 10 kg**.
+
+<div class="notice--info" markdown="1">
+**Skelet, muskler og fedt**
+
+Vil du have det fulde overblik over, hvad din kropsvægt egentlig består af udover knoglerne? 
+
+* **Muskelmasse:** Se hvor meget af din vægt der bør være muskler i vores [muskelmasse beregner](/muskelmasse-beregner/).
+* **Fedtmasse:** Læs hvordan du laver en præcis [måling af fedtprocent](/maal-fedtprocent/) og du kan [beregne din fedtprocent](/artikel/udregning-af-fedtprocent/).
+</div>
 
 ## Hvornår vejer knoglerne mest?
 
 Skelettet er levende og udskiftes konstant, og knoglerne påvirkes af din levevis.
 
-Et nyfødt barns skelet består primært af brusk og knoglemassen er relativt lille. I alt er kalkindholdet kun omkring 25 gram. Under opvæksten bliver barnets knogler mere og mere stive, fordi kalkindholdet siger i knoglerne.
+Et nyfødt barns skelet består primært af brusk og knoglemassen er relativt lille. I alt er kalkindholdet kun omkring 25 gram. Under opvæksten bliver barnets knogler mere og mere stive, fordi kalkindholdet stiger i knoglerne.
 
-Knoglerne vokser knoglerne i længde, bredde og tykkelse indtil slutningen af puberteten. Nu er knoglerne blevet mere stive og skulle gerne have fået en høj knoglemasse med et højt kalkindhold.
+Knoglerne vokser i længde, bredde og tykkelse indtil slutningen af puberteten. Nu er knoglerne blevet mere stive og skulle gerne have fået en høj knoglemasse med et højt kalkindhold.
 
 Opbygningen af knoglemassen afhænger af din genetik, hormoner og påvirkes af din levevis. Knogleopbygningen responderer på din kost og indtaget med vitaminer og mineraler og på den vægtbærende belastning, knoglerne udsættes for.
 
@@ -111,7 +113,7 @@ Hvis du leder efter de absolut bedste lærebøger til studiet eller detaljerede 
 👉 [**Se anbefalinger til anatomibøger og plakater her**](/traeningsboeger-boeger-om-traening/#anatomi-og-fysiologi)
 </div>
 
-## Ofte stillede spørgsmål
+## Ofte stillede spørgsmål om skelettet og knoglerne
 
 {% include motionsplan/faq.html %}
 

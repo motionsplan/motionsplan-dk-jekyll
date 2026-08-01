@@ -1,5 +1,7 @@
 ---
-title: Udregn din muskelmasse i vores beregner
+title: 'Muskelmasse beregner: Beregn din muskelmasse i procent og kg'
+seo_title: 'Muskelmasse beregner (i % og kg): Normal muskelmasse tabel'
+description: 'Beregn din muskelmasse i procent og kg. Se vores tabel over normal muskelmasse for mænd og kvinder opdelt på alder og få overblik over din kropsbygning.'
 permalink: /muskelmasse-beregner/
 language: da
 header:
@@ -12,15 +14,22 @@ tags:
 - beregner
 - styrketræning
 - hypertrofi
-last_modified_at: '2022-02-12T22:21:26Z'
+last_modified_at: '2026-08-01T10:00:00Z'
 meta:
   name: Beregn muskelmasse
   equipment: vægt
   measures: muskelmasse
   type: kropskomposition
+faq:
+- question: Hvad er en normal muskelmasse i procent?
+  answer: 'For voksne kvinder ligger en normal muskelmasse typisk på 30-35% af kropsvægten, mens den for mænd typisk ligger på 38-45%. Muskelmassen falder naturligt med alderen, hvis man ikke styrketræner.'
+- question: Hvor mange kilo muskelmasse har en mand og kvinde i gennemsnit?
+  answer: 'En gennemsnitlig kvinde på 68 kg har omkring 20-24 kg muskelmasse (skeletmuskulatur). En gennemsnitlig mand på 80 kg har omkring 30-36 kg muskelmasse.'
+- question: Hvordan beregner man sin muskelmasse?
+  answer: 'Du kan estimere din muskelmasse ved hjælp af antropometriske målinger som højde, kropsvægt, taljemål og alder via en valideret formel (f.eks. Heymsfield et al.), som benyttes i vores beregner.'
 ---
 
-I denne beregner kan du udregne din omtrentlige muskelmasse baseret på enkle antropometriske målinger.
+I denne beregner kan du udregne din omtrentlige muskelmasse i både procent (%) og kilo (kg) baseret på enkle antropometriske målinger.
 
 Det kan være interessant at kende din omtrentlige muskelmasse, fordi muskelmassen har særlig betydning for dit hvilestofskifte, men det kan også være sjovt bare at vide, hvad kroppen består af.
 
@@ -44,19 +53,42 @@ Keywords: sarcopenia, nutritional assessment, anthropometry, body composition, w
 
 {% include calculator/calculate-musclemass.html %}
 
+## Hvad er en normal muskelmasse for mænd og kvinder?
+
+Kvinder og mænd har forskellig muskelmasse. Kvinder har naturligt en højere fedtprocent end mænd, hvilket også betyder, at de gennemsnitligt har en lavere muskelmasse målt i forhold til deres samlede kropsvægt. 
+
+* En normal muskelmasse for **kvinder** ligger typisk på **30-35%** af kropsvægten.
+* En normal muskelmasse for **mænd** ligger typisk på **38-45%** af kropsvægten.
+
+Herunder finder du en vejledende oversigt over den normale skeletmuskelmasse i både procent (%) og estimeret vægt i kilo (kg) for mænd og kvinder opdelt på alder.
+
+### Tabel: Normal muskelmasse for mænd (i % og kg)
+
+*Eksemplet i kg tager udgangspunkt i en gennemsnitlig mand med en kropsvægt på 80 kg.*
+
+| Alder | Muskelmasse i procent (%) | Muskelmasse i kilo (v. 80 kg vægt) |
+| :--- | :--- | :--- |
+| **20-39 år** | 40 - 44 % | ~ 32 - 35 kg |
+| **40-59 år** | 36 - 40 % | ~ 29 - 32 kg |
+| **60-79 år** | 32 - 36 % | ~ 25 - 29 kg |
+
+### Tabel: Normal muskelmasse for kvinder (i % og kg)
+
+*Eksemplet i kg tager udgangspunkt i en gennemsnitlig kvinde med en kropsvægt på 68 kg.*
+
+| Alder | Muskelmasse i procent (%) | Muskelmasse i kilo (v. 68 kg vægt) |
+| :--- | :--- | :--- |
+| **20-39 år** | 31 - 35 % | ~ 21 - 24 kg |
+| **40-59 år** | 28 - 32 % | ~ 19 - 22 kg |
+| **60-79 år** | 25 - 29 % | ~ 17 - 20 kg |
+
+> **Bemærk:** Tallene i tabellerne er vejledende gennemsnit for ustrænede til moderat aktive personer. Personer, der styrketræner regelmæssigt, vil ofte have en væsentligt højere muskelmasse i både kg og procent.
+
 ## Hvad sker der med muskelmassen med alderen?
 
-Når du bliver ældre, så mister man typisk noget muskelmasse og muskelstyrke. Det er der mange forklaringer på.
+Når du bliver ældre, så mister man typisk noget muskelmasse og muskelstyrke (et fænomen der kaldes sarkopeni). Det er der mange forklaringer på.
 
-En stor del af forklaringen på tabet af muskelmasse og muskelstyrke er nedsat aktivitet. Hvis du træner kan du i høj grad modstå tabet af muskelmasse.
-
-## Hvad er en normal muskelmasse?
-
-Kvinder og mænd har forskellig muskelmasse. Du kan udregne den normale muskelmasse for personer, der har de samme mål som dig i beregneren ovenover.
-
-Kvinder har naturligt en højere fedtprocent end mænd, hvilket også betyder, at de gennemsnitligt har en mindre muskelmasse. En normal muskelmasse for kvinder er typisk omkring 31% af deres kropsvægt, og for mænd omkring 38% af kropsvægten.
-
-Men for at få et svar på, hvad en normal muskelmasse for mennesker der ligner dig er, så tjek vores beregner.
+En stor del af forklaringen på tabet af muskelmasse og muskelstyrke er nedsat fysisk aktivitet. Hvis du træner regelmæssigt, kan du i høj grad modstå tabet af muskelmasse og opretholde en stærk kropskomposition hele livet.
 
 ## Hvordan øger jeg min muskelmasse?
 
@@ -66,6 +98,9 @@ For at øge muskelmassen, så skal du typisk træne [styrketræning med fokus p�
 
 Vi har skrevet en uddybende guide til, [hvor lang tid det tager for muskler at vokse](/hvor-hurtigt-vokser-muskler/). I den artikel kan du også finde en beregner til finde din teoretiske øvre grænse for, hvor meget muskelmasse du kan få.
 
+## Ofte stillede spørgsmål om muskelmasse
+
+{% include motionsplan/faq.html %}
 
 {% comment %}
 

@@ -1,7 +1,7 @@
 ---
-title: 'SMART-modellen: Gør din målsætning SMART og nå nye mål!'
-seo_title: 'SMART-modellen: Nå dine mål med en målsætning [Eksempel]'
-description: Vil du gerne nå dit mål? SMART-modellen hjælpe dig til at lave din målsætning, så den målbar og realistisk!
+title: 'SMART-modellen: Sæt klare SMART-mål for din træning (Eksempel)'
+seo_title: 'SMART-modellen: Hvad er et SMART-mål? [Eksempel & skabelon]'
+description: 'Hvad er SMART-modellen? Se hvad bogstaverne S-M-A-R-T står for, få konkrete eksempler på SMART-mål til træning, og hent vores gratis skabelon.'
 permalink: /smart/
 language: da
 header:
@@ -15,21 +15,28 @@ category:
 tags:
 - målsætning
 - vaner
-last_modified_at: '2022-10-01T08:14:14Z'
+last_modified_at: '2026-08-01T10:00:00Z'
+faq:
+- question: Hvad står SMART for i SMART-modellen?
+  answer: 'SMART er et akronym for **S**pecifikt (hvad vil du opnå?), **M**ålbart (hvornår er målet opfyldt?), **A**ttraktivt/Accepteret (hvorfor er målet vigtigt?), **R**ealistisk (har du ressourcerne?), og **T**idsbestemt (hvad er din deadline?).'
+- question: Hvad er et eksempel på et SMART-mål?
+  answer: 'Et eksempel på et SMART-mål til træning: "Jeg vil løbe København Maraton d. 15. maj under 4 timer ved at følge mit løbeprogram 3 gange om ugen frem mod løbet."'
+- question: Hvorfor bør man bruge SMART-modellen?
+  answer: 'SMART-modellen forvandler diffuse ønsker (som "jeg vil i bedre form") til en konkret handleplan. Det øger din motivation, garanterer fremgang og gør det nemt at følge op på dine fremskridt.'
 ---
 
-Vil du gerne nå dit mål? SMART-modellen hjælpe dig til at lave din målsætning, så den målbar og realistisk!
+Vil du gerne nå dit mål? SMART-modellen hjælper dig til at lave din målsætning, så den bliver målbar og realistisk!
 
 Målsætning er et rigtig godt redskab til at **garantere fremgang i din træning**.
 
 Jeg arbejder selv struktureret med målsætning - og jeg har opstillet nogle mål for min træning, som jeg gerne vil opfylde. Jeg bruger SMART-modellen til at formulere mine egne mål.
 
-Her får du et eksempel på, hvordan du laver en målsætning.
+Her får du et eksempel på, hvordan du laver en holdbar målsætning.
 
 I dette indlæg får du svar på følgende spørgsmål:
 
 - Hvordan kan jeg lave en SMART-målsætning?
-- Hvordan ser et eksempel ud på en målsætning, der er lavet efter en SMART-model?
+- Hvordan ser et eksempel ud på en målsætning, der er lavet efter SMART-modellen?
 - Hvordan opnår jeg mine mål?
 
 Husk at få læst helt til slutningen af indlægget. Det er nemlig ikke nok at lave en målsætning. Du skal også lave en plan for, hvordan du vil opfylde din målsætning.
@@ -42,19 +49,19 @@ At have målene motiverer mig til at få trænet, men jeg er også meget opmærk
 
 Målsætninger er med til at give **retning for dit liv** - og når man har opstillet nogle målsætninger, finder man ud af, hvor vigtige de reelt er for en. Jeg kan godt lide at have målsætninger for flere områder af mit liv, men man kan også sagtens nøjes med at opstille målsætninger for ens træning.
 
-## Hvad er en SMART målsætning?
+## Hvad er SMART-modellen og et SMART-mål?
 
-Et typisk princip at arbejde med målsætninger ud fra er SMART-princippet. SMART-metoden indebærer, at **målsætningen skal være specifik, målbar, accepteret, realistisk og tidsbestemt**.
+Et typisk princip at arbejde med målsætninger ud fra er SMART-princippet. SMART-metoden indebærer, at **målsætningen skal være specifik, målbar, attraktiv/accepteret, realistisk og tidsbestemt**.
 
 SMART-modellen giver en opskrift på, hvordan du kan lave en holdbar målsætning. Jeg gennemgår her de enkelte punkter og giver nogle håndgribelige eksempler.
 
-- **S** – specifikt / hvad vil du opnå?
-- **M** – målbart / hvornår er målet opfyldt?
-- **A** – attraktivt / hvad er motivationen bag målet? Hvorfor vil du opnå målet?
-- **R** – realistisk / har du ressourcerne til at opnå målet?
-- **T** – tidsbestemt / hvornår er din deadline?
+- **S** – Specifikt / Hvad vil du præcist opnå?
+- **M** – Målbart / Hvornår er målet opfyldt?
+- **A** – Attraktivt / Hvad er motivationen bag målet? Hvorfor vil du opnå målet?
+- **R** – Realistisk / Har du ressourcerne og tiden til at opnå målet?
+- **T** – Tidsbestemt / Hvornår er din deadline?
 
-Når man sætter sig et mål, så tager man aktivit stilling til, hvad man egentlig vil opnå. Du kan opstille mål i alle livets faser, men her giver jeg et eksempel på, hvordan du kan bruge SMART-modellen i forhold til idræt.
+Når man sætter sig et mål, så tager man aktivt stilling til, hvad man egentlig vil opnå. Du kan opstille mål i alle livets faser, men her giver jeg et eksempel på, hvordan du kan bruge SMART-modellen i forhold til idræt og træning.
 
 ## Eksempel på et træningsmål baseret på SMART-modellen
 
@@ -90,7 +97,7 @@ Jeg vil gennemføre maratonløbet i København den 15. maj {{ year }}.
 
 Det er altså et eksempel på en ret specifik målsætning i forhold til at løbe et maratonløb.
 
-## Hvad er de enkelte trin i en SMART-målsætning?
+## De 5 trin i SMART-modellen (S-M-A-R-T forklaret)
 
 ### 1. S: Dit SMART-mål skal være SPECIFIKT
 
@@ -112,9 +119,9 @@ Når du opstiller en målsætning er det jo godt at vide nøjagtigt, hvornår du
 
 Derfor er det også andet punkt i SMART-modellen, at du skal gøre målsætningen målbar.
 
-De lidt generelle målsætninger som "jeg vil i bedre form" eller jeg vil "dyrke mere motion" kan gøres målbare på følgende måder:
+De lidt generelle målsætninger som "jeg vil i bedre form" eller "jeg vil dyrke mere motion" kan gøres målbare på følgende måder:
 
-- Jeg vil spise plantebaseret og proteinrigt fem dage om uge, så jeg laver et afkrydningsskema, og jeg glæder mig til at kunne være i mine bukser igen.
+- Jeg vil spise plantebaseret og proteinrigt fem dage om ugen, så jeg laver et afkrydningsskema, og jeg glæder mig til at kunne være i mine bukser igen.
 - Når jeg kan løbe 5 kilometer uden pauser og har et dagsgennemsnit på 10.000 skridt en måned i træk.
 
 Du kan både have hovedmål og delmål. Men det er ekstra befriende, når man har sat sig op til noget, at det rent faktisk virker.
@@ -133,7 +140,7 @@ For mig er det vigtigt at spise plantebaseret, fordi jeg oplever, at jeg får me
 
 ### 4. R: Dit SMART-mål skal være REALISTISK
 
-Når du opstiller dit mål, skal du naturligvis overveje om det er realistisk. For de fleste er det ikke nogen udfordring at forfølge et mål i en uges tid, men det skal jo passe ind i din virkelighed i længere tid.
+Når du opstiller dit mål, skal du naturally overveje om det er realistisk. For de fleste er det ikke nogen udfordring at forfølge et mål i en uges tid, men det skal jo passe ind i din virkelighed i længere tid.
 
 Her er et par eksempler på **urealistiske målsætninger**:
 
@@ -142,7 +149,7 @@ Her er et par eksempler på **urealistiske målsætninger**:
 
 Lad os prøve at gøre det til **realistiske målsætninger**.
 
-Jeg er generelt imod målsætninger om at tabe sig. Det er langt mere inspirerende og givende at tænke på at blive stærk, eksplosiv, udholdende, få mere energi. Samtidig er vægten et dårligt mål, da den svinger op og ned, og mange fx oplever at [tage på når de starter med at træne](/vaegt-stiger-traening/). Men lad os bare tage udgangspunkt i ovenstående målsætning i eksemplet med at gøre et SMART-mål realistisk.
+Jeg er generelt imod målsætninger om at tabe sig. Det er langt mere inspirerende og givende at tænke på at blive stærk, eksplosiv, udholdende, få mere energi. Samtidig er vægten et dårligt mål, da den svinger op og ned, og mange fx oplever at [tage på når de starter med at træne](/vaegt-stiger-traening/). Det er dog et godt eksempel til at illustrere princippet.
 {: .notice .notice--info }
 
 - Jeg vil tabe mig et halvt kg om ugen, og så har jeg tabt 10 kg om fem måneder
@@ -156,11 +163,11 @@ Når du sætter et mål, så er det godt at sætte en deadline. Jeg synes det er
 
 Når du har en deadline, så er det også lidt sværere at udskyde det at komme i gang. Fx kan du jo ikke udskyde træningen, hvis du gerne vil løbe et maratonløb på en bestemt tid på en bestemt dato. Hvis du derimod bare vil gennemføre et maraton på et tidspunkt, så er det lettere at stå over på træningen, når det regner.
 
-## Hvordan laver jeg en målsætning?
+## Hvordan laver jeg en målsætning efter SMART-modellen?
 
-Det er godt at følge en model, når du gerne vil lave en målsætningen, så du får stillet det hele rigtigt op. SMART-modellen er en enkel model, der gør, at du får kigget hele vejen rundt på din målsætning.
+Det er godt at følge en model, når du gerne vil lave en målsætning, så du får stillet det hele rigtigt op. SMART-modellen er en enkel model, der gør, at du får kigget hele vejen rundt på din målsætning.
 
-Jeg synes det væsentligste punkt i opstillingen af målsætningen er, at **et mål skal være attraktivt**. Derfor skal du virkelig gøre dig tanker om, hvrfor målet er væsentligt for dig.
+Jeg synes det væsentligste punkt i opstillingen af målsætningen er, at **et mål skal være attraktivt**. Derfor skal du virkelig gøre dig tanker om, hvorfor målet er væsentligt for dig.
 
 Men målsætningen i sig selv er ikke nok. Du skal også lave en plan for, hvordan du vil opnå din målsætning.
 
@@ -191,23 +198,23 @@ Så hvis dit SMART-mål er et langsigtet mål, så skal du altså lave flere kor
 
 Jeg har lavet et papir som kan støtte dig i at lave en SMART-målsætning.
 
-### 1. Identificer dine målsætninger.
+### 1. Identificer dine målsætninger
 
 Tag et stykke papir og start med at skrive dine målsætninger ned. Målsætningerne skal være formuleret som _“Jeg vil tage 100 armstrækninger inden den 20. december”_.
 
 Skriv maksimalt 7 målsætninger på dit stykke papir.
 
-### 2. Klargør dine målsætninger.
+### 2. Klargør dine målsætninger
 
 Tag nu et nyt stykke papir, hvor overskriften skal være dit mål. På dette stykke papir svarer du på følgende spørgsmål.
 
-### 3. Motivation for målsætningen.
+### 3. Motivation for målsætningen
 
 Hvorfor er dette mål væsentligt for dig. Skriv 3-5 årsager til at du har valgt dette mål.
 
 ### 4. Hvad er de næste handlinger
 
-Hvad er de næste handlinger**, du bliver nødt til at lave for at opnå målsætningen?
+Hvad er de næste handlinger, du bliver nødt til at lave for at opnå målsætningen?
 
 ### 5. Fremskridtsrapport
 
@@ -219,8 +226,12 @@ Du bør mindst en gang om ugen kigge på dit papir med målsætninger - og sørg
 
 Gå i gang allerede i dag med at identificere dine mål. Afsæt en time og få stensikkert fremgang i din træning.
 
-## Gratis skabelon til dine mål
+## Gratis skabelon til dine SMART-mål
 
 Jeg har lavet en skabelon, du kan bruge til at skrive dine målsætninger ned. Du kan hente den ved at klikke på [kortlink.dk/fmq8](https://kortlink.dk/fmq8).
 
 Nu er du klar til at nå dit mål!
+
+## Ofte stillede spørgsmål om SMART-modellen
+
+{% include motionsplan/faq.html %}
