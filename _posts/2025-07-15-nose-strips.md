@@ -1,8 +1,7 @@
 ---
-title: 'Næseplastre og sport: Hjælper de overhovedet?'
-seo_title: 'Næseplastre i sport: Virker de faktisk?'
-description: Næseplastre er blevet populære blandt Tour de France-ryttere, men virker de på iltoptagelsen, puls og præstation?
-excerpt: Næseplastre er blevet populære blandt Tour de France-ryttere, men virker de på iltoptagelsen, puls og præstation?
+title: 'Næseplastre i sport & cykling: Virker tape på næsen overhovedet?'
+seo_title: 'Næseplaster i cykling & sport: Virker tape på næsen? [Studie]'
+description: 'Hvorfor har cykelryttere og atleter som Carlos Alcaraz plaster på næsen? Se hvad forskningen siger om næseplastre, iltoptagelse, puls og præstation.'
 permalink: /naeseplastre-effekt-praestation/
 language: da
 header:
@@ -16,53 +15,57 @@ tags:
 - udstyr
 - cykling
 - løb
-last_modified_at: '2025-07-10T22:21:26Z'
+last_modified_at: '2026-08-01T10:00:00Z'
 faq:
-  - question: Hvad er et næseplaster?
-    answer: Et næseplaster – også kaldet en ekstern nasal dilator – er et lille plaster, der sættes hen over næseryggen for
-      at udvide næseborene og lette vejrtrækningen gennem næsen.
+  - question: Hvorfor har cykelryttere og atleter tape eller plaster på næsen?
+    answer: Cykelryttere i Tour de France og atleter som tennisstjernen Carlos Alcaraz bruger næseplastre (eksterne nasale dilatorer) for at udvide næseborene, nedsætte luftmodstanden i næsen og gøre det lettere at trække vejret igennem næsen.
+  - question: Hvorfor bruger Carlos Alcaraz næseplaster?
+    answer: Carlos Alcaraz bruger næseplaster under sine tenniskampe for at lette luftflowet gennem næsen og forsinke behovet for at trække vejret gennem munden, hvilket kan mindske følelsen af tørhed i munden.
   - question: Hjælper næseplastre med at forbedre sportspræstationer?
-    answer: Ifølge en ny systematisk gennemgang og meta-analyse er der ingen dokumenteret effekt på iltoptagelse (VO₂max), puls
-      eller oplevet anstrengelse under træning hos raske personer.
-  - question: Hvorfor bruger cykelryttere næseplastre?
-    answer: Nogle ryttere oplever, at næseplastre letter næsevejtrækningen og forsinker behovet for mundånding. Det kan give
-      en subjektiv følelse af bedre vejrtrækning – men uden målbar effekt på præstation.
-  - question: Kan næseplastre skade?
-    answer: Nej, næseplastre anses generelt som sikre at bruge og har ingen kendte skadelige effekter – men de forbedrer ikke
-      nødvendigvis din præstation.
-  - question: Er der nogen, der får gavn af næseplastre?
-    answer: Nogle unge atleter og personer med næseproblemer kan opleve en lille effekt, men det er ikke påvist at gælde bredt
-      for raske motionister og eliteudøvere.
+    answer: Ifølge en systematisk gennemgang og meta-analyse er der ingen målbar dokumenteret effekt på maksimal iltoptagelse (VO₂max), puls eller oplevet anstrengelse (RPE) hos raske idrætsudøvere.
+  - question: Hvad er et næseplaster?
+    answer: Et næseplaster – også kaldet en ekstern nasal dilator – er et fleksibelt plaster, der sættes hen over næseryggen for at udvide næseborene.
+  - question: Kan næseplastre eller næseklemmer skade?
+    answer: Nej, næseplastre anses som helt sikre at bruge uden kendte bivirkninger – men de giver ikke nødvendigvis en fysiologisk præstationsforbedring.
 ---
 
-I årets Tour de France har det været umuligt at overse dem: Næseplastrene. De små, buede strimler på rytternes næser, der lover friere vejrtrækning og bedre præstation. Men virker de faktisk?
+I Tour de France og i store tennisturneringer har det været umuligt at overse dem: Næseplastrene. De små, buede strimler eller stykker tape på atleternes næser lover friere vejrtrækning og bedre præstation. 
 
-Mathias Skjelmose er en af de ryttere, der virkelig har taget næseplastret til sig.
+Både danske Mattias Skjelmose i cykelfeltet og tennisstjernen **Carlos Alcaraz** er kendt for at stille op med et næseplaster på næseryggen. Men virker de faktisk?
 
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIzT8F_MKMG/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/DIzT8F_MKMG/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Vis dette opslag på Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/DIzT8F_MKMG/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Et opslag delt af Mattias Skjelmose Jensen (@skjelmose_)</a></p></div></blockquote>
 <script async src="//www.instagram.com/embed.js"></script>
 
-En **systematisk oversigtsartikel og meta-analyse** i *European Archives of Oto-Rhino-Laryngology* har forsøgt at give et videnskabeligt svar.
+En **systematisk oversigtsartikel og meta-analyse** i *European Archives of Oto-Rhino-Laryngology* har forsøgt at give et videnskabeligt svar på, om næseplastret rent faktisk giver en fysiologisk fordel under træning.
 
-## Hvad er næseplastre?
+---
 
-Næseplastre – også kendt som *eksterne nasale dilatorer* – er plastre, der klæbes hen over næseryggen og trækker næseborene en smule fra hinanden.
+## Hvad er næseplastre, og hvorfor bruger cykelryttere og atleter dem?
+
+Næseplastre – også kendt som *eksterne nasale dilatorer* – er små, fleksible plastre med fjedrende plastikstrimler, der klæbes hen over næseryggen. Næseplastret virker ved at trække næseborene en smule fra hinanden.
 
 Det reducerer modstanden i næseventilen, som er det snævreste sted i næsehulen og står for størstedelen af luftmodstanden, når vi trækker vejret gennem næsen.
 
-Teoretisk kan det betyde:
+Teoretisk bør næseplastre til cykling og sport give:
 
 - Mindre modstand ved næsevejtrækning
-- Bedre luftflow
+- Øget luftflow gennem næsehulen
 - Øget iltoptagelse
-- Mindre behov for mundånding under træning
+- Udskudt overgang til mundånding under hård belastning
 
-## Hvad siger forskningen?
+### Hvorfor bruger stjerner som Carlos Alcaraz og cykelryttere næseplaster?
+I sportsgren som tennis og cykling trækker udøverne ofte vejret voldsomt hurtigt. Når man bruger munden til at trække vejret, kan slimhinderne i hals og mund hurtigt tørre ud. 
 
-Forskerne bag oversigtsartiklen gennemgik **19 studier** med både voksne og unge, mænd og kvinder, trænede og utrænede personer. Deres fokus var på tre mål for fysisk præstation:
+Atleter som **Carlos Alcaraz** bruger næseplastret for at holde næsevejtrækningen i gang så længe som muligt under intense dueller, hvilket modvirker tørhed i munden og giver en oplevelse af lettere luftgennemstrømning.
+
+---
+
+## Hvad siger forskningen om næseplastre til sport?
+
+Forskerne bag oversigtsartiklen gennemgik **19 studier** med både voksne og unge, mænd og kvinder, trænede og utrænede personer. Deres fokus var på tre centrale fysiologiske mål for fysisk præstation:
 
 - Maksimalt iltoptag (VO₂max)
-- Puls (HR)
+- Puls (Heart Rate / HR)
 - Subjektiv oplevelse af anstrengelse (RPE)
 
 De lavede også en meta-analyse på data fra henholdsvis:
@@ -71,31 +74,41 @@ De lavede også en meta-analyse på data fra henholdsvis:
 - 138 personer for puls
 - 92 personer for RPE
 
-### Resultaterne: Ingen signifikant effekt
+### Resultaterne: Ingen signifikant fysiologisk effekt
 
-Resultaterne var entydige:
+Resultaterne i meta-analysen var entydige:
 
 - **VO₂max**: Ingen signifikant forskel (MD = 0,86 ml/kg/min, p = 0,19)
 - **Puls**: Ingen signifikant forskel (MD = 0,02 slag/min, p = 0,99)
 - **Anstrengelse (RPE)**: Ingen signifikant forskel (MD = -0,12, p = 0,56)
 
-Med andre ord: De fleste, der bruger næseplastre, vil **ikke opleve nogen målbar forbedring i deres præstation**.
+Med andre ord: De fleste atleter, der sætter tape eller næseplaster på næsen, vil **ikke opleve nogen målbar forbedring i deres præstation, iltoptag eller puls**.
 
 ### Små undtagelser
+Nogle få studier viste positive tendenser – primært hos **unge idrætsaktive personer**, og især ved brug under maksimal intensitet. Men samlet set var effekterne meget små, og den metodiske kvalitet i de fleste studier var behæftet med høj risiko for bias.
 
-Nogle få studier viste positive effekter – primært hos **unge idrætsaktive personer**, og især ved brug under høj intensitet. Men samlet set var effekterne små, og metodisk kvalitet og risiko for bias i de fleste studier var høj.
+---
 
 ## Næseplastre og oplevet komfort
 
-Selvom de ikke forbedrer præstationen målt i iltoptag eller puls, rapporterede nogle forsøgspersoner, at det **føles** lettere at trække vejret med næseplaster – og at det **forsinker overgangen fra næse- til mundånding**.
+Selvom de ikke forbedrer præstationen målt på iltoptagelse eller puls, rapporterede flere forsøgspersoner, at det **føles** lettere at trække vejret med næseplaster – og at det **forsinker overgangen fra næse- til mundånding**.
 
-I praksis kan det betyde noget for ryttere, der ønsker at holde næsevejtrækningen lidt længere – eksempelvis i koldt vejr eller for at undgå tør mund.
+I praksis kan det have en reel værdi for cykelryttere og løbere:
+* I **koldt vejr**, hvor kold luft direkte gennem munden irritere luftvejene.
+* Ved **langvarig træning**, hvor mundtørhed er en generende faktor.
+* Som en **mentalt lettende fornemmelse** under hårdt arbejde.
+
+---
 
 ## Konklusion: Gimmick eller god idé?
 
-Hvis du håber på en præstationsforbedring af næseplastre, **skal du nok dæmpe forventningerne**. De gør hverken dig hurtigere, stærkere eller mere udholdende – i hvert fald ikke målbart. Men hvis du føler, at de hjælper dig til at trække vejret bedre, er der næppe nogen skade ved at bruge dem.
+Hvis du håber, at et næseplaster vil gøre dig hurtigere på cyklen eller forbedre din VO₂max, **skal du dæmpe forventningerne**. Forskningen viser tydeligt, at næseplastre ikke forbedrer din præstation målbart. 
 
-## Ofte stilledes spørgsmål
+Men hvis du ligesom Carlos Alcaraz eller Mattias Skjelmose synes, det føles behageligt, og at det hjælper på luftflowet i næsen, er der absolut ingen skade ved at bruge dem.
+
+---
+
+## Ofte stillede spørgsmål om næseplastre i sport
 
 {% include motionsplan/faq.html %}
 
@@ -103,5 +116,4 @@ Hvis du håber på en præstationsforbedring af næseplastre, **skal du nok dæm
   <summary><h2 id="references">Referencer</h2></summary>
 
 - Dinardi RR et al. (2020). *Does the external nasal dilator strip help in sports activity? A systematic review and meta-analysis*. [DOI: 10.1007/s00405-020-06202-5](https://doi.org/10.1007/s00405-020-06202-5)
-
 </details>

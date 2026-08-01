@@ -1,6 +1,7 @@
 ---
-title: &title "Wingate Test: 30 sekunders anaerob træningstest 🚴🚴‍♀️"
-seo_title: "Wingate Test: 30 sekunders anaerob træningstest"
+title: &title "Wingate Test: 30 sekunders anaerob test (Formler & normer)"
+seo_title: "Wingate Test (Anaerobic Test): 30 sekunders cykeltest & normer"
+description: "Hvad er en Wingate test? Læs om 30-sekunders anaerob test på cykel, normer for Peak Power Output (PPO), udregning af anaerob kapacitet og protokollen."
 permalink: /wingate/
 excerpt: "Wingate test er en 30 sekunders anaerob træningstest som måler anaerob power og kapacitet."
 language: da
@@ -8,7 +9,6 @@ header:
   overlay_image: /assets/images/i.ytimg.com/maxresdefault-edd65ea2.jpg
   credit: https://i.ytimg.com/vi/JIastE4pj3U/maxresdefault.jpg
   teaser: /assets/images/i.ytimg.com/maxresdefault-edd65ea2.jpg
-  credit: https://i.ytimg.com/vi/JIastE4pj3U/maxresdefault.jpg
   caption: *title
 category:
   - Tests
@@ -27,7 +27,7 @@ meta:
   equipment: cykelergometer
   max: maksimal test
   direct: direkte test
-last_modified_at: 2022-01-06T23:14:14Z
+last_modified_at: '2026-08-01T10:00:00Z'
 toc: true
 flashcards:
   - question: "Hvor lang tid tager Wingate-testen?"
@@ -41,11 +41,20 @@ feature_row:
     excerpt: Her er et resultatark i Google Sheets, hvis du laver øvelser med Wingate-testen. På arket kan du registrere en test.
     btn_class: btn--success
     btn_label: Få Google Sheets
+faq:
+- question: Hvad er en Wingate test?
+  answer: 'En Wingate test (Wingate Anaerobic Test) er en 30-sekunders maksimal cykeltest (all-out sprint), der måler en persons anaerobe power (Peak Power Output) og anaerobe kapacitet.'
+- question: Hvad måler en Wingate test?
+  answer: 'Testen måler primært fire parametre: Peak Power Output (PPO i watt), Relative Peak Power Output (RPP i watt/kg), Anaerobic Capacity (AC) og Anaerobic Fatigue / Fatigue Index (AF i %).'
+- question: Hvor lang tid tager en Wingate test?
+  answer: 'Selve testen varer præcis 30 sekunder ved maksimal indsats (all-out), men hele protokollen inkluderer en grundig opvarmning og kontrolleret nedkøling.'
+- question: Hvordan beregnes anaerob kapacitet i en Wingate test?
+  answer: 'Anaerob kapacitet (AC) kan beregnes som det samlede udførte arbejde i løbet af de 30 sekunder, hvilket svarer til gennemsnits-watten (Power avg.) ganget med 6 eller summen af de seks 5-sekunders intervaller.'
 ---
 
 Wingate 30 sekunders _all out_ test på et cykelergometer har vist sig at være en valid og reliabel måde at estimere den anaerobe kapacitet og power på.
 
-Wingate-testen er meget tidseffektiv, fordi den normalt kun køres en gang. Samtidig er den let at forstå, fordi du skal køre alt, hvad du kan i hele perioden. Testen er til gengæld også ultrahård.
+Wingate-testen er meget tidseffektiv, fordi den normalt kun køres én gang. Samtidig er den let at forstå, fordi du skal køre alt, hvad du kan i hele perioden. Testen er til gengæld også ultrahård.
 
 Der findes forskellige variationer af testen, men testen er en valid og reliabel test til at sige noget om forsøgspersonens anaerobe kapacitet og power.
 
@@ -54,11 +63,11 @@ Der findes forskellige variationer af testen, men testen er en valid og reliabel
 *[AF]: Anaerobic fatigue / fatigue index (%)
 *[AC]: Anaerobic Capacity (watt/30 sek)
 
-## Hvad er Wingate anaerobe test?
+## Hvad er en Wingate test (Wingate Anaerobic Test)?
 
 Wingate 30 sekunders anaerobe test er en meget udbredt og kendt maksimal sprinttest i cykling. Formålet med testen er at måle den anaerobe kapacitet og anaerobe power.
 
-Oprindeligt har man brugt et Monark cykelergometer, hvor man kan sætte vægt på i forhold til din kropsvægt. Du får en god forklaring på den oprindelige protokol i denne video.
+Oprindeligt har man brugt et Monark cykelergometer, hvor man kan sætte vægt på i forhold til din kropsvægt. Du får en god forklaring på den oprindelige protokol i denne video:
 
 {% include video provider="youtube" id="tss7Z5DwGtE" %}
 
@@ -66,15 +75,15 @@ Oprindeligt bliver testen udført på en cykel, hvor du sætter ekstra belastnin
 
 På Vejle Idrætshøjskole bruger vi typisk en Wattbike, hvor testen er forudprogrammeret. Du kan læse mere om testen nedenunder.
 
-## Hvordan udfører vi Wingate-testen?
+## Hvordan udfører vi Wingate-testen? (Protokol)
 
-Som altid når du udfører tests, så er det vigtigt at udføre dem på en måde, hvor du kan pålideligt kan gentage testen. Wingate-testen foregår på et cykelergomenter. Hvis du skal testes igen, så er det en fordel, hvis det foregår på det samme cykelergometer, så kraft- og wattmålingerne er præcise.
+Som altid når du udfører tests, så er det vigtigt at udføre dem på en måde, hvor du pålideligt kan gentage testen. Wingate-testen foregår på et cykelergometer. Hvis du skal testes igen, så er det en fordel, hvis det foregår på det samme cykelergometer, så kraft- og wattmålingerne er præcise.
 
-Her er generelle anbefalinger i forhold til at udføre testen. Her går jeg ud fra, at testen udføres på en Wattbike-cykel. Hvis du bruger en Monark-cykel og skal udføre Wingate testen efter den oprindelige protokol, så kan du læse mere [www.scienceforsport.com](https://www.scienceforsport.com/wingate-anaerobic-test/).
+Her er generelle anbefalinger i forhold til at udføre testen. Her går jeg ud fra, at testen udføres på en Wattbike-cykel. Hvis du bruger en Monark-cykel og skal udføre Wingate testen efter den oprindelige protokol, så kan du læse mere på [www.scienceforsport.com](https://www.scienceforsport.com/wingate-anaerobic-test/).
 
 1. **Opvarmning**. Start med en grundig opvarmning, hvor du cykler med omkring 60 rpm i minuttet i mindst 3-4 minutter. I løbet af opvarmningen laver du 3-5 sekunders sprint. Herefter cykles afslappet i et minuts tid igen.
 2. **Pause i to minutter**.
-3. **Test**. Testpersonen cykler langsomt i mindst 10 sekunder. Derefter startes testen, og testpersonen accellerer **siddende** maksimalt og kører maksimalt i hele perioden. Læg mærke til at det bliver hårdt, og forsøgspersonen har brug for opmuntring undervejs.
+3. **Test**. Testpersonen cykler langsomt i mindst 10 sekunder. Derefter startes testen, og testpersonen accelererer **siddende** maksimalt og kører maksimalt i hele perioden. Læg mærke til at det bliver hårdt, og forsøgspersonen har brug for opmuntring undervejs.
 4. **Afslutning af testen**. Efter testen kan det være rigtig godt at cykle 2-3 minutter uden modstand på cyklen.
 
 Et par ting, du skal være opmærksom på i testen:
@@ -85,30 +94,30 @@ Et par ting, du skal være opmærksom på i testen:
 
 ## Hvad måler Wingate testen?
 
-Når du har kørt Wingate-testen, så har du fået nogle relevante resultater og udregninger, du kan lave. Disse resultater er relevante at gemme.
+Når du har kørt Wingate-testen, så har du fået nogle relevante resultater og udregninger, du kan lave. Disse resultater er relevante at gemme:
 
-- **Peak Power Output** (watt) (PPO) - Den højeste kraft som gerne skulle måles i løbet af de første 5 sekunder.
-- **Relative Peak Power Output** (watt/kg) (RPP) - PPO relativt ift. kropsvægt.
-- **Anaerobic fatigue / fatigue index** (%) (AF) - Det procentvise fald mellem de første 5 sekunder og de sidste 5 sekunder.
-- **Anaerobic Capacity** (watt/30 sek) (AC) - Det samlede arbejde som er summen af alle fem sekunders-målingerne (PPO).
+- **Peak Power Output (PPO)** (watt) - Den højeste kraft som gerne skulle måles i løbet af de første 5 sekunder.
+- **Relative Peak Power Output (RPP)** (watt/kg) - PPO relativt ift. kropsvægt.
+- **Anaerobic fatigue / fatigue index (AF)** (%) - Det procentvise fald mellem de første 5 sekunder og de sidste 5 sekunder.
+- **Anaerobic Capacity (AC)** (watt/30 sek) - Det samlede arbejde som er summen af alle fem sekunders-målingerne (PPO).
 
-## Sammenligning
+## Sammenligning og normer for Wingate test
 
 Du kan sammenligne dine resultater med andre unge voksne på baggrund af dette skema. [Maud og Shultz (1998)](https://www.ncbi.nlm.nih.gov/pubmed/2489835) testede i alt 112 mænd og 74 kvinder i alderen fra 18-28 år.
 
-Her er et skema for **Peak Power Output**.
+Her er et skema for **Peak Power Output**:
 
 {% include figure image_path="/assets/images/scienceforsport.com/Table-1-Peak-power-output-norms-for-active-young-adults-302b148f.png" caption="Normer for peak power output (PPO) for unge mennesker. [📷](https://www.scienceforsport.com/wp-content/uploads/2016/01/Table-1-Peak-power-output-norms-for-active-young-adults.png){: rel='nofollow noopener' }" alt="Absolutte Peak Power i Wingate-test" %}
 
-I sig selv er Peak Power Output dog ikke så interessant, som den den **relative peak power output**, hvor der er taget højde for kropsvægten.
+I sig selv er Peak Power Output dog ikke så interessant som den **relative peak power output**, hvor der er taget højde for kropsvægten:
 
 {% include figure image_path="/assets/images/scienceforsport.com/Table-2-Relative-peak-power-output-norms-for-active-young-adults-ac49da17.png" caption="Normer for peak power output (PPO) for unge mennesker. [📷](https://www.scienceforsport.com/wp-content/uploads/2016/01/Table-2-Relative-peak-power-output-norms-for-active-young-adults.png){: rel='nofollow noopener' }" alt="Relative PPO i Wingate-test" %}
 
-[Richmond et al (2011)](https://www.researchgate.net/publication/288475344_Power_output_in_trained_male_and_female_cyclists_during_the_wingate_test_with_increasing_flywheel_resistance) undersøgte 29 kompetetive cyklister i Wingate-testen. De undersøgte dem med lav modstand og høj modstand. Du kan sammenlige dig selv med deres gennemsnitsværdier.
+[Richmond et al (2011)](https://www.researchgate.net/publication/288475344_Power_output_in_trained_male_and_female_cyclists_during_the_wingate_test_with_increasing_flywheel_resistance) undersøgte 29 kompetitive cyklister i Wingate-testen. De undersøgte dem med lav modstand og høj modstand. Du kan sammenligne dig selv med deres gennemsnitsværdier:
 
 {% include figure image_path="/assets/images/blog/wingate-richmond-2011.png" caption="Høj og lav modstand giver en forskel i Wingate-testen. Her baseret på tal fra 29 veltrænede cykelryttere. Kilde: [Richmond et al (2011)](https://www.researchgate.net/publication/288475344_Power_output_in_trained_male_and_female_cyclists_during_the_wingate_test_with_increasing_flywheel_resistance)." %}
 
-## Wingate-test på Wattbikes
+## Wingate-test på Wattbike cykel
 
 Hvis du har adgang til en Wattbike, så er der forprogrammeret en 30 sekunders _all out_-test, som du kan bruge.
 
@@ -122,7 +131,7 @@ Her kan du umiddelbart aflæse alle værdierne undtagen "Anaerobic Capacity". "A
 
 For at forbedre din anaerobe kapacitet og power, som er nødvendige for at få et bedre resultat på en Wingate-test, så er der ingen vej udenom at lave [anaerob træning](/anaerob-traening/).
 
-Du kan faktisk bruge Wingate testen som en form for træning. Det er en meget brugt protokol at køre allout i 30 sekunder, holde en pause i 30 sekunder til 5 minutter alt efter formålet med intervallerne. Det kan du så gentage 2-6 gange alt efter hvilket niveau af lidelse, du kan tåle.
+Du kan faktisk bruge Wingate-testen som en form for træning. Det er en meget brugt protokol at køre all-out i 30 sekunder, holde en pause i 30 sekunder til 5 minutter alt efter formålet med intervallerne. Det kan du så gentage 2-6 gange alt efter hvilket niveau af lidelse, du kan tåle.
 
 Du kan også bruge Wingate-testen som [anaerob træning](/wingate/). Du kan fx køre 2-4 gentagelser som [intervaltræning](/intervallob-intervaltraening/).
 
@@ -132,7 +141,11 @@ Du kan også bruge Wingate-testen som [anaerob træning](/wingate/). Du kan fx k
 
 ## Konklusion
 
-Wingate testen kan bruges til at teste din anaerobe kapacitet og power. Den er let at administrere, og da man ikke skal _pace_ den er den også let at udføre. Du kan også bruge en [6 sekunders peak power test](/6sek/) til at teste dine anaerobe egenskaber.
+Wingate-testen kan bruges til at teste din anaerobe kapacitet og power. Den er let at administrere, og da man ikke skal _pace_ den, er den også let at udføre. Du kan også bruge en [6 sekunders peak power test](/6sek/) til at teste dine anaerobe egenskaber.
+
+## Ofte stillede spørgsmål om Wingate test
+
+{% include motionsplan/faq.html %}
 
 ## Quiz
 
@@ -143,5 +156,5 @@ Wingate testen kan bruges til at teste din anaerobe kapacitet og power. Den er l
 
 - [Wingate Anaerobic Test](https://www.scienceforsport.com/wingate-anaerobic-test/)
 - Driller, Matthew, Christos Argus, og Cecilia Kitic. “The Reliability of a 30 Second Sprint Test on the Wattbike Cycle Ergometer.” International journal of sports physiology and performance, 19. november 2012.
-- Maud, P.J. and Shultz, B.B. (1998) Norms for the Wingate anaerobic test with comparison to another similar test. Res Q Exerc Sport,60 (2), p. 144-151. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/2489835)
+- Maud, P.J. and Shultz, B.B. (1998) Norms for the Wingate anaerobic test with comparison to another similar test. Res Q Exerc Sport, 60 (2), p. 144-151. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/2489835)
 </details>

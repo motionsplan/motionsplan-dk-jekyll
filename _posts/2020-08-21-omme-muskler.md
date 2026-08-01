@@ -1,8 +1,8 @@
 ---
 title: 'Muskelømhed: Hvorfor får jeg ømme muskler efter træning?'
+seo_title: 'Ømme muskler efter træning: Hvad hjælper & hvor lang tid? (DOMS)'
+description: 'Hvorfor får man ømme muskler efter træning? Hvad er godt mod ømhed, og hvor lang tid varer det? Læs om årsagerne til DOMS, og hvad der reelt hjælper.'
 permalink: /omme-muskler-efter-traening/
-description: Hvorfor får du ømme muskler efter træning? Jeg har kigget på teorierne om DOMS og ømhed i kroppen efter træning
-  og konkurrence.
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1610360373636-08dd2b883ea5.jpg
@@ -15,22 +15,32 @@ tags:
 - muskler
 - træningslære
 - fysiologi
-last_modified_at: '2022-09-24T08:14:14Z'
+last_modified_at: '2026-08-01T10:00:00Z'
 toc: 'true'
+faq:
+- question: Hvorfor bliver man øm i musklerne efter træning?
+  answer: 'Muskelømhed (DOMS) skyldes primært mikroskopiske ødelæggelser i muskelcellerne samt en mild betændelsesreaktion (inflammation), som opstår, når du belaster musklerne hårdere eller anderledes, end de er vant til.'
+- question: Hvor lang tid er man øm efter træning?
+  answer: 'Ømheden (andendagsømhed) topper typisk 24-48 timer efter træningen og forsvinder gradvist af sig selv i løbet af 3 til 7 dage.'
+- question: Hvad kan man gøre mod ømme muskler?
+  answer: 'Der findes ingen hurtig kur, da musklerne skal bruge tid på at hele. Let bevægelse, aktiv restitution og udstrækning kan øge blodcirkulationen og lindre følelsen af stivhed.'
+- question: Må man træne med ømme muskler?
+  answer: 'Ja, det er ikke farligt at træne med ømme muskler, men din præstationsevne og teknik kan være forringet. Det kan være en fordel at træne med lavere intensitet eller fokusere på andre muskelgrupper.'
 ---
 
 Du kan få ømme muskler efter træning, hvis du belaster din krop mere end du plejer. Jeg har kigget på teorierne for, hvorfor du oplever DOMS og kan blive øm i kroppen efter fysisk aktivitet.
 
 Det fleste kender det. Du har trænet mere end du plejer, eller du har lavet nogle nye øvelser, og nu gør det ondt i musklerne. Fænomenet kaldes også **andendagsømhed** eller _Delayed Onset Muscle Soreness_ (DOMS).
 
-Hvad er Delayed Onset Muscle Soreness (DOMS)? **Delayed Onset Muslce Soreness er, når du oplever at musklerne er ømme efter træning, fordi du har trænet hårdere end du plejer eller bevæget dig på en ny måde.**
+Hvad er Delayed Onset Muscle Soreness (DOMS)? **Delayed Onset Muscle Soreness er, når du oplever at musklerne er ømme efter træning, fordi du har trænet hårdere end du plejer eller bevæget dig på en ny måde.**
 
 Der står mange forskellige forklaringer af, hvorfor du får ømme muskler efter træning og fysisk aktivitet på nettet, men alle er ikke lige pålidelige. I det følgende kigger jeg på, hvilke forklaringsmodeller der er mest sandsynlige.
 
 Du får svar på:
 
 - Hvorfor får du ømme muskler efter træning?
-- Hvordan kan du undgå ømme muskler efter træning?
+- Hvor lang tid er man øm i kroppen og benene efter løb og træning?
+- Hvordan kan du undgå ømme muskler efter træning, og hvad hjælper?
 - Forebygger udstrækningsøvelser ømme muskler efter træning?
 
 ## Hvorfor bliver man øm i musklerne efter træning?
@@ -43,13 +53,13 @@ Hvis man undersøgte en prøve fra musklen under mikroskop, ville man kunne se f
 
 Muskelsmerter kan naturligvis også skyldes sygdom. Du kan læse mere om muskelsmerter, der skyldes sygdom på [netdoktor.dk](https://netdoktor.dk/sygdomme/fakta/muskelsmerter.htm), men her skriver jeg kun om træningsømhed.
 
-Den primære grund til, at du kan ende med at få ondt i musklerne efter træning kan sammenfattes i denne liste.
+Den primære grund til, at du kan ende med at få ondt i musklerne efter træning kan sammenfattes i denne liste:
 
 - Du har trænet i længere tid, end du plejer.
 - Du har trænet med større belastning, end du plejer.
-- Du har været fysisk aktiv på en anden måde, end du plejer.
+- Du har været fysisk aktiv på en anden måde, end du plejer (fx uvante øvelser eller ømme ben efter løb).
 
-Det handler altså først og fremmest om belastning. Hvis du stille og roligt vænner dig til træningen og træningsbelastningen gennem **progressivt overload**, så vil du på samme måde ikke opleve ømhed i musklerne.
+Det handler altså først og fremmest om belastning. Hvis du stille og roligt vænner dig til træningen og træningsbelastningen gennem **progressivt overload**, så vil du på samme måde ikke opleve voldsom ømhed i musklerne.
 
 > Hvor øm, du bliver, kommer helt an på, hvor meget mere du har belastet musklerne, end du plejer. Er det en halv times intens fodbold til firmafesten og tyve år siden, du sidst gjorde det, kan de første skridt på dagen opleves som decideret smertefulde. Derimod vil den ømhed, der kommer efter træning, som kun var lidt hårdere end sædvanligt, være en let ømhed, siger han.
 >
@@ -59,9 +69,15 @@ Du kan altså forebygge ømhed i musklerne efter træning ved at bygge din træn
 
 Når du træner, så kan du formentlig ikke undgå at blive øm i musklerne engang imellem. Du bliver særligt øm, hvis du starter med træning igen efter en pause. Hvis du træner op til noget særligt - fx en årlig skitur - så er det også en god ide at gå i gang med træningen i god tid, så du kan få kroppen til at vænne sig til belastningen.
 
+## Hvor lang tid er man øm efter træning?
+
+Hvor lang tid andendagsømhed varer, afhænger af, hvor hårdt du har belastet musklerne i forhold til dit normale niveau. 
+
+Typisk vil ømheden melde sig 12–24 timer efter træningen og have sit absolutte højdepunkt efter **24 til 48 timer**. I de fleste tilfælde vil muskelømheden aftage støt og være helt væk i løbet af **3 til 7 dage**. Hvis du fortsat oplever stærke muskelsmerter ud over en uge, bør du være opmærksom på, om der kan være tale om en egentlig overbelastningsskade eller fibersprængning.
+
 ## Hvad skaber ømheden i musklerne?
 
-Man kender ikke nøjagtigt årsagen til muskelømheden. [forskning.no](https://forskning.no/) har spurgt to eksperter om, hvorfor der opstår ømhed efter træning. Kristoffer Toldnes Cumming fra Norges Idrætshøjskole og Jan Helgerud fra Norges teknisk-naturvidenskabelige universitet (NTNU) i Trondheim.
+Man kender ikke nøjagtigt årsagen til muskelømheden. [forskning.no](https://forskning.no/) har spurgt to eksperter om, hvorfor der opstår ømhed efter træning: Kristoffer Toldnes Cumming fra Norges Idrætshøjskole og Jan Helgerud fra Norges teknisk-naturvidenskabelige universitet (NTNU) i Trondheim.
 
 De forklarer først og fremmest begge to, at der ikke findes noget sikkert svar på, hvad der sker i kroppen, når vi bliver ømme.
 
@@ -91,7 +107,7 @@ Mikroskaderne skaber en betændelsesreaktion, der kan forårsage smertefulde og 
 
 Men teorien indeholder flere usikkerheder.
 
-> Forskerne har for eksempel ikke fundet en sammehæng mellem, hvor ømme vi føler os, og hvor beskadigede musklerne er. Skaderne opstår jo under træningen, men vi føler os ikke ømme i løbet af træningen eller umiddelbart efter.
+> Forskerne har for eksempel ikke fundet en sammenhæng mellem, hvor ømme vi føler os, og hvor beskadigede musklerne er. Skaderne opstår jo under træningen, men vi føler os ikke ømme i løbet af træningen eller umiddelbart efter.
 >
 > — <cite>[Kristoffer Toldnes Cumming](https://videnskab.dk/krop-sundhed/er-det-godt-at-traene-hvis-man-er-oem) på videnskab.dk</cite>
 
@@ -101,7 +117,7 @@ Mikroskaderne i musklerne er altså ikke nødvendigvis eneansvarlige for, hvor �
 
 Calcium kan måske være årsag til muskelømhed, fordi det muligvis spiller en rolle i forbindelse med muskelskade.
 
-Jesper Emil Jakobsgaard, som forsker i muskler og muskelfibre i forbindelse med sit Phd-projekt på Århus Universitet, fortæller, at forskningen ganske enkelt stadig ikke har har fuld klarhed over, hvad der forårsager andendagsømhed.
+Jesper Emil Jakobsgaard, som forsker i muskler og muskelfibre i forbindelse med sit PhD-projekt på Aarhus Universitet, fortæller, at forskningen ganske enkelt stadig ikke har fuld klarhed over, hvad der forårsager andendagsømhed.
 
 > Det er også foreslået, at calcium kan spille en rolle i forbindelse med muskelskade og ømhed. Enten fordi det ved mikroskader i muskelcellens infrastruktur skabt af fx excentriske kontraktioner kan infiltrere muskelcellen og sætte gang i proteolyse gennem calcium-signalering.
 >
@@ -121,9 +137,9 @@ Men forskerne er faktisk stadig ikke sikre på, om det er tilfældet.
 
 Måske. Jesper Emil Jakobsgaard gør også opmærksom på, at forskningen i Delayed Onset Muscle Soreness fortsat udvikler sig. [Sonkodi et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7139782/) har fx for nylig fremsat en hypotese, hvor nervesystemet er en af årsagerne til ømheden i musklerne.
 
-> Men det skulle ikke undre mig, at man om nogle år har fundet ud af, at ømheden nok nærmere stammer fra noget neuralt i et perifære nervesystem - fx kompression af muskelspindler.
-
-— Jesper Emil Jakobsgaard, muskelforsker og Phd ved Århus Universitet
+> Men det skulle ikke undre mig, at man om nogle år har fundet ud af, at ømheden nok nærmere stammer fra noget neuralt i det perifere nervesystem - fx kompression af muskelspindler.
+>
+> — <cite>Jesper Emil Jakobsgaard, muskelforsker og PhD ved Aarhus Universitet</cite>
 
 ## Hvilke øvelser giver særlig ømhed i musklerne?
 
@@ -143,31 +159,32 @@ Hvis man kigger på [sportsgrene og idrætsgrene](/sportsgrene-liste/), så er d
 
 Du kan **forebygge ømhed efter træning** ved at øge din træningsmængde og intensitet stille og roligt. Det er formentlig den eneste måde du kan undgå at blive øm efter træning.
 
-Der er med andre ord ikke et middel mod ømme muskler, selvom mange produkter lover at kunne hjælpe på det.
+Der er med andre ord ikke et mirakelmiddel mod ømme muskler, selvom mange produkter lover at kunne hjælpe på det.
 
 Du skal huske ikke at måle træningsindsatsen og udbyttet af træning efter, hvor øm du er.
 
-> Det gælder om ikke at overbelaste sig selv så meget, at man ikke kan træne igen før to eller tre dage senere. Og man kan jo nok også godt selv se, at det ikke er en god fremgangsmetode. Men en smule ømhed er ikke farlig. Det tyder på, at du har været udsat for nok belastning.
+> Det gælder om ikke at overbelaste sig selv så meget, at man ikke kan træne igen før to eller tre dage senere. Og man kan jo nok også godt selv se, at det ikke er en god fremgangsmetode. Men en smule ømhed er ikke farlig. Det tyder på, at du har været udsat for nok belastning.
 >
 > — <cite>[Jan Helgerud](https://videnskab.dk/krop-sundhed/er-det-godt-at-traene-hvis-man-er-oem) på videnskab.dk</cite>
 
-## Hvordan kan jeg dæmpe ømheden i musklerne?
+## Hvad kan man gøre mod ømme muskler og hvad hjælper?
 
 Først og fremmest så er ømhed i musklerne typisk ikke farligt. **Ømhed i musklerne går over af sig selv**, når du lader tiden gå. Mikroskaderne i musklerne heler, og det er faktisk en af de måder kroppen bliver stærkere på og forberedt til endnu højere belastning.
 
-Hvis du nu allerede er blevet øm i musklerne, så synes jeg ofte, at det kan hjælpe at lave en **let træning og en restitutionstræning**, hvor du fx træner med lav intensitet. Let træning øger blodgennemstrømningen i musklerne, hvilket sætter tempoet på helingsprocesserne i kroppen op ([Cheung et al 2003](https://pubmed.ncbi.nlm.nih.gov/12617692/)). På den måde bliver din [restitutionstid hurtigere](/restitutionstid/).
+Hvis du leder efter hjælp til ømme muskler efter træning, så kan følgende tiltag dæmpe følelsen af stivhed:
 
-Du kan bruge **udspænding og udstrækning** dagen efter også til at få bevæget kroppen og øge blodgennemstrømning. Udstrækning i forbindelse med træningen forebygger desværre ikke ømhed dagen efter.
+1. **Let træning og aktiv restitution:** Udfør let træning med lav intensitet. Det øger blodgennemstrømningen i musklerne, hvilket fremskynder kroppens helingsprocesser ([Cheung et al 2003](https://pubmed.ncbi.nlm.nih.gov/12617692/)). På den måde bliver din [restitutionstid hurtigere](/restitutionstid/).
+2. **Udspænding og let udstrækning:** Brug let udstrækning dagen efter for at holde kroppen i gang og øge blodcirkulationen. Udstrækning i forbindelse med selve træningspasset forebygger desværre ikke ømhed dagen efter.
 
 > Visse fund tyder på, at strækøvelser faktisk kan gøre ondt værre. Men det betyder ikke, at man skal holde op med at strække ud af den grund. Man laver strækøvelser for at opretholde normal bevægelighed.
 >
 > — <cite>[Jan Helgerud](https://videnskab.dk/krop-sundhed/er-det-godt-at-traene-hvis-man-er-oem) på videnskab.dk</cite>
 
-Der er dog ikke nogen mirakelkur for ømme muskler ud over, at tiden går. Den videnskabelige litteratur har ikke kunnet vise effekt af hverken massage, kuldeterapi, kompressionstøj, antioxidanter, proteintilskud eller strækøvelser på andendagsømhed.
+Der er dog ikke nogen mirakelkur for ømme muskler ud over, at tiden går. Den videnskabelige litteratur har ikke kunnet vise markant effekt af hverken massage, kuldeterapi, kompressionstøj, antioxidanter, proteintilskud eller strækøvelser på andendagsømhed.
 
-Hvis du har oplevet ømme muskler efter træning, så vil der typisk gå to-tre dage, før du kan belaste kroppen igen. Hvis ikke ømheden i musklerne forsvinder, så bør du nok blive undersøgt. Husk også at der er forskel på muskelsmerter og smerter i forbindelse med senerne, ledbåndene og leddene.
+Hvis du har oplevet ømme muskler efter træning, så vil der typisk gå 2–3 dage, før du kan belaste kroppen hårdt igen. Hvis ikke ømheden i musklerne forsvinder, så bør du nok blive undersøgt. Husk også at der er forskel på muskelsmerter og smerter i forbindelse med senerne, ledbåndene og leddene.
 
-Ømheden i musklerne er formentlig med til at beskytte kroppen, så du ikke træner alt for hårdt, og man får alvorlige skader.
+Ømheden i musklerne er formentlig med til at beskytte kroppen, så du ikke træner alt for hårdt og får alvorlige skader.
 
 ## Træning med ømme muskler
 
@@ -185,13 +202,13 @@ Du skal også huske, at du sagtens kan træne andre bevægelser og muskelgrupper
 
 Desværre florerer der en del tvivlsomme teorier om ømhed efter træning. Selv på [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/knogler-muskler-og-led/sygdomme/sportsmedicin/oemme-muskler-efter-traening/) skriver de følgende under deres faktaboks:
 
-> Muskulaturen påvirkes, og muskelfibre vil forsvinde. (...) Enhver form for mere omfattende fysisk træning fører til, at nogle af muskelfibrene i muskulaturen nedbrydes.
+> Muskulaturen påvirkes, og muskelfibre vil forsvinde. (...) Enhver form for mere omfattende fysisk træning fører til, at nogle af muskelfibrene i muskulaturen nedbrydes.
 >
 > — <cite>[Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/knogler-muskler-og-led/sygdomme/sportsmedicin/oemme-muskler-efter-traening/)</cite>
 
-Der er rigtigt at muskelfibrene påvirkes ved træning, men muskelfibrene forsvinder ikke i løbet af træningen. Der kan imidlertid forekomme små mikroskader i muskelfibrene.
+Det er rigtigt at muskelfibrene påvirkes ved træning, men muskelfibrene forsvinder ikke i løbet af træningen. Der kan imidlertid forekomme små mikroskader i muskelfibrene.
 
-> Et typisk eksempel på dette er sprintere, som "stivner" på opløbssiden lige før målstregen. Musklerne syrer til, fordi der ophobes mælkesyre. En sådan ophobning af affaldsprodukter i muskulaturen vil føre til, at du føler dig øm og stiv dagen efter træning.
+> Et typisk eksempel på dette er sprintere, som "stivner" på opløbssiden lige før målstregen. Musklerne syrer til, fordi der ophobes mælkesyre. En sådan ophobning af affaldsprodukter i muskulaturen vil føre til, at du føler dig øm og stiv dagen efter træning.
 >
 > — <cite>[Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/knogler-muskler-og-led/sygdomme/sportsmedicin/oemme-muskler-efter-traening/)</cite>
 
@@ -199,13 +216,17 @@ Det er efter al sandsynlighed ikke [mælkesyren](/maelkesyre-traening/), der gø
 
 ## Konklusion
 
-Hvis du har fået DOMS og ømme muskler, så har du brug for [restitution](/restitution/). Muskelømheden stammer fra, at du har trænet hårdere end din krop var klar til eller lavet nogle uvænte bevægelser. Nu skal den bruge tid til at genopbygge.
+Hvis du har fået DOMS og ømme muskler, så har du brug for [restitution](/restitution/). Muskelømheden stammer fra, at du har trænet hårdere end din krop var klar til eller lavet nogle uvante bevægelser. Nu skal den bruge tid til at genopbygge.
 
 Du kan sagtens træne med lidt muskelømhed i kroppen, men hvis dine muskler er meget ømme, så skal du respektere signalerne fra kroppen og give den en mindre pause.
+
+## Ofte stillede spørgsmål om ømme muskler efter træning
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-  - Hotfiel et al (2018):  [Advances in Delayed-Onset Muscle Soreness (DOMS): Part I: Pathogenesis and Diagnostics](https://pubmed.ncbi.nlm.nih.gov/30537791/)
-  - Heiss et al (2019):  [Advances in Delayed-Onset Muscle Soreness (DOMS) - Part II: Treatment and Prevention](https://pubmed.ncbi.nlm.nih.gov/30865998/)
+  - Hotfiel et al (2018): [Advances in Delayed-Onset Muscle Soreness (DOMS): Part I: Pathogenesis and Diagnostics](https://pubmed.ncbi.nlm.nih.gov/30537791/)
+  - Heiss et al (2019): [Advances in Delayed-Onset Muscle Soreness (DOMS) - Part II: Treatment and Prevention](https://pubmed.ncbi.nlm.nih.gov/30865998/)
 </details>

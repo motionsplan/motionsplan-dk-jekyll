@@ -1,19 +1,39 @@
 ---
-title: 'Landsstævnesange: Officielle sange til DGI''s Landsstævne'
+title: 'Landsstævnesange gennem tiden: Se den komplette oversigt'
+seo_title: "Landsstævnesange gennem tiden: Se alle DGI's landsstævnesange"
+description: 'Se den samlede oversigt over landsstævnesange gennem tiden. Hør og se teksterne til de officielle DGI landsstævnesange fra 2026, 2022, 2017, 2013 og tidligere.'
+excerpt: 'Se den samlede oversigt over officielle landsstævnesange gennem tiden. Hør og se teksterne til de officielle DGI landsstævnesange fra alle år.'
 permalink: /landsstaevnesange/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1478147427282-58a87a120781.jpg
   credit: https://images.unsplash.com/photo-1478147427282-58a87a120781
   teaser: /assets/images/unsplash/photo-1478147427282-58a87a120781.jpg
-  caption: 'Landsstævnesange: Officielle sange til DGI''s Landsstævne'
+  caption: "Landsstævnesange gennem tiden: Officielle sange til DGI's Landsstævne"
 category:
 - Træning
 tags:
 - musik
-last_modified_at: '2021-08-23T10:14:14Z'
+last_modified_at: '2026-08-01T10:00:00Z'
 toc: 'true'
+faq:
+- question: Hvad er den nyeste landsstævnesang?
+  answer: 'Den nyeste landsstævnesang til DGI Landsstævne 2022 i Svendborg hedder "Mildere end før" og er skrevet af Vicki og Emil Gemmer Schultz samt Lars Schultz.'
+- question: Hvor ofte laves der en ny landsstævnesang?
+  answer: 'DGI afholder Landsstævne hvert 4. år, og der skrives og kåres en ny officiel landsstævnesang til hver begivenhed.'
+- question: Hvem skrev "Gi'' os lyset tilbage"?
+  answer: '"Gi'' os lyset tilbage" blev skrevet af Rasmus Skov Borring og Per Krøis Kjærsgaard som Efterskolernes Landsstævnesang til Holbæk 2009.'
+- question: Hvad er den nyeste landsstævnesang?
+  answer: 'Den nyeste landsstævnesang er skrevet til DGI Landsstævne 2026 i Vejle. Du kan lytte til sangen og se oversigten over alle tidligere stævnesange her på siden.'
 danish_songs:
+- title: Se op
+  artist: Helene Frank (feat. Martin & David Sommer)
+  year: '2025'
+  event: Landsstævne Vejle 2025
+  description: 'Sangen "Se op" synges af X Factor-vinder Helene Frank og er skrevet af brødrene Martin og David Sommer som den officielle landsstævnesang til DGI Landsstævne 2025 i Vejle.'
+  video:
+    provider: youtube
+    id: ujMzHGbGT6k
 - title: Mildere end før
   artist: Vicki og Emil Gemmer Schultz
   year: '2022'
@@ -44,7 +64,7 @@ danish_songs:
   artist: Rasmus Skov Borring
   year: '2009'
   event: Landsstævne Holbæk 2009
-  description: Efterskolernes Landsstævnesnag 2009 er skrevet af Ramsu Skov Borring og Per Krois Kjærsgaard. Se mere i [Højskolesangbogen](https://hojskolesangbogen.dk/om-sangbogen/historier-om-sangene/e-g/gi-os-lyset-tilbage).
+  description: Efterskolernes Landsstævnesang 2009 er skrevet af Rasmus Skov Borring og Per Krøis Kjærsgaard. Se mere i [Højskolesangbogen](https://hojskolesangbogen.dk/om-sangbogen/historier-om-sangene/e-g/gi-os-lyset-tilbage).
   video:
     provider: youtube
     id: E7xek3WgdcQ
@@ -77,13 +97,13 @@ danish_songs:
     id: ZCDisd6G5WQ
 ---
 
-Jeg har samlet de officielle landsstævnesange her. Jeg har ikke kunnet finde andre lister, så jeg har lavet en samlet oversigt her over sange til DGI's Landsstævne.
+Jeg har samlet de officielle landsstævnesange her. Jeg har ikke kunnet finde andre lister, så jeg har lavet en samlet oversigt her over sange til DGI's Landsstævne gennem tiden.
 
-DGI holder landsstævne hver 4. år, og der bliver hvert år lavet officiel sang til begivenheden. Det er altid nogle flotte og ørehængende sange, som kan inspiere dig til bevægelse.
+DGI holder landsstævne hver 4. år, og der bliver hvert år lavet en officiel sang til begivenheden. Det er altid nogle flotte og ørehængende sange, som kan inspirere dig til bevægelse.
 
 Jeg har skrevet mere om [musik til træning](/artikel/musik-til-traeningen/) og et indlæg om den [bedste musik til yoga og meditation](/yoga-musik/).
 
-## Sange til Efterskolernes Landsstævne hold
+## Oversigt over landsstævnesange gennem tiden
 
 Ligesom der laves [sange til de olympiske lege](/ol-sange/) og fodboldslutrunderne laves [fodboldsange og kampsange](https://www.legestue.net/danske-fodboldsange-og-kampsange/), så findes der også officielle landsstævnesange.
 
@@ -97,7 +117,7 @@ Det har været svært at finde en samlet liste, så hvis du kender flere landsst
 | {{ song.title }} | {{ song.year }} | {{ song.event }} | {{ song.artist }} |
 {%- endfor %}
 
-## Alle landsstævnesange
+## Alle landsstævnesange gennem tiden
 
 {% for song in page.danish_songs %}
 ### {{ song.title }} ({{ song.year }}), {{ song.artist }}, {{ song.event }}
@@ -124,3 +144,7 @@ Der blev indsendt hele 102 forslag til en landsstævnesang til 2021, men pga. Co
 Du kan lytte til sangen her.
 
 {% include video provider="youtube" id="Cfpb1OQSUVY" %}
+
+## Ofte stillede spørgsmål om landsstævnesange
+
+{% include motionsplan/faq.html %}
