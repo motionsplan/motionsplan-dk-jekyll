@@ -1,0 +1,20 @@
+/* Gør MathJax v3 blokke responsive med egen horisontal scrollbar */
+mjx-container[display="true"] {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch; /* Sikrer blød scroll på iOS */
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+/* Fallback hvis du også har sider med MathJax v2 rendering */
+.MathJax_Display,
+.MathJax_SVG_Display {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
