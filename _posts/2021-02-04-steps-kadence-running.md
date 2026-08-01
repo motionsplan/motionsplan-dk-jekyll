@@ -1,6 +1,7 @@
 ---
-title: Hvad er den gennemsnitlige skridtlængde og løbekadence ved løb?
-seo_title: Gennemsnitlig skridtlængde og løbekadence ved løb
+title: 'Gennemsnitlig skridtlængde og løbekadence ved løb (Tabel)'
+seo_title: 'Skridtlængde & løbekadence ved løb: Se tabel & gennemsnit'
+description: 'Hvad er den gennemsnitlige skridtlængde og løbekadence for mænd og kvinder? Se tabel over skridtlængde ved løb, og lær hvordan du træner din kadence.'
 permalink: /gennemsnitlige-skridtlaengde-kadence-loeb/
 language: da
 header:
@@ -12,19 +13,28 @@ category:
 - Løb
 tags:
 - løb
-last_modified_at: '2022-02-07T08:14:14Z'
+last_modified_at: '2026-08-01T10:00:00Z'
 toc: 'true'
 garmin_metronom:
 - image_path: /assets/images/blog/lobekadence-garmin-metronom-1.jpg
 - image_path: /assets/images/blog/lobekadence-garmin-metronom-2.jpg
 - image_path: /assets/images/blog/lobekadence-garmin-metronom-3.jpg
+faq:
+- question: Hvad er den gennemsnitlige skridtlængde ved løb for mænd og kvinder?
+  answer: 'Ved almindeligt moderat løbetempo (5k/10k) er den gennemsnitlige skridtlængde ca. 1,1–1,3 meter for kvinder og ca. 1,2–1,5 meter for mænd. Ved sprint kan skridtlængden nå op på 2,0–2,5 meter.'
+- question: Hvad er en god løbekadence?
+  answer: 'En god løbekadence for motionister ligger typisk mellem 165 og 180 skridt pr. minut (SPM). Eliteløbere ligger ofte stabilt omkring 180–190 skridt pr. minut uanset tempo.'
+- question: Hvordan beregner man sin skridtlængde ud fra kadence og fart?
+  answer: 'Du kan beregne din skridtlængde med formlen: Skridtlængde (i meter) = Hastighed (i meter pr. minut) / Kadence (skridt pr. minut).'
+- question: Er en højere løbekadence bedre mod løbeskader?
+  answer: 'Ja, forskning viser, at en øgning i løbekadencen på 5-10% kan reducere belastningen på knæ- og hofteled samt mindske bremsekraften i landingen, hvilket kan nedsætte risikoen for løbeskader.'
 ---
 
 Du har formentlig tænkt over, hvad din skridtlængde og løbekadence er, når du løber? Din kadence og skridtlængde under løb er med til at bestemme, hvor hurtigt du løber.
 
 Jeg kigger i dette indlæg på, hvad den gennemsnitlige skridtlængde er for mænd og kvinder ved løb, og hvilken kadence (løbekadence) folk typisk løber med - altså hvor mange skridt, løbere tager i minuttet.
 
-Men din kadence og skridtlænge er naturligvis også en væsentlig del af din [løbeteknik og løbestil](/loebeteknik/) og kan også være med til at bestemme din [løbeøkononomi](/lobeokonomi/).
+Men din kadence og skridtlængde er naturligvis også en væsentlig del af din [løbeteknik og løbestil](/loebeteknik/) og kan også være med til at bestemme din [løbeøkonomi](/lobeokonomi/).
 
 Lad os kigge på både løbekadence og skridtlængde, og hvad der er mest betydningsfuldt for at have fornøjelse af løb på den lange bane.
 
@@ -88,7 +98,7 @@ En metronom kan være med til at hjælpe dig med at fokusere på at få en hurti
 
 Hvis du gerne vil træne din løbekadence, så er det vigtigt, at du langsomt skruer den op til den nye ønskede kadence. Derfor skal du først finde din nuværende kadence. Du skal derfor prøve at sætte metronomen til din nuværende naturlige kadence.
 
-Jeg synes det er lettest, hvis jeg prøver at tælle alle skridt på mit højre ben i et minut og gange med to. Derefter sætter jeg den værdi i metronomen og prøver at se om det passer til mit løb. Hvis den gør det, så kan du bruge den de næste gange du er ude at løbe, så du holder den samme kadence uanset terrænet. Du løber ligeud, nedad bakke, opad bakke, i modvind, i regnvejr, så holder du kadencen.
+Jeg synes det er lettest, hvis jeg prøver at tælle alle skridt på mit højre ben i et minut og gange med to. Derefter sætter jeg den værdi i metronomen og prøver at see om det passer til mit løb. Hvis den gør det, så kan du bruge den de næste gange du er ude at løbe, så du holder den samme kadence uanset terrænet. Du løber ligeud, nedad bakke, opad bakke, i modvind, i regnvejr, så holder du kadencen.
 
 Hver uge skruer du langsomt op for metronomen, så din løbekadence bliver hurtigere og hurtigere, indtil du når op omkring 180 skridt pr. minut.
 
@@ -104,22 +114,40 @@ På mit Garmin-ur ser det fx sådan her ud:
 
 {% include gallery id="garmin_metronom" caption="Metronomen på Garmin-uret har flere indstillinger, som du kan finde fx under 'Løb'-appen. Det kræver dog at omgivelserne er relativt lydløse, da bippet ikke er så højt." %}
 
-## Hvad er den gennemsnitlige skridtlængde i løb?
+---
 
-Den gennemsnitlige skridtlængde ved løb for mænd og kvinder er helt indidviduel. Skridtlængden i løb afhænger af en række faktorer:
+## Hvad er den gennemsnitlige skridtlængde i løb? (Tabel)
 
-- længden af benene på den enkelte løber
-- erfaringsniveauet og hvad man har trænet
-- løbehastigheden
-- løbedistancen
+Hvor lang din skridtlængde er, afhænger naturligvis af din højde, benlængde, løbehastighed og dit tekniske niveau. 
 
-Derfor er det umuligt at gøre sig klog på den gennemsnitlige skridtlængde i løb. Hvis du har oplysninger, som kan forebedre dette afsnit, så skriv endelig.
+Som tommelfingerregel svarer en almindelig skridtlængde ved løb til **0,65 til 0,85 gange din kropshøjde**, mens en almindelig gå-skridtlængde til sammenligning ligger på ca. 0,41 til 0,43 gange kropshøjden.
+
+I tabellen herunder kan du se gennemsnitlige skridtlængder for mænd og kvinder ved gang, almindeligt motionstempo (5k/10k) og ved tophastighed/sprint:
+
+| Aktivitet / Tempo | Skridtlængde kvinder (ca. 167 cm) | Skridtlængde mænd (ca. 180 cm) | Skridtlængde formel / indikator |
+| :--- | :--- | :--- | :--- |
+| **Almindelig gang** | 68 – 74 cm | 75 – 82 cm | $\text{Højde} \times 0,42$ |
+| **Jogging (lunteløb)** | 0,95 – 1,15 m | 1,05 – 1,25 m | $\text{Højde} \times 0,65$ |
+| **Almindeligt løb (5k/10k)** | 1,15 – 1,35 m | 1,25 – 1,50 m | $\text{Højde} \times 0,75\text{--}0,80$ |
+| **Hurtigt løb / Sprint** | 1,60 – 2,10 m | 1,80 – 2,50 m | Op til $\text{Højde} \times 1,2\text{--}1,4$ |
+
+### Hvordan beregner man sin præcise skridtlængde?
+
+Du kan nemt finde din egen gennemsnitlige skridtlængde under et løb ved hjælp af følgende formel:
+
+$$\text{Skridtlængde (m)} = \frac{\text{Hastighed (meter pr. minut)}}{\text{Kadence (skridt pr. minut)}}$$
+
+*Eksempel:* Løber du med 12 km/t (dvs. 200 meter pr. minut) og har en kadence på 160 skridt pr. minut, er din skridtlængde:
+
+$$\text{Skridtlængde} = \frac{200}{160} = 1,25\text{ meter}$$
+
+---
 
 ## Træning af skridtlængde til løb
 
 Hvis du tager længere skridt, så kan du også komme hurtigere frem, når du holder den samme løbekadence. Det er almindelig sund fornuft. Men hvis du tager længere skridt, men ikke kan holde løbekadencen, så er det ikke sikkert, at det går hurtigere.
 
-Det er altså lidt misvisende, når [Aktiv Træning](https://aktivtraening.dk/traening/loeb/loebestil/laengere-skridt-giver-hurtigere-loeb) skriver, at <q>Færre, men lange og kraftfulde skridt er eliteløbernes hemmelige våben, når de virkelig vil sætte fart på.</q> Årsagen til at løberne tager færre skridt i de studier, der refereres til, er at de tager lidt længere skridt, og således kommer hurtigere i mål. Deres løbekadence er stadig hurtig.
+Det er altså lidt misvisende, når [Aktiv Træning](https://aktivtraening.dk/traening/loeb/loebestil/laengere-skridt-giver-hurtigere-loeb) skriver, at <q>Færre, men lange og kraftfulde skridt er eliteløbernes hemmelige væben, når de virkelig vil sætte fart på.</q> Årsagen til at løberne tager færre skridt i de studier, der refereres til, er at de tager lidt længere skridt, og således kommer hurtigere i mål. Deres løbekadence er stadig hurtig.
 
 > Du har sikkert undret dig over, hvordan verdenseliten kan løbe så ufattelig hurtigt. En ny undersøgelse giver noget af forklaringen. Forskere fra det franske sportsinstitut i Paris satte luppen på 400-meter-løbere fra verdenseliten og seriøse amatørløbere.
 >
@@ -143,11 +171,11 @@ Styrketræning er effektivt både til at forebygge skader, forbedre løbeøkonom
 >
 > — <cite>[Støren et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18460997/)</cite>
 
-Det fik forskerne til at konkludere at maksimal styrketræning kan forbedre løbeøskonomien og forbedrede tiden til udmattelse ved den maksimale aerobe hastighed (MAS) for allerede veltrænede langdistanceløbere.
+Det fik forskerne til at konkludere at maksimal styrketræning kan forbedre løbeøkonomien og forbedrede tiden til udmattelse ved den maksimale aerobe hastighed (MAS) for allerede veltrænede langdistanceløbere.
 
 *[MAS]: Maximal Aerobic Speed
 
-[Fernandes et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26694507/) konkluderer i deres systematiske review, at det [plyometrisk træning](/plyometrisk-traening/) og styrketræning med mindre intensitet også kan være gavnligt for løbeøkonomien, og [Esteve-Lanao et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18545191/) konkluderer, at styrketræning kan være med til at fastholde skridtlængden, når mellemdistanceløberne bliver trætte i løbet af de kortere løbedistancer.
+[Fernandes et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26694507/) konkluderer i deres systematiske review, at [plyometrisk træning](/plyometrisk-traening/) og styrketræning med mindre intensitet også kan være gavnligt for løbeøkonomien, og [Esteve-Lanao et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18545191/) konkluderer, at styrketræning kan være med til at fastholde skridtlængden, når mellemdistanceløberne bliver trætte i løbet af de kortere løbedistancer.
 
 Det er dog ikke sikkert, at styrketræning virker for alle målgrupper. Fx fandt [Ferrauti et al (2010)](https://pubmed.ncbi.nlm.nih.gov/20885197/), at maraton-motionister ikke havde gavnlig effekt på løbeøkonomien efter et 8-ugers træningsforløb med styrketræning, selvom benstyrken blev signifikant forbedret undervejs.
 
@@ -164,7 +192,7 @@ Læs: [Styrketræning til løb: Øvelser og effekt](/styrketraening-til-loeb/)
 
 ### 2. Bakkesprints
 
-Bakkesprints er med til at øge din styrke og gøre de enkelte skridt mere kraftfulde. Det kan du omsætte til din almindelige løbe, hvor der kan komme mere kraft på. En af fordelene ved bakkesprints er også, at du har knap så meget [excentrisk arbejde](/koncentrisk-excentrisk-isometrisk/), og derfor kan du holde til nogle gentagelser. Du skal dog også huske din [excentriske træning](/excentrisk-traening/), fordi den kan være med til at beskytte musklerne og leddene og gøre din teknik endnu mere effektiv.
+Bakkesprints er med til at øge din styrke og gøre de enkelte skridt mere kraftfulde. Det kan du omsætte til dit almindelige løb, hvor der kan komme mere kraft på. En af fordelene ved bakkesprints er også, at du har knap så meget [excentrisk arbejde](/koncentrisk-excentrisk-isometrisk/), og derfor kan du holde til nogle gentagelser. Du skal dog også huske din [excentriske træning](/excentrisk-traening/), fordi den kan være med til at beskytte musklerne og leddene og gøre din teknik endnu mere effektiv.
 
 **Tjek vores guide**: [Komplet guide til bakkeløb](/bakkesprint-bakkeloeb/)
 {: .notice }
@@ -177,76 +205,34 @@ Løbecoach, Peter Liljensten, viser et par enkelte eksempler i denne Youtube-vid
 
 {% include video provider="youtube" id="GicRyptLXpc" %}
 
-Løbecoach, Thomas Vidø, foreslår at bruge KAPA-systemet til at arbejde med løbeteknik_:
+Løbecoach, Thomas Vidø, foreslår at bruge KAPA-systemet til at arbejde med løbeteknik:
 
 {% include video provider="youtube" id="us1MmfQkqUk" %}
 
+---
+
 ## Opsamling på løbekadence og skridtlængde ved løb
 
-Det er desværre umuligt at sige noget kvalificeret om den gennemsnitlige skridtlængde ved løb. Det er helt op til den længden af benene på den enkelte løber, erfaringsniveauet, løbehastigheden og løbedistancen.
+En almindelig skridtlængde ved løb ligger typisk mellem **1,1 og 1,5 meter** alt efter køn, højde og tempo. Ved sprint kan eliteløbere nå helt op på 2,3–2,5 meter pr. skridt.
 
-Til gengæld ser det ud til, at du gerne må arbejde med din løbekadence, så den i hvert fald kommer op over 165-170 og måske endda gerne helt op til 180 skridt per minut.
+Til gengæld ser det ud til, at du gerne må arbejde med din løbekadence, så den i hvert fald kommer op over 165-170 og måske endda gerne helt op til 180 skridt per minut for at reducere skadesrisikoen.
 
-Hvordan arbejde du med din skridtlænge og løbekadence?
+Hvordan arbejder du med din skridtlængde og løbekadence?
+
+---
+
+## Ofte stillede spørgsmål om løbekadence og skridtlængde
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
+- Esteve-Lanao, J., Rhea, M. R., Fleck, S. J., & Lucia, A. (2008). "Running performance, steady-state running economy, and images of muscle damage in runners." *Journal of Strength and Conditioning Research*, 22(5), 1536-1543. [PubMed](https://pubmed.ncbi.nlm.nih.gov/18545191/)
+- Fernandes, R. J., et al. (2016). "Effects of strength training on running economy in endurance runners: A systematic review." *Journal of Human Kinetics*. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26694507/)
+- Ferrauti, A., Bergermann, M., & Fernandez-Fernandez, J. (2010). "Effects of a concurrent strength and endurance training on running economy and marathon performance in recreational runners." *Journal of Strength and Conditioning Research*, 24(10), 2770-2779. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20885197/)
+- Heiderscheit, B. C., et al. (2011). "Effects of step rate manipulation on joint mechanics during running." *Medicine & Science in Sports & Exercise*, 43(2), 296-302. [PubMed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3022995/)
+- Schubert, A. G., Kempf, J., & Heiderscheit, B. C. (2014). "Influence of stride frequency and length on running biomechanics: a systematic review." *Sports Health*, 6(3), 210-217. [PubMed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4000471/)
+- Støren, Ø., Helgerud, J., Støa, E. M., & Hoff, J. (2008). "Maximal strength training improves running economy in trained endurance runners." *Medicine & Science in Sports & Exercise*, 40(6), 1087-1092. [PubMed](https://pubmed.ncbi.nlm.nih.gov/18460997/)
+- van Oeveren, B. T., et al. (2017). "Optimal step frequency in recreational runners." *PLoS ONE*, 12(10), e0186247. [PubMed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5653196/)
 </details>
-
-{% comment %}
-
-##
-
-I øvrigt vil jeg lige hurtigt komme med en bemærkning. Nemlig den, at undersøgelser viser, at man løber absolut hurtigst ved din naturlig kadence og skridtlængde, men det fortæller jo intet om, at du ikke kan flytte din naturlige skridtlængde og din naturlige løbekadence.
-
-Det med at træne skridtlængden og løbekadencen er faktisk lidt svært. Først og fremmest er det dumt at gøre under kvalitetstræning (tempoløb, intervaltræning m.m.). Dernæst er det svært, at tage flere skridt, men løbe i samme tempo. Som regel hænger det jo sådan sammen, at jo flere skridt i minuttet, desto hurtigere. Det skal du ikke. Træn derfor din skridtlænge og din løbekadence ved dine rolige løbeture, og hold dem rolige!
-
-Men har du mod på det, kan du give det et forsøg
-
-Vil du optimere din løbetræning yderligere? Artiklen[Grundlæggende intervaltræning – guide til intervaltræning!](http://aktivmotion.dk/grundl%c3%a6ggende-intervaltr%c3%a6ning-%e2%80%93-guide-til-intervaltr%c3%a6ning/)anbefales herfra. Er du til intervaltræning og hurtig fremgang, skal du næsten også læse: [Den bedste intervaltræning](http://aktivmotion.dk/den-bedste-intervaltr%c3%a6ning-til-l%c3%b8b/)
-
-***
-
-https://aktivtraening.dk/traening/loeb/4-tips-til-at-blive-en-hurtigere-loeber
-
-
-http://shft.run/content/pressroom/201607/LoebeMagasinet84_Skridt.pdf
-
-
-***
-
-https://vorespuls.dk/loeb/artikler/loebestil-med-flere-skridt-brug-metronom
-
-***
-
-https://lassevp.dk/loeb/undgaa-loebeskader-med-hoejere-kadence/
-
-***
-
-https://www.kasperc.dk/2014/05/hurtig-kadence-giver-mere-fart/
-
-***
-
-http://www.hcamarathon.dk/Files/Images/7_StiftensEtapeLob/2016-17/Om%20overstride%20og%20kadence.pdf
-
-***
-
-[skridtlængde løb**kvinder**](https://www.google.com/search?safe=active&sxsrf=ALeKk01tftPuufaJEaeSQNudNK0tSBbTow:1612643625800&q=skridtl%C3%A6ngde+l%C3%B8b+kvinder&sa=X&ved=2ahUKEwi659vTjdbuAhXxo4sKHZrKD7QQ1QIoAHoECAcQAQ)[Searches: 0/mo - CPC: $0 - SD: 12![](chrome-extension://nmpgaoofmjlimabncmnmnopjabbflegf/img/icon-128.png)](https://app.neilpatel.com/en/ubersuggest/overview?keyword=skridtl%C3%A6ngde%20l%C3%B8b%20kvinder&tab=suggestions&locId=2840&lang=en)
-
-[skridtlængde ved løb](https://www.google.com/search?safe=active&sxsrf=ALeKk01tftPuufaJEaeSQNudNK0tSBbTow:1612643625800&q=skridtl%C3%A6ngde+ved+l%C3%B8b&sa=X&ved=2ahUKEwi659vTjdbuAhXxo4sKHZrKD7QQ1QIoAXoECAcQAg)[Searches: 0/mo - CPC: $0 - SD: 12![](chrome-extension://nmpgaoofmjlimabncmnmnopjabbflegf/img/icon-128.png)](https://app.neilpatel.com/en/ubersuggest/overview?keyword=skridtl%C3%A6ngde%20ved%20l%C3%B8b&tab=suggestions&locId=2840&lang=en)
-
-[**god løbekadence**](https://www.google.com/search?safe=active&sxsrf=ALeKk01tftPuufaJEaeSQNudNK0tSBbTow:1612643625800&q=god+l%C3%B8bekadence&sa=X&ved=2ahUKEwi659vTjdbuAhXxo4sKHZrKD7QQ1QIoAnoECAcQAw)[Searches: 0/mo - CPC: $0 - SD: 17![](chrome-extension://nmpgaoofmjlimabncmnmnopjabbflegf/img/icon-128.png)](https://app.neilpatel.com/en/ubersuggest/overview?keyword=god%20l%C3%B8bekadence&tab=suggestions&locId=2840&lang=en)
-
-[**løbekadence højde**](https://www.google.com/search?safe=active&sxsrf=ALeKk01tftPuufaJEaeSQNudNK0tSBbTow:1612643625800&q=l%C3%B8bekadence+h%C3%B8jde&sa=X&ved=2ahUKEwi659vTjdbuAhXxo4sKHZrKD7QQ1QIoA3oECAcQBA)[Searches: 0/mo - CPC: $0 - SD: 17![](chrome-extension://nmpgaoofmjlimabncmnmnopjabbflegf/img/icon-128.png)](https://app.neilpatel.com/en/ubersuggest/overview?keyword=l%C3%B8bekadence%20h%C3%B8jde&tab=suggestions&locId=2840&lang=en)
-
-[**garmin løbekadence**](https://www.google.com/search?safe=active&sxsrf=ALeKk01tftPuufaJEaeSQNudNK0tSBbTow:1612643625800&q=garmin+l%C3%B8bekadence&sa=X&ved=2ahUKEwi659vTjdbuAhXxo4sKHZrKD7QQ1QIoBHoECAcQBQ)[Searches: 0/mo - CPC: $0 - SD: 17![](chrome-extension://nmpgaoofmjlimabncmnmnopjabbflegf/img/icon-128.png)](https://app.neilpatel.com/en/ubersuggest/overview?keyword=garmin%20l%C3%B8bekadence&tab=suggestions&locId=2840&lang=en)
-
-[kadence**spm**](https://www.google.com/search?safe=active&sxsrf=ALeKk01tftPuufaJEaeSQNudNK0tSBbTow:1612643625800&q=kadence+spm&sa=X&ved=2ahUKEwi659vTjdbuAhXxo4sKHZrKD7QQ1QIoBXoECAcQBg)[Searches: 10/mo - CPC: $0 - SD: 18![](chrome-extension://nmpgaoofmjlimabncmnmnopjabbflegf/img/icon-128.png)](https://app.neilpatel.com/en/ubersuggest/overview?keyword=kadence%20spm&tab=suggestions&locId=2840&lang=en)
-
-[kadence**øvelse**løb](https://www.google.com/search?safe=active&sxsrf=ALeKk01tftPuufaJEaeSQNudNK0tSBbTow:1612643625800&q=kadence+%C3%B8velse+l%C3%B8b&sa=X&ved=2ahUKEwi659vTjdbuAhXxo4sKHZrKD7QQ1QIoBnoECAcQBw)[Searches: 0/mo - CPC: $0 - SD: 12![](chrome-extension://nmpgaoofmjlimabncmnmnopjabbflegf/img/icon-128.png)](https://app.neilpatel.com/en/ubersuggest/overview?keyword=kadence%20%C3%B8velse%20l%C3%B8b&tab=suggestions&locId=2840&lang=en)
-
-[**løbeteknik**kadence](https://www.google.com/search?safe=active&sxsrf=ALeKk01tftPuufaJEaeSQNudNK0tSBbTow:1612643625800&q=l%C3%B8beteknik+kadence&sa=X&ved=2ahUKEwi659vTjdbuAhXxo4sKHZrKD7QQ1QIoB3oECAcQCA)[Searches: 0/mo - CPC: $0 - SD: 17![](chrome-extension://nmpgaoofmjlimabncmnmnopjabbflegf/img/icon-128.png)](https://app.neilpatel.com/en/ubersuggest/overview?keyword=l%C3%B8beteknik%20kadence&tab=suggestions&locId=2840&lang=en)
-
-
-{% endcomment %}

@@ -1,16 +1,16 @@
 ---
-title: Hvor høj bliver jeg?
-seo_title: 'Højdeberegner: Hvor høj bliver jeg? (Beregner)'
-excerpt: Er du nysgerrig på din fremtidige højde? Beregn den nemt med vores beregner baseret på dine forældres højde.
+title: 'Hvor høj bliver jeg – eller mit barn? (Højdeberegner)'
+seo_title: 'Højdeberegner: Hvor høj bliver jeg eller mit barn? [Formel]'
+description: 'Beregn hvor høj du eller dit barn bliver som voksen. Se den officielle formel fra Sundhed.dk & Rigshospitalet baseret på forældrenes højde.'
 permalink: /hvor-hoej-bliver-jeg/
-last_modified_at: '2023-01-01T09:41:09Z'
+last_modified_at: '2026-08-01T10:00:00Z'
 author: lsolesen
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1528476283021-40211aa6e14c.jpg
   credit: https://images.unsplash.com/photo-1528476283021-40211aa6e14c
   teaser: /assets/images/unsplash/photo-1528476283021-40211aa6e14c.jpg
-  caption: Hvor høj bliver jeg?
+  caption: Hvor høj bliver jeg – eller mit barn?
 category:
 - Beregnere
 tags:
@@ -23,28 +23,39 @@ meta:
   equipment: ingen
   measures: højde
   type: kropssammensætning
+faq:
+- question: Hvordan beregner man, hvor højt ens barn bliver?
+  answer: 'Du kan beregne et barns forventede sluthøjde ud fra forældrenes højde. For drenge lægges 13 cm til moderens højde, lægges sammen med faderens højde og divideres med 2. For piger trækkes 13 cm fra faderens højde, lægges sammen med moderens højde og divideres med 2.'
+- question: Hvor høj bliver piger i forhold til deres forældre?
+  answer: 'Piger bliver i gennemsnit 13 cm lavere end drenge. Formlen for en piges forventede sluthøjde er: ((fars højde - 13 cm) + mors højde) / 2.'
+- question: Hvor høj bliver drenge i forhold til deres forældre?
+  answer: 'Formlen for en drengs forventede sluthøjde er: ((mors højde + 13 cm) + fars højde) / 2.'
+- question: Hvor præcis er en højdeberegner ud fra forældrenes højde?
+  answer: 'Beregningen giver et godt skøn, som rammer plet for ca. 95% af alle børn med en usikkerhedsmargin på +/- 6-8 cm. Genetik, ernæring og knoglealder spiller også ind.'
 ---
 
-Er du en af dem, der stiller spørgsmålet: Hvor høj bliver jeg? Du kan udregne, hvor høj du bliver på baggrund af din mors og fars højde. Læs her hvordan.
+Er du en af dem, der stiller spørgsmålet: **Hvor høj bliver jeg?** – eller er du forælder og overvejer, **hvor høj mit barn bliver som voksen?** 
 
-## Beregn hvor høj du bliver?
+Du kan nemt beregne den forventede sluthøjde på baggrund af din mors og fars højde. Læs her hvordan.
 
-I denne beregner kan du udregne, hvor høj du bliver ud fra din mors og fars højde.
+## Beregn hvor høj du eller dit barn bliver
+
+I denne højdeberegner kan du udregne den forventede voksenehøjde ud fra moderens og faderens højde:
 
 {% include calculator/calculate-how-tall.html %}
 
-Læg mærke til, at der er en relativt stor usikkerhed på beregningen.
+*Læg mærke til, at der er en relativt stor usikkerhed på beregningen (+/- 6-8 cm), da genetik og miljø også spiller ind.*
 
-## Hvordan udregner jeg hvor høj jeg bliver?
+## Formel: Hvordan udregner jeg hvor høj jeg eller mit barn bliver?
 
-Ifølge [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/om-boern/boerns-udvikling/hoejdeberegner/) kan du udregne, hvor høj du bliver som voksen med følgende formel:
+Ifølge [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/om-boern/boerns-udvikling/hoejdeberegner/) kan du udregne, hvor høj et barn eller ung bliver som voksen med følgende officielle formel for target height (målhøjde):
 
-- Drenge: ((mors højde + 13 cm) + fars højde)/2
-- Piger: ((fars højde - 13 cm) + mors højde)/2
+* **Formel for drenge:** $\text{Sluthøjde} = \frac{(\text{Mors højde} + 13\text{ cm}) + \text{Fars højde}}{2}$
+* **Formel for piger:** $\text{Sluthøjde} = \frac{(\text{Fars højde} - 13\text{ cm}) + \text{Mors højde}}{2}$
 
-Der er en vis usikkerhed i beregningen, men den vil formentlig ramme nogenlunde tæt på den endelige højde for 95% af alle børn.
+Der er en vis usikkerhed i beregningen, men den vil formentlig ramme nogenlunde tæt på den endelige sluthøjde for 95% af alle børn.
 
-Hvorfor kan jeg bruge forældrenes højde til at udregne, hvor høj et barn bliver som voksen?
+### Hvorfor kan man bruge forældrenes højde til at beregne sluthøjden?
 
 > Børn vokser i en vis udstrækning ligesom deres forældre gjorde, dvs. et barn med små forældre vil sandsynligvis ligge i den nederste del af normalområdet, mens et barn med høje forældre vil ligge i den øverste del af normalområdet.
 >
@@ -52,19 +63,23 @@ Hvorfor kan jeg bruge forældrenes højde til at udregne, hvor høj et barn bliv
 
 Du kan derfor finde den samme formel hos [vækstkurver.dk](https://xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html), som er lavet af Rigshospitalet.
 
-Rigshospitalet bruger dog en mere præcis metode på deres afdeling til at estimere sluthøjden for børn.
+Rigshospitalet bruger dog en mere præcis metode på deres afdeling til at estimere sluthøjden for børn:
 
-> På børneafdelingerne anvendes et mere præcist estimat af sluthøjden, som baseres på en kombination af barnets aktuelle højde, forældrehøjderne og "vækstreserven", dvs. hvor meget vækst er der igen. Denne "vækstreserve" vurderes udfra et røntgenbillede af venstre hånd, hvorfra man kan bestemme en knoglealder, der svarer til den den biologiske alder.
+> På børneafdelingerne anvendes et mere præcist estimat af sluthøjden, som baseres på en kombination af barnets aktuelle højde, forældrehøjderne og "vækstreserven", dvs. hvor meget vækst er der igen. Denne "vækstreserve" vurderes udfra et røntgenbillede af venstre hånd, hvorfra man kan bestemme en knoglealder, der svarer til den biologiske alder.
 >
 > --- <cite>[vækstkurver.dk](https://xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html)</cite>
 
-## Hvor høj bliver barnet i voksenalder?
+## Hvor høj bliver barnet i voksenalder ud fra fødselsstørrelse?
 
 > Barnets størrelse ved fødslen afhænger først og fremmest af ernæringstilførslen fra moderen under graviditeten, forhold i livmoderen og forhold ved moderkagen. Arvelige egenskaber som høje eller lave forældre har mindre betydning for det nyfødte barns størrelse. Af samme grund er der ingen sammenhæng mellem det nyfødte barnets længde og højde i voksenalderen.
 >
 > Derimod er der langt bedre sammenhæng mellem en 2-årigs højde og den voksne højde. Ved hjælp af tabeller kan man med en rimelig grad af sikkerhed sige noget om forventet højde i voksenalder.
 >
 > --- <cite>[sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/om-boern/boerns-udvikling/hoejdeberegner/)</cite>
+
+## Ofte stillede spørgsmål om højde og sluthøjde
+
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 
@@ -91,4 +106,4 @@ Be aware, however, that the height predictor on the web, based on the tables in 
 </div>
 <script async src="https://cdn.omnicalculator.com/sdk.js"></script>
 
-{% endcomment %}
+{% endcomment %}  
