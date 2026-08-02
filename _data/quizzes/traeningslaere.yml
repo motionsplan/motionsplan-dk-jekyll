@@ -1,0 +1,48 @@
+- question: "Hvad betyder begrebet superkompensation?"
+  options:
+    - "Kroppens tilpasning hvor den genopbygges til et højere niveau end før træning"
+    - "Når man træner to dage i træk uden hvile"
+    - "En skadestilstand forårsaget af for hård styrketræning"
+  answer: "Superkompensation er princippet om, at kroppen efter nedbrydning (træning) og tilstrækkelig restitution genopbygger vævet stærkere end udgangspunktet."
+
+- question: "Hvilken del af træningsprocessen er superkompensation helt afhængig af?"
+  options:
+    - "Restitutionen og tilstrækkelig hvile/ernæring"
+    - "Selve opvarmningen"
+    - "Udstrækningen efter træning"
+  answer: "Uden tilstrækkelig restitution nedsættes præstationsevnen, og kroppen når ikke ind i superkompensationsfasen."
+
+- question: "Kan man tabe sig (reducere fedtmasse) ved hjælp af styrketræning?"
+  options:
+    - "Ja, styrketræning øger energiforbruget og bevarer/øger muskelmassen"
+    - "Nej, man kan kun tabe sig ved ren kredsløbstræning"
+    - "Nej, styrketræning gør altid kropsvægten højere"
+  answer: "Styrketræning forbrænder kalorier både under og efter træningen (efterforbrænding/EPOC) og hjælper med at bevare muskelmassen under et vægttab."
+
+- question: "Hvad forstås ved princippet om adaptation?"
+  options:
+    - "At kroppen tilpasser sig de specifikke krav, den udsættes for over tid"
+    - "At man altid skal skifte øvelser hver uge"
+    - "At musklerne svinder ind ved mangel på protein"
+  answer: "Adaptation (SAID-princippet) betyder, at biologisk væv tilpasser sig belastningen: Belastes knogler og muskler tungt, bliver de stærkere."
+
+- question: "Hvilken rækkefølge anbefales til et opbygget træningspas?"
+  options:
+    - "Opvarmning, hovedtræning og nedvarmning/afkøling"
+    - "Højintensitetstræning, opvarmning, udstrækning"
+    - "Nedvarmning, opvarmning, hovedtræning"
+  answer: "Opvarmning forbereder led, muskler og nervesystem. Efter hovedtræningen hjælper nedvarmning med at trappe intensiteten ned."
+
+- question: "Hvad er forskellen på chinups og pullups?"
+  options:
+    - "Håndgrebet: Chinups udføres med underhånds-greb (supineret), pullups med overhånd (proneret)"
+    - "Chinups træner ben, mens pullups træner ryg"
+    - "Der benyttes forskelligt udstyr til øvelserne"
+  answer: "Chinups involverer mere biceps på grund af underhåndsgrebet (supination), mens pullups med overhåndsgreb i højere grad isolerer den brede rygmuskel."
+
+- question: "Hvilken øvelse aktiverer den brede rygmuskel (Latissimus dorsi) mest?"
+  options:
+    - "Pullups / Træk til bryst"
+    - "Dips"
+    - "Bænkpres"
+  answer: "Pullups er en vertikal trækøvelse, der har den brede rygmuskel som den primære motor."

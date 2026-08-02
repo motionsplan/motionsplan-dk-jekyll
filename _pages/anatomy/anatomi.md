@@ -78,6 +78,9 @@ Skeletmusklerne er kroppens aktive del. De trækker sig sammen (kontraherer) og 
   * **[Ankelleddet og fodleddet](/joints/ankelleddet-og-fodleddet/)**
   * **[Knæleddets anatomi](/joints/knaeleddet/)**
   * **[Hofteleddets anatomi](/joints/hofteleddet/)**
+  * **[Rygsøjlens anatomi](/joints/rygsojlen/)**
+  * **[Skulderleddets anatomi](/joints/rygsojlen/)**
+  * **[Albueleddets anatomi](/joints/albueleddet/)**
 </div>
 
 ---

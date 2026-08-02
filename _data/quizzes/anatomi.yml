@@ -1,0 +1,58 @@
+- question: "Hvilke primære muskler trænes under øvelsen squat?"
+  options:
+    - "Den firehovede knæstrækker (Quadriceps) og sædemusklen (Gluteus maximus)"
+    - "Den brede rygmuskel (Latissimus dorsi) og biceps"
+    - "Brystmusklen (Pectoralis major) og triceps"
+  answer: "Squat er en flerledsøvelse, der primært belaster knæstrækkerne (Quadriceps) på forsiden af låret og hofteststrækkerne (Gluteus maximus)."
+
+- question: "Hvilke muskler trænes primært ved dødløft?"
+  options:
+    - "Sædemusklen, baglårene (Hamstrings) og rygstrækkerne"
+    - "Bryst, skuldre og triceps"
+    - "Biceps og underarme"
+  answer: "Dødløft er en 'posterior chain' øvelse, der styrker hele bagkæden: baller, baglår og den dybe rygmuskulatur."
+
+- question: "Hvilke muskler trænes primært ved bænkpres?"
+  options:
+    - "Den store brystmuskel (Pectoralis major), deltoideus forrest og triceps"
+    - "Biceps brachii og latissimus dorsi"
+    - "Core og mavemuskler"
+  answer: "Bænkpres er en skubbeøvelse for overkroppen, der aktiverer brystet, den forreste del af skulderen og bagsiden af armen (triceps)."
+
+- question: "Hvad hedder den store brystmuskel på latin?"
+  options:
+    - "Pectoralis major"
+    - "Latissimus dorsi"
+    - "Biceps brachii"
+    - "Rectus abdominis"
+  answer: "Pectoralis major er det latinske navn for den store brystmuskel."
+
+- question: "Hvis du bevæger benet ind mod kroppens midterlinje, udfører du en..."
+  options:
+    - "Adduktion"
+    - "Abduktion"
+    - "Ekstension"
+    - "Rotation"
+  answer: "Adduktion er en bevægelse ind mod midterlinjen ('add' = lægge til). Abduktion er at føre benet væk fra midterlinjen."
+
+- question: "Hvilken type mekanisk led er hofteleddet og skulderleddet?"
+  options:
+    - "Kugleled"
+    - "Hængselsled"
+    - "Drejeled"
+    - "Saddelled"
+  answer: "Både hofte- og skulderled er kugleled, hvilket giver dem stor bevægelighed i alle tre plan."
+
+- question: "Hvor mange typer ægte mekaniske led findes der i kroppen?"
+  options:
+    - "6 typer (Kugleled, hængsel, drejeled, ægled, saddelled, glideled)"
+    - "3 typer"
+    - "10 typer"
+  answer: "Kroppens ægte led inddeles fysiologisk i 6 hovedtyper baseret på leddets udformning og bevægelsesfrihed."
+
+- question: "Hvilke tre bevægelsesplaner kan kroppens bevægelser opdeles i?"
+  options:
+    - "Sagittalplanet, frontalplanet og transversalplanet"
+    - "Vertikalplanet, horisontalplanet og diagonalplanet"
+    - "Overste, midterste og nederste plan"
+  answer: "Anatomisk inddeles bevægelser i sagittalplanet (frem/tilbage), frontalplanet (side/side) og transversalplanet (rotation)."

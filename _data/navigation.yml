@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "📝 Tests"
+  - title: "Tests"
     url: /tests/
   - title: "Træning"
     url: /traening/
@@ -10,7 +10,7 @@ main:
     url: /traeningslaere/
   - title: "Kost & Ernæring"
     url: /kost-ernaering/
-  - title: "🛠️ Værktøjer"
+  - title: "Værktøjer"
     url: /vaerktoejer/
 #  - title: "Styrketræning"
 #    url: /styrketraening/
@@ -18,8 +18,10 @@ main:
 #    url: /kondition/
 #  - title: "Løb"
 #    url: /loebesiden/
-  - title: "Træningsøvelser"
+  - title: "Øvelser"
     url: /traeningsoevelser/
+  - title: "Programmer"
+    url: /traeningsprogrammer/
 #  - title: "Udstyr"
 #    url: /udstyr/
 blog:

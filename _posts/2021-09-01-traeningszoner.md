@@ -35,6 +35,9 @@ For at forstå sammenhængen mellem zonerne, så er der et par nyttige begreber.
 Aerobe tærskel (LT1)
 : Den aerobe tærskel er når kroppens aerobe system ikke kan honorere energikravet. Derfor begynder det anaerobe system at bidrag. Derved kan der måles højere koncentration af laktat i blodet. Knækket på kurven kalder man den *aerobe tærskel*.
 
+**🏃‍♂️ Vil du nørde Zone 2-træning i dybden?** Zone 2 er den helt centrale zone til opbygning af din aerobe base, fedtforbrænding og mitokondrier. Læs vores komplette guide til [Zone 2 træning og den aerobe tærskel](/zone-2-traening/), hvor du får 7 konkrete metoder (bl.a. laktat, Maffetone og Snakketesten) til at finde din præcise intensitet.
+{: .notice--info}
+
 Anaerobe tærskel eller laktatktærsklen (LT2)
 : Den anaerobe tærskel er når kroppen lige nøjagtigt kan nå at fjerne lige så meget mælkesyre, som der produceres. Den anaerobe tærskel er altså det punkt lige før produktionen af mælkesyre bliver større end den del der fjernes. Derfor kan der måles stigende koncentrationer af laktat i musklerne. Dette knaæk på kurven kaldes den *anaerobe tærskel*. Du kan læse mere om den [anaerobe tærskel](/anaerobe-taerskel/). Vi har også skrevet et indlæg, hvor vi [præciserer forskellen på mælkesyre og laktat](/maelkesyre-traening/).
 
@@ -215,6 +218,16 @@ Her er nogle forskellige bud på, hvordan de forskellige zoner kan måles på fo
 </div>
 
 Jeg har skrevet en side, hvor du kan få hjælp til at [udregne dine egne pulszoner](/pulszoner-beregner/), udregne [dine intensitetszoner ud fra FTP](/ftp-cykling/) eller mere om [critical power](/critical-power/).
+
+## Specifikke zoner: FatMax og Sweet Spot
+
+Ud over de klassiske puls- og wattzoner (Zone 1-5), vil du ofte støde på to meget populære begreber inden for moderne udholdenhedstræning: **FatMax** og **Sweet Spot**. De repræsenterer to vidt forskellige fysiologiske mål og bruges flittigt af både motionister og professionelle.
+
+{: .notice--info}
+**🔥 FatMax (Maksimal fedtforbrænding)** FatMax er den præcise intensitet – typisk omkring den aerobe tærskel og [Zone 2](/zone-2-traening/) – hvor din krop forbrænder flest gram fedt i minuttet. En høj FatMax er den absolutte "hellige gral" for cykelryttere og langdistanceløbere, da det sparer på kroppens begrænsede kulhydratlagre. 👉 [Læs alt om FatMax, VLamax og hvordan du tester det her](/fatmax/).
+
+{: .notice--success}
+**⏱️ Sweet Spot (Det tidsbesparende smørhul)** Sweet Spot ligger lige under din mælkesyretærskel / FTP (i toppen af Zone 3 / bunden af Zone 4). Det er en utroligt populær intensitet for atleter med begrænset tid, fordi den giver en massiv formfremgang (høj træningseffekt) uden at stresse nervesystemet i samme grad som ren tærskeltræning. 👉 [Læs vores guide til Sweet Spot og se eksempler på intervaller her](/sweet-spot-traening/).
 
 ## Konklusion
 

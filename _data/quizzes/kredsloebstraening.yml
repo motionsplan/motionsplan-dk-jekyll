@@ -1,0 +1,27 @@
+- question: "Hvad er den primære tilpasning i hjertet ved regelmæssig kredsløbstræning?"
+  options:
+    - "Hjertets pumpeevne og slagvolumen forøges, hvilket sænker hvilepulsen"
+    - "Hjertet pumper mindre blod ud pr. minuts arbejde"
+    - "Lungernes samlede volumen fordobles på få uger"
+  answer: "Kredsløbstræning styrker hjertemusklen (især venstre ventrikel), så hjertet pumper mere blod ud pr. slag. Det betyder, at det skal slå færre gange i minuttet i hvile."
+
+- question: "Hvilken tilpasning sker der i musklerne som følge af kredsløbstræning?"
+  options:
+    - "Musklernes evne til at optage og udnytte ilt forbedres betydeligt"
+    - "Musklerne mister evnen til at forbrænde fedtsyre"
+    - "Alle muskelfibre omdannes til hurtige Type IIx-fibre"
+  answer: "Ved konditionstræning dannes der flere kapillærer (små blodkar) omkring musklerne og flere mitokondrier i cellerne, hvilket forbedrer iltoptagelsen lokalt."
+
+- question: "Hvad skal være til stede i cellerne, for at den aerobe energiforbrænding kan forløbe?"
+  options:
+    - "Næringsstoffer (fedt eller kulhydrat) og Ilt (O2)"
+    - "Kun kreatinphosphat og mælkesyre"
+    - "Kuldioxid (CO2) og B-12 vitamin"
+  answer: "Den aerobe proces kræver ilt til at nedbryde fedtsyre og glukose fuldstændigt. Slutprodukterne er energi (ATP), vand og kuldioxid (CO2)."
+
+- question: "Hvad er kredsløbets overordnede hovedopgave i kroppen?"
+  options:
+    - "Transport af ilt, næringsstoffer, hormoner og affaldsstoffer"
+    - "Nedbrydning og genopbygning af knoglevæv"
+    - "Direkte styring af de viljestyrede muskelkontraktioner"
+  answer: "Blodkredsløbet fungerer som kroppens infrastruktursystem, der forsyner alle celler med ilt og næring samt transporterer $CO_2$ og affaldsstoffer bort."

@@ -54,6 +54,7 @@ feature_row_police_test:
   btn_label: Læs mere
   btn_class: btn--success
 classes: wide
+mathjax: true
 ---
 
 Velkommen til vores samlede **testkatalog**. Fysiske og psykologiske tests er det bedste redskab til at objektivisere din fysiske form, måle træningsfremgang og identificere svagheder.
@@ -136,7 +137,7 @@ Mål din mentale sundhed, trivsel og dit forhold til motion med validerede psyko
 
 ---
 
-## Genveje til Populære Enkelttests
+## Genveje til populære tests
 {: id="populaere" }
 
 Leder du efter en af vores mest benyttede specifikke guides eller beregnere, kan du gå direkte til dem her:
@@ -162,6 +163,8 @@ En **fitnesstest** er en struktureret måling af din fysiske formåen inden for 
 * 🤸‍♂️ **Smidighed & Smidighedstest:** Måling af leddenes bevægelighed og fleksibilitet.
 
 > 💡 **Tip til præcise målinger:** Udfør altid dine fitnesstests under de samme forhold (samme tidspunkt på dagen, samme opvarmning og samme udstyr) for at få et pålideligt sammenligningsgrundlag.
+
+{% include figure image_path="/assets/images/barbellmedicine.com/Screen-Shot-2019-10-30-at-9_36_43-PM-e1578938168537-1dac3e89.png" caption="Balancetræning er en af de træningsformer, man bør lave for at blive en komplet atlet. Kilde: [www.barbellmedicine.com](https://www.barbellmedicine.com/blog/resistance-training-for-youth-part-iv/) [📷](https://www.barbellmedicine.com/wp-content/uploads/2020/01/Screen-Shot-2019-10-30-at-9.36.43-PM-e1578938168537.png){: rel='nofollow noopener' }" alt=page.title %}
 
 ---
 

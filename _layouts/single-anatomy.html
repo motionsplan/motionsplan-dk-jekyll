@@ -26,10 +26,16 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="name">{{ page.name.da | default: page.title | markdownify | remove: "<p>" | remove: "</p>" }}{% if page.name.latin %} (<span itemprop="alternateName">{{ page.name.latin }}</span>){% endif%}</h1>{% endif %}
-          {% assign edit_url = 'https://github.com/{{site.repository}}/edit/master/' | append: page.path | absolute_url %}
+          {% if page.title %}
+            <h1 id="page-title" class="page__title" itemprop="name">
+              {{ page.name.da | default: page.title | markdownify | remove: "<p>" | remove: "</p>" }}
+              {% if page.name.latin %} (<span itemprop="alternateName">{{ page.name.latin }}</span>){% endif %}
+            </h1>
+          {% endif %}
+          
           {% assign edit_url = '/admin/#/collections/anatomy/entries/' | append: page.slug | absolute_url %}
           <p><a href="{{ edit_url }}" rel="nofollow noopener"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
+          
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
@@ -46,59 +52,22 @@ layout: default
           </aside>
         {% endif %}
 
+        {{ page.excerpt | markdownify }}
+
+        <!-- INTERAKTIVT MUSKELKORT / FAKTABOKS (Indeholder udspring, hæfte, funktioner, antagonist m.m.) -->
+        {% include components/muscle-card.html muscle=page %}
+
+        <!-- ARTIKLENS EGENLIGE BRØDTEKST -->
         {{ content }}
 
-        {% if page.insertion.da %}
-        <h2 id="origin">Udspring og hæfte for {{ page.title }}</h2>
-
-        <p>
-          <strong>Udspring:</strong> <span itemprop="insertion" itemscope itemtype="http://schema.org/Bone">{{ page.origin.da }}</span><br />
-          <strong>Hæfte:</strong> {{ page.insertion.da }}
-        </p>
-
-        {% endif %}
-
-        {% if page.image %}
-        {% include figure image_path=page.image alt=page.title caption=page.title %}
-        {% endif %}
-
-        <h2 id="function">{{ page.title }} funktion</h2>
-
-        <ul>
-        {% for f in page.function.da %}
-        <li itemscope name="muscleAction"><strong>{{ f.short }}</strong>. {{ f.extended | markdownify }}</li>
-        {% endfor %}
-        </ul>
-
-        {% if page.antagonist %}
-        <h2 id="antagonist">Antagonist for {{ page.title }}</h2>
-
-        <ul>
-        {% for f in page.antagonist %}
-        <li itemscope itemtype="http://schema.org/Muscle"><span itemprop="name">{{ f }}</span></li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-
-        {% if page.location %}
-        <h2 id="location">Placering af {{ page.title }}</h2>
-        <p>
-          <strong>Placering i kroppen:</strong>
-          <span itemprop="bodyLocation">
-            {{ page.location | markdownify }}
-          </span>
-        </p>
-        {% endif %}
-
-        {% if page.image_focus %}
-        {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
-        {% endif %}
-
+        <!-- EXTRA MEDIER OG TILDELINGER -->
         {% if page.video.id %}
           {% include video provider=page.video.provider id=page.video.id %}
         {% endif %}
 
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% if page.link %}
+          <div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+        {% endif %}
       
         {% assign signup = page.signup | default: site.signup.enabled %}
         {% if signup %}{% include_cached motionsplan/signup.html %}{% endif %}
@@ -122,7 +91,7 @@ layout: default
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
+  {% comment %}<!-- Vis kun relaterede på en post side når `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
@@ -132,7 +101,7 @@ layout: default
         {% endfor %}
       </div>
     </div>
-  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
+  {% comment %}<!-- Vis ellers seneste indlæg hvis ingen relaterede findes når `related: true` -->{% endcomment %}
   {% elsif page.id and page.related %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>

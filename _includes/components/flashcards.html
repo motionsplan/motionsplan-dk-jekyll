@@ -1,0 +1,218 @@
+{% comment %}
+-----------------------------------------------------------------------------
+MOTIONSPLAN.DK - ULTRA POLISHED FLASHCARD & QUIZ MODULE
+Sti: _includes/components/flashcards.html
+-----------------------------------------------------------------------------
+{% endcomment %}
+
+{% if include.front and include.back %}
+{% assign raw_front = include.front %}
+{% assign raw_back = include.back %}
+{% assign card_id = include.id | default: page.slug | default: "card" | append: "-single" %}
+
+{% assign front_html = raw_front | markdownify %}
+{% assign back_html = raw_back | markdownify %}
+
+<div class="mp-flashcard-stack-container">
+  <div class="mp-optout-overlay" style="display: none;">
+    <div class="mp-optout-box">
+      <h4>⚡ Flashcard Indstillinger</h4>
+      <p>Vil du altid skjul flashcards på motionsplan.dk, eller holde dem åbne næste gang?</p>
+      <div class="mp-optout-actions">
+        <button type="button" class="mp-btn-optout-disable">Skjul altid flashcards</button>
+        <button type="button" class="mp-btn-optout-keep">Hold dem åbne</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mp-card-stack">
+    <div class="mp-card-wrapper is-active" data-id="{{ card_id }}" data-url="{{ page.url }}"
+      data-title="{{ page.title | escape }}" data-correct-answer="{{ raw_back | strip | escape }}">
+
+      <div class="mp-card">
+        <!-- FORSIDE -->
+        <div class="mp-card-face mp-card-front">
+          <div class="mp-card-topbar">
+            <div class="mp-topbar-left">
+              <span class="mp-subheading">HURTIG REPETITION</span>
+              <span class="mp-badge-count">1 / 1</span>
+            </div>
+            <button type="button" class="mp-btn-close-trigger" title="Indstillinger for flashcards">✕</button>
+          </div>
+
+          <div class="mp-card-content">
+            <div class="mp-question-text">{{ front_html }}</div>
+          </div>
+
+          <div class="mp-card-bottombar">
+            <button type="button" class="mp-btn-flip">Vend kort 🔄</button>
+            <button type="button" class="mp-btn-skip">Skip ⏩</button>
+          </div>
+        </div>
+
+        <!-- BAGSIDE -->
+        <div class="mp-card-face mp-card-back">
+          <div class="mp-card-topbar">
+            <div class="mp-topbar-left">
+              <span class="mp-subheading">SVAR & FORKLARING</span>
+              <span class="mp-user-result-badge"></span>
+            </div>
+            <button type="button" class="mp-btn-close-trigger" title="Indstillinger for flashcards">✕</button>
+          </div>
+
+          <div class="mp-card-content">
+            <div class="mp-answer-text">{{ back_html }}</div>
+          </div>
+
+          <div class="mp-card-bottombar">
+            <div class="mp-rating-pills">
+              <button type="button" class="mp-pill mp-pill-hard" data-rating="hard">🔴 Svær</button>
+              <button type="button" class="mp-pill mp-pill-good" data-rating="good">🟡 OK</button>
+              <button type="button" class="mp-pill mp-pill-easy" data-rating="easy">🟢 Let</button>
+            </div>
+            <button type="button" class="mp-btn-skip">Skip ⏩</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mp-stack-complete" style="display: none;">
+    <div class="mp-complete-badge">🎉 REPETITION GENNEMFØRT</div>
+    <h3>Dine svar er gemt!</h3>
+    <p>Gennemgangen hjælper dig med at flytte det, du lige har læst, over i langtidshukommelsen.</p>
+
+    <div class="mp-complete-cta-box">
+      <p>📌 <strong>Tip:</strong> Bogmærk repetitions-siden for at gennemgå dine kort, når de er klar igen:</p>
+      <a href="/repetition/" class="mp-btn-cta">Gå til Mine Flashcards (/repetition/) ➔</a>
+    </div>
+  </div>
+</div>
+
+{% else %}
+
+{% assign card_list = include.cards | default: page.quiz | default: page.flashcards %}
+
+{% if card_list %}
+<div class="mp-flashcard-stack-container">
+
+  <div class="mp-optout-overlay" style="display: none;">
+    <div class="mp-optout-box">
+      <h4>⚡ Flashcard Indstillinger</h4>
+      <p>Vil du altid skjul flashcards på motionsplan.dk, eller holde dem åbne næste gang?</p>
+      <div class="mp-optout-actions">
+        <button type="button" class="mp-btn-optout-disable">Skjul altid flashcards</button>
+        <button type="button" class="mp-btn-optout-keep">Hold dem åbne</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mp-card-stack">
+    {% for card in card_list %}
+    {% assign raw_front = card.question | default: card.front %}
+    {% assign raw_back = card.answer | default: card.back %}
+
+    {% assign page_identifier = page.slug | default: page.url | slugify %}
+    {% assign question_identifier = raw_front | slugify %}
+    {% assign card_id = card.id | default: page_identifier | append: "-" | append: question_identifier %}
+
+    {% assign front_html = raw_front | markdownify %}
+
+    {% assign clean_back = raw_back | strip %}
+    {% if card.answer-attachment and card.answer-attachment != "" %}
+    {% assign img_md = "![" | append: "Forklaringsbillede](" | append: card.answer-attachment | append: ")" %}
+    {% assign full_back_md = clean_back | append: " " | append: img_md %}
+    {% else %}
+    {% assign full_back_md = clean_back %}
+    {% endif %}
+
+    {% assign back_html = full_back_md | markdownify %}
+
+    <div class="mp-card-wrapper {% if forloop.first %}is-active{% endif %}" data-id="{{ card_id }}"
+      data-url="{{ page.url }}" data-title="{{ page.title | escape }}"
+      data-correct-answer="{{ raw_back | strip | escape }}">
+
+      <div class="mp-card">
+
+        <!-- FORSIDE -->
+        <div class="mp-card-face mp-card-front">
+          <div class="mp-card-topbar">
+            <div class="mp-topbar-left">
+              <span class="mp-subheading">HURTIG REPETITION</span>
+              <span class="mp-badge-count">{{ forloop.index }} / {{ forloop.length }}</span>
+            </div>
+            <button type="button" class="mp-btn-close-trigger" title="Indstillinger for flashcards">✕</button>
+          </div>
+
+          <div class="mp-card-content {% if card.options %}has-options{% endif %}">
+            <div class="mp-question-text">{{ front_html }}</div>
+
+            {% if card.options %}
+            <div class="mp-options-grid">
+              {% for opt in card.options %}
+              <button type="button" class="mp-option-btn" data-value="{{ opt | escape }}" {% if forloop.first
+                %}data-correct="true" {% endif %}>
+                <span class="mp-option-letter"></span>
+                <span class="mp-option-text">{{ opt }}</span>
+              </button>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+
+          <div class="mp-card-bottombar">
+            {% unless card.options %}
+            <button type="button" class="mp-btn-flip">Vend kort 🔄</button>
+            {% else %}
+            <div></div>
+            {% endunless %}
+            <button type="button" class="mp-btn-skip">Skip ⏩</button>
+          </div>
+        </div>
+
+        <!-- BAGSIDE -->
+        <div class="mp-card-face mp-card-back">
+          <div class="mp-card-topbar">
+            <div class="mp-topbar-left">
+              <span class="mp-subheading">SVAR & FORKLARING</span>
+              <span class="mp-user-result-badge"></span>
+            </div>
+            <button type="button" class="mp-btn-close-trigger" title="Indstillinger for flashcards">✕</button>
+          </div>
+
+          <div class="mp-card-content">
+            <div class="mp-answer-text">{{ back_html }}</div>
+          </div>
+
+          <div class="mp-card-bottombar">
+            <div class="mp-rating-pills">
+              <button type="button" class="mp-pill mp-pill-hard" data-rating="hard">🔴 Svær</button>
+              <button type="button" class="mp-pill mp-pill-good" data-rating="good">🟡 OK</button>
+              <button type="button" class="mp-pill mp-pill-easy" data-rating="easy">🟢 Let</button>
+            </div>
+            <button type="button" class="mp-btn-skip">Skip ⏩</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- SLUT-BOKS -->
+  <div class="mp-stack-complete" style="display: none;">
+    <div class="mp-complete-badge">🎉 REPETITION GENNEMFØRT</div>
+    <h3>Dine svar er gemt!</h3>
+    <p>Gennemgangen hjælper dig med at flytte det, du lige har læst, over i langtidshukommelsen.</p>
+
+    <div class="mp-complete-cta-box">
+      <p>📌 <strong>Tip:</strong> Bogmærk repetitions-siden for at gennemgå dine kort, når de er klar igen:</p>
+      <a href="/repetition/" class="mp-btn-cta">Gå til Mine Flashcards ➔</a>
+    </div>
+  </div>
+
+</div>
+{% endif %}
+
+{% endif %}
+<script src="{{ '/assets/js/flashcards.js' | relative_url }}" defer></script>

@@ -1,0 +1,527 @@
+<div class="balance-timer-widget">
+
+  <!-- TOPBAR -->
+  <div class="bt-header-card">
+    <div class="bt-title-row">
+      <span class="bt-title">⏱️ Balancetimer & Asymmetriberegner</span>
+      <span class="bt-badge">Statisk Balance</span>
+    </div>
+    <div class="bt-desc">Mål din enkeltbensbalance, sammenlign forsøg og få en automatisk skadesrisiko- og asymmetrianalyse.</div>
+  </div>
+
+  <!-- 1. VÆLG TEST-TYPE (CUSTOM DROPDOWN MED FORKLARINGER) -->
+  <div class="bt-section-group">
+    <label class="bt-section-label">1. Vælg Balancetest:</label>
+
+    <div class="bt-custom-select" id="bt-test-selector">
+      <!-- Valgte test (Viser at man kan klikke/skifte) -->
+      <div class="bt-select-trigger" id="bt-select-trigger">
+        <div class="bt-trigger-content">
+          <div class="bt-option-title" id="bt-selected-title">Enkeltbensstand (Åbne øjne)</div>
+          <div class="bt-option-desc" id="bt-selected-desc">Basistest på flad fod. Måler generel ankelstabilitet og postural kontrol.</div>
+        </div>
+        <span class="bt-trigger-arrow">⚙️ Skift ▾</span>
+      </div>
+
+      <!-- Dropdown muligheder -->
+      <div class="bt-select-dropdown" id="bt-select-dropdown">
+        <div class="bt-select-option active" data-val="open">
+          <div class="bt-option-header">
+            <span class="bt-option-title">Enkeltbensstand (Åbne øjne)</span>
+            <span class="bt-option-check">✓</span>
+          </div>
+          <div class="bt-option-desc">Basistest på flad fod. Måler generel ankelstabilitet og postural kontrol.</div>
+        </div>
+
+        <div class="bt-select-option" data-val="closed">
+          <div class="bt-option-header">
+            <span class="bt-option-title">Enkeltbensstand (Lukkede øjne)</span>
+            <span class="bt-option-check"></span>
+          </div>
+          <div class="bt-option-desc">Fokus på ledsansen (proprioception). Måler skadesrisiko (10-sekunders grænsen).</div>
+        </div>
+
+        <div class="bt-select-option" data-val="stork">
+          <div class="bt-option-header">
+            <span class="bt-option-title">Stork Test (På tæer)</span>
+            <span class="bt-option-check"></span>
+          </div>
+          <div class="bt-option-desc">Avanceret atletisk test. Måler balance på trædepuden og udholdenhed i læggen.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. DOMINANT BEN SWITCH -->
+  <div class="bt-section-group">
+    <div class="bt-switch-row">
+      <span class="bt-section-label">2. Dominant Ben (f.eks. sparkeben):</span>
+      <div class="bt-segmented-switch">
+        <button type="button" class="bt-switch-btn active" data-val="right">Højre</button>
+        <button type="button" class="bt-switch-btn" data-val="left">Venstre</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIVE STOPUR DISPLAY & KNAPPER (2/3 og 1/3 opdeling) -->
+  <div class="bt-stopwatch-card">
+    <div class="bt-sw-label" id="bt-sw-target-label">Gemmes i: Dominant Ben (Forsøg 1)</div>
+    <div class="bt-sw-display" id="bt-sw-time">0.0</div>
+    <div class="bt-sw-unit">sekunder</div>
+
+    <div class="bt-sw-btn-row">
+      <!-- Hovedknap (Skifter mellem Start og Stop) -->
+      <button type="button" class="bt-main-timer-btn bt-btn-start" id="bt-btn-main">
+        ▶️ START
+      </button>
+
+      <!-- Nulstil knap (1/3 bredde) -->
+      <button type="button" class="bt-reset-timer-btn" id="bt-btn-reset">
+        🔄 Nulstil
+      </button>
+    </div>
+  </div>
+
+  <!-- 2 FORSØG PR. BEN (VANDRET OPSTILLING) -->
+  <div class="bt-data-grid">
+
+    <!-- DOMINANT BEN CARD -->
+    <div class="bt-leg-card bt-card-dom">
+      <div class="bt-leg-header">
+        <span class="bt-leg-title" id="bt-dom-title">🌟 Dominant (Højre)</span>
+        <span class="bt-leg-best" id="bt-dom-best">Bedste: 0.0s</span>
+      </div>
+
+      <!-- Vandret række med 2 forsøg -->
+      <div class="bt-trials-horizontal">
+        <div class="bt-trial-box">
+          <label for="dom-t1" class="bt-trial-lbl">Forsøg 1:</label>
+
+          <div class="bt-input-wrap">
+            <input type="number" step="0.1" class="bt-input-time" id="dom-t1" placeholder="0.0">
+            <span class="bt-input-unit">s</span>
+          </div>
+        </div>
+
+        <div class="bt-trial-box">
+          <label for="dom-t2" class="bt-trial-lbl">Forsøg 2:</label>
+
+          <div class="bt-input-wrap">
+            <input type="number" step="0.1" class="bt-input-time" id="dom-t2" placeholder="0.0">
+            <span class="bt-input-unit">s</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IKKE-DOMINANT BEN CARD -->
+    <div class="bt-leg-card bt-card-nondom">
+      <div class="bt-leg-header">
+        <span class="bt-leg-title" id="bt-nondom-title">🦵 Ikke-Dominant (Venstre)</span>
+        <span class="bt-leg-best" id="bt-nondom-best">Bedste: 0.0s</span>
+      </div>
+
+      <!-- Vandret række med 2 forsøg -->
+      <div class="bt-trials-horizontal">
+        <div class="bt-trial-box">
+          <label for="nondom-t1" class="bt-trial-lbl">Forsøg 1:</label>
+
+          <div class="bt-input-wrap">
+            <input type="number" step="0.1" class="bt-input-time" id="nondom-t1" placeholder="0.0">
+            <span class="bt-input-unit">s</span>
+          </div>
+        </div>
+
+        <div class="bt-trial-box">
+          <label for="nondom-t2" class="bt-trial-lbl">Forsøg 2:</label>
+
+          <div class="bt-input-wrap">
+            <input type="number" step="0.1" class="bt-input-time" id="nondom-t2" placeholder="0.0">
+            <span class="bt-input-unit">s</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- STRØMLINEDE & SYMMETRISKE RESULTATBOKSE -->
+  <div class="bt-results-wrapper">
+    <h5 class="bt-results-title">📊 Sammenligning & Asymmetrianalyse</h5>
+
+    <div class="bt-results-grid">
+      <div class="bt-res-box">
+        <span class="bt-res-val" id="bt-res-dom">0.0 s</span>
+        <span class="bt-res-lbl">Dominant (Bedste)</span>
+      </div>
+
+      <div class="bt-res-box">
+        <span class="bt-res-val" id="bt-res-nondom">0.0 s</span>
+        <span class="bt-res-lbl">Ikke-Dominant (Bedste)</span>
+      </div>
+
+      <div class="bt-res-box" id="bt-asym-card">
+        <span class="bt-res-val" id="bt-res-diff">0.0%</span>
+        <span class="bt-res-lbl">Side-asymmetri</span>
+        <span class="bt-res-sub" id="bt-res-diff-sub">0.0s forskel</span>
+      </div>
+    </div>
+
+    <!-- Evalueringsboks -->
+    <div class="bt-eval-box" id="bt-eval-box">
+      Indtast eller tag tid på begge ben for at få en automatisk skadesrisiko- og asymmetrianalyse.
+    </div>
+  </div>
+
+</div>
+
+<style>
+.balance-timer-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 20px;
+  max-width: 680px; width: 100%; margin: 2rem auto; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06); box-sizing: border-box; text-align: left;
+}
+.balance-timer-widget * { box-sizing: border-box; }
+
+.bt-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 12px 14px; margin-bottom: 14px; }
+.bt-title-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 6px; }
+.bt-title { font-weight: 800; font-size: 1rem; color: #1e293b; }
+.bt-badge { background: #228be6; color: #fff; font-size: 0.70rem; font-weight: 800; padding: 2px 8px; border-radius: 10px; }
+.bt-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+.bt-section-group { margin-bottom: 12px; }
+.bt-section-label { font-size: 0.78rem; font-weight: 800; color: #343a40; display: block; margin-bottom: 6px; }
+
+/* Custom Dropdown med forklaringer */
+.bt-custom-select { position: relative; width: 100%; }
+.bt-select-trigger {
+  background: #ffffff; border: 1.5px solid #228be6; border-radius: 10px; padding: 10px 12px;
+  display: flex; align-items: center; justify-content: space-between; cursor: pointer; transition: all 0.15s ease;
+}
+.bt-select-trigger:hover { background: #f8f9fa; }
+.bt-trigger-content { flex: 1; padding-right: 10px; }
+.bt-option-title { font-size: 0.85rem; font-weight: 800; color: #212529; }
+.bt-option-desc { font-size: 0.72rem; color: #6c757d; margin-top: 2px; line-height: 1.3; }
+.bt-trigger-arrow { font-size: 0.75rem; font-weight: 800; color: #1c7ed6; background: #e7f5ff; padding: 4px 8px; border-radius: 6px; white-space: nowrap; }
+
+.bt-select-dropdown {
+  position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: #ffffff;
+  border: 1px solid #ced4da; border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  z-index: 20; display: none; overflow: hidden;
+}
+.bt-select-dropdown.open { display: block; }
+
+.bt-select-option { padding: 10px 12px; border-bottom: 1px solid #f1f3f5; cursor: pointer; transition: background 0.15s ease; }
+.bt-select-option:last-child { border-bottom: none; }
+.bt-select-option:hover { background: #f8f9fa; }
+.bt-select-option.active { background: #e7f5ff; }
+.bt-option-header { display: flex; justify-content: space-between; align-items: center; }
+.bt-option-check { font-weight: 900; color: #228be6; font-size: 0.85rem; }
+
+/* Segmented Switch (Mand / Kvinde style) */
+.bt-switch-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.bt-segmented-switch {
+  display: inline-flex; background: #f1f3f5; border: 1px solid #ced4da; border-radius: 8px; padding: 2px;
+}
+.bt-switch-btn {
+  background: transparent; border: none; padding: 5px 14px; font-size: 0.80rem; font-weight: 800;
+  color: #495057; border-radius: 6px; cursor: pointer; transition: all 0.15s ease;
+}
+.bt-switch-btn.active { background: #228be6; color: #ffffff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+
+/* Stopwatch Card */
+.bt-stopwatch-card { background: #212529; color: #fff; border-radius: 14px; padding: 14px 16px; text-align: center; margin-bottom: 14px; }
+.bt-sw-label { font-size: 0.75rem; font-weight: 700; color: #adb5bd; margin-bottom: 2px; }
+.bt-sw-display { font-size: 3rem; font-weight: 900; font-family: monospace; letter-spacing: 1px; color: #40c057; line-height: 1; }
+.bt-sw-unit { font-size: 0.68rem; color: #868e96; text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+
+.bt-sw-btn-row { display: flex; gap: 8px; margin-top: 10px; }
+.bt-main-timer-btn {
+  flex: 2; padding: 10px; font-size: 0.90rem; font-weight: 900; border: none; border-radius: 8px;
+  cursor: pointer; transition: background 0.15s ease; color: #ffffff;
+}
+.bt-btn-start { background: #40c057; }
+.bt-btn-start:hover { background: #37b24d; }
+.bt-btn-stop { background: #fa5252; }
+.bt-btn-stop:hover { background: #e03131; }
+
+.bt-reset-timer-btn {
+  flex: 1; padding: 10px; font-size: 0.80rem; font-weight: 800; border: none; border-radius: 8px;
+  background: #495057; color: #ffffff; cursor: pointer; transition: background 0.15s ease;
+}
+.bt-reset-timer-btn:hover { background: #343a40; }
+
+/* Leg Cards & Vandret layout */
+.bt-data-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+@media(max-width: 520px) { .bt-data-grid { grid-template-columns: 1fr; } }
+
+.bt-leg-card { border: 1px solid #dee2e6; border-radius: 12px; padding: 12px; background: #fff; }
+.bt-card-dom { border-top: 4px solid #228be6; }
+.bt-card-nondom { border-top: 4px solid #7950f2; }
+
+.bt-leg-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; border-bottom: 1px solid #f1f3f5; padding-bottom: 6px; }
+.bt-leg-title { font-size: 0.82rem; font-weight: 900; color: #212529; }
+.bt-leg-best { font-size: 0.72rem; font-weight: 800; color: #2b8a3e; }
+
+.bt-trials-horizontal { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.bt-trial-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 6px 8px; }
+.bt-trial-lbl { font-size: 0.70rem; font-weight: 800; color: #495057; display: block; margin-bottom: 2px; }
+
+.bt-input-wrap { display: flex; align-items: center; justify-content: center; gap: 2px; }
+.bt-input-time {
+  width: 100%; padding: 4px; font-size: 0.90rem; font-weight: 900; text-align: center;
+  border: 1px solid #ced4da; border-radius: 6px; outline: none; background: #ffffff; color: #212529;
+}
+.bt-input-time:focus { border-color: #228be6; }
+.bt-input-unit { font-size: 0.72rem; font-weight: 700; color: #868e96; }
+
+/* Resultatbokse (Symmetriske og Strømlinede) */
+.bt-results-wrapper { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 12px; padding: 12px; }
+.bt-results-title { font-size: 0.85rem; font-weight: 800; margin: 0 0 10px 0; color: #212529; }
+
+.bt-results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+@media(max-width: 480px) { .bt-results-grid { grid-template-columns: 1fr; } }
+
+.bt-res-box {
+  background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 10px 6px;
+  display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: center;
+}
+.bt-res-val { font-size: 1.25rem; font-weight: 900; color: #212529; line-height: 1; }
+.bt-res-lbl { font-size: 0.65rem; font-weight: 800; color: #868e96; margin-top: 4px; }
+.bt-res-sub { font-size: 0.68rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+.bt-eval-box { background: #ffffff; border: 1px solid #ced4da; border-radius: 8px; padding: 10px; font-size: 0.78rem; color: #495057; line-height: 1.4; }
+.bt-eval-box.status-good { background: #ebfbee; border-color: #b2f2bb; color: #2b8a3e; }
+.bt-eval-box.status-warn { background: #fff9db; border-color: #ffe066; color: #f59f00; }
+.bt-eval-box.status-alert { background: #ffe3e3; border-color: #ff6b6b; color: #e03131; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const widget = document.querySelector(".balance-timer-widget");
+  if(!widget) return;
+
+  // Custom Dropdown & Test Data
+  const testSelector = widget.querySelector("#bt-test-selector");
+  const selectTrigger = widget.querySelector("#bt-select-trigger");
+  const selectDropdown = widget.querySelector("#bt-select-dropdown");
+  const selectedTitle = widget.querySelector("#bt-selected-title");
+  const selectedDesc = widget.querySelector("#bt-selected-desc");
+  const options = widget.querySelectorAll(".bt-select-option");
+
+  let currentTest = 'open';
+  let dominantLeg = 'right';
+
+  // Test Selection Toggle
+  selectTrigger.addEventListener("click", () => {
+    selectDropdown.classList.toggle("open");
+  });
+
+  options.forEach(opt => {
+    opt.addEventListener("click", () => {
+      options.forEach(o => {
+        o.classList.remove("active");
+        o.querySelector(".bt-option-check").textContent = "";
+      });
+      opt.classList.add("active");
+      opt.querySelector(".bt-option-check").textContent = "✓";
+
+      currentTest = opt.dataset.val;
+      selectedTitle.textContent = opt.querySelector(".bt-option-title").textContent;
+      selectedDesc.textContent = opt.querySelector(".bt-option-desc").textContent;
+
+      selectDropdown.classList.remove("open");
+      calculateAll();
+    });
+  });
+
+  // Close dropdown if clicked outside
+  document.addEventListener("click", (e) => {
+    if(!testSelector.contains(e.target)) selectDropdown.classList.remove("open");
+  });
+
+  // Dominant Leg Switch (Mand/Kvinde style)
+  const switchBtns = widget.querySelectorAll(".bt-switch-btn");
+  switchBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      switchBtns.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      dominantLeg = btn.dataset.val;
+      updateLegTitles();
+      calculateAll();
+    });
+  });
+
+  const domTitle = widget.querySelector("#bt-dom-title");
+  const nondomTitle = widget.querySelector("#bt-nondom-title");
+
+  function updateLegTitles() {
+    if(dominantLeg === 'right') {
+      domTitle.textContent = "🌟 Dominant (Højre)";
+      nondomTitle.textContent = "🦵 Ikke-Dominant (Venstre)";
+    } else {
+      domTitle.textContent = "🌟 Dominant (Venstre)";
+      nondomTitle.textContent = "🦵 Ikke-Dominant (Højre)";
+    }
+    updateTargetLabel();
+  }
+
+  // Timer state & targets
+  let timerInterval = null;
+  let startTime = 0;
+  let elapsedTime = 0;
+  let isRunning = false;
+
+  let activeTargetLeg = 'dom';
+  let activeTargetTrial = 1;
+
+  const swTargetLabel = widget.querySelector("#bt-sw-target-label");
+  const swDisplay = widget.querySelector("#bt-sw-time");
+  const btnMain = widget.querySelector("#bt-btn-main");
+  const btnReset = widget.querySelector("#bt-btn-reset");
+
+  function updateTargetLabel() {
+    const legText = activeTargetLeg === 'dom' ? 'Dominant' : 'Ikke-Dominant';
+    swTargetLabel.textContent = `Gemmes i: ${legText} Ben (Forsøg ${activeTargetTrial})`;
+  }
+
+  // Main Toggle Button Logic (Start -> Stop/Gem)
+  btnMain.addEventListener("click", function() {
+    if(!isRunning) {
+      // START TIMER
+      isRunning = true;
+      startTime = Date.now() - elapsedTime;
+      timerInterval = setInterval(() => {
+        elapsedTime = Date.now() - startTime;
+        swDisplay.textContent = (elapsedTime / 1000).toFixed(1);
+      }, 50);
+
+      btnMain.textContent = "⏹️ STOP & GEM";
+      btnMain.className = "bt-main-timer-btn bt-btn-stop";
+    } else {
+      // STOP & SAVE TIMER
+      isRunning = false;
+      clearInterval(timerInterval);
+
+      const finalSecs = (elapsedTime / 1000).toFixed(1);
+      swDisplay.textContent = finalSecs;
+
+      // Save to active input
+      const targetInput = widget.querySelector(`#${activeTargetLeg}-t${activeTargetTrial}`);
+      if(targetInput) {
+        targetInput.value = finalSecs;
+        calculateAll();
+      }
+
+      // Auto-advance target (Dom T1 -> Dom T2 -> NonDom T1 -> NonDom T2)
+      if(activeTargetTrial === 1) {
+        activeTargetTrial = 2;
+      } else if(activeTargetLeg === 'dom') {
+        activeTargetLeg = 'nondom';
+        activeTargetTrial = 1;
+      }
+      updateTargetLabel();
+
+      btnMain.textContent = "▶️ START";
+      btnMain.className = "bt-main-timer-btn bt-btn-start";
+    }
+  });
+
+  // Reset button
+  btnReset.addEventListener("click", function() {
+    isRunning = false;
+    clearInterval(timerInterval);
+    elapsedTime = 0;
+    swDisplay.textContent = "0.0";
+    btnMain.textContent = "▶️ START";
+    btnMain.className = "bt-main-timer-btn bt-btn-start";
+  });
+
+  // Manual Input Change listeners
+  const inputTimes = widget.querySelectorAll(".bt-input-time");
+  inputTimes.forEach(inp => inp.addEventListener("input", calculateAll));
+
+  // Results & Evaluation
+  const domBest = widget.querySelector("#bt-dom-best");
+  const nondomBest = widget.querySelector("#bt-nondom-best");
+  const resDom = widget.querySelector("#bt-res-dom");
+  const resNondom = widget.querySelector("#bt-res-nondom");
+  const resDiff = widget.querySelector("#bt-res-diff");
+  const resDiffSub = widget.querySelector("#bt-res-diff-sub");
+  const evalBox = widget.querySelector("#bt-eval-box");
+
+  function calculateAll() {
+    const domT1 = parseFloat(widget.querySelector("#dom-t1").value) || 0;
+    const domT2 = parseFloat(widget.querySelector("#dom-t2").value) || 0;
+    const nondomT1 = parseFloat(widget.querySelector("#nondom-t1").value) || 0;
+    const nondomT2 = parseFloat(widget.querySelector("#nondom-t2").value) || 0;
+
+    const domMax = Math.max(domT1, domT2);
+    const nondomMax = Math.max(nondomT1, nondomT2);
+
+    domBest.textContent = `Bedste: ${domMax.toFixed(1)}s`;
+    nondomBest.textContent = `Bedste: ${nondomMax.toFixed(1)}s`;
+
+    resDom.textContent = `${domMax.toFixed(1)} s`;
+    resNondom.textContent = `${nondomMax.toFixed(1)} s`;
+
+    if(domMax === 0 || nondomMax === 0) {
+      resDiff.textContent = "0.0%";
+      resDiffSub.textContent = "0.0s forskel";
+      evalBox.className = "bt-eval-box";
+      evalBox.innerHTML = "Indtast eller tag tid på begge ben for at få en automatisk skadesrisiko- og asymmetrianalyse.";
+      return;
+    }
+
+    const diffSecs = Math.abs(domMax - nondomMax);
+    const asymPct = ((diffSecs / Math.max(domMax, nondomMax)) * 100).toFixed(1);
+
+    resDiff.textContent = `${asymPct}%`;
+    resDiffSub.textContent = `${diffSecs.toFixed(1)}s forskel`;
+
+    let evalMsg = "";
+    let statusClass = "status-good";
+
+    if(currentTest === 'closed') {
+      if(domMax < 10 || nondomMax < 10) {
+        statusClass = "status-alert";
+        evalMsg = `<strong>⚠️ Forhøjet Skadesrisiko (Ankelstabilitet):</strong> Du scorer under 10 sekunder på det ene ben med lukkede øjne. Forskning (Trojian & McKeag) viser, at dette giver op til <strong>2,5 gange højere risiko for ankelskader</strong>.`;
+      } else if(parseFloat(asymPct) > 15) {
+        statusClass = "status-warn";
+        evalMsg = `<strong>🟡 Betydelig Asymmetri:</strong> Din forskel på ${asymPct}% overstiger de anbefalede 10–15%. Målret din balancetræning mod dit <em>${domMax < nondomMax ? 'dominerende' : 'ikke-dominerende'}</em> ben.`;
+      } else {
+        statusClass = "status-good";
+        evalMsg = `<strong>✅ Flot resultat:</strong> Du har god postural kontrol med lukkede øjne (>10 sekunder) og fin symmetri mellem benene (${asymPct}% forskel).`;
+      }
+    } else if(currentTest === 'stork') {
+      const minBest = Math.min(domMax, nondomMax);
+      if(minBest < 10) {
+        statusClass = "status-warn";
+        evalMsg = `<strong>🟡 Under gennemsnittet for Stork Test:</strong> Balancetid under 10 sekunder på tæer tyder på svag udholdenhed i lægmuskulaturen eller ankelstabiliteten.`;
+      } else if(parseFloat(asymPct) > 15) {
+        statusClass = "status-warn";
+        evalMsg = `<strong>🟡 Asymmetri opdaget:</strong> Du har ${asymPct}% forskel på tæerne. Arbejd med lægløft og enkeltbens balance på det svageste ben.`;
+      } else {
+        statusClass = "status-good";
+        evalMsg = `<strong>✅ Stærk atletisk balance:</strong> Flot udholdenhed og stabilitet på tæerne med under 15% side-forskellighed.`;
+      }
+    } else {
+      if(domMax < 30 || nondomMax < 30) {
+        statusClass = "status-warn";
+        evalMsg = `<strong>🟡 Plads til forbedring:</strong> Voksne bør i snit kunne holde balancen ubesværet i 30–60 sekunder på flad fod med åbne øjne.`;
+      } else if(parseFloat(asymPct) > 15) {
+        statusClass = "status-warn";
+        evalMsg = `<strong>🟡 Side-asymmetri:</strong> Du har ${asymPct}% forskel mellem dine ben. Målret dine øvelser mod det svagere ben.`;
+      } else {
+        statusClass = "status-good";
+        evalMsg = `<strong>✅ Godkendt basisfunktion:</strong> Stabil balance på begge ben med åbne øjne og fin symmetri.`;
+      }
+    }
+
+    evalBox.className = `bt-eval-box ${statusClass}`;
+    evalBox.innerHTML = evalMsg;
+  }
+
+  updateLegTitles();
+});
+</script>

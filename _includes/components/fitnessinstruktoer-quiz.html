@@ -1,0 +1,149 @@
+<!-- Tilsvarer dit design fra motionsplan.dk -->
+<style>
+  .mp-quiz-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 1.5rem 0 2rem 0;
+  }
+
+  .mp-cat-btn {
+    background: #f1f5f9;
+    border: 1.5px solid #cbd5e1;
+    color: #334155;
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .mp-cat-btn:hover {
+    background: #e2e8f0;
+    color: #0f172a;
+  }
+
+  .mp-cat-btn.active {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  }
+/* ==========================================================================
+   STAK-STYRING (Sikrer at kun det aktuelt aktive kort vises)
+   ========================================================================== */
+
+.mp-card-stack {
+  position: relative;
+  width: 100%;
+  min-height: 380px; /* Forhindrer at containeren klapper sammen */
+  margin-top: 1rem;
+}
+
+/* Skjul alle kortstakke som udgangspunkt */
+.mp-card-wrapper {
+  display: none;
+}
+
+/* Vis kun det kort der har klassen .is-active */
+.mp-card-wrapper.is-active {
+  display: block;
+}
+</style>
+
+<p class="lead">Test din viden før den afsluttende prøve. Vælg et af modulerne herunder for at starte repetitionen:</p>
+
+<!-- KATEGORI KNAPPER -->
+<div class="mp-quiz-categories">
+  <button type="button" class="mp-cat-btn active" data-cat="fysiologi" onclick="selectQuizCategory('fysiologi', this)">🧬 Fysiologi</button>
+  <button type="button" class="mp-cat-btn" data-cat="anatomi" onclick="selectQuizCategory('anatomi', this)">🦴 Anatomi</button>
+  <button type="button" class="mp-cat-btn" data-cat="traeningslaere" onclick="selectQuizCategory('traeningslaere', this)">📖 Træningslære</button>
+  <button type="button" class="mp-cat-btn" data-cat="kredsloebstraening" onclick="selectQuizCategory('kredsloebstraening', this)">❤️ Kredsløbstræning og konditionstræning</button>
+  <button type="button" class="mp-cat-btn" data-cat="traeningsoevelser" onclick="selectQuizCategory('traeningsoevelser', this)">💪 Træningsøvelser</button>
+  <button type="button" class="mp-cat-btn" data-cat="programlaegning" onclick="selectQuizCategory('programlaegning', this)">📝 Programlægning</button>
+  <button type="button" class="mp-cat-btn" data-cat="maalgrupper" onclick="selectQuizCategory('maalgrupper', this)">🎯 Specifikke målgrupper</button>
+  <button type="button" class="mp-cat-btn" data-cat="skader" onclick="selectQuizCategory('skader', this)">🩹 Skadesbehandling</button>
+  <button type="button" class="mp-cat-btn" data-cat="doping" onclick="selectQuizCategory('doping', this)">⚠️ Information om doping og motionsdoping</button>
+</div>
+
+<!-- KORTESTAKKE (Kun den aktive er synlig) -->
+<div id="quiz-fysiologi" class="mp-quiz-panel" style="display: block;">
+  {% include components/flashcards.html cards=site.data.quizzes.fysiologi %}
+</div>
+
+<div id="quiz-anatomi" class="mp-quiz-panel" style="display: none;">
+  {% include components/flashcards.html cards=site.data.quizzes.anatomi %}
+</div>
+
+<div id="quiz-traeningslaere" class="mp-quiz-panel" style="display: none;">
+  {% include components/flashcards.html cards=site.data.quizzes.traeningslaere %}
+</div>
+
+<div id="quiz-kredsloebstraening" class="mp-quiz-panel" style="display: none;">
+  {% include components/flashcards.html cards=site.data.quizzes.kredsloebstraening %}
+</div>
+
+<div id="quiz-traeningsoevelser" class="mp-quiz-panel" style="display: none;">
+  {% include components/flashcards.html cards=site.data.quizzes.traeningsoevelser %}
+</div>
+
+<div id="quiz-programlaegning" class="mp-quiz-panel" style="display: none;">
+  {% include components/flashcards.html cards=site.data.quizzes.programlaegning %}
+</div>
+
+<div id="quiz-maalgrupper" class="mp-quiz-panel" style="display: none;">
+  {% include components/flashcards.html cards=site.data.quizzes.specifikke_maalgrupper %}
+</div>
+
+<div id="quiz-skader" class="mp-quiz-panel" style="display: none;">
+  {% include components/flashcards.html cards=site.data.quizzes.skadesbehandling %}
+</div>
+
+<div id="quiz-doping" class="mp-quiz-panel" style="display: none;">
+  {% include components/flashcards.html cards=site.data.quizzes.doping %}
+</div>
+
+<!-- JAVASCRIPT TIL KATEGORI-SKIFT & HASH-ROUTING -->
+<script>
+function selectQuizCategory(catId, btnElement) {
+  // 1. Skjul alle paneler
+  document.querySelectorAll('.mp-quiz-panel').forEach(panel => {
+    panel.style.display = 'none';
+  });
+
+  // 2. Vis det valgte panel
+  const target = document.getElementById('quiz-' + catId);
+  if (target) {
+    target.style.display = 'block';
+  }
+
+  // 3. Opdater aktiv knap
+  document.querySelectorAll('.mp-cat-btn').forEach(btn => btn.classList.remove('active'));
+  
+  if (!btnElement) {
+    btnElement = document.querySelector(`.mp-cat-btn[data-cat="${catId}"]`);
+  }
+  if (btnElement) {
+    btnElement.classList.add('active');
+  }
+
+  // 4. Opdater URL i adressebaren (fx /fitnessinstruktoer/#anatomi)
+  if (history.pushState) {
+    history.pushState(null, null, '#' + catId);
+  } else {
+    location.hash = '#' + catId;
+  }
+}
+
+// Læs URL-hash når siden indlæses (fx fra et direkte link)
+document.addEventListener('DOMContentLoaded', () => {
+  const hash = window.location.hash.replace('#', '');
+  if (hash && document.getElementById('quiz-' + hash)) {
+    selectQuizCategory(hash);
+  }
+});
+</script>

@@ -270,9 +270,11 @@ På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv so
 
 {% include feature_row id="feature_row_rm_calculator" type="left" %}
 
-## Quiz om fitnessinstruktør
+## 🤔 Quiz om fitnessinstruktør
 
-På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktoer/). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
+{% include components/fitnessinstruktoer-quiz.html %}
+
+På Vejle Idrætshøjskole underviser vi i [Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktoer/). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
 
 <details markdown="1" class="faq">
   <summary>🤔 Prøv selv en quiz - Sådan virker det</summary>

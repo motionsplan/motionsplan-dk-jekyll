@@ -1,10 +1,8 @@
 ---
 title: Bænkpres i styrkeløft – Teknik, regler og træning
 seo_title: Bænkpres i styrkeløft – Teknik, regler og træning
-excerpt: Sådan laver du bænkpres i styrkeløft. Se reglerne for dybde, pause, udførelse og de bedste teknikker til at løfte
-  tungt i konkurrence.
-description: Sådan laver du bænkpres i styrkeløft. Se reglerne for dybde, pause, udførelse og de bedste teknikker til at løfte
-  tungt i konkurrence.
+excerpt: Sådan laver du bænkpres i styrkeløft. Se reglerne for dybde, pause, udførelse og de bedste teknikker til at løfte tungt i konkurrence.
+description: Sådan laver du bænkpres i styrkeløft. Se reglerne for dybde, pause, udførelse og de bedste teknikker til at løfte tungt i konkurrence.
 permalink: /styrkeloeft/baenkpres/
 slanguage: da
 header:
@@ -42,10 +40,18 @@ feature_row_spreadsheet:
   btn_label: <i class='fas fa-file-excel'></i> Sheet med forslag til forsøg
   btn_class: btn--success
 quiz:
-- question: Må hovedet løftes fra bænken i bænkpres?
-  answer: Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
-  answer-attachment: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
-  credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+flashcards:
+  - question: "Må hovedet løftes fra bænken i bænkpres?"
+    answer: |
+      Nej, hovedet, skuldrene og ballerne skal røre bænken, og fødderne skal være flade i gulvet.
+      ![Bænkpres teknik](/assets/images/i.ytimg.com/maxresdefault-61842227.jpg)
+  - question: "Hvor bredt må man gribe stangen i konkurrence?"
+    answer: "Maksimalt **81 cm** mellem pegefingrene (markeret med ringe på stangen)."
+  - question: "Hvad er formålet med at lave et opspænd (arch)?"
+    answer: |
+      Et opspænd har to primære formål:
+      * Forkorter bevægeområdet (ROM)
+      * Skaber en mere stabil platform at presse fra
 feature_row_biomekanik:
 - image_path: /assets/images/blog/biomekanik-benchpress.jpg
   alt: Biomekanik i bænkpres - forstå kraftoverførsel
@@ -137,6 +143,8 @@ Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig 
 
 - Er du ny i styrkeløft? Læs den [komplette guide til styrkeløft](/styrkeloeft/).
 - Lær mere om teknikken i [guiden til bænkpres med stang](/oevelse/baenkpres/).
+
+{% include components/flashcards.html cards=page.flashcards %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

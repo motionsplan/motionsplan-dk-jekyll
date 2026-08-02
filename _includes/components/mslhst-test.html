@@ -1,0 +1,750 @@
+<div class="mslhst-widget">
+  
+  <!-- Info Modal -->
+  <div class="mslhst-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om MSLHST (Multiple Single-Leg Hop Stabilization Test)</h4>
+        <span class="modal-subtitle-text">Valideret måling af dynamisk hop- & landingsstabilitet</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>BANEUDMÅLING OG FORMEL:</strong><br>
+        • Diagonal afstand mellem mærker: <code>y = 45% af atletens højde</code><br>
+        • Vandret/lodret afstand mellem mærker: <code>x = √(y² / 2)</code><br>
+        • Mærkerne er 2,5 cm × 2,5 cm felter tape på gulvet.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Fejlkriterier (0 fejl = Perfekt score)</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0; line-height: 1.5;">
+        <li><strong>L1 (Landingsfejl):</strong> Foden dækker ikke mærket helt ved landing.</li>
+        <li><strong>L2 (Landingsfejl):</strong> Foden roteret mere end ±10° i landingen.</li>
+        <li><strong>L3 (Landingsfejl):</strong> Vakler/stumbling eller mistet balance i landingsstødet.</li>
+        <li><strong>L4 (Landingsfejl):</strong> Hænder fjernes fra hofterne i landingen.</li>
+        <li><strong>B1 (Balancefejl 5s):</strong> Den frie fod rører gulvet under 5 sekunders hold.</li>
+        <li><strong>B2 (Balancefejl 5s):</strong> Benene/knæene berører hinanden.</li>
+        <li><strong>B3 (Balancefejl 5s):</strong> Overkroppen hælder >30° eller store armbevægelser.</li>
+        <li><strong>B4 (Balancefejl 5s):</strong> Hænder fjernes fra hofterne under de 5 sekunder.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="mslhst-topbar">
+    <div class="mslhst-header-card">
+      <div class="card-title-row">
+        <span class="card-title">MSLHST Hop- & Landingsberegner</span>
+        <button class="info-icon-btn" type="button" title="Læs om regler og formler">ℹ️</button>
+      </div>
+      <div class="card-desc">Beregner baneudmåling baseret på atletens højde og giver et hurtigt modul til fejlscoring på begge ben.</div>
+    </div>
+
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="mslhst-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- STEP 1: AFSTANDSBEREGNER -->
+  <div class="calc-card">
+    <div class="calc-header">📏 Trin 1: Beregn Afstande mellem Mærker</div>
+    <div class="calc-body">
+      <div class="height-input-row">
+        <label for="input-height" class="height-label">Atletens Højde (cm):</label>
+        <input type="number" id="input-height" class="height-input" placeholder="f.eks. 175" value="175" min="120" max="220" step="1">
+      </div>
+      <div class="presets-row">
+        <span class="preset-label">Hurtigvalg:</span>
+        <button type="button" class="preset-btn" data-h="160">160 cm</button>
+        <button type="button" class="preset-btn" data-h="170">170 cm</button>
+        <button type="button" class="preset-btn" data-h="180">180 cm</button>
+        <button type="button" class="preset-btn" data-h="190">190 cm</button>
+      </div>
+      <div class="results-box">
+        <div class="res-item">
+          <span class="res-value" id="res-y">78.8 cm</span>
+          <span class="res-label">Diagonal Afstand (y)</span>
+          <span class="res-sub">45% af kropshøjden</span>
+        </div>
+        <div class="res-item">
+          <span class="res-value" id="res-x">55.7 cm</span>
+          <span class="res-label">Vandret / Lodret (x)</span>
+          <span class="res-sub">√(y² / 2)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 2: INTERAKTIV BANE VISUALISERING (OG GRAPHIC LEGEND) -->
+  <div class="visual-card">
+    <div class="visual-header">📐 Banelayout (1–10) & Udmålingsprincip</div>
+    
+    <div class="visual-grid">
+      <!-- VENSTRE: INTERAKTIV HOPBANE MED MIDTERCENTRERET START OG 10 -->
+      <div class="svg-wrapper">
+        <div class="svg-title">Hop-rækkefølge (Klik for mærke)</div>
+        <svg id="mslhst-svg" viewBox="0 0 170 420" preserveAspectRatio="xMidYMid meet">
+          <rect x="2" y="2" width="166" height="416" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+          
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#e03131" />
+            </marker>
+          </defs>
+
+          <!-- Stiplede røde pile mellem punkterne -->
+          <g stroke="#e03131" stroke-width="1.8" stroke-dasharray="3,3" fill="none" marker-end="url(#arrow)">
+            <path d="M 75 373 L 42 338" />  <!-- Start (Center) -> 1 (Left) -->
+            <path d="M 48 325 L 122 325" /> <!-- 1 (Left) -> 2 (Right) -->
+            <path d="M 125 312 L 45 278" /> <!-- 2 (Right) -> 3 (Left) -->
+            <path d="M 48 265 L 122 265" /> <!-- 3 (Left) -> 4 (Right) -->
+            <path d="M 125 252 L 95 218" /> <!-- 4 (Right) -> 5 (Center) -->
+            <path d="M 95 192 L 125 158" /> <!-- 5 (Center) -> 6 (Right) -->
+            <path d="M 122 145 L 48 145" stroke-dasharray="3,3" /> <!-- 6 (Right) -> 7 (Left) -->
+            <path d="M 45 132 L 125 98" />  <!-- 7 (Left) -> 8 (Right) -->
+            <path d="M 122 85 L 48 85" />   <!-- 8 (Right) -> 9 (Left) -->
+            <path d="M 45 72 L 75 38" />    <!-- 9 (Left) -> 10 (Center) -->
+          </g>
+
+          <!-- Start Boks (Centreret nederst) -->
+          <g class="svg-start-node">
+            <rect x="68" y="373" width="34" height="24" rx="4" fill="#ced4da" stroke="#495057" stroke-width="1.5"/>
+            <text x="85" y="388" font-size="8" font-weight="900" text-anchor="middle" fill="#212529">START</text>
+          </g>
+
+          <!-- Mærker 1 til 10 -->
+          <g id="svg-markers-group">
+            <!-- Row 5 (Bottom): 1 (Left), 2 (Right) -->
+            <!-- 1 --> <g class="svg-marker-node" data-m="1"><rect x="22" y="312" width="26" height="26" rx="4" class="m-rect"/><text x="35" y="329" class="m-text">1</text></g>
+            <!-- 2 --> <g class="svg-marker-node" data-m="2"><rect x="122" y="312" width="26" height="26" rx="4" class="m-rect"/><text x="135" y="329" class="m-text">2</text></g>
+
+            <!-- Row 4: 3 (Left), 4 (Right) -->
+            <!-- 3 --> <g class="svg-marker-node" data-m="3"><rect x="22" y="252" width="26" height="26" rx="4" class="m-rect"/><text x="35" y="269" class="m-text">3</text></g>
+            <!-- 4 --> <g class="svg-marker-node" data-m="4"><rect x="122" y="252" width="26" height="26" rx="4" class="m-rect"/><text x="135" y="269" class="m-text">4</text></g>
+
+            <!-- Row 3: 5 (Center) -->
+            <!-- 5 --> <g class="svg-marker-node" data-m="5"><rect x="72" y="192" width="26" height="26" rx="4" class="m-rect"/><text x="85" y="209" class="m-text">5</text></g>
+
+            <!-- Row 2: 7 (Left), 6 (Right) -->
+            <!-- 6 --> <g class="svg-marker-node" data-m="6"><rect x="122" y="132" width="26" height="26" rx="4" class="m-rect"/><text x="135" y="149" class="m-text">6</text></g>
+            <!-- 7 --> <g class="svg-marker-node" data-m="7"><rect x="22" y="132" width="26" height="26" rx="4" class="m-rect"/><text x="35" y="149" class="m-text">7</text></g>
+
+            <!-- Row 1: 9 (Left), 8 (Right) -->
+            <!-- 8 --> <g class="svg-marker-node" data-m="8"><rect x="122" y="72" width="26" height="26" rx="4" class="m-rect"/><text x="135" y="89" class="m-text">8</text></g>
+            <!-- 9 --> <g class="svg-marker-node" data-m="9"><rect x="22" y="72" width="26" height="26" rx="4" class="m-rect"/><text x="35" y="89" class="m-text">9</text></g>
+
+            <!-- Row 0 (Top): 10 (Center) -->
+            <!-- 10 --> <g class="svg-marker-node" data-m="10"><rect x="72" y="12" width="26" height="26" rx="4" class="m-rect"/><text x="85" y="29" class="m-text">10</text></g>
+          </g>
+        </svg>
+      </div>
+
+      <!-- HØJRE: FORKLARINGS-FIGUR MED X, Y OG FORMEL -->
+      <div class="legend-graphic-box">
+        <div class="svg-title">Afstands-forklaring</div>
+        <svg viewBox="0 0 160 210" preserveAspectRatio="xMidYMid meet" class="legend-svg">
+          <rect x="2" y="2" width="156" height="206" rx="10" fill="#ffffff" stroke="#e9ecef" stroke-width="1.5"/>
+
+          <!-- Mærker 6, 7, 8, 9 udboring -->
+          <rect x="25" y="105" width="24" height="24" rx="3" fill="#d04848"/>
+          <text x="37" y="121" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">7</text>
+
+          <rect x="95" y="105" width="24" height="24" rx="3" fill="#d04848"/>
+          <text x="107" y="121" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">6</text>
+
+          <rect x="25" y="35" width="24" height="24" rx="3" fill="#d04848"/>
+          <text x="37" y="51" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">9</text>
+
+          <rect x="95" y="35" width="24" height="24" rx="3" fill="#d04848"/>
+          <text x="107" y="51" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">8</text>
+
+          <!-- Sti 6->7 & 7->8 & 8->9 -->
+          <path d="M 95 117 L 49 117" stroke="#e03131" stroke-width="1.5" stroke-dasharray="2,2" fill="none"/>
+          <path d="M 37 105 L 107 59" stroke="#e03131" stroke-width="1.5" stroke-dasharray="2,2" fill="none"/>
+          <path d="M 95 47 L 49 47" stroke="#e03131" stroke-width="1.5" stroke-dasharray="2,2" fill="none"/>
+
+          <!-- Dobbelt-pile for X (Vandret) -->
+          <g stroke="#212529" stroke-width="1.5" fill="none">
+            <line x1="52" y1="23" x2="90" y2="23"/>
+            <polygon points="53,20 47,23 53,26" fill="#212529"/>
+            <polygon points="89,20 95,23 89,26" fill="#212529"/>
+          </g>
+          <text x="71" y="18" font-size="11" font-weight="900" fill="#212529" text-anchor="middle">x</text>
+
+          <!-- Dobbelt-pile for X (Lodret) -->
+          <g stroke="#212529" stroke-width="1.5" fill="none">
+            <line x1="129" y1="62" x2="129" y2="100"/>
+            <polygon points="126,63 129,57 132,63" fill="#212529"/>
+            <polygon points="126,99 129,105 132,99" fill="#212529"/>
+          </g>
+          <text x="140" y="85" font-size="11" font-weight="900" fill="#212529" text-anchor="middle">x</text>
+
+          <!-- Dobbelt-pile for Y (Diagonal) -->
+          <g stroke="#212529" stroke-width="1.5" fill="none">
+            <line x1="45" y1="92" x2="72" y2="72"/>
+            <polygon points="44,87 40,96 49,93" fill="#212529"/>
+            <polygon points="69,67 77,68 73,77" fill="#212529"/>
+          </g>
+          <text x="54" y="74" font-size="11" font-weight="900" fill="#212529" text-anchor="middle">y</text>
+
+          <!-- Formel Tekst felt -->
+          <text x="80" y="152" font-size="9" font-weight="800" fill="#343a40" text-anchor="middle">y = 45% af højde</text>
+          <text x="80" y="168" font-size="10" font-weight="900" fill="#343a40" text-anchor="middle">x = √(y² / 2)</text>
+          <rect x="35" y="180" width="14" height="14" fill="#d04848" rx="2"/>
+          <text x="54" y="191" font-size="9" font-weight="800" fill="#495057">= 2,5 cm tape</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 3: INTERAKTIV FEJL-SCORING -->
+  <div class="scoring-card">
+    <div class="scoring-header">📝 Trin 2: Registrer Fejl under Testen</div>
+    
+    <!-- BEN SKIFT TABS -->
+    <div class="leg-tabs">
+      <button type="button" class="leg-tab active left-tab" data-leg="left">👈 VENSTRE BEN</button>
+      <button type="button" class="leg-tab right-tab" data-leg="right">👉 HØJRE BEN</button>
+    </div>
+
+    <!-- HURTIG MÆRKE-VÆLGER (BUTTONS 1-10) -->
+    <div class="marker-selector-bar">
+      <span class="selector-title">Vælg Mærke:</span>
+      <div class="marker-btns-grid" id="marker-btns-container">
+        <!-- Knapper 1 til 10 genereres her -->
+      </div>
+    </div>
+
+    <!-- SKEMA OG TOGGLE KNAPPER FOR VALGTE MÆRKE -->
+    <div class="active-marker-card" id="active-marker-card">
+      <div class="active-marker-title" id="active-marker-title">Registrer Fejl for Mærke #1 (Venstre Ben)</div>
+      
+      <!-- Landingsfejl -->
+      <div class="error-group">
+        <div class="error-group-label">🛬 Landingsfejl (Maks 4):</div>
+        <div class="chips-grid">
+          <button type="button" class="chip-btn" data-type="L1">L1: Ved siden af mærke</button>
+          <button type="button" class="chip-btn" data-type="L2">L2: Fod skæv >10°</button>
+          <button type="button" class="chip-btn" data-type="L3">L3: Mistet balancestød</button>
+          <button type="button" class="chip-btn" data-type="L4">L4: Hænder af hofter</button>
+        </div>
+      </div>
+
+      <!-- Balancefejl (5 sekunder) -->
+      <div class="error-group">
+        <div class="error-group-label">⚖️ Balancefejl under 5 sek. hold (Maks 4):</div>
+        <div class="chips-grid">
+          <button type="button" class="chip-btn" data-type="B1">B1: Fri fod på gulv</button>
+          <button type="button" class="chip-btn" data-type="B2">B2: Ben rører hinanden</button>
+          <button type="button" class="chip-btn" data-type="B3">B3: Overkrop hælder >30°</button>
+          <button type="button" class="chip-btn" data-type="B4">B4: Hænder af hofter 5s</button>
+        </div>
+      </div>
+
+      <div class="marker-subtotal" id="marker-subtotal-text">Fejl på mærke 1: 0 (0 Landing, 0 Balance)</div>
+    </div>
+  </div>
+
+  <!-- RESULTATER OG SAMMENLIGNINGS-TABEL -->
+  <div class="mslhst-stats-wrapper">
+    <h5 class="section-title">📊 Samlet Resultat & Asymmetri</h5>
+    
+    <div class="mslhst-stats-grid">
+      <div class="stat-box left-box">
+        <span class="stat-value" id="stat-left-total">0</span>
+        <span class="stat-label">VENSTRE BEN FEJL</span>
+        <span class="stat-sub" id="stat-left-sub">0 Landing / 0 Balance</span>
+      </div>
+      <div class="stat-box right-box">
+        <span class="stat-value" id="stat-right-total">0</span>
+        <span class="stat-label">HØJRE BEN FEJL</span>
+        <span class="stat-sub" id="stat-right-sub">0 Landing / 0 Balance</span>
+      </div>
+      <div class="stat-box" id="asym-card">
+        <span class="stat-value" id="stat-diff-total">0</span>
+        <span class="stat-label">SIDE-FORSKEL (ASYMMETRI)</span>
+        <span class="stat-sub" id="stat-risk-status">0 fejl i alt</span>
+      </div>
+    </div>
+
+    <!-- SPECIFIK MÆRKE-TABEL -->
+    <div class="table-card">
+      <table class="mslhst-detail-table">
+        <thead>
+          <tr>
+            <th>Mærke</th>
+            <th>Venstre (Fejl)</th>
+            <th>Højre (Fejl)</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="summary-tbody">
+          <!-- Dynamisk fyldt af JS -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- BROWSER LOG TABEL -->
+  <div class="mslhst-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="mslhst-log-table">
+      <thead>
+        <tr>
+          <th>Dato</th>
+          <th>Venstre Fejl</th>
+          <th>Højre Fejl</th>
+          <th>Forskel</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SCREENSHOT KNAP -->
+  <div class="mslhst-screenshot-wrapper">
+    <button class="btn--screenshot btn-take-screenshot" type="button">📸 Tag et billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.mslhst-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 20px;
+  max-width: 680px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.mslhst-widget * { box-sizing: border-box; }
+
+.mslhst-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; text-align: left; }
+.mslhst-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 12px 14px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.mslhst-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Settings */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 4px; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Calc Card */
+.calc-card, .visual-card, .scoring-card { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 12px; padding: 12px; margin-bottom: 14px; text-align: left; }
+.calc-header, .visual-header, .scoring-header { font-size: 0.85rem; font-weight: 800; color: #212529; margin-bottom: 8px; }
+
+.height-input-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.height-label { font-size: 0.82rem; font-weight: 700; color: #495057; }
+.height-input { width: 90px; padding: 6px; text-align: center; font-size: 1rem; font-weight: 900; border: 2px solid #228be6; border-radius: 8px; color: #1c7ed6; outline: none; }
+
+.presets-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.preset-label { font-size: 0.72rem; color: #868e96; font-weight: 700; }
+.preset-btn { background: #ffffff; border: 1px solid #ced4da; border-radius: 6px; padding: 3px 8px; font-size: 0.72rem; font-weight: 700; cursor: pointer; color: #495057; }
+.preset-btn:hover { background: #e7f5ff; border-color: #74c0fc; color: #1c7ed6; }
+
+.results-box { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; background: #ffffff; border: 1px solid #e9ecef; border-radius: 8px; padding: 8px; }
+.res-item { text-align: center; display: flex; flex-direction: column; align-items: center; }
+.res-value { font-size: 1.15rem; font-weight: 900; color: #2b8a3e; }
+.res-label { font-size: 0.68rem; font-weight: 800; color: #495057; }
+.res-sub { font-size: 0.65rem; color: #868e96; }
+
+/* Visual Grid (Side-by-side) */
+.visual-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 520px) {
+  .visual-grid { grid-template-columns: 1fr; }
+}
+
+.svg-wrapper, .legend-graphic-box { width: 100%; display: flex; flex-direction: column; align-items: center; }
+.svg-title { font-size: 0.72rem; font-weight: 800; color: #868e96; margin-bottom: 4px; }
+
+/* SVG Mærker styling (INGEN TRANSFORM SCALE / INGEN HOP) */
+.svg-marker-node { cursor: pointer; }
+.m-rect { fill: #228be6; stroke: #1c7ed6; stroke-width: 1; transition: fill 0.15s ease, stroke 0.15s ease; }
+.m-text { font-size: 10px; font-weight: 900; fill: #ffffff; text-anchor: middle; pointer-events: none; }
+
+.svg-marker-node:hover .m-rect { fill: #1c7ed6; stroke: #1864ab; }
+.svg-marker-node.active .m-rect { fill: #fab005 !important; stroke: #f59f00 !important; stroke-width: 2.5px !important; }
+.svg-marker-node.active .m-text { fill: #212529 !important; }
+.svg-marker-node.has-error .m-rect { fill: #fa5252; stroke: #e03131; }
+
+/* Scoring Section */
+.leg-tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+.leg-tab { padding: 8px; font-size: 0.82rem; font-weight: 900; border: 2px solid #ced4da; background: #ffffff; border-radius: 8px; cursor: pointer; color: #495057; }
+.leg-tab.left-tab.active { background: #e7f5ff; border-color: #228be6; color: #1c7ed6; }
+.leg-tab.right-tab.active { background: #fff5f5; border-color: #e03131; color: #e03131; }
+
+.marker-selector-bar { display: flex; flex-direction: column; gap: 4px; margin-bottom: 10px; }
+.selector-title { font-size: 0.75rem; font-weight: 800; color: #495057; }
+.marker-btns-grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 4px; }
+@media (max-width: 480px) {
+  .marker-btns-grid { grid-template-columns: repeat(5, 1fr); }
+}
+.m-select-btn { padding: 6px 2px; font-size: 0.78rem; font-weight: 900; border: 1px solid #ced4da; background: #ffffff; border-radius: 6px; cursor: pointer; color: #495057; }
+.m-select-btn.active { background: #228be6; color: #ffffff; border-color: #1c7ed6; }
+.m-select-btn.has-error { border-color: #fa5252; background: #ffe3e3; color: #e03131; }
+
+.active-marker-card { background: #ffffff; border: 1px solid #ced4da; border-radius: 10px; padding: 10px; }
+.active-marker-title { font-size: 0.82rem; font-weight: 900; color: #212529; margin-bottom: 8px; text-align: center; }
+
+.error-group { margin-bottom: 10px; }
+.error-group-label { font-size: 0.72rem; font-weight: 800; color: #495057; margin-bottom: 4px; }
+.chips-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.chip-btn { padding: 6px; font-size: 0.70rem; font-weight: 700; border: 1px solid #ced4da; background: #f8f9fa; border-radius: 6px; cursor: pointer; color: #495057; text-align: left; }
+.chip-btn.active { background: #ff6b6b; color: #ffffff; border-color: #fa5252; font-weight: 900; }
+
+.marker-subtotal { font-size: 0.75rem; font-weight: 800; color: #868e96; text-align: center; margin-top: 6px; border-top: 1px dashed #e9ecef; padding-top: 4px; }
+
+/* Stats Grid */
+.mslhst-stats-wrapper { margin-top: 14px; text-align: left; }
+.section-title { font-size: 0.88rem; font-weight: 800; margin: 0 0 8px 0; color: #343a40; }
+
+.mslhst-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 10px 6px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.left-box { background: #e7f5ff; border-color: #a5d8ff; }
+.stat-box.right-box { background: #fff5f5; border-color: #ffc9c9; }
+.stat-box.alert-box { background: #ffe3e3; border-color: #ff6b6b; }
+.stat-box.ok-box { background: #ebfbee; border-color: #b2f2bb; }
+
+.stat-value { font-size: 1.3rem; font-weight: 900; color: #212529; line-height: 1; }
+.stat-label { font-size: 0.60rem; font-weight: 800; color: #868e96; margin-top: 4px; }
+.stat-sub { font-size: 0.68rem; font-weight: 800; color: #495057; margin-top: 2px; }
+
+/* Detail Table */
+.table-card { background: #ffffff; border: 1px solid #dee2e6; border-radius: 12px; padding: 6px; overflow: hidden; }
+.mslhst-detail-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; table-layout: fixed; margin: 0; }
+.mslhst-detail-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.mslhst-detail-table td { padding: 5px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; color: #212529; }
+
+/* Log Table */
+.mslhst-log-wrapper { margin-top: 18px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 12px; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.log-title { font-size: 0.88rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.mslhst-log-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; table-layout: fixed; }
+.mslhst-log-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; opacity: 0.8; }
+.mslhst-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; }
+
+/* Screenshot */
+.mslhst-screenshot-wrapper { margin-top: 14px; }
+.btn--screenshot { width: 100%; padding: 12px; font-size: 0.92rem; font-weight: 800; border-radius: 10px; border: none; background: #228be6; color: #ffffff; cursor: pointer; box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); }
+.btn--screenshot:hover { background: #1c7ed6; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let selectedLeg = 'left';
+  let activeMarker = 1;
+  let selectedSound = 'on';
+  let wakeLock = null;
+
+  const scores = {
+    left: Array.from({ length: 11 }, () => []),
+    right: Array.from({ length: 11 }, () => [])
+  };
+
+  const widget = document.querySelector(".mslhst-widget");
+  if (!widget) return;
+
+  const inputHeight = widget.querySelector("#input-height");
+  const resY = widget.querySelector("#res-y");
+  const resX = widget.querySelector("#res-x");
+
+  const legTabs = widget.querySelectorAll(".leg-tab");
+  const markerBtnsContainer = widget.querySelector("#marker-btns-container");
+  const activeMarkerTitle = widget.querySelector("#active-marker-title");
+  const chipBtns = widget.querySelectorAll(".chip-btn");
+  const markerSubtotalText = widget.querySelector("#marker-subtotal-text");
+
+  const statLeftTotal = widget.querySelector("#stat-left-total");
+  const statLeftSub = widget.querySelector("#stat-left-sub");
+  const statRightTotal = widget.querySelector("#stat-right-total");
+  const statRightSub = widget.querySelector("#stat-right-sub");
+  const statDiffTotal = widget.querySelector("#stat-diff-total");
+  const statRiskStatus = widget.querySelector("#stat-risk-status");
+  const asymCard = widget.querySelector("#asym-card");
+  const summaryTbody = widget.querySelector("#summary-tbody");
+
+  const logTbody = widget.querySelector(".log-tbody");
+  const btnClearLog = widget.querySelector(".btn-clear-log");
+  const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const infoModal = widget.querySelector(".mslhst-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  function updateDistances() {
+    let h = parseFloat(inputHeight.value);
+    if (isNaN(h) || h < 100) h = 175;
+    const y = 0.45 * h;
+    const x = Math.sqrt((y * y) / 2);
+    resY.textContent = `${y.toFixed(1)} cm`;
+    resX.textContent = `${x.toFixed(1)} cm`;
+  }
+
+  inputHeight.addEventListener("input", updateDistances);
+  widget.querySelectorAll(".preset-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      inputHeight.value = btn.dataset.h;
+      updateDistances();
+    });
+  });
+
+  function initMarkerSelector() {
+    markerBtnsContainer.innerHTML = "";
+    for (let i = 1; i <= 10; i++) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = `m-select-btn ${i === activeMarker ? 'active' : ''}`;
+      b.textContent = i;
+      b.dataset.m = i;
+      b.addEventListener("click", () => {
+        activeMarker = i;
+        renderScoringUI();
+      });
+      markerBtnsContainer.appendChild(b);
+    }
+  }
+
+  legTabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      legTabs.forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+      selectedLeg = tab.dataset.leg;
+      renderScoringUI();
+    });
+  });
+
+  chipBtns.forEach(chip => {
+    chip.addEventListener("click", () => {
+      requestWakeLock();
+      const errType = chip.dataset.type;
+      const currentArr = scores[selectedLeg][activeMarker];
+      const idx = currentArr.indexOf(errType);
+
+      if (idx > -1) {
+        currentArr.splice(idx, 1);
+      } else {
+        currentArr.push(errType);
+      }
+      renderScoringUI();
+      updateCalculations();
+    });
+  });
+
+  function renderScoringUI() {
+    const legText = selectedLeg === 'left' ? 'Venstre Ben' : 'Højre Ben';
+    activeMarkerTitle.textContent = `Registrer Fejl for Mærke #${activeMarker} (${legText})`;
+
+    const mBtns = markerBtnsContainer.querySelectorAll(".m-select-btn");
+    mBtns.forEach(btn => {
+      const mNum = parseInt(btn.dataset.m);
+      btn.className = "m-select-btn";
+      if (mNum === activeMarker) btn.classList.add("active");
+      if (scores[selectedLeg][mNum].length > 0) btn.classList.add("has-error");
+    });
+
+    const svgNodes = widget.querySelectorAll(".svg-marker-node");
+    svgNodes.forEach(node => {
+      const mNum = parseInt(node.dataset.m);
+      node.classList.remove("active", "has-error");
+      if (mNum === activeMarker) node.classList.add("active");
+      if (scores[selectedLeg][mNum].length > 0) node.classList.add("has-error");
+    });
+
+    const currentErrors = scores[selectedLeg][activeMarker];
+    chipBtns.forEach(chip => {
+      if (currentErrors.includes(chip.dataset.type)) {
+        chip.classList.add("active");
+      } else {
+        chip.classList.remove("active");
+      }
+    });
+
+    const lCount = currentErrors.filter(e => e.startsWith('L')).length;
+    const bCount = currentErrors.filter(e => e.startsWith('B')).length;
+    markerSubtotalText.textContent = `Fejl på mærke ${activeMarker}: ${currentErrors.length} (${lCount} Landing, ${bCount} Balance)`;
+  }
+
+  widget.querySelectorAll(".svg-marker-node").forEach(node => {
+    node.addEventListener("click", () => {
+      activeMarker = parseInt(node.dataset.m);
+      renderScoringUI();
+    });
+  });
+
+  function updateCalculations() {
+    let leftLTotal = 0, leftBTotal = 0;
+    let rightLTotal = 0, rightBTotal = 0;
+
+    summaryTbody.innerHTML = "";
+
+    for (let i = 1; i <= 10; i++) {
+      const lErrs = scores.left[i];
+      const rErrs = scores.right[i];
+
+      const lL = lErrs.filter(e => e.startsWith('L')).length;
+      const lB = lErrs.filter(e => e.startsWith('B')).length;
+      const rL = rErrs.filter(e => e.startsWith('L')).length;
+      const rB = rErrs.filter(e => e.startsWith('B')).length;
+
+      leftLTotal += lL; leftBTotal += lB;
+      rightLTotal += rL; rightBTotal += rB;
+
+      const tr = document.createElement("tr");
+      const lSum = lErrs.length;
+      const rSum = rErrs.length;
+      let statusHtml = '<span style="color:#2b8a3e; font-weight:800;">✅ Perfekt</span>';
+
+      if (lSum !== rSum) {
+        statusHtml = `<span style="color:#e03131; font-weight:800;">⚠️ Diff: ${Math.abs(lSum - rSum)}</span>`;
+      } else if (lSum > 0) {
+        statusHtml = `<span style="color:#495057; font-weight:700;">${lSum} fejl begge</span>`;
+      }
+
+      tr.innerHTML = `
+        <td><strong>Mærke #${i}</strong></td>
+        <td>${lSum} (${lL}L / ${lB}B)</td>
+        <td>${rSum} (${rL}L / ${rB}B)</td>
+        <td>${statusHtml}</td>
+      `;
+      summaryTbody.appendChild(tr);
+    }
+
+    const leftTotal = leftLTotal + leftBTotal;
+    const rightTotal = rightLTotal + rightBTotal;
+    const diff = Math.abs(leftTotal - rightTotal);
+
+    statLeftTotal.textContent = leftTotal;
+    statLeftSub.textContent = `${leftLTotal} Landing / ${leftBTotal} Balance`;
+
+    statRightTotal.textContent = rightTotal;
+    statRightSub.textContent = `${rightLTotal} Landing / ${rightBTotal} Balance`;
+
+    statDiffTotal.textContent = `${diff} fejl`;
+
+    if (diff >= 3) {
+      asymCard.className = "stat-box alert-box";
+      statRiskStatus.textContent = "⚠️ Betydelig side-asymmetri";
+    } else {
+      asymCard.className = "stat-box ok-box";
+      statRiskStatus.textContent = "✅ Godkendt symmetri (diff < 3)";
+    }
+
+    autoSaveToLocalStorage(leftTotal, rightTotal, diff);
+  }
+
+  let lastSavedKey = "";
+  function autoSaveToLocalStorage(leftTotal, rightTotal, diff) {
+    if (leftTotal === 0 && rightTotal === 0) return;
+    const saveKey = `${leftTotal}_${rightTotal}`;
+    if (saveKey === lastSavedKey) return;
+    lastSavedKey = saveKey;
+
+    const logs = JSON.parse(localStorage.getItem("mslhst_test_logs") || "[]");
+    const now = new Date();
+    const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+    logs.unshift({
+      date: dateStr,
+      left: leftTotal,
+      right: rightTotal,
+      diff: diff,
+      status: diff >= 3 ? '⚠️ Asymmetri' : '✅ Godkendt'
+    });
+
+    localStorage.setItem("mslhst_test_logs", JSON.stringify(logs.slice(0, 20)));
+    renderLocalStorageLog();
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem("mslhst_test_logs") || "[]");
+    logTbody.innerHTML = "";
+
+    if (logs.length === 0) {
+      logTbody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+      return;
+    }
+
+    logs.forEach(item => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td><strong>${item.left} fejl</strong></td>
+        <td><strong>${item.right} fejl</strong></td>
+        <td>${item.diff} fejl</td>
+        <td><span style="color:${item.status.includes('Asymmetri') ? '#e03131' : '#2b8a3e'}; font-weight:800;">${item.status}</span></td>
+      `;
+      logTbody.appendChild(tr);
+    });
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+
+  function takeScreenshot() {
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `mslhst-resultat-${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Vil du slette alle gemte MSLHST test fra hukommelsen?")) {
+      localStorage.removeItem("mslhst_test_logs");
+      renderLocalStorageLog();
+    }
+  });
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  updateDistances();
+  initMarkerSelector();
+  renderScoringUI();
+  updateCalculations();
+  renderLocalStorageLog();
+});
+</script>

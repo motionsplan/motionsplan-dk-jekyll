@@ -1,0 +1,13 @@
+- question: "Hvad er den juridiske status for anabolske steroider i Danmark?"
+  options:
+    - "Det er ulovligt at besidde, sælge og anvende uden lægelig recept"
+    - "Det er fuldt ud lovligt at købe på nettet til eget brug"
+    - "Det er kun ulovligt for professionelle idrætsudøvere"
+  answer: "I Danmark er anabolske steroider omfattet af lov om forbud mod visse dopingsmidler og er ulovlige at besidde og anvende uden recept."
+
+- question: "Hvad er en kendt bivirkning ved misbrug af anabolske androgen steroider hos mænd?"
+  options:
+    - "Hæmning af kroppens egenproduktion af testosteron og risiko for hjerte-kar-sygdomme"
+    - "Forbedret syn og bedre hørelse"
+    - "Permanent nedsat risiko for hårtab"
+  answer: "Tilførsel af kunstigt testosteron får kropens egenproduktion til at lukke ned, og det kan medføre alvorlige bivirkninger på organer og hjerte."

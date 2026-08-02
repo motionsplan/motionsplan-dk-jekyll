@@ -1,0 +1,13 @@
+- question: "Hvilket princip anbefales som førstehjælp ved akutte bløddelsskader (fx en forstuvning)?"
+  options:
+    - "RICE / POLICE (Ro, Is, Kompression, Elevation)"
+    - "Varmebehandling og hård massage med det samme"
+    - "At fortsætte træningen for at 'løbe skaden væk'"
+  answer: "Kompression og elevation er de vigtigste tiltag i den akutte fase for at begrænse hævelse og indvendig blødning i vævet."
+
+- question: "Hvad er den hyppigste årsag til overbelastningsskader i senestruktur (tendinopati)?"
+  options:
+    - "En for hurtig stigning i træningsbelastning eller volumen uden tilstrækkelig restitution"
+    - "En enkelt pludselig og skarp bevægelse"
+    - "Mangel på protein i kosten dagen før"
+  answer: "Overbelastningsskader opstår typisk, når vævets tolerance overskrides gradvist over tid (for meget, for hurtigt, for tidligt)."

@@ -1,0 +1,48 @@
+- question: "Hvad betyder begrebet 'split program'?"
+  options:
+    - "Et program hvor kroppen opdeles, så man træner forskellige muskelgrupper på forskellige dage"
+    - "At man træner 3 gange om dagen"
+    - "At to personer deler det samme træningsudstyr"
+  answer: "Et splitprogram (fx 2-split eller 3-split) deler kroppen op, hvilket giver mulighed for højere volumen pr. muskelgruppe og længere restitution pr. led."
+
+- question: "Hvad er et 'supersæt'?"
+  options:
+    - "At køre to øvelser umiddelbart efter hinanden med minimal pause imellem"
+    - "At løfte så mange repetitioner som overhovedet muligt i ét sæt"
+    - "Et Sæt hvor man bruger mere end 100 kg"
+  answer: "Supersæt udføres ved at parre to øvelser (ofte modstående muskelgrupper som biceps/triceps) for at spare tid eller øge træningstætheden."
+
+- question: "Hvad repræsenterer begrebet '10RM'?"
+  options:
+    - "Den maksimale vægt du præcis kan løfte 10 repetitioner med god teknik"
+    - "At du skal udføre 10 sæt af øvelsen"
+    - "At du skal holde 10 minutters pause"
+  answer: "RM står for 'Repetition Maximum'. 10RM er den belastning, hvor den 10. repetition er den absolut sidste, du kan gennemføre."
+
+- question: "Hvilket rep-område og pause anbefales primært til muskelhypertrofi (muskelvækst)?"
+  options:
+    - "6-12 RM med ca. 1-2 minutters pause"
+    - "1-3 RM med 5 minutters pause"
+    - ">20 RM med 15 sekunders pause"
+  answer: "6-12 RM giver en optimal balance mellem mekanisk spænding og metabolisk stress, hvilket stimulerer muskelvækst effektivt."
+
+- question: "Hvad dækker begrebet 'Træningsvolumen' over?"
+  options:
+    - "Den samlede mængde arbejde udført (fx Sæt x Repetitioner x Vægt)"
+    - "Hvor højt musikken spiller under træningen"
+    - "Hvor lang tid et enkelt sæt tager"
+  answer: "Volumen er den samlede arbejdsmængde i et træningspas eller over en uge. Det er en af de vigtigste variabler for fremgang."
+
+- question: "Hvad forstås ved begrebet 'Træningsfrekvens'?"
+  options:
+    - "Hvor ofte en muskelgruppe eller øvelse trænes inden for en given periode (fx pr. uge)"
+    - "Hvor hurtigt man løfter vægten op og ned"
+    - "Antallet af repetitioner i et enkelt sæt"
+  answer: "Frekvens angiver, hvor mange gange om ugen du træner (fx 2-3 gange om ugen pr. muskelgruppe)."
+
+- question: "Hvad er et 'Full body' træningsprogram?"
+  options:
+    - "Et træningsprogram hvor man rammer hele kroppen igennem på hvert træningspas"
+    - "Et program hvor man kun bruger kropsvægtsøvelser"
+    - "Et program der kun egner sig til eliteidrætsudøvere"
+  answer: "Full-body programmer træner alle store muskelgrupper på samme pas, hvilket er oplagt til begyndere eller folk med 2-3 træningsdage om ugen."

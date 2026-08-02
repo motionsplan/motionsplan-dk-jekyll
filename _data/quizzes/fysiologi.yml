@@ -1,0 +1,97 @@
+- question: "Mitochondrier har primært til opgave at stå for..."
+  options:
+    - "Cellens aerobe forbrænding af fedt og kulhydrat"
+    - "Dannelsen af mælkesyre i musklerne"
+    - "Svedproduktionen under træning"
+    - "Det direkte krampeforebyggende forsvar"
+  answer: "Mitokondrierne kaldes cellernes 'kraftværker'. Det er her, der forbruges ilt til at forbrænde fedt og kulhydrat for at genopbygge ATP."
+
+- question: "Hvad er ATP (Adenosintrifosfat)?"
+  options:
+    - "Cellernes direkte kemiske energimolekyle"
+    - "Et proteintransportsystem i blodet"
+    - "En type hvide blodlegemer"
+    - "Et hormon der udskilles under kredsløbstræning"
+  answer: "ATP er det eneste molekyle, som kroppens celler og muskelkontraktioner kan bruge direkte som energikilde. Det fungerer som et genopladeligt batteri."
+
+- question: "Skal der være ilt tilstede, for at den aerobe forbrændingsproces kan forløbe?"
+  options:
+    - "Ja, ilt er nødvendigt for aerob forbrænding"
+    - "Nej, forbrænding sker altid uden ilt"
+  answer: "Aerob betyder 'med ilt'. Uden ilt kan kroppen kun spalte energi anaerobt (hvilket danner mælkesyre/lactat og har begrænset varighed)."
+
+- question: "Hvordan kan kroppen hurtigst gendanne ATP ved kortvarigt, maksimalt arbejde?"
+  options:
+    - "Anaerob spaltning af kreatinphosphat (CrP)"
+    - "Aerob forbrænding af fedtsyrer"
+    - "Nedbrydning af proteiner fra blodet"
+  answer: "Kreatinphosphat-depoterne (CrP) i musklerne kan hurtigst og uden brug af ilt gendanne ATP, men lageret tømmes typisk i løbet af de første 6-10 sekunder."
+
+- question: "Hvad er kapillærer?"
+  options:
+    - "Kroppens mindste blodkar, hvor udvekslingen af ilt og næringsstoffer sker"
+    - "De største pulsårer der fører blod fra hjertet"
+    - "Små fedtdepoter i muskelvævet"
+  answer: "Kapillærerne danner et fint netværk ude i vævene/musklerne, hvor ilt og næringsstoffer afleveres, og affaldsstoffer optages."
+
+- question: "Hvad er hypertrofi i fysiologisk forstand?"
+  options:
+    - "En forøgelse af de enkelte muskelfibres størrelse/volumen"
+    - "En stigning i antallet af muskelfibre"
+    - "En forbedring af nerve-muskel-koordinationen"
+  answer: "Hypertrofi betyder, at de eksisterende muskelfibre vokser og bliver tykkere. Mennesker får normalt ikke flere muskelfibre (hyperplasi), men større fibre."
+
+- question: "Hvad er Type I muskelfibre kendetegnet ved?"
+  options:
+    - "De er langsomme, udholdende og rige på mitokondrier"
+    - "De er eksplosive, hurtige og bliver hurtigt trætte"
+    - "De bruges kun ved tunge max-løft over 90% af 1RM"
+  answer: "Type I (røde muskelfibre) er tilpasset udholdenhedsarbejde. De har høj kapillærtæthed og mange mitokondrier."
+
+- question: "Hvilken energiproces er mest fremherskende ved et tungt løft på 5RM?"
+  options:
+    - "Anaerob energiproces"
+    - "Aerob forbrænding"
+  answer: "Ved et kortvarigt og tungt løft (5RM tager ca. 10-15 sekunder) kan det kardiovaskulære system ikke nå at levere nok ilt, hvorfor energien leveres anaerobt."
+
+- question: "Hvad er det primære formål med kredsløbets transportopgave?"
+  options:
+    - "At transportere ilt, næringsstoffer og affaldsstoffer rundt i kroppen"
+    - "At transportere nerveimpulser fra hjernen til musklerne"
+    - "At regulere leddenes smøremiddel"
+  answer: "Kredsløbet (hjertet og blodkarrene) pumper blodet rundt, så ilt og næring når cellerne, mens kuldioxid og affaldsstoffer føres væk."
+
+- question: "Hvad er konditallet et udtryk for?"
+  options:
+    - "Kroppens maksimale iltoptagelse i ml ilt pr. minut pr. kg kropsvægt"
+    - "Hvor mange minutter man kan løbe uden pause"
+    - "Antallet af hjerteslag pr. minut under hvile"
+  answer: "Konditallet måler den maksimale iltoptagelse ($VO_2$-max) korrigeret for kropsvægt ($\text{ml } O_2/\text{min/kg}$)."
+
+- question: "Hvilken type muskelarbejde forårsager flest mikroskader i muskelfibrene?"
+  options:
+    - "Excentrisk arbejde (musklen forlænges under spænding)"
+    - "Koncentrisk arbejde (musklen forkortes)"
+    - "Isometrisk/statisk arbejde (musklen holder samme længde)"
+  answer: "Excentrisk træning (f.eks. at sænke vægten langsomt) skaber den største mekaniske spænding og flest mikroskader, hvilket udløser doms (øhed)."
+
+- question: "Hvad er navnene på de to vigtigste proteintråde i muskelcellerne?"
+  options:
+    - "Aktin og Myosin"
+    - "Kollagen og Elastin"
+    - "Hemoglobin og Myoglobin"
+  answer: "Aktin og myosin glider over hinanden under muskelkontraktion (ud glide-teorien), hvilket får musklen til at trække sig sammen."
+
+- question: "Hvilke hormoner er de primære kønshormoner hos hhv. mænd og kvinder?"
+  options:
+    - "Testosteron hos mænd og østrogen hos kvinder"
+    - "Kortisol hos mænd og progesteron hos kvinder"
+    - "Adrenalin hos mænd og insulin hos kvinder"
+  answer: "Testosteron er det primære mandlige kønshormon (anabolsk virkning), mens østrogen er det primære kvindelige kønshormon."
+
+- question: "Hvilket nervesystem inddeles funktionelt i det autonome og det somatiske nervesystem?"
+  options:
+    - "Det funktionelle nervesystem (viljestyret vs. uviljestyret)"
+    - "Det hormondannende immunsystem"
+    - "Det udelukkende rygmarvsbaserede reflexsystem"
+  answer: "Det somatiske nervesystem styrer de viljestyrke bevægelser (muskler), mens det autonome nervesystem styrer de ubevidste funktioner (hjerte, fordøjelse)."

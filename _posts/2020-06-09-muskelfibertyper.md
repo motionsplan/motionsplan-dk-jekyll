@@ -26,7 +26,7 @@ gallery:
     alt: "Type I: Langsom, rød muskelfiber og Type II: Hurtig, hvid muskelfiber"
 faq:
 - question: Hvilke tre muskelfibertyper findes der?
-  answer: Menneskets skeletmuskler indeholder tre primære muskelfibertyper: Type I (langsomme/røde fibre), Type IIa (hurtige oxidative/lyserøde fibre) og Type IIx (meget hurtige glykolytiske/hvide fibre).
+  answer: "Menneskets skeletmuskler indeholder tre primære muskelfibertyper: Type I (langsomme/røde fibre), Type IIa (hurtige oxidative/lyserøde fibre) og Type IIx (meget hurtige glykolytiske/hvide fibre)."
 - question: Hvad er forskellen på røde og hvide muskelfibre?
   answer: Røde muskelfibre (Type I) indeholder meget myoglobin, mitokondrier og kapillærer, hvilket gør dem meget udholdende og iltkrævende (aerobe). Hvide muskelfibre (Type IIa og IIx) arbejder hurtigere og mere eksplosivt (anaerobt), men udtrættes hurtigere.
 - question: Hvad er forskellen på Type 1 og Type 2 muskelfibre?

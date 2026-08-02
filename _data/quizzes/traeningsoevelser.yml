@@ -1,0 +1,48 @@
+- question: "Hvilken type øvelse er Military Press?"
+  options:
+    - "En vertikal skubbeøvelse for skuldre og triceps"
+    - "En horisontal trækøvelse for den brede rygmuskel"
+    - "En isolationsøvelse for underarmene"
+  answer: "Military Press (stående press over hovedet) er en klassisk vertikal skubbeøvelse, der primært belaster den deltoideus (skulder) og triceps."
+
+- question: "Hvilken af disse øvelser er en stor flerledsøvelse, der aktiverer flest muskelgrupper på én gang?"
+  options:
+    - "Squat (Knæbøj)"
+    - "Biceps Curl"
+    - "Leg Extension (Knæstræk i maskine)"
+  answer: "Squat er en kompleks basisløft-øvelse, der arbejder over både hofte- og knæled og aktiverer forlår, baller, ryg, lægge og core simultant."
+
+- question: "Hvilken af disse øvelser isolerer og træner brystmusklen (Pectoralis major) bedst?"
+  options:
+    - "Bænkpres"
+    - "Pullups"
+    - "Dødløft"
+  answer: "Bænkpres er en skubbeøvelse for overkroppen, hvor brystmusklen er den primære drivkraft sammen med forreste skulder og triceps."
+
+- question: "Hvilken øvelse aktiverer Biceps Brachii mest på grund af underhåndsgrebet (supination)?"
+  options:
+    - "Chinups"
+    - "Pullups (med overhåndsgreb)"
+    - "Military Press"
+  answer: "Chinups udføres med håndfladerne vendt mod dig selv. Det sætter Biceps Brachii i en mekanisk stærk position i forhold til klassiske pullups."
+
+- question: "Hvad træner øvelsen planken primært?"
+  options:
+    - "Core-stabilitet i mave og rygstrækkere"
+    - "Armmusklerne og underarmene"
+    - "Smidighed i baglårene"
+  answer: "Planken er en isometrisk (statisk) øvelse, der styrker coremuskulaturen (herunder Transversus abdominis) i at modstå svaj i lænden."
+
+- question: "Hvilken øvelse er bedst til målrettet at træne musklerne på forsiden af låret (Quadriceps)?"
+  options:
+    - "Knæbøj i maskine / Leg Extension / Lunges"
+    - "Stående lægløft"
+    - "Glute Bridge"
+  answer: "Øvelser med knæstrækning under belastning træner den firehovede knæstrækker (Quadriceps femoris) på forsiden af låret."
+
+- question: "Hvad er det primære udstyr i et konventionelt dødløft?"
+  options:
+    - "En vægtstang og vægtskiver"
+    - "En pilatesbold"
+    - "En træningselastik"
+  answer: "Dødløft udføres traditionelt ved at løfte en ol-vægtstang direkte fra gulvet op til stående stilling."

@@ -60,7 +60,7 @@ faq:
 
 Testen anvendes blandt andet som den afsluttende løbetest i [Politiets optagelsesprøve](/politiets-optagelsesproeve/).
 
-[<i class='fas fa-calculator'></i> Hop direkte til beregneren](#calculator){: .btn .btn--success .btn--jump } [<i class='fas fa-calculator'></i> Hop direkte til timer](#timer){: .btn .btn--success .btn--jump }
+[<i class='fas fa-calculator'></i> Hop direkte til beregneren](#calculator){: .btn .btn--success .btn--jump } [<i class='fas fa-clock'></i> Hop direkte til timer](#timer){: .btn .btn--success .btn--jump }
 
 ## Beregner til 2400-meter testen
 {: id="calculator" }

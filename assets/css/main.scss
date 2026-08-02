@@ -8,7 +8,7 @@
 @import "signup";
 @import "calculator";
 @import "pyramid";
-@import "flip-card";
+@import "flashcard";
 @import "youtube";
 @import "star-rating";
 @import "method-cards";
@@ -651,73 +651,101 @@ details summary h3 {
   /* Rotér pilen, når åbnet */
 }
 
-/* REFERENCER */
+/* REFERENCER - NYT DESIGN */
+
+/* REFERENCER - PERFEKT ALIGNMENT */
+
+/* Skjul browserens standard-pil */
+details.references summary::-webkit-details-marker {
+  display: none;
+}
 
 details.references summary {
   cursor: pointer;
   display: flex;
-  align-items: baseline;
-  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  align-items: center; /* Centrerer alt indhold præcist vertikalt */
+  list-style: none;
+  padding: 16px 50px 16px 20px; /* Plads til pilen i højre side */
+  background-color: #f8f9fa;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.05em;
+  color: #111827;
+  line-height: 1; /* Nulstiller linjehøjde for perfekt alignment */
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+
+  /* PIL HELT TIL HØJRE */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 20px) center;
 }
 
+/* Nulstil underlinjer og margins hvis teksten ligger inde i h2, h3, p etc. */
+details.references summary * {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+}
+
+/* Hover-effekt */
+details.references summary:hover {
+  background-color: #f1f3f5;
+  border-color: #d1d5db;
+}
+
+/* BOGEN TIL VENSTRE (Justeret til at flugte med tekstens baseline) */
 details.references summary::before {
   content: "📘";
-  /* Lukket bog */
-  margin-right: 8px;
-  font-size: 1.5em;
+  margin-right: 12px;
+  font-size: 1.2em;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  transform: translateY(-1px); /* Finjusterer bogen 1px op for perfekt optisk midte */
 }
 
-/* Når details er åbent, vis en åben bog */
-details.references:open summary::before {
+/* Skift til åben bog ved hover eller åben tilstand */
+details.references summary:hover::before,
+details.references[open] summary::before {
   content: "📖";
-  /* Åben bog */
 }
 
-/* Når musen holdes over en lukket details, vis en åben bog */
-details.references summary:hover::before {
-  content: "📖";
-  /* Skift til åben bog, når details ikke er åben */
+/* NÅR ÅBEN: Pilen peger opad */
+details.references[open] summary {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>');
 }
 
-/* Når musen holdes over en åben details, vis åben bog med forsinkelse */
-details.references:open summary:hover::before {
-  content: "📘";
-  /* Åben bog vises stadig */
-  transition-delay: 0.5s;
-  /* Forsinkelse før eventuel ændring til lukket bog */
-}
-
+/* DESKTOP-TEKST */
 @media (min-width: 768px) {
   details.references[open] summary::after {
     content: " - Læs om vores redaktionelle proces";
     font-weight: normal;
-    font-size: 0.9em;
-    color: #555;
-    margin-left: 5px;
+    font-size: 0.85em;
+    color: #6b7280;
+    margin-left: 6px;
+    line-height: 1;
   }
 }
 
+/* INFO-BOKS NÅR NOGET ÅBNES */
 details.references[open] ul::before {
   content: "Motionsplan.dk anvender pålidelige og videnskabeligt funderede kilder for at understøtte indholdet i vores artikler. Læs om vores redaktionelle proces for at lære, hvordan vi sikrer, at vores indhold er præcist, troværdigt og faktatjekket.";
   display: block;
-  width: calc(100% + 2em);
-  /* Udvider boksen, hvis ul har indrykning */
-  box-sizing: border-box;
-  padding: 1em;
+  padding: 1.2em;
   background-color: #f5f5f5;
   border-left: 5px solid #ccc;
-  margin-top: 0em;
+  margin-top: 1em;
   margin-bottom: 1em;
-  font-size: 0.8em;
+  font-size: 0.85em;
   color: #333;
   border-radius: 8px;
-  position: relative;
-  left: -2em;
-  /* Justerer så den går tilbage til kanten af details */
 }
 
 .references ul li {
-  font-size: 0.8em;
+  font-size: 0.85em;
 }
 
 /* FEATURE ROW EMOJI STYLE */
