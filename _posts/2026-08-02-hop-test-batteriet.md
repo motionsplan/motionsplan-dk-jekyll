@@ -34,7 +34,7 @@ faq:
 
 Mens klassiske [springtests (som f.eks. CMJ)](/springtests-hoppehoejde/) måler din maksimale vertikale spændstighed og højde, har Hoptest-batteriet ét primært klinisk formål: **At sammenligne det skadede ben med det raske ben.**
 
-Dette gøres gennem **LSI (Limb Symmetry Index)**, som er et afgørende tal for, om du får grønt lys til at vende tilbage til din idræt (*[Return to Sport](/return-to-sport/)*).
+Dette gøres gennem **LSI (Limb Symmetry Index)**, som er et afgørende tal for, om du får grønt lys til at vende tilbage til din idræt (*[Return to Sport](/return-to-sport-tests/)*).
 
 I denne guide gennemgår vi præcis, hvordan de 4 standardiserede hoptests udføres, og hvordan du udregner din asymmetri.
 

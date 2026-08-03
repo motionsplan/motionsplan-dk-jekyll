@@ -75,7 +75,7 @@ Vil du udregne dine personlige tal med det samme? Brug vores online beregnere:
 | **BMR / Hvilestofskifte** | Beregn din krops minimumsforbrug i hvile. | 🔵 [Beregn BMR her](/bmr-beregner/) |
 | **Ligevægtsindtag & TDEE** | Beregn dit samlede energiforbrug inkl. aktivitet. | 🟢 [Beregn Ligevægtsindtag](/ligevaegtsindtag-beregner/) |
 | **MET-værdier** | Se energiforbrug for specifikke aktiviteter. | 🟡 [Se MET-tabel her](/met/) |
-| **PAL-beregner** | Udregn dit PAL-niveau. | 🟡 [Se PAL-beregner](/pal-beregner/) |
+| **PAL-beregner** | Udregn dit PAL-niveau. | 🟡 [Se PAL-beregner](/beregner/pal/) |
 
 ---
 
