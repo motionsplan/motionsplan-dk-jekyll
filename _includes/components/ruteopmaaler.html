@@ -1,0 +1,242 @@
+<!-- Leaflet CSS & JS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+  .mp-route-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 2em 0;
+  }
+  .mp-map-header {
+    background: #1f2937;
+    color: #ffffff;
+    padding: 12px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .mp-distance-badge {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #38bdf8;
+  }
+  #mp-map {
+    height: 420px;
+    width: 100%;
+    z-index: 1;
+    background: #e5e7eb;
+  }
+  .mp-map-controls {
+    background: #f8fafc;
+    padding: 12px 18px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    border-top: 1px solid #e2e8f0;
+  }
+  .mp-btn {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, opacity 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .mp-btn-primary { background: #0284c7; color: white; }
+  .mp-btn-primary:hover { background: #0369a1; }
+  .mp-btn-secondary { background: #e2e8f0; color: #334155; }
+  .mp-btn-secondary:hover { background: #cbd5e1; }
+  .mp-btn-danger { background: #fee2e2; color: #991b1b; }
+  .mp-btn-danger:hover { background: #fca5a5; }
+  .mp-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  /* Stil til de flytbare punkter på kortet */
+  .mp-dot-icon {
+    background: #0284c7;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    cursor: grab;
+  }
+  .mp-dot-icon:active {
+    cursor: grabbing;
+    transform: scale(1.2);
+  }
+</style>
+
+<div class="mp-route-card">
+  <div class="mp-map-header">
+    <span><i class="fas fa-map-marked-alt"></i> <strong>Interaktiv Ruteopmåler</strong></span>
+    <div class="mp-distance-badge">Afstand: <span id="mp-dist">0.00</span> km</div>
+  </div>
+  
+  <div id="mp-map"></div>
+
+  <div class="mp-map-controls">
+    <button id="mp-loc-btn" class="mp-btn mp-btn-primary"><i class="fas fa-crosshairs"></i> Min placering</button>
+    <button id="mp-undo-btn" class="mp-btn mp-btn-secondary" disabled><i class="fas fa-undo"></i> Fortryd punkt</button>
+    <button id="mp-reset-btn" class="mp-btn mp-btn-danger" disabled><i class="fas fa-trash-alt"></i> Nulstil</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var map = L.map('mp-map', {
+    touchZoom: true,
+    dragging: !L.Browser.mobile
+  }).setView([55.709, 9.535], 13);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap'
+  }).addTo(map);
+
+  var waypoints = [];
+  var markers = [];
+  var routeLines = [];
+  var totalDistance = 0;
+
+  var undoBtn = document.getElementById('mp-undo-btn');
+  var resetBtn = document.getElementById('mp-reset-btn');
+  var distDisplay = document.getElementById('mp-dist');
+
+  // Ikon til flytbare punkter
+  var dotIcon = L.divIcon({
+    className: 'mp-dot-icon',
+    iconSize: [16, 16],
+    iconAnchor: [8, 8]
+  });
+
+  function updateButtons() {
+    var hasPoints = waypoints.length > 0;
+    undoBtn.disabled = !hasPoints;
+    resetBtn.disabled = !hasPoints;
+  }
+
+  // Genberegn hele ruten (fx når et punkt er blevet flyttet)
+  async function recalculateRoute() {
+    routeLines.forEach(l => map.removeLayer(l));
+    routeLines = [];
+    totalDistance = 0;
+
+    if (waypoints.length < 2) {
+      distDisplay.innerText = "0.00";
+      return;
+    }
+
+    for (var i = 0; i < waypoints.length - 1; i++) {
+      var prev = waypoints[i];
+      var curr = waypoints[i + 1];
+
+      try {
+        var res = await fetch(`https://router.project-osrm.org/route/v1/foot/${prev.lng},${prev.lat};${curr.lng},${curr.lat}?overview=full&geometries=geojson`);
+        var data = await res.json();
+
+        if (data.routes && data.routes[0]) {
+          var route = data.routes[0];
+          totalDistance += route.distance / 1000;
+
+          var line = L.geoJSON(route.geometry, { 
+            style: { color: '#0284c7', weight: 5, opacity: 0.8 } 
+          }).addTo(map);
+
+          routeLines.push(line);
+        }
+      } catch (err) {
+        console.error("Routing-fejl:", err);
+      }
+    }
+
+    distDisplay.innerText = totalDistance.toFixed(2);
+  }
+
+  // Tilføj et nyt punkt på kortet
+  function addPoint(latlng) {
+    waypoints.push(latlng);
+
+    var marker = L.marker(latlng, {
+      icon: dotIcon,
+      draggable: true
+    }).addTo(map);
+
+    // Lyt efter hvornår brugeren SLIPPER et flyttet punkt
+    marker.on('dragend', function(e) {
+      var idx = markers.indexOf(marker);
+      if (idx !== -1) {
+        waypoints[idx] = marker.getLatLng();
+        recalculateRoute(); // Opdatér ruten automatisk
+      }
+    });
+
+    markers.push(marker);
+    recalculateRoute();
+    updateButtons();
+  }
+
+  // Klik på kortet opretter nyt punkt
+  map.on('click', function(e) {
+    addPoint(e.latlng);
+  });
+
+  // Fortryd seneste punkt
+  undoBtn.addEventListener('click', function() {
+    if (waypoints.length === 0) return;
+
+    waypoints.pop();
+    var lastMarker = markers.pop();
+    if (lastMarker) map.removeLayer(lastMarker);
+
+    recalculateRoute();
+    updateButtons();
+  });
+
+  // Nulstil alt
+  resetBtn.addEventListener('click', function() {
+    waypoints = [];
+    markers.forEach(m => map.removeLayer(m));
+    routeLines.forEach(l => map.removeLayer(l));
+    markers = [];
+    routeLines = [];
+    totalDistance = 0;
+    distDisplay.innerText = "0.00";
+    updateButtons();
+  });
+
+  // GPS / Find min placering
+  document.getElementById('mp-loc-btn').addEventListener('click', function() {
+    if (window.location.protocol !== 'https:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+      alert("Placering kræver en sikker forbindelse (HTTPS).");
+      return;
+    }
+
+    distDisplay.innerText = "Søger...";
+    map.locate({setView: true, maxZoom: 15, timeout: 10000});
+
+    map.once('locationfound', function(e) {
+      distDisplay.innerText = totalDistance.toFixed(2);
+      L.popup()
+        .setLatLng(e.latlng)
+        .setContent("<strong>Du er her!</strong><br>Klik på kortet for at starte ruten.")
+        .openOn(map);
+    });
+
+    map.once('locationerror', function(e) {
+      distDisplay.innerText = totalDistance.toFixed(2);
+      alert("Kunne ikke hente din placering. Tjek om din browser har tilladelse til at bruge GPS/lokation.");
+    });
+  });
+});
+</script>

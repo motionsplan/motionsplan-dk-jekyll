@@ -1,95 +1,101 @@
 ---
-title: 'Ruteopmåler til løberuter: 3 gode alternativer'
-seo_title: 'Ruteopmåler til løberuter: Gratis muligheder (2025)'
+title: 'Ruteopmåler til løberuter: 5 gode alternativer'
+seo_title: 'Ruteopmåler: Tegn & mål din løberute gratis (2026)'
 permalink: /ruteopmaaler-loebetur/
-description: Når du sidder derhjemme og planlægger en løbetur, så kan det være rart at have en mulighed for at måle ruten
-  op på forhånd. Det kan du bruge en af de gratis online ruteplanlæggere til.
-excerpt: Når du sidder derhjemme og planlægger en løbetur, så kan det være rart at have en mulighed for at måle ruten op på
-  forhånd. Det kan du bruge en af de gratis online ruteplanlæggere til. Vi kigger her på nogle gode gratis alternativer til
-  Iforms ruteplanner.
+classes: wide
+description: Skal du måle din løberute op? Se de bedste gratis ruteopmålere og ruteplanlæggere (som PlotARoute, Komoot og Garmin), hvor du nemt kan indtegne ruter på kort.
+excerpt: Når du sidder derhjemme og planlægger en løbetur, kan det være rart at have en mulighed for at måle ruten op på forhånd. Vi kigger her på 5 stærke og gratis ruteopmålere til din næste løbetur.
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1587587448924-b5a1db520d29.jpg
   credit: https://images.unsplash.com/photo-1587587448924-b5a1db520d29
   teaser: /assets/images/unsplash/photo-1587587448924-b5a1db520d29.jpg
-  caption: 'Ruteopmåler til løberuter: 3 gode alternativer'
+  caption: 'Ruteopmåler til løberuter: 5 gode alternativer'
 category:
 - Løb
 tags:
 - løb
-last_modified_at: '2021-08-22T23:14:14Z'
+last_modified_at: '2026-08-03T18:30:00Z'
 toc: 'true'
 ---
 
-{{ page.excerpt }}
+Når du sidder derhjemme og skal planlægge en løberute, kan det være dejligt at se på forhånd, hvor lang løberuten nøjagtigt er. Det kan du bruge en online ruteopmåler og ruteplanlægger til. 
 
-Når du sidder hjemme og skal planlægge en løberute, så kan det være dejligt at se hvor lang løberuten er. Det kan du bruge en ruteopmåler og ruteplanlægger til. Jeg har kigget på forskellige gode alternativer til at måle dine ruter op.
+Her kigger vi på 5 stærke, gratis alternativer – både til dig, der bare vil tegne en rute hurtigt uden login, og dig, der vil have højdeprofiler og GPX-filer til dit ur.
 
-## Hvad skal en rutemåler kunne?
+## Opmål din løberute på kortet
 
-Den bedste rutemåler skal kunne forskellige ting. Jeg har kigget på de vigtigste _features_ for en ruteopmåler. Her er de væsentligste parametre:
+Klik på kortet for at indtegne din rute punkt for punkt. Værktøjet følger automatisk stier og veje og beregner den samlede distance i kilometer.
 
-- Opmålingen af km skal være præcis.
-- Ruten skal også kunne tegnes i skove og parker
-- Mulighed for at se ruten på forskellige korttyper
-- Ruteopmåleren skal være hurtig
-- At værktøjet selv kan finde vej mellem to punkter.
+{% include components/ruteopmaaler.html %}
 
-Hvis du synes ruteomålere er interessante, så synes du måske også nogle af vores andre [løbeværktøjer og beregnere til løb](/loebesiden/) er brugbare.
+## Hvad skal en god ruteopmåler kunne?
 
-## 1. iForms ruteplanner
+Den bedste rutemåler afhænger af dit behov, men der er et par parametre, som er afgørende for en god oplevelse:
 
-iForm er bl.a. kendt for deres ruteplanner, som mange bruger. iForms ruteplanlægger er gennemført og meget brugbar. Designet er godt, og den er lige til at gå til.
+- **Præcis kilometermåling** (både på veje og sti-systemer).
+- **Mulighed for at tegne i skov og park** (hvor standard vejkort ofte opgiver).
+- **Forskellige korttyper** (f.eks. satellit, terræn eller OpenStreetMap).
+- **Hurtig betjening** uden krav om besværlig oprettelse eller login.
+- **Autorouting** – at værktøjet selv kan "snappe" til stien og finde den korteste vej mellem to punkter.
 
-**Desværre skal man være logget ind for at bruge ruteplanlæggeren**, så den er desværre ikke gratis.
+Hvis du synes ruteopmålere er interessante, kan du også kigge på vores andre [løbeværktøjer og beregnere til løb](/loebesiden/).
 
-## 2. Loeberute.dk ruteopmåler
+---
 
-[Loeberute.dk](https://loeberute.dk/) har lavet et rigtig godt værktøj. Her kan du nåde opmåle og tegne dine egne løberuter. Du kan også oprette en profil, så du kan gemme dine ruter. Endelig kan du søge på de andre brugeres ruter og blive inspireret.
+## 1. PlotARoute (Bedst i browseren uden login)
 
-Designet på siden er enkelt og brugervenligt, og det er smart at man kan inspireres af de andre brugere til løberuter.
+[PlotARoute.com](https://www.plotaroute.com/) er en af de absolut mest kraftfulde web-baserede ruteopmålere på markedet. 
 
-Reklamerne i bunden af siden er ikke så velplacerede, men ellers indeholder ruteplanlæggeren de mest basale ting en ruteplanlægger skal indeholde.
+Det fantastiske ved PlotARoute er, at du kan gå direkte ind på siden og begynde at klikke din rute ind med det samme – **helt uden at oprette en bruger**.
 
-Alt i alt et fint standard værktøj til opmåling af løberute. Du kan tegne din rute og se hvor lang den er.
+* **Fordele:** Lynhurtig autorouting på stier og veje, højdeprofil i realtid og nem download af GPX-filer.
+* **Ulemper:** Interfacet har mange knapper og kan virke lidt overvældende første gang.
 
-{% include figure image_path="/assets/images/blog/ruteplanner-loeberute.jpg" caption="Her kan du se interfacet for loeberute.dk. Det er **gratis** at oprette en profil, men du kan også bruge værktøjet uden at logge ind." alt="loeberute.dk screenshot løbeplanlægning" %}
+---
 
-## 3. Garmin Connect og ruteplanlægning
+## 2. Komoot (Perfekt til trail og outdoor)
 
-På Garmin Connect kan du **gratis** lave ruteplanlægning og finde løberuter. Der er et kæmpe community bag, så du kan også lade dig inspirere af andre løbere.
+[Komoot](https://www.komoot.com/) er blevet utroligt populært blandt både løbere, trailløbere og cykelryttere. Komoot skiller sig ud ved at give detaljerede informationer om underlaget på din rute (f.eks. asfalt, grus, skovsti).
 
-Det er ret let at lave ruter på Garmin Connect. Jeg bruger den danske udgave. Du både bruge webversionen og mobilversionen, når du gerne vil oprette ruter. Jeg synes man får det bedste overblik i webversionen.
+* **Fordele:** Fantastisk kortmateriale, viser underlagstype og stigninger, samt fremragende mobil-app.
+* **Ulemper:** Kræver gratis oprettelse for at gemme ruter, og fuld offline-navigation kræver køb af regioner.
 
-Først logger du naturligvis ind. Derefter vælger du i højre menu **Træning → Baner**.
+---
 
-Når du klikker dig ind på baner, så har du to muligheder for at planlægge din rute i Garmin:
+## 3. Garmin Connect (Bedst hvis du har GPS-ur)
 
-1. Du kan selv begynde at tegne din rute og gemme den. Det er relativt enkelt at gå til.
-2. Du kan også klikke på **Importer**. Her kan du let importere en rute, som du har downloadet eller eksporteret fra et andet program.
+På Garmin Connect kan du gratis lave ruteplanlægning og finde løberuter. Der er et stort fællesskab bag, så du kan også lade dig inspirere af andre løberes ruter.
 
-Hvis du fx har et Garmin ur, så er det rigtig smarte, at du kan du sende ruten til din enhed, så du kan få hjælp til ruten undervejs på dit GPS-ur. Men det er bare en ekstra bonus.
+For at oprette en rute logger du ind på webversionen og vælger **Træning → Baner**.
 
-Garmin Connect følger som standard vejene. Du kan endda vælge at bruge popularitetsruter, så hvis du bare markerer to steder, så finder Garmin Connect Ruteplanlæggeren selv en populær vej mellem de to punkter. Det er jo helt genialt.
+- **Popularitetsruter:** Garmin kan automatisk vælge de veje og stier, som flest andre løbere benytter.
+- **Højdemåler og stigningsprocenter:** Du får detaljerede højdekurver direkte på skærmen.
+- **Direkte overførsel:** Har du et Garmin-ur, kan ruten overføres med ét klik, så uret guider dig undervejs.
 
-Garmin Connect er naturligvis ikke perfekt til at tegne ruterne, så du skal lige gennemgå ruten selv for at se om den er, som den skal være.
+Garmin Connect er et oplagt valg, hvis du i forvejen bruger et Garmin-ur, men det kræver en gratis brugerprofil.
 
-Hvis ruteplanlæggeren ikke tegner ruten mellem to punkter, som du ønsker, så kan du selv flytte ruten rundt på kortet. Du kan fx fjerne krydset “Bliv på vejene”, og så kan du tegne ruten manuelt, hvis du kender en bedre vej, som Garmin ikke helt kender.
+---
 
-Dette værktøj kan det hele. Lad os kigge på det her.
+## 4. Loeberute.dk (Klassisk dansk værktøj)
 
-- **Korttyper**: Du kan vælge forskellige korttyper, og det er let at zoome ind og ud ligesom de andre korttyper.
-- **Følg veje og popularitetsruter**. Du kan bare markere et par punkter på kortet, og så får du mulighed for at planlægge og opmåle ruter.
-- **Højdemåler og stigningsprocenter**. Det er smart, at du i ruteomåleren fra Garmin får højdekurver og stigningsprocenter. Det er selvfølgelig virkelig relevant for cykelryttere, men også meget brugbart for løbere.
-- **Rutevejledning**. Du kan få rutevejlending direkte på din enhed, fx ur eller cykelcomputer.
+[Loeberute.dk](https://loeberute.dk/) er en velkendt dansk klassiker. Her kan du både opmåle og tegne dine egne løberuter samt søge blandt andre brugeres oprettede ruter for at få ny inspiration.
 
-Garmin Connect er min favorit. Ruteopmåleren kan det hele, og den er let at bruge. Det eneste minus er, at du skal oprette en bruger for at bruge den.
+* **Fordele:** Enkelt dansk interface, og du kan opmåle ruter uden at være logget ind.
+* **Ulemper:** Designet er af ældre dato, og reklamernes placering kan genere lidt.
 
-## Konklusion
+---
 
-Hvad er dine erfaringer med ruteopmålere til løbetræning?
+## 5. iForms ruteplanner
 
-{% comment %}
-/assets/images/blog/ruteplanner-vandreplanen.jpg
-/assets/images/blog/ruteplanner-plotaroute.png
-{% endcomment %}
+iForm har i mange år haft en af de mest kendte ruteplanlæggere i Danmark. Interfacet er flot og meget let at gå til.
+
+* **Bemærk:** Du skal i dag være logget ind for at benytte iForms ruteplanlægger.
+
+---
+
+## Hvilken ruteopmåler skal du vælge?
+
+* Vil du bare **måle en rute hurtigt på computeren uden login**, er **PlotARoute** det stærkeste valg.
+* Vil du løbe i **skoven eller på trail**, giver **Komoot** de bedste informationer om stier og underlag.
+* Vil du **have ruten direkte over på dit løbeur**, er **Garmin Connect** det mest oplagte værktøj.
