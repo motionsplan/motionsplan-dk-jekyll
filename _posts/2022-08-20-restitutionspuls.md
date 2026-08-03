@@ -110,6 +110,21 @@ Vil du gerne have dit pulsfald højere op i skemaet?
 
 ---
 
+---
+
+## Hvordan påvirker alderen din restitutionspuls?
+
+Et af de mest hyppige spørgsmål er, hvordan alderen påvirker, hvor hurtigt pulsen falder efter træning.
+
+Med alderen faldt den refleksmæssige følsomhed i det autonome nervesystem (især den parasympatiske reaktionsevne). Det betyder helt fysiologisk:
+
+1. **Sagtens et lidt langsommere pulsfald:** Ældre personer har i gennemsnit et 2–5 slag langsommere pulsfald ($HRR_1$) end yngre på samme relativt høje intensitet.
+2. **Kondition trumfer alder:** Undersøgelser viser, at en veltrænet 60-årig har en betydeligt hurtigere og sundere restitutionspuls end en utrænet 25-årig. 
+
+Selvom alderen har en lille naturlig dæmpende effekt på nervesystemets bremse, kan regelmæssig konditionstræning fastholde et lynhurtigt pulsfald højt op i alderdommen.
+
+---
+
 ## Konklusion
 
 Din restitutionspuls er en enkel og gratis indikator for din hjerte-kar-sundhed og din fysiske form. Ved regelmæssigt at måle dit pulsfald efter 1 eller 2 minutter kan du hurtigt se, om din træning bærer frugt.

@@ -1,0 +1,476 @@
+<!-- ================= HJERTE GRAF-WIDGET START ================= -->
+<div id="hjerte-graf-widget">
+  <div class="hgw-header">
+    <h3>Interaktiv Model: Hjertets Pumpekapacitet</h3>
+    <p>Justér din form (kondition) og arbejdsintensitet for at se, hvordan hjertet reagerer, og hvor du befinder dig på kurverne.</p>
+  </div>
+
+  <div class="hgw-layout">
+    <!-- VENSTRE: Kontrolpaneler og Hjerte -->
+    <div class="hgw-controls-section">
+      
+      <!-- Sliders -->
+      <div class="hgw-slider-group">
+        <label>
+          <span>Dit Konditionsniveau:</span>
+          <span id="hgw-fit-label" class="hgw-badge blue">Utrænet</span>
+        </label>
+        <input type="range" id="hgw-fitness-slider" min="0" max="100" value="0">
+        <small>Bedre form giver et større, stærkere hjerte (øget slagvolumen) og lavere hvilepuls.</small>
+      </div>
+
+      <div class="hgw-slider-group">
+        <label>
+          <span>Arbejdsintensitet:</span>
+          <span id="hgw-int-label" class="hgw-badge red">Hvile</span>
+        </label>
+        <input type="range" id="hgw-intensity-slider" min="0" max="100" value="0">
+        <small>Fra hvile (0%) til maksimal ydeevne (100%).</small>
+      </div>
+
+      <!-- Live Data & Math -->
+      <div class="hgw-math-box">
+        <div class="math-row">
+          <div class="math-item">
+            <span class="math-val" id="hgw-val-sv">70</span>
+            <span class="math-unit">mL/slag</span>
+            <span class="math-label">Slagvolumen</span>
+          </div>
+          <div class="math-sign">×</div>
+          <div class="math-item">
+            <span class="math-val" id="hgw-val-hr">71</span>
+            <span class="math-unit">slag/min</span>
+            <span class="math-label">Puls</span>
+          </div>
+          <div class="math-sign">=</div>
+          <div class="math-item result">
+            <span class="math-val" id="hgw-val-mv">5.0</span>
+            <span class="math-unit">L/min</span>
+            <span class="math-label">Minutvolumen</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animation -->
+      <div class="hgw-animation-box">
+        <div class="hgw-heart-container">
+          <svg id="hgw-heart-svg" viewBox="0 0 32 32">
+            <path d="M16 28.5C16 28.5 3 20.5 3 11.5C3 7.5 6 4.5 10 4.5C13 4.5 15 6 16 7.5C17 6 19 4.5 22 4.5C26 4.5 29 7.5 29 11.5C29 20.5 16 28.5 16 28.5Z" fill="#e63946"/>
+          </svg>
+        </div>
+        <div class="hgw-sv-container">
+          <div class="hgw-sv-glass">
+            <div id="hgw-sv-fill" class="hgw-sv-liquid"></div>
+          </div>
+          <div class="hgw-sv-text">SV fyldning</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- HØJRE: Kurver (Inspireret af din figur) -->
+    <div class="hgw-graphs-section">
+      
+      <!-- Puls Graf -->
+      <div class="hgw-graph-container">
+        <div class="hgw-graph-title">Puls (HR)</div>
+        <svg class="hgw-svg-graph" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path id="path-hr" class="hgw-path path-red" d=""></path>
+          <circle id="dot-hr" class="hgw-dot dot-red" cx="0" cy="0" r="3"></circle>
+        </svg>
+      </div>
+
+      <div class="hgw-graph-math-sign">×</div>
+
+      <!-- Slagvolumen Graf -->
+      <div class="hgw-graph-container">
+        <div class="hgw-graph-title">Slagvolumen (SV)</div>
+        <svg class="hgw-svg-graph" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path id="path-sv" class="hgw-path path-blue" d=""></path>
+          <circle id="dot-sv" class="hgw-dot dot-blue" cx="0" cy="0" r="3"></circle>
+        </svg>
+      </div>
+
+      <div class="hgw-graph-math-sign">=</div>
+
+      <!-- Minutvolumen Graf -->
+      <div class="hgw-graph-container">
+        <div class="hgw-graph-title">Minutvolumen (MV)</div>
+        <svg class="hgw-svg-graph" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path id="path-mv" class="hgw-path path-purple" d=""></path>
+          <circle id="dot-mv" class="hgw-dot dot-purple" cx="0" cy="0" r="3"></circle>
+        </svg>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<style>
+  /* ================= CSS STYLING ================= */
+  #hjerte-graf-widget {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    max-width: 850px;
+    margin: 2rem auto;
+    color: #1e293b;
+    box-sizing: border-box;
+  }
+  
+  #hjerte-graf-widget * { box-sizing: border-box; }
+
+  .hgw-header h3 { margin: 0 0 8px 0; color: #0f172a; }
+  .hgw-header p { margin: 0 0 24px 0; color: #64748b; font-size: 0.95rem; }
+
+  .hgw-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  @media (max-width: 700px) {
+    .hgw-layout { grid-template-columns: 1fr; }
+  }
+
+  /* Kontrolpaneler */
+  .hgw-slider-group { margin-bottom: 20px; }
+  .hgw-slider-group label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+  }
+  .hgw-badge {
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .hgw-badge.blue { background: #e0f2fe; color: #0369a1; }
+  .hgw-badge.red { background: #fee2e2; color: #b91c1c; }
+  
+  .hgw-slider-group input[type=range] {
+    width: 100%;
+    cursor: pointer;
+    accent-color: #3b82f6;
+  }
+  .hgw-slider-group small {
+    display: block;
+    color: #64748b;
+    font-size: 0.8rem;
+    margin-top: 4px;
+  }
+
+  /* Math Box */
+  .hgw-math-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  .math-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .math-item { display: flex; flex-direction: column; }
+  .math-item.result { color: #8b5cf6; }
+  .math-val { font-size: 1.4rem; font-weight: 800; line-height: 1.2; }
+  .math-unit { font-size: 0.75rem; font-weight: 600; color: #64748b; }
+  .math-label { font-size: 0.7rem; color: #94a3b8; text-transform: uppercase; margin-top: 4px; }
+  .math-sign { font-size: 1.2rem; font-weight: 700; color: #cbd5e1; }
+
+  /* Animation Box */
+  .hgw-animation-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 120px;
+  }
+  
+  .hgw-heart-container {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #hgw-heart-svg {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: transform 0.05s ease-out; /* Smooth JS animation */
+  }
+  /* CSS klasse styret fra JS for hjerteslag */
+  .hgw-beat { transform: scale(1.15) !important; }
+
+  .hgw-sv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hgw-sv-glass {
+    width: 30px;
+    height: 80px;
+    border: 2px solid #cbd5e1;
+    border-radius: 4px 4px 12px 12px;
+    position: relative;
+    overflow: hidden;
+    background: #f1f5f9;
+  }
+  .hgw-sv-liquid {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: #3b82f6;
+    transition: height 0.3s ease;
+  }
+  .hgw-sv-text {
+    font-size: 0.7rem;
+    color: #64748b;
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+
+  /* Grafer */
+  .hgw-graphs-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  .hgw-graph-container {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 10px;
+    position: relative;
+    height: 90px;
+  }
+  .hgw-graph-title {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #94a3b8;
+    z-index: 2;
+  }
+  .hgw-svg-graph {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+  .hgw-path {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    transition: d 0.2s ease;
+  }
+  .path-red { stroke: #ef4444; }
+  .path-blue { stroke: #3b82f6; }
+  .path-purple { stroke: #a855f7; }
+  
+  .hgw-dot {
+    transition: cx 0.1s linear, cy 0.1s linear;
+    stroke: #ffffff;
+    stroke-width: 1.5;
+  }
+  .dot-red { fill: #ef4444; }
+  .dot-blue { fill: #3b82f6; }
+  .dot-purple { fill: #a855f7; }
+
+  .hgw-graph-math-sign {
+    text-align: center;
+    color: #475569;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: -4px 0;
+  }
+</style>
+
+<script>
+  // ================= JAVASCRIPT LOGIK =================
+  (function() {
+    // DOM Elementer
+    const fitSlider = document.getElementById('hgw-fitness-slider');
+    const intSlider = document.getElementById('hgw-intensity-slider');
+    
+    const valSV = document.getElementById('hgw-val-sv');
+    const valHR = document.getElementById('hgw-val-hr');
+    const valMV = document.getElementById('hgw-val-mv');
+    
+    const fitLabel = document.getElementById('hgw-fit-label');
+    const intLabel = document.getElementById('hgw-int-label');
+    
+    const svLiquid = document.getElementById('hgw-sv-fill');
+    const heartSvg = document.getElementById('hgw-heart-svg');
+
+    // Faste fysiologiske værdier
+    const HR_MAX = 195;
+    const MV_REST = 5.0; // Liter pr minut
+
+    // Globale tilstandsvariabler
+    let currentHR = 70;
+    let nextBeatTime = 0;
+
+    // Funktion til at beregne værdier baseret på sliders
+    function getPhysiology(fitnessRaw, intensityRaw) {
+      const fitness = fitnessRaw / 100;     // 0.0 til 1.0
+      const intensity = intensityRaw / 100; // 0.0 til 1.0
+
+      // SV varierer fra utrænet (70-110) til elite (110-180)
+      const svRest = 70 + (fitness * 40);
+      const svMax = 110 + (fitness * 70);
+      
+      // Hvilepuls beregnes så den præcist giver 5.0 L/min
+      const hrRest = (MV_REST * 1000) / svRest;
+
+      // Beregn aktuelle værdier ved given intensitet 'x'
+      // Puls stiger lineært
+      const hr = hrRest + (intensity * (HR_MAX - hrRest));
+      
+      // Slagvolumen stiger som en kurve og flader ud omkring 40-50% intensitet
+      let sv = svRest;
+      if (intensity <= 0.45) {
+        // En sinuskurve bruges til at lave en blød stigning
+        sv = svRest + (svMax - svRest) * Math.sin((intensity / 0.45) * (Math.PI / 2));
+      } else {
+        sv = svMax; // Flader ud (Plateau)
+      }
+
+      const mv = (hr * sv) / 1000;
+
+      return { hrRest, hr, svRest, svMax, sv, mv };
+    }
+
+    // Opdater grafer
+    function updateGraphs(fitnessRaw, intensityRaw, phys) {
+      // SVG viewBox er 0,0 til 100,100. Y er spejlvendt (0 er top, 100 er bund).
+      const intensity = intensityRaw / 100;
+      
+      // Grænseværdier for grafernes Y-akse (så de passer pænt)
+      const maxHrY = 200;
+      const maxSvY = 200;
+      const maxMvY = 40;
+
+      let pathHR = "M ";
+      let pathSV = "M ";
+      let pathMV = "M ";
+
+      // Tegn kurverne med 20 punkter for jævnhed
+      for (let i = 0; i <= 100; i += 5) {
+        const x = i; // X er intensitet 0-100
+        const p = getPhysiology(fitnessRaw, i);
+        
+        const yHR = 100 - ((p.hr / maxHrY) * 100);
+        const ySV = 100 - ((p.sv / maxSvY) * 100);
+        const yMV = 100 - ((p.mv / maxMvY) * 100);
+
+        pathHR += `${x},${yHR.toFixed(1)} `;
+        pathSV += `${x},${ySV.toFixed(1)} `;
+        pathMV += `${x},${yMV.toFixed(1)} `;
+        
+        if (i < 100) { pathHR += "L "; pathSV += "L "; pathMV += "L "; }
+      }
+
+      // Sæt stier
+      document.getElementById('path-hr').setAttribute('d', pathHR);
+      document.getElementById('path-sv').setAttribute('d', pathSV);
+      document.getElementById('path-mv').setAttribute('d', pathMV);
+
+      // Sæt prikkernes position (Driftspunkt)
+      const dotX = intensityRaw;
+      document.getElementById('dot-hr').setAttribute('cx', dotX);
+      document.getElementById('dot-hr').setAttribute('cy', 100 - ((phys.hr / maxHrY) * 100));
+      
+      document.getElementById('dot-sv').setAttribute('cx', dotX);
+      document.getElementById('dot-sv').setAttribute('cy', 100 - ((phys.sv / maxSvY) * 100));
+      
+      document.getElementById('dot-mv').setAttribute('cx', dotX);
+      document.getElementById('dot-mv').setAttribute('cy', 100 - ((phys.mv / maxMvY) * 100));
+    }
+
+    // Hovedfunktion der kaldes ved ændringer
+    function updateWidget() {
+      const fitVal = parseInt(fitSlider.value);
+      const intVal = parseInt(intSlider.value);
+      
+      // Tekst labels opdatering
+      if(fitVal < 30) { fitLabel.innerText = "Utrænet"; fitLabel.style.color = "#b91c1c"; fitLabel.style.background = "#fee2e2"; }
+      else if(fitVal < 70) { fitLabel.innerText = "Normal"; fitLabel.style.color = "#0f766e"; fitLabel.style.background = "#ccfbf1"; }
+      else { fitLabel.innerText = "Veltrænet"; fitLabel.style.color = "#0369a1"; fitLabel.style.background = "#e0f2fe"; }
+
+      if(intVal === 0) { intLabel.innerText = "Hvile"; intLabel.style.color = "#0369a1"; intLabel.style.background = "#e0f2fe"; }
+      else if(intVal < 50) { intLabel.innerText = "Let arb."; intLabel.style.color = "#0f766e"; intLabel.style.background = "#ccfbf1"; }
+      else if(intVal < 90) { intLabel.innerText = "Hårdt arb."; intLabel.style.color = "#c2410c"; intLabel.style.background = "#ffedd5"; }
+      else { intLabel.innerText = "Maximalt"; intLabel.style.color = "#b91c1c"; intLabel.style.background = "#fee2e2"; }
+
+      // Beregninger
+      const phys = getPhysiology(fitVal, intVal);
+      
+      // Opdater tal i DOM
+      valSV.innerText = Math.round(phys.sv);
+      valHR.innerText = Math.round(phys.hr);
+      valMV.innerText = phys.mv.toFixed(1);
+
+      // Opdater grafisk cylinder til SV (max er sat til 180ml = 100%)
+      const fillPercentage = (phys.sv / 180) * 100;
+      svLiquid.style.height = `${fillPercentage}%`;
+
+      // Opdater hjertets basis-størrelse subtilt alt efter slagvolumen (lidt større når trænet)
+      const baseScale = 1 + (phys.svMax - 110) / 400; 
+      heartSvg.parentElement.style.transform = `scale(${baseScale})`;
+
+      // Opdater global HR til hjerteslag-loop
+      currentHR = phys.hr;
+
+      // Tegn grafer
+      updateGraphs(fitVal, intVal, phys);
+    }
+
+    // Flydende, hakke-fri hjerte-animation baseret på requestAnimationFrame
+    function heartbeatLoop(timestamp) {
+      if (timestamp >= nextBeatTime) {
+        // Udløs et hjerteslag (CSS trigger)
+        heartSvg.classList.remove('hgw-beat');
+        // Force reflow for at genstarte CSS transition
+        void heartSvg.offsetWidth; 
+        heartSvg.classList.add('hgw-beat');
+        
+        // Beregn tid til næste slag i millisekunder
+        const beatInterval = 60000 / currentHR;
+        nextBeatTime = timestamp + beatInterval;
+        
+        // Fjern klassen hurtigt igen så hjertet "slapper af"
+        setTimeout(() => {
+          heartSvg.classList.remove('hgw-beat');
+        }, Math.min(200, beatInterval * 0.4)); // Varigheden af sammentrækningen
+      }
+      requestAnimationFrame(heartbeatLoop);
+    }
+
+    // Event listeners
+    fitSlider.addEventListener('input', updateWidget);
+    intSlider.addEventListener('input', updateWidget);
+
+    // Start widget
+    updateWidget();
+    requestAnimationFrame(heartbeatLoop); // Start hjertets rytme-loop
+  })();
+</script>
+<!-- ================= HJERTE GRAF-WIDGET SLUT ================= -->

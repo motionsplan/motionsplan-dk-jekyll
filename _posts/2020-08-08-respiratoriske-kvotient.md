@@ -1,10 +1,11 @@
 ---
-title: Respiratoriske (RER) og metaboliske udvekslingskvotient (RQ)
-description: Den respiratoriske udvekslingskvotient (R eller RER) og metaboliske udvekslingskvotient (RQ) beskriver forholdet mellem fedt og kulhydrat i forbrændingen.
+title: 'RQ og RER: Hvad er den respiratoriske kvotient?'
+seo_title: 'RQ og RER: Hvad er forskellen? (Formel, tabel & beregner)'
+description: 'Lær forskellen på RQ (metabolsk kvotient) og RER (respiratorisk kvotient). Se formlen, forbrændingstabellen for fedt vs. kulhydrat, og prøv beregneren.'
 permalink: /respiratoriske-metaboliske-udvekslingskvotient/
 redirect_from:
   - /rer/
-last_modified_at: '2022-10-05T20:41:09Z'
+last_modified_at: '2026-08-03T20:30:00Z'
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1555708982-8645ec9ce3cc.jpg
@@ -17,139 +18,128 @@ tags:
   - forbrænding
 faq:
   - question: Hvad er den respiratoriske kvotient?
-    answer: Den respiratoriske kvotient er et lidt kortere navn for den respiratoriske udvekslingskvotient, som også forkortes R eller RER.
-  - question: Hvad er forskellen på den metaboliske udvekslingskvotient og den respiratoriske udvekslingskvotient?
-    answer: Begge kvotienter er forholdet mellem mængden af kuldioxid, der udskilles, divideret med mængden af ilt, der optages, på samme tid. Forskellen er at den metaboliske kvotient måles på celleniveau, mens den respiratoriske kvotient måles i udåndingsluften.
+    answer: Den respiratoriske kvotient (RER/R) angiver forholdet mellem udskilt kuldioxid (VCO₂) og optaget ilt (VO₂) målt i udåndingsluften.
+  - question: Hvad er forskellen på RQ og RER?
+    answer: Begge udtrykker forholdet VCO₂ / VO₂. Forskellen er, at RQ (metabolsk kvotient) måles direkte på celleniveau, mens RER (respiratorisk udvekslingskvotient) måles i udåndingsluften ved munden.
 ---
 
-Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratoriske udvekslingskvotient, som også kaldes R eller RER. 
+Når du arbejder med fysiologi, idræt eller tests med iltmaske på løbebånd, støder du hurtigt på begreberne **RQ** og **RER**. 
 
-Her kan du lære lidt mere om, hvad den respiratoriske udviklingskvotient (R eller RER) er i forhold til den metaboliske udvekslingskvotient (RQ).
+Begge tal fortæller, om kroppen primært forbrænder **fedt** eller **kulhydrat** – men der er én afgørende forskel på, hvor målingen foretages.
 
-Vi har også inkluderet en beregner, så du kan udregne energiproduktionen fra hhv. fedt og kulhydrat, når du kender iltoptagelsen og udskillelsen af kuldioxid.
+> ### ⏱️ Kort fortalt: Forskellen på RQ og RER
+> * **RQ (Metabolsk Udvekslingskvotient):** Måles direkte i **cellerne/vævet**. Angiver det reelle næringsstofforbrug ($RQ = \frac{\text{CO}_2 \text{ dannet i celler}}{\text{O}_2 \text{ forbrugt i celler}}$). Ligger altid mellem **0,70 og 1,00**.
+> * **RER / R (Respiratorisk Udvekslingskvotient):** Måles i **udåndingsluften ved munden** ($RER = \frac{\text{CO}_2 \text{ udskilt}}{\text{O}_2 \text{ optaget}}$). 
+> * **Steady-State:** Ved hvile og roligt arbejde er **RER = RQ**. Ved hårdt arbejde og hyperventilation stiger RER over **1,00**, fordi kroppen udskiller ekstra $\text{CO}_2$ fra mælkesyre.
 
-*[R]: Respiratoriske udvekslingskvotient
-*[RER]: Respiratoriske udvekslingskvotient
-*[RQ]: Metaboliske udvekslingskvotient
+---
 
-## Hvad er den respiratoriske udviklingskvotient (RER)?
+## Hvad er den respiratoriske udvekslingskvotient (RER)?
 
-**Den respiratoriske udvekslingskvotient er den mængde kuldioxid (CO₂), der udskilles gennem lungerne, divideret med den mængde ilt (O₂), der optages i samme tidsrum.**
+**Den respiratoriske udvekslingskvotient (RER eller R) er mængden af kuldioxid ($\text{CO}_2$), der udskilles gennem lungerne, divideret med mængden af ilt ($\text{O}_2$), der optages i samme tidsrum.**
 
 {% include video provider="youtube" id="_NevUAOpQAw" %}
 
-Den respiratoriske udvekslingskvotient kan ifølge [Wikipedia](https://da.wikipedia.org/wiki/Respiratoriske_udvekslings_kvotient) give et indblik i, hvilken metabolisme der foregår i kroppen.
+RER giver et direkte indblik i kroppens øjeblikkelige energiomsætning. Værdien afhænger af, hvilke næringsstoffer kroppen forbrænder (primært fedt og kulhydrat, men i mindre grad også protein og alkohol).
 
-Den respiratoriske udvekslingskvotient (RER) afhænger af, hvilke næringsstoffer der forbrændes i kroppen. Typisk skelner man primært mellem kulhydrat og fedt, men kroppen kan også forbrænde protein og alkohol.
+---
 
-## Hvad er den metaboliske udviklingskvotient (RQ)?
+## Hvad er den metaboliske udvekslingskvotient (RQ)?
 
-**Den metaboliske udvekslingskvotient er den mængde kuldioxid (CO₂), der udskilles fra cellerne, divideret med den mængde ilt (O₂), der forbruges i samme tidsrum i forbrændingen i cellerne.**
+**Den metaboliske udvekslingskvotient (RQ) er mængden af kuldioxid ($\text{CO}_2$), der produceres i cellerne, divideret med mængden af ilt ($\text{O}_2$), der forbruges i cellernes forbrænding.**
 
-RQ varierer mellem 0,7 og 1,0 og afspejler den øjeblikkelige CO₂-produktion i vævene delt med det samtidige O₂-forbrug.
+RQ varierer mellem 0,70 og 1,00:
+* **RQ = 0,70:** 100% fedtforbrænding.
+* **RQ = 1,00:** 100% kulhydratforbrænding.
 
-I _steady state_ er den respiratoriske udvekslingskvotient lig med den metaboliske udvekslingskvotient, men hvis man hyperventilerer, så kan RER være væsentlig større end RQ, mens hypoventilation vil nedsætte RER.
-
-Over længere tid kan man ikke udskille mere (eller mindre) CO₂ end der produceres, lige som man ikke kan (forbruge mere) eller mangle O₂ til stofskifteprocesserne. R vil igen være lig med RQ.
+I *steady state* (roligt arbejde med konstant iltoptagelse) er RER lig med RQ. Men hvis du begynder at hyperventilere eller akkumulere mælkesyre, udskiller lungerne mere $\text{CO}_2$, end cellerne producerer. Derved stiger RER over RQ.
 
 {% include video provider="youtube" id="oQvHwWbvLkY" %}
 
-RQ afspejler, hvilke næringsstoffer der forbrændes: kulhydrat, fedt, protein og alkohol.
+---
 
-## Metaboliske udvekslingskvotient og næringsstoffer
+## Sammenhæng mellem RQ/RER og forbrænding af fedt vs. kulhydrat
 
-Når man laver tests på løbebånd med iltmaske måler man den respiratoriske udvekslingskvotient i udåndingsluften og forventer, at den nogenlunde afspejler de metaboliske processer i kroppen, så man kan finde forholdet mellem næringsstofferne i kroppen.
+Når man laver laboratorietests på løbebånd med iltmaske, måler man RER i udåndingsluften for at estimere kroppens næringsstofvalg.
 
-På en normal kost er RER omkring 0,8 - 0,85 i hvile. Der forbrændes hovedsageligt fedt med værdier fra 0,7 - 0,85, hvor der er 100% fedtforbrænding ved 0,7.
+I hvile på en normal kost er RER typisk omkring **0,80 – 0,85**. Det svarer til en blandingsforbrænding med overvægt af fedt. 
 
 {% include figure image_path="/assets/images/blog/rq-og-intensitet.png" caption="RQ i relation til VO₂ i en arbejdsperiode. Frit efter: Schibye (2017)" alt="Metaboliske udvekslingskvotient (RQ)" %}
 
-Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer mennesker typisk ikke ned på 0,7. Når værdien er over 0,85 skifter forbrændingen gradvist over mod kulhydratforbrænding, og hvis man kommer op på 1,0, så er forbrændingen næsten udelukkende kulhydrater.
+### Tabel: Betydning af RQ / RER-værdier
 
-| RQ   | %E fra fedt | %E fra kulhydrat |
-|------|:-----------:|:----------------:|
-| 0,70 | 100         | 0                |
-| 0,75 | 84          | 16               |
-| 0,80 | 67          | 33               |
-| 0,85 | 49          | 51               |
-| 0,90 | 33          | 67               |
-| 0,95 | 16          | 84               |
-| 1,00 | 0           | 100              |
+| RQ / RER | % Energi fra Fedt | % Energi fra Kulhydrat |
+| :---: | :---: | :---: |
+| **0,70** | 100 % | 0 % |
+| **0,75** | 84 % | 16 % |
+| **0,80** | 67 % | 33 % |
+| **0,85** | 49 % | 51 % |
+| **0,90** | 33 % | 67 % |
+| **0,95** | 16 % | 84 % |
+| **1,00** | 0 % | 100 % |
 
-Jo højere intensitet du træner med, desto højere vil RER-værdien være. RER-værdien vil med rigtig høj intensitet overstige 1,0, fordi du ikke længere forbrænder fedt under selve aktiviteten, og du begynder at hyperventilere.
+Jo højere intensitet du træner med, desto mere overgår forbrændingen til kulhydrat, og RER stiger mod 1,0.
 
-RER bruges ofte i forbindelse med fx VO₂-max-tests som en af indikatorerne på, hvornår deltageren er tæt på at være nær grænserne for kredsløbet og den maksimale iltoptagelse.
+### Hvorfor kan RER overstige 1,0?
+Ved meget høj intensitet dannes energi anaerobt, hvilket fører til [ophobning af mælkesyre](/maelkesyre-traening/). For at neutralisere faldet i blodets pH-værdi, omdannes bikarbonat til $\text{CO}_2$, som udluftes via kraftig vejrtrækning (hyperventilation). 
 
-Hvis RER-værdien kommer over 1,1 og gerne lidt højere, så kan det være et slutpunktskriterium for VO₂-max-testen.
+Derved stiger udskillelsen af $\text{CO}_2$ i forhold til $\text{O}_2$, og **RER kan nå værdier på 1,10 – 1,20+**. Dette bruges ofte som et slutpunktskriterium under en maximal iltoptagelsestest ($\text{VO}_2\text{-max}$ test).
 
-## Hvad er forklaringen på RQ-værdierne?
+---
 
-Forklaringen på RQ-værdierne kan forklares med lidt kemi.
+## Kemisk forklaring på RQ-værdierne
 
-For at forbrænde et molekyle af **kulhydrat**, så ser den kemiske sammenhæng sådan ud:
+Forklaringen på, hvorfor tallene ligger på 0,70 og 1,00, findes i den stokiometriske kemi:
 
-***
+### Forbrænding af Kulhydrat (Glukose):
+$$6\,\text{O}_2 + \text{C}_6\text{H}_{12}\text{O}_6 \rightarrow 6\,\text{CO}_2 + 6\,\text{H}_2\text{O} + 38\,\text{ATP}$$
 
-6 O₂ + C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> --> 6 CO₂ + 6 H₂O + 38 ATP
+$$\text{RER} = \frac{\text{VCO}_2}{\text{VO}_2} = \frac{6\,\text{CO}_2}{6\,\text{O}_2} = \mathbf{1{,}0}$$
 
-RER = VCO₂/VO₂ = 6 CO₂/6 O₂ = 1.0
+### Forbrænding af Fedt (Palmitinsyre):
+$$23\,\text{O}_2 + \text{C}_{16}\text{H}_{32}\text{O}_2 \rightarrow 16\,\text{CO}_2 + 16\,\text{H}_2\text{O} + 129\,\text{ATP}$$
 
-***
+$$\text{RER} = \frac{\text{VCO}_2}{\text{VO}_2} = \frac{16\,\text{CO}_2}{23\,\text{O}_2} = \mathbf{0{,}70}$$
 
-For at forbrænde et molekyle af **fedt**, så ser den kemiske sammenhæng sådan ud:
+Da fedtmolekyler indeholder meget lidt ilt i forhold til brint og kulstof, kræver forbrænding af fedt betydeligt mere ilt i forhold til den dannede $\text{CO}_2$.
 
-***
+---
 
-23 O₂ + C<sub>16</sub>H<sub>32</sub>O₂ --> 16 CO₂ + 16 H₂O + 129 ATP
+## Formel: Beregn energiforbrug ud fra RER
 
-RER = VCO₂/VO₂ = 16 CO₂/23 O₂ = 0.7
+Når du kender R-værdien og iltoptagelsen ($\text{VO}_2$), kan du beregne det præcise energiforbrug pr. liter optaget ilt:
 
-***
+$$\text{Energiforbrug (kcal/L O}_2) = 1{,}24 \times R + 3{,}81$$
 
-Ud fra den kemiske sammenhæng er det altså meget klart, hvorfor forholdet mellem CO₂ og O₂ ligger mellem 0,7 og 1,0.
+| R-værdi | Kcal / Liter $\text{O}_2$ |
+| :---: | :---: |
+| 0,71 | 4,69 kcal |
+| 0,75 | 4,74 kcal |
+| 0,80 | 4,80 kcal |
+| 0,85 | 4,86 kcal |
+| 0,90 | 4,92 kcal |
+| 0,95 | 4,99 kcal |
+| 1,00 | 5,05 kcal |
 
-## Hvad kan jeg bruge R-værdien til?
+*Eksempel:* Hvis du optager $2{,}0 \text{ L O}_2/\text{min}$ ved en R-værdi på $0{,}85$, forbrænder du $2{,}0 \times 4{,}86 = 9{,}72 \text{ kcal/min}$.
 
-1. Når du kender R-værdien kan du estimere, hvilket næringsstof du bruger til den primære energiproduktion ved den givne intensitet.
-2. Du kan udregne energiforbruget ved en given aktivitet.
+---
 
-| R | Energy Expenditure kcal/L O₂ |
-|-|-|
-| 0.71 | 4.69 |
-| 0.75 | 4.74 |
-| 0.80 | 4.80 |
-| 0.85 | 4.86 |
-| 0.90 | 4.92 |
-| 0.95 | 4.99 |
-| 1.00 | 5.05 |
-
-Der er en lineær sammenhæng mellem værdierne, og det kan også udtrykkes ved følgende formel:
-
-***
-
-Energiforbrug (kcal/ L O₂) = 1,24 * R + 3,81
-
-***
-
-Hvis du fx arbejder og bruger 2 L O₂/min, og min R-værdi er 0,85, så forbrænder du 9,72 kcal/min. Hvis du arbejder med samme intensitet i 30 minutter, så forbrænder du i alt 292 kcal.
-
-## Beregn dit energiforbrug ud fra VO2 og R
+## Beregn dit energiforbrug (Beregner)
 
 {% include calc/vo2-rer-calculator.html rer_mode="vco2" title="🔬 Energiforbrug (VCO₂ / VO₂)" %}
 
+---
+
 ## Konklusion
 
-RER-værdien er forholdet mellem det udskilte CO₂ og den optagede ilt. Så længe du ikke arbejder maksimalt vil RER-værdien kunne bruges til fortælle noget om fordelingen mellem forbrænding af fedt (RQ=0,7) og kulhydrat (RQ=1,0).
+RER og RQ er uundværlige redskaber i træningsfysiologien. Så længe du arbejder submaksimalt, giver RER et præcist billede af næringsstofvalget. 
 
-Når du nærmer dig din maksimale ydeevne, så vil en del af energien blive produceret anaerobt.
+Når du nærmer dig din maksimale ydeevne, reflekterer stigningen i RER over 1,0 kroppens mælkesyre buffering og udluftning af ekstra $\text{CO}_2$.
 
-Når det anaerobe arbejde stiger falder pH-værdien i cellerne og i blodet, bl.a. fordi der sker en [ophobning af mælkesyre](/maelkesyre-traening/). For at neutralisere den faldende pH-værdi i blodet forsøger kroppen at udskille ekstra CO₂ ved at hyperventilere. Veltrænede personer kan arbejde med en RER-værdi på over 1 i adskillige minutter.
+Læs mere om, hvordan vi anvender dette i [laboratorietest af iltoptagelse](/iltoptagelse-laboratorietest/).
 
-Det er også derfor at _cutoff_ i en maxtest på løbebåndet typisk kræver RER-værdier på mere end 1,10-1,15.
-
-Udskillelsen af CO₂ gennem udåndingsluften kan i øvrigt stige efter arbejdet er ophørt, og det vil man ofte se i en laboratorietest.
-
-Vi har lavet en side, der går mere i dybden med [test af iltoptagelse i laboratorium](/iltoptagelse-laboratorietest/).
+---
 
 ## Ofte stillede spørgsmål
 

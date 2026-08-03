@@ -29,6 +29,8 @@ Aerob energisystem
 Anaerob energisystem
 : **Anaerob**. Anaerob er de processer, der foregår uden ilt. Musklerne har altid ATP til rådighed som kan spaltes uden ilt og bruges til meget kortvarigt arbejde. Ved lidt længerevarende hårdt arbejde spaltes kulhydrat uden ilt glukosen omdannes til mælkesyre.
 
+{% include components/energisystemer.html %}
+
 ## Energisystemerne skaber energi med aerobe og anaerobe processer
 
 Alle cellerne i din krop har brug for energi for at holde dig i live. Kroppen får sin energi gennem energisystemerne. _Conditioning_ handler om at forbedre energiproduktionen og energiforbruget.
@@ -55,6 +57,8 @@ Der er tre variabler, der definerer hvilken type miljø, der er i kroppen.
 I denne figur kan du se fordelingen mellem det anaerobe og det aerobe system:
 
 {% include figure image_path="/assets/images/blog/anaerob-aerob-energy.jpg" caption="Illustration af det procentvise energibidrag fra nedbrydning af henholdsvis kulhydrat og fedt i forhold til arbejdsintensiteten. Ved lav intensitet, som kan udføres i lang tid, er der en stor fedtnedbrydning. Ved næsten maksimal intensitet, som kan udføres i kort tid, dominerer den anaerobe glykogennedbrydning samt spaltningen af ATP og KrP. Mellem disse intensitetsniveauer dominerer den aerobe glykogennedbrydning. Det skal understreges, at der er tale om en principskitse, idet der kan være forholdsvis store individuelle forskelle bl.a. på grund af træningstilstanden. Desuden vil energibidraget ved en vilkårlig intensitet være afhængig af i hvor lang tid, man arbejder med den givne intensitet." alt="Forskellen på aerob og anaerob energisystem og arbejde" %}
+
+{% include components/metabolisk-motor.html %}
 
 ## Anaerobe og aerobe energisystemer
 
