@@ -1,8 +1,17 @@
-{% comment %} 11TY - NOT NEEDED - BAKED INTO 11TY MM {% endcomment %}
+{% assign raw_img = include.image_path | absolute_url %}
+
+{% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
+  {% assign img_width = include.width | default: "800" %}
+  {% assign img_src = site.image_cdn | append: "f_auto,q_auto,w_" | append: img_width | append: "/" | append: raw_img %}
+{% else %}
+  {% assign img_src = include.image_path | relative_url %}
+{% endif %}
 
 <figure class="{{ include.class }}">
-  <img src="{{ include.image_path | relative_url }}"
-       alt="{% if include.alt %}{{ include.alt }}{% endif %}" loading="lazy">
+  <img src="{{ img_src }}"
+       alt="{% if include.alt %}{{ include.alt }}{% endif %}" 
+       loading="lazy"
+       decoding="async">
   {%- if include.caption -%}
     <figcaption>
       {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}

@@ -1,9 +1,14 @@
-{% comment %} 11TY - NOT NEEDED - BAKED INTO 11TY MM {% endcomment %}
-
 {% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+  {% assign teaser_path = post.header.teaser %}
 {% else %}
-  {% assign teaser = site.teaser %}
+  {% assign teaser_path = site.teaser %}
+{% endif %}
+
+{% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
+  {% assign raw_teaser = teaser_path | absolute_url %}
+  {% assign teaser_src = site.image_cdn | append: "f_auto,q_auto,w_500/" | append: raw_teaser %}
+{% else %}
+  {% assign teaser_src = teaser_path | relative_url %}
 {% endif %}
 
 {% assign show_excerpt = include.show_excerpt | default: true %}
@@ -16,9 +21,9 @@
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+    {% if include.type == "grid" and teaser_path %}
       <div class="archive__item-teaser" style="position: relative;">
-        <img src="{{ teaser | relative_url }}" alt="{{ title }}" data-pin-nopin="true" loading="lazy">
+        <img src="{{ teaser_src }}" alt="{{ title }}" data-pin-nopin="true" loading="lazy" decoding="async">
         {% if post.tags[0] == "beregner" %}
         <div class="icon-overlay">
           <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
@@ -64,6 +69,6 @@
       {% endif %}
     </p>
     {% include page__meta.html type=include.type %}
-    {% if show_excerpt == true && post.excerpt %}<p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {% if show_excerpt == true and post.excerpt %}<p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>

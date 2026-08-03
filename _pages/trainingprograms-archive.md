@@ -75,7 +75,7 @@ faq:
     answer: "Ja! Alle træningsprogrammer, guides, beregnere og skabeloner på Motionsplan er 100% gratis at benytte."
 ---
 
-Et veltilrettelagt **træningsprogram** giver struktur, kontinuitet og de bedste forudsætninger for at nå dine fysiske mål. Uanset om du vil opbygge muskelmasse i fitnesscentret, forbedre dit kondital på løbestien eller i gang med skånsom motion, finder du det rette program her.
+Et veltilrettelagt **træningsprogram** giver struktur, kontinuitet og de bedste forudsætninger for at nå dine fysiske mål. Uanset om du søger et nemt **begynder træningsprogram** til fitnesscentret, vil forbedre dit kondital på løbestien eller ønsker skånsom motion, finder du det rette program her.
 
 Vælg din foretrukne træningsform herunder for at komme direkte til vores specialiserede programkataloger og guides.
 
@@ -86,7 +86,7 @@ Vælg din foretrukne træningsform herunder for at komme direkte til vores speci
 
 Hvad end du vil træne i fitnesscentret eller derhjemme, har vi samlet et bredt udvalg af gratis styrketræningsprogrammer til alle niveauer:
 
-* **[Fullbody / Helkropsprogrammer](/styrketraening/helkropsprogrammer/)** – Perfekt til dig, der vil træne 2–3 gange om ugen og ramme hele kroppen hver gang.
+* **[Fullbody / Helkropsprogrammer (Begynder)](/styrketraening/helkropsprogrammer/)** – Perfekt til dig, der vil træne 2–3 gange om ugen og ramme hele kroppen hver gang.
 * **[Splitprogrammer](/styrketraening/split-programmer/)** – Ideelt til øvede løftede, der træner 3–5 gange om ugen (f.eks. 2-split eller 3-split push/pull).
 
 {% include feature_row id="feature_row_strength" type="left" %}
