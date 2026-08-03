@@ -8,8 +8,8 @@ redirect_from:
   - /program/kompakt-helkropsprogram-normal/
 language: da
 header:
-  overlay_image: /assets/images/blog/verdens-korteste-styrkeprogram.JPG
-  teaser: /assets/images/blog/verdens-korteste-styrkeprogram.JPG
+  overlay_image: https://images.unsplash.com/photo-1602611001234-9a11ae14d340?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1602611001234-9a11ae14d340?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Kompakt helkropsprogram på under 30 minutter"
 category:
   - Styrketræning
