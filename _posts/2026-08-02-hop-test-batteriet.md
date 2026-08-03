@@ -6,8 +6,8 @@ excerpt: "Hoptest-batteriet er guldstandarden inden for knægenoptræning. Lær 
 permalink: /hoptest-batteriet/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1552674605-17147cea8732?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1552674605-17147cea8732?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1758875568097-ba62eeff66ad?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1758875568097-ba62eeff66ad?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 category:
   - Tests

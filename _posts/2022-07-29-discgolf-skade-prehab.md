@@ -9,7 +9,7 @@ categories:
 tags:
   - discgolf
   - skadesforebyggelse
-exercises:
+workout:
   - "Varm the"
   - "Pull aparts"
   - "Paloff Press"
@@ -87,6 +87,14 @@ Hvis du gerne vil spille discgolf uden skader lige når du har lyst, så er det 
 - Du **kaster med fornuftig teknik**. Det kan betale sig at træne sin teknik, så den bliver så hensigtsmæssig som muligt. 
 - Du **laver øvelser til at stabilisere dine bevægelser**. Ofte kan det betale sig at lave øvelser, som er med til at styrke og stabilisere dine bevægelser.
 - Du **vænner dig stille og roligt til at kaste mere og med mere** og mere kraft. Du skal lave en progressiv opbygning af din træningsvolumen og kastevolumen.
+
+{% include components/workout-player.html
+  exercises=page.workout
+  title="Discgolf skadesforebyggelse"
+  description="Program med øvelser til forebyggelse af skulderskader i Discgolf med elastik."
+  rounds=3
+  rest=15
+%}
 
 ## Øvelser til skadesforebyggelse i discgolf
 

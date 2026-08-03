@@ -96,6 +96,9 @@ Følgende tabel giver et godt overblik over effektiviteten af det anaerobe og ae
 | Næringskilde | Kulhydrat | Kulhydrat, fedt, protein |
 | Affaldsstoffer | Laktat + H2O | CO2 + H2O           |
 
+{: .notice--info}
+** ⚡ Forstå forskellen på aerob og anaerob træning** Vil du have et hurtigt overblik over, hvordan kroppen skifter mellem iltkrævende (aerobt) og eksplosivt (anaerobt) arbejde? Se vores sammenligningsguide til [forskellen på aerob og anaerob træning](/forskel-aerob-anaerob-traening/) med overskuelige skemaer og fysiologiske eksempler.
+
 ## Hvordan ser energilagrene i kroppen ud?
 
 I nedenstående tabel er der det groft estimat på, hvor meget energi man har tilgængelig i kroppen. Energilagrene bliver brugt i de forskellige energisystemer. Fx kan ATP og CrP bruges direkte i det **anaerobe system** til kortvarige intense energiudladninger og muskelsammentrækninger. Det anaerobe system kan også spalte kulhydrat og hurtigt få endnu mere energi, dog med [mælkesyre](/maelkesyre-traening/) som biprodukt.

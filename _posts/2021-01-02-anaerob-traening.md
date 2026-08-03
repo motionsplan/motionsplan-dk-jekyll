@@ -15,8 +15,17 @@ category:
 tags:
 - anaerob træning
 - energisystemer
-last_modified_at: '2021-01-21T10:14:14Z'
+last_modified_at: '2026-07-21T10:14:14Z'
 toc: 'true'
+faq:
+- question: Hvad er anaerob træning?
+  answer: Anaerob træning er højintensiv træning, hvor kroppen leverer energi uden brug af ilt. Det sker under kortvarige, eksplosive belastninger som sprint, tung styrketræning eller HIIT-intervaller.
+- question: Hvad er forskellen på laktacid og alaktacid anaerob træning?
+  answer: Alaktacid træning (0–10 sekunder) bruger musklernes øjeblikkelige lagre af ATP og kreatinfosfat uden at danne mælkesyre. Laktacid træning (10 sekunder til 2 minutter) spalter kulhydrater og danner laktat (mælkesyre) som biprodukt.
+- question: Hvorfor syrer man til under anaerob træning?
+  answer: Når du træner anaerobt laktacid, ophobes der brintioner og laktat i musklerne. Det er primært stigningen i brintioner og ubalancen i kalium, der gør musklerne trætte, mens laktat i sig selv fungerer som genanvendeligt brændstof.
+- question: Hvad er forskellen på anaerob kapacitet og anaerob effekt?
+  answer: Anaerob kapacitet er den samlede mængde energi, det anaerobe system kan levere over tid (f.eks. i et 400-meter løb). Anaerob effekt er musklernes evne til at frigive maksimal energi lynhurtigt (f.eks. i et 50-meter sprint).
 ---
 
 Anaerob træning bør være en del af din træning. Det anaerobe system er en vigtig del af dit energisystem, og det skal også trænes. Jeg kigger på, hvad anaerob træning er, viser anaerobe øvelser og foreslår hvordan et anaerobt træningsprogram kan se ud.
@@ -32,6 +41,10 @@ I dette indlæg kan du få svar på følgende spørgsmål:
 - Hvad er anaerob kapacitet?
 - Hvad er anaerob effekt?
 - Eksempler på anaerob træning
+
+**⚖️ Hvordan adskiller anaerob træning sig fra aerob?**
+Selvom anaerob træning udfordrer din mælkesyretolerance og råstyrke, arbejder det altid i samspil med din aerobe base. Få det samlede fysiologiske overblik i vores artikel om [forskellen på aerob og anaerob træning](/forskel-aerob-anaerob-traening/).
+{: .notice--info}
 
 ## Hvad er det anaerobe system?
 
@@ -189,6 +202,10 @@ Men du skal ikke være bange for at træne anaerobt. Du skal bare huske principp
 ## Konklusion
 
 Anaerob træning kan altså både være laktacid og alaktacid. Det anaerobe system fungerer ved enten at benytte CrP og ATP til at få leveret energi rigtig hurtigt. Hvis intensiteten er rigtig høj over lidt længere tid, så kan du også spalte glykose med biproduktet mælkesyre i musklerne.
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 ## Andre eksempler på anaerob træning
 

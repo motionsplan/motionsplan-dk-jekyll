@@ -5,8 +5,8 @@ description: 'Hvad er Sweet Spot træning, og hvordan adskiller det sig fra Zone
 permalink: /sweet-spot-traening/
 language: da
 header:
-  overlay_image: /assets/images/unsplash/photo-1517649763962-0c623066013b.jpg
-  teaser: /assets/images/unsplash/photo-1517649763962-0c623066013b.jpg
+  overlay_image: https://images.unsplash.com/photo-1766371900965-8aa1b6983f05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1766371900965-8aa1b6983f05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: Sweet Spot træning på landevejen
 category:
 - Træning

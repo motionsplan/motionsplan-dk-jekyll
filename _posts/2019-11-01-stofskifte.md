@@ -1,8 +1,7 @@
 ---
-title: 'Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag'
-seo_title: Stofskifte og energibehov – Beregn BMR, TDEE og mere
-description: Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige kaloriebehov og optimere din sundhed.
-excerpt: Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige kaloriebehov og optimere din sundhed.
+title: 'Forstå dit energibehov: Stofskifte, BMR og ligevægtsindtag'
+seo_title: Stofskifte og energibehov – Alt om BMR, TDEE, TEF & forbrænding
+description: Lær hvordan BMR, hvilestofskifte, TEF og aktivitetsniveau (PAL) påvirker din samlede forbrænding. Se formler for fedtfri masse og beregn dit energibehov.
 permalink: /stofskifte/
 language: da
 header:
@@ -15,153 +14,169 @@ category:
 tags:
   - kost & ernæring
   - stofskifte
+  - hvilestofskifte
   - guide
   - featured
-last_modified_at: '2025-03-06T23:14:14Z'
+last_modified_at: '2026-08-03T11:30:00Z'
 keywords:
+  - stofskiftet
+  - hvad er stofskiftet
   - bmr beregner
-  - basalstofskifte beregner
   - basalstofskifte
-  - udregn bmr
-  - beregn bmr
   - hvilestofskifte
-  - beregn hvilestofskifte
-  - beregn basalstofskifte
-  - udregn basalstofskifte
-  - bmr udregning
-  - udregn hvilestofskifte
-  - basalstofskifte udregning
-  - basalstofskifte hvilestofskifte
-  - udregning af basalstofskifte
+  - fødeinduceret termogenese
+  - pal værdi
+  - epoc efterforbrænding
 faq:
-  - question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
-    answer: Hvilestofskifte (BMR) og basalstofskifte refererer ofte til den samme ting, nemlig den energi, kroppen bruger i hvile. BMR måler dette på et minimumsniveau, mens basalstofskifte kan være en mere generel term. Begge begreber bruges til at forstå kroppens grundlæggende energiforbrug.
-  - question: Hvad betyder det, hvis jeg har lavt stofskifte?
-    answer: Lavt stofskifte betyder, at kroppen forbrænder energi langsommere, hvilket kan føre til vægtøgning, træthed, og lavt energiniveau. Det kan skyldes hormonelle ubalancer som ved hypothyroidisme.
-  - question: Kan man øge sit stofskifte?
-    answer: Ja, fysisk aktivitet, især styrketræning og intensiv cardio, kan øge stofskiftet. Desuden kan en proteinrig kost, regelmæssige måltider og tilstrækkelig søvn også hjælpe med at booste stofskiftet.
+  - question: Hvad er forskellen på hvilestofskifte (BMR) og basalstofskifte?
+    answer: Begreberne bruges ofte synonymt. Basalstofskifte (Basal Metabolic Rate - BMR) er den absolutte minimumsenergi, kroppen bruger i hvile under helt fastsatte betingelser (12 timers faste, tempereret rum, fuldstændig ro). Hvilestofskifte (RMR) måles under lidt mindre strenge krav, men tallene ligger typisk inden for få procent af hinanden.
+  - question: Hvor stor en del af forbrændingen udgør hvilestofskiftet?
+    answer: Hvilestofskiftet udgør langt den største del af kroppens samlede daglige energiforbrug – typisk 50–70 % hos almindelige voksne.
+  - question: Kan man øge sit hvilestofskifte?
+    answer: Ja, den mest effektive måde at øge BMR på er ved at øge den fedtfrie masse (muskelmasse) via styrketræning. Muskler forbrænder ca. 54 kJ/kg om dagen i hvile mod fedts 19 kJ/kg.
+  - question: Hvad er fødeinduceret termogenese (TEF/FIT)?
+    answer: TEF (eller FIT) er den energi, kroppen bruger på at fordøje, optage og transportere næringsstofferne fra maden. Det udgør ca. 10 % af det daglige energiforbrug, men varierer fra 20–30 % for proteiner til 1–3 % for fedt.
+  - question: Hvad betyder lavt stofskifte?
+    answer: Lavt stofskifte (hypothyroidisme) betyder, at skjoldbruskkirtlen danner for lidt stofskiftehormon (T3/T4), hvilket dæmper cellernes energiomsætning. Det kan føre til vægtøgning, kuldeskærhed og træthed og kræver medicinsk udredning hos lægen.
 ---
 
-Dit stofskifte – eller energiforbrug – handler om, hvor meget energi kroppen bruger i hvile og i aktivitet. Her får du et samlet overblik og adgang til beregnere og baggrundsviden.
+Dit **stofskifte** – eller din samlede energiomsætning – er udtryk for den mængde energi (kalorier eller kilojoule), din krop forbrænder i løbet af et døgn. 
 
-Forståelse af dit energibehov er essentielt, hvis du vil optimere din sundhed, ydeevne eller kropskomposition. Energibalance afgør, om du tager på, taber dig eller vedligeholder din nuværende vægt.
+Forståelsen af dit stofskifte er fundamentet for al vægtregulering, træningsplanlægning og kropskomposition:
 
-- **Kalorieoverskud**: Du indtager flere kalorier, end du forbrænder → vægtøgning.
-- **Kalorieunderskud**: Du forbrænder flere kalorier, end du indtager → vægttab.
-- **Kaloriebalance**: Du indtager og forbrænder det samme antal kalorier → stabil vægt.
+* **Kalorieoverskud:** Du indtager mere energi, end du forbrænder → vægtøgning.
+* **Kalorieunderskud:** Du forbrænder mere energi, end du indtager → vægttab.
+* **Ligevægtsindtag:** Du indtager nøjagtigt det, du forbrænder → stabil vægt.
 
-**Vil du hurtigt beregne dit daglige energiforbrug?** Gå direkte til vores [mest avancerede energibehovsberegner](/ligevaegtsindtag-beregner/).
+---
 
-***
+## ⚡ Stofskiftets 3 Hovedkomponenter
 
-## ⚡ Beregn dit stofskifte og energiforbrug
+Kroppens samlede daglige energiforbrug (Total Daily Energy Expenditure – TDEE) sammensættes af tre primære komponenter:
 
-Her kan du hurtigt beregne dit stofskifte og energiforbrug ved at bruge vores online værktøjer. Vælg den beregner, der passer bedst til dit behov.
+```
+[ Samlet Daglige Energiforbrug (TDEE) ]
+   ├── 1. Hvilestofskifte / BMR (50 – 70 %)
+   ├── 2. Fødeinduceret Termogenese / TEF (ca. 10 %)
+   └── 3. Fysisk Aktivitet / PAL (20 – 40 %)
+          ├── NEAT (Hverdagsbevægelse)
+          ├── EAT (Planlagt træning)
+          └── EPOC (Efterforbrænding)
+```
 
-| Beregning | Beskrivelse |
-|-|-|
-| 🔵 **BMR / hvilestofskifte**<br>→ [Beregn BMR her](/bmr-beregner/) | Hvor meget energi din krop bruger i total hvile – grundlaget for al energiberegning. |
-| 🟢 **Dagligt energiforbrug & Ligevægtsindtag**<br>→ [Beregn dit ligevægtsindtag](/ligevaegtsindtag-beregner/) | Dit samlede energiforbrug inkl. fysisk aktivitet. |
+---
 
-💡 Du behøver ikke kende forskellen – start bare med den beregner, du har brug for. Du kan altid læse mere længere nede.
-{: .notice .notice--info }
+## 📊 Værktøjer: Beregn dit eget stofskifte
 
-***
+Vil du udregne dine personlige tal med det samme? Brug vores online beregnere:
 
-## 📚 Forstå begreberne bag
+| Beregning | Beskrivelse | Link |
+| :--- | :--- | :--- |
+| **BMR / Hvilestofskifte** | Beregn din krops minimumsforbrug i hvile. | 🔵 [Beregn BMR her](/bmr-beregner/) |
+| **Ligevægtsindtag & TDEE** | Beregn dit samlede energiforbrug inkl. aktivitet. | 🟢 [Beregn Ligevægtsindtag](/ligevaegtsindtag-beregner/) |
+| **MET-værdier** | Se energiforbrug for specifikke aktiviteter. | 🟡 [Se MET-tabel her](/met/) |
+| **PAL-beregner** | Udregn dit PAL-niveau. | 🟡 [Se PAL-beregner](/pal-beregner/) |
 
-Er du nysgerrig på, hvad de forskellige begreber betyder? Her får du en grundlæggende forklaring på de vigtigste elementer i stofskifte og energiforbrug:
+---
 
-- [Hvad er hvilestofskifte og basalstofskifte?](/bmr-beregner/)
-- [Sådan beregnes dit daglige energibehov (TDEE)](/hvordan-beregne-dagligt-energibehov/)
-- [Hvad er dit ligevægtsindtag, og hvordan finder du det?](/ligevaegtsindtag-beregner/)
+## 1. Hvilestofskiftet (BMR) – Din krops basale motor
 
-## 📊 Typiske spørgsmål
+Kroppens hvilestofskifte kaldes også **basalstofskiftet** – eller på engelsk *Basal Metabolic Rate (BMR)*. BMR dækker over den energi, der kræves for at holde vitale organer i gang (hjerne, hjerte, lever, nyrer, vejrtrækning og celletjeneste) under absolut hvile.
 
-{% include motionsplan/faq.html %}
+Formelt måles BMR om morgenen efter 12–18 timers faste og hvile i et tempereret lokale uden forudgående fysisk eller psykisk stress.
 
-***
+### Hvilke faktorer påvirker dit hvilestofskifte?
 
-## 1. Basalstofskifte (BMR) – Din krops minimumsforbrug
+* **Kropssammensætning (Fedtfri masse - FFM):** Omkring 85 % af den individuelle variation i hvilestofskiftet skyldes mængden af fedtfri masse (FFM = kropsvægt minus fedtmasse). Muskelvæv har en energiomsætning på ca. **54 kJ/kg pr. dag** (ca. 13 kcal/kg), mens fedtvæv kun forbrænder ca. **19 kJ/kg pr. dag** (ca. 4,5 kcal/kg).
+* **Vægt og højde:** En større krop har flere celler og kræver mere energi at holde i gang.
+* **Alder:** Hvilestofskiftet falder i gennemsnit med ca. **150 kJ (ca. 35 kcal) pr. tiår**. Det skyldes primært tab af muskelmasse (sarkopeni) og ændret væskebalance.
+* **Køn:** Mænd har generelt et højere BMR end kvinder pga. en højere andel af fedtfri muskelmasse og lavere fedtprocent.
+* **Hormoner:** Skjoldbruskkirtelhormonerne (T3 og T4) fungerer som kroppens termostat. Ved forhøjet stofskifte (*hyperthyroidisme*) stiger BMR, mens det falder ved lavt stofskifte (*hypothyroidisme*). Adrenalin fra binyremarven øger ligeledes stofskiftet ved akut stress.
+* **Genetik:** Der ses en naturlig genetisk variation i BMR på op til $\pm 10\ \%$ mellem personer med identisk alder, køn, vægt og FFM.
+* **Farmakologi og stimulanser:** Nikotin fra rygning kan øge stofskiftet midlertidigt med 5–10 %. Koffein (kaffe, te) og visse stoffer som capsaicin i chili øger også energiomsætningen svagt.
 
-Basalstofskifte (BMR) er den mængde energi, din krop bruger i hvile til at holde vitale funktioner i gang, som vejrtrækning, blodcirkulation og organfunktion.
+### Formler for BMR baseret på fedtfri masse (FFM)
 
-Faktorer, der påvirker BMR:
+Hvis du kender din [fedtprocent](/maal-fedtprocent/) og [kropskomposition](/kropskomposition/), angiver fysiologisk litteratur (bl.a. *Menneskets Ernæring* af Astrup et al.) følgende præcise formler for basalstofskiftet:
 
-- Alder: BMR falder med alderen, da muskelmassen ofte reduceres.
-- Køn: Mænd har typisk en højere BMR end kvinder pga. større muskelmasse.
-- Muskelmasse: Jo mere muskelmasse, jo højere BMR.
-- Højde og vægt: Større personer har en højere BMR.
-- Genetik: Arvelige faktorer kan have indflydelse på stofskiftet.
+$$\text{BMR (MJ/døgn)} = 0{,}09 \times \text{FFM (kg)} + 1{,}55$$
 
-🔗 [Beregn dit hvilestofskifte med vores BMR-beregner](/bmr-beregner/)
+Eller den udvidede formel:
 
-## 2. Dagligt energiforbrug – Sådan påvirker aktivitet dit energiforbrug
+$$\text{BMR (MJ/døgn)} = 0{,}058 \times \text{FFM (kg)} + 0{,}026 \times \text{FM (kg)} - 0{,}018 \times \text{alder} + 0{,}615 \times \text{køn} + 3{,}322$$
 
-Dit daglige energiforbrug er summen af dit BMR og den energi, du bruger på fysisk aktivitet. Dette inkluderer daglige gåture, træning, arbejde og generelle kropsbevægelser.
+*(Hvor køn = 1 for mænd, og 0 for kvinder. FM = Fedtmasse i kg).*
 
-Sådan beregnes dit daglige energiforbrug:
+Læs: [Tjek vores BMR-beregner med fedtfri masse](/bmr-beregner-ffm/)
 
-BMR ganges med en aktivitetsfaktor afhængigt af dit niveau:
+---
 
-- 1.2 – Stillesiddende (ingen eller meget lidt motion)
-- 1.375 – Let aktiv (let motion 1-3 dage om ugen)
-- 1.55 – Moderat aktiv (motion 3-5 dage om ugen)
-- 1.725 – Meget aktiv (hård motion 6-7 dage om ugen)
-- 1.9 – Ekstremt aktiv (hård træning dagligt, fysisk arbejde)
+## 2. Fødeinduceret Termogenese (TEF / FIT)
 
-**For en endnu mere præcis beregning**:
+**Fødeinduceret termogenese (TEF)** – også kaldet *Termisk Effekt af Mad* eller *FIT* – er den energi, kroppen forbruger på at nedbryde, optage, transportere og lagre næringsstofferne fra de måltider, du spiser.
 
-Ud over BMR og fysisk aktivitet påvirkes dit stofskifte og forbrænding af andre faktorer:
+TEF udgør i gennemsnit **ca. 10 %** af det samlede daglige energiindtag, men den termiske effekt varierer enormt alt efter næringsstoffet:
 
-- Termisk effekt af mad (TEF): Kroppen bruger energi på at fordøje mad, ca. 10% af dit daglige energiforbrug.
-- NEAT (Non-Exercise Activity Thermogenesis): Småbevægelser som at gå rundt, vippe med foden, rejse sig op osv.
-- Træning: Planlagt motion øger din forbrænding betydeligt.
+| Makronæringsstof | Termisk Effekt (TEF / FIT) | Forklaring |
+| :--- | :--- | :--- |
+| **Protein** | **20 – 30 %** | Kræver kompleks kemisk nedbrydning og aminosyre-omsætning. |
+| **Kulhydrat** | **5 – 10 %** | Omdannes relativt let til glukose og glykogen. |
+| **Fedt** | **1 – 3 %** | Lagres ekstremt effektivt i fedtvævet med minimalt energitab. |
 
-🔗 [Nøjagtig estimering af din daglige forbrænding](/ligevaegtsindtag-beregner/)
+> **Praktisk tip:** En proteinrig kost øger din samlede forbrænding via TEF og mætter samtidigt mere pr. kalorie end fedt og refined kulhydrat.
 
-## 3. Ligevægtsindtag – Find dit balancepunkt
+---
 
-Ligevægtsindtaget er den mængde kalorier, du skal spise dagligt for at opretholde din nuværende vægt. Dette er nyttigt, hvis du vil planlægge et vægttab eller en vægtøgning.
+## 3. Fysisk Aktivitetsniveau (PAL, NEAT & EPOC)
 
-Hvordan bruger du ligevægtsindtaget?
+Fysisk aktivitet er den variabel i stofskiftet, du selv har størst kontrol over. Den udgør typisk 20–40 % af den samlede forbrænding, men kan variere voldsomt.
 
-- For vægttab: Spis 300-500 kcal under dit ligevægtsindtag.
-- For vægtøgning: Spis 300-500 kcal over dit ligevægtsindtag.
-- For vedligehold: Spis omkring dit ligevægtsindtag.
+For at beregne dit samlede energiforbrug (TDEE) ganges dit hvilestofskifte (BMR) med en **PAL-faktor (Physical Activity Level)**.
 
-🔗 [Find dit ligevægtsindtag](/ligevaegtsindtag-beregner/)
+### PAL-skema (Fysisk aktivitetsniveau)
 
-***
+Følgende tabel tager udgangspunkt i *Nordiska Næringsrekommendationer*:
+
+| Aktivitetsniveau i hverdagen | PAL-faktor |
+| :--- | :--- |
+| **Rullestolsbunden eller sengeliggende** | 1,2 |
+| **Stillesiddende arbejde** (f.eks. kontor) med minimal fysisk aktivitet i fritiden. | 1,4 – 1,5 |
+| **Stillesiddende arbejde** med et vist behov for bevægelse og lidt fritidsaktivitet. | 1,6 – 1,7 |
+| **Hovedsageligt stående eller gående arbejde** (f.eks. håndværker, tjener, lærer). | 1,8 – 1,9 |
+| **Regelmæssig sport/træning i fritiden** (30–60 min, 4–5 gange om ugen). | $+0,3$ til PAL |
+| **Hårdt kropsarbejde** eller elitesport/meget høj fritidsaktivitet. | 2,0 – 2,4 |
+
+### Hvad indeholder den fysiske aktivitet?
+
+1. **NEAT (Non-Exercise Activity Thermogenesis):** Al den ubevidste bevægelse i hverdagen – at gå på trapper, gøre rent, vippe med foden, rejse sig fra stolen og havearbejde. NEAT udgør ofte en langt større del af forbrændingen end selve træningen!
+2. **EAT (Exercise Activity Thermogenesis):** Den planlagte motion og træning (løb, cykling, styrketræning).
+3. **EPOC (Efterforbrænding):** *Excess Post-exercise Oxygen Consumption*. Efter hård fysisk aktivitet (særligt ved intensitet over 60–65 % af VO2max som f.eks. [HIIT](/hiit/) eller tung styrketræning) forbliver stofskiftet forhøjet i 12–24 timer, mens kroppen genopbygger sine energidepoter og fjerner affaldsstoffer.
+
+---
 
 ## Sammenhængen mellem begreberne
 
-{% include figure image_path="/assets/images/mdpi.com/jcm-13-05862-g001-e4872776.png" caption="Kilde: [mdpi.com](https://www.mdpi.com/2077-0383/13/19/5862) [📷](https://www.mdpi.com/jcm/jcm-13-05862/article_deploy/html/images/jcm-13-05862-g001.png){: rel='nofollow noopener' }" %}
+{% include figure image_path="/assets/images/mdpi.com/jcm-13-05862-g001-e4872776.png" caption="Fordelingen af det samlede energiforbrug (TDEE). Kilde: [mdpi.com](https://www.mdpi.com/2077-0383/13/19/5862) [📷](https://www.mdpi.com/jcm/jcm-13-05862/article_deploy/html/images/jcm-13-05862-g001.png){: rel='nofollow noopener' }" alt="Stofskiftets komponenter" %}
 
-{% include figure image_path="/assets/images/athleatsnutrition.com/pasted-image-0-03372c72.png" caption="Kilde: [https://athleatsnutrition.com](https://athleatsnutrition.com/neat-way-to-increase-metabolism/) [📷](https://athleatsnutrition.com/wp-content/uploads/2020/10/pasted-image-0.png){: rel='nofollow noopener' }" %}
+{% include figure image_path="/assets/images/athleatsnutrition.com/pasted-image-0-03372c72.png" caption="Betydningen af NEAT for det samlede energiforbrug. Kilde: [athleatsnutrition.com](https://athleatsnutrition.com/neat-way-to-increase-metabolism/) [📷](https://athleatsnutrition.com/wp-content/uploads/2020/10/pasted-image-0.png){: rel='nofollow noopener' }" alt="NEAT og forbrænding" %}
 
-{% include figure image_path="https://scontent-cph2-1.xx.fbcdn.net/v/t1.6435-9/96585161_111160733925456_1101710019671359488_n.png?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mu3P-Pnt94kQ7kNvgEKrbzY&_nc_oc=AdnuWu9QV5H__wYdU2e6pbUAGsWMTiUR-qB0w4TfUT0Onc6V4rwOFlnel4v4jBL1bnY&_nc_zt=23&_nc_ht=scontent-cph2-1.xx&_nc_gid=86zqFTXtMCQeFH7oHOrDSw&oh=00_AYE5TjoimLpGNfoG8UHSkXIWs5hVNR3MlYJOuIc8Jufe6A&oe=6807336E" %}
+---
 
-***
+## Opsummering: Sådan bruger du din viden
 
-## Afslutning og opsummering
+* **Find din baseline:** Brug vores [BMR-beregner](/bmr-beregner/) til at estimere din krops minimumsbehov.
+* **Gange med aktivitet (PAL):** Brug vores [Ligevægtsindtag-beregner](/ligevaegtsindtag-beregner/) til at indtaste dit aktivitetsniveau og finde dit samlede kaloriebehov.
+* **Juster i forhold til mål:** 
+  * Vægttab: Spis 300–500 kcal under ligevægtsindtaget (og øg proteinindtaget for at udnytte TEF).
+  * Vægtøgning / Muskelopbygning: Spis 300–500 kcal over ligevægtsindtaget kombineret med tung styrketræning.
 
-For at forstå dit energibehov skal du kende disse begreber:
+---
 
-- **BMR**: Din krops minimale energiforbrug i hvile.
-- **Dagligt energiforbrug**: BMR + fysisk aktivitet.
-- **Dagligt stofskifte**: Inkluderer madens termiske effekt og NEAT.
-- **Ligevægtsindtag**: Hvor meget du skal spise for at holde vægten stabil.
+## Ofte stillede spørgsmål om stofskiftet
 
-Nu hvor du har forstået principperne, kan du gå videre og beregne dine egne tal for at optimere din sundhed og præstation.
+{% include motionsplan/faq.html %}
 
-For at få det bedste ud af dit stofskifte og optimere dit energiforbrug, kan du bruge vores beregnere:
-
-- **Beregn dit hvilestofskifte (BMR)** for at finde ud af, hvor meget energi du forbrænder i hvile.
-- **Beregn dit daglige energiforbrug (TDEE)** for at få et klart billede af dit samlede energiforbrug.
-- **Find ud af dit ligevægtsindtag**, så du ved, hvor mange kalorier du skal spise for at opretholde din nuværende vægt.
-
-Uanset om du ønsker at tabe dig, tage på eller bare forstå din krop bedre, så kan du finde de rette værktøjer og ressourcer her.
+---
 
 ## Bøger om fysiologi og ernæring
 
@@ -172,14 +187,12 @@ Uanset om du ønsker at tabe dig, tage på eller bare forstå din krop bedre, s�
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. <https://doi.org/10.1016/j.clnu.2013.03.022>.
-- Gerrior, Shirley, WenYen Juan, og Basiotis Peter. 2006. “An Easy Approach to Calculating Estimated Energy Requirements”. Preventing Chronic Disease 3 (4). <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/>.
-- Henry, C. J. K. 2005. “Basal Metabolic Rate Studies in Humans: Measurement and Development of New Equations”. Public Health Nutrition 8 (7A): 1133–52. <https://doi.org/10.1079/phn2005801>.
-- Jagim, Andrew R., Clayton L. Camic, Jacob Kisiolek, Joel Luedke, Jacob Erickson, Margaret T. Jones, og Jonathan M. Oliver. 2018. “Accuracy of Resting Metabolic Rate Prediction Equations in Athletes”. Journal of Strength and Conditioning Research 32 (7): 1875–81. <https://doi.org/10.1519/JSC.0000000000002111>.
-- McMurray, Robert G., Jesus Soares, Carl J. Caspersen, og Thomas McCurdy. 2014. “Examining Variations of Resting Metabolic Rate of Adults: A Public Health Perspective”. Medicine and science in sports and exercise 46 (7): 1352–58. <https://doi.org/10.1249/MSS.0000000000000232>.
-- Sabounchi, Nasim S., Hazhir Rahmandad, og Alice Ammerman. 2013. “Best Fitting Prediction Equations for Basal Metabolic Rate: Informing Obesity Interventions in Diverse Populations”. International journal of obesity (2005) 37 (10): 1364–70. <https://doi.org/10.1038/ijo.2012.218>.
-- Schofield, W. N. 1985. “Predicting Basal Metabolic Rate, New Standards and Review of Previous Work”. Human Nutrition. Clinical Nutrition 39 Suppl 1: 5–41.
-- Tinsley, Grant M., Austin J. Graybeal, og M. Lane Moore. 2019. “Resting Metabolic Rate in Muscular Physique Athletes: Validity of Existing Methods and Development of New Prediction Equations”. Applied Physiology, Nutrition, and Metabolism = Physiologie Appliquee, Nutrition Et Metabolisme 44 (4): 397–406. <https://doi.org/10.1139/apnm-2018-0412>.
-- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <https://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
-- Westerterp, Klaas R. 2013. “Physical activity and physical activity induced energy expenditure in humans: measurement, determinants, and effects”. Frontiers in Physiology 4 (april). <https://doi.org/10.3389/fphys.2013.00090>.
+- Astrup, A., et al. (2012). *Menneskets Ernæring*. Munksgaard.
+- Frankenfield, D. C. (2013). "Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults". *Clinical Nutrition*, 32(6), 976–982.
+- Henry, C. J. K. (2005). "Basal Metabolic Rate Studies in Humans: Measurement and Development of New Equations". *Public Health Nutrition*, 8(7A), 1133–1152.
+- McArdle, W. D., Katch, F. I., & Katch, V. L. (2015). *Exercise Physiology: Nutrition, Energy, and Human Performance*. Lippincott Williams & Wilkins.
+- Nordiska ministerrådet. (1996). *Nordiska næringsrekommendationer 1996*. København.
+- Schofield, W. N. (1985). "Predicting Basal Metabolic Rate, New Standards and Review of Previous Work". *Human Nutrition. Clinical Nutrition*, 39 Suppl 1, 5–41.
+- Waterlow, J. C., Scrimshaw, N. S., & Schürch, B. (1996). "Energy and Protein requirements, Proceedings of an IDECG workshop". *Eur J Clin Nutr*, 50, 1–197.
+- Westerterp, K. R. (2013). "Physical activity and physical activity induced energy expenditure in humans: measurement, determinants, and effects". *Frontiers in Physiology*, 4.
 </details>

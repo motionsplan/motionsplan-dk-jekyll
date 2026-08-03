@@ -166,8 +166,8 @@ Så har du det du behøver for at lave et varieret helkropsprogram. For at få d
 
 Vil du også gerne have maksimalt udbytte af færrest mulige øvelser? Ofte afsætter jeg kun den absolut nødvendige tid til styrketræning, og det stiller høje krav til øvelsesvalget. Vi har derfor overvejet, hvilke øvelser vi vil anbefale, der rammer hele kroppen. Vi har valgt at lave en normal version og en avanceret udgave.
 
-- **Normale version**. Se [det kompakte helkropsprogram](/program/kompakt-helkropsprogram-normal/) med øvelser alle kan magte i en eller anden udformning. Det kan sagtens være, at man skal have makkerhjælp eller vælge en alternativ øvelse.
-- **Avancerede udgave**. Se [det avancerede helkropsprogram](/node/434/) med virkelig avancerede øvelser, der stiller ekstremt store krav til både teknik, koordination og styrke.
+- **Normale version**. Se [det kompakte helkropsprogram](/artikel/verdens-korteste-styrkeprogram/) med øvelser alle kan magte i en eller anden udformning. Det kan sagtens være, at man skal have makkerhjælp eller vælge en alternativ øvelse.
+- **Avancerede udgave**. Se [det avancerede helkropsprogram](/artikel/verdens-korteste-styrkeprogram/) med virkelig avancerede øvelser, der stiller ekstremt store krav til både teknik, koordination og styrke.
 
 ## Eksempler på et fuldkropsprogrammer
 

@@ -12,8 +12,17 @@ category:
 tags:
 - energisystemer
 - aerob træning
-last_modified_at: '2021-06-06T23:14:14Z'
+last_modified_at: '2026-08-04T23:14:14Z'
 toc: 'true'
+faq:
+- question: Hvad er aerob træning?
+  answer: Aerob træning er konditionstræning ved lav til moderat intensitet, hvor kroppen forbrænder fedt og kulhydrater ved hjælp af ilt. Det forbedrer kredsløbet, hjertets pumpekapacitet og musklernes evne til at optage ilt.
+- question: Hvad er aerob power?
+  answer: Aerob power er den maksimale mængde energi eller kraft, dit aerobe energisystem kan levere over tid. Det korrelerer tæt med din maksimale iltoptagelse (VO2max) og din laktattærskel.
+- question: Hvad forbrænder man under aerob træning?
+  answer: Under aerob træning forbrænder kroppen en blanding af fedt og kulhydrater. Ved lavere intensitet (som Zone 2) er fedtforbrændingen primær, mens andelen af kulhydrat stiger i takt med, at intensiteten øges mod den anaerobe tærskel.
+- question: Hvorfor er en god aerob base vigtig?
+  answer: En stærk aerob base (kondition) gør, at du kan holde et højere tempo i længere tid uden at syre til. Samtidig forbedrer det din evne til hurtigt at restituere i pauserne under højintensiv intervaltræning eller i idrætsgrene som fodbold og kampsport.
 ---
 
 Aerob træning handler om at træne det aerobe energisystem. Det er den del af energisystemet, hvor der er ilt til stedet til forbrændingen.
@@ -21,6 +30,9 @@ Aerob træning handler om at træne det aerobe energisystem. Det er den del af e
 **Aerob** betyder "med ilt". Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til **aerob træning**, så snakker man typisk om de træningsformer, der normalt kategoriseres som [konditionstræning](/konditionstraening/).
 
 Jeg har skrevet uddybende om [det aerobe og anaerobe energisystem](/energisystemer/) og mere om meget intensiv træning, hvor musklerne ikke får ilt i indlægget om [anaerob træning](/anaerob-traening/).
+
+**⚖️ Aerob vs. Anaerob: Hvad er forskellen?** Aerob træning er kun den ene halvdel af kredsløbet. Vil du se, hvordan det aerobe system adskiller sig fra det mælkesyredannende anaerobe system, og hvornår kroppen skifter brændstof? Læs guiden om [forskellen på aerob og anaerob træning](/forskel-aerob-anaerob-traening/).
+{: .notice--info}
 
 Under **aerob træning** vil du forbrænde både kulhydrat og fedt for at skabe energi over længere tid. Andelen af hvor meget kulhydrat og fedt, der forbrændes i de aerobe processer varierer alt efter intensiteten. Det kan du læse mere om under [den respiratoriske (RER) og metaboliske (RQ) udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/).
 
@@ -47,6 +59,12 @@ I den følgende tabel kan du se eksempler på, hvordan du kan gribe træningen a
 | **Aerob** træning   | Høj-intensitetstræning     | 15-40                    | 20-120 sek, 2-10 min | 10-60 sek, 1-6 min |
 | Aerob træning       | Moderat-intensitetstræning | 5-20                     | 5 min eller længere  | 1-2 min            |
 | Aerob træning       | Lav-intensitetstræning     | 0-10                     | 5 min eller længere  | 0-1 min            |
+
+{: .notice--info}
+### 🏃‍♂️ Vil du optimere din aerobe træning i praksis?
+Når du træner det aerobe system, arbejder du tæt sammen med kroppens fedt- og kulhydratforbrænding:
+* **Zone 2-træning:** Læs vores guide til [Zone 2 træning og den aerobe tærskel](/zone-2-traening/), som er fundamentet for at bygge en stor aerob base.
+* **FatMax:** Forstå [hvad FatMax er](/fatmax/), og hvordan du rykker det punkt, hvor din krop forbrænder mest muligt fedt under træning.
 
 ## Eksemper på aerob træning
 
@@ -130,3 +148,7 @@ Du kan læse mere her om, hvad [intensiteten betyder for din træning af den mak
 Desto bedre det aerobe system virker, desto bedre bliver din [anaerobe tærskel](/anaerobe-taerskel/) også, så du kan fjerne [mælkesyren](/maelkesyre-traening/) lige så hurtigt, som du danner den.
 
 God fornøjelse med træningen.
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
