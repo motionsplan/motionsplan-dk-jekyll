@@ -87,6 +87,20 @@ Jeg er selv blevet ret interesseret i velocity based training, hvor du kan måle
 
 *[RFD]: Rate of Force Development
 
+## Interaktiv simulator: Kraft-hastigheds-profilen og $P_{\text{max}}$
+
+Mens **RFD** (*Rate of Force Development*) beskriver, *hvor hurtigt* du kan opbygge kraft på et splitsekund fra hvile, viser **kraft-hastigheds-kurven** den biomekaniske grænse for, hvor meget kraft dine muskler kan levere ved en givet hastighed. 
+
+For at optimere din eksplosive ydeevne og maksimale effektafgivelse ($P_{\text{max}}$) skal du kende din profil: Er din præstation begrænset af ren råstyrke ($F_0$), eller mangler du maksimal kontraktionshastighed ($V_0$)?
+
+**Prøv simulatoren:** Skru på atletens styrke og hastighed for at se, hvordan profilen ændrer sig, og hvordan toppen for den maksimale effekt ($P_{\text{max}}$) altid placerer sig midt på kurven.
+
+{% include components/force-velocity-widget.html %}
+
+### Pædagogisk pointe
+
+Det er præcis derfor, man i eksplosiv styrketræning (Power-træning) ikke træner med $100\%$ belastning ($1\text{RM}$) og heller ikke uden belastning ($0\%$), men derimod i "Sweet Spotten" omkring 30–40% af 1RM (f.eks. ved hop-squat eller frivend). Det er her, du afgiver flest Watt!
+
 ## Ofte stillede spørgsmål om RFD
 
 {% include motionsplan/faq.html %}

@@ -1,0 +1,396 @@
+<!-- Indlæs Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="fv-simulator-widget">
+    <style>
+        .fv-simulator-widget {
+            --widget-bg: #0f172a;
+            --widget-card-bg: #1e293b;
+            --widget-text: #f8fafc;
+            --widget-muted: #94a3b8;
+            --force-color: #38bdf8;  /* Lyseblå til Kraft */
+            --power-color: #f59e0b;  /* Orange/Guld til Effekt */
+            --accent-green: #10b981;
+            --border-radius: 12px;
+            
+            background-color: var(--widget-bg);
+            color: var(--widget-text);
+            padding: 20px;
+            border-radius: var(--border-radius);
+            box-sizing: border-box;
+            line-height: 1.5;
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 24px 0;
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        .fv-simulator-widget * { box-sizing: border-box; }
+
+        .fv-simulator-widget .card {
+            background-color: var(--widget-card-bg);
+            border-radius: var(--border-radius);
+            padding: 18px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+            border: 1px solid #334155;
+            margin-bottom: 16px;
+            width: 100%;
+        }
+
+        .fv-simulator-widget h2 { 
+            font-size: 1.1rem; 
+            margin: 0 0 12px 0; 
+            border-bottom: 2px solid #334155; 
+            padding-bottom: 6px; 
+            color: #e2e8f0; 
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Top Kontroller Grid: 2 kolonne layout over grafen */
+        .fv-simulator-widget .controls-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .fv-simulator-widget .controls-grid { grid-template-columns: 1fr; }
+        }
+
+        .fv-simulator-widget .control-group { margin-bottom: 12px; }
+        .fv-simulator-widget .control-group label { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            font-size: 0.85rem; 
+            margin-bottom: 4px; 
+            font-weight: 600; 
+        }
+
+        .fv-simulator-widget input[type="range"] {
+            width: 100%;
+            accent-color: var(--force-color);
+            cursor: pointer;
+            margin: 4px 0;
+        }
+
+        .fv-simulator-widget .preset-btns {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 6px;
+            margin-top: 10px;
+        }
+
+        .fv-simulator-widget .btn-preset {
+            background: #334155;
+            color: var(--widget-text);
+            border: 1px solid #475569;
+            padding: 8px 4px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s;
+        }
+
+        .fv-simulator-widget .btn-preset:hover {
+            background: var(--force-color);
+            color: #0f172a;
+        }
+
+        /* Nøgletal Bar */
+        .fv-simulator-widget .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        @media (max-width: 650px) {
+            .fv-simulator-widget .stats-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        .fv-simulator-widget .stat-box {
+            background: #0f172a;
+            border-radius: var(--border-radius);
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #334155;
+        }
+
+        .fv-simulator-widget .stat-box small {
+            display: block;
+            font-size: 0.72rem;
+            color: var(--widget-muted);
+            margin-bottom: 4px;
+        }
+
+        .fv-simulator-widget .stat-box span {
+            font-size: 1.05rem;
+            font-weight: bold;
+        }
+
+        /* Forklaringsboks */
+        .fv-simulator-widget .explanation-box {
+            background: #0f172a;
+            border-left: 4px solid var(--power-color);
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            margin-bottom: 16px;
+            color: #e2e8f0;
+        }
+
+        /* Graf i fuld bredde */
+        .fv-simulator-widget .chart-box { 
+            height: 380px; 
+            position: relative; 
+            width: 100%; 
+            min-width: 0;
+        }
+    </style>
+
+    <!-- 1. ATLET KONTROLLER (TOP PANEL) -->
+    <div class="card">
+        <h2>1. Indstil Atletens Kapacitet</h2>
+        <div class="controls-grid">
+            <div>
+                <div class="control-group">
+                    <label>
+                        <span>Maksimal Kraft ($F_0$ / 1RM)</span>
+                        <b id="val-f0" style="color:var(--force-color)">2000 N</b>
+                    </label>
+                    <input type="range" id="input-f0" min="800" max="4000" value="2000" step="50">
+                    <small style="color:var(--widget-muted); font-size:0.72rem;">Isometrisk max / tungeste løft (0 m/s)</small>
+                </div>
+
+                <div class="control-group" style="margin-top:12px;">
+                    <label>
+                        <span>Maksimal Hastighed ($V_0$)</span>
+                        <b id="val-v0" style="color:var(--force-color)">2.5 m/s</b>
+                    </label>
+                    <input type="range" id="input-v0" min="1.0" max="5.0" value="2.5" step="0.1">
+                    <small style="color:var(--widget-muted); font-size:0.72rem;">Max sammentrækningsfart helt uden modstand (0 N)</small>
+                </div>
+            </div>
+
+            <div>
+                <label style="font-size:0.85rem; font-weight:600; display:block; margin-bottom:6px;">Hurtig Vælg Atlet-type:</label>
+                <div class="preset-btns">
+                    <button class="btn-preset" onclick="setFVPreset(3200, 1.8)">🏋️ Stærk / Tung<br><small style="font-weight:normal; opacity:0.8;">Høj $F_0$, lav $V_0$</small></button>
+                    <button class="btn-preset" onclick="setFVPreset(2000, 2.5)">⚖️ Balanceret<br><small style="font-weight:normal; opacity:0.8;">Allround atlet</small></button>
+                    <button class="btn-preset" onclick="setFVPreset(1200, 4.2)">🏃 Hurtig / Sprint<br><small style="font-weight:normal; opacity:0.8;">Lav $F_0$, høj $V_0$</small></button>
+                </div>
+                <small style="display:block; margin-top:10px; color:var(--widget-muted); font-size:0.72rem;">
+                    💡 Prøv at skifte mellem atlet-typerne og se, hvordan toppen for den orange power-kurve flytter sig!
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. NØGLETAL OG FORKLARING -->
+    <div class="card">
+        <h2>2. Hvor Ligger Maksimal Effekt ($P_{max}$)?</h2>
+        <div class="stats-grid" style="margin-bottom:14px;">
+            <div class="stat-box">
+                <small>Max Effekt ($P_{max}$)</small>
+                <span id="stat-pmax" style="color:var(--power-color)">0 W</span>
+            </div>
+            <div class="stat-box">
+                <small>Optimal Belastning ($F_{opt}$)</small>
+                <span id="stat-fopt" style="color:var(--force-color)">0 N</span>
+            </div>
+            <div class="stat-box">
+                <small>% af Max Kraft ($F_0$)</small>
+                <span id="stat-fopt-pct" style="color:var(--accent-green)">~31%</span>
+            </div>
+            <div class="stat-box">
+                <small>Optimal Fart ($V_{opt}$)</small>
+                <span id="stat-vopt" style="color:var(--accent-green)">0 m/s</span>
+            </div>
+        </div>
+
+        <div class="explanation-box" id="pedagogy-text">
+            <b>Hvorfor 30–40%?</b> I levende muskler er kraft-hastighedssammenhængen ikke en lige linje, men en <i>hyperbel</i> (A.V. Hills muskelmodel). Kraften falder hurtigt, så snart farten stiger. Da effekt er $	ext{Kraft} 	imes 	ext{Hastighed}$, opnås den maksimale eksplosive power ($P_{max}$) altid ved ca. <b>30–35% af maksimal kraft ($F_0$)</b> og <b>30–35% af maksimal fart ($V_0$)</b>!
+        </div>
+    </div>
+
+    <!-- 3. GRAF I FULD BREDDE -->
+    <div class="card">
+        <h2>Kraft-Hastigheds- & Effekt-kurve (Fuld Bredde)</h2>
+        <div class="chart-box">
+            <canvas id="fvChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let f0 = 2000; // N
+    let v0 = 2.5;  // m/s
+
+    const inputF0 = document.getElementById('input-f0');
+    const inputV0 = document.getElementById('input-v0');
+
+    const valF0 = document.getElementById('val-f0');
+    const valV0 = document.getElementById('val-v0');
+
+    const statPmax = document.getElementById('stat-pmax');
+    const statFopt = document.getElementById('stat-fopt');
+    const statFoptPct = document.getElementById('stat-fopt-pct');
+    const statVopt = document.getElementById('stat-vopt');
+
+    // Generer datapunkter ud fra A.V. Hills hyperbel model
+    // F(v) = F0 * (V0 - v) / (v / 0.25 + V0)  [hvor curvature parameter a/F0 ~ 0.25]
+    function generateFVData() {
+        let forcePoints = [];
+        let powerPoints = [];
+        let steps = 30;
+
+        let maxP = 0;
+        let optF = 0;
+        let optV = 0;
+
+        for (let i = 0; i <= steps; i++) {
+            let v = (v0 / steps) * i; // Hastighed fra 0 til V0
+            
+            // Hills hyperbolske ligning for reelle muskler:
+            let f = f0 * (v0 - v) / (4 * v + v0); 
+            if (f < 0) f = 0;
+
+            let p = f * v; // Effekt P = F * v
+
+            if (p > maxP) {
+                maxP = p;
+                optF = f;
+                optV = v;
+            }
+
+            forcePoints.push({ x: parseFloat(v.toFixed(2)), y: Math.round(f) });
+            powerPoints.push({ x: parseFloat(v.toFixed(2)), y: Math.round(p) });
+        }
+
+        return { forcePoints, powerPoints, maxP, optF, optV };
+    }
+
+    const ctx = document.getElementById('fvChart').getContext('2d');
+    let initialData = generateFVData();
+
+    const fvChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            datasets: [
+                {
+                    label: 'Kraft (N) [F-V Kurve]',
+                    data: initialData.forcePoints,
+                    borderColor: '#38bdf8',
+                    backgroundColor: 'rgba(56, 189, 248, 0.08)',
+                    borderWidth: 3,
+                    yAxisID: 'yForce',
+                    tension: 0.3,
+                    pointRadius: 2
+                },
+                {
+                    label: 'Effekt (Watt) [Power-Kurve]',
+                    data: initialData.powerPoints,
+                    borderColor: '#f59e0b',
+                    backgroundColor: 'rgba(245, 158, 11, 0.15)',
+                    borderWidth: 3,
+                    fill: true,
+                    yAxisID: 'yPower',
+                    tension: 0.4,
+                    pointRadius: 2
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: false,
+            scales: {
+                x: {
+                    type: 'linear',
+                    position: 'bottom',
+                    grid: { color: '#334155' },
+                    ticks: { color: '#94a3b8' },
+                    title: { display: true, text: 'Hastighed (m/s)', color: '#94a3b8', font: { size: 12, weight: 'bold' } }
+                },
+                yForce: {
+                    type: 'linear',
+                    position: 'left',
+                    grid: { color: '#334155' },
+                    ticks: { color: '#38bdf8' },
+                    title: { display: true, text: 'Kraft (Newton)', color: '#38bdf8', font: { size: 12, weight: 'bold' } },
+                    min: 0
+                },
+                yPower: {
+                    type: 'linear',
+                    position: 'right',
+                    grid: { drawOnChartArea: false },
+                    ticks: { color: '#f59e0b' },
+                    title: { display: true, text: 'Effekt (Watt)', color: '#f59e0b', font: { size: 12, weight: 'bold' } },
+                    min: 0
+                }
+            },
+            plugins: {
+                legend: { labels: { color: '#f8fafc', font: { size: 12 } } },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            let label = context.dataset.label || '';
+                            if (label) label += ': ';
+                            if (context.datasetIndex === 0) {
+                                label += context.parsed.y + ' N';
+                            } else {
+                                label += context.parsed.y + ' Watt';
+                            }
+                            return label;
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+    window.setFVPreset = function(f, v) {
+        inputF0.value = f;
+        inputV0.value = v;
+        updateFV();
+    };
+
+    function updateFV() {
+        f0 = parseFloat(inputF0.value);
+        v0 = parseFloat(inputV0.value);
+
+        valF0.textContent = f0 + ' N';
+        valV0.textContent = v0.toFixed(1) + ' m/s';
+
+        let data = generateFVData();
+
+        let pMax = Math.round(data.maxP);
+        let fOpt = Math.round(data.optF);
+        let vOpt = data.optV.toFixed(2);
+        let fOptPct = Math.round((fOpt / f0) * 100);
+
+        statPmax.textContent = pMax + ' W';
+        statFopt.textContent = fOpt + ' N';
+        statFoptPct.textContent = '~' + fOptPct + '% af F₀';
+        statVopt.textContent = vOpt + ' m/s';
+
+        fvChart.data.datasets[0].data = data.forcePoints;
+        fvChart.data.datasets[1].data = data.powerPoints;
+        
+        fvChart.options.scales.x.max = parseFloat((v0 * 1.05).toFixed(1));
+        fvChart.update('none');
+    }
+
+    inputF0.addEventListener('input', updateFV);
+    inputV0.addEventListener('input', updateFV);
+
+    updateFV();
+});
+</script>
