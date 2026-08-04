@@ -1,10 +1,10 @@
 ---
-title: 'Calisthenics: 8 ugers begynderprogram til kropsvægtstræning'
+title: 'Gratis Calisthenics Træningsprogram: 8 Ugers Begynderprogram (Dansk Guide)'
 permalink: /calisthenics-begynderprogram-kropsvaegtstraening/
 redirect_from:
 - /calisthenics-begynderprogram-kropsvaetstraening/
 - /calisthenics-kongen-kropsvaetstraening/
-last_modified_at: '2024-01-18T09:41:09Z'
+last_modified_at: '2026-08-04T10:33:33Z'
 author: karsten.thor.lund
 language: da
 header:
@@ -16,11 +16,18 @@ category:
 - Træning
 - Styrketræning
 tags:
+- calisthenics
+- calisthenics træningsprogram
+- calisthenics program dansk
+- calisthenics begynder
+- calisthenics øvelser
+- gratis træningsprogram
 - hjemmetræning
 - workouts
 - træningsprogram
 - øvelser
 - populær
+excerpt: "Leder du efter et gratis calisthenics træningsprogram på dansk? Få et komplet 8 ugers begynderprogram med kropsvægtsøvelser, videoer og øvelsesguide her."
 gallery:
 - image_path: /assets/images/unsplash/photo-1592334843880-69bb253e68be.jpg
   credit: https://images.unsplash.com/photo-1592334843880-69bb253e68be
@@ -46,11 +53,11 @@ Velkommen til Calisthenics.
 
 {% include motionsplan/pinterest image_path=page.header.overlay_image data-pin-media="/assets/images/i.pinimg.com/00d22c7f74ec3864c456a0e7207a8276-31fdd6bc.jpg" data-pin-id="579768152030230128" caption=page.title %}
 
-## Hvad er Calisthenics?
+## Hvad er Calisthenics? (Kropsvægtstræning på dansk)
 
 **Calisthenics er træning med kropsvægt, hvor formålet er at få fuld kontrol over sin egen krop ved at lave øvelser med kropsvægt. I calisthenics tænkes kroppen i en helhed.**
 
-## Cali-hvad-for-noget?
+## Cali-hvad-for-noget? Forstå filosofien bag calisthenics
 
 For at forstå begrebet, skal man starte med at bryde det ned. Calisthenics er et begreb symboliseret fra det æstetiske Grækenland. "Cali" betyder "smuk", og "sthenics" betyder styrke, og smuk styrke er i den grad det der er i fokus. Specielt symboliseret ved smukke øvelser kun udført ved brug af egen krop i fuldstændig kontrol. I flæng kan nævnes: chin-ups, dips, pull-ups, muscle up, back – og front lever, frog-to-handstand, og planke. 
 
@@ -58,7 +65,7 @@ I Calisthenics snakker vi helhed. At forstå at bruge alle kæder af kroppens st
 
 Det handler altså ikke om at tage så mange reps som muligt i armbøjninger eller lægge i planken i 7 min, men handler om at finde redskaber og metoder til at få hele kroppen til at være aktiveret og hjælpe i timingen til helt optimal udførsel. Blandt andet ved god tid i træningen mellem sæt og pas, så hjerne og muskler har god tid til at udvikle et godt samarbejde til aktivering, eller en hård excentrisk negativ fase i armbøjningerne, hvis dine reps bliver for mange. 
 
-## Helheden i calisthenics
+## Helheden i calisthenics: Muskelkæder, udstræk og kost
 
 Når vi snakker helhed i den smukke træning, handler det heller ikke kun om muskelkæder og hjerneneuroner i vores program, men ligeledes at tænke elementer af den sunde stærke krop ind i resten af ens daglige virke. Helt fra søvn til mobilitet ved udstræk og kost.
 
@@ -68,7 +75,7 @@ Brug derefter 3 min. udstræk af kroppen til at få smurt led og lemmer godt, og
 
 Derefter er du klar til en god sund morgenmad med gode langsomt optagelige kulhydrater fx i form af havregryn toppet med bær. Bær er antioxidanter som blandt andre gode ting antiinflammatoriske, og er derved gode til at forebygge den irriterede albuer eller led, som der kan forekomme ifbm. de mange statiske hold og det store arbejde ved hang time i bar osv.
 
-## Program til calisthenics på 8 uger
+## Gratis calisthenics træningsprogram (8 uger for begyndere)
 
 Som I så mange andre programmer, er det en god ide at være specifik med, hvad er det jeg vil med min træning. Man kan sagtens lave et _fullbody_ program hvor man kommer fint igennem hele kroppen i 8 uger, men her har vi valgt at lægge fokus på en populær og specifik træningsøvelse, pull up + dip.
 
@@ -80,7 +87,7 @@ Det næste er **kropsspændingen**. Det arbejder man med i alle øvelser i Calis
 
 {% include video provider="youtube" id="4PtVBRHxg-w" %}
 
-## Opvarmning til Calisthenics
+## Opvarmning til Calisthenics (Mobilisering & aktivering)
 
 Som i alt andet sport, er det med stor nødvendighed at man starter med en opvarmning. Her kombinerer vi dynamisk og statisk arbejde med mobilitet.
 
@@ -112,11 +119,11 @@ Opvarmningsprogrammet til begynderprogrammet i Calisthenics bruges **i alle 8 ug
 
 {% include video provider="youtube" id="ihUAbG0e8zw" %}
 
-## 8 ugers træningsprogram til calisthenics
+## Dit 8 ugers calisthenics begynderprogram (Uge 1-8)
 
 Her er en oversigt over de øvelser du kommer til at møde, og hvornår du kommer til at møde dem i dine 8 uger – delt op i 2 sektioner af 4 uger. Nedenunder tabellerne ses link til udførslen af disse øvelser. Tempo (eks. 2-1-2) betyder sekunder i tid i de forskellige faser af øvelsen (2 excentrisk, 1 isometrisk hold i bunden, og 2 er koncentrisk). Hold 60-90 sek. pause i øvelserne.
 
-### Uge 1-4
+### Uge 1-4: Grundlæggende styrke og opbygning
 
 ||**1**|**2**|**3**|**4 (deload week)**|
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -128,7 +135,7 @@ Her er en oversigt over de øvelser du kommer til at møde, og hvornår du komme
 |Banded pull ups|3 sæt * 6 reps (tempo: 2-1-2)|3 sæt * 8 reps (tempo: 2-1-2)|4 sæt * 6 reps (tempo: 2-1-2)|2 sæt * 8 reps (tempo: 2-1-2)|
 |Banded dips|3 sæt * 6 reps (tempo: 2-1-2)|3 sæt * 8 reps (tempo: 2-1-2)|4 sæt * 6 reps (tempo: 2-1-2)|2 sæt * 8 reps (tempo: 2-1-2)|
 
-### Uge 5-8
+### Uge 5-8: Supersæt og progression
 
 Nu møder I det at super sætte. At super sætte 2 øvelser betyder at man i umiddelbar færdiggørelse af sit sæt ved øvelse 1, laver sættet for øvelse 2, før man går tilbage til næste sæt ved øvelse 1 efter 60 sek. pause og fortsætter sådan indtil alle sæt er foretaget for begge øvelser. Husk opvarmningen inden programmets start for god form og en stærk varm krop.
 
@@ -147,7 +154,7 @@ Nu møder I det at super sætte. At super sætte 2 øvelser betyder at man i umi
 |Feet supported dip| | |2-4 sæt* 8-12 reps (2-1-2)| |
 |Full ROM Pull up| | | |Prøv en fri pull up nu (full ROM)|
 
-## Øvelser til calisthenics begynderprogrammet
+## Calisthenics øvelser for begyndere (Teknik & videoer)
 
 ### Active hang
 
@@ -209,7 +216,7 @@ Nu møder I det at super sætte. At super sætte 2 øvelser betyder at man i umi
 
 {% include video provider="youtube" id="yN6Q1UI_xkE" %}
 
-## Afslutning på program til calisthenics
+## Afslutning og næste skridt i dit calisthenics program
 
 Vi håber at I lykkes med at forbedre jeres pull up og dip, og at programmerne kan motivere til at få arbejdet mere med Calisthenic og træning med egen kropsvægt. I vil forhåbentlig opdage hvad fuldt fokus på form og teknik kan gøre ved progression til resultater, og hvad jeres krop i virkeligheden er i stand til. 
 
