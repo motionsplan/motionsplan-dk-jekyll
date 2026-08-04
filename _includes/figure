@@ -2,14 +2,21 @@
 
 {% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
   {% assign img_width = include.width | default: "800" %}
-  {% assign img_src = site.image_cdn | append: "f_auto,q_auto,w_" | append: img_width | append: "/" | append: raw_img %}
+  {% assign img_width_2x = img_width | times: 2 %}
+  
+  {% assign img_src = site.image_cdn | append: "f_auto,q_auto:eco,w_" | append: img_width | append: "/" | append: raw_img %}
+  {% assign img_src_2x = site.image_cdn | append: "f_auto,q_auto:eco,w_" | append: img_width_2x | append: "/" | append: raw_img %}
 {% else %}
   {% assign img_src = include.image_path | relative_url %}
 {% endif %}
 
 <figure class="{{ include.class }}">
   <img src="{{ img_src }}"
-       alt="{% if include.alt %}{{ include.alt }}{% endif %}" 
+       {% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
+         srcset="{{ img_src }} {{ img_width }}w, {{ img_src_2x }} {{ img_width_2x }}w"
+         sizes="(max-width: {{ img_width }}px) 100vw, {{ img_width }}px"
+       {% endif %}
+       alt="{% if include.alt %}{{ include.alt | escape }}{% endif %}" 
        loading="lazy"
        decoding="async">
   {%- if include.caption -%}

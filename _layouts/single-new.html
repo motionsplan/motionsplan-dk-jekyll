@@ -1,0 +1,176 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs and page.breadcrumbs != false %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main" class="layout--single-modern">
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    <div class="page__inner-wrap">
+        {% unless page.header.overlay_color or page.header.overlay_image %}
+  <header class="page__header-standard">
+    {% if page.title %}
+      <h1 id="page-title" class="page__title p-name" itemprop="headline">
+        {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
+      </h1>
+    {% endif %}
+
+    {% comment %} Manchet / Intro-tekst (fremhævet excerpt) {% endcomment %}
+    {% if page.excerpt %}
+      <p class="page__lead-excerpt">
+        {{ page.excerpt | markdownify | strip_html }}
+      </p>
+    {% endif %}
+
+    {% include page__meta.html %}
+
+    {% comment %} Fremhævet billede (vises hvis der er angivet header.image eller header.teaser) {% endcomment %}
+    {% assign lead_image = page.header.image | default: page.header.teaser %}
+    {% if lead_image %}
+      {% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
+        {% assign raw_lead = lead_image | absolute_url %}
+        {% assign lead_src = site.image_cdn | append: "f_auto,q_auto:eco,w_1000/" | append: raw_lead %}
+      {% else %}
+        {% assign lead_src = lead_image | relative_url %}
+      {% endif %}
+
+      <div class="page__lead-image">
+        <img src="{{ lead_src }}" 
+             alt="{{ page.title | escape }}" 
+             loading="eager" 
+             decoding="async">
+      </div>
+    {% endif %}
+  </header>
+{% endunless %}
+
+      <div class="page__content-main">
+        <section class="page__content e-content" itemprop="text">
+          
+          {% comment %} Collapsible Top-TOC (bruges ved page.classes: wide) {% endcomment %}
+          {% if page.toc and page.classes contains "wide" %}
+            <details class="collapsible-toc{% if page.toc_sticky %} sticky{% endif %}">
+              <summary class="nav__title">
+                <i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "På denne side" }}
+              </summary>
+              <nav class="toc">
+                {% include toc.html sanitize=true html=content h_min=2 h_max=3 class="toc__menu" skip_no_ids=true %}
+              </nav>
+            </details>
+          {% elsif page.toc %}
+            {% comment %} Klassisk Højre-TOC {% endcomment %}
+            <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+              <nav class="toc">
+                <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "På denne side" }}</h4></header>
+                {% include toc.html sanitize=true html=content h_min=2 h_max=3 class="toc__menu" skip_no_ids=true %}
+              </nav>
+            </aside>
+          {% endif %}
+
+          {% comment %} Selve artiklens brødtekst {% endcomment %}
+          {{ content }}
+
+          {% if page.link %}
+            <div class="page__ext-link"><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+          {% endif %}
+
+          {% comment %} 1. Flashcard repetition fra artiklen {% endcomment %}
+          <div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none; margin-top: 2em;">
+            <div class="mp-bottom-stack-header">
+              <strong>🔄 Repetition fra denne artikel</strong>
+              <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+            </div>
+            <div class="mp-card-stack"></div>
+          </div>
+
+          {% comment %} 2. Bedømmelse af artiklen (Rating) {% endcomment %}
+          <div style="margin-top: 3em;">
+            {% include motionsplan/rating.html %}
+          </div>
+
+          {% comment %} 3. Forfatterboks (E-E-A-T Autoritet) {% endcomment %}
+          <div style="margin-top: 2em;">
+            {% assign author = page.author | default: page.authors[0] | default: site.author %}
+            {% assign author = site.data.authors[author] | default: author %}
+            {% include motionsplan/author.html author=author editorial_link="true" %}
+          </div>
+
+          {% comment %} 4. Nyhedsbrev CTA (Mailchimp) {% endcomment %}
+          {% assign signup = page.signup | default: site.signup.enabled %}
+          {% if signup %}
+            <div style="margin-top: 2em;">
+              {% include_cached motionsplan/signup.html %}
+            </div>
+          {% endif %}
+
+          {% comment %} Pinterest generering (skjult) {% endcomment %}
+          {% assign size = page.permalink.size | minus: 1 %}
+          {% capture path %}{{ page.permalink | slice: 0, size | remove_first: "/" | replace: "/", "-" | append: ".jpg" | prepend: "/assets/images/pinterest/generated/" }}{% endcapture %}
+          {% assign file_exists = site.static_files | where: "path", path %}
+          {% if file_exists.size != 0 %}
+            {% include motionsplan/pinterest image_path=path hidden="true" %}
+          {% endif %}
+
+        </section>
+      </div>
+
+{% comment %} 5. Meta, Tags & Dato {% endcomment %}
+      <footer class="page__meta" style="margin-top: 2em;">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <p class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</p>
+        {% endif %}
+        {% include page__taxonomy.html %}
+        {% include page__date.html %}
+      </footer>
+
+      {% comment %} 6. Social Sharing (Placeret UDEN FOR page__meta) {% endcomment %}
+      {% if page.share %}
+        {% include social-share.html %}
+      {% endif %}
+
+      {% comment %} 7. Forrige / Næste artikel navigation {% endcomment %}
+      {% include post_pagination.html %}
+    </div>
+
+    {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </article>
+
+  {% comment %} 8. Relaterede artikler {% endcomment %}
+  {% if page.id and page.related and site.related_posts.size > 0 %}
+    <div class="page__related">
+      <p class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</p>
+      <div class="grid__wrapper">
+        {% for post in site.related_posts limit:4 %}
+          {% include_cached archive-single.html post=post type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% elsif page.id and page.related %}
+    <div class="page__related">
+      <p class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</p>
+      <div class="grid__wrapper">
+        {% for post in site.posts limit:4 %}
+          {% if post.id == page.id %}{% continue %}{% endif %}
+          {% include_cached archive-single.html post=post type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>

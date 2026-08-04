@@ -66,8 +66,6 @@ I denne artikel ser vi på, hvordan du kan bestemme din PAL (Physical Activity L
 Vælg den hurtige, hvis du bare vil have et estimat – vælg MET-beregning, hvis du vil være præcis.
 {: .notice }
 
-[🟦 Hurtig metode ↓](#pal-tabel){: .btn .btn--inverse .btn--large } [🟨 Detaljeret metode ↓](#pal-met){: .btn .btn--inverse .btn--large }
-
 ## Hvad er Physical Activity Level?
 
 Dit fysiske aktivitetsniveau (PAL) er en af de tre [hovedkomponenter i stofskiftet](/stofskifte/) ud over hvilestofskiftet (BMR), fødeinduceret termogenese (FIT).
@@ -75,6 +73,10 @@ Dit fysiske aktivitetsniveau (PAL) er en af de tre [hovedkomponenter i stofskift
 PAL er et mål for den fysiske aktivitetsniveau, der bruges til at estimere, hvor meget energi en person forbrænder i løbet af en dag.
 
 ***
+
+## PAL-beregner
+
+Du kan gøre brug af alle tre metoder i beregneren nedenunder.
 
 {% include calc/pal-calculator.html %}
 
@@ -84,12 +86,6 @@ PAL er et mål for den fysiske aktivitetsniveau, der bruges til at estimere, hvo
 {: id="pal-tabel" }
 
 Den hurtige metode til at beregne PAL, så anslår du din daglige livsstil. Derefter justerer du PAL-værdien med aktivitet af moderat og hård intensitet.
-
-### PAL beregner
-
-{% include calculator/calculate-stofskifte-pal-pal.html %}
-
-Tabel fra [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012).
 
 ***
 
@@ -113,9 +109,7 @@ For at beregne PAL nøjagtigt skal du tage højde for alle de aktiviteter, du ud
 Du kan bruge vores PAL-beregner for at gøre det endnu lettere.
 Summér kalorierne for alle aktiviteterne, og sammenlign med din BMR for at få din PAL-værdi.
 
-{% include calculator/calculate-stofskifte-pal-met.html %}
-
-### Lav præcis aktivitetsregistrering til udregning af stofskiftet
+## Lav præcis aktivitetsregistrering til udregning af stofskiftet
 
 Din beregning af det daglige energibehov bliver mest præcist, hvis du er lidt omhyggelig med din aktivitetsregistrering.
 

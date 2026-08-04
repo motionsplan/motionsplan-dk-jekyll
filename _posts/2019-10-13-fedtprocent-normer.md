@@ -1,4 +1,6 @@
 ---
+layout: single-new
+classes: wide
 title: Hvad er en normal fedtprocent? (Skema & Tabel for mænd og kvinder)
 seo_title: Normal fedtprocent kvinder og mænd – Se skema og tabeller
 description: Hvad er en sund og normal fedtprocent for kvinder og mænd? Se vores overskuelige fedtprocent tabeller opdelt på alder, køn og atlet-kategorier.

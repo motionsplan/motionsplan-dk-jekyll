@@ -66,7 +66,7 @@
     {% assign og_post_img = page.header.featured_image | default: page.header.image | default: page.header.overlay_image | default: page.header.teaser | default: "https://images.unsplash.com/photo-1535743686920-55e4145369b9?w=1200&q=80" | absolute_url %}
     {% assign og_logo = "/android-chrome-192x192.png" | absolute_url %}
     {% assign og_date = page.last_modified_at | default: page.date | date: "%d. %b %Y" %}
-    {% assign og_layout_num = page.og_layout | default: "1" %}
+    {% assign og_layout_num = page.og_layout | default: "2" %}
     {% assign og_domain = site.url | remove: 'https://' | remove: 'http://' %}
 
     {% comment %} Calculate if modified within last 30 days {% endcomment %}

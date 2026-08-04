@@ -1,11 +1,5 @@
 {% assign raw_overlay = page.header.overlay_image | absolute_url %}
 
-{% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
-  {% assign overlay_img_path = site.image_cdn | append: "f_auto,q_auto,w_1600/" | append: raw_overlay %}
-{% else %}
-  {% assign overlay_img_path = page.header.overlay_image | relative_url %}
-{% endif %}
-
 {% if page.header.overlay_filter contains "gradient" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
 {% elsif page.header.overlay_filter contains "rgba" %}
@@ -25,13 +19,31 @@
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
 
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
-  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %}"
 >
+  {% if page.header.overlay_image %}
+    {% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
+      {% assign overlay_img_800 = site.image_cdn | append: "f_auto,q_auto:eco,w_800/" | append: raw_overlay %}
+      {% assign overlay_img_1600 = site.image_cdn | append: "f_auto,q_auto:eco,w_1600/" | append: raw_overlay %}
+
+      <img src="{{ overlay_img_1600 }}"
+           srcset="{{ overlay_img_800 }} 800w, {{ overlay_img_1600 }} 1600w"
+           sizes="100vw"
+           alt="{{ image_description }}"
+           class="page__hero-bg-img"
+           fetchpriority="high"
+           decoding="async">
+    {% else %}
+      <img src="{{ page.header.overlay_image | relative_url }}" alt="{{ image_description }}" class="page__hero-bg-img">
+    {% endif %}
+  {% endif %}
+
+  {% if overlay_filter %}
+    <div class="page__hero-filter" style="background-image: {{ overlay_filter }};"></div>
+  {% endif %}
+
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      {% if page.header.overlay_image %}
-        <img src="{{ overlay_img_path }}" alt="" width="0" height="0" style="display: none !important;" />
-      {% endif %}
       <h1 id="page-title" class="page__title" itemprop="headline">
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}

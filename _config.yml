@@ -10,6 +10,7 @@ minimal_mistakes_skin:   "default" # "air", "aqua", "contrast", "dark", "dirt", 
 
 # Improvements of pictures
 image_cdn: "https://res.cloudinary.com/nipuzl73/image/fetch/"
+image_cdn_params: "f_auto,q_auto:eco"
 
 version: "1.0"
 
@@ -371,9 +372,6 @@ collections:
   methods:
     output: true
     permalink: /metode/:path/
-  orbits:
-    output: true
-    permalink: /orbit/:path/
 
 # Defaults
 defaults:
@@ -491,19 +489,6 @@ defaults:
       search: true
       header:
         overlay_filter: 0.3
-  # _redirects
-  - scope:
-      path: ""
-      type: redirects
-    values:
-      layout: redirect
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
-      search: false
-      sitemap: false
   # _presentations
   - scope:
       path: ""
@@ -512,29 +497,3 @@ defaults:
       layout: webslides
       sitemap: false
       search: false
-  # _orbits
-  - scope:
-      path: ""
-      type: orbits
-    values:
-      layout: orbits
-      sitemap: false
-      search: false
-  # _drafts
-  - scope:
-      path: ""
-      type: drafts
-    values:
-      layout: single
-      draft: true
-      breadcrumbs: true
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      toc: true
-      toc_sticky: false
-      author: lsolesen
-      sidebar:
-        nav: blog

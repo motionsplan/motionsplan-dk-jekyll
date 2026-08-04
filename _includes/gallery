@@ -32,8 +32,11 @@
     {% assign raw_img = img.image_path | absolute_url %}
 
     {% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
-      {% assign img_width = include.width | default: "600" %}
-      {% assign img_src = site.image_cdn | append: "f_auto,q_auto,w_" | append: img_width | append: "/" | append: raw_img %}
+      {% assign img_width = include.width | default: "500" %}
+      {% assign img_width_2x = img_width | times: 2 %}
+      
+      {% assign img_src = site.image_cdn | append: "f_auto,q_auto:eco,w_" | append: img_width | append: "/" | append: raw_img %}
+      {% assign img_src_2x = site.image_cdn | append: "f_auto,q_auto:eco,w_" | append: img_width_2x | append: "/" | append: raw_img %}
     {% else %}
       {% assign img_src = img.image_path | relative_url %}
     {% endif %}
@@ -41,17 +44,25 @@
     {%- if img.url -%}
       <a href="{{ img.url | relative_url }}"{%- if img.title %} title="{{ img.title }}"{%- endif -%}>
         <img src="{{ img_src }}"
-             alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+             {% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
+               srcset="{{ img_src }} {{ img_width }}w, {{ img_src_2x }} {{ img_width_2x }}w"
+               sizes="(max-width: 768px) 100vw, {{ img_width }}px"
+             {% endif %}
+             alt="{% if img.alt %}{{ img.alt | escape }}{% endif %}"
              loading="lazy"
              decoding="async">
       </a>
     {%- else -%}
       <img src="{{ img_src }}"
-           alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+           {% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
+             srcset="{{ img_src }} {{ img_width }}w, {{ img_src_2x }} {{ img_width_2x }}w"
+             sizes="(max-width: 768px) 100vw, {{ img_width }}px"
+           {% endif %}
+           alt="{% if img.alt %}{{ img.alt | escape }}{% endif %}"
            loading="lazy"
            decoding="async">
     {%- endif -%}
-  {% endfor %}
+  {%- endfor -%}
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
