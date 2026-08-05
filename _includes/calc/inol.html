@@ -1,0 +1,388 @@
+<!-- ULTRA-KOMPAKT UGENTLIG INOL BEREGNER (Motionsplan.dk) -->
+<div class="inol-calculator-wrapper">
+  
+  <!-- 1. INDTASTNINGSTABEL -->
+  <div class="inol-card">
+    <div class="inol-header">
+      <h3>Ugentlig INOL-beregner</h3>
+    </div>
+
+    <div class="table-responsive">
+      <table class="inol-table">
+        <thead>
+          <tr>
+            <th style="width: 15%;">Dag</th>
+            <th style="width: 35%;">Øvelse</th>
+            <th style="width: 12%;">Sæt</th>
+            <th style="width: 12%;">Reps</th>
+            <th style="width: 14%;">% 1RM</th>
+            <th style="width: 8%;">INOL</th>
+            <th style="width: 4%;"></th>
+          </tr>
+        </thead>
+        <tbody id="exercise-list">
+          <!-- Dynamiske rækker genereres her -->
+        </tbody>
+      </table>
+    </div>
+
+    <button type="button" id="add-exercise-btn" class="btn-add-row">+ Tilføj øvelse</button>
+  </div>
+
+  <!-- 2. UGENTLIG OPSUMMERING (NEDENUNDER) -->
+  <div class="inol-card inol-summary-card">
+    <h4>Ugentlig opsummering pr. øvelse</h4>
+    <p class="summary-subtitle">Samlet ugentlig belastning og status på tværs af træningsdage:</p>
+    <div id="weekly-summary-list" class="summary-grid">
+      <!-- Opsummering genereres her -->
+    </div>
+  </div>
+
+  <!-- 3. GUIDESEKTIOM (KLIK FOR AT FOLDE UD) -->
+  <details class="inol-guide-accordion">
+    <summary>📊 Hvad betyder de ugentlige INOL-tal? (Klik for at se skalaen)</summary>
+    <div class="inol-guide-grid">
+      <div class="guide-card status-low">
+        <strong>&lt; 2,0: Deload / Lav volumen</strong>
+        <p>Egnet til restitution, opvarmning eller deload-uger.</p>
+      </div>
+      <div class="guide-card status-optimal">
+        <strong>2,0 – 3,0: Optimal dosis</strong>
+        <p>Det ideelle sweet-spot for maksimal fremgang over tid.</p>
+      </div>
+      <div class="guide-card status-hard">
+        <strong>3,0 – 4,0: Hård uge</strong>
+        <p>Meget krævende. Kræver god restitution og søvn.</p>
+      </div>
+      <div class="guide-card status-extreme">
+        <strong>&gt; 4,0: Overtræningsrisiko</strong>
+        <p>For høj belastning. Bør kun køres i kortvarige faser.</p>
+      </div>
+    </div>
+  </details>
+
+</div>
+
+<!-- STYLING (SCSS / CSS) -->
+<style>
+.inol-calculator-wrapper {
+  margin: 1.5rem 0;
+  font-family: inherit;
+}
+
+/* Fælles kasse-styling */
+.inol-card {
+  background: #f8f9fa;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.inol-header h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.15rem;
+  color: #1a202c;
+}
+
+/* Tabel Styling */
+.table-responsive {
+  overflow-x: auto;
+}
+
+.inol-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.inol-table th {
+  text-align: left;
+  padding: 0.4rem 0.3rem;
+  color: #4a5568;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #cbd5e0;
+}
+
+.inol-table td {
+  padding: 0.35rem 0.2rem;
+  vertical-align: middle;
+}
+
+.inol-table input, .inol-table select {
+  width: 100%;
+  padding: 0.35rem 0.4rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.pas-inol-val {
+  font-weight: 700;
+  color: #2d3748;
+  text-align: center;
+  display: block;
+}
+
+.btn-remove-row {
+  background: none;
+  border: none;
+  color: #a0aec0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.btn-remove-row:hover {
+  color: #e53e3e;
+}
+
+.btn-add-row {
+  margin-top: 0.75rem;
+  background: #ffffff;
+  border: 1px dashed #cbd5e0;
+  color: #2b6cb0;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.btn-add-row:hover {
+  background: #edf2f7;
+  border-color: #a0aec0;
+}
+
+/* Opsummeringssektion Nedenunder */
+.inol-summary-card h4 {
+  margin: 0 0 0.2rem 0;
+  font-size: 1.05rem;
+  color: #1a202c;
+}
+
+.summary-subtitle {
+  font-size: 0.8rem;
+  color: #718096;
+  margin: 0 0 0.8rem 0;
+}
+
+/* Grid-visning af opsummeringskort, når der er flere øvelser */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.75rem;
+}
+
+.summary-item {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #cbd5e0;
+  border-radius: 4px;
+  padding: 0.6rem 0.75rem;
+}
+
+.summary-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #2d3748;
+}
+
+.summary-days {
+  font-size: 0.75rem;
+  color: #718096;
+  margin-top: 0.2rem;
+}
+
+.mini-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* Badge Farver */
+.badge-low { background-color: #edf2f7; color: #4a5568; }
+.badge-optimal { background-color: #c6f6d5; color: #22543d; }
+.badge-hard { background-color: #feebc8; color: #7b341e; }
+.badge-extreme { background-color: #fed7d7; color: #742a2a; }
+
+/* Accordion Guide */
+.inol-guide-accordion {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+}
+
+.inol-guide-accordion summary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4a5568;
+  cursor: pointer;
+}
+
+.inol-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #edf2f7;
+}
+
+.guide-card {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.guide-card strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.guide-card p {
+  margin: 0;
+  color: #718096;
+  line-height: 1.3;
+}
+</style>
+
+<!-- JAVASCRIPT LOGIK -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const exerciseList = document.getElementById("exercise-list");
+  const weeklySummaryList = document.getElementById("weekly-summary-list");
+  const addBtn = document.getElementById("add-exercise-btn");
+
+  const defaultProgram = [
+    { day: "Man", name: "Squat", sets: 3, reps: 5, intensity: 80 },
+    { day: "Man", name: "Bænkpres", sets: 4, reps: 6, intensity: 75 },
+    { day: "Tor", name: "Squat", sets: 4, reps: 4, intensity: 82 },
+    { day: "Tor", name: "Bænkpres", sets: 3, reps: 8, intensity: 70 }
+  ];
+
+  function calculateINOL(totalReps, intensity) {
+    if (intensity >= 100 || totalReps <= 0 || intensity <= 0) return 0;
+    return Math.round((totalReps / (100 - intensity)) * 100) / 100;
+  }
+
+  function getWeeklyStatus(inol) {
+    if (inol <= 0) return { text: "0.00", class: "badge-low", border: "#a0aec0" };
+    if (inol < 2.0) return { text: `${inol} (Deload)`, class: "badge-low", border: "#a0aec0" };
+    if (inol <= 3.0) return { text: `${inol} (Optimal)`, class: "badge-optimal", border: "#38a169" };
+    if (inol <= 4.0) return { text: `${inol} (Hård)`, class: "badge-hard", border: "#dd6b20" };
+    return { text: `${inol} (Høj!)`, class: "badge-extreme", border: "#e53e3e" };
+  }
+
+  function renderRow(data = { day: "Man", name: "", sets: 3, reps: 5, intensity: 80 }) {
+    const tr = document.createElement("tr");
+
+    tr.innerHTML = `
+      <td>
+        <select class="input-day">
+          <option value="Man" ${data.day === 'Man' ? 'selected' : ''}>Man</option>
+          <option value="Tir" ${data.day === 'Tir' ? 'selected' : ''}>Tir</option>
+          <option value="Ons" ${data.day === 'Ons' ? 'selected' : ''}>Ons</option>
+          <option value="Tor" ${data.day === 'Tor' ? 'selected' : ''}>Tor</option>
+          <option value="Fre" ${data.day === 'Fre' ? 'selected' : ''}>Fre</option>
+          <option value="Lør" ${data.day === 'Lør' ? 'selected' : ''}>Lør</option>
+          <option value="Søn" ${data.day === 'Søn' ? 'selected' : ''}>Søn</option>
+        </select>
+      </td>
+      <td><input type="text" class="input-name" value="${data.name}" placeholder="Øvelse"></td>
+      <td><input type="number" class="input-sets" value="${data.sets}" min="1"></td>
+      <td><input type="number" class="input-reps" value="${data.reps}" min="1"></td>
+      <td><input type="number" class="input-intensity" value="${data.intensity}" min="1" max="99"></td>
+      <td><span class="pas-inol-val">0.0</span></td>
+      <td><button type="button" class="btn-remove-row" title="Fjern">&times;</button></td>
+    `;
+
+    exerciseList.appendChild(tr);
+
+    tr.querySelectorAll("input, select").forEach(input => {
+      input.addEventListener("input", updateAll);
+    });
+
+    tr.querySelector(".btn-remove-row").addEventListener("click", () => {
+      tr.remove();
+      updateAll();
+    });
+
+    updateAll();
+  }
+
+  function updateAll() {
+    const rows = document.querySelectorAll("#exercise-list tr");
+    const summaryData = {};
+
+    rows.forEach(row => {
+      const day = row.querySelector(".input-day").value;
+      const nameInput = row.querySelector(".input-name").value.trim();
+      const sets = parseFloat(row.querySelector(".input-sets").value) || 0;
+      const reps = parseFloat(row.querySelector(".input-reps").value) || 0;
+      const intensity = parseFloat(row.querySelector(".input-intensity").value) || 0;
+
+      const pasInol = calculateINOL(sets * reps, intensity);
+      row.querySelector(".pas-inol-val").textContent = pasInol.toFixed(2);
+
+      if (nameInput !== "") {
+        const key = nameInput.toLowerCase();
+        if (!summaryData[key]) {
+          summaryData[key] = { displayName: nameInput, totalInol: 0, days: [] };
+        }
+        summaryData[key].totalInol += pasInol;
+        summaryData[key].days.push(`${day} (${pasInol.toFixed(2)})`);
+      }
+    });
+
+    renderWeeklySummary(summaryData);
+  }
+
+  function renderWeeklySummary(summaryData) {
+    weeklySummaryList.innerHTML = "";
+    const keys = Object.keys(summaryData);
+
+    if (keys.length === 0) {
+      weeklySummaryList.innerHTML = `<p style="color: #a0aec0; font-size: 0.8rem; margin: 0; grid-column: 1 / -1;">Tast øvelser ovenfor for at se den ugentlige opgørelse...</p>`;
+      return;
+    }
+
+    keys.forEach(key => {
+      const item = summaryData[key];
+      const finalInol = Math.round(item.totalInol * 100) / 100;
+      const status = getWeeklyStatus(finalInol);
+
+      const div = document.createElement("div");
+      div.className = "summary-item";
+      div.style.borderLeftColor = status.border;
+
+      div.innerHTML = `
+        <div class="summary-item-header">
+          <span class="summary-title">${item.displayName}</span>
+          <span class="mini-badge ${status.class}">${status.text}</span>
+        </div>
+        <div class="summary-days">Dage: ${item.days.join(", ")}</div>
+      `;
+
+      weeklySummaryList.appendChild(div);
+    });
+  }
+
+  defaultProgram.forEach(ex => renderRow(ex));
+  addBtn.addEventListener("click", () => renderRow({ day: "Man", name: "", sets: 3, reps: 5, intensity: 75 }));
+});
+</script>
