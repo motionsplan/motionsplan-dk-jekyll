@@ -5,6 +5,7 @@ seo_title: "Anatomi – Læren om kroppens opbygning, knogler & muskler"
 description: "Komplet overblik over menneskekroppens anatomi. Lær om bevægeapparatets tre grundpiller: knogler, led og muskler samt principper for bevægelsesanalyse."
 excerpt: "Komplet overblik over menneskekroppens anatomi. Lær om bevægeapparatets tre grundpiller: knogler, led og muskler samt principper for bevægelsesanalyse."
 permalink: /anatomi/
+last_modified_at: 2026-07-29T17:21:31.000Z
 system:
   - fitnessinstruktør
 header:

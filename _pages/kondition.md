@@ -2,8 +2,7 @@
 layout: single
 permalink: /kondition/
 title: 'Kondition: Alt om hvordan den trænes og måles'
-excerpt: Her kan du lære mere om kondition, og hvordan du træner og måler din kondition. Få eksempler på træning og se om
-  du er i god form?
+excerpt: Her kan du lære mere om kondition, og hvordan du træner og måler din kondition. Få eksempler på træning og se om du er i god form?
 header:
   overlay_image: /assets/images/unsplash/photo-1529662795444-4a44b7a29db1.jpg
   credit: https://images.unsplash.com/photo-1529662795444-4a44b7a29db1
@@ -13,8 +12,7 @@ feature_row_energysystems:
   credit: https://images.unsplash.com/photo-1526676317768-d9b14f15615a
   alt: Energisystemer 101
   title: Energisystemer 101
-  excerpt: Forstå kroppens energisystemer for at kunne forstå, hvordan du bedst kan lave konditionstræning og få et bedre
-    kredsløb og udholdenhed.
+  excerpt: Forstå kroppens energisystemer for at kunne forstå, hvordan du bedst kan lave konditionstræning og få et bedre kredsløb og udholdenhed.
   url: /energisystemer/
   btn_label: Lær om energisystemer
   btn_class: btn--info
@@ -32,8 +30,7 @@ feature_row_kondital:
   credit: https://images.unsplash.com/photo-1616877217977-fe8d019afd76
   alt: Hvad er en god kondition?
   title: Hvad er en god kondition?
-  excerpt: Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende
-    for almindelige mennesker i Skandinavien.
+  excerpt: Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende for almindelige mennesker i Skandinavien.
   url: /kondital/
   btn_label: Se konditionstabel og kondital
   btn_class: btn--info
@@ -44,36 +41,25 @@ sidebar:
   nav: trainingtypes
 toc: 'true'
 faq:
-- question: Hvad er kondition?
-  answer: Kondition refererer til kroppens evne til at optage, transportere og bruge ilt under fysisk aktivitet. En god kondition
-    er forbundet med bedre udholdenhed og sundhed.
-- question: Hvad vil det sige at have en god kondition?
-  answer: Du er i god kondition, når konditallet er tilstrækkelig højt. Din kondition varierer med alderen og for mænd og
-    kvinder. Du kan kigge i vores [tabeller over kondital](/kondital/), hvis du gerne vil have vurderet dit.
-- question: Hvad er dårlig kondition?
-  answer: Hvis konditallet er lavt ifølge de gængse [normer for kondital](/kondital/), så siger man, at du er i dårlig kondition.
-    Konditionen afhænger især af alderen.
-- question: Hvor hurtigt bliver ens kondition dårligere?
-  answer: 'Du skal holde din træning ved lige, hvis du vil fastholde din kondition. Selv kortere pauser kan have betydning
-    for, hvor effektivt kroppen arbejder med iltoptagelsen. Tjek nedenstående indlæg ud, hvis du vil vide, hvor hurtigt det
-    kan gå, når du holder træningspause.
+  - question: Hvad er kondition?
+    answer: Kondition refererer til kroppens evne til at optage, transportere og bruge ilt under fysisk aktivitet. En god kondition er forbundet med bedre udholdenhed og sundhed.
+  - question: Hvad vil det sige at have en god kondition?
+    answer: Du er i god kondition, når konditallet er tilstrækkelig højt. Din kondition varierer med alderen og for mænd og kvinder. Du kan kigge i vores [tabeller over kondital](/kondital/), hvis du gerne vil have vurderet dit.
+  - question: Hvad er dårlig kondition?
+    answer: Hvis konditallet er lavt ifølge de gængse [normer for kondital](/kondital/), så siger man, at du er i dårlig kondition. Konditionen afhænger især af alderen.
+  - question: Hvor hurtigt bliver ens kondition dårligere?
+    answer: >-
+      Du skal holde din træning ved lige, hvis du vil fastholde din kondition. Selv kortere pauser kan have betydning for, hvor effektivt kroppen arbejder med iltoptagelsen. Tjek nedenstående indlæg ud, hvis du vil vide, hvor hurtigt det kan gå, når du holder træningspause.
 
-
-    Læs: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
-
-    '
-- question: Hvordan kan jeg forbedre min kondition?
-  answer: Du kan forbedre din kondition gennem regelmæssig træning såsom løb, cykling og svømning. Intervaltræning og langvarig
-    udholdenhedstræning er effektive metoder.
-- question: Hvad er forskellen på VO2max og kondital?
-  answer: VO2max er et absolut mål for kroppens maksimale iltoptagelse pr. minut (liter O₂/min), mens kondital tager højde
-    for kropsvægten og angiver, hvor meget ilt kroppen kan optage per kilo kropsvægt (ml O₂/kg/min).
-- question: Hvordan måler man sin kondition?
-  answer: Kondition kan måles ved hjælp af forskellige tests, såsom Cooper-testen, 2400-meter testen eller en direkte VO2max-måling
-    i et laboratorium.
-- question: Hvorfor er kondition vigtig for sundheden?
-  answer: En god kondition reducerer risikoen for hjertekarsygdomme, diabetes og for tidlig død. Det forbedrer også den generelle
-    livskvalitet og evnen til at udføre daglige aktiviteter.
+      Læs: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
+  - question: Hvordan kan jeg forbedre min kondition?
+    answer: Du kan forbedre din kondition gennem regelmæssig træning såsom løb, cykling og svømning. Intervaltræning og langvarig udholdenhedstræning er effektive metoder.
+  - question: Hvad er forskellen på VO2max og kondital?
+    answer: VO2max er et absolut mål for kroppens maksimale iltoptagelse pr. minut (liter O₂/min), mens kondital tager højde for kropsvægten og angiver, hvor meget ilt kroppen kan optage per kilo kropsvægt (ml O₂/kg/min).
+  - question: Hvordan måler man sin kondition?
+    answer: Kondition kan måles ved hjælp af forskellige tests, såsom Cooper-testen, 2400-meter testen eller en direkte VO2max-måling i et laboratorium.
+  - question: Hvorfor er kondition vigtig for sundheden?
+    answer: En god kondition reducerer risikoen for hjertekarsygdomme, diabetes og for tidlig død. Det forbedrer også den generelle livskvalitet og evnen til at udføre daglige aktiviteter.
 breadcrumbs: 'true'
 last_modified_at: '2025-02-12T22:21:26Z'
 ---

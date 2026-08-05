@@ -5,6 +5,7 @@ seo_title: "Eksplosivitet – Træningsmetoder, RFD og tests til sprint og sprin
 description: "Lær hvordan du øger din eksplosivitet og RFD med plyometri, sprint og styrketræning. Se den samlede guide og tests til spring og sprint."
 excerpt: "Lær hvordan du øger din eksplosivitet og RFD med plyometri, sprint og styrketræning. Se den samlede guide og tests til spring og sprint."
 permalink: /eksplosivitet/
+last_modified_at: 2026-07-29T17:21:31.000Z
 author_profile: true
 toc: true
 breadcrumbs: true

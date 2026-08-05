@@ -2,7 +2,7 @@
 title: "Korte indadfører"
 seo_title: "Korte indadfører | Adductor Brevis | Muskler"
 excerpt: "Adductor brevis er en af de dybe indadførere i hoften. Den ligger under adductor longus og hjælper med at samle benene og bøje hoften."
-last_modified_at: 2026-03-29T17:21:31.000Z
+last_modified_at: 2026-07-29T17:21:31.000Z
 functional_group:
   - Hoftens indadførere
 group:

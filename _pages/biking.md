@@ -7,6 +7,7 @@ author_profile: 'true'
 excerpt: Guide til cykling og træning. Her på siden kan du finde nyttig viden om motionscykling og cykeltests.
 description: Få den nyeste viden om cykeltræning, kondition og cykeltests. Læs om effektive træningsmetoder, udstyr og gode
   råd til at forbedre din præstation.
+last_modified_at: 2026-07-29T17:21:31.000Z
 header:
   overlay_image: /assets/images/unsplash/photo-1535913064547-c24f85802447.jpg
   credit: https://images.unsplash.com/photo-1535913064547-c24f85802447

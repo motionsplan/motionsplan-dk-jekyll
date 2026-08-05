@@ -8,6 +8,7 @@ seo_title: "Træningsøvelser – Styrketræning, udstrækning, mave & ben"
 excerpt: "Komplet overblik over træningsøvelser. Find øvelser til styrketræning, hjemmetræning, udstrækning og mobilitet."
 description: "Find træningsøvelser til styrke, udstrækning, yoga og balance. Få inspiration til øvelser, der forbedrer din mobilitet og styrke."
 comments: false
+last_modified_at: 2026-07-29T17:21:31.000Z
 author_profile: false
 sidebar:
   nav: exercises

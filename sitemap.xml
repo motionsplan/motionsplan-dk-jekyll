@@ -1,0 +1,45 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign all_docs = site.html_pages | concat: site.posts %}
+  {% if site.documents %}
+    {% assign all_docs = all_docs | concat: site.documents %}
+  {% endif %}
+
+  {% for doc in all_docs %}
+    {% comment %} Rens HTML fra indholdet, så kun synlig tekst tælles {% endcomment %}
+    {% assign doc_text = doc.content | default: "" | strip_html %}
+    {% assign word_count = doc_text | number_of_words %}
+    
+    {% comment %} Undtagelser der altid skal i sitemap (fx beregnere og forside) {% endcomment %}
+    {% assign is_special = false %}
+    {% if doc.layout == 'calculator' or doc.layout == 'frontpage' or doc.url == '/' %}
+      {% assign is_special = true %}
+    {% endif %}
+
+    {% comment %} Tjek om siden er en pagineringsside (fx /page/2/) {% endcomment %}
+    {% assign is_pagination = false %}
+    {% if doc.url contains '/page/' %}
+      {% assign is_pagination = true %}
+    {% endif %}
+
+    {% comment %} Ekskludér sitemap:false, manual noindex, tekniske filer, paginering og tynde sider {% endcomment %}
+    {% if doc.sitemap != false and doc.robots != 'noindex' and doc.url %}
+      {% unless doc.url contains '.xml' or doc.url contains '.css' or doc.url contains '.js' or is_pagination %}
+        {% if word_count >= 150 or is_special %}
+          <url>
+            <loc>{{ doc.url | absolute_url }}</loc>
+            {% if doc.last_modified_at %}
+              <lastmod>{{ doc.last_modified_at | date_to_xmlschema }}</lastmod>
+            {% elsif doc.date %}
+              <lastmod>{{ doc.date | date_to_xmlschema }}</lastmod>
+            {% endif %}
+          </url>
+        {% endif %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</urlset>

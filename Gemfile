@@ -10,7 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-redirect-from"
   gem "jekyll-gist"
-  gem "jekyll-sitemap"
+#  gem "jekyll-sitemap"
   gem "jekyll-include-cache"
   gem "jemoji"
   gem 'jekyll-brotli'

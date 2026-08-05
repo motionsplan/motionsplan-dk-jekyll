@@ -6,6 +6,7 @@ excerpt: Lær, hvordan biomekanik påvirker idræt og sport. Forstå bevægelse,
   videnskabelige principper.
 permalink: /biomekanik/
 author_profile: 'true'
+last_modified_at: 2026-07-29T17:21:31.000Z
 toc: 'true'
 header:
   overlay_image: /assets/images/unsplash/photo-1473091540282-9b846e7965e3.jpg
