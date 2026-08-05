@@ -1,0 +1,75 @@
+/* PROFILE CARD - REN OG SLANK UDGAVE */
+.profile-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem; /* Nyere og renere metode end margin-right */
+  background-color: transparent; /* Fjern den tunge grå kasse */
+  padding: 1.75rem 0;
+  margin: 2rem 0;
+  border-top: 1px solid #e2e8f0; /* Slank 1px skiljelinje i stedet for 6px */
+  border-bottom: 1px solid #e2e8f0;
+
+  /* Mobil-tilpasning: stabl pænt i midten på små skærme */
+  @media (max-width: 576px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.profile-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0; /* Sikrer at billedet ikke skrumper */
+}
+
+.profile-card img {
+  width: 100px; /* Lidt mindre diameter giver et mere balanceret udtryk */
+  height: 100px;
+  border-radius: 50%; /* Rundt avatar-look frem for 10px afrundede hjørner */
+  object-fit: cover;
+}
+
+.profile-image a {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  color: #2b6cb0;
+  text-decoration: none;
+}
+
+.profile-image a:hover {
+  text-decoration: underline;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+.profile-text p.author__name {
+  margin: 0 0 0.2rem 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.profile-text p.author__name a {
+  text-decoration: none;
+  color: #1a202c;
+}
+
+.profile-text p.author__title {
+  margin: 0 0 0.6rem 0;
+  font-size: 0.85rem;
+  color: #718096;
+  font-weight: 500;
+}
+
+.profile-text p {
+  margin: 0;
+  color: #4a5568;
+  font-size: 0.9rem; /* Øget fra 0.7em så teksten faktisk kan læses */
+  line-height: 1.55;
+}

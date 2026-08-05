@@ -3,6 +3,8 @@
 --- 
 @charset "utf-8";
 
+$doc-font-size: 15px;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "signup";
@@ -13,483 +15,11 @@
 @import "star-rating";
 @import "method-cards";
 @import "mathjax";
-
-// Rich link inline icons for exercises
-.exercise-icon {
-  height: 1.2em; /* Følger tekstens skriftstørrelse */
-  width: auto;
-  vertical-align: -0.15em; /* Justerer ikonet perfekt ind på tekstlinjen */
-  margin-right: 0.25em;
-  display: inline-block;
-}
-
-
-/* Skjul forfatterprofilen i sidebaren på mobil og tablet */
-@media screen and (max-width: 1024px) {
-  .sidebar .author__avatar,
-  .sidebar .author__content,
-  .sidebar .author__urls-wrapper {
-    display: none !important;
-  }
-}
-
-/* Sammenklappelig Indholdsfortegnelse (TOC) på Mobil & Tablet */
-@media screen and (max-width: 1024px) {
-  .toc {
-    background-color: #6c757d; /* Grå baggrund som på dit screenshot */
-    border-radius: 4px;
-    margin-bottom: 1.5rem;
-    overflow: hidden;
-
-    header {
-      cursor: pointer;
-      user-select: none;
-    }
-
-    .nav__title {
-      display: flex !important;
-      align-items: center !important;
-      justify-content: flex-start !important; /* Venstrestiller teksten */
-      text-align: left !important;
-      padding: 0.75rem 1rem !important;
-      margin: 0 !important;
-      color: #ffffff;
-
-      /* Luft mellem dokument-ikon og tekst */
-      i, svg {
-        margin-right: 0.6rem !important;
-      }
-
-      /* Skubber KUN pilen helt ud til højre */
-      &::after {
-        content: "▼";
-        margin-left: auto !important; 
-        font-size: 0.75em;
-        opacity: 0.8;
-        transition: transform 0.2s ease-in-out;
-      }
-    }
-
-    /* Skjul selve listen som standard på mobil */
-    .toc__menu {
-      display: none;
-      padding: 0.75rem 1rem 1rem 1rem;
-      background-color: #ffffff; /* Lys baggrund til menu-links */
-      color: #333333;
-    }
-
-    /* Tilstand når TOC er foldet ud */
-    &.is-open {
-      .nav__title::after {
-        transform: rotate(180deg); /* Pilen peger opad */
-      }
-      .toc__menu {
-        display: block !important; /* Viser menuen */
-      }
-    }
-  }
-}
-
-
-
-
-
-
-table.dashboard {
-  font-size: 0.6em;
-  text-align: center;
-  width: 100% !important; 
-  span { font-size: 2em; display: block; }
-}
-
-
-/* Giver alle H2'er et flot, professionelt anker i venstre side */
-h2:not(.feature__wrapper h2, #references, .calculator h2) {
-  border-left: 5px solid #000; /* Eller din primære temafarve / orange */
-  padding-left: 0.75rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-/* Tilføj pil-indikatorer mellem trin på større skærme */
-@media screen and (min-width: 768px) {
-  ul.process-steps {
-    /* Lille pil i højre side af alle kort undtagen det sidste */
-    li:not(:last-child)::after {
-      content: "➔";
-      position: absolute;
-      right: -0.85rem;
-      top: 50%;
-      transform: translateY(-50%);
-      color: #f39c12;
-      font-size: 0.9rem;
-      z-index: 2;
-      background: #121212; /* Matcher din baggrundsfarve så linjen brydes pænt */
-      padding: 2px 0;
-    }
-  }
-}
-
-/*** PULL QUOTE ***/
-
-.pull-quote {
-  color: #333;
-  border-left: 4px solid #007acc;
-  padding-left: 1rem;
-  margin: 2rem 0;
-  background-color: #f9f9f9;
-  max-width: 40ch;
-  background-color: yellow;
-
-  p {
-    font-style: italic;
-    font-size: 1.1rem;
-    line-height: 1.4;
-    margin-bottom: 0.5em;
-  }
-}
-
-/** MYSQUATMECHANICS */
-
-fieldset .two-columns {
-  display: flex;
-  /* Creates a flexbox container */
-  gap: 20px;
-  /* Space between the two columns */
-}
-
-fieldset .column {
-  flex: 1;
-  /* Each column takes up equal space */
-}
-
-.models {
-  display: flex;
-  gap: 20px;
-}
-
-.model {
-  margin: 0 auto;
-  flex: 1;
-  width: 100%;
-  max-width: 600px;
-}
-
-.graph {
-  width: 100%;
-}
-
-/* On smaller screens, stack columns */
-@media (max-width: 768px) {
-  fieldset .two-columns {
-    flex-direction: column;
-  }
-  .models {
-    flex-direction: column;
-  }
-}
-
-fieldset .two-columns .form-group {
-  display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
-  align-items: center;
-  gap: 10px;
-  /* Adjust spacing if needed */
-}
-
-fieldset .two-columns .form-group label {
-  text-align: left;
-  /* Align text to the left */
-  white-space: nowrap;
-}
-
-fieldset .two-columns .form-group input {
-  width: 100%;
-  /* Make sure the input fills its column */
-  flex-grow: 1;
-  justify-self: stretch;
-  /* Stretch the slider across its grid column */
-}
-
-.mechanics-model {
-  font-size: 0.7em;
-}
-
-fieldset fieldset {
-  margin-top: 1em;
-}
-
-fieldset .two-columns .form-group span {
-  width: 4em;
-  /* Set a fixed width for the span */
-  text-align: right;
-  /* Align text to the right */
-  white-space: nowrap;
-  /* Prevent line breaks */
-  justify-self: end;
-  /* Align the span to the right of the grid */
-}
-
-fieldset .two-columns .form-group .help-block {
-  grid-column: 1 / -1;
-  /* Spans the full row */
-  font-size: 0.9em;
-  color: #666;
-  /* Adjust styling as needed */
-}
-
-.slider-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.slider-container .label-left,
-.label-right {
-  font-size: 0.9em;
-  /* Adjust text size if necessary */
-  white-space: nowrap;
-}
-
-.slider-container .label-left {
-  text-align: left;
-  margin-right: 1em;
-}
-
-.slider-container .label-right {
-  margin-left: 1em;
-  text-align: right;
-}
-
-/* AUTHOR BYLINE */
-
-.author__byline {
-  font-size: 0.7em;
-  position: relative;
-  padding-left: 3.5em;
-  margin-top: 0;
-  margin-bottom: 1em !important;
-}
-
-.author__byline-avatar {
-  position: absolute;
-  top: -0.5em;
-  left: 0;
-  width: 3em;
-  height: 3em;
-  overflow: hidden;
-
-  img {
-    height: auto;
-    max-width: 100%;
-    width: auto;
-    object-fit: contain;
-  }
-}
-
-// CHAT GPTS FORSLAG
-
-.author__byline {
-  font-size: 0.6em;
-  position: relative;
-  padding-left: 3.5em;
-  /* Lidt mere afstand fra billedet */
-  margin-top: 0;
-  margin-bottom: 1.2em !important;
-  /* Lidt mere luft */
-  line-height: 1.4;
-  /* Lidt bedre læsbarhed */
-}
-
-.author__byline-avatar {
-  position: absolute;
-  top: -0.7em;
-  /* Justeret lidt */
-  left: 0;
-  width: 3em;
-  /* En anelse større */
-  height: 3em;
-  overflow: hidden;
-  border-radius: 50%;
-  /* Gør billedet cirkulært */
-}
-
-.author__byline-avatar img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* Sørger for, at billedet fylder rammen pænt */
-}
-
-
-/* Tvinger layout--single-modern til at være centreret med en behagelig læsebredde */
-.layout--single-modern {
-  #main {
-    max-width: 820px; /* Den gyldne bredde for artikel-læsning */
-    margin-left: auto !important;
-    margin-right: auto !important;
-    float: none !important;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .page {
-    width: 100% !important;
-    float: none !important;
-    padding-right: 0 !important;
-  }
-}
-
-/* Styling af lead-billede og manchet */
-.page__lead-excerpt {
-  font-size: 1.15rem;
-  font-weight: 500;
-  color: #495057;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-
-.page__lead-image img {
-  width: 100%;
-  max-height: 450px;
-  object-fit: cover;
-  border-radius: 8px; /* Giver afrundede hjørner som på moderne magasiner */
-  margin: 1.5rem 0;
-}
-
-/* --- Optimal Læsebredde (Typografi) --- */
-
-/* Begræns linjelængde på afsnit, lister og manchet */
-.page__lead-excerpt,
-.page__content p,
-.page__content ul,
-.page__content ol,
-.page__content blockquote {
-  max-width: 68ch;   /* Den gyldne grænse for læsekomfort (~65-70 tegn) */
-  line-height: 1.65; /* Giver teksten lidt mere luft at ånde i */
-}
-
-/* Gør det samme for underoverskrifterne, så de flugter med teksten */
-.page__content h2,
-.page__content h3,
-.page__content h4 {
-  max-width: 68ch;
-}
-
-/* Billeder, beregnere og tabeller må til gengæld gerne udnytte den fulde bredde */
-.page__content img,
-.page__content .table-wrapper,
-.page__lead-image img {
-  max-width: 100%;
-} 
-
-
-
-/* Manchet / Excerpt styling */
-.page__lead-excerpt {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: #4a5568;
-  font-weight: 500;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-}
-
-/* Fremhævet lead-billede i toppen */
-.page__lead-image {
-  margin-top: 1.5em;
-  margin-bottom: 2em;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.page__lead-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.page__hero--overlay {
-  position: relative;
-  overflow: hidden;
-}
-
-/* Får billedet til at fylde baggrunden fuldstændigt */
-.page__hero-bg-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-/* Placerer et eventuelt farve- eller gradientfilter over billedet */
-.page__hero-filter {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-}
-
-/* Løfter overskriften og teksten forrest */
-.page__hero--overlay .wrapper {
-  position: relative;
-  z-index: 3;
-}
-
-header .page__meta {
-  color: #666;
-}
-
-.page__meta img {
-  width: 2.5em !important;
-  /* Justér størrelsen */
-  height: 2.5em !important;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 0.75em;
-}
-
-.collapsible-toc {
-  border: 1px solid #ddd;
-  background-color: #eee;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-/* STICKY MENU */
-.masthead {
-  background: white;
-
-  &__inner-wrap {}
-
-  &.sticky {
-    @include clearfix();
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0em;
-    float: right;
-  }
-}
-
-.sidebar__right {
-  &.sticky {
-    top: 85px;
-  }
-}
-
-.collapsible-toc {
-  &.sticky {
-    position: sticky;
-    top: 85px;
-    z-index: 100;
-  }
-}
+@import "profile-card";
+
+/* ==========================================================================
+   GENEREL TYPOGRAFI & IKONER
+   ========================================================================== */
 
 html {
   scroll-behavior: smooth;
@@ -499,704 +29,30 @@ h2, h3 {
   scroll-margin-top: 85px;
 }
 
-a.read-more-link {
+/* Giver alle H2'er et flot, professionelt anker i venstre side */
+h2:not(.feature__wrapper h2, #references, .calculator h2) {
+  border-left: 5px solid #000; 
+  padding-left: 0.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+span.strong {
+  font-weight: bold;
+}
+
+.notice::before {
+  content: "💡";
+}
+
+/* Rich link inline icons for exercises */
+.exercise-icon {
+  height: 1.2em;
+  width: auto;
+  vertical-align: -0.15em;
+  margin-right: 0.25em;
   display: inline-block;
-  padding: 4px 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #515151;
-  font-size: 0.6em !important;
-  transition: all 0.2s ease-in-out;
 }
-
-a.read-more-link:hover {
-  background-color: #f5f5f5;
-  border-color: #999;
-}
-
-/**/
-
-.concept {
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 0.5em;
-  background-color: #f9f9f9;
-  transition: all 0.3s ease-in-out;
-  margin-bottom: 0.5em;
-}
-
-.concept summary {
-  font-weight: bold;
-  cursor: pointer;
-  padding: 0.2 0;
-  font-size: 0.9em;
-}
-
-.concept[open] {
-  background-color: #eef5ff;
-  /* Lyseblå highlight ved åbning */
-  border-color: #a4c8f0;
-}
-
-.concept p {
-  margin: 10px 0 0;
-  color: #333;
-}
-
-.input-locked {
-  background-color: #f4f7cb !important;
-  color: #999;
-}
-
-.input-locked:focus {
-  background-color: white;
-  color: black;
-}
-
-/* QUESTIONS */
-
-details.question {
-  margin: 10px 0;
-  padding: 8px;
-  /* Mindre padding for kompakt look */
-  border: 2px solid #0073e6;
-  /* Blue border */
-  border-radius: 8px;
-  background-color: #f8faff;
-  /* Light blue background */
-  transition: all 0.3s ease-in-out;
-  font-size: 0.9;
-
-  &[open] {
-    background-color: #e6f0ff;
-    /* Slightly darker when open */
-
-    summary {
-      color: #003366;
-      /* Mørkere farve for åben tilstand */
-      font-weight: bold;
-    }
-
-    summary::before {
-      content: "✔️";
-      /* Skifter ikon når åben */
-    }
-  }
-
-  summary {
-    font-size: 0.9em;
-    /* Lidt mindre fontstørrelse for kompakt tekst */
-    font-weight: normal;
-    cursor: pointer;
-    padding: 6px;
-    /* Mindre padding */
-    color: #004a99;
-    /* Standard blå */
-    display: flex;
-    align-items: center;
-    transition: color 0.3s ease-in-out;
-
-    &::before {
-      content: "❓";
-      /* Standard spørgsmålstegn */
-      font-size: 1.3em;
-      margin-right: 8px;
-    }
-  }
-
-  &:hover {
-    background-color: rgba(0, 115, 230, 0.1);
-    /* Let baggrundsændring på hover */
-    border-color: #005bbb;
-    /* Skifter til en mørkere blå kant */
-  }
-}
-
-/* EQUATION DETAILS SUMMARY */
-
-details.equation {
-  background-color: #f1f1f1;
-  /* Lys baggrund for bedre synlighed */
-  padding: 0.5em;
-  /* Polstring for bedre klikbarhed */
-  border: 1px solid #ddd;
-  /* Let kant omkring elementerne */
-  margin-bottom: 0.5em;
-}
-
-.equation summary {
-  cursor: pointer;
-  /* Ændrer markøren for at gøre det klikbart */
-  display: flex;
-  /* Brug flexbox for at placere pilen og overskriften på samme linje */
-  align-items: center;
-  /* Vertikal centrering af indholdet */
-  background-color: #f1f1f1;
-  /* Lys baggrund for bedre synlighed */
-  padding: 0.5em;
-  /* Polstring for bedre klikbarhed */
-  border: 1px solid #ddd;
-  /* Let kant omkring elementerne */
-  transition: background-color 0.3s ease;
-  /* Blød overgang ved hover */
-  font-weight: bold;
-  /* Gør spørgsmålet mere fremtrædende */
-  position: relative;
-  /* Make sure that the arrows position correctly */
-}
-
-.equation summary:hover {
-  background-color: #e1e1e1;
-  /* Mørkere baggrund ved hover for interaktivitet */
-}
-
-/* Tilføjer en pil ved siden af spørgsmålet */
-.equation summary::before {
-  content: "▶";
-  /* Standard pil for lukket FAQ */
-  font-size: 1.2em;
-  /* Juster pilens størrelse */
-  margin-right: 10px;
-  /* Plads mellem pil og tekst */
-  transition: transform 0.3s ease;
-  /* Blød overgang ved pil rotation */
-}
-
-/* Når FAQ er åbnet, ændres pilen */
-.equation[open] summary::before {
-  content: "▼";
-  /* Pil der peger ned, når FAQ er åben */
-  transform: rotate(180deg);
-  /* Rotér pilen, når åbnet */
-}
-
-details.equation h3 {
-  padding: 0;
-  margin: 0;
-  font-size: 1em;
-}
-
-details summary h3 {
-  padding: 0;
-  margin: 0;
-  font-size: 1em;
-  display: inline;
-}
-
-/* FAQ */
-
-/* Forbedrer udseendet af FAQ-listen */
-.faq {
-  margin-bottom: 1em;
-  /* Afstand mellem FAQ-elementer */
-}
-
-.faq summary {
-  cursor: pointer;
-  /* Ændrer markøren for at gøre det klikbart */
-  display: flex;
-  /* Brug flexbox for at placere pilen og overskriften på samme linje */
-  align-items: center;
-  /* Vertikal centrering af indholdet */
-  background-color: #f1f1f1;
-  /* Lys baggrund for bedre synlighed */
-  padding: 0.5em;
-  /* Polstring for bedre klikbarhed */
-  border: 1px solid #ddd;
-  /* Let kant omkring elementerne */
-  transition: background-color 0.3s ease;
-  /* Blød overgang ved hover */
-  font-weight: bold;
-  /* Gør spørgsmålet mere fremtrædende */
-  position: relative;
-  /* Make sure that the arrows position correctly */
-}
-
-/* Hover-effekt for feedback */
-.faq summary:hover {
-  background-color: #e1e1e1;
-  /* Mørkere baggrund ved hover for interaktivitet */
-}
-
-/* Styling af spørgsmålene */
-.faq h3 {
-  margin: 0;
-  /* Fjern ekstra margin omkring h3 */
-  font-size: 1.1em;
-  /* Let forstørrelse af teksten */
-  color: #333;
-  /* Mørk tekstfarve for læsbarhed */
-}
-
-/* Tilføj en indrykning til svaret, så det skiller sig ud */
-.faq p {
-  margin-top: 10px;
-  /* Afstand fra spørgsmålet til svaret */
-  padding-left: 20px;
-  /* Indrykning af svaret */
-  color: #444;
-  /* Lysere tekstfarve for svarene */
-  line-height: 1.6;
-  /* Bedre linjeafstand */
-}
-
-/* Tilføjer en pil ved siden af spørgsmålet */
-.faq summary::before {
-  content: "▶";
-  /* Standard pil for lukket FAQ */
-  font-size: 1.2em;
-  /* Juster pilens størrelse */
-  margin-right: 10px;
-  /* Plads mellem pil og tekst */
-  transition: transform 0.3s ease;
-  /* Blød overgang ved pil rotation */
-}
-
-/* Når FAQ er åbnet, ændres pilen */
-.faq[open] summary::before {
-  content: "▼";
-  /* Pil der peger ned, når FAQ er åben */
-  transform: rotate(180deg);
-  /* Rotér pilen, når åbnet */
-}
-
-/* REFERENCER - NYT DESIGN */
-
-/* REFERENCER - PERFEKT ALIGNMENT */
-
-/* Skjul browserens standard-pil */
-details.references summary::-webkit-details-marker {
-  display: none;
-}
-
-details.references summary {
-  cursor: pointer;
-  display: flex;
-  align-items: center; /* Centrerer alt indhold præcist vertikalt */
-  list-style: none;
-  padding: 16px 50px 16px 20px; /* Plads til pilen i højre side */
-  background-color: #f8f9fa;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 1.05em;
-  color: #111827;
-  line-height: 1; /* Nulstiller linjehøjde for perfekt alignment */
-  transition: background-color 0.2s ease, border-color 0.2s ease;
-
-  /* PIL HELT TIL HØJRE */
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
-  background-repeat: no-repeat;
-  background-position: calc(100% - 20px) center;
-}
-
-/* Nulstil underlinjer og margins hvis teksten ligger inde i h2, h3, p etc. */
-details.references summary * {
-  margin: 0 !important;
-  padding: 0 !important;
-  border: none !important;
-  text-decoration: none !important;
-  line-height: 1 !important;
-}
-
-/* Hover-effekt */
-details.references summary:hover {
-  background-color: #f1f3f5;
-  border-color: #d1d5db;
-}
-
-/* BOGEN TIL VENSTRE (Justeret til at flugte med tekstens baseline) */
-details.references summary::before {
-  content: "📘";
-  margin-right: 12px;
-  font-size: 1.2em;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-  transform: translateY(-1px); /* Finjusterer bogen 1px op for perfekt optisk midte */
-}
-
-/* Skift til åben bog ved hover eller åben tilstand */
-details.references summary:hover::before,
-details.references[open] summary::before {
-  content: "📖";
-}
-
-/* NÅR ÅBEN: Pilen peger opad */
-details.references[open] summary {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>');
-}
-
-/* DESKTOP-TEKST */
-@media (min-width: 768px) {
-  details.references[open] summary::after {
-    content: " - Læs om vores redaktionelle proces";
-    font-weight: normal;
-    font-size: 0.85em;
-    color: #6b7280;
-    margin-left: 6px;
-    line-height: 1;
-  }
-}
-
-/* INFO-BOKS NÅR NOGET ÅBNES */
-details.references[open] ul::before {
-  content: "Motionsplan.dk anvender pålidelige og videnskabeligt funderede kilder for at understøtte indholdet i vores artikler. Læs om vores redaktionelle proces for at lære, hvordan vi sikrer, at vores indhold er præcist, troværdigt og faktatjekket.";
-  display: block;
-  padding: 1.2em;
-  background-color: #f5f5f5;
-  border-left: 5px solid #ccc;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  font-size: 0.85em;
-  color: #333;
-  border-radius: 8px;
-}
-
-.references ul li {
-  font-size: 0.85em;
-}
-
-/* FEATURE ROW EMOJI STYLE */
-
-.feature__wrapper-emoji {
-  background-color: #eee;
-  padding: 0 1em;
-  margin-bottom: 1em;
-  text-align: center;
-
-  .archive__item-title {
-    font-size: 3em;
-    margin-top: 0;
-  }
-
-  .feature__wrapper {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    border: 0;
-  }
-}
-
-/* SECTION WITH LINES */
-
-.section-with-lines {
-  text-align: center;
-  padding-top: 1.25em;
-  /* 20px -> 1.25em */
-  padding-bottom: 0.5em;
-  position: relative;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 1em;
-
-  figure {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-}
-
-.section-title-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.section-title {
-  font-size: 0.6em;
-  /* Mindre tekststørrelse */
-  font-weight: normal;
-  /* Mindre kraftig tekst */
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  /* 1px -> 0.0625em */
-  position: relative;
-  background: #fff;
-  padding: 0 1em;
-  /* 15px -> 0.9375em */
-  z-index: 2;
-  line-height: 1;
-}
-
-.section-title-wrapper::before,
-.section-title-wrapper::after {
-  content: "";
-  flex-grow: 1;
-  height: 1px;
-  /* 1px -> 0.0625em */
-  background: #ccc;
-  position: relative;
-  top: -0.5em;
-  /* Centrerer linjen bedre ift. teksten */
-}
-
-.section-title-wrapper::before {
-  margin-right: 0.625em;
-  /* 10px -> 0.625em */
-}
-
-.section-title-wrapper::after {
-  margin-left: 0.625em;
-  /* 10px -> 0.625em */
-}
-
-/* PROFILE CARD */
-
-.profile-card {
-  display: flex;
-  align-items: flex-start;
-  /* Ensures top alignment */
-  background-color: #eee;
-  padding: 1.5em;
-  margin: 1.5em 0;
-  border-top: 6px solid #ccc;
-  border-bottom: 6px solid #ccc;
-}
-
-.profile-image {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 1em;
-}
-
-.profile-card img {
-  max-width: 150px;
-  border-radius: 10px;
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-}
-
-.profile-text {
-  flex: 1;
-}
-
-.profile-text p.author__name {
-  margin: 0;
-  font-size: 1.2em;
-  text-transform: uppercase;
-}
-
-.profile-text p.author__name a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-.profile-text p.author__title {
-  margin: 5px 0;
-  font-size: 0.8em;
-  color: black;
-}
-
-.profile-text p {
-  margin: 10px 0;
-  color: #444;
-  font-size: 0.7em;
-}
-
-.read-more {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 0.7em;
-  color: #d93050;
-  text-decoration: none;
-  margin-top: 0.8em;
-}
-
-.read-more::after {
-  content: '\279C';
-  /* Right arrow */
-  margin-left: 5px;
-  font-size: 0.9em;
-}
-
-.editorial-link {
-  font-weight: normal;
-  text-transform: none;
-  font-size: 0.7em;
-  color: #aaa;
-  text-align: center;
-  display: block;
-  text-decoration: none;
-  margin-top: 0.2em;
-}
-
-.editorial-link::before {
-  content: 'ⓘ';
-  /* Right arrow */
-  margin-right: 5px;
-  font-size: 0.9em;
-}
-
-
-/****************/
-
-.pull-quote {
-  font-size: 1.5em;
-  border-left: 10px solid orange;
-  padding: 1em;
-  margin: 1em;
-  background-color: #eeeeee;
-  padding-left: 1.5em;
-}
-
-.intro {
-  margin-top: 1em !important;
-  text-align: center;
-  font-size: 1.1em;
-  font-weight: 600;
-}
-
-.intro::after {
-  content: "";
-  display: block;
-  width: 100px;
-  /* Adjust the length */
-  height: 5px;
-  /* Adjust the thickness */
-  background-color: orange;
-  /* Adjust the color */
-  margin: 1em auto 0;
-  /* Adjust spacing */
-}
-
-h2.archive__item-title {
-  font-size: 1.2em;
-}
-
-p.archive__item-title {
-  font-size: 0.9em !important;
-  margin-top: 0.3em !important;
-  padding-top: 0;
-}
-
-.archive__item-category {
-  margin-top: 0.6em !important;
-  margin-bottom: 0 !important;
-  color: #ccc;
-  font-size: 0.7em !important;
-  padding-bottom: 0;
-}
-
-p:has(> a.btn--center) {
-  clear: both;
-  text-align: center;
-}
-
-.btn--center {
-  display: inline-block;
-  clear: both;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.btn--center::after {
-  content: " →";
-}
-
-.btn--jump::after {
-  content: " →";
-}
-
-.feature__item .btn::after,
-.feature__item--left .btn::after {
-  content: " →";
-}
-
-.sidebar {
-  position: relative;
-
-  &.sticky {
-    overflow-y: auto;
-    /* calculate height of nav list
-       viewport height - nav height - masthead x-padding
-    */
-    max-height: 100%;
-  }
-}
-
-/* Extra possibilities for the gallery */
-figure {
-  &.quarter {
-
-    >a,
-    >img {
-      @include breakpoint($small) {
-        width: calc(25% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-
-  &.fifth {
-
-    >a,
-    >img {
-      @include breakpoint($small) {
-        width: calc(20% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-  &.fifth.no-collapse {
-
-    >a,
-    >img {
-      width: calc(20% - 0.5em);
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-  &.sixth {
-
-    >a,
-    >img {
-      @include breakpoint($small) {
-        width: calc(16.6% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-  &.seventh {
-
-    >a,
-    >img {
-      @include breakpoint($small) {
-        width: calc(14.2% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-  &.seventh.no-collapse {
-
-    >a,
-    >img {
-      width: calc(14.2% - 0.5em);
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-}
-
-//////
 
 .icon-overlay {
   position: absolute;
@@ -1207,242 +63,17 @@ figure {
   border-radius: 0.25rem;
   font-size: 1.1rem;
   color: #333;
-}
 
-.icon-overlay i {
-  pointer-events: none;
-}
-
-
-/////
-
-.greedy-nav {
-  height: $nav-height;
-  max-height: $nav-height;
-}
-
-#adBlock,
-.gsc-adBlock {
-  display: none !important;
-}
-
-span.strong {
-  font-weight: bold;
-}
-
-.archive__item-title {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.author__name,
-.nav__title {
-  margin-bottom: 0;
-  font-weight: 700;
-  font-size: 1.125;
-}
-
-.page__share-title,
-.page__related-title,
-.page__meta-title {
-  font-size: 1.0625em;
-  font-weight: 700;
-}
-
-a[rel~=sponsored]:after {
-  content: "*";
-}
-
-.btn[rel~=sponsored] {
-  @extend .btn--danger;
-}
-
-.btn--bmc {
-  background-color: hsl(51, 100%, 50%);
-  display: inline-flex; /* Brug flexbox til at centrere indholdet */
-  align-items: center; /* Centrerer elementerne vertikalt */
-
-  svg {
-    margin-right: 0.6em;
+  i {
+    pointer-events: none;
   }
 }
-
-.btn--lead {
-  @extend .btn;
-  @extend .btn--large;
-  @extend .btn--danger;
-}
-
-body.layout--single {
-
-  .feature__item--left,
-  .feature__item--right {
-    h2.archive__item-title {
-      margin-top: 1em !important;
-      margin-bottom: 0em !important;
-      font-size: 0.9em !important;
-    }
-
-    .archive__item-excerpt p:first {
-      margin-top: 0em !important;
-    }
-  }
-}
-
-/*
-form.newsletter {
-  fieldset, legend {
-    margin: 0;
-    padding: 0;
-  }
-  fieldset {
-      padding: 1em !important;
-      background-color: hsl(51, 86%, 52%);
-
-      legend {
-        font-weight: bold;
-          float: left;
-          margin-bottom: .5em;
-          width: 100%;
-      }
-  }
-  input[type="submit"] {
-      @extend .btn;
-      @extend .btn--large;
-      @extend .btn--danger;
-  }
-}
-*/
-
-#anatomy_muscle {
-  position: relative;
-  width: 100%;
-
-  .anatomy-popup {
-    display: none;
-  }
-
-  .anatomy-popup-on {
-    display: block !important;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    background-color: #333;
-    padding: 0.5em 1em;
-    color: #fff;
-
-    p {
-      font-size: 0.7em;
-      margin: 0;
-      text-align: center;
-    }
-  }
-}
-
-/* Grid view */
-.layout--single:not(.wide) .page__content .grid__item,
-.layout--activity:not(.wide) .page__content .grid__item {
-
-  @include breakpoint($medium) {
-    margin-left: 0;
-    /* override margin*/
-    margin-right: 0;
-    /* override margin*/
-    width: span(4 of 12);
-
-    &:nth-child(3n + 1) {
-      margin-left: 0;
-      clear: both;
-    }
-
-    &:nth-child(3n + 2) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-
-    &:nth-child(3n + 3) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-  }
-}
-
-.notice::before {
-  content: "💡";
-}
-
-
-/* FILTER TABLE */
-
-.filter-table-input {
-  background-image: url('/assets/images/searchicon.png');
-  /* Add a search icon to input */
-  background-position: 10px 12px;
-  /* Position the search icon */
-  background-repeat: no-repeat;
-  /* Do not repeat the icon image */
-  width: 100%;
-  /* Full-width */
-  font-size: 16px;
-  /* Increase font-size */
-  padding: 12px 20px 12px 40px;
-  /* Add some padding */
-  border: 1px solid #ddd;
-  /* Add a grey border */
-  margin-bottom: 12px;
-  /* Add some space below the input */
-}
-
-.filter-table {
-  display: block;
-  table-layout: auto;
-  border-collapse: collapse;
-  /* Collapse borders */
-  width: 100%;
-  /* Full-width */
-  border: 1px solid #ddd;
-  /* Add a grey border */
-  font-size: 18px;
-  /* Increase font-size */
-  table-layout: auto;
-  overflow-x: auto;
-  max-width: 100%;
-}
-
-.filter-table th,
-.filter-table td {
-  text-align: left;
-  /* Left-align text */
-  padding: 12px;
-  /* Add padding */
-  width: auto;
-  /* Allow dynamic column width */
-  word-wrap: break-word;
-  /* Prevent overflow */
-  white-space: normal;
-}
-
-.filter-table tr {
-  /* Add a bottom border to all table rows */
-  border-bottom: 1px solid #ddd;
-}
-
-.filter-table tr.header,
-.filter-table tr:hover {
-  /* Add a grey background color to the table header and on hover */
-  background-color: #f1f1f1;
-}
-
-
-
 
 /* ==========================================================================
-   STIKSIKKERT SINGLE-MODERN LAYOUT (Centreret + Flot TOC & Breadcrumb)
+   LAYOUT: SINGLE-MODERN (Centreret + Flot TOC & Breadcrumb)
    ========================================================================== */
 
 .layout--single-modern {
-
   /* 1. Hovedfeltet centreres på skærmen */
   #main {
     max-width: 1080px !important;
@@ -1480,7 +111,7 @@ form.newsletter {
     gap: 2.5rem;
   }
 
-  /* Læseområdet: Låst til behagelig tekstbredde (~68-70 tegn) */
+  /* Læseområdet: Låst til behagelig tekstbredde */
   .page__content {
     flex: 1;
     max-width: 720px;
@@ -1517,6 +148,824 @@ form.newsletter {
     .page__header-standard,
     .page__content {
       max-width: 100%;
+    }
+  }
+}
+
+/* ==========================================================================
+   MOBIL & TABLET OPTIMERING (TOC & Sidebar)
+   ========================================================================== */
+
+@media screen and (max-width: 1024px) {
+  /* Skjul forfatterprofilen i sidebaren på mobil og tablet */
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    display: none !important;
+  }
+
+  /* Sammenklappelig Indholdsfortegnelse (TOC) på Mobil & Tablet */
+  .toc {
+    background-color: #6c757d; 
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+
+    header {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .nav__title {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: flex-start !important; 
+      text-align: left !important;
+      padding: 0.75rem 1rem !important;
+      margin: 0 !important;
+      color: #ffffff;
+
+      i, svg {
+        margin-right: 0.6rem !important;
+      }
+
+      &::after {
+        content: "▼";
+        margin-left: auto !important; 
+        font-size: 0.75em;
+        opacity: 0.8;
+        transition: transform 0.2s ease-in-out;
+      }
+    }
+
+    .toc__menu {
+      display: none;
+      padding: 0.75rem 1rem 1rem 1rem;
+      background-color: #ffffff; 
+      color: #333333;
+    }
+
+    &.is-open {
+      .nav__title::after {
+        transform: rotate(180deg); 
+      }
+      .toc__menu {
+        display: block !important; 
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   HEADER, MANCHET & HERO IMAGES
+   ========================================================================== */
+
+.page__lead-excerpt {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #4a5568;
+  font-weight: 500;
+  margin-top: 0.5em;
+  margin-bottom: 1rem;
+}
+
+.page__lead-image {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  border-radius: 8px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+.page__hero--overlay {
+  position: relative;
+  overflow: hidden;
+
+  .wrapper {
+    position: relative;
+    z-index: 3;
+  }
+}
+
+.page__hero-bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.page__hero-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/* ==========================================================================
+   FORFATTER (AUTHOR BYLINE & META)
+   ========================================================================== */
+
+.author__byline {
+  font-size: 0.6em;
+  position: relative;
+  padding-left: 3.5em;
+  margin-top: 0;
+  margin-bottom: 1.2em !important;
+  line-height: 1.4;
+}
+
+.author__byline-avatar {
+  position: absolute;
+  top: -0.7em;
+  left: 0;
+  width: 3em;
+  height: 3em;
+  overflow: hidden;
+  border-radius: 50%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+header .page__meta {
+  color: #666;
+}
+
+.page__meta img {
+  width: 2.5em !important;
+  height: 2.5em !important;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.75em;
+}
+
+/* ==========================================================================
+   STICKY ELEMENTER (Masthead & TOC)
+   ========================================================================== */
+
+.masthead {
+  background: white;
+  &.sticky {
+    @include clearfix();
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0em;
+    float: right;
+  }
+}
+
+.sidebar__right.sticky {
+  top: 85px;
+}
+
+.collapsible-toc {
+  border: 1px solid #ddd;
+  background-color: #eee;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+  &.sticky {
+    position: sticky;
+    top: 85px;
+    z-index: 100;
+  }
+}
+
+.sidebar {
+  position: relative;
+  &.sticky {
+    overflow-y: auto;
+    max-height: 100%;
+  }
+}
+
+/* ==========================================================================
+   UI ELEMENTER (Pull-quote, knapper, links, osv.)
+   ========================================================================== */
+
+.pull-quote {
+  font-size: 1.5em;
+  border-left: 10px solid orange;
+  padding: 1em 1em 1em 1.5em;
+  margin: 1em 0 2em 0;
+  background-color: #eeeeee;
+
+  p {
+    font-style: italic;
+    line-height: 1.4;
+    margin-bottom: 0.5em;
+  }
+}
+
+.intro {
+  margin-top: 1em !important;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 600;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: orange;
+    margin: 1em auto 0;
+  }
+}
+
+/* Knapper og Call to Actions */
+a.read-more-link {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #515151;
+  font-size: 0.6em !important;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #f5f5f5;
+    border-color: #999;
+  }
+}
+
+.read-more {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  color: #d93050;
+  text-decoration: none;
+  margin-top: 0.8em;
+
+  &::after {
+    content: '\279C';
+    margin-left: 5px;
+    font-size: 0.9em;
+  }
+}
+
+p:has(> a.btn--center) {
+  clear: both;
+  text-align: center;
+}
+
+.btn--center {
+  display: inline-block;
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn--center::after,
+.btn--jump::after,
+.feature__item .btn::after,
+.feature__item--left .btn::after {
+  content: " →";
+}
+
+.btn--bmc {
+  background-color: hsl(51, 100%, 50%);
+  display: inline-flex; 
+  align-items: center; 
+
+  svg {
+    margin-right: 0.6em;
+  }
+}
+
+.btn--lead {
+  @extend .btn;
+  @extend .btn--large;
+  @extend .btn--danger;
+}
+
+/* ==========================================================================
+   BOKSE & DETAILS (FAQ, Koncepter, Ligninger, Referencer)
+   ========================================================================== */
+
+.concept {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.5em;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 0.5em;
+
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.2 0;
+    font-size: 0.9em;
+  }
+
+  &[open] {
+    background-color: #eef5ff;
+    border-color: #a4c8f0;
+  }
+
+  p {
+    margin: 10px 0 0;
+    color: #333;
+  }
+}
+
+details.question {
+  margin: 10px 0;
+  padding: 8px;
+  border: 2px solid #0073e6;
+  border-radius: 8px;
+  background-color: #f8faff;
+  transition: all 0.3s ease-in-out;
+  font-size: 0.9;
+
+  &[open] {
+    background-color: #e6f0ff;
+    summary {
+      color: #003366;
+      font-weight: bold;
+      &::before { content: "✔️"; }
+    }
+  }
+
+  summary {
+    font-size: 0.9em;
+    font-weight: normal;
+    cursor: pointer;
+    padding: 6px;
+    color: #004a99;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease-in-out;
+
+    &::before {
+      content: "❓";
+      font-size: 1.3em;
+      margin-right: 8px;
+    }
+  }
+
+  &:hover {
+    background-color: rgba(0, 115, 230, 0.1);
+    border-color: #005bbb;
+  }
+}
+
+details.equation, .faq {
+  background-color: #f1f1f1;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5em;
+
+  summary {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    position: relative;
+
+    &:hover {
+      background-color: #e1e1e1;
+    }
+
+    &::before {
+      content: "▶";
+      font-size: 1.2em;
+      margin-right: 10px;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  &[open] summary::before {
+    content: "▼";
+    transform: rotate(180deg);
+  }
+
+  h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+    color: #333;
+  }
+
+  p {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #444;
+    line-height: 1.6;
+  }
+}
+
+/* REFERENCER - PERFEKT ALIGNMENT */
+details.references {
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 16px 50px 16px 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.05em;
+    color: #111827;
+    line-height: 1; 
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+
+    * {
+      margin: 0 !important;
+      padding: 0 !important;
+      border: none !important;
+      text-decoration: none !important;
+      line-height: 1 !important;
+    }
+
+    &:hover {
+      background-color: #f1f3f5;
+      border-color: #d1d5db;
+    }
+
+    &::before {
+      content: "📘";
+      margin-right: 12px;
+      font-size: 1.2em;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      transform: translateY(-1px);
+    }
+
+    &:hover::before {
+      content: "📖";
+    }
+  }
+
+  &[open] {
+    summary {
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>');
+      
+      &::before {
+        content: "📖";
+      }
+    }
+
+    ul::before {
+      content: "Motionsplan.dk anvender pålidelige og videnskabeligt funderede kilder for at understøtte indholdet i vores artikler. Læs om vores redaktionelle proces for at lære, hvordan vi sikrer, at vores indhold er præcist, troværdigt og faktatjekket.";
+      display: block;
+      padding: 1.2em;
+      background-color: #f5f5f5;
+      border-left: 5px solid #ccc;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      font-size: 0.85em;
+      color: #333;
+      border-radius: 8px;
+    }
+  }
+
+  ul li {
+    font-size: 0.85em;
+  }
+}
+
+@media (min-width: 768px) {
+  details.references[open] summary::after {
+    content: " - Læs om vores redaktionelle proces";
+    font-weight: normal;
+    font-size: 0.85em;
+    color: #6b7280;
+    margin-left: 6px;
+    line-height: 1;
+  }
+}
+
+/* ==========================================================================
+   TABELLER, LISTER & FEATURES (Squat mechanics, Filters, Grid)
+   ========================================================================== */
+
+table.dashboard {
+  font-size: 0.6em;
+  text-align: center;
+  width: 100% !important; 
+  span { font-size: 2em; display: block; }
+}
+
+@media screen and (min-width: 768px) {
+  ul.process-steps {
+    li:not(:last-child)::after {
+      content: "➔";
+      position: absolute;
+      right: -0.85rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #f39c12;
+      font-size: 0.9rem;
+      z-index: 2;
+      background: #121212; 
+      padding: 2px 0;
+    }
+  }
+}
+
+.feature__wrapper-emoji {
+  background-color: #eee;
+  padding: 0 1em;
+  margin-bottom: 1em;
+  text-align: center;
+
+  .archive__item-title {
+    font-size: 3em;
+    margin-top: 0;
+  }
+
+  .feature__wrapper {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0;
+  }
+}
+
+.section-with-lines {
+  text-align: center;
+  padding-top: 1.25em;
+  padding-bottom: 0.5em;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+
+  figure { margin-top: 0; margin-bottom: 0; }
+}
+
+.section-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &::before, &::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background: #ccc;
+    position: relative;
+    top: -0.5em;
+  }
+  &::before { margin-right: 0.625em; }
+  &::after { margin-left: 0.625em; }
+}
+
+.section-title {
+  font-size: 0.6em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  background: #fff;
+  padding: 0 1em;
+  z-index: 2;
+  line-height: 1;
+}
+
+.editorial-link {
+  font-weight: normal;
+  text-transform: none;
+  font-size: 0.7em;
+  color: #aaa;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  margin-top: 0.2em;
+
+  &::before {
+    content: 'ⓘ';
+    margin-right: 5px;
+    font-size: 0.9em;
+  }
+}
+
+/* Squat mechanics (Models, Graph, Inputs) */
+fieldset .two-columns {
+  display: flex;
+  gap: 20px;
+  
+  .column { flex: 1; }
+  
+  .form-group {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    align-items: center;
+    gap: 10px;
+
+    label { text-align: left; white-space: nowrap; }
+    input { width: 100%; flex-grow: 1; justify-self: stretch; }
+    span { width: 4em; text-align: right; white-space: nowrap; justify-self: end; }
+    .help-block { grid-column: 1 / -1; font-size: 0.9em; color: #666; }
+  }
+}
+
+.models {
+  display: flex;
+  gap: 20px;
+}
+
+.model {
+  margin: 0 auto;
+  flex: 1;
+  width: 100%;
+  max-width: 600px;
+}
+
+.graph { width: 100%; }
+
+@media (max-width: 768px) {
+  fieldset .two-columns, .models {
+    flex-direction: column;
+  }
+}
+
+.mechanics-model { font-size: 0.7em; }
+fieldset fieldset { margin-top: 1em; }
+
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  .label-left, .label-right {
+    font-size: 0.9em;
+    white-space: nowrap;
+  }
+  .label-left { text-align: left; margin-right: 1em; }
+  .label-right { margin-left: 1em; text-align: right; }
+}
+
+.input-locked {
+  background-color: #f4f7cb !important;
+  color: #999;
+  &:focus { background-color: white; color: black; }
+}
+
+#anatomy_muscle {
+  position: relative;
+  width: 100%;
+
+  .anatomy-popup { display: none; }
+  .anatomy-popup-on {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #333;
+    padding: 0.5em 1em;
+    color: #fff;
+
+    p { font-size: 0.7em; margin: 0; text-align: center; }
+  }
+}
+
+/* Filter Table */
+.filter-table-input {
+  background-image: url('/assets/images/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.filter-table {
+  display: block;
+  table-layout: auto;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  overflow-x: auto;
+  max-width: 100%;
+
+  th, td {
+    text-align: left;
+    padding: 12px;
+    width: auto;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+  tr {
+    border-bottom: 1px solid #ddd;
+    &.header, &:hover { background-color: #f1f1f1; }
+  }
+}
+
+/* ==========================================================================
+   ARKIV, GALLERI & GRID
+   ========================================================================== */
+
+h2.archive__item-title {
+  font-size: 1.2em;
+}
+.archive__item-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+p.archive__item-title {
+  font-size: 0.9em !important;
+  margin-top: 0.3em !important;
+  padding-top: 0;
+}
+.archive__item-category {
+  margin-top: 0.6em !important;
+  margin-bottom: 0 !important;
+  color: #ccc;
+  font-size: 0.7em !important;
+  padding-bottom: 0;
+}
+
+.author__name, .nav__title { margin-bottom: 0; font-weight: 700; font-size: 1.125; }
+.page__share-title, .page__related-title, .page__meta-title { font-size: 1.0625em; font-weight: 700; }
+.greedy-nav { height: $nav-height; max-height: $nav-height; }
+
+#adBlock, .gsc-adBlock { display: none !important; }
+a[rel~=sponsored]:after { content: "*"; }
+.btn[rel~=sponsored] { @extend .btn--danger; }
+
+body.layout--single {
+  .feature__item--left, .feature__item--right {
+    h2.archive__item-title {
+      margin-top: 1em !important;
+      margin-bottom: 0em !important;
+      font-size: 0.9em !important;
+    }
+    .archive__item-excerpt p:first { margin-top: 0em !important; }
+  }
+}
+
+/* Grid view */
+.layout--single:not(.wide) .page__content .grid__item,
+.layout--activity:not(.wide) .page__content .grid__item {
+  @include breakpoint($medium) {
+    margin-left: 0; margin-right: 0;
+    width: span(4 of 12);
+
+    &:nth-child(3n + 1) { margin-left: 0; clear: both; }
+    &:nth-child(3n + 2), &:nth-child(3n + 3) { clear: none; margin-left: gutter(1 of 12); }
+  }
+}
+
+/* Gallery extra options */
+figure {
+  &.quarter {
+    >a, >img { @include breakpoint($small) { width: calc(25% - 0.5em); } }
+    figcaption { width: 100%; }
+  }
+  &.fifth {
+    >a, >img { @include breakpoint($small) { width: calc(20% - 0.5em); } }
+    figcaption { width: 100%; }
+    &.no-collapse {
+      >a, >img { width: calc(20% - 0.5em); }
+    }
+  }
+  &.sixth {
+    >a, >img { @include breakpoint($small) { width: calc(16.6% - 0.5em); } }
+    figcaption { width: 100%; }
+  }
+  &.seventh {
+    >a, >img { @include breakpoint($small) { width: calc(14.2% - 0.5em); } }
+    figcaption { width: 100%; }
+    &.no-collapse {
+      >a, >img { width: calc(14.2% - 0.5em); }
     }
   }
 }

@@ -1,32 +1,27 @@
-{% capture video_id %}{{ include.id }}{% endcapture %}
-{% capture video_provider %}{{ include.provider }}{% endcapture %}
+{% assign video_id = include.id %}
+{% assign video_provider = include.provider %}
 
-{% comment %} Courtesy of embedresponsively.com //{% endcomment %}
 <div class="responsive-video-container">
 {% if video_provider == "vimeo" %}
-  <iframe src="https://player.vimeo.com/video/{{ video_id }}?dnt=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen loading="lazy"></iframe>
+  <iframe src="https://player.vimeo.com/video/{{ video_id }}?dnt=true" allowfullscreen loading="lazy"></iframe>
+
 {% elsif video_provider == "youtube" %}
-  <div class="youtube-container" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+  <div class="youtube-container">
     <div class="youtube-player" data-id="{{ video_id }}">
-      <meta itemprop="name" content="{{ page.title }}" />
-      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/{{ video_id }}/default.jpg">
-      <meta itemprop="uploadDate" content="{{ page.date | date_to_xmlschema }}">
-      <meta itemprop="embedURL" content="https://www.youtube.com/embed/{{ video_id }}">
-      <meta itemprop="description" content="{{ page.excerpt  | markdownify | strip_html | strip_newlines | escape_once }}">
       <a href="https://www.youtube.com/watch?v={{ video_id }}" rel="nofollow noopener">
-        <img class="youtube-thumb" src="https://i.ytimg.com/vi/{{ video_id }}/hqdefault.jpg" loading="lazy" alt="video til {{ page.title }}">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/{{ video_id }}/hqdefault.jpg" loading="lazy" alt="Video: {{ include.title | default: page.title | escape }}">
         <span class="play-button"></span>
       </a>
     </div>
   </div>
-  {% comment %}
-    <iframe src="https://www.youtube-nocookie.com/embed/{{ video_id }}" frameborder="0" allowfullscreen loading="lazy"></iframe>
-  {% endcomment %}
+
 {% elsif video_provider == "google-drive" %}
-  <iframe src="https://drive.google.com/file/d/{{ video_id }}/preview" frameborder="0" allowfullscreen loading="lazy"></iframe>
+  <iframe src="https://drive.google.com/file/d/{{ video_id }}/preview" allowfullscreen loading="lazy"></iframe>
+
 {% elsif video_provider == "wistia-net" %}
-  <iframe src="https://fast.wistia.net/embed/iframe/{{ video_id }}?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" name="wistia_embed" allowfullscreen="true" loading="lazy"></iframe>
+  <iframe src="https://fast.wistia.net/embed/iframe/{{ video_id }}?videoFoam=true" name="wistia_embed" allowfullscreen loading="lazy"></iframe>
+
 {% elsif video_provider == "facebook" %}
-  <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/{{ video_id }}&show_text=0&width=600" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" loading="lazy"></iframe>
+  <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/{{ video_id }}&show_text=0&width=600" scrolling="no" allowfullscreen loading="lazy"></iframe>
 {% endif %}
 </div>

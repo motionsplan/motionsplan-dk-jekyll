@@ -52,6 +52,8 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
+        {% include motionsplan/rating.html %}
+
         <!-- Bundstak container til svære flashcards -->
 <!-- Bundstak container til svære flashcards -->
 <div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
@@ -64,11 +66,10 @@ layout: default
   <div class="mp-card-stack"></div>
 </div>
 
+
         {% assign author = page.author | default: page.authors[0] | default: site.author %}
         {% assign author = site.data.authors[author] | default: author %}
         {% include motionsplan/author.html author=author editorial_link="true" %}
-
-        {% include motionsplan/rating.html %}
 
         {% assign signup = page.signup | default: site.signup.enabled %}
         {% if signup %}{% include_cached motionsplan/signup.html %}{% endif %}

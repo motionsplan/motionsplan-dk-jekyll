@@ -390,18 +390,16 @@ defaults:
     values:
       layout: single
       breadcrumbs: true
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
       toc: true
-      toc_sticky: false
+      toc_sticky: true
       show_date: true
       mathjax: true
       author: lsolesen
-      sidebar:
-        nav: blog
       header:
         overlay_filter: 0.3
   # _exercises
@@ -417,7 +415,7 @@ defaults:
       author_profile: false
       read_time: false
       comments: true
-      share: true
+      share: false
       related: false
       author: lsolesen
       sidebar:
@@ -434,7 +432,7 @@ defaults:
       author_profile: false
       read_time: true
       comments: true
-      share: true
+      share: false
       related: false
       author: lsolesen
       sidebar:
@@ -449,7 +447,7 @@ defaults:
       author_profile: true
       read_time: false
       comments: true
-      share: true
+      share: false
       related: false
       author: lsolesen
       tag_archive_path: /programs/tags/
@@ -464,10 +462,10 @@ defaults:
       author_profile: false
       read_time: false
       comments: true
-      share: true
+      share: false
       related: false
       toc: true
-      toc_sticky: false
+      toc_sticky: true
       author: lsolesen
       tag_archive_path: /anatomi/tags/
       category_archive_path: /anatomi/categories/
@@ -484,7 +482,7 @@ defaults:
       layout: single
       author_profile: true
       comments: true
-      share: true
+      share: false
       related: true
       search: true
       header:

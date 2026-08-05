@@ -1,0 +1,33 @@
+---
+layout: null
+permalink: /redirects.csv
+---
+{%- assign newline = "
+" -%}
+source_url,target_url,status_code
+{%- assign domain = "https://www.motionsplan.dk" -%}
+{%- assign seen_urls = "|||" -%}
+
+{%- for doc in site.pages -%}
+  {%- if doc.redirect_from -%}
+    {%- for old_url in doc.redirect_from -%}
+      {%- assign check = old_url | append: "|||" -%}
+      {%- unless seen_urls contains check -%}
+        {%- assign seen_urls = seen_urls | append: check -%}
+        {{ newline }}{{ domain }}{{ old_url }},{{ domain }}{{ doc.url }},301
+      {%- endunless -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- for doc in site.documents -%}
+  {%- if doc.redirect_from -%}
+    {%- for old_url in doc.redirect_from -%}
+      {%- assign check = old_url | append: "|||" -%}
+      {%- unless seen_urls contains check -%}
+        {%- assign seen_urls = seen_urls | append: check -%}
+        {{ newline }}{{ domain }}{{ old_url }},{{ domain }}{{ doc.url }},301
+      {%- endunless -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}

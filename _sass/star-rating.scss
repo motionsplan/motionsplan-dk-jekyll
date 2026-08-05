@@ -1,50 +1,78 @@
-
-/* STAR RATING */
-
+/* 1. STAR RATING (Kompakt, 100% centreret & uden grå kasse) */
 aside#star-rating {
-    margin-top: 1em;
-    text-align: center;
-  
-    legend {
-      font-weight: bolder;
-      font-size: 1.2em;
-    }
-  
-    .rating {
-      display: flex;
-      flex-direction: row-reverse;
-      justify-content: center;
-    }
-  
-    .rating>input {
-      display: none;
-    }
-  
-    .rating>label {
-      position: relative;
-      width: 1.1em;
-      font-size: 2em;
-      color: #FFD700;
-      cursor: pointer;
-    }
-  
-    .rating>label::before {
-      content: "\2605";
-      position: absolute;
-      opacity: 0;
-    }
-  
-    .rating>label:hover:before,
-    .rating>label:hover~label:before {
-      opacity: 1 !important;
-    }
-  
-    .rating>input:checked~label:before {
-      opacity: 1;
-    }
-  
-    .rating:hover>input:checked~label:before {
-      opacity: 0.4;
-    }
+  margin: 2rem 0 1.5rem 0;
+  padding: 0.5rem 0;
+  text-align: center;
+  width: 100%;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  fieldset {
+    border: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    width: 100%;
   }
-  
+
+  legend {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 0.5rem auto;
+    padding: 0;
+    float: none; /* Fjerner tema-floats der skubbede teksten */
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 0.15em;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rating > input {
+    display: none;
+  }
+
+  .rating > label {
+    position: relative;
+    width: 1.1em;
+    font-size: 1.8em;
+    color: #FFD700;
+    cursor: pointer;
+    line-height: 1;
+  }
+
+  .rating > label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+  }
+
+  .rating > label:hover:before,
+  .rating > label:hover ~ label:before {
+    opacity: 1 !important;
+  }
+
+  .rating > input:checked ~ label:before {
+    opacity: 1;
+  }
+
+  .rating:hover > input:checked ~ label:before {
+    opacity: 0.4;
+  }
+
+  p, .rating-summary {
+    text-align: center;
+    width: 100%;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin: 0.4rem auto 0 auto;
+  }
+}
