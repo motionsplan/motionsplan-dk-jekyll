@@ -323,17 +323,68 @@ fieldset .two-columns .form-group .help-block {
 }
 
 
-/* Centrering af standard artikler uden højre sidebar */
-.layout--single-modern .page__inner-wrap {
-  max-width: 780px;
-  margin-left: auto;
-  margin-right: auto;
+/* Tvinger layout--single-modern til at være centreret med en behagelig læsebredde */
+.layout--single-modern {
+  #main {
+    max-width: 820px; /* Den gyldne bredde for artikel-læsning */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .page {
+    width: 100% !important;
+    float: none !important;
+    padding-right: 0 !important;
+  }
 }
 
-/* Hvis der er en højre sidebar (TOC), giver vi ekstra plads */
-.layout--single-modern:has(.sidebar__right) .page__inner-wrap {
-  max-width: 1100px;
+/* Styling af lead-billede og manchet */
+.page__lead-excerpt {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #495057;
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
+
+.page__lead-image img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 8px; /* Giver afrundede hjørner som på moderne magasiner */
+  margin: 1.5rem 0;
+}
+
+/* --- Optimal Læsebredde (Typografi) --- */
+
+/* Begræns linjelængde på afsnit, lister og manchet */
+.page__lead-excerpt,
+.page__content p,
+.page__content ul,
+.page__content ol,
+.page__content blockquote {
+  max-width: 68ch;   /* Den gyldne grænse for læsekomfort (~65-70 tegn) */
+  line-height: 1.65; /* Giver teksten lidt mere luft at ånde i */
+}
+
+/* Gør det samme for underoverskrifterne, så de flugter med teksten */
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  max-width: 68ch;
+}
+
+/* Billeder, beregnere og tabeller må til gengæld gerne udnytte den fulde bredde */
+.page__content img,
+.page__content .table-wrapper,
+.page__lead-image img {
+  max-width: 100%;
+} 
+
+
 
 /* Manchet / Excerpt styling */
 .page__lead-excerpt {
@@ -1381,4 +1432,91 @@ form.newsletter {
 .filter-table tr:hover {
   /* Add a grey background color to the table header and on hover */
   background-color: #f1f1f1;
+}
+
+
+
+
+/* ==========================================================================
+   STIKSIKKERT SINGLE-MODERN LAYOUT (Centreret + Flot TOC & Breadcrumb)
+   ========================================================================== */
+
+.layout--single-modern {
+
+  /* 1. Hovedfeltet centreres på skærmen */
+  #main {
+    max-width: 1080px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+    padding: 1.5rem;
+  }
+
+  .page {
+    width: 100% !important;
+    float: none !important;
+    padding-right: 0 !important;
+  }
+
+  /* 2. Breadcrumbs flugter altid perfekt i venstre side */
+  .breadcrumbs {
+    margin-bottom: 1.2rem;
+    padding: 0;
+    float: none !important;
+    width: 100% !important;
+  }
+
+  /* 3. Header og manchet holdes til læsebredde */
+  .page__header-standard {
+    max-width: 720px;
+    margin-bottom: 2rem;
+  }
+
+  /* 4. Flexbox-opdeling: Tekst i midten/venstre, TOC til højre */
+  .page__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+
+  /* Læseområdet: Låst til behagelig tekstbredde (~68-70 tegn) */
+  .page__content {
+    flex: 1;
+    max-width: 720px;
+    min-width: 0;
+
+    img, iframe, .table-wrapper {
+      max-width: 100%;
+    }
+  }
+
+  /* Højre sidebar / TOC */
+  .sidebar__right {
+    width: 250px !important;
+    flex-shrink: 0;
+    float: none !important;
+    margin: 0 !important;
+    position: sticky;
+    top: 2rem;
+  }
+
+  /* 5. Mobil-responsive: TOC flytter sig/collapser og teksten fylder bredden */
+  @media (max-width: 899px) {
+    .page__content-wrapper {
+      flex-direction: column-reverse; /* TOC øverst hvis synlig, ellers teksten først */
+    }
+
+    .sidebar__right {
+      width: 100% !important;
+      position: relative;
+      top: 0;
+      margin-bottom: 1.5rem !important;
+    }
+
+    .page__header-standard,
+    .page__content {
+      max-width: 100%;
+    }
+  }
 }

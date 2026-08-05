@@ -1,5 +1,5 @@
 ---
-layout: single-new
+layout: single
 classes: wide
 title: Hvad er en normal fedtprocent? (Skema & Tabel for mænd og kvinder)
 seo_title: Normal fedtprocent kvinder og mænd – Se skema og tabeller
@@ -7,6 +7,7 @@ description: Hvad er en sund og normal fedtprocent for kvinder og mænd? Se vore
 permalink: /fedtprocent-normer/
 language: da
 header:
+  image_inline: /assets/images/unsplash/photo-1548705085-101177834f47.jpg
   teaser: /assets/images/unsplash/photo-1548705085-101177834f47.jpg
   credit: https://images.unsplash.com/photo-1548705085-101177834f47
 category:

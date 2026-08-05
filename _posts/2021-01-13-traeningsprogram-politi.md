@@ -40,7 +40,7 @@ Jeg har også lavet en video til eleverne på Vejle Idrætshøjskoles politilinj
 
 Tjek videoen nedenunder for at få et konkret forslag til, hvordan du kan træne til politiets optagelsesprøve derhjemme, inden du kaster dig ud i træningsprogrammet.
 
-{% include video provider="youtube" id="ewZ76WPuWaM" ezoic="ezoic-pub-video-placeholder-3" %}
+{% include video provider="youtube" id="ewZ76WPuWaM" %}
 
 ## Sådan kan du starte din træning
 

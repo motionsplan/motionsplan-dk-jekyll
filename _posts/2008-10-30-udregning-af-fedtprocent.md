@@ -1,5 +1,5 @@
 ---
-layout: single-new
+layout: single
 title: 'Beregn din fedtprocent: Udregning med alder, højde og vægt'
 seo_title: 'Fedtprocent beregner: Beregn fra alder, højde og vægt'
 permalink: /artikel/udregning-af-fedtprocent/

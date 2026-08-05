@@ -41,7 +41,7 @@ Motionsplan.dk ejes og drives af **Lars Olesen**, som har det overordnede faglig
   {% endif %}
 {% endfor %}
 
-Derudover bidrager et stærkt hold af fagfolk, herunder cand.scient.'er og ph.d.'er, til det redaktionelle indhold for at sikre den højeste faglige standard.
+Derudover bidrager et stærkt hold af fagfolk, herunder cand.scient.'er og ph.d.'er, til det redaktionelle indhold for at sikre den højeste faglige standard, så siden fx kan fungere som [pensum for idræt B og C i gymnasiet](/gymnasieidraet/) eller i din [undervisning](/undervisning/).
 
 ## Vores redaktionelle proces
 

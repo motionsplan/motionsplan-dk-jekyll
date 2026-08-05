@@ -3,8 +3,28 @@
 
 <meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
 
-{% if page.sitemap == false or page.robots %}
-  <meta name="robots" content="{{ page.robots | default: "noindex" }}">
+{% comment %} Bestem om siden skal have noindex {% endcomment %}
+{% assign robots_tag = nil %}
+
+{% comment %} 1. Manuel overstyring via Front Matter (fx "noindex" eller specialregler) {% endcomment %}
+{% if page.robots %}
+  {% assign robots_tag = page.robots %}
+
+{% comment %} 2. Eksplicit skjult fra sitemap {% endcomment %}
+{% elsif page.sitemap == false %}
+  {% assign robots_tag = "noindex, follow" %}
+
+{% comment %} 3. Tjek ordantal på alt undtagen beregnere og forsiden {% endcomment %}
+{% elsif page.layout != 'calculator' and page.layout != 'frontpage' and page.url != '/' %}
+  {% assign word_count = page.content | number_of_words %}
+  {% if word_count < 100 %}
+    {% assign robots_tag = "noindex, follow" %}
+  {% endif %}
+{% endif %}
+
+{% comment %} Udskriv KUN et tag, hvis der er en noindex-regel {% endcomment %}
+{% if robots_tag %}
+  <meta name="robots" content="{{ robots_tag }}">
 {% endif %}
 
 <script>
