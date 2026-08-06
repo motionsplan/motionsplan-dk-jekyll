@@ -1,0 +1,556 @@
+<div class="slj-biomech-widget">
+  
+  <!-- Info Modal -->
+  <div class="slj-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Linthornes Biomekaniske Model</h4>
+        <span class="modal-subtitle-text">Brunel University Study (Standing Long Jump)</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>MODELBEREGNING ($d_{\text{jump}} = d_{\text{takeoff}} + d_{\text{flight}} + d_{\text{landing}}$):</strong><br>
+        • <strong>$d_{\text{takeoff}}$:</strong> Tyngdepunktets position foran startlinjen i afsætsøjeblikket.<br>
+        • <strong>$d_{\text{flight}}$:</strong> Tyngdepunktets parabelbane i luften baseret på afsætshastighed ($v$), vinkel ($\theta$) og højdeforskel ($\Delta h = h_{\text{takeoff}} - h_{\text{landing}}$).<br>
+        • <strong>$d_{\text{landing}}$:</strong> Hvor langt foran tyngdepunktet hælene rammer jorden ved nedslag.<br>
+        • <strong>Fysiologisk kobling:</strong> Når denne er slået til, falder den maksimale afsætshastighed $v$ ved højere vinkler ($\theta$), da benmusklerne skal bruges på at løfte kropsvægten mod tyngdekraften.
+      </p>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="slj-topbar">
+    <div class="slj-header-card">
+      <div class="card-title-row">
+        <span class="card-title">Biomekanisk Længdesprings-Simulator</span>
+        <button class="info-icon-btn" type="button" title="Læs om modellen">ℹ️</button>
+      </div>
+      <div class="card-desc">Visuel model baseret på Dr. Nicholas Linthornes forskning fra Brunel University.</div>
+    </div>
+  </div>
+
+  <!-- SIMULATOR CANVAS MED PRÆCISE FIGURER -->
+  <div class="slj-canvas-card">
+    <div class="canvas-header">
+      <span>📐 Linthornes Biomekaniske Figur ($d_{\text{jump}}$)</span>
+      <span class="total-jump-badge" id="display-total-jump">2.35 m</span>
+    </div>
+    <div class="canvas-container">
+      <canvas id="slj-canvas" width="640" height="320"></canvas>
+    </div>
+  </div>
+
+  <!-- DE 3 LÆNGDE-KOMPONENTER -->
+  <div class="slj-components-grid">
+    <div class="comp-box takeoff-box">
+      <span class="comp-val" id="val-d-takeoff">0.70 m</span>
+      <span class="comp-label">1. $d_{\text{takeoff}}$ (Afsætsposition)</span>
+    </div>
+    <div class="comp-box flight-box">
+      <span class="comp-val" id="val-d-flight">1.40 m</span>
+      <span class="comp-label">2. $d_{\text{flight}}$ (Svæveafstand)</span>
+    </div>
+    <div class="comp-box landing-box">
+      <span class="comp-val" id="val-d-landing">0.25 m</span>
+      <span class="comp-label">3. $d_{\text{landing}}$ (Landingsrækkevidde)</span>
+    </div>
+  </div>
+
+  <!-- KONTROLPANEL & SLIDERS -->
+  <div class="slj-controls-card">
+    <div class="control-row">
+      <div class="control-group">
+        <label for="slider-angle">Afsætsvinkel ($\theta$): <strong id="lbl-angle">32°</strong></label>
+        <input type="range" id="slider-angle" min="15" max="75" step="1" value="32">
+      </div>
+      <div class="control-group">
+        <label for="slider-speed">Basishastighed ($v_{\text{max}}$): <strong id="lbl-speed">3.50 m/s</strong></label>
+        <input type="range" id="slider-speed" min="2.5" max="4.5" step="0.05" value="3.50">
+      </div>
+    </div>
+
+    <div class="control-row">
+      <div class="control-group">
+        <label for="slider-dtakeoff">Afsætsposition ($d_{\text{takeoff}}$): <strong id="lbl-dtakeoff">0.70 m</strong></label>
+        <input type="range" id="slider-dtakeoff" min="0.30" max="0.90" step="0.02" value="0.70">
+      </div>
+      <div class="control-group">
+        <label for="slider-dlanding">Landingsrækkevidde ($d_{\text{landing}}$): <strong id="lbl-dlanding">0.25 m</strong></label>
+        <input type="range" id="slider-dlanding" min="0.05" max="0.50" step="0.02" value="0.25">
+      </div>
+    </div>
+
+    <div class="toggle-row">
+      <label class="toggle-switch">
+        <input type="checkbox" id="check-physio" checked>
+        <span class="slider-round"></span>
+      </label>
+      <span class="toggle-label"><strong>Aktivér Menneskelig Fysiologi:</strong> Afsætshastighed falder ved højere vinkler (forklarer hvorfor ~32° vinder over 45°)</span>
+    </div>
+  </div>
+
+  <!-- TRÆNERENS OPTIMERINGS-GUIDE -->
+  <div class="slj-tips-card">
+    <h5 class="tips-title">🚀 Tjekliste: Sådan får du et længere spring</h5>
+    <div class="tips-grid">
+      <div class="tip-item">
+        <span class="tip-icon">🎯</span>
+        <div class="tip-content">
+          <strong>Sigt efter ~30°–35° afsæt:</strong>
+          <span>Hop ikke for højt op i luften! En mere flad vinkel lader benmusklerne skabe langt højere fart fremad.</span>
+        </div>
+      </div>
+      <div class="tip-item">
+        <span class="tip-icon">📐</span>
+        <div class="tip-content">
+          <strong>Læn kroppen frem ($d_{\text{takeoff}}$):</strong>
+          <span>Få kroppens tyngdepunkt så langt ud over startlinjen som muligt i det øjeblik, tæerne slipper jorden.</span>
+        </div>
+      </div>
+      <div class="tip-item">
+        <span class="tip-icon">🦵</span>
+        <div class="tip-content">
+          <strong>Maksimér landingsrækkevidden ($d_{\text{landing}}$):</strong>
+          <span>Stræk hælene langt frem i landingen og sænk tyngdepunktet ($h_{\text{landing}}$) uden at falde bagover.</span>
+        </div>
+      </div>
+      <div class="tip-item">
+        <span class="tip-icon">🙌</span>
+        <div class="tip-content">
+          <strong>Aktivt Armtræk:</strong>
+          <span>Et kraftigt armtræk frem og opad øger afsætshastigheden $v$ med op til 10–15%.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.slj-biomech-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 18px;
+  max-width: 680px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.slj-biomech-widget * { box-sizing: border-box; }
+
+.slj-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; text-align: left; }
+.slj-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.35; }
+
+/* Modal */
+.slj-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Canvas Card */
+.slj-canvas-card { background: #f8f9fa; border: 1.5px solid #dee2e6; border-radius: 12px; padding: 10px; margin-bottom: 12px; text-align: left; }
+.canvas-header { display: flex; justify-content: space-between; align-items: center; font-size: 0.82rem; font-weight: 800; color: #343a40; margin-bottom: 6px; }
+.total-jump-badge { background: #2b8a3e; color: #ffffff; padding: 3px 10px; border-radius: 12px; font-size: 0.95rem; font-weight: 900; }
+.canvas-container { background: #ffffff; border: 1px solid #ced4da; border-radius: 8px; width: 100%; overflow: hidden; }
+
+/* Component Boxes */
+.slj-components-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
+.comp-box { background: #f1f3f5; border: 1px solid #dee2e6; border-radius: 10px; padding: 8px 4px; display: flex; flex-direction: column; align-items: center; }
+.comp-val { font-size: 1.1rem; font-weight: 900; color: #212529; }
+.comp-label { font-size: 0.62rem; font-weight: 800; color: #495057; margin-top: 2px; }
+.takeoff-box { border-color: #74c0fc; background: #e7f5ff; }
+.flight-box { border-color: #63e6be; background: #e6fcf5; }
+.landing-box { border-color: #ff8787; background: #fff5f5; }
+
+/* Controls */
+.slj-controls-card { background: #ffffff; border: 1.5px solid #dee2e6; border-radius: 12px; padding: 12px; margin-bottom: 12px; text-align: left; }
+.control-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 10px; }
+@media (max-width: 520px) { .control-row { grid-template-columns: 1fr; } }
+
+.control-group { display: flex; flex-direction: column; gap: 3px; }
+.control-group label { font-size: 0.75rem; font-weight: 800; color: #343a40; }
+.control-group input[type=range] { width: 100%; accent-color: #228be6; cursor: pointer; }
+
+/* Toggle */
+.toggle-row { display: flex; align-items: center; gap: 10px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 8px 10px; }
+.toggle-switch { position: relative; display: inline-block; width: 38px; height: 22px; flex-shrink: 0; }
+.toggle-switch input { opacity: 0; width: 0; height: 0; }
+.slider-round { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ced4da; transition: .2s; border-radius: 22px; }
+.slider-round:before { position: absolute; content: ""; height: 16px; width: 16px; left: 3px; bottom: 3px; background-color: white; transition: .2s; border-radius: 50%; }
+input:checked + .slider-round { background-color: #228be6; }
+input:checked + .slider-round:before { transform: translateX(16px); }
+.toggle-label { font-size: 0.72rem; color: #495057; line-height: 1.3; }
+
+/* Tips Section */
+.slj-tips-card { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 12px; text-align: left; }
+.tips-title { font-size: 0.82rem; font-weight: 800; color: #212529; margin: 0 0 8px 0; }
+.tips-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+@media (max-width: 520px) { .tips-grid { grid-template-columns: 1fr; } }
+
+.tip-item { display: flex; gap: 8px; background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 8px; }
+.tip-icon { font-size: 1.1rem; flex-shrink: 0; }
+.tip-content { display: flex; flex-direction: column; font-size: 0.70rem; color: #495057; line-height: 1.3; }
+.tip-content strong { color: #212529; font-weight: 800; margin-bottom: 2px; }
+</style>
+
+<script>
+(function() {
+  function initSLJWidget() {
+    const widget = document.querySelector(".slj-biomech-widget");
+    if (!widget) return;
+
+    const canvas = widget.querySelector("#slj-canvas");
+    const ctx = canvas.getContext("2d");
+
+    const sliderAngle = widget.querySelector("#slider-angle");
+    const sliderSpeed = widget.querySelector("#slider-speed");
+    const sliderDTakeoff = widget.querySelector("#slider-dtakeoff");
+    const sliderDLanding = widget.querySelector("#slider-dlanding");
+    const checkPhysio = widget.querySelector("#check-physio");
+
+    const lblAngle = widget.querySelector("#lbl-angle");
+    const lblSpeed = widget.querySelector("#lbl-speed");
+    const lblDTakeoff = widget.querySelector("#lbl-dtakeoff");
+    const lblDLanding = widget.querySelector("#lbl-dlanding");
+
+    const valDTakeoff = widget.querySelector("#val-d-takeoff");
+    const valDFlight = widget.querySelector("#val-d-flight");
+    const valDLanding = widget.querySelector("#val-d-landing");
+    const displayTotalJump = widget.querySelector("#display-total-jump");
+
+    const infoModal = widget.querySelector(".slj-info-modal");
+    const infoIconBtn = widget.querySelector(".info-icon-btn");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+    function calculateJump() {
+      const thetaDeg = parseFloat(sliderAngle.value);
+      const thetaRad = thetaDeg * (Math.PI / 180);
+      const baseSpeed = parseFloat(sliderSpeed.value);
+      const dTakeoff = parseFloat(sliderDTakeoff.value);
+      const dLanding = parseFloat(sliderDLanding.value);
+      const usePhysio = checkPhysio.checked;
+
+      // Fysiologisk model ud fra Linthorne (2001, 2005)
+      let v = baseSpeed;
+      if (usePhysio) {
+        const dropFactor = 0.0038 * (thetaDeg - 20);
+        v = Math.max(1.5, baseSpeed * (1 - dropFactor));
+      }
+
+      lblAngle.textContent = `${thetaDeg}°`;
+      lblSpeed.textContent = `${v.toFixed(2)} m/s ${usePhysio ? '(Fysiologisk)' : ''}`;
+      lblDTakeoff.textContent = `${dTakeoff.toFixed(2)} m`;
+      lblDLanding.textContent = `${dLanding.toFixed(2)} m`;
+
+      const hTakeoff = 1.05; // Tyngdepunkts-højde ved afsæt (m)
+      const hLanding = 0.65; // Tyngdepunkts-højde ved landing (m)
+      const deltaH = hTakeoff - hLanding; 
+      const g = 9.81;
+
+      const vx = v * Math.cos(thetaRad);
+      const vy = v * Math.sin(thetaRad);
+
+      const term = Math.sqrt(vy * vy + 2 * g * deltaH);
+      const tFlight = (vy + term) / g;
+      const dFlight = vx * tFlight;
+
+      const dTotal = dTakeoff + dFlight + dLanding;
+
+      valDTakeoff.textContent = `${dTakeoff.toFixed(2)} m`;
+      valDFlight.textContent = `${dFlight.toFixed(2)} m`;
+      valDLanding.textContent = `${dLanding.toFixed(2)} m`;
+      displayTotalJump.textContent = `${dTotal.toFixed(2)} m`;
+
+      drawLinthorneDiagram(dTakeoff, dFlight, dLanding, dTotal, vx, vy, g, hTakeoff, hLanding, tFlight, thetaDeg);
+    }
+
+    function drawLinthorneDiagram(dTakeoff, dFlight, dLanding, dTotal, vx, vy, g, hTakeoff, hLanding, tFlight, thetaDeg) {
+      const W = canvas.width;
+      const H = canvas.height;
+      ctx.clearRect(0, 0, W, H);
+
+      // Dynamisk skala med rigelig plads i toppen og siderne
+      const maxMeters = Math.max(dTotal + 0.6, 2.8);
+      const scaleX = (W - 100) / maxMeters;
+      const scaleY = 85; // Pixels pr. meter i højden (Sikrer at hoveder aldrig rammer toppen)
+
+      const groundY = H - 60;
+      const startX = 50; // 0m linje
+
+      // 1. GULV / JORD
+      ctx.beginPath();
+      ctx.moveTo(10, groundY);
+      ctx.lineTo(W - 10, groundY);
+      ctx.strokeStyle = "#212529";
+      ctx.lineWidth = 2.5;
+      ctx.stroke();
+
+      // Startlinje
+      ctx.beginPath();
+      ctx.moveTo(startX, groundY);
+      ctx.lineTo(startX, groundY - 15);
+      ctx.strokeStyle = "#212529";
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      // Nøglepunkter for tyngdepunkter og fødder
+      const xTakeoffCoM = startX + dTakeoff * scaleX;
+      const yTakeoffCoM = groundY - (hTakeoff * scaleY);
+
+      const xLandingCoM = xTakeoffCoM + dFlight * scaleX;
+      const yLandingCoM = groundY - (hLanding * scaleY);
+
+      const xFinalFeet = xLandingCoM + dLanding * scaleX;
+
+      // 2. PARABEL BANE (d_flight)
+      ctx.beginPath();
+      ctx.moveTo(xTakeoffCoM, yTakeoffCoM);
+
+      const steps = 50;
+      for (let i = 0; i <= steps; i++) {
+        const t = (i / steps) * tFlight;
+        const curX = xTakeoffCoM + (vx * t) * scaleX;
+        const curH = hTakeoff + (vy * t) - (0.5 * g * t * t);
+        const curY = groundY - (curH * scaleY);
+        ctx.lineTo(curX, curY);
+      }
+      ctx.strokeStyle = "#495057";
+      ctx.lineWidth = 1.5;
+      ctx.setLineDash([]);
+      ctx.stroke();
+
+      // 3. TEGN PRÆCISE AFSÆTS- OG LANDINGSFIGURER (Tro mod Linthorne 1:1)
+      drawExactTakeoffStickman(ctx, startX, groundY, xTakeoffCoM, yTakeoffCoM);
+      drawExactLandingStickman(ctx, xLandingCoM, yLandingCoM, xFinalFeet, groundY);
+
+      // 4. RØDE TYNGDEPUNKTSPRIKKER (CoM)
+      ctx.beginPath();
+      ctx.arc(xTakeoffCoM, yTakeoffCoM, 5.5, 0, 2 * Math.PI);
+      ctx.fillStyle = "#e03131";
+      ctx.fill();
+
+      ctx.beginPath();
+      ctx.arc(xLandingCoM, yLandingCoM, 5.5, 0, 2 * Math.PI);
+      ctx.fillStyle = "#e03131";
+      ctx.fill();
+
+      // 5. HASTIGHEDSVEKTOR (v) OG VINKEL (theta)
+      const arrowLen = 30;
+      const rad = thetaDeg * (Math.PI / 180);
+      const vecX = xTakeoffCoM + arrowLen * Math.cos(rad);
+      const vecY = yTakeoffCoM - arrowLen * Math.sin(rad);
+
+      ctx.beginPath();
+      ctx.moveTo(xTakeoffCoM, yTakeoffCoM);
+      ctx.lineTo(vecX, vecY);
+      ctx.strokeStyle = "#212529";
+      ctx.lineWidth = 1.8;
+      ctx.stroke();
+
+      // Pilspids
+      const headLen = 6;
+      ctx.beginPath();
+      ctx.moveTo(vecX, vecY);
+      ctx.lineTo(vecX - headLen * Math.cos(rad - 0.4), vecY + headLen * Math.sin(rad - 0.4));
+      ctx.lineTo(vecX - headLen * Math.cos(rad + 0.4), vecY + headLen * Math.sin(rad + 0.4));
+      ctx.fillStyle = "#212529";
+      ctx.fill();
+
+      // Vinkelbue & tekst
+      ctx.beginPath();
+      ctx.arc(xTakeoffCoM, yTakeoffCoM, 16, 0, -rad, true);
+      ctx.strokeStyle = "#495057";
+      ctx.lineWidth = 1;
+      ctx.stroke();
+
+      ctx.fillStyle = "#212529";
+      ctx.font = "italic 11px Georgia, serif";
+      ctx.fillText("v", vecX + 4, vecY - 2);
+      ctx.fillText("θ", xTakeoffCoM + 20, yTakeoffCoM - 4);
+
+      // 6. HØJDE-INDIKATIONER (h_takeoff & h_landing)
+      drawVerticalDim(ctx, xTakeoffCoM - 20, groundY, yTakeoffCoM, "h_takeoff");
+      drawVerticalDim(ctx, xLandingCoM - 18, groundY, yLandingCoM, "h_landing");
+
+      // 7. HORISONTALE DIMENSIONSPIL OG LABELS
+      const dimY1 = groundY + 18;
+      const dimY2 = groundY + 38;
+
+      drawHorizontalDim(ctx, startX, xTakeoffCoM, dimY1, "d_takeoff");
+      drawHorizontalDim(ctx, xTakeoffCoM, xLandingCoM, dimY1, "d_flight");
+      drawHorizontalDim(ctx, xLandingCoM, xFinalFeet, dimY1, "d_landing");
+
+      drawHorizontalDim(ctx, startX, xFinalFeet, dimY2, `d_jump = ${(dTotal).toFixed(2)}m`);
+    }
+
+    // AFSÆTSFIGUR (Venstre) - Præcis gengivelse af Linthornes original
+    function drawExactTakeoffStickman(ctx, footX, footY, comX, comY) {
+      ctx.strokeStyle = "#212529";
+      ctx.lineWidth = 2.0;
+      ctx.lineCap = "round";
+
+      // Fod
+      const ax = footX + 2;
+      const ay = footY - 2;
+
+      // Knæ (bøjet fremad/opad)
+      const kx = footX + (comX - footX) * 0.45;
+      const ky = footY - 32;
+
+      // Hofte / Torso
+      const hx = comX - 4;
+      const hy = comY + 6;
+
+      const sx = comX + 18;
+      const sy = comY - 28;
+
+      // Hoved
+      const headX = comX + 8;
+      const headY = sy - 14;
+
+      // Arme (bøjet frem/op)
+      const elbowX = sx + 12;
+      const elbowY = sy - 10;
+      const handX = elbowX + 12;
+      const handY = elbowY - 20;
+
+      // Tegn Ben
+      ctx.beginPath();
+      ctx.moveTo(ax, ay);
+      ctx.lineTo(kx, ky);
+      ctx.lineTo(hx, hy);
+      ctx.stroke();
+
+      // Tegn Torso
+      ctx.beginPath();
+      ctx.moveTo(hx, hy);
+      ctx.lineTo(sx, sy);
+      ctx.stroke();
+
+      // Tegn Arme
+      ctx.beginPath();
+      ctx.moveTo(sx, sy);
+      ctx.lineTo(elbowX, elbowY);
+      ctx.lineTo(handX, handY);
+      ctx.stroke();
+
+      // Tegn Hoved
+      ctx.beginPath();
+      ctx.arc(headX, headY, 9, 0, 2 * Math.PI);
+      ctx.stroke();
+    }
+
+    // LANDINGSFIGUR (Højre) - Præcis gengivelse af Linthornes original
+    function drawExactLandingStickman(ctx, comX, comY, feetX, feetY) {
+      ctx.strokeStyle = "#212529";
+      ctx.lineWidth = 2.0;
+      ctx.lineCap = "round";
+
+      // Fødder / Hæl v. landing
+      const ax = feetX - 3;
+      const ay = feetY - 2;
+
+      // Knæ (stærkt bøjet op/fremad)
+      const kx = comX + 22;
+      const ky = comY + 12;
+
+      // Hofte
+      const hx = comX - 8;
+      const hy = comY + 4;
+
+      // Skulder
+      const sx = comX + 10;
+      const sy = comY - 20;
+
+      // Hoved
+      const headX = sx + 8;
+      const headY = sy - 12;
+
+      // Arme (rækker frem over knæene)
+      const handX = sx + 22;
+      const handY = sy + 12;
+
+      // Tegn Ben (fra Ankel -> Knæ -> Hofte)
+      ctx.beginPath();
+      ctx.moveTo(ax, ay);
+      ctx.lineTo(kx, ky);
+      ctx.lineTo(hx, hy);
+      ctx.stroke();
+
+      // Tegn Torso
+      ctx.beginPath();
+      ctx.moveTo(hx, hy);
+      ctx.lineTo(sx, sy);
+      ctx.stroke();
+
+      // Tegn Arme
+      ctx.beginPath();
+      ctx.moveTo(sx, sy);
+      ctx.lineTo(handX, handY);
+      ctx.stroke();
+
+      // Tegn Hoved
+      ctx.beginPath();
+      ctx.arc(headX, headY, 9, 0, 2 * Math.PI);
+      ctx.stroke();
+    }
+
+    function drawHorizontalDim(ctx, x1, x2, y, label) {
+      if (Math.abs(x2 - x1) < 8) return;
+      ctx.strokeStyle = "#212529";
+      ctx.lineWidth = 1;
+
+      ctx.beginPath();
+      ctx.moveTo(x1, y);
+      ctx.lineTo(x2, y);
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(x1, y - 4); ctx.lineTo(x1, y + 4);
+      ctx.moveTo(x2, y - 4); ctx.lineTo(x2, y + 4);
+      ctx.stroke();
+
+      ctx.fillStyle = "#212529";
+      ctx.font = "italic 10px Georgia, serif";
+      ctx.textAlign = "center";
+      ctx.fillText(label, (x1 + x2) / 2, y - 3);
+    }
+
+    function drawVerticalDim(ctx, x, y1, y2, label) {
+      ctx.strokeStyle = "#868e96";
+      ctx.lineWidth = 0.8;
+
+      ctx.beginPath();
+      ctx.moveTo(x, y1);
+      ctx.lineTo(x, y2);
+      ctx.setLineDash([2, 2]);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      ctx.fillStyle = "#495057";
+      ctx.font = "italic 9px Georgia, serif";
+      ctx.textAlign = "right";
+      ctx.fillText(label, x - 3, (y1 + y2) / 2 + 3);
+    }
+
+    [sliderAngle, sliderSpeed, sliderDTakeoff, sliderDLanding, checkPhysio].forEach(elem => {
+      elem.addEventListener("input", calculateJump);
+    });
+
+    if (infoIconBtn) infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+    if (modalCloseBtn) modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+    calculateJump();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initSLJWidget);
+  } else {
+    initSLJWidget();
+  }
+})();
+</script>

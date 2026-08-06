@@ -75,3 +75,7 @@ Hvis du vælger den første metode, hvor du fordeler træningen over hele dagen,
 Er der nogen, der har set noget videnskabeligt belæg for _grease the groove_ eller selv har erfaring med at træne op til at kunne tage en armstrækning eller mange armstrækninger?
 
 Jeg har skrevet en grundlæggende artikel om, hvad [armbøjninger og armstrækninger er?](/armbojninger-eller-armstraekninger-pushups/).
+
+{: .notice .notice--info }
+> 🏆 **Når du har lært øvelsen: Test din overkropsstyrke**  
+> Når du har fået styr på teknikken og kan tage dine første armstrækninger på tæerne eller knæene, kan du [teste din overkropsstyrke i vores armstrækningstest](/armstraekninger-test/) og se, hvordan dit resultat placerer sig i forhold til din alder og dit køn.

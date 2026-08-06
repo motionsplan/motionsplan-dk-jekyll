@@ -41,10 +41,6 @@ Det er her, begrebet **CdA** (*Drag Area*) bliver den mest afgørende faktor for
 
 Med denne beregner kan du estimere din CdA-værdi ud fra din målte effekt (watt), hastighed, samlede vægt og ydre miljøfaktorer som luftdensitet og rullemodstand.
 
-{: .notice .notice--info }
-* **Vil du beregne dit watt/kg-forhold på stigninger?** Se vores **[FTP og watt/kg beregner](/watt-forhold-beregner/)**.
-* **Vil du kende din teoretiske maksimale iltoptagelse?** Prøv vores **[VO2-max beregner for cykling](/vo2max-cykling/)**.
-
 ---
 
 ## CdA beregner

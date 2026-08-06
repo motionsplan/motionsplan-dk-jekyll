@@ -1,0 +1,606 @@
+<div class="bronco-widget">
+  
+  <!-- Info Modal med Protokol og Normer -->
+  <div class="bronco-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Bronco Testen</h4>
+        <span class="modal-subtitle-text">Rugby Renegade & All Blacks Konditionstest</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>TESTENS PROTOKOL:</strong><br>
+        1. Opstil kegler ved <strong>0m (Start/Mål)</strong>, <strong>20m</strong>, <strong>40m</strong> og <strong>60m</strong>.<br>
+        2. Et uafbrudt sæt består af: 0m➔20m➔0m, 0m➔40m➔0m, 0m➔60m➔0m ($240\text{m}$).<br>
+        3. Testen består af <strong>5 uafbrudte sæt</strong> ($1.200\text{m}$ samlet distance).<br>
+        4. Start timeren for alle løbere. Tryk <strong>LAP / LØBER I MÅL</strong> hver gang en atlet gennemfører sine $1.200\text{m}$ (eller tryk STOP).
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Rugby Renegade Benchmarks</h5>
+      <table style="width:100%; font-size:0.80rem; border-collapse:collapse; text-align:center;">
+        <thead>
+          <tr style="background:#f1f3f5; font-weight:bold;">
+            <th style="padding:6px; text-align:left;">Niveau / Kategori</th>
+            <th style="padding:6px;">Måltid</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="text-align:left;"><strong>Verdensklasse (Barrett/SVNS)</strong></td><td>&lt; 4:15 min</td></tr>
+          <tr><td style="text-align:left;"><strong>Elite Backs</strong></td><td>Sub 4:30 min</td></tr>
+          <tr><td style="text-align:left;"><strong>Elite Forwards</strong></td><td>4:45 – 5:15 min</td></tr>
+          <tr><td style="text-align:left;"><strong>Klubspiller (Backs)</strong></td><td>4:45 – 5:15 min</td></tr>
+          <tr><td style="text-align:left;"><strong>Klubspiller (Forwards)</strong></td><td>5:15 – 5:45 min</td></tr>
+          <tr><td style="text-align:left;"><strong>Motionist</strong></td><td>5:45+ min</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="bronco-topbar">
+    <div class="bronco-header-card">
+      <div class="card-title-row">
+        <span class="card-title">The Bronco Test (1.200m Shuttle)</span>
+        <button class="info-icon-btn" type="button" title="Læs om regler og normer">ℹ️</button>
+      </div>
+      <div class="card-desc">5 x (20m-40m-60m shuttles). Start fællestidtagning og registrer løbere efterhånden som de passerer mål.</div>
+    </div>
+
+    <div class="topbar-subrow">
+      <div class="category-selectors">
+        <label for="select-norm-cat" class="cat-label">Norm-kategori:</label>
+        <select id="select-norm-cat" class="cat-select" title="Vælg position/niveau til evaluering">
+          <option value="elite_backs">Elite Backs (<4:30)</option>
+          <option value="elite_forwards">Elite Forwards (4:45-5:15)</option>
+          <option value="club_backs">Klub Backs (4:45-5:15)</option>
+          <option value="club_forwards">Klub Forwards (5:15-5:45)</option>
+          <option value="general">Motionist (5:45+)</option>
+        </select>
+      </div>
+
+      <div class="btn-toggle-group" id="bronco-sound-toggle">
+        <button type="button" class="toggle-btn active" data-val="on">🔊 Lyd</button>
+        <button type="button" class="toggle-btn" data-val="off">🔇</button>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- BANETEGNING & SHUTTLE ANIMATION -->
+  <div class="bronco-svg-card">
+    <div class="svg-header">📍 Banelayout: 0m (Start) ➔ 20m ➔ 40m ➔ 60m</div>
+    <div class="svg-container">
+      <svg width="100%" viewBox="0 0 360 120" preserveAspectRatio="xMidYMid meet">
+        <rect x="5" y="5" width="350" height="110" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+        
+        <!-- Banelinje -->
+        <line x1="40" y1="70" x2="320" y2="70" stroke="#adb5bd" stroke-width="3"/>
+
+        <!-- Start/Mållinje (0m) -->
+        <line x1="40" y1="35" x2="40" y2="95" stroke="#228be6" stroke-width="3"/>
+        <text x="40" y="25" font-size="8.5" font-weight="900" text-anchor="middle" fill="#1c7ed6">0m (START/MÅL)</text>
+
+        <!-- 20m Kegle -->
+        <polygon points="133,58 140,70 126,70" fill="#ff922b" stroke="#212529" stroke-width="1"/>
+        <text x="133" y="85" font-size="8" font-weight="900" text-anchor="middle" fill="#495057">20m</text>
+
+        <!-- 40m Kegle -->
+        <polygon points="226,58 233,70 219,70" fill="#ff922b" stroke="#212529" stroke-width="1"/>
+        <text x="226" y="85" font-size="8" font-weight="900" text-anchor="middle" fill="#495057">40m</text>
+
+        <!-- 60m Kegle -->
+        <polygon points="320,58 327,70 313,70" fill="#e03131" stroke="#212529" stroke-width="1"/>
+        <text x="320" y="85" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">60m</text>
+
+        <!-- Løber Prik (Animeres) -->
+        <circle id="bronco-runner-dot" cx="40" cy="70" r="6.5" fill="#fcc419" stroke="#212529" stroke-width="1.5"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- MAIN TIMER DISPLAY & AKTIONER -->
+  <div class="bronco-main-card">
+    <div class="timer-title-row">
+      <span class="timer-title">SAMLET BRONCO TID</span>
+      <span class="finishers-count-badge" id="finishers-count-display">0 i mål</span>
+    </div>
+
+    <div class="main-timer-display" id="main-timer">00:00.0</div>
+
+    <div class="bronco-controls">
+      <button class="btn btn--giant-action" id="btn-start" type="button">🚀 START TEST</button>
+      <button class="btn btn--lap-action" id="btn-lap" type="button" disabled>⏱️ LAP / LØBER I MÅL</button>
+      <button class="btn btn--reset-action" id="btn-reset" type="button" disabled>🗑️ Nulstil</button>
+    </div>
+  </div>
+
+  <!-- RESULTATTABEL MED REDIGERBARE NAVNE OG VURDERING -->
+  <div class="bronco-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">🏆 Registrerede Løbere & Måltider</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd alle tider</button>
+    </div>
+    <table class="bronco-log-table">
+      <thead>
+        <tr>
+          <th style="width: 8%;">#</th>
+          <th style="width: 28%;">Løbers Navn</th>
+          <th style="width: 18%;">Tid</th>
+          <th style="width: 15%;">MAS (m/s)</th>
+          <th style="width: 15%;">MAS (km/t)</th>
+          <th style="width: 16%;">Vurdering</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody" id="results-table-body">
+        <tr class="empty-row"><td colspan="6" style="color: #adb5bd;">Tryk 'Start Test' og 'LAP / LØBER I MÅL' efterhånden som deltagerne passerer mål</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BUND ACTION KNAPPER -->
+  <div class="bronco-bottom-actions">
+    <button class="btn btn--action btn-screenshot" type="button">📸 Tag et billede af resultaterne</button>
+    <button class="btn btn--action btn-csv" type="button">📊 Download CSV Export</button>
+  </div>
+
+</div>
+
+<style>
+.bronco-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 18px;
+  max-width: 680px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.bronco-widget * { box-sizing: border-box; }
+
+.bronco-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; text-align: left; }
+.bronco-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.35; }
+
+/* Modal */
+.bronco-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Subrow */
+.topbar-subrow { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-top: 2px; flex-wrap: wrap; }
+.category-selectors { display: flex; align-items: center; gap: 6px; }
+.cat-label { font-size: 0.75rem; font-weight: 800; color: #495057; }
+.cat-select { border: 1px solid #ced4da; border-radius: 6px; padding: 5px 6px; font-size: 0.75rem; font-weight: 800; color: #212529; background: #ffffff; outline: none; }
+
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* SVG Section */
+.bronco-svg-card { background: #ffffff; border: 1px solid #dee2e6; border-radius: 12px; padding: 6px; margin-bottom: 10px; }
+.svg-header { font-size: 0.72rem; font-weight: 800; color: #495057; margin-bottom: 2px; text-align: center; }
+
+/* Main Card */
+.bronco-main-card { background: #f1f3f5; border: 2.5px solid #dee2e6; border-radius: 14px; padding: 12px; margin-bottom: 12px; text-align: center; }
+.timer-title-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+.timer-title { font-size: 0.78rem; font-weight: 900; color: #495057; }
+.finishers-count-badge { font-size: 0.75rem; font-weight: 800; color: #1c7ed6; background: #e7f5ff; border: 1px solid #a5d8ff; padding: 2px 8px; border-radius: 10px; }
+
+.main-timer-display { font-size: 4rem; font-weight: 900; color: #1e293b; font-variant-numeric: tabular-nums; line-height: 1.0; margin: 4px 0 10px 0; }
+
+.bronco-controls { display: flex; gap: 8px; flex-wrap: wrap; }
+.btn--giant-action {
+  flex: 1.2; padding: 12px; font-size: 1.0rem; font-weight: 900; border-radius: 8px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.3); transition: all 0.15s ease;
+}
+.btn--giant-action.is-running { background: #fa5252; box-shadow: 0 4px 12px rgba(250, 82, 82, 0.35); }
+
+.btn--lap-action {
+  flex: 1.8; padding: 12px; font-size: 1.0rem; font-weight: 900; border-radius: 8px; border: none; cursor: pointer; color: white; background: #2b8a3e;
+  box-shadow: 0 4px 12px rgba(43, 138, 62, 0.3); transition: all 0.15s ease;
+}
+.btn--lap-action:disabled { background: #adb5bd; box-shadow: none; cursor: not-allowed; opacity: 0.6; }
+
+.btn--reset-action { background: #868e96; color: white; border: none; padding: 12px 14px; border-radius: 8px; font-weight: 800; font-size: 0.85rem; cursor: pointer; }
+.btn--reset-action:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Log Table */
+.bronco-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.bronco-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.78rem; table-layout: fixed; margin: 0; }
+.bronco-log-table th { background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.bronco-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+/* Redigerbart Navnefelt i Tabellen */
+.runner-name-input {
+  width: 100%; padding: 4px 6px; border: 1px solid #ced4da; border-radius: 6px;
+  font-size: 0.80rem; font-weight: 800; color: #212529; text-align: center; outline: none;
+  background: #ffffff;
+}
+.runner-name-input:focus { border-color: #228be6; background: #e7f5ff; }
+
+/* Bottom Action Buttons */
+.bronco-bottom-actions { display: flex; gap: 8px; margin-top: 12px; width: 100%; }
+.bronco-bottom-actions .btn--action { flex: 1; padding: 10px; font-size: 0.82rem; font-weight: 800; border-radius: 8px; border: 1px solid #ced4da; background: #f8f9fa; color: #343a40; cursor: pointer; }
+.bronco-bottom-actions .btn--action:hover { background: #e9ecef; }
+</style>
+
+<script>
+(function() {
+  function initBroncoWidget() {
+    const TOTAL_DISTANCE_METERS = 1200; // Bronco distance
+    const STORAGE_KEY = "bronco_lap_results_v2";
+
+    // NORMEVALUERING BRONCO (RUGBY RENEGADE STANDARDS IN SECONDS)
+    const NORMS = {
+      elite_backs:    { world: 255, elite: 270, good: 295, avg: 315 },
+      elite_forwards: { world: 255, elite: 285, good: 315, avg: 345 },
+      club_backs:     { world: 270, elite: 285, good: 315, avg: 345 },
+      club_forwards:  { world: 285, elite: 315, good: 345, avg: 375 },
+      general:        { world: 270, elite: 300, good: 330, avg: 360 }
+    };
+
+    let isTiming = false;
+    let timerStartTime = 0;
+    let totalElapsedSecs = 0;
+    let animFrameId = null;
+
+    let recordedLaps = []; // Array af { id, name, totalSecs }
+
+    let selectedSound = 'on';
+    let audioCtx = null;
+    let wakeLock = null;
+
+    const widget = document.querySelector(".bronco-widget");
+    if (!widget) return;
+
+    const selectNormCat = widget.querySelector("#select-norm-cat");
+    const mainTimer = widget.querySelector("#main-timer");
+    const finishersCountDisplay = widget.querySelector("#finishers-count-display");
+
+    const btnStart = widget.querySelector("#btn-start");
+    const btnLap = widget.querySelector("#btn-lap");
+    const btnReset = widget.querySelector("#btn-reset");
+
+    const resultsTableBody = widget.querySelector("#results-table-body");
+
+    const btnClearLog = widget.querySelector(".btn-clear-log");
+    const btnScreenshot = widget.querySelector(".btn-screenshot");
+    const btnCsv = widget.querySelector(".btn-csv");
+    const wakelockStatus = widget.querySelector(".wakelock-status");
+
+    const broncoRunnerDot = widget.querySelector("#bronco-runner-dot");
+
+    const infoModal = widget.querySelector(".bronco-info-modal");
+    const infoIconBtn = widget.querySelector(".info-icon-btn");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+    function setupToggleGroup(groupId, onChange) {
+      const group = widget.querySelector(`#${groupId}`);
+      if (!group) return;
+      const btns = group.querySelectorAll(".toggle-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          btns.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          onChange(btn.dataset.val);
+        });
+      });
+    }
+    setupToggleGroup("bronco-sound-toggle", (val) => { selectedSound = val; });
+
+    function playSound(type) {
+      if (selectedSound === 'off') return;
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain); gain.connect(audioCtx.destination);
+      const now = audioCtx.currentTime;
+
+      if (type === 'start') {
+        osc.frequency.value = 1000;
+        gain.gain.setValueAtTime(0.3, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+        osc.start(now); osc.stop(now + 0.25);
+      } else if (type === 'lap') {
+        osc.frequency.value = 1300;
+        gain.gain.setValueAtTime(0.3, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+        osc.start(now); osc.stop(now + 0.25);
+      } else if (type === 'stop') {
+        osc.frequency.value = 600;
+        gain.gain.setValueAtTime(0.3, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+        osc.start(now); osc.stop(now + 0.3);
+      }
+    }
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+      }
+    }
+    function releaseWakeLock() {
+      if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+    }
+
+    function formatMS(totalSeconds) {
+      if (!totalSeconds || isNaN(totalSeconds) || totalSeconds <= 0) return "00:00.0";
+      const mins = Math.floor(totalSeconds / 60);
+      const secs = (totalSeconds % 60).toFixed(1);
+      return `${mins.toString().padStart(2, '0')}:${secs.padStart(4, '0')}`;
+    }
+
+    function evaluateTime(totalSecs, category) {
+      if (!totalSecs || isNaN(totalSecs) || totalSecs <= 0) return "--";
+      const norm = NORMS[category] || NORMS.general;
+
+      if (totalSecs <= norm.world) return "🔥 Verdensklasse";
+      if (totalSecs <= norm.elite) return "⚡ Elite Standard";
+      if (totalSecs <= norm.good) return "✅ Godt Niveau";
+      if (totalSecs <= norm.avg) return "🏃 Middel";
+      return "📈 Kan Forbedres";
+    }
+
+    function loadLaps() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        try { recordedLaps = JSON.parse(saved); } catch (e) { recordedLaps = []; }
+      } else {
+        recordedLaps = [];
+      }
+      renderResultsTable();
+    }
+
+    function saveLaps() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(recordedLaps));
+    }
+
+    // ANIMERING AF LØBER-PRIK PÅ BRONCO BANEN
+    function updateRunnerAnimation(secs) {
+      if (!broncoRunnerDot) return;
+      if (!isTiming && totalElapsedSecs === 0) {
+        broncoRunnerDot.setAttribute("cx", "40");
+        return;
+      }
+
+      const cycleDist = ((secs * 4.5) % 240);
+
+      let posX = 40;
+      if (cycleDist <= 20) {
+        posX = 40 + (cycleDist / 20) * (133 - 40);
+      } else if (cycleDist <= 40) {
+        posX = 133 - ((cycleDist - 20) / 20) * (133 - 40);
+      } else if (cycleDist <= 80) {
+        posX = 40 + ((cycleDist - 40) / 40) * (226 - 40);
+      } else if (cycleDist <= 120) {
+        posX = 226 - ((cycleDist - 80) / 40) * (226 - 40);
+      } else if (cycleDist <= 180) {
+        posX = 40 + ((cycleDist - 120) / 60) * (320 - 40);
+      } else {
+        posX = 320 - ((cycleDist - 180) / 60) * (320 - 40);
+      }
+
+      broncoRunnerDot.setAttribute("cx", posX.toFixed(1));
+    }
+
+    // TIMER ENGINE
+    function updateLiveTimer() {
+      if (!isTiming) return;
+      const now = performance.now();
+      totalElapsedSecs = (now - timerStartTime) / 1000;
+      mainTimer.textContent = formatMS(totalElapsedSecs);
+
+      updateRunnerAnimation(totalElapsedSecs);
+
+      animFrameId = requestAnimationFrame(updateLiveTimer);
+    }
+
+    function startTimer() {
+      isTiming = true;
+      requestWakeLock();
+      playSound('start');
+
+      timerStartTime = performance.now() - (totalElapsedSecs * 1000);
+      btnStart.className = "btn btn--giant-action is-running";
+      btnStart.textContent = "🛑 STOP";
+      btnLap.disabled = false;
+      btnReset.disabled = false;
+
+      animFrameId = requestAnimationFrame(updateLiveTimer);
+    }
+
+    function recordRunnerFinishLap() {
+      if (totalElapsedSecs <= 0) return;
+
+      const finishSecs = parseFloat(totalElapsedSecs.toFixed(1));
+      const runnerNumber = recordedLaps.length + 1;
+      const defaultName = `Løber ${runnerNumber}`;
+
+      recordedLaps.push({
+        id: 'lap_' + Date.now() + '_' + Math.random().toString(36).substr(2, 4),
+        name: defaultName,
+        totalSecs: finishSecs
+      });
+
+      playSound('lap');
+      saveLaps();
+      renderResultsTable();
+    }
+
+    function stopTimer() {
+      if (isTiming && totalElapsedSecs > 0) {
+        recordRunnerFinishLap(); // Gemmer automatisk en lap ved stop
+      }
+
+      isTiming = false;
+      cancelAnimationFrame(animFrameId);
+      releaseWakeLock();
+      playSound('stop');
+
+      btnStart.className = "btn btn--giant-action";
+      btnStart.textContent = "🚀 START TEST";
+      btnLap.disabled = true;
+      btnReset.disabled = false;
+
+      updateRunnerAnimation(0);
+    }
+
+    function resetTest() {
+      if (isTiming || totalElapsedSecs > 0) {
+        if (!confirm("Vil du nulstille uret? (Gemte laps bevares i tabellen nedenunder)")) return;
+      }
+      isTiming = false;
+      cancelAnimationFrame(animFrameId);
+      releaseWakeLock();
+
+      totalElapsedSecs = 0;
+      mainTimer.textContent = "00:00.0";
+      btnStart.className = "btn btn--giant-action";
+      btnStart.textContent = "🚀 START TEST";
+      btnLap.disabled = true;
+      btnReset.disabled = true;
+
+      updateRunnerAnimation(0);
+    }
+
+    // RENDER TABLE MED REDIGERBARE NAVNE OG EVALUERING
+    function renderResultsTable() {
+      resultsTableBody.innerHTML = "";
+      finishersCountDisplay.textContent = `${recordedLaps.length} i mål`;
+
+      if (recordedLaps.length === 0) {
+        resultsTableBody.innerHTML = '<tr class="empty-row"><td colspan="6" style="color: #adb5bd;">Tryk \'Start Test\' og \'LAP / LØBER I MÅL\' efterhånden som deltagerne passerer mål</td></tr>';
+        return;
+      }
+
+      const cat = selectNormCat.value;
+
+      recordedLaps.forEach((item, index) => {
+        const masMS = (TOTAL_DISTANCE_METERS / item.totalSecs).toFixed(2);
+        const masKMH = (masMS * 3.6).toFixed(1);
+        const rating = evaluateTime(item.totalSecs, cat);
+
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td><strong>#${index + 1}</strong></td>
+          <td>
+            <input type="text" class="runner-name-input" data-id="${item.id}" value="${item.name}" placeholder="Indtast navn...">
+          </td>
+          <td><strong>${formatMS(item.totalSecs)}</strong></td>
+          <td>${masMS} m/s</td>
+          <td>${masKMH} km/t</td>
+          <td><strong>${rating}</strong></td>
+        `;
+        resultsTableBody.appendChild(tr);
+      });
+
+      // Lyt efter ændringer i navnefelterne
+      const nameInputs = resultsTableBody.querySelectorAll(".runner-name-input");
+      nameInputs.forEach(inp => {
+        inp.addEventListener("input", function() {
+          const id = this.dataset.id;
+          const lapObj = recordedLaps.find(l => l.id === id);
+          if (lapObj) {
+            lapObj.name = this.value;
+            saveLaps();
+          }
+        });
+      });
+    }
+
+    // EXPORT
+    function downloadCSV() {
+      if (recordedLaps.length === 0) {
+        alert("Der er ingen registrerede måltider endnu!");
+        return;
+      }
+
+      const cat = selectNormCat.value;
+      let csv = "Placering,Navn,Tid (sek),Formateret Tid,MAS (m/s),MAS (km/t),Vurdering\n";
+      
+      recordedLaps.forEach((item, idx) => {
+        const masMS = (TOTAL_DISTANCE_METERS / item.totalSecs).toFixed(2);
+        const masKMH = (masMS * 3.6).toFixed(1);
+        const rating = evaluateTime(item.totalSecs, cat);
+
+        csv += `${idx + 1},"${item.name}",${item.totalSecs.toFixed(1)},"${formatMS(item.totalSecs)}",${masMS},${masKMH},"${rating}"\n`;
+      });
+
+      const blob = new Blob(["\uFEFF" + csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `bronco-test-resultater-${new Date().toISOString().slice(0,10)}.csv`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function takeScreenshot() {
+      function capture() {
+        html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = `bronco-test-resultater-${new Date().toISOString().slice(0,10)}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+
+      if (typeof html2canvas === 'undefined') {
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+        script.onload = capture;
+        document.head.appendChild(script);
+      } else {
+        capture();
+      }
+    }
+
+    // HANDLERE
+    btnStart.addEventListener("click", () => {
+      if (!isTiming) startTimer();
+      else stopTimer();
+    });
+
+    btnLap.addEventListener("click", recordRunnerFinishLap);
+    btnReset.addEventListener("click", resetTest);
+
+    selectNormCat.addEventListener("change", renderResultsTable);
+
+    btnClearLog.addEventListener("click", () => {
+      if (confirm("Slet alle registrerede måltider fra tabellen?")) {
+        recordedLaps = [];
+        localStorage.removeItem(STORAGE_KEY);
+        renderResultsTable();
+      }
+    });
+
+    btnCsv.addEventListener("click", downloadCSV);
+    btnScreenshot.addEventListener("click", takeScreenshot);
+
+    infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+    modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+    loadLaps();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initBroncoWidget);
+  } else {
+    initBroncoWidget();
+  }
+})();
+</script>

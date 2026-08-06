@@ -1,0 +1,1012 @@
+<div class="pro-agility-widget">
+  
+  <!-- Info Modal -->
+  <div class="pro-agility-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Pro Agility (5-10-5) Testen</h4>
+        <span class="modal-subtitle-text">Pro Agility / Shuttle Run Test</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>OFFICIEL OPSTILLING OG BANEMÅL:</strong><br>
+        1. <strong>Startlinje (Midte / 0 yard):</strong> Løberen placerer sig i midten i en 3-punkts stående stilling.<br>
+        2. <strong>Yderlinjer (5 yards til hver side):</strong> Sæt markeringer 5 yards (ca. 4,57m) til venstre og højre for midterlinjen. Samlet banebredde: 10 yards.<br>
+        3. <strong>Rute:</strong> Spurt 5 yards til første side ➔ rør linje ➔ spurt 10 yards til modsat side ➔ rør linje ➔ spurt 5 yards igennem midten.
+      </p>
+
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057; margin-top: 10px;">
+        <strong>SÅDAN TAGES TIDEN I WIDGETTEN:</strong><br>
+        1. Vælg forsøg (Venstre eller Højre startretning).<br>
+        2. Tryk på <strong>START (3-2-1-LØB)</strong> ➔ Tiden starter ved "LØB!".<br>
+        3. Tryk på knappen når løberen skærer midterlinjen til sidst for at stoppe uret.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Vurderingsskala & Asymmetri</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0;">
+        <li><strong>Fremragende (Mænd/Elite):</strong> &lt; 4.20 sek.</li>
+        <li><strong>Middel (Mænd):</strong> 4.30 – 4.60 sek.</li>
+        <li><strong>Side-asymmetri &lt; 3.0%:</strong> Optimal balance i vendingerne.</li>
+        <li><strong>Side-asymmetri &gt; 5.0%:</strong> Ubalance ved retningsskift (fokus på den svage side).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="pro-agility-topbar">
+    <div class="pro-agility-header-card">
+      <div class="card-title-row">
+        <span class="card-title">Pro Agility (5-10-5) Shuttle Test</span>
+        <button class="info-icon-btn" type="button" title="Læs om opsætning og regler">ℹ️</button>
+      </div>
+      <div class="card-desc">5 yards ➔ 10 yards ➔ 5 yards (20 yards i alt). Måler eksplosiv acceleration og retningsskift.</div>
+    </div>
+
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="pa-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- 2 KORT MED TEGNING & FORSØG (VENSTRE VS HØJRE STARTSIDE) -->
+  <div class="pro-agility-sides-grid">
+    
+    <!-- VENSTRE START KORT -->
+    <div class="side-card active-card-left" id="card-left">
+      <div class="side-card-header left-header">
+        <span>👈 START MOD VENSTRE</span>
+      </div>
+
+      <!-- SVG Tegning for Venstre Start Rute -->
+      <div class="side-svg-container">
+        <svg width="100%" viewBox="0 0 290 170" preserveAspectRatio="xMidYMid meet">
+          <rect x="5" y="5" width="280" height="160" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+          
+          <!-- Linjer: Venstre 5yd, Midte 0yd, Højre 5yd -->
+          <line x1="45" y1="30" x2="45" y2="125" stroke="#e03131" stroke-width="3"/>
+          <line x1="145" y1="30" x2="145" y2="125" stroke="#228be6" stroke-width="3"/>
+          <line x1="245" y1="30" x2="245" y2="125" stroke="#ff922b" stroke-width="3"/>
+
+          <text x="45" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">5 YARDS (V)</text>
+          <text x="145" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">START/MÅL (MIDTE)</text>
+          <text x="245" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#ff922b">5 YARDS (H)</text>
+
+          <text x="95" y="24" font-size="7" font-weight="800" text-anchor="middle" fill="#e03131">1. Spurt 5 yd</text>
+          <text x="145" y="24" font-size="7" font-weight="800" text-anchor="middle" fill="#ff922b">2. Spurt 10 yd mod højre</text>
+
+          <!-- Rute: Midte -> Venstre -> Højre -> Midte -->
+          <path id="path-left" d="M 145,65 L 45,65 C 35,65 35,85 45,85 L 245,85 C 255,85 255,105 245,105 L 145,105" 
+                fill="none" stroke="#228be6" stroke-width="2.5" stroke-dasharray="4,3" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <circle id="runner-dot-left" cx="145" cy="65" r="5" fill="#fcc419" stroke="#212529" stroke-width="1.5" style="display:none;"/>
+        </svg>
+      </div>
+
+      <!-- Forsøg 1, 2 & 3 for Venstre -->
+      <div class="trials-row">
+        <div class="trial-box active-target" id="box-v1" data-trial="v1">
+          <span class="trial-label">Forsøg V1</span>
+          <input type="number" id="input-v1" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+        <div class="trial-box" id="box-v2" data-trial="v2">
+          <span class="trial-label">Forsøg V2</span>
+          <input type="number" id="input-v2" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+        <div class="trial-box" id="box-v3" data-trial="v3">
+          <span class="trial-label">Forsøg V3</span>
+          <input type="number" id="input-v3" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- HØJRE START KORT -->
+    <div class="side-card" id="card-right">
+      <div class="side-card-header right-header">
+        <span>👉 START MOD HØJRE</span>
+      </div>
+
+      <!-- SVG Tegning for Højre Start Rute -->
+      <div class="side-svg-container">
+        <svg width="100%" viewBox="0 0 290 170" preserveAspectRatio="xMidYMid meet">
+          <rect x="5" y="5" width="280" height="160" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+          
+          <line x1="45" y1="30" x2="45" y2="125" stroke="#ff922b" stroke-width="3"/>
+          <line x1="145" y1="30" x2="145" y2="125" stroke="#228be6" stroke-width="3"/>
+          <line x1="245" y1="30" x2="245" y2="125" stroke="#e03131" stroke-width="3"/>
+
+          <text x="45" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#ff922b">5 YARDS (V)</text>
+          <text x="145" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">START/MÅL (MIDTE)</text>
+          <text x="245" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">5 YARDS (H)</text>
+
+          <text x="195" y="24" font-size="7" font-weight="800" text-anchor="middle" fill="#e03131">1. Spurt 5 yd</text>
+          <text x="145" y="24" font-size="7" font-weight="800" text-anchor="middle" fill="#ff922b">2. Spurt 10 yd mod venstre</text>
+
+          <!-- Rute: Midte -> Højre -> Venstre -> Midte -->
+          <path id="path-right" d="M 145,65 L 245,65 C 255,65 255,85 245,85 L 45,85 C 35,85 35,105 45,105 L 145,105" 
+                fill="none" stroke="#e03131" stroke-width="2.5" stroke-dasharray="4,3" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <circle id="runner-dot-right" cx="145" cy="65" r="5" fill="#fcc419" stroke="#212529" stroke-width="1.5" style="display:none;"/>
+        </svg>
+      </div>
+
+      <!-- Forsøg 1, 2 & 3 for Højre -->
+      <div class="trials-row">
+        <div class="trial-box" id="box-h1" data-trial="h1">
+          <span class="trial-label">Forsøg H1</span>
+          <input type="number" id="input-h1" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+        <div class="trial-box" id="box-h2" data-trial="h2">
+          <span class="trial-label">Forsøg H2</span>
+          <input type="number" id="input-h2" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+        <div class="trial-box" id="box-h3" data-trial="h3">
+          <span class="trial-label">Forsøg H3</span>
+          <input type="number" id="input-h3" class="trial-input" placeholder="0.00" step="0.01">
+          <span class="trial-unit">sek.</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- AKTIV HOVEDSKÆRM: 2 SIDESTILLEDE KORT -->
+  <div class="pro-agility-main-grid">
+    
+    <!-- VENSTRE BOKS: KLIKBAR TIMING-KONTROL -->
+    <div class="main-control-card control-card-left" id="card-control-left" title="Klik her for at starte/styre tidtagningen">
+      <div class="active-trial-badge" id="active-trial-indicator">🎯 AKTIV: VENSTRE FORSØG 1 (V1)</div>
+      <div class="main-timer-display" id="main-timer">0.00s</div>
+      
+      <div class="left-buttons-row">
+        <button class="btn btn--giant-action btn-start-stop" id="btn-action" type="button">🚀 START (3-2-1-LØB)</button>
+        <button class="btn btn--icon-reset btn-reset" type="button" title="Nulstil Alt">🗑️</button>
+      </div>
+    </div>
+
+    <!-- HØJRE BOKS: INSTRUKTIONER -->
+    <div class="main-control-card control-card-right">
+      <div class="instructions-wrapper">
+        <div class="step-instructions">
+          <span class="step-chip">1. Start v. midte</span> ➔ 
+          <span class="step-chip">2. 5 yd side</span> ➔ 
+          <span class="step-chip">3. 10 yd modsat</span> ➔ 
+          <span class="step-chip">4. 5 yd mål</span>
+        </div>
+        <div class="timer-phase-subtitle" id="timer-phase-text">Klar til start (Tryk på Start knappen)</div>
+      </div>
+
+      <div class="distance-info-card">
+        <span class="dist-label">Total Distance:</span>
+        <span class="dist-val">20 Yards (ca. 18.28m)</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RESULTAT BEREGNINGER -->
+  <div class="pro-agility-stats-wrapper">
+    <h5 class="section-title">📊 Testanalyse & Side-asymmetri</h5>
+    <div class="pro-agility-stats-grid">
+      <div class="stat-box">
+        <span class="stat-value" id="stat-best-left">--</span>
+        <span class="stat-label">BEDSTE VENSTRE START</span>
+        <span class="stat-sub" id="stat-speed-left">-- km/t</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-value" id="stat-best-right">--</span>
+        <span class="stat-label">BEDSTE HØJRE START</span>
+        <span class="stat-sub" id="stat-speed-right">-- km/t</span>
+      </div>
+      <div class="stat-box highlight-box" id="asym-box">
+        <span class="stat-value" id="stat-asymmetry">0.0%</span>
+        <span class="stat-label">SIDE-ASYMMETRI</span>
+        <span class="stat-sub" id="stat-asymmetry-label">Ingen data</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SØJLEDIAGRAM -->
+  <div class="pro-agility-chart-wrapper">
+    <h5 class="section-title">📈 Gennemførselstid pr. forsøg (sek)</h5>
+    <div class="chart-container">
+      <svg id="pro-agility-svg-chart" width="100%" height="180" viewBox="0 0 480 180" preserveAspectRatio="none">
+        <text x="240" y="90" text-anchor="middle" font-size="12" fill="#adb5bd">Gennemfør forsøg for at se grafen</text>
+      </svg>
+    </div>
+    <div class="chart-legend">
+      <span class="legend-item"><span class="legend-dot left"></span> Venstre Start</span>
+      <span class="legend-item"><span class="legend-dot right"></span> Højre Start</span>
+    </div>
+  </div>
+
+  <!-- LOCALSTORAGE LOG TABEL -->
+  <div class="pro-agility-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="pro-agility-log-table">
+      <thead>
+        <tr>
+          <th>Dato & Tid</th>
+          <th>Bedste V</th>
+          <th>Bedste H</th>
+          <th>Hurtigste</th>
+          <th>Asymmetri</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SCREENSHOT KNAP -->
+  <div class="pro-agility-screenshot-wrapper">
+    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag et billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.pro-agility-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 16px;
+  max-width: 680px; width: 100%; margin: 1.5rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.pro-agility-widget * { box-sizing: border-box; }
+
+.pro-agility-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; text-align: left; }
+.pro-agility-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.92rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.3; }
+
+/* Modal */
+.pro-agility-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Settings */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 2px; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Side Grid */
+.pro-agility-sides-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+@media (max-width: 580px) {
+  .pro-agility-sides-grid { grid-template-columns: 1fr; }
+}
+
+.side-card {
+  background: #ffffff; border: 2px solid #dee2e6; border-radius: 14px; padding: 10px;
+  transition: all 0.2s ease-in-out; position: relative;
+}
+.side-card.active-card-left {
+  border-color: #228be6; background: #f4f9ff; box-shadow: 0 0 0 3px rgba(34, 139, 230, 0.2);
+}
+.side-card.active-card-right {
+  border-color: #e03131; background: #fff5f5; box-shadow: 0 0 0 3px rgba(224, 49, 49, 0.2);
+}
+
+.side-card-header { display: flex; justify-content: center; align-items: center; font-size: 0.82rem; font-weight: 900; margin-bottom: 6px; height: 20px; }
+.left-header { color: #1c7ed6; }
+.right-header { color: #e03131; }
+
+.side-svg-container { width: 100%; margin-bottom: 6px; }
+
+/* Trial Boxes */
+.trials-row { display: flex; gap: 4px; justify-content: center; width: 100%; }
+.trial-box {
+  flex: 1; background: #f8f9fa; border: 2px solid #ced4da; border-radius: 8px; padding: 5px 2px;
+  display: flex; flex-direction: column; align-items: center; cursor: pointer; transition: all 0.15s ease; min-width: 0;
+}
+.trial-box:hover { border-color: #74c0fc; }
+.trial-box.active-target { border-color: #228be6; background: #e7f5ff; box-shadow: 0 0 0 2px rgba(34, 139, 230, 0.25); }
+.trial-box.completed { border-color: #51cf66; background: #ebfbee; }
+
+.trial-label { font-size: 0.65rem; font-weight: 800; color: #495057; margin-bottom: 2px; white-space: nowrap; }
+.trial-input {
+  width: 100%; max-width: 68px; text-align: center; border: 1px solid #ced4da; border-radius: 5px;
+  font-size: 0.80rem; font-weight: 900; color: #212529; background: #ffffff; padding: 4px 1px; outline: none;
+}
+.trial-input:focus { border-color: #228be6; background: #ffffff; }
+.trial-unit { font-size: 0.60rem; font-weight: 700; color: #868e96; margin-top: 1px; }
+
+/* Control Grid */
+.pro-agility-main-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px;
+}
+@media (max-width: 580px) {
+  .pro-agility-main-grid { grid-template-columns: 1fr; }
+}
+
+.main-control-card {
+  background: #f1f3f5; border: 2px solid #dee2e6; border-radius: 14px;
+  padding: 10px 12px; display: flex; flex-direction: column;
+  justify-content: space-between; transition: all 0.2s ease; box-sizing: border-box;
+  min-height: 145px;
+}
+
+.control-card-left { cursor: pointer; position: relative; user-select: none; }
+.control-card-left:hover { border-color: #74c0fc; box-shadow: 0 4px 12px rgba(34, 139, 230, 0.15); }
+.control-card-left:active { transform: translateY(1px); }
+
+.control-card-left.is-countdown { background: #fff9db; border-color: #fcc419; }
+.control-card-left.is-sayrun { background: #ffe3e3; border-color: #ff6b6b; }
+.control-card-left.is-running { background: #e7f5ff; border-color: #74c0fc; }
+
+.control-card-left .active-trial-badge { font-size: 0.76rem; font-weight: 900; color: #1c7ed6; letter-spacing: 0.01em; margin-bottom: 2px; text-align: center; }
+.control-card-left .main-timer-display { font-size: 3.5rem; font-weight: 900; color: #1e293b; font-variant-numeric: tabular-nums; line-height: 0.95; margin: 2px 0 6px 0; text-align: center; }
+
+.left-buttons-row { display: flex; gap: 6px; width: 100%; align-items: center; margin-top: auto; }
+.left-buttons-row .btn--giant-action {
+  flex: 1; height: 44px; padding: 0 8px; font-size: 0.92rem; font-weight: 900; border-radius: 8px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 3px 10px rgba(34, 139, 230, 0.3); transition: transform 0.1s ease, background-color 0.2s ease, opacity 0.2s ease;
+  display: flex; align-items: center; justify-content: center;
+}
+.left-buttons-row .btn--giant-action:disabled { opacity: 0.85; cursor: not-allowed; }
+
+.left-buttons-row .btn--giant-action.state-countdown { background: #f59f00; box-shadow: 0 3px 10px rgba(245, 159, 0, 0.3); }
+.left-buttons-row .btn--giant-action.state-sayrun { background: #e03131; box-shadow: 0 3px 10px rgba(224, 49, 49, 0.3); }
+.left-buttons-row .btn--giant-action.state-running { background: #1c7ed6; box-shadow: 0 3px 10px rgba(28, 126, 214, 0.3); }
+
+.left-buttons-row .btn--icon-reset {
+  width: 44px; height: 44px; background: #868e96; color: white; border: none; border-radius: 8px;
+  font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  transition: background 0.15s ease; z-index: 2;
+}
+.left-buttons-row .btn--icon-reset:hover { background: #495057; }
+
+.control-card-right { background: #ffffff; }
+.instructions-wrapper { display: flex; flex-direction: column; gap: 4px; text-align: center; }
+.step-instructions { display: flex; align-items: center; justify-content: center; gap: 2px; font-size: 0.62rem; font-weight: 800; color: #495057; flex-wrap: wrap; margin-bottom: 2px; }
+.step-chip { background: #f1f3f5; border: 1px solid #ced4da; padding: 2px 4px; border-radius: 5px; color: #212529; white-space: nowrap; }
+
+.timer-phase-subtitle { font-size: 0.75rem; font-weight: 800; color: #495057; line-height: 1.25; }
+
+.distance-info-card {
+  height: 44px; display: flex; flex-direction: column; justify-content: center; align-items: center;
+  background: #f8f9fa; border: 1.5px solid #dee2e6; border-radius: 8px; padding: 2px 6px; box-sizing: border-box;
+  margin-top: auto;
+}
+.dist-label { font-size: 0.58rem; font-weight: 800; color: #868e96; line-height: 1; }
+.dist-val { font-size: 0.88rem; font-weight: 900; color: #1c7ed6; line-height: 1.2; }
+
+/* Stats Section */
+.pro-agility-stats-wrapper { margin-top: 12px; text-align: left; }
+.section-title { font-size: 0.85rem; font-weight: 800; margin: 0 0 6px 0; color: #343a40; }
+
+.pro-agility-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 8px 4px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.highlight-box { background: #fff9db; border-color: #fcc419; }
+.stat-box.alert-box { background: #ffe3e3; border-color: #ff6b6b; }
+
+.stat-value { font-size: 1.2rem; font-weight: 900; color: #212529; line-height: 1; }
+.stat-label { font-size: 0.60rem; font-weight: 800; color: #868e96; margin-top: 3px; }
+.stat-sub { font-size: 0.70rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+/* Chart Section */
+.pro-agility-chart-wrapper { margin-top: 14px; text-align: left; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 10px; }
+.chart-container { background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 6px; width: 100%; }
+.chart-legend { display: flex; justify-content: center; gap: 14px; margin-top: 6px; font-size: 0.70rem; font-weight: 700; color: #6c757d; }
+.legend-item { display: flex; align-items: center; gap: 4px; }
+.legend-dot { width: 9px; height: 9px; border-radius: 3px; }
+.legend-dot.left { background: #228be6; }
+.legend-dot.right { background: #e03131; }
+
+/* Log Tabel */
+.pro-agility-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.pro-agility-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.78rem; table-layout: fixed; margin: 0; }
+.pro-agility-log-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.pro-agility-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+.pro-agility-log-table th:nth-child(1), .pro-agility-log-table td:nth-child(1) { width: 32%; }
+.pro-agility-log-table th:nth-child(2), .pro-agility-log-table td:nth-child(2) { width: 17%; }
+.pro-agility-log-table th:nth-child(3), .pro-agility-log-table td:nth-child(3) { width: 17%; }
+.pro-agility-log-table th:nth-child(4), .pro-agility-log-table td:nth-child(4) { width: 18%; }
+.pro-agility-log-table th:nth-child(5), .pro-agility-log-table td:nth-child(5) { width: 16%; font-weight: 900; }
+
+/* Billed knap */
+.pro-agility-screenshot-wrapper { margin-top: 12px; width: 100%; }
+.btn--screenshot {
+  width: 100%; padding: 10px; font-size: 0.90rem; font-weight: 800; border-radius: 10px;
+  border: none; background: #228be6; color: #ffffff; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); transition: background 0.15s ease;
+}
+.btn--screenshot:hover { background: #1c7ed6; }
+</style>
+
+<script>
+(function() {
+  function initProAgilityWidget() {
+    const TOTAL_DISTANCE_METERS = 18.288; // 20 yards i meter
+
+    let timingState = 'IDLE'; // IDLE, COUNTDOWN, SAY_RUN, RUNNING
+    let countdownValue = 3;
+    let countdownTimerId = null;
+
+    let runStartTime = 0;
+    let animFrameId = null;
+
+    let activeTarget = 'v1';
+    let selectedSound = 'on';
+
+    let audioCtx = null;
+    let wakeLock = null;
+
+    const widget = document.querySelector(".pro-agility-widget");
+    if (!widget) return;
+
+    const activeTrialIndicator = widget.querySelector("#active-trial-indicator");
+    const cardControlLeft = widget.querySelector("#card-control-left");
+    const mainTimer = widget.querySelector("#main-timer");
+    const timerPhaseText = widget.querySelector("#timer-phase-text");
+
+    const btnAction = widget.querySelector("#btn-action");
+    const btnReset = widget.querySelector(".btn-reset");
+
+    const cardLeft = widget.querySelector("#card-left");
+    const cardRight = widget.querySelector("#card-right");
+
+    const inputV1 = widget.querySelector("#input-v1");
+    const inputV2 = widget.querySelector("#input-v2");
+    const inputV3 = widget.querySelector("#input-v3");
+    
+    const inputH1 = widget.querySelector("#input-h1");
+    const inputH2 = widget.querySelector("#input-h2");
+    const inputH3 = widget.querySelector("#input-h3");
+
+    const statBestLeft = widget.querySelector("#stat-best-left");
+    const statBestRight = widget.querySelector("#stat-best-right");
+    const statSpeedLeft = widget.querySelector("#stat-speed-left");
+    const statSpeedRight = widget.querySelector("#stat-speed-right");
+
+    const asymBox = widget.querySelector("#asym-box");
+    const statAsymmetry = widget.querySelector("#stat-asymmetry");
+    const statAsymmetryLabel = widget.querySelector("#stat-asymmetry-label");
+
+    const svgChart = widget.querySelector("#pro-agility-svg-chart");
+    const logTbody = widget.querySelector(".log-tbody");
+    const btnClearLog = widget.querySelector(".btn-clear-log");
+    const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+    const wakelockStatus = widget.querySelector(".wakelock-status");
+
+    const pathLeft = widget.querySelector("#path-left");
+    const runnerDotLeft = widget.querySelector("#runner-dot-left");
+    let pathLeftLen = pathLeft ? pathLeft.getTotalLength() : 0;
+
+    const pathRight = widget.querySelector("#path-right");
+    const runnerDotRight = widget.querySelector("#runner-dot-right");
+    let pathRightLen = pathRight ? pathRight.getTotalLength() : 0;
+
+    const infoModal = widget.querySelector(".pro-agility-info-modal");
+    const infoIconBtn = widget.querySelector(".info-icon-btn");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+    const targetBoxes = {
+      v1: widget.querySelector("#box-v1"),
+      v2: widget.querySelector("#box-v2"),
+      v3: widget.querySelector("#box-v3"),
+      h1: widget.querySelector("#box-h1"),
+      h2: widget.querySelector("#box-h2"),
+      h3: widget.querySelector("#box-h3")
+    };
+
+    const inputs = { v1: inputV1, v2: inputV2, v3: inputV3, h1: inputH1, h2: inputH2, h3: inputH3 };
+
+    function setupToggleGroup(groupId, onChange) {
+      const group = widget.querySelector(`#${groupId}`);
+      if (!group) return;
+      const btns = group.querySelectorAll(".toggle-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          btns.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          onChange(btn.dataset.val);
+        });
+      });
+    }
+    setupToggleGroup("pa-sound-toggle", (val) => { selectedSound = val; });
+
+    function playSound(type) {
+      if (selectedSound === 'off') return;
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const now = audioCtx.currentTime;
+
+      if (type === 'beep') {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain); gain.connect(audioCtx.destination);
+        osc.frequency.value = 800;
+        gain.gain.setValueAtTime(0.25, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+        osc.start(now); osc.stop(now + 0.15);
+
+      } else if (type === 'go') {
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc1.connect(gain); osc2.connect(gain); gain.connect(audioCtx.destination);
+        osc1.frequency.value = 1200;
+        osc2.frequency.value = 1600;
+        gain.gain.setValueAtTime(0.4, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        osc1.start(now); osc1.stop(now + 0.35);
+        osc2.start(now); osc2.stop(now + 0.35);
+
+      } else if (type === 'stop') {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain); gain.connect(audioCtx.destination);
+        osc.frequency.value = 1400;
+        gain.gain.setValueAtTime(0.4, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+        osc.start(now); osc.stop(now + 0.3);
+      }
+    }
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+      }
+    }
+    function releaseWakeLock() {
+      if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+    }
+
+    function setActiveTarget(targetKey) {
+      if (timingState !== 'IDLE') return;
+      activeTarget = targetKey;
+      
+      Object.keys(targetBoxes).forEach(k => {
+        if (targetBoxes[k]) targetBoxes[k].classList.remove("active-target");
+      });
+      if (targetBoxes[targetKey]) {
+        targetBoxes[targetKey].classList.add("active-target");
+      }
+
+      const isLeft = targetKey.startsWith('v');
+      if (isLeft) {
+        cardLeft.className = "side-card active-card-left";
+        cardRight.className = "side-card";
+      } else {
+        cardLeft.className = "side-card";
+        cardRight.className = "side-card active-card-right";
+      }
+
+      const labels = {
+        v1: "🎯 VENSTRE START - FORSØG 1 (V1)",
+        v2: "🎯 VENSTRE START - FORSØG 2 (V2)",
+        v3: "🎯 VENSTRE START - FORSØG 3 (V3)",
+        h1: "🎯 HØJRE START - FORSØG 1 (H1)",
+        h2: "🎯 HØJRE START - FORSØG 2 (H2)",
+        h3: "🎯 HØJRE START - FORSØG 3 (H3)"
+      };
+      activeTrialIndicator.textContent = labels[targetKey] || "🎯 AKTIVT FORSØG";
+    }
+
+    Object.keys(targetBoxes).forEach(k => {
+      if (targetBoxes[k]) {
+        targetBoxes[k].addEventListener("click", () => setActiveTarget(k));
+      }
+    });
+
+    Object.keys(inputs).forEach(k => {
+      if (inputs[k]) {
+        inputs[k].addEventListener("input", () => {
+          if (inputs[k].value !== "") {
+            targetBoxes[k].classList.add("completed");
+          } else {
+            targetBoxes[k].classList.remove("completed");
+          }
+          updateCalculationsAndChart();
+        });
+      }
+    });
+
+    function updateTimerAnimation() {
+      if (timingState !== 'RUNNING') return;
+
+      const now = performance.now();
+      const currentElapsed = (now - runStartTime) / 1000;
+      mainTimer.textContent = `${currentElapsed.toFixed(2)}s`;
+
+      const animPct = Math.min(1, currentElapsed / 4.5);
+      if (activeTarget.startsWith('v')) {
+        if (runnerDotLeft && pathLeftLen > 0) {
+          runnerDotLeft.style.display = "block";
+          const pt = pathLeft.getPointAtLength(animPct * pathLeftLen);
+          runnerDotLeft.setAttribute("cx", pt.x);
+          runnerDotLeft.setAttribute("cy", pt.y);
+        }
+      } else {
+        if (runnerDotRight && pathRightLen > 0) {
+          runnerDotRight.style.display = "block";
+          const pt = pathRight.getPointAtLength(animPct * pathRightLen);
+          runnerDotRight.setAttribute("cx", pt.x);
+          runnerDotRight.setAttribute("cy", pt.y);
+        }
+      }
+
+      animFrameId = requestAnimationFrame(updateTimerAnimation);
+    }
+
+    function startCountdownSequence() {
+      timingState = 'COUNTDOWN';
+      requestWakeLock();
+
+      cardControlLeft.className = "main-control-card control-card-left is-countdown";
+      btnAction.className = "btn btn--giant-action state-countdown";
+      btnAction.disabled = false;
+
+      countdownValue = 3;
+      mainTimer.textContent = `${countdownValue}`;
+      btnAction.textContent = `⏳ ${countdownValue}... (KLAR)`;
+      timerPhaseText.textContent = "Gør dig klar på midterlinjen...";
+      playSound('beep');
+
+      countdownTimerId = setInterval(() => {
+        countdownValue--;
+        if (countdownValue > 0) {
+          mainTimer.textContent = `${countdownValue}`;
+          btnAction.textContent = `⏳ ${countdownValue}... (KLAR)`;
+          playSound('beep');
+        } else {
+          clearInterval(countdownTimerId);
+          triggerSayRunAndStart();
+        }
+      }, 1000);
+    }
+
+    function triggerSayRunAndStart() {
+      playSound('go');
+      timingState = 'SAY_RUN';
+      cardControlLeft.className = "main-control-card control-card-left is-sayrun";
+      btnAction.className = "btn btn--giant-action state-sayrun";
+      
+      btnAction.disabled = true;
+      btnAction.textContent = "📢 RÅB: LØB!";
+      mainTimer.textContent = "0.00s";
+      timerPhaseText.textContent = "🗣️ Råb 'LØB!' til løberen...";
+
+      const SPEECH_DELAY_MS = 300;
+
+      setTimeout(() => {
+        runStartTime = performance.now();
+        timingState = 'RUNNING';
+
+        animFrameId = requestAnimationFrame(updateTimerAnimation);
+
+        setTimeout(() => {
+          if (timingState === 'RUNNING') {
+            btnAction.disabled = false;
+            btnAction.className = "btn btn--giant-action state-running";
+            btnAction.textContent = "🛑 STOP (I MÅL)";
+            cardControlLeft.className = "main-control-card control-card-left is-running";
+            timerPhaseText.textContent = "🏃 I gang! Tryk når løberen skærer midterlinjen til sidst.";
+          }
+        }, 300);
+
+      }, SPEECH_DELAY_MS);
+    }
+
+    function triggerFinish() {
+      const finishTime = performance.now();
+      cancelAnimationFrame(animFrameId);
+      releaseWakeLock();
+      playSound('stop');
+
+      const elapsedSecs = (finishTime - runStartTime) / 1000;
+      mainTimer.textContent = `${elapsedSecs.toFixed(2)}s`;
+      timerPhaseText.textContent = `✅ Gennemført! Samlet 5-10-5 tid: ${elapsedSecs.toFixed(2)}s`;
+
+      timingState = 'IDLE';
+      cardControlLeft.className = "main-control-card control-card-left";
+      btnAction.className = "btn btn--giant-action";
+      btnAction.disabled = false;
+      btnAction.textContent = "🚀 START NÆSTE FORSØG";
+
+      if (inputs[activeTarget]) {
+        inputs[activeTarget].value = elapsedSecs.toFixed(2);
+        targetBoxes[activeTarget].classList.add("completed");
+      }
+
+      if (runnerDotLeft) runnerDotLeft.style.display = "none";
+      if (runnerDotRight) runnerDotRight.style.display = "none";
+
+      updateCalculationsAndChart();
+
+      if (activeTarget === 'v1') setActiveTarget('v2');
+      else if (activeTarget === 'v2') setActiveTarget('v3');
+      else if (activeTarget === 'v3') setActiveTarget('h1');
+      else if (activeTarget === 'h1') setActiveTarget('h2');
+      else if (activeTarget === 'h2') setActiveTarget('h3');
+    }
+
+    function handleMainAction() {
+      if (btnAction.disabled) return;
+
+      if (timingState === 'IDLE') {
+        startCountdownSequence();
+      } else if (timingState === 'RUNNING') {
+        triggerFinish();
+      }
+    }
+
+    if (cardControlLeft) {
+      cardControlLeft.addEventListener("click", function(e) {
+        if (e.target.closest('.btn-reset')) return;
+        handleMainAction();
+      });
+    }
+
+    function resetWidget() {
+      if (timingState !== 'IDLE') {
+        if (!confirm("Afbryd igangværende tidtagning?")) return;
+      }
+      
+      clearInterval(countdownTimerId);
+      cancelAnimationFrame(animFrameId);
+      releaseWakeLock();
+
+      timingState = 'IDLE';
+      mainTimer.textContent = "0.00s";
+      timerPhaseText.textContent = "Klar til start (Tryk på Start knappen)";
+
+      btnAction.className = "btn btn--giant-action";
+      btnAction.disabled = false;
+      btnAction.textContent = "🚀 START (3-2-1-LØB)";
+      cardControlLeft.className = "main-control-card control-card-left";
+
+      Object.keys(inputs).forEach(k => {
+        if (inputs[k]) {
+          inputs[k].value = "";
+          targetBoxes[k].classList.remove("completed");
+        }
+      });
+
+      if (runnerDotLeft) runnerDotLeft.style.display = "none";
+      if (runnerDotRight) runnerDotRight.style.display = "none";
+
+      setActiveTarget('v1');
+      updateCalculationsAndChart();
+    }
+
+    function updateCalculationsAndChart() {
+      const v1 = parseFloat(inputV1.value);
+      const v2 = parseFloat(inputV2.value);
+      const v3 = parseFloat(inputV3.value);
+      
+      const h1 = parseFloat(inputH1.value);
+      const h2 = parseFloat(inputH2.value);
+      const h3 = parseFloat(inputH3.value);
+
+      const leftTimes = [v1, v2, v3].filter(t => !isNaN(t) && t > 0);
+      const rightTimes = [h1, h2, h3].filter(t => !isNaN(t) && t > 0);
+
+      const bestLeft = leftTimes.length > 0 ? Math.min(...leftTimes) : null;
+      const bestRight = rightTimes.length > 0 ? Math.min(...rightTimes) : null;
+
+      if (bestLeft) {
+        statBestLeft.textContent = `${bestLeft.toFixed(2)}s`;
+        const speedKmH = (TOTAL_DISTANCE_METERS / bestLeft) * 3.6;
+        statSpeedLeft.textContent = `${speedKmH.toFixed(1)} km/t`;
+      } else {
+        statBestLeft.textContent = "--";
+        statSpeedLeft.textContent = "-- km/t";
+      }
+
+      if (bestRight) {
+        statBestRight.textContent = `${bestRight.toFixed(2)}s`;
+        const speedKmH = (TOTAL_DISTANCE_METERS / bestRight) * 3.6;
+        statSpeedRight.textContent = `${speedKmH.toFixed(1)} km/t`;
+      } else {
+        statBestRight.textContent = "--";
+        statSpeedRight.textContent = "-- km/t";
+      }
+
+      if (bestLeft && bestRight) {
+        const minT = Math.min(bestLeft, bestRight);
+        const diff = Math.abs(bestLeft - bestRight);
+        const asymPct = (diff / minT) * 100;
+
+        statAsymmetry.textContent = `${asymPct.toFixed(1)}%`;
+
+        if (asymPct > 5.0) {
+          asymBox.className = "stat-box alert-box";
+          const fastSide = bestLeft < bestRight ? "Hurtigst v. Venstre" : "Hurtigst v. Højre";
+          statAsymmetryLabel.textContent = `⚠️ Markant forskel (${fastSide})`;
+        } else {
+          asymBox.className = "stat-box highlight-box";
+          statAsymmetryLabel.textContent = bestLeft === bestRight ? "Perfekt balance" : "Godkendt balance";
+        }
+
+        autoSaveToLocalStorage(bestLeft, bestRight, asymPct);
+      } else {
+        statAsymmetry.textContent = "0.0%";
+        statAsymmetryLabel.textContent = "Kræver tid fra begge sider";
+        asymBox.className = "stat-box highlight-box";
+      }
+
+      renderBarChart(v1, v2, v3, h1, h2, h3);
+    }
+
+    function renderBarChart(v1, v2, v3, h1, h2, h3) {
+      const trials = [
+        { label: 'V1', time: v1, color: '#339af0' },
+        { label: 'V2', time: v2, color: '#228be6' },
+        { label: 'V3', time: v3, color: '#1c7ed6' },
+        { label: 'H1', time: h1, color: '#ff8787' },
+        { label: 'H2', time: h2, color: '#ff6b6b' },
+        { label: 'H3', time: h3, color: '#e03131' }
+      ];
+
+      const activeTrials = trials.filter(t => !isNaN(t.time) && t.time > 0);
+
+      if (activeTrials.length === 0) {
+        svgChart.innerHTML = '<text x="240" y="90" text-anchor="middle" font-size="12" fill="#adb5bd">Gennemfør forsøg for at se grafen</text>';
+        return;
+      }
+
+      const times = activeTrials.map(t => t.time);
+      const maxTime = Math.max(...times, 5.0);
+      const width = 480;
+      const height = 180;
+      const padL = 35;
+      const padR = 15;
+      const padT = 20;
+      const padB = 30;
+
+      let svgHtml = '';
+
+      const gridSteps = 4;
+      for (let i = 0; i <= gridSteps; i++) {
+        const tVal = (maxTime / gridSteps) * i;
+        const y = height - padB - (tVal / maxTime) * (height - padT - padB);
+        svgHtml += `<line x1="${padL}" y1="${y}" x2="${width - padR}" y2="${y}" stroke="#f1f3f5" stroke-width="1"/>`;
+        svgHtml += `<text x="${padL - 5}" y="${y + 4}" font-size="9" text-anchor="end" fill="#868e96" font-weight="bold">${tVal.toFixed(1)}s</text>`;
+      }
+
+      const numBars = 6;
+      const availWidth = width - padL - padR;
+      const barWidth = 32;
+      const barGap = (availWidth - (numBars * barWidth)) / (numBars + 1);
+
+      trials.forEach((t, i) => {
+        const x = padL + barGap + i * (barWidth + barGap);
+        const barHeight = (!isNaN(t.time) && t.time > 0) ? (t.time / maxTime) * (height - padT - padB) : 0;
+        const y = height - padB - barHeight;
+
+        if (!isNaN(t.time) && t.time > 0) {
+          svgHtml += `<rect x="${x}" y="${y}" width="${barWidth}" height="${barHeight}" rx="4" fill="${t.color}"/>`;
+          svgHtml += `<text x="${x + barWidth/2}" y="${y - 5}" font-size="8" text-anchor="middle" font-weight="900" fill="#212529">${t.time.toFixed(2)}s</text>`;
+        } else {
+          svgHtml += `<rect x="${x}" y="${height - padB - 2}" width="${barWidth}" height="2" fill="#e9ecef"/>`;
+        }
+
+        svgHtml += `<text x="${x + barWidth/2}" y="${height - 12}" font-size="9" text-anchor="middle" font-weight="bold" fill="#495057">${t.label}</text>`;
+      });
+
+      svgChart.innerHTML = svgHtml;
+    }
+
+    let lastSavedKey = "";
+    function autoSaveToLocalStorage(bestL, bestR, asymPct) {
+      const saveKey = `${bestL.toFixed(2)}_${bestR.toFixed(2)}`;
+      if (saveKey === lastSavedKey) return;
+      lastSavedKey = saveKey;
+
+      const logs = JSON.parse(localStorage.getItem("pro_agility_test_logs") || "[]");
+      const now = new Date();
+      const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+      const fastSide = bestL < bestR ? 'Venstre' : (bestR < bestL ? 'Højre' : 'Ens');
+
+      logs.unshift({
+        date: dateStr,
+        bestL: bestL.toFixed(2) + 's',
+        bestR: bestR.toFixed(2) + 's',
+        fastSide: fastSide,
+        asym: asymPct.toFixed(1) + '%'
+      });
+
+      localStorage.setItem("pro_agility_test_logs", JSON.stringify(logs.slice(0, 20)));
+      renderLocalStorageLog();
+    }
+
+    function renderLocalStorageLog() {
+      const logs = JSON.parse(localStorage.getItem("pro_agility_test_logs") || "[]");
+      logTbody.innerHTML = "";
+
+      if (logs.length === 0) {
+        logTbody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+        return;
+      }
+
+      logs.forEach(item => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${item.date}</td>
+          <td><strong>${item.bestL}</strong></td>
+          <td><strong>${item.bestR}</strong></td>
+          <td>${item.fastSide}</td>
+          <td><span style="color:${parseFloat(item.asym) > 5 ? '#e03131' : '#2b8a3e'};">${item.asym}</span></td>
+        `;
+        logTbody.appendChild(tr);
+      });
+    }
+
+    function takeScreenshot() {
+      function capture() {
+        html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = `pro-agility-test-resultat-${new Date().toISOString().slice(0,10)}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+
+      if (typeof html2canvas === 'undefined') {
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+        script.onload = capture;
+        document.head.appendChild(script);
+      } else {
+        capture();
+      }
+    }
+
+    btnReset.addEventListener("click", resetWidget);
+
+    btnClearLog.addEventListener("click", () => {
+      if (confirm("Vil du slette alle gemte test fra hukommelsen?")) {
+        localStorage.removeItem("pro_agility_test_logs");
+        renderLocalStorageLog();
+      }
+    });
+
+    btnScreenshot.addEventListener("click", takeScreenshot);
+
+    infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+    modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+    setActiveTarget('v1');
+    renderLocalStorageLog();
+    updateCalculationsAndChart();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initProAgilityWidget);
+  } else {
+    initProAgilityWidget();
+  }
+})();
+</script>

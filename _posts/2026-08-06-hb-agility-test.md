@@ -38,6 +38,8 @@ Testen anses for at være en anerkendt og valid metode til måling af anaerob ef
 
 ## Udstyr og Opstilling
 
+{% include video provider="youtube" id="s__BEjYspK8" %}
+
 Testen kræver et absolut minimum af udstyr og kan hurtigt etableres på enhver standard håndboldbane.
 
 ### Nødvendigt udstyr:

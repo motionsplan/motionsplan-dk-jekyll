@@ -1,0 +1,638 @@
+<div class="sts5-widget">
+  
+  <!-- Info Modal -->
+  <div class="sts5-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om 5-Times Sit-to-Stand Test (5xSTS)</h4>
+        <span class="modal-subtitle-text">Klinisk test af underkroppens hurtighed & faldrisiko</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>UDSTYR OG OPSTILLING:</strong><br>
+        1. Brug en stol uden armlæn med en sædehøjde på ca. <strong>43-45 cm</strong> stillet op ad en væg.<br>
+        2. Testpersonen sidder midt på stolen med ryggen ret, fødderne fladt på gulvet og <strong>armene over kors på brystet</strong>.<br>
+        3. Ved "GÅ!" skal personen rejse sig helt op og sætte sig helt ned i alt <strong>5 gange i træk</strong> så hurtigt og sikkert som muligt.<br>
+        4. Tiden stoppes i det øjeblik, testpersonen sætter sig ned på stolen efter 5. rejsning.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Kliniske Cut-off Værdier (STEADI / Bohannon)</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0;">
+        <li><strong>&lt; 10.0 sek:</strong> Fremragende præstation / god funktionel reserve.</li>
+        <li><strong>10.0 - 12.0 sek:</strong> Normalområde for ældre voksne.</li>
+        <li><strong>12.0 - 15.0 sek:</strong> Moderat forhøjet faldrisiko / begrænset benstyrke.</li>
+        <li><strong>&gt; 15.0 sek:</strong> <strong>Forhøjet faldrisiko</strong> (Klinisk grænseværdi for øget faldrisiko).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="sts5-topbar">
+    <div class="sts5-header-card">
+      <div class="card-title-row">
+        <span class="card-title">5-Times Sit-to-Stand Test (5xSTS)</span>
+        <button class="info-icon-btn" type="button" title="Læs om testens protokol og regler">ℹ️</button>
+      </div>
+      <div class="card-desc">Måler tid til 5 fulde rejsninger. Vurderer benstyrke, bevægelseshurtighed og faldrisiko.</div>
+    </div>
+
+    <!-- PATIENT / PERSON DATA -->
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <label for="sts5-gender" class="setting-label">Køn:</label>
+        <select id="sts5-gender" class="cat-select">
+          <option value="women">Kvinde</option>
+          <option value="men">Mand</option>
+        </select>
+      </div>
+
+      <div class="setting-item">
+        <label for="sts5-age" class="setting-label">Alder:</label>
+        <input type="number" id="sts5-age" class="setting-input-field" value="68" min="50" max="100" step="1">
+        <span class="setting-unit">år</span>
+      </div>
+
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="sts5-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- HOVED TIMING KORT -->
+  <div class="sts5-main-card" id="sts5-main-card">
+    <div class="timer-stage-badge" id="sts5-status-text">KLAR TIL START</div>
+    
+    <div class="main-timer-display" id="sts5-timer-display">0.00s</div>
+
+    <div class="sts5-controls">
+      <button class="btn btn--giant-action" id="btn-sts5-start" type="button">🚀 START TEST (3-2-1)</button>
+      <button class="btn btn--reset-action" id="btn-sts5-reset" type="button" disabled>🗑️ Nulstil</button>
+    </div>
+  </div>
+
+  <!-- MANUELT INDTASTNINGS-FELT / KORREKTION -->
+  <div class="sts5-manual-card">
+    <div class="manual-header-row">
+      <span class="manual-title">Manuel Tidsindtastning / Korrektion</span>
+      <span class="manual-subtitle">Hvis tiden tages på eksternt stopur</span>
+    </div>
+    <div class="manual-input-box">
+      <input type="number" id="sts5-manual-time-input" class="manual-time-input" placeholder="0.00" step="0.01" min="0">
+      <span class="manual-unit">sekunder</span>
+      <button type="button" id="btn-save-manual" class="btn-save-manual">💾 Gem Tid</button>
+    </div>
+  </div>
+
+  <!-- EVALUERING & NORMANALYSE -->
+  <div class="sts5-stats-wrapper">
+    <h5 class="section-title">📊 Resultatanalyse & Faldrisiko</h5>
+    <div class="sts5-stats-grid">
+      <div class="stat-box">
+        <span class="stat-value" id="stat-time-display">--</span>
+        <span class="stat-label">SAMLET TID (5 REJSNINGER)</span>
+        <span class="stat-sub" id="stat-speed-display">Hastighed: -- rejs/sek</span>
+      </div>
+
+      <div class="stat-box highlight-box" id="eval-status-box">
+        <span class="stat-value" id="stat-eval-title">Afventer Test</span>
+        <span class="stat-label">EVALUERING & FALDRISIKO</span>
+        <span class="stat-sub" id="stat-eval-sub">Gennemfør testen eller indtast tid</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HISTORIK LOG TABEL -->
+  <div class="sts5-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd alle tider</button>
+    </div>
+    <table class="sts5-log-table">
+      <thead>
+        <tr>
+          <th>Dato & Tid</th>
+          <th>Alder/Køn</th>
+          <th>Tid (5xSTS)</th>
+          <th>Rejsninger/sek</th>
+          <th>Vurdering</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody" id="results-table-body">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BUND ACTION KNAPPER -->
+  <div class="sts5-bottom-actions">
+    <button class="btn btn--action btn-screenshot" type="button">📸 Tag et billede af resultaterne</button>
+    <button class="btn btn--action btn-csv" type="button">📊 Download CSV Export</button>
+  </div>
+
+</div>
+
+<style>
+.sts5-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 18px;
+  max-width: 640px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.sts5-widget * { box-sizing: border-box; }
+
+.sts5-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; text-align: left; }
+.sts5-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.35; }
+
+/* Modal */
+.sts5-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Settings Subrow */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 2px; flex-wrap: wrap; }
+.setting-item { display: flex; align-items: center; gap: 4px; }
+.setting-label { font-size: 0.78rem; font-weight: 800; color: #495057; }
+.setting-input-field { width: 55px; padding: 4px; border: 1px solid #ced4da; border-radius: 6px; font-size: 0.85rem; font-weight: 800; text-align: center; }
+.setting-unit { font-size: 0.75rem; font-weight: 800; color: #868e96; }
+.cat-select { border: 1px solid #ced4da; border-radius: 6px; padding: 4px 6px; font-size: 0.78rem; font-weight: 800; color: #212529; background: #ffffff; outline: none; }
+
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Main Timer Card */
+.sts5-main-card {
+  background: #f1f3f5; border: 2.5px solid #dee2e6; border-radius: 14px; padding: 14px; margin-bottom: 12px; text-align: center;
+  transition: all 0.2s ease;
+}
+.sts5-main-card.is-running { background: #e7f5ff; border-color: #74c0fc; }
+.sts5-main-card.is-countdown { background: #fff9db; border-color: #fcc419; }
+.sts5-main-card.is-finished { background: #ebfbee; border-color: #51cf66; }
+
+.timer-stage-badge { font-size: 0.85rem; font-weight: 900; color: #1c7ed6; text-transform: uppercase; letter-spacing: 0.02em; }
+.main-timer-display { font-size: 4.2rem; font-weight: 900; color: #1e293b; font-variant-numeric: tabular-nums; line-height: 1.0; margin: 4px 0 10px 0; }
+
+.sts5-controls { display: flex; gap: 8px; }
+.btn--giant-action {
+  flex: 3; padding: 12px; font-size: 1.1rem; font-weight: 900; border-radius: 10px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.35); transition: all 0.15s ease;
+}
+.btn--giant-action.is-running { background: #fa5252; box-shadow: 0 4px 12px rgba(250, 82, 82, 0.35); }
+.btn--reset-action { flex: 1; background: #868e96; color: white; border: none; padding: 12px; border-radius: 10px; font-weight: 800; font-size: 0.88rem; cursor: pointer; }
+.btn--reset-action:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Manuel Input Card */
+.sts5-manual-card { background: #ffffff; border: 1.5px solid #dee2e6; border-radius: 12px; padding: 10px 12px; margin-bottom: 12px; text-align: left; }
+.manual-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
+.manual-title { font-size: 0.80rem; font-weight: 800; color: #343a40; }
+.manual-subtitle { font-size: 0.68rem; color: #868e96; font-weight: 700; }
+
+.manual-input-box { display: flex; gap: 8px; align-items: center; }
+.manual-time-input { width: 90px; padding: 6px; border: 1.5px solid #ced4da; border-radius: 6px; font-size: 1.0rem; font-weight: 900; text-align: center; outline: none; }
+.manual-time-input:focus { border-color: #228be6; background: #e7f5ff; }
+.manual-unit { font-size: 0.78rem; font-weight: 800; color: #868e96; }
+.btn-save-manual { background: #2b8a3e; color: white; border: none; padding: 7px 12px; border-radius: 6px; font-size: 0.80rem; font-weight: 800; cursor: pointer; margin-left: auto; }
+
+/* Stats & Evaluation */
+.sts5-stats-wrapper { margin-top: 12px; text-align: left; }
+.section-title { font-size: 0.85rem; font-weight: 800; margin: 0 0 6px 0; color: #343a40; }
+
+.sts5-stats-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 8px; }
+@media (max-width: 480px) { .sts5-stats-grid { grid-template-columns: 1fr; } }
+
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 10px 8px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.highlight-box { background: #fff9db; border-color: #fcc419; }
+.stat-box.alert-box { background: #ffe3e3; border-color: #ff6b6b; }
+.stat-box.warning-box { background: #fff4e6; border-color: #ffd8a8; }
+.stat-box.ok-box { background: #ebfbee; border-color: #b2f2bb; }
+
+.stat-value { font-size: 1.25rem; font-weight: 900; color: #212529; line-height: 1.1; }
+.stat-label { font-size: 0.60rem; font-weight: 800; color: #868e96; margin-top: 3px; }
+.stat-sub { font-size: 0.70rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+/* Log Table */
+.sts5-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.sts5-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.78rem; table-layout: fixed; margin: 0; }
+.sts5-log-table th { background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.sts5-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+/* Bottom Action Buttons */
+.sts5-bottom-actions { display: flex; gap: 8px; margin-top: 12px; width: 100%; }
+.sts5-bottom-actions .btn--action { flex: 1; padding: 10px; font-size: 0.82rem; font-weight: 800; border-radius: 8px; border: 1px solid #ced4da; background: #f8f9fa; color: #343a40; cursor: pointer; }
+.sts5-bottom-actions .btn--action:hover { background: #e9ecef; }
+</style>
+
+<script>
+(function() {
+  function initSTS5Widget() {
+    const STORAGE_KEY = "sts5_test_results_v1";
+
+    let timerState = 'idle'; // 'idle', 'countdown', 'running', 'finished'
+    let countdownVal = 3;
+    let totalElapsedSecs = 0.0;
+    let timerAnimFrame = null;
+    let startTime = 0;
+
+    let recordedLogs = [];
+
+    let selectedSound = 'on';
+    let audioCtx = null;
+    let wakeLock = null;
+
+    const widget = document.querySelector(".sts5-widget");
+    if (!widget) return;
+
+    const stsGender = widget.querySelector("#sts5-gender");
+    const stsAge = widget.querySelector("#sts5-age");
+
+    const stsMainCard = widget.querySelector("#sts5-main-card");
+    const stsStatusText = widget.querySelector("#sts5-status-text");
+    const stsTimerDisplay = widget.querySelector("#sts5-timer-display");
+
+    const btnStsStart = widget.querySelector("#btn-sts5-start");
+    const btnStsReset = widget.querySelector("#btn-sts5-reset");
+
+    const manualTimeInput = widget.querySelector("#sts5-manual-time-input");
+    const btnSaveManual = widget.querySelector("#btn-save-manual");
+
+    const statTimeDisplay = widget.querySelector("#stat-time-display");
+    const statSpeedDisplay = widget.querySelector("#stat-speed-display");
+    const evalStatusBox = widget.querySelector("#eval-status-box");
+    const statEvalTitle = widget.querySelector("#stat-eval-title");
+    const statEvalSub = widget.querySelector("#stat-eval-sub");
+
+    const resultsTableBody = widget.querySelector("#results-table-body");
+    const btnClearLog = widget.querySelector(".btn-clear-log");
+    const btnScreenshot = widget.querySelector(".btn-screenshot");
+    const btnCsv = widget.querySelector(".btn-csv");
+    const wakelockStatus = widget.querySelector(".wakelock-status");
+
+    const infoModal = widget.querySelector(".sts5-info-modal");
+    const infoIconBtn = widget.querySelector(".info-icon-btn");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+    function setupToggleGroup(groupId, onChange) {
+      const group = widget.querySelector(`#${groupId}`);
+      if (!group) return;
+      const btns = group.querySelectorAll(".toggle-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          btns.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          onChange(btn.dataset.val);
+        });
+      });
+    }
+    setupToggleGroup("sts5-sound-toggle", (val) => { selectedSound = val; });
+
+    function playSound(type) {
+      if (selectedSound === 'off') return;
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain); gain.connect(audioCtx.destination);
+      const now = audioCtx.currentTime;
+
+      if (type === 'beep') {
+        osc.frequency.value = 800;
+        gain.gain.setValueAtTime(0.25, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+        osc.start(now); osc.stop(now + 0.15);
+      } else if (type === 'go') {
+        osc.frequency.value = 1200;
+        gain.gain.setValueAtTime(0.4, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        osc.start(now); osc.stop(now + 0.35);
+      } else if (type === 'stop') {
+        osc.frequency.value = 1500;
+        gain.gain.setValueAtTime(0.5, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+        osc.start(now); osc.stop(now + 0.4);
+      }
+    }
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+      }
+    }
+    function releaseWakeLock() {
+      if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+    }
+
+    // EVALUERING AF 5xSTS TID (KLINISKE CUT-OFFS)
+    function evaluate5xSTSTime(timeSecs) {
+      if (!timeSecs || isNaN(timeSecs) || timeSecs <= 0) {
+        return {
+          title: 'Afventer Test',
+          sub: 'Gennemfør testen eller indtast tid',
+          boxClass: 'stat-box highlight-box'
+        };
+      }
+
+      if (timeSecs < 10.0) {
+        return {
+          title: '🔥 Fremragende (<10s)',
+          sub: 'Høj funktionel hurtighed / Lav faldrisiko',
+          boxClass: 'stat-box ok-box'
+        };
+      } else if (timeSecs <= 12.0) {
+        return {
+          title: '✅ Normalområde (10-12s)',
+          sub: 'Alderssvarende god benstyrke',
+          boxClass: 'stat-box ok-box'
+        };
+      } else if (timeSecs <= 15.0) {
+        return {
+          title: '⚠️ Let Nedsat (12-15s)',
+          sub: 'Moderat forhøjet faldrisiko / Begrænset fart',
+          boxClass: 'stat-box warning-box'
+        };
+      } else {
+        return {
+          title: '🚨 Forhøjet Faldrisiko (>15s)',
+          sub: 'Klinisk cut-off overskredet (Nedsat styrke)',
+          boxClass: 'stat-box alert-box'
+        };
+      }
+    }
+
+    function updateEvaluationDisplay(timeSecs) {
+      const evalRes = evaluate5xSTSTime(timeSecs);
+
+      if (timeSecs && timeSecs > 0) {
+        statTimeDisplay.textContent = `${timeSecs.toFixed(2)}s`;
+        const speedRepsPerSec = 5.0 / timeSecs;
+        statSpeedDisplay.textContent = `Hastighed: ${speedRepsPerSec.toFixed(2)} rejs/sek`;
+      } else {
+        statTimeDisplay.textContent = "--";
+        statSpeedDisplay.textContent = "Hastighed: -- rejs/sek";
+      }
+
+      statEvalTitle.textContent = evalRes.title;
+      statEvalSub.textContent = evalRes.sub;
+      evalStatusBox.className = evalRes.boxClass;
+    }
+
+    function startTestSequence() {
+      if (timerState === 'running') {
+        stopTestAndFinish();
+        return;
+      }
+
+      timerState = 'countdown';
+      requestWakeLock();
+      
+      stsMainCard.className = "sts5-main-card is-countdown";
+      stsStatusText.textContent = "GØR DIG KLAR";
+      btnStsStart.className = "btn btn--giant-action is-running";
+      btnStsStart.textContent = "🛑 STOP (5. REJSNING I MÅL)";
+      btnStsReset.disabled = false;
+
+      countdownVal = 3;
+      stsTimerDisplay.textContent = `${countdownVal}`;
+      playSound('beep');
+
+      const cdInterval = setInterval(() => {
+        countdownVal--;
+        if (countdownVal > 0) {
+          stsTimerDisplay.textContent = `${countdownVal}`;
+          playSound('beep');
+        } else {
+          clearInterval(cdInterval);
+          start5xSTSTimer();
+        }
+      }, 1000);
+    }
+
+    function updateTimerLoop() {
+      if (timerState !== 'running') return;
+      const now = performance.now();
+      totalElapsedSecs = (now - startTime) / 1000;
+      stsTimerDisplay.textContent = `${totalElapsedSecs.toFixed(2)}s`;
+
+      timerAnimFrame = requestAnimationFrame(updateTimerLoop);
+    }
+
+    function start5xSTSTimer() {
+      timerState = 'running';
+      playSound('go');
+
+      stsMainCard.className = "sts5-main-card is-running";
+      stsStatusText.textContent = "⚡ I GANG – TRYK SKÆRM/KNAP VED 5. SÆTNING!";
+      
+      startTime = performance.now();
+      totalElapsedSecs = 0.0;
+
+      timerAnimFrame = requestAnimationFrame(updateTimerLoop);
+    }
+
+    function stopTestAndFinish() {
+      timerState = 'finished';
+      cancelAnimationFrame(timerAnimFrame);
+      playSound('stop');
+      releaseWakeLock();
+
+      stsMainCard.className = "sts5-main-card is-finished";
+      stsStatusText.textContent = "🎉 TEST GENNEMFØRT!";
+
+      btnStsStart.className = "btn btn--giant-action";
+      btnStsStart.textContent = "🚀 START NY TEST";
+
+      const finalTime = parseFloat(totalElapsedSecs.toFixed(2));
+      manualTimeInput.value = finalTime.toFixed(2);
+      
+      updateEvaluationDisplay(finalTime);
+      saveResultToLog(finalTime);
+    }
+
+    function resetTest() {
+      cancelAnimationFrame(timerAnimFrame);
+      releaseWakeLock();
+      timerState = 'idle';
+
+      totalElapsedSecs = 0.0;
+      stsMainCard.className = "sts5-main-card";
+      stsStatusText.textContent = "KLAR TIL START";
+      stsTimerDisplay.textContent = "0.00s";
+
+      btnStsStart.className = "btn btn--giant-action";
+      btnStsStart.textContent = "🚀 START TEST (3-2-1)";
+      btnStsReset.disabled = true;
+
+      manualTimeInput.value = "";
+      updateEvaluationDisplay(null);
+    }
+
+    function saveResultToLog(timeSecs) {
+      if (!timeSecs || timeSecs <= 0) return;
+
+      const gender = stsGender.value;
+      const age = parseInt(stsAge.value) || 68;
+      const evalRes = evaluate5xSTSTime(timeSecs);
+      const speedReps = (5.0 / timeSecs).toFixed(2);
+
+      const now = new Date();
+      const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+      recordedLogs.unshift({
+        id: 'sts5_' + Date.now(),
+        date: dateStr,
+        genderText: gender === 'men' ? 'Mand' : 'Kvinde',
+        age: age,
+        timeSecs: timeSecs.toFixed(2),
+        speedReps: speedReps,
+        evalTitle: evalRes.title
+      });
+
+      saveLogs();
+      renderLogsTable();
+    }
+
+    function loadLogs() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        try { recordedLogs = JSON.parse(saved); } catch (e) { recordedLogs = []; }
+      } else {
+        recordedLogs = [];
+      }
+      renderLogsTable();
+    }
+
+    function saveLogs() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(recordedLogs));
+    }
+
+    function renderLogsTable() {
+      resultsTableBody.innerHTML = "";
+
+      if (recordedLogs.length === 0) {
+        resultsTableBody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+        return;
+      }
+
+      recordedLogs.forEach(item => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${item.date}</td>
+          <td>${item.age} år (${item.genderText})</td>
+          <td><strong>${item.timeSecs}s</strong></td>
+          <td>${item.speedReps} rejs/s</td>
+          <td><strong>${item.evalTitle}</strong></td>
+        `;
+        resultsTableBody.appendChild(tr);
+      });
+    }
+
+    function downloadCSV() {
+      if (recordedLogs.length === 0) {
+        alert("Der er ingen gemte testresultater endnu!");
+        return;
+      }
+
+      let csv = "Dato,Alder,Køn,Tid (5xSTS sek),Rejsninger pr sek,Evaluering\n";
+      recordedLogs.forEach(item => {
+        csv += `"${item.date}",${item.age},"${item.genderText}",${item.timeSecs},${item.speedReps},"${item.evalTitle}"\n`;
+      });
+
+      const blob = new Blob(["\uFEFF" + csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `5xsts-test-resultater-${new Date().toISOString().slice(0,10)}.csv`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function takeScreenshot() {
+      function capture() {
+        html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = `5xsts-test-resultat-${new Date().toISOString().slice(0,10)}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+
+      if (typeof html2canvas === 'undefined') {
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+        script.onload = capture;
+        document.head.appendChild(script);
+      } else {
+        capture();
+      }
+    }
+
+    // HANDLERE
+    btnStsStart.addEventListener("click", startTestSequence);
+    btnStsReset.addEventListener("click", resetTest);
+
+    btnSaveManual.addEventListener("click", () => {
+      const val = parseFloat(manualTimeInput.value);
+      if (!isNaN(val) && val > 0) {
+        stsTimerDisplay.textContent = `${val.toFixed(2)}s`;
+        updateEvaluationDisplay(val);
+        saveResultToLog(val);
+      } else {
+        alert("Indtast venligst en gyldig tid i sekunder!");
+      }
+    });
+
+    stsGender.addEventListener("change", () => {
+      const val = parseFloat(manualTimeInput.value);
+      if (!isNaN(val) && val > 0) updateEvaluationDisplay(val);
+    });
+
+    stsAge.addEventListener("input", () => {
+      const val = parseFloat(manualTimeInput.value);
+      if (!isNaN(val) && val > 0) updateEvaluationDisplay(val);
+    });
+
+    btnClearLog.addEventListener("click", () => {
+      if (confirm("Slet alle gemte testresultater fra tabellen?")) {
+        recordedLogs = [];
+        localStorage.removeItem(STORAGE_KEY);
+        renderLogsTable();
+      }
+    });
+
+    btnCsv.addEventListener("click", downloadCSV);
+    btnScreenshot.addEventListener("click", takeScreenshot);
+
+    infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+    modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+    loadLogs();
+    updateEvaluationDisplay(null);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initSTS5Widget);
+  } else {
+    initSTS5Widget();
+  }
+})();
+</script>

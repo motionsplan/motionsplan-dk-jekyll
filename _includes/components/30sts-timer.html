@@ -1,0 +1,671 @@
+<div class="sts30-widget">
+  
+  <!-- Info Modal -->
+  <div class="sts30-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om 30-Sekunders Chair Stand Test (30STS)</h4>
+        <span class="modal-subtitle-text">Standardiseret test af underkroppens styrke (Rikli & Jones)</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>UDSTYR OG OPSTILLING:</strong><br>
+        1. Brug en stol uden armlæn med en sædehøjde på ca. <strong>43-44 cm</strong> stillet op ad en væg.<br>
+        2. Testpersonen sidder midt på stolen med ryggen ret, fødderne fladt på gulvet i hoftebredde og <strong>armene over kors på brystet</strong>.<br>
+        3. Ved startskuddet skal personen rejse sig helt op til fuld stræk og sætte sig helt ned igen så mange gange som muligt på 30 sekunder.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Scoring & Tælleregler</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0;">
+        <li>Armene skal holdes over kors på brystet gennem HELE testen.</li>
+        <li>Gentagelsen tæller kun, hvis testpersonen opnår fuld stræk i hofte og knæ.</li>
+        <li>Hvis personen er mere end halvvejs oppe, når de 30 sekunder udløber, tæller gentagelsen som godkendt.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="sts30-topbar">
+    <div class="sts30-header-card">
+      <div class="card-title-row">
+        <span class="card-title">30-Sekunders Chair Stand Test (30STS)</span>
+        <button class="info-icon-btn" type="button" title="Læs om testens protokol og regler">ℹ️</button>
+      </div>
+      <div class="card-desc">Assesserer eksplosiv styrke og udholdenhed i benene. Evaluering mod Rikli & Jones normer.</div>
+    </div>
+
+    <!-- PATIENT / PERSON DATA -->
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <label for="sts-gender" class="setting-label">Køn:</label>
+        <select id="sts-gender" class="cat-select">
+          <option value="women">Kvinde</option>
+          <option value="men">Mand</option>
+        </select>
+      </div>
+
+      <div class="setting-item">
+        <label for="sts-age" class="setting-label">Alder:</label>
+        <input type="number" id="sts-age" class="setting-input-field" value="68" min="50" max="100" step="1">
+        <span class="setting-unit">år</span>
+      </div>
+
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="sts-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- HOVED TIMING & COUNTER KORT -->
+  <div class="sts30-main-card" id="sts-main-card">
+    <div class="timer-stage-badge" id="sts-status-text">KLAR TIL START</div>
+    
+    <div class="main-timer-display" id="sts-timer-display">30.0s</div>
+
+    <div class="sts-controls">
+      <button class="btn btn--giant-action" id="btn-sts-start" type="button">🚀 START TEST (3-2-1)</button>
+      <button class="btn btn--reset-action" id="btn-sts-reset" type="button" disabled>🗑️ Nulstil</button>
+    </div>
+  </div>
+
+  <!-- REPETITION TÆLLER & REGISTRERING -->
+  <div class="sts30-counter-card">
+    <div class="counter-header-row">
+      <span class="counter-title">Registrerede Gentagelser (Rejsninger)</span>
+      <span class="counter-subtitle">Tryk på knappen eller skriv direkte</span>
+    </div>
+
+    <div class="counter-control-grid">
+      <button type="button" class="btn-count-adjust" id="btn-rep-minus" title="Træk 1 fra">-1</button>
+      
+      <div class="rep-display-box">
+        <input type="number" id="rep-number-input" class="rep-number-input" value="0" min="0" max="60">
+        <span class="rep-label-unit">rejsninger</span>
+      </div>
+
+      <button type="button" class="btn-count-add" id="btn-rep-plus">+1 GENTAGELSE</button>
+    </div>
+  </div>
+
+  <!-- EVALUERING & NORMANALYSE -->
+  <div class="sts30-stats-wrapper">
+    <h5 class="section-title">📊 Resultatanalyse & Norm-Sammenligning</h5>
+    <div class="sts30-stats-grid">
+      <div class="stat-box">
+        <span class="stat-value" id="stat-reps-display">0</span>
+        <span class="stat-label">ANTAL REJSNINGER</span>
+        <span class="stat-sub" id="stat-norm-range-display">Norm: --</span>
+      </div>
+
+      <div class="stat-box highlight-box" id="eval-status-box">
+        <span class="stat-value" id="stat-eval-title">Afventer Test</span>
+        <span class="stat-label">EVALUERING</span>
+        <span class="stat-sub" id="stat-eval-sub">Start uret eller indtast tal</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HISTORIK LOG TABEL -->
+  <div class="sts30-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd alle tider</button>
+    </div>
+    <table class="sts30-log-table">
+      <thead>
+        <tr>
+          <th>Dato & Tid</th>
+          <th>Alder/Køn</th>
+          <th>Gentagelser</th>
+          <th>Norm-område</th>
+          <th>Evaluering</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody" id="results-table-body">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BUND ACTION KNAPPER -->
+  <div class="sts30-bottom-actions">
+    <button class="btn btn--action btn-screenshot" type="button">📸 Tag et billede af resultaterne</button>
+    <button class="btn btn--action btn-csv" type="button">📊 Download CSV Export</button>
+  </div>
+
+</div>
+
+<style>
+.sts30-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 18px;
+  max-width: 640px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.sts30-widget * { box-sizing: border-box; }
+
+.sts30-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; text-align: left; }
+.sts30-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.35; }
+
+/* Modal */
+.sts30-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Settings Subrow */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 2px; flex-wrap: wrap; }
+.setting-item { display: flex; align-items: center; gap: 4px; }
+.setting-label { font-size: 0.78rem; font-weight: 800; color: #495057; }
+.setting-input-field { width: 55px; padding: 4px; border: 1px solid #ced4da; border-radius: 6px; font-size: 0.85rem; font-weight: 800; text-align: center; }
+.setting-unit { font-size: 0.75rem; font-weight: 800; color: #868e96; }
+.cat-select { border: 1px solid #ced4da; border-radius: 6px; padding: 4px 6px; font-size: 0.78rem; font-weight: 800; color: #212529; background: #ffffff; outline: none; }
+
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Main Timer Card */
+.sts30-main-card {
+  background: #f1f3f5; border: 2.5px solid #dee2e6; border-radius: 14px; padding: 14px; margin-bottom: 12px; text-align: center;
+  transition: all 0.2s ease;
+}
+.sts30-main-card.is-running { background: #e7f5ff; border-color: #74c0fc; }
+.sts30-main-card.is-countdown { background: #fff9db; border-color: #fcc419; }
+.sts30-main-card.is-finished { background: #ebfbee; border-color: #51cf66; }
+
+.timer-stage-badge { font-size: 0.85rem; font-weight: 900; color: #1c7ed6; text-transform: uppercase; letter-spacing: 0.02em; }
+.main-timer-display { font-size: 4.2rem; font-weight: 900; color: #1e293b; font-variant-numeric: tabular-nums; line-height: 1.0; margin: 4px 0 10px 0; }
+
+.sts-controls { display: flex; gap: 8px; }
+.btn--giant-action {
+  flex: 3; padding: 12px; font-size: 1.1rem; font-weight: 900; border-radius: 10px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.35); transition: all 0.15s ease;
+}
+.btn--giant-action.is-running { background: #fa5252; box-shadow: 0 4px 12px rgba(250, 82, 82, 0.35); }
+.btn--reset-action { flex: 1; background: #868e96; color: white; border: none; padding: 12px; border-radius: 10px; font-weight: 800; font-size: 0.88rem; cursor: pointer; }
+.btn--reset-action:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Reps Counter Card */
+.sts30-counter-card { background: #ffffff; border: 1.5px solid #dee2e6; border-radius: 12px; padding: 12px; margin-bottom: 12px; text-align: left; }
+.counter-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; }
+.counter-title { font-size: 0.82rem; font-weight: 800; color: #343a40; }
+.counter-subtitle { font-size: 0.68rem; color: #868e96; font-weight: 700; }
+
+.counter-control-grid { display: flex; gap: 8px; align-items: center; }
+.btn-count-adjust { width: 44px; height: 50px; background: #f1f3f5; border: 1px solid #ced4da; border-radius: 8px; font-size: 1.1rem; font-weight: 900; color: #495057; cursor: pointer; }
+.btn-count-adjust:hover { background: #e9ecef; }
+
+.rep-display-box { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #f8f9fa; border: 1.5px solid #ced4da; border-radius: 8px; padding: 4px; }
+.rep-number-input { width: 100%; border: none; background: transparent; text-align: center; font-size: 1.6rem; font-weight: 900; color: #212529; outline: none; }
+.rep-label-unit { font-size: 0.62rem; font-weight: 800; color: #868e96; margin-top: -2px; }
+
+.btn-count-add {
+  flex: 2; height: 50px; background: #2b8a3e; color: #ffffff; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 900; cursor: pointer;
+  box-shadow: 0 4px 10px rgba(43, 138, 62, 0.25); transition: transform 0.1s ease, background 0.15s ease;
+}
+.btn-count-add:active { transform: scale(0.97); }
+
+/* Stats & Evaluation */
+.sts30-stats-wrapper { margin-top: 12px; text-align: left; }
+.section-title { font-size: 0.85rem; font-weight: 800; margin: 0 0 6px 0; color: #343a40; }
+
+.sts30-stats-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 8px; }
+@media (max-width: 480px) { .sts30-stats-grid { grid-template-columns: 1fr; } }
+
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 10px 8px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.highlight-box { background: #fff9db; border-color: #fcc419; }
+.stat-box.alert-box { background: #ffe3e3; border-color: #ff6b6b; }
+.stat-box.ok-box { background: #ebfbee; border-color: #b2f2bb; }
+
+.stat-value { font-size: 1.25rem; font-weight: 900; color: #212529; line-height: 1.1; }
+.stat-label { font-size: 0.60rem; font-weight: 800; color: #868e96; margin-top: 3px; }
+.stat-sub { font-size: 0.70rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+/* Log Table */
+.sts30-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.sts30-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.78rem; table-layout: fixed; margin: 0; }
+.sts30-log-table th { background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.sts30-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+/* Bottom Action Buttons */
+.sts30-bottom-actions { display: flex; gap: 8px; margin-top: 12px; width: 100%; }
+.sts30-bottom-actions .btn--action { flex: 1; padding: 10px; font-size: 0.82rem; font-weight: 800; border-radius: 8px; border: 1px solid #ced4da; background: #f8f9fa; color: #343a40; cursor: pointer; }
+.sts30-bottom-actions .btn--action:hover { background: #e9ecef; }
+</style>
+
+<script>
+(function() {
+  function initSTS30Widget() {
+    const STORAGE_KEY = "sts30_test_results_v1";
+
+    // RIKLI & JONES (2013) NORMEVALUERING FOR 30STS (SENIOR FITNESS TEST)
+    const NORMS_30STS = {
+      men: [
+        { minAge: 60, maxAge: 64, low: 14, high: 19 },
+        { minAge: 65, maxAge: 69, low: 12, high: 18 },
+        { minAge: 70, maxAge: 74, low: 12, high: 17 },
+        { minAge: 75, maxAge: 79, low: 11, high: 16 },
+        { minAge: 80, maxAge: 84, low: 10, high: 15 },
+        { minAge: 85, maxAge: 89, low: 8,  high: 14 },
+        { minAge: 90, maxAge: 110, low: 7, high: 12 }
+      ],
+      women: [
+        { minAge: 60, maxAge: 64, low: 12, high: 17 },
+        { minAge: 65, maxAge: 69, low: 11, high: 16 },
+        { minAge: 70, maxAge: 74, low: 10, high: 15 },
+        { minAge: 75, maxAge: 79, low: 10, high: 15 },
+        { minAge: 80, maxAge: 84, low: 9,  high: 14 },
+        { minAge: 85, maxAge: 89, low: 8,  high: 13 },
+        { minAge: 90, maxAge: 110, low: 4, high: 11 }
+      ]
+    };
+
+    let timerState = 'idle'; // 'idle', 'countdown', 'running', 'finished'
+    let countdownVal = 3;
+    let timer30sVal = 30.0;
+    let timerInterval = null;
+    let startTime = 0;
+
+    let totalReps = 0;
+    let recordedLogs = [];
+
+    let selectedSound = 'on';
+    let audioCtx = null;
+    let wakeLock = null;
+
+    const widget = document.querySelector(".sts30-widget");
+    if (!widget) return;
+
+    const stsGender = widget.querySelector("#sts-gender");
+    const stsAge = widget.querySelector("#sts-age");
+
+    const stsMainCard = widget.querySelector("#sts-main-card");
+    const stsStatusText = widget.querySelector("#sts-status-text");
+    const stsTimerDisplay = widget.querySelector("#sts-timer-display");
+
+    const btnStsStart = widget.querySelector("#btn-sts-start");
+    const btnStsReset = widget.querySelector("#btn-sts-reset");
+
+    const btnRepMinus = widget.querySelector("#btn-rep-minus");
+    const btnRepPlus = widget.querySelector("#btn-rep-plus");
+    const repNumberInput = widget.querySelector("#rep-number-input");
+
+    const statRepsDisplay = widget.querySelector("#stat-reps-display");
+    const statNormRangeDisplay = widget.querySelector("#stat-norm-range-display");
+    const evalStatusBox = widget.querySelector("#eval-status-box");
+    const statEvalTitle = widget.querySelector("#stat-eval-title");
+    const statEvalSub = widget.querySelector("#stat-eval-sub");
+
+    const resultsTableBody = widget.querySelector("#results-table-body");
+    const btnClearLog = widget.querySelector(".btn-clear-log");
+    const btnScreenshot = widget.querySelector(".btn-screenshot");
+    const btnCsv = widget.querySelector(".btn-csv");
+    const wakelockStatus = widget.querySelector(".wakelock-status");
+
+    const infoModal = widget.querySelector(".sts30-info-modal");
+    const infoIconBtn = widget.querySelector(".info-icon-btn");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+    function setupToggleGroup(groupId, onChange) {
+      const group = widget.querySelector(`#${groupId}`);
+      if (!group) return;
+      const btns = group.querySelectorAll(".toggle-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          btns.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          onChange(btn.dataset.val);
+        });
+      });
+    }
+    setupToggleGroup("sts-sound-toggle", (val) => { selectedSound = val; });
+
+    function playSound(type) {
+      if (selectedSound === 'off') return;
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain); gain.connect(audioCtx.destination);
+      const now = audioCtx.currentTime;
+
+      if (type === 'beep') {
+        osc.frequency.value = 800;
+        gain.gain.setValueAtTime(0.25, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+        osc.start(now); osc.stop(now + 0.15);
+      } else if (type === 'go') {
+        osc.frequency.value = 1200;
+        gain.gain.setValueAtTime(0.4, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        osc.start(now); osc.stop(now + 0.35);
+      } else if (type === 'click') {
+        osc.frequency.value = 600;
+        gain.gain.setValueAtTime(0.2, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.08);
+        osc.start(now); osc.stop(now + 0.08);
+      } else if (type === 'stop') {
+        osc.frequency.value = 1500;
+        gain.gain.setValueAtTime(0.5, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.5);
+        osc.start(now); osc.stop(now + 0.5);
+      }
+    }
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+      }
+    }
+    function releaseWakeLock() {
+      if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+    }
+
+    function getNormRange(gender, age) {
+      const list = NORMS_30STS[gender] || NORMS_30STS.women;
+      const ageNum = parseInt(age) || 68;
+      const found = list.find(item => ageNum >= item.minAge && ageNum <= item.maxAge);
+      if (found) return { low: found.low, high: found.high };
+      // Fallback for yngre end 60
+      if (ageNum < 60) return { low: 15, high: 22 };
+      return { low: 8, high: 14 };
+    }
+
+    function evaluateReps(reps, gender, age) {
+      const norm = getNormRange(gender, age);
+      if (reps < norm.low) {
+        return {
+          status: 'below',
+          title: '⚠️ Under Normen',
+          sub: `Nedsat styrke (Øget fald-/funktionstab risiko)`,
+          boxClass: 'stat-box alert-box'
+        };
+      } else if (reps <= norm.high) {
+        return {
+          status: 'normal',
+          title: '✅ Normalområdet',
+          sub: `Alderssvarende god benstyrke`,
+          boxClass: 'stat-box ok-box'
+        };
+      } else {
+        return {
+          status: 'above',
+          title: '🔥 Over Normen',
+          sub: `Fremragende relativ funktionel styrke`,
+          boxClass: 'stat-box highlight-box'
+        };
+      }
+    }
+
+    function updateEvaluationDisplay() {
+      const reps = parseInt(repNumberInput.value) || 0;
+      const gender = stsGender.value;
+      const age = parseInt(stsAge.value) || 68;
+
+      const norm = getNormRange(gender, age);
+      const evalRes = evaluateReps(reps, gender, age);
+
+      statRepsDisplay.textContent = reps;
+      statNormRangeDisplay.textContent = `Norm (Rikli & Jones): ${norm.low} – ${norm.high} reps`;
+
+      statEvalTitle.textContent = evalRes.title;
+      statEvalSub.textContent = evalRes.sub;
+      evalStatusBox.className = evalRes.boxClass;
+    }
+
+    function startTestSequence() {
+      if (timerState === 'running') {
+        stopTest(false);
+        return;
+      }
+
+      timerState = 'countdown';
+      requestWakeLock();
+      
+      stsMainCard.className = "sts30-main-card is-countdown";
+      stsStatusText.textContent = "GØR DIG KLAR";
+      btnStsStart.className = "btn btn--giant-action is-running";
+      btnStsStart.textContent = "🛑 AFBRYD TEST";
+      btnStsReset.disabled = false;
+
+      countdownVal = 3;
+      stsTimerDisplay.textContent = `${countdownVal}`;
+      playSound('beep');
+
+      timerInterval = setInterval(() => {
+        countdownVal--;
+        if (countdownVal > 0) {
+          stsTimerDisplay.textContent = `${countdownVal}`;
+          playSound('beep');
+        } else {
+          clearInterval(timerInterval);
+          start30sTimer();
+        }
+      }, 1000);
+    }
+
+    function start30sTimer() {
+      timerState = 'running';
+      playSound('go');
+
+      stsMainCard.className = "sts30-main-card is-running";
+      stsStatusText.textContent = "⚡ TEST I GANG – REJS DIG SÅ MANGE GANGE SOM MULIGT!";
+      
+      startTime = performance.now();
+      timer30sVal = 30.0;
+
+      timerInterval = setInterval(() => {
+        const now = performance.now();
+        const elapsed = (now - startTime) / 1000;
+        const remaining = Math.max(0, 30.0 - elapsed);
+        
+        stsTimerDisplay.textContent = `${remaining.toFixed(1)}s`;
+
+        if (remaining <= 0) {
+          clearInterval(timerInterval);
+          finishTest();
+        }
+      }, 100);
+    }
+
+    function finishTest() {
+      timerState = 'finished';
+      playSound('stop');
+      releaseWakeLock();
+
+      stsMainCard.className = "sts30-main-card is-finished";
+      stsStatusText.textContent = "🎉 TEST GENNEMFØRT!";
+      stsTimerDisplay.textContent = "0.0s";
+
+      btnStsStart.className = "btn btn--giant-action";
+      btnStsStart.textContent = "🚀 START NY TEST";
+
+      saveResultToLog();
+    }
+
+    function stopTest(completed = false) {
+      clearInterval(timerInterval);
+      releaseWakeLock();
+      timerState = 'idle';
+
+      stsMainCard.className = "sts30-main-card";
+      stsStatusText.textContent = "KLAR TIL START";
+      stsTimerDisplay.textContent = "30.0s";
+
+      btnStsStart.className = "btn btn--giant-action";
+      btnStsStart.textContent = "🚀 START TEST (3-2-1)";
+      btnStsReset.disabled = true;
+    }
+
+    function resetTest() {
+      stopTest(false);
+      totalReps = 0;
+      repNumberInput.value = 0;
+      updateEvaluationDisplay();
+    }
+
+    function adjustReps(delta) {
+      let current = parseInt(repNumberInput.value) || 0;
+      current = Math.max(0, current + delta);
+      repNumberInput.value = current;
+      playSound('click');
+      updateEvaluationDisplay();
+    }
+
+    function saveResultToLog() {
+      const reps = parseInt(repNumberInput.value) || 0;
+      const gender = stsGender.value;
+      const age = parseInt(stsAge.value) || 68;
+
+      const norm = getNormRange(gender, age);
+      const evalRes = evaluateReps(reps, gender, age);
+
+      const now = new Date();
+      const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+      recordedLogs.unshift({
+        id: 'sts_' + Date.now(),
+        date: dateStr,
+        genderText: gender === 'men' ? 'Mand' : 'Kvinde',
+        age: age,
+        reps: reps,
+        normStr: `${norm.low} – ${norm.high}`,
+        evalTitle: evalRes.title
+      });
+
+      saveLogs();
+      renderLogsTable();
+    }
+
+    function loadLogs() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        try { recordedLogs = JSON.parse(saved); } catch (e) { recordedLogs = []; }
+      } else {
+        recordedLogs = [];
+      }
+      renderLogsTable();
+    }
+
+    function saveLogs() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(recordedLogs));
+    }
+
+    function renderLogsTable() {
+      resultsTableBody.innerHTML = "";
+
+      if (recordedLogs.length === 0) {
+        resultsTableBody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+        return;
+      }
+
+      recordedLogs.forEach(item => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${item.date}</td>
+          <td>${item.age} år (${item.genderText})</td>
+          <td><strong>${item.reps} rejsninger</strong></td>
+          <td>${item.normStr}</td>
+          <td><strong>${item.evalTitle}</strong></td>
+        `;
+        resultsTableBody.appendChild(tr);
+      });
+    }
+
+    function downloadCSV() {
+      if (recordedLogs.length === 0) {
+        alert("Der er ingen gemte testresultater endnu!");
+        return;
+      }
+
+      let csv = "Dato,Alder,Køn,Antal Rejsninger,Norm Område,Evaluering\n";
+      recordedLogs.forEach(item => {
+        csv += `"${item.date}",${item.age},"${item.genderText}",${item.reps},"${item.normStr}","${item.evalTitle}"\n`;
+      });
+
+      const blob = new Blob(["\uFEFF" + csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `30sts-test-resultater-${new Date().toISOString().slice(0,10)}.csv`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function takeScreenshot() {
+      function capture() {
+        html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = `30sts-test-resultat-${new Date().toISOString().slice(0,10)}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+
+      if (typeof html2canvas === 'undefined') {
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+        script.onload = capture;
+        document.head.appendChild(script);
+      } else {
+        capture();
+      }
+    }
+
+    // HANDLERE
+    btnStsStart.addEventListener("click", startTestSequence);
+    btnStsReset.addEventListener("click", resetTest);
+
+    btnRepPlus.addEventListener("click", () => adjustReps(1));
+    btnRepMinus.addEventListener("click", () => adjustReps(-1));
+
+    repNumberInput.addEventListener("input", updateEvaluationDisplay);
+    stsGender.addEventListener("change", updateEvaluationDisplay);
+    stsAge.addEventListener("input", updateEvaluationDisplay);
+
+    btnClearLog.addEventListener("click", () => {
+      if (confirm("Slet alle gemte testresultater fra tabellen?")) {
+        recordedLogs = [];
+        localStorage.removeItem(STORAGE_KEY);
+        renderLogsTable();
+      }
+    });
+
+    btnCsv.addEventListener("click", downloadCSV);
+    btnScreenshot.addEventListener("click", takeScreenshot);
+
+    infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+    modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+    loadLogs();
+    updateEvaluationDisplay();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initSTS30Widget);
+  } else {
+    initSTS30Widget();
+  }
+})();
+</script>
