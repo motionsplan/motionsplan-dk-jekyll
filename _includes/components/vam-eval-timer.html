@@ -1,0 +1,881 @@
+<div class="vameval-widget">
+  
+  <!-- Fuld Overlay Modal til Niveauskema -->
+  <div class="vameval-table-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">VAM-Eval Test – Niveauskema</h4>
+        <span class="modal-subtitle-text">400m bane • 20 kegler (20m mellemrum) • Start: 8,5 km/t (+0,5 km/t hvert minut)</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk skema">✖</button>
+    </div>
+    <div class="modal-body">
+      <!-- Tabel genereres dynamisk via JS -->
+    </div>
+  </div>
+
+  <!-- Topbar med Lyd & Status -->
+  <div class="vameval-topbar">
+    <div class="vameval-header-card">
+      <div class="card-text-group">
+        <div class="card-title-row">
+          <span class="card-title">VAM-Eval Test (400m Bane)</span>
+          <button class="table-icon-btn" type="button" title="Åbn niveauskema for testen">📊</button>
+        </div>
+        <div class="card-desc">400m bane med kegler for hver 20m (20 kegler). Start: 8,5 km/t (+0,5 km/t pr. min).</div>
+      </div>
+    </div>
+
+    <div class="topbar-subrow">
+      <select class="sound-select" title="Lydindstilling">
+        <option value="on">🔊 Lyd slået til</option>
+        <option value="off">🔇 Lydløs</option>
+      </select>
+      <div class="wakelock-status">📱 Skærm holdes tændt</div>
+    </div>
+  </div>
+
+  <!-- Hoved-display med Niveauer, Hastighed (VAM) & Distance -->
+  <div class="vameval-stats-grid">
+    <div class="stat-box">
+      <span class="stat-value level-display">Niveau 1</span>
+      <span class="stat-label">NIVEAU (1 MIN)</span>
+    </div>
+    <div class="stat-box highlight">
+      <span class="stat-value speed-display">8.5</span>
+      <span class="stat-label">HASTIGHED / VAM (KM/T)</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value distance-display">0</span>
+      <span class="stat-label">DISTANCE (M)</span>
+    </div>
+  </div>
+
+  <!-- Progress Bar for samlet test-fremgang (1 minut pr niveau) -->
+  <div class="vameval-progress-container">
+    <div class="progress-label-row">
+      <span>NIVEAU FREMGANG (1 MIN)</span>
+      <span class="level-time-display">00:00 / 01:00</span>
+    </div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- Status / Fase-indikator -->
+  <div class="vameval-phase-badge phase-indicator">Klar til start</div>
+
+  <!-- Visuel Oval 400m Løbebane med 20 Kegler (20m Mellemrum) -->
+  <div class="vameval-track-wrapper">
+    <svg class="vameval-track-svg" viewBox="0 0 400 200">
+      <!-- Løbebane stribe/græs -->
+      <rect x="10" y="10" width="380" height="180" rx="90" ry="90" fill="#1b5e20" stroke="#e9ecef" stroke-width="2" />
+      <!-- Inderbane græs -->
+      <rect x="70" y="50" width="260" height="100" rx="50" ry="50" fill="#2e7d32" stroke="#ffffff" stroke-width="2" />
+      
+      <!-- Display til Samlet Løbetid midt i banen -->
+      <g transform="translate(200, 100)" text-anchor="middle">
+        <rect x="-65" y="-28" width="130" height="56" rx="12" fill="#0d230a" opacity="0.4" />
+        <text y="-8" font-size="10" font-weight="800" fill="#ffffff" opacity="0.9" letter-spacing="0.5">SAMLET TID</text>
+        <text id="track-total-time" y="18" font-size="24" font-weight="900" fill="#ffffff">00:00</text>
+      </g>
+
+      <!-- Hoved løbespor (400m Bane) -->
+      <path id="vameval-track-path" d="M 120,30 L 280,30 A 70,70 0 0,1 280,170 L 120,170 A 70,70 0 0,1 120,30 Z" fill="none" stroke="#d9480f" stroke-width="18" stroke-linecap="round" />
+      <path d="M 120,30 L 280,30 A 70,70 0 0,1 280,170 L 120,170 A 70,70 0 0,1 120,30 Z" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="4,4" />
+
+      <!-- Start/Mållinje -->
+      <line x1="120" y1="20" x2="120" y2="40" stroke="#ffffff" stroke-width="3" />
+
+      <!-- 20 Kegler for hver 20m på 400m banen -->
+      <g id="vameval-cones-group"></g>
+
+      <!-- Løber Avatar -->
+      <g id="vameval-runner" transform="translate(120, 30)">
+        <circle r="12" fill="#0284c7" stroke="#ffffff" stroke-width="2" />
+        <text y="4" text-anchor="middle" font-size="12" fill="#ffffff">🏃</text>
+      </g>
+    </svg>
+  </div>
+
+  <!-- Bip-nedtælling & Live Kondital (VO2max) -->
+  <div class="vameval-countdown-bar" style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+    <div class="countdown-text">Næste kegle-bip (20m) om: <strong class="time-to-beep">0.0s</strong></div>
+    <div class="live-vo2-text" style="font-size: 0.75rem; color: #868e96; font-weight: 700;">Estimeret VO₂max: <strong class="live-vo2-display" style="color: #212529;">0.0</strong> ml/kg/min</div>
+  </div>
+
+  <!-- Kontroller -->
+  <div class="vameval-controls" style="margin-top: 14px;">
+    <button class="btn btn--primary btn-start">Start VAM-Eval</button>
+    <button class="btn btn--secondary btn-lap" disabled>Lap (Runde)</button>
+    <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
+  </div>
+
+  <!-- Advarsels-knap -->
+  <div class="vameval-warning-zone" style="margin-top: 8px;">
+    <button class="btn btn--fault btn-fault" disabled>⚠️ Registrér Fejl/Forsinkelse (>2m fra kegle) (<span class="fault-count">0</span>/2)</button>
+  </div>
+
+  <!-- Lap-tabel -->
+  <div class="vameval-laps-wrapper" style="display: none;">
+    <h5 class="laps-title">Registrerede Runder / Laps (400m)</h5>
+    <div class="laps-table-container">
+      <table class="vameval-laps-table">
+        <thead>
+          <tr>
+            <th style="width: 10%;">#</th>
+            <th style="width: 20%;">Splittid</th>
+            <th style="width: 20%;">Total tid</th>
+            <th style="width: 18%;">Niveau</th>
+            <th style="width: 16%;">VAM</th>
+            <th style="width: 16%;">Distance</th>
+          </tr>
+        </thead>
+        <tbody class="laps-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Download Lydspor Zone -->
+  <div class="vameval-download-zone">
+    <button class="btn btn--download btn-download">📥 Download VAM-Eval Lydspor (WAV)</button>
+  </div>
+
+  <!-- Nederste Handlingers-knapper -->
+  <div class="vameval-bottom-actions">
+    <button class="btn btn--action btn-screenshot">📸 Tag et billede</button>
+    <button class="btn btn--action btn-csv">📊 Download CSV</button>
+  </div>
+
+</div>
+
+<style>
+.vameval-widget {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.vameval-widget * { box-sizing: border-box; }
+
+.vameval-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; text-align: left; }
+.vameval-header-card {
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #0369a1; }
+.table-icon-btn {
+  background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px;
+  border-radius: 6px; transition: transform 0.1s ease;
+}
+.table-icon-btn:hover { transform: scale(1.15); }
+.card-desc { font-size: 0.78rem; color: #0369a1; margin-top: 4px; line-height: 1.35; }
+
+/* Modal Overlay */
+.vameval-table-modal {
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left;
+}
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+.vameval-modal-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+.vameval-modal-table th { background: #f8f9fa; padding: 8px; border-bottom: 2px solid #dee2e6; text-align: center; }
+.vameval-modal-table td { padding: 6px 8px; border-bottom: 1px solid #f1f3f5; text-align: center; }
+
+.topbar-subrow { display: flex; justify-content: space-between; align-items: center; margin-top: 4px; }
+.sound-select { padding: 6px 10px; border-radius: 8px; border: 1px solid #ced4da; font-weight: bold; font-size: 0.8rem; background: #f8f9fa; }
+.wakelock-status { font-size: 0.75rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 4px 10px; border-radius: 12px; opacity: 0; }
+.wakelock-status.active { opacity: 1; }
+
+.vameval-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+.stat-box { background: #f1f3f5; padding: 10px 4px; border-radius: 10px; display: flex; flex-direction: column; align-items: center; }
+.stat-box.highlight { background: #f0f9ff; border: 1px solid #7dd3fc; }
+.stat-value { font-size: 1.3rem; font-weight: 900; color: #212529; }
+.stat-label { font-size: 0.62rem; font-weight: 800; color: #868e96; margin-top: 4px; }
+
+.vameval-progress-container { margin-bottom: 10px; text-align: left; }
+.progress-label-row { display: flex; justify-content: space-between; font-size: 0.68rem; font-weight: 800; color: #868e96; margin-bottom: 4px; }
+.progress-bar-track { background: #e9ecef; height: 8px; border-radius: 4px; overflow: hidden; }
+.progress-bar-fill { background: #0284c7; height: 100%; width: 0%; transition: width 0.2s linear; }
+
+.vameval-phase-badge { padding: 8px 12px; border-radius: 8px; font-weight: 800; font-size: 0.95rem; background: #e9ecef; color: #495057; margin-bottom: 10px; }
+.vameval-phase-badge.running { background: #e0f2fe; color: #0369a1; }
+.vameval-phase-badge.finished { background: #ffe3e3; color: #c92a2a; }
+
+.vameval-track-wrapper { background: #f8f9fa; border-radius: 12px; padding: 10px; border: 1px solid #e9ecef; }
+.vameval-track-svg { width: 100%; height: auto; display: block; }
+
+.vameval-controls { display: flex; gap: 8px; }
+.vameval-controls button { flex: 1; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; transition: background 0.15s ease; }
+.btn--primary { background: #0284c7; color: white; }
+.btn--stop { background: #e03131; color: white; }
+.btn--secondary { background: #495057; color: white; }
+.btn--warning { background: #fa5252; color: white; }
+.btn--fault { background: #ff922b; color: white; width: 100%; padding: 10px; font-weight: 800; border: none; border-radius: 8px; cursor: pointer; }
+
+/* Lap Tabel Styling */
+.vameval-laps-wrapper { width: 100%; margin-top: 16px; text-align: left; }
+.laps-title { font-size: 0.82rem; font-weight: 800; color: #495057; margin: 0 0 8px 0; text-transform: uppercase; letter-spacing: 0.5px; }
+.laps-table-container { width: 100%; max-height: 220px; overflow-y: auto; border: 1px solid #dee2e6; border-radius: 8px; background: #ffffff; }
+.vameval-laps-table { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 0.8rem; }
+.vameval-laps-table th { background: #f1f3f5; padding: 9px 4px; border-bottom: 2px solid #ced4da; text-align: center; font-weight: 800; color: #343a40; position: sticky; top: 0; z-index: 2; }
+.vameval-laps-table td { padding: 7px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; color: #212529; word-break: break-word; }
+.vameval-laps-table tr:nth-child(even) { background: #f8f9fa; }
+
+.vameval-download-zone { margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e9ecef; }
+.btn--download { background: transparent; color: #6c757d; border: 1px solid #ced4da; padding: 6px 12px; font-size: 0.78rem; font-weight: 700; border-radius: 6px; cursor: pointer; width: 100%; }
+.btn--download:hover:not(:disabled) { background: #f8f9fa; color: #212529; }
+
+.vameval-bottom-actions { display: flex; gap: 10px; margin-top: 12px; width: 100%; }
+.vameval-bottom-actions .btn--action { flex: 1; padding: 10px 8px; font-size: 0.85rem; font-weight: 800; border-radius: 8px; border: 1px solid #ced4da; background: #f8f9fa; color: #343a40; cursor: pointer; transition: all 0.15s ease; }
+.vameval-bottom-actions .btn--action:hover:not(:disabled) { background: #e9ecef; color: #000; border-color: #adb5bd; }
+
+.vameval-controls button:disabled, .btn--fault:disabled, .btn--download:disabled, .btn--action:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
+
+<script>
+(function() {
+  function initVamEvalWidget() {
+    const STAGE_DURATION = 60;   // VAM-Eval: 1 minut pr. niveau
+    const CONE_DISTANCE = 20;     // VAM-Eval: Kegle for hver 20m
+    const START_SPEED = 8.5;      // VAM-Eval: Start ved 8,5 km/t
+    const SPEED_INCREMENT = 0.5;  // VAM-Eval: +0,5 km/t hvert minut
+    const TRACK_LENGTH = 400;     // Standard 400m løbebane
+    const STORAGE_KEY = "vameval_track_test_state";
+
+    let isRunning = false;
+    let hasStarted = false;
+    let startTime = 0;
+    let totalElapsed = 0;
+    let currentDistance = 0;
+    let faults = 0;
+
+    let laps = [];
+    let lastLapTime = 0;
+
+    let animFrameId = null;
+    let audioCtx = null;
+    let wakeLock = null;
+    let lastBeepSegment = -1;
+
+    const widget = document.querySelector(".vameval-widget");
+    if (!widget) return;
+
+    const trackPath = widget.querySelector("#vameval-track-path");
+    const conesGroup = widget.querySelector("#vameval-cones-group");
+    const runner = widget.querySelector("#vameval-runner");
+    const trackTotalTimeDisplay = widget.querySelector("#track-total-time");
+    const pathLength = trackPath ? trackPath.getTotalLength() : 0;
+
+    const levelDisplay = widget.querySelector(".level-display");
+    const speedDisplay = widget.querySelector(".speed-display");
+    const distanceDisplay = widget.querySelector(".distance-display");
+    const progressBarFill = widget.querySelector(".progress-bar-fill");
+    const levelTimeDisplay = widget.querySelector(".level-time-display");
+    const phaseIndicator = widget.querySelector(".phase-indicator");
+    const timeToBeepDisplay = widget.querySelector(".time-to-beep");
+    const liveVo2Display = widget.querySelector(".live-vo2-display");
+    const soundSelect = widget.querySelector(".sound-select");
+    const wakelockStatus = widget.querySelector(".wakelock-status");
+
+    const btnStart = widget.querySelector(".btn-start");
+    const btnLap = widget.querySelector(".btn-lap");
+    const btnReset = widget.querySelector(".btn-reset");
+    const btnFault = widget.querySelector(".btn-fault");
+    const faultCountDisplay = widget.querySelector(".fault-count");
+    const btnDownload = widget.querySelector(".btn-download");
+
+    const lapsWrapper = widget.querySelector(".vameval-laps-wrapper");
+    const lapsTbody = widget.querySelector(".laps-tbody");
+
+    const btnScreenshot = widget.querySelector(".btn-screenshot");
+    const btnCsv = widget.querySelector(".btn-csv");
+
+    const tableModal = widget.querySelector(".vameval-table-modal");
+    const tableIconBtn = widget.querySelector(".table-icon-btn");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+    const modalBody = widget.querySelector(".modal-body");
+
+    function saveState() {
+      const state = {
+        isRunning: isRunning,
+        hasStarted: hasStarted,
+        wallClockStartTime: isRunning ? (Date.now() - (totalElapsed * 1000)) : null,
+        totalElapsed: totalElapsed,
+        faults: faults,
+        laps: laps,
+        lastLapTime: lastLapTime,
+        lastBeepSegment: lastBeepSegment
+      };
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      } catch (e) {}
+    }
+
+    function loadState() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (!saved) return;
+
+      try {
+        const state = JSON.parse(saved);
+        hasStarted = state.hasStarted || false;
+        isRunning = state.isRunning || false;
+        faults = state.faults || 0;
+        laps = state.laps || [];
+        lastLapTime = state.lastLapTime || 0;
+        lastBeepSegment = state.lastBeepSegment !== undefined ? state.lastBeepSegment : -1;
+
+        faultCountDisplay.textContent = faults;
+
+        if (hasStarted) {
+          btnReset.disabled = false;
+          btnFault.disabled = (faults >= 2);
+
+          if (isRunning && state.wallClockStartTime) {
+            const nowWall = Date.now();
+            totalElapsed = Math.max(0, (nowWall - state.wallClockStartTime) / 1000);
+            startTime = performance.now() - (totalElapsed * 1000);
+
+            btnStart.textContent = "Stop";
+            btnStart.className = "btn btn--stop btn-start";
+            btnLap.disabled = false;
+
+            phaseIndicator.className = "vameval-phase-badge running";
+            phaseIndicator.textContent = "🏃 VAM-EVAL I GANG";
+
+            requestWakeLock();
+            animFrameId = requestAnimationFrame(update);
+          } else {
+            totalElapsed = state.totalElapsed || 0;
+            btnStart.textContent = "Start VAM-Eval";
+            btnStart.className = "btn btn--primary btn-start";
+            btnLap.disabled = true;
+
+            phaseIndicator.className = "vameval-phase-badge finished";
+            phaseIndicator.textContent = faults >= 2 ? "🛑 TEST SLUTTET (2 advarsler)" : "🛑 TEST STOPPET";
+            
+            updateUI(totalElapsed);
+          }
+        }
+        renderLapsTable();
+      } catch (e) {
+        console.error("Kunne ikke genoprette VAM-Eval tilstand:", e);
+      }
+    }
+
+    function clearState() {
+      try {
+        localStorage.removeItem(STORAGE_KEY);
+      } catch (e) {}
+    }
+
+    function renderTrackCones() {
+      if (!conesGroup || !trackPath) return;
+      conesGroup.innerHTML = '';
+      // 20 kegler hele vejen rundt på en 400m bane (for hver 20m)
+      for (let i = 0; i < 20; i++) {
+        const distPct = i / 20;
+        const pt = trackPath.getPointAtLength(distPct * pathLength);
+        const cone = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+        const points = `${pt.x},${pt.y-6} ${pt.x-4},${pt.y+4} ${pt.x+4},${pt.y+4}`;
+        cone.setAttribute("points", points);
+        cone.setAttribute("fill", "#ffd43b");
+        cone.setAttribute("stroke", "#d9480f");
+        cone.setAttribute("stroke-width", "1");
+        
+        const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        label.setAttribute("x", pt.x);
+        label.setAttribute("y", pt.y + 12);
+        label.setAttribute("font-size", "5.5");
+        label.setAttribute("font-weight", "bold");
+        label.setAttribute("fill", "#ffffff");
+        label.setAttribute("text-anchor", "middle");
+        label.textContent = `${i * 20}m`;
+
+        conesGroup.appendChild(cone);
+        conesGroup.appendChild(label);
+      }
+    }
+
+    function getSpeedAtTime(seconds) {
+      const stage = Math.floor(seconds / STAGE_DURATION);
+      return START_SPEED + (stage * SPEED_INCREMENT);
+    }
+
+    function getDistanceAtTime(seconds) {
+      let dist = 0;
+      let remTime = seconds;
+      let stage = 0;
+
+      while (remTime > 0) {
+        const timeInStage = Math.min(remTime, STAGE_DURATION);
+        const speedKmH = START_SPEED + (stage * SPEED_INCREMENT);
+        const speedMS = speedKmH / 3.6;
+        dist += timeInStage * speedMS;
+        remTime -= timeInStage;
+        stage++;
+      }
+      return dist;
+    }
+
+    function calcVO2Max(speedKmH) {
+      if (speedKmH <= 0) return "0.0";
+      const vo2 = 3.5 * speedKmH;
+      return vo2.toFixed(1);
+    }
+
+    function playBeep(type) {
+      if (soundSelect.value === 'off') return;
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      const now = audioCtx.currentTime;
+      if (type === 'cone') {
+        osc.frequency.value = 800;
+        gain.gain.setValueAtTime(0.2, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+        osc.start(now); osc.stop(now + 0.15);
+      } else if (type === 'stage') {
+        osc.frequency.value = 1200;
+        gain.gain.setValueAtTime(0.3, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        osc.start(now); osc.stop(now + 0.35);
+      }
+    }
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+      }
+    }
+    function releaseWakeLock() {
+      if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+    }
+
+    function updateUI(elapsedSecs) {
+      currentDistance = getDistanceAtTime(elapsedSecs);
+
+      const stageIdx = Math.floor(elapsedSecs / STAGE_DURATION);
+      const stageLevel = stageIdx + 1;
+      const currentSpeed = START_SPEED + (stageIdx * SPEED_INCREMENT);
+      const timeInCurrentStage = elapsedSecs % STAGE_DURATION;
+
+      levelDisplay.textContent = `Niveau ${stageLevel}`;
+      speedDisplay.textContent = currentSpeed.toFixed(1);
+      distanceDisplay.textContent = Math.floor(currentDistance);
+
+      const stagePct = (timeInCurrentStage / STAGE_DURATION) * 100;
+      progressBarFill.style.width = `${stagePct}%`;
+
+      const mins = Math.floor(timeInCurrentStage / 60).toString().padStart(2, '0');
+      const secs = Math.floor(timeInCurrentStage % 60).toString().padStart(2, '0');
+      levelTimeDisplay.textContent = `${mins}:${secs} / 01:00`;
+
+      const totMins = Math.floor(elapsedSecs / 60).toString().padStart(2, '0');
+      const totSecs = Math.floor(elapsedSecs % 60).toString().padStart(2, '0');
+      if (trackTotalTimeDisplay) {
+        trackTotalTimeDisplay.textContent = `${totMins}:${totSecs}`;
+      }
+
+      // Beregn løberens position på 400m banen
+      const lapDistance = currentDistance % TRACK_LENGTH;
+      const trackProgress = lapDistance / TRACK_LENGTH;
+      if (trackPath) {
+        const pt = trackPath.getPointAtLength(trackProgress * pathLength);
+        runner.setAttribute("transform", `translate(${pt.x}, ${pt.y})`);
+      }
+
+      const speedMS = currentSpeed / 3.6;
+      const distToNextCone = CONE_DISTANCE - (currentDistance % CONE_DISTANCE);
+      const timeToNextCone = distToNextCone / speedMS;
+      timeToBeepDisplay.textContent = `${timeToNextCone.toFixed(1)}s`;
+
+      liveVo2Display.textContent = calcVO2Max(currentSpeed);
+    }
+
+    function update() {
+      if (!isRunning) return;
+
+      const now = performance.now();
+      totalElapsed = (now - startTime) / 1000;
+      
+      updateUI(totalElapsed);
+
+      const stageIdx = Math.floor(totalElapsed / STAGE_DURATION);
+      const timeInCurrentStage = totalElapsed % STAGE_DURATION;
+
+      const currentSegment = Math.floor(currentDistance / CONE_DISTANCE);
+      if (currentSegment > lastBeepSegment) {
+        if (lastBeepSegment !== -1) {
+          if (timeInCurrentStage < 1.0 && stageIdx > 0) {
+            playBeep('stage');
+          } else {
+            playBeep('cone');
+          }
+        }
+        lastBeepSegment = currentSegment;
+        saveState();
+      }
+
+      animFrameId = requestAnimationFrame(update);
+    }
+
+    function handleStartStop() {
+      if (!isRunning) {
+        isRunning = true;
+        hasStarted = true;
+        startTime = performance.now() - (totalElapsed * 1000);
+        requestWakeLock();
+
+        btnStart.textContent = "Stop";
+        btnStart.className = "btn btn--stop btn-start";
+        btnLap.disabled = false;
+        btnReset.disabled = false;
+        btnFault.disabled = (faults >= 2);
+
+        phaseIndicator.className = "vameval-phase-badge running";
+        phaseIndicator.textContent = "🏃 VAM-EVAL I GANG";
+
+        saveState();
+        animFrameId = requestAnimationFrame(update);
+      } else {
+        if (confirm("Er du sikker på, at du vil stoppe VAM-Eval testen?")) {
+          stopTest();
+        }
+      }
+    }
+
+    function stopTest() {
+      isRunning = false;
+      cancelAnimationFrame(animFrameId);
+      releaseWakeLock();
+
+      btnStart.textContent = "Start VAM-Eval";
+      btnStart.className = "btn btn--primary btn-start";
+      btnLap.disabled = true;
+
+      phaseIndicator.className = "vameval-phase-badge finished";
+      phaseIndicator.textContent = faults >= 2 ? "🛑 TEST SLUTTET (2 advarsler)" : "🛑 TEST STOPPET";
+
+      saveState();
+    }
+
+    function formatSecs(seconds) {
+      const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+      const s = (seconds % 60).toFixed(1).padStart(4, '0');
+      return `${m}:${s}`;
+    }
+
+    function recordLap() {
+      if (!isRunning) return;
+
+      const lapNum = laps.length + 1;
+      const splitSec = totalElapsed - lastLapTime;
+      lastLapTime = totalElapsed;
+
+      const stageIdx = Math.floor(totalElapsed / STAGE_DURATION);
+      const stageLevel = stageIdx + 1;
+      const currentSpeed = START_SPEED + (stageIdx * SPEED_INCREMENT);
+
+      const lapData = {
+        num: lapNum,
+        splitSec: splitSec,
+        totalSec: totalElapsed,
+        level: stageLevel,
+        speed: currentSpeed.toFixed(1),
+        dist: Math.floor(currentDistance),
+        vo2: calcVO2Max(currentSpeed)
+      };
+
+      laps.push(lapData);
+      renderLapsTable();
+      saveState();
+    }
+
+    function renderLapsTable() {
+      if (laps.length === 0) {
+        lapsWrapper.style.display = "none";
+        return;
+      }
+      lapsWrapper.style.display = "block";
+      lapsTbody.innerHTML = laps.map(l => `
+        <tr>
+          <td><strong>${l.num}</strong></td>
+          <td>${formatSecs(l.splitSec)}</td>
+          <td>${formatSecs(l.totalSec)}</td>
+          <td>Niveau ${l.level}</td>
+          <td>${l.speed} km/t</td>
+          <td>${l.dist} m</td>
+        </tr>
+      `).join('');
+
+      const container = widget.querySelector(".laps-table-container");
+      container.scrollTop = container.scrollHeight;
+    }
+
+    function resetTest() {
+      if (isRunning || hasStarted) {
+        if (!confirm("Vil du nulstille VAM-Eval Testen og slette alle gemte runder?")) return;
+      }
+      isRunning = false;
+      hasStarted = false;
+      cancelAnimationFrame(animFrameId);
+      releaseWakeLock();
+
+      totalElapsed = 0;
+      currentDistance = 0;
+      faults = 0;
+      lastBeepSegment = -1;
+      laps = [];
+      lastLapTime = 0;
+
+      clearState();
+
+      faultCountDisplay.textContent = '0';
+      btnFault.disabled = true;
+      btnStart.textContent = "Start VAM-Eval";
+      btnStart.className = "btn btn--primary btn-start";
+      btnLap.disabled = true;
+      btnReset.disabled = true;
+
+      levelDisplay.textContent = "Niveau 1";
+      speedDisplay.textContent = "8.5";
+      distanceDisplay.textContent = "0";
+      progressBarFill.style.width = "0%";
+      levelTimeDisplay.textContent = "00:00 / 01:00";
+      if (trackTotalTimeDisplay) trackTotalTimeDisplay.textContent = "00:00";
+      phaseIndicator.className = "vameval-phase-badge";
+      phaseIndicator.textContent = "Klar til start";
+      timeToBeepDisplay.textContent = "0.0s";
+      liveVo2Display.textContent = "0.0";
+
+      if (trackPath) {
+        const startPt = trackPath.getPointAtLength(0);
+        runner.setAttribute("transform", `translate(${startPt.x}, ${startPt.y})`);
+      }
+
+      renderLapsTable();
+    }
+
+    function registerFault() {
+      faults++;
+      faultCountDisplay.textContent = faults;
+      saveState();
+
+      if (faults >= 2) {
+        stopTest();
+        phaseIndicator.className = "vameval-phase-badge finished";
+        phaseIndicator.textContent = "🛑 TEST SLUTTET (2 advarsler)";
+        btnFault.disabled = true;
+      }
+    }
+
+    function renderModalTable() {
+      let html = `<table class="vameval-modal-table">
+        <thead>
+          <tr>
+            <th>Niveau</th>
+            <th>Fart / VAM</th>
+            <th>Tid pr. 20m</th>
+            <th>Niveau Dist. (1 min)</th>
+            <th>Samlet Dist.</th>
+            <th>Est. VO₂max</th>
+          </tr>
+        </thead>
+        <tbody>`;
+
+      let accumDist = 0;
+      for (let stage = 0; stage < 25; stage++) {
+        const spd = START_SPEED + (stage * SPEED_INCREMENT);
+        const timePer20m = (20 / (spd / 3.6)).toFixed(2);
+        const levelDist = Math.round((spd / 3.6) * STAGE_DURATION);
+        accumDist += levelDist;
+        const vo2 = calcVO2Max(spd);
+
+        html += `<tr>
+          <td><strong>Niveau ${stage + 1}</strong></td>
+          <td>${spd.toFixed(1)} km/t</td>
+          <td>${timePer20m} s</td>
+          <td>${levelDist} m</td>
+          <td>${accumDist} m</td>
+          <td>${vo2} ml/kg/min</td>
+        </tr>`;
+      }
+      html += `</tbody></table>`;
+      modalBody.innerHTML = html;
+    }
+
+    function takeScreenshot() {
+      btnScreenshot.disabled = true;
+      const origText = btnScreenshot.textContent;
+      btnScreenshot.textContent = "⏳ Genererer...";
+
+      function capture() {
+        html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+          const a = document.createElement('a');
+          a.href = canvas.toDataURL('image/png');
+          a.download = `vameval-test-${new Date().toISOString().slice(0,10)}.png`;
+          a.click();
+          btnScreenshot.textContent = origText;
+          btnScreenshot.disabled = false;
+        }).catch(() => {
+          alert("Kunne ikke oprette billede.");
+          btnScreenshot.textContent = origText;
+          btnScreenshot.disabled = false;
+        });
+      }
+
+      if (typeof html2canvas === 'undefined') {
+        const script = document.createElement('script');
+        script.src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
+        script.onload = capture;
+        document.head.appendChild(script);
+      } else {
+        capture();
+      }
+    }
+
+    function downloadCSV() {
+      if (laps.length === 0) {
+        alert("Der er ingen registrerede runder (laps) endnu. Tryk på 'Lap (Runde)' under testen for at gemme data.");
+        return;
+      }
+
+      let csvContent = "Runde,Splittid,Samlet Tid,Niveau,VAM (km/t),Distance (m),Estimeret VO2max\n";
+      laps.forEach(l => {
+        csvContent += `${l.num},"${formatSecs(l.splitSec)}","${formatSecs(l.totalSec)}",Niveau ${l.level},${l.speed},${l.dist},${l.vo2}\n`;
+      });
+
+      const blob = new Blob(["\uFEFF" + csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `vameval-test-laps-${new Date().toISOString().slice(0,10)}.csv`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    async function generateWavFile() {
+      btnDownload.disabled = true;
+      const origText = btnDownload.textContent;
+      btnDownload.textContent = "⏳ Genererer VAM-Eval lydfil...";
+
+      const TOTAL_STAGES = 25;
+      const TOTAL_TEST_TIME = TOTAL_STAGES * STAGE_DURATION;
+      let events = [];
+
+      let elapsed = 0;
+      let dist = 0;
+      let lastSeg = 0;
+
+      while (elapsed <= TOTAL_TEST_TIME) {
+        const spd = getSpeedAtTime(elapsed);
+        dist += (spd / 3.6) * 0.1;
+        elapsed += 0.1;
+
+        const seg = Math.floor(dist / CONE_DISTANCE);
+        if (seg > lastSeg) {
+          const isStageChange = Math.abs((elapsed % STAGE_DURATION)) < 0.2 && elapsed > 2;
+          events.push({ time: elapsed, type: isStageChange ? 'stage' : 'cone' });
+          lastSeg = seg;
+        }
+      }
+
+      const sampleRate = 16000;
+      const totalSamples = Math.ceil(sampleRate * (TOTAL_TEST_TIME + 2));
+      
+      try {
+        const offlineCtx = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(1, totalSamples, sampleRate);
+        
+        events.forEach(ev => {
+          const osc = offlineCtx.createOscillator();
+          const gain = offlineCtx.createGain();
+          osc.connect(gain);
+          gain.connect(offlineCtx.destination);
+          osc.frequency.value = ev.type === 'stage' ? 1200 : 800;
+          gain.gain.setValueAtTime(0.3, ev.time);
+          gain.gain.exponentialRampToValueAtTime(0.001, ev.time + (ev.type === 'stage' ? 0.35 : 0.15));
+          osc.start(ev.time);
+          osc.stop(ev.time + 0.4);
+        });
+
+        const renderedBuffer = await offlineCtx.startRendering();
+        let result = new Float32Array(renderedBuffer.length);
+        renderedBuffer.copyFromChannel(result, 0, 0);
+        let dataLength = result.length * 2;
+        let buffer = new ArrayBuffer(44 + dataLength);
+        let view = new DataView(buffer);
+
+        function writeString(v, offset, str) { for (let i = 0; i < str.length; i++) v.setUint8(offset + i, str.charCodeAt(i)); }
+        writeString(view, 0, 'RIFF'); view.setUint32(4, 36 + dataLength, true); writeString(view, 8, 'WAVE'); writeString(view, 12, 'fmt ');
+        view.setUint32(16, 16, true); view.setUint16(20, 1, true); view.setUint16(22, 1, true); view.setUint32(24, sampleRate, true);
+        view.setUint32(28, sampleRate * 2, true); view.setUint16(32, 2, true); view.setUint16(34, 16, true); writeString(view, 36, 'data');
+        view.setUint32(40, dataLength, true);
+
+        let offset = 44;
+        for (let i = 0; i < result.length; i++, offset += 2) {
+          let s = Math.max(-1, Math.min(1, result[i]));
+          view.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+        }
+
+        const blob = new Blob([view], { type: 'audio/wav' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = "vameval-track-test-audio.wav";
+        a.click();
+        URL.revokeObjectURL(url);
+      } catch (e) {
+        alert("Fejl ved generering af VAM-Eval lydfil.");
+      }
+
+      btnDownload.textContent = origText;
+      btnDownload.disabled = false;
+    }
+
+    window.addEventListener("beforeunload", saveState);
+
+    btnStart.addEventListener("click", handleStartStop);
+    btnLap.addEventListener("click", recordLap);
+    btnReset.addEventListener("click", resetTest);
+    btnFault.addEventListener("click", registerFault);
+
+    btnScreenshot.addEventListener("click", takeScreenshot);
+    btnCsv.addEventListener("click", downloadCSV);
+    btnDownload.addEventListener("click", generateWavFile);
+
+    tableIconBtn.addEventListener("click", () => { renderModalTable(); tableModal.style.display = "flex"; });
+    modalCloseBtn.addEventListener("click", () => { tableModal.style.display = "none"; });
+
+    renderTrackCones();
+    loadState();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initVamEvalWidget);
+  } else {
+    initVamEvalWidget();
+  }
+})();
+</script>

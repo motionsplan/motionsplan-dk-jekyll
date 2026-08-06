@@ -73,6 +73,12 @@ faq:
   
 Den **Université de Montréal Track Test (UM-TT)**, også kendt som **Montreal Track Test**, er en maksimal, kontinuerlig, indirekte multistage-løbetest, der vurderer den aerobe kapacitet baseret på løbets energiforbrug. Denne test blev først beskrevet af **Léger & Boucher (1980)** og var en forløber for den mere kendte [Bip Test](/bip-test/).
 
+> **Leder du efter den opdaterede og mere præcise version af testen?**  
+Montreal Track Test (UM-TT) fra 1980 blev i 1993 videreudviklet til **[VAM-eval testen](/vam-eval-test/)** af Georges Cazorla og Luc Léger. 
+> 
+> Ved at reducere kegleafstanden fra 50 til 20 meter, halvere trinlængden til 1 minut og øge hastigheden med blot 0,5 km/t pr. trin, giver VAM-eval en betydeligt mere præcis måling af din Maksimal Aerobe Hastighed (MAS).
+{: .notice .notice--info }
+
 **Gå direkte til det, du skal bruge:**
 
 - [<i class='fas fa-volume-up'></i> **Bip-test lydfil**](#timer) – Gratis online afspiller til 20-meter testen
