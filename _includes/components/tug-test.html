@@ -1,0 +1,620 @@
+<!-- _includes/calc/tug-test.html -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+  .mp-tug-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 20px;
+    max-width: 720px;
+    width: 100% !important;
+    margin: 1.5rem auto;
+    font-family: system-ui, -apple-system, sans-serif;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .mp-tug-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #f1f3f5;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+  }
+  .mp-tug-title { margin: 0 0 4px 0; font-size: 1.15rem; font-weight: 800; color: #0f172a; }
+  .mp-tug-subtitle { margin: 0; font-size: 0.8rem; color: #64748b; line-height: 1.35; }
+
+  /* MODE SELECTOR */
+  .mp-tug-mode-toggle {
+    display: flex;
+    gap: 4px;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    border: 1px solid #cbd5e1;
+    width: 100%;
+  }
+  .mp-tug-mode-btn {
+    flex: 1;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 7px;
+    font-size: 0.775rem;
+    font-weight: 800;
+    cursor: pointer;
+    background: transparent;
+    color: #64748b;
+    transition: all 0.15s ease;
+  }
+  .mp-tug-mode-btn.active {
+    background: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  }
+
+  /* STOPUR DISPLAY */
+  .mp-tug-timer-box {
+    background: #0f172a;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  .mp-tug-timer-digits {
+    font-family: monospace;
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: #38bdf8;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    margin: 0.25rem 0;
+  }
+
+  .mp-tug-input {
+    height: 38px;
+    border-radius: 8px;
+    border: 1.5px solid #cbd5e1;
+    text-align: center;
+    font-weight: 800;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  /* BUTTONS */
+  .btn--primary { background: #2563eb; color: #ffffff; }
+  .btn--stop { background: #dc2626; color: #ffffff; }
+  .btn--reset { background: #cbd5e1; color: #334155; }
+  .btn--action { background: #16a34a; color: #ffffff; }
+
+  /* BANE ILLUSTRATION (SVG) */
+  .mp-tug-illustration {
+    background: #f8fafc;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+
+  /* STATUS BADGE */
+  .mp-tug-status-badge {
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  /* TABLE LOG */
+  .mp-tug-log-table {
+    width: 100% !important;
+    border-collapse: collapse;
+    font-size: 0.825rem;
+    margin-top: 0.5rem;
+  }
+  .mp-tug-log-table th { background: #f1f5f9; color: #475569; padding: 8px; text-align: left; font-weight: 800; border-bottom: 1.5px solid #cbd5e1; }
+  .mp-tug-log-table td { padding: 8px; border-bottom: 1px solid #e2e8f0; color: #0f172a; font-weight: 600; vertical-align: middle; }
+
+  /* MODAL REDIGERING */
+  .mp-tug-modal {
+    display: none;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(15, 23, 42, 0.7);
+    z-index: 50;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .mp-tug-modal-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.25rem;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
+<div class="mp-tug-card" data-calculator="tug-test">
+  
+  <!-- Header -->
+  <div class="mp-tug-header">
+    <div>
+      <h3 class="mp-tug-title">⏱️ Timed Up and Go (TUG) Test</h3>
+      <p class="mp-tug-subtitle">Vurdér mobilitet, balance og faldrisiko med Single Task & Dual Task (TUG-cog/man).</p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- Mode Selector -->
+  <div class="mp-tug-mode-toggle" data-html2canvas-ignore="true">
+    <button type="button" class="mp-tug-mode-btn js-mode-btn active" data-mode="single">Standard TUG</button>
+    <button type="button" class="mp-tug-mode-btn js-mode-btn" data-mode="cog">🧠 TUG Cognitive (Tælle)</button>
+    <button type="button" class="mp-tug-mode-btn js-mode-btn" data-mode="man">🥛 TUG Manual (Vandglas)</button>
+  </div>
+
+  <!-- BANE ILLUSTRATION (3M COURSE) -->
+  <div class="mp-tug-illustration">
+    <div style="font-size: 0.725rem; font-weight: 800; color: #475569; margin-bottom: 6px; text-transform: uppercase;">Testopstilling (3 Meters Bane)</div>
+    <svg width="100%" height="90" viewBox="0 0 500 90" style="max-width: 480px; margin: 0 auto; display: block;">
+      <!-- Gulvlinje -->
+      <line x1="40" y1="70" x2="460" y2="70" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4,4"/>
+      
+      <!-- Stol (0m) -->
+      <rect x="35" y="35" width="25" height="35" rx="3" fill="#94a3b8" stroke="#475569" stroke-width="1.5"/>
+      <line x1="35" y1="35" x2="35" y2="15" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+      <text x="47" y="83" font-size="10" font-weight="800" fill="#475569" text-anchor="middle">Stol (0m)</text>
+
+      <!-- 3 Meter Pil -->
+      <line x1="70" y1="45" x2="420" y2="45" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow)"/>
+      <line x1="420" y1="45" x2="70" y2="45" stroke="#2563eb" stroke-width="2"/>
+      <text x="245" y="38" font-size="11" font-weight="900" fill="#2563eb" text-anchor="middle">3.00 Meter</text>
+
+      <!-- Kegle (3m) -->
+      <polygon points="435,70 445,35 455,70" fill="#f97316" stroke="#ea580c" stroke-width="1.5"/>
+      <text x="445" y="83" font-size="10" font-weight="800" fill="#475569" text-anchor="middle">Kegle (3m)</text>
+
+      <!-- Turning Arrow -->
+      <path d="M 430,30 Q 460,20 430,10" fill="none" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow-orange)"/>
+
+      <!-- Marker SVG definitions -->
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+        </marker>
+        <marker id="arrow-orange" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" fill="#ea580c"/>
+        </marker>
+      </defs>
+    </svg>
+  </div>
+
+  <!-- DIGITALT STOPUR -->
+  <div class="mp-tug-timer-box">
+    <div style="font-size: 0.725rem; font-weight: 800; color: #94a3b8; text-transform: uppercase;">Stopur / Måltid</div>
+    <div class="js-tug-timer-display mp-tug-timer-digits">00:00.00</div>
+    <div style="display: flex; gap: 8px; justify-content: center; margin-top: 8px;" data-html2canvas-ignore="true">
+      <button type="button" class="js-tug-start-btn btn--primary" style="padding: 8px 16px; border-radius: 6px; font-weight: 800; border: none; cursor: pointer;">▶️ Start</button>
+      <button type="button" class="js-tug-stop-btn btn--stop" disabled style="padding: 8px 16px; border-radius: 6px; font-weight: 800; border: none; cursor: pointer;">⏸️ Stop</button>
+      <button type="button" class="js-tug-reset-btn btn--reset" style="padding: 8px 12px; border-radius: 6px; font-weight: 800; border: none; cursor: pointer;">🗑️ Nulstil</button>
+    </div>
+  </div>
+
+  <!-- INDTASTNINGS ZONE FOR AKTUELE TEST -->
+  <div style="background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 12px; padding: 1rem; margin-bottom: 1.25rem;">
+    <h4 style="margin: 0 0 0.75rem 0; font-size: 0.85rem; font-weight: 800; color: #0f172a;">Indtast stamdata og tid</h4>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 0.75rem;">
+      <div style="flex: 1.2; min-width: 120px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 2px;">Navn / ID</label>
+        <input type="text" class="js-tug-input-name mp-tug-input" placeholder="f.eks. Ole Hansen" style="text-align: left; padding-left: 8px;">
+      </div>
+      <div style="flex: 0.7; min-width: 70px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 2px;">Alder</label>
+        <input type="number" class="js-tug-input-age mp-tug-input" min="10" max="110" value="72">
+      </div>
+      <div style="flex: 0.8; min-width: 80px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 2px;">Køn</label>
+        <select class="js-tug-input-gender mp-tug-input">
+          <option value="male">Mand</option>
+          <option value="female">Kvinde</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- TIDER FOR SINGLE OG DUAL TASK -->
+    <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem;">
+      <div style="flex: 1; min-width: 110px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 2px;">Standard TUG (sek)</label>
+        <input type="number" class="js-tug-input-single mp-tug-input" step="0.01" min="1" max="120" placeholder="f.eks. 9.50">
+      </div>
+
+      <div class="js-dual-input-container" style="flex: 1; min-width: 110px; display: none;">
+        <label class="js-dual-label" style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 2px;">Dual Task Tid (sek)</label>
+        <input type="number" class="js-tug-input-dual mp-tug-input" step="0.01" min="1" max="120" placeholder="f.eks. 12.30">
+      </div>
+    </div>
+
+    <!-- VURDERING / RESULTAT KORT -->
+    <div class="js-tug-eval-badge mp-tug-status-badge" style="background: #e2e8f0; color: #475569;">
+      Indtast tid for at se faldrisiko-vurdering
+    </div>
+
+    <!-- GEM KNAP -->
+    <button type="button" class="js-tug-save-btn btn--action" style="width: 100%; padding: 10px; border-radius: 8px; font-weight: 800; border: none; cursor: pointer;">
+      💾 Gem resultat i listen
+    </button>
+  </div>
+
+  <!-- RESULTATLOG TABEL -->
+  <div class="js-tug-log-wrapper" style="display: none; border-top: 1.5px dashed #cbd5e1; padding-top: 1rem;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+      <strong style="font-size: 0.85rem; color: #0f172a;">📋 Gemte TUG Testresultater</strong>
+      <button type="button" class="js-tug-clear-log" style="background: none; border: none; font-size: 0.725rem; font-weight: 800; color: #ef4444; cursor: pointer;">Nulstil liste</button>
+    </div>
+    <div style="overflow-x: auto;">
+      <table class="mp-tug-log-table">
+        <thead>
+          <tr>
+            <th>Navn</th>
+            <th>Alder</th>
+            <th>Standard</th>
+            <th>Dual Task</th>
+            <th>DTC (%)</th>
+            <th>Vurdering</th>
+            <th style="width: 50px;"></th>
+          </tr>
+        </thead>
+        <tbody class="js-tug-log-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- MODAL FOR REDIGERING AF GEMT RESULTAT -->
+  <div class="js-tug-modal mp-tug-modal">
+    <div class="mp-tug-modal-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem;">
+        <h4 style="margin:0; font-size:0.95rem; font-weight:800; color:#0f172a;">Redigér TUG Testresultat</h4>
+        <button type="button" class="js-modal-close" style="background:none; border:none; font-size:1.2rem; cursor:pointer; color:#64748b;">✖</button>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.65rem; margin-bottom: 1.25rem;">
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569;">Navn / ID</label>
+          <input type="text" class="js-modal-name mp-tug-input" style="text-align: left; padding-left: 8px;">
+        </div>
+        <div style="display: flex; gap: 0.5rem;">
+          <div style="flex: 1;">
+            <label style="font-size: 0.725rem; font-weight: 800; color: #475569;">Alder</label>
+            <input type="number" class="js-modal-age mp-tug-input">
+          </div>
+          <div style="flex: 1;">
+            <label style="font-size: 0.725rem; font-weight: 800; color: #475569;">Køn</label>
+            <select class="js-modal-gender mp-tug-input">
+              <option value="male">Mand</option>
+              <option value="female">Kvinde</option>
+            </select>
+          </div>
+        </div>
+        <div style="display: flex; gap: 0.5rem;">
+          <div style="flex: 1;">
+            <label style="font-size: 0.725rem; font-weight: 800; color: #475569;">Standard TUG (s)</label>
+            <input type="number" step="0.01" class="js-modal-single mp-tug-input">
+          </div>
+          <div style="flex: 1;">
+            <label style="font-size: 0.725rem; font-weight: 800; color: #475569;">Dual Task (s)</label>
+            <input type="number" step="0.01" class="js-modal-dual mp-tug-input">
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.5rem;">
+        <button type="button" class="js-modal-save btn--primary" style="flex: 1; padding: 8px; border-radius: 6px; font-weight: 800; border: none; cursor: pointer;">Gem ændringer</button>
+        <button type="button" class="js-modal-close btn--reset" style="padding: 8px 12px; border-radius: 6px; font-weight: 800; border: none; cursor: pointer;">Annullér</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const container = document.querySelector('[data-calculator="tug-test"]');
+  if (!container) return;
+
+  let activeMode = 'single'; // 'single', 'cog', 'man'
+  let timerInterval = null;
+  let timerStartTime = 0;
+  let timerElapsedMs = 0;
+  let isTimerRunning = false;
+
+  let savedResults = [];
+  let editingIdx = null;
+
+  // DOM referencer
+  const modeBtns = container.querySelectorAll('.js-mode-btn');
+  const timerDisplay = container.querySelector('.js-tug-timer-display');
+  const btnStart = container.querySelector('.js-tug-start-btn');
+  const btnStop = container.querySelector('.js-tug-stop-btn');
+  const btnReset = container.querySelector('.js-tug-reset-btn');
+
+  const inputName = container.querySelector('.js-tug-input-name');
+  const inputAge = container.querySelector('.js-tug-input-age');
+  const inputGender = container.querySelector('.js-tug-input-gender');
+  const inputSingle = container.querySelector('.js-tug-input-single');
+  const inputDual = container.querySelector('.js-tug-input-dual');
+  const dualContainer = container.querySelector('.js-dual-input-container');
+  const dualLabel = container.querySelector('.js-dual-label');
+
+  const evalBadge = container.querySelector('.js-tug-eval-badge');
+  const btnSave = container.querySelector('.js-tug-save-btn');
+
+  const logWrapper = container.querySelector('.js-tug-log-wrapper');
+  const logTbody = container.querySelector('.js-tug-log-tbody');
+  const btnClearLog = container.querySelector('.js-tug-clear-log');
+
+  // Modal referencer
+  const modal = container.querySelector('.js-tug-modal');
+  const modalName = container.querySelector('.js-modal-name');
+  const modalAge = container.querySelector('.js-modal-age');
+  const modalGender = container.querySelector('.js-modal-gender');
+  const modalSingle = container.querySelector('.js-modal-single');
+  const modalDual = container.querySelector('.js-modal-dual');
+  const modalSave = container.querySelector('.js-modal-save');
+  const modalCloseBtns = container.querySelectorAll('.js-modal-close');
+
+  // MODE TOGGLE
+  modeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modeBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeMode = btn.getAttribute('data-mode');
+
+      if (activeMode === 'single') {
+        dualContainer.style.display = 'none';
+      } else {
+        dualContainer.style.display = 'block';
+        dualLabel.textContent = activeMode === 'cog' ? 'TUG Cognitive Tid (sek)' : 'TUG Manual Tid (sek)';
+      }
+      evaluateCurrent();
+    });
+  });
+
+  // STOPUR LOGIK
+  function formatTimeMs(ms) {
+    const totalSec = ms / 1000;
+    const mins = Math.floor(totalSec / 60);
+    const secs = Math.floor(totalSec % 60);
+    const hundredths = Math.floor((ms % 1000) / 10);
+
+    const mStr = String(mins).padStart(2, '0');
+    const sStr = String(secs).padStart(2, '0');
+    const hStr = String(hundredths).padStart(2, '0');
+
+    return `${mStr}:${sStr}.${hStr}`;
+  }
+
+  btnStart.addEventListener('click', () => {
+    if (isTimerRunning) return;
+    isTimerRunning = true;
+    timerStartTime = performance.now() - timerElapsedMs;
+    timerInterval = setInterval(() => {
+      timerElapsedMs = performance.now() - timerStartTime;
+      timerDisplay.textContent = formatTimeMs(timerElapsedMs);
+    }, 10);
+
+    btnStart.disabled = true;
+    btnStop.disabled = false;
+  });
+
+  btnStop.addEventListener('click', () => {
+    if (!isTimerRunning) return;
+    isTimerRunning = false;
+    clearInterval(timerInterval);
+
+    btnStart.disabled = false;
+    btnStop.disabled = true;
+
+    // Indsæt den målte tid i det relevante inputfelt
+    const timeInSec = (timerElapsedMs / 1000).toFixed(2);
+    if (activeMode === 'single') {
+      inputSingle.value = timeInSec;
+    } else {
+      inputDual.value = timeInSec;
+    }
+    evaluateCurrent();
+  });
+
+  btnReset.addEventListener('click', () => {
+    isTimerRunning = false;
+    clearInterval(timerInterval);
+    timerElapsedMs = 0;
+    timerDisplay.textContent = '00:00.00';
+    btnStart.disabled = false;
+    btnStop.disabled = true;
+  });
+
+  // EVALUERING
+  function evaluateTUG(singleTime, dualTime, mode) {
+    const t = parseFloat(singleTime);
+    if (isNaN(t) || t <= 0) {
+      return { label: 'Indtast tid for at se faldrisiko-vurdering', color: '#e2e8f0', textColor: '#475569', dtc: null };
+    }
+
+    let dtc = null;
+    if (dualTime && !isNaN(parseFloat(dualTime)) && parseFloat(dualTime) > 0) {
+      const d = parseFloat(dualTime);
+      dtc = (((d - t) / t) * 100).toFixed(1);
+    }
+
+    let label = '';
+    let color = '';
+    let textColor = '#ffffff';
+
+    if (t < 10) {
+      label = 'Normal mobilitet / Lav faldrisiko';
+      color = '#22c55e';
+    } else if (t < 20) {
+      label = 'God mobilitet / Moderat faldrisiko';
+      color = '#eab308';
+      textColor = '#0f172a';
+    } else if (t < 30) {
+      label = 'Nedsat mobilitet / Forøget faldrisiko';
+      color = '#f97316';
+    } else {
+      label = 'Markant nedsat mobilitet / Høj faldrisiko';
+      color = '#ef4444';
+    }
+
+    if (dtc !== null && parseFloat(dtc) > 15) {
+      label += ` (⚠️ Højt Dual Task Tab: +${dtc}%)`;
+    }
+
+    return { label, color, textColor, dtc };
+  }
+
+  function evaluateCurrent() {
+    const res = evaluateTUG(inputSingle.value, inputDual.value, activeMode);
+    evalBadge.textContent = res.label;
+    evalBadge.style.backgroundColor = res.color;
+    evalBadge.style.color = res.textColor;
+  }
+
+  [inputSingle, inputDual].forEach(el => el.addEventListener('input', evaluateCurrent));
+
+  // GEM RESULTAT
+  btnSave.addEventListener('click', () => {
+    const name = inputName.value.trim() || `Person ${savedResults.length + 1}`;
+    const age = parseInt(inputAge.value, 10) || 70;
+    const gender = inputGender.value;
+    const single = parseFloat(inputSingle.value) || 0;
+    const dual = parseFloat(inputDual.value) || null;
+
+    if (single <= 0) {
+      alert('Indtast venligst en gyldig tid for Standard TUG.');
+      return;
+    }
+
+    const evalRes = evaluateTUG(single, dual, activeMode);
+
+    savedResults.push({
+      name,
+      age,
+      gender,
+      single: single.toFixed(2),
+      dual: dual ? dual.toFixed(2) : '-',
+      dtc: evalRes.dtc ? `${evalRes.dtc}%` : '-',
+      status: evalRes.label,
+      color: evalRes.color
+    });
+
+    renderLog();
+    inputName.value = '';
+  });
+
+  function renderLog() {
+    if (savedResults.length === 0) {
+      logWrapper.style.display = 'none';
+      return;
+    }
+
+    logWrapper.style.display = 'block';
+    logTbody.innerHTML = savedResults.map((item, idx) => `
+      <tr>
+        <td><strong>${item.name}</strong></td>
+        <td>${item.age} år</td>
+        <td>${item.single}s</td>
+        <td>${item.dual !== '-' ? item.dual + 's' : '-'}</td>
+        <td style="font-weight:800; color:${parseFloat(item.dtc) > 15 ? '#dc2626' : '#0f172a'};">${item.dtc}</td>
+        <td><span style="display:inline-block; padding:2px 6px; border-radius:4px; font-size:0.7rem; font-weight:800; background-color:${item.color}; color:#fff;">${item.status}</span></td>
+        <td style="text-align:right; white-space:nowrap;">
+          <button type="button" class="js-edit-row" data-idx="${idx}" style="background:none; border:none; cursor:pointer; font-size:0.9rem;" title="Redigér">✏️</button>
+          <button type="button" class="js-delete-row" data-idx="${idx}" style="background:none; border:none; cursor:pointer; font-size:0.9rem; opacity:0.6;" title="Slet">🗑️</button>
+        </td>
+      </tr>
+    `).join('');
+
+    // Event listeners til redigering og sletning
+    logTbody.querySelectorAll('.js-edit-row').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const idx = parseInt(e.currentTarget.getAttribute('data-idx'), 10);
+        openEditModal(idx);
+      });
+    });
+
+    logTbody.querySelectorAll('.js-delete-row').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const idx = parseInt(e.currentTarget.getAttribute('data-idx'), 10);
+        savedResults.splice(idx, 1);
+        renderLog();
+      });
+    });
+  }
+
+  // MODAL REDIGERINGS LOGIK
+  function openEditModal(idx) {
+    editingIdx = idx;
+    const item = savedResults[idx];
+
+    modalName.value = item.name;
+    modalAge.value = item.age;
+    modalGender.value = item.gender;
+    modalSingle.value = item.single;
+    modalDual.value = item.dual !== '-' ? item.dual : '';
+
+    modal.style.display = 'flex';
+  }
+
+  modalSave.addEventListener('click', () => {
+    if (editingIdx === null) return;
+
+    const single = parseFloat(modalSingle.value) || 0;
+    const dual = parseFloat(modalDual.value) || null;
+
+    if (single <= 0) {
+      alert('Standard TUG skal være større end 0 sekunder.');
+      return;
+    }
+
+    const evalRes = evaluateTUG(single, dual, activeMode);
+
+    savedResults[editingIdx] = {
+      name: modalName.value.trim() || `Person ${editingIdx + 1}`,
+      age: parseInt(modalAge.value, 10) || 70,
+      gender: modalGender.value,
+      single: single.toFixed(2),
+      dual: dual ? dual.toFixed(2) : '-',
+      dtc: evalRes.dtc ? `${evalRes.dtc}%` : '-',
+      status: evalRes.label,
+      color: evalRes.color
+    };
+
+    modal.style.display = 'none';
+    editingIdx = null;
+    renderLog();
+  });
+
+  modalCloseBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modal.style.display = 'none';
+      editingIdx = null;
+    });
+  });
+
+  btnClearLog.addEventListener('click', () => {
+    savedResults = [];
+    renderLog();
+  });
+});
+</script>

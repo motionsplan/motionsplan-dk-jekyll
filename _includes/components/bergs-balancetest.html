@@ -1,0 +1,515 @@
+<style>
+  :root {
+    --bbs-primary: #2563eb;
+    --bbs-primary-hover: #1d4ed8;
+    --bbs-bg-card: #ffffff;
+    --bbs-border: #e2e8f0;
+    --bbs-text: #1e293b;
+    --bbs-muted: #64748b;
+    --bbs-success: #16a34a;
+    --bbs-warning: #ca8a04;
+    --bbs-danger: #dc2626;
+  }
+
+  .bbs-container {
+    max-width: 850px;
+    margin: 20px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--bbs-text);
+  }
+
+  .bbs-card {
+    background: var(--bbs-bg-card);
+    border: 1px solid var(--bbs-border);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 24px;
+  }
+
+  /* Mode selector tabs */
+  .bbs-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--bbs-border);
+    padding-bottom: 12px;
+  }
+
+  .bbs-tab-btn {
+    padding: 10px 18px;
+    border: none;
+    background: #f1f5f9;
+    color: var(--bbs-text);
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .bbs-tab-btn.active {
+    background: var(--bbs-primary);
+    color: #ffffff;
+  }
+
+  /* Progress bar for wizard mode */
+  .bbs-progress-bar {
+    height: 8px;
+    background: #e2e8f0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .bbs-progress-fill {
+    height: 100%;
+    background: var(--bbs-primary);
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+
+  /* Question Styling */
+  .bbs-item {
+    padding: 16px;
+    border: 1px solid var(--bbs-border);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background: #fafafa;
+  }
+
+  .bbs-item-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  .bbs-item-desc {
+    font-size: 0.9rem;
+    color: var(--bbs-muted);
+    margin-bottom: 12px;
+  }
+
+  .bbs-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .bbs-option-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 14px;
+    background: #ffffff;
+    border: 1px solid var(--bbs-border);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.92rem;
+    transition: background 0.15s ease;
+  }
+
+  .bbs-option-label:hover {
+    background: #f8fafc;
+  }
+
+  .bbs-option-label input[type="radio"] {
+    margin-top: 3px;
+  }
+
+  /* Score Dashboard */
+  .bbs-dashboard {
+    background: #f8fafc;
+    border: 2px solid var(--bbs-border);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  .bbs-score-val {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--bbs-primary);
+    line-height: 1;
+  }
+
+  .bbs-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  .badge-low { background: #dcfce7; color: var(--bbs-success); }
+  .badge-mod { background: #fef9c3; color: var(--bbs-warning); }
+  .badge-high { background: #fee2e2; color: var(--bbs-danger); }
+
+  /* Buttons */
+  .bbs-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+    justify-content: center;
+  }
+
+  .bbs-btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+
+  .bbs-btn:hover { opacity: 0.9; }
+  .bbs-btn-primary { background: var(--bbs-primary); color: #fff; }
+  .bbs-btn-secondary { background: #64748b; color: #fff; }
+  .bbs-btn-outline { background: #ffffff; border: 1px solid var(--bbs-border); color: var(--bbs-text); }
+
+  /* History Table */
+  .bbs-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    font-size: 0.9rem;
+  }
+
+  .bbs-history-table th, .bbs-history-table td {
+    padding: 10px;
+    border-bottom: 1px solid var(--bbs-border);
+    text-align: left;
+  }
+</style>
+
+<div class="bbs-container">
+  <div class="bbs-card">
+    <h2>Bergs Balanceskala (BBS) Værktøj</h2>
+    
+    <!-- Mode Selection -->
+    <div class="bbs-tabs">
+      <button class="bbs-tab-btn active" onclick="bbsSetMode('wizard')">Trin-for-trin guide</button>
+      <button class="bbs-tab-btn" onclick="bbsSetMode('free')">Vælg selv / Oversigt</button>
+    </div>
+
+    <!-- Progress indicator for wizard -->
+    <div id="bbs-progress-container" class="bbs-progress-bar">
+      <div id="bbs-progress-fill" class="bbs-progress-fill"></div>
+    </div>
+
+    <!-- Test items rendering area -->
+    <div id="bbs-items-area"></div>
+
+    <!-- Wizard Navigation buttons -->
+    <div id="bbs-wizard-nav" style="display: flex; justify-content: space-between; margin-top: 16px;">
+      <button class="bbs-btn bbs-btn-outline" id="bbs-prev-btn" onclick="bbsPrevStep()">← Forrige</button>
+      <span id="bbs-step-counter" style="align-self: center; font-weight: 600; color: var(--bbs-muted);"></span>
+      <button class="bbs-btn bbs-btn-primary" id="bbs-next-btn" onclick="bbsNextStep()">Næste →</button>
+    </div>
+
+    <!-- Live Score Result Dashboard -->
+    <div class="bbs-dashboard">
+      <div>Samlet Bergs Balance Score:</div>
+      <div class="bbs-score-val"><span id="bbs-total-score">0</span> / 56</div>
+      <div id="bbs-risk-badge" class="bbs-badge badge-high">Besvaret: 0 / 14 opgaver</div>
+      <p id="bbs-clinical-note" style="font-size: 0.88rem; color: var(--bbs-muted); margin-top: 10px;"></p>
+
+      <div class="bbs-btn-group">
+        <button class="bbs-btn bbs-btn-primary" onclick="bbsCopyText()">📋 Kopier til Journal</button>
+        <button class="bbs-btn bbs-btn-secondary" onclick="bbsDownloadImage()">🖼️ Gem som billede (PNG)</button>
+        <button class="bbs-btn bbs-btn-outline" onclick="bbsSaveRun()">💾 Gem måling i historik</button>
+        <button class="bbs-btn bbs-btn-outline" onclick="bbsReset()">🔄 Nulstil</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- History Section -->
+  <div class="bbs-card">
+    <h3>Gemte målinger i denne session</h3>
+    <table class="bbs-history-table">
+      <thead>
+        <tr>
+          <th>Tidspunkt</th>
+          <th>Score</th>
+          <th>Status</th>
+          <th>Handling</th>
+        </tr>
+      </thead>
+      <tbody id="bbs-history-body">
+        <tr><td colspan="4" style="color: var(--bbs-muted); text-align: center;">Ingen gemte målinger endnu.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  const bbsData = [
+    { id: 1, title: "1. Siddende til stående position", desc: "Instruks: Rejs dig op fra stolen. Prøv ikke at bruge hænderne til støtte.", opts: ["0: Kræver moderat/maksimal hjælp til at rejse sig", "1: Kræver minimal hjælp til at rejse sig", "2: Rejser sig vha. hænderne efter flere forsøg", "3: Rejser sig ubesværet vha. hænderne", "4: Rejser sig ubesværet uden at bruge hænderne"] },
+    { id: 2, title: "2. Stående uden støtte", desc: "Instruks: Stå uunderstøttet i 2 minutter.", opts: ["0: Kan ikke stå 30 sekunder uunderstøttet", "1: Kræver flere forsøg på at stå 30 sekunder", "2: Kan stå 30 sekunder uunderstøttet", "3: Kan stå 2 minutter med tilsyn", "4: Kan stå sikkert i 2 minutter"] },
+    { id: 3, title: "3. Siddende uden rygstøtte", desc: "Instruks: Sid uunderstøttet med krydsede arme i 2 minutter.", opts: ["0: Kan ikke sidde 10 sekunder uden støtte", "1: Kan sidde 10 sekunder uden støtte", "2: Kan sidde 30 sekunder uunderstøttet", "3: Kan sidde 2 minutter med tilsyn", "4: Kan sidde sikkert i 2 minutter"] },
+    { id: 4, title: "4. Stående til siddende position", desc: "Instruks: Sæt dig ned på stolen.", opts: ["0: Kræver hjælp til at sætte sig", "1: Sætter sig ukontrolleret eller falder tilbage", "2: Bruger bagsiden af benene mod stolen til at styre nedstigning", "3: Styrer nedstigningen ved brug af hænderne", "4: Sætter sig sikkert med minimal brug af hænder"] },
+    { id: 5, title: "5. Forflytning", desc: "Instruks: Forflyt dig fra stol til stol / stol til seng.", opts: ["0: Kræver 2 personers hjælp eller tilsyn for sikkerhed", "1: Kræver 1 persons hjælp", "2: Kan forflytte sig med verbal vejledning/tilsyn", "3: Kan forflytte sig sikkert vha. hænderne", "4: Kan forflytte sig sikkert med minimal brug af hænder"] },
+    { id: 6, title: "6. Stående med lukkede øjne", desc: "Instruks: Luk øjnene og stå stille i 10 sekunder.", opts: ["0: Kræver hjælp for ikke at falde", "1: Kan ikke holde øjnene lukkede i 3 sekunder", "2: Kan stå 3 sekunder", "3: Kan stå 10 sekunder med tilsyn", "4: Kan stå sikkert i 10 sekunder"] },
+    { id: 7, title: "7. Stående med samlede fødder", desc: "Instruks: Placer fødderne helt samlet og stå uunderstøttet.", opts: ["0: Kræver hjælp til at samle fødderne og kan ikke stå 15 sek.", "1: Kræver hjælp til position, men kan stå 15 sek. samlet", "2: Kan samle fødderne selv, men kan ikke holde det i 30 sek.", "3: Kan samle fødder uunderstøttet i 1 minut med tilsyn", "4: Kan samle fødderne selv og stå sikkert i 1 minut"] },
+    { id: 8, title: "8. Række fremad med udstrakt arm", desc: "Instruks: Ræk armen 90 grader frem og ræk så langt frem du kan uden at miste balancen.", opts: ["0: Mister balancen ved forsøg / kræver støtte", "1: Rækker fremad > 5 cm", "2: Rækker fremad > 12 cm", "3: Rækker fremad > 25 cm sikkert", "4: Rækker sikkert fremad > 25 cm med god kontrol"] },
+    { id: 9, title: "9. Samle genstand op fra gulvet", desc: "Instruks: Saml skamlen/genstanden op foran dine fødder.", opts: ["0: Kan ikke forsøge / kræver hjælp for ikke at falde", "1: Kan ikke samle genstanden op og har brug for tilsyn", "2: Kan ikke samle genstanden op, men kommer 2-5 cm fra", "3: Kan samle genstanden op, men kræver tilsyn", "4: Kan samle genstanden op sikkert og ubesværet"] },
+    { id: 10, title: "10. Dreje og kigge bagud over skuldrene", desc: "Instruks: Drej kroppen og kig bagud over venstre og højre skulder.", opts: ["0: Kræver hjælp for ikke at falde", "1: Kræver tilsyn ved vending", "2: Drejer kun til siden, men bevarer balancen", "3: Kigge bagud over én skulder, den anden viser mindre rotation", "4: Kigge bagud over begge skuldre med god vægtoverførsel"] },
+    { id: 11, title: "11. Dreje 360 grader", desc: "Instruks: Drej helt rundt i en hel cirkel (360 gr.), hold pause, og drej den anden vej rundt.", opts: ["0: Kræver hjælp ved drejning", "1: Kræver tæt tilsyn eller verbal vejledning", "2: Kan dreje 360 grader sikkert, men langsomt (> 4 sek.)", "3: Kan dreje 360 grader sikkert kun til én side på < 4 sek.", "4: Kan dreje 360 grader sikkert til begge sider på < 4 sek."] },
+    { id: 12, title: "12. Skiftevis placere fod på skammel", desc: "Instruks: Placer skiftevis hver fod på skamlen. Fortsæt til hver fod har berørt skamlen 4 gange (i alt 8 trin).", opts: ["0: Kræver hjælp / falder ved forsøg", "1: Kan gennemføre > 2 trin med minimal hjælp", "2: Kan gennemføre 4 trin uunderstøttet på > 20 sek.", "3: Kan gennemføre 8 trin på > 20 sek.", "4: Kan gennemføre 8 trin sikkert på < 20 sek."] },
+    { id: 13, title: "13. Tandem-stilling (Fod foran fod)", desc: "Instruks: Placer den ene fod direkte foran den anden (hæl mod tå).", opts: ["0: Mister balancen ved placering eller skridt", "1: Kræver hjælp til at tage skridtet, kan holde 15 sek.", "2: Kan tage et lille skridt frem og holde i 30 sek.", "3: Kan placere foden tæt foran og holde i 30 sek.", "4: Kan placere foden tandem sikkert og holde i 30 sek."] },
+    { id: 14, title: "14. Stå på ét ben", desc: "Instruks: Stå på ét ben så længe du kan uden at støtte.", opts: ["0: Kan ikke prøve / falder næsten ved forsøg", "1: Kan løfte benet og holde i 3 sekunder", "2: Kan løfte benet uunderstøttet i 3-5 sekunder", "3: Kan løfte benet uunderstøttet i 5-9 sekunder", "4: Kan løfte benet uunderstøttet og holde i > 10 sekunder"] }
+  ];
+
+  let bbsAnswers = new Array(14).fill(null);
+  let bbsMode = 'wizard'; // 'wizard' or 'free'
+  let bbsCurrentStep = 0;
+  let bbsHistory = [];
+
+  function bbsInit() {
+    bbsRender();
+  }
+
+  function bbsSetMode(mode) {
+    bbsMode = mode;
+    document.querySelectorAll('.bbs-tab-btn').forEach((btn, idx) => {
+      btn.classList.toggle('active', (mode === 'wizard' && idx === 0) || (mode === 'free' && idx === 1));
+    });
+    document.getElementById('bbs-progress-container').style.display = mode === 'wizard' ? 'block' : 'none';
+    document.getElementById('bbs-wizard-nav').style.display = mode === 'wizard' ? 'flex' : 'none';
+    bbsRender();
+  }
+
+  function bbsRender() {
+    const area = document.getElementById('bbs-items-area');
+    area.innerHTML = '';
+
+    if (bbsMode === 'wizard') {
+      const q = bbsData[bbsCurrentStep];
+      area.appendChild(bbsCreateItemEl(q));
+      
+      // Update progress bar & counter
+      const pct = ((bbsCurrentStep + 1) / 14) * 100;
+      document.getElementById('bbs-progress-fill').style.width = pct + '%';
+      document.getElementById('bbs-step-counter').innerText = `Opgeve ${bbsCurrentStep + 1} af 14`;
+      document.getElementById('bbs-prev-btn').disabled = bbsCurrentStep === 0;
+      document.getElementById('bbs-next-btn').innerText = bbsCurrentStep === 13 ? 'Afslut ✓' : 'Næste →';
+    } else {
+      bbsData.forEach(q => {
+        area.appendChild(bbsCreateItemEl(q));
+      });
+    }
+
+    bbsUpdateScore();
+  }
+
+  function bbsCreateItemEl(q) {
+    const div = document.createElement('div');
+    div.className = 'bbs-item';
+    
+    let html = `<div class="bbs-item-title">${q.title}</div>`;
+    html += `<div class="bbs-item-desc">${q.desc}</div>`;
+    html += `<div class="bbs-options">`;
+
+    q.opts.forEach((optText, score) => {
+      const isChecked = bbsAnswers[q.id - 1] === score ? 'checked' : '';
+      html += `
+        <label class="bbs-option-label">
+          <input type="radio" name="bbs_q_${q.id}" value="${score}" ${isChecked} onchange="bbsSelectAnswer(${q.id - 1}, ${score})">
+          <span>${optText}</span>
+        </label>
+      `;
+    });
+
+    html += `</div>`;
+    div.innerHTML = html;
+    return div;
+  }
+
+  function bbsSelectAnswer(qIdx, score) {
+    bbsAnswers[qIdx] = score;
+    bbsUpdateScore();
+  }
+
+  function bbsPrevStep() {
+    if (bbsCurrentStep > 0) {
+      bbsCurrentStep--;
+      bbsRender();
+    }
+  }
+
+  function bbsNextStep() {
+    if (bbsCurrentStep < 13) {
+      bbsCurrentStep++;
+      bbsRender();
+    }
+  }
+
+  function bbsUpdateScore() {
+    const answeredCount = bbsAnswers.filter(a => a !== null).length;
+    const totalScore = bbsAnswers.reduce((sum, val) => sum + (val !== null ? val : 0), 0);
+
+    document.getElementById('bbs-total-score').innerText = totalScore;
+
+    const badge = document.getElementById('bbs-risk-badge');
+    const note = document.getElementById('bbs-clinical-note');
+
+    if (answeredCount < 14) {
+      badge.className = 'bbs-badge badge-mod';
+      badge.innerText = `Udfyldt: ${answeredCount} / 14 opgaver (${totalScore} point indtil videre)`;
+      note.innerText = "Udfyld alle 14 opgaver for at få den endelige faldrisikovurdering.";
+      return;
+    }
+
+    if (totalScore >= 41) {
+      badge.className = 'bbs-badge badge-low';
+      badge.innerText = 'Lav faldrisiko (41 - 56 point)';
+      note.innerText = 'Patienten udviser god/uafhængig funktionel balance. Score ≥ 45 indikerer lav risiko for fald.';
+    } else if (totalScore >= 21) {
+      badge.className = 'bbs-badge badge-mod';
+      badge.innerText = 'Moderat faldrisiko (21 - 40 point)';
+      note.innerText = 'Patienten har nedsat balance. Score < 45 er klinisk cut-off for øget faldrisiko. Gangredskab/assistance ofte påkrævet.';
+    } else {
+      badge.className = 'bbs-badge badge-high';
+      badge.innerText = 'Høj faldrisiko (0 - 20 point)';
+      note.innerText = 'Svær balancenedsættelse. Højest mulige faldrisiko. Patienten er typisk kørestolsafhængig.';
+    }
+  }
+
+  function bbsCopyText() {
+    const totalScore = bbsAnswers.reduce((sum, val) => sum + (val !== null ? val : 0), 0);
+    const answeredCount = bbsAnswers.filter(a => a !== null).length;
+
+    let status = totalScore >= 41 ? "Lav faldrisiko" : (totalScore >= 21 ? "Moderat faldrisiko / Øget faldrisiko" : "Høj faldrisiko");
+
+    let text = `BERGS BALANCESKALA (BBS) RESULTAT\n`;
+    text += `------------------------------------\n`;
+    text += `Dato: ${new Date().toLocaleDateString('da-DK')}\n`;
+    text += `Samlet Score: ${totalScore} / 56 point (Besvaret: ${answeredCount}/14 opgaver)\n`;
+    text += `Klinisk status: ${status}\n\n`;
+    text += `Specifikke del-scores (0-4 point):\n`;
+    
+    bbsData.forEach((q, idx) => {
+      const val = bbsAnswers[idx] !== null ? bbsAnswers[idx] : 'Ej udfyldt';
+      text += `- ${q.title}: ${val}/4\n`;
+    });
+
+    navigator.clipboard.writeText(text).then(() => {
+      alert("Klinisk journaltekst kopieret til udklipsholderen!");
+    });
+  }
+
+  function bbsDownloadImage() {
+    const totalScore = bbsAnswers.reduce((sum, val) => sum + (val !== null ? val : 0), 0);
+    const canvas = document.createElement('canvas');
+    canvas.width = 600;
+    canvas.height = 350;
+    const ctx = canvas.getContext('2d');
+
+    // Background
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Border
+    ctx.strokeStyle = '#2563eb';
+    ctx.lineWidth = 6;
+    ctx.strokeRect(0, 0, canvas.width, canvas.height);
+
+    // Header
+    ctx.fillStyle = '#1e293b';
+    ctx.font = 'bold 22px sans-serif';
+    ctx.fillText('Bergs Balanceskala (BBS) Resultat', 30, 45);
+
+    ctx.fillStyle = '#64748b';
+    ctx.font = '14px sans-serif';
+    ctx.fillText(`Dato: ${new Date().toLocaleDateString('da-DK')} | Test udført via motionsplan.dk`, 30, 70);
+
+    // Score Circle/Box
+    ctx.fillStyle = '#f8fafc';
+    ctx.fillRect(30, 95, 540, 110);
+    ctx.strokeStyle = '#e2e8f0';
+    ctx.lineWidth = 1;
+    ctx.strokeRect(30, 95, 540, 110);
+
+    ctx.fillStyle = '#2563eb';
+    ctx.font = 'bold 48px sans-serif';
+    ctx.fillText(`${totalScore} / 56`, 50, 165);
+
+    ctx.fillStyle = '#1e293b';
+    ctx.font = 'bold 16px sans-serif';
+    let statusText = totalScore >= 45 ? "Lav faldrisiko (Score ≥ 45)" : "Øget faldrisiko (Score < 45)";
+    ctx.fillText(`Status: ${statusText}`, 260, 145);
+
+    ctx.font = '14px sans-serif';
+    ctx.fillStyle = '#64748b';
+    ctx.fillText(`Minimal Detectable Change (MDC): 4-6 point`, 260, 175);
+
+    // Footer note
+    ctx.fillStyle = '#1e293b';
+    ctx.font = '13px sans-serif';
+    ctx.fillText('Bemærk: En score under 45 indikerer klinisk forhøjet faldrisiko.', 30, 240);
+
+    // Trigger Download
+    const link = document.createElement('a');
+    link.download = `BBS-Resultat-${new Date().toISOString().slice(0,10)}.png`;
+    link.href = canvas.toDataURL();
+    link.click();
+  }
+
+  function bbsSaveRun() {
+    const totalScore = bbsAnswers.reduce((sum, val) => sum + (val !== null ? val : 0), 0);
+    const dateStr = new Date().toLocaleTimeString('da-DK', { hour: '2-digit', minute: '2-digit' });
+    
+    const runObj = {
+      id: Date.now(),
+      time: dateStr,
+      score: totalScore,
+      answers: [...bbsAnswers]
+    };
+
+    bbsHistory.unshift(runObj);
+    bbsRenderHistory();
+  }
+
+  function bbsRenderHistory() {
+    const tbody = document.getElementById('bbs-history-body');
+    if (bbsHistory.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="4" style="color: var(--bbs-muted); text-align: center;">Ingen gemte målinger endnu.</td></tr>';
+      return;
+    }
+
+    tbody.innerHTML = '';
+    bbsHistory.forEach(run => {
+      let status = run.score >= 45 ? "Lav faldrisiko" : "Øget faldrisiko";
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${run.time}</td>
+        <td><strong>${run.score} / 56</strong></td>
+        <td>${status}</td>
+        <td><button class="bbs-btn bbs-btn-outline" style="padding:4px 8px; font-size:0.8rem;" onclick="bbsRecallRun(${run.id})">Genkald</button></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  function bbsRecallRun(id) {
+    const run = bbsHistory.find(r => r.id === id);
+    if (run) {
+      bbsAnswers = [...run.answers];
+      bbsRender();
+      alert(`Måling fra kl. ${run.time} er genkaldt!`);
+    }
+  }
+
+  function bbsReset() {
+    if (confirm("Vil du nulstille alle indtastede svar i skemaet?")) {
+      bbsAnswers = new Array(14).fill(null);
+      bbsCurrentStep = 0;
+      bbsRender();
+    }
+  }
+
+  // Auto-start tool on load
+  document.addEventListener("DOMContentLoaded", bbsInit);
+</script>

@@ -160,6 +160,13 @@ Baseret på Gibbons (2001) så kan du overveje at lave to tilvænningsforsøg og
 
 Validiteten for testen vurderes som rigtig god i mange studier ([se physio-pedia.com](https://www.physio-pedia.com/Six_Minute_Walk_Test_/_6_Minute_Walk_Test)).
 
+> **Vil du supplere med andre kliniske gang- og balancetests?**  
+> Hvor 6 minutters gå-testen (6MWT) måler den funktionelle udholdenhed over tid, kan du kombinere med andre validerede felt-tests afhængigt af dit testformål:
+> * **[Timed Up and Go (TUG) test](/timed-up-and-go-test/):** Evaluerer den nære balancestyrke, rejse-sætte sig funktion og faldrisiko på kort afstand (3 meter).
+* **[Bergs Balanceskala (BBS)](/bergs-balanceskala/):** Dybdegående balancetest (14 opgaver) med interaktivt scoringsværktøj og faldrisikoprofil.
+> * **[Rockport 1,6 km gangtest](/rockport-1-6-km-gangtest/):** Ideel til mere velfungerende motionister og seniorer, hvor du ønsker at beregne et eksakt kondital ($VO_{2\text{max}}$) ud fra gangtid og pulssvar.
+{: .notice .notice--info }
+
 ## Ofte stillede spørgsmål om 6 minutters gangtest
 
 {% include motionsplan/faq.html %}

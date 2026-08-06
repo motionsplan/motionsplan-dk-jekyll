@@ -1,0 +1,852 @@
+<!-- _includes/calc/30-15-ift.html -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+  .mp-ift-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 20px;
+    max-width: 720px;
+    width: 100% !important;
+    margin: 1.5rem auto;
+    font-family: system-ui, -apple-system, sans-serif;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .mp-ift-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #f1f3f5;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+  }
+  .mp-ift-title { margin: 0 0 4px 0; font-size: 1.15rem; font-weight: 800; color: #0f172a; }
+  .mp-ift-subtitle { margin: 0; font-size: 0.8rem; color: #64748b; line-height: 1.35; }
+
+  /* MODE SELECTOR */
+  .mp-ift-mode-toggle {
+    display: flex;
+    gap: 4px;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    border: 1px solid #cbd5e1;
+    width: 100%;
+  }
+  .mp-ift-mode-btn {
+    flex: 1;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 7px;
+    font-size: 0.8rem;
+    font-weight: 800;
+    cursor: pointer;
+    background: transparent;
+    color: #64748b;
+    transition: all 0.15s ease;
+  }
+  .mp-ift-mode-btn.active {
+    background: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  }
+
+  /* STATS GRID */
+  .mp-ift-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; width: 100%; }
+  .mp-ift-stat-box { background: #f1f5f9; padding: 10px 4px; border-radius: 10px; text-align: center; }
+  .mp-ift-stat-box.highlight { background: #eff6ff; border: 1.5px solid #bfdbfe; }
+  .mp-ift-stat-val { font-size: 1.5rem; font-weight: 900; color: #0f172a; line-height: 1; }
+  .mp-ift-stat-lbl { font-size: 0.625rem; font-weight: 800; color: #64748b; margin-top: 4px; display: block; text-transform: uppercase; }
+
+  .mp-ift-phase-badge { padding: 8px 12px; border-radius: 8px; font-weight: 800; font-size: 0.95rem; text-align: center; background: #e2e8f0; color: #475569; margin-bottom: 14px; width: 100%; }
+  .mp-ift-phase-badge.running { background: #dbeafe; color: #1e40af; }
+  .mp-ift-phase-badge.resting { background: #fef3c7; color: #b45309; }
+
+  /* BANE MED 3M ZONER OG KEGLER */
+  .mp-ift-pitch {
+    background: linear-gradient(90deg, #15803d 0%, #16a34a 25%, #15803d 50%, #16a34a 75%, #15803d 100%);
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    position: relative;
+    height: 110px;
+    margin: 14px 0;
+    box-shadow: inset 0 0 12px rgba(0,0,0,0.25);
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .mp-ift-zone-3m {
+    position: absolute;
+    top: 0; bottom: 0;
+    background: rgba(253, 224, 71, 0.22);
+    border-left: 1px dashed rgba(255, 255, 255, 0.8);
+    border-right: 1px dashed rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 4px;
+    font-size: 0.55rem;
+    font-weight: 900;
+    color: #fef08a;
+    pointer-events: none;
+  }
+  .zone-a { left: 2%; width: 7.5%; }
+  .zone-b { left: 46.25%; width: 7.5%; }
+  .zone-c { right: 2%; width: 7.5%; }
+
+  .mp-ift-pitch-line { position: absolute; top: 0; bottom: 0; width: 3px; background: #ffffff; }
+  .line-a-pos { left: 5%; }
+  .line-b-pos { left: 50%; }
+  .line-c-pos { right: 5%; }
+
+  .mp-ift-cone { position: absolute; font-size: 0.85rem; line-height: 1; z-index: 2; }
+  .cone-a-top { top: 6px; left: calc(5% - 7px); }
+  .cone-a-bot { bottom: 6px; left: calc(5% - 7px); }
+  .cone-b-top { top: 6px; left: calc(50% - 7px); }
+  .cone-b-bot { bottom: 6px; left: calc(50% - 7px); }
+  .cone-c-top { top: 6px; right: calc(5% - 7px); }
+  .cone-c-bot { bottom: 6px; right: calc(5% - 7px); }
+
+  .mp-ift-line-label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.75rem;
+    font-weight: 900;
+    color: #ffffff;
+    background: rgba(0,0,0,0.4);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  .label-a { left: calc(5% + 6px); }
+  .label-b { left: calc(50% + 6px); }
+  .label-c { right: calc(5% + 6px); }
+
+  .mp-ift-runner {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7rem;
+    z-index: 4;
+  }
+
+  .mp-ift-input { height: 38px; border-radius: 8px; border: 1.5px solid #cbd5e1; text-align: center; font-weight: 800; font-size: 0.85rem; box-sizing: border-box; width: 100%; }
+  
+  .btn--primary { background: #2563eb; color: #ffffff; }
+  .btn--stop { background: #dc2626; color: #ffffff; }
+  .btn--reset { background: #cbd5e1; color: #334155; }
+  .btn--fault { background: #ea580c; color: #ffffff; }
+
+  /* GENDER SWITCH STYLES */
+  .mp-ift-gender-switch {
+    height: 38px;
+    display: flex;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 2px;
+    border: 1.5px solid #cbd5e1;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .mp-ift-gender-switch label {
+    flex: 1;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+  }
+  .mp-ift-gender-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 800;
+    border-radius: 6px;
+    transition: all 0.15s ease;
+  }
+
+  /* 100% BREDDE PA LOG TABEL */
+  .mp-ift-log-wrapper { width: 100% !important; box-sizing: border-box; }
+  .mp-ift-log-table {
+    width: 100% !important;
+    border-collapse: collapse;
+    font-size: 0.825rem;
+    margin-top: 0.5rem;
+  }
+  .mp-ift-log-table th { background: #f1f5f9; color: #475569; padding: 8px; text-align: left; font-weight: 800; border-bottom: 1.5px solid #cbd5e1; }
+  .mp-ift-log-table td { padding: 8px; border-bottom: 1px solid #e2e8f0; color: #0f172a; font-weight: 600; vertical-align: middle; }
+
+  .mp-gender-toggle-btn {
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    color: #1d4ed8;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 0.725rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .mp-gender-toggle-btn:hover {
+    background: #dbeafe;
+  }
+</style>
+
+<div class="mp-ift-card" data-calculator="30-15-ift">
+  
+  <!-- Header -->
+  <div class="mp-ift-header">
+    <div>
+      <h3 class="mp-ift-title">⚡ 30-15 Intermittent Fitness Test (30-15 IFT)</h3>
+      <p class="mp-ift-subtitle">30s løb (40m bane A-B-C) interneret med 15s gå-restitution. Start: 8,0 km/t (+0.5 km/t pr. trin).</p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- Mode Selector -->
+  <div class="mp-ift-mode-toggle" data-html2canvas-ignore="true">
+    <button type="button" class="mp-ift-mode-btn js-mode-btn active" data-mode="timer">⏱️ Kør Test med Timer</button>
+    <button type="button" class="mp-ift-mode-btn js-mode-btn" data-mode="manual">✏️ Indtast V_IFT Direkte</button>
+  </div>
+
+  <!-- SEKTION 1: TIMER VISNING -->
+  <div class="js-section-timer">
+    <!-- Topbar Controls -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+      <select class="js-ift-sound-select" style="padding: 4px 8px; border-radius: 6px; border: 1.5px solid #cbd5e1; font-weight: 800; font-size: 0.75rem; background: #f8fafc;">
+        <option value="on">🔊 Lyd til</option>
+        <option value="off">🔇 Lydløs</option>
+      </select>
+      <div class="js-ift-wakelock" style="font-size: 0.725rem; font-weight: 800; color: #166534; background: #dcfce7; border: 1px solid #86efac; padding: 3px 8px; border-radius: 10px; opacity: 0; transition: opacity 0.3s ease;">
+        📱 Skærm holdes tændt
+      </div>
+    </div>
+
+    <!-- Main Stats Grid -->
+    <div class="mp-ift-stats-grid">
+      <div class="mp-ift-stat-box">
+        <span class="js-ift-stage mp-ift-stat-val">1</span>
+        <span class="mp-ift-stat-lbl">Trin / Stage</span>
+      </div>
+      <div class="mp-ift-stat-box highlight">
+        <span class="js-ift-speed mp-ift-stat-val">8.0</span>
+        <span class="mp-ift-stat-lbl">Hastighed (km/t)</span>
+      </div>
+      <div class="mp-ift-stat-box">
+        <span class="js-ift-vift mp-ift-stat-val">8.0</span>
+        <span class="mp-ift-stat-lbl">Nuværende V_IFT</span>
+      </div>
+    </div>
+
+    <!-- Fase Indikator -->
+    <div class="js-ift-phase-badge mp-ift-phase-badge">Klar til start</div>
+
+    <!-- 40 Meter Visual Løbebane (A, B, C + 3m zoner) -->
+    <div class="mp-ift-pitch">
+      <div class="mp-ift-zone-3m zone-a">3m Zone</div>
+      <div class="mp-ift-zone-3m zone-b">3m Zone</div>
+      <div class="mp-ift-zone-3m zone-c">3m Zone</div>
+
+      <div class="mp-ift-pitch-line line-a-pos"></div>
+      <div class="mp-ift-pitch-line line-b-pos"></div>
+      <div class="mp-ift-pitch-line line-c-pos"></div>
+
+      <span class="mp-ift-cone cone-a-top">🟠</span>
+      <span class="mp-ift-cone cone-a-bot">🟠</span>
+      <span class="mp-ift-cone cone-b-top">🟠</span>
+      <span class="mp-ift-cone cone-b-bot">🟠</span>
+      <span class="mp-ift-cone cone-c-top">🟠</span>
+      <span class="mp-ift-cone cone-c-bot">🟠</span>
+
+      <span class="mp-ift-line-label label-a">A (0m)</span>
+      <span class="mp-ift-line-label label-b">B (20m)</span>
+      <span class="mp-ift-line-label label-c">C (40m)</span>
+
+      <div class="js-ift-runner mp-ift-runner">🏃</div>
+    </div>
+
+    <!-- Countdown Bar -->
+    <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 700; color: #475569; margin-bottom: 12px;">
+      <span>Næste linje om: <strong class="js-ift-time-to-beep" style="color:#0f172a;">0.0s</strong></span>
+      <span>Fasetid tilbage: <strong class="js-ift-phase-time" style="color:#2563eb;">30.0s</strong></span>
+    </div>
+
+    <!-- Controls (START / STOP / GENOPTAG) -->
+    <div style="display: flex; gap: 8px; margin-bottom: 12px;" data-html2canvas-ignore="true">
+      <button type="button" class="js-ift-toggle-btn btn--primary" style="flex: 1; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 8px; border: none; cursor: pointer;">
+        ▶️ Start Test
+      </button>
+      <button type="button" class="js-ift-reset btn--reset" disabled style="padding: 12px 18px; font-weight: 800; border-radius: 8px; border: none; cursor: pointer;" title="Nulstil">
+        🗑️
+      </button>
+    </div>
+
+    <!-- ATLET GEMME-ZONEN -->
+    <div style="background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 10px; padding: 0.85rem; margin-bottom: 1.25rem;" data-html2canvas-ignore="true">
+      <div style="font-size: 0.775rem; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Markér atlet der udgår på dette trin:</div>
+      <div style="display: flex; gap: 6px;">
+        <input type="text" class="js-ift-runner-name mp-ift-input" placeholder="Atletens navn (valgfrit)" style="text-align: left; padding-left: 10px; flex: 1;">
+        <button type="button" class="js-ift-log-runner btn--fault" style="padding: 0 14px; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; white-space: nowrap;">
+          🛑 Gem V_IFT
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEKTION 2: BEREGNER MED KØN-SWITCH (100% BREDDE) -->
+  <div style="background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 12px; padding: 1.15rem; text-align: left; width: 100%; box-sizing: border-box;">
+    <h4 style="margin: 0 0 0.75rem 0; font-size: 0.875rem; font-weight: 800; color: #0f172a;">📊 Stamdata til VO₂max (Buchheit Formel)</h4>
+    
+    <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem;">
+      <div style="flex: 1; min-width: 100px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 2px;">V_IFT (km/t)</label>
+        <input type="number" class="js-ift-input-vift mp-ift-input" step="0.5" min="8" max="26" value="18.0">
+      </div>
+      <div style="flex: 0.8; min-width: 80px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 2px;">Alder (år)</label>
+        <input type="number" class="js-ift-input-age mp-ift-input" min="10" max="80" value="25">
+      </div>
+      <div style="flex: 0.8; min-width: 80px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 2px;">Vægt (kg)</label>
+        <input type="number" class="js-ift-input-weight mp-ift-input" min="30" max="150" value="75">
+      </div>
+
+      <!-- KØN-SWITCH I STEDET FOR DROPDOWN -->
+      <div style="flex: 1.2; min-width: 130px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 2px;">Køn</label>
+        <div class="mp-ift-gender-switch">
+          <label>
+            <input type="radio" name="ift_form_gender" value="male" class="js-ift-gender-radio" checked style="display:none;">
+            <div class="js-ift-box-male mp-ift-gender-box" style="background: #2563eb; color: #ffffff;">Mand</div>
+          </label>
+          <label>
+            <input type="radio" name="ift_form_gender" value="female" class="js-ift-gender-radio" style="display:none;">
+            <div class="js-ift-box-female mp-ift-gender-box" style="color: #475569;">Kvinde</div>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Output Boks -->
+    <div style="display: flex; gap: 1rem; align-items: center; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 10px; padding: 0.85rem 1.15rem; margin-bottom: 1rem; width: 100%; box-sizing: border-box;">
+      <div style="flex: 1;">
+        <div style="font-size: 0.725rem; font-weight: 800; color: #64748b; text-transform: uppercase;">Estimeret VO₂max</div>
+        <div class="js-ift-vo2-result" style="font-size: 2.2rem; font-weight: 900; color: #1e3a8a; line-height: 1.1;">-</div>
+        <div style="font-size: 0.725rem; color: #3b82f6; font-weight: 700;">ml/kg/min</div>
+      </div>
+      <div style="flex: 1.2; border-left: 1px solid #e2e8f0; padding-left: 1rem;">
+        <div style="font-size: 0.75rem; font-weight: 800; color: #475569; margin-bottom: 4px;">HIIT Målzoner (baseret på V_IFT)</div>
+        <div style="font-size: 0.725rem; color: #334155; line-height: 1.4;" class="js-ift-zones">
+          Udfyld V_IFT for at beregne træningszoner.
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTATLOG MED DIREKTE KØN-SKIFT I TABELLEN (100% BREDDE) -->
+    <div class="js-ift-log-wrapper mp-ift-log-wrapper" style="display: none; border-top: 1.5px dashed #cbd5e1; padding-top: 0.85rem; margin-top: 0.85rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+        <strong style="font-size: 0.8rem; color: #0f172a;">📋 Registrerede Atleter & Resultater</strong>
+        <button type="button" class="js-ift-clear-log" style="background: none; border: none; font-size: 0.725rem; font-weight: 800; color: #ef4444; cursor: pointer;">Nulstil liste</button>
+      </div>
+      <table class="mp-ift-log-table">
+        <thead>
+          <tr>
+            <th>Navn</th>
+            <th>Trin</th>
+            <th>V_IFT</th>
+            <th>Køn</th>
+            <th>VO₂max</th>
+            <th style="width: 30px;"></th>
+          </tr>
+        </thead>
+        <tbody class="js-ift-log-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="mp-action-group" style="margin-top: 1.15rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn" style="width: 100%; padding: 10px; background: #2563eb; color: #fff; font-weight: 800; border: none; border-radius: 8px; cursor: pointer;">📸 Download rapport</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const container = document.querySelector('[data-calculator="30-15-ift"]');
+  if (!container) return;
+
+  let isRunning = false;
+  let hasStarted = false;
+  let isResting = false;
+  let currentStage = 1;
+  let currentSpeed = 8.0;
+  let vIft = 8.0;
+
+  let audioCtx = null;
+  let wakeLock = null;
+  let animFrame = null;
+
+  let phaseStartTime = 0;
+  let phaseDuration = 30000;
+  let lineBeepTimes = [];
+  let loggedRunners = [];
+
+  // LØBER START- OG OFFSET VÆRDIER
+  let startOffsetMeters = 0; // Nuværende start-offset på 80m løbefløjen
+  let nextStartOffsetMeters = 0; // Næste offset efter pausen
+  let restStartPosPct = 5;
+  let restTargetPosPct = 5;
+
+  // DOM Elements
+  const modeBtns = container.querySelectorAll('.js-mode-btn');
+  const sectionTimer = container.querySelector('.js-section-timer');
+
+  const stageDisplay = container.querySelector('.js-ift-stage');
+  const speedDisplay = container.querySelector('.js-ift-speed');
+  const viftDisplay = container.querySelector('.js-ift-vift');
+  const phaseBadge = container.querySelector('.js-ift-phase-badge');
+  const timeToBeepDisplay = container.querySelector('.js-ift-time-to-beep');
+  const phaseTimeDisplay = container.querySelector('.js-ift-phase-time');
+  const runner = container.querySelector('.js-ift-runner');
+  const soundSelect = container.querySelector('.js-ift-sound-select');
+  const wakelockStatus = container.querySelector('.js-ift-wakelock');
+
+  const btnToggle = container.querySelector('.js-ift-toggle-btn');
+  const btnReset = container.querySelector('.js-ift-reset');
+
+  const runnerNameInput = container.querySelector('.js-ift-runner-name');
+  const btnLogRunner = container.querySelector('.js-ift-log-runner');
+
+  const inputVift = container.querySelector('.js-ift-input-vift');
+  const inputAge = container.querySelector('.js-ift-input-age');
+  const inputWeight = container.querySelector('.js-ift-input-weight');
+  const genderRadios = container.querySelectorAll('.js-ift-gender-radio');
+  const boxMale = container.querySelector('.js-ift-box-male');
+  const boxFemale = container.querySelector('.js-ift-box-female');
+
+  const vo2Result = container.querySelector('.js-ift-vo2-result');
+  const zonesDisplay = container.querySelector('.js-ift-zones');
+
+  const logWrapper = container.querySelector('.js-ift-log-wrapper');
+  const logTbody = container.querySelector('.js-ift-log-tbody');
+  const btnClearLog = container.querySelector('.js-ift-clear-log');
+  const downloadBtn = container.querySelector('.js-download-btn');
+
+  // MODE TOGGLE (TIMER VS MANUEL)
+  modeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modeBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const mode = btn.getAttribute('data-mode');
+      if (mode === 'manual') {
+        sectionTimer.style.display = 'none';
+        if (isRunning) pauseTest();
+      } else {
+        sectionTimer.style.display = 'block';
+      }
+    });
+  });
+
+  function getSelectedGender() {
+    const checked = container.querySelector('.js-ift-gender-radio:checked');
+    return checked ? checked.value : 'male';
+  }
+
+  function updateGenderSwitchUI() {
+    const val = getSelectedGender();
+    if (val === 'male') {
+      boxMale.style.backgroundColor = '#2563eb';
+      boxMale.style.color = '#ffffff';
+      boxFemale.style.backgroundColor = 'transparent';
+      boxFemale.style.color = '#475569';
+    } else {
+      boxFemale.style.backgroundColor = '#2563eb';
+      boxFemale.style.color = '#ffffff';
+      boxMale.style.backgroundColor = 'transparent';
+      boxMale.style.color = '#475569';
+    }
+  }
+
+  genderRadios.forEach(radio => {
+    radio.addEventListener('change', () => {
+      updateGenderSwitchUI();
+      calculateBuchheitVO2Max();
+    });
+  });
+
+  // BUCHHEIT FORMEL BEREGNER
+  function calcBuchheitVO2(v, a, w, g) {
+    const genderVal = (g === 'male' || g === '1') ? 1 : 2;
+    const vo2 = 28.3 - (2.15 * genderVal) - (0.741 * a) - (0.0357 * w) + (0.0586 * a * v) + (1.03 * v);
+    return Math.max(10, vo2);
+  }
+
+  function calculateBuchheitVO2Max() {
+    const v = parseFloat(inputVift.value) || 0;
+    const a = parseFloat(inputAge.value) || 25;
+    const w = parseFloat(inputWeight.value) || 75;
+    const g = getSelectedGender();
+
+    if (v <= 0) {
+      vo2Result.textContent = '-';
+      zonesDisplay.textContent = 'Udfyld V_IFT for at beregne træningszoner.';
+      return;
+    }
+
+    const vo2 = calcBuchheitVO2(v, a, w, g);
+    vo2Result.textContent = vo2.toFixed(1);
+
+    const z90 = (v * 0.90).toFixed(1);
+    const z95 = (v * 0.95).toFixed(1);
+    const z100 = v.toFixed(1);
+    const z105 = (v * 1.05).toFixed(1);
+
+    zonesDisplay.innerHTML = `
+      <strong>90–95% V_IFT:</strong> ${z90}–${z95} km/t (Lang HIIT)<br>
+      <strong>100–105% V_IFT:</strong> ${z100}–${z105} km/t (Kort HIIT 15/15)
+    `;
+  }
+
+  function playBeep(type) {
+    if (soundSelect.value === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+
+    const now = audioCtx.currentTime;
+    if (type === 'line') {
+      osc.frequency.value = 800;
+      gain.gain.setValueAtTime(0.2, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.12);
+      osc.start(now); osc.stop(now + 0.12);
+    } else if (type === 'stage_change') {
+      osc.frequency.value = 1200;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.start(now); osc.stop(now + 0.3);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function setupRunningPhase() {
+    isResting = false;
+    currentSpeed = 8.0 + (currentStage - 1) * 0.5;
+    vIft = currentSpeed;
+
+    stageDisplay.textContent = currentStage;
+    speedDisplay.textContent = currentSpeed.toFixed(1);
+    viftDisplay.textContent = vIft.toFixed(1);
+    inputVift.value = vIft.toFixed(1);
+    calculateBuchheitVO2Max();
+
+    phaseBadge.className = "js-ift-phase-badge mp-ift-phase-badge running";
+    phaseBadge.textContent = "🏃 30s LØB (40m A-B-C)";
+
+    startOffsetMeters = nextStartOffsetMeters;
+
+    const speedMs = currentSpeed / 3.6;
+    
+    // Beregn bip-tidspunkter i millisekunder
+    lineBeepTimes = [];
+    let testMeter = startOffsetMeters;
+    let timeAccum = 0;
+
+    while (timeAccum < 30000) {
+      const nextZoneMeter = (Math.floor(testMeter / 20) + 1) * 20;
+      const distToNext = nextZoneMeter - testMeter;
+      const timeToNextMs = (distToNext / speedMs) * 1000;
+
+      timeAccum += timeToNextMs;
+      testMeter = nextZoneMeter;
+
+      if (timeAccum <= 30000) {
+        lineBeepTimes.push(timeAccum);
+      }
+    }
+
+    phaseStartTime = performance.now();
+    phaseDuration = 30000;
+
+    playBeep('stage_change');
+    runLoop();
+  }
+
+  function setupRestPhase() {
+    isResting = true;
+    phaseBadge.className = "js-ift-phase-badge mp-ift-phase-badge resting";
+    phaseBadge.textContent = "🚶 15s GÅ TIL NÆRMESTE 3M ZONE";
+
+    const curLeft = parseFloat(runner.style.left) || 5;
+    restStartPosPct = curLeft;
+
+    const distToA = Math.abs(curLeft - 5);
+    const distToB = Math.abs(curLeft - 50);
+    const distToC = Math.abs(curLeft - 95);
+
+    const minDist = Math.min(distToA, distToB, distToC);
+    
+    // Beregn hvilken linje atleten går hen til, og sæt den nye start-offset
+    const speedMs = currentSpeed / 3.6;
+    const totalRunMeters = startOffsetMeters + (30 * speedMs);
+    const lastPosInLoop = totalRunMeters % 80;
+
+    if (minDist === distToA) {
+      restTargetPosPct = 5;
+      nextStartOffsetMeters = 0; // Linje A -> mod C
+    } else if (minDist === distToC) {
+      restTargetPosPct = 95;
+      nextStartOffsetMeters = 40; // Linje C -> mod A
+    } else {
+      restTargetPosPct = 50;
+      // Hvis seneste retning var mod C (0..40), fortsæt mod C (20m offset). Ellers mod A (60m offset).
+      nextStartOffsetMeters = (lastPosInLoop <= 40) ? 20 : 60;
+    }
+
+    phaseStartTime = performance.now();
+    phaseDuration = 15000;
+
+    playBeep('stage_change');
+    runLoop();
+  }
+
+  function runLoop() {
+    if (!isRunning) return;
+
+    const now = performance.now();
+    const elapsed = now - phaseStartTime;
+    const remainingPhase = Math.max(0, (phaseDuration - elapsed) / 1000);
+
+    phaseTimeDisplay.textContent = `${remainingPhase.toFixed(1)}s`;
+
+    if (!isResting) {
+      const nextBeep = lineBeepTimes.find(t => t > elapsed);
+      if (nextBeep) {
+        timeToBeepDisplay.textContent = `${((nextBeep - elapsed) / 1000).toFixed(1)}s`;
+      } else {
+        timeToBeepDisplay.textContent = `${remainingPhase.toFixed(1)}s`;
+      }
+
+      if (lineBeepTimes.length > 0 && elapsed >= lineBeepTimes[0]) {
+        playBeep('line');
+        lineBeepTimes.shift();
+      }
+
+      const speedMs = currentSpeed / 3.6;
+      const totalMeters = startOffsetMeters + ((elapsed / 1000) * speedMs);
+      const posOnTrack = (totalMeters % 80);
+
+      let posPct = 0;
+      if (posOnTrack <= 40) {
+        posPct = 5 + (posOnTrack / 40) * 90;
+        runner.style.transform = 'translate(-50%, -50%) scaleX(1)';
+      } else {
+        posPct = 5 + (1 - ((posOnTrack - 40) / 40)) * 90;
+        runner.style.transform = 'translate(-50%, -50%) scaleX(-1)';
+      }
+      runner.style.left = `${posPct}%`;
+    } else {
+      timeToBeepDisplay.textContent = `${remainingPhase.toFixed(1)}s`;
+
+      // Rolig gå-animation mod nærmeste zone
+      const walkProgress = Math.min(1, elapsed / 8000);
+      const currentWalkPos = restStartPosPct + (restTargetPosPct - restStartPosPct) * walkProgress;
+
+      if (restTargetPosPct >= restStartPosPct) {
+        runner.style.transform = 'translate(-50%, -50%) scaleX(1)';
+      } else {
+        runner.style.transform = 'translate(-50%, -50%) scaleX(-1)';
+      }
+      runner.style.left = `${currentWalkPos}%`;
+    }
+
+    if (elapsed >= phaseDuration) {
+      if (!isResting) {
+        setupRestPhase();
+      } else {
+        currentStage++;
+        setupRunningPhase();
+      }
+      return;
+    }
+
+    animFrame = requestAnimationFrame(runLoop);
+  }
+
+  // RENDER REGISTREREDE ATLETER MED DIREKTE KØN-SKIFTER
+  function renderRunnerLog() {
+    if (loggedRunners.length === 0) {
+      logWrapper.style.display = 'none';
+      return;
+    }
+
+    logWrapper.style.display = 'block';
+    logTbody.innerHTML = loggedRunners.map((item, idx) => `
+      <tr>
+        <td><strong>${item.name}</strong></td>
+        <td>Trin ${item.stage}</td>
+        <td>${item.vIft} km/t</td>
+        <td>
+          <button type="button" class="js-toggle-runner-gender mp-gender-toggle-btn" data-idx="${idx}">
+            ${item.gender === 'male' ? '♂ Mand' : '♀ Kvinde'}
+          </button>
+        </td>
+        <td style="color:#2563eb; font-weight:800; font-size:0.9rem;">${item.vo2}</td>
+        <td style="text-align:right;">
+          <button type="button" class="js-remove-runner" data-idx="${idx}" style="background:none; border:none; cursor:pointer; opacity:0.6;" title="Fjern">🗑️</button>
+        </td>
+      </tr>
+    `).join('');
+
+    // BIND KNAPPER I TABELLEN
+    logTbody.querySelectorAll('.js-toggle-runner-gender').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const idx = parseInt(e.currentTarget.getAttribute('data-idx'), 10);
+        const item = loggedRunners[idx];
+        item.gender = (item.gender === 'male') ? 'female' : 'male';
+        item.vo2 = calcBuchheitVO2(item.vIft, item.age, item.weight, item.gender).toFixed(1);
+        renderRunnerLog();
+      });
+    });
+
+    logTbody.querySelectorAll('.js-remove-runner').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const idx = parseInt(e.currentTarget.getAttribute('data-idx'), 10);
+        loggedRunners.splice(idx, 1);
+        renderRunnerLog();
+      });
+    });
+  }
+
+  btnLogRunner.addEventListener('click', () => {
+    const name = runnerNameInput.value.trim() || `Atlet ${loggedRunners.length + 1}`;
+    const a = parseFloat(inputAge.value) || 25;
+    const w = parseFloat(inputWeight.value) || 75;
+    const g = getSelectedGender();
+    const vo2 = calcBuchheitVO2(vIft, a, w, g).toFixed(1);
+
+    loggedRunners.push({
+      name,
+      stage: currentStage,
+      vIft: vIft.toFixed(1),
+      age: a,
+      weight: w,
+      gender: g,
+      vo2
+    });
+
+    runnerNameInput.value = '';
+    renderRunnerLog();
+  });
+
+  if (btnClearLog) {
+    btnClearLog.addEventListener('click', () => {
+      loggedRunners = [];
+      renderRunnerLog();
+    });
+  }
+
+  // SINGLE-BUTTON TOGGLE (START / STOP / GENOPTAG)
+  btnToggle.addEventListener('click', () => {
+    if (!isRunning) {
+      isRunning = true;
+      hasStarted = true;
+      requestWakeLock();
+
+      btnToggle.textContent = "⏸️ Stop / Pause";
+      btnToggle.className = "js-ift-toggle-btn btn--stop";
+      btnReset.disabled = false;
+
+      if (phaseStartTime === 0) {
+        setupRunningPhase();
+      } else {
+        phaseStartTime = performance.now() - (phaseDuration - (parseFloat(phaseTimeDisplay.textContent) * 1000));
+        runLoop();
+      }
+    } else {
+      pauseTest();
+    }
+  });
+
+  function pauseTest() {
+    isRunning = false;
+    cancelAnimationFrame(animFrame);
+    releaseWakeLock();
+
+    btnToggle.textContent = "▶️ Genoptag Test";
+    btnToggle.className = "js-ift-toggle-btn btn--primary";
+    phaseBadge.textContent = "Pauset";
+  }
+
+  btnReset.addEventListener('click', () => {
+    isRunning = false;
+    hasStarted = false;
+    cancelAnimationFrame(animFrame);
+    releaseWakeLock();
+
+    currentStage = 1;
+    currentSpeed = 8.0;
+    vIft = 8.0;
+    phaseStartTime = 0;
+    startOffsetMeters = 0;
+    nextStartOffsetMeters = 0;
+
+    stageDisplay.textContent = "1";
+    speedDisplay.textContent = "8.0";
+    viftDisplay.textContent = "8.0";
+    inputVift.value = "8.0";
+    timeToBeepDisplay.textContent = "0.0s";
+    phaseTimeDisplay.textContent = "30.0s";
+
+    runner.style.left = '5%';
+    runner.style.transform = 'translate(-50%, -50%) scaleX(1)';
+
+    btnToggle.textContent = "▶️ Start Test";
+    btnToggle.className = "js-ift-toggle-btn btn--primary";
+    btnReset.disabled = true;
+
+    phaseBadge.className = "js-ift-phase-badge mp-ift-phase-badge";
+    phaseBadge.textContent = "Klar til start";
+    calculateBuchheitVO2Max();
+  });
+
+  [inputVift, inputAge, inputWeight].forEach(el => {
+    el.addEventListener('input', calculateBuchheitVO2Max);
+  });
+
+  if (downloadBtn) {
+    downloadBtn.addEventListener('click', () => {
+      if (typeof html2canvas !== 'undefined') {
+        html2canvas(container, { scale: 2, backgroundColor: '#ffffff' }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = '30-15-ift-rapport.png';
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+    });
+  }
+
+  updateGenderSwitchUI();
+  calculateBuchheitVO2Max();
+});
+</script>
