@@ -1,0 +1,2058 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+<meta name="category" content="Tests, Balancetests">
+
+
+
+
+
+
+
+
+<title>Y-balance test: Guide, formel &amp; beregner til dynamisk balance</title>
+<meta name="description" content="Komplet guide til Y-balance testen (YBT). Mål dynamisk balance, opdag skadesrisikabel ben-asymmetri og beregn din samlede Composite Score.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="Y-balance test: Guide, formel &amp; beregner til dynamisk balance">
+<meta property="og:url" content="https://www.motionsplan.dk/y-balance-test/">
+
+<meta property="og:description" content="Komplet guide til Y-balance testen (YBT). Mål dynamisk balance, opdag skadesrisikabel ben-asymmetri og beregn din samlede Composite Score.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DY-balance+test%3A+Guide%2C+formel+%26+beregner+til+dynamisk+balance%26excerpt%3DKomplet+guide+til+Y-balance+testen+%28YBT%29.+M%C3%A5l+dynamisk+balance%2C+opdag+skadesrisikabel+ben-asymmetri+og+beregn+din+samlede+Composite+Score.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fjohnsnyderdpt.com%2Fanterior-8a34b090.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D31.+Jul+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785456000/opengraph/">
+  <meta property="og:image:alt" content="Y-balance test: Guide, formel &amp; beregner til dynamisk balance">
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="Y-balance test: Guide, formel &amp; beregner til dynamisk balance">
+  <meta name="twitter:description" content="Komplet guide til Y-balance testen (YBT). Mål dynamisk balance, opdag skadesrisikabel ben-asymmetri og beregn din samlede Composite Score.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/y-balance-test/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DY-balance+test%3A+Guide%2C+formel+%26+beregner+til+dynamisk+balance%26excerpt%3DKomplet+guide+til+Y-balance+testen+%28YBT%29.+M%C3%A5l+dynamisk+balance%2C+opdag+skadesrisikabel+ben-asymmetri+og+beregn+din+samlede+Composite+Score.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fjohnsnyderdpt.com%2Fanterior-8a34b090.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D31.+Jul+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785456000/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2020-07-16T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-07-31T00:00:00+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/y-balance-test/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/y-balance-test/#webpage",
+      "name": "Y-balance test: Guide, formel &amp; beregner til dynamisk balance",
+      "url": "https://www.motionsplan.dk/y-balance-test/",
+      "description": "Komplet guide til Y-balance testen (YBT). Mål dynamisk balance, opdag skadesrisikabel ben-asymmetri og beregn din samlede Composite Score.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2020-07-16T00:00:00+00:00",
+      "dateModified": "2026-07-31T00:00:00+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/y-balance-test/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/y-balance-test/#article",
+        "inLanguage": "da",
+        "name": "Y-balance: Test din balance med Y-balancetest 🤹‍♀️",
+        "headline": "Y-balance test: Guide, formel &amp; beregner til dynamisk balance",
+        "keywords": "test,balance,testberegner",
+        "description": "<p><strong>Y-balance testen (YBT)</strong> er en af de mest anerkendte og videnskabeligt validerede <a href=\"/balance-tests/\">balancetests</a> til at vurdere en idrætsudøvers dynamiske balance, bevægelighed og neuromuskulære kontrol under maksimal rækkevidde på ét ben.</p>",
+        "articleBody": "Y-balance testen (YBT) er en af de mest anerkendte og videnskabeligt validerede balancetests til at vurdere en idrætsudøvers dynamiske balance, bevægelighed og neuromuskulære kontrol under maksimal rækkevidde på ét ben.\n\nTesten er en forenklet og standardiseret udgave af den klassiske Star Excursion Balance Test (SEBT). Hvor SEBT måler rækkevidde i 8 retninger, reducerer Y-balancetesten dette til de 3 mest afgørende og pålidelige retninger.\n\n Hop direkte til beregneren\n\n\n\nHvorfor er Y-balancetesten så populær?\n\nY-balancetesten benyttes flittigt af fysioterapeuter, atletiktrænere og forskere inden for sportsmedicin af tre primære årsager:\n\n\n  Måling af dynamisk balance: Testen udfordrer ankler, knæ, hofter og core-stabilitet på samme tid, mens du står på ét ben og strækker det andet ben ud til grænsen af din yderstilling.\n  Skadesforebyggelse: Forskning viser, at markante asymmetrier (forskelle mellem højre og venstre ben) eller en lav samlet score øger risikoen for skader i underkroppen – særligt forreste korsbåndsskader (ACL) og ankelvrid.\n  Genoptræningsmarkør: Testen giver et objektivt tal på, hvornår en atlet er klar til at vende tilbage til sin sport (Return-to-Play) efter en skade eller operation.\n\n\n\n  Du kan læse mere om den oprindelige forskning bag Y-balance-testen hos Science for Sport.\n\n\n\n\nHvordan udføres Y-balancetesten?\n\nUnder testen står du barfodet på ét ben i midten af et “Y”. Med det modsatstående ben skal du række så langt ud som muligt i tre specifikke retninger uden at miste balancen eller sætte vægt på række-foden:\n\n\n  Anterior (Fremad): Udfordrer primært ankelmobilitet (dorsalfleksion) og forlårsstyrke.\n  Posteromedial (Bagud og indad): Udfordrer hoftens muskler og balderne.\n  Posterolateral (Bagud og udad): Udfordrer hofte- og kropsstamme-stabilitet.\n\n\n\n  \n      Y-balancetest på professionelt udstyr. Kilde: Lee et al (2015) 📷\n\n    \n\nDu kan enten købe originalt testudstyr med glde-klodser eller opstille din egen lavpraktiske model med gaffatape og et målebånd på gulvet.\n\nVideo 1: Y-balancetest med professionelt udstyr\n\n\n\n  \n    \n      \n        \n        \n      \n    \n  \n\n\n\n\n\n\nVideo 2: Y-balancetest lavet med tape på gulvet\n\n\n\n  \n    \n      \n        \n        \n      \n    \n  \n\n\n\n\n\n\nRegler og godkendte forsøg\n\nFor at et forsøg kan godkendes, skal du overholde følgende regler:\n\n  Standbenshælen skal blive i berøring med gulvet under hele løftet.\n  Du må ikke sætte vægt på række-foden eller støtte på gulvet for at holde balancen.\n  Du skal vende kontrollabelt tilbage til udgangspositionen i midten.\n\n\nTypisk måles benlængden først (fra Spina Iliaca Anterior Superior (ASIS) til den mediale malleol ved anklen). Derefter gennemføres 3 godkendte forsøg i hver retning for både højre og venstre ben, hvor den længste rækkevidde registreres i centimeter.\n\n\n\nUdregning af Composite Score (%)\n\nDa lange ben naturligt giver en længere rækkevidde i centimeter, skal målingerne altid normeres med din benlængde for at give et retfærdigt billede af din balance.\n\nDen samlede relative score (Composite Score) udregnes med følgende formel:\n\n\\[\\text{Composite Score (\\%)} = \\frac{\\text{Anterior} + \\text{Posteromedial} + \\text{Posterolateral}}{3 \\times \\text{Benlængde}} \\times 100\\]\n\n\n\nBeregn din Y-balance-test score\n\nIndtast dine målinger i centimeter i beregneren herunder for at få udregnet din samlede Composite Score og eventuelle asymmetrier mellem højre og venstre side.\n\n\n  \n  \n  \n    \n      \n        Om Y-Balance Testen\n        Måling af dynamisk postural kontrol &amp; side-asymmetri\n      \n      ✖\n    \n    \n      \n        SÅDAN UDFØRES TESTEN:\n        1. Mål atletens benlængde (cm) fra ASIS til den mediale malleol.\n        2. Atleten står på ét ben på midterpladen og rækker ud med det modsat ben i 3 retninger:\n        &nbsp;&nbsp;• Anterior (ANT): Lige fremad.\n        &nbsp;&nbsp;• Posteromedial (PM): Skråt bagud og ind over standbenet.\n        &nbsp;&nbsp;• Posterolateral (PL): Skråt bagud og ud til siden.\n        3. Registrer den bedste godkendte rækkevidde i cm (3 forsøg pr. retning).\n      \n\n      Klinisk vurdering &amp; Skadesrisiko\n      \n        Anterior asymmetri &gt; 4,0 cm: Indikerer op til 2.5–4x øget risiko for skader i underekstremiteten.\n        Composite Score &lt; 89-95%: Indikerer nedsat samlet dynamisk balance (afhænger af idræt og køn).\n      \n    \n  \n\n  \n  \n    \n      \n        Y-Balance Test Beregner &amp; Visualisering\n        ℹ️\n      \n      Indtast målinger for at plotte rækkevidde og beregne Composite Score (%) samt side-asymmetri.\n    \n\n    \n      \n        \n          🔊 Lyd\n          🔇\n        \n      \n\n      📱 Skærm tændt\n    \n  \n\n  \n  \n    🦵 Atletens Benlængde (cm):\n    \n    (Målt fra ASIS til medial malleol)\n  \n\n  \n  \n    \n    \n    \n      \n        👈 VENSTRE STANDBEN\n      \n\n      \n      \n        \n          \n          \n          \n          \n          \n          \n          \n          \n          \n          V\n\n          \n          Anterior\n          PL (Udad)\n          PM (Indad)\n\n          \n          \n\n          \n          \n          \n          \n\n          \n          --\n          --\n          --\n        \n      \n\n      \n      \n        \n          Anterior (cm):\n          \n        \n        \n          Posteromedial (cm):\n          \n        \n        \n          Posterolateral (cm):\n          \n        \n      \n\n      Composite: -- %\n    \n\n    \n    \n      \n        👉 HØJRE STANDBEN\n      \n\n      \n      \n        \n          \n          \n          \n          \n          \n          \n          \n          \n          \n          H\n\n          \n          Anterior\n          PM (Indad)\n          PL (Udad)\n\n          \n          \n\n          \n          \n          \n          \n\n          \n          --\n          --\n          --\n        \n      \n\n      \n      \n        \n          Anterior (cm):\n          \n        \n        \n          Posteromedial (cm):\n          \n        \n        \n          Posterolateral (cm):\n          \n        \n      \n\n      Composite: -- %\n    \n\n  \n\n  \n  \n    📊 Beregnet Score &amp; Forskelle\n    \n    \n      \n        --%\n        COMPOSITE VENSTRE\n        -- cm total\n      \n      \n        --%\n        COMPOSITE HØJRE\n        -- cm total\n      \n      \n        0.0 cm\n        ANTERIOR FORSKEL\n        Afventer data\n      \n    \n\n    \n    \n      \n        \n          \n            Retning\n            Venstre\n            Højre\n            Difference\n          \n        \n        \n          \n            Anterior\n            -- cm\n            -- cm\n            -- cm\n          \n          \n            Posteromedial\n            -- cm\n            -- cm\n            -- cm\n          \n          \n            Posterolateral\n            -- cm\n            -- cm\n            -- cm\n          \n        \n      \n    \n  \n\n  \n  \n    \n      Gemte Testresultater (Hukommelse)\n      🗑️ Ryd log\n    \n    \n      \n        \n          Dato\n          Comp V\n          Comp H\n          Ant. Diff\n          Status\n        \n      \n      \n        Ingen gemte test endnu\n      \n    \n  \n\n  \n  \n    📸 Tag et billede af resultatet\n  \n\n\n\n\n\n\n\n\n\nFortolkning af dine resultater\n\nNår du analyserer dine tal fra Y-balancetesten, skal du primært holde øje med to fysiologiske indikatorer:\n\n\n  Side-asymmetri (Forskellighed i fremadrettet rækkevidde): \nHvis der er mere end 4 cm forskel i Anterior (fremadrettet) rækkevidde mellem højre og venstre ben, viser studier en op mod 2,5 gange forøget risiko for skader i underkroppen.\n  Lav Composite Score: \nI idrætsgrene som basketball og fodbold betragtes en samlet score på under 89–95% (afhængigt af køn og sport) som et tegn på nedsat dynamisk balance og øget skadesrisiko.\n\n\n\n\nRelaterede emner og næste skridt\n\nVil du forbedre din score på Y-balancetesten eller dykke dybere ned i træningen bag?\n\n\n  🤸 Balancetræning – Se konkrete øvelser til at opbygge din ankeldynamik og stabilitet.\n  🧬 Hvad er balanceevnen? – Lær fysiologien bag det vestibulære system, synssansen og ledsansen (proprioception).\n  📐 Star Excursion Balance Test (SEBT) – Se andre balancetests.\n  🛑 Skadesforebyggelse – Se hvordan styrke- og balancetræning reducerer skadesrisikoen i sport.\n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DY-balance+test%3A+Guide%2C+formel+%26+beregner+til+dynamisk+balance%26excerpt%3DKomplet+guide+til+Y-balance+testen+%28YBT%29.+M%C3%A5l+dynamisk+balance%2C+opdag+skadesrisikabel+ben-asymmetri+og+beregn+din+samlede+Composite+Score.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fjohnsnyderdpt.com%2Fanterior-8a34b090.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D31.+Jul+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785456000/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/y-balance-test/#webpage"
+        },
+        "datePublished": "2020-07-16T00:00:00+00:00",
+        "dateModified": "2026-07-31T00:00:00+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=""
+>
+  
+    
+      
+      
+
+      <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/johnsnyderdpt.com/anterior-8a34b090.jpg"
+           srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/johnsnyderdpt.com/anterior-8a34b090.jpg 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/johnsnyderdpt.com/anterior-8a34b090.jpg 1600w"
+           sizes="100vw"
+           alt="Y-balance: Test din balance med Y-balancetest 🤹‍♀️"
+           class="page__hero-bg-img"
+           fetchpriority="high"
+           decoding="async">
+    
+  
+
+  
+    <div class="page__hero-filter" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));"></div>
+  
+
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Y-balance: Test din balance med Y-balancetest 🤹‍♀️
+
+        
+      </h1>
+      
+        <p class="page__lead"><strong>Y-balance testen (YBT)</strong> er en af de mest anerkendte og videnskabeligt validerede <a href="/balance-tests/">balancetests</a> til at vurdere en idrætsudøvers dynamiske balance, bevægelighed og neuromuskulære kontrol under maksimal rækkevidde på ét ben.
+</p>
+      
+      
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-07-31T00:00:00+00:00">31. jul, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Y-balance: Test din dynamiske balance med Y-balancetesten
+</span>
+  
+</div>
+
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/tests/" itemprop="item"><span itemprop="name">Tests</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+
+    
+    <li class="current">Y-balance: Test d...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Y-balance: Test din balance med Y-balancetest 🤹‍♀️">
+    <meta itemprop="description" content="Y-balance testen (YBT) er en af de mest anerkendte og videnskabeligt validerede balancetests til at vurdere en idrætsudøvers dynamiske balance, bevægelighed og neuromuskulære kontrol under maksimal rækkevidde på ét ben.">
+    <meta itemprop="datePublished" content="2020-07-16T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-07-31T00:00:00+00:00">
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#hvorfor-er-y-balancetesten-så-populær">Hvorfor er Y-balancetesten så populær?</a></li><li><a href="#hvordan-udføres-y-balancetesten">Hvordan udføres Y-balancetesten?</a><ul><li><a href="#video-1-y-balancetest-med-professionelt-udstyr">Video 1: Y-balancetest med professionelt udstyr</a></li><li><a href="#video-2-y-balancetest-lavet-med-tape-på-gulvet">Video 2: Y-balancetest lavet med tape på gulvet</a></li></ul></li><li><a href="#regler-og-godkendte-forsøg">Regler og godkendte forsøg</a></li><li><a href="#udregning-af-composite-score-">Udregning af Composite Score (%)</a></li><li><a href="#calculator">Beregn din Y-balance-test score</a></li><li><a href="#fortolkning-af-dine-resultater">Fortolkning af dine resultater</a></li><li><a href="#relaterede-emner-og-næste-skridt">Relaterede emner og næste skridt</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p><strong>Y-balance testen (YBT)</strong> er en af de mest anerkendte og videnskabeligt validerede <a href="/balance-tests/">balancetests</a> til at vurdere en idrætsudøvers dynamiske balance, bevægelighed og neuromuskulære kontrol under maksimal rækkevidde på ét ben.</p>
+
+<p>Testen er en forenklet og standardiseret udgave af den klassiske <em>Star Excursion Balance Test (SEBT)</em>. Hvor SEBT måler rækkevidde i 8 retninger, reducerer Y-balancetesten dette til de 3 mest afgørende og pålidelige retninger.</p>
+
+<p><a href="#calculator" class="btn btn--success btn--jump"><i class="fas fa-calculator"></i> Hop direkte til beregneren</a></p>
+
+<hr />
+
+<h2 id="hvorfor-er-y-balancetesten-så-populær">Hvorfor er Y-balancetesten så populær?</h2>
+
+<p>Y-balancetesten benyttes flittigt af fysioterapeuter, atletiktrænere og forskere inden for sportsmedicin af tre primære årsager:</p>
+
+<ol>
+  <li><strong>Måling af dynamisk balance:</strong> Testen udfordrer ankler, knæ, hofter og <a href="/core/">core-stabilitet</a> på samme tid, mens du står på ét ben og strækker det andet ben ud til grænsen af din yderstilling.</li>
+  <li><strong>Skadesforebyggelse:</strong> Forskning viser, at markante asymmetrier (forskelle mellem højre og venstre ben) eller en lav samlet score øger risikoen for skader i underkroppen – særligt forreste korsbåndsskader (ACL) og ankelvrid.</li>
+  <li><strong>Genoptræningsmarkør:</strong> Testen giver et objektivt tal på, hvornår en atlet er klar til at vende tilbage til sin sport (<em>Return-to-Play</em>) efter en skade eller operation.</li>
+</ol>
+
+<blockquote>
+  <p>Du kan læse mere om den oprindelige forskning bag <a href="https://www.scienceforsport.com/y-balance-test/">Y-balance-testen hos Science for Sport</a>.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="hvordan-udføres-y-balancetesten">Hvordan udføres Y-balancetesten?</h2>
+
+<p>Under testen står du barfodet på ét ben i midten af et “Y”. Med det modsatstående ben skal du række så langt ud som muligt i tre specifikke retninger uden at miste balancen eller sætte vægt på række-foden:</p>
+
+<ul>
+  <li><strong>Anterior (Fremad):</strong> Udfordrer primært ankelmobilitet (dorsalfleksion) og forlårsstyrke.</li>
+  <li><strong>Posteromedial (Bagud og indad):</strong> Udfordrer <a href="/muskler/hoften/">hoftens muskler</a> og balderne.</li>
+  <li><strong>Posterolateral (Bagud og udad):</strong> Udfordrer hofte- og kropsstamme-stabilitet.</li>
+</ul>
+
+<figure class="">
+  <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/minio.scielo.br/74b94fcee6ab71294e5aa83c63e5e439e5de18db-417a4e12.jpg" srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/minio.scielo.br/74b94fcee6ab71294e5aa83c63e5e439e5de18db-417a4e12.jpg 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/minio.scielo.br/74b94fcee6ab71294e5aa83c63e5e439e5de18db-417a4e12.jpg 1600w" sizes="(max-width: 800px) 100vw, 800px" alt="" loading="lazy" decoding="async" /><figcaption>
+      Y-balancetest på professionelt udstyr. Kilde: <a href="https://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S1413-35552015000300227">Lee et al (2015)</a> <a href="https://minio.scielo.br/documentstore/1809-9246/KkdH9VthB37pRS9g4PxtGSt/74b94fcee6ab71294e5aa83c63e5e439e5de18db.jpg" rel="nofollow noopener">📷</a>
+
+    </figcaption></figure>
+
+<p>Du kan enten købe originalt testudstyr med glde-klodser eller opstille din egen lavpraktiske model med gaffatape og et målebånd på gulvet.</p>
+
+<h3 id="video-1-y-balancetest-med-professionelt-udstyr">Video 1: Y-balancetest med professionelt udstyr</h3>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container">
+    <div class="youtube-player" data-id="OS65kbx2na0">
+      <a href="https://www.youtube.com/watch?v=OS65kbx2na0" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/OS65kbx2na0/hqdefault.jpg" loading="lazy" alt="Video: Y-balance: Test din balance med Y-balancetest 🤹‍♀️" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+
+
+</div>
+
+<p><br /></p>
+
+<h3 id="video-2-y-balancetest-lavet-med-tape-på-gulvet">Video 2: Y-balancetest lavet med tape på gulvet</h3>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container">
+    <div class="youtube-player" data-id="qFVuS-P2FrI">
+      <a href="https://www.youtube.com/watch?v=qFVuS-P2FrI" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/qFVuS-P2FrI/hqdefault.jpg" loading="lazy" alt="Video: Y-balance: Test din balance med Y-balancetest 🤹‍♀️" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+
+
+</div>
+
+<hr />
+
+<h2 id="regler-og-godkendte-forsøg">Regler og godkendte forsøg</h2>
+
+<p>For at et forsøg kan godkendes, skal du overholde følgende regler:</p>
+<ul>
+  <li>Standbenshælen skal blive i berøring med gulvet under hele løftet.</li>
+  <li>Du må <strong>ikke</strong> sætte vægt på række-foden eller støtte på gulvet for at holde balancen.</li>
+  <li>Du skal vende kontrollabelt tilbage til udgangspositionen i midten.</li>
+</ul>
+
+<p>Typisk måles benlængden først (fra <em>Spina Iliaca Anterior Superior</em> (ASIS) til den mediale malleol ved anklen). Derefter gennemføres 3 godkendte forsøg i hver retning for både højre og venstre ben, hvor den længste rækkevidde registreres i centimeter.</p>
+
+<hr />
+
+<h2 id="udregning-af-composite-score-">Udregning af Composite Score (%)</h2>
+
+<p>Da lange ben naturligt giver en længere rækkevidde i centimeter, skal målingerne altid normeres med din benlængde for at give et retfærdigt billede af din balance.</p>
+
+<p>Den samlede relative score (<strong>Composite Score</strong>) udregnes med følgende formel:</p>
+
+\[\text{Composite Score (\%)} = \frac{\text{Anterior} + \text{Posteromedial} + \text{Posterolateral}}{3 \times \text{Benlængde}} \times 100\]
+
+<hr />
+
+<h2 id="calculator">Beregn din Y-balance-test score</h2>
+
+<p>Indtast dine målinger i centimeter i beregneren herunder for at få udregnet din samlede Composite Score og eventuelle asymmetrier mellem højre og venstre side.</p>
+
+<div class="ybalance-widget">
+  
+  <!-- Info Modal -->
+  <div class="ybalance-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Y-Balance Testen</h4>
+        <span class="modal-subtitle-text">Måling af dynamisk postural kontrol &amp; side-asymmetri</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>SÅDAN UDFØRES TESTEN:</strong><br />
+        1. Mål atletens <strong>benlængde (cm)</strong> fra ASIS til den mediale malleol.<br />
+        2. Atleten står på ét ben på midterpladen og rækker ud med det modsat ben i 3 retninger:<br />
+        &nbsp;&nbsp;• <strong>Anterior (ANT):</strong> Lige fremad.<br />
+        &nbsp;&nbsp;• <strong>Posteromedial (PM):</strong> Skråt bagud og ind over standbenet.<br />
+        &nbsp;&nbsp;• <strong>Posterolateral (PL):</strong> Skråt bagud og ud til siden.<br />
+        3. Registrer den bedste godkendte rækkevidde i cm (3 forsøg pr. retning).
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Klinisk vurdering &amp; Skadesrisiko</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0;">
+        <li><strong>Anterior asymmetri &gt; 4,0 cm:</strong> Indikerer op til 2.5–4x øget risiko for skader i underekstremiteten.</li>
+        <li><strong>Composite Score &lt; 89-95%:</strong> Indikerer nedsat samlet dynamisk balance (afhænger af idræt og køn).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="ybalance-topbar">
+    <div class="ybalance-header-card">
+      <div class="card-title-row">
+        <span class="card-title">Y-Balance Test Beregner &amp; Visualisering</span>
+        <button class="info-icon-btn" type="button" title="Læs om regler og beregning">ℹ️</button>
+      </div>
+      <div class="card-desc">Indtast målinger for at plotte rækkevidde og beregne Composite Score (%) samt side-asymmetri.</div>
+    </div>
+
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="yb-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- FÆLLES BENLÆNGDE INPUT -->
+  <div class="limb-length-card">
+    <label class="limb-label" for="input-limb-length">🦵 Atletens Benlængde (cm):</label>
+    <input type="number" id="input-limb-length" class="limb-input" placeholder="f.eks. 90" step="0.5" min="40" max="130" />
+    <span class="limb-hint">(Målt fra ASIS til medial malleol)</span>
+  </div>
+
+  <!-- 2 SIDER: VENSTRE VS HØJRE INDTASTNING OG VISUEL PLOTTING -->
+  <div class="ybalance-sides-grid">
+    
+    <!-- VENSTRE STANDBEN -->
+    <div class="side-card active-card-left">
+      <div class="side-card-header left-header">
+        <span>👈 VENSTRE STANDBEN</span>
+      </div>
+
+      <!-- SVG Tegning for Venstre Y-diagram -->
+      <div class="side-svg-container">
+        <svg id="svg-left" width="100%" viewBox="0 0 220 200" preserveAspectRatio="xMidYMid meet">
+          <rect x="5" y="5" width="210" height="190" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5" />
+          
+          <!-- Y-Akser -->
+          <line x1="110" y1="105" x2="110" y2="25" stroke="#adb5bd" stroke-width="3" stroke-linecap="round" />
+          <line x1="110" y1="105" x2="45" y2="170" stroke="#adb5bd" stroke-width="3" stroke-linecap="round" />
+          <line x1="110" y1="105" x2="175" y2="170" stroke="#adb5bd" stroke-width="3" stroke-linecap="round" />
+          
+          <!-- Midterfod / Center -->
+          <circle cx="110" cy="105" r="12" fill="#e7f5ff" stroke="#228be6" stroke-width="2" />
+          <text x="110" y="108" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">V</text>
+
+          <!-- Akse Labels -->
+          <text x="110" y="18" font-size="8" font-weight="900" text-anchor="middle" fill="#495057">Anterior</text>
+          <text x="35" y="182" font-size="7" font-weight="800" text-anchor="middle" fill="#868e96">PL (Udad)</text>
+          <text x="185" y="182" font-size="7" font-weight="800" text-anchor="middle" fill="#868e96">PM (Indad)</text>
+
+          <!-- Dynamisk Polygon -->
+          <polygon id="poly-left" points="110,105 110,105 110,105" fill="rgba(34, 139, 230, 0.25)" stroke="#228be6" stroke-width="2" stroke-linejoin="round" />
+
+          <!-- Dynamiske Punkter -->
+          <circle id="dot-l-ant" cx="110" cy="105" r="5" fill="#228be6" stroke="#ffffff" stroke-width="1.5" />
+          <circle id="dot-l-pl" cx="110" cy="105" r="5" fill="#228be6" stroke="#ffffff" stroke-width="1.5" />
+          <circle id="dot-l-pm" cx="110" cy="105" r="5" fill="#228be6" stroke="#ffffff" stroke-width="1.5" />
+
+          <!-- Måleværdier på Graf -->
+          <text id="val-l-ant" x="110" y="38" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">--</text>
+          <text id="val-l-pl" x="38" y="160" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">--</text>
+          <text id="val-l-pm" x="182" y="160" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">--</text>
+        </svg>
+      </div>
+
+      <!-- Inputs for Venstre -->
+      <div class="inputs-column">
+        <div class="input-field-group">
+          <label class="field-label" for="input-l-ant">Anterior (cm):</label>
+          <input type="number" id="input-l-ant" class="yb-input" placeholder="0.0" step="0.5" />
+        </div>
+        <div class="input-field-group">
+          <label class="field-label" for="input-l-pm">Posteromedial (cm):</label>
+          <input type="number" id="input-l-pm" class="yb-input" placeholder="0.0" step="0.5" />
+        </div>
+        <div class="input-field-group">
+          <label class="field-label" for="input-l-pl">Posterolateral (cm):</label>
+          <input type="number" id="input-l-pl" class="yb-input" placeholder="0.0" step="0.5" />
+        </div>
+      </div>
+
+      <div class="side-score-footer" id="score-left-display">Composite: -- %</div>
+    </div>
+
+    <!-- HØJRE STANDBEN -->
+    <div class="side-card active-card-right">
+      <div class="side-card-header right-header">
+        <span>👉 HØJRE STANDBEN</span>
+      </div>
+
+      <!-- SVG Tegning for Højre Y-diagram -->
+      <div class="side-svg-container">
+        <svg id="svg-right" width="100%" viewBox="0 0 220 200" preserveAspectRatio="xMidYMid meet">
+          <rect x="5" y="5" width="210" height="190" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5" />
+          
+          <!-- Y-Akser -->
+          <line x1="110" y1="105" x2="110" y2="25" stroke="#adb5bd" stroke-width="3" stroke-linecap="round" />
+          <line x1="110" y1="105" x2="45" y2="170" stroke="#adb5bd" stroke-width="3" stroke-linecap="round" />
+          <line x1="110" y1="105" x2="175" y2="170" stroke="#adb5bd" stroke-width="3" stroke-linecap="round" />
+          
+          <!-- Midterfod / Center -->
+          <circle cx="110" cy="105" r="12" fill="#fff5f5" stroke="#e03131" stroke-width="2" />
+          <text x="110" y="108" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">H</text>
+
+          <!-- Akse Labels -->
+          <text x="110" y="18" font-size="8" font-weight="900" text-anchor="middle" fill="#495057">Anterior</text>
+          <text x="35" y="182" font-size="7" font-weight="800" text-anchor="middle" fill="#868e96">PM (Indad)</text>
+          <text x="185" y="182" font-size="7" font-weight="800" text-anchor="middle" fill="#868e96">PL (Udad)</text>
+
+          <!-- Dynamisk Polygon -->
+          <polygon id="poly-right" points="110,105 110,105 110,105" fill="rgba(224, 49, 49, 0.25)" stroke="#e03131" stroke-width="2" stroke-linejoin="round" />
+
+          <!-- Dynamiske Punkter -->
+          <circle id="dot-r-ant" cx="110" cy="105" r="5" fill="#e03131" stroke="#ffffff" stroke-width="1.5" />
+          <circle id="dot-r-pm" cx="110" cy="105" r="5" fill="#e03131" stroke="#ffffff" stroke-width="1.5" />
+          <circle id="dot-r-pl" cx="110" cy="105" r="5" fill="#e03131" stroke="#ffffff" stroke-width="1.5" />
+
+          <!-- Måleværdier på Graf -->
+          <text id="val-r-ant" x="110" y="38" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">--</text>
+          <text id="val-r-pm" x="38" y="160" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">--</text>
+          <text id="val-r-pl" x="182" y="160" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">--</text>
+        </svg>
+      </div>
+
+      <!-- Inputs for Højre -->
+      <div class="inputs-column">
+        <div class="input-field-group">
+          <label class="field-label" for="input-r-ant">Anterior (cm):</label>
+          <input type="number" id="input-r-ant" class="yb-input" placeholder="0.0" step="0.5" />
+        </div>
+        <div class="input-field-group">
+          <label class="field-label" for="input-r-pm">Posteromedial (cm):</label>
+          <input type="number" id="input-r-pm" class="yb-input" placeholder="0.0" step="0.5" />
+        </div>
+        <div class="input-field-group">
+          <label class="field-label" for="input-r-pl">Posterolateral (cm):</label>
+          <input type="number" id="input-r-pl" class="yb-input" placeholder="0.0" step="0.5" />
+        </div>
+      </div>
+
+      <div class="side-score-footer" id="score-right-display">Composite: -- %</div>
+    </div>
+
+  </div>
+
+  <!-- RESULTATER OG SAMMENLIGNINGS-TABEL -->
+  <div class="ybalance-stats-wrapper">
+    <h5 class="section-title">📊 Beregnet Score &amp; Forskelle</h5>
+    
+    <div class="ybalance-stats-grid">
+      <div class="stat-box highlight-box">
+        <span class="stat-value" id="stat-left-comp">--%</span>
+        <span class="stat-label">COMPOSITE VENSTRE</span>
+        <span class="stat-sub" id="stat-left-abs">-- cm total</span>
+      </div>
+      <div class="stat-box highlight-box">
+        <span class="stat-value" id="stat-right-comp">--%</span>
+        <span class="stat-label">COMPOSITE HØJRE</span>
+        <span class="stat-sub" id="stat-right-abs">-- cm total</span>
+      </div>
+      <div class="stat-box" id="asym-card">
+        <span class="stat-value" id="stat-ant-diff">0.0 cm</span>
+        <span class="stat-label">ANTERIOR FORSKEL</span>
+        <span class="stat-sub" id="stat-risk-status">Afventer data</span>
+      </div>
+    </div>
+
+    <!-- SPECIFIK DETALJE-TABEL (NU 100% BREDDE) -->
+    <div class="table-card">
+      <table class="yb-detail-table">
+        <thead>
+          <tr>
+            <th>Retning</th>
+            <th>Venstre</th>
+            <th>Højre</th>
+            <th>Difference</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Anterior</strong></td>
+            <td id="cell-l-ant">-- cm</td>
+            <td id="cell-r-ant">-- cm</td>
+            <td id="cell-diff-ant" class="diff-cell">-- cm</td>
+          </tr>
+          <tr>
+            <td><strong>Posteromedial</strong></td>
+            <td id="cell-l-pm">-- cm</td>
+            <td id="cell-r-pm">-- cm</td>
+            <td id="cell-diff-pm" class="diff-cell">-- cm</td>
+          </tr>
+          <tr>
+            <td><strong>Posterolateral</strong></td>
+            <td id="cell-l-pl">-- cm</td>
+            <td id="cell-r-pl">-- cm</td>
+            <td id="cell-diff-pl" class="diff-cell">-- cm</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- BROWSER LOG TABEL -->
+  <div class="ybalance-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="ybalance-log-table">
+      <thead>
+        <tr>
+          <th>Dato</th>
+          <th>Comp V</th>
+          <th>Comp H</th>
+          <th>Ant. Diff</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BLÅ KNAP: SCREENSHOT -->
+  <div class="ybalance-screenshot-wrapper">
+    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag et billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.ybalance-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 20px;
+  max-width: 680px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.ybalance-widget * { box-sizing: border-box; }
+
+.ybalance-topbar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px; text-align: left; }
+.ybalance-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 12px 14px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal */
+.ybalance-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Settings */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 4px; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Benlængde Card */
+.limb-length-card {
+  background: #f8f9fa; border: 2px solid #ced4da; border-radius: 12px; padding: 10px 14px;
+  display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin-bottom: 14px;
+}
+.limb-label { font-size: 0.85rem; font-weight: 800; color: #212529; }
+.limb-input {
+  width: 90px; text-align: center; border: 2px solid #228be6; border-radius: 8px;
+  font-size: 0.95rem; font-weight: 900; color: #1c7ed6; padding: 5px; outline: none; background: #ffffff;
+}
+.limb-hint { font-size: 0.70rem; color: #868e96; font-weight: 600; }
+
+/* Grid med 2 kort (Venstre / Højre) */
+.ybalance-sides-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+@media (max-width: 580px) {
+  .ybalance-sides-grid { grid-template-columns: 1fr; }
+}
+
+.side-card {
+  background: #ffffff; border: 2px solid #dee2e6; border-radius: 14px; padding: 12px;
+  transition: all 0.2s ease-in-out; position: relative; display: flex; flex-direction: column;
+}
+.side-card.active-card-left { border-color: #74c0fc; background: #f4f9ff; }
+.side-card.active-card-right { border-color: #ff8787; background: #fff5f5; }
+
+.side-card-header { font-size: 0.82rem; font-weight: 900; margin-bottom: 8px; height: 22px; display: flex; align-items: center; justify-content: center; }
+.left-header { color: #1c7ed6; }
+.right-header { color: #e03131; }
+
+.side-svg-container { width: 100%; margin-bottom: 10px; }
+
+/* Inputs styling */
+.inputs-column { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+.input-field-group { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.field-label { font-size: 0.72rem; font-weight: 800; color: #495057; text-align: left; }
+.yb-input {
+  width: 70px; text-align: center; border: 1px solid #ced4da; border-radius: 6px;
+  font-size: 0.85rem; font-weight: 900; color: #212529; background: #ffffff; padding: 4px; outline: none;
+}
+.yb-input:focus { border-color: #228be6; }
+
+.side-score-footer { font-size: 0.80rem; font-weight: 900; color: #212529; margin-top: 10px; text-align: center; background: #ffffff; border-radius: 8px; padding: 6px; border: 1px solid #e9ecef; }
+
+/* Stats & Tabel */
+.ybalance-stats-wrapper { margin-top: 16px; text-align: left; }
+.section-title { font-size: 0.88rem; font-weight: 800; margin: 0 0 8px 0; color: #343a40; }
+
+.ybalance-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 10px 6px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.highlight-box { background: #e7f5ff; border-color: #a5d8ff; }
+.stat-box.alert-box { background: #ffe3e3; border-color: #ff6b6b; }
+.stat-box.ok-box { background: #ebfbee; border-color: #b2f2bb; }
+
+.stat-value { font-size: 1.25rem; font-weight: 900; color: #212529; line-height: 1; }
+.stat-label { font-size: 0.62rem; font-weight: 800; color: #868e96; margin-top: 4px; }
+.stat-sub { font-size: 0.70rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+/* DETALJETABEL MED 100% BREDDE */
+.table-card {
+  background: #ffffff; border: 1px solid #dee2e6; border-radius: 12px; padding: 8px;
+  width: 100%; box-sizing: border-box; overflow: hidden; margin-top: 10px;
+}
+.yb-detail-table {
+  width: 100% !important; display: table !important; border-collapse: collapse;
+  font-size: 0.80rem; table-layout: fixed; margin: 0;
+}
+.yb-detail-table th {
+  background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6;
+  text-align: center; font-weight: 800; color: #495057;
+}
+.yb-detail-table td {
+  padding: 8px 4px; border-bottom: 1px solid #f1f3f5;
+  text-align: center; vertical-align: middle; color: #212529;
+}
+
+.yb-detail-table th:nth-child(1), .yb-detail-table td:nth-child(1) { width: 34%; text-align: left; padding-left: 10px; }
+.yb-detail-table th:nth-child(2), .yb-detail-table td:nth-child(2) { width: 22%; }
+.yb-detail-table th:nth-child(3), .yb-detail-table td:nth-child(3) { width: 22%; }
+.yb-detail-table th:nth-child(4), .yb-detail-table td:nth-child(4) { width: 22%; font-weight: 900; }
+
+.diff-cell { font-weight: 900; }
+
+/* Log Tabel */
+.ybalance-log-wrapper { margin-top: 18px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 12px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; width: 100%; }
+.log-title { font-size: 0.88rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.ybalance-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.78rem; table-layout: fixed; margin: 0; }
+.ybalance-log-table th { background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.ybalance-log-table td { padding: 8px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+/* Billed knap */
+.ybalance-screenshot-wrapper { margin-top: 16px; width: 100%; }
+.btn--screenshot {
+  width: 100%; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 10px;
+  border: none; background: #228be6; color: #ffffff; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); transition: background 0.15s ease;
+}
+.btn--screenshot:hover { background: #1c7ed6; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let selectedSound = 'on';
+  let audioCtx = null;
+  let wakeLock = null;
+
+  const widget = document.querySelector(".ybalance-widget");
+  if (!widget) return;
+
+  const inputLimb = widget.querySelector("#input-limb-length");
+
+  // Inputs Venstre
+  const inputLAnt = widget.querySelector("#input-l-ant");
+  const inputLPm = widget.querySelector("#input-l-pm");
+  const inputLPl = widget.querySelector("#input-l-pl");
+
+  // Inputs Højre
+  const inputRAnt = widget.querySelector("#input-r-ant");
+  const inputRPm = widget.querySelector("#input-r-pm");
+  const inputRPl = widget.querySelector("#input-r-pl");
+
+  // Visual SVG elementer Venstre
+  const polyLeft = widget.querySelector("#poly-left");
+  const dotLAnt = widget.querySelector("#dot-l-ant");
+  const dotLPm = widget.querySelector("#dot-l-pm");
+  const dotLPl = widget.querySelector("#dot-l-pl");
+  const valLAnt = widget.querySelector("#val-l-ant");
+  const valLPm = widget.querySelector("#val-l-pm");
+  const valLPl = widget.querySelector("#val-l-pl");
+  const scoreLeftDisplay = widget.querySelector("#score-left-display");
+
+  // Visual SVG elementer Højre
+  const polyRight = widget.querySelector("#poly-right");
+  const dotRAnt = widget.querySelector("#dot-r-ant");
+  const dotRPm = widget.querySelector("#dot-r-pm");
+  const dotRPl = widget.querySelector("#dot-r-pl");
+  const valRAnt = widget.querySelector("#val-r-ant");
+  const valRPm = widget.querySelector("#val-r-pm");
+  const valRPl = widget.querySelector("#val-r-pl");
+  const scoreRightDisplay = widget.querySelector("#score-right-display");
+
+  // Stats Displays
+  const statLeftComp = widget.querySelector("#stat-left-comp");
+  const statLeftAbs = widget.querySelector("#stat-left-abs");
+  const statRightComp = widget.querySelector("#stat-right-comp");
+  const statRightAbs = widget.querySelector("#stat-right-abs");
+  const statAntDiff = widget.querySelector("#stat-ant-diff");
+  const statRiskStatus = widget.querySelector("#stat-risk-status");
+  const asymCard = widget.querySelector("#asym-card");
+
+  // Detail Tabel Celler
+  const cellLAnt = widget.querySelector("#cell-l-ant");
+  const cellLPm = widget.querySelector("#cell-l-pm");
+  const cellLPl = widget.querySelector("#cell-l-pl");
+  const cellRAnt = widget.querySelector("#cell-r-ant");
+  const cellRPm = widget.querySelector("#cell-r-pm");
+  const cellRPl = widget.querySelector("#cell-r-pl");
+  const cellDiffAnt = widget.querySelector("#cell-diff-ant");
+  const cellDiffPm = widget.querySelector("#cell-diff-pm");
+  const cellDiffPl = widget.querySelector("#cell-diff-pl");
+
+  const logTbody = widget.querySelector(".log-tbody");
+  const btnClearLog = widget.querySelector(".btn-clear-log");
+  const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const infoModal = widget.querySelector(".ybalance-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+  const CX = 110;
+  const CY = 105;
+  const MAX_RADIUS = 75;
+  const SCALE_MAX_CM = 110;
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+  setupToggleGroup("yb-sound-toggle", (val) => { selectedSound = val; });
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+
+  const allInputs = [inputLimb, inputLAnt, inputLPm, inputLPl, inputRAnt, inputRPm, inputRPl];
+  allInputs.forEach(input => {
+    input.addEventListener("input", () => {
+      requestWakeLock();
+      updateCalculationsAndGraphics();
+    });
+  });
+
+  function getAxisPoint(direction, cmValue) {
+    if (isNaN(cmValue) || cmValue <= 0) return { x: CX, y: CY };
+    const ratio = Math.min(cmValue / SCALE_MAX_CM, 1.0);
+    const r = ratio * MAX_RADIUS;
+
+    if (direction === 'ANT') {
+      return { x: CX, y: CY - r };
+    } else if (direction === 'DOWN_LEFT') {
+      const dx = r * Math.sin(Math.PI * 0.75);
+      const dy = r * Math.cos(Math.PI * 0.25);
+      return { x: CX - dx, y: CY + dy };
+    } else if (direction === 'DOWN_RIGHT') {
+      const dx = r * Math.sin(Math.PI * 0.75);
+      const dy = r * Math.cos(Math.PI * 0.25);
+      return { x: CX + dx, y: CY + dy };
+    }
+    return { x: CX, y: CY };
+  }
+
+  function updateCalculationsAndGraphics() {
+    const limb = parseFloat(inputLimb.value);
+
+    const lAnt = parseFloat(inputLAnt.value);
+    const lPm = parseFloat(inputLPm.value);
+    const lPl = parseFloat(inputLPl.value);
+
+    const rAnt = parseFloat(inputRAnt.value);
+    const rPm = parseFloat(inputRPm.value);
+    const rPl = parseFloat(inputRPl.value);
+
+    // VENSTRE TEGNING
+    const ptLAnt = getAxisPoint('ANT', lAnt);
+    const ptLPl = getAxisPoint('DOWN_LEFT', lPl);
+    const ptLPm = getAxisPoint('DOWN_RIGHT', lPm);
+
+    dotLAnt.setAttribute("cx", ptLAnt.x); dotLAnt.setAttribute("cy", ptLAnt.y);
+    dotLPl.setAttribute("cx", ptLPl.x);  dotLPl.setAttribute("cy", ptLPl.y);
+    dotLPm.setAttribute("cx", ptLPm.x);  dotLPm.setAttribute("cy", ptLPm.y);
+
+    polyLeft.setAttribute("points", `${ptLAnt.x},${ptLAnt.y} ${ptLPl.x},${ptLPl.y} ${ptLPm.x},${ptLPm.y}`);
+
+    valLAnt.textContent = lAnt > 0 ? `${lAnt.toFixed(1)}` : "--";
+    valLPl.textContent = lPl > 0 ? `${lPl.toFixed(1)}` : "--";
+    valLPm.textContent = lPm > 0 ? `${lPm.toFixed(1)}` : "--";
+
+    // HØJRE TEGNING
+    const ptRAnt = getAxisPoint('ANT', rAnt);
+    const ptRPm = getAxisPoint('DOWN_LEFT', rPm);
+    const ptRPl = getAxisPoint('DOWN_RIGHT', rPl);
+
+    dotRAnt.setAttribute("cx", ptRAnt.x); dotRAnt.setAttribute("cy", ptRAnt.y);
+    dotRPm.setAttribute("cx", ptRPm.x);  dotRPm.setAttribute("cy", ptRPm.y);
+    dotRPl.setAttribute("cx", ptRPl.x);  dotRPl.setAttribute("cy", ptRPl.y);
+
+    polyRight.setAttribute("points", `${ptRAnt.x},${ptRAnt.y} ${ptRPm.x},${ptRPm.y} ${ptRPl.x},${ptRPl.y}`);
+
+    valRAnt.textContent = rAnt > 0 ? `${rAnt.toFixed(1)}` : "--";
+    valRPm.textContent = rPm > 0 ? `${rPm.toFixed(1)}` : "--";
+    valRPl.textContent = rPl > 0 ? `${rPl.toFixed(1)}` : "--";
+
+    // SCORES & TOTALER
+    const isLValid = !isNaN(lAnt) && !isNaN(lPm) && !isNaN(lPl) && lAnt > 0 && lPm > 0 && lPl > 0;
+    const isRValid = !isNaN(rAnt) && !isNaN(rPm) && !isNaN(rPl) && rAnt > 0 && rPm > 0 && rPl > 0;
+    const isLimbValid = !isNaN(limb) && limb > 0;
+
+    let lComp = null, rComp = null;
+    let lSum = lAnt + lPm + lPl;
+    let rSum = rAnt + rPm + rPl;
+
+    if (isLValid) {
+      if (isLimbValid) {
+        lComp = (lSum / (3 * limb)) * 100;
+        statLeftComp.textContent = `${lComp.toFixed(1)}%`;
+        scoreLeftDisplay.textContent = `Composite: ${lComp.toFixed(1)}%`;
+      } else {
+        statLeftComp.textContent = "--%";
+        scoreLeftDisplay.textContent = `Total: ${lSum.toFixed(1)} cm`;
+      }
+      statLeftAbs.textContent = `${lSum.toFixed(1)} cm total`;
+    } else {
+      statLeftComp.textContent = "--%";
+      statLeftAbs.textContent = "-- cm total";
+      scoreLeftDisplay.textContent = "Composite: -- %";
+    }
+
+    if (isRValid) {
+      if (isLimbValid) {
+        rComp = (rSum / (3 * limb)) * 100;
+        statRightComp.textContent = `${rComp.toFixed(1)}%`;
+        scoreRightDisplay.textContent = `Composite: ${rComp.toFixed(1)}%`;
+      } else {
+        statRightComp.textContent = "--%";
+        scoreRightDisplay.textContent = `Total: ${rSum.toFixed(1)} cm`;
+      }
+      statRightAbs.textContent = `${rSum.toFixed(1)} cm total`;
+    } else {
+      statRightComp.textContent = "--%";
+      statRightAbs.textContent = "-- cm total";
+      scoreRightDisplay.textContent = "Composite: -- %";
+    }
+
+    // OPDATER TABEL
+    cellLAnt.textContent = !isNaN(lAnt) ? `${lAnt.toFixed(1)} cm` : "-- cm";
+    cellLPm.textContent = !isNaN(lPm) ? `${lPm.toFixed(1)} cm` : "-- cm";
+    cellLPl.textContent = !isNaN(lPl) ? `${lPl.toFixed(1)} cm` : "-- cm";
+
+    cellRAnt.textContent = !isNaN(rAnt) ? `${rAnt.toFixed(1)} cm` : "-- cm";
+    cellRPm.textContent = !isNaN(rPm) ? `${rPm.toFixed(1)} cm` : "-- cm";
+    cellRPl.textContent = !isNaN(rPl) ? `${rPl.toFixed(1)} cm` : "-- cm";
+
+    if (!isNaN(lAnt) && !isNaN(rAnt)) {
+      const antDiff = Math.abs(lAnt - rAnt);
+      cellDiffAnt.textContent = `${antDiff.toFixed(1)} cm`;
+      statAntDiff.textContent = `${antDiff.toFixed(1)} cm`;
+
+      if (antDiff > 4.0) {
+        asymCard.className = "stat-box alert-box";
+        statRiskStatus.textContent = "⚠️ Øget skadesrisiko (> 4cm)";
+      } else {
+        asymCard.className = "stat-box ok-box";
+        statRiskStatus.textContent = "✅ Godkendt balance (≤ 4cm)";
+      }
+    } else {
+      cellDiffAnt.textContent = "-- cm";
+      statAntDiff.textContent = "0.0 cm";
+      asymCard.className = "stat-box";
+      statRiskStatus.textContent = "Afventer data";
+    }
+
+    if (!isNaN(lPm) && !isNaN(rPm)) {
+      cellDiffPm.textContent = `${Math.abs(lPm - rPm).toFixed(1)} cm`;
+    } else { cellDiffPm.textContent = "-- cm"; }
+
+    if (!isNaN(lPl) && !isNaN(rPl)) {
+      cellDiffPl.textContent = `${Math.abs(lPl - rPl).toFixed(1)} cm`;
+    } else { cellDiffPl.textContent = "-- cm"; }
+
+    if (isLValid && isRValid && isLimbValid) {
+      autoSaveToLocalStorage(lComp, rComp, Math.abs(lAnt - rAnt));
+    }
+  }
+
+  let lastSavedKey = "";
+  function autoSaveToLocalStorage(lComp, rComp, antDiff) {
+    const saveKey = `${lComp.toFixed(1)}_${rComp.toFixed(1)}`;
+    if (saveKey === lastSavedKey) return;
+    lastSavedKey = saveKey;
+
+    const logs = JSON.parse(localStorage.getItem("ybalance_test_logs") || "[]");
+    const now = new Date();
+    const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+    logs.unshift({
+      date: dateStr,
+      lComp: lComp.toFixed(1) + '%',
+      rComp: rComp.toFixed(1) + '%',
+      antDiff: antDiff.toFixed(1) + ' cm',
+      status: antDiff > 4.0 ? '⚠️ Risiko' : '✅ Godkendt'
+    });
+
+    localStorage.setItem("ybalance_test_logs", JSON.stringify(logs.slice(0, 20)));
+    renderLocalStorageLog();
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem("ybalance_test_logs") || "[]");
+    logTbody.innerHTML = "";
+
+    if (logs.length === 0) {
+      logTbody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+      return;
+    }
+
+    logs.forEach(item => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td><strong>${item.lComp}</strong></td>
+        <td><strong>${item.rComp}</strong></td>
+        <td>${item.antDiff}</td>
+        <td><span style="color:${item.status.includes('Risiko') ? '#e03131' : '#2b8a3e'}; font-weight:800;">${item.status}</span></td>
+      `;
+      logTbody.appendChild(tr);
+    });
+  }
+
+  function takeScreenshot() {
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `ybalance-resultat-${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Vil du slette alle gemte test fra hukommelsen?")) {
+      localStorage.removeItem("ybalance_test_logs");
+      renderLocalStorageLog();
+    }
+  });
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  renderLocalStorageLog();
+  updateCalculationsAndGraphics();
+});
+</script>
+
+<hr />
+
+<h2 id="fortolkning-af-dine-resultater">Fortolkning af dine resultater</h2>
+
+<p>Når du analyserer dine tal fra Y-balancetesten, skal du primært holde øje med to fysiologiske indikatorer:</p>
+
+<ol>
+  <li><strong>Side-asymmetri (Forskellighed i fremadrettet rækkevidde):</strong> 
+Hvis der er mere end <strong>4 cm forskel</strong> i <em>Anterior</em> (fremadrettet) rækkevidde mellem højre og venstre ben, viser studier en op mod 2,5 gange forøget risiko for skader i underkroppen.</li>
+  <li><strong>Lav Composite Score:</strong> 
+I idrætsgrene som basketball og fodbold betragtes en samlet score på under <strong>89–95%</strong> (afhængigt af køn og sport) som et tegn på nedsat dynamisk balance og øget skadesrisiko.</li>
+</ol>
+
+<hr />
+
+<h2 id="relaterede-emner-og-næste-skridt">Relaterede emner og næste skridt</h2>
+
+<p>Vil du forbedre din score på Y-balancetesten eller dykke dybere ned i træningen bag?</p>
+
+<ul>
+  <li>🤸 <strong><a href="/balancetraening/">Balancetræning</a></strong> – Se konkrete øvelser til at opbygge din ankeldynamik og stabilitet.</li>
+  <li>🧬 <strong><a href="/balance/">Hvad er balanceevnen?</a></strong> – Lær fysiologien bag det vestibulære system, synssansen og ledsansen (<em>proprioception</em>).</li>
+  <li>📐 <strong><a href="/balance-tests/">Star Excursion Balance Test (SEBT)</a></strong> – Se andre balancetests.</li>
+  <li>🛑 <strong><a href="/skadesforebyggelse-skadesforebyggende-traening/">Skadesforebyggelse</a></strong> – Se hvordan styrke- og balancetræning reducerer skadesrisikoen i sport.</li>
+</ul>
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/y-balance-test/#article",
+    "name": "Y-balance: Test din balance med Y-balancetest 🤹‍♀️",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "12"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">12</span> stemmer. Gennemsnit: <span id="rating_average">4.7</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+<figure class=" hidden">
+  <img src="/assets/images/pinterest-hide-mini-image.png"
+       alt="Y-balance: Test din balance med Y-balancetest 🤹‍♀️"
+       data-pin-media="https://www.motionsplan.dk/assets/images/pinterest/generated/y-balance-test.jpg"
+       data-pin-description="Komplet guide til Y-balance testen (YBT). Mål dynamisk balance, opdag skadesrisikabel ben-asymmetri og beregn din samlede Composite Score. #test #balance #testberegner"
+        loading="lazy">
+  
+</figure>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#balance" class="page__taxonomy-item" rel="tag">balance</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#testberegner" class="page__taxonomy-item" rel="tag">testberegner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#test" class="page__taxonomy-item" rel="tag">test</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#balancetests" class="page__taxonomy-item" rel="tag">Balancetests</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#tests" class="page__taxonomy-item" rel="tag">Tests</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-07-31">31. Jul, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/mslhst-test/" class="pagination--pager" title="MSLHST: Multiple Single-Leg Hop Stabilization Test">Forrige</a>
+    
+    
+      <a href="/met-beregner/" class="pagination--pager" title="MET-beregner: Personlig beregning af kalorieforbrug">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <p class="page__related-title">Måske kan du også lide</p>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1738523686890-f18afd66509c.jpg" alt="Introduktion til styrketræning - Forstå alle begreberne
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/styrketraening/introduktion/" rel="permalink">Introduktion til styrketræning - Forstå alle begreberne
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-17T08:14:14+00:00">17. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          50 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Styrketræning er en effektiv træningsform, der kan forbedre din styrke, muskelmasse, sundhed og præstationsevne – uanset om du er nybegynder eller styrketræn...</p>
+  </article>
+</div>
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1526408984842-5f1323d42469.jpg" alt="Komplet guide til programlægning i styrketræning
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/traeningsprogram-programlaegning-styrketraening/" rel="permalink">Komplet guide til programlægning i styrketræning
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-01-23T08:14:14+00:00">23. jan, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          42 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Lær at sammensætte et effektivt styrketræningsprogram med vores omfattende guide til programlægning, så du kan skabe et program, der passer til dine mål.
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1738523686534-7055df5858d6.jpg" alt="Styrketræning for begyndere – sådan starter du
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/styrketraening/begyndere/" rel="permalink">Styrketræning for begyndere – sådan starter du
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-16T08:14:14+00:00">16. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          32 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Er du ny til styrketræning? Lær hvordan du kommer i gang med det rette program, vælger øvelser og får resultater. Guide til begyndere i styrketræning.
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1505676731599-081a7a67766a.jpg" alt="Træningszoner: Find din intensitetszoner i træning
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kondition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/traeningszoner/" rel="permalink">Træningszoner: Find din intensitetszoner i træning
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-08-22T23:14:14+00:00">22. aug, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          27 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Vil du gerne optimere din træning? Ved konditionstræning kan det være gavnligt at træne i forskellige træningszoner. Lær alt om de forskellige intensitetszon...</p>
+  </article>
+</div>
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCpybeLG46oZfczu4LfI5K0A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>

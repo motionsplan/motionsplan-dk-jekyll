@@ -1,0 +1,1507 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+<meta name="category" content="Tests, Hop-tests">
+
+
+
+
+
+
+
+
+<title>Hoptest-batteriet: Mål din LSI med de 4 hoptests (Korsbånd/ACL)</title>
+<meta name="description" content="Hoptest-batteriet er guldstandarden inden for knægenoptræning. Lær at udføre Single, Triple, Crossover og 6-meter timed hop og beregn dit Limb Symmetry Index (LSI).">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="Hoptest-batteriet: Mål din LSI med de 4 hoptests (Korsbånd/ACL)">
+<meta property="og:url" content="https://www.motionsplan.dk/hoptest-batteriet/">
+
+<meta property="og:description" content="Hoptest-batteriet er guldstandarden inden for knægenoptræning. Lær at udføre Single, Triple, Crossover og 6-meter timed hop og beregn dit Limb Symmetry Index (LSI).">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DHoptest-batteriet%3A+M%C3%A5l+din+LSI+med+de+4+hoptests+%28Korsb%C3%A5nd%2FACL%29%26excerpt%3DHoptest-batteriet+er+guldstandarden+inden+for+kn%C3%A6genoptr%C3%A6ning.+L%C3%A6r+at+udf%C3%B8re+Single%2C+Triple%2C+Crossover+og+6-meter+timed+hop+og+beregn+dit+Limb+Symmetry+Index+%28LSI%29.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1758875568097-ba62eeff66ad%3Fq%3D80%26w%3D2232%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D02.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785672000/opengraph/">
+  <meta property="og:image:alt" content="Hoptest-batteriet: Mål din LSI med de 4 hoptests (Korsbånd/ACL)">
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="Hoptest-batteriet: Mål din LSI med de 4 hoptests (Korsbånd/ACL)">
+  <meta name="twitter:description" content="Hoptest-batteriet er guldstandarden inden for knægenoptræning. Lær at udføre Single, Triple, Crossover og 6-meter timed hop og beregn dit Limb Symmetry Index (LSI).">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/hoptest-batteriet/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DHoptest-batteriet%3A+M%C3%A5l+din+LSI+med+de+4+hoptests+%28Korsb%C3%A5nd%2FACL%29%26excerpt%3DHoptest-batteriet+er+guldstandarden+inden+for+kn%C3%A6genoptr%C3%A6ning.+L%C3%A6r+at+udf%C3%B8re+Single%2C+Triple%2C+Crossover+og+6-meter+timed+hop+og+beregn+dit+Limb+Symmetry+Index+%28LSI%29.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1758875568097-ba62eeff66ad%3Fq%3D80%26w%3D2232%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D02.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785672000/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2026-08-02T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-08-02T12:00:00+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/hoptest-batteriet/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/hoptest-batteriet/#webpage",
+      "name": "Hoptest-batteriet: Mål din LSI med de 4 hoptests (Korsbånd/ACL)",
+      "url": "https://www.motionsplan.dk/hoptest-batteriet/",
+      "description": "Hoptest-batteriet er guldstandarden inden for knægenoptræning. Lær at udføre Single, Triple, Crossover og 6-meter timed hop og beregn dit Limb Symmetry Index (LSI).",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2026-08-02T00:00:00+00:00",
+      "dateModified": "2026-08-02T12:00:00+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/hoptest-batteriet/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/hoptest-batteriet/#article",
+        "inLanguage": "da",
+        "name": "Hoptest-batteriet: De 4 hoptests til vurdering af LSI og Return to Sport",
+        "headline": "Hoptest-batteriet: Mål din LSI med de 4 hoptests (Korsbånd/ACL)",
+        "keywords": "test,hop-test,lsi,korsbånd,acl,return-to-sport",
+        "description": "Hoptest-batteriet er guldstandarden inden for knægenoptræning. Lær at udføre Single, Triple, Crossover og 6-meter timed hop og beregn dit Limb Symmetry Index (LSI).",
+        "articleBody": "Hoptest-batteriet (ofte blot kaldet de 4 hoptests) er guldstandarden inden for funktionel testning af atleter, der genoptræner efter en knæskade – især overrevne korsbånd (ACL) og meniskskader.\n\nMens klassiske springtests (som f.eks. CMJ) måler din maksimale vertikale spændstighed og højde, har Hoptest-batteriet ét primært klinisk formål: At sammenligne det skadede ben med det raske ben.\n\nDette gøres gennem LSI (Limb Symmetry Index), som er et afgørende tal for, om du får grønt lys til at vende tilbage til din idræt (Return to Sport).\n\nI denne guide gennemgår vi præcis, hvordan de 4 standardiserede hoptests udføres, og hvordan du udregner din asymmetri.\n\n Hop til beregneren\n\n\n\nHvad er Limb Symmetry Index (LSI)?\n\nLimb Symmetry Index er en simpel matematisk beregning, der beskriver forskellen i kraft, stabilitet og selvtillid mellem dine to ben. LSI angives som en procentdel.\n\nFormlen for LSI (Afstand):\n\\(LSI = \\left( \\frac{\\text{Skadet ben (cm)}}{\\text{Rask ben (cm)}} \\right) \\times 100\\)\n\nEksempel: Hvis du kan hinke 180 cm frem på dit raske ben, men kun 150 cm på det tidligere korsbåndsskadede ben, er dit LSI: (150 / 180) * 100 = 83,3 %.\n\n\n  Tommelfingerreglen: Fysioterapeuter og sportslæger kræver typisk et LSI på mindst 90 % (og gerne op mod 100 %), før en atlet betragtes som klar til Return to Sport.\n\n\n(Bemærk: Ved 6-meter testen på tid vendes brøken om, da en lavere tid er lig med et bedre resultat: Rask tid / Skadet tid * 100).\n\n\n\nForberedelse og Regler for Hop-batteriet\n\nFør du går i gang med de 4 tests, er der et par standardiserede regler, der skal overholdes, for at testen er gyldig:\n\n\n  Opvarmning: Udfør en grundig dynamisk opvarmning. Kredsløb og lette hop for at vække nervesystemet.\n  Test det raske ben først: Dette giver atleten en fornemmelse for øvelsen og sætter en baseline, før det “usikre” ben testes.\n  “Stick the landing” (Hold landingen): I de 3 længde-tests skal du lande kontrolleret. Foden må ikke glide, det modsatte ben må ikke røre gulvet, og balancen skal fastholdes stabilt i 2-3 sekunder efter landingen. Hvis du falder eller rører gulvet med hænderne/det frie ben, kasseres forsøget.\n  Forsøg: Du får typisk 1-2 prøvehoppe pr. ben, og derefter 2-3 gældende forsøg. Det bedste gældende forsøg noteres.\n\n\n\n\nDe 4 tests i Hoptest-batteriet\n\nDu skal bruge et fladt underlag med god friktion, et målebånd på mindst 6 meter og noget sportstape. En tape-stribe på ca. 6 meter markeres på gulvet som hjælpelinje.\n\n1. Single Hop for Distance (Enkelt hop)\nDette er basistesten, som måler den eksplosive fremdrift fra ét ben og evnen til at bremse kraften i landingen.\n\n  Udførelse: Stå på ét ben med tåen lige bag startstregen. Hop så langt frem som muligt på det samme ben, og “frys” landingen.\n  Måling: Afstanden måles i cm fra startstregen til hælen i landingen.\n\n\n2. Triple Hop for Distance (Tre-hop)\nMåler evnen til at opretholde kraftudvikling i en serie og hurtigt stabilisere leddet mellem afsættene.\n\n  Udførelse: Stå på ét ben. Udfør tre sammenhængende hop fremad på det samme ben uden pauser. På den tredje landing skal du fryse og holde balancen i 2-3 sek.\n  Måling: Afstanden fra startstregen til hælen på det 3. og sidste hop.\n\n\n3. Crossover Hop for Distance (Kryds-hop)\nKrydshoppet er mere avanceret, da det tester ankel- og knæstabilitet i det frontale plan (sidelæns), hvilket oftest er her, knæskader og vrid opstår.\n\n  Udførelse: Stå på ét ben bag startstregen. Udfør tre sammenhængende hop fremad, men hvor du krydser henover tapelinjen (15 cm bred) for hvert hop. Du starter f.eks. til højre for stregen, hopper skråt over på venstre side, tilbage til højre og lander på venstre.\n  Måling: Afstanden fra start til sidste landing måles. (Der skal holdes balance på 3. landing).\n\n\n4. 6-Meter Timed Hop (Tidstest)\nI stedet for afstand tester denne øvelse fart, reaktionskraft og selvtillid til benet (manglende frygt).\n\n  Udførelse: Stå på ét ben bag startstregen. På startsignalet skal du hinke på ét ben ned over 6-meter linjen så hurtigt som overhovedet muligt.\n  Måling: Stopuret startes, når hælen løfter sig, og stoppes, når foden passerer 6-meter mærket. Tiden noteres i sekunder og decimaler.\n\n\n\n\nBeregner\n\n\n  📊 Beregn Limb Symmetry Index (LSI)\n  \n    Indtast de opnåede resultater for hhv. skadet/testet ben og det raske ben. Beregneren udregner automatisk LSI-procenten for hver test samt et samlet gennemsnit.\n  \n\n  \n    \n      \n        \n          \n            Test type\n            Skadet / Testet ben\n            Rask ben\n            LSI (%)\n          \n        \n        \n          \n          \n            \n              Single Hop(Afstand i cm)\n            \n            \n              \n            \n            \n              \n            \n            - %\n          \n\n          \n          \n            \n              Triple Hop(Afstand i cm)\n            \n            \n              \n            \n            \n              \n            \n            - %\n          \n\n          \n          \n            \n              Crossover Hop(Afstand i cm)\n            \n            \n              \n            \n            \n              \n            \n            - %\n          \n\n          \n          \n            \n              6-Meter Timed Hop(Tid i sekunder)\n            \n            \n              \n            \n            \n              \n            \n            - %\n          \n        \n      \n    \n\n    \n      Beregn Samlet LSI Score\n    \n  \n\n  \n  \n    Samlet LSI Gennemsnit\n    0%\n    -\n    \n  \n\n  \n    Klinisk bemærkning: Hop-tests måler kvantitet (styrke og fremdrift). Husk altid at kombinere resultatet med en visuel analyse af din landingskvalitet – f.eks. via LESS-testen – før du vender tilbage til kontaktsport.\n  \n\n\n\n\n\n\nHvorfor hop-længde ikke er nok (Kvalitet vs. Kvantitet)\n\nEt højt Limb Symmetry Index (LSI) på f.eks. 95 % er et rigtig stærkt tegn, men det fortæller ikke hele historien.\n\nAtleten kan sagtens kompensere ved at hinke akkurat lige så langt, men lande med et katastrofalt indadfaldende knæ (valgus) eller et stift knæled uden stødabsorbering. Hvis mekanikken i landingen er forkert, er der stadig enorm risiko for at rive det nye korsbånd over igen.\n\nDerfor skal Hoptest-batteriet altid suppleres med en analyse af landingskvaliteten:\n👉 Læs om LESS-testen (Landing Error Scoring System), som bruges til at spotte farlige biomekaniske fejl i din landing.\n\n\n\nFAQ\n\n\nHvad er et godkendt LSI (Limb Symmetry Index)?\nI de fleste Return to Sport-protokoller kræves et LSI på mindst 90 % (hvor det skadede ben præsterer 90 % af det raske ben). For atleter med mange retningsskift (fodbold, håndbold) anbefales det ofte at ramme over 95-100 %.\n\n\n\n\nMå jeg bruge armene til at tage fart?\nJa, i standardiserede hop-tests må du gerne svinge med armene for at generere kraft, da det simulerer en naturlig, atletisk bevægelse. Det vigtigste er, at du overholder kravet om en kontrolleret landing (stick the landing).\n\n\n\n\nEr et LSI på 90 % nok til at spille kamp igen?\nNej, ikke nødvendigvis. Hoptest-batteriet måler primært afstand og tid. Du bør altid supplere med en visuel analyse af måden, du lander på (f.eks. med LESS-testen), for at sikre, at knæet ikke falder indad (valgus).\n\n\n\n\n\n\n\nNæste skridt\n\nNår du har gennemført alle 4 hoptests, bør du have et klart billede af, hvorvidt det skadede ben kan matche det raske. Ligger du under 90 % i LSI, skal fokus tilbage på ensidig (unilateral) styrketræning, plyometrisk træning og stabilitet.\n\n\n  Se også: Vores side for måling af hoppehøjde og vertikal spændstighed\n  Test din balance: Udfør Enkeltbensstand og Stork-test for at sikre din statiske ankelkontrol.\n\n\n\n  Referencer\n\n  \n    Noyes, F. R., Barber, S. D., &amp; Mangine, R. E. (1991). Abnormal lower limb symmetry determined by function hop tests after anterior cruciate ligament rupture. The American Journal of Sports Medicine, 19(5), 513–518.\n    Reid, A., Birmingham, T. B., Stratford, P. W., Alcock, G. K., &amp; Giffin, J. R. (2007). Hop testing provides a reliable and valid outcome measure during rehabilitation after anterior cruciate ligament reconstruction. Physical Therapy, 87(3), 337–349.\n  \n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DHoptest-batteriet%3A+M%C3%A5l+din+LSI+med+de+4+hoptests+%28Korsb%C3%A5nd%2FACL%29%26excerpt%3DHoptest-batteriet+er+guldstandarden+inden+for+kn%C3%A6genoptr%C3%A6ning.+L%C3%A6r+at+udf%C3%B8re+Single%2C+Triple%2C+Crossover+og+6-meter+timed+hop+og+beregn+dit+Limb+Symmetry+Index+%28LSI%29.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1758875568097-ba62eeff66ad%3Fq%3D80%26w%3D2232%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D02.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785672000/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/hoptest-batteriet/#webpage"
+        },
+        "datePublished": "2026-08-02T00:00:00+00:00",
+        "dateModified": "2026-08-02T12:00:00+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=""
+>
+  
+    
+      
+      
+
+      <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://images.unsplash.com/photo-1758875568097-ba62eeff66ad?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+           srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://images.unsplash.com/photo-1758875568097-ba62eeff66ad?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://images.unsplash.com/photo-1758875568097-ba62eeff66ad?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1600w"
+           sizes="100vw"
+           alt="Hoptest-batteriet: De 4 hoptests til vurdering af LSI og Return to Sport"
+           class="page__hero-bg-img"
+           fetchpriority="high"
+           decoding="async">
+    
+  
+
+  
+    <div class="page__hero-filter" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));"></div>
+  
+
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Hoptest-batteriet: De 4 hoptests til vurdering af LSI og Return to Sport
+
+        
+      </h1>
+      
+        <p class="page__lead">Hoptest-batteriet er guldstandarden inden for knægenoptræning. Lær at udføre Single, Triple, Crossover og 6-meter timed hop og beregn dit Limb Symmetry Index (LSI).
+</p>
+      
+      
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-02T12:00:00+00:00">2. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 min læsning
+        
+      </span>
+    
+  </p>
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Hoptest-batteriet: De 4 hoptests til vurdering af LSI og Return to Sport
+</span>
+  
+</div>
+
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/tests/" itemprop="item"><span itemprop="name">Tests</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+
+    
+    <li class="current">Hoptest-batteriet...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Hoptest-batteriet: De 4 hoptests til vurdering af LSI og Return to Sport">
+    <meta itemprop="description" content="Hoptest-batteriet er guldstandarden inden for knægenoptræning. Lær at udføre Single, Triple, Crossover og 6-meter timed hop og beregn dit Limb Symmetry Index (LSI).">
+    <meta itemprop="datePublished" content="2026-08-02T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-08-02T12:00:00+00:00">
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#hvad-er-limb-symmetry-index-lsi">Hvad er Limb Symmetry Index (LSI)?</a></li><li><a href="#forberedelse-og-regler-for-hop-batteriet">Forberedelse og Regler for Hop-batteriet</a></li><li><a href="#de-4-tests-i-hoptest-batteriet">De 4 tests i Hoptest-batteriet</a><ul><li><a href="#1-single-hop-for-distance-enkelt-hop">1. Single Hop for Distance (Enkelt hop)</a></li><li><a href="#2-triple-hop-for-distance-tre-hop">2. Triple Hop for Distance (Tre-hop)</a></li><li><a href="#3-crossover-hop-for-distance-kryds-hop">3. Crossover Hop for Distance (Kryds-hop)</a></li><li><a href="#4-6-meter-timed-hop-tidstest">4. 6-Meter Timed Hop (Tidstest)</a></li></ul></li><li><a href="#calculator">Beregner</a></li><li><a href="#hvorfor-hop-længde-ikke-er-nok-kvalitet-vs-kvantitet">Hvorfor hop-længde ikke er nok (Kvalitet vs. Kvantitet)</a></li><li><a href="#faq">FAQ</a><ul><li><a href="#hvad-er-et-godkendt-lsi-limb-symmetry-index">Hvad er et godkendt LSI (Limb Symmetry Index)?</a></li><li><a href="#må-jeg-bruge-armene-til-at-tage-fart">Må jeg bruge armene til at tage fart?</a></li><li><a href="#er-et-lsi-på-90-nok-til-at-spille-kamp-igen">Er et LSI på 90 % nok til at spille kamp igen?</a></li></ul></li><li><a href="#næste-skridt">Næste skridt</a></li><li><a href="#references">Referencer</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p><strong>Hoptest-batteriet</strong> (ofte blot kaldet <em>de 4 hoptests</em>) er guldstandarden inden for funktionel testning af atleter, der genoptræner efter en knæskade – især overrevne korsbånd (ACL) og meniskskader.</p>
+
+<p>Mens klassiske <a href="/springtests-hoppehoejde/">springtests (som f.eks. CMJ)</a> måler din maksimale vertikale spændstighed og højde, har Hoptest-batteriet ét primært klinisk formål: <strong>At sammenligne det skadede ben med det raske ben.</strong></p>
+
+<p>Dette gøres gennem <strong>LSI (Limb Symmetry Index)</strong>, som er et afgørende tal for, om du får grønt lys til at vende tilbage til din idræt (<em><a href="/return-to-sport-tests/">Return to Sport</a></em>).</p>
+
+<p>I denne guide gennemgår vi præcis, hvordan de 4 standardiserede hoptests udføres, og hvordan du udregner din asymmetri.</p>
+
+<p><a href="#calculator" class="btn btn--success btn--jump"><i class="fas fa-calculator"></i> Hop til beregneren</a></p>
+
+<hr />
+
+<h2 id="hvad-er-limb-symmetry-index-lsi">Hvad er Limb Symmetry Index (LSI)?</h2>
+
+<p>Limb Symmetry Index er en simpel matematisk beregning, der beskriver forskellen i kraft, stabilitet og selvtillid mellem dine to ben. LSI angives som en procentdel.</p>
+
+<p><strong>Formlen for LSI (Afstand):</strong>
+\(LSI = \left( \frac{\text{Skadet ben (cm)}}{\text{Rask ben (cm)}} \right) \times 100\)</p>
+
+<p><em>Eksempel:</em> Hvis du kan hinke 180 cm frem på dit raske ben, men kun 150 cm på det tidligere korsbåndsskadede ben, er dit LSI: <em>(150 / 180) * 100 = 83,3 %.</em></p>
+
+<blockquote>
+  <p><strong>Tommelfingerreglen:</strong> Fysioterapeuter og sportslæger kræver typisk et LSI på <strong>mindst 90 %</strong> (og gerne op mod 100 %), før en atlet betragtes som klar til <em>Return to Sport</em>.</p>
+</blockquote>
+
+<p><em>(Bemærk: Ved 6-meter testen på tid vendes brøken om, da en lavere tid er lig med et bedre resultat: Rask tid / Skadet tid * 100).</em></p>
+
+<hr />
+
+<h2 id="forberedelse-og-regler-for-hop-batteriet">Forberedelse og Regler for Hop-batteriet</h2>
+
+<p>Før du går i gang med de 4 tests, er der et par standardiserede regler, der skal overholdes, for at testen er gyldig:</p>
+
+<ol>
+  <li><strong>Opvarmning:</strong> Udfør en grundig dynamisk opvarmning. Kredsløb og lette hop for at vække nervesystemet.</li>
+  <li><strong>Test det raske ben først:</strong> Dette giver atleten en fornemmelse for øvelsen og sætter en baseline, før det “usikre” ben testes.</li>
+  <li><strong>“Stick the landing” (Hold landingen):</strong> I de 3 længde-tests <em>skal</em> du lande kontrolleret. Foden må ikke glide, det modsatte ben må ikke røre gulvet, og balancen skal fastholdes stabilt i <strong>2-3 sekunder</strong> efter landingen. Hvis du falder eller rører gulvet med hænderne/det frie ben, kasseres forsøget.</li>
+  <li><strong>Forsøg:</strong> Du får typisk 1-2 prøvehoppe pr. ben, og derefter 2-3 gældende forsøg. Det bedste gældende forsøg noteres.</li>
+</ol>
+
+<hr />
+
+<h2 id="de-4-tests-i-hoptest-batteriet">De 4 tests i Hoptest-batteriet</h2>
+
+<p>Du skal bruge et fladt underlag med god friktion, et målebånd på mindst 6 meter og noget sportstape. En tape-stribe på ca. 6 meter markeres på gulvet som hjælpelinje.</p>
+
+<h3 id="1-single-hop-for-distance-enkelt-hop">1. Single Hop for Distance (Enkelt hop)</h3>
+<p>Dette er basistesten, som måler den eksplosive fremdrift fra ét ben og evnen til at bremse kraften i landingen.</p>
+<ul>
+  <li><strong>Udførelse:</strong> Stå på ét ben med tåen lige bag startstregen. Hop så langt frem som muligt på det samme ben, og “frys” landingen.</li>
+  <li><strong>Måling:</strong> Afstanden måles i cm fra startstregen til hælen i landingen.</li>
+</ul>
+
+<h3 id="2-triple-hop-for-distance-tre-hop">2. Triple Hop for Distance (Tre-hop)</h3>
+<p>Måler evnen til at opretholde kraftudvikling i en serie og hurtigt stabilisere leddet mellem afsættene.</p>
+<ul>
+  <li><strong>Udførelse:</strong> Stå på ét ben. Udfør tre sammenhængende hop fremad på det samme ben uden pauser. På den tredje landing skal du fryse og holde balancen i 2-3 sek.</li>
+  <li><strong>Måling:</strong> Afstanden fra startstregen til hælen på det 3. og sidste hop.</li>
+</ul>
+
+<h3 id="3-crossover-hop-for-distance-kryds-hop">3. Crossover Hop for Distance (Kryds-hop)</h3>
+<p>Krydshoppet er mere avanceret, da det tester ankel- og knæstabilitet i <em>det frontale plan</em> (sidelæns), hvilket oftest er her, knæskader og vrid opstår.</p>
+<ul>
+  <li><strong>Udførelse:</strong> Stå på ét ben bag startstregen. Udfør tre sammenhængende hop fremad, men hvor du krydser <em>henover</em> tapelinjen (15 cm bred) for hvert hop. Du starter f.eks. til højre for stregen, hopper skråt over på venstre side, tilbage til højre og lander på venstre.</li>
+  <li><strong>Måling:</strong> Afstanden fra start til sidste landing måles. (Der skal holdes balance på 3. landing).</li>
+</ul>
+
+<h3 id="4-6-meter-timed-hop-tidstest">4. 6-Meter Timed Hop (Tidstest)</h3>
+<p>I stedet for afstand tester denne øvelse fart, reaktionskraft og selvtillid til benet (manglende frygt).</p>
+<ul>
+  <li><strong>Udførelse:</strong> Stå på ét ben bag startstregen. På startsignalet skal du hinke på ét ben ned over 6-meter linjen så hurtigt som overhovedet muligt.</li>
+  <li><strong>Måling:</strong> Stopuret startes, når hælen løfter sig, og stoppes, når foden passerer 6-meter mærket. Tiden noteres i sekunder og decimaler.</li>
+</ul>
+
+<hr />
+
+<h2 id="calculator">Beregner</h2>
+
+<div class="lsi-calculator-wrapper" style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; margin: 25px 0;">
+  <h3 style="margin-top: 0; margin-bottom: 15px;">📊 Beregn Limb Symmetry Index (LSI)</h3>
+  <p style="font-size: 0.95rem; color: #6c757d; margin-bottom: 20px;">
+    Indtast de opnåede resultater for hhv. skadet/testet ben og det raske ben. Beregneren udregner automatisk LSI-procenten for hver test samt et samlet gennemsnit.
+  </p>
+
+  <form id="lsi-form">
+    <div style="overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+        <thead>
+          <tr style="border-bottom: 2px solid #dee2e6; text-align: left;">
+            <th style="padding: 10px;">Test type</th>
+            <th style="padding: 10px;">Skadet / Testet ben</th>
+            <th style="padding: 10px;">Rask ben</th>
+            <th style="padding: 10px; text-align: right;">LSI (%)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 1. Single Hop -->
+          <tr style="border-bottom: 1px solid #dee2e6;">
+            <td style="padding: 10px; font-weight: bold;">
+              Single Hop<br /><small style="font-weight: normal; color: #6c757d;">(Afstand i cm)</small>
+            </td>
+            <td style="padding: 10px;">
+              <input type="number" id="single-injured" placeholder="f.eks. 135" step="0.1" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;" />
+            </td>
+            <td style="padding: 10px;">
+              <input type="number" id="single-uninjured" placeholder="f.eks. 150" step="0.1" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;" />
+            </td>
+            <td style="padding: 10px; text-align: right; font-weight: bold;" id="single-lsi">- %</td>
+          </tr>
+
+          <!-- 2. Triple Hop -->
+          <tr style="border-bottom: 1px solid #dee2e6;">
+            <td style="padding: 10px; font-weight: bold;">
+              Triple Hop<br /><small style="font-weight: normal; color: #6c757d;">(Afstand i cm)</small>
+            </td>
+            <td style="padding: 10px;">
+              <input type="number" id="triple-injured" placeholder="f.eks. 410" step="0.1" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;" />
+            </td>
+            <td style="padding: 10px;">
+              <input type="number" id="triple-uninjured" placeholder="f.eks. 450" step="0.1" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;" />
+            </td>
+            <td style="padding: 10px; text-align: right; font-weight: bold;" id="triple-lsi">- %</td>
+          </tr>
+
+          <!-- 3. Crossover Hop -->
+          <tr style="border-bottom: 1px solid #dee2e6;">
+            <td style="padding: 10px; font-weight: bold;">
+              Crossover Hop<br /><small style="font-weight: normal; color: #6c757d;">(Afstand i cm)</small>
+            </td>
+            <td style="padding: 10px;">
+              <input type="number" id="cross-injured" placeholder="f.eks. 380" step="0.1" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;" />
+            </td>
+            <td style="padding: 10px;">
+              <input type="number" id="cross-uninjured" placeholder="f.eks. 420" step="0.1" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;" />
+            </td>
+            <td style="padding: 10px; text-align: right; font-weight: bold;" id="cross-lsi">- %</td>
+          </tr>
+
+          <!-- 4. 6-Meter Timed Hop -->
+          <tr style="border-bottom: 1px solid #dee2e6;">
+            <td style="padding: 10px; font-weight: bold;">
+              6-Meter Timed Hop<br /><small style="font-weight: normal; color: #6c757d;">(Tid i sekunder)</small>
+            </td>
+            <td style="padding: 10px;">
+              <input type="number" id="timed-injured" placeholder="f.eks. 2.4" step="0.01" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;" />
+            </td>
+            <td style="padding: 10px;">
+              <input type="number" id="timed-uninjured" placeholder="f.eks. 2.1" step="0.01" style="width: 100%; padding: 8px; border: 1px solid #ced4da; border-radius: 4px;" />
+            </td>
+            <td style="padding: 10px; text-align: right; font-weight: bold;" id="timed-lsi">- %</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <button type="button" onclick="calculateLSI()" style="background-color: #007bff; color: white; border: none; padding: 12px 24px; font-size: 1rem; font-weight: bold; border-radius: 4px; cursor: pointer; width: 100%;">
+      Beregn Samlet LSI Score
+    </button>
+  </form>
+
+  <!-- Output Dashboard -->
+  <div id="lsi-result-card" style="display: none; margin-top: 25px; padding: 20px; border-radius: 6px; text-align: center;">
+    <h4 style="margin: 0 0 10px 0;">Samlet LSI Gennemsnit</h4>
+    <div id="lsi-overall-score" style="font-size: 2.5rem; font-weight: bold; margin-bottom: 10px;">0%</div>
+    <div id="lsi-badge" style="display: inline-block; padding: 6px 16px; border-radius: 20px; font-weight: bold; color: white; font-size: 0.9rem; margin-bottom: 15px;">-</div>
+    <p id="lsi-feedback" style="margin: 0; font-size: 0.95rem;"></p>
+  </div>
+
+  <blockquote style="margin-top: 20px; font-size: 0.85rem; color: #495057; border-left: 4px solid #17a2b8; padding-left: 10px;">
+    <strong>Klinisk bemærkning:</strong> Hop-tests måler <em>kvantitet</em> (styrke og fremdrift). Husk altid at kombinere resultatet med en visuel analyse af din landingskvalitet – f.eks. via <strong><a href="/less-test/">LESS-testen</a></strong> – før du vender tilbage til kontaktsport.
+  </blockquote>
+</div>
+
+<script>
+function calculateLSI() {
+  // Hjælpefunktion til afstands-LSI (Skadet / Rask * 100)
+  function getDistLSI(injId, uninjId, outId) {
+    const inj = parseFloat(document.getElementById(injId).value);
+    const uninj = parseFloat(document.getElementById(uninjId).value);
+    
+    if (!isNaN(inj) && !isNaN(uninj) && uninj > 0) {
+      const lsi = (inj / uninj) * 100;
+      document.getElementById(outId).innerText = lsi.toFixed(1) + ' %';
+      return lsi;
+    }
+    document.getElementById(outId).innerText = '- %';
+    return null;
+  }
+
+  // Hjælpefunktion til tids-LSI (Rask / Skadet * 100)
+  function getTimeLSI(injId, uninjId, outId) {
+    const inj = parseFloat(document.getElementById(injId).value);
+    const uninj = parseFloat(document.getElementById(uninjId).value);
+    
+    if (!isNaN(inj) && !isNaN(uninj) && inj > 0) {
+      const lsi = (uninj / inj) * 100;
+      document.getElementById(outId).innerText = lsi.toFixed(1) + ' %';
+      return lsi;
+    }
+    document.getElementById(outId).innerText = '- %';
+    return null;
+  }
+
+  // Beregn de 4 enkelte LSI'er
+  const lsi1 = getDistLSI('single-injured', 'single-uninjured', 'single-lsi');
+  const lsi2 = getDistLSI('triple-injured', 'triple-uninjured', 'triple-lsi');
+  const lsi3 = getDistLSI('cross-injured', 'cross-uninjured', 'cross-lsi');
+  const lsi4 = getTimeLSI('timed-injured', 'timed-uninjured', 'timed-lsi');
+
+  const scores = [lsi1, lsi2, lsi3, lsi4].filter(val => val !== null);
+
+  if (scores.length === 0) {
+    alert('Udfyld venligst mindst ét sæt testresultater for at beregne LSI.');
+    return;
+  }
+
+  // Udregn samlet gennemsnit
+  const sum = scores.reduce((acc, curr) => acc + curr, 0);
+  const avg = sum / scores.length;
+
+  // Opdater dashboard
+  const card = document.getElementById('lsi-result-card');
+  const scoreElem = document.getElementById('lsi-overall-score');
+  const badge = document.getElementById('lsi-badge');
+  const feedback = document.getElementById('lsi-feedback');
+
+  card.style.display = 'block';
+  scoreElem.innerText = avg.toFixed(1) + ' %';
+
+  if (avg >= 90) {
+    card.style.backgroundColor = '#d4edda';
+    card.style.border = '1px solid #c3e6cb';
+    scoreElem.style.color = '#155724';
+    badge.style.backgroundColor = '#28a745';
+    badge.innerText = '🟢 Godkendt (LSI ≥ 90%)';
+    feedback.innerText = 'Flot resultat! Dit skadede ben har opnået tilstrækkelig symmetri i forhold til det raske ben til at opfylde Return-to-Sport kravene.';
+  } else if (avg >= 80) {
+    card.style.backgroundColor = '#fff3cd';
+    card.style.border = '1px solid #ffeeba';
+    scoreElem.style.color = '#856404';
+    badge.style.backgroundColor = '#ffc107';
+    badge.style.color = '#212529';
+    badge.innerText = '🟡 Moderat Asymmetri (80-89%)';
+    feedback.innerText = 'Du er tæt på målet, men der er stadig en målbar sidemæssig forskel. Fortsæt målrettet genoptræning af det skadede ben.';
+  } else {
+    card.style.backgroundColor = '#f8d7da';
+    card.style.border = '1px solid #f5c6cb';
+    scoreElem.style.color = '#721c24';
+    badge.style.backgroundColor = '#dc3545';
+    badge.innerText = '🔴 Betydelig Asymmetri (< 80%)';
+    feedback.innerText = 'Markant sideforskydning registreret. Benet vurderes endnu ikke parat til høj-intensiv kamp eller Return to Sport.';
+  }
+}
+</script>
+
+<hr />
+
+<h2 id="hvorfor-hop-længde-ikke-er-nok-kvalitet-vs-kvantitet">Hvorfor hop-længde ikke er nok (Kvalitet vs. Kvantitet)</h2>
+
+<p>Et højt Limb Symmetry Index (LSI) på f.eks. 95 % er et rigtig stærkt tegn, men <strong>det fortæller ikke hele historien.</strong></p>
+
+<p>Atleten kan sagtens kompensere ved at hinke akkurat lige så langt, men lande med et katastrofalt indadfaldende knæ (valgus) eller et stift knæled uden stødabsorbering. Hvis mekanikken i landingen er forkert, er der stadig enorm risiko for at rive det nye korsbånd over igen.</p>
+
+<p>Derfor skal Hoptest-batteriet altid suppleres med en analyse af <strong>landingskvaliteten</strong>:
+👉 <strong>Læs om <a href="/less-test/">LESS-testen (Landing Error Scoring System)</a></strong>, som bruges til at spotte farlige biomekaniske fejl i din landing.</p>
+
+<hr />
+
+<h2 id="faq">FAQ</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-et-godkendt-lsi-limb-symmetry-index">Hvad er et godkendt LSI (Limb Symmetry Index)?</h3></summary>
+<p>I de fleste Return to Sport-protokoller kræves et LSI på mindst 90 % (hvor det skadede ben præsterer 90 % af det raske ben). For atleter med mange retningsskift (fodbold, håndbold) anbefales det ofte at ramme over 95-100 %.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="må-jeg-bruge-armene-til-at-tage-fart">Må jeg bruge armene til at tage fart?</h3></summary>
+<p>Ja, i standardiserede hop-tests må du gerne svinge med armene for at generere kraft, da det simulerer en naturlig, atletisk bevægelse. Det vigtigste er, at du overholder kravet om en kontrolleret landing (stick the landing).</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-et-lsi-på-90-nok-til-at-spille-kamp-igen">Er et LSI på 90 % nok til at spille kamp igen?</h3></summary>
+<p>Nej, ikke nødvendigvis. Hoptest-batteriet måler primært afstand og tid. Du bør altid supplere med en visuel analyse af <em>måden</em>, du lander på (f.eks. med LESS-testen), for at sikre, at knæet ikke falder indad (valgus).</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er et godkendt LSI (Limb Symmetry Index)?","acceptedAnswer":{"@type":"Answer","text":"I de fleste Return to Sport-protokoller kræves et LSI på mindst 90 % (hvor det skadede ben præsterer 90 % af det raske ben). For atleter med mange retningsskift (fodbold, håndbold) anbefales det ofte at ramme over 95-100 %.\n"}},{"@type":"Question","name":"Må jeg bruge armene til at tage fart?","acceptedAnswer":{"@type":"Answer","text":"Ja, i standardiserede hop-tests må du gerne svinge med armene for at generere kraft, da det simulerer en naturlig, atletisk bevægelse. Det vigtigste er, at du overholder kravet om en kontrolleret landing (stick the landing).\n"}},{"@type":"Question","name":"Er et LSI på 90 % nok til at spille kamp igen?","acceptedAnswer":{"@type":"Answer","text":"Nej, ikke nødvendigvis. Hoptest-batteriet måler primært afstand og tid. Du bør altid supplere med en visuel analyse af <em>måden</em>, du lander på (f.eks. med LESS-testen), for at sikre, at knæet ikke falder indad (valgus).\n"}}]
+    }
+</script>
+
+<hr />
+
+<h2 id="næste-skridt">Næste skridt</h2>
+
+<p>Når du har gennemført alle 4 hoptests, bør du have et klart billede af, hvorvidt det skadede ben kan matche det raske. Ligger du under 90 % i LSI, skal fokus tilbage på ensidig (unilateral) styrketræning, plyometrisk træning og stabilitet.</p>
+
+<ul>
+  <li><strong>Se også:</strong> <a href="/springtests-hoppehoejde/">Vores side for måling af hoppehøjde og vertikal spændstighed</a></li>
+  <li><strong>Test din balance:</strong> Udfør <a href="/enkeltbensstand-stork-test/">Enkeltbensstand og Stork-test</a> for at sikre din statiske ankelkontrol.</li>
+</ul>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Noyes, F. R., Barber, S. D., &amp; Mangine, R. E. (1991). Abnormal lower limb symmetry determined by function hop tests after anterior cruciate ligament rupture. <em>The American Journal of Sports Medicine</em>, 19(5), 513–518.</li>
+    <li>Reid, A., Birmingham, T. B., Stratford, P. W., Alcock, G. K., &amp; Giffin, J. R. (2007). Hop testing provides a reliable and valid outcome measure during rehabilitation after anterior cruciate ligament reconstruction. <em>Physical Therapy</em>, 87(3), 337–349.</li>
+  </ul>
+</details>
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/hoptest-batteriet/#article",
+    "name": "Hoptest-batteriet: De 4 hoptests til vurdering af LSI og Return to Sport",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "13"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">13</span> stemmer. Gennemsnit: <span id="rating_average">4.7</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#acl" class="page__taxonomy-item" rel="tag">acl</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#hop-test" class="page__taxonomy-item" rel="tag">hop-test</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#korsb%C3%A5nd" class="page__taxonomy-item" rel="tag">korsbånd</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#lsi" class="page__taxonomy-item" rel="tag">lsi</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#return-to-sport" class="page__taxonomy-item" rel="tag">return-to-sport</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#test" class="page__taxonomy-item" rel="tag">test</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#hop-tests" class="page__taxonomy-item" rel="tag">Hop-tests</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#tests" class="page__taxonomy-item" rel="tag">Tests</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-08-02">2. Aug, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/zone-2-traening/" class="pagination--pager" title="Zone 2 Træning: Sådan finder og træner du din aerobe tærskel">Forrige</a>
+    
+    
+      <a href="/less-test/" class="pagination--pager" title="LESS-testen: Landing Error Scoring System til analyse af landingsteknik">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <p class="page__related-title">Måske kan du også lide</p>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1738523686890-f18afd66509c.jpg" alt="Introduktion til styrketræning - Forstå alle begreberne
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/styrketraening/introduktion/" rel="permalink">Introduktion til styrketræning - Forstå alle begreberne
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-17T08:14:14+00:00">17. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          50 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Styrketræning er en effektiv træningsform, der kan forbedre din styrke, muskelmasse, sundhed og præstationsevne – uanset om du er nybegynder eller styrketræn...</p>
+  </article>
+</div>
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1526408984842-5f1323d42469.jpg" alt="Komplet guide til programlægning i styrketræning
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/traeningsprogram-programlaegning-styrketraening/" rel="permalink">Komplet guide til programlægning i styrketræning
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-01-23T08:14:14+00:00">23. jan, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          42 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Lær at sammensætte et effektivt styrketræningsprogram med vores omfattende guide til programlægning, så du kan skabe et program, der passer til dine mål.
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1738523686534-7055df5858d6.jpg" alt="Styrketræning for begyndere – sådan starter du
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/styrketraening/begyndere/" rel="permalink">Styrketræning for begyndere – sådan starter du
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-16T08:14:14+00:00">16. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          32 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Er du ny til styrketræning? Lær hvordan du kommer i gang med det rette program, vælger øvelser og får resultater. Guide til begyndere i styrketræning.
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1505676731599-081a7a67766a.jpg" alt="Træningszoner: Find din intensitetszoner i træning
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kondition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/traeningszoner/" rel="permalink">Træningszoner: Find din intensitetszoner i træning
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-08-22T23:14:14+00:00">22. aug, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          27 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Vil du gerne optimere din træning? Ved konditionstræning kan det være gavnligt at træne i forskellige træningszoner. Lær alt om de forskellige intensitetszon...</p>
+  </article>
+</div>
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCpybeLG46oZfczu4LfI5K0A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>
