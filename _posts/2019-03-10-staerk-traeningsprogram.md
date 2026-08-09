@@ -40,6 +40,33 @@ gallery_content:
     title: "Indholdsfortegnelse til Stærk"
     alt: "Indholdsfortegnelse til Stærk"
 toc: true
+programs:
+  - id: "staerk-jacob-beermann"
+    title: "Stærk af Jacob Beermann (16-ugers Styrkeløft)"
+    description: "Højfrekvent procentbaseret 16-ugers styrkeløftsprogram opdelt i Grundtræning og Opkøring for Squat, Bænkpres og Dødløft."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Styrkeløft", "Procentbaseret", "Højfrekvent"]
+    modality: ["Styrketræning"]
+    level: ["Begynder", "Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "16 uger (2 faser)"
+    frequency: "3–5 dage/uge"
+    split_type: "Fullbody / Styrkeløft"
+    goal: ["Maksimalstyrke i Squat/Bænk/Dødløft", "Teknikoptimering", "1RM PR"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk"]
+    target_group: ["Styrkeløftere", "Motionister"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#programmets-opbygning-i-2-faser"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
 ---
 
 Jacob Beermann har skrevet bogen **"Stærk"** som en grundig introduktion til, hvordan du kan blive rigtig stærk. Beermann tager sit udgangspunkt i squat, bænkpres og dødløft, som er disciplinerne i [styrkeløft](/styrkeloeft/). 

@@ -43,6 +43,34 @@ meta:
   author: Mark Rippetoe
   level: begynder
   goal: generelt
+programs:
+  - id: "starting-strength"
+    title: "Starting Strength Begynderprogram"
+    description: "Legendarisk 3-dages lineært helkropsprogram af Mark Rippetoe fokuseret på hurtig opbygning af grundstyrke i basisløft."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Lineær progression", "Fullbody", "Helkropsprogram"]
+    modality: ["Styrketræning"]
+    level: ["Begynder"]
+    
+    # STRUKTUR & RAMMER
+    duration: "12–24 uger (3 faser)"
+    frequency: "3 dage/uge"
+    split_type: "Fullbody (A / B dagsstruktur)"
+    goal: ["Maksimal grundstyrke", "Teknik i basisløft", "Hurtig muskelopbygning"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk", "Fractional plates"]
+    target_group: ["Begyndere", "Unge", "Mænd", "Kvinder"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#opbygning-af-starting-strength"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
 ---
 
 Starting Strength er et meget udbredt styrketræningsprogram udformet af Mark Rippetoe. Starting Strength er både en bog og et styrketræningsprogram.

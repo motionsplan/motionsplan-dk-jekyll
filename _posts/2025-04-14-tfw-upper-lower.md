@@ -46,6 +46,34 @@ meta:
   author: Martin Rooney
   level: begynder og øvet
   goal: generel
+programs:
+  - id: "tfw-upper-lower"
+    title: "Training for Warriors (TFW) Upper/Lower Split"
+    description: "Struktureret atletisk over-/underkropsprogram af Martin Rooney med tunge basisløft, unilaterale øvelser og udholdenhedsfinishers."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Splitprogram", "Upper/Lower", "Funktionel træning", "Atletik"]
+    modality: ["Styrketræning", "Kropsvægt"]
+    level: ["Begynder", "Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "Løbende (Ugentlig cyklus)"
+    frequency: "2–4 dage/uge"
+    split_type: "2-split (Upper / Lower + Metcons)"
+    goal: ["Funktionel Styrke", "Atletisk kapacitet", "Kondition & Core"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Håndvægte", "Kabeltårn", "Trap Bar", "Medicinbold"]
+    target_group: ["Atleter", "Motionister", "Kampsportsudøvere"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#program"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
 ---
 
 **Training for Warriors (TFW)** er et træningssystem udviklet af Martin Rooney med fokus på styrke, funktionel kapacitet og mental robusthed. Systemet anvendes både af atleter og almindelige motionister, og det kombinerer klassisk styrketræning med elementer fra kampsport og kredsløbstræning.

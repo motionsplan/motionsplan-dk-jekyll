@@ -81,6 +81,12 @@ Vælg din foretrukne træningsform herunder for at komme direkte til vores speci
 
 ---
 
+## Alle træningsprogrammer
+
+{% include table/filter-table-programs.html %}
+
+---
+
 ## 💪 Styrketræningsprogrammer
 {: id="styrke" }
 

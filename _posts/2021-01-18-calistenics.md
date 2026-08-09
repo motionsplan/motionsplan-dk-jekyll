@@ -41,6 +41,34 @@ gallery:
   credit: https://images.unsplash.com/photo-1604519561858-19594a77b2c2
   url: /assets/images/unsplash/photo-1604519561858-19594a77b2c2.jpg
   title: Worlds greatest stretch
+programs:
+  - id: "calisthenics-begynder-8-uger"
+    title: "Calisthenics 8-ugers Begynderprogram"
+    description: "Komplet 8-ugers kropsvægtprogram til opbygning af grundstyrke, scapula-kontrol, pull-ups og dips."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Træningsprogrammer"]
+    type: ["Calisthenics", "Kropsvægt", "Fullbody"]
+    modality: ["Kropsvægt", "Styrketræning"]
+    level: ["Begynder"]
+    
+    # STRUKTUR & RAMMER
+    duration: "8 uger (2 faser à 4 uger)"
+    frequency: "3–4 dage/uge"
+    split_type: "Fullbody / Supersæt"
+    goal: ["Kropskontrol", "Første frie Pullup/Dip", "Grundstyrke"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Pullup bar / Pullup-stang", "Træningselastik", "Dip-barre / Stole"]
+    target_group: ["Begyndere", "Mænd", "Kvinder"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#dit-8-ugers-calisthenics-begynderprogram-uge-1-8"
+    related_tests:
+      - "pullup-test"
+      - "armstraekninger-test"
+    related_tools:
+      - "1rm-beregner"
 ---
 
 Er du klar til at komme i gang med calisthenics? Jeg har lavet et 8 ugers begynderprogram, hvor du bruger minimalt udstyr og træner med din egen kropsvægt.

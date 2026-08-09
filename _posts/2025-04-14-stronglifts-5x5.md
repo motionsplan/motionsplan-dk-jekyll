@@ -46,6 +46,34 @@ meta:
   author: Mehdi Hadim
   level: begynder
   goal: generel
+programs:
+  - id: "stronglifts-5x5"
+    title: "StrongLifts 5x5 for Begyndere"
+    description: "Ultrenkelt 3-dages lineært helkropsprogram af Mehdi Hadim med 5x5 straight sets og fokus på kontinuerlig vægtøgning i basisøvelser."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Lineær progression", "Fullbody", "5x5"]
+    modality: ["Styrketræning"]
+    level: ["Begynder"]
+    
+    # STRUKTUR & RAMMER
+    duration: "12–24 uger"
+    frequency: "3 dage/uge"
+    split_type: "Fullbody (Workout A / B)"
+    goal: ["Grundstyrke", "Teknik i basisløft", "Hurtig progression"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk"]
+    target_group: ["Begyndere", "Mænd", "Kvinder"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#program"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
 ---
 
 **StrongLifts 5x5** er et [simpelt og effektivt styrketræningsprogram](/styrketraeningsprogrammer/) for begyndere og let øvede. Det fokuserer på at opbygge styrke gennem grundlæggende flerledsøvelser med høj frekvens og lineær progression.

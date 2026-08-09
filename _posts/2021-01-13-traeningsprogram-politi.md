@@ -26,6 +26,34 @@ tags:
 last_modified_at: '2025-01-02T10:14:14Z'
 toc: 'true'
 author: jakob.nielsson
+programs:
+  - id: "politi-traeningsprogram-uden-udstyr"
+    title: "Politiets Optagelsesprøve – Træningsprogram uden udstyr"
+    description: "Skræddersyet kropsvægts- og løbeprogram opbygget i 4 niveauer (Begynder til Meget Øvet) til politiets fysiske prøve."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Træning", "Træningsprogrammer"]
+    type: ["Kropsvægt", "Optagelsesprøve", "Kombineret løb og styrke"]
+    modality: ["Kropsvægt", "Løb"]
+    level: ["Begynder", "Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "4–8 uger (cyklus)"
+    frequency: "3–6 dage/uge (afhænger af niveau)"
+    split_type: "Kropsvægtstyrke & Løbeintervaller"
+    goal: ["Bestå politiets optagelsesprøve", "Eksplosivitet", "Udholdenhed"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Ingen udstyr (kropsvægt)", "Sofakant / Bord", "Løbesko"]
+    target_group: ["Politiansøgere", "Højskoleelever", "Motionister"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#eksempler-paa-traening-i-forhold-til-politiets-optagelsesproeve"
+    related_tests:
+      - "2400-meter-test"
+      - "armstraekninger-test"
+    related_tools:
+      - "hastigheds-beregner"
 ---
 
 Her er et træningsprogram, der kan forberede dig til politiets fysiske optagelsesprøve. Programmet kræver minimalt udstyr, så du kan gennemføre det, selvom du ikke har adgang til et fitnesscenter.

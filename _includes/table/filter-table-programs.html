@@ -1,0 +1,328 @@
+{% assign initial_cat = include.category | default: "" | downcase %}
+{% assign search_placeholder = include.placeholder | default: "Søg i alle programmer (f.eks. begynder, 10 km, vægttab...)" %}
+
+{% comment %} Tæl samlede programmer pr. kategori {% endcomment %}
+{% assign count_all = 0 %}
+{% assign count_lob = 0 %}
+{% assign count_gang = 0 %}
+{% assign count_cykling = 0 %}
+{% assign count_styrke = 0 %}
+
+{% assign all_content = site.pages | concat: site.posts %}
+{% for item in all_content %}
+  {% if item.programs %}
+    {% assign item_url = item.url | downcase %}
+    {% assign default_cat = "løb" %}
+    {% if item_url contains "gang" or item.category contains "Gang" or item.tags contains "gang" %}
+      {% assign default_cat = "gang" %}
+    {% elsif item_url contains "cykel" or item_url contains "cykling" or item.category contains "Cykling" or item.tags contains "cykling" %}
+      {% assign default_cat = "cykling" %}
+    {% elsif item_url contains "styrke" or item.category contains "Styrketræning" or item.tags contains "styrke" %}
+      {% assign default_cat = "styrke" %}
+    {% elsif item_url contains "loeb" or item.category contains "Løb" or item.tags contains "løb" %}
+      {% assign default_cat = "løb" %}
+    {% endif %}
+
+    {% for prog in item.programs %}
+      {% assign count_all = count_all | plus: 1 %}
+
+      {% assign mod_raw = prog.modality | first | default: prog.category | first | default: prog.modality | default: prog.category | default: default_cat %}
+      {% assign mod_str = mod_raw | join: " " | downcase %}
+
+      {% if mod_str contains "gang" %}
+        {% assign count_gang = count_gang | plus: 1 %}
+      {% elsif mod_str contains "cykel" or mod_str contains "cykling" %}
+        {% assign count_cykling = count_cykling | plus: 1 %}
+      {% elsif mod_str contains "styrke" %}
+        {% assign count_styrke = count_styrke | plus: 1 %}
+      {% else %}
+        {% assign count_lob = count_lob | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+<div class="program-filter-container" data-initial-category="{{ initial_cat }}">
+  
+  <!-- SØGE- OG DROPDOWNBAR -->
+  <div class="program-filter-bar">
+    <div class="program-search-wrapper">
+      <span class="search-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </span>
+      <input type="text" class="program-search-input" placeholder="{{ search_placeholder }}">
+    </div>
+
+    <div class="program-select-wrapper">
+      <select class="program-category-select">
+        <option value="" selected disabled>— Vælg kategori —</option>
+        <option value="all">Vis alle programmer ({{ count_all }})</option>
+        <option value="løb">Løbeprogrammer ({{ count_lob }})</option>
+        <option value="gang">Gåprogrammer ({{ count_gang }})</option>
+        <option value="cykling">Cykelprogrammer ({{ count_cykling }})</option>
+        <option value="styrke">Styrkeprogrammer ({{ count_styrke }})</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- HJÆLPETEKST NÅR SKJULT -->
+  <div class="program-prompt-hint text-muted">
+    <small>💡 Søg i feltet ovenfor eller vælg en kategori i dropdown-menuen for at få vist træningsprogrammerne.</small>
+  </div>
+
+  <!-- PROGRAM TABEL -->
+  <div class="table-wrapper program-table-wrapper" style="display: none;">
+    <table class="table program-table">
+      <thead>
+        <tr>
+          <th>Program</th>
+          <th>Kategori</th>
+          <th>Niveau</th>
+          <th>Varighed</th>
+          <th>Hyppighed</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in all_content %}
+          {% if item.programs %}
+            {% assign item_url = item.url | downcase %}
+            {% assign default_cat = "løb" %}
+            {% if item_url contains "gang" or item.category contains "Gang" or item.tags contains "gang" %}
+              {% assign default_cat = "gang" %}
+            {% elsif item_url contains "cykel" or item_url contains "cykling" or item.category contains "Cykling" or item.tags contains "cykling" %}
+              {% assign default_cat = "cykling" %}
+            {% elsif item_url contains "styrke" or item.category contains "Styrketræning" or item.tags contains "styrke" %}
+              {% assign default_cat = "styrke" %}
+            {% elsif item_url contains "loeb" or item.category contains "Løb" or item.tags contains "løb" %}
+              {% assign default_cat = "løb" %}
+            {% endif %}
+
+            {% for prog in item.programs %}
+              {% comment %} Find Kategori {% endcomment %}
+              {% assign mod_raw = prog.modality | first | default: prog.category | first | default: prog.modality | default: prog.category | default: default_cat %}
+              {% assign mod_str = mod_raw | join: " " | downcase %}
+
+              {% assign cat_clean = "løb" %}
+              {% if mod_str contains "gang" %}
+                {% assign cat_clean = "gang" %}
+              {% elsif mod_str contains "cykel" or mod_str contains "cykling" %}
+                {% assign cat_clean = "cykling" %}
+              {% elsif mod_str contains "styrke" %}
+                {% assign cat_clean = "styrke" %}
+              {% endif %}
+
+              {% comment %} Sikker konvertering af arrays til rene strenge til visning {% endcomment %}
+              {% assign prog_title = prog.title | default: prog.name %}
+              {% assign prog_level = prog.level | join: ", " | default: prog.level %}
+              {% assign prog_type = prog.type | join: ", " | default: prog.type %}
+              {% assign prog_goal = prog.goal | join: ", " | default: prog.goal %}
+              {% assign prog_equip = prog.equipment | join: ", " | default: prog.equipment %}
+
+              {% comment %} Sikker opbygning af søgestreng uden anførselstegn eller klammer {% endcomment %}
+              {% capture search_build %}
+                {{ prog_title }} {{ prog_level }} {{ prog_type }} {{ prog_goal }} {{ prog_equip }} {{ item.title }}
+              {% endcapture %}
+              {% assign search_clean = search_build | strip_newlines | downcase | replace: '"', '' | replace: "'", '' | replace: '[', '' | replace: ']', '' %}
+
+              {% assign link_url = item.url %}
+              {% if prog.anchor %}
+                {% assign link_url = item.url | append: prog.anchor %}
+              {% endif %}
+
+              <tr class="program-row" 
+                  data-category="{{ cat_clean }}" 
+                  data-search="{{ search_clean }}">
+                <td>
+                  <strong><a href="{{ link_url }}">{{ prog_title }}</a></strong>
+                  {% if prog_type != blank %}
+                    <br><small class="text-muted">{{ prog_type }}</small>
+                  {% endif %}
+                </td>
+                <td>
+                  <span class="program-badge tag-{{ cat_clean }}">
+                    {% if cat_clean == "løb" %}🏃‍♂️ Løb
+                    {% elsif cat_clean == "gang" %}🚶‍♂️ Gang
+                    {% elsif cat_clean == "cykling" %}🚴‍♂️ Cykling
+                    {% elsif cat_clean == "styrke" %}🏋️‍♂️ Styrke
+                    {% else %}{{ cat_clean | capitalize }}
+                    {% endif %}
+                  </span>
+                </td>
+                <td>{{ prog_level | default: "Alle" }}</td>
+                <td>{{ prog.duration | default: "-" }}</td>
+                <td>{{ prog.frequency | default: "-" }}</td>
+                <td class="text-right">
+                  <a href="{{ link_url }}" class="btn btn--small btn--info">Se program</a>
+                </td>
+              </tr>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="no-programs-notice notice--warning text-center" style="display: none;">
+    <p>Ingen træningsprogrammer matchede din søgning.</p>
+  </div>
+</div>
+
+<style>
+  .program-filter-container {
+    margin: 1.5rem 0;
+  }
+  .program-filter-bar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .program-search-wrapper {
+    position: relative;
+    flex: 1 1 300px;
+  }
+  .program-search-wrapper .search-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+  }
+  .program-search-input {
+    width: 100%;
+    padding: 10px 16px 10px 40px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    outline: none;
+    background-color: #ffffff;
+    color: #1f2937;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .program-search-input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+  }
+  .program-select-wrapper {
+    flex: 0 0 auto;
+  }
+  .program-category-select {
+    padding: 10px 36px 10px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #1f2937;
+    background-color: #f9fafb;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%234b5563%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  }
+  .program-category-select:focus {
+    border-color: #3b82f6;
+  }
+  .program-prompt-hint {
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  .program-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .tag-løb { background-color: #e0f2fe; color: #0369a1; }
+  .tag-gang { background-color: #dcfce7; color: #15803d; }
+  .tag-cykling { background-color: #ffedd5; color: #c2410c; }
+  .tag-styrke { background-color: #f3e8ff; color: #6b21a8; }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const containers = document.querySelectorAll(".program-filter-container");
+
+    containers.forEach(container => {
+      const select = container.querySelector(".program-category-select");
+      const searchInput = container.querySelector(".program-search-input");
+      const tableWrapper = container.querySelector(".program-table-wrapper");
+      const rows = container.querySelectorAll(".program-row");
+      const noResults = container.querySelector(".no-programs-notice");
+      const promptHint = container.querySelector(".program-prompt-hint");
+
+      let currentCategory = container.getAttribute("data-initial-category") || "";
+      let currentSearch = "";
+
+      if (currentCategory && select) {
+        const matchingOption = select.querySelector(`option[value="${currentCategory}"]`);
+        if (matchingOption) {
+          matchingOption.selected = true;
+        }
+      }
+
+      function filterAndToggle() {
+        const hasSearch = currentSearch.length > 0;
+        const hasCategory = currentCategory !== "";
+
+        if (!hasSearch && !hasCategory) {
+          tableWrapper.style.display = "none";
+          if (noResults) noResults.style.display = "none";
+          if (promptHint) promptHint.style.display = "block";
+          return;
+        }
+
+        tableWrapper.style.display = "block";
+        if (promptHint) promptHint.style.display = "none";
+
+        let visibleCount = 0;
+
+        rows.forEach(row => {
+          const category = row.getAttribute("data-category");
+          const searchText = row.getAttribute("data-search");
+
+          const matchesCategory = (currentCategory === "all" || currentCategory === "" || category === currentCategory);
+          const matchesSearch = (!hasSearch || searchText.includes(currentSearch));
+
+          if (matchesCategory && matchesSearch) {
+            row.style.display = "";
+            visibleCount++;
+          } else {
+            row.style.display = "none";
+          }
+        });
+
+        if (noResults) {
+          noResults.style.display = visibleCount === 0 ? "block" : "none";
+        }
+      }
+
+      if (select) {
+        select.addEventListener("change", function() {
+          currentCategory = this.value;
+          filterAndToggle();
+        });
+      }
+
+      if (searchInput) {
+        searchInput.addEventListener("input", function() {
+          currentSearch = this.value.toLowerCase().trim();
+          filterAndToggle();
+        });
+      }
+
+      filterAndToggle();
+    });
+  });
+</script>

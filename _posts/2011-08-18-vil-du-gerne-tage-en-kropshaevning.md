@@ -22,6 +22,33 @@ tags:
 - begynder
 category:
 - Styrketræning
+programs:
+  - id: "laer-din-foerste-pullup"
+    title: "Lær Din Første Pullup & Chinup (30 Dage)"
+    description: "Trin-for-trin progression med assisterede kropshævninger, excentrisk sænkning og statiske hold til din første kropshævning."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Kropsvægt", "Progression", "Overkrop"]
+    modality: ["Kropsvægt", "Styrketræning"]
+    level: ["Begynder"]
+    
+    # STRUKTUR & RAMMER
+    duration: "4 uger (30 dage)"
+    frequency: "3 dage/uge"
+    split_type: "Specifik Overkrop"
+    goal: ["Lære 1. pullup", "Skulderstyrke", "Grebsstyrke"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Pullup bar / Chinstang", "Træningselastik"]
+    target_group: ["Begyndere", "Mænd", "Kvinder"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#hvordan-laerer-jeg-at-tage-en-pullup-og-en-chinup"
+    related_tests:
+      - "pullup-test"
+    related_tools:
+      - "1rm-beregner"
 last_modified_at: '2021-02-02T22:27:53Z'
 ---
 

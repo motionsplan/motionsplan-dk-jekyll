@@ -27,6 +27,33 @@ meta:
   author: Charles Poliquin
   level: øvet
   goal: muskelmasse
+programs:
+  - id: "george-turner-10x10"
+    title: "George Turners 10x10 Træningsprogram"
+    description: "Klassisk 8-ugers 10x10 program med aftagende vægt i sættene og pyramidesystem i dødløft for at fremme muskelvækst og styrke."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Hypertrofi", "Højvolumen", "10x10", "Pyramidetræning"]
+    modality: ["Styrketræning"]
+    level: ["Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "8 uger"
+    frequency: "3–4 dage/uge (5-dages cyklus)"
+    split_type: "3-dages split (Bryst/Ryg, Ben/Dødløft, Skuldre/Arme)"
+    goal: ["Muskelmasse (Hypertrofi)", "Generel Styrke", "Volumentolerans"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Håndvægte", "Bænk"]
+    target_group: ["Øvede løftere", "Bodybuildere"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#traeningsplan"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
 ---
 
 Jeg har undersøgt, hvor godt styrketræningsprogrammet German Volume Training (GVT) for at skabe hypertrofi, når man styrketræner. Samtidig har jeg kigget lidt på baggrunden for German Volume Training (GVT).

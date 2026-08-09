@@ -35,6 +35,61 @@ faq:
   answer: Selve træningen kan gennemføres på 20–30 minutter (eksklusiv opvarmning), hvis du holder dine pauser på 1,5 til 2 minutter mellem sættene.
 - question: Er dette program nok til at opbygge muskelmasse og styrke?
   answer: Ja, ifølge forskningen i Minimum Effective Volume (MEV) og Minimum Effective Dose (MED) er 3–4 hårde sæt pr. hovedbevægelse 2-3 gange om ugen mere end rigeligt til at stimulere både muskelvækst og markant styrkefremgang for 90 % af alle motionister.
+programs:
+  - id: "kompakt-helkropsprogram-normal"
+    title: "Det Kompakte Helkropsprogram (3 Øvelser)"
+    description: "Minimalistisk 25-minutters helkropsprogram baseret på Push/Pull/Legs princippet og Minimum Effective Dose (MED)."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Helkropsprogram", "Minimalistisk", "Fullbody"]
+    modality: ["Styrketræning", "Kropsvægt"]
+    level: ["Begynder", "Let øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "Løbende (cyklisk)"
+    frequency: "2–3 dage/uge"
+    split_type: "Fullbody (Push / Pull / Legs)"
+    goal: ["Muskelmasse", "Maksimalstyrke", "Tidsbesparelse"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Håndvægte", "Pullup bar / Chinstang"]
+    target_group: ["Travle motionister", "Mænd", "Kvinder"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#niveau-1-det-kompakte-helkropsprogram-normale-version"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "mev-beregner"
+
+  - id: "kompakt-helkropsprogram-avanceret"
+    title: "Det Avancerede Eksplosive Helkropsprogram"
+    description: "Ekstremt minimalistisk program med olympiske løft og kalisteniske eliteøvelser for maksimal kropskontrol og eksplosivitet."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Helkropsprogram", "Eksplosivt", "Olympiske løft"]
+    modality: ["Styrketræning", "Kropsvægt"]
+    level: ["Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "Løbende (cyklisk)"
+    frequency: "2 dage/uge"
+    split_type: "Fullbody Eksplosiv"
+    goal: ["Eksplosiv styrke", "Kropskontrol", "CNS-aktivering"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Vægtskiver", "Gymnastikringe / Pullup bar"]
+    target_group: ["Avancerede løftere", "Calisthenics atleter"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#niveau-2-det-avancerede-helkropsprogram-ekstrem-udgave"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
 ---
 
 Har du en travl hverdag, hvor timerne i styrkecentret er svære at passe ind? Du behøver hverken træne 6 dage om ugen eller bruge 1,5 time pr. træningspas for at få en stærk, veltrænet og funktionel krop.

@@ -16,6 +16,35 @@ category:
   - Løb
 last_modified_at: 2011-04-14T11:04:07Z
 author: mads.davidsen
+programs:
+  - id: "eksplosivt-loeb-og-styrke"
+    title: "Kort & Eksplosivt Maraton/Løbeprogram"
+    description: "16-ugers højintensivt program kombineret med tung styrketræning, plyometri og korte intervaller uden uendelige langture."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Løb", "Løbeprogrammer"]
+    type: ["Intervaltræning", "Plyometri", "Tung styrketræning"]
+    modality: ["Løb", "Styrketræning"]
+    level: ["Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "16 uger"
+    frequency: "5–6 dage/uge"
+    split_type: "Intervaller & Styrkekombination"
+    goal: ["Sætte PR på 5k, 10k & Maraton", "Eksplosivitet", "Løbeøkonomi"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Løbesko", "Vægtstang", "Squat rack", "Hække / Trapper"]
+    target_group: ["Erfarne løbere", "Atleter"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#en-traeningsuge"
+    related_tests:
+      - "cooper-test"
+      - "1rm-test"
+    related_tools:
+      - "hastigheds-beregner"
+      - "1rm-beregner"
 ---
 
 Jeg vil i det følgende advokere for, at man bør træne kort og eksplosivt. For der er evidens i videnskaben for, at det i langt højere grad forbedrer din fysiske formåen, hvis du træner kortvarigt og effektivt.

@@ -22,6 +22,35 @@ tags:
 - øvet
 last_modified_at: '2025-03-06T23:14:14Z'
 toc: 'true'
+programs:
+  - id: "daily-undulating-periodization-dup"
+    title: "Daily Undulating Periodization (DUP)"
+    description: "Bølgende periodisering hvor du træner de tre store basisøvelser 3 gange om ugen med varierende fokus på Power, Styrke og Hypertrofi."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Bølgende periodisering", "DUP", "Fullbody"]
+    modality: ["Styrketræning"]
+    level: ["Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "4–6 ugers cyklus"
+    frequency: "3 dage/uge"
+    split_type: "Fullbody (Power / Strength / Hypertrophy)"
+    goal: ["Maksimalstyrke", "Muskelmasse", "Power & Eksplosivitet"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk"]
+    target_group: ["Øvede løftere", "Styrkeløftere"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#saadan-udfoerer-du-et-program-med-dup-progression"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
+      - "smolov-jr-beregner"
 ---
 
 *[DUP]: Daily Undulating Periodization

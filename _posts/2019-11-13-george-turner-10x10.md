@@ -27,6 +27,33 @@ meta:
   author: George Turner
   level: øvet
   goal: muskelmasse
+programs:
+  - id: "german-volume-training-10x10"
+    title: "German Volume Training 10x10 (GVT)"
+    description: "Brutalt og højvoluminøst muskelopbygningsprogram med 10 sæt x 10 gentagelser i store helkropsøvelser."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Hypertrofi", "Højvolumen", "10x10"]
+    modality: ["Styrketræning"]
+    level: ["Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "5-dages cyklus (4–6 uger)"
+    frequency: "3–4 dage/uge"
+    split_type: "3-dages split i 5-dages cyklus"
+    goal: ["Ekstrem Muskelvækst (Hypertrofi)", "Metabolisk Stress", "Muskeludholdenhed"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Håndvægte", "Bænk", "Squat rack"]
+    target_group: ["Erfarne løftere", "Bodybuildere"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#opbygningen-i-det-oprindelige-gvt-program"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
 ---
 
 **George Turners 10x10-program** er en klassisk tilgang til styrketræning, der fokuserer på høj volumen for at fremme muskelvækst og styrke. Programmet er kendt for sin enkelhed og effektivitet, hvilket gør det til et populært valg blandt både begyndere og erfarne atleter.

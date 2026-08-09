@@ -28,6 +28,34 @@ meta:
   author: Lyle McDonald
   level: øvet
   goal: muskelvækst
+programs:
+  - id: "lyle-mcdonalds-general-bulking-routine"
+    title: "Lyle McDonalds Generic Bulking Routine (GBR)"
+    description: "Gennemarbejdet 4-dages Upper/Lower splitprogram designet til maksimal muskelopbygning (hypertrofi) med moderat volumen og kontrolleret intensitet."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Hypertrofi", "Bulking", "Splitprogram"]
+    modality: ["Styrketræning"]
+    level: ["Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "8 uger (cyklus)"
+    frequency: "4 dage/uge"
+    split_type: "2-split (Upper / Lower)"
+    goal: ["Muskelmasse (Hypertrofi)", "Styrkefremgang", "Optimeret volumen"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Håndvægte", "Kabeltårn", "Squat rack", "Bænk"]
+    target_group: ["Øvede løftere", "Bodybuildere", "Motionister"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#traeningsstruktur-og-skema"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
 ---
 
 Leder du efter et veldesignet bulking-program, der giver dig både størrelse og styrke? **Lyle McDonalds Generic Bulking Routine** er udviklet til netop det – og anbefales ofte som et af de mest [gennemarbejdede programmer til styrketræning](/styrketraeningsprogrammer/) for erfarne styrketrænende, der vil tage deres fysik til næste niveau.

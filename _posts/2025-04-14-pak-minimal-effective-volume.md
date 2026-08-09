@@ -48,6 +48,143 @@ meta:
   author: Patroklos Androulakis-Korakakis
   level: begynder og øvet
   goal: generel og styrkeløft
+programs:
+  - id: "dr-pak-hypertrofi"
+    title: "Dr. Pak Minimal Effective Volume – Hypertrofi"
+    description: "Forskningsbaseret minimalistisk program til muskelvækst med laveste effektive volumen (MEV) og høj indsats."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Minimalistisk", "Hypertrofi", "MEV"]
+    modality: ["Styrketræning"]
+    level: ["Begynder", "Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "6 uger"
+    frequency: "2–3 dage/uge"
+    split_type: "Fullbody"
+    goal: ["Muskelmasse (Hypertrofi)", "Tidsbesparelse", "Minimal volumen"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Håndvægte", "Kabeltårn", "Squat rack"]
+    target_group: ["Travle motionister", "Løftere med tidspres"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#-hypertrofi-programmet"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
+
+  - id: "dr-pak-sbd-singles-backoff"
+    title: "Dr. Pak MEV – SBD: Singles + Back-offs"
+    description: "Minimalistisk styrkeløftsprogram med tunge singler i Squat, Bænk og Dødløft efterfulgt af få back-off sæt."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Minimalistisk", "Styrkeløft", "Singles & Back-offs"]
+    modality: ["Styrketræning"]
+    level: ["Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "6 uger"
+    frequency: "2–3 dage/uge"
+    split_type: "Fullbody (SBD)"
+    goal: ["Maksimalstyrke i SBD", "1RM PR", "Tidsbesparelse"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk"]
+    target_group: ["Styrkeløftere", "Øvede løftere"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#-sbd-singles--back-offs"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
+
+  - id: "dr-pak-sbd-amrap"
+    title: "Dr. Pak MEV – SBD: AMRAPs"
+    description: "Minimalistisk styrkeprogram med 1-2 opvarmnings- og arbejdssæt afsluttet med AMRAP for maksimal fremgang på få sæt."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Minimalistisk", "AMRAP", "Styrkeløft"]
+    modality: ["Styrketræning"]
+    level: ["Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "6 uger"
+    frequency: "2–3 dage/uge"
+    split_type: "Fullbody (SBD)"
+    goal: ["Maksimalstyrke", "Muskelmasse", "Høj indsats"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk"]
+    target_group: ["Styrkeløftere", "Øvede løftere"]
+    
+    # LINKS OG RELATIONER
+    anchor: #-sbd-amraps
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+
+  - id: "dr-pak-general-strength-hypertrophy"
+    title: "Dr. Pak MEV – General: Styrke & Hypertrofi"
+    description: "Minimalistisk kombinationsprogram til overkrop og underkrop inklusiv Overhead Press og Bent Over Rows."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Minimalistisk", "Fullbody", "Styrke & Hypertrofi"]
+    modality: ["Styrketræning"]
+    level: ["Begynder", "Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "6 uger"
+    frequency: "2–3 dage/uge"
+    split_type: "Fullbody"
+    goal: ["Allround Styrke", "Muskelmasse", "Tidsbesparelse"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk"]
+    target_group: ["Motionister", "Travle løftere"]
+    
+    # LINKS OG RELATIONER
+    anchor: #-general-styrke--hypertrofi
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+
+  - id: "dr-pak-sbd-singles-only"
+    title: "Dr. Pak MEV – SBD: Singles Only"
+    description: "Det absolut mest ultrakompakte program på sitet med KUN én tung single i Squat, Bænkpres og Dødløft."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Minimalistisk", "Singles Only", "Styrkeløft"]
+    modality: ["Styrketræning"]
+    level: ["Øvet", "Erfaren"]
+    
+    # STRUKTUR & RAMMER
+    duration: "6 uger"
+    frequency: "2–3 dage/uge"
+    split_type: "Fullbody (SBD Singles)"
+    goal: ["1RM Vedligehold / Styrke", "Ekstrem tidsbesparelse"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk"]
+    target_group: ["Styrkeløftere med tidspres", "Erfarne atleter"]
+    
+    # LINKS OG RELATIONER
+    anchor: #-sbd-singles-only
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
 ---
 
 **Hvor lidt styrketræning skal der egentlig til for at blive stærkere?** Det spørgsmål satte Dr. Pak (Ph.d. i styrketræning) sig for at besvare i sin forskning, og resultatet blev en række træningsprogrammer, der viser, hvor langt man kan nå med en *minimal effektiv dosis*.

@@ -24,6 +24,33 @@ meta:
   author: Mike Tuscherer
   level: øvet
   goal: styrkeløft
+programs:
+  - id: "staerk-jacob-beermann"
+    title: "Stærk af Jacob Beermann (16-ugers Styrkeløft)"
+    description: "Højfrekvent procentbaseret 16-ugers styrkeløftsprogram opdelt i Grundtræning og Opkøring for Squat, Bænkpres og Dødløft."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Styrkeløft", "Procentbaseret", "Højfrekvent"]
+    modality: ["Styrketræning"]
+    level: ["Begynder", "Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "16 uger (2 faser)"
+    frequency: "3–5 dage/uge"
+    split_type: "Fullbody / Styrkeløft"
+    goal: ["Maksimalstyrke i Squat/Bænk/Dødløft", "Teknikoptimering", "1RM PR"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk"]
+    target_group: ["Styrkeløftere", "Motionister"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#programmets-opbygning-i-2-faser"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
 ---
 
 Mange programmer er baseret på procenter af 1RM og ordinerer den samme volumen til alle. Mike Tuschscher fra Reactive Training Systems har lavet et eksempel på et træningsprogram til styrkeløft, der autoregulering ved at basere programmet på RPE og _fatigue percents_.

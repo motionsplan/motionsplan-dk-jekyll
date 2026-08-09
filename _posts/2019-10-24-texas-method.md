@@ -26,6 +26,34 @@ meta:
   author: Mark Rippetoe & Glenn Pendlay
   level: øvet
   goal: generelt
+programs:
+  - id: "texas-method"
+    title: "Texas Method Styrketræningsprogram"
+    description: "Klassisk 3-dages program for letøvede med opdeling i Volumendag, Restitutionsdag og Intensitetsdag."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Lineær progression", "Fullbody", "Styrketræning"]
+    modality: ["Styrketræning"]
+    level: ["Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "Løbende (Ugentlig cyklus)"
+    frequency: "3 dage/uge"
+    split_type: "3-dages (Volumen / Restitution / Intensitet)"
+    goal: ["Generel Styrke", "Maksimalstyrke", "Progression på ugebasis"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk"]
+    target_group: ["Letøvede løftere", "Styrkeløftere"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#oversigt-over-programmet"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
 ---
 
 **Texas Method** er et styrketræningsprogram, der er rettet mod den letøvede løfter. Texas method kan være en overbygning på [begynderprogrammet Starting Strength af Mark Rippetoe](/starting-strength-styrketraeningsprogram/). Programmet består af en volumendag om mandagen, en lettere restitutionsdag med variation om onsdagen og en højintensiv dag om fredagen for de store løft.

@@ -29,6 +29,34 @@ meta:
   author: /u/Metallicadpa
   level: øvet
   goal: muskelvækst
+programs:
+  - id: "metallicadpa-ppl"
+    title: "Metallicadpa PPL (6-dages Push/Pull/Legs)"
+    description: "Populært og højfrekvent 6-dages Push/Pull/Legs program fra Reddit med lineær progression på hovedløft og høj volumen på hjælpemuskler."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Push-Pull-Legs", "Hypertrofi", "Lineær progression", "Splitprogram"]
+    modality: ["Styrketræning", "Kropsvægt"]
+    level: ["Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "Løbende (Ugentlig cyklus)"
+    frequency: "6 dage/uge"
+    split_type: "3-split (Push / Pull / Legs)"
+    goal: ["Muskelmasse (Hypertrofi)", "Maksimalstyrke", "Høj træningsfrekvens"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Håndvægte", "Kabeltårn", "Squat rack", "Bænk"]
+    target_group: ["Øvede løftere", "Bodybuildere"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#programstruktur"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
 ---
 
 Metallicadpa PPL er et velkendt og [effektivt styrketræningsprogram](/styrketraeningsprogrammer/), der stammer fra [Reddit](https://old.reddit.com/r/Fitness/comments/37ylk5/a_linear_progression_based_ppl_program_for/). Det er designet til at hjælpe både begyndere og øvede med at opbygge styrke og muskelmasse gennem en struktureret 6-dages træningsuge.

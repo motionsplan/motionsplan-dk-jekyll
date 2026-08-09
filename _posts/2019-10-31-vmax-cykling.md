@@ -44,6 +44,34 @@ tools:
     anchor: "#calculator"
     measures: ["Intervalwatt", "Pausetider", "Intervalprogram"] # 🎯 Output parametre
     category_schema: "HealthAndFitnessApplication"
+programs:
+  - id: "vmax-cykling"
+    title: "Vmax Cykel Intervalprogram"
+    description: "4-ugers videnskabeligt afprøvet intervalprogram til cykling baseret på Vmax og Tmax watt-belastninger."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Kondition", "Konditionstræning"]
+    type: ["Intervaltræning", "Watt-træning", "VO2max"]
+    modality: ["Cykling"]
+    level: ["Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "4 uger"
+    frequency: "3 sessioner/uge (2 hårde + 1 restitution)"
+    split_type: "Intervaller & Restitution"
+    goal: ["Øge VO2max / Kondital", "Højere Vmax Watt", "Anaerob udholdenhed"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Motionscykel med Wattmåler / Hometrainer"]
+    target_group: ["Ryttere", "Cykling entusiaster"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#cykelprogrammet-baseret-paa-studiet"
+    related_tests:
+      - "watt-max-test"
+    related_tools:
+      - "tool-vmax-cykling-estimering"
+      - "tool-vmax-cykling-interval-beregner"
 ---
 
 V<sub>max</sub>-cykeltræning er cykelintervaller med en intensitet omkring den maksimale iltoptagelse. Her får du en beregner som kan beregne hvilken intensitet, du skal køre de enkelte cykelintervaller i.

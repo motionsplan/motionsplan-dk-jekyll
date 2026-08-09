@@ -27,6 +27,34 @@ meta:
   author: Cody Lefever
   level: begynder+
   goal: generelt
+programs:
+  - id: "gzclp"
+    title: "GZCLP af Cody Lefever"
+    description: "Struktureret begynderprogram opdelt i T1 (tung basis), T2 (sekundær volumen) og T3 (isolationsøvelser) med unik stage-progression."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["GZCL Pyramide", "Lineær progression", "Fullbody"]
+    modality: ["Styrketræning"]
+    level: ["Begynder", "Let øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "Løbende (Ugentlig cyklus)"
+    frequency: "3 dage/uge"
+    split_type: "Fullbody (4-dages A1/A2/B1/B2 rotation)"
+    goal: ["Maksimalstyrke", "Muskelmasse", "GZCL Pyramidebase"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk", "Kabeltårn / Håndvægte"]
+    target_group: ["Begyndere", "Let øvede", "Styrkeløftere"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#gzclp-struktur"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
 ---
 
 GZCLP er et vægtløftningsprogram baseret på **GZCL-princippet**, udviklet af [Cody Lefever](https://www.gainzfever.com/). Navnet **GZCL** kommer fra hans Reddit-brugernavn – [`u/gzcl`](https://www.reddit.com/u/gzcl).  

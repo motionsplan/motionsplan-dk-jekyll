@@ -16,6 +16,34 @@ category:
   - Løb
   - Løbeprogrammer
 last_modified_at: 2021-02-13T22:06:29Z
+programs:
+  - id: "mest-effektive-loebeprogram"
+    title: "Det mest effektive 5 km løbeprogram (3 x 5 km)"
+    description: "Minimalistisk og ultrahurtigt løbeprogram baseret på 3 ugentlige 5 km tempoture tæt på den anaerobe tærskel."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Løb", "Løbeprogrammer"]
+    type: ["Tempoløb", "Tidseffektivt", "Tærskeltræning"]
+    modality: ["Løb"]
+    level: ["Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "4 uger (cyklus)"
+    frequency: "3 dage/uge"
+    split_type: "3x 5 km Tempoture"
+    goal: ["Højere iltoptagelse", "Tidsbesparelse", "Forbedret 5 km tid"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Løbesko", "Stopur / Ur"]
+    target_group: ["Travle løbere", "Motionister"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#hvad-vil-det-sige-at-loebeprogrammet-er-effektivt"
+    related_tests:
+      - "cooper-test"
+    related_tools:
+      - "hastigheds-beregner"
+      - "vdot-beregner"
 ---
 
 Her kan du læse mere om, hvordan man kan lave et effektivt løbeprogram og strukturerer sin løbetræning for at blive en bedre løber. Hvis man gerne vil lave et effektivt løbeprogram skal man tage højde for iltoptagelsen, løbeøkonomien og udholdenheden.

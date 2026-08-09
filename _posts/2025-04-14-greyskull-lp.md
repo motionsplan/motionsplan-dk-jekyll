@@ -26,6 +26,33 @@ meta:
   author: John Sheaffer
   level: begynder
   goal: generelt
+programs:
+  - id: "escalating-density-training-edt"
+    title: "Escalating Density Training (EDT)"
+    description: "Fleksibelt træningssystem af Charles Staley baseret på at udføre maksimal træningsvolumen inden for faste tidsblokke (15–20 minutter)."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Density Training", "Tidsblokke", "Antagonist supersæt", "Autoreguleret"]
+    modality: ["Styrketræning"]
+    level: ["Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "4–8 uger"
+    frequency: "3–4 dage/uge"
+    split_type: "Antagonist supersæt / Tidsblokke"
+    goal: ["Muskelmasse (Hypertrofi)", "Træningsdensitet", "Fedttab & Kondition"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Håndvægte", "Kabeltårn", "Bænk"]
+    target_group: ["Motionister", "Øvede løftere", "Travle udøvere"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#det-oprindelige-edt-program"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
 faq:
 - question: Hvad er Greyskull LP?
   answer: 'Greyskull LP (Linear Progression) er et styrketræningsprogram udviklet af John Sheaffer, designet til begyndere

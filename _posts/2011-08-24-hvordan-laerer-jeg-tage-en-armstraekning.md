@@ -19,6 +19,33 @@ tags:
 category:
 - Styrketræning
 last_modified_at: '2021-03-21T19:53:30Z'
+programs:
+  - id: "laer-armstraekninger-grease-the-groove"
+    title: "Lær Armstrækninger & Grease The Groove"
+    description: "3-dages opstartsprogram og Grease The Groove-metode til at lære dine første 5–10 armstrækninger på tæerne."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Kropsvægt", "Progression", "Grease The Groove"]
+    modality: ["Kropsvægt", "Styrketræning"]
+    level: ["Begynder"]
+    
+    # STRUKTUR & RAMMER
+    duration: "4 uger"
+    frequency: "3 dage/uge (eller dagligt GTG)"
+    split_type: "Overkrop Pres"
+    goal: ["Lære 5+ armstrækninger", "Nervefacilitering", "Overkropsstyrke"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Træningsmåtte", "Bænk / Forhøjning"]
+    target_group: ["Begyndere", "Mænd", "Kvinder"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#hvordan-traener-jeg-saa-armstraekninger"
+    related_tests:
+      - "armstraekninger-test"
+    related_tools:
+      - "1rm-beregner"
 ---
 
 Alle raske mennesker bør kunne tage mindst fem armstrækninger, hvor man kun rører jorden med hænderne og tæerne. Hvis ikke du kan, så får du nogle tips til at komme i gang her.

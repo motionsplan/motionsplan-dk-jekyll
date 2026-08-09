@@ -26,6 +26,34 @@ meta:
   author: Arnold Schwarznegger
   level: begynder
   goal: generelt
+programs:
+  - id: "arnolds-golden-six"
+    title: "Arnold Schwarzeneggers Golden Six"
+    description: "Klassisk og simpelt fullbody-program fra Arnolds tidlige karriere med kun 6 øvelser 3 gange om ugen."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Fullbody", "Helkropsprogram", "Klassisk Bodybuilding"]
+    modality: ["Styrketræning", "Kropsvægt"]
+    level: ["Begynder", "Let øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "Løbende (cyklisk)"
+    frequency: "3 dage/uge"
+    split_type: "Fullbody"
+    goal: ["Muskelmasse (Hypertrofi)", "Grundstyrke", "Simpel struktur"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Squat rack", "Bænk", "Pullup bar"]
+    target_group: ["Begyndere", "Bodybuildere", "Motionister"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#hvad-bestaar-golden-six-af"
+    related_tests:
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
 ---
 
 Vil du styrke hele kroppen med en effektiv, klassisk træningsrutine? Så behøver du ikke lede længere end **The Golden Six** – den træningsplan, som en ung Arnold Schwarzenegger brugte i begyndelsen af sin karriere. Enkelt, men yderst effektivt.

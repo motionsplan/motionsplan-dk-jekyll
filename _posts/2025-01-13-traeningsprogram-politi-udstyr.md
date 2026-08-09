@@ -24,6 +24,35 @@ tags:
 last_modified_at: '2025-01-02T10:14:14Z'
 toc: 'true'
 author: lsolesen
+programs:
+  - id: "politi-traeningsprogram-fitnesscenter"
+    title: "Politiets Optagelsesprøve – Fitnesscenter Program"
+    description: "Målrettet 6–8 ugers program i fitnesscenter kombineret af tung styrke, eksplosivitet og intervalløb mod politiprøven."
+    
+    # TAXONOMI & KATEGORISERING
+    category: ["Træning", "Træningsprogrammer"]
+    type: ["Optagelsesprøve", "Maksimalstyrke", "Eksplosivitet", "Intervalløb"]
+    modality: ["Styrketræning", "Løb", "Kropsvægt"]
+    level: ["Let øvet", "Øvet"]
+    
+    # STRUKTUR & RAMMER
+    duration: "6–8 uger"
+    frequency: "3–4 dage/uge"
+    split_type: "Styrke, Eksplosivitet & Løb"
+    goal: ["Bestå politiets optagelsesprøve", "Bænkpres & Pullups", "2400m Løb"]
+    
+    # UDSTYR OG PRAKTIK
+    equipment: ["Vægtstang", "Håndvægte", "Kabeltårn", "Box/Bænk", "Løbesko"]
+    target_group: ["Politiansøgere", "Motionister"]
+    
+    # LINKS OG RELATIONER
+    anchor: "#traeningsprogrammet"
+    related_tests:
+      - "2400-meter-test"
+      - "1rm-test"
+    related_tools:
+      - "1rm-beregner"
+      - "liftosaur"
 ---
 
 Forbered dig effektivt til politiets optagelsesprøve med et struktureret træningsprogram til fitnesscenter. Her får du en målrettet plan, der kombinerer styrketræning og konditionstræning, så du står stærkt til den fysiske test.
