@@ -28,6 +28,15 @@ meta:
   equipment: vægt
   measures: dagligt vandindtag
   type: kost & ernæring
+tools:
+  - id: "tool-vaeskebehov-beregner"
+    title: "Dagligt Væskebehov Beregner"
+    description: "Beregn dit estimerede daglige basalbehov for vand og væske i liter baseret på din kropsvægt."
+    category: ["Kost & Ernæring"]
+    type: ["Beregner"]
+    measures: ["Væskebehov", "Vandindtag", "Dagligt væskebehov", "Basalbehov"]  # 🎯 Nøjagtige output-parametre fra beregneren
+    anchor: "#beregn-hvor-meget-vand-skal-du-drikke-om-dagen"
+    category_schema: "HealthAndFitnessApplication"
 faq:
 - question: Hvor meget vand skal man drikke om dagen?
   answer: Der er uenighed i litteraturen om, hvor meget vand man skal drikke om dagen. For langt de fleste mennesker vil tørsten

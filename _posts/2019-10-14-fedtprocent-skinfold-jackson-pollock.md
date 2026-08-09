@@ -6,7 +6,7 @@ language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
-  - Tests
+  - Kropskomposition
   - Fedtprocent
 breadcrumbs: true
 tags:
@@ -20,13 +20,32 @@ meta:
   equipment: "hudfoldsmaaler"
   intensity: "ingen"
   method: "indirekte"
+page_type: "spoke"
+tests:
+  - id: "test-jackson-pollock-3punkt"
+    title: "Jackson & Pollock 3-punkts hudfoldsmåling"
+    description: "Anerkendt 3-punkts hudfoldsmåling anbefalet af ACSM til estimering af fedtprocent og fedtfri masse for mænd og kvinder."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Måling"]
+    execution: ["Måling"]
+    modality: ["Kropsmål"]
+    method: "Indirekte"    
+    measures: ["Fedtprocent", "Kropsdensitet", "Fedtfri masse"]
+    equipment: ["Hudfoldsmåler"]
+    setting: ["Individuel", "Laboratorietest"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-jackson-pollock-3punkt-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Jackson & Pollock 3-punkts Hudfoldsberegner"
+  - id: "tool-jackson-pollock-3punkt-beregner"
+    title: "Jackson & Pollock 3-punkts Hudfoldsberegner"
     description: "Beregn din fedtprocent ud fra 3 hudfoldsmålinger med Jackson & Pollock-formlen for mænd (bryst, mave, lår) og kvinder (triceps, hoftekam, lår)."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#fedtprocent-for-maend"
-    type: "beregner"
-    measures: "fedtprocent"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 feature_row_references:

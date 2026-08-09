@@ -15,8 +15,8 @@ header:
   - label: <i class='fas fa-calculator'></i> Hop til beregneren →
     url: '#calculator'
 category:
-- Beregnere
 - Kondition
+- Konditionstests
 meta:
   name: "Kondital ud fra puls"
   measures: "kondital"
@@ -24,13 +24,32 @@ meta:
   equipment: "pulsbaelte"
   intensity: "ingen"
   method: "formel"
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-uth-heart-rate-ratio"
+    title: "Kondital ud fra Puls (Uth's Formel)"
+    description: "Indirekte test til estimering af VO2max og kondital ud fra forholdet mellem maxpuls og hvilepuls (Heart Rate Ratio Method)."
+    category: ["Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Sofatest"]
+    method: "formel"                    # 🧮 Ren matematisk formel: (HRmax / HRrest) * 15.3
+    modality: ["Puls"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
+    equipment: ["Pulsmåler", "Pulsbælte"]
+    setting: ["Hjemmetest", "Sofatest", "Individuel"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-uth-puls-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Kondital Beregner ud fra Puls (Uth's Formel)"
+  - id: "tool-uth-puls-beregner"
+    title: "Kondital Beregner ud fra Puls (Uth's Formel)"
     description: "Beregn dit estimerede kondital (VO2max) ud fra forholdet mellem din hvilepuls og din maxpuls baseret på Uth et al. formlen."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "kondital"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

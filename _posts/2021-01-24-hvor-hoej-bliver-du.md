@@ -13,6 +13,7 @@ header:
   caption: Hvor høj bliver jeg – eller mit barn?
 category:
 - Beregnere
+- Antropometri
 tags:
 - beregner
 - højde
@@ -23,6 +24,15 @@ meta:
   equipment: ingen
   measures: højde
   type: kropssammensætning
+tools:
+  - id: "tool-hoejdeberegner"
+    title: "Højdeberegner for Børn og Unge (Target Height)"
+    description: "Beregn et barns forventede voksensluthøjde (målhøjde) ud fra forældrenes højde baseret på den officielle formel fra Sundhed.dk og Rigshospitalet."
+    category: ["Beregnere", "Antropometri"]
+    type: ["Beregner"]
+    measures: ["Sluthøjde", "Målhøjde", "Forventet højde"]  # 🎯 Nøjagtige output-parametre fra beregneren
+    anchor: "#beregn-hvor-hoej-du-eller-dit-barn-bliver"
+    category_schema: "HealthAndFitnessApplication"
 faq:
 - question: Hvordan beregner man, hvor højt ens barn bliver?
   answer: 'Du kan beregne et barns forventede sluthøjde ud fra forældrenes højde. For drenge lægges 13 cm til moderens højde, lægges sammen med faderens højde og divideres med 2. For piger trækkes 13 cm fra faderens højde, lægges sammen med moderens højde og divideres med 2.'

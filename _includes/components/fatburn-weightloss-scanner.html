@@ -1,0 +1,136 @@
+<div class="zacho-graph-scanner" style="background: #ffffff; border: 1px solid #e0e0e0; padding: 20px; border-radius: 12px; font-family: system-ui, sans-serif; max-width: 680px; margin: 30px auto; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
+  
+  <h3 style="margin-top: 0; text-align: center; color: #222;">Interaktiv Graf-Scanner: Forstå Zachos Figurer</h3>
+  <p style="text-align: center; font-size: 0.88em; color: #666; margin-bottom: 20px;">Træk i slideren og se, hvordan den lodrette scanner-linje rammer alle 4 grafer præcist.</p>
+
+  <!-- Slider -->
+  <div style="margin-bottom: 25px; background: #f8f9fa; padding: 15px; border-radius: 8px;">
+    <label for="scannerSlider" style="display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 8px;">
+      <span>Intensitet (% af VO₂-max):</span>
+      <span style="color: #d9534f; font-size: 1.1em;"><span id="scannerVal">60</span>%</span>
+    </label>
+    <input type="range" id="scannerSlider" min="10" max="95" value="60" step="1" style="width: 100%; cursor: pointer;">
+  </div>
+
+  <!-- Graferne i et 2x2 Grid -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+    
+    <!-- Graf 1: Relativ fedt % -->
+    <div style="background: #fafafa; border: 1px solid #eee; padding: 10px; border-radius: 6px; position: relative;">
+      <div style="font-size: 0.78em; font-weight: bold; color: #cc0000; margin-bottom: 4px;">Fig 1: Relativ fedtforbrænding (%)</div>
+      <svg id="svg1" viewBox="0 0 200 100" style="width: 100%; height: auto; overflow: visible;">
+        <line x1="20" y1="10" x2="20" y2="90" stroke="#333" stroke-width="1.5" />
+        <line x1="20" y1="90" x2="190" y2="90" stroke="#333" stroke-width="1.5" />
+        <!-- Kurve: Eksakt matching Bézier -->
+        <path d="M 20 25 Q 100 30, 180 85" fill="none" stroke="#cc0000" stroke-width="2.5" />
+        <line id="cursor1" x1="20" y1="10" x2="20" y2="90" stroke="#333" stroke-width="1.5" stroke-dasharray="3,3" />
+        <circle id="dot1" cx="20" cy="25" r="5" fill="#cc0000" />
+      </svg>
+    </div>
+
+    <!-- Graf 2: Samlet energi pr. min -->
+    <div style="background: #fafafa; border: 1px solid #eee; padding: 10px; border-radius: 6px; position: relative;">
+      <div style="font-size: 0.78em; font-weight: bold; color: #cc0000; margin-bottom: 4px;">Fig 2: Samlet forbrænding (kcal/min)</div>
+      <svg id="svg2" viewBox="0 0 200 100" style="width: 100%; height: auto; overflow: visible;">
+        <line x1="20" y1="10" x2="20" y2="90" stroke="#333" stroke-width="1.5" />
+        <line x1="20" y1="90" x2="190" y2="90" stroke="#333" stroke-width="1.5" />
+        <line x1="20" y1="85" x2="180" y2="25" stroke="#cc0000" stroke-width="2.5" />
+        <line id="cursor2" x1="20" y1="10" x2="20" y2="90" stroke="#333" stroke-width="1.5" stroke-dasharray="3,3" />
+        <circle id="dot2" cx="20" cy="85" r="5" fill="#cc0000" />
+      </svg>
+    </div>
+
+    <!-- Graf 3: Produktet (Samlet fedt g/min) -->
+    <div style="background: #fafafa; border: 1px solid #eee; padding: 10px; border-radius: 6px; position: relative;">
+      <div style="font-size: 0.78em; font-weight: bold; color: #cc0000; margin-bottom: 4px;">Fig 3: Fedt forbrændt i alt (g/min)</div>
+      <svg id="svg3" viewBox="0 0 200 100" style="width: 100%; height: auto; overflow: visible;">
+        <line x1="20" y1="10" x2="20" y2="90" stroke="#333" stroke-width="1.5" />
+        <line x1="20" y1="90" x2="190" y2="90" stroke="#333" stroke-width="1.5" />
+        <!-- Kurve: Eksakt matching Parabel / Klokke -->
+        <path d="M 20 85 Q 100 -25, 180 85" fill="none" stroke="#cc0000" stroke-width="2.5" />
+        <line id="cursor3" x1="20" y1="10" x2="20" y2="90" stroke="#333" stroke-width="1.5" stroke-dasharray="3,3" />
+        <circle id="dot3" cx="20" cy="85" r="5" fill="#cc0000" />
+      </svg>
+    </div>
+
+    <!-- Graf 4: Zachos Grønne Linie -->
+    <div style="background: #fafafa; border: 1px solid #eee; padding: 10px; border-radius: 6px; position: relative;">
+      <div style="font-size: 0.78em; font-weight: bold; color: #2e7d32; margin-bottom: 4px;">Zachos Grønne Linje: Effekt v. fast tid</div>
+      <svg id="svg4" viewBox="0 0 200 100" style="width: 100%; height: auto; overflow: visible;">
+        <line x1="20" y1="10" x2="20" y2="90" stroke="#333" stroke-width="1.5" />
+        <line x1="20" y1="90" x2="190" y2="90" stroke="#333" stroke-width="1.5" />
+        <line x1="20" y1="85" x2="180" y2="25" stroke="#2e7d32" stroke-width="2.5" />
+        <line id="cursor4" x1="20" y1="10" x2="20" y2="90" stroke="#333" stroke-width="1.5" stroke-dasharray="3,3" />
+        <circle id="dot4" cx="20" cy="85" r="5" fill="#2e7d32" />
+      </svg>
+    </div>
+
+  </div>
+
+  <!-- Dynamisk forklaring -->
+  <div style="margin-top: 15px; padding: 12px; background: #eef7ff; border-radius: 6px; font-size: 0.85em; color: #155724; border: 1px solid #c3e6cb;">
+    <strong>Hvad viser graferne lige nu?</strong> <span id="scannerExplain">Flyt slideren for at se forklaringen.</span>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const slider = document.getElementById('scannerSlider');
+  const valDisplay = document.getElementById('scannerVal');
+  const explain = document.getElementById('scannerExplain');
+
+  function updateScanner() {
+    const val = parseInt(slider.value);
+    valDisplay.textContent = val;
+
+    // Parameter t i intervallet [0, 1] svarende til 10% - 95%
+    const t = (val - 10) / (95 - 10);
+    
+    // x-koordinat i SVG (fra 20 til 180)
+    const currentX = 20 + t * 160;
+
+    // Opdater de stiplede scanner-linjer
+    for (let i = 1; i <= 4; i++) {
+      const c = document.getElementById('cursor' + i);
+      c.setAttribute('x1', currentX);
+      c.setAttribute('x2', currentX);
+    }
+
+    // --- PRÆCISE MATEMATISKE FORMLER FOR Y-KOORDINATERNES MATCHER ---
+
+    // Fig 1: Quadratic Bezier Q(20 25, 100 30, 180 85)
+    // Y(t) = (1-t)^2 * 25 + 2(1-t)t * 30 + t^2 * 85
+    const y1 = 25 + 10 * t + 50 * t * t;
+    document.getElementById('dot1').setAttribute('cx', currentX);
+    document.getElementById('dot1').setAttribute('cy', y1);
+
+    // Fig 2: Lineær ret linie fra (20, 85) til (180, 25)
+    const y2 = 85 - 60 * t;
+    document.getElementById('dot2').setAttribute('cx', currentX);
+    document.getElementById('dot2').setAttribute('cy', y2);
+
+    // Fig 3: Quadratic Bezier Q(20 85, 100 -25, 180 85) (Skarp klokkekurve/parabel)
+    // Y(t) = (1-t)^2 * 85 + 2(1-t)t * (-25) + t^2 * 85
+    const y3 = 85 - 220 * t + 220 * t * t;
+    document.getElementById('dot3').setAttribute('cx', currentX);
+    document.getElementById('dot3').setAttribute('cy', y3);
+
+    // Fig 4: Grøn Linie fra (20, 85) til (180, 25)
+    const y4 = 85 - 60 * t;
+    document.getElementById('dot4').setAttribute('cx', currentX);
+    document.getElementById('dot4').setAttribute('cy', y4);
+
+    // Tekstforklaringer
+    if (val < 45) {
+      explain.innerHTML = "Ved <strong>" + val + "% intensitet</strong> er den relativt forbrændte fedtandel højest (Fig 1), men den samlede forbrænding pr. minut er så lav (Fig 2), at det totale fedttab og kalorieforbrug (Fig 3 & Grøn linje) bliver beskedent.";
+    } else if (val <= 70) {
+      explain.innerHTML = "Ved <strong>" + val + "% intensitet</strong> rammer du toppen af Fig 3 (FATmax). Her forbrænder du flest gram fedt pr. minut. Men bemærk, at den grønne linje fortsætter opad, hvis du skruer tempoet op!";
+    } else {
+      explain.innerHTML = "Ved <strong>" + val + "% intensitet</strong> er den relative fedtforbrænding faldet tæt på nul (Fig 1). Til gengæld er den samlede kalorieforbrænding og den grønne linje i top! For et vægttab på en fastsat tid er dette den mest effektive zone.";
+    }
+  }
+
+  slider.addEventListener('input', updateScanner);
+  updateScanner();
+});
+</script>

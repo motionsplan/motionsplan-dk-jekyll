@@ -1,5 +1,7 @@
 ---
-title: 'Teknologi og sport: Revolution i sportsudstyr'
+title: 'Teknologi og sport: Revolution i sportsudstyr og supersko'
+seo_title: 'Teknologi i sport: Revolutionen af supersko og sportsudstyr'
+description: Gør teknologi atleterne ubegrundet hurtigere? Læs om carbon-løbesko, forbudte svømmedragter og debatten om teknologisk udstyrsoptimering i sport.
 permalink: /teknologi-sport/
 header:
   overlay_image: /assets/images/unsplash/photo-1516487200032-8532cb603261.jpg
@@ -7,187 +9,89 @@ header:
   teaser: /assets/images/unsplash/photo-1516487200032-8532cb603261.jpg
   caption: 'Teknologi og sport: Revolution i sportsudstyr'
 category:
-- Inspiration
+  - Inspiration
 tags:
-- udstyr
-last_modified_at: '2023-09-24T10:14:14Z'
-toc: 'true'
+  - udstyr
+  - løb
+  - inspiration
+last_modified_at: '2026-08-08T12:00:00Z'
+toc: true
 ---
 
-Der har været rigtig meget debat om den teknologiske udvikling i sport. Der bliver brugt mange penge på at forbedre sportsudstyr, så atleterne får bedre vilkår for at kunne slå rekorder.
+Der har gennem årene været voldsom debat om den teknologiske udvikling i sport. Der bruges svimlende summer på at optimere sportsudstyr, så atleter får de bedst mulige betingelser for at slå verdensrekorder.
 
-Debatten om hvor stor betydning ingenører har for præstationerne i idræt er blusset op igen efter, at Nike har fundet ud af at udnytte egenskaberne fra carbon i løbesko.
+Debatten om, hvor stor en del af æren der tilhører ingeniørerne frem for atleternes krop, blussede især op, da Nike introducerede **carbon-plader og super-skum** i løbesko. 
 
-Det er altid fedt at få noget godt udstyr, men er de sportslige teknologiske landvindinger ved at tage overhånd?
+Men er de teknologiske landvindinger i sporten ved at tage overhånd – eller er det blot en naturlig evolution af idrætten?
 
-{% comment %}
-
-
-
-
-
-
-
-
--------------------------
-
-
-
-
-
-https://www.dr.dk/sporten/atletik/er-nye-supersko-i-fuld-gang-med-smadre-historieboegerne
-
-
-
-
-
-## Sko til sprint
-
-{% include video provider="youtube" id="DH4hW9U6VJk" %}
-
-
-
-## Chris Boardman
-
-
-## Graeme Obree
-
-https://da.wikipedia.org/wiki/Graeme_Obree
-
-
-
-
-
-
-https://www.dr.dk/nyheder/viden/bevaegelse/hurtige-svoemmedragter-og-hoppende-loebesko-tre-teknologier-der-har-hjulpet
-
-
-
-********
-
-{% endcomment %}
+---
 
 ## Sportsudstyr har altid udviklet sig
 
-Puma og Adidas er et af de tidlige eksempler på nogle skoproducenter som virkelig gjorde meget for at udvikle skoene til at præstere bedre. Du kan se den aldeles fremragende serie [Rivalerne](https://www.imdb.com/title/tt4610114/), hvor du får et indblik i det.
+Udvikling af udstyr er ikke et nyt fænomen. Da brødrene bak Adidas og Puma i 1930'erne begyndte at fremstille de første specialicerede pigsko, ændrede det atletikverdenen permanent. Da Jesse Owens løb sine legendariske 100-meter tider i 1930'erne, skete det på slaggerbaner (cinders) og med tidlige læderpigsko.
 
-Jesse Owens var i 30'erne og 40'erne den altoverskyggende profil i 100-meter løb. Han løb på cindersbane og i nogle af de tidlige versioner af pigskoen.
-
-David Epstein fortæller mere om udstyrets udvikling i denne interessante TED-talk.
+David Epstein udlægger denne udvikling fantastisk i sin klassiske TED-talk om, hvorvidt atleter reelt er blevet hurtigere eller blot har fået bedre udstyr:
 
 <div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/david_epstein_are_athletes_really_getting_faster_better_stronger" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
-Usain Bolt som er historiens hurtigste 100-meter-løber med en tid på 9,58 sekunder sat i 2009 er ikke i tvivl om han kunne have løbet endnu hurtigere i de nye sko.
+Historiens hurtigste mand på 100-meter, Usain Bolt (9,58 sekunder i 2009), lægger da heller ikke skjul på, hvad moderne sko ville have gjort for hans tider:
 
-> Men helt sikkert meget hurtigere, og bestemt under 9,50 sekunder. Uden tvivl!
->
-> --- <cite>[Usain Bolt](https://www.dr.dk/sporten/ol/havde-historiens-hurtigste-mand-slettet-sin-verdensrekord-med-supersko-ja-siger-han-selv)</cite>
+> "Helt sikkert meget hurtigere, og bestemt under 9,50 sekunder. Uden tvivl!"  
+> — <cite>[Usain Bolt](https://www.dr.dk/sporten/ol/havde-historiens-hurtigste-mand-slettet-sin-verdensrekord-med-supersko-ja-siger-han-selv)</cite>
 
-Men betyder det, at udviklingen er urimelig fordi det bliver lettere at slå rekorder fordi udstyret er bedre.
+Det rejser spørgsmålet: Bliver historiske rekorder ødelagt, fordi udstyret gør det markant lettere at løbe stærkt?
 
-Det er der nogen der mener.
+> "Man er i gang med at ødelægge historien. Jeg stoppede som eliteaktiv i 2017, og der er sket så meget på skofronten, at vi nærmest løb i stenalderen på det tidspunkt. Det betyder også, at man ikke kan gå tilbage i historien og sammenligne tiderne længere."  
+> — <cite>[Henrik Them](https://www.dr.dk/sporten/ol/havde-historiens-hurtigste-mand-slettet-sin-verdensrekord-med-supersko-ja-siger-han-selv), formerel landsholdsløber</cite>
 
-> Man er i gang med at ødelægge historien. Jeg stoppede som eliteaktiv i 2017, og der er sket så meget på skofronten, at vi nærmest løb i stenalderen på det tidspunkt. Det betyder også, at man ikke kan gå tilbage i historien og sammenligne tiderne længere.
->
-> --- <cite>[Henrik Them](https://www.dr.dk/sporten/ol/havde-historiens-hurtigste-mand-slettet-sin-verdensrekord-med-supersko-ja-siger-han-selv), tidligere landsholdsløber</cite>
+---
 
-Man kan imidlertid sagtens argumentere for, at der altid har været udvikling. Hver eneste rekord står på skuldrene af nye teknologiske forbedringer, men også forbedringer i træningsmetoder og viden om træning.
+## Berømte teknologiske gennembrud i sportsudstyr
 
-## Berømte teknologiske fremskridt i sportsudstyr
+I topsport handler det om at omsætte atletens energi til så meget fremdrift som overhovedet muligt uden tab. Hos Team Danmark arbejder man målrettet med denne optimering:
 
-> ‘Man skal ikke gå ned på udstyr’.
+> "I en konkurrence vil vi gerne udnytte den energi, som sportsudøveren lægger i udstyret. Energien skal omsættes til så meget fart som overhovedet muligt."  
+> — <cite>[Andreas Top Adler, præstationsingeniør hos Team Danmark](https://www.dr.dk/nyheder/viden/bevaegelse/hurtige-svoemmedragter-og-hoppende-loebesko-tre-teknologier-der-har-hjulpet)</cite>
 
-Og det er der ikke mange topatleter, der gør længere i sportsverden.
+Her er to af de mest markante eksempler på teknologisk revolution i sportens verden:
 
-Når du kan lave udstyret bedre, så kan du udnytte den energi atleterne bruger bedre.
+### 1. Løbesko med fjedereffekt (Supersko)
+Da Nike i 2017 lancerede deres *Vaporfly 4%*, ændrede det langdistanceløb for altid. Skoen kombinerede et ultra-responsivt PEBA-skum (ZoomX) med en stiv, indbygget **carbon-plade**.
 
-I Team Danmark har man en fuldtidsansat til at være med til forbedre præstationerne i de forskellige idrætsgrene. Andreas Top Adler arbejder særligt tæt sammen med banelandsholdet i cykling, men er også inde over de andre discipliner.
+{% include figure image_path="https://s3.amazonaws.com/nikeinc/assets/69101/Nike-4percent_final_native_1600.jpg?1493744193" caption="Opbygningen af sålen på en Nike Vaporfly med carbon-plade og stødabsorberende skum. Kilde: [Nike](https://news.nike.com/news/nike-vaporfly-4-review)" %}
 
-> I en konkurrence vil vi gerne udnytte den energi, som sportsudøveren lægger i udstyret. Energien skal omsættes til så meget fart som overhovedet muligt, siger han.
->
-> --- <cite>[Andreas Top Adler, præstationsingeniør hos TeamDanmark](https://www.dr.dk/nyheder/viden/bevaegelse/hurtige-svoemmedragter-og-hoppende-loebesko-tre-teknologier-der-har-hjulpet)</cite>
+Kombinationen reducerer det energitab, der opstår, hver gang foden rammer jorden. Det giver en fjedrende effekt, der forbedrer løbeøkonomien med op mod 4–5 %. 
 
-Andreas Top Adler ved alt om, hvor stor betydning materialernes vægt og hårdhed kan betyde for at optimere farten hos atleterne.
+Eliud Kipchoge brugte en prototype af skoen med tre carbonplader, da han brød den magiske 2-timers grænse på maratondistancen under et uofficielt event i Wien i 2019 (1:59:40). 
 
-Et af de materialer som virkelig har revolutioneret sportsudstyret er carbon. Carbon bliver brugt i alt fra både i sejlsport til cykler og nu også i løbesko.
-
-Men lad os kigge på nogle af de mere eller mindre kontroversielle teknologiske udviklinger, som har haft betydning for idrætten og som bliver diskuteteret livligt.
-
-## Løbesko med fjeder-effekt
-
-Nike lancerede i 2017 deres banebrydende løbesko kaldet Nike Vaporfly. Siden da har Nikes sko siddet på fødderne af flere verdensrekorder. [Teknologien i skoen](https://www.wired.com/story/the-science-behind-nikes-new-vaporfly-next-marathon-shoe/) er imponerende. Den består af af en carbon-sål.
-
-{% include figure image_path="https://s3.amazonaws.com/nikeinc/assets/69101/Nike-4percent_final_native_1600.jpg?1493744193" caption="Opbygningen af sålen på en Nike Vaporfly. Kilde: [Nike](https://news.nike.com/news/nike-vaporfly-4-review)" %}
-
-Løbeskoen fra Nike har en et hårdt skummateriale som midtersål og en indbygget carbonplade. Kombinationen gør, at løberen får mere energi tilbage fra hver eneste skridt. Effekten fungerer altså lidt ligesom en fjeder.
-
-> Med carbonpladen i løbeskoen mindsker man den tabte energi, og skoen vil derfor bevare mere energi for hvert skridt set i forhold til en almindelig løbesko.
->
-> --- <cite>[Andreas Top Adler, præstationsingeniør hos TeamDanmark](https://www.dr.dk/nyheder/viden/bevaegelse/hurtige-svoemmedragter-og-hoppende-loebesko-tre-teknologier-der-har-hjulpet)</cite>
-
-Kenyaneren, Eliud Kipchoge, brugte en prototype af Vaporfly, da han under helt optimale forhold på en formel 1-bane skulle forsøge at løbe en maraton under 2 timer. Kipchoges sko havde angiveligt hele tre carbonplader i den ret tykke sål.
-
-Kenyanske, Brigid Kosgei, satte også verdensrekord på 2 timer, 14 minutter og 4 sekunder i Nike Vaporfly ved Chicago Marathon i 2019. Hun brugte dog versionen med kun en enkelt carbonplade i sålen.
-
-Nu er verdensrekorden slået af etiopiske Tigst Assefa med 2 timer, 11 minutter og 53 sekunder. Det gjorde hun til Berlin maraton i 2023.
-
-World Athletes har reguleret reglerne, så atleter kun må løbe i sko med maksimalt 1 carbonplade, og løbeskoene skal have været på markedet, så alle har mulighed for at købe den i butikkerne.
-
-Løbeskoene fra Nike er kontroversielle og der er mange holdninger til dem. Er det snyd, eller er det bare en kærkommen forbedring, som gør at vi kan komme tættere på at indfri vores potentiale.
+For at dæmme op for udstyrsdoping har det internationale atletikforbund, **World Athletics**, indført faste regler:
+* En løbesko må maksimalt have en såltykkelse på **40 mm**.
+* Skoen må maksimalt indeholde **1 indbygget carbonplade**.
+* Skoen skal være tilgængelig i almindeligt salg (ikke unikke prototyper).
 
 {% include video provider="youtube" id="Kzd3SwfDOgw" %}
 
-{% comment %}
+### 2. De forbudte super-svømmedragter (LZR Racer)
+I 2008 lancerede Speedo og Arena højteknologiske heldragter fremstillet af plastmaterialet polyurethan (blandt andet *Speedo LZR Racer*). Dragterne komprimerede svømmerens krop, fangede luftbobler for øget opdrift og reducerede vandmodstanden markant.
 
+Resultatet var vildt: Alene i 2009 blev der sat vanvittige **143 verdensrekorder** i svømning. 
 
-## Superhurtige og forbudte svømmedragter
+Superdragterne skabte dog massiv kritik for at skævvride konkurrencen, da dragterne kostede tusindvis af kroner og kun holdt til få løb. I 2010 greb det internationale svømmeforbund (FINA) ind og **forbød alle heldragter af polyurethan**, så svømning igen blev en kamp på ren kropsstyrke og teknik.
 
-I 2008 havde de amerikanske svømmere Amanda Beard (venstre), Natalie Coughlin (højre), og Michael Phelps alle tre de højteknologiske Speedodragter "LZR Racer" på til OL i Beijing. (Foto: Kathy Willens)
-Det blev til et højteknologisk forspring i bassinet, da heldragter af plastmaterialet polyurethane blev sendt på markedet i 2008 af de to store brands Speedos og Arena.
+---
 
-Alene i 2009 blev der sat 143 verdensrekorder af svømmere verden over, der svømmede i hi-tech dragterne.
+## Hvorfor er carbon så revolutionerende?
 
-Den voldsomme stigning i verdensrekorder satte hurtigt udstyret under mistanke.
+Carbon (kulfiber) er blevet den centrale byggesten i alt fra racercykler og ropagajer til master på OL-sejlbåde og mellemsåler i løbesko.
 
-Det fik den verdensberømte amerikanske svømmer Michael Phelps til at tage store ord i brug og truede med at slutte karrieren, hvis ikke dragterne blev forbudte.
+Materialet består af bittesmå kulstoffibre, der flettes og støbes i harpiks. Carbon har en ekstrem høj trækstyrke i længderetningen og vejer næsten ingenting. Det gør det muligt for ingeniører at skabe udstyr, der er ultrahårdt og stift, uden at tilføje uønsket kropsvægt.
 
----- https://www.scientificamerican.com/article/how-speedo-created-swimsuit/
+---
 
+## Hør mere om "Performance Engineering"
 
----- https://abcnews.go.com/Politics/full-body-swimsuit-now-banned-professional-swimmers/story?id=9437780
+Vil du nørde mere igennem om, hvordan Team Danmark arbejder med udstyrsoptimering og vindtunneltests? 
 
-Han var nervøs for den skævvridning, det kunne have for sporten, selvom han selv måtte ride med på bølgen for at følge med.
-
-
-- Svømmedragterne har en lille smule opdrift, så svømmeren ligger lidt højere i vandet. Overfladen gør vandmodstanden mindre, og det giver en klar fordel, siger Andreas Top Adler.
-
-I 2010 satte det internationale svømmeforbund, FINA, en streg i sandet - eller vandet om man vil. De forbød ti af de superhurtige svømmedragter på markedet.
-
-- I følge FINA skal man ikke kunne købe sig til fart på det niveau som svømmedragterne giver mulighed for. En high-tech svømmedragt koster mellem 8-10.000 kroner, og den kan bruges i to til tre løb. Det skævvrider konkurrencen, så de lande eller svømmere, der ikke har nær så gode økonomiske kår, ikke kan være med, siger Andreas Top Adler.
-
-## Det stærke og lette carbon
-
-Her ses en mast lavet af carbon. Fibrene er flettet ind på kryds og tværs, så masten kan bøje i alle retninger uden at knække. (Foto: Onne van der Wal)
-Carbon har ikke kun sneget sig i løbeskoene fra Nike.
-
-Faktisk har carbon på mange måder revolutioneret sportsudstyr. Det gælder for flere sportsgrene, fortæller Andreas Top Adler.
-
-- Carbon er central byggesten for udstyret i mange sportsgrene. Masterne i de olympiske både, store dele af professionelle cykler og pagajer bliver lavet i carbon til OL.
-
-Materialet er nemlig ekstremt stærkt og har den klare fordel, at det er meget let.
-
-- Carbon er små fibre, som man limer sammen. Det er kun stærkt i længderetningen lidt ligesom et menneskehår. Ikke to elefanter kan trække det fra hinanden i dén retning, men får materialet et slag fra en forkert vinkel, går udstyret let i stykker.
-
-Det er langt fra kun større udstyr, som er nøje udvalgt, når sportsfolk skal deltage i OL.
-
-Alt udstyr til de olympiske lege er optimeret lige fra sokker, handsker og hjelme, der kan være med til at understøtte de imponerende fysiske præstationer, som sommeren byder på.
-
-{% endcomment %}
-
-## Performance engeneering
-
-Hvis du er interesseret i at vide lidt mere om _performance engineering_ og [præstationsoptimering](/traeningslaere/) gennem forbedringer af udstyret, så har Anders Nedergaard behandlet det i [Fitness M/K](https://andersnedergaard.dk/fitness-mk/fitness-m-k-318/).
-
-Du kan lytte til hele episoden og interviewet med Andreas Top Adler fra Team Danmark direkte på Spreaker her.
+Idrætsfysiolog Anders Nedergaard har interviewet Andreas Top Adler fra Team Danmark i podcasten **Fitness M/K**:
 
 <a class="spreaker-player" href="https://www.spreaker.com/user/anders_nedergaard/318-performance-engineering" data-resource="episode_id=45906347" data-theme="dark" data-playlist="false" data-width="100%" data-height="200px">Listen to "#318 Performance engineering med Team Danmark" on Spreaker.</a><script async src="https://widget.spreaker.com/widgets.js"></script>

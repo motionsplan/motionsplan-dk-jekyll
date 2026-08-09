@@ -15,6 +15,7 @@ header:
   caption: Riegels formel til beregning af konkurrencetider og løbetider
 category:
 - Løb
+- Løbeberegnere
 tags:
 - beregner
 - kondition
@@ -24,6 +25,15 @@ meta:
   equipment: ingen
   measures: løbetid
   type: løb
+tools:
+  - id: "tool-riegels-loebeberegner"
+    title: "Riegels Løbeberegner"
+    description: "Beregn dine forventede konkurrencetider og løbetider på tværs af distancer (fra 5 km til maraton) med Pete Riegels klassiske formel."
+    category: ["Løb"]
+    type: ["Beregner"]
+    measures: ["Løbetid", "Konkurrencetid", "Forventet tid"]  # 🎯 Output-parametre fra beregneren
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 breadcrumbs: 'true'
 ---
 

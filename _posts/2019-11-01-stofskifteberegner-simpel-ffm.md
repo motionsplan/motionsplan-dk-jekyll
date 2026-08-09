@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1481966115753-963394378f23.jpg
   caption: 'Beregn hvilestofskifte ud fra fedtfri masse (FFM) 🔥'
 category:
-  - Beregnere
+  - Kost & Ernæring
   - Kalorieberegnere
 meta:
   name: "Hvilestofskifte ud fra fedtfri masse (FFM)"
@@ -20,12 +20,14 @@ meta:
   intensity: "ingen"
   method: "formel"
 tools:
-  - title: "BMR-beregner ud fra Fedtfri Masse (FFM)"
+  - id: "tool-bmr-ffm-beregner"
+    title: "BMR-beregner ud fra Fedtfri Masse (FFM)"
     description: "Beregn dit hvilestofskifte (BMR) ud fra din fedtfrie masse eller fedtprocent med anerkendte formler som Cunningham og Katch-McArdle."
+    category: ["Ernæring"]
+    type: ["Beregner"]
+    measures: ["BMR", "Hvilestofskifte", "Basalstofskifte"]  # 🎯 Nøjagtige output-værdier
     anchor: "#calculator"
-    type: "beregner"
-    measures: "hvilestofskifte, BMR"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
   - beregner
   - fedtfri masse

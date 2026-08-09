@@ -11,8 +11,8 @@ header:
   teaser: /assets/images/unsplash/photo-1473091540282-9b846e7965e3.jpg
   credit: https://images.unsplash.com/photo-1473091540282-9b846e7965e3
 category:
-- Træning
-- Springtræning
+- Spring
+- Springtests
 tags:
 - test
 - træning
@@ -31,6 +31,21 @@ meta:
   max: maksimal test
   direct: indirekte test
   description: Test for at måle, hvor langt du kan springe fremad.
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-broad-jump"
+    title: "Broad Jump Test (Stående Længdespring)"
+    description: "Standardiseret fysisk præstationstest af eksplosiv horisontal springstyrke og underkroppens muskelkraft udført fra stående samlet afsæt."
+    category: ["Tests", "Eksplosivitet", "Spring"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver maksimalt stående længdespring
+    method: "direkte"                     # 📊 Måles direkte i cm fra afsætslinje til bagerste hæl
+    modality: ["Spring", "Eksplosivitet"]
+    measures: ["Springlængde", "Horisontal springstyrke", "Eksplosivitet", "Springstyrke"]
+    equipment: ["Målebånd", "Afsætslinje"]
+    setting: ["Indendørs", "Udendørs", "Testcenter", "Politiprøve", "Individuel"]
+    target_group: ["Atleter", "Politiansøgere", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 last_modified_at: '2025-01-19T08:14:14Z'
 toc: 'true'
 ---
@@ -105,6 +120,19 @@ Der findes forskellige normer for, hvad et godt resultat er i det stående læng
 | 00       | 200 - 209 cm         | 150 - 159 cm         |
 | \-3      | 199 cm eller kortere | 149 cm eller kortere |
 </details>
+
+## Hvad er en god præstation i længdehop?
+
+Orienterede retningslinjer for det klassiske to-bens stående længdehop (broad jump) for voksne:
+
+* **Mænd:**
+  * *Middel:* 200 – 220 cm
+  * *Godt:* 230 – 250 cm
+  * *Elite / Atleter:* > 270 cm
+* **Kvinder:**
+  * *Middel:* 150 – 170 cm
+  * *Godt:* 180 – 200 cm
+  * *Elite / Atleter:* > 230 cm
 
 ## Hvordan bliver jeg bedre til stående længdespring?
 

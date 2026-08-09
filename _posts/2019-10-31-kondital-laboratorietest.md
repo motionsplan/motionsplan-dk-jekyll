@@ -15,6 +15,7 @@ header:
   caption: Direkte måling af iltoptagelse i laboratoriet
 category:
 - Kondition
+- Konditionstests
 meta:
   name: Direkte måling af iltoptagelse i laboratorium 📝
   measures: VO2max og kondital
@@ -22,6 +23,20 @@ meta:
   equipment: løbebånd
   max: maksimal test
   direct: direkte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-direkte-iltoptagelse-laboratorium"
+    title: "Direkte Måling af Iltoptagelse (Laboratorietest)"
+    description: "Guldstandarden inden for konditionstestning: Direkte måling af VO2max, iltoptagelse og RER med åndedrætsmaske under gradvist stigende belastning."
+    category: ["Kondition", "Laboratorietest"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "direkte"                  # 🔬 DIREKTE TEST: Måler O2/CO2-koncentrationer direkte i udåndingsluften
+    modality: ["Løb", "Cykling"]
+    measures: ["VO2max", "Kondital", "Iltoptagelse", "RER", "Arbejdsøkonomi"]
+    equipment: ["Gassusanlæg", "Åndedrætsmaske", "Løbebånd", "Cykelergometer"]
+    setting: ["Laboratorietest", "Testcenter"]
+    target_group: ["Atleter", "Motionister", "Voksne", "Mænd", "Kvinder"]
 tags:
 - test
 - konditionstest

@@ -16,6 +16,24 @@ tags:
 - populær
 last_modified_at: '2026-07-18T10:15:00Z'
 toc: true
+tools:
+  - id: "tool-sammenlign-foedevare"
+    title: "Sammenlign Fødevarer Interaktivt"
+    description: "Interaktivt sammenligningsværktøj til direkte at sammenligne protein, kalorier og makronæringsstoffer i to fødevarer over for hinanden."
+    category: ["Kost & Ernæring"]
+    type: ["Beregner"]
+    measures: ["Protein", "Kalorier", "Makronæringsstoffer", "Næringsindhold"]  # 🎯 Output-parametre fra sammenligneren
+    anchor: "#sammenlign-foedevare-interaktivt"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-protein-kalorietabel"
+    title: "Interaktiv Protein- og Kalorietabel"
+    description: "Søgbar næringsstofdatabase over fødevarer med særligt fokus på proteinindhold, kalorier og makronæringsstoffer."
+    category: ["Kost & Ernæring"]
+    type: ["Beregner"]
+    measures: ["Protein", "Kalorier", "Næringsstoffer", "Fedt", "Kulhydrat"]   # 🎯 Output-parametre fra databasetabellen
+    anchor: "#komplet-kalorie--og-proteintabel"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Er du i tvivl om, hvor meget protein du skal indtage om dagen for at få de optimale resultater af din træning? 

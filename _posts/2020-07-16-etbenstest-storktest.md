@@ -12,7 +12,8 @@ tags:
   - stork-test
   - statisk balance
 category:
-  - Tests
+  - Balance
+  - Balancetests
 last_modified_at: 2026-08-02T12:00:00Z
 sidebar:
   nav: exercises
@@ -23,14 +24,55 @@ faq:
     answer: Inden for manuel terapi og fysioterapi findes der en undersøgelse af SI-leddet og bækkenbevægelighed, som også kaldes *Stork Test* (eller *Gillet Test*). Når man taler om træning, motion og fitness, henviser Stork-testen dog næsten altid til balancetest på tæer.
   - question: Hvad er en god score i Enkeltbensstand med åbne øjne?
     answer: Raske voksne under 60 år bør generelt kunne holde balancen uden problemer i **30–60 sekunder** på flad fod med åbne øjne. Med lukkede øjne er **10–15 sekunder** et godt udgangspunkt for generel ankelstabilitet.
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-enkeltbensstand"
+    title: "Enkeltbensstand (Single-Leg Stance Test)"
+    description: "Klinisk og fysiologisk balancetest på flad fod (med åbne og lukkede øjne) til vurdering af statisk balance, proprioception og ankelstabilitet."
+    category: ["Tests", "Balance"]
+    type: ["Protokol", "Balancetest"]
+    execution: ["Fysisk"]                  # 🧘‍♂️ FYSISK TEST: Kræver fysisk balance på ét ben
+    method: "direkte"                     # ⏱️ Måles direkte i sekunder
+    modality: ["Balance"]
+    measures: ["Statisk balance", "Proprioception", "Ankelstabilitet", "Sekunder"]
+    equipment: ["Stopur", "Timer"]
+    setting: ["Klinik", "Hjemmetest", "Fitnesscenter", "Individuel"]
+    target_group: ["Børn", "Unge", "Voksne", "Ældre", "Motionister", "Atleter"]
+    related_tools:
+      - "tool-balance-timer"
 
+  - id: "test-stork-test"
+    title: "Stork-testen (Stork Stand Test)"
+    description: "Avanceret balancetest på tæerne/trædepuden med modstående fod placeret på knæet til vurdering af ankelstabilitet og lægudholdenhed."
+    category: ["Tests", "Balance"]
+    type: ["Protokol", "Balancetest"]
+    execution: ["Fysisk"]                  # 🧘‍♂️ FYSISK TEST: Kræver fysisk balance på tæer/trædepude
+    method: "direkte"                     # ⏱️ Måles direkte i sekunder
+    modality: ["Balance"]
+    measures: ["Statisk balance", "Lægudholdenhed", "Ankelstabilitet", "Sekunder"]
+    equipment: ["Stopur", "Timer"]
+    setting: ["Klinik", "Fitnesscenter", "Idrætsanlæg", "Individuel"]
+    target_group: ["Unge", "Voksne", "Motionister", "Atleter"]
+    related_tools:
+      - "tool-balance-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-balance-timer"
+    title: "Balance Test Timer"
+    description: "Interaktiv timer og stopur til registrering af tid og præstation på Enkeltbensstand og Stork-testen."
+    category: ["Balance"]
+    type: ["Beregner"]
+    measures: ["Tid", "Sekunder"]         # 🎯 Output-parametre fra timeren
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 **Enkeltbensstand (Single-Leg Stance Test)** og **Stork-testen (Stork Stand Test)** er to af de mest anvendte og tilgængelige tests til vurdering af statisk balance og ankelstabilitet. 
 
 Selvom begge tests udføres stående på ét ben uden brug af specialudstyr, adskiller de sig markant i sværhedsgrad, udførelse og formål. I denne guide gennemgår vi begge tests, vurderer din score mod aldersrelaterede normtal og forklarer, hvad resultatet betyder for din skadesrisiko.
 
- [<i class='fas fa-clock'></i> Hop direkte til timer](#timer){: .btn .btn--success .btn--jump }
+[<i class='fas fa-clock'></i> Hop direkte til timer](#timer){: .btn .btn--success .btn--jump }
 
 I dette indlæg får du svar på følgende spørgsmål:
 

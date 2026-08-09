@@ -7,6 +7,7 @@ excerpt: Komplet guide til Agility T-Testen. Mål din evne til at sprinte fremad
 description: Lær hvordan du opstiller og afvikler Agility T-Testen. Se præcise banemål i meter, fysiologisk baggrund, regler for fodskifte samt normtabel for mænd og kvinder.
 category:
   - Løb
+  - Retningsskifttests
 tags:
   - test
   - løbetest
@@ -15,6 +16,34 @@ tags:
   - retningsskift
   - sprint
   - sideløb
+  - cod
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-agility-t-test"
+    title: "Agility T-Test"
+    description: "Standardiseret fysiologisk agilitetstest (T-formet bane med fremadlæns sprint, lateralt sideløb og baglænsløb) til måling af multidirektionel hurtighed, sideløbseffektivitet og retningsskifthastighed (CODS)."
+    category: ["Løb", "Tests"]
+    type: ["Protokol", "Agilitetstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver sprint, shuffling og baglænsløb
+    method: "indirekte"                     # 📊 Indirekte måling af agilitet og kropskontrol via tidtagning
+    modality: ["Løb", "Sprint"]
+    measures: ["Multidirektionel agilitet", "T-test tid (s)", "Retningsskifthastighed (CODS)", "Sideløbshurtighed"]  # 🎯 KUN rene præstationsmæssige slutmål
+    equipment: ["Markeringskegler (4 stk)", "Målebånd", "Stopur / Fotoceller", "Skridsikkert underlag"]
+    setting: ["Indendørs", "Udendørs", "Idrætshal", "Testcenter", "Individuel"]
+    target_group: ["Holdatleter", "Fodboldspillere", "Basketballspillere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-t-test-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-t-test-timer"
+    title: "Agility T-Test Interaktiv Timer"
+    description: "Interaktiv timer og stopur til tidtagning af Agility T-Testen med nedtælling og automatisk resultatvurdering i forhold til normtal."
+    category: ["Løb", "Beregnere", "Tests"]
+    type: ["Timer", "Beregner"]
+    measures: ["T-test tid (s)", "Retningsskifthastighed (CODS)", "Agilitetsniveau"]  # 🎯 KUN rene slutmål
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 header:
   teaser: /assets/images/tests/t-test.webp
   caption: Agility T-Test – En klassisk test af hurtighed og retningsskift i fire retninger

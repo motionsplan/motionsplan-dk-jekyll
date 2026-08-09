@@ -1,0 +1,721 @@
+<!-- MOTIONSPLAN.DK INTERAKTIV SUNDHEDSTEST -->
+<div id="mp-health-test" class="mp-test-container">
+
+  <!-- Progress Bar & Navigation -->
+  <div class="mp-progress-header">
+    <div class="mp-progress-bar">
+      <div id="mp-progress-fill" class="mp-progress-fill" style="width: 25%;"></div>
+    </div>
+    <div class="mp-steps-indicator">
+      <span class="mp-step-dot active" id="dot-1">1. Krop</span>
+      <span class="mp-step-dot" id="dot-2">2. Kredsløb</span>
+      <span class="mp-step-dot" id="dot-3">3. Livsstil</span>
+      <span class="mp-step-dot" id="dot-4">4. Resultat</span>
+    </div>
+  </div>
+
+  <form id="mp-test-form" onsubmit="return false;">
+
+    <!-- TRIN 1: BASIS OG KROPSMÅL -->
+    <div class="mp-test-step active" id="step-1">
+      <h3>Trin 1 af 4: Dig og din krop</h3>
+      <p class="mp-step-desc">Start med dine grundlæggende kropsmål. De bruges til at udregne BMI, fedtfordeling (WHtR) og din fysiologiske baseline.</p>
+
+      <!-- Køn som knapper -->
+      <div class="mp-form-group">
+        <label>Køn</label>
+        <input type="hidden" id="mp-gender" value="male">
+        <div class="mp-option-grid" style="grid-template-columns: 1fr 1fr;">
+          <div class="mp-option-card active" onclick="mpSelectOption('mp-gender', 'male', this)">
+            <div class="mp-option-title">👨 Mand</div>
+            <div class="mp-option-desc">Normtal for mænd</div>
+          </div>
+          <div class="mp-option-card" onclick="mpSelectOption('mp-gender', 'female', this)">
+            <div class="mp-option-title">👩 Kvinde</div>
+            <div class="mp-option-desc">Normtal for kvinder</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mp-form-grid">
+        <div class="mp-form-group">
+          <label for="mp-age">Alder (år)</label>
+          <input type="number" id="mp-age" min="15" max="100" value="40" oninput="mpSaveData()">
+        </div>
+        <div class="mp-form-group">
+          <label for="mp-height">Højde (cm)</label>
+          <input type="number" id="mp-height" min="120" max="220" value="175" oninput="mpSaveData()">
+        </div>
+        <div class="mp-form-group">
+          <label for="mp-weight">Vægt (kg)</label>
+          <input type="number" id="mp-weight" min="40" max="200" value="75" oninput="mpSaveData()">
+        </div>
+        <div class="mp-form-group">
+          <label for="mp-waist">Taljemål (cm)</label>
+          <input type="number" id="mp-waist" min="50" max="180" value="85" oninput="mpSaveData()">
+        </div>
+      </div>
+
+      <details class="mp-help-box">
+        <summary>💡 Hvordan måler jeg mit taljemål korrekt?</summary>
+        <p>Mål med et blødt målebånd vandret midt mellem det nederste ribben og hoftekammen (ca. 2 cm over navlen). Mål om morgenen på en slap udånding – uden at holde maven inde!</p>
+      </details>
+
+      <div class="mp-btn-row">
+        <span></span>
+        <button type="button" class="mp-btn mp-btn-next" onclick="mpGoToStep(2)">Næste: Kredsløb &rarr;</button>
+      </div>
+    </div>
+
+    <!-- TRIN 2: KREDSLØB OG TRÆNING -->
+    <div class="mp-test-step" id="step-2">
+      <h3>Trin 2 af 4: Kredsløb, Puls & Kondition</h3>
+      <p class="mp-step-desc">Kredsløbet er den absolut vigtigste faktor for din biologiske sundhedsalder.</p>
+
+      <div class="mp-form-grid">
+        <div class="mp-form-group">
+          <label for="mp-rest-hr">Hvilepuls (slag/min)</label>
+          <input type="number" id="mp-rest-hr" min="35" max="110" value="65" oninput="mpSaveData()">
+        </div>
+        <div class="mp-form-group">
+          <label for="mp-max-hr">Maxpuls (Valgfri)</label>
+          <input type="number" id="mp-max-hr" placeholder="F.eks. 180" oninput="mpSaveData()">
+        </div>
+      </div>
+
+      <details class="mp-help-box">
+        <summary>💡 Kender du dit reelle kondital ($VO_2$-max)?</summary>
+        <p>Hvis du har lavet en løbetest eller har fået målt dit kondital med et pulsur, kan du taste det ind her. Ellers lader du feltet stå tomt, og testen estimerer det automatisk ud fra HUNT-modellen!</p>
+        <div class="mp-form-group" style="margin-top: 10px;">
+          <label for="mp-custom-vo2">Kendt kondital (mL/kg/min):</label>
+          <input type="number" id="mp-custom-vo2" placeholder="F.eks. 42" oninput="mpSaveData()">
+        </div>
+      </details>
+
+      <!-- Træningshyppighed som knapper -->
+      <div class="mp-form-group">
+        <label>Hvor ofte dyrker du motion pr. uge?</label>
+        <input type="hidden" id="mp-act-freq" value="2-3">
+        <div class="mp-option-grid">
+          <div class="mp-option-card" onclick="mpSelectOption('mp-act-freq', '0', this)">
+            <div class="mp-option-title">🛋️ Sjældent</div>
+            <div class="mp-option-desc">Næsten inaktiv</div>
+          </div>
+          <div class="mp-option-card" onclick="mpSelectOption('mp-act-freq', '1', this)">
+            <div class="mp-option-title">🚶 1 gang</div>
+            <div class="mp-option-desc">Lidt motion i hverdagen</div>
+          </div>
+          <div class="mp-option-card active" onclick="mpSelectOption('mp-act-freq', '2-3', this)">
+            <div class="mp-option-title">🏃 2-3 gange</div>
+            <div class="mp-option-desc">Regelmæssig træning</div>
+          </div>
+          <div class="mp-option-card" onclick="mpSelectOption('mp-act-freq', '4+', this)">
+            <div class="mp-option-title">⚡ 4+ gange</div>
+            <div class="mp-option-desc">Meget aktiv livsstil</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Træningsintensitet som knapper -->
+      <div class="mp-form-group">
+        <label>Hvor hård er din træning typisk?</label>
+        <input type="hidden" id="mp-act-int" value="moderate">
+        <div class="mp-option-grid">
+          <div class="mp-option-card" onclick="mpSelectOption('mp-act-int', 'light', this)">
+            <div class="mp-option-title">☕ Rolig</div>
+            <div class="mp-option-desc">Kan tale ubesværet imens</div>
+          </div>
+          <div class="mp-option-card active" onclick="mpSelectOption('mp-act-int', 'moderate', this)">
+            <div class="mp-option-title">💦 Moderat</div>
+            <div class="mp-option-desc">Forpustet og sved på panden</div>
+          </div>
+          <div class="mp-option-card" onclick="mpSelectOption('mp-act-int', 'high', this)">
+            <div class="mp-option-title">🔥 Høj / Intervalløb</div>
+            <div class="mp-option-desc">Meget forpustet og presset</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mp-btn-row">
+        <button type="button" class="mp-btn mp-btn-prev" onclick="mpGoToStep(1)">&larr; Tilbage</button>
+        <button type="button" class="mp-btn mp-btn-next" onclick="mpGoToStep(3)">Næste: Livsstil &rarr;</button>
+      </div>
+    </div>
+
+    <!-- TRIN 3: LIVSSTIL OG STYRKE -->
+    <div class="mp-test-step" id="step-3">
+      <h3>Trin 3 af 4: Livsstil & Funktionel Styrke</h3>
+      <p class="mp-step-desc">Kroppens styrke og dine hverdagsvaner lægger de sidste brikker i din profil.</p>
+
+      <!-- Rygning knapper -->
+      <div class="mp-form-group">
+        <label>Rygning</label>
+        <input type="hidden" id="mp-smoke" value="never">
+        <div class="mp-option-grid">
+          <div class="mp-option-card active" onclick="mpSelectOption('mp-smoke', 'never', this)">
+            <div class="mp-option-title">🍏 Ikke-ryger</div>
+            <div class="mp-option-desc">Aldrig / stoppet for >5 år siden</div>
+          </div>
+          <div class="mp-option-card" onclick="mpSelectOption('mp-smoke', 'party', this)">
+            <div class="mp-option-title">🥂 Festryger</div>
+            <div class="mp-option-desc">Kun til fest / lejlighedsvis</div>
+          </div>
+          <div class="mp-option-card" onclick="mpSelectOption('mp-smoke', 'daily', this)">
+            <div class="mp-option-title">🚬 Daglig ryger</div>
+            <div class="mp-option-desc">Ryger hver dag</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Søvn knapper -->
+      <div class="mp-form-group">
+        <label>Gennemsnitlig søvn pr. nat</label>
+        <input type="hidden" id="mp-sleep" value="ok">
+        <div class="mp-option-grid">
+          <div class="mp-option-card" onclick="mpSelectOption('mp-sleep', 'bad', this)">
+            <div class="mp-option-title">⏰ Under 6 timer</div>
+            <div class="mp-option-desc">Ofte for lidt søvn</div>
+          </div>
+          <div class="mp-option-card active" onclick="mpSelectOption('mp-sleep', 'ok', this)">
+            <div class="mp-option-title">😴 6 - 8 timer</div>
+            <div class="mp-option-desc">Normal og god restitution</div>
+          </div>
+          <div class="mp-option-card" onclick="mpSelectOption('mp-sleep', 'good', this)">
+            <div class="mp-option-title">🌙 Over 8 timer</div>
+            <div class="mp-option-desc">Lang nattesøvn</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Styrke knapper -->
+      <div class="mp-form-group">
+        <label>Rejs-Sæt-Dig Test (30 sekunder på stol)</label>
+        <input type="hidden" id="mp-strength" value="avg">
+        <div class="mp-option-grid">
+          <div class="mp-option-card" onclick="mpSelectOption('mp-strength', 'low', this)">
+            <div class="mp-option-title">🪑 Under 12 stk.</div>
+            <div class="mp-option-desc">Lavere benstyrke</div>
+          </div>
+          <div class="mp-option-card active" onclick="mpSelectOption('mp-strength', 'avg', this)">
+            <div class="mp-option-title">🦵 12 - 18 stk.</div>
+            <div class="mp-option-desc">Normal og sund benstyrke</div>
+          </div>
+          <div class="mp-option-card" onclick="mpSelectOption('mp-strength', 'high', this)">
+            <div class="mp-option-title">⚡ Over 18 stk.</div>
+            <div class="mp-option-desc">Rigtig stærke ben</div>
+          </div>
+        </div>
+      </div>
+
+      <details class="mp-help-box">
+        <summary>💡 Hvad er Rejs-Sæt-Dig testen?</summary>
+        <p>Sæt dig på en spisebordsstol med armene over kors på brystet. Sæt en timer til 30 sekunder. Tæl hvor mange gange du kan rejse dig helt op og sætte dig helt ned på de 30 sekunder!</p>
+      </details>
+
+      <div class="mp-btn-row">
+        <button type="button" class="mp-btn mp-btn-prev" onclick="mpGoToStep(2)">&larr; Tilbage</button>
+        <button type="button" class="mp-btn mp-btn-calc" onclick="mpCalculateAndShowResults()">Beregn min Sundhedsprofil 🚀</button>
+      </div>
+    </div>
+
+    <!-- TRIN 4: RESULTAT OG HANDLINGSPLAN -->
+    <div class="mp-test-step" id="step-4">
+      <div id="mp-results-output">
+        <!-- Dynamisk genereret af JS -->
+      </div>
+
+      <div class="mp-btn-row" style="margin-top: 25px;">
+        <button type="button" class="mp-btn mp-btn-prev" onclick="mpGoToStep(1)">&larr; Ret mine oplysninger</button>
+        <button type="button" class="mp-btn mp-btn-reset" onclick="mpResetTest()">Nulstil test</button>
+      </div>
+    </div>
+
+  </form>
+
+  <div id="mp-storage-status" class="mp-storage-status" style="display:none;">
+    <span>💾 Dine indtastninger er gemt i din browser.</span>
+  </div>
+</div>
+
+<!-- STYLING -->
+<style>
+  .mp-test-container {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 720px;
+    margin: 20px auto 35px auto;
+    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05);
+    font-family: inherit;
+    color: #2d3748;
+  }
+  .mp-progress-header { margin-bottom: 24px; }
+  .mp-progress-bar {
+    background: #edf2f7;
+    height: 10px;
+    border-radius: 999px;
+    overflow: hidden;
+    margin-bottom: 12px;
+  }
+  .mp-progress-fill {
+    background: linear-gradient(90deg, #319795, #38a169);
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  .mp-steps-indicator {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #a0aec0;
+  }
+  .mp-step-dot.active { color: #2b6cb0; font-weight: 700; }
+  .mp-test-step { display: none; }
+  .mp-test-step.active { display: block; animation: mpFadeIn 0.25s ease; }
+  @keyframes mpFadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+  .mp-step-desc { font-size: 0.95rem; color: #4a5568; margin-bottom: 20px; }
+  .mp-form-group { margin-bottom: 20px; }
+  .mp-form-group label { display: block; font-weight: 700; margin-bottom: 8px; font-size: 0.92rem; color: #2d3748; }
+  .mp-form-group input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  .mp-form-group input:focus {
+    border-color: #3182ce;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(49,130,206,0.15);
+  }
+  .mp-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  @media (max-width: 500px) { .mp-form-grid { grid-template-columns: 1fr; } }
+
+  /* KORT-BASEREDE KNAPPER (VALGMULIGHEDER) */
+  .mp-option-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 10px;
+  }
+  .mp-option-card {
+    background: #f7fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+    user-select: none;
+  }
+  .mp-option-card:hover { border-color: #cbd5e0; background: #edf2f7; }
+  .mp-option-card.active {
+    border-color: #3182ce;
+    background: #ebf8ff;
+    box-shadow: 0 0 0 1px #3182ce;
+  }
+  .mp-option-title { font-weight: 700; font-size: 0.9rem; color: #2d3748; }
+  .mp-option-desc { font-size: 0.78rem; color: #718096; margin-top: 2px; line-height: 1.2; }
+
+  .mp-help-box {
+    background: #ebf8ff;
+    border-left: 4px solid #3182ce;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 0.88rem;
+    margin-bottom: 20px;
+  }
+  .mp-help-box summary { font-weight: 700; cursor: pointer; color: #2b6cb0; }
+  .mp-help-box p { margin: 8px 0 0 0; color: #2d3748; }
+
+  .mp-btn-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 24px;
+  }
+  .mp-btn {
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .mp-btn-next { background: #3182ce; color: #fff; }
+  .mp-btn-next:hover { background: #2b6cb0; }
+  .mp-btn-prev { background: #edf2f7; color: #4a5568; }
+  .mp-btn-prev:hover { background: #e2e8f0; }
+  .mp-btn-calc { background: #38a169; color: #fff; width: 100%; }
+  .mp-btn-calc:hover { background: #2f855a; }
+  .mp-btn-reset { background: #fff1f0; color: #e53e3e; border: 1px solid #ffa39e; }
+  .mp-btn-reset:hover { background: #ffe5e5; }
+
+/* COMPACT RESULTAT DASHBOARD */
+.mp-result-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 14px 0;
+  align-items: start; /* Forhindrer vertikal strækning af boksene */
+}
+@media (max-width: 550px) { 
+  .mp-result-grid { grid-template-columns: 1fr; } 
+}
+
+.mp-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 12px; /* Kompakt indvendig afstand */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.mp-card-title { 
+  font-size: 0.75rem; 
+  text-transform: uppercase; 
+  letter-spacing: 0.5px; 
+  color: #64748b; 
+  font-weight: 700; 
+  margin-bottom: 2px;
+}
+
+.mp-card-value { 
+  font-size: 1.5rem; 
+  font-weight: 800; 
+  margin: 2px 0; 
+  line-height: 1.1; 
+}
+
+.mp-card-sub { 
+  font-size: 0.78rem; 
+  color: #475569; 
+  margin-top: 2px;
+}
+
+.mp-card-green { border-top: 3px solid #38a169; }
+.mp-card-green .mp-card-value { color: #276749; }
+.mp-card-blue { border-top: 3px solid #3182ce; }
+.mp-card-blue .mp-card-value { color: #2b6cb0; }
+.mp-card-orange { border-top: 3px solid #dd6b20; }
+.mp-card-orange .mp-card-value { color: #c05621; }
+
+  /* FORKLARING BOKS (ÅBEN ALGORITME) */
+  .mp-explain-box {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 18px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .mp-explain-box h4 { margin-top: 0; color: #1e293b; font-size: 1.05rem; display: flex; align-items: center; gap: 8px; }
+  .mp-audit-list { padding-left: 20px; margin: 10px 0; }
+  .mp-audit-list li { margin-bottom: 6px; color: #334155; }
+
+  .mp-action-box {
+    background: #f0fff4;
+    border: 1px solid #c6f6d5;
+    border-radius: 10px;
+    padding: 18px;
+    margin-top: 16px;
+  }
+  .mp-action-box h4 { margin-top: 0; color: #22543d; font-size: 1.05rem; }
+  .mp-action-list { padding-left: 20px; margin-bottom: 0; }
+  .mp-action-list li { margin-bottom: 6px; color: #2f855a; }
+
+  .mp-storage-status {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #a0aec0;
+    margin-top: 15px;
+  }
+</style>
+
+<!-- JAVASCRIPT LOGIK OG SKIFT -->
+<script>
+  const STORAGE_KEY = 'motionsplan_sundhedstest_data_v2';
+
+  document.addEventListener('DOMContentLoaded', function() {
+    mpLoadData();
+  });
+
+  // Håndter knap-valg (Køn, Træning, Rygning osv.)
+  function mpSelectOption(hiddenId, value, element) {
+    document.getElementById(hiddenId).value = value;
+    const cards = element.parentElement.querySelectorAll('.mp-option-card');
+    cards.forEach(c => c.classList.remove('active'));
+    element.classList.add('active');
+    mpSaveData();
+  }
+
+  // Gem data i LocalStorage
+  function mpSaveData() {
+    const data = {
+      gender: document.getElementById('mp-gender').value,
+      age: parseInt(document.getElementById('mp-age').value) || 40,
+      height: parseInt(document.getElementById('mp-height').value) || 175,
+      weight: parseFloat(document.getElementById('mp-weight').value) || 75,
+      waist: parseInt(document.getElementById('mp-waist').value) || 85,
+      restHr: parseInt(document.getElementById('mp-rest-hr').value) || 65,
+      maxHr: parseInt(document.getElementById('mp-max-hr').value) || 0,
+      customVo2: parseFloat(document.getElementById('mp-custom-vo2').value) || 0,
+      actFreq: document.getElementById('mp-act-freq').value,
+      actInt: document.getElementById('mp-act-int').value,
+      smoke: document.getElementById('mp-smoke').value,
+      sleep: document.getElementById('mp-sleep').value,
+      strength: document.getElementById('mp-strength').value
+    };
+
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      document.getElementById('mp-storage-status').style.display = 'block';
+    } catch(e) { console.warn('LocalStorage utilgængelig'); }
+  }
+
+  // Indlæs gemte data
+  function mpLoadData() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        const d = JSON.parse(saved);
+        
+        if (d.gender) mpRestoreOption('mp-gender', d.gender);
+        if (d.age) document.getElementById('mp-age').value = d.age;
+        if (d.height) document.getElementById('mp-height').value = d.height;
+        if (d.weight) document.getElementById('mp-weight').value = d.weight;
+        if (d.waist) document.getElementById('mp-waist').value = d.waist;
+        if (d.restHr) document.getElementById('mp-rest-hr').value = d.restHr;
+        if (d.maxHr) document.getElementById('mp-max-hr').value = d.maxHr;
+        if (d.customVo2) document.getElementById('mp-custom-vo2').value = d.customVo2;
+        if (d.actFreq) mpRestoreOption('mp-act-freq', d.actFreq);
+        if (d.actInt) mpRestoreOption('mp-act-int', d.actInt);
+        if (d.smoke) mpRestoreOption('mp-smoke', d.smoke);
+        if (d.sleep) mpRestoreOption('mp-sleep', d.sleep);
+        if (d.strength) mpRestoreOption('mp-strength', d.strength);
+
+        document.getElementById('mp-storage-status').style.display = 'block';
+      }
+    } catch(e) { console.warn('Kunne ikke læse fra LocalStorage'); }
+  }
+
+  function mpRestoreOption(hiddenId, value) {
+    document.getElementById(hiddenId).value = value;
+    const input = document.getElementById(hiddenId);
+    if (input && input.parentElement) {
+      const cards = input.parentElement.querySelectorAll('.mp-option-card');
+      cards.forEach(c => {
+        if (c.getAttribute('onclick').includes(`'${value}'`)) {
+          c.classList.add('active');
+        } else {
+          c.classList.remove('active');
+        }
+      });
+    }
+  }
+
+  function mpResetTest() {
+    if (confirm('Vil du nulstille alle indtastninger og starte forfra?')) {
+      localStorage.removeItem(STORAGE_KEY);
+      location.reload();
+    }
+  }
+
+  // Præcis navigation uden at hoppe for højt
+  function mpGoToStep(stepNum) {
+    for (let i = 1; i <= 4; i++) {
+      document.getElementById('step-' + i).classList.remove('active');
+      document.getElementById('dot-' + i).classList.remove('active');
+    }
+    document.getElementById('step-' + stepNum).classList.add('active');
+    for (let i = 1; i <= stepNum; i++) {
+      document.getElementById('dot-' + i).classList.add('active');
+    }
+    document.getElementById('mp-progress-fill').style.width = (stepNum * 25) + '%';
+    
+    // Rettet blød scroll til toppen af containeren
+    const container = document.getElementById('mp-health-test');
+    const yOffset = -20; 
+    const y = container.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  }
+
+  // BEREGNER OG ÅBEN ALGORITME
+  function mpCalculateAndShowResults() {
+    mpSaveData();
+    const d = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    let auditTrail = []; // Til gennemskueligheds-forklaringen
+
+    // 1. Kropsmål
+    const heightM = d.height / 100;
+    const bmi = (d.weight / (heightM * heightM)).toFixed(1);
+    const whtr = (d.waist / d.height).toFixed(2);
+
+    // 2. VO2-max Beregning
+    let vo2 = 0;
+    let vo2Method = "";
+
+    if (d.customVo2 > 0) {
+      vo2 = d.customVo2;
+      vo2Method = "Manuelt indtastet kondital fra egen test/pulsur.";
+    } else if (d.maxHr > 0 && d.restHr > 0) {
+      vo2 = 15.3 * (d.maxHr / d.restHr);
+      vo2Method = `Uth-formlen ud fra hjertets spændvidde: 15.3 × (${d.maxHr} maxpuls / ${d.restHr} hvilepuls).`;
+    } else {
+      let baseVo2 = d.gender === 'male' ? 52 : 44;
+      let ageFactor = (d.age - 20) * (d.gender === 'male' ? 0.38 : 0.32);
+      let hrFactor = (65 - d.restHr) * 0.25;
+      let whtrFactor = (0.48 - parseFloat(whtr)) * 25;
+
+      let actScore = 0;
+      if (d.actFreq === '1') actScore += 2;
+      else if (d.actFreq === '2-3') actScore += 5;
+      else if (d.actFreq === '4+') actScore += 8;
+
+      if (d.actInt === 'moderate') actScore *= 1.2;
+      else if (d.actInt === 'high') actScore *= 1.5;
+
+      vo2 = baseVo2 - ageFactor + hrFactor + whtrFactor + actScore;
+      vo2Method = "HUNT-studiets non-exercise algoritme (beregnet ud fra alder, hvilepuls, taljemål og træningsvaner).";
+    }
+    vo2 = Math.round(vo2 * 10) / 10;
+    auditTrail.push(`<b>Kondital ($VO_2$-max):</b> Bestemt til <b>${vo2} mL/kg/min</b> via ${vo2Method}`);
+
+    // 3. Konditionsalder (HUNT normer)
+    let refVo2Base = d.gender === 'male' ? 52 : 44;
+    let refSlope = d.gender === 'male' ? 0.38 : 0.32;
+    let cardioAge = Math.round(20 + (refVo2Base - vo2) / refSlope);
+    
+    auditTrail.push(`<b>Fysiologisk Konditionsalder:</b> Dit kondital på ${vo2} svarer til gennemsnittet for en <b>${cardioAge}-årig</b> ${d.gender === 'male' ? 'mand' : 'kvinde'}.`);
+
+    // 4. Sundhedsalder justeringer (Livsstil)
+    let healthAge = cardioAge;
+    let ageAdjustments = [];
+
+    if (d.smoke === 'daily') { healthAge += 6; ageAdjustments.push("+6 år pga. daglig rygning"); }
+    else if (d.smoke === 'party') { healthAge += 2; ageAdjustments.push("+2 år pga. festrygning"); }
+
+    if (d.sleep === 'bad') { healthAge += 2; ageAdjustments.push("+2 år pga. < 6 timers søvn"); }
+    
+    if (d.strength === 'low') { healthAge += 2; ageAdjustments.push("+2 år pga. lav benstyrke i Rejs-Sæt-Dig testen"); }
+    else if (d.strength === 'high') { healthAge -= 2; ageAdjustments.push("-2 år pga. stærk præstation i Rejs-Sæt-Dig testen"); }
+
+    if (parseFloat(whtr) > 0.55) { healthAge += 3; ageAdjustments.push("+3 år pga. forhøjet bugfedt (WHtR > 0,55)"); }
+    else if (parseFloat(whtr) < 0.48) { healthAge -= 1; ageAdjustments.push("-1 år pga. optimal fedtfordeling (WHtR < 0,48)"); }
+
+    // Spærring for urealistiske udslag
+    healthAge = Math.max(18, Math.min(d.age + 20, Math.max(d.age - 18, healthAge)));
+
+    if (ageAdjustments.length > 0) {
+      auditTrail.push(`<b>Livsstilsjusteringer:</b> Din fysiologiske konditionsalder (${cardioAge} år) blev tilpasset med: ${ageAdjustments.join(', ')}.`);
+    } else {
+      auditTrail.push(`<b>Livsstilsjusteringer:</b> Dine livsstilsparametre ligger på et neutralt normniveau.`);
+    }
+
+    // 5. Forventet Levetid (Danmarks Statistik baseline 2026: M: 80.2, K: 84.1)
+    let baseLifeExp = d.gender === 'male' ? 80.2 : 84.1;
+    let ageDiff = d.age - healthAge;
+    let lifeExp = Math.round((baseLifeExp + (ageDiff * 0.55)) * 10) / 10;
+
+    if (d.smoke === 'daily') lifeExp -= 6.5;
+    auditTrail.push(`<b>Danmarks Statistik Baseline:</b> Gennemsnitlig forventet levetid for en ${d.gender === 'male' ? 'dansk mand' : 'dansk kvinde'} er <b>${baseLifeExp} år</b>.`);
+
+    auditTrail.push(`<b>Levetids-tilpasning:</b> Din biologiske sundhedsalder er ${healthAge} år (${Math.abs(ageDiff)} år ${ageDiff >= 0 ? 'yngre' : 'ældre'} end din reelle alder). Hvert sparet biologisk år øger levetiden med 0,55 år, hvilket tilpasser din forventede levetid til <b>${lifeExp} år</b>.`);
+    
+    // Tekst om aldersforskel
+    const ageDiffText = ageDiff >= 0 
+      ? `<span style="color:#276749; font-weight:700;">${ageDiff} år yngre end dåbsattesten! 🎉</span>` 
+      : `<span style="color:#c05621; font-weight:700;">${Math.abs(ageDiff)} år ældre end dåbsattesten.</span>`;
+
+    // HTML Output
+    let html = `
+      <h3 style="text-align:center; margin-bottom: 4px;">Din Personlige Sundhedsprofil</h3>
+      <p style="text-align:center; color:#64748b; font-size:0.88rem; margin-bottom: 16px;">
+        Resultat baseret på dine indtastninger og åbne fysiologiske modeller.
+      </p>
+
+      <!-- Slanke Resultat-Kort -->
+      <div class="mp-result-grid">
+        <div class="mp-card ${healthAge <= d.age ? 'mp-card-green' : 'mp-card-orange'}">
+          <div class="mp-card-title">Biologisk Sundhedsalder</div>
+          <div class="mp-card-value">${healthAge} <span style="font-size:1rem; font-weight:600;">år</span></div>
+          <div class="mp-card-sub">${ageDiffText}</div>
+        </div>
+
+        <div class="mp-card mp-card-blue">
+          <div class="mp-card-title">Forventet Levetid</div>
+          <div class="mp-card-value">${lifeExp} <span style="font-size:1rem; font-weight:600;">år</span></div>
+          <div class="mp-card-sub">DK Gennemsnit: ${baseLifeExp} år</div>
+        </div>
+
+        <div class="mp-card mp-card-blue">
+          <div class="mp-card-title">Kondital (VO₂-max)</div>
+          <div class="mp-card-value">${vo2}</div>
+          <div class="mp-card-sub">mL O₂ / kg / min</div>
+        </div>
+
+        <div class="mp-card ${whtr < 0.5 ? 'mp-card-green' : 'mp-card-orange'}">
+          <div class="mp-card-title">Talje-Højde Ratio (WHtR)</div>
+          <div class="mp-card-value">${whtr}</div>
+          <div class="mp-card-sub">${whtr < 0.5 ? '✅ Sund fedtfordeling' : '⚠️ Forhøjet bugfedt (>0,50)'}</div>
+        </div>
+      </div>
+
+      <!-- ÅBEN ALGORITME FORKLARING -->
+      <div class="mp-explain-box">
+        <h4>🔍 Åben Algoritme: Sådan har beregneren fundet dine tal</h4>
+        <p>For fuld gennemskuelighed kan du her se præcis, hvordan dine data er blevet behandlet gennem beregningen:</p>
+        <ul class="mp-audit-list">
+    `;
+
+    auditTrail.forEach(item => {
+      html += `<li>${item}</li>`;
+    });
+
+    html += `
+        </ul>
+      </div>
+
+      <!-- HANDLINGSPLAN -->
+      <div class="mp-action-box">
+        <h4>🎯 Konkrete anbefalinger til din motionsplan:</h4>
+        <ul class="mp-action-list">
+    `;
+
+    if (vo2 < (d.gender === 'male' ? 40 : 34)) {
+      html += `<li><strong>Kredsløb:</strong> Dit kondital har stort potentiale for forbedring. Start med rolige Zone 2-løbeture eller cykling 2x30 min. ugentligt. Se vores <a href="/kondital-loeb-distance-tid/">guide til kondital og løb</a>.</li>`;
+    } else {
+      html += `<li><strong>Kredsløb:</strong> Flot kondital! Vedligehold kredsløbet med 1 ugentligt intervalpas for at fastholde din unge sundhedsalder.</li>`;
+    }
+
+    if (whtr >= 0.5) {
+      html += `<li><strong>Kropssammensætning:</strong> Dit taljemål indikerer forhøjet bugfedt. Læs mere i vores <a href="/taljemaal/">guide til taljemål og WHtR</a>.</li>`;
+    }
+
+    if (d.strength === 'low') {
+      html += `<li><strong>Muskelstyrke:</strong> Din funktionelle benstyrke er til den lave side. Tilføj 2 ugentlige pas med <a href="/armstraekninger-test/">kropsvægtsøvelser og squat</a>.</li>`;
+    }
+
+    if (d.smoke === 'daily') {
+      html += `<li><strong>Rygning:</strong> Røgfrihed er den absolut hurtigste vej til at vinde 5-7 biologiske år tilbage i din profil.</li>`;
+    }
+
+    html += `
+        </ul>
+      </div>
+    `;
+
+    document.getElementById('mp-results-output').innerHTML = html;
+    mpGoToStep(4);
+  }
+</script>

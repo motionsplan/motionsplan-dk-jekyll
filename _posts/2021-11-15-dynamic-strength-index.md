@@ -23,6 +23,33 @@ meta:
   max: maksimal test
   direct: direkte test
   description: Måler forholdet mellem maksimal styrke og springstyrke.
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-dsi-test"
+    title: "Dynamic Strength Index Test (DSI)"
+    description: "Testprotokol til vurdering af forholdet mellem atletens ballistiske kraftudvikling (fx CMJ) og maksimale isometriske styrke (fx IMTP) målt på kraftplatform."
+    category: ["Tests", "Eksplosivitet", "Styrketræning"]
+    type: ["Protokol", "Styrketest"]
+    execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver hop (CMJ) og maksimalt isometrisk træk (IMTP) på kraftplatform
+    method: "direkte"                     # 📊 Direkte måling af Peak Force via kraftplatform til beregning af ratio
+    modality: ["Styrketræning", "Eksplosivitet", "Hop"]
+    measures: ["Dynamic Strength Index", "DSI", "Ballistic Peak Force", "Isometric Peak Force", "Træningsfokus"]
+    equipment: ["Kraftplatform", "IMTP-stativ", "Vægtstang"]
+    setting: ["Laboratorium", "Testcenter", "Styrkerum", "Individuel"]
+    target_group: ["Atleter", "Elitesportsudøvere", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-dsi-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-dsi-beregner"
+    title: "Dynamic Strength Index Beregner"
+    description: "Interaktiv beregner til udregning af dit Dynamic Strength Index (DSI) ud fra ballistisk peak force (f.eks. CMJ) og maksimal isometrisk peak force (f.eks. IMTP)."
+    category: ["Tests", "Eksplosivitet"]
+    type: ["Beregner"]
+    measures: ["Dynamic Strength Index", "DSI", "DSI-score", "Træningsfokus"]  # 🎯 Output-parametre fra modulet
+    anchor: "#hvordan-udregner-jeg-dsi-1"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2021-11-19T08:14:14Z'
 toc: 'true'
 gallery:

@@ -1,133 +1,87 @@
 ---
-title: Motion-online.dk virker ikke. Find andre beregnere her!
-seo_title: Motion-online.dk virker ikke - Find 30+ beregnere her
-excerpt: Motion-online.dk eller bare Motion Online var tidligere det bedste og mest kendte træningssite i Danmark. Du kan
-  finde opdaterede beregnere her!
+title: 'Motion Online: Find opdaterede beregnere og træningstests'
+seo_title: 'Motion Online (MOL) virker ikke? Find beregnere og tests her'
+description: Søger du efter de klassiske beregnere fra Motion Online (MOL)? Sitet blev omlagt, og de gamle værktøjer virker ikke. Find opdaterede beregnere og tests her.
 permalink: /motion-online/
+excerpt: Mange søger stadig efter de klassiske beregnere fra det oprindelige Motion Online (MOL). De gamle værktøjer virker desværre ikke længere, men du finder opdaterede udgaver her.
 language: da
 header:
-  overlay_image: https://www.motion-online.dk/wp-content/uploads/2018/08/Advertorial-motion-online.dk-https_senge-testeren.dk_-https_kondition.dk_-1.jpg
-  caption: Motion-Online.dk virker ikke!
   teaser: /assets/images/unsplash/photo-1522844990619-4951c40f7eda.jpg
-  credit: https://images.unsplash.com/photo-1522844990619-4951c40f7eda
 category:
-- Beregnere
+  - Beregnere
 tags:
-- website
-last_modified_at: '2020-02-11T23:14:14Z'
+  - website
+last_modified_at: '2025-08-08T12:00:00Z'
 toc: 'true'
 ---
 
-Motion-online.dk eller bare Motion Online var tidligere det bedste og mest kendte træningssite i Danmark. Motion-online.dk havde bmi-, kondital- og rm-beregnere. Der var beskrivelse af Coopertest, gangtest cirketræning og løbeprogrammer. Men nu virker det ikke længere.
+Mange danskere søger stadig efter **"Motion Online"** (eller **MOL**), når de skal bruge klassiske fysiologiske værktøjer som RM-beregnere, Cooper-tests, BMI-skemaer og konditalstests. 
 
-Jeg gennemgår her, hvordan du stadig kan finde følgende funktioner:
+Det oprindelige *motion-online.dk* var i mange år det mest kendte site til den slags herhjemme, men de interaktive beregnere og værktøjer på domænet virker desværre ikke længere. 
 
-- motion online **kondital** --> Du kan [læse mere om kondital](/kondital/) og [teste dit kondital](/kondition/tests/) på Motionsplan.
-- motion online **rm beregner** --> Du kan bruge vores **meget bedre** [RM-beregner](/rm-beregner/).
-- motion online **bmi** --> Du kan læse vores [forbedrede guide til BMI](/bmi/).
-- motion online forum --> Desværre er der i øjeblikket ikke noget forum, der matcher, som jeg kender til.
-- motion online **løbeprogram** --> Jeg har endnu ikke lavet løbeprogrammer, men hvis du er interesseret i det, så skriv endelig i kommentarerne.
-- motion online **cirkeltræning** --> Du kan læse Motionsplans [udvidede guide til cirkeltræning](/cirkeltraening/).
-- motion online **coopertest** --> Du kan læse vores dybdegående [forklaring på Cooper-testen](/cooper-test/).
-- motion online **6 min gangtest** --> Du kan læse vores [fine guide til 6 minutters gangtest](/gaatest-6min/).
-- motion online løberute --> Jeg bruger selv Garmin Connect
-- motion online ruteplanner --> Jeg bruger selv Garmin Connect
+Hvis du leder efter de funktioner, har vi samlet og opdateret de mest populære beregnere og tests herunder.
 
-## Motion-online.dk har fået ny ejer
+---
 
-**Morten Zacho solgte den 6. juni motion-online.dk til en ny ejer**, som fra første dag har lavet sitet om til et affiliate-site, hvor det ikke længere handler om at levere det bedste indhold.
+## Hurtig oversigt: Find dit værktøj her
 
-Morten Zacho har ikke længere indflydelse på driften og indholdet på siden. Det kan man desværre tydeligt se.
+Klik direkte ind på det opdaterede værktøj eller den test, du leder efter:
 
-I gennem mange år har Morten Zacho opbygget et af de største danske sites om træning. Et site som mange bare har referereret til som Motion Online eller forkortet som MOL.
+| Gamle Motion Online værktøj | Opdateret udgave på Motionsplan.dk |
+| :--- | :--- |
+| **Motion Online RM-beregner** | Prøv vores interaktive [RM-beregner til styrketræning](/rm-beregner/) |
+| **Motion Online Kondital** | [Læs om kondital](/kondital/) og [Test dit kondital her](/kondition/tests/) |
+| **Motion Online BMI** | Se vores [BMI-beregner for mænd, kvinder og børn](/bmi/) |
+| **Motion Online Cooper-test** | Se beregner og tabeller i vores [guide til Cooper-testen](/cooper-test/) |
+| **Motion Online Gangtest** | Prøv vores [6 minutters gangtest](/gaatest-6min/) eller [Rockports 1,6 km gåtest](/gaatest/) |
+| **Motion Online Cirkeltræning** | Se øvelser og opbygning i vores [guide til cirkeltræning](/cirkeltraening/) |
+| **Motion Online Forum** | *MOLs forum eksisterer desværre ikke længere.* |
 
-Motion-online.dk **var** fyldt med interessante og velskrevne artikler baseret på videnskab omkring sundhed, kost og træning. Desuden fandtes på Motion Online også et af de største træningsfællesskaber herhjemme i form af MOLs online forum.
+---
 
-Det skal Morten Zacho virkelig have et stort cadeau for.
+## Hvorfor virker de gamle beregnere ikke?
 
-Den nye ejer af Motion-Online er tilsyneladende ikke så interesseret i kvaliteten af indholdet. Det handler mere om, at **Motion Online kan tjene penge på affiliate marketing og reklamer**.
+Det oprindelige *motion-online.dk* blev grundlagt af idrætsfysiolog Morten Zacho og blev drevet som et videnssite med gratis værktøjer. 
 
-Allerede et par dage efter sitet var blevet overtaget af en ny ejer, så fik man det første nyhedsbrev på e-mail.
+I 2019 skiftede domænet ejere og blev omlagt til en kommerciel affiliate-platform. I forbindelse med omlægningen og tekniske opdateringer holdt de oprindelige interaktive skabeloner op med at virke, ligesom mange af de faglige artikler mistede deres illustrationer og kildelinks.
 
-Nyhedsbrevet vidnede om en ny tid for MOL. Titlen på mailen viste tydeligt, at vi ikke længere har at gøre med det kendte og elskede motion-online.dk.
+Hvis du har haft gemt links til de gamle beregnere i dine bogmærker, vil du derfor ofte opleve, at siderne enten er væk eller ikke længere kan regne dit resultat ud.
 
-Den sensationelle titel var: ”Ændre dine spisevaner og forøg din forbrænding med op til 50%”
+---
 
-Indholdet i e-mailen var ikke mindre **håbløst**:
+## Et opdateret og gratis alternativ
 
-- at du SKAL spise morgenmad ellers skader du din forbrænding
-- at din forbrænding ikke starter før du drikker vand om morgenen
-- at du aldrig må spise brød til morgenmad
-- at light-produkter skader din krop
-- at du skal indtage en række superfoods som booster din forbrænding
-- at du skal købe kasseinprotein for at tabe fedt mens du sover (som han sjovt nok tjener penge på at anbefale)
+Hvis du savner et simpelt sted til dine fysiologiske beregnere, har vi genopbygget og udvidet værktøjerne her på Motionsplan.dk. 
 
-Så fik vi samlet det meste fejlinformation på et sted.
+Alle vores beregnere og tests er gratis at bruge, opdateret til moderne digitale standarder og bygger på dokumenteret fysiologisk forskning.
 
-Jeg klikkede hurtigt **afmeld på nyhedsbrevet fra Motion Online**.
+Dyk ned i vores to hovedkategorier herunder:
 
-Det er ærgerligt, at det fantastiske **Motion Online på en dag blev forvandlet til en affiliate pengemaskine**, hvor rigtig meget af indholdetmistede værdi. Det mest ærgerlige er, at det gamle indhold også blev ubrugeligt.
+---
 
-**Pludselig virkede beregnerne ikke** og **billederne fandtes ikke længere i artiklerne**.
+## Gå direkte til vores hovedsektioner
 
-Det har taget mange år at bygge Motion Online op, men kun kort tid at pille det ned igen.
+Herunder kan du klikke dig direkte ind på vores opdaterede oversigtssider:
 
-Heldigvis kan du bruge Motionsplan.dk til at lave de fleste beregnere og inspirationen til at lave et brugbart træningssite er intakt på Motionsplan.dk.
+### 📊 [Gå til alle Beregnere og Værktøjer →](/beregnere/)
+Her finder du vores samlede bibliotek af fysiologiske beregnere.
+* **[RM-beregner](/rm-beregner/):** Udregn din maksimale styrke (1RM) i squat, bænkpres osv.
+* **[Ligevægtsindtag & BMR](/ligevaegtsindtag-beregner/):** Find dit daglige kaloriebehov og hvilestofskifte.
+* **[BMI-beregner](/bmi/):** Beregn Body Mass Index for voksne, mænd, kvinder og børn.
 
-## Motion Onlines beregnere virker ikke
+### 🏃 [Gå til alle Konditionstests →](/tests/)
+Her finder du alle vores guides og udregnere til at måle din kondition og udholdenhed.
+* **[Kondital & VO2-max](/kondital/):** Læs om iltoptagelse, og se tabeller for din alder.
+* **[Cooper-test](/cooper-test/):** Test din form ud fra, hvor langt du løber på 12 minutter.
+* **[Gangtest (6 min & Rockport)](/gaatest-6min/):** Skånsomme og præcise tests af dit kondital.
 
-De **fleste af beregnerne på Motion Online virker ikke længere**. Det er virkelig en skam, for jeg har brugt mange timer på at læse om beregnerne og tjekke resultaterne.
+### 🏋️ [Gå til Træningsøvelser & Programmer →](/traening/)
+Mangler du inspiration til din styrketræning eller cirkeltræning?
+* **[Cirkeltræning](/cirkeltraening/):** Komplet guide til opbygning af effektive cirkeltræningspas.
+* **[Styrketræning for begyndere](/styrketraening/begyndere/):** Lær at lægge dit eget program fra bunden.
 
-Du kan heldigvis finde langt de fleste beregnere her på Motionsplan, så dyk ned i dem.
+---
 
-Her har du en liste over **Motionsplans beregnere som naturligvis bliver opdateret og stadig virker**.
-
-{% assign site_posts = site.posts | where: "tags", "beregnere'" | sort: "title" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Motion Online og kondital
-
-Jeg har søgt lidt på Motion Online og kondital, og det tror jeg, at der er mange, der har gjort. Hvis du er interesseret i at [læse mere om du har et godt kondital](/kondital/) eller [teste dit kondital](/kondition/tests/) så kan du læse mere i følgende guides.
-
-Vi har også skrevet mange andre artikler om kondition og konditionstræning.
-
-{% assign site_posts = site.posts | where: "category", "Kondition'" | sort: "title" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Motion-online.dk og BMI
-
-Motion-online.dk havde flere artikler om BMI, bl.a. hvordan man retfærdigt vurderer børn i forhold til BMI-målingerne. Det har vi skrevet om i vores [udvidede guide til BMI](/bmi/).
-
-## Motion-online.dk's cirkeltræning
-
-Motion-online.dk havde lavet nogle sider med _cirkeltræning_. Jeg har skrevet en [grundig guide til cirkeltræning](/cirkeltraening/). Vi har også et stort øvelsesbibliotek, så du selv kan lave din egen træning.
-
-## Motion Online og Cooper-testen
-
-Motion-online.dk fik relativt mange besøgende på deres side om Cooper-testen. Vi har udvidet [vores dybdegående forklaring på Cooper-testen](/cooper-test/), så du bl.a. kan udregne dit kondital på baggrund af den distance, du har løbet, eller slå dit kondital fra Cooper-testen op i en tabel.
-
-## Motion-Onlines gangtest og gåtest
-
-Motion-online.dk havde en del tests liggende på deres site med beregnere. Jeg har allerede linket til beregnerne, hvor du også kan finde vores gåtest og gangtest. Bl.a. har jeg denne [guide til 6 minutters gangtest](/gaatest-6min/) og denne [guide til Rockports 1,6 km gåtest](/gaatest/).
-
-## Motion Onlines forum
-
-Jeg kender desværre ikke noget dansk forum, som har de samme kvaliteter, som MOLs forum havde. Vi har heller ruteplanlægger, men der er efterhånden andre muligheder, hvor du kan planlægge dine ruter.
+> **Savner du et specifikt værktøj?**  
+> Vi udbygger løbende vores værktøjer og guides. Hvis der er en specifik test eller beregner fra det gamle Motion Online, så tjek vores [beregner-sektion](/beregnere/). Måske kan du finde en opdateret beregner her.
+{: .notice .notice--info }

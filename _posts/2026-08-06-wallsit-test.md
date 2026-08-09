@@ -6,24 +6,37 @@ description: "Hvor længe kan du sidde i 90 grader mod en væg? Prøv Wall Sit t
 permalink: /wall-sit-test-90-graders-test/
 language: da
 header:
-  overlay_image: /assets/images/unsplash/photo-1598971457999-ca4ef48a9a71.jpg
-  teaser: /assets/images/unsplash/photo-1598971457999-ca4ef48a9a71.jpg
+  overlay_image: https://images.unsplash.com/photo-1643142313112-3b9faa5dc015?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1643142313112-3b9faa5dc015?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: Test din udholdenhed i underkroppen med 90-graders testen
 category:
-  - Tests
   - Styrketræning
+  - Styrketests
+tags:
+  - test
+  - statisk udholdenhed
+  - underkropsstyrke
+  - kropsvægt
 meta:
   name: Wall Sit Test
   measures: Isometrisk muskeludholdenhed i underkroppen
   type: Styrketest
   equipment: En glat væg og et stopur
-tags:
-  - wall sit test
-  - 90 graders test
-  - vægsidning
-  - statisk udholdenhed
-  - underkropsstyrke
-  - mælkesyre
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-wall-sit-test"
+    title: "Wall Sit Test (90-graders test)"
+    description: "Standardiseret fysiologisk felt-test (90 graders knæ- og hoftevinkel mod en glat væg uden armstøtte) til måling af isometrisk muskeludholdenhed og lokal træthedstolerance i underkroppen."
+    category: ["Tests", "Styrketræning"]
+    type: ["Protokol", "Styrketest", "Udholdenhedstest"]
+    execution: ["Fysisk"]                  # 🦵 FYSISK TEST: Kræver statisk/isometrisk vægsidning
+    method: "direkte"                       # 📊 Direkte måling af varighed i sekunder
+    modality: ["Styrketræning", "Egen kropsvægt"]
+    measures: ["Isometrisk muskeludholdenhed i underkroppen", "Vægsidningstid (s)", "Lokal muskulær træthedstolerance"]  # 🎯 KUN rene fysiologiske slutmål
+    equipment: ["Glat væg", "Stopur / Timer", "Skridsikkert underlag / Fodtøj"]
+    setting: ["Træningscenter", "Indendørs", "Klinik", "Testcenter", "Individuel"]
+    target_group: ["Skiløbere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 last_modified_at: '2026-08-06T23:30:00Z'
 toc: true
 breadcrumbs: true
@@ -42,7 +55,7 @@ faq:
 
 {: .notice .notice--warning }
 **Faglig disclaimer om testens normer:**  
-Bemærk, at Wall Sit testen er en **praktisk felt-test**. Hvor tests som [Armstrækningstest](/armstraekninger-test/) og [Sit-to-Stand test](/sit-to-stand-test/) bygger på store kliniske befolkningsundersøgelser, er normerne for Wall Sit testen primært baseret på empiriske benchmarks fra den internationale trænerverden (herunder atletiktræner Brian Mackenzie og databaser som [BrianMac Sports Coach](https://www.brianmac.co.uk/wallsquat.htm) og [Topend Sports](https://www.topendsports.com/testing/tests/wall-sit.htm)). Testen er eminent til at måle din egen fremgang over tid og teste din mentale vedholdenhed.
+Bemærk, at Wall Sit testen er en **praktisk felt-test**. Hvor tests som [Armstrækningstest](/armstraekninger-test/) og [Sit-to-Stand test](/sit-to-stand-test/) bygger på store kliniske befolkningsundersøgelser, er normerne for Wall Sit testen primært baseret på empiriske benchmarks fra den internationale trænerverden (herunder atletiktræner Brian Mackenzie og databaser som [BrianMac Sports Coach](https://www.brianmac.co.uk/wallsquat.htm) og [Topend Sports](https://www.topendsports.com/testing/tests/wall-sit.htm)). Testen er velegnet til at måle din egen fremgang over tid og teste din mentale vedholdenhed.
 
 ---
 
@@ -92,7 +105,7 @@ Nedenstående tabeller viser de vejledende tider (i sekunder) for mænd og kvind
 
 ## Anvendelse og fysiologisk effekt
 
-Selvom Wall Sit ikke måler maksimal dynamisk styrke som f.eks. et tungt [squat](/ovelser/squat/), har statisk træning sine egne unikke fordele:
+Selvom Wall Sit ikke måler maksimal dynamisk styrke som f.eks. et tungt [squat](/squat/), har statisk træning sine egne unikke fordele:
 
 * **Forberedelse til skisport:** Isometrisk lårstyrke er afgørende i alpin skisport, hvor benene arbejder under konstant spænding ned ad pisten.
 * **Knæstabilitet:** Isometriske vægsidninger anvendes hyppigt i fysioterapi og genoptræning ved knæproblemer (f.eks. patellofemoral smertesyndrom), da øvelsen belaster muskulaturen uden at skabe stød eller slid i leddet.
@@ -105,7 +118,7 @@ Selvom Wall Sit ikke måler maksimal dynamisk styrke som f.eks. et tungt [squat]
 Kombiner Wall Sit testen med vores andre kropsvægtstests for et fuldstændigt billede af din styrke:
 * **Overkrop Pres:** [Armstrækningstest (Push-ups)](/armstraekninger-test/)  
 * **Overkrop Træk:** [Pull-up Test (Kropshævninger)](/pullup-test/)  
-* **Eksplosiv Underkrop:** [Længdespring uden tilløb (Standing Broad Jump)](/laengdespring-test/)
+* **Eksplosiv Underkrop:** [Længdespring uden tilløb (Standing Broad Jump)](/broadjump/)
 
 ---
 

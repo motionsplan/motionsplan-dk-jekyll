@@ -17,6 +17,7 @@ header:
   alt: Photo by Fitsum Admasu on Unsplash
 category:
 - Løb
+- Løbeværktøjer
 tags:
 - beregner
 - løbeøkonomi
@@ -27,6 +28,15 @@ meta:
   equipment: ingen
   measures: løbeøkonomi
   type: løb
+tools:
+  - id: "tool-lobeokonomi-beregner"
+    title: "Løbeøkonomi Beregner"
+    description: "Interaktiv beregner til udregning af løbeøkonomi (ml O2/kg/km) ud fra iltoptagelse (VO2) og løbehastighed."
+    category: ["Løb", "Beregnere", "Kondition"]
+    type: ["Beregner"]
+    measures: ["Løbeøkonomi"]  # 🎯 KUN det rene fysiologiske slutmål
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2021-04-29T17:14:14Z'
 toc: 'true'
 feature_row:

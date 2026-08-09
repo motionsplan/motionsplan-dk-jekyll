@@ -7,17 +7,11 @@ language: da
 header:
   teaser: https://images.unsplash.com/photo-1730251446354-bc3570752717?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 categories:
-  - Test
-  - Kondition
   - Løb
+  - Løbetests
 tags:
-  - VAM-eval test
-  - Montreal Track Test
-  - MAS test
-  - Maksimal aerob hastighed
-  - VO2max test
+  - test
   - løbetest
-  - intervaller
 last_modified_at: 2026-08-06T07:55:00Z
 faq:
   - question: "Hvad står VAM-eval for?"
@@ -26,6 +20,33 @@ faq:
     answer: "Montreal Track Test (UM-TT) fra 1980 brugte 50 meters kegleafstand, 2 minutters trin og hastighedsøgning på 1,0 km/t. VAM-eval fra 1993 forfinede testen med 20 meters kegleafstand, 1 minuts trin og hastighedsøgning på 0,5 km/t, hvilket giver en mere præcis måling af løberens MAS."
   - question: "Hvordan beregner man VO2max ud fra VAM-eval?"
     answer: "VO2max estimeres direkte ud fra den opnåede Maksimal Aerobe Hastighed (MAS i km/t) med formlen: VO2max (ml/min/kg) = 3,5 × MAS."
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-vam-eval-test"
+    title: "VAM-eval Test (Cazorla & Léger)"
+    description: "Standardiseret fysiologisk, kontinuerlig løbetest på rundbane (20m kegleafstand, 1 minuts trin, 0,5 km/t hastighedsøgning) til måling af Maksimal Aerob Hastighed (MAS) og estimering af VO2max."
+    category: ["Løb", "Tests", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver kontinuerligt, trinvist løb på rundbane
+    method: "indirekte"                     # 📊 Indirekte måling af VO2max og MAS ud fra sluthastighed
+    modality: ["Løb"]
+    measures: ["Maksimal Aerob Hastighed (MAS)", "Kondital (VO2max)", "Aerob kapacitet"]  # 🎯 KUN rene fysiologiske slutmål
+    equipment: ["200m eller 400m rundbane", "Markeringskegler (hver 20 m)", "Lydfil / Test-timer", "Målebånd / Opmålingshjul"]
+    setting: ["Udendørs", "Indendørs", "Løbebane", "Testcenter", "Individuel", "Gruppetest"]
+    target_group: ["Løbere", "Holdatleter", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-vam-eval-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-vam-eval-timer"
+    title: "VAM-eval Test Interaktiv Timer & Beregner"
+    description: "Interaktiv timer med lydsignaler og beregner til afvikling af VAM-eval testen samt automatisk udregning af MAS (km/t) og VO2max."
+    category: ["Løb", "Beregnere", "Tests"]
+    type: ["Timer", "Beregner"]
+    measures: ["Maksimal Aerob Hastighed (MAS)", "Kondital (VO2max)"]  # 🎯 KUN rene slutmål
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 > **Hurtigt overblik:** VAM-eval testen (*Vitesse Aérobie Maximale Évaluation*) er en kontinuerlig, gradvis stigende løbetest på rundbane, der måler en atletens **Maksimal Aerobe Hastighed (MAS)**. Testen blev udviklet af Georges Cazorla og Luc Léger i 1993 som en videreudvikling af den klassiske *Montreal Track Test (UM-TT)* fra 1980.
@@ -154,8 +175,8 @@ Når du kender din MAS (f.eks. 16,0 km/t = 4:48 min/km eller 4,44 m/s), kan du o
 {: .notice .notice--info }
 **Overvejer du andre udholdenhedstests?**  
 VAM-eval vurderer den rene, lineære aerobe løbekapacitet uden vendinger. Afhængigt af din idræt kan du supplere eller sammenligne med andre populære tests:
-* **[Beep-test (20m Shuttle Run)](/beep-test/):** Inkluderer 180-graders vendinger, hvilket belaster muskulaturen og mekanikken anderledes end lineært løb.
-* **[30-15 Intermittent Fitness Test (30-15 IFT)](/30-15-ift-test/):** En intervalløbstest med skiftende arbejds- og hvileperioder, som er skræddersyet til boldspillere (fodbolds, håndbold m.m.).
+* **[Beep-test (20m Shuttle Run)](/bip-test/):** Inkluderer 180-graders vendinger, hvilket belaster muskulaturen og mekanikken anderledes end lineært løb.
+* **[30-15 Intermittent Fitness Test (30-15 IFT)](/30-15-intermittent-fitness-test/):** En intervalløbstest med skiftende arbejds- og hvileperioder, som er skræddersyet til boldspillere (fodbolds, håndbold m.m.).
 * **[Cooper-test (12 minutter)](/cooper-test/):** Klassisk distancetest med jævn tempofordeling uden udstyrs- eller bip-styring.
 
 ---

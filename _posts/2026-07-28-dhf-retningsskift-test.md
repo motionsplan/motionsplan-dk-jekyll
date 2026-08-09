@@ -8,16 +8,42 @@ description: "Lær hvordan du afvikler Dansk Håndbolds Retningsskift-test fra d
 category:
   - Løb
   - Håndbold
+  - Retningsskifttests
 tags:
   - test
   - håndbold
-  - agilitet
+  - agility
   - retningsskift
-  - DHF
-  - performance profil
+  - cod
 header:
   teaser: https://i.ytimg.com/vi/vIxSoTU9LrY/hqdefault.jpg
   caption: Dansk Håndbolds Retningsskift-test – Test af specifikke bevægelsesmønstre for angreb og forsvar
+tests:
+  - id: "test-dhf-retningsskift-test"
+    title: "Dansk Håndbolds Retningsskift-test (DHF Performance Profil)"
+    description: "Standardiseret håndboldspecifik agilitetstest (3m fremstød, 3m sideløb til hver side og baglænsløb) til måling af forsvarsbenarbejde, kropskontrol og retningsskifthastighed (CODS)."
+    category: ["Håndbold", "Løb", "Tests"]
+    type: ["Protokol", "Agilitetstest"]
+    execution: ["Fysisk"]                  # 🤾‍♂️ FYSISK TEST: Kræver eksplosivt fremstød, sideløb (shuffling) og baglænsløb
+    method: "indirekte"                     # 📊 Indirekte måling af håndbold-agility via tidtagning
+    modality: ["Løb", "Håndbold"]
+    measures: ["Håndbold-agility", "DHF-retningsskift tid (s)", "Retningsskifthastighed (CODS)", "Sideløbshurtighed / Forsvarsbenarbejde"]  # 🎯 KUN rene præstationsmæssige slutmål
+    equipment: ["Markeringskegler (4 stk)", "Målebånd", "Stopur / Timer", "Skridsikkert halgulv"]
+    setting: ["Indendørs", "Idrætshal", "Testcenter", "Individuel"]
+    target_group: ["Håndboldspillere", "Holdatleter", "Ungdoms- og elitespillere", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-dhf-retningsskift-test-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-dhf-retningsskift-test-timer"
+    title: "Dansk Håndbolds Retningsskift Interaktiv Timer"
+    description: "Interaktiv timer og stopur til afvikling af Dansk Håndbolds Retningsskift-test med automatisk resultatvurdering ift. DHF normtal."
+    category: ["Håndbold", "Løb", "Beregnere", "Tests"]
+    type: ["Timer", "Beregner"]
+    measures: ["DHF-retningsskift tid (s)", "Retningsskifthastighed (CODS)", "Agilitetsniveau"]  # 🎯 KUN rene slutmål
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 author_profile: true
 last_modified_at: '2026-07-28T14:00:00Z'
 breadcrumbs: true

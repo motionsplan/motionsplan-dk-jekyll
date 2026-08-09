@@ -10,6 +10,7 @@ header:
   caption: 'Borg 15 Test: Konditest på cykel'
 category:
   - Kondition
+  - Konditionstests
 meta:
   name: "Borg 15 Test"
   measures: "kondital, VO2max"
@@ -17,13 +18,32 @@ meta:
   equipment: "cykel"
   max: "submaksimal test"
   direct: "indirekte test"
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-borg-15"
+    title: "Borg 15 Cykeltest"
+    description: "Submaksimal cykeltest med gradvist øget belastning (15 W/min) indtil den oplevede anstrengelse i benene når niveau 15 (Anstrengende) på Borg-skalaen."
+    category: ["Kondition", "Cykling"]        # 💡 Søgbar under BÅDE Kondition og Cykling i test-databasen
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Måler opnået watt ved Borg 15 RPE for at beregne VO2max
+    modality: ["Cykling"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
+    equipment: ["Kondicykel", "Wattmåler", "Borg-skala"]
+    setting: ["Fitnesscenter", "Klinik", "Laboratorietest", "Individuel"]
+    target_group: ["Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
+    related_tools: ["tool-borg-15-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Borg 15 Kondital Beregner"
+  - id: "tool-borg-15-beregner"
+    title: "Borg 15 Kondital Beregner"
     description: "Beregn dit kondital og VO2max ud fra alder, vægt og dine opnåede watt på Borg 15 cykeltesten."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "kondital"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
   - test
   - konditionstest

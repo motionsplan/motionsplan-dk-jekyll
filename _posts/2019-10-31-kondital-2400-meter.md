@@ -11,6 +11,7 @@ header:
   caption: '2400-meter løbetest: Sådan beregner du dit kondital 🏃'
 category:
 - Kondition
+- Konditionstest
 classes: wide
 meta:
   name: 2400-meters løbetest
@@ -19,6 +20,41 @@ meta:
   equipment: løbebane
   max: maksimal test
   direct: indirekte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-2400-meter-test"
+    title: "2400-meter løbetest (Politiets test)"
+    description: "Maksimal 2400-meter felt-test til estimering af maksimal iltoptagelse (VO2max) og kondital ud fra den anvendte tid."
+    category: ["Kondition", "Løb"]        # 💡 Søgbar under BÅDE Kondition og Løb i test-databasen
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Måler tid på 2400m for at beregne VO2max
+    modality: ["Løb"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
+    equipment: ["Løbebane", "Stopur"]
+    setting: ["Individuel", "Gruppetest", "Udendørs", "Politi", "Militær"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-2400m-beregner", "tool-2400m-timer"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-2400m-beregner"
+    title: "2400-meter Test Kondital Beregner"
+    description: "Beregn dit kondital (VO2max) ud fra din tid på 2400-meter løbetesten."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-2400m-timer"
+    title: "2400-meter Test Timer & Tidtager"
+    description: "Interaktiv 2400-meter test-timer med omgangstæller og automatisk karaktergivning til gruppetest."
+    category: ["Kondition"]
+    type: ["Timer"]
+    execution: ["Timer"]
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

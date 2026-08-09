@@ -14,6 +14,7 @@ header:
 category:
   - Tests
   - Eksplosivitet
+  - Hoppetests
 tags:
   - test
   - springtest
@@ -22,22 +23,75 @@ tags:
   - spring
 last_modified_at: '2026-07-30T10:00:00Z'
 toc: true
+# TESTS / PROTOKOLLER
 tests:
-  - id: sj
-    name: Squat Jump (SJ)
-    measures: Ren koncentrisk springstyrke (uden forspænding)
-    type: Springtest
-    equipment: Hoppemåtte / Kraftplatform / App
-  - id: cmj
-    name: Countermovement Jump (CMJ)
-    measures: Eksplosivitet med forspænding (SSC)
-    type: Springtest
-    equipment: Hoppemåtte / Kraftplatform / App
-  - id: abalakov
-    name: Abalakov-test (CMJ m. armsving)
-    measures: Eksplosivitet med armsving/armimpuls
-    type: Springtest
-    equipment: Vertec / Hoppemåtte / App
+  - id: "test-squat-jump"
+    title: "Squat Jump (SJ)"
+    description: "Vertikal hoppetest til måling af ren koncentrisk muskelkraft i benene helt uden forspænding (start fra 90° bøjede knæ i 2-3 sekunder)."
+    category: ["Tests", "Eksplosivitet"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver maksimalt lodret hop fra statisk position
+    method: "direkte"                     # 📏 Måles direkte i cm (via svævetid eller kraftplatform)
+    modality: ["Hop"]
+    measures: ["Hoppehøjde", "Eksplosivitet", "Koncentrisk styrke"]
+    equipment: ["Hoppemåtte", "Kraftplatform", "My Jump App", "Vertec"]
+    setting: ["Fitnesscenter", "Klinik", "Laboratorietest", "Individuel"]
+    target_group: ["Motionister", "Atleter", "Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-sj-cmj-abalakov-analysator"
+      - "tool-svaevetid-hoppehoejde-beregner"
+
+  - id: "test-countermovement-jump"
+    title: "Countermovement Jump (CMJ)"
+    description: "Vertikal hoppetest til måling af underkroppens eksplosivitet med udnyttelse af stræk-forkortningscyklussen (SSC) og forspænding."
+    category: ["Tests", "Eksplosivitet"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver dynamisk knæbøjning og eksplosivt hop
+    method: "direkte"                     # 📏 Måles direkte i cm
+    modality: ["Hop"]
+    measures: ["Hoppehøjde", "Eksplosivitet", "SSC-effekt", "EUR"]
+    equipment: ["Hoppemåtte", "Kraftplatform", "My Jump App"]
+    setting: ["Fitnesscenter", "Klinik", "Laboratorietest", "Individuel"]
+    target_group: ["Motionister", "Atleter", "Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-sj-cmj-abalakov-analysator"
+      - "tool-svaevetid-hoppehoejde-beregner"
+
+  - id: "test-abalakov"
+    title: "Abalakov-test (CMJ med armsving)"
+    description: "Vertikal hoppetest til måling af den maksimale hoppehøjde ved kombinering af underkroppens eksplosivitet og overkroppens armsving."
+    category: ["Tests", "Eksplosivitet"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver maksimalt hop med aktivt armsving
+    method: "direkte"                     # 📏 Måles direkte i cm
+    modality: ["Hop"]
+    measures: ["Hoppehøjde", "Eksplosivitet", "Armsvingseffekt"]
+    equipment: ["Vertec", "Hoppemåtte", "Kraftplatform", "My Jump App"]
+    setting: ["Fitnesscenter", "Klinik", "Laboratorietest", "Individuel"]
+    target_group: ["Motionister", "Atleter", "Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-sj-cmj-abalakov-analysator"
+      - "tool-svaevetid-hoppehoejde-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-sj-cmj-abalakov-analysator"
+    title: "SJ, CMJ & Abalakov Effekt Beregner"
+    description: "Analyser dine testresultater og beregn den procentvise effekt af forspænding (EUR) og armsving."
+    category: ["Eksplosivitet"]
+    type: ["Beregner"]
+    measures: ["EUR", "SSC-effekt", "Armsvingseffekt"]  # 🎯 Output-parametre fra analysatoren
+    anchor: "#sammenlign-effekten-af-forspænding-og-armsving"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-svaevetid-hoppehoejde-beregner"
+    title: "Svævetid til Hoppehøjde Beregner"
+    description: "Beregn din reelle hoppehøjde i centimeter baseret på din målte svævetid i sekunder."
+    category: ["Eksplosivitet"]
+    type: ["Beregner"]
+    measures: ["Hoppehøjde", "Svævetid"]             # 🎯 Output-parametre fra beregneren
+    anchor: "#beregn-din-hoppehøjde-fra-svævetid"
+    category_schema: "HealthAndFitnessApplication"
 faq:
   - question: Hvad er forskellen på et Countermovement Jump og et Squat Jump?
     answer: CMJ starter fra stående stilling med et hurtigt dyk (forspænding) for at udnytte musklernes elastiske energi (SSC). SJ starter fra en statisk, bøjet stilling i 2-3 sekunder for udelukkende at måle ren koncentrisk muskelkraft.

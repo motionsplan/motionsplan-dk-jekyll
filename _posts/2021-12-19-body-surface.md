@@ -20,6 +20,15 @@ meta:
   equipment: vægt
   measures: kroppens overfladeareal
   type: fysiologi
+tools:
+  - id: "tool-bsa-beregner"
+    title: "BSA & Kroppens Overfladeareal Beregner"
+    description: "Interaktiv beregner til udregning af kroppens overfladeareal (BSA) i m² baseret på kropshøjde og kropsvægt via Du Bois og Mostellers formel."
+    category: ["Anatomi", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Kroppens overfladeareal", "BSA", "Body Surface Area", "Overfladeareal i m²"]  # 🎯 Output-parametre fra beregneren
+    anchor: "#beregn-kroppens-overfladeareal-i-m-overfladeberegner"
+    category_schema: "HealthAndFitnessApplication"
 faq:
 - question: Hvordan beregner man kroppens overfladeareal (BSA)?
   answer: 'Kroppens overfladeareal beregnes ud fra højde (cm) og vægt (kg) via matematiske formler som Mostellers formel eller Du Bois-formlen. Resultatet angives i kvadratmeter (m²).'

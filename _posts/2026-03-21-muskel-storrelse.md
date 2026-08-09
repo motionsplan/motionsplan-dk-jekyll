@@ -13,7 +13,6 @@ categories:
 tags:
   - muskler
   - anatomi
-  - fysiologi
 last_modified_at: 2026-03-29T11:00:00.000Z
 toc: true
 faq:

@@ -1,0 +1,827 @@
+<div class="sprint-calc-widget">
+  
+  <!-- Info Modal -->
+  <div class="sprint-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Sprinttest & Fotocelle Beregneren</h4>
+        <span class="modal-subtitle-text">Hastigheds- og accelerationsanalyse</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>SÅDAN BRUGER DU MODULET:</strong><br>
+        1. <strong>Opret distancer:</strong> Indtast dine split-distancer (f.eks. 5m, 10m, 25m, 30m).<br>
+        2. <strong>Live Timer (Standard):</strong> Tryk 'START SPRINT' og derefter 'SPLIT' hver gang løberen passerer et distancemærke.<br>
+        3. <strong>Manuel indtastning:</strong> Skift til manuel tilstand for at taste tider ind direkte fra dine fotoceller i sekunder og millisekunder/hundrededele (sek:ms).<br>
+        4. <strong>Genkald splits:</strong> I tabellen i bunden kan du trykke på '👁️ Vis splits' for at se alle del-tider for et tidligere gemt løb.
+      </p>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="sprint-topbar">
+    <div class="sprint-header-card">
+      <div class="card-title-row">
+        <span class="card-title">Sprinttest & Fotocelle Beregner</span>
+        <button class="info-icon-btn" type="button" title="Læs om modulet">ℹ️</button>
+      </div>
+      <div class="card-desc">Beregner hastighed (km/t og m/s) for valgfrie split-distancer ud fra fotoceller eller live timer.</div>
+    </div>
+
+    <!-- TILSTAND SELECTOR (LIVE ER STANDARD) -->
+    <div class="topbar-subrow">
+      <div class="setting-item">
+        <span class="setting-label">Tilstand:</span>
+        <div class="btn-toggle-group" id="sprint-mode-toggle">
+          <button type="button" class="toggle-btn active" data-val="live">🚀 Live Timer</button>
+          <button type="button" class="toggle-btn" data-val="manual">📝 Manuel Indtastning</button>
+        </div>
+      </div>
+
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="sprint-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off">🔇</button>
+        </div>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- LYSEBLÅ INDTASTNINGS-ZONE -->
+  <div class="sprint-input-card">
+    <div class="input-card-header">
+      <span class="input-card-title">Beregn hastighed (km/t og m/s) fra distance og tid</span>
+      <span class="input-card-subtitle" id="input-card-subtitle">Live tidtagning aktiv. Tryk på knappen undervejs.</span>
+    </div>
+
+    <!-- SKÆRM TIL LIVE TIMING (STANDARD) -->
+    <div class="live-timer-section" id="live-timer-section">
+      <div class="live-timer-display" id="live-timer-display">0.00s</div>
+      <div class="live-timer-instructions" id="live-timer-instructions">Klar til start. Tryk på knappen når løberen starter fra 0m.</div>
+      <button type="button" class="btn-live-action" id="btn-live-action">🚀 START SPRINT</button>
+    </div>
+
+    <!-- SPLIT TABEL / RÆKKER -->
+    <div class="splits-table-wrapper">
+      <table class="splits-input-table">
+        <thead>
+          <tr>
+            <th style="width: 8%;">Split</th>
+            <th style="width: 22%;">Distance (m)</th>
+            <th style="width: 34%;">Tid (sek:ms)</th>
+            <th style="width: 15%;">Interval km/t</th>
+            <th style="width: 15%;">m/s</th>
+            <th style="width: 6%;"></th>
+          </tr>
+        </thead>
+        <tbody id="splits-tbody">
+          <!-- Rækker genereres dynamisk -->
+        </tbody>
+      </table>
+    </div>
+
+    <div class="input-actions-row">
+      <button type="button" class="btn-add-split" id="btn-add-split">+ Tilføj Split-mærke</button>
+      <button type="button" class="btn-calc-green" id="btn-calculate" style="display: none;">💾 Beregn & Gem Resultat</button>
+    </div>
+  </div>
+
+  <!-- MØRKEBLÅ RESULTAT-ZONE -->
+  <div class="sprint-output-card">
+    <div class="output-card-title">Udregning af hastighed for hele distancen</div>
+    
+    <div class="output-results-grid">
+      <div class="output-box">
+        <span class="output-label">Samlet Distance</span>
+        <div class="output-value-field" id="res-total-dist">0 m</div>
+      </div>
+
+      <div class="output-box">
+        <span class="output-label">Samlet Tid</span>
+        <div class="output-value-field" id="res-total-time">0.00 s</div>
+      </div>
+
+      <div class="output-box highlight-output">
+        <span class="output-label">Gennemsnitshastighed (km/t)</span>
+        <div class="output-value-field" id="res-total-kmh">0.00 km/t</div>
+      </div>
+
+      <div class="output-box highlight-output">
+        <span class="output-label">Gennemsnitshastighed (m/s)</span>
+        <div class="output-value-field" id="res-total-ms">0.00 m/s</div>
+      </div>
+
+      <div class="output-box full-width-box">
+        <span class="output-label">Højeste Zone-Topfart (Max Interval)</span>
+        <div class="output-value-field" id="res-max-zone">--</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOG OG EKSPORT MED MOGELIGHED FOR AT GENKALDE SPLITS -->
+  <div class="sprint-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="sprint-log-table">
+      <thead>
+        <tr>
+          <th style="width: 22%;">Dato</th>
+          <th style="width: 16%;">Distance</th>
+          <th style="width: 18%;">Total Tid</th>
+          <th style="width: 22%;">Snit Fart</th>
+          <th style="width: 22%;">Splits</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody" id="results-table-body">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BUND ACTIONS -->
+  <div class="sprint-bottom-actions">
+    <button class="btn btn--action btn-screenshot" type="button">📸 Tag et billede</button>
+    <button class="btn btn--action btn-csv" type="button">📊 Download CSV Export</button>
+  </div>
+
+</div>
+
+<style>
+.sprint-calc-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 18px;
+  max-width: 680px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.sprint-calc-widget * { box-sizing: border-box; }
+
+.sprint-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; text-align: left; }
+.sprint-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.35; }
+
+/* Modal */
+.sprint-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Subrow */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 2px; flex-wrap: wrap; }
+.setting-item { display: flex; align-items: center; gap: 6px; }
+.setting-label { font-size: 0.78rem; font-weight: 800; color: #495057; }
+
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 4px 10px; font-size: 0.78rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* 1. LYSEBLÅ INDTASTNINGS-KORT */
+.sprint-input-card {
+  background: #aed6f1; border: 1.5px solid #85c1e9; border-radius: 12px 12px 0 0;
+  padding: 14px; text-align: left;
+}
+.input-card-header { margin-bottom: 12px; }
+.input-card-title { display: block; font-size: 0.95rem; font-weight: 900; color: #1b4f72; margin-bottom: 2px; }
+.input-card-subtitle { display: block; font-size: 0.72rem; font-weight: 700; color: #2874a6; }
+
+/* Live Timer Section */
+.live-timer-section {
+  background: #ffffff; border: 2px solid #3498db; border-radius: 10px; padding: 12px;
+  margin-bottom: 12px; text-align: center;
+}
+.live-timer-display { font-size: 3.0rem; font-weight: 900; color: #1b4f72; font-variant-numeric: tabular-nums; line-height: 1; }
+.live-timer-instructions { font-size: 0.78rem; font-weight: 800; color: #2874a6; margin: 6px 0 10px 0; }
+.btn-live-action {
+  width: 100%; padding: 12px; font-size: 1.05rem; font-weight: 900; border-radius: 8px;
+  border: none; background: #2e86c1; color: white; cursor: pointer; box-shadow: 0 3px 8px rgba(46, 134, 193, 0.3);
+}
+
+/* Splits Table */
+.splits-table-wrapper { width: 100%; overflow-x: auto; margin-bottom: 12px; }
+.splits-input-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+.splits-input-table th { padding: 6px 4px; text-align: center; font-weight: 800; color: #1b4f72; border-bottom: 1.5px solid #85c1e9; }
+.splits-input-table td { padding: 6px 4px; text-align: center; vertical-align: middle; }
+
+/* STØRRE OG MERE LÆSELIGE INDTASTNINGSFELTER (IKKE FED) */
+.split-num-badge { font-weight: 800; color: #2874a6; font-size: 0.85rem; }
+
+.num-input-dist {
+  width: 68px; padding: 6px 4px; border: 1.5px solid #85c1e9; border-radius: 6px;
+  font-size: 0.90rem; font-weight: 600; text-align: center; outline: none; background: #ffffff; color: #1b4f72;
+}
+
+.time-input-group { display: inline-flex; align-items: center; gap: 3px; }
+.num-input-sec, .num-input-ms {
+  width: 52px; padding: 6px 4px; border: 1.5px solid #85c1e9; border-radius: 6px;
+  font-size: 0.90rem; font-weight: 600; text-align: center; outline: none; background: #ffffff; color: #1b4f72;
+}
+.time-sep-text { font-size: 0.75rem; font-weight: 700; color: #1b4f72; }
+
+.calc-output-cell {
+  background: #d4e6f1; border: 1px solid #85c1e9; border-radius: 6px; padding: 6px 2px;
+  font-size: 0.85rem; font-weight: 800; color: #1b4f72; min-height: 32px; display: flex; align-items: center; justify-content: center;
+}
+
+.btn-remove-row { background: transparent; border: none; color: #e74c3c; font-weight: 900; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; }
+
+/* Input Actions */
+.input-actions-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.btn-add-split {
+  background: #ffffff; border: 1.5px solid #2874a6; color: #1b4f72; padding: 8px 12px;
+  border-radius: 6px; font-size: 0.82rem; font-weight: 800; cursor: pointer; transition: background 0.15s ease;
+}
+.btn-add-split:hover { background: #ebf5fb; }
+
+.btn-calc-green {
+  background: #27ae60; color: #ffffff; border: none; padding: 10px 22px;
+  border-radius: 6px; font-size: 0.92rem; font-weight: 900; cursor: pointer;
+  box-shadow: 0 3px 8px rgba(39, 174, 96, 0.3); transition: background 0.15s ease, transform 0.1s ease;
+}
+.btn-calc-green:hover { background: #219653; }
+.btn-calc-green:active { transform: scale(0.98); }
+
+/* 2. MØRKEBLÅ RESULTAT-KORT */
+.sprint-output-card {
+  background: #1b4f72; border: 1.5px solid #154360; border-radius: 0 0 12px 12px;
+  padding: 14px; text-align: left; color: #ffffff; margin-bottom: 12px;
+}
+.output-card-title { font-size: 0.92rem; font-weight: 900; color: #ffffff; margin-bottom: 10px; }
+
+.output-results-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+@media (max-width: 480px) { .output-results-grid { grid-template-columns: 1fr; } }
+
+.output-box { display: flex; flex-direction: column; gap: 3px; }
+.output-label { font-size: 0.72rem; font-weight: 800; color: #d4e6f1; }
+.output-value-field {
+  background: #aed6f1; border-radius: 6px; padding: 8px 10px; font-size: 0.95rem; font-weight: 900;
+  color: #1b4f72; text-align: left; min-height: 36px; display: flex; align-items: center;
+}
+.output-box.highlight-output .output-value-field {
+  background: #ffffff; color: #1b4f72; border: 2px solid #27ae60; font-size: 1.05rem;
+}
+.output-box.full-width-box { grid-column: 1 / -1; }
+
+/* Log Table med fold-ud til splits */
+.sprint-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.sprint-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.78rem; table-layout: fixed; margin: 0; }
+.sprint-log-table th { background: #f8f9fa; padding: 8px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.sprint-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+.btn-toggle-details { background: #e7f5ff; border: 1px solid #74c0fc; color: #1c7ed6; font-size: 0.72rem; font-weight: 800; padding: 3px 6px; border-radius: 5px; cursor: pointer; }
+.btn-toggle-details:hover { background: #d0ebff; }
+
+/* Fold-ud detalje række i loggen */
+.details-row td { background: #f8f9fa; padding: 8px !important; text-align: left !important; }
+.details-mini-table { width: 100%; border-collapse: collapse; font-size: 0.72rem; background: #ffffff; border: 1px solid #ced4da; border-radius: 6px; }
+.details-mini-table th { background: #e9ecef; padding: 4px; font-weight: 800; color: #495057; }
+.details-mini-table td { padding: 4px; border-bottom: 1px solid #f1f3f5; text-align: center !important; }
+
+/* Bottom Action Buttons */
+.sprint-bottom-actions { display: flex; gap: 8px; margin-top: 12px; width: 100%; }
+.sprint-bottom-actions .btn--action { flex: 1; padding: 10px; font-size: 0.82rem; font-weight: 800; border-radius: 8px; border: 1px solid #ced4da; background: #f8f9fa; color: #343a40; cursor: pointer; }
+.sprint-bottom-actions .btn--action:hover { background: #e9ecef; }
+</style>
+
+<script>
+(function() {
+  function initSprintCalcWidget() {
+    const STORAGE_KEY = "sprint_calc_results_v2";
+
+    let mode = 'live'; // 'live' er standard!
+    let selectedSound = 'on';
+    let audioCtx = null;
+    let wakeLock = null;
+
+    let isLiveTiming = false;
+    let liveStartTime = 0;
+    let liveAnimFrame = null;
+    let currentLiveSplitIdx = 0;
+
+    let recordedLogs = [];
+
+    // Standard preset split-mærker (5m, 10m, 25m, 30m)
+    let splitsData = [
+      { id: 1, dist: 5, sec: 0, ms: 0, cumSecs: 0 },
+      { id: 2, dist: 10, sec: 0, ms: 0, cumSecs: 0 },
+      { id: 3, dist: 25, sec: 0, ms: 0, cumSecs: 0 },
+      { id: 4, dist: 30, sec: 0, ms: 0, cumSecs: 0 }
+    ];
+
+    const widget = document.querySelector(".sprint-calc-widget");
+    if (!widget) return;
+
+    const splitsTbody = widget.querySelector("#splits-tbody");
+    const btnAddSplit = widget.querySelector("#btn-add-split");
+    const btnCalculate = widget.querySelector("#btn-calculate");
+
+    const inputCardSubtitle = widget.querySelector("#input-card-subtitle");
+    const liveTimerSection = widget.querySelector("#live-timer-section");
+    const liveTimerDisplay = widget.querySelector("#live-timer-display");
+    const liveTimerInstructions = widget.querySelector("#live-timer-instructions");
+    const btnLiveAction = widget.querySelector("#btn-live-action");
+
+    const resTotalDist = widget.querySelector("#res-total-dist");
+    const resTotalTime = widget.querySelector("#res-total-time");
+    const resTotalKmh = widget.querySelector("#res-total-kmh");
+    const resTotalMs = widget.querySelector("#res-total-ms");
+    const resMaxZone = widget.querySelector("#res-max-zone");
+
+    const resultsTableBody = widget.querySelector("#results-table-body");
+    const btnClearLog = widget.querySelector(".btn-clear-log");
+    const btnScreenshot = widget.querySelector(".btn-screenshot");
+    const btnCsv = widget.querySelector(".btn-csv");
+    const wakelockStatus = widget.querySelector(".wakelock-status");
+
+    const infoModal = widget.querySelector(".sprint-info-modal");
+    const infoIconBtn = widget.querySelector(".info-icon-btn");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+    function setupToggleGroup(groupId, onChange) {
+      const group = widget.querySelector(`#${groupId}`);
+      if (!group) return;
+      const btns = group.querySelectorAll(".toggle-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          btns.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          onChange(btn.dataset.val);
+        });
+      });
+    }
+
+    setupToggleGroup("sprint-sound-toggle", (val) => { selectedSound = val; });
+    setupToggleGroup("sprint-mode-toggle", (val) => {
+      mode = val;
+      if (mode === 'live') {
+        liveTimerSection.style.display = 'block';
+        btnCalculate.style.display = 'none';
+        inputCardSubtitle.textContent = "Live tidtagning aktiv. Tryk på knappen undervejs.";
+        resetLiveTimer();
+      } else {
+        liveTimerSection.style.display = 'none';
+        btnCalculate.style.display = 'block';
+        inputCardSubtitle.textContent = "Manuel indtastning fra fotoceller (sek:ms). Tryk Beregn & Gem til sidst.";
+        stopLiveTimer();
+      }
+    });
+
+    function playSound(type) {
+      if (selectedSound === 'off') return;
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain); gain.connect(audioCtx.destination);
+      const now = audioCtx.currentTime;
+
+      if (type === 'start') {
+        osc.frequency.value = 1000;
+        gain.gain.setValueAtTime(0.3, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+        osc.start(now); osc.stop(now + 0.25);
+      } else if (type === 'split') {
+        osc.frequency.value = 1200;
+        gain.gain.setValueAtTime(0.3, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+        osc.start(now); osc.stop(now + 0.2);
+      } else if (type === 'stop') {
+        osc.frequency.value = 1500;
+        gain.gain.setValueAtTime(0.4, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        osc.start(now); osc.stop(now + 0.35);
+      }
+    }
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+      }
+    }
+    function releaseWakeLock() {
+      if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+    }
+
+    // RENDER RÆKKER I TABELLEN
+    function renderSplitsRows() {
+      splitsTbody.innerHTML = "";
+
+      splitsData.forEach((item, index) => {
+        const tr = document.createElement("tr");
+        tr.setAttribute("data-id", item.id);
+
+        tr.innerHTML = `
+          <td><span class="split-num-badge">#${index + 1}</span></td>
+          <td>
+            <input type="number" class="num-input-dist" data-id="${item.id}" value="${item.dist}" min="1" max="500" step="0.5">
+          </td>
+          <td>
+            <div class="time-input-group">
+              <input type="number" class="num-input-sec" data-id="${item.id}" value="${item.sec > 0 ? item.sec : ''}" placeholder="sek" min="0" max="999">
+              <span class="time-sep-text">:</span>
+              <input type="number" class="num-input-ms" data-id="${item.id}" value="${item.ms > 0 ? item.ms : ''}" placeholder="ms" min="0" max="99">
+              <span class="time-sep-text">ms</span>
+            </div>
+          </td>
+          <td><div class="calc-output-cell out-kmh" id="out-kmh-${item.id}">--</div></td>
+          <td><div class="calc-output-cell out-ms" id="out-ms-${item.id}">--</div></td>
+          <td>
+            ${splitsData.length > 1 ? `<button type="button" class="btn-remove-row" data-id="${item.id}" title="Fjern række">✖</button>` : ''}
+          </td>
+        `;
+
+        splitsTbody.appendChild(tr);
+      });
+
+      const distInputs = splitsTbody.querySelectorAll(".num-input-dist");
+      const secInputs = splitsTbody.querySelectorAll(".num-input-sec");
+      const msInputs = splitsTbody.querySelectorAll(".num-input-ms");
+      const removeBtns = splitsTbody.querySelectorAll(".btn-remove-row");
+
+      distInputs.forEach(inp => inp.addEventListener("input", onInputUpdate));
+      secInputs.forEach(inp => inp.addEventListener("input", onInputUpdate));
+      msInputs.forEach(inp => inp.addEventListener("input", onInputUpdate));
+
+      removeBtns.forEach(btn => {
+        btn.addEventListener("click", function() {
+          const id = parseInt(this.dataset.id);
+          splitsData = splitsData.filter(s => s.id !== id);
+          renderSplitsRows();
+          calculateAll();
+        });
+      });
+    }
+
+    function onInputUpdate(e) {
+      const id = parseInt(e.target.dataset.id);
+      const item = splitsData.find(s => s.id === id);
+      if (!item) return;
+
+      const row = splitsTbody.querySelector(`tr[data-id="${id}"]`);
+      if (!row) return;
+
+      const distInp = row.querySelector(".num-input-dist");
+      const secInp = row.querySelector(".num-input-sec");
+      const msInp = row.querySelector(".num-input-ms");
+
+      item.dist = parseFloat(distInp.value) || 0;
+      item.sec = parseInt(secInp.value) || 0;
+      item.ms = parseInt(msInp.value) || 0;
+      item.cumSecs = item.sec + (item.ms / 100);
+
+      calculateAll();
+    }
+
+    function addNewSplitRow() {
+      const lastDist = splitsData.length > 0 ? splitsData[splitsData.length - 1].dist : 0;
+      const newDist = lastDist + 10;
+      const newId = Date.now();
+
+      splitsData.push({
+        id: newId,
+        dist: newDist,
+        sec: 0,
+        ms: 0,
+        cumSecs: 0
+      });
+
+      renderSplitsRows();
+      calculateAll();
+    }
+
+    // HOVED BEREGNINGS LOGIK
+    function calculateAll() {
+      if (splitsData.length === 0) return;
+
+      let maxZoneKmh = -1;
+      let maxZoneDesc = "--";
+
+      let prevDist = 0;
+      let prevTimeSecs = 0;
+
+      let processedSplits = [];
+
+      splitsData.forEach((item, idx) => {
+        const row = splitsTbody.querySelector(`tr[data-id="${item.id}"]`);
+        const outKmhCell = row ? row.querySelector(`#out-kmh-${item.id}`) : null;
+        const outMsCell = row ? row.querySelector(`#out-ms-${item.id}`) : null;
+
+        const cumTime = item.sec + (item.ms / 100);
+        item.cumSecs = cumTime;
+
+        if (item.dist > 0 && cumTime > 0 && cumTime > prevTimeSecs) {
+          const deltaDist = item.dist - prevDist;
+          const deltaTime = cumTime - prevTimeSecs;
+
+          const intervalMs = deltaDist / deltaTime;
+          const intervalKmh = intervalMs * 3.6;
+
+          if (outKmhCell) outKmhCell.textContent = intervalKmh.toFixed(1);
+          if (outMsCell) outMsCell.textContent = intervalMs.toFixed(2);
+
+          if (intervalKmh > maxZoneKmh) {
+            maxZoneKmh = intervalKmh;
+            maxZoneDesc = `${intervalKmh.toFixed(1)} km/t (${prevDist}m - ${item.dist}m zone)`;
+          }
+
+          processedSplits.push({
+            zone: `${prevDist}m - ${item.dist}m`,
+            intervalSecs: deltaTime.toFixed(2),
+            cumTimeSecs: cumTime.toFixed(2),
+            intervalKmh: intervalKmh.toFixed(1),
+            intervalMs: intervalMs.toFixed(2)
+          });
+
+          prevDist = item.dist;
+          prevTimeSecs = cumTime;
+        } else {
+          if (outKmhCell) outKmhCell.textContent = "--";
+          if (outMsCell) outMsCell.textContent = "--";
+        }
+      });
+
+      const lastItem = splitsData[splitsData.length - 1];
+      const totalDist = lastItem ? lastItem.dist : 0;
+      const totalTimeSecs = lastItem ? lastItem.sec + (lastItem.ms / 100) : 0;
+
+      resTotalDist.textContent = `${totalDist} m`;
+      resTotalTime.textContent = `${totalTimeSecs.toFixed(2)} s`;
+
+      if (totalDist > 0 && totalTimeSecs > 0) {
+        const avgMs = totalDist / totalTimeSecs;
+        const avgKmh = avgMs * 3.6;
+
+        resTotalKmh.textContent = `${avgKmh.toFixed(2)} km/t`;
+        resTotalMs.textContent = `${avgMs.toFixed(2)} m/s`;
+        resMaxZone.textContent = maxZoneDesc;
+      } else {
+        resTotalKmh.textContent = "0.00 km/t";
+        resTotalMs.textContent = "0.00 m/s";
+        resMaxZone.textContent = "--";
+      }
+
+      return { totalDist, totalTimeSecs, maxZoneDesc, processedSplits };
+    }
+
+    // LIVE TIMER ENGINE
+    function resetLiveTimer() {
+      stopLiveTimer();
+      currentLiveSplitIdx = 0;
+      liveTimerDisplay.textContent = "0.00s";
+      liveTimerInstructions.textContent = `Klar til start. Tryk på knappen når løberen starter fra 0m.`;
+      btnLiveAction.textContent = "🚀 START SPRINT";
+      btnLiveAction.style.background = "#2e86c1";
+    }
+
+    function stopLiveTimer() {
+      isLiveTiming = false;
+      cancelAnimationFrame(liveAnimFrame);
+      releaseWakeLock();
+    }
+
+    function updateLiveTimerLoop() {
+      if (!isLiveTiming) return;
+      const now = performance.now();
+      const elapsed = (now - liveStartTime) / 1000;
+      liveTimerDisplay.textContent = `${elapsed.toFixed(2)}s`;
+
+      liveAnimFrame = requestAnimationFrame(updateLiveTimerLoop);
+    }
+
+    function handleLiveButtonClick() {
+      if (!isLiveTiming && currentLiveSplitIdx === 0) {
+        isLiveTiming = true;
+        requestWakeLock();
+        playSound('start');
+        liveStartTime = performance.now();
+        liveAnimFrame = requestAnimationFrame(updateLiveTimerLoop);
+
+        const nextDist = splitsData[0] ? splitsData[0].dist : 5;
+        liveTimerInstructions.textContent = `⚡ I gang! Tryk 'SPLIT' når løberen passerer ${nextDist}m.`;
+        btnLiveAction.textContent = `⏱️ PASSERET ${nextDist}m (SPLIT)`;
+        btnLiveAction.style.background = "#27ae60";
+        return;
+      }
+
+      if (isLiveTiming) {
+        const now = performance.now();
+        const elapsed = (now - liveStartTime) / 1000;
+
+        if (currentLiveSplitIdx < splitsData.length) {
+          const item = splitsData[currentLiveSplitIdx];
+          item.sec = Math.floor(elapsed);
+          item.ms = Math.round((elapsed % 1) * 100);
+          item.cumSecs = elapsed;
+
+          playSound('split');
+          renderSplitsRows();
+          calculateAll();
+
+          currentLiveSplitIdx++;
+
+          if (currentLiveSplitIdx < splitsData.length) {
+            const nextDist = splitsData[currentLiveSplitIdx].dist;
+            liveTimerInstructions.textContent = `Tryk når løberen passerer ${nextDist}m mærket.`;
+            btnLiveAction.textContent = `⏱️ PASSERET ${nextDist}m (SPLIT)`;
+          } else {
+            stopLiveTimer();
+            playSound('stop');
+            liveTimerInstructions.textContent = `✅ Mål nået! Samlet tid: ${elapsed.toFixed(2)}s`;
+            btnLiveAction.textContent = `🚀 START NY SPRINT`;
+            btnLiveAction.style.background = "#2e86c1";
+            currentLiveSplitIdx = 0;
+            saveCurrentToLog();
+          }
+        }
+      }
+    }
+
+    // GEM RESULTATER I LOG MED FULD SPLITS-SNAPSHOT (SÅ DE KAN GENKALDES)
+    function saveCurrentToLog() {
+      const calcRes = calculateAll();
+      if (!calcRes || calcRes.totalTimeSecs <= 0) return;
+
+      const now = new Date();
+      const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+      const avgKmh = ((calcRes.totalDist / calcRes.totalTimeSecs) * 3.6).toFixed(2);
+
+      recordedLogs.unshift({
+        id: 'sprint_' + Date.now(),
+        date: dateStr,
+        dist: calcRes.totalDist + ' m',
+        totalTime: calcRes.totalTimeSecs.toFixed(2) + ' s',
+        avgKmh: avgKmh + ' km/t',
+        maxZone: calcRes.maxZoneDesc,
+        splitsSnapshot: calcRes.processedSplits
+      });
+
+      saveLogs();
+      renderLogsTable();
+    }
+
+    function loadLogs() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        try { recordedLogs = JSON.parse(saved); } catch (e) { recordedLogs = []; }
+      } else {
+        recordedLogs = [];
+      }
+      renderLogsTable();
+    }
+
+    function saveLogs() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(recordedLogs.slice(0, 20)));
+    }
+
+    // RENDER LOG MED GENKALDELSE / VISNING AF SPLITS
+    function renderLogsTable() {
+      resultsTableBody.innerHTML = "";
+
+      if (recordedLogs.length === 0) {
+        resultsTableBody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+        return;
+      }
+
+      recordedLogs.forEach(item => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${item.date}</td>
+          <td>${item.dist}</td>
+          <td><strong>${item.totalTime}</strong></td>
+          <td><strong>${item.avgKmh}</strong></td>
+          <td>
+            <button type="button" class="btn-toggle-details" data-id="${item.id}">👁️ Vis splits</button>
+          </td>
+        `;
+        resultsTableBody.appendChild(tr);
+
+        // Fold-ud detaljerække
+        const detailsTr = document.createElement("tr");
+        detailsTr.className = "details-row";
+        detailsTr.id = `details-${item.id}`;
+        detailsTr.style.display = "none";
+
+        let splitsHtml = '<table class="details-mini-table"><thead><tr><th>Zone</th><th>Interval Tid</th><th>Kumuleret Tid</th><th>Fart (km/t)</th><th>m/s</th></tr></thead><tbody>';
+        if (item.splitsSnapshot && item.splitsSnapshot.length > 0) {
+          item.splitsSnapshot.forEach(s => {
+            splitsHtml += `<tr><td>${s.zone}</td><td>${s.intervalSecs}s</td><td>${s.cumTimeSecs}s</td><td><strong>${s.intervalKmh} km/t</strong></td><td>${s.intervalMs} m/s</td></tr>`;
+          });
+        } else {
+          splitsHtml += '<tr><td colspan="5">Ingen split-data</td></tr>';
+        }
+        splitsHtml += '</tbody></table>';
+
+        detailsTr.innerHTML = `<td colspan="5">${splitsHtml}</td>`;
+        resultsTableBody.appendChild(detailsTr);
+      });
+
+      // Lyt efter fold-ud klik
+      const toggleBtns = resultsTableBody.querySelectorAll(".btn-toggle-details");
+      toggleBtns.forEach(btn => {
+        btn.addEventListener("click", function() {
+          const id = this.dataset.id;
+          const detRow = resultsTableBody.querySelector(`#details-${id}`);
+          if (detRow) {
+            if (detRow.style.display === "none") {
+              detRow.style.display = "table-row";
+              this.textContent = "🙈 Skjul";
+            } else {
+              detRow.style.display = "none";
+              this.textContent = "👁️ Vis splits";
+            }
+          }
+        });
+      });
+    }
+
+    function downloadCSV() {
+      if (recordedLogs.length === 0) {
+        alert("Der er ingen gemte testresultater endnu!");
+        return;
+      }
+
+      let csv = "Dato,Distance,Total Tid,Snit Fart (km/t),Topfart Zone\n";
+      recordedLogs.forEach(item => {
+        csv += `"${item.date}","${item.dist}","${item.totalTime}","${item.avgKmh}","${item.maxZone}"\n`;
+      });
+
+      const blob = new Blob(["\uFEFF" + csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `sprinttest-resultater-${new Date().toISOString().slice(0,10)}.csv`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function takeScreenshot() {
+      function capture() {
+        html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = `sprinttest-resultat-${new Date().toISOString().slice(0,10)}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+
+      if (typeof html2canvas === 'undefined') {
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+        script.onload = capture;
+        document.head.appendChild(script);
+      } else {
+        capture();
+      }
+    }
+
+    // HANDLERE
+    btnAddSplit.addEventListener("click", addNewSplitRow);
+    btnCalculate.addEventListener("click", () => {
+      calculateAll();
+      saveCurrentToLog();
+    });
+
+    btnLiveAction.addEventListener("click", handleLiveButtonClick);
+
+    btnClearLog.addEventListener("click", () => {
+      if (confirm("Slet alle gemte test fra tabellen?")) {
+        recordedLogs = [];
+        localStorage.removeItem(STORAGE_KEY);
+        renderLogsTable();
+      }
+    });
+
+    btnCsv.addEventListener("click", downloadCSV);
+    btnScreenshot.addEventListener("click", takeScreenshot);
+
+    infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+    modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+    renderSplitsRows();
+    loadLogs();
+    calculateAll();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initSprintCalcWidget);
+  } else {
+    initSprintCalcWidget();
+  }
+})();
+</script>

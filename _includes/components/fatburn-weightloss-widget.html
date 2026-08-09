@@ -1,0 +1,161 @@
+<!-- Hent Chart.js til grafen -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="zacho-widget" style="background: #ffffff; border: 1px solid #e0e0e0; padding: 24px; border-radius: 12px; font-family: system-ui, -apple-system, sans-serif; max-width: 650px; margin: 30px auto; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+  <h3 style="margin-top: 0; color: #111; font-size: 1.25rem;"> Hvor mange kalorier forbrænder du reelt?</h3>
+  <p style="font-size: 0.9em; color: #666; margin-bottom: 20px;">Træk i sliderne for at se, hvordan tid og intensitet påvirker dit samlede kalorieforbrug. Intensitetsloftet tilpasses automatisk, da man ikke kan holde høj intensitet i lang tid.</p>
+
+  <!-- Slider 1: Tid -->
+  <div style="margin-bottom: 18px;">
+    <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 6px; font-size: 0.95rem;">
+      <span>Træningstid:</span>
+      <span style="color: #0275d8;"><span id="timeVal">30</span> minutter</span>
+    </div>
+    <input type="range" id="timeSlider" min="10" max="90" value="30" step="5" style="width: 100%; cursor: pointer;">
+  </div>
+
+  <!-- Slider 2: Intensitet -->
+  <div style="margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 4px; font-size: 0.95rem;">
+      <span>Intensitet:</span>
+      <span style="color: #d9534f;"><span id="intensityVal">60</span>% af VO₂-max</span>
+    </div>
+    <input type="range" id="intensitySlider" min="30" max="95" value="60" step="1" style="width: 100%; cursor: pointer;">
+    
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 4px;">
+      <div id="zoneTag" style="font-size: 0.82em; font-weight: 600; color: #f0ad4e;">Zone 2 / FATmax område</div>
+      <div id="maxCapNotice" style="font-size: 0.78em; color: #888; font-style: italic;">Max for 30 min: ~88%</div>
+    </div>
+  </div>
+
+  <!-- Dynamisk Graf -->
+  <div style="position: relative; height: 200px; width: 100%; margin-bottom: 20px;">
+    <canvas id="zachoWidgetChart"></canvas>
+  </div>
+
+  <!-- Boks med pædagogisk forklaring -->
+  <div style="background: #f8f9fa; border-left: 4px solid #0275d8; padding: 12px 16px; border-radius: 0 8px 8px 0; font-size: 0.88em; line-height: 1.5; color: #333;">
+    <strong>Zachos pointe:</strong> <span id="zachoText">Indsættes dynamisk...</span>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const timeSlider = document.getElementById('timeSlider');
+  const intensitySlider = document.getElementById('intensitySlider');
+  const timeVal = document.getElementById('timeVal');
+  const intensityVal = document.getElementById('intensityVal');
+  const zoneTag = document.getElementById('zoneTag');
+  const maxCapNotice = document.getElementById('maxCapNotice');
+  const zachoText = document.getElementById('zachoText');
+
+  // Initialiser Chart.js (Staplet Søjlegraf)
+  const ctx = document.getElementById('zachoWidgetChart').getContext('2d');
+  const widgetChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Valgt træningspas'],
+      datasets: [
+        {
+          label: 'Fedt (kcal)',
+          data: [0],
+          backgroundColor: '#f0ad4e',
+          borderRadius: 4
+        },
+        {
+          label: 'Kulhydrat (kcal)',
+          data: [0],
+          backgroundColor: '#5bc0de',
+          borderRadius: 4
+        }
+      ]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'top' },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.dataset.label + ': ' + Math.round(context.raw) + ' kcal';
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          stacked: true,
+          title: { display: true, text: 'Samlet kalorieforbrænding (kcal)' },
+          suggestedMax: 800
+        },
+        y: {
+          stacked: true,
+          display: false
+        }
+      }
+    }
+  });
+
+  function updateWidget() {
+    const time = parseInt(timeSlider.value);
+    
+    // Fysiologisk udregning af max realistisk intensitet for den valgte tid
+    // Formula: 102 - 0.32 * minutter (dvs 10 min -> max 95%, 90 min -> max 73%)
+    let maxAllowedIntensity = Math.round(102 - (0.32 * time));
+    if (maxAllowedIntensity > 95) maxAllowedIntensity = 95;
+    if (maxAllowedIntensity < 50) maxAllowedIntensity = 50;
+
+    // Opdater sliderens maks-værdi dynamisk
+    intensitySlider.max = maxAllowedIntensity;
+    
+    // Hvis brugeren skruer op for tiden, så intensiteten bliver urealistisk høj, skru ned
+    if (parseInt(intensitySlider.value) > maxAllowedIntensity) {
+      intensitySlider.value = maxAllowedIntensity;
+    }
+
+    const intensity = parseInt(intensitySlider.value);
+
+    timeVal.textContent = time;
+    intensityVal.textContent = intensity;
+    maxCapNotice.textContent = "Fysiologisk max for " + time + " min: ~" + maxAllowedIntensity + "%";
+
+    // Fysiologisk model for gennemsnitsperson (~75kg)
+    const kcalPerMin = (intensity / 100) * 15; 
+    const totalKcal = Math.round(kcalPerMin * time);
+
+    // Fedtandel falder med intensiteten
+    let fatPct = 0.85 - (intensity * 0.0085);
+    if (fatPct < 0.05) fatPct = 0.05;
+    if (fatPct > 0.65) fatPct = 0.65;
+
+    const fatKcal = Math.round(totalKcal * fatPct);
+    const carbKcal = totalKcal - fatKcal;
+
+    // Opdater grafdata
+    widgetChart.data.datasets[0].data = [fatKcal];
+    widgetChart.data.datasets[1].data = [carbKcal];
+    widgetChart.update();
+
+    // Dynamisk tekst & tags
+    if (intensity < 50) {
+      zoneTag.textContent = "Lav intensitet (Høj relativ fedtprocent, men lav total)";
+      zoneTag.style.color = "#6c757d";
+      zachoText.innerHTML = "Du forbrænder <strong>" + fatKcal + " kcal fra fedt</strong> ud af i alt <strong>" + totalKcal + " kcal</strong>. Fedtprocenten er høj, men det samlede kalorieunderskud er for beskedent til et effektivt vægttab.";
+    } else if (intensity <= 70) {
+      zoneTag.textContent = "Zone 2 / FATmax område (Flest fedt-gram pr. minut)";
+      zoneTag.style.color = "#f0ad4e";
+      zachoText.innerHTML = "Her rammer du dit *sweet spot* for fedtforbrænding (" + fatKcal + " fedt-kcal). Men hvis du skruer tempoet op i de samme " + time + " minutter, kan du forbrænde endnu flere kalorier samlet set!";
+    } else {
+      zoneTag.textContent = "Høj intensitet / Konditionstræning (Maksimalt energiforbrug)";
+      zoneTag.style.color = "#d9534f";
+      zachoText.innerHTML = "Du forbrænder hele <strong>" + totalKcal + " kcal</strong> på " + time + " minutter! Selvom kulhydrat udgør størstedelen her, skaber du et markant større kalorieunderskud, der i sidste ende fjerner fedtet fra kroppen.";
+    }
+  }
+
+  timeSlider.addEventListener('input', updateWidget);
+  intensitySlider.addEventListener('input', updateWidget);
+  updateWidget();
+});
+</script>

@@ -11,8 +11,8 @@ header:
   teaser: /assets/images/unsplash/photo-1492176273113-2d51f47b23b0.jpg
   caption: *title
 category:
-  - Tests
   - Smidighed
+  - Smidighedstests
 tags:
   - test
   - smidighed
@@ -25,6 +25,21 @@ meta:
   measures: smidighed
   equipment: målebånd / kasse
   type: smidighed
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-modified-sit-and-reach"
+    title: "Modified Sit & Reach Test"
+    description: "Standardiseret smidighedstest til måling af baglårs- og hoftesmidighed med individuelt nulpunkt baseret på armlængde."
+    category: ["Tests", "Smidighed"]
+    type: ["Protokol", "Smidighedstest"]
+    execution: ["Fysisk"]                  # 🤸‍♂️ FYSISK TEST: Kræver siddende foroverbøjning og måling af rækkevidde
+    method: "direkte"                     # 📏 Måles direkte i centimeter
+    modality: ["Smidighed", "Udstrækning"]
+    measures: ["Smidighed", "Baglårssmidighed", "Rækkevidde (cm)"]
+    equipment: ["Målebånd", "Smidighedskasse", "Tape"]
+    setting: ["Klinik", "Fitnesscenter", "Skole", "Hjemmetest", "Individuel"]
+    target_group: ["Børn", "Unge", "Voksne", "Ældre", "Motionister", "Atleter"]
+    related_tools: []
 faq:
   - question: "Hvad er forskellen på klassisk Sit & Reach og Modified Sit & Reach?"
     answer: "Klassisk Sit & Reach bruger et fast nulpunkt på måle-kassen, hvilket begunstiger personer med lange arme og korte ben. Modified Sit & Reach etablerer et individuelt nulpunkt ud fra atletens armlængde, før testen udføres."

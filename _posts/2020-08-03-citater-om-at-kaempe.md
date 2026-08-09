@@ -1,9 +1,9 @@
 ---
-title: 17 citater om at kæmpe med sig selv, sygdom og kærlighed
+title: 17 citater om at kæmpe med sig selv, modgang og sygdom
+seo_title: "Citater om at kæmpe: 17 citater om modgang og sygdom"
 permalink: /citater-om-at-kaempe/
-excerpt: Jeg har set mange gode citater om at kæmpe, og jeg har samlet en række citater, der kan inspirere dig på din vej.
-  Sommetider kan et citat lige netop være det, der får dig på rette kurs.
-last_modified_at: '2020-12-29T09:41:09Z'
+excerpt: Har du brug for styrke i en svær tid? Se 17 dybe og gribende citater om at kæmpe mod sygdom, modgang og livets udfordringer.
+last_modified_at: '2026-08-08T12:00:00Z'
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1487088678257-3a541e6e3922.jpg

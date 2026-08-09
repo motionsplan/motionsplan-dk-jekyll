@@ -11,14 +11,33 @@ header:
   caption: *title
 category:
   - Kondition
-meta:
-  name: Watt-max-test for børn
-  measures: kondital
-  type: cykeltest
-  equipment: cykel
-  max: maksimal test
-  direct: indirekte test
-  target: børn
+  - Konditionstests
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-wattmax-boern"
+    title: "Watt-max Test for Børn (Wedderkopp-protokol)"
+    description: "Maksimal cykeltest med gradvist øget belastning (20W eller 25W pr. 3 min) til estimering af VO2max og kondital hos børn og unge (7–15 år)."
+    category: ["Kondition", "Cykling"]        # 💡 Søgbar under BÅDE Kondition og Cykling i test-databasen
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Estimering af VO2max ud fra maksimalt power output (MPO) og vægt
+    modality: ["Cykling"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse", "MPO"]
+    equipment: ["Cykelergometer", "Wattmåler", "Stopur", "Vægt"]
+    setting: ["Skolebrug", "Klinik", "Laboratorietest", "Individuel"]
+    target_group: ["Børn", "Unge"]       # ⚠️ Særligt afgrænset til børn og unge (7–15 år)
+    related_tools: ["tool-wattmax-boern-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-wattmax-boern-beregner"
+    title: "Watt-max Kondital Beregner for Børn"
+    description: "Beregn kondital og VO2max for børn (7-15 år) ud fra sidste belastningstrin og sekunder på Watt-max testen."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 tags:
   - test
   - konditionstest

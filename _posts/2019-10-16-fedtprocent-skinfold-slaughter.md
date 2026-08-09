@@ -8,7 +8,7 @@ language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
-  - Tests
+  - Kropskomposition
   - Fedtprocent
 tags:
   - fedtprocent
@@ -24,13 +24,32 @@ meta:
   target: "boern"
   intensity: "ingen"
   method: "indirekte"
+page_type: spoke
+tests:
+  - id: "test-slaughter-2punkt-boern"
+    title: "Slaughter 2-punkts hudfoldsmåling til børn"
+    description: "Pålidelig 2-punkts hudfoldsmåling (triceps og skulderblad) anvendt i bl.a. studier af danske skolebørn til estimering af børns fedtprocent."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Måling"]
+    execution: ["Måling"]
+    modality: ["Kropsmål"]
+    method: "Indirekte"
+    measures: ["Fedtprocent"]
+    equipment: ["Hudfoldsmåler"]
+    setting: ["Individuel", "Skolebrug", "Laboratorietest"]
+    target_group: ["Børn", "Unge"]
+    related_tools: ["tool-slaughter-2punkt-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Slaughter 2-punkts Hudfoldsberegner til Børn"
+  - id: "tool-slaughter-2punkt-beregner"
+    title: "Slaughter 2-punkts Hudfoldsberegner til Børn"
     description: "Beregn fedtprocent hos børn ud fra 2 hudfoldsmålinger (triceps og skulderblad) med Slaughter-formlen."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#slaughter-fedtprocent-beregner-for-boern"
-    type: "beregner"
-    measures: "fedtprocent"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 ---

@@ -5,16 +5,41 @@ excerpt: "Komplet guide til Håndbold-agility-testen. Lær hvordan du opstiller 
 permalink: /haandbold-agility-test/
 language: da
 categories:
-  - Test
-  - Agility
-  - Håndbold
+  - Retningskifttests
 tags:
-  - Håndbold-agility-test
+  - test
   - agilitytest
   - retningsskift
-  - håndbold
-  - anaerob effekt
+  - agility
+  - cod
 last_modified_at: 2026-08-06T21:30:00Z
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-haandbold-agility-test"
+    title: "Håndbold-agility-test"
+    description: "Standardiseret spilspecifik felt-test foran målfeltet (målstolper, 4m målmandskegle og 7m linje) til måling af håndbold-agility, retningsskifthastighed (CODS) og anaerob effekt."
+    category: ["Håndbold", "Løb", "Tests"]
+    type: ["Protokol", "Agilitetstest"]
+    execution: ["Fysisk"]                  # 🤾‍♂️ FYSISK TEST: Kræver eksplosivt løb, forflytninger og stolpeberøringer
+    method: "indirekte"                     # 📊 Indirekte måling af håndbold-agility og anaerob effekt via tidtagning
+    modality: ["Løb", "Håndbold"]
+    measures: ["Håndbold-agility", "Håndbold-agility tid (s)", "Retningsskifthastighed (CODS)", "Anaerob effekt"]  # 🎯 KUN rene præstationsmæssige slutmål
+    equipment: ["Håndboldmål", "Markeringskegler", "Stopure (3 stk)", "Målfelt / Håndboldbane"]
+    setting: ["Indendørs", "Idrætshal", "Testcenter", "Individuel"]
+    target_group: ["Håndboldspillere", "Holdatleter", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-haandbold-agility-test-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-haandbold-agility-test-timer"
+    title: "Håndbold-agility-test Interaktiv Timer"
+    description: "Interaktiv timer og beregningsmodul til registrering og vurdering af Håndbold-agility-testen."
+    category: ["Håndbold", "Beregnere", "Tests"]
+    type: ["Timer", "Beregner"]
+    measures: ["Håndbold-agility tid (s)", "Retningsskifthastighed (CODS)", "Anaerob effekt"]  # 🎯 KUN rene slutmål
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 > **Kort om Håndbold-agility-testen:** Håndbold-agility-testen er en specifik felt-test udviklet til at undersøge en atlets hurtighed, anaerobe effekt samt evne til at koordinere bevægelser og foretage effektive retningsskift i et håndboldspecifikt bevægelsesmønster.
@@ -113,7 +138,7 @@ For at testen skal have høj **reproducerbarhed** (test-retest reliabilitet), er
 {: .notice .notice--info }
 > **Relaterede agility- og hurtighedstests på motionsplan.dk:**  
 > * **[Illinois Agility Test](/illinois-agility-test/):** Klassisk agilitytest med kegleslalom over længere distancer.  
-> * **[10m & 30m Sprinttest](/sprint-test/):** Måling af lineær startacceleration og maksimal tophastighed.  
+> * **[10m & 30m Sprinttest](/tests/sprint/):** Måling af lineær startacceleration og maksimal tophastighed.  
 > * **[30-15 Intermittent Fitness Test](/30-15-intermittent-fitness-test/):** Intervalløbestest med indbyggede retningsskift til holdidræt.
 
 ---

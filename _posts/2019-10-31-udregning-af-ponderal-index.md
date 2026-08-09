@@ -11,7 +11,8 @@ header:
   overlay_filter: '0.5'
   caption: 'Ponderal Index: Beregn om du er overvægtig'
 category:
-- Beregnere
+- Kropskomposition
+- Antropometri
 tags:
 - beregner
 - kropskomposition
@@ -21,6 +22,31 @@ meta:
   equipment: målenbånd
   measures: vægtindex
   type: antropometri
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-ponderal-index"
+    title: "Ponderal Index (Rohrer's Index)"
+    description: "Antropometrisk vurderingsmodel til beregning af kropsbygning og vægtstatus uafhængigt af højde."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Formel", "Vurdering"]
+    execution: ["Måling"]              # 📏 MÅLING: Kræver højdemåler og badevægt, men ingen sved/motion
+    method: "formel"                     # 🧮 Ren matematisk formel: vægt (kg) / højde (m)^3
+    modality: ["Antropometri"]
+    measures: ["Vægtstatus", "Kropsbygning", "Ponderal Index"]
+    equipment: ["Badevægt", "Højdemåler", "Målebånd"]
+    setting: ["Hjemmetest", "Klinik", "Skolebrug"]
+    target_group: ["Børn", "Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
+    related_tools: ["tool-ponderal-index-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-ponderal-index-beregner"
+    title: "Ponderal Index Beregner"
+    description: "Beregn dit Ponderal Index (Corpulence Index) ud fra din højde og vægt og se din vægtstatus."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]                   # 💻 Rent software-modul (ingen execution-nøgle her)
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 *[BMI]: Body Mass Index

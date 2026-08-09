@@ -9,7 +9,6 @@ header:
   credit: "https://images.unsplash.com/photo-1530902815270-606a8f82b563"
   caption: Hvor lang er din skridtlængde?
 categories:
-  - Træning
   - Gang
 tags:
   - beregner
@@ -24,12 +23,14 @@ meta:
   measures: skridt og distance
   type: gang
 tools:
-  - title: "Skridtlængde Beregner: Hvor langt er dit skridt?"
-    description: "Beregn præcist hvor langt dit skridt er i centimeter baseret på din højde og dit køn, eller indtast din egen praktiske test."
+  - id: "tool-skridtlaengde-beregner"
+    title: "Skridtlængde Beregner: Hvor langt er dit skridt?"
+    description: "Beregn præcist hvor langt dit skridt er i centimeter baseret på din højde og dit køn, eller udregn hvor mange skridt der går på en kilometer."
+    category: ["Gang"]
+    type: ["Beregner"]
+    measures: ["Skridtlængde", "Trinlængde", "Skridt pr. kilometer", "Distance"]  # 🎯 Output-parametre fra modulet
     anchor: "#calculator"
-    type: "beregner"
-    measures: "skridtlængde, højde, afstand"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 popular: true
 last_modified_at: '2026-07-05T08:12:14.000Z'
 toc: true

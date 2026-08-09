@@ -1,0 +1,314 @@
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="fick-widget">
+  <div class="fick-card fick-controls">
+    <div class="fick-control-group">
+      <label for="fick-profile">Vælg Atletprofil:</label>
+      <select id="fick-profile" style="padding: 0.4rem; border-radius: 6px; border: 1px solid #d1d5db; font-size: 0.9rem;">
+        <option value="untrained">Utrænet (Kondital ~38)</option>
+        <option value="trained" selected>Veltrænet Motionist (Kondital ~54)</option>
+        <option value="elite">Elite Udholdenhedsatlet (Kondital ~80)</option>
+        <option value="custom">Custom (Juster selv nedenfor)</option>
+      </select>
+      <small style="color: #6b7280; font-size: 0.8rem;">Skift profil for at se forskellen på organernes kapacitet</small>
+    </div>
+
+    <div class="fick-control-group">
+      <label for="fick-sv">Max Slagvolumen (SV): <span id="fick-val-sv">140</span> mL</label>
+      <input type="range" id="fick-sv" min="70" max="220" value="140" step="5">
+      <small style="color: #6b7280; font-size: 0.8rem;">CENTRAL: Mængden af blod hjertet pumper pr. slag</small>
+    </div>
+
+    <div class="fick-control-group">
+      <label for="fick-hr">Max Puls (HR): <span id="fick-val-hr">190</span> bpm</label>
+      <input type="range" id="fick-hr" min="150" max="210" value="190" step="1">
+      <small style="color: #6b7280; font-size: 0.8rem;">CENTRAL: Hjertets maksimale slaghastighed</small>
+    </div>
+
+    <div class="fick-control-group">
+      <label for="fick-diff">Max a-vO₂ diff: <span id="fick-val-diff">160</span> mL/L</label>
+      <input type="range" id="fick-diff" min="110" max="185" value="160" step="5">
+      <small style="color: #6b7280; font-size: 0.8rem;">PERIFER: Musklernes evne til at udtømme ilt fra blodet</small>
+    </div>
+
+    <div class="fick-control-group">
+      <label for="fick-weight">Kropsvægt: <span id="fick-val-weight">75</span> kg</label>
+      <input type="range" id="fick-weight" min="50" max="110" value="75" step="1">
+      <small style="color: #6b7280; font-size: 0.8rem;">Bruges til beregning af relativt kondital (mL/kg/min)</small>
+    </div>
+  </div>
+
+  <div class="fick-card">
+    <div class="fick-chart-container">
+      <canvas id="fickCanvas"></canvas>
+    </div>
+
+    <div class="fick-metrics">
+      <div class="fick-metric-card fick-vo2-card">
+        <div>Beregnet Max VO₂</div>
+        <div class="fick-metric-value" id="fick-stat-vo2abs">4.26 L/min</div>
+        <small id="fick-stat-fitness">Kondital: 56.8 mL/kg/min</small>
+      </div>
+
+      <div class="fick-metric-card fick-q-card">
+        <div>Hjertets Max Minuttal (Q)</div>
+        <div class="fick-metric-value" id="fick-stat-qmax">26.6 L/min</div>
+        <small>Central pumpekapacitet</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .fick-widget {
+    margin: 2rem 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #1f2937;
+  }
+  .fick-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e7eb;
+  }
+  .fick-controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+  .fick-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .fick-control-group label {
+    font-weight: 600;
+    font-size: 0.88rem;
+  }
+  .fick-control-group input[type=range] {
+    width: 100%;
+    cursor: pointer;
+  }
+  .fick-chart-container {
+    position: relative;
+    height: 380px;
+    width: 100%;
+  }
+  .fick-metrics {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .fick-metric-card {
+    flex: 1;
+    background: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 4px solid #2563eb;
+  }
+  .fick-metric-card.fick-q-card {
+    border-top-color: #ef4444;
+  }
+  .fick-metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+  .fick-vo2-card .fick-metric-value { color: #2563eb; }
+  .fick-q-card .fick-metric-value { color: #ef4444; }
+
+  @media (max-width: 600px) {
+    .fick-metrics { flex-direction: column; }
+  }
+</style>
+
+<script>
+(function() {
+  let fickChartInstance = null;
+
+  const profiles = {
+    untrained: { sv: 95, hr: 190, diff: 135, weight: 75 },
+    trained:   { sv: 140, hr: 188, diff: 160, weight: 75 },
+    elite:     { sv: 195, hr: 185, diff: 175, weight: 70 }
+  };
+
+  function calculateFickData() {
+    const svMax = parseFloat(document.getElementById('fick-sv').value);
+    const hrMax = parseFloat(document.getElementById('fick-hr').value);
+    const diffMax = parseFloat(document.getElementById('fick-diff').value);
+    const weight = parseFloat(document.getElementById('fick-weight').value);
+
+    const labels = [];
+    const vo2Data = [];
+    const qData = [];
+    const diffData = [];
+
+    const hrRest = 60;
+    const svRest = svMax * 0.6;
+    const diffRest = 50; // mL O2 / L i hvile
+
+    // Kurve over belastning fra Hvile (0%) til Max (100%)
+    for (let pct = 0; pct <= 100; pct += 10) {
+      labels.push(pct + '%');
+
+      const frac = pct / 100;
+
+      // Puls stiger lineært
+      const hr = hrRest + (hrMax - hrRest) * frac;
+
+      // Slagvolumen stiger hurtigt og flader ud ved ~50% intensitet
+      const svFraction = Math.min(1.0, 0.6 + 0.4 * Math.sin((frac * Math.PI) / 1.1));
+      const sv = svRest + (svMax - svRest) * Math.sqrt(frac);
+
+      // a-vO2 diff stiger kurvelineært
+      const diff = diffRest + (diffMax - diffRest) * Math.pow(frac, 0.75);
+
+      // Minuttal Q (L/min)
+      const Q = (hr * sv) / 1000;
+
+      // VO2 (L/min) = Q (L/min) * diff (mL O2/L) / 1000
+      const vo2 = (Q * diff) / 1000;
+
+      vo2Data.push(vo2.toFixed(2));
+      qData.push(Q.toFixed(1));
+      diffData.push(diff.toFixed(0));
+    }
+
+    const qMax = (hrMax * svMax) / 1000;
+    const vo2MaxAbs = (qMax * diffMax) / 1000; // L/min
+    const fitness = (vo2MaxAbs * 1000) / weight; // mL/kg/min
+
+    return {
+      labels,
+      vo2Data,
+      qData,
+      diffData,
+      qMax,
+      vo2MaxAbs,
+      fitness
+    };
+  }
+
+  function updateFickWidget() {
+    const data = calculateFickData();
+
+    document.getElementById('fick-val-sv').textContent = document.getElementById('fick-sv').value;
+    document.getElementById('fick-val-hr').textContent = document.getElementById('fick-hr').value;
+    document.getElementById('fick-val-diff').textContent = document.getElementById('fick-diff').value;
+    document.getElementById('fick-val-weight').textContent = document.getElementById('fick-weight').value;
+
+    document.getElementById('fick-stat-vo2abs').textContent = `${data.vo2MaxAbs.toFixed(2)} L/min`;
+    document.getElementById('fick-stat-fitness').textContent = `Kondital: ${data.fitness.toFixed(1)} mL/kg/min`;
+    document.getElementById('fick-stat-qmax').textContent = `${data.qMax.toFixed(1)} L/min`;
+
+    if (fickChartInstance) {
+      fickChartInstance.data.labels = data.labels;
+      fickChartInstance.data.datasets[0].data = data.vo2Data;
+      fickChartInstance.data.datasets[1].data = data.qData;
+      fickChartInstance.data.datasets[2].data = data.diffData;
+      fickChartInstance.update();
+    } else {
+      const ctx = document.getElementById('fickCanvas').getContext('2d');
+      fickChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: data.labels,
+          datasets: [
+            {
+              label: 'Samlet VO₂ (L O₂/min)',
+              data: data.vo2Data,
+              borderColor: '#2563eb',
+              backgroundColor: 'rgba(37, 99, 235, 0.12)',
+              borderWidth: 3.5,
+              pointRadius: 0,
+              fill: true,
+              yAxisID: 'yVo2'
+            },
+            {
+              label: 'Hjertets Minuttal Q (L blod/min)',
+              data: data.qData,
+              borderColor: '#ef4444',
+              borderDash: [5, 5],
+              borderWidth: 2,
+              pointRadius: 0,
+              fill: false,
+              yAxisID: 'yQ'
+            },
+            {
+              label: 'a-vO₂ diff (mL O₂ / L blod)',
+              data: data.diffData,
+              borderColor: '#10b981',
+              borderDash: [5, 5],
+              borderWidth: 2,
+              pointRadius: 0,
+              fill: false,
+              yAxisID: 'yDiff'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { intersect: false, mode: 'index' },
+          scales: {
+            x: { 
+              title: { display: true, text: 'Belastningsintensitet (% af VO₂max)' } 
+            },
+            yVo2: {
+              type: 'linear',
+              position: 'left',
+              title: { display: true, text: 'Iltoptagelse (L O₂ / min)' },
+              min: 0,
+              max: 7.0
+            },
+            yQ: {
+              type: 'linear',
+              position: 'right',
+              title: { display: true, text: 'Minuttal Q (L/min)' },
+              min: 0,
+              max: 45,
+              grid: { drawOnChartArea: false }
+            },
+            yDiff: {
+              type: 'linear',
+              position: 'right',
+              display: false,
+              min: 0,
+              max: 200
+            }
+          }
+        }
+      });
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const profileSelect = document.getElementById('fick-profile');
+
+    profileSelect.addEventListener('change', function() {
+      const val = this.value;
+      if (val !== 'custom' && profiles[val]) {
+        const p = profiles[val];
+        document.getElementById('fick-sv').value = p.sv;
+        document.getElementById('fick-hr').value = p.hr;
+        document.getElementById('fick-diff').value = p.diff;
+        document.getElementById('fick-weight').value = p.weight;
+      }
+      updateFickWidget();
+    });
+
+    document.querySelectorAll('.fick-widget input[type=range]').forEach(input => {
+      input.addEventListener('input', function() {
+        profileSelect.value = 'custom';
+        updateFickWidget();
+      });
+    });
+
+    updateFickWidget();
+  });
+})();
+</script>

@@ -18,6 +18,33 @@ meta:
   equipment: roregometer
   max: maksimal test
   direct: indirekte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-2000m-rotest"
+    title: "2000 Meter Ro-test (Roergometer Test)"
+    description: "Maksimal 2000-meter præstationstest på roergometer (fx Concept2) til indirekte estimering af den maksimale iltoptagelse (VO2max) og kondital."
+    category: ["Tests", "Kondition", "Roning"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🚣‍♂️ FYSISK TEST: Kræver maksimal 2000m all-out roning på ergometer
+    method: "indirekte"                   # ⏱️ Indirekte estimering af VO2max ud fra tid og gennemsnitlig watt-effekt
+    modality: ["Roning"]
+    measures: ["Kondital", "VO2max", "Ro-tid", "Watt", "Mean Power"]
+    equipment: ["Roergometer", "Concept2"]
+    setting: ["Fitnesscenter", "Roklub", "Individuel"]
+    target_group: ["Motionister", "Atleter", "Roere", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-2000m-rotest-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-2000m-rotest-beregner"
+    title: "2000m Ro-test Kondital Beregner"
+    description: "Interaktiv beregner til estimering af dit kondital og din VO2max ud fra din samlede tid og effekt på 2000 meter i romaskine (Klusiewicz & Faff, 2003)."
+    category: ["Kondition", "Roning"]
+    type: ["Beregner"]
+    measures: ["Kondital", "VO2max", "Mean Power", "Watt"]  # 🎯 Output-parametre fra modulet
+    anchor: "#2-test-i-roning-ud-fra-mean-power-output-wm"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - konditionstest
 - roning

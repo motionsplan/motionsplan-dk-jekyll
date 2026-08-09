@@ -16,6 +16,7 @@ tags:
 - ftp
 - zoner
 - udholdenhed
+- kondition
 last_modified_at: '2026-08-02T10:30:00Z'
 toc: true
 faq:

@@ -21,6 +21,33 @@ meta:
   equipment: roergometer
   measures: powerprofil
   type: rotest
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-powerprofil-roning"
+    title: "Powerprofil & Ugetest i Roning (Kurt Jensen)"
+    description: "Testprotokol bestående af 4 testdage (6 km, 2 km, 3x100m / 1 min og 60 min) til vurdering af roerens samlede aerobe og anaerobe ydeevne i forhold til den teoretiske powerkurve."
+    category: ["Tests", "Roning", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🚣‍♂️ FYSISK TEST: Kræver maksimale roindsatser over forskellige tidsintervaller og distancer
+    method: "direkte"                     # 📊 Måles direkte i Watt og tid på roergometer
+    modality: ["Roning"]
+    measures: ["Powerprofil", "2k Watt", "Anaerob power (10s/60s)", "Aerob udholdenhed (6k/60m)", "Watt/kg"]
+    equipment: ["Roergometer (fx Concept2)"]
+    setting: ["Indendørs", "Ro-klub", "Testcenter", "Individuel"]
+    target_group: ["Roere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-roning-powerprofil-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-roning-powerprofil-beregner"
+    title: "Powerprofil Roning Beregner"
+    description: "Interaktiv beregner til udregning af din optimale powerkurve og forventede målwatt på 10s, 60s, 6k og 60 minutter baseret på dit 2k-testresultat."
+    category: ["Roning", "Kondition", "Tests"]
+    type: ["Beregner"]
+    measures: ["Powerprofil", "Målwatt (10s)", "Målwatt (60s)", "Målwatt (6k)", "Målwatt (60m)"]  # 🎯 Output-parametre fra modulet
+    anchor: "#beregn-din-powerprofil"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2022-08-11T10:21:26Z'
 ---
 

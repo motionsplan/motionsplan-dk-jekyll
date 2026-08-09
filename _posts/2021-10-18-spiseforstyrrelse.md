@@ -17,6 +17,32 @@ tags:
   - kost & ernæring
   - psykologi
   - psykologisk test
+tests:
+  - id: "test-spiseforstyrrelse-screening"
+    title: "Screening for Spiseforstyrrelser (Cotton et al., 2003)"
+    description: "Valideret psykologisk screeningværktøj baseret på Cotton et al. (2003) med 4 primære spørgsmål til identifikation af tegn på spiseforstyrrelser samt 2 udelukkelsesspørgsmål."
+    category: ["Psykologi", "Vurderingsværktøjer"]
+    type: ["Protokol", "Screening"]
+    execution: ["Spørgeskema"]            # 📋 SPØRGESKEMA / PSYKOMETRISK TEST
+    method: "spørgeskema"
+    modality: ["Psykologi"]
+    measures: ["Spiseforstyrrelse", "Forstyrret spisning", "Risikoscore"]
+    equipment: ["Ingen"]
+    setting: ["Hjemmetest", "Klinik", "Individuel"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-spiseforstyrrelse-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-spiseforstyrrelse-beregner"
+    title: "Spiseforstyrrelse Screening Test"
+    description: "Interaktivt spørgeskema til hurtig screening for tegn på spiseforstyrrelser og forstyrret mønster i spiseadfærd."
+    category: ["Psykologi", "Vurderingsværktøjer"]
+    type: ["Beregner"]
+    measures: ["Forstyrret spisning", "Risiko-indikation", "Screeningsresultat"]  # 🎯 Output-parametre fra spørgeskemaet
+    anchor: "#test-om-du-har-en-spiseforstyrrelse"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2021-10-14T08:14:14Z'
 toc: 'true'
 ---

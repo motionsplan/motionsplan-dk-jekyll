@@ -1,0 +1,341 @@
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="cp-widget">
+  <div class="cp-card cp-controls">
+    <div class="cp-control-group">
+      <label for="cp-watt">
+        Critical Power (CP): <span id="cp-val-watt">280</span> W
+      </label>
+      <input type="range" id="cp-watt" min="150" max="450" value="280" step="5">
+      <small style="color: #6b7280; font-size: 0.8rem;">Din aerobe tærskel i watt (uendelig kapacitet)</small>
+    </div>
+
+    <div class="cp-control-group">
+      <label for="cp-wprime">
+        Anaerob Tank (W'): <span id="cp-val-wprime">20</span> kJ
+      </label>
+      <input type="range" id="cp-wprime" min="10" max="35" value="20" step="1">
+      <small style="color: #6b7280; font-size: 0.8rem;">Størrelsen på dit anaerobe batteri i kilojoule</small>
+    </div>
+
+    <div class="cp-control-group">
+      <label for="cp-scenario">
+        Træningsscenario / Pas:
+      </label>
+      <select id="cp-scenario" style="padding: 0.4rem; border-radius: 6px; border: 1px solid #d1d5db; font-size: 0.9rem;">
+        <option value="vo2max_intervals">4x3 min VO₂max Intervaller (120% CP)</option>
+        <option value="micro_intervals">30/30s Micro-intervaller (135% CP)</option>
+        <option value="breakaway">Løbsryk / Udbrud (500W ryk + over-CP tempo)</option>
+        <option value="steady_break">Enkeltstart over CP (108% CP til udmattelse)</option>
+      </select>
+      <small style="color: #6b7280; font-size: 0.8rem;">Vælg en belastningsprofil for at teste batteriet</small>
+    </div>
+  </div>
+
+  <div class="cp-card">
+    <div class="cp-chart-container">
+      <canvas id="cpCanvas"></canvas>
+    </div>
+
+    <div class="cp-metrics">
+      <div class="cp-metric-card cp-tte-card">
+        <div>Max TTE ved CP + 50W</div>
+        <div class="cp-metric-value" id="cp-metric-tte">0:00 min</div>
+        <small>Teoretisk tid til udmattelse i et fladt ryk</small>
+      </div>
+      <div class="cp-metric-card cp-battery-card">
+        <div>Laveste W' Batteriniveau</div>
+        <div class="cp-metric-value" id="cp-metric-minbattery">100 %</div>
+        <small id="cp-metric-status">Batteriet blev ikke tømt</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .cp-widget {
+    margin: 2rem 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #1f2937;
+  }
+  .cp-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e7eb;
+  }
+  .cp-controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+  .cp-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .cp-control-group label {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .cp-control-group input[type=range] {
+    width: 100%;
+    cursor: pointer;
+  }
+  .cp-chart-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+  }
+  .cp-metrics {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .cp-metric-card {
+    flex: 1;
+    background: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 4px solid #3b82f6;
+  }
+  .cp-metric-card.cp-battery-card {
+    border-top-color: #ef4444;
+  }
+  .cp-metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+  .cp-tte-card .cp-metric-value {
+    color: #3b82f6;
+  }
+  .cp-battery-card .cp-metric-value {
+    color: #ef4444;
+  }
+  @media (max-width: 600px) {
+    .cp-metrics {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<script>
+(function() {
+  let cpChartInstance = null;
+
+  function formatTime(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s < 10 ? '0' : ''}${s} min`;
+  }
+
+  function generatePowerProfile(scenario, cp, totalDurationSec = 1200) {
+    const powerArray = [];
+    
+    for (let t = 0; t < totalDurationSec; t++) {
+      let p = cp * 0.6; // Standard 60% CP opvarmning/recovery
+
+      if (scenario === 'vo2max_intervals') {
+        // 3 min opvarmning, derefter 4x (3 min @ 120% CP, 2 min @ 50% CP)
+        if (t >= 180 && t < 1180) {
+          const cycleTime = (t - 180) % 300;
+          p = cycleTime < 180 ? cp * 1.20 : cp * 0.50;
+        }
+      } else if (scenario === 'micro_intervals') {
+        // 2 min opvarmning, derefter 12 min med 30s @ 135% CP / 30s @ 50% CP
+        if (t >= 120 && t < 840) {
+          const cycleTime = (t - 120) % 60;
+          p = cycleTime < 30 ? cp * 1.35 : cp * 0.50;
+        }
+      } else if (scenario === 'breakaway') {
+        // Løbssituation: 2 min jævnt -> 20s eksplosivt 500W -> 4 min @ 105% CP -> 2 min pause -> repeat
+        if (t >= 120 && t < 140) p = 500;
+        else if (t >= 140 && t < 380) p = cp * 1.06;
+        else if (t >= 380 && t < 500) p = cp * 0.55;
+        else if (t >= 500 && t < 520) p = 520;
+        else if (t >= 520 && t < 760) p = cp * 1.08;
+        else if (t >= 760 && t < 900) p = cp * 0.50;
+      } else if (scenario === 'steady_break') {
+        // Enkeltstart over tærskel: 2 min opvarmning -> 108% CP konstant
+        if (t >= 120) p = cp * 1.08;
+      }
+
+      powerArray.push(p);
+    }
+
+    return powerArray;
+  }
+
+  function calculateCPModel() {
+    const cp = parseFloat(document.getElementById('cp-watt').value);
+    const wPrimekJ = parseFloat(document.getElementById('cp-wprime').value);
+    const scenario = document.getElementById('cp-scenario').value;
+
+    const wPrimeMaxJ = wPrimekJ * 1000; // Konverter kJ til Joules
+    let wPrimeBalJ = wPrimeMaxJ;
+
+    const totalTimeSec = 1200; // 20 minutters simulation
+    const powerProfile = generatePowerProfile(scenario, cp, totalTimeSec);
+
+    const labels = [];
+    const powerData = [];
+    const cpLineData = [];
+    const wPrimePercentData = [];
+
+    let minWPrimePercent = 100;
+    let exhaustionTime = null;
+
+    for (let t = 0; t < totalTimeSec; t += 5) { // Mål for hver 5. sekund
+      const p = powerProfile[t];
+      
+      // Simulation pr. sekund i 5-sekunders skridtet
+      for (let sub = 0; sub < 5; sub++) {
+        if (p > cp) {
+          // Dræning af W'
+          const dW = p - cp;
+          wPrimeBalJ = Math.max(0, wPrimeBalJ - dW);
+        } else {
+          // Genopfyldning af W' (Skiba et al. restitutionsmodel)
+          const D_p = cp - p;
+          const tau = 546 * Math.exp(-0.01 * D_p) + 316;
+          wPrimeBalJ = wPrimeMaxJ - (wPrimeMaxJ - wPrimeBalJ) * Math.exp(-1 / tau);
+        }
+      }
+
+      const wPrimePercent = (wPrimeBalJ / wPrimeMaxJ) * 100;
+      if (wPrimePercent < minWPrimePercent) {
+        minWPrimePercent = wPrimePercent;
+      }
+
+      if (wPrimeBalJ <= 0 && exhaustionTime === null) {
+        exhaustionTime = t;
+      }
+
+      labels.push(formatTime(t));
+      powerData.push(Math.round(p));
+      cpLineData.push(cp);
+      wPrimePercentData.push(parseFloat(wPrimePercent.toFixed(1)));
+    }
+
+    // Teoretisk TTE ved CP + 50W (W' / 50W)
+    const tteSec = wPrimeMaxJ / 50;
+
+    return {
+      labels,
+      powerData,
+      cpLineData,
+      wPrimePercentData,
+      tteSec,
+      minWPrimePercent,
+      exhaustionTime
+    };
+  }
+
+  function updateChart() {
+    const data = calculateCPModel();
+
+    document.getElementById('cp-val-watt').textContent = document.getElementById('cp-watt').value;
+    document.getElementById('cp-val-wprime').textContent = document.getElementById('cp-wprime').value;
+
+    document.getElementById('cp-metric-tte').textContent = formatTime(data.tteSec);
+    document.getElementById('cp-metric-minbattery').textContent = `${data.minWPrimePercent.toFixed(1)} %`;
+
+    const statusEl = document.getElementById('cp-metric-status');
+    if (data.exhaustionTime !== null) {
+      statusEl.textContent = `Udmattelse (0% W') ramt ved ${formatTime(data.exhaustionTime)}`;
+      statusEl.style.color = '#ef4444';
+      statusEl.style.fontWeight = '600';
+    } else {
+      statusEl.textContent = 'Batteriet holdt hele passet!';
+      statusEl.style.color = '#10b981';
+      statusEl.style.fontWeight = '400';
+    }
+
+    if (cpChartInstance) {
+      cpChartInstance.data.labels = data.labels;
+      cpChartInstance.data.datasets[0].data = data.powerData;
+      cpChartInstance.data.datasets[1].data = data.cpLineData;
+      cpChartInstance.data.datasets[2].data = data.wPrimePercentData;
+      cpChartInstance.update();
+    } else {
+      const ctx = document.getElementById('cpCanvas').getContext('2d');
+      cpChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: data.labels,
+          datasets: [
+            {
+              label: 'Effekt (Watt)',
+              data: data.powerData,
+              borderColor: '#3b82f6',
+              backgroundColor: 'rgba(59, 130, 246, 0.08)',
+              borderWidth: 2,
+              pointRadius: 0,
+              fill: true,
+              yAxisID: 'yPower'
+            },
+            {
+              label: 'Critical Power (CP)',
+              data: data.cpLineData,
+              borderColor: '#10b981',
+              borderDash: [6, 6],
+              borderWidth: 2,
+              pointRadius: 0,
+              fill: false,
+              yAxisID: 'yPower'
+            },
+            {
+              label: 'W\' Batteri (%)',
+              data: data.wPrimePercentData,
+              borderColor: '#ef4444',
+              backgroundColor: 'rgba(239, 68, 68, 0.15)',
+              borderWidth: 3,
+              pointRadius: 0,
+              fill: true,
+              yAxisID: 'yWprime'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { intersect: false, mode: 'index' },
+          scales: {
+            x: { 
+              title: { display: true, text: 'Tid (Minutter)' } 
+            },
+            yPower: {
+              type: 'linear',
+              position: 'left',
+              title: { display: true, text: 'Belastning (Watt)' },
+              min: 0,
+              max: 550,
+              grid: { drawOnChartArea: true }
+            },
+            yWprime: {
+              type: 'linear',
+              position: 'right',
+              title: { display: true, text: 'W\' Batteri Resterende (%)' },
+              min: 0,
+              max: 100,
+              grid: { drawOnChartArea: false }
+            }
+          }
+        }
+      });
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.cp-widget input, .cp-widget select').forEach(input => {
+      input.addEventListener('input', updateChart);
+    });
+    updateChart();
+  });
+})();
+</script>

@@ -24,6 +24,16 @@ meta:
   measures: løbetid
   target: voksne
   type: sofa
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-flyer-handicap-beregner"
+    title: "Flyer Handicap Løbeberegner"
+    description: "Interaktiv beregner til alders- og vægtjustering af løbetider på 5 km, 10 km, halvmaraton og maraton ud fra Flyer Handicap-modellen (Vanderburgh & Laubach)."
+    category: ["Løb", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Alders- og vægtjusteret løbetid", "Handicap-tid", "Præstationsindex"]  # 🎯 Output-parametre fra beregneren
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 faq:
   - question: Hvad er Flyer Handicap for løbere?
     answer: Flyer Handicap er en beregningsmodel udviklet af forskerne Vanderburgh og Laubach, der omregner din løbetid til, hvad den ville have været, hvis du var 25 år gammel og vejede ca. 50 kg (kvinder) eller 65 kg (mænd).

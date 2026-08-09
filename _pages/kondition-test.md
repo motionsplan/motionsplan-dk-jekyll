@@ -68,11 +68,11 @@ faq:
     der kan forbedres.
 ---
 
-Vil du vide, hvor god din kondition er? En konditionstest kan give dig indsigt i din VO2 max, udholdenhed og kondital. Uanset om du er nybegynder eller erfaren, findes der en test, der passer til dit niveau.
+Vil du vide, hvor god din kondition er? En **konditionstest** (også kaldet en konditest) kan give dig indsigt i din VO2 max, udholdenhed og kondital. Uanset om du er nybegynder eller erfaren, findes der en test, der passer til dit niveau.
 
-Her for du en oversigt over de mest populære konditionstests, så du kan vælge nøjagtigt den test, der passer bedst til dine mål.
+Her får du en oversigt over de mest populære konditionstests, så du kan vælge nøjagtigt den test, der passer bedst til dine mål.
 
-Her fokuserer vi på de fysiske konditionstests. Vil du beregne dit kondital uden at tage en test? Prøv [beregnere uden test her](/kondital/)!
+Her fokuserer vi på de fysiske konditionstests. Vil du beregne dit kondital uden at tage en test? Prøv [kondital-beregnere uden test her](/kondital/)!
 
 ## Hvad er en konditionstest, og hvorfor tage en?
 
@@ -129,7 +129,7 @@ Nogle konditionstests er særligt populære, enten fordi de er lette at lave, kr
 
 </div>
 
-## Oversigt over konditionstests
+## Oversigt over tests af vo2max
 
 Her har du en oversigt over alle de forskellige måder du kan teste din kondition på, så du kan vælge hvilken test, der passer bedst til dig.
 
@@ -172,7 +172,7 @@ Her er nogle af de mest populære indirekte tests – find endnu flere i tabelle
 
 ## Direkte konditionstests
 
-Direkte tests måler din kondition mere præcist, da de typisk foregår i et laboratorium med avanceret udstyr. En klassisk direkte test er en VO2 max-test, hvor iltoptagelsen måles, mens du arbejder med stigende intensitet på fx en løbebånd eller cykel.
+En direkte konditest måler din kondition mere præcist, da de typisk foregår i et laboratorium med avanceret udstyr. En klassisk direkte test er en VO2 max-test, hvor iltoptagelsen måles, mens du arbejder med stigende intensitet på fx en løbebånd eller cykel.
 
 Fordelen ved direkte tests er, at de giver et meget præcist billede af din maksimale iltoptagelse. Ulempen er, at de kræver specialudstyr og ofte skal udføres af en fagperson.
 
@@ -227,7 +227,7 @@ Her er de mest populære, ellers få endnu mere inspiration i tabellen ovenfor.
 
 </div>
 
-## Anbefalede tests
+## Anbefalede konditests
 
 <details markdown="1" class="faq">
   <summary><h3 id="tests-running">🏃🏻 Løb - test dig selv i vores løbetests</h3></summary>

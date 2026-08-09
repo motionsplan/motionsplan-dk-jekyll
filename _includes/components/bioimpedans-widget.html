@@ -1,0 +1,201 @@
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 2rem auto; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05); background: #ffffff;">
+  
+  <!-- Header -->
+  <div style="background-color: #0f172a; color: white; padding: 1.5rem; text-align: center;">
+    <div style="margin: 0; font-size: 1.25rem; font-weight: 600; letter-spacing: 0.5px;">Fra Strøm til Kropskomposition</div>
+    <p style="margin: 0.25rem 0 0 0; opacity: 0.85; font-size: 0.9rem;">Hvordan BIA-maskiner estimerer din krop</p>
+  </div>
+
+  <div style="padding: 1.5rem 2rem;">
+    
+    <!-- Lækre Skifteknapper (Tabs) -->
+    <div style="display: flex; background: #f1f5f9; border-radius: 8px; padding: 4px; margin-bottom: 2rem;">
+      <button id="tab-cheap" onclick="switchMachine('cheap')" style="flex: 1; padding: 0.85rem 1rem; border: none; border-radius: 6px; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s; background: #ffffff; color: #047857; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+        Billig Badevægt
+      </button>
+      <button id="tab-pro" onclick="switchMachine('pro')" style="flex: 1; padding: 0.85rem 1rem; border: none; border-radius: 6px; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s; background: transparent; color: #64748b; box-shadow: none;">
+        Avanceret (fx InBody)
+      </button>
+    </div>
+
+    <!-- TOP SEKTION: Figur + Praksis og Udfordring -->
+    <div style="display: flex; gap: 2.5rem; align-items: center; margin-bottom: 2.5rem; flex-wrap: wrap;">
+      
+      <!-- Figur (SVG) -->
+      <div style="flex: 0 0 180px; height: 240px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; display: flex; justify-content: center; align-items: center; padding: 1rem; position: relative;">
+        <svg viewBox="0 0 100 200" style="height: 100%; width: 100%;">
+          <style>
+            .flow-blue { stroke: #3b82f6; stroke-width: 2.5; stroke-dasharray: 6, 4; animation: flowAnim 1s linear infinite; fill: none; }
+            .flow-orange { stroke: #ea580c; stroke-width: 2.5; stroke-dasharray: 6, 4; animation: flowAnim 1s linear infinite; fill: none; stroke-dashoffset: 5; }
+            @keyframes flowAnim { to { stroke-dashoffset: -10; } }
+          </style>
+          <!-- Silhuet -->
+          <circle cx="50" cy="20" r="13" fill="#e2e8f0"/>
+          <rect x="33" y="38" width="34" height="70" rx="10" fill="#e2e8f0"/>
+          <rect x="12" y="42" width="14" height="65" rx="7" fill="#e2e8f0"/>
+          <rect x="74" y="42" width="14" height="65" rx="7" fill="#e2e8f0"/>
+          <rect x="36" y="105" width="11" height="75" rx="5" fill="#e2e8f0"/>
+          <rect x="53" y="105" width="11" height="75" rx="5" fill="#e2e8f0"/>
+          
+          <g id="sim-electrodes"></g>
+          <g id="sim-routes"></g>
+        </svg>
+      </div>
+
+      <!-- Kort forklaring -->
+      <div style="flex: 1; min-width: 250px;">
+        <div id="sim-title" style="color: #0f172a; font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">
+          <!-- JS indsætter titel -->
+        </div>
+        <div id="sim-basic-text" style="color: #334155; font-size: 0.9rem; line-height: 1.6;">
+          <!-- JS indsætter praksis og udfordring -->
+        </div>
+      </div>
+    </div>
+
+    <!-- BUND SEKTION: 4C-Modellen -->
+    <div style="border-top: 2px solid #f1f5f9; padding-top: 1.5rem;">
+      <div style="font-weight: 600; color: #0f172a; font-size: 1.1rem; margin-bottom: 1.25rem;">
+        Udregningen via 4C-modellen
+      </div>
+      <p style="font-size: 0.85rem; color: #64748b; margin-top: -0.75rem; margin-bottom: 1.5rem;">Fra den mest sikre måling til det mest usikre estimat.</p>
+      
+      <div id="sim-math-steps" style="display: flex; flex-direction: column; gap: 1rem;">
+        <!-- JS indsætter 4C-trin -->
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // DATA TIL BILLIG BADEVÆGT
+    const dataCheap = {
+      electrodes: `
+        <circle cx="41.5" cy="175" r="3" fill="#475569"/>
+        <circle cx="58.5" cy="175" r="3" fill="#475569"/>
+      `,
+      routes: `
+        <path class="flow-blue" d="M 41.5 175 L 41.5 105 Q 50 95 58.5 105 L 58.5 175" />
+      `,
+      title: "Måler kun via fødderne",
+      basicText: `
+        <div style="font-weight: 600; color: #1e293b; margin-bottom: 0.2rem;">I praksis:</div>
+        <p style="margin: 0 0 1rem 0;">Badevægten sender en svag strøm op gennem det ene ben, over bækkenet og ned gennem det andet.</p>
+        <div style="font-weight: 600; color: #1e293b; margin-bottom: 0.2rem;">Udfordringen:</div>
+        <p style="margin: 0;">Overkroppen ignoreres. Maskinen måler udelukkende modstanden i dine ben. Hele din overkrops sammensætning gættes ud fra din alder, dit køn og statistiske gennemsnit.</p>
+      `,
+      mathSteps: `
+        <div style="padding-left: 1rem; border-left: 4px solid #3b82f6;">
+          <div style="color: #1e293b; font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem;">1. Vand (Total Body Water)</div>
+          <p style="margin: 0; font-size: 0.85rem; color: #475569; line-height: 1.5;">Beregnes ud fra modstanden i benene. <strong>Usikkerhed:</strong> Maskinen antager, at din hydrering og kropsbygning er ens i hele kroppen. Har du hævede ben eller en stor overkrop, vil dette estimat blive skævt.</p>
+        </div>
+        <div style="padding-left: 1rem; border-left: 4px solid #be123c;">
+          <div style="color: #1e293b; font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem;">2. Protein (Muskelmasse)</div>
+          <p style="margin: 0; font-size: 0.85rem; color: #475569; line-height: 1.5;">Estimeres ud fra vandmængden. Algoritmen antager, at muskelvæv altid indeholder en fast procentdel vand (typisk 73%). <strong>Usikkerhed:</strong> Formlen bruger statistiske antagelser om din overkrop, som ikke nødvendigvis passer på dig.</p>
+        </div>
+        <div style="padding-left: 1rem; border-left: 4px solid #94a3b8;">
+          <div style="color: #1e293b; font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem;">3. Mineraler (Knogler)</div>
+          <p style="margin: 0; font-size: 0.85rem; color: #475569; line-height: 1.5;">Strøm kan ikke rejse igennem knoglevæv. <strong>Usikkerhed:</strong> Værdien er et rent statistisk gæt baseret på din samlede vægt og den estimerede muskelmasse ovenfor.</p>
+        </div>
+        <div style="padding-left: 1rem; border-left: 4px solid #eab308; background: #fefce8; padding-top: 0.5rem; padding-bottom: 0.5rem; border-radius: 0 8px 8px 0;">
+          <div style="color: #b45309; font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem;">4. Fedt (Restproduktet)</div>
+          <p style="margin: 0; font-size: 0.85rem; color: #713f12; line-height: 1.5;">Til sidst tager badevægten din totale vægt og trækker de estimerede værdier for vand, protein og mineraler fra. <strong>Usikkerhed:</strong> Da fedtet blot er det, der er tilovers i regnestykket, opsamler dette tal alle fejlene fra de forrige trin.</p>
+        </div>
+      `
+    };
+
+    // DATA TIL AVANCERET INBODY
+    const dataPro = {
+      electrodes: `
+        <circle cx="41.5" cy="175" r="3" fill="#475569"/>
+        <circle cx="58.5" cy="175" r="3" fill="#475569"/>
+        <circle cx="19" cy="100" r="3" fill="#475569"/>
+        <circle cx="81" cy="100" r="3" fill="#475569"/>
+      `,
+      routes: `
+        <path class="flow-blue" d="M 19 100 L 19 50 Q 50 45 50 100 L 58.5 175" />
+        <path class="flow-orange" d="M 19 100 L 19 50 Q 50 45 50 100 L 58.5 175" />
+        <path class="flow-blue" d="M 81 100 L 81 50 Q 50 45 50 100 L 41.5 175" />
+        <path class="flow-orange" d="M 81 100 L 81 50 Q 50 45 50 100 L 41.5 175" />
+        <path class="flow-blue" d="M 19 100 L 19 50 L 81 50 L 81 100" />
+        <path class="flow-orange" d="M 19 100 L 19 50 L 81 50 L 81 100" />
+      `,
+      title: "Måler 5 segmenter uafhængigt",
+      basicText: `
+        <div style="font-weight: 600; color: #1e293b; margin-bottom: 0.2rem;">I praksis:</div>
+        <p style="margin: 0 0 1rem 0;">Maskinen bruger 8 elektroder til at sende strømme på kryds og tværs, så arme, ben og torso måles separat. Den bruger både lave og høje frekvenser.</p>
+        <div style="font-weight: 600; color: #1e293b; margin-bottom: 0.2rem;">Udfordringen:</div>
+        <p style="margin: 0;">Selvom den dækker hele kroppen, måler maskinen stadig udelukkende elektrisk modstand – ikke det faktiske væv. Hvis du fx lige har spist, drukket eller trænet, påvirker det ledningsevnen og forvrænger resultatet.</p>
+      `,
+      mathSteps: `
+        <div style="padding-left: 1rem; border-left: 4px solid #3b82f6;">
+          <div style="color: #1e293b; font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem;">1. Vand (Intra- og ekstracellulært)</div>
+          <p style="margin: 0; font-size: 0.85rem; color: #475569; line-height: 1.5;">Dette er maskinens primære måling. Ved hjælp af de forskellige frekvenser estimerer den både vandet indeni og udenfor cellerne i hvert af de 5 segmenter. <strong>Usikkerhed:</strong> Mad i maven eller generel dehydrering kan snyde strømmen til at måle forkert.</p>
+        </div>
+        <div style="padding-left: 1rem; border-left: 4px solid #be123c;">
+          <div style="color: #1e293b; font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem;">2. Protein (Muskelmasse)</div>
+          <p style="margin: 0; font-size: 0.85rem; color: #475569; line-height: 1.5;">Muskelmassen beregnes primært ud fra den estimerede mængde vand inde i cellerne. <strong>Usikkerhed:</strong> Algoritmen arbejder stadig ud fra biologiske antagelser om væskefordeling i muskler, som kan afvige fra person til person.</p>
+        </div>
+        <div style="padding-left: 1rem; border-left: 4px solid #94a3b8;">
+          <div style="color: #1e293b; font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem;">3. Mineraler (Knogler)</div>
+          <p style="margin: 0; font-size: 0.85rem; color: #475569; line-height: 1.5;">Ligesom ved badevægten kan strømmen ikke gå igennem knoglerne. <strong>Usikkerhed:</strong> Knoglemassen beregnes rent algoritmisk ud fra den estimerede muskelmasse (da mere muskelmasse generelt kræver tungere knogler).</p>
+        </div>
+        <div style="padding-left: 1rem; border-left: 4px solid #eab308; background: #fefce8; padding-top: 0.5rem; padding-bottom: 0.5rem; border-radius: 0 8px 8px 0;">
+          <div style="color: #b45309; font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem;">4. Fedt (Restproduktet)</div>
+          <p style="margin: 0; font-size: 0.85rem; color: #713f12; line-height: 1.5;">Til sidst trækker maskinen vand, estimeret protein og estimerede mineraler fra din kropsvægt. <strong>Usikkerhed:</strong> Selvom udregningen bygger på et meget bedre datagrundlag end badevægten, er fedtprocenten stadig det mest usikre tal, fordi det udgør restproduktet.</p>
+        </div>
+      `
+    };
+
+    function switchMachine(type) {
+      const tabCheap = document.getElementById('tab-cheap');
+      const tabPro = document.getElementById('tab-pro');
+      const electrodes = document.getElementById('sim-electrodes');
+      const routes = document.getElementById('sim-routes');
+      const title = document.getElementById('sim-title');
+      const basicText = document.getElementById('sim-basic-text');
+      const mathSteps = document.getElementById('sim-math-steps');
+
+      const data = type === 'cheap' ? dataCheap : dataPro;
+
+      if (type === 'cheap') {
+        tabCheap.style.background = '#ffffff';
+        tabCheap.style.color = '#047857';
+        tabCheap.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
+        tabPro.style.background = 'transparent';
+        tabPro.style.color = '#64748b';
+        tabPro.style.boxShadow = 'none';
+      } else {
+        tabPro.style.background = '#ffffff';
+        tabPro.style.color = '#ea580c';
+        tabPro.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
+        tabCheap.style.background = 'transparent';
+        tabCheap.style.color = '#64748b';
+        tabCheap.style.boxShadow = 'none';
+      }
+
+      // Fade-out 
+      electrodes.style.opacity = 0;
+      routes.style.opacity = 0;
+      mathSteps.style.opacity = 0;
+      
+      setTimeout(() => {
+        electrodes.innerHTML = data.electrodes;
+        routes.innerHTML = data.routes;
+        title.innerText = data.title;
+        basicText.innerHTML = data.basicText;
+        mathSteps.innerHTML = data.mathSteps;
+        
+        electrodes.style.transition = "opacity 0.2s";
+        routes.style.transition = "opacity 0.2s";
+        mathSteps.style.transition = "opacity 0.2s";
+        electrodes.style.opacity = 1;
+        routes.style.opacity = 1;
+        mathSteps.style.opacity = 1;
+      }, 50);
+    }
+
+    // Start
+    switchMachine('cheap');
+  </script>
+</div>

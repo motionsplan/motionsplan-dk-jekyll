@@ -10,14 +10,29 @@ header:
   credit: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
   caption: *title
 category:
-  - Tests
   - Kondition
+  - Konditionstests
+  - Steptests
 meta:
   measures: kondital
   type: steptest
   equipment: stepbænk
   max: submaksimal test
   direct: indirekte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-den-danske-steptest"
+    title: "Den Danske Steptest"
+    description: "Præstationsbegrænset submaksimal steptest på en 20–35 cm boks med stigende tempo til estimering af VO2max og kondital ud fra trinhøjde, vægt og gennemført tid."
+    category: ["Kondition", "Steptest"]      # 💡 Søgbar under BÅDE Kondition og Steptest i databasen
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Estimering af VO2max ud fra udført mekanisk arbejde og tid uden puls
+    modality: ["Steptest"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse", "MET"]
+    equipment: ["Stepbænk", "Boks", "Timer", "Metronom"]
+    setting: ["Hjemmetest", "Fitnesscenter", "Skolebrug", "Individuel"]
+    target_group: ["Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
 tags:
   - test
   - konditionstest

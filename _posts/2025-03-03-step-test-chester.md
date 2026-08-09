@@ -10,8 +10,9 @@ header:
   credit: https://images.unsplash.com/photo-1546869372-abdd57773019
   caption: Chester Step Test – Progressiv & udbredt konditionstest
 category:
-- Tests
 - Kondition
+- Konditionstests
+- Steptests
 meta:
   name: Chester Step Test (CST)
   measures: kondital
@@ -19,6 +20,32 @@ meta:
   equipment: stepbænk
   max: submaksimal test
   direct: indirekte test
+tests:
+  - id: "test-chester-step-test"
+    title: "Chester Step Test (CST)"
+    description: "Progressiv, submaksimal steptest over op til 5 niveauer (2 min pr. niveau med øgende kadence) til indirekte estimering af kondital (VO2max) ud fra pulsekstrapolation."
+    category: ["Tests", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk træde-arbejde op/ned af stepbænk
+    method: "indirekte"                     # 📊 Indirekte estimering af VO2max baseret på submax pulstilpasning
+    modality: ["Steptest"]
+    measures: ["Kondital", "VO2max", "Submaksimal puls", "Pulsrespons"]
+    equipment: ["Stepbænk (15-30 cm)", "Pulsmåler / Pulsbælte", "Timer / Metronom"]
+    setting: ["Indendørs", "Klinik", "Testcenter", "Arbejdsmedicin", "Individuel"]
+    target_group: ["Brandmænd / Politi", "Atleter", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-chester-steptest-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-chester-steptest-beregner"
+    title: "Chester Step Test Beregner & Interaktiv Timer"
+    description: "Interaktiv timer med automatisk kadencestyring samt beregner til ekstrapolation af dit kondital (VO2max) ud fra målte pulsværdier."
+    category: ["Kondition", "Beregnere", "Tests"]
+    type: ["Beregner", "Timer"]
+    measures: ["Kondital", "VO2max", "Teoretisk maxpuls", "Stop-puls (80% HRmax)"]  # 🎯 Output-parametre fra modulet
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

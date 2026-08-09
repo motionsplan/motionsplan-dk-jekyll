@@ -10,8 +10,9 @@ header:
   credit: https://images.unsplash.com/photo-1448387473223-5c37445527e7
   caption: YMCA’s 3-minutters steptest – Enkel konditionstest
 category:
-- Tests
 - Kondition
+- Konditionstests
+- Steptests
 meta:
   name: YMCA 3 minutters steptest (3MST)
   measures: kondital
@@ -19,6 +20,32 @@ meta:
   equipment: stepbænk
   max: submaksimal test
   direct: indirekte test
+tests:
+  - id: "test-ymca-3-minutters-steptest"
+    title: "YMCA 3-minutters Steptest (3MST)"
+    description: "Standardiseret submaksimal steptest (3 minutter på en 30 cm høj boks ved 96 BPM / 24 step/min) til indirekte estimering af kondital (VO2max) ud fra 1-minuts genoprettelsespuls."
+    category: ["Tests", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk steppearbejde på 30 cm bænk
+    method: "indirekte"                     # 📊 Indirekte estimering af VO2max ud fra restitutionspuls og antropometri
+    modality: ["Steptest"]
+    measures: ["Kondital", "VO2max", "Restitutionspuls", "Genoprettelsespuls"]
+    equipment: ["Stepbænk / Boks (30 cm)", "Timer / Metronom (96 BPM)", "Pulsmåler / Stopur"]
+    setting: ["Indendørs", "Testcenter", "Fitnesscenter", "Hjemmetest", "Individuel"]
+    target_group: ["Voksne", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-ymca-steptest-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-ymca-steptest-beregner"
+    title: "YMCA 3-minutters Steptest Beregner & Interaktiv Timer"
+    description: "Interaktiv timer med 96 BPM metronom samt beregner til estimering af VO2max baseret på Kieu et al. (2020) formlerne ud fra genoprettelsespuls og kropsmål."
+    category: ["Kondition", "Beregnere", "Tests"]
+    type: ["Beregner", "Timer"]
+    measures: ["Kondital", "VO2max", "Genoprettelsespuls (1-minut)"]  # 🎯 Output-parametre fra modulet
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

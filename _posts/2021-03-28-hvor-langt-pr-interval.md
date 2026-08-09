@@ -22,6 +22,15 @@ meta:
   equipment: ingen
   measures: løbetider
   type: løb
+tools:
+  - id: "tool-hvor-langt-per-interval-beregner"
+    title: "Intervaldistance Beregner"
+    description: "Beregn hvor mange meter du skal løbe på dit tidsinterval ud fra din løbehastighed (pace i min/km) og din valgte intervaltid."
+    category: ["Løb"]
+    type: ["Beregner"]
+    measures: ["Intervaldistance", "Løbedistance", "Pace", "Intervaltid"]  # 🎯 Nøjagtige output-parametre fra beregneren
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Jeg har lavet en beregner, så du let kan regne ud, hvor langt du skal løbe på de enkelte intervaller, hvis du kender din hastighed.

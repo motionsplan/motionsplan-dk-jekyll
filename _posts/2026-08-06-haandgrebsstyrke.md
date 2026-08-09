@@ -5,17 +5,41 @@ excerpt: "Komplet guide til test af håndgrebsstyrke med dynamometer. Se den sta
 permalink: /haandgrebsstyrke-test/
 language: da
 categories:
-  - Test
+  - Tests
   - Sundhed
   - Fysioterapi
 tags:
-  - håndgrebsstyrke
-  - dynamometer
-  - jamar
-  - sarkopeni
+  - test
   - muskelfunktion
   - geriatri
   - fysioterapi
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-haandgrebsstyrke-test"
+    title: "Håndgrebsstyrke-test (Handgrip Strength Test)"
+    description: "Standardiseret fysiologisk og klinisk test med hånd-dynamometer til måling af maksimal isometrisk håndgrebsstyrke, vurdering af samlet muskelfunktion og screening for sarkopeni."
+    category: ["Sundhed", "Tests", "Fysioterapi"]
+    type: ["Protokol", "Klinisk test", "Styrketest"]
+    execution: ["Fysisk"]                  # 🦾 FYSISK TEST: Kræver maksimal isometrisk klemning med hånden
+    method: "indirekte"                     # 📊 Indirekte måling af samlet muskelfunktion og sarkopenirisiko via grebsstyrke
+    modality: ["Isometrisk styrke", "Styrke"]
+    measures: ["Håndgrebsstyrke (kg)", "Isometrisk muskelstyrke", "Samlet muskelfunktion", "Sarkopeni-risiko"]  # 🎯 KUN rene fysiologiske slutmål
+    equipment: ["Hånd-dynamometer (Jamar / Takei)", "Stol uden armlæn"]
+    setting: ["Klinik", "Hospital", "Fysioterapi", "Genoptræningscenter", "Ergoterapi", "Individuel"]
+    target_group: ["Ældre", "Genoptræningspatienter", "Arbejdsmiljø/Ergonomi", "Atleter", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-haandgrebsstyrke-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-haandgrebsstyrke-beregner"
+    title: "Håndgrebsstyrke Interaktiv Beregner & Widget"
+    description: "Interaktiv beregner til sammenligning af håndgrebsstyrke (kg) med alders- og kønsnormer samt vurdering af klinisk cut-off for sarkopeni (EWGSOP2)."
+    category: ["Sundhed", "Beregnere", "Tests"]
+    type: ["Beregner"]
+    measures: ["Håndgrebsstyrke (kg)", "Styrkeniveau (aldersnorm)", "Sarkopeni-status (EWGSOP2)"]  # 🎯 KUN rene slutmål
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-08-06T22:45:00Z
 faq:
   - question: "Hvorfor måler man håndgrebsstyrke?"

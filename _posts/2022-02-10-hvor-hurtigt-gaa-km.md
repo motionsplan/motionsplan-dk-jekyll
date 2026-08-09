@@ -28,6 +28,15 @@ meta:
   equipment: ingen
   measures: tid
   type: gang
+tools:
+  - id: "tool-gangberegner-tid"
+    title: "Gangberegner: Hvor lang tid tager det at gå X skridt?"
+    description: "Interaktiv beregner til at udregne tidsforbrug og ganghastighed baseret på antal skridt, skridtlængde og tempo."
+    category: ["Gang", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Tidsforbrug", "Ganghastighed", "Gangtid", "Distanceskridt"]  # 🎯 Output-parametre fra beregneren
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2027-07-5T10:21:26Z'
 faq:
 - question: Hvor mange km går man på en time?

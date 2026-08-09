@@ -12,7 +12,34 @@ tags:
   - dynamisk balance
   - landingskontrol
 category:
-  - Tests
+  - Balance
+  - Balancetests
+tests:
+  - id: "test-mslhst"
+    title: "Multiple Single-Leg Hop Stabilization Test (MSLHST)"
+    description: "Klinisk og sportsvidenskabelig balancetest til vurdering af dynamisk postural kontrol, landingsstabilitet samt ankel- og knæfiksering efter hop på ét ben."
+    category: ["Tests", "Balance"]
+    type: ["Protokol", "Balancetest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver fysiske hop og landinger på ét ben
+    method: "direkte"                     # ⏱️ Direkte BESS-fejlscoring og 5-sekunders tidsfiksering
+    modality: ["Balance", "Hop"]
+    measures: ["Dynamisk balance", "Landingskontrol", "Ankelstabilitet", "Fejlscore", "Side-asymmetri"]
+    equipment: ["Tape", "Målebånd", "Stopur"]
+    setting: ["Klinik", "Fitnesscenter", "Idrætsanlæg", "Individuel"]
+    target_group: ["Atleter", "Motionister", "Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-mslhst-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-mslhst-beregner"
+    title: "MSLHST Beregner & Scoringsværktøj"
+    description: "Interaktivt beregningsværktøj til udregning af individuelle baneafstande ud fra kropshøjde samt BESS-fejlscoring på landings- og stabiliseringsfasen."
+    category: ["Balance"]
+    type: ["Beregner"]
+    measures: ["Fejlscore", "Side-asymmetri", "Baneafstande"]  # 🎯 Output-parametre fra modulet
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-08-02T12:00:00Z
 sidebar:
   nav: exercises

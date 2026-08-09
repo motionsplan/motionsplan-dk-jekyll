@@ -5,17 +5,41 @@ excerpt: "Faglig guide til Bergs Balanceskala (BBS) for fysioterapeuter. Lær om
 permalink: /bergs-balanceskala/
 language: da
 categories:
-  - Test
-  - Sundhed
-  - Genoptræning
+  - Balance
+  - Balancetests
 tags:
-  - Bergs balanceskala
-  - BBS test
+  - test
   - balancetest
-  - faldrisiko
   - genoptræning
   - fysioterapi
   - funktionel test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-bergs-balanceskala"
+    title: "Bergs Balanceskala (Berg Balance Scale / BBS)"
+    description: "Standardiseret klinisk balancetest bestående af 14 funktionelle hverdagsopgaver til opgørelse af samlet BBS-score (0-56 point), vurdering af faldrisiko og funktionel mobilitet."
+    category: ["Sundhed", "Tests", "Genoptræning"]
+    type: ["Protokol", "Klinisk test", "Balancetest"]
+    execution: ["Fysisk"]                  # 🧘‍♂️ FYSISK TEST: Kræver fysisk udførelse af 14 funktionelle balanceopgaver
+    method: "indirekte"                     # 📊 Indirekte vurdering af balance og faldrisiko ud fra observeret udførelse
+    modality: ["Balance", "Funktionel bevægelse"]
+    measures: ["Statisk balance", "Dynamisk balance", "BBS-score (0-56 point)", "Faldrisiko", "Funktionel mobilitet"]  # 🎯 KUN rene fysiologiske/funktionelle slutmål
+    equipment: ["Stol med ryglæn og armlæn", "Stopur / Timer", "Skammel / Steptaburet", "Målebånd / Lineal"]
+    setting: ["Klinik", "Hospital", "Fysioterapi", "Genoptræningscenter", "Kommunal genoptræning"]
+    target_group: ["Ældre", "Genoptræningspatienter", "Apopleksipatienter", "Neurologiske patienter", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-bergs-balanceskala-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-bergs-balanceskala-beregner"
+    title: "Bergs Balanceskala Interaktiv Testberegner"
+    description: "Interaktivt digitalt scoringsskema og beregner til opgørelse af samlet BBS-score (0-56 point), vurdering af faldrisiko og klinisk tolkning."
+    category: ["Sundhed", "Beregnere", "Tests"]
+    type: ["Beregner"]
+    measures: ["BBS-score (0-56 point)", "Faldrisikoniveau", "Funktionsniveau"]  # 🎯 KUN rene slutmål
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 header:
   teaser: https://images.unsplash.com/photo-1747302653826-42c6cd7295f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 last_modified_at: 2026-08-06T07:30:00Z
@@ -103,7 +127,7 @@ Selvom BBS har fremragende test-retest reliabilitet (ICC > 0,95), bør fysiotera
 {: .notice .notice--info }
 **Supplerende tests:** Hvis du vil vurdere ganghastighed, udholdenhed og hurtige retningsskift, bør Bergs Balanceskala kombineres med andre kliniske redskaber:
 * **[Timed Up and Go (TUG) Test](/timed-up-and-go-test/):** Evaluere rejse-sætte sig funktion og gangmønster under tidspres.
-* **[6 Minutters Gå-test (6MWT)](/6-minutters-gaa-test/):** Måler den samlede submaksimale gangudholdenhed.
+* **[6 Minutters Gå-test (6MWT)](/gaatest-6min/):** Måler den samlede submaksimale gangudholdenhed.
 * **[Rockport 1,6 km Gangtest](/gaatest/):** Estimerer kredsløbskondition ($VO_{2\text{max}}$) hos gående klienter.
 
 ---

@@ -6,7 +6,7 @@ language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
-  - Tests
+  - Kropskomposition
   - Fedtprocent
 breadcrumbs: true
 tags:
@@ -20,13 +20,32 @@ meta:
   equipment: "hudfoldsmaaler"
   intensity: "ingen"
   method: "indirekte"
+page_type: "spoke"
+tests:
+  - id: "test-peterson-4punkt"
+    title: "Peterson 4-punkts hudfoldsmåling"
+    description: "Hudfoldsmåling baseret på en 4-komponentmodel til præcis bestemmelse af fedtprocent ud fra 4 hudfolde samt højde, vægt og alder."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Måling"]
+    execution: ["Fysisk"]
+    modality: ["Kropsmål"]
+    method: "Indirekte"    
+    measures: ["Fedtprocent", "Kropskomposition"]
+    equipment: ["Hudfoldsmåler", "Badevægt", "Højdemåler"]
+    setting: ["Individuel", "Laboratorietest"]
+    target_group: ["Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-peterson-4punkt-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Peterson 4-punkts Hudfoldsberegner"
+  - id: "tool-peterson-4punkt-beregner"
+    title: "Peterson 4-punkts Hudfoldsberegner"
     description: "Beregn din fedtprocent baseret på 4-komponentmodellen ud fra 4 hudfoldsmålinger (triceps, skulderblad, hoftekam og lår), højde, vægt og alder."
-    anchor: "#udregn-din-fedtprocent-med-peterson-et-al-beregneren"
-    type: "beregner"
-    measures: "fedtprocent"
-    category: "HealthAndFitnessApplication"
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 ---
@@ -41,7 +60,7 @@ Bestemmelsen af 4-komponentmodellen er baseret på tre forskellige metoder, som 
 - **Tungt vand**. Tungt vand kan bruges til at bestemme den totale mængde vand i kroppen.
 - **Undervandsvejning**. Forskerne lavede 10 undervandsvejninger for at bestemme densiteten af kroppen.
 
-På baggrund af 4-komponentmodellen fik lavede forskerne regressionsligninger med forskellige parametre, og de fandt frem til en sammenhæng for både kvinder og mænd, hvor man skulle måle fire hudfolde, vægt, højde og alder for at bestemme fedtprocenten.
+På baggrund af 4-komponentmodellen lavede forskerne regressionsligninger med forskellige parametre, og de fandt frem til en sammenhæng for både kvinder og mænd, hvor man skulle måle fire hudfolde, vægt, højde og alder for at bestemme fedtprocenten.
 
 I [Peterson et al (2003)](https://academic.oup.com/ajcn/article/77/5/1186/4689818) undersøgte de også formlerne fra [Womersley og Durnin](/skinfold-durnin-womersley/) og [Jackson og Pollock](/skinfold-jackson-pollock/). Peterson et al (2003) fandt, at deres nyudviklede formel havde en bedre korrelation med formlen baseret på 4-komponentmodellen end de ældre formler, som kun var baseret og valideret i forhold til undervandsvejning.
 

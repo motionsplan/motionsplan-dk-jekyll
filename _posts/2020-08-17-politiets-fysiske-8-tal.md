@@ -13,7 +13,8 @@ header:
   credit: https://i.ytimg.com/vi/TbaBYiS7JrU/hqdefault.jpg
   caption: *title
 category:
-  - Tests
+  - Eksplosivitet
+  - Sprinttest
 tags:
   - test
   - optagelsesprøve
@@ -21,6 +22,8 @@ tags:
   - polititest
   - eksplosivitet
   - sprinttest
+  - retningsskift
+  - cod
 meta:
   name: 8-talstest
   measures: hurtighed og behændighed
@@ -29,6 +32,32 @@ meta:
   max: maksimal test
   direct: direkte test
   description: Hurtighedstest med retningsskift, som bruges til politiets optagelsesprøve.
+tests:
+  - id: "test-politi-8-tals-test"
+    title: "Politiets 8-tals Hurtighedstest"
+    description: "Standardiseret hurtigheds- og retningsskifttest fra politiets fysiske optagelsesprøve, hvor der løbes 2 1/4 gang i ottetal omkring to kegler med en afstand på 13,40 m."
+    category: ["Tests", "Eksplosivitet"]
+    type: ["Protokol", "Hurtighedstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver liggende start og maksimal sprint med retningsskift
+    method: "direkte"                     # ⏱️ Måles direkte i sekunder
+    modality: ["Sprint", "Retningsskift"]
+    measures: ["Hurtighed", "Behændighed", "Retningsskift", "Sprinttid", "Karakter"]
+    equipment: ["Kegler", "Målebånd", "Stopur"]
+    setting: ["Indendørs", "Gymnastiksal", "Idrætsanlæg"]
+    target_group: ["Politiansøgere", "Atleter", "Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-politi-8-tals-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-politi-8-tals-timer"
+    title: "Politiets 8-tals Test Timer"
+    description: "Interaktiv timer til registrering af tid på politiets 8-tals hurtighedstest."
+    category: ["Eksplosivitet"]
+    type: ["Beregner"]
+    measures: ["Tid", "Sekunder", "Karakter"]  # 🎯 Output-parametre fra modulet
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 For at blive optaget på politiskolen skal ansøgere bestå en række [fysiske tests til optagelsesprøven](/politiets-fysiske-tests-krav-optagelsesproeve/), herunder 8-tals-testen. Denne test måler din evne til hurtigt at skifte retning og accelerere.

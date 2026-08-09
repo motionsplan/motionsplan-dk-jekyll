@@ -23,12 +23,14 @@ meta:
   measures: energiforbrug
   type: kalorieberegner
 tools:
-  - title: "Motionsomregner fra aktivitet til skridt"
+  - id: "tool-motionsomregner-skridt"
+    title: "Motionsomregner fra Aktivitet til Skridt"
     description: "Omregn cykling, svømning, styrketræning og anden sport til ækvivalente skridt baseret på fysiologisk energiforbrug (MET)."
-    anchor: "#skridtomregner-omregn-aktivitet-motion-og-sport-til-skridt"
-    type: "omregner"
-    measures: "skridt, energiforbrug"
-    category: "HealthAndFitnessApplication"
+    category: ["Beregnere"]
+    type: ["Beregner"]
+    measures: ["Skridt", "Energiforbrug", "Ækvivalente skridt", "MET"]  # 🎯 Nøjagtige output-parametre fra omregneren
+    anchor: "#tael-skridt-omregner-fra-motion-og-sport-til-skridt"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-13T23:14:14Z'
 toc: 'true'
 faq:

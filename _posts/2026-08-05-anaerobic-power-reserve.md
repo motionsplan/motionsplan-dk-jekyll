@@ -11,13 +11,9 @@ categories:
 header:
   teaser: https://images.unsplash.com/photo-1532985716028-255a31586f6c?q=80&w=1653&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags:
-  - Anaerobic Power Reserve
-  - APR
-  - MAP
-  - PPO
-  - Watt-træning
+  - fysiologi
+  - træningslære
   - cykeltest
-  - W-prime
   - intervaltræning
 last_modified_at: 2026-08-06T11:00:00Z
 faq:
@@ -82,7 +78,7 @@ Begge skal altså holde 520 Watt. Lad os se, hvor meget af deres anaerobe reserv
 For at udregne din egen eller dine rytteres APR skal du gennemføre to uafhængige tests på en ergometercykel eller med en pålidelig wattmåler.
 
 ### 1. Test af MAP (Maximal Aerobic Power)
-* **[Watt Max / Ramp-test](/watt-max-test/):** Den mest almindelige metode. Du starter på en lav belastning (f.eks. 100 W) og øger belastningen med 20–30 Watt i minuttet, indtil du udgår. Måleffekten i det sidst fuldførte minut (eller en beregnet brøkdel) udgør din MAP.
+* **[Watt Max / Ramp-test](/kondital-wattmax/):** Den mest almindelige metode. Du starter på en lav belastning (f.eks. 100 W) og øger belastningen med 20–30 Watt i minuttet, indtil du udgår. Måleffekten i det sidst fuldførte minut (eller en beregnet brøkdel) udgør din MAP.
 * **5-minutters All-Out Test:** Et 5-minutters maksimalt enkeltstarts-forsøg giver en gennemsnitseffekt, der ligger ekstremt tæt på din MAP.
 
 ### 2. Test af PPO (Peak Power Output)
@@ -123,8 +119,8 @@ Ved at lade Rytter B køre på **640 Watt** i stedet for 520 Watt opnår begge r
 
 {: .notice .notice--info }
 **Relaterede guider og beregnere på motionsplan.dk:**  
-* **[Watt Max Test: Sådan tester du din MAP](/watt-max-test/)**
-* **[FTP Test & Watt-zoner](/ftp-test-cykling/)**
+* **[Watt Max Test: Sådan tester du din MAP](/kondital-wattmax/)**
+* **[FTP Test & Watt-zoner](/ftp-test/)**
 * **[Anaerobic Speed Reserve (ASR): ASR-konceptet til løb](/anaerobic-speed-reserve/)**
 
 ---

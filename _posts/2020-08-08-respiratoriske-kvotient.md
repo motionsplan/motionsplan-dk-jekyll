@@ -21,6 +21,16 @@ faq:
     answer: Den respiratoriske kvotient (RER/R) angiver forholdet mellem udskilt kuldioxid (VCO₂) og optaget ilt (VO₂) målt i udåndingsluften.
   - question: Hvad er forskellen på RQ og RER?
     answer: Begge udtrykker forholdet VCO₂ / VO₂. Forskellen er, at RQ (metabolsk kvotient) måles direkte på celleniveau, mens RER (respiratorisk udvekslingskvotient) måles i udåndingsluften ved munden.
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-rer-energiforbrug-beregner"
+    title: "RER & Energiforbrug Beregner"
+    description: "Beregn dit energiforbrug (kcal/min) og fordøjelsesforbrænding af fedt og kulhydrat ud fra VO2 og VCO2 eller RER-værdi."
+    category: ["Fysiologi"]
+    type: ["Beregner"]
+    measures: ["RER", "RQ", "Energiforbrug", "Fedtforbrænding", "Kulhydratforbrænding"]  # 🎯 Output-parametre fra beregneren
+    anchor: "#beregn-dit-energiforbrug-beregner"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Når du arbejder med fysiologi, idræt eller tests med iltmaske på løbebånd, støder du hurtigt på begreberne **RQ** og **RER**. 

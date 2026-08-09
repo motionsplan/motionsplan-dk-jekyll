@@ -1,11 +1,11 @@
 ---
 title: &title "Fedtforbrændingszonen: Alt du behøver at vide 🔥"
-seo_title: "Fedtforbrændingszonen: Alt du behøver at vide (2025)"
-description: Har du hørt om fedtforbrændingszonen? Inden du går i gang med at ræne med en bestemt intensitet for at forbrænde mest muligt fedt, så læs lige med her først.
+seo_title: "Fedtforbrændingszonen: Alt du behøver at vide (2026)"
+description: Har du hørt om fedtforbrændingszonen? Er det en myte, eller skal du holde pulsen nede for at tabe dig? Læs alt om fysiologien, intensitet og fedtforbrænding her.
 permalink: /fedtforbraendingszonen/
 redirect_from:
   - /fedtforbraeningszonen/
-last_modified_at: 2023-08-24T09:41:09Z
+last_modified_at: 2026-08-01T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/flagged/photo-1556746834-1cb5b8fabd54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
@@ -24,7 +24,7 @@ gallery:
     excerpt: "Når du arbejder på lavere intensiteter, så kommer en større andel af den forbrændte energi fra fedt. Når du arbejder tættere på de højeste intensiteter, så forbrænder du stort set kun kulhydrat. Det har jeg skrevet lidt mere om under [den respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/)."
   - image_path: /assets/images/blog/fedtforbraending-fig4.png
     title: "Den samlede kalorieforbrænding stiger med intensiteten"
-    excerpt: "Når du arbejder med en højere træningsintensitet, sår forbrænder du flere kalorier pr. minut. Fx bruger du flere [kalorier når du løber end når du går](/loeb-mere-energi-gang/)."
+    excerpt: "Når du arbejder med en højere træningsintensitet, så forbrænder du flere kalorier pr. minut. Fx bruger du flere [kalorier når du løber end når du går](/loeb-mere-energi-gang/)."
   - image_path: /assets/images/blog/fedtforbraending-fig2.png
     title: "Samlet fedt forbrændt under træningen"
     excerpt: "Når du kombinerer de to kurver ovenfor, så kan du beregne den forbrændte mængde fedt i gram pr. minut. Det betyder, at du teoretisk set forbrænder mest fedt pr. træningsminut ved en træningsintensitet på 60-70%. Det har givet navn til _fedtforbrændingszonen_."
@@ -46,7 +46,7 @@ gallery_explain:
     excerpt: "Når du arbejder med en højere træningsintensitet, så vil din efterforbrænding være højere. Da intensiteten er lav efter træning, så er fedtforbrændingen en høj andel af din forbrænding. Det betyder, at du i efterforbrændingen vil forbrænde mere fedt, end hvis du havde arbejdet med lavere intensitet i træningen. Det kulhydrat, du spiser, bliver primært brugt til at fylde glykogendepoterne op igen."
   - image_path: /assets/images/blog/fedtforbraending-fig3.png
     title: "Træningseffektivitet i forhold til tid"
-    excerpt: "Hvis du kun har sat et bestemt tidsrum af til træning, så kan det være mere effektivt i forhold til kondition at køre med en høj træningsintensitet. Teoretisk set kan man også argumentere for det i forhold til vægttab, men det kræver. Jeg kommer tilbage til, at tidsaspektet imidlertid også har stor effekt. Du skal også være opmærksom på, at når vi kigger på vægttab, så er det dit samlede, daglige energiforbrug, der har allerstørst betydning. Her flytter træningen ikke så mange procent."
+    excerpt: "Hvis du kun har sat et bestemt tidsrum af til træning, så kan det være mere effektivt i forhold til kondition at køre med en høj træningsintensitet. Teoretisk set kan man også argumentere for det i forhold til vægttab. Jeg kommer tilbage til, at tidsaspektet imidlertid også har stor effekt. Du skal også være opmærksom på, at når vi kigger på vægttab, så er det dit samlede, daglige energiforbrug, der har allerstørst betydning. Her flytter træningen ikke så mange procent."
 ---
 
 Fedtforbrændingszonen er et begreb, som man ofte ser i forbindelse med træning. Rationalet bag begrebet er, at fedtforbrændingen er størst med en bestemt intensitet.
@@ -63,7 +63,7 @@ Det kan være formålstjensteligt at træne forbedre sin fedtforbrænding, når 
 
 ## Hvad er fedtforbrændingszonen?
 
-Ideen bag begrebet fedtforbrændingszonen er, at du et bestemt intensitetsområde forbrænder en større andel fedt end ved lavere og højere intensiteter. Når du træner med lav intensitet, kommer cirka halvdelen af energien fra kulhydrat og den anden halvdel af energien fra fedt.
+Ideen bag begrebet fedtforbrændingszonen er, at du i et bestemt intensitetsområde forbrænder en større andel fedt end ved lavere og højere intensiteter. Når du træner med lav intensitet, kommer cirka halvdelen af energien fra kulhydrat og den anden halvdel af energien fra fedt.
 
 Når du begynder at træne hårdere, så kommer energien i forbrændingen i højere grad fra kulhydrat. Fedtforbrændingszonen kan defineres som det intensitetsområde, hvor du træner hårdt nok til, at der forbrændes mange kalorier, men ikke så hårdt, at der kun forbrændes kulhydrat.
 
@@ -71,7 +71,9 @@ Det er relativt let ud fra den [respiratoriske udvekslingskvotient](/respiratori
 
 ## Skal vi "glemme" fedtforbrændingszonen?
 
-[Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} var den første jeg læste, der skrev glem fedtforbrændingszonen. Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han skriver, at mange andre træningsfysiologiske aspekter er er langt vigtigere at tænke på i forhold til vægttab.
+[Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} var den første jeg læste, der skrev "Glem fedtforbrændingszonen".
+
+Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han skriver, at mange andre træningsfysiologiske aspekter er er langt vigtigere at tænke på i forhold til vægttab.
 
 Fedtforbrændingszonen kan virke relevant i forhold til vægttab. Det vigtigste i forhold til vægttab er ikke en fedtforbrændingszone, men hvad der sker over hele døgnet.
 
@@ -83,7 +85,11 @@ Men når man kigger på det samlede energiforbrug og vægttab, så skal du også
 
 {% include feature_row id="gallery_explain" type="left" caption="Den vandrette akse er træningsintensiteten i forhold til den maksimale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}." %}
 
-Morten Zachos konkluderer, at hvis du skal tabe sig, så kan det ikke betale sig at holde pulsen nede for at træne i **fedtforbrændingszonen**, hvis du har lyst og evne til at arbejde med en højere intensitet.
+{% comment %}
+{% include components/fatburn-weightloss-scanner.html %}
+{% endcomment %}
+
+Morten Zacho konkluderer, at hvis du skal tabe sig, så kan det ikke betale sig at holde pulsen nede for at træne i **fedtforbrændingszonen**, hvis du har lyst og evne til at arbejde med en højere intensitet.
 
 I forhold til vægttab og fedtforbrænding foreslår Morten Zacho, at du arbejder med den højest mulige intensitet, du kan præstere i den tid, du har sat af. Han stiller det retoriske spørgsmål:
 
@@ -103,6 +109,13 @@ Jeg har i et andet indlæg diskuteret [om kontinuerlig træning eller intervaltr
 
 Men hvis du ser på andre sundhedseffekter, fx forbedring af slagvolumen og at træne fedtforbrændingen og den [anaerobe tærskel](/anaerobe-taerskel/), så kan det være en anden sag.
 
+{% comment %}
+## Prøv selv
+{: id="calculator" }
+
+{% include components/fatburn-weightloss-widget.html %}
+{% endcomment %}
+
 ## Fedtforbrændingzonen findes!
 
 Det kan godt være, at vi skal glemme fedtforbrændingszonen i forbindelse med vægttab.
@@ -113,13 +126,25 @@ Det viser med al tydelighed, at det er godt at træne med forskellige intensitet
 
 I nedenstående figur kan man få en fornemmelse for, at fedtforbrændingen topper på et tidspunkt.
 
-{% include figure image_path="/assets/images/gym-idraet.dk/Fig_-2_837x500_acf_cropped-610x0-c-default_quality-85-97b44dbc.jpg" caption="Fedtforbrænding under cykling som funktion af intensitet, somer angivet i % af maksimal iltoptagelse (VO₂–max). De hvide (uden opvarmning) og sorte cirkler (med 10 min progressiv opvarmning) angiver gennemsnitsværdier for en gruppe på 13 moderat til veltrænede motionscykelryttere med VO₂–max – opgivet som kondital – mellem 50-70 ml O₂·min⁻¹·kg⁻¹). Kilde: [Simon Riis: Din fedtforbrændingszone - En sandhed med modifikationer](https://gym-idraet.dk/nyheder-viden/din-fedtforbraendingszone-en-sandhed-med-modifikationer/)" %}
+{% include figure image_path="/assets/images/gym-idraet.dk/Fig_-2_837x500_acf_cropped-610x0-c-default_quality-85-97b44dbc.jpg" caption="Fedtforbrænding under cykling som funktion af intensitet, som er angivet i % af maksimal iltoptagelse (VO₂–max). De hvide (uden opvarmning) og sorte cirkler (med 10 min progressiv opvarmning) angiver gennemsnitsværdier for en gruppe på 13 moderat til veltrænede motionscykelryttere med VO₂–max – opgivet som kondital – mellem 50-70 ml O₂·min⁻¹·kg⁻¹). Kilde: [Simon Riis: Din fedtforbrændingszone - En sandhed med modifikationer](https://gym-idraet.dk/nyheder-viden/din-fedtforbraendingszone-en-sandhed-med-modifikationer/)" %}
 
 Som jeg har skrevet om i forhold til den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/), så er andelen af fedt ved moderate intensiteter omkring 50%, mens den ved højere intensiteter går mere og mere over mod ren kulhydratforbrænding indtil du rammer din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 
 At man absolut set kan forbrænde mere fedt ved at køre med højere intensitet i det samme tidsrum, kan få folk til at negligere fedtforbrændingszonen.
 
-Men det har stor værdi at træne i at blive bedre til at forbrænde fedt. Hvis du fx kan løbe den i den samme hastighed, men en større del af energien kommer fra fedt på den hastighed, så er din samlede motor blevet mere effektiv i forbrændingen. Det har særligt stor betydning, når du arbejder over længere tid og længere distancer.
+Men det har stor værdi at træne i at blive bedre til at forbrænde fedt. Hvis du fx kan løbe i den samme hastighed, men en større del af energien kommer fra fedt på den hastighed, så er din samlede motor blevet mere effektiv i forbrændingen. Det har særligt stor betydning, når du arbejder over længere tid og længere distancer.
+
+## Vil du dykke dybere ned i fysiologien?
+
+Fedtforbrændingszonen overlapper tæt med to af de vigtigste begreber inden for moderne udholdenhedstræning og træningsfysiologi: **FATmax** og **Zone 2-træning**.
+
+* **[FATmax – Find din maksimale fedtforbrænding](/fatmax/)**  
+  Hvor "fedtforbrændingszonen" er et overordnet begreb, er FATmax det helt præcise intensitetspunkt (målt i gram fedt pr. minut), hvor din krop oxidere mest fedt. Læs mere om, hvordan FATmax måles, og hvordan du finder dit eget *sweet spot*.
+
+* **[Zone 2-træning – Det ultimative fundament for din kondition](/zone-2-traening/)**  
+  Zone 2 er det intensitetsområde, der rammer lige omkring dit FATmax. Det er her, du opbygger dine mitokondrier, styrker dit aerobe fundament og træner kroppens evne til at bruge fedt som brændstof under langvarigt arbejde.
+
+> **Opsummering:** Brug **Zone 2** og **FATmax**, hvis du vil forbedre din metaboliske fleksibilitet, din udholdenhed og dit energisystem. Hvis dit primære mål er vægttab, bør du i stedet fokusere på dit samlede kalorieforbrug over døgnet og vælge den træningsform, du bedst kan lide.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

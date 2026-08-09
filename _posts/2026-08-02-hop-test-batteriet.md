@@ -11,14 +11,38 @@ header:
   caption: *title
 category:
   - Tests
-  - Hop-tests
+  - Springtests
 tags:
   - test
-  - hop-test
-  - lsi
-  - korsbånd
-  - acl
+  - springtest
   - return-to-sport
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-hoptest-batteriet"
+    title: "Hoptest-batteriet (Single, Triple, Crossover & 6m Timed Hop)"
+    description: "Standardiseret fysiologisk og funktionelt testbatteri bestående af 4 enkeltsbens hoptests til vurdering af funktionel ben-asymmetri (LSI) og knæstabilitet ved genoptræning og Return to Sport."
+    category: ["Tests", "Hop-tests", "Genoptræning"]
+    type: ["Protokol", "Funktionel test", "Rehabiliteringstest"]
+    execution: ["Fysisk"]                  # 🦵 FYSISK TEST: Kræver enkeltsbens hop, landinger og hink på tid
+    method: "indirekte"                     # 📊 Indirekte måling af funktionel knæstabilitet og asymmetri
+    modality: ["Hop", "Hink"]
+    measures: ["Limb Symmetry Index (LSI)", "Ben-asymmetri (%)", "Unilateral funktionel hopstyrke", "6-meter hoptid (s)"]  # 🎯 KUN rene fysiologiske/funktionelle slutmål
+    equipment: ["Målebånd (min. 6 m)", "Sportstape / Hjælpelinje", "Stopur / Timer"]
+    setting: ["Klinik", "Fysioterapi", "Testcenter", "Genoptræningscenter", "Individuel"]
+    target_group: ["ACL-skadede / Korsbåndsskadede", "Genoptrænende atleter", "Atleter", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-hoptest-batteri-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-hoptest-batteri-beregner"
+    title: "Limb Symmetry Index (LSI) & Hoptest Beregner"
+    description: "Interaktiv beregner til automatisk udregning af Limb Symmetry Index (LSI %) og asymmetri på tværs af de 4 hoptests i batteriet."
+    category: ["Tests", "Beregnere", "Genoptræning"]
+    type: ["Beregner"]
+    measures: ["Limb Symmetry Index (LSI)", "Ben-asymmetri (%)", "Funktionel parathed (Return to Sport)"]  # 🎯 KUN rene slutmål
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-08-02T12:00:00Z
 toc: true
 faq:

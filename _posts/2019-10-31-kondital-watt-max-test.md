@@ -11,7 +11,7 @@ header:
   caption: Watt max-testen på cykelergometer. Konditionstest på cykel.
 category:
 - Kondition
-- Cykling
+- Konditionstests
 meta:
   name: Watt-max test
   measures: kondital
@@ -19,6 +19,31 @@ meta:
   equipment: cykel
   max: maksimal test
   direct: indirekte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-wattmax-cykel"
+    title: "Watt-max Test på Cykel (Andersen-protokol)"
+    description: "Maksimal trinvist stigende cykeltest (+35W/2 min) til bestemmelse af Maximal Power Output (MPO) og estimering af VO2max og kondital."
+    category: ["Kondition", "Cykling"]        # 💡 Søgbar under BÅDE Kondition og Cykling i test-databasen
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Estimering af VO2max ud fra MPO og kropsvægt
+    modality: ["Cykling"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse", "MPO"]
+    equipment: ["Ergometercykel", "Wattmåler", "Stopur", "Vægt"]
+    setting: ["Fitnesscenter", "Klinik", "Laboratorietest", "Individuel"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-wattmax-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-wattmax-beregner"
+    title: "Watt-max Kondital Beregner"
+    description: "Beregn din MPO (Maximal Power Output), VO2max og kondital ud fra belastning og tid på sidste trin af Watt-max testen."
+    category: ["Kondition"]
+    type: ["Beregner"]                   # 💻 Rent software-modul (ingen execution-nøgle her)
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest
@@ -168,7 +193,7 @@ Når du har gennemført Watt-max testen og kender din MPO, har du ikke blot et t
 Du kan blandt andet bruge din MPO til at køre målrettet [$\text{V}_{\text{max}}$-træning og VO2-max intervaller på cyklen](/vmax-cykling/).
 
 > 🚴 **Leder du efter andre cykeltests?**
-> Se vores samlede oversigt over [konditionstests på cykel](/tests/cykling/), hvor du kan sammenligne Åstrand-, Wattmax- og Ekblom-Bak-testene.
+> Se vores samlede oversigt over [konditionstests på cykel](/tests/cykling/), hvor du kan sammenligne Åstrand-, Wattmax- og Ekblom-Bak-testene. Du kan også tjekke vores [samlede katalog over konditests](/kondition/tests/).
 
 ---
 

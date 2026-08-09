@@ -26,6 +26,81 @@ gallery:
     credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
     url: /assets/images/k9-drupal-images.k.dk/graf3-85718ff2.jpg
     alt: Søvndagbog for et B-menneske
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-mctq-kronotype"
+    title: "Munich Chronotype Questionnaire (MCTQ)"
+    description: "Videnskabeligt valideret fysiologisk kronotypetest (Roenneberg et al.) til bestemmelse af søvnmidtpunkt (MSF_sc) og omfanget af socialt jetlag på tværs af arbejds- og fridage."
+    category: ["Søvn", "Psykologi", "Vurderingsværktøjer"]
+    type: ["Protokol", "Screening"]
+    execution: ["Spørgeskema"]            # 📋 SPØRGESKEMA / PSYKOMETRISK TEST
+    method: "spørgeskema"
+    modality: ["Søvn", "Psykologi"]
+    measures: ["Kronotype", "Søvnmidtpunkt (MSF_sc)", "Socialt jetlag", "Døgnrytme"]
+    equipment: ["Ingen"]
+    setting: ["Hjemmetest", "Klinik", "Individuel"]
+    target_group: ["Unge", "Voksne", "Arbejdstagere", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-mctq-beregner"
+
+  - id: "test-meq-kronotype"
+    title: "Horne-Östberg Morning-Eveningness Questionnaire (MEQ)"
+    description: "Klassisk spørgeskemabaseret kronotypetest (Horne & Östberg) til måling af personlige præferencer for døgnrytme og energiniveau på dagen."
+    category: ["Søvn", "Psykologi", "Vurderingsværktøjer"]
+    type: ["Protokol", "Screening"]
+    execution: ["Spørgeskema"]            # 📋 SPØRGESKEMA / PSYKOMETRISK TEST
+    method: "spørgeskema"
+    modality: ["Søvn", "Psykologi"]
+    measures: ["Kronotype", "Morgenhed/Aftenhed", "MEQ-score", "A- eller B-menneske"]
+    equipment: ["Ingen"]
+    setting: ["Hjemmetest", "Klinik", "Individuel"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-meq-beregner"
+
+  - id: "test-epworth-soevnighed"
+    title: "Epworth Søvnighedsskala (ESS)"
+    description: "Klinisk anerkendt spørgeskema til vurdering af dagssøvnighed og risiko for ufrivillig indsovning i otte dagligdags situationer."
+    category: ["Søvn", "Psykologi", "Vurderingsværktøjer"]
+    type: ["Protokol", "Screening"]
+    execution: ["Spørgeskema"]            # 📋 SPØRGESKEMA / PSYKOMETRISK TEST
+    method: "spørgeskema"
+    modality: ["Søvn", "Psykologi"]
+    measures: ["Dagssøvnighed", "Epworth-score", "Søvngæld"]
+    equipment: ["Ingen"]
+    setting: ["Hjemmetest", "Klinik", "Individuel"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-epworth-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-mctq-beregner"
+    title: "MCTQ Kronotype & Social Jetlag Beregner"
+    description: "Interaktiv beregner baseret på Munich Chronotype Questionnaire til udregning af dit fysiologiske søvnmidtpunkt og dit niveau af socialt jetlag."
+    category: ["Søvn", "Vurderingsværktøjer"]
+    type: ["Beregner"]
+    measures: ["Søvnmidtpunkt (MSF_sc)", "Socialt jetlag", "Kronotype"]
+    anchor: "#1-munich-chronotype-questionnaire-mctq"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-meq-beregner"
+    title: "Horne-Östberg MEQ Kronotype Beregner"
+    description: "Interaktiv test til beregning af din MEQ-score og kategorisering af, om du er A-menneske, B-menneske eller Mellemtype."
+    category: ["Søvn", "Vurderingsværktøjer"]
+    type: ["Beregner"]
+    measures: ["MEQ-score", "Kronotype", "A- eller B-menneske"]
+    anchor: "#2-horne-ostberg-morning-eveningness-questionnaire-meq"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-epworth-beregner"
+    title: "Epworth Søvnighedsskala Beregner"
+    description: "Interaktivt spørgeskema til udregning af din samlede Epworth-score og vurdering af dit daglige søvnighedsniveau."
+    category: ["Søvn", "Vurderingsværktøjer"]
+    type: ["Beregner"]
+    measures: ["Dagssøvnighed", "Epworth-score", "Søvnighedsniveau"]
+    anchor: "#bonus-epworths-soevnighedsskala-soevnighedstest"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Om du er et A-menneske eller et B-menneske styres af et indre biologisk ur. Vores kronotype styres altså ubevidst af en masse mekanismer, som påvirker døgnrytmen og hvornår du er mest frisk på dagen.
@@ -167,27 +242,53 @@ Der findes også et par forskellige online tests, som kan hjælpe dig med at afd
 
 [Zavada et al (2005)](https://www.researchgate.net/publication/7722575_Comparison_of_the_Munich_Chronotype_Questionnaire_with_the_Horne-Ostberg's_Morningness-Eveningness_Score) har sammenlignet de to tests i et videnskabeligt studium. Forskerne konkluderer, at der var en høj korrelation mellem de enkelte tests. De anbefaler dog MCTQ, fordi man får lidt flere oplysninger. Til gengæld kan du tage MEQ-testen online.
 
+---
+
 ### 1. Munich Chronotype Questionnaire (MCTQ)
 
-Hvis du er i tvivl om du bedst kan lide at stå op om morgenen eller om aftenen, så kan du bruge *Munich Chronotype Questionnaire (MCTQ)*. Du kan finde en [papirversion af MCTQ-testen](https://www.thewep.org/documentations/mctq).
+Hvis du vil have et præcist, videnskabeligt svar på, om du er A- eller B-menneske, er *Munich Chronotype Questionnaire (MCTQ)* guldstandarden. I stedet for kun at spørge om dine følelser og ønsker, måler MCTQ din fysiologiske døgnrytme ud fra dine faktiske sovetider på henholdsvis arbejdsdage og fridage (korrigeret for opbygget søvngæld).
 
-Desværre har jeg ikke kunnet finde en måde at lave testen online på. Du kan selv forsøge at [score testen ud fra disse instruktioner](https://www.med.upenn.edu/cbti/assets/user-content/documents/Munich%20Chronotype%20Questionnaire%20(MCTQ).pdf).
+Brug vores interaktive MCTQ-beregner herunder til at finde dit fysiologiske midt-søvn punkt ($MSF_{sc}$) og dit niveau af *social jetlag*:
+
+{% include components/mctq-calc-widget.html %}
+
+#### Manuel MCTQ test og officielle instruktioner
+
+Hvis du hellere vil udfylde testen manuelt på skrift, kan du finde en [papirversion af MCTQ-testen](https://www.thewep.org/documentations/mctq). Hvis du vil gå helt i dybden med matematikken bag, kan du selv forsøge at [score testen ud fra disse instruktioner](https://www.med.upenn.edu/cbti/assets/user-content/documents/Munich%20Chronotype%20Questionnaire%20(MCTQ).pdf).
 
 {% include figure image_path="/assets/images/blog/kronotype-mctq.jpg" caption="Du kan finde instruktioner til MCTQ på den officielle hjemmeside. Her kan du både finde spørgeskemaet, og hvordan evalueringen af spørgeskemaet skal foregå. Se [www.thewep.org](https://www.thewep.org/documentations/mctq)." alt="Munich Chronotype Questionnaire (MCTQ) - A-menneske eller B-menneske" %}
 
-### 2. Horne-Ostberg Morning-Eveningness Questionnaire (MEQ)
+### 2. Horne-Östberg Morning-Eveningness Questionnaire (MEQ)
 
-Derfor kan tage *Horne-Ostberg Morning-Eveningness Questionnaire (MEQ)*, som du kan udføre [online](https://www.cet-surveys.com/index.php?sid=61524). Det tager omkring 5 minutter at udføre testen for at finde din kronotype.
+En anden meget anerkendt metode til at bestemme din kronotype er *Horne-Östberg Morning-Eveningness Questionnaire (MEQ)*. Hvor MCTQ kigger på dine faktiske sovetider, fokuserer MEQ på dine personlige præferencer for, hvornår på døgnet du føler dig mest frisk og produktiv.
+
+Prøv vores hurtige udgave af Horne-Östberg testen herunder for at se, om du scorer som A-menneske, B-menneske eller Mellemtype:
+
+{% include components/meq-calc-widget.html %}
+
+---
+
+#### Tag den udvidede MEQ undersøgelse online
+
+Hvis du vil tage den fulde, udvidede udgave med alle 19 spørgsmål, kan du tage *Horne-Östberg Morning-Eveningness Questionnaire (MEQ)* på den engelsksprogede undersøgelsesside [cet-surveys.com](https://www.cet-surveys.com/index.php?sid=61524). Det tager omkring 5 minutter at gennemføre den fulde test.
 
 {% include figure image_path="/assets/images/blog/kronotype-horne-ostberg.jpg" caption="Du kan tage Horne-Ostberg Morning-Eveningness Questionnaire online på [www.cet-surveys.com](https://www.cet-surveys.com/index.php?sid=61524)." alt="Horne-Ostberg Morning-Eveningness Questionnaire - A- eller B-menneske?" %}
 
 ## Bonus: Epworths Søvnighedsskala (Søvnighedstest)
 
-Epworths søvnighedsskala har til hensigt at måle på søvnigheden og tendensen til at falde i søvn i hverdagssituationer. Spørgeskemaet kan bruges til at diagnostisere søvnsygdomme, men det kan også hjælpe med at afdække om dine søvnmønstre passer til din kronotype.
+Epworths søvnighedsskala har til hensigt at måle din søvnighed og tendens til at falde i søvn i helt almindelige hverdagssituationer. Spørgeskemaet bruges i sundhedsvæsenet til at diagnostisere søvnsygdomme, men det kan også hjælpe dig med at afdække, om dit aktuelle søvnmønster passer til din kronotype og dit fysiologiske søvnbehov.
 
-I Epworths Søvnighedsskala spørges ind til, hvordan man selv vurderer egen tendens til at falde i søvn i otte forskellige situationer i døgnet. Det samlede antal point fra alle besvarelserne sammenlægges for at udlede en total score, som danner baggrund for vurderingen af din søvnighed.
+Test din dagssøvnighed direkte med vores online udgave af Epworths Søvnighedsskala herunder:
 
-Du kan tage Epworths søvnighedstest [sundhed.dk](https://www.sundhed.dk/sundhedsfaglig/laegehaandbogen/undersoegelser-og-proever/kalkulatorer/soevnighedsscore-epworth/).
+{% include components/epworth-calc-widget.html %}
+
+---
+
+#### Manuel test og lægehåndbogen
+
+I Epworths Søvnighedsskala spørges der ind til, hvordan du selv vurderer din egen tendens til at falde i søvn i otte forskellige situationer i døgnet. Det samlede antal point fra alle besvarelserne sammenlægges for at udlede en total score, som danner baggrund for vurderingen af din søvnighed.
+
+Du kan også tage Epworths søvnighedstest eller læse lægehåndbogen online på [sundhed.dk](https://www.sundhed.dk/sundhedsfaglig/laegehaandbogen/undersoegelser-og-proever/kalkulatorer/soevnighedsscore-epworth/).
 
 {% include figure image_path="/assets/images/blog/kronotype-epworth.jpg" caption="Du kan lave Epworths Søvnighedstest online på [sundhed.dk](https://www.sundhed.dk/sundhedsfaglig/laegehaandbogen/undersoegelser-og-proever/kalkulatorer/soevnighedsscore-epworth/)." alt="Epworth Sleepiness Scale" %}
 

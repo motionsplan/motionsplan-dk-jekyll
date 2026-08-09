@@ -1,0 +1,333 @@
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="pd-widget">
+  <div class="pd-card pd-controls">
+    <div class="pd-control-group">
+      <label for="pd-cp">Critical Power (CP): <span id="pd-val-cp">280</span> W</label>
+      <input type="range" id="pd-cp" min="150" max="450" value="280" step="5">
+      <small>Din iltkrævende tærskeleffekt (aerob bundgrænse)</small>
+    </div>
+
+    <div class="pd-control-group">
+      <label for="pd-wprime">Anaerob Tank (W'): <span id="pd-val-wprime">20</span> kJ</label>
+      <input type="range" id="pd-wprime" min="10" max="35" value="20" step="1">
+      <small>Arealet af den anaerobe firkant (fast energipulje)</small>
+    </div>
+
+    <div class="pd-control-group">
+      <label for="pd-time">Valgt Varighed: <span id="pd-val-time">3.0</span> min</label>
+      <input type="range" id="pd-time" min="0.5" max="20" value="3" step="0.5">
+      <small>Flyt slideren for at ændre firkantens form og tid</small>
+    </div>
+  </div>
+
+  <div class="pd-card">
+    <div class="pd-chart-container">
+      <canvas id="pdCanvas"></canvas>
+    </div>
+
+    <div class="pd-metrics">
+      <div class="pd-metric-card pd-power-card">
+        <div>Max Effekt v. <span id="pd-stat-time">3.0</span> min</div>
+        <div class="pd-metric-value" id="pd-stat-maxpower">391 W</div>
+        <small><span id="pd-stat-cp-contrib">280W</span> Aerob + <span id="pd-stat-w-contrib">111W</span> Anaerob</small>
+      </div>
+
+      <div class="pd-metric-card pd-area-card">
+        <div>$W'$ Firkantens Areal</div>
+        <div class="pd-metric-value" id="pd-stat-area">20.0 kJ</div>
+        <small>Konstant areal: $(P - CP) \times \text{tid}$</small>
+      </div>
+    </div>
+
+    <!-- Reelle tidspunkter tabel -->
+    <div class="pd-table-wrapper">
+      <h4>Maksimal teoretisk effekt ved kendte testintervaller:</h4>
+      <table class="pd-table">
+        <thead>
+          <tr>
+            <th>Varighed</th>
+            <th>1 min</th>
+            <th>3 min</th>
+            <th>5 min</th>
+            <th>10 min</th>
+            <th>20 min</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Max Watt</strong></td>
+            <td id="pd-t-1m">613 W</td>
+            <td id="pd-t-3m">391 W</td>
+            <td id="pd-t-5m">347 W</td>
+            <td id="pd-t-10m">313 W</td>
+            <td id="pd-t-20m">297 W</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<style>
+  .pd-widget {
+    margin: 2rem 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #1f2937;
+  }
+  .pd-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e7eb;
+  }
+  .pd-controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  .pd-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .pd-control-group label {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .pd-control-group small {
+    color: #6b7280;
+    font-size: 0.8rem;
+  }
+  .pd-control-group input[type=range] {
+    width: 100%;
+    cursor: pointer;
+  }
+  .pd-chart-container {
+    position: relative;
+    height: 380px;
+    width: 100%;
+  }
+  .pd-metrics {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .pd-metric-card {
+    flex: 1;
+    background: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 4px solid #3b82f6;
+  }
+  .pd-metric-card.pd-area-card {
+    border-top-color: #8b5cf6;
+  }
+  .pd-metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+  .pd-power-card .pd-metric-value { color: #3b82f6; }
+  .pd-area-card .pd-metric-value { color: #8b5cf6; }
+
+  .pd-table-wrapper {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+  }
+  .pd-table-wrapper h4 {
+    margin: 0 0 0.75rem 0;
+    font-size: 0.95rem;
+    color: #374151;
+  }
+  .pd-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .pd-table th, .pd-table td {
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+  }
+  .pd-table th {
+    background: #f3f4f6;
+    font-weight: 600;
+  }
+
+  @media (max-width: 600px) {
+    .pd-metrics { flex-direction: column; }
+    .pd-table { font-size: 0.8rem; }
+  }
+</style>
+
+<script>
+(function() {
+  let pdChartInstance = null;
+
+  function calculatePowerDuration() {
+    const cp = parseFloat(document.getElementById('pd-cp').value);
+    const wPrimekJ = parseFloat(document.getElementById('pd-wprime').value);
+    const selectedTimeMin = parseFloat(document.getElementById('pd-time').value);
+
+    const wPrimeJ = wPrimekJ * 1000;
+    const selectedSec = selectedTimeMin * 60;
+    const maxPowerAtSelected = cp + (wPrimeJ / selectedSec);
+
+    const labels = [];
+    const curveData = [];
+    const cpLineData = [];
+    const wBoxData = [];  // Firkanten over CP
+    const cpBoxData = []; // Firkanten under CP
+
+    // Generer datapunkter fra 0.25 min til 25 min
+    for (let t = 0.25; t <= 25; t += 0.25) {
+      labels.push(t.toFixed(2));
+      const tSec = t * 60;
+      const p = cp + (wPrimeJ / tSec);
+      curveData.push(p.toFixed(1));
+      cpLineData.push(cp);
+
+      // Firkant-stabling op til valgt tidspunkt
+      if (t <= selectedTimeMin) {
+        wBoxData.push(maxPowerAtSelected.toFixed(1));
+        cpBoxData.push(cp.toFixed(1));
+      } else {
+        wBoxData.push(null);
+        cpBoxData.push(null);
+      }
+    }
+
+    // Beregn reelle testtider til tabellen
+    const getP = (min) => Math.round(cp + (wPrimeJ / (min * 60)));
+
+    return {
+      labels,
+      curveData,
+      cpLineData,
+      wBoxData,
+      cpBoxData,
+      cp,
+      wPrimekJ,
+      selectedTimeMin,
+      maxPowerAtSelected: Math.round(maxPowerAtSelected),
+      wContrib: Math.round(maxPowerAtSelected - cp),
+      tablePowers: {
+        '1m': getP(1),
+        '3m': getP(3),
+        '5m': getP(5),
+        '10m': getP(10),
+        '20m': getP(20)
+      }
+    };
+  }
+
+  function updatePDChart() {
+    const data = calculatePowerDuration();
+
+    // Opdater overskrifter og tal
+    document.getElementById('pd-val-cp').textContent = data.cp;
+    document.getElementById('pd-val-wprime').textContent = data.wPrimekJ;
+    document.getElementById('pd-val-time').textContent = data.selectedTimeMin.toFixed(1);
+
+    document.getElementById('pd-stat-time').textContent = data.selectedTimeMin.toFixed(1);
+    document.getElementById('pd-stat-maxpower').textContent = `${data.maxPowerAtSelected} W`;
+    document.getElementById('pd-stat-cp-contrib').textContent = `${data.cp}W`;
+    document.getElementById('pd-stat-w-contrib').textContent = `${data.wContrib}W`;
+    document.getElementById('pd-stat-area').textContent = `${data.wPrimekJ.toFixed(1)} kJ`;
+
+    // Opdater tabel
+    document.getElementById('pd-t-1m').textContent = `${data.tablePowers['1m']} W`;
+    document.getElementById('pd-t-3m').textContent = `${data.tablePowers['3m']} W`;
+    document.getElementById('pd-t-5m').textContent = `${data.tablePowers['5m']} W`;
+    document.getElementById('pd-t-10m').textContent = `${data.tablePowers['10m']} W`;
+    document.getElementById('pd-t-20m').textContent = `${data.tablePowers['20m']} W`;
+
+    if (pdChartInstance) {
+      pdChartInstance.data.labels = data.labels;
+      pdChartInstance.data.datasets[0].data = data.curveData;
+      pdChartInstance.data.datasets[1].data = data.cpLineData;
+      pdChartInstance.data.datasets[2].data = data.wBoxData;
+      pdChartInstance.data.datasets[3].data = data.cpBoxData;
+      pdChartInstance.update();
+    } else {
+      const ctx = document.getElementById('pdCanvas').getContext('2d');
+      pdChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: data.labels,
+          datasets: [
+            {
+              label: 'Power-Duration Kurve',
+              data: data.curveData,
+              borderColor: '#2563eb',
+              borderWidth: 3.5,
+              pointRadius: 0,
+              fill: false,
+              z: 10
+            },
+            {
+              label: 'Critical Power (CP)',
+              data: data.cpLineData,
+              borderColor: '#10b981',
+              borderDash: [6, 6],
+              borderWidth: 2,
+              pointRadius: 0,
+              fill: false,
+              z: 9
+            },
+            {
+              label: 'Anaerob Arbejde (W\')',
+              data: data.wBoxData,
+              backgroundColor: 'rgba(139, 92, 246, 0.35)',
+              borderColor: '#8b5cf6',
+              borderWidth: 1,
+              pointRadius: 0,
+              fill: '-1', // Udfylder ned til CP-linjen
+              z: 5
+            },
+            {
+              label: 'Aerobt Arbejde (CP)',
+              data: data.cpBoxData,
+              backgroundColor: 'rgba(16, 185, 129, 0.12)',
+              borderColor: 'transparent',
+              borderWidth: 0,
+              pointRadius: 0,
+              fill: 'origin', // Udfylder ned til x-aksen
+              z: 4
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { intersect: false, mode: 'index' },
+          scales: {
+            x: { 
+              title: { display: true, text: 'Varighed (Minutter)' },
+              ticks: { maxTicksLimit: 12 }
+            },
+            y: { 
+              title: { display: true, text: 'Effekt (Watt)' },
+              min: 100,
+              max: 750
+            }
+          }
+        }
+      });
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.pd-widget input').forEach(input => {
+      input.addEventListener('input', updatePDChart);
+    });
+    updatePDChart();
+  });
+})();
+</script>

@@ -10,8 +10,9 @@ header:
   credit: https://images.unsplash.com/photo-1546869372-abdd57773019
   caption: Harvard Step Test – Klassisk & intensiv konditionstest
 category:
-- Tests
 - Kondition
+- Konditionstests
+- Steptests
 meta:
   name: Harvard Step Test
   measures: kondital
@@ -19,6 +20,32 @@ meta:
   equipment: stepbænk
   max: udholdenhedstest
   direct: indirekte test
+tests:
+  - id: "test-harvard-step-test"
+    title: "Harvard Step Test"
+    description: "Intensiv fysiologisk steptest (op til 5 minutter ved 120 BPM på en 50,8 cm / 40,6 cm høj bænk) til vurdering af kardiovaskulær udholdenhed og restitutionskapacitet via Fitness Index."
+    category: ["Tests", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver intensivt steppearbejde på høj bænk
+    method: "indirekte"                     # 📊 Indirekte vurdering baseret på pulserestitution efter testen
+    modality: ["Steptest"]
+    measures: ["Fitness Index", "Restitutionspuls", "Kardiovaskulær udholdenhed", "Kondital"]
+    equipment: ["Stepbænk / Kasse (50,8 cm for mænd / 40,6 cm for kvinder)", "Stopur / Metronom (120 BPM)", "Pulsmåler"]
+    setting: ["Indendørs", "Testcenter", "Skole", "Militær", "Individuel"]
+    target_group: ["Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-harvard-steptest-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-harvard-steptest-beregner"
+    title: "Harvard Step Test Beregner & Interaktiv Timer"
+    description: "Interaktiv timer med 120 BPM metronom samt beregner til udregning af dit Fitness Index ud fra gennemført tid og restitutionspuls ($P_1, P_2, P_3$)."
+    category: ["Kondition", "Beregnere", "Tests"]
+    type: ["Beregner", "Timer"]
+    measures: ["Fitness Index", "Restitutionsscore", "Fitness-vurdering"]  # 🎯 Output-parametre fra modulet
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

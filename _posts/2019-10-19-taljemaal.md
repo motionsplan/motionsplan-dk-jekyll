@@ -13,7 +13,7 @@ header:
   credit: https://images.unsplash.com/photo-1523901839036-a3030662f220
   caption: Taljemål, livvidde, hoftemål, højdemål og talje-hofte-ratioen.
 category:
-  - Tests
+  - Antropometri
 tags:
   - måling
   - test
@@ -41,25 +41,79 @@ meta:
   equipment: "maalebaand"
   intensity: "ingen"
   method: "direkte"
+page_type: spoke
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-taljemaal-livvidde"
+    title: "Måling af taljemål (Livvidde)"
+    description: "Direkte måling af taljeomkreds 2 cm over navlen med målebånd til vurdering af mavefedt og sundhedsrisiko."
+    category: ["Antropometri", "Kropskomposition"]
+    type: ["Protokol", "Måling"]
+    execution: ["Måling"]
+    method: "direkte"                  # 📏 Direkte fysisk måling i cm
+    modality: ["Kropsmål"]
+    measures: ["Taljemål", "Livvidde"]
+    equipment: ["Målebånd"]
+    setting: ["Individuel"]
+    target_group: ["Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-samlet-taljemaal-dashboard"]
+
+  - id: "test-whtr"
+    title: "Talje-Højde-Ratio (WHtR)"
+    description: "Måling der sætter taljemål i forhold til kropshøjde. Bruges i Ashwell Shape Chart til at vurdere sundhedszoner."
+    category: ["Antropometri", "Kropskomposition"]
+    type: ["Protokol", "Måling"]
+    execution: ["Måling"]
+    method: "direkte"                  # 📏 Baseret på direkte kropsmål (talje + højde)
+    modality: ["Kropsmål"]
+    measures: ["Talje-højde-ratio", "WHtR"]
+    equipment: ["Målebånd", "Højdemåler"]
+    setting: ["Individuel"]
+    target_group: ["Børn", "Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
+    related_tools: ["tool-samlet-taljemaal-dashboard", "tool-whtr-beregner"]
+
+  - id: "test-whr"
+    title: "Talje-Hofte-Ratio (WHR)"
+    description: "Måling der vurderer fedtfordeling (æbleform vs. pæreform) baseret på WHO's grænseværdier for talje- og hoftemål."
+    category: ["Antropometri", "Kropskomposition"]
+    type: ["Protokol", "Måling"]
+    execution: ["Måling"]
+    method: "direkte"                  # 📏 Baseret på direkte kropsmål (talje + hofte)
+    modality: ["Kropsmål"]
+    measures: ["Talje-hofte-ratio", "WHR", "Kropsform"]
+    equipment: ["Målebånd"]
+    setting: ["Individuel"]
+    target_group: ["Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-samlet-taljemaal-dashboard", "tool-whr-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Samlet Taljemål & Ratio Beregner"
+  - id: "tool-samlet-taljemaal-dashboard"
+    title: "Samlet Taljemål & Ratio Beregner"
     description: "Beregn dit taljemål, din talje-højde-ratio (WHtR) og din talje-hofte-ratio (WHR) samlet i ét dashboard med øjeblikkelig sundhedsanalyse."
+    category: ["Antropometri"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#beregn-alle-dine-taljemaal"
-    type: "beregner"
-    measures: "taljemål, talje-hofte-ratio, talje-højde-ratio"
-    category: "HealthAndFitnessApplication"
-  - title: "Talje-Højde-Ratio Beregner (WHtR)"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-whtr-beregner"
+    title: "Talje-Højde-Ratio Beregner (WHtR)"
     description: "Beregn dit talje-højde-forhold og se din placering i Ashwell Shape Chart over sundhedszoner."
+    category: ["Antropometri"]
+    type: ["Beregner"]
+    execution: ["Måling"]
     anchor: "#2-talje-højde-ratio-whtr"
-    type: "beregner"
-    measures: "talje-højde-ratio"
-    category: "HealthAndFitnessApplication"
-  - title: "Talje-Hofte-Ratio Beregner (WHR)"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-whr-beregner"
+    title: "Talje-Hofte-Ratio Beregner (WHR)"
     description: "Beregn din talje-hofte-ratio og få vurderet din fedtfordeling (æbleform vs. pæreform) ud fra WHO's grænseværdier."
+    category: ["Antropometri"]
+    type: ["Beregner"]
+    execution: ["Måling"]
     anchor: "#3-talje-hofte-ratio-whr"
-    type: "beregner"
-    measures: "talje-hofte-ratio"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Dit taljemål er en enkel og utrolig præcis måling, der siger meget om din sundhed. Studier viser, at fedtet omkring maveområdet (det intraabdominale fedt) er direkte knyttet til risikofaktorer for livsstilssygdomme som hjertekarsygdomme og type 2-diabetes.

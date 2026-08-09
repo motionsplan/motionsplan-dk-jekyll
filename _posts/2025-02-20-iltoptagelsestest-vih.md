@@ -13,7 +13,8 @@ header:
   teaser: /assets/images/blog/vo2-max-test-running-female.webp
   caption: Iltoptagelsestest på løbebånd (submax + maxtest) 🏃
 category:
-- Tests
+- Kondition
+- Konditionstests
 meta:
   name: Øvelsesvejledning til VO2-test på VIH
   measures: LT1, LT2, VO2max, kondital, maxpuls, løbeøkonomi
@@ -21,6 +22,35 @@ meta:
   equipment: se testbeskrivelse
   max: maksimal test
   direct: direkte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-submaksimal-trappetest-loeb"
+    title: "Submaksimal Trappetest på Løbebånd (Laktat & Løbeøkonomi)"
+    description: "Direkte fysiologisk trappetest på løbebånd med iltoptagelsesmaske, pulsbælte og laktatmåling over 3-minutters trin til bestemme af LT1, LT2, løbeøkonomi og VO2peak."
+    category: ["Tests", "Kondition", "Løb"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver fysisk løbeindsats med maske og blodprøver
+    method: "direkte"                     # 🫁 Direkte måling via gasanalyse / spirometri og blodlaktat
+    modality: ["Løb"]
+    measures: ["LT1 (Aerob tærskel)", "LT2 (Anaerob tærskel)", "Løbeøkonomi", "VO2peak", "Submaksimal laktat", "Puls"]
+    equipment: ["Løbebånd", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler (priktest)", "Pulsbælte"]
+    setting: ["Laboratorium", "Testcenter", "Individuel"]
+    target_group: ["Løbere", "Atleter", "Studerende", "Mænd", "Kvinder"]
+    related_tools: []
+
+  - id: "test-maksimal-rampetest-loeb"
+    title: "Maksimal Rampetest på Løbebånd (VO2max & Kondital)"
+    description: "Direkte maksimal iltoptagelsestest på løbebånd med gradvist stigende hældning (+1% pr. min) til udmattelse for direkte måling af VO2max, kondital og maxpuls."
+    category: ["Tests", "Kondition", "Løb"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver maksimal fysisk løbeindsats til udmattelse
+    method: "direkte"                     # 🫁 Direkte måling af VO2max via spirometri
+    modality: ["Løb"]
+    measures: ["VO2max", "Kondital", "Maxpuls", "Slutlaktat", "R-værdi (RER)", "Ventilatorisk kvotient (VE/VO2)"]
+    equipment: ["Løbebånd", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler (priktest)", "Pulsbælte"]
+    setting: ["Laboratorium", "Testcenter", "Individuel"]
+    target_group: ["Løbere", "Atleter", "Studerende", "Mænd", "Kvinder"]
+    related_tools: []
 tags:
 - test
 - konditionstest

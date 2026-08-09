@@ -18,6 +18,20 @@ meta:
   equipment: se testbeskrivelse
   max: maksimal test
   direct: direkte test
+tests:
+  - id: "test-cykeltest-iltoptagelse-full"
+    title: "Cykeltest med Iltoptagelse (Submax, Maxtest & Peak Power)"
+    description: "Komplet fysiologisk laboratorietest på ergometercykel med spirometri (iltoptagelsesmaske) og blodlaktatmåling fordelt på tre faser: submaksimal trappetest, 5-minutters maxtest og 6-sekunders Peak Power sprint."
+    category: ["Tests", "Cykling", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🚴‍♂️ FYSISK TEST: Kræver fysisk cykelindsats på ergometercykel med maske
+    method: "direkte"                     # 🫁 Direkte måling af VO2 via spirometri/gasanalyse og blodlaktat
+    modality: ["Cykling"]
+    measures: ["VO2max", "VO2peak", "Kondital", "LT1 (Aerob tærskel)", "LT2 (Anaerob tærskel)", "Cykeløkonomi", "Maxpuls", "Peak Power (6s Watt)", "R-værdi (RER)"]
+    equipment: ["Ergometercykel", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler (priktest)", "Pulsmåler / Pulsbælte"]
+    setting: ["Laboratorium", "Testcenter", "Individuel"]
+    target_group: ["Cykelryttere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 tags:
   - test
   - konditionstest

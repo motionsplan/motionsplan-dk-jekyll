@@ -14,7 +14,7 @@ tags:
 - agility
 - løb
 - sprinttest
-last_modified_at: '2019-11-19T23:14:14Z'
+last_modified_at: '2025-11-19T23:14:14Z'
 toc: 'true'
 meta:
   name: Arrowhead test
@@ -23,6 +23,33 @@ meta:
   equipment: se testbeskrivelse
   max: maksimal test
   direct: direkte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-arrowhead-agility"
+    title: "Arrowhead Agility Test"
+    description: "Standardiseret agilitytest til vurdering af maksimal acceleration, kropskontrol og retningsskift i forskellige vinkler."
+    category: ["Tests", "Eksplosivitet"]
+    type: ["Protokol", "Agilitytest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver maksimal sprint og skarpe retningsskift
+    method: "direkte"                     # ⏱️ Direkte tidtagning i sekunder (med stopur eller fotoceller)
+    modality: ["Løb", "Sprint"]
+    measures: ["Agility", "Retningsskift", "Sprinttid", "Acceleration", "Kropskontrol"]
+    equipment: ["Stopur", "Timing gates", "Kegler", "Målebånd"]
+    setting: ["Udendørs", "Idrætsanlæg", "Fodboldbane", "Holdtest", "Individuel"]
+    target_group: ["Atleter", "Fodboldspillere", "Børn", "Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-arrowhead-timer-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-arrowhead-timer-beregner"
+    title: "Arrowhead Test Timer & Registrering"
+    description: "Interaktivt tidtagningsværktøj og timer til registrering af tider på Arrowhead Agility testen."
+    category: ["Eksplosivitet"]
+    type: ["Beregner"]
+    measures: ["Tid", "Sekunder"]         # 🎯 Output-parametre
+    anchor: "#hvordan-udføres-arrowhead-testen"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Arrowhead testen bruges til at teste atleters evne til at skifte retning, behændighed og agility. Arrowhead testen bruges bl.a. flittigt til at teste fodboldspillere.

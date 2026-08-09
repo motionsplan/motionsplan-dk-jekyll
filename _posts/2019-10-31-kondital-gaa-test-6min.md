@@ -11,7 +11,7 @@ header:
   caption: *title
 category:
   - Kondition
-  - Gang
+  - Konditionstests
 meta:
   name: "6 minutters gangtest (6MWT)"
   measures: "kondital"
@@ -21,13 +21,32 @@ meta:
   method: "indirekte"
   intensity: "moderat"
   target: "aeldre"
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-6mwt-gangtest"
+    title: "6 Minutters Gangtest (6MWT)"
+    description: "Submaksimal funktionel gangtest til vurdering af udholdenhed og funktionsevne hos ældre, genoptræningspatienter og fysisk svækkede personer."
+    category: ["Kondition", "Gang"]        # 💡 Søgbar under BÅDE Kondition og Gang i test-databasen
+    type: ["Protokol", "Funktionstest", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Evaluering af funktionel kapacitet ud fra gået distance på 6 min.
+    modality: ["Gang"]
+    measures: ["Distance", "Funktionsevne", "Kondital"]
+    equipment: ["Fladt underlag", "Stopur", "Målebånd", "Kegler"]
+    setting: ["Klinik", "Hospital", "Genoptræning", "Hjemmetest"]
+    target_group: ["Ældre", "Svækkede", "Patienter", "Voksne"]
+    related_tools: ["tool-6mwt-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "6 Minutters Gangtest (6MWT) Beregner"
+  - id: "tool-6mwt-beregner"
+    title: "6 Minutters Gangtest (6MWT) Beregner"
     description: "Udregn den forventede gangdistance for 6 minutters gangtest (6MWT) ud fra alder, køn, højde og vægt baseret på Enright & Sherrill samt Gibbons formlerne."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "funktionsevne, distance"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
   - test
   - konditionstest

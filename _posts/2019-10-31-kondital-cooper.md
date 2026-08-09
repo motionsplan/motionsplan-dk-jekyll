@@ -15,7 +15,7 @@ header:
   caption: Find dit kondital med Cooper-testen. Konditionstest til løb.
 category:
 - Kondition
-- Løb
+- Konditionstest
 meta:
   name: "Coopers 12 minutters løbetest"
   measures: "kondital"
@@ -24,19 +24,40 @@ meta:
   max: "maksimal"
   method: "indirekte"
   intensity: "maksimal"
+tests:
+  - id: "test-cooper-test"
+    title: "Cooper-test (12 minutters løbetest)"
+    description: "Maksimal 12-minutters felt-test til estimering af maksimal iltoptagelse (VO2max) og kondital ud fra tilbagelagt distance."
+    category: ["Kondition", "Løb"]        # 💡 Søgbar under BÅDE Kondition og Løb i test-databasen
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Måler distance på 12 min for at beregne VO2max
+    modality: ["Løb"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
+    equipment: ["Løbebane", "Stopur", "GPS-ur"]
+    setting: ["Individuel", "Gruppetest", "Udendørs", "Skolebrug", "Militær"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-cooper-test-beregner", "tool-cooper-test-timer"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Cooper-test Kondital Beregner"
+  - id: "tool-cooper-test-beregner"
+    title: "Cooper-test Kondital Beregner"
     description: "Beregn dit kondital (VO2max) ud fra den tilbagelagte distance på 12 minutters Cooper løbetest."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "kondital"
-    category: "HealthAndFitnessApplication"
-  - title: "Cooper-test Timer & Digital Pacer"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-cooper-test-timer"
+    title: "Cooper-test Timer & Digital Pacer"
     description: "Interaktiv 12-minutters løbetimer med pacer-bip, 400m-omgangstæller, live prognose og generator til pacer-lydspor."
+    category: ["Kondition"]
+    type: ["Timer"]
+    execution: ["Timer"]
     anchor: "#timer"
-    type: "timer"
-    measures: "tid, tempo"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

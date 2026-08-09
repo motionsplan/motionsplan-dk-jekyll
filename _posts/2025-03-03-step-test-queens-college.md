@@ -11,8 +11,9 @@ header:
   teaser: /assets/images/unsplash/photo-1546869372-abdd57773019.jpg
   caption: Queens College Step Test – Standardiseret konditionstest (QCST)
 category:
-- Tests
 - Kondition
+- Konditionstests
+- Steptests
 meta:
   name: Queens College Step Test (QCST)
   measures: kondital
@@ -20,6 +21,32 @@ meta:
   equipment: stepbænk
   max: submaksimal test
   direct: indirekte test
+tests:
+  - id: "test-queens-college-step-test"
+    title: "Queens College Step Test (QCST / McArdle)"
+    description: "Standardiseret submaksimal steptest (3 minutter på en 41,3 cm høj bænk ved 24 step/min for mænd og 22 step/min for kvinder) til indirekte estimering af kondital (VO2max) ud fra 15-sekunders genoprettelsespuls."
+    category: ["Tests", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk steppearbejde på 41,3 cm bænk
+    method: "indirekte"                     # 📊 Indirekte estimering af VO2max baseret på restitutionspuls
+    modality: ["Steptest"]
+    measures: ["Kondital", "VO2max", "Restitutionspuls", "Genoprettelsespuls"]
+    equipment: ["Stepbænk / Skammel (41,3 cm)", "Timer / Metronom (96 BPM mænd / 88 BPM kvinder)", "Pulsmåler"]
+    setting: ["Indendørs", "Testcenter", "Skole", "Individuel"]
+    target_group: ["Mænd", "Kvinder", "Atleter", "Motionister", "Studerende"]
+    related_tools:
+      - "tool-queens-college-steptest-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-queens-college-steptest-beregner"
+    title: "Queens College Step Test Beregner & Interaktiv Timer"
+    description: "Interaktiv timer med opdelte kadencer for mænd (96 BPM) og kvinder (88 BPM) samt beregner til estimering af VO2max ud fra McArdles formel."
+    category: ["Kondition", "Beregnere", "Tests"]
+    type: ["Beregner", "Timer"]
+    measures: ["Kondital", "VO2max", "Genoprettelsespuls (BPM)"]  # 🎯 Output-parametre fra modulet
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

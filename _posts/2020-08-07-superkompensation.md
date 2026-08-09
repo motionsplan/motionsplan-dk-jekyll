@@ -1,9 +1,10 @@
 ---
 title: 'Superkompensation: Hvornår er jeg klar til at træne igen?'
-excerpt: Jeg bruger ofte superkompensation som argument for, hvordan det er smart at planlægge sin træning. Derfor går jeg
-  i dette indlæg i dybden med superkompensationsteorien.
+seo_title: 'Superkompensation: Hvad er det? Selye, Banister & Beregner (2026)'
+description: 'Hvad er superkompensation? Lær om Selyes General Adaptation Syndrome, Banisters model, og beregn din egen superkompensationskurve her.'
+excerpt: Jeg bruger ofte superkompensation som argument for, hvordan det er smart at planlægge sin træning. Derfor går jeg i dette indlæg i dybden med superkompensationsteorien.
 permalink: /superkompensation/
-last_modified_at: '2020-07-06T09:41:09Z'
+last_modified_at: '2026-08-07T09:41:09Z'
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1520529301226-42abc4cd766b.jpg
@@ -11,68 +12,134 @@ header:
   teaser: /assets/images/unsplash/photo-1520529301226-42abc4cd766b.jpg
   caption: 'Superkompensation: Hvornår er jeg klar til at træne igen?'
 category:
-- Træning
+  - Træning
 tags:
-- træning
-- restitution
-- træningslære
+  - træning
+  - restitution
+  - træningslære
+faq:
+  - question: "Hvad er superkompensation?"
+    answer: "Superkompensation er den fysiologiske proces, hvor kroppen efter et udmattende træningspas genopbygger sit væv til et højere og stærkere niveau end udgangspunktet."
+  - question: "Hvornår er man i superkompensationsfasen?"
+    answer: "Det afhænger af træningspasatets belastning. For et moderat til hårdt pas topper superkompensationen typisk mellem 36 og 48 timer efter træningsstart."
+  - question: "Hvad sker der, hvis man venter for længe med at træne igen?"
+    answer: "Hvis der ikke modtages et nyt træningsstimulus, indtræder involutionsfasen, hvor kroppen nedbryder overskudskapaciteten og falder tilbage til udgangspunktet pga. princippet om reversibilitet."
+  - question: "Skal man sænke volumen eller intensiteten under en deload-uge?"
+    answer: "Forskning viser, at det er mest effektivt at sænke volumen med 40–50 %, men bevare den høje intensitet for at vedligeholde de fysiologiske tilpasninger og fjerne ophobet træthed."
 ---
 
 Jeg bruger ofte superkompensation som argument for, hvordan det er smart at planlægge sin træning. Derfor går jeg i dette indlæg i dybden med superkompensationsteorien.
 
 ## Hvad er superkompensation?
 
-Superkompensation beskriver den proces, at kroppen ved træning bliver nedbrudt gennem små mikroskopiske skader. Når du hviler dig og restituerer efter træning, bygger kroppen sig selv op igen til et niveau der var bedre end før træningen.
+Superkompensation beskriver den proces, at kroppen ved træning bliver nedbrudt gennem små mikroskopiske skader. Når du hviler dig og restituerer efter træning, bygger kroppen sig selv op igen til et niveau, der er højere og stærkere end før træningen.
 
-Når du træner og restituerer med en afmålt balance, så kan du være heldig at næste træning rammer superkompensationensfasen, og du får det optimale udbytte af træningen.
+Når du træner og restituerer med en afmålt balance, kan du ramme superkompensationsfasen og få det optimale udbytte af din træning. Kroppen overkompenserer for at forberede sig på næste intensive belastning.
 
-I superkompensationen forbereder kroppen sig til næste intensive træningsperiode ved at gøre sig ekstra stærk. Kroppen overkompenserer.
+{% include figure image_path="/assets/images/cdn.bloggersdelight.dk/superkompensation-c20016e4.jpg" caption="Den klassiske superkompensationsteori. Kilde: [wisemovement.be](https://wisemovement.be/supercompensation/). [📷](https://cdn.bloggersdelight.dk/wp-content/blogs.dir/254233/files/2019/10/superkompensation.jpg){: rel='nofollow noopener' }" %}
 
-{% include figure image_path="/assets/images/cdn.bloggersdelight.dk/superkompensation-c20016e4.jpg" caption="Superkompensationsteorien. Kilde: [wisemovement.be](https://wisemovement.be/supercompensation/). [📷](https://cdn.bloggersdelight.dk/wp-content/blogs.dir/254233/files/2019/10/superkompensation.jpg){: rel='nofollow noopener' }" %}
+### Interaktiv superkompensationsberegner
 
-## Superkompensationsteorien
+For at gøre teorien mere håndgribelig kan du herunder afprøve en interaktiv model. Den beregner dit akutte formdyk, din restitutionstid og dit optimale superkompensationspunkt baseret på træningens intensitet ([Borg CR10](/borg-skala/)), varighed og dine restitutionsforhold:
 
-Superkompensation kan grundlæggende forstås på to forskellige måder.
+{% include components/superkompensation-widget.html %}
 
-- **Ugentlig basis** hvor hver træning har en effekt, som man kan forsøge at udnytte til næste træning.
-- **Træningsblokke** hvor man tænker træningen sammen i forskellige blokke. Man kan altså have en hårdere træningsblok, som efterfølges af lettere træningsblokke.
+---
 
-Når man kigger på superkompensationsfiguren, så kan den altså fortolkes på begge måder. Derfor er superkompensationsteorien både et argument for, at træningen kan være opdelt med hårde og lettere træning i en uge. Samtidig er den et argument for [_deload_-uger](/deload-uge/), hvor man sænker volumen lidt for at få kroppen til at respondere på træningen.
+## Fysiologien bag: Hans Selye og General Adaptation Syndrome (GAS)
 
-## Hvordan rammer jeg superkompensationsfasen?
+Selve begrebet superkompensation udspringer oprindeligt af lægen **Hans Selye** og hans berømte stressteori fra 1936: *General Adaptation Syndrome* (GAS).
 
-Der er forskellige måder, som kan hjælpe dig til at ramme superkompensationsfasen, når du træner.
+Selye påviste, at biologiske organismer reagerer på fysisk stress (som f.eks. hård træning) i tre faser:
 
-- **Brug en træningsplan**. Det er en god ide at lave en træningsplan, hvor du sørger for at veksle intensiteten undervejs i din træning. Ved en god træningsplan kan du forberede dig på at ramme superkompensationen.
+1. **Alarmfasen (Alarm Reaction):** Træningen belaster kroppen. Muskelvæv beskadiges, og energidepoter tømmes. Din præstationsevne falder akut.
+2. **Modstandsfasen (Resistance Stage):** Kroppen tilpasser sig stressen i hvileperioden. Den genopbygger vævet og øger sin kapacitet ud over udgangspunktet — det er her, **superkompensationen** opstår.
+3. **Udmattelses- eller Involutionsfasen (Exhaustion / Involution):** Hvis du træner for hårdt uden pauser, overbelastes systemet (udmattelse). Træner du omvendt for sjældent, nedbryder kroppen overskudskapaciteten igen (involution/reversibilitet).
 
-Uden en træningsplan risikerer du at træne for hårdt over længere tid, så kroppen langsomt nedbrydes i stedet for at blive bygget op. Du kan også at risikere at lave for lidt til at adaptationer ved træningen.
+{% include figure image_path="/assets/images/sanescohealth.com/General-Adaptation-Syndrome-Stages-804198dd.jpg" caption="Hans Selyes General Adaptation Syndrome (GAS). Kilde: Meyers: Exploring Psychology. Ninth Edition. [📷](https://sanescohealth.com/wp-content/uploads/2016/05/General-Adaptation-Syndrome-Stages.jpg){: rel='nofollow noopener' }" %}
 
-## Hvordan kan jeg planlægge for superkompensation?
+---
 
-Hvis du udnytter superkompensationsfasen til træningsblokke, så betyder en _deload_-uge ikke, at du ikke skal træne. Du skal bare træne med en mindre _load_ - og typisk gør man det med en mindre volumen.
+## Fra teori til matematik: Eric Banisters Fitness-Fatigue model
 
-Kroppen vil reagere positivt på den lavere volumen og kompensere ved at opbygge kroppen til et højere niveau.
+Hvor Selye beskrev princippet teoretisk, var det fysiologen **Eric Banister**, der i 1975 satte matematik på superkompensationen med sin kendte *Impulse-Response Model* (også kaldet **Fitness-Fatigue-modellen**).
 
-Jeg har ikke kunnet finde præcise vejledninger til, om det er mest effektivt at sænke volumen eller intensiteten for at forsøge at opnå superkompensation. Hvis du ved noget om det, så brug endelig kommentarerne.
+Banister påviste, at ethvert træningspas skaber two samtidige responser i kroppen:
 
-## Eksempel på superkompensation
+I 1975 opstillede fysiologen **Eric Banister** sin berømte *Impulse-Response Model*. Banister påviste, at ethvert træningspas påvirker kroppen med to samtidige responser, der har hver sin halveringstid:
 
-Når du udsætter kroppen for en stor belastning, fx gennem [intervaltræning](/intervaltraening/) eller et hårdt styrketræningspas, så vil kroppen tilpasse sig den nye belastning.
+1. **Fitness (Formfremgang - Blå kurve):** Opstår langsomt, men har en lang halveringstid ($\tau_1 \approx 45\text{ timer}$).
+2. **Fatigue (Træthed - Rød kurve):** Opstår akut og voldsomt, men klinger hurtigt af igen ($\tau_2 \approx 15\text{ timer}$).
 
-Kroppen genopbygger sig selv, så den bliver stærkere og bedre til at imødekomme det næste træningspas.
+Din reelle form (*Performance*) på et givet tidspunkt er forskellen mellem din Fitness og din Fatigue:
 
-Denne genopbygningfase kaldes for [restitutionsfasen](/restitution/). Hvor hurtigt [restitutionstiden](/restitutionstid/) i denne fase er afhænger af mange ting. Superkompensationsfasen viser at det er mest hensigtsmæssigt at have gennemgået restitutionsfasen, inden næste træningspas startes.
+$$P(t) = \text{Baseline} + \text{Fitness}(t) - \text{Fatigue}(t)$$
 
-Kroppen bliver dog ikke ved med at være i superkompensationsfasen. Hvis kroppen ikke får et stimulus igen, så vil man falde tilbage til det gamle træningsniveau og venter man endnu længere, så kommer man i dårligere form.
+Tryk på knappen **"🎯 Opbygning + Tapering (Peak)"** i modulet herunder for at se, hvorfor en *deload-uge* før en konkurrence udløser en enorm formtop:
 
-Når du planlægger din træning, så kan det altså være hensigtsmæssigt at have teorien om superkompensation i baghovedet.
+{% include components/banister-fitness-fatigue.html %}
 
-## General adaption syndrome (GAS)
+---
 
-Superkompensationsbegrebet er egentlig en del af teorien om _general adaption syndrome_, som Hans Selye først beskrev.
+## Superkompensationsteorien i din træningsplan
 
-{% include figure image_path="/assets/images/sanescohealth.com/General-Adaptation-Syndrome-Stages-804198dd.jpg" caption="Selyes General Adaption Syndrome. Kilde: Meyers: Exploring Psychology. Ninth Edition. [📷](https://sanescohealth.com/wp-content/uploads/2016/05/General-Adaptation-Syndrome-Stages.jpg){: rel='nofollow noopener' }" %}
+Superkompensation kan grundlæggende fortolkes og udnyttes på two niveauer:
+
+1. **Ugentlig basis (Mikrocyklus):** Hvor hver enkel træning har en effekt, du forsøger at udnytte ved at lægge næste pas på det optimale tidspunkt i ugen.
+2. **Træningsblokke (Meso- og makrocyklus):** Hvor du samler træningen i hårdere blokke (hvor du akkumulerer en smule træthed), som efterfølges af lettere perioder med [deload](/deload-uge/).
+
+Superkompensation er altså både et argument for at veksle mellem hårde og lette dage i ugen, og et argument for planlagte _deload_-uger.
+
+---
+
+## Prøv effekten af træningsplanlægning
+
+{% include components/superkompensation-multi-widget.html %}
+
+---
+
+## Hvordan planlægger jeg for superkompensation og deload?
+
+Hvis du udnytter superkompensationsfasen til træningsblokke, betyder en _deload_-uge ikke, at du skal ligge på sofaen. Du skal blot reducere din træningsbelastning (*load*).
+
+> **Skal man sænke volumen eller intensiteten under deload?**  
+> Forskningen inden for træningsfysiologi og *tapering* viser, at den mest effektive måde at udløse superkompensation på under en deload er at **sænke volumen (antal sæt eller kilometer) med 40–50 %, men bevare den høje intensitet (vægt på stangen eller tempo)**.  
+> 
+> Den høje intensitet vedligeholder dine neurale tilpasninger og muskelmasse, mens den reducerede volumen fjerner den ophobede træthed.
+
+---
+
+## Eksempel på superkompensation i praksis
+
+Når du udsætter kroppen for en stor belastning — f.eks. gennem hård [intervaltræning](/intervaltraening/) eller et tungt [styrketræningspas](/styrketraening/) — tilpasser kroppen sig:
+
+* **[Styrketræning](/styrketraening/):** Skaber store mekaniske vævsskader. Restitutionstiden til superkompensation tager typisk **48–72 timer**.
+* **Konditionstræning:** Tømmer primært glykogendepoterne. Superkompensation opnås typisk efter **24–48 timer**, afhængigt af din kost.
+
+Kroppen bliver dog ikke ved med at være i superkompensationsfasen. Hvis du venter for længe med at give et nyt stimulus, indtræder involutionsfasen, og du falder tilbage til dit udgangspunkt.
+
+Når du planlægger din træning, er det altså afgørende at have balancen mellem træningsstimulus, [restitutionstid](/restitutionstid/) og timers pause i baghovedet.
+
+---
 
 ## Opsamling på superkompensation
 
-Hvis du er i tvivl om, hvordan du skal oprette en træningsplan, så kan du lave en aftale med en personlig træner.
+* **Brug en træningsplan:** En gennemtænkt struktur hjælper dig med at veksle mellem intensitet og hvile, så du rammer superkompensationsfasen i stedet for at overbelaste kroppen.
+* **Lyt til kroppen:** Modeller og beregnere giver stærke retningslinjer, men søvn, kost og hverdagsstress påvirker din reelle restitution.
+* Hvis du er i tvivl om, hvordan du opbygger din træningsplan, kan det være en god idé at sparre med en fagperson eller en personlig træner.
+
+---
+
+## Ofte stillede spørgsmål om superkompensation
+
+{% include motionsplan/faq.html %}
+
+---
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Banister, E. W. 1991. “Modeling Elite Athletic Performance”. In *Physiological Testing of the High-Performance Athlete*, redigeret af J. D. MacDougall, H. A. Wenger, og H. J. Green, 2. udg., 403–24. Champaign, IL: Human Kinetics.
+- Mujika, I., og S. Padilla. 2003. “Scientific Bases for Tapering with a Focus on Highly Trained Athletes”. *Medicine & Science in Sports & Exercise* 35 (7): 1181–87. [https://doi.org/10.1249/01.MSS.0000074448.73931.11](https://doi.org/10.1249/01.MSS.0000074448.73931.11).
+- Selye, H. 1936. “A Syndrome Produced by Diverse Nocuous Agents”. *Nature* 138 (3479): 32. [https://doi.org/10.1038/138032a0](https://doi.org/10.1038/138032a0).
+</details>

@@ -11,8 +11,8 @@ header:
   teaser: /assets/images/i.ytimg.com/maxresdefault-edd65ea2.jpg
   caption: *title
 category:
-  - Tests
   - Cykling
+  - Cykeltests
 tags:
   - test
   - anaerob
@@ -27,6 +27,21 @@ meta:
   equipment: cykelergometer
   max: maksimal test
   direct: direkte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-wingate-cykel"
+    title: "Wingate 30 Sekunders Anaerob Test"
+    description: "Maksimal 30-sekunders all-out sprinttest på cykelergometer til bestemmelse af Peak Power Output (PPO), relativ power, anaerob kapacitet og Fatigue Index."
+    category: ["Tests", "Cykling", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🚴‍♂️ FYSISK TEST: Kræver 30 sekunders maksimal all-out fysisk anstrengelse
+    method: "direkte"                     # ⚡ Direkte wattmåling via cykelergometer/wattmåler
+    modality: ["Cykling"]
+    measures: ["Peak Power Output", "PPO", "Relative Peak Power", "RPP", "Anaerob Kapacitet", "Fatigue Index", "Anaerob power"]
+    equipment: ["Cykelergometer", "Wattbike", "Monark", "Wattmåler", "Stopur"]
+    setting: ["Fitnesscenter", "Klinik", "Laboratorietest", "Individuel"]
+    target_group: ["Motionister", "Atleter", "Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools: []
 last_modified_at: '2026-08-01T10:00:00Z'
 toc: true
 flashcards:

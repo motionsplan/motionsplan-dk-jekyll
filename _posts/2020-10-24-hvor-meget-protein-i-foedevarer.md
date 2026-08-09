@@ -22,6 +22,15 @@ faq:
   answer: Behovet afhænger af din vægt og træning. Du kan beregne dit præcise behov i vores [proteinniveau-beregner](/dagligt-protein-indtagelse/).
 - question: Hvilken fødevare har mest protein?
   answer: Mager kød som kyllingebryst, kalkun og magert oksekød indeholder mest protein pr. 100 gram (omkring 20-25 gram protein pr. 100 gram).
+tools:
+  - id: "tool-proteinberegner"
+    title: "Dagligt Proteinbehov Beregner"
+    description: "Beregn dit præcise daglige proteinbehov i gram baseret på din kropsvægt, dit aktivitetsniveau og dine træningsmål."
+    category: ["Kost & Ernæring"]
+    type: ["Beregner"]
+    measures: ["Proteinbehov", "Protein pr. dag", "Gram protein"]  # 🎯 Nøjagtige output-værdier fra beregneren
+    anchor: "#beregn-dit-daglige-proteinbehov"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Vil du vide, hvor meget protein der er i kylling, oksekød, grisekød eller æg? Og hvilke madvarer du skal gå efter, hvis du vil have mest muligt protein for pengene?

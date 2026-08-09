@@ -15,6 +15,7 @@ header:
 category:
   - Tests
   - Eksplosivitet
+  - Hoppetests
 tags:
   - test
   - springtest
@@ -38,6 +39,32 @@ meta:
   equipment: væg, kridt og målebånd
   max: maksimal test
   direct: direkte test
+tests:
+  - id: "test-sargent-jump"
+    title: "Sargent Jump Test"
+    description: "Klassisk vertikal hoppetest op ad en væg med kridt på fingrene til måling af stående rækkehøjde, maksimal hoppehøjde og underkroppens eksplosivitet."
+    category: ["Tests", "Eksplosivitet"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver maksimalt vertikalt hop mod væg
+    method: "direkte"                     # 📏 Måles direkte i cm (forskellen mellem kridtmærkerne på væggen)
+    modality: ["Hop"]
+    measures: ["Hoppehøjde", "Rækkehøjde", "Sargent Jump score", "Eksplosivitet", "Springstyrke"]
+    equipment: ["Væg", "Kridt", "Målebånd"]
+    setting: ["Skolebrug", "Gymnastiksal", "Hjemmetest", "Individuel", "Holdtest"]
+    target_group: ["Børn", "Unge", "Voksne", "Motionister", "Atleter", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-sargent-jump-score-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-sargent-jump-score-beregner"
+    title: "Sargent Jump Score Beregner"
+    description: "Beregn din hoppehøjde i centimeter ved at trække din stående rækkehøjde fra din målte springhøjde på væggen."
+    category: ["Eksplosivitet"]
+    type: ["Beregner"]
+    measures: ["Hoppehøjde", "Rækkehøjde", "Sargent Jump score"]  # 🎯 Output-parametre fra modulet
+    anchor: "#beregner-udregn-din-sargent-jump-score"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 **Sargent Jump Test** (opkaldt efter dr. Dudley Sargent) er en af de mest klassiske og udbredte hoppetests i verden. 

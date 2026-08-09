@@ -15,7 +15,7 @@ header:
   teaser: /assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg
   caption: 'Pulszoneberegner: Find dine personlige træningszoner 🫀'
 category:
-- Beregnere
+- Kondition
 - Pulstræning
 tags:
 - pulszoneberegner
@@ -42,6 +42,15 @@ meta:
   equipment: beregner
   measures: pulszoner
   type: pulstræning
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-pulszoneberegner"
+    title: "Pulszone- & Pulsreserve Beregner"
+    description: "Beregn dine personlige træningszoner ud fra maxpuls, hvilepuls (Karvonen/pulsreserve) eller laktattærskel (LTHR)."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 **Pulszoner er opdelinger af din puls, som bruges til præcist at styre intensiteten i din træning.** Ved at kende dine personlige træningszoner kan du ramme det helt rigtige fysiologiske energisystem i din [pulstræning](/pulstraening/) — uanset om målet er bedre udholdenhed, fedtforbrænding eller en højere VO₂max.

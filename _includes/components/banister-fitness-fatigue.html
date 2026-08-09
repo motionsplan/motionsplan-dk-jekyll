@@ -1,0 +1,239 @@
+<!-- Hent Chart.js til grafen -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="banister-widget" style="background: #ffffff; border: 1px solid #e0e0e0; padding: 24px; border-radius: 12px; font-family: system-ui, -apple-system, sans-serif; max-width: 760px; margin: 30px auto; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
+  
+  <h3 style="margin-top: 0; color: #111; font-size: 1.35rem; text-align: center;"> Banisters Fitness-Fatigue Model (2-Faktor Model)</h3>
+  <p style="text-align: center; font-size: 0.88em; color: #666; margin-bottom: 16px;">
+    Se hvordan træningen opbygger både <span style="color: #0275d8; font-weight: bold;">Fitness 🔵</span> og <span style="color: #d9534f; font-weight: bold;">Fatigue 🔴</span>, og hvordan deres forskel skaber din <span style="color: #2b8a3e; font-weight: bold;">Reelle Form 🟢</span>.
+  </p>
+
+  <!-- Preset Knapper / Scenarier -->
+  <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px;">
+    <button id="banOptimal" style="background: #ebfbee; border: 1px solid #2b8a3e; color: #2b8a3e; padding: 7px 12px; border-radius: 20px; font-weight: 600; font-size: 0.8em; cursor: pointer;">🎯 Opbygning + Tapering (Peak)</button>
+    <button id="banOverreach" style="background: #fff5f5; border: 1px solid #c92a2a; color: #c92a2a; padding: 7px 12px; border-radius: 20px; font-weight: 600; font-size: 0.8em; cursor: pointer;">🔥 Akkummuleret Træthed (Hard Block)</button>
+    <button id="banInfrequency" style="background: #fff9db; border: 1px solid #e67700; color: #e67700; padding: 7px 12px; border-radius: 20px; font-weight: 600; font-size: 0.8em; cursor: pointer;">😴 For sjældne pas (Fitness fader)</button>
+  </div>
+
+  <!-- Chart Canvas -->
+  <div style="position: relative; height: 320px; width: 100%; margin-bottom: 20px;">
+    <canvas id="banisterChart"></canvas>
+  </div>
+
+  <!-- Forklaring af de 3 kurver -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 15px; text-align: center; font-size: 0.82em;">
+    <div style="background: #eef7ff; border: 1px solid #bee3f8; padding: 10px; border-radius: 6px;">
+      <div style="color: #0275d8; font-weight: bold; font-size: 0.95em;">🔵 Fitness (Form)</div>
+      <div style="color: #555; margin-top: 3px;">Bygges langsomt op. Fader langsomt ($\tau = 45\text{t}$).</div>
+    </div>
+    <div style="background: #fff5f5; border: 1px solid #fed7d7; padding: 10px; border-radius: 6px;">
+      <div style="color: #d9534f; font-weight: bold; font-size: 0.95em;">🔴 Fatigue (Træthed)</div>
+      <div style="color: #555; margin-top: 3px;">Stiger akut og voldsomt. Fader hurtigt ($\tau = 15\text{t}$).</div>
+    </div>
+    <div style="background: #ebfbee; border: 1px solid #c6f6d5; padding: 10px; border-radius: 6px;">
+      <div style="color: #2b8a3e; font-weight: bold; font-size: 0.95em;">🟢 Performance (Reel Form)</div>
+      <div style="color: #555; margin-top: 3px;">Form = Baseline + Fitness - Fatigue.</div>
+    </div>
+  </div>
+
+  <!-- Dynamic Guide Text -->
+  <div style="background: #f8f9fa; border-left: 4px solid #0275d8; padding: 12px; border-radius: 0 6px 6px 0; font-size: 0.85em; color: #222; line-height: 1.4;">
+    <strong>Fysiologisk analyse:</strong> <span id="banisterText">Læser data...</span>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  
+  // Træningspas: { day: float, load: int }
+  let banWorkouts = [
+    { day: 1.0, load: 70 },
+    { day: 3.0, load: 70 },
+    { day: 5.0, load: 80 },
+    { day: 7.0, load: 80 },
+    { day: 9.0, load: 40 }, // Deload / Tapering
+    { day: 11.5, load: 30 }
+  ];
+
+  const ctx = document.getElementById('banisterChart').getContext('2d');
+  
+  const stepHours = 1;
+  const totalHours = 336; // 14 dage
+
+  const hourLabels = [];
+  for (let h = 0; h <= totalHours; h += stepHours) {
+    if (h % 24 === 0) {
+      hourLabels.push("Dag " + (h / 24).toFixed(0));
+    } else {
+      hourLabels.push("");
+    }
+  }
+
+  const banisterChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: hourLabels,
+      datasets: [
+        {
+          label: 'Fitness / Formopbygning',
+          data: [],
+          borderColor: '#0275d8',
+          borderWidth: 2.5,
+          tension: 0.1,
+          pointRadius: 0,
+          fill: false
+        },
+        {
+          label: 'Fatigue / Akkummuleret Træthed',
+          data: [],
+          borderColor: '#d9534f',
+          borderWidth: 2.5,
+          tension: 0.1,
+          pointRadius: 0,
+          fill: false
+        },
+        {
+          label: 'Reel Præstationsevne (Netto)',
+          data: [],
+          borderColor: '#2b8a3e',
+          borderWidth: 3.5,
+          tension: 0.1,
+          pointRadius: 0,
+          fill: false
+        },
+        {
+          label: 'Baseline (100%)',
+          data: Array(hourLabels.length).fill(100),
+          borderColor: '#ced4da',
+          borderWidth: 1.5,
+          borderDash: [3, 3],
+          pointRadius: 0,
+          fill: false
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'top' },
+        tooltip: {
+          callbacks: {
+            title: (items) => {
+              const h = items[0].dataIndex * stepHours;
+              return "Dag " + (h / 24).toFixed(1) + " (" + h + " timer)";
+            },
+            label: (item) => {
+              const val = item.raw.toFixed(1);
+              if (item.datasetIndex === 0) return ' 🔵 Fitness (Formfremgang): +' + val + '%';
+              if (item.datasetIndex === 1) return ' 🔴 Fatigue (Træthed): -' + val + '%';
+              if (item.datasetIndex === 2) return ' 🟢 Reel Form (Netto): ' + val + '%';
+              return '';
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          title: { display: true, text: 'Tidslinje (14 dage)' },
+          ticks: { maxTicksLimit: 15 }
+        },
+        y: {
+          title: { display: true, text: 'Niveau / Indeks (%)' },
+          suggestedMin: 70,
+          suggestedMax: 120
+        }
+      }
+    }
+  });
+
+  function calculateBanisterModel() {
+    const k1 = 0.08;   // Fitness faktor
+    const k2 = 0.28;   // Fatigue faktor
+    const tau1 = 45.0; // Fitness decay time constant (timer)
+    const tau2 = 15.0; // Fatigue decay time constant (timer)
+
+    const fitnessCurve = [];
+    const fatigueCurve = [];
+    const performanceCurve = [];
+
+    for (let h = 0; h <= totalHours; h += stepHours) {
+      let currentFitness = 0;
+      let currentFatigue = 0;
+
+      banWorkouts.forEach(w => {
+        const tStart = w.day * 24.0;
+        if (h >= tStart) {
+          const dt = h - tStart;
+          currentFitness += (k1 * w.load) * Math.exp(-dt / tau1);
+          currentFatigue += (k2 * w.load) * Math.exp(-dt / tau2);
+        }
+      });
+
+      const netPerf = 100.0 + currentFitness - currentFatigue;
+
+      fitnessCurve.push(currentFitness);
+      fatigueCurve.push(currentFatigue);
+      performanceCurve.push(netPerf);
+    }
+
+    banisterChart.data.datasets[0].data = fitnessCurve;
+    banisterChart.data.datasets[1].data = fatigueCurve;
+    banisterChart.data.datasets[2].data = performanceCurve;
+    banisterChart.update();
+
+    // Dynamisk forklaringstekst
+    const maxPerf = Math.max(...performanceCurve);
+    const maxPerfHour = performanceCurve.indexOf(maxPerf) * stepHours;
+    const maxPerfDay = (maxPerfHour / 24.0).toFixed(1);
+
+    const endPerf = performanceCurve[performanceCurve.length - 1].toFixed(1);
+
+    const textEl = document.getElementById('banisterText');
+    if (banWorkouts.some(w => w.load < 50)) {
+      textEl.innerHTML = "<strong>Tapering-effekten markeret:</strong> Ved at sænke belastningen sidst i perioden falder den røde <span style='color:#d9534f;'>Fatigue-kurve</span> lynhurtigt, mens den blå <span style='color:#0275d8;'>Fitness-kurve</span> holdes oppe. Det udløser en markant formtop (<span style='color:#2b8a3e;'>+" + (maxPerf - 100).toFixed(1) + "%</span>) omkring dag " + maxPerfDay + "!";
+    } else {
+      textEl.innerHTML = "Træningen opbygger støt din <span style='color:#0275d8;'>Fitness</span>. Bemærk hvordan din <span style='color:#2b8a3e;'>Reelle Form</span> altid dykker umiddelbart efter et pas pga. den akutte stigning i <span style='color:#d9534f;'>Fatigue</span>.";
+    }
+  }
+
+  // Presets
+  document.getElementById('banOptimal').addEventListener('click', () => {
+    banWorkouts = [
+      { day: 1.0, load: 70 },
+      { day: 3.0, load: 70 },
+      { day: 5.0, load: 80 },
+      { day: 7.0, load: 80 },
+      { day: 9.5, load: 35 }, // Tapering
+      { day: 11.5, load: 30 }
+    ];
+    calculateBanisterModel();
+  });
+
+  document.getElementById('banOverreach').addEventListener('click', () => {
+    banWorkouts = [
+      { day: 1.0, load: 85 },
+      { day: 2.0, load: 85 },
+      { day: 3.0, load: 85 },
+      { day: 4.0, load: 85 },
+      { day: 5.0, load: 85 },
+      { day: 6.0, load: 85 },
+      { day: 7.0, load: 85 },
+      { day: 8.0, load: 85 }
+    ];
+    calculateBanisterModel();
+  });
+
+  document.getElementById('banInfrequency').addEventListener('click', () => {
+    banWorkouts = [
+      { day: 1.0, load: 70 },
+      { day: 7.0, load: 70 },
+      { day: 13.0, load: 70 }
+    ];
+    calculateBanisterModel();
+  });
+
+  calculateBanisterModel();
+});
+</script>

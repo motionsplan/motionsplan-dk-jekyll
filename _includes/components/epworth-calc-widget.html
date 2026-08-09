@@ -1,0 +1,149 @@
+<div class="epworth-widget-container" style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; margin: 20px 0; font-family: inherit;">
+  <h3 style="margin-top: 0; color: #2b2b2b;">😴 Epworths Søvnighedsskala (ESS Test)</h3>
+  <p style="font-size: 0.9em; color: #555;">Hvor sandsynligt er det, at du ville døse hen eller falde i søvn i følgende situationer? Vurder ud fra din typiske hverdag på det seneste.</p>
+
+  <form id="epworth-form" onsubmit="event.preventDefault(); calculateEpworth();">
+    
+    <!-- Spørgsmål 1 -->
+    <div style="background: #ffffff; padding: 12px 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 12px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 6px; font-size: 0.9em;">1. Sidder og læser</label>
+      <select name="e1" style="width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #ccc; font-size: 0.9em;" required>
+        <option value="0">0 = Ville aldrig falde i søvn</option>
+        <option value="1">1 = Lille risiko for at falde i søvn</option>
+        <option value="2">2 = Moderat risiko for at falde i søvn</option>
+        <option value="3">3 = Stor risiko for at falde i søvn</option>
+      </select>
+    </div>
+
+    <!-- Spørgsmål 2 -->
+    <div style="background: #ffffff; padding: 12px 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 12px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 6px; font-size: 0.9em;">2. Ser TV</label>
+      <select name="e2" style="width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #ccc; font-size: 0.9em;" required>
+        <option value="0">0 = Ville aldrig falde i søvn</option>
+        <option value="1">1 = Lille risiko for at falde i søvn</option>
+        <option value="2">2 = Moderat risiko for at falde i søvn</option>
+        <option value="3">3 = Stor risiko for at falde i søvn</option>
+      </select>
+    </div>
+
+    <!-- Spørgsmål 3 -->
+    <div style="background: #ffffff; padding: 12px 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 12px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 6px; font-size: 0.9em;">3. Sidder passivt et offentligt sted (f.eks. i teateret eller til et møde)</label>
+      <select name="e3" style="width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #ccc; font-size: 0.9em;" required>
+        <option value="0">0 = Ville aldrig falde i søvn</option>
+        <option value="1">1 = Lille risiko for at falde i søvn</option>
+        <option value="2">2 = Moderat risiko for at falde i søvn</option>
+        <option value="3">3 = Stor risiko for at falde i søvn</option>
+      </select>
+    </div>
+
+    <!-- Spørgsmål 4 -->
+    <div style="background: #ffffff; padding: 12px 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 12px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 6px; font-size: 0.9em;">4. Sidder som passager i en bil i uafbrudt en time</label>
+      <select name="e4" style="width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #ccc; font-size: 0.9em;" required>
+        <option value="0">0 = Ville aldrig falde i søvn</option>
+        <option value="1">1 = Lille risiko for at falde i søvn</option>
+        <option value="2">2 = Moderat risiko for at falde i søvn</option>
+        <option value="3">3 = Stor risiko for at falde i søvn</option>
+      </select>
+    </div>
+
+    <!-- Spørgsmål 5 -->
+    <div style="background: #ffffff; padding: 12px 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 12px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 6px; font-size: 0.9em;">5. Ligger ned og hviler dig om eftermiddagen, når omstændighederne tillader det</label>
+      <select name="e5" style="width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #ccc; font-size: 0.9em;" required>
+        <option value="0">0 = Ville aldrig falde i søvn</option>
+        <option value="1">1 = Lille risiko for at falde i søvn</option>
+        <option value="2">2 = Moderat risiko for at falde i søvn</option>
+        <option value="3">3 = Stor risiko for at falde i søvn</option>
+      </select>
+    </div>
+
+    <!-- Spørgsmål 6 -->
+    <div style="background: #ffffff; padding: 12px 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 12px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 6px; font-size: 0.9em;">6. Sidder og taler med en anden person</label>
+      <select name="e6" style="width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #ccc; font-size: 0.9em;" required>
+        <option value="0">0 = Ville aldrig falde i søvn</option>
+        <option value="1">1 = Lille risiko for at falde i søvn</option>
+        <option value="2">2 = Moderat risiko for at falde i søvn</option>
+        <option value="3">3 = Stor risiko for at falde i søvn</option>
+      </select>
+    </div>
+
+    <!-- Spørgsmål 7 -->
+    <div style="background: #ffffff; padding: 12px 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 12px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 6px; font-size: 0.9em;">7. Sidder stille efter et måltid mad (uden alkohol)</label>
+      <select name="e7" style="width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #ccc; font-size: 0.9em;" required>
+        <option value="0">0 = Ville aldrig falde i søvn</option>
+        <option value="1">1 = Lille risiko for at falde i søvn</option>
+        <option value="2">2 = Moderat risiko for at falde i søvn</option>
+        <option value="3">3 = Stor risiko for at falde i søvn</option>
+      </select>
+    </div>
+
+    <!-- Spørgsmål 8 -->
+    <div style="background: #ffffff; padding: 12px 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 12px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 6px; font-size: 0.9em;">8. I en bil, der holder stille i et par minutter pga. tæt trafik</label>
+      <select name="e8" style="width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #ccc; font-size: 0.9em;" required>
+        <option value="0">0 = Ville aldrig falde i søvn</option>
+        <option value="1">1 = Lille risiko for at falde i søvn</option>
+        <option value="2">2 = Moderat risiko for at falde i søvn</option>
+        <option value="3">3 = Stor risiko for at falde i søvn</option>
+      </select>
+    </div>
+
+    <button type="submit" style="background: #0056b3; color: white; border: none; padding: 12px 20px; border-radius: 4px; font-weight: bold; cursor: pointer; width: 100%; font-size: 1em; margin-top: 10px;">
+      Beregn min søvnighedsscore
+    </button>
+  </form>
+
+  <div id="epworth-results" style="margin-top: 20px; display: none;">
+    <!-- Resultater genereres her -->
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #dee2e6; margin: 20px 0 15px 0;">
+
+  <div style="font-size: 0.82em; color: #6c757d; line-height: 1.4;">
+    <strong>Kreditering og metode:</strong> Epworth Sleepiness Scale (ESS) er udviklet af Dr. Murray Johns (1991). Testen er vejledende og erstatter ikke medicinsk udredning hos lægen.
+  </div>
+</div>
+
+<script>
+function calculateEpworth() {
+  const form = document.getElementById('epworth-form');
+  let totalScore = 0;
+
+  for (let i = 1; i <= 8; i++) {
+    totalScore += parseInt(form.elements['e' + i].value);
+  }
+
+  let category = "";
+  let badgeColor = "";
+  let description = "";
+
+  if (totalScore <= 10) {
+    category = "Normal dagtræthed";
+    badgeColor = "#28a745";
+    description = "Din score ligger inden for det normale område. Du udviser ikke tegn på overdreven dagssøvnighed.";
+  } else if (totalScore >= 11 && totalScore <= 15) {
+    category = "Mild til moderat dagssøvnighed";
+    badgeColor = "#fd7e14";
+    description = "Du har en forhøjet tendens til at falde i søvn om dagen. Det kan skyldes utilstrækkelig søvnkvalitet, for få søvncyklusser eller en utilpasset døgnrytme.";
+  } else {
+    category = "Svær dagssøvnighed";
+    badgeColor = "#dc3545";
+    description = "Din score er markant forhøjet. Det anbefales, at du kontakter din læge med henblik på udredning for søvnsygdomme (som f.eks. søvnapnø).";
+  }
+
+  const resultsDiv = document.getElementById('epworth-results');
+  resultsDiv.style.display = 'block';
+  resultsDiv.innerHTML = `
+    <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid ${badgeColor};">
+      <h4 style="margin-top: 0; color: ${badgeColor};">Dit resultat:</h4>
+      <p style="font-size: 1.1em; margin-bottom: 8px;"><strong>Samlet score:</strong> <span style="background: ${badgeColor}; color: white; padding: 3px 8px; border-radius: 4px; font-weight: bold;">${totalScore} ud af 24 point</span></p>
+      <p style="margin-bottom: 8px;"><strong>Vurdering:</strong> ${category}</p>
+      <p style="font-size: 0.95em; color: #333; margin-bottom: 0;">${description}</p>
+    </div>
+  `;
+}
+</script>

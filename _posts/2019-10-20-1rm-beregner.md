@@ -24,7 +24,6 @@ header:
     rel: nofollow noopener
   overlay_filter: '0.3'
 category:
-- Beregnere
 - Styrketræning
 tags:
 - beregner
@@ -39,13 +38,32 @@ meta:
   type: "beregner"
   intensity: "submaksimal"
   method: "formel"
+page_type: "spoke"
+tests:
+  - id: "test-submaksimal-rm-test"
+    title: "Submaksimal RM-test (1RM-estimering)"
+    description: "Løft en vægt 2-10 gange til udmattelse i en valgt øvelse for indirekte at beregne dit 1RM max uden skadesrisikoen ved et maksimalt løft."
+    category: ["Styrketræning"]
+    type: ["Protokol", "Fysisk test"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Måler reps/kg for at beregne 1RM
+    modality: ["Frie vægte", "Styrketræning"]
+    measures: ["1RM", "Max-styrke", "Styrke"]
+    equipment: ["Vægtstang", "Håndvægte", "Træningsudstyr"]
+    setting: ["Individuel", "Styrkecenter"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-1rm-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "1RM Beregner til Styrketræning"
+  - id: "tool-1rm-beregner"
+    title: "1RM Beregner til Styrketræning"
     description: "Udregn dit 1RM max ud fra vægt og gentagelser i øvelser som bænkpres, squat og dødløft."
+    category: ["Styrketræning"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "styrke"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-24T07:14:14Z'
 toc: 'true'
 feature_row_sheet:

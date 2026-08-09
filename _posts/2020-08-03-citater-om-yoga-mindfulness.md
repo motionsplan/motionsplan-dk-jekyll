@@ -1,9 +1,9 @@
 ---
-title: 13 citater om yoga, meditation og mindfulness
+title: 15 citater om yoga, meditation og mindfulness
+seo_title: Citater om yoga, meditation og mindfulness (Inspiration)
 permalink: /citater-yoga-meditation-mindfulness/
-excerpt: Der findes mange inspirerende citater om yoga, mindfulness og meditation. Jeg har samlet en række citater, der kan
-  inspirere dig på din spirituelle vej.
-last_modified_at: '2020-12-29T09:41:09Z'
+excerpt: Find ro og nærvær med 15 inspirerende citater om yoga, meditation og mindfulness fra Dalai Lama, Patanjali, Iyengar og Gandhi.
+last_modified_at: '2026-08-08T12:00:00Z'
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1487088678257-3a541e6e3922.jpg
@@ -81,7 +81,7 @@ Her er bl.a. citater fra B. K. S. Iyengar, Dalai Lama, Gandhi og Yogi Bhajan.
 ***
 {% endfor %}
 
-## Citater om yoga, mindfulness og meditation på Pinterest
+## Citater om yoga, indre balance og meditation på Pinterest
 
 Jeg har lavet et board med citater om yoga på Pinterest. Skynd dig ind og følge det og foreslå gerne dine egne citater også.
 
@@ -96,7 +96,11 @@ Du kender sikkert også en masse forskellige citater, som du bruger som motivati
 
 Husk også at tjekke vores [træningscitater om løb, styrketræning og motivation](/citater-traening-motivation/), inden du drager videre på din søgen.
 
-Husk også at tjekke vores side om [De fem tibetanere](/artikel/de-fem-tibetanere/) og [solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/).
+## Udforsk mere yoga på Motionsplan
+
+Vil du fordybe dig mere i din praksis? Tjek vores populære guider:
+* **[De Fem Tibetanere](/artikel/de-fem-tibetanere/):** Det klassiske foryngende yogaprogram.
+* **[Solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/):** Trin-for-trin guide til Surya Namaskar.
 
 ## Flere citater
 

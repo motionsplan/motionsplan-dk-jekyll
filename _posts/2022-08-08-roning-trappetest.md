@@ -9,7 +9,8 @@ header:
   credit: https://images.unsplash.com/photo-1520536363714-9459b8f1af72
   caption: 'Trappetest i roning: Test din maksimale præstation'
 category:
-- Træning
+- Kondition
+- Konditionstests
 - Roning
 tags:
 - test
@@ -22,6 +23,33 @@ meta:
   equipment: roergometer
   measures: anaerob tærskel
   type: rotest
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-trappetest-roning"
+    title: "Trappetest i Roning (Kurt Jensen / ATRO)"
+    description: "Maksimal, trinvist stigende ergometertest i roning (5 minutter pr. trin) til vurdering af roerens maksimale iltoptagelse (VO2max) og kondital."
+    category: ["Tests", "Roning", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🚣‍♂️ FYSISK TEST: Kræver maksimal roindsats i roergometer til udmattelse
+    method: "indirekte"                   # 📊 Indirekte estimering af VO2max ud fra opnået watt-belastning
+    modality: ["Roning"]
+    measures: ["Kondital", "VO2max", "Watt", "Maksimal ydeevne", "Anaerob tærskel"]
+    equipment: ["Roergometer (fx Concept2)", "Pulsmåler"]
+    setting: ["Indendørs", "Ro-klub", "Testcenter", "Individuel"]
+    target_group: ["Roere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-roning-trappetest-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-roning-trappetest-beregner"
+    title: "Trappetest Roning Beregner"
+    description: "Interaktiv beregner til udregning af dit kondital og VO2max i l/min baseret på dit slutresultat i rotrappetesten."
+    category: ["Roning", "Kondition", "Tests"]
+    type: ["Beregner"]
+    measures: ["Kondital", "VO2max", "Slut-watt"]  # 🎯 Output-parametre fra modulet
+    anchor: "#beregner-til-trappetesten-i-roning"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2022-08-11T10:21:26Z'
 ---
 

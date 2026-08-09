@@ -13,21 +13,30 @@ category:
 - Løb
 tags:
 - løb
-last_modified_at: '2026-08-01T10:00:00Z'
+tools:
+  - id: "tool-loebekadence-widget"
+    title: "Løbekadence Måler & Metronom"
+    description: "Interaktivt værktøj til at måle din nuværende løbekadence (SPM) ved at tappe i takt på skærmen eller træne din skridtfrekvens med den indbyggede metronom."
+    category: ["Løb"]
+    type: ["Beregner"]
+    measures: ["Løbekadence", "Kadence", "SPM", "Skridtfrekvens"]  # 🎯 Output-parametre fra modulet
+    anchor: "#vaerktoej-til-loebekadence-metronom--kadencemaaler"
+    category_schema: "HealthAndFitnessApplication"
+last_modified_at: '2026-08-08T12:00:00Z'
 toc: 'true'
 garmin_metronom:
 - image_path: /assets/images/blog/lobekadence-garmin-metronom-1.jpg
 - image_path: /assets/images/blog/lobekadence-garmin-metronom-2.jpg
 - image_path: /assets/images/blog/lobekadence-garmin-metronom-3.jpg
 faq:
-- question: Hvad er den gennemsnitlige skridtlængde ved løb for mænd og kvinder?
-  answer: 'Ved almindeligt moderat løbetempo (5k/10k) er den gennemsnitlige skridtlængde ca. 1,1–1,3 meter for kvinder og ca. 1,2–1,5 meter for mænd. Ved sprint kan skridtlængden nå op på 2,0–2,5 meter.'
-- question: Hvad er en god løbekadence?
-  answer: 'En god løbekadence for motionister ligger typisk mellem 165 og 180 skridt pr. minut (SPM). Eliteløbere ligger ofte stabilt omkring 180–190 skridt pr. minut uanset tempo.'
-- question: Hvordan beregner man sin skridtlængde ud fra kadence og fart?
-  answer: 'Du kan beregne din skridtlængde med formlen: Skridtlængde (i meter) = Hastighed (i meter pr. minut) / Kadence (skridt pr. minut).'
-- question: Er en højere løbekadence bedre mod løbeskader?
-  answer: 'Ja, forskning viser, at en øgning i løbekadencen på 5-10% kan reducere belastningen på knæ- og hofteled samt mindske bremsekraften i landingen, hvilket kan nedsætte risikoen for løbeskader.'
+  - q: "Hvad er den gennemsnitlige skridtlængde ved løb for mænd og kvinder?"
+    a: "Ved almindeligt moderat løbetempo (5k/10k) er den gennemsnitlige skridtlængde ca. 1,1–1,3 meter for kvinder og ca. 1,2–1,5 meter for mænd. Ved sprint kan skridtlængden nå op på 2,0–2,5 meter."
+  - q: "Hvad er en god løbekadence?"
+    a: "En god løbekadence for motionister ligger typisk mellem 165 og 180 skridt pr. minut (SPM). Eliteløbere ligger ofte stabilt omkring 180–190 skridt pr. minut uanset tempo."
+  - q: "Hvordan beregner man sin skridtlængde ud fra kadence og fart?"
+    a: "Du kan beregne din skridtlængde med formlen: Skridtlængde (i meter) = Hastighed (i meter pr. minut) / Kadence (skridt pr. minut)."
+  - q: "Er en højere løbekadence bedre mod løbeskader?"
+    a: "Ja, forskning viser, at en øgning i løbekadencen på 5-10% kan reducere belastningen på knæ- og hofteled samt mindske bremsekraften i landingen, hvilket kan nedsætte risikoen for løbeskader."
 ---
 
 Du har formentlig tænkt over, hvad din skridtlængde og løbekadence er, når du løber? Din kadence og skridtlængde under løb er med til at bestemme, hvor hurtigt du løber.
@@ -68,6 +77,14 @@ Du kan helt sikkert sagtens løbe med 160 skridt i minuttet og ikke lande helt s
 
 Både skridtlængden og kadencen har selvfølgelig betydning for din hastighed. Hvis du begynder at løbe med hurtigere kadence i samme tempo, så vil din skridtlængde naturligvis blive kortere.
 
+## Værktøj til løbekadence: Metronom & Kadencemåler
+
+Vil du kende din præcise løbekadence og træne din rytme? Med vores interaktive værktøj kan du enten **måle din nuværende kadence** (ved at tappe i takt på skærmen) eller **træne din skridtfrekvens** med den indbyggede metronom.
+
+Forskning viser, at en gradvis forøgelse af kadencen på blot 5% kan reducere stød-belastningen på knæ og hofter betragteligt. Brug metronomen herunder til at indstille dit måltempo (f.eks. klassiske 180 SPM) og hold rytmen under din træning.
+
+{% include components/running-cadence-widget.html %}
+
 ## Hvordan kommer du i gang med at arbejde med din løbekadence?
 
 For at blive en hurtigere løber skal du enten tage flere skridt eller tage længere skridt. Langt de fleste løbecoaches vil starte med kadencen. Først kan du prøve at tælle din løbekadence. Hvor mange skridt tager du pr. minut? Hvis din kadence er under 180, så foreslår [Aktiv Motion](https://web.archive.org/web/20191230183153/http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/){: rel="nofollow noopener" }, at du forestiller dig, at dine ben er hjul, der bare kører afsted.
@@ -98,7 +115,7 @@ En metronom kan være med til at hjælpe dig med at fokusere på at få en hurti
 
 Hvis du gerne vil træne din løbekadence, så er det vigtigt, at du langsomt skruer den op til den nye ønskede kadence. Derfor skal du først finde din nuværende kadence. Du skal derfor prøve at sætte metronomen til din nuværende naturlige kadence.
 
-Jeg synes det er lettest, hvis jeg prøver at tælle alle skridt på mit højre ben i et minut og gange med to. Derefter sætter jeg den værdi i metronomen og prøver at see om det passer til mit løb. Hvis den gør det, så kan du bruge den de næste gange du er ude at løbe, så du holder den samme kadence uanset terrænet. Du løber ligeud, nedad bakke, opad bakke, i modvind, i regnvejr, så holder du kadencen.
+Jeg synes det er lettest, hvis jeg prøver at tælle alle skridt på mit højre ben i et minut og gange med to. Derefter sætter jeg den værdi i metronomen og prøver at se om det passer til mit løb. Hvis den gør det, så kan du bruge den de næste gange du er ude at løbe, så du holder den samme kadence uanset terrænet. Du løber ligeud, nedad bakke, opad bakke, i modvind, i regnvejr, så holder du kadencen.
 
 Hver uge skruer du langsomt op for metronomen, så din løbekadence bliver hurtigere og hurtigere, indtil du når op omkring 180 skridt pr. minut.
 

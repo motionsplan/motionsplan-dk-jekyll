@@ -1,9 +1,6 @@
 Styrkeløft:
   title: Styrkeløft
   url: /styrkeloeft/
-Eksplosivitet:
-  title: Eksplosivitet
-  url: /eksplosivitet/
 Kost & Ernæring:
   title: Kost & Ernæring
   url: /kost-ernaering/
@@ -55,12 +52,22 @@ Cykling:
 Cykeltests:
   title: Cykeltests
   url: /tests/cykling/
+
+Eksplosivitet:
+  title: Eksplosivitet
+  url: /eksplosivitet/
 Springtræning:
   title: Springtræning
   url: /springtraening/
 Springtests:
   title: Spring & Hoppetests
   url: /springtests-hoppehoejde/
+Sprinttests:
+  title: Sprinttests
+  url: /tests/sprint/
+Retningsskifttests:
+  title: COD
+  url: /retningsskift-test/
 
 Kalorieberegnere:
   title: Kalorieberegnere

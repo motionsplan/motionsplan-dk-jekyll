@@ -13,6 +13,7 @@ header:
   caption: *title
 category:
   - Kondition
+  - Konditionstests
 meta:
   name: "Åstrands 2-punktstest"
   measures: "kondital"
@@ -21,13 +22,32 @@ meta:
   max: "submaksimal"
   method: "indirekte"
   intensity: "moderat"
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-astrand-2-punktstest"
+    title: "Åstrands 2-punktstest (Cykel)"
+    description: "Submaksimal cykeltest på ergometercykel med to belastningstrin og pulsmålinger i steady state til estimering af VO2max og kondital."
+    category: ["Kondition", "Cykling"]        # 💡 Søgbar under BÅDE Kondition og Cykling i test-databasen
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Ekstrapolering af iltoptagelse ud fra pulsrespons ved to watt-belastninger
+    modality: ["Cykling"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
+    equipment: ["Ergometercykel", "Wattmåler", "Pulsmåler"]
+    setting: ["Fitnesscenter", "Klinik", "Laboratorietest", "Individuel"]
+    target_group: ["Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
+    related_tools: ["tool-astrand-2-punktstest-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Åstrands 2-punktstest Beregner"
+  - id: "tool-astrand-2-punktstest-beregner"
+    title: "Åstrands 2-punktstest Beregner"
     description: "Beregn dit kondital (VO2max) ud fra en submaksimal cykeltest med to belastninger og pulsmålinger på ergometercykel."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "kondital"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
   - test
   - konditionstest

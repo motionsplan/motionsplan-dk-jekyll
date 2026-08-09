@@ -1,201 +1,190 @@
 ---
-title: Kadence i cykling og 'det runde tråd'
+layout: single
+title: "Kadence i cykling: Hvad betyder det, og hvad er optimal RPM?"
+seo_title: "Kadence i cykling | Hvad betyder det, og hvad er optimal RPM?"
+excerpt: "Lær hvad kadence (RPM) betyder i cykling, forskellen på høj og lav kadence, hvad 'det runde tråd' er, og hvordan du finder din optimale pedalhastighed."
 permalink: /kadence-og-runde-traad/
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1628176634111-3e6eac912d5c.jpg
-  credit: https://images.unsplash.com/photo-1628176634111-3e6eac912d5c
-  caption: Kadence i cykling og 'det runde tråd'
+  caption: Kadence i cykling og det runde tråd
+  overlay_image: /assets/images/unsplash/photo-1628176634111-3e6eac912d5c.jpg
+  overlay_filter: "0.3"
 category:
   - Cykling
 tags:
   - cykling
-last_modified_at: '2022-01-20T08:14:14Z'
-toc: 'true'
+  - kadence
+  - cykelteknik
+  - rpm
+last_modified_at: '2026-08-08T10:00:00Z'
+toc: true
+faq:
+  - question: "Hvad betyder kadence i cykling?"
+    answer: "Kadence i cykling angiver, hvor hurtigt du træder pedalerne rundt. Det måles i RPM (Revolutions Per Minute - omdrejninger pr. minut)."
+  - question: "Hvad er den optimale kadence på en racercykel?"
+    answer: "For de fleste motions- og elitecyklister på landevej ligger den mest effektive kadence typisk mellem 80 og 100 RPM på flad vej, mens den på stigninger ofte falder til 70-85 RPM."
+  - question: "Hvad er forskellen på høj og lav kadence?"
+    answer: "Lav kadence (tunge gear) belaster musklerne hårdere og rekrutterer hurtige muskelfibre. Høj kadence (lette gear) flytter belastningen over på kredsløbet (puls og lunger) og skåner benmusklerne mod udtrætning."
 ---
 
-Kadence i cykling og 'det runde tråd' er begreber, man hører ofte. Men hvad er egentlig en optimal kadence, og hvad betyder 'et rundt tråd'?
+Når du cykler, er din hastighed et produkt af to ting: Hvor hårdt du træder i pedalerne (gearet/modstanden), og hvor hurtigt du drejer pedalerne rundt (din kadence). 
 
-I dette indlæg dykker vi lidt ned i, hvad kadence betyder på en cykel, og hvor mange _rounds per minute (RPM)_ det er mest optimalt og effektivt at cykle med.
+<div class="notice--info" markdown="1">
+### 🚴 Hvad betyder kadence i cykling?
+**Kadence** (i daglig tale også stavet *kadance*) er et udtryk for din pedalhastighed. Det måles i **RPM** (*Revolutions Per Minute* – omdrejninger pr. minut), som angiver, hvor mange gange dine pedaler kører en hel omgang (360 grader) rundt i minuttet.
 
-Derefter kigger vi lidt på, hvad et rundt tråd er, og hvordan du kan træne det.
+👉 **Leder du efter cykeltræning?** Se meget mere i vores **[cykelguide](/cykling/)**.
+</div>
 
-Netop kadencen er noget af det, Rolf Sørensen og Jørgen Leth kalder den smukke gentagelse, som du kan læse mere om i deres bog med samtaler om cykling.
+I denne guide kigger vi på, hvad der definerer en optimal kadence, forskellen på at køre med "musklerne" kontra "lungerne", hvad det vil sige at være "ovenpå pedalerne", og hvordan du træner **det runde tråd**.
 
-{% include figure image_path="https://images.unsplash.com/photo-1516725630185-19ae408fbc83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="At finde den rigtige kadence på cyklen for at være mest effektiv på cyklen kan hjælpe dine præstationer." alt="kadence cykling" %}
+---
 
-## Findes der en optimal kadence i cykling?
+## Hvad er en optimal kadence i cykling?
 
-Der findes ikke nogen kadence i cykling, som er optimal for alle. Tommelfingerreglen er, at du skal holde en kadence på omkring 80-100 rpm, når du kører landevejscykling. Men det er et ret stort spænd, så derfor skal du i gang med at finde din egen optimale og effektive kadence.
+Der findes ikke én enkelt kadence, som er 100 % optimal for alle cyklister under alle forhold. 
 
-Der er lavet forskellige videnskabelige studier på en effektiv kadence, men de giver ikke noget entydigt svar på, hvad den optimale kadence er i cykling.
+Som en generel tommelfingerregel anbefales det, at du holder en kadence på omkring **80–100 RPM** ved landevejscykling på flad vej. Når det går opad på stigninger, falder kadencen for de fleste naturligt til **70–85 RPM**.
 
-Der er mange eksempler på cykelryttere, som klarer sig på topniveau med vidt forskellig kadence.
+{% include figure image_path="https://images.unsplash.com/photo-1516725630185-19ae408fbc83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="At finde din personlige og mest effektive kadence på cyklen er nøglen til bedre præstationer og mindre træthed." alt="kadence cykling" %}
 
-I cykelsporten taler man sommetider om at "være ovenpå pedalerne". Men hvad betyder det at være ovenpå pedalerne?
+Kigger man på professionelle cykelryttere, ser man store individuelle forskelle:
+* **Chris Froome:** Kendt for sin ekstremt høje kadence (ofte over 100–105 RPM) – selv når han angreb på stejle bjergsider.
+* **Alejandro Valverde / Jan Ullrich:** Kendt for at køre i tungere gear med en lavere, mere magtfuld kadence.
 
-{% comment %}
+Både videnskabelige studier og praksis viser, at den mest økonomiske kadence ændrer sig i takt med, hvor mange watt du træder. Ved lav belastning (hyggecykling) er en lavere kadence (60–70 RPM) ofte mest iltbesparende, mens en højere kadence (80–100+ RPM) bliver langt mere effektiv, når du træder mange watt.
 
-https://www.trainerroad.com/blog/whats-the-most-efficient-cycling-cadence-and-how-cadence-drills-can-make-you-faster/
+---
 
-https://cykler.narkive.dk/GVx23dEc/hvad-er-den-optimale-kadence
+## Forskellen på lav og høj kadence: Muskler vs. Lunger
 
-https://videnskab.dk/krop-sundhed/traed-i-pedalerne-som-du-plejer-teknikken-betyder-ikke-noget-saerligt
+Lidt forsimplet kan man opdele kadencestrategi i to fysiologiske tilgange:
 
-***
+> **Lav kadence = Du kører med musklerne**  
+> **Høj kadence = Du kører med lungerne (kredsløbet)**
 
-https://www.datasport.com/en/essentials/figuring-out-the-correct-pedal-stroke/
+### Lav kadence (Tunge gear / < 80 RPM)
+Når du kører med lav kadence ved et højt watttal, skal du præstere en kraftigere sammentrækning i benmusklerne for hvert enkelt tråd. 
+* **Muskelfibre:** Du rekrutterer i højere grad dine hurtige, anaerobe muskelfibre (Type II).
+* **Træthed:** Du opbygger hurtigere lokal muskulær træthed og affaldsstoffer i forlår og baller.
+* **Puls:** Pulsen er typisk lavere i forhold til det trådte watttal.
 
-Fra verdenen uden for laboratorierne er der også talrige eksempler på, at cykelryttere og triatleter præsterer på topniveau med vidt forskellig kadence.
+### Høj kadence (Lette gear / > 90 RPM)
+Når du træder samme watttal med høj kadence, er den mekaniske belastning pr. pedalomdrejning mindre.
+* **Muskelfibre:** Du skåner de eksplosive muskelfibre og benytter overvejende de udholdende, aerobe muskelfibre (Type I).
+* **Kredsløb og puls:** Hurtige bevægelser genererer mere varme og kræver hurtigere iltomsætning. Din puls vil være forhøjet, fordi kredsløbet og lungerne skal arbejde hårdere for at levere ilt og afkøle kroppen.
 
-Det gælder både, når de kører jævnt, og når de accelererer (tænk fx i forskellen på kadencen, når hhv. Valverde og Froome angriber). Også det styrker argumentet imod, at der skulle findes en generel optimal kadence.
+Det er grunden til, at sprintstærke, eksplosive ryttere (som Valverde) ofte foretrækker at angribe i et tungere gear, mens ryttere med et fænomenalt iltoptag (som Froome) foretrækker et lavere gear og højere kadence.
 
-Forskellen på lav og høj kadence
-Lidt forsimplet kan man sige, at høj kadence svarer til at køre med lungerne, mens lav kadence er at køre med musklerne.
+---
 
-En lav kadence betyder, at du laver kraftigere muskelsammentrækninger, i forhold til når du kører samme watttal med en højere kadence.
+## Hvad betyder det at være "ovenpå pedalerne"?
 
-Når du kører et givent watttal med lav kadence, vil du i højere grad rekrutterer hurtige muskelfibre, end hvis du træder samme watttal med højere kadence.
+I cykelsporten har trænere i årtier sagt, at man skal være *"ovenpå pedalerne"*. Det handler om din oplevede anstrengelse gennem pedalomdrejningen – særligt i **det døde punkt**.
 
-Af den grund vil anaerobt stærke ryttere tit foretrække at angribe i stort gear og lav kadence, mens anaerobt knapt så stærkere ryttere foretrækker et lavere gear og højere kadence (jvf. sammenligningen med Valverde, som er sprintstærk, og Froome).
+### Det døde punkt (Kl. 12)
+Når pedalarmen nærmer sig sin øverste position (omkring klokken 12) og skal passere over toppen, er dit mekaniske moment på sit absolut laveste. Hvis gearet er for tungt, eller din kadence er for lav, vil du føle, at foden "staller" eller møder modstand lige over toppen.
 
-Mens den lave kadence rekrutterer flere hurtige muskelfibre, så vil du i stedet have forhøjet puls, når du kører høj kadence.
+Hvis du er besværet over det døde punkt, er gearet for tungt. Det vil udtrætte dine lår på få minutter.
 
-Højere kadence er lig hurtige bevægelser og dermed større varmeproduktion. Den forhøjede puls hjælper dig til at komme af med varmen.
+### Peak moment (Kl. 3 til 5)
+Dit moment er biomekanisk højest fra klokken 3 til 5, hvor du skubber nedad med lårmusklerne. 
 
-## Din optimale kadence
+At være "ovenpå pedalerne" betyder, at du har tilstrækkeligt overskud og fart i pedalerne til ubesværet at køre igennem det døde punkt ved klokken 12, så du fastholder dit momentum hele vejen rundt.
 
-Det er individuelt, hvad der virker bedst for os. Du er derfor bedst tjent med at arbejde med den oplevede anstrengelse. Det gælder især, når intensiteten er medium og høj (fx i tidskørsler, lange udbrud og på lange stigninger).
+---
 
-Der er et gammel udtryk i cykelsporten, som siger, at du skal være “ovenpå pedalerne”. Med det menes, at du ubesværet skal kunne holde dit moment, når du træder.
+## Det runde tråd: Hvordan ser et godt tråd ud?
 
-Du må ikke være besværet, når du skal træde gennem det “døde punkt” på toppen – dvs. når pedalarmen nærmer sig sin øverste position og skal passere “kl. 12”.
+Mange taler om "det runde tråd", men reelt er et pedaltråd aldrig helt cirkulært i sin kraftfordeling. Det handler i stedet om at **mindske tabet af momentum** i overgangsfaserne.
 
-Hvis du er besværet, når du skal over det “døde punkt” i toppen, så er gearet for tungt. Hvis ikke du skifter til et lavere gear, så vil du udtrætte muskulaturen i løbet af få minutter, hvorefter det bliver umuligt at holde fart og watt.
+{% include figure image_path="https://www.whichtrainingcamp.com/images/Articleimages/CYCLING/The%20Effective%20Pedal%20Stroke.jpg" caption="Visualisering af kraftfordelingen i pedalomdrejningen. Kilde: [whichtrainingcamp.com](https://www.whichtrainingcamp.com)" %}
 
-Grunden til, at du skal vurdere din anstrengelse omkring det døde punkt, er, at det er dér, dit moment er lavest rent biomekanisk. Modsat er dit moment højest omkring kl. 3 til kl. 5, hvor du træder pedalarmen nedad.
+### Wattbikes Polar View: Fra 8-tal til pølse
 
-Målingen af trådet viser, at atletens moment svinger for meget og bør trænes. Og højre/venstre balancen skal der arbejdes med.
-Målingen af trådet viser, at atletens moment svinger for meget og bør trænes. Og højre/venstre balancen skal der arbejdes med.
+Tests på ergometercykler med kraftmåling (f.eks. Wattbike Polar View) viser grafisk, hvordan cyklistens kraftfordeling ser ud igennem et 360-graders tråd:
 
-Oplevelsen af anstrengelse er lige nu den bedste metode til at vurdere gearvalg. Nogle wattpedaler kan hjælpe dig med at analysere dit tråd, og det kan være en god hjælp.
+#### 1. Begynderen: 8-tallet
+Begynderen træder næsten kun nedad med forsiden af låret. Når højre ben er i bunden, og venstre er i toppen, stoppes kraftoverførslen helt. Grafen ligner et **8-tal**, fordi alt momentum tabes i skiftet mellem benene.
 
-Det ændrer dog ikke på, at det er et kæmpe plus, når du er i stand til at mærke om, du kører et passende gear. Når du er ovenpå på pedalerne, vil du føle at det hele spiller. Du har en god god rytme, farten er høj, og du føler du kan fortsætte længe.
+{% include figure image_path="/assets/images/cdn.shopify.com/wattbike-improve-cycling-technique-9f4dde0f.jpg" caption="Punkt 1 og 2 viser det store tab af momentum i top og bund. Kilde: Wattbike." %}
 
-[maxbutton id=”28″]
+#### 2. Den letøvede: Peanutten
+Den letøvede har lært at bruge cykelskoene til at trække foden smidigt tilbage i bunden af trådet. Grafen begynder at ligne en **peanut**. Der er stadig dødpunkter, men overgangen mellem benene er mere flydende.
 
-Du kan træne dig til en bedre kadence
-Det er en stor fordel for dig, når du er i stand til at arbejde komfortabelt ved flere forskellige kadencer. Mange med relativ kort erfaring som cykelryttere har det bedst med en lav kadence. Det er der intet usædvanligt ved. Men det kan til gengæld være ret uhensigtsmæssigt. Især hvis du kører cykelløb.
+{% include figure image_path="/assets/images/cdn.shopify.com/Wattbike-The-Peanut-acf9e833.jpg" caption="En peanut-form viser forbedret overgang, men stadig med målbare dødpunkter. Kilde: Wattbike." %}
 
-I cykelløb er der mange temposkift, og hvis du kun kører i høje gear, så vil du hurtigt udtrætte din muskulatur i en grad, så du ikke kan holde trit med feltet.
+#### 3. Eliterytteren: Pølsen
+Elitecykelrytteren skaber en stor, oval eller pølseformet graffigur. Trådet er konsistent, balanceret mellem højre og venstre ben, og der genereres kontinuerligt fremdrift hele vejen rundt.
 
-Når jeg får nye atleter i træningsvejledning er deres kadence altid en af de ting, jeg kigger på. Er der behov for det – og det er der i de fleste tilfælde – så bliver der lagt kadencetræning i deres program.
+{% include figure image_path="/assets/images/cdn.shopify.com/Wattbike-The-Sausage-d8767c8a.jpg" caption="Pølseformen repræsenterer et meget effektivt og balanceret tråd med minimalt effekttab. Kilde: Wattbike." %}
 
-{% endcomment %}
-
-## Hvordan ser et godt tråd ud?
-
-Nu har du nogenlunde styr på kadencen. Lad os kigge lidt på, hvordan 'det runde tråd' ser ud. Generelt kan du bruge klokken som et udgangspunkt for, hvordan bevægelsen skal se ud i fodleddet, og hvordan det skal føles i lægge, baglår, forlår og baller.
-
-{% include figure image_path="https://www.whichtrainingcamp.com/images/Articleimages/CYCLING/The%20Effective%20Pedal%20Stroke.jpg" caption="Kilde: [www.whichtrainingcamp.com](https://www.whichtrainingcamp.com)" %}
-
-## Det runde tråd
-
-Hvis du gerne vil forstå det runde tråd, så har [Wattbike](https://support.wattbike.com/hc/en-gb/articles/115001848609-A-Beginner-s-Guide-To-Perfect-Pedalling) lavet en meget god forklaring, som jeg vil gennemgå her.
-
-Indbygget i Wattbikes software har de _Polar View_, som er et unikt værktøj til at kigge på din teknik, når du træder i pedalerne.
-
-Polar View er en grafisk repræsentation af kræfterne i din pedalleringteknik. Den viser balancen og forskellen mellem venstre og højre ben, og du kan se, hvor rundt dit tråd er.
-
-Hvis du gerne vil forstå 'det runde tråd', så er det faktisk ikke rundt. Men det bliver rundere, desto mere effektivt det er. At kunne lave et rigtig godt tråd kræver selvfølgelig, at du har cykelsko på.
-
-Lad os kigge på de forskellige eksempler på et tråd i forhold til dit niveau.
-
-### Begynder: 8-tallet
-
-For begynderen ligner kræfterne et 8-tal. Det betyder at cyklisten taber for meget momentum, når man skifter fra højre til venstre ben (punkt 1) og fra venstre til højre ben (punkt 2). Cyklisten bruger primært forsiden af benene.
-
-{% include figure image_path="/assets/images/cdn.shopify.com/wattbike-improve-cycling-technique-9f4dde0f.jpg" caption="Punkt 1 er skiftet fra højre til venstre ben, mens punkt 2 er skiftet fra venstre til højre. Kilde: Wattbike. [📷](https://cdn.shopify.com/s/files/1/0942/6160/files/wattbike-improve-cycling-technique.jpg?v=1536673155){: rel='nofollow noopener' }" %}
-
-Hvis du kører med cykelsko eller med spænder på pedalerne, så kan du forbedre transitionen mellem benene.
-
-### Let øvet: Peanutten
-
-Den letøvede kan fastholde lidt af pedalens momentum, når der skiftes ben. Der er imidlertid stadig et mærkbart tab af momentum. I dette eksempel er der i punkt 2 et større dødt punkt end ved punkt 1.
-
-{% include figure image_path="/assets/images/cdn.shopify.com/Wattbike-The-Peanut-acf9e833.jpg" caption="[📷](https://cdn.shopify.com/s/files/1/0942/6160/files/Wattbike-The-Peanut.jpg?10528249343562057681){: rel='nofollow noopener' }" %}
-
-Hvis den letøvede gerne vil forbedre sit tråd, så kan man forestille sig, at man skraber mudder af det forreste af fodsålen for at forbedre transitionen mellem højre og venstre ben.
-
-### Eliten: Pølsen
-
-Elitecykelryttere kan lave en stor rund figure, som er meget konsistent og balanceret mellem hvert ben. Der er et godt momentum igennem hele runden i pedalerne.
-
-{% include figure image_path="/assets/images/cdn.shopify.com/Wattbike-The-Sausage-d8767c8a.jpg" caption="[📷](https://cdn.shopify.com/s/files/1/0942/6160/files/Wattbike-The-Sausage.jpg?17207390738609430523){: rel='nofollow noopener' }" %}
-
-## Wattbikes Polar View
-
-Polar View er altså en grafisk repræsentation af din teknik på cykling. Den viser balancen mellem højre og venstre ben, og hvor meget kraft du får ned i pedalerne rundt i dit tråd.
-
-I denne video kan du lære mere om Wattbikes polar view:
+I denne video kan du lære mere om, hvordan du analyserer dit tråd:
 
 {% include video provider="youtube" id="LYktT5D2j4s" %}
 
-Når du kan se teknikken, så kan du også arbejde med, hvordan du kan blive mere effektiv. Det gælder om at få trådet til at være så rundt som muligt, så der hele tiden genereres noget kraft ned i pedalerne.
+---
 
-Hvis du forbedrer din teknik, så får du en række fordele:
+## 5 råd til at forbedre din cykelteknik
 
-- **Forbedret power output**. En bedre teknik vil gøre at du kan bruge fler emuskler i benet. Derved kan du mindske hvor hårdt det føles samtidig med, at du får mere kraft ned i pedalerne uden at bruge flere kræfter.
-- **Forbedret udholdenhed**. Hvis du har en mere effektiv teknik, så kan du producere mere kraft over længere tid. Det giver dig en forbedret udholdenhed. I praksis vil det sige, at dit kredsløb måske skal arbejde mindre, fordi din cykeløkonomi er bedre.
+Hvis du forbedrer din pedalleringsteknik, opnår du to store fordele: **højere watt-output** ved samme anstrengelse og **forbedret udholdenhed**, fordi du fordeler arbejdet over flere muskelgrupper.
 
-## Hvordan forbedrer du din cykelteknik?
+1. **Skrab mudder af fodsålen:** Forestil dig, at du skal skrabe mudder af bunden af din sko, idet pedalen er i nederste position (klokken 6). Det aktiverer baglår og lægge og sikrer en blød overgang.
+2. **Indstil dine klamper korrekt:** Placeringen af klamperne under dine cykelsko er afgørende for kraftoverførslen og for at undgå knæskader.
+3. **Sid ned på stigninger:** Du sparer overmodig energi ved at blive siddende i sadlen med en tilpasset kadence. Stå kun op i kortere perioder for at skifte stilling eller ved eksplosive ryk.
+4. **Tjek din højre/venstre balance:** Mange cyklister har en naturlig dominans (f.eks. 53 % / 47 %). Træn bevidst på at aktivere dit svage ben.
+5. **Skift gear i god tid:** Når du nærmer dig et sving, et lyskryds eller en stejl bakke, skal du skifte til et lettere gear *før* hastigheden falder, så du fastholder din kadence.
 
-Der er forskellige måder at blive en mere effektiv cyklist på. I denne video kan du få flere gode råd til din position på cyklen, og hvordan dit tråd skal være for at være mest effektiv i sadlen.
+ I denne video får du flere konkrete råd til din position og teknik på cyklen:
 
 {% include video provider="youtube" id="VYJO1-jODx4" %}
 
-[Wattbike](https://support.wattbike.com/hc/en-gb/articles/115001848609-A-Beginner-s-Guide-To-Perfect-Pedalling) beskriver, hvordan du kan få en bedre teknik på cyklen.
+---
 
-- **Tjek din position på cyklen**. Hvis du ikke sidder rigtigt på cyklen, så har det betydning for, hvordan du kan lægge kærfter i pedalerne.
-- **Brug lige kraft på begge ben**. Det smarte ved polar view er, at du får svar på, om du bruger benene lige meget. Det er naturligvis mest optimalt at bruge benene lige meget, men typisk så er det stadig godkendt, hvis det ligger i spændet fra 48%-52%.
-- **Cykelskoene**. Cykelskoene har stor betydning og hvor godt klamperne sidder på skoene. Det er kontaktpunktet mellem cykel og fod, og derfor skal det gerne sidde godt fast. Placeringen af klamperne skal også helst være rigtig under fødderne.
-- **Sid ned**. Du kan formentlig over tid være mere effektiv, hvis du sidder ned. Stå kun op, når det er absolut nødvendigt, eller din numse trænger til lidt pause.
-- **Kør med den rigtige modstand i det rigtige gear**. Hvis du har en 8-tals figur i dit tråd, så kan udfordringen være, at din belastning er for høj, så du skal koncentrere dig så meget om at træde pedalerne ned. Kør med en lidt hurtigere kadence og tænk på at 'skrabe mudder af din fodsål' i bunden af hver pedalomdrejning.
+## Træningsøvelse: Træn dit runde tråd
 
-Jeg cykler ofte selv på en wattbike, hvor jeg kan se Polar View. Det minder mig hele tiden om, at prøve at gøre trådet bedre. Særligt med de nyere Wattbikes, hvor du med en Bluetooth-monitor kan connecte til Powerhub på din telefon. Så kan du nemlige analysere datane med vinklen for _peak force_ og balancen mellem højre og venstre.
+Wattbike foreslår følgende fokuserede øvelse til at forbedre dit tråd og din kadence. Formålet er at gøre trådet så flydende som muligt under skiftende modstand.
 
-## Træn dit tråd med følgende øvelse
+Start i et let gear og gå et gear op, når du kan fastholde en god fornemmelse uden at "hakke" i pedalerne:
 
-[Wattbike](https://support.wattbike.com/hc/en-gb/articles/115001848609-A-Beginner-s-Guide-To-Perfect-Pedalling) foreslår følgende øvelse til at forbedre dit tråd.
+* **Sæt 1:** 1 minut med fokus på blødt tråd / 2 minutter let rullende x 6–10
+* **Sæt 2:** 2 minutter med fokus på blødt tråd / 2 minutter let rullende x 5–8
+* **Sæt 3:** 3 minutter med fokus på blødt tråd / 2 minutter let rullende x 4–6
 
-I hele øvelsen skal du fokusere på at gøre dit tråd så flydende som muligt. Det kræver en masse koncentration, så det er bedst at gøre det i kortere tid ad gangen.
-
-Start med det laveste gear og gå et gear op, når du kan lave en god figur med lav belastning.
-
-Du kan fx gøre sådan her:
-
-- 1 minut med fokus på trådet / to minutter med et let tråd x 6-10
-- 2 minut med fokus på trådet / to minutter med et let tråd x 5-8
-- 3 minut med fokus på trådet / to minutter med et let tråd x 4-6
-
-Brug forskellige belastninger og brug forskellige kadencer, så du kan have et effektivt tråd uanset, hvilken belastning og hastighed du kører pedalerne rundt.
-
-Du bør jævnligt øve din teknik. Cykling kan ofte komme til at fokusere meget på kredsløbstræning og hård træning, men at bruge kræfter på at forbedre din cykelteknik og derved din cykeløkonomi kan virkelig betale sig i det lange løb.
+---
 
 ## Hvilke muskler bruger du i cykling?
 
-Når du forsøger at lave det runde tråd, så bruger du benene lidt mere varieret i dit tråd. Denne video viser rigtig godt, hvordan musklerne arbejder undervejs i trådet.
+Når du arbejder med det runde tråd, aktiverer du benenes muskler i sekvenser igennem de 360 grader:
+
+* **Kl. 12 til 3 (Nedtråd):** Balde- og forlårsmuskler (*gluteus maximus* og *quadriceps*).
+* **Kl. 3 til 6 (Gennemtråd):** Lægemusklen (*gastrocnemius*).
+* **Kl. 6 til 9 (Tilbagetræk):** Baglår og læg (*hamstrings* og *soleus*).
+* **Kl. 9 til 12 (Ophejs/Overgang):** Hoftebøjere (*ilio-psoas*).
+
+Denne video illustrerer præcist, hvordan musklerne arbejder undervejs i omdrejningen:
 
 {% include video provider="youtube" id="BGu_VJ07-E8" %}
 
+---
+
 ## Konklusion
 
-Der er ikke nogen kadence, der er optimal for alle. De fleste kan med fordel ligge omkring 80-100. Prøv dig frem med forskellige kadencer og prøv fx at føle subjektivt, hvordan det føles på kredsløbet.
+Der findes ikke én kadence, der passer til alle. For de fleste landevejsryttere vil en kadence på **80–100 RPM** give den bedste balance mellem muskulær belastning og iltforbrug. 
 
-Du kan også sammenstille wattmålinger og pulsmålinger med de forskellige kadencer for at se, hvor netop du befinder dig bedst.
+Prøv dig frem i din træning: Lær at køre med både høje og lave kadencer, så du har flere "gear" at vælge imellem, når feltet kører stærkt eller terrænet skifter.
 
-Uanset hvilken kadence der er optimal for dig, så husk også at få trænet teknikken i dit tråd.
-
-## Bøger om cykling
+## Bøger og udstyr om cykling
 
 {% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.netop_gentagelsen_er_det_smukke view="card" %}
+
+---
+
+## Referencer
+
+* Abbiss, C. R., et al. (2009). *Optimal cadence selection during cycling: review and rating of muscle fatigue indicators*. International Journal of Sports Medicine, 30(10), 707-715.
+* Lucia, A., et al. (2001). *Preferred cadence during professional cycling stage races*. Medicine and Science in Sports and Exercise, 33(8), 1361-1366.
+* TrainerRoad. *What’s the Most Efficient Cycling Cadence?* [trainerroad.com](https://www.trainerroad.com/blog/whats-the-most-efficient-cycling-cadence-and-how-cadence-drills-can-make-you-faster/)
+* Videnskab.dk (2018). *Træd i pedalerne som du plejer: Teknikken betyder ikke noget særligt*. [videnskab.dk](https://videnskab.dk/krop-sundhed/traed-i-pedalerne-som-du-plejer-teknikken-betyder-ikke-noget-saerligt)
+* Wattbike. *A Beginner's Guide to Perfect Pedalling*. [wattbike.com](https://support.wattbike.com/)

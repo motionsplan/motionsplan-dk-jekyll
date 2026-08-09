@@ -7,6 +7,7 @@ excerpt: Komplet guide til Illinois Agility Test. Mål din retningsskift-hastigh
 description: Lær hvordan du opstiller og afvikler Illinois Agility Testen. Se præcise banemål, fysiologisk baggrund, normtabel for mænd og kvinder samt testprocedure.
 category:
   - Løb
+  - Retningsskifttests
 tags:
   - test
   - løbetest
@@ -14,6 +15,32 @@ tags:
   - illinois
   - retningsskift
   - sprint
+tests:
+  - id: "test-illinois-agility-test"
+    title: "Illinois Agility Test"
+    description: "Standardiseret fysiologisk agilitetstest (10m x 5m bane med slalomering og start fra maveliggende position) til måling af Change of Direction Speed (CODS) og eksplosiv kropskontrol."
+    category: ["Løb", "Tests"]
+    type: ["Protokol", "Agilitetstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver sprint, slalom og retningsskift
+    method: "indirekte"                     # 📊 Indirekte måling af agilitet og kropskontrol via tidtagning
+    modality: ["Løb", "Sprint"]
+    measures: ["Retningsskifthastighed (CODS)", "Illinois-tid (s)", "Agilitet"]  # 🎯 KUN rene præstationsmæssige slutmål
+    equipment: ["Markeringskegler (8 stk)", "Målebånd", "Stopur / Fotoceller", "Skridsikkert underlag"]
+    setting: ["Indendørs", "Udendørs", "Idrætshal", "Testcenter", "Individuel"]
+    target_group: ["Fodboldspillere", "Holdatleter", "Politi / Militær", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-illinois-agility-test-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-illinois-agility-test-timer"
+    title: "Illinois Agility Test Interaktiv Timer"
+    description: "Interaktiv timer og stopur til tidtagning af Illinois Agility Testen med nedtælling og automatisk resultatvurdering."
+    category: ["Løb", "Beregnere", "Tests"]
+    type: ["Timer", "Beregner"]
+    measures: ["Illinois-tid (s)", "Retningsskifthastighed (CODS)", "Agilitetsniveau"]  # 🎯 KUN rene slutmål
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 header:
   teaser: /assets/images/tests/illinois-agility-test.webp
   caption: Illinois Agility Test – Standarden for måling af Change of Direction Speed (CODS)

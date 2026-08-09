@@ -28,6 +28,25 @@ meta:
   measures: intensitet og arbejdspuls
   equipment: ingen
   type: pulstræning
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-pulsreserve-intensitet-beregner"
+    title: "Træningsintensitet Beregner (Pulsreserve)"
+    description: "Beregn din relative arbejdsintensitet (%) ud fra din arbejdspuls, hvilepuls og maxpuls med Karvonen-formlen."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    anchor: "#calculator"
+    measures: ["Træningsintensitet", "Arbejdsintensitet"] # 🎯 Output parametre
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-pulsreserve-arbejdspuls-beregner"
+    title: "Arbejdspuls Beregner (Pulsreserve)"
+    description: "Beregn hvilken arbejdspuls (bpm) du skal træne med for at ramme en specifik intensitetsprocent."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    measures: ["Arbejdspuls", "Målpuls"]        # 🎯 Output parametre
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2025-02-06T23:14:14Z
 toc: true
 garmin_setup:

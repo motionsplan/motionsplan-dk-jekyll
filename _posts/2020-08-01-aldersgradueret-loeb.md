@@ -12,6 +12,7 @@ header:
   caption: 'Alder og løbetider: Sammenlign med aldersgraduerede løbetider'
 category:
   - Løb
+  - Løbeberegnere
 tags:
   - værktøj
   - beregner
@@ -26,13 +27,16 @@ meta:
   equipment: "ingen"
   intensity: "ingen"
   method: "formel"
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Aldersgradueret Løbeberegner (WMA)"
+  - id: "tool-aldersgradueret-loebeberegner"
+    title: "Aldersgradueret Løbeberegner (WMA)"
     description: "Beregn og sammenlign dine løbetider på tværs af alder og køn. Find din WMA-procent og se dit fysiologiske præstationsniveau fra 5 km til maraton."
+    category: ["Løb"]
+    type: ["Beregner"]
+    measures: ["Løbetid", "Aldersgraduering", "WMA-procent", "Alderspræstation"]  # 🎯 Output-parametre fra beregneren
     anchor: "#calculator"
-    type: "beregner"
-    measures: "løbetid, alderspræstation"
-    category: "SportsActivityLocation"
+    category_schema: "HealthAndFitnessApplication"
 faq:
   - question: Hvad betyder en aldersgradueret løbetid?
     answer: En aldersgradueret løbetid sammenligner din løbetid med verdensrekorden for din præcise alder og dit køn. Resultatet opgives i procent, hvor 100% svarer til verdensrekorden.

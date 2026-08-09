@@ -11,18 +11,44 @@ header:
   teaser: /assets/images/unsplash/photo-1633009824314-c9095d90a9e6.jpg
   caption: Mål din fedtprocent med målebånd (Navy-metoden) 📏
 category:
-- Tests
+- Kropskomposition
 - Fedtprocent
-breadcrumbs: 'true'
 tags:
 - måling
 - fedtprocent
 - kropskomposition
+page_type: "spoke"
 meta:
   name: Mål fedtprocent med målebånd (Navy-metoden)
   equipment: målebånd
   measures: fedtprocent
-last_modified_at: '2019-03-06T23:14:14Z'
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-fedtprocent-navy-maalebaand"
+    title: "Måling af fedtprocent med målebånd (US Navy-metoden)"
+    description: "Estimer din fedtprocent med US Navy-metoden ud fra højde samt omkredsmåling af nakke, talje og hofter."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Måling"]
+    execution: ["Måling"]
+    modality: ["Kropsmål"]
+    method: "Indirekte"    
+    measures: ["Fedtprocent", "Kropskomposition"]
+    equipment: ["Målebånd", "Højdemåler"]
+    setting: ["Individuel"]
+    target_group: ["Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-fedtprocent-navy-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-fedtprocent-navy-beregner"
+    title: "Navy Fedtprocent Beregner (Målebånd)"
+    description: "Beregn din fedtprocent ud fra US Navy-formlen med målinger af nakke, talje, hofte og højde."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
+    anchor: "#udfoer-navy-testen-og-beregn-fedtprocenten"
+    category_schema: "HealthAndFitnessApplication"
+last_modified_at: '2025-03-06T23:14:14Z'
 toc: 'true'
 ---
 

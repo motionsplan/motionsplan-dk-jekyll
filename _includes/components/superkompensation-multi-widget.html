@@ -1,0 +1,499 @@
+<!-- Hent Chart.js til grafen -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="multi-superkomp-widget" style="background: #ffffff; border: 1px solid #e0e0e0; padding: 24px; border-radius: 12px; font-family: system-ui, -apple-system, sans-serif; max-width: 760px; margin: 30px auto; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
+  
+  <h3 style="margin-top: 0; color: #111; font-size: 1.35rem; text-align: center;"> Multi-Trænings Simulator: Formudvikling over tid</h3>
+  <p style="text-align: center; font-size: 0.88em; color: #666; margin-bottom: 8px;">
+    <strong>Interaktiv graf:</strong> Klik på grafen for at <em>tilføje pas</em>. Klik på en farvet markør (<span style="color: #28a745; font-weight: bold;">🟢 Let</span>, <span style="color: #0275d8; font-weight: bold;">🔵 Moderat</span>, <span style="color: #d9534f; font-weight: bold;">🔴 Hård</span>) for at <em>slette</em>.
+  </p>
+
+  <!-- Preset Knapper -->
+  <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px;">
+    <button id="btnOptimal" style="background: #ebfbee; border: 1px solid #2b8a3e; color: #2b8a3e; padding: 8px 14px; border-radius: 20px; font-weight: 600; font-size: 0.82em; cursor: pointer;">🎯 Optimal plan (Hård 🔴 - Moderat 🔵 - Let 🟢)</button>
+    <button id="btnTooFast" style="background: #fff5f5; border: 1px solid #c92a2a; color: #c92a2a; padding: 8px 14px; border-radius: 20px; font-weight: 600; font-size: 0.82em; cursor: pointer;">🔥 For tæt træning (Nedbrud)</button>
+    <button id="btnTooSlow" style="background: #fff9db; border: 1px solid #e67700; color: #e67700; padding: 8px 14px; border-radius: 20px; font-weight: 600; font-size: 0.82em; cursor: pointer;">😴 For sjælden træning (Ingen effekt)</button>
+  </div>
+
+  <!-- Chart Canvas -->
+  <div style="position: relative; height: 310px; width: 100%; margin-bottom: 20px; cursor: pointer;">
+    <canvas id="multiSuperkompChart"></canvas>
+  </div>
+
+  <!-- Nøgletal Boks -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; text-align: center;">
+    <div style="background: #f8f9fa; border: 1px solid #e9ecef; padding: 12px; border-radius: 8px;">
+      <div style="font-size: 0.78em; color: #666; font-weight: 600;">Formniveau v. dag 14 (vs baseline)</div>
+      <div id="statTrendPct" style="font-size: 1.35rem; font-weight: bold; color: #2b8a3e; margin-top: 2px;">+3.8%</div>
+      <div id="statTrendStatus" style="font-size: 0.75em; color: #2b8a3e; font-weight: 600;">Stærk fremgang!</div>
+    </div>
+    
+    <div style="background: #f8f9fa; border: 1px solid #e9ecef; padding: 12px; border-radius: 8px;">
+      <div style="font-size: 0.78em; color: #666; font-weight: 600;">Planlagte træningspas</div>
+      <div id="statWorkoutCount" style="font-size: 1.35rem; font-weight: bold; color: #343a40; margin-top: 2px;">6 pas</div>
+      <div style="font-size: 0.75em; color: #888;">i alt på 14 dage</div>
+    </div>
+  </div>
+
+  <!-- Interaktiv Træningsoversigt / Redigering -->
+  <div style="background: #f8f9fa; border: 1px solid #e9ecef; padding: 16px; border-radius: 8px; margin-bottom: 15px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+      <strong style="font-size: 0.9em; color: #333;">Planlagte træningspas i perioden:</strong>
+      <button id="btnAddWorkout" style="background: #0275d8; color: #fff; border: none; padding: 5px 12px; border-radius: 4px; font-size: 0.8em; font-weight: 600; cursor: pointer;">+ Tilføj pas</button>
+    </div>
+
+    <div id="workoutList" style="display: flex; flex-direction: column; gap: 8px; max-height: 180px; overflow-y: auto; padding-right: 4px;">
+      <!-- Træningspas rækker indsættes dynamisk via JS -->
+    </div>
+  </div>
+
+  <!-- Dynamic Guide Text -->
+  <div style="background: #eef7ff; border-left: 4px solid #0275d8; padding: 12px; border-radius: 0 6px 6px 0; font-size: 0.85em; color: #222; line-height: 1.4;">
+    <strong>Formanalyse:</strong> <span id="multiRecommendationText">Læser data...</span>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  
+  // Mapping fra kognitive kategorier til fysiologisk Borg-belastning
+  const intensityMap = {
+    'let': { cr10: 3, label: 'Let 🟢', color: '#28a745', radius: 5 },
+    'moderat': { cr10: 6, label: 'Moderat 🔵', color: '#0275d8', radius: 7 },
+    'haard': { cr10: 8.5, label: 'Hård 🔴', color: '#d9534f', radius: 9 }
+  };
+
+  // Træningspas struktur: Hård -> Moderat -> Let cyklus
+  let workouts = [
+    { day: 1.0, intensity: 'haard', mins: 60 },
+    { day: 3.5, intensity: 'moderat', mins: 60 },
+    { day: 5.5, intensity: 'let', mins: 45 },
+    { day: 8.0, intensity: 'haard', mins: 60 },
+    { day: 10.5, intensity: 'moderat', mins: 60 },
+    { day: 12.5, intensity: 'let', mins: 45 }
+  ];
+
+  const btnOptimal = document.getElementById('btnOptimal');
+  const btnTooFast = document.getElementById('btnTooFast');
+  const btnTooSlow = document.getElementById('btnTooSlow');
+  const btnAddWorkout = document.getElementById('btnAddWorkout');
+  const workoutList = document.getElementById('workoutList');
+
+  const statTrendPct = document.getElementById('statTrendPct');
+  const statTrendStatus = document.getElementById('statTrendStatus');
+  const statWorkoutCount = document.getElementById('statWorkoutCount');
+  const multiRecommendationText = document.getElementById('multiRecommendationText');
+
+  const canvasEl = document.getElementById('multiSuperkompChart');
+  const ctx = canvasEl.getContext('2d');
+  
+  const stepHours = 0.5;
+  const totalHours = 336;
+  const totalSteps = Math.round(totalHours / stepHours) + 1;
+
+  const hourLabels = [];
+  for (let h = 0; h <= totalHours; h += stepHours) {
+    if (h % 24 === 0) {
+      hourLabels.push("Dag " + (h / 24).toFixed(0));
+    } else {
+      hourLabels.push("");
+    }
+  }
+
+  const multiChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: hourLabels,
+      datasets: [
+        {
+          label: 'Præstationsevne (%)',
+          data: [],
+          borderWidth: 3,
+          segment: {
+            borderColor: ctx => {
+              const yAvg = (ctx.p0.parsed.y + ctx.p1.parsed.y) / 2;
+              return yAvg >= 100.0 ? '#2b8a3e' : '#d9534f';
+            }
+          },
+          cubicInterpolationMode: 'monotone',
+          tension: 0,
+          pointRadius: 0,
+          pointHoverRadius: 4
+        },
+        {
+          label: 'Træningspas (Klik for at slette)',
+          data: Array(totalSteps).fill(null), // ARRAY-BASERET FOR PERFECT ALIGNMENT!
+          borderColor: '#0275d8',
+          backgroundColor: '#0275d8',
+          pointRadius: Array(totalSteps).fill(0),
+          pointHoverRadius: Array(totalSteps).fill(0),
+          pointBackgroundColor: Array(totalSteps).fill('transparent'),
+          pointBorderColor: Array(totalSteps).fill('transparent'),
+          pointBorderWidth: 2,
+          showLine: false
+        },
+        {
+          label: 'Oprindelig Baseline (100%)',
+          data: Array(totalSteps).fill(100),
+          borderColor: '#ced4da',
+          borderWidth: 1.5,
+          borderDash: [3, 3],
+          pointRadius: 0,
+          fill: false
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'top' },
+        tooltip: {
+          callbacks: {
+            title: (items) => {
+              const h = items[0].dataIndex * stepHours;
+              return "Dag " + (h / 24).toFixed(1) + " (" + h + " timer)";
+            },
+            label: (item) => {
+              if (item.datasetIndex === 0) {
+                const zone = item.raw >= 100 ? ' (Superkompensation / Grøn)' : ' (Restitution / Rød)';
+                return 'Akut form: ' + item.raw.toFixed(1) + '%' + zone;
+              }
+              if (item.datasetIndex === 1 && item.raw !== null) {
+                // Find pas på denne position
+                const h = item.dataIndex * stepHours;
+                const d = h / 24.0;
+                const wMatch = workouts.find(w => Math.abs(w.day - d) < 0.3);
+                const intKey = wMatch ? wMatch.intensity : 'moderat';
+                const info = intensityMap[intKey];
+                return ' ' + info.label + ' træningspas startet her! (Klik for at slette)';
+              }
+              return '';
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          title: { display: true, text: 'Tidslinje (14 dage)' },
+          ticks: { maxTicksLimit: 15 }
+        },
+        y: {
+          title: { display: true, text: 'Formniveau (%)' },
+          suggestedMin: 60,
+          suggestedMax: 112
+        }
+      }
+    }
+  });
+
+  // Continuous Superposition Engine
+  function calculateMultiSimulation() {
+    const perfCurve = [];
+    const wSorted = [...workouts].sort((a, b) => a.day - b.day);
+
+    const wParams = [];
+    let fatigueStack = 0;
+
+    wSorted.forEach((w, i) => {
+      const tStart = w.day * 24.0;
+      const durH = w.mins / 60.0;
+      const cr10 = intensityMap[w.intensity] ? intensityMap[w.intensity].cr10 : 6;
+      
+      if (i > 0) {
+        const prevStart = wSorted[i - 1].day * 24.0;
+        const gap = tStart - prevStart;
+        if (gap < 42.0) {
+          fatigueStack += (42.0 - gap) / 12.0;
+        } else {
+          fatigueStack = Math.max(0, fatigueStack - (gap - 42.0) / 24.0);
+        }
+      } else {
+        fatigueStack = 0;
+      }
+
+      const baseDrop = cr10 * 1.5 * Math.sqrt(durH);
+      const drop = baseDrop * (1.0 + 0.25 * fatigueStack);
+      
+      const gainFactor = 0.22 - (0.08 * fatigueStack);
+      const gain = baseDrop * gainFactor;
+      
+      const tau_f = 14.0 * (1.0 + 0.3 * fatigueStack);
+      const tau_a = 36.0;
+
+      wParams.push({
+        tStart, durH, drop, gain, tau_f, tau_a, intensity: w.intensity, day: w.day
+      });
+    });
+
+    const markerData = Array(totalSteps).fill(null);
+    const pointColors = Array(totalSteps).fill('transparent');
+    const pointRadii = Array(totalSteps).fill(0);
+    const pointHoverRadii = Array(totalSteps).fill(0);
+
+    let stepIdx = 0;
+    for (let h = 0; h <= totalHours; h += stepHours) {
+      let netR = 0.0;
+
+      wParams.forEach((wp, i) => {
+        if (h >= wp.tStart) {
+          const dtW = h - wp.tStart;
+          if (dtW <= wp.durH) {
+            const prog = wp.durH > 0 ? (dtW / wp.durH) : 1;
+            netR -= wp.drop * Math.pow(prog, 0.8);
+          } else {
+            const restT = dtW - wp.durH;
+            const f = wp.drop * Math.exp(-restT / wp.tau_f);
+            const normT = restT / wp.tau_a;
+            
+            let a = 0;
+            if (wp.gain >= 0) {
+              a = wp.gain * normT * Math.exp(1.0 - normT);
+            } else {
+              a = wp.gain * normT * Math.exp(-normT / 2.0);
+            }
+
+            let detrainTime = restT;
+            if (i < wParams.length - 1) {
+              const nextStart = wParams[i + 1].tStart;
+              if (h >= nextStart) {
+                detrainTime = (nextStart - wp.tStart) - wp.durH;
+              }
+            }
+
+            const detrain = detrainTime > 72.0 ? (detrainTime - 72.0) * 0.04 : 0.0;
+
+            netR += (-f + a - detrain);
+          }
+        }
+      });
+
+      const pVal = 100.0 + netR;
+      perfCurve.push(pVal);
+
+      // Marker-punkter for pas-start placeres på samme array-indeks som kurven
+      wParams.forEach(wp => {
+        if (Math.abs(h - wp.tStart) < stepHours / 2) {
+          const cfg = intensityMap[wp.intensity] || intensityMap['moderat'];
+          markerData[stepIdx] = pVal;
+          pointColors[stepIdx] = cfg.color;
+          pointRadii[stepIdx] = cfg.radius;
+          pointHoverRadii[stepIdx] = cfg.radius + 3;
+        }
+      });
+
+      stepIdx++;
+    }
+
+    const endPerf = perfCurve[perfCurve.length - 1];
+    const diffPct = (endPerf - 100.0).toFixed(1);
+
+    // Mål gennemsnitlig pause mellem pas
+    let avgGapHours = 999;
+    if (wSorted.length > 1) {
+      let totalGaps = 0;
+      for (let i = 1; i < wSorted.length; i++) {
+        totalGaps += (wSorted[i].day - wSorted[i-1].day) * 24.0;
+      }
+      avgGapHours = totalGaps / (wSorted.length - 1);
+    }
+
+    const isOvertraining = (avgGapHours < 40.0 && wSorted.length >= 4);
+    const isProgression = (endPerf >= 100.5) && !isOvertraining;
+
+    // Opdater Chart.js
+    multiChart.data.datasets[0].data = perfCurve;
+    multiChart.data.datasets[1].data = markerData;
+    multiChart.data.datasets[1].pointBackgroundColor = pointColors;
+    multiChart.data.datasets[1].pointBorderColor = pointColors;
+    multiChart.data.datasets[1].pointRadius = pointRadii;
+    multiChart.data.datasets[1].pointHoverRadius = pointHoverRadii;
+    
+    multiChart.update();
+
+    // UI Opdateringer
+    statWorkoutCount.textContent = workouts.length + " pas";
+
+    if (isProgression) {
+      statTrendPct.textContent = "+" + diffPct + "%";
+      statTrendPct.style.color = "#2b8a3e";
+      statTrendStatus.textContent = "🚀 Flot progression!";
+      statTrendStatus.style.color = "#2b8a3e";
+      multiRecommendationText.innerHTML = "<strong>Perfekt balance!</strong> Med en god opbygning af hård 🔴, moderat 🔵 og let 🟢 træning giver du kroppen optimal stimulation og restitution. På dag 14 er din form øget med <strong>+" + diffPct + "%</strong>.";
+    } else if (isOvertraining) {
+      statTrendPct.textContent = diffPct + "%";
+      statTrendPct.style.color = "#c92a2a";
+      statTrendStatus.textContent = "⚠️ Risiko for overtræning!";
+      statTrendStatus.style.color = "#c92a2a";
+      multiRecommendationText.innerHTML = "<strong>For tæt træning / Akkumuleret udmattelse!</strong> Du træner før kroppen har restitueret. På dag 14 er din form nede på <strong>" + diffPct + "%</strong> mod baseline. Læg flere hviledage ind.";
+    } else {
+      statTrendPct.textContent = (parseFloat(diffPct) >= 0 ? "+" : "") + diffPct + "%";
+      statTrendPct.style.color = "#e67700";
+      statTrendStatus.textContent = "⏸️ Stagnation / Ingen effekt";
+      statTrendStatus.style.color = "#e67700";
+      multiRecommendationText.innerHTML = "<strong>Ingen reel formfremgang.</strong> Der går for lang tid mellem dine træningspas (i gennemsnit " + Math.round(avgGapHours/24*10)/10 + " døgn), så superkompensationen mistes før næste pas.";
+    }
+  }
+
+  // Klik på grafen for at tilføje eller slette pas!
+  canvasEl.addEventListener('click', function(evt) {
+    const activePoints = multiChart.getElementsAtEventForMode(evt, 'nearest', { intersect: true }, false);
+    
+    // Hvis der klikkes på et eksisterende træningspas-punkt (dataset #1)
+    if (activePoints.length > 0 && activePoints[0].datasetIndex === 1) {
+      const clickedIdx = activePoints[0].index;
+      const clickedHour = clickedIdx * stepHours;
+      const clickedDay = clickedHour / 24.0;
+
+      let closestIdx = -1;
+      let minDiff = 999;
+      workouts.forEach((w, idx) => {
+        const diff = Math.abs(w.day - clickedDay);
+        if (diff < minDiff) {
+          minDiff = diff;
+          closestIdx = idx;
+        }
+      });
+
+      if (closestIdx !== -1 && minDiff < 0.6) {
+        workouts.splice(closestIdx, 1);
+        renderWorkoutList();
+        calculateMultiSimulation();
+        return;
+      }
+    }
+
+    // Ellers: Klik på tom plads -> Tilføj et nyt Moderat pas på den dag!
+    const canvasPosition = Chart.helpers.getRelativePosition(evt, multiChart);
+    const dataX = multiChart.scales.x.getValueForPixel(canvasPosition.x);
+    if (dataX !== undefined && dataX >= 0) {
+      const hourClicked = dataX * stepHours;
+      let dayClicked = Math.round((hourClicked / 24.0) * 2) / 2;
+      
+      if (dayClicked >= 0.5 && dayClicked <= 13.5) {
+        const exists = workouts.some(w => Math.abs(w.day - dayClicked) < 0.3);
+        if (!exists) {
+          workouts.push({ day: dayClicked, intensity: 'moderat', mins: 60 });
+          renderWorkoutList();
+          calculateMultiSimulation();
+        }
+      }
+    }
+  });
+
+  function renderWorkoutList() {
+    workoutList.innerHTML = "";
+    workouts.sort((a, b) => a.day - b.day);
+
+    workouts.forEach((w, idx) => {
+      const row = document.createElement('div');
+      row.style.cssText = "display: flex; align-items: center; gap: 8px; background: #fff; padding: 6px 10px; border-radius: 4px; border: 1px solid #dee2e6; font-size: 0.82em;";
+
+      row.innerHTML = `
+        <span style="font-weight: bold; color: #333;">Pas #${idx + 1}:</span>
+        <span>Dag</span>
+        <input type="number" min="0.5" max="13.5" step="0.5" value="${w.day}" data-idx="${idx}" class="input-day" style="width: 50px; padding: 2px 4px; border: 1px solid #ccc; border-radius: 3px;">
+        <span>| Belastning:</span>
+        <select data-idx="${idx}" class="select-intensity" style="padding: 2px 4px; border: 1px solid #ccc; border-radius: 3px; font-weight: 600;">
+          <option value="let" ${w.intensity === 'let' ? 'selected' : ''}>Let 🟢</option>
+          <option value="moderat" ${w.intensity === 'moderat' ? 'selected' : ''}>Moderat 🔵</option>
+          <option value="haard" ${w.intensity === 'haard' ? 'selected' : ''}>Hård 🔴</option>
+        </select>
+        <span>| Min:</span>
+        <input type="number" min="15" max="180" step="15" value="${w.mins}" data-idx="${idx}" class="input-mins" style="width: 50px; padding: 2px 4px; border: 1px solid #ccc; border-radius: 3px;">
+        <button data-idx="${idx}" class="btn-del" style="margin-left: auto; background: #fff; border: 1px solid #d9534f; color: #d9534f; border-radius: 3px; cursor: pointer; padding: 1px 6px;">✕</button>
+      `;
+
+      workoutList.appendChild(row);
+    });
+
+    document.querySelectorAll('.input-day').forEach(el => {
+      el.addEventListener('change', (e) => {
+        const i = e.target.dataset.idx;
+        workouts[i].day = parseFloat(e.target.value) || 1;
+        calculateMultiSimulation();
+      });
+    });
+
+    document.querySelectorAll('.select-intensity').forEach(el => {
+      el.addEventListener('change', (e) => {
+        const i = e.target.dataset.idx;
+        workouts[i].intensity = e.target.value;
+        calculateMultiSimulation();
+      });
+    });
+
+    document.querySelectorAll('.input-mins').forEach(el => {
+      el.addEventListener('change', (e) => {
+        const i = e.target.dataset.idx;
+        workouts[i].mins = parseInt(e.target.value) || 60;
+        calculateMultiSimulation();
+      });
+    });
+
+    document.querySelectorAll('.btn-del').forEach(el => {
+      el.addEventListener('click', (e) => {
+        const i = e.target.dataset.idx;
+        workouts.splice(i, 1);
+        renderWorkoutList();
+        calculateMultiSimulation();
+      });
+    });
+  }
+
+  // Presets
+  btnOptimal.addEventListener('click', () => {
+    workouts = [
+      { day: 1.0, intensity: 'haard', mins: 60 },
+      { day: 3.5, intensity: 'moderat', mins: 60 },
+      { day: 5.5, intensity: 'let', mins: 45 },
+      { day: 8.0, intensity: 'haard', mins: 60 },
+      { day: 10.5, intensity: 'moderat', mins: 60 },
+      { day: 12.5, intensity: 'let', mins: 45 }
+    ];
+    renderWorkoutList();
+    calculateMultiSimulation();
+  });
+
+  btnTooFast.addEventListener('click', () => {
+    workouts = [
+      { day: 1.0, intensity: 'haard', mins: 60 },
+      { day: 2.0, intensity: 'haard', mins: 60 },
+      { day: 3.0, intensity: 'haard', mins: 60 },
+      { day: 4.0, intensity: 'haard', mins: 60 },
+      { day: 5.0, intensity: 'haard', mins: 60 },
+      { day: 6.0, intensity: 'haard', mins: 60 },
+      { day: 7.0, intensity: 'haard', mins: 60 },
+      { day: 8.0, intensity: 'haard', mins: 60 },
+      { day: 9.0, intensity: 'haard', mins: 60 },
+      { day: 10.0, intensity: 'haard', mins: 60 }
+    ];
+    renderWorkoutList();
+    calculateMultiSimulation();
+  });
+
+  btnTooSlow.addEventListener('click', () => {
+    workouts = [
+      { day: 1.0, intensity: 'moderat', mins: 60 },
+      { day: 7.0, intensity: 'moderat', mins: 60 },
+      { day: 13.0, intensity: 'moderat', mins: 60 }
+    ];
+    renderWorkoutList();
+    calculateMultiSimulation();
+  });
+
+  btnAddWorkout.addEventListener('click', () => {
+    const lastDay = workouts.length > 0 ? workouts[workouts.length - 1].day + 2.5 : 1.0;
+    if (lastDay <= 13.5) {
+      workouts.push({ day: parseFloat(lastDay.toFixed(1)), intensity: 'moderat', mins: 60 });
+      renderWorkoutList();
+      calculateMultiSimulation();
+    }
+  });
+
+  // Start initialization
+  renderWorkoutList();
+  calculateMultiSimulation();
+});
+</script>

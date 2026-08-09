@@ -23,6 +23,33 @@ meta:
   equipment: effektmåler (power meter) anbefales, fartmåler (speedometer eller GPS)
   max: n/a
   direct: n/a
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-cda-felt-test"
+    title: "CdA Felt-test (Aero-test på vej)"
+    description: "Standardiseret felttest-protokol på flad, vindstille strækning med konstant watt og fart (A/B testing) til bestemmelse af aerodynamisk modstand og positionseffektivitet."
+    category: ["Cykling", "Tests"]
+    type: ["Protokol", "Aerodynamiktest"]
+    execution: ["Fysisk"]                  # 🚴‍♂️ FYSISK TEST: Kræver kørsel med wattmåler og hastighedssensor
+    method: "indirekte"                     # 📊 Indirekte beregning ud fra watt, fart og luftdensitet
+    modality: ["Cykling"]
+    measures: ["CdA (m²)", "Aerodynamisk modstand"]  # 🎯 KUN rene aerodynamiske slutmål
+    equipment: ["Wattmåler (Power meter)", "Hastighedssensor", "Racercykel / Enkeltstartscykel"]
+    setting: ["Udendørs", "Vejtest", "Individuel"]
+    target_group: ["Cykelryttere", "Triatleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-cda-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-cda-beregner"
+    title: "CdA & Aerodynamik Beregner"
+    description: "Interaktiv beregner til estimering af din CdA-værdi (m²), samlede luftmodstand og watt-besparelse ved forskellige hastigheder."
+    category: ["Cykling", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["CdA (m²)", "Aerodynamisk modstand", "Watt-besparelse"]  # 🎯 KUN rene slutmål
+    anchor: "#cda-beregner"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-08-04T19:20:00Z'
 faq:
   - question: Hvad er CdA i cykling?

@@ -13,9 +13,37 @@ header:
   caption: ️Hvilken kropstype er du? Find din somatotype med vores beregner!
 category:
 - Vurderingsværktøjer
+- Kropskomposition
 tags:
 - vurderingsværktøj
 last_modified_at: '2024-08-04T10:14:14Z'
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-somatotype-heath-carter"
+    title: "Heath-Carter Somatotype Vurdering"
+    description: "Antropometrisk testmetode (Heath-Carter) til bestemmelse af kropstype på tre skalaer: endomorfi (relativ fedtmasse), mesomorfi (relativ muskel- og knoglemasse) og ektomorfi (relativ slankhed/langstrakthed)."
+    category: ["Vurderingsværktøjer", "Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Screening"]
+    execution: ["Fysisk"]                  # 📏 FYSISK TEST: Kræver fysiske antropometriske målinger
+    method: "indirekte"                   # 📊 Beregnes ud fra hudfolde, omkredse og knoglebredder
+    modality: ["Kropskomposition"]
+    measures: ["Somatotype", "Endomorfi", "Mesomorfi", "Ektomorfi", "Kropstype-score"]
+    equipment: ["Hudfoldsmåler / Skinfold caliper", "Målebånd", "Knoglemåler / Caliper", "Vægt", "Højdemåler"]
+    setting: ["Klinik", "Testcenter", "Hjemmetest", "Individuel"]
+    target_group: ["Atleter", "Triatleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-somatotype-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-somatotype-beregner"
+    title: "Somatotype & Kropstype Beregner (Heath-Carter)"
+    description: "Interaktiv beregner til udregning og visuel placering af din somatotype (endomorph, mesomorph, ectomorph) baseret på Heath-Carter metoden."
+    category: ["Vurderingsværktøjer", "Kropskomposition", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Somatotype", "Endomorfi-score", "Mesomorfi-score", "Ektomorfi-score", "Somatoplot-koordinater"] # 🎯 Output-parametre fra modulet
+    anchor: "#beregner-til-din-kropstype"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Du har sikkert hørt om kropstyperne endomorph, ectomorph og mesomorf før. Her får du mulighed for at blive klogere på, hvordan din ellers helt unikke krop kan beskrives som en somatotype.

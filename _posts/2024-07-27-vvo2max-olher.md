@@ -28,13 +28,33 @@ meta:
   max: "submaksimal"
   method: "indirekte"
   intensity: "submaksimal"
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-olher-6min-vvo2max"
+    title: "6-minutters Submaksimal Løbetest (Olher et al., 2019)"
+    description: "Submaksimal felttest (6 minutter ved steady-state puls) til indirekte estimering af løbehastigheden ved VO2max (vVO2max) ud fra tilbagelagt distance og gennemsnitspuls."
+    category: ["Tests", "Kondition", "Løb"]
+    type: ["Protokol", "Løbetest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver 6 minutters submaksimal løbeindsats
+    method: "indirekte"                   # 📊 Indirekte estimering af vVO2max ud fra submaksimal puls og tempo
+    modality: ["Løb"]
+    measures: ["vVO2max", "Løbehastighed ved VO2max", "Submaksimal puls", "Distance"]
+    equipment: ["Løbebane / Opmålt rute", "Pulsur", "Stopur"]
+    setting: ["Udendørs", "Løbebane", "Individuel"]
+    target_group: ["Løbere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-olher-vvo2max-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Olher 6-min vVO2max Beregner"
-    description: "Beregn din løbehastighed ved VO2max (vVO2max) ud fra Olhers submaksimale 6-minutters felttest med puls og tilbagelagt distance."
+  - id: "tool-olher-vvo2max-beregner"
+    title: "Olher 6-min vVO2max Beregner"
+    description: "Interaktiv beregner til udregning af din estimerede løbehastighed ved VO2max (vVO2max) baseret på din 6-minutters submaksimale test med puls og distance."
+    category: ["Løb", "Kondition", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["vVO2max", "Løbehastighed ved VO2max", "Træningszoner"]  # 🎯 Output-parametre fra modulet
     anchor: "#calculator"
-    type: "beregner"
-    measures: "vVO2max, løbehastighed"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Denne submaksimale test på 6 minutter kan bruges til at finde din hastighed ved din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/). Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.

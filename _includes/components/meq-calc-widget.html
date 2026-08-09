@@ -1,0 +1,119 @@
+<div class="meq-widget-container" style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; margin: 20px 0; font-family: inherit;">
+  <h3 style="margin-top: 0; color: #2b2b2b;">🌅 Horne-Östberg Test: Er du A- eller B-menneske?</h3>
+  <p style="font-size: 0.9em; color: #555;">Svar på de 5 korte spørgsmål herunder ud fra, hvordan du reelt har det – ikke ud fra hvad din arbejdsgiver eller familie kræver af dig.</p>
+
+  <form id="meq-form" onsubmit="event.preventDefault(); calculateMEQ();">
+    
+    <!-- Spørgsmål 1 -->
+    <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 15px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 8px;">1. Hvornår ville du helst stå op, hvis du var helt fri til at planlægge din dag?</label>
+      <div style="display: flex; flex-direction: column; gap: 6px; font-size: 0.9em;">
+        <label><input type="radio" name="q1" value="5" required> 05:00 – 06:30</label>
+        <label><input type="radio" name="q1" value="4"> 06:30 – 07:45</label>
+        <label><input type="radio" name="q1" value="3"> 07:45 – 09:45</label>
+        <label><input type="radio" name="q1" value="2"> 09:45 – 11:00</label>
+        <label><input type="radio" name="q1" value="1"> 11:00 – 12:00</label>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 2 -->
+    <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 15px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 8px;">2. Hvornår ville du helst gå i seng, hvis du var helt fri til at planlægge din aften?</label>
+      <div style="display: flex; flex-direction: column; gap: 6px; font-size: 0.9em;">
+        <label><input type="radio" name="q2" value="5" required> 20:00 – 21:00</label>
+        <label><input type="radio" name="q2" value="4"> 21:00 – 22:15</label>
+        <label><input type="radio" name="q2" value="3"> 22:15 – 00:30</label>
+        <label><input type="radio" name="q2" value="2"> 00:30 – 01:45</label>
+        <label><input type="radio" name="q2" value="1"> 01:45 – 03:00</label>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 3 -->
+    <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 15px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 8px;">3. Hvor afhængig er du af et vækkeur for at stå op om morgenen?</label>
+      <div style="display: flex; flex-direction: column; gap: 6px; font-size: 0.9em;">
+        <label><input type="radio" name="q3" value="4" required> Slet ikke afhængig (vågner af mig selv)</label>
+        <label><input type="radio" name="q3" value="3"> Lidt afhængig</label>
+        <label><input type="radio" name="q3" value="2"> Noget afhængig</label>
+        <label><input type="radio" name="q3" value="1"> Meget afhængig (kan ikke vågne uden)</label>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 4 -->
+    <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 15px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 8px;">4. Hvornår på dagen føler du dig mest frisk og i bedst form?</label>
+      <div style="display: flex; flex-direction: column; gap: 6px; font-size: 0.9em;">
+        <label><input type="radio" name="q4" value="6" required> Om morgenen (08:00 – 10:00)</label>
+        <label><input type="radio" name="q4" value="4"> Om formiddagen / midt på dagen (11:00 – 13:00)</label>
+        <label><input type="radio" name="q4" value="2"> Om eftermiddagen (15:00 – 17:00)</label>
+        <label><input type="radio" name="q4" value="0"> Om aftenen eller natten (19:00 – 22:00)</label>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 5 -->
+    <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 15px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 8px;">5. Folk taler om "morgenmennesker" og "aftenmennesker". Hvad anser du dig selv for at være?</label>
+      <div style="display: flex; flex-direction: column; gap: 6px; font-size: 0.9em;">
+        <label><input type="radio" name="q5" value="6" required> Helt klart et morgenmenneske (A-menneske)</label>
+        <label><input type="radio" name="q5" value="4"> Mere et morgen- end et aftenmenneske</label>
+        <label><input type="radio" name="q5" value="2"> Mere et aften- end et morgenmenneske</label>
+        <label><input type="radio" name="q5" value="0"> Helt klart et aftenmenneske (B-menneske)</label>
+      </div>
+    </div>
+
+    <button type="submit" style="background: #0056b3; color: white; border: none; padding: 12px 20px; border-radius: 4px; font-weight: bold; cursor: pointer; width: 100%; font-size: 1em;">
+      Se mit resultat
+    </button>
+  </form>
+
+  <div id="meq-results" style="margin-top: 20px; display: none;">
+    <!-- Resultater genereres her -->
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #dee2e6; margin: 20px 0 15px 0;">
+
+  <div style="font-size: 0.82em; color: #6c757d; line-height: 1.4;">
+    <strong>Kreditering og metode:</strong> Denne quiz er baseret på rMEQ (Reduced Morningness-Eveningness Questionnaire) af Adan & Almirall (1991), udledt fra det originale Horne-Östberg spørgeskema (1976).
+  </div>
+</div>
+
+<script>
+function calculateMEQ() {
+  const form = document.getElementById('meq-form');
+  const q1 = parseInt(form.elements['q1'].value);
+  const q2 = parseInt(form.elements['q2'].value);
+  const q3 = parseInt(form.elements['q3'].value);
+  const q4 = parseInt(form.elements['q4'].value);
+  const q5 = parseInt(form.elements['q5'].value);
+
+  const totalScore = q1 + q2 + q3 + q4 + q5;
+  let category = "";
+  let badgeColor = "";
+  let description = "";
+
+  if (totalScore >= 18) {
+    category = "Klar A-type (Morgenmenneske)";
+    badgeColor = "#28a745";
+    description = "Du fungerer bedst tidligt på dagen. Din energi peaker om morgenen, og du bliver naturligt træt om aftenen.";
+  } else if (totalScore >= 12 && totalScore <= 17) {
+    category = "Mellemtype (Hverken/eller)";
+    badgeColor = "#17a2b8";
+    description = "Du har en fleksibel døgnrytme og tilpasser dig nemt både tidlige og sene tider uden de store problemer.";
+  } else {
+    category = "Klar B-type (Aftenmenneske)";
+    badgeColor = "#dc3545";
+    description = "Din krop vågner langsomt om morgenen, men din energi og faglige præstation peaker sidst på eftermiddagen eller om aftenen.";
+  }
+
+  const resultsDiv = document.getElementById('meq-results');
+  resultsDiv.style.display = 'block';
+  resultsDiv.innerHTML = `
+    <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid ${badgeColor};">
+      <h4 style="margin-top: 0; color: ${badgeColor};">Dit resultat:</h4>
+      <p style="font-size: 1.1em; margin-bottom: 8px;"><strong>Din kronotype:</strong> <span style="background: ${badgeColor}; color: white; padding: 3px 8px; border-radius: 4px; font-weight: bold;">${category}</span></p>
+      <p style="margin-bottom: 8px;"><strong>Samlet score:</strong> ${totalScore} ud af 25 point.</p>
+      <p style="font-size: 0.95em; color: #333; margin-bottom: 0;">${description}</p>
+    </div>
+  `;
+}
+</script>

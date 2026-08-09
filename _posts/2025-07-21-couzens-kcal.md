@@ -32,6 +32,15 @@ faq:
     answer: Ja, så længe du kan estimere kalorieforbruget for aktiviteten (fx via vores tabel eller beregner), kan du bruge energiforbrugsmål til at strukturere træningen i mange forskellige sportsgrene.
   - question: Hvordan hjælper det at fokusere på arbejdskapacitet?
     answer: Arbejdskapacitet handler om at kunne lave meget arbejde over tid – altså træne konsekvent uden at blive overbelastet. Det er ofte vigtigere for langvarig udvikling end at presse sig hårdt nogle få gange.
+tools:
+  - id: "tool-energibudget-beregner"
+    title: "Energibudget & Arbejdskapacitet Beregner"
+    description: "Interaktiv beregner til planlægning af metaboliske kaloriemål og samlet træningsarbejde (kcal) baseret på aktivitetstype, varighed og kropsvægt."
+    category: ["Kost & Ernæring", "Beregnere", "Kondition"]
+    type: ["Beregner"]
+    measures: ["Energiforbrug (kcal)", "Metabolisk arbejde"]  # 🎯 KUN rene fysiologiske slutmål
+    anchor: "#brug-beregneren-hvor-meget-arbejde-laver-du-egentlig"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 I stedet for kun at måle din træning i watt, pace eller TSS – hvad nu hvis du begyndte at måle dit *arbejde*?

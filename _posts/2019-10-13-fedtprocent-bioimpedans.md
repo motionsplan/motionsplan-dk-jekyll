@@ -16,7 +16,7 @@ header:
   caption: 'Bioimpedansmåling (BIA): Teknologi og præcision'
   teaser: /assets/images/unsplash/photo-1501525547-7b008cf72da5.jpg
 category:
-- Tests
+- Kropskomposition
 - Fedtprocent
 breadcrumbs: 'true'
 tags:
@@ -31,6 +31,21 @@ meta:
   equipment: bioimpedans-vægt
   measures: kropskomposition og fedtprocent
   type: kropskomposition
+page_type: spoke
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-bioimpedans"
+    title: "Bioimpedansmåling (BIA)"
+    description: "Kropsanalyse der estimerer fedtprocent, muskelmasse og væskefordeling ved at sende svage elektriske vekselstrømme gennem kroppen."
+    category: ["Kropskomposition", "Fedtprocent"]
+    type: ["Protokol", "Kropsanalyse"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte måling: Estimering af fedt/muskler ud fra elektrisk modstand
+    modality: ["Bioimpedans", "Kropsanalyse"]
+    measures: ["Fedtprocent", "Kropskomposition", "Muskelmasse", "Væskebalance"]
+    equipment: ["Bioimpedansvægt", "Kropsanalysevægt"]
+    setting: ["Fitnesscenter", "Klinik", "Hjemmetest"]
+    target_group: ["Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
 last_modified_at: '2025-02-06T23:14:14Z'
 toc: 'true'
 feature_row:
@@ -102,6 +117,10 @@ Den ekstracellulære væske har modstand i sig selv, men modstanden bliver også
 
 For at bioimpedans-beregningerne virker pålidelige, så kræver det at forudsætningerne om, hvor meget vand den fedtfri masse indeholder holder stik. Det er forventningerne om modstanden med forskellige frekvenser gennem vævet, der består af både ekstracellulær væske og celler, der gør, at vi kan bruge bioimpedans til at estimere fedtprocenter.
 
+## Prøv selv
+
+{% include components/bioimpedans-hanai.html %}
+
 ## Fordele og ulemper ved bioimpedansmålinger?
 
 Det er usædvanlig let at stille sig op på et bioimpedans-apparat og få et bud på din kropskomposition. Men ofte vil resultatatarket være lidt mere detaljeret end teknologien kan levere på.
@@ -121,6 +140,8 @@ Hvis du gerne vil have dit resultat til at være så præcist som muligt, så sk
 - Ingen alkoholindtag mindst 24 timer før testning
 
 ## Forskellige bioimpedansmålere
+
+{% include components/bioimpedans-widget.html %}
 
 ### Bioimpedans måling med InBody 570
 

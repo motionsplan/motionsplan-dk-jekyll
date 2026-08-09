@@ -17,7 +17,7 @@ header:
   credit: https://images.unsplash.com/photo-1582004228576-14e8b1256618
   caption: Beregn dit ligevægtsindtag og daglige energibehov ⚖️
 category:
-  - Beregnere
+  - Kost & Ernæring
   - Kalorieberegnere
 tags:
   - beregner
@@ -34,18 +34,23 @@ meta:
   intensity: "ingen"
   method: "formel"
 tools:
-  - title: "Ligevægtsindtag & TDEE Beregner"
+  - id: "tool-ligevaegtsindtag-tdee-beregner"
+    title: "Ligevægtsindtag & TDEE Beregner"
     description: "Beregn dit daglige ligevægtsindtag (TDEE) ud fra dit hvilestofskifte (BMR) og dit fysiske aktivitetsniveau (PAL) med enten hurtig PAL-faktor eller 24-timers tidsregistrering."
+    category: ["Ernæring"]
+    type: ["Beregner"]
+    measures: ["Ligevægtsindtag", "TDEE", "Energibehov", "Energiforbrug"]  # 🎯 Output-værdier fra TDEE-modulet
     anchor: "#calculator"
-    type: "beregner"
-    measures: "ligevægtsindtag, energibehov"
-    category: "HealthAndFitnessApplication"
-  - title: "Vægtændring & Kalorieberegner"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-vaegtaendring-kalorie-beregner"
+    title: "Vægtændring & Kalorieberegner"
     description: "Beregn din potentielle vægtændring over tid baseret på et specifikt kalorieunderskud (cut) eller kalorieoverskud (bulk)."
+    category: ["Ernæring"]
+    type: ["Beregner"]
+    measures: ["Vægtændring", "Vægttab", "Kalorieunderskud", "Kalorieoverskud"]  # 🎯 Output-værdier fra vægtændringsmodulet
     anchor: "#beregn-din-potentielle-vaegtaendring-over-tid"
-    type: "beregner"
-    measures: "vægtændring, vægttab"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 popular: 'true'
 last_modified_at: '2026-07-24T00:00:00Z'
 toc: 'true'

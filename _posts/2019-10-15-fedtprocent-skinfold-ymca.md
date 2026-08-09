@@ -6,7 +6,7 @@ language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
-  - Tests
+  - Kropskomposition
   - Fedtprocent
 tags:
   - måling
@@ -21,13 +21,32 @@ meta:
   equipment: "hudfoldsmaaler"
   intensity: "ingen"
   method: "indirekte"
+page_type: "spoke"
+tests:
+  - id: "test-ymca-skinfold"
+    title: "YMCA hudfoldsmåling"
+    description: "Tilpasset 3- eller 4-punkts hudfoldsmåling baseret på Jackson & Pollock. Måles på de samme punkter for mænd og kvinder, hvor lår-målingen valgfrit kan udelades."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Måling"]
+    execution: ["Måling"]
+    method: "Indirekte"    
+    modality: ["Kropsmål"]
+    measures: ["Fedtprocent", "Kropskomposition"]
+    equipment: ["Hudfoldsmåler"]
+    setting: ["Individuel", "Laboratorietest"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-ymca-hudfoldsberegner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "YMCA Hudfoldsberegner"
+  - id: "tool-ymca-hudfoldsberegner"
+    title: "YMCA Hudfoldsberegner"
     description: "Beregn din fedtprocent med YMCA-metoden ud fra 3 eller 4 hudfoldsmålinger (mave, triceps, hofte og valgfrit lår)."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#ymca-fedtprocent-beregner"
-    type: "beregner"
-    measures: "fedtprocent"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 ---

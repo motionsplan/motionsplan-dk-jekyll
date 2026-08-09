@@ -10,6 +10,7 @@ header:
   caption: Blodlaktattest testprotokol til løbere og cykelryttere 🏃
 category:
   - Kondition
+  - Konditionstests
 classes: wide
 meta:
   name: Laktattest / Blodlaktattest
@@ -18,6 +19,32 @@ meta:
   equipment: laktatmåler, lancetter
   max: submaksimal test / maksimal test
   direct: direkte test
+tests:
+  - id: "test-blodlaktattest"
+    title: "Blodlaktattest (Laktattærskel Test)"
+    description: "Standardiseret fysiologisk testprotokol til løb eller cykling (3–5 minutters trin med kapillær blodprøvetagning) til direkte måling af blodlaktatkoncentration samt bestemmelse af aerob (LT1) og anaerob (LT2) tærskel."
+    category: ["Tests", "Kondition", "Løb", "Cykling"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver fysisk belastning og kapillær blodprøvetagning
+    method: "direkte"                     # 🩸 Direkte kemisk måling af laktatkoncentration (mmol/L) i blodet
+    modality: ["Løb", "Cykling"]
+    measures: ["LT1 (Aerob tærskel)", "LT2 (Anaerob tærskel)", "Blodlaktat (mmol/L)", "AeT", "AnT", "FatMax", "Træningszoner"]
+    equipment: ["Blodlaktatmåler (fx Lactate Scout / Plus)", "Teststrimler", "Lancetter", "Løbebånd / Cykelergometer", "Pulsbælte"]
+    setting: ["Laboratorium", "Testcenter", "Hjemmetest", "Individuel"]
+    target_group: ["Løbere", "Cykelryttere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-laktat-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTOWJER
+tools:
+  - id: "tool-laktat-beregner"
+    title: "Interaktiv Laktatberegner (LT1 & LT2)"
+    description: "Interaktivt værktøj til automatisk bestemmelse, beregning og grafisk visualisering af dine aerobe (LT1) og anaerobe (LT2) laktattærskler baseret på fysiologiske modeller (Baseline+Delta, mDmax, Dmax, OBLA)."
+    category: ["Kondition", "Beregnere", "Tests"]
+    type: ["Beregner"]
+    measures: ["LT1 (Aerob tærskel)", "LT2 (Anaerob tærskel)", "Laktatkurve", "Tærskelpuls", "Tærskel-watt / Tærskeltempo"]  # 🎯 Output-parametre fra beregneren
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 tools:
   - title: "Interaktiv Laktatberegner til Laktattest"
     description: "Indtast laktatmålinger fra din laktattest og få beregnet dine tærskler automatisk."

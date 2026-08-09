@@ -14,7 +14,7 @@ header:
   teaser: /assets/images/unsplash/photo-1619107372089-9b05ed524774.jpg
   caption: Beregn din PAL værdi
 category:
-- Beregnere
+- Kost & Ernæring
 - Kalorieberegnere
 tags:
 - beregner
@@ -30,18 +30,23 @@ meta:
   intensity: "ingen"
   method: "formel"
 tools:
-  - title: "Hurtig PAL-beregner (Aktivitetstabel)"
+  - id: "tool-pal-hurtig-beregner"
+    title: "Hurtig PAL-beregner (Aktivitetstabel)"
     description: "Estimer dit fysiske aktivitetsniveau (PAL) nemt ud fra din daglige livsstil og ugentlige træning baseret på Nordic Nutrition Recommendations."
+    category: ["Ernæring"]
+    type: ["Beregner"]                   # 💻 Rent software-modul (ingen execution-nøgle her)
     anchor: "#pal-tabel"
-    type: "beregner"
-    measures: "PAL"
-    category: "HealthAndFitnessApplication"
-  - title: "Detaljeret PAL-beregner (MET-værdier)"
+    measures: ["PAL", "Fysisk aktivitetsniveau"]   # 🎯 Output parameter
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-pal-detaljeret-met-beregner"
+    title: "Detaljeret PAL-beregner (MET-værdier)"
     description: "Beregn din præcise PAL-værdi ved hjælp af MET-værdier ud fra en tidsregistrering af døgnets specifikke aktiviteter."
+    category: ["Ernæring"]
+    type: ["Beregner"]                   # 💻 Rent software-modul (ingen execution-nøgle her)
     anchor: "#pal-met"
-    type: "beregner"
-    measures: "PAL"
-    category: "HealthAndFitnessApplication"
+    measures: ["PAL", "Fysisk aktivitetsniveau"]   # 🎯 Output parameter
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-27T23:14:14Z'
 toc: 'true'
 feature_row:

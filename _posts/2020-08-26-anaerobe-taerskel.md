@@ -30,6 +30,10 @@ Lad os dykke direkte ned i det.
 
 **Den anaerobe tærskel er det tidspunkt, hvor kroppen ikke længere kan nå at fjerne mælkesyren (laktat), der produceres ved anaerobt arbejde med højere intensiteter.**
 
+## Laktatkinetik ved forskellige intensiteter
+
+{% include components/laktatkinetik-graf.html %}
+
 ## Aerob og anaerob tærskel ud fra laktat
 
 Der er stor forskel fra person til person, hvornår man opnår den anaerobe tærskel. Den utrænede støder på tærsklen hurtigere end den trænede. De kan med andre ord træne med mindre intensitet i forhold den maksimale ydeevne inden de opbygger træthedsstoffer i musklerne.

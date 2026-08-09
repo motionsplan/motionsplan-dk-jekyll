@@ -15,6 +15,7 @@ header:
     url: '#calculator'
 category:
 - Kondition
+- Konditionstests
 # 1. Til dit eget Jekyll-site og oversigter (/tests/ og /beregnere/)
 meta:
   name: "Kondital ud fra tid og løbedistance"
@@ -24,13 +25,32 @@ meta:
   max: "maksimal"
   method: "indirekte"
   intensity: "maksimal"
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-kondital-loeb-distance-tid"
+    title: "Kondital ud fra Løbedistance og Tid"
+    description: "Maksimal felt-test på valgfri løbedistance (1500 m til 42 km) til estimering af VO2max og kondital baseret på Tokmakidis et al. formlerne."
+    category: ["Kondition", "Løb"]        # 💡 Søgbar under BÅDE Kondition og Løb i test-databasen
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Estimering af VO2max ud fra løbehastighed og distance
+    modality: ["Løb"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse", "VDOT"]
+    equipment: ["Stopur", "GPS-ur", "Løbebane"]
+    setting: ["Udendørs", "Individuel"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-kondital-loeb-distance-tid-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Kondital Beregner fra Løbetur (Tid & Distance)"
+  - id: "tool-kondital-loeb-distance-tid-beregner"
+    title: "Kondital Beregner fra Løbetur (Tid & Distance)"
     description: "Beregn dit kondital (VO2max) og VDOT-værdi ud fra tiden og distancen på en valgfri maksimal løbetur med Tokmakidis et al. formlen."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "kondital"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - beregner
 - test

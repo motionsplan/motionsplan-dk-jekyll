@@ -21,6 +21,20 @@ meta:
   equipment: se testbeskrivelse
   max: maksimal test
   direct: direkte test
+tests:
+  - id: "test-maksimal-iltoptagelsestest-loeb"
+    title: "Maksimal Iltoptagelsestest på Løbebånd (Rampetest)"
+    description: "Direkte fysiologisk maxtest på løbebånd med spirometri (iltoptagelsesmaske) og gradvist øget hældning (+2% pr. 1,5 min) til udmattelse for direkte måling af VO2max, kondital og maxpuls."
+    category: ["Tests", "Kondition", "Løb"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver maksimal fysisk løbeindsats til udmattelse
+    method: "direkte"                     # 🫁 Direkte måling af VO2max via spirometri/gasanalyse
+    modality: ["Løb"]
+    measures: ["VO2max", "Kondital", "Maxpuls", "R-værdi (RER)", "Ventilatorisk kvotient (VE/VO2)", "Slutlaktat"]
+    equipment: ["Løbebånd", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler (priktest)", "Pulsbælte"]
+    setting: ["Laboratorium", "Testcenter", "Individuel"]
+    target_group: ["Løbere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 tags:
 - test
 - konditionstest

@@ -11,6 +11,7 @@ header:
 category:
   - Tests
   - Eksplosivitet
+  - Hoppetests
 tags:
   - test
   - springtest
@@ -35,6 +36,43 @@ meta:
   equipment: Vertec eller basketballplade og målebånd
   max: maksimal test
   direct: direkte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-jump-reach"
+    title: "Jump and Reach Test (Vertec)"
+    description: "Måling af funktionel hoppehøjde og rækkevidde med/uden tilløb, 1- eller 2-bens afsæt samt 1- eller 2-hånds berøring via Vertec eller vægmærke."
+    category: ["Tests", "Eksplosivitet"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver maksimalt vertikalt hop
+    method: "direkte"                     # 📏 Måles direkte i cm (forskellen mellem rækkehøjde og hoppet)
+    modality: ["Hop"]
+    measures: ["Hoppehøjde", "Rækkehøjde", "Jump & Reach score", "Eksplosivitet", "Springstyrke"]
+    equipment: ["Vertec", "Målebånd", "Kridt", "Basketballplade"]
+    setting: ["Fitnesscenter", "Klinik", "Individuel", "Holdtest"]
+    target_group: ["Motionister", "Atleter", "Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-jump-reach-score-beregner"
+      - "tool-jump-power-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-jump-reach-score-beregner"
+    title: "Jump & Reach Score Beregner"
+    description: "Beregn din funktionelle hoppehøjde (Jump & Reach score) i cm ved at trække din stående rækkehøjde fra din målte springhøjde."
+    category: ["Eksplosivitet"]
+    type: ["Beregner"]
+    measures: ["Hoppehøjde", "Rækkehøjde", "Jump & Reach score"]  # 🎯 Output-parametre
+    anchor: "#beregner-udregn-din-jump--reach-score"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-jump-power-beregner"
+    title: "Vertical Jump Peak Power Beregner"
+    description: "Estimér din eksplosive Peak Power (Watt) ud fra hoppehøjde og kropsvægt baseret på Sayers, Harman og Lewis formlerne."
+    category: ["Eksplosivitet"]
+    type: ["Beregner"]
+    measures: ["Peak Power", "Watt", "Mekanisk effekt"]         # 🎯 Output-parametre
+    anchor: "#beregner-udregn-din-peak-power-i-watt"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 **Jump and Reach-testen** er en af de mest udbredte og funktionelle hoppetests inden for idrætsgrene som basketball, volleyball, atletik og amerikansk fodbold (f.eks. i NFL Combine).

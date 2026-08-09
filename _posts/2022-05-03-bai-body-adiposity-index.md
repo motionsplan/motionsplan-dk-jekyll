@@ -7,7 +7,7 @@ header:
   credit: https://images.unsplash.com/photo-1586170737392-383ba61aca98
   caption: Body Adiposity Index (BAI) Beregner
 category:
-- Tests
+- Kropskomposition
 - Fedtprocent
 tags:
 - beregner
@@ -19,6 +19,15 @@ meta:
   measures: fedtprocent
   target: voksne
   type: kropskomposition
+tools:
+  - id: "tool-bai-beregner"
+    title: "Body Adiposity Index (BAI) Beregner"
+    description: "Interaktiv beregner til estimering af fedtprocent baseret på kropshøjde og hofteomkreds via BAI-formlen."
+    category: ["Fedtprocent", "Kropskomposition", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Body Adiposity Index", "BAI", "Fedtprocent", "Kropskomposition"]  # 🎯 Output-parametre fra beregneren
+    anchor: "#body-adiposity-index-beregner"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Body Adiposity Index (BAI) beregneren bestemmer din fedtprocent ud fra din højde og din hofteomkreds.

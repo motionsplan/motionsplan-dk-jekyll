@@ -12,7 +12,7 @@ header:
   caption: 'Andersen Test: Beregn kondital for børn og unge'
 category:
 - Kondition
-- Løb
+- Konditionstests
 meta:
   name: "Andersen Test"
   measures: "kondital"
@@ -22,19 +22,41 @@ meta:
   method: "indirekte"
   intensity: "høj"
   target: "børn"
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-andersen-test"
+    title: "Andersen Test (15/15 Intervalløb)"
+    description: "Maksimal 10-minutters 15/15 interval-pendulløbstest på en 20-meters bane til estimering af børns og unges kondital."
+    category: ["Kondition", "Løb"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Måler samlet løbedistance i meter for at beregne kondital
+    modality: ["Løb", "Intervalløb"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
+    equipment: ["20m-bane", "Kegler", "Stopur", "Timer"]
+    setting: ["Skolebrug", "Individuel", "Gruppetest", "Indendørs"]
+    target_group: ["Børn", "Unge"]
+    related_tools: ["tool-andersen-test-beregner", "tool-andersen-test-timer"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Andersen Test Kondital Beregner"
+  - id: "tool-andersen-test-beregner"
+    title: "Andersen Test Kondital Beregner"
     description: "Beregn kondital for børn og unge ud fra den samlede løbedistance i den 10-minutters Andersen 15/15 intervalløbetest."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "kondital"
-    category: "HealthAndFitnessApplication"
-  - title: "Andersen Test Timer & Lyd-afspiller"
-    description: "Interaktiv 10-minutters 15/15 interval-timer med lydsignaler, farvekoder og muligheden for at downloade lydsporet til offline brug i hallen."
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-andersen-test-timer"
+    title: "Andersen Test Timer & Lyd-afspiller"
+    description: "Interaktiv 10-minutters 15/15 interval-timer med lydsignaler, farvekoder og mulighed for at downloade lydsporet til offline brug."
+    category: ["Kondition"]
+    type: ["Timer"]
+    execution: ["Timer"]
     anchor: "#timer"
-    type: "timer"
-    measures: "tid"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstræning

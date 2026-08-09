@@ -7,6 +7,7 @@ excerpt: "Lær alt om Conconi-testen: Fysiologisk teori, testprocedure, bestemme
 description: Dybdegående guide til Conconi-testen. Lær hvordan du måler din anaerobe tærskel (syregrænse) via pulskurven uden brug af invasive laktatmålinger.
 category:
   - Løb
+  - Løbetests
 tags:
   - test
   - løb
@@ -29,6 +30,32 @@ meta:
   equipment: 400m løbebane, pulsmåler, timer
   max: maksimal test
   direct: indirekte test
+tests:
+  - id: "test-conconi-test"
+    title: "Conconi-testen (HRdp Løbetest)"
+    description: "Kontinuerlig, trinvist stigende løbetest på 400m bane (+0,5 km/t pr. 200m til udmattelse) til ikke-invasiv bestemmelse af den anaerobe tærskel via Heart Rate Deflection Point (HRdp)."
+    category: ["Tests", "Løb", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver fysisk løbeindsats med stigende tempo til udmattelse
+    method: "indirekte"                     # 📊 Indirekte estimering af anaerob tærskel ud fra afbøjning i pulskurven (HRdp)
+    modality: ["Løb"]
+    measures: ["Anaerob tærskel (AT)", "HRdp (Heart Rate Deflection Point)", "Tærskelpuls", "Tærskelhastighed", "Træningszoner"]
+    equipment: ["400m løbebane", "Pulsmåler / Pulsbælte", "Pacer / Timer / Lydfil"]
+    setting: ["Udendørs", "Løbebane", "Testcenter", "Individuel"]
+    target_group: ["Løbere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-conconi-test-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-conconi-test-timer"
+    title: "Conconi Test Interaktiv Timer & Pacer"
+    description: "Interaktiv timer og bip-styret pacer med 200m intervalmarkeringer og registrering af pulsværdier til gennemførelse af Conconi-testen."
+    category: ["Løb", "Tests", "Kondition"]
+    type: ["Timer", "Pacer"]
+    measures: ["LT2 (Anaerob tærskel)"]  # 🎯 Output-parametre fra modulet
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 faq:
   - question: Hvad måler Conconi-testen præcist?
     answer: Testen estimerer din anaerobe tærskel (laktattærskel) ved at identificere det punkt på pulskurven, hvor sammenhængen mellem hastighed og puls ophører med at være lineær.

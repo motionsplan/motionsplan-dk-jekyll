@@ -11,17 +11,27 @@ header:
   caption: *title
 category:
   - Tests
-  - Hop-tests
+  - Springtests
 tags:
   - test
-  - less
-  - landing-test
-  - knævalgus
-  - acl
-  - korsbånd
   - return-to-sport
 last_modified_at: 2026-08-02T12:00:00Z
 toc: true
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-less-test"
+    title: "LESS-test (Landing Error Scoring System)"
+    description: "Standardiseret biomekanisk screeningtest (hop fra 30 cm kasse med umiddelbart vertikalt hop) til vurdering af landingsteknik, stødabsorbering, dynamisk knævalgus og skadesrisiko."
+    category: ["Tests", "Hop-tests", "Genoptræning"]
+    type: ["Protokol", "Biomekanisk test", "Screeningtest"]
+    execution: ["Fysisk"]                  # 🦵 FYSISK TEST: Kræver hop fra kasse, landing og eksplosivt vertikalthop
+    method: "indirekte"                     # 📊 Indirekte måling af skadesrisiko via videoanalyse af 17 fejlkriterier
+    modality: ["Hop", "Landingsmekanik"]
+    measures: ["Landingsteknik", "LESS-fejlscore", "Dynamisk knævalgus", "Skadesrisiko (ACL)"]  # 🎯 KUN rene biomekaniske og kliniske slutmål
+    equipment: ["Kasse / Bænk (30 cm høj)", "Målebånd", "2x Kamera / Smartphone (videooptagelse)", "Landingslinje / Tape"]
+    setting: ["Klinik", "Fysioterapi", "Testcenter", "Genoptræningscenter", "Individuel"]
+    target_group: ["ACL-skadede / Korsbåndsskadede", "Genoptrænende atleter", "Atleter", "Mænd", "Kvinder"]
+    related_tools: []
 faq:
   - question: "Hvad betyder en høj score i LESS-testen?"
     answer: "I LESS-testen tæller man *fejl*. Det betyder, at en lavere score er bedre. En score over 5-6 fejl indikerer en uhensigtsmæssig landingsteknik, mens en score over 8 tildeler en høj risiko for korsbåndsskader (ACL)."

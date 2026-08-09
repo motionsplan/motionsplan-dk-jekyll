@@ -30,18 +30,23 @@ meta:
   intensity: "ingen"
   method: "formel"
 tools:
-  - title: "Paceberegner (min/km)"
+  - id: "tool-pace-beregner"
+    title: "Paceberegner (min/km)"
     description: "Beregn dit løbetempo (pace i min/km) ud fra tid og distance, eller omregn dit tempo direkte til en sluttid på 5 km, 10 km eller maraton."
+    category: ["Løb"]
+    type: ["Beregner"]
+    measures: ["Pace", "Tid", "Distance", "Sluttid"]  # 🎯 Nøjagtige output-værdier fra pace-modulet
     anchor: "#calculator"
-    type: "beregner"
-    measures: "pace, tid, distance"
-    category: "SportsActivityLocation"
-  - title: "Hastighedsberegner (km/t)"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-hastigheds-beregner"
+    title: "Hastighedsberegner (km/t)"
     description: "Udregn din gennemsnitshastighed i km/t eller m/s ud fra distance og tid. Perfekt til både løbebånd, cykling og løbetræning."
+    category: ["Løb"]
+    type: ["Beregner"]
+    measures: ["Hastighed", "km/t", "m/s"]           # 🎯 Nøjagtige output-værdier fra hastigheds-modulet
     anchor: "#calculator"
-    type: "beregner"
-    measures: "hastighed, km/t"
-    category: "SportsActivityLocation"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-24T00:00:00Z'
 toc: 'true'
 feature_row:

@@ -11,7 +11,7 @@ header:
   caption: Vmax-træning til cykling
 category:
 - Kondition
-- Cykling
+- Konditionstræning
 tags:
 - beregner
 - konditionstræning
@@ -25,6 +25,25 @@ meta:
   type: cykling
 last_modified_at: '2022-04-22T23:14:14Z'
 toc: 'true'
+# INTERAKTIVE SOFTWARE-VÆRKTOWJER
+tools:
+  - id: "tool-vmax-cykling-estimering"
+    title: "Vmax Cykling Watt Estimator"
+    description: "Beregn din estimerede Vmax (watt) ud fra dit kondital eller din maksimale iltoptagelse (VO2max)."
+    category: ["Kondition"]
+    type: ["Beregner"]                   # 💻 Rent software-modul (ingen execution-nøgle her)
+    anchor: "#calculator"
+    measures: ["Vmax", "Watt"]                  # 🎯 Output parametre
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-vmax-cykling-interval-beregner"
+    title: "Vmax Cykel Interval Program Beregner"
+    description: "Udregn de nøjagtige watt-belastninger, intervaltider og pauser for dit Vmax-cykelprogram ud fra Vmax og Tmax."
+    category: ["Kondition"]
+    type: ["Beregner"]                   # 💻 Rent software-modul (ingen execution-nøgle her)
+    anchor: "#calculator"
+    measures: ["Intervalwatt", "Pausetider", "Intervalprogram"] # 🎯 Output parametre
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 V<sub>max</sub>-cykeltræning er cykelintervaller med en intensitet omkring den maksimale iltoptagelse. Her får du en beregner som kan beregne hvilken intensitet, du skal køre de enkelte cykelintervaller i.

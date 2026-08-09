@@ -25,6 +25,15 @@ meta:
   intensity: "ingen"
   method: "formel"
 tools:
+  - id: "tool-kj-kcal-omregner"
+    title: "kJ til kcal Omregner"
+    description: "Omregn lynhurtigt og præcist mellem kilojoule (kJ) og kilokalorier (kcal) med vores gratis energiberegner."
+    category: ["Beregnere", "Kalorieberegnere"]
+    type: ["Beregner"]
+    measures: ["Energi", "kJ", "kcal", "Kilojoule", "Kilokalorier"]  # 🎯 Nøjagtige output-parametre fra omregneren
+    anchor: "#kj-til-kcal-omregner"
+    category_schema: "HealthAndFitnessApplication"
+tools:
   - title: "kJ til kcal Omregner"
     description: "Omregn lynhurtigt og præcist mellem kilojoule (kJ) og kilokalorier (kcal) med vores gratis energiberegner."
     anchor: "#kj-til-kcal-omregner"

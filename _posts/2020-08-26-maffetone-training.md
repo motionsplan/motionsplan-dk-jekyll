@@ -25,6 +25,33 @@ meta:
   equipment: pulsmåler
   max: submaksimal test
   direct: indirekte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-maf-test"
+    title: "MAF-test (Maximum Aerobic Function Test)"
+    description: "Submaksimal løbe- og pulstest på flad rute (5 km) ved den maksimale aerobe puls (MAF-puls) til overvågning af aerob udvikling, løbeøkonomi og kilometer-splits over tid."
+    category: ["Tests", "Kondition", "Løb"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver 5 km løb ved fastholdt MAF-puls
+    method: "indirekte"                   # ⏱️ Indirekte måling af aerob fremgang via ændring i løbepace ved fast puls
+    modality: ["Løb"]
+    measures: ["MAF-tempo", "Aerob funktion", "Pace", "Puls", "Løbeøkonomi"]
+    equipment: ["Pulsmåler", "Løbebane", "GPS-ur"]
+    setting: ["Udendørs", "Løbebane", "Individuel"]
+    target_group: ["Motionister", "Atleter", "Løbere", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-maf-puls-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-maf-puls-beregner"
+    title: "Maffetone MAF-Puls Beregner"
+    description: "Interaktiv beregner til at bestemme din maksimale aerobe puls (MAF-puls) baseret på 180-formlen og din personlige helbreds- og træningsprofil."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    measures: ["MAF-puls", "Aerob pulsgrænse", "Pulszoner"]  # 🎯 Output-parametre fra modulet
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 faq:
 - question: Hvad betyder MAF i Maffetone-metoden?
   answer: MAF står for Maximum Aerobic Function (Maksimal Aerob Funktion). Det er den højeste puls, hvor din krop primært forbrænder fedt som brændstof frem for kulhydrat.

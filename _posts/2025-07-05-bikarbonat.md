@@ -51,6 +51,15 @@ faq:
 - question: Hvornår bør bikarbonat ikke bruges?
   answer: Personer med nyresygdomme, forhøjet blodtryk eller udtalte mavegener bør ikke bruge bikarbonat. Hvis bivirkninger
     overstiger den præstationsmæssige gevinst, bør det fravælges.
+tools:
+  - id: "tool-kulhydrat-ratio-beregner"
+    title: "Kulhydratforhold Beregner (Glukose/Fruktose Ratio)"
+    description: "Interaktivt beregningsværktøj til udregning af den optimale fordeling og forhold mellem glukose og fruktose baseret på dit samlede kulhydratindtag pr. time."
+    category: ["Kost & Ernæring", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Optimalt kulhydratforhold (ratio)", "Glukose- og fruktosefordeling (g/t)"]  # 🎯 KUN rene fysiologiske/ernæringsmæssige slutmål
+    anchor: "#beregn-din-optimale-ratio"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Bikarbonat (HCO₃⁻) er en naturlig base i kroppen, hvor det blandt andet fungerer som buffer i blodbanen og hjælper med at opretholde syre-base-balancen. I sportsernæringssammenhæng anvendes bikarbonat oftest i form af **natriumbikarbonat** som et ergogent (præstationsfremmende) stof, især i idrætsgrene med høj intensitet og kort til moderat varighed. Stoffet indtages typisk som kapsler med pulverformigt natriumbikarbonat.

@@ -18,6 +18,15 @@ tags:
 - fysiologi
 - varmetræning
 last_modified_at: '2024-08-12T10:14:14Z'
+tools:
+  - id: "tool-temperaturregulering-beregnere"
+    title: "Beregner til Varmetab & Temperaturregulering"
+    description: "Interaktive beregnere til udregning af kroppens termiske varmetab via radiation (stråling), konduktion, konvektion og evaporation (svedfordampning)."
+    category: ["Fysiologi", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Varmetab via radiation (W)", "Varmetab via konduktion (W)", "Varmetab via konvektion (W)", "Svedfordampning (evaporation)"]  # 🎯 Output-parametre fra modulerne
+    anchor: "#radiation"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Temperaturreguleringen hos mennesker er ret unik. Ved at forstå den, så kan du bedre planlægge dine præstationer eller lave varmetræning.

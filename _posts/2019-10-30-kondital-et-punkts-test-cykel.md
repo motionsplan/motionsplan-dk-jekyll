@@ -19,21 +19,45 @@ meta:
   max: "submaksimal"
   method: "indirekte"
   intensity: "moderat"
+page_type: spoke
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-aastrand-etpunktstest"
+    title: "Åstrands 1-punktstest (Cykel)"
+    description: "Submaksimal 6-minutters cykeltest til estimering af maksimal iltoptagelse (VO2max) og kondital ud fra steady-state puls og belastning."
+    category: ["Kondition", "Cykling"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Måler puls ved givet watt-belastning for at beregne VO2max
+    modality: ["Cykling"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
+    equipment: ["Kondicykel", "Pulsmåler", "Stopur"]
+    setting: ["Individuel", "Laboratorietest", "Fitnesscenter"]
+    target_group: ["Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
+    related_tools: ["tool-aastrand-etpunktstest-beregner", "tool-aastrand-test-timer"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Åstrands 1-punktstest Beregner"
+  - id: "tool-aastrand-etpunktstest-beregner"
+    title: "Åstrands 1-punktstest Beregner"
     description: "Beregn dit kondital (VO2max) ud fra din steady-state puls og belastning i Åstrands 6-minutters cykeltest."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "kondital"
-    category: "HealthAndFitnessApplication"
-  - title: "Åstrand Metronom & Test Timer"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-aastrand-test-timer"
+    title: "Åstrand Metronom & Test Timer"
     description: "Interaktiv 6-minutters cykeltimer med indbygget 50 RPM kadence-metronom og automatiske notifikationer ved 5 og 6 minutter."
+    category: ["Kondition"]
+    type: ["Timer"]
+    execution: ["Testberegner"]
     anchor: "#timer"
-    type: "timer"
-    measures: "kadence, tid"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 category:
   - Kondition
+  - Konditionstests
 tags:
   - test
   - konditionstest

@@ -13,6 +13,7 @@ header:
   caption: *title
 category:
   - Kondition
+  - Konditionstests
 meta:
   name: Bruce løbetest på løbebånd
   measures: kondital
@@ -20,6 +21,41 @@ meta:
   equipment: løbebånd
   max: maksimal test
   direct: indirekte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-bruce-test"
+    title: "Bruce Løbetest (Løbebånd)"
+    description: "Maksimal udmattelsestest på løbebånd med gradvist stigende hastighed og hældning (op til 22%) til estimering af VO2max ud fra samlet gennemført tid."
+    category: ["Kondition", "Løb"]        # 💡 Søgbar under BÅDE Kondition og Løb i test-databasen
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Måler samlet udholdenhedstid på løbebånd for at beregne VO2max
+    modality: ["Løb", "Løbebånd"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
+    equipment: ["Løbebånd", "Stopur"]
+    setting: ["Fitnesscenter", "Laboratorietest", "Individuel"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-bruce-test-beregner", "tool-bruce-test-timer"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-bruce-test-beregner"
+    title: "Bruce Test Kondital Beregner"
+    description: "Beregn dit kondital (VO2max) ud fra din samlede tid i Bruce-protokollen på løbebånd."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-bruce-test-timer"
+    title: "Bruce Test Protocol Timer"
+    description: "Interaktiv 3-minutters intervaltimer til Bruce-testen med skiftesignaler for hastighed og hældning."
+    category: ["Kondition"]
+    type: ["Timer"]
+    execution: ["Timer"]
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 tags:
   - test
   - konditionstest

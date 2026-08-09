@@ -13,7 +13,7 @@ header:
   teaser: /assets/images/unsplash/photo-1507413245164-6160d8298b31.jpg
   caption: 'BMR-beregner: Beregn hvilestofskifte og basalstofskifte 🔥'
 category:
-  - Beregnere
+  - Kost & Ernæring
   - Kalorieberegnere
 meta:
   name: "BMR-beregner (hvilestofskifte)"
@@ -22,13 +22,16 @@ meta:
   equipment: "ingen"
   intensity: "ingen"
   method: "formel"
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "BMR & Hvilestofskifte Beregner"
+  - id: "tool-bmr-beregner"
+    title: "BMR & Hvilestofskifte Beregner"
     description: "Beregn dit hvilestofskifte (BMR) ud fra køn, alder, vægt og højde med videnskabeligt anerkendte formler."
+    category: ["Ernæring"]
+    type: ["Beregner"]
+    measures: ["BMR", "Hvilestofskifte", "Basalstofskifte"]  # 🎯 Nøjagtige output-værdier
     anchor: "#bmr-beregner"
-    type: "beregner"
-    measures: "hvilestofskifte, BMR"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
   - beregner
   - stofskifte

@@ -13,6 +13,20 @@ tags:
   - test
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
+tests:
+  - id: "test-nordic-hamstring-breakpoint"
+    title: "Nordic Hamstring Breakpoint Angle Test"
+    description: "Videobaseret excentrisk styrketest for baglårene (hamstrings), hvor vinklen (breakpoint angle) registreres i det øjeblik, udøveren mister kontrollen mod tyngdekraften."
+    category: ["Tests", "Styrketræning"]
+    type: ["Protokol", "Styrketest"]
+    execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver fysisk udførelse af den excentriske fase i Nordic Hamstring
+    method: "indirekte"                   # 📹 Indirekte vurdering af excentrisk peak torque ud fra knævinkel på video
+    modality: ["Styrketræning"]
+    measures: ["Breakpoint Angle", "Excentrisk baglårsstyrke", "Excentrisk Peak Torque", "Vinkel i grader"]
+    equipment: ["Smartphone / Kamera", "My Jump Lab App", "Træningsmåtte", "Ankelstøtte / Medhjælper"]
+    setting: ["Styrkerum", "Fodboldbane", "Testcenter", "Individuel"]
+    target_group: ["Atleter", "Fodboldspillere", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 ---
 
 Der er flere måder at måle kraften i baglåret på, men de fleste kræver dyrt udstyr. På det seneste har forskerne været interesseret i at finde lavpraktiske måder at måle, hvor stærke atleterne i er baglårene. Noget tyder nemlig på, at det kan være skadesforebyggende.

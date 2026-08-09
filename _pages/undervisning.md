@@ -11,8 +11,8 @@ toc_sticky: true
 breadcrumbs: true
 classes: wide
 header:
-  overlay_image: /assets/images/unsplash/photo-1574629810360-7efbbe195018.jpg
-  credit: https://images.unsplash.com/photo-1574629810360-7efbbe195018
+  overlay_image: https://images.unsplash.com/photo-1580894732930-0babd100d356?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1580894732930-0babd100d356?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: Digitalt redskab til idrætsundervisningen
   actions:
     - label: "<i class='fas fa-calculator'></i> Hop til beregnerne →"

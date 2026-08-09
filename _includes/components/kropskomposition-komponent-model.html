@@ -1,0 +1,327 @@
+<div id="mp-comp-dashboard" style="max-width: 900px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; background: #ffffff; padding: 25px; border-radius: 16px; border: 1px solid #e2e8f0; box-shadow: 0 4px 15px rgba(0,0,0,0.03); font-size: 13px; box-sizing: border-box;">
+
+  <style>
+    #mp-comp-dashboard * { box-sizing: border-box; }
+    
+    /* Diskrete knapper */
+    .mp-btn { padding: 12px; border: 2px solid #e2e8f0; background: #ffffff; border-radius: 10px; cursor: pointer; text-align: left; transition: all 0.2s; display: flex; flex-direction: column; justify-content: flex-start; }
+    .mp-btn:hover { background: #f8fafc; border-color: #cbd5e1; }
+    .mp-btn.active { border-color: #3b82f6; background: #eff6ff; }
+    
+    .mp-btn-title { font-weight: 700; font-size: 13px; color: #334155; margin-bottom: 4px; }
+    .mp-btn.active .mp-btn-title { color: #1d4ed8; }
+    
+    .mp-btn-desc { font-size: 11px; color: #64748b; line-height: 1.4; }
+    .mp-btn.active .mp-btn-desc { color: #1e3a8a; }
+
+    /* Tabel styling */
+    .mp-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 0; }
+    .mp-table th, .mp-table td { padding: 10px 12px; border-bottom: 1px solid #f1f5f9; }
+    .mp-table th { color: #64748b; font-weight: 600; background: #f8fafc; border-bottom: 2px solid #e2e8f0; }
+    .mp-table th:first-child, .mp-table td:first-child { text-align: left; white-space: nowrap; }
+    .mp-table th:not(:first-child), .mp-table td:not(:first-child) { text-align: right; white-space: nowrap; width: 70px; }
+    .mp-table td:not(:first-child) { font-weight: 700; color: #0f172a; }
+    
+    .mp-color-dot { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 8px; vertical-align: middle; }
+  </style>
+
+  <!-- HEADER -->
+  <div style="margin-bottom: 25px; text-align: center;">
+    <h2 style="margin: 0 0 5px 0; font-size: 20px; color: #0f172a;">Interaktiv Kropskompositionsmodel</h2>
+    <p style="margin: 0; font-size: 13px; color: #64748b;">Forstå 2C, 3C & 4C modellerne og væskebalance</p>
+  </div>
+
+      <!-- Models -->
+      <div>
+        <div style="font-weight: 600; margin-bottom: 8px; color: #334155;">Vælg Analyse Model:</div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
+          <div class="mp-btn mp-model-btn" data-model="2c">
+            <div class="mp-btn-title">2-C Model</div>
+            <div class="mp-btn-desc">Kun Fedt og Fedtfri Masse (FFM). Standard for de fleste vægte.</div>
+          </div>
+          <div class="mp-btn mp-model-btn" data-model="3c">
+            <div class="mp-btn-title">3-C Model (DEXA)</div>
+            <div class="mp-btn-desc">Deler i Fedt, Mineraler og Blødt Magert Væv (LST).</div>
+          </div>
+          <div class="mp-btn mp-model-btn active" data-model="4c">
+            <div class="mp-btn-title">4-C / BIA (InBody)</div>
+            <div class="mp-btn-desc">Fuld opdeling af Mineraler, Protein, ICW & ECW. Guldstandard.</div>
+          </div>
+        </div>
+      </div>
+
+  <!-- MAIN GRID -->
+  <div style="display: grid; grid-template-columns: 240px 1fr; gap: 24px; align-items: start;">
+
+    
+
+    <!-- LEFT: Figur -->
+    <div style="background: #f8fafc; padding: 20px; border-radius: 12px; border: 1px solid #f1f5f9; display: flex; flex-direction: column; align-items: center; height: 100%;">
+      <div style="position: relative; width: 160px; height: 380px; margin-bottom: 20px; margin-top: 10px;">
+        <svg viewBox="0 0 100 240" style="display: block; width: 100%; height: 100%; filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.08));">
+          <defs>
+            <clipPath id="mp-human-shape">
+              <!-- Menneskelig silhuet med proportionelle arme og ben -->
+              <path d="M50,3 C54.4,3 58,6.6 58,11 C58,15.4 54.4,19 50,19 C45.6,19 42,15.4 42,11 C42,6.6 45.6,3 50,3 Z M37,22 C45,19 55,19 63,22 C70,24 75,29 77,37 L85,95 C86,101 79,104 76,98 L70,55 L68,110 L66,230 C66,238 56,238 55,230 L52,130 L48,130 L45,230 C44,238 34,238 34,230 L32,110 L30,55 L24,98 C21,104 14,101 15,95 L23,37 C25,29 30,24 37,22 Z" />
+            </clipPath>
+          </defs>
+          
+          <!-- Base silhouette -->
+          <path d="M50,3 C54.4,3 58,6.6 58,11 C58,15.4 54.4,19 50,19 C45.6,19 42,15.4 42,11 C42,6.6 45.6,3 50,3 Z M37,22 C45,19 55,19 63,22 C70,24 75,29 77,37 L85,95 C86,101 79,104 76,98 L70,55 L68,110 L66,230 C66,238 56,238 55,230 L52,130 L48,130 L45,230 C44,238 34,238 34,230 L32,110 L30,55 L24,98 C21,104 14,101 15,95 L23,37 C25,29 30,24 37,22 Z" fill="#e2e8f0" />
+          
+          <!-- Dynamiske Vævslag -->
+          <g clip-path="url(#mp-human-shape)">
+            <rect id="mp-l-fat" x="0" y="0" width="100" height="0" fill="#f59e0b" />
+            <rect id="mp-l-ecw" x="0" y="0" width="100" height="0" fill="#06b6d4" />
+            <rect id="mp-l-icw" x="0" y="0" width="100" height="0" fill="#2563eb" />
+            <rect id="mp-l-protein" x="0" y="0" width="100" height="0" fill="#dc2626" />
+            <rect id="mp-l-minerals" x="0" y="0" width="100" height="0" fill="#64748b" />
+            <rect id="mp-l-lst" x="0" y="0" width="100" height="0" fill="#8b5cf6" style="display:none;" />
+            <rect id="mp-l-ffm" x="0" y="0" width="100" height="0" fill="#3b82f6" style="display:none;" />
+          </g>
+          
+          <!-- Outer border -->
+          <path d="M50,3 C54.4,3 58,6.6 58,11 C58,15.4 54.4,19 50,19 C45.6,19 42,15.4 42,11 C42,6.6 45.6,3 50,3 Z M37,22 C45,19 55,19 63,22 C70,24 75,29 77,37 L85,95 C86,101 79,104 76,98 L70,55 L68,110 L66,230 C66,238 56,238 55,230 L52,130 L48,130 L45,230 C44,238 34,238 34,230 L32,110 L30,55 L24,98 C21,104 14,101 15,95 L23,37 C25,29 30,24 37,22 Z" fill="none" stroke="#0f172a" stroke-width="2" />
+        </svg>
+      </div>
+      <div style="font-weight: 700; font-size: 16px; background: #ffffff; padding: 8px 16px; border-radius: 30px; border: 2px solid #e2e8f0; width: 100%; text-align: center;" id="mp-display-total-weight">Vægt: 80.0 kg</div>
+    </div>
+
+    <!-- RIGHT: Controls -->
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      
+      <!-- Inputs Row -->
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; background: #f8fafc; padding: 16px; border-radius: 12px; border: 1px solid #f1f5f9;">
+        <div>
+          <label style="font-weight: 600; display: block; margin-bottom: 6px; color: #334155;">Basisvægt (kg):</label>
+          <input type="number" id="mp-input-weight" value="80" style="width: 100%; padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px;">
+        </div>
+        <div>
+          <label style="font-weight: 600; display: block; margin-bottom: 6px; color: #334155;">Fedtprocent: <span id="mp-disp-fat-pct">15</span>%</label>
+          <input type="range" id="mp-slider-fat" min="5" max="45" value="15" style="width: 100%; cursor: pointer; margin-top: 8px;">
+        </div>
+      </div>
+
+      <!-- Scenarios (2x2) -->
+      <div>
+        <div style="font-weight: 600; margin-bottom: 8px; color: #334155;">Fysiologisk Scenarie (Væskebalance):</div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+          <div class="mp-btn mp-scenario-btn active" data-scenario="normal">
+            <div class="mp-btn-title">Normal Hydrering</div>
+            <div class="mp-btn-desc">Stabil væskebalance. Forholdet ECW/TBW er ideelt.</div>
+          </div>
+          <div class="mp-btn mp-scenario-btn" data-scenario="dehydrated">
+            <div class="mp-btn-title">💧 Tørstig (Dehydreret)</div>
+            <div class="mp-btn-desc">Væskemangel. ECW falder, hvilket nedsætter ledningsevnen.</div>
+          </div>
+          <div class="mp-btn mp-scenario-btn" data-scenario="creatine">
+            <div class="mp-btn-title">🍝 Kreatin / Glykogen</div>
+            <div class="mp-btn-desc">Binder vand *inde* i cellerne. ICW stiger med ca. 1.5 kg.</div>
+          </div>
+          <div class="mp-btn mp-scenario-btn" data-scenario="workout">
+            <div class="mp-btn-title">🏋️ Hård Træning (DOMS)</div>
+            <div class="mp-btn-desc">Mikroskopiske skader giver væskeophobning (ødem) i ECW.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Table & Explanation -->
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: stretch;">
+        
+        <!-- Table -->
+        <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; padding: 4px;">
+          <table class="mp-table">
+            <thead>
+              <tr>
+                <th>Komponent</th>
+                <th>Vægt (kg)</th>
+                <th>Andel (%)</th>
+              </tr>
+            </thead>
+            <tbody id="mp-table-body">
+              <!-- JS Injected -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Explanation -->
+        <div id="mp-note-box" style="background: #eff6ff; padding: 20px; border-radius: 12px; border-left: 4px solid #3b82f6; display: flex; flex-direction: column; justify-content: center;">
+          <!-- JS Injected Note -->
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let model = '4c';
+  let baseWeight = 80;
+  let baseFatPct = 15;
+  let scenario = 'normal';
+
+  const inputWeight = document.getElementById('mp-input-weight');
+  const sliderFat = document.getElementById('mp-slider-fat');
+  const dispFatPct = document.getElementById('mp-disp-fat-pct');
+  const totalWeightTag = document.getElementById('mp-display-total-weight');
+  const tableBody = document.getElementById('mp-table-body');
+  const noteBox = document.getElementById('mp-note-box');
+  
+  const modelBtns = document.querySelectorAll('.mp-model-btn');
+  const scenarioBtns = document.querySelectorAll('.mp-scenario-btn');
+
+  const lFat = document.getElementById('mp-l-fat');
+  const lEcw = document.getElementById('mp-l-ecw');
+  const lIcw = document.getElementById('mp-l-icw');
+  const lProtein = document.getElementById('mp-l-protein');
+  const lMinerals = document.getElementById('mp-l-minerals');
+  const lLst = document.getElementById('mp-l-lst'); 
+  const lFfm = document.getElementById('mp-l-ffm'); 
+
+  const SVG_H = 240; 
+
+  function update() {
+    // 1. Oprindelige basisberegninger - Fysiologisk korrekte (baseret på FFM)
+    const fatMass = baseWeight * (baseFatPct / 100);
+    const ffmBase = baseWeight - fatMass; // Fedtfri masse er alt det, der IKKE er fedt
+
+    // Standard fraktioner af den fedtfrie masse (FFM)
+    // Vand udgør ca. 73.2% af FFM. Protein ca. 19.8%, Mineraler ca. 7%. Sum = 100% af FFM.
+    const waterBaseMass = ffmBase * 0.732; 
+    let ecwBase = waterBaseMass * 0.3802; // ECW er normalt ~38% af TBW
+    let icwBase = waterBaseMass * 0.6198; // ICW er normalt ~62% af TBW
+    let proteinBase = ffmBase * 0.198;
+    let mineralBase = ffmBase * 0.070;
+
+    let totalWeight;
+    let headerText = '';
+    let bodyText = '';
+    
+    let icw = icwBase;
+    let ecw = ecwBase;
+    let protein = proteinBase;
+    let minerals = mineralBase;
+
+    // 2. Anvend Scenarier (ændrer kun på vandværdierne og totalvægten)
+    if (scenario === 'dehydrated') {
+      ecw -= 1.5;
+      totalWeight = baseWeight - 1.5;
+      headerText = "Scenarie: 💧 Tørstig (Dehydreret)";
+      bodyText = "Du har tabt ca. 1.5 kg ekstracellulærvæske. Da mængden af vand falder, øges modstanden (impedansen) for BIA strømmen. En simpel BIA-vægt vil fejlagtigt sige, at din fedtprocent er steget.";
+    } else if (scenario === 'creatine') {
+      icw += 1.5;
+      totalWeight = baseWeight + 1.5;
+      headerText = "Scenarie: 🍝 Kreatin / Carb Loading";
+      bodyText = "Du binder ekstra vand *inde* i cellerne (ICW). Da din samlede vandmængde (TBW) øges, falder strømmodstanden. En BIA-måling vil typisk vise et kunstigt fald i fedtprocent.";
+    } else if (scenario === 'workout') {
+      ecw += 1.5;
+      totalWeight = baseWeight + 1.5;
+      headerText = "Scenarie: 🏋️ Hård Træning (DOMS)";
+      bodyText = "Mikroskopiske muskelskader medfører væskeophobning (ødem) uden for cellerne (ECW). Denne inflammation øger vægten og forvirrer simple målinger.";
+    } else {
+      totalWeight = baseWeight;
+      headerText = "Scenarie: Normal hydrering";
+      bodyText = "Stabil væskebalance i og uden for cellerne. Forholdet mellem ekstracellulærvæske og samlet kropsvæske (ECW/TBW) er i det ideelle område (~0.38). Målingen vil være nøjagtig.";
+    }
+
+    totalWeightTag.innerText = `Vægt: ${totalWeight.toFixed(1)} kg`;
+
+    // 3. Beregn de nye korrekte procenter baseret på det nye totale vægtscenarie
+    const fatP = (fatMass / totalWeight) * 100;
+    const ecwP = (ecw / totalWeight) * 100;
+    const icwP = (icw / totalWeight) * 100;
+    const proteinP = (protein / totalWeight) * 100;
+    const mineralsP = (minerals / totalWeight) * 100;
+
+    let tableHTML = '';
+    const ffmMass = totalWeight - fatMass;
+    const lstMass = protein + icw + ecw; 
+
+    const rows = [];
+    if (model === '2c') {
+      rows.push({ name: 'Fedtmasse', mass: fatMass, pct: fatP, color: '#f59e0b' });
+      rows.push({ name: 'Fedtfri Masse (FFM)', mass: ffmMass, pct: 100 - fatP, color: '#3b82f6' });
+    } else if (model === '3c') {
+      rows.push({ name: 'Fedtmasse', mass: fatMass, pct: fatP, color: '#f59e0b' });
+      rows.push({ name: 'Blødt Magert Væv (LST)', mass: lstMass, pct: (lstMass/totalWeight*100), color: '#8b5cf6' });
+      rows.push({ name: 'Mineraler / Knogler', mass: minerals, pct: mineralsP, color: '#64748b' });
+    } else {
+      rows.push({ name: 'Fedtmasse', mass: fatMass, pct: fatP, color: '#f59e0b' });
+      rows.push({ name: 'Ekstracellulærvæske (ECW)', mass: ecw, pct: ecwP, color: '#06b6d4' });
+      rows.push({ name: 'Intracellulærvæske (ICW)', mass: icw, pct: icwP, color: '#2563eb' });
+      rows.push({ name: 'Protein (Tørvæv)', mass: protein, pct: proteinP, color: '#dc2626' });
+      rows.push({ name: 'Mineraler / Knogler', mass: minerals, pct: mineralsP, color: '#64748b' });
+    }
+
+    tableHTML = rows.map(r => `
+      <tr>
+        <td><span class="mp-color-dot" style="background:${r.color};"></span>${r.name}</td>
+        <td>${r.mass.toFixed(1)}</td>
+        <td>${r.pct.toFixed(1)}%</td>
+      </tr>
+    `).join('');
+    tableBody.innerHTML = tableHTML;
+
+    // Tekst i højre side
+    noteBox.innerHTML = `
+      <div style="font-weight: 800; font-size: 14px; margin-bottom: 10px; color: #1e3a8a;">${headerText}</div>
+      <div style="color: #1e3a8a; line-height: 1.5; font-size: 12px;">${bodyText}</div>
+    `;
+
+    // 4. Tegn Figur
+    [lFat, lEcw, lIcw, lProtein, lMinerals, lLst, lFfm].forEach(layer => layer.setAttribute('height', 0));
+
+    // Brug de korrekte dynamiske procenter til SVG højde (summen er altid præcis 100%)
+    const stackF = (fatP / 100) * SVG_H;
+    const stackMin = (mineralsP / 100) * SVG_H;
+    const stackProt = (proteinP / 100) * SVG_H;
+    const stackIcw = (icwP / 100) * SVG_H;
+    const stackEcw = (ecwP / 100) * SVG_H;
+
+    if (model === '2c') {
+        lFat.setAttribute('y', 0); lFat.setAttribute('height', stackF);
+        lFfm.setAttribute('y', stackF); lFfm.setAttribute('height', SVG_H - stackF);
+        lFfm.style.display = 'block'; lLst.style.display = 'none'; lMinerals.style.display = 'none';
+    } else if (model === '3c') {
+        const hTWP = stackProt + stackIcw + stackEcw;
+        lFat.setAttribute('y', 0); lFat.setAttribute('height', stackF);
+        lLst.setAttribute('y', stackF); lLst.setAttribute('height', hTWP);
+        lMinerals.setAttribute('y', stackF + hTWP); lMinerals.setAttribute('height', stackMin);
+        lFfm.style.display = 'none'; lLst.style.display = 'block'; lMinerals.style.display = 'block';
+    } else {
+        lFat.setAttribute('y', 0); lFat.setAttribute('height', stackF);
+        lEcw.setAttribute('y', stackF); lEcw.setAttribute('height', stackEcw);
+        lIcw.setAttribute('y', stackF + stackEcw); lIcw.setAttribute('height', stackIcw);
+        lProtein.setAttribute('y', stackF + stackEcw + stackIcw); lProtein.setAttribute('height', stackProt);
+        lMinerals.setAttribute('y', stackF + stackEcw + stackIcw + stackProt); lMinerals.setAttribute('height', stackMin);
+        lFfm.style.display = 'none'; lLst.style.display = 'none'; lMinerals.style.display = 'block';
+    }
+  }
+
+  // Events
+  inputWeight.addEventListener('input', (e) => { baseWeight = parseFloat(e.target.value) || 80; update(); });
+  sliderFat.addEventListener('input', (e) => { baseFatPct = parseFloat(e.target.value); dispFatPct.innerText = baseFatPct; update(); });
+
+  modelBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modelBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      model = btn.dataset.model; update();
+    });
+  });
+
+  scenarioBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      scenarioBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      scenario = btn.dataset.scenario; update();
+    });
+  });
+
+  update();
+});
+</script>

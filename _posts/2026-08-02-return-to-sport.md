@@ -15,10 +15,7 @@ category:
 tags:
   - test
   - return-to-sport
-  - acl
-  - korsbånd
   - genoptræning
-  - lsi
 last_modified_at: 2026-08-02T12:00:00Z
 toc: true
 faq:
@@ -90,6 +87,8 @@ For at blive frigivet til sport skal din dynamiske og statiske balance være gen
 * **[Y-Balance Test](/y-balance-test/):** Tester din dynamiske rækkevidde i tre retninger. Asymmetrien mellem højre og venstre ben må maksimalt være **4 cm**.
 * **[Enkeltbensstand & Stork Test](/enkeltbensstand-stork-test/):** Tester din evne til at holde statisk balance. Du bør kunne stå minimum **10-15 sekunder med lukkede øjne** på det skadede ben, uden at miste balancen.
 
+👉 **[Se alle balancetests](/balance-tests/)**
+
 ---
 
 ## 4. Den psykologiske faktor
@@ -102,13 +101,15 @@ Hvis atleten holder igen i tacklinger eller tøver et brøkdel af et sekund i et
 
 ---
 
-## 5. Retningsskift (Agility) og Opbremsning
+## 5. Retningsskift (agility) og opbremsning
 
 I boldsport som fodbold, håndbold og basketball sker skader sjældent, når du løber lige ud. De opstår i eksplosive opbremsninger (*deceleration*) og vrid i retningsskift (*cutting*). Derfor er agility-tests en uundværlig del af den sene RTS-fase.
 
-* **Agility T-Test:** Tester acceleration fremad, galop sidelæns og baglæns løb i et T-mønster. Giver et præcist billede af sidevejs knæ- og ankelstabilitet samt skiftevis acceleration og opbremsning.
-* **Pro Agility Test (5-10-5 Shuttle Run):** Måler eksplosivitet og to skarpe 180-graders vendinger over en kort distance.
+* **[Agility T-Test](/t-test-agility/):** Tester acceleration fremad, galop sidelæns og baglæns løb i et T-mønster. Giver et præcist billede af sidevejs knæ- og ankelstabilitet samt skiftevis acceleration og opbremsning.
+* **[Pro Agility Test (5-10-5 Shuttle Run)](/pro-agility-5-10-5-test/):** Måler eksplosivitet og to skarpe 180-graders vendinger over en kort distance.
 * **Reaktive Agility-tests:** Retningsskift, hvor du skal reagere på uforudsigelige visuelle signaler (f.eks. en træner der peger). Dette fjerner muligheden for at planlægge landingen og tester nervesystemet under realistiske kampsituationer.
+
+👉 **[Tjek alle retningsskiftstests](/retningsskift-test/)**
 
 ---
 
@@ -116,7 +117,7 @@ I boldsport som fodbold, håndbold og basketball sker skader sjældent, når du 
 
 Nervesystemets reaktionstid og musklernes evne til at beskytte leddene forringes drastisk, når du bliver træt. Mange genoptrænede atleter pådrager sig en ny skade i slutningen af en halvleg, fordi de mangler kampspecifik kondition.
 
-* **[Yo-Yo Intermittent Recovery Test (YYIR1 / YYIR2)](/bip-test/):** Guldstandarden i boldsport til at teste evnen til gentagne, intensive løb med korte pauser.
+* **[Yo-Yo Intermittent Recovery Test (YYIR1 / YYIR2)](/yoyo-test/):** Guldstandarden i boldsport til at teste evnen til gentagne, intensive løb med korte pauser.
 * **[Bip-test (20m Shuttle Run)](/bip-test/):** Måler den maksimale aerobe kapacitet ($\text{VO}_2\text{-maks}$) og sikrer, at grundformen er i orden, før du vender tilbage til holdtræning.
 
 ---

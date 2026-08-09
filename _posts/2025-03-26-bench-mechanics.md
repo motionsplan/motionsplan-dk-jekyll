@@ -18,32 +18,21 @@ tags:
 - anatomi
 - styrketræning
 - featured
+- biomekanik
+tools:
+  - id: "tool-baenkpresmekanik-model"
+    title: "Interaktiv Bænkpresmekanik & Biomekanisk Model"
+    description: "Interaktiv 2D-biomekanisk tændstikmand-model til analyse af stangbane, ledvinkler og momenter over skulder- og albueled ved bænkpres baseret på kropsproportioner og teknik."
+    category: ["Styrketræning", "Biomekanik", "Beregnere"]
+    type: ["Beregner", "Simulering"]
+    measures: ["Moment over skulderled", "Moment over albueled", "Stangbane (Bar path)", "Ledvinkler (skulder og albue)", "Bevægelsesudslag (ROM)"]  # 🎯 KUN rene biomekaniske slutmål
+    anchor: "#model-for-baenkpres"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2025-03-28T19:14:14Z'
-feature_row_tests_loeb:
-- image_path: /assets/images/unsplash/photo-1652363722833-509b3aac287b.jpg
-  credit: https://images.unsplash.com/photo-1652363722833-509b3aac287b
-  alt: Løbetests og kondition
-  title: Andre løbetests
-  excerpt: Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor
-    du også kan estimere dit kondital.
-  url: /tests/loeb/
-  btn_label: Se flere løbetests
-  btn_class: btn--success
 faq:
 - question: Hvad er My Squat Mechanics?
   answer: 'Modellen er baseret på [My Squat Mechanics](https://www.mysquatmechanics.com/bench/) og bliver brugt her efter
-    aftale med den oprindelige forfatter.
-
-    '
-gallery_kylling:
-- image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_63e-768x1024.jpeg
-- image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_648-768x1024.jpeg
-gallery_proteinbar_ingredients:
-- image_path: /assets/images/blog/ingrediensliste-maxim.jpg
-- image_path: /assets/images/blog/ingrediensliste-bodylab.jpg
-gallery_proteinbar_content:
-- image_path: /assets/images/blog/ingrediensliste-naering-maxim.jpg
-- image_path: /assets/images/blog/ingrediensliste-bodylab-naering.jpg
+    aftale med den oprindelige forfatter.'
 classes:
 - wide
 ---

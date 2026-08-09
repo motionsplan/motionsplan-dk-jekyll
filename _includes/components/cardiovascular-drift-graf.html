@@ -1,0 +1,330 @@
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="cd-widget">
+  <div class="cd-card cd-controls">
+    <div class="cd-control-group">
+      <label for="cd-intensity">Arbejdsintensitet: <span id="cd-val-intensity">65% VO₂max (Zone 2)</span></label>
+      <input type="range" id="cd-intensity" min="55" max="85" value="65" step="5">
+      <small style="color: #6b7280; font-size: 0.8rem;">Højere intensitet giver mere kropsvarme og hurtigere drift</small>
+    </div>
+
+    <div class="cd-control-group">
+      <label for="cd-temp">Temperatur & Varme: <span id="cd-val-temp">18</span> °C</label>
+      <input type="range" id="cd-temp" min="10" max="32" value="18" step="1">
+      <small style="color: #6b7280; font-size: 0.8rem;">Varme over 15–18°C kræver ekstra blod afkøling i huden</small>
+    </div>
+
+    <div class="cd-control-group">
+      <label for="cd-fluid">Væskeindtag undervejs: <span id="cd-val-fluid">400</span> mL / t</label>
+      <input type="range" id="cd-fluid" min="0" max="800" value="400" step="50">
+      <small style="color: #6b7280; font-size: 0.8rem;">Beskytter blodvolumen og bevarer hjertets slagvolumen</small>
+    </div>
+
+    <div class="cd-control-group">
+      <label for="cd-carbs">Energi- / Glykogenstatus:</label>
+      <select id="cd-carbs" style="padding: 0.4rem; border-radius: 6px; border: 1px solid #d1d5db; font-size: 0.9rem;">
+        <option value="fueled" selected>Optanket (Sukker undervejs)</option>
+        <option value="depleted">Fastende / Tømmes efter 60 min</option>
+      </select>
+      <small style="color: #6b7280; font-size: 0.8rem;">Glykogentømning kræver mere ilt pga. ren fedtforbrænding</small>
+    </div>
+  </div>
+
+  <div class="cd-card">
+    <div class="cd-chart-container">
+      <canvas id="cdCanvas"></canvas>
+    </div>
+
+    <div class="cd-metrics">
+      <div class="cd-metric-card cd-hr-card">
+        <div>Pulsdrift v. 90 min</div>
+        <div class="cd-metric-value" id="cd-stat-hrdrift">+0 bpm</div>
+        <small id="cd-stat-hrstart">Start: 130 bpm ➔ Slut: 130 bpm</small>
+      </div>
+
+      <div class="cd-metric-card cd-sv-card">
+        <div>Slagvolumen Dyk (SV)</div>
+        <div class="cd-metric-value" id="cd-stat-svdrop">-0 %</div>
+        <small id="cd-stat-dehyd">Nettovæsketab: 0.0 Liter</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .cd-widget {
+    margin: 2rem 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #1f2937;
+  }
+  .cd-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e7eb;
+  }
+  .cd-controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+  .cd-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .cd-control-group label {
+    font-weight: 600;
+    font-size: 0.88rem;
+  }
+  .cd-control-group input[type=range] {
+    width: 100%;
+    cursor: pointer;
+  }
+  .cd-chart-container {
+    position: relative;
+    height: 380px;
+    width: 100%;
+  }
+  .cd-metrics {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .cd-metric-card {
+    flex: 1;
+    background: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 4px solid #ef4444;
+  }
+  .cd-metric-card.cd-sv-card {
+    border-top-color: #3b82f6;
+  }
+  .cd-metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+  .cd-hr-card .cd-metric-value { color: #ef4444; }
+  .cd-sv-card .cd-metric-value { color: #3b82f6; }
+
+  @media (max-width: 600px) {
+    .cd-metrics { flex-direction: column; }
+  }
+</style>
+
+<script>
+(function() {
+  let cdChartInstance = null;
+
+  function getZoneLabel(pct) {
+    if (pct <= 60) return `${pct}% VO₂max (Rolig Zone 2)`;
+    if (pct <= 70) return `${pct}% VO₂max (Fast Zone 2)`;
+    if (pct <= 80) return `${pct}% VO₂max (Zone 3 / Maraton)`;
+    return `${pct}% VO₂max (Zone 4 / Tærskel)`;
+  }
+
+  function calculateDriftData() {
+    const intensity = parseFloat(document.getElementById('cd-intensity').value);
+    const temp = parseFloat(document.getElementById('cd-temp').value);
+    const fluidIntake = parseFloat(document.getElementById('cd-fluid').value);
+    const carbsStatus = document.getElementById('cd-carbs').value;
+
+    const maxHR = 190;
+    const restHR = 60;
+    const baseHR = Math.round(restHR + (maxHR - restHR) * (intensity / 100));
+    const baseSV = Math.min(150, 110 + (intensity - 50) * 1.2); 
+    const targetQ = (baseHR * baseSV) / 1000;
+
+    // Steady state varighed: Længere ved moderat intensitet og køligt vejr
+    // Ved 60% VO2max og 15°C er turen i steady state i op mod 35 min før drift overhovedet kan starte
+    let steadyMinutes = 35 - (intensity - 60) * 0.6 - Math.max(0, temp - 15) * 0.8;
+    steadyMinutes = Math.max(12, Math.min(45, steadyMinutes));
+
+    // Svedrate stiger kun markant når temp overstiger 15°C
+    const tempOverBase = Math.max(0, temp - 15);
+    const heatProductionFactor = Math.pow(intensity / 65, 1.2); 
+    const sweatRate = (0.3 + tempOverBase * 0.05) * heatProductionFactor; // L/time
+    
+    const labels = [];
+    const hrData = [];
+    const svData = [];
+    const paceData = [];
+
+    let netFluidLossLiters = 0;
+    let finalHR = baseHR;
+    let finalSV = baseSV;
+
+    for (let t = 0; t <= 90; t += 5) {
+      labels.push(t + ' m');
+      paceData.push(intensity);
+
+      const totalHours = t / 60;
+      const totalSweat = sweatRate * totalHours;
+      const totalDrunk = (fluidIntake / 1000) * totalHours;
+      netFluidLossLiters = Math.max(0, totalSweat - totalDrunk);
+
+      // Hvis vi er inden for steady-state perioden, er der 0 drift
+      if (t <= steadyMinutes) {
+        hrData.push(baseHR);
+        svData.push(Math.round(baseSV));
+        continue;
+      }
+
+      // Drift-beregning efter steady-state perioden
+      const driftMinutes = t - steadyMinutes;
+      
+      // Termisk drift (kun ved temp > 15°C)
+      const thermalTempDiff = Math.max(0, temp - 15);
+      const thermalFactor = thermalTempDiff * 0.0022 * heatProductionFactor * (driftMinutes / 60);
+
+      // Dehydrerings-drift (kun ved reelt nettotab af væske)
+      const dehydrationFactor = netFluidLossLiters * 0.035;
+
+      const totalSvDropPct = Math.min(0.35, thermalFactor + dehydrationFactor);
+      const currentSV = baseSV * (1 - totalSvDropPct);
+
+      // Substratmangel / glykogentømning efter 60 min
+      let substrateFactor = 1.0;
+      if (carbsStatus === 'depleted' && t > 60) {
+        substrateFactor += ((t - 60) / 30) * 0.03 * (intensity / 65);
+      }
+
+      const requiredQ = targetQ * substrateFactor;
+      let currentHR = Math.round((requiredQ * 1000) / currentSV);
+
+      if (currentHR > maxHR) currentHR = maxHR;
+
+      hrData.push(currentHR);
+      svData.push(Math.round(currentSV));
+
+      if (t === 90) {
+        finalHR = currentHR;
+        finalSV = Math.round(currentSV);
+      }
+    }
+
+    const hrDriftBpm = finalHR - baseHR;
+    const svDropPct = ((baseSV - finalSV) / baseSV) * 100;
+
+    return {
+      labels,
+      hrData,
+      svData,
+      paceData,
+      intensity,
+      baseHR,
+      finalHR,
+      hrDriftBpm,
+      svDropPct,
+      netFluidLossLiters
+    };
+  }
+
+  function updateCDChart() {
+    const data = calculateDriftData();
+
+    document.getElementById('cd-val-intensity').textContent = getZoneLabel(data.intensity);
+    document.getElementById('cd-val-temp').textContent = document.getElementById('cd-temp').value;
+    document.getElementById('cd-val-fluid').textContent = document.getElementById('cd-fluid').value;
+
+    document.getElementById('cd-stat-hrdrift').textContent = `+${data.hrDriftBpm} bpm`;
+    document.getElementById('cd-stat-hrstart').textContent = `Start: ${data.baseHR} bpm ➔ Slut: ${data.finalHR} bpm`;
+
+    document.getElementById('cd-stat-svdrop').textContent = `-${data.svDropPct.toFixed(1)} %`;
+    document.getElementById('cd-stat-dehyd').textContent = `Nettovæsketab: ${data.netFluidLossLiters.toFixed(2)} Liter`;
+
+    if (cdChartInstance) {
+      cdChartInstance.data.labels = data.labels;
+      cdChartInstance.data.datasets[0].data = data.hrData;
+      cdChartInstance.data.datasets[1].data = data.svData;
+      cdChartInstance.data.datasets[2].data = data.paceData;
+      cdChartInstance.update();
+    } else {
+      const ctx = document.getElementById('cdCanvas').getContext('2d');
+      cdChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: data.labels,
+          datasets: [
+            {
+              label: 'Hjertefrekvens / Puls (bpm)',
+              data: data.hrData,
+              borderColor: '#ef4444',
+              backgroundColor: 'rgba(239, 68, 68, 0.12)',
+              borderWidth: 3.5,
+              pointRadius: 0,
+              fill: true,
+              yAxisID: 'yHR'
+            },
+            {
+              label: 'Slagvolumen (mL / slag)',
+              data: data.svData,
+              borderColor: '#3b82f6',
+              borderDash: [5, 5],
+              borderWidth: 2,
+              pointRadius: 0,
+              fill: false,
+              yAxisID: 'ySV'
+            },
+            {
+              label: 'Arbejdsintensitet (Konstant % VO₂max)',
+              data: data.paceData,
+              borderColor: '#10b981',
+              borderDash: [3, 3],
+              borderWidth: 1.5,
+              pointRadius: 0,
+              fill: false,
+              yAxisID: 'yPace'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { intersect: false, mode: 'index' },
+          scales: {
+            x: { 
+              title: { display: true, text: 'Tid (Minutter)' } 
+            },
+            yHR: {
+              type: 'linear',
+              position: 'left',
+              title: { display: true, text: 'Puls (bpm)' },
+              min: 110,
+              max: 195
+            },
+            ySV: {
+              type: 'linear',
+              position: 'right',
+              title: { display: true, text: 'Slagvolumen (mL)' },
+              min: 80,
+              max: 160,
+              grid: { drawOnChartArea: false }
+            },
+            yPace: {
+              type: 'linear',
+              position: 'right',
+              display: false,
+              min: 0,
+              max: 100
+            }
+          }
+        }
+      });
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.cd-widget input, .cd-widget select').forEach(input => {
+      input.addEventListener('input', updateCDChart);
+    });
+    updateCDChart();
+  });
+})();
+</script>

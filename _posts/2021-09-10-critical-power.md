@@ -16,6 +16,53 @@ tags:
 - træningszoner
 last_modified_at: '2021-08-22T23:14:14Z'
 toc: 'true'
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-critical-power-test"
+    title: "Critical Power Test (CP & W' Test)"
+    description: "Maksimal cykeltest (typisk 3-minutters og 12-minutters all-out test) til bestemmelse af din Critical Power (CP) i Watt og din anaerobe arbejdskapacitet (W') i kJ."
+    category: ["Tests", "Kondition", "Cykling"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🚴‍♂️ FYSISK TEST: Kræver maksimale all-out pedalindsatser med wattmåling
+    method: "indirekte"                   # ⏱️ Indirekte estimering af CP og W' via hyperbolsk magt-tid relation
+    modality: ["Cykling", "Løb"]
+    measures: ["Critical Power", "CP", "W'", "Watt", "Anaerob kapacitet"]
+    equipment: ["Wattmåler", "Hometrainer", "Motionscykel", "Løbe-wattmåler (Stryd)"]
+    setting: ["Indendørs", "Hjemmetest", "Landevej", "Individuel"]
+    target_group: ["Motionister", "Atleter", "Ryttere", "Løbere"]
+    related_tools:
+      - "tool-critical-power-beregner"
+      - "tool-critical-power-tid-beregner"
+      - "tool-critical-power-watt-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-critical-power-beregner"
+    title: "Critical Power & W' Beregner"
+    description: "Interaktiv beregner til udregning af din Critical Power (CP) i Watt og din anaerobe kapacitet (W') i kJ baseret på dine 3-minutters og 12-minutters testværdier."
+    category: ["Kondition", "Cykling"]
+    type: ["Beregner"]
+    measures: ["Critical Power", "CP", "W'", "Watt", "kJ"]
+    anchor: "#hvordan-males-critical-power"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-critical-power-tid-beregner"
+    title: "CP Udmattelsestid Beregner"
+    description: "Beregn hvor mange sekunder du kan opretholde en given effekt (Watt) over din Critical Power før W' er opbrugt."
+    category: ["Kondition", "Cykling"]
+    type: ["Beregner"]
+    measures: ["Udmattelsestid", "Tid", "Sekunder", "Tid over CP"]
+    anchor: "#hvor-meget-arbejde-kan-du-lave"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-critical-power-watt-beregner"
+    title: "CP Interval Watt Beregner"
+    description: "Beregn den maksimale gennemsnitseffekt (Watt) du kan præstere på en valgt intervalvarighed baseret på din CP og W'."
+    category: ["Kondition", "Cykling"]
+    type: ["Beregner"]
+    measures: ["Måleffekt", "Watt", "Interval-power"]
+    anchor: "#hvor-meget-arbejde-kan-du-lave"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Critical Power er et alternativ til at teste din fysiske formåen, når du har adgang til at måle _power_. Det kan bruges som en erstatning for at måle [Functional Threshold Power (FTP)](/ftp-cykling/).
@@ -33,6 +80,8 @@ Kurven er defineret af to variable: Critical Power (CP) og W’ (udtales ‘W pr
 **CP** er *power output* som du kan kører omkring 30-40 minutter.
 
 **W’** er den mængde arbejde som du kan bruge over CP før du når hen til fuldstændig udmattelse.
+
+{% include components/critical-power-duration-graf.html %}
 
 ## Hvordan måles Critical Power?
 
@@ -86,6 +135,10 @@ Her er en uddybende forklaring af all-out-testen.
 Den bedste beskrivelse jeg har hørt af fænomenet critical power er i denne Youtube-video (hvor du også får forklaringen på, hvorfor du bør lave mindst 4, men gerne 5 tests).
 
 {% include video provider="youtube" id="e9FSi5HWTiw" %}
+
+## Model for Critical Power
+
+{% include components/critical-power-graf.html %}
 
 ## Hvad man du bruge CP og W' til?
 

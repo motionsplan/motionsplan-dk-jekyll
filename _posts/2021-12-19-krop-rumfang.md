@@ -22,6 +22,15 @@ meta:
   equipment: vægt
   measures: kroppens rumfang
   type: fysiologi
+tools:
+  - id: "tool-kroppens-rumfang-beregner"
+    title: "Kroppens Rumfang Beregner"
+    description: "Interaktiv beregner til estimering af kroppens rumfang (volumen i liter og m³) baseret på kropsvægt og gennemsnitlig kropsdensitet."
+    category: ["Anatomi", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Kroppens rumfang", "Kropsvolumen", "Rumfang i liter", "Volumen i m³"]  # 🎯 Output-parametre fra beregneren
+    anchor: "#beregner-til-kroppens-rumfang"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Hvor mange liter fylder et menneske egentlig? At kende kroppens rumfang (også kaldet *kropsvolumen*) er ikke kun en sjov fysikøvelse – det er en central parameter inden for fysiologi, ergonomi og avanceret måling af [kropskomposition](/kropskomposition/).

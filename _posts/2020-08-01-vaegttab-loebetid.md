@@ -10,6 +10,7 @@ header:
   caption: 'Vægttab og løb: Beregn effekten af et vægttab på løbetid'
 category:
 - Løb
+- Løbeberegnere
 tags:
 - beregner
 - kondition
@@ -20,6 +21,7 @@ meta:
   equipment: ingen
   measures: løbetid
   type: løb
+
 breadcrumbs: 'true'
 ---
 

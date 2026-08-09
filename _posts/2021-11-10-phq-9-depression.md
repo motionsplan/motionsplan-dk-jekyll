@@ -25,6 +25,32 @@ faq:
 - question: Hvem har udviklet PHQ-2 og PHQ-9 depressionstesten?
   answer: Denne depressionstest er udviklet af dr. Robert L. Spitzer, dr. Janet B.W. Williams, dr. Kurt Kroenke og kolleger
     med et uddannelseslegat fra Pfizer Inc.
+tests:
+  - id: "test-phq9-depression"
+    title: "Patient Health Questionnaire (PHQ-2 & PHQ-9)"
+    description: "Valideret psykologisk screeningværktøj (Kroenke et al., 2001) til vurdering af tilstedeværelsen og sværhedsgraden af depressive symptomer over de seneste to uger."
+    category: ["Psykologi", "Vurderingsværktøjer"]
+    type: ["Protokol", "Screening"]
+    execution: ["Spørgeskema"]            # 📋 SPØRGESKEMA / PSYKOMETRISK TEST
+    method: "spørgeskema"
+    modality: ["Psykologi"]
+    measures: ["Depressionsscore", "Depressive symptomer", "PHQ-9 score", "PHQ-2 score"]
+    equipment: ["Ingen"]
+    setting: ["Hjemmetest", "Klinik", "Individuel"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-phq9-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-phq9-beregner"
+    title: "PHQ-9 Depressionstest Beregner"
+    description: "Interaktivt spørgeskema til udregning af din samlede PHQ-9 score og tolkning af sværhedsgraden af depressive symptomer."
+    category: ["Psykologi", "Vurderingsværktøjer"]
+    type: ["Beregner"]
+    measures: ["Depressionsscore", "PHQ-9 score", "Symptomgrad"]  # 🎯 Output-parametre fra spørgeskemaet
+    anchor: "#depression-test"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Her er en depressionstest, som kan hjælpe dig med finde ud af, om du har tegn på at have en depression. Testen er en anerkendt test af, om du skulle være deprimeret.

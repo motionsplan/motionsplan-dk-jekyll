@@ -1,0 +1,724 @@
+<div class="cadence-widget">
+  
+  <!-- Info Modal -->
+  <div class="cadence-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Løbekadence (SPM)</h4>
+        <span class="modal-subtitle-text">Skridtfrekvens, ledbelastning og effekt</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>HVAD ER LØBEKADENCE?</strong><br>
+        Løbekadence måles i <strong>SPM (Steps Per Minute)</strong> – dvs. det samlede antal skridt, dine fødder tager på ét minut (både højre og venstre fod).<br><br>
+        <strong>HVORFOR ER EN HØJERE KADENCE GODT?</strong><br>
+        • <strong>Mindre stød op i kroppen:</strong> En højere kadence tvinger dig til at tage kortere skridt, så du lander tættere under dit tyngdepunkt.<br>
+        • <strong>Mindre belastning på knæ og hofter:</strong> Forskning viser, at en øgning i kadence på blot 5–10% reducerer stød-belastningen på knæleddet markant.<br>
+        • <strong>Er 180 SPM magisk?</strong> 180 SPM blev gjort kendt af løbecoachen Jack Daniels fra OL, men den optimale kadence afhænger af højde, benlængde og tempo (typisk mellem 165–185 SPM for motionsløbere).
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Vurderingsskala</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0;">
+        <li><strong>Under 160 SPM:</strong> Lav kadence / Mange lange skridt (Høj belastning på hæl & knæ).</li>
+        <li><strong>160 – 174 SPM:</strong> Moderat kadence (Udmærket til roligt turtempo).</li>
+        <li><strong>175 – 185 SPM:</strong> Optimal kadence (God fremdrift og lav led-belastning).</li>
+        <li><strong>Over 185 SPM:</strong> Høj kadence (Typisk ved hurtig intervaltræning eller sprint).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Inline Status Banner (Erstatter alert) -->
+  <div class="cadence-status-banner" id="cadence-status-banner" style="display: none;"></div>
+
+  <!-- Topbar -->
+  <div class="cadence-topbar">
+    <div class="cadence-header-card">
+      <div class="card-title-row">
+        <span class="card-title">Løbekadence Studio (Metronom & Måler)</span>
+        <button class="info-icon-btn" type="button" title="Læs om løbekadence">ℹ️</button>
+      </div>
+      <div class="card-desc">Mål din skridtfrekvens (SPM) og træn din løberytme med præcis metronom.</div>
+    </div>
+
+    <!-- Mode Selector Tabs -->
+    <div class="topbar-subrow">
+      <div class="btn-toggle-group" id="cadence-tab-toggle">
+        <button type="button" class="toggle-btn active" data-val="metronome">🔊 Løbemetronom</button>
+        <button type="button" class="toggle-btn" data-val="counter">⏱️ Mål din Kadence</button>
+      </div>
+
+      <div class="wakelock-status">📱 Skærm tændt</div>
+    </div>
+  </div>
+
+  <!-- TAB 1: LØBEMETRONOM -->
+  <div class="tab-content" id="tab-metronome">
+    <div class="metronome-card">
+      
+      <!-- Visuel Fod-animation & SPM display -->
+      <div class="spm-big-display-container">
+        <div class="foot-indicator left-foot" id="foot-left">🦶 L</div>
+        <div class="spm-main-text">
+          <span id="spm-value-display">180</span>
+          <small>SPM</small>
+        </div>
+        <div class="foot-indicator right-foot" id="foot-right">R 🦶</div>
+      </div>
+
+      <!-- Quick Presets -->
+      <div class="presets-row">
+        <span class="presets-label">Hurtig-valg:</span>
+        <button type="button" class="btn-preset" data-spm="160">160</button>
+        <button type="button" class="btn-preset" data-spm="170">170</button>
+        <button type="button" class="btn-preset active-preset" data-spm="180">180 (Klassisk)</button>
+        <button type="button" class="btn-preset" data-spm="190">190</button>
+      </div>
+
+      <!-- Tempo Slider & Fine Tuning -->
+      <div class="tempo-control-box">
+        <div class="slider-row">
+          <button type="button" class="btn-step-adj" id="btn-spm-minus">-5</button>
+          <input type="range" id="spm-slider" min="130" max="220" value="180" step="1">
+          <button type="button" class="btn-step-adj" id="btn-spm-plus">+5</button>
+        </div>
+      </div>
+
+      <!-- Lydvalg -->
+      <div class="sound-select-row">
+        <label for="metronome-sound-type" class="sound-label">Lydtype:</label>
+        <select id="metronome-sound-type" class="sound-select-dropdown">
+          <option value="woodblock">🪵 Træklods (Tydelig)</option>
+          <option value="digital">⚡ Digital Bip</option>
+          <option value="drum">🥁 Lilletromme/Klik</option>
+        </select>
+      </div>
+
+      <!-- Kæmpe Start/Stop Knap -->
+      <div class="metronome-action-row">
+        <button type="button" class="btn-giant-play" id="btn-toggle-metronome">
+          🚀 START METRONOM
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TAB 2: KADENCEMÅLER & TAP TEMPO -->
+  <div class="tab-content" id="tab-counter" style="display: none;">
+    <div class="counter-card">
+      
+      <div class="counter-mode-selector">
+        <button type="button" class="btn-cnt-mode active" id="mode-tap-btn">👇 Tap i takt (Løbebånd/Video)</button>
+        <button type="button" class="btn-cnt-mode" id="mode-timer-btn">⏱️ Skridttæller m. Timer</button>
+      </div>
+
+      <!-- SUB-MODE A: TAP TEMPO -->
+      <div id="submode-tap" class="submode-box">
+        <p class="submode-desc">Tryk på knappen i takt med dine fodlandinger (gerne 6–10 tryk i træk):</p>
+        <button type="button" class="btn-tap-giant" id="btn-tap-tempo">
+          <span>👇 TRYK HER PÅ HVER FODLANDING</span>
+          <small id="tap-count-hint">Tryk for at starte måling...</small>
+        </button>
+        <button type="button" class="btn-reset-tap" id="btn-reset-tap">Nulstil Tap-måling</button>
+      </div>
+
+      <!-- SUB-MODE B: SKRIDTTÆLLER M. JUSTERBAR TIMER -->
+      <div id="submode-timer" class="submode-box" style="display: none;">
+        <div class="timer-config-row">
+          <label for="cnt-duration-select" class="config-label">Timer varighed:</label>
+          <select id="cnt-duration-select" class="config-dropdown">
+            <option value="10">10 sekunder</option>
+            <option value="15" selected>15 sekunder (Standard)</option>
+            <option value="30">30 sekunder</option>
+            <option value="60">60 sekunder</option>
+          </select>
+        </div>
+
+        <p class="submode-desc" id="timer-instruction-text">Tæl, hvor mange gange din <strong>HØJRE fod</strong> rammer jorden på 15 sekunder:</p>
+        <div class="timer-countdown-display" id="cnt-timer-display">15.0s</div>
+        
+        <div class="step-counter-input-row">
+          <label for="input-right-foot-steps">Landinger med én fod:</label>
+          <input type="number" id="input-right-foot-steps" placeholder="f.eks. 22" min="1" max="120">
+        </div>
+
+        <button type="button" class="btn-start-cnt-timer" id="btn-start-cnt-timer">🚀 START TIMER</button>
+      </div>
+
+      <!-- MÅLT RESULTAT DISPLAY -->
+      <div class="measured-result-box" id="measured-result-box" style="display: none;">
+        <div class="res-title">MÅLT KADENCE:</div>
+        <div class="res-spm-val"><span id="measured-spm-number">165</span> <small>SPM</small></div>
+        <button type="button" class="btn-use-in-metronome" id="btn-transfer-to-metronome">
+          ➡️ Overfør til metronom (+5% træningsmål)
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FYSIOLOGISK ANALYSIS & STATUS -->
+  <div class="cadence-analysis-card">
+    <h5 class="analysis-title">📊 Fysiologisk Kadence-Analyse</h5>
+    <div class="analysis-grid">
+      <div class="stat-box" id="box-cadence-status">
+        <span class="stat-value" id="stat-spm-tag">180 SPM</span>
+        <span class="stat-label">ANALYSERET FREKVENS</span>
+        <span class="stat-sub" id="stat-cadence-level">Optimal kadence</span>
+      </div>
+      <div class="stat-box" id="box-joint-impact">
+        <span class="stat-value" id="stat-impact-val">Lav</span>
+        <span class="stat-label">LED-BELASTNING (KNÆ/HÆL)</span>
+        <span class="stat-sub" id="stat-impact-desc">Korte, skånsomme skridt</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.cadence-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 18px;
+  max-width: 640px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.cadence-widget * { box-sizing: border-box; }
+
+.cadence-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; text-align: left; }
+.cadence-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.35; }
+
+/* Status Banner */
+.cadence-status-banner {
+  background: #d3f9d8; border: 1px solid #8ce99a; color: #2b8a3e; font-size: 0.82rem; font-weight: 800;
+  padding: 8px 12px; border-radius: 8px; margin-bottom: 10px; text-align: center;
+}
+
+/* Modal */
+.cadence-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Subrow */
+.topbar-subrow { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-top: 2px; flex-wrap: wrap; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 5px 10px; font-size: 0.78rem; font-weight: 800; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Metronome Card */
+.metronome-card, .counter-card { background: #f8f9fa; border: 1.5px solid #dee2e6; border-radius: 14px; padding: 14px; margin-bottom: 12px; }
+
+.spm-big-display-container {
+  display: flex; align-items: center; justify-content: center; gap: 16px; margin-bottom: 12px;
+}
+.spm-main-text { font-size: 3.8rem; font-weight: 900; color: #1e293b; line-height: 1; font-variant-numeric: tabular-nums; }
+.spm-main-text small { font-size: 1.0rem; font-weight: 800; color: #868e96; margin-left: 2px; }
+
+.foot-indicator {
+  font-size: 1.2rem; font-weight: 900; padding: 8px 12px; border-radius: 10px; background: #e9ecef; color: #adb5bd;
+  transition: all 0.08s ease; opacity: 0.4;
+}
+.foot-indicator.active-left { background: #228be6; color: #ffffff; opacity: 1; transform: scale(1.1); }
+.foot-indicator.active-right { background: #e03131; color: #ffffff; opacity: 1; transform: scale(1.1); }
+
+/* Presets */
+.presets-row { display: flex; align-items: center; justify-content: center; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+.presets-label { font-size: 0.72rem; font-weight: 800; color: #495057; }
+.btn-preset { background: #ffffff; border: 1px solid #ced4da; border-radius: 6px; padding: 4px 8px; font-size: 0.75rem; font-weight: 800; color: #343a40; cursor: pointer; }
+.btn-preset.active-preset { background: #228be6; color: #ffffff; border-color: #1c7ed6; }
+
+/* Slider & Controls */
+.tempo-control-box { margin-bottom: 12px; }
+.slider-row { display: flex; align-items: center; gap: 10px; }
+.btn-step-adj { background: #ffffff; border: 1px solid #ced4da; border-radius: 6px; padding: 6px 12px; font-size: 0.85rem; font-weight: 900; color: #212529; cursor: pointer; }
+.slider-row input[type=range] { flex: 1; accent-color: #228be6; cursor: pointer; height: 6px; }
+
+.sound-select-row { display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 14px; }
+.sound-label { font-size: 0.75rem; font-weight: 800; color: #495057; }
+.sound-select-dropdown { border: 1px solid #ced4da; border-radius: 6px; padding: 4px 8px; font-size: 0.78rem; font-weight: 800; color: #212529; background: #ffffff; outline: none; }
+
+.btn-giant-play {
+  width: 100%; padding: 14px; font-size: 1.15rem; font-weight: 900; border-radius: 10px; border: none; cursor: pointer; color: white; background: #228be6;
+  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.35); transition: background 0.15s ease, transform 0.1s ease;
+}
+.btn-giant-play.is-playing { background: #fa5252; box-shadow: 0 4px 12px rgba(250, 82, 82, 0.35); }
+.btn-giant-play:active { transform: scale(0.98); }
+
+/* Counter Tab Styles */
+.counter-mode-selector { display: flex; gap: 6px; margin-bottom: 12px; }
+.btn-cnt-mode { flex: 1; padding: 8px; font-size: 0.75rem; font-weight: 800; border-radius: 8px; border: 1px solid #ced4da; background: #ffffff; color: #495057; cursor: pointer; }
+.btn-cnt-mode.active { background: #1c7ed6; color: #ffffff; border-color: #1864ab; }
+
+.submode-box { text-align: center; }
+.submode-desc { font-size: 0.76rem; color: #495057; margin: 0 0 10px 0; font-weight: 600; }
+
+.timer-config-row { display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 8px; }
+.config-label { font-size: 0.75rem; font-weight: 800; color: #495057; }
+.config-dropdown { border: 1px solid #ced4da; border-radius: 6px; padding: 3px 6px; font-size: 0.75rem; font-weight: 800; color: #212529; background: #ffffff; outline: none; }
+
+.btn-tap-giant {
+  width: 100%; height: 90px; background: #228be6; color: #ffffff; border: none; border-radius: 12px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+  cursor: pointer; box-shadow: 0 4px 12px rgba(34, 139, 230, 0.3); transition: transform 0.08s ease, background 0.15s ease;
+}
+.btn-tap-giant:active { transform: scale(0.97); background: #1c7ed6; }
+.btn-tap-giant span { font-size: 0.95rem; font-weight: 900; }
+.btn-tap-giant small { font-size: 0.70rem; opacity: 0.85; font-weight: 700; }
+
+.btn-reset-tap { background: transparent; border: none; color: #fa5252; font-size: 0.75rem; font-weight: 800; margin-top: 8px; cursor: pointer; }
+
+.timer-countdown-display { font-size: 2.2rem; font-weight: 900; color: #1e293b; margin-bottom: 8px; font-variant-numeric: tabular-nums; }
+.step-counter-input-row { display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 12px; font-size: 0.78rem; font-weight: 800; color: #495057; }
+.step-counter-input-row input { width: 70px; padding: 6px; border: 1px solid #ced4da; border-radius: 6px; font-size: 0.95rem; font-weight: 900; text-align: center; }
+
+.btn-start-cnt-timer { width: 100%; padding: 10px; font-size: 0.92rem; font-weight: 900; border-radius: 8px; border: none; background: #2b8a3e; color: #ffffff; cursor: pointer; }
+.btn-start-cnt-timer.is-running { background: #fa5252; }
+
+.measured-result-box { margin-top: 14px; background: #ebfbee; border: 1.5px solid #b2f2bb; border-radius: 10px; padding: 10px; text-align: center; }
+.res-title { font-size: 0.70rem; font-weight: 800; color: #2b8a3e; }
+.res-spm-val { font-size: 2.2rem; font-weight: 900; color: #2b8a3e; line-height: 1.1; }
+.res-spm-val small { font-size: 0.80rem; }
+.btn-use-in-metronome { margin-top: 6px; background: #228be6; color: #ffffff; border: none; border-radius: 6px; padding: 6px 12px; font-size: 0.75rem; font-weight: 800; cursor: pointer; }
+
+/* Analysis Section */
+.cadence-analysis-card { text-align: left; margin-top: 14px; }
+.analysis-title { font-size: 0.85rem; font-weight: 800; margin: 0 0 6px 0; color: #343a40; }
+.analysis-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+@media (max-width: 480px) { .analysis-grid { grid-template-columns: 1fr; } }
+
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 10px 8px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.ok-box { background: #ebfbee; border-color: #b2f2bb; }
+.stat-box.warning-box { background: #fff4e6; border-color: #ffd8a8; }
+.stat-box.alert-box { background: #ffe3e3; border-color: #ff6b6b; }
+
+.stat-value { font-size: 1.25rem; font-weight: 900; color: #212529; line-height: 1.1; }
+.stat-label { font-size: 0.60rem; font-weight: 800; color: #868e96; margin-top: 3px; }
+.stat-sub { font-size: 0.70rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+</style>
+
+<script>
+(function() {
+  function initCadenceStudioWidget() {
+    let currentSPM = 180;
+    let isMetronomePlaying = false;
+
+    // Web Audio API scheduler
+    let audioCtx = null;
+    let nextNoteTime = 0.0;
+    let timerID = null;
+    let currentStepLeft = true;
+
+    // Tap Tempo
+    let tapTimestamps = [];
+    let tapTimeout = null;
+
+    // Skridttæller Timer
+    let isCntTimerRunning = false;
+    let cntTimerInterval = null;
+    let cntStartTime = 0;
+
+    let wakeLock = null;
+
+    const widget = document.querySelector(".cadence-widget");
+    if (!widget) return;
+
+    const statusBanner = widget.querySelector("#cadence-status-banner");
+
+    const spmValueDisplay = widget.querySelector("#spm-value-display");
+    const spmSlider = widget.querySelector("#spm-slider");
+    const btnSpmMinus = widget.querySelector("#btn-spm-minus");
+    const btnSpmPlus = widget.querySelector("#btn-spm-plus");
+    const btnToggleMetronome = widget.querySelector("#btn-toggle-metronome");
+    const soundTypeSelect = widget.querySelector("#metronome-sound-type");
+
+    const footLeft = widget.querySelector("#foot-left");
+    const footRight = widget.querySelector("#foot-right");
+
+    const presetBtns = widget.querySelectorAll(".btn-preset");
+
+    const tabMetronome = widget.querySelector("#tab-metronome");
+    const tabCounter = widget.querySelector("#tab-counter");
+
+    const submodeTap = widget.querySelector("#submode-tap");
+    const submodeTimer = widget.querySelector("#submode-timer");
+    const modeTapBtn = widget.querySelector("#mode-tap-btn");
+    const modeTimerBtn = widget.querySelector("#mode-timer-btn");
+
+    const btnTapTempo = widget.querySelector("#btn-tap-tempo");
+    const tapCountHint = widget.querySelector("#tap-count-hint");
+    const btnResetTap = widget.querySelector("#btn-reset-tap");
+
+    const cntDurationSelect = widget.querySelector("#cnt-duration-select");
+    const timerInstructionText = widget.querySelector("#timer-instruction-text");
+    const cntTimerDisplay = widget.querySelector("#cnt-timer-display");
+    const inputRightFootSteps = widget.querySelector("#input-right-foot-steps");
+    const btnStartCntTimer = widget.querySelector("#btn-start-cnt-timer");
+
+    const measuredResultBox = widget.querySelector("#measured-result-box");
+    const measuredSpmNumber = widget.querySelector("#measured-spm-number");
+    const btnTransferToMetronome = widget.querySelector("#btn-transfer-to-metronome");
+
+    const statSpmTag = widget.querySelector("#stat-spm-tag");
+    const statCadenceLevel = widget.querySelector("#stat-cadence-level");
+    const boxCadenceStatus = widget.querySelector("#box-cadence-status");
+
+    const statImpactVal = widget.querySelector("#stat-impact-val");
+    const statImpactDesc = widget.querySelector("#stat-impact-desc");
+    const boxJointImpact = widget.querySelector("#box-joint-impact");
+
+    const wakelockStatus = widget.querySelector(".wakelock-status");
+    const infoModal = widget.querySelector(".cadence-info-modal");
+    const infoIconBtn = widget.querySelector(".info-icon-btn");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+    function showStatusBanner(msg) {
+      statusBanner.textContent = msg;
+      statusBanner.style.display = "block";
+      setTimeout(() => {
+        statusBanner.style.display = "none";
+      }, 4000);
+    }
+
+    // SETUP TABS
+    function setupToggleGroup(groupId, onChange) {
+      const group = widget.querySelector(`#${groupId}`);
+      if (!group) return;
+      const btns = group.querySelectorAll(".toggle-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          btns.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          onChange(btn.dataset.val);
+        });
+      });
+    }
+
+    setupToggleGroup("cadence-tab-toggle", (val) => {
+      if (val === "metronome") {
+        tabMetronome.style.display = "block";
+        tabCounter.style.display = "none";
+        updateAnalysis(currentSPM);
+      } else {
+        tabMetronome.style.display = "none";
+        tabCounter.style.display = "block";
+        stopMetronome();
+        const measured = parseInt(measuredSpmNumber.textContent);
+        if (measuredResultBox.style.display !== "none" && measured > 0) {
+          updateAnalysis(measured);
+        }
+      }
+    });
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+      }
+    }
+    function releaseWakeLock() {
+      if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+    }
+
+    // WEB AUDIO METRONOME SCHEDULER
+    function playClickSound(time) {
+      if (!audioCtx) return;
+      const soundType = soundTypeSelect.value;
+
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      if (soundType === 'digital') {
+        osc.frequency.setValueAtTime(currentStepLeft ? 1200 : 1000, time);
+        gain.gain.setValueAtTime(0.3, time);
+        gain.gain.exponentialRampToValueAtTime(0.001, time + 0.05);
+        osc.start(time);
+        osc.stop(time + 0.05);
+      } else if (soundType === 'woodblock') {
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(currentStepLeft ? 800 : 650, time);
+        gain.gain.setValueAtTime(0.5, time);
+        gain.gain.exponentialRampToValueAtTime(0.001, time + 0.04);
+        osc.start(time);
+        osc.stop(time + 0.04);
+      } else {
+        osc.type = 'square';
+        osc.frequency.setValueAtTime(currentStepLeft ? 400 : 300, time);
+        gain.gain.setValueAtTime(0.2, time);
+        gain.gain.exponentialRampToValueAtTime(0.001, time + 0.03);
+        osc.start(time);
+        osc.stop(time + 0.03);
+      }
+
+      setTimeout(() => {
+        if (currentStepLeft) {
+          footLeft.classList.add("active-left");
+          footRight.classList.remove("active-right");
+        } else {
+          footRight.classList.add("active-right");
+          footLeft.classList.remove("active-left");
+        }
+      }, Math.max(0, (time - audioCtx.currentTime) * 1000));
+
+      currentStepLeft = !currentStepLeft;
+    }
+
+    function scheduler() {
+      while (nextNoteTime < audioCtx.currentTime + 0.1) {
+        playClickSound(nextNoteTime);
+        const secondsPerBeat = 60.0 / currentSPM;
+        nextNoteTime += secondsPerBeat;
+      }
+      timerID = setTimeout(scheduler, 25);
+    }
+
+    function startMetronome() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+
+      isMetronomePlaying = true;
+      requestWakeLock();
+      btnToggleMetronome.classList.add("is-playing");
+      btnToggleMetronome.textContent = "🛑 STOP METRONOM";
+
+      nextNoteTime = audioCtx.currentTime + 0.05;
+      currentStepLeft = true;
+      scheduler();
+    }
+
+    function stopMetronome() {
+      isMetronomePlaying = false;
+      clearTimeout(timerID);
+      releaseWakeLock();
+      btnToggleMetronome.classList.remove("is-playing");
+      btnToggleMetronome.textContent = "🚀 START METRONOM";
+
+      footLeft.classList.remove("active-left");
+      footRight.classList.remove("active-right");
+    }
+
+    function setSPM(val) {
+      currentSPM = Math.max(130, Math.min(220, parseInt(val)));
+      spmValueDisplay.textContent = currentSPM;
+      spmSlider.value = currentSPM;
+
+      presetBtns.forEach(btn => {
+        if (parseInt(btn.dataset.spm) === currentSPM) btn.classList.add("active-preset");
+        else btn.classList.remove("active-preset");
+      });
+
+      updateAnalysis(currentSPM);
+    }
+
+    function updateAnalysis(spmToEvaluate) {
+      const spm = spmToEvaluate || currentSPM;
+      statSpmTag.textContent = `${spm} SPM`;
+
+      if (spm < 160) {
+        statCadenceLevel.textContent = "Lav kadence (Lange skridt)";
+        boxCadenceStatus.className = "stat-box warning-box";
+
+        statImpactVal.textContent = "Høj";
+        statImpactDesc.textContent = "Tung belastning på knæ & hæl";
+        boxJointImpact.className = "stat-box alert-box";
+      } else if (spm <= 174) {
+        statCadenceLevel.textContent = "Moderat kadence";
+        boxCadenceStatus.className = "stat-box ok-box";
+
+        statImpactVal.textContent = "Moderat";
+        statImpactDesc.textContent = "Udmærket til rolige ture";
+        boxJointImpact.className = "stat-box ok-box";
+      } else if (spm <= 185) {
+        statCadenceLevel.textContent = "Optimal kadence";
+        boxCadenceStatus.className = "stat-box ok-box";
+
+        statImpactVal.textContent = "Lav (Skånsom)";
+        statImpactDesc.textContent = "Korte, skånsomme skridt";
+        boxJointImpact.className = "stat-box ok-box";
+      } else {
+        statCadenceLevel.textContent = "Høj frekvens (Sprint)";
+        boxCadenceStatus.className = "stat-box ok-box";
+
+        statImpactVal.textContent = "Meget Lav";
+        statImpactDesc.textContent = "Minimal stød-belastning";
+        boxJointImpact.className = "stat-box ok-box";
+      }
+    }
+
+    // TAP TEMPO LOGIK
+    function handleTapTempo() {
+      const now = performance.now();
+      tapTimestamps.push(now);
+
+      clearTimeout(tapTimeout);
+      tapTimeout = setTimeout(() => {
+        tapTimestamps = [];
+        tapCountHint.textContent = "Tryk for at starte måling...";
+      }, 3000);
+
+      if (tapTimestamps.length > 1) {
+        if (now - tapTimestamps[tapTimestamps.length - 2] > 2500) {
+          tapTimestamps = [now];
+          tapCountHint.textContent = "Startet forfra...";
+          return;
+        }
+
+        const deltas = [];
+        for (let i = 1; i < tapTimestamps.length; i++) {
+          deltas.push(tapTimestamps[i] - tapTimestamps[i - 1]);
+        }
+
+        const avgDeltaMs = deltas.reduce((a, b) => a + b, 0) / deltas.length;
+        const calculatedSPM = Math.round(60000 / avgDeltaMs);
+
+        tapCountHint.textContent = `${tapTimestamps.length} tryk registreret...`;
+
+        if (tapTimestamps.length >= 3) {
+          showMeasuredResult(calculatedSPM);
+        }
+      } else {
+        tapCountHint.textContent = "Startet... Tryk videre i takt!";
+      }
+    }
+
+    function resetTapTempo() {
+      tapTimestamps = [];
+      clearTimeout(tapTimeout);
+      tapCountHint.textContent = "Tryk for at starte måling...";
+      measuredResultBox.style.display = "none";
+      updateAnalysis(currentSPM);
+    }
+
+    // ADJUSTABLE TIMER LOGIK
+    function updateTimerInstruction() {
+      const dur = cntDurationSelect.value;
+      timerInstructionText.innerHTML = `Tæl, hvor mange gange din <strong>HØJRE fod</strong> rammer jorden på ${dur} sekunder:`;
+      cntTimerDisplay.textContent = `${parseFloat(dur).toFixed(1)}s`;
+    }
+
+    function toggleCntTimer() {
+      if (isCntTimerRunning) {
+        // STOPPER TIMER MANUELT
+        clearInterval(cntTimerInterval);
+        isCntTimerRunning = false;
+        btnStartCntTimer.textContent = "🚀 START TIMER";
+        btnStartCntTimer.classList.remove("is-running");
+        updateTimerInstruction();
+        releaseWakeLock();
+        return;
+      }
+
+      // STARTER TIMER
+      isCntTimerRunning = true;
+      requestWakeLock();
+      btnStartCntTimer.textContent = "🛑 STOP TEST";
+      btnStartCntTimer.classList.add("is-running");
+
+      const durSecs = parseFloat(cntDurationSelect.value) || 15;
+      let remaining = durSecs;
+      cntTimerDisplay.textContent = `${remaining.toFixed(1)}s`;
+
+      cntStartTime = performance.now();
+      cntTimerInterval = setInterval(() => {
+        const elapsed = (performance.now() - cntStartTime) / 1000;
+        remaining = Math.max(0, durSecs - elapsed);
+        cntTimerDisplay.textContent = `${remaining.toFixed(1)}s`;
+
+        if (remaining <= 0) {
+          clearInterval(cntTimerInterval);
+          isCntTimerRunning = false;
+          releaseWakeLock();
+          btnStartCntTimer.textContent = "🚀 START TIMER";
+          btnStartCntTimer.classList.remove("is-running");
+
+          const rightSteps = parseInt(inputRightFootSteps.value) || 0;
+          if (rightSteps > 0) {
+            // SPM = (Antal højre skridt * 2) * (60 / varighed i sek)
+            const calculatedSPM = Math.round((rightSteps * 2) * (60 / durSecs));
+            showMeasuredResult(calculatedSPM);
+          }
+        }
+      }, 100);
+    }
+
+    function showMeasuredResult(spm) {
+      measuredSpmNumber.textContent = spm;
+      measuredResultBox.style.display = "block";
+      updateAnalysis(spm);
+    }
+
+    // HANDLERE
+    btnToggleMetronome.addEventListener("click", () => {
+      if (isMetronomePlaying) stopMetronome();
+      else startMetronome();
+    });
+
+    spmSlider.addEventListener("input", (e) => setSPM(e.target.value));
+    btnSpmMinus.addEventListener("click", () => setSPM(currentSPM - 5));
+    btnSpmPlus.addEventListener("click", () => setSPM(currentSPM + 5));
+
+    presetBtns.forEach(btn => {
+      btn.addEventListener("click", () => setSPM(btn.dataset.spm));
+    });
+
+    modeTapBtn.addEventListener("click", () => {
+      modeTapBtn.classList.add("active");
+      modeTimerBtn.classList.remove("active");
+      submodeTap.style.display = "block";
+      submodeTimer.style.display = "none";
+    });
+
+    modeTimerBtn.addEventListener("click", () => {
+      modeTimerBtn.classList.add("active");
+      modeTapBtn.classList.remove("active");
+      submodeTap.style.display = "none";
+      submodeTimer.style.display = "block";
+    });
+
+    cntDurationSelect.addEventListener("change", updateTimerInstruction);
+
+    btnTapTempo.addEventListener("click", handleTapTempo);
+    btnResetTap.addEventListener("click", resetTapTempo);
+    btnStartCntTimer.addEventListener("click", toggleCntTimer);
+
+    btnTransferToMetronome.addEventListener("click", () => {
+      const measured = parseInt(measuredSpmNumber.textContent) || 165;
+      const targetSPM = Math.round(measured * 1.05);
+      setSPM(targetSPM);
+
+      // Skift til metronom-tab
+      const tabBtns = widget.querySelectorAll("#cadence-tab-toggle .toggle-btn");
+      tabBtns[0].click();
+
+      showStatusBanner(`✅ Målt kadence (${measured} SPM) overført! Metronomen er indstillet til ${targetSPM} SPM (+5% træningsmål).`);
+    });
+
+    infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+    modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+    setSPM(180);
+    updateTimerInstruction();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initCadenceStudioWidget);
+  } else {
+    initCadenceStudioWidget();
+  }
+})();
+</script>

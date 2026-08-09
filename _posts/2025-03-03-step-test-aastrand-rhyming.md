@@ -10,8 +10,9 @@ header:
   credit: https://images.unsplash.com/photo-1546869372-abdd57773019
   caption: Åstrand-Ryhming Step Test – Klassisk skandinavisk konditionstest
 category:
-- Tests
 - Kondition
+- Konditionstests
+- Steptests
 meta:
   name: Åstrand-Ryhming Step Test
   measures: kondital
@@ -19,6 +20,32 @@ meta:
   equipment: stepbænk
   max: submaksimal test
   direct: indirekte test
+tests:
+  - id: "test-astrand-ryhming-step-test"
+    title: "Åstrand-Ryhming Step Test"
+    description: "Klassisk, submaksimal fysiologisk steptest (6 minutter ved 90 BPM på en 40 cm / 33 cm høj bænk) til indirekte estimering af absolut VO2max og kondital baseret på steady-state arbejdspuls og alderskorrektion."
+    category: ["Tests", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk steppearbejde på bænk
+    method: "indirekte"                     # 📊 Indirekte estimering af VO2max ud fra steady-state arbejdspuls
+    modality: ["Steptest"]
+    measures: ["Kondital", "VO2max", "Absolut VO2max (L/min)", "Arbejdspuls", "Steady-state puls"]
+    equipment: ["Stepbænk (40 cm for mænd / 33 cm for kvinder)", "Timer / Metronom (90 BPM)", "Pulsmåler / Pulsbælte"]
+    setting: ["Indendørs", "Testcenter", "Klinik", "Skole", "Individuel"]
+    target_group: ["Voksne", "Motionister", "Atleter", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-astrand-ryhming-steptest-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-astrand-ryhming-steptest-beregner"
+    title: "Åstrand-Ryhming Step Test Beregner & Interaktiv Timer"
+    description: "Interaktiv timer med 90 BPM metronom samt beregner til estimering af absolut VO2max og alderskorrigeret kondital baseret på Åstrand-Ryhming nomogrammet."
+    category: ["Kondition", "Beregnere", "Tests"]
+    type: ["Beregner", "Timer"]
+    measures: ["Kondital", "VO2max", "Alderskorrigeret VO2max"] # 🎯 Output-parametre fra modulet
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

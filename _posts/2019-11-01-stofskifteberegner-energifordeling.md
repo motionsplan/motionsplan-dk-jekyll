@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/unsplash/photo-1707723029914-e4f3e27ebc5d.jpg
   caption: Beregn dit daglige energibehov og energiforbrug
 category:
-- Beregnere
+- Kost & Ernæring
 - Kalorieberegnere
 tags:
 - beregner
@@ -23,6 +23,15 @@ meta:
   equipment: ingen
   measures: hvilestofskifte
   type: energiforbrug
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-energifordeling-beregner"
+    title: "Energifordeling & Stofskifte Beregner"
+    description: "Beregn dit samlede daglige energibehov (kcal) og din fordeling af protein, kulhydrat og fedt i energiprocent (E%)."
+    category: ["Ernæring"]
+    type: ["Beregner"]
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2025-02-27T23:14:14Z'
 toc: 'true'
 ---

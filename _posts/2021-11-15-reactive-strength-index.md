@@ -22,6 +22,21 @@ meta:
   max: maksimal test
   direct: direkte test
   description: Mål, hvor hurtigt du kan udnytte elastisk energi i et hop.
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-rsi-drop-jump"
+    title: "Reactive Strength Index Test (Incremental Drop Jump)"
+    description: "Standardiseret plyometrisk springtest (Drop Jump / Depth Jump) til måling af atletens evne til hurtigt at omsætte excentrisk muskelarbejde til koncentrisk kraftudvikling."
+    category: ["Tests", "Eksplosivitet", "Spring"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver maksimale drop jumps fra boks med fokus på minimal kontakttid og maksimal hoppehøjde
+    method: "direkte"                     # 📊 Måles direkte via kontakttid (s) og svævetid/hoppehøjde (m) på måtte eller kraftplatform
+    modality: ["Spring", "Eksplosivitet"]
+    measures: ["Reactive Strength Index", "RSI", "Hoppehøjde", "Kontakttid", "Svævetid", "Optimal drop-højde", "RSImod"]
+    equipment: ["Hoppemåtte", "Kraftplatform", "Drop-boks", "Smartphone App (My Jump)"]
+    setting: ["Testcenter", "Styrkerum", "Idrætsanlæg", "Individuel"]
+    target_group: ["Atleter", "Elitesportsudøvere", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 last_modified_at: '2025-02-19T08:14:14Z'
 toc: 'true'
 feature_row:

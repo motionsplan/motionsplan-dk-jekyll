@@ -1,0 +1,272 @@
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="lk-widget">
+  <div class="lk-card lk-controls">
+    <div class="lk-control-group">
+      <label for="lk-vlamax">
+        Glykolytisk kapacitet (VLAmax): <span id="lk-val-vlamax">Moderat</span>
+      </label>
+      <input type="range" id="lk-vlamax" min="1" max="3" value="2" step="1">
+      <small style="color: #6b7280; font-size: 0.8rem;">Styrer hvor hurtigt kroppen danner laktat fra kulhydrat</small>
+    </div>
+    
+    <div class="lk-control-group">
+      <label for="lk-aerobic">
+        Aerob / Clearance kapacitet: <span id="lk-val-aerobic">Trænet</span>
+      </label>
+      <input type="range" id="lk-aerobic" min="1" max="3" value="2" step="1">
+      <small style="color: #6b7280; font-size: 0.8rem;">Styrer mitokondriernes evne til at forbrænde laktat</small>
+    </div>
+  </div>
+
+  <div class="lk-card">
+    <div class="lk-chart-container">
+      <canvas id="lkCanvas"></canvas>
+    </div>
+
+    <div class="lk-metrics">
+      <div class="lk-metric-card lk-lt1-card">
+        <div>Aerob Tærskel (LT₁)</div>
+        <div class="lk-metric-value" id="lk-metric-lt1">0 % VO₂max</div>
+        <small>Første stigning (~2.0 mmol/L)</small>
+      </div>
+      <div class="lk-metric-card lk-lt2-card">
+        <div>Anaerob Tærskel (LT₂ / MLSS)</div>
+        <div class="lk-metric-value" id="lk-metric-lt2">0 % VO₂max</div>
+        <small>Produktion overstiger max clearance</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .lk-widget {
+    margin: 2rem 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #1f2937;
+  }
+  .lk-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e7eb;
+  }
+  .lk-controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+  .lk-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .lk-control-group label {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .lk-control-group input[type=range] {
+    width: 100%;
+    cursor: pointer;
+  }
+  .lk-chart-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+  }
+  .lk-metrics {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .lk-metric-card {
+    flex: 1;
+    background: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 4px solid #10b981;
+  }
+  .lk-metric-card.lk-lt2-card {
+    border-top-color: #8b5cf6;
+  }
+  .lk-metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+  .lk-lt1-card .lk-metric-value {
+    color: #10b981;
+  }
+  .lk-lt2-card .lk-metric-value {
+    color: #8b5cf6;
+  }
+  @media (max-width: 600px) {
+    .lk-metrics {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<script>
+(function() {
+  const vlaLabels = { 1: "Lav (Udholdende)", 2: "Moderat", 3: "Høj (Eksplosiv)" };
+  const aerobicLabels = { 1: "Utrænet", 2: "Trænet", 3: "Elite (Zone 2 stærk)" };
+
+  let lkChartInstance = null;
+
+  function calculateKinetics() {
+    const vlaVal = parseInt(document.getElementById('lk-vlamax').value);
+    const aerobVal = parseInt(document.getElementById('lk-aerobic').value);
+
+    // Multiplikatorer baseret på valg
+    const vlaFactor = vlaVal === 1 ? 0.65 : (vlaVal === 2 ? 1.0 : 1.45);
+    const aerobFactor = aerobVal === 1 ? 0.7 : (aerobVal === 2 ? 1.0 : 1.35);
+
+    const labels = [];
+    const prodData = [];
+    const clearData = [];
+    const bloodLactateData = [];
+
+    let lt1Intensity = null;
+    let lt2Intensity = null;
+
+    // Intensitet fra 40% til 110% af VO2max
+    for (let x = 40; x <= 110; x += 2) {
+      labels.push(x + '%');
+
+      // Laktatproduktion (eksponentiel stigning med intensitet)
+      const p = 0.4 + vlaFactor * 0.07 * Math.exp(0.062 * (x - 30));
+
+      // Laktatclearance (stiger op mod et plateau/kapacitet)
+      const c = aerobFactor * (0.6 + 3.8 * (x - 30) / ((x - 30) + 20));
+
+      // Blodlaktatkoncentration (mmol/L)
+      let bloodLactate;
+      if (p <= c) {
+        // Under tærskel: stabil balance
+        bloodLactate = 1.2 + (p / c) * 1.2;
+      } else {
+        // Over tærskel: eksponentiel akkumulering
+        const diff = p - c;
+        bloodLactate = 2.4 + Math.pow(diff, 1.35) * 2.8;
+      }
+
+      // Begræns maks visning af blodlaktat
+      if (bloodLactate > 15) bloodLactate = 15;
+
+      prodData.push(p.toFixed(2));
+      clearData.push(c.toFixed(2));
+      bloodLactateData.push(bloodLactate.toFixed(2));
+
+      // Tærskelbestemmelse
+      if (!lt1Intensity && bloodLactate >= 2.0) {
+        lt1Intensity = x;
+      }
+      if (!lt2Intensity && (p >= c || bloodLactate >= 4.0)) {
+        lt2Intensity = x;
+      }
+    }
+
+    return {
+      labels,
+      prodData,
+      clearData,
+      bloodLactateData,
+      lt1: lt1Intensity || 60,
+      lt2: lt2Intensity || 85
+    };
+  }
+
+  function updateChart() {
+    const data = calculateKinetics();
+
+    document.getElementById('lk-val-vlamax').textContent = vlaLabels[document.getElementById('lk-vlamax').value];
+    document.getElementById('lk-val-aerobic').textContent = aerobicLabels[document.getElementById('lk-aerobic').value];
+
+    document.getElementById('lk-metric-lt1').textContent = `${data.lt1} % VO₂max`;
+    document.getElementById('lk-metric-lt2').textContent = `${data.lt2} % VO₂max`;
+
+    if (lkChartInstance) {
+      lkChartInstance.data.labels = data.labels;
+      lkChartInstance.data.datasets[0].data = data.prodData;
+      lkChartInstance.data.datasets[1].data = data.clearData;
+      lkChartInstance.data.datasets[2].data = data.bloodLactateData;
+      lkChartInstance.update();
+    } else {
+      const ctx = document.getElementById('lkCanvas').getContext('2d');
+      lkChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: data.labels,
+          datasets: [
+            {
+              label: 'Laktatproduktion',
+              data: data.prodData,
+              borderColor: '#ef4444',
+              borderDash: [5, 5],
+              borderWidth: 2,
+              pointRadius: 0,
+              yAxisID: 'yRate'
+            },
+            {
+              label: 'Laktatclearance (Oprydning)',
+              data: data.clearData,
+              borderColor: '#10b981',
+              borderDash: [5, 5],
+              borderWidth: 2,
+              pointRadius: 0,
+              yAxisID: 'yRate'
+            },
+            {
+              label: 'Blodlaktat (mmol/L)',
+              data: data.bloodLactateData,
+              borderColor: '#8b5cf6',
+              backgroundColor: 'rgba(139, 92, 246, 0.12)',
+              borderWidth: 3.5,
+              pointRadius: 0,
+              fill: true,
+              yAxisID: 'yLactate'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { intersect: false, mode: 'index' },
+          scales: {
+            x: { 
+              title: { display: true, text: 'Arbejdsintensitet (% af VO₂max)' } 
+            },
+            yRate: {
+              type: 'linear',
+              position: 'left',
+              title: { display: true, text: 'Laktatrate (Relativ)' },
+              min: 0,
+              max: 6,
+              grid: { drawOnChartArea: false }
+            },
+            yLactate: {
+              type: 'linear',
+              position: 'right',
+              title: { display: true, text: 'Blodlaktat (mmol / L)' },
+              min: 0,
+              max: 12
+            }
+          }
+        }
+      });
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.lk-widget input[type=range]').forEach(input => {
+      input.addEventListener('input', updateChart);
+    });
+    updateChart();
+  });
+})();
+</script>

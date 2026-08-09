@@ -12,6 +12,7 @@ header:
 category:
 - Kondition
 - Cykling
+- Cykeltests
 tags:
 - test
 - kondition
@@ -25,6 +26,32 @@ meta:
   equipment: cykelergometer
   max: maksimal test
   direct: indirekte test
+tests:
+  - id: "test-trappetest-cykel"
+    title: "Trappetest & Ramptest på Cykel (Hawley & Noakes, 1992)"
+    description: "Maksimal, indirekte cykeltest på hometrainer eller ergometercykel med trinvis belastningsforøgelse (25 W / 2,5 min) til estimering af Peak Power Output (PPO), VO2max og FTP."
+    category: ["Tests", "Cykling", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🚴‍♂️ FYSISK TEST: Kræver maksimal cykelindsats til udmattelse
+    method: "indirekte"                   # ⏱️ Indirekte estimering af VO2max og FTP ud fra Peak Power Output (PPO)
+    modality: ["Cykling"]
+    measures: ["Peak Power Output (PPO)", "VO2max", "Kondital", "FTP-estimat", "Maksimalpuls"]
+    equipment: ["Hometrainer", "Wattmåler", "Ergometercykel", "Pulsmåler"]
+    setting: ["Indendørs", "Hjemmetest", "Laboratorium", "Individuel"]
+    target_group: ["Motionister", "Cykelryttere", "Atleter", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-trappetest-cykel-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-trappetest-cykel-beregner"
+    title: "Trappetest & Ramptest Cykel Beregner"
+    description: "Interaktiv beregner til udregning af Peak Power Output (PPO), VO2max (via Hawley-formlen), relativt kondital og estimeret FTP baseret på dit trappetest-resultat."
+    category: ["Cykling", "Kondition", "Tests"]
+    type: ["Beregner"]
+    measures: ["Peak Power Output", "PPO", "VO2max", "Kondital", "FTP-estimat"]  # 🎯 Output-parametre fra modulet
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 faq:
 - question: "Hvad er forskellen på en trappetest og en ramptest?"
   answer: "Det er det samme. Pointen er at man kører ved en given intensitet i et specifikt tidsrum, hvor intensiteten så stiger. Det betyer, at testudøveren ikke selv skal pace testen."

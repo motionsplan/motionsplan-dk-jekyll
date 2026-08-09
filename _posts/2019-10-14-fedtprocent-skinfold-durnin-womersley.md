@@ -8,7 +8,7 @@ language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
-  - Tests
+  - Kropskomposition
   - Fedtprocent
 breadcrumbs: true
 tags:
@@ -22,13 +22,32 @@ meta:
   equipment: "hudfoldsmaaler"
   intensity: "ingen"
   method: "indirekte"
+page_type: "spoke"
+tests:
+  - id: "test-durnin-womersley-4punkt"
+    title: "Durnin & Womersley 4-punkts hudfoldsmåling"
+    description: "Anerkendt 4-punkts hudfoldsmåling til bestemmelse af fedtprocent via caliper-måling på biceps, triceps, subscapularis og suprailiac."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Måling"]
+    execution: ["Fysisk"]
+    modality: ["Kropsmål"]
+    method: "Indirekte"    
+    measures: ["Fedtprocent", "Kropsdensitet"]
+    equipment: ["Hudfoldsmåler"]
+    setting: ["Individuel", "Laboratorietest"]
+    target_group: ["Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
+    related_tools: ["tool-durnin-womersley-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Durnin & Womersley 4-punkts Hudfoldsberegner"
+  - id: "tool-durnin-womersley-beregner"
+    title: "Durnin & Womersley 4-punkts Hudfoldsberegner"
     description: "Beregn din fedtprocent ud fra 4 hudfoldsmålinger (biceps, triceps, subscapularis og suprailiac) med Durnin & Womersley-formlen."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#udregn-din-fedtprocent"
-    type: "beregner"
-    measures: "fedtprocent"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 ---

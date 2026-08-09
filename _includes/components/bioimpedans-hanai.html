@@ -1,0 +1,244 @@
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 850px; margin: 2rem auto; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05); background: #ffffff;">
+  
+  <div style="background-color: #1e293b; color: white; padding: 1.25rem; text-align: center;">
+    <h3 style="margin: 0; font-size: 1.15rem; font-weight: 600; letter-spacing: 0.5px;">Celle-Simulatoren: Hanai-teorien</h3>
+    <p style="margin: 0.25rem 0 0 0; opacity: 0.8; font-size: 0.8rem;">Forstå hvordan frekvensen påvirker målingen af væske</p>
+  </div>
+
+  <div style="padding: 1.5rem;">
+    
+    <!-- Elegante Knapper -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+      
+      <button id="btn-low" onclick="setSimFreq('low')" style="text-align: left; padding: 1rem; cursor: pointer; border-radius: 10px; transition: all 0.2s ease; outline: none; border: 1px solid #3b82f6; background: #f8fafc; box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.1);">
+        <h4 id="title-low" style="margin: 0 0 0.3rem 0; font-size: 0.95rem; font-weight: 600; color: #2563eb;">Lav Frekvens (5 kHz)</h4>
+        <p style="margin: 0; font-size: 0.8rem; color: #64748b; line-height: 1.4;">
+          Elektronerne preller af på cellemembranen. Se hvordan de tvinges til at finde vej udenom cellerne.
+        </p>
+      </button>
+
+      <button id="btn-high" onclick="setSimFreq('high')" style="text-align: left; padding: 1rem; cursor: pointer; border-radius: 10px; transition: all 0.2s ease; outline: none; border: 1px solid #e5e7eb; background: #ffffff;">
+        <h4 id="title-high" style="margin: 0 0 0.3rem 0; font-size: 0.95rem; font-weight: 600; color: #0f172a;">Høj Frekvens (50 kHz)</h4>
+        <p style="margin: 0; font-size: 0.8rem; color: #64748b; line-height: 1.4;">
+          Strømmen gennembryder cellerne. Bemærk hvordan elektronerne suser uhindret igennem alt væv.
+        </p>
+      </button>
+
+    </div>
+
+    <!-- Vævs-sammenligning (Fuldt integrerede kort) -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; align-items: stretch;">
+      
+      <!-- Muskel Kort -->
+      <div style="display: flex; flex-direction: column; background: #fdf2f8; border: 1px solid #fbcfe8; border-radius: 10px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);">
+        <!-- Tekst-sektion (min-height og z-index forhindrer overlap) -->
+        <div style="padding: 1.25rem; min-height: 135px; box-sizing: border-box; border-bottom: 1px solid rgba(244, 63, 94, 0.15); position: relative; z-index: 10; background: #fdf2f8;">
+          <h4 style="color: #be123c; margin: 0 0 0.25rem 0; font-size: 1rem; font-weight: 600;">Muskelvæv</h4>
+          <p style="margin: 0; font-size: 0.8rem; color: #881337; line-height: 1.4; opacity: 0.85;">
+            Meget vand og plads mellem fibrene. Elektronerne finder let vej, hvilket giver <strong>lav modstand</strong>.
+          </p>
+        </div>
+        <!-- Canvas-sektion -->
+        <div style="flex-grow: 1; position: relative; height: 350px;">
+          <canvas id="canvas-muscle" width="200" height="350" style="width: 100%; height: 100%; display: block;"></canvas>
+        </div>
+      </div>
+
+      <!-- Fedt Kort -->
+      <div style="display: flex; flex-direction: column; background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);">
+        <!-- Tekst-sektion (min-height og z-index forhindrer overlap) -->
+        <div style="padding: 1.25rem; min-height: 135px; box-sizing: border-box; border-bottom: 1px solid rgba(217, 119, 6, 0.15); position: relative; z-index: 10; background: #fffbeb;">
+          <h4 style="color: #b45309; margin: 0 0 0.25rem 0; font-size: 1rem; font-weight: 600;">Fedtvæv</h4>
+          <p style="margin: 0; font-size: 0.8rem; color: #78350f; line-height: 1.4; opacity: 0.85;">
+            Lipiddråber (fedt) presser kernen ud og spærrer vejen. Elektronerne bremses, hvilket giver <strong>høj modstand</strong>.
+          </p>
+        </div>
+        <!-- Canvas-sektion -->
+        <div style="flex-grow: 1; position: relative; height: 350px;">
+          <canvas id="canvas-fat" width="200" height="350" style="width: 100%; height: 100%; display: block;"></canvas>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // Fysiske indstillinger
+    let currentFreq = 'low'; 
+    let particles = { muscle: [], fat: [] };
+    let animationFrameId;
+    
+    const config = {
+      width: 200, height: 350,
+      particleRadius: 3,
+      spawnRate: 15, 
+      gravity: 0.15,
+      friction: 0.85
+    };
+
+    // Muskelceller
+    const muscleCells = [
+      {x: 40, y: 50, r: 18}, {x: 140, y: 70, r: 18},
+      {x: 80, y: 130, r: 18}, {x: 180, y: 170, r: 18},
+      {x: 30, y: 200, r: 18}, {x: 130, y: 250, r: 18},
+      {x: 80, y: 300, r: 18}, {x: 180, y: 340, r: 18},
+      {x: -5, y: 100, r: 18}, {x: -5, y: 270, r: 18},
+      {x: 205, y: 30, r: 18}, {x: 205, y: 210, r: 18}
+    ];
+
+    // Fedtceller (Forskudt mønster der forhindrer lodrette fald)
+    const fatCells = [
+      {x: 20, y: 20, r: 40}, {x: 110, y: 20, r: 40}, {x: 200, y: 20, r: 40},
+      {x: 65, y: 95, r: 40}, {x: 155, y: 95, r: 40}, {x: -25, y: 95, r: 40}, {x: 245, y: 95, r: 40},
+      {x: 20, y: 170, r: 40}, {x: 110, y: 170, r: 40}, {x: 200, y: 170, r: 40},
+      {x: 65, y: 245, r: 40}, {x: 155, y: 245, r: 40}, {x: -25, y: 245, r: 40}, {x: 245, y: 245, r: 40},
+      {x: 20, y: 320, r: 40}, {x: 110, y: 320, r: 40}, {x: 200, y: 320, r: 40}
+    ];
+
+    // Funktion til at tegne celler
+    function drawCells(ctx, type) {
+      const cells = type === 'muscle' ? muscleCells : fatCells;
+      const fillColor = type === 'muscle' ? '#fda4af' : '#fcd34d';
+      const strokeColor = type === 'muscle' ? '#f43f5e' : '#d97706';
+      const coreColor = type === 'muscle' ? '#be123c' : '#92400e';
+
+      cells.forEach(c => {
+        ctx.beginPath();
+        ctx.arc(c.x, c.y, c.r, 0, Math.PI * 2);
+        ctx.fillStyle = fillColor;
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = strokeColor;
+        ctx.stroke();
+
+        ctx.beginPath();
+        if (type === 'muscle') {
+          ctx.arc(c.x, c.y, 3, 0, Math.PI * 2); 
+        } else {
+          ctx.arc(c.x - c.r * 0.6, c.y + c.r * 0.4, 4, 0, Math.PI * 2);
+        }
+        ctx.fillStyle = coreColor;
+        ctx.fill();
+      });
+    }
+
+    // Fysik motor
+    function updateAndDrawParticles(ctx, type, frameCount) {
+      const parts = particles[type];
+      const cells = type === 'muscle' ? muscleCells : fatCells;
+      const color = currentFreq === 'low' ? '#3b82f6' : '#ea580c';
+
+      if (frameCount % config.spawnRate === 0) {
+        const startX = 20 + Math.random() * (config.width - 40);
+        parts.push({ x: startX, y: -10, vx: (Math.random() - 0.5), vy: 2 });
+      }
+
+      for (let i = parts.length - 1; i >= 0; i--) {
+        let p = parts[i];
+
+        if (currentFreq === 'low') {
+          p.vy += config.gravity; 
+          p.vx += (Math.random() - 0.5) * 0.8; 
+
+          p.x += p.vx;
+          p.y += p.vy;
+
+          p.vx *= config.friction;
+          p.vy *= 0.95;
+
+          cells.forEach(c => {
+            const dx = p.x - c.x;
+            const dy = p.y - c.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            const minDist = c.r + config.particleRadius + 1.5; 
+
+            if (distance < minDist) {
+              const overlap = minDist - distance;
+              const nx = dx / distance;
+              const ny = dy / distance;
+              
+              p.x += nx * overlap;
+              p.y += ny * overlap;
+
+              const dotProduct = p.vx * nx + p.vy * ny;
+              p.vx -= 1.3 * dotProduct * nx; 
+              p.vy -= 1.3 * dotProduct * ny;
+            }
+          });
+
+          if (p.x < 5) { p.x = 5; p.vx *= -1; }
+          if (p.x > config.width - 5) { p.x = config.width - 5; p.vx *= -1; }
+
+        } else {
+          p.vy = 6; 
+          p.vx = 0; 
+          p.y += p.vy;
+        }
+
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, config.particleRadius, 0, Math.PI * 2);
+        ctx.fillStyle = color;
+        ctx.fill();
+
+        if (p.y > config.height + 10) {
+          parts.splice(i, 1);
+        }
+      }
+    }
+
+    let frameCount = 0;
+    function animate() {
+      const canvasM = document.getElementById('canvas-muscle');
+      const canvasF = document.getElementById('canvas-fat');
+      if(!canvasM || !canvasF) return;
+
+      const ctxM = canvasM.getContext('2d');
+      const ctxF = canvasF.getContext('2d');
+
+      ctxM.clearRect(0, 0, config.width, config.height);
+      ctxF.clearRect(0, 0, config.width, config.height);
+
+      drawCells(ctxM, 'muscle');
+      drawCells(ctxF, 'fat');
+
+      updateAndDrawParticles(ctxM, 'muscle', frameCount);
+      updateAndDrawParticles(ctxF, 'fat', frameCount);
+
+      frameCount++;
+      animationFrameId = requestAnimationFrame(animate);
+    }
+
+    window.setSimFreq = function(type) {
+      currentFreq = type;
+      const btnLow = document.getElementById('btn-low');
+      const btnHigh = document.getElementById('btn-high');
+      const titleLow = document.getElementById('title-low');
+      const titleHigh = document.getElementById('title-high');
+
+      btnLow.style.borderColor = '#e5e7eb';
+      btnLow.style.backgroundColor = '#ffffff';
+      btnLow.style.boxShadow = 'none';
+      titleLow.style.color = '#0f172a';
+
+      btnHigh.style.borderColor = '#e5e7eb';
+      btnHigh.style.backgroundColor = '#ffffff';
+      btnHigh.style.boxShadow = 'none';
+      titleHigh.style.color = '#0f172a';
+
+      if (type === 'low') {
+        btnLow.style.borderColor = '#3b82f6';
+        btnLow.style.backgroundColor = '#f8fafc';
+        btnLow.style.boxShadow = '0 4px 6px -1px rgba(59, 130, 246, 0.1)';
+        titleLow.style.color = '#2563eb';
+      } else {
+        btnHigh.style.borderColor = '#ea580c';
+        btnHigh.style.backgroundColor = '#fff7ed';
+        btnHigh.style.boxShadow = '0 4px 6px -1px rgba(234, 88, 12, 0.1)';
+        titleHigh.style.color = '#ea580c';
+      }
+    };
+
+    cancelAnimationFrame(animationFrameId);
+    animate();
+  </script>
+</div>

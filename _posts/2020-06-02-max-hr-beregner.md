@@ -11,6 +11,7 @@ header:
   overlay_filter: 0.2
 category:
   - Kondition
+  - Pulstræning
 tags:
   - beregner
   - puls
@@ -24,12 +25,14 @@ meta:
   method: "formel"
   intensity: "let"
 tools:
-  - title: "Interaktiv Max-puls Beregner"
+  - id: "tool-max-puls-beregner"
+    title: "Interaktiv Max-puls Beregner"
     description: "Beregn din maksimale puls ud fra din alder med anerkendte aldersformler som Tanaka og Gellish."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    measures: ["Maxpuls", "Maksimalpuls"]  # 🎯 Nøjagtige output-værdier fra beregneren
     anchor: "#calculator"
-    type: "beregner"
-    measures: "maxpuls"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-07-02T08:14:14Z
 faq:
   - question: "Hvordan beregnes min maxpuls?"

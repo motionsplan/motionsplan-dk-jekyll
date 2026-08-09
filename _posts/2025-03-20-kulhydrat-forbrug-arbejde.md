@@ -18,6 +18,15 @@ meta:
   measures: CHO-forbrug og energiindtag
   type: beregner
   equipment: wattmåler eller pulsmåler
+tools:
+  - id: "tool-kulhydratforbrug-beregner"
+    title: "Kulhydratforbrug & Energiindtag Beregner"
+    description: "Interaktiv beregner til udregning af fysiologisk kulhydratforbrug (g/t), energiforbrug (kcal/t) samt optimal sukkerstrategi under cykling og løb."
+    category: ["Kost & Ernæring", "Beregnere", "Cykling", "Løb"]
+    type: ["Beregner"]
+    measures: ["Kulhydratforbrug (g/t)", "Energiforbrug (kcal/t)", "Anbefalet kulhydratindtag", "Glykogenlager-varighed"]  # 🎯 KUN rene fysiologiske output-parametre
+    anchor: "#beregn-dit-kulhydratforbrug-cykling--lob"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - beregner
 - værktøj

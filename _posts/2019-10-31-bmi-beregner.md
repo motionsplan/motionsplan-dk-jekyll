@@ -10,7 +10,8 @@ header:
   credit: https://images.unsplash.com/photo-1627820751275-e44b937c5d33
   caption: 'BMI beregner: Udregn dit BMI'
 category:
-- Beregnere
+- Kropskomposition
+- BMI
 tags:
 - beregner
 - måling
@@ -27,13 +28,32 @@ meta:
   target: "voksne"
   intensity: "ingen"
   method: "formel"
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-bmi-voksne"
+    title: "BMI for Voksne (Måling & Vurdering)"
+    description: "Vurdering af voksnes Body Mass Index (BMI) sammenholdt med WHO's standardiserede vægtklasser for mænd og kvinder."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Måling", "Vurdering"]
+    execution: ["Sofatest"]
+    method: "formel"                    # 🧮 Ren matematisk formel (vægt / højde^2)
+    modality: ["Antropometri"]
+    measures: ["BMI", "Vægtstatus", "Kropskomposition"]
+    equipment: ["Vægt", "Målebånd"]
+    setting: ["Hjemmetest", "Klinisk"]
+    target_group: ["Voksne", "Ældre", "Mænd", "Kvinder"]
+    related_tools: ["tool-bmi-voksne-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "BMI Beregner for Voksne"
+  - id: "tool-bmi-voksne-beregner"
+    title: "BMI Beregner for Voksne"
     description: "Beregn dit Body Mass Index (BMI) lynhurtigt ud fra din højde og vægt. Gælder for både voksne mænd og kvinder."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    execution: ["Sofatest"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "BMI"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-25T16:09:22Z'
 faq:
 - question: Gælder denne BMI beregner for både mænd og kvinder?

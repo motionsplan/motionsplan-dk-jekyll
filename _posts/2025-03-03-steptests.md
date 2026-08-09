@@ -9,8 +9,8 @@ header:
   credit: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
   caption: *title
 category:
-  - Tests
   - Kondition
+  - Konditionstests
 meta:
   name: Steptests 📝
   measures: kondital

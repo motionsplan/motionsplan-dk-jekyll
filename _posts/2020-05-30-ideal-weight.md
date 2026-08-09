@@ -13,7 +13,6 @@ header:
   caption: Beregn idealvægt for mænd og kvinder i vores enkle beregner
   overlay_filter: '0.1'
 category:
-- Beregnere
 - Kropskomposition
 tags:
 - beregner
@@ -26,7 +25,16 @@ meta:
   equipment: målebånd
   measures: idealvægt
   type: kropskomposition
-last_modified_at: '2022-08-22T08:14:14Z'
+tools:
+  - id: "tool-idealvaegt-beregner"
+    title: "Idealvægt Beregner"
+    description: "Beregn din ideelle kropsvægt ud fra din højde, dit køn og din kropstype med universelle formler fra Peterson et al. (2016) og Zacho."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    measures: ["Idealvægt", "Normalvægt", "Målvægt"]  # 🎯 Nøjagtige output-værdier fra modulet
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
+last_modified_at: '2026-08-07T08:14:14Z'
 toc: 'true'
 faq:
 - question: Hvad er idealvægt?

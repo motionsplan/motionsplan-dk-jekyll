@@ -10,11 +10,13 @@ header:
   teaser: /assets/images/unsplash/photo-1551104083-c046edeed47e.jpg
   caption: Mænd, beregn sandsynlighed for at dø af livsstilssygdomme
 category:
-- Vurderingsværktøjer
+- Sundhed
 tags:
 - vurderingsværktøj
 - sundhed
 - populær
+- mænd
+page_type: spoke
 last_modified_at: '2021-03-06T23:14:14Z'
 toc: 'true'
 meta:
@@ -22,6 +24,32 @@ meta:
   equipment: ingen
   measures: risiko for at dø
   type: sundhed
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-cooper-clinic-mortality-risk"
+    title: "Cooper Clinic Mortality Risk Index (Mænd)"
+    description: "Klinisk scoringssystem der estimerer mænds 15-årige risiko for dødelighed af livsstilssygdomme baseret på 8 kliniske og livsstilsmæssige parametre."
+    category: ["Sundhed", "Risikovurdering"]
+    type: ["Protokol", "Spørgeskema", "Vurdering"]
+    execution: ["Sofatest"]
+    method: "indirekte"                  # 🧮 Indirekte vurdering ud fra sundhedsparametre
+    modality: ["Spørgeskema", "Helbredsdata"]
+    measures: ["Dødelighedsrisiko", "Sundhedsrisiko"]
+    equipment: ["Ingen"]
+    setting: ["Individuel", "Klinisk"]
+    target_group: ["Voksne", "Mænd"]     # ⚠️ Studiet er udelukkende valideret på mænd
+    related_tools: ["tool-cooper-mortality-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-cooper-mortality-beregner"
+    title: "Cooper Clinic Mortality Risk Beregner"
+    description: "Indtast dine sundhedsdata og beregn din relative og absolutte risiko for at dø inden for de næste 15 år."
+    category: ["Sundhed"]
+    type: ["Beregner"]
+    execution: ["Sofatest"]
+    anchor: "#beregn-risikoen-for-at-doe-for-maend"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 _The Cooper Clinic_ har udarbejdet _Cooper's Mortality Risk Index: Clinical Score Sheet for Men_. Gennem en række spørgsmål kan **mænd** tjekke om deres absolutte og relative risiko for at dø af sygdom inden for de næste 15 år er forhøjet.

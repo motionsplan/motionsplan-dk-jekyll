@@ -12,7 +12,8 @@ header:
   credit: https://images.unsplash.com/photo-1540479859555-17af45c78602
   caption: BMI-beregner for børn, unge og teenagere
 category:
-- Beregnere
+- Kropskomposition
+- BMI
 tags:
 - beregner
 - kropskomposition
@@ -25,24 +26,41 @@ meta:
   target: "boern"
   intensity: "ingen"
   method: "formel"
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-bmi-boern"
+    title: "BMI for Børn og Unge (Persentilvurdering)"
+    description: "Vurdering af børns og unges Body Mass Index (BMI) sammenholdt med alders- og kønsspecifikke vækstkurver fra WHO og IOTF."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Måling", "Vurdering"]
+    execution: ["Sofatest"]
+    method: "formel"                    # 🧮 Ren matematisk formel (vægt / højde^2) holdt op mod alders-persentiler
+    modality: ["Antropometri"]
+    measures: ["BMI", "Vægtstatus", "Kropskomposition"]
+    equipment: ["Vægt", "Målebånd"]
+    setting: ["Hjemmetest", "Klinisk", "Skolebrug"]
+    target_group: ["Børn", "Unge"]       # ⚠️ Særligt afgrænset til børn og teenagere (2-19 år)
+    related_tools: ["tool-bmi-boern-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "BMI Beregner for Børn & Unge"
+  - id: "tool-bmi-boern-beregner"
+    title: "BMI Beregner for Børn & Unge"
     description: "Beregn BMI for børn og teenagere (2-19 år) og få en præcis vurdering i forhold til WHO og IOTF's alders- og kønsspecifikke normer."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    execution: ["Sofatest"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "BMI"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 popular: 'true'
 last_modified_at: '2026-07-13T10:14:14Z'
 faq:
 - question: Hvad er normal BMI for børn?
-  answer: Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan se skemaerne
-    her på siden.
+  answer: Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan se skemaerne her på siden.
 - question: Hvad er normal BMI for teenagere?
   answer: Du skal vurdere teenageres BMI ud fra WHO's BMI-skemaer. Men husk at børn og teenagere udvikler sig meget forskelligt.
 - question: Hvordan beregner man BMI for børn?
-  answer: Du beregner BMI for børn og unge på samme måde som for voksne. Men du skal fortolke tallene anderledes. Bliv klogere
-    i denne artikel.
+  answer: Du beregner BMI for børn og unge på samme måde som for voksne. Men du skal fortolke tallene anderledes. Bliv klogere i denne artikel.
 ---
 Hvordan kan du bruge BMI til børn, unge og teenagere? Body Mass Index (BMI) bruges til at udregne idealvægt, men hvordan hænger BMI, BMI-skalaer og og -tabeller sammen for børn, unge og teenagere?
 

@@ -5,17 +5,40 @@ excerpt: "Komplet guide til Bronco Testen (1200m Shuttle Run). Lær om opstillin
 permalink: /bronco-test/
 language: da
 categories:
-  - Test
   - Kondition
-  - Holdidræt
+  - Konditionstests
 tags:
-  - bronco test
-  - 1200m shuttle run
-  - MAS test
-  - rugby
+  - test
   - konditionstest
   - intervalløb
 last_modified_at: 2026-08-06T22:15:00Z
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-bronco-test"
+    title: "Bronco Test (1200m Shuttle Run)"
+    description: "Standardiseret fysiologisk, selvtempokeret shuttle-run test (5 runder af 20m-40m-60m tur-retur, samlet 1200m) til bestemmelse af Maksimal Aerob Hastighed (MAS) og aerob kapacitet."
+    category: ["Løb", "Tests", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver 1200m shuttle run med 15 retningsskift
+    method: "indirekte"                     # 📊 Indirekte måling af MAS og aerob kapacitet via sluttid
+    modality: ["Løb", "Sprint"]
+    measures: ["Maksimal Aerob Hastighed (MAS)", "Bronco-tid (s)", "Aerob kapacitet", "Intermittent udholdenhed"]  # 🎯 KUN rene fysiologiske slutmål
+    equipment: ["Markeringskegler (4 stk)", "Målebånd (min. 60 m)", "Stopur / Timer", "Skridsikkert underlag"]
+    setting: ["Udendørs", "Indendørs", "Løbebane", "Græsbane", "Testcenter", "Individuel", "Gruppetest"]
+    target_group: ["Holdatleter", "Rugbyspillere", "Fodboldspillere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-bronco-test-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-bronco-test-timer"
+    title: "Bronco Test Interaktiv Timer & MAS-beregner"
+    description: "Interaktiv timer og stopur til afvikling af Bronco Testen samt automatisk beregning af Maksimal Aerob Hastighed (MAS i m/s og km/t)."
+    category: ["Løb", "Beregnere", "Tests"]
+    type: ["Timer", "Beregner"]
+    measures: ["Bronco-tid (s)", "Maksimal Aerob Hastighed (MAS)"]  # 🎯 KUN rene slutmål
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 > **Kort om Bronco Testen:** Bronco Testen (også kendt som *1200m Shuttle Run Test*) er en af verdens mest anvendte og frygtede felt-tests til måling af aerob kapacitet, Maksimal Aerob Hastighed (MAS) og mental udholdenhed hos holdidrætsudøvere.

@@ -19,6 +19,20 @@ meta:
   equipment: se testbeskrivelse
   max: submaksimal test
   direct: direkte test
+tests:
+  - id: "test-submaksimal-iltoptagelsestest-loeb"
+    title: "Submaksimal Iltoptagelsestest på Løbebånd"
+    description: "Direkte fysiologisk laboratorietest på løbebånd med iltoptagelsesmaske, spirometri og kapillær blodlaktatmåling over 3–5 minutters trin til bestemmelse af LT1, LT2 og løbeøkonomi."
+    category: ["Tests", "Kondition", "Løb"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver fysisk løbeindsats på løbebånd med maske
+    method: "direkte"                     # 🫁 Direkte måling af VO2 via spirometri/gasanalyse og blodlaktat
+    modality: ["Løb"]
+    measures: ["LT1 (Aerob tærskel)", "LT2 (Anaerob tærskel)", "Løbeøkonomi", "RER (R-værdi)", "Submaksimal puls", "Laktatkurve"]
+    equipment: ["Løbebånd", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler (priktest)", "Pulsbælte"]
+    setting: ["Laboratorium", "Testcenter", "Individuel"]
+    target_group: ["Løbere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 tags:
 - test
 - konditionstest

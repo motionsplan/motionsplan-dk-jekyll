@@ -13,6 +13,20 @@ tags:
   - træning
   - løb
 last_modified_at: '2022-08-22T11:10:26Z'
+tests:
+  - id: "test-rftp-3-9-test"
+    title: "rFTPw 3-9 Test til Løb (Jim Vance / Hechmann / Stryd)"
+    description: "Standardiseret fysiologisk løbetestprotokol med to all-out indsatser (3 minutter og 9 minutter) til udregning af Running Functional Threshold Power (rFTPw), Critical Power og wattzoner."
+    category: ["Tests", "Løb", "Kondition"]
+    type: ["Protokol", "Løbetest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver to maksimale all-out løbeintervaller (3m og 9m)
+    method: "indirekte"                   # 📊 Indirekte estimering af 60-minutters tærskel-watt ud fra 3m og 9m snit-watt
+    modality: ["Løb"]
+    measures: ["rFTPw", "Running Functional Threshold Power", "Critical Power", "Løbe-watt", "Wattzoner", "3m Watt", "9m Watt"]
+    equipment: ["Wattmåler (Stryd / Garmin Running Power)", "Løbeur", "Løbebane"]
+    setting: ["Udendørs", "Løbebane", "Individuel"]
+    target_group: ["Løbere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 ---
 
 Vil du gerne kende din rFTPw til løb, så kan du bruge en 3-9 test. Der er nogle forskellige variationer, som vi prøver at gøre dig klogere på her.

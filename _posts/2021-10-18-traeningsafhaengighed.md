@@ -24,6 +24,33 @@ faq:
     answer: På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise addiction' og 'exercise dependence'.
   - question: Er træningsafhængighed en spiseforstyrrelse?
     answer: Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og spiseforstyrrelser følges dog ofte ad.
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-traeningsafhaengighed-eai"
+    title: "Exercise Addiction Inventory (EAI)"
+    description: "Valideret psykologisk screeningtest (Terry et al., 2004 / oversat af Mia Beck Lichtenstein) bestående af 6 spørgsmål til at evaluere risikoen for træningsafhængighed."
+    category: ["Psykologi", "Vurderingsværktøjer"]
+    type: ["Protokol", "Screening"]
+    execution: ["Spørgeskema"]            # 📋 SPØRGESKEMA / PSYKOMETRISK TEST
+    method: "spørgeskema"
+    modality: ["Psykologi"]
+    measures: ["Træningsafhængighed", "EAI-score", "Risikoscore"]
+    equipment: ["Ingen"]
+    setting: ["Hjemmetest", "Klinik", "Individuel"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder", "Atleter", "Motionister"]
+    related_tools:
+      - "tool-traeningsafhaengighed-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-traeningsafhaengighed-beregner"
+    title: "Træningsafhængighed Test Beregner"
+    description: "Interaktivt spørgeskema til beregning af din EAI-score og vurdering af din samlede risiko for træningsafhængighed."
+    category: ["Psykologi", "Vurderingsværktøjer"]
+    type: ["Beregner"]
+    measures: ["Træningsafhængighed", "EAI-score", "Afhængighedsrisiko"]  # 🎯 Output-parametre fra spørgeskemaet
+    anchor: "#test-din-traeningsafhaengighed"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Træningsafhængighed betegner en tilstand, hvor en person træner hele tiden og ikke kan stoppe igen. For personer, der lider af træningsafhængighed, fylder træning det meste af livet.

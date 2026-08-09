@@ -9,32 +9,40 @@ language: da
 header:
   teaser: https://images.unsplash.com/photo-1637578371283-d9076f66ba8e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 category:
-  - Tests
   - Cykling
+  - Cykeltests
 tags:
+  - test
   - cykeltest
   - vo2max
-  - map
-  - watt
   - cykling
-  - test
 
-schema_type: "MedicalTest"
-
-# 🧪 Test-metadata til Schema.org & overblik
 tests:
-  - id: "sitko-5-min-test"
+  - id: "test-sitko-5-min-cykeltest"
     title: "Sitkos 5-minutters All-Out Cykeltest"
-    type: "Maksimal cykeltest / Felt-test"
-    measures: "MAP (Maximal Aerobic Power), est. VO2max, Watt/kg"
-    equipment: "Hometrainer / Wattmåler, Cykel, Stopur"
-    anchor: "#saadan-udfoerer-du-sitkos-5-minutters-test"
+    description: "Standardiseret fysiologisk felt-test på cykel (5 minutters maksimal all-out indsats) til estimering af Maximal Aerobic Power (MAP), iltoptagelse (VO2max) og relativ watt-ydeevne."
+    category: ["Cykling", "Tests"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🚴‍♂️ FYSISK TEST: Kræver 5 minutters all-out cykelarbejde
+    method: "indirekte"                     # 📊 Indirekte måling af VO2max og MAP ud fra gennemsnitseffekt
+    modality: ["Cykling"]
+    measures: ["Maximal Aerobic Power (MAP)", "Estimeret VO2max", "Relativ max-effekt (Watt/kg)"]  # 🎯 KUN rene fysiologiske slutmål
+    equipment: ["Cykelergometer / Hometrainer med wattmåler", "Wattmåler", "Cykelcomputer / Stopur"]
+    setting: ["Indendørs", "Udendørs", "Hometrainer", "Testcenter", "Individuel"]
+    target_group: ["Cykelryttere", "Triatleter", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-sitko-test-beregner"
 
-# 🛠️ Beregner-metadata
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - id: "sitko-calculator"
-    name: "Sitko Test Beregner"
+  - id: "tool-sitko-test-beregner"
+    title: "Sitko 5-minutters Cykeltest Beregner"
+    description: "Interaktiv beregner til udregning af Maximal Aerobic Power (MAP), estimeret VO2max (kondital) og relativ effekt (Watt/kg) ud fra din 5-minutters all-out gennemsnitswatt og kropsvægt."
+    category: ["Cykling", "Beregnere", "Tests"]
+    type: ["Beregner"]
+    measures: ["Maximal Aerobic Power (MAP)", "Estimeret VO2max", "Relativ max-effekt (Watt/kg)"]  # 🎯 KUN rene slutmål
     anchor: "#beregner"
+    category_schema: "HealthAndFitnessApplication"
 
 # ❓ FAQ til udvidede søgeresultater
 faq:
@@ -64,7 +72,7 @@ Indtast din gennemsnitlige watt fra de 5 minutter samt din kropsvægt for at få
 
 ## Hvad er Sitkos 5-minutters test?
 
-Hvor traditionelle cykeltests som den klassiske [20-minutters FTP-test](/ftp-test-cykling/) har til formål at estimere din anarobe tærskel, fokuserer Sitkos 5-minutters test direkte på dit **aerobe loft**.
+Hvor traditionelle cykeltests som den klassiske [20-minutters FTP-test](/ftp-test/) har til formål at estimere din anarobe tærskel, fokuserer Sitkos 5-minutters test direkte på dit **aerobe loft**.
 
 En 5-minutters maksimal indsats ("all-out") belaster kredsløbet og iltoptagelsen maksimalt. Efter cirka 90–120 sekunders all-out arbejde når din krop sin maksimale iltoptagelse ($\text{VO}_2\text{max}$), og de resterende minutter handler om mental og fysiologisk tolerance.
 
@@ -94,7 +102,7 @@ For at få et brugbart og reproducerbart resultat er det afgørende, at du følg
 > **Synes du, det er svært at pace en 5-minutters test?**  
 > En 5-minutters test kræver god tempofornemmelse – starter du for hårdt, brænder du ud, og starter du for blødt, bliver testen ikke præcis. 
 > 
-> Vil du hellere køre en test med gradvist stigende belastning, hvor du slipper for at tænke på pacing? Så prøv vores [Watt Max test (Ramp-test)](/watt-max-test/), hvor modstanden øges, indtil du rammer udmattelse.
+> Vil du hellere køre en test med gradvist stigende belastning, hvor du slipper for at tænke på pacing? Så prøv vores [Watt Max test (Ramp-test)](/kondital-wattmax/), hvor modstanden øges, indtil du rammer udmattelse.
 {: .notice .notice--info }
 
 ---

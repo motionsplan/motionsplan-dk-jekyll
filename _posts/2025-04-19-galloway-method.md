@@ -11,11 +11,47 @@ header:
   caption: 'Galloway-metoden: The Golden Mile og Run-Walk-Run'
 category:
   - Løb
+  - Løbeprogrammer
 tags:
   - løb
   - løbeprogram
   - træningsfilosofi
 last_modified_at: '2024-01-13T22:21:26Z'
+tests:
+  - id: "test-galloway-magic-mile"
+    title: "Galloway Magic Mile Test"
+    description: "Fysisk felttest på 1,6 km (1 mile) i hurtigt, stabilt tempo til indirekte vurdering af løbekapacitet, forventede konkurrencedistancer og anbefalede træningstempi."
+    category: ["Løb", "Tests"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver løbeindsats på 1,6 km i hurtigt tempo
+    method: "indirekte"                     # 📊 Indirekte estimering af træningstempo og løbekapacitet ud fra 1-mile tid
+    modality: ["Løb"]
+    measures: ["Træningstempo", "Forventet sluttid"]  # 🎯 KUN rene præstationsmæssige slutmål
+    equipment: ["Stopur / Løbeur", "1,6 km opmålt rute eller løbebane"]
+    setting: ["Udendørs", "Løbebane", "Individuel"]
+    target_group: ["Løbere", "Begyndere", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-galloway-magic-mile-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-galloway-magic-mile-beregner"
+    title: "Galloway Magic Mile Beregner"
+    description: "Interaktiv beregner til udregning af anbefalede træningstempi og forventede konkurrencedistancer baseret på din Magic Mile tid."
+    category: ["Løb", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Træningstempo", "Forventet sluttid"]  # 🎯 KUN rene slutmål
+    anchor: "#beregner-til-galloway-magic-mile"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-run-walk-run-beregner"
+    title: "Run-Walk-Run Pace Beregner"
+    description: "Interaktiv beregner til udregning af det samlede gennemsnitstempo (pace) ved skiftevis løb og gang."
+    category: ["Løb", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Gennemsnitstempo (Pace)"]  # 🎯 KUN rene slutmål
+    anchor: "#beregner-til-samlet-pace-paa-run-walk-run-metoden"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Galloway-metoden veksler mellem løb og gang for at kunne træne længere tid uden at blive træt og derved undgå skader. Og du kan stadig flytte dine personlige rekorder. Her får du en introduktion til metoden, og du kan bruge vores beregner til at udregne dine egne intervaller.

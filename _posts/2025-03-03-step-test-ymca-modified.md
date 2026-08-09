@@ -10,8 +10,9 @@ header:
   credit: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8
   caption: YMCA Modified steptest – Individualiseret test
 category:
-- Tests
 - Kondition
+- Konditionstests
+- Steptests
 meta:
   name: YMCA modified steptest
   measures: kondital
@@ -19,6 +20,33 @@ meta:
   equipment: stepbænk
   max: submaksimal test
   direct: indirekte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-ymca-modified-steptest"
+    title: "YMCA Modified 3-minutters Steptest (Santo & Golding)"
+    description: "Individualiseret, submaksimal steptest (3 minutter ved 96 BPM, hvor bokshøjden beregnes ud fra kropshøjde) til indirekte estimering af kondital (VO2max) ud fra 1-minuts restitutionspuls."
+    category: ["Tests", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk steppearbejde på tilpasset bænk
+    method: "indirekte"                     # 📊 Indirekte estimering af VO2max ud fra restitutionspuls
+    modality: ["Steptest"]
+    measures: ["Kondital", "VO2max", "Individualiseret stephøjde", "Restitutionspuls", "Genoprettelsespuls"]
+    equipment: ["Justerbar stepbænk / Boks", "Målebånd", "Timer / Metronom (96 BPM)", "Pulsmåler / Stopur"]
+    setting: ["Indendørs", "Testcenter", "Fitnesscenter", "Hjemmetest", "Individuel"]
+    target_group: ["Voksne", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-ymca-modified-steptest-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-ymca-modified-steptest-beregner"
+    title: "YMCA Modified Steptest Beregner & Stephøjde-værktøj"
+    description: "Interaktivt værktøj til udregning af individualiseret stephøjde, 96 BPM timer samt beregning af VO2max ud fra Santo & Golding (2003) formlen."
+    category: ["Kondition", "Beregnere", "Tests"]
+    type: ["Beregner", "Timer"]
+    measures: ["Kondital", "VO2max", "Genoprettelsespuls (1-minut)"] # 🎯 Output-parametre fra modulet
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

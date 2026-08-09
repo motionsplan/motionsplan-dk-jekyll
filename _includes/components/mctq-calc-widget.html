@@ -1,0 +1,134 @@
+<div class="chronotype-widget-container" style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; margin: 20px 0; font-family: inherit;">
+  <h3 style="margin-top: 0; color: #2b2b2b;">⏱️ Beregner til Døgnrytme & Kronotype (Midt-Søvn)</h3>
+  <p style="font-size: 0.9em; color: #555;">Baseret på fysiologiske formler for midt-søvn og Social Jetlag. Indtast dine typiske sovetider for arbejdsdage og fridage (uden vækkeur):</p>
+
+  <form id="chronotype-form" onsubmit="event.preventDefault(); calculateChronotype();">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin-bottom: 20px;">
+      
+      <!-- ARBEJDSDAGE -->
+      <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid #dee2e6;">
+        <h4 style="margin-top: 0; margin-bottom: 10px; color: #0056b3;">💼 Arbejdsdage</h4>
+        <div style="margin-bottom: 10px;">
+          <label style="display: block; font-size: 0.85em; font-weight: bold;">Hvornår går du i seng?</label>
+          <input type="time" id="so_w" value="23:30" required style="width: 100%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div>
+          <label style="display: block; font-size: 0.85em; font-weight: bold;">Hvornår vågner du?</label>
+          <input type="time" id="se_w" value="06:30" required style="width: 100%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+      </div>
+
+      <!-- FRIDAGE -->
+      <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid #dee2e6;">
+        <h4 style="margin-top: 0; margin-bottom: 10px; color: #28a745;">🛋️ Fridage (uden vækkeur)</h4>
+        <div style="margin-bottom: 10px;">
+          <label style="display: block; font-size: 0.85em; font-weight: bold;">Hvornår går du i seng?</label>
+          <input type="time" id="so_f" value="00:30" required style="width: 100%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div>
+          <label style="display: block; font-size: 0.85em; font-weight: bold;">Hvornår vågner du?</label>
+          <input type="time" id="se_f" value="09:00" required style="width: 100%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+      </div>
+
+    </div>
+
+    <button type="submit" style="background: #0056b3; color: white; border: none; padding: 10px 20px; border-radius: 4px; font-weight: bold; cursor: pointer; width: 100%;">
+      Beregn min kronotype & midt-søvn
+    </button>
+  </form>
+
+  <div id="chronotype-results" style="margin-top: 20px; display: none;">
+    <!-- Resultater sættes ind her -->
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #dee2e6; margin: 20px 0 15px 0;">
+
+  <div style="font-size: 0.82em; color: #6c757d; line-height: 1.4;">
+    <strong>Kreditering og metode:</strong> Dette beregningsværktøj benytter de fysiologiske formler for korrigeret midt-søvn (MSF<sub>sc</sub>) og Social Jetlag udviklet af Prof. Till Roenneberg et al. (Ludwig-Maximilians-Universität München). Ønsker du at deltage i det officielle forskningsprojekt eller udfylde det komplette spørgeskema, henvises til <a href="https://www.thewep.org/documentations/mctq" target="_blank" rel="noopener" style="color: #0056b3;">TheWEP / LMU München</a>.
+  </div>
+</div>
+
+<script>
+function parseTimeToMinutes(timeStr) {
+  const [h, m] = timeStr.split(':').map(Number);
+  return h * 60 + m;
+}
+
+function formatMinutesToTime(totalMin) {
+  let normalized = (Math.round(totalMin) % 1440 + 1440) % 1440;
+  let h = Math.floor(normalized / 60);
+  let m = normalized % 60;
+  return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+}
+
+function getDuration(startMin, endMin) {
+  return endMin >= startMin ? (endMin - startMin) : (1440 - startMin + endMin);
+}
+
+function calculateChronotype() {
+  const so_w = parseTimeToMinutes(document.getElementById('so_w').value);
+  const se_w = parseTimeToMinutes(document.getElementById('se_w').value);
+  const so_f = parseTimeToMinutes(document.getElementById('so_f').value);
+  const se_f = parseTimeToMinutes(document.getElementById('se_f').value);
+
+  // 1. Søvnlængde (SD)
+  const sd_w = getDuration(so_w, se_w);
+  const sd_f = getDuration(so_f, se_f);
+  const sd_week = (5 * sd_w + 2 * sd_f) / 7;
+
+  // 2. Midt-søvn (MS)
+  const msw = (so_w + sd_w / 2) % 1440;
+  const msf = (so_f + sd_f / 2) % 1440;
+
+  // 3. Korrektion for søvngæld (MSF_sc)
+  let msf_sc = msf;
+  if (sd_f > sd_w) {
+    msf_sc = msf - (sd_f - sd_week) / 2;
+  }
+
+  // 4. Social Jetlag (SJL)
+  let sjl = Math.abs(msf - msw);
+  if (sjl > 720) sjl = 1440 - sjl;
+
+  // 5. Kronotype Kategorisering ud fra MSF_sc
+  const msf_sc_hours = ((msf_sc % 1440 + 1440) % 1440) / 60;
+  let category = "";
+  let badgeColor = "";
+
+  if (msf_sc_hours < 3.0) {
+    category = "Udpræget A-menneske (Meget tidlig kronotype)";
+    badgeColor = "#17a2b8";
+  } else if (msf_sc_hours >= 3.0 && msf_sc_hours < 4.0) {
+    category = "Moderat A-menneske (Morgenmenneske)";
+    badgeColor = "#28a745";
+  } else if (msf_sc_hours >= 4.0 && msf_sc_hours < 5.0) {
+    category = "Mellem/Gennemsnitlig kronotype (A/B-neutral)";
+    badgeColor = "#6c757d";
+  } else if (msf_sc_hours >= 5.0 && msf_sc_hours < 6.0) {
+    category = "Moderat B-menneske (Aftenmenneske)";
+    badgeColor = "#fd7e14";
+  } else {
+    category = "Udpræget B-menneske (Meget sen kronotype)";
+    badgeColor = "#dc3545";
+  }
+
+  const resultsDiv = document.getElementById('chronotype-results');
+  resultsDiv.style.display = 'block';
+  resultsDiv.innerHTML = `
+    <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid #28a745;">
+      <h4 style="margin-top: 0; color: #28a745;">Dine beregningsresultater:</h4>
+      
+      <p style="font-size: 1.1em;"><strong>Din Kronotype:</strong> <span style="background: ${badgeColor}; color: white; padding: 3px 8px; border-radius: 4px; font-weight: bold;">${category}</span></p>
+      
+      <ul>
+        <li><strong>Midt-søvn punkt (korrigeret, MSF<sub>sc</sub>):</strong> Kl. ${formatMinutesToTime(msf_sc)}</li>
+        <li><strong>Social Jetlag:</strong> ${(sjl / 60).toFixed(1)} timer (${Math.round(sjl)} minutter)</li>
+        <li><strong>Gennemsnitlig ugentlig søvn:</strong> ${(sd_week / 60).toFixed(1)} timer pr. nat</li>
+      </ul>
+
+      <p style="font-size: 0.85em; color: #6c6c6c; margin-bottom: 0;">* <em>Midt-søvn punktet (MSF<sub>sc</sub>) repræsenterer det fysiologiske midtpunkt i din naturlige søvn, korrigeret for den søvngæld, du opbygger i løbet af arbejdsugen.</em></p>
+    </div>
+  `;
+}
+</script>

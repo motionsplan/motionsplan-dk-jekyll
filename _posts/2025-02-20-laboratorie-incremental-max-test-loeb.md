@@ -13,6 +13,7 @@ header:
   caption: Foto fra KORR Medical Technologies
 category:
 - Kondition
+- Konditionstests
 meta:
   name: Løbebåndstest med iltoptagelse (trappetest til udmattelse)
   measures: LT1, LT2, VO2peak, kondital, maxpuls, løbeøkonomi
@@ -20,6 +21,21 @@ meta:
   equipment: se testbeskrivelse
   max: maksimal test
   direct: direkte test
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-trappetest-maxtest-loeb"
+    title: "Løbebåndstest med Iltoptagelse (Trappetest til Udmattelse)"
+    description: "Direkte fysiologisk laboratorietest på løbebånd med spirometri (iltoptagelsesmaske) og blodlaktatmåling over 3-minutters trin til udmattelse."
+    category: ["Tests", "Kondition", "Løb"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver fysisk løbeindsats på løbebånd med maske
+    method: "direkte"                     # 🫁 Direkte måling af VO2 via spirometri/gasanalyse og blodlaktat
+    modality: ["Løb"]
+    measures: ["VO2peak", "Kondital", "LT1 (Aerob tærskel)", "LT2 (Anaerob tærskel)", "Løbeøkonomi", "Maxpuls", "R-værdi (RER)"]
+    equipment: ["Løbebånd", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler (priktest)", "Pulsbælte"]
+    setting: ["Laboratorium", "Testcenter", "Individuel"]
+    target_group: ["Løbere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 tags:
 - test
 - konditionstest

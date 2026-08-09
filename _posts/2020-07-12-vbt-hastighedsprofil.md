@@ -75,7 +75,6 @@ For at gå i gang med testen, så skal du naturligvis have noget [VBT-udstyr](/v
 
 {% include calc/vbt.html %}
 
-
 ## Hvad er velocity based training?
 
 Velocity based training er faktisk ikke noget nyt, men det er blevet meget mere tilgængeligt, og der er kommet mange fine forbrugerorienterede _gadgets_, som man kan bruge i træning.

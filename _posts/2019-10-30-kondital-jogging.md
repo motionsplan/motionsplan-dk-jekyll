@@ -10,7 +10,8 @@ header:
   credit: https://images.unsplash.com/photo-1600679472183-07cc4f68b140
   caption: ️Submaksimal 1609 m løbetest til at finde VO2max
 category:
-- Kondition
+- Løb
+- Løbetest
 meta:
   name: "1,6 km submaksimal løbetest"
   measures: "kondital"
@@ -20,13 +21,33 @@ meta:
   method: "indirekte"
   intensity: "moderat"
   target: "begyndere"
+page_type: spoke
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-submaksimal-1-6km-jogging"
+    title: "1,6 km Submaksimal Jogging-test (1-Mile Track Jog)"
+    description: "Submaksimal 1,6 km (1 mil) jogging-test udviklet af George et al. (1993) til estimering af VO2max og kondital ud fra tid og gennemsnitspuls."
+    category: ["Kondition", "Løb"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Måler puls og tid ved submaksimalt joggetempo til at beregne VO2max
+    modality: ["Løb"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
+    equipment: ["Løbebane", "Pulsmåler", "Stopur"]
+    setting: ["Individuel", "Udendørs", "Skolebrug"]
+    target_group: ["Unge", "Voksne", "Begyndere", "Mænd", "Kvinder"]
+    related_tools: ["tool-1-6km-jogging-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "1,6 km Jogging-test Kondital Beregner"
+  - id: "tool-1-6km-jogging-beregner"
+    title: "1,6 km Jogging-test Kondital Beregner"
     description: "Beregn dit kondital (VO2max) ud fra din tid og gennemsnitspuls på en submaksimal 1,6 km (1 mil) jogging-test."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "kondital"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

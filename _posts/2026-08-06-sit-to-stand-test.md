@@ -5,18 +5,63 @@ excerpt: "Komplet guide til 30-sekunders Chair Stand Test (30STS) og 5 Times Sit
 permalink: /sit-to-stand-test/
 language: da
 categories:
-  - Test
-  - Sundhed
-  - Genoptræning
+  - Tests
 tags:
-  - sit to stand test
-  - 30sts
-  - 5xsts
-  - chair stand test
+  - test
   - funktionel styrke
-  - faldrisiko
-  - genoptræning
   - fysioterapi
+  - seniorer
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-30-sekunders-chair-stand-test"
+    title: "30-sekunders Chair Stand Test (30STS)"
+    description: "Standardiseret fysiologisk test (flest mulige rejse-sætte sig gentagelser på 30 sekunder fra 43-45 cm stol uden brug af arme) til måling af funktionel underkropsstyrke og muskulær udholdenhed."
+    category: ["Sundhed", "Tests", "Genoptræning"]
+    type: ["Protokol", "Klinisk test", "Styrketest"]
+    execution: ["Fysisk"]                  # 🧘‍♂️ FYSISK TEST: Kræver gentagne rejse-sætte sig bevægelser
+    method: "direkte"                       # 📊 Direkte tælling af godkendte gentagelser
+    modality: ["Styrketræning", "Egen kropsvægt"]
+    measures: ["Funktionel underkropsstyrke", "30STS gentagelser", "Muskulær udholdenhed"]  # 🎯 KUN rene fysiologiske slutmål
+    equipment: ["Stol uden armlæn (43-45 cm sædehøjde)", "Stopur / Timer"]
+    setting: ["Klinik", "Hospital", "Fysioterapi", "Genoptræningscenter", "Hjemmebesøg"]
+    target_group: ["Seniorer", "Ældre", "Genoptræningspatienter", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-30sts-timer"
+
+  - id: "test-5-times-sit-to-stand-test"
+    title: "5 Times Sit-to-Stand Test (5xSTS)"
+    description: "Standardiseret fysiologisk og klinisk test (tid i sekunder for 5 hurtigst mulige rejse-sætte sig gentagelser fra 43-45 cm stol uden brug af arme) til måling af eksplosiv underkropsstyrke og faldrisiko."
+    category: ["Sundhed", "Tests", "Genoptræning"]
+    type: ["Protokol", "Klinisk test", "Styrketest"]
+    execution: ["Fysisk"]                  # 🧘‍♂️ FYSISK TEST: Kræver 5 eksplosive rejse-sætte sig gentagelser
+    method: "indirekte"                     # 📊 Indirekte vurdering af faldrisiko og eksplosivitet via tidtagning
+    modality: ["Styrketræning", "Egen kropsvægt"]
+    measures: ["Eksplosiv underkropsstyrke", "5xSTS tid (s)", "Faldrisiko"]  # 🎯 KUN rene fysiologiske slutmål
+    equipment: ["Stol uden armlæn (43-45 cm sædehøjde)", "Stopur / Timer"]
+    setting: ["Klinik", "Hospital", "Fysioterapi", "Genoptræningscenter", "Hjemmebesøg"]
+    target_group: ["Seniorer", "Ældre", "Parkinsonpatienter", "KOL-patienter", "Apopleksipatienter", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-sts5-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-30sts-timer"
+    title: "30STS Interaktiv Timer & Beregner"
+    description: "Interaktiv timer med 30-sekunders nedtælling og automatisk sammenligning med alders- og kønsnormer for 30STS."
+    category: ["Sundhed", "Beregnere", "Tests"]
+    type: ["Timer", "Beregner"]
+    measures: ["30STS gentagelser", "Funktionelt styrkeniveau"]  # 🎯 KUN rene slutmål
+    anchor: "#1-30-sekunders-chair-stand-test-30sts"
+    category_schema: "HealthAndFitnessApplication"
+
+  - id: "tool-sts5-timer"
+    title: "5xSTS Interaktiv Timer & Faldrisikoberegner"
+    description: "Interaktiv timer til afvikling af 5xSTS med automatisk vurdering af kliniske cut-off værdier og faldrisiko."
+    category: ["Sundhed", "Beregnere", "Tests"]
+    type: ["Timer", "Beregner"]
+    measures: ["5xSTS tid (s)", "Faldrisikoniveau"]  # 🎯 KUN rene slutmål
+    anchor: "#2-5-times-sit-to-stand-test-5xsts"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-08-06T22:25:00Z
 faq:
   - question: "Hvad er forskellen på 30STS og 5xSTS?"

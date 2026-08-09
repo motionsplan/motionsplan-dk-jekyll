@@ -25,6 +25,15 @@ meta:
   equipment: beregner
   max: n/a
   direct: n/a
+tools:
+  - id: "tool-loebebaand-beregner"
+    title: "Løbebånd Beregner & Kalorieberegner"
+    description: "Interaktiv beregner til omregning af indendørs løbebåndstempo og hældning til udendørs belastning samt præcis beregning af energiforbrug."
+    category: ["Løb", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Kalorieforbrug", "Ækvivalent udendørs tempo", "Distance", "Mekanisk arbejde"]  # 🎯 Output-parametre fra beregneren
+    anchor: "#loebebaand-beregner"
+    category_schema: "HealthAndFitnessApplication"
 classes: wide
 toc: true
 ---

@@ -11,13 +11,40 @@ header:
   teaser: /assets/images/unsplash/photo-1598971457999-ca4ef48a9a71.jpg
   caption: Test din overkropsstyrke med armstrækninger
 category:
-  - Tests
   - Styrketræning
+  - Styrketræningstests
 meta:
   name: Armstrækninger test
   measures: overkropsstyrke
   type: styrketræning
   equipment: ingen
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-armstraekninger-test"
+    title: "Armstrækningstest (Canadian Standardized Test of Fitness)"
+    description: "Standardiseret fysisk overkropsstyrketest til måling af muskulær udholdenhed i bryst, skuldre og triceps via maksimalt antal godkendte armstrækninger uden pause."
+    category: ["Tests", "Styrketræning"]
+    type: ["Protokol", "Styrketest"]
+    execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver fysiske armstrækninger til udmattelse
+    method: "direkte"                     # 🔢 Direkte tælling af antal godkendte gentagelser
+    modality: ["Styrketræning", "Calisthenics"]
+    measures: ["Overkropsstyrke", "Muskulær udholdenhed", "Antal gentagelser"]
+    equipment: ["Ingen", "Måtte", "Markeringsklods"]
+    setting: ["Hjemmetest", "Fitnesscenter", "Skole", "Individuel", "Holdtest"]
+    target_group: ["Unge", "Voksne", "Ældre", "Motionister", "Atleter"]
+    related_tools:
+      - "tool-pushup-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-pushup-beregner"
+    title: "Armstrækning Test Beregner"
+    description: "Interaktiv beregner til sammenligning af dit antal armstrækninger mod alders- og kønsopdelte normer fra Canadian Standardized Test of Fitness."
+    category: ["Styrketræning"]
+    type: ["Beregner"]
+    measures: ["Overkropsstyrke", "Placering", "Normscore"]  # 🎯 Output-parametre fra modulet
+    anchor: "#prov-online-beregneren"
+    category_schema: "HealthAndFitnessApplication"
 tags:
   - test
   - styrketræning

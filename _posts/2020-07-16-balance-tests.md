@@ -16,10 +16,8 @@ tags:
   - fysioterapi
   - postural kontrol
 category:
-  - Tests
+  - Balance
 last_modified_at: 2026-08-02T12:00:00Z
-sidebar:
-  nav: exercises
 faq:
   - question: Hvad er forskellen på statisk og dynamisk balance?
     answer: Statisk balance handler om at holde tyngdepunktet i ro over understøttelsesfladen (f.eks. ved at stå stille på ét ben). Dynamisk balance handler om at opretholde balancen under bevægelse, rækkevidde eller landinger.

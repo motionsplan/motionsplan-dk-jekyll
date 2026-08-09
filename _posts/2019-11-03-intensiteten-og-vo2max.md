@@ -26,12 +26,14 @@ meta:
   intensity: "ingen"
   method: "formel"
 tools:
-  - title: "VO2max & Kondital Beregner"
+  - id: "tool-vo2max-omregner"
+    title: "VO2max & Kondital Beregner"
     description: "Beregn din maksimale iltoptagelse (VO2max) og omregn nemt mellem absolut VO2max (L/min) og relativ VO2max / kondital (ml/kg/min)."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    measures: ["VO2max", "Kondital", "Iltoptagelse"]   # 🎯 Nøjagtige output-værdier fra modulet
     anchor: "#calculator"
-    type: "beregner"
-    measures: "VO2max, kondital"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 faq:
   - question: "Hvad er den maksimale iltoptagelse (VO2max)?"
     answer: "Den maksimale iltoptagelse (VO2max) er et fysiologisk udtryk for, hvor mange liter eller milliliter ilt din krop maksimalt kan optage, transportere og udnytte pr. minut under maksimal anstrengelse."

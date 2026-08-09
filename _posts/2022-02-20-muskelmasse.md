@@ -20,6 +20,15 @@ meta:
   equipment: vægt
   measures: muskelmasse
   type: kropskomposition
+tools:
+  - id: "tool-muskelmasse-beregner"
+    title: "Muskelmasse Beregner (i % og kg)"
+    description: "Interaktiv beregner til estimering af din samlede skeletmuskelmasse i kilo (kg) og procent (%) ud fra højde, vægt, taljemål og alder baseret på Heymsfield et al."
+    category: ["Styrketræning", "Kropskomposition", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Muskelmasse", "Skeletmuskelmasse", "Muskelmasse i procent", "Muskelmasse i kg"]  # 🎯 Output-parametre fra beregneren
+    anchor: "#muskelmasse-beregner"
+    category_schema: "HealthAndFitnessApplication"
 faq:
 - question: Hvad er en normal muskelmasse i procent?
   answer: 'For voksne kvinder ligger en normal muskelmasse typisk på 30-35% af kropsvægten, mens den for mænd typisk ligger på 38-45%. Muskelmassen falder naturligt med alderen, hvis man ikke styrketræner.'

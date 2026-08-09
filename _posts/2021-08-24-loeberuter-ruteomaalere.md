@@ -17,6 +17,15 @@ tags:
 - løb
 last_modified_at: '2026-08-03T18:30:00Z'
 toc: 'true'
+tools:
+  - id: "tool-ruteopmaaler-kort"
+    title: "Interaktiv Ruteopmåler til Løberuter"
+    description: "Indtegn din løberute punkt for punkt på kortet med automatisk stitilpasning, og få beregnet den præcise samlede rutedistance i kilometer."
+    category: ["Løb"]
+    type: ["Beregner"]
+    measures: ["Rutedistance", "Distance", "Kilometer", "Løberute"]  # 🎯 Output-parametre fra modulet
+    anchor: "#opmaal-din-loeberute-paa-kortet"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Når du sidder derhjemme og skal planlægge en løberute, kan det være dejligt at se på forhånd, hvor lang løberuten nøjagtigt er. Det kan du bruge en online ruteopmåler og ruteplanlægger til. 

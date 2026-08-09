@@ -13,6 +13,7 @@ header:
   caption: Udregn bevægelsesøkonomi og effektivitet i cykling
 category:
 - Fysiologi
+- Cykling
 tags:
 - bevægelsesøkonomi
 - cykeløkonomi
@@ -26,6 +27,16 @@ meta:
   measures: bevægelsesøkonomi og bruttoeffektivitet
   target: voksne
   type: cykling og løb
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-bevaegelsesokonomi-beregner"
+    title: "Bevægelsesøkonomi & Bruttoeffektivitet Beregner"
+    description: "Interaktiv beregner til udregning af energiforbrug (EE), bruttoeffektivitet (GE) og cykeløkonomi baseret på iltoptagelse (VO2), RER/R-værdi og watt-ydelse."
+    category: ["Fysiologi", "Cykling", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Bevægelsesøkonomi", "Bruttoeffektivitet (GE)", "Energiforbrug (EE)", "Cykeløkonomi"]
+    anchor: "#beregn-din-bevaegelsesokonomi"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-25T10:00:00Z'
 ---
 

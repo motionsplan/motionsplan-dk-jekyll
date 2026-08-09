@@ -2,10 +2,8 @@
 title: 'Kondital for overvægtige: Introduktion til Index 23'
 seo_title: 'Overvægt og kondition: Sådan bruger du Index 23 og kondital'
 permalink: /kondital-index-23/
-description: Lær, hvordan du retfærdigt vurderer kondital hos overvægtige med Index 23. Undgå unfair målinger og få en mere
-  præcis vurdering af konditionen.
-excerpt: Lær, hvordan du retfærdigt vurderer kondital hos overvægtige med Index 23. Undgå unfair målinger og få en mere præcis
-  vurdering af konditionen.
+description: Lær, hvordan du retfærdigt vurderer kondital hos overvægtige med Index 23. Undgå unfair målinger og få en mere præcis vurdering af konditionen.
+excerpt: Lær, hvordan du retfærdigt vurderer kondital hos overvægtige med Index 23. Undgå unfair målinger og få en mere præcis vurdering af konditionen.
 header:
   overlay_image: /assets/images/unsplash/photo-1612497266264-6ef0f75009ec.jpg
   credit: https://images.unsplash.com/photo-1612497266264-6ef0f75009ec
@@ -25,8 +23,7 @@ feature_row:
 - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
   alt: kondital textbook of work physiology
   title: Textbook of Work Physiology - Åstrand m.fl.
-  excerpt: En klassisk bog om arbejdsfysiologi, hvor du kan læse meget mere om kondition og kondital. I bogen finder du også
-    forskellige tabeller over kondital, som du kan sammenligne dig med.
+  excerpt: En klassisk bog om arbejdsfysiologi, hvor du kan læse meget mere om kondition og kondital. I bogen finder du også forskellige tabeller over kondital, som du kan sammenligne dig med.
   url: https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y
   btn_label: Se bogen
   btn_class: btn--success
@@ -35,8 +32,7 @@ feature_row_kondital:
 - image_path: /assets/images/freebies/kondital.png
   alt: Tabel og skema over kondital
   title: Tabel over kondital til udskrivning
-  excerpt: Skemaet og tabellen over kondital kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet
-    i Google Docs.
+  excerpt: Skemaet og tabellen over kondital kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet i Google Docs.
   url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
   btn_label: <i class='fas fa-file-alt'></i> Se tabel over kondital
   btn_class: btn--success
@@ -64,6 +60,16 @@ faq:
 - question: Hvor kan jeg finde mere information om kondital og konditionstræning?
   answer: Du kan finde mange ressourcer og information om kondital, konditionstræning og relaterede emner her på vores side.
     Vi har artikler om [kondition, kredsløb og konditionstræning](/kondition/) og en [oversigt over konditionstests](/kondition/tests/).
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-kondital-index-23-beregner"
+    title: "Kondital ved Index 23 Beregner"
+    description: "Beregn dit vægtuafhængige kondital (Index 23) ud fra din maksimale iltoptagelse (VO2max) og din højde."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    measures: ["Kondital", "Index 23", "VO2max"]  # 🎯 Nøjagtige output-værdier
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 I vores tidligere artikel om [kondital](/kondital/) har vi udforsket, hvordan denne måling bruges til at vurdere en persons fysiske form. Men hvad sker der, når vi anvender den traditionelle konditalberegning på overvægtige personer?
@@ -82,9 +88,10 @@ Konditallet indgår ofte, når man vil vurdere den enkeltes sundhed.
 >
 > --- <cite>[Morten Zacho](https://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
 
-[Morten Zacho](https://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"} foreslår i Retfærdig vurdering af overvægtiges kondition at bruge princippet om *Kondital ved Index 23*.[^note]
+[Morten Zacho](https://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"} foreslår i Retfærdig vurdering af overvægtiges kondition at bruge princippet om *Kondital ved Index 23*.
 
-[^note]: Morten Zacho foreslår også, at man kan opløfte vægten i en potens lavere end 1, for at den får mindre betydning, eller man normalisere i forhold til fedtfri masse i stedet. Man kan også bruge princippet om skalering og dividere iltoptagelsen med højden i anden potens.
+Morten Zacho foreslår også, at man kan opløfte vægten i en potens lavere end 1, for at den får mindre betydning, eller man normalisere i forhold til fedtfri masse i stedet. Man kan også bruge princippet om skalering og dividere iltoptagelsen med højden i anden potens.
+{: .notice--info }
 
 ## Kondital og vægt bør vurderes uafhængigt
 

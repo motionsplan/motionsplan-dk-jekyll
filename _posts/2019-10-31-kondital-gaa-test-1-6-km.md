@@ -14,7 +14,7 @@ header:
   alt: 1,6 km gåtest
 category:
 - Kondition
-- Gang
+- Konditionstests
 meta:
   name: "Rockports 1,6 km gangtest"
   measures: "kondital"
@@ -24,13 +24,32 @@ meta:
   method: "indirekte"
   intensity: "moderat"
   target: "begyndere"
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-rockport-16km-gangtest"
+    title: "Rockports 1,6 km Gangtest"
+    description: "Submaksimal 1,6 km (1 mile) felt-gangtest til estimering af VO2max og kondital ud fra tid, slutpuls, kropsvægt, alder og køn."
+    category: ["Kondition", "Gang"]        # 💡 Søgbar under BÅDE Kondition og Gang i test-databasen
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Estimering af VO2max ud fra gangtid og slutpuls
+    modality: ["Gang"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
+    equipment: ["Fladt underlag", "Stopur", "Pulsmåler", "Vægt"]
+    setting: ["Udendørs", "Løbebane", "Individuel"]
+    target_group: ["Begyndere", "Utrænede", "Overvægtige", "Ældre", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-rockport-gangtest-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Rockport 1,6 km gangtest Beregner"
+  - id: "tool-rockport-gangtest-beregner"
+    title: "Rockport 1,6 km Gangtest Beregner"
     description: "Beregn dit kondital (VO2max) ud fra din tid og slutpuls på 1,6 km gang med Rockport-formlerne fra Kline eller Lunt."
+    category: ["Kondition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "kondital"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 tags:
 - test
 - konditionstest

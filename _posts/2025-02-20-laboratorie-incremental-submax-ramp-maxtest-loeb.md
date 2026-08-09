@@ -20,6 +20,20 @@ meta:
   equipment: se testbeskrivelse
   max: maksimal test
   direct: direkte test
+tests:
+  - id: "test-loebebaand-submax-ramp-maxtest"
+    title: "Løbebåndstest med Iltoptagelse (Submax Trappetest + Ramp Maxtest)"
+    description: "Komplet, direkte fysiologisk laboratorietest på løbebånd med spirometri (iltoptagelsesmaske) og blodlaktatmåling opdelt i to faser: submaksimal trappetest og maksimal rampetest."
+    category: ["Tests", "Kondition", "Løb"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver fysisk løbeindsats på løbebånd med maske
+    method: "direkte"                     # 🫁 Direkte måling af VO2 via spirometri/gasanalyse og blodlaktat
+    modality: ["Løb"]
+    measures: ["VO2max", "VO2peak", "Kondital", "LT1 (Aerob tærskel)", "LT2 (Anaerob tærskel)", "Løbeøkonomi", "Maxpuls", "R-værdi (RER)"]
+    equipment: ["Løbebånd", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler (priktest)", "Pulsmåler / Pulsbælte"]
+    setting: ["Laboratorium", "Testcenter", "Individuel"]
+    target_group: ["Løbere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 tags:
 - test
 - konditionstest

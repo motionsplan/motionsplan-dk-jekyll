@@ -20,6 +20,15 @@ category:
 - Kost & Ernæring
 - Kalorieberegnere
 last_modified_at: '2021-02-13T08:39:32Z'
+tools:
+  - id: "tool-met-beregner"
+    title: "Interaktiv MET- & Kalorieberegner"
+    description: "Beregn dit samlede energiforbrug (kcal) og MET-timer ud fra valgt fysisk aktivitet, varighed og din kropsvægt."
+    category: ["Kost & Ernæring", "Kalorieberegnere"]
+    type: ["Beregner"]
+    measures: ["MET", "MET-timer", "Kalorieforbrænding", "Energiforbrug"]  # 🎯 Output-parametre fra modulet
+    anchor: "#beregn-met-timer"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 MET (*Metabolic Equivalent of Task*) er en metode til at estimere dit energiforbrug ved forskellige aktiviteter. Ved at kende MET-værdien for en aktivitet og din vægt kan du beregne, hvor mange kalorier du forbrænder.  

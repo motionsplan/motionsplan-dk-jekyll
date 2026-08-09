@@ -12,6 +12,7 @@ header:
   caption: Jack Daniels løbeberegner kan udregne træningstempo og konkurrencetider
 category:
   - Løb
+  - Løbeberegnere
 tags:
   - beregner
   - kondition
@@ -27,13 +28,16 @@ meta:
   equipment: "ingen"
   intensity: "ingen"
   method: "formel"
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
-  - title: "Jack Daniels VDOT & Løbeberegner"
+  - id: "tool-jack-daniels-vdot-beregner"
+    title: "Jack Daniels VDOT & Løbeberegner"
     description: "Beregn din VDOT-værdi, dine specifikke træningszoner (Easy, Marathon, Threshold, Interval, Repetition) og estimerede konkurrencetider ud fra Jack Daniels Running Formula."
+    category: ["Løb"]
+    type: ["Beregner"]
+    measures: ["VDOT", "Løbetempo", "Konkurrencetid", "Træningszoner", "Pace"]  # 🎯 Output-parametre fra beregneren
     anchor: "#calculator"
-    type: "beregner"
-    measures: "VDOT, løbetempo, konkurrencetid"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 template:
   - image_path: /assets/images/template/jack-daniels.png
     url: https://docs.google.com/document/d/1LRwLogpMtkM88HQnEa2hjgpkQmOIPIM7TcnZGM-erlQ/copy

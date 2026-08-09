@@ -21,6 +21,20 @@ meta:
   equipment: cykelergometer
   max: maksimal test
   direct: direkte test
+tests:
+  - id: "test-powerprofil-cykling"
+    title: "Powerprofil Test til Cykling (Allen & Coggan)"
+    description: "Standardiseret testprotokol (Hunter Allen & Andrew Coggan) bestående af maksimale all-out indsatser over 5 sekunder, 1 minut, 5 minutter og 20 minutter/FTP til kortlægning af din fysiologiske powerprofil og ryttertype."
+    category: ["Tests", "Cykling", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🚴‍♂️ FYSISK TEST: Kræver maksimale cykelindsatser over 4 specifikke tidsintervaller
+    method: "direkte"                     # 📊 Måles direkte i Watt og Watt/kg via wattmåler
+    modality: ["Cykling"]
+    measures: ["Powerprofil", "Neuromuskulær power (5s)", "Anaerob kapacitet (1m)", "VO2max-power (5m)", "FTP (20m)", "Watt/kg"]
+    equipment: ["Wattmåler", "Hometrainer", "Ergometercykel"]
+    setting: ["Indendørs", "Hjemmetest", "Landevej", "Individuel"]
+    target_group: ["Motionister", "Cykelryttere", "Atleter", "Mænd", "Kvinder"]
+    related_tools: []
 ---
 
 Som cykelrytter er det interessant at kende sin _power profile_. Ud fra din powerprofil kan du nemlig få en indsigt i, hvilken type rytter du er.

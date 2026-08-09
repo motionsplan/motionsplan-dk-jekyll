@@ -15,25 +15,42 @@ header:
     - label: <i class='fas fa-calculator'></i> Hop til beregneren →
       url: '#calculator'
 category:
-  - Tests
+  - Kropskomposition
   - Fedtprocent
 tags:
   - beregner
   - fedtprocent
   - kropskomposition
   - metode
+page_type: spoke
 meta:
   name: Beregn din fedtprocent fra alder, højde og vægt
   type: kropskomposition
   equipment: beregner
   measures: fedtprocent
+tests:
+  - id: "test-fedtprocent-bmi-formler"
+    title: "Estimat af fedtprocent ud fra BMI, alder og køn"
+    description: "Indirekte estimering af kropsfedt baseret på køn, alder, højde og vægt ud fra populationsbaserede formler."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Måling"]
+    execution: ["Sofatest"]
+    modality: ["Generel"]
+    method: "Indirekte"    
+    measures: ["Fedtprocent"]
+    equipment: ["Badevægt", "Højdemåler"]
+    setting: ["Individuel"]
+    target_group: ["Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-fedtprocent-beregner-bmi"]
 tools:
-  - title: "Fedtprocent Beregner (Alder, Højde & Vægt)"
-    description: "Beregn din estimerede fedtprocent ud fra køn, alder, højde og vægt med anerkendte formler som Gallagher, Duerenberg og Heitmann."
+  - id: "tool-fedtprocent-beregner-bmi"
+    title: "Fedtprocent Beregner (Alder, Højde & Vægt)"
+    description: "Beregn din estimerede fedtprocent ud fra køn, alder, højde og vægt med anerkendte formler som Gallagher, Deurenberg og Heitmann."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
     anchor: "#calculator"
-    type: "beregner"
-    measures: "fedtprocent"
-    category: "HealthAndFitnessApplication"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-21T08:14:14.000Z'
 toc: 'true'
 redirect_from:

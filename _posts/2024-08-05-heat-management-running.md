@@ -17,6 +17,16 @@ tags:
 - interaktiv artikel
 - fysiologi
 - varmetræning
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-varmehaandtering-cykel-beregner"
+    title: "Varmehåndtering & Varmeproduktion Beregner (Cykling)"
+    description: "Interaktivt værktøj til udregning af varmeproduktion på cykel, kroppens overfladeareal (BSA), varmetab via konvektion, radiation og evaporation samt estimeret stigning i kernetemperatur."
+    category: ["Fysiologi", "Cykling", "Beregnere"]
+    type: ["Beregner"]
+    measures: ["Varmeproduktion (Watt)", "Overfladeareal (BSA)", "Varmetab (konvektion/radiation/evaporation)", "Kernetemperaturstigning"]  # 🎯 Output-parametre fra beregnerne
+    anchor: "#varmeproduktion-paa-cykel"
+    category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2024-08-04T10:14:14Z'
 ---
 

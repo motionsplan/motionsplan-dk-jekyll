@@ -22,6 +22,7 @@ tags:
   - featured
 last_modified_at: 2025-03-06T23:14:14Z
 toc: true
+classes: wide
 ---
 
 Måling af kropskomposition, fedtprocent og muskelmasse virker i samfundet til at være vigtigt for både atleter og almindelige mennesker. Vi oplever stor interesse for at få målt fedtprocent og muskelmasse både af folk, der gerne vil tabe sig og tage på i vægt.
@@ -100,6 +101,10 @@ Skeletal Muscle Mass (SMM)
 Samlet kan de to modeller give dig en mere præcis opfattelse af, hvad din krop består af. Hvis du styrketræning, så kan det være motiverende at se, at muskelmassen vokser.
 
 {% include figure image_path="/assets/images/static.wixstatic.com/a04440_131547bf5e7748c392b7b6b5de704a62_mv2-4e176b12.jpg" caption="Kilde: [My Sport Science](https://www.mysportscience.com/post/body-composition-methods-compared) [📷](https://static.wixstatic.com/media/a04440_131547bf5e7748c392b7b6b5de704a62~mv2.jpg/v1/fill/w_1249,h_800,al_c,q_85,enc_avif,quality_auto/a04440_131547bf5e7748c392b7b6b5de704a62~mv2.jpg){: rel='nofollow noopener' }" %}
+
+## Interaktiv model for kropskomposition
+
+{% include components/kropskomposition-komponent-model.html %}
 
 ## Hvad er vigtigt med kropssammensætning?
 

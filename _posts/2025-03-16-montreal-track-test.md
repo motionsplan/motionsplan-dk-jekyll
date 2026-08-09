@@ -9,6 +9,7 @@ description: Lær alt om Montreal Track Test – en løbetest til måling af VO2
   og sammenligning med biptesten.
 category:
 - Løb
+- Løbetests
 tags:
 - test
 - løb
@@ -55,6 +56,32 @@ meta:
   equipment: løbebane
   max: maksimal test
   direct: indirekte test
+tests:
+  - id: "test-montreal-university-track-test"
+    title: "Montreal University Track Test (UM-TT)"
+    description: "Kontinuerlig, trinvist stigende maksimal løbetest på 400m bane med kegler for hver 50m (+1,2 km/t hvert 2. minut fra 6 km/t) til indirekte estimering af VO2max ud fra sluthastighed."
+    category: ["Tests", "Løb", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver fysisk løbeindsats med stigende tempo til udmattelse
+    method: "indirekte"                     # 📊 Indirekte estimering af VO2max ud fra sluthastighed/distance
+    modality: ["Løb"]
+    measures: ["VO2max", "Kondital", "Maksimal Aerob Hastighed (MAS)", "Sluthastighed (km/t)", "Tilbagelagt distance"]
+    equipment: ["400m løbebane", "Markeringskegler (hver 50m)", "Pacer / Timer / Lydfil"]
+    setting: ["Udendørs", "Løbebane", "Testcenter", "Individuel"]
+    target_group: ["Løbere", "Holdatleter", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-montreal-track-test-timer"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-montreal-track-test-timer"
+    title: "Montreal Track Test Interaktiv Timer & Pacer"
+    description: "Interaktiv timer og bip-styret pacer med visuel 400m bane, 50m keglemarkeringer og automatisk VO2max-beregning ud fra Ahmaidi et al. (1992) formlen."
+    category: ["Løb", "Tests", "Kondition"]
+    type: ["Timer", "Pacer", "Beregner"]
+    measures: ["Sluthastighed (km/t)", "VO2max", "Kondital"]  # 🎯 Output-parametre fra modulet
+    anchor: "#timer"
+    category_schema: "HealthAndFitnessApplication"
 faq:
 - question: Hvordan adskiller Montreal Track Test sig fra biptesten?
   answer: Montreal Track Test kræver en 400m bane og har en gradvis hastighedsstigning, mens biptesten kan udføres på mindre

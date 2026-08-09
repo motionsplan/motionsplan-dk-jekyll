@@ -10,20 +10,33 @@ header:
   teaser: /assets/images/unsplash/photo-1598971457999-ca4ef48a9a71.jpg
   caption: Test din overkropsstyrke med kropshævninger
 category:
-  - Tests
   - Styrketræning
+  - Styrketests
+tags:
+  - test
+  - politiets optagelsesprøve
+  - relativ styrke
+  - overkropsstyrke
 meta:
   name: Pull-up test
   measures: overkropsstyrke
   type: styrketræning
   equipment: pull-up bar
-tags:
-  - pullup test
-  - kropshævninger
-  - chin ups
-  - politiets optagelsesprøve
-  - relativ styrke
-  - overkropsstyrke
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-pullup-test"
+    title: "Pull-up & Chin-up Test (Kropshævningstest)"
+    description: "Standardiseret fysiologisk og funktionel styrketest (strikse kropshævninger til hagen er over stangen) til måling af relativ overkropsstyrke og muskulær udholdenhed i overkroppens trækkæde."
+    category: ["Tests", "Styrketræning"]
+    type: ["Protokol", "Styrketest"]
+    execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver kropshævninger med egen kropsvægt
+    method: "direkte"                       # 📊 Direkte tælling af godkendte gentagelser eller holdetid
+    modality: ["Styrketræning", "Egen kropsvægt"]
+    measures: ["Relativ overkropsstyrke", "Maksimalt antal kropshævninger", "Isometrisk overkropsudholdenhed"]  # 🎯 KUN rene fysiologiske/funktionelle slutmål
+    equipment: ["Pull-up bar / Kropshævningsstang", "Skammel / Kasse (ved Flexed-Arm Hang)"]
+    setting: ["Træningscenter", "Udendørs", "Militær / Politi", "Testcenter", "Individuel"]
+    target_group: ["Politiansøgere", "Militæraspiranter", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    related_tools: []
 last_modified_at: '2026-08-06T23:00:00Z'
 toc: true
 breadcrumbs: true
@@ -126,7 +139,7 @@ Hvis en udøver endnu ikke kan tage 1 hel godkendt kropshævning, benyttes **Fle
 {: .notice .notice--info }
 **Relaterede overkrops- og styrketests på motionsplan.dk:**  
 * **[Armstrækningstest (Push-up Test)](/armstraekninger-test/):** Test din overkropspresstyrke og se aldersopdelte normer.  
-* **[Håndstyrketest (Grebsstyrke)](/haandstyrke-test/):** Mål din maksimale grebsstyrke i kg med et dynamometer.
+* **[Håndstyrketest (Grebsstyrke)](/haandgrebsstyrke-test/):** Mål din maksimale grebsstyrke i kg med et dynamometer.
 
 ---
 

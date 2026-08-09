@@ -1,0 +1,244 @@
+<!-- Chart.js CDN (kan også flyttes til din hoved-layout fil, hvis du bruger den flere steder) -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="epoc-widget">
+  <div class="epoc-card epoc-controls">
+    <div class="epoc-control-group">
+      <label for="epoc-intensity">Arbejdsintensitet: <span id="epoc-val-intensity">80</span>% VO₂max</label>
+      <input type="range" id="epoc-intensity" min="50" max="130" value="80" step="5">
+    </div>
+    
+    <div class="epoc-control-group">
+      <label for="epoc-fitness">Træningsstatus: <span id="epoc-val-fitness">Trænet</span></label>
+      <input type="range" id="epoc-fitness" min="1" max="3" value="2" step="1">
+    </div>
+
+    <div class="epoc-control-group">
+      <label for="epoc-duration">Arbejdets varighed: <span id="epoc-val-duration">10</span> min</label>
+      <input type="range" id="epoc-duration" min="2" max="30" value="10" step="1">
+    </div>
+  </div>
+
+  <div class="epoc-card">
+    <div class="epoc-chart-container">
+      <canvas id="epocCanvas"></canvas>
+    </div>
+
+    <div class="epoc-metrics">
+      <div class="epoc-metric-card epoc-deficit-card">
+        <div>Estimeret Iltdeficit</div>
+        <div class="epoc-metric-value" id="epoc-metric-deficit">0.0 L O₂</div>
+      </div>
+      <div class="epoc-metric-card epoc-epoc-card">
+        <div>Estimeret EPOC (Efterforbrænding)</div>
+        <div class="epoc-metric-value" id="epoc-metric-epoc">0.0 L O₂</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .epoc-widget {
+    margin: 2rem 0;
+    font-family: inherit;
+    color: #1f2937;
+  }
+  .epoc-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e7eb;
+  }
+  .epoc-controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  .epoc-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .epoc-control-group label {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .epoc-control-group input[type=range] {
+    width: 100%;
+    cursor: pointer;
+  }
+  .epoc-chart-container {
+    position: relative;
+    height: 380px;
+    width: 100%;
+  }
+  .epoc-metrics {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .epoc-metric-card {
+    flex: 1;
+    background: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 4px solid #3b82f6;
+  }
+  .epoc-metric-card.epoc-deficit-card {
+    border-top-color: #ef4444;
+  }
+  .epoc-metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+  .epoc-deficit-card .epoc-metric-value {
+    color: #ef4444;
+  }
+  .epoc-epoc-card .epoc-metric-value {
+    color: #3b82f6;
+  }
+  @media (max-width: 600px) {
+    .epoc-metrics {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<script>
+(function() {
+  const fitnessLabels = { 1: "Utrænet", 2: "Trænet", 3: "Elite" };
+  const fitnessTau = { 1: 1.2, 2: 0.6, 3: 0.3 };
+
+  let epocChartInstance = null;
+
+  function calculateData() {
+    const intensity = parseFloat(document.getElementById('epoc-intensity').value);
+    const fitnessVal = parseInt(document.getElementById('epoc-fitness').value);
+    const duration = parseFloat(document.getElementById('epoc-duration').value);
+
+    const vo2Rest = 0.35;
+    const vo2Max = 3.5;
+    const tau = fitnessTau[fitnessVal];
+
+    const vo2Demand = vo2Rest + (vo2Max - vo2Rest) * (intensity / 100);
+
+    const labels = [];
+    const demandData = [];
+    const actualData = [];
+
+    const restBefore = 3;
+    const restAfter = 15;
+    const totalTime = restBefore + duration + restAfter;
+    const step = 0.25;
+
+    let totalDeficit = 0;
+    let totalEPOC = 0;
+
+    for (let t = 0; t <= totalTime; t += step) {
+      labels.push(t.toFixed(2) + ' m');
+
+      let demand = vo2Rest;
+      let actual = vo2Rest;
+
+      if (t >= restBefore && t < restBefore + duration) {
+        demand = vo2Demand;
+        const tWork = t - restBefore;
+        actual = vo2Rest + (vo2Demand - vo2Rest) * (1 - Math.exp(-tWork / tau));
+        
+        if (actual > vo2Max) actual = vo2Max;
+
+        const effectiveDemand = Math.min(vo2Demand, vo2Max);
+        if (effectiveDemand > actual) {
+          totalDeficit += (effectiveDemand - actual) * step;
+        }
+      } else if (t >= restBefore + duration) {
+        demand = vo2Rest;
+        const tRec = t - (restBefore + duration);
+        const vo2End = vo2Rest + (vo2Demand - vo2Rest) * (1 - Math.exp(-duration / tau));
+        const cappedVo2End = Math.min(vo2End, vo2Max);
+
+        const fastComp = (cappedVo2End - vo2Rest) * 0.7 * Math.exp(-tRec / 1.2);
+        const slowComp = (cappedVo2End - vo2Rest) * 0.3 * Math.exp(-tRec / (6 + duration * 0.2));
+        
+        actual = vo2Rest + fastComp + slowComp;
+        totalEPOC += (actual - vo2Rest) * step;
+      }
+
+      demandData.push(demand);
+      actualData.push(actual);
+    }
+
+    return { labels, demandData, actualData, totalDeficit, totalEPOC };
+  }
+
+  function updateChart() {
+    const data = calculateData();
+
+    document.getElementById('epoc-val-intensity').textContent = document.getElementById('epoc-intensity').value;
+    document.getElementById('epoc-val-fitness').textContent = fitnessLabels[document.getElementById('epoc-fitness').value];
+    document.getElementById('epoc-val-duration').textContent = document.getElementById('epoc-duration').value;
+
+    document.getElementById('epoc-metric-deficit').textContent = `${data.totalDeficit.toFixed(2)} L O₂`;
+    document.getElementById('epoc-metric-epoc').textContent = `${data.totalEPOC.toFixed(2)} L O₂`;
+
+    if (epocChartInstance) {
+      epocChartInstance.data.labels = data.labels;
+      epocChartInstance.data.datasets[0].data = data.demandData;
+      epocChartInstance.data.datasets[1].data = data.actualData;
+      epocChartInstance.update();
+    } else {
+      const ctx = document.getElementById('epocCanvas').getContext('2d');
+      epocChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: data.labels,
+          datasets: [
+            {
+              label: 'Iltbehov (Energikrav)',
+              data: data.demandData,
+              borderColor: '#ef4444',
+              borderDash: [5, 5],
+              borderWidth: 2,
+              pointRadius: 0,
+              fill: false
+            },
+            {
+              label: 'Reel Iltoptagelse (VO₂)',
+              data: data.actualData,
+              borderColor: '#2563eb',
+              backgroundColor: 'rgba(37, 99, 235, 0.15)',
+              borderWidth: 3,
+              pointRadius: 0,
+              fill: 'origin'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { intersect: false, mode: 'index' },
+          scales: {
+            x: { title: { display: true, text: 'Tid (Minutter)' } },
+            y: { 
+              title: { display: true, text: 'Iltoptagelse (L O₂ / min)' },
+              min: 0,
+              max: 4.5
+            }
+          }
+        }
+      });
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.epoc-widget input[type=range]').forEach(input => {
+      input.addEventListener('input', updateChart);
+    });
+    updateChart();
+  });
+})();
+</script>

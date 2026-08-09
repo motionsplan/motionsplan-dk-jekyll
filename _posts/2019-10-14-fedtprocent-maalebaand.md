@@ -13,9 +13,9 @@ header:
   teaser: /assets/images/unsplash/photo-1530530488105-64664c7213bf.jpg
   caption: Mål din fedtprocent med målebånd 📏
 category:
-- Tests
+- Kropskomposition
 - Fedtprocent
-breadcrumbs: 'true'
+page_type: spoke
 tags:
 - måling
 - test
@@ -27,7 +27,32 @@ meta:
   equipment: målebånd
   measures: fedtprocent
   type: kropskomposition
-last_modified_at: '2019-03-06T23:14:14Z'
+tests:
+  - id: "test-fedtprocent-maalebaand-mcardle"
+    title: "Måling af fedtprocent med målebånd (McArdle & Katch)"
+    description: "Estimer din fedtprocent ud fra specifikke omkredsmålinger på kroppen (mave, hofter, overarm, læg) med et helt almindeligt målebånd."
+    category: ["Kropskomposition", "Antropometri"]
+    type: ["Protokol", "Måling"]
+    execution: ["Måling"]
+    modality: ["Kropsmål"]
+    method: "Indirekte"    
+    measures: ["Fedtprocent", "Kropskomposition"]
+    equipment: ["Målebånd"]
+    setting: ["Individuel"]
+    target_group: ["Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-fedtprocent-maalebaand-beregner"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-fedtprocent-maalebaand-beregner"
+    title: "Målebånd Fedtprocent Beregner (McArdle & Katch)"
+    description: "Indtast dine omkredsmålinger fra målebåndet og få beregnet din fedtprocent ud fra McArdle & Katch-algoritmen."
+    category: ["Kropskomposition"]
+    type: ["Beregner"]
+    execution: ["Testberegner"]
+    anchor: "#maal-fedtprocenten-med-maalebaand"
+    category_schema: "HealthAndFitnessApplication"
+last_modified_at: 25-03-06T23:14:14Z'
 feature_row:
 - image_path: https://imgcdn.saxo.com/_9781975217303/0x500
   alt: Exercise Physiology - Nutrition, Energy, and Human Performance

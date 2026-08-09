@@ -9,11 +9,12 @@ header:
   overlay_filter: '0.3'
   title: Test træthed i nervesystemet med finger tapping test?
 category:
-- Træning
+- Restitution
 tags:
 - test
 - fysiologi
 - tracking
+page_type: "spoke"
 meta:
   name: Finger tapping test
   measures: træthed i nervesysten
@@ -21,7 +22,33 @@ meta:
   equipment: app
   max: stillesiddende
   direct: indirekte test
-last_modified_at: '2020-03-06T23:14:14Z'
+# TESTS / PROTOKOLLER
+tests:
+  - id: "test-finger-tapping"
+    title: "Finger Tapping Test (CNS Træthed)"
+    description: "Finmotorisk test der måler antallet af tryk/taps over en kort tidsperiode for at give en indikation af centralnervesystemets parathed og CNS-træthed."
+    category: ["Restitution", "Fysiologi"]
+    type: ["Protokol", "Måling"]
+    execution: ["Fysisk"]
+    method: "indirekte"                  # 🧮 Indirekte test: Måler tapping-hastighed for at estimere CNS-træthed
+    modality: ["Finmotorik", "Reaktion"]
+    measures: ["CNS Træthed", "Træningsparathed"]
+    equipment: ["Smartphone", "Stopur"]
+    setting: ["Individuel", "Hjemmetest"]
+    target_group: ["Unge", "Voksne", "Atleter"]
+    related_tools: ["tool-finger-tapping-test"]
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-finger-tapping-test"
+    title: "Finger Tapping Test Værktøj"
+    description: "Mål din tapping-frekvens og finmotoriske hastighed direkte i browseren for at følge din restitutionsstatus."
+    category: ["Restitution"]
+    type: ["Beregner", "Testværktøj"]
+    execution: ["Testberegner"]
+    anchor: "#hvad-kan-jeg-bruge-finger-tapping-testen-til"
+    category_schema: "HealthAndFitnessApplication"
+last_modified_at: '2026-03-06T23:14:14Z'
 toc: 'true'
 ---
 

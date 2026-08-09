@@ -24,6 +24,15 @@ meta:
   equipment: ingen
   measures: energiforbrug
   type: løb og gang
+tools:
+  - id: "tool-forbraending-gaa-loeb-beregner"
+    title: "Løb vs. Gang Kalorieberegner"
+    description: "Sammenlign kalorieforbrænding og energiforbrug pr. kilometer og pr. minut ved gang og løb ud fra hastighed og kropsvægt."
+    category: ["Løb", "Gang"]
+    type: ["Beregner"]
+    measures: ["Kalorieforbrænding", "Energiforbrug", "Kalorier", "MET"]  # 🎯 Output-parametre fra modulet
+    anchor: "#beregner-til-at-sammenligne-kalorier-ved-lob-og-gang"
+    category_schema: "HealthAndFitnessApplication"
 toc: 'true'
 last_modified_at: '2022-05-10T08:14:14Z'
 faq:

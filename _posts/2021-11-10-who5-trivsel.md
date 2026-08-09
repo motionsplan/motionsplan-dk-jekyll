@@ -17,6 +17,32 @@ tags:
 - psykologisk test
 - populær
 last_modified_at: '2021-10-14T08:14:14Z'
+tests:
+  - id: "test-who5-trivsel"
+    title: "WHO-5 Trivselsindeks (WHO-5 Well-Being Index)"
+    description: "Internationalt valideret psykologisk screeningværktøj (udviklet af professor Per Bech for WHO) bestående af 5 spørgsmål til vurdering af generel trivsel og livskvalitet over de seneste to uger."
+    category: ["Psykologi", "Vurderingsværktøjer"]
+    type: ["Protokol", "Screening"]
+    execution: ["Spørgeskema"]            # 📋 SPØRGESKEMA / PSYKOMETRISK TEST
+    method: "spørgeskema"
+    modality: ["Psykologi"]
+    measures: ["Trivselsindeks", "Livskvalitet", "WHO-5 score", "Generel trivsel"]
+    equipment: ["Ingen"]
+    setting: ["Hjemmetest", "Klinik", "Arbejdsplads", "Individuel"]
+    target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-who5-beregner"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-who5-beregner"
+    title: "WHO-5 Trivselstest Beregner"
+    description: "Interaktivt spørgeskema til beregning af dit WHO-5 trivselsindeks (0–100 point) og vurdering af din generelle livskvalitet."
+    category: ["Psykologi", "Vurderingsværktøjer"]
+    type: ["Beregner"]
+    measures: ["WHO-5 score", "Trivselsindeks", "Livskvalitet", "Trivselsniveau"]  # 🎯 Output-parametre fra spørgeskemaet
+    anchor: "#trivselsindekset-who-5"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Her er en test, der kan teste din din livskvalitet og trivsel. Testen er udformet af WHO, og den bruges over hele verden som trivselstest.
