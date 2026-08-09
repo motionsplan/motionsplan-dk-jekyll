@@ -1,61 +1,59 @@
-{% assign test_posts = site.posts | where_exp: "post", "post.tests.size > 0" | where_exp: "post", "post.url != page.url" | sort: "title" %}
+{% assign tool_posts = site.posts | where_exp: "post", "post.tools.size > 0" | where_exp: "post", "post.url != page.url" | sort: "title" %}
 
-{% assign total_tests = 0 %}
-{% for post in test_posts %}
-  {% assign total_tests = total_tests | plus: post.tests.size %}
+{% assign total_tools = 0 %}
+{% for post in tool_posts %}
+  {% assign total_tools = total_tools | plus: post.tools.size %}
 {% endfor %}
 
-{% if total_tests > 0 %}
-<div class="test-table-widget">
+{% if total_tools > 0 %}
+<div class="calc-table-widget">
   
   <!-- STRØMLINET SØGEBAR OG KNAP -->
-  <div class="test-search-bar">
-    <div class="search-input-wrapper">
-      <svg class="search-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <div class="calc-search-bar">
+    <div class="calc-input-wrapper">
+      <svg class="calc-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="11" cy="11" r="8"></circle>
         <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
       </svg>
       <input 
         type="text" 
-        id="filter-table-input" 
-        class="filter-table-input" 
-        placeholder="Søg i alle test (f.eks. fedtprocent, løb, max-test)..." 
+        id="calc-filter-input" 
+        class="calc-filter-input" 
+        placeholder="Søg i alle beregnere (f.eks. watt, kcal, ratio, cda)..." 
         autocomplete="off"
       >
     </div>
-    <button type="button" id="toggle-table-btn" class="toggle-table-btn">
-      <span>Vis alle test ({{ total_tests }})</span>
-      <span class="btn-arrow">▼</span>
+    <button type="button" id="calc-toggle-btn" class="calc-toggle-btn">
+      <span>Vis alle beregnere ({{ total_tools }})</span>
+      <span class="calc-btn-arrow">▼</span>
     </button>
   </div>
 
   <!-- TABEL (SKJULT SOM STANDARD) -->
-  <div id="filter-table-wrapper" class="filter-table-wrapper" style="display: none;">
-    <table id="filter-table" class="filter-table">
+  <div id="calc-table-wrapper" class="calc-table-wrapper" style="display: none;">
+    <table id="calc-table" class="calc-table">
       <thead>
         <tr class="header">
-          <th>Test</th>
+          <th>Beregner / Værktøj</th>
           <th>Type</th>
-          <th>Måler</th>
-          <th>Udstyr</th>
+          <th>Beskrivelse</th>
         </tr>
       </thead>
       <tbody>
-      {%- for post in test_posts %}
-        {%- for test in post.tests %}
+      {%- for post in tool_posts %}
+        {%- for tool in post.tools %}
         <tr>
-          <td><a href="{{ post.url }}">{{ test.title | default: post.title }}</a></td>
-          <td>{{ test.type | join: ", " }}</td>
-          <td>{{ test.measures | join: ", " }}</td>
-          <td>{{ test.equipment | join: ", " }}</td>
+          <td><a href="{{ post.url }}{{ tool.anchor }}">{{ tool.title | default: post.title }}</a></td>
+          <td>{{ tool.type | join: ", " }}</td>
+          <td>{{ tool.description }}</td>
         </tr>
         {%- endfor %}
       {%- endfor %}
       </tbody>
     </table>
 
-    <div id="no-results-msg" class="no-results-msg" style="display: none;">
-      Ingen test matchede din søgning.
+    <div id="calc-no-results-msg" class="calc-no-results-msg" style="display: none;">
+      Ingen beregnere matchede din søgning.
     </div>
   </div>
 
@@ -63,25 +61,25 @@
 {% endif %}
 
 <style>
-.test-table-widget {
+.calc-table-widget {
   margin: 1.5rem 0;
   font-family: system-ui, -apple-system, sans-serif;
 }
 
-.test-search-bar {
+.calc-search-bar {
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
 @media (max-width: 640px) {
-  .test-search-bar {
+  .calc-search-bar {
     flex-direction: column;
   }
 }
 
 /* INPUT CONTAINER MED ABSOLUT IKON */
-.search-input-wrapper {
+.calc-input-wrapper {
   position: relative;
   flex: 1;
   display: flex;
@@ -89,7 +87,7 @@
   width: 100%;
 }
 
-.search-svg-icon {
+.calc-svg-icon {
   position: absolute;
   left: 14px;
   pointer-events: none;
@@ -97,7 +95,7 @@
   transition: stroke 0.2s;
 }
 
-.filter-table-input {
+.calc-filter-input {
   width: 100%;
   height: 46px; /* Matcher knappens højde præcist */
   padding: 0 16px 0 42px !important; /* Ekstra plads til venstre så teksten aldrig overlapper */
@@ -111,19 +109,19 @@
   box-sizing: border-box;
 }
 
-.filter-table-input:focus {
+.calc-filter-input:focus {
   outline: none;
   border-color: #2563eb;
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
 
-.filter-table-input:focus + .search-svg-icon,
-.search-input-wrapper:focus-within .search-svg-icon {
+.calc-filter-input:focus + .calc-svg-icon,
+.calc-input-wrapper:focus-within .calc-svg-icon {
   stroke: #2563eb;
 }
 
 /* TOGGLE-KNAP */
-.toggle-table-btn {
+.calc-toggle-btn {
   height: 46px; /* Matcher input-højden præcist */
   padding: 0 18px;
   background: #f8fafc;
@@ -143,26 +141,26 @@
 }
 
 @media (max-width: 640px) {
-  .toggle-table-btn {
+  .calc-toggle-btn {
     width: 100%;
     justify-content: center;
   }
 }
 
-.toggle-table-btn:hover {
+.calc-toggle-btn:hover {
   background: #f1f5f9;
   border-color: #94a3b8;
   color: #0f172a;
 }
 
-.btn-arrow {
+.calc-btn-arrow {
   font-size: 0.75rem;
   color: #64748b;
   transition: transform 0.2s;
 }
 
 /* TABEL STYLING */
-.filter-table-wrapper {
+.calc-table-wrapper {
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
@@ -171,21 +169,21 @@
   margin-top: 12px;
 }
 
-.filter-table {
+.calc-table {
   width: 100%;
   border-collapse: collapse;
   margin: 0;
   font-size: 0.95rem;
 }
 
-.filter-table th, 
-.filter-table td {
+.calc-table th, 
+.calc-table td {
   padding: 12px 16px;
   text-align: left;
   border-bottom: 1px solid #f1f5f9;
 }
 
-.filter-table th {
+.calc-table th {
   background: #f8fafc;
   font-weight: 700;
   color: #1e293b;
@@ -194,11 +192,11 @@
   letter-spacing: 0.05em;
 }
 
-.filter-table tr:hover td {
+.calc-table tr:hover td {
   background: #f8fafc;
 }
 
-.no-results-msg {
+.calc-no-results-msg {
   padding: 24px;
   text-align: center;
   color: #64748b;
@@ -208,12 +206,12 @@
 
 <script>
 (function() {
-  const input = document.getElementById("filter-table-input");
-  const wrapper = document.getElementById("filter-table-wrapper");
-  const table = document.getElementById("filter-table");
-  const toggleBtn = document.getElementById("toggle-table-btn");
-  const arrow = toggleBtn ? toggleBtn.querySelector(".btn-arrow") : null;
-  const noResults = document.getElementById("no-results-msg");
+  const input = document.getElementById("calc-filter-input");
+  const wrapper = document.getElementById("calc-table-wrapper");
+  const table = document.getElementById("calc-table");
+  const toggleBtn = document.getElementById("calc-toggle-btn");
+  const arrow = toggleBtn ? toggleBtn.querySelector(".calc-btn-arrow") : null;
+  const noResults = document.getElementById("calc-no-results-msg");
 
   if (!input || !wrapper || !table) return;
 
@@ -263,7 +261,7 @@
       if (input.value.trim() === "") {
         wrapper.style.display = "none";
       }
-      toggleBtn.querySelector("span").innerText = "Vis alle test (" + rows.length + ")";
+      toggleBtn.querySelector("span").innerText = "Vis alle beregnere (" + rows.length + ")";
       if(arrow) arrow.innerText = "▼";
     }
   });

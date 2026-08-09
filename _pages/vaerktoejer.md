@@ -89,14 +89,25 @@ Gør din træning og sundhed mere datadrevet. Hvad enten du vil beregne din ener
 
 ---
 
-## Vælg Kategori
+## Søg i den komplette liste af værktøjer
+{: id="calculators" }
+
+{: .notice--info}
+**Leder du efter en specifik beregner?** Åbn tabellen herunder for at søge og filtrere i alle vores interaktive beregnere.
+
+{% include table/filter-table-tools.html %}
+
+
+---
+
+## Vælg kategori
 {: id="hovedkategorier" }
 
 {% include feature_row id="feature_row_navigation" %}
 
 ---
 
-## Interaktive Værktøjer & Beregnere
+## Interaktive værktøjer & beregnere
 {: id="tools" }
 
 <div class="notice--info" markdown="1">

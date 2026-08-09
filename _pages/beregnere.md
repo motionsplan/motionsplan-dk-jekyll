@@ -38,13 +38,7 @@ Vælg en kategori herunder, eller søg i den samlede tabel efter det specifikke 
 {: .notice--info}
 **Leder du efter en specifik beregner?** Åbn tabellen herunder for at søge og filtrere i alle vores interaktive beregnere.
 
-<details markdown="1" style="background: #f8f9fa; padding: 14px 18px; border-radius: 8px; margin-bottom: 25px; border: 1px solid #e9ecef;">
-  <summary><strong style="cursor: pointer; font-size: 1.1em;">🔍 Klik her for at åbne den søgbare beregnertabel</strong></summary>
-
-  <div style="margin-top: 15px;">
-    {% include table/filter-table-beregnere.html %}
-  </div>
-</details>
+{% include table/filter-table-beregnere.html %}
 
 ---
 

@@ -1,51 +1,269 @@
-{% assign site_posts = site.posts | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-{% if site_posts.size > 0 %}
+{% assign tool_posts = site.posts | where_exp: "post", "post.tools.size > 0" | where_exp: "post", "post.url != page.url" | sort: "title" %}
 
-<input type="text" id="filter-table-input" class="filter-table-input" onkeyup="filterTable()" placeholder="Søg tabellen...">
+{% assign total_tools = 0 %}
+{% for post in tool_posts %}
+  {% assign total_tools = total_tools | plus: post.tools.size %}
+{% endfor %}
 
-<table id="filter-table" class="filter-table">
-  <thead>
-  <tr class="header">
-    <th>Test</th>
-    <th>Type</th>
-    <th>Måler</th>
-    <th>Udstyr</th>
-  </tr>
-  </thead>
-  <tbody>
-  {%- for post in site_posts %}
-  <tr>
-    <td><a href="{{ post.url }}">{{ post.meta.name | default: post.title  }}</a></td>
-    <td>{{ post.meta.type }}</td>
-    <td>{{ post.meta.measures }}</td>
-    <td>{{ post.meta.equipment }}</td>
-  </tr>
-  {%- endfor %}
-</tbody>
-</table>
+{% if total_tools > 0 %}
+<div class="calc-table-widget">
+  
+  <!-- STRØMLINET SØGEBAR OG KNAP -->
+  <div class="calc-search-bar">
+    <div class="calc-input-wrapper">
+      <svg class="calc-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input 
+        type="text" 
+        id="calc-filter-input" 
+        class="calc-filter-input" 
+        placeholder="Søg i alle beregnere (f.eks. watt, kcal, ratio, cda)..." 
+        autocomplete="off"
+      >
+    </div>
+    <button type="button" id="calc-toggle-btn" class="calc-toggle-btn">
+      <span>Vis alle beregnere ({{ total_tools }})</span>
+      <span class="calc-btn-arrow">▼</span>
+    </button>
+  </div>
+
+  <!-- TABEL (SKJULT SOM STANDARD) -->
+  <div id="calc-table-wrapper" class="calc-table-wrapper" style="display: none;">
+    <table id="calc-table" class="calc-table">
+      <thead>
+        <tr class="header">
+          <th>Beregner / Værktøj</th>
+          <th>Type</th>
+          <th>Måler / Udregner</th>
+        </tr>
+      </thead>
+      <tbody>
+      {%- for post in tool_posts %}
+        {%- for tool in post.tools %}
+        <tr>
+          <td><a href="{{ post.url }}{{ tool.anchor }}">{{ tool.title | default: post.title }}</a></td>
+          <td>{{ tool.type | join: ", " }}</td>
+          <td>{{ tool.description }}</td>
+        </tr>
+        {%- endfor %}
+      {%- endfor %}
+      </tbody>
+    </table>
+
+    <div id="calc-no-results-msg" class="calc-no-results-msg" style="display: none;">
+      Ingen beregnere matchede din søgning.
+    </div>
+  </div>
+
+</div>
 {% endif %}
 
+<style>
+.calc-table-widget {
+  margin: 1.5rem 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.calc-search-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
+  .calc-search-bar {
+    flex-direction: column;
+  }
+}
+
+/* INPUT CONTAINER MED ABSOLUT IKON */
+.calc-input-wrapper {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.calc-svg-icon {
+  position: absolute;
+  left: 14px;
+  pointer-events: none;
+  z-index: 2;
+  transition: stroke 0.2s;
+}
+
+.calc-filter-input {
+  width: 100%;
+  height: 46px; /* Matcher knappens højde præcist */
+  padding: 0 16px 0 42px !important; /* Ekstra plads til venstre så teksten aldrig overlapper */
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #0f172a;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.calc-filter-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.calc-filter-input:focus + .calc-svg-icon,
+.calc-input-wrapper:focus-within .calc-svg-icon {
+  stroke: #2563eb;
+}
+
+/* TOGGLE-KNAP */
+.calc-toggle-btn {
+  height: 46px; /* Matcher input-højden præcist */
+  padding: 0 18px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #334155;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  .calc-toggle-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.calc-toggle-btn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  color: #0f172a;
+}
+
+.calc-btn-arrow {
+  font-size: 0.75rem;
+  color: #64748b;
+  transition: transform 0.2s;
+}
+
+/* TABEL STYLING */
+.calc-table-wrapper {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  margin-top: 12px;
+}
+
+.calc-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.calc-table th, 
+.calc-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.calc-table th {
+  background: #f8fafc;
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.calc-table tr:hover td {
+  background: #f8fafc;
+}
+
+.calc-no-results-msg {
+  padding: 24px;
+  text-align: center;
+  color: #64748b;
+  font-style: italic;
+}
+</style>
 
 <script>
+(function() {
+  const input = document.getElementById("calc-filter-input");
+  const wrapper = document.getElementById("calc-table-wrapper");
+  const table = document.getElementById("calc-table");
+  const toggleBtn = document.getElementById("calc-toggle-btn");
+  const arrow = toggleBtn ? toggleBtn.querySelector(".calc-btn-arrow") : null;
+  const noResults = document.getElementById("calc-no-results-msg");
+
+  if (!input || !wrapper || !table) return;
+
+  const rows = table.querySelectorAll("tbody tr");
+  let isExplicitlyExpanded = false;
+
   function filterTable() {
-    var input, filter, table, tr, td, i, txtValue;
-    input = document.getElementById("filter-table-input");
-    filter = input.value.toUpperCase();
-    table = document.getElementById("filter-table");
-    tr = table.getElementsByTagName("tr");
-  
-    for (i = 0; i < tr.length; i++) {
-      td = tr[i].getElementsByTagName("td");
-      for (var j = 0; j < td.length; j++) {
-        txtValue = td[j].textContent || td[j].innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          tr[i].style.display = "";
-          break;
+    const filter = input.value.trim().toUpperCase();
+
+    if (filter.length > 0) {
+      wrapper.style.display = "block";
+      let matchCount = 0;
+
+      rows.forEach(row => {
+        const text = row.textContent || row.innerText;
+        if (text.toUpperCase().indexOf(filter) > -1) {
+          row.style.display = "";
+          matchCount++;
         } else {
-          tr[i].style.display = "none";
+          row.style.display = "none";
         }
+      });
+
+      noResults.style.display = matchCount === 0 ? "block" : "none";
+    } else {
+      if (!isExplicitlyExpanded) {
+        wrapper.style.display = "none";
+      } else {
+        rows.forEach(row => row.style.display = "");
+        noResults.style.display = "none";
       }
     }
   }
+
+  input.addEventListener("input", filterTable);
+
+  toggleBtn.addEventListener("click", function() {
+    isExplicitlyExpanded = !isExplicitlyExpanded;
+
+    if (isExplicitlyExpanded) {
+      wrapper.style.display = "block";
+      toggleBtn.querySelector("span").innerText = "Skjul tabel";
+      if(arrow) arrow.innerText = "▲";
+      rows.forEach(row => row.style.display = "");
+      noResults.style.display = "none";
+    } else {
+      if (input.value.trim() === "") {
+        wrapper.style.display = "none";
+      }
+      toggleBtn.querySelector("span").innerText = "Vis alle beregnere (" + rows.length + ")";
+      if(arrow) arrow.innerText = "▼";
+    }
+  });
+})();
 </script>
-  
