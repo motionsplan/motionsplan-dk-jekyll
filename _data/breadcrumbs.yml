@@ -25,6 +25,9 @@ Kondition:
 Konditionstests:
   title: Konditionstests
   url: /kondition/tests/
+Steptests:
+  title: Steptests
+  url: /kondital-fra-steptest/
 Pulstræning:
   title: Pulstræning
   url: /pulstraening/

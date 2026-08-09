@@ -133,15 +133,7 @@ Nogle konditionstests er særligt populære, enten fordi de er lette at lave, kr
 
 Her har du en oversigt over alle de forskellige måder du kan teste din kondition på, så du kan vælge hvilken test, der passer bedst til dig.
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% if site_posts.size > 0 %}
-| Test | Måler | Udstyr | Type | Hårdhed | Målgruppe |
-|------|-------|--------|------|---------|-----------|
-  {%- for post in site_posts %}
-| [{{ post.meta.name | default: post.title  }}]({{ post.url }}) | {{ post.meta.measures }} | {{ post.meta.equipment }} | {{ post.meta.type }} | {{ post.meta.max }} | {{ post.meta.target | default: "voksne" }} |
-  {%- endfor %}
-{% endif %}
+{% include table/filter-table-tests-v2.html category="Kondition" title="konditionstests" %}
 
 ## Sådan vælger du den rette konditest
 

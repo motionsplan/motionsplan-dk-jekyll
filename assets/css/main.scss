@@ -527,7 +527,7 @@ details.question {
   }
 }
 
-details.equation, .faq {
+details.equation {
   background-color: #f1f1f1;
   padding: 0.5em;
   border: 1px solid #ddd;
@@ -572,6 +572,86 @@ details.equation, .faq {
     margin-top: 10px;
     padding-left: 20px;
     color: #444;
+    line-height: 1.6;
+  }
+}
+
+/* --- SÆRSKILT STYLING TIL FAQ --- */
+details.faq {
+  background-color: #f8f9fa;      /* Lys, blød baggrund */
+  border: 1px solid #e2e8f0;        /* Tynd, elegant kant */
+  border-radius: 8px;               /* Bløde afrundede hjørner */
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+
+  /* Fjern standard browser-pile (Safari / Chrome) */
+  summary::-webkit-details-marker,
+  summary::marker {
+    display: none;
+  }
+
+  /* Selve spørgsmåls-baren */
+  summary {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Skubber pilen helt til højre */
+    padding: 0.75rem 1rem;
+    font-size: 0.95em;              /* Lidt mindre tekststørrelse */
+    font-weight: 600;
+    color: #2d3748;                 /* Mørkegrå i stedet for helt sort */
+    transition: background-color 0.2s ease;
+    user-select: none;
+    list-style: none;
+
+    &:hover {
+      background-color: #edf2f7;
+    }
+
+    /* Elegant CSS-pil til højre */
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-right: 2px solid #718096;
+      border-bottom: 2px solid #718096;
+      transform: rotate(45deg);     /* Peger nedad som udgangspunkt */
+      transition: transform 0.3s ease;
+      margin-left: 1rem;
+      flex-shrink: 0;
+    }
+  }
+
+  /* Når spørgsmålet er åbent ([open]) */
+  &[open] {
+    background-color: #ffffff;      /* Hvid baggrund ved åbning */
+
+    summary {
+      border-bottom: 1px solid #edf2f7;
+
+      &::after {
+        transform: rotate(-135deg); /* Roterer pilen opad ved klik */
+      }
+    }
+  }
+
+  /* Hvis du har <h3> inde i summary */
+  h3 {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+  }
+
+  /* Svaret / brødteksten */
+  p {
+    margin: 0;
+    padding: 0.85rem 1rem;
+    font-size: 0.9em;               /* Lidt mindre brødtekst */
+    color: #4a5568;
     line-height: 1.6;
   }
 }
