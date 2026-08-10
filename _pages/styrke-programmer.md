@@ -65,7 +65,7 @@ Søger du en specifik opbygning eller anmeldelser af kendte programmer?
 <div class="notice--info" markdown="1">
 * 🏋️‍♂️ **[Helkropsprogrammer (Fullbody)](/styrketraening/helkropsprogrammer/)** – Træn hele kroppen 2–3 gange om ugen. Den bedste struktur for begyndere og tidspressede.
 * 🔀 **[Splitprogrammer](/styrketraening/split-programmer/)** – 2-split, 3-split og opdelte programmer til øvede løftere (3–5 dage om ugen).
-* 📋 **[Anmeldelser af kendte programmer](/anmeldelse-traeningsprogrammer/)** – Læs vores faglige vurdering af 5x5, Greyskull, Starting Strength og PHUL.
+* 📋 **[Anmeldelser af kendte programmer](/vaelg-traeningsprogram/)** – Læs hvordan du kan vælge mellem fx 5x5, Greyskull, Starting Strength og PHUL.
 </div>
 
 ---

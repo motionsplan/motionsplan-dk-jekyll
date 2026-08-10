@@ -49,7 +49,7 @@ Det er hårdt for hænderne, håndleddene og underarmene at gå i gang med træn
 
 ## Forslag til træningsprogram med kettlebells
 
-Du kan [sammensætte et træningsprogram til styrketræning](/anmeldelse-traeningsprogrammer/) på rigtig mange måder. En meget populær måde at træne på i øjeblikket er at lave så mange runder som muligt på 20 minutter. Runderne kunne fx bestå af 20 swings og 2 turkish getups til hver side. Dette program kører du fx tre gange om ugen. Måske skal du starte med 10 minutter den første dag, da swings sagtens kan mærkes i baglårene.
+Du kan [sammensætte et træningsprogram til styrketræning](/traeningsprogram-programlaegning-styrketraening/) på rigtig mange måder. En meget populær måde at træne på i øjeblikket er at lave så mange runder som muligt på 20 minutter. Runderne kunne fx bestå af 20 swings og 2 turkish getups til hver side. Dette program kører du fx tre gange om ugen. Måske skal du starte med 10 minutter den første dag, da swings sagtens kan mærkes i baglårene.
 
 ## Mere inspiration om kettlebells
 

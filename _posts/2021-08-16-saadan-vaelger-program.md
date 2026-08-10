@@ -3,6 +3,9 @@ title: "Sådan vælger du det rette styrketræningsprogram"
 seo_title: "Guide: Vælg det rigtige styrketræningsprogram (Mål, niveau & dage)"
 description: "Er du i tvivl om, hvilket styrkeprogram du skal vælge? Få hjælp til at afklare dit niveau, din træningsfrekvens og find det rette match til din hverdag."
 permalink: /vaelg-traeningsprogram/
+redirect_from: 
+  - /anmeldelse-traeningsprogrammer/
+  - /artikel/opbygning-af-program/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1605296867424-35fc25c9212a.jpg
@@ -49,6 +52,14 @@ Her er den enkle tre-trins-raket til at vælge rigtigt første gang.
 {: .notice--success}
 ### 📋 Ved du allerede, hvad du leder efter?
 Hvis du allerede har styr på dit niveau og din ugentlige frekvens, kan du gå direkte til vores samlede [katalog over gratis styrketræningsprogrammer](/styrketraeningsprogrammer/) og filtrere efter dine behov. Hvis du er på udkig efter programmer til løb, cykling eller andre idrætsgrene, så tjek vores [liste over træningsprogrammer](/traeningsprogrammer/).
+
+---
+
+## Vedholdenhed slår altid det "perfekte" program
+
+Det absolut vigtigste ved et styrketræningsprogram er, om du kan lide det og har lyst til at gennemføre det. Vedholdenhed og kontinuerlig træning slår altid det mest gennemtænkte teoretiske program på papiret.
+
+Søg derfor efter et program, hvor du træner på en måde, som du kan se dig selv opretholde uge efter uge, indtil programmet er færdigt[cite: 3]. Hvis du løber ind i en stilstand (et plateau) senere hen, kan du altid tilføje variation
 
 ---
 
@@ -203,6 +214,49 @@ Du kan sagtens bruge et struktureret program, selvom du foretrækker maskiner. M
 
 ### Træning uden udstyr (Hjemmetræning)
 Har du ikke adgang til et fitnesscenter eller tunge vægte? Du kan stadig opbygge stærke muskler med kropsvægt og enkle redskaber. Tjek vores [komplette guide til hjemmetræning](/hjemmetraening-traeningsprogram/).
+
+---
+
+## Hvad er det bedste styrketræningsprogram?
+
+Det korte svar er: **Det bedste styrketræningsprogram er det program, du rent faktisk får gennemført uge efter uge.**
+
+Fra et fysiologisk synspunkt findes der ikke ét enkelt "magisk" program, der er det bedste for alle. Det bedste program for en **begynder** er markant anderledes end det bedste program for en **øvet løfter**:
+
+* **For begyndere:** Det bedste program er et simpelt **[Fullbody-program](/styrketraening/helkropsprogrammer/)** (2–3 dage/uge) med fokus på basisøvelser og lineær progression fra gang til gang (f.eks. *GreySkull LP*).
+* **For øvede (muskelmasse):** Det bedste program er et **[2-split eller 3-split](/styrketraening/split-programmer/)** (3–4 dage/uge), hvor du rammer hver muskelgruppe 2 gange om ugen med varierende volumen.
+* **For styrkeløft:** Det bedste program er et struktureret periodiseringsprogram (f.eks. *Wendler 5/3/1* eller *RTS*).
+
+---
+
+## Den gyldne regel: Kør programmet som det er skrevet
+
+Når du skal afprøve et nyt træningsprogram, skal du lade være med at lave om på det fra start[cite: 3]. Færdige træningsprogrammer er blevet populære, fordi de virker med den præcise udformning, opbygning og progression, de har[cite: 3]. 
+
+Som Anders Nedergaard påpeger:
+
+> *"Derfor – første gang du prøver et bestemt træningsprogram, så brug det præcist som beskrevet. Når du er færdig med det, eller har kørt det så lang tid, som du mener du skal for at vurdere det, kan du lave din vurdering og så lave eventuelle justeringer til eventuel fremtidig brug af programmet."*  
+> — <cite>[Anders Nedergaard](https://andersnedergaard.dk/kropblog/anmeldelser-af-traeningsprogrammer/)</cite>
+
+Også Jim Wendler skriver meget kontant om sit kendte 5/3/1-program:
+
+> *"Don't customize. You must do the program the way it's written."*  
+> — <cite>[Jim Wendler](https://t-nation.com/t/5-3-1-how-to-build-pure-strength/281694)</cite>
+
+---
+
+## Checkliste for valg af styrketræningsprogram
+
+Inden du lægger dig fast på et program, kan du hurtigt løbe denne tjekliste igennem:
+
+- [ ] **Målet:** Opfylder programmet dit primære mål (f.eks. styrke eller muskelmasse)?
+- [ ] **Muskelbalance:** Er der balance i øvelserne (knædomineret, hoftedomineret, træk, skub, core, unilaterale bevægelser)?
+- [ ] **Rækkefølge:** Ligger de tunge flerledsøvelser/basisøvelser først i træningspasset?
+- [ ] **Intensitet:** Er intensiteten (vægt/reps) afstemt i forhold til dit niveau?
+- [ ] **Frekvens:** Trænes hver muskelgruppe igennem 2–3 gange om ugen?
+- [ ] **Progression:** Er der tænkt en klar progressionsmodel ind i programmet fra uge til uge?
+- [ ] **Logning:** Har du en klar plan for, hvordan du logger din træning og sporer fremgang?
+- [ ] **Enkelhed:** Er programmet holdt simpelt uden at være unødvendigt kompliceret?
 
 ---
 

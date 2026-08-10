@@ -358,7 +358,7 @@ Jeg gennemgår her, hvordan man sammensætter et godt styrketræningsprogram til
 
 Når du laver træningsprogrammer, så er det vigtigt, at du tager udgangspunkt i de målsætninger programmet skal opfylde. Træningsplanen kommer til at se forskellig ud, hvis dit mål er at blive stærkere i forhold til at bygge flere muskler på eller komme i bedre kondition.
 
-Vi har også beskrevet [6 trin til at lave dit eget træningsprogram til styrketræning her](/programlaegning-styrketraening/) eller [anmeldelser af styrketræningsprogrammer](/anmeldelse-traeningsprogrammer/).
+Vi har også beskrevet [6 trin til at lave dit eget træningsprogram til styrketræning her](/programlaegning-styrketraening/) eller [anmeldelser af styrketræningsprogrammer](/styrketraeningsprogrammer/).
 
 Her koncentrerer jeg mig primært om programlægning i forhold ti lat lave et godt styrketræningsprogram.
 

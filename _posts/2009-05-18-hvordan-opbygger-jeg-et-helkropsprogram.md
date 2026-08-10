@@ -30,7 +30,7 @@ I denne guide får du hjælp til at sammensætte dit eget helkropsprogram. Du l�
 - Hvor mange sæt og gentagelser du bør lave?
 - Hvordan du planlægger din uge?
 
-Hvis du vil gå mere i dybden med at [lave dit eget styrketræningsprogram](/programlaegning-styrketraening/), finder du også [en komplet guide her](/traeningsprogram-programlaegning-styrketraening/). Derudover kan du læse [anmeldelser af styrketræningsprogrammer her](/anmeldelse-traeningsprogrammer/).
+Hvis du vil gå mere i dybden med at [lave dit eget styrketræningsprogram](/programlaegning-styrketraening/), finder du også [en komplet guide her](/traeningsprogram-programlaegning-styrketraening/). Derudover kan du læse [anmeldelser af styrketræningsprogrammer her](/styrketraeningsprogrammer/).
 
 Træner du oftere end 3 gange om ugen? Så kan du også overveje et [splitprogram](/styrketraening/split-programmer/), fx [2-splitprogram](/2-split-push-pull/) eller et [3-splitprogram](/3-split-push-pull/) – især hvis du træner 4-6 gange om ugen.
 

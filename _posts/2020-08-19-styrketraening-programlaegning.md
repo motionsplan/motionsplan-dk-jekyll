@@ -62,7 +62,7 @@ Der er mange årsager til, at folk vil styrketræne. Alle årsagerne er lige god
 - Forbedre præstationen.
 - Forbedre selvtilliden og selvværdet.
 
-Vi har også beskrevet [6 trin til at lave dit eget træningsprogram til styrketræning her](/programlaegning-styrketraening/) eller [anmeldelser af styrketræningsprogrammer](/anmeldelse-traeningsprogrammer/).
+Vi har også beskrevet [6 trin til at lave dit eget træningsprogram til styrketræning her](/programlaegning-styrketraening/) eller [anmeldelser af styrketræningsprogrammer](/styrketraeningsprogrammer/).
 
 Her koncentrerer jeg mig primært om programlægning i forhold til at lave et [godt styrketræningsprogram](/styrketraeningsprogrammer/).
 
@@ -888,6 +888,13 @@ Og husk også dette:
 - **Deload.** For at blive bedre har du brug for at periodisere din træning. Det betyder, at du jævnligt skal tage en deload-uge, hvor du ikke træner så hårdt.
 
 Nu kan du enten kaste dig ud i at lave dit eget træningsprogram, eller du kan se på nogle af vores [forslag til styrketræningsprogrammer](/styrketraeningsprogrammer/).
+
+## Avancerede parametre for træningsstimuli: INOL og Prilepin
+
+Når du analyserer et træningsprograms samlede arbejdsbyrde og hårdhed på papiret, kan du benytte to faglige måleenheder:
+
+* **INOL (Intensity + Number of Lifts):** [INOL er en formel til at udregne det samlede træningsstimuli](/inol/) for den enkelte øvelse ud fra procent af 1RM og antal repetitioner. Det gør det nemmere at vurdere programmets samlede belastning uden at skulle igennem hele programmet først.
+* **Prilepins Tabel:** [Prilepins tabel](/prilepins-tabel/) er oprindeligt udviklet til vægtløftning og opstiller det optimale antal samlede sæt og repetitioner ved specifikke intensitetsprocenter (f.eks. 70%, 80% eller 90% af 1RM). Tabellen giver et glimrende udgangspunkt for at dosere volumen i tunge basisløft.
 
 ## Ofte stillede spørgsmål
 
