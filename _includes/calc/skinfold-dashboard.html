@@ -1,0 +1,109 @@
+{% assign calc_title = include.title | default: "🧰 Hudfoldstest Dashboard" %}
+{% assign data_id = include.calc_id | default: "skinfold-dashboard" %}
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="skinfold-dashboard">
+  
+  <!-- HEADER -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0; font-size: 1.3rem; font-weight: 800; color: #0f172a;">{{ calc_title }}</h3>
+      <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: #64748b;">Indtast kropsmål én gang – se resultaterne for alle relevante voksenformler</p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-skinfold-container">
+    
+    <!-- 1. KØNSVÆLGER -->
+    <div class="mp-form-group mp-full-width" style="margin-bottom: 1.25rem;">
+      <label class="vbt-premium-label" style="font-weight: 700; display: block; margin-bottom: 6px; color: #334155;">👫 Køn</label>
+      <div class="mp-toggle-group mp-toggle-full mp-toggle-tall" style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; background: #f1f5f9; padding: 4px; border-radius: 12px;">
+        <input type="radio" id="sf-dash-male-{{ data_id }}" name="sf-dash-gender-{{ data_id }}" value="male" class="js-gender-radio" checked style="display:none;">
+        <label for="sf-dash-male-{{ data_id }}" class="mp-toggle-btn-tall js-gender-label" data-value="male" style="padding: 10px; text-align: center; border-radius: 10px; cursor: pointer; font-weight: 700; color: #475569;">
+          <span>👨 Mand</span>
+        </label>
+        
+        <input type="radio" id="sf-dash-female-{{ data_id }}" name="sf-dash-gender-{{ data_id }}" value="female" class="js-gender-radio" style="display:none;">
+        <label for="sf-dash-female-{{ data_id }}" class="mp-toggle-btn-tall js-gender-label" data-value="female" style="padding: 10px; text-align: center; border-radius: 10px; cursor: pointer; font-weight: 700; color: #475569;">
+          <span>👩 Kvinde</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- 2. DEMOGRAFI -->
+    <div class="mp-form-grid mp-grid-3 js-demographics-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin-bottom: 1.5rem;">
+      <div class="mp-form-group">
+        <label for="sf-dash-age" class="vbt-premium-label" style="font-size: 0.8rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">🎂 Alder (år)</label>
+        <input type="number" id="sf-dash-age" class="vbt-input-mega js-demo-input" data-demo="age" placeholder="f.eks. 30" value="30" min="18" max="100" style="width:100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 10px; font-weight: 700;">
+      </div>
+      <div class="mp-form-group">
+        <label for="sf-dash-weight" class="vbt-premium-label" style="font-size: 0.8rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">⚖️ Vægt (kg)</label>
+        <input type="number" step="0.1" id="sf-dash-weight" class="vbt-input-mega js-demo-input" data-demo="weight" placeholder="f.eks. 80" value="80" style="width:100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 10px; font-weight: 700;">
+      </div>
+      <div class="mp-form-group">
+        <label for="sf-dash-height" class="vbt-premium-label" style="font-size: 0.8rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">📏 Højde (cm)</label>
+        <input type="number" id="sf-dash-height" class="vbt-input-mega js-demo-input" data-demo="height" placeholder="f.eks. 180" value="180" style="width:100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 10px; font-weight: 700;">
+      </div>
+    </div>
+
+    <!-- 3. SAMLEDE HUDFOLDSMÅLINGER (DYNAMISK GRID) -->
+    <div class="mp-skinfold-section-header" style="margin-bottom: 10px;">
+      <span class="vbt-premium-label" style="font-weight: 800; color: #0f172a; font-size: 0.95rem;">🎯 Indtast hudfoldsmålinger (mm)</span>
+    </div>
+    
+    <div class="mp-skinfold-unified-box" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 16px; padding: 14px; margin-bottom: 1.5rem;">
+      <div class="js-dashboard-sites-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px;">
+        <!-- JS bygger målekortene dynamisk her -->
+      </div>
+    </div>
+
+    <!-- 4. HOVEDRESULTAT (GENNEMSNIT) -->
+    <div class="mp-results-container js-dash-summary" style="margin-bottom: 1.5rem;">
+      <div class="mp-results-split" style="display: grid; grid-template-columns: 1.3fr 1fr; gap: 12px;">
+        <div class="mp-hero-result" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border: 1px solid #bfdbfe; border-radius: 16px; padding: 16px; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+          <div class="mp-hero-label" style="font-size: 0.75rem; font-weight: 800; color: #1e40af; letter-spacing: 0.5px;">GENNEMSNITLIG FEDTPROCENT</div>
+          <div class="mp-hero-value" style="font-size: 2.8rem; font-weight: 900; color: #1e3a8a; line-height: 1.1; margin: 4px 0;">
+            <span class="js-avg-fatpct">0.0</span><small style="font-size: 1.3rem; color: #2563eb;"> %</small>
+          </div>
+          <div class="js-active-formulas-count" style="font-size: 0.75rem; font-weight: 700; color: #3b82f6;">
+            0 af 4 formler oplåst
+          </div>
+        </div>
+        <div class="mp-results-right" style="display: flex; flex-direction: column; gap: 8px;">
+          <div class="mp-result-box" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 10px 14px; flex: 1;">
+            <span style="display: block; font-size: 0.75rem; font-weight: 700; color: #64748b;">Gns. Fedtmasse</span>
+            <span style="font-size: 1.2rem; font-weight: 800; color: #0f172a;"><span class="js-avg-fatmass">0.0</span> <small>kg</small></span>
+          </div>
+          <div class="mp-result-box" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 10px 14px; flex: 1;">
+            <span style="display: block; font-size: 0.75rem; font-weight: 700; color: #64748b;">Gns. Fedtfri Masse</span>
+            <span style="font-size: 1.2rem; font-weight: 800; color: #0f172a;"><span class="js-avg-leanmass">0.0</span> <small>kg</small></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. MATRIX OVER ALLE 4 VOKSENFORMLER -->
+    <div class="mp-skinfold-section-header" style="margin-bottom: 10px;">
+      <span class="vbt-premium-label" style="font-weight: 800; color: #0f172a; font-size: 0.95rem;">📊 Status for Voksenformler</span>
+    </div>
+
+    <div class="js-formulas-matrix-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; margin-bottom: 1.5rem;">
+      <!-- JS genererer 4 statuskort for formlerne her -->
+    </div>
+
+    <!-- ACTION BUTTONS -->
+    <div id="sf-actions" class="mp-action-group" style="display: flex; gap: 10px; margin-top: 1.5rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn" style="flex: 1; background: #2563eb; color: #fff; border: none; padding: 12px; border-radius: 12px; font-weight: 700; cursor: pointer;">
+        📸 Tag et billede
+      </button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd alle indtastninger" style="background: #f1f5f9; border: 1px solid #cbd5e1; padding: 0 16px; border-radius: 12px; cursor: pointer; font-size: 1.1rem;">
+        🗑️
+      </button>
+    </div>
+
+    <div style="text-align: center; margin-top: 1.25rem; font-size: 0.75rem; color: #94a3b8; font-weight: 600;">
+      &copy; motionsplan.dk
+    </div>
+
+  </div>
+</div>

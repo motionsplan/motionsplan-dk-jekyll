@@ -1,18 +1,25 @@
-// assets/js/ui/skinfold-ui.js
 import { initSkinfoldEngine } from './skinfold-engine.js';
+import { initSkinfoldDashboard } from './skinfold-dashboard.js';
 import { SKINFOLD_FORMULAS } from '../core/skinfold.js';
 
 export function initSkinfold(container) {
   if (!container) return;
 
   const rawId = container.dataset.calculator;
+  const uiModule = container.dataset.uiModule;
+
+  // Hvis det er vores nye dashboard
+  if (uiModule === 'skinfold-dashboard' || rawId === 'skinfold-dashboard') {
+    initSkinfoldDashboard(container);
+    return;
+  }
 
   if (!rawId) {
     console.warn('Mangler [data-calculator] attribute på beholderen:', container);
     return;
   }
   
-  // Normaliserer ID (fjerner 'skinfold-' præfiks)
+  // Normaliserer ID for enkeltsiderne
   const cleanId = rawId.replace(/^skinfold-/, '');
   const formula = SKINFOLD_FORMULAS[cleanId] || SKINFOLD_FORMULAS[rawId];
 

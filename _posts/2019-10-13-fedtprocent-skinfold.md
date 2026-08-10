@@ -151,7 +151,13 @@ Alle de følgende måder at lave hudfoldsmålinger på kræver en pålidelig fed
   {% endfor %}
 {% endif %}
 
-***
+---
+
+## Dashboard
+
+{% include calc/skinfold-dashboard.html title="🧰 Hudfoldstest Dashboard" calc_id="skinfold-dashboard" %}
+
+---
 
 ## Hvad er normale fedtprocenter?
 

@@ -1,0 +1,215 @@
+{% assign calc_title = include.title | default: "🧪 Komplet Kropsanalyse Dashboard" %}
+{% assign data_id = include.calc_id | default: "body-analysis-dashboard" %}
+
+<div class="mp-calc-card vbt-premium-card" id="mp-body-analysis-card" data-calculator="{{ data_id }}" data-ui-module="body-analysis-dashboard">
+  
+  <!-- HEADER -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0; font-size: 1.35rem; font-weight: 800; color: #0f172a;">{{ calc_title }}</h3>
+      <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: #64748b;">Indtast kropsmål, omkredse og puls – se din krops profil låse op</p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 38px; height: 38px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-dashboard-container">
+    
+    <!-- LEVEL 1: BASALE STAMDATA (ÅBEN SOM STANDARD) -->
+    <div class="mp-dash-acc-box is-open js-body-acc" data-sec="demo">
+      <div class="mp-dash-acc-header js-body-acc-toggle">
+        <div class="mp-dash-acc-title">
+          <span style="font-size: 1.2rem;">👤</span>
+          <div>
+            <strong style="font-size: 0.95rem; color: #0f172a; display: block;">1. Basale Stamdata (Niveau 1)</strong>
+            <span style="font-size: 0.72rem; color: #64748b;">Højde, vægt, alder & køn (Låser op for 11 kropsanalyser)</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="js-body-badge-demo" style="font-size: 0.72rem; font-weight: 800; color: #2563eb; background: #eff6ff; padding: 3px 10px; border-radius: 12px; border: 1px solid #bfdbfe;">Udfyldt</span>
+          <span class="mp-acc-chevron">▼</span>
+        </div>
+      </div>
+      
+      <div class="mp-dash-acc-body">
+        <!-- Kønsvælger -->
+        <div class="mp-form-group" style="margin-bottom: 12px;">
+          <label style="font-size: 0.8rem; font-weight: 700; color: #475569; display: block; margin-bottom: 6px;">👫 Køn</label>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px; background: #f1f5f9; padding: 4px; border-radius: 12px; border: 1px solid #e2e8f0; box-sizing: border-box;">
+            <input type="radio" id="mp-body-male" name="mp-body-gender" value="male" class="js-body-gender-radio" checked style="display:none;">
+            <label for="mp-body-male" class="js-body-gender-lbl" data-value="male" style="padding: 8px 12px; text-align: center; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 0.88rem; color: #475569; transition: all 0.15s ease;">
+              👨 Mand
+            </label>
+            
+            <input type="radio" id="mp-body-female" name="mp-body-gender" value="female" class="js-body-gender-radio" style="display:none;">
+            <label for="mp-body-female" class="js-body-gender-lbl" data-value="female" style="padding: 8px 12px; text-align: center; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 0.88rem; color: #475569; transition: all 0.15s ease;">
+              👩 Kvinde
+            </label>
+          </div>
+        </div>
+
+        <!-- Alder, Højde, Vægt -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px;">
+          <div>
+            <label for="mp-body-age" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">🎂 Alder (år)</label>
+            <input type="number" id="mp-body-age" class="js-body-demo" data-field="age" value="30" placeholder="30" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+          <div>
+            <label for="mp-body-height" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">📏 Højde (cm)</label>
+            <input type="number" id="mp-body-height" class="js-body-demo" data-field="height" value="180" placeholder="180" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+          <div>
+            <label for="mp-body-weight" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">⚖️ Vægt (kg)</label>
+            <input type="number" step="0.1" id="mp-body-weight" class="js-body-demo" data-field="weight" value="80" placeholder="80" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEVEL 2: OMKREDSMÅLINGER (LUKKET SOM STANDARD) -->
+    <div class="mp-dash-acc-box js-body-acc" data-sec="girths">
+      <div class="mp-dash-acc-header js-body-acc-toggle">
+        <div class="mp-dash-acc-title">
+          <span style="font-size: 1.2rem;">📐</span>
+          <div>
+            <strong style="font-size: 0.95rem; color: #0f172a; display: block;">2. Omkredsmålinger (Niveau 2)</strong>
+            <span style="font-size: 0.72rem; color: #64748b;">Talje & Hofte (Låser op for WHtR, WHR, ABSI, BAI)</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="js-body-badge-girths" style="font-size: 0.72rem; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 10px; border-radius: 12px; border: 1px solid #cbd5e1;">0 mål indtastet</span>
+          <span class="mp-acc-chevron">▼</span>
+        </div>
+      </div>
+
+      <div class="mp-dash-acc-body">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;">
+          <div>
+            <label for="mp-body-girth-waist" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Talje (cm)</label>
+            <input type="number" step="0.5" id="mp-body-girth-waist" class="js-body-girth" data-site="waist" placeholder="f.eks. 85" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+          <div>
+            <label for="mp-body-girth-hip" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Hofte (cm)</label>
+            <input type="number" step="0.5" id="mp-body-girth-hip" class="js-body-girth" data-site="hip" placeholder="f.eks. 95" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEVEL 3: PULSDATA (LUKKET SOM STANDARD) -->
+    <div class="mp-dash-acc-box js-body-acc" data-sec="heart">
+      <div class="mp-dash-acc-header js-body-acc-toggle">
+        <div class="mp-dash-acc-title">
+          <span style="font-size: 1.2rem;">🫀</span>
+          <div>
+            <strong style="font-size: 0.95rem; color: #0f172a; display: block;">3. Pulsdata (Niveau 3)</strong>
+            <span style="font-size: 0.72rem; color: #64748b;">Hvilepuls & Maxpuls (Låser op for Kondital via Uths formel)</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="js-body-badge-heart" style="font-size: 0.72rem; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 10px; border-radius: 12px; border: 1px solid #cbd5e1;">0 pulstal indtastet</span>
+          <span class="mp-acc-chevron">▼</span>
+        </div>
+      </div>
+
+      <div class="mp-dash-acc-body">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;">
+          <div>
+            <label for="mp-body-hr-rest" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Hvilepuls (bpm)</label>
+            <input type="number" id="mp-body-hr-rest" class="js-body-heart" data-field="hrRest" placeholder="f.eks. 60" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+          <div>
+            <label for="mp-body-hr-max" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Maxpuls (bpm) <small style="font-weight:400; color:#94a3b8;">Valgfri</small></label>
+            <input type="number" id="mp-body-hr-max" class="js-body-heart" data-field="hrMax" placeholder="Automatisk" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTAT-GRID (ALLE KORT VISES DYNAMISK HERE) -->
+    <div style="margin: 1.5rem 0 10px 0; display: flex; justify-content: space-between; align-items: center;">
+      <span style="font-weight: 800; color: #0f172a; font-size: 0.95rem;">📊 Din Samlede Kropsprofil</span>
+      <span class="js-body-unlocked-status" style="font-size: 0.75rem; font-weight: 700; color: #2563eb; background: #eff6ff; padding: 3px 10px; border-radius: 12px; border: 1px solid #bfdbfe;">
+        0 af 18 analyser aktiveret
+      </span>
+    </div>
+
+    <div class="js-body-results-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-bottom: 1.5rem;">
+      <!-- JS bygger alle resultatkort dynamisk her -->
+    </div>
+
+    <!-- ACTIONS -->
+    <div id="sf-actions" class="mp-action-group" style="display: flex; gap: 10px; margin-top: 1rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn" style="flex: 1; background: #2563eb; color: #fff; border: none; padding: 12px; border-radius: 12px; font-weight: 700; cursor: pointer;">
+        📸 Tag et billede / Gem Profil
+      </button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd alle indtastninger" style="background: #f1f5f9; border: 1px solid #cbd5e1; padding: 0 16px; border-radius: 12px; cursor: pointer; font-size: 1.1rem;">
+        🗑️
+      </button>
+    </div>
+
+    <div style="text-align: center; margin-top: 1rem; font-size: 0.75rem; color: #94a3b8; font-weight: 600;">
+      &copy; motionsplan.dk
+    </div>
+
+  </div>
+</div>
+
+<!-- STYLES TIL HARMONIKAER -->
+<style>
+  .mp-dash-acc-box {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+  }
+
+  .mp-dash-acc-header {
+    padding: 12px 16px;
+    background: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    transition: background 0.15s ease;
+  }
+
+  .mp-dash-acc-header:hover {
+    background: #f8fafc;
+  }
+
+  .mp-dash-acc-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .mp-acc-chevron {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    transition: transform 0.2s ease;
+  }
+
+  .mp-dash-acc-body {
+    display: none;
+    padding: 14px 16px 16px 16px;
+    border-top: 1px solid #f1f5f9;
+    background: #ffffff;
+  }
+
+  .mp-dash-acc-box.is-open {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  }
+
+  .mp-dash-acc-box.is-open .mp-dash-acc-body {
+    display: block;
+  }
+
+  .mp-dash-acc-box.is-open .mp-acc-chevron {
+    transform: rotate(180deg);
+    color: #2563eb;
+  }
+</style>

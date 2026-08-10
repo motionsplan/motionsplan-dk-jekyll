@@ -1,0 +1,268 @@
+{% assign calc_title = include.title | default: "⚡ Ultimativt Fedtprocent Dashboard" %}
+{% assign data_id = include.calc_id | default: "fat-pct-master" %}
+
+<div class="mp-calc-card vbt-premium-card" id="mp-fatpct-master-card" data-calculator="{{ data_id }}" data-ui-module="fat-pct-master-dashboard">
+  
+  <!-- HEADER -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0; font-size: 1.35rem; font-weight: 800; color: #0f172a;">{{ calc_title }}</h3>
+      <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: #64748b;">Åbn sektionerne – indtast dine mål og se formlerne låse op</p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 38px; height: 38px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-dashboard-container">
+    
+    <!-- 1. BASALE STAMDATA (ÅBEN SOM STANDARD) -->
+    <div class="mp-dash-acc-box is-open js-master-acc" data-sec="demo">
+      <div class="mp-dash-acc-header js-master-acc-toggle">
+        <div class="mp-dash-acc-title">
+          <span style="font-size: 1.2rem;">👤</span>
+          <div>
+            <strong style="font-size: 0.95rem; color: #0f172a; display: block;">1. Basale Stamdata</strong>
+            <span style="font-size: 0.72rem; color: #64748b;">Alder, højde, vægt & køn (Låser op for 7 BMI-formler)</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="js-acc-badge-demo" style="font-size: 0.72rem; font-weight: 800; color: #2563eb; background: #eff6ff; padding: 3px 10px; border-radius: 12px; border: 1px solid #bfdbfe;">Udfyldt</span>
+          <span class="mp-acc-chevron">▼</span>
+        </div>
+      </div>
+      
+      <div class="mp-dash-acc-body">
+        <!-- Kønsvælger (FIXET STYLING) -->
+        <div class="mp-form-group" style="margin-bottom: 12px;">
+          <label style="font-size: 0.8rem; font-weight: 700; color: #475569; display: block; margin-bottom: 6px;">👫 Køn</label>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px; background: #f1f5f9; padding: 4px; border-radius: 12px; border: 1px solid #e2e8f0; box-sizing: border-box;">
+            <input type="radio" id="mp-master-male" name="mp-master-gender" value="male" class="js-master-gender-radio" checked style="display:none;">
+            <label for="mp-master-male" class="js-master-gender-lbl" data-value="male" style="padding: 8px 12px; text-align: center; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 0.88rem; color: #475569; transition: all 0.15s ease;">
+              👨 Mand
+            </label>
+            
+            <input type="radio" id="mp-master-female" name="mp-master-gender" value="female" class="js-master-gender-radio" style="display:none;">
+            <label for="mp-master-female" class="js-master-gender-lbl" data-value="female" style="padding: 8px 12px; text-align: center; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 0.88rem; color: #475569; transition: all 0.15s ease;">
+              👩 Kvinde
+            </label>
+          </div>
+        </div>
+
+        <!-- Alder, Højde, Vægt -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px;">
+          <div>
+            <label for="mp-master-age" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">🎂 Alder (år)</label>
+            <input type="number" id="mp-master-age" class="js-master-demo" data-field="age" value="30" placeholder="30" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+          <div>
+            <label for="mp-master-height" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">📏 Højde (cm)</label>
+            <input type="number" id="mp-master-height" class="js-master-demo" data-field="height" value="180" placeholder="180" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+          <div>
+            <label for="mp-master-weight" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">⚖️ Vægt (kg)</label>
+            <input type="number" step="0.1" id="mp-master-weight" class="js-master-demo" data-field="weight" value="80" placeholder="80" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. MÅLEBÅNDS MÅLINGER (LUKKET SOM STANDARD) -->
+    <div class="mp-dash-acc-box js-master-acc" data-sec="girths">
+      <div class="mp-dash-acc-header js-master-acc-toggle">
+        <div class="mp-dash-acc-title">
+          <span style="font-size: 1.2rem;">📏</span>
+          <div>
+            <strong style="font-size: 0.95rem; color: #0f172a; display: block;">2. Målebåndsmålinger (cm)</strong>
+            <span style="font-size: 0.72rem; color: #64748b;">Låser op for US Navy & McArdle & Katch</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="js-acc-badge-girths" style="font-size: 0.72rem; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 10px; border-radius: 12px; border: 1px solid #cbd5e1;">0 mål indtastet</span>
+          <span class="mp-acc-chevron">▼</span>
+        </div>
+      </div>
+
+      <div class="mp-dash-acc-body">
+        <div class="js-master-girths-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;">
+          <!-- JS bygger dynamiske målebåndskort her -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. FEDTTANG / HUDFOLDSMÅLINGER (LUKKET SOM STANDARD) -->
+    <div class="mp-dash-acc-box js-master-acc" data-sec="skinfolds">
+      <div class="mp-dash-acc-header js-master-acc-toggle">
+        <div class="mp-dash-acc-title">
+          <span style="font-size: 1.2rem;">🎯</span>
+          <div>
+            <strong style="font-size: 0.95rem; color: #0f172a; display: block;">3. Fedttang / Hudfoldsmålinger (mm)</strong>
+            <span style="font-size: 0.72rem; color: #64748b;">Låser op for Jackson, Durnin, Peterson, YMCA</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="js-acc-badge-skinfolds" style="font-size: 0.72rem; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 10px; border-radius: 12px; border: 1px solid #cbd5e1;">0 mål indtastet</span>
+          <span class="mp-acc-chevron">▼</span>
+        </div>
+      </div>
+
+      <div class="mp-dash-acc-body">
+        <div class="js-master-skinfolds-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;">
+          <!-- JS bygger dynamiske hudfoldskort her -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. DIREKTE / LAB TESTS (LUKKET SOM STANDARD) -->
+    <div class="mp-dash-acc-box js-master-acc" data-sec="direct">
+      <div class="mp-dash-acc-header js-master-acc-toggle">
+        <div class="mp-dash-acc-title">
+          <span style="font-size: 1.2rem;">🔬</span>
+          <div>
+            <strong style="font-size: 0.95rem; color: #0f172a; display: block;">4. Direkte Målinger & Lab-tests (%)</strong>
+            <span style="font-size: 0.72rem; color: #64748b;">Indtast kendte tal fra DEXA, BIA eller BodPod</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="js-acc-badge-direct" style="font-size: 0.72rem; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 10px; border-radius: 12px; border: 1px solid #cbd5e1;">0 tests indtastet</span>
+          <span class="mp-acc-chevron">▼</span>
+        </div>
+      </div>
+
+      <div class="mp-dash-acc-body">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;">
+          <div>
+            <label for="mp-direct-dexa" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">DEXA-scanning (%)</label>
+            <input type="number" step="0.1" id="mp-direct-dexa" class="js-master-direct" data-method="dexa" placeholder="f.eks. 16.5" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+          <div>
+            <label for="mp-direct-bia" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Badevægt / BIA (%)</label>
+            <input type="number" step="0.1" id="mp-direct-bia" class="js-master-direct" data-method="bia" placeholder="f.eks. 18.0" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+          <div>
+            <label for="mp-direct-hydro" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">BodPod / Vand (%)</label>
+            <input type="number" step="0.1" id="mp-direct-hydro" class="js-master-direct" data-method="hydro" placeholder="f.eks. 15.2" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. SAMLET HOVEDRESULTAT -->
+    <div class="mp-results-container" style="margin: 1.5rem 0 1.25rem 0;">
+      <div style="display: grid; grid-template-columns: 1.3fr 1fr; gap: 12px;">
+        
+        <div style="background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); border-radius: 20px; padding: 18px; color: #ffffff; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 8px 20px rgba(37,99,235,0.18);">
+          <span style="font-size: 0.72rem; font-weight: 800; letter-spacing: 0.8px; opacity: 0.9; text-transform: uppercase;">GENNEMSNITLIG FEDTPROCENT</span>
+          <div style="display: flex; align-items: baseline; justify-content: center; margin: 4px 0;">
+            <span class="js-master-avg-fatpct" style="font-size: 3.2rem; font-weight: 900; line-height: 1;">0.0</span>
+            <span style="font-size: 1.5rem; font-weight: 800; opacity: 0.9; margin-left: 2px;">%</span>
+          </div>
+          <span class="js-master-unlocked-status" style="font-size: 0.75rem; font-weight: 700; background: rgba(255,255,255,0.18); padding: 3px 10px; border-radius: 12px; backdrop-filter: blur(4px);">
+            7 af 16 metoder aktiveret
+          </span>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 10px 14px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+            <span style="font-size: 0.72rem; font-weight: 700; color: #64748b;">Gns. Fedtmasse</span>
+            <span style="font-size: 1.2rem; font-weight: 900; color: #0f172a;"><span class="js-master-avg-fatmass">0.0</span> <small style="font-size: 0.82rem; color: #64748b;">kg</small></span>
+          </div>
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 10px 14px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+            <span style="font-size: 0.72rem; font-weight: 700; color: #64748b;">Gns. Fedtfri Masse</span>
+            <span style="font-size: 1.2rem; font-weight: 900; color: #0f172a;"><span class="js-master-avg-leanmass">0.0</span> <small style="font-size: 0.82rem; color: #64748b;">kg</small></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 6. KOMPAKTE STATUSKORT -->
+    <div style="margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
+      <span style="font-weight: 800; color: #0f172a; font-size: 0.92rem;">📊 Status for alle 16 metoder</span>
+    </div>
+
+    <div class="js-master-matrix-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px; margin-bottom: 1.5rem;">
+      <!-- JS genererer overskuelige statuskort her -->
+    </div>
+
+    <!-- ACTIONS -->
+    <div id="sf-actions" class="mp-action-group" style="display: flex; gap: 10px; margin-top: 1rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn" style="flex: 1; background: #2563eb; color: #fff; border: none; padding: 12px; border-radius: 12px; font-weight: 700; cursor: pointer;">
+        📸 Tag et billede / Gem Dashboard
+      </button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd alle indtastninger" style="background: #f1f5f9; border: 1px solid #cbd5e1; padding: 0 16px; border-radius: 12px; cursor: pointer; font-size: 1.1rem;">
+        🗑️
+      </button>
+    </div>
+
+    <div style="text-align: center; margin-top: 1rem; font-size: 0.75rem; color: #94a3b8; font-weight: 600;">
+      &copy; motionsplan.dk
+    </div>
+
+  </div>
+</div>
+
+<!-- STYLES TIL HARMONIKAER / ACCORDIONS -->
+<style>
+  .mp-dash-acc-box {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+  }
+
+  .mp-dash-acc-header {
+    padding: 12px 16px;
+    background: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    transition: background 0.15s ease;
+  }
+
+  .mp-dash-acc-header:hover {
+    background: #f8fafc;
+  }
+
+  .mp-dash-acc-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .mp-acc-chevron {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    transition: transform 0.2s ease;
+  }
+
+  .mp-dash-acc-body {
+    display: none;
+    padding: 14px 16px 16px 16px;
+    border-top: 1px solid #f1f5f9;
+    background: #ffffff;
+  }
+
+  /* ÅBEN HARMONIKA */
+  .mp-dash-acc-box.is-open {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  }
+
+  .mp-dash-acc-box.is-open .mp-dash-acc-body {
+    display: block;
+  }
+
+  .mp-dash-acc-box.is-open .mp-acc-chevron {
+    transform: rotate(180deg);
+    color: #2563eb;
+  }
+
+  @media (max-width: 520px) {
+    .mp-results-container > div {
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>
