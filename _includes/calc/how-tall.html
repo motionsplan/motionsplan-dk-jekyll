@@ -1,0 +1,425 @@
+{% assign calc_title = include.title | default: "📏 Højdeberegner for Børn & Unge" %}
+{% assign data_id = include.calc_id | default: "how-tall-calculator" %}
+
+<div class="mp-calc-card vbt-premium-card" id="mp-tall-calculator-card" data-calculator="{{ data_id }}">
+  
+  <!-- HEADER -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0; font-size: 1.35rem; font-weight: 800; color: #0f172a;">{{ calc_title }}</h3>
+      <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: #64748b;">Beregn voksensluthøjde ud fra genetik og vækstkurve</p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 38px; height: 38px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-tall-container">
+    
+    <!-- 1. VÆLG BEREGNINGSMETODE (2 STORE STORE KNAPPER) -->
+    <div class="mp-form-group" style="margin-bottom: 1.25rem;">
+      <label class="vbt-premium-label" style="font-size: 0.85rem; font-weight: 800; color: #334155; display: block; margin-bottom: 8px;">
+        ⚙️ Vælg beregningsmetode
+      </label>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px;">
+        
+        <!-- KNAP 1: SIMPEL (MÅLHØJDE) -->
+        <div class="js-tall-method-card active" data-method="simple" style="background: #ffffff; border: 2px solid #2563eb; border-radius: 14px; padding: 12px 14px; cursor: pointer; transition: all 0.2s ease; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px;">
+            <span style="font-weight: 800; font-size: 0.95rem; color: #1e3a8a;">⚡ Simpel (Målhøjde)</span>
+            <span class="js-tall-badge-simple" style="background: #dcfce7; color: #15803d; font-size: 0.68rem; font-weight: 800; padding: 2px 8px; border-radius: 10px;">Aktiv</span>
+          </div>
+          <p style="margin: 0; font-size: 0.78rem; color: #64748b; line-height: 1.35;">Hurtigt genetisk skøn ud fra kun forældrenes højde (±6–8 cm usikkerhed).</p>
+        </div>
+
+        <!-- KNAP 2: PRÆCIS (KHAMIS-ROCHE) -->
+        <div class="js-tall-method-card" data-method="precise" style="background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 14px; padding: 12px 14px; cursor: pointer; transition: all 0.2s ease;">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px;">
+            <span style="font-weight: 800; font-size: 0.95rem; color: #334155;">🎯 Præcis (Khamis-Roche)</span>
+            <span class="js-tall-badge-precise" style="display:none; background: #dcfce7; color: #15803d; font-size: 0.68rem; font-weight: 800; padding: 2px 8px; border-radius: 10px;">Aktiv</span>
+          </div>
+          <p style="margin: 0; font-size: 0.78rem; color: #64748b; line-height: 1.35;">Inkluderer barnets nuværende alder, højde og vægt (±2 cm usikkerhed).</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 2. KØNSVÆLGER -->
+    <div class="mp-form-group mp-full-width" style="margin-bottom: 1.25rem;">
+      <label class="vbt-premium-label" style="font-size: 0.8rem; font-weight: 700; color: #475569; display: block; margin-bottom: 6px;">👫 Barnets biologiske køn</label>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; background: #f1f5f9; padding: 4px; border-radius: 12px; border: 1px solid #e2e8f0;">
+        <input type="radio" id="mp-tall-male" name="mp-tall-gender" value="male" class="js-tall-gender-radio" checked style="display:none;">
+        <label for="mp-tall-male" class="js-tall-gender-lbl" data-value="male" style="padding: 10px; text-align: center; border-radius: 10px; cursor: pointer; font-weight: 800; font-size: 0.9rem; color: #ffffff; background: #2563eb; box-shadow: 0 2px 4px rgba(37,99,235,0.2); transition: all 0.15s ease;">
+          👨 Dreng
+        </label>
+        
+        <input type="radio" id="mp-tall-female" name="mp-tall-gender" value="female" class="js-tall-gender-radio" style="display:none;">
+        <label for="mp-tall-female" class="js-tall-gender-lbl" data-value="female" style="padding: 10px; text-align: center; border-radius: 10px; cursor: pointer; font-weight: 800; font-size: 0.9rem; color: #475569; transition: all 0.15s ease;">
+          👩 Pige
+        </label>
+      </div>
+    </div>
+
+    <!-- 3. FORÆLDRENES HØJDE -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 14px; margin-bottom: 1.25rem;">
+      <span style="font-size: 0.85rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 10px;">🧬 Forældrenes Højde</span>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+        <div>
+          <label for="mp-tall-father" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">👨 Fars højde (cm)</label>
+          <input type="number" id="mp-tall-father" class="js-tall-input" data-field="father" placeholder="f.eks. 182" value="182" style="width:100%; padding: 9px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+        </div>
+        <div>
+          <label for="mp-tall-mother" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">👩 Mors højde (cm)</label>
+          <input type="number" id="mp-tall-mother" class="js-tall-input" data-field="mother" placeholder="f.eks. 168" value="168" style="width:100%; padding: 9px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. BARNETS EGENE DATA (VISES KUN VED KHAMIS-ROCHE) -->
+    <div class="js-tall-precise-inputs" style="display: none; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 14px; padding: 14px; margin-bottom: 1.25rem;">
+      <span style="font-size: 0.85rem; font-weight: 800; color: #1e3a8a; display: block; margin-bottom: 10px;">📈 Barnets Aktuelle Vækstmål (4–17 år)</span>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+        <div>
+          <label for="mp-tall-age" style="font-size: 0.78rem; font-weight: 700; color: #1e40af; display: block; margin-bottom: 4px;">🎂 Alder (år)</label>
+          <input type="number" step="0.5" id="mp-tall-age" class="js-tall-input" data-field="childAge" placeholder="f.eks. 10.0" value="10" min="4" max="17.5" style="width:100%; padding: 9px; border: 1px solid #93c5fd; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box; background: #ffffff;">
+        </div>
+        <div>
+          <label for="mp-tall-height" style="font-size: 0.78rem; font-weight: 700; color: #1e40af; display: block; margin-bottom: 4px;">📏 Højde (cm)</label>
+          <input type="number" step="0.5" id="mp-tall-height" class="js-tall-input" data-field="childHeight" placeholder="f.eks. 140" value="140" style="width:100%; padding: 9px; border: 1px solid #93c5fd; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box; background: #ffffff;">
+        </div>
+        <div>
+          <label for="mp-tall-weight" style="font-size: 0.78rem; font-weight: 700; color: #1e40af; display: block; margin-bottom: 4px;">⚖️ Vægt (kg)</label>
+          <input type="number" step="0.5" id="mp-tall-weight" class="js-tall-input" data-field="childWeight" placeholder="f.eks. 35" value="35" style="width:100%; padding: 9px; border: 1px solid #93c5fd; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box; background: #ffffff;">
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. RESULTAT-KORT (FLOT PRÆSENTATION) -->
+    <div class="mp-results-container" style="margin-bottom: 1.25rem;">
+      <div style="display: grid; grid-template-columns: 1.3fr 1fr; gap: 12px;">
+        
+        <!-- HERO RESULTAT (VENSTRE) -->
+        <div style="background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); border-radius: 20px; padding: 20px; color: #ffffff; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 8px 20px rgba(37,99,235,0.18);">
+          <span style="font-size: 0.72rem; font-weight: 800; letter-spacing: 0.8px; opacity: 0.9; text-transform: uppercase;">ESTIMERET VOKSENSLUTHØJDE</span>
+          <div style="display: flex; align-items: baseline; justify-content: center; margin: 6px 0;">
+            <span class="js-tall-res-final" style="font-size: 3.6rem; font-weight: 900; line-height: 1;">181.5</span>
+            <span style="font-size: 1.6rem; font-weight: 800; opacity: 0.9; margin-left: 3px;">cm</span>
+          </div>
+          <span class="js-tall-res-method-tag" style="font-size: 0.78rem; font-weight: 700; background: rgba(255,255,255,0.18); padding: 4px 12px; border-radius: 12px; backdrop-filter: blur(4px);">
+            Målhøjde Formel
+          </span>
+          <span class="js-tall-res-sd" style="font-size: 0.7rem; opacity: 0.8; margin-top: 6px; font-weight: 600;">
+            Forventet usikkerhed: ±6.5 cm
+          </span>
+        </div>
+
+        <!-- SEKUNDÆRE BOKSE (HØJRE) -->
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 12px 14px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+            <span style="font-size: 0.72rem; font-weight: 700; color: #64748b;">Midtforældrehøjde</span>
+            <span style="font-size: 1.25rem; font-weight: 900; color: #0f172a;"><span class="js-tall-res-midparent">175.0</span> <small style="font-size: 0.82rem; color: #64748b;">cm</small></span>
+          </div>
+
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 12px 14px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+            <span class="js-tall-res-box2-label" style="font-size: 0.72rem; font-weight: 700; color: #64748b;">Kønsjusteret Mål</span>
+            <span style="font-size: 1.25rem; font-weight: 900; color: #0f172a;"><span class="js-tall-res-box2-val">181.5</span> <small class="js-tall-res-box2-unit" style="font-size: 0.82rem; color: #64748b;">cm</small></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div id="sf-actions" class="mp-action-group" style="display: flex; gap: 10px; margin-top: 1rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn" style="flex: 1; background: #2563eb; color: #fff; border: none; padding: 12px; border-radius: 12px; font-weight: 700; cursor: pointer;">
+        📸 Tag et billede / Gem resultat
+      </button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd alle indtastninger" style="background: #f1f5f9; border: 1px solid #cbd5e1; padding: 0 16px; border-radius: 12px; cursor: pointer; font-size: 1.1rem;">
+        🗑️
+      </button>
+    </div>
+
+    <div style="text-align: center; margin-top: 1rem; font-size: 0.75rem; color: #94a3b8; font-weight: 600;">
+      &copy; motionsplan.dk
+    </div>
+
+  </div>
+</div>
+
+<!-- JAVASCRIPT ENGINE INKL. KHAMIS-ROCHE TABELLER -->
+<script>
+(function() {
+  const card = document.getElementById('mp-tall-calculator-card');
+  if (!card) return;
+
+  const STORAGE_KEY = 'mp_how_tall_calculator_state';
+
+  // Khamis-Roche Koefficienter (4.0 til 17.5 år)
+  const KHAMIS_TABLE = {
+    male: {
+      4.0:  [24.84, 0.781, -0.082, 0.334],
+      4.5:  [20.59, 0.771, -0.081, 0.354],
+      5.0:  [16.89, 0.764, -0.081, 0.370],
+      5.5:  [13.62, 0.759, -0.081, 0.384],
+      6.0:  [11.37, 0.756, -0.081, 0.392],
+      6.5:  [9.94,  0.754, -0.081, 0.398],
+      7.0:  [9.08,  0.753, -0.082, 0.401],
+      7.5:  [8.88,  0.751, -0.083, 0.402],
+      8.0:  [9.05,  0.749, -0.084, 0.401],
+      8.5:  [9.62,  0.747, -0.085, 0.399],
+      9.0:  [10.51, 0.745, -0.087, 0.396],
+      9.5:  [11.72, 0.742, -0.089, 0.392],
+      10.0: [13.23, 0.738, -0.093, 0.388],
+      10.5: [14.88, 0.733, -0.098, 0.382],
+      11.0: [16.51, 0.726, -0.104, 0.377],
+      11.5: [17.80, 0.718, -0.111, 0.374],
+      12.0: [18.42, 0.710, -0.118, 0.373],
+      12.5: [18.06, 0.704, -0.124, 0.377],
+      13.0: [16.63, 0.702, -0.128, 0.385],
+      13.5: [14.18, 0.705, -0.129, 0.397],
+      14.0: [11.04, 0.714, -0.127, 0.410],
+      14.5: [7.57,  0.730, -0.121, 0.424],
+      15.0: [4.12,  0.751, -0.111, 0.438],
+      15.5: [1.10,  0.776, -0.097, 0.449],
+      16.0: [-1.16, 0.803, -0.079, 0.457],
+      16.5: [-2.46, 0.832, -0.059, 0.461],
+      17.0: [-2.84, 0.860, -0.038, 0.461],
+      17.5: [-2.37, 0.887, -0.019, 0.457]
+    },
+    female: {
+      4.0:  [20.53, 0.781, -0.097, 0.334],
+      4.5:  [16.48, 0.776, -0.098, 0.354],
+      5.0:  [12.83, 0.772, -0.099, 0.371],
+      5.5:  [9.48,  0.769, -0.100, 0.386],
+      6.0:  [6.41,  0.767, -0.102, 0.398],
+      6.5:  [3.61,  0.766, -0.103, 0.408],
+      7.0:  [1.09,  0.765, -0.105, 0.416],
+      7.5:  [-1.14, 0.765, -0.107, 0.422],
+      8.0:  [-3.05, 0.765, -0.109, 0.426],
+      8.5:  [-4.60, 0.764, -0.112, 0.427],
+      9.0:  [-5.73, 0.763, -0.116, 0.426],
+      9.5:  [-6.38, 0.762, -0.121, 0.422],
+      10.0: [-6.48, 0.759, -0.127, 0.416],
+      10.5: [-5.98, 0.755, -0.133, 0.407],
+      11.0: [-4.86, 0.749, -0.138, 0.397],
+      11.5: [-3.15, 0.741, -0.142, 0.385],
+      12.0: [-0.91, 0.733, -0.143, 0.372],
+      12.5: [1.63,  0.727, -0.141, 0.360],
+      13.0: [4.22,  0.725, -0.134, 0.351],
+      13.5: [6.62,  0.729, -0.123, 0.345],
+      14.0: [8.60,  0.738, -0.107, 0.342],
+      14.5: [9.92,  0.754, -0.088, 0.343],
+      15.0: [10.36, 0.776, -0.067, 0.347],
+      15.5: [9.85,  0.803, -0.046, 0.353],
+      16.0: [8.40,  0.833, -0.026, 0.360],
+      16.5: [6.13,  0.865, -0.009, 0.368],
+      17.0: [3.28,  0.896, 0.005,  0.375],
+      17.5: [0.10,  0.925, 0.015,  0.381]
+    }
+  };
+
+  const state = {
+    method: 'simple',
+    gender: 'male',
+    father: '182',
+    mother: '168',
+    childAge: '10',
+    childHeight: '140',
+    childWeight: '35'
+  };
+
+  function updateMethodUI() {
+    card.querySelectorAll('.js-tall-method-card').forEach(btn => {
+      const isSelected = btn.dataset.method === state.method;
+      const badge = btn.querySelector('span:last-child');
+
+      if (isSelected) {
+        btn.style.background = '#ffffff';
+        btn.style.borderColor = '#2563eb';
+        btn.style.boxShadow = '0 4px 12px rgba(37, 99, 235, 0.1)';
+        if (badge) badge.style.display = 'inline-block';
+      } else {
+        btn.style.background = '#f8fafc';
+        btn.style.borderColor = '#e2e8f0';
+        btn.style.boxShadow = 'none';
+        if (badge) badge.style.display = 'none';
+      }
+    });
+
+    const preciseBox = card.querySelector('.js-tall-precise-inputs');
+    if (preciseBox) {
+      preciseBox.style.display = state.method === 'precise' ? 'block' : 'none';
+    }
+  }
+
+  function updateGenderUI() {
+    card.querySelectorAll('.js-tall-gender-lbl').forEach(lbl => {
+      if (lbl.dataset.value === state.gender) {
+        lbl.style.background = '#2563eb';
+        lbl.style.color = '#ffffff';
+        lbl.style.boxShadow = '0 2px 4px rgba(37, 99, 235, 0.2)';
+      } else {
+        lbl.style.background = 'transparent';
+        lbl.style.color = '#475569';
+        lbl.style.boxShadow = 'none';
+      }
+    });
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch(e) {}
+  }
+
+  function loadState() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        Object.assign(state, JSON.parse(saved));
+      }
+    } catch(e) {}
+  }
+
+  function syncDOM() {
+    updateMethodUI();
+    updateGenderUI();
+
+    card.querySelectorAll('.js-tall-input').forEach(inp => {
+      const f = inp.dataset.field;
+      if (state[f] !== undefined) inp.value = state[f];
+    });
+
+    const gRadio = card.querySelector(`.js-tall-gender-radio[value="${state.gender}"]`);
+    if (gRadio) gRadio.checked = true;
+  }
+
+  function calculate() {
+    saveState();
+
+    const fH = parseFloat(state.father) || 0;
+    const mH = parseFloat(state.mother) || 0;
+    const isMale = state.gender === 'male';
+
+    const resFinalEl = card.querySelector('.js-tall-res-final');
+    const resMethodEl = card.querySelector('.js-tall-res-method-tag');
+    const resSdEl = card.querySelector('.js-tall-res-sd');
+
+    const resMidparentEl = card.querySelector('.js-tall-res-midparent');
+    const resBox2LabelEl = card.querySelector('.js-tall-res-box2-label');
+    const resBox2ValEl = card.querySelector('.js-tall-res-box2-val');
+    const resBox2UnitEl = card.querySelector('.js-tall-res-box2-unit');
+
+    if (fH <= 0 || mH <= 0) {
+      if (resFinalEl) resFinalEl.textContent = '0.0';
+      return;
+    }
+
+    const midParent = (fH + mH) / 2;
+    if (resMidparentEl) resMidparentEl.textContent = midParent.toFixed(1);
+
+    if (state.method === 'simple') {
+      // TANNER MÅLHØJDE FORMEL
+      const targetHeight = isMale ? (fH + mH + 13) / 2 : (fH + mH - 13) / 2;
+
+      if (resFinalEl) resFinalEl.textContent = targetHeight.toFixed(1);
+      if (resMethodEl) resMethodEl.textContent = 'Målhøjde Formel (Tanner)';
+      if (resSdEl) resSdEl.textContent = 'Forventet usikkerhed: ±6.5 cm';
+
+      if (resBox2LabelEl) resBox2LabelEl.textContent = 'Kønsjusteret Mål';
+      if (resBox2ValEl) resBox2ValEl.textContent = targetHeight.toFixed(1);
+      if (resBox2UnitEl) resBox2UnitEl.textContent = 'cm';
+
+    } else {
+      // KHAMIS-ROCHE METODE
+      const cAge = parseFloat(state.childAge) || 10;
+      const cH = parseFloat(state.childHeight) || 0;
+      const cW = parseFloat(state.childWeight) || 0;
+
+      if (cH <= 0 || cW <= 0) {
+        if (resFinalEl) resFinalEl.textContent = '--';
+        return;
+      }
+
+      // Find nærmeste alders-nøgle i tabellen
+      const ageKeys = Object.keys(KHAMIS_TABLE[state.gender]).map(Number).sort((a,b) => a - b);
+      let closestAge = ageKeys[0];
+      let minDiff = Math.abs(cAge - closestAge);
+
+      for (let i = 1; i < ageKeys.length; i++) {
+        const diff = Math.abs(cAge - ageKeys[i]);
+        if (diff < minDiff) {
+          minDiff = diff;
+          closestAge = ageKeys[i];
+        }
+      }
+
+      const coeffs = KHAMIS_TABLE[state.gender][closestAge];
+      const b0 = coeffs[0];
+      const b1 = coeffs[1];
+      const b2 = coeffs[2];
+      const b3 = coeffs[3];
+
+      // Khamis-Roche Formel (Tommer omregnes automatisk i koefficienterne ved cm/kg)
+      // Formlen tager cm, kg og midparent (cm)
+      const khamisHeight = b0 + (b1 * cH) + (b2 * cW) + (b3 * midParent);
+
+      if (resFinalEl) resFinalEl.textContent = khamisHeight.toFixed(1);
+      if (resMethodEl) resMethodEl.textContent = `Khamis-Roche (Alder: ${closestAge} år)`;
+      if (resSdEl) resSdEl.textContent = isMale ? 'Forventet usikkerhed: ±2.1 cm' : 'Forventet usikkerhed: ±1.7 cm';
+
+      const remainingGrowth = Math.max(0, khamisHeight - cH);
+      if (resBox2LabelEl) resBox2LabelEl.textContent = 'Resterende Vækst';
+      if (resBox2ValEl) resBox2ValEl.textContent = `+${remainingGrowth.toFixed(1)}`;
+      if (resBox2UnitEl) resBox2UnitEl.textContent = 'cm tilbage';
+    }
+  }
+
+  // --- LISTENERS ---
+  card.querySelectorAll('.js-tall-method-card').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.method = btn.dataset.method;
+      updateMethodUI();
+      calculate();
+    });
+  });
+
+  card.querySelectorAll('.js-tall-gender-radio').forEach(radio => {
+    radio.addEventListener('change', (e) => {
+      state.gender = e.target.value;
+      updateGenderUI();
+      calculate();
+    });
+  });
+
+  card.querySelectorAll('.js-tall-input').forEach(inp => {
+    inp.addEventListener('input', (e) => {
+      state[e.target.dataset.field] = e.target.value;
+      calculate();
+    });
+  });
+
+  const resetBtn = card.querySelector('.js-reset-btn');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      if (confirm('Vil du nulstille beregneren?')) {
+        localStorage.removeItem(STORAGE_KEY);
+        state.method = 'simple';
+        state.gender = 'male';
+        state.father = '182';
+        state.mother = '168';
+        state.childAge = '10';
+        state.childHeight = '140';
+        state.childWeight = '35';
+
+        syncDOM();
+        calculate();
+      }
+    });
+  }
+
+  // INIT
+  loadState();
+  syncDOM();
+  calculate();
+})();
+</script>

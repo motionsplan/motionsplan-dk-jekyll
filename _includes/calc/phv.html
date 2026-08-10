@@ -1,0 +1,201 @@
+{% assign calc_title = include.title | default: "🏃 Vækstspurt & PHV Beregner (Mirwald Metoden)" %}
+{% assign data_id = include.calc_id | default: "phv-calculator" %}
+
+<div class="mp-calc-card vbt-premium-card" id="mp-phv-calculator-card" data-calculator="{{ data_id }}">
+  
+  <!-- HEADER -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0; font-size: 1.35rem; font-weight: 800; color: #0f172a;">{{ calc_title }}</h3>
+      <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: #64748b;">Beregn hvornår barnet rammer sin maksimale vækstspurt (Peak Height Velocity)</p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 38px; height: 38px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-phv-container">
+    
+    <!-- KØNSVÆLGER -->
+    <div class="mp-form-group mp-full-width" style="margin-bottom: 1.25rem;">
+      <label class="vbt-premium-label" style="font-size: 0.8rem; font-weight: 700; color: #475569; display: block; margin-bottom: 6px;">👫 Barnets biologiske køn</label>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; background: #f1f5f9; padding: 4px; border-radius: 12px; border: 1px solid #e2e8f0;">
+        <input type="radio" id="mp-phv-male" name="mp-phv-gender" value="male" class="js-phv-gender-radio" checked style="display:none;">
+        <label for="mp-phv-male" class="js-phv-gender-lbl" data-value="male" style="padding: 10px; text-align: center; border-radius: 10px; cursor: pointer; font-weight: 800; font-size: 0.9rem; color: #ffffff; background: #2563eb; box-shadow: 0 2px 4px rgba(37,99,235,0.2); transition: all 0.15s ease;">
+          👨 Dreng
+        </label>
+        
+        <input type="radio" id="mp-phv-female" name="mp-phv-gender" value="female" class="js-phv-gender-radio" style="display:none;">
+        <label for="mp-phv-female" class="js-phv-gender-lbl" data-value="female" style="padding: 10px; text-align: center; border-radius: 10px; cursor: pointer; font-weight: 800; font-size: 0.9rem; color: #475569; transition: all 0.15s ease;">
+          👩 Pige
+        </label>
+      </div>
+    </div>
+
+    <!-- MÅLINGER -->
+    <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 14px; padding: 14px; margin-bottom: 1.25rem;">
+      <span style="font-size: 0.85rem; font-weight: 800; color: #1e3a8a; display: block; margin-bottom: 10px;">📐 Nødvendige Kropsmål for Mirwald-metoden</span>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+        <div>
+          <label for="mp-phv-age" style="font-size: 0.78rem; font-weight: 700; color: #1e40af; display: block; margin-bottom: 4px;">🎂 Alder (år)</label>
+          <input type="number" step="0.1" id="mp-phv-age" class="js-phv-input" data-field="age" placeholder="f.eks. 12.0" value="12" style="width:100%; padding: 9px; border: 1px solid #93c5fd; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box; background: #ffffff;">
+        </div>
+        <div>
+          <label for="mp-phv-height" style="font-size: 0.78rem; font-weight: 700; color: #1e40af; display: block; margin-bottom: 4px;">📏 Højde (cm)</label>
+          <input type="number" step="0.5" id="mp-phv-height" class="js-phv-input" data-field="height" placeholder="f.eks. 150" value="150" style="width:100%; padding: 9px; border: 1px solid #93c5fd; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box; background: #ffffff;">
+        </div>
+        <div>
+          <label for="mp-phv-sitting" style="font-size: 0.78rem; font-weight: 800; color: #b45309; display: block; margin-bottom: 4px;">🪑 Siddehøjde (cm)</label>
+          <input type="number" step="0.5" id="mp-phv-sitting" class="js-phv-input" data-field="sittingHeight" placeholder="f.eks. 78" value="78" style="width:100%; padding: 9px; border: 1.5px solid #f59e0b; border-radius: 8px; font-weight: 800; text-align: center; box-sizing: border-box; background: #fffbeb;">
+        </div>
+        <div>
+          <label for="mp-phv-weight" style="font-size: 0.78rem; font-weight: 700; color: #1e40af; display: block; margin-bottom: 4px;">⚖️ Vægt (kg)</label>
+          <input type="number" step="0.5" id="mp-phv-weight" class="js-phv-input" data-field="weight" placeholder="f.eks. 42" value="42" style="width:100%; padding: 9px; border: 1px solid #93c5fd; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box; background: #ffffff;">
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTAT-KORT -->
+    <div class="mp-results-container" style="margin-bottom: 1.25rem;">
+      <div style="display: grid; grid-template-columns: 1.3fr 1fr; gap: 12px;">
+        
+        <!-- HERO RESULTAT -->
+        <div style="background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); border-radius: 20px; padding: 20px; color: #ffffff; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 8px 20px rgba(37,99,235,0.18);">
+          <span style="font-size: 0.72rem; font-weight: 800; letter-spacing: 0.8px; opacity: 0.9; text-transform: uppercase;">ALDER VED TOP-VÆKSTSPURT (PHV)</span>
+          <div style="display: flex; align-items: baseline; justify-content: center; margin: 6px 0;">
+            <span class="js-phv-res-age" style="font-size: 3.5rem; font-weight: 900; line-height: 1;">13.4</span>
+            <span style="font-size: 1.5rem; font-weight: 800; opacity: 0.9; margin-left: 3px;">år</span>
+          </div>
+          <span class="js-phv-res-status-badge" style="font-size: 0.78rem; font-weight: 800; background: rgba(255,255,255,0.18); padding: 4px 12px; border-radius: 12px; backdrop-filter: blur(4px);">
+            Før Vækstspurt (Før-PHV)
+          </span>
+          <span class="js-phv-res-subtext" style="font-size: 0.7rem; opacity: 0.85; margin-top: 6px; font-weight: 600;">
+            Forventes om ca. 1.4 år
+          </span>
+        </div>
+
+        <!-- SEKUNDÆRE BOKSE -->
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 12px 14px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+            <span style="font-size: 0.72rem; font-weight: 700; color: #64748b;">Maturity Offset</span>
+            <span style="font-size: 1.25rem; font-weight: 900; color: #0f172a;"><span class="js-phv-res-offset">-1.4</span> <small style="font-size: 0.82rem; color: #64748b;">år fra PHV</small></span>
+          </div>
+
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 12px 14px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+            <span style="font-size: 0.72rem; font-weight: 700; color: #64748b;">Beregnet Benlængde</span>
+            <span style="font-size: 1.25rem; font-weight: 900; color: #0f172a;"><span class="js-phv-res-leg">72.0</span> <small style="font-size: 0.82rem; color: #64748b;">cm</small></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div id="sf-actions" class="mp-action-group" style="display: flex; gap: 10px; margin-top: 1rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn" style="flex: 1; background: #2563eb; color: #fff; border: none; padding: 12px; border-radius: 12px; font-weight: 700; cursor: pointer;">
+        📸 Tag et billede / Gem PHV Profil
+      </button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd indtastninger" style="background: #f1f5f9; border: 1px solid #cbd5e1; padding: 0 16px; border-radius: 12px; cursor: pointer; font-size: 1.1rem;">
+        🗑️
+      </button>
+    </div>
+
+    <div style="text-align: center; margin-top: 1rem; font-size: 0.75rem; color: #94a3b8; font-weight: 600;">
+      &copy; motionsplan.dk
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  const card = document.getElementById('mp-phv-calculator-card');
+  if (!card) return;
+
+  const STORAGE_KEY = 'mp_phv_calculator_state';
+  const state = { gender: 'male', age: '12', height: '150', sittingHeight: '78', weight: '42' };
+
+  function updateGenderUI() {
+    card.querySelectorAll('.js-phv-gender-lbl').forEach(lbl => {
+      if (lbl.dataset.value === state.gender) {
+        lbl.style.background = '#2563eb'; lbl.style.color = '#ffffff'; lbl.style.boxShadow = '0 2px 4px rgba(37, 99, 235, 0.2)';
+      } else {
+        lbl.style.background = 'transparent'; lbl.style.color = '#475569'; lbl.style.boxShadow = 'none';
+      }
+    });
+  }
+
+  function saveState() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e) {} }
+  function loadState() { try { const saved = localStorage.getItem(STORAGE_KEY); if (saved) Object.assign(state, JSON.parse(saved)); } catch(e) {} }
+
+  function syncDOM() {
+    updateGenderUI();
+    card.querySelectorAll('.js-phv-input').forEach(inp => { const f = inp.dataset.field; if (state[f] !== undefined) inp.value = state[f]; });
+    const gRadio = card.querySelector(`.js-phv-gender-radio[value="${state.gender}"]`);
+    if (gRadio) gRadio.checked = true;
+  }
+
+  function calculate() {
+    saveState();
+    const isMale = state.gender === 'male';
+    const cAge = parseFloat(state.age) || 0;
+    const cH = parseFloat(state.height) || 0;
+    const sH = parseFloat(state.sittingHeight) || 0;
+    const cW = parseFloat(state.weight) || 0;
+
+    const resAgeEl = card.querySelector('.js-phv-res-age');
+    const resBadgeEl = card.querySelector('.js-phv-res-status-badge');
+    const resSubtextEl = card.querySelector('.js-phv-res-subtext');
+    const resOffsetEl = card.querySelector('.js-phv-res-offset');
+    const resLegEl = card.querySelector('.js-phv-res-leg');
+
+    if (cAge <= 0 || cH <= 0 || sH <= 0 || cW <= 0 || sH >= cH) {
+      if (resAgeEl) resAgeEl.textContent = '--';
+      return;
+    }
+
+    const legLength = cH - sH;
+    const ratio = (cW / cH) * 100;
+
+    // MIRWALD ET AL. (2002) FORMEL
+    let offset = 0;
+    if (isMale) {
+      offset = -9.236 + (0.0002708 * legLength * sH) - (0.001663 * cAge * legLength) + (0.0007216 * cAge * sH) + (0.02292 * ratio);
+    } else {
+      offset = -9.376 + (0.0001882 * legLength * sH) + (0.0022 * cAge * legLength) + (0.005841 * cAge * sH) - (0.0002658 * cAge * cW) + (0.009744 * ratio);
+    }
+
+    const ageAtPHV = cAge - offset;
+
+    if (resAgeEl) resAgeEl.textContent = ageAtPHV.toFixed(1);
+    if (resLegEl) resLegEl.textContent = legLength.toFixed(1);
+    if (resOffsetEl) resOffsetEl.textContent = offset > 0 ? `+${offset.toFixed(1)}` : offset.toFixed(1);
+
+    if (offset < -0.5) {
+      if (resBadgeEl) resBadgeEl.textContent = 'Før Vækstspurt (Før-PHV)';
+      if (resSubtextEl) resSubtextEl.textContent = `Forventes om ca. ${Math.abs(offset).toFixed(1)} år`;
+    } else if (offset >= -0.5 && offset <= 0.5) {
+      if (resBadgeEl) resBadgeEl.textContent = '🔥 I Maksimal Vækstspurt (PHV)';
+      if (resSubtextEl) resSubtextEl.textContent = 'Pas på overbelastning i sener og knogler!';
+    } else {
+      if (resBadgeEl) resBadgeEl.textContent = 'Efter Vækstspurt (Efter-PHV)';
+      if (resSubtextEl) resSubtextEl.textContent = `Vækstspurt toppede for ${Math.abs(offset).toFixed(1)} år siden`;
+    }
+  }
+
+  card.querySelectorAll('.js-phv-gender-radio').forEach(radio => { radio.addEventListener('change', (e) => { state.gender = e.target.value; updateGenderUI(); calculate(); }); });
+  card.querySelectorAll('.js-phv-input').forEach(inp => { inp.addEventListener('input', (e) => { state[e.target.dataset.field] = e.target.value; calculate(); }); });
+
+  const resetBtn = card.querySelector('.js-reset-btn');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      if (confirm('Vil du nulstille PHV-beregneren?')) {
+        localStorage.removeItem(STORAGE_KEY);
+        state.gender = 'male'; state.age = '12'; state.height = '150'; state.sittingHeight = '78'; state.weight = '42';
+        syncDOM(); calculate();
+      }
+    });
+  }
+
+  loadState(); syncDOM(); calculate();
+})();
+</script>
