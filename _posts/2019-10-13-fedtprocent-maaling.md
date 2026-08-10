@@ -18,10 +18,27 @@ tags:
 last_modified_at: '2026-07-01T22:14:14Z'
 toc: 'true'
 faq:
-- question: Hvordan finder jeg min fedtprocent?
-  answer: Der er mange måder at finde din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent.
-    Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere
-    og hydrostatisk vejning.
+  - question: "Hvordan finder jeg min fedtprocent?"
+    answer: "Der er mange måder at finde din fedtprocent på. I vores guide gennemgår vi 7 forskellige metoder – alt fra simple udregninger og målebånd til hudfoldsmålinger med fedttang samt avancerede apparater som bioimpedans, DEXA-scannere og hydrostatisk vejning."
+  - question: "Hvilken metode til måling af fedtprocent er mest præcis?"
+    answer: "DEXA-scanning og hydrostatisk vejning (vandvejning) regnes som guldstandarderne for præcision. Til praktisk brug derhjemme eller i fitnesscenteret er en fedttang eller et målebånd dog fuldt tilstrækkeligt til at spore din relative udvikling over tid."
+  - question: "Hvor ofte bør man måle sin fedtprocent?"
+    answer: "Det anbefales at måle din fedtprocent med 4 til 8 ugers mellemrum. Da reelt fedttab eller muskelvækst tager tid, vil hyppigere målinger mest afspejle naturlige dag-til-dag svingninger i din væskebalance."
+  - question: "Hvornår på dagen er det bedst at måle sin fedtprocent?"
+    answer: "Det er bedst at foretage målingen om morgenen, fastende og efter toiletbesøg. Det giver de mest reproducerbare og ensartede betingelser, da måltider, væskeindtag og træning påvirker både bioimpedans og kropsomkredse."
+  - question: "Hvorfor viser min badevægt og min fedttang forskellige tal?"
+    answer: "De benytter helt forskellige fysiologiske principper. Bioimpedansvægten måler ledningsevne og modstand gennem kroppens væske, mens fedttangen måler tykkelsen af underhudsfedt. Du bør derfor aldrig sammenligne tal på tværs af forskellige målemetoder, men kun følge udviklingen inden for samme metode."
+  - question: "Hvad er fejlmargenen ved måling af fedtprocent?"
+    answer: "Praktiske målemetoder til hjemmebrug og fitnesscentre har typisk en usikkerhed og fejlmargen på omkring ±3–5 procentpoint. Målingernes primære værdi er derfor at vise den overordnede tendens i din fremgang frem for et 100% eksakt enkelttal."
+tools:
+  - id: "tool-ultimativt-fedtprocent-dashboard"
+    title: "Ultimativt Fedtprocent Dashboard"
+    description: "Interaktivt fedtprocent-dashboard til samlet beregning og estimering af fedtprocent, fedtmasse (kg) og fedtfri masse (FFM) ud fra kropsmål, målebånd og antropometri."
+    category: ["Fedtprocent", "Beregnere", "Tests"]
+    type: ["Beregner", "Dashboard"]
+    measures: ["Estimeret fedtprocent", "Fedtfri masse (FFM)", "Fedtmasse (kg)", "Kropssammensætning"]  # 🎯 KUN rene fysiologiske slutmål
+    anchor: "#dashboard"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Vil du gerne måle din fedtprocent? Der findes flere metoder til at måle fedtprocent, men ingen af dem er 100% præcise. Hver metode har sine fordele, ulemper og en vis grad af unøjagtighed.

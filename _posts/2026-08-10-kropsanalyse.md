@@ -14,6 +14,15 @@ faq:
     answer: Ja, til planlægning af kost, energibehov og træning giver formler som Mifflin-St Jeor (BMR) og Deurenberg (fedtprocent) et rigtig godt udgangspunkt for langt de fleste voksne.
   - question: Kan atleter og styrkeløftere stole på tallene?  
     answer: Personer med ekstremt meget muskelmasse (fx bodybuildere) vil ofte opleve, at antropometriske formler overvurderer deres fedtprocent, fordi muskelmasse øger BMI og omkredse på samme måde som fedt. I de tilfælde anbefales hudfoldstests med fedttang eller en DEXA-scanning.
+tools:
+  - id: "tool-kropsanalyse-dashboard"
+    title: "Fysiologisk Kropsanalyse Dashboard"
+    description: "Interaktivt kropsanalyse dashboard til samlet beregning og estimering af kropssammensætning, kropsform, risikomarkører (WHtR, ABSI), energiforbrug (BMR) og fysiologiske profiltal."
+    category: ["Kropskomposition", "Beregnere", "Fysiologi"]
+    type: ["Beregner", "Dashboard"]
+    measures: ["Estimeret fedtprocent", "Estimeret muskelmasse", "BMI", "Ponderal Index", "Talje-Højde Ratio (WHtR)", "A Body Shape Index (ABSI)", "Basalstofskifte (BMR)", "Estimeret kondital (VO2max)", "Blodvolumen", "Lungekapacitet (FVC)", "Kroppens overfladeareal (BSA)"]  # 🎯 KUN rene fysiologiske slutmål
+    anchor: "#fysiologisk-kropsanalyse-dashboard"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 De fleste vurderer deres krop ud fra kropsvægt alene. Badevægten fortæller dig dog intet om, hvordan vægten er fordelt på muskler, fedtmasse, væske og organer.

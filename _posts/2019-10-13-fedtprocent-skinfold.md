@@ -16,6 +16,32 @@ meta:
   measures: fedtprocent
   equipment: hudfoldsmåler
   type: kropskomposition
+tests:
+  - id: "test-hudfoldsmaaling-fedttang"
+    title: "Hudfoldsmåling med Fedttang (Skinfold Caliper Test)"
+    description: "Standardiseret fysiologisk og antropometrisk felt-test (måling af underhudsfedtfolder med kaliper/fedttang) til estimering af kropstæthed, fedtprocent og sporing af kropskomposition over tid."
+    category: ["Fedtprocent", "Tests", "Kropskomposition"]
+    type: ["Protokol", "Antropometrisk test", "Kropskompositionstest"]
+    execution: ["Fysisk"]                  # 📏 FYSISK TEST: Kræver fysisk udmåling af hudfolder med fedttang
+    method: "indirekte"                     # 📊 Indirekte måling af samlet fedtprocent ud fra underhudsfedt
+    modality: ["Antropometri", "Hudfoldsmåling"]
+    measures: ["Estimeret fedtprocent", "Underhudsfedttykkelse (mm)", "Fedtfri masse (FFM)", "Kropstæthed"]  # 🎯 KUN rene fysiologiske slutmål
+    equipment: ["Hudfoldsmåler / Fedttang (Skinfold Caliper)", "Målebånd"]
+    setting: ["Klinik", "Testcenter", "Træningscenter", "Fysioterapi", "Individuel"]
+    target_group: ["Atleter", "Motionister", "Voksne", "Børn og unge", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-skinfold-dashboard"
+
+# INTERAKTIVE SOFTWARE-VÆRKTØJER
+tools:
+  - id: "tool-skinfold-dashboard"
+    title: "Hudfoldstest & Fedtprocent Dashboard"
+    description: "Interaktiv beregner og formelvælger til beregning af kropstæthed, fedtprocent og fedtfri masse ud fra hudfoldsmålinger (Durnin & Womersley, Jackson & Pollock, Peterson, Slaughter m.fl.)."
+    category: ["Fedtprocent", "Beregnere", "Tests"]
+    type: ["Beregner", "Dashboard"]
+    measures: ["Estimeret fedtprocent", "Fedtfri masse (FFM)", "Kropstæthed", "Fedtmasse (kg)"]  # 🎯 KUN rene slutmål
+    anchor: "#dashboard"
+    category_schema: "HealthAndFitnessApplication"
 breadcrumbs: true
 tags:
   - måling

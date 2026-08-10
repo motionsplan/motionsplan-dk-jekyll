@@ -23,6 +23,15 @@ tags:
 last_modified_at: 2025-03-06T23:14:14Z
 toc: true
 classes: wide
+tools:
+  - id: "tool-kropskomposition-model"
+    title: "Interaktiv Kropskomposition Model"
+    description: "Interaktiv model til visualisering og forståelse af kroppens opdeling i fedtmasse, fedtfri masse (FFM), væske, proteiner og mineraler ud fra 2C, 3C og 4C kompartment-modellerne."
+    category: ["Kost & Ernæring", "Fedtprocent", "Beregnere"]
+    type: ["Model", "Beregner"]
+    measures: ["Kropskomposition (2C/3C/4C)", "Fedtmasse", "Fedtfri masse (FFM)"]  # 🎯 KUN rene fysiologiske slutmål
+    anchor: "#interaktiv-model-for-kropskomposition"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Måling af kropskomposition, fedtprocent og muskelmasse virker i samfundet til at være vigtigt for både atleter og almindelige mennesker. Vi oplever stor interesse for at få målt fedtprocent og muskelmasse både af folk, der gerne vil tabe sig og tage på i vægt.
