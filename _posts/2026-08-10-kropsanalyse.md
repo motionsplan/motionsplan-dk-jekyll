@@ -79,6 +79,18 @@ Formlers største styrke er **konsistens over tid**. Selvom et simpelt målebån
 
 ---
 
+## 🏥 Kropsanalyse med InBody vs. Online formler
+
+Når man taler om kropsanalyse i fitnesscentre og hos diætister, henvises der ofte til bioimpedansscannere som **InBody 570** eller **Tanita**. 
+
+* **InBody & Bioimpedans (BIA):** Sender svag vekselstrøm gennem kroppen for at måle den elektriske modstand i vævet. Det giver en hurtig og detaljeret opdeling af muskelmasse og væskebalance, men kræver streng faste og faste testbetingelser for ikke at slå ud på væskeforskydninger.
+* **Vores online kropsanalyseberegner:** Benytter statistiske populationstætheder baseret på dine kropsmål, højde og vægt. Det er 100% gratis at få nogle estimater på, hvordan din krop er sat sammen.
+
+👉 **Har du fået lavet en InBody-måling?**  
+Læs vores komplette [Guide til InBody 570 – Tolkning af resultatark og præcision](/artikel/inbody-570-bioimpedans/).
+
+---
+
 ## Ofte stillede spørgsmål om kropsanalyse
 
 {% include motionsplan/faq.html %}

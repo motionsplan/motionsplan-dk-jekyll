@@ -152,6 +152,10 @@ Du skal ikke gå på [slankekur](/slankekur/) på baggrund af tallene fra en til
 
 Måske rammer du allerede din [idealvægt](/idealvaegt/), hvor din krop har det godt, du føler overskud, er stærk og hurtig.
 
+> 💡 **Vil du spore dine kropsmål derhjemme mellem InBody-scanninger?**  
+> Prøv vores gratis [Online kropsanalyse dashboard](/kropsanalyse/), hvor du kan indtaste dine mål, beregne fedtfri masse og mange andre kropsmål.
+{: .notice--info }
+
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
