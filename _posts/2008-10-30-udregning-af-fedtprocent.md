@@ -78,6 +78,10 @@ Der findes også mere avancerede teknikker som skinfoldmålinger, bioimpedans og
 - 📌 [Bestem din kropskomposition](/kropskomposition/)
 - 📌 [Flere metoder til måling af fedtprocent](/maal-fedtprocent/)
 
+{: .notice--info }
+> 📏 **Har du et målebånd ved hånden?**  
+> Formlerne på denne side estimerer din fedtprocent ud fra din højde og vægt. Hvis du har et målebånd, kan du få et betydeligt mere præcist resultat med vores **[US Navy Fedtprocent Beregner](/fedtprocent-navy/)**.
+
 [<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 Men hvor vigtigt er det egentlig at kende din fedtprocent?

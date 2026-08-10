@@ -10,6 +10,7 @@ header:
 category:
   - Kropskomposition
   - Fedtprocent
+  - Hudfoldsmåling
 tags:
   - fedtprocent
   - kropskomposition

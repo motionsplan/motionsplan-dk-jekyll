@@ -1,0 +1,804 @@
+<div class="mcardle-calc-card" id="mcardle-calculator">
+  
+  <!-- HEADER -->
+  <div class="mcardle-calc-header">
+    <div class="mcardle-calc-title-group">
+      <span class="mcardle-calc-icon">📐</span>
+      <div>
+        <h3 class="mcardle-calc-title">McArdle & Katch Beregner</h3>
+        <p class="mcardle-calc-subtitle">Alders- og kønsspecifik omkredsmåling med målebånd</p>
+      </div>
+    </div>
+    <div class="mcardle-calc-avatar">🦵</div>
+  </div>
+
+  <!-- KØNSVÆLGER (TOGGLE) -->
+  <div class="mcardle-calc-section">
+    <label class="mcardle-input-label">Køn</label>
+    <div class="mcardle-gender-toggle">
+      <button type="button" class="mcardle-gender-btn active" data-gender="male" id="mcardle-btn-male">
+        <span>👨 Male / Mand</span>
+      </button>
+      <button type="button" class="mcardle-gender-btn" data-gender="female" id="mcardle-btn-female">
+        <span>👩 Female / Kvinde</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- BASIS DATA (ALDER, HØJDE & VÆGT) -->
+  <div class="mcardle-input-grid-top">
+    <div class="mcardle-input-group">
+      <label for="mcardle-age">🎂 Alder <span class="mcardle-unit">(år)</span></label>
+      <input type="number" id="mcardle-age" placeholder="f.eks. 25" value="25" min="10" max="100">
+    </div>
+    <div class="mcardle-input-group">
+      <label for="mcardle-height">📏 Højde <span class="mcardle-unit">(cm)</span></label>
+      <input type="number" id="mcardle-height" placeholder="f.eks. 180" value="180" min="100" max="250" step="0.5">
+    </div>
+    <div class="mcardle-input-group">
+      <label for="mcardle-weight">⚖️ Vægt <span class="mcardle-unit">(kg)</span></label>
+      <input type="number" id="mcardle-weight" placeholder="f.eks. 80" value="80" min="30" max="250" step="0.1">
+    </div>
+  </div>
+
+  <!-- SIDE-BY-SIDE SEKTION: VENSTRE = MAKSIMAL FIGUR, HØJRE = MÅLINGER -->
+  <div class="mcardle-main-section">
+    
+    <!-- VENSTRE SIDE: BILLEDE MED BADGE OVERLAY -->
+    <div class="mcardle-left-col">
+      <div class="mcardle-diagram-wrapper">
+        <img id="mcardle-diagram-img" src="/assets/images/tools/mcardle-male-younger.jpg" alt="McArdle Målesteder Illustration">
+      </div>
+      <div class="mcardle-category-banner">
+        <span class="mcardle-badge" id="mcardle-cat-badge">Mand (< 27 år)</span>
+      </div>
+    </div>
+
+    <!-- HØJRE SIDE: DE 3 DYNAMISKE MÅLE-INPUTS -->
+    <div class="mcardle-right-col">
+      <label class="mcardle-input-label">🎯 Indtast 3 omkredse (cm)</label>
+      
+      <div class="mcardle-measurements-stack">
+        
+        <!-- MÅLING 1 -->
+        <div class="mcardle-measure-card">
+          <div class="mcardle-measure-text">
+            <span class="mcardle-measure-name" id="mcardle-label-1">Overarm</span>
+            <span class="mcardle-measure-sub" id="mcardle-sub-1">(Upper arm)</span>
+          </div>
+          <div class="mcardle-input-wrap">
+            <input type="number" id="mcardle-input-1" value="32" step="0.5" min="10" max="150">
+            <span class="mcardle-unit-tag">cm</span>
+          </div>
+        </div>
+
+        <!-- MÅLING 2 -->
+        <div class="mcardle-measure-card">
+          <div class="mcardle-measure-text">
+            <span class="mcardle-measure-name" id="mcardle-label-2">Underarm</span>
+            <span class="mcardle-measure-sub" id="mcardle-sub-2">(Forearm)</span>
+          </div>
+          <div class="mcardle-input-wrap">
+            <input type="number" id="mcardle-input-2" value="28" step="0.5" min="10" max="150">
+            <span class="mcardle-unit-tag">cm</span>
+          </div>
+        </div>
+
+        <!-- MÅLING 3 -->
+        <div class="mcardle-measure-card">
+          <div class="mcardle-measure-text">
+            <span class="mcardle-measure-name" id="mcardle-label-3">Talje</span>
+            <span class="mcardle-measure-sub" id="mcardle-sub-3">(Waist)</span>
+          </div>
+          <div class="mcardle-input-wrap">
+            <input type="number" id="mcardle-input-3" value="82" step="0.5" min="20" max="200">
+            <span class="mcardle-unit-tag">cm</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RESULTAT SEKTION -->
+  <div class="mcardle-results-container">
+    <div class="mcardle-result-main">
+      <span class="mcardle-res-label">ESTIMERET FEDTPROCENT</span>
+      <div class="mcardle-res-number-wrap">
+        <span class="mcardle-res-big" id="mcardle-res-fatpct">0.0</span>
+        <span class="mcardle-res-percent">%</span>
+      </div>
+      <span class="mcardle-res-method">McArdle & Katch Formlen (SD: ±3.5%)</span>
+    </div>
+
+    <div class="mcardle-result-side">
+      <div class="mcardle-side-box">
+        <span class="mcardle-side-label">Fedtmasse</span>
+        <span class="mcardle-side-val" id="mcardle-res-fatmass">0.0 <small>kg</small></span>
+      </div>
+      <div class="mcardle-side-box">
+        <span class="mcardle-side-label">Fedtfri masse</span>
+        <span class="mcardle-side-val" id="mcardle-res-leanmass">0.0 <small>kg</small></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HANDLINGS-KNAPPER -->
+  <div class="mcardle-actions">
+    <button type="button" class="mcardle-btn-primary" id="mcardle-btn-capture">
+      📸 Tag billede / Gem
+    </button>
+    <button type="button" class="mcardle-btn-reset" id="mcardle-btn-reset" title="Nulstil felt">
+      🗑️
+    </button>
+  </div>
+
+  <!-- WATERMARK / BRANDING -->
+  <div class="mcardle-calc-footer">
+    © motionsplan.dk
+  </div>
+
+</div>
+
+<!-- CSS STYLES -->
+<style>
+  .mcardle-calc-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 24px;
+    max-width: 620px;
+    margin: 2rem auto;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+    font-family: inherit;
+    color: #1f2937;
+  }
+
+  .mcardle-calc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f3f4f6;
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+  }
+
+  .mcardle-calc-title-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .mcardle-calc-icon {
+    font-size: 1.8rem;
+  }
+
+  .mcardle-calc-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #111827;
+  }
+
+  .mcardle-calc-subtitle {
+    margin: 2px 0 0 0;
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+
+  .mcardle-calc-avatar {
+    font-size: 1.5rem;
+    background: #f3f4f6;
+    padding: 8px 12px;
+    border-radius: 50%;
+  }
+
+  .mcardle-calc-section {
+    margin-bottom: 16px;
+  }
+
+  .mcardle-input-label {
+    display: block;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 8px;
+  }
+
+  /* TOGGLE BUTTONS */
+  .mcardle-gender-toggle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    background: #f3f4f6;
+    padding: 4px;
+    border-radius: 12px;
+  }
+
+  .mcardle-gender-btn {
+    border: none;
+    background: transparent;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #4b5563;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .mcardle-gender-btn.active {
+    background: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+  }
+
+  /* TOP INPUT GRID */
+  .mcardle-input-grid-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .mcardle-input-group label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #4b5563;
+    margin-bottom: 4px;
+  }
+
+  .mcardle-unit {
+    font-weight: 400;
+    color: #9ca3af;
+  }
+
+  .mcardle-input-group input, 
+  .mcardle-input-wrap input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #111827;
+    outline: none;
+    transition: border-color 0.15s;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+
+  .mcardle-input-group input:focus, 
+  .mcardle-input-wrap input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+
+  /* SIDE-BY-SIDE SEKTION */
+  .mcardle-main-section {
+    display: grid;
+    grid-template-columns: 1.1fr 1.3fr;
+    gap: 16px;
+    align-items: stretch;
+    margin-bottom: 20px;
+  }
+
+  .mcardle-left-col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .mcardle-diagram-wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .mcardle-diagram-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(1.25);
+    transition: transform 0.2s ease;
+  }
+
+  .mcardle-category-banner {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: max-content;
+    margin: 0;
+  }
+
+  .mcardle-badge {
+    display: inline-block;
+    background: rgba(239, 246, 255, 0.95);
+    backdrop-filter: blur(4px);
+    color: #1d4ed8;
+    border: 1px solid #bfdbfe;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 800;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+
+  /* HØJRE STACK MEASUREMENTS */
+  .mcardle-right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mcardle-measurements-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mcardle-measure-card {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .mcardle-measure-text {
+    text-align: left;
+  }
+
+  .mcardle-measure-name {
+    display: block;
+    font-size: 0.88rem;
+    font-weight: 800;
+    color: #111827;
+  }
+
+  .mcardle-measure-sub {
+    display: block;
+    font-size: 0.72rem;
+    color: #6b7280;
+  }
+
+  .mcardle-input-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 105px;
+    flex-shrink: 0;
+  }
+
+  .mcardle-unit-tag {
+    position: absolute;
+    right: 10px;
+    font-size: 0.8rem;
+    color: #9ca3af;
+    pointer-events: none;
+    font-weight: 600;
+  }
+
+  /* RESULTAT SEKTION */
+  .mcardle-results-container {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 12px;
+    margin: 20px 0;
+  }
+
+  .mcardle-result-main {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border: 1px solid #bfdbfe;
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .mcardle-res-label {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #1e40af;
+  }
+
+  .mcardle-res-number-wrap {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+    margin: 2px 0;
+  }
+
+  .mcardle-res-big {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #1e3a8a;
+    line-height: 1;
+  }
+
+  .mcardle-res-percent {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #2563eb;
+  }
+
+  .mcardle-res-method {
+    font-size: 0.73rem;
+    color: #3b82f6;
+    font-weight: 600;
+  }
+
+  .mcardle-result-side {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .mcardle-side-box {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 10px 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mcardle-side-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #6b7280;
+  }
+
+  .mcardle-side-val {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #111827;
+  }
+
+  .mcardle-side-val small {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #6b7280;
+  }
+
+  /* ACTIONS */
+  .mcardle-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .mcardle-btn-primary {
+    flex: 1;
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+
+  .mcardle-btn-primary:hover {
+    background: #1d4ed8;
+  }
+
+  .mcardle-btn-reset {
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 0 16px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+
+  .mcardle-btn-reset:hover {
+    background: #e5e7eb;
+  }
+
+  .mcardle-calc-footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #9ca3af;
+    font-weight: 600;
+  }
+
+  /* RESPONSIVITET TIL MOBIL */
+  @media (max-width: 540px) {
+    .mcardle-main-section {
+      grid-template-columns: 1fr;
+    }
+    .mcardle-diagram-wrapper {
+      min-height: 200px;
+    }
+    .mcardle-results-container {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<!-- JAVASCRIPT LOGIK MED DEDIKERET TILSTAND PR. KROPSDEL -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const calc = document.getElementById("mcardle-calculator");
+    if (!calc) return;
+
+    // Elementer
+    const btnMale = calc.querySelector("#mcardle-btn-male");
+    const btnFemale = calc.querySelector("#mcardle-btn-female");
+    
+    const inputAge = calc.querySelector("#mcardle-age");
+    const inputHeight = calc.querySelector("#mcardle-height");
+    const inputWeight = calc.querySelector("#mcardle-weight");
+
+    const catBadge = calc.querySelector("#mcardle-cat-badge");
+    const diagramImg = calc.querySelector("#mcardle-diagram-img");
+
+    const label1 = calc.querySelector("#mcardle-label-1");
+    const sub1 = calc.querySelector("#mcardle-sub-1");
+    const input1 = calc.querySelector("#mcardle-input-1");
+
+    const label2 = calc.querySelector("#mcardle-label-2");
+    const sub2 = calc.querySelector("#mcardle-sub-2");
+    const input2 = calc.querySelector("#mcardle-input-2");
+
+    const label3 = calc.querySelector("#mcardle-label-3");
+    const sub3 = calc.querySelector("#mcardle-sub-3");
+    const input3 = calc.querySelector("#mcardle-input-3");
+
+    const resFatPct = calc.querySelector("#mcardle-res-fatpct");
+    const resFatMass = calc.querySelector("#mcardle-res-fatmass");
+    const resLeanMass = calc.querySelector("#mcardle-res-leanmass");
+
+    const btnReset = calc.querySelector("#mcardle-btn-reset");
+    const btnCapture = calc.querySelector("#mcardle-btn-capture");
+
+    let gender = "male";
+
+    // TILSTAND: GEMMER MÅLINGER PR. KROPSDEL I CM
+    const bodyPartValues = {
+      overarm: 32,
+      underarm: 28,
+      talje: 82,
+      hofte: 95,
+      laar: 55,
+      laeg: 38
+    };
+
+    // Billedstier til de 4 illustrationer
+    const diagramPaths = {
+      m_young: "/assets/images/tools/mcardle-male-younger.jpg",
+      m_old: "/assets/images/tools/mcardle-male-older.jpg",
+      f_young: "/assets/images/tools/mcardle-female-younger.jpg",
+      f_old: "/assets/images/tools/mcardle-female-older.jpg"
+    };
+
+    // DEFINITION AF KATEGORIER OG DERES 3 KROPSDELE
+    const categories = {
+      m_young: {
+        badge: "Mand (< 27 år)",
+        img: diagramPaths.m_young,
+        parts: [
+          { id: "overarm", label: "Overarm", sub: "(Upper arm)" },
+          { id: "underarm", label: "Underarm", sub: "(Forearm)" },
+          { id: "talje", label: "Talje", sub: "(Waist)" }
+        ]
+      },
+      m_old: {
+        badge: "Mand (27+ år)",
+        img: diagramPaths.m_old,
+        parts: [
+          { id: "underarm", label: "Underarm", sub: "(Forearm)" },
+          { id: "talje", label: "Talje", sub: "(Waist)" },
+          { id: "hofte", label: "Hofte", sub: "(Hips)" }
+        ]
+      },
+      f_young: {
+        badge: "Kvinde (< 27 år)",
+        img: diagramPaths.f_young,
+        parts: [
+          { id: "underarm", label: "Underarm", sub: "(Forearm)" },
+          { id: "talje", label: "Talje", sub: "(Waist)" },
+          { id: "laar", label: "Lår", sub: "(Thigh)" }
+        ]
+      },
+      f_old: {
+        badge: "Kvinde (27+ år)",
+        img: diagramPaths.f_old,
+        parts: [
+          { id: "talje", label: "Talje", sub: "(Waist)" },
+          { id: "laar", label: "Lår", sub: "(Thigh)" },
+          { id: "laeg", label: "Læg", sub: "(Calf)" }
+        ]
+      }
+    };
+
+    function getCurrentCategoryKey() {
+      const age = parseInt(inputAge.value) || 25;
+      const isYoung = age < 27;
+
+      if (gender === "male") {
+        return isYoung ? "m_young" : "m_old";
+      } else {
+        return isYoung ? "f_young" : "f_old";
+      }
+    }
+
+    function updateCategoryUI() {
+      const catKey = getCurrentCategoryKey();
+      const cat = categories[catKey];
+
+      catBadge.textContent = cat.badge;
+      diagramImg.src = cat.img;
+
+      // Sæt Felt 1
+      label1.textContent = cat.parts[0].label;
+      sub1.textContent = cat.parts[0].sub;
+      input1.dataset.part = cat.parts[0].id;
+      input1.value = bodyPartValues[cat.parts[0].id];
+
+      // Sæt Felt 2
+      label2.textContent = cat.parts[1].label;
+      sub2.textContent = cat.parts[1].sub;
+      input2.dataset.part = cat.parts[1].id;
+      input2.value = bodyPartValues[cat.parts[1].id];
+
+      // Sæt Felt 3
+      label3.textContent = cat.parts[2].label;
+      sub3.textContent = cat.parts[2].sub;
+      input3.dataset.part = cat.parts[2].id;
+      input3.value = bodyPartValues[cat.parts[2].id];
+
+      calculateMcArdle();
+    }
+
+    function handleInputRecord(inputEl) {
+      const partId = inputEl.dataset.part;
+      if (partId) {
+        bodyPartValues[partId] = parseFloat(inputEl.value) || 0;
+      }
+      calculateMcArdle();
+    }
+
+    function calculateMcArdle() {
+      const age = parseInt(inputAge.value) || 25;
+      const weight = parseFloat(inputWeight.value) || 0;
+      const catKey = getCurrentCategoryKey();
+
+      let density = 0;
+
+      if (catKey === "m_young") {
+        // Mand < 27: Overarm, Underarm, Talje
+        const m1 = bodyPartValues.overarm;
+        const m2 = bodyPartValues.underarm;
+        const m3 = bodyPartValues.talje;
+        if (!m1 || !m2 || !m3) return resetDisplay();
+        density = 1.1017 - (0.000282 * m3) + (0.000736 * m2) - (0.0003 * m1);
+
+      } else if (catKey === "m_old") {
+        // Mand 27+: Underarm, Talje, Hofte
+        const m1 = bodyPartValues.underarm;
+        const m2 = bodyPartValues.talje;
+        const m3 = bodyPartValues.hofte;
+        if (!m1 || !m2 || !m3) return resetDisplay();
+        density = 1.03 - (0.000288 * m2) + (0.0007 * m1) - (0.0002 * m3);
+
+      } else if (catKey === "f_young") {
+        // Kvinde < 27: Underarm, Talje, Lår
+        const m1 = bodyPartValues.underarm;
+        const m2 = bodyPartValues.talje;
+        const m3 = bodyPartValues.laar;
+        if (!m1 || !m2 || !m3) return resetDisplay();
+        density = 1.0764 - (0.00081 * m2) - (0.00088 * m3) + (0.00133 * m1);
+
+      } else if (catKey === "f_old") {
+        // Kvinde 27+: Talje, Lår, Læg
+        const m1 = bodyPartValues.talje;
+        const m2 = bodyPartValues.laar;
+        const m3 = bodyPartValues.laeg;
+        if (!m1 || !m2 || !m3) return resetDisplay();
+        density = 1.0602 - (0.00048 * m1) - (0.0005 * m2) + (0.00075 * m3);
+      }
+
+      // Siri formel: BF% = (495 / D) - 450
+      let bodyFat = (495 / density) - 450;
+      bodyFat = Math.max(3, Math.min(55, bodyFat));
+
+      resFatPct.textContent = bodyFat.toFixed(1);
+
+      if (weight > 0) {
+        const fatKg = weight * (bodyFat / 100);
+        const leanKg = weight - fatKg;
+
+        resFatMass.innerHTML = fatKg.toFixed(1) + " <small>kg</small>";
+        resLeanMass.innerHTML = leanKg.toFixed(1) + " <small>kg</small>";
+      } else {
+        resFatMass.innerHTML = "- <small>kg</small>";
+        resLeanMass.innerHTML = "- <small>kg</small>";
+      }
+    }
+
+    function resetDisplay() {
+      resFatPct.textContent = "0.0";
+      resFatMass.innerHTML = "0.0 <small>kg</small>";
+      resLeanMass.innerHTML = "0.0 <small>kg</small>";
+    }
+
+    // Event Listeners
+    btnMale.addEventListener("click", function() {
+      gender = "male";
+      btnMale.classList.add("active");
+      btnFemale.classList.remove("active");
+      updateCategoryUI();
+    });
+
+    btnFemale.addEventListener("click", function() {
+      gender = "female";
+      btnFemale.classList.add("active");
+      btnMale.classList.remove("active");
+      updateCategoryUI();
+    });
+
+    inputAge.addEventListener("input", updateCategoryUI);
+    
+    input1.addEventListener("input", () => handleInputRecord(input1));
+    input2.addEventListener("input", () => handleInputRecord(input2));
+    input3.addEventListener("input", () => handleInputRecord(input3));
+
+    inputHeight.addEventListener("input", calculateMcArdle);
+    inputWeight.addEventListener("input", calculateMcArdle);
+
+    btnReset.addEventListener("click", function() {
+      inputAge.value = 25;
+      inputHeight.value = 180;
+      inputWeight.value = 80;
+
+      bodyPartValues.overarm = 32;
+      bodyPartValues.underarm = 28;
+      bodyPartValues.talje = 90;
+      bodyPartValues.hofte = 95;
+      bodyPartValues.laar = 55;
+      bodyPartValues.laeg = 38;
+
+      gender = "male";
+      btnMale.classList.add("active");
+      btnFemale.classList.remove("active");
+
+      updateCategoryUI();
+    });
+
+    btnCapture.addEventListener("click", function() {
+      window.print();
+    });
+
+    // Initialisér UI
+    updateCategoryUI();
+  });
+</script>

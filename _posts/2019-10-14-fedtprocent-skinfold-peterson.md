@@ -8,6 +8,7 @@ header:
 category:
   - Kropskomposition
   - Fedtprocent
+  - Hudfoldsmåling
 breadcrumbs: true
 tags:
   - fedtprocent

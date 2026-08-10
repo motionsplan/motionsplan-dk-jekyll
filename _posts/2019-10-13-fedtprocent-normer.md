@@ -31,7 +31,7 @@ Vil du vide, om din fedtprocent er sund, lav eller høj? Kvinders og mænds fysi
 
 Herunder finner du de officielle **fedtprocent skemaer og tabeller** baseret på WHO og American Council on Exercise (ACE).
 
-👉 *Har du endnu ikke målt din fedtprocent? Brug vores interaktive [Navy-beregner med målebånd her](/fedtprocent-navy/), lær at [måle fedtprocent med målebånd](/fedtprocent-maalebaand/) eller se vores samlede guide til [7 måder at måle fedtprocent på](/maal-fedtprocent/).*
+👉 *Har du endnu ikke målt din fedtprocent? Brug vores interaktive [Navy-beregner med målebånd her](/fedtprocent-navy/) eller se vores samlede guide til [7 måder at måle fedtprocent på](/maal-fedtprocent/).*
 
 ---
 

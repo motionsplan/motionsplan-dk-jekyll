@@ -1,0 +1,635 @@
+<div class="navy-calc-card" id="navy-calculator">
+  
+  <!-- HEADER -->
+  <div class="navy-calc-header">
+    <div class="navy-calc-title-group">
+      <div>
+        <h3 class="navy-calc-title">US Navy Fedtprocent Beregner</h3>
+        <p class="navy-calc-subtitle">Estimer din kropskomposition med målebåndsmålinger</p>
+      </div>
+    </div>
+    <div class="navy-calc-avatar">📏</div>
+  </div>
+
+  <!-- KØNSVÆLGER (TOGGLE) -->
+  <div class="navy-calc-section">
+    <label class="navy-input-label">Køn</label>
+    <div class="navy-gender-toggle">
+      <button type="button" class="navy-gender-btn active" data-gender="male" id="navy-btn-male">
+        <span>👨 Mand</span>
+      </button>
+      <button type="button" class="navy-gender-btn" data-gender="female" id="navy-btn-female">
+        <span>👩 Kvinde</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- BASIS BASIS DATA (HØJDE & VÆGT) -->
+  <div class="navy-input-grid-top">
+    <div class="navy-input-group">
+      <label for="navy-height">📏 Højde <span class="navy-unit">(cm)</span></label>
+      <input type="number" id="navy-height" placeholder="f.eks. 180" value="180" min="100" max="250" step="0.5">
+    </div>
+    <div class="navy-input-group">
+      <label for="navy-weight">⚖️ Vægt <span class="navy-unit">(kg)</span></label>
+      <input type="number" id="navy-weight" placeholder="f.eks. 80" value="80" min="30" max="250" step="0.1">
+    </div>
+    <div class="navy-input-group">
+      <label for="navy-age">🎂 Alder <span class="navy-unit">(år)</span></label>
+      <input type="number" id="navy-age" placeholder="f.eks. 30" value="30" min="10" max="100">
+    </div>
+  </div>
+
+  <!-- MÅLEBÅNDS MÅLINGER MED ILLUSTRATIONER -->
+  <div class="navy-calc-section">
+    <label class="navy-input-label">🎯 Indtast omkredsmålinger (cm)</label>
+    
+    <div class="navy-measurements-grid" id="navy-measurements-grid">
+      
+      <!-- HALS -->
+      <div class="navy-measure-card">
+        <div class="navy-img-wrapper">
+          <img id="navy-img-neck" src="/assets/images/tools/mneck.jpg" alt="Måling af hals">
+        </div>
+        <div class="navy-measure-info">
+          <span class="navy-measure-name">Hals</span>
+          <span class="navy-measure-sub">(Under strubehoved)</span>
+          <div class="navy-measure-input-wrap">
+            <input type="number" id="navy-neck" value="38" step="0.5" min="20" max="70">
+            <span class="navy-unit-tag">cm</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- TALJE -->
+      <div class="navy-measure-card">
+        <div class="navy-img-wrapper">
+          <img id="navy-img-waist" src="/assets/images/tools/mabdomen.jpg" alt="Måling af talje">
+        </div>
+        <div class="navy-measure-info">
+          <span class="navy-measure-name" id="navy-waist-label">Talje</span>
+          <span class="navy-measure-sub" id="navy-waist-sub">(Ved navlen)</span>
+          <div class="navy-measure-input-wrap">
+            <input type="number" id="navy-waist" value="85" step="0.5" min="40" max="200">
+            <span class="navy-unit-tag">cm</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- HOFTE (KUN FOR KVINDE) -->
+      <div class="navy-measure-card" id="navy-hip-card" style="display: none;">
+        <div class="navy-img-wrapper">
+          <img id="navy-img-hip" src="/assets/images/tools/fhip.jpg" alt="Måling af hofte">
+        </div>
+        <div class="navy-measure-info">
+          <span class="navy-measure-name">Hofte</span>
+          <span class="navy-measure-sub">(Bredeste sted)</span>
+          <div class="navy-measure-input-wrap">
+            <input type="number" id="navy-hip" value="95" step="0.5" min="50" max="200">
+            <span class="navy-unit-tag">cm</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RESULTAT SEKTION -->
+  <div class="navy-results-container">
+    <div class="navy-result-main">
+      <span class="navy-res-label">ESTIMERET FEDTPROCENT</span>
+      <div class="navy-res-number-wrap">
+        <span class="navy-res-big" id="navy-res-fatpct">0.0</span>
+        <span class="navy-res-percent">%</span>
+      </div>
+      <span class="navy-res-method">US Navy Formlen (SD: ±3.5%)</span>
+    </div>
+
+    <div class="navy-result-side">
+      <div class="navy-side-box">
+        <span class="navy-side-label">Fedtmasse</span>
+        <span class="navy-side-val" id="navy-res-fatmass">0.0 <small>kg</small></span>
+      </div>
+      <div class="navy-side-box">
+        <span class="navy-side-label">Fedtfri masse</span>
+        <span class="navy-side-val" id="navy-res-leanmass">0.0 <small>kg</small></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- AFTROLINGS- OG HANDLINGS-KNAPPER -->
+  <div class="navy-actions">
+    <button type="button" class="navy-btn-primary" id="navy-btn-capture">
+      📸 Tag billede / Gem
+    </button>
+    <button type="button" class="navy-btn-reset" id="navy-btn-reset" title="Nulstil felt">
+      🗑️
+    </button>
+  </div>
+
+  <!-- WATERMARK / BRANDING -->
+  <div class="navy-calc-footer">
+    © motionsplan.dk
+  </div>
+
+</div>
+
+<!-- CSS STYLES -->
+<style>
+  .navy-calc-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 24px;
+    max-width: 620px;
+    margin: 2rem auto;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+    font-family: inherit;
+    color: #1f2937;
+  }
+
+  .navy-calc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f3f4f6;
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+  }
+
+  .navy-calc-title-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .navy-calc-icon {
+    font-size: 1.8rem;
+  }
+
+  .navy-calc-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #111827;
+  }
+
+  .navy-calc-subtitle {
+    margin: 2px 0 0 0;
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+
+  .navy-calc-avatar {
+    font-size: 1.5rem;
+    background: #f3f4f6;
+    padding: 8px 12px;
+    border-radius: 50%;
+  }
+
+  .navy-calc-section {
+    margin-bottom: 20px;
+  }
+
+  .navy-input-label {
+    display: block;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 8px;
+  }
+
+  /* TOGGLE BUTTONS */
+  .navy-gender-toggle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    background: #f3f4f6;
+    padding: 4px;
+    border-radius: 12px;
+  }
+
+  .navy-gender-btn {
+    border: none;
+    background: transparent;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #4b5563;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .navy-gender-btn.active {
+    background: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+  }
+
+  /* TOP INPUT GRID */
+  .navy-input-grid-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .navy-input-group label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #4b5563;
+    margin-bottom: 4px;
+  }
+
+  .navy-unit {
+    font-weight: 400;
+    color: #9ca3af;
+  }
+
+  .navy-input-group input, 
+  .navy-measure-input-wrap input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #111827;
+    outline: none;
+    transition: border-color 0.15s;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+
+  .navy-input-group input:focus, 
+  .navy-measure-input-wrap input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+
+  /* MEASUREMENTS CARDS GRID */
+  .navy-measurements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+  }
+
+  .navy-measure-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  }
+
+  .navy-img-wrapper {
+    width: 100%;
+    height: 120px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background: #f9fafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f3f4f6;
+  }
+
+  .navy-img-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .navy-measure-info {
+    width: 100%;
+  }
+
+  .navy-measure-name {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #111827;
+  }
+
+  .navy-measure-sub {
+    display: block;
+    font-size: 0.72rem;
+    color: #6b7280;
+    margin-bottom: 8px;
+    min-height: 18px;
+  }
+
+  .navy-measure-input-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .navy-unit-tag {
+    position: absolute;
+    right: 10px;
+    font-size: 0.8rem;
+    color: #9ca3af;
+    pointer-events: none;
+    font-weight: 600;
+  }
+
+  /* RESULTS DISPLAY */
+  .navy-results-container {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 12px;
+    margin: 24px 0 20px 0;
+  }
+
+  .navy-result-main {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border: 1px solid #bfdbfe;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .navy-res-label {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #1e40af;
+  }
+
+  .navy-res-number-wrap {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+    margin: 4px 0;
+  }
+
+  .navy-res-big {
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: #1e3a8a;
+    line-height: 1;
+  }
+
+  .navy-res-percent {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #2563eb;
+  }
+
+  .navy-res-method {
+    font-size: 0.75rem;
+    color: #3b82f6;
+    font-weight: 600;
+  }
+
+  .navy-result-side {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .navy-side-box {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 12px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navy-side-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #6b7280;
+  }
+
+  .navy-side-val {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #111827;
+  }
+
+  .navy-side-val small {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #6b7280;
+  }
+
+  /* ACTIONS */
+  .navy-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .navy-btn-primary {
+    flex: 1;
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+
+  .navy-btn-primary:hover {
+    background: #1d4ed8;
+  }
+
+  .navy-btn-reset {
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 0 16px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+
+  .navy-btn-reset:hover {
+    background: #e5e7eb;
+  }
+
+  .navy-calc-footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #9ca3af;
+    font-weight: 600;
+  }
+
+  @media (max-width: 500px) {
+    .navy-results-container {
+      grid-template-columns: 1fr;
+    }
+    .navy-input-grid-top {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+</style>
+
+<!-- JAVASCRIPT LOGIK -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const calc = document.getElementById("navy-calculator");
+    if (!calc) return;
+
+    // Elementer
+    const btnMale = calc.querySelector("#navy-btn-male");
+    const btnFemale = calc.querySelector("#navy-btn-female");
+    
+    const inputHeight = calc.querySelector("#navy-height");
+    const inputWeight = calc.querySelector("#navy-weight");
+    const inputAge = calc.querySelector("#navy-age");
+    
+    const inputNeck = calc.querySelector("#navy-neck");
+    const inputWaist = calc.querySelector("#navy-waist");
+    const inputHip = calc.querySelector("#navy-hip");
+    
+    const imgNeck = calc.querySelector("#navy-img-neck");
+    const imgWaist = calc.querySelector("#navy-img-waist");
+    const hipCard = calc.querySelector("#navy-hip-card");
+    
+    const waistLabel = calc.querySelector("#navy-waist-label");
+    const waistSub = calc.querySelector("#navy-waist-sub");
+
+    const resFatPct = calc.querySelector("#navy-res-fatpct");
+    const resFatMass = calc.querySelector("#navy-res-fatmass");
+    const resLeanMass = calc.querySelector("#navy-res-leanmass");
+
+    const btnReset = calc.querySelector("#navy-btn-reset");
+    const btnCapture = calc.querySelector("#navy-btn-capture");
+
+    let gender = "male";
+
+    // Billedstier (Kan tilpasses)
+    const imgPaths = {
+      male: {
+        neck: "/assets/images/tools/mneck.jpg",
+        waist: "/assets/images/tools/mabdomen.jpg"
+      },
+      female: {
+        neck: "/assets/images/tools/fneck.jpg",
+        waist: "/assets/images/tools/fwaist.jpg",
+        hip: "/assets/images/tools/fhip.jpg"
+      }
+    };
+
+    function setGender(newGender) {
+      gender = newGender;
+      if (gender === "male") {
+        btnMale.classList.add("active");
+        btnFemale.classList.remove("active");
+        
+        imgNeck.src = imgPaths.male.neck;
+        imgWaist.src = imgPaths.male.waist;
+        
+        hipCard.style.display = "none";
+        waistLabel.textContent = "Talje";
+        waistSub.textContent = "(Ved navlen)";
+      } else {
+        btnFemale.classList.add("active");
+        btnMale.classList.remove("active");
+        
+        imgNeck.src = imgPaths.female.neck;
+        imgWaist.src = imgPaths.female.waist;
+        
+        hipCard.style.display = "flex";
+        waistLabel.textContent = "Talje";
+        waistSub.textContent = "(Smalleste sted)";
+      }
+      calculateNavy();
+    }
+
+    function calculateNavy() {
+      const h = parseFloat(inputHeight.value) || 0;
+      const w = parseFloat(inputWeight.value) || 0;
+      const neck = parseFloat(inputNeck.value) || 0;
+      const waist = parseFloat(inputWaist.value) || 0;
+      const hip = parseFloat(inputHip.value) || 0;
+
+      if (h <= 0 || neck <= 0 || waist <= 0) {
+        resFatPct.textContent = "0.0";
+        resFatMass.innerHTML = "0.0 <small>kg</small>";
+        resLeanMass.innerHTML = "0.0 <small>kg</small>";
+        return;
+      }
+
+      let bodyFat = 0;
+
+      if (gender === "male") {
+        const diff = waist - neck;
+        if (diff <= 0) {
+          resFatPct.textContent = "--";
+          return;
+        }
+        // US Navy Formel for Mænd
+        bodyFat = 495 / (1.0324 - 0.19077 * Math.log10(diff) + 0.15456 * Math.log10(h)) - 450;
+      } else {
+        const sum = waist + hip - neck;
+        if (sum <= 0) {
+          resFatPct.textContent = "--";
+          return;
+        }
+        // US Navy Formel for Kvinder
+        bodyFat = 495 / (1.29579 - 0.35004 * Math.log10(sum) + 0.22100 * Math.log10(h)) - 450;
+      }
+
+      bodyFat = Math.max(2, Math.min(60, bodyFat)); // Begræns til realistisk spænd
+
+      resFatPct.textContent = bodyFat.toFixed(1);
+
+      if (w > 0) {
+        const fatKg = w * (bodyFat / 100);
+        const leanKg = w - fatKg;
+
+        resFatMass.innerHTML = fatKg.toFixed(1) + " <small>kg</small>";
+        resLeanMass.innerHTML = leanKg.toFixed(1) + " <small>kg</small>";
+      } else {
+        resFatMass.innerHTML = "- <small>kg</small>";
+        resLeanMass.innerHTML = "- <small>kg</small>";
+      }
+    }
+
+    // Event Listeners
+    btnMale.addEventListener("click", () => setGender("male"));
+    btnFemale.addEventListener("click", () => setGender("female"));
+
+    [inputHeight, inputWeight, inputAge, inputNeck, inputWaist, inputHip].forEach(el => {
+      el.addEventListener("input", calculateNavy);
+    });
+
+    btnReset.addEventListener("click", function() {
+      inputHeight.value = 180;
+      inputWeight.value = 80;
+      inputAge.value = 30;
+      inputNeck.value = 38;
+      inputWaist.value = 85;
+      inputHip.value = 95;
+      setGender("male");
+    });
+
+    btnCapture.addEventListener("click", function() {
+      window.print();
+    });
+
+    // Initiel beregning
+    calculateNavy();
+  });
+</script>

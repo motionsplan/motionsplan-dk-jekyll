@@ -3,7 +3,6 @@ title: Sådan måler du din fedtprocent (7 metoder – hvad er bedst?)
 seo_title: "Måling af fedtprocent: 7 metoder fra målebånd til DEXA"
 description: Guide til måling af fedtprocent. Sammenlign 7 metoder fra målebånd, fedttang og bioimpedans til DEXA-scanning, og find den bedste metode til dig.
 permalink: /maal-fedtprocent/
-permalink: /maal-fedtprocent/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1611077544170-be90a2f68add.jpg
@@ -45,7 +44,7 @@ I denne guide får du svar på:
 Lad os dykke ned i de forskellige metoder og finde den, der passer bedst til dig!
 
 ### 🏃‍♀️ Hvad vil du gøre nu?
-* **Vil du bruge et målebånd derhjemme?** Brug [US Navy-beregneren](/fedtprocent-navy/) eller [McArdle & Katch-beregneren](/fedtprocent-maalebaand/).
+* **Vil du bruge et målebånd derhjemme?** Brug [US Navy-beregneren eller McArdle & Katch-beregneren](/fedtprocent-navy/).
 * **Vil du beregne ud fra højde/vægt?** Prøv vores [simple fedtprocent-udregner](/artikel/udregning-af-fedtprocent/).
 * **Vil du beregne ud fra skinfold-målinger?** Tjek vores [guide til fedtprocent ud fra hudfoldsmålinger](/skinfold/).
 * **Vil du se, om din fedtprocent er sund?** Se vores [Fedtprocent skema & tabeller for kvinder og mænd](/fedtprocent-normer/).
@@ -107,11 +106,9 @@ Ulempen er at man kan blive snydt af fedt, der sidder omkring organerne, men som
 Der findes nogle formler, hvor du kan udregne din fedtprocent ud fra simple antropometriske mål som køn, højde og vægt. Formlerne er imidlertid behæftet med stor usikkerhed, og de kan ikke stå alene. Jeg har lavet en [beregner som kan udregne fedtprocenten på baggrund af højde, vægt, alder og køn](/artikel/udregning-af-fedtprocent/).
 
 ### 5. Bestemmelse af fedtprocent med målebånd
+En af de mest praktiske og tilgængelige metoder til hjemmebrug er at måle kropsomkredse med et målebånd. Metoden påvirkes ikke af din væskebalance på samme måde som en fedtprocentvægt.
 
-Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten med et målebånd. Du skal ganske enkelt måle dig selv med et målebånd forskellige steder på kroppen. Fælles for alle metoderne er, at der er lige så meget usikkerhed om det faktiske resultat, som ved at udregne fedtprocenten baseret på højde og vægt.
-
-Læs: [Mål din fedtprocent med målebånd](/fedtprocent-maalebaand/) eller med [måling af fedtprocent med Navy-metoden](/fedtprocent-navy/)
-{: .notice }
+👉 **[Prøv vores gratis Navy-beregner og se den visuelle måleguide her](/fedtprocent-navy/)**
 
 ### 6. Måling af fedtprocent med fedttang
 

@@ -528,51 +528,110 @@ details.question {
 }
 
 details.equation {
-  background-color: #f1f1f1;
-  padding: 0.5em;
-  border: 1px solid #ddd;
-  margin-bottom: 0.5em;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #2563eb; // Blå accentstreg
+  border-radius: 12px;
+  margin: 1.25rem 0;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
 
+  &:hover {
+    border-color: #cbd5e1;
+    border-left-color: #1d4ed8;
+    background-color: #f1f5f9;
+  }
+
+  /* OVERSKRIFTS-BAR (SUMMARY) */
   summary {
     cursor: pointer;
     display: flex;
     align-items: center;
-    background-color: #f1f1f1;
-    padding: 0.5em;
-    border: 1px solid #ddd;
-    transition: background-color 0.3s ease;
-    font-weight: bold;
-    position: relative;
+    justify-content: space-between;
+    padding: 0.85rem 1.25rem;
+    background-color: transparent;
+    font-weight: 700;
+    color: #1e293b;
+    user-select: none;
+    list-style: none;
+    outline: none;
 
-    &:hover {
-      background-color: #e1e1e1;
+    &::-webkit-details-marker {
+      display: none;
     }
 
-    &::before {
-      content: "▶";
-      font-size: 1.2em;
-      margin-right: 10px;
-      transition: transform 0.3s ease;
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-right: 2px solid #64748b;
+      border-bottom: 2px solid #64748b;
+      transform: rotate(45deg);
+      transition: transform 0.25s ease, border-color 0.2s;
+      margin-left: 12px;
+      flex-shrink: 0;
+    }
+
+    h3, h2, h4 {
+      padding: 0;
+      margin: 0;
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: #1e293b;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
   }
 
-  &[open] summary::before {
-    content: "▼";
-    transform: rotate(180deg);
+  /* NÅR FORMEL-BOKSEN ER ÅBEN */
+  &[open] {
+    background-color: #ffffff;
+    border-color: #bfdbfe;
+    border-left-color: #2563eb;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.06);
+    padding-bottom: 0.75rem; /* Giver luft i bunden af hele boksen */
+
+    summary {
+      border-bottom: 1px solid #f1f5f9;
+      margin-bottom: 0.75rem;
+
+      &::after {
+        transform: rotate(-135deg);
+        border-color: #2563eb;
+      }
+    }
   }
 
-  h3 {
-    padding: 0;
-    margin: 0;
-    font-size: 1.1em;
-    color: #333;
+  /* INDHOLD OG MELLEMRUM INDE I BOKSEN */
+  p, h4, div, ul, ol {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   p {
-    margin-top: 10px;
-    padding-left: 20px;
-    color: #444;
-    line-height: 1.6;
+    margin: 0.35rem 0;
+    color: #334155;
+    line-height: 1.5;
+    font-size: 0.93rem;
+  }
+
+  h4 {
+    margin-top: 0.85rem;
+    margin-bottom: 0.15rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #0f172a;
+  }
+
+  /* STRAMMER MATHJAX / KATEX FORMLER OP */
+  .MathJax, .mjx-chtml, .katex-display, .MathJax_Display {
+    margin: 0.25rem 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 }
 

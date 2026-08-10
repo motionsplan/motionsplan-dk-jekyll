@@ -87,12 +87,15 @@ Tests:
 Vurderingsværktøjer:
   title: Vurderingsværktøjer
   url: /vurderingsvaerktoejer/
-Fedtprocent:
-  title: Fedtprocent
-  url: /maal-fedtprocent/
 Kropskomposition:
   title: Kropskomposition
   url: /kropskomposition/
+Fedtprocent:
+  title: Fedtprocent
+  url: /maal-fedtprocent/
+Hudfoldsmåling:
+  title: Hudfoldsmåling
+  url: /skinfold/
 Restitution:
   title: Restitution
   url: /restitution/
