@@ -1,0 +1,213 @@
+<div class="bp-widget-container" style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; margin: 20px 0; font-family: inherit;">
+  <h3 style="margin-top: 0; color: #2b2b2b;">🩺 Interaktiv Blodtryksberegner</h3>
+  
+  <!-- TAB KNAPPER -->
+  <div style="display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 2px solid #dee2e6; padding-bottom: 10px;">
+    <button type="button" id="tab-btn-single" onclick="switchBPTab('single')" style="background: #0056b3; color: white; border: none; padding: 8px 16px; border-radius: 4px; font-weight: bold; cursor: pointer;">
+      1. Hurtigtjek (Enkel måling)
+    </button>
+    <button type="button" id="tab-btn-3day" onclick="switchBPTab('3day')" style="background: #e9ecef; color: #495057; border: none; padding: 8px 16px; border-radius: 4px; font-weight: bold; cursor: pointer;">
+      2. 3-Dages Hjemmemåling (Til lægen)
+    </button>
+  </div>
+
+  <!-- TAB 1: ENKEL MÅLING -->
+  <div id="bp-tab-single">
+    <p style="font-size: 0.9em; color: #555;">Tjek hvad dine tal betyder ud fra Sundhedsstyrelsens og Hjerteforeningens grænseværdier for konsultationsmålinger.</p>
+    
+    <form onsubmit="event.preventDefault(); calculateSingleBP();">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-bottom: 15px;">
+        <div>
+          <label style="display: block; font-size: 0.85em; font-weight: bold; margin-bottom: 4px;">Systolisk (Det høje tal, mmHg):</label>
+          <input type="number" id="single-sbp" value="125" min="70" max="250" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div>
+          <label style="display: block; font-size: 0.85em; font-weight: bold; margin-bottom: 4px;">Diastolisk (Det lave tal, mmHg):</label>
+          <input type="number" id="single-dbp" value="82" min="40" max="150" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+      </div>
+      <button type="submit" style="background: #0056b3; color: white; border: none; padding: 10px 20px; border-radius: 4px; font-weight: bold; cursor: pointer; width: 100%;">
+        Analyser måling
+      </button>
+    </form>
+
+    <div id="single-results" style="margin-top: 20px; display: none;"></div>
+  </div>
+
+  <!-- TAB 2: 3-DAGES HJEMMEMÅLING -->
+  <div id="bp-tab-3day" style="display: none;">
+    <p style="font-size: 0.9em; color: #555;">Indtast dine målinger fra 3 dages hjemmemåling. <strong>Værktøjet kasserer automatisk Dag 1</strong> og beregner gennemsnittet for Dag 2 og 3 i henhold til kliniske retningslinjer.</p>
+
+    <form onsubmit="event.preventDefault(); calculate3DayBP();">
+      <!-- DAG 1 -->
+      <div style="background: #ffffff; padding: 12px; border-radius: 6px; border: 1px solid #dee2e6; margin-bottom: 10px;">
+        <strong style="color: #6c757d; font-size: 0.9em;">Dag 1 (Bliver kasseret automatisk i regnestykket):</strong>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 8px; margin-top: 6px; font-size: 0.85em;">
+          <input type="number" id="d1-m-sbp" placeholder="Morgen Sys" style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+          <input type="number" id="d1-m-dbp" placeholder="Morgen Dia" style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+          <input type="number" id="d1-e-sbp" placeholder="Aften Sys" style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+          <input type="number" id="d1-e-dbp" placeholder="Aften Dia" style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+      </div>
+
+      <!-- DAG 2 -->
+      <div style="background: #ffffff; padding: 12px; border-radius: 6px; border: 1px solid #0056b3; margin-bottom: 10px;">
+        <strong style="color: #0056b3; font-size: 0.9em;">Dag 2:</strong>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 8px; margin-top: 6px; font-size: 0.85em;">
+          <input type="number" id="d2-m-sbp" placeholder="Morgen Sys" required style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+          <input type="number" id="d2-m-dbp" placeholder="Morgen Dia" required style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+          <input type="number" id="d2-e-sbp" placeholder="Aften Sys" required style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+          <input type="number" id="d2-e-dbp" placeholder="Aften Dia" required style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+      </div>
+
+      <!-- DAG 3 -->
+      <div style="background: #ffffff; padding: 12px; border-radius: 6px; border: 1px solid #0056b3; margin-bottom: 15px;">
+        <strong style="color: #0056b3; font-size: 0.9em;">Dag 3:</strong>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 8px; margin-top: 6px; font-size: 0.85em;">
+          <input type="number" id="d3-m-sbp" placeholder="Morgen Sys" required style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+          <input type="number" id="d3-m-dbp" placeholder="Morgen Dia" required style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+          <input type="number" id="d3-e-sbp" placeholder="Aften Sys" required style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+          <input type="number" id="d3-e-dbp" placeholder="Aften Dia" required style="padding: 4px; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+      </div>
+
+      <button type="submit" style="background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 4px; font-weight: bold; cursor: pointer; width: 100%;">
+        Beregn 3-dages gennemsnit
+      </button>
+    </form>
+
+    <div id="3day-results" style="margin-top: 20px; display: none;"></div>
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #dee2e6; margin: 20px 0 15px 0;">
+
+  <div style="font-size: 0.82em; color: #6c757d; line-height: 1.4;">
+    <strong>Kildehenvisning & Forbehold:</strong> Grænseværdier og 3-dages gennemsnitsprotokollen følger retningslinjerne fra Lægehåndbogen (Sundhed.dk) og Hjerteforeningen. Enkelte målinger kan svinge pga. stress eller kaffe. Værktøjet er vejledende og erstatter ikke lægelig konsulation.
+  </div>
+</div>
+
+<script>
+function switchBPTab(tab) {
+  const singleTab = document.getElementById('bp-tab-single');
+  const dayTab = document.getElementById('bp-tab-3day');
+  const btnSingle = document.getElementById('tab-btn-single');
+  const btn3Day = document.getElementById('tab-btn-3day');
+
+  if (tab === 'single') {
+    singleTab.style.display = 'block';
+    dayTab.style.display = 'none';
+    btnSingle.style.background = '#0056b3';
+    btnSingle.style.color = 'white';
+    btn3Day.style.background = '#e9ecef';
+    btn3Day.style.color = '#495057';
+  } else {
+    singleTab.style.display = 'none';
+    dayTab.style.display = 'block';
+    btn3Day.style.background = '#0056b3';
+    btn3Day.style.color = 'white';
+    btnSingle.style.background = '#e9ecef';
+    btnSingle.style.color = '#495057';
+  }
+}
+
+function getBPClassification(sbp, dbp, isHome = false) {
+  // Grænseværdier for henholdsvis Hjemmemåling (<135/85) og Konsultationsmåling (<140/90)
+  const sysHigh = isHome ? 135 : 140;
+  const diaHigh = isHome ? 85 : 90;
+
+  if (sbp < 120 && dbp < 80) {
+    return { title: "Optimalt blodtryk", color: "#28a745", text: "Dit blodtryk ligger i det helt optimale område." };
+  } else if (sbp < 130 && dbp < 85) {
+    return { title: "Normalt blodtryk", color: "#28a745", text: "Dit blodtryk er fuldstændig normalt og sundt." };
+  } else if (sbp < sysHigh && dbp < diaHigh) {
+    return { title: "Højt normalt (Grænseområde)", color: "#ffc107", textColor: "#000", text: "Blodtrykket er i den øvre ende af det normale område. Det anbefales at holde øje med livsstil, kost og motion." };
+  } else if (sbp < 160 || dbp < 100) {
+    return { title: "Grad 1 Forhøjet (Mild)", color: "#fd7e14", text: "Blodtrykket viser milde tegn på forhøjelse. Anbefales evalueret hos lægen." };
+  } else if (sbp < 180 || dbp < 110) {
+    return { title: "Grad 2 Forhøjet (Moderat)", color: "#dc3545", text: "Blodtrykket er moderat forhøjet. Bør drøftes med en læge." };
+  } else {
+    return { title: "Grad 3 Forhøjet (Svært)", color: "#721c24", text: "Blodtrykket er markant forhøjet. Kontakt læge for udredning." };
+  }
+}
+
+function calculateSingleBP() {
+  const sbp = parseInt(document.getElementById('single-sbp').value);
+  const dbp = parseInt(document.getElementById('single-dbp').value);
+
+  if (isNaN(sbp) || isNaN(dbp)) return;
+
+  // Formler for MAP og Pulstryk
+  const map = Math.round(dbp + (sbp - dbp) / 3);
+  const pulsePressure = sbp - dbp;
+  const resultClass = getBPClassification(sbp, dbp, false);
+
+  const resDiv = document.getElementById('single-results');
+  resDiv.style.display = 'block';
+  resDiv.innerHTML = `
+    <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 1px solid ${resultClass.color};">
+      <h4 style="margin-top: 0; color: ${resultClass.color};">Resultat af måling: ${sbp} / ${dbp} mmHg</h4>
+      
+      <p style="font-size: 1.05em; margin-bottom: 10px;">
+        <strong>Kategori:</strong> 
+        <span style="background: ${resultClass.color}; color: ${resultClass.textColor || 'white'}; padding: 3px 8px; border-radius: 4px; font-weight: bold;">
+          ${resultClass.title}
+        </span>
+      </p>
+      
+      <p style="font-size: 0.9em; color: #333; margin-bottom: 12px;">${resultClass.text}</p>
+      
+      <div style="background: #f8f9fa; padding: 10px; border-radius: 4px; font-size: 0.85em; color: #495057;">
+        <strong>Avancerede fysiologiske værdier:</strong>
+        <ul style="margin: 5px 0 0 0; padding-left: 20px;">
+          <li><strong>MAP (Middelblodtryk):</strong> ${map} mmHg <em>(Det gennemsnitlige tryk i pulsårerne)</em></li>
+          <li><strong>Pulstryk:</strong> ${pulsePressure} mmHg <em>(Forskellen mellem det systoliske og diastoliske tryk)</em></li>
+        </ul>
+      </div>
+    </div>
+  `;
+}
+
+function calculate3DayBP() {
+  // Saml alle input fra dag 2 og dag 3
+  const d2ms = parseInt(document.getElementById('d2-m-sbp').value);
+  const d2md = parseInt(document.getElementById('d2-m-dbp').value);
+  const d2es = parseInt(document.getElementById('d2-e-sbp').value);
+  const d2ed = parseInt(document.getElementById('d2-e-dbp').value);
+
+  const d3ms = parseInt(document.getElementById('d3-m-sbp').value);
+  const d3md = parseInt(document.getElementById('d3-m-dbp').value);
+  const d3es = parseInt(document.getElementById('d3-e-sbp').value);
+  const d3ed = parseInt(document.getElementById('d3-e-dbp').value);
+
+  // Beregn gennemsnit af de 4 målinger (Dag 2 morgen/aften + Dag 3 morgen/aften)
+  const avgSBP = Math.round((d2ms + d2es + d3ms + d3es) / 4);
+  const avgDBP = Math.round((d2md + d2ed + d3md + d3ed) / 4);
+
+  const resultClass = getBPClassification(avgSBP, avgDBP, true);
+
+  const resDiv = document.getElementById('3day-results');
+  resDiv.style.display = 'block';
+  resDiv.innerHTML = `
+    <div style="background: #ffffff; padding: 15px; border-radius: 6px; border: 2px solid #28a745;">
+      <h4 style="margin-top: 0; color: #28a745;">📋 3-Dages Gennemsnit (Klar til lægen):</h4>
+      <p style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;">
+        Gennemsnit for Dag 2 & 3: <span style="color: #0056b3;">${avgSBP} / ${avgDBP} mmHg</span>
+      </p>
+      
+      <p style="font-size: 1em; margin-bottom: 8px;">
+        <strong>Hjemmemålings-klassifikation:</strong> 
+        <span style="background: ${resultClass.color}; color: ${resultClass.textColor || 'white'}; padding: 3px 8px; border-radius: 4px; font-weight: bold;">
+          ${resultClass.title}
+        </span>
+      </p>
+      
+      <p style="font-size: 0.9em; color: #333;">${resultClass.text}</p>
+      
+      <p style="font-size: 0.85em; color: #6c757d; background: #e9ecef; padding: 8px; border-radius: 4px; margin-bottom: 0;">
+        💡 <em>Note til lægen: Dag 1 er automatisk frasorteret i henhold til klinisk standard for at eliminere førstegangssvingninger. Gennemsnittet er beregnet på baggrund af 4 målinger fordelt over dag 2 og dag 3.</em>
+      </p>
+    </div>
+  `;
+}
+</script>
