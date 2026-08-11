@@ -3,6 +3,8 @@
   if (!card) return;
 
   const STORAGE_KEY = 'mp_readiness_calculator_state';
+  const COMPACT_HOOPER_KEY = 'motionsplan_hooper_scores'; // Deles med compact widget
+
   const state = {
     sleep: 4,
     energy: 4,
@@ -12,8 +14,39 @@
     rhrToday: 56
   };
 
-  function saveState() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e) {} }
-  function loadState() { try { const saved = localStorage.getItem(STORAGE_KEY); if (saved) Object.assign(state, JSON.parse(saved)); } catch(e) {} }
+  function saveState() { 
+    try { 
+      // Gem fuld tilstand
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); 
+
+      // Gem også Hooper-tal i den delte nøgle, så compact widget opdateres
+      const hooperState = {
+        sleep: parseInt(state.sleep) || 4,
+        energy: parseInt(state.energy) || 4,
+        soreness: parseInt(state.soreness) || 4,
+        stress: parseInt(state.stress) || 4
+      };
+      localStorage.setItem(COMPACT_HOOPER_KEY, JSON.stringify(hooperState));
+    } catch(e) {} 
+  }
+
+  function loadState() { 
+    try { 
+      // 1. Hent den fulde beregners seneste tilstand
+      const savedFull = localStorage.getItem(STORAGE_KEY); 
+      if (savedFull) Object.assign(state, JSON.parse(savedFull)); 
+
+      // 2. Tjek om der er nyere/opdaterede Hooper-tal fra compact widget
+      const savedHooper = localStorage.getItem(COMPACT_HOOPER_KEY);
+      if (savedHooper) {
+        const hooperData = JSON.parse(savedHooper);
+        if (hooperData.sleep !== undefined) state.sleep = hooperData.sleep;
+        if (hooperData.energy !== undefined) state.energy = hooperData.energy;
+        if (hooperData.soreness !== undefined) state.soreness = hooperData.soreness;
+        if (hooperData.stress !== undefined) state.stress = hooperData.stress;
+      }
+    } catch(e) {} 
+  }
 
   function syncDOM() {
     card.querySelectorAll('.js-readiness-slider').forEach(s => {
@@ -57,7 +90,7 @@
     // Endelig Score (clamped mellem 0 og 100%)
     let finalScore = Math.max(0, Math.min(100, wellnessScore - penalty));
 
-    // OPPDATER DOM
+    // OPDATER DOM
     const scoreEl = card.querySelector('.js-readiness-score');
     const badgeEl = card.querySelector('.js-readiness-badge');
     const descEl = card.querySelector('.js-readiness-desc');
@@ -112,6 +145,7 @@
     resetBtn.addEventListener('click', () => {
       if (confirm('Vil du nulstille Træningsparathed-beregneren?')) {
         localStorage.removeItem(STORAGE_KEY);
+        localStorage.removeItem(COMPACT_HOOPER_KEY);
         state.sleep = 4; state.energy = 4; state.soreness = 4; state.stress = 4;
         state.rhrNorm = 55; state.rhrToday = 56;
         syncDOM();

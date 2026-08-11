@@ -14,6 +14,7 @@ category:
 tags:
 - søvn
 last_modified_at: '2022-08-14T10:21:26Z'
+classes: wide
 ---
 
 Søvn er meget vigtig for dit generelle helbred og velvære. Hvis du gerne vil dykke lidt ned i dine egne søvnvaner, så kan du lave søvnregistrering og føre en søvndagbog.
@@ -23,6 +24,11 @@ Her kigger vi på, hvordan du kan kortlægge din søvn med et søvnskema. Søvnd
 En god søvn handler primært om kvaliteten af din søvn, og der kan søvndagbogen være med til at afdække uhensigtsmæssigheder i din søvnhygiejne. Bevæbnet med den viden kan du [optimere din søvn](/soevn-optimering/).
 
 {% include figure image_path="https://images.unsplash.com/photo-1525169267298-12532cf95139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNsZWVwaW5nfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="søvndagbog og søvnregistrering" %}
+
+## Søvndagbog
+{: id="calculator" }
+
+{% include components/sleep-widget.html %}
 
 ## Hvad er en søvndagbog?
 

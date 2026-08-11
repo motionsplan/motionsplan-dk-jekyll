@@ -1,0 +1,137 @@
+<!-- MINITOOL: DAGENS SØVNTJEK (motionsplan.dk) -->
+<div class="sleep-mini-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 20px; box-shadow: 0 4px 14px rgba(0,0,0,0.03); font-family: system-ui, -apple-system, sans-serif;">
+  
+  <!-- HEADER -->
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 8px;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.15rem; color: #0f172a; font-weight: 700;">🌙 Dagens Søvntjek</h3>
+      <p style="margin: 2px 0 0 0; font-size: 0.85rem; color: #64748b;">Hurtig status på nattens restitution</p>
+    </div>
+    <a href="/soevndagbog/#calculator" id="sleep-redirect-btn" style="text-decoration: none; font-size: 0.8rem; font-weight: 600; color: #2563eb; background: #eff6ff; padding: 6px 12px; border-radius: 20px; transition: all 0.2s;">
+      Fuld søvndagbog →
+    </a>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; align-items: center;">
+    
+    <!-- INPUTS (SLIDERS) -->
+    <div style="display: flex; flex-direction: column; gap: 14px; background: #f8fafc; padding: 14px; border-radius: 12px; border: 1px solid #f1f5f9;">
+      
+      <!-- Søvnlængde -->
+      <div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 600; margin-bottom: 6px; color: #334155;">
+          <span>⏱️ Søvnvarighed:</span>
+          <span id="sleep-hours-val" style="color: #2563eb;">7.5 timer</span>
+        </div>
+        <input type="range" id="sleep-hours" min="3" max="11" step="0.5" value="7.5" style="width: 100%; cursor: pointer;">
+      </div>
+
+      <!-- Søvnkvalitet -->
+      <div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 600; margin-bottom: 6px; color: #334155;">
+          <span>😴 Oplevet kvalitet:</span>
+          <span id="sleep-qual-val" style="color: #2563eb;">4 / 5 (God)</span>
+        </div>
+        <input type="range" id="sleep-qual" min="1" max="5" step="1" value="4" style="width: 100%; cursor: pointer;">
+      </div>
+
+    </div>
+
+    <!-- RESULTAT KASSER -->
+    <div id="sleep-status-box" style="background: #10b981; color: #ffffff; padding: 16px; border-radius: 12px; display: flex; flex-direction: column; justify-content: center; min-height: 110px; transition: background-color 0.3s ease;">
+      <div style="display: flex; align-items: baseline; gap: 8px;">
+        <span id="sleep-score-num" style="font-size: 2.2rem; font-weight: 800; line-height: 1;">85%</span>
+        <span id="sleep-status-badge" style="background: rgba(255,255,255,0.25); padding: 3px 8px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">God Restitution</span>
+      </div>
+      <p id="sleep-status-msg" style="margin: 8px 0 0 0; font-size: 0.82rem; opacity: 0.95; line-height: 1.35;">
+        Flot søvnmængde med god kvalitet. Du er klar til normal træningsbelastning.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- JAVASCRIPT -->
+<script>
+(function() {
+  const hoursInput = document.getElementById('sleep-hours');
+  const qualInput = document.getElementById('sleep-qual');
+  const hoursVal = document.getElementById('sleep-hours-val');
+  const qualVal = document.getElementById('sleep-qual-val');
+  const scoreNum = document.getElementById('sleep-score-num');
+  const statusBadge = document.getElementById('sleep-status-badge');
+  const statusMsg = document.getElementById('sleep-status-msg');
+  const statusBox = document.getElementById('sleep-status-box');
+
+  const qualLabels = {
+    1: '1 / 5 (Rigtig skidt)',
+    2: '2 / 5 (Middelmådig)',
+    3: '3 / 5 (Udemærket)',
+    4: '4 / 5 (God)',
+    5: '5 / 5 (Fremragende)'
+  };
+
+  function updateSleepMini() {
+    const hours = parseFloat(hoursInput.value);
+    const qual = parseInt(qualInput.value);
+
+    // Opdater etiketter
+    hoursVal.textContent = hours + ' timer';
+    qualVal.textContent = qualLabels[qual];
+
+    // Udregn hurtig score (vægter både varighed og kvalitet)
+    // 8 timer + kvalitet 5 = 100%
+    let baseScore = (hours / 8) * 50 + (qual / 5) * 50;
+    let score = Math.min(Math.round(baseScore), 100);
+
+    scoreNum.textContent = score + '%';
+
+    // Tilpas farve og besked baseret på score
+    if (score >= 80) {
+      statusBox.style.backgroundColor = '#10b981'; // Grøn
+      statusBadge.textContent = 'Høj Restitution';
+      statusMsg.textContent = 'Glimrende søvn i nat! Kroppen er godt genopladet og klar til præstation.';
+    } else if (score >= 60) {
+      statusBox.style.backgroundColor = '#f59e0b'; // Gul / Orange
+      statusBadge.textContent = 'Moderat Restitution';
+      statusMsg.textContent = 'Udemærket søvn. Tilpas evt. træningsintensiteten, hvis du føler dig tung.';
+    } else {
+      statusBox.style.backgroundColor = '#ef4444'; // Rød
+      statusBadge.textContent = 'Lav Restitution';
+      statusMsg.textContent = 'Begrænset søvn i nat. Prioritér let træning eller aktiv restitution i dag.';
+    }
+
+    // Gem i localStorage til den store søvndagbog
+    const today = new Date().toISOString().split('T')[0];
+    const sleepData = {
+      date: today,
+      hours: hours,
+      quality: qual,
+      score: score,
+      updatedAt: new Date().getTime()
+    };
+
+    localStorage.setItem('motionsplan_today_sleep', JSON.stringify(sleepData));
+  }
+
+  // Hent eksisterende data hvis gemt i dag
+  function loadSaved() {
+    const saved = localStorage.getItem('motionsplan_today_sleep');
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      const today = new Date().toISOString().split('T')[0];
+      if (parsed.date === today) {
+        hoursInput.value = parsed.hours;
+        qualInput.value = parsed.quality;
+      }
+    }
+    updateSleepMini();
+  }
+
+  hoursInput.addEventListener('input', updateSleepMini);
+  qualInput.addEventListener('input', updateSleepMini);
+
+  loadSaved();
+})();
+</script>

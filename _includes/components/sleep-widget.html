@@ -1,0 +1,314 @@
+<!-- Inkluder Chart.js til grafer -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="master-tracker" style="margin: 0 auto; font-family: system-ui, -apple-system, sans-serif; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
+  
+  <h2 style="margin-top: 0; color: #0f172a;">📊 Min Søvn- & Restitutionsdagbog</h2>
+  <p style="color: #64748b; font-size: 0.9rem; margin-bottom: 24px;">Følg din søvn, HRV og hvilepuls over tid. Husk at pulsmålinger kræver en personlig baseline på 4-5 dage.</p>
+
+  <!-- FORMULAR TIL DATA -->
+  <form id="master-form" style="display: flex; flex-wrap: wrap; gap: 16px; background: #f8fafc; padding: 20px; border-radius: 12px; border: 1px solid #f1f5f9; margin-bottom: 24px;">
+    
+    <div style="flex: 1 1 120px;">
+      <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 4px;">Dato</label>
+      <input type="date" id="m-date" required style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px;">
+    </div>
+    <div style="flex: 1 1 120px;">
+      <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 4px;">Søvn (timer)</label>
+      <input type="number" step="0.1" id="m-sleep" required style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px;">
+    </div>
+    <div style="flex: 1 1 120px;">
+      <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 4px;">Kvalitet (1-5)</label>
+      <input type="number" min="1" max="5" id="m-qual" required style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px;">
+    </div>
+    <div style="flex: 1 1 120px;">
+      <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 4px;">HRV (ms)</label>
+      <input type="number" id="m-hrv" placeholder="Valgfri" style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px;">
+    </div>
+    <div style="flex: 1 1 120px;">
+      <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 4px;">Hvilepuls (bpm)</label>
+      <input type="number" id="m-rhr" placeholder="Valgfri" style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px;">
+    </div>
+    <div style="flex: 1 1 100%; display: flex; align-items: flex-end;">
+      <button type="submit" style="background: #2563eb; color: #fff; border: none; padding: 10px 18px; border-radius: 6px; font-weight: 700; cursor: pointer; width: 100%; transition: background 0.2s;">Gem Data for valgt dato</button>
+    </div>
+  </form>
+
+  <!-- FEEDBACK / ANALYSE BOKS -->
+  <div id="feedback-box" style="margin-bottom: 24px; padding: 16px; border-radius: 8px; border-left: 4px solid #3b82f6; background: #eff6ff; font-size: 0.9rem; line-height: 1.5; color: #1e3a8a;">
+    Indtast data for at se din analyse...
+  </div>
+
+  <!-- GRAF (CHART.JS) -->
+  <div style="position: relative; height: 350px; width: 100%; margin-bottom: 32px;">
+    <canvas id="recoveryChart"></canvas>
+  </div>
+  
+  <!-- HISTORIK TABEL -->
+  <div style="margin-bottom: 24px;">
+<h3 style="color: #0f172a; font-size: 1.1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 12px;">📅 Din Historik</h3>
+  <div style="overflow-x: auto; width: 100%;">
+    <table style="width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.85rem; text-align: left;">        <thead>
+          <tr style="border-bottom: 2px solid #e2e8f0; color: #475569;">
+            <th style="padding: 8px;">Dato</th>
+            <th style="padding: 8px;">Søvn</th>
+            <th style="padding: 8px;">Kvalitet</th>
+            <th style="padding: 8px;">HRV</th>
+            <th style="padding: 8px;">Puls</th>
+            <th style="padding: 8px; text-align: right;">Handling</th>
+          </tr>
+        </thead>
+        <tbody id="history-table-body">
+          <!-- Rækker indsættes via JS -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #e2e8f0; padding-top: 16px;">
+      <p style="font-size: 0.75rem; color: #64748b; margin: 0;">
+        🔒 <b>Privatliv:</b> Dine data gemmes udelukkende lokalt på din egen enhed (localStorage) og deles ikke.
+      </p>
+      <button id="clear-db-btn" style="background: none; border: none; color: #ef4444; font-size: 0.8rem; cursor: pointer; text-decoration: underline;">Slet al historik</button>
+  </div>
+</div>
+
+<script>
+(function() {
+  const MASTER_KEY = 'motionsplan_master_log';
+  const MINI_KEY = 'motionsplan_today_sleep';
+  let chartInstance = null;
+
+  const form = document.getElementById('master-form');
+  const dateInput = document.getElementById('m-date');
+  const sleepInput = document.getElementById('m-sleep');
+  const qualInput = document.getElementById('m-qual');
+  const hrvInput = document.getElementById('m-hrv');
+  const rhrInput = document.getElementById('m-rhr');
+  const feedbackBox = document.getElementById('feedback-box');
+  const tableBody = document.getElementById('history-table-body');
+
+  const todayStr = new Date().toISOString().split('T')[0];
+  
+  if (!dateInput.value) dateInput.value = todayStr;
+
+  function getLogs() {
+    return JSON.parse(localStorage.getItem(MASTER_KEY) || '[]').sort((a,b) => new Date(a.date) - new Date(b.date));
+  }
+
+  function saveLogs(logs) {
+    localStorage.setItem(MASTER_KEY, JSON.stringify(logs));
+  }
+
+  function generateFeedback(logs, selectedDate) {
+    const latest = logs.find(l => l.date === selectedDate);
+    
+    if (!latest) {
+      feedbackBox.innerHTML = "Ingen data gemt for denne dato endnu.";
+      return;
+    }
+
+    let msg = `<b>Status for ${selectedDate.split('-').reverse().join('/')}:</b> Du sov i ${latest.sleep} timer (Kvalitet: ${latest.qual}/5).<br><br>`;
+
+    const hrvLogs = logs.filter(l => l.hrv && l.hrv > 0);
+    if (latest.hrv > 0) {
+      if (hrvLogs.length < 5) {
+        msg += `⚠️ <i>HRV-Baseline:</i> Mangler ${5 - hrvLogs.length} dages data for at vurdere HRV.<br>`;
+      } else {
+        const baselineData = hrvLogs.slice(-8, -1);
+        const baselineAvg = Math.round(baselineData.reduce((sum, l) => sum + Number(l.hrv), 0) / baselineData.length);
+        const diff = latest.hrv - baselineAvg;
+        
+        msg += `💡 <b>HRV:</b> ${latest.hrv} ms (Baseline: ${baselineAvg} ms). `;
+        if (diff < -5) msg += `<span style="color: #b91c1c;">Ligger under normalen. Tegn på stress/træthed.</span><br>`;
+        else if (diff > 10) msg += `<span style="color: #047857;">Højere end normalt. Rigtig god restitution!</span><br>`;
+        else msg += `<span style="color: #047857;">Stabil. God balance!</span><br>`;
+      }
+    }
+
+    const rhrLogs = logs.filter(l => l.rhr && l.rhr > 0);
+    if (latest.rhr > 0) {
+      if (rhrLogs.length < 5) {
+        msg += `⚠️ <i>Hvilepuls-Baseline:</i> Mangler ${5 - rhrLogs.length} dages data for at vurdere pulsen.<br>`;
+      } else {
+        const rhrBaselineData = rhrLogs.slice(-8, -1);
+        const rhrAvg = Math.round(rhrBaselineData.reduce((sum, l) => sum + Number(l.rhr), 0) / rhrBaselineData.length);
+        const rhrDiff = latest.rhr - rhrAvg;
+        
+        msg += `🫀 <b>Hvilepuls:</b> ${latest.rhr} bpm (Baseline: ${rhrAvg} bpm). `;
+        if (rhrDiff > 3) msg += `<span style="color: #b91c1c;">Din puls er forhøjet. Kroppen arbejder muligvis på at restituere.</span><br>`;
+        else if (rhrDiff < -3) msg += `<span style="color: #047857;">Lavere end normalt. Flot aerob form/restitution.</span><br>`;
+        else msg += `<span style="color: #047857;">Stabil normalpuls.</span><br>`;
+      }
+    }
+
+    feedbackBox.innerHTML = msg;
+  }
+
+  function renderChart(logs) {
+    const ctx = document.getElementById('recoveryChart').getContext('2d');
+    const recentLogs = logs.slice(-14);
+    
+    const labels = recentLogs.map(l => {
+        const parts = l.date.split('-');
+        return `${parts[2]}/${parts[1]}`;
+    }); 
+    
+    const sleepData = recentLogs.map(l => l.sleep);
+    const hrvData = recentLogs.map(l => l.hrv || null);
+    const rhrData = recentLogs.map(l => l.rhr || null);
+
+    if (chartInstance) chartInstance.destroy();
+
+    chartInstance = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            label: 'Hvilepuls (bpm)', data: rhrData,
+            borderColor: '#ef4444', backgroundColor: '#ef4444',
+            borderWidth: 2, tension: 0.3, yAxisID: 'y-rhr', spanGaps: true
+          },
+          {
+            label: 'HRV (ms)', data: hrvData,
+            borderColor: '#f59e0b', backgroundColor: '#f59e0b',
+            borderWidth: 3, tension: 0.3, yAxisID: 'y-hrv', spanGaps: true
+          },
+          {
+            label: 'Søvn (timer)', data: sleepData, type: 'bar',
+            backgroundColor: 'rgba(59, 130, 246, 0.4)', borderColor: '#3b82f6',
+            borderWidth: 1, borderRadius: 4, yAxisID: 'y-sleep'
+          }
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        scales: {
+          'y-sleep': { type: 'linear', position: 'left', min: 0, max: 12, title: { display: true, text: 'Søvntimer' } },
+          'y-hrv': { type: 'linear', position: 'right', title: { display: true, text: 'HRV (ms)' }, grid: { drawOnChartArea: false } },
+          'y-rhr': { type: 'linear', position: 'right', title: { display: true, text: 'Puls (bpm)' }, grid: { drawOnChartArea: false } }
+        }
+      }
+    });
+  }
+
+  // --- NY FUNKTION: Tegn Tabel ---
+  function renderTable(logs) {
+    tableBody.innerHTML = '';
+    if (logs.length === 0) {
+      tableBody.innerHTML = '<tr><td colspan="6" style="padding: 12px; text-align: center; color: #94a3b8;">Ingen data at vise endnu.</td></tr>';
+      return;
+    }
+
+    // Vi vender arrayet om, så de nyeste datoer ligger øverst i tabellen
+    const reversedLogs = [...logs].reverse();
+
+    reversedLogs.forEach(log => {
+      const danishDate = log.date.split('-').reverse().join('/');
+      const tr = document.createElement('tr');
+      tr.style.borderBottom = '1px solid #f1f5f9';
+      
+      tr.innerHTML = `
+        <td style="padding: 8px; font-weight: 600;">${danishDate}</td>
+        <td style="padding: 8px;">${log.sleep} t</td>
+        <td style="padding: 8px;">${log.qual}/5</td>
+        <td style="padding: 8px;">${log.hrv ? log.hrv : '-'}</td>
+        <td style="padding: 8px;">${log.rhr ? log.rhr : '-'}</td>
+        <td style="padding: 8px; text-align: right;">
+          <button onclick="window.editLog('${log.date}')" style="background: none; border: none; color: #2563eb; cursor: pointer; padding: 0 4px;" title="Rediger">✏️</button>
+          <button onclick="window.deleteLog('${log.date}')" style="background: none; border: none; color: #ef4444; cursor: pointer; padding: 0 4px;" title="Slet">🗑️</button>
+        </td>
+      `;
+      tableBody.appendChild(tr);
+    });
+  }
+
+  function updateUI() {
+    const logs = getLogs();
+    const selectedDate = dateInput.value;
+    const targetLog = logs.find(l => l.date === selectedDate);
+    
+    if (targetLog) {
+      sleepInput.value = targetLog.sleep;
+      qualInput.value = targetLog.qual;
+      hrvInput.value = targetLog.hrv || '';
+      rhrInput.value = targetLog.rhr || '';
+    } else {
+      sleepInput.value = '';
+      qualInput.value = '';
+      hrvInput.value = '';
+      rhrInput.value = '';
+      
+      if (selectedDate === todayStr) {
+          const miniData = JSON.parse(localStorage.getItem(MINI_KEY));
+          if (miniData && miniData.date === todayStr) {
+              sleepInput.value = miniData.hours;
+              qualInput.value = miniData.quality;
+          }
+      }
+    }
+
+    renderChart(logs);
+    renderTable(logs); // Tegner tabellen
+    generateFeedback(logs, selectedDate);
+  }
+
+  // Gør edit og delete tilgængelige globalt (for knapperne i tabellen)
+  window.editLog = function(dateStr) {
+    dateInput.value = dateStr;
+    updateUI();
+    // Scroll blødt op til formularen
+    document.getElementById('master-form').scrollIntoView({ behavior: 'smooth' });
+  };
+
+  window.deleteLog = function(dateStr) {
+    const danishDate = dateStr.split('-').reverse().join('/');
+    if(confirm(`Er du sikker på, at du vil slette registreringen for ${danishDate}?`)) {
+      let logs = getLogs();
+      logs = logs.filter(l => l.date !== dateStr);
+      saveLogs(logs);
+      
+      // Hvis vi lige har slettet den dag, der vises i toppen, skift tilbage til i dag
+      if(dateInput.value === dateStr) {
+        dateInput.value = todayStr;
+      }
+      updateUI();
+    }
+  };
+
+  dateInput.addEventListener('change', updateUI);
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    let logs = getLogs();
+    
+    const dateVal = dateInput.value;
+    const newLog = {
+      date: dateVal,
+      sleep: parseFloat(sleepInput.value),
+      qual: parseInt(qualInput.value),
+      hrv: hrvInput.value ? parseFloat(hrvInput.value) : null,
+      rhr: rhrInput.value ? parseInt(rhrInput.value) : null
+    };
+
+    const index = logs.findIndex(l => l.date === dateVal);
+    if (index > -1) logs[index] = newLog;
+    else logs.push(newLog);
+
+    saveLogs(logs);
+    updateUI();
+  });
+
+  document.getElementById('clear-db-btn').addEventListener('click', function() {
+    if(confirm("Er du 100% sikker? Dette sletter alle gemte søvn- og HRV-data fra din enhed.")) {
+      localStorage.removeItem(MASTER_KEY);
+      dateInput.value = todayStr;
+      updateUI();
+    }
+  });
+
+  updateUI();
+})();
+</script>
