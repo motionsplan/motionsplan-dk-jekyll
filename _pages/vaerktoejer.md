@@ -45,11 +45,19 @@ feature_row_navigation:
     btn_class: btn--success
   - image_path: /assets/images/unsplash/photo-1546016366-bf061374d54e.jpg
     credit: https://images.unsplash.com/photo-1546016366-bf061374d54e
-    alt: Fysiske og Psykologiske Tests
-    title: Testkatalog
-    excerpt: Test din kondition, styrke, hurtighed og mentale sundhed med vores videnskabelige testværktøjer.
+    alt: Fysiske Tests
+    title: Fysisk Testkatalog
+    excerpt: Test din kondition, styrke og hurtighed. Vi har samlet de mest anerkendte fysiologiske og fysiske testprotokoller.
     url: /tests/
     btn_label: <i class='fas fa-stopwatch'></i> Gå til testkatalog
+    btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1434030216411-0b793f4b4173.jpg
+    credit: https://images.unsplash.com/photo-1434030216411-0b793f4b4173
+    alt: Psykologiske Tests
+    title: Mentale & Psykologiske Tests
+    excerpt: Afdæk dit mentale overskud, overtræning (REDs) og konkurrenceanst med vores idrætspsykologiske screeningsværktøjer.
+    url: /vurderingsvaerktoejer/
+    btn_label: <i class='fas fa-brain'></i> Gå til mentale tests
     btn_class: btn--success
 feature_row_biomekanik:
   - image_path: /assets/images/blog/biomekanik-squat.jpg
@@ -85,7 +93,7 @@ feature_row_plate_calculator:
 
 Velkommen til vores samlede portal for **træningsværktøjer, beregnere og interaktive modeller**. 
 
-Gør din træning og sundhed mere datadrevet. Hvad enten du vil beregne din energibalance, analysere din løfteteknik eller omregne træningsdata, finder du redskaberne her.
+Gør din træning og sundhed mere datadrevet. Hvad enten du vil beregne din energibalance, analysere din løfteteknik, tjekke din mentale trivsel eller omregne træningsdata, finder du redskaberne her.
 
 ---
 
@@ -100,20 +108,20 @@ Gør din træning og sundhed mere datadrevet. Hvad enten du vil beregne din ener
 
 ---
 
-## Vælg kategori
+## Vælg Kategori
 {: id="hovedkategorier" }
 
 {% include feature_row id="feature_row_navigation" %}
 
 ---
 
-## Interaktive værktøjer & beregnere
+## Interaktive Værktøjer & Beregnere
 {: id="tools" }
 
 <div class="notice--info" markdown="1">
 ### 🧮 Sundheds- & Kalorieberegnere
 Få styr på kost, energiomsætning og kropssammensætning.
-* **[Ligevægtsindtag](/ligevaegtsindtag-beregner/)** & **[BMR Beregner](/bmr-beregner/)**– Udregn dit daglige kaloriebehov ud fra dit aktivitetsniveau.
+* **[Ligevægtsindtag](/ligevaegtsindtag-beregner/)** & **[BMR Beregner](/bmr-beregner/)** – Udregn dit daglige kaloriebehov ud fra dit aktivitetsniveau.
 * **[BMI Beregner (Voksne)](/bmi-beregner/)** & **[BMI til Børn & Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek dit BMI i forhold til officielle sundhedsintervaller.
 * **[Mål din Fedtprocent](/maal-fedtprocent/)** – Oversigt over 7 forskellige metoder til måling af kropsfedt.
 * **[Taljemål & Talje-Hofte Ratio](/taljemaal/)** – Vurdér sundhedsrisiko baseret på fedtfordeling.
@@ -137,7 +145,17 @@ Optimér din løbetræning og præstation.
 * **[VDOT & Løbetider](/loebesiden-jack-daniels-loebeberegner/)** – Forudsig dine løbetider på 5k, 10k, halvmaraton og maraton.
 
 [Se alle konditionstests »](/kondition/tests/){: .btn .btn--warning } [Se alle løbetests »](/tests/loeb/){: .btn .btn--warning } [Se alle cykeltests »](/tests/cykling/){: .btn .btn--warning }
+</div>
 
+
+<div class="notice--primary" markdown="1">
+### 🧠 Mentale Vurderinger & Sportspsykologi
+Redskaber til at vurdere din mentale sundhed, trivsel og idrætspsykologiske balance.
+* **[REDs Energitjek (Relativ Energimangel)](/reds-relativ-energimangel-test/)** – Test balancen mellem træningsmængde, energi og fysiologi.
+* **[Sportspsykologiske Tests](/sportspsykologiske-tests/)** – Samlet portal for overtræning, præstationsangst, mental styrke og motivation.
+* **[WHO-5 Trivselsindeks](/who5-trivselindekset/)** & **[Stresstest (PSS-10)](/stress-test/)** – Mål dit hverdags-overskud og dit generelle belastningsniveau.
+
+[Se det fulde psykologiske testkatalog »](/vurderingsvaerktoejer/){: .btn .btn--primary }
 </div>
 
 ---
@@ -167,5 +185,6 @@ Forstå hvordan din kropsbygning og antropometri (lårben, armlængde, ryglængd
 Hvis du er på udkig efter konkrete testprotokoller (som *Cooper-test, Bip-test, Wingate eller Agility-tests*), finder du dem i vores dedikerede testkataloger:
 
 * ⏱️ **[Fysisk Testkatalog (Kondition, Løb, Cykling, Styrke)](/tests/)**
-* 🧠 **[Psykologiske Tests & Mentalt Velvære](/vurderingsvaerktoejer/)**
+* 🧠 **[Vurderingsværktøjer & Psykologiske Tests](/vurderingsvaerktoejer/)**
+* 🏆 **[Sportspsykologiske Tests (Atleter & Trænere)](/sportspsykologiske-tests/)**
 * 👮 **[Politiets Optagelsesprøve](/politiets-optagelsesproeve/)**

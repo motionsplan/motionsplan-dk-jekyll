@@ -1,0 +1,632 @@
+<div class="reds-app-container">
+  <!-- Header & Progress Tracker -->
+  <div class="reds-header">
+    <div class="reds-tracker-info">
+      <span class="reds-badge" id="reds-badge">REDs Screening</span>
+      <span class="reds-step-counter" id="reds-step-counter">Trin 1 af 8</span>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="reds-progress-bar">
+      <div class="reds-progress-fill" id="reds-progress-fill" style="width: 12.5%;"></div>
+    </div>
+  </div>
+
+  <!-- Wizard Spørgsmål Container -->
+  <div class="reds-wizard-body" id="reds-wizard-body">
+    
+    <!-- Trin 1: Kønsvalg -->
+    <div class="reds-step active" data-step="1">
+      <h3 class="reds-question">1. Vælg dit biologiske køn</h3>
+      <p class="reds-step-desc">Relativ energimangel udviser forskellige fysiologiske og hormonelle symptomer hos mænd og kvinder.</p>
+      <div class="reds-options-grid">
+        <button type="button" class="reds-option-btn gender-btn" data-gender="female">
+          <span class="reds-opt-num">♀</span> Kvinde (Sporer menstruation & knoglesundhed)
+        </button>
+        <button type="button" class="reds-option-btn gender-btn" data-gender="male">
+          <span class="reds-opt-num">♂</span> Mand (Sporer testosteron/libido & restitution)
+        </button>
+      </div>
+    </div>
+
+    <!-- Dynamiske Spørgsmål (Udfyldes fra JS) -->
+    <div id="reds-dynamic-steps"></div>
+
+    <!-- Navigation Fod -->
+    <div class="reds-nav-footer">
+      <button type="button" class="reds-nav-btn prev" id="reds-prev-btn" disabled>← Forrige</button>
+      <span class="reds-auto-hint">Vælg et svar for at gå videre</span>
+    </div>
+  </div>
+
+  <!-- Resultat Dashboard -->
+  <div class="reds-result-card" id="reds-result-card" style="display: none;">
+    <div class="reds-result-header">
+      <h2>Dine Screeningsresultater</h2>
+      <p class="reds-result-subtitle" id="reds-result-subtitle">Målt ud fra IOC REDs CAT (2023) retningslinjerne</p>
+    </div>
+
+    <div class="reds-score-display">
+      <div class="reds-score-circle" id="reds-score-circle">
+        <span class="reds-score-number" id="reds-score-number">0</span>
+        <span class="reds-score-max">/ 14</span>
+      </div>
+      <div class="reds-status-badge" id="reds-status-badge">Beregner...</div>
+    </div>
+
+    <!-- Domæne-score kort -->
+    <div class="reds-domains-grid">
+      <div class="reds-domain-card">
+        <div class="domain-title">Trænings- & Energimønster</div>
+        <div class="domain-score" id="reds-d1-score">0 / 4</div>
+      </div>
+      <div class="reds-domain-card">
+        <div class="domain-title">Hormonelt Signal (Køn)</div>
+        <div class="domain-score" id="reds-d2-score">0 / 4</div>
+      </div>
+      <div class="reds-domain-card">
+        <div class="domain-title">Fysiske Tegn / Skader</div>
+        <div class="domain-score" id="reds-d3-score">0 / 6</div>
+      </div>
+    </div>
+
+    <div class="reds-result-description" id="reds-result-text">
+      <!-- Dynamisk tekst fra JS -->
+    </div>
+
+    <div class="reds-action-box" id="reds-action-box">
+      <!-- Dynamiske anbefalinger -->
+    </div>
+
+    <button type="button" class="reds-restart-btn" id="reds-restart-btn">🔄 Tag testen igen</button>
+  </div>
+
+  <!-- Kildeangivelse i Bunden -->
+  <div class="reds-source-footer">
+    📌 <strong>Kilde & Licens:</strong> <em>IOC REDs Clinical Assessment Tool (2023)</em> af Mountjoy et al., samt LEAF-Q & LEAM-Q principperne. Åbent klinisk måleredskab udgivet af IOC til fri anvendelse.
+  </div>
+</div>
+
+<style>
+/* CSS STYLES FOR KØNSDIFFERENTIERET REDS TOOL */
+.reds-app-container {
+  max-width: 680px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1e293b;
+}
+
+.reds-header {
+  padding: 24px 28px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.reds-tracker-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.reds-badge {
+  background: #ffedd5;
+  color: #c2410c;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.reds-step-counter {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.reds-progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.reds-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ea580c, #ef4444);
+  transition: width 0.35s ease;
+}
+
+.reds-wizard-body {
+  padding: 28px;
+}
+
+.reds-step-desc {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+
+.reds-step {
+  display: none;
+  animation: fadeIn 0.35s ease-in-out;
+}
+
+.reds-step.active {
+  display: block;
+}
+
+.reds-question {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.45;
+}
+
+.reds-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reds-option-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 13px 16px;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #334155;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.reds-option-btn:hover {
+  border-color: #fdba74;
+  background: #fff7ed;
+  transform: translateY(-1px);
+}
+
+.reds-option-btn.selected {
+  border-color: #ea580c;
+  background: #ffedd5;
+  color: #9a3412;
+  font-weight: 600;
+}
+
+.reds-opt-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  margin-right: 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #475569;
+  flex-shrink: 0;
+}
+
+.reds-option-btn.selected .reds-opt-num {
+  background: #ea580c;
+  color: #ffffff;
+}
+
+.reds-nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.reds-nav-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.reds-nav-btn.prev {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.reds-nav-btn.prev:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.reds-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.reds-auto-hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.reds-result-card {
+  padding: 32px 28px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.reds-result-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #0f172a;
+}
+
+.reds-result-subtitle {
+  color: #64748b;
+  margin-top: 4px;
+  font-size: 0.95rem;
+}
+
+.reds-score-display {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reds-score-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 6px solid #ea580c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  background: #fff7ed;
+}
+
+.reds-score-number {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #ea580c;
+}
+
+.reds-score-max {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.reds-status-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.status-green { background: #dcfce7; color: #166534; }
+.status-yellow { background: #fef9c3; color: #854d0e; }
+.status-red { background: #fee2e2; color: #991b1b; }
+
+.reds-domains-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.reds-domain-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.domain-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #475569;
+}
+
+.domain-score {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-top: 2px;
+}
+
+.reds-result-description {
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 12px;
+  color: #334155;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+  border-left: 4px solid #ea580c;
+}
+
+.reds-action-box {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.reds-restart-btn {
+  padding: 12px 24px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.reds-restart-btn:hover {
+  background: #334155;
+}
+
+.reds-source-footer {
+  padding: 12px 24px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.78rem;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.4;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 580px) {
+  .reds-domains-grid {
+    grid-template-columns: 1fr;
+  }
+  .reds-wizard-body, .reds-header, .reds-result-card {
+    padding: 18px;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  let selectedGender = null; // 'female' or 'male'
+  let currentStep = 1;
+  const totalSteps = 8;
+  const userAnswers = new Array(8).fill(null);
+
+  // Spørgsmåls-database differentieret på køn
+  const questionPool = {
+    female: [
+      { id: 2, cat: 1, text: "Hvor mange timer intensiv udholdenhed/cardio/styrke træner du om ugen?", opts: ["Under 5 timer", "5-9 timer", "Over 10 timer om ugen"] },
+      { id: 3, cat: 1, text: "Føler du, at du bevidst skærer ned på madindtaget eller hopper måltider over for at kontrollere kropsvægten?", opts: ["Nej, jeg spiser efter min appetit", "Ja, i visse perioder", "Ja, jeg styrer det meget stramt"] },
+      { id: 4, cat: 2, text: "Hvordan er din menstruationscyklus i øjeblikket?", opts: ["Regelmæssig (hver 21-35. dag)", "Uregelmæssig / pletblødninger", "Udebleven i > 3 måneder (amenorré)"] },
+      { id: 5, cat: 2, text: "Har du bemærket, at dine blødninger er blevet markant svagere eller helt stoppet efter du øgede din træningsmængde?", opts: ["Nej, ingen ændring", "Ja, blødningerne er svagere", "Ja, min menstruation stoppede"] },
+      { id: 6, cat: 3, text: "Har du haft stressfrakturer (træthedsbrud), genstridige ledsmerter eller hyppige skader i knogler/sener?", opts: ["Nej, ingen knogleskader", "Ja, 1 træthedsbrud eller langvarig skade", "Ja, flere træthedsbrud/skader"] },
+      { id: 7, cat: 3, text: "Oplever du fysiologiske tegn som konstant at fryse/have kolde hænder, forstoppelse eller oppustethed?", opts: ["Nej, ingen tegn", "Ja, i mild grad", "Ja, konstant oppustet / fryser ofte"] },
+      { id: 8, cat: 3, text: "Oplever du uforklarligt fald/stagnation i din træningsfremgang og konstant kropslig udmattelse?", opts: ["Nej, min fremgang er fin", "Ja, en del af tiden", "Ja, jeg føler mig helt udbrændt"] }
+    ],
+    male: [
+      { id: 2, cat: 1, text: "Hvor mange timer intensiv udholdenhed/cardio/styrke træner du om ugen?", opts: ["Under 5 timer", "5-9 timer", "Over 10 timer om ugen"] },
+      { id: 3, cat: 1, text: "Føler du, at du bevidst skærer ned på madindtaget eller hopper måltider over for at holde en lav fedtprocent?", opts: ["Nej, jeg spiser efter min appetit", "Ja, i visse perioder", "Ja, jeg styrer det meget stramt"] },
+      { id: 4, cat: 2, text: "Oplever du nedsat sexlyst (libido) sammenlignet med tidligere?", opts: ["Nej, min sexlyst er uændret", "Ja, mærkbart nedsat", "Ja, min sexlyst er næsten væk"] },
+      { id: 5, cat: 2, text: "Hvor ofte oplever du naturlig morgenrejsning?", opts: ["Næsten hver morgen", "Sjældent (1-2 gange om ugen)", "Næsten aldrig / slet ikke"] },
+      { id: 6, cat: 3, text: "Har du haft stressfrakturer (træthedsbrud), genstridige ledsmerter eller hyppige overbelastninger?", opts: ["Nej, ingen knogleskader", "Ja, 1 træthedsbrud eller langvarig skade", "Ja, flere træthedsbrud/skader"] },
+      { id: 7, cat: 3, text: "Oplever du fysiologiske tegn som konstant at fryse/have kolde hænder, forstoppelse eller svækket immunforsvar?", opts: ["Nej, ingen tegn", "Ja, i mild grad", "Ja, fryser ofte / hyppigt syg"] },
+      { id: 8, cat: 3, text: "Oplever du uforklarligt fald/stagnation i din styrke eller kondition samt konstant kropslig udmattelse?", opts: ["Nej, min fremgang er fin", "Ja, en del af tiden", "Ja, jeg føler mig helt udbrændt"] }
+    ]
+  };
+
+  const dynamicWrapper = document.getElementById('reds-dynamic-steps');
+  const stepCounter = document.getElementById('reds-step-counter');
+  const progressFill = document.getElementById('reds-progress-fill');
+  const prevBtn = document.getElementById('reds-prev-btn');
+  const wizardBody = document.getElementById('reds-wizard-body');
+  const resultCard = document.getElementById('reds-result-card');
+
+  // Håndter kønsvalg (Trin 1)
+  document.querySelectorAll('.gender-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      selectedGender = this.getAttribute('data-gender');
+      userAnswers[0] = 0; // Gender set
+      buildDynamicSteps();
+      currentStep = 2;
+      updateUI();
+    });
+  });
+
+  function buildDynamicSteps() {
+    dynamicWrapper.innerHTML = '';
+    const questions = questionPool[selectedGender];
+
+    questions.forEach((q, idx) => {
+      const stepNum = idx + 2;
+      const stepDiv = document.createElement('div');
+      stepDiv.className = 'reds-step';
+      stepDiv.setAttribute('data-step', stepNum);
+      stepDiv.setAttribute('data-cat', q.cat);
+
+      stepDiv.innerHTML = `
+        <h3 class="reds-question">${stepNum}. ${q.text}</h3>
+        <div class="reds-options-grid">
+          <button type="button" class="reds-option-btn opt-btn" data-val="0"><span class="reds-opt-num">A</span> ${q.opts[0]}</button>
+          <button type="button" class="reds-option-btn opt-btn" data-val="1"><span class="reds-opt-num">B</span> ${q.opts[1]}</button>
+          <button type="button" class="reds-option-btn opt-btn" data-val="2"><span class="reds-opt-num">C</span> ${q.opts[2]}</button>
+        </div>
+      `;
+      dynamicWrapper.appendChild(stepDiv);
+    });
+
+    // Event listeners til nye knapper
+    dynamicWrapper.querySelectorAll('.opt-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const val = parseInt(this.getAttribute('data-val'));
+        userAnswers[currentStep - 1] = val;
+
+        const currentStepEl = document.querySelector(`.reds-step[data-step="${currentStep}"]`);
+        currentStepEl.querySelectorAll('.opt-btn').forEach(b => b.classList.remove('selected'));
+        this.classList.add('selected');
+
+        setTimeout(() => {
+          if (currentStep < totalSteps) {
+            currentStep++;
+            updateUI();
+          } else {
+            calculateResults();
+          }
+        }, 200);
+      });
+    });
+  }
+
+  function updateUI() {
+    stepCounter.textContent = `Trin ${currentStep} af ${totalSteps}`;
+
+    const progressPercent = (currentStep / totalSteps) * 100;
+    progressFill.style.width = `${progressPercent}%`;
+
+    document.querySelectorAll('.reds-step').forEach(step => {
+      step.classList.remove('active');
+      if (parseInt(step.getAttribute('data-step')) === currentStep) {
+        step.classList.add('active');
+      }
+    });
+
+    prevBtn.disabled = currentStep === 1;
+  }
+
+  prevBtn.addEventListener('click', function() {
+    if (currentStep > 1) {
+      currentStep--;
+      updateUI();
+    }
+  });
+
+  function calculateResults() {
+    // Domæne point (trin 2-8, dvs indeks 1-7 i userAnswers)
+    // Domæne 1: Træning & Energimønster (Q2, Q3) -> max 4
+    const d1Score = (userAnswers[1]||0) + (userAnswers[2]||0);
+    
+    // Domæne 2: Hormonelt Signal Køn (Q4, Q5) -> max 4
+    const d2Score = (userAnswers[3]||0) + (userAnswers[4]||0);
+
+    // Domæne 3: Fysiske tegn / skader (Q6, Q7, Q8) -> max 6
+    const d3Score = (userAnswers[5]||0) + (userAnswers[6]||0) + (userAnswers[7]||0);
+
+    const totalScore = d1Score + d2Score + d3Score; // max 14
+
+    wizardBody.style.display = 'none';
+    document.querySelector('.reds-header').style.display = 'none';
+    resultCard.style.display = 'block';
+
+    const scoreNumEl = document.getElementById('reds-score-number');
+    const scoreCircle = document.getElementById('reds-score-circle');
+    const statusBadge = document.getElementById('reds-status-badge');
+    const textEl = document.getElementById('reds-result-text');
+    const actionEl = document.getElementById('reds-action-box');
+
+    let count = 0;
+    const timer = setInterval(() => {
+      if (count >= totalScore) {
+        scoreNumEl.textContent = totalScore;
+        clearInterval(timer);
+      } else {
+        count++;
+        scoreNumEl.textContent = count;
+      }
+    }, 40);
+
+    document.getElementById('reds-d1-score').textContent = `${d1Score} / 4`;
+    document.getElementById('reds-d2-score').textContent = `${d2Score} / 4`;
+    document.getElementById('reds-d3-score').textContent = `${d3Score} / 6`;
+
+    const genderText = selectedGender === 'female' ? "kvinder (LEAF-Q)" : "mænd (LEAM-Q)";
+    document.getElementById('reds-result-subtitle').textContent = `Målt ud fra IOC REDs CAT (2023) for ${genderText}`;
+
+    // Trafiklys tolkning
+    if (totalScore >= 8 || d2Score >= 3) {
+      scoreCircle.style.borderColor = "#ef4444";
+      scoreCircle.style.background = "#fef2f2";
+      scoreNumEl.style.color = "#b91c1c";
+      statusBadge.className = "reds-status-badge status-red";
+      statusBadge.textContent = "🔴 Rød Zone: Høj Risiko for REDs";
+
+      textEl.innerHTML = `<strong>Adfærd og biologiske tegn udviser klar energimangel (${totalScore} point):</strong> Din besvarelse viser en uheldig kombination af høje træningsmængder og fysiologiske/hormonelle advarselssignaler.`;
+      actionEl.innerHTML = `
+        <div style="background:#fee2e2; border: 1px solid #fca5a5; padding: 16px; border-radius: 8px; font-size: 0.9rem; color: #991b1b;">
+          <strong>Anbefalet indsats:</strong><br>
+          • Skru op for dit mad- og kalorieindtag før og efter træning.<br>
+          • Skær ned på den intensive træningsmængde og prioritér restitution.<br>
+          • Drøft situationen med din egen læge, en sportspsykolog eller en idrætsdietist.
+        </div>`;
+    } else if (totalScore >= 4) {
+      scoreCircle.style.borderColor = "#eab308";
+      scoreCircle.style.background = "#fefce8";
+      scoreNumEl.style.color = "#a16207";
+      statusBadge.className = "reds-status-badge status-yellow";
+      statusBadge.textContent = "🟡 Gul Zone: Moderat Risiko / Opmærksomhed";
+
+      textEl.innerHTML = `<strong>Spæde tegn på energimangel (${totalScore} point):</strong> Du udviser visse spæde ubalancer i din energitilgængelighed, restitution eller fysiologiske signaler.`;
+      actionEl.innerHTML = `
+        <div style="background:#fef9c3; border: 1px solid #fde047; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #854d0e;">
+          <strong>Anbefalet indsats:</strong> Vær ekstra opmærksom på at tilføre tilstrækkeligt med brændstof før og efter træning. Hold øje med, at din restitution forbliver god.
+        </div>`;
+    } else {
+      scoreCircle.style.borderColor = "#10b981";
+      scoreCircle.style.background = "#ecfdf5";
+      scoreNumEl.style.color = "#047857";
+      statusBadge.className = "reds-status-badge status-green";
+      statusBadge.textContent = "🟢 Grøn Zone: Sund Energibalance";
+
+      textEl.innerHTML = `<strong>Fin balance (${totalScore} point):</strong> Din træningsmængde, dit forhold til mad og din fysiologiske restitution fremstår velafbalanceret.`;
+      actionEl.innerHTML = `<p style="font-size:0.9rem; color:#64748b;"><strong>Anbefaling:</strong> Fortsæt dine sunde vaner med at nære og restituere kroppen i forhold til din træningsmængde.</p>`;
+    }
+  }
+
+  document.getElementById('reds-restart-btn').addEventListener('click', function () {
+    currentStep = 1;
+    selectedGender = null;
+    for (let i = 0; i < rawAnswers.length; i++) userAnswers[i] = null;
+
+    dynamicWrapper.innerHTML = '';
+    document.querySelectorAll('.gender-btn').forEach(b => b.classList.remove('selected'));
+
+    resultCard.style.display = 'none';
+    wizardBody.style.display = 'block';
+    document.querySelector('.reds-header').style.display = 'block';
+
+    updateUI();
+  });
+
+  updateUI();
+});
+</script>

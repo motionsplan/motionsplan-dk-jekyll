@@ -1,6 +1,7 @@
 ---
 title: 'Test af træningsafhængighed: Er du afhængig af træning?'
-seo_title: Er du afhængig af træning? | Test din træningsafhængighed!
+seo_title: Er du afhængig af træning? | Test din træningsafhængighed! (EAI)
+description: Hvornår tipper balancen fra sund dedikation til tvang? Tag den anerkendte EAI-screeningstest for træningsafhængighed og få svar på din risikoprofil.
 permalink: /traeningsafhaengighed/
 language: da
 header:
@@ -23,7 +24,7 @@ faq:
   - question: Hvad hedder træningsafhængighed på engelsk?
     answer: På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise addiction' og 'exercise dependence'.
   - question: Er træningsafhængighed en spiseforstyrrelse?
-    answer: Træningsafhængighed er ikke i sig selv en spiseforstyrrelse, da tvangshandlingerne er centreret om motion frem for kost. Træningsafhængighed og spiseforstyrrelser følges dog ofte ad.
+    answer: Træningsafhængighed er ikke i sig selv en spiseforstyrrelse, da tvangshandlingerne er centreret om selve motionen frem for kosten. Træningsafhængighed og spiseforstyrrelser følges dog meget ofte ad.
 tests:
   - id: "test-traeningsafhaengighed-eai"
     title: "Exercise Addiction Inventory (EAI)"
@@ -47,23 +48,40 @@ tools:
     category: ["Psykologi", "Vurderingsværktøjer"]
     type: ["Beregner"]
     measures: ["Træningsafhængighed", "EAI-score", "Afhængighedsrisiko"]
-    anchor: "#test-din-traeningsafhaengighed"
+    anchor: "#test-din-traeningsafhaengighed-eai"
     category_schema: "HealthAndFitnessApplication"
 ---
 
-Træningsafhængighed (på engelsk *Exercise Addiction*) betegner en tilstand, hvor trangen til motion bliver tvangspræget, og hvor træningen tager styringen over hverdagen. For personer med træningsafhængighed fylder motionen det meste af tilværelsen – ofte på bekostning af helbred, sociale relationer og arbejdsliv.
+Motion er uomtvisteligt sundt for både krop og sind. Men for nogle tipper balancen fra at være en dedikeret og sund interesse til at blive en altoverskyggende, tvangspræget nødvendighed.
 
-Du kan læse mere om tilstanden hos [Landsforeningen mod spiseforstyrrelser og selvskade (LMS)](https://www.lmsos.dk/traeningsafhaengighed).
+Træningsafhængighed (på engelsk *Exercise Addiction*) betegner en tilstand, hvor trangen til motion har taget styringen over hverdagen. Træningen bliver et middel til at håndtere svære følelser, og den vedligeholdes, selvom den går ud over helbredet, sociale relationer og arbejdslivet.
+
+Du kan læse mere om tilstanden, og hvornår det sunde bliver usundt, hos [Landsforeningen mod spiseforstyrrelser og selvskade (LMS)](https://www.lmsos.dk/traeningsafhaengighed).
 
 {% include video provider="youtube" id="P9z2pwrcLvE" %}
 
 ---
 
+## De 6 tegn på træningsafhængighed
+
+For at kunne måle træningsafhængighed systematisk har forskningen identificeret seks kernedimensioner, der kendetegner adfærdsafhængighed (på samme måde som man ser ved fx spilafhængighed). 
+
+Det er disse seks dimensioner, som udgør fundamentet for den anerkendte **EAI-test (Exercise Addiction Inventory)**, som du kan tage længere nede på siden. Hvert af testens 6 spørgsmål knytter sig direkte til én af følgende psykologiske mekanismer:
+
+1. 🧠 **Dominans (Salience):** Træning bliver det absolut vigtigste i dit liv. Det dominerer dine tanker, dine følelser og din adfærd i hverdagen.
+2. ⚔️ **Konflikt (Conflict):** Den overdrevne træningsmængde skaber gnidninger med dine omgivelser. Du nedprioriterer din partner, venner, studie eller arbejde for at få tid til at træne.
+3. 🎭 **Humørregulering (Mood modification):** Du bruger primært træning som en "copingstrategi" – en måde at regulere dit humør på. Det giver dig et sus, fjerner stress eller dulmer negative følelser.
+4. 📉 **Tolerance (Tolerance):** Over tid vænner kroppen og hjernen sig til mængden. Du skal træne oftere eller hårdere for at opnå den samme tilfredsstillelse, som du tidligere fik ved mindre anstrengelse.
+5. 🚫 **Abstinenser (Withdrawal symptoms):** Hvis du bliver forhindret i at træne (fx på grund af sygdom, skader eller lukkede centre), oplever du stærkt ubehag i form af irritabilitet, rastløshed, angst eller tristhed.
+6. 🔄 **Tilbagefald (Relapse):** Du har flere gange indset, at du træner for meget, og har forsøgt at skære ned – men du falder lynhurtigt tilbage i de samme ekstreme træningsmængder.
+
+---
+
 ## Test din træningsafhængighed (EAI)
 
-Herunder kan du gennemføre den anerkendte **Exercise Addiction Inventory (EAI)** screeningtest. Testen består af 6 spørgsmål, hvor du vurderer dine træningsvaner på en skala fra 1 (*Meget uenig*) til 5 (*Meget enig*). 
+Herunder kan du gennemføre **Exercise Addiction Inventory (EAI)** screeningtesten. Testen undersøger de seks ovenstående mekanismer.
 
-Den samlede score ligger mellem **6 og 30 point**.
+> **Instruktion:** Vurdér for hvert af de 6 spørgsmål, hvor enig du er i udsagnet på en skala fra 1 (*Meget uenig*) til 5 (*Meget enig*). Svar ærligt ud fra, hvordan din træning reelt har påvirket dig den seneste måned.
 
 {% include components/eai-traeningsafhaengighed.html %}
 
@@ -71,29 +89,29 @@ Den samlede score ligger mellem **6 og 30 point**.
 
 ## Tolkning af dit testresultat
 
-Skalaen opdeler dit forhold til træning i tre hovedkategorier:
+Når du har besvaret alle spørgsmål, får du en samlet score på mellem **6 og 30 point**. Skalaen opdeler dit forhold til træning i tre hovedkategorier:
 
 | EAI Score | Belastningsgrad | Tolkning & Anbefaling |
 | :--- | :--- | :--- |
-| **24 – 30 point** | **Risiko for træningsafhængighed** | Du udviser stærke tegn på et tvangspræget forhold til motion. Det er sandsynligt, at din træning påvirker dig negativt fysisk, mentalt eller socialt. |
-| **13 – 23 point** | **Symptomatisk** | Du har enkelte tegn på træningsafhængighed, men udviser ikke et fuldt tvangspræget mønster. Vær opmærksom på din balance. |
-| **6 – 12 point** | **Asymptomatisk** | Du har et sundt, fleksibelt og ukompliceret forhold til din træning. |
+| **24 – 30 point** | **Risiko for træningsafhængighed** | Du udviser stærke tegn på et tvangspræget forhold til motion. Din score peger på, at din træning påvirker dig negativt fysisk, mentalt eller socialt. Vi anbefaler kraftigt, at du drøfter dine resultater med en læge, psykolog eller rådgiver. |
+| **13 – 23 point** | **Symptomatisk** | Du har enkelte tegn på overdrevet træningsfokus, men udviser ikke et fuldt tvangspræget mønster. Vær opmærksom på din balance og husk at prioritere restitution og andre aspekter af livet. |
+| **6 – 12 point** | **Asymptomatisk** | Din score indikerer et overvejende sundt, fleksibelt og ukompliceret forhold til din træning. Motion er en positiv tilføjelse til din hverdag, ikke en tvang. |
 
 ---
 
-## Baggrund for testen
+## Baggrund for EAI-testen
 
-Testen er oprindeligt udviklet af forskerne **A. Terry, A. Szabo og M.D. Griffiths (2004)** og er oversat samt valideret på dansk af psykolog og professor **Mia Beck Lichtenstein** i forbindelse med hendes ph.d.-projekt.
+Testen er oprindeligt udviklet af de internationale forskere **Annabel Terry, Attila Szabo og Mark Griffiths (2004)**. 
 
-Du kan læse mere om testen og redskaberne til at genfinde balancen i Mia Beck Lichtensteins bog *Find Træningsbalancen*.
+I Danmark er den oversat, valideret og tilpasset af psykolog og professor **Mia Beck Lichtenstein** i forbindelse med hendes ph.d.-projekt om emnet. Du kan læse en uddybende gennemgang af hendes forskning, og hvordan de seks parametre påvirker hjernen, i denne glimrende artikel på [Videnskab.dk](https://videnskab.dk/krop-sundhed/test-dig-selv-er-du-afhaengig-af-din-traening/).
 
-Hvis testen viser, at du befinder dig i risikogruppen, bør du søge faglig støtte og vejledning, eksempelvis hos [mialic.dk](https://mialic.dk/).
+Hvis testen viser, at du befinder dig i risikogruppen, bør du ikke ignorere det. Du kan søge faglig støtte og vejledning hos egen læge, hos [LMS](https://www.lmsos.dk/) eller på Mia Beck Lichtensteins egen praksis-hjemmeside [mialic.dk](https://mialic.dk/).
 
 ---
 
 ## Lær mere om træningsafhængighed
 
-Mia Beck Lichtenstein har udgivet flere faglitterære bøger om emnet. I videoen herunder fortæller hun om bogen *Besat af træning*:
+Mia Beck Lichtenstein har udgivet flere yderst anerkendte bøger om emnet, som både henvender sig til fagpersoner, pårørende og udøvere, der selv kæmper med balancen. I videoen herunder fortæller hun om bogen *Besat af træning*:
 
 {% include video provider="youtube" id="FWndQhMuYeY" %}
 
@@ -111,4 +129,17 @@ Mia Beck Lichtenstein har udgivet flere faglitterære bøger om emnet. I videoen
 
 ## Relaterede måleredskaber
 
-Oplever du, at din træning hænger sammen med kontrol over din krop eller mad, kan du læse mere i vores sektion om [spiseforstyrrelser](/spiseforstyrrelser/) eller tjekke dit generelle mentalt overskud i vores [WHO-5 Trivselsindeks](/who5-trivselindekset/).
+Hvis du mærker, at din træning hænger tæt sammen med frygten for vægtøgning eller en overdreven kontrol af din kost, anbefaler vi, at du også gennemfører vores [Screening for Spiseforstyrrelser](/spiseforstyrrelser/).
+
+Du kan også undersøge, om dit overordnede stress- og udmattelsesniveau er for højt:
+* [ABQ Udbrændthed i Sport](/abq-udbraendthed-overtraening/)
+* [WHO-5 Trivselsindeks](/who5-trivselindekset/)
+* [Anerkendt Stresstest (PSS-10)](/stress-test/)
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Kilder og Referencer</h2></summary>
+
+- Lichtenstein, M. B. (2018). *Test dig selv: Er du afhængig af din træning?*. Videnskab.dk. Lokaliseret på: [https://videnskab.dk/krop-sundhed/test-dig-selv-er-du-afhaengig-af-din-traening/](https://videnskab.dk/krop-sundhed/test-dig-selv-er-du-afhaengig-af-din-traening/)
+- Terry, A., Szabo, A., & Griffiths, M. (2004). *The Exercise Addiction Inventory: A new brief screening tool*. Addiction Research & Theory, 12(5), 489-499.
+- Lichtenstein, M. B., Christiansen, E., Elklit, A., Bilenberg, N., & Støving, R. K. (2014). *Exercise addiction: A study of eating disorder symptoms, quality of life, personality traits and attachment styles*. Psychiatry Research, 215(2), 410-416.
+</details>
