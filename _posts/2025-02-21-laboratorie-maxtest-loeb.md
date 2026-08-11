@@ -45,15 +45,15 @@ tags:
 - iltoptagelsestest
 - testcenter
 last_modified_at: '2025-02-20T19:14:14Z'
-feature_row_test_ark:
-- image_path: /assets/images/blog/vo2max-test-sheet-freebie.jpg
-  alt: Testark til VO2max løbetest
-  title: Testark til VO2max løbetest
-  excerpt: Vi bruger dette testark lavet i Google Sheets på Vejle Idrætshøjskole til at lave en maksimal iltoptagelsestest.
-    Du får dit kondital, men også den maxpuls. Den kan bruges til at lave træningszoner ud fra.
-  url: https://docs.google.com/spreadsheets/d/1KV5QVhzzEYsG39Z7nVsepJ8ql7Bh_lvZXPHvaGHY_2s/copy?gid=758480326#gid=758480326
-  btn_label: Kopier arket
-  btn_class: btn--success
+templates:
+  - id: "vo2max_testark_sheet"
+    title: "Testark til VO2max løbetest"
+    description: "Vi bruger dette testark lavet i Google Sheets på Vejle Idrætshøjskole til at lave en maksimal iltoptagelsestest. Du får dit kondital, men også den maxpuls. Den kan bruges til at lave træningszoner ud fra."
+    format: "Google Sheets / Excel"
+    type: "sheet"
+    btn_text: "📊 Kopier arket"
+    url: "https://docs.google.com/spreadsheets/d/1KV5QVhzzEYsG39Z7nVsepJ8ql7Bh_lvZXPHvaGHY_2s/copy?gid=758480326#gid=758480326"
+    image: "/assets/images/blog/vo2max-test-sheet-freebie.jpg"
 feature_row_tests:
 - image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
   credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
@@ -130,7 +130,7 @@ Ved udmattelse noteres den maksimale puls og der tages en priktest.
 
 ## Sådan analyserer vi resultatet
 
-{% include feature_row id="feature_row_test_ark" type="left" %}
+{% include motionsplan/templates.html id="vo2max_testark_sheet" %}
 
 ## Er det reelt en maksimal test?
 

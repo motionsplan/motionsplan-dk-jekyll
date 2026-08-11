@@ -70,7 +70,7 @@ I dette indlæg får du svar på følgende spørgsmål:
 
 MSLHST blev oprindeligt beskrevet af Riemann et al. (1999, 2002) og senere videreudviklet i skadesforebyggende forskning (bl.a. Emery, 2003). Formålet var at skabe et objektivt og funktionelt måleredskab til at evaluere dynamisk ankelstabilitet, knækontrol og landingsteknik.
 
-Hvor statiske balancetests (f.eks. [enkeltbensstand](/balance-tests/)) kun måler din evne til at stå stille, udfordrer MSLHST led og muskler under realistiske, eksplosive vilkår, der ligner påvirkningerne i idrætsgrene som fodbold, håndbold, basketball og løb.
+Hvor statiske balancetests (fx [enkeltbensstand](/balance-tests/)) kun måler din evne til at stå stille, udfordrer MSLHST led og muskler under realistiske, eksplosive vilkår, der ligner påvirkningerne i idrætsgrene som fodbold, håndbold, basketball og løb.
 
 > MSLHST måler ikke blot din balance, men din evne til **dynamisk opbremsning og postural fiksering** i landingsøjeblikket.
 
@@ -81,7 +81,7 @@ Hvor statiske balancetests (f.eks. [enkeltbensstand](/balance-tests/)) kun måle
 For at gennemføre en videnskabeligt valideret MSLHST skal banen opbygges ud fra atletens kropshøjde.
 
 ### Nødvendigt udstyr:
-* Skridsikkert underlag (f.eks. idrætshal eller fast gulv).
+* Skridsikkert underlag (fx idrætshal eller fast gulv).
 * Målebånd og sportstape.
 * Stopur til 5-sekunders stabiliseringsfasen.
 
@@ -174,7 +174,7 @@ Når begge ben er testet, opgøres **Total Fejlscore** (Venstre vs. Højre) samt
 * **0–3 fejl totalt pr. ben:** Fremragende dynamisk landingsstabilitet.
 * **4–8 fejl totalt pr. ben:** Moderat kontrol. Indikerer opmærksomhedspunkter i ankel- eller hoftestabiliteten.
 * **> 8 fejl totalt pr. ben:** Nedsat reaktiv postural kontrol og øget skadesrisiko.
-* **Side-asymmetri $\ge 3$ fejl:** En forskel på 3 fejl eller mere mellem højre og venstre ben regnes klinisk for en betydelig asymmetri, hvilket ofte ses under genoptræning efter f.eks. korsbåndsskader (ACL) eller genstridige ankeldistorsioner.
+* **Side-asymmetri $\ge 3$ fejl:** En forskel på 3 fejl eller mere mellem højre og venstre ben regnes klinisk for en betydelig asymmetri, hvilket ofte ses under genoptræning efter fx korsbåndsskader (ACL) eller genstridige ankeldistorsioner.
 
 ---
 

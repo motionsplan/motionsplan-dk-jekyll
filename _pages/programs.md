@@ -68,7 +68,7 @@ feature_row_templates:
 
 faq:
   - question: "Hvordan vælger jeg det rigtige træningsprogram?"
-    answer: "Start med at afklare dit primære mål (f.eks. større muskler, mere styrke, bedre kondition eller vægttab) og hvor mange dage om ugen, du realistisk kan træne. Vælg derefter et program, der passer til dit nuværende træningsniveau."
+    answer: "Start med at afklare dit primære mål (fx større muskler, mere styrke, bedre kondition eller vægttab) og hvor mange dage om ugen, du realistisk kan træne. Vælg derefter et program, der passer til dit nuværende træningsniveau."
   - question: "Hvor ofte bør man skifte træningsprogram?"
     answer: "Du behøver ikke skifte program hver 4.-6. uge, så længe du oplever fremgang. Et godt træningsprogram kan ofte følges i 8–12 uger eller længere, så længe du benytter progressivt overload (øger vægt, reps eller sæt over tid)."
   - question: "Er træningsprogrammerne på Motionsplan gratis?"
@@ -93,7 +93,7 @@ Vælg din foretrukne træningsform herunder for at komme direkte til vores speci
 Hvad end du vil træne i fitnesscentret eller derhjemme, har vi samlet et bredt udvalg af gratis styrketræningsprogrammer til alle niveauer:
 
 * **[Fullbody / Helkropsprogrammer (Begynder)](/styrketraening/helkropsprogrammer/)** – Perfekt til dig, der vil træne 2–3 gange om ugen og ramme hele kroppen hver gang.
-* **[Splitprogrammer](/styrketraening/split-programmer/)** – Ideelt til øvede løftede, der træner 3–5 gange om ugen (f.eks. 2-split eller 3-split push/pull).
+* **[Splitprogrammer](/styrketraening/split-programmer/)** – Ideelt til øvede løftede, der træner 3–5 gange om ugen (fx 2-split eller 3-split push/pull).
 
 {% include feature_row id="feature_row_strength" type="left" %}
 

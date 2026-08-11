@@ -17,7 +17,7 @@ const ZONE_DESCRIPTIONS = {
     content: `
       <p style="margin-top:0; margin-bottom:0.6rem;"><strong>Formål:</strong> Vænner kroppen og hovedet til den specifikke belastning og tempo ved maratonløb. Optimerer fedtforbrændingen ved højere hastighed.</p>
       <p style="margin-bottom:0.6rem;"><strong>Intensitet:</strong> Ca. 80–90% af maxpuls (%HRmax) eller 75–84% af VO₂max. Føles kontrolleret, men kræver koncentration over længere tid.</p>
-      <p style="margin-bottom:0;"><strong>I dit træningsprogram:</strong> Indlægges i de lange ture i ugerne op til et maraton (f.eks. 2 x 5 km eller 10–16 km kontinuerligt i M-tempo). Bør max udgøre 25% af ugemængden.</p>
+      <p style="margin-bottom:0;"><strong>I dit træningsprogram:</strong> Indlægges i de lange ture i ugerne op til et maraton (fx 2 x 5 km eller 10–16 km kontinuerligt i M-tempo). Bør max udgøre 25% af ugemængden.</p>
     `
   },
   T: {
@@ -26,7 +26,7 @@ const ZONE_DESCRIPTIONS = {
     content: `
       <p style="margin-top:0; margin-bottom:0.6rem;"><strong>Formål:</strong> Flytter din laktattærskel (syregrænse). Lærer kroppen at fjerne mælkesyre i musklerne i samme tempo, som den produceres.</p>
       <p style="margin-bottom:0.6rem;"><strong>Intensitet:</strong> Ca. 88–92% af maxpuls (%HRmax) eller 83–88% af VO₂max. Det svarer til det tempo, du maksimalt ville kunne holde i ca. 60 minutter i en konkurrence ("komfortabelt hårdt").</p>
-      <p style="margin-bottom:0;"><strong>I dit træningsprogram:</strong> Kører ofte som 20 minutters uafbrudt tempoløb eller tærskel-intervaller (f.eks. 5 x 6 min med 1 min pause). Max 10% af ugemængden.</p>
+      <p style="margin-bottom:0;"><strong>I dit træningsprogram:</strong> Kører ofte som 20 minutters uafbrudt tempoløb eller tærskel-intervaller (fx 5 x 6 min med 1 min pause). Max 10% af ugemængden.</p>
     `
   },
   I: {
@@ -35,7 +35,7 @@ const ZONE_DESCRIPTIONS = {
     content: `
       <p style="margin-top:0; margin-bottom:0.6rem;"><strong>Formål:</strong> Maksimerer din iltoptagelse (VO₂max). Øger hjertets pumpekapacitet og forbedrer din evne til at arbejde ved høj iltgæld.</p>
       <p style="margin-bottom:0.6rem;"><strong>Intensitet:</strong> Ca. 98–100% af maxpuls (%HRmax) eller 95–100% af VO₂max. Meget hårdt tempo, hvor du kun kan sige enkelte ord.</p>
-      <p style="margin-bottom:0;"><strong>I dit træningsprogram:</strong> Korte til mellemlange intervaller på 3–5 minutters varighed (f.eks. 5 x 3 minutter med 2–3 minutters joggepause). Max 8% af ugemængden.</p>
+      <p style="margin-bottom:0;"><strong>I dit træningsprogram:</strong> Korte til mellemlange intervaller på 3–5 minutters varighed (fx 5 x 3 minutter med 2–3 minutters joggepause). Max 8% af ugemængden.</p>
     `
   },
   R: {
@@ -44,7 +44,7 @@ const ZONE_DESCRIPTIONS = {
     content: `
       <p style="margin-top:0; margin-bottom:0.6rem;"><strong>Formål:</strong> Forbedrer din løbeøkonomi, neuromuskulære koordinering, skridtlængde og kropsholdning ved topfart.</p>
       <p style="margin-bottom:0.6rem;"><strong>Intensitet:</strong> Hurtigere end VO₂max-tempo (svarer ca. til dit 1500m konkurrencetempo). Fysisk hurtigt, men ikke udmattende for kredsløbet, da pauserne er lange.</p>
-      <p style="margin-bottom:0;"><strong>I dit træningsprogram:</strong> Korte, eksplosive ryk (f.eks. 10 x 200m eller 8 x 400m) med lange gå/joggepauser til fuld restitution mellem hvert ryk. Max 5% af ugemængden.</p>
+      <p style="margin-bottom:0;"><strong>I dit træningsprogram:</strong> Korte, eksplosive ryk (fx 10 x 200m eller 8 x 400m) med lange gå/joggepauser til fuld restitution mellem hvert ryk. Max 5% af ugemængden.</p>
     `
   }
 };

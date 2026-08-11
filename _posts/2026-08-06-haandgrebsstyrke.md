@@ -69,7 +69,7 @@ Håndgrebsstyrke benyttes i mange sammenhænge:
 
 ## Udstyr og Standardiseret Opstilling
 
-For at opnå præcise og reproducerbare målinger skal der benyttes et valideret **hånd-dynamometer** (f.eks. et hydraulisk *Jamar Dynamometer* eller et digitalt *Takei Dynamometer*).
+For at opnå præcise og reproducerbare målinger skal der benyttes et valideret **hånd-dynamometer** (fx et hydraulisk *Jamar Dynamometer* eller et digitalt *Takei Dynamometer*).
 
 ### Standardiseret teststilling (ASHT-protokollen)
 American Society of Hand Therapists (ASHT) anbefaler følgende standardstilling:

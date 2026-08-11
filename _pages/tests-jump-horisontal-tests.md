@@ -30,9 +30,9 @@ meta:
   direct: direkte test
 faq:
   - question: "Hvad er forskellen på vertikale og horisontale springtests?"
-    answer: "Vertikale springtests (f.eks. CMJ og Sargent Jump) måler, hvor højt du kan løfte din kropsvægt mod tyngdekraften. Horisontale springtests (f.eks. stående længdehop) måler din evne til at accelerere din masse fremad i det horisontale plan."
+    answer: "Vertikale springtests (fx CMJ og Sargent Jump) måler, hvor højt du kan løfte din kropsvægt mod tyngdekraften. Horisontale springtests (fx stående længdehop) måler din evne til at accelerere din masse fremad i det horisontale plan."
   - question: "Hvad er LSI (Limb Symmetry Index) ved etbens-længdehop?"
-    answer: "LSI er et procentvis forhold mellem præstationen på dit skadede ben i forhold til dit raske ben. I genoptræning (f.eks. efter korsbåndsskader) tilstræber man ofte en LSI på over 90 procent, før atleten klarmeldes til sport."
+    answer: "LSI er et procentvis forhold mellem præstationen på dit skadede ben i forhold til dit raske ben. I genoptræning (fx efter korsbåndsskader) tilstræber man ofte en LSI på over 90 procent, før atleten klarmeldes til sport."
   - question: "Hvor måler man fra ved et stående længdehop?"
     answer: "Man måler altid fra forkanten af startlinjen og hen til det bagerste berøringspunkt ved landingen (typisk bagerste hæl)."
 ---
@@ -41,7 +41,7 @@ Når du tester horisontal springkraft, måler du ikke blot muskelmasse, men i h�
 
 <div class="notice--info" markdown="1">
 **🏃‍♂️ Om horisontale springtests**
-**Horisontale springtests** måler atletens evne til at generere eksplosiv kraft fremad i planet. Hvor vertikal hoppehøjde er afgørende i sportsgrene som basketball og volleyball, er horisontal springkraft tæt knyttet til acceleration i sprint, skift af retning, optagelsesprøver (f.eks. hos politiet) samt genoptræning inden for fysioterapi.
+**Horisontale springtests** måler atletens evne til at generere eksplosiv kraft fremad i planet. Hvor vertikal hoppehøjde er afgørende i sportsgrene som basketball og volleyball, er horisontal springkraft tæt knyttet til acceleration i sprint, skift af retning, optagelsesprøver (fx hos politiet) samt genoptræning inden for fysioterapi.
 
 👉 **Leder du efter den overordnede oversigt?** Se vores samleside for **[eksplosivitet, sprint og spring](/eksplosivitet/)**.  
 👉 **Vil du hellere måle vertikal hoppehøjde?** Se vores guide til **[hoppehøjde og vertikale springtests](/springtests-hoppehoejde/)**.
@@ -105,7 +105,7 @@ Startlinje (0m)                  Landing (bagerste hæl)
      |======== Afstand i cm =============>|
 </pre>
 
-1. **Underlag:** Testen skal udføres på et fast, skridsikkert underlag (f.eks. en idrætshal, en kunstgræsbane eller en fast måtte).
+1. **Underlag:** Testen skal udføres på et fast, skridsikkert underlag (fx en idrætshal, en kunstgræsbane eller en fast måtte).
 2. **Startposition:** Tåspidserne placeres umiddelbart bag startlinjen uden at berøre den.
 3. **Måling:** Der måles altid vinkelret fra forkanten af startlinjen til det **bagerste berøringspunkt** i landingen (typisk bagerste hæl). Hvis atleten falder bagover og rører jorden med hånden eller sædet, underkendes forsøget.
 4. **Forsøg:** Give atleten 3 godkendte forsøg med god pause imellem. Registrer den længste distance i centimeter.

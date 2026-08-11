@@ -65,7 +65,7 @@ Når du udfører et aerobt arbejde, rækker ilttilførslen fra dit blod og kreds
 Glukose / Fedtsyre + Ilt (O2) ──&gt; Energi (ATP) + Vand (H2O) + CO2
 </pre>
 
-Det er først, når kroppens glykogenlagre tømmes efter et par timer (f.eks. når du rammer "muren" under et maraton), at præstationen falder drastisk.
+Det er først, når kroppens glykogenlagre tømmes efter et par timer (fx når du rammer "muren" under et maraton), at præstationen falder drastisk.
 
 ### Hvad bruges aerob træning til?
 * Opbygning af din grundlæggende **kondition** og kardiovaskulære sundhed.
@@ -81,7 +81,7 @@ Det er først, når kroppens glykogenlagre tømmes efter et par timer (f.eks. n�
 
 Ordet **anaerob** betyder *"uden ilt"*.
 
-Hvis arbejdsintensiteten bliver så høj, at kredsløbet ikke kan levere ilt nok til musklerne hurtigt nok (f.eks. under en 100-meter spurt eller et tungt løft), slår kroppen over på sine anaerobe nødsystemer.
+Hvis arbejdsintensiteten bliver så høj, at kredsløbet ikke kan levere ilt nok til musklerne hurtigt nok (fx under en 100-meter spurt eller et tungt løft), slår kroppen over på sine anaerobe nødsystemer.
 
 Anaerobt arbejde opdeles fysiologisk i to kategorier:
 

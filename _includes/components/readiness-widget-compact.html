@@ -1,0 +1,118 @@
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-radius: 16px; padding: 16px; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.03);" id="mp-mini-readiness">
+  
+  <!-- HEADER -->
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #f1f5f9;">
+    <div>
+      <h4 style="margin: 0; font-size: 1.05rem; font-weight: 800; color: #0f172a;">⚡ Dagens Readiness (Hooper Index)</h4>
+      <p style="margin: 2px 0 0 0; font-size: 0.75rem; color: #64748b;">Træk i de 4 sliders for et hurtigt dagsform-tjek</p>
+    </div>
+    <a href="/traeningsparathed-beregner/" style="font-size: 0.75rem; font-weight: 800; color: #2563eb; text-decoration: none; background: #eff6ff; padding: 6px 10px; border-radius: 8px; white-space: nowrap;">
+      Fuld beregner m. puls →
+    </a>
+  </div>
+
+  <!-- SPLIT CONTAINER (VENSTRE: 2x2 SLIDERS, HØJRE: RESULTAT) -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; align-items: stretch;">
+    
+    <!-- LEFT: 2x2 GRID -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+      
+      <!-- 1. SØVN -->
+      <div style="background: #f8fafc; padding: 8px 10px; border-radius: 10px; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: center;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.72rem; font-weight: 800; color: #334155; margin-bottom: 4px;">
+          <span>😴 Søvn</span>
+          <span id="mp-val-sleep" style="color: #2563eb;">4 / 5</span>
+        </div>
+        <input type="range" min="1" max="5" value="4" class="js-hooper-slider" data-field="sleep" style="width: 100%; margin: 0; cursor: pointer;">
+      </div>
+
+      <!-- 2. ENERGI -->
+      <div style="background: #f8fafc; padding: 8px 10px; border-radius: 10px; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: center;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.72rem; font-weight: 800; color: #334155; margin-bottom: 4px;">
+          <span>⚡ Friskhed</span>
+          <span id="mp-val-energy" style="color: #2563eb;">4 / 5</span>
+        </div>
+        <input type="range" min="1" max="5" value="4" class="js-hooper-slider" data-field="energy" style="width: 100%; margin: 0; cursor: pointer;">
+      </div>
+
+      <!-- 3. MUSKELØMHED -->
+      <div style="background: #f8fafc; padding: 8px 10px; border-radius: 10px; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: center;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.72rem; font-weight: 800; color: #334155; margin-bottom: 4px;">
+          <span>🦵 Benfornemmelse</span>
+          <span id="mp-val-soreness" style="color: #2563eb;">4 / 5</span>
+        </div>
+        <input type="range" min="1" max="5" value="4" class="js-hooper-slider" data-field="soreness" style="width: 100%; margin: 0; cursor: pointer;">
+      </div>
+
+      <!-- 4. STRESS -->
+      <div style="background: #f8fafc; padding: 8px 10px; border-radius: 10px; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: center;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.72rem; font-weight: 800; color: #334155; margin-bottom: 4px;">
+          <span>🧠 Mentalt overskud</span>
+          <span id="mp-val-stress" style="color: #2563eb;">4 / 5</span>
+        </div>
+        <input type="range" min="1" max="5" value="4" class="js-hooper-slider" data-field="stress" style="width: 100%; margin: 0; cursor: pointer;">
+      </div>
+
+    </div>
+
+    <!-- RIGHT: COMPACT RESULT CARD -->
+    <div id="mp-hooper-res-card" style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); border-radius: 12px; padding: 14px 16px; color: #ffffff; display: flex; flex-direction: column; justify-content: center; transition: all 0.2s ease;">
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
+        <span id="mp-hooper-score" style="font-size: 2.2rem; font-weight: 900; line-height: 1;">80%</span>
+        <span id="mp-hooper-badge" style="font-size: 0.78rem; font-weight: 800; background: rgba(255,255,255,0.22); padding: 4px 8px; border-radius: 6px; backdrop-filter: blur(4px);">
+          🟢 Fuld Parathed
+        </span>
+      </div>
+      <p id="mp-hooper-desc" style="margin: 0; font-size: 0.75rem; opacity: 0.95; line-height: 1.35; font-weight: 600;">
+        Kroppen er helt klar! Optimalt til tunge løft, PR-forsøg og tærskelintervaller.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const scores = { sleep: 4, energy: 4, soreness: 4, stress: 4 };
+
+  function calcHooperMini() {
+    const sum = scores.sleep + scores.energy + scores.soreness + scores.stress;
+    const score = Math.round((sum / 20) * 100);
+
+    const card = document.getElementById('mp-hooper-res-card');
+    const scoreEl = document.getElementById('mp-hooper-score');
+    const badgeEl = document.getElementById('mp-hooper-badge');
+    const descEl = document.getElementById('mp-hooper-desc');
+
+    if (scoreEl) scoreEl.textContent = `${score}%`;
+
+    if (score >= 80) {
+      if (card) card.style.background = 'linear-gradient(135deg, #059669 0%, #10b981 100%)';
+      if (badgeEl) badgeEl.textContent = '🟢 Fuld Parathed';
+      if (descEl) descEl.textContent = 'Kroppen er helt klar! Optimalt til tunge løft, PR-forsøg og tærskelintervaller.';
+    } else if (score >= 60) {
+      if (card) card.style.background = 'linear-gradient(135deg, #d97706 0%, #f59e0b 100%)';
+      if (badgeEl) badgeEl.textContent = '🟡 Moderat Træthed';
+      if (descEl) descEl.textContent = 'Kør pas som planlagt, men hold RPE på 7-8 eller skær 10-20% af volumen.';
+    } else {
+      if (card) card.style.background = 'linear-gradient(135deg, #dc2626 0%, #ef4444 100%)';
+      if (badgeEl) badgeEl.textContent = '🔴 Høj Belastning';
+      if (descEl) descEl.textContent = 'Kroppen udviser overbelastning. Tag en hviledag eller skift til rolig aktiv restitution.';
+    }
+  }
+
+  document.querySelectorAll('.js-hooper-slider').forEach(slider => {
+    slider.addEventListener('input', (e) => {
+      const field = e.target.dataset.field;
+      const val = parseInt(e.target.value) || 3;
+      scores[field] = val;
+
+      const valEl = document.getElementById(`mp-val-${field}`);
+      if (valEl) valEl.textContent = `${val} / 5`;
+
+      calcHooperMini();
+    });
+  });
+})();
+</script>

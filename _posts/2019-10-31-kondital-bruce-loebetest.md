@@ -141,7 +141,7 @@ Du kan se en visuel gennemgang af Bruce-testen i videoen herunder:
 2. **Start uret:** Indstil løbebåndet til **2,7 km/t og 10% hældning** og start tidtagningen samtidig.
 3. **Følg protokollen:** Hvert 3. minut justerer du manuelt (eller automatisk) hastigheden og hældningen i henhold til skemaet ovenfor.
 4. **Yd dit maksimale:** Hold ud så længe som muligt. Du må gerne holde let i håndtagene i overgangene, men undgå at hænge i grebene under selve testen, da det reducerer det reelle energiforbrug.
-5. **Aflæs tiden:** Stop uret nøjagtigt i det øjeblik, du må stoppe testen på grund af udmattelse. Notér tiden i minutter og sekunder (f.eks. 11 minutter og 45 sekunder).
+5. **Aflæs tiden:** Stop uret nøjagtigt i det øjeblik, du må stoppe testen på grund af udmattelse. Notér tiden i minutter og sekunder (fx 11 minutter og 45 sekunder).
 
 ---
 
@@ -156,7 +156,7 @@ Du kan se en visuel gennemgang af Bruce-testen i videoen herunder:
 
 For at beregne dit kondital ud fra den opnåede tid ($T$ i minutter), benyttes regneformler baseret på udøverens køn og aktivitetsniveau. 
 
-Sekunderne omregnes til decimaler af et minut (f.eks. er 9 minutter og 30 sekunder $= 9{,}50\text{ minutter}$).
+Sekunderne omregnes til decimaler af et minut (fx er 9 minutter og 30 sekunder $= 9{,}50\text{ minutter}$).
 
 ### 1. Generel formel (Begge køn)
 Denne generelle formel anvendes ofte som standard i testprogrammer:

@@ -140,9 +140,9 @@ Følgende tabel tager udgangspunkt i *Nordiska Næringsrekommendationer*:
 | Aktivitetsniveau i hverdagen | PAL-faktor |
 | :--- | :--- |
 | **Rullestolsbunden eller sengeliggende** | 1,2 |
-| **Stillesiddende arbejde** (f.eks. kontor) med minimal fysisk aktivitet i fritiden. | 1,4 – 1,5 |
+| **Stillesiddende arbejde** (fx kontor) med minimal fysisk aktivitet i fritiden. | 1,4 – 1,5 |
 | **Stillesiddende arbejde** med et vist behov for bevægelse og lidt fritidsaktivitet. | 1,6 – 1,7 |
-| **Hovedsageligt stående eller gående arbejde** (f.eks. håndværker, tjener, lærer). | 1,8 – 1,9 |
+| **Hovedsageligt stående eller gående arbejde** (fx håndværker, tjener, lærer). | 1,8 – 1,9 |
 | **Regelmæssig sport/træning i fritiden** (30–60 min, 4–5 gange om ugen). | $+0,3$ til PAL |
 | **Hårdt kropsarbejde** eller elitesport/meget høj fritidsaktivitet. | 2,0 – 2,4 |
 
@@ -150,7 +150,7 @@ Følgende tabel tager udgangspunkt i *Nordiska Næringsrekommendationer*:
 
 1. **NEAT (Non-Exercise Activity Thermogenesis):** Al den ubevidste bevægelse i hverdagen – at gå på trapper, gøre rent, vippe med foden, rejse sig fra stolen og havearbejde. NEAT udgør ofte en langt større del af forbrændingen end selve træningen!
 2. **EAT (Exercise Activity Thermogenesis):** Den planlagte motion og træning (løb, cykling, styrketræning).
-3. **EPOC (Efterforbrænding):** *Excess Post-exercise Oxygen Consumption*. Efter hård fysisk aktivitet (særligt ved intensitet over 60–65 % af VO2max som f.eks. [HIIT](/hiit/) eller tung styrketræning) forbliver stofskiftet forhøjet i 12–24 timer, mens kroppen genopbygger sine energidepoter og fjerner affaldsstoffer.
+3. **EPOC (Efterforbrænding):** *Excess Post-exercise Oxygen Consumption*. Efter hård fysisk aktivitet (særligt ved intensitet over 60–65 % af VO2max som fx [HIIT](/hiit/) eller tung styrketræning) forbliver stofskiftet forhøjet i 12–24 timer, mens kroppen genopbygger sine energidepoter og fjerner affaldsstoffer.
 
 ---
 

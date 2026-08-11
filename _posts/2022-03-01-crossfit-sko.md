@@ -59,7 +59,7 @@ I denne guide gennemgår vi de mest anerkendte **sko-familier inden for CrossFit
 
 ## De klassiske CrossFit-sko (Vores favoritter)
 
-Mærkerne opdaterer deres modeller hvert år (f.eks. fra version 8 til 9), men skoenes DNA og grundlæggende styrker forbliver de samme år efter år. 
+Mærkerne opdaterer deres modeller hvert år (fx fra version 8 til 9), men skoenes DNA og grundlæggende styrker forbliver de samme år efter år. 
 
 Herunder kan du se de tre ubetinget mest populære sko-serier i CrossFit-boksene verden over:
 

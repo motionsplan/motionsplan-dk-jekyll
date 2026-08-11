@@ -109,7 +109,7 @@ Apple TV er en utrolig populær og billig løsning til at få spillet op på en 
 * **OBS på Bluetooth-begrænsning:** Apple TV understøtter maksimalt 2 aktive Bluetooth-enheder ad gangen. Hvis din trainer sender watt og kadence på to separate kanaler, og du har et pulsbælte, kan du løbe tør for forbindelser. Det løses dog nemt med et **4iiii Viiiiva pulsbælte**, som kan samle (bridge) dine signaler.
 
 ### 2. PC eller Mac
-En stærk PC eller nyere Mac (f.eks. M1/M2/M3) leverer den absolut højeste grafik og bedste billedfrekvens (*FPS*). Det er særligt en fordel i grafik-tunge apps som [MyWhoosh](/mywhoosh-cycling/). Du kan tilkoble både Bluetooth og ANT+ (via en lille USB-dongle).
+En stærk PC eller nyere Mac (fx M1/M2/M3) leverer den absolut højeste grafik og bedste billedfrekvens (*FPS*). Det er særligt en fordel i grafik-tunge apps som [MyWhoosh](/mywhoosh-cycling/). Du kan tilkoble både Bluetooth og ANT+ (via en lille USB-dongle).
 
 {% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.wahoo_ant_dongle view="card" %}
 

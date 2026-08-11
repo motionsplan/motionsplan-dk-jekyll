@@ -84,7 +84,7 @@ Hvis du elsker at genopleve dine egne ferieruter, eller gerne vil have direkte s
 
 ### 4. Rouvy – Realistiske videoer fra verdens smukkeste veje
 
-[Rouvy](/rouvy/) er det oplagte valg for cykelrytteren, der ønsker den mest realistiske fornemmelse af udendørs cykling. Appen kombinerer højopløselige videooptagelser af virkelige veje (f.eks. ikoniske pas i Alperne og Pyrenæerne) med 3D-avatars (*Augmented Reality*).
+[Rouvy](/rouvy/) er det oplagte valg for cykelrytteren, der ønsker den mest realistiske fornemmelse af udendørs cykling. Appen kombinerer højopløselige videooptagelser af virkelige veje (fx ikoniske pas i Alperne og Pyrenæerne) med 3D-avatars (*Augmented Reality*).
 
 Modstanden i din hometrainer tilpasses præcist til vejens hældning på videoen, så du får en utrolig naturtro oplevelse af at køre de ægte stigninger.
 

@@ -28,7 +28,7 @@ faq:
   - question: Kan man udføre Jump & Reach med tilløb og ét ben?
     answer: Ja, testen kan udføres både stående og med tilløb, samt med afsæt på to ben eller ét ben (højre/venstre). Det er vigtigt at bruge samme metode hver gang for at kunne sammenligne.
   - question: Hvad er forskellen på en-hånds og to-hånds rækkevidde?
-    answer: Ved en-hånds rækkevidde kan skulderen og hoften roteres i luften, hvilket giver en højere samlet rækkehøjde. Ved to-hånds berøring (f.eks. volleyball-blokering) er rækkehøjden lavere, da skulderrotation udelukkes.
+    answer: Ved en-hånds rækkevidde kan skulderen og hoften roteres i luften, hvilket giver en højere samlet rækkehøjde. Ved to-hånds berøring (fx volleyball-blokering) er rækkehøjden lavere, da skulderrotation udelukkes.
 meta:
   name: Jump & Reach test
   measures: springstyrke og eksplosivitet
@@ -75,7 +75,7 @@ tools:
     category_schema: "HealthAndFitnessApplication"
 ---
 
-**Jump and Reach-testen** er en af de mest udbredte og funktionelle hoppetests inden for idrætsgrene som basketball, volleyball, atletik og amerikansk fodbold (f.eks. i NFL Combine).
+**Jump and Reach-testen** er en af de mest udbredte og funktionelle hoppetests inden for idrætsgrene som basketball, volleyball, atletik og amerikansk fodbold (fx i NFL Combine).
 
 Testen måler forskellen mellem din stående **rækkehøjde** og din **maksimale hoppehøjde**. Den evaluerer ikke kun underkroppens eksplosivitet og relative styrke, men også din evne til at koordinere et kraftfuldt armtræk og afsæt i luften.
 
@@ -112,11 +112,11 @@ Jump and Reach-testen kan skræddersys til specifikke idrætsgrene ved at varier
 * **3. Berøring:** Én-hånds rækkevidde **eller** to-hånds berøring (begge hænder).
 
 ### 1. Med eller uden tilløb
-* **Stående afsæt (uden tilløb):** Standardtesten i f.eks. NFL Combine og generel fitnesstesting. Måler ren eksplosiv underkropskraft uden hjælp fra fremadrettet bevægelsesmængde.
+* **Stående afsæt (uden tilløb):** Standardtesten i fx NFL Combine og generel fitnesstesting. Måler ren eksplosiv underkropskraft uden hjælp fra fremadrettet bevægelsesmængde.
 * **Med tilløb:** Anvendes hyppigt i basketball, volleyball og håndbold. Tilløbet lader atleten konvertere horisontal hastighed til vertikalt løft og resulterer typisk i et mærkbart højere hop.
 
 ### 2. Afsætsteknik (dobbelt afsæt vs. enkeltben)
-* **Dobbelt afsæt (to ben):** Kan udføres både fra stående stilling og fra tilløb (f.eks. med et stem-skridt / plant-step). Giver maksimal udnyttelse af underkroppens samlede muskelmasse.
+* **Dobbelt afsæt (to ben):** Kan udføres både fra stående stilling og fra tilløb (fx med et stem-skridt / plant-step). Giver maksimal udnyttelse af underkroppens samlede muskelmasse.
 * **Enkeltbensafsæt (højre ben eller venstre ben):** Yderst relevant for basketballspillere (layups/dunks) og atletikudøvere (højdespring). Det anbefales altid at teste **både højre og venstre ben separat** for at afdække eventuel sideulighed (asymmetri) i springstyrken.
 
 ### 3. Berøring med hånd (højre, venstre eller begge hænder)
@@ -206,7 +206,7 @@ $$\text{Gennemsnitlig Power (kg}\cdot\text{m/s)} = \sqrt{4{,}9} \cdot m \cdot \s
 
 ## Teknik: Sådan springer du højere med tilløb
 
-Hvis din sport tillader tilløb (f.eks. basketball eller volleyball), kan en optimeret tilløbsteknik øge din hoppehøjde markant ved at omdanne den horisontale hastighed til vertikalt afsæt.
+Hvis din sport tillader tilløb (fx basketball eller volleyball), kan en optimeret tilløbsteknik øge din hoppehøjde markant ved at omdanne den horisontale hastighed til vertikalt afsæt.
 
 {% include video provider="youtube" id="51yEI3snWmI" %}
 

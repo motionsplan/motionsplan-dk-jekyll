@@ -114,7 +114,7 @@ Hvis du vil undgå både banan, proteinpulver **og** hytteost, er denne opskrift
 
 ## 3. Proteinpandekager uden banan MED proteinpulver
 
-Hvis du gerne vil supplere med dit favorit-proteinpulver (f.eks. med vanilje-, chokolade- eller karamelsmag), giver denne opskrift et ekstra proteinboost efter træning.
+Hvis du gerne vil supplere med dit favorit-proteinpulver (fx med vanilje-, chokolade- eller karamelsmag), giver denne opskrift et ekstra proteinboost efter træning.
 
 {% include figure image_path="https://images.unsplash.com/photo-1599232288126-7dbd2127db14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="Proteinpandekager med proteinpulver og havregryn" alt="proteinpandekager med proteinpulver uden banan" %}
 
@@ -177,7 +177,7 @@ Danske [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&b
 Når du fravælger banan i selve dejen, kan du tilføje sødme og smag med lækre toppings:
 
 * **Friske bær:** Blåbær, hindbær, jordbær eller brombær.
-* **Sukkerfri sirup:** F.eks. karamel- eller ahornsirup.
+* **Sukkerfri sirup:** fx karamel- eller ahornsirup.
 * **Nøddesmør:** Peanutbutter, mandelsmør eller pistaciekrem.
 * **Proteintop:** En spiseskefuld skyr rørt op med lidt vanilje.
 

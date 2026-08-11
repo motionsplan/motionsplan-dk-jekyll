@@ -155,13 +155,13 @@ Efter testen opstilles en datatabel bestående af hastighed ($v$) på x-aksen og
 Selvom Conconi-testen er verdenskendt og har haft enorm praktisk betydning for konditionstræning siden 1980'erne, har uafhængig idrætsfysiologisk forskning påpeget visse metodiske begrænsninger:
 
 ### 1. Tilstedeværelse af $HR_{dp}$
-Uafhængige undersøgelser (f.eks. *Jones & Doust, 1995*; *Tokmakidis et al., 1996*) har vist, at **$HR_{dp}$ kun kan identificeres hos $60\text{--}85\%$ af testpersonerne**. Hos den resterende gruppe forbliver sammenhængen mellem puls og hastighed fuldstændig lineær helt op til $\text{HR}_{\max}$.
+Uafhængige undersøgelser (fx *Jones & Doust, 1995*; *Tokmakidis et al., 1996*) har vist, at **$HR_{dp}$ kun kan identificeres hos $60\text{--}85\%$ af testpersonerne**. Hos den resterende gruppe forbliver sammenhængen mellem puls og hastighed fuldstændig lineær helt op til $\text{HR}_{\max}$.
 
 ### 2. Protokolfølsomhed
 Placeringen af afbøjningspunktet påvirkes af den anvendte acceleration. Hvis hastigheden øges for hurtigt, halter kredsløbsresponset bagefter (fysiologisk forsinkelse), hvilket kan forskyde det estimerede tærskelpunkt kunstigt højt.
 
 ### 3. Kardiovaskulært drift
-Kropstemperatur, dehydrering og manglende opvarmning kan medføre *cardiovascular drift*, hvilket slører pulskurven og gør objektiv identifikation af knækket vanskelig uden avanceret matematisk regression (f.eks. D-max metoden).
+Kropstemperatur, dehydrering og manglende opvarmning kan medføre *cardiovascular drift*, hvilket slører pulskurven og gør objektiv identifikation af knækket vanskelig uden avanceret matematisk regression (fx D-max metoden).
 
 ---
 

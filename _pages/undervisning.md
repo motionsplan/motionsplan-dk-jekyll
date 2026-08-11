@@ -33,7 +33,7 @@ Slut med manuelle beregninger i regneark. Eleverne kan indtaste deres rådata di
 
 | Værktøj / Beregner | Anvendelse i modulet | Hvad udregnes? |
 | :--- | :--- | :--- |
-| **[1RM Beregner](/rm-beregner/)** | Styrketræningsforløb & maks-test | Teoretisk 1RM ud fra submaksimale løft (f.eks. Brzycki/Epley). |
+| **[1RM Beregner](/rm-beregner/)** | Styrketræningsforløb & maks-test | Teoretisk 1RM ud fra submaksimale løft (fx Brzycki/Epley). |
 | **[Konditionstests & Formler](/kondition/tests/)** | Kredsløb & konditionstest | Forventet $VO_2\text{-max}$ og kondital ($ml\text{ O}_2/\text{kg}/\text{min}$). |
 | **[Pulsberegnere](/beregnere/)** | Intensivitetszoner & pulsmåling | Pulszoner og $HR_{\text{reserve}}$ baseret på hvile- og makspuls. |
 | **[Testkatalog](/tests/)** | Testprotokoller | Standardiserede vejledninger til fysiske formtests. |

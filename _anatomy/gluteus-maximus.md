@@ -48,7 +48,7 @@ coords:
 
 Gluteus maximus er ikke bare den største muskel i balderne, men den største enkeltmuskel i hele menneskekroppen. Den er ansvarlig for den oprejste menneskelige gang og er det, der adskiller vores anatomi mest fra vores nærmeste slægtninge i dyreriget. 
 
-Musklen er ekstremt stærk og er bygget til at generere stor kraft, hvilket gør den uundværlig i eksplosive sportsgrene, tunge løft og når vi skal kæmpe mod tyngdekraften (f.eks. op ad bakke).
+Musklen er ekstremt stærk og er bygget til at generere stor kraft, hvilket gør den uundværlig i eksplosive sportsgrene, tunge løft og når vi skal kæmpe mod tyngdekraften (fx op ad bakke).
 
 ## Funktionel betydning og "Gluteal Amnesia"
 

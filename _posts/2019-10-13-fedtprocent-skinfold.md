@@ -133,7 +133,7 @@ Resultatet af en fedttangsmåling afhænger direkte af den formel, du regner eft
 | **Almindelig kropsbygning** | **Durnin & Womersley** | Biceps, Triceps, Skulderblad, Hofte | Anbefalet af Team Danmark. Lige velegnet til mænd og kvinder. |
 | **Atleter / Lav fedtprocent** | **Jackson & Pollock 3-pt** | Mænd: Bryst, Mave, Lår<br>Kvinder: Triceps, Hofte, Lår | Særligt præcis til slanke og trænede personer. |
 | **Moderne / Høj præcision** | **Peterson 4-punkt** | Triceps, Skulderblad, Mave, Lår | Baseret på nyere 4-komponent kropsanalyser. |
-| **Nem selv-måling** | **YMCA** | Mænd: Mave<br>Kvinder: Triceps | Ekstremt simpel og undgår svære målinger på f.eks. lår. |
+| **Nem selv-måling** | **YMCA** | Mænd: Mave<br>Kvinder: Triceps | Ekstremt simpel og undgår svære målinger på fx lår. |
 | **Børn & Unge (0–18 år)** | **Slaughter** | Triceps, Skulderblad | Valideret i studier med bl.a. danske skolebørn. |
 | **Børn & Unge (8–18 år)** | **Lohman** | Triceps, Læg | Nem adgang til målesteder på arme og ben. |
 
@@ -141,7 +141,7 @@ Resultatet af en fedttangsmåling afhænger direkte af den formel, du regner eft
 
 ## Hvorfor er valget af formel vigtigt?
 
-Formlerne estimerer mængden af underhudsfedt baseret på bestemte populationsgrupper. Hvis du f.eks. bruger en formel udviklet til slanke atleter på en almindelig motionist, vil testen ofte underestimere fedtprocenten. 
+Formlerne estimerer mængden af underhudsfedt baseret på bestemte populationsgrupper. Hvis du fx bruger en formel udviklet til slanke atleter på en almindelig motionist, vil testen ofte underestimere fedtprocenten. 
 
 Omvendt kræver børns kroppe helt særlige formler (som Slaughter og Lohman), fordi børns knogletæthed og vandindhold ændrer sig konstant under opvæksten.
 

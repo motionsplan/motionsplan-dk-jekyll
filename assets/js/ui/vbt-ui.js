@@ -92,7 +92,7 @@ export function initCalculator(container) {
     state.attempts.forEach((att, idx) => {
       let loadPlaceholder = 'kg';
       if (res.isValid && res.suggestedNextLoad > 0 && !att.load && idx === state.attempts.length - 1) {
-        loadPlaceholder = `f.eks. ${res.suggestedNextLoad}`;
+        loadPlaceholder = `fx ${res.suggestedNextLoad}`;
       }
 
       const isWarmup = parseFloat(att.velocity) > 1.0;

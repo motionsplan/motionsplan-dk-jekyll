@@ -28,15 +28,6 @@ feature_row:
   btn_label: Se bogen
   btn_class: btn--success
 language: da
-feature_row_kondital:
-- image_path: /assets/images/freebies/kondital.png
-  alt: Tabel og skema over kondital
-  title: Tabel over kondital til udskrivning
-  excerpt: Skemaet og tabellen over kondital kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet i Google Docs.
-  url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
-  btn_label: <i class='fas fa-file-alt'></i> Se tabel over kondital
-  btn_class: btn--success
-  rel: nofollow noopener
 faq:
 - question: Hvad er Index 23, og hvordan adskiller det sig fra almindeligt kondital?
   answer: Index 23 er en metode til at beregne kondital, der tager højde for overvægt. I modsætning til det almindelige kondital,

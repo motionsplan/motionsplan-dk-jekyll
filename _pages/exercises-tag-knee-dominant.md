@@ -44,7 +44,7 @@ Denne side handler om **forlårsøvelser** og knædominante bevægelser. Hvis du
 
 Effektive **forlårsøvelser** (fagligt kaldet *knædominante øvelser*) er fundamentet for at opbygge stærke, veludviklede ben og sunde knæ. Øvelserne i denne kategori har det til fælles, at bevægelsen primært drives af en bøjning og strækning i knæleddet, hvilket belaster forsiden af låret (**Quadriceps Femoris**).
 
-Bentræning for forlåret kan foregå både med frie vægte (f.eks. vægtstang, håndvægte og kettlebells) eller i maskiner i fitnesscenteret som benpres, hack squat og leg extensions.
+Bentræning for forlåret kan foregå både med frie vægte (fx vægtstang, håndvægte og kettlebells) eller i maskiner i fitnesscenteret som benpres, hack squat og leg extensions.
 
 ---
 

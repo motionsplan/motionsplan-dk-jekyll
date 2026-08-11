@@ -103,7 +103,7 @@ Mange taler om "det runde tråd", men reelt er et pedaltråd aldrig helt cirkul�
 
 ### Wattbikes Polar View: Fra 8-tal til pølse
 
-Tests på ergometercykler med kraftmåling (f.eks. Wattbike Polar View) viser grafisk, hvordan cyklistens kraftfordeling ser ud igennem et 360-graders tråd:
+Tests på ergometercykler med kraftmåling (fx Wattbike Polar View) viser grafisk, hvordan cyklistens kraftfordeling ser ud igennem et 360-graders tråd:
 
 #### 1. Begynderen: 8-tallet
 Begynderen træder næsten kun nedad med forsiden af låret. Når højre ben er i bunden, og venstre er i toppen, stoppes kraftoverførslen helt. Grafen ligner et **8-tal**, fordi alt momentum tabes i skiftet mellem benene.
@@ -133,7 +133,7 @@ Hvis du forbedrer din pedalleringsteknik, opnår du to store fordele: **højere 
 1. **Skrab mudder af fodsålen:** Forestil dig, at du skal skrabe mudder af bunden af din sko, idet pedalen er i nederste position (klokken 6). Det aktiverer baglår og lægge og sikrer en blød overgang.
 2. **Indstil dine klamper korrekt:** Placeringen af klamperne under dine cykelsko er afgørende for kraftoverførslen og for at undgå knæskader.
 3. **Sid ned på stigninger:** Du sparer overmodig energi ved at blive siddende i sadlen med en tilpasset kadence. Stå kun op i kortere perioder for at skifte stilling eller ved eksplosive ryk.
-4. **Tjek din højre/venstre balance:** Mange cyklister har en naturlig dominans (f.eks. 53 % / 47 %). Træn bevidst på at aktivere dit svage ben.
+4. **Tjek din højre/venstre balance:** Mange cyklister har en naturlig dominans (fx 53 % / 47 %). Træn bevidst på at aktivere dit svage ben.
 5. **Skift gear i god tid:** Når du nærmer dig et sving, et lyskryds eller en stejl bakke, skal du skifte til et lettere gear *før* hastigheden falder, så du fastholder din kadence.
 
  I denne video får du flere konkrete råd til din position og teknik på cyklen:

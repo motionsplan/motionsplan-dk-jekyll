@@ -126,12 +126,12 @@ Start altid med et tyndt lag kødsovs i bunden af dit ildfaste fad. Hvis du læg
 Læg et jævnt lag fuldkornslasagneplader. Dæk med kødsovs og hæld derefter hytteost-bechamelsaucen ud over, til kødsovsen næsten er dækket. Gentag processen 2–3 gange afhængigt af fadets højde.
 
 ### 3. Toppen
-Afslut det øverste lag med den sidste rest af hytteost-bechamelsaucen og drys til sidst med lidt revet ost (f.eks. en milde mozzarella eller 13% revet ost for lavere fedtindhold).
+Afslut det øverste lag med den sidste rest af hytteost-bechamelsaucen og drys til sidst med lidt revet ost (fx en milde mozzarella eller 13% revet ost for lavere fedtindhold).
 
 ---
 
 ## Serveringsforslag
 
 Proteinlasagnen er meget mættende i sig selv, men passer perfekt sammen med en frisk og sprød salat:
-* **Spinatsalat:** Prøv f.eks. en frisk [spinatsalat med feta](https://www.webopskrifter.dk/opskrifter/spinatsalat-med-feta-21736/).
+* **Spinatsalat:** Prøv fx en frisk [spinatsalat med feta](https://www.webopskrifter.dk/opskrifter/spinatsalat-med-feta-21736/).
 * **Tomatsalat:** Rødløg, modne tomater og lidt god balsamico-glaze giver en dejlig syre til den rige lasagne.

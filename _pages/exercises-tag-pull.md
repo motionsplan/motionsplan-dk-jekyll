@@ -27,8 +27,8 @@ Trækøvelser træner primært ryggen, bagskulderen og armene. Vi har samlet de 
 I et godt og veltilrettelagt træningsprogram skal der være en sund balance mellem [presøvelser](/presoevelser/) (push) og trækøvelser (pull).
 
 Trækøvelser opdeles typisk i to primære bevægemønstre:
-1. **Horisontale træk (Vandrette træk):** Trækbevægelser vinkelret på kroppen (f.eks. [rows](/rows/)), som særligt rammer den øvre ryg, rhomboideus og bagskulderen.
-2. **Vertikale træk (Lodrette træk):** Trækbevægelser oppefra og ned (f.eks. [chinups og pullups](/chinup-vs-pullup/) eller lat pulldown), som i høj grad bygger bredde på den store rygmuskel (*Latissimus Dorsi*).
+1. **Horisontale træk (Vandrette træk):** Trækbevægelser vinkelret på kroppen (fx [rows](/rows/)), som særligt rammer den øvre ryg, rhomboideus og bagskulderen.
+2. **Vertikale træk (Lodrette træk):** Trækbevægelser oppefra og ned (fx [chinups og pullups](/chinup-vs-pullup/) eller lat pulldown), som i høj grad bygger bredde på den store rygmuskel (*Latissimus Dorsi*).
 
 ---
 

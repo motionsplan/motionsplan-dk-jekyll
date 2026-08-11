@@ -95,7 +95,7 @@ Da nedbrydningen af fedtsyremolekyler kræver ca. 7 % mere ilt pr. produceret AT
 Mange atleter begår den fejl at styre deres lange ture benhårdt efter enten *kun* tempo eller *kun* puls. Kredsløbsdrift viser, hvorfor man skal lære at balancere begge dele:
 
 * **Hvis du kun løber efter tempo:** Hvis du holder 5:00 min/km uanset hvad, vil kredsløbsdriften betyde, at den fysiologiske og metaboliske anstrengelse stiger løbende. Turen, der startede som en genopbyggende restitutions- eller Zone 2-tur, ender som et hårdt tærskelpas for hjerte og nervesystem.
-* **Hvis du kun løber efter puls:** Hvis du stramt vil holde pulsen på f.eks. 140 bpm, bliver du nødt til at **sænke løbetempoet** gradvist, som turen skrider frem, for at kompensere for det faldende slagvolumen.
+* **Hvis du kun løber efter puls:** Hvis du stramt vil holde pulsen på fx 140 bpm, bliver du nødt til at **sænke løbetempoet** gradvist, som turen skrider frem, for at kompensere for det faldende slagvolumen.
 
 > **Regel for lange pas i sommervarmen:**  
 > På lange ture (særligt i varme) er det helt normalt at se en pulsdrift på **5–10 %**. Hvis din puls stiger mere end 10-15 % ved uændret tempo, er det et tydeligt tegn på enten dehydrering, overophedning eller mangel på energi.
@@ -106,7 +106,7 @@ Mange atleter begår den fejl at styre deres lange ture benhårdt efter enten *k
 
 Du kan ikke helt forhindre, at pulsen stiger på en lang tur, men du kan udskyde og dæmpe effekten betragteligt:
 
-1. **Drik før du bliver tørstig:** Indtag væske løbende (f.eks. 400–700 mL pr. time afhængigt af svedrate) for at holde blodets plasmavolumen oppe.
+1. **Drik før du bliver tørstig:** Indtag væske løbende (fx 400–700 mL pr. time afhængigt af svedrate) for at holde blodets plasmavolumen oppe.
 2. **Brug elektrolytter (Salt):** Natrium i din væske hjælper kroppen med at holde på vandet i blodbanen i stedet for blot at tisse det ud igen.
 3. **Optankning undervejs:** Indtag 30–60 gram kulhydrat pr. time på ture over 75 minutter for at skåne glykogendepoterne og forhindre det ekstra iltkrav fra ren fedtforbrænding.
 

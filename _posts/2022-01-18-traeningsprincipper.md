@@ -54,7 +54,7 @@ Hvis du gerne vil have resultater af din træning, så er det væsentligste para
 
 Derfor er et godt træningsprogram et program, som du bliver motiveret af at følge over tid. Hvis du træner specifikt mod noget, så er det rigtig godt at have en træningsplan, men hvis du bare gerne vil være sundere, så kommer du rigtig lang med at opprioritere aktivitet i hverdagen.
 
-Så husk, selv det mest velskrevne og gennemtænkte træningsprogram virker kun, hvis det bliver udført. En god måde at holde styr på, om man får lavet sin træning er at bruge en [fitness app](/fitness-apps/) eller en [træningsdagbog og træningslog](/rts-app/).
+Så husk, selv det mest velskrevne og gennemtænkte træningsprogram virker kun, hvis det bliver udført. En god måde at holde styr på, om man får lavet sin træning er at bruge en [fitness app](/fitness-apps/) eller en [træningsdagbog og træningslog](/traeningsdagbog-app/).
 
 **Så bare kom i gang. Du kan altid justere din træning senere**.
 

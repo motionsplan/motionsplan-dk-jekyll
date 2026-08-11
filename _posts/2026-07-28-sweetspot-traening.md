@@ -25,7 +25,7 @@ faq:
 - question: Hvad er forskellen på Sweet Spot og Zone 2?
   answer: Zone 2 bygger din aerobe base og fedtforbrænding ved meget lav intensitet, hvilket tillader massiv træningsmængde. Sweet Spot er markant hårdere, forbrænder primært kulhydrater og presser din tærskel opad. Sweet Spot giver hurtigere resultater på kortere tid, men kræver mere restitution.
 - question: Hvor lang tid skal man køre Sweet Spot?
-  answer: Et typisk Sweet Spot-pas for motionister består af intervaller på 10 til 20 minutter (f.eks. 2 x 20 minutter eller 3 x 15 minutter) med korte pauser imellem, typisk 5 minutter.
+  answer: Et typisk Sweet Spot-pas for motionister består af intervaller på 10 til 20 minutter (fx 2 x 20 minutter eller 3 x 15 minutter) med korte pauser imellem, typisk 5 minutter.
 - question: Er Sweet Spot bedre end polariseret træning?
   answer: Det afhænger af din tid. Har du kun 4-6 timer om ugen, er Sweet Spot yderst effektivt til at løfte dit niveau (FTP). Har du mere end 8-10 timer, anbefaler de fleste fysiologer polariseret træning (meget Zone 2) for at undgå overtræning og kronisk træthed.
 ---
@@ -48,7 +48,7 @@ Når du træner Sweet Spot, ligger du *lige under* din anaerobe tærskel (LT2 / 
 
 * **Watt (Cykling):** 84 – 97 % af din FTP (Functional Threshold Power)
 * **Puls:** 88 – 93 % af maxpuls
-* **Følelse (RPE):** Det føles *"behageligt hårdt"*. Du er forpustet, men du syrer ikke til, og du har overskuddet til at holde tempoet i relativt lang tid (f.eks. 20-40 minutter).
+* **Følelse (RPE):** Det føles *"behageligt hårdt"*. Du er forpustet, men du syrer ikke til, og du har overskuddet til at holde tempoet i relativt lang tid (fx 20-40 minutter).
 
 Logikken bag Sweet Spot er, at du får næsten de samme udholdenhedsgevinster som ved decideret tærskeltræning (Zone 4), men fordi du ligger netop et par procenter under tærsklen, akkumulerer du **langt mindre mælkesyre og udmattelse**. Det betyder, at du kan træne dagen efter igen.
 

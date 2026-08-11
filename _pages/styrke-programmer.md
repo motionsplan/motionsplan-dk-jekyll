@@ -97,7 +97,7 @@ Et simpelt **[helkropsprogram (fullbody)](/styrketraening/helkropsprogrammer/)**
 Som øvet har du trænet kontinuerligt i et år eller mere. Du kan ikke længere bare øge vægten hver uge. I stedet har din krop brug for mere struktureret planlægning og variation i volumen og intensitet over uger for at fortsætte med at gro.
 
 **Det bør du vælge:**  
-Et **[2-split eller 3-split program](/styrketraening/split-programmer/)** over 3–5 dage om ugen (f.eks. Push/Pull eller Over-/Underkrop), hvor du rammer hver muskelgruppe 2 gange om ugen med planlagte tunge og lettere dage.
+Et **[2-split eller 3-split program](/styrketraening/split-programmer/)** over 3–5 dage om ugen (fx Push/Pull eller Over-/Underkrop), hvor du rammer hver muskelgruppe 2 gange om ugen med planlagte tunge og lettere dage.
 </details>
 
 <details markdown="1" class="faq">

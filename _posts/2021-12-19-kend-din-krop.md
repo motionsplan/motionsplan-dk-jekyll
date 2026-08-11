@@ -37,7 +37,7 @@ Kender du din krop? Her har du mulighed for at gætte med på en række sjove og
 
 {% include motionsplan/pinterest image_path="/assets/images/blog/kend-din-krop.png" data-pin-media="/assets/images/blog/kend-din-krop.png" %}
 
-Nogle af svarene i denne quiz gælder for alle mennesker (f.eks. *"Hvor mange knogler har du?"*), mens andre svar er baseret på din personlige vægt eller højde. Derfor kan du bruge vores interaktive beregnere til at finde det helt rigtige svar for dig selv.
+Nogle af svarene i denne quiz gælder for alle mennesker (fx *"Hvor mange knogler har du?"*), mens andre svar er baseret på din personlige vægt eller højde. Derfor kan du bruge vores interaktive beregnere til at finde det helt rigtige svar for dig selv.
 
 God fornøjelse med at lære din krop at kende!
 

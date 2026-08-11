@@ -50,7 +50,7 @@ For at gøre teorien mere håndgribelig kan du herunder afprøve en interaktiv m
 
 Selve begrebet superkompensation udspringer oprindeligt af lægen **Hans Selye** og hans berømte stressteori fra 1936: *General Adaptation Syndrome* (GAS).
 
-Selye påviste, at biologiske organismer reagerer på fysisk stress (som f.eks. hård træning) i tre faser:
+Selye påviste, at biologiske organismer reagerer på fysisk stress (som fx hård træning) i tre faser:
 
 1. **Alarmfasen (Alarm Reaction):** Træningen belaster kroppen. Muskelvæv beskadiges, og energidepoter tømmes. Din præstationsevne falder akut.
 2. **Modstandsfasen (Resistance Stage):** Kroppen tilpasser sig stressen i hvileperioden. Den genopbygger vævet og øger sin kapacitet ud over udgangspunktet — det er her, **superkompensationen** opstår.
@@ -111,7 +111,7 @@ Hvis du udnytter superkompensationsfasen til træningsblokke, betyder en _deload
 
 ## Eksempel på superkompensation i praksis
 
-Når du udsætter kroppen for en stor belastning — f.eks. gennem hård [intervaltræning](/intervaltraening/) eller et tungt [styrketræningspas](/styrketraening/) — tilpasser kroppen sig:
+Når du udsætter kroppen for en stor belastning — fx gennem hård [intervaltræning](/intervaltraening/) eller et tungt [styrketræningspas](/styrketraening/) — tilpasser kroppen sig:
 
 * **[Styrketræning](/styrketraening/):** Skaber store mekaniske vævsskader. Restitutionstiden til superkompensation tager typisk **48–72 timer**.
 * **Konditionstræning:** Tømmer primært glykogendepoterne. Superkompensation opnås typisk efter **24–48 timer**, afhængigt af din kost.

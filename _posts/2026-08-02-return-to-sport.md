@@ -44,7 +44,7 @@ I denne guide giver vi dig det komplette overblik over de vigtigste testkriterie
 
 Ifølge de internationale konsensus-retningslinjer (*Ardern et al., 2016*) er det at vende tilbage til sport ikke bare et "ja/nej" spørgsmål, men et kontinuum i tre faser:
 
-1. **Return to Participation:** Du er tilbage i træning, men deltager i modificeret form (f.eks. undgår tacklinger eller max-sprints).
+1. **Return to Participation:** Du er tilbage i træning, men deltager i modificeret form (fx undgår tacklinger eller max-sprints).
 2. **Return to Sport:** Du er tilbage i fuld træning og kan spille kamp, men præsterer måske endnu ikke på dit gamle niveau.
 3. **Return to Performance:** Du er 100 % tilbage og præsterer på samme (eller højere) niveau som før skaden.
 
@@ -107,7 +107,7 @@ I boldsport som fodbold, håndbold og basketball sker skader sjældent, når du 
 
 * **[Agility T-Test](/t-test-agility/):** Tester acceleration fremad, galop sidelæns og baglæns løb i et T-mønster. Giver et præcist billede af sidevejs knæ- og ankelstabilitet samt skiftevis acceleration og opbremsning.
 * **[Pro Agility Test (5-10-5 Shuttle Run)](/pro-agility-5-10-5-test/):** Måler eksplosivitet og to skarpe 180-graders vendinger over en kort distance.
-* **Reaktive Agility-tests:** Retningsskift, hvor du skal reagere på uforudsigelige visuelle signaler (f.eks. en træner der peger). Dette fjerner muligheden for at planlægge landingen og tester nervesystemet under realistiske kampsituationer.
+* **Reaktive Agility-tests:** Retningsskift, hvor du skal reagere på uforudsigelige visuelle signaler (fx en træner der peger). Dette fjerner muligheden for at planlægge landingen og tester nervesystemet under realistiske kampsituationer.
 
 👉 **[Tjek alle retningsskiftstests](/retningsskift-test/)**
 
@@ -124,7 +124,7 @@ Nervesystemets reaktionstid og musklernes evne til at beskytte leddene forringes
 
 ## 7. Overkrop og Skulder (Overkrops-RTS)
 
-Gælder din genoptræning en skulderluksation, kravebensbrud eller rekonstruktion i overkroppen (f.eks. ved kastesport, crossfit eller kampsport), erstattes hoptests med overkropsspecifikke protokoller:
+Gælder din genoptræning en skulderluksation, kravebensbrud eller rekonstruktion i overkroppen (fx ved kastesport, crossfit eller kampsport), erstattes hoptests med overkropsspecifikke protokoller:
 
 * **CKCUEST (Closed Kinetic Chain Upper Extremity Stability Test):** Tester skulderbæltets udholdenhed og dynamiske stabilitet i en høj planke på tid.
 * **Upper Quarter Y-Balance Test:** Måler den dynamiske rækkevidde for skuldre og kropstorsion i en et-arms plankeposition.
@@ -143,7 +143,7 @@ Når du planlægger din genoptræning og finale testdag på Motionsplan.dk, kan 
 | **Dynamisk balance** | **[Y-Balance Test](/y-balance-test/)** | Asymmetri i rækkevidde ($< 4\text{ cm}$) |
 | **Statisk balance** | **[Enkeltbensstand & Stork Test](/enkeltbensstand-stork-test/)** | Proprioception med lukkede øjne |
 | **Vertikal spændstighed** | **[Springtests & Hoppehøjde](/springtests-hoppehoejde/)** | Eksplosiv råstyrke (CMJ / Squat Jump) |
-| **Bevægelighed & Smidighed** | **[Smidighedstests](/smidighedstests/)** | Ledsspecifik ROM (f.eks. Ankel-lunge og [Modified Sit & Reach](/smidighedstest/)) |
+| **Bevægelighed & Smidighed** | **[Smidighedstests](/smidighedstests/)** | Ledsspecifik ROM (fx Ankel-lunge og [Modified Sit & Reach](/smidighedstest/)) |
 | **Kredsløb & Kondition** | **[Bip-test & Yo-Yo Test](/bip-test/)** | Utholdenhed under træthed |
 
 ---

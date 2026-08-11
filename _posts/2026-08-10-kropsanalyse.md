@@ -30,7 +30,7 @@ De fleste vurderer deres krop ud fra kropsvægt alene. Badevægten fortæller di
 Vores online **kropsanalyse dashboard** samler en række fysiologiske og antropometriske formler ét sted. Det giver dig et **indirekte estimat og et samlet overblik** over din kropssammensætning og fysiologiske profiltal.
 
 > 🏥 **Leder du efter en direkte laboratorietest?**  
-> Hvis du er på udkig efter en fysisk kropsanalyse med f.eks. en [InBody-scanner](/artikel/inbody-570-bioimpedans/) eller vil dykke yderligere ned i, hvordan bioimpedans (BIA) fungerer sammenlignet med DEXA-scanninger og hydrostatisk vejning, kan du læse vores [dybdegående guide til kropskomposition her](/kropskomposition/).
+> Hvis du er på udkig efter en fysisk kropsanalyse med fx en [InBody-scanner](/artikel/inbody-570-bioimpedans/) eller vil dykke yderligere ned i, hvordan bioimpedans (BIA) fungerer sammenlignet med DEXA-scanninger og hydrostatisk vejning, kan du læse vores [dybdegående guide til kropskomposition her](/kropskomposition/).
 {: .notice--info }
 
 ---

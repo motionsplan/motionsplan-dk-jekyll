@@ -29,7 +29,7 @@ faq:
 
 Med udbredelsen af præcise wattmålere på cyklen er watt-baseret intervaltræning blevet standarden i alt fra professionel landevejscykling til amatørtriatlon. 
 
-Traditionelt har trænere doseret kortere, supramaximale syre-intervaller som en fast procent af rytterens aerobe tærskel (f.eks. *"Kør 6 x 30 sekunder ved 130% af MAP"*). Men præcis som i løb skaber denne tilgang fysiologiske skævheder, fordi den ser bort fra rytterens maksimale sprinteffekt.
+Traditionelt har trænere doseret kortere, supramaximale syre-intervaller som en fast procent af rytterens aerobe tærskel (fx *"Kør 6 x 30 sekunder ved 130% af MAP"*). Men præcis som i løb skaber denne tilgang fysiologiske skævheder, fordi den ser bort fra rytterens maksimale sprinteffekt.
 
 Løsningen i watt-baserede idrætter er **Anaerobic Power Reserve (APR)**.
 
@@ -78,7 +78,7 @@ Begge skal altså holde 520 Watt. Lad os se, hvor meget af deres anaerobe reserv
 For at udregne din egen eller dine rytteres APR skal du gennemføre to uafhængige tests på en ergometercykel eller med en pålidelig wattmåler.
 
 ### 1. Test af MAP (Maximal Aerobic Power)
-* **[Watt Max / Ramp-test](/kondital-wattmax/):** Den mest almindelige metode. Du starter på en lav belastning (f.eks. 100 W) og øger belastningen med 20–30 Watt i minuttet, indtil du udgår. Måleffekten i det sidst fuldførte minut (eller en beregnet brøkdel) udgør din MAP.
+* **[Watt Max / Ramp-test](/kondital-wattmax/):** Den mest almindelige metode. Du starter på en lav belastning (fx 100 W) og øger belastningen med 20–30 Watt i minuttet, indtil du udgår. Måleffekten i det sidst fuldførte minut (eller en beregnet brøkdel) udgør din MAP.
 * **5-minutters All-Out Test:** Et 5-minutters maksimalt enkeltstarts-forsøg giver en gennemsnitseffekt, der ligger ekstremt tæt på din MAP.
 
 ### 2. Test af PPO (Peak Power Output)
@@ -101,7 +101,7 @@ Ud fra forholdet mellem MAP og PPO kan man klassificere ryttere i tre udprægede
 
 ## Praktisk styring: Træn ud fra % APR
 
-Når du planlægger supramaximale Watt-intervaller (f.eks. 30/15, 20/10 eller 1-minuts bakkeangreb), anbefales det at dosere målwatt ud fra formlen:
+Når du planlægger supramaximale Watt-intervaller (fx 30/15, 20/10 eller 1-minuts bakkeangreb), anbefales det at dosere målwatt ud fra formlen:
 
 $$\text{Måleffekt (Watt)} = \text{MAP} + \left( \frac{\% \text{APR}}{100} \times \text{APR} \right)$$
 

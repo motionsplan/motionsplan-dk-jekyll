@@ -130,7 +130,7 @@ Hvor:
 * **$m$** = Kropsvægt (kg)
 * **$A$** = Alder (år)
 * **$S$** = Køn ($\text{Mand} = 1$, $\text{Kvinde} = 0$)
-* **$t$** = Tid i minutter og decimaler (f.eks. 15 min. og 30 sek. = $15{,}5$ min)
+* **$t$** = Tid i minutter og decimaler (fx 15 min. og 30 sek. = $15{,}5$ min)
 * **$HR$** = Puls / Heart Rate (slag/min)
 
 ### Lunt et al. (2013)

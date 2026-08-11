@@ -156,6 +156,12 @@ Forstå hvordan din kropsbygning og antropometri (lårben, armlængde, ryglængd
 
 ---
 
+## 📊 Regneark, Skabeloner & Printark
+
+{% include table/filter-table-templates.html %}
+
+---
+
 ## Leder du efter specifikke tests?
 
 Hvis du er på udkig efter konkrete testprotokoller (som *Cooper-test, Bip-test, Wingate eller Agility-tests*), finder du dem i vores dedikerede testkataloger:

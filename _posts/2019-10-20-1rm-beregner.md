@@ -66,15 +66,15 @@ tools:
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-24T07:14:14Z'
 toc: 'true'
-feature_row_sheet:
-- image_path: /assets/images/freebies/rmberegner.png
-  alt: Google Sheets med RM-beregner
-  title: RM-beregner i Google Sheets
-  excerpt: I dette Google Sheets kan du selv lege lidt med at estimere din 1RM og efterfølgende prøve det af i praksis.
-  url: https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy#gid=499201424
-  btn_label: <i class='fas fa-file-excel'></i> Download
-  btn_class: btn--success
-  rel: nofollow noopener
+templates:
+  - id: "rm_beregner_sheet"
+    title: "RM-beregner i Google Sheets"
+    description: "I dette Google Sheets kan du selv lege lidt med at estimere din 1RM og efterfølgende prøve det af i praksis."
+    format: "Google Sheets / Excel"
+    type: "sheet"
+    btn_text: "📊 Lav en kopi i Google Sheets"
+    url: "https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy#gid=499201424"
+    image: "/assets/images/freebies/rmberegner.png"
 faq:
 - question: Hvad er en 1RM-beregner?
   answer: En 1RM-beregner kan estimere din _One Repetition Maximum (1RM)_. Ved at indtaste den vægt, du har løftet, og antallet
@@ -198,7 +198,7 @@ Jeg kan godt lide at give mulighed for det er lidt mere fleksibelt under udføre
 
 Her har jeg lavet en regneark i Google Sheets med alle RM-formlerne, hvis du foretrækker at have data på din egen computer.
 
-{% include feature_row id="feature_row_sheet" type="left" %}
+{% include motionsplan/templates.html id="rm_beregner_sheet" %}
 
 ## Skema og tabel med RM-værdier
 

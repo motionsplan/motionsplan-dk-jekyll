@@ -160,7 +160,7 @@ Der er flere forskellige måder at beskrive og kategorisere træningszoner, som 
 
 For mere inspiration til, hvordan du sammensætter et træningsprogram, kan du læse om [hvordan man laver et løbetræningsprogram](/guide-til-loebeprogram/).
 
-{% include feature_row id="template" type="left" %}
+{% include motionsplan/templates.html id="jack_daniels_loebeprogram_skabelon" %}
 
 {% comment %}
 

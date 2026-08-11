@@ -43,7 +43,7 @@ Lokale idrætsforeninger under DGI eller DIF samt træningsfaciliteter i kommuna
 * **Ulemper:** Ofte begrænsede åbningstider og færre avancerede maskiner.
 
 ### 2. Discount- & Nøglecentre ($$)
-Mindre kæder og døgnåbne "jernhuler" eller ubemandede centre (f.eks. *Fit Zone* eller lokale discountcentre).
+Mindre kæder og døgnåbne "jernhuler" eller ubemandede centre (fx *Fit Zone* eller lokale discountcentre).
 * **Hvad får du?** Direkte adgang til frie vægte, frivægtsområder og basale maskiner via app eller nøglebrik.
 * **Fordele:** Lave månedlige priser, lange åbningstider (ofte 05–24 eller døgnåbent).
 * **Ulemper:** Ingen personalemodtagelse, sjældent holdtræning eller sauna.
@@ -80,7 +80,7 @@ Vil du gerne skære toppen af din månedlige træningsregning? Her er de fem mes
 > Slå koldt vand i blodet, hvis du kan. Næsten alle store kæder kører med **"0 kr. i oprettelse"** eller *"Første måned til 1 kr."* i **januar** (nytårsfortsæt) samt i **august/september** (studiestart).
 
 > 🎓 **3. Udnyt studie-, senior- og erhvervsrabatter**  
-> Er du studerende eller pensionist? De fleste kæder har faste rabatter. Tjek også, om din arbejdsplads, fagforening eller personaleklub (f.eks. LogBuy, Visma eller Benify) har en rabataftale med en af fitnesskæderne.
+> Er du studerende eller pensionist? De fleste kæder har faste rabatter. Tjek også, om din arbejdsplads, fagforening eller personaleklub (fx LogBuy, Visma eller Benify) har en rabataftale med en af fitnesskæderne.
 
 > 🚫 **4. Fravalg holdtræning hvis du kun løfter vægte**  
 > Hvis du primært bruger løbebånd og håndvægte, skal du sikre dig, at du ikke køber et abonnement, der inkluderer fri holdtræning eller sauna. Vælg altid det mest basale "Basis"- eller "Kategori 1"-medlemskab.

@@ -1,0 +1,114 @@
+{% assign calc_title = include.title | default: "📈 ACWR Belastningsberegner" %}
+{% assign data_id = include.calc_id | default: "acwr-calculator" %}
+
+<div class="mp-calc-card vbt-premium-card" id="mp-acwr-calculator-card" data-calculator="{{ data_id }}">
+  
+  <!-- HEADER -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0; font-size: 1.35rem; font-weight: 800; color: #0f172a;">{{ calc_title }}</h3>
+      <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: #64748b;">Beregn Acute:Chronic Workload Ratio & undgå overbelastningsskader</p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 38px; height: 38px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-acwr-container">
+    
+    <!-- ENHEDS-VÆLGER -->
+    <div class="mp-form-group" style="margin-bottom: 1.25rem;">
+      <label class="vbt-premium-label" style="font-size: 0.8rem; font-weight: 700; color: #475569; display: block; margin-bottom: 6px;">📐 Hvad måler du din træning i?</label>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 6px; background: #f1f5f9; padding: 4px; border-radius: 12px; border: 1px solid #e2e8f0;">
+        <input type="radio" id="mp-acwr-unit-km" name="mp-acwr-unit" value="km" class="js-acwr-unit-radio" checked style="display:none;">
+        <label for="mp-acwr-unit-km" class="js-acwr-unit-lbl" data-value="km" style="padding: 8px; text-align: center; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 0.85rem; color: #ffffff; background: #2563eb; transition: all 0.15s ease;">
+          🏃 Kilometer (km)
+        </label>
+        
+        <input type="radio" id="mp-acwr-unit-min" name="mp-acwr-unit" value="min" class="js-acwr-unit-radio" style="display:none;">
+        <label for="mp-acwr-unit-min" class="js-acwr-unit-lbl" data-value="min" style="padding: 8px; text-align: center; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 0.85rem; color: #475569; transition: all 0.15s ease;">
+          ⏱️ Tid (minutter)
+        </label>
+
+        <input type="radio" id="mp-acwr-unit-srpe" name="mp-acwr-unit" value="srpe" class="js-acwr-unit-radio" style="display:none;">
+        <label for="mp-acwr-unit-srpe" class="js-acwr-unit-lbl" data-value="srpe" style="padding: 8px; text-align: center; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 0.85rem; color: #475569; transition: all 0.15s ease;">
+          📊 sRPE Point
+        </label>
+      </div>
+      <p class="js-acwr-unit-hint" style="margin: 6px 0 0 0; font-size: 0.75rem; color: #64748b; font-style: italic;">
+        Bedst til løbere og distancetræning.
+      </p>
+    </div>
+
+    <!-- 4 UGER INPUT -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 14px; margin-bottom: 1.25rem;">
+      <span style="font-size: 0.85rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 10px;">🗓️ Træningsmængde de seneste 4 uger</span>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px;">
+        <div>
+          <label for="mp-acwr-w1" style="font-size: 0.75rem; font-weight: 700; color: #64748b; display: block; margin-bottom: 4px;">Uge 1 (4 uger siden)</label>
+          <input type="number" id="mp-acwr-w1" class="js-acwr-input" data-field="w1" value="25" placeholder="25" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+        </div>
+        <div>
+          <label for="mp-acwr-w2" style="font-size: 0.75rem; font-weight: 700; color: #64748b; display: block; margin-bottom: 4px;">Uge 2 (3 uger siden)</label>
+          <input type="number" id="mp-acwr-w2" class="js-acwr-input" data-field="w2" value="28" placeholder="28" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+        </div>
+        <div>
+          <label for="mp-acwr-w3" style="font-size: 0.75rem; font-weight: 700; color: #64748b; display: block; margin-bottom: 4px;">Uge 3 (Sidste uge)</label>
+          <input type="number" id="mp-acwr-w3" class="js-acwr-input" data-field="w3" value="30" placeholder="30" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+        </div>
+        <div style="background: #eff6ff; padding: 6px; border-radius: 10px; border: 1.5px solid #3b82f6;">
+          <label for="mp-acwr-w4" style="font-size: 0.75rem; font-weight: 800; color: #1e40af; display: block; margin-bottom: 4px;">⚡ Uge 4 (Akut uge)</label>
+          <input type="number" id="mp-acwr-w4" class="js-acwr-input" data-field="w4" value="35" placeholder="35" style="width:100%; padding: 8px; border: 1.5px solid #2563eb; border-radius: 8px; font-weight: 800; text-align: center; box-sizing: border-box; background: #ffffff;">
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTAT-KORT -->
+    <div class="mp-results-container" style="margin-bottom: 1.25rem;">
+      <div style="display: grid; grid-template-columns: 1.3fr 1fr; gap: 12px;">
+        
+        <!-- HERO RESULTAT -->
+        <div class="js-acwr-hero-bg" style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); border-radius: 20px; padding: 20px; color: #ffffff; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 8px 20px rgba(16,185,129,0.2);">
+          <span style="font-size: 0.72rem; font-weight: 800; letter-spacing: 0.8px; opacity: 0.9; text-transform: uppercase;">ACWR RATIO</span>
+          <div style="display: flex; align-items: baseline; justify-content: center; margin: 6px 0;">
+            <span class="js-acwr-res-score" style="font-size: 3.6rem; font-weight: 900; line-height: 1;">1.19</span>
+          </div>
+          <span class="js-acwr-res-badge" style="font-size: 0.78rem; font-weight: 800; background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 12px; backdrop-filter: blur(4px);">
+            🟢 Sweet Spot (Lav Skadesrisiko)
+          </span>
+          <span class="js-acwr-res-desc" style="font-size: 0.7rem; opacity: 0.9; margin-top: 6px; font-weight: 600;">
+            Perfekt træningsprogression!
+          </span>
+        </div>
+
+        <!-- SEKUNDÆRE BOKSE -->
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 10px 12px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+            <span style="font-size: 0.72rem; font-weight: 700; color: #64748b;">Akut Belastning (Uge 4)</span>
+            <span style="font-size: 1.2rem; font-weight: 900; color: #0f172a;"><span class="js-acwr-res-acute">35</span> <small class="js-acwr-res-unit" style="font-size: 0.8rem; color: #64748b;">km</small></span>
+          </div>
+
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 10px 12px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+            <span style="font-size: 0.72rem; font-weight: 700; color: #64748b;">Kronisk Snit (4 uger)</span>
+            <span style="font-size: 1.2rem; font-weight: 900; color: #0f172a;"><span class="js-acwr-res-chronic">29.5</span> <small class="js-acwr-res-unit" style="font-size: 0.8rem; color: #64748b;">km</small></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div id="sf-actions" class="mp-action-group" style="display: flex; gap: 10px; margin-top: 1rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn" style="flex: 1; background: #2563eb; color: #fff; border: none; padding: 12px; border-radius: 12px; font-weight: 700; cursor: pointer;">
+        📸 Tag et billede / Gem resultat
+      </button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd indtastninger" style="background: #f1f5f9; border: 1px solid #cbd5e1; padding: 0 16px; border-radius: 12px; cursor: pointer; font-size: 1.1rem;">
+        🗑️
+      </button>
+    </div>
+
+    <div style="text-align: center; margin-top: 1rem; font-size: 0.75rem; color: #94a3b8; font-weight: 600;">
+      &copy; motionsplan.dk
+    </div>
+
+  </div>
+</div>

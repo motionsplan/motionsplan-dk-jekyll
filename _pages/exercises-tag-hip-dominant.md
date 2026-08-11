@@ -33,7 +33,7 @@ På engelsk kaldes dette bevægelsesmønster for et **hip hinge** (eller på dan
 
 ## Biomekanikken i et Hofte Hinge
 
-Forskellen på en hoftedominant øvelse (f.eks. [dødløft](/doedloeft-biomekanik/)) og en knædominant øvelse (f.eks. [squat](/squat-biomekanik/)) handler om, hvilket led der bærer det største drejningsmoment (*torque*).
+Forskellen på en hoftedominant øvelse (fx [dødløft](/doedloeft-biomekanik/)) og en knædominant øvelse (fx [squat](/squat-biomekanik/)) handler om, hvilket led der bærer det største drejningsmoment (*torque*).
 
 I en hoftedominant bevægelse føres hoften langt bagud, hvilket skaber en lang vandret momentarm fra belastningen og frem til hofteleddet:
 

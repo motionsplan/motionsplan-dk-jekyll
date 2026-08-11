@@ -132,7 +132,7 @@ Forsvaret har udviklet deres egen officielle app **'Træn med Forsvaret'**, som 
 
 {% include gallery id="tmf" %}
 
-Appen indeholder strukturerede ugeprogrammer tilpasset det niveau (f.eks. Niveau 1, 2 eller 3), du skal opnå til din specifikke uddannelse.
+Appen indeholder strukturerede ugeprogrammer tilpasset det niveau (fx Niveau 1, 2 eller 3), du skal opnå til din specifikke uddannelse.
 
 ---
 

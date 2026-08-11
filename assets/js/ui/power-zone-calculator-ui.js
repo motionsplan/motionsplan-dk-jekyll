@@ -279,7 +279,7 @@ export function initPowerZoneCalculatorUI(container, calcId = 'power-zone-calcul
         </div>
       `).join('');
 
-      // SWEET SPOT VISES KUN HVIS DEN VALGTE FORMEL DEFINERER SWEET SPOT (F.EKS. COGGAN)
+      // SWEET SPOT VISES KUN HVIS DEN VALGTE FORMEL DEFINERER SWEET SPOT (fx COGGAN)
       if (res.hasSweetSpot && res.sweetSpot) {
         html += `
           <div class="mp-pw-sweetspot-card">

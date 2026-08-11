@@ -1,4 +1,4 @@
-// Navn på cachen – skift versionsnummer (f.eks. v2), når du laver store ændringer på siden
+// Navn på cachen – skift versionsnummer (fx v2), når du laver store ændringer på siden
 const CACHE_NAME = "meteoric-cache-v2";
 const OFFLINE_FALLBACK = "index.html";
 

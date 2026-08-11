@@ -117,12 +117,12 @@ Der er dog visse praktiske gener og medicinske forholdsregler, du skal kende:
 ### 1. Praktiske gener ved forkert pasform
 * **Snurren og kolde fødder:** Hvis du køber en strømpe, der er for lille, eller hvis kanten under knæet ruller sammen, kan den fungere som en stram elastik. Det kan afklemme blodtilførslen og give snurren eller kolde tæer.
 * **Hudirritation:** Ved langvarig brug uden vask kan sved og friktion give kløe, rødme eller tør hud under strømpen.
-* **Tryk-ubehag:** At bære stramme kompressionsstrømper i mange timer i træk (f.eks. på lange flyrejser) kan til sidst føles ubehageligt, hvorfor man får lyst til at tage dem af.
+* **Tryk-ubehag:** At bære stramme kompressionsstrømper i mange timer i træk (fx på lange flyrejser) kan til sidst føles ubehageligt, hvorfor man får lyst til at tage dem af.
 
 ### 2. Medicinske kontraindikationer
 Du bør **undgå** stramme kompressionsstrømper eller konsultere din læge først, hvis du lider af:
 * **Svær åreforkalkning (arteriel insufficiens):** Det ydre tryk kan forringe den iltrige blodtilførsel til fødderne.
-* **Perifer neuropati:** Nedsat følesans i benene (f.eks. ved fremskreden diabetes) gør, at du ikke mærker, hvis strømpen sidder forkert og laver tryksår.
+* **Perifer neuropati:** Nedsat følesans i benene (fx ved fremskreden diabetes) gør, at du ikke mærker, hvis strømpen sidder forkert og laver tryksår.
 * **Aktive hudinfektioner:** Stramme tekstiler kan forværre åbne sår eller svamp.
 
 ---

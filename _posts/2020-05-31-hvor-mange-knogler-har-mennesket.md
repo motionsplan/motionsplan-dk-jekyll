@@ -33,7 +33,7 @@ faq:
 - question: Hvor mange knogler er der i foden?
   answer: Selve foden består af 26 knogler (7 fodrodsknogler, 5 mellemfodsknogler og 14 tåknogler), der holdes sammen af et komplekst netværk af ledbånd.
 - question: Hvor mange knogler har en baby?
-  answer: En baby bliver født med omkring 300 knogler. Mange af disse består af brusk og vokser sammen til større knogler (f.eks. i kraniet og rygsøjlen) i takt med, at barnet vokser.
+  answer: En baby bliver født med omkring 300 knogler. Mange af disse består af brusk og vokser sammen til større knogler (fx i kraniet og rygsøjlen) i takt med, at barnet vokser.
 - question: Har mænd flere knogler end kvinder?
   answer: Nej, både mænd og kvinder har nøjagtig 206 knogler. En kendt myte siger, at mænd mangler et ribben, men anatomisk set har begge køn præcis 24 ribben. Forskellen på de to skeletter ligger i stedet i knoglernes tykkelse og bækkenets bredde.
 ---

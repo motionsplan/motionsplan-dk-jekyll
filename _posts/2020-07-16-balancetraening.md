@@ -25,9 +25,9 @@ faq:
   - question: "Hvor ofte bør man lave balancetræning?"
     answer: "Forskning og praksis viser, at 7–10 minutters balancetræning 3 gange om ugen er nok til at opnå markante forbedringer i din postural kontrol og atletiske ydeevne."
   - question: "Hvordan træner man den proprioceptive sans?"
-    answer: "Du træner den proprioceptive sans ved at udfordre leddenes stillingssans – f.eks. ved at lukke øjnene under enkeltbensøvelser, ændre hovedets stilling eller udsætte kroppen for perturbation (udefrakommende forstyrrelser)."
+    answer: "Du træner den proprioceptive sans ved at udfordre leddenes stillingssans – fx ved at lukke øjnene under enkeltbensøvelser, ændre hovedets stilling eller udsætte kroppen for perturbation (udefrakommende forstyrrelser)."
   - question: "Virker balancebræt og BOSU-bolde på balancen?"
-    answer: "Træning på balancebræt og ustabile underlag gør dig bedre til at balancere på netop dét redskab. Forskningen (f.eks. Behm et al.) viser dog, at det ikke nødvendigvis giver større overførbarhed til fast underlag end almindelige etbensøvelser på gulvet."
+    answer: "Træning på balancebræt og ustabile underlag gør dig bedre til at balancere på netop dét redskab. Forskningen (fx Behm et al.) viser dog, at det ikke nødvendigvis giver større overførbarhed til fast underlag end almindelige etbensøvelser på gulvet."
 ---
 
 Balancetræning bør være en fast del af din træningsrutine. Uanset om du er eliteidrætsudøver, genoptræner efter en ankelskade eller ønsker en mere stabil krop i hverdagen, kan målrettede balanceøvelser reducere skadesrisikoen og forbedre din atletiske præstation.
@@ -67,7 +67,7 @@ Noget af det bedste ved balancetræning er, at det ikke behøver at tage lang ti
 ### Anbefalet træningsmængde:
 * **Frekvens:** 3–5 gange om ugen (eller som en fast del af din opvarmning).
 * **Varighed:** 5–10 minutter pr. pas er fuldt tilstrækkeligt for de fleste.
-* **Restitution:** Hvis du laver meget tunge etbensøvelser (f.eks. [Stork-testen på tæer](/enkeltbensstand-stork-test/)), kan lægmuskulaturen kræve en restedag.
+* **Restitution:** Hvis du laver meget tunge etbensøvelser (fx [Stork-testen på tæer](/enkeltbensstand-stork-test/)), kan lægmuskulaturen kræve en restedag.
 
 ---
 
@@ -90,9 +90,9 @@ Det har længe været populært at bruge redskaber som balancebræt, BOSU-bolde 
 Studier af **Hrysomallis (2011)** og **Kiers et al. (2013)** viser, at balancetræning forbedrer præstationsevnen og nedsætter skadesrisikoen, men princippet om **specificitet** gælder i høj grad:
 
 * **Kümmel et al. (2016):** Fandt i en meta-analyse, at balancetræning giver stor fremgang i de specifikke øvelser, man træner, men har begrænset overførbarhed (*carry-over*) til helt andre balanceopgaver.
-* **Behm et al. (2015):** Viste i et systematisk review, at træning på ustabile underlag (f.eks. balancebræt) ikke nødvendigvis giver større forbedringer i muskelstyrke eller generel balance sammenlignet med øvelser udført på **stabile underlag** (f.eks. gulvet).
+* **Behm et al. (2015):** Viste i et systematisk review, at træning på ustabile underlag (fx balancebræt) ikke nødvendigvis giver større forbedringer i muskelstyrke eller generel balance sammenlignet med øvelser udført på **stabile underlag** (fx gulvet).
 
-**Konklusion:** Balancebræt øvelser kan være sjove, udfordrende og glimrende til genoptræning af ankelled. Men hvis du skal bruge din balance på et fast underlag (f.eks. i løb, håndbold eller fodbold), bør hovedparten af din balancetræning også foregå på et fast underlag!
+**Konklusion:** Balancebræt øvelser kan være sjove, udfordrende og glimrende til genoptræning af ankelled. Men hvis du skal bruge din balance på et fast underlag (fx i løb, håndbold eller fodbold), bør hovedparten af din balancetræning også foregå på et fast underlag!
 
 ---
 

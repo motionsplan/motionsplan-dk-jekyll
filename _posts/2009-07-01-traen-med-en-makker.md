@@ -46,9 +46,9 @@ Med en makker behøver du hverken vægtstænger eller håndvægte for at skabe t
 
 Makkerøvelser kan opdeles i tre overordnede kategorier, afhængigt af dit træningsmål:
 
-* 🏋️ **Makkeren som ydre belastning:** Her bruges makkerens kropsvægt som modstand i klassiske basalløft – f.eks. *Fireman’s Carry* (bære-øvelser), makkersquats på ryggen eller makkerskub.
+* 🏋️ **Makkeren som ydre belastning:** Her bruges makkerens kropsvægt som modstand i klassiske basalløft – fx *Fireman’s Carry* (bære-øvelser), makkersquats på ryggen eller makkerskub.
 * 🛑 **Manuel modstand og fiksering:** Makkerens opgave er at holde igen eller fiksere din krop. Det mest kendte eksempel er [Nordic Hamstring Curls](/nordic-hamstring-breakpoint/), hvor makkeren holder dine ankler nede i gulvet, mens du arbejder [excentrisk med baglårene](/excentrisk-traening/).
-* ⏱️ **"I Go, You Go" Intervaller (IGYG):** En fantastisk struktur til [HIIT og konditionstræning](/hiit/). Mens du udfører en øvelse (f.eks. 10 kettlebell swings eller 100 meter sprint), hviler din makker – og modsat. Pausetiden matcher præcis arbejdstiden.
+* ⏱️ **"I Go, You Go" Intervaller (IGYG):** En fantastisk struktur til [HIIT og konditionstræning](/hiit/). Mens du udfører en øvelse (fx 10 kettlebell swings eller 100 meter sprint), hviler din makker – og modsat. Pausetiden matcher præcis arbejdstiden.
 
 ---
 
@@ -56,9 +56,9 @@ Makkerøvelser kan opdeles i tre overordnede kategorier, afhængigt af dit træn
 
 For at få det maksimale ud af øvelserne og undgå skader bør I altid følge disse retningslinjer:
 
-1. **Etablér klare stop-signaler:** Ved manuel modstand eller makkeraflastning skal I have et lynhurtigt og tydeligt signal (f.eks. ordet *"Tak"* eller *"Stop"*), så modstanden fjernes øjeblikkeligt.
+1. **Etablér klare stop-signaler:** Ved manuel modstand eller makkeraflastning skal I have et lynhurtigt og tydeligt signal (fx ordet *"Tak"* eller *"Stop"*), så modstanden fjernes øjeblikkeligt.
 2. **Afstem niveau og kropsstørrelse:** Hvis I skal løfte hinanden, skal belastningen passe til begge parters fysiske fundament og [core-stabilitet](/core/).
-3. **Fokusér på spotting-kvalitet:** Ved tunge løft i centeret (f.eks. bænkpres eller squat) er makkerens fornemste opgave at være $100\%$ til stede og klar til at gribe stangen sikkert.
+3. **Fokusér på spotting-kvalitet:** Ved tunge løft i centeret (fx bænkpres eller squat) er makkerens fornemste opgave at være $100\%$ til stede og klar til at gribe stangen sikkert.
 
 ---
 

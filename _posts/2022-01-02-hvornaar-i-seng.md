@@ -42,7 +42,7 @@ faq:
   - question: "Hvor mange søvncyklusser skal man have på en nat?"
     answer: "For voksne anbefales det at få omkring 5 søvncyklusser i døgnet, hvilket svarer til 7,5 times ren søvn. Sover du 4 cyklusser (6 timer) eller 6 cyklusser (9 timer), rammer du også afslutningen af en cyklus."
   - question: "Hvorfor føler jeg mig træt, selvom jeg har sovet 8 timer?"
-    answer: "Hvis du vågner midt i en dyb søvncyklus (f.eks. pga. et vækkeur), vil du opleve 'søvninerti' (tunghed og træthed). Det handler ofte mere om timingen af din opvågning end det nøjagtige antal timer."
+    answer: "Hvis du vågner midt i en dyb søvncyklus (fx pga. et vækkeur), vil du opleve 'søvninerti' (tunghed og træthed). Det handler ofte mere om timingen af din opvågning end det nøjagtige antal timer."
 ---
 
 Mange tror, at hemmeligheden bag en god nats søvn udelukkende handler om at ramme præcis 8 timer i sengen. Men ifølge søvneksperter som Nick Littlehales (forfatter til bogen *Sleep* og rådgiver for elitesportsfolk) bør du i stedet tænke din søvn i **cyklusser af 90 minutter**.
@@ -84,7 +84,7 @@ Når du planlægger din sengetid, skal du huske at lægge tid til at falde i sø
 ## 5 hurtige råd til at ramme din søvncyklus
 
 1. **Fast opvågningstidspunkt:** Hold det samme opvågningstidspunkt hver dag – også i weekenden. Det ankrer din døgnrytme (*circadian rhythm*).
-2. **Respekter 90-minutters vinduet:** Hvis du misser din planlagte sengetid (f.eks. kl. 23:15), kan det bedre betale sig at vente oppe til næste søvnvindue (kl. 00:45) frem for at ligge og vende og dreje dig i sengen.
+2. **Respekter 90-minutters vinduet:** Hvis du misser din planlagte sengetid (fx kl. 23:15), kan det bedre betale sig at vente oppe til næste søvnvindue (kl. 00:45) frem for at ligge og vende og dreje dig i sengen.
 3. **Brug 10-3-2-1-0 reglen:**
    * **10 timer før:** Ingen koffein (kaffe, cola, energidrik).
    * **3 timer før:** Ingen store måltider eller alkohol.

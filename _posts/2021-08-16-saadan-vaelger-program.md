@@ -121,8 +121,8 @@ Som begynder opnår du hurtigt fremgang fra træningspas til træningspas. Din k
 * Minimal variation i øvelsesvalget.
 
 **Typisk struktur:**
-* Samme øvelser og sæt/reps flere gange om ugen (f.eks. et [helkropsprogram](/styrketraening/helkropsprogrammer/)).
-* Lineær progression ved hver træning (f.eks. +2,5 kg på stangen).
+* Samme øvelser og sæt/reps flere gange om ugen (fx et [helkropsprogram](/styrketraening/helkropsprogrammer/)).
+* Lineær progression ved hver træning (fx +2,5 kg på stangen).
 * Enkel opbygning uden komplicerede deloads.
 </details>
 
@@ -139,7 +139,7 @@ Som øvet har du brug for mere struktureret træning. Du kan ikke længere bare 
 * Periodemæssig fremgang med fokus på én fysisk kvalitet ad gangen (fx styrke eller hypertrofi).
 
 **Typisk struktur:**
-* [2-split eller 3-split programmer](/styrketraening/split-programmer/) (f.eks. Push/Pull eller Over/Underkrop).
+* [2-split eller 3-split programmer](/styrketraening/split-programmer/) (fx Push/Pull eller Over/Underkrop).
 * Skift mellem tunge og lettere uger.
 * Brug af mesocyklusser og struktureret periodisering.
 </details>
@@ -175,7 +175,7 @@ Det allervigtigste i dit programvalg er, at du finder en struktur, som du er mot
 
 Hvis du træner 2-3 gange om ugen, er det en stor fordel at vælge et træningsprogram, hvor du træner hele kroppen hver gang – et såkaldt *helkropsprogram*.
 
-Helkropsprogrammet hjælper dig med at holde frekvensen høj nok til, at du får god effekt af træningen. Du kan enten lave den samme træning hver gang, eller skifte mellem 2 variationer (f.eks. Fullbody A og B).
+Helkropsprogrammet hjælper dig med at holde frekvensen høj nok til, at du får god effekt af træningen. Du kan enten lave den samme træning hver gang, eller skifte mellem 2 variationer (fx Fullbody A og B).
 
 [Se eksempler på Fullbody-programmer →](/styrketraening/helkropsprogrammer/){: .btn .btn--success }
 </details>
@@ -195,7 +195,7 @@ Fire træningsdage om ugen åbner for 2-split, hvor du skifter mellem overkrop o
 
 Hvis du gerne vil træne fem eller flere dage om ugen, får du adgang til endnu flere split-muligheder.
 
-Du kan køre et 3-split (f.eks. Push/Pull/Legs) roterende, eller et opdelt fullbody-program som [Jakob Beermans Stærk-program](/artikel/staerk-traeningsprogram/).
+Du kan køre et 3-split (fx Push/Pull/Legs) roterende, eller et opdelt fullbody-program som [Jakob Beermans Stærk-program](/artikel/staerk-traeningsprogram/).
 
 Mange vælger 4-split eller 5-split, men for de fleste almindelige motionister giver det sjældent bedre resultater end et gennemtænkt 2-split eller 3-split, da træningsfrekvensen pr. muskelgruppe ofte bliver for lav.
 </details>
@@ -223,9 +223,9 @@ Det korte svar er: **Det bedste styrketræningsprogram er det program, du rent f
 
 Fra et fysiologisk synspunkt findes der ikke ét enkelt "magisk" program, der er det bedste for alle. Det bedste program for en **begynder** er markant anderledes end det bedste program for en **øvet løfter**:
 
-* **For begyndere:** Det bedste program er et simpelt **[Fullbody-program](/styrketraening/helkropsprogrammer/)** (2–3 dage/uge) med fokus på basisøvelser og lineær progression fra gang til gang (f.eks. *GreySkull LP*).
+* **For begyndere:** Det bedste program er et simpelt **[Fullbody-program](/styrketraening/helkropsprogrammer/)** (2–3 dage/uge) med fokus på basisøvelser og lineær progression fra gang til gang (fx *GreySkull LP*).
 * **For øvede (muskelmasse):** Det bedste program er et **[2-split eller 3-split](/styrketraening/split-programmer/)** (3–4 dage/uge), hvor du rammer hver muskelgruppe 2 gange om ugen med varierende volumen.
-* **For styrkeløft:** Det bedste program er et struktureret periodiseringsprogram (f.eks. *Wendler 5/3/1* eller *RTS*).
+* **For styrkeløft:** Det bedste program er et struktureret periodiseringsprogram (fx *Wendler 5/3/1* eller *RTS*).
 
 ---
 
@@ -249,7 +249,7 @@ Også Jim Wendler skriver meget kontant om sit kendte 5/3/1-program:
 
 Inden du lægger dig fast på et program, kan du hurtigt løbe denne tjekliste igennem:
 
-- [ ] **Målet:** Opfylder programmet dit primære mål (f.eks. styrke eller muskelmasse)?
+- [ ] **Målet:** Opfylder programmet dit primære mål (fx styrke eller muskelmasse)?
 - [ ] **Muskelbalance:** Er der balance i øvelserne (knædomineret, hoftedomineret, træk, skub, core, unilaterale bevægelser)?
 - [ ] **Rækkefølge:** Ligger de tunge flerledsøvelser/basisøvelser først i træningspasset?
 - [ ] **Intensitet:** Er intensiteten (vægt/reps) afstemt i forhold til dit niveau?

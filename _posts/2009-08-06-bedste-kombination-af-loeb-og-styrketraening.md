@@ -22,15 +22,15 @@ category:
 - Løb
 - Styrketræning
 last_modified_at: '2021-06-09T10:09:36Z'
-feature_row:
-- image_path: /assets/images/freebies/combination-infographic.png
-  url: https://docs.google.com/document/d/15XeEFJ4xV0n7_7OecJGReOq6YalQZY5--6zMC5RBtoU/copy?usp=sharing
-  title: Hvordan laver jeg et godt træningsprogram?
-  excerpt: Her er en infographic lavet i Google Docs med nogle af hovedpunkterne til, hvordan du laver et godt træningsprogram
-    til kombinationstræning.
-  btn_class: btn--warning
-  btn_label: <i class='fas fa-file-alt'></i> Download Google Docs
-  rel: nofollow noopener
+templates:
+  - id: "kombinationstraening_infographic"
+    title: "Hvordan laver jeg et godt træningsprogram?"
+    description: "Her er en infographic lavet i Google Docs med nogle af hovedpunkterne til, hvordan du laver et godt træningsprogram til kombinationstræning."
+    format: "Google Docs"
+    type: "doc"
+    btn_text: "📝 Åbn i Google Docs"
+    url: "https://docs.google.com/document/d/15XeEFJ4xV0n7_7OecJGReOq6YalQZY5--6zMC5RBtoU/copy?usp=sharing"
+    image: "/assets/images/freebies/combination-infographic.png"
 ---
 
 Jeg kan godt lide at kombinere styrketræning, løbetræning og konditionstræning samtidigt. Det kalder man _concurrent training_, kombinationstræning eller samtidig træning. Hvordan kan man træne styrke og cardio samtidigt, og hvad er den bedste kombination?
@@ -157,7 +157,7 @@ Du kan altså sagtens lave styrketræning og løb på samme dag. Det kan forment
 
 Personligt ville jeg nok lægge styrketræningen først, men tilsyneladende kan din maksimale styrke være på et godt niveau allerede efter 8 timer efter et hårdt træningspas (som ganske vist blev udført på cykel uden det excentriske komponent).
 
-{% include feature_row type="left" %}
+{% include motionsplan/templates.html id="kombinationstraening_infographic" %}
 
 ## Hvad gør jeg så, hvis jeg vil kombinere styrketræning, konditionstræning og løbetræning?
 

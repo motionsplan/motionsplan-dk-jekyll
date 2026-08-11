@@ -67,7 +67,7 @@ Brystmusklen trænes bedst gennem pres- og fly-bevægelser.
 
 ## Funktionel betydning
 
-Udover at være en af de mest populære "spejl-muskler", er Pectoralis Major afgørende i sportsgrene, der kræver kraftfulde kast eller slag (f.eks. håndbold eller boksning) samt ved klatring. Den arbejder ofte tæt sammen med den [brede rygmuskel](/latissimus-dorsi/) om at trække overarmen ned og ind mod kroppen.
+Udover at være en af de mest populære "spejl-muskler", er Pectoralis Major afgørende i sportsgrene, der kræver kraftfulde kast eller slag (fx håndbold eller boksning) samt ved klatring. Den arbejder ofte tæt sammen med den [brede rygmuskel](/latissimus-dorsi/) om at trække overarmen ned og ind mod kroppen.
 
 Læs også om den [lille brystmuskel her](/pectoralis-minor/), som ligger gemt under den store.
 

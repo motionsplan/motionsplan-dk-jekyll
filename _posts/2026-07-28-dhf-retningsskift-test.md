@@ -61,10 +61,10 @@ faq:
 
 **Dansk Håndbolds Retningsskift-test** er en central del af forbundets officielle *Performance Profil*, som benyttes til at teste og screene ungdoms- og elitespillere over hele landet. 
 
-Mens klassiske løbetests (som f.eks. bip-testen eller 30-meter sprint) tester generel kondition eller tophastighed, er denne test $100\%$ **håndboldspecifik**. Den er designet til at kortlægge spillerens evne til at bevæge sig optimalt i de komplekse bevægelsesmønstre, der uophørligt optræder i både angrebs- og især forsvarsspillet.
+Mens klassiske løbetests (som fx bip-testen eller 30-meter sprint) tester generel kondition eller tophastighed, er denne test $100\%$ **håndboldspecifik**. Den er designet til at kortlægge spillerens evne til at bevæge sig optimalt i de komplekse bevægelsesmønstre, der uophørligt optræder i både angrebs- og især forsvarsspillet.
 
 Testen giver et direkte mål for spillerens **håndbold-agility**, herunder:
-*   **Eksplosive fremstød:** Evnen til at træde lynhurtigt frem og tackle en modstander (f.eks. fra $6\text{-meter}$ til $9\text{-meter}$ linjen).
+*   **Eksplosive fremstød:** Evnen til at træde lynhurtigt frem og tackle en modstander (fx fra $6\text{-meter}$ til $9\text{-meter}$ linjen).
 *   **Forsvarsbenarbejde (Lateral Shuffling):** Evnen til at glide sidelæns og lukke af for gennembrud uden at krydse fødderne.
 *   **Tyngdepunktskontrol & Baglænsløb:** At kunne droppe hurtigt tilbage til stregen med front mod spillet, klar til næste aktion.
 
@@ -178,7 +178,7 @@ Testen er naturligvis kernestof for **håndboldspillere**, fra talentudvikling (
 Den kan dog med stor fordel også anvendes til:
 *   **Basketballspillere:** Svarer meget tæt til defensiv "closeout" og lateral guard-bevægelse.
 *   **Ketchersport (Tennis/Badminton):** Træner udfald til nettet kombineret med sidelæns opsamling og hurtig retur til banemidten.
-*   **Fysisk Monitorering:** Som et værktøj til at vurdere knæ- og ankelstabilitet efter en længere skadespause (f.eks. forstuvet ankel), før man frigives til at spille fuld kontaktkamp.
+*   **Fysisk Monitorering:** Som et værktøj til at vurdere knæ- og ankelstabilitet efter en længere skadespause (fx forstuvet ankel), før man frigives til at spille fuld kontaktkamp.
 
 ---
 

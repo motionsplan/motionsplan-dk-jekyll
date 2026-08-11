@@ -1,0 +1,137 @@
+{% assign template_posts = site.posts | where_exp: "item", "item.templates.size > 0" %}
+{% assign template_pages = site.pages | where_exp: "item", "item.templates.size > 0" %}
+{% assign all_template_items = template_posts | concat: template_pages | uniq | sort: "title" %}
+
+{% assign total_templates = 0 %}
+{% for item in all_template_items %}
+  {% assign total_templates = total_templates | plus: item.templates.size %}
+{% endfor %}
+
+{% if total_templates > 0 %}
+<div class="calc-table-widget">
+  
+  <!-- STRØMLINET SØGEBAR OG KNAP -->
+  <div class="calc-search-bar">
+    <div class="calc-input-wrapper">
+      <svg class="calc-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input 
+        type="text" 
+        id="tpl-filter-input" 
+        class="calc-filter-input" 
+        placeholder="Søg i alle skabeloner og regneark (fx sheets, pdf, andersen, ugeplan)..." 
+        autocomplete="off"
+      >
+    </div>
+    <button type="button" id="tpl-toggle-btn" class="calc-toggle-btn">
+      <span>Vis alle skabeloner ({{ total_templates }})</span>
+      <span class="calc-btn-arrow">▼</span>
+    </button>
+  </div>
+
+  <!-- TABEL (SKJULT SOM STANDARD) -->
+  <div id="tpl-table-wrapper" class="calc-table-wrapper" style="display: none;">
+    <table id="tpl-table" class="calc-table">
+      <thead>
+        <tr class="header">
+          <th>Skabelon / Regneark</th>
+          <th>Format</th>
+          <th>Beskrivelse</th>
+        </tr>
+      </thead>
+      <tbody>
+      {%- for item in all_template_items %}
+        {%- for template in item.templates %}
+        <tr>
+          <td>
+            <a href="{{ item.url }}{% if template.id %}#{{ template.id }}{% endif %}">
+              {{ template.title | default: item.title }}
+            </a>
+          </td>
+          <td>
+            {% if template.format %}
+              {{ template.format }}
+            {% else %}
+              {{ template.type | upcase }}
+            {% endif %}
+          </td>
+          <td>{{ template.description }}</td>
+        </tr>
+        {%- endfor %}
+      {%- endfor %}
+      </tbody>
+    </table>
+
+    <div id="tpl-no-results-msg" class="calc-no-results-msg" style="display: none;">
+      Ingen skabeloner matchede din søgning.
+    </div>
+  </div>
+
+</div>
+{% endif %}
+
+<script>
+(function() {
+  const input = document.getElementById("tpl-filter-input");
+  const wrapper = document.getElementById("tpl-table-wrapper");
+  const table = document.getElementById("tpl-table");
+  const toggleBtn = document.getElementById("tpl-toggle-btn");
+  const arrow = toggleBtn ? toggleBtn.querySelector(".calc-btn-arrow") : null;
+  const noResults = document.getElementById("tpl-no-results-msg");
+
+  if (!input || !wrapper || !table) return;
+
+  const rows = table.querySelectorAll("tbody tr");
+  let isExplicitlyExpanded = false;
+
+  function filterTable() {
+    const filter = input.value.trim().toUpperCase();
+
+    if (filter.length > 0) {
+      wrapper.style.display = "block";
+      let matchCount = 0;
+
+      rows.forEach(row => {
+        const text = row.textContent || row.innerText;
+        if (text.toUpperCase().indexOf(filter) > -1) {
+          row.style.display = "";
+          matchCount++;
+        } else {
+          row.style.display = "none";
+        }
+      });
+
+      noResults.style.display = matchCount === 0 ? "block" : "none";
+    } else {
+      if (!isExplicitlyExpanded) {
+        wrapper.style.display = "none";
+      } else {
+        rows.forEach(row => row.style.display = "");
+        noResults.style.display = "none";
+      }
+    }
+  }
+
+  input.addEventListener("input", filterTable);
+
+  toggleBtn.addEventListener("click", function() {
+    isExplicitlyExpanded = !isExplicitlyExpanded;
+
+    if (isExplicitlyExpanded) {
+      wrapper.style.display = "block";
+      toggleBtn.querySelector("span").innerText = "Skjul tabel";
+      if(arrow) arrow.innerText = "▲";
+      rows.forEach(row => row.style.display = "");
+      noResults.style.display = "none";
+    } else {
+      if (input.value.trim() === "") {
+        wrapper.style.display = "none";
+      }
+      toggleBtn.querySelector("span").innerText = "Vis alle skabeloner (" + rows.length + ")";
+      if(arrow) arrow.innerText = "▼";
+    }
+  });
+})();
+</script>

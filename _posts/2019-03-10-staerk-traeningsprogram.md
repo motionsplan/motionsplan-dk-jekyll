@@ -199,7 +199,7 @@ Mange undrer sig over, at vægten i uge 5 (hvor man begynder på 5'ere) ligger u
 I "Stærk" bruges naturligvis de tre store styrkeløft: squat, bænkpres og dødløft. Programmet udnytter desuden [forskellige variationer af løftene](/variationer/):
 
 * **Squat med tempo 505:** Hvor både den [excentriske og koncentriske](/koncentrisk-excentrisk-isometrisk/) fase udføres langsomt over 5 sekunder.
-* **Squat med stop:** F.eks. i bunden af løftet.
+* **Squat med stop:** fx i bunden af løftet.
 * **Front squat.**
 * **Bænkpres med smalt og medium greb.**
 * **Bænkpres med stop.**

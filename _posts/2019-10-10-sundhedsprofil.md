@@ -213,7 +213,7 @@ $$\text{Sundhedsalder} = \text{Konditionsalder} + \sum (\text{Livsstilstilpasnin
 
 ### Trin 3: Beregning af Forventet Levetid
 
-Forventet levetid tager udgangspunkt i **Danmarks Statistiks opdaterede dødelighedstavler** (f.eks. tabel `HISB3`), som angiver den nøjagtige rest-levetid for en gennemsnitlig dansker i din aldersgruppe:
+Forventet levetid tager udgangspunkt i **Danmarks Statistiks opdaterede dødelighedstavler** (fx tabel `HISB3`), som angiver den nøjagtige rest-levetid for en gennemsnitlig dansker i din aldersgruppe:
 
 * **Baseline mænd:** ca. $80{,}2\text{ år}$
 * **Baseline kvinder:** ca. $84{,}1\text{ år}$

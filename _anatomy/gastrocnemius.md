@@ -61,7 +61,7 @@ Da Gastrocnemius er en to-leds muskel, arbejder den mest effektivt, når knæet 
 
 ## Gastrocnemius og løbeskader
 
-Musklen er ofte involveret i problematikker omkring **akillessenebetændelse**, da den trækker direkte i akillessenen. En stram lægmuskel kan også begrænse anklens bevægelighed (dorsalfleksion), hvilket kan føre til kompensationer andre steder i kroppen, f.eks. i knæet eller svangen, fx Plantar Fasciitis.
+Musklen er ofte involveret i problematikker omkring **akillessenebetændelse**, da den trækker direkte i akillessenen. En stram lægmuskel kan også begrænse anklens bevægelighed (dorsalfleksion), hvilket kan føre til kompensationer andre steder i kroppen, fx i knæet eller svangen, fx Plantar Fasciitis.
 
 ## Se oversigt over muskler
 

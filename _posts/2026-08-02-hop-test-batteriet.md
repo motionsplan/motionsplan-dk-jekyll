@@ -51,12 +51,12 @@ faq:
   - question: "Må jeg bruge armene til at tage fart?"
     answer: "Ja, i standardiserede hop-tests må du gerne svinge med armene for at generere kraft, da det simulerer en naturlig, atletisk bevægelse. Det vigtigste er, at du overholder kravet om en kontrolleret landing (stick the landing)."
   - question: "Er et LSI på 90 % nok til at spille kamp igen?"
-    answer: "Nej, ikke nødvendigvis. Hoptest-batteriet måler primært afstand og tid. Du bør altid supplere med en visuel analyse af *måden*, du lander på (f.eks. med LESS-testen), for at sikre, at knæet ikke falder indad (valgus)."
+    answer: "Nej, ikke nødvendigvis. Hoptest-batteriet måler primært afstand og tid. Du bør altid supplere med en visuel analyse af *måden*, du lander på (fx med LESS-testen), for at sikre, at knæet ikke falder indad (valgus)."
 ---
 
 **Hoptest-batteriet** (ofte blot kaldet *de 4 hoptests*) er guldstandarden inden for funktionel testning af atleter, der genoptræner efter en knæskade – især overrevne korsbånd (ACL) og meniskskader. 
 
-Mens klassiske [springtests (som f.eks. CMJ)](/springtests-hoppehoejde/) måler din maksimale vertikale spændstighed og højde, har Hoptest-batteriet ét primært klinisk formål: **At sammenligne det skadede ben med det raske ben.**
+Mens klassiske [springtests (som fx CMJ)](/springtests-hoppehoejde/) måler din maksimale vertikale spændstighed og højde, har Hoptest-batteriet ét primært klinisk formål: **At sammenligne det skadede ben med det raske ben.**
 
 Dette gøres gennem **LSI (Limb Symmetry Index)**, som er et afgørende tal for, om du får grønt lys til at vende tilbage til din idræt (*[Return to Sport](/return-to-sport-tests/)*).
 
@@ -108,7 +108,7 @@ Måler evnen til at opretholde kraftudvikling i en serie og hurtigt stabilisere 
 
 ### 3. Crossover Hop for Distance (Kryds-hop)
 Krydshoppet er mere avanceret, da det tester ankel- og knæstabilitet i *det frontale plan* (sidelæns), hvilket oftest er her, knæskader og vrid opstår.
-* **Udførelse:** Stå på ét ben bag startstregen. Udfør tre sammenhængende hop fremad, men hvor du krydser *henover* tapelinjen (15 cm bred) for hvert hop. Du starter f.eks. til højre for stregen, hopper skråt over på venstre side, tilbage til højre og lander på venstre.
+* **Udførelse:** Stå på ét ben bag startstregen. Udfør tre sammenhængende hop fremad, men hvor du krydser *henover* tapelinjen (15 cm bred) for hvert hop. Du starter fx til højre for stregen, hopper skråt over på venstre side, tilbage til højre og lander på venstre.
 * **Måling:** Afstanden fra start til sidste landing måles. (Der skal holdes balance på 3. landing).
 
 ### 4. 6-Meter Timed Hop (Tidstest)
@@ -127,7 +127,7 @@ I stedet for afstand tester denne øvelse fart, reaktionskraft og selvtillid til
 
 ## Hvorfor hop-længde ikke er nok (Kvalitet vs. Kvantitet)
 
-Et højt Limb Symmetry Index (LSI) på f.eks. 95 % er et rigtig stærkt tegn, men **det fortæller ikke hele historien.** 
+Et højt Limb Symmetry Index (LSI) på fx 95 % er et rigtig stærkt tegn, men **det fortæller ikke hele historien.** 
 
 Atleten kan sagtens kompensere ved at hinke akkurat lige så langt, men lande med et katastrofalt indadfaldende knæ (valgus) eller et stift knæled uden stødabsorbering. Hvis mekanikken i landingen er forkert, er der stadig enorm risiko for at rive det nye korsbånd over igen.
 

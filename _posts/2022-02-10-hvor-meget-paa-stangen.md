@@ -74,7 +74,7 @@ RPE og RIR er to sider af samme sag:
 | **RPE 8** | **2 RIR** | Pas passende vægt. Du har 2 solide reps i overskud. |
 | **RPE 7** | **3 RIR** | Moderat vægt. 3 reps i overskud. God til opvarmning/fart. |
 
-Hvor procenttræning låser dig fast på et bestemt kilo-tal, giver RPE dig lov til at justere. Føles stangen ekstra tung om mandagen efter en hård arbejdsuge, tager du 2,5–5 kg af stangen for at ramme den aftalte RPE (f.eks. RPE 8).
+Hvor procenttræning låser dig fast på et bestemt kilo-tal, giver RPE dig lov til at justere. Føles stangen ekstra tung om mandagen efter en hård arbejdsuge, tager du 2,5–5 kg af stangen for at ramme den aftalte RPE (fx RPE 8).
 
 Du kan bruge vores [RPE-beregner og skala](/rpe/) til at omsætte din RPE direkte til træningsvægte.
 
@@ -84,7 +84,7 @@ Du kan bruge vores [RPE-beregner og skala](/rpe/) til at omsætte din RPE direkt
 
 Nøglen til at få større og stærkere muskler er **progressiv overload** – at belastningen over tid øges. Du kan bruge **Dobbelt Progression**:
 
-1. Vælg et reps-interval (f.eks. 8–12 gentagelser).
+1. Vælg et reps-interval (fx 8–12 gentagelser).
 2. Start med en vægt, hvor du kan tage 8 gentagelser med 2 reps i overskud (RIR 2).
 3. Hold vægten uændret fra uge til uge, indtil du kan køre alle dine sæt med 12 gentagelser.
 4. Når du kan køre 12 reps i alle sæt, øger du vægten med 2,5–5 kg, hvormed du falder tilbage til 8 reps – og starter forfra.

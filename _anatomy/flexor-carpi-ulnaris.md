@@ -52,7 +52,7 @@ Mellem musklens to udspringshoveder løber **ulnarnerven**. Dette er anatomisk v
 
 ## Funktionel betydning
 
-Musklen arbejder sjældent alene. Når du skal bøje håndleddet lige frem, arbejder den sammen med [Flexor Carpi Radialis](/flexor-carpi-radialis/). Hvis kun den ulnare del arbejder, trækkes hånden skråt ind mod lillefingersiden (ulnaradduktion) – en bevægelse man f.eks. bruger, når man kaster med en frisbee eller bruger en hammer.
+Musklen arbejder sjældent alene. Når du skal bøje håndleddet lige frem, arbejder den sammen med [Flexor Carpi Radialis](/flexor-carpi-radialis/). Hvis kun den ulnare del arbejder, trækkes hånden skråt ind mod lillefingersiden (ulnaradduktion) – en bevægelse man fx bruger, når man kaster med en frisbee eller bruger en hammer.
 
 ## Træning af {{ page.title }}
 

@@ -39,13 +39,13 @@ export function initBmiEngine(container, calcId, formula) {
     if (labelMale) labelMale.textContent = 'Dreng';
     if (labelFemale) labelFemale.textContent = 'Pige';
     const ageInput = container.querySelector('.js-bmi-input[data-input="age"]');
-    if (ageInput) ageInput.placeholder = 'f.eks. 12';
+    if (ageInput) ageInput.placeholder = 'fx 12';
   } else {
     if (modelSelectorContainer) modelSelectorContainer.style.display = 'block';
     if (labelMale) labelMale.textContent = 'Mand';
     if (labelFemale) labelFemale.textContent = 'Kvinde';
     const ageInput = container.querySelector('.js-bmi-input[data-input="age"]');
-    if (ageInput) ageInput.placeholder = 'f.eks. 35';
+    if (ageInput) ageInput.placeholder = 'fx 35';
   }
 
   if (resDisclaimer && formula.disclaimer) {

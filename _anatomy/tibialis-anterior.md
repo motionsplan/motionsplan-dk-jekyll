@@ -45,7 +45,7 @@ Tibialis anterior er den mest overfladiske muskel på skinnebenets forside. Du k
 
 ## Tibialis anterior og løbeskader
 
-Denne muskel er ofte involveret i problemer med **skinnebensbetændelse** (medialt tibialt stresssyndrom). Hvis musklen bliver overbelastet – f.eks. ved løb på hårdt underlag eller ved brug af dårligt fodtøj – kan det føre til smerter langs skinnebenet.
+Denne muskel er ofte involveret i problemer med **skinnebensbetændelse** (medialt tibialt stresssyndrom). Hvis musklen bliver overbelastet – fx ved løb på hårdt underlag eller ved brug af dårligt fodtøj – kan det føre til smerter langs skinnebenet.
 
 ## Træning af {{ page.title }}
 

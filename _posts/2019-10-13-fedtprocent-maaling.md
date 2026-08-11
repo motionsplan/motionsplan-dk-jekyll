@@ -178,7 +178,7 @@ Hvis du vil dykke lidt mere ned i emnet om fedtprocent og vægt, så tjek mit om
 
 ## Konklusion
 
-Ingen metode til måling af fedtprocent er 100% fejlfri – alle metoder indeholder en vis usikkerhed. Der findes forskellige praktiske metoder (f.eks. [målebånd](/fedtprocent-navy/) eller [fedttang](/skinfold/)), men overvej altid: 
+Ingen metode til måling af fedtprocent er 100% fejlfri – alle metoder indeholder en vis usikkerhed. Der findes forskellige praktiske metoder (fx [målebånd](/fedtprocent-navy/) eller [fedttang](/skinfold/)), men overvej altid: 
 
 **Hvorfor vil du gerne have testet din fedtprocent?**
 

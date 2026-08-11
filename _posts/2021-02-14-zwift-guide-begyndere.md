@@ -140,7 +140,7 @@ Når du har downloadet appen, er du klar til at køre på Zwift.
 
 ## Hvor kan jeg køre i Zwift?
 
-Der er forskellige kort tilgængelige på Zwift. Zwift har lavet deres egen verden **Watopia**, men der er også mindre kort som fx London, New York City, Richmond, Harrogate, Innsbruck og et par kort, som kun er for særlige begivenheder (f.eks. Crit City og Makuri Islands).
+Der er forskellige kort tilgængelige på Zwift. Zwift har lavet deres egen verden **Watopia**, men der er også mindre kort som fx London, New York City, Richmond, Harrogate, Innsbruck og et par kort, som kun er for særlige begivenheder (fx Crit City og Makuri Islands).
 
 Watopia er en sammensat rute med fiktive elementer. Richmond- og Innsbruck-banerne er kopier af banerne fra tidligere _Road World Championships_, og London bruger ruten til _Prudential RideLondon Classique_.
 

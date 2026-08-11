@@ -138,7 +138,7 @@ For at opnå den fulde fysiologiske effekt anbefaler Dr. Maffetone, at du i en p
 
 Hvordan ved du, om MAF-træningen virker, når du altid løber ved den samme lave puls? Det gør du med en regelmæssig **MAF-test**.
 
-Testen udføres hver 4. uge på en helt flad rute (f.eks. et atletikstadion):
+Testen udføres hver 4. uge på en helt flad rute (fx et atletikstadion):
 
 1. Varm op i 15 minutter op til din MAF-puls.
 2. Løb **5 km (eller 3–5 miles)** nøjagtigt på din MAF-puls.

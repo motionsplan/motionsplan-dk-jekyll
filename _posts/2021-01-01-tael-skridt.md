@@ -22,7 +22,7 @@ faq:
   - question: Hvad er Tæl Skridt-kampagnen?
     answer: Tæl Skridt er en landsdækkende motionskampagne arrangeret af Dansk Firmaidrætsforbund. Kampagnen afvikles 4 gange årligt og varer 14 dage ad gangen. Målet er at gå mindst 10.000 skridt om dagen i fællesskab med kolleger eller venner.
   - question: Hvordan tæller man skridt bedst?
-    answer: Du kan tælle skridt på tre måder - med en dedikeret skridttæller i lommen eller bæltet, med en smartphone via gratis apps (som Apple Sundhed eller Google Fit), eller med et smartwatch/aktivitetsur (f.eks. Garmin, Apple Watch eller Fitbit).
+    answer: Du kan tælle skridt på tre måder - med en dedikeret skridttæller i lommen eller bæltet, med en smartphone via gratis apps (som Apple Sundhed eller Google Fit), eller med et smartwatch/aktivitetsur (fx Garmin, Apple Watch eller Fitbit).
   - question: Kan man omregne anden sport til skridt?
     answer: Ja, i Tæl Skridt-kampagnen og generel skridttælling kan du omregne cykling, svømning, styrketræning og andre sportsgrene til skridt ved hjælp af en standardiseret omregningstabel.
   - question: Hvor mange skridt skal man gå om dagen?
@@ -46,7 +46,7 @@ En af Danmarks mest populære motionskampagner er **Tæl Skridt**, som arrangere
 * **Målet:** Deltagerne skal i gennemsnit gå **mindst 10.000 skridt om dagen**.
 
 ### Hovedreglerne i Tæl Skridt:
-* **Hold eller individuelt:** Du kan stille op som et hold (f.eks. en afdeling på arbejdspladsen) eller som enkeltperson.
+* **Hold eller individuelt:** Du kan stille op som et hold (fx en afdeling på arbejdspladsen) eller som enkeltperson.
 * **Konkurrence & Præmier:** Hold, der opfylder målet om 10.000 skridt om dagen i gennemsnit, deltager i lodtrækningen om kontante pengepræmier på op til 25.000 kroner.
 
 Deltagerne indtaster dagligt deres skridttal på [Tæl Skridts hjemmeside](https://www.taelskridt.dk/){: rel="nofollow noopener" }, hvor man kan følge sit eget og holdets resultat på ranglisten.
@@ -69,7 +69,7 @@ De fleste nyere smartphones har et indbygget 3D-accelerometer, der automatisk t�
 * **Android:** Appen *Google Fit* eller *Samsung Health* kan downloades gratis og fungerer på samme måde.
 
 ### 2. Tæl skridt med Aktivitetsur eller Smartwatch
-Mange benytter et sportsuhr (f.eks. Garmin, Apple Watch, Fitbit eller Polar). Uret sidder på håndleddet og måler mikro-bevægelser i armen for at beregne skridtantallet.
+Mange benytter et sportsuhr (fx Garmin, Apple Watch, Fitbit eller Polar). Uret sidder på håndleddet og måler mikro-bevægelser i armen for at beregne skridtantallet.
 * **Fordel:** Tæller også de små skridt derhjemme, hvor du måske ikke har telefonen i lommen.
 
 {: .notice--success}

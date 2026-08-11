@@ -54,7 +54,7 @@ Den hurtigere atlet kan netop nå at udvikle mere kraft i den tid foden er i kon
 
 ## Hvordan kan du lave en RFD test?
 
-Hvis du vil måle din præcise kraftudvikling over tid, kræver det ofte specialiseret udstyr. En meget anvendt metode er en [IMTP-test (Isometric Mid-Thigh Pull)](/imtp-test/) udført på en kraftplatform. Her trækker du med maksimal kraft i en fastlåst vægtstang, mens kraftplatformen måler nøjagtigt, hvor mange Newton du genererer ved f.eks. 50 ms, 100 ms og 200 ms.
+Hvis du vil måle din præcise kraftudvikling over tid, kræver det ofte specialiseret udstyr. En meget anvendt metode er en [IMTP-test (Isometric Mid-Thigh Pull)](/imtp-test/) udført på en kraftplatform. Her trækker du med maksimal kraft i en fastlåst vægtstang, mens kraftplatformen måler nøjagtigt, hvor mange Newton du genererer ved fx 50 ms, 100 ms og 200 ms.
 
 ## Hvad har betydning for Rate of Force Development?
 
@@ -99,7 +99,7 @@ For at optimere din eksplosive ydeevne og maksimale effektafgivelse ($P_{\text{m
 
 ### Pædagogisk pointe
 
-Det er præcis derfor, man i eksplosiv styrketræning (Power-træning) ikke træner med $100\%$ belastning ($1\text{RM}$) og heller ikke uden belastning ($0\%$), men derimod i "Sweet Spotten" omkring 30–40% af 1RM (f.eks. ved hop-squat eller frivend). Det er her, du afgiver flest Watt!
+Det er præcis derfor, man i eksplosiv styrketræning (Power-træning) ikke træner med $100\%$ belastning ($1\text{RM}$) og heller ikke uden belastning ($0\%$), men derimod i "Sweet Spotten" omkring 30–40% af 1RM (fx ved hop-squat eller frivend). Det er her, du afgiver flest Watt!
 
 ## Ofte stillede spørgsmål om RFD
 

@@ -5,7 +5,7 @@ description: Få svaret på, hvor lang tid det tager at gå 10.000 skridt, hvor 
 seo_title: 'Hvor lang tid tager det at gå 10.000 skridt? [Svar + Beregner]'
 tools:
   - title: "Gangberegner: Hvor lang tid tager det at gå X skridt?"
-    description: "Beregn præcis hvor lang tid det tager at gå et bestemt antal skridt (f.eks. 10.000 skridt) baseret på dit personlige gangtempo."
+    description: "Beregn præcis hvor lang tid det tager at gå et bestemt antal skridt (fx 10.000 skridt) baseret på dit personlige gangtempo."
     anchor: "#calculator"
     type: "beregner"
     measures: "tid, hastighed, skridt"
@@ -149,7 +149,7 @@ Du kan jo tage tiderne og sætte ind i vores [hastighedsberegner](/hastighed/). 
 Nu har du en ide om, hvor lang tid det tager at gå. Hvis du kender din distance og tid, så kan du også [regne din gennemsnitsfart i vores fartberegner](/hastighed/).
 
 > **Vil du beregne den samlede distance for dine skridt?**  
-> Når du kender din skridtlængde, kan du hurtigt omregne dine daglige skridt til kilometer (f.eks. hvor langt 10.000 skridt er for dig). Prøv vores [skridt til km omregner her](/skridt-pr-km-10000/){: .read-more-link }.
+> Når du kender din skridtlængde, kan du hurtigt omregne dine daglige skridt til kilometer (fx hvor langt 10.000 skridt er for dig). Prøv vores [skridt til km omregner her](/skridt-pr-km-10000/){: .read-more-link }.
 
 ## Ofte stillede spørgsmål
 

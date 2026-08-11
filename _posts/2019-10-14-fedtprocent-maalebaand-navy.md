@@ -150,7 +150,7 @@ $$ \text{Fedtprocent} = \frac{495}{1{,}29579 - 0{,}35004 \cdot \log_{10}(\text{t
 
 McArdle & Katch-metoden (2010) tager udgangspunkt i en fysiologisk antagelse om, at bestemte steder på kroppen repræsenterer den **fedtfrie masse** (underarm og læg), mens andre steder indikerer den samlede **fedtmasse** (mave, overarme, hofter og lår). 
 
-Formlen benytter forskellige alders- og kønsspecifikke målesteder afhængigt af, hvem der testes. For yngre mænd måles f.eks. underarm og talje, mens der hos kvinder inddrages målinger af overarm, mave og hofte.
+Formlen benytter forskellige alders- og kønsspecifikke målesteder afhængigt af, hvem der testes. For yngre mænd måles fx underarm og talje, mens der hos kvinder inddrages målinger af overarm, mave og hofte.
 
 ### ⚠️ Forudsætninger og begrænsninger
 Testen er oprindeligt udarbejdet med baggrund i utrænede personer med en normal kropsbygning. McArdle & Katch angiver selv, at testen har en relativt stor standardafvigelse på 2,5–4,0 %. 

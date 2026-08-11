@@ -47,7 +47,7 @@ coords:
 
 Extensor digitorum er den vigtigste muskel på underarmens bagside (ekstensorsiden). Den løber fra albuen og deler sig midt på underarmen i fire sener, som passerer under det kraftige senebånd ved håndleddet (**retinaculum extensorum**), før de spreder sig ud til hver af de fire fingre.
 
-En fascinerende anatomisk detalje er de små skrå forbindelser mellem senerne på håndryggen (**juncturae tendinum**). Det er grunden til, at det er svært at strække f.eks. ringfingeren helt uafhængigt af langfingeren og lillefingeren.
+En fascinerende anatomisk detalje er de små skrå forbindelser mellem senerne på håndryggen (**juncturae tendinum**). Det er grunden til, at det er svært at strække fx ringfingeren helt uafhængigt af langfingeren og lillefingeren.
 
 ## Funktionel betydning og overbelastning
 

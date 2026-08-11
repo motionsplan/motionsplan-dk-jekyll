@@ -36,7 +36,7 @@ Alt vores indhold er baseret på efterprøvbare fakta, fri for kommercielt farve
 
 For at sikre den højeste troværdighed følger vi et fastlagt sæt af principper for al formidling:
 
-- **Evidensbaseret fundament:** Vi tager udgangspunkt i et fast kildehierarki. Vi prioriterer **systematiske reviews og meta-analyser** (f.eks. fra PubMed og Cochrane) samt officielle retningslinjer fra organisationer som **Sundhedsstyrelsen**, **WHO** og **ACSM**.
+- **Evidensbaseret fundament:** Vi tager udgangspunkt i et fast kildehierarki. Vi prioriterer **systematiske reviews og meta-analyser** (fx fra PubMed og Cochrane) samt officielle retningslinjer fra organisationer som **Sundhedsstyrelsen**, **WHO** og **ACSM**.
 - **Klar og nuanceret kommunikation:** Vi præsenterer informationen letforståeligt, men uden at forsimple de fysiologiske sammenhænge. Vi belyser altid både fordele, ulemper og individuelle forbehold.
 - **Uafhængighed:** Vores faglige konklusioner er aldrig påvirket af annoncører. Vi bevarer fuld redaktionel frihed i alle artikler og anbefalinger.
 
@@ -62,7 +62,7 @@ Hver artikel på Motionsplan gennemgår en fastlagt 4-trins proces:
 
 1. **Emnevalg og evidens-screening:** Vi udvælger emner baseret på relevans for folkesundheden og træningsmiljøet. Vi starter altid med at screene for, om der findes tilstrækkelig videnskabelig konsensus på området.
 2. **Research (The Gold Standard):** Vores skribenter dykker ned i primærlitteraturen. Vi prioriterer nyere forskning (helst inden for de sidste 5-10 år), medmindre der er tale om fundamentale anatomiske principper.
-3. **Faglig formidling:** Indholdet skrives i et sprog, der er til at forstå, men vi forklarer altid de bagvedliggende mekanismer (f.eks. *hvorfor* en muskel aktiveres bedst i en bestemt vinkel).
+3. **Faglig formidling:** Indholdet skrives i et sprog, der er til at forstå, men vi forklarer altid de bagvedliggende mekanismer (fx *hvorfor* en muskel aktiveres bedst i en bestemt vinkel).
 4. **Faktatjek og godkendelse:** Inden publicering verificeres alle fysiologiske data og påstande af en faglig ansvarlig for at sikre mod fejl og unøjagtigheder.
 
 ## Løbende revision og opdatering

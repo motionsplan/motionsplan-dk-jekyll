@@ -29,19 +29,19 @@ I denne guide gennemgår vi de mest populære holdtyper, fordelene ved holdforma
 
 Holdtræning opdeles typisk i fire overordnede kategorier, afhængigt af dit primære træningsmål:
 
-### 1. Styrke- og toninghold (f.eks. BodyPump, Stram Op, Cirkeltræning)
+### 1. Styrke- og toninghold (fx BodyPump, Stram Op, Cirkeltræning)
 * **Fokus:** Mange gentagelser med forholdsvis lette vægte, vægtstænger eller elastikker.
 * **Målgruppe:** Dig, der ønsker at udholde muskelarbejde og lære grundlæggende bevægelser i et struktureret miljø.
 
-### 2. Puls- og konditionshold (f.eks. Spinning, HIIT, BodyAttack)
+### 2. Puls- og konditionshold (fx Spinning, HIIT, BodyAttack)
 * **Fokus:** Høj puls, fedtforbrænding og kredsløbstræning.
 * **Målgruppe:** Dig, der vil forbedre din kondition og have en høj kalorieforbrænding på kort tid.
 
-### 3. Smidighed, mobilitet og kropskontrol (f.eks. Yoga, Pilates, Reformer)
+### 3. Smidighed, mobilitet og kropskontrol (fx Yoga, Pilates, Reformer)
 * **Fokus:** Core-styrke, kropsholdning, smidighed og mentalt nærvær.
 * **Målgruppe:** Dig, der vil forebygge skader, forbedre din mobilitet eller geare ned i en travl hverdag.
 
-### 4. Funktionel træning og høj intensitet (f.eks. CrossFit, HYROX, Bootcamp)
+### 4. Funktionel træning og høj intensitet (fx CrossFit, HYROX, Bootcamp)
 * **Fokus:** Blanding af tunge løft, gymnastik, kropsvægtsøvelser og høj puls.
 * **Målgruppe:** Dig, der kan lide en højere intensitet, varierende udfordringer og et stærkt fællesskab.
 
@@ -85,7 +85,7 @@ Niklas Meier, der selv har ejet et CrossFit-center, peger på, at CrossFit har e
 
 Du kan dog med ganske enkle greb forbedre programmeringen på både CrossFit-hold og andre funktionelle koncepter:
 
-* **Fasthold 1–2 faste øvelser:** Ved at have faste basisøvelser i en længere periode (f.eks. [squat](/squat/) eller [dødløft](/doedloeft/)) kan du arbejde struktureret med bevægelseskvalitet, vægt og volumen over tid.
+* **Fasthold 1–2 faste øvelser:** Ved at have faste basisøvelser i en længere periode (fx [squat](/squat/) eller [dødløft](/doedloeft/)) kan du arbejde struktureret med bevægelseskvalitet, vægt og volumen over tid.
 * **Gentag "Workout of the Day" jævnligt:** Når den samme workout gentages med ugers eller måneders mellemrum, kan du reelt måle din fremgang i tid, gentagelser eller løftet vægt.
 * **Udryd "Finisher" som koncept:** Begrebet lægger op til, at selve træningen ikke var hård nok i sig selv. Slutøvelser skal vælges ud fra et specifikt fysiologisk formål – ikke bare for at gøre folk helt flade til sidst.
 

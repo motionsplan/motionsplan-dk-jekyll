@@ -44,7 +44,7 @@ tests:
 tools:
   - id: "tool-dsi-beregner"
     title: "Dynamic Strength Index Beregner"
-    description: "Interaktiv beregner til udregning af dit Dynamic Strength Index (DSI) ud fra ballistisk peak force (f.eks. CMJ) og maksimal isometrisk peak force (f.eks. IMTP)."
+    description: "Interaktiv beregner til udregning af dit Dynamic Strength Index (DSI) ud fra ballistisk peak force (fx CMJ) og maksimal isometrisk peak force (fx IMTP)."
     category: ["Tests", "Eksplosivitet"]
     type: ["Beregner"]
     measures: ["Dynamic Strength Index", "DSI", "DSI-score", "Træningsfokus"]  # 🎯 Output-parametre fra modulet
@@ -57,14 +57,15 @@ gallery:
   alt: Dynamic Strength Index CMJ
 - image_path: /assets/images/blog/dsi-imtp.png
   alt: Dynamic Strength Index IMTP
-feature_row:
-- image_path: /assets/images/freebies/dsi-sheet.png
-  title: Dynamic Strength Index arbejdsark
-  excerpt: Google Sheet til at registrere _peak force_ ved maksimal styrke (fx IMTP) og ballistisk styrke (fx CMJ).
-  url: https://docs.google.com/spreadsheets/d/1hg3brOAlQTmSUvUnFicRcN8zqs9Tsf3rSBV1QdDitfY/copy?usp=sharing
-  btn_label: <i class='fas fa-file-excel'></i> Download
-  btn_class: btn--success
-  rel: nofollow noopener
+templates:
+  - id: "dynamic_strength_index_sheet"
+    title: "Dynamic Strength Index arbejdsark"
+    description: "Google Sheet til at registrere peak force ved maksimal styrke (fx IMTP) og ballistisk styrke (fx CMJ)."
+    format: "Google Sheets / Excel"
+    type: "sheet"
+    btn_text: "📊 Lav en kopi i Google Sheets"
+    url: "https://docs.google.com/spreadsheets/d/1hg3brOAlQTmSUvUnFicRcN8zqs9Tsf3rSBV1QdDitfY/copy?usp=sharing"
+    image: "/assets/images/freebies/dsi-sheet.png"
 ---
 
 Dynamic Strength Index (DSI) er et godt værktøj til finde ud af, om du har brug for at forbedre din maksimale styrke eller dine plyometriske egenskaber.
@@ -151,4 +152,4 @@ Desværre har man brug for en kraftplatform til at finde _peak force_ i fx CMJ-h
 
 ## Arbejdsark
 
-{% include feature_row type="left" %}
+{% include motionsplan/templates.html id="dynamic_strength_index_sheet" %}

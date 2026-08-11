@@ -123,7 +123,7 @@ Når du udfører disse tre grundbevægelser med høj intensitet, har du stimuler
 Dette program er designet til 95 % af alle motionister. Øvelserne er sikre, lette at gå til og kan tilpasses med både frie vægte, kropsvægt eller elastikker.
 
 ### Træningsskabelon:
-* **Frekvens:** 2 – 3 gange om ugen (f.eks. mandag, onsdag, fredag).
+* **Frekvens:** 2 – 3 gange om ugen (fx mandag, onsdag, fredag).
 * **Varighed:** ca. 25 minutter.
 * **Pauser:** 90 – 120 sekunders pause mellem hvert sæt.
 
@@ -133,7 +133,7 @@ Dette program er designet til 95 % af alle motionister. Øvelserne er sikre, let
 | **2. Pullups / Chinups** (Kropshævninger) | Ryg, Biceps & Vinge | 3–4 sæt x 6–10 reps | 1–2 RIR |
 | **3. Armstrækninger Spiderman** (eller Dips / Bænkpres) | Bryst, Skuldre & Triceps | 3–4 sæt x 8–12 reps | 1–2 RIR |
 
-> **Sådan progressions-træner du:** Når du kan tage det maksimale antal rep-angivelser i alle sæt med god teknik, øger du vægten på stangen/håndvægten eller tilføjer en smule ekstra belastning (f.eks. et bælte med vægt i pullups).
+> **Sådan progressions-træner du:** Når du kan tage det maksimale antal rep-angivelser i alle sæt med god teknik, øger du vægten på stangen/håndvægten eller tilføjer en smule ekstra belastning (fx et bælte med vægt i pullups).
 
 ---
 

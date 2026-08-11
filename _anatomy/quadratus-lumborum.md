@@ -29,7 +29,7 @@ function:
     - short: Ekstension af lænderyggen
       extended: "Når begge sider arbejder sammen, hjælper de med at strække lænden."
     - short: Elevation af bækkenet
-      extended: "Løfter bækkenet mod ribbenene (f.eks. når man 'vrikker' med hoften eller går)."
+      extended: "Løfter bækkenet mod ribbenene (fx når man 'vrikker' med hoften eller går)."
     - short: Stabilisering af 12. ribben
       extended: "Hjælper med at fiksere det nederste ribben under forceret udånding."
   en:

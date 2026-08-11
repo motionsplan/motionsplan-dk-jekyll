@@ -44,7 +44,7 @@ Den bedste rutemåler afhænger af dit behov, men der er et par parametre, som e
 
 - **Præcis kilometermåling** (både på veje og sti-systemer).
 - **Mulighed for at tegne i skov og park** (hvor standard vejkort ofte opgiver).
-- **Forskellige korttyper** (f.eks. satellit, terræn eller OpenStreetMap).
+- **Forskellige korttyper** (fx satellit, terræn eller OpenStreetMap).
 - **Hurtig betjening** uden krav om besværlig oprettelse eller login.
 - **Autorouting** – at værktøjet selv kan "snappe" til stien og finde den korteste vej mellem to punkter.
 
@@ -65,7 +65,7 @@ Det fantastiske ved PlotARoute er, at du kan gå direkte ind på siden og begynd
 
 ## 2. Komoot (Perfekt til trail og outdoor)
 
-[Komoot](https://www.komoot.com/) er blevet utroligt populært blandt både løbere, trailløbere og cykelryttere. Komoot skiller sig ud ved at give detaljerede informationer om underlaget på din rute (f.eks. asfalt, grus, skovsti).
+[Komoot](https://www.komoot.com/) er blevet utroligt populært blandt både løbere, trailløbere og cykelryttere. Komoot skiller sig ud ved at give detaljerede informationer om underlaget på din rute (fx asfalt, grus, skovsti).
 
 * **Fordele:** Fantastisk kortmateriale, viser underlagstype og stigninger, samt fremragende mobil-app.
 * **Ulemper:** Kræver gratis oprettelse for at gemme ruter, og fuld offline-navigation kræver køb af regioner.

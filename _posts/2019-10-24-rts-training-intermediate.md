@@ -219,7 +219,7 @@ Realistisk set er det først i uge 9 af programmet, hvor det også er meningen, 
 
 Hvis du har mod på at kaste dig ud i RPE-baseret træning, så kan jeg kun anbefale at kigge på [reactivetrainingsystems.com](https://www.reactivetrainingsystems.com/). Der er masser af gratis artikler, forum og videoklip om træningsmetoden.
 
-Jeg kan på det varmeste anbefale at bruge [RTS-appen som træningslog](/rts-app/).
+Jeg har skrevet en uddybende artikel om, hvordan jeg tracker min træning med en [online træningslog](/traeningsdagbog-app/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

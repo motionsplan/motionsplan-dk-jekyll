@@ -114,7 +114,7 @@ Denne test måler, hvor langt du kan skubbe knæet frem over tæerne, før hæle
 
 ## 4. Overkrop og skulderbælte
 
-God skulderbevægelighed er afgørende for at kunne løfte vægte over hovedet (f.eks. Overhead Squat), svømme og kaste uden at overbelaste leddene.
+God skulderbevægelighed er afgørende for at kunne løfte vægte over hovedet (fx Overhead Squat), svømme og kaste uden at overbelaste leddene.
 
 ### Apley's Scratch Test (Zipper Test)
 Testen måler den samlede fleksibilitet og rotationsbevægelighed i skulderleddet og brystryggen.
@@ -127,7 +127,7 @@ Testen måler den samlede fleksibilitet og rotationsbevægelighed i skulderledde
 
 Hvis du nogensinde har prøvet at teste din egen eller andres smidighed, har du sikkert opdaget, at det hurtigt kan blive en ret bøvlet affære. Modsat styrke- eller konditionstests – hvor du blot kigger på kilo på stangen eller tiden på stopuret – er smidighedstests behæftet med en lang række lavpraktiske udfordringer:
 
-* **Du kan næsten ikke gøre det alene:** Det er nærmest umuligt at måle sine egne vinkler eller afstande præcist. Prøver du f.eks. at måle afstanden fra knæ til væg i en ankeltest eller fingerspidsernes overlap bag ryggen, ændrer du kropsstilling i det sekund, du kigger på målebåndet. Du er næsten altid afhængig af en trænermakker eller fysioterapeut.
+* **Du kan næsten ikke gøre det alene:** Det er nærmest umuligt at måle sine egne vinkler eller afstande præcist. Prøver du fx at måle afstanden fra knæ til væg i en ankeltest eller fingerspidsernes overlap bag ryggen, ændrer du kropsstilling i det sekund, du kigger på målebåndet. Du er næsten altid afhængig af en trænermakker eller fysioterapeut.
 * **Kroppen er en mester i at "snyde" (kompensation):** Når et led møder modstand, vil kroppen automatisk søge den mindste modstands vej. Hvis dine baglår er stramme under et buk fremad, krummer du ubevidst ekstra i lænden for at nå længere ned. Det kræver et meget trænet øje at spotte disse mikro-kompensationer og sikre, at testen er gyldig.
 * **Dagsformen og opvarmning ændrer alt:** Din smidighed svinger voldsomt i løbet af dagen. Er du kold fra morgenstunden, er din vævs-viskositet og nervesystemets strækrefleks en helt anden, end hvis du lige har gennemført 20 minutters opvarmning eller en hård ben-træning i går.
 * **Måler du smidighed – eller bare smertetærskel?** En af de største metodiske svagheder ved manuelle smidighedstests er, at de ofte måler din *stræktolerance* snarere end musklens reelle fysiske længde. Personen, der kan holde et smerteligt stræk ud i 5 sekunder mere, får ofte en "bedre" score, selvom musklen mekanisk set er lige så stram.

@@ -1,9 +1,9 @@
 {% comment %}
   Parametre du kan sende med:
-  - type: f.eks. "Konditionstest" eller "Agilitetstest"
-  - category: f.eks. "Kondition", "Løb" eller "Sundhed"
-  - tag: f.eks. "konditionstest"
-  - title: f.eks. "konditionstests" (bruges på knappen)
+  - type: fx "Konditionstest" eller "Agilitetstest"
+  - category: fx "Kondition", "Løb" eller "Sundhed"
+  - tag: fx "konditionstest"
+  - title: fx "konditionstests" (bruges på knappen)
 {% endcomment %}
 
 {% assign filter_type = include.type %}
@@ -59,7 +59,7 @@
       <input 
         type="text" 
         class="filter-table-input" 
-        placeholder="Søg i {% if include.title %}{{ include.title }}{% else %}test{% endif %} (f.eks. max-test, watt, løb)..." 
+        placeholder="Søg i {% if include.title %}{{ include.title }}{% else %}test{% endif %} (fx max-test, watt, løb)..." 
         autocomplete="off"
       >
     </div>

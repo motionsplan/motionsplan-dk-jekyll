@@ -49,14 +49,6 @@ feature_row:
     btn_class: "btn--info"
     btn_label: Læs mere
     rel: sponsored nofollow noopener
-feature_row_spreadsheet:
-  - image_path: /assets/images/blog/vbt-spreadsheet.png
-    url: https://docs.google.com/spreadsheets/d/1jQpPVOIp0i1PhTQ7uFuaFDIB3mav0NkPuhLXhzfHWIs/copy?usp=sharing
-    title: "Load Velocity Profile, MVT og 1RM med VBT"
-    excerpt: "Google Sheet beregnet til at lave en load-velocity profile, finde minimal velocity threshold og udregne 1RM på baggrund af velocity based training."
-    btn_label: "<i class='fas fa-file-excel'></i> Se Google Sheets"
-    btn_class: "btn--success"
-    rel: nofollow noopener
 ---
 
 Læs hvordan du kan designe et træningsprogram, der bruger hastighed som parameter til at optimere din træning og få mere præcise resultater.

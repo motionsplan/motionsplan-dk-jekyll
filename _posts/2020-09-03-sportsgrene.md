@@ -65,9 +65,9 @@ Ifølge estimater fra [World Atlas](https://www.worldatlas.com/articles/what-are
 
 Selvom begreberne ofte bruges i flæng i hverdagen, er der fysiologisk og organisatorisk forskel på dem:
 
-* **Sport** er organiseret idræt med fokus på regler, konkurrence og resultater (f.eks. fodboldkampe, stævner eller turneringer).
+* **Sport** er organiseret idræt med fokus på regler, konkurrence og resultater (fx fodboldkampe, stævner eller turneringer).
 * **Idræt** er kropslig aktivitet i bred forstand, hvor konkurrenceelementet ikke nødvendigvis er til stede.
-* **Motion** er selvorganiseret fysisk aktivitet i fritiden, der udføres for sundhedens eller fornøjelsens skyld (f.eks. en gåtur eller cykeltur).
+* **Motion** er selvorganiseret fysisk aktivitet i fritiden, der udføres for sundhedens eller fornøjelsens skyld (fx en gåtur eller cykeltur).
 * **Træning** er målrettet fysisk aktivitet med det specifikke formål at forbedre kondition, styrke eller præstationsevne.
 
 Desuden skelner man ofte mellem:

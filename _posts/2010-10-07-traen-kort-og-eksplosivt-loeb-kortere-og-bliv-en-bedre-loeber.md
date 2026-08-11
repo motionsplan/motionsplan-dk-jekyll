@@ -98,7 +98,7 @@ Traditionel maratontræning bygger på høj kilometermængde for at stimulere de
 Der er tre primære fysiologiske årsager til, at denne tilgang virker:
 
 ### 1. Forbedring af løbeøkonomien
-Tung styrketræning (f.eks. dybe squats med 90–95 % af 1RM) og plyometri (hække- og trappehop) øger senernes og musklernes elastiske stivhed (*musculotendinous stiffness*). Dine ben fungerer som stramme fjedre: For hvert skridt du tager på asfalten, genbruger kroppen mere passiv energi. Du bruger altså mindre ilt ved den samme hastighed.
+Tung styrketræning (fx dybe squats med 90–95 % af 1RM) og plyometri (hække- og trappehop) øger senernes og musklernes elastiske stivhed (*musculotendinous stiffness*). Dine ben fungerer som stramme fjedre: For hvert skridt du tager på asfalten, genbruger kroppen mere passiv energi. Du bruger altså mindre ilt ved den samme hastighed.
 
 ### 2. Neuromuskulær rekruttering (Fast-twitch fibrene)
 Når du løber langt og langsomt, bruges kun de langsomme (Type I) muskelfibre. Når disse bliver trætte mod slutningen af et maraton, falder din teknik fra hinanden. Ved at træne tunge løft og 30-sekunders all-out sprints lærer hjernen at rekruttere de hurtige (Type II) muskelfibre. Under maratonet har du dermed en langt større "reserve" af muskelfibre at trække på.

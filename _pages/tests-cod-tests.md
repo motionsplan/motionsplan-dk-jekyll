@@ -50,8 +50,8 @@ I idrætsfysiologien skelnes der skarpt mellem to begreber, som ofte forveksles 
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-1. **Change of Direction Speed (CODS):** En forudbestemt bevægelse, hvor udøveren på forhånd kender løberuten (f.eks. *”spurt 10m, rund en kegle, løb 5m tilbage”*). Det er denne fysiske komponent, de klassiske banetest måler.
-2. **Agility (Behændighed):** Inkluderer ud over CODS et **perceptuelt og kognitivt element**, hvor retningsskiftet sker som en direkte reaktion på en uforudsigelig stimulering (f.eks. en modstanders finte eller en boldaflevering).
+1. **Change of Direction Speed (CODS):** En forudbestemt bevægelse, hvor udøveren på forhånd kender løberuten (fx *”spurt 10m, rund en kegle, løb 5m tilbage”*). Det er denne fysiske komponent, de klassiske banetest måler.
+2. **Agility (Behændighed):** Inkluderer ud over CODS et **perceptuelt og kognitivt element**, hvor retningsskiftet sker som en direkte reaktion på en uforudsigelig stimulering (fx en modstanders finte eller en boldaflevering).
 
 ---
 
@@ -84,7 +84,7 @@ Du kan læse mere om 5-0-5 testen hos [scienceforsport.com](https://www.sciencef
 
 505-testen er den mest præcise test til at isolere evnen til at deaccelerere fra høj fart, plante én vendefod og accelerere $180^\circ$ i modsat retning. Testen indeholder $10\text{ meters}$ flyvende tilløb, så udøveren rammer testzonen med maksimal hastighed.
 
-**Særlig styrke:** Gør det muligt at identificere **side-asymmetri** mellem højre og venstre ben, hvilket er afgørende for skadesforebyggelse (f.eks. korsbåndsskader).
+**Særlig styrke:** Gør det muligt at identificere **side-asymmetri** mellem højre og venstre ben, hvilket er afgørende for skadesforebyggelse (fx korsbåndsskader).
 
 👉 **[Læs den komplette guide til 505 Agility Testen (med interaktiv timer og asymmetri-beregner) »](/505-agility-test/)**
 

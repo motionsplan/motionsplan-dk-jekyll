@@ -97,7 +97,7 @@ I koncentrisk træning er [rate of force development (RFD)](/rate-of-force-devel
 
 ## Hvad er isometrisk træning?
 
-Isometrisk træning er, når du bibeholder den samme stilling og arbejder mod en udefrakommende kraft eller tyngdekraften uden ledbevægelse. Når du laver en **isometrisk kontraktion** i din træning, kan du opbygge stabilitet i leddene, udtrætte musklerne i en specifik vinkel eller opbygge styrke i svage punkter i et løft (f.eks. ved bundpositionen i et squat). Du kan fx bruge isometrisk træning i forbindelse med [træning af kropsvægt hjemme](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/).
+Isometrisk træning er, når du bibeholder den samme stilling og arbejder mod en udefrakommende kraft eller tyngdekraften uden ledbevægelse. Når du laver en **isometrisk kontraktion** i din træning, kan du opbygge stabilitet i leddene, udtrætte musklerne i en specifik vinkel eller opbygge styrke i svage punkter i et løft (fx ved bundpositionen i et squat). Du kan fx bruge isometrisk træning i forbindelse med [træning af kropsvægt hjemme](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/).
 
 ---
 

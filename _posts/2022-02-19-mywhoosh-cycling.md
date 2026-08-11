@@ -54,7 +54,7 @@ Da MyWhoosh er bygget på grafikmotoren Unreal Engine, stiller appen **højere k
 ### Anbefalede specifikationer:
 * **PC / Windows:** Dedikeret grafikkort (NVIDIA GTX 1660 / RTX-serien eller tilsvarende) og minimum 16 GB RAM.
 * **Mac:** Mac-computere med M1-, M2- eller M3-chip anbefales.
-* **iOS / iPad:** Nyere iPads (f.eks. iPad Air/Pro fra de seneste generationer) eller iPhones med kraftig processor.
+* **iOS / iPad:** Nyere iPads (fx iPad Air/Pro fra de seneste generationer) eller iPhones med kraftig processor.
 * **Apple TV:** Apple TV 4K fungerer, men grafikopløsningen er nedskaleret i forhold til en stærk PC.
 
 {% include motionsplan/affiliate-box.html type="category" item=site.data.affiliates.categories.hometrainers view="card" title="Er dit hometrainer-setup klar til MyWhoosh?" text="MyWhoosh kræver en smart hometrainer for at justere modstanden automatisk på stigningerne. Se vores udstyrsguide for at finde det rette setup:" %}

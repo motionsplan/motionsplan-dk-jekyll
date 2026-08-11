@@ -174,7 +174,7 @@ I bogen opdeler Jack Daniels et typisk makrocyklus-træningsprogram (fx over 18�
 Selvom Jack Daniels' tilgang er en af de mest anerkendte i verden, er det værd at kende alternativerne:
 
 ### Jack Daniels vs. Claus Hechmann
-* **Daniels:** Bruger din bedste tid på f.eks. 5 km til at udregne alle zoner ud fra VDOT.
+* **Daniels:** Bruger din bedste tid på fx 5 km til at udregne alle zoner ud fra VDOT.
 * **Hechmann (*Løb som eliten*):** Kritiserer Daniels for at undervurdere fedtforbrændingen hos løbere med dårlig aerob base. Hechmann kræver to separate tests (10 min og 60 min) for at adskille $\text{VO}_2\text{max}$ og laktattærskel nøjagtigt.
 
 ### Jack Daniels vs. Polarized Training (80/20)

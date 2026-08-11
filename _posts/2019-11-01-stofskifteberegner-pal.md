@@ -49,15 +49,15 @@ tools:
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-07-27T23:14:14Z'
 toc: 'true'
-feature_row:
-- image_path: /assets/images/pal-schedule.png
-  url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
-  title: Skema til registrering af aktivitet
-  excerpt: Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har udfyldt skemaet og udregnet, hvor meget
-    aktivitet, du har i de enkelte kategorier, så er du klar til at skrive værdierne ind i beregneren af dit daglige energibehov.
-  btn_label: <i class='fas fa-file-alt'></i> Download skema
-  btn_class: btn--info
-  rel: nofollow noopener
+templates:
+  - id: "aktivitetsregistrering_skema"
+    title: "Skema til registrering af aktivitet"
+    description: "Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har udfyldt skemaet og udregnet, hvor meget aktivitet, du har i de enkelte kategorier, så er du klar til at skrive værdierne ind i beregneren af dit daglige energibehov."
+    format: "Google Docs"
+    type: "doc"
+    btn_text: "📝 Download skema"
+    url: "https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing"
+    image: "/assets/images/pal-schedule.png"
 ---
 
 Når vi taler om fysisk aktivitet og [energibehov](/bmr-beregner/), er det vigtigt at forstå, hvor meget energi vi forbrænder gennem forskellige aktiviteter. Det bruger vi Physical Activity Level (PAL) til.
@@ -118,7 +118,7 @@ Summér kalorierne for alle aktiviteterne, og sammenlign med din BMR for at få 
 
 Din beregning af det daglige energibehov bliver mest præcist, hvis du er lidt omhyggelig med din aktivitetsregistrering.
 
-{% include feature_row type="left" %}
+{% include motionsplan/templates.html id="aktivitetsregistrering_skema" %}
 
 Når du har lavet din PAL-beregning, så kan du let gange den med [din beregning af dit hvilestofskifte](/bmr-beregner/) eller du kan gøre den endnu mere præcis ved at tage højde for dit hvilestofskifte allerede i udregningen af din PAL. Det gør vi i vores [avancerede TEE-beregner](/ligevaegtsindtag-beregner/).
 

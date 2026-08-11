@@ -47,6 +47,10 @@ Og det allerbedste er, at den er gratis og integrerer med rigtig mange forskelli
 
 Her får du en let guide til, hvordan du sætter [intervals.icu](https://intervals.icu/) op.
 
+> 🏋️ **Træner du også styrke ved siden af konditionstræningen?**  
+> Hvor Intervals.icu er det ultimative værktøj til løb, cykling og udholdenhed, findes der andre fremragende apps til styrketræning. Se vores samlede [guide til træningsdagbog-apps til både styrke og kondition](/traeningsdagbog-app/).
+{: .notice--info }
+
 ## 1. Lav en konto
 
 Først skal du naturligvis lave en konto. Det er utrolig enkelt, når du går ind på [forsiden af intervals.icu](https://intervals.icu/).
@@ -99,7 +103,7 @@ Under **Løb** kan du lave de samme indstillinger. Hvis du [løber med wattmåli
 
 Hvis du ikke lige har tid til at lave en rigtig test af din maxpuls, så kan du [udregne maxpulsen på baggrund af din alder](/max-puls-beregner/).
 
-### Integrationer
+## 3. Integrationer
 
 Du kan indtaste din egen træning i Intervals.icu, men hvis du bruger en træningsapp, så kan du også importere dine aktiviteter. På den måde får du importeret alle dine træninger ind i Intervals.icu, og så har du mulighe for at analysere din træning. 
 

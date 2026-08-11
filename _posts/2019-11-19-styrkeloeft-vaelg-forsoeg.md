@@ -44,15 +44,15 @@ feature_row:
   credit: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
   alt: Dødløft - poserlifting og styrkeløft regler for dødløft
   excerpt: Dødløft
-feature_row_spreadsheet:
-- image_path: /assets/images/blog/spreadsheet-calculate-powerlifting-attempts.png
-  alt: Udregn dine forsøg
-  title: Udregn dine forsøg
-  excerpt: Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne.
-  url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
-  rel: nofollow noopener
-  btn_label: <i class='fas fa-file-excel'></i> Sheet med forslag til forsøg
-  btn_class: btn--success
+templates:
+  - id: "styrkeloeft_forsoeg_sheet"
+    title: "Udregn dine forsøg"
+    description: "Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne."
+    format: "Google Sheets / Excel"
+    type: "sheet"
+    btn_text: "📊 Sheet med forslag til forsøg"
+    url: "https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing"
+    image: "/assets/images/blog/spreadsheet-calculate-powerlifting-attempts.png"
 ---
 
 At vælge de rette forsøg til et styrkeløft-stævne er en afgørende faktor for din præstation. En god strategi kan gøre forskellen mellem et vellykket stævne og en skuffende oplevelse.
@@ -120,7 +120,7 @@ Læs meget mere om, [hvordan du laver en maxtest](/rm-maxtest/).
 
 Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
 
-{% include feature_row id="feature_row_spreadsheet" type="left" %}
+{% include motionsplan/templates.html id="styrkeloeft_forsoeg_sheet" %}
 
 ## Konklusion
 

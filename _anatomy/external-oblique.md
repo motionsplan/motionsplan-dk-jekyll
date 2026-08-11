@@ -30,7 +30,7 @@ function:
     - short: Rotation af rygsøjlen
       extended: "Dette betyder, at den ydre skrå mavemuskel drejer rygsøjlen til siden (dvs. den roterer torsoen til den modsatte side af musklen)."
     - short: Kompression af bughulen
-      extended: "Dette betyder, at den ydre skrå mavemuskel sammentrykker organerne i bughulen og kan øge det intra-abdominale tryk (f.eks. under en valsalva-manøvre)."
+      extended: "Dette betyder, at den ydre skrå mavemuskel sammentrykker organerne i bughulen og kan øge det intra-abdominale tryk (fx under en valsalva-manøvre)."
   en:
     - short: Laterally flexes the spine.
       extended: "This means that the external oblique muscle bends the spine to the side (i.e. it moves the ribcage downward to the side towards the pelvis)."

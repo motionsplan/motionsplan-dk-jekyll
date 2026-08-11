@@ -53,14 +53,15 @@ feature_row:
     btn_class: "btn--info"
     btn_label: Læs mere
     rel: sponsored nofollow noopener
-feature_row_spreadsheet:
-  - image_path: /assets/images/blog/vbt-spreadsheet.png
-    url: https://docs.google.com/spreadsheets/d/1jQpPVOIp0i1PhTQ7uFuaFDIB3mav0NkPuhLXhzfHWIs/copy?usp=sharing
+templates:
+  - id: "vbt_load_velocity_sheet"
     title: "Load Velocity Profile, MVT og 1RM med VBT"
-    excerpt: "Google Sheet beregnet til at lave en load-velocity profile, finde minimal velocity threshold og udregne 1RM på baggrund af velocity based training."
-    btn_label: "<i class='fas fa-file-excel'></i> Se Google Sheets"
-    btn_class: "btn--success"
-    rel: nofollow noopener
+    description: "Google Sheet beregnet til at lave en load-velocity profile, finde minimal velocity threshold og udregne 1RM på baggrund af velocity based training."
+    format: "Google Sheets / Excel"
+    type: "sheet"
+    btn_text: "📊 Se Google Sheets"
+    url: "https://docs.google.com/spreadsheets/d/1jQpPVOIp0i1PhTQ7uFuaFDIB3mav0NkPuhLXhzfHWIs/copy?usp=sharing"
+    image: "/assets/images/blog/vbt-spreadsheet.png"
 ---
 Hvordan kan du bruge hastighedsbaserede data til at forstå din træning bedre? Denne artikel dykker ned i hastighedsprofilens relation til RPE og hvordan de sammen kan optimere din træning.
 
@@ -126,7 +127,7 @@ Jeg har lavet et regneark, som du kan bruge som udgangspunkt til at lave din ege
 ## Arbejdsark
 {: id="sheet" }
 
-{% include feature_row id="feature_row_spreadsheet" type="left" %}
+{% include motionsplan/templates.html id="vbt_load_velocity_sheet" %}
 
 ## Konklusion
 

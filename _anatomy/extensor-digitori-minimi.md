@@ -47,7 +47,7 @@ coords:
 
 Extensor digiti minimi er en slank muskel, der ligger på bagsiden af underarmen, medialt for den store [fingerstrækker (Extensor Digitorum)](/extensor-digitorum/). Selvom den deler udspring med de andre strækkere ved albuen, har den sin helt egen funktionelle identitet.
 
-Ved håndleddet løber dens sene gennem sin egen separate kanal (det 5. kulisse) under det kraftige senebånd (**retinaculum extensorum**). Det er denne muskel, der gør det muligt for dig at strække lillefingeren uafhængigt af de andre fingre – f.eks. når man "drikker fint" med lillefingeren strøget.
+Ved håndleddet løber dens sene gennem sin egen separate kanal (det 5. kulisse) under det kraftige senebånd (**retinaculum extensorum**). Det er denne muskel, der gør det muligt for dig at strække lillefingeren uafhængigt af de andre fingre – fx når man "drikker fint" med lillefingeren strøget.
 
 ## Funktionel betydning og anatomi
 

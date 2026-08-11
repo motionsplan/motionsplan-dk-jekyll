@@ -102,7 +102,7 @@ VAM-eval er utrolig nem at sætte op og kan afvikles med hele hold eller trupper
 
 ### Fremgangsmåde
 1. **Opstilling:** Placer kegler med præcis 20 meters mellemrum langs banens inderkant (på en 400 m bane bruges 20 kegler; på en 200 m bane bruges 10 kegler).
-2. **Startposition:** Løberne fordeles jævnt ved keglerne (f.eks. 1–2 løbere pr. kegle).
+2. **Startposition:** Løberne fordeles jævnt ved keglerne (fx 1–2 løbere pr. kegle).
 3. **Start:** Lydfilen igangsættes på trin 1 (typisk 8,5 km/t). Ved hvert bip skal løberens bryst udlignes med den næste 20-meter kegle.
 4. **Progression:** Efter hvert minut stiger hastigheden med 0,5 km/t, hvilket meddeles af lydfilen.
 5. **Stop-kriterium:** Testen stopper for den enkelte løber, når denne:
@@ -161,7 +161,7 @@ Hvad er en god MAS-score? Tabellen herunder giver et overblik over træningsnive
 
 Hovedformålet med at køre en VAM-eval test er ikke kun at få et tal for konditionen, men at hente den præcise **Maksimale Aerobe Hastighed (MAS)** til at styre intervaltræningen.
 
-Når du kender din MAS (f.eks. 16,0 km/t = 4:48 min/km eller 4,44 m/s), kan du opbygge målrettede træningspas:
+Når du kender din MAS (fx 16,0 km/t = 4:48 min/km eller 4,44 m/s), kan du opbygge målrettede træningspas:
 
 ### 1. Korte high-intensity intervaller (HIIT 100–105% MAS)
 * **30/30 intervaller:** Løb 30 sekunder ved 100–105% af MAS, efterfulgt af 30 sekunders aktiv pause (gang/jogging). Gentag 10–15 gange.

@@ -32,7 +32,7 @@ faq:
   - question: "Hvor høj skal en stepbænk være til en steptest?"
     answer: "Bokshøjden afhænger helt af den specifikke test. Den varierer fra 15 cm i Chester Step Test op til 50,8 cm i den klassiske Harvard Step Test. Flere nyere tests, som den Modificerede YMCA-test, tilpasser højden direkte til din kropshøjde."
   - question: "Kan jeg lave en steptest på et trappetrin derhjemme?"
-    answer: "Ja, et standard trappetrin i et hus er typisk 18–20 cm højt, hvilket passer glimrende til f.eks. Chester Step Test eller en lavere udgave af YMCA-testen. Det vigtigste er, at trinnet er målt præcist op på forhånd og står helt stabilt."
+    answer: "Ja, et standard trappetrin i et hus er typisk 18–20 cm højt, hvilket passer glimrende til fx Chester Step Test eller en lavere udgave af YMCA-testen. Det vigtigste er, at trinnet er målt præcist op på forhånd og står helt stabilt."
   - question: "Hvilken steptest er mest præcis til at finde konditallet?"
     answer: "Tests der tilpasser belastningen til den enkelte (som den Modificerede YMCA Steptest) eller måler steady-state arbejdspuls over længere tid (som Åstrand-Ryhming 6-minutters test) har generelt højere fysiologisk validitet end kortere faste tests."
   - question: "Hvorfor måler man pulsen efter testen og ikke altid undervejs?"

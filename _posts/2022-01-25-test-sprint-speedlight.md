@@ -75,7 +75,7 @@ Ved at måle splittider på 5, 10, 20 og 30 meter fanger du alle de vigtige fase
 
 <div class="notice--info" markdown="1">
 **⏱️ Om den lineære sprinttest (5m, 10m, 20m, 30m)**
-En **lineær sprinttest** over korte distancer er "guldstandarden" inden for måling af eksplosivitet, acceleration og tophastighed i mange idrætsgrene (f.eks. fodbold, håndbold og atletik). Ved at opstille **fotoceller** (sprintceller) undervejs på distancen, kan du få et kirurgisk præcist billede af atletens udvikling igennem løbet.
+En **lineær sprinttest** over korte distancer er "guldstandarden" inden for måling af eksplosivitet, acceleration og tophastighed i mange idrætsgrene (fx fodbold, håndbold og atletik). Ved at opstille **fotoceller** (sprintceller) undervejs på distancen, kan du få et kirurgisk præcist billede af atletens udvikling igennem løbet.
 
 👉 **Leder du efter andre sprint- eller udholdenhedstests?** Se vores komplette oversigt over **[sprinttests og hurtighed](/tests/sprint/)**.  
 👉 **Vil du beregne generel løbehastighed eller tempo (km/t, min/km)?** Prøv vores **[generelle hastighedsberegner for løbere](/hastighed/)**.
@@ -96,7 +96,7 @@ Med fotoceller (også kaldet sprintceller) eliminerer du den menneskelige reakti
 ### 2. Manuel tidtagning (Stopur eller High-Speed Video)
 Har du ikke fotoceller til rådighed, kan testen stilles op manuelt:
 * **Stopur:** Vær opmærksom på usikkerheden på 0,15–0,20 sekunder fra tidtagerens reaktionstid. Brug altid den samme tidtager for at gøre målingerne så konsistente som muligt. Du kan bruge vores [timer](#timer) nedenunder.
-* **Video/App (f.eks. MySprint):** Optag løbet med high-speed video (120 eller 240 FPS) vinkelret på portene. Du kan derefter udregne de præcise splittider ud fra billedrammerne i videoen.
+* **Video/App (fx MySprint):** Optag løbet med high-speed video (120 eller 240 FPS) vinkelret på portene. Du kan derefter udregne de præcise splittider ud fra billedrammerne i videoen.
 
 ---
 

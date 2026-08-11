@@ -94,7 +94,7 @@ Oversigt over videnskabelige løbetests – fra distancetests som 12-minutters C
 
 <div class="notice" markdown="1">
 ### 🚶‍♂️📊 Gangtests
-Skånsomme og præcise gængertests til ældre, genoptræningsforløb eller klinisk brug (f.eks. 6-minutters gangtest og Rockport walk test).
+Skånsomme og præcise gængertests til ældre, genoptræningsforløb eller klinisk brug (fx 6-minutters gangtest og Rockport walk test).
 
 [6 min gåtest for ældre (6MWT) »](/gaatest-6min/){: .btn .btn--primary } [Rockports 1,6 km gangtest »](/gaatest/){: .btn .btn--primary }
 
@@ -102,35 +102,35 @@ Skånsomme og præcise gængertests til ældre, genoptræningsforløb eller klin
 
 <div class="notice--warning" markdown="1">
 ### 🚴‍♀️💨 Cykeltests
-Vurdér din anaerobe effekt, FTP og kondition på cykelergometer eller spindingcykel (f.eks. Åstrand, Wattbike, Wingate og RST).
+Vurdér din anaerobe effekt, FTP og kondition på cykelergometer eller spindingcykel (fx Åstrand, Wattbike, Wingate og RST).
 
 [Se alle cykeltests »](/tests/cykling/){: .btn .btn--warning }
 </div>
 
 <div class="notice--danger" markdown="1">
 ### 🦘🏋️‍♀️ Springtests & Hoppetests
-Mål din eksplosive underkropsstyrke og reaktive hoppehøjde (f.eks. Squat Jump, Countermovement Jump og Sargent Jump test).
+Mål din eksplosive underkropsstyrke og reaktive hoppehøjde (fx Squat Jump, Countermovement Jump og Sargent Jump test).
 
 [Se alle spring- og hoppetests »](/springtests-hoppehoejde/){: .btn .btn--danger }
 </div>
 
 <div class="notice--success" markdown="1">
 ### 🏃‍♂️💨 Sprint- & Hurtighedstests
-Test din lineære tophastighed og acceleration over korte distancer (f.eks. 30-meter sprint og RAST-test).
+Test din lineære tophastighed og acceleration over korte distancer (fx 30-meter sprint og RAST-test).
 
 [Se alle sprint- og hurtighedstests »](/tests/sprint/){: .btn .btn--success }
 </div>
 
 <div class="notice--info" markdown="1">
 ### 💥🔬 Retningsskift & Eksplosivitet
-Mål din agilitet, Change of Direction Speed (CODS) og evne til hurtige vendinger på banen (f.eks. Illinois, 505-test, T-test og Arrowhead).
+Mål din agilitet, Change of Direction Speed (CODS) og evne til hurtige vendinger på banen (fx Illinois, 505-test, T-test og Arrowhead).
 
 [Se guides til retningsskift og agilitet »](/retningsskift-test/){: .btn .btn--info }
 </div>
 
 <div class="notice" markdown="1">
 ### 🧠💭 Psykologiske Tests & Vurderingsværktøjer
-Mål din mentale sundhed, trivsel og dit forhold til motion med validerede psykologiske spørgeskemaer (f.eks. træningsafhængighed og mentalt velvære).
+Mål din mentale sundhed, trivsel og dit forhold til motion med validerede psykologiske spørgeskemaer (fx træningsafhængighed og mentalt velvære).
 
 [Se alle psykologiske sundhedstests »](/vurderingsvaerktoejer/){: .btn .btn--primary }
 </div>
@@ -157,9 +157,9 @@ Leder du efter en af vores mest benyttede specifikke guides eller beregnere, kan
 
 En **fitnesstest** er en struktureret måling af din fysiske formåen inden for et af kroppens primære kapacitetsområder. Formålet med fitnesstests er at give dig et objektivt nulpunkt, spore din træningsfremgang og identificere svagheder i din fysik:
 
-* 🫁 **Kondition & Aerob effekttest:** Måling af din maksimale iltoptagelse ($\text{VO}_2\text{-max}$) og udholdenhed (f.eks. [Cooper-test](/cooper-test/) eller [Bip-test](/bip-test/)).
-* 🏋️‍♂️ **Styrke- & Eksplosivitetstest:** Test af dit maksimale kraftudviklingspotentiale (f.eks. [IMTP trækstyrketest](/imtp-test/) eller [hoppetests](/springtests-hoppehoejde/)).
-* 📐 **Antropometri & Kropssammensætning:** Vurdering af fedtprocent, BMI og kropsmål (f.eks. [fedtprocentmåling](/maal-fedtprocent/)).
+* 🫁 **Kondition & Aerob effekttest:** Måling af din maksimale iltoptagelse ($\text{VO}_2\text{-max}$) og udholdenhed (fx [Cooper-test](/cooper-test/) eller [Bip-test](/bip-test/)).
+* 🏋️‍♂️ **Styrke- & Eksplosivitetstest:** Test af dit maksimale kraftudviklingspotentiale (fx [IMTP trækstyrketest](/imtp-test/) eller [hoppetests](/springtests-hoppehoejde/)).
+* 📐 **Antropometri & Kropssammensætning:** Vurdering af fedtprocent, BMI og kropsmål (fx [fedtprocentmåling](/maal-fedtprocent/)).
 * 🤸‍♂️ **Smidighed & Smidighedstest:** Måling af leddenes bevægelighed og fleksibilitet.
 
 > 💡 **Tip til præcise målinger:** Udfør altid dine fitnesstests under de samme forhold (samme tidspunkt på dagen, samme opvarmning og samme udstyr) for at få et pålideligt sammenligningsgrundlag.

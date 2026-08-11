@@ -82,7 +82,7 @@ For at måle din acceleration, tophastighed og anaerobe udholdenhed kan du benyt
 
 * ⏱️ **[30m Sprinttest med fotoceller](/sprinttest-med-sprintceller/)** – Mål din rene acceleration og tophastighed med præcise splittider.
 * ⚡ **[RAST-Test (Running-based Anaerobic Sprint Test)](/rast-test/)** – Test din anaerobe effekt og udholdenhed over 6 gen gentagne sprints.
-* 🔀 **[Retningsskift & Agility-tests (COD)](/retningsskift-test/)** – Oversigt over hurtighedstests med vendinger (f.eks. [505 Agility Test](/505-agility-test/)).
+* 🔀 **[Retningsskift & Agility-tests (COD)](/retningsskift-test/)** – Oversigt over hurtighedstests med vendinger (fx [505 Agility Test](/505-agility-test/)).
 
 ---
 
@@ -91,7 +91,7 @@ For at måle din acceleration, tophastighed og anaerobe udholdenhed kan du benyt
 Fordi belastningen under et maksimalt sprint kan overstige $6\text{--}8$ gange din kropsvægt i afsættet, er risikoen for fibersprængninger i baglåret (*hamstrings*) markant.
 
 1. **Grundig opvarmning:** Kør altid dynamiske stræk, A-skips, B-skips og stigningsløb før maksimale sprints.
-2. **Styrk bagkæden:** Træn excentrisk baglårsstyrke med f.eks. [Nordic Hamstrings](/nordic-hamstring-breakpoint/) eller [hoftedominante øvelser](/hoftedominante-oevelser/).
+2. **Styrk bagkæden:** Træn excentrisk baglårsstyrke med fx [Nordic Hamstrings](/nordic-hamstring-breakpoint/) eller [hoftedominante øvelser](/hoftedominante-oevelser/).
 3. **Styr kontrol over volumen:** Kør relativt få repetitions med lang pause ($1\text{ minut pr. 10 meter sprint}$), så nervesystemet er $100\%$ frisk til hvert løb.
 
 ---

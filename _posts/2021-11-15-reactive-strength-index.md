@@ -39,15 +39,15 @@ tests:
     related_tools: []
 last_modified_at: '2025-02-19T08:14:14Z'
 toc: 'true'
-feature_row:
-- image_path: /assets/images/freebies/rsi-sheet.png
-  title: Incremental Drop Jump Test
-  excerpt: Google Sheet til at registrere forsøg i Incremental Drop Jump test, hvor du får udregnet RSI baseret på hoppehøjde
-    og kontakttid. Med vurdering baseret på Eamonn Flanagans arbejde.
-  url: https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy?usp=sharing
-  btn_label: <i class='fas fa-file-excel'></i> Download
-  btn_class: btn--success
-  rel: nofollow noopener
+templates:
+  - id: "incremental_drop_jump_rsi_sheet"
+    title: "Incremental Drop Jump Test"
+    description: "Google Sheet til at registrere forsøg i Incremental Drop Jump test, hvor du får udregnet RSI baseret på hoppehøjde og kontakttid. Med vurdering baseret på Eamonn Flanagans arbejde."
+    format: "Google Sheets / Excel"
+    type: "sheet"
+    btn_text: "📊 Lav en kopi i Google Sheets"
+    url: "https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy?usp=sharing"
+    image: "/assets/images/freebies/rsi-sheet.png"
 faq:
 - question: Hvad er Reactive Strength Index (RSI)?
   answer: RSI er et mål for en persons evne til hurtigt at skifte fra en excentrisk (muskelforlængende) bevægelse til en koncentrisk
@@ -105,7 +105,7 @@ Oprindeligt blev RSI mål ved et _drop jump (DJ)_ med en boks, der gradivist bli
 
 {% include figure image_path="/assets/images/i.pinimg.com/f5163be27e98e6441a037602208e0b2b-c1b9c9cc.jpg" caption="I et _drop jump_ eller _depth jump_ skal du forsøge at komme fra jorden så hurtigt som muligt. [📷](https://i.pinimg.com/originals/f5/16/3b/f5163be27e98e6441a037602208e0b2b.jpg){: rel='nofollow noopener' }" %}
 
-{% include feature_row type="left" %}
+{% include motionsplan/templates.html id="incremental_drop_jump_rsi_sheet" %}
 
 Dette er formentlig den mest relevante test, hvis du har længere tid til din test, og du gerne vil bruge den praktisk til også at give anbefalinger ift. plyometrisk træning.
 
@@ -226,12 +226,6 @@ Tjek den også ud i denne grafik:
 
 På **Ezejump** hoppemåtten som vi bruger på Vejle Idrætshøjskole kan du vælge to forskellige måder at udregne RSI på. Husk at tjekke om det er svævetiden og eller hoppehøjden, der bliver brugt under indstillingerne, så du kan bruge ovenstående tabeller til sammenligning.
 {: .notice .notice--info }
-
-{% comment %}
-
-[<i class='fas fa-file-excel'></i> Resultatark til Drop Jump](https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy){: .btn .btn--large .btn--success rel="nofollow noopener" }
-
-{% endcomment %}
 
 ## Fortolkning af data
 

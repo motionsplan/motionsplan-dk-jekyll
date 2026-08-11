@@ -223,7 +223,7 @@ Dr. Pak har udviklet en række 6-ugers programmer baseret på *Minimum Effective
 Fælles for programmerne:
 
 - 2–3 træningsdage om ugen  
-- Træn gerne **hver anden dag** (f.eks. mandag–onsdag–fredag)  
+- Træn gerne **hver anden dag** (fx mandag–onsdag–fredag)  
 - Høj intensitet – lav volumen  
 - Kan tilpasses efter dine behov
 

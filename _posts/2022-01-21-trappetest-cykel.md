@@ -91,7 +91,7 @@ Med en trappetest på cykel kan du få de nødvendige informationer om puls og w
 
 En trappetest (også kendt som en form for *ramptest*) er en indirekte, maksimal cykeltest. Testen er kendetegnet ved, at belastningen øges i faste trin indtil udmattelse (*"all-out"*).
 
-Fordelen ved en trappetest frem for f.eks. en klassisk 20-minutters FTP-test er **pacing**:
+Fordelen ved en trappetest frem for fx en klassisk 20-minutters FTP-test er **pacing**:
 * **Ingen taktik:** Du skal ikke bekymre dig om at lægge for hårdt ud eller gemme på kræfterne.
 * **Præcis udmattelse:** Du træder blot, til benene ikke kan køre rundt mere.
 * **Løbende måling:** Du får værdifulde data om både puls og watt gennem alle pulszoner.
@@ -129,7 +129,7 @@ Den mest anerkendte videnskabelige protokol til trappetesten på cykel blev udvi
 ### Sådan udfører du testen trin-for-trin
 
 1. **Forberedelse:** Sæt din hometrainer i ERG-mode, så belastningen styres automatisk og præcist.
-2. **Startbelastning:** Læg ud ved 1,5–3 watt/kg kropsvægt (rundet ned til nærmeste tal deleligt med 25 watt). Vejer du f.eks. 80 kg, kan du starte på 150 watt.
+2. **Startbelastning:** Læg ud ved 1,5–3 watt/kg kropsvægt (rundet ned til nærmeste tal deleligt med 25 watt). Vejer du fx 80 kg, kan du starte på 150 watt.
 3. **Trinlængde:** Du kører i **2,5 minutter (150 sekunder)** på hver belastning.
 4. **Stigning:** Efter hvert trin øges belastningen med **25 watt**.
 5. **Udmattelse:** Fortsæt indtil du ikke længere kan opretholde trådet/kadencen.
@@ -225,7 +225,7 @@ Det er vigtigt at huske, at testresultaterne er et øjebliksbillede og bygger p�
 
 ## Før en testlog og følg din udvikling
 
-For at få det maksimale ud af dine tests bør du udføre trappetesten regelmæssigt (f.eks. hver 4.–6. uge) under ensartede forhold. 
+For at få det maksimale ud af dine tests bør du udføre trappetesten regelmæssigt (fx hver 4.–6. uge) under ensartede forhold. 
 
 Notér følgende i din træningsdagbog:
 * Dato og vægt

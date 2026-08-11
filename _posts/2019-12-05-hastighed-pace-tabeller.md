@@ -21,17 +21,18 @@ tags:
 - cykling
 last_modified_at: '2026-07-24T00:00:00Z'
 toc: 'true'
-feature_row:
-- image_path: /assets/images/freebies/hastighed-og-pace.png
-  title: Skema med hastighed og pace
-  excerpt: Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer til i dit pace i min/km.
-  url: https://docs.google.com/document/d/1Q-fvW4lL2wygQB4UyNnxrkq4sknXczDUSF7tw8hV-do/copy?usp=sharing
-  btn_label: <i class='fas fa-file-alt'></i> Udskriv hastighedstabel
-  btn_class: btn--success
-  rel: nofollow noopener
+templates:
+  - id: "hastighed_pace_skema_doc"
+    title: "Skema med hastighed og pace"
+    description: "Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer til i dit pace i min/km."
+    format: "Google Docs"
+    type: "doc"
+    btn_text: "📝 Udskriv hastighedstabel"
+    url: "https://docs.google.com/document/d/1Q-fvW4lL2wygQB4UyNnxrkq4sknXczDUSF7tw8hV-do/copy?usp=sharing"
+    image: "/assets/images/freebies/hastighed-og-pace.png"
 faq:
 - question: Hvad viser en pacetabel?
-  answer: En pacetabel viser, hvordan forskellige hastigheder (f.eks. i km/t eller min/km) svarer til forventede sluttider på distancer som 5 km, 10 km, halvmaraton og maraton. Det er en nem måde at finde ud af, hvilket tempo du skal løbe i for at nå en bestemt tid.
+  answer: En pacetabel viser, hvordan forskellige hastigheder (fx i km/t eller min/km) svarer til forventede sluttider på distancer som 5 km, 10 km, halvmaraton og maraton. Det er en nem måde at finde ud af, hvilket tempo du skal løbe i for at nå en bestemt tid.
 - question: Hvordan bruger jeg pacetabellen i min træning?
   answer: Du kan bruge pacetabellen til at planlægge dine træningspas. Hvis du fx har et mål om at løbe 10 km på under 50 minutter, kan du slå op, hvilket tempo det svarer til – og træne efter det. Det samme gælder for lange, langsomme ture eller intervaller.
 - question: Hvad er forskellen på min/km og km/t?
@@ -59,7 +60,7 @@ I denne tabel kan du se, hvad en hastighed betyder i forhold til de tider, du ka
 ## Print din egen pace-tabel
 {: id="print" }
 
-{% include feature_row type="left" %}
+{% include motionsplan/templates.html id="hastighed_pace_skema_doc" %}
 
 ## Konklusion: Hvad bliver dit næste skridt?
 

@@ -70,7 +70,7 @@ Så snart du stopper træningen, overtager det *parasympatiske nervesystem* ("br
 
 For at få valide målinger fra gang til gang skal du følge samme fremgangsmåde:
 
-1. **Afslut træningen brat:** Kør eller løb med moderat til høj intensitet til sidst (f.eks. ved din arbejds- eller [maxpuls](/test-max-puls/)).
+1. **Afslut træningen brat:** Kør eller løb med moderat til høj intensitet til sidst (fx ved din arbejds- eller [maxpuls](/test-max-puls/)).
 2. **Stå helt stille:** Stop op i samme øjeblik træningen slutter. Sid eller stå helt stille uden at gå rundt.
 3. **Mål startpuls ($P_{\text{start}}$):** Noter din puls præcis i det sekund, du stopper.
 4. **Mål slutpuls ($P_{\text{slut}}$):** Noter din puls efter nøjagtig **60 sekunder** ($HRR_1$) eller **120 sekunder** ($HRR_2$).
@@ -93,7 +93,7 @@ Brugere af Garmin-pulsure kan nemt måle deres restitutionspuls automatisk efter
 1. Tryk på **Stop** på uret, når du afslutter dit løb eller din cykeltur.
 2. Rul ned på skærmen (eller tryk på menuen) og vælg **Restitutionspuls** (*Recovery HR*).
 3. Stå helt stille. Uret tæller nu ned fra **2:00 minutter**.
-4. Når nedtællingen slutter, viser uret din **$HRR_2$** (f.eks. *"Restitutionspuls: 38 bpm"*).
+4. Når nedtællingen slutter, viser uret din **$HRR_2$** (fx *"Restitutionspuls: 38 bpm"*).
 
 > **Hvorfor ændrer tallet sig fra dag til dag på Garmin?** 
 > Din restitutionspuls påvirkes af mere end blot din kondition. Stress, manglende [søvn](/soevn/), væskeunderskud, varme og [overtræning](/restitution/) kan reducere dit pulsfald midlertidigt.

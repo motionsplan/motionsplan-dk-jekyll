@@ -22,7 +22,7 @@ faq:
   - question: Hvor mange kalorier er der i et glas vin?
     answer: Et almindeligt glas rødvin eller tør hvidvin (150 ml) indeholder typisk omkring 100-125 kcal. Sød hvidvin og dessertvin indeholder mere på grund af højere sukkerindhold.
   - question: Hvilken alkohol indeholder færrest kalorier?
-    answer: Ren spiritus (f.eks. vodka, gin, rom eller whisky) blandet med kaloriefri sodavand (som Cola Zero eller Danskvand) indeholder færrest kalorier pr. genstand (ca. 55-60 kcal pr. 3 cl).
+    answer: Ren spiritus (fx vodka, gin, rom eller whisky) blandet med kaloriefri sodavand (som Cola Zero eller Danskvand) indeholder færrest kalorier pr. genstand (ca. 55-60 kcal pr. 3 cl).
 ---
 
 Vil du vide, hvor mange kalorier du indtager, når du drikker et glas vin, en kold øl eller en drink? 

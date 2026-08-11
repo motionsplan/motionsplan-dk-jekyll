@@ -64,7 +64,7 @@ faq:
 
 **Agility T-Test** er en af de mest anvendte og anerkendte felt-test til vurdering af en udøvers **multidirektionelle hurtighed** og agilitet. Testen blev oprindeligt beskrevet af Semenick (1990) og er siden blevet en standard i fysiologiske testbatterier verden over.
 
-Testens styrke ligger i dens evne til at simulere de komplekse bevægelsesmønstre, der findes i mange holdsportsgrene (f.eks. basketball, fodbold, tennis og badminton). Udøveren skal her mestre hurtig omstilling mellem **lineær acceleration fremad**, **lateralt sideløb (shuffling)** til både venstre og højre, samt **hurtigt baglænsløb**.
+Testens styrke ligger i dens evne til at simulere de komplekse bevægelsesmønstre, der findes i mange holdsportsgrene (fx basketball, fodbold, tennis og badminton). Udøveren skal her mestre hurtig omstilling mellem **lineær acceleration fremad**, **lateralt sideløb (shuffling)** til både venstre og højre, samt **hurtigt baglænsløb**.
 
 Testen giver et validt mål for udøverens evne til at:
 *   Accelerere og deaccelerere hurtigt i sagittalplanet.

@@ -100,7 +100,7 @@ Ideen er naturligvis, at du forsøger at snyde kroppen til at tro, at du skal l�
 
 Hvis du ikke ved, hvad din [1RM eller _one repetition maximum_](/rm-maxtest/) er, så kan du tjekke vores [RM-beregner](/rm-beregner/). Her kan du med et _all out_ submaximalt sæt estimere, hvor meget du kan løfte netop en gang.
 
-Du kan også bruge [Rate of Perceived Exertion (RPE)](/rpe/) til at estimere sit maxløft. Jeg bruger selv [Reactive Training Systems RTS App](/rts-app/) til at tracke min træning, og der angiver man RPE for de enkelte sæt. Det betyder faktisk at app'en hele tiden har et bud på dit maksimale løft.
+Du kan også bruge [Rate of Perceived Exertion (RPE)](/rpe/) til at estimere sit maxløft. Jeg bruger selv [en træningslog app](/traeningsdagbog-app/) til at tracke min træning, og der angiver man RPE for de enkelte sæt. Det betyder faktisk at app'en hele tiden har et bud på dit maksimale løft.
 
 [Tim Henriques beskriver på t-nation.com](https://www.t-nation.com/training/whats-your-1rm) en anden approach til at lave sin egen estimerede 1RM, som er baseret på dine egne løft - og ikke formler baseret på andre løfteres præstationer.
 

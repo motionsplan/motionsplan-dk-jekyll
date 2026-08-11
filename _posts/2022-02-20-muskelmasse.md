@@ -35,7 +35,7 @@ faq:
 - question: Hvor mange kilo muskelmasse har en mand og kvinde i gennemsnit?
   answer: 'En gennemsnitlig kvinde på 68 kg har omkring 20-24 kg muskelmasse (skeletmuskulatur). En gennemsnitlig mand på 80 kg har omkring 30-36 kg muskelmasse.'
 - question: Hvordan beregner man sin muskelmasse?
-  answer: 'Du kan estimere din muskelmasse ved hjælp af antropometriske målinger som højde, kropsvægt, taljemål og alder via en valideret formel (f.eks. Heymsfield et al.), som benyttes i vores beregner.'
+  answer: 'Du kan estimere din muskelmasse ved hjælp af antropometriske målinger som højde, kropsvægt, taljemål og alder via en valideret formel (fx Heymsfield et al.), som benyttes i vores beregner.'
 ---
 
 I denne beregner kan du udregne din omtrentlige muskelmasse i både procent (%) og kilo (kg) baseret på enkle antropometriske målinger.

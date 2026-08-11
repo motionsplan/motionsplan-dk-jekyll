@@ -35,11 +35,15 @@ Jeg har i mange år brugt et regneark til at dele træningsprogrammer til mine e
 
 Jeg har længe drømt om, at jeg let kunne skrive en workout i tekstformat, og teksten kan læses af en app og få det til at ligne et godt træningsprogram.
 
-Det kan du delvist gøre med [weightxreps.net](https://weightxreps.net/). Her får du en god [træningslog](https://www.motionsplan.dk/rts-app/). Men den er ikke helt perfekt.
+Det kan du delvist gøre med [weightxreps.net](https://weightxreps.net/). Her får du en [god træningslog](/traeningsdagbog-app/). Men den er ikke helt perfekt.
 
 For jeg vil gerne have en app, hvor jeg kan lave et træningsprogram på forhånd.
 
 Og det kan [Liftosaur](https://www.liftosaur.com).
+
+> 📊 **Sammenlign Liftosaur med andre apps**  
+> Vil du se, hvordan Liftosaur adskiller sig fra andre populære træningslog-apps? Tjek vores [samlede oversigt over de bedste træningsdagbog-apps til styrke og kondition](/traeningsdagbog-app/).
+{: .notice--info }
 
 ## Opret en profil i Liftosaur
 

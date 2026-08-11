@@ -32,7 +32,7 @@ Subscapularis er unik i rotatorcuffen, da den som den eneste sidder på forsiden
 
 ## Træning af {{ page.title }}
 
-Subscapularis trænes bedst gennem kontrolleret indadrotation, f.eks. med elastik eller i kabeltræk, hvor man holder albuen ind til siden og roterer underarmen ind mod maven.
+Subscapularis trænes bedst gennem kontrolleret indadrotation, fx med elastik eller i kabeltræk, hvor man holder albuen ind til siden og roterer underarmen ind mod maven.
 
 {% include video provider="youtube" id="5v9Tst3_m8E" %}
 

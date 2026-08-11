@@ -134,7 +134,7 @@ Selvom BBS har fremragende test-retest reliabilitet (ICC > 0,95), bør fysiotera
 
 ## Konklusion
 
-Bergs Balanceskala (BBS) er et af de mest solide, validerede og klinisk anvendelige instrumenter til balancevurdering og faldrisikoscreening. En samlet score under 45 point bør altid udløse en målrettet indsats med balance- og styrketræning. For at få et komplet billede af patientens samlede mobilitet bør BBS dog suppleres med en test af selve gangfunktionen, f.eks. Timed Up and Go (TUG).
+Bergs Balanceskala (BBS) er et af de mest solide, validerede og klinisk anvendelige instrumenter til balancevurdering og faldrisikoscreening. En samlet score under 45 point bør altid udløse en målrettet indsats med balance- og styrketræning. For at få et komplet billede af patientens samlede mobilitet bør BBS dog suppleres med en test af selve gangfunktionen, fx Timed Up and Go (TUG).
 
 ---
 

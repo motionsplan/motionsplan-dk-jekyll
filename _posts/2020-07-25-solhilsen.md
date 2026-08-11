@@ -86,8 +86,8 @@ Er du helt ny til yoga? Du behøver slet ikke at være fleksibel for at komme i 
 
 Vejrtrækningen er motoren i solhilsenen. Tommelfingerreglen for at huske åndedrættet er simpelt:
 
-* **Når kroppen åbner sig** (f.eks. når du rækker armene mod loftet eller svajer i ryggen), skal du **ånde ind**.
-* **Når kroppen lukker sig sammen** (f.eks. når du bøjer dig fremover eller skubber hoften op), skal du **ånde ud**.
+* **Når kroppen åbner sig** (fx når du rækker armene mod loftet eller svajer i ryggen), skal du **ånde ind**.
+* **Når kroppen lukker sig sammen** (fx når du bøjer dig fremover eller skubber hoften op), skal du **ånde ud**.
 
 Træk altid vejret dybt gennem næsen. Når bevægelserne og åndedrættet smelter sammen, opstår følelsen af "flow" og en meditativ tilstand i kroppen.
 
@@ -158,7 +158,7 @@ En fin plakat på børneværelset eller i yogarummet kan gøre det til en sjov v
 
 Mange spørger, om man kan bruge solhilsen til vægttab. Svaret er **ja!**
 
-Udfører du solhilsener i et dynamisk og kontinuerligt tempo (f.eks. 10-15 runder af Solhilsen A og B uden pause), fungerer sekvensen som en effektiv kardiovaskulær træning:
+Udfører du solhilsener i et dynamisk og kontinuerligt tempo (fx 10-15 runder af Solhilsen A og B uden pause), fungerer sekvensen som en effektiv kardiovaskulær træning:
 
 * **Kalorieforbrænding:** En person på 70 kg forbrænder i gennemsnit mellem **150 og 300 kcal** ved 30 minutters aktiv solhilsen-praksis.
 * **Muskelopbygning:** Øvelser som Planken, Chaturanga og Kriger 1 opbygger muskelmasse i arme, skuldre, kropstamme og ben, hvilket øger din hvileforbrænding.

@@ -20,7 +20,7 @@ faq:
   - question: Hvad er den nemmeste måde at måle sin hoppehøjde på?
     answer: Den nemmeste og billigste metode er Sargent Jump Test (Jump & Reach), hvor du blot skal bruge kridt på fingrene og en bar væg til at måle forskellen mellem din rækkehøjde og din hoppehøjde.
   - question: Hvad er forskellen på en hoppetest med og uden forspænding?
-    answer: En test med forspænding (f.eks. Countermovement Jump) lader dig dykke ned i knæene lige inden hoppet for at udnytte musklernes elastiske energi (SSC). En test uden forspænding (f.eks. Squat Jump) starter fra en bøjet, statisk position og måler ren koncentrisk kraft.
+    answer: En test med forspænding (fx Countermovement Jump) lader dig dykke ned i knæene lige inden hoppet for at udnytte musklernes elastiske energi (SSC). En test uden forspænding (fx Squat Jump) starter fra en bøjet, statisk position og måler ren koncentrisk kraft.
   - question: Hvor præcise er smartphone-apps til måling af springhøjde?
     answer: Validerede apps som My Jump 2 og The Hoops Geek måler svævetiden via high-speed video og er i videnskabelige studier vist at være yderst præcise, så længe landingspositionen udføres korrekt.
 feature_row_jump_training:
@@ -62,7 +62,7 @@ Herunder gennemgår vi de 5 mest udbredte testmetoder – fra lavpraktiske felt-
 
 ### 1. Sargent Jump Test (kridt og væg)
 [Sargent Jump-testen](/sargent-jump-test/) (også kendt som *Jump & Reach*) er et godt eksempel på en meget enkel test, som kan laves overalt.
-* **Metode:** Du står ved siden af en mur, rækker armen op og markerer din stående rækkehøjde (f.eks. med kridt på fingrene). Derefter hopper du så højt som muligt, rører væggen og udregner forskellen.
+* **Metode:** Du står ved siden af en mur, rækker armen op og markerer din stående rækkehøjde (fx med kridt på fingrene). Derefter hopper du så højt som muligt, rører væggen og udregner forskellen.
 * **Fordele:** $100\%$ gratis, kræver intet specialudstyr.
 * **Ulemper:** Det kan føles hæmmende at hoppe tæt op ad en væg, og unøjagtighed med kridt kan påvirke resultatet.
 * **Tip:** Du kan gøre testen lettere at udføre ved at bruge en basketballplade eller tape med blæk/kalk på fingrene, så du ikke frygter at ramme muren.
@@ -75,7 +75,7 @@ En Vertec er en lang stang med et væld af drejelige, horisontale plastiklamelle
 
 ### 3. Hoppemåtte / kontaktmåtte
 På en hoppemåtte eller kontaktmåtte måles din **svævetid** og **kontakttid** i luften.
-* **Anvendelse:** Gør det let at måle f.eks. [Reactive Strength Index (RSI)](/reactive-strength-index-rsi/) eller lave [counter movement jumps](/countermovement-jump-cmj-squat-jump-sj/).
+* **Anvendelse:** Gør det let at måle fx [Reactive Strength Index (RSI)](/reactive-strength-index-rsi/) eller lave [counter movement jumps](/countermovement-jump-cmj-squat-jump-sj/).
 * **Formel:** Hoppehøjden ($h$) beregnes ud fra svævetiden ($t$):  
   $$ h = \frac{g \cdot t^2}{8} $$
 * **Ulemper:** Man kan manipulere sin svævetid, hvis man lander på hælene, med bøjede ben eller trækker armene ned under svævet, hvilket overestimerer hoppehøjden.

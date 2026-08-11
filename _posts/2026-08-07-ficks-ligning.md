@@ -24,7 +24,7 @@ faq:
   - question: "Hvad er den største flaskehals for VO2max hos raske Mennesker?"
     answer: "Hos raske, utrænede og veltrænede individer er det primært den centrale pumpekapacitet – specifikt hjertets slagvolumen (SV) – der udgør den primære fysiologiske begrænsning for VO₂max."
   - question: "Hvad er forskellen på central og perifer konditionstræning?"
-    answer: "Central træning (f.eks. højintensiv intervaltræning) fokuserer på at øge hjertets størrelse og slagvolumen. Perifer træning (f.eks. langsom Zone 2 træning) fokuserer på at øge musklernes kapillærtæthed, mitokondrier og iltudnyttelse."
+    answer: "Central træning (fx højintensiv intervaltræning) fokuserer på at øge hjertets størrelse og slagvolumen. Perifer træning (fx langsom Zone 2 træning) fokuserer på at øge musklernes kapillærtæthed, mitokondrier og iltudnyttelse."
   - question: "Hvorfor falder max pulsen ikke ved træning?"
     answer: "Den maksimale hjertefrekvens (HRmax) er genetik- og aldersbestemt. Træning øger ikke din max puls – udholdenhedstræning øger i stedet hjertets volumen, så det kan pumpe mere blod ud pr. slag."
 ---
@@ -105,8 +105,8 @@ Fordi Ficks ligning har two adskilte ben, reagerer de også forskelligt på træ
 
 | Træningstype | Primær Fysiologisk Effekt | Fick-komponent |
 | :--- | :--- | :--- |
-| **Højintensiv Intervaltræning (HIIT)** <br> *(f.eks. 4x4 min ved 90-95% HRmax)* | Hjertet fyldes med maksimalt blodvolumen under det høje tryk. Udvider venstre hjertekammer og øger **Slagvolumen**. | **Central ($Q$)** |
-| **Zone 2 Træning (Rolig udholdenhed)** <br> *(f.eks. 1–3 timers løb/cykling i snakketempo)* | Stimulerer kapillærvækst og mitokondriedannelse i de langsomme (Type I) muskelfibre. | **Perifer ($\text{a-vO}_2\text{ diff}$)** |
+| **Højintensiv Intervaltræning (HIIT)** <br> *(fx 4x4 min ved 90-95% HRmax)* | Hjertet fyldes med maksimalt blodvolumen under det høje tryk. Udvider venstre hjertekammer og øger **Slagvolumen**. | **Central ($Q$)** |
+| **Zone 2 Træning (Rolig udholdenhed)** <br> *(fx 1–3 timers løb/cykling i snakketempo)* | Stimulerer kapillærvækst og mitokondriedannelse i de langsomme (Type I) muskelfibre. | **Perifer ($\text{a-vO}_2\text{ diff}$)** |
 
 For at opnå et maksimalt kondital rækker det altså ikke kun at køre korte, hårde intervaller eller udelukkende lunte lange ture — du har brug for **både central og perifer adaptation**.
 

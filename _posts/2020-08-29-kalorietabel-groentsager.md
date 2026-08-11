@@ -76,7 +76,7 @@ Kombinationen af et højt vandindhold og en stor mængde ufordøjelige **kostfib
 
 Data i tabellen stammer fra den officielle danske database [DTU Fødevareinstituttet (Frida)](https://frida.fooddata.dk).
 
-*Bemærk: Alle tal er angivet pr. 100 gram rå grøntsag. Vær opmærksom på, at tilberedningsmetoder (f.eks. stegning i olie eller smør) øger det samlede kalorieindhold i det færdige måltid.*
+*Bemærk: Alle tal er angivet pr. 100 gram rå grøntsag. Vær opmærksom på, at tilberedningsmetoder (fx stegning i olie eller smør) øger det samlede kalorieindhold i det færdige måltid.*
 
 Vil du kende dit daglige energibehov? Udregn dit [ligevægtsindtag](/ligevaegtsindtag-beregner/) og [basalstofskifte (BMR)](/bmr-beregner/).
 

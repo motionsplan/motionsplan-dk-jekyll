@@ -21,7 +21,7 @@ sidebar:
 breadcrumbs: 'true'
 ---
 
-Dette er dit professionelle opslagsværktøj til muskelanatomi. Brug søgefeltet til at filtrere efter specifikke knogler (f.eks. "Humerus" eller "Skinneben") eller muskelnavne. 
+Dette er dit professionelle opslagsværktøj til muskelanatomi. Brug søgefeltet til at filtrere efter specifikke knogler (fx "Humerus" eller "Skinneben") eller muskelnavne. 
 
 Du kan skifte mellem at se navnene på **Dansk** eller **Latin** ved hjælp af knapperne herunder.
 
@@ -33,7 +33,7 @@ Du kan skifte mellem at se navnene på **Dansk** eller **Latin** ved hjælp af k
 
 Denne tabel er designet til at give dig et hurtigt overblik uden at skulle klikke ind på hver enkelt muskel. 
 
-* **Søg på knogler:** Skriv f.eks. "Humerus" eller "Femur" for at se alle muskler, der udspringer fra eller hæfter på disse knogler.
+* **Søg på knogler:** Skriv fx "Humerus" eller "Femur" for at se alle muskler, der udspringer fra eller hæfter på disse knogler.
 * **Eksamensforberedelse:** Skift til "Latin" for at teste dig selv i de latinske betegnelser, som ofte bruges til eksamen.
 * **Sammenlign funktioner:** Find hurtigt alle muskler, der laver "Dorsalfleksion" eller "Udadrotation".
 

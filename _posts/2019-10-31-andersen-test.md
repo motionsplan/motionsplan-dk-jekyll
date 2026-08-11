@@ -67,22 +67,24 @@ tags:
 - testberegner
 - featured
 last_modified_at: '2026-07-11T08:14:14Z'
-feature_row:
-- image_path: /assets/images/freebies/andersen-notering.png
-  url: https://docs.google.com/spreadsheets/d/1DAZYECM3dNR-sH3zxzczyVFmYqHlWR8__MdUSmvqbIY/copy?usp=sharing
-  title: Skema til Andersen Testen
-  excerpt: Der printes et noteringsark til hver elev. Man krydser af for hver 20 meter der er løbet.
-  btn_class: btn--success
-  btn_label: <i class='fas fa-file-excel'></i> Lav en kopi
-  rel: nofollow noopener
-- image_path: /assets/images/freebies/andersen-sheet.png
-  url: https://docs.google.com/spreadsheets/d/1-X2FCa4TrjKbJivHk1LSAMjFquvGvWIONRexc97ifhM/copy?usp=sharing
-  title: Beregn kondital fra Andersen Testen
-  excerpt: Her kan du hente et regneark, hvor du taster alle elevers resultater ind. Arket er kodet til at udregne elevernes
-    kondital.
-  btn_class: btn--success
-  btn_label: <i class='fas fa-file-excel'></i> Lav en kopi i Google Sheet
-  rel: nofollow noopener
+templates:
+  - id: "andersen_skema"
+    title: "Skema til Andersen Testen"
+    description: "Der printes et noteringsark til hver elev. Man krydser af for hver 20 meter der er løbet."
+    format: "Google Sheets / Excel"
+    type: "sheet"
+    btn_text: "📊 Lav en kopi"
+    url: "https://docs.google.com/spreadsheets/d/1DAZYECM3dNR-sH3zxzczyVFmYqHlWR8__MdUSmvqbIY/copy?usp=sharing"
+    image: "/assets/images/freebies/andersen-notering.png"
+
+  - id: "andersen_beregner_ark"
+    title: "Beregn kondital fra Andersen Testen"
+    description: "Her kan du hente et regneark, hvor du taster alle elevers resultater ind. Arket er kodet til at udregne elevernes kondital."
+    format: "Google Sheets / Excel"
+    type: "sheet"
+    btn_text: "📊 Åbn beregner"
+    url: "https://docs.google.com/spreadsheets/d/1-X2FCa4TrjKbJivHk1LSAMjFquvGvWIONRexc97ifhM/copy?usp=sharing"
+    image: "/assets/images/freebies/andersen-sheet.png"
 faq:
   - question: "Hvorfor får piger et lavere kondital end drenge ved samme distance?"
     answer: |
@@ -94,7 +96,7 @@ faq:
 
 **Andersen-testen** (også ofte kaldet *Andersens test* eller *Andersen løbetest*) er en populær [konditionstest](/kondition/tests/) for børn og unge. Testen er opbygget som et 10-minutters **15/15 intervalløb**, hvor man skiftevis løber i 15 sekunder og holder pause i 15 sekunder.
 
-Andersen testen bliver ofte brugt til at test af børns kondition. Det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/)., da den er nem at organisere på et 20-meters område (f.eks. bredden af en håndboldhal) og engagerer hele klassen på én gang.
+Andersen testen bliver ofte brugt til at test af børns kondition. Det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/)., da den er nem at organisere på et 20-meters område (fx bredden af en håndboldhal) og engagerer hele klassen på én gang.
 
 [<i class='fas fa-calculator'></i> Beregner](#calculator){: .btn .btn--success .btn--jump } [<i class='fas fa-paperclip'></i> Materialer](#materialer){: .btn .btn--success .btn--jump } [<i class='fas fa-clock'></i> Timer og musik](#timer){: .btn .btn--success .btn--jump }
 
@@ -139,7 +141,7 @@ Indtast deltagerens køn og samlede løbedistance i meter herunder for at beregn
 
 Skal du afvikle Andersen-testen med en klasse? Hent vores færdige skemaer og regneark:
 
-{% include feature_row type="right" %}
+{% include motionsplan/templates.html %}
 
 ## Interaktiv timer og lydspor til Andersen-testen
 {: id="timer" }

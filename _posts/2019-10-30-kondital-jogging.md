@@ -102,7 +102,7 @@ Når du har lavet testen, så kan du bruge beregneren lidt længere nede på sid
 
 ## Sådan udfører du 1,6 km begynder-testen
 
-Alt du skal bruge er en opmålt rute (f.eks. en 400 meter løbebane), et stopur og et pulsur eller pulsbælte.
+Alt du skal bruge er en opmålt rute (fx en 400 meter løbebane), et stopur og et pulsur eller pulsbælte.
 
 1. **Opvarmning:** Gå eller jog let i 5–10 minutter.
 2. **Tempo:** Løb i et roligt og behageligt joggetempo. Mænd bør bruge over 8 minutter, og kvinder over 9 minutter på distancen.

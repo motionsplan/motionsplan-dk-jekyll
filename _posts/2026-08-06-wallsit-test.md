@@ -105,10 +105,10 @@ Nedenstående tabeller viser de vejledende tider (i sekunder) for mænd og kvind
 
 ## Anvendelse og fysiologisk effekt
 
-Selvom Wall Sit ikke måler maksimal dynamisk styrke som f.eks. et tungt [squat](/squat/), har statisk træning sine egne unikke fordele:
+Selvom Wall Sit ikke måler maksimal dynamisk styrke som fx et tungt [squat](/squat/), har statisk træning sine egne unikke fordele:
 
 * **Forberedelse til skisport:** Isometrisk lårstyrke er afgørende i alpin skisport, hvor benene arbejder under konstant spænding ned ad pisten.
-* **Knæstabilitet:** Isometriske vægsidninger anvendes hyppigt i fysioterapi og genoptræning ved knæproblemer (f.eks. patellofemoral smertesyndrom), da øvelsen belaster muskulaturen uden at skabe stød eller slid i leddet.
+* **Knæstabilitet:** Isometriske vægsidninger anvendes hyppigt i fysioterapi og genoptræning ved knæproblemer (fx patellofemoral smertesyndrom), da øvelsen belaster muskulaturen uden at skabe stød eller slid i leddet.
 * **Blodtrykseffekt:** Forskning i *British Journal of Sports Medicine* har vist, at regelmæssig isometrisk vægsidning (Isometric Wall Squat) kan være en af de mest effektive øvelsesformer til at reducere hvileblodtrykket.
 
 ---

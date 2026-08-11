@@ -45,7 +45,7 @@ Hoftens muskulatur er kompleks og kan deles op i grupper baseret på deres prim�
 1.  **Hoftebøjerne:** Her er den vigtigste [Iliopsoas](/iliopsoas/), som er den dybe muskel, der forbinder rygsøjlen med lårbenet.
 2.  **Sædemusklerne (Ballerne):** Består af den store [Gluteus Maximus](/gluteus-maximus/) samt de vigtige stabilisatorer [Gluteus Medius](/gluteus-medius/) og [Minimus](/gluteus-minimus/).
 3.  **Indadførere (Adduktorerne):** En gruppe på indersiden af låret (bl.a. [Adductor Magnus](/adductor-magnus/)), der samler benene.
-4.  **De dybe udadrotatorer:** Små muskler som f.eks. piriformis, der ligger dybt i ballen og styrer rotationen i ledet.
+4.  **De dybe udadrotatorer:** Små muskler som fx piriformis, der ligger dybt i ballen og styrer rotationen i ledet.
 
 I denne oversigt kigger vi på de muskler, der har deres primære fæstne omkring hofteleddet og bækkenet.
 

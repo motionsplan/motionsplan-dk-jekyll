@@ -25,15 +25,15 @@ faq:
   answer: 'Du opdeler bevægelsen i faser (fx tilløb, afsæt, afvikling), identificerer de aktive led og bevægelser (fx fleksion/ekstension), bestemmer de arbejdende primære og sekundære muskler samt vurderer muskelarbejdet (koncentrisk, excentrisk eller isometrisk).'
 - question: Hvad er forskellen på koncentrisk og excentrisk muskelarbejde?
   answer: 'Koncentrisk muskelarbejde sker, når musklen forkortes under sammentrækning (fx når du presser vægten op i squat). Excentrisk muskelarbejde sker, når musklen forlænges under belastning og bremser en bevægelse (fx når du sænker dig kontrollere i squat).'
-feature_row:
-- url: https://docs.google.com/document/d/1heeWvmkSrBSMibkkISQ0kLMSZmSYw_v8pJjk7cwXUZo/copy?usp=sharing
-  image_path: /assets/images/blog/movement-analysis.png
-  title: Skema til bevægelsesanalyse
-  alt: Skema til bevægelsesanalyse
-  excerpt: Download et skema i Google Docs som du kan bruge til at lave din bevægelsesanalyse.
-  btn_label: <i class='fab fa-google-drive'></i> Download skema
-  btn_class: btn--success
-  rel: nofollow noopener
+templates:
+  - id: "bevaegelsesanalyse_skema"
+    title: "Skema til bevægelsesanalyse"
+    description: "Download et skema i Google Docs som du kan bruge til at lave din bevægelsesanalyse."
+    format: "Google Docs"
+    type: "doc"
+    btn_text: "📝 Download skema"
+    url: "https://docs.google.com/document/d/1heeWvmkSrBSMibkkISQ0kLMSZmSYw_v8pJjk7cwXUZo/copy?usp=sharing"
+    image: "/assets/images/blog/movement-analysis.png"
 ---
 
 Når du [underviser i træning](/fitnessinstruktoer/) eller selv træner, så er det en god ide at lave en bevægelsesanalyse. En bevægelsesanalyse er med til at sikre, at du træner de muskler, du gerne vil træne - og bevægelsesanalysen giver dig også et godt udgangspunkt for at give feedback på bevægelser.
@@ -86,7 +86,7 @@ Er det en enkeltledsøvelse eller flerledsøvelse? Hvilke bevægelser foregår d
 
 Når du skal beskrive de arbejdende muskler, skal du identificere den primære bevæger (_prime mover_ / agonist) og den sekundære medhjælpende muskel (synergist). De muskler, der udfører den modsatte bevægelse af agonisten, kaldes for antagonister.
 
-{% include feature_row type="left" %}
+{% include motionsplan/templates.html id="bevaegelsesanalyse_skema" %}
 
 ---
 
@@ -101,7 +101,7 @@ For at illustrere, hvordan en bevægelsesanalyse opstilles i praksis, kan du se 
 | **Ankelled** | Plantarfleksion | Sagittalt plan | *m. gastrocnemius* | *m. soleus* | Koncentrisk |
 | **Ryg/Core** | Stabilisering | Sagittalt/Transversalt | *m. erector spinae* | *m. rectus abdominis* | Statisk (Isometrisk) |
 
-> **Bemærk i idræt:** Ved mere sammensatte bevægelser som f.eks. et **smash i volleyball** eller et **spydkast** opdeler man analysen i 3 faser: *Tilløb/Opbygning*, *Afsæt/Afvikling (eksplosiv fase)* og *Landning/Opfølgning*.
+> **Bemærk i idræt:** Ved mere sammensatte bevægelser som fx et **smash i volleyball** eller et **spydkast** opdeler man analysen i 3 faser: *Tilløb/Opbygning*, *Afsæt/Afvikling (eksplosiv fase)* og *Landning/Opfølgning*.
 
 ---
 

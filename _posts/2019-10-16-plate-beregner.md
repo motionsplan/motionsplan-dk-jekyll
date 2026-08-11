@@ -35,7 +35,7 @@ At holde styr på vægtskiverne virker simpelt på papiret, men i praksis opstå
 
 * **Spar mental energi:** Når du kører tunge sæt tæt på din [1RM (One Rep Max)](/rm-beregner/), har hjernen brug for ro til at fokusere på teknik og spænding frem for hovedregning.
 * **Undgå skæv belastning:** En klassisk fejl i fitnesscentret er at glemme en lille 2,5 kg eller 1,25 kg skive på den ene side. Det skaber en ubalance i løftet, som kan øge risikoen for skader i skuldre, lænd eller hofter.
-* **Hurtig opvarmningsskift:** Når du følger strukturerede [styrketræningsprogrammer](/styrketraeningsprogrammer/) med faste procenter (f.eks. [Wendler 5/3/1](/wendler-531-styrketraeningsprogram/) eller [Sheiko](/sheiko/)), skal du skifte vægt efter næsten hvert sæt. Beregneren giver dig den præcise kombination med det samme.
+* **Hurtig opvarmningsskift:** Når du følger strukturerede [styrketræningsprogrammer](/styrketraeningsprogrammer/) med faste procenter (fx [Wendler 5/3/1](/wendler-531-styrketraeningsprogram/) eller [Sheiko](/sheiko/)), skal du skifte vægt efter næsten hvert sæt. Beregneren giver dig den præcise kombination med det samme.
 
 ---
 

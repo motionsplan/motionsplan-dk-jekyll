@@ -423,7 +423,7 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
     row.className = 'mp-bmr-builder-row';
     row.innerHTML = `
       <div style="flex: 2; min-width: 140px;">
-        <input type="text" list="mp-bmr-met-datalist" class="mp-bmr-builder-input js-bmr-row-name" placeholder="Søg aktivitet (f.eks. fodbold)..." value="${name}" style="width: 100%;" autocomplete="off">
+        <input type="text" list="mp-bmr-met-datalist" class="mp-bmr-builder-input js-bmr-row-name" placeholder="Søg aktivitet (fx fodbold)..." value="${name}" style="width: 100%;" autocomplete="off">
       </div>
       <div style="width: 75px;">
         <input type="number" step="0.1" class="mp-bmr-builder-input js-bmr-row-met" value="${met}" style="width: 100%; text-align: center;">

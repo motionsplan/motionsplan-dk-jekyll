@@ -90,14 +90,15 @@ feature_row_needed:
   excerpt: '**Badevægt**<br>Med en badevægt kan du følge din vægtudvikling over tid. Vægtændringer over 14 dage viser, om du reelt rammer dit ligevægtsindtag.'
 - title: 📲
   excerpt: '**Kalorie-app**<br>Brug en app til nemt at indtaste din vejede mad. [Se vores overblik over kalorietæller-apps](/kalorietaeller-apps/).'
-feature_row_schedule:
-- image_path: /assets/images/pal-schedule.png
-  url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
-  title: Skema til 24-timers aktivitetsregistrering
-  excerpt: Du kan udskrive eller kopiere dette skema og udfylde det for en typisk dag. Når du har udregnet timerne i de enkelte kategorier, kan du indtaste værdierne i beregneren.
-  btn_label: <i class='fas fa-file-alt'></i> Åbn registreringsskema
-  btn_class: btn--info
-  rel: nofollow noopener
+templates:
+  - id: "pal_aktivitetsregistrering_skema"
+    title: "Skema til 24-timers aktivitetsregistrering"
+    description: "Du kan udskrive eller kopiere dette skema og udfylde det for en typisk dag. Når du har udregnet timerne i de enkelte kategorier, kan du indtaste værdierne i beregneren."
+    format: "Google Docs"
+    type: "doc"
+    btn_text: "📝 Åbn registreringsskema"
+    url: "https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing"
+    image: "/assets/images/pal-schedule.png"
 ---
 
 Vil du kende dit præcise **ligevægtsindtag** – altså det antal kalorier, du skal spise om dagen for at holde vægten stabil, tabe dig eller opbygge muskelmasse?
@@ -202,7 +203,7 @@ Udregningen bygger på [Gerrior et al. (2006)](https://www.ncbi.nlm.nih.gov/pmc/
 
 For at gøre tidsregistreringen nem kan du hente vores skema:
 
-{% include feature_row id="feature_row_schedule" type="left" %}
+{% include motionsplan/templates.html id="pal_aktivitetsregistrering_skema" %}
 
 I beregneren indtaster du det samlede antal timer for hver kategori, så summen giver 24 timer. Beregneren vægter derefter aktiviteterne mod dine MET-værdier for at finde din nøjagtige daglige PAL-faktor.
 

@@ -66,7 +66,7 @@ Når du løber udendørs, møder din krop tre modstandskræfter, som ikke eksist
 ### 1% Myten: Sandheden om hældningsjustering
 Det klassiske studie af *Jones & Doust (1996)* påviste, at du ved at indstille løbebåndet til **1% hældning** ($1^\circ$ stigning) kompenserer nøjagtigt for den manglende vindmodstand ved hastigheder over 10 km/t (pace 6:00 min/km).
 
-Løber du langsommere end 10 km/t, er vindmodstanden udendørs så minimal, at $0\%$ hældning svarer ret præcist til udendørs løb. Løber du derimod stærkt (f.eks. over 15 km/t), kan en hældning på 1,5% til 2% være nødvendig for at matche det fysiologiske iltforbrug ($VO_2$) ved udendørs løb.
+Løber du langsommere end 10 km/t, er vindmodstanden udendørs så minimal, at $0\%$ hældning svarer ret præcist til udendørs løb. Løber du derimod stærkt (fx over 15 km/t), kan en hældning på 1,5% til 2% være nødvendig for at matche det fysiologiske iltforbrug ($VO_2$) ved udendørs løb.
 
 ---
 

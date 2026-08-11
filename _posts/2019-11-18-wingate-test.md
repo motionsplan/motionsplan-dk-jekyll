@@ -49,13 +49,15 @@ flashcards:
     answer: "30 sekunder"
   - question: "Hvad tester Wingate-testen?"
     answer: "Din anaerobe kapacitet og power"
-feature_row:
-  - image_path: /assets/images/freebies/wingate-test-results.png
-    url: https://docs.google.com/spreadsheets/d/1ctYGHBrRaoM7kcm1A-ArWg9pa0NfZVXLJzj18SFGhkE/copy#gid=499201424
-    title: Resultatark til Wingate Test
-    excerpt: Her er et resultatark i Google Sheets, hvis du laver øvelser med Wingate-testen. På arket kan du registrere en test.
-    btn_class: btn--success
-    btn_label: Få Google Sheets
+templates:
+  - id: "wingate_test_resultatark"
+    title: "Resultatark til Wingate Test"
+    description: "Her er et resultatark i Google Sheets, hvis du laver øvelser med Wingate-testen. På arket kan du registrere en test."
+    format: "Google Sheets / Excel"
+    type: "sheet"
+    btn_text: "📊 Få Google Sheets"
+    url: "https://docs.google.com/spreadsheets/d/1ctYGHBrRaoM7kcm1A-ArWg9pa0NfZVXLJzj18SFGhkE/copy#gid=499201424"
+    image: "/assets/images/freebies/wingate-test-results.png"
 faq:
 - question: Hvad er en Wingate test?
   answer: 'En Wingate test (Wingate Anaerobic Test) er en 30-sekunders maksimal cykeltest (all-out sprint), der måler en persons anaerobe power (Peak Power Output) og anaerobe kapacitet.'
@@ -152,7 +154,7 @@ Du kan også bruge Wingate-testen som [anaerob træning](/wingate/). Du kan fx k
 
 ## Resultatark til Wingate test
 
-{% include feature_row type="left" %}
+{% include motionsplan/templates.html id="wingate_test_resultatark" %}
 
 ## Konklusion
 

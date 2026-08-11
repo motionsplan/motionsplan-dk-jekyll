@@ -53,7 +53,7 @@ Vil du have styr på frugtsukkeret og energiindholdet, kan du bruge denne opdeli
   * Vindruer (67 kcal)
   * Banan (88 kcal)
   * Avocado (160 kcal – pga. sunde fedtsyre)
-  * Tørret frugt (f.eks. dadler med 309 kcal og rosiner med 300 kcal)
+  * Tørret frugt (fx dadler med 309 kcal og rosiner med 300 kcal)
 
 👉 *Vil du sammenligne frugt med andre fødevarer? Se vores [samlede kalorietabel over mad](/kalorietabellen/), eller tjek vores specifikke tabeller for [grøntsager](/kalorietabel-groentsager/), [brød](/kalorietabel-broed/) og [kød](/kalorietabel-koed/).*
 

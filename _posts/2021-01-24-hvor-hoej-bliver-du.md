@@ -226,5 +226,5 @@ For trænere, idrætslærere og forældre til unge idrætsudøvere er det afgør
 ## 🔗 Relaterede beregnere og artikler
 
 * 📊 [Hvad er gennemsnitshøjden for mænd og kvinder i Danmark?](/hvad-er-gennemsnitshoejden-i-danmark/)
-* 📏 [Forstå BMI for børn og unge (BMI-for-alder / iso-BMI)](/bmi-boern/)
+* 📏 [Forstå BMI for børn og unge (BMI-for-alder / iso-BMI)](/bmi-beregner-boern-unge-teenagere/)
 * 🧪 [Komplet Fysiologisk Kropsanalyse Dashboard](/kropsanalyse/)

@@ -894,7 +894,7 @@ Nu kan du enten kaste dig ud i at lave dit eget træningsprogram, eller du kan s
 Når du analyserer et træningsprograms samlede arbejdsbyrde og hårdhed på papiret, kan du benytte to faglige måleenheder:
 
 * **INOL (Intensity + Number of Lifts):** [INOL er en formel til at udregne det samlede træningsstimuli](/inol/) for den enkelte øvelse ud fra procent af 1RM og antal repetitioner. Det gør det nemmere at vurdere programmets samlede belastning uden at skulle igennem hele programmet først.
-* **Prilepins Tabel:** [Prilepins tabel](/prilepins-tabel/) er oprindeligt udviklet til vægtløftning og opstiller det optimale antal samlede sæt og repetitioner ved specifikke intensitetsprocenter (f.eks. 70%, 80% eller 90% af 1RM). Tabellen giver et glimrende udgangspunkt for at dosere volumen i tunge basisløft.
+* **Prilepins Tabel:** [Prilepins tabel](/prilepins-tabel/) er oprindeligt udviklet til vægtløftning og opstiller det optimale antal samlede sæt og repetitioner ved specifikke intensitetsprocenter (fx 70%, 80% eller 90% af 1RM). Tabellen giver et glimrende udgangspunkt for at dosere volumen i tunge basisløft.
 
 ## Ofte stillede spørgsmål
 

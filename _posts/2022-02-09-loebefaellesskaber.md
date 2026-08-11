@@ -39,7 +39,7 @@ Når du leder efter nogen at løbe med, skelnes der overordnet mellem to typer a
 | Parameter | Tradidionel Løbeklub | Socialt Løbefællesskab |
 | :--- | :--- | :--- |
 | **Organisering** | Forening med bestyrelse og kontingent | Uformelt, ofte gratis og styret via Instagram/Facebook |
-| **Træningsfokus** | Struktureret intervaltræning, fart og teknik | Socialt tempo, gadeløb, hygge og fælles mål (f.eks. Royal Run) |
+| **Træningsfokus** | Struktureret intervaltræning, fart og teknik | Socialt tempo, gadeløb, hygge og fælles mål (fx Royal Run) |
 | **Mødested** | Klubhus eller atletikstadion | Kaffebarer, pladser i midtbyen eller parker |
 
 ---
@@ -51,7 +51,7 @@ Runners DK er et gratis landsdækkende løbefællesskab med fokus på social hyg
 👉 [Besøg Runners DK](https://runnersdk.dk/faellesskab/loeb/){: .btn .btn--success rel="noopener nofollow" }
 
 ### 2. Royal Runners
-Royal Runners er uformelle løbefællesskaber oprettet i forbindelse med Royal Run. De mødes regelmæssigt i byer over hele landet (f.eks. Aalborg, Frederiksberg, Hjørring, Sønderborg, Viborg m.fl.) for at træne op i fællesskab.
+Royal Runners er uformelle løbefællesskaber oprettet i forbindelse med Royal Run. De mødes regelmæssigt i byer over hele landet (fx Aalborg, Frederiksberg, Hjørring, Sønderborg, Viborg m.fl.) for at træne op i fællesskab.
 👉 [Find Royal Runners på kort](https://www.royalrun.dk/traen-med-os){: .btn .btn--success rel="noopener nofollow" }
 
 ### 3. Parkrun Danmark

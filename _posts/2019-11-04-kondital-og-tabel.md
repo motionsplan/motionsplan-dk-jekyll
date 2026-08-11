@@ -39,15 +39,15 @@ feature_row:
   btn_label: Se bogen
   btn_class: btn--success
 language: da
-feature_row_kondital:
-- image_path: /assets/images/freebies/kondital.png
-  alt: Tabel og skema over kondital
-  title: Tabel over kondital til udskrivning
-  excerpt: Skemaet og tabellen over kondital kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet i Google Docs.
-  url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
-  btn_label: <i class='fas fa-file-alt'></i> Se tabel over kondital
-  btn_class: btn--success
-  rel: nofollow noopener
+templates:
+  - id: "kondital_tabel_doc"
+    title: "Tabel over kondital til udskrivning"
+    description: "Skemaet og tabellen over kondital kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet i Google Docs."
+    format: "Google Docs"
+    type: "doc"
+    btn_text: "📝 Se tabel over kondital"
+    url: "https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing"
+    image: "/assets/images/freebies/kondital.png"
 gallery_world_fitnesslevel:
 - image_path: /assets/images/blog/worldfitnesslevel-www.jpg
   url: https://www.worldfitnesslevel.org/
@@ -141,7 +141,7 @@ Du kan se de præcise værdier for alle aldersgrupper i tabellerne nedenunder.
 
 Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge af [Morten Zacho](https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
 
-{% include feature_row id="feature_row_kondital" type="left" %}
+{% include motionsplan/templates.html id="kondital_tabel_doc" %}
 
 ## Hvad betyder tallene i praksis?
 

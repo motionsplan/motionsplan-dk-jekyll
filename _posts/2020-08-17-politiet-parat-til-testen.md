@@ -58,7 +58,7 @@ Opvarmningen varer ca. 15 minutter og indeholder både løb, hop og styrkeøvels
 * **Træningsfokus:** Arbejd med din acceleration, kropskontrol og vendinger omkring kegler. Træn korte sprintøvelser og væn dig til stående start med hænder og knæ i gulvet.
 
 ### 3. Længdespring
-* **Træningsfokus:** Eksplosiv underkropsstyrke og afsætsteknik. Kombiner tunge squats med plyometrisk træning (f.eks. jump squats og horisontale hop).
+* **Træningsfokus:** Eksplosiv underkropsstyrke og afsætsteknik. Kombiner tunge squats med plyometrisk træning (fx jump squats og horisontale hop).
 * 📖 [Guide: Læs mere om træning til længdespringstesten](/broadjump/)
 
 ### 4. Kropshævninger (Pullups / Bodyrows)
@@ -71,7 +71,7 @@ Opvarmningen varer ca. 15 minutter og indeholder både løb, hop og styrkeøvels
 * **Tip:** Sørg for at træne med strikt teknik uden at lade stangen "bounce" på brystet, da det giver underkendte gentagelser.
 
 ### 6. 2400-meter løbetest
-* **Træningsfokus:** 2400-meter testen kræver en veludviklet aerob motor. Kombiner lange, rolige ture med intervaltræning (f.eks. 400m eller 800m intervaller i dit ønskede prøvetempo).
+* **Træningsfokus:** 2400-meter testen kræver en veludviklet aerob motor. Kombiner lange, rolige ture med intervaltræning (fx 400m eller 800m intervaller i dit ønskede prøvetempo).
 * 🧮 [Beregner: Test dit kondital på 2400-meter testen](/kondital-2400-meter/)
 
 ---
@@ -100,5 +100,5 @@ Vi har samlet strukturerede træningsprogrammer udarbejdet af erfarne underviser
 Ud over selvstændig træning benytter mange aspiranter sig af følgende forberedelsesmuligheder:
 
 * **Træningsvejledning:** Politiet udgiver deres egen [officielle træningsvejledning](https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/politiskolen/fysisk-proeveforloeb-vejledninger/traeningsvejledning-opdateret-161219-aa.pdf) med øvelsesforslag.
-* **Højskoleophold:** Et målrettet politiforberedende højskoleophold (f.eks. på [Vejle Idrætshøjskole](https://www.vih.dk/fag/politi)) giver dig adgang til fagkyndig sparring, testfaciliteter og fællestræning.
+* **Højskoleophold:** Et målrettet politiforberedende højskoleophold (fx på [Vejle Idrætshøjskole](https://www.vih.dk/fag/politi)) giver dig adgang til fagkyndig sparring, testfaciliteter og fællestræning.
 * **Podcast & Personlig træner:** Hør mere om, hvordan du forbereder dig til prøven, i denne podcast-episode om [Politiets optagelsesprøve på StyrkMig.dk](https://styrkmig.dk/ep-134-politiets-optagelsesprove-sadan-bestar-du-den-fysiske-del/).

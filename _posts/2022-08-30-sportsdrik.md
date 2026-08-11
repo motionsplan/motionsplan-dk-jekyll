@@ -21,7 +21,7 @@ faq:
 - question: Hvordan laver man sin egen hjemmelavede energidrik?
   answer: 'En helt enkel hjemmelavet energidrik består af 1 liter vand, 25-30 g sukker, 2 g salt og lidt citronsaft for smag. Skal den optimeres til cykling eller udholdenhedssport, kan du bruge maltodextrin og druesukker.'
 - question: Hvad er en isotonisk sportsdrik?
-  answer: 'En isotonisk opløsning har en koncentration af opløste stoffer (f.eks. sukker og salte), der svarer til kroppens egne celler (ca. 6-8% sukkeropløsning). Det sikrer den hurtigste optagelse fra mavesækken til tarmen.'
+  answer: 'En isotonisk opløsning har en koncentration af opløste stoffer (fx sukker og salte), der svarer til kroppens egne celler (ca. 6-8% sukkeropløsning). Det sikrer den hurtigste optagelse fra mavesækken til tarmen.'
 - question: Hvad er elektrolytter, og hvorfor skal de i en sportsdrik?
   answer: 'Elektrolytter er elektrisk ladede mineraler (særligt natrium, kalium, klorid og magnesium), som du sveder ud under træning. De er nødvendige for at opretholde væskebalancen og forebygge kramper.'
 - question: Er en hjemmelavet energidrik god til cykling?
@@ -50,7 +50,7 @@ Men hvordan sammensætter man en fornuftig energidrik selv?
 
 Når du har dyrket motion, så har du brug for at få fyldt væskedepoterne op igen. Det gælder uanset hvor længe du motionerer.
 
-Hvis du arbejder hårdt over længere tid – f.eks. ved cykling, triatlon eller langdistanceløb – så kan det være nødvendigt at fylde kroppens væskedepoter op undervejs.
+Hvis du arbejder hårdt over længere tid – fx ved cykling, triatlon eller langdistanceløb – så kan det være nødvendigt at fylde kroppens væskedepoter op undervejs.
 
 En sportsdrik er altså især rigtig smart under aktiviteten, for den er let at drikke og optage.
 

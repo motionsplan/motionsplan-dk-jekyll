@@ -25,7 +25,7 @@ faq:
 - question: Hvad er forskellen på MEV og MV?
   answer: MV (Maintenance Volume) er den volumen, der skal til for at *vedligeholde* din nuværende muskelmasse (ofte blot 2-4 sæt om ugen). MEV er volumen, der skal til for at skabe *ny* vækst.
 - question: Kan man bygge styrke med MEV?
-  answer: Ja, konceptet kaldes ofte Minimum Effective Dose (MED) inden for styrke. Forskning fra bl.a. Dr. Pak viser, at selv 1-3 tunge sæt (f.eks. single-reps ved 90% af 1RM) om ugen kan være nok til at opbygge eller vedligeholde maksimal styrke.
+  answer: Ja, konceptet kaldes ofte Minimum Effective Dose (MED) inden for styrke. Forskning fra bl.a. Dr. Pak viser, at selv 1-3 tunge sæt (fx single-reps ved 90% af 1RM) om ugen kan være nok til at opbygge eller vedligeholde maksimal styrke.
 ---
 
 I styrketræningsverdenen hersker der ofte en "mere er bedre"-kultur. Hvis 3 sæt er godt, må 6 sæt være dobbelt så godt. Men videnskaben viser et helt andet billede: Kroppen reagerer i virkeligheden ekstremt godt på den *mindst mulige dosis*, der skal til for at stimulere fremgang.
@@ -79,7 +79,7 @@ Mens MEV typisk handler om *muskelstørrelse* (hypertrofi), taler man i styrkel�
 
 Svaret er ja. Forskeren og styrkeløfteren **Dr. Patroklos Androulakis-Korakakis (kaldet Dr. Pak)** har forsket intenst i "Minimum Effective Dose" for $1\text{RM}$-styrke. Hans forskning viser, at styrke kan opbygges og vedligeholdes med endnu lavere volumen end muskelmasse, blot intensiteten (vægten på stangen) er høj nok.
 
-Faktisk kan blot 1 tungt sæt af 1-3 gentagelser pr. øvelse (f.eks. single reps ved 90 % af 1RM) 1-2 gange om ugen være nok til at opretholde elitestyrke!
+Faktisk kan blot 1 tungt sæt af 1-3 gentagelser pr. øvelse (fx single reps ved 90 % af 1RM) 1-2 gange om ugen være nok til at opretholde elitestyrke!
 
 {: .notice--info}
 ### 📊 Vil du se Dr. Paks konkrete MED-programmer?
@@ -92,9 +92,9 @@ Hvis du vil se de præcise, forskningsbaserede styrkeløftsprogrammer, som Dr. P
 For at omsætte teorien om MEV til virkelighed, skal du vælge øvelser, der giver mest "bang for the buck". Det dur ikke at spilde dine 6 ugentlige sæt på biceps curls og læg-hævninger.
 
 For at ramme kroppens samlede MEV på kortest mulig tid, skal du vælge store, sammensatte øvelser (flerledsøvelser):
-* En **presse-øvelse** (f.eks. bænkpres, armstrækninger, dips).
-* En **trække-øvelse** (f.eks. pullups, chinups, rows).
-* En **underkrops-øvelse** (f.eks. squat, front squat, dødløft).
+* En **presse-øvelse** (fx bænkpres, armstrækninger, dips).
+* En **trække-øvelse** (fx pullups, chinups, rows).
+* En **underkrops-øvelse** (fx squat, front squat, dødløft).
 
 Ved at sætte disse 3 øvelser sammen, rammer du hele kroppen lynhurtigt.
 

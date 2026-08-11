@@ -226,7 +226,7 @@ Fase 4 presser din iltoptagelse op med 2-minutters intervaller og bakkesprints, 
 | **Bakkesprints 95% af max** (50 meter) | 3x | 4x | 5x | *Fri* |
 
 > 🎯 **Efter uge 16:**  
-> Start næste uge med at løbe så langt du kan på 30 minutter (Test-tur). Nu har du et godt udgangspunkt for at gå videre med et program til dem, der allerede kan løbe uafbrudt i 30 minutter – f.eks. vores [12-ugers løbeprogram til 10 km](/loebeprogram-10km/)!
+> Start næste uge med at løbe så langt du kan på 30 minutter (Test-tur). Nu har du et godt udgangspunkt for at gå videre med et program til dem, der allerede kan løbe uafbrudt i 30 minutter – fx vores [12-ugers løbeprogram til 10 km](/loebeprogram-10km/)!
 
 ---
 

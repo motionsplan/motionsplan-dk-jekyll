@@ -490,7 +490,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
  
 
-  var stockMessageOrder4 ="Går alt efter planen, og har du bestilt inden dagens sidste pakkesending forlader lageret? Ja, så lander din pakke den næstkommende hverdag – ellers går der lige en dag ekstra." //f.eks. "Dag-til-dag levering" , "1-2 dages levering"
+  var stockMessageOrder4 ="Går alt efter planen, og har du bestilt inden dagens sidste pakkesending forlader lageret? Ja, så lander din pakke den næstkommende hverdag – ellers går der lige en dag ekstra." //fx "Dag-til-dag levering" , "1-2 dages levering"
   var errorMissingAnswer = 'Du mangler at svare';
   var errorMissingFields = 'Udfyld alle felter';
   var errorMissingEmail = 'Din e-mail ser forkert ud.';

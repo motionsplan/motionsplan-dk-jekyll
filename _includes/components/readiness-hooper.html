@@ -1,0 +1,123 @@
+{% assign calc_title = include.title | default: "🚦 Træningsparathed Beregner" %}
+{% assign data_id = include.calc_id | default: "readiness-calculator" %}
+
+<div class="mp-calc-card vbt-premium-card" id="mp-readiness-calculator-card" data-calculator="{{ data_id }}">
+  
+  <!-- HEADER -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0; font-size: 1.35rem; font-weight: 800; color: #0f172a;">{{ calc_title }}</h3>
+      <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: #64748b;">Mål din daglige Readiness ud fra Hooper Index & Hvilepuls</p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 38px; height: 38px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-readiness-container">
+    
+    <!-- HOOPER INDEX (SUBJEKTIV STATUS) -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 14px; margin-bottom: 1.25rem;">
+      <span style="font-size: 0.85rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 12px;">📊 Subjektiv Status (Hooper Index: 1 = Dårlig, 5 = Perfekt)</span>
+
+      <!-- SØVN -->
+      <div style="margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.78rem; font-weight: 700; color: #475569; margin-bottom: 4px;">
+          <span>😴 Søvnkvalitet & varighed:</span>
+          <span class="js-readiness-val-sleep" style="color: #2563eb; font-weight: 800;">4 / 5</span>
+        </div>
+        <input type="range" min="1" max="5" value="4" class="js-readiness-slider" data-field="sleep" style="width: 100%; cursor: pointer;">
+      </div>
+
+      <!-- ENERGI -->
+      <div style="margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.78rem; font-weight: 700; color: #475569; margin-bottom: 4px;">
+          <span>⚡ Energi & Friskhed:</span>
+          <span class="js-readiness-val-energy" style="color: #2563eb; font-weight: 800;">4 / 5</span>
+        </div>
+        <input type="range" min="1" max="5" value="4" class="js-readiness-slider" data-field="energy" style="width: 100%; cursor: pointer;">
+      </div>
+
+      <!-- MUSKELØMHED -->
+      <div style="margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.78rem; font-weight: 700; color: #475569; margin-bottom: 4px;">
+          <span>🦵 Muskelømhed (5 = ingen ømhed):</span>
+          <span class="js-readiness-val-soreness" style="color: #2563eb; font-weight: 800;">4 / 5</span>
+        </div>
+        <input type="range" min="1" max="5" value="4" class="js-readiness-slider" data-field="soreness" style="width: 100%; cursor: pointer;">
+      </div>
+
+      <!-- STRESS -->
+      <div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.78rem; font-weight: 700; color: #475569; margin-bottom: 4px;">
+          <span>🧠 Mentalt Overskud (5 = intet stress):</span>
+          <span class="js-readiness-val-stress" style="color: #2563eb; font-weight: 800;">4 / 5</span>
+        </div>
+        <input type="range" min="1" max="5" value="4" class="js-readiness-slider" data-field="stress" style="width: 100%; cursor: pointer;">
+      </div>
+    </div>
+
+    <!-- HVILEPULS SECTION -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 14px; margin-bottom: 1.25rem;">
+      <span style="font-size: 0.85rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 10px;">🫀 Hvilepuls Måling (Morgen)</span>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+        <div>
+          <label for="mp-readiness-rhr-norm" style="font-size: 0.75rem; font-weight: 700; color: #64748b; display: block; margin-bottom: 4px;">Normal Hvilepuls (bpm)</label>
+          <input type="number" id="mp-readiness-rhr-norm" class="js-readiness-input" data-field="rhrNorm" value="55" placeholder="55" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;">
+        </div>
+        <div>
+          <label for="mp-readiness-rhr-today" style="font-size: 0.75rem; font-weight: 700; color: #64748b; display: block; margin-bottom: 4px;">Hvilepuls i dag (bpm)</label>
+          <input type="number" id="mp-readiness-rhr-today" class="js-readiness-input" data-field="rhrToday" value="56" placeholder="56" style="width:100%; padding: 8px; border: 1.5px solid #2563eb; border-radius: 8px; font-weight: 800; text-align: center; box-sizing: border-box; background: #ffffff;">
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTAT-KORT -->
+    <div class="mp-results-container" style="margin-bottom: 1.25rem;">
+      <div style="display: grid; grid-template-columns: 1.3fr 1fr; gap: 12px;">
+        
+        <!-- HERO RESULTAT -->
+        <div class="js-readiness-hero-bg" style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); border-radius: 20px; padding: 20px; color: #ffffff; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 8px 20px rgba(16,185,129,0.2);">
+          <span style="font-size: 0.72rem; font-weight: 800; letter-spacing: 0.8px; opacity: 0.9; text-transform: uppercase;">PARATHED SCORE</span>
+          <div style="display: flex; align-items: baseline; justify-content: center; margin: 6px 0;">
+            <span class="js-readiness-score" style="font-size: 3.6rem; font-weight: 900; line-height: 1;">80</span>
+            <span style="font-size: 1.5rem; font-weight: 800; margin-left: 2px;">%</span>
+          </div>
+          <span class="js-readiness-badge" style="font-size: 0.78rem; font-weight: 800; background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 12px; backdrop-filter: blur(4px);">
+            🟢 Fuld Parathed
+          </span>
+          <span class="js-readiness-desc" style="font-size: 0.7rem; opacity: 0.9; margin-top: 6px; font-weight: 600;">
+            Klar til tung træning, intervaller og PR-forsøg!
+          </span>
+        </div>
+
+        <!-- SEKUNDÆRE BOKSE -->
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 10px 12px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+            <span style="font-size: 0.72rem; font-weight: 700; color: #64748b;">Subjektiv Wellness</span>
+            <span style="font-size: 1.2rem; font-weight: 900; color: #0f172a;"><span class="js-readiness-wellness">80</span>%</span>
+          </div>
+
+          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 10px 12px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+            <span style="font-size: 0.72rem; font-weight: 700; color: #64748b;">Puls-afvigelse</span>
+            <span style="font-size: 1.2rem; font-weight: 900; color: #0f172a;"><span class="js-readiness-rhr-diff">+1</span> <small style="font-size: 0.8rem; color: #64748b;">bpm</small></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div id="sf-actions" class="mp-action-group" style="display: flex; gap: 10px; margin-top: 1rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn" style="flex: 1; background: #2563eb; color: #fff; border: none; padding: 12px; border-radius: 12px; font-weight: 700; cursor: pointer;">
+        📸 Tag et billede / Gem resultat
+      </button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil" style="background: #f1f5f9; border: 1px solid #cbd5e1; padding: 0 16px; border-radius: 12px; cursor: pointer; font-size: 1.1rem;">
+        🗑️
+      </button>
+    </div>
+
+    <div style="text-align: center; margin-top: 1rem; font-size: 0.75rem; color: #94a3b8; font-weight: 600;">
+      &copy; motionsplan.dk
+    </div>
+
+  </div>
+</div>

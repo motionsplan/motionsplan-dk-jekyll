@@ -44,7 +44,7 @@ tools:
 
 > **Kort om Håndbold-agility-testen:** Håndbold-agility-testen er en specifik felt-test udviklet til at undersøge en atlets hurtighed, anaerobe effekt samt evne til at koordinere bevægelser og foretage effektive retningsskift i et håndboldspecifikt bevægelsesmønster.
 
-I moderne håndbold stilles der enorme krav til spillernes evne til hurtigt at accelerere, decelerere, flytte sig sidelæns og skifte retning på et lille areal foran målfeltet. Hvor klassiske agility-tests (som f.eks. *Illinois Agility Test*) benytter lange lineære løb med runding af kegler, efterligner **Håndbold-agility-testen** de korte, eksplosive mønstre, som forsvars- og angrebsspillere udfører omkring 6-meter linjen.
+I moderne håndbold stilles der enorme krav til spillernes evne til hurtigt at accelerere, decelerere, flytte sig sidelæns og skifte retning på et lille areal foran målfeltet. Hvor klassiske agility-tests (som fx *Illinois Agility Test*) benytter lange lineære løb med runding af kegler, efterligner **Håndbold-agility-testen** de korte, eksplosive mønstre, som forsvars- og angrebsspillere udfører omkring 6-meter linjen.
 
 ---
 
@@ -57,7 +57,7 @@ Håndbold-agility-testen måler atletens funktionelle agility og anaerobe effekt
 * **Anaerob effekt:** Evnen til at levere maksimal muskelkraft i korte, eksplosive sekvenser.
 
 ### Validitet
-Testen anses for at være en anerkendt og valid metode til måling af anaerob effekt og agility. Selvom den oprindeligt er udviklet til håndboldspillere med håndboldspecifikke bevægelser, kan testen med stor fordel anvendes på andre målgrupper og idrætsgrene, hvor lignende bevægelser omkring et felt forekommer (f.eks. basketball).
+Testen anses for at være en anerkendt og valid metode til måling af anaerob effekt og agility. Selvom den oprindeligt er udviklet til håndboldspillere med håndboldspecifikke bevægelser, kan testen med stor fordel anvendes på andre målgrupper og idrætsgrene, hvor lignende bevægelser omkring et felt forekommer (fx basketball).
 
 ---
 

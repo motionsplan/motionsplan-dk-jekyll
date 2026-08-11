@@ -25,7 +25,7 @@ faq:
 - question: Hvorfor syrer man til under anaerob træning?
   answer: Når du træner anaerobt laktacid, ophobes der brintioner og laktat i musklerne. Det er primært stigningen i brintioner og ubalancen i kalium, der gør musklerne trætte, mens laktat i sig selv fungerer som genanvendeligt brændstof.
 - question: Hvad er forskellen på anaerob kapacitet og anaerob effekt?
-  answer: Anaerob kapacitet er den samlede mængde energi, det anaerobe system kan levere over tid (f.eks. i et 400-meter løb). Anaerob effekt er musklernes evne til at frigive maksimal energi lynhurtigt (f.eks. i et 50-meter sprint).
+  answer: Anaerob kapacitet er den samlede mængde energi, det anaerobe system kan levere over tid (fx i et 400-meter løb). Anaerob effekt er musklernes evne til at frigive maksimal energi lynhurtigt (fx i et 50-meter sprint).
 ---
 
 Anaerob træning bør være en del af din træning. Det anaerobe system er en vigtig del af dit energisystem, og det skal også trænes. Jeg kigger på, hvad anaerob træning er, viser anaerobe øvelser og foreslår hvordan et anaerobt træningsprogram kan se ud.

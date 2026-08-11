@@ -20,7 +20,7 @@ category:
 last_modified_at: 2026-08-02T12:00:00Z
 faq:
   - question: Hvad er forskellen på statisk og dynamisk balance?
-    answer: Statisk balance handler om at holde tyngdepunktet i ro over understøttelsesfladen (f.eks. ved at stå stille på ét ben). Dynamisk balance handler om at opretholde balancen under bevægelse, rækkevidde eller landinger.
+    answer: Statisk balance handler om at holde tyngdepunktet i ro over understøttelsesfladen (fx ved at stå stille på ét ben). Dynamisk balance handler om at opretholde balancen under bevægelse, rækkevidde eller landinger.
   - question: Hvorfor tester fysioterapeuter ofte balancen med lukkede øjne?
     answer: Når du lukker øjnene, fjerner du synssansen som støtte. Det tvinger hjernen til udelukkende at stole på ledsansen (proprioceptionen) og det indre øre, hvilket hurtigt afslører skjulte ledbåndsskader eller neurologiske svagheder.
   - question: Hvor ofte bør jeg teste min balance?

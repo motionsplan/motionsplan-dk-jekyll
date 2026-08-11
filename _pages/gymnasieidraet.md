@@ -87,8 +87,8 @@ En af de mest almindelige udfordringer ved rapportskrivning i gymnasiet er evalu
 * **Reliabilitet (Pålidelighed):** Er testen reproducerbar? Hvis du udfører testen igen under nøjagtig samme betingelser, får du så samme resultat?
 
 ### 2. Kvantitative vs. Kvalitative data
-* **Kvantitative data:** Målbare tal (f.eks. pulselektrodedata, løbende sekunder, vægt i kg).
-* **Kvalitative data:** Beskrivende observationer (f.eks. oplevet udmattelse eller bevægelsesteknik).
+* **Kvantitative data:** Målbare tal (fx pulselektrodedata, løbende sekunder, vægt i kg).
+* **Kvalitative data:** Beskrivende observationer (fx oplevet udmattelse eller bevægelsesteknik).
 
 ### 3. Eksempler på typiske fejlkilder i din rapport:
 1. **Ydre omstændigheder:** Vind, regn eller dårligt underlag i hallen/banen.
@@ -99,7 +99,7 @@ En af de mest almindelige udfordringer ved rapportskrivning i gymnasiet er evalu
 
 ## 📋 5. Sådan sammensætter du et Træningsprojekt
 
-I mange moduler eller projektforløb (f.eks. AT/SOP eller forløb i Idræt B) skal I planlægge og udføre jeres eget træningsprogram over $4\text{--}8$ uger.
+I mange moduler eller projektforløb (fx AT/SOP eller forløb i Idræt B) skal I planlægge og udføre jeres eget træningsprogram over $4\text{--}8$ uger.
 
 ### Trin-for-trin guide til forløbet:
 1. **Målsætning:** Start med at opstille konkrete mål med **[SMART-modellen](/smart/)**.

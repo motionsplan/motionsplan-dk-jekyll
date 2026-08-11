@@ -21,12 +21,12 @@ faq:
   - question: "Hvordan beregnes ASR?"
     answer: "ASR beregnes med den simple formel: ASR = MSS - MAS (angivet i enten km/t eller m/s)."
   - question: "Hvorfor er % MAS uegnet til supramaximale intervaller?"
-    answer: "Traditionel styring ud fra procent af MAS (f.eks. 120% MAS) tager ikke højde for atletens maksimale sprinthastighed. To atleter med samme MAS kan have vidt forskellig MSS, hvilket betyder, at 120% MAS kan føles som moderat overskud for én atlet, men være umuligt at gennemføre for en anden."
+    answer: "Traditionel styring ud fra procent af MAS (fx 120% MAS) tager ikke højde for atletens maksimale sprinthastighed. To atleter med samme MAS kan have vidt forskellig MSS, hvilket betyder, at 120% MAS kan føles som moderat overskud for én atlet, men være umuligt at gennemføre for en anden."
 ---
 
 > **Hurtigt overblik:** **Anaerobic Speed Reserve (ASR)** – eller den anaerobe hastighedsreserve – er spændet mellem din **Maksimale Aerobe Hastighed (MAS)** og din **Maksimale Sprinthastighed (MSS)**. Ved at forstå ASR kan trænere og atleter tilpasse supramaximal intervaltræning (HIIT over 100% MAS) millimeterpræcist til den enkelte udøvers fysiologiske profil.
 
-I mange år har fysiologer og trænere doseret løbeintervaller som en fast procentdel af udøverens maksimale aerobe hastighed (f.eks. *"I dag skal I løbe 30/30-intervaller ved 120% af MAS"*). 
+I mange år har fysiologer og trænere doseret løbeintervaller som en fast procentdel af udøverens maksimale aerobe hastighed (fx *"I dag skal I løbe 30/30-intervaller ved 120% af MAS"*). 
 
 Problemet er blot, at to spillere med præcis samme MAS kan have vidt forskellig tophastighed. Det betyder, at den samme træningspas-opskrift kan skabe et optimalt fysiologisk stimulus for den ene spiller, mens den fuldstændig udtrætter eller underbelaster den anden.
 

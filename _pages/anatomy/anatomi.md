@@ -28,7 +28,7 @@ faq:
   - question: "Hvad er bevægeapparatets tre grundpiller?"
     answer: "Bevægeapparatet består af **knogler** (der afstiver og støtter), **led** (der muliggør bevægelse i bestemte plan) og **skeletmuskler** (der trækker i knoglerne via sener og skaber den aktive bevægelseskraft)."
   - question: "Hvad betyder anatomisk udgangsstilling?"
-    answer: "Den anatomiske udgangsstilling er kroppens standardiserede referenceposition: Oprejst stående stilling med ansigtet, håndfladerne og tæerne pegende lige fremad. Alle anatomiske retningsbeskrivelser (f.eks. *medial*, *lateral*, *proksimal*, *distal*) tager udgangspunkt i denne stilling."
+    answer: "Den anatomiske udgangsstilling er kroppens standardiserede referenceposition: Oprejst stående stilling med ansigtet, håndfladerne og tæerne pegende lige fremad. Alle anatomiske retningsbeskrivelser (fx *medial*, *lateral*, *proksimal*, *distal*) tager udgangspunkt i denne stilling."
 ---
 
 Anatomi er det fysiske fundament for at forstå menneskelig bevægelse. Når du kender kroppens opbygning, kan du udføre korrekt øvelsesteknik, tilrettelægge effektiv styrketræning og analysere bevægelser i idræt.
@@ -65,7 +65,7 @@ Skelettet består af knogler, der afstiver kroppen, beskytter de indre organer o
 
 <div class="notice--success" markdown="1">
 ### 🔧 2. Led, ledtyper og ledbevægelser
-Ledforbindelserne opdeles i ægte og uægte led samt forskellige ledtyper (f.eks. kugleled, hængselled og drejeled), som bestemmer, hvilke retninger et led kan bevæge sig i.
+Ledforbindelserne opdeles i ægte og uægte led samt forskellige ledtyper (fx kugleled, hængselled og drejeled), som bestemmer, hvilke retninger et led kan bevæge sig i.
 * **[Led, ledtyper og ledbevægelser 🔧](/led/)** – Gennemgang af leddenes mekanik.
 * **[Bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)** – Lær om fleksion, ekstension, abduktion og det sagittale, frontale og transversale plan.
 </div>
@@ -90,7 +90,7 @@ Skeletmusklerne er kroppens aktive del. De trækker sig sammen (kontraherer) og 
 
 En af de vigtigste praktiske grunde til at lære anatomi er at kunne lave en **bevægelsesanalyse** af en styrkeøvelse eller idrætsbevægelse. 
 
-Når du analyserer en øvelse (f.eks. et squat eller et bænkpres), gennemgår du følgende anatomiske trin:
+Når du analyserer en øvelse (fx et squat eller et bænkpres), gennemgår du følgende anatomiske trin:
 
 1. **Involverede led:** Hvilke led bevæger sig under øvelsen?
 2. **Bevægelsestyper:** Foregår der bøjning (fleksion), strækning (ekstension) eller rotation i leddet?
@@ -121,7 +121,7 @@ Vil du udforske de anatomiske strukturer i et interaktivt 3D-program, kan du ben
 <div class="notice--info" markdown="1">
 📚 **Studerer du anatomi eller fysiologi?**
 
-Hvis du leder efter anerkendte lærebøger i anatomi (f.eks. *Bevægeapparatets Anatomi*) eller detaljerede plancher til væggen, har vi samlet de bedste anbefalinger:
+Hvis du leder efter anerkendte lærebøger i anatomi (fx *Bevægeapparatets Anatomi*) eller detaljerede plancher til væggen, har vi samlet de bedste anbefalinger:
 
 👉 **[Se anbefalinger til anatomibøger og plakater her](/anatomi/udstyr-og-boeger/)**
 </div>

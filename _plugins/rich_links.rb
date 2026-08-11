@@ -29,11 +29,11 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
 
   # Regex forklaring:
   # - Matcher <a> tags med /oevelse/ eller /exercise/
-  # - Håndterer ekstra attributter (f.eks. class="...", id="...")
-  # - Håndterer HTML inde i linket (f.eks. <a><strong>Bænkpres</strong></a>)
+  # - Håndterer ekstra attributter (fx class="...", id="...")
+  # - Håndterer HTML inde i linket (fx <a><strong>Bænkpres</strong></a>)
   page.output.gsub!(/<a\s+([^>]*?\s+)?href="(\/(?:oevelse|exercise)\/[^"#?]+)(?:\/)?([^"#?]*)"([^>]*)>(.*?)<\/a>/im) do |match|
     before_href = Regexp.last_match(1) || ''
-    href_path   = Regexp.last_match(2) # f.eks. /oevelse/baenkpres
+    href_path   = Regexp.last_match(2) # fx /oevelse/baenkpres
     extra_params = Regexp.last_match(3) || '' # query params / ankre hvis nogen
     after_href  = Regexp.last_match(4) || ''
     content     = Regexp.last_match(5)

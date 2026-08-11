@@ -50,7 +50,7 @@ Hvor:
 * **$m$** er din kropsvægt i kilogram ($\text{kg}$).
 * **$\rho$** (rho) er kroppens gennemsnitlige massefylde i $\text{kg/m}^3$.
 
-Da $1 \text{ m}^3$ svarer til $1.000 \text{ liter}$, vil et menneskes rumfang målt i kubikmeter ofte være et lille kommatal (f.eks. $0,066 \text{ m}^3$), hvilket svarer direkte til $66 \text{ liter}$.
+Da $1 \text{ m}^3$ svarer til $1.000 \text{ liter}$, vil et menneskes rumfang målt i kubikmeter ofte være et lille kommatal (fx $0,066 \text{ m}^3$), hvilket svarer direkte til $66 \text{ liter}$.
 
 ---
 

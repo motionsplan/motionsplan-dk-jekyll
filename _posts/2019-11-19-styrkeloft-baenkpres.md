@@ -30,16 +30,6 @@ feature_row:
   credit: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
   alt: Dødløft - poserlifting og styrkeløft regler for dødløft
   excerpt: Dødløft
-feature_row_spreadsheet:
-- image_path: /assets/images/blog/spreadsheet-calculate-powerlifting-attempts.png
-  alt: Udregn dine forsøg
-  title: Udregn dine forsøg
-  excerpt: Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne.
-  url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
-  rel: nofollow noopener
-  btn_label: <i class='fas fa-file-excel'></i> Sheet med forslag til forsøg
-  btn_class: btn--success
-quiz:
 flashcards:
   - question: "Må hovedet løftes fra bænken i bænkpres?"
     answer: |

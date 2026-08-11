@@ -18,7 +18,7 @@ header:
 
 En **træningsmetode** er den konkrete praktiske fremgangsmåde og struktur, du benytter i en træningsenhed for at stimulere krop og fysiologi mod et bestemt mål.
 
-Hvor [træningsprincipperne](/traeningsprincipper/) udgør de overordnede videnskabelige spilleregler, og [træningslære](/traeningslaere/) forklarer kroppens fysiologi og samlede præstationsoptimering, er træningsmetoderne de konkrete værktøjer, du skruer på i hverdagen – f.eks. supersæt, intervaller, dropsæt eller tærskeltræning.
+Hvor [træningsprincipperne](/traeningsprincipper/) udgør de overordnede videnskabelige spilleregler, og [træningslære](/traeningslaere/) forklarer kroppens fysiologi og samlede præstationsoptimering, er træningsmetoderne de konkrete værktøjer, du skruer på i hverdagen – fx supersæt, intervaller, dropsæt eller tærskeltræning.
 
 <div class="notice--info" markdown="1">
 💡 **Sådan bruger du kataloget:**
@@ -107,7 +107,7 @@ Inden for [konditionstræning](/kondition/), [løb](/loebesiden/) og cykling opd
 
 Formålet med [aerob træning](/aerob-traening/) er at øge hjertets minutvolumen, kapillærtætheden og den [maksimale iltoptagelse (VO2 max)](/maksimale-iltoptagelse-vo2max/):
 * **10-20-30 metoden** – Populær og videnskabeligt valideret intervalform (30s jog, 20s moderat, 10s sprint).
-* **HIIT & VO2 max-intervaller** – Højintense intervaller (f.eks. 3–4 minutter ved +90% af maxpuls).
+* **HIIT & VO2 max-intervaller** – Højintense intervaller (fx 3–4 minutter ved +90% af maxpuls).
 * **Tærskeltræning (Threshold Method)** – Træning tæt på den [anaerobe tærskel](/anaerobe-taerskel/) for at øge udholdenheden.
 * **Billat-intervaller** – Præcist tidsstyrede intervaller baseret på din $v\text{VO}_2\text{max}$.
 * **Fartlek (Fartleg)** – Ustruktureret og lystbetonet tempovariation i terrænet.

@@ -127,7 +127,7 @@ Gør din træning mere varieret og effektiv ved at kombinere forskellige trænin
 * 💓 **[Pulstræning & Zoner](/pulstraening/)** – Styring af træningsintensitet ud fra din puls.
 * 🏃‍♀️ **[Løbeteknik og Løbestil](/loebeteknik/)** – Bliv en mere effektiv løber med bedre kropsholdning og kadence.
 * 🔋 **[Løbeøkonomi](/lobeokonomi/)** – Lær hvordan du bruger mindre energi ved samme løbetempo.
-* 🧠 **[Træningsfilosofier til løb](/traeningsfilosofier-loeb/)** – Oversigt over kendte systemer (f.eks. Daniels, Lydiard og polariseret træning).
+* 🧠 **[Træningsfilosofier til løb](/traeningsfilosofier-loeb/)** – Oversigt over kendte systemer (fx Daniels, Lydiard og polariseret træning).
 
 ---
 

@@ -21,7 +21,7 @@ breadcrumbs: true
 classes: wide
 faq:
   - question: "Hvad betyder fysiologi, og hvad er et fysiologisk respons?"
-    answer: "**Fysiologi** er læren om, hvordan levende organismer og deres organsystemer fungerer i hvile og under belastning. Et **fysiologisk respons** er kroppens naturlige, sunde biologiske reaktion på en påvirkning – f.eks. at pulsen stiger, når du løber, for at levere mere ilt til arbejderne muskler."
+    answer: "**Fysiologi** er læren om, hvordan levende organismer og deres organsystemer fungerer i hvile og under belastning. Et **fysiologisk respons** er kroppens naturlige, sunde biologiske reaktion på en påvirkning – fx at pulsen stiger, når du løber, for at levere mere ilt til arbejderne muskler."
   - question: "Hvad er den primære forskel på anatomi og fysiologi?"
     answer: "Kort fortalt beskriver **anatomi** kroppens fysiske opbygning og struktur (hvad delene hedder, og hvor de sidder), mens **fysiologi** beskriver kroppens funktion og dynamiske processer (hvordan delene arbejder sammen og omsætter energi)."
   - question: "Hvad er fysiologiske tilpasninger (adaptationer) til træning?"

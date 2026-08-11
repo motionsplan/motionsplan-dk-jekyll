@@ -72,16 +72,15 @@ tags:
 - populær
 popular: 'true'
 last_modified_at: '2026-07-20T10:14:14Z'
-feature_row:
-- image_path: /assets/images/freebies/cooper.png
-  alt: Tabel og skema over Cooper-test
-  title: Tabel over distancer til udskrivning
-  excerpt: Det modificerede skema og tabel over distancer på Cooper-testen kan udskrives herfra, så den er lige til at hænge
-    op på væggen. Tabellen er lavet i Google Docs.
-  url: https://docs.google.com/document/d/1Y0EJ0drxNTY2qZK2alV5kI6g6zUMnCiKRGL3XR7wElQ/copy?usp=sharing
-  btn_label: <i class='fas fa-file-alt'></i> Se tabel over Cooper-test
-  btn_class: btn--info
-  rel: nofollow noopener
+templates:
+  - id: "cooper_tabel_doc"
+    title: "Tabel over distancer til udskrivning"
+    description: "Det modificerede skema og tabel over distancer på Cooper-testen kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet i Google Docs."
+    format: "Google Docs"
+    type: "doc"
+    btn_text: "📝 Se tabel over Cooper-test"
+    url: "https://docs.google.com/document/d/1Y0EJ0drxNTY2qZK2alV5kI6g6zUMnCiKRGL3XR7wElQ/copy?usp=sharing"
+    image: "/assets/images/freebies/cooper.png"
 faq:
 - question: Hvordan beregner man Cooper test?
   answer: Du kan bruge distancen på løbetesten til at beregne dit kondital. Her på siden kan du finde formlen og en beregner
@@ -318,7 +317,7 @@ Alder|Meget lavt|Lavt|Middel|Højt|Meget højt
 
 Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brugte tabeller for kondital i Danmark.
 
-{% include feature_row type="left" %}
+{% include motionsplan/templates.html id="cooper_tabel_doc" %}
 
 ## Cooper-resultater for veltrænede voksne
 

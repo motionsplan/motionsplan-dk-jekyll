@@ -45,7 +45,7 @@ image: /assets/images/anatomy/teres-minor.png
 
 Teres Minor er en lille, men vigtig muskel, der udgør en fjerdedel af **rotator cuffen**. Selvom den ligger lige over [Teres Major](/teres-major/), er deres funktioner meget forskellige. Da Teres Minor hæfter på den bagerste del af overarmen, fungerer den som en kraftig udadrotator, hvilket er essentielt for skulderens sundhed og stabilitet.
 
-Hvis man har smerter på bagsiden af skulderen, er det ofte Teres Minor eller [Infraspinatus](/infraspinatus/), der er overbelastet, da de to muskler arbejder tæt sammen om at bremse armens bevægelse i f.eks. kastebevægelser.
+Hvis man har smerter på bagsiden af skulderen, er det ofte Teres Minor eller [Infraspinatus](/infraspinatus/), der er overbelastet, da de to muskler arbejder tæt sammen om at bremse armens bevægelse i fx kastebevægelser.
 
 ## Træning af {{ page.title }}
 

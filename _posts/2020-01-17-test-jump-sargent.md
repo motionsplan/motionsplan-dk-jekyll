@@ -31,7 +31,7 @@ faq:
   - question: Hvad skal man bruge for at lave en Sargent Jump Test?
     answer: Du skal blot bruge en bar væg, noget kridt eller kalk til fingrene og et målebånd. Testen er 100% gratis og kan laves overalt.
   - question: Er Sargent Jump Test en valid hoppetest?
-    answer: Ja, videnskabelige studier (f.eks. de Salles et al., 2012) har vist, at Sargent Jump Test er både reproducerbar og valid sammenlignet med målinger foretaget på avancerede kraftplatforme.
+    answer: Ja, videnskabelige studier (fx de Salles et al., 2012) har vist, at Sargent Jump Test er både reproducerbar og valid sammenlignet med målinger foretaget på avancerede kraftplatforme.
 meta:
   name: Sargent Jump Test
   measures: springstyrke og eksplosivitet
@@ -84,7 +84,7 @@ Testen er ekstremt populær i skoleidræt og breddeidræt, fordi den er **$100\%
 
 {% include figure image_path="/assets/images/blog/Vertical-Jump-Test-2.jpg" caption="Klassisk udførelse af Sargent Jump Test mod en væg." alt="Sargent Jump Test op ad væg" %}
 
-For at opnå det mest præcise resultat bør du benytte en standardiseret testprotokol (f.eks. Harman et al., 1991):
+For at opnå det mest præcise resultat bør du benytte en standardiseret testprotokol (fx Harman et al., 1991):
 
 ### De 5 trin i testen:
 

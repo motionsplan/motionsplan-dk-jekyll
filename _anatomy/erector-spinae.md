@@ -52,7 +52,7 @@ Sammen fungerer de som kroppens "barduner", der sikrer, at vi kan holde os oprej
 
 ## Funktionel betydning og rygsundhed
 
-Erector spinae er aktive næsten hele tiden, når vi står og går. Ved tunge løft, som f.eks. i dødløft, arbejder de ekstremt hårdt for at holde rygsøjlen stabil og neutral, så belastningen ikke overføres direkte til diskusskiverne.
+Erector spinae er aktive næsten hele tiden, når vi står og går. Ved tunge løft, som fx i dødløft, arbejder de ekstremt hårdt for at holde rygsøjlen stabil og neutral, så belastningen ikke overføres direkte til diskusskiverne.
 
 Mange oplever lænderygsmerter, fordi disse muskler bliver trætte eller overbelastede som følge af en svag kerne ([Rectus Abdominis](/rectus-abdominis/)) eller dårlig løfteteknik. Når mavemusklerne ikke støtter forfra, skal rygstrækkerne arbejde på overtid bagfra.
 

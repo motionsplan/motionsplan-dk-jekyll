@@ -90,7 +90,7 @@ En "runde" (eller 1 sæt) i Bronco Testen bestående af tre frem-og-tilbage løb
 * Testen bestående af i alt **5 runder uden pause** mellem runderne.
 * Total distance: $5 \times 240\text{ meter} = 1200\text{ meter}$.
 * Tiden startes ved første bevægelse fra startlinjen og stoppes, når atleten krydser 0-meter linjen efter den 5. og sidste runde.
-* Tiden noteres i minutter og sekunder (f.eks. 4:45).
+* Tiden noteres i minutter og sekunder (fx 4:45).
 
 ---
 
@@ -111,7 +111,7 @@ I rugby og fodbold er bagspillere og midtbanespillere typisk hurtigere end tunge
 
 | Niveau | Tid (Minutter:Sekunder) | Profil / Beskrivelse |
 |---|---|---|
-| **Verdensklasse (Elite Rugby Backs / All Blacks)** | < 4:20 – 4:30 min. | Ekstrem kondition og eksplosivitet (f.eks. Beauden Barrett: 4:12 min). |
+| **Verdensklasse (Elite Rugby Backs / All Blacks)** | < 4:20 – 4:30 min. | Ekstrem kondition og eksplosivitet (fx Beauden Barrett: 4:12 min). |
 | **Elite (Rugby Forwards / Eliteløbere)** | 4:30 – 4:50 min. | Professionelt niveau for tungere spillere eller elite-amatører. |
 | **Veltrænet (Holdidræt / 1. division)** | 4:50 – 5:20 min. | God konditionel grundform hos konkurrenceatleter. |
 | **Middel (Amatør/Motionist)** | 5:20 – 5:50 min. | Gennemsnitlig score for regelmæssigt aktive idrætsudøvere. |
@@ -141,7 +141,7 @@ Hvis du gennemfører Bronco Testen på **4 minutter og 48 sekunder** ($288\text{
 $$\text{MAS} = \frac{1200}{288} = 4,16\text{ m/s} \quad (15,0\text{ km/t})$$
 
 ### Sådan bruger du din MAS til intervaltræning
-Når du kender din MAS i $m/s$, kan du nemt tilrettelægge målsatte intervaller (f.eks. 15/15 eller 30/30 intervaller ved 100–105% af din MAS). Da Bronco Testen indeholder vendinger, tager den automatisk højde for den ekstra energimængde, der kræves til opbremsning og acceleration.
+Når du kender din MAS i $m/s$, kan du nemt tilrettelægge målsatte intervaller (fx 15/15 eller 30/30 intervaller ved 100–105% af din MAS). Da Bronco Testen indeholder vendinger, tager den automatisk højde for den ekstra energimængde, der kræves til opbremsning og acceleration.
 
 ---
 

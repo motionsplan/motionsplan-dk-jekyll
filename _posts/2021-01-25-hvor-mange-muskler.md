@@ -33,7 +33,7 @@ Leder du efter det hurtige svar på, hvor mange muskler vi har i kroppen, og om 
 > * **Køn:** Mænd og kvinder har anatomisk set nøjagtig det **samme antal** muskler.
 > * **Muskeltyper:** Kroppen har 3 muskeltyper; skeletmuskler (dem vi træner), glat muskulatur (i organerne) og hjertemusklen.
 
-Selvom mænd fra naturens side generelt har en større samlet muskelmasse, er selve *antallet* af skeletmuskler altså ens. Der findes dog enkelte kønsunikke undtagelser (som f.eks. livmoderen hos kvinder).
+Selvom mænd fra naturens side generelt har en større samlet muskelmasse, er selve *antallet* af skeletmuskler altså ens. Der findes dog enkelte kønsunikke undtagelser (som fx livmoderen hos kvinder).
 
 Det præcise samlede antal er dog overraskende svært at slå fast. Herunder får du hele forklaringen på hvorfor, og hvordan kroppens muskler egentlig fordeler sig.
 

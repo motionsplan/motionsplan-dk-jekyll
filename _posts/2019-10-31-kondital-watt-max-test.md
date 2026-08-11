@@ -107,7 +107,7 @@ Watt-max testen måler din **aerobe Watt-max (MPO)**.
 
 ## Sådan udfører du Watt-max testen
 
-Testen gennemføres på en ergometercykel (f.eks. Monark, Wattbike, Body Bike eller en hometrainer med præcis wattmåling).
+Testen gennemføres på en ergometercykel (fx Monark, Wattbike, Body Bike eller en hometrainer med præcis wattmåling).
 
 {% include video provider="youtube" id="UnSRNA-t3Ok" %}
 

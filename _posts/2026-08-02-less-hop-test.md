@@ -36,7 +36,7 @@ faq:
   - question: "Hvad betyder en høj score i LESS-testen?"
     answer: "I LESS-testen tæller man *fejl*. Det betyder, at en lavere score er bedre. En score over 5-6 fejl indikerer en uhensigtsmæssig landingsteknik, mens en score over 8 tildeler en høj risiko for korsbåndsskader (ACL)."
   - question: "Skal man optage testen på video?"
-    answer: "Ja, det anbefales stærkt. Bevægelsen ved landingen sker på under et halvt sekund. Ved at optage testen forfra og fra siden i slowmotion (f.eks. med en smartphone) kan du præcist score de 17 kriterier."
+    answer: "Ja, det anbefales stærkt. Bevægelsen ved landingen sker på under et halvt sekund. Ved at optage testen forfra og fra siden i slowmotion (fx med en smartphone) kan du præcist score de 17 kriterier."
   - question: "Kan man træne sig til en bedre LESS-score?"
     answer: "Ja! Målrettet neuromuskulær træning, hvor der fokuseres på at undgå knævalgus (knæ der falder indad), bøje mere i knæ og hofte i landingen samt styrke gluteus medius, kan markant sænke din LESS-score på få uger."
 ---

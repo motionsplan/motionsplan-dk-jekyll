@@ -52,7 +52,7 @@ Hvis du er ved at falde, har du brug for at flytte benet lynhurtigt frem for at 
 
 Sundhedsstyrelsen anbefaler, at voksne over 65 år er fysisk aktive i hverdagen og følger disse tre grundpiller:
 
-1. **Mindst 30 minutters** moderat til intensiv fysisk aktivitet om dagen (f.eks. [rask gang](/gang/), cykling eller havearbejde).
+1. **Mindst 30 minutters** moderat til intensiv fysisk aktivitet om dagen (fx [rask gang](/gang/), cykling eller havearbejde).
 2. **Styrke- og balancetræning mindst 2–3 gange om ugen** for at vedligeholde muskel- og knoglevæv samt forebygge fald.
 3. **Stræk- og smidighedsøvelser** for at bevare leddenes bevægelighed og fleksibilitet.
 
@@ -84,7 +84,7 @@ Jacob Beermann fra Maxer.dk interviewer **Charlotte Suetta** (overlæge, dr.med.
 
 ## 3 praktiske råd til opstart af styrketræning som ældre
 
-1. **Brug sammensatte basisøvelser:** Fokusér på funktionelle bevægelser, der ligner hverdagen – f.eks. [squat-variationer](/squat-dybt/) (rejse/sætte sig fra stol), [dødløft](/doedloeft-biomekanik/) (løfte genstande fra gulvet) og pres/træk for overkroppen.
+1. **Brug sammensatte basisøvelser:** Fokusér på funktionelle bevægelser, der ligner hverdagen – fx [squat-variationer](/squat-dybt/) (rejse/sætte sig fra stol), [dødløft](/doedloeft-biomekanik/) (løfte genstande fra gulvet) og pres/træk for overkroppen.
 2. **Tør at belaste tilstrækkeligt:** Let træning med 1 kg håndvægte er ikke altid nok til at stimulere knogler og stærke Type II-muskelfibre. Belastningen skal gerne føles moderat til hård (tilsvarende [RIR 1–3](/rpe/)), så de sidste gentagelser kræver reel indsats.
 3. **Prik til balancen hver dag:** Træn din [balance](/balance/) ved at stå på ét ben, mens du børster tænder, eller lav øvelser fra vores guide til [balancetræning](/balancetraening/).
 

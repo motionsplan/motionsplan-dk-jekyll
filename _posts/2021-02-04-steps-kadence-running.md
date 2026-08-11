@@ -81,7 +81,7 @@ Både skridtlængden og kadencen har selvfølgelig betydning for din hastighed. 
 
 Vil du kende din præcise løbekadence og træne din rytme? Med vores interaktive værktøj kan du enten **måle din nuværende kadence** (ved at tappe i takt på skærmen) eller **træne din skridtfrekvens** med den indbyggede metronom.
 
-Forskning viser, at en gradvis forøgelse af kadencen på blot 5% kan reducere stød-belastningen på knæ og hofter betragteligt. Brug metronomen herunder til at indstille dit måltempo (f.eks. klassiske 180 SPM) og hold rytmen under din træning.
+Forskning viser, at en gradvis forøgelse af kadencen på blot 5% kan reducere stød-belastningen på knæ og hofter betragteligt. Brug metronomen herunder til at indstille dit måltempo (fx klassiske 180 SPM) og hold rytmen under din træning.
 
 {% include components/running-cadence-widget.html %}
 

@@ -40,7 +40,7 @@ faq:
   - question: "Hvad er forskellen på VO2max og kondital?"
     answer: "VO2max måles typisk som absolut iltoptagelse i liter pr. minut (L/min). For at sammenligne dig retfærdigt med andre divideres iltoptagelsen med din kropsvægt. Resultatet opgives i ml/kg/min og kaldes for dit kondital."
   - question: "Hvordan forbedrer man sin VO2max?"
-    answer: "Du forbedrer din VO2max mest effektivt ved at træne ved høj intensitet i nærheden af din maksimale iltoptagelse (90-95% af din maxpuls), f.eks. via 4x4 minutter eller 15/15 sekunders intervaller, som stimulerer hjertets slagvolumen."
+    answer: "Du forbedrer din VO2max mest effektivt ved at træne ved høj intensitet i nærheden af din maksimale iltoptagelse (90-95% af din maxpuls), fx via 4x4 minutter eller 15/15 sekunders intervaller, som stimulerer hjertets slagvolumen."
   - question: "Hvilke parametre påvirker din VO2max?"
     answer: "Din VO2max påvirkes primært af genetik, alder, køn, træningstilstand og højden over havets overflade. Mænd har i gennemsnit en højere VO2max end kvinder, og iltoptagelsen falder naturligt med alderen, hvis den ikke vedligeholdes."
   - question: "Hvordan måler man sin VO2max?"

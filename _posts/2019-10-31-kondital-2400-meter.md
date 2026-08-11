@@ -145,7 +145,7 @@ Skal du op til Politiets fysiske optagelsesprøve, gælder følgende specifikke 
 {% include video provider="youtube" id="YldNonx193c" %}
 
 1. **Opvarmning:** Udfør 10-15 minutters let jog efterfulgt af et par korte stigningsløb og dynamiske strækøvelser.
-2. **Start:** Testen startes fra stående start på en opmålt løbebane (f.eks. 6 runder på en standard 400-meter bane) eller en helt flad, udmålt strækning.
+2. **Start:** Testen startes fra stående start på en opmålt løbebane (fx 6 runder på en standard 400-meter bane) eller en helt flad, udmålt strækning.
 3. **Pacing:** Læg ud i et jævnt og realistisk tempo. Løber du for hurtigt på de første 800 meter, ophober du mælkesyre for tidligt.
 4. **Måltagning:** Stop uret nøjagtigt, idet du passerer 2400-meter mærket, og indtast din tid i beregneren ovenfor.
 

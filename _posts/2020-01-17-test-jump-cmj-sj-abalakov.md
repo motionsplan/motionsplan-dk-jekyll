@@ -184,7 +184,7 @@ Vertikale hop kan registreres på flere måder afhængigt af dit budget og udsty
 
 <div class="notice--info" markdown="1">
 ### 📏 Test af funktionel række- og hoppehøjde
-Måler du din hoppehøjde ved at række op mod et mål (f.eks. i basketball eller volleyball) frem for svævetid på en måtte? 
+Måler du din hoppehøjde ved at række op mod et mål (fx i basketball eller volleyball) frem for svævetid på en måtte? 
 * **[Jump & Reach Test](/jump-reach/)** – Måling af funktionel hoppehøjde med et Vertec-apparat eller på basketplade.
 * **[Sargent Jump Test](/sargent-jump-test/)** – Den klassiske, gratis lavpraktiske version, hvor du måler forskellen på væggen med kridt på fingrene.
 </div>
@@ -193,7 +193,7 @@ Måler du din hoppehøjde ved at række op mod et mål (f.eks. i basketball elle
 
 ## 🧮 Beregn din hoppehøjde fra svævetid
 
-Benytter du en hoppemåtte, kontaktmåtte eller video-app (f.eks. My Jump 2), der måler din svævetid i sekunder, kan du indtaste den herunder for at beregne din reelle hoppehøjde:
+Benytter du en hoppemåtte, kontaktmåtte eller video-app (fx My Jump 2), der måler din svævetid i sekunder, kan du indtaste den herunder for at beregne din reelle hoppehøjde:
 
 {% include calculator/calculate-jump-cmj-height.html %}
 
