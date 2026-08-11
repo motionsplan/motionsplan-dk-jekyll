@@ -15,12 +15,14 @@ header:
   caption: "Vurderingsværktøjer til din mentale sundhed og trivsel"
   alt: "Photo af Clem Onojeghuo på Unsplash"
   actions:
-    - label: "<i class='fas fa-brain'></i> Sportspsykologi"
-      url: "/sportspsykologiske-tests/"
-    - label: "<i class='fas fa-stopwatch'></i> Fysiske Tests"
+    - label: "<i class='fas fa-stopwatch'></i> Tests"
       url: "/tests/"
     - label: "<i class='fas fa-calculator'></i> Beregnere"
       url: "/beregnere/"
+    - label: "<i class='fas fa-tools'></i> Værktøjer"
+      url: "/vaerktoejer/"
+    - label: "<i class='fas fa-brain'></i> Psykologiske tests"
+      url: "#mentale-tests"
 breadcrumbs: true
 classes: wide
 category:
@@ -41,6 +43,7 @@ Vores online vurderingsværktøjer og psykologiske spørgeskemaer er udviklet ti
 > ⚠️ **Husk:** En online test kan **aldrig** stille en medicinsk eller psykologisk diagnose, og den kan ikke erstatte en professionel vurdering eller samtale med en læge, psykolog eller autoriseret behandler.
 > 
 > Hvis du oplever alvorlig mistrivsel, langvarig nedtrykthed, lammende angst eller tegn på alvorlig overtræning/spiseforstyrrelse, bør du altid henvende dig til din egen læge eller en relevant rådgivningslinje.
+{: .notice--info }
 
 ---
 

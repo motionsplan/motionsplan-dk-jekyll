@@ -7,7 +7,8 @@ seo_title: "Sportspsykologiske Tests – Overtræning, REDs, Nervøsitet & Minds
 description: "Målrettede sportspsykologiske og fysiologiske selvtests for atleter, trænere og motionister. Tjek din risiko for REDs, overtræning, konkurrenceanst og mentalt fokus."
 author_profile: true
 header:
-  overlay_image: /assets/images/unsplash/photo-1517649763962-0c623266010b.jpg
+  overlay_image: https://images.unsplash.com/photo-1541186856967-7b08c37577d6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1541186856967-7b08c37577d6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   credit: https://images.unsplash.com/photo-1517649763962-0c623266010b
   caption: "Sportspsykologiske og fysiologiske selvtests for atleter"
   alt: "Atlet klar til start"
@@ -42,6 +43,7 @@ Vores online vurderingsværktøjer og sportspsykologiske spørgeskemaer er udvik
 > ⚠️ **Husk:** En online selvtest kan **aldrig** erstatte en professionel medicinsk, fysiologisk eller psykologisk vurdering hos en idrætslæge, sportspsykolog eller idrætsdietist.
 > 
 > Hvis du oplever alvorlige kropslige advarselssignaler (f.eks. vedvarende menstruationsudblivelse, fald i testosteron/libido, genstridige træthedsbrud), svær udbrændthed eller spiseforstyrrede mønstre, bør du altid henvende dig til din læge eller en kvalificeret fagperson.
+{: .notice--info }
 
 ---
 
