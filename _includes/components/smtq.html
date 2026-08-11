@@ -1,0 +1,727 @@
+<div class="smtq-app-container">
+  <!-- Header & Progress Tracker -->
+  <div class="smtq-header">
+    <div class="smtq-tracker-info">
+      <span class="smtq-badge">SMTQ Mental Styrke</span>
+      <span class="smtq-step-counter" id="smtq-step-counter">Spørgsmål 1 af 14</span>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="smtq-progress-bar">
+      <div class="smtq-progress-fill" id="smtq-progress-fill" style="width: 7.1%;"></div>
+    </div>
+  </div>
+
+  <!-- Wizard Spørgsmål Container -->
+  <div class="smtq-wizard-body" id="smtq-wizard-body">
+    <div class="smtq-intro-text">
+      I forbindelse med min træning og præstation...
+    </div>
+
+    <!-- 14 Spørgsmål i henhold til Sheard et al. (2009) -->
+    <!-- Q1 (Confidence) -->
+    <div class="smtq-step active" data-step="1" data-sub="conf">
+      <h3 class="smtq-question">1. ... er jeg sikker på min evne til at præstere under pres.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q2 (Constancy - Reverse) -->
+    <div class="smtq-step" data-step="2" data-sub="cons">
+      <h3 class="smtq-question">2. ... har jeg svært ved at bevare fokus, når det begynder at gå skævt.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q3 (Constancy) -->
+    <div class="smtq-step" data-step="3" data-sub="cons">
+      <h3 class="smtq-question">3. ... giver jeg alt hvad jeg overhovedet har i mig, indtil konkurrencen/træningen er helt slut.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q4 (Confidence) -->
+    <div class="smtq-step" data-step="4" data-sub="conf">
+      <h3 class="smtq-question">4. ... tror jeg ubetinget på, at jeg har evnerne til at nå mine mål.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q5 (Control - Reverse) -->
+    <div class="smtq-step" data-step="5" data-sub="ctrl">
+      <h3 class="smtq-question">5. ... lader jeg mig let slå ud af negative tanker før start.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q6 (Constancy) -->
+    <div class="smtq-step" data-step="6" data-sub="cons">
+      <h3 class="smtq-question">6. ... tager jeg det fulde ansvar for mine egne præstationer og min indsats.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q7 (Confidence - Reverse) -->
+    <div class="smtq-step" data-step="7" data-sub="conf">
+      <h3 class="smtq-question">7. ... tvivler jeg på mine evner, når modstanden bliver stærk.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q8 (Control - Reverse) -->
+    <div class="smtq-step" data-step="8" data-sub="ctrl">
+      <h3 class="smtq-question">8. ... mister jeg hurtigt tålmodigheden eller roen, hvis tingene driller.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q9 (Constancy) -->
+    <div class="smtq-step" data-step="9" data-sub="cons">
+      <h3 class="smtq-question">9. ... arbejder jeg ufortrødent videre, selv når træningen er rigtig hård.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q10 (Control - Reverse) -->
+    <div class="smtq-step" data-step="10" data-sub="ctrl">
+      <h3 class="smtq-question">10. ... bliver jeg så nervøs, at det går direkte ud over min præstation.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q11 (Control - Reverse) -->
+    <div class="smtq-step" data-step="11" data-sub="ctrl">
+      <h3 class="smtq-question">11. ... bekymrer jeg mig meget om at lave synlige fejl foran andre.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q12 (Confidence) -->
+    <div class="smtq-step" data-step="12" data-sub="conf">
+      <h3 class="smtq-question">12. ... ved jeg, at jeg har den mentale styrke, der skal til for at lykkes.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q13 (Constancy) -->
+    <div class="smtq-step" data-step="13" data-sub="cons">
+      <h3 class="smtq-question">13. ... lader jeg mig ikke forstyrre af støj, tilskuere eller udefrakommende uro.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q14 (Control - Reverse) -->
+    <div class="smtq-step" data-step="14" data-sub="ctrl">
+      <h3 class="smtq-question">14. ... opgiver jeg hurtigt modet, hvis jeg kommer bagud fra start.</h3>
+      <div class="smtq-options-grid">
+        <button type="button" class="smtq-option-btn" data-val="1"><span class="smtq-opt-num">1</span> Passer slet ikke</button>
+        <button type="button" class="smtq-option-btn" data-val="2"><span class="smtq-opt-num">2</span> Passer i ringe grad</button>
+        <button type="button" class="smtq-option-btn" data-val="3"><span class="smtq-opt-num">3</span> Passer i god grad</button>
+        <button type="button" class="smtq-option-btn" data-val="4"><span class="smtq-opt-num">4</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Navigation Fod -->
+    <div class="smtq-nav-footer">
+      <button type="button" class="smtq-nav-btn prev" id="smtq-prev-btn" disabled>← Forrige</button>
+      <span class="smtq-auto-hint">Klik på et svar for at gå videre</span>
+    </div>
+  </div>
+
+  <!-- Resultat Dashboard -->
+  <div class="smtq-result-card" id="smtq-result-card" style="display: none;">
+    <div class="smtq-result-header">
+      <h2>Din Mentale Styrkeprofil</h2>
+      <p class="smtq-result-subtitle">Målt ud fra Sports Mental Toughness Questionnaire (SMTQ)</p>
+    </div>
+
+    <div class="smtq-score-display">
+      <div class="smtq-score-circle" id="smtq-score-circle">
+        <span class="smtq-score-number" id="smtq-score-number">0</span>
+        <span class="smtq-score-max">/ 56</span>
+      </div>
+      <div class="smtq-status-badge" id="smtq-status-badge">Beregner...</div>
+    </div>
+
+    <!-- Subskalaer Grid -->
+    <div class="smtq-subscales-grid">
+      <div class="smtq-subscale-card">
+        <div class="subscale-title">Confidence (Selvtillid & Tro)</div>
+        <div class="subscale-score" id="smtq-conf-score">0 / 16</div>
+        <div class="subscale-desc">Tro på egne evner</div>
+      </div>
+      <div class="smtq-subscale-card">
+        <div class="subscale-title">Constancy (Fokus & Vedholdenhed)</div>
+        <div class="subscale-score" id="smtq-cons-score">0 / 20</div>
+        <div class="subscale-desc">Adfærd og engagement</div>
+      </div>
+      <div class="smtq-subscale-card">
+        <div class="subscale-title">Control (Følelsesmæssig Kontrol)</div>
+        <div class="subscale-score" id="smtq-ctrl-score">0 / 20</div>
+        <div class="subscale-desc">Håndtering af pres</div>
+      </div>
+    </div>
+
+    <div class="smtq-result-description" id="smtq-result-text">
+      <!-- Dynamisk tekst fra JS -->
+    </div>
+
+    <div class="smtq-action-box" id="smtq-action-box">
+      <!-- Dynamiske anbefalinger -->
+    </div>
+
+    <button type="button" class="smtq-restart-btn" id="smtq-restart-btn">🔄 Tag testen igen</button>
+  </div>
+
+  <!-- Kildeangivelse i Bunden -->
+  <div class="smtq-source-footer">
+    📌 <strong>Kilde & Licens:</strong> <em>Sports Mental Toughness Questionnaire (SMTQ)</em> af Sheard, Golby & van Wersch (2009). Må benyttes frit til akademiske, oplysende og træningsmæssige formål.
+  </div>
+</div>
+
+<style>
+/* CSS STYLES FOR SMTQ ELEGANT TOOL */
+.smtq-app-container {
+  max-width: 680px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1e293b;
+}
+
+.smtq-header {
+  padding: 24px 28px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.smtq-tracker-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.smtq-badge {
+  background: #f3e8ff;
+  color: #7e22ce;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.smtq-step-counter {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.smtq-progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.smtq-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #9333ea, #c084fc);
+  transition: width 0.35s ease;
+}
+
+.smtq-wizard-body {
+  padding: 28px;
+}
+
+.smtq-intro-text {
+  font-size: 0.92rem;
+  color: #64748b;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.smtq-step {
+  display: none;
+  animation: fadeIn 0.35s ease-in-out;
+}
+
+.smtq-step.active {
+  display: block;
+}
+
+.smtq-question {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.45;
+}
+
+.smtq-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.smtq-option-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 13px 16px;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #334155;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.smtq-option-btn:hover {
+  border-color: #c084fc;
+  background: #faf5ff;
+  transform: translateY(-1px);
+}
+
+.smtq-option-btn.selected {
+  border-color: #9333ea;
+  background: #f3e8ff;
+  color: #581c87;
+  font-weight: 600;
+}
+
+.smtq-opt-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  margin-right: 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #475569;
+  flex-shrink: 0;
+}
+
+.smtq-option-btn.selected .smtq-opt-num {
+  background: #9333ea;
+  color: #ffffff;
+}
+
+.smtq-nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.smtq-nav-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.smtq-nav-btn.prev {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.smtq-nav-btn.prev:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.smtq-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.smtq-auto-hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.smtq-result-card {
+  padding: 32px 28px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.smtq-result-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #0f172a;
+}
+
+.smtq-result-subtitle {
+  color: #64748b;
+  margin-top: 4px;
+  font-size: 0.95rem;
+}
+
+.smtq-score-display {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smtq-score-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 6px solid #9333ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  background: #faf5ff;
+}
+
+.smtq-score-number {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #9333ea;
+}
+
+.smtq-score-max {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.smtq-status-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.status-green { background: #dcfce7; color: #166534; }
+.status-yellow { background: #fef9c3; color: #854d0e; }
+.status-red { background: #fee2e2; color: #991b1b; }
+
+.smtq-subscales-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.smtq-subscale-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.subscale-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #475569;
+}
+
+.subscale-score {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 2px 0;
+}
+
+.subscale-desc {
+  font-size: 0.68rem;
+  color: #94a3b8;
+}
+
+.smtq-result-description {
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 12px;
+  color: #334155;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+  border-left: 4px solid #9333ea;
+}
+
+.smtq-action-box {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.smtq-restart-btn {
+  padding: 12px 24px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.smtq-restart-btn:hover {
+  background: #334155;
+}
+
+.smtq-source-footer {
+  padding: 12px 24px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.78rem;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.4;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 580px) {
+  .smtq-subscales-grid {
+    grid-template-columns: 1fr;
+  }
+  .smtq-wizard-body, .smtq-header, .smtq-result-card {
+    padding: 18px;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  let currentStep = 1;
+  const totalSteps = 14;
+  const rawAnswers = new Array(14).fill(null);
+
+  // Omvendte spørgsmål (Negative items: Q2, Q5, Q7, Q8, Q10, Q11, Q14)
+  // Reversering på 1-4 skala: 1->4, 2->3, 3->2, 4->1 (dvs. 5 - val)
+  const reverseItems = [2, 5, 7, 8, 10, 11, 14];
+
+  // Subskala sammensætning (1-baserede spørgsmålsnumre)
+  const confItems = [1, 4, 7, 12];       // Confidence (4 items, max 16)
+  const consItems = [2, 3, 6, 9, 13];    // Constancy (5 items, max 20)
+  const ctrlItems = [5, 8, 10, 11, 14];  // Control (5 items, max 20)
+
+  const stepCounter = document.getElementById('smtq-step-counter');
+  const progressFill = document.getElementById('smtq-progress-fill');
+  const steps = document.querySelectorAll('.smtq-step');
+  const prevBtn = document.getElementById('smtq-prev-btn');
+  const wizardBody = document.getElementById('smtq-wizard-body');
+  const resultCard = document.getElementById('smtq-result-card');
+
+  function updateUI() {
+    stepCounter.textContent = `Spørgsmål ${currentStep} af ${totalSteps}`;
+
+    const progressPercent = (currentStep / totalSteps) * 100;
+    progressFill.style.width = `${progressPercent}%`;
+
+    steps.forEach((step) => {
+      step.classList.remove('active');
+      if (parseInt(step.getAttribute('data-step')) === currentStep) {
+        step.classList.add('active');
+      }
+    });
+
+    prevBtn.disabled = currentStep === 1;
+  }
+
+  document.querySelectorAll('.smtq-option-btn').forEach((btn) => {
+    btn.addEventListener('click', function () {
+      const val = parseInt(this.getAttribute('data-val'));
+      rawAnswers[currentStep - 1] = val;
+
+      const currentStepEl = document.querySelector(`.smtq-step[data-step="${currentStep}"]`);
+      currentStepEl.querySelectorAll('.smtq-option-btn').forEach(b => b.classList.remove('selected'));
+      this.classList.add('selected');
+
+      setTimeout(() => {
+        if (currentStep < totalSteps) {
+          currentStep++;
+          updateUI();
+        } else {
+          calculateResults();
+        }
+      }, 250);
+    });
+  });
+
+  prevBtn.addEventListener('click', function () {
+    if (currentStep > 1) {
+      currentStep--;
+      updateUI();
+    }
+  });
+
+  function calculateResults() {
+    // Hjælpefunktion til at hente korrigeret pointværdi
+    const getItemPoint = (qidx) => {
+      const raw = rawAnswers[qidx - 1] || 1;
+      return reverseItems.includes(qidx) ? (5 - raw) : raw;
+    };
+
+    const calcSum = (items) => items.reduce((acc, qidx) => acc + getItemPoint(qidx), 0);
+
+    const confScore = calcSum(confItems);
+    const consScore = calcSum(consItems);
+    const ctrlScore = calcSum(ctrlItems);
+
+    const totalScore = confScore + consScore + ctrlScore; // Range 14 to 56
+
+    wizardBody.style.display = 'none';
+    document.querySelector('.smtq-header').style.display = 'none';
+    resultCard.style.display = 'block';
+
+    const scoreNumEl = document.getElementById('smtq-score-number');
+    const scoreCircle = document.getElementById('smtq-score-circle');
+    const statusBadge = document.getElementById('smtq-status-badge');
+    const textEl = document.getElementById('smtq-result-text');
+    const actionEl = document.getElementById('smtq-action-box');
+
+    let count = 0;
+    const timer = setInterval(() => {
+      if (count >= totalScore) {
+        scoreNumEl.textContent = totalScore;
+        clearInterval(timer);
+      } else {
+        count += 2;
+        if (count > totalScore) count = totalScore;
+        scoreNumEl.textContent = count;
+      }
+    }, 25);
+
+    document.getElementById('smtq-conf-score').textContent = `${confScore} / 16`;
+    document.getElementById('smtq-cons-score').textContent = `${consScore} / 20`;
+    document.getElementById('smtq-ctrl-score').textContent = `${ctrlScore} / 20`;
+
+    // SMTQ Intervaller: 14-29 Lav, 30-42 Moderat, 43-56 Høj
+    if (totalScore >= 43) {
+      scoreCircle.style.borderColor = "#10b981";
+      scoreCircle.style.background = "#ecfdf5";
+      scoreNumEl.style.color = "#047857";
+      statusBadge.className = "smtq-status-badge status-green";
+      statusBadge.textContent = "Høj Mental Styrke (Toughness)";
+
+      textEl.innerHTML = `<strong>Stærk mental robusthed (${totalScore} point):</strong> Din score viser en solid selvtillid, høj fokus i træningen og stærk evne til at bevare roen under pres.`;
+      actionEl.innerHTML = `<p style="font-size:0.9rem; color:#64748b;"><strong>Anbefaling:</strong> Du har opbygget et fremragende mentalt fundament. Brug din mentale overskudskapacitet til at støtte dine træningsmakkere under hård modgang.</p>`;
+    } else if (totalScore >= 30) {
+      scoreCircle.style.borderColor = "#eab308";
+      scoreCircle.style.background = "#fefce8";
+      scoreNumEl.style.color = "#a16207";
+      statusBadge.className = "smtq-status-badge status-yellow";
+      statusBadge.textContent = "Moderat Mental Styrke";
+
+      textEl.innerHTML = `<strong>Udmærket basis niveau (${totalScore} point):</strong> Du klarer hverdagens træningspres fint, men kan opleve at selvtilliden eller følelseskontrollen svigter under særligt svære konkurrenceforhold.`;
+      actionEl.innerHTML = `
+        <div style="background:#fef9c3; border: 1px solid #fde047; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #854d0e;">
+          <strong>Anbefaling:</strong> Arbejd med konkrete genstarts-signaler (reset cues) og vejrtrækningsøvelser for at styrke din følelsesmæssige kontrol (Control subskalaen).
+        </div>`;
+    } else {
+      scoreCircle.style.borderColor = "#ef4444";
+      scoreCircle.style.background = "#fef2f2";
+      scoreNumEl.style.color = "#b91c1c";
+      statusBadge.className = "smtq-status-badge status-red";
+      statusBadge.textContent = "Udviklingspotentiale";
+
+      textEl.innerHTML = `<strong>Udfordret under pres (${totalScore} point):</strong> Din score tyder på, at du ofte lader dig bremse af selvtillidstvivl, forstyrrelser eller nervøsitet, når belastningen stiger.`;
+      actionEl.innerHTML = `
+        <div style="background:#fee2e2; border: 1px solid #fca5a5; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #991b1b;">
+          <strong>Anbefaling:</strong> Mental toughness kan opbygges! Start med at sætte små procesmål i hver træning, og afprøv vores <a href="/scat-konkurrencenervoesitet/" style="color:#991b1b; font-weight:bold; text-decoration:underline;">SCAT-test for konkurrenceanst</a>.
+        </div>`;
+    }
+  }
+
+  document.getElementById('smtq-restart-btn').addEventListener('click', function () {
+    currentStep = 1;
+    for (let i = 0; i < rawAnswers.length; i++) rawAnswers[i] = null;
+
+    document.querySelectorAll('.smtq-option-btn').forEach(b => b.classList.remove('selected'));
+
+    resultCard.style.display = 'none';
+    wizardBody.style.display = 'block';
+    document.querySelector('.smtq-header').style.display = 'block';
+
+    updateUI();
+  });
+
+  updateUI();
+});
+</script>

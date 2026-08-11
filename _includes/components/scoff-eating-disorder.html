@@ -1,0 +1,606 @@
+<div class="ed-app-container">
+  <!-- Header & Progress Tracker -->
+  <div class="ed-header">
+    <div class="ed-tracker-info">
+      <span class="ed-badge">Screening for Spiseforstyrrelser</span>
+      <span class="ed-step-counter" id="ed-step-counter">Spørgsmål 1 af 6</span>
+    </div>
+
+    <!-- Dots Indikator -->
+    <div class="ed-dots-container">
+      <div class="ed-dot active" data-dot="1">1</div>
+      <div class="ed-dot" data-dot="2">2</div>
+      <div class="ed-dot" data-dot="3">3</div>
+      <div class="ed-dot" data-dot="4">4</div>
+      <div class="ed-dot" data-dot="5">5</div>
+      <div class="ed-dot" data-dot="6">6</div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="ed-progress-bar">
+      <div class="ed-progress-fill" id="ed-progress-fill" style="width: 16.6%;"></div>
+    </div>
+  </div>
+
+  <!-- Wizard Spørgsmål Container -->
+  <div class="ed-wizard-body" id="ed-wizard-body">
+    <div class="ed-intro-text" id="ed-intro-text">
+      Svar så ærligt som muligt på følgende spørgsmål om dit forhold til mad og krop:
+    </div>
+
+    <!-- Q1 (Primær) -->
+    <div class="ed-step active" data-step="1">
+      <h3 class="ed-question">1. Føler du dig generelt tilfreds med dine spisevaner?</h3>
+      <div class="ed-options-grid">
+        <button type="button" class="ed-option-btn" data-val="0"><span class="ed-opt-num">A</span> Ja, jeg er tilfreds</button>
+        <button type="button" class="ed-option-btn" data-val="1"><span class="ed-opt-num">B</span> Nej, det er jeg ikke</button>
+      </div>
+    </div>
+
+    <!-- Q2 (Primær) -->
+    <div class="ed-step" data-step="2">
+      <h3 class="ed-question">2. Spiser du nogensinde i smug eller i hemmelighed?</h3>
+      <div class="ed-options-grid">
+        <button type="button" class="ed-option-btn" data-val="1"><span class="ed-opt-num">A</span> Ja, det hænder</button>
+        <button type="button" class="ed-option-btn" data-val="0"><span class="ed-opt-num">B</span> Nej, aldrig</button>
+      </div>
+    </div>
+
+    <!-- Q3 (Primær) -->
+    <div class="ed-step" data-step="3">
+      <h3 class="ed-question">3. Påvirker din vægt i høj grad den måde, du har det med dig selv på?</h3>
+      <div class="ed-options-grid">
+        <button type="button" class="ed-option-btn" data-val="1"><span class="ed-opt-num">A</span> Ja, i meget høj grad</button>
+        <button type="button" class="ed-option-btn" data-val="0"><span class="ed-opt-num">B</span> Nej, ikke i særlig høj grad</button>
+      </div>
+    </div>
+
+    <!-- Q4 (Primær) -->
+    <div class="ed-step" data-step="4">
+      <h3 class="ed-question">4. Har du eller andre i din nærmeste familie haft en spiseforstyrrelse?</h3>
+      <div class="ed-options-grid">
+        <button type="button" class="ed-option-btn" data-val="1"><span class="ed-opt-num">A</span> Ja</button>
+        <button type="button" class="ed-option-btn" data-val="0"><span class="ed-opt-num">B</span> Nej</button>
+      </div>
+    </div>
+
+    <!-- Q5 (Supplerende) -->
+    <div class="ed-step" data-step="5">
+      <h3 class="ed-question">5. Får du ubehagelig skyldfølelse eller skam, efter du har spist?</h3>
+      <div class="ed-options-grid">
+        <button type="button" class="ed-option-btn" data-val="1"><span class="ed-opt-num">A</span> Ja, ofte</button>
+        <button type="button" class="ed-option-btn" data-val="0"><span class="ed-opt-num">B</span> Sjældent eller aldrig</button>
+      </div>
+    </div>
+
+    <!-- Q6 (Supplerende) -->
+    <div class="ed-step" data-step="6">
+      <h3 class="ed-question">6. Oplever du, at tanker om mad, kalorieindtag eller vægt dominerer din hverdag?</h3>
+      <div class="ed-options-grid">
+        <button type="button" class="ed-option-btn" data-val="1"><span class="ed-opt-num">A</span> Ja, det fylder utrolig meget</button>
+        <button type="button" class="ed-option-btn" data-val="0"><span class="ed-opt-num">B</span> Nej, det fylder ikke unødigt</button>
+      </div>
+    </div>
+
+    <!-- Navigation Fod -->
+    <div class="ed-nav-footer">
+      <button type="button" class="ed-nav-btn prev" id="ed-prev-btn" disabled>← Forrige</button>
+      <span class="ed-auto-hint">Klik på et svar for at gå videre</span>
+    </div>
+  </div>
+
+  <!-- Resultat Dashboard -->
+  <div class="ed-result-card" id="ed-result-card" style="display: none;">
+    <div class="ed-result-header">
+      <h2>Dine Screeningsresultater</h2>
+      <p class="ed-result-subtitle">Målt ud fra Cotton et al. (2003) / ESP screeningmønsteret</p>
+    </div>
+
+    <div class="ed-score-display">
+      <div class="ed-score-circle" id="ed-score-circle">
+        <span class="ed-score-number" id="ed-score-number">0</span>
+        <span class="ed-score-max">/ 6</span>
+      </div>
+      <div class="ed-status-badge" id="ed-status-badge">Beregner...</div>
+    </div>
+
+    <div class="ed-result-description" id="ed-result-text">
+      <!-- Dynamisk tekst fra JS -->
+    </div>
+
+    <div class="ed-action-box" id="ed-action-box">
+      <!-- Dynamiske anbefalinger -->
+    </div>
+
+    <button type="button" class="ed-restart-btn" id="ed-restart-btn">🔄 Tag testen igen</button>
+  </div>
+
+  <!-- Kildeangivelse i Bunden -->
+  <div class="ed-source-footer">
+    📌 <strong>Kilde & Kreditering:</strong> Screeningsspørgsmålene er baseret på <em>Cotton et al. (2003)</em> og <em>Eating Disorder Screen for Primary Care (ESP)</em>. Redskabet er til fri oplysende og vejledende screening.
+  </div>
+</div>
+
+<style>
+/* CSS STYLES FOR EATING DISORDER TOOL */
+.ed-app-container {
+  max-width: 680px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1e293b;
+}
+
+.ed-header {
+  padding: 24px 28px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.ed-tracker-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.ed-badge {
+  background: #fce7f3;
+  color: #9d174d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ed-step-counter {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.ed-dots-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  gap: 6px;
+}
+
+.ed-dot {
+  flex: 1;
+  height: 28px;
+  border-radius: 6px;
+  background: #e2e8f0;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.ed-dot.active {
+  background: #be185d;
+  color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(190, 24, 93, 0.2);
+}
+
+.ed-dot.completed {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.ed-progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.ed-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #be185d, #f472b6);
+  transition: width 0.4s ease;
+}
+
+.ed-wizard-body {
+  padding: 28px;
+}
+
+.ed-intro-text {
+  font-size: 0.92rem;
+  color: #64748b;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.ed-step {
+  display: none;
+  animation: fadeIn 0.35s ease-in-out;
+}
+
+.ed-step.active {
+  display: block;
+}
+
+.ed-question {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.45;
+}
+
+.ed-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ed-option-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 14px 18px;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: #334155;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ed-option-btn:hover {
+  border-color: #f472b6;
+  background: #fdf2f8;
+  transform: translateY(-1px);
+}
+
+.ed-option-btn.selected {
+  border-color: #be185d;
+  background: #fce7f3;
+  color: #831843;
+  font-weight: 600;
+}
+
+.ed-opt-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  margin-right: 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #475569;
+  flex-shrink: 0;
+}
+
+.ed-option-btn.selected .ed-opt-num {
+  background: #be185d;
+  color: #ffffff;
+}
+
+.ed-nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.ed-nav-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ed-nav-btn.prev {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.ed-nav-btn.prev:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.ed-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.ed-auto-hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.ed-result-card {
+  padding: 32px 28px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.ed-result-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #0f172a;
+}
+
+.ed-result-subtitle {
+  color: #64748b;
+  margin-top: 4px;
+  font-size: 0.95rem;
+}
+
+.ed-score-display {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ed-score-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 6px solid #be185d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  background: #fdf2f8;
+}
+
+.ed-score-number {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #be185d;
+}
+
+.ed-score-max {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.ed-status-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.status-green { background: #dcfce7; color: #166534; }
+.status-yellow { background: #fef9c3; color: #854d0e; }
+.status-red { background: #fee2e2; color: #991b1b; }
+
+.ed-result-description {
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 12px;
+  color: #334155;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+  border-left: 4px solid #be185d;
+}
+
+.ed-action-box {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.ed-restart-btn {
+  padding: 12px 24px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.ed-restart-btn:hover {
+  background: #334155;
+}
+
+.ed-source-footer {
+  padding: 12px 24px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.78rem;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.4;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+  .ed-wizard-body, .ed-header, .ed-result-card {
+    padding: 18px;
+  }
+  .ed-question {
+    font-size: 1.05rem;
+  }
+  .ed-option-btn {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  let currentStep = 1;
+  const totalSteps = 6;
+  const answers = new Array(6).fill(null);
+
+  const stepCounter = document.getElementById('ed-step-counter');
+  const progressFill = document.getElementById('ed-progress-fill');
+  const dots = document.querySelectorAll('.ed-dot');
+  const steps = document.querySelectorAll('.ed-step');
+  const prevBtn = document.getElementById('ed-prev-btn');
+  const wizardBody = document.getElementById('ed-wizard-body');
+  const resultCard = document.getElementById('ed-result-card');
+
+  function updateUI() {
+    stepCounter.textContent = `Spørgsmål ${currentStep} af ${totalSteps}`;
+
+    const progressPercent = (currentStep / totalSteps) * 100;
+    progressFill.style.width = `${progressPercent}%`;
+
+    dots.forEach((dot, idx) => {
+      const stepNum = idx + 1;
+      dot.classList.remove('active', 'completed');
+      if (stepNum === currentStep) {
+        dot.classList.add('active');
+      } else if (stepNum < currentStep) {
+        dot.classList.add('completed');
+      }
+    });
+
+    steps.forEach((step) => {
+      step.classList.remove('active');
+      if (parseInt(step.getAttribute('data-step')) === currentStep) {
+        step.classList.add('active');
+      }
+    });
+
+    prevBtn.disabled = currentStep === 1;
+  }
+
+  document.querySelectorAll('.ed-option-btn').forEach((btn) => {
+    btn.addEventListener('click', function () {
+      const val = parseInt(this.getAttribute('data-val'));
+      answers[currentStep - 1] = val;
+
+      const currentStepEl = document.querySelector(`.ed-step[data-step="${currentStep}"]`);
+      currentStepEl.querySelectorAll('.ed-option-btn').forEach(b => b.classList.remove('selected'));
+      this.classList.add('selected');
+
+      setTimeout(() => {
+        if (currentStep < totalSteps) {
+          currentStep++;
+          updateUI();
+        } else {
+          calculateResults();
+        }
+      }, 250);
+    });
+  });
+
+  prevBtn.addEventListener('click', function () {
+    if (currentStep > 1) {
+      currentStep--;
+      updateUI();
+    }
+  });
+
+  function calculateResults() {
+    // Tæller antal udslag (1-taller)
+    const totalScore = answers.reduce((acc, val) => acc + (val || 0), 0);
+
+    wizardBody.style.display = 'none';
+    document.querySelector('.ed-header').style.display = 'none';
+    resultCard.style.display = 'block';
+
+    const scoreNumEl = document.getElementById('ed-score-number');
+    const scoreCircle = document.getElementById('ed-score-circle');
+    const statusBadge = document.getElementById('ed-status-badge');
+    const textEl = document.getElementById('ed-result-text');
+    const actionEl = document.getElementById('ed-action-box');
+
+    let count = 0;
+    const timer = setInterval(() => {
+      if (count >= totalScore) {
+        scoreNumEl.textContent = totalScore;
+        clearInterval(timer);
+      } else {
+        count++;
+        scoreNumEl.textContent = count;
+      }
+    }, 40);
+
+    if (totalScore >= 3) {
+      scoreCircle.style.borderColor = "#ef4444";
+      scoreCircle.style.background = "#fef2f2";
+      scoreNumEl.style.color = "#b91c1c";
+      statusBadge.className = "ed-status-badge status-red";
+      statusBadge.textContent = "Tegn på forstyrret spisemønster";
+
+      textEl.innerHTML = `<strong>Tydelige tegn (${totalScore} ud af 6 positive indikationer):</strong> Din besvarelse viser, at tanker om mad, vægt og kontrol fylder en uhensigtsmæssig del af din hverdag.`;
+      actionEl.innerHTML = `
+        <div style="background:#fee2e2; border: 1px solid #fca5a5; padding: 16px; border-radius: 8px; font-size: 0.9rem; color: #991b1b;">
+          <strong>Anbefalet næste skridt:</strong><br>
+          Gå ikke alene med disse tanker. Du kan kontakte **LMS (Landsforeningen mod spiseforstyrrelser og selvskade)** for gratis, anonym rådgivning på **tlf. 70 10 18 18** eller chatte på <a href="https://www.lmsos.dk" target="_blank" style="color:#991b1b; font-weight:bold; text-decoration:underline;">lmsos.dk</a>.
+        </div>`;
+    } else if (totalScore >= 1) {
+      scoreCircle.style.borderColor = "#eab308";
+      scoreCircle.style.background = "#fefce8";
+      scoreNumEl.style.color = "#a16207";
+      statusBadge.className = "ed-status-badge status-yellow";
+      statusBadge.textContent = "Enkelte opmærksomhedspunkter";
+
+      textEl.innerHTML = `<strong>Moderat opmærksomhed (${totalScore} ud af 6 indikationer):</strong> Du har enkelte områder, hvor dit forhold til mad eller krop kan føles udfordret eller anspændt.`;
+      actionEl.innerHTML = `
+        <div style="background:#fef9c3; border: 1px solid #fde047; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #854d0e;">
+          <strong>Anbefaling:</strong> Vær opmærksom på, om dit fokus på mad og krop er i balance, eller om det begynder at skabe begrænsninger eller skyldfølelse i din hverdag.
+        </div>`;
+    } else {
+      scoreCircle.style.borderColor = "#10b981";
+      scoreCircle.style.background = "#ecfdf5";
+      scoreNumEl.style.color = "#047857";
+      statusBadge.className = "ed-status-badge status-green";
+      statusBadge.textContent = "Ingen tegn på forstyrret spisemønster";
+
+      textEl.innerHTML = `<strong>Ukompliceret resultat (${totalScore} ud af 6 indikationer):</strong> Din besvarelse tyder på et afslappet og afbalanceret forhold til mad, krop og vægt.`;
+      actionEl.innerHTML = `<p style="font-size:0.9rem; color:#64748b;"><strong>Anbefaling:</strong> Du oplever ikke umiddelbart tegn på forstyrrede spisemønstre.</p>`;
+    }
+  }
+
+  document.getElementById('ed-restart-btn').addEventListener('click', function () {
+    currentStep = 1;
+    for (let i = 0; i < answers.length; i++) answers[i] = null;
+
+    document.querySelectorAll('.ed-option-btn').forEach(b => b.classList.remove('selected'));
+
+    resultCard.style.display = 'none';
+    wizardBody.style.display = 'block';
+    document.querySelector('.ed-header').style.display = 'block';
+
+    updateUI();
+  });
+
+  updateUI();
+});
+</script>

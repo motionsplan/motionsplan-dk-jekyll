@@ -1,0 +1,705 @@
+<div class="phq9-app-container">
+  <!-- Header & Progress Tracker -->
+  <div class="phq9-header">
+    <div class="phq9-tracker-info">
+      <span class="phq9-badge" id="phq9-badge">PHQ-2 & PHQ-9 Test</span>
+      <span class="phq9-step-counter" id="phq9-step-counter">Spørgsmål 1 af 10</span>
+    </div>
+
+    <!-- Visuel indikator med prikker -->
+    <div class="phq9-dots-container">
+      <div class="phq9-dot active" data-dot="1">1</div>
+      <div class="phq9-dot" data-dot="2">2</div>
+      <div class="phq9-dot" data-dot="3">3</div>
+      <div class="phq9-dot" data-dot="4">4</div>
+      <div class="phq9-dot" data-dot="5">5</div>
+      <div class="phq9-dot" data-dot="6">6</div>
+      <div class="phq9-dot" data-dot="7">7</div>
+      <div class="phq9-dot" data-dot="8">8</div>
+      <div class="phq9-dot" data-dot="9">9</div>
+      <div class="phq9-dot" data-dot="10">★</div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="phq9-progress-bar">
+      <div class="phq9-progress-fill" id="phq9-progress-fill" style="width: 10%;"></div>
+    </div>
+  </div>
+
+  <!-- Wizard Spørgsmål Container -->
+  <div class="phq9-wizard-body" id="phq9-wizard-body">
+    <div class="phq9-intro-text" id="phq9-intro-text">
+      Inden for de <strong>seneste 2 uger</strong>, hvor ofte har du været generet af følgende problemer?
+    </div>
+
+    <!-- Spørgsmål 1 -->
+    <div class="phq9-step active" data-step="1">
+      <h3 class="phq9-question">1. Lille interesse i eller glæde ved at gøre ting</h3>
+      <div class="phq9-options-grid">
+        <button type="button" class="phq9-option-btn" data-val="0"><span class="phq9-opt-num">0</span> Slet ikke</button>
+        <button type="button" class="phq9-option-btn" data-val="1"><span class="phq9-opt-num">1</span> Flere dage</button>
+        <button type="button" class="phq9-option-btn" data-val="2"><span class="phq9-opt-num">2</span> Mere end halvdelen af dagene</button>
+        <button type="button" class="phq9-option-btn" data-val="3"><span class="phq9-opt-num">3</span> Næsten hver dag</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 2 -->
+    <div class="phq9-step" data-step="2">
+      <h3 class="phq9-question">2. Følt dig nedtrykt, håbløs eller været deprimeret</h3>
+      <div class="phq9-options-grid">
+        <button type="button" class="phq9-option-btn" data-val="0"><span class="phq9-opt-num">0</span> Slet ikke</button>
+        <button type="button" class="phq9-option-btn" data-val="1"><span class="phq9-opt-num">1</span> Flere dage</button>
+        <button type="button" class="phq9-option-btn" data-val="2"><span class="phq9-opt-num">2</span> Mere end halvdelen af dagene</button>
+        <button type="button" class="phq9-option-btn" data-val="3"><span class="phq9-opt-num">3</span> Næsten hver dag</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 3 -->
+    <div class="phq9-step" data-step="3">
+      <h3 class="phq9-question">3. Problemer med at falde i søvn eller sove, eller med at sove for meget</h3>
+      <div class="phq9-options-grid">
+        <button type="button" class="phq9-option-btn" data-val="0"><span class="phq9-opt-num">0</span> Slet ikke</button>
+        <button type="button" class="phq9-option-btn" data-val="1"><span class="phq9-opt-num">1</span> Flere dage</button>
+        <button type="button" class="phq9-option-btn" data-val="2"><span class="phq9-opt-num">2</span> Mere end halvdelen af dagene</button>
+        <button type="button" class="phq9-option-btn" data-val="3"><span class="phq9-opt-num">3</span> Næsten hver dag</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 4 -->
+    <div class="phq9-step" data-step="4">
+      <h3 class="phq9-question">4. Følt dig træt eller har kun haft lidt energi</h3>
+      <div class="phq9-options-grid">
+        <button type="button" class="phq9-option-btn" data-val="0"><span class="phq9-opt-num">0</span> Slet ikke</button>
+        <button type="button" class="phq9-option-btn" data-val="1"><span class="phq9-opt-num">1</span> Flere dage</button>
+        <button type="button" class="phq9-option-btn" data-val="2"><span class="phq9-opt-num">2</span> Mere end halvdelen af dagene</button>
+        <button type="button" class="phq9-option-btn" data-val="3"><span class="phq9-opt-num">3</span> Næsten hver dag</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 5 -->
+    <div class="phq9-step" data-step="5">
+      <h3 class="phq9-question">5. Ringe appetit eller spist for meget</h3>
+      <div class="phq9-options-grid">
+        <button type="button" class="phq9-option-btn" data-val="0"><span class="phq9-opt-num">0</span> Slet ikke</button>
+        <button type="button" class="phq9-option-btn" data-val="1"><span class="phq9-opt-num">1</span> Flere dage</button>
+        <button type="button" class="phq9-option-btn" data-val="2"><span class="phq9-opt-num">2</span> Mere end halvdelen af dagene</button>
+        <button type="button" class="phq9-option-btn" data-val="3"><span class="phq9-opt-num">3</span> Næsten hver dag</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 6 -->
+    <div class="phq9-step" data-step="6">
+      <h3 class="phq9-question">6. Haft det dårligt med dig selv – eller følt, at du er en fiasko eller har skuffet dig selv eller din familie</h3>
+      <div class="phq9-options-grid">
+        <button type="button" class="phq9-option-btn" data-val="0"><span class="phq9-opt-num">0</span> Slet ikke</button>
+        <button type="button" class="phq9-option-btn" data-val="1"><span class="phq9-opt-num">1</span> Flere dage</button>
+        <button type="button" class="phq9-option-btn" data-val="2"><span class="phq9-opt-num">2</span> Mere end halvdelen af dagene</button>
+        <button type="button" class="phq9-option-btn" data-val="3"><span class="phq9-opt-num">3</span> Næsten hver dag</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 7 -->
+    <div class="phq9-step" data-step="7">
+      <h3 class="phq9-question">7. Problemer med at koncentrere dig om ting, såsom at læse avisen eller se TV</h3>
+      <div class="phq9-options-grid">
+        <button type="button" class="phq9-option-btn" data-val="0"><span class="phq9-opt-num">0</span> Slet ikke</button>
+        <button type="button" class="phq9-option-btn" data-val="1"><span class="phq9-opt-num">1</span> Flere dage</button>
+        <button type="button" class="phq9-option-btn" data-val="2"><span class="phq9-opt-num">2</span> Mere end halvdelen af dagene</button>
+        <button type="button" class="phq9-option-btn" data-val="3"><span class="phq9-opt-num">3</span> Næsten hver dag</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 8 -->
+    <div class="phq9-step" data-step="8">
+      <h3 class="phq9-question">8. Har bevæget dig eller talt så langsomt, at andre kunne have bemærket det? Eller det modsatte – været så rastløs eller hvileløs, at du har bevæget dig mere omkring end sædvanligt</h3>
+      <div class="phq9-options-grid">
+        <button type="button" class="phq9-option-btn" data-val="0"><span class="phq9-opt-num">0</span> Slet ikke</button>
+        <button type="button" class="phq9-option-btn" data-val="1"><span class="phq9-opt-num">1</span> Flere dage</button>
+        <button type="button" class="phq9-option-btn" data-val="2"><span class="phq9-opt-num">2</span> Mere end halvdelen af dagene</button>
+        <button type="button" class="phq9-option-btn" data-val="3"><span class="phq9-opt-num">3</span> Næsten hver dag</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 9 -->
+    <div class="phq9-step" data-step="9">
+      <h3 class="phq9-question">9. Tanker om, at det ville være bedre, hvis du var død eller om at gøre skade på dig selv på en eller anden måde</h3>
+      <div class="phq9-options-grid">
+        <button type="button" class="phq9-option-btn" data-val="0"><span class="phq9-opt-num">0</span> Slet ikke</button>
+        <button type="button" class="phq9-option-btn" data-val="1"><span class="phq9-opt-num">1</span> Flere dage</button>
+        <button type="button" class="phq9-option-btn" data-val="2"><span class="phq9-opt-num">2</span> Mere end halvdelen af dagene</button>
+        <button type="button" class="phq9-option-btn" data-val="3"><span class="phq9-opt-num">3</span> Næsten hver dag</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 10 (Evaluering af besvær) -->
+    <div class="phq9-step" data-step="10">
+      <h3 class="phq9-question">10. Hvis du har afkrydset mindst ét af de ovenstående problemer, hvor besværligt har disse problemer gjort det for dig at arbejde, klare tingene i hjemmet eller komme overens med andre?</h3>
+      <div class="phq9-options-grid">
+        <button type="button" class="phq9-option-btn" data-val="0"><span class="phq9-opt-num">A</span> Slet ikke besværligt</button>
+        <button type="button" class="phq9-option-btn" data-val="1"><span class="phq9-opt-num">B</span> Lidt besværligt</button>
+        <button type="button" class="phq9-option-btn" data-val="2"><span class="phq9-opt-num">C</span> Meget besværligt</button>
+        <button type="button" class="phq9-option-btn" data-val="3"><span class="phq9-opt-num">D</span> Ekstremt besværligt</button>
+      </div>
+    </div>
+
+    <!-- Navigation Fod -->
+    <div class="phq9-nav-footer">
+      <button type="button" class="phq9-nav-btn prev" id="phq9-prev-btn" disabled>← Forrige</button>
+      <span class="phq9-auto-hint">Klik på et svar for at gå videre</span>
+    </div>
+  </div>
+
+  <!-- Resultat Dashboard -->
+  <div class="phq9-result-card" id="phq9-result-card" style="display: none;">
+    <div class="phq9-result-header">
+      <h2>Dine Testresultater</h2>
+      <p class="phq9-result-subtitle">Målt ud fra PHQ-9 Depressionsskalaen</p>
+    </div>
+
+    <div class="phq9-score-display">
+      <div class="phq9-score-circle" id="phq9-score-circle">
+        <span class="phq9-score-number" id="phq9-score-number">0</span>
+        <span class="phq9-score-max">/ 27</span>
+      </div>
+      <div class="phq9-status-badge" id="phq9-status-badge">Beregner...</div>
+    </div>
+
+    <div class="phq9-result-description" id="phq9-result-text">
+      <!-- Dynamisk tekst fra JS -->
+    </div>
+
+    <div class="phq9-action-box" id="phq9-action-box">
+      <!-- Dynamiske anbefalinger -->
+    </div>
+
+    <button type="button" class="phq9-restart-btn" id="phq9-restart-btn">🔄 Tag testen igen</button>
+  </div>
+
+  <!-- Kildeangivelse i Bunden -->
+  <div class="phq9-source-footer">
+    📌 <strong>Kildeangivelse:</strong> PHQ-2 og PHQ-9 er udviklet af dr. Robert L. Spitzer, dr. Janet B.W. Williams, dr. Kurt Kroenke og kolleger med et uddannelseslegat fra Pfizer Inc. Testen er i public domain og frit tilgængelig.
+  </div>
+</div>
+
+<style>
+/* CSS STYLES FOR PHQ-9 ELEGANT TOOL */
+.phq9-app-container {
+  max-width: 680px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1e293b;
+}
+
+.phq9-header {
+  padding: 24px 28px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.phq9-tracker-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.phq9-badge {
+  background: #e0e7ff;
+  color: #3730a3;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.phq9-step-counter {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.phq9-dots-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  gap: 4px;
+}
+
+.phq9-dot {
+  flex: 1;
+  height: 28px;
+  border-radius: 6px;
+  background: #e2e8f0;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.phq9-dot.active {
+  background: #4f46e5;
+  color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+.phq9-dot.completed {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.phq9-progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.phq9-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  transition: width 0.4s ease;
+}
+
+.phq9-wizard-body {
+  padding: 28px;
+}
+
+.phq9-intro-text {
+  font-size: 0.92rem;
+  color: #64748b;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.phq9-step {
+  display: none;
+  animation: fadeIn 0.35s ease-in-out;
+}
+
+.phq9-step.active {
+  display: block;
+}
+
+.phq9-question {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.45;
+}
+
+.phq9-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.phq9-option-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 14px 18px;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: #334155;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.phq9-option-btn:hover {
+  border-color: #818cf8;
+  background: #f5f3ff;
+  transform: translateY(-1px);
+}
+
+.phq9-option-btn.selected {
+  border-color: #4f46e5;
+  background: #eef2ff;
+  color: #312e81;
+  font-weight: 600;
+}
+
+.phq9-opt-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  margin-right: 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #475569;
+  flex-shrink: 0;
+}
+
+.phq9-option-btn.selected .phq9-opt-num {
+  background: #4f46e5;
+  color: #ffffff;
+}
+
+.phq9-nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.phq9-nav-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.phq9-nav-btn.prev {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.phq9-nav-btn.prev:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.phq9-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.phq9-auto-hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.phq9-result-card {
+  padding: 32px 28px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.phq9-result-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #0f172a;
+}
+
+.phq9-result-subtitle {
+  color: #64748b;
+  margin-top: 4px;
+  font-size: 0.95rem;
+}
+
+.phq9-score-display {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phq9-score-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 6px solid #4f46e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  background: #f5f3ff;
+}
+
+.phq9-score-number {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #4f46e5;
+}
+
+.phq9-score-max {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.phq9-status-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.status-green { background: #dcfce7; color: #166534; }
+.status-blue { background: #e0f2fe; color: #075985; }
+.status-yellow { background: #fef9c3; color: #854d0e; }
+.status-orange { background: #ffedd5; color: #9a3412; }
+.status-red { background: #fee2e2; color: #991b1b; }
+
+.phq9-result-description {
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 12px;
+  color: #334155;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+  border-left: 4px solid #4f46e5;
+}
+
+.phq9-action-box {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.phq9-restart-btn {
+  padding: 12px 24px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.phq9-restart-btn:hover {
+  background: #334155;
+}
+
+.phq9-source-footer {
+  padding: 12px 24px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.78rem;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.4;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+  .phq9-wizard-body, .phq9-header, .phq9-result-card {
+    padding: 18px;
+  }
+  .phq9-question {
+    font-size: 1.05rem;
+  }
+  .phq9-option-btn {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  let currentStep = 1;
+  const totalSteps = 10;
+  const answers = new Array(10).fill(null);
+
+  const badgeEl = document.getElementById('phq9-badge');
+  const stepCounter = document.getElementById('phq9-step-counter');
+  const progressFill = document.getElementById('phq9-progress-fill');
+  const dots = document.querySelectorAll('.phq9-dot');
+  const steps = document.querySelectorAll('.phq9-step');
+  const prevBtn = document.getElementById('phq9-prev-btn');
+  const wizardBody = document.getElementById('phq9-wizard-body');
+  const resultCard = document.getElementById('phq9-result-card');
+  const introText = document.getElementById('phq9-intro-text');
+
+  function updateUI() {
+    stepCounter.textContent = `Spørgsmål ${currentStep} af ${totalSteps}`;
+
+    if (currentStep <= 2) {
+      badgeEl.textContent = "PHQ-2 Screening";
+      introText.style.display = "block";
+    } else if (currentStep <= 9) {
+      badgeEl.textContent = "PHQ-9 Screening";
+      introText.style.display = "block";
+    } else {
+      badgeEl.textContent = "Evaluering af besvær";
+      introText.style.display = "none";
+    }
+
+    const progressPercent = (currentStep / totalSteps) * 100;
+    progressFill.style.width = `${progressPercent}%`;
+
+    dots.forEach((dot, idx) => {
+      const stepNum = idx + 1;
+      dot.classList.remove('active', 'completed');
+      if (stepNum === currentStep) {
+        dot.classList.add('active');
+      } else if (stepNum < currentStep) {
+        dot.classList.add('completed');
+      }
+    });
+
+    steps.forEach((step) => {
+      step.classList.remove('active');
+      if (parseInt(step.getAttribute('data-step')) === currentStep) {
+        step.classList.add('active');
+      }
+    });
+
+    prevBtn.disabled = currentStep === 1;
+  }
+
+  document.querySelectorAll('.phq9-option-btn').forEach((btn) => {
+    btn.addEventListener('click', function () {
+      const val = parseInt(this.getAttribute('data-val'));
+      answers[currentStep - 1] = val;
+
+      const currentStepEl = document.querySelector(`.phq9-step[data-step="${currentStep}"]`);
+      currentStepEl.querySelectorAll('.phq9-option-btn').forEach(b => b.classList.remove('selected'));
+      this.classList.add('selected');
+
+      setTimeout(() => {
+        if (currentStep < totalSteps) {
+          currentStep++;
+          updateUI();
+        } else {
+          calculateResults();
+        }
+      }, 250);
+    });
+  });
+
+  prevBtn.addEventListener('click', function () {
+    if (currentStep > 1) {
+      currentStep--;
+      updateUI();
+    }
+  });
+
+  function calculateResults() {
+    // Totalscore på spørgsmål 1-9 (0-27 point)
+    const phq9Score = answers.slice(0, 9).reduce((acc, val) => acc + (val || 0), 0);
+
+    wizardBody.style.display = 'none';
+    document.querySelector('.phq9-header').style.display = 'none';
+    resultCard.style.display = 'block';
+
+    const scoreNumEl = document.getElementById('phq9-score-number');
+    const scoreCircle = document.getElementById('phq9-score-circle');
+    const statusBadge = document.getElementById('phq9-status-badge');
+    const textEl = document.getElementById('phq9-result-text');
+    const actionEl = document.getElementById('phq9-action-box');
+
+    let count = 0;
+    const timer = setInterval(() => {
+      if (count >= phq9Score) {
+        scoreNumEl.textContent = phq9Score;
+        clearInterval(timer);
+      } else {
+        count++;
+        scoreNumEl.textContent = count;
+      }
+    }, 30);
+
+    // Tolkning præcis i henhold til artiklens tabel
+    if (phq9Score <= 4) {
+      scoreCircle.style.borderColor = "#10b981";
+      scoreCircle.style.background = "#ecfdf5";
+      scoreNumEl.style.color = "#047857";
+      statusBadge.className = "phq9-status-badge status-green";
+      statusBadge.textContent = "Ingen til minimal";
+
+      textEl.innerHTML = `<strong>Resultat (${phq9Score} point):</strong> Ingen til minimale depressive symptomer.`;
+      actionEl.innerHTML = `<p style="font-size:0.9rem; color:#64748b;"><strong>Opfølgning:</strong> Ingen særlig opfølgning nødvendig.</p>`;
+    } else if (phq9Score <= 9) {
+      scoreCircle.style.borderColor = "#0284c7";
+      scoreCircle.style.background = "#f0f9ff";
+      scoreNumEl.style.color = "#0369a1";
+      statusBadge.className = "phq9-status-badge status-blue";
+      statusBadge.textContent = "Mild";
+
+      textEl.innerHTML = `<strong>Resultat (${phq9Score} point):</strong> Milde depressive symptomer til stede.`;
+      actionEl.innerHTML = `
+        <div style="background:#e0f2fe; border: 1px solid #7dd3fc; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #0369a1;">
+          <strong>Opfølgning:</strong> Gentag PHQ-9 ved opfølgning om et par uger.
+        </div>`;
+    } else if (phq9Score <= 14) {
+      scoreCircle.style.borderColor = "#eab308";
+      scoreCircle.style.background = "#fefce8";
+      scoreNumEl.style.color = "#a16207";
+      statusBadge.className = "phq9-status-badge status-yellow";
+      statusBadge.textContent = "Moderat";
+
+      textEl.innerHTML = `<strong>Resultat (${phq9Score} point):</strong> Moderate depressive symptomer til stede.`;
+      actionEl.innerHTML = `
+        <div style="background:#fef9c3; border: 1px solid #fde047; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #854d0e;">
+          <strong>Opfølgning:</strong> Læg en behandlingsplan i samråd med din læge.
+        </div>`;
+    } else if (phq9Score <= 19) {
+      scoreCircle.style.borderColor = "#f97316";
+      scoreCircle.style.background = "#fff7ed";
+      scoreNumEl.style.color = "#c2410c";
+      statusBadge.className = "phq9-status-badge status-orange";
+      statusBadge.textContent = "Moderat til svær";
+
+      textEl.innerHTML = `<strong>Resultat (${phq9Score} point):</strong> Moderate til svære depressive symptomer til stede.`;
+      actionEl.innerHTML = `
+        <div style="background:#ffedd5; border: 1px solid #fdba74; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #9a3412;">
+          <strong>Opfølgning:</strong> Igangsæt behandling i samråd med fagperson.
+        </div>`;
+    } else {
+      scoreCircle.style.borderColor = "#ef4444";
+      scoreCircle.style.background = "#fef2f2";
+      scoreNumEl.style.color = "#b91c1c";
+      statusBadge.className = "phq9-status-badge status-red";
+      statusBadge.textContent = "Svær";
+
+      textEl.innerHTML = `<strong>Resultat (${phq9Score} point):</strong> Svære depressive symptomer til stede.`;
+      actionEl.innerHTML = `
+        <div style="background:#fee2e2; border: 1px solid #fca5a5; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #991b1b;">
+          <strong>Opfølgning:</strong> Igangsæt øjeblikkelig behandling og henvis til specialist.
+        </div>`;
+    }
+  }
+
+  document.getElementById('phq9-restart-btn').addEventListener('click', function () {
+    currentStep = 1;
+    for (let i = 0; i < answers.length; i++) answers[i] = null;
+
+    document.querySelectorAll('.phq9-option-btn').forEach(b => b.classList.remove('selected'));
+
+    resultCard.style.display = 'none';
+    wizardBody.style.display = 'block';
+    document.querySelector('.phq9-header').style.display = 'block';
+
+    updateUI();
+  });
+
+  updateUI();
+});
+</script>

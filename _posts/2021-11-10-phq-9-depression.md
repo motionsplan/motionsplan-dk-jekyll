@@ -16,22 +16,19 @@ tags:
 - psykologi
 - psykologisk test
 - populær
-last_modified_at: '2021-10-14T08:14:14Z'
+last_modified_at: '2026-08-11T17:00:00Z'
 faq:
 - question: Hvad er forskellen på PHQ-2 og PHQ-9?
-  answer: PHQ-2 er en kort udgave af PHQ-9. PHQ-2 består af de første to spørgsmål i PHQ-9. Den samlede score for PHQ-2 ligger
-    mellem 0-6, og scoren tolkes som positiv for depression, når den er tre eller derover. Det anbefales, at patienter der
-    får en positiv score efterfølgende udfylder PHQ-9
+  answer: PHQ-2 er en kort udgave af PHQ-9. PHQ-2 består af de første to spørgsmål i PHQ-9. Den samlede score for PHQ-2 ligger mellem 0-6, og scoren tolkes som positiv for depression, når den er tre eller derover. Det anbefales, at patienter der får en positiv score efterfølgende udfylder PHQ-9.
 - question: Hvem har udviklet PHQ-2 og PHQ-9 depressionstesten?
-  answer: Denne depressionstest er udviklet af dr. Robert L. Spitzer, dr. Janet B.W. Williams, dr. Kurt Kroenke og kolleger
-    med et uddannelseslegat fra Pfizer Inc.
+  answer: Denne depressionstest er udviklet af dr. Robert L. Spitzer, dr. Janet B.W. Williams, dr. Kurt Kroenke og kolleger med et uddannelseslegat fra Pfizer Inc.
 tests:
   - id: "test-phq9-depression"
     title: "Patient Health Questionnaire (PHQ-2 & PHQ-9)"
     description: "Valideret psykologisk screeningværktøj (Kroenke et al., 2001) til vurdering af tilstedeværelsen og sværhedsgraden af depressive symptomer over de seneste to uger."
     category: ["Psykologi", "Vurderingsværktøjer"]
     type: ["Protokol", "Screening"]
-    execution: ["Spørgeskema"]            # 📋 SPØRGESKEMA / PSYKOMETRISK TEST
+    execution: ["Spørgeskema"]
     method: "spørgeskema"
     modality: ["Psykologi"]
     measures: ["Depressionsscore", "Depressive symptomer", "PHQ-9 score", "PHQ-2 score"]
@@ -41,48 +38,30 @@ tests:
     related_tools:
       - "tool-phq9-beregner"
 
-# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
   - id: "tool-phq9-beregner"
     title: "PHQ-9 Depressionstest Beregner"
     description: "Interaktivt spørgeskema til udregning af din samlede PHQ-9 score og tolkning af sværhedsgraden af depressive symptomer."
     category: ["Psykologi", "Vurderingsværktøjer"]
     type: ["Beregner"]
-    measures: ["Depressionsscore", "PHQ-9 score", "Symptomgrad"]  # 🎯 Output-parametre fra spørgeskemaet
+    measures: ["Depressionsscore", "PHQ-9 score", "Symptomgrad"]
     anchor: "#depression-test"
     category_schema: "HealthAndFitnessApplication"
 ---
 
-Her er en depressionstest, som kan hjælpe dig med finde ud af, om du har tegn på at have en depression. Testen er en anerkendt test af, om du skulle være deprimeret.
+Her er en depressionstest, som kan hjælpe dig med at finde ud af, om du har tegn på at have en depression. Testen er en anerkendt test af, om du skulle være deprimeret.
 
-{% comment %}
-
-depression test
-depressions test
-tegn på depression test
-depressionstest
-deprimeret test
-depression symptomer test
-depression test dansk
-goldbergs depressionstest
-har jeg en depression test
-depression teenager test
-
-{% endcomment %}
-
-Denne depressionstest er gratis, og den er oversat til mange forskellige sprog, bl.a. dansk på [Patient Health Questionnaire (PHQ) Screeners](https://www.phqscreeners.com/select-screener). PHQ-2 er de første to spørgsmål. Hvis du svarer bekræftende på disse depressionssymptomer, vil man typisk besvare alle spørgsmålene med test af flere tegn på depression. Alle 9 spørgsmål kaldes til sammen PHQ-9.
+Denne depressionstest er gratis, og den er oversat til mange forskellige sprog, bl.a. dansk på [Patient Health Questionnaire (PHQ) Screeners](https://www.phqscreeners.com/select-screener). PHQ-2 er de første to spørgsmål. Hvis du svarer bekræftende på disse depressionssymptomer, vil man typisk besvare alle spørgsmålene med test af flere tegn på depression. Alle 9 spørgsmål kaldes tilsammen PHQ-9.
 
 ## Depression test
 
-Her kan du prøve testen online og på dansk. Skemaet belyser tilstedeværelsen af depressive symptomer inden for de seneste to uger, og det kan naturligvis aldrig erstatte at søge professionel hjælp, hvis du tænker at du kan være deprimeret.
+Her kan du prøve testen online og på dansk. Skemaet belyser tilstedeværelsen af depressive symptomer inden for de seneste to uger, og det kan naturligvis aldrig erstatte at søge professionel hjælp, hvis du tænker, at du kan være deprimeret.
 
-{% include calculator/calculate-phq-9.html %}
+{% include components/phq9.html %}
 
-Udover de ni spørgsmål, som danner udgangspunkt for totalscoren, er der til sidst i skemaet et
-supplerende spørgsmål, hvor respondenten skal angive, hvor besværligt de eventuelt angivne
-problemer har gjort det at arbejde, klare daglige gøremål samt komme overens med andre.
+Udover de ni spørgsmål, som danner udgangspunkt for totalscoren, er der til sidst i skemaet et supplerende spørgsmål, hvor respondenten skal angive, hvor besværligt de eventuelt angivne problemer har gjort det at arbejde, klare daglige gøremål samt komme overens med andre.
 
-Dette spørgsmål er naturligvis vigtigt i forhold til hvor svære symptomerne er i dagligdagen.
+Dette spørgsmål er naturligvis vigtigt i forhold til, hvor svære symptomerne er i dagligdagen.
 
 ## Har jeg en depression?
 
@@ -91,18 +70,18 @@ Du kan have en depression, hvis du svarer bekræftende på spørgsmålene i dett
 Jo højere scoren er i spørgeskemaet, jo flere tegn og depressive symptomer er der til stede hos dig. I denne test får du også hjælp til at tolke totalscoren og nogle anbefalinger for, hvordan du skal handle i forhold til resultatet i denne tabel.
 
 | Score | Depressive symptomer | Opfølgning |
-|-|-|-|
-| 0-4 | Ingen til minimal | Ingen |
-| 5-9 | Mild | Gentag PHQ-9 ved opfølgning |
-| 10-14 | Moderat | Læg behandlingsplan |
-| 15-19 | Moderat til svær | Igangsæt behandling |
-| 20-27 | Svær | Igangsæt øjeblikkelig behandling og henvis til specialist |
+| :--- | :--- | :--- |
+| **0 – 4** | Ingen til minimal | Ingen |
+| **5 – 9** | Mild | Gentag PHQ-9 ved opfølgning |
+| **10 – 14** | Moderat | Læg behandlingsplan |
+| **15 – 19** | Moderat til svær | Igangsæt behandling |
+| **20 – 27** | Svær | Igangsæt øjeblikkelig behandling og henvis til specialist |
 
 ## Hvilke tegn er der på at være deprimeret?
 
 - Lille interesse i eller glæde ved at gøre ting
 - Følt dig nedtrykt, håbløs eller været deprimeret
-- Problemer med at falde i [søvn eller sove](/soevn/), eller med at sove for meget
+- Problemer med at falde i [søvn eller sove](/soevn/), eller med at sove for mycket
 - Følt dig træt eller har kun haft lidt energi
 - Ringe appetit eller spist for meget
 - Haft det dårligt med dig selv – eller følt, at du er en fiasko eller har skuffet dig selv eller din familie
@@ -118,7 +97,7 @@ Du kan læse mere om spørgeskemaet på [www.apa.org](https://www.apa.org/pi/abo
 
 ## Depression test på dansk
 
-Testen er oversat til dansk. Jeg har ikke kunne finde yderligere informationer om oversættelsesprocessen eller studier der har valideret den danske udgave. Den danske udgave er bl.a. blevet brugt i et studie med 1.531 danskere, der har fået indopereret en ICD-enhed, så testen bliver jævnligt brugt.
+Testen er oversat til dansk. Jeg har ikke kunnet finde yderligere informationer om oversættelsesprocessen eller studier, der har valideret den danske udgave. Den danske udgave er bl.a. blevet brugt i et studie med 1.531 danskere, der har fået indopereret en ICD-enhed, så testen bliver jævnligt brugt.
 
 ## Ofte stillede spørgsmål om depression testen
 

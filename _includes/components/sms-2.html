@@ -1,0 +1,824 @@
+<div class="sms2-app-container">
+  <!-- Header & Progress Tracker -->
+  <div class="sms2-header">
+    <div class="sms2-tracker-info">
+      <span class="sms2-badge">SMS-II Motivations-test</span>
+      <span class="sms2-step-counter" id="sms2-step-counter">Spørgsmål 1 af 18</span>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="sms2-progress-bar">
+      <div class="sms2-progress-fill" id="sms2-progress-fill" style="width: 5.5%;"></div>
+    </div>
+  </div>
+
+  <!-- Wizard Spørgsmål Container -->
+  <div class="sms2-wizard-body" id="sms2-wizard-body">
+    <div class="sms2-intro-text">
+      Jeg træner / dyrker min sport...
+    </div>
+
+    <!-- 18 Spørgsmål i henhold til Pelletier et al. (2013) -->
+    <!-- Q1 (Intrinsic) -->
+    <div class="sms2-step active" data-step="1" data-cat="int">
+      <h3 class="sms2-question">1. ... fordi det giver mig ren nydelse og glæde at lære mere om min sport.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q2 (Integrated) -->
+    <div class="sms2-step" data-step="2" data-cat="integ">
+      <h3 class="sms2-question">2. ... fordi deltagelse i min sport er en helt grundlæggende del af, hvem jeg er som person.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q3 (Identified) -->
+    <div class="sms2-step" data-step="3" data-cat="ident">
+      <h3 class="sms2-question">3. ... fordi det er en af de bedste måder, jeg har valgt til at udvikle mig som menneske.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q4 (Introjected) -->
+    <div class="sms2-step" data-step="4" data-cat="intro">
+      <h3 class="sms2-question">4. ... fordi jeg ville få det virkelig dårligt med mig selv, hvis jeg ikke gjorde det.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q5 (External) -->
+    <div class="sms2-step" data-step="5" data-cat="ext">
+      <h3 class="sms2-question">5. ... fordi folk omkring mig roser og anerkender mig mere, når jeg gør det.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q6 (Amotivation) -->
+    <div class="sms2-step" data-step="6" data-cat="amo">
+      <h3 class="sms2-question">6. ... men ærligt talt ved jeg snart ikke, om jeg overhovedet har lyst til at fortsætte.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q7 (Intrinsic) -->
+    <div class="sms2-step" data-step="7" data-cat="int">
+      <h3 class="sms2-question">7. ... fordi det giver mig en dyb tilfredsstillelse at forfine mine færdigheder og min teknik.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q8 (Integrated) -->
+    <div class="sms2-step" data-step="8" data-cat="integ">
+      <h3 class="sms2-question">8. ... fordi træning hænger uadskilleligt sammen med de vigtigste værdier i mit liv.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q9 (Identified) -->
+    <div class="sms2-step" data-step="9" data-cat="ident">
+      <h3 class="sms2-question">9. ... fordi jeg værdsætter de helbredsmæssige og kropslige fordele, det giver mig.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q10 (Introjected) -->
+    <div class="sms2-step" data-step="10" data-cat="intro">
+      <h3 class="sms2-question">10. ... fordi jeg ville føle skyld og dårlig samvittighed, hvis jeg sprang over.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q11 (External) -->
+    <div class="sms2-step" data-step="11" data-cat="ext">
+      <h3 class="sms2-question">11. ... fordi jeg føler mig presset af andre (træner, partnere, netværk) til at gøre det.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q12 (Amotivation) -->
+    <div class="sms2-step" data-step="12" data-cat="amo">
+      <h3 class="sms2-question">12. ... men jeg føler, at jeg bruger tid uden rigtigt at opnå noget meningsfuldt.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q13 (Intrinsic) -->
+    <div class="sms2-step" data-step="13" data-cat="int">
+      <h3 class="sms2-question">13. ... på grund af den fantastiske fornemmelse af flow og glæde, jeg mærker undervejs.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q14 (Integrated) -->
+    <div class="sms2-step" data-step="14" data-cat="integ">
+      <h3 class="sms2-question">14. ... fordi min sport afspejler den måde, jeg har valgt at leve mit liv på.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q15 (Identified) -->
+    <div class="sms2-step" data-step="15" data-cat="ident">
+      <h3 class="sms2-question">15. ... fordi det er et bevidst og meningsfuldt valg for mig at holde mig i form.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q16 (Introjected) -->
+    <div class="sms2-step" data-step="16" data-cat="intro">
+      <h3 class="sms2-question">16. ... fordi jeg ville føle mig som en fiasko, hvis jeg ikke blev ved.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q17 (External) -->
+    <div class="sms2-step" data-step="17" data-cat="ext">
+      <h3 class="sms2-question">17. ... for at opnå belønninger, anerkendelse, medaljer eller god omtale.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Q18 (Amotivation) -->
+    <div class="sms2-step" data-step="18" data-cat="amo">
+      <h3 class="sms2-question">18. ... men jeg kan usikkert se, hvad nytten egentlig er ved alt dette slid.</h3>
+      <div class="sms2-options-grid">
+        <button type="button" class="sms2-option-btn" data-val="1"><span class="sms2-opt-num">1</span> Passer overhovedet ikke</button>
+        <button type="button" class="sms2-option-btn" data-val="2"><span class="sms2-opt-num">2</span> Passer i meget ringe grad</button>
+        <button type="button" class="sms2-option-btn" data-val="3"><span class="sms2-opt-num">3</span> Passer i mindre grad</button>
+        <button type="button" class="sms2-option-btn" data-val="4"><span class="sms2-opt-num">4</span> Hverken eller</button>
+        <button type="button" class="sms2-option-btn" data-val="5"><span class="sms2-opt-num">5</span> Passer i nogen grad</button>
+        <button type="button" class="sms2-option-btn" data-val="6"><span class="sms2-opt-num">6</span> Passer i høj grad</button>
+        <button type="button" class="sms2-option-btn" data-val="7"><span class="sms2-opt-num">7</span> Passer fuldstændigt</button>
+      </div>
+    </div>
+
+    <!-- Navigation Fod -->
+    <div class="sms2-nav-footer">
+      <button type="button" class="sms2-nav-btn prev" id="sms2-prev-btn" disabled>← Forrige</button>
+      <span class="sms2-auto-hint">Klik på et svar for at gå videre</span>
+    </div>
+  </div>
+
+  <!-- Resultat Dashboard -->
+  <div class="sms2-result-card" id="sms2-result-card" style="display: none;">
+    <div class="sms2-result-header">
+      <h2>Din Motivationsprofil</h2>
+      <p class="sms2-result-subtitle">Målt ud fra Sport Motivation Scale II (SMS-II)</p>
+    </div>
+
+    <div class="sms2-scores-summary">
+      <div class="sms2-score-box">
+        <div class="sms2-score-val" id="sms2-auto-score">0.0</div>
+        <div class="sms2-score-lbl">Autonom Motivation (Indre)</div>
+      </div>
+      <div class="sms2-score-box">
+        <div class="sms2-score-val" id="sms2-ctrl-score">0.0</div>
+        <div class="sms2-score-lbl">Kontrolleret Motivation (Ydre)</div>
+      </div>
+    </div>
+
+    <div class="sms2-status-badge" id="sms2-status-badge">Beregner...</div>
+
+    <!-- 6 Underkategorier Grid -->
+    <div class="sms2-subscales-grid">
+      <div class="sms2-subscale-card">
+        <div class="subscale-title">1. Indre Motivation</div>
+        <div class="subscale-score" id="sms2-int-score">0.0 / 7.0</div>
+        <div class="subscale-desc">Glæde, flow & læring</div>
+      </div>
+      <div class="sms2-subscale-card">
+        <div class="subscale-title">2. Integreret Motivation</div>
+        <div class="subscale-score" id="sms2-integ-score">0.0 / 7.0</div>
+        <div class="subscale-desc">Identitet & livsværdier</div>
+      </div>
+      <div class="sms2-subscale-card">
+        <div class="subscale-title">3. Identificeret Motivation</div>
+        <div class="subscale-score" id="sms2-ident-score">0.0 / 7.0</div>
+        <div class="subscale-desc">Gavnlige mål & sundhed</div>
+      </div>
+      <div class="sms2-subscale-card">
+        <div class="subscale-title">4. Introjekteret Motivation</div>
+        <div class="subscale-score" id="sms2-intro-score">0.0 / 7.0</div>
+        <div class="subscale-desc">Skyldfølelse & undgåelse</div>
+      </div>
+      <div class="sms2-subscale-card">
+        <div class="subscale-title">5. Ekstern Motivation</div>
+        <div class="subscale-score" id="sms2-ext-score">0.0 / 7.0</div>
+        <div class="subscale-desc">Belønninger & ydre pres</div>
+      </div>
+      <div class="sms2-subscale-card">
+        <div class="subscale-title">6. Amotivation</div>
+        <div class="subscale-score" id="sms2-amo-score">0.0 / 7.0</div>
+        <div class="subscale-desc">Mangel på drivkraft</div>
+      </div>
+    </div>
+
+    <div class="sms2-result-description" id="sms2-result-text">
+      <!-- Dynamisk tekst fra JS -->
+    </div>
+
+    <div class="sms2-action-box" id="sms2-action-box">
+      <!-- Dynamiske anbefalinger -->
+    </div>
+
+    <button type="button" class="sms2-restart-btn" id="sms2-restart-btn">🔄 Tag testen igen</button>
+  </div>
+
+  <!-- Kildeangivelse i Bunden -->
+  <div class="sms2-source-footer">
+    📌 <strong>Kilde & Licens:</strong> <em>Sport Motivation Scale II (SMS-II)</em> af Pelletier et al. (2013). Baseret på Selvbestemmelsesteorien (Deci & Ryan). Må benyttes frit til akademiske, oplysende og idrætsmæssige formål.
+  </div>
+</div>
+
+<style>
+/* CSS STYLES FOR SMS-II ELEGANT TOOL */
+.sms2-app-container {
+  max-width: 680px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1e293b;
+}
+
+.sms2-header {
+  padding: 24px 28px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.sms2-tracker-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.sms2-badge {
+  background: #dcfce7;
+  color: #15803d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sms2-step-counter {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.sms2-progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.sms2-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #16a34a, #0284c7);
+  transition: width 0.35s ease;
+}
+
+.sms2-wizard-body {
+  padding: 28px;
+}
+
+.sms2-intro-text {
+  font-size: 0.92rem;
+  color: #64748b;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.sms2-step {
+  display: none;
+  animation: fadeIn 0.35s ease-in-out;
+}
+
+.sms2-step.active {
+  display: block;
+}
+
+.sms2-question {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.45;
+}
+
+.sms2-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sms2-option-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 14px;
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #334155;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.sms2-option-btn:hover {
+  border-color: #86efac;
+  background: #f0fdf4;
+  transform: translateY(-1px);
+}
+
+.sms2-option-btn.selected {
+  border-color: #16a34a;
+  background: #dcfce7;
+  color: #14532d;
+  font-weight: 600;
+}
+
+.sms2-opt-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  margin-right: 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #475569;
+  flex-shrink: 0;
+}
+
+.sms2-option-btn.selected .sms2-opt-num {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+.sms2-nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.sms2-nav-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sms2-nav-btn.prev {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.sms2-nav-btn.prev:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.sms2-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.sms2-auto-hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.sms2-result-card {
+  padding: 32px 28px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.sms2-result-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #0f172a;
+}
+
+.sms2-result-subtitle {
+  color: #64748b;
+  margin-top: 4px;
+  font-size: 0.95rem;
+}
+
+.sms2-scores-summary {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 24px 0 16px;
+}
+
+.sms2-score-box {
+  flex: 1;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.sms2-score-val {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #16a34a;
+  line-height: 1;
+}
+
+.sms2-score-lbl {
+  font-size: 0.8rem;
+  color: #64748b;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.sms2-status-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.status-green { background: #dcfce7; color: #166534; }
+.status-yellow { background: #fef9c3; color: #854d0e; }
+.status-red { background: #fee2e2; color: #991b1b; }
+
+.sms2-subscales-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.sms2-subscale-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.subscale-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #475569;
+}
+
+.subscale-score {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 2px 0;
+}
+
+.subscale-desc {
+  font-size: 0.68rem;
+  color: #94a3b8;
+}
+
+.sms2-result-description {
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 12px;
+  color: #334155;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+  border-left: 4px solid #16a34a;
+}
+
+.sms2-action-box {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.sms2-restart-btn {
+  padding: 12px 24px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.sms2-restart-btn:hover {
+  background: #334155;
+}
+
+.sms2-source-footer {
+  padding: 12px 24px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.78rem;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.4;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 580px) {
+  .sms2-subscales-grid {
+    grid-template-columns: 1fr;
+  }
+  .sms2-wizard-body, .sms2-header, .sms2-result-card {
+    padding: 18px;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  let currentStep = 1;
+  const totalSteps = 18;
+  const rawAnswers = new Array(18).fill(null);
+
+  // Subskala indeksing (1-baseret spørgsmålsnr)
+  const intItems = [1, 7, 13];    // Intrinsic
+  const integItems = [2, 8, 14];  // Integrated
+  const identItems = [3, 9, 15];  // Identified
+  const introItems = [4, 10, 16]; // Introjected
+  const extItems = [5, 11, 17];   // External
+  const amoItems = [6, 12, 18];   // Amotivation
+
+  const stepCounter = document.getElementById('sms2-step-counter');
+  const progressFill = document.getElementById('sms2-progress-fill');
+  const steps = document.querySelectorAll('.sms2-step');
+  const prevBtn = document.getElementById('sms2-prev-btn');
+  const wizardBody = document.getElementById('sms2-wizard-body');
+  const resultCard = document.getElementById('sms2-result-card');
+
+  function updateUI() {
+    stepCounter.textContent = `Spørgsmål ${currentStep} af ${totalSteps}`;
+
+    const progressPercent = (currentStep / totalSteps) * 100;
+    progressFill.style.width = `${progressPercent}%`;
+
+    steps.forEach((step) => {
+      step.classList.remove('active');
+      if (parseInt(step.getAttribute('data-step')) === currentStep) {
+        step.classList.add('active');
+      }
+    });
+
+    prevBtn.disabled = currentStep === 1;
+  }
+
+  document.querySelectorAll('.sms2-option-btn').forEach((btn) => {
+    btn.addEventListener('click', function () {
+      const val = parseInt(this.getAttribute('data-val'));
+      rawAnswers[currentStep - 1] = val;
+
+      const currentStepEl = document.querySelector(`.sms2-step[data-step="${currentStep}"]`);
+      currentStepEl.querySelectorAll('.sms2-option-btn').forEach(b => b.classList.remove('selected'));
+      this.classList.add('selected');
+
+      setTimeout(() => {
+        if (currentStep < totalSteps) {
+          currentStep++;
+          updateUI();
+        } else {
+          calculateResults();
+        }
+      }, 250);
+    });
+  });
+
+  prevBtn.addEventListener('click', function () {
+    if (currentStep > 1) {
+      currentStep--;
+      updateUI();
+    }
+  });
+
+  function calculateResults() {
+    const calcMean = (items) => {
+      const sum = items.reduce((acc, qidx) => acc + (rawAnswers[qidx - 1] || 1), 0);
+      return sum / items.length;
+    };
+
+    const intMean = calcMean(intItems);
+    const integMean = calcMean(integItems);
+    const identMean = calcMean(identItems);
+    const introMean = calcMean(introItems);
+    const extMean = calcMean(extItems);
+    const amoMean = calcMean(amoItems);
+
+    // Samlet Autonom score vs Kontrolleret score
+    const autonomousScore = (intMean + integMean + identMean) / 3;
+    const controlledScore = (introMean + extMean) / 2;
+
+    wizardBody.style.display = 'none';
+    document.querySelector('.sms2-header').style.display = 'none';
+    resultCard.style.display = 'block';
+
+    document.getElementById('sms2-auto-score').textContent = autonomousScore.toFixed(1);
+    document.getElementById('sms2-ctrl-score').textContent = controlledScore.toFixed(1);
+
+    document.getElementById('sms2-int-score').textContent = `${intMean.toFixed(1)} / 7.0`;
+    document.getElementById('sms2-integ-score').textContent = `${integMean.toFixed(1)} / 7.0`;
+    document.getElementById('sms2-ident-score').textContent = `${identMean.toFixed(1)} / 7.0`;
+    document.getElementById('sms2-intro-score').textContent = `${introMean.toFixed(1)} / 7.0`;
+    document.getElementById('sms2-ext-score').textContent = `${extMean.toFixed(1)} / 7.0`;
+    document.getElementById('sms2-amo-score').textContent = `${amoMean.toFixed(1)} / 7.0`;
+
+    const statusBadge = document.getElementById('sms2-status-badge');
+    const textEl = document.getElementById('sms2-result-text');
+    const actionEl = document.getElementById('sms2-action-box');
+
+    if (amoMean >= 4.0) {
+      statusBadge.className = "sms2-status-badge status-red";
+      statusBadge.textContent = "Udtalt Amotivation / Meningsløshed";
+
+      textEl.innerHTML = `<strong>Høj amotivation (${amoMean.toFixed(1)} point):</strong> Din profil viser, at du i øjeblikket kæmper med at finde mening med din træning. Dette ses ofte ved overtræning eller udbrændthed.`;
+      actionEl.innerHTML = `
+        <div style="background:#fee2e2; border: 1px solid #fca5a5; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #991b1b;">
+          <strong>Anbefaling:</strong> Overvej at tage et par dages pause, eller afprøv vores <a href="/abq-udbraendthed-overtraening/" style="color:#991b1b; font-weight:bold; text-decoration:underline;">ABQ Udbrændthedstest</a> for at undersøge, om kroppen har brug for hvile.
+        </div>`;
+    } else if (autonomousScore >= controlledScore) {
+      statusBadge.className = "sms2-status-badge status-green";
+      statusBadge.textContent = "Sund Indre Motivation (Autonom)";
+
+      textEl.innerHTML = `<strong>Stærkt personligt fundament (${autonomousScore.toFixed(1)} autonom score):</strong> Du drives primært af glæde, læring og personlig mening med din sport. Dette giver den højeste sandsynlighed for langvarige og bæredygtige vaner.`;
+      actionEl.innerHTML = `<p style="font-size:0.9rem; color:#64748b;"><strong>Anbefaling:</strong> Fortsæt med at fokusere på selve processen, fællesskabet og glæden ved bevægelsen.</p>`;
+    } else {
+      statusBadge.className = "sms2-status-badge status-yellow";
+      statusBadge.textContent = "Mærkbar Ydre / Kontrolleret Motivation";
+
+      textEl.innerHTML = `<strong>Mærkbart ydre pres (${controlledScore.toFixed(1)} kontrolleret score):</strong> Din drivkraft afhænger i høj grad af skyldfølelse, kropspres, trofæer eller andres forventninger.`;
+      actionEl.innerHTML = `
+        <div style="background:#fef9c3; border: 1px solid #fde047; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #854d0e;">
+          <strong>Anbefaling:</strong> Forsøg at skrue ned for "bør/skal"-tankegangen og sammenligningen på sociale medier. Vælg træningsformer, som du reelt holder af at udføre.
+        </div>`;
+    }
+  }
+
+  document.getElementById('sms2-restart-btn').addEventListener('click', function () {
+    currentStep = 1;
+    for (let i = 0; i < rawAnswers.length; i++) rawAnswers[i] = null;
+
+    document.querySelectorAll('.sms2-option-btn').forEach(b => b.classList.remove('selected'));
+
+    resultCard.style.display = 'none';
+    wizardBody.style.display = 'block';
+    document.querySelector('.sms2-header').style.display = 'block';
+
+    updateUI();
+  });
+
+  updateUI();
+});
+</script>

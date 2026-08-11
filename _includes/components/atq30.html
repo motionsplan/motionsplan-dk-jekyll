@@ -1,0 +1,733 @@
+Beregner inkluderes hvis muligt at få tilladelse.
+
+{% comment %}
+<div class="atq-app-container">
+  <!-- Version Selector Buttons -->
+  <div class="atq-version-selector">
+    <div class="atq-version-label">Vælg testlængde:</div>
+    <div class="atq-version-btn-group">
+      <button type="button" class="atq-ver-btn active" data-ver="8">⚡ ATQ-8 (1 min)</button>
+      <button type="button" class="atq-ver-btn" data-ver="15">📊 ATQ-15 (2 min)</button>
+      <button type="button" class="atq-ver-btn" data-ver="30">🔬 ATQ-30 (Fuld)</button>
+    </div>
+  </div>
+
+  <!-- Header & Progress Tracker -->
+  <div class="atq-header">
+    <div class="atq-tracker-info">
+      <span class="atq-badge" id="atq-badge">ATQ-8 Test</span>
+      <span class="atq-step-counter" id="atq-step-counter">Spørgsmål 1 af 8</span>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="atq-progress-bar">
+      <div class="atq-progress-fill" id="atq-progress-fill" style="width: 12.5%;"></div>
+    </div>
+  </div>
+
+  <!-- Wizard Spørgsmål Container -->
+  <div class="atq-wizard-body" id="atq-wizard-body">
+    <div class="atq-intro-text">
+      Inden for den <strong>seneste uge</strong>...
+    </div>
+
+    <div id="atq-questions-wrapper">
+      <!-- Spørgsmål genereres dynamisk fra JS -->
+    </div>
+
+    <!-- Navigation Fod -->
+    <div class="atq-nav-footer">
+      <button type="button" class="atq-nav-btn prev" id="atq-prev-btn" disabled>← Forrige</button>
+      <span class="atq-auto-hint">Vælg både hyppighed og overbevisning for at gå videre</span>
+    </div>
+  </div>
+
+  <!-- Resultat Dashboard -->
+  <div class="atq-result-card" id="atq-result-card" style="display: none;">
+    <div class="atq-result-header">
+      <h2>Dine Testresultater</h2>
+      <p class="atq-result-subtitle" id="atq-result-subtitle">Opgjort ud fra ATQ-8</p>
+    </div>
+
+    <div class="atq-scores-summary">
+      <div class="atq-score-box">
+        <div class="atq-score-val" id="atq-freq-total">0</div>
+        <div class="atq-score-lbl" id="atq-freq-lbl">Hyppighed</div>
+      </div>
+      <div class="atq-score-box">
+        <div class="atq-score-val" id="atq-believe-total">0</div>
+        <div class="atq-score-lbl" id="atq-believe-lbl">Tro på tanken</div>
+      </div>
+    </div>
+
+    <div class="atq-status-badge" id="atq-status-badge">Beregner...</div>
+
+    <!-- Subskalaer Grid (vises kun ved ATQ-30) -->
+    <div class="atq-subscales-grid" id="atq-subscales-box" style="display:none;">
+      <div class="atq-subscale-card">
+        <div class="subscale-title">PMDC (Utilpasning & Forandring)</div>
+        <div class="subscale-score" id="atq-pmdc-score">0 / 25</div>
+      </div>
+      <div class="atq-subscale-card">
+        <div class="subscale-title">NSNE (Negativt Selvbillede)</div>
+        <div class="subscale-score" id="atq-nsne-score">0 / 35</div>
+      </div>
+      <div class="atq-subscale-card">
+        <div class="subscale-title">LSE (Lavt Selvværd)</div>
+        <div class="subscale-score" id="atq-lse-score">0 / 10</div>
+      </div>
+      <div class="atq-subscale-card">
+        <div class="subscale-title">Helplessness (Hjælpeløshed)</div>
+        <div class="subscale-score" id="atq-helpless-score">0 / 10</div>
+      </div>
+    </div>
+
+    <div class="atq-result-description" id="atq-result-text">
+      <!-- Dynamisk tekst fra JS -->
+    </div>
+
+    <div class="atq-action-box" id="atq-action-box">
+      <!-- Dynamiske anbefalinger -->
+    </div>
+
+    <button type="button" class="atq-restart-btn" id="atq-restart-btn">🔄 Tag testen igen</button>
+  </div>
+
+  <!-- Kildeangivelse i Bunden -->
+  <div class="atq-source-footer">
+    📌 <strong>Kilde & Kreditering:</strong> <em>Automatic Thoughts Questionnaire (ATQ)</em> af Hollon & Kendall (1980), kortform af Netemeyer et al. (2002), evalueret på dansk af Psykiatrien i Region Syddanmark, SDU og prof. Mia Beck Lichtenstein.
+  </div>
+</div>
+
+<style>
+/* CSS STYLES FOR MULTI-ATQ ELEGANT TOOL */
+.atq-app-container {
+  max-width: 680px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1e293b;
+}
+
+.atq-version-selector {
+  padding: 16px 24px;
+  background: #f1f5f9;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.atq-version-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #475569;
+}
+
+.atq-version-btn-group {
+  display: flex;
+  gap: 6px;
+}
+
+.atq-ver-btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #334155;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.atq-ver-btn.active {
+  background: #4f46e5;
+  color: #ffffff;
+  border-color: #4f46e5;
+  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.2);
+}
+
+.atq-header {
+  padding: 20px 28px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.atq-tracker-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.atq-badge {
+  background: #e0e7ff;
+  color: #3730a3;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.atq-step-counter {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.atq-progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.atq-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  transition: width 0.3s ease;
+}
+
+.atq-wizard-body {
+  padding: 28px;
+}
+
+.atq-intro-text {
+  font-size: 0.92rem;
+  color: #64748b;
+  margin-bottom: 14px;
+}
+
+.atq-step {
+  display: none;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.atq-step.active {
+  display: block;
+}
+
+.atq-question {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 0;
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.atq-dimension-box {
+  background: #f8fafc;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #f1f5f9;
+}
+
+.atq-dim-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 10px;
+}
+
+.atq-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.atq-option-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #334155;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.atq-option-btn:hover {
+  border-color: #818cf8;
+  background: #f5f3ff;
+}
+
+.atq-option-btn.selected {
+  border-color: #4f46e5;
+  background: #eef2ff;
+  color: #312e81;
+  font-weight: 600;
+}
+
+.atq-opt-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #475569;
+  flex-shrink: 0;
+}
+
+.atq-option-btn.selected .atq-opt-num {
+  background: #4f46e5;
+  color: #ffffff;
+}
+
+.atq-nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.atq-nav-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.atq-nav-btn.prev {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.atq-nav-btn.prev:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.atq-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.atq-auto-hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+/* Result Card */
+.atq-result-card {
+  padding: 32px 28px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.atq-result-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #0f172a;
+}
+
+.atq-result-subtitle {
+  color: #64748b;
+  margin-top: 4px;
+  font-size: 0.95rem;
+}
+
+.atq-scores-summary {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 24px 0 16px;
+}
+
+.atq-score-box {
+  flex: 1;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.atq-score-val {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #4f46e5;
+  line-height: 1;
+}
+
+.atq-score-lbl {
+  font-size: 0.8rem;
+  color: #64748b;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.atq-status-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.status-green { background: #dcfce7; color: #166534; }
+.status-yellow { background: #fef9c3; color: #854d0e; }
+.status-red { background: #fee2e2; color: #991b1b; }
+
+.atq-subscales-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.atq-subscale-card {
+  background: #f1f5f9;
+  padding: 12px 14px;
+  border-radius: 10px;
+}
+
+.subscale-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #475569;
+}
+
+.subscale-score {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-top: 2px;
+}
+
+.atq-result-description {
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 12px;
+  color: #334155;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+  border-left: 4px solid #4f46e5;
+}
+
+.atq-action-box {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.atq-restart-btn {
+  padding: 12px 24px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.atq-restart-btn:hover {
+  background: #334155;
+}
+
+.atq-source-footer {
+  padding: 12px 24px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.78rem;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.4;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 580px) {
+  .atq-version-selector {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .atq-subscales-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Fuld database over de 30 ATQ spørgsmål
+  const allQuestions = [
+    { id: 1, text: "Jeg føler, at jeg ikke duer til noget." },
+    { id: 2, text: "Jeg vil aldrig blive til noget." },
+    { id: 3, text: "Jeg kan ikke komme i gang med noget." },
+    { id: 4, text: "Ingen forstår mig." },
+    { id: 5, text: "Jeg har svigtet." },
+    { id: 6, text: "Jeg føler, jeg ikke kan holde det ud længere." },
+    { id: 7, text: "Jeg ville ønske, jeg var en anden." },
+    { id: 8, text: "Jeg er så svag." },
+    { id: 9, text: "Mit liv går ikke i den rigtige retning." },
+    { id: 10, text: "Jeg er så skuffet over mig selv." },
+    { id: 11, text: "Intet føles sjovt længere." },
+    { id: 12, text: "Jeg kan ikke tænke på noget godt." },
+    { id: 13, text: "Jeg er en fiasko." },
+    { id: 14, text: "Hvad er der i vejen med mig?" },
+    { id: 15, text: "Jeg udretter aldrig noget." },
+    { id: 16, text: "Jeg kan ikke klare det mere." },
+    { id: 17, text: "Jeg er en skuffelse for min familie." },
+    { id: 18, text: "Alt er min egen skyld." },
+    { id: 19, text: "Mit liv er et rod." },
+    { id: 20, text: "Jeg ville ønske, jeg bare var et andet sted." },
+    { id: 21, text: "Der er noget galt med mig." },
+    { id: 22, text: "Jeg kan ikke lave noget rigtigt." },
+    { id: 23, text: "Fremtiden ser sort ud." },
+    { id: 24, text: "Det er alt sammen for meget for mig." },
+    { id: 25, text: "Hvorfor kan jeg aldrig opnå noget?" },
+    { id: 26, text: "Jeg føler mig helt alene." },
+    { id: 27, text: "Der er intet at se frem til." },
+    { id: 28, text: "Jeg kan ikke finde ud af noget." },
+    { id: 29, text: "Jeg føler mig helt hjælpeløs." },
+    { id: 30, text: "Det bliver aldrig bedre." }
+  ];
+
+  // Indikator-sæt for de tre udgaver (1-baserede spørgsmåls-IDer)
+  const indices8 = [13, 16, 14, 3, 21, 15, 7, 17]; // ATQ-8
+  const indices15 = [1, 2, 3, 7, 9, 10, 13, 14, 15, 16, 17, 21, 23, 28, 29]; // ATQ-15
+  
+  let currentVer = 8;
+  let activeQuestions = [];
+  let currentStep = 1;
+  let freqAnswers = [];
+  let believeAnswers = [];
+
+  const wrapper = document.getElementById('atq-questions-wrapper');
+  const badgeEl = document.getElementById('atq-badge');
+  const stepCounter = document.getElementById('atq-step-counter');
+  const progressFill = document.getElementById('atq-progress-fill');
+  const prevBtn = document.getElementById('atq-prev-btn');
+  const wizardBody = document.getElementById('atq-wizard-body');
+  const resultCard = document.getElementById('atq-result-card');
+
+  // Skift udgave
+  document.querySelectorAll('.atq-ver-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.atq-ver-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      currentVer = parseInt(this.getAttribute('data-ver'));
+      initTest();
+    });
+  });
+
+  function initTest() {
+    currentStep = 1;
+    resultCard.style.display = 'none';
+    wizardBody.style.display = 'block';
+    document.querySelector('.atq-header').style.display = 'block';
+
+    // Vælg spørgsmåls-pool
+    if (currentVer === 8) {
+      activeQuestions = allQuestions.filter(q => indices8.includes(q.id));
+      badgeEl.textContent = "ATQ-8 Test";
+    } else if (currentVer === 15) {
+      activeQuestions = allQuestions.filter(q => indices15.includes(q.id));
+      badgeEl.textContent = "ATQ-15 Test";
+    } else {
+      activeQuestions = [...allQuestions];
+      badgeEl.textContent = "ATQ-30 Fuld Test";
+    }
+
+    freqAnswers = new Array(activeQuestions.length).fill(null);
+    believeAnswers = new Array(activeQuestions.length).fill(null);
+
+    // Byg HTML for spørgsmålene
+    wrapper.innerHTML = '';
+    activeQuestions.forEach((q, idx) => {
+      const stepDiv = document.createElement('div');
+      stepDiv.className = `atq-step ${idx === 0 ? 'active' : ''}`;
+      stepDiv.setAttribute('data-step', idx + 1);
+      stepDiv.setAttribute('data-qid', q.id);
+
+      stepDiv.innerHTML = `
+        <h3 class="atq-question">${idx + 1}. "${q.text}"</h3>
+        <div class="atq-dimension-box">
+          <div class="atq-dim-title">1. Hvor ofte har du haft denne tanke?</div>
+          <div class="atq-options-grid frequency-grid">
+            <button type="button" class="atq-option-btn freq-btn" data-type="freq" data-val="1"><span class="atq-opt-num">1</span> Slet ikke</button>
+            <button type="button" class="atq-option-btn freq-btn" data-type="freq" data-val="2"><span class="atq-opt-num">2</span> Nogle gange</button>
+            <button type="button" class="atq-option-btn freq-btn" data-type="freq" data-val="3"><span class="atq-opt-num">3</span> Forholdsvis ofte</button>
+            <button type="button" class="atq-option-btn freq-btn" data-type="freq" data-val="4"><span class="atq-opt-num">4</span> Ofte</button>
+            <button type="button" class="atq-option-btn freq-btn" data-type="freq" data-val="5"><span class="atq-opt-num">5</span> Hele tiden</button>
+          </div>
+        </div>
+        <div class="atq-dimension-box" style="margin-top: 14px;">
+          <div class="atq-dim-title">2. I hvor høj grad tror du på tanken, når den dukker op?</div>
+          <div class="atq-options-grid believe-grid">
+            <button type="button" class="atq-option-btn believe-btn" data-type="believe" data-val="1"><span class="atq-opt-num">1</span> Slet ikke</button>
+            <button type="button" class="atq-option-btn believe-btn" data-val="2"><span class="atq-opt-num">2</span> Lidt</button>
+            <button type="button" class="atq-option-btn believe-btn" data-val="3"><span class="atq-opt-num">3</span> Noget</button>
+            <button type="button" class="atq-option-btn believe-btn" data-val="4"><span class="atq-opt-num">4</span> Rigtig meget</button>
+            <button type="button" class="atq-option-btn believe-btn" data-val="5"><span class="atq-opt-num">5</span> Fuldstændigt</button>
+          </div>
+        </div>
+      `;
+      wrapper.appendChild(stepDiv);
+    });
+
+    attachOptionEvents();
+    updateUI();
+  }
+
+  function updateUI() {
+    const totalSteps = activeQuestions.length;
+    stepCounter.textContent = `Spørgsmål ${currentStep} af ${totalSteps}`;
+
+    const progressPercent = (currentStep / totalSteps) * 100;
+    progressFill.style.width = `${progressPercent}%`;
+
+    document.querySelectorAll('.atq-step').forEach(step => {
+      step.classList.remove('active');
+      if (parseInt(step.getAttribute('data-step')) === currentStep) {
+        step.classList.add('active');
+      }
+    });
+
+    prevBtn.disabled = currentStep === 1;
+  }
+
+  function attachOptionEvents() {
+    document.querySelectorAll('.atq-option-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const type = this.getAttribute('data-type');
+        const val = parseInt(this.getAttribute('data-val'));
+        const stepEl = this.closest('.atq-step');
+        const stepIdx = parseInt(stepEl.getAttribute('data-step')) - 1;
+
+        if (type === 'freq') {
+          freqAnswers[stepIdx] = val;
+          stepEl.querySelectorAll('.freq-btn').forEach(b => b.classList.remove('selected'));
+          this.classList.add('selected');
+        } else {
+          believeAnswers[stepIdx] = val;
+          stepEl.querySelectorAll('.believe-btn').forEach(b => b.classList.remove('selected'));
+          this.classList.add('selected');
+        }
+
+        if (freqAnswers[stepIdx] !== null && believeAnswers[stepIdx] !== null) {
+          setTimeout(() => {
+            if (currentStep < activeQuestions.length) {
+              currentStep++;
+              updateUI();
+            } else {
+              calculateResults();
+            }
+          }, 200);
+        }
+      });
+    });
+  }
+
+  prevBtn.addEventListener('click', function() {
+    if (currentStep > 1) {
+      currentStep--;
+      updateUI();
+    }
+  });
+
+  function calculateResults() {
+    const totalFreq = freqAnswers.reduce((acc, v) => acc + (v || 0), 0);
+    const totalBelieve = believeAnswers.reduce((acc, v) => acc + (v || 0), 0);
+    const maxScore = activeQuestions.length * 5;
+
+    wizardBody.style.display = 'none';
+    document.querySelector('.atq-header').style.display = 'none';
+    resultCard.style.display = 'block';
+
+    document.getElementById('atq-result-subtitle').textContent = `Opgjort ud fra ATQ-${currentVer} (${activeQuestions.length} spørgsmål)`;
+    document.getElementById('atq-freq-total').textContent = `${totalFreq} / ${maxScore}`;
+    document.getElementById('atq-believe-total').textContent = `${totalBelieve} / ${maxScore}`;
+    document.getElementById('atq-freq-lbl').textContent = `Hyppighed (max ${maxScore})`;
+    document.getElementById('atq-believe-lbl').textContent = `Tro på tanken (max ${maxScore})`;
+
+    const subscalesBox = document.getElementById('atq-subscales-box');
+    
+    // Vis kun subskalaer ved ATQ-30
+    if (currentVer === 30) {
+      subscalesBox.style.display = 'grid';
+      const pmdcScore = [7, 10, 14, 20, 26].reduce((acc, qid) => acc + (freqAnswers[qid - 1] || 0), 0);
+      const nsneScore = [2, 3, 9, 21, 23, 24, 28].reduce((acc, qid) => acc + (freqAnswers[qid - 1] || 0), 0);
+      const lseScore = [17, 18].reduce((acc, qid) => acc + (freqAnswers[qid - 1] || 0), 0);
+      const helplessScore = [29, 30].reduce((acc, qid) => acc + (freqAnswers[qid - 1] || 0), 0);
+
+      document.getElementById('atq-pmdc-score').textContent = `${pmdcScore} / 25`;
+      document.getElementById('atq-nsne-score').textContent = `${nsneScore} / 35`;
+      document.getElementById('atq-lse-score').textContent = `${lseScore} / 10`;
+      document.getElementById('atq-helpless-score').textContent = `${helplessScore} / 10`;
+    } else {
+      subscalesBox.style.display = 'none';
+    }
+
+    const statusBadge = document.getElementById('atq-status-badge');
+    const textEl = document.getElementById('atq-result-text');
+    const actionEl = document.getElementById('atq-action-box');
+
+    // Relativ grænseværdi baseret på antal spørgsmål
+    const ratio = totalFreq / maxScore;
+
+    if (ratio >= 0.6) {
+      statusBadge.className = "atq-status-badge status-red";
+      statusBadge.textContent = "Høj grad af negative tanker";
+
+      textEl.innerHTML = `<strong>Udtalt mønster (${totalFreq} point i hyppighed):</strong> Automatiske negative tanker fylder en stor del af din hverdag. Du har desuden en stærk overbevisning (${totalBelieve} point) om tankernes sandhed.`;
+      actionEl.innerHTML = `
+        <div style="background:#fee2e2; border: 1px solid #fca5a5; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #991b1b;">
+          <strong>Anbefaling:</strong> Da et vedvarende højt niveau af selvkritiske tanker kan disponere for nedtrykthed eller depression, anbefales det at drøfte dit velbefindende med din læge eller en kognitiv behandler.
+        </div>`;
+    } else if (ratio >= 0.38) {
+      statusBadge.className = "atq-status-badge status-yellow";
+      statusBadge.textContent = "Moderat grad af negative tanker";
+
+      textEl.innerHTML = `<strong>Mærkbar selvkritik (${totalFreq} point i hyppighed):</strong> Du oplever en moderat mængde af automatiske negative tanker, som indimellem kan svække dit humør og dit overskud.`;
+      actionEl.innerHTML = `
+        <div style="background:#fef9c3; border: 1px solid #fde047; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #854d0e;">
+          <strong>Anbefaling:</strong> Du kan med fordel arbejde med kognitive omstruktureringsøvelser (fx på Mindhelper.dk) for at lære at identificere og udfordre tankemønstrene.
+        </div>`;
+    } else {
+      statusBadge.className = "atq-status-badge status-green";
+      statusBadge.textContent = "Lav grad af negative tanker";
+
+      textEl.innerHTML = `<strong>God balance (${totalFreq} point i hyppighed):</strong> Du oplever kun i meget begrænset omfang automatiske negative tanker og har et sundt syn på dig selv.`;
+      actionEl.innerHTML = `<p style="font-size:0.9rem; color:#64748b;"><strong>Anbefaling:</strong> Fortsæt dine sunde og støttende tankegange i hverdagen.</p>`;
+    }
+  }
+
+  document.getElementById('atq-restart-btn').addEventListener('click', initTest);
+
+  // Initialiser første gang
+  initTest();
+});
+</script>
+{% endcomment %}

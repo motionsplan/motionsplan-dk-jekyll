@@ -1,13 +1,13 @@
 ---
-title: 'Trivselsindeks: Test din trivsel og livskvalitet med WHO-5'
-seo_title: 'Trivselsindeks: Test din trivsel og livskvalitet med WHO-5'
+title: 'WHO-5 Trivselsindeks: Test din trivsel og livskvalitet online'
+seo_title: 'WHO-5 Trivselsindeks: Test din trivsel og livskvalitet'
 permalink: /who5-trivselindekset/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1499209974431-9dddcece7f88.jpg
   credit: https://images.unsplash.com/photo-1499209974431-9dddcece7f88
   teaser: /assets/images/unsplash/photo-1499209974431-9dddcece7f88.jpg
-  caption: 'Trivselsindeks: Test din trivsel og livskvalitet med WHO-5'
+  caption: 'Mål din mentaltrivsel og livskvalitet med det validerede WHO-5 spørgeskema.'
 category:
 - Vurderingsværktøjer
 - Psykologi
@@ -15,15 +15,16 @@ tags:
 - vurderingsværktøj
 - psykologi
 - psykologisk test
+- trivselsindeks
 - populær
-last_modified_at: '2021-10-14T08:14:14Z'
+last_modified_at: '2026-08-11T16:00:00Z'
 tests:
   - id: "test-who5-trivsel"
     title: "WHO-5 Trivselsindeks (WHO-5 Well-Being Index)"
-    description: "Internationalt valideret psykologisk screeningværktøj (udviklet af professor Per Bech for WHO) bestående af 5 spørgsmål til vurdering af generel trivsel og livskvalitet over de seneste to uger."
+    description: "Internationalt valideret psykologisk screeningværktøj udviklet for WHO til vurdering af generel trivsel, overskud og livskvalitet over de seneste to uger."
     category: ["Psykologi", "Vurderingsværktøjer"]
     type: ["Protokol", "Screening"]
-    execution: ["Spørgeskema"]            # 📋 SPØRGESKEMA / PSYKOMETRISK TEST
+    execution: ["Spørgeskema"]
     method: "spørgeskema"
     modality: ["Psykologi"]
     measures: ["Trivselsindeks", "Livskvalitet", "WHO-5 score", "Generel trivsel"]
@@ -33,87 +34,85 @@ tests:
     related_tools:
       - "tool-who5-beregner"
 
-# INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
   - id: "tool-who5-beregner"
     title: "WHO-5 Trivselstest Beregner"
     description: "Interaktivt spørgeskema til beregning af dit WHO-5 trivselsindeks (0–100 point) og vurdering af din generelle livskvalitet."
     category: ["Psykologi", "Vurderingsværktøjer"]
     type: ["Beregner"]
-    measures: ["WHO-5 score", "Trivselsindeks", "Livskvalitet", "Trivselsniveau"]  # 🎯 Output-parametre fra spørgeskemaet
+    measures: ["WHO-5 score", "Trivselsindeks", "Livskvalitet", "Trivselsniveau"]
     anchor: "#trivselsindekset-who-5"
     category_schema: "HealthAndFitnessApplication"
 ---
 
-Her er en test, der kan teste din din livskvalitet og trivsel. Testen er udformet af WHO, og den bruges over hele verden som trivselstest.
+Mangel på overskud, høj stressbelastning eller snigende nedtrykthed kan være svær at opdage i en travl hverdag. **WHO-5 Trivselsindeks** er et af verdens mest anerkendte og klinisk validerede værktøjer til hurtigt at måle din psykiske trivsel og livskvalitet.
 
-## Hvad er WHO-5 trivselstest?
+Spørgeskemaet tager under 2 minutter at udfylde og giver dig et direkte billede af dit nuværende mentale overskud.
 
-WHO-5 er et mål for din trivsel. Testen består af fem spørgsmål om, hvordan du har følt dig
-tilpas i de seneste to uger. Spørgsmålene i WHO-5 måler graden af positive oplevelser, og den anvendes som et mål for testpersonernes generelle trivsel og velbefindende.
+---
 
-Spørgsmålene i spørgeskemaet har været testet i forskellige befolkningsgrupper i flere lande. Spørgeskemaet er enkelt at anvende. Det er tilsyneladende pålideligt til at måle testpersonernes trivsel.
+## Hvad er WHO-5 Trivselsindeks?
 
-## Trivselsindekset WHO-5
+WHO-5 er udviklet af den danske professor i psykiatri **Per Bech** i samarbejde med **Verdenssundhedsorganisationen (WHO)**. Skemaet består af 5 enkle spørgsmål, der fokuserer på de positive aspekter af dit mentale helbred over de **seneste 14 dage**.
 
-Svar på de fem udsagn i forhold til, hvordan du har følt dig de **seneste to uger**. Jo højere tal du scorer i testen, desto bedre har din trivsel været.
+Testen spørger ikke direkte ind til symptomer på sygdom eller smerte, men måler i stedet tilstedeværelsen af:
+* Positivt humør og glæde
+* Indre ro og afslappethed
+* Energi og fysisk/mentalt overskud
+* Opvågning med følelsen af at være udhvilet
+* Interesse og engagement i hverdagen
 
-**Eksempel:** Hvis du har følt dig glad i lidt mere end halvdelen af de sneste to uger, så skal du sætte krydset 'Lidt mere end halvdelen af tiden'.
-{: .notice .notice--info }
+---
 
-{% include calculator/calculate-who5.html %}
+## Tag WHO-5 Trivselstesten
 
-## Mere om spørgeskmaet om trivsel
+> **Sådan gør du:** Vælg den svarmulighed for hvert af de 5 spørgsmål, der bedst beskriver, hvordan du har haft det i løbet af de **seneste to uger**.
 
-WHO-5 tager temperaturen på din trivsel. Hvis du scorer lavt i spørgeskemaet, så kan det være en indikation på, at du har brug for støtte eller behandling. Du kan også prøve den internationalt anerkendte [PHQ-9 test af depression](/phq-9-depression-test/).
+{% include components/who5-trivsel.html %}
 
-WHO-5 er udviklet af professor Per Bech for WHO, men kan frit anvendes til måling af trivsel. Hvis du er i tvivl om resultatet, så bør du altid få hjælp af en lægefaglig person til at vurdere dit resultat.
+---
 
-WHO-5 kan også bruges til før- og eftermålinger, hvis du laver livsstilsændringer. Det er en let måde at vurdere på, om du har forbedret din generelle trivsel i en tidsperiode.
+## Hvordan beregnes scoren?
 
-Da testen spørger om din oplevelse de seneste 14 dage, så kan du fx teste dig selv hver 14. dag for at få et bud på din generelle trivsel, hvis du gerne vil følge den tæt. Udsving på et par enkelte point betyder naturligvis ikke ret meget, men hvis du pludselig får markant dårligere trivsel, så kan det være alarmerende.
+Beregningen af WHO-5 foregår i to trin:
 
-## Hvordan måler jeg min trivsel og livskvalitet?
+1. **Råscore:** Hvert spørgsmål besvares på en skala fra 0 (på intet tidspunkt) til 5 (hele tiden). Lægges de sammen, giver det en samlet råscore mellem **0 og 25 point**.
+2. **Trivselsindeks (0–100 %):** Råscoren ganges med 4 for at konvertere tallet til en procentskala fra 0 til 100.
 
-Onlineskemaet lægger automatiske dine svar sammen. Hver valgmulighed har forskellige point tilknyttet sig. Tallene lægges sammen, og derefter ganges tallet med 4. Det betyder, at du har et tal mellem 0 og 100 i trivsel. Jo flere point du har, jo højere trivsel.
+$$\text{WHO-5 Trivselsindeks} = \text{Råscore (0--25)} \times 4$$
 
-Hvis dit tal er under 50, så kan der være risiko for en depression, eller du kan måske være udsat for en stressbelastning. Du kan tjekke vores anden [test for stress](/stress-test/) eller [vores depressionstest](/phq-9-depression-test/).
+En høj score repræsenterer maksimal trivsel og livskvalitet, mens en lav score indikerer risiko for belastning, stress eller depression.
 
-## Tolkning af resultater
+---
 
-Gennemsnittet i befolkningen som helhed er 68 point. Hvis du formår at score mere end 50 point i testen, så er du ikke umiddelbart i risiko fordepression eller at have langvarige stressbelastninger.
+## Tolkning af dine resultater
 
-| Pointtal | Vurdering |
-|-|-|
-| Pointtal mellem 0-35 | Der kan være stor risiko for depression eller stressbelastning |
-| Pointtal mellem 36-50 | Der kan være risiko for depression eller stressbelastning |
-| Pointtal over 50 | Der er ikke umiddelbart risiko for depression eller stressbelastning |
+I den generelle danske befolkning ligger gennemsnittet på ca. **68 point**. 
 
-Hvis du arbejder med din trivsel, så regnes 10 pointtal for en signifikant forskel. Mindre udsving i testen regnes mere som tilfældigheder.
+| WHO-5 Score | Indikation & Tolkning |
+| :--- | :--- |
+| **51 – 100 point** | **God trivsel:** Du har et fornuftigt eller højt mentalt overskud. Der er umiddelbart ingen tegn på alvorlig stress eller nedtrykthed. |
+| **36 – 50 point** | **Nedsat trivsel:** Din trivsel ligger under befolkningens gennemsnit. Du bør være opmærksom på din belastning og overveje livsstilsjusteringer. |
+| **0 – 35 point** | **Markant nedsat trivsel:** Risiko for klinisk depression eller alvorlig langvarig stressbelastning. Det anbefales at søge lægelig/professionel rådgivning. |
+
+> **Bemærk ved opfølgning:** En ændring på **10 point eller mere** mellem to målinger regnes for en klinisk signifikant ændring i din trivsel. Mindre Udsving kan skyldes tilfældige dag-til-dag variationer.
+
+---
 
 ## Hvem kan bruge testen?
 
-**Alder:** WHO-5 har været brugt til testpersoner fra 16 år og op. 16-20-årige scorer
-typisk lidt lavere end 20-80-årige (personer over 80 år scorer typisk lavest).
+WHO-5 er valideret til brug på tværs af køn og aldersgrupper fra **16 år og op**:
 
-**Køn:** Kvinder scorer typisk lidt lavere end mænd (hhv. 67 og 69 pointtal i gennemsnit).
+* **Unge (16–20 år):** Scorer erfaringsmæssigt en smule lavere end voksne i alderen 20–75 år.
+* **Mænd vs. Kvinder:** Mænd scorer i gennemsnit marginalt højere end kvinder (hhv. ca. 69 og 67 point i befolkningsundersøgelser).
+* **Ældre (80+ år):** Viser ofte et fald i den gennemsnitlige score.
 
-## Tilbagemelding fra testen
+---
 
-Når du laver trivselstesten online, så får du naturligvis en generel kommentar baseret på dine spørgsmål. Hvis du er i tvivl om noget eller du scorer lavt i testen, så bør du opsøge en professionel, som kan vejlede dig.
+## Hvad gør du, hvis din score er lav?
 
-Typisk vil vejledningen i testen se nogenlunde sådan her ud:
+En lav score på WHO-5 er ikke i sig selv en diagnose, men et vink om, at dit mentale helbred kræver opmærksomhed. 
 
-- **Pointtal 0-35**: Du ligger væsentligt lavere end gennemsnittet for resten af befolkningen. Resultatet
-tyder på, at du ikke er på toppen, og der kan være en reel risiko for, at du lider af
-depression eller langvarig stress. Du bør overveje at søge hjælp hos din læge, for at få
-det undersøgt.
-- **Pointtal 36-50**: Du ligger lavere end gennemsnittet for resten af befolkningen. Resultatet tyder på, at
-du nok ikke har det helt godt. Vær opmærksom på, om du får det bedre eller værre og
-søg evt. læge, hvis du får det værre.
-- **Pointtal over 50**: Du ligger her inden for gennemsnittet for resten af befolkningen som er 68 med en
-nedre grænse omkring 50.
-
-## Konklusion
-
-Hvis du synes at denne type test var interessant, så kunne du måske også være interesseret i vores test af [træningsafhængighed](/traeningsafhaengighed/).
+1. **Følg op med supplerende screening:** Hvis din score er under 50 point, kan du med fordel tage vores klinisk anerkendte [PHQ-9 Depressionstest](/phq-9-depression-test/) eller [Anerkendte Stresstest (PSS-10)](/stress-test/) for en dybere vurdering.
+2. **Kig på din træning og livsstil:** Hvis du træner meget intensivt og samtidig scorer lavt i trivsel, bør du undersøge, om dit forhold til motion er blevet tvangspræget i vores [Test for Træningsafhængighed (EAI)](/traeningsafhaengighed/).
+3. **Søg faglig rådgivning:** Vedvarende lave scorer (under 35–50 point) over flere uger bør altid drøftes med en læge eller psykolog.

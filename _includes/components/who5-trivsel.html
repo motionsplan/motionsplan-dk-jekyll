@@ -1,0 +1,624 @@
+<div class="who5-app-container">
+  <!-- Header & Progress Tracker -->
+  <div class="who5-header">
+    <div class="who5-tracker-info">
+      <span class="who5-badge">WHO-5 Trivselstest</span>
+      <span class="who5-step-counter" id="who5-step-counter">Spørgsmål 1 af 5</span>
+    </div>
+
+    <!-- Visuel indikator med prikker -->
+    <div class="who5-dots-container">
+      <div class="who5-dot active" data-dot="1">1</div>
+      <div class="who5-dot" data-dot="2">2</div>
+      <div class="who5-dot" data-dot="3">3</div>
+      <div class="who5-dot" data-dot="4">4</div>
+      <div class="who5-dot" data-dot="5">5</div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="who5-progress-bar">
+      <div class="who5-progress-fill" id="who5-progress-fill" style="width: 20%;"></div>
+    </div>
+  </div>
+
+  <!-- Wizard Spørgsmål Container -->
+  <div class="who5-wizard-body" id="who5-wizard-body">
+    <div class="who5-intro-text">
+      I de <strong>seneste 2 uger</strong>...
+    </div>
+
+    <!-- Spørgsmål 1 -->
+    <div class="who5-step active" data-step="1">
+      <h3 class="who5-question">1. ... har jeg været glad og i godt humør</h3>
+      <div class="who5-options-grid">
+        <button type="button" class="who5-option-btn" data-val="5"><span class="who5-opt-num">5</span> Hele tiden</button>
+        <button type="button" class="who5-option-btn" data-val="4"><span class="who5-opt-num">4</span> Det meste af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="3"><span class="who5-opt-num">3</span> Lidt mere end halvdelen af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="2"><span class="who5-opt-num">2</span> Lidt mindre end halvdelen af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="1"><span class="who5-opt-num">1</span> Lidt af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="0"><span class="who5-opt-num">0</span> På intet tidspunkt</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 2 -->
+    <div class="who5-step" data-step="2">
+      <h3 class="who5-question">2. ... har jeg følt mig rolig og afslappet</h3>
+      <div class="who5-options-grid">
+        <button type="button" class="who5-option-btn" data-val="5"><span class="who5-opt-num">5</span> Hele tiden</button>
+        <button type="button" class="who5-option-btn" data-val="4"><span class="who5-opt-num">4</span> Det meste af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="3"><span class="who5-opt-num">3</span> Lidt mere end halvdelen af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="2"><span class="who5-opt-num">2</span> Lidt mindre end halvdelen af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="1"><span class="who5-opt-num">1</span> Lidt af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="0"><span class="who5-opt-num">0</span> På intet tidspunkt</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 3 -->
+    <div class="who5-step" data-step="3">
+      <h3 class="who5-question">3. ... har jeg følt mig aktiv og energisk</h3>
+      <div class="who5-options-grid">
+        <button type="button" class="who5-option-btn" data-val="5"><span class="who5-opt-num">5</span> Hele tiden</button>
+        <button type="button" class="who5-option-btn" data-val="4"><span class="who5-opt-num">4</span> Det meste af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="3"><span class="who5-opt-num">3</span> Lidt mere end halvdelen af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="2"><span class="who5-opt-num">2</span> Lidt mindre end halvdelen af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="1"><span class="who5-opt-num">1</span> Lidt af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="0"><span class="who5-opt-num">0</span> På intet tidspunkt</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 4 -->
+    <div class="who5-step" data-step="4">
+      <h3 class="who5-question">4. ... er jeg vågnet frisk og udhvilet</h3>
+      <div class="who5-options-grid">
+        <button type="button" class="who5-option-btn" data-val="5"><span class="who5-opt-num">5</span> Hele tiden</button>
+        <button type="button" class="who5-option-btn" data-val="4"><span class="who5-opt-num">4</span> Det meste af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="3"><span class="who5-opt-num">3</span> Lidt mere end halvdelen af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="2"><span class="who5-opt-num">2</span> Lidt mindre end halvdelen af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="1"><span class="who5-opt-num">1</span> Lidt af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="0"><span class="who5-opt-num">0</span> På intet tidspunkt</button>
+      </div>
+    </div>
+
+    <!-- Spørgsmål 5 -->
+    <div class="who5-step" data-step="5">
+      <h3 class="who5-question">5. ... har min dagligdag været fyldt med ting, der interesserer mig</h3>
+      <div class="who5-options-grid">
+        <button type="button" class="who5-option-btn" data-val="5"><span class="who5-opt-num">5</span> Hele tiden</button>
+        <button type="button" class="who5-option-btn" data-val="4"><span class="who5-opt-num">4</span> Det meste af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="3"><span class="who5-opt-num">3</span> Lidt mere end halvdelen af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="2"><span class="who5-opt-num">2</span> Lidt mindre end halvdelen af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="1"><span class="who5-opt-num">1</span> Lidt af tiden</button>
+        <button type="button" class="who5-option-btn" data-val="0"><span class="who5-opt-num">0</span> På intet tidspunkt</button>
+      </div>
+    </div>
+
+    <!-- Navigation Fod -->
+    <div class="who5-nav-footer">
+      <button type="button" class="who5-nav-btn prev" id="who5-prev-btn" disabled>← Forrige</button>
+      <span class="who5-auto-hint">Klik på et svar for at gå videre</span>
+    </div>
+  </div>
+
+  <!-- Resultat Dashboard (Skjult fra start) -->
+  <div class="who5-result-card" id="who5-result-card" style="display: none;">
+    <div class="who5-result-header">
+      <h2>Dine Testresultater</h2>
+      <p class="who5-result-subtitle">Målt ud fra WHO-5 Trivselsindeks</p>
+    </div>
+
+    <div class="who5-score-display">
+      <div class="who5-score-circle" id="who5-score-circle">
+        <span class="who5-score-number" id="who5-score-number">0</span>
+        <span class="who5-score-max">/ 100</span>
+      </div>
+      <div class="who5-status-badge" id="who5-status-badge">Beregner...</div>
+    </div>
+
+    <div class="who5-result-description" id="who5-result-text">
+      <!-- Dynamisk tekst fra JS -->
+    </div>
+
+    <div class="who5-action-box" id="who5-action-box">
+      <!-- Dynamiske anbefalinger -->
+    </div>
+
+    <button type="button" class="who5-restart-btn" id="who5-restart-btn">🔄 Tag testen igen</button>
+  </div>
+</div>
+
+<style>
+/* CSS STYLES FOR WHO-5 ELEGANT TOOL */
+.who5-app-container {
+  max-width: 680px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1e293b;
+}
+
+.who5-header {
+  padding: 24px 28px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.who5-tracker-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.who5-badge {
+  background: #e0f2fe;
+  color: #0284c7;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.who5-step-counter {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+/* Dots indikator */
+.who5-dots-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.who5-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #e2e8f0;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.who5-dot.active {
+  background: #0284c7;
+  color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(2, 132, 199, 0.2);
+}
+
+.who5-dot.completed {
+  background: #10b981;
+  color: #ffffff;
+}
+
+/* Progress bar */
+.who5-progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.who5-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #0284c7, #10b981);
+  transition: width 0.4s ease;
+}
+
+/* Body & Wizard Steps */
+.who5-wizard-body {
+  padding: 28px;
+}
+
+.who5-intro-text {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.who5-step {
+  display: none;
+  animation: fadeIn 0.35s ease-in-out;
+}
+
+.who5-step.active {
+  display: block;
+}
+
+.who5-question {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+/* Svarkort / knapper */
+.who5-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.who5-option-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 14px 18px;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: #334155;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.who5-option-btn:hover {
+  border-color: #38bdf8;
+  background: #f0f9ff;
+  transform: translateY(-1px);
+}
+
+.who5-option-btn.selected {
+  border-color: #0284c7;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-weight: 600;
+}
+
+.who5-opt-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  margin-right: 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #475569;
+  flex-shrink: 0;
+}
+
+.who5-option-btn.selected .who5-opt-num {
+  background: #0284c7;
+  color: #ffffff;
+}
+
+/* Navigation footer */
+.who5-nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.who5-nav-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.who5-nav-btn.prev {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.who5-nav-btn.prev:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.who5-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.who5-auto-hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+/* Resultat Card */
+.who5-result-card {
+  padding: 32px 28px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.who5-result-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #0f172a;
+}
+
+.who5-result-subtitle {
+  color: #64748b;
+  margin-top: 4px;
+  font-size: 0.95rem;
+}
+
+.who5-score-display {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.who5-score-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 6px solid #0284c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  background: #f0f9ff;
+}
+
+.who5-score-number {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #0284c7;
+}
+
+.who5-score-max {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.who5-status-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.status-green { background: #dcfce7; color: #166534; }
+.status-yellow { background: #fef9c3; color: #854d0e; }
+.status-red { background: #fee2e2; color: #991b1b; }
+
+.who5-result-description {
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 12px;
+  color: #334155;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+  border-left: 4px solid #0284c7;
+}
+
+.who5-action-box {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.who5-restart-btn {
+  padding: 12px 24px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.who5-restart-btn:hover {
+  background: #334155;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+  .who5-wizard-body, .who5-header, .who5-result-card {
+    padding: 18px;
+  }
+  .who5-question {
+    font-size: 1.1rem;
+  }
+  .who5-option-btn {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  let currentStep = 1;
+  const totalSteps = 5;
+  const answers = [null, null, null, null, null];
+
+  const stepCounter = document.getElementById('who5-step-counter');
+  const progressFill = document.getElementById('who5-progress-fill');
+  const dots = document.querySelectorAll('.who5-dot');
+  const steps = document.querySelectorAll('.who5-step');
+  const prevBtn = document.getElementById('who5-prev-btn');
+  const wizardBody = document.getElementById('who5-wizard-body');
+  const resultCard = document.getElementById('who5-result-card');
+
+  // Opdater UI tilstand
+  function updateUI() {
+    // Opdater step counter
+    stepCounter.textContent = `Spørgsmål ${currentStep} af ${totalSteps}`;
+
+    // Opdater Progress bar
+    const progressPercent = (currentStep / totalSteps) * 100;
+    progressFill.style.width = `${progressPercent}%`;
+
+    // Opdater prikker
+    dots.forEach((dot, idx) => {
+      const stepNum = idx + 1;
+      dot.classList.remove('active', 'completed');
+      if (stepNum === currentStep) {
+        dot.classList.add('active');
+      } else if (stepNum < currentStep) {
+        dot.classList.add('completed');
+      }
+    });
+
+    // Opdater synligt spørgsmål
+    steps.forEach((step) => {
+      step.classList.remove('active');
+      if (parseInt(step.getAttribute('data-step')) === currentStep) {
+        step.classList.add('active');
+      }
+    });
+
+    // Opdater 'Forrige' knap
+    prevBtn.disabled = currentStep === 1;
+  }
+
+  // Håndter valg af svar
+  document.querySelectorAll('.who5-option-btn').forEach((btn) => {
+    btn.addEventListener('click', function () {
+      const val = parseInt(this.getAttribute('data-val'));
+      answers[currentStep - 1] = val;
+
+      // Marker valgte knap i nuværende step
+      const currentStepEl = document.querySelector(`.who5-step[data-step="${currentStep}"]`);
+      currentStepEl.querySelectorAll('.who5-option-btn').forEach(b => b.classList.remove('selected'));
+      this.classList.add('selected');
+
+      // Automatisk videre med en lille forsinkelse for bedre UX
+      setTimeout(() => {
+        if (currentStep < totalSteps) {
+          currentStep++;
+          updateUI();
+        } else {
+          calculateResults();
+        }
+      }, 250);
+    });
+  });
+
+  // Forrige knap
+  prevBtn.addEventListener('click', function () {
+    if (currentStep > 1) {
+      currentStep--;
+      updateUI();
+    }
+  });
+
+  // Beregn og vis resultat
+  function calculateResults() {
+    const rawScore = answers.reduce((acc, val) => acc + (val || 0), 0);
+    const totalScore = rawScore * 4; // Convert to 0-100 scale
+
+    wizardBody.style.display = 'none';
+    document.querySelector('.who5-header').style.display = 'none';
+    resultCard.style.display = 'block';
+
+    // Animer score-tæller
+    const scoreNumEl = document.getElementById('who5-score-number');
+    const scoreCircle = document.getElementById('who5-score-circle');
+    const badgeEl = document.getElementById('who5-status-badge');
+    const textEl = document.getElementById('who5-result-text');
+    const actionEl = document.getElementById('who5-action-box');
+
+    let count = 0;
+    const timer = setInterval(() => {
+      if (count >= totalScore) {
+        scoreNumEl.textContent = totalScore;
+        clearInterval(timer);
+      } else {
+        count += 2;
+        if (count > totalScore) count = totalScore;
+        scoreNumEl.textContent = count;
+      }
+    }, 20);
+
+    // Farver og tolkning
+    if (totalScore > 50) {
+      scoreCircle.style.borderColor = "#10b981";
+      scoreCircle.style.background = "#ecfdf5";
+      scoreNumEl.style.color = "#047857";
+      badgeEl.className = "who5-status-badge status-green";
+      badgeEl.textContent = "God Trivsel & Overskud";
+
+      textEl.innerHTML = `<strong>Flot resultat!</strong> Din score på <strong>${totalScore} point</strong> indikerer god mental trivsel og et fornuftigt overskud i hverdagen. Du ligger inden for eller over befolkningens gennemsnit (ca. 68 point).`;
+      actionEl.innerHTML = `<p style="font-size:0.9rem; color:#64748b;">💡 <em>Tip: Brug testen hver 14. dag til at holde øje med, at dit overskud forbliver højt – særligt under hårde træningsperioder.</em></p>`;
+    } else if (totalScore >= 36) {
+      scoreCircle.style.borderColor = "#eab308";
+      scoreCircle.style.background = "#fefce8";
+      scoreNumEl.style.color = "#a16207";
+      badgeEl.className = "who5-status-badge status-yellow";
+      badgeEl.textContent = "Nedsat Trivsel";
+
+      textEl.innerHTML = `<strong>Nedsat overskud:</strong> Din score på <strong>${totalScore} point</strong> ligger under befolkningens gennemsnit. Det kan være et tegn på hverdagsstress, manglende restitution eller forbigående nedtrykthed.`;
+      actionEl.innerHTML = `
+        <div style="background:#fef9c3; border: 1px solid #fde047; padding: 14px; border-radius: 8px; font-size: 0.9rem;">
+          <strong>Anbefalet næste skridt:</strong><br>
+          • Overvej at skrue lidt ned for træningsbelastning eller arbejdspres.<br>
+          • Følg op med vores <a href="/stress-test/" style="color:#854d0e; font-weight:bold;">Anerkendte Stresstest (PSS-10)</a>.
+        </div>`;
+    } else {
+      scoreCircle.style.borderColor = "#ef4444";
+      scoreCircle.style.background = "#fef2f2";
+      scoreNumEl.style.color = "#b91c1c";
+      badgeEl.className = "who5-status-badge status-red";
+      badgeEl.textContent = "Markant Nedsat Trivsel";
+
+      textEl.innerHTML = `<strong>Opmærksomhed påkrævet:</strong> Din score på <strong>${totalScore} point</strong> indikerer udtalt mangel på overskud. En score under 36 point kan være et tegn på alvorlig langvarig stress eller risiko for depression.`;
+      actionEl.innerHTML = `
+        <div style="background:#fee2e2; border: 1px solid #fca5a5; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #991b1b;">
+          <strong>Anbefaling:</strong> Du bør drøfte dit velbefindende med din egen læge. Du kan også med fordel gennemføre vores <a href="/phq-9-depression-test/" style="color:#991b1b; font-weight:bold; text-decoration:underline;">PHQ-9 Depressionstest</a> for en dybere screening.
+        </div>`;
+    }
+  }
+
+  // Genstart test
+  document.getElementById('who5-restart-btn').addEventListener('click', function () {
+    currentStep = 1;
+    for (let i = 0; i < answers.length; i++) answers[i] = null;
+    
+    document.querySelectorAll('.who5-option-btn').forEach(b => b.classList.remove('selected'));
+    
+    resultCard.style.display = 'none';
+    wizardBody.style.display = 'block';
+    document.querySelector('.who5-header').style.display = 'block';
+    
+    updateUI();
+  });
+
+  // Initialiser
+  updateUI();
+});
+</script>

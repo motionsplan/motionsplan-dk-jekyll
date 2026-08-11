@@ -18,6 +18,7 @@ header:
     rel: nofollow noopener
 category:
 - Styrketræning
+- Styrkeløft
 tags:
 - værktøj
 - styrkeløft
