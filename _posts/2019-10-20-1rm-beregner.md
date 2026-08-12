@@ -1,15 +1,13 @@
 ---
-title: 'RM-beregner: Udregn 1RM max (one rep max)'
-seo_title: 'RM-beregner: Udregn 1RM i bænkpres, squat og dødløft'
+title: 'RM-beregner: Udregn dit 1RM max (One Repetition Maximum)'
+seo_title: '1RM Beregner | Udregn dit max løft i kg & se 1RM tabel'
+description: 'Brug vores gratis 1RM beregner til at udregne dit max løft i kg i bænkpres, squat og dødløft. Se Epleys formel, repetition ranges og 1RM tabel.'
 permalink: /rm-beregner/
 classes: wide
 redirect_from:
   - /artikel/brug-tests-og-faa-fremgang/
   - /1rm-one-rep-max/
-description: Vil du gerne vide, hvor stærk du er? Brug vores RM-beregner og udregn dit 1RM max - eller one repetition maximum
-  - i fx bænkpres, squat og dødløft.
-excerpt: Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Beregn din
-  1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres.
+excerpt: Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Beregn din 1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1526401485004-46910ecc8e51.jpg
@@ -104,7 +102,7 @@ I vores RM-beregner kan du indtaste en vægt du har løftet et antal gange, og s
 ## RM-beregner til 1RM max
 {: id="calculator" }
 
-Indtast hvor mange kg du kan løfte og antallet af gentagelser og vælg en formel, så giver 1RM-beregneren dig din 1-10 RM baseret på formlen. **Bonus!**: Du får også et gennemsnit af resultatet fra alle [RM-formlerne](/1rm-formler/).
+Indtast den løftede vægt i kg og antallet af gentagelser. Vælg en specifik beregningsmetode, eller se det samlede gennemsnit af alle [1RM-formlerne](/1rm-formler/).
 
 {% include calc/1rm.html %}
 
@@ -124,59 +122,35 @@ Når du har din 1RM-max kan du estimere forskellige RM-vægte, som fx kan anvend
 
 {% include figure image_path="https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60" alt="kvinde tester styrke til rm beregner" %}
 
-## Hvordan finder jeg min 1RM med beregneren?
+## Hvordan finder jeg mit maxløft i kg (1RM) med beregneren?
 
-Når du bruger beregneren, så er der et par ting du skal vide:
+For at få det mest præcise resultat ud af RM-beregneren, skal du følge disse enkle retningslinjer:
 
-Testen går således ud på, at du skal finde en vægt, du kan løfte 1 - 10 gange.
+1. **Vælg et submaksimalt løft:** Vælg en vægt, du kan løfte rent mellem **2 og 10 gange** til udmattelse.
+2. **Hold gentagelserne under 10:** Formlerne er mest præcise, når du arbejder tæt på din 1RM. En 3RM- eller 5RM-test giver et langt mere pålideligt resultat end et sæt med 15–20 gentagelser.
+3. **Brug dit normale udstyr:** Hvis du ruller med [træningsbælte](/baelte-styrketraening/) eller knæbind under tunge løft, skal du også bruge det i dit testløft.
+4. **Lav en grundig opvarmning:** Sørg for en god, [specifik opvarmning](/opvarmning-styrketraening/), der forbereder nervesystemet uden at udtrætte musklerne på forhånd.
 
-Du behøver ikke på forhånd at vide nøjagtigt hvor mange gange, du kan løfte vægten. Du må blot ikke kunne løfte den flere end 10 gange. Når du har prøvet øvelsen, noterer du hvor mange gange, du kunne løfte vægten.
+### Eksempel på beregning:
+> Du laver et opvarmet sæt i bænkpres med **80 kg** og presser igennem, så du akkurat klarer **3 gentagelser** (3RM).
+> 
+> Indtaster du 80 kg og 3 reps i beregneren, vil **Epleys formel** udregne dit estimerede 1RM max til **88 kg**.
 
-Du får et mere præcist tal, jo tættere du ligger i antallet af gentagelser ift. den RM-vægt, du gerne vil udregne.
+## Fordele og ulemper ved en RM-beregner
 
-Husk også at bruge det samme udstyr, som du normalt gør i dine maxløft. Hvis du fx er vant til at [bruge et træningsbælte](/baelte-styrketraening/), så skal du også gøre det i dine testløft.
-
-Fx vil en 3RM være et bedre udgangspunkt for at estimere 1RM end en 10RM-test.
-
-Jeg beder oftest eleverne om at forsøge at ramme en 5RM, når de skal lave testen.
-
-Inden du går i gang med testen, skal du sørge for at lave en grundig, [specifik opvarmning til styrketræning](/opvarmning-styrketraening/). 
-
-Opvarmningssættene skal naturligvis ikke udtrætte dine muskler, men den skal samtidig gøre dig klar til at løfte tungt.
-
-Hvis du har brug for flere forsøg, skal du holde mindst 3-5 minutters pause mellem forsøgene, så din krop kan være helt klar til de næste løft.
-
-Eksempel:
-
-Jeg vil teste min maksimale styrke i bænkpres.
-
-Først laver jeg et par opvarmningssæt med let vægt og middelhøj vægt.
-
-Så sætter jeg 80 kg på, og det forventer jeg, at jeg kan løfte 4 gange. Jeg prøver, og det viser sig, at jeg kan løfte vægten 3 gange. Min 3RM er altså 80 kg.
-
-Når jeg ved det, kan jeg bruge 1RM-beregneren til at lave en **udregning af min 1RM**.
-
-Jeg taster mine tal ind, og finder ud af, at min 1RM er 85 kg.
+{% include figure image_path="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="bænkpres 1 rm hand off" %}
 
 ## Fordele ved beregning af 1RM
 
 Den submaksimale estimering af 1RM-max kan være hurtigere og mere sikker særligt for uerfarne løftere end at lave 1RM-løft.
 
-Det kan være forbundet med høj skadesrisiko, at lave maksimale løft for at finde 1RM. Derfor er det smart, at man kan estimere sin maksimale styrke ud fra beregninger.
+### Fordele:
+* **Mindre skadesrisiko:** Du undgår at belaste led, sener og nervesystem med 100 % maximal belastning.
+* **Hurtig opfølgning:** Du kan løbende tjekke din fremgang i træningsprogrammet uden at afsætte en hel uge til maxtests.
 
-Men metoden er ikke fejlfri.
-
-{% include figure image_path="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="bænkpres 1 rm hand off" %}
-
-## Ulemper ved en RM-udregner
-
-En RM-beregning kan både underestimere og overestimere den aktuelle 1RM for løfterne. Der er i hvert fald et par forhold, som man skal tænke på:
-
-- **Træningserfaring**. Nervesystemet og tilvænning er en stor del af maksimal styrke. En begynder som fx løfter 10 gentagelser til udmattelse får herved udregnet en 1RM. Hvis vedkommende ikke er vant til at løfte tunge vægte med maksimal intensitet, så kan nervesystemet måske ikke rekruttere tilstrækkeligt med muskelfibre, eller teknikken bryder ned.
-- **Muskelfibertypesammensætningen** kan også betyde noget for præcisionen af udregningen. Hvis man har en overvægt af type II fibre, kan man forestille sig, at RM-testen vil underestimere 1RM, fordi man ikke er så udholdende ved de submaksimale løft. Omvendt ser det så ud for løftere med en overvægt af de udholdende type I-fibre.
-
-Læs: [Alt om hurtige og langsomme muskelfibertyper](/muskelfibertyper/)
-{: .notice }
+### Ulemper & forbehold:
+* **Træningserfaring:** Uerfarne løftere mangler ofte tilvænning til det neurale pres ved et ægte 1RM-løft. Deres beregnede 1RM kan derfor overestimere, hvad de reelt kan løfte én gang.
+* **Muskelfibertyper:** Løftere med en høj andel af eksplosive [Type II-muskelfibre](/muskelfibertyper/) opnår ofte et højere reelt 1RM end beregnet, mens udholdende løftere med flere Type I-fibre kan få et overestimeret tal ved høje rep ranges.
 
 Du skal altså have valgt den mest pålidelige algoritme til at bestemme netop din egen 1RM max ud fra alle de forskellige formler, der findes.
 
@@ -200,9 +174,9 @@ Her har jeg lavet en regneark i Google Sheets med alle RM-formlerne, hvis du for
 
 {% include motionsplan/templates.html id="rm_beregner_sheet" %}
 
-## Skema og tabel med RM-værdier
+## Skema og 1RM-tabel 
 
-Du kan bruge dette skema over RM-værdier til at estimere dine egne træningsværdier.
+Du kan bruge denne vejledende **1RM tabel** (baseret på Brzyckis formel) til hurtigt at aflæse dit teoretiske max løft i kg eller finde din procentvise belastning:
 
 {% include figure image_path="/assets/images/blog/rm-beregner-tabel-absolute.png" caption="RM skema og tabel baseret på Brzyckis formel til beregning af 1RM." alt="rm skema og tabel over 1rm max" %}
 
