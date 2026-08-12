@@ -58,20 +58,11 @@ tests:
 tools:
   - id: "tool-jump-reach-score-beregner"
     title: "Jump & Reach Score Beregner"
-    description: "Beregn din funktionelle hoppehøjde (Jump & Reach score) i cm ved at trække din stående rækkehøjde fra din målte springhøjde."
+    description: "Beregn din funktionelle hoppehøjde (Jump & Reach score) i cm ved at trække din stående rækkehøjde fra din målte springhøjde og estimér din eksplosive Peak Power (Watt) ud fra hoppehøjde og kropsvægt."
     category: ["Eksplosivitet"]
     type: ["Beregner"]
-    measures: ["Hoppehøjde", "Rækkehøjde", "Jump & Reach score"]  # 🎯 Output-parametre
-    anchor: "#beregner-udregn-din-jump--reach-score"
-    category_schema: "HealthAndFitnessApplication"
-
-  - id: "tool-jump-power-beregner"
-    title: "Vertical Jump Peak Power Beregner"
-    description: "Estimér din eksplosive Peak Power (Watt) ud fra hoppehøjde og kropsvægt baseret på Sayers, Harman og Lewis formlerne."
-    category: ["Eksplosivitet"]
-    type: ["Beregner"]
-    measures: ["Peak Power", "Watt", "Mekanisk effekt"]         # 🎯 Output-parametre
-    anchor: "#beregner-udregn-din-peak-power-i-watt"
+    measures: ["Hoppehøjde", "Peak Power"]  # 🎯 Output-parametre
+    anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 ---
 
@@ -96,7 +87,7 @@ I professionelle sammenhænge udføres Jump & Reach-testen typisk med en **Verte
 
 ### Fordele og ulemper ved Vertec:
 * **Fordele:** Giver hurtige, præcise målinger, og atleten kan hoppe helt frit i luften uden at risikere at ramme en væg.
-* **Ulemper:** En professionel Vertec er relativt dyr (typisk over 600 USD). Mange vælger derfor at bygge deres eget [DIY Vertec-projekt](https://www.youtube.com/watch?v=j0pZ75N970A) eller bruge en markeret basketballplade.
+* **Ulemper:** En professionel Vertec er relativt dyr (typisk over 600 USD). Mange vælger derfor at bygge deres eget [DIY Vertec-projekt](https://www.youtube.com/watch?v=j0pZ75N970A) eller bruge en basketballplade med markeringer.
 
 ---
 
@@ -138,10 +129,11 @@ Uanset hvilken kombination af tilløb, afsæt og rækkehånd du vælger, følges
 ---
 
 ## 🧮 Beregner: Udregn din Jump & Reach score
+{: id="calculator" }
 
-Indtast din stående rækkehøjde og din målte hoppehøjde herunder:
+Indtast din stående rækkehøjde og din målte hoppehøjde herunder - og udregn din peak power:
 
-{% include calculator/calculate-jump-reach.html %}
+{% include calc/jump-reach.html test="jump-reach" %}
 
 ---
 
@@ -179,28 +171,26 @@ $$\text{Peak Power (W)} = 60{,}7 \cdot h + 45{,}3 \cdot m - 2055$$
 *(Hvor $h$ er hoppehøjden i cm, og $m$ er kropsvægten i kg).*
 
 <details markdown="1" class="equation">
-  <summary>Se Harman (1991), Lewis (1974) og Johnson & Bahamonde formler</summary>
-
-#### Harman et al. (1991):
+  <summary>Se Harman (1991)</summary>
 
 $$\text{Peak Power (W)} = 61{,}9 \cdot h + 36 \cdot m - 1822$$
 
-#### Johnson & Bahamonde (1996) (inkluderer højde):
+</details>
+
+<details markdown="1" class="equation">
+  <summary>Johnson & Bahamonde (1996) (inkluderer højde)</summary>
 
 $$\text{Peak Power (W)} = 78{,}6 \cdot h + 60{,}3 \cdot m - 15{,}3 \cdot \text{højde (cm)} - 1308$$
 
-#### Lewis (1974) (Gennemsnitlig power):
+</details>
+
+<details markdown="1" class="equation">
+  <summary>Lewis (1974) (Gennemsnitlig power)</summary>
 
 $$\text{Gennemsnitlig Power (kg}\cdot\text{m/s)} = \sqrt{4{,}9} \cdot m \cdot \sqrt{\frac{h}{100}}$$
 
 *(Gang med 9,81 for at omregne til Watt. Bemærk at Lewis underestimerer Peak Power med 6–10%).*
 </details>
-
----
-
-## 🧮 Beregner: Udregn din Peak Power i Watt
-
-{% include calculator/calculate-vertical-jump-power.html %}
 
 ---
 

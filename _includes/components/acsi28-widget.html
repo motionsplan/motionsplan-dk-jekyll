@@ -1,0 +1,360 @@
+<!-- ACSI-28 INTERAKTIVT VÆRKTØJ (Wizard Format - motionsplan.dk) -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div id="acsi28-card" style="max-width: 720px; margin: 0 auto; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); font-family: system-ui, -apple-system, sans-serif;">
+  
+  <!-- HEADER & PROGRESS BAR -->
+  <div id="acsi-wizard-header" style="border-bottom: 2px solid #f1f5f9; padding-bottom: 16px; margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+      <div>
+        <h3 style="margin: 0; font-size: 1.25rem; font-weight: 800; color: #0f172a;">🧠 ACSI-28: Mentale Styrker</h3>
+        <span id="acsi-step-counter" style="font-size: 0.8rem; font-weight: 700; color: #64748b;">Spørgsmål 1 af 28</span>
+      </div>
+      <span id="acsi-step-pct" style="background: #eff6ff; color: #2563eb; font-size: 0.75rem; font-weight: 800; padding: 6px 12px; border-radius: 20px;">4% færdig</span>
+    </div>
+    
+    <!-- PROGRESS BAR -->
+    <div style="width: 100%; background: #f1f5f9; height: 8px; border-radius: 4px; overflow: hidden;">
+      <div id="acsi-progress-bar" style="width: 3.5%; background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%); height: 100%; transition: width 0.3s ease;"></div>
+    </div>
+  </div>
+
+  <!-- SPØRGSMÅL CONTAINER -->
+  <div id="acsi-quiz-step-container">
+    
+    <div style="margin-bottom: 24px; min-height: 70px;">
+      <span id="acsi-q-category" style="font-size: 0.72rem; font-weight: 800; color: #2563eb; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px;">
+        Kategori
+      </span>
+      <h4 id="acsi-q-text" style="margin: 0; font-size: 1.15rem; font-weight: 700; color: #0f172a; line-height: 1.4;">
+        Spørgsmål indlæses...
+      </h4>
+    </div>
+
+    <!-- FLOTTE SVARKNAPPER (1 PR. LINJE PÅ MOBIL) -->
+    <div id="acsi-options-container" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px;">
+      <!-- Knapper genereres i JS -->
+    </div>
+
+    <!-- NAVIGATION KNAPPER -->
+    <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 16px;">
+      <button type="button" id="acsi-prev-btn" style="background: transparent; border: 1px solid #cbd5e1; color: #64748b; padding: 8px 16px; border-radius: 8px; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 6px; visibility: hidden;">
+        ← Forrige
+      </button>
+      <span style="font-size: 0.75rem; color: #94a3b8; font-weight: 600;">Klik på et svar for at gå videre</span>
+    </div>
+
+  </div>
+
+  <!-- RESULTAT SEKTION (SKJULT INDTIL GENNEMFØRT) -->
+  <div id="acsi28-results" style="display: none;">
+    <div style="text-align: center; margin-bottom: 20px;">
+      <span style="background: #dcfce7; color: #15803d; font-size: 0.75rem; font-weight: 800; padding: 6px 14px; border-radius: 20px;">🎉 Test Gennemført!</span>
+      <h3 style="color: #0f172a; margin: 10px 0 0 0; font-size: 1.5rem;">Din Mentale Profil</h3>
+    </div>
+
+    <!-- SAMLET SCORE HERO BOKS -->
+    <div style="background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); color: #ffffff; border-radius: 16px; padding: 20px; text-align: center; margin-bottom: 24px; box-shadow: 0 8px 20px rgba(37,99,235,0.2);">
+      <span style="font-size: 0.75rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; opacity: 0.9;">SAMLET COPING SCORE</span>
+      <div style="font-size: 3.5rem; font-weight: 900; line-height: 1; margin: 8px 0;">
+        <span id="acsi-total-score">0</span> <span style="font-size: 1.5rem; opacity: 0.7;">/ 84</span>
+      </div>
+      <p id="acsi-total-desc" style="margin: 0; font-size: 0.85rem; opacity: 0.95; line-height: 1.4;"></p>
+    </div>
+
+    <!-- RADAR CHART GRAF -->
+    <div style="position: relative; height: 350px; width: 100%; margin-bottom: 24px;">
+      <canvas id="acsiRadarChart"></canvas>
+    </div>
+
+    <!-- DETALJERET DELSKALA OVERSIGT -->
+    <div id="acsi-subscales-breakdown" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-bottom: 24px;">
+      <!-- Delskalaer indsættes her -->
+    </div>
+
+    <button type="button" id="acsi-restart-btn" style="width: 100%; background: #f1f5f9; border: 1px solid #cbd5e1; color: #334155; padding: 12px; border-radius: 10px; font-weight: 700; cursor: pointer;">
+      🔄 Tag testen igen / Rediger svar
+    </button>
+  </div>
+
+  <!-- KILDEANGIVELSE / FOOTER -->
+  <div style="border-top: 1px solid #f1f5f9; margin-top: 24px; padding-top: 12px; display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #94a3b8; flex-wrap: wrap; gap: 8px;">
+    <span>📌 <b>Kilde:</b> Smith, Schutz, Smoll & Ptacek (1995). <i>ACSI-28</i>.</span>
+    <span>&copy; motionsplan.dk</span>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const STORAGE_KEY = 'motionsplan_acsi28_state';
+  
+  const questions = [
+    { id: 1, sub: 'GoalSetting', text: "Jeg sætter specifikke mål for mig selv i min træning og konkurrence." },
+    { id: 2, sub: 'Confidence', text: "Jeg har en stærk tro på mine egne evner som atlet." },
+    { id: 3, sub: 'Worry', text: "Jeg bekymrer mig om at lave fejl under konkurrence.", reverse: true },
+    { id: 4, sub: 'Concentration', text: "Når jeg er i gang med min sport, kan jeg lukke alle forstyrrelser ude." },
+    { id: 5, sub: 'Adversity', text: "Jeg bevarer roen og kontrollen, selvom dommerkendelser eller ting går imod mig." },
+    { id: 6, sub: 'Peaking', text: "Jeg yder mit absolut bedste, når presset og indsatsen er højest." },
+    { id: 7, sub: 'Coachability', text: "Jeg tager konstruktiv kritik fra trænere som en hjælp, ikke personligt." },
+    { id: 8, sub: 'GoalSetting', text: "Jeg bruger mental gennemspilning (visualisering) før en konkurrence." },
+    { id: 9, sub: 'Confidence', text: "Jeg føler mig selvsikker og parat til at præstere, når konkurrencen starter." },
+    { id: 10, sub: 'Worry', text: "Jeg bekymrer mig om, hvad andre (tilskuere/trænere) tænker om min præstation.", reverse: true },
+    { id: 11, sub: 'Concentration', text: "Det er nemt for mig genfinde mit fokus, hvis jeg mister det et øjeblik." },
+    { id: 12, sub: 'Coachability', text: "Når en træner fortæller mig, hvordan jeg skal rette en fejl, lytter og prøver jeg det med det samme." },
+    { id: 13, sub: 'GoalSetting', text: "Jeg har klare planer og rutiner for, hvordan jeg forbereder mig på en konkurrence." },
+    { id: 14, sub: 'Confidence', text: "Selv når tingene går dårligt, bevarer jeg troen på, at jeg kan vende det til noget positivt." },
+    { id: 15, sub: 'Worry', text: "Jeg bliver så nervøs før en stor konkurrence, at det hæmmer min præstation.", reverse: true },
+    { id: 16, sub: 'Concentration', text: "Uventede afbrydelser eller støj påvirker ikke min opmærksomhed." },
+    { id: 17, sub: 'Adversity', text: "Hvis jeg får en dårlig start, forbliver jeg positiv og kæmper videre." },
+    { id: 18, sub: 'Peaking', text: "Tanken om at præstere under stort pres opfordrer og motiverer mig." },
+    { id: 19, sub: 'Worry', text: "Mens jeg konkurrerer, bekymrer jeg mig om at tabe eller mislykkes.", reverse: true },
+    { id: 20, sub: 'GoalSetting', text: "Jeg evaluerer mine præstationer bagefter for at finde områder til forbedring." },
+    { id: 21, sub: 'Adversity', text: "Når modgang rammer, ser jeg det som en udfordring frem for et problem." },
+    { id: 22, sub: 'Peaking', text: "Når konkurrencen er tæt og afgørende, udnytter jeg energien til at løfte mit niveau." },
+    { id: 23, sub: 'Coachability', text: "Jeg sætter pris på trænere, der er ærlige om mine svagheder." },
+    { id: 24, sub: 'Confidence', text: "Jeg kender mine styrker og stoler på min træning, når det gælder." },
+    { id: 25, sub: 'Adversity', text: "Fejltagelser slår mig ikke ud af kurs – jeg slipper dem med det samme." },
+    { id: 26, sub: 'Peaking', text: "Jeg præsterer bedre i rigtige konkurrencer end til almindelig træning." },
+    { id: 27, sub: 'Concentration', text: "Jeg formår at fokusere på én opgave ad gangen under pres." },
+    { id: 28, sub: 'Coachability', text: "Jeg er åben for at ændre min teknik eller taktik, hvis det gør mig bedre." }
+  ];
+
+  const subscaleNames = {
+    Peaking: "Topræstation under pres",
+    Adversity: "Håndtering af modgang",
+    GoalSetting: "Målsætning & Forberedelse",
+    Concentration: "Koncentrationsevne",
+    Worry: "Frihed for bekymring",
+    Confidence: "Selvtillid & Drivkraft",
+    Coachability: "Trænbarhed & Feedback"
+  };
+
+  const options = [
+    { val: 0, label: "Næsten aldrig" },
+    { val: 1, label: "Nogle gange" },
+    { val: 2, label: "Ofte" },
+    { val: 3, label: "Næsten altid" }
+  ];
+
+  let currentStep = 0;
+  let userAnswers = {};
+  let chartInstance = null;
+
+  // Hent gemte svar
+  function loadSaved() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        userAnswers = JSON.parse(saved);
+      } catch(e) {}
+    }
+  }
+
+  function saveState() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(userAnswers));
+  }
+
+  function renderStep() {
+    const q = questions[currentStep];
+    const totalQ = questions.length;
+    const pct = Math.round(((currentStep + 1) / totalQ) * 100);
+
+    // Opdater Header & Progress
+    document.getElementById('acsi-step-counter').textContent = `Spørgsmål ${currentStep + 1} af ${totalQ}`;
+    document.getElementById('acsi-step-pct').textContent = `${pct}% færdig`;
+    document.getElementById('acsi-progress-bar').style.width = `${pct}%`;
+
+    // Opdater Spørgsmål Tekst
+    document.getElementById('acsi-q-category').textContent = subscaleNames[q.sub] || 'Mentale Styrker';
+    document.getElementById('acsi-q-text').textContent = `${currentStep + 1}. "${q.text}"`;
+
+    // Vis/skjul "Forrige" knap
+    const prevBtn = document.getElementById('acsi-prev-btn');
+    if (currentStep > 0) {
+      prevBtn.style.visibility = 'visible';
+    } else {
+      prevBtn.style.visibility = 'hidden';
+    }
+
+    // Render Flotte Svarknapper
+    const optionsContainer = document.getElementById('acsi-options-container');
+    optionsContainer.innerHTML = '';
+
+    const selectedVal = userAnswers[q.id] !== undefined ? parseInt(userAnswers[q.id]) : null;
+
+    options.forEach(opt => {
+      const isSelected = selectedVal === opt.val;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      
+      // Styling af svarknapper
+      btn.style.cssText = `
+        width: 100%;
+        padding: 14px 18px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-align: left;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: ${isSelected ? '2px solid #2563eb' : '1px solid #cbd5e1'};
+        background: ${isSelected ? '#eff6ff' : '#ffffff'};
+        color: ${isSelected ? '#1e3a8a' : '#334155'};
+        box-shadow: ${isSelected ? '0 4px 12px rgba(37, 99, 235, 0.15)' : '0 2px 4px rgba(0,0,0,0.02)'};
+      `;
+
+      btn.innerHTML = `
+        <span>${opt.label}</span>
+        <span style="width: 20px; height: 20px; border-radius: 50%; border: ${isSelected ? '6px solid #2563eb' : '2px solid #cbd5e1'}; background: #ffffff;"></span>
+      `;
+
+      btn.addEventListener('click', function() {
+        // Gem svar
+        userAnswers[q.id] = opt.val;
+        saveState();
+
+        // Kort forsinkelse for blød transition
+        setTimeout(() => {
+          if (currentStep < totalQ - 1) {
+            currentStep++;
+            renderStep();
+          } else {
+            calculateAndShowResults();
+          }
+        }, 150);
+      });
+
+      optionsContainer.appendChild(btn);
+    });
+  }
+
+  function calculateAndShowResults() {
+    const subTotals = { Peaking: 0, Adversity: 0, GoalSetting: 0, Concentration: 0, Worry: 0, Confidence: 0, Coachability: 0 };
+    let totalScore = 0;
+
+    questions.forEach(q => {
+      let val = parseInt(userAnswers[q.id] !== undefined ? userAnswers[q.id] : '0');
+      if (q.reverse) {
+        val = 3 - val;
+      }
+      subTotals[q.sub] += val;
+      totalScore += val;
+    });
+
+    // Skjul Quiz UI & Vis Resultater
+    document.getElementById('acsi-wizard-header').style.display = 'none';
+    document.getElementById('acsi-quiz-step-container').style.display = 'none';
+    
+    const resultsDiv = document.getElementById('acsi28-results');
+    resultsDiv.style.display = 'block';
+
+    document.getElementById('acsi-total-score').textContent = totalScore;
+
+    const descEl = document.getElementById('acsi-total-desc');
+    if (totalScore >= 65) {
+      descEl.textContent = "Fremragende samlet mental robusthed! Du besidder stærke værktøjer til at præstere under pres.";
+    } else if (totalScore >= 45) {
+      descEl.textContent = "Godt mentalt fundament. Du har solide styrker, men også enkelte områder med mærkbart udviklingspotentiale.";
+    } else {
+      descEl.textContent = "Dit mentale fundament kan styrkes markant. Brug delskalaerne nedenfor til at udpege dine primære fokusområder.";
+    }
+
+    // Render Delskala Kort
+    const breakdown = document.getElementById('acsi-subscales-breakdown');
+    breakdown.innerHTML = '';
+
+    Object.keys(subTotals).forEach(key => {
+      const score = subTotals[key]; // 0-12
+      const pct = Math.round((score / 12) * 100);
+      
+      let badgeColor = '#10b981'; // grøn
+      if (pct < 50) badgeColor = '#ef4444'; // rød
+      else if (pct < 75) badgeColor = '#f59e0b'; // gul
+
+      const item = document.createElement('div');
+      item.style.cssText = "background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px;";
+      item.innerHTML = `
+        <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.8rem; color: #334155; margin-bottom: 6px;">
+          <span>${subscaleNames[key]}</span>
+          <span style="color: ${badgeColor}; font-weight: 800;">${score} / 12</span>
+        </div>
+        <div style="width: 100%; background: #e2e8f0; height: 6px; border-radius: 3px; overflow: hidden;">
+          <div style="width: ${pct}%; background: ${badgeColor}; height: 100%;"></div>
+        </div>
+      `;
+      breakdown.appendChild(item);
+    });
+
+    renderRadarChart(subTotals);
+    resultsDiv.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  function renderRadarChart(subs) {
+    const ctx = document.getElementById('acsiRadarChart').getContext('2d');
+    if (chartInstance) chartInstance.destroy();
+
+    chartInstance = new Chart(ctx, {
+      type: 'radar',
+      data: {
+        labels: Object.keys(subs).map(k => subscaleNames[k]),
+        datasets: [{
+          label: 'Dine Mentale Styrker (0-12 point)',
+          data: Object.values(subs),
+          backgroundColor: 'rgba(37, 99, 235, 0.2)',
+          borderColor: '#2563eb',
+          borderWidth: 2,
+          pointBackgroundColor: '#2563eb'
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          r: {
+            min: 0,
+            max: 12,
+            ticks: { stepSize: 3 }
+          }
+        }
+      }
+    });
+  }
+
+  // Event Listeners
+  document.getElementById('acsi-prev-btn').addEventListener('click', function() {
+    if (currentStep > 0) {
+      currentStep--;
+      renderStep();
+    }
+  });
+
+  document.getElementById('acsi-restart-btn').addEventListener('click', function() {
+    document.getElementById('acsi-wizard-header').style.display = 'block';
+    document.getElementById('acsi-quiz-step-container').style.display = 'block';
+    document.getElementById('acsi28-results').style.display = 'none';
+    currentStep = 0;
+    renderStep();
+  });
+
+  // Start Op
+  loadSaved();
+  
+  // Hvis alle 28 er besvaret i forvejen, vis resultat direkte
+  if (Object.keys(userAnswers).length >= 28) {
+    calculateAndShowResults();
+  } else {
+    // Ellers hop til første ubesvarede spørgsmål
+    for (let i = 0; i < questions.length; i++) {
+      if (userAnswers[questions[i].id] === undefined) {
+        currentStep = i;
+        break;
+      }
+    }
+    renderStep();
+  }
+})();
+</script>

@@ -156,8 +156,4 @@ I vores Corona workouts har du ikke brug for udstyr. Men du kan naturligvis alti
 
 {% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.kinetik_vx1_vaegtvest view="card" %}
 
-Du behøver dog ikke noget udstyr for at træne hjemme. Måske kan du finde inspiration og motivation i at bruge elastikker, [kettlebells](/artikel/hvordan-traener-man-med-kettlebells/), [TRX og slyngetræning](/artikel/traening-med-slynger-trx-powersling-suspension-training/) eller måske vil du gerne have det helt store udstyr. Hvis du leder efter udstyr, kan du finde det hos disse webshops:
-
-{% include motionsplan/affiliate-box.html type="shop" item=site.data.affiliates.shops.apuls view="card" %}
-{% include motionsplan/affiliate-box.html type="shop" item=site.data.affiliates.shops.den_intelligente_krop view="card" %}
-{% include motionsplan/affiliate-box.html type="shop" item=site.data.affiliates.shops.billig_fitness_dk view="card" %}
+Du behøver dog ikke noget udstyr for at træne hjemme. Måske kan du finde inspiration og motivation i at bruge elastikker, [kettlebells](/artikel/hvordan-traener-man-med-kettlebells/), [TRX og slyngetræning](/artikel/traening-med-slynger-trx-powersling-suspension-training/) eller måske vil du gerne have det helt store udstyr. Hvis du leder efter udstyr, kan du finde det hos [disse webshops](/fitnessbutikker).

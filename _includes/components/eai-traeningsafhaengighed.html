@@ -1,13 +1,9 @@
-Beregner inkluderes hvis muligt at få tilladelse.
-
-{% comment %}
-
 <div class="eai-app-container">
   <!-- Header & Progress Tracker -->
   <div class="eai-header">
     <div class="eai-tracker-info">
       <span class="eai-badge">Træningsafhængighed (EAI)</span>
-      <span class="eai-step-counter" id="eai-step-counter">Spørgsmål 1 af 6</span>
+      <span class="eai-step-counter" id="eai-step-counter">Spørgsmål 1 af 8</span>
     </div>
 
     <!-- Dots Indikator -->
@@ -18,11 +14,13 @@ Beregner inkluderes hvis muligt at få tilladelse.
       <div class="eai-dot" data-dot="4">4</div>
       <div class="eai-dot" data-dot="5">5</div>
       <div class="eai-dot" data-dot="6">6</div>
+      <div class="eai-dot" data-dot="7">7</div>
+      <div class="eai-dot" data-dot="8">8</div>
     </div>
 
     <!-- Progress bar -->
     <div class="eai-progress-bar">
-      <div class="eai-progress-fill" id="eai-progress-fill" style="width: 16.6%;"></div>
+      <div class="eai-progress-fill" id="eai-progress-fill" style="width: 12.5%;"></div>
     </div>
   </div>
 
@@ -34,73 +32,105 @@ Beregner inkluderes hvis muligt at få tilladelse.
 
     <!-- Q1 -->
     <div class="eai-step active" data-step="1">
-      <h3 class="eai-question">1. Træning er det vigtigste i mit liv.</h3>
+      <div class="eai-question">1. Træning er det vigtigste i mit liv.</div>
       <div class="eai-options-grid">
         <button type="button" class="eai-option-btn" data-val="1"><span class="eai-opt-num">1</span> Meget uenig</button>
         <button type="button" class="eai-option-btn" data-val="2"><span class="eai-opt-num">2</span> Uenig</button>
-        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Hverken eller</button>
-        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Enig</button>
-        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Meget enig</button>
+        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Lidt uenig</button>
+        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Lidt enig</button>
+        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Enig</button>
+        <button type="button" class="eai-option-btn" data-val="6"><span class="eai-opt-num">6</span> Meget enig</button>
       </div>
     </div>
 
     <!-- Q2 -->
     <div class="eai-step" data-step="2">
-      <h3 class="eai-question">2. Jeg træner så meget, at jeg får konflikter med min familie, partner eller venner.</h3>
+      <div class="eai-question">2. Min familie og/eller min partner er bekymret for min træningsmængde.</div>
       <div class="eai-options-grid">
         <button type="button" class="eai-option-btn" data-val="1"><span class="eai-opt-num">1</span> Meget uenig</button>
         <button type="button" class="eai-option-btn" data-val="2"><span class="eai-opt-num">2</span> Uenig</button>
-        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Hverken eller</button>
-        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Enig</button>
-        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Meget enig</button>
+        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Lidt uenig</button>
+        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Lidt enig</button>
+        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Enig</button>
+        <button type="button" class="eai-option-btn" data-val="6"><span class="eai-opt-num">6</span> Meget enig</button>
       </div>
     </div>
 
     <!-- Q3 -->
     <div class="eai-step" data-step="3">
-      <h3 class="eai-question">3. Jeg bruger træning til at ændre humør (fx for at få et kick eller slippe væk).</h3>
+      <div class="eai-question">3. Jeg bruger træning til at ændre humør (f.eks. for at få et kick eller slippe væk).</div>
       <div class="eai-options-grid">
         <button type="button" class="eai-option-btn" data-val="1"><span class="eai-opt-num">1</span> Meget uenig</button>
         <button type="button" class="eai-option-btn" data-val="2"><span class="eai-opt-num">2</span> Uenig</button>
-        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Hverken eller</button>
-        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Enig</button>
-        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Meget enig</button>
+        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Lidt uenig</button>
+        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Lidt enig</button>
+        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Enig</button>
+        <button type="button" class="eai-option-btn" data-val="6"><span class="eai-opt-num">6</span> Meget enig</button>
       </div>
     </div>
 
     <!-- Q4 -->
     <div class="eai-step" data-step="4">
-      <h3 class="eai-question">4. Jeg øger hele tiden min daglige træning.</h3>
+      <div class="eai-question">4. Jeg øger hele tiden min daglige træning.</div>
       <div class="eai-options-grid">
         <button type="button" class="eai-option-btn" data-val="1"><span class="eai-opt-num">1</span> Meget uenig</button>
         <button type="button" class="eai-option-btn" data-val="2"><span class="eai-opt-num">2</span> Uenig</button>
-        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Hverken eller</button>
-        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Enig</button>
-        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Meget enig</button>
+        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Lidt uenig</button>
+        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Lidt enig</button>
+        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Enig</button>
+        <button type="button" class="eai-option-btn" data-val="6"><span class="eai-opt-num">6</span> Meget enig</button>
       </div>
     </div>
 
     <!-- Q5 -->
     <div class="eai-step" data-step="5">
-      <h3 class="eai-question">5. Hvis jeg går glip af et træningspas, bliver jeg rastløs, irritabel eller trist.</h3>
+      <div class="eai-question">5. Hvis jeg går glip af et træningspas, bliver jeg rastløs, irritabel eller trist.</div>
       <div class="eai-options-grid">
         <button type="button" class="eai-option-btn" data-val="1"><span class="eai-opt-num">1</span> Meget uenig</button>
         <button type="button" class="eai-option-btn" data-val="2"><span class="eai-opt-num">2</span> Uenig</button>
-        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Hverken eller</button>
-        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Enig</button>
-        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Meget enig</button>
+        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Lidt uenig</button>
+        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Lidt enig</button>
+        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Enig</button>
+        <button type="button" class="eai-option-btn" data-val="6"><span class="eai-opt-num">6</span> Meget enig</button>
       </div>
     </div>
 
     <!-- Q6 -->
     <div class="eai-step" data-step="6">
-      <h3 class="eai-question">6. Selvom jeg skærer ned på min træning, ender jeg alligevel med at træne lige så tit som før.</h3>
+      <div class="eai-question">6. Selvom jeg skærer ned på min træning, ender jeg alligevel med at træne lige så tit som før.</div>
       <div class="eai-options-grid">
         <button type="button" class="eai-option-btn" data-val="1"><span class="eai-opt-num">1</span> Meget uenig</button>
         <button type="button" class="eai-option-btn" data-val="2"><span class="eai-opt-num">2</span> Uenig</button>
-        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Hverken eller</button>
-        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Enig</button>
-        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Meget enig</button>
+        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Lidt uenig</button>
+        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Lidt enig</button>
+        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Enig</button>
+        <button type="button" class="eai-option-btn" data-val="6"><span class="eai-opt-num">6</span> Meget enig</button>
+      </div>
+    </div>
+
+    <!-- Q7 -->
+    <div class="eai-step" data-step="7">
+      <div class="eai-question">7. Jeg føler skyld, hvis jeg mister en planlagt træning, eller hvis min træning ikke går så godt som planlagt.</div>
+      <div class="eai-options-grid">
+        <button type="button" class="eai-option-btn" data-val="1"><span class="eai-opt-num">1</span> Meget uenig</button>
+        <button type="button" class="eai-option-btn" data-val="2"><span class="eai-opt-num">2</span> Uenig</button>
+        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Lidt uenig</button>
+        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Lidt enig</button>
+        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Enig</button>
+        <button type="button" class="eai-option-btn" data-val="6"><span class="eai-opt-num">6</span> Meget enig</button>
+      </div>
+    </div>
+
+    <!-- Q8 -->
+    <div class="eai-step" data-step="8">
+      <div class="eai-question">8. Jeg er tilbøjelig til at træne, når jeg er (eller inden jeg er helt kommet mig efter) sygdom eller skader.</div>
+      <div class="eai-options-grid">
+        <button type="button" class="eai-option-btn" data-val="1"><span class="eai-opt-num">1</span> Meget uenig</button>
+        <button type="button" class="eai-option-btn" data-val="2"><span class="eai-opt-num">2</span> Uenig</button>
+        <button type="button" class="eai-option-btn" data-val="3"><span class="eai-opt-num">3</span> Lidt uenig</button>
+        <button type="button" class="eai-option-btn" data-val="4"><span class="eai-opt-num">4</span> Lidt enig</button>
+        <button type="button" class="eai-option-btn" data-val="5"><span class="eai-opt-num">5</span> Enig</button>
+        <button type="button" class="eai-option-btn" data-val="6"><span class="eai-opt-num">6</span> Meget enig</button>
       </div>
     </div>
 
@@ -114,14 +144,14 @@ Beregner inkluderes hvis muligt at få tilladelse.
   <!-- Resultat Dashboard -->
   <div class="eai-result-card" id="eai-result-card" style="display: none;">
     <div class="eai-result-header">
-      <h2>Dine Testresultater</h2>
+      <div class="eai-result-title">Dine Testresultater</div>
       <p class="eai-result-subtitle">Målt ud fra Exercise Addiction Inventory (EAI)</p>
     </div>
 
     <div class="eai-score-display">
       <div class="eai-score-circle" id="eai-score-circle">
         <span class="eai-score-number" id="eai-score-number">0</span>
-        <span class="eai-score-max">/ 30</span>
+        <span class="eai-score-max">/ 48</span>
       </div>
       <div class="eai-status-badge" id="eai-status-badge">Beregner...</div>
     </div>
@@ -139,7 +169,7 @@ Beregner inkluderes hvis muligt at få tilladelse.
 
   <!-- Kildeangivelse i Bunden -->
   <div class="eai-source-footer">
-    📌 <strong>Kilde & Kreditering:</strong> <em>Exercise Addiction Inventory (EAI)</em> er udviklet af Terry, Szabo & Griffiths (2004) og oversat til dansk af prof./psykolog Mia Beck Lichtenstein. Må benyttes til oplysning og screening med korrekt kildeangivelse.
+    📌 <strong>Kilde & Kreditering:</strong> <em>Exercise Addiction Inventory (EAI)</em> er udviklet af Terry, Szabo & Griffiths (2004) og tilpasset til dansk af prof./psykolog Mia Beck Lichtenstein. Må benyttes til oplysning og screening med korrekt kildeangivelse.
   </div>
 </div>
 
@@ -264,18 +294,18 @@ Beregner inkluderes hvis muligt at få tilladelse.
 .eai-options-grid {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .eai-option-btn {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 14px 18px;
+  padding: 12px 16px;
   background: #ffffff;
   border: 2px solid #e2e8f0;
   border-radius: 10px;
-  font-size: 0.98rem;
+  font-size: 0.95rem;
   font-weight: 500;
   color: #334155;
   text-align: left;
@@ -300,11 +330,11 @@ Beregner inkluderes hvis muligt at få tilladelse.
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   background: #f1f5f9;
   border-radius: 6px;
-  margin-right: 14px;
+  margin-right: 12px;
   font-size: 0.85rem;
   font-weight: 700;
   color: #475569;
@@ -361,9 +391,10 @@ Beregner inkluderes hvis muligt at få tilladelse.
   animation: fadeIn 0.4s ease-in-out;
 }
 
-.eai-result-header h2 {
+.eai-result-title {
   margin: 0;
   font-size: 1.6rem;
+  font-weight: 800;
   color: #0f172a;
 }
 
@@ -475,17 +506,18 @@ Beregner inkluderes hvis muligt at få tilladelse.
     font-size: 1.05rem;
   }
   .eai-option-btn {
-    padding: 12px;
-    font-size: 0.9rem;
+    padding: 10px;
+    font-size: 0.88rem;
   }
 }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  const STORAGE_KEY = 'motionsplan_eai_state';
   let currentStep = 1;
-  const totalSteps = 6;
-  const answers = new Array(6).fill(null);
+  const totalSteps = 8;
+  const answers = new Array(8).fill(null);
 
   const stepCounter = document.getElementById('eai-step-counter');
   const progressFill = document.getElementById('eai-progress-fill');
@@ -535,7 +567,7 @@ document.addEventListener('DOMContentLoaded', function () {
           currentStep++;
           updateUI();
         } else {
-          calculateResults();
+          calculateResults(true);
         }
       }, 250);
     });
@@ -548,8 +580,16 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  function calculateResults() {
+  function calculateResults(animate = true) {
     const totalScore = answers.reduce((acc, val) => acc + (val || 0), 0);
+
+    // Gemmer resultatet i localStorage til dashboardet
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        score: totalScore,
+        answers: answers
+      }));
+    } catch (e) {}
 
     wizardBody.style.display = 'none';
     document.querySelector('.eai-header').style.display = 'none';
@@ -561,19 +601,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const textEl = document.getElementById('eai-result-text');
     const actionEl = document.getElementById('eai-action-box');
 
-    let count = 0;
-    const timer = setInterval(() => {
-      if (count >= totalScore) {
-        scoreNumEl.textContent = totalScore;
-        clearInterval(timer);
-      } else {
-        count++;
-        scoreNumEl.textContent = count;
-      }
-    }, 30);
+    if (animate) {
+      let count = 0;
+      const timer = setInterval(() => {
+        if (count >= totalScore) {
+          scoreNumEl.textContent = totalScore;
+          clearInterval(timer);
+        } else {
+          count++;
+          scoreNumEl.textContent = count;
+        }
+      }, 25);
+    } else {
+      scoreNumEl.textContent = totalScore;
+    }
 
-    // EAI Klinciske intervaller (6-12 Asymptomatisk, 13-23 Symptomatisk, 24-30 Risiko)
-    if (totalScore >= 24) {
+    // EAI Intervaller for 8 spørgsmål x 6 svarmuligheder (8-23 Asymptomatisk, 24-33 Symptomatisk, 34-48 Risiko)
+    if (totalScore >= 34) {
       scoreCircle.style.borderColor = "#ef4444";
       scoreCircle.style.background = "#fef2f2";
       scoreNumEl.style.color = "#b91c1c";
@@ -585,12 +629,12 @@ document.addEventListener('DOMContentLoaded', function () {
         <div style="background:#fee2e2; border: 1px solid #fca5a5; padding: 14px; border-radius: 8px; font-size: 0.9rem; color: #991b1b;">
           <strong>Anbefaling:</strong> Du bør søge faglig hjælp til at genfinde balancen. Du kan læse mere og få støtte hos psykolog og researcher Mia Beck Lichtenstein på <a href="https://mialic.dk/" target="_blank" style="color:#991b1b; font-weight:bold; text-decoration:underline;">mialic.dk</a> eller hos <a href="https://www.lmsos.dk/traeningsafhaengighed" target="_blank" style="color:#991b1b; font-weight:bold; text-decoration:underline;">LMS</a>.
         </div>`;
-    } else if (totalScore >= 13) {
+    } else if (totalScore >= 24) {
       scoreCircle.style.borderColor = "#eab308";
       scoreCircle.style.background = "#fefce8";
       scoreNumEl.style.color = "#a16207";
       statusBadge.className = "eai-status-badge status-yellow";
-      statusBadge.textContent = "Symptomatisk";
+      statusBadge.textContent = "Enkelte symptomer";
 
       textEl.innerHTML = `<strong>Moderat score (${totalScore} point):</strong> Du udviser enkelte tegn eller symptomer på et anspændt forhold til træning, men opfylder ikke kriterierne for fuld afhængighed.`;
       actionEl.innerHTML = `
@@ -602,11 +646,40 @@ document.addEventListener('DOMContentLoaded', function () {
       scoreCircle.style.background = "#ecfdf5";
       scoreNumEl.style.color = "#047857";
       statusBadge.className = "eai-status-badge status-green";
-      statusBadge.textContent = "Asymptomatisk";
+      statusBadge.textContent = "Ingen symptomer";
 
       textEl.innerHTML = `<strong>Lav score (${totalScore} point):</strong> Din score tyder på et helt sundt, fleksibelt og velafbalanceret forhold til motion.`;
       actionEl.innerHTML = `<p style="font-size:0.9rem; color:#64748b;"><strong>Anbefaling:</strong> Du bruger motion som en sund kilde til energi og velbefindende i din hverdag.</p>`;
     }
+  }
+
+  function loadSaved() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        let savedAnswers = null;
+        if (typeof parsed === 'number') {
+          // Gammelt format
+        } else if (parsed && parsed.answers && Array.isArray(parsed.answers)) {
+          savedAnswers = parsed.answers;
+        }
+
+        if (savedAnswers && savedAnswers.length === 8 && !savedAnswers.includes(null)) {
+          for (let i = 0; i < 8; i++) {
+            answers[i] = savedAnswers[i];
+            const stepEl = document.querySelector(`.eai-step[data-step="${i + 1}"]`);
+            if (stepEl) {
+              const btn = stepEl.querySelector(`.eai-option-btn[data-val="${answers[i]}"]`);
+              if (btn) btn.classList.add('selected');
+            }
+          }
+          calculateResults(false);
+          return true;
+        }
+      } catch (e) {}
+    }
+    return false;
   }
 
   document.getElementById('eai-restart-btn').addEventListener('click', function () {
@@ -622,8 +695,8 @@ document.addEventListener('DOMContentLoaded', function () {
     updateUI();
   });
 
-  updateUI();
+  if (!loadSaved()) {
+    updateUI();
+  }
 });
 </script>
-
-{% endcomment %}

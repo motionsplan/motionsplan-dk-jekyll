@@ -1,0 +1,304 @@
+<style>
+  /* CSS-overstyring for at sikre 100% bredde mod tema-konflikter */
+  .rpe-widget-container table#rpe-chart-table {
+    display: table !important;
+    width: 100% !important;
+    margin: 0 !important;
+    table-layout: auto !important;
+  }
+  
+  .rpe-input-grid-1 {
+    display: grid;
+    grid-template-columns: minmax(110px, 1fr) minmax(110px, 1fr) minmax(230px, 1.8fr);
+    gap: 12px;
+  }
+
+  @media (max-width: 640px) {
+    .rpe-input-grid-1 {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="rpe-widget-container" style="background: #f8f9fa; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; margin: 20px 0; font-family: inherit;">
+  <h3 style="margin-top: 0; color: #0f172a;">🏋️‍♂️ Interaktiv RPE & RIR Beregner</h3>
+  <p style="font-size: 0.9em; color: #475569;">Indtast et gennemført sæt for at udregne dit estimerede 1RM (e1RM), eller beregn den præcise vægt, du skal lægge på stangen i dit næste sæt.</p>
+
+  <!-- QUICK REFERENCE KORT -->
+  <div style="margin-bottom: 20px;">
+    <label style="display: block; font-size: 0.85em; font-weight: bold; margin-bottom: 8px; color: #334155;">Hurtig-reference: Vælg eller klik på din RPE / RIR</label>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px;">
+      
+      <div onclick="setRPEVal(10)" style="background: #ffffff; border: 2px solid #ef4444; border-radius: 6px; padding: 10px 5px; text-align: center; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#fef2f2'" onmouseout="this.style.background='#ffffff'">
+        <div style="font-size: 1.15em; font-weight: bold; color: #dc2626;">RPE 10</div>
+        <div style="font-size: 0.8em; font-weight: bold; color: #1e293b;">0 RIR</div>
+        <div style="font-size: 0.72em; color: #64748b;">Ingen reps igen</div>
+      </div>
+
+      <div onclick="setRPEVal(9)" style="background: #ffffff; border: 2px solid #f97316; border-radius: 6px; padding: 10px 5px; text-align: center; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#fff7ed'" onmouseout="this.style.background='#ffffff'">
+        <div style="font-size: 1.15em; font-weight: bold; color: #ea580c;">RPE 9</div>
+        <div style="font-size: 0.8em; font-weight: bold; color: #1e293b;">1 RIR</div>
+        <div style="font-size: 0.72em; color: #64748b;">1 rep i reserve</div>
+      </div>
+
+      <div onclick="setRPEVal(8)" style="background: #ffffff; border: 2px solid #22c55e; border-radius: 6px; padding: 10px 5px; text-align: center; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#f0fdf4'" onmouseout="this.style.background='#ffffff'">
+        <div style="font-size: 1.15em; font-weight: bold; color: #16a34a;">RPE 8</div>
+        <div style="font-size: 0.8em; font-weight: bold; color: #1e293b;">2 RIR</div>
+        <div style="font-size: 0.72em; color: #64748b;">2 reps i reserve</div>
+      </div>
+
+      <div onclick="setRPEVal(7)" style="background: #ffffff; border: 2px solid #06b6d4; border-radius: 6px; padding: 10px 5px; text-align: center; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#ecfeff'" onmouseout="this.style.background='#ffffff'">
+        <div style="font-size: 1.15em; font-weight: bold; color: #0891b2;">RPE 7</div>
+        <div style="font-size: 0.8em; font-weight: bold; color: #1e293b;">3 RIR</div>
+        <div style="font-size: 0.72em; color: #64748b;">3 reps i reserve</div>
+      </div>
+
+      <div onclick="setRPEVal(6)" style="background: #ffffff; border: 2px solid #64748b; border-radius: 6px; padding: 10px 5px; text-align: center; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#f8fafc'" onmouseout="this.style.background='#ffffff'">
+        <div style="font-size: 1.15em; font-weight: bold; color: #475569;">RPE 6</div>
+        <div style="font-size: 0.8em; font-weight: bold; color: #1e293b;">4 RIR</div>
+        <div style="font-size: 0.72em; color: #64748b;">Høj hastighed</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FORMULAR -->
+  <form id="rpe-form" onsubmit="event.preventDefault();">
+    
+    <!-- INDTASTNING AF LØFTET SÆT -->
+    <div style="background: #ffffff; padding: 15px; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 15px;">
+      <h4 style="margin-top: 0; margin-bottom: 12px; color: #0284c7;">1. Hvad har du løftet?</h4>
+      <div class="rpe-input-grid-1">
+        
+        <div>
+          <label style="display: block; font-size: 0.85em; font-weight: bold; margin-bottom: 4px;">Vægt løftet (kg):</label>
+          <input type="number" id="rpe-weight" value="100" min="1" step="0.5" required style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px;">
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 0.85em; font-weight: bold; margin-bottom: 4px;">Gentagelser (reps):</label>
+          <input type="number" id="rpe-reps" value="5" min="1" max="12" required style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px;">
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 0.85em; font-weight: bold; margin-bottom: 4px;">RPE / RIR i sættet:</label>
+          <select id="rpe-select" required style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; background-color: #ffffff;">
+            <option value="10">RPE 10 — (0 RIR / Failure)</option>
+            <option value="9.5">RPE 9.5 — (Måske 1 RIR)</option>
+            <option value="9">RPE 9 — (1 RIR / 1 rep tilbage)</option>
+            <option value="8.5">RPE 8.5 — (Måske 2 RIR)</option>
+            <option value="8" selected>RPE 8 — (2 RIR / 2 reps tilbage)</option>
+            <option value="7.5">RPE 7.5 — (Måske 3 RIR)</option>
+            <option value="7">RPE 7 — (3 RIR / 3 reps tilbage)</option>
+            <option value="6.5">RPE 6.5 — (Måske 4 RIR)</option>
+            <option value="6">RPE 6 — (4 RIR / Høj fart)</option>
+          </select>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- NÆSTE SÆT (VALGFRIT) -->
+    <div style="background: #ffffff; padding: 15px; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 15px;">
+      <h4 style="margin-top: 0; margin-bottom: 12px; color: #16a34a;">2. Hvad vil du gerne løfte i næste sæt? (Valgfrit)</h4>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px;">
+        
+        <div>
+          <label style="display: block; font-size: 0.85em; font-weight: bold; margin-bottom: 4px;">Mål-reps:</label>
+          <input type="number" id="target-reps" value="5" min="1" max="12" style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px;">
+        </div>
+
+        <div>
+          <label style="display: block; font-size: 0.85em; font-weight: bold; margin-bottom: 4px;">Mål-RPE / RIR:</label>
+          <select id="target-rpe-select" style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; background-color: #ffffff;">
+            <option value="10">RPE 10 — (0 RIR / Failure)</option>
+            <option value="9.5">RPE 9.5 — (Måske 1 RIR)</option>
+            <option value="9">RPE 9 — (1 RIR)</option>
+            <option value="8.5">RPE 8.5 — (Måske 2 RIR)</option>
+            <option value="8" selected>RPE 8 — (2 RIR)</option>
+            <option value="7.5">RPE 7.5 — (Måske 3 RIR)</option>
+            <option value="7">RPE 7 — (3 RIR)</option>
+            <option value="6.5">RPE 6.5 — (Måske 4 RIR)</option>
+            <option value="6">RPE 6 — (4 RIR)</option>
+          </select>
+        </div>
+
+      </div>
+    </div>
+  </form>
+
+  <!-- RESULTATER (OPDATERER SIG DIREKTE) -->
+  <div id="rpe-results" style="margin-top: 15px;"></div>
+
+  <!-- ELEGANT HEATMAP RPE PROCENTTABEL (100% BREDDE) -->
+  <div style="margin-top: 20px; width: 100%;">
+    <h4 style="margin-bottom: 6px; color: #0f172a;">📊 RTS / Tuchscherer RPE-Procenttabel (% af 1RM)</h4>
+    <p style="font-size: 0.82em; color: #64748b; margin-top: 0;">Farvefordelingen viser belastningen (% af 1RM) ud fra RPE og reps. Det indrammede felt matcher dit nuværende valg.</p>
+
+    <div style="width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 8px; border: 1px solid #cbd5e1; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+      <table id="rpe-chart-table" style="width: 100% !important; border-collapse: separate; border-spacing: 0; font-size: 0.8em; text-align: center; background: #ffffff;">
+        <thead>
+          <tr style="background: #0f172a; color: #f8fafc;">
+            <th style="padding: 8px 4px; border-bottom: 1px solid #334155; position: sticky; left: 0; background: #0f172a; z-index: 3;">RPE / Reps</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">1</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">2</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">3</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">4</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">5</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">6</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">7</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">8</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">9</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">10</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">11</th>
+            <th style="padding: 8px 2px; border-bottom: 1px solid #334155;">12</th>
+          </tr>
+        </thead>
+        <tbody id="rpe-chart-body">
+          <!-- Genereres dynamisk i JS -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 20px 0 15px 0;">
+
+  <div style="font-size: 0.82em; color: #64748b; line-height: 1.4;">
+    <strong>Kreditering:</strong> RPE-procenttabellen er udviklet af Mike Tuchscherer (Reactive Training Systems / RTS) og udgør grundstammen i moderne autoreguleret styrketræning.
+  </div>
+</div>
+
+<script>
+// Official RTS RPE Matrix (Mike Tuchscherer)
+const rpeMatrix = {
+  10:   [100.0, 95.5, 92.2, 89.2, 86.3, 83.7, 81.1, 78.6, 76.2, 73.9, 70.7, 68.0],
+  9.5:  [97.8,  93.9, 90.7, 87.8, 85.0, 82.4, 79.9, 77.4, 75.1, 72.3, 69.4, 66.7],
+  9:    [95.5,  92.2, 89.2, 86.3, 83.7, 81.1, 78.6, 76.2, 73.9, 70.7, 68.0, 65.3],
+  8.5:  [93.9,  90.7, 87.8, 85.0, 82.4, 79.9, 77.4, 75.1, 72.3, 69.4, 66.7, 64.0],
+  8:    [92.2,  89.2, 86.3, 83.7, 81.1, 78.6, 76.2, 73.9, 70.7, 68.0, 65.3, 62.6],
+  7.5:  [90.7,  87.8, 85.0, 82.4, 79.9, 77.4, 75.1, 72.3, 69.4, 66.7, 64.0, 61.3],
+  7:    [89.2,  86.3, 83.7, 81.1, 78.6, 76.2, 73.9, 70.7, 68.0, 65.3, 62.6, 59.9],
+  6.5:  [87.8,  85.0, 82.4, 79.9, 77.4, 75.1, 72.3, 69.4, 66.7, 64.0, 61.3, 58.6],
+  6:    [86.3,  83.7, 81.1, 78.6, 76.2, 73.9, 70.7, 68.0, 65.3, 62.6, 59.9, 57.4]
+};
+
+function getHeatmapColor(pct) {
+  if (pct >= 95.0) return { bg: '#fca5a5', text: '#7f1d1d' };
+  if (pct >= 90.0) return { bg: '#fdba74', text: '#7c2d12' };
+  if (pct >= 85.0) return { bg: '#fde047', text: '#713f12' };
+  if (pct >= 78.0) return { bg: '#d9f99d', text: '#365314' };
+  return { bg: '#86efac', text: '#14532d' };
+}
+
+function renderRPEChart() {
+  const tbody = document.getElementById('rpe-chart-body');
+  tbody.innerHTML = '';
+
+  Object.keys(rpeMatrix).sort((a, b) => b - a).forEach(rpeKey => {
+    const rpeVal = parseFloat(rpeKey);
+    const rirVal = 10 - rpeVal;
+    const row = document.createElement('tr');
+    
+    let rowHTML = `<td style="padding: 6px 4px; font-weight: bold; background: #f1f5f9; color: #1e293b; border-bottom: 1px solid #cbd5e1; border-right: 2px solid #cbd5e1; position: sticky; left: 0; z-index: 2;">RPE ${rpeVal} <br><span style="font-weight:normal; font-size:0.85em; color:#64748b;">(${rirVal} RIR)</span></td>`;
+    
+    rpeMatrix[rpeKey].forEach((pct, idx) => {
+      const colors = getHeatmapColor(pct);
+      rowHTML += `<td id="cell-${rpeKey}-${idx + 1}" style="padding: 7px 2px; border-bottom: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; background-color: ${colors.bg}; color: ${colors.text}; font-size: 0.88em; font-weight: 500; transition: all 0.2s;">${pct.toFixed(1)}%</td>`;
+    });
+
+    row.innerHTML = rowHTML;
+    tbody.appendChild(row);
+  });
+}
+
+function setRPEVal(val) {
+  document.getElementById('rpe-select').value = val;
+  calculateRPE();
+}
+
+function calculateRPE() {
+  const weight = parseFloat(document.getElementById('rpe-weight').value);
+  const reps = parseInt(document.getElementById('rpe-reps').value);
+  const rpe = parseFloat(document.getElementById('rpe-select').value);
+
+  const targetReps = parseInt(document.getElementById('target-reps').value);
+  const targetRpe = parseFloat(document.getElementById('target-rpe-select').value);
+
+  const resDiv = document.getElementById('rpe-results');
+
+  if (isNaN(weight) || isNaN(reps) || isNaN(rpe) || reps < 1 || reps > 12) {
+    resDiv.style.display = 'none';
+    return;
+  }
+
+  const pct = rpeMatrix[rpe][reps - 1];
+  const e1rm = weight / (pct / 100);
+
+  let targetWeight = 0;
+  let targetPct = 0;
+  if (!isNaN(targetReps) && !isNaN(targetRpe) && targetReps >= 1 && targetReps <= 12) {
+    targetPct = rpeMatrix[targetRpe][targetReps - 1];
+    targetWeight = e1rm * (targetPct / 100);
+  }
+
+  const rir = 10 - rpe;
+
+  document.querySelectorAll('#rpe-chart-table td').forEach(td => {
+    if (td.id && td.id.startsWith('cell-')) {
+      td.style.transform = '';
+      td.style.boxShadow = '';
+      td.style.zIndex = '';
+    }
+  });
+
+  const activeCell = document.getElementById(`cell-${rpe}-${reps}`);
+  if (activeCell) {
+    activeCell.style.transform = 'scale(1.12)';
+    activeCell.style.boxShadow = '0 0 0 2px #0f172a, 0 4px 6px -1px rgba(0,0,0,0.3)';
+    activeCell.style.zIndex = '10';
+    activeCell.style.position = 'relative';
+    activeCell.style.borderRadius = '4px';
+  }
+
+  resDiv.style.display = 'block';
+  resDiv.innerHTML = `
+    <div style="background: #ffffff; padding: 16px; border-radius: 8px; border: 2px solid #0284c7; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+      <h4 style="margin-top: 0; color: #0284c7;">Dine Beregningsresultater:</h4>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 12px;">
+        <div style="background: #f0f9ff; padding: 12px; border-radius: 6px; border-left: 4px solid #0284c7;">
+          <div style="font-size: 0.82em; color: #475569; font-weight: bold;">ESTIMERET 1RM (e1RM):</div>
+          <div style="font-size: 1.6em; font-weight: bold; color: #0369a1;">${e1rm.toFixed(1)} kg</div>
+          <div style="font-size: 0.78em; color: #64748b;">Svarer til ${pct}% af dit max</div>
+        </div>
+
+        ${targetWeight > 0 ? `
+        <div style="background: #f0fdf4; padding: 12px; border-radius: 6px; border-left: 4px solid #16a34a;">
+          <div style="font-size: 0.82em; color: #475569; font-weight: bold;">VÆGT I NÆSTE SÆT:</div>
+          <div style="font-size: 1.6em; font-weight: bold; color: #15803d;">${targetWeight.toFixed(1)} kg</div>
+          <div style="font-size: 0.78em; color: #64748b;">For ${targetReps} reps @ RPE ${targetRpe} (${targetPct}%)</div>
+        </div>
+        ` : ''}
+      </div>
+
+      <p style="font-size: 0.88em; color: #334155; margin-bottom: 0;">
+        💡 <strong>Fortolkning:</strong> RPE ${rpe} svarer til <strong>${rir} RIR</strong> (Reps in Reserve). Du havde altså ca. ${rir} repetition(er) tilbage i tanken, da sættet blev stoppet.
+      </p>
+    </div>
+  `;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  renderRPEChart();
+  calculateRPE();
+
+  const inputs = ['rpe-weight', 'rpe-reps', 'rpe-select', 'target-reps', 'target-rpe-select'];
+  inputs.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.addEventListener('input', calculateRPE);
+      el.addEventListener('change', calculateRPE);
+    }
+  });
+});
+</script>

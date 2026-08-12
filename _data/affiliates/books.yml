@@ -468,3 +468,19 @@ motionsdoping:
   excerpt: "En dybdegående analyse af, hvordan og hvorfor helt almindelige unge mænd i fitnesscentrene vælger at benytte doping."
   url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/motionsdoping_ask-vest-christiansen_haeftet_9788771843378"
   shop_name: "Saxo"
+
+atomic_habits:
+  title: "Atomic Habits"
+  author: "James Clear"
+  image: "https://cdn6.tales.dk/00078/70778/cover.1581295925.jpg"
+  excerpt: "I sin bog Atomic Habits forklarer James Clear, hvordan man med små 'atomvaner' såsom at stå fem minutter tidligere op end normalt og at tage to armbøjninger om dagen, hurtigt kan få trænet sig op til at leve et bedre, sundere eller mere effektivt liv."
+  url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/atomic-habits-the-life-changing-million-copy-bestseller_james-clear_9781847941831"
+  shop_name: "Tales"
+
+thinking_fast_and_slow:
+  title: "At tænke - hurtigt og langsomt"
+  author: "Daniel Kahneman"
+  image: "https://imgcdn.saxo.com/_9788711533284/0x500"
+  excerpt: "Daniel Kahneman giver os i At tænke - hurtigt og langsomt et unikt indblik i den menneskelige bevidsthed og i de to systemer, som driver den måde, vi tænker på: System 1 er hurtigt, intuitivt og følelsesdrevet; System 2 er langsomt, rationelt og logisk."
+  url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/at-taenke-hurtigt-og-langsomt_daniel-kahneman_haeftet_9788711533284"
+  shop_name: "Saxo"

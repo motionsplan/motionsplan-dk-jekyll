@@ -1,0 +1,307 @@
+<!-- EIA TRÆNINGSIDENTITET INTERAKTIVT VÆRKTØJ (Wizard Format - motionsplan.dk) -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div id="eia-card" style="max-width: 720px; margin: 0 auto; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); font-family: system-ui, -apple-system, sans-serif;">
+  
+  <!-- HEADER & PROGRESS BAR -->
+  <div id="eia-wizard-header" style="border-bottom: 2px solid #f1f5f9; padding-bottom: 16px; margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+      <div>
+        <h3 style="margin: 0; font-size: 1.25rem; font-weight: 800; color: #0f172a;">🧬 EIA: Din Træningsidentitet</h3>
+        <span id="eia-step-counter" style="font-size: 0.8rem; font-weight: 700; color: #64748b;">Udsagn 1 af 9</span>
+      </div>
+      <span id="eia-step-pct" style="background: #e0e7ff; color: #4338ca; font-size: 0.75rem; font-weight: 800; padding: 6px 12px; border-radius: 20px;">11% færdig</span>
+    </div>
+    
+    <!-- PROGRESS BAR -->
+    <div style="width: 100%; background: #f1f5f9; height: 8px; border-radius: 4px; overflow: hidden;">
+      <div id="eia-progress-bar" style="width: 11%; background: linear-gradient(90deg, #4f46e5 0%, #6366f1 100%); height: 100%; transition: width 0.3s ease;"></div>
+    </div>
+  </div>
+
+  <!-- SPØRGSMÅL CONTAINER -->
+  <div id="eia-quiz-step-container">
+    
+    <div style="margin-bottom: 24px; min-height: 70px;">
+      <span style="font-size: 0.72rem; font-weight: 800; color: #4f46e5; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px;">
+        Forhold til sport
+      </span>
+      <h4 id="eia-q-text" style="margin: 0; font-size: 1.15rem; font-weight: 700; color: #0f172a; line-height: 1.4;">
+        Udsagn indlæses...
+      </h4>
+    </div>
+
+    <!-- FLOTTE SVARKNAPPER (5 MULIGHEDER) -->
+    <div id="eia-options-container" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px;">
+      <!-- Knapper genereres i JS -->
+    </div>
+
+    <!-- NAVIGATION KNAPPER -->
+    <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 16px;">
+      <button type="button" id="eia-prev-btn" style="background: transparent; border: 1px solid #cbd5e1; color: #64748b; padding: 8px 16px; border-radius: 8px; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 6px; visibility: hidden;">
+        ← Forrige
+      </button>
+      <span style="font-size: 0.75rem; color: #94a3b8; font-weight: 600;">Vælg en mulighed for at gå videre</span>
+    </div>
+
+  </div>
+
+  <!-- RESULTAT SEKTION (SKJULT INDTIL GENNEMFØRT) -->
+  <div id="eia-results" style="display: none;">
+    <div style="text-align: center; margin-bottom: 20px;">
+      <span style="background: #e0e7ff; color: #4338ca; font-size: 0.75rem; font-weight: 800; padding: 6px 14px; border-radius: 20px;">🎉 Identitet Kortlagt!</span>
+      <h3 style="color: #0f172a; margin: 10px 0 0 0; font-size: 1.5rem;">Din Identitets-Profil</h3>
+    </div>
+
+    <!-- HERO RESULTAT BOKS -->
+    <div id="eia-hero-bg" style="background: linear-gradient(135deg, #4338ca 0%, #4f46e5 100%); color: #ffffff; border-radius: 16px; padding: 20px; text-align: center; margin-bottom: 24px; box-shadow: 0 8px 20px rgba(79,70,229,0.2);">
+      <span style="font-size: 0.75rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; opacity: 0.9;">EIA SCORE (9 – 45 POINT)</span>
+      <div style="font-size: 3.5rem; font-weight: 900; line-height: 1; margin: 8px 0;">
+        <span id="eia-total-score">0</span> <small style="font-size: 1.5rem; opacity: 0.8;">/ 45</small>
+      </div>
+      <p id="eia-total-desc" style="margin: 0; font-size: 0.88rem; opacity: 0.95; font-weight: 600; line-height: 1.4;"></p>
+    </div>
+
+    <!-- SKALA VISUALISERING -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; margin-bottom: 24px;">
+      <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 700; color: #64748b; margin-bottom: 8px;">
+        <span>Lav Identitet</span>
+        <span>Moderat</span>
+        <span>Meget Stærk Identitet</span>
+      </div>
+      <div style="position: relative; width: 100%; background: #e2e8f0; height: 12px; border-radius: 6px; overflow: hidden;">
+        <div id="eia-res-progress-bar" style="width: 0%; background: #4f46e5; height: 100%; transition: width 0.5s ease;"></div>
+      </div>
+    </div>
+
+    <!-- ANBEFALINGS BOKS -->
+    <div id="eia-recommendation-box" style="padding: 16px; border-radius: 12px; font-size: 0.88rem; line-height: 1.5; margin-bottom: 24px;">
+      <!-- Dynamisk rådgivning -->
+    </div>
+
+    <button type="button" id="eia-restart-btn" style="width: 100%; background: #f1f5f9; border: 1px solid #cbd5e1; color: #334155; padding: 12px; border-radius: 10px; font-weight: 700; cursor: pointer;">
+      🔄 Tag testen igen / Rediger svar
+    </button>
+  </div>
+
+  <!-- KILDEANGIVELSE / FOOTER -->
+  <div style="border-top: 1px solid #f1f5f9; margin-top: 24px; padding-top: 12px; display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #94a3b8; flex-wrap: wrap; gap: 8px;">
+    <span>📌 <b>Kilde:</b> Anderson & Cychosz (1994). <i>Exercise Identity Scale (EIA)</i>.</span>
+    <span>&copy; motionsplan.dk</span>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const STORAGE_KEY = 'motionsplan_eia_state';
+
+  // De 9 Validerede Spørgsmål i EIA (Oversat til dansk kontekst)
+  const items = [
+    { id: 1, text: "Jeg betragter mig selv som 'en der træner' / en atlet." },
+    { id: 2, text: "Når jeg beskriver mig selv over for andre, nævner jeg som regel min sport eller træning." },
+    { id: 3, text: "Jeg har mange personlige mål, der relaterer sig direkte til min træning." },
+    { id: 4, text: "Fysisk træning er en helt central og afgørende del af min selvopfattelse." },
+    { id: 5, text: "Andre mennesker ser mig primært som en, der træner regelmæssigt." },
+    { id: 6, text: "For mig betyder det at træne meget mere end blot den fysiske aktivitet i sig selv." },
+    { id: 7, text: "Jeg ville føle et enormt personligt tab, hvis jeg blev tvunget til at opgive min træning." },
+    { id: 8, text: "Min træning og min sport er noget, jeg tænker på meget ofte i løbet af dagen." },
+    { id: 9, text: "Jeg har brug for at træne for at kunne have det godt med mig selv og mit selvværd." }
+  ];
+
+  const options = [
+    { val: 1, label: "Helt uenig" },
+    { val: 2, label: "Uenig" },
+    { val: 3, label: "Hverken / eller" },
+    { val: 4, label: "Enig" },
+    { val: 5, label: "Helt enig" }
+  ];
+
+  let currentStep = 0;
+  let userAnswers = {};
+
+  function loadSaved() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (parsed.answers) userAnswers = parsed.answers;
+      } catch(e) {}
+    }
+  }
+
+  function saveState(totalScore) {
+    const dataToSave = {
+      score: totalScore,
+      answers: userAnswers
+    };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(dataToSave));
+  }
+
+  function renderStep() {
+    const item = items[currentStep];
+    const totalQ = items.length;
+    const pct = Math.round(((currentStep + 1) / totalQ) * 100);
+
+    // Opdater Header & Progress
+    document.getElementById('eia-step-counter').textContent = `Udsagn ${currentStep + 1} af ${totalQ}`;
+    document.getElementById('eia-step-pct').textContent = `${pct}% færdig`;
+    document.getElementById('eia-progress-bar').style.width = `${pct}%`;
+
+    // Opdater Tekst
+    document.getElementById('eia-q-text').textContent = `${currentStep + 1}. "${item.text}"`;
+
+    // Vis/skjul "Forrige" knap
+    const prevBtn = document.getElementById('eia-prev-btn');
+    prevBtn.style.visibility = currentStep > 0 ? 'visible' : 'hidden';
+
+    // Render Flotte Svarknapper
+    const optionsContainer = document.getElementById('eia-options-container');
+    optionsContainer.innerHTML = '';
+
+    const selectedVal = userAnswers[item.id] !== undefined ? parseInt(userAnswers[item.id]) : null;
+
+    options.forEach(opt => {
+      const isSelected = selectedVal === opt.val;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      
+      btn.style.cssText = `
+        width: 100%;
+        padding: 13px 18px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-align: left;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: ${isSelected ? '2px solid #4f46e5' : '1px solid #cbd5e1'};
+        background: ${isSelected ? '#e0e7ff' : '#ffffff'};
+        color: ${isSelected ? '#312e81' : '#334155'};
+        box-shadow: ${isSelected ? '0 4px 12px rgba(79, 70, 229, 0.15)' : '0 2px 4px rgba(0,0,0,0.02)'};
+      `;
+
+      btn.innerHTML = `
+        <span>${opt.label}</span>
+        <span style="width: 20px; height: 20px; border-radius: 50%; border: ${isSelected ? '6px solid #4f46e5' : '2px solid #cbd5e1'}; background: #ffffff;"></span>
+      `;
+
+      btn.addEventListener('click', function() {
+        userAnswers[item.id] = opt.val;
+
+        setTimeout(() => {
+          if (currentStep < totalQ - 1) {
+            currentStep++;
+            renderStep();
+          } else {
+            calculateAndShowResults();
+          }
+        }, 150);
+      });
+
+      optionsContainer.appendChild(btn);
+    });
+  }
+
+  function calculateAndShowResults() {
+    let totalScore = 0;
+
+    items.forEach(item => {
+      let val = parseInt(userAnswers[item.id] || '3');
+      totalScore += val;
+    });
+
+    saveState(totalScore);
+
+    // Skjul Wizard UI & Vis Resultater
+    document.getElementById('eia-wizard-header').style.display = 'none';
+    document.getElementById('eia-quiz-step-container').style.display = 'none';
+    
+    const resultsDiv = document.getElementById('eia-results');
+    resultsDiv.style.display = 'block';
+
+    document.getElementById('eia-total-score').textContent = totalScore;
+
+    const descEl = document.getElementById('eia-total-desc');
+    const heroBg = document.getElementById('eia-hero-bg');
+    const progressBar = document.getElementById('eia-res-progress-bar');
+    const recBox = document.getElementById('eia-recommendation-box');
+
+    // Opdater bar (9 til 45 point -> 0% til 100%)
+    const pct = Math.min(100, Math.max(0, ((totalScore - 9) / 36) * 100));
+    progressBar.style.width = `${pct}%`;
+
+    if (totalScore >= 36) {
+      heroBg.style.background = 'linear-gradient(135deg, #4338ca 0%, #4f46e5 100%)';
+      progressBar.style.background = '#4f46e5';
+      descEl.textContent = "Meget Stærk Træningsidentitet. Sporten er en fundamental og dybt integreret del af, hvem du er som person.";
+      
+      recBox.style.background = '#e0e7ff';
+      recBox.style.border = '1px solid #a5b4fc';
+      recBox.style.color = '#3730a3';
+      recBox.innerHTML = `
+        <b>💡 Det tveæggede sværd:</b> Din stærke identitet giver dig en enorm drivkraft, dedikation og motivation, som andre misunder dig! 
+        Men vær opmærksom på din sårbarhed. Hvis dit selvværd <i>kun</i> bygger på sport, kan en længerevarende skade udløse en personlig krise. Sørg for bevidst at dyrke andre "ben" i din identitet (venner, hobbyer, uddannelse), så du står stabilt.
+      `;
+    } else if (totalScore >= 24) {
+      heroBg.style.background = 'linear-gradient(135deg, #0d9488 0%, #14b8a6 100%)';
+      progressBar.style.background = '#14b8a6';
+      descEl.textContent = "Moderat/Sund Træningsidentitet. Træning er vigtigt for dig, men det definerer ikke hele dit selvværd.";
+      
+      recBox.style.background = '#f0fdfa';
+      recBox.style.border = '1px solid #99f6e4';
+      recBox.style.color = '#0f766e';
+      recBox.innerHTML = `
+        <b>🟢 Solid Balance:</b> Du har formået at gøre træningen til en vigtig og fast del af dit liv, uden at det overskygger dine andre roller som fx ven, kollega eller kæreste. Du har en robust profil.
+      `;
+    } else {
+      heroBg.style.background = 'linear-gradient(135deg, #64748b 0%, #94a3b8 100%)';
+      progressBar.style.background = '#64748b';
+      descEl.textContent = "Lav Træningsidentitet. Du træner måske for sundhedens skyld, men du identificerer dig ikke decideret som en 'atlet'.";
+      
+      recBox.style.background = '#f8fafc';
+      recBox.style.border = '1px solid #e2e8f0';
+      recBox.style.color = '#334155';
+      recBox.innerHTML = `
+        <b>📈 Potentiale for fastholdelse:</b> Mennesker med meget lav træningsidentitet har ofte sværere ved at fastholde træningen, når motivationen daler. Hvis du ønsker at blive mere vedholdende, kan du prøve at indgå i idrætsfællesskaber (fx en klub), da det hjælper med at bygge en stærkere identitet omkring sporten.
+      `;
+    }
+
+    resultsDiv.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  // Event Listeners
+  document.getElementById('eia-prev-btn').addEventListener('click', function() {
+    if (currentStep > 0) {
+      currentStep--;
+      renderStep();
+    }
+  });
+
+  document.getElementById('eia-restart-btn').addEventListener('click', function() {
+    document.getElementById('eia-wizard-header').style.display = 'block';
+    document.getElementById('eia-quiz-step-container').style.display = 'block';
+    document.getElementById('eia-results').style.display = 'none';
+    currentStep = 0;
+    renderStep();
+  });
+
+  // Start Op
+  loadSaved();
+  
+  if (Object.keys(userAnswers).length >= items.length) {
+    calculateAndShowResults();
+  } else {
+    for (let i = 0; i < items.length; i++) {
+      if (userAnswers[items[i].id] === undefined) {
+        currentStep = i;
+        break;
+      }
+    }
+    renderStep();
+  }
+})();
+</script>

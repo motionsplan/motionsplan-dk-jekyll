@@ -62,7 +62,7 @@ Hvis du tager et kg fedt og et kg muskler, så vil fedtet altså fylde mere end 
 
 ## Konklusion
 
-I min research fandt jeg bl.a. forklaringer fra [bt.dk](https://www.bt.dk/motion/andre-haardnakkede-myter) om, at muskler og fedt vejer det samme. Rationalet bag denne påstand er, at et kg fedt vejer det samme som et kg muskler, hvilket naturligvis er rigtigt.
+Fedt og muskler vejer ikke det samme - med mindre rationalet er, at et kg fedt vejer det samme som et kg muskler, hvilket naturligvis er rigtigt.
 
 > Fedt har som tommelfingerregel en densitet på 0,9 g/ cm3 og muskler en densitet på 1,1 g/ cm3, hvilket betyder, at 1 kg muskler fylder mindre end 1 kg fedt.
 

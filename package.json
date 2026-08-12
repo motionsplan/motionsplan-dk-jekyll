@@ -36,6 +36,7 @@
   "scripts": {
     "test": "mocha src/test/*.*",
     "test:links": "linkinator http://localhost:4040 --skip '^(?!http://localhost)' --recurse --silent --concurrency 100",
+    "test:external": "bundle exec htmlproofer ./_site --only-4xx --ignore-status-codes '400,401,402,403,406,409,429,999' --ignore-empty-alt --allow-hash-href --no-enforce-https --check-internal-hash false --check-images false --check-scripts false --ignore-urls '/bjsm.bmj.com/,/mademistakes.com/,/www.t-nation.com/,/pubmed.ncbi.nlm.nih.gov/,/doi.org/' > broken_links.txt 2>&1",
     "check-links": "bundle exec htmlproofer ./_site --only-4xx --ignore-status-codes '400,401,402,403,406,409,429,999' --ignore-empty-alt --allow-hash-href --no-enforce-https --ignore-urls '/bjsm.bmj.com/,/mademistakes.com/,/www.t-nation.com/,/pubmed.ncbi.nlm.nih.gov/,/doi.org/' > broken_links.txt 2>&1",
     "start": "concurrently -k -n \"jekyll,serve\" -c \"blue,green\" \"npm run build:watch\" \"npm run serve:fast\"",
     "start:legacy": "bundle exec jekyll server --port 4040 --incremental",

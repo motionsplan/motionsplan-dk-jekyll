@@ -48,7 +48,7 @@ tools:
     category: ["Psykologi", "Vurderingsværktøjer"]
     type: ["Beregner"]
     measures: ["Træningsafhængighed", "EAI-score", "Afhængighedsrisiko"]
-    anchor: "#test-din-traeningsafhaengighed-eai"
+    anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 ---
 
@@ -56,32 +56,36 @@ Motion er uomtvisteligt sundt for både krop og sind. Men for nogle tipper balan
 
 Træningsafhængighed (på engelsk *Exercise Addiction*) betegner en tilstand, hvor trangen til motion har taget styringen over hverdagen. Træningen bliver et middel til at håndtere svære følelser, og den vedligeholdes, selvom den går ud over helbredet, sociale relationer og arbejdslivet.
 
+[<i class='fas fa-calculator'></i> Hop til testen](#calculator){: .btn .btn--success .btn--jump }
+
 Du kan læse mere om tilstanden, og hvornår det sunde bliver usundt, hos [Landsforeningen mod spiseforstyrrelser og selvskade (LMS)](https://www.lmsos.dk/traeningsafhaengighed).
 
 {% include video provider="youtube" id="P9z2pwrcLvE" %}
 
 ---
 
-## De 6 tegn på træningsafhængighed
+## De 8 tegn på træningsafhængighed (EAI-8)
 
-For at kunne måle træningsafhængighed systematisk har forskningen identificeret seks kernedimensioner, der kendetegner adfærdsafhængighed (på samme måde som man ser ved fx spilafhængighed). 
+I den danske EAI-test måles der på 8 centrale parametre. De bygger på Mark Griffiths' seks klassiske kernekriterier for adfærdsafhængighed, suppleret med to vigtige kliniske parametre fra prof. Mia Beck Lichtensteins danske forskning:
 
-Det er disse seks dimensioner, som udgør fundamentet for den anerkendte **EAI-test (Exercise Addiction Inventory)**, som du kan tage længere nede på siden. Hvert af testens 6 spørgsmål knytter sig direkte til én af følgende psykologiske mekanismer:
-
-1. 🧠 **Dominans (Salience):** Træning bliver det absolut vigtigste i dit liv. Det dominerer dine tanker, dine følelser og din adfærd i hverdagen.
-2. ⚔️ **Konflikt (Conflict):** Den overdrevne træningsmængde skaber gnidninger med dine omgivelser. Du nedprioriterer din partner, venner, studie eller arbejde for at få tid til at træne.
-3. 🎭 **Humørregulering (Mood modification):** Du bruger primært træning som en "copingstrategi" – en måde at regulere dit humør på. Det giver dig et sus, fjerner stress eller dulmer negative følelser.
-4. 📉 **Tolerance (Tolerance):** Over tid vænner kroppen og hjernen sig til mængden. Du skal træne oftere eller hårdere for at opnå den samme tilfredsstillelse, som du tidligere fik ved mindre anstrengelse.
-5. 🚫 **Abstinenser (Withdrawal symptoms):** Hvis du bliver forhindret i at træne (fx på grund af sygdom, skader eller lukkede centre), oplever du stærkt ubehag i form af irritabilitet, rastløshed, angst eller tristhed.
-6. 🔄 **Tilbagefald (Relapse):** Du har flere gange indset, at du træner for meget, og har forsøgt at skære ned – men du falder lynhurtigt tilbage i de samme ekstreme træningsmængder.
+1. 🧠 **Dominans (*Salience*):** Træningen overskygger alt andet. Selv når du hviler, går dine tanker konstant på næste træningspas, tider eller kalorieforbrug.
+2. ⚔️ **Konflikt (*Conflict*):** Træningsmængden skaber gnidninger med dine omgivelser. Du nedprioriterer partner, familie, venner eller arbejde for at få tid til motion.
+3. 🎭 **Humørregulering (*Mood Modification*):** Du bruger primært træning som din centrale strategi til at dæmpe stress, angst, tristhed eller indre uro.
+4. 📈 **Tolerance (*Tolerance*):** Kroppen og hjernen vænner sig til mængden. Du skal konstant træne længere, oftere eller hårdere for at opnå den samme tilfredsstillelse.
+5. 🚫 **Abstinenser (*Withdrawal*):** Hvis du bliver forhindret i at træne (fx ved sygdom eller lukkede centre), rammes du af udtalt irritabilitet, rastløshed eller tristhed.
+6. 🔄 **Tilbagefald (*Relapse*):** Du har flere gange forsøgt at drosle ned eller holde en pause, men falder lynhurtigt tilbage i de samme stive, ekstreme mængder.
+7. 😔 **Skyldfølelse (*Dansk tilføjelse*):** Du oplever stærk indre selvbebrejdelse og skam, hvis du misses et planlagt træningspas, eller hvis træningen ikke går som forventet.
+8. 🩹 **Træning trods skade og sygdom (*Dansk tilføjelse*):** Du ignorerer kroppens biologiske advarselssignaler og træner videre på trods af feber, smerter eller overbelastningsskader.
 
 ---
 
 ## Test din træningsafhængighed (EAI)
+{: id="calculator" }
 
 Herunder kan du gennemføre **Exercise Addiction Inventory (EAI)** screeningtesten. Testen undersøger de seks ovenstående mekanismer.
 
 > **Instruktion:** Vurdér for hvert af de 6 spørgsmål, hvor enig du er i udsagnet på en skala fra 1 (*Meget uenig*) til 5 (*Meget enig*). Svar ærligt ud fra, hvordan din træning reelt har påvirket dig den seneste måned.
+{: .notice--info }
 
 {% include components/eai-traeningsafhaengighed.html %}
 
@@ -89,23 +93,63 @@ Herunder kan du gennemføre **Exercise Addiction Inventory (EAI)** screeningtest
 
 ## Tolkning af dit testresultat
 
-Når du har besvaret alle spørgsmål, får du en samlet score på mellem **6 og 30 point**. Skalaen opdeler dit forhold til træning i tre hovedkategorier:
+Når du har besvaret alle 8 spørgsmål, får du en samlet score på mellem **8 og 48 point** (1–6 point per spørgsmål). Skalaen opdeler dit forhold til træning i tre hovedkategorier:
 
 | EAI Score | Belastningsgrad | Tolkning & Anbefaling |
 | :--- | :--- | :--- |
-| **24 – 30 point** | **Risiko for træningsafhængighed** | Du udviser stærke tegn på et tvangspræget forhold til motion. Din score peger på, at din træning påvirker dig negativt fysisk, mentalt eller socialt. Vi anbefaler kraftigt, at du drøfter dine resultater med en læge, psykolog eller rådgiver. |
-| **13 – 23 point** | **Symptomatisk** | Du har enkelte tegn på overdrevet træningsfokus, men udviser ikke et fuldt tvangspræget mønster. Vær opmærksom på din balance og husk at prioritere restitution og andre aspekter af livet. |
-| **6 – 12 point** | **Asymptomatisk** | Din score indikerer et overvejende sundt, fleksibelt og ukompliceret forhold til din træning. Motion er en positiv tilføjelse til din hverdag, ikke en tvang. |
+| **34 – 48 point** | **Risiko for træningsafhængighed** | Du udviser stærke tegn på et tvangspræget forhold til motion. Din score peger på, at din træning påvirker dig negativt fysisk, mentalt eller socialt. Vi anbefaler kraftigt, at du drøfter dine resultater med en læge, psykolog eller rådgiver. |
+| **24 – 33 point** | **Enkelte symptomer** | Du har enkelte tegn på et forhøjet træningsfokus, men udviser ikke et fuldt tvangspræget mønster. Vær opmærksom på din balance og husk at prioritere restitution og andre aspekter af livet. |
+| **8 – 23 point** | **Ingen symptomer** | Din score indikerer et overvejende sundt, fleksibelt og ukompliceret forhold til din træning. Motion er en positiv tilføjelse til din hverdag, ikke en tvang. |
 
 ---
 
-## Baggrund for EAI-testen
+## Baggrund: Fra den internationale EAI-6 til den danske EAI-8
 
-Testen er oprindeligt udviklet af de internationale forskere **Annabel Terry, Attila Szabo og Mark Griffiths (2004)**. 
+**Exercise Addiction Inventory (EAI)** er et af verdens mest anvendte og validerede screeningsredskaber til at afdække risikoen for træningsafhængighed. Testen findes i dag i to primære udgaver – en original international version og en udvidet dansk version.
 
-I Danmark er den oversat, valideret og tilpasset af psykolog og professor **Mia Beck Lichtenstein** i forbindelse med hendes ph.d.-projekt om emnet. Du kan læse en uddybende gennemgang af hendes forskning, og hvordan de seks parametre påvirker hjernen, i denne glimrende artikel på [Videnskab.dk](https://videnskab.dk/krop-sundhed/test-dig-selv-er-du-afhaengig-af-din-traening/).
+---
 
-Hvis testen viser, at du befinder dig i risikogruppen, bør du ikke ignorere det. Du kan søge faglig støtte og vejledning hos egen læge, hos [LMS](https://www.lmsos.dk/) eller på Mia Beck Lichtensteins egen praksis-hjemmeside [mialic.dk](https://mialic.dk/).
+### Originalen: EAI-6 (Terry, Szabo & Griffiths, 2004)
+
+Den oprindelige test blev udviklet i 2004 af de internationale forskere **Annabel Terry, Attila Szabo og Mark Griffiths**. 
+
+Testen blev skabt som et ultrakort og præcist screeningværktøj bestående af **6 spørgsmål**. Hvert spørgsmål matchede direkte ét af Griffiths' seks klassiske kernekriterier for adfærdsafhængighed:
+1. **Dominans (*Salience*):** Træningen overskygger alt andet.
+2. **Konflikt (*Conflict*):** Motionen skaber problemer i relationer eller hverdagen.
+3. **Humørregulering (*Mood modification*):** Træning bruges til at dæmpe svære følelser.
+4. **Tolerance (*Tolerance*):** Der skal stadigt mere træning til for at opnå samme ro.
+5. **Abstinenser (*Withdrawal*):** Ubehag og rastløshed ved manglende træning.
+6. **Tilbagefald (*Relapse*):** Svært ved at holde en pause eller drosle ned.
+
+På den originale 6-spørgsmåls skala (6–30 point) ligger det kliniske skæringspunkt for risikogruppen på **24 point eller derover**.
+
+---
+
+### Udvidelsen: Den danske version (EAI-8)
+
+Da psykolog og professor **Mia Beck Lichtenstein** oversatte og validerede EAI-skalaen til danske forhold under sin ph.d.-forskning ved Syddansk Universitet, valgte hun at udvide testen fra 6 til **8 spørgsmål**. Du kan læse en uddybende gennemgang af hendes forskning, og hvordan de seks parametre påvirker hjernen, i denne glimrende artikel på [Videnskab.dk](https://videnskab.dk/krop-sundhed/test-dig-selv-er-du-afhaengig-af-din-traening/).
+
+Baggrunden for udvidelsen var at fange to helt centrale adfærdsmønstre, som både klinisk erfaring og dansk idrætsforskning viste var afgørende for at vurdere den reelle belastningsgrad:
+
+* **Skyldfølelse:** *Måling af den stærke indre selvbebrejdelse, hvis en træning misses eller ikke lever op til egne høje forventninger.*
+* **Træning trods skader og sygdom:** *Måling af tilbøjeligheden til at ignorere kroppens biologiske advarselssignaler og træne videre på trods af smerter, feber eller skader.*
+
+De to ekstra spørgsmål giver et mere helhedsorienteret og følsomt billede af din træningsadfærd.
+
+---
+
+## Hvad gør du, hvis din score er høj?
+
+Hvis din test viser en score på **34 point eller derover**, peger det på, at din træning er tippet over i en ubalance, der påvirker din trivsel. Det kan føles voldsomt at se sort på hvidt, men at anerkende resultatet er det første og vigtigste skridt mod at få friheden tilbage.
+
+Du bør ikke gå med det alene. Her er de bedste skridt, du kan tage lige nu:
+
+* 💬 **Tal med en, du er tryg ved:** Fortæl din partner, en god ven eller din træner om dit testresultat. Det fjerner en stor vægt fra skuldrene blot at sige det højt.
+* 📞 **Søg gratis og anonym rådgivning:** Du kan uforpligtende kontakte [Landsforeningen mod spiseforstyrrelser og selvskade (LMS)](https://www.lmsos.dk/). De har stor erfaring med træningsafhængighed og tilbyder professionel rådgivning uden at dømme.
+* 👨‍⚕️ **Tag en snak med din læge:** Din egen læge kan hjælpe dig med at vurdere dit fysiske og mentale overskud og guide dig videre i det rette tempo.
+* 🧠 **Opsøg specialiseret behandling:** Du kan læse mere om rådgivning og psykologhjælp rettet mod træningsafhængighed hos professor og psykolog Mia Beck Lichtenstein på [mialic.dk](https://mialic.dk/).
+
+> 💚 **Husk:** Målet er ikke, at du skal stoppe med at bevæge dig. Målet er at hjælpe dig tilbage til et liv, hvor motionen er en opbyggende kilde til glæde frem for et usundt krav.
 
 ---
 
@@ -135,6 +179,14 @@ Du kan også undersøge, om dit overordnede stress- og udmattelsesniveau er for 
 * [ABQ Udbrændthed i Sport](/abq-udbraendthed-overtraening/)
 * [WHO-5 Trivselsindeks](/who5-trivselindekset/)
 * [Anerkendt Stresstest (PSS-10)](/stress-test/)
+* [Automatiske negative tanker (ATQ)](/atq-automatiske-negative-tanker/)
+
+<div class="notice--success" markdown="1">
+### ⚖️ Søger du et samlet overblik over tvang, ortoreksi og balance?
+Træningsafhængighed hænger ofte tæt sammen med stive kostregler (ortoreksi) og usund identitetsbinding. På vores samlede temaguide kan du læse mere om spændfeltet og afprøve vores **"Tvang vs. Balance"-dashboard**, der samler 4 validerede tests (EAI, DOS, Passionsskalaen og IES-2):
+
+👉 **[Læs guiden om Træningsafhængighed & Ortoreksi og se Dashboardet →](/traeningsafhaengighed-ortoreksi/)**
+</div>
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Kilder og Referencer</h2></summary>

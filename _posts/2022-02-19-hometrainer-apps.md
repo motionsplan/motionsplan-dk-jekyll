@@ -104,7 +104,7 @@ Uanset hvilken app du vælger, kræver det grundlæggende samme udstyrsopsætnin
 3. **En skærm/enhed:** PC, Mac, iPad/tablet, Apple TV eller smartphone.
 4. **Køling & Tilbehør:** En god blæser er uundværlig for ikke at overophede indendørs.
 
-{% include motionsplan/affiliate-box.html type="category" item=site.data.affiliates.categories.hometrainers view="card" title="Er dit hometrainer-setup klar til vinteren?" text="Vil du have overblik over de bedste smarttrainers, blæsere, pulsmålere og tilbehør i forskellige prisklasser? Læs vores samlede guide:" %}
+{% include motionsplan/affiliate-box.html type="category" item=site.data.affiliates.categories.hometrainers view="card" title="Er dit hometrainer-setup klar til vinteren?" text="Vil du have overblik over de bedste smarttrainers, blæsere, pulsmålere og tilbehør i forskellige prisklasser? Læs vores [samlede guide](/udstyr-hometrainer-ecykling/) eller tjek priser hos disse onlineforhandlere." %}
 
 ---
 

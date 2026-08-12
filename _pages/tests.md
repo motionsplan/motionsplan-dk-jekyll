@@ -150,8 +150,6 @@ Leder du efter en af vores mest benyttede specifikke guides eller beregnere, kan
 
 ---
 
----
-
 ## Hvad er en fitnesstest?
 {: id="fitnesstest" }
 
@@ -163,6 +161,7 @@ En **fitnesstest** er en struktureret måling af din fysiske formåen inden for 
 * 🤸‍♂️ **Smidighed & Smidighedstest:** Måling af leddenes bevægelighed og fleksibilitet.
 
 > 💡 **Tip til præcise målinger:** Udfør altid dine fitnesstests under de samme forhold (samme tidspunkt på dagen, samme opvarmning og samme udstyr) for at få et pålideligt sammenligningsgrundlag.
+{. notice--info }
 
 {% include figure image_path="/assets/images/barbellmedicine.com/Screen-Shot-2019-10-30-at-9_36_43-PM-e1578938168537-1dac3e89.png" caption="Balancetræning er en af de træningsformer, man bør lave for at blive en komplet atlet. Kilde: [www.barbellmedicine.com](https://www.barbellmedicine.com/blog/resistance-training-for-youth-part-iv/) [📷](https://www.barbellmedicine.com/wp-content/uploads/2020/01/Screen-Shot-2019-10-30-at-9.36.43-PM-e1578938168537.png){: rel='nofollow noopener' }" alt=page.title %}
 

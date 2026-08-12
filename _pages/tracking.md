@@ -43,7 +43,7 @@ Mens [fysiske tests](/tests/) ofte kræver en maksimal indsats for at måle din 
 <div class="notice--info" markdown="1">
 ### 📊 1. Subjektiv tracking & intensitetsskalaer
 Subjektive målinger af den oplevede anstrengelse er blandt de mest præcise redskaber til at styre og registrere din reelle træningsbelastning:
-* **[RPE](/rpe/) og [Borg-skalaen (Rate of Perceived Exertion)](/borg-skala/)** – Lær at bruge intensitets- og RPE-skalaen til at styre belastningen i styrke og kondition.
+* **[RPE i styrketræning](/rpe/) og [Borg-skalaen (Rate of Perceived Exertion)](/borg-skala/)** – Lær at bruge intensitets- og RPE-skalaen til at styre belastningen i styrke og kondition.
 * **[Træningslog og træningsdagbog](/traeningsdagbog-app/)** – Før en struktureret logbog over sæt, reps, RPE og træningsvolumen.
 * **[Skabeloner til træningsdagbog & træningsprogrammer](/skabeloner/)** – Hent gratis skabeloner i Google Sheets, Excel og Word til at føre din egen træningslog.
 * **[SMART-målsætning og evalueringsværktøjer](/smart/)** – Hold styr på dine langsigtede milepæle.

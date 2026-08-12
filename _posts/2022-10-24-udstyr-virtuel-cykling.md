@@ -14,6 +14,7 @@ header:
   caption: *title
 category:
   - Cykling
+  - Hometrainer
 tags:
   - kondition
   - cykling

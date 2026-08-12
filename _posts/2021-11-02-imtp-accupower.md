@@ -81,5 +81,4 @@ AccuPower kraftplatformen er et effektivt værktøj til IMTP-testen, men den kan
   <summary><h2 id="references">Referencer</h2></summary>
 
 - [www.scienceforsport.com](https://www.scienceforsport.com/isometric-mid-thigh-pull-imtp/)
-- [simplifaster.com](https://simplifaster.com/articles/isometric-mid-thigh-pull-strength-test/)
 </details>

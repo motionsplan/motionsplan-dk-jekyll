@@ -1,11 +1,9 @@
 ---
 title: 'Træningspyramiden: 6 vigtige trin i muskel- og styrketræning'
-seo_title: 'Træningspyramiden: 6 vigtige trin i muskel- og styrketræning'
+seo_title: 'Træningspyramiden (Eric Helms) – De 6 vigtigste principper'
+description: Hvad er vigtigst for din styrketræning? Se Træningspyramiden opbygget trin-for-trin og lær, hvordan du prioritere volumen, progression og øvelser korrekt.
+excerpt: Hvad er vigtigst for din styrketræning? Se Træningspyramiden opbygget trin-for-trin og lær, hvordan du prioritere volumen, progression og øvelser korrekt.
 permalink: /traeningspyramiden-styrketraening/
-description: Vil du gerne have gode resultater af din styrketræning? Træningspyramiden guider dig til, hvad det er vigtigst
-  at fokusere på i din styrketræning.
-excerpt: Vil du gerne have gode resultater af din træning? Træningspyramiden guider dig til, hvad det er vigtigst at fokusere
-  på i styrketræning.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1574680096145-d05b474e2155.jpg
@@ -15,16 +13,39 @@ category:
 - Styrketræning
 tags:
 - styrketræning
-last_modified_at: '2022-11-21T07:14:14Z'
+last_modified_at: '2026-07-21T07:14:14Z'
+pyramid_steps:
+  - title: "Tempo"
+    url: "#6-tempo"
+    description: "Kontrolleret sænkning og eksplosivt løft"
+  - title: "Pauser"
+    url: "#5-pauser"
+    description: "Restitution mellem sæt for maksimal ydeevne"
+  - title: "Øvelsesvalg"
+    url: "#4-ovelsesvalg"
+    description: "Vælg de rette øvelser til dit specifikke mål"
+  - title: "Progression"
+    url: "#3-progression"
+    description: "Progressivt overload og øgning i belastning"
+  - title: "Volumen, intensitet og frekvens"
+    url: "#2-volumen-intensitet-og-frekvens"
+    description: "Det samlede arbejde, vægt og ugentlige sæt"
+  - title: "Vedholdenhed"
+    url: "#1-vedholdenhed"
+    description: "Fundamentet: Den træning du reelt får lavet"
 ---
 
 Vil du gerne have gode resultater af din træning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning.
 
 Når du går i gang med at planlægge din styrketræning, så kan man ofte blive overvældet af alle de muligheder, der er.
 
+> 💡 **Søger du efter pyramidesæt?**  
+> Denne artikel gennemgår Eric Helms' prioriteringsmodel for styrketræning. Hvis du i stedet leder efter *pyramidetræning* som sæt- og gentagelsesstruktur (f.eks. 12-10-8-6 reps), kan du [gå direkte til guiden om pyramidesæt her](/styrketraening/pyramide/).
+{: .notice--info }
+
 Træningspyramiden er et forsøg på at prioritere lidt i kompleksiteten. Her gennemgår vi styrketræningspyramiden og fortæller, hvordan du kan bruge modellen i praksis med din egen træning.
 
-{% include figure image_path="https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="kostpyramiden til styrketræning" %}
+{% include motionsplan/strength-pyramid.html steps=page.pyramid_steps %}
 
 ## Hvad er træningspyramiden?
 
@@ -184,4 +205,4 @@ Styrketræningspyramiden ser enkel ud, og den giver nogle gode retningslinjer fo
 
 Under de enkelte lag i pyramiden er der naturligvis også ting, der er vigtigere end andre ting. Dem forklarer Eric Helms rigtig godt i videoerne.
 
-{% include motionsplan/strength-pyramid.html nav="strength_pyramid" %}
+{% include figure image_path="https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt"træningspyramiden til styrketræning" %}

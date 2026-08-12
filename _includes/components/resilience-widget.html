@@ -1,0 +1,301 @@
+<!-- BRS RESILIENS INTERAKTIVT VÆRKTØJ (Wizard Format - motionsplan.dk) -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div id="brs-card" style="max-width: 720px; margin: 0 auto; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); font-family: system-ui, -apple-system, sans-serif;">
+  
+  <!-- HEADER & PROGRESS BAR -->
+  <div id="brs-wizard-header" style="border-bottom: 2px solid #f1f5f9; padding-bottom: 16px; margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+      <div>
+        <h3 style="margin: 0; font-size: 1.25rem; font-weight: 800; color: #0f172a;">🛡️ BRS: Mental Resiliens</h3>
+        <span id="brs-step-counter" style="font-size: 0.8rem; font-weight: 700; color: #64748b;">Påstand 1 af 6</span>
+      </div>
+      <span id="brs-step-pct" style="background: #e0f2fe; color: #0369a1; font-size: 0.75rem; font-weight: 800; padding: 6px 12px; border-radius: 20px;">17% færdig</span>
+    </div>
+    
+    <!-- PROGRESS BAR -->
+    <div style="width: 100%; background: #f1f5f9; height: 8px; border-radius: 4px; overflow: hidden;">
+      <div id="brs-progress-bar" style="width: 17%; background: linear-gradient(90deg, #0284c7 0%, #38bdf8 100%); height: 100%; transition: width 0.3s ease;"></div>
+    </div>
+  </div>
+
+  <!-- SPØRGSMÅL CONTAINER -->
+  <div id="brs-quiz-step-container">
+    
+    <div style="margin-bottom: 24px; min-height: 70px;">
+      <span id="brs-q-category" style="font-size: 0.72rem; font-weight: 800; color: #0284c7; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px;">
+        Evnen til at "bounce back"
+      </span>
+      <h4 id="brs-q-text" style="margin: 0; font-size: 1.15rem; font-weight: 700; color: #0f172a; line-height: 1.4;">
+        Påstand indlæses...
+      </h4>
+    </div>
+
+    <!-- FLOTTE SVARKNAPPER (5 MULIGHEDER) -->
+    <div id="brs-options-container" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px;">
+      <!-- Knapper genereres i JS -->
+    </div>
+
+    <!-- NAVIGATION KNAPPER -->
+    <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 16px;">
+      <button type="button" id="brs-prev-btn" style="background: transparent; border: 1px solid #cbd5e1; color: #64748b; padding: 8px 16px; border-radius: 8px; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 6px; visibility: hidden;">
+        ← Forrige
+      </button>
+      <span style="font-size: 0.75rem; color: #94a3b8; font-weight: 600;">Vælg en mulighed for at gå videre</span>
+    </div>
+
+  </div>
+
+  <!-- RESULTAT SEKTION (SKJULT INDTIL GENNEMFØRT) -->
+  <div id="brs-results" style="display: none;">
+    <div style="text-align: center; margin-bottom: 20px;">
+      <span style="background: #e0f2fe; color: #0369a1; font-size: 0.75rem; font-weight: 800; padding: 6px 14px; border-radius: 20px;">🎉 Profil Beregnet!</span>
+      <h3 style="color: #0f172a; margin: 10px 0 0 0; font-size: 1.5rem;">Din Resiliens-Profil</h3>
+    </div>
+
+    <!-- HERO RESULTAT BOKS -->
+    <div id="brs-hero-bg" style="background: linear-gradient(135deg, #0369a1 0%, #0284c7 100%); color: #ffffff; border-radius: 16px; padding: 20px; text-align: center; margin-bottom: 24px; box-shadow: 0 8px 20px rgba(2,132,199,0.2);">
+      <span style="font-size: 0.75rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; opacity: 0.9;">BRS SCORE (1,0 – 5,0)</span>
+      <div style="font-size: 3.5rem; font-weight: 900; line-height: 1; margin: 8px 0;">
+        <span id="brs-total-score">0.0</span> <small style="font-size: 1.5rem; opacity: 0.8;">/ 5.0</small>
+      </div>
+      <p id="brs-total-desc" style="margin: 0; font-size: 0.88rem; opacity: 0.95; font-weight: 600; line-height: 1.4;"></p>
+    </div>
+
+    <!-- SKALA VISUALISERING -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; margin-bottom: 24px;">
+      <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 700; color: #64748b; margin-bottom: 8px;">
+        <span>Lav (&lt; 3.0)</span>
+        <span>Normal (3.0 – 4.3)</span>
+        <span>Høj (&gt; 4.3)</span>
+      </div>
+      <div style="position: relative; width: 100%; background: #e2e8f0; height: 12px; border-radius: 6px; overflow: hidden;">
+        <div id="brs-res-progress-bar" style="width: 0%; background: #0284c7; height: 100%; transition: width 0.5s ease;"></div>
+      </div>
+    </div>
+
+    <!-- DETALJERET SYMPTOM & ANBEFALINGS BOKS -->
+    <div id="brs-recommendation-box" style="padding: 16px; border-radius: 12px; font-size: 0.88rem; line-height: 1.5; margin-bottom: 24px;">
+      <!-- Dynamisk rådgivning -->
+    </div>
+
+    <button type="button" id="brs-restart-btn" style="width: 100%; background: #f1f5f9; border: 1px solid #cbd5e1; color: #334155; padding: 12px; border-radius: 10px; font-weight: 700; cursor: pointer;">
+      🔄 Tag testen igen / Rediger svar
+    </button>
+  </div>
+
+  <!-- KILDEANGIVELSE / FOOTER -->
+  <div style="border-top: 1px solid #f1f5f9; margin-top: 24px; padding-top: 12px; display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #94a3b8; flex-wrap: wrap; gap: 8px;">
+    <span>📌 <b>Kilde:</b> Smith et al. (2008). <i>Brief Resilience Scale (BRS)</i>.</span>
+    <span>&copy; motionsplan.dk</span>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const STORAGE_KEY = 'motionsplan_resilience_state';
+
+  const items = [
+    { id: 1, reverse: false, text: "Jeg har en tendens til at komme mig hurtigt efter svære tider eller modgang i min sport." },
+    { id: 2, reverse: true,  text: "Jeg har sværere ved at klare stressende begivenheder og pres end andre atleter." },
+    { id: 3, reverse: false, text: "Det tager mig ikke lang tid at komme videre efter et hårdt nederlag eller en dårlig præstation." },
+    { id: 4, reverse: true,  text: "Det er hårdt for mig at komme stærkt igen, når der sker noget skidt i min træning eller karriere." },
+    { id: 5, reverse: false, text: "Jeg kommer typisk igennem svære perioder (fx skader eller formdyk) uden de store problemer." },
+    { id: 6, reverse: true,  text: "Jeg har en tendens til at bruge lang tid på at komme over skuffelser i min sport." }
+  ];
+
+  const options = [
+    { val: 1, label: "Helt uenig" },
+    { val: 2, label: "Delvis uenig" },
+    { val: 3, label: "Hverken / eller" },
+    { val: 4, label: "Delvis enig" },
+    { val: 5, label: "Helt enig" }
+  ];
+
+  let currentStep = 0;
+  let userAnswers = {};
+
+  function loadSaved() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        userAnswers = JSON.parse(saved);
+      } catch(e) {}
+    }
+  }
+
+  function saveState() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(userAnswers));
+  }
+
+  function renderStep() {
+    const item = items[currentStep];
+    const totalQ = items.length;
+    const pct = Math.round(((currentStep + 1) / totalQ) * 100);
+
+    // Opdater Header & Progress
+    document.getElementById('brs-step-counter').textContent = `Påstand ${currentStep + 1} af ${totalQ}`;
+    document.getElementById('brs-step-pct').textContent = `${pct}% færdig`;
+    document.getElementById('brs-progress-bar').style.width = `${pct}%`;
+
+    // Opdater Tekst
+    document.getElementById('brs-q-text').textContent = `${currentStep + 1}. "${item.text}"`;
+
+    // Vis/skjul "Forrige" knap
+    const prevBtn = document.getElementById('brs-prev-btn');
+    prevBtn.style.visibility = currentStep > 0 ? 'visible' : 'hidden';
+
+    // Render Flotte Svarknapper
+    const optionsContainer = document.getElementById('brs-options-container');
+    optionsContainer.innerHTML = '';
+
+    const selectedVal = userAnswers[item.id] !== undefined ? parseInt(userAnswers[item.id]) : null;
+
+    options.forEach(opt => {
+      const isSelected = selectedVal === opt.val;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      
+      btn.style.cssText = `
+        width: 100%;
+        padding: 13px 18px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-align: left;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: ${isSelected ? '2px solid #0284c7' : '1px solid #cbd5e1'};
+        background: ${isSelected ? '#f0f9ff' : '#ffffff'};
+        color: ${isSelected ? '#0369a1' : '#334155'};
+        box-shadow: ${isSelected ? '0 4px 12px rgba(2, 132, 199, 0.15)' : '0 2px 4px rgba(0,0,0,0.02)'};
+      `;
+
+      btn.innerHTML = `
+        <span>${opt.label}</span>
+        <span style="width: 20px; height: 20px; border-radius: 50%; border: ${isSelected ? '6px solid #0284c7' : '2px solid #cbd5e1'}; background: #ffffff;"></span>
+      `;
+
+      btn.addEventListener('click', function() {
+        userAnswers[item.id] = opt.val;
+        saveState();
+
+        setTimeout(() => {
+          if (currentStep < totalQ - 1) {
+            currentStep++;
+            renderStep();
+          } else {
+            calculateAndShowResults();
+          }
+        }, 150);
+      });
+
+      optionsContainer.appendChild(btn);
+    });
+  }
+
+  function calculateAndShowResults() {
+    let totalScoreSum = 0;
+
+    items.forEach(item => {
+      let val = parseInt(userAnswers[item.id] || '3');
+      if (item.reverse) {
+        val = 6 - val;
+      }
+      totalScoreSum += val;
+    });
+
+    const finalAvg = parseFloat((totalScoreSum / 6).toFixed(2));
+
+    // Skjul Wizard UI & Vis Resultater
+    document.getElementById('brs-wizard-header').style.display = 'none';
+    document.getElementById('brs-quiz-step-container').style.display = 'none';
+    
+    const resultsDiv = document.getElementById('brs-results');
+    resultsDiv.style.display = 'block';
+
+    document.getElementById('brs-total-score').textContent = finalAvg.toFixed(1);
+
+    const descEl = document.getElementById('brs-total-desc');
+    const heroBg = document.getElementById('brs-hero-bg');
+    const progressBar = document.getElementById('brs-res-progress-bar');
+    const recBox = document.getElementById('brs-recommendation-box');
+
+    // Opdater bar (1.0 til 5.0 -> 0% til 100%)
+    const pct = Math.min(100, Math.max(0, ((finalAvg - 1) / 4) * 100));
+    progressBar.style.width = `${pct}%`;
+
+    if (finalAvg >= 4.30) {
+      heroBg.style.background = 'linear-gradient(135deg, #0369a1 0%, #0284c7 100%)';
+      progressBar.style.background = '#0284c7';
+      descEl.textContent = "Høj Mental Resiliens! Du besidder en fremragende evne til hurtigt at slippe nederlag, omstille fokus og komme styrket ud af skader eller modgang.";
+      
+      recBox.style.background = '#f0f9ff';
+      recBox.style.border = '1px solid #bae6fd';
+      recBox.style.color = '#0369a1';
+      recBox.innerHTML = `
+        <b>💪 Dine Styrker:</b> Du lader dig sjældent slå ud af eksterne forstyrrelser eller bump på vejen. Fortsæt med at dele din mentalitet og fungere som en rolig, stabiliserende faktor for dit hold.
+      `;
+    } else if (finalAvg >= 3.00) {
+      heroBg.style.background = 'linear-gradient(135deg, #0d9488 0%, #14b8a6 100%)';
+      progressBar.style.background = '#14b8a6';
+      descEl.textContent = "Normal / Gennemsnitlig Resiliens. Du kommer igennem de fleste udfordringer, men større skuffelser eller langvarige skader kan kræve ekstra energi at bearbejde.";
+      
+      recBox.style.background = '#f0fdfa';
+      recBox.style.border = '1px solid #99f6e4';
+      recBox.style.color = '#0f766e';
+      recBox.innerHTML = `
+        <b>📈 Udviklingsfokus:</b> Du har et solidt udgangspunkt. Arbejd aktivt med kognitiv omstrukturering (*reframing*), når modgang rammer, så du hurtigere skifter fra "hvorfor skete det for mig?" til "hvad kan jeg lære af det?".
+      `;
+    } else {
+      heroBg.style.background = 'linear-gradient(135deg, #b91c1c 0%, #ef4444 100%)';
+      progressBar.style.background = '#ef4444';
+      descEl.textContent = "Lav Resiliens. Du har en tendens til at bruge lang tid på at ryste nederlag, fejl eller modgang af dig, hvilket kan hæmme din trivsel og fremgang.";
+      
+      recBox.style.background = '#fef2f2';
+      recBox.style.border = '1px solid #fecaca';
+      recBox.style.color = '#991b1b';
+      recBox.innerHTML = `
+        <b>⚠️ Træningsområde:</b> Det er helt normalt at opleve perioder med lav resiliens, særligt under høj samlet livsstress. Prioritér at arbejde med din kontrolcirkel (fokusér KUN på det, du selv kan styre) og opbyg et stærkt socialt støttesystem med din træner eller holdkammerater.
+      `;
+    }
+
+    resultsDiv.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  // Event Listeners
+  document.getElementById('brs-prev-btn').addEventListener('click', function() {
+    if (currentStep > 0) {
+      currentStep--;
+      renderStep();
+    }
+  });
+
+  document.getElementById('brs-restart-btn').addEventListener('click', function() {
+    document.getElementById('brs-wizard-header').style.display = 'block';
+    document.getElementById('brs-quiz-step-container').style.display = 'block';
+    document.getElementById('brs-results').style.display = 'none';
+    currentStep = 0;
+    renderStep();
+  });
+
+  // Start Op
+  loadSaved();
+  
+  if (Object.keys(userAnswers).length >= items.length) {
+    calculateAndShowResults();
+  } else {
+    for (let i = 0; i < items.length; i++) {
+      if (userAnswers[items[i].id] === undefined) {
+        currentStep = i;
+        break;
+      }
+    }
+    renderStep();
+  }
+})();
+</script>

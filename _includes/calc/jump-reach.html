@@ -1,0 +1,372 @@
+<!-- _includes/calc/jump-reach.html -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-jr-input { 
+    height: 40px !important; 
+    border-radius: 8px !important; 
+    text-align: center !important; 
+    font-weight: 800 !important; 
+    box-sizing: border-box !important; 
+    padding: 0 6px !important; 
+    border: 1.5px solid #cbd5e1 !important; 
+    background: #ffffff !important; 
+    margin: 0 !important; 
+    width: 100% !important;
+    font-size: 0.875rem !important;
+  }
+
+  .mp-jr-flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: flex-end;
+  }
+
+  .mp-jr-field {
+    flex: 1 1 100px;
+    min-width: 0;
+  }
+
+  .mp-jr-gender-field {
+    flex: 1.4 1 140px;
+    min-width: 130px;
+  }
+
+  /* 2x3 GRID PÅ MOBIL / 3x2 PÅ DESKTOP */
+  .mp-jr-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.65rem;
+    margin-bottom: 1.15rem;
+  }
+
+  @media (max-width: 640px) {
+    .mp-jr-cards-grid {
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 0.5rem;
+    }
+  }
+
+  .mp-jr-variation-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.65rem 0.75rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 105px;
+    box-sizing: border-box;
+  }
+  .mp-jr-variation-card:hover:not(.is-selected) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+  .mp-jr-variation-card.is-selected {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-jr-card-title {
+    font-size: 0.775rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.2;
+  }
+
+  .mp-jr-card-sub {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: #64748b;
+    margin-top: 1px;
+  }
+
+  .mp-jr-card-val {
+    font-size: 1.45rem;
+    font-weight: 900;
+    color: #1e3a8a;
+    line-height: 1.1;
+    margin-top: 0.25rem;
+  }
+
+  .mp-jr-card-watt {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-top: 1px;
+  }
+
+  .mp-jr-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 0.35rem;
+  }
+
+  .mp-jr-badge-tag {
+    font-size: 0.6rem;
+    font-weight: 800;
+    padding: 1px 5px;
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+  }
+
+  .mp-jr-auto-badge { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.25rem; }
+  .mp-jr-badge-header { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 0.5rem; }
+  .mp-jr-badge-title-group { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
+  .mp-jr-badge-title { font-size: 0.85rem; font-weight: 800; color: #0f172a; }
+  .mp-jr-rec-tag { font-size: 0.65rem; font-weight: 800; color: #1e40af; background: #dbeafe; padding: 2px 6px; border-radius: 5px; }
+
+  .mp-jr-btn-gear { background: #ffffff !important; border: 1px solid #93c5fd !important; color: #2563eb !important; font-size: 0.95rem !important; width: 32px !important; height: 32px !important; border-radius: 8px !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.15s ease !important; padding: 0 !important; }
+  .mp-jr-btn-gear:hover { background: #2563eb !important; color: #ffffff !important; border-color: #2563eb !important; }
+
+  .mp-jr-picker-list { display: flex; flex-direction: column; gap: 0.5rem; }
+  .mp-jr-picker-card { background: #ffffff; border: 2px solid #e2e8f0; border-radius: 10px; padding: 0.75rem 0.9rem; cursor: pointer; transition: all 0.15s ease; text-align: left; }
+  .mp-jr-picker-card:hover:not(.is-selected) { border-color: #93c5fd; background: #f8fafc; }
+  .mp-jr-picker-card.is-selected { border-color: #2563eb; background: #eff6ff; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12); }
+  .mp-jr-check-icon { width: 18px; height: 18px; border-radius: 50%; background: #e2e8f0; color: #94a3b8; font-size: 0.65rem; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+  .mp-jr-picker-card.is-selected .mp-jr-check-icon { background: #2563eb; color: #ffffff; }
+
+  .mp-badge-btn-hero {
+    border: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+    gap: 0.35rem; font-size: 0.75rem; font-weight: 800; padding: 0.3rem 0.65rem; border-radius: 6px; background: #e2e8f0; color: #64748b; transition: all 0.15s ease;
+  }
+  .mp-badge-btn-hero:hover { transform: translateY(-1px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+
+  /* LOG TABEL 100% GARANTERET BREDDE */
+  .mp-jr-log-wrapper {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  .mp-jr-log-table {
+    width: 100% !important;
+    min-width: 100% !important;
+    display: table !important;
+    table-layout: fixed !important;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+  }
+  .mp-jr-log-table th { background: #f1f5f9; color: #475569; padding: 6px 8px; text-align: left; font-weight: 800; border-bottom: 1.5px solid #cbd5e1; }
+  .mp-jr-log-table td { padding: 6px 8px; border-bottom: 1px solid #e2e8f0; color: #0f172a; font-weight: 600; vertical-align: middle; }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="jump-reach" data-ui-module="jump-reach-ui" style="max-width: 680px; margin: 0 auto; position: relative;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.75rem; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 2px 0;">🦘 Jump & Reach Dashboard</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Vælg hop-type, indtast dine mål og gem dine personlige rekorder.
+      </p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 34px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- 1. POWER FORMEL VÆLGER SEKTION (ØVERST) -->
+  <div class="js-jr-formula-section" style="margin-bottom: 1rem;">
+    <label style="font-size: 0.75rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">
+      1. Formel til Peak Power
+    </label>
+
+    <div class="js-jr-formula-bar mp-jr-auto-badge"></div>
+
+    <div class="js-jr-manual-dropdown-wrapper" style="display: none;">
+      <div class="js-jr-picker-container mp-jr-picker-list" style="margin-top: 0.4rem;"></div>
+    </div>
+  </div>
+
+  <!-- 2. STAMDATA OG MÅL -->
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.95rem; margin-bottom: 1.25rem;">
+    
+    <!-- OVERSKRIFT MED MÅLEMETODE SWITCH I HØJRE HJØRNE -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0;" class="js-jr-input-section-title">2. Indtast resultater</h4>
+      <div class="js-jr-method-toggle-wrapper" style="display: flex; gap: 2px; background: #e2e8f0; padding: 2px; border-radius: 6px;">
+        <button type="button" class="js-jr-method-btn active" data-method="reach" style="border:none; border-radius: 4px; padding: 3px 8px; font-size: 0.7rem; font-weight: 800; cursor:pointer; background:#ffffff; color:#0f172a; transition: all 0.15s ease;">Rækkehøjde</button>
+        <button type="button" class="js-jr-method-btn" data-method="direct" style="border:none; border-radius: 4px; padding: 3px 8px; font-size: 0.7rem; font-weight: 800; cursor:pointer; background:transparent; color:#64748b; transition: all 0.15s ease;">Direkte Hoppehøjde</button>
+      </div>
+    </div>
+
+    <!-- RÆKKE 1: KØN, ALDER, VÆGT (+ KROPSHØJDE HVIS VALGT) -->
+    <div class="mp-jr-flex-grid" style="margin-bottom: 0.75rem;">
+      
+      <!-- Køn Switch -->
+      <div class="mp-jr-field mp-jr-gender-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Køn
+        </label>
+        <div style="height: 40px; display: flex; background: #ffffff; border-radius: 8px; padding: 2px; border: 1.5px solid #cbd5e1; box-sizing: border-box; width: 100%;">
+          <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
+            <input type="radio" name="jr_gender" value="male" class="js-jr-input" checked style="display:none;">
+            <div class="js-jr-label-male" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800; border-radius: 6px; transition: all 0.15s ease;">Mand</div>
+          </label>
+          <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
+            <input type="radio" name="jr_gender" value="female" class="js-jr-input" style="display:none;">
+            <div class="js-jr-label-female" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800; border-radius: 6px; transition: all 0.15s ease;">Kvinde</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Alder -->
+      <div class="mp-jr-field" style="max-width: 85px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Alder <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(år)</span>
+        </label>
+        <input type="number" name="jr_age" class="mp-jr-input js-jr-input" min="10" max="90" placeholder="25" value="25">
+      </div>
+
+      <!-- Kropsvægt -->
+      <div class="mp-jr-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Kropsvægt <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(kg)</span>
+        </label>
+        <input type="number" name="jr_weight" class="mp-jr-input js-jr-input" min="30" max="200" placeholder="75" value="75">
+      </div>
+
+      <!-- Kropshøjde (Skjult medmindre Johnson vælges) -->
+      <div class="mp-jr-field js-jr-body-height-wrapper" style="display: none;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Kropshøjde <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(cm)</span>
+        </label>
+        <input type="number" name="jr_body_height" class="mp-jr-input js-jr-input" min="120" max="230" placeholder="180" value="180">
+      </div>
+
+    </div>
+
+    <!-- RÆKKE 2: MÅLEFELTER -->
+    <div class="mp-jr-flex-grid">
+      
+      <!-- Rækkehøjde Felter -->
+      <div class="mp-jr-field js-jr-reach-fields">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Stående rækkehøjde <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(cm)</span>
+        </label>
+        <input type="number" name="jr_standing_reach" class="mp-jr-input js-jr-input" min="100" max="300" placeholder="220" value="220">
+      </div>
+
+      <div class="mp-jr-field js-jr-reach-fields">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Hoppe-rækkehøjde <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(cm)</span>
+        </label>
+        <input type="number" name="jr_jump_reach" class="mp-jr-input js-jr-input" min="100" max="400" placeholder="270" value="270">
+      </div>
+
+      <!-- Direkte Hoppehøjde Felt -->
+      <div class="mp-jr-field js-jr-direct-field" style="display: none;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Hoppehøjde <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(cm)</span>
+        </label>
+        <input type="number" name="jr_jump_height_direct" class="mp-jr-input js-jr-input" min="10" max="130" placeholder="50" value="50">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 3. ULTRA-KOMPAKT RESULTATKORT & GEM KNAP -->
+  <div style="background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 0.75rem 1rem; margin-bottom: 1.25rem; text-align: center;">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.35rem;">
+      <span style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.7rem; color: #1e40af; font-weight: 800;">
+        Aktuelt Måleresultat
+      </span>
+      <div style="display: flex; align-items: baseline; gap: 0.25rem;">
+        <span class="js-jr-height-out" style="font-size: 1.8rem; font-weight: 900; color: #1e3a8a; line-height: 1;">50.0</span>
+        <span style="font-size: 0.85rem; font-weight: 800; color: #3b82f6;">cm</span>
+        <span style="font-size: 0.75rem; font-weight: 700; color: #64748b; margin-left: 0.25rem;">(<span class="js-jr-power-w">4256</span> Watt)</span>
+      </div>
+    </div>
+
+    <!-- Slank Continuum Bar -->
+    <div class="mp-fitness-continuum" style="margin-top: 0.25rem; margin-bottom: 0.5rem;">
+      <div class="mp-continuum-bar-wrapper">
+        <div class="mp-continuum-bar" style="height: 6px;">
+          <div class="mp-segment" style="background: #ef4444;"></div>
+          <div class="mp-segment" style="background: #f97316;"></div>
+          <div class="mp-segment" style="background: #eab308;"></div>
+          <div class="mp-segment" style="background: #22c55e;"></div>
+          <div class="mp-segment" style="background: #3b82f6;"></div>
+        </div>
+        <div class="js-jr-continuum-marker mp-continuum-marker" style="display: none;"></div>
+      </div>
+    </div>
+
+    <!-- Kompakt Handlingsrække -->
+    <div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-badge-btn-hero js-jr-table-btn js-jr-eval-badge" title="Klik for at se normtabel">
+        <span class="js-jr-eval-text">Mangler data</span>
+        <span style="font-size: 0.8rem; line-height: 1;">📊</span>
+      </button>
+
+      <!-- Simpel "💾 Gem" Knap -->
+      <button type="button" class="js-jr-save-to-card-btn" style="background: #2563eb; color: #ffffff; border: none; border-radius: 6px; padding: 0.3rem 0.85rem; font-size: 0.775rem; font-weight: 800; cursor: pointer; transition: all 0.15s ease;">
+        💾 Gem
+      </button>
+    </div>
+  </div>
+
+  <!-- 4. DASHBOARD HOP-TYPE KORT (2X3 MOBIL GRID) -->
+  <div>
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+      <label style="font-size: 0.75rem; font-weight: 800; color: #334155; margin: 0;">
+        3. Personlige Rekorder (Klik et kort for at vælge)
+      </label>
+      <button type="button" class="js-jr-clear-pr-btn" style="background: none; border: none; font-size: 0.675rem; font-weight: 800; color: #ef4444; cursor: pointer;" data-html2canvas-ignore="true">Nulstil PR for valgte kort</button>
+    </div>
+
+    <div class="js-jr-cards-grid mp-jr-cards-grid">
+      <!-- Genereres dynamisk via UI JS med anatomiske SVG fødder -->
+    </div>
+  </div>
+
+  <!-- 5. GEMTE RESULTATER LOG TABEL MED ENKELT-SLETNING (GIR 100% GARANTERET BREDDE) -->
+  <div class="js-jr-log-wrapper mp-jr-log-wrapper" style="display: none; border-top: 1.5px dashed #cbd5e1; padding-top: 0.75rem; margin-top: 0.85rem; width: 100%;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem; width: 100%;">
+      <strong style="font-size: 0.775rem; color: #0f172a;">📋 Log over gemte målinger</strong>
+      <button type="button" class="js-jr-clear-log-btn" style="background: none; border: none; font-size: 0.675rem; font-weight: 800; color: #ef4444; cursor: pointer;">Slet alle i log</button>
+    </div>
+    <div style="width: 100%;">
+      <table class="mp-jr-log-table">
+        <thead>
+          <tr>
+            <th style="width: 48%;">Hop-type</th>
+            <th style="width: 24%;">Højde</th>
+            <th style="width: 20%;">Peak Power</th>
+            <th style="width: 8%; text-align: right;"></th>
+          </tr>
+        </thead>
+        <tbody class="js-jr-log-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- POPUP OVERLAY FOR NORM-TABEL -->
+  <div class="js-jr-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
+      <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Hoppehøjde normer for din alder</h4>
+      <button type="button" class="js-jr-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
+    </div>
+
+    <div style="flex: 1; overflow-y: auto;">
+      <table style="width: 100%; display: table; text-align: left; border-collapse: collapse; background: #ffffff;">
+        <tbody class="js-jr-table-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="mp-action-group" style="margin-top: 0.85rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil alt">🗑️</button>
+  </div>
+</div>

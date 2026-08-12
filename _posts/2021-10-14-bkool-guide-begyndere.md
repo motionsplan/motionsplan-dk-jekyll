@@ -14,6 +14,7 @@ header:
   caption: *title
 category:
   - Cykling
+  - Hometrainer
 tags:
   - hometrainer
   - cykling
@@ -68,7 +69,9 @@ For at få det fulde udbytte af BKOOL anbefales en **Smart Hometrainer** med int
 * **Enhed til appen:** PC (Windows), Mac, iPad/tablet, Apple TV eller Android-smartphone.
 * **Forbindelse:** Bluetooth eller ANT+ antenne (USB-dongle til PC/Mac).
 
-{% include motionsplan/affiliate-box.html type="category" item=site.data.affiliates.categories.hometrainers view="card" title="Mangler du udstyr til BKOOL?" text="Er du i tvivl om, hvilken hometrainer, blæser eller måtte der passer bedst til dit behov og budget? Læs vores samlede udstyrsguide:" %}
+---
+
+{% include motionsplan/affiliate-box.html type="category" item=site.data.affiliates.categories.hometrainers view="card" title="Mangler du udstyr til BKOOL?" text="Er du i tvivl om, hvilken hometrainer, blæser eller måtte der passer bedst til dit behov og budget? Læs vores [samlede udstyrsguide](/udstyr-hometrainer-ecykling/) eller tjek priserne hos disse forhandlere." %}
 
 ---
 

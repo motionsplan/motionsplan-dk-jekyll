@@ -41,8 +41,10 @@ span.strong {
   font-weight: bold;
 }
 
-.notice::before {
-  content: "💡";
+.notice, .notice--info, .notice--danger, .notice--warning, .notice--success {
+  .btn {
+    color: white;
+  }
 }
 
 /* Rich link inline icons for exercises */

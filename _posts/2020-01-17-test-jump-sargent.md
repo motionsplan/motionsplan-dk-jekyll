@@ -63,7 +63,7 @@ tools:
     category: ["Eksplosivitet"]
     type: ["Beregner"]
     measures: ["Hoppehøjde", "Rækkehøjde", "Sargent Jump score"]  # 🎯 Output-parametre fra modulet
-    anchor: "#beregner-udregn-din-sargent-jump-score"
+    anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 ---
 
@@ -101,10 +101,11 @@ Gennemfør **3 forsøg** med minimum 45 sekunders pause imellem. Det bedste af d
 ---
 
 ## 🧮 Beregner: Udregn din Sargent Jump score
+{: id="calculator" }
 
 Indtast din stående rækkehøjde og din målte springhøjde på væggen herunder:
 
-{% include calculator/calculate-jump-reach.html title="Sargent Jump Test" %}
+{% include calc/sargent-jump.html test="sargent" %}
 
 *Tip: Hvis du vil vide, hvordan du kan øge din springhøjde, kan du læse vores guide til **[springtræning og eksplosivitet](/springtraening/)**.*
 

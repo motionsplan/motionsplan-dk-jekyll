@@ -35,14 +35,14 @@ feature_row_navigation:
     url: /beregnere/
     btn_label: <i class='fas fa-calculator'></i> Gå til beregnere
     btn_class: btn--success
-  - image_path: /assets/images/unsplash/photo-1428790067070-0ebf4418d9d8.jpg
-    credit: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8
-    alt: Biomekanik & Analyse
-    title: Biomekanisk Analyse
-    excerpt: Analysér dit squat, bænkpres og dødløft med vores tændstikmand-modeller baseret på din kropsbygning.
-    url: /biomekanik/
-    btn_label: <i class='fas fa-chart-line'></i> Biomekaniske modeller
-    btn_class: btn--success
+#  - image_path: /assets/images/unsplash/photo-1428790067070-0ebf4418d9d8.jpg
+#    credit: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8
+#    alt: Biomekanik & Analyse
+#    title: Biomekanisk Analyse
+#    excerpt: Analysér dit squat, bænkpres og dødløft med vores tændstikmand-modeller baseret på din kropsbygning.
+#    url: /biomekanik/
+#    btn_label: <i class='fas fa-chart-line'></i> Biomekaniske modeller
+#    btn_class: btn--success
   - image_path: /assets/images/unsplash/photo-1546016366-bf061374d54e.jpg
     credit: https://images.unsplash.com/photo-1546016366-bf061374d54e
     alt: Fysiske Tests
@@ -55,7 +55,7 @@ feature_row_navigation:
     credit: https://images.unsplash.com/photo-1434030216411-0b793f4b4173
     alt: Psykologiske Tests
     title: Mentale & Psykologiske Tests
-    excerpt: Afdæk dit mentale overskud, overtræning (REDs) og konkurrenceanst med vores idrætspsykologiske screeningsværktøjer.
+    excerpt: Afdæk dit mentale overskud, overtræning (REDs) og konkurrenceangstt med vores idrætspsykologiske screeningsværktøjer.
     url: /vurderingsvaerktoejer/
     btn_label: <i class='fas fa-brain'></i> Gå til mentale tests
     btn_class: btn--success
@@ -126,7 +126,7 @@ Få styr på kost, energiomsætning og kropssammensætning.
 * **[Mål din Fedtprocent](/maal-fedtprocent/)** – Oversigt over 7 forskellige metoder til måling af kropsfedt.
 * **[Taljemål & Talje-Hofte Ratio](/taljemaal/)** – Vurdér sundhedsrisiko baseret på fedtfordeling.
 
-[Se alle vores 20+ beregnere »](/beregnere/){: .btn .btn--info }
+[Se alle vores beregnere »](/beregnere/){: .btn .btn--info }
 </div>
 
 <div class="notice--success" markdown="1">

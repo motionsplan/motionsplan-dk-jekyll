@@ -1,0 +1,299 @@
+<!-- DOS ORTOREKSI-SKALA INTERAKTIVT VÆRKTØJ (Wizard Format - motionsplan.dk) -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div id="dos-card" style="max-width: 720px; margin: 0 auto; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); font-family: system-ui, -apple-system, sans-serif;">
+  
+  <!-- HEADER & PROGRESS BAR -->
+  <div id="dos-wizard-header" style="border-bottom: 2px solid #f1f5f9; padding-bottom: 16px; margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+      <div>
+        <h3 style="margin: 0; font-size: 1.25rem; font-weight: 800; color: #0f172a;">🥗 DOS: Ortoreksi & Mad-regler</h3>
+        <span id="dos-step-counter" style="font-size: 0.8rem; font-weight: 700; color: #64748b;">Spørgsmål 1 af 10</span>
+      </div>
+      <span id="dos-step-pct" style="background: #fef3c7; color: #d97706; font-size: 0.75rem; font-weight: 800; padding: 6px 12px; border-radius: 20px;">10% færdig</span>
+    </div>
+    
+    <!-- PROGRESS BAR -->
+    <div style="width: 100%; background: #f1f5f9; height: 8px; border-radius: 4px; overflow: hidden;">
+      <div id="dos-progress-bar" style="width: 10%; background: linear-gradient(90deg, #d97706 0%, #f59e0b 100%); height: 100%; transition: width 0.3s ease;"></div>
+    </div>
+  </div>
+
+  <!-- SPØRGSMÅL CONTAINER -->
+  <div id="dos-quiz-step-container">
+    
+    <div style="margin-bottom: 24px; min-height: 70px;">
+      <span style="font-size: 0.72rem; font-weight: 800; color: #d97706; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px;">
+        Forhold til mad og kontrol
+      </span>
+      <h4 id="dos-q-text" style="margin: 0; font-size: 1.15rem; font-weight: 700; color: #0f172a; line-height: 1.4;">
+        Spørgsmål indlæses...
+      </h4>
+    </div>
+
+    <!-- FLOTTE SVARKNAPPER (4 MULIGHEDER) -->
+    <div id="dos-options-container" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px;">
+      <!-- Knapper genereres i JS -->
+    </div>
+
+    <!-- NAVIGATION KNAPPER -->
+    <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 16px;">
+      <button type="button" id="dos-prev-btn" style="background: transparent; border: 1px solid #cbd5e1; color: #64748b; padding: 8px 16px; border-radius: 8px; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 6px; visibility: hidden;">
+        ← Forrige
+      </button>
+      <span style="font-size: 0.75rem; color: #94a3b8; font-weight: 600;">Vælg et svar for at gå videre</span>
+    </div>
+
+  </div>
+
+  <!-- RESULTAT SEKTION (SKJULT INDTIL GENNEMFØRT) -->
+  <div id="dos-results" style="display: none;">
+    <div style="text-align: center; margin-bottom: 20px;">
+      <span style="background: #fef3c7; color: #b45309; font-size: 0.75rem; font-weight: 800; padding: 6px 14px; border-radius: 20px;">🎉 Screening Beregnet!</span>
+      <h3 style="color: #0f172a; margin: 10px 0 0 0; font-size: 1.5rem;">Din Ortoreksi-Profil</h3>
+    </div>
+
+    <!-- HERO RESULTAT BOKS -->
+    <div id="dos-hero-bg" style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); color: #ffffff; border-radius: 16px; padding: 20px; text-align: center; margin-bottom: 24px; box-shadow: 0 8px 20px rgba(16,185,129,0.2);">
+      <span style="font-size: 0.75rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; opacity: 0.9;">DOS SCORE (10 – 40 POINT)</span>
+      <div style="font-size: 3.5rem; font-weight: 900; line-height: 1; margin: 8px 0;">
+        <span id="dos-total-score">0</span> <small style="font-size: 1.5rem; opacity: 0.8;">/ 40</small>
+      </div>
+      <p id="dos-total-desc" style="margin: 0; font-size: 0.88rem; opacity: 0.95; font-weight: 600; line-height: 1.4;"></p>
+    </div>
+
+    <!-- SKALA VISUALISERING -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; margin-bottom: 24px;">
+      <div style="display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 700; color: #64748b; margin-bottom: 8px;">
+        <span>Normalt Forhold (10-24 point)</span>
+        <span>Forhøjet Risiko (≥ 25 point)</span>
+      </div>
+      <div style="position: relative; width: 100%; background: #e2e8f0; height: 12px; border-radius: 6px; overflow: hidden;">
+        <div id="dos-res-progress-bar" style="width: 0%; background: #10b981; height: 100%; transition: width 0.5s ease;"></div>
+      </div>
+    </div>
+
+    <!-- ANBEFALINGS BOKS -->
+    <div id="dos-recommendation-box" style="padding: 16px; border-radius: 12px; font-size: 0.88rem; line-height: 1.5; margin-bottom: 24px;">
+      <!-- Dynamisk rådgivning -->
+    </div>
+
+    <button type="button" id="dos-restart-btn" style="width: 100%; background: #f1f5f9; border: 1px solid #cbd5e1; color: #334155; padding: 12px; border-radius: 10px; font-weight: 700; cursor: pointer;">
+      🔄 Tag testen igen / Rediger svar
+    </button>
+  </div>
+
+  <!-- KILDEANGIVELSE & DISCLAIMER / FOOTER -->
+  <div style="border-top: 1px solid #f1f5f9; margin-top: 24px; padding-top: 12px; font-size: 0.72rem; color: #94a3b8; line-height: 1.4;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 6px;">
+      <span>📌 <b>Kilde:</b> Barthels, Meyer & Pietrowsky (2015). <i>Düsseldorfer Orthorexie Skala (DOS)</i>.</span>
+      <span>&copy; motionsplan.dk</span>
+    </div>
+    <p style="margin: 0; font-size: 0.7rem; color: #cbd5e1;">
+      <b>Bemærk:</b> Denne screening er udviklet til pædagogisk selvevaluering og erstatter ikke en klinisk diagnose. Oplever du udtalt mistrivsel omkring mad eller træning, anbefales professionel vejledning.
+    </p>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const STORAGE_KEY = 'motionsplan_dos_state';
+
+  // 10 Validerede Spørgsmål i DOS (Düsseldorfer Orthorexie Skala)
+  const items = [
+    { id: 1, text: "Tanker om sund og 'ren' mad fylder mere end halvdelen af min vågne tid." },
+    { id: 2, text: "Jeg har svært ved at spise måltider tillavet af andre, fordi jeg ikke har fuld kontrol over ingredienserne." },
+    { id: 3, text: "Jeg føler stærk skyldfølelse eller selvkritik, hvis jeg spiser noget, jeg betragter som usundt." },
+    { id: 4, text: "Min optagethed af sund mad gør det svært for mig at deltage i sociale arrangementer eller spise ude." },
+    { id: 5, text: "Jeg har faste, uafvigelige regler for mine måltider, som jeg sjældent eller aldrig bryder." },
+    { id: 6, text: "Det giver mig en følelse af kontrol og overskud, når jeg formår at overholde min sunde diæt 100%." },
+    { id: 7, text: "Jeg bruger uforholdsmæssigt meget tid og energi på at planlægge, indkøbe og forberede mine måltider." },
+    { id: 8, text: "Min optagethed af sund mad og krop fylder så meget, at det påvirker min livskvalitet negativt." },
+    { id: 9, text: "Jeg føler mig sundere eller mere 'disciplineret' end andre mennesker, der spiser mere ustruktureret." },
+    { id: 10, text: "Hvis jeg spiser noget unødvendigt eller usundt, føler jeg en stærk trang til at kompensere med ekstra træning eller diæt." }
+  ];
+
+  const options = [
+    { val: 1, label: "Passer slet ikke" },
+    { val: 2, label: "Passer i ringe grad" },
+    { val: 3, label: "Passer i nogen grad" },
+    { val: 4, label: "Passer fuldstændigt" }
+  ];
+
+  let currentStep = 0;
+  let userAnswers = {};
+
+  function loadSaved() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (parsed.answers) userAnswers = parsed.answers;
+      } catch(e) {}
+    }
+  }
+
+  function saveState(totalScore) {
+    const dataToSave = {
+      score: totalScore,
+      answers: userAnswers
+    };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(dataToSave));
+  }
+
+  function renderStep() {
+    const item = items[currentStep];
+    const totalQ = items.length;
+    const pct = Math.round(((currentStep + 1) / totalQ) * 100);
+
+    // Opdater Header & Progress
+    document.getElementById('dos-step-counter').textContent = `Spørgsmål ${currentStep + 1} af ${totalQ}`;
+    document.getElementById('dos-step-pct').textContent = `${pct}% færdig`;
+    document.getElementById('dos-progress-bar').style.width = `${pct}%`;
+
+    // Opdater Tekst
+    document.getElementById('dos-q-text').textContent = `${currentStep + 1}. "${item.text}"`;
+
+    // Vis/skjul "Forrige" knap
+    const prevBtn = document.getElementById('dos-prev-btn');
+    prevBtn.style.visibility = currentStep > 0 ? 'visible' : 'hidden';
+
+    // Render Svarknapper
+    const optionsContainer = document.getElementById('dos-options-container');
+    optionsContainer.innerHTML = '';
+
+    const selectedVal = userAnswers[item.id] !== undefined ? parseInt(userAnswers[item.id]) : null;
+
+    options.forEach(opt => {
+      const isSelected = selectedVal === opt.val;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      
+      btn.style.cssText = `
+        width: 100%;
+        padding: 13px 18px;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-align: left;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: ${isSelected ? '2px solid #d97706' : '1px solid #cbd5e1'};
+        background: ${isSelected ? '#fef3c7' : '#ffffff'};
+        color: ${isSelected ? '#78350f' : '#334155'};
+        box-shadow: ${isSelected ? '0 4px 12px rgba(217, 119, 6, 0.15)' : '0 2px 4px rgba(0,0,0,0.02)'};
+      `;
+
+      btn.innerHTML = `
+        <span>${opt.label}</span>
+        <span style="width: 20px; height: 20px; border-radius: 50%; border: ${isSelected ? '6px solid #d97706' : '2px solid #cbd5e1'}; background: #ffffff;"></span>
+      `;
+
+      btn.addEventListener('click', function() {
+        userAnswers[item.id] = opt.val;
+
+        setTimeout(() => {
+          if (currentStep < totalQ - 1) {
+            currentStep++;
+            renderStep();
+          } else {
+            calculateAndShowResults();
+          }
+        }, 150);
+      });
+
+      optionsContainer.appendChild(btn);
+    });
+  }
+
+  function calculateAndShowResults() {
+    let totalScore = 0;
+
+    items.forEach(item => {
+      let val = parseInt(userAnswers[item.id] || '1');
+      totalScore += val;
+    });
+
+    saveState(totalScore);
+
+    // Skjul Wizard UI & Vis Resultater
+    document.getElementById('dos-wizard-header').style.display = 'none';
+    document.getElementById('dos-quiz-step-container').style.display = 'none';
+    
+    const resultsDiv = document.getElementById('dos-results');
+    resultsDiv.style.display = 'block';
+
+    document.getElementById('dos-total-score').textContent = totalScore;
+
+    const descEl = document.getElementById('dos-total-desc');
+    const heroBg = document.getElementById('dos-hero-bg');
+    const progressBar = document.getElementById('dos-res-progress-bar');
+    const recBox = document.getElementById('dos-recommendation-box');
+
+    // Opdater bar (10 til 40 point -> 0% til 100%)
+    const pct = Math.min(100, Math.max(0, ((totalScore - 10) / 30) * 100));
+    progressBar.style.width = `${pct}%`;
+
+    if (totalScore >= 25) {
+      heroBg.style.background = 'linear-gradient(135deg, #dc2626 0%, #ef4444 100%)';
+      progressBar.style.background = '#ef4444';
+      descEl.textContent = "Forhøjet Risiko for Ortorektisk Adfærd. Din optagethed af mad, sundhed og kontrol fylder uforholdsmæssigt meget og har karakter af faste regler og tvang.";
+      
+      recBox.style.background = '#fef2f2';
+      recBox.style.border = '1px solid #fecaca';
+      recBox.style.color = '#991b1b';
+      recBox.innerHTML = `
+        <b>⚠️ Træningsområde:</b> Du har et stærkt ønske om sundhed, men reglerne om 'ren mad' truer din sociale trivsel og fleksibilitet. Øv dig i at tillade mere spontanitet, og søg eventuelt sparring med en diætist eller psykolog for at genvinde et afbalanceret forhold til måltider.
+      `;
+    } else {
+      heroBg.style.background = 'linear-gradient(135deg, #059669 0%, #10b981 100%)';
+      progressBar.style.background = '#10b981';
+      descEl.textContent = "Afbalanceret og Sund Indstilling. Du har et opmærksomt forhold til din ernæring, men uden at det er præget af stiv tvang, skyldfølelse eller social isolation.";
+      
+      recBox.style.background = '#f0fdf4';
+      recBox.style.border = '1px solid #bbf7d0';
+      recBox.style.color = '#166534';
+      recBox.innerHTML = `
+        <b>🟢 Flot Balance:</b> Du besidder en sund fleksibilitet omkring dit madvalg og kan nyde måltider i sociale sammenhænge uden bekymring eller kontrolbehov.
+      `;
+    }
+
+    resultsDiv.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  // Event Listeners
+  document.getElementById('dos-prev-btn').addEventListener('click', function() {
+    if (currentStep > 0) {
+      currentStep--;
+      renderStep();
+    }
+  });
+
+  document.getElementById('dos-restart-btn').addEventListener('click', function() {
+    document.getElementById('dos-wizard-header').style.display = 'block';
+    document.getElementById('dos-quiz-step-container').style.display = 'block';
+    document.getElementById('dos-results').style.display = 'none';
+    currentStep = 0;
+    renderStep();
+  });
+
+  // Start Op
+  loadSaved();
+  
+  if (Object.keys(userAnswers).length >= items.length) {
+    calculateAndShowResults();
+  } else {
+    for (let i = 0; i < items.length; i++) {
+      if (userAnswers[items[i].id] === undefined) {
+        currentStep = i;
+        break;
+      }
+    }
+    renderStep();
+  }
+})();
+</script>

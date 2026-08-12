@@ -8,8 +8,8 @@ header:
   teaser: /assets/images/cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm-1f39b615.jpg
   caption: *title
 category:
-  - Kondition
   - Cykling
+  - Hometrainer
 tags:
   - konditionstræning
   - kondition
@@ -87,7 +87,7 @@ Den variable modstand på din _smart trainer_ giver dig fornemmelsen for, at du 
 
 Du kan også tilkoble ekstra udstyr som pulsbælter, blæsere, stigningssimulatorer og støddæmpende måtter for at få den mest optimale og behagelige oplevelse indendørs.
 
-{% include motionsplan/affiliate-box.html type="category" item=site.data.affiliates.categories.hometrainers view="card" title="Mangler du udstyr til at komme i gang?" text="Hvilken hometrainer, cykel eller blæser skal du vælge? Læs vores komplette udstyrsguide til e-cykling og hometrainers, hvor vi gennemgår de bedste setups i alle prislejer:" %}
+{% include motionsplan/affiliate-box.html type="category" item=site.data.affiliates.categories.hometrainers view="card" title="Mangler du udstyr til at komme i gang?" text="Hvilken hometrainer, cykel eller blæser skal du vælge? Læs vores [komplette udstyrsguide til e-cykling og hometrainers](/udstyr-hometrainer-ecykling/), hvor vi gennemgår de bedste setups i alle prislejer - eller tjek disse sites for priser." %}
 
 ## Hvilket udstyr har jeg brug for til at løbe på Zwift?
 

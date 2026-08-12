@@ -28,6 +28,7 @@ classes: wide
 category:
   - Vurderingsværktøjer
   - Psykologi
+last_modified_at: '2026-08-11T23:00:00Z'
 ---
 
 Velkommen til vores samlede katalog over **psykologiske tests og mentale vurderingsværktøjer**. Mentalt velvære, følelsesmæssig balance og god restitution er fundamentet for både hverdagens livskvalitet og fysiske præstationer.
@@ -63,13 +64,21 @@ Besøg vores specialiserede søsterside **[Sportspsykologiske Tests & Energitjek
 * **[Depressionstest (PHQ-2 & PHQ-9)](/phq-9-depression-test/)** – Klinisk anerkendt screening for tegn på nedtrykthed og depression.
 * **[Automatiske Negative Tanker (ATQ)](/atq-automatiske-negative-tanker/)** – Mål hyppigheden og styrken af selvkritiske tankemønstre (vælg mellem 8, 15 eller 30 spg).
 
-### 🏃 2. Træningsbalance, REDs & Overtræning
+### 🏃 2. Træningsbalance, Tvang, REDs & Ortoreksi
+* **[Træningsafhængighed & Ortoreksi (Samlet Tema & Dashboard)](/traeningsafhaengighed-ortoreksi/)** – Læs guiden om tvang vs. balance og test dig selv på 4-i-1 dashboardet.
 * **[REDs Energitjek (Relativ Energimangel)](/reds-relativ-energimangel-test/)** – Kønsdifferentieret test for balancen mellem din træningsmængde, dit næringsindtag og din fysiologiske restitution.
 * **[Test af Træningsafhængighed (EAI)](/traeningsafhaengighed/)** – Tjek om dit forhold til motion og træning er sundt eller tvangspræget.
+* **[DOS Ortoreksi-skalaen](/dos-ortoreksi/)** – Test om dit fokus på "sund og ren mad" har udviklet sig til stive regler og tvang.
+* **[IES-2 Intuitiv Træning](/intuitiv-traening/)** – Mål din evne til at bevæge dig med lyst, fleksibilitet og kropskontakt.
 * **[Udbrændthed i Sport (ABQ)](/abq-udbraendthed-overtraening/)** – Mål graden af fysisk/følelsesmæssig udmattelse og mistet gejst.
 * **[Spiseforstyrrelser Selvtest](/spiseforstyrrelser/)** – Screening for forstyrret spisemønster og kropsopfattelse.
 
-### 🎯 3. Præstation, Mindset & Motivation
+### 🎯 3. Præstation, Mindset, Motivation & Identitet
+* **[ACSI-28 Mentale Styrker](/acsi-28/)** – Test dine 7 primære mestringsfærdigheder i sport, fra præstation under pres til trænbarhed.
+* **[DFS-2 Flow-skalaen](/dfs2/)** – Mål din evne til at ramme "zonen" med absolut fokus og ubesværet kontrol.
+* **[Passionsskalaen](/passionsskalaen/)** – Afdæk om din drivkraft i sporten er opbyggende (*harmonisk*) eller tvangsbetonet (*obsessiv*).
+* **[BRS Mental Resiliens](/resiliens/)** – Mål din evne til at komme hurtigt igen oven på modgang, skader og fejl.
+* **[EIA Træningsidentitet](/traeningsidentitet-eia/)** – Test hvor meget af din personlige identitet og dit selvværd, der er bundet op på din sport.
 * **[SCAT Konkurrencenervøsitet](/scat-konkurrencenervoesitet/)** – Mål spænding, mavesmerter og præstationsangst op til konkurrence.
 * **[SMTQ Mental Styrke (Mental Toughness)](/smtq-mental-styrke/)** – Mål din selvtillid, dit fokus og din følelsesmæssige kontrol under pres.
 * **[Sport-MPS-2 Perfektionisme](/sport-mps-2-perfektionisme/)** – Vurdér balancen mellem sunde, høje ambitioner og usund frygt for at fejle.

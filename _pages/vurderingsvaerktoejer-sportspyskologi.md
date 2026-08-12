@@ -4,7 +4,8 @@ toc: true
 permalink: /sportspsykologiske-tests/
 title: "Sportspsykologiske Tests & Energitjek: Mål din mentale balance i idræt"
 seo_title: "Sportspsykologiske Tests – Overtræning, REDs, Nervøsitet & Mindset"
-description: "Målrettede sportspsykologiske og fysiologiske selvtests for atleter, trænere og motionister. Tjek din risiko for REDs, overtræning, konkurrenceanst og mentalt fokus."
+description: "Målrettede sportspsykologiske og fysiologiske selvtests for atleter, trænere og motionister. Tjek din risiko for REDs, overtræning, konkurrenceangstt og mentalt fokus."
+excerpt: "Målrettede sportspsykologiske og fysiologiske selvtests for atleter, trænere og motionister. Tjek din risiko for REDs, overtræning, konkurrenceangstt og mentalt fokus."
 author_profile: true
 header:
   overlay_image: https://images.unsplash.com/photo-1541186856967-7b08c37577d6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
@@ -23,7 +24,7 @@ tags:
   - atleter
   - overtræning
   - reds
-  - konkurrenceanst
+  - konkurrenceangstt
   - mental styrke
 last_modified_at: '2026-08-11T22:45:00Z'
 ---
@@ -51,6 +52,7 @@ Vores online vurderingsværktøjer og sportspsykologiske spørgeskemaer er udvik
 
 Hvad oplever du i din træning lige nu? Vælg den kategori herunder, der bedst beskriver dit behov:
 
+<div class="notice--warning" markdown="1">
 ### 🏃 1. Restitution, Energimangel & Overtræning
 *Føler du dig konstant fysisk udmattet, ramt af hyppige skader, eller at din fremgang er gået i stå?*
 
@@ -62,9 +64,11 @@ Hvad oplever du i din træning lige nu? Vælg den kategori herunder, der bedst b
   *Mål:* Om din træning er blevet tvangspræget, og om du oplever ubehag og skyldfølelse ved at holde faste hviledage.
 * **[Screening for Spiseforstyrrelser](/spiseforstyrrelser/)**  
   *Mål:* Afdæk om dine tanker om mad, kaloriebegrænsning, krop og vægtkontrol er blevet uhensigtsmæssige.
+</div>
 
 ---
 
+<div class="notice--primary" markdown="1">
 ### 🎯 2. Præstationspres, Mindset & Motivation
 *Oplever du lammende nervøsitet før start, selvkritik eller manglende drivkraft?*
 
@@ -76,9 +80,11 @@ Hvad oplever du i din træning lige nu? Vælg den kategori herunder, der bedst b
   *Mål:* Balancen mellem sunde, høje ambitioner (*Personlige Standarder*) og usund frygt for at lave fejl (*Fejl-frygt & Tvivl*).
 * **[SMS-II Træningsmotivation (Sport Motivation Scale)](/sms-2-traeningsmotivation/)**  
   *Mål:* Din personlige motivationsprofil – om din drivkraft kommer fra indre glæde (*Autonom*) eller ydre pres/skyldfølelse (*Kontrolleret*).
+</div>
 
 ---
 
+<div class="notice" markdown="1">
 ### 🧠 3. Generelt Mentalt Overskud & Hverdagsstress
 *Befinder du dig i en generel ubalance, der påvirker dit overskud både i og uden for sporten?*
 
@@ -86,12 +92,35 @@ Hvad oplever du i din træning lige nu? Vælg den kategori herunder, der bedst b
 * **[Anerkendt Stresstest (PSS-10)](/stress-test/)** – Vurdér dit samlede belastnings- og stressniveau fra studie, arbejde og idræt.
 * **[Automatiske Negative Tanker (ATQ)](/atq-automatiske-negative-tanker/)** – Mål hyppigheden af selvkritiske og nedbrydende tankemønstre.
 * **[Depressionstest (PHQ-9)](/phq-9-depression-test/)** – Klinisk valideret screening for dybere nedtrykthed og manglende glæde.
+</div>
+
+---
+
+<div class="notice--success" markdown="1">
+### 🌟 4. Mentale Styrker, Flow & Mestringstro (Positiv Idrætspsykologi)
+Flyt fokus fra at reparere problemer til at opbygge dine mentale ressourcer, din trivsel og din evne til at ramme "zonen":
+* **[ACSI-28 – Atletens Mentale Værktøjskasse](/acsi-28/)** – Test dine 7 primære mestringsfærdigheder, fra topræstation under pres til trænbarhed og selvtillid.
+* **[DFS-2 – Flow-skalaen i Sport](/dfs2/)** – Mål din tilbøjelighed til at opnå absolut fokus, kontrol og ubesværet præstation i "zonen".
+* **[Passionsskalaen](/passionsskalaen/)** – Test om din drivkraft i sporten er sund og opbyggende (*harmonisk*) eller tvangsbetonet (*obsessiv*).
+* **[BRS – Mental Resiliens](/resiliens/)** – Mål din evne til at "bounce back" og komme hurtigt igen oven på skader, fejl og modgang.
+</div>
+
+{% include components/mental-dashboard.html %}
+
+<div class="notice--warning" markdown="1">
+### ⚖️ 5. Tvang, Ortoreksi & Intuitiv Træning
+Afdæk om din træning drives af sund balance, kropskontakt og glæde – eller af usund besættelse og kontrolbehov:
+* **[Træningsafhængighed & Ortoreksi (Samlet Tema & Dashboard)](/traeningsafhaengighed-ortoreksi/)** – Læs temaguiden og kortlæg din samlede risikoprofil på 4-i-1 dashboardet.
+* **[EAI-Testen for Træningsafhængighed](/traeningsafhaengighed/)** – Tag den klinisk validerede EAI-screening for motionstvangs-symptomer.
+* **[DOS Ortoreksi-skalaen](/dos-ortoreksi/)** – Test om dit fokus på "sund og ren mad" har taget overhånd.
+* **[IES-2 Intuitiv Træning](/intuitiv-traening/)** – Mål din evne til at bevæge dig med lyst, fleksibilitet og kropskontakt.
+</div>
 
 ---
 
 ## Brug testene som samtalestarter i idrætsmiljøet
 
-En af de største faldgruber i idrætsmiljøer – uanset om det er på elitesportsakademier, idrætshøjskoler eller i lokale idrætsforeninger – er, at atleter lidelser i stilhed med overtræning, kropspres eller konkurrenceanst.
+En af de største faldgruber i idrætsmiljøer – uanset om det er på elitesportsakademier, idrætshøjskoler eller i lokale idrætsforeninger – er, at atleter lider i stilhed med overtræning, kropspres eller konkurrenceangstt.
 
 Vores selvtests er opbygget til at fungere som et **objektivt og trygt dialogværktøj**:
 

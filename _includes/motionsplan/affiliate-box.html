@@ -12,16 +12,38 @@
     <div class="affiliate-card-content" style="flex: 1 1 240px;">
       <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.2rem;">{{ include.title | default: item.title }}</h3>
       <p style="margin-bottom: 1rem; font-size: 0.95rem; line-height: 1.5; color: #444;">
-        {{ include.text | default: item.excerpt }}
+        {{ include.text | default: item.description | default: item.excerpt | markdownify }}
       </p>
-      <a href="{{ item.url }}" target="_blank" rel="sponsored nofollow noopener" class="btn btn--danger" style="margin: 0;">
-        Tjek prisen hos {{ item.shop_name | default: "forhandler" }} →
-      </a>
+
+      {% comment %} Container til knapper {% endcomment %}
+      <div class="affiliate-buttons" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        {% if item.shops %}
+          {% comment %} Hvis der er et array af shops (fx 2 forhandlere) {% endcomment %}
+          {% for shop in item.shops %}
+            <a href="{{ shop.url }}" target="_blank" rel="sponsored nofollow noopener" class="btn btn--danger" style="margin: 0;">
+              Se hos {{ shop.name }} →
+            </a>
+          {% endfor %}
+        {% elsif item.url %}
+          {% comment %} Hvis det blot er et enkelt produkt {% endcomment %}
+          <a href="{{ item.url }}" target="_blank" rel="sponsored nofollow noopener" class="btn btn--danger" style="margin: 0;">
+            Tjek prisen hos {{ item.shop_name | default: "forhandler" }} →
+          </a>
+        {% endif %}
+      </div>
     </div>
   </div>
 
 {% elsif view_type == "text" %}
   <p class="affiliate-inline-text" style="font-style: italic; background: #fff8e6; padding: 0.6rem 0.8rem; border-radius: 4px; display: inline-block; border-left: 3px solid #f0ad4e; margin: 1rem 0;">
-    👉 <strong>Tip:</strong> {{ include.title | default: item.title }} – <a href="{{ item.url }}" target="_blank" rel="sponsored nofollow noopener">Se udvalg og seneste priser her</a>.
+    👉 <strong>Tip:</strong> {{ include.title | default: item.title }} – 
+    {% if item.shops %}
+      Se udvalget hos 
+      {% for shop in item.shops %}
+        <a href="{{ shop.url }}" target="_blank" rel="sponsored nofollow noopener">{{ shop.name }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    {% elsif item.url %}
+      <a href="{{ item.url }}" target="_blank" rel="sponsored nofollow noopener">Se udvalg og seneste priser her</a>
+    {% endif %}
   </p>
 {% endif %}

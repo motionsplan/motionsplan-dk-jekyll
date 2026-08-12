@@ -53,6 +53,11 @@ I dette indlæg kan du læse mere om:
 - GRATIS downloade Borg-skalaen.
 - Finde alternativer til Borg-skalaen.
 
+<div class="notice--warning" markdown="1">
+💡 **Leder du efter RPE til styrketræning og vægtløftning?**  
+Borg-skalaen (6–20 og CR10) bruges primært til konditionstræning, løb og genoptræning. Hvis du leder efter den moderne RPE-skala til bænkpres, squat og dødløft baseret på **Reps in Reserve (RIR)**, så tjek vores **[komplette RPE-guide og RPE-beregner til styrketræning her →](/rpe/)**.
+</div>
+
 ## Hvad er Borg-skala?
 
 **Borg-skalaen er et subjektivt værktøj til at vurdere anstrengelse ved fysisk aktivitet. Borg-skalaen er altså en vurdering af oplevet eller følt anstrengelse. Skalaen går fra 6-20, hvor 20 er maksimal anstrengelse.**

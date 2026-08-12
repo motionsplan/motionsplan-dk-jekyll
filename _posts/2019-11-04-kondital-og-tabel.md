@@ -169,7 +169,7 @@ Flere [fysiologer](https://velo.outsideonline.com/road/road-training/blummenfelt
 
 Det er interessant, hvor mange nordmænd der er på listen over de højeste kondital i verden på [topendsports.com](https://www.topendsports.com/testing/records/vo2max.htm).
 
-[Anna Møller](https://sport.tv2.dk/video/YW5uYTA0MDRtYXNm) har fået målt det højeste kondital på Københavns Universitet for danskere. Ellers kan du tjekke denne video med de højeste tal for kvinder, hvor langdistanceløberen Joan Benoit står registreret til 78,6 ml/min/kg.
+[Anna Møller](https://sport.tv2.dk/video/2022-07-01-anna-moeller-har-faaet-maalt-det-hoejeste-kondital-paa-koebenhavns-universitet-6308926045112) har fået målt det højeste kondital på Københavns Universitet for danskere. Ellers kan du tjekke denne video med de højeste tal for kvinder, hvor langdistanceløberen Joan Benoit står registreret til 78,6 ml/min/kg.
 
 {% include video provider="youtube" id="KmigHqqdWto" %}
 
