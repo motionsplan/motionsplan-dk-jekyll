@@ -1,4 +1,17 @@
 /* Custom styling til tilmeldingsboks */
+/* Nulstil indre elementer for at fjerne den dobbelte ramme/baggrund */
+.page__signup form,
+.page__signup fieldset,
+.page__signup #mc_embed_signup,
+.page__signup .mc_embed_signup_scroll {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  width: 100% !important;
+}
+
 .page__signup {
   width: 100%;
   background-color: #f8f9fa; /* Lys neutral baggrund */

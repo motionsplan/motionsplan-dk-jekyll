@@ -1,0 +1,328 @@
+<!-- _includes/calc/rsi.html -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-rsi-input { 
+    height: 40px !important; 
+    border-radius: 8px !important; 
+    text-align: center !important; 
+    font-weight: 800 !important; 
+    box-sizing: border-box !important; 
+    padding: 0 6px !important; 
+    border: 1.5px solid #cbd5e1 !important; 
+    background: #ffffff !important; 
+    margin: 0 !important; 
+    width: 100% !important;
+    font-size: 0.875rem !important;
+  }
+
+  /* HØJE VALGKORT MED EMOJI OG UNDERTEKST */
+  .mp-rsi-mode-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.65rem;
+    margin-bottom: 1.25rem;
+  }
+
+  @media (max-width: 640px) {
+    .mp-rsi-mode-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .mp-rsi-mode-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 0.65rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .mp-rsi-mode-card:hover:not(.active) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+  .mp-rsi-mode-card.active {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-rsi-card-emoji {
+    font-size: 1.6rem;
+    line-height: 1;
+    margin-bottom: 0.35rem;
+  }
+  .mp-rsi-card-title {
+    font-size: 0.825rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 0.25rem;
+    line-height: 1.2;
+  }
+  .mp-rsi-card-desc {
+    font-size: 0.675rem;
+    font-weight: 600;
+    color: #64748b;
+    line-height: 1.25;
+  }
+
+  .mp-rsi-flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: flex-end;
+  }
+
+  .mp-rsi-field {
+    flex: 1 1 110px;
+    min-width: 0;
+  }
+
+  .mp-rsi-table {
+    width: 100% !important;
+    border-collapse: collapse;
+    font-size: 0.825rem;
+    margin-top: 0.5rem;
+  }
+  .mp-rsi-table th { background: #f1f5f9; color: #475569; padding: 6px 8px; text-align: center; font-weight: 800; border-bottom: 1.5px solid #cbd5e1; }
+  .mp-rsi-table td { padding: 6px 8px; border-bottom: 1px solid #e2e8f0; color: #0f172a; font-weight: 600; text-align: center; vertical-align: middle; }
+
+  /* SØJLEDIAGRAM / BAR CHART CONTAINER */
+  .mp-rsi-barchart-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 110px;
+    gap: 6px;
+    padding: 10px 8px 6px 8px;
+    background: #ffffff;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 10px;
+    margin-top: 0.75rem;
+    box-sizing: border-box;
+  }
+  .mp-rsi-bar-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+  }
+  .mp-rsi-bar-fill {
+    width: 100%;
+    max-width: 32px;
+    border-radius: 4px 4px 0 0;
+    background: #cbd5e1;
+    transition: height 0.3s ease, background-color 0.3s ease;
+  }
+  .mp-rsi-bar-fill.highlight {
+    background: #2563eb;
+  }
+  .mp-rsi-bar-val {
+    font-size: 0.65rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 2px;
+  }
+  .mp-rsi-bar-lbl {
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-top: 4px;
+  }
+
+  .mp-badge-btn-hero {
+    border: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+    gap: 0.35rem; font-size: 0.75rem; font-weight: 800; padding: 0.3rem 0.65rem; border-radius: 6px; background: #e2e8f0; color: #64748b; transition: all 0.15s ease;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="rsi" data-ui-module="rsi-ui" style="max-width: 680px; margin: 0 auto; position: relative;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.75rem; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 2px 0;">⚡ RSI & Reaktiv Styrke Beregner</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn Reactive Strength Index (RSI), $\text{RSI}_{\text{mod}}$ og find den optimale kassehøjde.
+      </p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 34px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- MODE SELECTOR (3 HØJE KORT MED EMOJI & UNDERTEKST) -->
+  <div class="mp-rsi-mode-grid" data-html2canvas-ignore="true">
+    
+    <div class="mp-rsi-mode-card js-mode-btn active" data-mode="single">
+      <span class="mp-rsi-card-emoji">⚡</span>
+      <span class="mp-rsi-card-title">Enkelt Hop (Drop Jump / CMJ)</span>
+      <span class="mp-rsi-card-desc">Enkeltmåling af RSI eller $\text{RSI}_{\text{mod}}$</span>
+    </div>
+
+    <div class="mp-rsi-mode-card js-mode-btn" data-mode="incremental">
+      <span class="mp-rsi-card-emoji">📦</span>
+      <span class="mp-rsi-card-title">Incremental Test</span>
+      <span class="mp-rsi-card-desc">Find optimal kassehøjde til plyotræning</span>
+    </div>
+
+    <div class="mp-rsi-mode-card js-mode-btn" data-mode="tenfive">
+      <span class="mp-rsi-card-emoji">🔄</span>
+      <span class="mp-rsi-card-title">10/5 RSI Test</span>
+      <span class="mp-rsi-card-desc">10 pogo-hop – beregner 5 bedste</span>
+    </div>
+
+  </div>
+
+  <!-- MODE 1: ENKELT HOP -->
+  <div class="js-section-single" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.95rem; margin-bottom: 1.25rem;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0;">1. Indtast måling</h4>
+      
+      <div style="display: flex; gap: 2px; background: #e2e8f0; padding: 2px; border-radius: 6px;">
+        <button type="button" class="js-single-method-btn active" data-method="height_ct" style="border:none; border-radius: 4px; padding: 3px 8px; font-size: 0.7rem; font-weight: 800; cursor:pointer; background:#ffffff; color:#0f172a;">Højde / Kontakttid</button>
+        <button type="button" class="js-single-method-btn" data-method="flight_ct" style="border:none; border-radius: 4px; padding: 3px 8px; font-size: 0.7rem; font-weight: 800; cursor:pointer; background:transparent; color:#64748b;">Svævetid / Kontakttid</button>
+        <button type="button" class="js-single-method-btn" data-method="rsimod" style="border:none; border-radius: 4px; padding: 3px 8px; font-size: 0.7rem; font-weight: 800; cursor:pointer; background:transparent; color:#64748b;">RSImod (CMJ)</button>
+      </div>
+    </div>
+
+    <div class="mp-rsi-flex-grid">
+      <div class="mp-rsi-field js-field-jh">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Hoppehøjde <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(cm)</span>
+        </label>
+        <input type="number" name="rsi_jh" class="mp-rsi-input js-rsi-input" min="5" max="120" placeholder="40" value="40">
+      </div>
+
+      <div class="mp-rsi-field js-field-ft" style="display: none;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Svævetid <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(ms)</span>
+        </label>
+        <input type="number" name="rsi_ft" class="mp-rsi-input js-rsi-input" min="100" max="1000" placeholder="570" value="570">
+      </div>
+
+      <div class="mp-rsi-field js-field-ct">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Kontakttid <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(ms)</span>
+        </label>
+        <input type="number" name="rsi_ct" class="mp-rsi-input js-rsi-input" min="50" max="600" placeholder="200" value="200">
+      </div>
+
+      <div class="mp-rsi-field js-field-contr" style="display: none;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+          Kontraktionstid <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(ms)</span>
+        </label>
+        <input type="number" name="rsi_contr" class="mp-rsi-input js-rsi-input" min="200" max="1500" placeholder="700" value="700">
+      </div>
+    </div>
+  </div>
+
+  <!-- MODE 2: INCREMENTAL DROP JUMP (OPTIMAL KASSEHØJDE) -->
+  <div class="js-section-incremental" style="display: none; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.95rem; margin-bottom: 1.25rem;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0;">📦 Indtast Drop Jumps fra forskellige kasser</h4>
+      <button type="button" class="js-add-inc-row" style="background: #2563eb; color: #ffffff; border: none; font-size: 0.7rem; font-weight: 800; padding: 3px 8px; border-radius: 6px; cursor: pointer;">+ Tilføj Kasse</button>
+    </div>
+
+    <div style="overflow-x: auto; width: 100%;">
+      <table class="mp-rsi-table">
+        <thead>
+          <tr>
+            <th style="width: 28%;">Kasse (cm)</th>
+            <th style="width: 28%;">Hoppehøjde (cm)</th>
+            <th style="width: 28%;">Kontakttid (ms)</th>
+            <th style="width: 16%;">RSI</th>
+            <th style="width: 30px;"></th>
+          </tr>
+        </thead>
+        <tbody class="js-inc-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- MODE 3: 10/5 RSI TEST -->
+  <div class="js-section-tenfive" style="display: none; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.95rem; margin-bottom: 1.25rem;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0;">🔄 10 Kontinuerlige Pogo-Hop (Beregner 5 bedste)</h4>
+    </div>
+
+    <div style="overflow-x: auto; width: 100%;">
+      <table class="mp-rsi-table">
+        <thead>
+          <tr>
+            <th style="width: 20%;">Hop #</th>
+            <th style="width: 35%;">Hoppehøjde (cm)</th>
+            <th style="width: 35%;">Kontakttid (ms)</th>
+            <th style="width: 10%;">RSI</th>
+          </tr>
+        </thead>
+        <tbody class="js-tenfive-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- RESULTATKORT OG VISUELT SØJLEDIAGRAM -->
+  <div style="background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 0.85rem 1rem; margin-bottom: 1.25rem; text-align: center;">
+    <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.725rem; color: #1e40af; font-weight: 800; margin-bottom: 0.25rem;" class="js-rsi-res-title">
+      Reactive Strength Index (RSI)
+    </div>
+
+    <div style="display: flex; align-items: baseline; justify-content: center; gap: 0.3rem;">
+      <span class="js-rsi-score-out" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1;">2.00</span>
+    </div>
+
+    <!-- Optimal kassehøjde fremhævelse -->
+    <div class="js-optimal-box-badge" style="display: none; margin-top: 0.4rem; background: #dcfce7; border: 1px solid #86efac; color: #166534; padding: 5px 10px; border-radius: 8px; font-size: 0.8rem; font-weight: 800; width: fit-content; margin-left: auto; margin-right: auto;">
+      🎯 Optimal Kassehøjde til Plyotræning: <span class="js-optimal-box-val" style="font-size: 1rem; font-weight: 900;">30 cm</span>
+    </div>
+
+    <!-- VISUELT SØJLEDIAGRAM (KASSEHØJDER & 10/5 BARS) -->
+    <div class="js-barchart-wrapper" style="display: none; margin-top: 0.75rem;">
+      <div style="font-size: 0.7rem; font-weight: 800; color: #1e40af; text-align: left; margin-bottom: 2px;" class="js-barchart-label">
+        📊 Sammenligning af forsøg
+      </div>
+      <div class="js-barchart-container mp-rsi-barchart-container">
+        <!-- Dynamiske søjler genereres via UI JS -->
+      </div>
+    </div>
+
+    <!-- Slank Continuum Bar (5 Segmenter) -->
+    <div class="mp-fitness-continuum" style="margin-top: 0.65rem; margin-bottom: 0.5rem;">
+      <div class="mp-continuum-bar-wrapper">
+        <div class="mp-continuum-bar" style="height: 6px;">
+          <div class="mp-segment" style="background: #ef4444;"></div>
+          <div class="mp-segment" style="background: #f97316;"></div>
+          <div class="mp-segment" style="background: #eab308;"></div>
+          <div class="mp-segment" style="background: #22c55e;"></div>
+          <div class="mp-segment" style="background: #3b82f6;"></div>
+        </div>
+        <div class="js-rsi-continuum-marker mp-continuum-marker" style="display: none;"></div>
+      </div>
+    </div>
+
+    <div style="margin-top: 0.4rem; display: flex; flex-direction: column; align-items: center; gap: 2px;">
+      <span class="js-rsi-eval-badge" style="display:inline-block; font-size:0.775rem; font-weight:800; padding:3px 10px; border-radius:6px; background-color:#22c55e; color:#ffffff;">
+        Middel reaktivitet
+      </span>
+      <span class="js-rsi-source-text" style="font-size: 0.65rem; font-weight: 600; color: #64748b;">
+        Normering: Eamonn Flanagan (2016)
+      </span>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="mp-action-group" style="margin-top: 0.85rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil alt">🗑️</button>
+  </div>
+</div>

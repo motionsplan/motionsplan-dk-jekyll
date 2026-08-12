@@ -11,6 +11,7 @@ comments: 'false'
 toc: 'true'
 category:
 - Styrketræning
+- Styrketræningsprogrammer
 tags:
 - styrketræning
 - træningsprogrammer

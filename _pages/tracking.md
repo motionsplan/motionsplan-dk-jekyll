@@ -79,12 +79,6 @@ Undgå maksimale udmattelsestests – brug skånsomme, submaksimale protokoller 
 
 At føre en systematisk tracking af din træning har tre fysiologiske og praktiske fordele:
 
---
-
-## Hvorfor er monitorering af træning vigtigt?
-
-At føre en systematisk tracking af din træning har tre fysiologiske og praktiske fordele:
-
 1. **Præcis styring af progredierende belastning (*Progressive Overload*):**  
    Uden måling er det svært at vide, om du reelt bygger krop og kondition op – eller blot træder vande. Ved at registrere volumen, RPE og fysiologiske responser kan du øge belastningen systematisk over tid uden at gætte.
 2. **Tidlig opdagelse af overtræning og infektion:**  

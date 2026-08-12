@@ -37,6 +37,7 @@ meta:
   equipment: se testbeskrivelser
   measures: springstyrke
   type: springtests
+mathjax: true
 ---
 
 Måling af **hoppehøjde** og **springstyrke** benyttes ofte til at evaluere atletiske egenskaber i mange sportsgrene – fra basketball og volleyball til fodbold, atletik og fysiske optagelsesprøver. Hoppehøjden er et af de mest udbredte mål for underkroppens eksplosive power.

@@ -19,8 +19,10 @@ tags:
 - fullbody
 category:
 - Styrketræning
+- Styrketræningsprogrammer
 last_modified_at: '2025-04-03T11:44:17Z'
 classes: wide
+breadcrumbs: true
 ---
 
 Helkropsprogrammer – også kaldet fullbody-programmer – er en enkel og effektiv måde at styrketræne på. Her træner du hele kroppen i hver session, hvilket giver høj træningsfrekvens, god balance og solid fremgang med få ugentlige træningspas.
