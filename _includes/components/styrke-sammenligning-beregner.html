@@ -1,0 +1,994 @@
+<div class="styrke-app-container">
+  <div class="styrke-header">
+    <div class="styrke-title">Styrkeberegner - beregn relativ styrke</div>
+    <div class="styrke-subtitle">Sammenlign din styrke på tværs af køn, kropsvægt, højde og alder</div>
+  </div>
+
+  <form id="styrke-form" onsubmit="return false;">
+    <!-- Antropometri (Rent grid direkte på fladen, 100% aligned) -->
+    <div class="styrke-anthro-row">
+      <!-- Køn Switch -->
+      <div class="styrke-field">
+        <label class="styrke-lbl">Køn</label>
+        <div class="segmented-control">
+          <input type="radio" name="gender" id="g-male" value="male" checked>
+          <label for="g-male">Mand</label>
+          <input type="radio" name="gender" id="g-female" value="female">
+          <label for="g-female">Kvinde</label>
+          <div class="segmented-bg"></div>
+        </div>
+      </div>
+
+      <!-- Alder -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-age">Alder</label>
+        <input type="number" id="styrke-age" placeholder="28" min="10" max="100" value="28">
+      </div>
+
+      <!-- Højde -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-height">Højde (cm)</label>
+        <input type="number" id="styrke-height" placeholder="180" min="120" max="230" value="180">
+      </div>
+
+      <!-- Kropsvægt -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-bw">Vægt (kg)</label>
+        <input type="number" id="styrke-bw" step="0.1" placeholder="85" min="30" max="250" value="85">
+      </div>
+    </div>
+
+    <!-- Løft & Equipment Row -->
+    <div class="styrke-divider">
+      <span class="divider-title">Dine Løft (1RM i kg)</span>
+      
+      <!-- Udstyr Switch -->
+      <div class="equip-segmented">
+        <input type="radio" name="equip" id="eq-raw" value="raw" checked>
+        <label for="eq-raw">Raw</label>
+        <input type="radio" name="equip" id="eq-equipped" value="equipped">
+        <label for="eq-equipped">Udstyr</label>
+        <div class="equip-bg"></div>
+      </div>
+    </div>
+
+    <div class="styrke-input-grid lifts-grid">
+      <!-- Squat -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-squat">Squat</label>
+        <input type="number" id="styrke-squat" step="0.5" placeholder="0" min="0" value="160">
+      </div>
+
+      <!-- Bænkpres -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-bench">Bænkpres</label>
+        <input type="number" id="styrke-bench" step="0.5" placeholder="0" min="0" value="115">
+      </div>
+
+      <!-- Dødløft -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-deadlift">Dødløft</label>
+        <input type="number" id="styrke-deadlift" step="0.5" placeholder="0" min="0" value="200">
+      </div>
+    </div>
+  </form>
+
+  <!-- Resultat Dashboard -->
+  <div class="styrke-results-wrapper" id="styrke-results">
+    
+    <!-- Målingers Grid (IPF -> Wilks -> Nuckols) -->
+    <div class="styrke-cards-grid">
+
+      <!-- Card 1: IPF GL Points -->
+      <div class="styrke-card card-ipf">
+        <div class="card-header">
+          <span class="card-title">IPF GL Points</span>
+          <button type="button" class="info-icon-btn" onclick="toggleModal('modal-ipf')" title="Information">ℹ️</button>
+        </div>
+        <div class="card-body">
+          <div class="score-primary" id="res-ipf">0.00</div>
+          <div class="score-badge" id="res-ipf-level">Beregner...</div>
+          <div class="score-subtext" id="res-ipf-mode">IPF GL (2020-2024)</div>
+        </div>
+      </div>
+
+      <!-- Card 2: Wilks Score (Med dynamisk alderskorrektion) -->
+      <div class="styrke-card card-wilks">
+        <div class="card-header">
+          <span class="card-title">Wilks Score</span>
+          <button type="button" class="info-icon-btn" onclick="toggleModal('modal-wilks')" title="Information">ℹ️</button>
+        </div>
+        <div class="card-body">
+          <div class="score-primary" id="res-wilks">0.00</div>
+          <div class="score-subtext" id="res-wilks-sub">Klassisk vægtklasse-indeks</div>
+          <div class="age-bonus-tag" id="res-mcculloch-tag" style="display:none;"></div>
+        </div>
+      </div>
+
+      <!-- Card 3: Nuckols Standard -->
+      <div class="styrke-card card-nuckols">
+        <div class="card-header">
+          <span class="card-title">Nuckols Standard</span>
+          <button type="button" class="info-icon-btn" onclick="toggleModal('modal-nuckols')" title="Information">ℹ️</button>
+        </div>
+        <div class="card-body">
+          <div class="score-primary" id="res-nuckols-pct">0%</div>
+          <div class="score-badge" id="res-nuckols-tier">Beregner...</div>
+          <div class="nuckols-progress-track">
+            <div class="nuckols-progress-fill" id="nuckols-bar" style="width: 0%;"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- LØFT-FOR-LØFT BREAKDOWN SECTION -->
+    <div class="lift-breakdown-section">
+      <div class="breakdown-header">
+        <div class="breakdown-title">Løft-for-Løft Analyse</div>
+        <div class="breakdown-subtitle">*Niveauer tager udgangspunkt i Nuckols' biologiske potentialemodel</div>
+      </div>
+      
+      <div class="breakdown-grid">
+        <!-- Squat Card -->
+        <div class="breakdown-card" id="card-sq">
+          <div class="b-lift-name">Squat</div>
+          <div class="b-lift-val" id="b-sq-val">160 kg</div>
+          <div class="b-lift-rel" id="b-sq-rel">1.88 x BW</div>
+          
+          <!-- Mini Progress Slider -->
+          <div class="mini-track-container">
+            <div class="mini-track-bg"></div>
+            <div class="mini-track-thumb" id="b-sq-thumb" style="left: 0%;"></div>
+          </div>
+
+          <div class="b-lift-badge" id="b-sq-tier">Øvet</div>
+        </div>
+
+        <!-- Bench Card -->
+        <div class="breakdown-card" id="card-bp">
+          <div class="b-lift-name">Bænkpres</div>
+          <div class="b-lift-val" id="b-bp-val">115 kg</div>
+          <div class="b-lift-rel" id="b-bp-rel">1.35 x BW</div>
+
+          <!-- Mini Progress Slider -->
+          <div class="mini-track-container">
+            <div class="mini-track-bg"></div>
+            <div class="mini-track-thumb" id="b-bp-thumb" style="left: 0%;"></div>
+          </div>
+
+          <div class="b-lift-badge" id="b-bp-tier">Øvet</div>
+        </div>
+
+        <!-- Deadlift Card -->
+        <div class="breakdown-card" id="card-dl">
+          <div class="b-lift-name">Dødløft</div>
+          <div class="b-lift-val" id="b-dl-val">200 kg</div>
+          <div class="b-lift-rel" id="b-dl-rel">2.35 x BW</div>
+
+          <!-- Mini Progress Slider -->
+          <div class="mini-track-container">
+            <div class="mini-track-bg"></div>
+            <div class="mini-track-thumb" id="b-dl-thumb" style="left: 0%;"></div>
+          </div>
+
+          <div class="b-lift-badge" id="b-dl-tier">Øvet</div>
+        </div>
+
+        <!-- Total Card (Uden x BW) -->
+        <div class="breakdown-card highlight-card" id="card-tot">
+          <div class="b-lift-name">Total</div>
+          <div class="b-lift-val" id="b-tot-val">475 kg</div>
+          <div class="b-lift-rel">Nuckols Standard</div>
+
+          <!-- Mini Progress Slider -->
+          <div class="mini-track-container">
+            <div class="mini-track-bg"></div>
+            <div class="mini-track-thumb" id="b-tot-thumb" style="left: 0%;"></div>
+          </div>
+
+          <div class="b-lift-badge" id="b-tot-tier">Øvet</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- Gimmick / Profil-note -->
+  <div class="gimmick-note" id="gimmick-note" style="display:none;"></div>
+
+
+  <!-- MODALS -->
+  <div class="styrke-modal-backdrop" id="modal-nuckols" style="display:none;">
+    <div class="styrke-modal">
+      <div class="modal-header">
+        <h3>Greg Nuckols Objective Standard</h3>
+        <button type="button" class="close-btn" onclick="toggleModal('modal-nuckols')">✕</button>
+      </div>
+      <div class="modal-body">
+        <p>Greg Nuckols' model sammenligner dine løft mod det teoretiske muskulære potentiale for en atlet med din <strong>højde og kropsvægt</strong> (baseret på max FFMI ~25 for mænd / ~21,5 for kvinder).</p>
+        
+        <div class="nuckols-tiers-list">
+          <div class="tier-item" id="tier-item-4"><span class="t-range">Elite (>85% af potentiale)</span><span class="t-name">Verdensklasse & National Elite</span></div>
+          <div class="tier-item" id="tier-item-3"><span class="t-range">Avanceret (70 - 85% af potentiale)</span><span class="t-name">Stærk Konkurrenceløfter</span></div>
+          <div class="tier-item" id="tier-item-2"><span class="t-range">Øvet (55 - 70% af potentiale)</span><span class="t-name">Rutineret Trænende</span></div>
+          <div class="tier-item" id="tier-item-1"><span class="t-range">Motionist / Begynder (<55% af potentiale)</span><span class="t-name">Godt opbygningspotentiale</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="styrke-modal-backdrop" id="modal-ipf" style="display:none;">
+    <div class="styrke-modal">
+      <div class="modal-header">
+        <h3>IPF GL Points (Goodlift)</h3>
+        <button type="button" class="close-btn" onclick="toggleModal('modal-ipf')">✕</button>
+      </div>
+      <div class="modal-body">
+        <p><strong>IPF GL Points</strong> benytter de gældende koefficienter fra International Powerlifting Federation.</p>
+        <ul>
+          <li><strong>> 90 point:</strong> Elite</li>
+          <li><strong>75 - 90 point:</strong> Avanceret</li>
+          <li><strong>60 - 75 point:</strong> Øvet</li>
+          <li><strong>45 - 60 point:</strong> Motionist</li>
+          <li><strong>< 45 point:</strong> Begynder</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="styrke-modal-backdrop" id="modal-wilks" style="display:none;">
+    <div class="styrke-modal">
+      <div class="modal-header">
+        <h3>Wilks Score & McCulloch Alder</h3>
+        <button type="button" class="close-btn" onclick="toggleModal('modal-wilks')">✕</button>
+      </div>
+      <div class="modal-body">
+        <p>Den klassiske <strong>Wilks Formel</strong>. Hvis du er under 23 år eller over 39 år, anvendes <strong>McCulloch koefficienten</strong> automatisk til at give en aldersjusteret score.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+/* CSS STYLES FOR SUPER STYRKEBEREGNER V8 (FULL WIDTH & PERFECT ALIGNMENT) */
+.styrke-app-container {
+  max-width: 680px;
+  margin: 20px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1e293b;
+  box-sizing: border-box;
+}
+
+.styrke-header {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.styrke-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.styrke-subtitle {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+/* Antropometri Grid (Direkte på baggrunden uden grå boks) */
+.styrke-anthro-row {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.styrke-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.styrke-lbl {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #475569;
+  margin-bottom: 4px;
+  height: 16px;
+  line-height: 16px;
+  display: block;
+}
+
+.styrke-field input[type="number"] {
+  height: 38px;
+  width: 100%;
+  padding: 0 10px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #0f172a;
+  outline: none;
+  background: #ffffff;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+.styrke-field input[type="number"]:focus {
+  border-color: #2563eb;
+}
+
+/* Segmented Control Switch (Køn) */
+.segmented-control {
+  position: relative;
+  display: flex;
+  background: #f1f5f9;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  height: 38px;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Skjul radio-bullets 100% uanset tema */
+.segmented-control input[type="radio"],
+.equip-segmented input[type="radio"] {
+  display: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+.segmented-control label {
+  flex: 1;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #64748b;
+  cursor: pointer;
+  z-index: 2;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.segmented-control input[type="radio"]:checked + label { color: #1d4ed8; }
+
+.segmented-bg {
+  position: absolute;
+  top: 2px; bottom: 2px; left: 2px;
+  width: calc(50% - 2px);
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+#g-female:checked ~ .segmented-bg { transform: translateX(100%); }
+
+/* Udstyr Segmented Switch */
+.styrke-divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0 10px;
+  padding-bottom: 4px;
+  border-bottom: 1.5px solid #eff6ff;
+}
+
+.divider-title {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #2563eb;
+}
+
+.equip-segmented {
+  position: relative;
+  display: flex;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  padding: 2px;
+  border-radius: 6px;
+  height: 28px;
+  align-items: center;
+  width: 130px;
+}
+
+.equip-segmented label {
+  flex: 1;
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #64748b;
+  cursor: pointer;
+  z-index: 2;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equip-segmented input[type="radio"]:checked + label { color: #0f172a; }
+
+.equip-bg {
+  position: absolute;
+  top: 2px; bottom: 2px; left: 2px;
+  width: calc(50% - 2px);
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  z-index: 1;
+}
+
+#eq-equipped:checked ~ .equip-bg { transform: translateX(100%); }
+
+.lifts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* Gimmick Note */
+.gimmick-note {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 0.82rem;
+  color: #334155;
+  font-weight: 600;
+  animation: fadeIn 0.3s ease;
+}
+
+/* RESULTS DASHBOARD */
+.styrke-results-wrapper {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 2px dashed #e2e8f0;
+}
+
+.styrke-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.styrke-card {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.card-ipf { border-top: 3.5px solid #2563eb; }
+.card-wilks { border-top: 3.5px solid #7c3aed; }
+.card-nuckols { border-top: 3.5px solid #059669; }
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+  gap: 4px;
+}
+
+.card-title {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #334155;
+  white-space: nowrap;
+}
+
+.info-icon-btn {
+  background: none;
+  border: none;
+  font-size: 0.88rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  opacity: 0.65;
+  transition: opacity 0.15s ease;
+}
+
+.info-icon-btn:hover { opacity: 1; }
+
+.score-primary {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1;
+}
+
+/* Dynamic Badge Colors */
+.score-badge {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.badge-green { background: #dcfce7; color: #166534; }
+.badge-blue { background: #dbeafe; color: #1e40af; }
+.badge-purple { background: #f3e8ff; color: #6b21a8; }
+.badge-gold { background: #fef3c7; color: #92400e; }
+.badge-subtle { background: #f1f5f9; color: #475569; }
+
+.score-subtext {
+  font-size: 0.68rem;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.age-bonus-tag {
+  margin-top: 6px;
+  padding: 2px 6px;
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: 6px;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.nuckols-progress-track {
+  height: 5px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.nuckols-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #3b82f6, #8b5cf6);
+  transition: width 0.4s ease;
+}
+
+/* LØFT-FOR-LØFT BREAKDOWN SECTION */
+.lift-breakdown-section {
+  margin-top: 10px;
+}
+
+.breakdown-header {
+  margin-bottom: 12px;
+}
+
+.breakdown-title {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.breakdown-subtitle {
+  font-size: 0.72rem;
+  color: #64748b;
+  margin-top: 1px;
+}
+
+.breakdown-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.breakdown-card {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.breakdown-card.highlight-card {
+  background: #eff6ff;
+  border-color: #93c5fd;
+}
+
+.b-lift-name {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #334155;
+  margin-bottom: 2px;
+}
+
+.b-lift-val {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.1;
+}
+
+.b-lift-rel {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #64748b;
+  margin-top: 2px;
+  min-height: 14px;
+}
+
+/* MINI PROGRESS SLIDER FOR BREAKDOWN CARDS */
+.mini-track-container {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  margin: 8px 0 6px;
+}
+
+.mini-track-bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(to right, #ef4444, #f97316, #eab308, #10b981, #3b82f6);
+}
+
+.mini-track-thumb {
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  height: 11px;
+  background: #0f172a;
+  border: 1.5px solid #ffffff;
+  border-radius: 2px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  transition: left 0.3s ease;
+}
+
+.b-lift-badge {
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* MODAL STYLES */
+.styrke-modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.styrke-modal {
+  background: #ffffff;
+  border-radius: 16px;
+  max-width: 480px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  padding: 18px;
+  animation: modalIn 0.2s ease-out;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+.modal-header h3 { margin: 0; font-size: 1rem; color: #0f172a; }
+
+.close-btn {
+  background: #f1f5f9;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #64748b;
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.modal-body { font-size: 0.85rem; color: #334155; line-height: 1.45; }
+
+.nuckols-tiers-list { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+
+.tier-item {
+  padding: 8px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  display: flex; flex-direction: column;
+}
+
+.tier-item.active-tier {
+  background: #eff6ff;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+.t-range { font-size: 0.7rem; font-weight: 800; color: #2563eb; }
+.t-name { font-size: 0.82rem; font-weight: 800; color: #0f172a; }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes modalIn { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: scale(1); } }
+
+@media (max-width: 580px) {
+  .styrke-anthro-row { grid-template-columns: 1fr 1fr; }
+  .lifts-grid { grid-template-columns: 1fr; }
+  .styrke-cards-grid { grid-template-columns: 1fr; }
+  .breakdown-grid { grid-template-columns: 1fr 1fr; }
+}
+</style>
+
+<script>
+function toggleModal(id) {
+  const modal = document.getElementById(id);
+  if (modal) {
+    modal.style.display = (modal.style.display === 'none' || modal.style.display === '') ? 'flex' : 'none';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  const STORAGE_KEY = 'motionsplan_styrke_state';
+  const container = document.querySelector('.styrke-app-container');
+
+  container.addEventListener('input', calculateLive);
+  container.addEventListener('change', calculateLive);
+
+  function calculateLive() {
+    const genderEl = document.querySelector('input[name="gender"]:checked');
+    if (!genderEl) return;
+    const gender = genderEl.value;
+
+    const age = parseFloat(document.getElementById('styrke-age').value) || 28;
+    const height = parseFloat(document.getElementById('styrke-height').value) || 180;
+    const bw = parseFloat(document.getElementById('styrke-bw').value) || 85;
+
+    const squat = parseFloat(document.getElementById('styrke-squat').value) || 0;
+    const bench = parseFloat(document.getElementById('styrke-bench').value) || 0;
+    const deadlift = parseFloat(document.getElementById('styrke-deadlift').value) || 0;
+
+    const equipEl = document.querySelector('input[name="equip"]:checked');
+    const equip = equipEl ? equipEl.value : 'raw';
+
+    // GEM I LOCALSTORAGE
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        gender, age, height, bw, squat, bench, deadlift, equip
+      }));
+    } catch (e) {}
+
+    const total = squat + bench + deadlift;
+    const gimmickEl = document.getElementById('gimmick-note');
+
+    if (total <= 0 || bw <= 0 || height <= 0) {
+      gimmickEl.style.display = 'none';
+      return;
+    }
+
+    const isMale = (gender === 'male');
+    const hM = height / 100;
+    const maxFFM = (isMale ? 25 : 21.5) * Math.pow(hM, 2);
+
+    // Max Potentialer ud fra Nuckols
+    const maxSq = maxFFM * (isMale ? 3.7 : 2.9);
+    const maxBp = maxFFM * (isMale ? 2.3 : 1.8);
+    const maxDl = maxFFM * (isMale ? 4.1 : 3.3);
+    const maxTot = maxFFM * (isMale ? 9.3 : 7.4);
+
+    // Dynamic Helper for Badge Colors & Clean Categories
+    function getLiftData(val, maxVal) {
+      if (val <= 0) return { pct: 0, tier: "Ingen", class: "badge-subtle" };
+      const pct = Math.min(Math.round((val / maxVal) * 100), 100);
+      let tier = "Begynder";
+      let cls = "badge-subtle";
+      
+      if (pct >= 85) {
+        tier = "Elite";
+        cls = "badge-gold";
+      } else if (pct >= 70) {
+        tier = "Avanceret";
+        cls = "badge-purple";
+      } else if (pct >= 55) {
+        tier = "Øvet";
+        cls = "badge-blue";
+      } else if (pct >= 40) {
+        tier = "Motionist";
+        cls = "badge-green";
+      } else {
+        tier = "Begynder";
+        cls = "badge-subtle";
+      }
+      return { pct, tier, class: cls };
+    }
+
+    const sqData = getLiftData(squat, maxSq);
+    const bpData = getLiftData(bench, maxBp);
+    const dlData = getLiftData(deadlift, maxDl);
+    const totData = getLiftData(total, maxTot);
+
+    // OPDATER BREAKDOWN GRID DOM & MINI-SLIDERS
+    document.getElementById('b-sq-val').textContent = `${squat.toFixed(1)} kg`;
+    document.getElementById('b-sq-rel').textContent = `${(squat / bw).toFixed(2)} x BW`;
+    document.getElementById('b-sq-thumb').style.left = `${sqData.pct}%`;
+    const sqBadge = document.getElementById('b-sq-tier');
+    sqBadge.textContent = sqData.tier;
+    sqBadge.className = `b-lift-badge ${sqData.class}`;
+
+    document.getElementById('b-bp-val').textContent = `${bench.toFixed(1)} kg`;
+    document.getElementById('b-bp-rel').textContent = `${(bench / bw).toFixed(2)} x BW`;
+    document.getElementById('b-bp-thumb').style.left = `${bpData.pct}%`;
+    const bpBadge = document.getElementById('b-bp-tier');
+    bpBadge.textContent = bpData.tier;
+    bpBadge.className = `b-lift-badge ${bpData.class}`;
+
+    document.getElementById('b-dl-val').textContent = `${deadlift.toFixed(1)} kg`;
+    document.getElementById('b-dl-rel').textContent = `${(deadlift / bw).toFixed(2)} x BW`;
+    document.getElementById('b-dl-thumb').style.left = `${dlData.pct}%`;
+    const dlBadge = document.getElementById('b-dl-tier');
+    dlBadge.textContent = dlData.tier;
+    dlBadge.className = `b-lift-badge ${dlData.class}`;
+
+    // Total Card (INGEN x BW)
+    document.getElementById('b-tot-val').textContent = `${total.toFixed(1)} kg`;
+    document.getElementById('b-tot-thumb').style.left = `${totData.pct}%`;
+    const totBadge = document.getElementById('b-tot-tier');
+    totBadge.textContent = totData.tier;
+    totBadge.className = `b-lift-badge ${totData.class}`;
+
+    // --- GIMMICK / UBALLANCE NOTE ---
+    let gimmickText = "";
+    if (squat > 0 && bench > 0 && deadlift > 0) {
+      if (bpData.pct >= sqData.pct + 12 && bpData.pct >= dlData.pct + 12) {
+        gimmickText = "<strong>Bænkpres-Specialist:</strong> Din bænkpres er dit absolut stærkeste løft i forhold til standarderne.";
+      } else if (dlData.pct >= sqData.pct + 12 && dlData.pct >= bpData.pct + 12) {
+        gimmickText = "<strong>Dødløfts-Specialist:</strong> Din dødløft ligger i en højere kategori end dine andre løft.";
+      } else if (sqData.pct >= dlData.pct + 12 && sqData.pct >= bpData.pct + 12) {
+        gimmickText = "<strong>Squat-Dominant:</strong> Din squat er dit klart stærkeste løft i forhold til dit biologiske potentiale.";
+      }
+    }
+
+    if (gimmickText) {
+      gimmickEl.innerHTML = gimmickText;
+      gimmickEl.style.display = 'block';
+    } else {
+      gimmickEl.style.display = 'none';
+    }
+
+    // --- WILKS SCORE & MCCULLOCH ---
+    let wilksCoeff = 0;
+    if (isMale) {
+      const a = -216.0475144, b = 16.2606339, c = -0.002388645, d = -0.00113732, e = 7.01863e-6, f = -1.291e-8;
+      wilksCoeff = 500 / (a + (b * bw) + (c * Math.pow(bw, 2)) + (d * Math.pow(bw, 3)) + (e * Math.pow(bw, 4)) + (f * Math.pow(bw, 5)));
+    } else {
+      const a = 594.3174777, b = -27.2384253, c = 0.821122263, d = -0.009307339, e = 4.731582e-5, f = -9.054e-8;
+      wilksCoeff = 500 / (a + (b * bw) + (c * Math.pow(bw, 2)) + (d * Math.pow(bw, 3)) + (e * Math.pow(bw, 4)) + (f * Math.pow(bw, 5)));
+    }
+    const wilksScore = total * wilksCoeff;
+
+    // McCulloch Aldersfaktor
+    let ageCoeff = 1.0;
+    if (age > 39) ageCoeff = 1.0 + ((age - 39) * 0.009);
+    else if (age <= 23 && age >= 14) ageCoeff = 1.0 + ((23 - age) * 0.015);
+
+    const mccullochWilks = wilksScore * ageCoeff;
+
+    document.getElementById('res-wilks').textContent = wilksScore.toFixed(2);
+    const ageTag = document.getElementById('res-mcculloch-tag');
+
+    if (ageCoeff !== 1.0) {
+      ageTag.style.display = 'inline-block';
+      ageTag.textContent = `McCulloch: ${mccullochWilks.toFixed(1)} pt (${ageCoeff.toFixed(2)}x for ${age} år)`;
+    } else {
+      ageTag.style.display = 'none';
+    }
+
+    // --- IPF GL POINTS & HARMONISERET NIVEAU ---
+    let ipfA = 0, ipfB = 0, ipfC = 0;
+    if (equip === 'raw') {
+      if (isMale) { ipfA = 1199.72839; ipfB = 1025.18162; ipfC = 0.009210; }
+      else { ipfA = 610.32796; ipfB = 1045.56428; ipfC = 0.030480; }
+    } else {
+      if (isMale) { ipfA = 1236.2511; ipfB = 1449.2175; ipfC = 0.016440; }
+      else { ipfA = 758.3449; ipfB = 949.3138; ipfC = 0.024350; }
+    }
+
+    const ipfPoints = 100 * (total / (ipfA - ipfB * Math.exp(-ipfC * bw)));
+
+    let ipfLevelText = "Begynder";
+    let ipfClass = "badge-subtle";
+
+    if (ipfPoints >= 90) {
+      ipfLevelText = "Elite";
+      ipfClass = "badge-gold";
+    } else if (ipfPoints >= 75) {
+      ipfLevelText = "Avanceret";
+      ipfClass = "badge-purple";
+    } else if (ipfPoints >= 60) {
+      ipfLevelText = "Øvet";
+      ipfClass = "badge-blue";
+    } else if (ipfPoints >= 45) {
+      ipfLevelText = "Motionist";
+      ipfClass = "badge-green";
+    } else {
+      ipfLevelText = "Begynder";
+      ipfClass = "badge-subtle";
+    }
+
+    document.getElementById('res-ipf').textContent = ipfPoints.toFixed(2);
+    const ipfBadge = document.getElementById('res-ipf-level');
+    ipfBadge.textContent = ipfLevelText;
+    ipfBadge.className = `score-badge ${ipfClass}`;
+    document.getElementById('res-ipf-mode').textContent = `IPF GL (2020-2024) – ${equip.toUpperCase()}`;
+
+    // --- NUCKOLS KORT OPDATERING ---
+    document.getElementById('res-nuckols-pct').textContent = `${totData.pct}%`;
+    const nuckBadge = document.getElementById('res-nuckols-tier');
+    nuckBadge.textContent = totData.tier;
+    nuckBadge.className = `score-badge ${totData.class}`;
+    document.getElementById('nuckols-bar').style.width = `${Math.min(totData.pct, 100)}%`;
+
+    document.querySelectorAll('.tier-item').forEach(el => el.classList.remove('active-tier'));
+    let activeTierId = "tier-item-1";
+    if (totData.pct >= 85) activeTierId = "tier-item-4";
+    else if (totData.pct >= 70) activeTierId = "tier-item-3";
+    else if (totData.pct >= 55) activeTierId = "tier-item-2";
+    const activeEl = document.getElementById(activeTierId);
+    if (activeEl) activeEl.classList.add('active-tier');
+  }
+
+  // LOAD FRA LOCALSTORAGE
+  function loadSavedState() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        const d = JSON.parse(saved);
+        if (d.gender) {
+          const gEl = document.querySelector(`input[name="gender"][value="${d.gender}"]`);
+          if (gEl) gEl.checked = true;
+        }
+        if (d.equip) {
+          const eqEl = document.querySelector(`input[name="equip"][value="${d.equip}"]`);
+          if (eqEl) eqEl.checked = true;
+        }
+        if (d.age) document.getElementById('styrke-age').value = d.age;
+        if (d.height) document.getElementById('styrke-height').value = d.height;
+        if (d.bw) document.getElementById('styrke-bw').value = d.bw;
+        if (d.squat !== undefined) document.getElementById('styrke-squat').value = d.squat;
+        if (d.bench !== undefined) document.getElementById('styrke-bench').value = d.bench;
+        if (d.deadlift !== undefined) document.getElementById('styrke-deadlift').value = d.deadlift;
+      }
+    } catch (e) {}
+  }
+
+  loadSavedState();
+  calculateLive();
+});
+</script>
