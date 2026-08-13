@@ -144,6 +144,21 @@ BMI skalaen for børn er imidlertid meget forskellig fra de voksnes vurderinger.
 
 BMI tager ikke højde for kropsbygning og muskelmasse. Derfor er det også meget vanskeligt at svare på, hvad normal vægt er for børn og unge. En vurdering af børn skal altid ses sammen med en individuel vurdering af det relative udviklingsniveau og kropsbygningen.
 
+## Nyere forskning: Er Tri-Ponderal Mass Index (TMI) bedre til børn?
+
+Selvom BMI er den mest udbredte standard i sundhedsvæsenet, peger nyere pædiatrisk forskning på, at BMI kan skævvride vurderingen af børn i vokseværket.
+
+Da børns højdevækst sker i stød, øges deres højde hurtigere end deres kropsareal. I et stort studie fra *JAMA Pediatrics* (Peterson et al., 2017) med over 2.000 børn og teenagere (8–17 år) fandt forskerne, at **Tri-Ponderal Mass Index (TMI)** rammer børns reelle fedtprocent væsentligt mere præcist end BMI.
+
+### Hvad er TMI?
+TMI benytter højden i **3. potens** ($m^3$) i stedet for 2. potens ($m^2$):
+
+$$\text{TMI} = \frac{\text{Vægt (kg)}}{\text{Højde (m)}^3}$$
+
+Forskerne konkluderede, at TMI reducerer fejlklassificeringer af overvægt hos børn med over 20 % i forhold til BMI, fordi det tager højde for kroppens tre-dimensionelle volumen under opvæksten.
+
+👉 **Vil du vide mere?** Read om historien bag formlen og prøv vores **[Ponderal Index og TMI-beregner her](/ponderal-index/)**.
+
 ## Konklusion
 
 BMI er enkelt at bruge, men det er ikke retvisende til at sige noget om kropskompositionen og fedtprocenten hos børn og unge. Derfor skal man være meget varsom med at med bruge BMI som udgangspunkt for en snak om sundhed med det enkelte barn.
@@ -167,4 +182,5 @@ Det vigtigste for barnets sundhed er at give det sunde kostvaner og motionsvaner
 - Hammer, L. D., H. C. Kraemer, D. M. Wilson, P. L. Ritter, og S. M. Dornbusch. 1991. “Standardized Percentile Curves of Body-Mass Index for Children and Adolescents”. American Journal of Diseases of Children (1960) 145 (3): 259–63. <https://doi.org/10.1001/archpedi.1991.02160030027015>.
 - Pietrobelli, A., M. S. Faith, D. B. Allison, D. Gallagher, G. Chiumello, og S. B. Heymsfield. 1998. “Body Mass Index as a Measure of Adiposity among Children and Adolescents: A Validation Study”. The Journal of Pediatrics 132 (2): 204–10. <https://doi.org/10.1016/s0022-3476(98)70433-0>.
 - The Centers for Disease Control and Prevention (CDC). BMI - Body Mass Index: BMI for Children and Teens.
+- Peterson, C. M., Thomas, D. M., Blackburn, G. L., & Heymsfield, S. B. (2017). Universal adiposity threshold of tri-ponderal mass index in children and adolescents. *JAMA Pediatrics*, 171(10), 960-966. <https://doi.org/10.1001/jamapediatrics.2017.2346>
 </details>
