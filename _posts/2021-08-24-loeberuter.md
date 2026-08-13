@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1560354892-75d8f5d0b5e9
   teaser: /assets/images/unsplash/photo-1560354892-75d8f5d0b5e9.jpg
   caption: Find den perfekte løberute med disse 10 tips
-category:
+categories:
 - Løb
 tags:
 - løb

@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71
   teaser: /assets/images/unsplash/photo-1598971457999-ca4ef48a9a71.jpg
   caption: Test din overkropsstyrke med armstrækninger
-category:
+categories:
   - Styrketræning
   - Styrketræningstests
 meta:

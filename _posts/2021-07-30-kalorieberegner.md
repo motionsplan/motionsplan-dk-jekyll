@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1611077543693-a0194a16b034
   teaser: /assets/images/unsplash/photo-1611077543693-a0194a16b034.jpg
   caption: 'Kalorieberegnere: Beregn alt om kalorier'
-category:
+categories:
 - Kost & Ernæring
 tags:
 - kalorier

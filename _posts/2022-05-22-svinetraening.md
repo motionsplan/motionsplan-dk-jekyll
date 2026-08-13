@@ -6,7 +6,7 @@ language: da
 header:
   teaser: https://imgcdn.saxo.com/_9788771415070/0x500
   caption: *title
-category:
+categories:
   - Træning
 tags:
   - udendørs træning

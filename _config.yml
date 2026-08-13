@@ -297,7 +297,6 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins
 plugins:
   - jekyll-paginate
-#  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
@@ -310,7 +309,6 @@ plugins:
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji

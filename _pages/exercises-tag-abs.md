@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1583454156935-ba06aef90b3f
   teaser: /assets/images/unsplash/photo-1583454156935-ba06aef90b3f.jpg
   caption: 'Maveøvelser: De mest effektive øvelser til maven'
-category:
+categories:
 - Træningsøvelser
 breadcrumbs: 'true'
 sidebar:

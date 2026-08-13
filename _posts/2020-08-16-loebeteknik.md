@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc
   teaser: /assets/images/unsplash/photo-1512941675424-1c17dabfdddc.jpg
   caption: Løbeteknik og løbestil i forhold til præstation og løbeskader
-category:
+categories:
 - Løb
 - Kondition
 tags:

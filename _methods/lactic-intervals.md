@@ -9,7 +9,8 @@ excerpt: "Lactacide intervaller skal forbedre det laktacide systems evne til at 
 tags:
   - conditioning
   - anaerob træning
-category: Kondition
+categories:
+  - Kondition
 header:
   teaser: /assets/images/kondition/anaerob-kapacitet.jpg
 gallery:

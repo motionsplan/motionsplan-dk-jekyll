@@ -13,7 +13,7 @@ header:
   caption: *title
   teaser: /assets/images/bodytracker.dk/DSC02424-1030x688-90b2ef04.jpg
   credit: https://bodytracker.dk/wp-content/uploads/2022/05/DSC02424-1030x688.jpg
-category:
+categories:
   - Tests
   - Fedtprocent
 breadcrumbs: true

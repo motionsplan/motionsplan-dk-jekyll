@@ -10,7 +10,8 @@ header:
 tags:
   - conditioning
   - aerob træning
-category: Kondition
+categories:
+  - Kondition
 rpe: 5-6
 time: 10-12s arbejde; 60s aktiv pause
 intensity: 70% af max intensitet

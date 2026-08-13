@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1648748571003-98d6ff522019.jpg
   credit: https://images.unsplash.com/photo-1648748571003-98d6ff522019
   caption: Brug dit energiforbrug som målsætning for træningen
-category:
+categories:
   - Kost & Ernæring
 tags:
   - beregner

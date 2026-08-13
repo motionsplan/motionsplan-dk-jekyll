@@ -11,7 +11,7 @@ toc_sticky: true
 header:
   teaser: https://images.unsplash.com/photo-1626379486283-5f9ccf9b7f74?ixlib=rb-4.0.3&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
-category:
+categories:
   - Cykling
 tags:
   - træningsudstyr

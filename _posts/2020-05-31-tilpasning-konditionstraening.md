@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1477332552946-cfb384aeaf1c.jpg
   caption: Fysiologiske forandringer og adaptationer ved konditionstræning
   overlay_filter: '0.2'
-category:
+categories:
 - Kondition
 tags:
 - kredsløb

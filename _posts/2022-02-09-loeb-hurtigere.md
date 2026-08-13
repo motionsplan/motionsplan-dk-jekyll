@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1610969770059-7084269fa3be.jpg
   credit: https://images.unsplash.com/photo-1610969770059-7084269fa3be
   caption: Hvordan lærer jeg at løbe hurtigere?
-category:
+categories:
 - Løb
 tags:
 - træning

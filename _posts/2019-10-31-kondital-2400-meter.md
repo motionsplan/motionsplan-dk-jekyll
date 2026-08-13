@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1585855822554-4d21c841708c.jpg
   credit: https://images.unsplash.com/photo-1585855822554-4d21c841708c
   caption: '2400-meter løbetest: Sådan beregner du dit kondital 🏃'
-category:
+categories:
 - Kondition
 - Konditionstest
 classes: wide

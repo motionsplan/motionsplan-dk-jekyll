@@ -12,7 +12,7 @@ header:
   overlay_image: /assets/images/cdnwebpub.bkool.com/bkool-family-2x-6641ad95.jpg
   teaser: /assets/images/cdnwebpub.bkool.com/bkool-family-2x-6641ad95.jpg
   caption: *title
-category:
+categories:
   - Cykling
   - Hometrainer
 tags:

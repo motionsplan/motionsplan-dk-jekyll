@@ -7,7 +7,7 @@ excerpt: "Durnin & Womersley 4-punktsmåling er meget anerkendt hudfoldsmåling 
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
-category:
+categories:
   - Kropskomposition
   - Fedtprocent
   - Hudfoldsmåling

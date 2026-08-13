@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1613288092085-eb081fde1509.jpg
   credit: https://images.unsplash.com/photo-1613288092085-eb081fde1509
   caption: Udregn din muskelmasse i vores beregner
-category:
+categories:
 - Styrketræning
 tags:
 - beregner

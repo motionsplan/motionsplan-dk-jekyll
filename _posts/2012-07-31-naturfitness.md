@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1415298910336-daa47babb3cc
   teaser: /assets/images/unsplash/photo-1415298910336-daa47babb3cc.jpg
   caption: 'Naturfitness: 38 øvelser til træning i naturen'
-category:
+categories:
 - Træning
 tags:
 - udendørs træning

@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/unsplash/photo-1513378628213-b8f36d8c2878.jpg
   credit: https://images.unsplash.com/photo-1513378628213-b8f36d8c2878
   caption: Virker nedvarmning og afjogging på restitutionen?
-category:
+categories:
 - Træning
 - Restitution
 tags:

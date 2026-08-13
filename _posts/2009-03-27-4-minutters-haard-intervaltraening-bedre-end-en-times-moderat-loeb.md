@@ -20,7 +20,7 @@ tags:
 - aerob træning
 - løb
 - træningsmetode
-category:
+categories:
 - Kondition
 - Løb
 last_modified_at: '2021-01-17T22:42:12Z'

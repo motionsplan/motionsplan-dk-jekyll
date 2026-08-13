@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1517836477839-7072aaa8b121.jpg
   credit: https://images.unsplash.com/photo-1517836477839-7072aaa8b121
   caption: 'Vælg den rette vægt på stangen: Hvor meget skal du løfte?'
-category:
+categories:
   - Styrketræning
 tags:
   - styrketræning

@@ -12,7 +12,7 @@ header:
   caption: Yogamusik - God musik til yoga, meditation og mindfulness
   alt: Photo by Anupam Mahapatra on Unsplash
   overlay_filter: '0.2'
-category:
+categories:
 - Yoga
 tags:
 - yoga

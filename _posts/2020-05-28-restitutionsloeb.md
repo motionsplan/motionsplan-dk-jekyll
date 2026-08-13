@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/unsplash/photo-1513593771513-7b58b6c4af38.jpg
   caption: 'Restitutionsløb: Løb langsomt for at blive hurtigere'
   alt: Photo by Cris Saur on Unsplash
-category:
+categories:
 - Løb
 - Restitution
 tags:

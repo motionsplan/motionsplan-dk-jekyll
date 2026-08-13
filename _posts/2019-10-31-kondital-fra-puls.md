@@ -14,7 +14,7 @@ header:
   actions:
   - label: <i class='fas fa-calculator'></i> Hop til beregneren →
     url: '#calculator'
-category:
+categories:
 - Kondition
 - Konditionstests
 meta:

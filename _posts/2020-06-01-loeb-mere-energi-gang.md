@@ -9,7 +9,7 @@ header:
   overlay_filter: '0.2'
   caption: Forbrænding af kalorier ved at gå og løbe
 language: da
-category:
+categories:
 - Løb
 - Gang
 tags:

@@ -5,7 +5,7 @@ permalink: /styrketraening/contrast-training/
 header:
   teaser: /assets/images/hypertrofi/contrast-training.jpg
 breadcrumbs: true
-category:
+categories:
   - Styrketræning
 excerpt: "I bund og grund udfører du et sæt tunge løft (typisk i området fra fem til ti gentagelser), og følger det derefter med det samme med en ubelastet, eksplosiv bevægelse, der efterligner det samme bevægelsesmønster såvel som det samme antal gentagelser."
 tags:

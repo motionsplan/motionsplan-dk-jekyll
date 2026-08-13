@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14
   teaser: /assets/images/unsplash/photo-1583187938491-1dcc103c9e14.jpg
   caption: 'Starting Strength: Begynderprogram af Mark Rippetoe'
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

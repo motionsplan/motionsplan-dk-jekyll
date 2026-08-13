@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1612032882906-2fa6f7b5f30f.jpg
   credit: https://images.unsplash.com/photo-1612032882906-2fa6f7b5f30f
   caption: Aktiv eller passiv pause ved HIIT - hvad er optimalt?
-category:
+categories:
   - Kondition
 tags:
   - kondition

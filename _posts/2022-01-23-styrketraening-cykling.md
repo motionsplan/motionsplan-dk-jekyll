@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1499438075715-fc23ef376ab9.jpg
   credit: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9
   caption: Cykeltræningsprogram - Få en styrketræningsguide til cykling
-category:
+categories:
 - Styrketræning
 - Cykling
 tags:

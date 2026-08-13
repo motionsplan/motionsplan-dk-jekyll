@@ -5,7 +5,7 @@ title: Konditionstests - mål din kondition
 seo_title: 'Konditionstests: 10+ tests af din kondition og VO2max'
 excerpt: Find den rette konditionstest for dig i vores detaljerede oversigt. Mål kondition, VO2 max og kondital for at forbedre
   din form.
-category:
+categories:
 - Kondition
 redirect_from:
 - /kondition-og-test/

@@ -7,7 +7,7 @@ header:
   credit: https://images.unsplash.com/photo-1598379682609-c617fa376f76
   teaser: /assets/images/unsplash/photo-1598379682609-c617fa376f76.jpg
   caption: 'Aerob træning: 5 forslag til at træne det aerobe system 💗'
-category:
+categories:
 - Kondition
 tags:
 - energisystemer

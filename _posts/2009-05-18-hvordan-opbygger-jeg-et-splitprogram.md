@@ -16,7 +16,7 @@ tags:
 - styrketræning
 - træningsplanlægning
 - programlægning
-category:
+categories:
 - Styrketræning
 last_modified_at: '2025-03-03T11:44:17Z'
 ---

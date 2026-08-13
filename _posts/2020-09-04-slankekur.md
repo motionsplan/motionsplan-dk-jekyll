@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1557564437-0995702f88fc.jpg
   caption: Kan det passe, at Ude & Hjemmes slankekur er så effektiv?
 language: da
-category:
+categories:
 - Kost & Ernæring
 - Vægttab
 tags:

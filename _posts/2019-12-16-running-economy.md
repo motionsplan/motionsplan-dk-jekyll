@@ -15,7 +15,7 @@ header:
   teaser: /assets/images/unsplash/photo-1552674605-db6ffd4facb5.jpg
   caption: 'Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor.'
   alt: Photo by Fitsum Admasu on Unsplash
-category:
+categories:
 - Løb
 - Løbeværktøjer
 tags:

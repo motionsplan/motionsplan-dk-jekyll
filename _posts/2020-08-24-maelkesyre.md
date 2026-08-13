@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1583173451851-dd9ba01f891e
   teaser: /assets/images/unsplash/photo-1583173451851-dd9ba01f891e.jpg
   caption: 'Mælkesyre: Hvorfor syrer dine muskler til?'
-category:
+categories:
 - Fysiologi
 tags:
 - fysiologi

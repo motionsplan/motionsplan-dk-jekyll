@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/unsplash/photo-1499438075715-fc23ef376ab9.jpg
   credit: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9
   caption: 'Powerprofil i cykling: Hvordan tester du den?'
-category:
+categories:
   - Cykling
 tags:
   - test

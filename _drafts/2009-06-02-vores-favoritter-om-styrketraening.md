@@ -3,7 +3,7 @@ title: "Vores favoritter om styrketræning"
 language: da
 tags:
   - webclips
-category:
+categories:
   - Webclips
 last_modified_at: 2013-02-13T22:21:26Z
 ---

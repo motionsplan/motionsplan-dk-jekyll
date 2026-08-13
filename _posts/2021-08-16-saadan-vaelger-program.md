@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1605296867424-35fc25c9212a
   teaser: /assets/images/unsplash/photo-1605296867424-35fc25c9212a.jpg
   caption: "Sådan vælger du det rette styrketræningsprogram"
-category:
+categories:
   - Styrketræning
 tags:
   - styrketræning

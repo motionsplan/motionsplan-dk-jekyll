@@ -12,7 +12,7 @@ header:
   credit: https://i.ytimg.com/vi/XCOAoVyYLdM/maxresdefault.jpg
   teaser: /assets/images/i.ytimg.com/maxresdefault-3fe01ff2.jpg
   caption: *title
-category:
+categories:
   - Tests
   - Eksplosivitet
   - Hoppetests
@@ -72,7 +72,7 @@ tools:
 Testen er ekstremt populær i skoleidræt og breddeidræt, fordi den er **$100\%$ gratis** og kun kræver tre ting: En bar mur, lidt kridt på fingrene og et målebånd.
 
 <div class="notice--info" markdown="1">
-### 💡 Søger du en anden type hoppetest?
+**💡 Søger du en anden type hoppetest?**
 * **[Jump & Reach Test](/jump-reach/)** – Mål din funktionelle hoppehøjde med et Vertec-apparat eller på en basketballplade (uden at hoppe tæt op ad en mur).
 * **[CMJ & Squat Jump](/countermovement-jump-cmj-squat-jump-sj/)** – Mål din eksplosivitet på hoppemåtte eller kraftplatform.
 * **[Oversigt over alle springtests](/springtests-hoppehoejde/)** – Se det samlede katalog over hoppetests.
@@ -86,7 +86,7 @@ Testen er ekstremt populær i skoleidræt og breddeidræt, fordi den er **$100\%
 
 For at opnå det mest præcise resultat bør du benytte en standardiseret testprotokol (fx Harman et al., 1991):
 
-### De 5 trin i testen:
+### De 5 trin i testen
 
 1. **Gør fingrene klar:** Gnid spidsen af fingrene på din dominerende hånd med kridt, kalk eller blæk.
 2. **Mål rækkehøjden:** Stå helt tæt op ad væggen med flade fødder. Ræk armen så højt op som muligt og sæt et mærke på væggen med kridtet.
@@ -113,11 +113,11 @@ Indtast din stående rækkehøjde og din målte springhøjde på væggen herunde
 
 ## Fordele og ulemper ved Sargent-testen
 
-### Fordele:
+### Fordele
 * **Gratis og tilgængelig:** Kræver ikke dyrt elektronisk udstyr og kan udføres af alle i en gymnastiksal eller på en udendørs mur.
 * **God til fremgangsmåling:** Så længe du følger den samme fremgangsmåde hver gang, er testen glimrende til at spore din egen fremgang over tid.
 
-### Ulemper:
+### Ulemper
 * **Hæmmende væg:** Mange atleter holder lidt igen i afsættet, fordi det føles ubehageligt at hoppe helt tæt op ad en mur.
 * **Unøjagtighed ved kridtmærke:** Hvis mærket sættes lidt for tidligt eller sent i svævefasen, kan resultatet variere med et par centimeter.
 

@@ -7,7 +7,7 @@ header:
   credit: https://images.unsplash.com/photo-1536922246289-88c42f957773
   teaser: /assets/images/unsplash/photo-1536922246289-88c42f957773.jpg
   caption: 'Crossfit workouts: Hvad er Workout of the Day i crossfit?'
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

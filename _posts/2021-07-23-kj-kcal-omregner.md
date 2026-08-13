@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1611077544695-c7942e060c4d
   teaser: /assets/images/unsplash/photo-1611077544695-c7942e060c4d.jpg
   caption: Omregner fra kJ til kcal
-category:
+categories:
   - Beregnere
   - Kalorieberegnere
 tags:

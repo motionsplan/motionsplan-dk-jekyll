@@ -13,7 +13,7 @@ header:
   credit: https://images.unsplash.com/photo-1486739985386-d4fae04ca6f7
   teaser: /assets/images/unsplash/photo-1486739985386-d4fae04ca6f7.jpg
   caption: 'Borg-skala: Hvordan bruger du anstrengelsesskalaen?'
-category:
+categories:
   - Kondition
 tags:
   - konditionstræning

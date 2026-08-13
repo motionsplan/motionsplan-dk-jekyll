@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/cdn.outsideonline.com/slider-discs-workout_h-5b1c0de9.jpg
   credit: https://cdn.outsideonline.com/wp-content/uploads/2021/06/23/slider-discs-workout_h.jpg
   caption: *title
-category:
+categories:
   - Styrketræning
 tags:
   - styrketræning

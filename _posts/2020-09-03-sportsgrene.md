@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1547347298-4074fc3086f0
   teaser: /assets/images/unsplash/photo-1547347298-4074fc3086f0.jpg
   caption: Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓
-category:
+categories:
 - Sportsgrene
 tags:
 - liste

@@ -8,7 +8,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1580058572462-98e2c0e0e2f0.jpg
   caption: 'Gangtræning: Træningsprogrammer til at gå og gang 🚶‍♀️'
-category:
+categories:
   - Træning
   - Gang
 tags:

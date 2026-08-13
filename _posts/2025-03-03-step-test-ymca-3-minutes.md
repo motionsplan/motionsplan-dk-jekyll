@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1448387473223-5c37445527e7.jpg
   credit: https://images.unsplash.com/photo-1448387473223-5c37445527e7
   caption: YMCA’s 3-minutters steptest – Enkel konditionstest
-category:
+categories:
 - Kondition
 - Konditionstests
 - Steptests

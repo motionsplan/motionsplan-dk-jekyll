@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/m.media-amazon.com/61_QaSxNKDL-5e06da22.jpg
   credit: https://m.media-amazon.com/images/I/61+QaSxNKDL.jpg
   caption: *title
-category:
+categories:
   - Tests
   - Eksplosivitet
   - Hoppetests

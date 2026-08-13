@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1583165583064-a281139b07f8.jpg
   credit: https://images.unsplash.com/photo-1583165583064-a281139b07f8
   caption: Kostregistrering – Sådan laver du kalorieregistrering
-category:
+categories:
 - Kost & Ernæring
 tags:
 - ligevægtsindtag

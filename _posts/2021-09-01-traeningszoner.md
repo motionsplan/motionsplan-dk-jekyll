@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1505676731599-081a7a67766a
   teaser: /assets/images/unsplash/photo-1505676731599-081a7a67766a.jpg
   caption: 'Træningszoner: Find din intensitetszoner i træning'
-category:
+categories:
 - Træning
 - Kondition
 tags:

@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1532029837206-abbe2b7620e3
   teaser: /assets/images/unsplash/photo-1532029837206-abbe2b7620e3.jpg
   caption: Hvad er excentrisk, koncentrisk og isometrisk muskelkontraktion og bevægelse?
-category:
+categories:
 - Anatomi
 tags:
 - bevægelsesanalyse

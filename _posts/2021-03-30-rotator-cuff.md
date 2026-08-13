@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/blog/rotatorcuff.jpg
   teaser: /assets/images/blog/rotatorcuff.jpg
   caption: 'Rotator cuffen: Skulderens dybe stabilisatorer'
-category:
+categories:
 - Anatomi
 - Muskler
 tags:

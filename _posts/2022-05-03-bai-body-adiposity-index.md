@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/unsplash/photo-1586170737392-383ba61aca98.jpg
   credit: https://images.unsplash.com/photo-1586170737392-383ba61aca98
   caption: Body Adiposity Index (BAI) Beregner
-category:
+categories:
 - Kropskomposition
 - Fedtprocent
 tags:

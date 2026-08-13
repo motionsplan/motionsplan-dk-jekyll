@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1728454994678-21be5481e249.jpg
   credit: https://images.unsplash.com/photo-1728454994678-21be5481e249
   caption: 'Næseplastre og sport: Hjælper de overhovedet?'
-category:
+categories:
 - Træning
 tags:
 - træning

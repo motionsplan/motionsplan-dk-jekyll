@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/occlude/occlusion-training.jpg
   teaser: /assets/images/occlude/occlusion-training-768.jpg
   caption: *title
-category:
+categories:
   - Styrketræning
 tags:
   - styrketræning

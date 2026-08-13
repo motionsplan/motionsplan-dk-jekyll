@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1534368270820-9de3d8053204
   caption: 'Styrkeløft rekorder: Hvem løfter mest i squat, bænkpres og dødløft?'
   overlay_filter: '0.3'
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

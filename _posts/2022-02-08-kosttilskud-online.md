@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1589854522013-6fba220e52b3.jpg
   credit: https://images.unsplash.com/photo-1589854522013-6fba220e52b3
   caption: Køb kosttilskud online på danske webshops
-category:
+categories:
 - Kost & Ernæring
 - Kosttilskud
 tags:

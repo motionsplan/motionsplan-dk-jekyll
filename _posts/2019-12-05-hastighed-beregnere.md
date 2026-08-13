@@ -15,7 +15,7 @@ header:
   teaser: /assets/images/unsplash/photo-1585218059208-5cfd7659560b.jpg
   credit: https://images.unsplash.com/photo-1585218059208-5cfd7659560b
   caption: 'Hastighedsberegner & Paceberegner'
-category:
+categories:
 - Beregnere
 tags:
 - beregner

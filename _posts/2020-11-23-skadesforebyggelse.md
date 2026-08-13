@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1550259979-ed79b48d2a30.jpg
   caption: 'Skadesforebyggelse: Hvilke øvelser kan forebygge skader?'
 language: da
-category:
+categories:
 - Træning
 - Skader & Skadesforebyggelse
 tags:

@@ -16,7 +16,7 @@ header:
   teaser: /assets/images/unsplash/photo-1582004228576-14e8b1256618.jpg
   credit: https://images.unsplash.com/photo-1582004228576-14e8b1256618
   caption: Beregn dit ligevægtsindtag og daglige energibehov ⚖️
-category:
+categories:
   - Kost & Ernæring
   - Kalorieberegnere
 tags:

@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/unsplash/photo-1523901839036-a3030662f220.jpg
   credit: https://images.unsplash.com/photo-1523901839036-a3030662f220
   caption: Taljemål, livvidde, hoftemål, højdemål og talje-hofte-ratioen.
-category:
+categories:
   - Antropometri
 tags:
   - måling

@@ -11,7 +11,7 @@ sidebar:
   nav: exercises
 toc: true
 classes: wide
-category:
+categories:
   - Styrketræning
 breadcrumbs: true
 feature_row_okklusion:

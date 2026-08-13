@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1579722820903-01d3e776f85e
   caption: 'Akut skadesbehandling: Sådan behandler du akutte sportsskader'
   overlay_filter: '0.3'
-category:
+categories:
 - Skader & Skadesforebyggelse
 tags:
 - skadesbehandling

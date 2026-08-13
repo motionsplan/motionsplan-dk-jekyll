@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1562245376-3f9dae9f0e73.jpg
   credit: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73
   caption: Kulhydratforbrug – Beregn dit behov under træning
-category:
+categories:
 - Kost & Ernæring
 meta:
   name: Beregn kulhydratforbrug ved cykling, løb og idræt

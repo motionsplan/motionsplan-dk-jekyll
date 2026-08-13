@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1728454994678-21be5481e249.jpg
   credit: https://images.unsplash.com/photo-1728454994678-21be5481e249
   caption: Beregn din CdA (aerodynamisk modstand) på cyklen
-category:
+categories:
   - Cykling
 tags:
   - beregner

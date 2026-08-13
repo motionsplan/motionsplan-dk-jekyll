@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1685967836908-7d3b4921a670.jpg
   credit: https://images.unsplash.com/photo-1685967836908-7d3b4921a670
   caption: 'Glykæmisk indeks (GI): Sådan påvirker mad dit blodsukker?'
-category:
+categories:
 - Kost & Ernæring
 tags:
 - kost & ernæring

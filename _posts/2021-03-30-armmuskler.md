@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1598268030450-7a476f602bf6.jpg
   credit: https://images.unsplash.com/photo-1598268030450-7a476f602bf6
   caption: 'Armmuskler: Liste og øvelser til muskler i arme'
-category:
+categories:
 - Anatomi
 - Muskler
 tags:

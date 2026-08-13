@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89
   teaser: /assets/images/unsplash/photo-1623390003553-4fa3f9fceb89.jpg
   caption: Kom godt i gang med trailløb
-category:
+categories:
 - Kondition
 - Løb
 tags:

@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1473580044384-7ba9967e16a0.jpg
   credit: https://images.unsplash.com/photo-1473580044384-7ba9967e16a0
   caption: 'Varmeakklimatisering: Træning og præstation i varmen'
-category:
+categories:
 - Fysiologi
 - Træning
 tags:

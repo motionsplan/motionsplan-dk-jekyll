@@ -7,7 +7,7 @@ header:
   credit: https://images.unsplash.com/photo-1535312273391-a512d4290f43
   teaser: /assets/images/unsplash/photo-1535312273391-a512d4290f43.jpg
   caption: Forbedrer tung styrketræning præstationen ved cykling? 🚴🚴‍♀️
-category:
+categories:
 - Cykling
 - Styrketræning
 tags:

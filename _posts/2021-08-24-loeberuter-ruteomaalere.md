@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1587587448924-b5a1db520d29
   teaser: /assets/images/unsplash/photo-1587587448924-b5a1db520d29.jpg
   caption: 'Ruteopmåler til løberuter: 5 gode alternativer'
-category:
+categories:
 - Løb
 tags:
 - løb

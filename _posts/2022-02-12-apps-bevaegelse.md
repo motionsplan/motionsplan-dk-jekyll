@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/unsplash/photo-1613288092085-eb081fde1509.jpg
   credit: https://images.unsplash.com/photo-1613288092085-eb081fde1509
   caption: Apps til bevægelse med familien og børn
-category:
+categories:
 - Udstyr & Teknologi
 tags:
 - apps

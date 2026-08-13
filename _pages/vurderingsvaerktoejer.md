@@ -25,7 +25,7 @@ header:
       url: "#mentale-tests"
 breadcrumbs: true
 classes: wide
-category:
+categories:
   - Vurderingsværktøjer
   - Psykologi
 last_modified_at: '2026-08-11T23:00:00Z'

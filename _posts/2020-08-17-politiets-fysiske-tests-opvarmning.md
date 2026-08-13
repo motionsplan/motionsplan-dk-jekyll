@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/blog/politiets-fysiske-test.jpeg
   teaser: /assets/images/blog/politiets-fysiske-test.jpeg
   caption: *title
-category:
+categories:
   - Træning
   - Opvarmning
 tags:

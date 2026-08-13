@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3
   teaser: /assets/images/unsplash/photo-1434682772747-f16d3ea162c3.jpg
   caption: 'Hoftens muskler: Liste og øvelser til musklerne i hoften'
-category:
+categories:
 - Anatomi
 - Muskler
 tags:

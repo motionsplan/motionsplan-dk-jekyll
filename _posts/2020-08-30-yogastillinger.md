@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1544367567-0f2fcb009e0b
   teaser: /assets/images/unsplash/photo-1544367567-0f2fcb009e0b.jpg
   caption: 'Yogaøvelser: Yogastillinger og øvelser til yoga 🧘‍♂️'
-category:
+categories:
 - Yoga
 tags:
 - træningsøvelser

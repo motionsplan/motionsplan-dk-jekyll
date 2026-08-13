@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1655161920099-86c24c59f1bf.jpg
   credit: https://images.unsplash.com/photo-1655161920099-86c24c59f1bf
   caption: 'Discgolf handicap: Hvordan fungerer rating?'
-category:
+categories:
 - Sportsgrene
 - Discgolf
 tags:

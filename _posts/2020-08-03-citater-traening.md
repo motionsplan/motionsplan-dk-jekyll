@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1487088678257-3a541e6e3922
   teaser: /assets/images/unsplash/photo-1487088678257-3a541e6e3922.jpg
   caption: Træningscitater om løb, træning, styrketræning og motivation
-category:
+categories:
 - Inspiration
 tags:
 - citater

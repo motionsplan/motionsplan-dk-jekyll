@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1626851528990-fee2c2e6fadb.jpg
   credit: https://images.unsplash.com/photo-1626851528990-fee2c2e6fadb
   caption: 'Iltmætningsprocent: Hvad er din iltmætning i blodet?'
-category:
+categories:
   - Fysiologi
 tags:
   - træning

@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1600841909485-03146c24b014.jpg
   credit: https://images.unsplash.com/photo-1600841909485-03146c24b014
   caption: Hvordan finder jeg billigt protein?
-category:
+categories:
 - Kost & Ernæring
 - Kosttilskud
 tags:

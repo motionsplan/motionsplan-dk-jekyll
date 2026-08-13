@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1434682881908-b43d0467b798
   teaser: /assets/images/unsplash/photo-1434682881908-b43d0467b798.jpg
   caption: Er der forskel på mænd og kvinders muskler?
-category:
+categories:
 - Fysiologi
 tags:
 - fysiologi

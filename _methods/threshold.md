@@ -8,7 +8,8 @@ header:
 tags:
   - conditioning
   - aerob træning
-category: Kondition
+categories:
+  - Kondition
 rpe: 8-9
 intensity: HR ± 5 slag ift. ANT
 time: 5-10 min arbejdsperiode x 2-5 reps

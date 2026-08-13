@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1531353826977-0941b4779a1c
   teaser: /assets/images/unsplash/photo-1531353826977-0941b4779a1c.jpg
   caption: 'Søvnhygiejne: 7 tips til at optimere din søvn'
-category:
+categories:
   - Restitution
   - Søvn
 tags:

@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1555412568-12659dc76380
   teaser: /assets/images/unsplash/photo-1555412568-12659dc76380.jpg
   caption: 'Vægttab og løb: Beregn effekten af et vægttab på løbetid'
-category:
+categories:
 - Løb
 - Løbeberegnere
 tags:

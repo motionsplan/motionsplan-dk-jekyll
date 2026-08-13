@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1589829545856-d10d557cf95f
   caption: Beregn idealvægt for mænd og kvinder i vores enkle beregner
   overlay_filter: '0.1'
-category:
+categories:
 - Kropskomposition
 tags:
 - beregner

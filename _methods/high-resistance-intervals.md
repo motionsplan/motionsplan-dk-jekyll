@@ -6,7 +6,8 @@ excerpt: "High Resistance Intervals (HRI) er intervaller med høj modstand udfø
 tags:
   - conditioning
   - anaerob træning
-category: Kondition
+categories:
+  - Kondition
 header:
   teaser: /assets/images/kondition/high-resistance-intervals.jpg
 rpe: 6-7

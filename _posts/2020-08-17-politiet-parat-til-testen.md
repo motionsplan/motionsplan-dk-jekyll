@@ -13,7 +13,7 @@ header:
   actions:
     - label: "<i class='fas fa-download'></i> Se træningsprogrammer"
       url: "#programs"
-category:
+categories:
   - Træningsprogrammer
 tags:
   - optagelsesprøve

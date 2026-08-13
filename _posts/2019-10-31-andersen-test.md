@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1582948818273-b8fdb032a863
   teaser: /assets/images/unsplash/photo-1582948818273-b8fdb032a863.jpg
   caption: 'Andersen Test: Beregn kondital for børn og unge'
-category:
+categories:
 - Kondition
 - Konditionstests
 meta:

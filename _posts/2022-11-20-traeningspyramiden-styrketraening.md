@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1574680096145-d05b474e2155.jpg
   credit: https://images.unsplash.com/photo-1574680096145-d05b474e2155
   caption: 'Træningspyramiden: 6 vigtige trin i muskel- og styrketræning'
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

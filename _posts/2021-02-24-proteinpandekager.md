@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/unsplash/photo-1590137865482-78d25881f498.jpg
   teaser: /assets/images/unsplash/photo-1590137865482-78d25881f498.jpg
   caption: Proteinpandekager uden banan - med og uden proteinpulver 🥞
-category:
+categories:
   - Kost & Ernæring
   - Opskrifter
 tags:

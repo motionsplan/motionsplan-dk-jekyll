@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1603102859961-64b17d43580d
   teaser: /assets/images/unsplash/photo-1603102859961-64b17d43580d.jpg
   caption: Hvad er den gennemsnitlige skridtlængde og løbekadence ved løb?
-category:
+categories:
 - Løb
 tags:
 - løb

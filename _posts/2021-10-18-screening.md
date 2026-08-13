@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/images.unsplash.com/bag-and-hands-1c45a6a3.jpg
   credit: https://images.unsplash.com/1/bag-and-hands.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
-category:
+categories:
   - Træning
   - Træningsplanlægning
 tags:

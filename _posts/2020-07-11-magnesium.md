@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1573883430697-4c3479aae6b9.jpg
   caption: 'Magnesium: Har du brug for et tilskud?'
   overlay_filter: '0.4'
-category:
+categories:
 - Kost & Ernæring
 - Kosttilskud
 tags:

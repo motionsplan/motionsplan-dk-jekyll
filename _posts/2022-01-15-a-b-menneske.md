@@ -10,7 +10,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1585577529540-a8095ea25427.jpg
   credit: https://images.unsplash.com/photo-1585577529540-a8095ea25427
-category:
+categories:
   - Restitution
   - Søvn
 tags:

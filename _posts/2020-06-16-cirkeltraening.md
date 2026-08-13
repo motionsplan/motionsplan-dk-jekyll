@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1544216717-3bbf52512659.jpg
   overlay_filter: '0.4'
   caption: 'Cirkeltræning: Effektiv træning - Øvelser og variationer'
-category:
+categories:
 - Træning
 tags:
 - kondition

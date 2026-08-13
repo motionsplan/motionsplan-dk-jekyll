@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/i.ytimg.com/maxresdefault-3417227e.jpg
   credit: https://i.ytimg.com/vi/jQ_Qtu9qSLU/maxresdefault.jpg
   caption: *title
-category:
+categories:
   - Kondition
   - Konditionstests
 # TESTS / PROTOKOLLER

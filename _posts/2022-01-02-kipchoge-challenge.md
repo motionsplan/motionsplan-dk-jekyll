@@ -6,7 +6,7 @@ language: da
 header:
   teaser: /assets/images/i.ytimg.com/hqdefault-af233607.jpg
   credit: https://i.ytimg.com/vi/MoxFkJlVZlA/hqdefault.jpg
-category:
+categories:
   - Løb
 tags:
   - intervaltræning

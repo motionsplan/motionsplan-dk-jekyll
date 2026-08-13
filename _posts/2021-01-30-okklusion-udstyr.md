@@ -10,7 +10,7 @@ header:
   caption: *title
 classes:
   - wide
-category:
+categories:
   - Styrketræning
 tags:
   - styrketræning

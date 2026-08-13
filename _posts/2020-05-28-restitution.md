@@ -13,7 +13,7 @@ header:
   teaser: /assets/images/unsplash/photo-1470777639313-60af88918203.jpg
   caption: 'Restitution: Komplet guide til optimering'
   alt: Photo by Cris Saur on Unsplash
-category:
+categories:
 - Restitution
 tags:
 - restitution

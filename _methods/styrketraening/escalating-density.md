@@ -5,7 +5,7 @@ permalink: /styrketraening/escalating-density/
 header:
   teaser: /assets/images/hypertrofi/stigende-densitet.jpg
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "Inden for hver træningsblok er målet at udføre så mange sæt med en given vægt som overhovedet muligt. Som udgangspunkt skal du starte med en vægt, der svarer til den maksimale vægt, du kan løfte 10-12 gange."
 tags:

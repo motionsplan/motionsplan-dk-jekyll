@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1602853186862-723dee51784c
   teaser: /assets/images/unsplash/photo-1602853186862-723dee51784c.jpg
   caption: Mælkesyretærskeltræning – Bliv bedre til at løbe hurtigt i længere tid
-category:
+categories:
 - Løb
 - Løbeprogrammer
 tags:

@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1618355281342-d7d7569ab0f8.jpg
   credit: https://images.unsplash.com/photo-1618355281342-d7d7569ab0f8
   caption: Upper/Lower split i Training for Warriors
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

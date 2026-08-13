@@ -4,7 +4,7 @@ permalink: /body-shape/
 language: da
 header:
   teaser: https://cdn.shopify.com/s/files/1/0353/2678/7628/files/urn_aaid_sc_US_4464b1bf-4b7e-4373-afec-49273d6331a9.png?v=1603613823
-category:
+categories:
   - Optimer træning
 tags:
   - træning

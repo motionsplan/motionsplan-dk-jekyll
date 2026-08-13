@@ -14,7 +14,7 @@ header:
   overlay_image: /assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg
   teaser: /assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg
   caption: 'Pulszoneberegner: Find dine personlige træningszoner 🫀'
-category:
+categories:
 - Kondition
 - Pulstræning
 tags:

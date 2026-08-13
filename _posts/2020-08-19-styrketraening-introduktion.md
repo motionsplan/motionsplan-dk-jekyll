@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1738523686890-f18afd66509c
   teaser: /assets/images/unsplash/photo-1738523686890-f18afd66509c.jpg
   caption: Introduktion til styrketræning - Forstå alle begreberne
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

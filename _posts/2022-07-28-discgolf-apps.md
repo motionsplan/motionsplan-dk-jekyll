@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1655161910681-1f94317056fe.jpg
   credit: https://images.unsplash.com/photo-1655161910681-1f94317056fe
   caption: 5 bedste discgolf apps i 2025 (til at forbedre dit spil)
-category:
+categories:
 - Sportsgrene
 - Discgolf
 tags:

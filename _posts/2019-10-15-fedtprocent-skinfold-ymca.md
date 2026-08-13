@@ -5,7 +5,7 @@ excerpt: "YMCA-metoden er baseret på Jackson & Pollocks formler, men specielt t
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
-category:
+categories:
   - Kropskomposition
   - Fedtprocent
   - Hudfoldsmåling

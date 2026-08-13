@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/unsplash/photo-1642519068837-b75f17ed65d5.jpg
   credit: https://images.unsplash.com/photo-1642519068837-b75f17ed65d5
   caption: 'Muskeltræning: Muskeludholdenhed og muskelstyrketræning'
-category:
+categories:
 - Træning
 - Styrketræning
 tags:

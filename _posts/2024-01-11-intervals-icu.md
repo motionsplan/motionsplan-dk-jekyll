@@ -8,7 +8,7 @@ language: da
 header:
   teaser: https://images.unsplash.com/photo-1549311986-87f53aece52e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
-category:
+categories:
   - Træning
 tags:
   - kondition

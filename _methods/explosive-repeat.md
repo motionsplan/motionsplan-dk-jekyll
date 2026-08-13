@@ -5,7 +5,8 @@ permalink: /metode/explosive-repeat/
 excerpt: "Explosive repeats er 8-10 sekunders arbejde med høj eksplosivitet og 60 sekunders pause. 1-3 øvelser med 6-10 sæt/øvelse. Explosive repeats er en metode til at udvikle eksplosiv udholdenhed i de hurtige _fast twitch_-muskelfibre."
 tags:
   - conditioning
-category: Kondition
+categories:
+  - Kondition
 header:
   teaser: /assets/images/kondition/explosive-repeat.jpg
 effect: "Forbedrer de hurtige muskelfibres aerobe egenskaber og evnen til gentagende gange at få et højt power output. Metoden forbedrer også raten af genbrug af laktat i de langsomme slow twitch muskler."

@@ -21,7 +21,7 @@ header:
   caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd, kvinder og børn?
 last_modified_at: '2026-07-25T16:50:00+02:00'
 toc: 'true'
-category:
+categories:
 - Kondition
 tags:
 - kondition

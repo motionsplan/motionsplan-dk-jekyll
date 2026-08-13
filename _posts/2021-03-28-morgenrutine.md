@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1489533119213-66a5cd877091.jpg
   caption: En god morgenrutine kan hjælpe dig med mere overskud
 language: da
-category:
+categories:
 - Restitution
 tags:
 - forberedelse

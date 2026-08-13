@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1466761366829-84fd59a22e0b.jpg
   credit: https://images.unsplash.com/photo-1466761366829-84fd59a22e0b
   caption: ️Varmehåndtering på løb
-category:
+categories:
 - Fysiologi
 tags:
 - interaktiv artikel

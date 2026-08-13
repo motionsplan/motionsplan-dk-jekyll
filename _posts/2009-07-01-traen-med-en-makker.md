@@ -15,7 +15,7 @@ tags:
   - makkerøvelser
   - træning
   - funktionel træning
-category:
+categories:
   - Styrketræning
 last_modified_at: '2026-07-31T00:00:00Z'
 toc: true

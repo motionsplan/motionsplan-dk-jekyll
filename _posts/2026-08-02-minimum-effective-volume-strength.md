@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1534438327276-14e5300c3a48
   teaser: /assets/images/unsplash/photo-1534438327276-14e5300c3a48.jpg
   caption: Forstå træningsvolumen og MEV
-category:
+categories:
 - Styrketræning
 tags:
 - træningsplanlægning

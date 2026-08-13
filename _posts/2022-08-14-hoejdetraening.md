@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1549311986-87f53aece52e.jpg
   credit: https://images.unsplash.com/photo-1549311986-87f53aece52e
   caption: 'Højdetræning: Hvordan virker det at træne i højderne?'
-category:
+categories:
 - Fysiologi
 - Træning
 tags:

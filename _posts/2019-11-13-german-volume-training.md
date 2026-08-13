@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa
   teaser: /assets/images/unsplash/photo-1534367610401-9f5ed68180aa.jpg
   caption: 'German Volume Training: Virker GVT til hypertrofi?'
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

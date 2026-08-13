@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1509010636466-2292663e132f.jpg
   credit: https://images.unsplash.com/photo-1509010636466-2292663e132f
   caption: Løbetid, alder og vægt - Flyer Handicap Beregner
-category:
+categories:
   - Løb
 tags:
   - værktøj

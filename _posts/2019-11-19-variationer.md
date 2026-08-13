@@ -6,7 +6,7 @@ language: da
 header:
   overlay_image: https://c.pxhere.com/photos/e3/ed/dumbbells_training_silver_sports_force_mussels_body_building-600719.jpg!d
   teaser: https://c.pxhere.com/photos/e3/ed/dumbbells_training_silver_sports_force_mussels_body_building-600719.jpg!d
-category:
+categories:
   - Styrketræning
 tags:
   - variationer

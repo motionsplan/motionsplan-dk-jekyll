@@ -21,7 +21,7 @@ header:
     url: '#sheet'
     rel: nofollow noopener
   overlay_filter: '0.3'
-category:
+categories:
 - Styrketræning
 tags:
 - beregner

@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1489659831163-682b5af42225.jpg
   credit: https://images.unsplash.com/photo-1489659831163-682b5af42225
   caption: ️Fysiologien bag temperaturregulering af menneskekroppen
-category:
+categories:
 - Fysiologi
 tags:
 - interaktiv artikel

@@ -28,7 +28,7 @@ header:
   credit: https://images.unsplash.com/photo-1526409499567-9f0af1fcb6d1
   caption: 'Udstyr til styrketræning: Begynderguide til det rigtige styrketræningsudstyr'
 language: da
-category:
+categories:
 - Styrketræning
 tags:
 - træningsudstyr

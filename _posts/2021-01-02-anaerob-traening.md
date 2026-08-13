@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1553593155-9e0dc045405c
   teaser: /assets/images/unsplash/photo-1553593155-9e0dc045405c.jpg
   caption: 'Anaerob træning: Øvelser og træningsprogram 🏃'
-category:
+categories:
 - Kondition
 tags:
 - anaerob træning

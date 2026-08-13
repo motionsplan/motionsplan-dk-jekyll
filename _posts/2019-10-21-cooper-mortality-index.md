@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1551104083-c046edeed47e
   teaser: /assets/images/unsplash/photo-1551104083-c046edeed47e.jpg
   caption: Mænd, beregn sandsynlighed for at dø af livsstilssygdomme
-category:
+categories:
 - Sundhed
 tags:
 - vurderingsværktøj

@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/unsplash/photo-1519156062512-8e563047dc6f.jpg
   credit: https://images.unsplash.com/photo-1519156062512-8e563047dc6f
   caption: Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?
-category:
+categories:
 - Fysiologi
 tags:
 - fysiologi

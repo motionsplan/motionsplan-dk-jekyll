@@ -10,7 +10,7 @@ header:
   caption: 'Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓'
   alt: Photo by Jude Beck on Unsplash
   overlay_filter: '0.2'
-category:
+categories:
 - Fysiologi
 tags:
 - test

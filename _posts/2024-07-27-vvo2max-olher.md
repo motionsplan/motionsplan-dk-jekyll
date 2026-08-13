@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1600679472183-07cc4f68b140.jpg
   credit: https://images.unsplash.com/photo-1600679472183-07cc4f68b140
   caption: "Submaksimal 6 min test til at finde hastigheden ved VO2max"
-category:
+categories:
   - Kondition
 tags:
   - test

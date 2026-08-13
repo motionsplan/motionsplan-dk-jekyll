@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1612032636260-70ff387b0d5a
   overlay_filter: '0.4'
   caption: 'Intervaltræning: Effektive metoder til intervaltræning'
-category:
+categories:
 - Kondition
 tags:
 - intervaltræning

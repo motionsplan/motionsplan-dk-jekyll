@@ -15,7 +15,7 @@ header:
   alt: "Atlet klar til start"
 breadcrumbs: true
 classes: wide
-category:
+categories:
   - Vurderingsværktøjer
   - Psykologi
   - Sportspsykologi

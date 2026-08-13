@@ -13,7 +13,7 @@ tags:
 - fedtforbrænding
 - vægttab
 - løb
-category:
+categories:
 - Kondition
 - Løb
 last_modified_at: '2020-06-07T08:34:44Z'

@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/unsplash/photo-1528310911867-ffae9984b3e6.jpg
   caption: 'Restitution og alder: Hvad betyder alderen for kroppens genopbygning?'
   alt: Photo by Cris Saur on Unsplash
-category:
+categories:
 - Restitution
 tags:
 - restitution

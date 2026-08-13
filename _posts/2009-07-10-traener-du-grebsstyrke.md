@@ -11,7 +11,7 @@ header:
   caption: 'Grebsstyrke: 4 øvelser til et stærkere greb?'
 tags:
 - grebsstyrke
-category:
+categories:
 - Styrketræning
 last_modified_at: '2020-05-07T11:25:36Z'
 ---

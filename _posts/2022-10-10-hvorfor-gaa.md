@@ -49,7 +49,7 @@ feature_row_skridt_til_km:
   btn_class: btn--info
 sidebar:
   nav: trainingtypes
-category:
+categories:
 - Træning
 - Gang
 tag:

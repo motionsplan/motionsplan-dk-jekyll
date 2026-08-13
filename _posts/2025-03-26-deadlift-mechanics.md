@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1623946724822-ba48a838f3da.jpg
   credit: https://images.unsplash.com/photo-1623946724822-ba48a838f3da
   caption: 'Dødløftmekanik: En model for kraft, moment og bevægelse'
-category:
+categories:
 - Styrketræning
 tags:
 - værktøj

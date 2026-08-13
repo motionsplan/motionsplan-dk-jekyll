@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1546817372-628669db4655.jpg
   credit: https://images.unsplash.com/photo-1546817372-628669db4655
   caption: 'GZCLP: Et effektivt styrketræningsprogram for begyndere'
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

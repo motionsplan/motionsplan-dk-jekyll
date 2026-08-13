@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1511593358241-7eea1f3c84e5.jpg
   caption: Udregn hvor meget vand du har i kroppen med vores beregner? 🚰
   alt: Photo by Jong Marshes on Unsplash
-category:
+categories:
 - Fysiologi
 tags:
 - beregner

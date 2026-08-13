@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1655161920449-cd10d9391f44.jpg
   credit: https://images.unsplash.com/photo-1655161920449-cd10d9391f44
   caption: 'Disc golf butikker: Køb discs online'
-category:
+categories:
 - Sportsgrene
 - Discgolf
 tags:

@@ -13,7 +13,7 @@ header:
   credit: https://images.unsplash.com/photo-1486829060564-50dae90dccd4
   teaser: /assets/images/unsplash/photo-1486829060564-50dae90dccd4.jpg
   caption: Riegels formel til beregning af konkurrencetider og løbetider
-category:
+categories:
 - Løb
 - Løbeberegnere
 tags:

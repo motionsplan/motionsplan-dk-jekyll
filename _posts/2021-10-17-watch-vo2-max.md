@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1531140035644-4ce1e6e1b85f
   teaser: /assets/images/unsplash/photo-1531140035644-4ce1e6e1b85f.jpg
   caption: Kan dit ur estimere dit VO2-max?
-category:
+categories:
 - Kondition
 tags:
 - konditionstræning

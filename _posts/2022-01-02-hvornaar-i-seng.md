@@ -11,7 +11,7 @@ header:
   caption: 'Hvornår skal jeg gå i seng for at sove?'
   overlay_image: /assets/images/unsplash/photo-1618517047922-d18a5a36c109.jpg
   overlay_filter: "0.3"
-category:
+categories:
   - Restitution
   - Søvn
 tags:

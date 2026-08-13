@@ -7,7 +7,7 @@ excerpt: "Komplet overblik over træningsprogrammer. Find et gratis træningspro
 description: "Find det perfekte træningsprogram til dine mål. Udforsk vores gratis træningsprogrammer til styrketræning, løb, gang og lær at opbygge dit eget program."
 comments: false
 toc: true
-category:
+categories:
   - Træning
 tags:
   - træningsprogram

@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Billat 30-30 Intervaller"
-category: Kondition
+categories:
+  - Kondition
 subcategory: vVO2max
 permalink: /kondition/billat-intervaller/
 has_full_article: /billat-vvovmax-tlimvo2max/

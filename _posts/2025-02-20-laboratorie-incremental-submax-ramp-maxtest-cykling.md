@@ -8,7 +8,7 @@ language: da
 header:
   teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
   caption: *title
-category:
+categories:
   - Kondition
   - Konditiontests
 meta:

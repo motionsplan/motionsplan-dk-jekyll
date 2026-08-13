@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1544021601-3e5723f9d333
   teaser: /assets/images/unsplash/photo-1544021601-3e5723f9d333.jpg
   caption: Træningslære – Grundprincipperne bag effektiv styrketræning
-category:
+categories:
 - Styrketræning
 tags:
 - programlægning

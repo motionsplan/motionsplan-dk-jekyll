@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1630408511347-7ac715eb708b.jpg
   credit: https://images.unsplash.com/photo-1630408511347-7ac715eb708b
   caption: Træningsprogram til politiets fysiske test i fitnesscenter
-category:
+categories:
 - Træning
 - Træningsprogrammer
 tags:

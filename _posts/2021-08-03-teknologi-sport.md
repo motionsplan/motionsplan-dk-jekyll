@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1516487200032-8532cb603261
   teaser: /assets/images/unsplash/photo-1516487200032-8532cb603261.jpg
   caption: 'Teknologi og sport: Revolution i sportsudstyr'
-category:
+categories:
   - Inspiration
 tags:
   - udstyr

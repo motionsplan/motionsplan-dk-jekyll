@@ -16,7 +16,7 @@ header:
 tags:
 - restitution
 - kuldebehandling
-category:
+categories:
 - Restitution
 last_modified_at: '2023-10-14T20:39:39Z'
 ---

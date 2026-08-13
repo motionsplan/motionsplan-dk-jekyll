@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/unsplash/photo-1631899539565-1fd2dd5af4a0.jpg
   credit: https://images.unsplash.com/photo-1631899539565-1fd2dd5af4a0
   caption: Hvordan finder du din rFTPw til løb med 3-9 test?
-category:
+categories:
   - Løb
 tags:
   - træning

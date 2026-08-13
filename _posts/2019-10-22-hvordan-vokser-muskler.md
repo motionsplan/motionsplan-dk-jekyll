@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1591267802076-da29ebeb3037
   teaser: /assets/images/unsplash/photo-1591267802076-da29ebeb3037.jpg
   caption: Hvad får muskler til at vokse, og hvordan skal man træne? 💪
-category:
+categories:
 - Styrketræning
 tags:
 - hypertrofi

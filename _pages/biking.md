@@ -20,7 +20,7 @@ sidebar:
   nav: trainingtypes
 toc: 'true'
 classes: wide
-category:
+categories:
 - Træning
 tags:
 - træningsformer

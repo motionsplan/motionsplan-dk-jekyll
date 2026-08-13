@@ -12,7 +12,7 @@ header:
   credit: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
   teaser: /assets/images/cdn-dk-mk-me.clio.me/HVad_er_sundhed-9bd57401.jpg
   caption: *title
-category:
+categories:
   - Tests
 tags:
   - sundhed

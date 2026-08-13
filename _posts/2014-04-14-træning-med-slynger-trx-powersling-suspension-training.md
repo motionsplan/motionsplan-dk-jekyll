@@ -13,7 +13,7 @@ tags:
 - trx
 - udstyr
 - hjemmetræning
-category:
+categories:
 - Styrketræning
 last_modified_at: '2019-03-06T23:00:18Z'
 ---

@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1535958636474-b021ee887b13.jpg
   caption: Kalorier i alkohol, vin, øl og spiritus 🍺🍷
 classes: wide
-category:
+categories:
   - Kost & Ernæring
 tags:
   - fødevarer

@@ -16,7 +16,7 @@ tags:
 - træningsøvelse
 - træning
 - moc
-category:
+categories:
 - Styrketræning
 last_modified_at: '2023-01-01T08:39:32Z'
 sidebar:

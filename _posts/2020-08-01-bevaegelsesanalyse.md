@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a
   teaser: /assets/images/unsplash/photo-1540206063137-4a88ca974d1a.jpg
   caption: Sådan laver du en bevægelsesanalyse som fitnessinstruktør
-category:
+categories:
 - Anatomi
 tags:
 - træning

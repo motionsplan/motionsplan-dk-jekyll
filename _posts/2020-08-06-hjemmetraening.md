@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1514512364185-4c2b0985be01
   teaser: /assets/images/unsplash/photo-1514512364185-4c2b0985be01.jpg
   caption: 'Hjemmetræning: Øvelser og træningsprogram til træning hjemme'
-category:
+categories:
 - Træning
 tags:
 - hjemmetræning

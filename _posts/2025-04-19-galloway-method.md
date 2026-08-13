@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1594911772125-07fc7a2d8d9f.jpg
   credit: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f
   caption: 'Galloway-metoden: The Golden Mile og Run-Walk-Run'
-category:
+categories:
   - Løb
   - Løbeprogrammer
 tags:

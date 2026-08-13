@@ -7,7 +7,7 @@ header:
   credit: https://images.unsplash.com/photo-1526405294019-7f3f7c8c7867
   teaser: /assets/images/unsplash/photo-1526405294019-7f3f7c8c7867.jpg
   caption: 3-split træningsprogram - træk/pres/ben (PPL)
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

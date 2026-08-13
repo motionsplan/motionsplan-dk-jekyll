@@ -14,7 +14,7 @@ header:
 author_profile: 'true'
 author: lsolesen
 toc: 'true'
-category:
+categories:
 - Styrketræning
 breadcrumbs: 'true'
 feature_row_strength:

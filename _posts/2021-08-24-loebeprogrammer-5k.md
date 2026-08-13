@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1610969544920-47371c6d0d17
   teaser: /assets/images/unsplash/photo-1610969544920-47371c6d0d17.jpg
   caption: Løbeprogram til 5 km
-category:
+categories:
   - Løb
   - Løbeprogrammer
 tags:

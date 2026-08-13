@@ -2,7 +2,8 @@
 layout: single
 title: "Udholdenhed"
 permalink: /metode/udholdenhed/
-category: Kondition
+categories:
+  - Kondition
 redirect_from:
   - /metode/cool-down/
   - /metode/dynamic-warmup/

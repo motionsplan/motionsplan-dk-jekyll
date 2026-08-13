@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1497888329096-51c27beff665.jpg
   credit: https://images.unsplash.com/photo-1497888329096-51c27beff665
   caption: 'Kostpyramiden: 4 trin for din kost til resultater i styrketræning'
-category:
+categories:
 - Kost & Ernæring
 tags:
 - kost & ernæring

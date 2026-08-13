@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1509440159596-0249088772ff
   teaser: /assets/images/unsplash/photo-1509440159596-0249088772ff.jpg
   caption: 'Kalorietabel for brød: Tabel med kalorier i brød 🍞'
-category:
+categories:
   - Kost & Ernæring
 tags:
   - fødevarer

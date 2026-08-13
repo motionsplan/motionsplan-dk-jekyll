@@ -16,7 +16,7 @@ header:
   actions:
     - label: <i class='fas fa-calculator'></i> Vælg beregner →
       url: '#valg-af-metode'
-category:
+categories:
   - Kropskomposition
   - Fedtprocent
 tags:

@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1608138278545-366680accc66
   teaser: /assets/images/unsplash/photo-1608138278545-366680accc66.jpg
   caption: Opvarmning før træning og sport
-category:
+categories:
 - Træning
 tags:
 - opvarmning

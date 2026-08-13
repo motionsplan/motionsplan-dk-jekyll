@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/runningwritings.com/renato-canova-in-kenya-415f61b6.jpg
   credit: https://runningwritings.com/wp-content/uploads/2011/07/renato-canova-in-kenya.jpg
   caption: *title
-category:
+categories:
   - Løb
 tags:
   - træning

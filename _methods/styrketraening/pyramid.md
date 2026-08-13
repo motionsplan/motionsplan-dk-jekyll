@@ -6,7 +6,7 @@ permalink: /styrketraening/pyramide/
 header:
   teaser: /assets/images/hypertrofi/pyramide-styrketraening.jpg
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "Pyramide træning – en klassisk måde at strukturere sine sæt på. Princippet dikterer at man starter med lette vægte og høje reps, og bygger op til tunge vægte og lave reps, hvorefter man kører samme vej tilbage."
 tags:

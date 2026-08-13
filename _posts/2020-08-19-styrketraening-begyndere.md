@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1738523686534-7055df5858d6
   teaser: /assets/images/unsplash/photo-1738523686534-7055df5858d6.jpg
   caption: Styrketræning for begyndere – sådan starter du
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1540474211005-7c8a448f69e6
   teaser: /assets/images/unsplash/photo-1540474211005-7c8a448f69e6.jpg
   caption: Dogmefitness forslag til udendørs træning
-category:
+categories:
 - Træning
 tags:
 - styrketræning

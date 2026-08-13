@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1602853186862-723dee51784c.jpg
   credit: https://images.unsplash.com/photo-1602853186862-723dee51784c
   caption: 'Løb og wattmåling: Hvordan bruger du running power?'
-category:
+categories:
   - Løb
 tags:
   - træning

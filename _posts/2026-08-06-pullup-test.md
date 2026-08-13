@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/unsplash/photo-1598971457999-ca4ef48a9a71.jpg
   teaser: /assets/images/unsplash/photo-1598971457999-ca4ef48a9a71.jpg
   caption: Test din overkropsstyrke med kropshævninger
-category:
+categories:
   - Styrketræning
   - Styrketests
 tags:

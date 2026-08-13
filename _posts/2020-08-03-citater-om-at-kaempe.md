@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1487088678257-3a541e6e3922.jpg
   caption: 17 citater om at kæmpe med sig selv, sygdom og kærlighed
   overlay_filter: '0.8'
-category:
+categories:
 - Styrketræning
 tags:
 - citater

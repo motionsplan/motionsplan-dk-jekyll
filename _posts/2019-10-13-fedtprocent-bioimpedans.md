@@ -15,7 +15,7 @@ header:
   alt: Photo by Yannis Papanastasopoulos on Unsplash
   caption: 'Bioimpedansmåling (BIA): Teknologi og præcision'
   teaser: /assets/images/unsplash/photo-1501525547-7b008cf72da5.jpg
-category:
+categories:
 - Kropskomposition
 - Fedtprocent
 breadcrumbs: 'true'

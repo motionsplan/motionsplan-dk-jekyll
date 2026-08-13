@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1583454110551-21f2fa2afe61
   teaser: /assets/images/unsplash/photo-1583454110551-21f2fa2afe61.jpg
   caption: George Turners 10x10 Træningsprogram
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

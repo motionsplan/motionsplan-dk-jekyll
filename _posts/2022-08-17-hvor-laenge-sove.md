@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1549675584-c22bde15df72.jpg
   credit: https://images.unsplash.com/photo-1549675584-c22bde15df72
   caption: Hvor meget søvn har vi brug for?
-category:
+categories:
   - Restitution
   - Søvn
 tags:

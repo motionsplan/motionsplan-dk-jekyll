@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1695918425283-eb385c012b7a
   teaser: /assets/images/unsplash/photo-1695918425283-eb385c012b7a.jpg
   caption: Sprinttræning for løbere – Øg din topfart og eksplosivitet
-category:
+categories:
 - Løb
 - Løbeprogrammer
 tags:

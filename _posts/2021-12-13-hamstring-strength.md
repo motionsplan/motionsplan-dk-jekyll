@@ -5,7 +5,7 @@ permalink: /nordic-hamstring-breakpoint/
 language: da
 header:
   teaser: /assets/images/exercises/nordic-hamstring-0-320.jpg
-category:
+categories:
   - Tests
   - Styrketræning
 tags:

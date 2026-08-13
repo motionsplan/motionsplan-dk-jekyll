@@ -13,7 +13,7 @@ header:
   teaser: /assets/images/unsplash/photo-1586205208101-b9da5ef6120d.jpg
   caption: Hvordan laver man et styrketræningsprogram? 6 enkle trin!
 language: da
-category:
+categories:
 - Styrketræning
 tags:
 - programlægning

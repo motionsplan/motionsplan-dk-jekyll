@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1641625997768-c59943f7e10e.jpg
   credit: https://images.unsplash.com/photo-1641625997768-c59943f7e10e
   caption: 'Muskelvækst: Ultimativ guide til opbygning af muskelmasse'
-category:
+categories:
 - Styrketræning
 tags:
 - træning

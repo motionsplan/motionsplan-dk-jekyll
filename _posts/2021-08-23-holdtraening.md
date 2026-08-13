@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/unsplash/photo-1518310383802-640c2de311b2.jpg
   teaser: /assets/images/unsplash/photo-1518310383802-640c2de311b2.jpg
   caption: 'Holdtræning: Guide til holdtyper, fordele og faldgruber'
-category:
+categories:
   - Træning
 tags:
   - holdtræning

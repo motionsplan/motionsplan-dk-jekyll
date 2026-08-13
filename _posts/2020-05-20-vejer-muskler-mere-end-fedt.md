@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/unsplash/photo-1551651056-2cb4d5c104be.jpg
   credit: https://images.unsplash.com/photo-1551651056-2cb4d5c104be
   caption: Vejer muskler mere end fedt?
-category:
+categories:
 - Anatomi
 tags:
 - muskler

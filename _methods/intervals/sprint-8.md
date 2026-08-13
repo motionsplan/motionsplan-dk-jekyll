@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Sprint 8 / HIIT"
-category: Kondition
+categories:
+  - Kondition
 subcategory: Anaerob Power
 permalink: /kondition/sprint-8/
 has_full_article: /artikel/sprint-8-intervaltraening-der-virker/

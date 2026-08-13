@@ -11,7 +11,7 @@ language: da
 header:
   teaser: /assets/images/blog/vo2-max-test-running.webp
   caption: Foto fra KORR Medical Technologies
-category:
+categories:
 - Kondition
 - Konditionstests
 meta:

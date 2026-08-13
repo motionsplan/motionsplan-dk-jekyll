@@ -8,7 +8,7 @@ excerpt: "Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en 
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-fedttang.jpg
-category:
+categories:
   - Tests
   - Fedtprocent
 meta:

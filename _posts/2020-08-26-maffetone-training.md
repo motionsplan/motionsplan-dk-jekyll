@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1561311152-33b7c14c119c
   teaser: /assets/images/unsplash/photo-1561311152-33b7c14c119c.jpg
   caption: Maffetone-metoden & MAF-træning
-category:
+categories:
 - Kondition
 tags:
 - beregner

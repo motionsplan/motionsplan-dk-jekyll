@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1517626102333-83f7319aa06e
   teaser: /assets/images/unsplash/photo-1517626102333-83f7319aa06e.jpg
   caption: Springtræning – Sådan forbedrer du dit spring
-category:
+categories:
 - Træning
 - Eksplosivitet
 tags:

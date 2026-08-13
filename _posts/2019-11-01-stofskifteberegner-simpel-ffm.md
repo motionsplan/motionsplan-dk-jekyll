@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1481966115753-963394378f23
   teaser: /assets/images/unsplash/photo-1481966115753-963394378f23.jpg
   caption: 'Beregn hvilestofskifte ud fra fedtfri masse (FFM) 🔥'
-category:
+categories:
   - Kost & Ernæring
   - Kalorieberegnere
 meta:

@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c
   teaser: /assets/images/unsplash/photo-1477332552946-cfb384aeaf1c.jpg
   caption: 'Løbeprogram for begyndere: Kom i gang med løbetræningen'
-category:
+categories:
   - Løb
   - Løbeprogrammer
 tags:

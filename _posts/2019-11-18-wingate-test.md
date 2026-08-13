@@ -10,7 +10,7 @@ header:
   credit: https://i.ytimg.com/vi/JIastE4pj3U/maxresdefault.jpg
   teaser: /assets/images/i.ytimg.com/maxresdefault-edd65ea2.jpg
   caption: *title
-category:
+categories:
   - Cykling
   - Cykeltests
 tags:

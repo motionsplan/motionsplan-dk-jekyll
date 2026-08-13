@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/static1.straitstimes.com.sg/20170904_1504497527583_2073451859691958_16_amyama4_zuann-903e30dc.jpg
   credit: https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
   caption: *title
-category:
+categories:
   - Kondition
   - Konditionstests
 meta:

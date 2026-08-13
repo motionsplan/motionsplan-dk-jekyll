@@ -7,7 +7,7 @@ excerpt: Lær alt om Montreal Track Test – en løbetest til måling af VO2max 
   og sammenligning med biptesten.
 description: Lær alt om Montreal Track Test – en løbetest til måling af VO2max og aerob fitness. Se testens procedure, scoring
   og sammenligning med biptesten.
-category:
+categories:
 - Løb
 - Løbetests
 tags:

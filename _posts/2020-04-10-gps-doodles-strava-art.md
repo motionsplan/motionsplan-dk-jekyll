@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/img.atlasobscura.com/bGUgKDEpLmpwZw-20d5c2a9.jpg
   credit: https://img.atlasobscura.com/KRBw9bOg-a8j9k4yLIDN0RV7FqxB4L-xIZxUhII9uTo/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy82MGI2NzEyMmE4/YzQxZTZiZjhfYW5n/bGVyZmlzaCBkb29k/bGUgKDEpLmpwZw.jpg
   overlay_filter: 0.5
-category:
+categories:
   - Træning
 tags:
   - motionside

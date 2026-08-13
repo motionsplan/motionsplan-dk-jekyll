@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1514512364185-4c2b0985be01
   teaser: /assets/images/unsplash/photo-1514512364185-4c2b0985be01.jpg
   caption: 28 Corona Workouts du kan lave hjemme uden udstyr
-category:
+categories:
   - Træning
 tags:
   - hjemmetræning

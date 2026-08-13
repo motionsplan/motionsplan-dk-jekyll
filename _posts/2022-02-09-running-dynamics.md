@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/unsplash/photo-1619037961380-5ab533fc7129.jpg
   credit: https://images.unsplash.com/photo-1619037961380-5ab533fc7129
   caption: Begynderguide til løbedynamik og løbemålinger
-category:
+categories:
   - Løb
 tags:
   - løbeteknik & løbestil

@@ -9,7 +9,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1611784601573-409f9b545ed2.jpg
   credit: https://images.unsplash.com/photo-1611784601573-409f9b545ed2
-category:
+categories:
 - Anatomi
 tags:
 - beregner

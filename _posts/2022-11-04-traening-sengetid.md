@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1548610325-af59423f54bc.jpg
   credit: https://images.unsplash.com/photo-1548610325-af59423f54bc
   caption: 'Træning og sengetid: Hvor længe før bør du motionere?'
-category:
+categories:
 - Søvn
 tags:
 - søvn

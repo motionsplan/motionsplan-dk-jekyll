@@ -5,7 +5,8 @@ permalink: /styrketraening/giantset/
 header:
   teaser: /assets/images/hypertrofi/giant-set.jpg
 breadcrumbs: true
-category:
+categories:
+  - Styrketræning
   - Hypertrofi
 excerpt: "Et giant-set minder på mange måder om cirkeltræning, dog med den primære forskel, at du som udgangspunkt træner den samme muskelgruppe i et giant-set. Typisk vil du starte med den teknisk sværeste øvelse, og sænke øvelsernes sværhedsgrad i takt med at du bliver mere træt."
 tags:
@@ -24,7 +25,6 @@ video:
   id: BQ-gNR2lNoY
 layout: single
 title: "Giant Set"
-category: Styrketræning
 subcategory: Volumen & Konditionering
 permalink: /styrketraening/giantset/
 has_full_article: false

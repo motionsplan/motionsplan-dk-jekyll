@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1620188500179-32ac33c60848.jpg
   credit: https://images.unsplash.com/photo-1620188500179-32ac33c60848
   caption: Dr. Paks Minimal Effective Volume-programmer
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

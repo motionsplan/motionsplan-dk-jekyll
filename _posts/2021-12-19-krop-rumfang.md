@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1505236732171-72a5b19c4981.jpg
   credit: https://images.unsplash.com/photo-1505236732171-72a5b19c4981
   caption: Kroppens rumfang og volumen i fysiologien
-category:
+categories:
   - Anatomi
 tags:
   - beregner

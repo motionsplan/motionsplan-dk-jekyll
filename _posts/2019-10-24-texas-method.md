@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1550977616-efc580084ac5
   teaser: /assets/images/unsplash/photo-1550977616-efc580084ac5.jpg
   caption: '*title'
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

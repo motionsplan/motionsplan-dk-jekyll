@@ -7,7 +7,7 @@ excerpt: "Lohman-formlen kan bruges til at teste børn fra 8-18 år. Hudfoldene 
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
-category:
+categories:
   - Kropskomposition
   - Fedtprocent
   - Hudfoldsmåling

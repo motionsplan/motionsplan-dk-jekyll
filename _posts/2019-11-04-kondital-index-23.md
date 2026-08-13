@@ -11,7 +11,7 @@ header:
   caption: Kondital ved Index 23
 last_modified_at: '2024-04-09T04:46:02+02:00'
 toc: 'true'
-category:
+categories:
 - Kondition
 tags:
 - beregner

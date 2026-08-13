@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1562615193-cbeef074a501.jpg
   credit: https://images.unsplash.com/photo-1562615193-cbeef074a501
   caption: 'Guide til krankarmslængde: Komfort, kadence og kraft'
-category:
+categories:
 - Træning
 - Cykling
 tags:

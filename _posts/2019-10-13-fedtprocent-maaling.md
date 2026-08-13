@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1611077544170-be90a2f68add.jpg
   overlay_filter: '0.6'
   caption: 7 metoder til at måling af din fedtprocent
-category:
+categories:
 - Tests
 tags:
 - fedtprocent

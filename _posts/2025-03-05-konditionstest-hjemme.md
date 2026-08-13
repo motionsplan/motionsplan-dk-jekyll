@@ -5,7 +5,7 @@ title: Konditionstests du kan lave hjemme
 seo_title: Konditionstests du selv kan lave – Test din form derhjemme
 excerpt: Find den rette konditionstest for dig i vores detaljerede oversigt. Mål kondition, VO2 max og kondital for at forbedre
   din form.
-category:
+categories:
 - Kondition
 tags:
 - kondition

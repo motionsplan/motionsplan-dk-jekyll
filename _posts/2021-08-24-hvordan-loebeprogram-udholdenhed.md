@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1553012547-284d8c582b1f
   teaser: /assets/images/unsplash/photo-1553012547-284d8c582b1f.jpg
   caption: Udholdenhedstræning i løb – Sådan bygger du en stærk base
-category:
+categories:
 - Løb
 - Løbeprogrammmer
 tags:

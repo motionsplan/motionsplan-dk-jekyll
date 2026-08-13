@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1502224562085-639556652f33
   teaser: /assets/images/unsplash/photo-1502224562085-639556652f33.jpg
   caption: Løbeprogram til maraton - 42 km
-category:
+categories:
   - Løb
   - Løbeprogrammer
 tags:

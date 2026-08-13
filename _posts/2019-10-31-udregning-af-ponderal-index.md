@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1618939291225-8d558ea4369f.jpg
   overlay_filter: '0.5'
   caption: 'Ponderal Index: Beregn om du er overvægtig'
-category:
+categories:
   - Kropskomposition
   - Antropometri
 tags:

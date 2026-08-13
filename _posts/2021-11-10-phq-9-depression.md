@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1511297968426-a869b61af3da
   teaser: /assets/images/unsplash/photo-1511297968426-a869b61af3da.jpg
   caption: 'Depression: Test om du er deprimeret med PHQ-2 og PHQ-9'
-category:
+categories:
 - Vurderingsværktøjer
 - Psykologi
 tags:

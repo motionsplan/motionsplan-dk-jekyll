@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1544033527-b192daee1f5b
   teaser: /assets/images/unsplash/photo-1544033527-b192daee1f5b.jpg
   caption: 'Træningsøvelser med håndvægte: Træning med dumbbells'
-category:
+categories:
 - Styrketræning
 tags:
 - træningsøvelser

@@ -12,7 +12,7 @@ classes: wide
 header:
   teaser: /assets/images/blog/vo2-max-test-running-female.webp
   caption: Iltoptagelsestest på løbebånd (submax + maxtest) 🏃
-category:
+categories:
 - Kondition
 - Konditionstests
 meta:

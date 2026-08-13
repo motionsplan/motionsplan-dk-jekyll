@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1608272667943-cbf5ee73c0fa
   teaser: /assets/images/unsplash/photo-1608272667943-cbf5ee73c0fa.jpg
   caption: 'Test af træningsafhængighed: Er du afhængig af træning?'
-category:
+categories:
   - Vurderingsværktøjer
   - Psykologi
 tags:

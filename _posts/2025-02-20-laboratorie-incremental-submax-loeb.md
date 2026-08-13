@@ -9,7 +9,7 @@ language: da
 header:
   teaser: /assets/images/blog/vo2-max-test-running-female.webp
   caption: Submaksimal iltoptagelsestest på løbebånd 🏃
-category:
+categories:
 - Kondition
 - Konditiontests
 meta:

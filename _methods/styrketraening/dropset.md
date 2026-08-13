@@ -5,7 +5,7 @@ permalink: /styrketraening/dropset/
 header:
   teaser: /assets/images/hypertrofi/dropset.jpg
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "Dropsæt går ud på at udtrætte musklen fuldstændig ved at droppe vægten. Det vil altså sige, at du, efter dit almindelige sæt, fortsætter med en lavere vægt, indtil du ikke kan mere."
 tags:

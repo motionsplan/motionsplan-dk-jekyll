@@ -22,7 +22,7 @@ tags:
   - populær
   - featured
   - begynder
-category:
+categories:
   - Yoga
 last_modified_at: '2026-07-26T12:00:00Z'
 gallery:

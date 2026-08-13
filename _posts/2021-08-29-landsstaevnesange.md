@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1478147427282-58a87a120781
   teaser: /assets/images/unsplash/photo-1478147427282-58a87a120781.jpg
   caption: "Landsstævnesange gennem tiden: Officielle sange til DGI's Landsstævne"
-category:
+categories:
 - Træning
 tags:
 - musik

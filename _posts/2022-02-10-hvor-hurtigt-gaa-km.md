@@ -16,7 +16,7 @@ header:
   teaser: /assets/images/unsplash/photo-1572015653901-313e493edc82.jpg
   credit: https://images.unsplash.com/photo-1572015653901-313e493edc82
   caption: Hvor lang tid tager det at gå 10.000 skridt?
-category:
+categories:
 - Gang
 tags:
 - beregner

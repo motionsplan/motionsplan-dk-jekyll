@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1592686092916-672fa9e86866
   teaser: /assets/images/unsplash/photo-1592686092916-672fa9e86866.jpg
   caption: 'Tabel med kalorier i kød, oksekød, kylling, svin 🥩'
-category:
+categories:
   - Kost & Ernæring
 tags:
   - fødevarer

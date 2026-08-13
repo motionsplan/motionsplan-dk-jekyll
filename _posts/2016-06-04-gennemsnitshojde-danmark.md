@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1496545087308-51ec893e6bbc.jpg
   credit: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc
   caption: Hvad er gennemsnitshøjden for mænd og kvinder i Danmark?
-category:
+categories:
 - Kropskomposition
 tags:
 - højde

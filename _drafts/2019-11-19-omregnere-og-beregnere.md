@@ -6,7 +6,7 @@ language: da
 header:
   overlay_image: https://www.statnews.com/wp-content/uploads/2017/12/GettyImages-97021506.jpg
   teaser: https://www.statnews.com/wp-content/uploads/2017/12/GettyImages-97021506.jpg
-category:
+categories:
   - Beregnere
 tags:
   - beregner

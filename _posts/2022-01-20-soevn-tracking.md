@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/unsplash/photo-1495364141860-b0d03eccd065.jpg
   credit: https://images.unsplash.com/photo-1495364141860-b0d03eccd065
   caption: 'Søvntracking: Kan mit aktivitetsur måle søvn?'
-category:
+categories:
 - Restitution
 - Søvn
 tags:

@@ -14,7 +14,7 @@ author_profile: 'false'
 toc: 'true'
 sidebar:
   nav: trainingtypes
-category:
+categories:
 - Træning
 tag:
 - træningsformer

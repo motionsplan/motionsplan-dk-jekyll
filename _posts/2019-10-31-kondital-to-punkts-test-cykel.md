@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/i.ytimg.com/maxresdefault-7aae0c63.jpg
   credit: https://i.ytimg.com/vi/bTynfzI2bWw/maxresdefault.jpg
   caption: *title
-category:
+categories:
   - Kondition
   - Konditionstests
 meta:

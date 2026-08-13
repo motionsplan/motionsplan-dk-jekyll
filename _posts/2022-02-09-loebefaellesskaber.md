@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1552035509-b247fe8e5078.jpg
   credit: https://images.unsplash.com/photo-1552035509-b247fe8e5078
   caption: Løbefællesskaber og løbeklubber i Danmark
-category:
+categories:
   - Løb
 tags:
   - inspiration

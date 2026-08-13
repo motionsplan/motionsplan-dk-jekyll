@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/unsplash/photo-1594911772125-07fc7a2d8d9f.jpg
   teaser: /assets/images/unsplash/photo-1594911772125-07fc7a2d8d9f.jpg
   caption: 'Løbeprogrammer til alle niveauer og distancer'
-category:
+categories:
   - Løb
 tags:
   - løb

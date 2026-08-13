@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/de.beatyesterday.org/iStock-885516322-jacoblund-header-359x219-19fc4641.jpg
   credit: https://de.beatyesterday.org/wp-content/uploads/2018/12/iStock-885516322-jacoblund-header-359x219.jpg
   caption: Maksimal iltoptagelse på løbebånd – Test og vejledning 🏃
-category:
+categories:
 - Kondition
 - Konditiontests
 meta:

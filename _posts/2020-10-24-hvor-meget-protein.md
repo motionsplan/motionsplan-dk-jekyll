@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1583532452513-a02186582ccd.jpg
   credit: https://images.unsplash.com/photo-1583532452513-a02186582ccd
   caption: Beregn dit præcise proteinbehov
-category:
+categories:
 - Kost & Ernæring
 tags:
 - kost & ernæring

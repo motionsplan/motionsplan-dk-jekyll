@@ -9,7 +9,7 @@ description: Få overblik over splitprogrammer til styrketræning – fra 2-spli
   program, der passer til din træning og erfaring.
 comments: 'false'
 toc: 'true'
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

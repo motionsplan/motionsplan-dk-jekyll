@@ -14,7 +14,7 @@ header:
   credit: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2
   teaser: /assets/images/unsplash/photo-1534175262708-ebf71ac916c2.jpg
   caption: 'Anabolic Window: Hvad er facts om det åbne vindue?'
-category:
+categories:
 - Kost & Ernæring
 - Restitution
 tags:

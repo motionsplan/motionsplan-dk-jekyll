@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/allaboutpowerlifting.com/edcoan-dba0356b.jpg
   credit: https://allaboutpowerlifting.com/wp-content/uploads/2014/02/edcoan.jpg
   caption: *title
-category:
+categories:
   - Styrketræning
   - Styrketræningsprogrammer
 tags:

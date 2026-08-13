@@ -4,7 +4,7 @@ excerpt: "Back-off sæt er en teknik, hvor man kører ét (eller nogle gange fle
 permalink: /styrketraening/backoff-sets/
 header:
   teaser: /assets/images/hypertrofi/backoff-sets.jpg
-category:
+categories:
   - Styrketræning
 tags:
   - maksimal styrke

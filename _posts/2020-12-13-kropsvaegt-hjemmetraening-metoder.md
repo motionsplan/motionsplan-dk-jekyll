@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1589955791915-526198ae4ee9
   teaser: /assets/images/unsplash/photo-1589955791915-526198ae4ee9.jpg
   caption: Gør træning hjemme med kropsvægt og hjemmetræning mere effektivt 💪
-category:
+categories:
   - Styrketræning
 tags:
   - styrketræning

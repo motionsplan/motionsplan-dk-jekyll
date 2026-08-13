@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1475666675596-cca2035b3d79
   teaser: /assets/images/unsplash/photo-1475666675596-cca2035b3d79.jpg
   caption: 'Critical Power: Alternativ til FTP-træning'
-category:
+categories:
 - Træning
 - Kondition
 tags:

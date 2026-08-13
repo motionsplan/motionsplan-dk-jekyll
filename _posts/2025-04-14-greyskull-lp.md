@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1534438097545-a2c22c57f2ad.jpg
   credit: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad
   caption: Greyskull LP af John Shaeffer
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

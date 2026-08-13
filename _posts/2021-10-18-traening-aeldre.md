@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1568706032495-f35d5df6fb38
   teaser: /assets/images/unsplash/photo-1568706032495-f35d5df6fb38.jpg
   caption: Træning for ældre og bevarelse af funktionsevne
-category:
+categories:
   - Træning
 tags:
   - ældre

@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae
   teaser: /assets/images/unsplash/photo-1572278116640-337bc3c3b8ae.jpg
   caption: Guide til at lave dit eget løbeprogram – 5 enkle trin
-category:
+categories:
 - Løb
 - Løbeprogrammer
 tags:

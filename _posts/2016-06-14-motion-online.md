@@ -7,7 +7,7 @@ excerpt: Mange søger stadig efter de klassiske beregnere fra det oprindelige Mo
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1522844990619-4951c40f7eda.jpg
-category:
+categories:
   - Beregnere
 tags:
   - website

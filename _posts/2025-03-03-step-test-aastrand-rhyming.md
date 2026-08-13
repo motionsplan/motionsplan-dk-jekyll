@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/unsplash/photo-1546869372-abdd57773019.jpg
   credit: https://images.unsplash.com/photo-1546869372-abdd57773019
   caption: Åstrand-Ryhming Step Test – Klassisk skandinavisk konditionstest
-category:
+categories:
 - Kondition
 - Konditionstests
 - Steptests

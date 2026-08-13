@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1534258936925-c58bed479fcb
   teaser: /assets/images/unsplash/photo-1534258936925-c58bed479fcb.jpg
   caption: 'Træningsbøger: De bedste bøger om træning 💪'
-category:
+categories:
   - Træning
   - Inspiration
 tags:

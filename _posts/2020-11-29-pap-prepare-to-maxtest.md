@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2
   teaser: /assets/images/unsplash/photo-1532382752999-45b3dc5d4bf2.jpg
   caption: Hvordan forbereder jeg mig til en 1RM-maxtest med PAP? 🏋
-category:
+categories:
 - Styrketræning
 tags:
 - opvarmning

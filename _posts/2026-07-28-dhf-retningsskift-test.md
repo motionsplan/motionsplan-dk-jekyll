@@ -5,7 +5,7 @@ title: "Dansk Håndbolds Retningsskift-test – Håndboldspecifik Agility"
 seo_title: "DHF Performance Profil: Retningsskift-test – Guide & Timer"
 excerpt: "Komplet guide til Dansk Håndbolds (DHF) Retningsskift-test. Mål din evne til eksplosive fremstød, forsvarsbenarbejde og tilbageløb med vores timer."
 description: "Lær hvordan du afvikler Dansk Håndbolds Retningsskift-test fra deres Performance Profil. Se banens opstilling, fysiologien bag forsvarsarbejde og normtal."
-category:
+categories:
   - Løb
   - Håndbold
   - Retningsskifttests

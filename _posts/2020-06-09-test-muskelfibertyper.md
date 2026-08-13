@@ -10,7 +10,7 @@ header:
   credit: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
   caption: "Hvordan tester jeg min muskelfibertypesammensætning? Billede: Wikipedia"
   overlay_filter: 0.4
-category:
+categories:
   - Anatomi
 tags:
   - test

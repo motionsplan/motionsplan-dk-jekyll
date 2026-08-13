@@ -20,7 +20,7 @@ tags:
 - skulder
 - træningsøvelse
 - begynder
-category:
+categories:
 - Styrketræning
 programs:
   - id: "laer-din-foerste-pullup"

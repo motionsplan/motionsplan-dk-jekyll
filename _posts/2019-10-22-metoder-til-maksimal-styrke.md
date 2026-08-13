@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad
   teaser: /assets/images/unsplash/photo-1534438097545-a2c22c57f2ad.jpg
   caption: 'Maksimal styrke: Metoder til maksimal muskelstyrke 🏋️‍♀️'
-category:
+categories:
 - Styrketræning
 tags:
 - beregner

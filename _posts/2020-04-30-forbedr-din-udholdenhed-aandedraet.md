@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1483004406427-6acb078d1f2d.jpg
   caption: 'Åndedrætstræning: 3 øvelser til vejrtrækning og åndedrættet'
   alt: Photo by Sime Basioli on Unsplash
-category:
+categories:
 - Træning
 - Kondition
 tags:

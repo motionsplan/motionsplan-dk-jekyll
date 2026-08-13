@@ -14,7 +14,7 @@ tags:
 - kondition
 - løb
 - træningsmetode
-category:
+categories:
 - Kondition
 - Løb
 last_modified_at: '2013-04-28T13:13:06Z'

@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/unsplash/photo-1565185691168-ad7f98cb8e07.jpg
   credit: https://images.unsplash.com/photo-1565185691168-ad7f98cb8e07
   caption: Komplet guide til fysisk træning
-category:
+categories:
 - Træning
 tags:
 - træning

@@ -59,7 +59,7 @@
         {% endif %}
       </div>
     {% endif %}
-    {% assign category = post.category | last %}
+    {% assign category = post.category | default: post.categories | last %}
     {% if category %}<p class="archive__item-category p-category" itemprop="category">{{ category }}</p>{% endif %}
     <p class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}

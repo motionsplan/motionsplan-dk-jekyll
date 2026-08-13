@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1546778316-dfda79f1c84e.jpg
   credit: https://images.unsplash.com/photo-1546778316-dfda79f1c84e
   caption: 'Varmetræning: Hvordan træner man til at tåle varmen?'
-category:
+categories:
 - Fysiologi
 - Træning
 tags:

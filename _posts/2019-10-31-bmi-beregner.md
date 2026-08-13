@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1627820751275-e44b937c5d33.jpg
   credit: https://images.unsplash.com/photo-1627820751275-e44b937c5d33
   caption: 'BMI beregner: Udregn dit BMI'
-category:
+categories:
 - Kropskomposition
 - BMI
 tags:

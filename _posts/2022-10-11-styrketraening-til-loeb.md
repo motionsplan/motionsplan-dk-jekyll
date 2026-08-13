@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1499290572571-a48c08140a19
   caption: 'Styrketræning til løb: Hvordan gør du?'
   overlay_filter: '0.3'
-category:
+categories:
 - Løb
 tags:
 - styrketræning

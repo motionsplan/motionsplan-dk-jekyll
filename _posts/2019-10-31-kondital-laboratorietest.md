@@ -13,7 +13,7 @@ header:
   overlay_image: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
   teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
   caption: Direkte måling af iltoptagelse i laboratoriet
-category:
+categories:
 - Kondition
 - Konditionstests
 meta:

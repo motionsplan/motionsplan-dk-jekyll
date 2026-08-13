@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/blog/fordele-og-ulemper-ved-ens-traening.jpg
 tags:
   - webclips
-category:
+categories:
   - Webclips
 last_modified_at: 2013-02-13T22:11:14Z
 ---

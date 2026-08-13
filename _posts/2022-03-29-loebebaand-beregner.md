@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1638183395699-2c0db5b6afbb.jpg
   credit: https://images.unsplash.com/photo-1638183395699-2c0db5b6afbb
   caption: Løbebånd Beregner – Juster hældning og beregn kalorieforbrug
-category:
+categories:
   - Løb
 tags:
   - beregner

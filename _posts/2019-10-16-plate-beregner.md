@@ -9,7 +9,7 @@ language: da
 header:
   teaser: "/assets/images/blog/plate-weight-calculator.jpg"
   alt: Photo by Victor Freitas on Unsplash
-category:
+categories:
   - Styrketræning
   - Beregnere
 tags:

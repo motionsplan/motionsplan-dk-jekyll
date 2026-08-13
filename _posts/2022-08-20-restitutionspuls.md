@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1523394894855-2feb062d437d
   teaser: /assets/images/unsplash/photo-1523394894855-2feb062d437d.jpg
   caption: 'Restitutionspuls: Hvad er Heart Rate Recovery?'
-category:
+categories:
   - Fysiologi
 tags:
   - puls

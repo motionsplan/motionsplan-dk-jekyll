@@ -17,7 +17,7 @@ tags:
 - kombinationstræning
 - træning
 - faq
-category:
+categories:
 - Kondition
 - Løb
 - Styrketræning

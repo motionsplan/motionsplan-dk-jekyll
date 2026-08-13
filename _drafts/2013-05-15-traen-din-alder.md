@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/blog/traen-din-alder.jpg
   teaser: /assets/images/blog/traen-din-alder.jpg
 tags:
-category:
+categories:
   - Styrketræning
 last_modified_at: 2013-09-30T20:21:01Z
 ---

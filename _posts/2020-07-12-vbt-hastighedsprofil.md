@@ -14,7 +14,7 @@ header:
     - label: "<i class='fas fa-file-excel'></i> Sheet med Velocity Profile og MVT"
       url: "#sheet"
       rel: nofollow noopener
-category:
+categories:
   - Styrketræning
 tags:
   - test

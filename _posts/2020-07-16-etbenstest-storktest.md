@@ -11,7 +11,7 @@ tags:
   - enkeltbensstand
   - stork-test
   - statisk balance
-category:
+categories:
   - Balance
   - Balancetests
 last_modified_at: 2026-08-02T12:00:00Z

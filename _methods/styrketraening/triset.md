@@ -5,7 +5,7 @@ permalink: /styrketraening/triset/
 header:
   teaser: /assets/images/hypertrofi/triset.jpg
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "Tri-sets er tre øvelser, det kunne være skulderøvelserne military press, upright row, lateral raise (bliv ikke forvirret, man kan både træne modsætninger og samme muskelgrupper lige i træk, to øvelser fra samme muskelgruppe hedder compound sets)."
 tags:

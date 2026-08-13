@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1600679472183-07cc4f68b140.jpg
   credit: https://images.unsplash.com/photo-1600679472183-07cc4f68b140
   caption: ️Submaksimal 1609 m løbetest til at finde VO2max
-category:
+categories:
 - Løb
 - Løbetest
 meta:

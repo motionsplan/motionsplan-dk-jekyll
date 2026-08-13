@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/coachray.nz/Jack-Daniels-64ea815b.jpeg
   credit: https://www.coachray.nz/wp-content/uploads/2021/10/Jack-Daniels.jpeg
   caption: *title
-category:
+categories:
   - Løb
 tags:
   - træning

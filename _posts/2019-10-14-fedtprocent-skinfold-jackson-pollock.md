@@ -5,7 +5,7 @@ excerpt: "Jackson & Pollock trepunktsmåling er en hudfoldsmåling, som kan brug
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
-category:
+categories:
   - Kropskomposition
   - Fedtprocent
   - Hudfoldsmåling

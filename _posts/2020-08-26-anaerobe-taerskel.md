@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1560073743-0a45c01b68c4
   teaser: /assets/images/unsplash/photo-1560073743-0a45c01b68c4.jpg
   caption: '4 mmol-grænsen: Hvad er den anaerobe tærskel og mælkesyregrænsen?'
-category:
+categories:
 - Fysiologi
 tags:
 - fysiologi

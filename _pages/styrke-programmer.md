@@ -8,7 +8,7 @@ description: "Få en komplet oversigt over gratis styrketræningsprogrammer. Væ
 comments: 'false'
 last_modified_at: '2026-08-02T10:14:14Z'
 toc: 'true'
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

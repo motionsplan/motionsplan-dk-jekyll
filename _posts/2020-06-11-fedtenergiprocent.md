@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/unsplash/photo-1494390248081-4e521a5940db.jpg
   overlay_filter: '0.2'
   caption: Forskel på fedtenergiprocent og fedtprocent i mad (Beregner)
-category:
+categories:
 - Kost & Ernæring
 - Kalorieberegnere
 tags:

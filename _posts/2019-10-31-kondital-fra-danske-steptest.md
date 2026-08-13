@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/i.ytimg.com/maxresdefault-6097801a.jpg
   credit: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
   caption: *title
-category:
+categories:
   - Kondition
   - Konditionstests
   - Steptests

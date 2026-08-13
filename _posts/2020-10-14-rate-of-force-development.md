@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1580473037627-6336da87b7e5
   teaser: /assets/images/unsplash/photo-1580473037627-6336da87b7e5.jpg
   caption: Hvordan træner jeg Rate of Force Development (RFD)?
-category:
+categories:
 - Træning
 - Eksplosivitet
 tags:

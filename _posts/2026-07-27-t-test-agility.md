@@ -5,7 +5,7 @@ title: Agility T-Test – Måling af Multidirektionel Hurtighed
 seo_title: Agility T-Test – Guide til Opstilling, Procedure & Normtal
 excerpt: Komplet guide til Agility T-Testen. Mål din evne til at sprinte fremad, sidelæns og baglæns med vores interaktive timer, banetegning og normtal.
 description: Lær hvordan du opstiller og afvikler Agility T-Testen. Se præcise banemål i meter, fysiologisk baggrund, regler for fodskifte samt normtabel for mænd og kvinder.
-category:
+categories:
   - Løb
   - Retningsskifttests
 tags:

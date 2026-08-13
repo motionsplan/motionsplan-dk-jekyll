@@ -9,7 +9,7 @@ header:
   overlay_image: https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
-category:
+categories:
   - Tests
   - Genoptræning
 tags:

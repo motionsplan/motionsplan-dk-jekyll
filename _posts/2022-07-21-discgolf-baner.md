@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1616840388998-a514fe2175b9.jpg
   credit: https://images.unsplash.com/photo-1616840388998-a514fe2175b9
   caption: 'Discgolf baner i Danmark: Hvor kan du spille?'
-category:
+categories:
 - Sportsgrene
 - Discgolf
 tags:

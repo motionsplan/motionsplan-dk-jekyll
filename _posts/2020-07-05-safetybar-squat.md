@@ -7,7 +7,7 @@ header:
   credit: https://images.unsplash.com/photo-1534368575702-7c65b7474f91
   teaser: /assets/images/unsplash/photo-1534368575702-7c65b7474f91.jpg
   caption: Ikke alle safety bars er skabt ens. Vælg den rigtige safety bar til din squat!
-category:
+categories:
 - Styrketræning
 tags:
 - squat

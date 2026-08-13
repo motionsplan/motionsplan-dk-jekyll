@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1741478551865-da01fd4af0e4.jpg
   credit: https://images.unsplash.com/photo-1741478551865-da01fd4af0e4
   caption: Guide til at vælge de rette sko til CrossFit 🏋️‍♂️
-category:
+categories:
   - Styrketræning
 tags:
   - udstyr

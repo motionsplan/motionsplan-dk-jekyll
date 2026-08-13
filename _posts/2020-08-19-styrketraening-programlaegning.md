@@ -14,7 +14,7 @@ header:
   credit: https://images.unsplash.com/photo-1526408984842-5f1323d42469
   teaser: /assets/images/unsplash/photo-1526408984842-5f1323d42469.jpg
   caption: Komplet guide til programlægning i styrketræning
-category:
+categories:
 - Styrketræning
 tags:
 - programlægning

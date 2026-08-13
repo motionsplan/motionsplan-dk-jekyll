@@ -10,7 +10,7 @@ header:
 tags:
 - styrketræning
 - eksplosivitet
-category:
+categories:
 - Styrketræning
 last_modified_at: '2015-04-09T21:24:52Z'
 ---

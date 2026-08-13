@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1471193945509-9ad0617afabf
   teaser: /assets/images/unsplash/photo-1471193945509-9ad0617afabf.jpg
   caption: 'Kalorietabellen: Gratis tabel med kalorier i fødevarer 🥭🥩🥦'
-category:
+categories:
   - Kost & Ernæring
 tags:
   - kalorier

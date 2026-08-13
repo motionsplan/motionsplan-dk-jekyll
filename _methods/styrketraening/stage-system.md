@@ -5,7 +5,7 @@ permalink: /styrketraening/stage-system/
 header:
   teaser: /assets/images/hypertrofi/stage-system.jpg
 breadcrumbs: true
-category:
+categories:
   - Styrketræning
 excerpt: "Stage Systemet inkluderer flere niveauer af belastning på en given øvelse. Den første etape udføres tungt. Den anden fase udføres lettere."
 tags:

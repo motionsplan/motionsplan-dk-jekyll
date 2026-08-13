@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1655161920414-e25dc7e0f1de.jpg
   credit: https://images.unsplash.com/photo-1655161920414-e25dc7e0f1de
   caption: 'Teknik i discgolf: Hvordan kaster man en golfdisc?'
-category:
+categories:
 - Sportsgrene
 - Discgolf
 tags:

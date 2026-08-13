@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1682706841281-f723c5bfcd83.jpg
   credit: https://images.unsplash.com/photo-1682706841281-f723c5bfcd83
   overlay_filter: '0.2'
-category:
+categories:
 - Kondition
 tags:
 - puls

@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1549477754-350cf45a1772.jpg
   caption: Kan jeg træne på penicillin og antibiotika?
   alt: Photo by Anastasia Dulgier on Unsplash
-category:
+categories:
 - Træning
 tags:
 - træning

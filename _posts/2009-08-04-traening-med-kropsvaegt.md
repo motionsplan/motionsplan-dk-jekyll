@@ -12,7 +12,7 @@ tags:
   - styrketræning
   - træning
   - liste
-category:
+categories:
   - Styrketræning
 last_modified_at: '2020-02-13T22:09:52Z'
 ---

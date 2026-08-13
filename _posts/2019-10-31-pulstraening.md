@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1601976864636-403ab1eea224
   teaser: /assets/images/unsplash/photo-1601976864636-403ab1eea224.jpg
   caption: 'Pulstræning: Sådan kommer du i gang'
-category:
+categories:
 - Kondition
 tags:
 - kondition

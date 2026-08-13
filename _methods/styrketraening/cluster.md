@@ -5,7 +5,7 @@ permalink: /styrketraening/clusters/
 header:
   teaser: /assets/images/hypertrofi/clusters.jpg
 breadcrumbs: true
-category:
+categories:
   - Styrketræning
 excerpt: "Cluster sæt er et sæt med indlagte pauser / rest-pauser på alt mellem 10-45 sekunder for at genoplade energidepoterne for at løfte tungere vægte for et højere total antal reps end hvad man normalt ville kunne gøre ved et almindelig sæt."
 tags:

@@ -13,7 +13,7 @@ header:
   credit: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5
   teaser: /assets/images/unsplash/photo-1541534741688-6078c6bfb5c5.jpg
   caption: 'Skuldermuskler: Liste og øvelser til stærke skuldre'
-category:
+categories:
 - Anatomi
 - Muskler
 tags:

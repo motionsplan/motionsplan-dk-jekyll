@@ -5,7 +5,7 @@ excerpt: "Peterson 4-punktsmåling er en nyere hudfoldsmåling til bestemmelse a
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
-category:
+categories:
   - Kropskomposition
   - Fedtprocent
   - Hudfoldsmåling

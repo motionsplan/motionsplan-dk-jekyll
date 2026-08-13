@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1719299246416-b4c069be9caf.jpg
   credit: https://images.unsplash.com/photo-1719299246416-b4c069be9caf
   caption: Træningsfilosofier til løbetræningen
-category:
+categories:
 - Løb
 tags:
 - træning

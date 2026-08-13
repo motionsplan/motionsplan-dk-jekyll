@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1555708982-8645ec9ce3cc.jpg
   credit: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc
   caption: Respiratoriske (RER) og metaboliske udvekslingskvotient (RQ)
-category:
+categories:
   - Fysiologi
 tags:
   - begreb

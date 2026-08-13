@@ -11,7 +11,7 @@ toc_sticky: true
 header:
   teaser: /assets/images/unsplash/photo-1605235186583-a8272b61f9fe.jpg
   caption: *title
-category:
+categories:
   - Cykling
   - Hometrainer
 tags:

@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1528291954423-c0c71c12baeb.jpg
   credit: https://images.unsplash.com/photo-1528291954423-c0c71c12baeb
   caption: Hvordan påvirker idræt og sportsgrene kroppen?
-category:
+categories:
 - Fysiologi
 - Træning
 tags:

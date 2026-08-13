@@ -5,7 +5,7 @@ permalink: /styrketraening/isometrisk-traening/
 header:
   teaser: /assets/images/hypertrofi/isometrisk-traening.jpg
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "Isometrisk træning vil sige, at man spænder musklerne uden af bevæge dem eller ledet. Det kommer fra Iso (samme) og metric (afstand). Hvis man er ude efter rigtig styrke, så skal man udføre både dynamisk og isometrisk styrketræning."
 tags:

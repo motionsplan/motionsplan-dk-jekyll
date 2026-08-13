@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9
   teaser: /assets/images/unsplash/photo-1499438075715-fc23ef376ab9.jpg
   caption: Vmax-træning til cykling
-category:
+categories:
 - Kondition
 - Konditionstræning
 tags:

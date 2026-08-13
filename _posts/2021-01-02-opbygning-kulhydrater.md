@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73
   teaser: /assets/images/unsplash/photo-1562245376-3f9dae9f0e73.jpg
   caption: Opbygning af kulhydrater og kostfibre 🥑🍞🍆
-category:
+categories:
 - Kost & Ernæring
 tags:
 - kost & ernæring

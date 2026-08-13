@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1532384748853-8f54a8f476e2
   teaser: /assets/images/unsplash/photo-1532384748853-8f54a8f476e2.jpg
   caption: 'Skuldertræning: Styrk dine skuldre og rotatormanchet 💪'
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1623946724822-ba48a838f3da.jpg
   caption: 'Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?'
 language: da
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

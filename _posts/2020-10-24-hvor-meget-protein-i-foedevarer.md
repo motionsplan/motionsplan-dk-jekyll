@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1532550907401-a500c9a57435.jpg
   credit: https://images.unsplash.com/photo-1532550907401-a500c9a57435
   caption: Hvor meget protein er der i forskellige fødevarer?
-category:
+categories:
 - Kost & Ernæring
 tags:
 - kost & ernæring

@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f
   teaser: /assets/images/unsplash/photo-1560741282-a3ff4a507b4f.jpg
   caption: Så mange kalorier forbrænder du ved at gå 🚶🚶‍♀️
-category:
+categories:
 - Gang
 tags:
 - forbrænding

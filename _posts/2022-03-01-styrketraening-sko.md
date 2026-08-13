@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1526405098960-78ccf7a1dbd6.jpg
   credit: https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6
   caption: Vælg sko til styrketræning, træning og fitness (Guide)
-category:
+categories:
 - Styrketræning
 tags:
 - udstyr

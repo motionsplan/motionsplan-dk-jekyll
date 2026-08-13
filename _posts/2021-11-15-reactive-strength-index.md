@@ -6,7 +6,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1607962252666-2c33af3c6ba6.jpg
   credit: https://images.unsplash.com/photo-1607962252666-2c33af3c6ba6
-category:
+categories:
 - Tests
 - Eksplosivitet
 tags:

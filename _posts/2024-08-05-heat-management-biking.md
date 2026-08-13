@@ -10,7 +10,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1546310603-a12096dc0f79.jpg
   credit: https://images.unsplash.com/photo-1546310603-a12096dc0f79
-category:
+categories:
 - Fysiologi
 tags:
 - interaktiv artikel

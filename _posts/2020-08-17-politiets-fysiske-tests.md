@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/blog/police-training.png
   teaser: /assets/images/blog/police-training.png
   caption: *title
-category:
+categories:
   - Tests
 tags:
   - test

@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1483721310020-03333e577078.jpg
   overlay_filter: '0.4'
   caption: 'Intervalløb: 10 effektive metoder til intervaltræning til løb'
-category:
+categories:
 - Kondition
 - Løb
 tags:

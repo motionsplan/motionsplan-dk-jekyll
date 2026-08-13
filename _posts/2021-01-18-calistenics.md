@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1599744331097-8e64155b1383
   teaser: /assets/images/unsplash/photo-1599744331097-8e64155b1383.jpg
   caption: 'Calisthenics: 8 ugers begynderprogram til kropsvægtstræning'
-category:
+categories:
 - Træning
 - Styrketræning
 tags:

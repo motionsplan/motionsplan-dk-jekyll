@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1573511860302-28c524319d2a.jpg
   overlay_filter: '0.2'
   caption: 'Biohacking: Definition og begynderguide til at blive biohacker'
-category:
+categories:
   - Træning
 tags:
   - biohacking

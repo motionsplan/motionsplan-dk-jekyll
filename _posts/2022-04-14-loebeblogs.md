@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1521903062400-b80f2cb8cb9d.jpg
   credit: https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d
   caption: Løbeblogs og kilder til løbeinspiration
-category:
+categories:
   - Løb
 tags:
   - inspiration

@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1517964603305-11c0f6f66012.jpg
   credit: https://images.unsplash.com/photo-1517964603305-11c0f6f66012
   caption: 'Prilepins tabel: Sådan kan du bruge tabellen i din planlægning'
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

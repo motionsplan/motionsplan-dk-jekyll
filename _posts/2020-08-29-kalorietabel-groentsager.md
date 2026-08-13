@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1581283177406-be33dee67044
   teaser: /assets/images/unsplash/photo-1581283177406-be33dee67044.jpg
   caption: 'Tabel med kalorier i grøntsager 🥦'
-category:
+categories:
   - Kost & Ernæring
 tags:
   - fødevarer

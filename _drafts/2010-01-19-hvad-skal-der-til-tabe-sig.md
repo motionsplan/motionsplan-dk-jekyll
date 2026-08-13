@@ -10,7 +10,7 @@ tags:
   - kost & ernæring
   - vægttab
   - motion
-category:
+categories:
   - Kost & Ernæring
   - Webclips
 last_modified_at: 2013-02-13T22:07:56Z

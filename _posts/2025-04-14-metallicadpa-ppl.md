@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1690731069562-6c6fbcd47353.jpg
   credit: https://images.unsplash.com/photo-1690731069562-6c6fbcd47353
   caption: 'Metallicadpa PPL: 6-dages Push/Pull/Legs-program'
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

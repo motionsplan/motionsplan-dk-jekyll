@@ -11,7 +11,7 @@ header:
   credit: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
   overlay_filter: 0.4
   caption: "Muskelfibertyper: Langsomme og hurtige muskelfibre. Røde og hvide muskelfibre. Type I, IIa, IIx. Billede fra Wikipedia."
-category:
+categories:
   - Anatomi
 tags:
   - muskler

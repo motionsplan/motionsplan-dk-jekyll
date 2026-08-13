@@ -9,7 +9,7 @@ language: da
 header:
   teaser: /assets/images/blog/jacob_beermann.jpg
   caption: Stærk af Jacob Beermann – Bogen og træningsprogrammet
-category:
+categories:
   - Styrketræning
   - Styrketræningsprogrammer
 tags:

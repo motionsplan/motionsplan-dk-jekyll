@@ -6,7 +6,7 @@ header:
   overlay_image: https://images.unsplash.com/photo-1583639687726-84d20638bf63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1932&q=80
   teaser: https://images.unsplash.com/photo-1583639687726-84d20638bf63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
-category:
+categories:
   - Kost & Ernæring
 tags:
   - kost & ernæring

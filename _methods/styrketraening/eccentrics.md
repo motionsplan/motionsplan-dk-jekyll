@@ -5,7 +5,7 @@ permalink: /styrketraening/excentrisk-fokus/
 header:
   teaser: /assets/images/hypertrofi/excentrisk-fokus.jpg
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "Modsat opnår du en excentrisk bevægelse, når du sænker vægten ned mod brystet igen og dine muskler bliver strukket ud. Det er den excentriske bevægelse som sørger for at vægten sænkes kontrolleret, fremfor at falde falde til brystet pga. tyngdekraften."
 tags:

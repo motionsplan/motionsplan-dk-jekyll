@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1589579234096-25cb6b83e021
   teaser: /assets/images/unsplash/photo-1589579234096-25cb6b83e021.jpg
   caption: 'Excentrisk træning: Beskyt musklerne og skab muskelvækst'
-category:
+categories:
 - Styrketræning
 tags:
 - træning

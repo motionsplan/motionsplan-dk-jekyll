@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/unsplash/photo-1457449205106-d0aad138e99b.jpg
   caption: 'Pause fra konditionstræning: Hvor hurtigt mister man sin form og kondition?'
   alt: Photo by Tikkho Maciel on Unsplash
-category:
+categories:
 - Kondition
 tags:
 - fysiologi

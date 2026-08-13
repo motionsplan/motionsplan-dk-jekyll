@@ -10,7 +10,7 @@ header:
 tags:
 - udstyr
 - gør-det-selv
-category:
+categories:
 - Træning
 last_modified_at: '2020-02-13T22:20:01Z'
 ---

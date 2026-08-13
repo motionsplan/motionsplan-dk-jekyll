@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1607109329787-d5133183ee57
   teaser: /assets/images/unsplash/photo-1607109329787-d5133183ee57.jpg
   caption: 'Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️'
-category:
+categories:
 - Kondition
 - Cykling
 tags:

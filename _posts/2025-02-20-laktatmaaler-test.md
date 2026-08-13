@@ -8,7 +8,7 @@ language: da
 header:
   teaser: /assets/images/blog/lactate-testing.jpg
   caption: Sammenligning og test af laktatmålere til udholdenhedssport 🩸
-category:
+categories:
   - Udstyr
 classes: wide
 tags:

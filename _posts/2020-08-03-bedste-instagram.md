@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1585250003309-694ff34512d7
   teaser: /assets/images/unsplash/photo-1585250003309-694ff34512d7.jpg
   caption: Danske fitness-influencere og trænere på Instagram
-category:
+categories:
   - Inspiration
 tags:
   - inspiration

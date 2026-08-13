@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1541600383005-565c949cf777.jpg
   credit: https://images.unsplash.com/photo-1541600383005-565c949cf777
   caption: 'Squatmekanik: En biomekanisk model for squat'
-category:
+categories:
 - Styrketræning
 tags:
 - værktøj

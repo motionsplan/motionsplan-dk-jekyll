@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1530026186672-2cd00ffc50fe.jpg
   credit: https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe
   caption: 'Kredsløbet: Sådan fungerer dit hjerte og lunger'
-category:
+categories:
 - Fysiologi
 tags:
 - puls

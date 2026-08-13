@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1655161919642-7d318b88a40b.jpg
   credit: https://images.unsplash.com/photo-1655161919642-7d318b88a40b
   caption: 'Golfdiscs: Hvilken frisbee skal jeg vælge til discgolf?'
-category:
+categories:
 - Sportsgrene
 - Discgolf
 tags:

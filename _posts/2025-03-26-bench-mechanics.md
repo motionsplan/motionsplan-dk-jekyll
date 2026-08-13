@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1652363722833-509b3aac287b.jpg
   credit: https://images.unsplash.com/photo-1652363722833-509b3aac287b
   caption: 'Bænkpresmekanik: En model for kraft, moment og bevægelse'
-category:
+categories:
 - Styrketræning
 tags:
 - værktøj

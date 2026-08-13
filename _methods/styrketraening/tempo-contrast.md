@@ -5,7 +5,7 @@ permalink: /styrketraening/tempo-contrast/
 header:
   teaser: /assets/images/hypertrofi/tempo-contrast.jpg
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "Denne metode indebærer at skifte mellem langsomt tempo reps og hurtigt tempo reps i samme sæt. Du ville udføre 2 reps med et 5 sekunders koncentrisk & 5 sekunders excentrisk tempo efterfulgt af 2 'hurtige' reps; mere af standardtempo, altid kontrolleret – stræk og squeeze."
 tags:

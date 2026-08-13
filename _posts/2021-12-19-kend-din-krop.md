@@ -9,7 +9,7 @@ header:
   caption: 'Kend din krop: Quiz om kroppen, anatomi og fysiologi'
   overlay_image: /assets/images/unsplash/photo-1520787182336-0e4f42027ac6.jpg
   overlay_filter: "0.3"
-category:
+categories:
   - Træningslære
 tags:
   - anatomi

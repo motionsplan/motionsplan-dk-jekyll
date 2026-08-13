@@ -12,7 +12,7 @@ tags:
   - kondition
   - løbeprogram
   - 5 km
-category:
+categories:
   - Løb
   - Løbeprogrammer
 last_modified_at: 2021-02-13T22:06:29Z

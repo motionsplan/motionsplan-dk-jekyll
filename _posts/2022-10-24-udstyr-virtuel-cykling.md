@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/unsplash/photo-1496147539180-13929f8aa03a.jpg
   credit: https://images.unsplash.com/photo-1496147539180-13929f8aa03a
   caption: *title
-category:
+categories:
   - Cykling
   - Hometrainer
 tags:

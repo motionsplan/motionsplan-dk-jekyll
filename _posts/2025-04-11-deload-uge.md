@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1683889842937-33f56d28e6e4.jpg
   credit: https://images.unsplash.com/photo-1683889842937-33f56d28e6e4
   caption: 'Deload-uge: Fordele og hvordan gør du?'
-category:
+categories:
 - Styrketræning
 tags:
 - træningsplanlægning

@@ -4,7 +4,7 @@ title: "Hastighedsteknik"
 permalink: /metode/hastighedhedsteknik/
 excerpt: "Hastighedsteknik handler om at forbedre ens evne til at løbe hurtigt, så koordinationen og styrken i musklerne forbedres, så du kan løbe hurtigere uden at anstrenge dig mere."
 breadcrumbs: true
-category:
+categories:
   - Kondition
 header:
   teaser: /assets/images/kondition/hastighedsteknik.jpg

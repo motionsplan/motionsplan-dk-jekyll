@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/unsplash/photo-1623930979475-19a6f4dee7b1.jpg
   credit: https://images.unsplash.com/photo-1623930979475-19a6f4dee7b1
   caption: Inspiration til din gåtur og vandretur
-category:
+categories:
 - Træning
 - Gang
 tags:

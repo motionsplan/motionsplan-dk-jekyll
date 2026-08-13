@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1496545087308-51ec893e6bbc.jpg
   caption: Hvordan kan du blive højere? Få svar på myter og fakta om højde
   alt: Photo by Jack Sloop on Unsplash
-category:
+categories:
 - Kropskomposition
 tags:
 - højde

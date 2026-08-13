@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1540479859555-17af45c78602.jpg
   credit: https://images.unsplash.com/photo-1540479859555-17af45c78602
   caption: BMI-beregner for børn, unge og teenagere
-category:
+categories:
 - Kropskomposition
 - BMI
 tags:

@@ -7,7 +7,7 @@ tags:
   - webclips
   - kost & ernæring
   - superfoods
-category:
+categories:
   - Kost & Ernæring
 last_modified_at: 2013-02-13T22:11:54Z
 ---

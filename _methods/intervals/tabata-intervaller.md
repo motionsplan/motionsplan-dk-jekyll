@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Tabata Intervaller"
-category: Kondition
+categories:
+  - Kondition
 subcategory: Anaerob & VO2max
 permalink: /kondition/tabata-intervaller/
 has_full_article: /artikel/tabata-traening-intervaller/

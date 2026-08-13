@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1580912534328-fbc00d6f7e9f
   teaser: /assets/images/unsplash/photo-1580912534328-fbc00d6f7e9f.jpg
   caption: Gratis tabel med kalorier i frugt og bær 🥭
-category:
+categories:
   - Kost & Ernæring
 tags:
   - fødevarer

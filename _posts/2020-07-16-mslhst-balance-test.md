@@ -11,7 +11,7 @@ tags:
   - mslhst
   - dynamisk balance
   - landingskontrol
-category:
+categories:
   - Balance
   - Balancetests
 tests:

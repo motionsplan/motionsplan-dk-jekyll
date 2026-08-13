@@ -9,7 +9,7 @@ header:
   overlay_filter: '0.8'
   caption: Hvorfor tager jeg på, når jeg træner? 7 ufarlige fordele!
   alt: Photo by Jen Theodore on Unsplash
-category:
+categories:
 - Kost & Ernæring
 - Vægttab
 tags:

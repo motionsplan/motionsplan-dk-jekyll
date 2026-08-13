@@ -10,7 +10,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1490645935967-10de6ba17061.jpg
   credit: https://images.unsplash.com/photo-1490645935967-10de6ba17061
-category:
+categories:
 - Kost & Ernæring
 tags:
 - kost & ernæring

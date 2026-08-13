@@ -13,7 +13,7 @@ header:
   teaser: /assets/images/unsplash/photo-1496163668521-39614a16b23f.jpg
   credit: https://images.unsplash.com/photo-1496163668521-39614a16b23f
   caption: Find dit kondital med Cooper-testen. Konditionstest til løb.
-category:
+categories:
 - Kondition
 - Konditionstest
 meta:

@@ -15,7 +15,7 @@ header:
   caption: Hvordan finder du og læser en videnskabelig artikel?
 tags:
 - videnskab
-category:
+categories:
 - Træningslære
 last_modified_at: '2022-09-13T21:55:25Z'
 ---

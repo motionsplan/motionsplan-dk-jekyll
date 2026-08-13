@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1546869372-abdd57773019
   teaser: /assets/images/unsplash/photo-1546869372-abdd57773019.jpg
   caption: Queens College Step Test – Standardiseret konditionstest (QCST)
-category:
+categories:
 - Kondition
 - Konditionstests
 - Steptests

@@ -5,7 +5,7 @@ title: Illinois Agility Test – Måling af Agilitet og Retningsskift
 seo_title: Illinois Agility Test – Guide til Banetegning, Regler & Normtal
 excerpt: Komplet guide til Illinois Agility Test. Mål din retningsskift-hastighed (CODS) og agilitet med vores interaktive timer, banetegning og normtal.
 description: Lær hvordan du opstiller og afvikler Illinois Agility Testen. Se præcise banemål, fysiologisk baggrund, normtabel for mænd og kvinder samt testprocedure.
-category:
+categories:
   - Løb
   - Retningsskifttests
 tags:

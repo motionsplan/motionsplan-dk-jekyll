@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1572379892936-47d01f2cd2b0
   overlay_filter: '0.2'
   caption: 'Alder og løbetider: Sammenlign med aldersgraduerede løbetider'
-category:
+categories:
   - Løb
   - Løbeberegnere
 tags:

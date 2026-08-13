@@ -7,7 +7,7 @@ header:
   credit: https://images.unsplash.com/photo-1573858129683-59f4d9c445d9
   teaser: /assets/images/unsplash/photo-1573858129683-59f4d9c445d9.jpg
   caption: 'Mikrotræning: 6 forslag til din ferietræning 💗'
-category:
+categories:
 - Træning
 tags:
 - træning

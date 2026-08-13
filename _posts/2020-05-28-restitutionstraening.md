@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1547852356-68f969d6ac59.jpg
   caption: 'Restitutionstræning: Træn for at blive hurtigere klar!'
   alt: Photo by Cris Saur on Unsplash
-category:
+categories:
 - Restitution
 tags:
 - restitution

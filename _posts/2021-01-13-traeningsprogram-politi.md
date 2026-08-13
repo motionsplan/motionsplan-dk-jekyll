@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1649714808311-70b2e7137a9c
   teaser: /assets/images/unsplash/photo-1649714808311-70b2e7137a9c.jpg
   caption: Træningsprogram til politiets optagelsesprøve uden udstyr
-category:
+categories:
 - Træning
 - Træningsprogrammer
 tags:

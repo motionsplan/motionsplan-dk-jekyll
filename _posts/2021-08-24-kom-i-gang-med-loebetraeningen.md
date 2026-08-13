@@ -19,7 +19,7 @@ tags:
   - konditionstræning
   - begynder
   - guide
-category:
+categories:
   - Løb
 last_modified_at: '2025-02-13T21:41:09Z'
 ---

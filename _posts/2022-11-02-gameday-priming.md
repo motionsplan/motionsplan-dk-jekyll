@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1613330652294-1d4dae5affe7.jpg
   credit: https://images.unsplash.com/photo-1613330652294-1d4dae5affe7
   caption: 'Gameday primer: Principper for priming på kampdagen'
-category:
+categories:
 - Træning
 - Sportsperformance
 tags:

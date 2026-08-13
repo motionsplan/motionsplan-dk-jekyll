@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1707723029914-e4f3e27ebc5d
   teaser: /assets/images/unsplash/photo-1707723029914-e4f3e27ebc5d.jpg
   caption: Beregn dit daglige energibehov og energiforbrug
-category:
+categories:
 - Kost & Ernæring
 - Kalorieberegnere
 tags:

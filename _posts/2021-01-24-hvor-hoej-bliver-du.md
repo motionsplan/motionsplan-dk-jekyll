@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1528476283021-40211aa6e14c
   teaser: /assets/images/unsplash/photo-1528476283021-40211aa6e14c.jpg
   caption: Hvor høj bliver jeg – eller mit barn?
-category:
+categories:
   - Antropometri
 tags:
   - beregner

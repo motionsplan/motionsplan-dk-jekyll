@@ -14,7 +14,7 @@ tags:
   - sundhed
   - motionside
   - gang
-category:
+categories:
   - Gang
 last_modified_at: '2026-07-28T10:00:00Z'
 toc: true

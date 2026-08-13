@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/rdellatraining.com/Warm-up-1-da0995fd.jpg
   credit: https://www.rdellatraining.com/wp-content/uploads/2017/02/Warm-up-1.jpg
   caption: "Opvarmning til styrketræning: Øvelser du kan bruge i dag!"
-category:
+categories:
   - Styrketræning
 tags:
   - opvarmning

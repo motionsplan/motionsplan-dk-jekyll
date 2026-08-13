@@ -7,7 +7,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1532384305128-54c7ac0d7139.jpg
   credit: https://images.unsplash.com/photo-1532384305128-54c7ac0d7139
-category:
+categories:
 - Styrketræning
 - Styrkeløft
 tags:

@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1533681475364-326b6803d677
   teaser: /assets/images/unsplash/photo-1533681475364-326b6803d677.jpg
   caption: 'Progressionsmodeller: Progressivt overload i styrketræning 💪'
-category:
+categories:
 - Styrketræning
 tags:
 - træningsplanlægning

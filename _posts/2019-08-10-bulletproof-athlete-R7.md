@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1590260712186-ff1891e5876e.jpg
 tags:
 - anmeldelse
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 last_modified_at: '2019-03-10T08:39:32Z'

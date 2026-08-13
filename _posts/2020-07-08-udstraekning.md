@@ -13,7 +13,7 @@ header:
   teaser: /assets/images/unsplash/photo-1562771379-eafdca7a02f8.jpg
   caption: 'Udstrækning: Guide til udstrækningsøvelser og strækøvelser!'
   overlay_filter: '0.2'
-category:
+categories:
 - Træning
 tags:
 - smidighed

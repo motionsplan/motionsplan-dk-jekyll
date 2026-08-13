@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1593355349790-6330d1a2dc98
   teaser: /assets/images/unsplash/photo-1593355349790-6330d1a2dc98.jpg
   caption: 'Superset: Komplet guide til supersæt'
-category:
+categories:
 - Styrketræning
 tags:
 - træningsplanlægning

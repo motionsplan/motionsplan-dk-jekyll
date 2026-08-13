@@ -8,9 +8,16 @@ permalink: /traeningsafhaengighed-ortoreksi/
 author_profile: true
 toc: true
 breadcrumbs: true
-category:
+categories:
   - Vurderingsværktøjer
   - Psykologi
+tags:
+  - vurderingsværktøj
+  - psykologi
+  - sportspsykologi
+  - passion
+  - træning
+  - motivation
 header:
   teaser: https://images.unsplash.com/photo-1470429346530-f5590bff80d2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tools:

@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm-1f39b615.jpg
   teaser: /assets/images/cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm-1f39b615.jpg
   caption: *title
-category:
+categories:
   - Cykling
   - Hometrainer
 tags:

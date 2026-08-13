@@ -6,7 +6,7 @@ header:
   overlay_image: https://images.unsplash.com/photo-1522844505858-6cdc0201bcd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1522844505858-6cdc0201bcd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
   caption: *title
-category:
+categories:
   - Sundhed
   - Vægttab
 tags:

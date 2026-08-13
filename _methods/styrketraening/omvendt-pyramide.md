@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Omvendt Pyramide"
-category: Styrketræning
+categories: 
+  - Styrketræning
 subcategory: Maksimal Styrke
 permalink: /styrketraening/omvendt-pyramide/
 has_full_article: false

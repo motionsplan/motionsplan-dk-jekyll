@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1469395446868-fb6a048d5ca3
   teaser: /assets/images/unsplash/photo-1469395446868-fb6a048d5ca3.jpg
   caption: Løbeprogram til halvmaraton - 21 km
-category:
+categories:
   - Løb
   - Løbeprogrammer
 tags:

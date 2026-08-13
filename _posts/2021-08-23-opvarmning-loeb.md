@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1600677396650-3d071466086a
   teaser: /assets/images/unsplash/photo-1600677396650-3d071466086a.jpg
   caption: Opvarmning før løb
-category:
+categories:
 - Løb
 tags:
 - opvarmning

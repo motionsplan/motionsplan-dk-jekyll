@@ -10,7 +10,7 @@ language: da
 header:
   teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
   caption: 6 kritierer for en maksimal iltoptagelsestest
-category:
+categories:
 - Kondition
 tags:
 - fysiologi

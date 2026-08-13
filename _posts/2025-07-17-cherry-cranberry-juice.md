@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1530176611600-d05a6387d07c.jpg
   credit: https://images.unsplash.com/photo-1530176611600-d05a6387d07c
   caption: Kirsebærjuice og tranebærjuice til restitution
-category:
+categories:
   - Kost & Ernæring
 tags:
   - kost & ernæring

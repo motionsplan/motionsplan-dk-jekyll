@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1603777953081-624bff44a0a5.jpg
   credit: https://images.unsplash.com/photo-1603777953081-624bff44a0a5
   caption: Det optimale kulhydratforhold under udholdenhedsidræt
-category:
+categories:
 - Kost & Ernæring
 tags:
 - beregner

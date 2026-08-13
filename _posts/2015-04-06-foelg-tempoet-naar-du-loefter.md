@@ -9,7 +9,7 @@ header:
   caption: Alt om tempoløft, tempomanipulation og Time Under Tension (TUT)
 tags:
 - styrketræning
-category:
+categories:
 - Styrketræning
 last_modified_at: '2020-04-10T20:11:29Z'
 ---

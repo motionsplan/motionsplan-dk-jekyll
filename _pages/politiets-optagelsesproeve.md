@@ -9,7 +9,7 @@ last_modified_at: 2026-07-26T20:00:00Z
 header:
   overlay_image: "/assets/images/blog/politiets-fysiske-test.jpeg"
   teaser: "/assets/images/blog/politiets-fysiske-test.jpeg"
-category:
+categories:
   - Tests
 tags:
   - test

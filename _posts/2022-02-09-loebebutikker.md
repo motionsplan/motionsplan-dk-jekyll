@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/unsplash/photo-1539185441755-769473a23570.jpg
   credit: https://images.unsplash.com/photo-1539185441755-769473a23570
   caption: Danske løbebutikker – køb billigt løbetøj online
-category:
+categories:
 - Løb
 tags:
 - butikker

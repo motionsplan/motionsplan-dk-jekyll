@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/i.ytimg.com/hqdefault-73fe8e0b.jpg
   credit: https://i.ytimg.com/vi/TbaBYiS7JrU/hqdefault.jpg
   caption: *title
-category:
+categories:
   - Eksplosivitet
   - Sprinttest
 tags:

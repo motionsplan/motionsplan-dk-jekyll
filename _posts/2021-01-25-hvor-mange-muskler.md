@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1539812278296-26c236ed98f4
   teaser: /assets/images/unsplash/photo-1539812278296-26c236ed98f4.jpg
   caption: Hvor mange muskler har mennesket i kroppen? 💪
-category:
+categories:
 - Anatomi
 tags:
 - muskler

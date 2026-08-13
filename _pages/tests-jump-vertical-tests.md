@@ -7,7 +7,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1462146449396-2d7d4ba877d7.jpg
   credit: https://images.unsplash.com/photo-1462146449396-2d7d4ba877d7
-category:
+categories:
   - Eksplosivitet
   - Springtests
 tags:

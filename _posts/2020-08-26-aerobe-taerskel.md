@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1561311152-33b7c14c119c
   teaser: /assets/images/unsplash/photo-1561311152-33b7c14c119c.jpg
   caption: Aerob tærskel og udholdenhedstræning
-category:
+categories:
 - Fysiologi
 tags:
 - fysiologi

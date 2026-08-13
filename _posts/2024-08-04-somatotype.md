@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1478604659451-3424450de009.jpg
   credit: https://images.unsplash.com/photo-1478604659451-3424450de009
   caption: ️Hvilken kropstype er du? Find din somatotype med vores beregner!
-category:
+categories:
 - Vurderingsværktøjer
 - Kropskomposition
 tags:

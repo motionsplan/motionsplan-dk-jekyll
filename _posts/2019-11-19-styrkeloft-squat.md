@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1534368420009-621bfab424a8
   teaser: /assets/images/unsplash/photo-1534368420009-621bfab424a8.jpg
   caption: Regler til styrkeløft og powerlifting
-category:
+categories:
 - Styrketræning
 - Styrkeløft
 tags:

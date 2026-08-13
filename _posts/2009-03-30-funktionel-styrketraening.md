@@ -12,7 +12,7 @@ header:
   caption: Funktionel træning og styrketræning
 tags:
 - funktionel træning
-category:
+categories:
 - Styrketræning
 last_modified_at: '2020-02-13T22:24:48Z'
 author: linda.kruse

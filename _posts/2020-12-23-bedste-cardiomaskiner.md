@@ -12,7 +12,7 @@ tags:
 - kondition
 - konditionstræning
 - kredsløbsmaskiner
-category:
+categories:
 - Kondition
 last_modified_at: '2020-12-23T18:21:26Z'
 ---

@@ -121,14 +121,36 @@ layout: default
   </article>
 
   {% if page.id and page.related %}
-    <div class="page__related">
-      <p class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</p>
-      <div class="grid__wrapper">
-        {% for post in site.posts limit:4 %}
-          {% if post.id == page.id %}{% continue %}{% endif %}
-          {% include_cached archive-single.html post=post type="grid" %}
+  <div class="page__related">
+    <p class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "Du vil måske også synes om" }}</p>
+    <div class="grid__wrapper">
+      {% assign count = 0 %}
+      {% assign max_related = 4 %}
+      {% assign primary_category = page.categories.first %}
+
+      {% comment %} 1. Find indlæg fra samme primære kategori {% endcomment %}
+      {% if primary_category %}
+        {% for post in site.categories[primary_category] %}
+          {% if post.id != page.id and count < max_related %}
+            {% include_cached archive-single.html post=post type="grid" %}
+            {% assign count = count | plus: 1 %}
+          {% endif %}
         {% endfor %}
-      </div>
+      {% endif %}
+
+      {% comment %} 2. Hvis der er under 4 indlæg i kategorien, suppleres med nyeste indlæg fra andre kategorier {% endcomment %}
+      {% if count < max_related %}
+        {% for post in site.posts %}
+          {% if post.id != page.id and count < max_related %}
+            {% comment %} Undgå dubletter af dem vi allerede har vist fra samme kategori {% endcomment %}
+            {% unless post.categories contains primary_category %}
+              {% include_cached archive-single.html post=post type="grid" %}
+              {% assign count = count | plus: 1 %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
+  </div>
   {% endif %}
 </div>

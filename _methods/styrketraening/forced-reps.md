@@ -5,7 +5,7 @@ permalink: /styrketraening/forced-reps/
 header:
   teaser: /assets/images/hypertrofi/forced-reps.jpg
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "_Forced reps_ er at få en spotter til at give assistance med løftet for at få lidt flere gentagelser efter, at man er ved at være udmattet."
 tags:

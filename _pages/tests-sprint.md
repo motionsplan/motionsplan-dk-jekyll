@@ -15,7 +15,7 @@ header:
   teaser: /assets/images/unsplash/photo-1461896836934-ffe607ba8211.jpg
   caption: "Sprinttests: Måling af lineær hurtighed og acceleration"
   overlay_filter: "0.3"
-category:
+categories:
   - Eksplosivitet
 tags:
   - sprinttest

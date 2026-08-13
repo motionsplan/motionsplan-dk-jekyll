@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/i.ytimg.com/maxresdefault-57623931.jpg
   credit: https://i.ytimg.com/vi/gEQ1M-NKHCA/maxresdefault.jpg
   caption: 'Borg 15 Test: Konditest på cykel'
-category:
+categories:
   - Kondition
   - Konditionstests
 meta:

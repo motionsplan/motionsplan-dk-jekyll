@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1492176273113-2d51f47b23b0
   teaser: /assets/images/unsplash/photo-1492176273113-2d51f47b23b0.jpg
   caption: *title
-category:
+categories:
   - Smidighed
   - Smidighedstests
 tags:

@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1467818488384-3a21f2b79959.jpg
   credit: https://images.unsplash.com/photo-1467818488384-3a21f2b79959
   caption: 'Powerprofil i roning: Beregn din powerkurve på romaskine'
-category:
+categories:
 - Træning
 - Roning
 tags:

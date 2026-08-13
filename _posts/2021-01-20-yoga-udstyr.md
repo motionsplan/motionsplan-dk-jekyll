@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1599901860904-17e6ed7083a0
   teaser: /assets/images/unsplash/photo-1599901860904-17e6ed7083a0.jpg
   caption: 'Yogaudstyr 🙏: Guide til det rigtige udstyr til yoga 🧘🧘‍♂️'
-category:
+categories:
 - Yoga
 tags:
 - yoga

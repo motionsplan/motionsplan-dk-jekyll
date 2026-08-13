@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1550859492-d5da9d8e45f3
   teaser: /assets/images/unsplash/photo-1550859492-d5da9d8e45f3.jpg
   caption: Hvordan beregner du dit daglige energibehov? (Guide)
-category:
+categories:
   - Kost & Ernæring
   - Kalorieberegnere
 tags:

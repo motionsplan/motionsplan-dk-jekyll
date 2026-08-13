@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1610969524113-bae462bb3892
   teaser: /assets/images/unsplash/photo-1610969524113-bae462bb3892.jpg
   caption: Løbeprogram til 10 km
-category:
+categories:
   - Løb
   - Løbeprogrammer
 tags:

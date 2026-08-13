@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1516481265257-97e5f4bc50d5.jpg
   caption: Daily Undulating Periodization - DUP
   alt: Photo by Andrew Tanglao on Unsplash
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

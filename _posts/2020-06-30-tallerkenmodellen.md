@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1533777857889-4be7c70b33f7.jpg
   credit: https://images.unsplash.com/photo-1533777857889-4be7c70b33f7
   caption: 'Tallerkenmodellen: Hvad er Y, T, E og X tallerkenmodellerne?'
-category:
+categories:
 - Kost & Ernæring
 tags:
 - kost & ernæring

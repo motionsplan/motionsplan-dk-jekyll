@@ -11,7 +11,7 @@ header:
   credit: https://i.ytimg.com/vi/rSaR_Aq38SQ/maxresdefault.jpg
   teaser: /assets/images/i.ytimg.com/maxresdefault-06f8a2b2.jpg
   caption: *title
-category:
+categories:
   - Tests
   - Eksplosivitet
   - Hoppetests

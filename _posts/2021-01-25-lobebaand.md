@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1593079831268-3381b0db4a77
   teaser: /assets/images/unsplash/photo-1593079831268-3381b0db4a77.jpg
   caption: 'Guide til løbebånd: Kurvet eller motoriseret 🏃🏃‍♀🐹️'
-category:
+categories:
   - Løb
   - Løbeudstyr
 tags:

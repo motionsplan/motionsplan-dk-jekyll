@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1461896836934-ffe607ba8211
   teaser: /assets/images/unsplash/photo-1461896836934-ffe607ba8211.jpg
   caption: Belastningsstyring med ACWR
-category:
+categories:
   - Tracking
 tags:
   - acwr

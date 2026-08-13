@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1550859492-d5da9d8e45f3
   teaser: /assets/images/unsplash/photo-1550859492-d5da9d8e45f3.jpg
   caption: 'Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag'
-category:
+categories:
   - Kost & Ernæring
 tags:
   - kost & ernæring

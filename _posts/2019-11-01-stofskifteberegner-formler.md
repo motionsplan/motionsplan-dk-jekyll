@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1507413245164-6160d8298b31
   teaser: /assets/images/unsplash/photo-1507413245164-6160d8298b31.jpg
   caption: 'BMR-formler: Sådan beregner du dit basale stofskifte'
-category:
+categories:
 - Kost & Ernæring
 tags:
 - stofskifte

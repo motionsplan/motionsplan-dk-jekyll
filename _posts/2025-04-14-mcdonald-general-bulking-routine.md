@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1605296867304-46d5465a13f1.jpg
   credit: https://images.unsplash.com/photo-1605296867304-46d5465a13f1
   caption: Lyle McDonalds Generic Bulking Routine til muskelvækst (GBR)
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

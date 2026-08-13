@@ -16,7 +16,7 @@ tags:
   - proprioception
   - moc
   - træning
-category:
+categories:
   - Træning
 last_modified_at: 2026-08-02T12:00:00Z
 sidebar:

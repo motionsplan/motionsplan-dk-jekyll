@@ -5,7 +5,7 @@ seo_title: "Træningsprogram Skabelon – Gratis Google Sheets & Excel"
 description: "Hent gratis skabeloner til træningsprogram, styrketræning, løb og træningsdagbog. Få fuldt overblik i Google Sheets, Excel og Google Docs."
 permalink: /skabeloner/
 author_profile: true
-category:
+categories:
   - Træning
 header:
   overlay_image: /assets/images/unsplash/photo-1534644107580-3a4dbd494a95.jpg

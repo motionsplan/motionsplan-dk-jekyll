@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/unsplash/photo-1532444458054-01a7dd3e9fca.avif
   teaser: /assets/images/unsplash/photo-1532444458054-01a7dd3e9fca.avif
   caption: "Sprint: Hvordan løber du hurtigere?"
-category:
+categories:
   - Eksplosivitet
 tags:
   - sprint

@@ -10,7 +10,7 @@ header:
   credit: https://fastrunning.com/wp-content/uploads/2021/01/BD54A075-FAFC-4608-B1D9-50E0A36056E0.jpeg
   caption: "1956: Igloi coached athlete Laszlo Tabori with Ken Wood and Istvan Rozsavolgy."
   credit: "Photo: PA Images / Alamy Stock Photo"
-category:
+categories:
   - Løb
 tags:
   - træning

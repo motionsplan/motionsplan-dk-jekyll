@@ -21,7 +21,7 @@ header:
       url: "#beregnere"
 author_profile: true
 toc: true
-category:
+categories:
   - Træning
 tag:
   - træningsformer

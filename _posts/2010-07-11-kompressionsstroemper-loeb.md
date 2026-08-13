@@ -14,7 +14,7 @@ header:
   credit: https://images.unsplash.com/photo-1504733059175-e37302dfce31
   teaser: /assets/images/unsplash/photo-1504733059175-e37302dfce31.jpg
   caption: Virker kompressionsstrømper på restitution og præstation til løb og cykling?
-category:
+categories:
   - Løb
   - Cykling
   - Restitution

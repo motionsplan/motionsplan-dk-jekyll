@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1585250003309-694ff34512d7.jpg
   credit: https://images.unsplash.com/photo-1585250003309-694ff34512d7
   caption: Hvad er den bedste løbe app til løbetræning 2025?
-category:
+categories:
 - Løb
 tags:
 - løb

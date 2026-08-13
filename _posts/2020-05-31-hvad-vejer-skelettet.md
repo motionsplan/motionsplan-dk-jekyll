@@ -11,7 +11,7 @@ header:
   caption: Hvad vejer menneskets skelet og vores knogler?
   alt: Photo by Mathew Schwartz on Unsplash
   overlay_filter: '0.2'
-category:
+categories:
 - Anatomi
 tags:
 - anatomi

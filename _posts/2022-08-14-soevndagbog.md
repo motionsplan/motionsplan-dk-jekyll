@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1525169267298-12532cf95139.jpg
   credit: https://images.unsplash.com/photo-1525169267298-12532cf95139
   caption: 'Søvndagbog: Kortlæg din søvn og sov bedre'
-category:
+categories:
 - Restitution
 - Søvn
 tags:

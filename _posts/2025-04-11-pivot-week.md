@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1701826510833-15e5a5460e89.jpg
   credit: https://images.unsplash.com/photo-1701826510833-15e5a5460e89
   caption: Hvad er en pivot uge?
-category:
+categories:
 - Styrketræning
 tags:
 - træningsplanlægning

@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1474222300086-56f8a438e47d.jpg
   credit: https://images.unsplash.com/photo-1474222300086-56f8a438e47d
   caption: 'Sportsdrik: Hvordan laver du en hjemmelavet energidrik?'
-category:
+categories:
 - Kost & Ernæring
 tags:
 - væske

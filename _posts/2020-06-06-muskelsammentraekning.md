@@ -9,7 +9,7 @@ header:
   credit: https://www.verywellmind.com/thmb/lipce_c9sabrZqjjE5pFeyfx1aE=/3513x2635/smart/filters:no_upscale()/GettyImages-172594438-56a796f13df78cf7729768ee.jpg
   overlay_filter: 0.4
   caption: *title
-category:
+categories:
   - Anatomi
 tags:
   - muskler

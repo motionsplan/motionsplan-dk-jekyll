@@ -13,7 +13,7 @@ header:
   credit: https://images.unsplash.com/photo-1579722822280-a3d601518cc9
   teaser: /assets/images/unsplash/photo-1579722822280-a3d601518cc9.jpg
   caption: Guide til det Bedste Proteinpulver i 2025 💪
-category:
+categories:
 - Kost & Ernæring
 - Kosttilskud
 tags:

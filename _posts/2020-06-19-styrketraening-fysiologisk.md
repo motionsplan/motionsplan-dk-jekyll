@@ -7,7 +7,7 @@ header:
   credit: https://images.unsplash.com/photo-1549060279-7e168fcee0c2
   teaser: /assets/images/unsplash/photo-1549060279-7e168fcee0c2.jpg
   caption: Photo by Taco Fleur on Unsplash
-category:
+categories:
 - Styrketræning
 tags:
 - fysiologi

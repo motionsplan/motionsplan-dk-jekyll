@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1499209974431-9dddcece7f88
   teaser: /assets/images/unsplash/photo-1499209974431-9dddcece7f88.jpg
   caption: 'Mål din mentaltrivsel og livskvalitet med det validerede WHO-5 spørgeskema.'
-category:
+categories:
 - Vurderingsværktøjer
 - Psykologi
 tags:

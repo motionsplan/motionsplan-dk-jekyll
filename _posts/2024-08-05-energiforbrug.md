@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1452573992436-6d508f200b30.jpg
   credit: https://images.unsplash.com/photo-1452573992436-6d508f200b30
   caption: Udregn bevægelsesøkonomi og effektivitet i cykling
-category:
+categories:
 - Fysiologi
 - Cykling
 tags:

@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1476480862126-209bfaa8edc8.jpg
   credit: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8
   caption: YMCA Modified steptest – Individualiseret test
-category:
+categories:
 - Kondition
 - Konditionstests
 - Steptests

@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1434494878577-86c23bcb06b9
   teaser: /assets/images/unsplash/photo-1434494878577-86c23bcb06b9.jpg
   caption: De bedste trænings og fitness apps
-category:
+categories:
 - Træning
 tags:
 - træning

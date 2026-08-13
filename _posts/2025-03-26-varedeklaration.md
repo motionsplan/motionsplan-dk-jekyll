@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1629214831802-bb2a07f9517e.jpg
   credit: https://images.unsplash.com/photo-1629214831802-bb2a07f9517e
   caption: Sådan læser du en varedeklaration
-category:
+categories:
 - Kost & Ernæring
 tags:
 - kost & ernæring

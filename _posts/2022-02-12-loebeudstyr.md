@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/unsplash/photo-1610969524483-2898ee78a41d.jpg
   credit: https://images.unsplash.com/photo-1610969524483-2898ee78a41d
   caption: 'Løbeudstyr: Begynderguide til de rigtige udstyr til løb'
-category:
+categories:
 - Løb
 tags:
 - træningsudstyr

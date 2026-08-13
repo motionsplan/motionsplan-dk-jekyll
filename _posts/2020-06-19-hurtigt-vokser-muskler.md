@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1552084162-ec07b3f162dc.jpg
   caption: 'Hypertrofi: Hvor hurtigt vokser dine muskler?'
   alt: Photo by Paweł Czerwiński on Unsplash
-category:
+categories:
 - Styrketræning
 tags:
 - beregner

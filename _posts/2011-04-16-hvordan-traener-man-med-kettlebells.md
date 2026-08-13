@@ -11,7 +11,7 @@ tags:
   - styrketræning
   - liste
   - udstyr
-category:
+categories:
   - Styrketræning
 last_modified_at: '2015-03-09T15:37:15Z'
 ---

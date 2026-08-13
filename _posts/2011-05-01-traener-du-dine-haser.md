@@ -10,7 +10,7 @@ tags:
 - styrketræning
 - skader
 - skadesforebyggelse
-category:
+categories:
 - Styrketræning
 last_modified_at: '2020-07-05T21:40:51Z'
 gallery:

@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1656774950529-44a6153521ee.jpg
   credit: https://images.unsplash.com/photo-1656774950529-44a6153521ee
   caption: ️Liftosaur - app til styrketræning
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

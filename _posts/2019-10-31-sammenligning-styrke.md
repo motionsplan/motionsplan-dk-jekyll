@@ -8,7 +8,7 @@ header:
   overlay_image: https://c.pxhere.com/photos/af/dd/arm_wrestling_bar_bet_betting_black_and_white_compare_comparison_competition-920992.jpg!d
   teaser: https://c.pxhere.com/photos/af/dd/arm_wrestling_bar_bet_betting_black_and_white_compare_comparison_competition-920992.jpg!d
   caption: *title
-category:
+categories:
   - Beregnere
   - Styrketræning
 tags:

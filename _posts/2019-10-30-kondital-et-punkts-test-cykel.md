@@ -55,7 +55,7 @@ tools:
     execution: ["Testberegner"]
     anchor: "#timer"
     category_schema: "HealthAndFitnessApplication"
-category:
+categories:
   - Kondition
   - Konditionstests
 tags:

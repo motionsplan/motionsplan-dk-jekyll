@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1553531889-65d9c41c2609.jpg
   credit: https://images.unsplash.com/photo-1553531889-65d9c41c2609
   caption: Hvad skal jeg drikke ved træning og konkurrence?
-category:
+categories:
 - Fysiologi
 - Træning
 tags:

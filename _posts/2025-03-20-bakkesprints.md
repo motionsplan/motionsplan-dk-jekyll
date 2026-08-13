@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/unsplash/photo-1695918425801-41dd27ed8277.jpg
   credit: https://images.unsplash.com/photo-1695918425801-41dd27ed8277
   caption: 'Bakketræning: bakkeløb, bakkesprints og bakkeintervaller'
-category:
+categories:
 - Løb
 tags:
 - træning

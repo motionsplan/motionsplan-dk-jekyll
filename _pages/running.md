@@ -21,7 +21,7 @@ header:
 classes: wide
 toc: true
 breadcrumbs: true
-category:
+categories:
   - Træning
 tag:
   - træningsformer

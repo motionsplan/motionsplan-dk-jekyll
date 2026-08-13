@@ -10,7 +10,7 @@ header:
   caption: 'SMART-modellen: Gør din målsætning SMART og nå nye mål!'
   alt: Photo by Estée Janssens on Unsplash
   overlay_filter: '0.4'
-category:
+categories:
 - Træningsplanlægning
 tags:
 - målsætning

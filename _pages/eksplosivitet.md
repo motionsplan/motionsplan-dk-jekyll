@@ -35,7 +35,7 @@ feature_row_subhubs:
     url: /springtraening/
     btn_label: Læs om springtræning →
     btn_class: btn--success
-category:
+categories:
   - Træning
 tags:
   - træningsformer

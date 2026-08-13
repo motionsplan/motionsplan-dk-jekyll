@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1622407769557-e48f257b96b7.jpg
   credit: https://images.unsplash.com/photo-1622407769557-e48f257b96b7
   caption: 10 tips til at blive en bedre løber
-category:
+categories:
 - Løb
 tags:
 - løb

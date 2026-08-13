@@ -13,7 +13,7 @@ header:
   teaser: /assets/images/unsplash/photo-1541757088-1c919081357f.jpg
   credit: https://images.unsplash.com/photo-1541757088-1c919081357f
   caption: 'Træningsprincipper: 10 gyldne regler om træning'
-category:
+categories:
 - Træning
 - Træningsplanlægning
 tags:

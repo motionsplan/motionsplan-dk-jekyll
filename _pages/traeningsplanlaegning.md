@@ -17,7 +17,7 @@ header:
 author_profile: 'true'
 author: lsolesen
 toc: 'true'
-category:
+categories:
 - Træning
 breadcrumbs: 'true'
 feature_row_strength:

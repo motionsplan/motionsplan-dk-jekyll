@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/unsplash/photo-1428790067070-0ebf4418d9d8.jpg
   credit: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8
   caption: Dynamic Strength Index (DSI)
-category:
+categories:
 - Tests
 - Eksplosivitet
 tags:

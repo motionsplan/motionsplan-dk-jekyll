@@ -12,7 +12,7 @@ header:
   actions:
   - label: <i class='fas fa-print'></i> Print tabel →
     url: '#print'
-category:
+categories:
 - Hastighed
 classes: wide
 tags:

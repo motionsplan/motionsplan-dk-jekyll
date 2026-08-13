@@ -11,7 +11,7 @@ header:
   caption: 'Lineær sprinttest med fotoceller eller stopur'
   overlay_image: /assets/images/unsplash/photo-1461896836934-ffe607ba8211.jpg
   overlay_filter: "0.3"
-category:
+categories:
   - Tests
   - Eksplosivitet
 tags:

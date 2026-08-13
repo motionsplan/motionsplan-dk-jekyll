@@ -8,7 +8,7 @@ language: da
 header:
   teaser: /assets/images/blog/lactate-testing.jpg
   caption: Blodlaktattest testprotokol til løbere og cykelryttere 🏃
-category:
+categories:
   - Kondition
   - Konditionstests
 classes: wide

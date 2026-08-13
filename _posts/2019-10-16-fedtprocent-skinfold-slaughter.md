@@ -7,7 +7,7 @@ excerpt: "Slaugther formlen er bl.a. anvendt i studier af danske skolebørn og k
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
-category:
+categories:
   - Kropskomposition
   - Fedtprocent
   - Hudfoldsmåling

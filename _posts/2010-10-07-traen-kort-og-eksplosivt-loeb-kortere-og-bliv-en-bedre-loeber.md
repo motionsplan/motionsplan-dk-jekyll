@@ -15,7 +15,7 @@ tags:
   - intervaltræning
   - løbeøkonomi
   - styrketræning
-category:
+categories:
   - Løb
   - Løbeprogrammer
 last_modified_at: '2026-08-10T12:00:00Z'

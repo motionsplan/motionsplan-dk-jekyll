@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/unsplash/photo-1571019614242-c5c5dee9f50b.jpg
   credit: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b
   teaser: /assets/images/unsplash/photo-1571019614242-c5c5dee9f50b.jpg
-category:
+categories:
 - Styrketræning
 tags:
 - hypertrofi

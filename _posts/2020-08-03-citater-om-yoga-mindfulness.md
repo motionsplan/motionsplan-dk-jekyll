@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1487088678257-3a541e6e3922.jpg
   caption: 13 citater om yoga, meditation og mindfulness
   overlay_filter: '0.8'
-category:
+categories:
 - Yoga
 tags:
 - citater

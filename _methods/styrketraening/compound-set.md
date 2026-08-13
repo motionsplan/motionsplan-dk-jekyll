@@ -7,7 +7,7 @@ redirect_from:
 header:
   teaser: /assets/images/hypertrofi/compound-set.jpg
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "I et compund sæt kører du to forskellige øvelser til samme muskelgruppe som et supersæt."
 tags:

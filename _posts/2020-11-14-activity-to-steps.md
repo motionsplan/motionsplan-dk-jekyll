@@ -10,7 +10,7 @@ header:
   credit: https://images.unsplash.com/photo-1453342664588-b702c83fc822
   teaser: /assets/images/unsplash/photo-1453342664588-b702c83fc822.jpg
   caption: 'Motionsomregner: Omregn aktivitet, sport og motion til skridt 🚴‍♀️ ⇒ 🚶‍♀️'
-category:
+categories:
 - Beregnere
 tags:
 - beregner

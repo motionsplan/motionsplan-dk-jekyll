@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/unsplash/photo-1591845699489-e357b2346bf1.jpg
   credit: https://images.unsplash.com/photo-1591845699489-e357b2346bf1
   teaser: /assets/images/unsplash/photo-1591845699489-e357b2346bf1.jpg
-category:
+categories:
 - Træning
 - Springtræning
 tags:

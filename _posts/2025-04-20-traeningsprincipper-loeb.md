@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1728532483490-708f6562b738.jpg
   credit: https://images.unsplash.com/photo-1728532483490-708f6562b738
   caption: De 4 træningsprincipper ved løb – Sådan bruger du dem
-category:
+categories:
 - Løb
 tags:
 - træning

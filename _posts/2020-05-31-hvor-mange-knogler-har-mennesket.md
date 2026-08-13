@@ -11,7 +11,7 @@ header:
   caption: Hvor mange knogler har et menneske i kroppen? 🦴️
   alt: Photo by Mathew Schwartz on Unsplash
   overlay_filter: '0.2'
-category:
+categories:
 - Anatomi
 tags:
 - anatomi

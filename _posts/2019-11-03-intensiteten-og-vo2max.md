@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3
   teaser: /assets/images/unsplash/photo-1596358985970-ff88f3ad4cb3.jpg
   caption: 'Maksimal iltoptagelse: Alt du skal vide om at forbedre VO2max'
-category:
+categories:
   - Kondition
 tags:
   - kondition

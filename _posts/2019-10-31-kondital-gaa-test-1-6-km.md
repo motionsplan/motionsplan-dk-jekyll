@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/unsplash/photo-1434119261056-73a0f53c8306.jpg
   caption: 'Rockports Gangtest: 1,6 km gå-test'
   alt: 1,6 km gåtest
-category:
+categories:
 - Kondition
 - Konditionstests
 meta:

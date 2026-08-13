@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b
   teaser: /assets/images/unsplash/photo-1571019613454-1cb2f99b2d8b.jpg
   caption: 'Mavemuskler: Liste og øvelser til muskler i maven'
-category:
+categories:
 - Anatomi
 - Muskler
 tags:

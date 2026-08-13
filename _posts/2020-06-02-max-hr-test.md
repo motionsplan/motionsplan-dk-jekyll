@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1523394643039-a2770cf4a2a0.jpg
   credit: https://images.unsplash.com/photo-1523394643039-a2770cf4a2a0
   overlay_filter: '0.2'
-category:
+categories:
 - Kondition
 tags:
 - test

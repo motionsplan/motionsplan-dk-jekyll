@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1737098140591-f0988ae7e15a.jpg
   credit: https://images.unsplash.com/photo-1737098140591-f0988ae7e15a
   caption: Bikarbonat som kosttilskud for din præstation
-category:
+categories:
 - Kost & Ernæring
 tags:
 - træning

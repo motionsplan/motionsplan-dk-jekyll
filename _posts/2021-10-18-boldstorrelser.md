@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1498940757830-82f7813bf178
   teaser: /assets/images/unsplash/photo-1498940757830-82f7813bf178.jpg
   caption: 'Boldstørrelser og vægt på bolde til sport'
-category:
+categories:
   - Sportsgrene
 tags:
   - bolde

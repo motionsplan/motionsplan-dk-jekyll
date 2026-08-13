@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/hypertrofi/rest-pause-hypertrofi.jpg
 breadcrumbs: true
 image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-category:
+categories:
   - Styrketræning
   - Hypertrofi
 excerpt: "I Rest-pause laver du i løbet af dit sidste sæt nogle korte pauser på 10-15 sekunder, så du samlet set kan lave en større volumen i det samlede sæt, end du ellers ville have kunnet gøre."

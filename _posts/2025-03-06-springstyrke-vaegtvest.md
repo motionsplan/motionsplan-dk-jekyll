@@ -5,7 +5,7 @@ title: Øg springkraften med vægtvest – Effektiv plyometrisk træning
 seo_title: Sådan bruger du en vægtvest til at øge din springkraft
 excerpt: Øv din springkraft med ekstra belastning i din springtræning. En vægtvest kan øge effekten af din plyometrisk træning, især for erfarne atleter.
 description: Øv din springkraft med ekstra belastning i din springtræning. En vægtvest kan øge effekten af din plyometrisk træning, især for erfarne atleter.
-category:
+categories:
   - Springtræning
 tags:
   - spring

@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1743451201783-ab1165df95f5.jpg
   credit: https://images.unsplash.com/photo-1743451201783-ab1165df95f5
   caption: Sådan arbejder du med progression i løbetræningen
-category:
+categories:
 - Løb
 tags:
 - træning

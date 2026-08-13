@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/hypertrofi/german-volume-training-gvt.jpg
 permalink: /styrketraening/gvt/
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "German Volume Training (GVT) er et brutalt styrketræningsprogram med fokus på en høj volumen med 10 sæt x 10 gentagelser i store helkropsøvelser med en vægt der svarer til ~60% af 1RM eller omkring ens 20RM. Alle gentagelser skal laves med 402 i tempo."
 tags:

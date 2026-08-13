@@ -5,7 +5,7 @@ permalink: /styrketraening/myoreps/
 header:
   teaser: /assets/images/hypertrofi/myoreps.jpg
 breadcrumbs: true
-category:
+categories:
   - Hypertrofi
 excerpt: "Myo reps er en træningsteknik som oprindelig stammer fra den norske træner Børge Fagerli, men som i høj grad også er blevet populariseret af Mike Tuchscherer fra Reactive Training Systems."
 tags:

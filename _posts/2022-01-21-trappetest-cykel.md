@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1590523329673-7b10bd21e519.jpg
   credit: https://images.unsplash.com/photo-1590523329673-7b10bd21e519
   caption: 'Trappetest på cykel: En enkel cykeltest du kan lave selv'
-category:
+categories:
 - Kondition
 - Cykling
 - Cykeltests

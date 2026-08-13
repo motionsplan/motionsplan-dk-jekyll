@@ -6,7 +6,7 @@ header:
   overlay_image: https://images.daznservices.com/di/library/GOAL/83/c8/peter-staunton-playertek_1buony74u2mt183kh0vsmfjsj.jpg?t=880392160&quality=90
   teaser: https://images.daznservices.com/di/library/GOAL/83/c8/peter-staunton-playertek_1buony74u2mt183kh0vsmfjsj.jpg?t=880392160&quality=80
   caption: *title
-category:
+categories:
   - Test
 tags:
   - udstyr

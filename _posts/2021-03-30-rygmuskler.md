@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1600677396360-9c4e8e46e7d4
   teaser: /assets/images/unsplash/photo-1600677396360-9c4e8e46e7d4.jpg
   caption: 'Rygmuskler: Liste og øvelser til muskler i ryggen'
-category:
+categories:
 - Anatomi
 - Muskler
 tags:

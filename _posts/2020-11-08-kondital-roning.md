@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1640334554795-095bce07fc8a.jpg
   credit: https://images.unsplash.com/photo-1640334554795-095bce07fc8a
   caption: Kondital på romaskine ud fra 2000 meter test i roning 🚣
-category:
+categories:
 - Kondition
 meta:
   name: 2000 meter ro-test

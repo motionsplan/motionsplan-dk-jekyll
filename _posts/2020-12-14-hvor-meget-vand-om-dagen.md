@@ -13,7 +13,7 @@ header:
   credit: https://images.unsplash.com/photo-1523621509625-54893aa665ff
   teaser: /assets/images/unsplash/photo-1523621509625-54893aa665ff.jpg
   caption: Hvor meget vand skal man drikke om dagen? (Beregner)
-category:
+categories:
 - Kost & Ernæring
 tags:
 - beregner

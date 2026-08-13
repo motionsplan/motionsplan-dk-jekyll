@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1578763363228-6e8428de69b2
   teaser: /assets/images/unsplash/photo-1578763363228-6e8428de69b2.jpg
   caption: 'Løbebånd: 4 tips til løbebåndet i forhold til udendørs løb?'
-category:
+categories:
 - Løb
 - Kondition
 tags:

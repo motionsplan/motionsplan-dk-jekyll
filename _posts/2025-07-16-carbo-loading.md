@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1581543870486-4435de4749fd.jpg
   credit: https://images.unsplash.com/photo-1581543870486-4435de4749fd
   caption: 'Carb-loading: Hvad siger videnskaben og sådan gør du!'
-category:
+categories:
 - Kost & Ernæring
 tags:
 - kost & ernæring

@@ -8,7 +8,7 @@ header:
   overlay_image: https://images.unsplash.com/photo-1535571638417-bc38e1002ccc?auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1535571638417-bc38e1002ccc?auto=format&fit=crop&w=400&q=80
   caption: "Forskel på aerob og anaerob træning"
-category:
+categories:
   - Fysiologi
   - Kondition
 tags:

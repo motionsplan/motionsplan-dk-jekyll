@@ -13,7 +13,7 @@ header:
   credit: https://images.unsplash.com/photo-1619107372089-9b05ed524774
   teaser: /assets/images/unsplash/photo-1619107372089-9b05ed524774.jpg
   caption: Beregn din PAL værdi
-category:
+categories:
 - Kost & Ernæring
 - Kalorieberegnere
 tags:

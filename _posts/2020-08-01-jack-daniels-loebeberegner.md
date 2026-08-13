@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1529795533870-ea8020391255.jpg
   credit: https://images.unsplash.com/photo-1529795533870-ea8020391255
   caption: Jack Daniels løbeberegner kan udregne træningstempo og konkurrencetider
-category:
+categories:
   - Løb
   - Løbeberegnere
 tags:

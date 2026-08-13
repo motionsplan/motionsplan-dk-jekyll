@@ -15,7 +15,7 @@ header:
 author_profile: 'true'
 author: lsolesen
 toc: 'true'
-category:
+categories:
 - Træning
 tag:
 - træning

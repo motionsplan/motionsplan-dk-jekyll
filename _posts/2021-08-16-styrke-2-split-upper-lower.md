@@ -7,7 +7,7 @@ header:
   credit: https://images.unsplash.com/photo-1526407153035-415201c1ba3d
   teaser: /assets/images/unsplash/photo-1526407153035-415201c1ba3d.jpg
   caption: 2-split træningsprogram - upper/lower (UL)
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

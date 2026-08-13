@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/opskrift/lasagneprotein.jpg
   teaser: /assets/images/opskrift/stykkelasagne.jpg
   caption: *title
-category:
+categories:
   - Kost & Ernæring
   - Opskrifter
 tags:

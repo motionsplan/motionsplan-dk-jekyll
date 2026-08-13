@@ -13,7 +13,7 @@ header:
   actions:
   - label: <i class='fas fa-calculator'></i> Hop til beregneren →
     url: '#calculator'
-category:
+categories:
 - Kondition
 - Konditionstests
 # 1. Til dit eget Jekyll-site og oversigter (/tests/ og /beregnere/)

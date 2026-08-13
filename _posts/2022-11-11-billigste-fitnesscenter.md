@@ -8,7 +8,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1596357395104-ba989e72b5ec.jpg
   caption: Guide til at finde et billigt og godt fitnesscenter 🏋️‍♂️
-category:
+categories:
   - Inspiration
 tags:
   - fitness

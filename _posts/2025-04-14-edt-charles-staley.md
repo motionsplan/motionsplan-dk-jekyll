@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/unsplash/photo-1584464367415-2e7ff6482b54.jpg
   credit: https://images.unsplash.com/photo-1584464367415-2e7ff6482b54
   caption: Escalating Density Training (EDT) – Træn mere på kortere tid
-category:
+categories:
 - Styrketræning
 - Styrketræningsprogrammer
 tags:

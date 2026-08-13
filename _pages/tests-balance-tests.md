@@ -15,7 +15,7 @@ tags:
   - balancetest
   - fysioterapi
   - postural kontrol
-category:
+categories:
   - Balance
 last_modified_at: 2026-08-02T12:00:00Z
 faq:

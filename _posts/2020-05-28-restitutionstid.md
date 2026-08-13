@@ -13,7 +13,7 @@ header:
   credit: https://images.unsplash.com/photo-1591147810559-9ae8cc24c862
   caption: 'Restitutionstid: Hvordan bliver jeg hurtigst klar til træning?'
   alt: Photo by Cris Saur on Unsplash
-category:
+categories:
 - Restitution
 tags:
 - restitution

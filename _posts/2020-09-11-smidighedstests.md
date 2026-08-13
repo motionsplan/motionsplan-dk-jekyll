@@ -15,7 +15,7 @@ tags:
   - bevægelighed
   - mobilitet
   - moc
-category:
+categories:
   - Tests
 last_modified_at: 2026-08-02T12:00:00Z
 sidebar:

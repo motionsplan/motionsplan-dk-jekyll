@@ -10,7 +10,7 @@ header:
   credit: https://assets.website-files.com/606e9d26b5e253fc0880655c/60f7885ace96d9569961c62e_App%20Pitch%20GRaph%20Highlight.png
   teaser: /assets/images/assets.website-files.com/60f7885ace96d9569961c62e_App_20Pitch_20GRaph_20Highlight-66dec772.png
   credit: https://assets.website-files.com/606e9d26b5e253fc0880655c/60f7885ace96d9569961c62e_App%20Pitch%20GRaph%20Highlight.png
-category:
+categories:
   - Styrketræning
 tags:
   - udstyr

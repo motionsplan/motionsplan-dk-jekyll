@@ -10,7 +10,7 @@ header:
 tags:
 - styrketræning
 - unilateral
-category:
+categories:
 - Styrketræning
 last_modified_at: '2020-02-12T19:47:02Z'
 ---

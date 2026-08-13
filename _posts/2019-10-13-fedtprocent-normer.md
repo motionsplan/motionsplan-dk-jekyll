@@ -10,7 +10,7 @@ header:
   image_inline: /assets/images/unsplash/photo-1548705085-101177834f47.jpg
   teaser: /assets/images/unsplash/photo-1548705085-101177834f47.jpg
   credit: https://images.unsplash.com/photo-1548705085-101177834f47
-category:
+categories:
   - Kost & Ernæring
   - Fedtprocent
 tags:

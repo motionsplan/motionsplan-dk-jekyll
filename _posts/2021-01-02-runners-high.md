@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/unsplash/photo-1530655638484-de9ff231551e.jpg
   caption: Hvad er Runner's High - og hvordan opnår du følelsen? 🏃
 language: da
-category:
+categories:
 - Kondition
 - Løb
 tags:

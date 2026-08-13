@@ -12,7 +12,7 @@ header:
   credit: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b
   teaser: /assets/images/unsplash/photo-1484480974693-6ca0a78fb36b.jpg
   caption: Træningsdagbog App – Styrke & Kondition
-category:
+categories:
   - Træning
   - Styrketræning
   - Kondition

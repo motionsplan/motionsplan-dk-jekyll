@@ -16,7 +16,7 @@ tags:
 - træningsøvelse
 - udholdenhed
 - begynder
-category:
+categories:
 - Styrketræning
 last_modified_at: '2021-03-21T19:53:30Z'
 programs:

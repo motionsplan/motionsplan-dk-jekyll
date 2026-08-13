@@ -5,7 +5,7 @@ title: Conconi-testen – Bestemmelse af den Anaerobe Tærskel
 seo_title: Conconi-test – Mål din anaerobe tærskel & HRdp uden blodprøver
 excerpt: "Lær alt om Conconi-testen: Fysiologisk teori, testprocedure, bestemmelse af Heart Rate Deflection Point (HRdp) og videnskabelig validitet."
 description: Dybdegående guide til Conconi-testen. Lær hvordan du måler din anaerobe tærskel (syregrænse) via pulskurven uden brug af invasive laktatmålinger.
-category:
+categories:
   - Løb
   - Løbetests
 tags:

@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/mandesager.dk/ArnoldSchwarzenegger_2-9365f9eb.jpg
   credit: https://mandesager.dk/wp-content/uploads/2018/12/ArnoldSchwarzenegger_2.jpg
   caption: *title
-category:
+categories:
   - Styrketræning
   - Styrketræningsprogrammer
 tags:

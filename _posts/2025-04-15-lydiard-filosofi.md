@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/athleticsillustrated.com/LydiardBoys-1cc2ac02.jpg
   credit: https://athleticsillustrated.com/wp-content/uploads/2018/09/LydiardBoys.jpg
   caption: *title
-category:
+categories:
   - Løb
 tags:
   - træning

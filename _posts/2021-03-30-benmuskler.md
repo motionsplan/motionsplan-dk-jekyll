@@ -11,7 +11,7 @@ header:
   credit: https://images.unsplash.com/photo-1434608519344-49d77a699e1d
   teaser: /assets/images/unsplash/photo-1434608519344-49d77a699e1d.jpg
   caption: 'Benmuskler: Liste og øvelser til muskler i benet'
-category:
+categories:
 - Anatomi
 - Muskler
 tags:

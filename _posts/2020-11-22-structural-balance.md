@@ -11,7 +11,7 @@ header:
   - label: <i class='fas fa-file-excel'></i> Sheet med strukturel balance
     url: '#sheet'
     rel: nofollow noopener
-category:
+categories:
 - Styrketræning
 tags:
 - styrketræning

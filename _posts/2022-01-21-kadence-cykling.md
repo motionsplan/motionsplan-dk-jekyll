@@ -10,7 +10,7 @@ header:
   caption: Kadence i cykling og det runde tråd
   overlay_image: /assets/images/unsplash/photo-1628176634111-3e6eac912d5c.jpg
   overlay_filter: "0.3"
-category:
+categories:
   - Cykling
 tags:
   - cykling

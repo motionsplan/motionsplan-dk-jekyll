@@ -8,7 +8,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1608217034924-9e8ef080aa5d.jpg
   credit: https://images.unsplash.com/photo-1608217034924-9e8ef080aa5d
-category:
+categories:
   - Eksplosivitet
 tags:
   - test

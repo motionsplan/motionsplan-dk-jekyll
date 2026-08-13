@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1529795533870-ea8020391255.jpg
   credit: https://images.unsplash.com/photo-1529795533870-ea8020391255
   caption: Konditionstræning og kredsløbstræning
-category:
+categories:
 - Kondition
 tags:
 - kondition

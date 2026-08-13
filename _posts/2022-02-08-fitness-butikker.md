@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1534438327276-14e5300c3a48.jpg
   credit: https://images.unsplash.com/photo-1534438327276-14e5300c3a48
   caption: 'Fitnessbutikker: Køb dit fitnessudstyr i online webshops 🏋️‍♂️'
-category:
+categories:
   - Fitness
 tags:
   - butikker

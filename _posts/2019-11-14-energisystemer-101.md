@@ -8,7 +8,7 @@ header:
   credit: https://images.unsplash.com/photo-1495976797530-f33e6580e44b
   teaser: /assets/images/unsplash/photo-1495976797530-f33e6580e44b.jpg
   caption: 'Energisystemer 101: Aerob og anaerob arbejde'
-category:
+categories:
 - Træning
 - Kondition
 tags:

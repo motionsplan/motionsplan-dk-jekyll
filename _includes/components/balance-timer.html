@@ -491,7 +491,7 @@ document.addEventListener("DOMContentLoaded", function() {
         evalMsg = `<strong>🟡 Betydelig Asymmetri:</strong> Din forskel på ${asymPct}% overstiger de anbefalede 10–15%. Målret din balancetræning mod dit <em>${domMax < nondomMax ? 'dominerende' : 'ikke-dominerende'}</em> ben.`;
       } else {
         statusClass = "status-good";
-        evalMsg = `<strong>✅ Flot resultat:</strong> Du har god postural kontrol med lukkede øjne (>10 sekunder) og fin symmetri mellem benene (${asymPct}% forskel).`;
+        evalMsg = `<strong>✅ Godt resultat:</strong> Du har god postural kontrol med lukkede øjne (>10 sekunder) og fin symmetri mellem benene (${asymPct}% forskel).`;
       }
     } else if(currentTest === 'stork') {
       const minBest = Math.min(domMax, nondomMax);
@@ -503,7 +503,7 @@ document.addEventListener("DOMContentLoaded", function() {
         evalMsg = `<strong>🟡 Asymmetri opdaget:</strong> Du har ${asymPct}% forskel på tæerne. Arbejd med lægløft og enkeltbens balance på det svageste ben.`;
       } else {
         statusClass = "status-good";
-        evalMsg = `<strong>✅ Stærk atletisk balance:</strong> Flot udholdenhed og stabilitet på tæerne med under 15% side-forskellighed.`;
+        evalMsg = `<strong>✅ Stærk atletisk balance:</strong> God udholdenhed og stabilitet på tæerne med under 15% side-forskellighed.`;
       }
     } else {
       if(domMax < 30 || nondomMax < 30) {

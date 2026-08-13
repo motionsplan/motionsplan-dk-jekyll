@@ -9,7 +9,7 @@ header:
   credit: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5
   teaser: /assets/images/unsplash/photo-1610360373636-08dd2b883ea5.jpg
   caption: 'Muskelømhed: Hvorfor får jeg ømme muskler efter træning?'
-category:
+categories:
 - Fysiologi
 tags:
 - muskler

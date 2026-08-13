@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1520536363714-9459b8f1af72.jpg
   credit: https://images.unsplash.com/photo-1520536363714-9459b8f1af72
   caption: 'Trappetest i roning: Test din maksimale præstation'
-category:
+categories:
 - Kondition
 - Konditionstests
 - Roning

@@ -6,7 +6,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1613122707153-070406e9fd27.jpg
   credit: https://images.unsplash.com/photo-1613122707153-070406e9fd27
-category:
+categories:
 - Træning
 - Springtræning
 tags:

@@ -9,7 +9,7 @@ language: da
 header:
   teaser: https://i.ytimg.com/vi/SaZVJZkfwX4/hqdefault.jpg
   caption: *title
-category:
+categories:
   - Tests
 tags:
   - test

@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/unsplash/photo-1598289333486-1d36791de1c2.jpg
   credit: https://images.unsplash.com/photo-1598289333486-1d36791de1c2
   caption: Watt max-testen på cykelergometer. Konditionstest på cykel.
-category:
+categories:
 - Kondition
 - Konditionstests
 meta:

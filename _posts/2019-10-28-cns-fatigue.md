@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/unsplash/photo-1524304108392-fdb27fb3f983.jpg
   overlay_filter: '0.3'
   title: Test træthed i nervesystemet med finger tapping test?
-category:
+categories:
 - Restitution
 tags:
 - test
