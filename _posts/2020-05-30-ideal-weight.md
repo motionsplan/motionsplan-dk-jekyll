@@ -168,6 +168,35 @@ Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om fo
 >
 > --- <cite>[DTU Fødevareinstitutttet](https://www.food.dtu.dk/nyheder/2015/09/danske-kvinders-vaegt-gaar-fortsat-opad)</cite>
 
+## Historisk blik: Fra Brocas tommelfingerregel til moderne BMI
+
+Før forskere begyndte at lave store befolkningsundersøgelser af dødelighed og helbred, forsøgte læger og antropologer i det 19. og tidlige 20. århundrede at opstille enkle matematiske genveje til at udregne en mands eller kvindes idealvægt.
+
+De to mest berømte historiske formler er **Brocas indeks** og **Lorenz' indeks**:
+
+### 1. Brocas indeks (1871)
+I 1871 formulerede den franske kirurg og antropolog Paul Broca en af de allerførste regler for idealvægt. Hans formel var uhyre simpel:
+
+$$\text{Idealvægt (kg)} = \text{Højde (cm)} - 100$$
+
+* **Eksempel:** En person på $180\text{ cm}$ burde ifølge Broca veje præcis $80\text{ kg}$.
+* **Hvorfor den udgik:** Brocas indeks var alt for grovt. Det tog hverken højde for køn, alder eller skeletbygning, og formlen overestimerede i voldsom grad idealvægten for høje personer, mens den gjorde lave personer kunstigt slanke. Senere tilpassede man formlen (f.eks. ved at trække $10\text{ \%}$ fra for mænd og $15\text{ \%}$ for kvinder), men grundlæggende var matematikken for forenklet.
+
+### 2. Lorenz' indeks (1929)
+For at korrigere for Brocas manglende hensyn til køn og højdejustering, videreudviklede den tyske læge Friedrich Lorenz i 1929 formlen. Lorenz' formel indførte en differentiering mellem mænd og kvinder:
+
+* **Mænd:** $\text{Idealvægt (kg)} = (\text{Højde (cm)} - 100) - \frac{\text{Højde (cm)} - 150}{4}$
+* **Kvinder:** $\text{Idealvægt (kg)} = (\text{Højde (cm)} - 100) - \frac{\text{Højde (cm)} - 150}{2}$
+
+* **Eksempel:** For en kvinde på $170\text{ cm}$ giver Lorenz' formel en idealvægt på $(170 - 100) - \frac{170 - 150}{2} = 70 - 10 = 60\text{ kg}$.
+
+### Vejen mod det moderne BMI og Ponderal Index
+Sideløbende med Broca og Lorenz arbejdede den belgiske matematiker Adolphe Quetelet allerede i 1830'erne med det indeks, som Ancel Keys i 1972 omdøbte til [Body Mass Index (BMI)](/bmi/). 
+
+I samme periode opstillede Fritz Rohrer i 1921 sitt tre-dimensionelle [Ponderal Index (Rohrer's Index)](/ponderal-index/), hvor højden opløftes i 3. potens ($m^3$) for bedre at afspejle kroppens reelle volumen.
+
+I dag bruges verken Brocas eller Lorenz' indeks i klinisk praksis eller i vores [BMI-beregner](/bmi-beregner/). De historiske formler er i dag erstattet af store epidemiologiske studier (som f.eks. Peterson et al.), der kobler kropsvægt og højde sammen med reel levetid og sundhedsrisiko.
+
 ## Konklusion
 
 Nyere forskning af [Peterson et al (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841935/) forsøger at lave en universel formel til at estimere den ideelle kropsvægt ved ethvert BMI. Det er en fin ressource at dykke ned i, hvis du gerne vil kigge mere på idealvægt.
