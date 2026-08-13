@@ -191,27 +191,29 @@ $$\text{Kondital} = \frac{483}{10{,}0} + 3{,}5 = 51{,}8 \text{ ml } O_2 / \text{
 
 Du kan sammenligne dit fundne resultat direkte i vores samlede [tabel for kondital for mænd og kvinder](/kondital/).
 
+---
+
+## Timer
+{: id="timer" }
+
+Vi har lavet en timer, hvor du kan holde styr på en række løbere på 2400-meter-testen. Som en ekstra lille feature giver tidtageren automatisk karakter til politiets optagelsesprøve, og det er muligt at registrere omgangstider.
+
+{% include components/track-test-timer.html %}
+
+---
+
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
 
 ---
 
-## Timer
-{: id="timer" }
-
-Vi har lavet en timer, hvor du kan holde styr på en række løbere på 2400-meter-testen. Som en ekstra lille feature giver tidtageren automatisk karakter, og det er muligt at registrere omgangstider.
-
-Læg mærke til at tidtageren ikke gemmer resultaterne. Så du skal huske lige at tage et billede af resultaterne.
-
-{% include components/track-test-timer.html %}
-
----
-
-## Litteratur og referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Litteratur og referencer</h2></summary>
 
 * **Cooper, K. H. (1968).** *A means of assessing maximal oxygen intake: Correlation between field and treadmill testing.* Journal of the American Medical Association (JAMA), 203(3), 201–204.
 * **Mayorga-Vega, D., Bocanegra, O. L., Peña, J., & Viciana, J. (2016).** *Criterion-related validity of the distance- and time-based walk/run field tests for estimating maximal oxygen uptake: A systematic review and meta-analysis.* PLOS ONE, 11(3), e0151671. [PubMed ID: 26987118](https://pubmed.ncbi.nlm.nih.gov/26987118/)
 * **The Cooper Institute (2018).** *50 Years of the Cooper 12-Minute Run.* Tilgængelig online via [cooperinstitute.org](https://www.cooperinstitute.org/2018/06/08/50-years-of-the-cooper-12-minute-run).
 * **Politiskolen / Rigspolitiet.** *Politiets fysiske optagelsesprøve – Krav og protokoller for 2400-meter løbetest.*
 * **TopEndSports.** *2.4 km Run Test (1.5 Mile Run).* Normer og beregningsformel for 2,4 km testen. Tilgængelig via [topendsports.com](https://www.topendsports.com/testing/tests/2-4-km-run.htm).
+</details>

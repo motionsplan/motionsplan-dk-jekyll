@@ -72,7 +72,7 @@ Politiets optagelsesprøve består af en række fysiske tests, der stiller krav 
 
 Med adgang til et fitnesscenter kan du målrette træningen mod de krav, du skal opfylde.
 
-Læs mere om de specifikke tests her: [Politiets fysiske test - krav og forberedelse](/traening-politiets-fysiske-test/)
+Læs mere om de specifikke tests her: [Politiets fysiske test - krav og forberedelse](/politiets-fysiske-tests-krav-optagelsesproeve/)
 {: .notice }
 
 ## Fordele ved at træne i fitnesscenter
@@ -190,7 +190,7 @@ Når du har gennemført programmet:
 
 Vil du have mere inspiration til din forberedelse? Se også:
 
-- [Oversigt over træning til politiets fysiske test](/traening-politiets-fysiske-test/)
+- [Oversigt over træning til politiets fysiske test](/politiets-fysiske-tests-krav-optagelsesproeve/)
 - [Træningsprogram til politiets fysiske test derhjemme](/politi-traeningsprogram/)
 - [Guide til politiets optagelsesprøve](/politiets-optagelsesproeve/)
 

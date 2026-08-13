@@ -1,6 +1,6 @@
 ---
-title: Guide til det Bedste Proteinpulver i 2025 💪
-seo_title: Bedste proteinpulver 2025 – Find den rette type til dig
+title: Guide til det Bedste Proteinpulver 💪
+seo_title: Bedste proteinpulver 2026 – Find den rette type til dig
 excerpt: Se hvilken type proteinpulver der passer bedst til dig. Få overblik over valle, kasein og veganske varianter – og
   vores topvalg i 2025.
 description: Se hvilken type proteinpulver der passer bedst til dig. Få overblik over valle, kasein og veganske varianter
@@ -12,7 +12,7 @@ header:
   overlay_image: /assets/images/unsplash/photo-1579722822280-a3d601518cc9.jpg
   credit: https://images.unsplash.com/photo-1579722822280-a3d601518cc9
   teaser: /assets/images/unsplash/photo-1579722822280-a3d601518cc9.jpg
-  caption: Guide til det Bedste Proteinpulver i 2025 💪
+  caption: Guide til det Bedste Proteinpulver 💪
 categories:
 - Kost & Ernæring
 - Kosttilskud
@@ -135,7 +135,7 @@ Baseret på fx ærteprotein, ris, hamp og soja. Velegnet til **veganere** og per
 
 En nyere type protein, der minder mere om saft end en milkshake. **Let, forfriskende og ofte laktosefri.**
 
-## De 3 bedste proteinpulvere i 2025 🥇
+## De 3 bedste proteinpulvere 🥇
 
 ### 1. Bodylab Whey 100
 

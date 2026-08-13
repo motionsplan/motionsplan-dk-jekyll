@@ -12,12 +12,12 @@ categories:
   - Kondition
 tags:
   - kondition
-  - træningsprogram
   - træning
   - aerob træning
   - anaerob træning
   - intervaltræning
   - træningsmetode
+  - hiit
 gallery:
   - image_path: /assets/images/pinterest/hiit-47x15.jpg
     url: /assets/images/pinterest/hiit-47x15.jpg

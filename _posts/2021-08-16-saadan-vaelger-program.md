@@ -14,11 +14,11 @@ header:
   caption: "Sådan vælger du det rette styrketræningsprogram"
 categories:
   - Styrketræning
+  - Træningsprogrammer
 tags:
   - styrketræning
   - begynder
   - guide
-  - træningsprogrammer
 last_modified_at: '2026-08-03T16:00:00Z'
 toc: true
 faq:

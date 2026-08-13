@@ -28,8 +28,14 @@
   <div class="track-topbar">
     <div class="track-header-card">
       <div class="card-title-row">
-        <span class="card-title">Banetest Tidtager (Multi-Løber)</span>
-        <button class="info-icon-btn" type="button" title="Læs om modulet">ℹ️</button>
+        <!-- TITEL OG INFO-KNAP LIGE BAGVED -->
+        <div class="title-with-info">
+          <span class="card-title">Banetest Tidtager (Multi-Løber)</span>
+          <button class="info-icon-btn" type="button" title="Læs om modulet">ℹ️</button>
+        </div>
+        
+        <!-- FULD SKÆRM KNAP I ØVERSTE HØJRE HJØRNE -->
+        <button class="fullscreen-btn" id="btn-fullscreen" type="button" title="Åbn/Luk fuldskærm">⛶ Fuldskærm</button>
       </div>
       <div class="card-desc">Tag tid på op til 20 løbere med automatisk karakterskala og manuel override.</div>
     </div>
@@ -181,11 +187,45 @@
 .track-test-widget { background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 12px; max-width: 880px; width: 100%; margin: 1.2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif; box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden; }
 .track-test-widget * { box-sizing: border-box; }
 
+/* FULD SKÆRM STYLING */
+.track-test-widget:fullscreen,
+.track-test-widget:-webkit-full-screen {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  height: 100vh !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  padding: 16px !important;
+  overflow-y: auto !important;
+  background: #ffffff !important;
+}
+
 .track-topbar { display: flex; flex-direction: column; gap: 6px; margin-bottom: 6px; text-align: left; }
 .track-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 6px 12px; }
+
+/* HEADER ROW OG FLYTTET INFO-KNAP + NY FULD SKÆRM KNAP */
 .card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.title-with-info { display: flex; align-items: center; gap: 4px; }
 .card-title { font-weight: 800; font-size: 0.92rem; color: #1e293b; }
 .info-icon-btn { background: transparent; border: none; font-size: 1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+
+.fullscreen-btn {
+  background: #ffffff;
+  border: 1px solid #a5d8ff;
+  color: #1c7ed6;
+  font-size: 0.76rem;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.fullscreen-btn:hover { background: #228be6; color: #ffffff; }
+.fullscreen-btn.is-active { background: #fa5252; color: #ffffff; border-color: #e03131; }
+
 .card-desc { font-size: 0.76rem; color: #475569; margin-top: 1px; line-height: 1.25; }
 
 /* MODALS */
@@ -464,6 +504,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const btnScreenshot = widget.querySelector("#btn-take-screenshot");
   const btnExportCsv = widget.querySelector("#btn-export-csv");
   const wakelockStatus = widget.querySelector("#wakelock-status");
+  const btnFullscreen = widget.querySelector("#btn-fullscreen");
 
   const infoModal = widget.querySelector("#track-info-modal");
   const infoIconBtn = widget.querySelector(".info-icon-btn");
@@ -482,6 +523,37 @@ document.addEventListener("DOMContentLoaded", function() {
     if (i === 4) opt.selected = true;
     runnerCountSelect.appendChild(opt);
   }
+
+  // FULD SKÆRM FUNKTIONALITET
+  function toggleFullscreen() {
+    if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+      if (widget.requestFullscreen) {
+        widget.requestFullscreen();
+      } else if (widget.webkitRequestFullscreen) {
+        widget.webkitRequestFullscreen();
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      }
+    }
+  }
+
+  function updateFullscreenBtn() {
+    const isFS = !!(document.fullscreenElement || document.webkitFullscreenElement);
+    if (btnFullscreen) {
+      btnFullscreen.innerHTML = isFS ? '✖ Luk fuldskærm' : '⛶ Fuldskærm';
+      btnFullscreen.classList.toggle('is-active', isFS);
+    }
+  }
+
+  if (btnFullscreen) {
+    btnFullscreen.addEventListener("click", toggleFullscreen);
+  }
+  document.addEventListener("fullscreenchange", updateFullscreenBtn);
+  document.addEventListener("webkitfullscreenchange", updateFullscreenBtn);
 
   // WAKE LOCK
   async function requestWakeLock() {
@@ -688,7 +760,6 @@ document.addEventListener("DOMContentLoaded", function() {
         actionButtonsHtml = `<button class="btn-undo-finish" data-id="${r.id}">↩️ FORTRYD (${r.undoSecondsLeft}s)</button>`;
       } else if (r.finished) {
         if (mode === 'time' && r.isEditingDist) {
-          // KOMPAKT INLINE REDIGERING (PRÆCIS 52PX HØJDE)
           actionButtonsHtml = `
             <div class="inline-dist-edit-container">
               <input type="number" class="inline-dist-input" data-id="${r.id}" value="${r.finishDistance !== null ? r.finishDistance : totalDistance}" step="10">
@@ -709,7 +780,6 @@ document.addEventListener("DOMContentLoaded", function() {
             </button>`;
         }
       } else if (mode === 'time') {
-        // TIDSBASERET KØRENDE/IDLE: Kun LAP knap
         actionButtonsHtml = `
           <button class="btn-lap btn-full-width" data-id="${r.id}" ${!isRunning ? 'disabled' : ''}>
             <span>LAP ${nextLapNum}</span>
@@ -787,7 +857,6 @@ document.addEventListener("DOMContentLoaded", function() {
     container.querySelectorAll(".btn-undo-finish").forEach(b => b.addEventListener("click", function(e) { e.stopPropagation(); undoFinishRunner(parseInt(this.dataset.id)); }));
     container.querySelectorAll(".edit-finish-trigger").forEach(b => b.addEventListener("click", function(e) { e.stopPropagation(); editRunnerResult(parseInt(this.dataset.id)); }));
     
-    // Gem redigeret distance i Time-mode -> GEMMER AUTOMATISK I LOGGEN
     container.querySelectorAll(".btn-save-dist-inline").forEach(b => b.addEventListener("click", function(e) {
       e.stopPropagation();
       const runnerId = parseInt(this.dataset.id);
@@ -800,7 +869,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         r.isEditingDist = false;
         
-        // AUTOMATISK GEM I LOG VED KLIK PÅ GEM
         saveRunnerToLog(r);
         r.isSaved = true;
         
@@ -970,7 +1038,6 @@ document.addEventListener("DOMContentLoaded", function() {
     btnStartAll.className = "btn btn--giant-action";
     btnStartAll.innerHTML = "🚀 START";
 
-    // VED TIDSTEST: Markér alle uafsluttede løbere som færdige
     if (testMode === 'time') {
       runners.forEach(r => {
         r.finished = true;

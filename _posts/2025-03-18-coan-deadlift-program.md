@@ -25,6 +25,24 @@ meta:
   author: Ed Coan
   level: erfaren
   goal: dødløft
+programs:
+  - id: "program-coan-philippi-deadlift"
+    title: "Coan/Philippi 10-Ugers Dødløftcyklus"
+    description: "Klassisk 10-ugers specialiseret dødløftprogram designet af Ed Coan. Kombinerer tunge arbejdssæt, eksplosive speed sets og målrettede suppleringsøvelser til opbygning af maksimal dødløftstyrke."
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["Specialiseret", "Periodiseret", "Træningsprogram"]
+    modality: ["Styrketræning"]
+    level: ["Øvet", "Erfaren"]
+    duration: "10 uger"
+    frequency: "1 dag/uge (dødløft-pas)"
+    split_type: "Specialiseret Dødløft-fokus"
+    goal: ["Maksimalstyrke", "Dødløft"]
+    equipment: ["Vægtstang", "Vægtskiver", "Kabeltårn / Lat Pulldown"]
+    target_group: ["Styrkeløftere", "Stærkmænd", "Erfarne løftere", "Mænd", "Kvinder"]
+    anchor: "#program"
+    related_tests: []
+    related_tools:
+      - "tool-1rm-beregner"
 ---
 
 Coan dødløftprogrammet er et populært 10 ugers program, som er designet af den legendariske styrkeløfter Ed Coan.

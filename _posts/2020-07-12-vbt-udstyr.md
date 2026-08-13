@@ -1,6 +1,6 @@
 ---
 title: "Hvilket Udstyr Skal Du Bruge til VBT?"
-seo_title: "Det Bedste Udstyr til Velocity-Based Training 2025"
+seo_title: "Det Bedste Udstyr til Velocity-Based Training 2026"
 description: Få indsigt i de bedste værktøjer og udstyr til velocity-based training, fra lineære positionstransducere til accelerometre.
 excerpt: Få indsigt i de bedste værktøjer og udstyr til velocity-based training, fra lineære positionstransducere til accelerometre.
 permalink: /vbt-udstyr/

@@ -14,7 +14,6 @@ categories:
 - Styrketræningsprogrammer
 tags:
 - styrketræning
-- træningsprogrammer
 breadcrumbs: 'true'
 classes: wide
 header:

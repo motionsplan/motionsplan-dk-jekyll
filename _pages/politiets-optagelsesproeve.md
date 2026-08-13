@@ -85,8 +85,7 @@ Hvis du består Prøvedag 1, indkaldes du til Prøvedag 2, som fokuserer på din
 
 Succes til politiets optagelsesprøve handler om rettidig forberedelse i alle faser af testen. Vi har samlet to dybdegående guider, der hjælper dig helt i mål:
 
-* 🏃‍♂️ **[Politiets Fysiske Tests & Krav](/politiets-fysiske-tests-krav-optagelsesproeve/):** Se alle krav, karakterskalaer for mænd og kvinder, videoer af øvelserne samt råd til 2400-meter løbetesten.
-* 🏋️ **[Træningsprogram til Politiets Optagelsesprøve](/traening-politiets-fysiske-test/):** Følg et strukturert træningsprogram sammensat af erfarne undervisere fra Vejle Idrætshøjskole, så du er i din livs form på prøvedagen.
+* 🏃‍♂️ **[Politiets fysiske tests, krav og træningstips](/politiets-fysiske-tests-krav-optagelsesproeve/):** Se alle krav, karakterskalaer for mænd og kvinder, videoer af øvelserne samt råd til 2400-meter løbetesten.
 
 ---
 

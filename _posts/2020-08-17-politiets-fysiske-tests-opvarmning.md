@@ -1,9 +1,10 @@
 ---
-title: &title "Opvarmning til Politiets fysiske test - sådan gør du"
+title: &title "Opvarmning til politiets fysiske test - Program & Timer"
 permalink: /politiets-fysiske-test/opvarmning/
-seo_title: "Opvarmning til Politiets fysiske test – sådan gør du"
-excerpt: "Politiets fysiske test starter med en omfattende og hård opvarmning. Det er en god generel opvarmning, som du også kan bruge til hverdag."
-last_modified_at: 2025-03-17T09:41:09Z
+seo_title: "Opvarmning til Politiets fysiske test – Program & Timer"
+excerpt: "Det komplette 15-minutters opvarmningsprogram til Politiets fysiske test og idræt. Med interaktiv opvarmnings-timer direkte på mobilen."
+description: "Lær Politiets officielle opvarmningsprogram at kende. Brug vores interaktive timer til 15-minutters opvarmning i hallen eller til idrætstimen."
+last_modified_at: 2026-08-13T10:00:00Z
 language: da
 header:
   overlay_image: /assets/images/blog/politiets-fysiske-test.jpeg
@@ -16,77 +17,83 @@ tags:
   - optagelsesprøve
   - politi
   - polititest
+  - idræt
+keywords:
+  - politiets opvarmning
+  - opvarmningsprogram idræt
+  - opvarmning til politiets fysiske test
+  - 15 minutters opvarmning
 ---
 
-Opvarmningen er en central del af politiets fysiske prøve. Derfor er det vigtigt, at du sætter dig ind i kravene til opvarmningen.
+Opvarmningen er den første del af Politiets fysiske optagelsesprøve. Det er et fast, obligatorisk program på 15 minutter, der skal gennemføres og godkendes, før du må gå videre til resten af prøverne.
 
-Ud over at være et testkrav, så er det faktisk en fin og generel opvarmning, der forbereder dig på at træne efterfølgende. 
+Mange aspiranter bliver overraskede over, hvor udmattende opvarmningen i virkeligheden er. Samtidig er det fysiologisk set et af de mest velstrukturerede **15-minutters opvarmningsprogrammer**, du kan bruge – uanset om du træner til Politiskolen eller leder efter det perfekte opvarmningsprogram til idrætstimerne i gymnasiet eller folkeskolen.
 
-En målrettet opvarmning øger blodcirkulationen, forbereder muskler og led på belastningen og mindsker risikoen for skader. I denne guide får du en praktisk opvarmningsrutine, der specifikt tilpasses prøvens krav, så du kan præstere optimalt fra start.
+---
 
-## Opvarmning til politiets fysiske tests
+## ⏱️ Interaktiv opvarmnings-timer: Kør programmet direkte på mobilen
+{: id="player" }
 
-Opvarmningen er den første del af politiprøvens fysiske test. Opvarmningen skal gøre dig klar til prøvens øvrige elementer, men nogle bliver overrasket over, at opvarmningen også er udmattende.
+Skal du træne opvarmningen igennem i hallen eller fitnesscenteret? I stedet for at I selv skal holde øje med stopuret undervejs, kan I bruge vores **interaktive opvarmnings-timer** herunder.
+
+Timeren styrer automatisk hele forløbet:
+* **1. Løbedel:** 30 sekunders nedtælling med lydbip ved halvvejs-skift (15 sek.) og ved ny øvelse.
+* **2. Hoppedel:** 30 sekunders nedtælling med 5 sekunders klargøringspause før hver øvelse.
+* **3. Styrkedel:** Tager tid på dine 12 gentagelser, så I kan køre i eget tempo og trykke videre, når I er færdige.
+* **Oversigt:** Klik på *Programoversigt* for at åbne hele øvelseslisten og hoppe direkte til en øvelse.
+
+<div class="notice--info" markdown="1">
+💡 **Ideel til idrætstimen:** Dette program passer perfekt til 15 minutters pulsfremmende og alsidig opvarmning i idræt. Sæt mobilen til en højttaler i hallen og tryk på start!
+</div>
+
+{% include components/politi-opvarmning-player.html %}
+
+---
+
+## Programmet for Politiets opvarmning
+
+Opvarmningen tager ca. 15 minutter og er opbygget i tre faste faser: løbedel, hoppedel og styrkedel. Du kan forberede dig 100 % på opvarmningen, da det altid er nøjagtigt de samme øvelser, der udføres i samme rækkefølge.
 
 {% include video provider="youtube" id="isDmCC3_fPk" %}
 
-Opvarmningen varer omkring 15 minutter. Opvarmningen til de fysiske tests er opdelt i en løbedel, hoppedel og en styrkedel. Du kan læse hele programmet for opvarmningen til den politiets fysiske optagelsesprøve i denne [PDF](https://politi.dk/politiskolen/om-politiskolen/optagelsespr%C3%B8ven).
+### 1. Løbedel (4–5 minutter)
+*Udføres i 30 sekunder pr. øvelse. Ved rundsving, sidestep og krydsløb skiftes arm/retning efter 15 sekunder.*
 
-Du kan forberede dig godt på opvarmningen, for det er altid de samme øvelser, der laves.
-
-For at bestå opvarmningen skal du gennemføre alle øvelserne og elementerne i opvarmningen, og du skal følge anvisningerne undervejs.
-
-### 1. Løbedel (4-5 minutter)
-
-Cirka 30 sekunder per øvelse.
-
-- Alm. løb 
-- Alm. løb med rundsving fremad H+V 
-- Alm. løb med rundsving bagud H+V 
-- Sidestep 
-- Krydsløb 
+- Almindeligt løb 
+- Løb med rundsving fremad (H+V)
+- Løb med rundsving bagud (H+V)
+- Sidestep (skift retning halvvejs)
+- Krydsløb (skift retning halvvejs)
 - Gadedrengeløb 
 - Baglæns løb 
-- Reaktionsøvelser – klap i gulvet hhv. højre og venstre – begge hænder samtidig 
+- Reaktionsøvelser (klap i gulvet med hhv. højre, venstre og begge hænder)
 
-### 2. Hoppedel (4-5 minutter)
-
-Cirka 30 sekunder per øvelse.
+### 2. Hoppedel (4–5 minutter)
+*Udføres i 30 sekunder pr. øvelse med kort klargøring mellem øvelserne.*
 
 - Sprællemand 
 - Skihop 
-- Sprællemand m. 360° rotation 
-- Skihop m. 360° rotation 
+- Sprællemand med 360° rotation 
+- Skihop med 360° rotation 
 - Fejesving med to rundsving 
 - Knæ-til-albue 
 - Fod-til-hånd Englehop 
 
-### 3. Styrkedel (3-4 minutter)
+### 3. Styrkedel (3–4 minutter)
+*Udføres som faste gentagelser i roligt, kontrolleret tempo.*
 
-- Mavebøjninger (12 stk) 
-- Rygbøjninger (12 stk) 
-- Benbøjninger (12 stk) 
-- Armstrækninger (12 stk) 
-- Sakseben (12 stk H + 12 stk V) 
-- Lunges/Fremfald (12 stk – 6 hvert ben) 
-- Mountain climbers (12 stk H +12 stk V) 
+- Mavebøjninger (12 stk.) 
+- Rygbøjninger (12 stk.) 
+- Benbøjninger / Air squats (12 stk.) 
+- Armstrækninger / Pushups (12 stk.) 
+- Sakseben (12 stk. højre + 12 stk. venstre) 
+- Lunges / Fremfald (12 stk. i alt – 6 på hvert ben) 
+- Mountain climbers (12 stk. højre + 12 stk. venstre) 
 
-## Træn til hele den fysiske test
+---
 
-Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til politiets optagelsesprøve.
+## Hvad er næste skridt i din forberedelse?
 
-Jeg oplever mange elever, der bliver lidt overraskede over hvor hård den samlede prøve er, fordi de ofte træner disciplinerne enkeltvis.
+Når du har styr på opvarmningsrutinen, er det afgørende, at du også træner op til de fem øvrige delprøver, så du vænner kroppen til at præstere under samlet træthed.
 
-Politiets fysiske test har både en opvarmningsdel og fem delprøver. De fem delprøver bliver vurderet efter syvtrinsskalaen, og du skal leve op til minimumskravene i alle prøverne for at bestå den samlede prøve.
-
-Kravene i de fysiske test og et par af øvelserne varierer for mænd og kvinder i delprøverne.
-
-## Opsummering
-
-En effektiv opvarmning til politiets fysiske prøve bør fokusere på mobilitet, aktivering af de relevante muskelgrupper og specifik forberedelse til de enkelte testelementer. Ved at følge en struktureret opvarmning sikrer du en bedre præstation og reducerer risikoen for skader.
-
-**Næste skridt:**
-
-- Implementér opvarmningsrutinen i din træning, så den bliver en naturlig del af din forberedelse.
-- Test, hvordan din krop reagerer på opvarmningen, og tilpas den efter behov.
-- Sørg for, at du har styr på de [specifikke fysiske krav i optagelsesprøven](/politiets-fysiske-tests-krav-optagelsesproeve/), så din opvarmning er målrettet de rigtige øvelser.
+* 📋 **[Se alle fysiske krav & karakterskalaer for Politiets Fysiske Test](/politiets-fysiske-tests-krav-optagelsesproeve/)** – Få det fulde overblik over kravene i 2400-meter løb, bænkpres, kropshævninger, længdespring og 8-tals løbet, samt strukturerede træningsprogrammer.

@@ -17,6 +17,58 @@ $doc-font-size: 15px;
 @import "mathjax";
 @import "profile-card";
 
+/* Mænd / Kvinder Grid & Kort */
+.m-k-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.card-mand {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-top: 4px solid #0284c7;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card-kvinde {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-top: 4px solid #db2777;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+// Gør alle tabeller fuldbredde sitewide
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse; // Sikrer rene grænser uden dobbeltstreger
+  
+  // Sikrer at celler fordeler sig og overholder padding/borders i bredden
+  th, td {
+    box-sizing: border-box;
+  }
+}
+
+.page__content, article {
+  table {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    
+    // Valgfrit: Sikrer at tabellen kan scrolle vandret på mobil i stedet for at trykke siden
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    @media (min-width: 600px) {
+      display: table; // Vender tilbage til normal tabelvisning på større skærme
+    }
+  }
+}
+
 /* ==========================================================================
    GENEREL TYPOGRAFI & IKONER
    ========================================================================== */

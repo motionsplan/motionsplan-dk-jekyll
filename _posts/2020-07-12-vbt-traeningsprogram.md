@@ -49,6 +49,23 @@ feature_row:
     btn_class: "btn--info"
     btn_label: Læs mere
     rel: sponsored nofollow noopener
+programs:
+  - id: "program-vbt-6-uge-block"
+    title: "6-Ugers Velocity Based Training (VBT) Program"
+    description: "Block-periodiseret 6-ugers styrkeprogram baseret på hastighedsstyring (VBT), bar-velocity zoner og 20% hastighedstabs-cutoff (velocity loss) for Squat og Bænkpres."
+    category: ["Styrketræning", "Styrketræningsprogrammer"]
+    type: ["VBT-program", "Periodiseret", "Træningsprogram"]
+    modality: ["Styrketræning", "VBT"]
+    level: ["Øvet", "Erfaren"]
+    duration: "6 uger"
+    frequency: "4 dage/uge"
+    split_type: "Upper/Lower Split (VBT-fokus)"
+    goal: ["Maksimalstyrke", "Eksplosivitet", "Hastighedsstyring"]
+    equipment: ["Vægtstang", "Squat rack", "Bænk", "VBT-sensor / Hastighedsmåler"]
+    target_group: ["Styrkeløftere", "Atleter", "Erfarne løftere", "Mænd", "Kvinder"]
+    anchor: "#eksempel-paa-et-velocity-baseret-program"
+    related_tests: []
+    related_tools: []
 ---
 
 Læs hvordan du kan designe et træningsprogram, der bruger hastighed som parameter til at optimere din træning og få mere præcise resultater.

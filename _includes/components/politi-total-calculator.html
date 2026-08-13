@@ -1,0 +1,610 @@
+<style>
+  .politi-calc-box {
+    background: #0f172a;
+    color: #f8fafc;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 20px 0 25px 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    font-family: inherit;
+    border: 1px solid #1e293b;
+  }
+
+  /* HEADER PA SAMME LINJE */
+  .politi-calc-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1e293b;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .politi-calc-topbar h3 {
+    margin: 0;
+    color: #fbc02d;
+    font-size: 1.15em;
+    font-weight: 800;
+  }
+
+  .politi-calc-gender {
+    display: flex;
+    background: #1e293b;
+    border-radius: 6px;
+    padding: 2px;
+    border: 1px solid #334155;
+  }
+
+  .politi-calc-gender button {
+    padding: 5px 10px;
+    background: transparent;
+    color: #94a3b8;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .politi-calc-gender button.active {
+    background: #fbc02d;
+    color: #000000;
+  }
+
+  /* 6 KORT GRID */
+  .politi-calc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .politi-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .politi-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .politi-card-title {
+    font-size: 0.75em;
+    font-weight: 800;
+    color: #38bdf8;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+
+  /* BADGE APPERANCE MATECHING BP-WIDGET */
+  .politi-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #334155;
+    color: #94a3b8;
+    font-weight: 900;
+    font-size: 0.9em;
+    width: 38px;
+    height: 32px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .politi-badge.active-grade {
+    background: #fbc02d;
+    color: #000000;
+    box-shadow: 0 2px 8px rgba(251, 192, 45, 0.3);
+  }
+
+  .politi-badge.badge-ok {
+    background: #16a34a;
+    color: #ffffff;
+  }
+
+  .politi-badge.badge-failed {
+    background: #dc2626;
+    color: #ffffff;
+  }
+
+  /* INPUT ELEMENTS */
+  .politi-card-body {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+  }
+
+  .politi-card-body input,
+  .politi-card-body select {
+    background: #0f172a;
+    border: 1px solid #475569;
+    color: #ffffff;
+    padding: 6px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.88em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .politi-card-body input:focus,
+  .politi-card-body select:focus {
+    outline: none;
+    border-color: #fbc02d;
+  }
+
+  /* SUBTEXT (NÆSTE SPRING) */
+  .politi-card-sub {
+    font-size: 0.72em;
+    color: #94a3b8;
+    margin-top: 6px;
+    min-height: 1.2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* TOTAL BOTTOM BAR */
+  .politi-total-bar {
+    background: #1e293b;
+    border-radius: 8px;
+    padding: 10px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid #fbc02d;
+  }
+
+  .politi-total-info {
+    font-size: 0.82em;
+    color: #cbd5e1;
+  }
+
+  .politi-total-badge {
+    background: #0f172a;
+    border: 1px solid #334155;
+    padding: 4px 12px;
+    border-radius: 6px;
+    text-align: center;
+  }
+
+  .politi-total-num {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #fbc02d;
+    line-height: 1;
+  }
+
+  .politi-total-lbl {
+    font-size: 0.65em;
+    color: #94a3b8;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+</style>
+
+<div class="politi-calc-box">
+  
+  <!-- TOPBAR -->
+  <div class="politi-calc-topbar">
+    <strong>Karakterberegner</strong>
+    <div class="politi-calc-gender">
+      <button type="button" id="c-btn-m" class="active" onclick="setCalcGender('male')">👨 Mand</button>
+      <button type="button" id="c-btn-f" onclick="setCalcGender('female')">👩 Kvinde</button>
+    </div>
+  </div>
+
+  <!-- 6 KORT GRID -->
+  <div class="politi-calc-grid">
+    
+    <!-- 1. OPVARMNING -->
+    <div class="politi-card">
+      <div class="politi-card-head">
+        <span class="politi-card-title">1. Opvarmning</span>
+        <div id="b-opv" class="politi-badge">DNF</div>
+      </div>
+      <div class="politi-card-body">
+        <button type="button" id="btn-opv-toggle" onclick="toggleOpv()" style="width: 100%; padding: 6px; background: #0f172a; border: 1px solid #475569; color: #94a3b8; border-radius: 5px; font-weight: bold; font-size: 0.82em; cursor: pointer;">
+          Ej gennemført
+        </button>
+      </div>
+      <div id="s-opv" class="politi-card-sub">Skal bestås</div>
+    </div>
+
+    <!-- 2. 8-TALS LØB -->
+    <div class="politi-card">
+      <div class="politi-card-head">
+        <span class="politi-card-title">2. 8-tals løb</span>
+        <div id="b-8tal" class="politi-badge">DNF</div>
+      </div>
+      <div class="politi-card-body">
+        <input type="number" id="i-8tal" step="0.1" placeholder="Sekunder" oninput="runCalc()">
+      </div>
+      <div id="s-8tal" class="politi-card-sub">-</div>
+    </div>
+
+    <!-- 3. LÆNGDESPRING -->
+    <div class="politi-card">
+      <div class="politi-card-head">
+        <span class="politi-card-title">3. Længdespring</span>
+        <div id="b-jump" class="politi-badge">DNF</div>
+      </div>
+      <div class="politi-card-body">
+        <input type="number" id="i-jump" step="5" placeholder="CM" oninput="runCalc()">
+      </div>
+      <div id="s-jump" class="politi-card-sub">-</div>
+    </div>
+
+    <!-- 4. KROPSHÆVNINGER -->
+    <div class="politi-card">
+      <div class="politi-card-head">
+        <span id="lbl-pulls" class="politi-card-title">4. Pullups</span>
+        <div id="b-pulls" class="politi-badge">DNF</div>
+      </div>
+      <div class="politi-card-body">
+        <input type="number" id="i-pulls" min="0" placeholder="Gentagelser" oninput="runCalc()">
+      </div>
+      <div id="s-pulls" class="politi-card-sub">-</div>
+    </div>
+
+    <!-- 5. BÆNKPRES -->
+    <div class="politi-card">
+      <div class="politi-card-head">
+        <span class="politi-card-title">5. Bænkpres</span>
+        <div id="b-bench" class="politi-badge">DNF</div>
+      </div>
+      <div class="politi-card-body">
+        <select id="i-bench-w" onchange="runCalc()"></select>
+        <input type="number" id="i-bench-r" placeholder="Reps" min="0" max="30" oninput="runCalc()">
+      </div>
+      <div id="s-bench" class="politi-card-sub">-</div>
+    </div>
+
+    <!-- 6. 2400M LØB -->
+    <div class="politi-card">
+      <div class="politi-card-head">
+        <span class="politi-card-title">6. 2400m Løb</span>
+        <div id="b-run" class="politi-badge">DNF</div>
+      </div>
+      <div class="politi-card-body">
+        <input type="number" id="i-run-m" placeholder="Min" min="7" max="25" style="width: 50%;" oninput="runCalc()">
+        <span style="color: #94a3b8;">:</span>
+        <input type="number" id="i-run-s" placeholder="Sek" min="0" max="59" style="width: 50%;" oninput="runCalc()">
+      </div>
+      <div id="s-run" class="politi-card-sub">-</div>
+    </div>
+
+  </div>
+
+  <!-- BUNDBAR MED TOTAL SNIT -->
+  <div id="total-bar" class="politi-total-bar">
+    <div class="politi-total-info">
+      <strong id="tot-title" style="color: #fff; font-size: 0.95em;">Udfyld prøverne ovenfor</strong>
+      <div id="tot-sub" style="font-size: 0.85em; color: #94a3b8;">Alle 6 prøver skal gennemføres for samlet karakter.</div>
+    </div>
+    <div class="politi-total-badge">
+      <div id="tot-val" class="politi-total-num">DNF</div>
+      <div class="politi-total-lbl">Samlet Snit</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+let cGender = 'male';
+let opvOk = false;
+
+function setCalcGender(g, skipCalc = false) {
+  cGender = g;
+  document.getElementById('c-btn-m').classList.toggle('active', g === 'male');
+  document.getElementById('c-btn-f').classList.toggle('active', g === 'female');
+  
+  document.getElementById('lbl-pulls').innerText = g === 'male' ? '4. Pullups' : '4. Bodyrows';
+
+  const wSel = document.getElementById('i-bench-w');
+  const currentVal = wSel.value;
+  wSel.innerHTML = '';
+  const weights = g === 'male' ? [90, 80, 70, 60, 50] : [50, 45, 40, 35, 30];
+  
+  weights.forEach(w => {
+    const opt = document.createElement('option');
+    opt.value = w;
+    opt.innerText = w + ' kg';
+    wSel.appendChild(opt);
+  });
+
+  if (weights.includes(parseInt(currentVal))) {
+    wSel.value = currentVal;
+  }
+
+  if (!skipCalc) runCalc();
+}
+
+function toggleOpv() {
+  opvOk = !opvOk;
+  updateOpvUI();
+  runCalc();
+}
+
+function updateOpvUI() {
+  const btn = document.getElementById('btn-opv-toggle');
+  const b = document.getElementById('b-opv');
+  const s = document.getElementById('s-opv');
+
+  if (opvOk) {
+    btn.innerText = "✓ Gennemført";
+    btn.style.borderColor = "#16a34a";
+    btn.style.color = "#4ade80";
+    b.innerText = "OK";
+    b.className = "politi-badge badge-ok";
+    s.innerText = "Godkendt";
+  } else {
+    btn.innerText = "Ej gennemført";
+    btn.style.borderColor = "#475569";
+    btn.style.color = "#94a3b8";
+    b.innerText = "DNF";
+    b.className = "politi-badge";
+    s.innerText = "Skal bestås";
+  }
+}
+
+function calc8Tal(sec, g) {
+  if (!sec || sec <= 0) return null;
+  if (g === 'male') {
+    if (sec <= 15.0) return { g: "12", val: 12, next: "Maksimal karakter!" };
+    if (sec <= 15.6) return { g: "10", val: 10, next: "-" + (sec - 15.0).toFixed(1) + "s for 12" };
+    if (sec <= 16.2) return { g: "07", val: 7,  next: "-" + (sec - 15.6).toFixed(1) + "s for 10" };
+    if (sec <= 16.8) return { g: "04", val: 4,  next: "-" + (sec - 16.2).toFixed(1) + "s for 7" };
+    if (sec <= 17.5) return { g: "02", val: 2,  next: "-" + (sec - 16.8).toFixed(1) + "s for 4" };
+    return { g: "-3", val: -3, next: "-" + (sec - 17.5).toFixed(1) + "s for at bestå" };
+  } else {
+    if (sec <= 16.4) return { g: "12", val: 12, next: "Maksimal karakter!" };
+    if (sec <= 17.1) return { g: "10", val: 10, next: "-" + (sec - 16.4).toFixed(1) + "s for 12" };
+    if (sec <= 17.7) return { g: "07", val: 7,  next: "-" + (sec - 17.1).toFixed(1) + "s for 10" };
+    if (sec <= 18.3) return { g: "04", val: 4,  next: "-" + (sec - 17.7).toFixed(1) + "s for 7" };
+    if (sec <= 18.7) return { g: "02", val: 2,  next: "-" + (sec - 18.3).toFixed(1) + "s for 4" };
+    return { g: "-3", val: -3, next: "-" + (sec - 18.7).toFixed(1) + "s for at bestå" };
+  }
+}
+
+function calcJump(cm, g) {
+  if (!cm || cm <= 0) return null;
+  if (g === 'male') {
+    if (cm >= 255) return { g: "12", val: 12, next: "Maksimal karakter!" };
+    if (cm >= 240) return { g: "10", val: 10, next: "+" + (255 - cm) + " cm for 12" };
+    if (cm >= 230) return { g: "07", val: 7,  next: "+" + (240 - cm) + " cm for 10" };
+    if (cm >= 220) return { g: "04", val: 4,  next: "+" + (230 - cm) + " cm for 7" };
+    if (cm >= 210) return { g: "02", val: 2,  next: "+" + (220 - cm) + " cm for 4" };
+    return { g: "-3", val: -3, next: "+" + (210 - cm) + " cm for at bestå" };
+  } else {
+    if (cm >= 205) return { g: "12", val: 12, next: "Maksimal karakter!" };
+    if (cm >= 190) return { g: "10", val: 10, next: "+" + (205 - cm) + " cm for 12" };
+    if (cm >= 180) return { g: "07", val: 7,  next: "+" + (190 - cm) + " cm for 10" };
+    if (cm >= 170) return { g: "04", val: 4,  next: "+" + (180 - cm) + " cm for 7" };
+    if (cm >= 160) return { g: "02", val: 2,  next: "+" + (170 - cm) + " cm for 4" };
+    return { g: "-3", val: -3, next: "+" + (160 - cm) + " cm for at bestå" };
+  }
+}
+
+function calcPulls(reps, g) {
+  if (reps === "" || reps === null || reps < 0) return null;
+  reps = parseInt(reps);
+  if (g === 'male') {
+    if (reps >= 12) return { g: "12", val: 12, next: "Maksimal karakter!" };
+    if (reps >= 10) return { g: "10", val: 10, next: "+" + (12 - reps) + " reps for 12" };
+    if (reps >= 8)  return { g: "07", val: 7,  next: "+" + (10 - reps) + " reps for 10" };
+    if (reps >= 6)  return { g: "04", val: 4,  next: "+" + (8 - reps) + " reps for 7" };
+    if (reps >= 4)  return { g: "02", val: 2,  next: "+" + (6 - reps) + " reps for 4" };
+    return { g: "-3", val: -3, next: "+" + (4 - reps) + " reps for at bestå" };
+  } else {
+    if (reps >= 20) return { g: "12", val: 12, next: "Maksimal karakter!" };
+    if (reps >= 15) return { g: "10", val: 10, next: "+" + (20 - reps) + " reps for 12" };
+    if (reps >= 10) return { g: "07", val: 7,  next: "+" + (15 - reps) + " reps for 10" };
+    if (reps >= 8)  return { g: "04", val: 4,  next: "+" + (10 - reps) + " reps for 7" };
+    if (reps >= 5)  return { g: "02", val: 2,  next: "+" + (8 - reps) + " reps for 4" };
+    return { g: "-3", val: -3, next: "+" + (5 - reps) + " reps for at bestå" };
+  }
+}
+
+function calcBench(w, r, g) {
+  if (r === "" || r === null || r < 0) return null;
+  w = parseInt(w);
+  r = parseInt(r);
+
+  if (r < 8) return { g: "-3", val: -3, next: "Nå mindst 8 reps for at bestå" };
+
+  if (g === 'male') {
+    if (w === 90 && r >= 10) return { g: "12", val: 12, next: "Maksimal karakter!" };
+    if (w === 90 && r >= 8)  return { g: "10", val: 10, next: "Nå 10 reps på 90kg for 12" };
+    if (w === 80 && r >= 10) return { g: "10", val: 10, next: "Øg til 90kg (8 reps) for 10/12" };
+    if (w === 80 && r >= 8)  return { g: "07", val: 7,  next: "Nå 10 reps på 80kg for 10" };
+    if (w === 70 && r >= 10) return { g: "07", val: 7,  next: "Øg til 80kg (8 reps) for 7/10" };
+    if (w === 70 && r >= 8)  return { g: "04", val: 4,  next: "Nå 10 reps på 70kg for 7" };
+    if (w === 60 && r >= 10) return { g: "04", val: 4,  next: "Øg til 70kg (8 reps) for 4/7" };
+    if (w === 60 && r >= 8)  return { g: "02", val: 2,  next: "Nå 10 reps på 60kg for 4" };
+    if (w === 50 && r >= 10) return { g: "02", val: 2,  next: "Øg til 60kg (8 reps) for 2/4" };
+    return { g: "-3", val: -3, next: "Nå 10 reps på 50kg for at bestå" };
+  } else {
+    if (w === 50 && r >= 10) return { g: "12", val: 12, next: "Maksimal karakter!" };
+    if (w === 50 && r >= 8)  return { g: "10", val: 10, next: "Nå 10 reps på 50kg for 12" };
+    if (w === 45 && r >= 10) return { g: "10", val: 10, next: "Øg til 50kg (8 reps) for 10/12" };
+    if (w === 45 && r >= 8)  return { g: "07", val: 7,  next: "Nå 10 reps på 45kg for 10" };
+    if (w === 40 && r >= 10) return { g: "07", val: 7,  next: "Øg til 45kg (8 reps) for 7/10" };
+    if (w === 40 && r >= 8)  return { g: "04", val: 4,  next: "Nå 10 reps på 40kg for 7" };
+    if (w === 35 && r >= 10) return { g: "04", val: 4,  next: "Øg til 40kg (8 reps) for 4/7" };
+    if (w === 35 && r >= 8)  return { g: "02", val: 2,  next: "Nå 10 reps på 35kg for 4" };
+    if (w === 30 && r >= 10) return { g: "02", val: 2,  next: "Øg til 35kg (8 reps) for 2/4" };
+    return { g: "-3", val: -3, next: "Nå 10 reps på 30kg for at bestå" };
+  }
+}
+
+function calcRun(m, s, g) {
+  if (m === "" || m === null) return null;
+  const totSec = (parseInt(m) || 0) * 60 + (parseInt(s) || 0);
+  if (totSec <= 0) return null;
+
+  if (g === 'male') {
+    if (totSec <= 540) return { g: "12", val: 12, next: "Maksimal karakter!" };
+    if (totSec <= 580) return { g: "10", val: 10, next: "-" + (totSec - 540) + "s for 12" };
+    if (totSec <= 620) return { g: "07", val: 7,  next: "-" + (totSec - 580) + "s for 10" };
+    if (totSec <= 660) return { g: "04", val: 4,  next: "-" + (totSec - 620) + "s for 7" };
+    if (totSec <= 720) return { g: "02", val: 2,  next: "-" + (totSec - 660) + "s for 4" };
+    return { g: "-3", val: -3, next: "-" + (totSec - 720) + "s for at bestå" };
+  } else {
+    if (totSec <= 630) return { g: "12", val: 12, next: "Maksimal karakter!" };
+    if (totSec <= 690) return { g: "10", val: 10, next: "-" + (totSec - 630) + "s for 12" };
+    if (totSec <= 720) return { g: "07", val: 7,  next: "-" + (totSec - 690) + "s for 10" };
+    if (totSec <= 760) return { g: "04", val: 4,  next: "-" + (totSec - 720) + "s for 7" };
+    if (totSec <= 810) return { g: "02", val: 2,  next: "-" + (totSec - 760) + "s for 4" };
+    return { g: "-3", val: -3, next: "-" + (totSec - 810) + "s for at bestå" };
+  }
+}
+
+function updateCardUI(badgeId, subId, res) {
+  const b = document.getElementById(badgeId);
+  const s = document.getElementById(subId);
+
+  if (!res) {
+    b.innerText = "DNF";
+    b.className = "politi-badge";
+    s.innerText = "-";
+  } else {
+    b.innerText = res.g;
+    if (res.val > 0) {
+      b.className = "politi-badge active-grade";
+    } else {
+      b.className = "politi-badge badge-failed";
+    }
+    s.innerText = res.next;
+  }
+}
+
+function saveToStorage() {
+  localStorage.setItem('politi_tot_gender', cGender);
+  localStorage.setItem('politi_tot_opv', opvOk ? '1' : '0');
+  localStorage.setItem('politi_tot_8tal', document.getElementById('i-8tal').value);
+  localStorage.setItem('politi_tot_jump', document.getElementById('i-jump').value);
+  localStorage.setItem('politi_tot_pulls', document.getElementById('i-pulls').value);
+  localStorage.setItem('politi_tot_bench_w', document.getElementById('i-bench-w').value);
+  localStorage.setItem('politi_tot_bench_r', document.getElementById('i-bench-r').value);
+  localStorage.setItem('politi_tot_run_m', document.getElementById('i-run-m').value);
+  localStorage.setItem('politi_tot_run_s', document.getElementById('i-run-s').value);
+}
+
+function loadFromStorage() {
+  // 1. Hent gemt køn og opvarmnings-status
+  const savedGender = localStorage.getItem('politi_tot_gender') || 'male';
+  const savedOpv = localStorage.getItem('politi_tot_opv');
+
+  // Set køn og byg dropdowns uden at køre beregning endnu
+  setCalcGender(savedGender, true);
+
+  // Set opvarmnings-state
+  if (savedOpv === '1') {
+    opvOk = true;
+    updateOpvUI();
+  }
+
+  // 2. Indlæs alle inputfelter FRA localStorage FØR der beregnes/gemmes på ny
+  const fields = {
+    'i-8tal': 'politi_tot_8tal',
+    'i-jump': 'politi_tot_jump',
+    'i-pulls': 'politi_tot_pulls',
+    'i-bench-w': 'politi_tot_bench_w',
+    'i-bench-r': 'politi_tot_bench_r',
+    'i-run-m': 'politi_tot_run_m',
+    'i-run-s': 'politi_tot_run_s'
+  };
+
+  for (let id in fields) {
+    const val = localStorage.getItem(fields[id]);
+    if (val !== null && val !== "") {
+      const el = document.getElementById(id);
+      if (el) el.value = val;
+    }
+  }
+
+  // 3. Nu hvor ALLE felter er fyldt ud, kører vi den samlede beregning
+  runCalc();
+}
+
+function runCalc() {
+  const r8 = calc8Tal(parseFloat(document.getElementById('i-8tal').value), cGender);
+  const rJ = calcJump(parseInt(document.getElementById('i-jump').value), cGender);
+  const rP = calcPulls(document.getElementById('i-pulls').value, cGender);
+  const rB = calcBench(document.getElementById('i-bench-w').value, document.getElementById('i-bench-r').value, cGender);
+  const rR = calcRun(document.getElementById('i-run-m').value, document.getElementById('i-run-s').value, cGender);
+
+  updateCardUI('b-8tal', 's-8tal', r8);
+  updateCardUI('b-jump', 's-jump', rJ);
+  updateCardUI('b-pulls', 's-pulls', rP);
+  updateCardUI('b-bench', 's-bench', rB);
+  updateCardUI('b-run', 's-run', rR);
+
+  // Gem de opdaterede felter
+  saveToStorage();
+
+  const tests = [r8, rJ, rP, rB, rR];
+  const filled = tests.filter(t => t !== null);
+
+  const totBar = document.getElementById('total-bar');
+  const totTitle = document.getElementById('tot-title');
+  const totSub = document.getElementById('tot-sub');
+  const totVal = document.getElementById('tot-val');
+
+  const hasFailed = tests.some(t => t && t.val <= 0);
+
+  if (!opvOk || hasFailed) {
+    if (hasFailed || (filled.length === 5 && !opvOk)) {
+      totBar.style.borderLeftColor = "#dc2626";
+      totTitle.innerText = "❌ IKKE GODKENDT";
+      totTitle.style.color = "#f87171";
+      totVal.innerText = "00";
+      totVal.style.color = "#f87171";
+
+      if (!opvOk) {
+        totSub.innerText = "Opvarmningen skal gennemføres og godkendes.";
+      } else {
+        totSub.innerText = "Minimumskravet (02) er ikke nået i alle prøver.";
+      }
+      return;
+    }
+  }
+
+  if (filled.length < 5 || !opvOk) {
+    totBar.style.borderLeftColor = "#fbc02d";
+    totTitle.innerText = "Udfyld alle 6 prøver";
+    totTitle.style.color = "#ffffff";
+    totVal.innerText = "DNF";
+    totVal.style.color = "#fbc02d";
+    totSub.innerText = `Udfyldt: ${filled.length + (opvOk ? 1 : 0)}/6 elementer.`;
+  } else {
+    const sum = filled.reduce((acc, t) => acc + t.val, 0);
+    const rawAvg = sum / 5;
+    const rounded = Math.round(rawAvg);
+
+    totBar.style.borderLeftColor = "#16a34a";
+    totTitle.innerText = `🎉 BESTÅET! (Eksakt snit: ${rawAvg.toFixed(1)})`;
+    totTitle.style.color = "#4ade80";
+    totVal.innerText = rounded < 10 && rounded >= 0 ? "0" + rounded : rounded;
+    totVal.style.color = "#4ade80";
+    totSub.innerText = `Afrundet samlet karakter på 7-trinsskalaen: ${rounded}`;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  loadFromStorage();
+});
+</script>

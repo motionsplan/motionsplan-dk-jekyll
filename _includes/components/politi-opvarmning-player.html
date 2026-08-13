@@ -1,0 +1,458 @@
+<div id="opvarmning-widget-container" class="opvarmning-player-card" style="position: relative; background: #ffffff; border: 3px solid #0284c7; border-radius: 14px; padding: 20px; margin: 25px 0; box-shadow: 0 10px 25px rgba(0,0,0,0.08); font-family: inherit; transition: border-color 0.4s ease;">
+  
+  <!-- FULD OVERLAY PROGRAM-PANEL (ÅBNER INDEN I PLAYEREN MED KRYDS) -->
+  <div id="player-modal-overlay" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #ffffff; border-radius: 12px; z-index: 100; padding: 20px; box-sizing: border-box; flex-direction: column;">
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; margin-bottom: 12px;">
+      <div>
+        <h4 style="margin: 0; color: #0f172a; font-size: 1.1em; font-weight: 800;">📋 Hele Opvarmningsprogrammet</h4>
+        <p style="margin: 2px 0 0 0; font-size: 0.8em; color: #64748b;">Klik på en øvelse for at hoppe direkte dertil</p>
+      </div>
+      <button onclick="closeModal()" style="background: #f1f5f9; border: 1px solid #cbd5e1; color: #0f172a; font-size: 1.2em; font-weight: bold; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">
+        ✖
+      </button>
+    </div>
+
+    <!-- RULLEBAR LISTE -->
+    <div id="player-modal-list" style="flex: 1; overflow-y: auto; padding-right: 4px;">
+      <!-- Genereres dynamisk i JS -->
+    </div>
+  </div>
+
+  <!-- OVERSRIFT & HEADER -->
+  <div style="text-align: center; margin-bottom: 16px;">
+    <span id="section-badge" style="background: #e0f2fe; color: #0369a1; font-size: 0.78em; font-weight: 800; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s ease;">
+      15 Minutters Program
+    </span>
+    <h3 style="margin: 8px 0 2px 0; color: #0f172a; font-size: 1.4em;">⏱️ Politiets Opvarmnings-Timer</h3>
+    <p style="margin: 0; color: #64748b; font-size: 0.88em;">Automatisk tidtagning i løbe- og hoppedel — Manuel styring i styrkedelen.</p>
+  </div>
+
+  <!-- HOVED-DISPLAY -->
+  <div id="player-display-box" style="background: #0f172a; color: #ffffff; border-radius: 12px; padding: 22px 18px; text-align: center; margin-bottom: 16px; position: relative; overflow: hidden; transition: background-color 0.4s ease;">
+    
+    <!-- KATEGORI TAG -->
+    <div id="player-category" style="font-size: 0.85em; font-weight: bold; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; transition: color 0.3s ease;">
+      1. LØBEDEL
+    </div>
+
+    <!-- ØVELSE TITEL -->
+    <div id="player-exercise" style="font-size: 1.65em; font-weight: 800; min-height: 2.2em; display: flex; align-items: center; justify-content: center; line-height: 1.2; color: #f8fafc;">
+      Tryk på Start
+    </div>
+
+    <!-- STATUS MEDDELELSE (Halvvejs-skift / Klargøring / Reps) -->
+    <div id="player-status-msg" style="font-size: 0.88em; font-weight: 700; color: #facc15; min-height: 1.4em; margin-top: -4px; margin-bottom: 4px;">
+      &nbsp;
+    </div>
+
+    <!-- NEDTÆLLING / STOPUR DISPLAY -->
+    <div id="player-timer" style="font-size: 3.6em; font-weight: 900; color: #38bdf8; font-variant-numeric: tabular-nums; margin: 2px 0 8px 0; transition: color 0.3s ease;">
+      00:30
+    </div>
+
+    <!-- NÆSTE ØVELSE PREVIEW -->
+    <div style="font-size: 0.83em; color: #94a3b8; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 8px; margin-top: 8px;">
+      Næste: <span id="player-next-exercise" style="color: #cbd5e1; font-weight: 600;">-</span>
+    </div>
+
+    <!-- PROGRESS BAR -->
+    <div style="width: 100%; background: rgba(255,255,255,0.15); height: 6px; border-radius: 3px; margin-top: 12px; overflow: hidden;">
+      <div id="player-progress" style="width: 0%; background: #38bdf8; height: 100%; transition: width 0.3s linear, background-color 0.3s ease;"></div>
+    </div>
+  </div>
+
+  <!-- BETJENINGSKNAPPER -->
+  <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
+    <button id="btn-start-pause" onclick="togglePlayPause()" style="background: #16a34a; color: white; border: none; padding: 12px 22px; border-radius: 8px; font-weight: bold; font-size: 0.98em; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: background 0.2s;">
+      <span id="btn-icon">▶</span> <span id="btn-text">Start</span>
+    </button>
+    
+    <button id="btn-next-step" onclick="skipExercise()" style="background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; padding: 12px 18px; border-radius: 8px; font-weight: bold; font-size: 0.9em; cursor: pointer;">
+      ⏭️ Næste
+    </button>
+
+    <button onclick="resetPlayer()" style="background: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; padding: 12px 16px; border-radius: 8px; font-weight: bold; font-size: 0.9em; cursor: pointer;">
+      🔄 Nulstil
+    </button>
+
+    <button onclick="openModal()" style="background: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; padding: 12px 18px; border-radius: 8px; font-weight: bold; font-size: 0.9em; cursor: pointer;">
+      📋 Program
+    </button>
+  </div>
+
+</div>
+
+<script>
+// FARVE-THEMES FOR DE 3 SEKTIONER
+const sectionThemes = {
+  "1. Løbedel": {
+    main: "#0284c7",
+    accent: "#38bdf8",
+    badgeBg: "#e0f2fe",
+    badgeText: "#0369a1",
+    bgDark: "#0f172a"
+  },
+  "2. Hoppedel": {
+    main: "#d97706",
+    accent: "#fbbf24",
+    badgeBg: "#fef3c7",
+    badgeText: "#b45309",
+    bgDark: "#1e1b18"
+  },
+  "3. Styrkedel": {
+    main: "#4f46e5",
+    accent: "#a5b4fc",
+    badgeBg: "#e0e7ff",
+    badgeText: "#3730a3",
+    bgDark: "#13122b"
+  }
+};
+
+// ØVELSESPROGRAM
+const workoutProgram = [
+  // 1. LØBEDEL (30s automatisk)
+  { cat: "1. Løbedel", name: "Almindeligt Løb", type: "time", dur: 30, switchHalf: false },
+  { cat: "1. Løbedel", name: "Løb m. rundsving fremad", type: "time", dur: 30, switchHalf: true },
+  { cat: "1. Løbedel", name: "Løb m. rundsving bagud", type: "time", dur: 30, switchHalf: true },
+  { cat: "1. Løbedel", name: "Sidesteps", type: "time", dur: 30, switchHalf: true },
+  { cat: "1. Løbedel", name: "Krydsløb", type: "time", dur: 30, switchHalf: true },
+  { cat: "1. Løbedel", name: "Gadedrengeløb", type: "time", dur: 30, switchHalf: false },
+  { cat: "1. Løbedel", name: "Baglæns løb", type: "time", dur: 30, switchHalf: false },
+  { cat: "1. Løbedel", name: "Reaktionsøvelser (Klap i gulv)", type: "time", dur: 30, switchHalf: false },
+
+  // 2. HOPPEDEL (30s automatisk med 5s klargøring)
+  { cat: "2. Hoppedel", name: "Sprællemand", type: "time", dur: 30, prep: 5, switchHalf: false },
+  { cat: "2. Hoppedel", name: "Skihop", type: "time", dur: 30, prep: 5, switchHalf: false },
+  { cat: "2. Hoppedel", name: "Sprællemand m. 360° rotation", type: "time", dur: 30, prep: 5, switchHalf: true },
+  { cat: "2. Hoppedel", name: "Skihop m. 360° rotation", type: "time", dur: 30, prep: 5, switchHalf: true },
+  { cat: "2. Hoppedel", name: "Fejesving m. to rundsving", type: "time", dur: 30, prep: 5, switchHalf: false },
+  { cat: "2. Hoppedel", name: "Knæ-til-albue", type: "time", dur: 30, prep: 5, switchHalf: false },
+  { cat: "2. Hoppedel", name: "Fod-til-hånd Englehop", type: "time", dur: 30, prep: 5, switchHalf: false },
+
+  // 3. STYRKEDEL (Manuel styring på gentagelser)
+  { cat: "3. Styrkedel", name: "Mavebøjninger", type: "reps", repsText: "12 gentagelser" },
+  { cat: "3. Styrkedel", name: "Rygbøjninger", type: "reps", repsText: "12 gentagelser" },
+  { cat: "3. Styrkedel", name: "Benbøjninger", type: "reps", repsText: "12 gentagelser" },
+  { cat: "3. Styrkedel", name: "Armstrækninger", type: "reps", repsText: "12 gentagelser" },
+  { cat: "3. Styrkedel", name: "Sakseben", type: "reps", repsText: "12 Højre + 12 Venstre" },
+  { cat: "3. Styrkedel", name: "Lunges / Fremfald", type: "reps", repsText: "6 Højre + 6 Venstre" },
+  { cat: "3. Styrkedel", name: "Mountain Climbers", type: "reps", repsText: "12 Højre + 12 Venstre" }
+];
+
+let currentIndex = 0;
+let timeLeft = workoutProgram[0].dur;
+let elapsedRepsTime = 0; // Tæller tid for rep-øvelser
+let inPrepState = false; // 5s pause før hoppedel-øvelser
+let prepLeft = 0;
+let timerInterval = null;
+let isRunning = false;
+let isSectionBreak = false;
+let audioCtx = null;
+
+function playBeep(freq = 600, duration = 0.15) {
+  try {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    
+    osc.type = 'sine';
+    osc.frequency.value = freq;
+    gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+    
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+    
+    osc.start();
+    osc.stop(audioCtx.currentTime + duration);
+  } catch (e) {
+    console.log("Audio not supported");
+  }
+}
+
+function playSectionChime() {
+  playBeep(523, 0.15);
+  setTimeout(() => playBeep(659, 0.15), 150);
+  setTimeout(() => playBeep(783, 0.25), 300);
+}
+
+function updateUI() {
+  const current = workoutProgram[currentIndex];
+  const next = workoutProgram[currentIndex + 1];
+  const theme = sectionThemes[current.cat] || sectionThemes["1. Løbedel"];
+
+  // OPDATER FARVER EFTER SEKTION
+  document.getElementById('opvarmning-widget-container').style.borderColor = theme.main;
+  document.getElementById('player-display-box').style.backgroundColor = theme.bgDark;
+  document.getElementById('player-category').style.color = theme.accent;
+  document.getElementById('player-timer').style.color = theme.accent;
+  document.getElementById('player-progress').style.backgroundColor = theme.accent;
+
+  const badge = document.getElementById('section-badge');
+  badge.innerText = current.cat;
+  badge.style.backgroundColor = theme.badgeBg;
+  badge.style.color = theme.badgeText;
+
+  const statusEl = document.getElementById('player-status-msg');
+
+  if (isSectionBreak) {
+    document.getElementById('player-category').innerText = "⏸ PAUSE & REGRUPPERING";
+    document.getElementById('player-exercise').innerText = `Næste del: ${current.cat}`;
+    statusEl.innerText = "Gør klar til næste sektion!";
+    document.getElementById('player-timer').innerText = "PAUSE";
+    document.getElementById('btn-text').innerText = `Start ${current.cat}`;
+    document.getElementById('btn-start-pause').style.background = theme.main;
+    document.getElementById('btn-icon').innerText = '▶';
+  } 
+  else if (inPrepState) {
+    document.getElementById('player-category').innerText = `${current.cat} — GØR KLAR`;
+    document.getElementById('player-exercise').innerText = `Næste: ${current.name}`;
+    statusEl.innerText = "⏳ Gør dig klar til start!";
+    const mins = Math.floor(prepLeft / 60).toString().padStart(2, '0');
+    const secs = (prepLeft % 60).toString().padStart(2, '0');
+    document.getElementById('player-timer').innerText = `${mins}:${secs}`;
+    document.getElementById('btn-text').innerText = 'Pause';
+    document.getElementById('btn-start-pause').style.background = '#dc2626';
+    document.getElementById('btn-icon').innerText = '⏸';
+  }
+  else {
+    document.getElementById('player-category').innerText = current.cat;
+    document.getElementById('player-exercise').innerText = current.name;
+    
+    if (current.type === "reps") {
+      // STOPUR FOR STYRKEDEL
+      const mins = Math.floor(elapsedRepsTime / 60).toString().padStart(2, '0');
+      const secs = (elapsedRepsTime % 60).toString().padStart(2, '0');
+      document.getElementById('player-timer').innerText = `${mins}:${secs}`;
+      statusEl.innerText = `💪 ${current.repsText} — Tryk Næste når færdig`;
+    } else {
+      // NEDTÆLLING FOR TIDSBASEREDE
+      const mins = Math.floor(timeLeft / 60).toString().padStart(2, '0');
+      const secs = (timeLeft % 60).toString().padStart(2, '0');
+      document.getElementById('player-timer').innerText = `${mins}:${secs}`;
+
+      if (current.switchHalf && timeLeft <= 15) {
+        statusEl.innerText = "↔️ Skift side / retning nu!";
+      } else if (current.switchHalf && timeLeft > 15) {
+        statusEl.innerText = "(Skiftes ved 15 sek)";
+      } else {
+        statusEl.innerHTML = "&nbsp;";
+      }
+    }
+
+    if (!isRunning) {
+      document.getElementById('btn-text').innerText = currentIndex === 0 && timeLeft === current.dur && elapsedRepsTime === 0 ? 'Start' : 'Fortsæt';
+      document.getElementById('btn-start-pause').style.background = '#16a34a';
+      document.getElementById('btn-icon').innerText = '▶';
+    } else {
+      document.getElementById('btn-text').innerText = 'Pause';
+      document.getElementById('btn-start-pause').style.background = '#dc2626';
+      document.getElementById('btn-icon').innerText = '⏸';
+    }
+  }
+
+  document.getElementById('player-next-exercise').innerText = next ? `${next.name} (${next.cat})` : "Slut på opvarmningen!";
+
+  const totalExercises = workoutProgram.length;
+  const progressPct = ((currentIndex + (isSectionBreak || inPrepState ? 0 : 0.8)) / totalExercises) * 100;
+  document.getElementById('player-progress').style.width = `${progressPct}%`;
+
+  renderModalList();
+}
+
+function togglePlayPause() {
+  if (isSectionBreak) {
+    isSectionBreak = false;
+    startTimer();
+  } else if (isRunning) {
+    pauseTimer();
+  } else {
+    startTimer();
+  }
+}
+
+function startTimer() {
+  if (isRunning) return;
+  isRunning = true;
+  isSectionBreak = false;
+
+  updateUI();
+
+  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+  timerInterval = setInterval(() => {
+    const current = workoutProgram[currentIndex];
+
+    if (inPrepState) {
+      prepLeft--;
+      playBeep(500, 0.08);
+      if (prepLeft <= 0) {
+        inPrepState = false;
+        playBeep(900, 0.25);
+      }
+      updateUI();
+      return;
+    }
+
+    if (current.type === "reps") {
+      // Tæller opad i tid for styrkeøvelser
+      elapsedRepsTime++;
+      updateUI();
+    } else {
+      // Tæller nedad for tidsbaserede
+      timeLeft--;
+
+      if (timeLeft === 15 && current.switchHalf) {
+        playBeep(750, 0.1);
+        setTimeout(() => playBeep(900, 0.15), 150);
+      }
+
+      if (timeLeft <= 3 && timeLeft > 0) {
+        playBeep(440, 0.1);
+      }
+
+      if (timeLeft <= 0) {
+        playBeep(880, 0.3);
+        nextExercise();
+      } else {
+        updateUI();
+      }
+    }
+  }, 1000);
+}
+
+function pauseTimer() {
+  isRunning = false;
+  clearInterval(timerInterval);
+  updateUI();
+}
+
+function nextExercise() {
+  if (currentIndex < workoutProgram.length - 1) {
+    const currentCat = workoutProgram[currentIndex].cat;
+    const nextItem = workoutProgram[currentIndex + 1];
+
+    currentIndex++;
+    timeLeft = nextItem.dur || 30;
+    elapsedRepsTime = 0;
+
+    // Sektionsskift
+    if (currentCat !== nextItem.cat) {
+      pauseTimer();
+      isSectionBreak = true;
+      inPrepState = false;
+      playSectionChime();
+      updateUI();
+    } 
+    // 5s klargøring hvis næste øvelse har prep
+    else if (nextItem.prep) {
+      inPrepState = true;
+      prepLeft = nextItem.prep;
+      updateUI();
+    } 
+    else {
+      inPrepState = false;
+      updateUI();
+    }
+  } else {
+    pauseTimer();
+    document.getElementById('player-category').innerText = "Gennemført!";
+    document.getElementById('player-exercise').innerText = "🎉 Flot klaret! Du er klar til testen.";
+    document.getElementById('player-timer').innerText = "00:00";
+    document.getElementById('player-status-msg').innerHTML = "&nbsp;";
+    document.getElementById('player-progress').style.width = "100%";
+  }
+}
+
+function skipExercise() {
+  const wasRunning = isRunning;
+  pauseTimer();
+  isSectionBreak = false;
+  inPrepState = false;
+
+  if (currentIndex < workoutProgram.length - 1) {
+    currentIndex++;
+    const nextItem = workoutProgram[currentIndex];
+    timeLeft = nextItem.dur || 30;
+    elapsedRepsTime = 0;
+    updateUI();
+    if (wasRunning) startTimer();
+  }
+}
+
+function jumpToExercise(index) {
+  const wasRunning = isRunning;
+  pauseTimer();
+  isSectionBreak = false;
+  inPrepState = false;
+  
+  currentIndex = index;
+  const item = workoutProgram[index];
+  timeLeft = item.dur || 30;
+  elapsedRepsTime = 0;
+  
+  closeModal();
+  updateUI();
+  if (wasRunning) startTimer();
+}
+
+function resetPlayer() {
+  pauseTimer();
+  isSectionBreak = false;
+  inPrepState = false;
+  currentIndex = 0;
+  timeLeft = workoutProgram[0].dur;
+  elapsedRepsTime = 0;
+  updateUI();
+}
+
+function openModal() {
+  document.getElementById('player-modal-overlay').style.display = 'flex';
+  renderModalList();
+}
+
+function closeModal() {
+  document.getElementById('player-modal-overlay').style.display = 'none';
+}
+
+function renderModalList() {
+  const container = document.getElementById('player-modal-list');
+  if (!container) return;
+
+  let html = '';
+  let lastCat = '';
+
+  workoutProgram.forEach((item, idx) => {
+    const theme = sectionThemes[item.cat];
+    if (item.cat !== lastCat) {
+      lastCat = item.cat;
+      html += `<div style="font-weight: 800; color: ${theme.main}; margin-top: 12px; margin-bottom: 6px; font-size: 0.88em; text-transform: uppercase;">${item.cat}</div>`;
+    }
+
+    const isActive = idx === currentIndex && !isSectionBreak;
+    const bg = isActive ? theme.main : '#ffffff';
+    const textColor = isActive ? '#ffffff' : '#334155';
+    const border = isActive ? `2px solid ${theme.main}` : '1px solid #cbd5e1';
+
+    html += `
+      <div onclick="jumpToExercise(${idx})" style="background: ${bg}; color: ${textColor}; border: ${border}; border-radius: 8px; padding: 10px 12px; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; font-size: 0.9em; transition: all 0.15s;">
+        <div>
+          <strong>${idx + 1}. ${item.name}</strong>
+          ${item.type === 'reps' ? `<span style="font-size: 0.82em; opacity: 0.85; margin-left: 6px;">(${item.repsText})</span>` : ''}
+          ${item.switchHalf ? '<span style="font-size: 0.82em; opacity: 0.85; margin-left: 6px;">(Skift v. 15s)</span>' : ''}
+        </div>
+        <div style="font-size: 0.82em; font-weight: bold; opacity: 0.9;">
+          ${isActive ? '👉 AKTIV' : (item.type === 'reps' ? 'Reps' : '30s')}
+        </div>
+      </div>
+    `;
+  });
+
+  container.innerHTML = html;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  updateUI();
+});
+</script>

@@ -19,10 +19,10 @@
 
     .container-politi {
         background-color: var(--container-bg);
-        padding: 25px;
+        padding: 20px;
         border-radius: 12px;
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-        max-width: 550px;
+        max-width: 500px;
         width: 100%;
         border: 1px solid var(--border);
         color: var(--text-main);
@@ -33,106 +33,128 @@
 
     .container-politi h3 {
         margin-top: 0;
-        margin-bottom: 4px;
+        margin-bottom: 2px;
         color: var(--accent);
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
+        font-weight: 800;
     }
 
     .container-politi p.subtitle {
         text-align: center;
         color: var(--text-muted);
-        font-size: 14px;
-        margin-bottom: 20px;
-        margin-top: 0;
+        font-size: 12px;
+        line-height: 1.35;
+        margin-bottom: 16px;
+        margin-top: 4px;
     }
 
-    .container-politi .form-group {
+    /* MAND / KVINDE TOGGLE (1 LINJE) */
+    .container-politi .gender-toggle {
+        display: flex;
+        background: #2a2a2a;
+        border-radius: 8px;
+        padding: 4px;
+        margin-bottom: 14px;
+        border: 1px solid var(--border);
+    }
+
+    .container-politi .gender-btn {
+        flex: 1;
+        padding: 8px 12px;
+        background: transparent;
+        color: var(--text-muted);
+        border: none;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        margin: 0;
+        width: auto;
+    }
+
+    .container-politi .gender-btn.active {
+        background: var(--accent);
+        color: #000;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    /* 3-KOLONNE INPUT GRID (1 LINJE) */
+    .container-politi .input-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
         margin-bottom: 16px;
     }
 
-    .container-politi label {
-        display: block;
-        margin-bottom: 6px;
-        font-weight: 500;
-        font-size: 14px;
-        color: var(--text-main);
+    .container-politi .input-col {
+        display: flex;
+        flex-direction: column;
     }
 
-    .container-politi select,
+    .container-politi label {
+        margin-bottom: 4px;
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--text-muted);
+        white-space: nowrap;
+    }
+
     .container-politi input {
         width: 100%;
-        padding: 12px;
+        padding: 10px 8px;
         border-radius: 6px;
         border: 1px solid var(--border);
         background-color: #2a2a2a;
         color: white;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
         box-sizing: border-box;
     }
 
-    .container-politi select:focus,
     .container-politi input:focus {
         outline: none;
         border-color: var(--accent);
     }
 
-    .container-politi button {
-        width: 100%;
-        padding: 14px;
-        background-color: var(--accent);
-        color: #000;
-        border: none;
-        border-radius: 6px;
-        font-size: 16px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: background-color 0.2s;
-        margin-top: 8px;
-    }
-
-    .container-politi button:hover {
-        background-color: var(--accent-hover);
-    }
-
     .container-politi #result {
-        margin-top: 20px;
+        margin-top: 10px;
         display: none;
     }
 
-    /* KOMPRIMERET RESULTATBOKS M. 2 SPALTER */
+    /* RESULTATBOKS M. 2 SPALTER */
     .container-politi .top-result-card {
-        padding: 14px 16px;
+        padding: 12px 14px;
         background-color: #2a2a2a;
         border-radius: 8px;
-        border-left: 5px solid var(--accent);
-        margin-bottom: 16px;
+        border-left: 4px solid var(--accent);
+        margin-bottom: 14px;
     }
 
     .container-politi .card-main {
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
-        gap: 15px;
+        align-items: center;
+        gap: 12px;
     }
 
     .container-politi .card-left {
         flex: 1;
     }
 
-    /* STØRRE FORVENTET KARAKTER OVERSKRIFT */
     .container-politi .top-result-card h4 {
         margin: 0 0 2px 0;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 700;
         color: #fff;
     }
 
-    /* MINIMAL AFSTAND TIL BRØDTEKST */
     .container-politi .recommendation {
-        margin-top: 4px;
-        font-size: 14px;
-        line-height: 1.35;
+        margin-top: 2px;
+        font-size: 13px;
+        line-height: 1.3;
         color: var(--success-text);
         font-weight: 500;
     }
@@ -145,41 +167,39 @@
         flex-shrink: 0;
     }
 
-    /* DOBBELT SÅ STOR KARAKTER BADGE */
     .container-politi .grade-badge {
         display: inline-flex;
         align-items: center;
         justify-content: center;
         background-color: var(--accent);
         color: #000;
-        padding: 4px 14px;
-        border-radius: 10px;
-        font-weight: 800;
-        font-size: 52px;
-        min-width: 80px;
-        height: 72px;
+        padding: 2px 10px;
+        border-radius: 8px;
+        font-weight: 900;
+        font-size: 42px;
+        min-width: 68px;
+        height: 58px;
         line-height: 1;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
         box-sizing: border-box;
         white-space: nowrap;
     }
 
-    /* LILLE e1RM SKRIFT UNDER BADGE */
     .container-politi .stat {
-        font-size: 11px;
+        font-size: 10px;
         color: var(--text-muted);
-        margin-top: 5px;
+        margin-top: 4px;
         text-align: center;
         white-space: nowrap;
     }
 
     .container-politi .landscape-header {
-        font-size: 15px;
+        font-size: 13px;
         font-weight: bold;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
         color: #fff;
         border-bottom: 1px solid var(--border);
-        padding-bottom: 6px;
+        padding-bottom: 4px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -188,18 +208,17 @@
     .container-politi .landscape-list {
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 6px;
     }
 
     .container-politi .landscape-item {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 10px 12px;
+        padding: 8px 10px;
         border-radius: 6px;
         border: 1px solid transparent;
-        font-size: 14px;
-        position: relative;
+        font-size: 13px;
     }
 
     .container-politi .landscape-item.possible {
@@ -216,21 +235,21 @@
 
     .container-politi .landscape-item.optimal {
         border: 2px solid var(--accent) !important;
-        box-shadow: 0 0 12px rgba(251, 192, 45, 0.25);
+        box-shadow: 0 0 10px rgba(251, 192, 45, 0.25);
     }
 
     .container-politi .item-left {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 8px;
     }
 
     .container-politi .item-grade {
         font-weight: bold;
-        font-size: 14px;
-        padding: 2px 8px;
+        font-size: 13px;
+        padding: 1px 6px;
         border-radius: 4px;
-        min-width: 26px;
+        min-width: 24px;
         text-align: center;
         background: rgba(255, 255, 255, 0.1);
         color: #fff;
@@ -244,7 +263,7 @@
     .container-politi .item-right {
         text-align: right;
         font-weight: 600;
-        font-size: 13px;
+        font-size: 12px;
         white-space: nowrap;
     }
 
@@ -252,40 +271,43 @@
         display: inline-block;
         background: var(--accent);
         color: #000;
-        font-size: 10px;
+        font-size: 9px;
         font-weight: 800;
         text-transform: uppercase;
-        padding: 2px 6px;
+        padding: 1px 5px;
         border-radius: 3px;
-        margin-left: 6px;
+        margin-left: 4px;
         vertical-align: middle;
     }
 </style>
 
 <div class="container-politi">
-    <h3>Bænkpres Beregner</h3>
-    <p class="subtitle">Optagelsesprøve til Politiet</p>
+    <h3>Taktisk Bænkpres Beregner</h3>
+    <p class="subtitle">Indtast et nyligt gennemført løft for at beregne din ideelle vægt og karakter til optagelsesprøven.</p>
 
-    <div class="form-group">
-        <label for="gender">Køn</label>
-        <select id="gender">
-            <option value="male">Mand</option>
-            <option value="female">Kvinde</option>
-        </select>
+    <!-- KØN TOGGLE SWITCH (1 LINJE) -->
+    <div class="gender-toggle">
+        <button id="btn-male" type="button" class="gender-btn active" onclick="setGender('male')">👨 Mand</button>
+        <button id="btn-female" type="button" class="gender-btn" onclick="setGender('female')">👩 Kvinde</button>
     </div>
 
-    <div class="form-group">
-        <label for="weight">Hvad løftede du for nylig? (kg)</label>
-        <input type="number" id="weight" placeholder="fx 75" step="0.5" min="10">
+    <!-- INPUT GRID (3 COLS PÅ 1 LINJE) -->
+    <div class="input-grid">
+        <div class="input-col">
+            <label for="weight">Nylig vægt (kg)</label>
+            <input type="number" id="weight" value="75" step="0.5" min="10" placeholder="fx 75">
+        </div>
+        <div class="input-col">
+            <label for="reps">Nylige reps</label>
+            <input type="number" id="reps" value="5" min="1" max="30" placeholder="fx 5">
+        </div>
+        <div class="input-col">
+            <label for="rir">RIR (overskud)</label>
+            <input type="number" id="rir" value="0" min="0" max="10" placeholder="fx 0">
+        </div>
     </div>
 
-    <div class="form-group">
-        <label for="reps">Hvor mange gentagelser? (reps)</label>
-        <input type="number" id="reps" placeholder="fx 5" min="1" max="30">
-    </div>
-
-    <button onclick="calculateStrategy()">Beregn Taktisk Valg</button>
-
+    <!-- REALTIDS RESULTAT -->
     <div id="result">
         <div class="top-result-card">
             <div class="card-main">
@@ -302,7 +324,7 @@
 
         <div class="landscape-header">
             <span>Styrkelandskab & Muligheder</span>
-            <span style="font-size: 11px; font-weight: normal; color: var(--text-muted);">(Estimeret 1RM råderum)</span>
+            <span style="font-size: 10px; font-weight: normal; color: var(--text-muted);">(Estimeret 1RM råderum)</span>
         </div>
         
         <div id="landscape-list" class="landscape-list"></div>
@@ -310,22 +332,36 @@
 </div>
 
 <script>
-    function calculateStrategy() {
-        const gender = document.getElementById('gender').value;
-        const weight = parseFloat(document.getElementById('weight').value);
-        const reps = parseInt(document.getElementById('reps').value);
+    let currentGender = 'male';
 
-        if (!weight || !reps || reps < 1) {
-            alert("Indtast venligst gyldig vægt og gentagelser.");
+    function setGender(gender) {
+        currentGender = gender;
+        document.getElementById('btn-male').classList.toggle('active', gender === 'male');
+        document.getElementById('btn-female').classList.toggle('active', gender === 'female');
+        calculateStrategy();
+    }
+
+    function calculateStrategy() {
+        const weight = parseFloat(document.getElementById('weight').value);
+        const reps = parseInt(document.getElementById('reps').value) || 0;
+        const rir = parseInt(document.getElementById('rir').value) || 0;
+
+        const resultDiv = document.getElementById('result');
+
+        if (!weight || weight < 10 || reps < 1) {
+            resultDiv.style.display = 'none';
             return;
         }
 
         // Gem i localStorage
-        localStorage.setItem('politi_bp_gender', gender);
+        localStorage.setItem('politi_bp_gender', currentGender);
         localStorage.setItem('politi_bp_weight', weight);
         localStorage.setItem('politi_bp_reps', reps);
+        localStorage.setItem('politi_bp_rir', rir);
 
-        const oneRM = weight * (1 + reps / 30);
+        // e1RM beregning inklusiv RIR (totale maksimale reps)
+        const totalReps = reps + rir;
+        const oneRM = weight * (1 + totalReps / 30);
 
         const maleScale = [
             { grade: '12', r: 10, w: 90, desc: '10-12 reps × 90 kg' },
@@ -353,7 +389,7 @@
             { grade: '00', r: 8,  w: 30, desc: '8-9 reps × 30 kg' }
         ];
 
-        const scale = gender === 'male' ? maleScale : femaleScale;
+        const scale = currentGender === 'male' ? maleScale : femaleScale;
 
         const evaluated = scale.map(item => {
             const req1RM = item.w * (1 + item.r / 30);
@@ -377,7 +413,6 @@
             optimalItem = topGradeItems.reduce((max, current) => current.margin > max.margin ? current : max, topGradeItems[0]);
         }
 
-        const resultDiv = document.getElementById('result');
         const gradeDisplay = document.getElementById('grade-display');
         const onermDisplay = document.getElementById('onerm-display');
         const recText = document.getElementById('recommendation-text');
@@ -390,19 +425,18 @@
             gradeDisplay.innerText = bestGrade;
             gradeDisplay.style.backgroundColor = 'var(--accent)';
             gradeDisplay.style.color = '#000';
-            recText.innerHTML = `🔥 Dit taktisk klogeste valg:<br><strong>Gå efter ${optimalItem.desc}</strong>.<br><span style="font-size:12px;color:var(--text-muted);font-weight:normal;">Giver karakteren ${bestGrade} med et overskud på +${optimalItem.margin.toFixed(1)} kg på din 1RM.</span>`;
+            recText.innerHTML = `🔥 Dit taktisk klogeste valg:<br><strong>Gå efter ${optimalItem.desc}</strong>.<br><span style="font-size:11px;color:var(--text-muted);font-weight:normal;">Giver karakteren ${bestGrade} med et overskud på +${optimalItem.margin.toFixed(1)} kg på din 1RM.</span>`;
         } else {
-            const minReqKg = gender === 'male' ? '50' : '30';
+            const minReqKg = currentGender === 'male' ? '50' : '30';
             const closest = evaluated[evaluated.length - 1];
             const missing = Math.abs(closest.margin).toFixed(1);
             
             gradeDisplay.innerText = '-3';
             gradeDisplay.style.backgroundColor = 'var(--danger-border)';
             gradeDisplay.style.color = '#fff';
-            recText.innerHTML = `Du er desværre ikke helt stærk nok endnu til at bestå.<br><span style="font-size:12px;color:var(--text-muted);font-weight:normal;">Du mangler ca. <strong>${missing} kg</strong> på din 1RM for at nå laveste krav (8-9 reps × ${minReqKg} kg).</span>`;
+            recText.innerHTML = `Du er desværre ikke stærk nok endnu.<br><span style="font-size:11px;color:var(--text-muted);font-weight:normal;">Du mangler ca. <strong>${missing} kg</strong> på din 1RM for laveste krav (8-9 reps × ${minReqKg} kg).</span>`;
         }
 
-        // VISNINGSFILTER: Find 1 karakter højere, nuværende karakter og 1 karakter lavere
         const gradeHierarchy = ['12', '10', '7', '4', '02', '00'];
         let visibleGrades = [];
 
@@ -424,8 +458,8 @@
             const optimalClass = isOptimal ? 'optimal' : '';
 
             let marginText = item.possible 
-                ? `+${item.margin.toFixed(1)} kg overskud` 
-                : `${item.margin.toFixed(1)} kg mangler`;
+                ? `+${item.margin.toFixed(1)} kg` 
+                : `${item.margin.toFixed(1)} kg`;
 
             landscapeHtml += `
                 <div class="landscape-item ${statusClass} ${optimalClass}">
@@ -446,18 +480,25 @@
         landscapeList.innerHTML = landscapeHtml;
     }
 
-    // Hent gemte data fra localStorage ved opstart
-    (function loadSavedData() {
-        const savedGender = localStorage.getItem('politi_bp_gender');
+    document.addEventListener("DOMContentLoaded", function() {
+        const inputs = ['weight', 'reps', 'rir'];
+        inputs.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) {
+                el.addEventListener('input', calculateStrategy);
+                el.addEventListener('change', calculateStrategy);
+            }
+        });
+
+        const savedGender = localStorage.getItem('politi_bp_gender') || 'male';
         const savedWeight = localStorage.getItem('politi_bp_weight');
         const savedReps = localStorage.getItem('politi_bp_reps');
+        const savedRir = localStorage.getItem('politi_bp_rir');
 
-        if (savedGender) document.getElementById('gender').value = savedGender;
         if (savedWeight) document.getElementById('weight').value = savedWeight;
         if (savedReps) document.getElementById('reps').value = savedReps;
+        if (savedRir !== null) document.getElementById('rir').value = savedRir;
 
-        if (savedWeight && savedReps) {
-            calculateStrategy();
-        }
-    })();
+        setGender(savedGender);
+    });
 </script>

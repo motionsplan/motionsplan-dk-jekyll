@@ -296,7 +296,7 @@ Når det kommer til gentagelser, skal du forstå antallet pr. sæt som et cirkat
 
 Når du træner til politiets optagelsesprøve, så gælder det om at være i generelt god form. Du kan bygge din træning op på mange forskellige måder.
 
-Du kan lade dig inspirere til, hvordan du kan [forberede dig til politiets fysiske test](/traening-politiets-fysiske-test/).
+Du kan lade dig inspirere til, hvordan du kan [forberede dig til politiets fysiske test](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
 Vi har andre forslag til [træningsprogrammer](/traeningsprogrammer/), [styrketræningsprogrammer](/styrketraeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/).
 
