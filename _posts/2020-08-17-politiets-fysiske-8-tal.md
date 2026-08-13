@@ -1,11 +1,11 @@
 ---
 title: &title "8-tals-testen: Politiets hurtighedstest forklaret"
+seo_title: "Politiets hurtighedstest: Sådan klarer du 8-tals-testen"
+excerpt: "8-tals-testen tester din hurtighed og retningsskift. Læs, hvordan testen udføres, og få tips til at forbedre din tid."
+description: "Politiets hurtighedstest (også kaldet 8-tals-testen) måler din hurtighed og retningsskift. Læs hvordan du udfører testen og forbedrer din tid."
 permalink: /8-tal-hurtighedstest/
 redirect_from:
   - /8-tals-sprint-test/
-seo_title: "Politiets 8-tals-test: Sådan klarer du hurtighedstesten"
-excerpt: "8-tals-testen tester din hurtighed og retningsskift. Læs, hvordan testen udføres, og få tips til at forbedre din tid."
-description: "8-tals-testen måler din hurtighed og retningsskift. Læs hvordan du udfører testen til politiets optagelsesprøve og forbedrer din tid."
 last_modified_at: 2025-02-17T09:41:09Z
 language: da
 header:
@@ -34,7 +34,7 @@ meta:
   description: Hurtighedstest med retningsskift, som bruges til politiets optagelsesprøve.
 tests:
   - id: "test-politi-8-tals-test"
-    title: "Politiets 8-tals Hurtighedstest"
+    title: "Politiets Hurtighedstest (8-tal)"
     description: "Standardiseret hurtigheds- og retningsskifttest fra politiets fysiske optagelsesprøve, hvor der løbes 2 1/4 gang i ottetal omkring to kegler med en afstand på 13,40 m."
     category: ["Tests", "Eksplosivitet"]
     type: ["Protokol", "Hurtighedstest"]
@@ -60,7 +60,7 @@ tools:
     category_schema: "HealthAndFitnessApplication"
 ---
 
-For at blive optaget på politiskolen skal ansøgere bestå en række [fysiske tests til optagelsesprøven](/politiets-fysiske-tests-krav-optagelsesproeve/), herunder 8-tals-testen. Denne test måler din evne til hurtigt at skifte retning og accelerere.
+For at blive optaget på politiskolen skal ansøgere bestå en række [fysiske tests til optagelsesprøven](/politiets-fysiske-tests-krav-optagelsesproeve/), herunder 8-tals-testen. Hurtighedstesten test måler din evne til at løbe hurtigt, skifte retning og accelerere.
 
 Testen udføres ved at løbe i et 8-tal rundt om to kegler, hvor både hastighed og kontrol er afgørende. 8-tals-testen er en [change of direction-test](/retningsskift-test/).
 
@@ -78,7 +78,7 @@ I denne guide gennemgår vi testens opbygning, regler, samt hvordan du kan træn
 
 {% include video provider="youtube" id="TbaBYiS7JrU" %}
 
-## Timer
+## Timer til politiets hurtighedstest
 {: id="timer" }
 
 {% include components/politi-8-tals-timer.html %}
@@ -98,8 +98,8 @@ Du får en karakter på baggrund af løbetiden.
 | 00       | 17,6 - 18,1 sek.         | 18,8 - 19,3 sek.         |
 | \-3      | 18,2 sek. eller derover  | 19,4 sek. eller derover  |
 
-## Konklusion
+## Konklusion på hurtighedstesten
 
 8-tals-testen er en effektiv måling af din evne til at skifte retning hurtigt og kontrolleret – en vigtig færdighed for til [optagelsesprøven for politibetjente](/politiets-optagelsesproeve/). Ved at træne sprint, retningsskift og kropskontrol kan du forbedre din tid og øge dine chancer for at bestå politiets fysiske optagelsesprøve.
 
-Er du klar til at træne til testen? Følg vores træningstips og giv dig selv de bedste forudsætninger for at lykkes!
+Er du klar til at træne til hurtighedstesten? Følg vores [træningstips til politiøvelserne](/politiets-fysiske-tests-krav-optagelsesproeve/) og giv dig selv de bedste forudsætninger for at lykkes!
