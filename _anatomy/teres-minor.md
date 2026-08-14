@@ -63,7 +63,7 @@ Træning af Teres Minor handler ofte om stabilitet og kontrol snarere end maksim
 
 Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
 
-👉 **[Se den store søgbare tabel over alle muskler her](/muskler/tabel/)**
+👉 **[Se vores søgbare tabel over alle muskler](/muskler/tabel/)**
 {: .notice--info }
 
 <details markdown="1" class="references">

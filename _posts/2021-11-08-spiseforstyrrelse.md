@@ -89,7 +89,7 @@ En af Danmarks førende forskere inden for området er psykolog og professor [Mi
 
 ## Relaterede måleredskaber
 
-Tvangspræget spiseadfærd følges ofte ad med et overdrevet behov for fysisk aktivitet. Du kan læse mere om dette i vores [Test for Træningsafhængighed (EAI)](/traeningsafhaengighed/) eller undersøge dit generelle overskud i vores [WHO-5 Trivselsindeks](/who5-trivselindekset/).
+Tvangspræget spiseadfærd følges ofte ad med et overdrevet behov for fysisk aktivitet. Du kan læse mere om dette i vores [Test for Træningsafhængighed (EAI)](/traeningsafhaengighed/) eller undersøge dit generelle overskud i vores [WHO-5 test af trivsel](/who5-trivselindekset/).
 
 ---
 

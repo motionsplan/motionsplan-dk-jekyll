@@ -84,7 +84,7 @@ En stærk mave handler om balance mellem de overfladiske "show-muskler" og den d
 ## Se oversigt over muskler
 Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
 
-👉 **[Se den store søgbare tabel over alle muskler her](/muskler/tabel/)**
+👉 **[Se vores søgbare muskeltabel](/muskler/tabel/)**
 {: .notice--info }
 
 <details markdown="1" class="references">

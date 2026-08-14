@@ -73,7 +73,7 @@ På denne side kan du lære:
 
 ## Hvad er pulsreserven?
 
-Pulsreserven er forskellen mellem [maxpulsen](/max-puls-test/) og [hvilepulsen](/hvilepuls/). Grundlæggende er det altså det spænd hjertet har at arbejde i.
+Pulsreserven er forskellen mellem [maxpulsen](/test-max-puls/) og [hvilepulsen](/hvilepuls/). Grundlæggende er det altså det spænd hjertet har at arbejde i.
 
 {% include figure image_path="/assets/images/blog/pulsreserve-portrait.jpg" caption="Pulsreserven" alt="Pulsreserven" %}
 

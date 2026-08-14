@@ -80,7 +80,7 @@ Det er fundamentalt for din sundhed og kropsholdning at træne ryggen. Ved at fo
 ## Se oversigt over muskler
 Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
 
-👉 **[Se den store søgbare tabel over alle muskler her](/muskler/tabel/)**
+👉 **[Skema over alle muskler](/muskler/tabel/)**
 {: .notice--info }
 
 <details markdown="1" class="references">

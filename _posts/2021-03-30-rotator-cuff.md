@@ -76,7 +76,7 @@ En velfungerende rotator cuff er nøglen til at undgå "svømmeskulder", indekle
 ## Se oversigt over muskler
 Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
 
-👉 **[Se den store søgbare tabel over alle muskler her](/muskler/tabel/)**
+👉 **[Se vores søgbare tabel over muskler](/muskler/tabel/)**
 {: .notice--info }
 
 <details markdown="1" class="references">

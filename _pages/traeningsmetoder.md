@@ -100,7 +100,7 @@ Metoder til forbedring af $RFD$ (Rate of Force Development) og eksplosiv kraftud
 ## 🏃‍♂️ Træningsmetoder til Løb, Cykling og Kondition
 {: id="konditionstraening" }
 
-Inden for [konditionstræning](/kondition/), [løb](/loebesiden/) og cykling opdeles træningsmetoderne efter det primære energisystem: det **aerobe** (med ilt) eller det **anaerobe** (uden ilt).
+Inden for [konditionstræning](/konditionstraening/), [løb](/loebesiden/) og cykling opdeles træningsmetoderne efter det primære energisystem: det **aerobe** (med ilt) eller det **anaerobe** (uden ilt).
 
 ### 1. Aerob Træning (Udholdenhed og VO2 max)
 {: id="aerob" }
