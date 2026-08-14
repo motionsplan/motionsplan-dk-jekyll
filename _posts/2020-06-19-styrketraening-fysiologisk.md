@@ -112,7 +112,7 @@ For begyndere og lettere trænede, så kan du formentlig udnytte et stort spektr
 
 For de trænede gælder det, at du skal løfte med høj intensitet.
 
-Desto mere trænet, desto tættere skal du på [1RM](/rm-maxtest/) for at du kan få yderligere neurale tilpasninger, der relaterer sig til maksimal muskelstyrke. Som tommelfingerregel sker hovedparten af de neurale tilpasninger fra **1-8 RM** for trænede.
+Desto mere trænet, desto tættere skal du på [1RM](/rm-beregner/) for at du kan få yderligere neurale tilpasninger, der relaterer sig til maksimal muskelstyrke. Som tommelfingerregel sker hovedparten af de neurale tilpasninger fra **1-8 RM** for trænede.
 
 ## Morfologiske forandringer ved styrketræning
 

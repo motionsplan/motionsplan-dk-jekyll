@@ -111,7 +111,7 @@ Hortobagyi et al. (1993) så i deres studium, at styrken var bevaret efter to ug
 
 Studiet med Ogasawara (2013) er særligt interessant, fordi de sammenlignede effekterne af et periodisk styrketræningsprogram (PTR) og et kontinuerligt styrketræningsprogram (CTR).
 
-Begge grupper udførte bænkpres tre gange om ugen med en intensitet på 75% af [1RM](/rm-maxtest/) i tre sæt med 10 gentagelser. CTR gruppen gennemførte træningen i alle 24 uger, mens PTR gruppen udførte træningen fordelt på 6 ugers træning efterfulgt af 3 ugers pause.
+Begge grupper udførte bænkpres tre gange om ugen med en intensitet på 75% af [1RM](/rm-beregner/) i tre sæt med 10 gentagelser. CTR gruppen gennemførte træningen i alle 24 uger, mens PTR gruppen udførte træningen fordelt på 6 ugers træning efterfulgt af 3 ugers pause.
 
 {% include figure image_path="/assets/images/blog/ogasawara-traeningspause.png" caption="Procentvise ændring af 1RM i bænkpres gennem 24 ugers træningsforløb. PRT gruppen trænede i 6 uger og holdt derefter 3 ugers pause. CTR trænede kontinuerligt igennem alle 24 uger. Ved slutningen af studiet var begge gruppers fremgang i 1RM i bænkpres omtrent ens (Ogasawara 2013)." %}
 
