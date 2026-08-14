@@ -1,6 +1,6 @@
 ---
 title: Konditionstræning og kredsløbstræning
-seo_title: 4 tips til konditionstræning og kredsløbstræning (Guide 2025)
+seo_title: 4 tips til konditionstræning og kredsløbstræning
 description: Vil du gerne i bedre form? Så skal du i gang med konditionstræning og kredsløbstræning. Her får du en komplet
   guide til at flytte iltoptagelsen.
 permalink: /konditionstraening/

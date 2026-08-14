@@ -1,6 +1,6 @@
 ---
 title: 'Anabolic Window: Hvad er facts om det åbne vindue?'
-seo_title: 'Anabolic Window: Hvad er facts om det åbne vindue? (2025)'
+seo_title: 'Anabolic Window: Hvad er facts om det åbne vindue? (2026)'
 description: Du kan udnytte det åbne vindue for kost og ernæring, hvis du gerne vil have optimale træningsresultater. Lær
   her hvordan!
 excerpt: Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Man taler ofte om _det åbne vindue_ eller

@@ -1,6 +1,6 @@
 ---
 title: 5 kalorietæller apps til at tracke dine kalorier [Test]
-seo_title: 5 kalorietæller apps til at tracke dine kalorier (2025)
+seo_title: 5 kalorietæller apps til at tracke dine kalorier
 description: Find den kalorietæller, der passer til din hverdag, og få styr på, hvordan du bruger kostregistrering effektivt
   uden at gøre det kompliceret.
 excerpt: Find den kalorietæller, der passer til din hverdag, og få styr på, hvordan du bruger kostregistrering effektivt uden

@@ -1,6 +1,6 @@
 ---
 title: Vælg sko til styrketræning, træning og fitness (Guide)
-seo_title: 'Styrketræningssko (2025): Vælg den rigtige sko til styrketræning'
+seo_title: 'Styrketræningssko: Vælg den rigtige sko til styrketræning'
 permalink: /sko-styrketraening-fitness/
 excerpt: Skal du vælge styrketræningssko? Skal sko til styrketræning og fitness være vægtløftersko, fitness sko, løbesko eller
   bare fødder?
