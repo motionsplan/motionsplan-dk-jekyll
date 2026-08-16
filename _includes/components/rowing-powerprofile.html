@@ -1,0 +1,716 @@
+<!-- _includes/calc/rowing-powerprofile.html -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+  .mp-calc-card { position: relative !important; font-family: system-ui, -apple-system, sans-serif; }
+  
+  .mp-pp-input { 
+    height: 38px !important; 
+    border-radius: 6px !important; 
+    text-align: center !important; 
+    font-weight: 800 !important; 
+    box-sizing: border-box !important; 
+    padding: 0 4px !important; 
+    border: 1px solid #cbd5e1 !important; 
+    background: #ffffff !important; 
+    margin: 0 !important; 
+    width: 100% !important;
+    font-size: 0.85rem !important;
+    color: #0f172a !important;
+  }
+  .mp-pp-input:focus { border-color: #2563eb !important; outline: none !important; }
+
+  .mp-pp-flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: flex-end;
+  }
+  .mp-pp-field { flex: 1 1 80px; min-width: 0; }
+
+  /* MODE SELECTOR (2 STORE KORT I TOPPEN) */
+  .mp-pp-mode-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  @media (max-width: 600px) { .mp-pp-mode-grid { grid-template-columns: 1fr; } }
+  
+  .mp-pp-mode-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mp-pp-mode-card:hover:not(.active) { border-color: #93c5fd; background: #f8fafc; }
+  .mp-pp-mode-card.active { border-color: #2563eb; background: #eff6ff; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12); }
+  
+  .mp-pp-mode-title { font-size: 0.85rem; font-weight: 900; color: #0f172a; margin-bottom: 0.25rem; }
+  .mp-pp-mode-desc { font-size: 0.7rem; font-weight: 600; color: #64748b; line-height: 1.3; }
+
+  /* Baseline Kort */
+  .mp-pp-baseline-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  /* Ugetest Kort Grid */
+  .mp-pp-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  @media (max-width: 600px) { .mp-pp-cards-grid { grid-template-columns: 1fr; } }
+
+  .mp-pp-test-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 0.85rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+  }
+  .mp-pp-test-card.has-data { border-color: #2563eb; background: #eff6ff; }
+
+  .mp-pp-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #cbd5e1;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .mp-pp-card-day { font-size: 0.7rem; font-weight: 800; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
+  .mp-pp-card-title { font-size: 0.85rem; font-weight: 900; color: #0f172a; }
+  .mp-pp-card-pct { font-size: 0.7rem; font-weight: 800; color: #2563eb; background: #dbeafe; padding: 2px 6px; border-radius: 4px; }
+
+  .mp-pp-card-target { font-size: 0.7rem; color: #475569; font-weight: 700; margin-bottom: 0.75rem; }
+  .mp-pp-card-target span { color: #0f172a; font-weight: 900; }
+
+  /* SVG Graf Container */
+  .mp-pp-graph-container {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+    position: relative;
+    height: 250px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Knapper */
+  .mp-btn-action-wide {
+    border: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+    gap: 0.35rem; font-size: 0.75rem; font-weight: 800; padding: 0.4rem 0.85rem; border-radius: 6px; background: #2563eb; color: #ffffff; transition: all 0.15s ease;
+  }
+  .mp-btn-action-wide:hover { background: #1d4ed8; }
+  .mp-btn-action-reset {
+    border: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+    font-size: 0.85rem; padding: 0.4rem; border-radius: 6px; background: #f1f5f9; color: #ef4444; transition: all 0.15s ease;
+  }
+  .mp-btn-action-reset:hover { background: #fee2e2; }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="rowing-powerprofile" style="max-width: 750px; margin: 0 auto; position: relative;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.75rem; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 2px 0;">📈 Powerprofil & Ugetest i Roning</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn dit teoretiske potentiale ud fra 2k, eller log hele ugetesten.
+      </p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- MODE SELECTOR (2 STORE KORT I TOPPEN) -->
+  <div class="mp-pp-mode-grid" data-html2canvas-ignore="true">
+    <div class="mp-pp-mode-card js-pp-mode-btn active" data-mode="estimate">
+      <div class="mp-pp-mode-title">Estimer fra 2000m</div>
+      <div class="mp-pp-mode-desc">Se din ideelle powerkurve og få målwatt til dine øvrige distancer baseret på dit 2k-niveau.</div>
+    </div>
+    <div class="mp-pp-mode-card js-pp-mode-btn" data-mode="full">
+      <div class="mp-pp-mode-title">Fuld Ugetest Dashboard</div>
+      <div class="mp-pp-mode-desc">Log alle ugens 4 tests (Dag 1-4) og sammenlign dine faktiske resultater med teorien.</div>
+    </div>
+  </div>
+
+  <!-- 1. BASELINE (2000M) -->
+  <div class="mp-pp-baseline-card">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+      <h4 class="js-pp-baseline-title" style="font-size: 0.85rem; font-weight: 900; color: #0f172a; margin: 0; text-transform: uppercase;">
+        Indtast din 2000m tid (Baseline = 100%)
+      </h4>
+    </div>
+
+    <div class="mp-pp-flex-grid">
+      <div class="mp-pp-field" style="flex: 1.5 1 120px;">
+        <label style="font-size: 0.7rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.2rem;">Sluttid (min:sek)</label>
+        <div style="display: flex; gap: 4px;">
+          <input type="number" class="mp-pp-input js-base-time-m" min="5" max="12" placeholder="7" value="7">
+          <input type="number" class="mp-pp-input js-base-time-s" min="0" max="59" step="0.1" placeholder="15" value="15">
+        </div>
+      </div>
+
+      <div class="mp-pp-field">
+        <label style="font-size: 0.7rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.2rem;">Gns. Pace/500m</label>
+        <div style="display: flex; gap: 4px;">
+          <input type="number" class="mp-pp-input js-base-pace-m" min="1" max="3" placeholder="1" value="1">
+          <input type="number" class="mp-pp-input js-base-pace-s" min="0" max="59" step="0.1" placeholder="48.7" value="48.7">
+        </div>
+      </div>
+
+      <div class="mp-pp-field">
+        <label style="font-size: 0.7rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.2rem;">Gns. Watt</label>
+        <input type="number" class="mp-pp-input js-base-watt" min="50" max="700" placeholder="302" value="302">
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. VISUEL GRAF -->
+  <div class="mp-pp-graph-container">
+    <div style="position: absolute; top: 12px; left: 15px; font-size: 0.75rem; font-weight: 800; color: #0f172a; text-transform: uppercase;">
+      Powerprofil Kurve
+    </div>
+    <div style="position: absolute; top: 12px; right: 15px; font-size: 0.65rem; font-weight: 700; color: #64748b; display: flex; gap: 10px;">
+      <span style="display: flex; align-items: center; gap: 4px;"><span style="display: inline-block; width: 10px; height: 3px; background: #94a3b8;"></span> Teoretisk mål</span>
+      <span class="js-pp-legend-actual" style="display: none; align-items: center; gap: 4px;"><span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #2563eb;"></span> Testresultat</span>
+    </div>
+    
+    <!-- SVG Area for the smooth curve -->
+    <svg id="mp-pp-svg" width="100%" height="100%" style="display: block;"></svg>
+  </div>
+
+  <!-- 3. FULD UGETEST (KUN SYNLIG I FULD MODE) -->
+  <div class="js-pp-full-tests" style="display: none;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+      <h4 style="font-size: 0.85rem; font-weight: 900; color: #0f172a; margin: 0; text-transform: uppercase;">Log dine faktiske tests</h4>
+      <button type="button" class="js-pp-clear-tests-btn" style="background: none; border: none; font-size: 0.7rem; font-weight: 800; color: #ef4444; cursor: pointer;">Ryd tests</button>
+    </div>
+    <p style="font-size: 0.7rem; color: #64748b; margin: 0 0 1rem 0;">Aflæs gennemsnittet på PM5-skærmen. Indtast enten Watt eller Pace – den anden udregnes automatisk.</p>
+
+    <div class="mp-pp-cards-grid">
+      
+      <!-- DAG 1: 6 KM -->
+      <div class="mp-pp-test-card js-test-card" data-key="6k">
+        <div class="mp-pp-card-header">
+          <div>
+            <div class="mp-pp-card-day">Dag 1</div>
+            <div class="mp-pp-card-title">6 km Test</div>
+          </div>
+          <div class="mp-pp-card-pct">85%</div>
+        </div>
+        <div class="mp-pp-card-target js-target-6k">Mål: <span>-</span></div>
+        
+        <div class="mp-pp-flex-grid">
+          <div class="mp-pp-field">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Pace/500m</label>
+            <div style="display: flex; gap: 4px;">
+              <input type="number" class="mp-pp-input js-test-pace-m" placeholder="m">
+              <input type="number" class="mp-pp-input js-test-pace-s" step="0.1" placeholder="s">
+            </div>
+          </div>
+          <div class="mp-pp-field" style="max-width: 80px;">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Watt</label>
+            <input type="number" class="mp-pp-input js-test-watt" placeholder="W">
+          </div>
+        </div>
+      </div>
+
+      <!-- DAG 3: 3x100m -->
+      <div class="mp-pp-test-card js-test-card" data-key="10s">
+        <div class="mp-pp-card-header">
+          <div>
+            <div class="mp-pp-card-day">Dag 3</div>
+            <div class="mp-pp-card-title">3 x 100m (Sprint)</div>
+          </div>
+          <div class="mp-pp-card-pct">175%</div>
+        </div>
+        <div class="mp-pp-card-target js-target-10s">Mål: <span>-</span></div>
+        
+        <div class="mp-pp-flex-grid">
+          <div class="mp-pp-field">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Pace for de 3</label>
+            <div style="display: flex; gap: 4px;">
+              <input type="number" class="mp-pp-input js-test-pace-m" placeholder="m">
+              <input type="number" class="mp-pp-input js-test-pace-s" step="0.1" placeholder="s">
+            </div>
+          </div>
+          <div class="mp-pp-field" style="max-width: 80px;">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Watt</label>
+            <input type="number" class="mp-pp-input js-test-watt" placeholder="W">
+          </div>
+        </div>
+      </div>
+
+      <!-- DAG 3: 1 min -->
+      <div class="mp-pp-test-card js-test-card" data-key="60s">
+        <div class="mp-pp-card-header">
+          <div>
+            <div class="mp-pp-card-day">Dag 3</div>
+            <div class="mp-pp-card-title">1 x 1 minut</div>
+          </div>
+          <div class="mp-pp-card-pct">153%</div>
+        </div>
+        <div class="mp-pp-card-target js-target-60s">Mål: <span>-</span></div>
+        
+        <div class="mp-pp-flex-grid">
+          <div class="mp-pp-field">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Pace/500m</label>
+            <div style="display: flex; gap: 4px;">
+              <input type="number" class="mp-pp-input js-test-pace-m" placeholder="m">
+              <input type="number" class="mp-pp-input js-test-pace-s" step="0.1" placeholder="s">
+            </div>
+          </div>
+          <div class="mp-pp-field" style="max-width: 80px;">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Watt</label>
+            <input type="number" class="mp-pp-input js-test-watt" placeholder="W">
+          </div>
+        </div>
+      </div>
+
+      <!-- DAG 4: 60 min -->
+      <div class="mp-pp-test-card js-test-card" data-key="60m">
+        <div class="mp-pp-card-header">
+          <div>
+            <div class="mp-pp-card-day">Dag 4</div>
+            <div class="mp-pp-card-title">60 minutter (Hour of Power)</div>
+          </div>
+          <div class="mp-pp-card-pct">76%</div>
+        </div>
+        <div class="mp-pp-card-target js-target-60m">Mål: <span>-</span></div>
+        
+        <div class="mp-pp-flex-grid">
+          <div class="mp-pp-field">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Pace/500m</label>
+            <div style="display: flex; gap: 4px;">
+              <input type="number" class="mp-pp-input js-test-pace-m" placeholder="m">
+              <input type="number" class="mp-pp-input js-test-pace-s" step="0.1" placeholder="s">
+            </div>
+          </div>
+          <div class="mp-pp-field" style="max-width: 80px;">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Watt</label>
+            <input type="number" class="mp-pp-input js-test-watt" placeholder="W">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div style="display: flex; justify-content: flex-end; gap: 8px;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">Download Dashboard</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil alt">Ryd alt</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('[data-calculator="rowing-powerprofile"]');
+  if (!container) return;
+
+  const STORAGE_KEY = 'mp_rowing_powerprofile_v2';
+
+  // KONSTANTER FRA KURT JENSEN
+  const PCT = {
+    '10s': 1.75,
+    '60s': 1.53,
+    '2k':  1.00,
+    '6k':  0.85,
+    '60m': 0.76
+  };
+
+  let activeMode = 'estimate'; // 'estimate' or 'full'
+
+  // DOM: Mode Switcher
+  const modeBtns = container.querySelectorAll('.js-pp-mode-btn');
+  const sectionFullTests = container.querySelector('.js-pp-full-tests');
+  const baselineTitle = container.querySelector('.js-pp-baseline-title');
+  const legendActual = container.querySelector('.js-pp-legend-actual');
+
+  // DOM: Baseline
+  const bTimeM = container.querySelector('.js-base-time-m');
+  const bTimeS = container.querySelector('.js-base-time-s');
+  const bPaceM = container.querySelector('.js-base-pace-m');
+  const bPaceS = container.querySelector('.js-base-pace-s');
+  const bWatt  = container.querySelector('.js-base-watt');
+
+  // DOM: Graph & Targets
+  const svg = container.querySelector('#mp-pp-svg');
+  const targets = {
+    '10s': container.querySelector('.js-target-10s span'),
+    '60s': container.querySelector('.js-target-60s span'),
+    '6k':  container.querySelector('.js-target-6k span'),
+    '60m': container.querySelector('.js-target-60m span')
+  };
+
+  // DOM: Test Cards
+  const cards = container.querySelectorAll('.js-test-card');
+
+  // CONCEPT2 WATT -> PACE OMREGNER
+  function paceToWatt(m, s) {
+    const totalSec = (m * 60) + s;
+    if (totalSec <= 0) return 0;
+    return 2.8 / Math.pow(totalSec / 500, 3);
+  }
+
+  function wattToPaceObj(watt) {
+    if (watt <= 0) return { m: 0, s: 0, str: '00:00.0' };
+    const paceSec = 500 * Math.pow(2.8 / watt, 1/3);
+    const m = Math.floor(paceSec / 60);
+    const s = paceSec % 60;
+    return { 
+      m, 
+      s: parseFloat(s.toFixed(1)), 
+      str: `${String(m).padStart(2, '0')}:${String(Math.floor(s)).padStart(2, '0')}.${Math.floor((s%1)*10)}` 
+    };
+  }
+
+  // --- MODE SWITCH LOGIK ---
+  modeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modeBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeMode = btn.getAttribute('data-mode');
+
+      if (activeMode === 'full') {
+        sectionFullTests.style.display = 'block';
+        baselineTitle.textContent = 'Dag 2: 2000m Test (Baseline = 100%)';
+        legendActual.style.display = 'flex';
+      } else {
+        sectionFullTests.style.display = 'none';
+        baselineTitle.textContent = 'Indtast din 2000m tid (Baseline = 100%)';
+        legendActual.style.display = 'none';
+      }
+      
+      updateAll();
+    });
+  });
+
+  // --- BASELINE SYNC LOGIK ---
+  let isUpdatingBase = false;
+  function syncBaseline(source) {
+    if (isUpdatingBase) return;
+    isUpdatingBase = true;
+
+    let w = 0;
+    if (source === 'time') {
+      const min = parseFloat(bTimeM.value) || 0;
+      const sec = parseFloat(bTimeS.value) || 0;
+      const totalSec = (min * 60) + sec;
+      if (totalSec > 0) {
+        const paceSec = totalSec / 4;
+        const pObj = { m: Math.floor(paceSec / 60), s: parseFloat((paceSec % 60).toFixed(1)) };
+        bPaceM.value = pObj.m;
+        bPaceS.value = pObj.s;
+        w = paceToWatt(pObj.m, pObj.s);
+        bWatt.value = Math.round(w);
+      }
+    } else if (source === 'pace') {
+      const pm = parseFloat(bPaceM.value) || 0;
+      const ps = parseFloat(bPaceS.value) || 0;
+      w = paceToWatt(pm, ps);
+      bWatt.value = Math.round(w);
+      const totalSec = (pm * 60 + ps) * 4;
+      bTimeM.value = Math.floor(totalSec / 60);
+      bTimeS.value = parseFloat((totalSec % 60).toFixed(1));
+    } else if (source === 'watt') {
+      w = parseFloat(bWatt.value) || 0;
+      if (w > 0) {
+        const pObj = wattToPaceObj(w);
+        bPaceM.value = pObj.m;
+        bPaceS.value = pObj.s;
+        const totalSec = ((pObj.m * 60) + pObj.s) * 4;
+        bTimeM.value = Math.floor(totalSec / 60);
+        bTimeS.value = parseFloat((totalSec % 60).toFixed(1));
+      }
+    }
+    
+    isUpdatingBase = false;
+    updateAll();
+  }
+
+  [bTimeM, bTimeS].forEach(el => el.addEventListener('input', () => syncBaseline('time')));
+  [bPaceM, bPaceS].forEach(el => el.addEventListener('input', () => syncBaseline('pace')));
+  bWatt.addEventListener('input', () => syncBaseline('watt'));
+
+  // --- KORT SYNC LOGIK ---
+  cards.forEach(card => {
+    const pM = card.querySelector('.js-test-pace-m');
+    const pS = card.querySelector('.js-test-pace-s');
+    const tW = card.querySelector('.js-test-watt');
+
+    let isUpdatingCard = false;
+    
+    const syncCard = (source) => {
+      if (isUpdatingCard) return;
+      isUpdatingCard = true;
+      if (source === 'pace') {
+        const m = parseFloat(pM.value) || 0;
+        const s = parseFloat(pS.value) || 0;
+        const w = paceToWatt(m, s);
+        if (w > 0) tW.value = Math.round(w); else tW.value = '';
+      } else if (source === 'watt') {
+        const w = parseFloat(tW.value) || 0;
+        if (w > 0) {
+          const pObj = wattToPaceObj(w);
+          pM.value = pObj.m;
+          pS.value = pObj.s;
+        } else {
+          pM.value = ''; pS.value = '';
+        }
+      }
+      isUpdatingCard = false;
+      updateAll();
+    };
+
+    [pM, pS].forEach(el => el.addEventListener('input', () => syncCard('pace')));
+    tW.addEventListener('input', () => syncCard('watt'));
+  });
+
+  // --- SVG KURVE GENERATOR ---
+  function drawSmoothCurve(svgEl, baselineW) {
+    if (!svgEl || baselineW <= 0) return;
+    
+    const w = svgEl.clientWidth || 600;
+    const h = svgEl.clientHeight || 250;
+    
+    const pointsData = [
+      { key: '10s', xFactor: 0.05, pct: PCT['10s'] },
+      { key: '60s', xFactor: 0.20, pct: PCT['60s'] },
+      { key: '2k',  xFactor: 0.40, pct: PCT['2k'] },
+      { key: '6k',  xFactor: 0.65, pct: PCT['6k'] },
+      { key: '60m', xFactor: 0.90, pct: PCT['60m'] }
+    ];
+
+    const padX = 35;
+    const padY = 40;
+    
+    const mapX = (factor) => padX + factor * (w - padX * 2);
+    const mapY = (pct) => h - padY - ((pct - 0.70) / 1.10) * (h - padY * 2);
+
+    const thePoints = pointsData.map(d => ({
+      x: mapX(d.xFactor),
+      y: mapY(d.pct),
+      key: d.key,
+      targetW: Math.round(baselineW * d.pct)
+    }));
+
+    const line = (pA, pB) => {
+      const lengthX = pB.x - pA.x; const lengthY = pB.y - pA.y;
+      return { length: Math.sqrt(Math.pow(lengthX, 2) + Math.pow(lengthY, 2)), angle: Math.atan2(lengthY, lengthX) };
+    }
+    const controlPoint = (current, prev, next, reverse) => {
+      const p = prev || current; const n = next || current;
+      const smooth = 0.2;
+      const o = line(p, n);
+      const angle = o.angle + (reverse ? Math.PI : 0);
+      const length = o.length * smooth;
+      return { x: current.x + Math.cos(angle) * length, y: current.y + Math.sin(angle) * length };
+    }
+    const bezierCommand = (point, i, a) => {
+      const cps = controlPoint(a[i - 1], a[i - 2], point);
+      const cpe = controlPoint(point, a[i - 1], a[i + 1], true);
+      return `C ${cps.x},${cps.y} ${cpe.x},${cpe.y} ${point.x},${point.y}`;
+    }
+
+    const pathD = thePoints.reduce((acc, pt, i, a) => i === 0 ? `M ${pt.x},${pt.y}` : `${acc} ${bezierCommand(pt, i, a)}`, "");
+
+    let svgHtml = `
+      <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#94a3b8" stop-opacity="0.2"/>
+          <stop offset="100%" stop-color="#94a3b8" stop-opacity="0.0"/>
+        </linearGradient>
+      </defs>
+      <!-- Baggrunds-fill for teoretisk kurve -->
+      <path d="${pathD} L ${thePoints[thePoints.length-1].x},${h-padY} L ${thePoints[0].x},${h-padY} Z" fill="url(#grad)" />
+      <!-- Teoretisk streg -->
+      <path d="${pathD}" fill="none" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    `;
+
+    // Tegn Teoretiske punkter & Labels
+    const labels = {'10s':'10 sek', '60s':'1 min', '2k':'2k (100%)', '6k':'6 km', '60m':'60 min'};
+    thePoints.forEach(pt => {
+      svgHtml += `
+        <circle cx="${pt.x}" cy="${pt.y}" r="5" fill="#ffffff" stroke="#94a3b8" stroke-width="2" />
+        <text x="${pt.x}" y="${h - 15}" font-size="11" font-weight="700" fill="#64748b" text-anchor="middle">${labels[pt.key]}</text>
+      `;
+      // Hvis vi er i estimate mode, så skriv også målwatt på grafen
+      if (activeMode === 'estimate') {
+        svgHtml += `<text x="${pt.x}" y="${pt.y - 12}" font-size="11" font-weight="800" fill="#475569" text-anchor="middle">${pt.targetW}W</text>`;
+      }
+    });
+
+    // Tegn FAKTISKE punkter HVIS vi er i Fuld Ugetest mode
+    if (activeMode === 'full') {
+      thePoints.forEach(pt => {
+        if (pt.key === '2k') {
+          svgHtml += `
+            <circle cx="${pt.x}" cy="${pt.y}" r="6" fill="#2563eb" />
+            <text x="${pt.x}" y="${pt.y - 12}" font-size="12" font-weight="900" fill="#1e40af" text-anchor="middle">${baselineW}W</text>
+          `;
+          return;
+        }
+        
+        const card = container.querySelector(`.js-test-card[data-key="${pt.key}"]`);
+        if (card) {
+          const actW = parseFloat(card.querySelector('.js-test-watt').value);
+          if (actW > 0) {
+            card.classList.add('has-data');
+            const actPct = actW / baselineW;
+            const actY = mapY(actPct);
+            
+            svgHtml += `<line x1="${pt.x}" y1="${pt.y}" x2="${pt.x}" y2="${actY}" stroke="#bfdbfe" stroke-width="2" stroke-dasharray="4" />`;
+            
+            svgHtml += `
+              <circle cx="${pt.x}" cy="${actY}" r="6" fill="#2563eb" />
+              <text x="${pt.x}" y="${actY - 12}" font-size="12" font-weight="900" fill="#1e40af" text-anchor="middle">${actW}W</text>
+            `;
+          } else {
+            card.classList.remove('has-data');
+          }
+        }
+      });
+    }
+
+    svgEl.innerHTML = svgHtml;
+  }
+
+  function updateAll() {
+    const baseW = parseFloat(bWatt.value) || 0;
+    if (baseW <= 0) {
+      if (svg) svg.innerHTML = '';
+      Object.values(targets).forEach(el => el.textContent = '-');
+      cards.forEach(c => c.classList.remove('has-data'));
+      return;
+    }
+
+    // Update Targets Text on Cards
+    ['10s', '60s', '6k', '60m'].forEach(key => {
+      const tgtW = Math.round(baseW * PCT[key]);
+      const pObj = wattToPaceObj(tgtW);
+      if (targets[key]) targets[key].innerHTML = `${tgtW}W <span>(${pObj.str})</span>`;
+    });
+
+    drawSmoothCurve(svg, baseW);
+    saveState();
+  }
+
+  function saveState() {
+    try {
+      const state = { 
+        activeMode, 
+        baseM: bTimeM.value, 
+        baseS: bTimeS.value, 
+        tests: {} 
+      };
+      cards.forEach(card => {
+        const k = card.getAttribute('data-key');
+        state.tests[k] = {
+          pm: card.querySelector('.js-test-pace-m').value,
+          ps: card.querySelector('.js-test-pace-s').value,
+          w: card.querySelector('.js-test-watt').value
+        };
+      });
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {}
+  }
+
+  function loadState() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        const state = JSON.parse(saved);
+        if (state.activeMode) {
+          activeMode = state.activeMode;
+          modeBtns.forEach(b => {
+            if(b.getAttribute('data-mode') === activeMode) b.click();
+          });
+        }
+        if (state.baseM) bTimeM.value = state.baseM;
+        if (state.baseS) bTimeS.value = state.baseS;
+        
+        syncBaseline('time');
+        
+        if (state.tests) {
+          cards.forEach(card => {
+            const k = card.getAttribute('data-key');
+            if (state.tests[k]) {
+              card.querySelector('.js-test-pace-m').value = state.tests[k].pm || '';
+              card.querySelector('.js-test-pace-s').value = state.tests[k].ps || '';
+              card.querySelector('.js-test-watt').value = state.tests[k].w || '';
+            }
+          });
+        }
+      }
+    } catch (e) {}
+  }
+
+  const btnClearTests = container.querySelector('.js-pp-clear-tests-btn');
+  if (btnClearTests) {
+    btnClearTests.addEventListener('click', () => {
+      cards.forEach(card => {
+        card.querySelector('.js-test-pace-m').value = '';
+        card.querySelector('.js-test-pace-s').value = '';
+        card.querySelector('.js-test-watt').value = '';
+      });
+      updateAll();
+    });
+  }
+
+  const btnReset = container.querySelector('.js-reset-btn');
+  if (btnReset) {
+    btnReset.addEventListener('click', () => {
+      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+      bTimeM.value = '7'; bTimeS.value = '15';
+      syncBaseline('time');
+      cards.forEach(card => {
+        card.querySelector('.js-test-pace-m').value = '';
+        card.querySelector('.js-test-pace-s').value = '';
+        card.querySelector('.js-test-watt').value = '';
+      });
+      modeBtns[0].click(); // Reset til Estimate mode
+      updateAll();
+    });
+  }
+
+  const btnDownload = container.querySelector('.js-download-btn');
+  if (btnDownload) {
+    btnDownload.addEventListener('click', () => {
+      if (typeof html2canvas !== 'undefined') {
+        html2canvas(container, { scale: 2, backgroundColor: '#ffffff' }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = 'powerprofil-roning.png';
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+    });
+  }
+
+  loadState();
+  if (!bTimeM.value) { bTimeM.value = '7'; bTimeS.value = '15'; syncBaseline('time'); }
+  else { updateAll(); }
+
+  window.addEventListener('resize', () => {
+    if (bWatt.value) updateAll();
+  });
+});
+</script>

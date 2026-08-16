@@ -22,6 +22,7 @@ tags:
   - intervaltræning
 categories:
   - Træning
+  - Roning
 last_modified_at: '2020-07-05T21:42:12Z'
 ---
 

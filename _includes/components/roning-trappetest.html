@@ -1,0 +1,735 @@
+<!-- _includes/calc/roning-trappetest.html -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-step-input { 
+    height: 40px !important; 
+    border-radius: 8px !important; 
+    text-align: center !important; 
+    font-weight: 800 !important; 
+    box-sizing: border-box !important; 
+    padding: 0 6px !important; 
+    border: 1.5px solid #cbd5e1 !important; 
+    background: #ffffff !important; 
+    margin: 0 !important; 
+    width: 100% !important;
+    font-size: 0.875rem !important;
+  }
+
+  /* MODE SELECTOR */
+  .mp-step-mode-toggle {
+    display: flex;
+    gap: 4px;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 1.15rem;
+    border: 1px solid #cbd5e1;
+    width: 100%;
+  }
+  .mp-step-mode-btn {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    border-radius: 7px;
+    font-size: 0.775rem;
+    font-weight: 800;
+    cursor: pointer;
+    background: transparent;
+    color: #64748b;
+    transition: all 0.15s ease;
+  }
+  .mp-step-mode-btn.active {
+    background: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  }
+
+  /* TIMER DISPLAY */
+  .mp-step-timer-box {
+    background: #0f172a;
+    border-radius: 14px;
+    padding: 1.15rem 1rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1.15rem;
+  }
+  .mp-step-timer-digits {
+    font-family: monospace;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #38bdf8;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    margin: 0.35rem 0;
+  }
+
+  .mp-step-flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: flex-end;
+  }
+
+  .mp-step-field {
+    flex: 1 1 110px;
+    min-width: 0;
+  }
+
+  /* STATS GRID I TIMER */
+  .mp-step-live-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 0.85rem;
+  }
+  .mp-step-live-box {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 8px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .mp-step-live-val { font-size: 1.35rem; font-weight: 900; color: #ffffff; line-height: 1; }
+  .mp-step-live-lbl { font-size: 0.625rem; font-weight: 800; color: #94a3b8; text-transform: uppercase; margin-top: 3px; display: block; }
+
+  /* OVERSIKTLIG TRINTABEL */
+  .mp-step-table {
+    width: 100% !important;
+    border-collapse: collapse;
+    font-size: 0.75rem;
+    margin-top: 0.4rem;
+  }
+  .mp-step-table th { background: #f1f5f9; color: #475569; padding: 6px 4px; text-align: center; font-weight: 800; border-bottom: 1.5px solid #cbd5e1; }
+  .mp-step-table td { padding: 6px 4px; border-bottom: 1px solid #e2e8f0; color: #0f172a; font-weight: 600; text-align: center; vertical-align: middle; }
+  .mp-step-table tr.active-step { background-color: #dbeafe !important; font-weight: 800; color: #1e40af; }
+
+  .mp-badge-btn-hero {
+    border: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+    gap: 0.35rem; font-size: 0.75rem; font-weight: 800; padding: 0.3rem 0.65rem; border-radius: 6px; background: #e2e8f0; color: #64748b; transition: all 0.15s ease;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="roning-trappetest" style="max-width: 680px; margin: 0 auto; position: relative;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.75rem; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 2px 0;">🧗‍♂️ Rotrappetest (Team Danmark)</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Officiel 7-trins rotest med live-timer, hastighed (Tid/500m) og automatisk VO₂max-beregning.
+      </p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- MODE SWITCHER -->
+  <div class="mp-step-mode-toggle" data-html2canvas-ignore="true">
+    <button type="button" class="js-step-mode-btn active" data-mode="timer">⏱️ Kør Test med Live-Timer</button>
+    <button type="button" class="mp-step-mode-btn js-step-mode-btn" data-mode="manual">✏️ Indtast Resultat Efter Test</button>
+  </div>
+
+  <!-- STAMDATA (KØN, ALDER, VÆGT & NIVEAU VÆLGER) -->
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.95rem; margin-bottom: 1.25rem;">
+    <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.75rem 0;">1. Indtast stamdata og vælg niveau</h4>
+
+    <!-- RÆKKE 1: KØN, ALDER, VÆGT -->
+    <div class="mp-step-flex-grid" style="margin-bottom: 0.75rem;">
+      <div class="mp-step-field" style="flex: 1.4 1 130px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Køn</label>
+        <div style="height: 40px; display: flex; background: #ffffff; border-radius: 8px; padding: 2px; border: 1.5px solid #cbd5e1; box-sizing: border-box; width: 100%;">
+          <label style="flex: 1; margin: 0; cursor: pointer;">
+            <input type="radio" name="step_gender" value="male" class="js-step-input" checked style="display:none;">
+            <div class="js-step-label-male" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800; border-radius: 6px; background: #2563eb; color: #ffffff;">Mand</div>
+          </label>
+          <label style="flex: 1; margin: 0; cursor: pointer;">
+            <input type="radio" name="step_gender" value="female" class="js-step-input" style="display:none;">
+            <div class="js-step-label-female" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800; border-radius: 6px; color: #475569;">Kvinde</div>
+          </label>
+        </div>
+      </div>
+
+      <div class="mp-step-field" style="max-width: 85px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Alder <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(år)</span></label>
+        <input type="number" name="step_age" class="mp-step-input js-step-input" min="10" max="90" placeholder="25" value="25">
+      </div>
+
+      <div class="mp-step-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Kropsvægt <span style="font-weight: 600; color: #64748b; font-size: 0.675rem;">(kg)</span></label>
+        <input type="number" name="step_weight" class="mp-step-input js-step-input" min="30" max="180" placeholder="75" value="75">
+      </div>
+    </div>
+
+    <!-- RÆKKE 2: EXACT ATRO NIVEAU VÆLGER (NIVEAU 1 TIL 28) -->
+    <div>
+      <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">
+        Vælg Niveau i Trappetesten (ud fra forventet Tid/500m)
+      </label>
+      <select class="mp-step-input js-step-level-select" style="text-align: left; padding-left: 10px; background: #ffffff;">
+        <!-- Udfyldes dynamisk af JS med alle 28 niveauer -->
+      </select>
+    </div>
+
+    <!-- NIVEAU BANE GUIDE OVERVIEW -->
+    <div style="background: #ffffff; border: 1.5px solid #cbd5e1; border-radius: 10px; padding: 8px; margin-top: 0.75rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+        <strong style="font-size: 0.75rem; color: #1e40af; font-family: inherit;">📊 Pacing-skema for valgt niveau (5 min pr. trin)</strong>
+        <span class="js-step-target-pace" style="font-size: 0.725rem; font-weight: 800; color: #0f172a;">01:50</span>
+      </div>
+      <div style="overflow-x: auto; width: 100%;">
+        <table class="mp-step-table">
+          <thead>
+            <tr>
+              <th>Trin 1<br><span style="font-size:0.65rem; color:#64748b;">(20 SPM)</span></th>
+              <th>Trin 2<br><span style="font-size:0.65rem; color:#64748b;">(22 SPM)</span></th>
+              <th>Trin 3<br><span style="font-size:0.65rem; color:#64748b;">(24 SPM)</span></th>
+              <th>Trin 4<br><span style="font-size:0.65rem; color:#64748b;">(26 SPM)</span></th>
+              <th>Trin 5<br><span style="font-size:0.65rem; color:#64748b;">(28 SPM)</span></th>
+              <th>Trin 6<br><span style="font-size:0.65rem; color:#64748b;">(30 SPM)</span></th>
+              <th>Trin 7<br><span style="font-size:0.65rem; color:#64748b;">(32 SPM)</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="js-step-table-watts">
+              <!-- Dynamiske Watt & Paces genereres via JS -->
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEKTION A: INTERAKTIV LIVE TIMER -->
+  <div class="js-section-timer">
+    <div class="mp-step-timer-box">
+      <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #94a3b8; font-weight: 800;">
+        <span class="js-step-current-trin-title">TRIN 1 AF 7</span>
+        <span class="js-step-total-time">Samlet tid: 00:00</span>
+      </div>
+
+      <div class="js-step-timer-digits mp-step-timer-digits">05:00</div>
+
+      <!-- Live target tal -->
+      <div class="mp-step-live-grid">
+        <div class="mp-step-live-box">
+          <div class="js-step-live-watt mp-step-live-val" style="color: #38bdf8;">170W</div>
+          <span class="mp-step-live-lbl">Mål Watt</span>
+        </div>
+        <div class="mp-step-live-box">
+          <div class="js-step-live-spm mp-step-live-val" style="color: #facc15;">20 SPM</div>
+          <span class="mp-step-live-lbl">Kadence</span>
+        </div>
+        <div class="mp-step-live-box">
+          <div class="js-step-live-pace mp-step-live-val" style="color: #4ade80;">02:07</div>
+          <span class="mp-step-live-lbl">Tid / 500m</span>
+        </div>
+      </div>
+
+      <!-- Live knapper -->
+      <div style="display: flex; gap: 8px; justify-content: center; margin-top: 1rem;" data-html2canvas-ignore="true">
+        <button type="button" class="js-step-start-btn" style="flex: 1; padding: 10px; background: #2563eb; color: #fff; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; font-size: 0.9rem;">
+          ▶️ Start Trappetest
+        </button>
+        <button type="button" class="js-step-stop-btn" disabled style="flex: 1; padding: 10px; background: #dc2626; color: #fff; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; font-size: 0.9rem;">
+          🛑 Stop / Udmattet
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEKTION B: MANUEL EFTER-TEST INDTASTNING -->
+  <div class="js-section-manual" style="display: none; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.95rem; margin-bottom: 1.25rem;">
+    <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.75rem 0;">Indtast hvor langt du nåede i testen</h4>
+    
+    <div class="mp-step-flex-grid">
+      <div class="mp-step-field" style="flex: 1.3 1 140px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Sidste helt gennemførte trin</label>
+        <select class="mp-step-input js-step-completed-select" style="background: #ffffff;">
+          <option value="0">Stoppet undervejs på Trin 1</option>
+          <option value="1">Trin 1 (5 min completed)</option>
+          <option value="2">Trin 2 (10 min completed)</option>
+          <option value="3">Trin 3 (15 min completed)</option>
+          <option value="4" selected>Trin 4 (20 min completed)</option>
+          <option value="5">Trin 5 (25 min completed)</option>
+          <option value="6">Trin 6 (30 min completed)</option>
+          <option value="7">Trin 7 (35 min completed)</option>
+        </select>
+      </div>
+
+      <div class="mp-step-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Tid på ufuldstændigt trin (min)</label>
+        <input type="number" name="step_inc_min" class="mp-step-input js-step-input" min="0" max="4" placeholder="2" value="2">
+      </div>
+
+      <div class="mp-step-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Tid på ufuldstændigt trin (sek)</label>
+        <input type="number" name="step_inc_sec" class="mp-step-input js-step-input" min="0" max="59" placeholder="30" value="30">
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTATKORT -->
+  <div style="background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 0.85rem 1rem; margin-bottom: 1.25rem; text-align: center;">
+    <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.725rem; color: #1e40af; font-weight: 800; margin-bottom: 0.25rem;">
+      Estimeret Kondital (Kurt Jensen Formel)
+    </div>
+
+    <div style="display: flex; align-items: baseline; justify-content: center; gap: 0.3rem;">
+      <span class="js-step-kondital-out" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1;">52.1</span>
+      <span style="font-size: 0.9rem; font-weight: 800; color: #3b82f6;">ml/kg/min</span>
+    </div>
+
+    <div style="font-size: 0.775rem; font-weight: 700; color: #64748b; margin-top: 2px;">
+      Maksimal Effekt: <strong class="js-step-maxwatt-out" style="color: #0f172a;">265 Watt</strong> | Absolut VO₂max: <strong class="js-step-abs-out" style="color: #0f172a;">3.92 L/min</strong>
+    </div>
+
+    <!-- Slank Continuum Bar -->
+    <div class="mp-fitness-continuum" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
+      <div class="mp-continuum-bar-wrapper">
+        <div class="mp-continuum-bar" style="height: 6px;">
+          <div class="mp-segment" style="background: #ef4444;"></div>
+          <div class="mp-segment" style="background: #f97316;"></div>
+          <div class="mp-segment" style="background: #eab308;"></div>
+          <div class="mp-segment" style="background: #22c55e;"></div>
+          <div class="mp-segment" style="background: #3b82f6;"></div>
+        </div>
+        <div class="js-step-continuum-marker mp-continuum-marker" style="display: none;"></div>
+      </div>
+    </div>
+
+    <div style="margin-top: 0.4rem; display: flex; justify-content: center;">
+      <span class="js-step-eval-badge" style="display:inline-block; font-size:0.775rem; font-weight:800; padding:3px 10px; border-radius:6px; background-color:#22c55e; color:#ffffff;">
+        Godt
+      </span>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="mp-action-group" style="margin-top: 0.85rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil alt">🗑️</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('[data-calculator="roning-trappetest"]');
+  if (!container) return;
+
+  const STORAGE_KEY = 'mp_rowing_step_test_v1';
+
+  // OFFICIELE 28 NIVEAUER FRA TEAM DANMARK / KURT JENSEN TRAPPETEST
+  const STEP_LEVELS = [
+    { level: 1,  watts: [40, 50, 60, 70, 80, 90, 100], pace: '02:32' },
+    { level: 2,  watts: [50, 60, 70, 80, 90, 100, 110], pace: '02:27' },
+    { level: 3,  watts: [60, 70, 80, 90, 100, 110, 120], pace: '02:23' },
+    { level: 4,  watts: [70, 80, 90, 100, 110, 120, 130], pace: '02:19' },
+    { level: 5,  watts: [80, 90, 100, 110, 120, 130, 140], pace: '02:16' },
+    { level: 6,  watts: [90, 100, 110, 120, 130, 140, 150], pace: '02:13' },
+    { level: 7,  watts: [100, 110, 120, 130, 140, 150, 160], pace: '02:10' },
+    { level: 8,  watts: [80, 95, 110, 125, 140, 155, 170], pace: '02:07' },
+    { level: 9,  watts: [95, 110, 125, 140, 155, 170, 185], pace: '02:04' },
+    { level: 10, watts: [110, 125, 140, 155, 170, 185, 200], pace: '02:01' },
+    { level: 11, watts: [125, 140, 155, 170, 185, 200, 215], pace: '01:58' },
+    { level: 12, watts: [140, 155, 170, 185, 200, 215, 230], pace: '01:55' },
+    { level: 13, watts: [155, 170, 185, 200, 215, 230, 245], pace: '01:53' },
+    { level: 14, watts: [170, 185, 200, 215, 230, 245, 260], pace: '01:50' },
+    { level: 15, watts: [150, 170, 190, 210, 230, 250, 270], pace: '01:49' },
+    { level: 16, watts: [170, 190, 210, 230, 250, 270, 290], pace: '01:46' },
+    { level: 17, watts: [190, 210, 230, 250, 270, 290, 310], pace: '01:44' },
+    { level: 18, watts: [210, 230, 250, 270, 290, 310, 330], pace: '01:42' },
+    { level: 19, watts: [230, 250, 270, 290, 310, 330, 350], pace: '01:40' },
+    { level: 20, watts: [250, 270, 290, 310, 330, 350, 370], pace: '01:38' },
+    { level: 21, watts: [270, 290, 310, 330, 350, 370, 390], pace: '01:37' },
+    { level: 22, watts: [250, 275, 300, 325, 350, 375, 400], pace: '01:36' },
+    { level: 23, watts: [275, 300, 325, 350, 375, 400, 425], pace: '01:34' },
+    { level: 24, watts: [300, 325, 350, 375, 400, 425, 450], pace: '01:32' },
+    { level: 25, watts: [325, 350, 375, 400, 425, 450, 475], pace: '01:30' },
+    { level: 26, watts: [350, 375, 400, 425, 450, 475, 500], pace: '01:29' },
+    { level: 27, watts: [375, 400, 425, 450, 475, 500, 525], pace: '01:27' },
+    { level: 28, watts: [400, 425, 450, 475, 500, 525, 550], pace: '01:26' }
+  ];
+
+  const SPM_TARGETS = [20, 22, 24, 26, 28, 30, 32];
+
+  let activeMode = 'timer'; // 'timer' eller 'manual'
+  let isTimerRunning = false;
+  let timerInterval = null;
+  let currentTrinIdx = 0; // 0 til 6 (Trin 1-7)
+  let trinElapsedSec = 0;
+  let totalElapsedSec = 0;
+  let audioCtx = null;
+
+  // DOM REFERENCER
+  const modeBtns = container.querySelectorAll('.js-step-mode-btn');
+  const sectionTimer = container.querySelector('.js-section-timer');
+  const sectionManual = container.querySelector('.js-section-manual');
+
+  const levelSelect = container.querySelector('.js-step-level-select');
+  const completedSelect = container.querySelector('.js-step-completed-select');
+  const targetPaceText = container.querySelector('.js-step-target-pace');
+  const tableWattsRow = container.querySelector('.js-step-table-watts');
+
+  const digitsDisplay = container.querySelector('.js-step-timer-digits');
+  const currentTrinTitle = container.querySelector('.js-step-current-trin-title');
+  const totalTimeText = container.querySelector('.js-step-total-time');
+
+  const liveWattText = container.querySelector('.js-step-live-watt');
+  const liveSpmText = container.querySelector('.js-step-live-spm');
+  const livePaceText = container.querySelector('.js-step-live-pace');
+
+  const btnStart = container.querySelector('.js-step-start-btn');
+  const btnStop = container.querySelector('.js-step-stop-btn');
+
+  const inputs = container.querySelectorAll('.js-step-input');
+
+  const maxWattOut = container.querySelector('.js-step-maxwatt-out');
+  const konditalOut = container.querySelector('.js-step-kondital-out');
+  const absOut = container.querySelector('.js-step-abs-out');
+  const evalBadge = container.querySelector('.js-step-eval-badge');
+  const marker = container.querySelector('.js-step-continuum-marker');
+
+  const btnReset = container.querySelector('.js-reset-btn');
+  const btnDownload = container.querySelector('.js-download-btn');
+
+  // CONCEPT2 WATT -> PACE (TID/500M) FORMEL
+  function wattsToPace(watts) {
+    if (watts <= 0) return '00:00';
+    const paceSec = 500 * Math.pow(2.8 / watts, 1/3);
+    const m = Math.floor(paceSec / 60);
+    const s = Math.floor(paceSec % 60);
+    return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+  }
+
+  function formatMinSec(totalSec) {
+    const m = Math.floor(totalSec / 60);
+    const s = Math.floor(totalSec % 60);
+    return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+  }
+
+  function playBeep() {
+    try {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain); gain.connect(audioCtx.destination);
+      osc.frequency.value = 880;
+      gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.3);
+      osc.start(); osc.stop(audioCtx.currentTime + 0.3);
+    } catch (e) {}
+  }
+
+  // INDSÆT ALLE 28 NIVEAUER I DROPDOWN
+  function initLevelSelect() {
+    if (!levelSelect) return;
+    levelSelect.innerHTML = STEP_LEVELS.map(l => `
+      <option value="${l.level}" ${l.level === 14 ? 'selected' : ''}>
+        Niveau ${l.level} (Forventet Tid/500m: ${l.pace} | Trin 1: ${l.watts[0]}W ➔ Trin 7: ${l.watts[6]}W)
+      </option>
+    `).join('');
+  }
+
+  // MODE SWITCH (TIMER VS MANUEL)
+  modeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modeBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeMode = btn.getAttribute('data-mode');
+
+      if (sectionTimer) sectionTimer.style.display = activeMode === 'timer' ? 'block' : 'none';
+      if (sectionManual) sectionManual.style.display = activeMode === 'manual' ? 'block' : 'none';
+
+      if (isTimerRunning) stopTimer();
+      calculate();
+    });
+  });
+
+  function updateSwitchUI() {
+    const genderRadios = container.querySelectorAll('input[name="step_gender"]');
+    genderRadios.forEach(r => {
+      const box = r.nextElementSibling;
+      if (box) {
+        box.style.backgroundColor = r.checked ? '#2563eb' : 'transparent';
+        box.style.color = r.checked ? '#ffffff' : '#475569';
+      }
+    });
+  }
+
+  function renderTableWatts() {
+    if (!levelSelect || !tableWattsRow) return;
+    const lvlNum = parseInt(levelSelect.value, 10) || 14;
+    const lvlData = STEP_LEVELS.find(l => l.level === lvlNum) || STEP_LEVELS[13];
+
+    if (targetPaceText) targetPaceText.textContent = lvlData.pace;
+
+    const compTrin = isTimerRunning ? currentTrinIdx + 1 : (parseInt(completedSelect.value, 10) || 0);
+
+    tableWattsRow.innerHTML = lvlData.watts.map((w, idx) => {
+      const trinNum = idx + 1;
+      const isCurrent = isTimerRunning ? (trinNum === currentTrinIdx + 1) : (trinNum === compTrin + 1);
+      const bgClass = isCurrent ? 'active-step' : '';
+      const p = wattsToPace(w);
+
+      return `<td class="${bgClass}">${w}W<br><span style="font-size:0.65rem; color:#64748b;">${p}</span></td>`;
+    }).join('');
+  }
+
+  function updateTimerDisplay() {
+    const lvlNum = parseInt(levelSelect.value, 10) || 14;
+    const lvlData = STEP_LEVELS.find(l => l.level === lvlNum) || STEP_LEVELS[13];
+
+    const currentWatt = lvlData.watts[Math.min(currentTrinIdx, 6)];
+    const currentSpm = SPM_TARGETS[Math.min(currentTrinIdx, 6)];
+    const currentPace = wattsToPace(currentWatt);
+
+    const remainingSec = Math.max(0, 300 - trinElapsedSec);
+
+    digitsDisplay.textContent = formatMinSec(remainingSec);
+    currentTrinTitle.textContent = `TRIN ${currentTrinIdx + 1} AF 7`;
+    totalTimeText.textContent = `Samlet tid: ${formatMinSec(totalElapsedSec)}`;
+
+    liveWattText.textContent = `${currentWatt}W`;
+    liveSpmText.textContent = `${currentSpm} SPM`;
+    livePaceText.textContent = currentPace;
+  }
+
+  function startTimer() {
+    if (isTimerRunning) return;
+    isTimerRunning = true;
+
+    btnStart.disabled = true;
+    btnStop.disabled = false;
+
+    timerInterval = setInterval(() => {
+      trinElapsedSec++;
+      totalElapsedSec++;
+
+      if (trinElapsedSec >= 300) {
+        playBeep();
+        if (currentTrinIdx < 6) {
+          currentTrinIdx++;
+          trinElapsedSec = 0;
+        } else {
+          stopTimer();
+          alert('🎉 Tillykke! Du har gennemført alle 7 trin i trappetesten!');
+        }
+      }
+
+      updateTimerDisplay();
+      calculate();
+    }, 1000);
+  }
+
+  function stopTimer() {
+    isTimerRunning = false;
+    clearInterval(timerInterval);
+    btnStart.disabled = false;
+    btnStop.disabled = true;
+    calculate();
+  }
+
+  btnStart.addEventListener('click', startTimer);
+  btnStop.addEventListener('click', stopTimer);
+
+  function saveState() {
+    if (isTimerRunning) return;
+    try {
+      const state = {
+        activeMode,
+        level: levelSelect ? levelSelect.value : '14',
+        completed: completedSelect ? completedSelect.value : '4',
+        weight: container.querySelector('[name="step_weight"]')?.value || '75',
+        age: container.querySelector('[name="step_age"]')?.value || '25',
+        gender: container.querySelector('input[name="step_gender"]:checked')?.value || 'male',
+        incMin: container.querySelector('[name="step_inc_min"]')?.value || '2',
+        incSec: container.querySelector('[name="step_inc_sec"]')?.value || '30'
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {}
+  }
+
+  function loadState() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        const state = JSON.parse(saved);
+        if (state.activeMode) activeMode = state.activeMode;
+        if (state.level && levelSelect) levelSelect.value = state.level;
+        if (state.completed && completedSelect) completedSelect.value = state.completed;
+        if (state.weight) container.querySelector('[name="step_weight"]').value = state.weight;
+        if (state.age) container.querySelector('[name="step_age"]').value = state.age;
+        if (state.gender) {
+          const radio = container.querySelector(`input[name="step_gender"][value="${state.gender}"]`);
+          if (radio) radio.checked = true;
+        }
+        if (state.incMin) container.querySelector('[name="step_inc_min"]').value = state.incMin;
+        if (state.incSec) container.querySelector('[name="step_inc_sec"]').value = state.incSec;
+
+        modeBtns.forEach(btn => {
+          if (btn.getAttribute('data-mode') === activeMode) {
+            btn.click();
+          }
+        });
+      }
+    } catch (e) {}
+  }
+
+  function calculate() {
+    updateSwitchUI();
+    renderTableWatts();
+    saveState();
+
+    const weight = parseFloat(container.querySelector('[name="step_weight"]')?.value) || 0;
+    const genderEl = container.querySelector('input[name="step_gender"]:checked');
+    const isMale = genderEl ? genderEl.value === 'male' : true;
+
+    const lvlNum = parseInt(levelSelect.value, 10) || 14;
+    const lvlData = STEP_LEVELS.find(l => l.level === lvlNum) || STEP_LEVELS[13];
+
+    let maxWatt = 0;
+
+    if (activeMode === 'timer') {
+      updateTimerDisplay();
+
+      if (currentTrinIdx === 0) {
+        const startW = lvlData.watts[0];
+        maxWatt = (trinElapsedSec / 300) * startW;
+      } else {
+        const baseW = lvlData.watts[currentTrinIdx - 1];
+        const nextW = lvlData.watts[currentTrinIdx];
+        const deltaW = nextW - baseW;
+        maxWatt = baseW + ((trinElapsedSec / 300) * deltaW);
+      }
+
+    } else {
+      const compTrin = parseInt(completedSelect.value, 10) || 0;
+      const incMin = parseFloat(container.querySelector('[name="step_inc_min"]')?.value) || 0;
+      const incSec = parseFloat(container.querySelector('[name="step_inc_sec"]')?.value) || 0;
+      const incTotalSec = (incMin * 60) + incSec;
+
+      if (compTrin === 0) {
+        maxWatt = (incTotalSec / 300) * lvlData.watts[0];
+      } else if (compTrin >= 7) {
+        maxWatt = lvlData.watts[6];
+      } else {
+        const baseW = lvlData.watts[compTrin - 1];
+        const nextW = lvlData.watts[compTrin];
+        const deltaW = nextW - baseW;
+        maxWatt = baseW + ((incTotalSec / 300) * deltaW);
+      }
+    }
+
+    if (maxWatt <= 0 || weight <= 0) {
+      if (maxWattOut) maxWattOut.textContent = '-';
+      if (konditalOut) konditalOut.textContent = '-';
+      if (absOut) absOut.textContent = '-';
+      if (evalBadge) {
+        evalBadge.textContent = 'Mangler data';
+        evalBadge.style.backgroundColor = '#cbd5e1';
+      }
+      if (marker) marker.style.display = 'none';
+      return;
+    }
+
+    // KURT JENSEN FORMEL: VO2max (mL/min) = 13.7 * Watt + 287
+    const vo2MlMin = (13.7 * maxWatt) + 287;
+    const absVo2 = vo2MlMin / 1000;
+    const relativeVo2 = vo2MlMin / weight;
+
+    if (maxWattOut) maxWattOut.textContent = `${Math.round(maxWatt)} Watt (${wattsToPace(maxWatt)}/500m)`;
+    if (konditalOut) konditalOut.textContent = relativeVo2.toFixed(1);
+    if (absOut) absOut.textContent = `${absVo2.toFixed(2)} L/min`;
+
+    // EVALUERING
+    let evalText = 'Middel';
+    let evalColor = '#f97316';
+
+    if (isMale) {
+      if (relativeVo2 < 35) { evalText = 'Lavt'; evalColor = '#ef4444'; }
+      else if (relativeVo2 < 45) { evalText = 'Middel'; evalColor = '#f97316'; }
+      else if (relativeVo2 < 54) { evalText = 'Godt'; evalColor = '#eab308'; }
+      else if (relativeVo2 < 62) { evalText = 'Meget godt'; evalColor = '#22c55e'; }
+      else { evalText = 'Fremragende / Elite'; evalColor = '#3b82f6'; }
+    } else {
+      if (relativeVo2 < 30) { evalText = 'Lavt'; evalColor = '#ef4444'; }
+      else if (relativeVo2 < 38) { evalText = 'Middel'; evalColor = '#f97316'; }
+      else if (relativeVo2 < 46) { evalText = 'Godt'; evalColor = '#eab308'; }
+      else if (relativeVo2 < 54) { evalText = 'Meget godt'; evalColor = '#22c55e'; }
+      else { evalText = 'Fremragende / Elite'; evalColor = '#3b82f6'; }
+    }
+
+    if (evalBadge) {
+      evalBadge.textContent = evalText;
+      evalBadge.style.backgroundColor = evalColor;
+    }
+
+    // CONTINUUM MARKER
+    if (marker) {
+      const maxRange = isMale ? 70 : 60;
+      let pct = (relativeVo2 / maxRange) * 100;
+      pct = Math.max(2, Math.min(98, pct));
+      marker.style.left = `${pct}%`;
+      marker.style.display = 'block';
+    }
+  }
+
+  // LISTENERS
+  initLevelSelect();
+
+  if (levelSelect) levelSelect.addEventListener('change', () => {
+    currentTrinIdx = 0;
+    trinElapsedSec = 0;
+    totalElapsedSec = 0;
+    calculate();
+  });
+
+  if (completedSelect) completedSelect.addEventListener('change', calculate);
+
+  inputs.forEach(input => {
+    ['input', 'change', 'keyup'].forEach(ev => input.addEventListener(ev, calculate));
+  });
+
+  if (btnReset) {
+    btnReset.addEventListener('click', () => {
+      if (isTimerRunning) stopTimer();
+      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+
+      currentTrinIdx = 0;
+      trinElapsedSec = 0;
+      totalElapsedSec = 0;
+
+      container.querySelector('[name="step_weight"]').value = '75';
+      container.querySelector('[name="step_age"]').value = '25';
+      container.querySelector('input[name="step_gender"][value="male"]').checked = true;
+
+      if (levelSelect) levelSelect.value = '14';
+      if (completedSelect) completedSelect.value = '4';
+
+      container.querySelector('[name="step_inc_min"]').value = '2';
+      container.querySelector('[name="step_inc_sec"]').value = '30';
+
+      calculate();
+    });
+  }
+
+  if (btnDownload) {
+    btnDownload.addEventListener('click', () => {
+      if (typeof html2canvas !== 'undefined') {
+        html2canvas(container, { scale: 2, backgroundColor: '#ffffff' }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = 'ro-trappetest-rapport.png';
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+    });
+  }
+
+  loadState();
+  calculate();
+});
+</script>

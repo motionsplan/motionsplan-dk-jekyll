@@ -32,7 +32,7 @@ feature_row_topics:
   - image_path: /assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg
     credit: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0
     alt: Løbetræning
-    title: Løb og løbetræning
+    title: Løb & løbetræning
     excerpt: Find løbeprogrammer til 5 km, 10 km, halvmaraton og maraton.
     url: /loebesiden/
     btn_label: Læs om løbetræning
@@ -48,14 +48,14 @@ feature_row_topics:
   - image_path: /assets/images/unsplash/photo-1535913064547-c24f85802447.jpg
     credit: https://images.unsplash.com/photo-1535913064547-c24f85802447
     alt: Cykling
-    title: Cykling og cykeltræning
+    title: Cykling & cykeltræning
     excerpt: Guide til cykeltræning, intervaller og cykeltests.
     url: /cykling/
     btn_label: Læs om cykling
     btn_class: btn--success
   - image_path: /assets/images/unsplash/photo-1593810451137-5dc55105dace.jpg
     credit: https://images.unsplash.com/photo-1593810451137-5dc55105dace
-    alt: Yoga og mindfulness
+    alt: Yoga & mindfulness
     title: Yoga og mindfulness
     excerpt: Teknikker til ro, smidighed, fleksibilitet og mental balance.
     url: /yoga/
@@ -63,7 +63,7 @@ feature_row_topics:
     btn_class: btn--success
   - image_path: /assets/images/unsplash/photo-1580058572462-98e2c0e0e2f0.jpg
     credit: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0
-    alt: Gang og gåture
+    alt: Gang & gåture
     title: Gang og hverdagsmotion
     excerpt: Gåture forbedrer sundheden, forbrænder kalorier og giver overskud.
     url: /gang/
@@ -95,6 +95,7 @@ Find den træningsform, der passer bedst til dine mål og interesser:
 * **[Løb og løbetræning](/loebesiden/)** – Programmer til alt fra 5 km til maraton.
 * **[Kondition og cardio](/kondition/)** – Forbedr din udholdenhed og øg dit kondital.
 * **[Cykeltræning](/cykling/)** – Intervaller, watt-tests og struktureret cykeltræning.
+* **[Indendørs roning](/roning/)** – Roning på indendørs roergometer.
 * **[Yoga og mindfulness](/yoga/)** – Smidighed, mobilitet og mental balance.
 * **[Gang og hverdagsmotion](/gang/)** – Sundhedseffekter og kalorieforbrænding ved gåture.
 * **[Spring- og plyometrisk træning](/springtraening/)** – Bliv mere eksplosiv og hop højere.

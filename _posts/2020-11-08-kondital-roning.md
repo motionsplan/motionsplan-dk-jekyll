@@ -1,8 +1,7 @@
 ---
 title: Kondital på romaskine ud fra 2000 meter test i roning 🚣
 seo_title: Kondital på romaskine ud fra 2000 meter test i roning
-excerpt: Du kan finde dit kondital i roning og måle din kondition med en maksimal konditiontest på romaskine. Det er en 2000
-  meter maksimal test på et roergometer.
+excerpt: Du kan finde dit kondital i roning og måle din kondition med en maksimal konditionstest på romaskine. Det er en 2000 meter maksimal test på et roergometer.
 permalink: /kondital-roning/
 language: da
 header:
@@ -11,11 +10,12 @@ header:
   caption: Kondital på romaskine ud fra 2000 meter test i roning 🚣
 categories:
 - Kondition
+- Roning
 meta:
   name: 2000 meter ro-test
   measures: kondital
   type: rotest
-  equipment: roregometer
+  equipment: roergometer
   max: maksimal test
   direct: indirekte test
 # TESTS / PROTOKOLLER
@@ -25,8 +25,8 @@ tests:
     description: "Maksimal 2000-meter præstationstest på roergometer (fx Concept2) til indirekte estimering af den maksimale iltoptagelse (VO2max) og kondital."
     category: ["Tests", "Kondition", "Roning"]
     type: ["Protokol", "Konditionstest"]
-    execution: ["Fysisk"]                  # 🚣‍♂️ FYSISK TEST: Kræver maksimal 2000m all-out roning på ergometer
-    method: "indirekte"                   # ⏱️ Indirekte estimering af VO2max ud fra tid og gennemsnitlig watt-effekt
+    execution: ["Fysisk"]
+    method: "indirekte"
     modality: ["Roning"]
     measures: ["Kondital", "VO2max", "Ro-tid", "Watt", "Mean Power"]
     equipment: ["Roergometer", "Concept2"]
@@ -39,209 +39,194 @@ tests:
 tools:
   - id: "tool-2000m-rotest-beregner"
     title: "2000m Ro-test Kondital Beregner"
-    description: "Interaktiv beregner til estimering af dit kondital og din VO2max ud fra din samlede tid og effekt på 2000 meter i romaskine (Klusiewicz & Faff, 2003)."
+    description: "Interaktiv beregner til estimering af dit kondital og din VO2max ud fra din samlede tid og effekt på 2000 meter i romaskine (Klusiewicz & Faff, 2003 samt Concept2 / Hagerman)."
     category: ["Kondition", "Roning"]
     type: ["Beregner"]
-    measures: ["Kondital", "VO2max", "Mean Power", "Watt"]  # 🎯 Output-parametre fra modulet
-    anchor: "#2-test-i-roning-ud-fra-mean-power-output-wm"
+    measures: ["Kondital", "VO2max", "Mean Power", "Watt"]
+    anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
+
+# STRUCTURED FAQ (SCHEMA.ORG / JEKYLL SUPPORT)
+faq:
+  - question: "Hvorfor giver Concept2-beregneren et højere kondital for øvede roere?"
+    answer: "Øvede roere har større arbejdende muskelmasse, bedre kapillærtætning og højere syretolerance. De kan presse deres centrale kredsløb helt op til 98-100% af deres teoretiske VO2max under en 2k test. Utrænede motionister bremses ofte af lokal mælkesyre i lår og ryg, før hjertet og lungerne er maksimalt belastet."
+  - question: "Hvilken drag factor skal jeg indstille romaskinen til?"
+    answer: "For mænd ligger den optimale drag factor typisk på 120-135 (spjældstilling 4-5) og for kvinder 110-120 (spjældstilling 3-4). Det svarer til modstanden i vandet i en olympisk single sculler. Det er en udbredt misforståelse at ro med spjældet på 10."
+  - question: "Hvad er en god 2000 meter tid på romaskine?"
+    answer: "For utrænede motionister er tider under 8:00 minutter (mænd) og 9:00 minutter (kvinder) flot. For trænede motionister er tider under 7:00 minutter (mænd) og 8:00 minutter (kvinder) et stærkt niveau. Eliteroere ror under 6:00 minutter (mænd) og 6:45 minutter (kvinder)."
+  - question: "Kan jeg bruge andre romaskiner end Concept2 til testen?"
+    answer: "Ja, så længe romaskinen måler og viser en præcis, kalibreret Watt-effekt. Klusiewicz & Faff (2003) formlen bygger direkte på gennemsnitseffekt (Watt) og kan anvendes på alle præcise ergometre."
+
 tags:
 - konditionstest
 - roning
 - testberegner
 - rotest
-last_modified_at: '2022-08-07T10:14:14Z'
+last_modified_at: '2026-08-16T10:14:14Z'
+faq:
+  - question: "Hvorfor giver Concept2-beregneren et højere kondital for øvede roere?"
+    answer: "Øvede roere har større arbejdende muskelmasse, bedre kapillærtætning og højere syretolerance. De kan presse deres centrale kredsløb helt op til 98-100% af deres teoretiske VO2max under en 2k test. Utrænede motionister bremses ofte af lokal mælkesyre i lår og ryg, før hjertet og lungerne er maksimalt belastet."
+  - question: "Hvilken drag factor skal jeg indstille romaskinen til?"
+    answer: "For mænd ligger den optimale drag factor typisk på 120-135 (spjældstilling 4-5) og for kvinder 110-120 (spjældstilling 3-4). Det svarer til modstanden i vandet i en olympisk single sculler. Det er en udbredt misforståelse at ro med spjældet på 10."
+  - question: "Hvad er en god 2000 meter tid på romaskine?"
+    answer: "For utrænede motionister er tider under 8:00 minutter (mænd) og 9:00 minutter (kvinder) flot. For trænede motionister er tider under 7:00 minutter (mænd) og 8:00 minutter (kvinder) et stærkt niveau. Eliteroere ror under 6:00 minutter (mænd) og 6:45 minutter (kvinder)."
+  - question: "Kan jeg bruge andre romaskiner end Concept2 til testen?"
+    answer: "Ja, så længe romaskinen måler og viser en præcis, kalibreret Watt-effekt. Klusiewicz & Faff (2003) formlen bygger direkte på gennemsnitseffekt (Watt) og kan anvendes på alle præcise ergometre."
 ---
 
-Du kan finde dit kondital på forskellige måder i en romaskine. Hvis du har adgang til et roergometer, så kan du få estimeret din kondition ved at lave en maksimal konditiontest.
+Du kan finde dit kondital på forskellige måder i en romaskine. Hvis du har adgang til et roergometer, kan du få et meget præcist estimat af din kondition ved at udføre en maksimal rotest.
 
-Der er mange forskellige måder at [måle konditallet på](/kondital/) på et roergometer. Danmark har nogle af de bedste roere i verden, og det gælder faktisk også i disciplinen at ro på en indendørs romaskine.
+Danmark har fostret nogle af verdens absolut bedste roere gennem tiden, og det gælder i den grad også indendørs på ergometeret. Den mest udbredte og anerkendte konditionstest i roning er en klassisk, brutal **2000 meter maksimal test**, hvor du ror distancen så hurtigt som muligt.
 
-Den mest brugte og kendte konditionstest til roning er ganske enkelt en brutal 2000 meter maksimal test på romaskinen, hvor du ror så hurtigt som muligt.
+På baggrund af din rotest 2000 meter tid og din gennemsnitlige effekt (Watt) kan du beregne din maksimale iltoptagelse ($\text{VO}_2\text{max}$) og dit kondital.
 
-På baggrund af dit resultat kan du estimere dit kondital. Men du kan også udføre en trappetest, som kan giv edit et bud på, hvad dit kondital er.
+Herunder kan du indtaste dine testresultater direkte i vores opdaterede beregner, som lader dig skifte mellem de førende forskningsmodeller (Klusiewicz & Faff, 2003 samt Concept2 / Hagerman).
 
-Lad os hoppe direkte ned i de forskellige muligheder for at få testet dagsformen i roning.
+{% include figure image_path="https://images.unsplash.com/photo-1640334554795-095bce07fc8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="Konditest til roning på roergometer" %}
 
-{% include figure image_path="https://images.unsplash.com/photo-1640334554795-095bce07fc8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="konditest til roning på roergometer" %}
+## Beregner
+{: id="calculator" }
 
-{% comment %}
+{% include components/rowing-vo2max.html %}
 
-Kaloriemåler
-
-Romaskine test
-
-Ergometer roning
-
-Romaskine træningsprogram
-
-Trappetest side 62 -- https://roning.dk/app/uploads/2016/12/ATRO-bogen.pdf
-
-{% endcomment %}
+---
 
 ## Hvad er en konditionstest i roning?
 
-Vi har beskrevet mange [forskellige konditests](/kondition/tests/), men her kigger vi på konditionstests, som er specifikke i forhold til roning og romaskiner.
+Vi har beskrevet mange [forskellige konditests](/kondition/tests/), men her fokuserer vi på tests, der er specifikke for roning på ergometer.
 
-Vi har fundet nogle maksimale tests frem, da det ikke er lykkes nogen at lave en fornuftig protokol med submaksimale rotests (se [Klusiewicz et al (2016)](https://pubmed.ncbi.nlm.nih.gov/28149356/)).
+Vi tager udgangspunkt i maksimale tests, da forskningen entydigt slår fast, at det er overordentligt vanskeligt at lave præcise submaksimale rotests (se bl.a. Klusiewicz et al., 2016).
 
-Danmark har haft nogle af de bedste roere i verden igennem mange år. Derfor har Team Danmark ofte fået lov til at teste atleterne og vejlede med træning. Kurt Jensen, som er tidligere leder af Team Danmarks Testcenter, har lavet en del arbejde omkring træning.
+Dansk roning har en stolt tradition, og Team Danmark har opbygget stor viden om testning og fysiologisk optimering af roere. Kurt Jensen, tidligere leder af Team Danmarks Testcenter, har lavet et omfattende pionerarbejde med rofysiologi. 
 
-I [Aldersrelateret Træning for roning](https://roning.dk/app/uploads/2016/12/ATRO-bogen.pdf) foreslåes en trappetest og en ugetest, som er udviklet af Kurt Jensen. Formålet med ugetesten er at etablere udøverens samlede roprofil, mens **trappetesten** skal give et bud på kredsløbets maksimale ydeevne.
+I bogen *Aldersrelateret Træning for roning (ATRO)* foreslås blandt andet en trappetest og en ugetest. Mens ugetesten etablerer udøverens samlede roprofil, har **trappetesten** til formål at bestemme kredsløbets maksimale ydeevne.
 
-Den anden type test er en **all out 2000 meter test**. Du kan netop arbejde omkring din maksimale iltoptagelse i 4-6 minutter, så på denne distance kan du arbejde rigtig hårdt. Her er der flere bud på, hvordan du kan bruge resultatet til at estimere, hvad dit kondital er.
+Den anden og mest udbredte testtype er en **all-out 2000 meter test**. Da du kan arbejde omkring din maksimale iltoptagelse i ca. 4–8 minutter, matcher 2k-distancen perfekt den fysiologiske tidsramme for en direkte måling af $\text{VO}_2\text{max}$.
 
 ## Hvilket roergometer skal jeg bruge til testen?
 
-Den mest berømte producent af roergometere er Concept2. Det er også på disse romaskiner de offielle mesterskaber i indendørs roning holdes. Det er i øjeblikket guldstandarden, men hvis din romaskine pålideligt viser distance og watt, så kan du godt bruge konditestene til roning nedenunder.
+Den mest berømte producent af roergometre er Concept2. Det er også på disse maskiner, de officielle nationale og internationale mesterskaber i indendørs roning afvikles. Concept2 er guldstandarden, men hvis din romaskine viser en pålidelig og kalibreret watt-effekt, kan du også benytte formlerne herunder.
 
-## Hvad måler roerogmeteret?
+## Hvad måler roergometeret?
 
-Instrumentet på roergometetet måler i virkeligheden watt. Apparatet måler altså den effekt, som roeren tilfører "ventilatoren". Watt-målingen er meget nøjagtig. Alle romaskiner fra en udbyder er typiske kalibreret til at give samme watt-måling.
+Instrumentet på et Concept2-roergometer måler i virkeligheden mekanisk effekt i **Watt**. Apparatet registrerer den acceleration, du tilfører svinghjulet ved hvert eneste rotag, samt hvor hurtigt svinghjulet bremses igen af luftmodstanden (*drag factor*). Watt-målingen er yderst nøjagtig.
 
-Derfor viser instrumentet også watt. En computer omregner derefter fra watt til den hastighed, som en single sculler ville have, hvis den blev roet med så mange watt. Jeg har ikke set nogle sammenligninger mellem de forskellige producenter af roergometere, så hvis du vil være helt sikker, så er Concept2 det rigtige valg.
+Ergometerets computer omregner derefter løbende dine Watt til den hastighed (f.eks. tid pr. 500m), som en single sculler ville have på vandet ved samme effekt.
 
-Men lad os nu dykke ned i de forskellige tests.
+---
 
-## 1. Kondital Concept2 ud 2000 meter
+## Forskellige formler til beregning af kondital
 
-Hos [Concept2](https://www.concept2.co.uk/indoor-rowers/training/calculators/vo2max-calculator) bruger de data fra Fritz Hagerman til at estimere konditallet på baggrund af en 2000-meter test.
+I beregneren øverst kan du vælge mellem to anerkendte videnskabelige tilgange til at estimere din $\text{VO}_2\text{max}$:
 
-Fritz Hagerman fra Ohio University har lavet formlerne bag testen gennem mange år. Hagerman har udført VO₂max tests med maske og de samme forsøgspersoner har også lavet en maksimal 2000 meter test på romaskine. Derefter har Hagerman lavet en korrelation mellem de to tests, som benyttes i nedenstående beregner af kondital på baggrund af en test i romaskine.
+### 1. Klusiewicz & Faff (2003) – Den mest præcise lineære model
 
-Du kan udregne dit kondital på Concept2's egen hjemmeside.
+Klusiewicz og Faff (2003) undersøgte eliteroere og udarbejdede en lineær regressionsmodel baseret direkte på den gennemsnitlige effekt (Mean Power Output, $W_M$) under en 2km test:
 
-[Test dit kondital med Concept2 2000 meter](https://www.concept2.co.uk/indoor-rowers/training/calculators/vo2max-calculator){: .btn .btn--large .btn--success }
-
-Testen er lavet på datamateriale, men du bliver selv bedt om at give et bud på, om du er **øvet** eller **ikke øvet**. Jeg er lidt forvirret over, at beregneren gør konditallet højere ved den samme tid, hvis man vælger øvet. Man må jo antage, at den øvede har en bedre roøkonomi, og derfor en lavere iltoptagelse end en begynder, der kan ro i samme tid.
-
-## 2. Test i roning ud fra _mean power output_ (WM)
-
-[Klusiewicz og Faff (2003)](https://www.researchgate.net/publication/47619695_Indirect_methods_of_estimating_maximal_oxygen_uptake_on_the_rowing_ergometer) har lavet andre formler til at teste den maksimale iltoptagelse ud fra 2000-metertesten.
-
-De konkluderer i deres studium følgende:
-
-> The most accurate predicted values of VO2max were obtained based on the linear regression of VO2max against the mean power output (WM) in the 2-km test using the following formulas: VO2max (l•min-1) in the males = 1.682+0.0097 WM; VO2max (l•min-1) in the females = 1.631+0.0088 WM.
+> "The most accurate predicted values of VO2max were obtained based on the linear regression of VO2max against the mean power output (WM) in the 2-km test using the following formulas: 
+> * **Mænd:** $\text{VO}_2\text{max} (\text{L/min}) = 1.682 + 0.0097 \times W_M$
+> * **Kvinder:** $\text{VO}_2\text{max} (\text{L/min}) = 1.631 + 0.0088 \times W_M$"
 >
-> --- <cite>[Klusiewicz og Faff (2003)](https://www.researchgate.net/publication/47619695_Indirect_methods_of_estimating_maximal_oxygen_uptake_on_the_rowing_ergometer)</cite>
+> --- <cite>Klusiewicz og Faff (2003)</cite>
 
-For at få estimeret konditallet, så kan vi altså bruge _mean power output_ på 2-kilometer testen i roning til at estimere den maksimale iltoptagelse.
+Modellen er særligt god, fordi den ikke kræver, at du skal gætte på dit eget træningsniveau – den forholder sig rent til din præsterede mekaniske effekt i forhold til din kropsvægt.
 
-Jeg har lavet en beregner, hvor du får anslået dit kondital ved bare at indtaste din tid for de 2000 meter i nedenstående beregner. Her omregnes automatisk fra tid til power efter anvisninger hos [Concept2](https://www.concept2.com/indoor-rowers/training/calculators/watts-calculator).
+### 2. Concept2 / Fritz Hagerman (ACSM) – Hvorfor gør "øvet" konditallet højere?
 
-{% include calculator/calculate-fitness-rowing-2000-meter-time.html %}
+Concept2's egen beregner bygger på mange års data indsamlet af prof. Fritz Hagerman fra Ohio University. Hagerman udførte direkte laboratoriemålinger af $\text{VO}_2\text{max}$ med iltmaske på roere, der samtidig kørte 2000m all-out tests.
 
-Jeg roede fx de 2000 meter på 7:18 sekunder. Jeg er en mand, og jeg vejer 84 kg. Det betyder, at jeg får et kondital på 51 ifølge Klusiewicz og Faff (2003). Til sammenligning giver Concept2's beregner mig som begynder et kondital på 49 og som øvet 56.
+I Concept2's beregner bliver du bedt om at angive, om du er **øvet roer** eller **motionist/ikke-øvet**. Det kan virke overraskende, at beregneren tildeler et *højere* kondital til den øvede roer end til begynderen ved præcis samme 2000m tid.
 
-Jeg kan godt lide, at man ikke skal tage stilling til, hvor øvet man er, når man får et resultat fra en test.
+**Den fysiologiske forklaring på dette:**
+I en 2000-meter all-out test begrænses en utrænet motionist ofte af *lokal muskulær træthed* (ophobning af mælkesyre i lår og ryg) længe før, deres centrale kredsløb har nået sit absolutte $\text{VO}_2\text{max}$-loft. 
 
-Hvis du kan aflæse den gennemsnitlige power, du har roet med i testen direkte på displayet, så kan resultatet måske blive endnu mere præcist. Du kan selv taste dine resultater ind i formlerne. 
+Sagt på en anden måde: Begynderen stopper eller sætter farten ned, fordi benene "syrer til", selvom hjertet og lungerne måske kun har arbejdet på 85-90% af deres maksimale kapacitet. 
+
+En veltrænet roer har derimod en enorm arbejdende muskelmasse, høj kapillærtætning og en fantastisk syretolerance. Den øvede roer er i stand til at presse sit centrale kredsløb helt op på 98-100% af sin maksimale iltoptagelse gennem hele testen. Ved samme roede tid og Watt-effekt har den øvede roer altså reelt haft et højere centralt iltforbrug ($\text{VO}_2\text{max}$) end begynderen.
+
+### Sammenligning af eksempler
+Da jeg roede 2000 meter på **7:18 sekunder** (hvilket svarer til et snit på ca. **302 Watt**), vejede jeg 84 kg. 
+* **Klusiewicz & Faff (2003)** giver mig et kondital på **51,3 ml/kg/min** ($\text{VO}_2\text{max} \approx 4,31 \text{ L/min}$).
+* **Concept2 / Hagerman** giver mig som motionist et kondital på **49,1 ml/kg/min**, men som øvet roer **54,6 ml/kg/min**.
+
+Det illustrerer fint, hvorfor det er spændende at have begge beregningsmetoder samlet i værktøjet øverst.
+
+---
 
 ## 3. Trappetest i roning
 
-Kurt Jensen, tidligere TeamDanmark Testcenter, har udarbejdet en pålidelig konditionstest til roning, som Aldersrelateret Træning i Roning kaldes for Trappetesten.
+Kurt Jensen har for Team Danmark og Dansk Forening for Rosport udarbejdet en pålidelig protokol kaldet **Trappetesten**.
 
-[Trappetesten i roning](/roning-trappetest/) er en enkel test, som bare kræver et roergometer, evnen til at ro stabilt og en tabel, så du ved, hvilken belastning du skal ro med.
+Trappetesten er opbygget af trinvise belastningsøgninger og er fremragende til at estimere både maksimal iltoptagelse og dine træningszoner.
 
-Jeg har skrevet et indlæg om trappetesten, hvor du også kan finde en beregner.
+[Læs alt om Trappetesten i roning her](/roning-trappetest/){: .btn .btn--large .btn--info }
 
-[Trappetesten i roning](/roning-trappetest/){: .btn .btn--large .btn--info }
+---
 
-## Hvordan får jeg det bedste resultat?
+## Hvordan får jeg det bedste resultat i min 2k rotest?
 
-For at få det bedste resultat i en test på romaskinen, så er der et par ting, du bør tænke over.
+For at præstere optimalt og få det mest præcise testresultat bør du:
 
-1. Du skal være udhvilet og have spist nok.
-2. Du bør varme ordentligt op.
-3. Du bruger en hensigtsmæssig teknik.
-4. Du har indstillet romaskinen rigtigt.
+1. Være veludhvilet, restitueret og velhydreret.
+2. Varme grundigt op i 15–20 minutter med indlagte korte bakker/stigninger i tempo.
+3. Bruge en hensigtsmæssig roteknik.
+4. Indstille romaskinens belastning (*drag factor*) korrekt.
 
 ## Hvad skal jeg indstille modstanden på?
 
-Modstanden i mange romaskiner er en ventilator. Den pind man stiller på for at ændre på modstanden er et luftspjæld, som på engelsk hedder en _damper_.
+Modstanden på en Concept2-romaskine reguleres via et luftspjæld (*damper*) på siden af svinghjulet fra 1 til 10.
 
-I stilling 10 er der fuldt åbent for luftspjældet, så ventilatoren flytter størst luftmængde. Det gør den tung at trække. I stilling 1 flyttes mindst luftmængde og så her er det lettest at trække.
+* I stilling 10 trækkes der maksimal luft ind i svinghjulet, hvilket bremser det hurtigt ned.
+* I stilling 1 trækkes der mindst luft ind, og svinghjulet roterer mere frit.
 
-Indstillingen af luftspjældet har ingen indflydelse på, hvor langt du kommer på det enkelte rotag. Det eneste, der tæller, er, hvor hårdt du trækker i snoren. Man kan sagtens trække hårdt med lav ventilatorbelastning.
+**Det er en udbredt misforståelse i fitnesscentre, at modstanden skal stå på 10!**
 
-Luftmodstanden i ventilatoren er med til at danne _drag factor_, som i virkeligheden er det du gerne vil kigge efter.
+Svinghjulets modstand skaber maskinens **drag factor**. Drag factor måler præcist, hvor hurtigt svinghjulet bremses ned mellem hvert rotag.
 
-_Drag factoren_ måles ved hvert rotag. Drag factoren er en måling af, hvor hurtigt ventilatoren bremses ned. Når spjældet er åbent, og der kommer en stor luftmængde ind, så bremses ventilatoren naturligvis hurtigst.
+I roklubber og ved verdensrekordforsøg står spjældet typisk på **4–5** (hvilket svarer til en drag factor på ca. 120–135 for mænd og 110–120 for kvinder). Denne indstilling svarer nøje til modstanden i vandet i en single sculler. 
 
-Drag factor er en meget mere nøjagtig indstilling, end du kan lave med pinden i luftspjældet. Unøjagtigheden gælder særligt mellem to forskellige romaskiner.
-
-Drag faktor derimod er præcis - også hvis du sammenligner to romaskiner.
+Kører du med for høj drag factor (f.eks. 10), bremses svinghjulet voldsomt ned mellem hvert tag, hvilket øger den lokale belastning på lænd og knæ og øger risikoen for tidlig muskulær udtrætning.
 
 {% include video provider="youtube" id="3Uc2HQILJhU" %}
 
-Hvilken drag factor, der passer bedst til dig som rotype kan variere. Men det er interessant at luftspjældet i træningscentrene oftest står på 10, mens du roklubber ofte vil se den stå på 4. Denne stilling svarer nogenlunde til den belastning, som man føler, hvis man ror single sculler på vandet.
+### Sådan finder du Drag Factor på Concept2:
+1. Gå til hovedmenuen på Performance Monitoren (PM5).
+2. Vælg **More Options** $\rightarrow$ **Display Drag Factor**.
+3. Ro en række normale, lange rotag. Tallet på skærmen viser din aktuelle drag factor.
 
-Endnu mere interessant er det, at rekorder på romaskine er ofte sat med _damper_-indstilling på 4-5. Det er altså en misforståelse, når folk i træningscentre tror at modstanden skal stå på 10.
+## Hvilken kadence (SPM) skal jeg ro med?
 
-På en Concept2-romaskine finder du drag factor ved at gå til menu-punktet "Flere muligheder". Her er et menupunkt, som hedder drag factor. Den vælger du. Så laver du nogle pænt lange træk med håndtaget og lader det glide tilbage uden, at du holder igen.
+I en maksimal 2000-meter test ligger kadencen (*Strokes Per Minute* / SPM) for de fleste roere typisk på **28–34 rotag pr. minut**. 
 
-På den måde kan du finde drag factor ved forskellige luftmodstande og kadencer.
-
-Jeg har ikke kunnet finde _drag factor_ på andre roergometere.
-
-## Hvilken kadence skal jeg ro med?
-
-I trappetesten bør du følge anvisningerne på kadence. For 2000-meter testen, så skal du nok eksperimentere lidt før du finder den ultimative kadence sammeholdt med luftmodstanden, så du kan generere mest arbejde over tid.
-
-## Find din egen modstand og kadence
-
-Du bør eksperimentere lidt med forskellige indstillinger af luftspjældet og kadence. 
-
-Du kan for eksempel prøve at ro flere gange 500 m ved fast tryk 2:00 med forskellige luftspjældstillinger og ved forskellige faste værdier for kadence.
-
-Find ud af hvilken indstilling af luftspjæld og hvilken kadence, der gør det lettest at holde 2:00 over de 500 m.
+Eksperimenter i din træning med at holde et jævnt tryk (f.eks. split-tid 2:00/500m) ved forskellige kadencer og drag factors for at finde den kombination, hvor du bevæger dig mest effektivt.
 
 ## Hvilken teknik skal jeg bruge?
 
-Vi har fundet denne glimrende introduktionsvideo til teknik i roning på roergometer. 
+Et effektivt rotag starter med benene, fortsættes over ryggen og afsluttes med armene (*Legs – Body – Arms*). 
 
 {% include video provider="youtube" id="YyXoGd3oQRM" %}
 
-Læg mærke til roeren anvender et hel jævnt og meget langt tag. De første 5 tag er korte ryk, men når ventilatoren er kommet op i fart, så forsøger han at holde den i en jævn fart.
-
-Hvis du anvender **høj drag faktor** bremses ventilatoren længere ned imellem ro-tagene, og så skal den skal accellereres mere op ved hvert ro-tag.
-
-Hvis du går efter en lidt lavere drag factor, så er nedbremsningen mindre, og du behøver ikke at skulle bruge helt så meget kraft for at få ventilatoren op i fart igen.
-
-Hvis du får de bedste resultater med en høj luftmodstand, så kan det skyldes, at du har et lidt afkortet rotag, så du kan overveje at kigge lidt på din teknik.
-
-Roeren i grøn rodragt på filmen er tidligere verdensmester og har været verdensrekordholder for roere under 75 kg. Han ror de 2000 m på omkring 6 minutter. Det er i hvert fald lidt hurtigere end mig.
+Læg mærke til roeren i videoen ovenfor (tidligere verdensmester og verdensrekordholder i letvægt): Han roer med et langt, rytmisk og flydende tag, hvor svinghjulet holdes i en konstant, høj roterende fart.
 
 ## Hvad er en god 2000-meter tid på roergometer?
 
-Du kan finde de danske rekorder for roning på roergometer på [ergometertider.dk](https://ergometertider.dk/). Concept2 har også lavet en liste over verdensrekorder sat på Concept2-roergometer på [2000-meter distancen](https://www.concept2.co.uk/indoor-rowers/racing/records/world).
+Ergometertider afhænger stærkt af køn, alder og kropsvægt. Du kan se de officielle danske rekorder på [ergometertider.dk](https://ergometertider.dk/) og verdensrekorderne hos [Concept2 World Records](https://www.concept2.co.uk/indoor-rowers/racing/records/world).
 
-## Konklusion
+---
 
-Hvis du gerne vil forbedre din maksimale iltoptagelse på et roergometer, så kan jeg anbefale at prøve nogle af disse [intervaller og roprogrammer](/artikel/traeningsprogrammer-intervaller-roning/).
+## FAQ om 2000m rotest og kondital
 
-{% comment %}
+{% include motionsplan/faq.html %}
 
-## Hvis du har et mål om ...
+---
 
-Så kan du bruge en konverteringsberegner fra 500 -- så kan du følge med på displayet.
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
-## Hvor kommer kraften fra?
+* Klusiewicz, A., & Faff, J. (2003). Indirect methods of estimating maximal oxygen uptake on the rowing ergometer. *Biology of Sport*, 20(3), 181-194.
+* Klusiewicz, A., Borkowski, L., Zdanowicz, R., & Sitkowski, D. (2016). The validity of submaximal rowing ergometer tests for predicting maximal oxygen uptake. *Journal of Human Kinetics*, 54(1), 161-170.
+* Hagerman, F. C. (1984). Applied physiology of rowing. *Sports Medicine*, 1(4), 303-326.
+* Jensen, K. (2016). *Aldersrelateret Træning i Roning (ATRO)*. Dansk Forening for Rosport & Team Danmark.
+* American College of Sports Medicine (ACSM). (2021). *ACSM's Guidelines for Exercise Testing and Prescription* (11th ed.). Lippincott Williams & Wilkins.
 
-Det er nu ikke så meget ryg- og mavemuskler, du får brug for. Det er dine lår. Normalt kommer ca 50% af kraften fra benene, og det er naturligvis fra lårene.
-
-
-## Hvilken modstand skal jeg ro med?
-
-Best drag factor --> https://www.youtube.com/watch?v=3Uc2HQILJhU
-
-https://www.youtube.com/watch?v=jr5fwCsLwhg
-
-https://www.youtube.com/watch?v=4COPlfJfnuA
-
-
-## Stairmaster HIIT Rower vs Concept II
-
-https://www.youtube.com/watch?v=aQMAuRG3gcM
-
-{% endcomment %}
+</details>

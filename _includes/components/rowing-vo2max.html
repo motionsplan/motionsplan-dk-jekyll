@@ -1,0 +1,406 @@
+<!-- _includes/calc/rowing-vo2max.html -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-row-input { 
+    height: 40px !important; 
+    border-radius: 8px !important; 
+    text-align: center !important; 
+    font-weight: 800 !important; 
+    box-sizing: border-box !important; 
+    padding: 0 6px !important; 
+    border: 1.5px solid #cbd5e1 !important; 
+    background: #ffffff !important; 
+    margin: 0 !important; 
+    width: 100% !important;
+    font-size: 0.875rem !important;
+  }
+
+  .mp-row-flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: flex-end;
+  }
+
+  .mp-row-field {
+    flex: 1 1 100px;
+    min-width: 0;
+  }
+
+  .mp-row-auto-badge { 
+    background: #eff6ff; 
+    border: 1.5px solid #bfdbfe; 
+    border-radius: 12px; 
+    padding: 0.65rem 0.85rem; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 0.2rem; 
+  }
+
+  .mp-badge-btn-hero {
+    border: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+    gap: 0.35rem; font-size: 0.75rem; font-weight: 800; padding: 0.3rem 0.65rem; border-radius: 6px; background: #e2e8f0; color: #64748b; transition: all 0.15s ease;
+  }
+  .mp-badge-btn-hero:hover { transform: translateY(-1px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="rowing-vo2max" style="max-width: 680px; margin: 0 auto; position: relative;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.75rem; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 2px 0;">🚣 Kondital fra 2000m Rotest</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregner VO₂max og kondital ud fra 2k tid på Concept2 roergometer.
+      </p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 34px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- 1. FORMEL VÆLGER SEKTION -->
+  <div style="margin-bottom: 1rem;">
+    <label style="font-size: 0.75rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">
+      1. Vælg beregningsmetode
+    </label>
+
+    <div style="display: flex; gap: 4px; background: #e2e8f0; padding: 3px; border-radius: 8px;">
+      <button type="button" class="js-row-formula-btn active" data-formula="klusiewicz" style="flex:1; border:none; border-radius: 6px; padding: 6px 8px; font-size: 0.75rem; font-weight: 800; cursor:pointer; background:#ffffff; color:#0f172a; transition: all 0.15s ease;">
+        Klusiewicz & Faff (2003) ⭐
+      </button>
+      <button type="button" class="js-row-formula-btn" data-formula="concept2" style="flex:1; border:none; border-radius: 6px; padding: 6px 8px; font-size: 0.75rem; font-weight: 800; cursor:pointer; background:transparent; color:#64748b; transition: all 0.15s ease;">
+        Concept2 / Hagerman (ACSM)
+      </button>
+    </div>
+
+    <!-- Dynamisk Formel Beskrivelse -->
+    <div class="js-row-formula-desc mp-row-auto-badge" style="margin-top: 0.5rem;">
+      <div style="font-size: 0.725rem; color: #475569; line-height: 1.35;">
+        <strong>Klusiewicz & Faff (2003):</strong> Baseret på lineær regression mod gennemsnitseffekt (Watt) i 2km rotesten. Mest præcis til roere og idrætsaktive.
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. STAMDATA OG TESTDATA -->
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.95rem; margin-bottom: 1.25rem;">
+    <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.75rem 0;">2. Indtast testresultat</h4>
+
+    <!-- RÆKKE 1: KØN OG TRÆNINGSSTATUS -->
+    <div class="mp-row-flex-grid" style="margin-bottom: 0.75rem;">
+      
+      <!-- Køn Switch -->
+      <div class="mp-row-field" style="flex: 1.4 1 140px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Køn</label>
+        <div style="height: 40px; display: flex; background: #ffffff; border-radius: 8px; padding: 2px; border: 1.5px solid #cbd5e1; box-sizing: border-box; width: 100%;">
+          <label style="flex: 1; margin: 0; cursor: pointer;">
+            <input type="radio" name="row_gender" value="male" class="js-row-input" checked style="display:none;">
+            <div class="js-row-label-male" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800; border-radius: 6px; background: #2563eb; color: #ffffff;">Mand</div>
+          </label>
+          <label style="flex: 1; margin: 0; cursor: pointer;">
+            <input type="radio" name="row_gender" value="female" class="js-row-input" style="display:none;">
+            <div class="js-row-label-female" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800; border-radius: 6px; color: #475569;">Kvinde</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Træningsstatus (Concept2 felt) -->
+      <div class="mp-row-field js-row-status-wrapper" style="flex: 1.6 1 160px; display: none;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Niveau</label>
+        <div style="height: 40px; display: flex; background: #ffffff; border-radius: 8px; padding: 2px; border: 1.5px solid #cbd5e1; box-sizing: border-box; width: 100%;">
+          <label style="flex: 1; margin: 0; cursor: pointer;">
+            <input type="radio" name="row_status" value="trained" class="js-row-input" checked style="display:none;">
+            <div class="js-row-label-trained" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 800; border-radius: 6px; background: #2563eb; color: #ffffff;">Øvet roer</div>
+          </label>
+          <label style="flex: 1; margin: 0; cursor: pointer;">
+            <input type="radio" name="row_status" value="untrained" class="js-row-input" style="display:none;">
+            <div class="js-row-label-untrained" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 800; border-radius: 6px; color: #475569;">Motionist</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Kropsvægt -->
+      <div class="mp-row-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Vægt (kg)</label>
+        <input type="number" name="row_weight" class="mp-row-input js-row-input" min="30" max="180" placeholder="75" value="75">
+      </div>
+
+    </div>
+
+    <!-- RÆKKE 2: 2000M TID (MINUTTER & SEKUNDER) -->
+    <div class="mp-row-flex-grid">
+      <div class="mp-row-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">2000m Minutter</label>
+        <input type="number" name="row_time_min" class="mp-row-input js-row-input" min="5" max="20" placeholder="7" value="7">
+      </div>
+
+      <div class="mp-row-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">2000m Sekunder</label>
+        <input type="number" name="row_time_sec" class="mp-row-input js-row-input" min="0" max="59" step="0.1" placeholder="15" value="15">
+      </div>
+
+      <div class="mp-row-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Beregnet Effekt</label>
+        <div style="height: 40px; display: flex; align-items: center; justify-content: center; background: #e2e8f0; border-radius: 8px; font-weight: 900; font-size: 0.9rem; color: #0f172a;">
+          <span class="js-row-watts-out">302</span> W
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. RESULTATKORT -->
+  <div style="background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 0.85rem 1rem; margin-bottom: 1.25rem; text-align: center;">
+    <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.7rem; color: #1e40af; font-weight: 800; margin-bottom: 0.25rem;">
+      Estimeret Kondital (VO₂max)
+    </div>
+
+    <div style="display: flex; align-items: baseline; justify-content: center; gap: 0.3rem;">
+      <span class="js-row-kondital-out" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1;">61.5</span>
+      <span style="font-size: 0.9rem; font-weight: 800; color: #3b82f6;">ml/kg/min</span>
+    </div>
+
+    <div style="font-size: 0.775rem; font-weight: 700; color: #64748b; margin-top: 2px;">
+      Absolut VO₂max: <strong class="js-row-abs-out" style="color: #0f172a;">4.61</strong> L/min
+    </div>
+
+    <!-- Slank Continuum Bar -->
+    <div class="mp-fitness-continuum" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
+      <div class="mp-continuum-bar-wrapper">
+        <div class="mp-continuum-bar" style="height: 6px;">
+          <div class="mp-segment" style="background: #ef4444;"></div>
+          <div class="mp-segment" style="background: #f97316;"></div>
+          <div class="mp-segment" style="background: #eab308;"></div>
+          <div class="mp-segment" style="background: #22c55e;"></div>
+          <div class="mp-segment" style="background: #3b82f6;"></div>
+        </div>
+        <div class="js-row-continuum-marker mp-continuum-marker" style="display: none;"></div>
+      </div>
+    </div>
+
+    <div style="margin-top: 0.4rem; display: flex; justify-content: center;">
+      <span class="js-row-eval-badge" style="display:inline-block; font-size:0.775rem; font-weight:800; padding:3px 10px; border-radius:6px; background-color:#22c55e; color:#ffffff;">
+        Fremragende
+      </span>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="mp-action-group" style="margin-top: 0.85rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil alt">🗑️</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('[data-calculator="rowing-vo2max"]');
+  if (!container) return;
+
+  let activeFormula = 'klusiewicz'; // 'klusiewicz' eller 'concept2'
+
+  const formulaBtns = container.querySelectorAll('.js-row-formula-btn');
+  const formulaDesc = container.querySelector('.js-row-formula-desc');
+  const statusWrapper = container.querySelector('.js-row-status-wrapper');
+
+  const inputs = container.querySelectorAll('.js-row-input');
+  const wattsOut = container.querySelector('.js-row-watts-out');
+  const konditalOut = container.querySelector('.js-row-kondital-out');
+  const absOut = container.querySelector('.js-row-abs-out');
+  const evalBadge = container.querySelector('.js-row-eval-badge');
+  const marker = container.querySelector('.js-row-continuum-marker');
+
+  const btnReset = container.querySelector('.js-reset-btn');
+  const btnDownload = container.querySelector('.js-download-btn');
+
+  // FORMULA SWITCH
+  formulaBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      formulaBtns.forEach(b => {
+        b.classList.remove('active');
+        b.style.background = 'transparent';
+        b.style.color = '#64748b';
+      });
+      btn.classList.add('active');
+      btn.style.background = '#ffffff';
+      btn.style.color = '#0f172a';
+
+      activeFormula = btn.getAttribute('data-formula');
+
+      if (activeFormula === 'klusiewicz') {
+        if (statusWrapper) statusWrapper.style.display = 'none';
+        if (formulaDesc) {
+          formulaDesc.innerHTML = `
+            <div style="font-size: 0.725rem; color: #475569; line-height: 1.35;">
+              <strong>Klusiewicz & Faff (2003):</strong> Baseret på lineær regression mod gennemsnitseffekt (Watt) i 2km rotesten. Mest præcis til roere og idrætsaktive.
+            </div>
+          `;
+        }
+      } else {
+        if (statusWrapper) statusWrapper.style.display = 'block';
+        if (formulaDesc) {
+          formulaDesc.innerHTML = `
+            <div style="font-size: 0.725rem; color: #475569; line-height: 1.35;">
+              <strong>Concept2 / Hagerman (ACSM):</strong> Standard-formel fra Concept2. Justerer for om atleten er øvet roer eller motionist.
+            </div>
+          `;
+        }
+      }
+
+      calculate();
+    });
+  });
+
+  function updateSwitchUI() {
+    // Gender Radio UI
+    const genderRadios = container.querySelectorAll('input[name="row_gender"]');
+    genderRadios.forEach(r => {
+      const box = r.nextElementSibling;
+      if (box) {
+        box.style.backgroundColor = r.checked ? '#2563eb' : 'transparent';
+        box.style.color = r.checked ? '#ffffff' : '#475569';
+      }
+    });
+
+    // Status Radio UI
+    const statusRadios = container.querySelectorAll('input[name="row_status"]');
+    statusRadios.forEach(r => {
+      const box = r.nextElementSibling;
+      if (box) {
+        box.style.backgroundColor = r.checked ? '#2563eb' : 'transparent';
+        box.style.color = r.checked ? '#ffffff' : '#475569';
+      }
+    });
+  }
+
+  function calculate() {
+    updateSwitchUI();
+
+    const min = parseFloat(container.querySelector('[name="row_time_min"]')?.value) || 0;
+    const sec = parseFloat(container.querySelector('[name="row_time_sec"]')?.value) || 0;
+    const weight = parseFloat(container.querySelector('[name="row_weight"]')?.value) || 0;
+
+    const genderEl = container.querySelector('input[name="row_gender"]:checked');
+    const isMale = genderEl ? genderEl.value === 'male' : true;
+
+    const statusEl = container.querySelector('input[name="row_status"]:checked');
+    const isTrained = statusEl ? statusEl.value === 'trained' : true;
+
+    const totalSeconds = (min * 60) + sec;
+
+    if (totalSeconds <= 0 || weight <= 0) {
+      if (wattsOut) wattsOut.textContent = '-';
+      if (konditalOut) konditalOut.textContent = '-';
+      if (absOut) absOut.textContent = '-';
+      if (evalBadge) {
+        evalBadge.textContent = 'Mangler data';
+        evalBadge.style.backgroundColor = '#cbd5e1';
+      }
+      if (marker) marker.style.display = 'none';
+      return;
+    }
+
+    // 1. BEREGN WATT FRA 2000M TID (Concept2 Formel: Watts = 2.8 / (pace_sec_per_500m)^3)
+    // Pace per 500m = totalSeconds / 4
+    const pace = totalSeconds / 4;
+    const watts = 2.8 / Math.pow(pace / 500, 3);
+
+    if (wattsOut) wattsOut.textContent = Math.round(watts);
+
+    let absVo2 = 0; // L/min
+    let relativeVo2 = 0; // ml/kg/min
+
+    if (activeFormula === 'klusiewicz') {
+      // Klusiewicz & Faff (2003) Formler:
+      // Mænd: VO2max (L/min) = 1.682 + 0.0097 * Watts
+      // Kvinder: VO2max (L/min) = 1.631 + 0.0088 * Watts
+      if (isMale) {
+        absVo2 = 1.682 + (0.0097 * watts);
+      } else {
+        absVo2 = 1.631 + (0.0088 * watts);
+      }
+      relativeVo2 = (absVo2 * 1000) / weight;
+
+    } else {
+      // Concept2 / Hagerman (ACSM) Formel:
+      // Basal: VO2 (mL/min) = 14.72 * Watts + 250.39
+      let vo2MlMin = (14.72 * watts) + 250.39;
+
+      // Hagerman justering for øvet vs. ikke-øvet:
+      // Øvede roere udnytter en større volumen iltoptagelse
+      if (!isTrained) {
+        vo2MlMin = vo2MlMin * 0.90; // -10% for utrænede/motionister
+      }
+
+      absVo2 = vo2MlMin / 1000;
+      relativeVo2 = vo2MlMin / weight;
+    }
+
+    if (konditalOut) konditalOut.textContent = relativeVo2.toFixed(1);
+    if (absOut) absOut.textContent = absVo2.toFixed(2);
+
+    // EVALUERING
+    let evalText = 'Middel';
+    let evalColor = '#f97316';
+
+    if (isMale) {
+      if (relativeVo2 < 35) { evalText = 'Lavt'; evalColor = '#ef4444'; }
+      else if (relativeVo2 < 45) { evalText = 'Middel'; evalColor = '#f97316'; }
+      else if (relativeVo2 < 54) { evalText = 'Godt'; evalColor = '#eab308'; }
+      else if (relativeVo2 < 62) { evalText = 'Meget godt'; evalColor = '#22c55e'; }
+      else { evalText = 'Fremragende / Elite'; evalColor = '#3b82f6'; }
+    } else {
+      if (relativeVo2 < 30) { evalText = 'Lavt'; evalColor = '#ef4444'; }
+      else if (relativeVo2 < 38) { evalText = 'Middel'; evalColor = '#f97316'; }
+      else if (relativeVo2 < 46) { evalText = 'Godt'; evalColor = '#eab308'; }
+      else if (relativeVo2 < 54) { evalText = 'Meget godt'; evalColor = '#22c55e'; }
+      else { evalText = 'Fremragende / Elite'; evalColor = '#3b82f6'; }
+    }
+
+    if (evalBadge) {
+      evalBadge.textContent = evalText;
+      evalBadge.style.backgroundColor = evalColor;
+    }
+
+    // CONTINUUM MARKER
+    if (marker) {
+      const maxVo2 = isMale ? 70 : 60;
+      let pct = (relativeVo2 / maxVo2) * 100;
+      pct = Math.max(2, Math.min(98, pct));
+      marker.style.left = `${pct}%`;
+      marker.style.display = 'block';
+    }
+  }
+
+  inputs.forEach(input => {
+    ['input', 'change', 'keyup'].forEach(ev => input.addEventListener(ev, calculate));
+  });
+
+  if (btnReset) {
+    btnReset.addEventListener('click', () => {
+      container.querySelector('[name="row_time_min"]').value = '7';
+      container.querySelector('[name="row_time_sec"]').value = '15';
+      container.querySelector('[name="row_weight"]').value = '75';
+      container.querySelector('input[name="row_gender"][value="male"]').checked = true;
+      container.querySelector('input[name="row_status"][value="trained"]').checked = true;
+      calculate();
+    });
+  }
+
+  if (btnDownload) {
+    btnDownload.addEventListener('click', () => {
+      if (typeof html2canvas !== 'undefined') {
+        html2canvas(container, { scale: 2, backgroundColor: '#ffffff' }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = 'ro-kondital-rapport.png';
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+    });
+  }
+
+  calculate();
+});
+</script>

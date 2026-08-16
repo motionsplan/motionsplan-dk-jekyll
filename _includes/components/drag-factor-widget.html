@@ -1,0 +1,258 @@
+<!-- _includes/calc/rowing-drag-factor.html -->
+<style>
+  .mp-calc-card { position: relative !important; font-family: system-ui, -apple-system, sans-serif; }
+  
+  .mp-df-input { 
+    height: 40px !important; 
+    border-radius: 8px !important; 
+    text-align: center !important; 
+    font-weight: 800 !important; 
+    box-sizing: border-box !important; 
+    padding: 0 6px !important; 
+    border: 1.5px solid #cbd5e1 !important; 
+    background: #ffffff !important; 
+    margin: 0 !important; 
+    width: 100% !important;
+    font-size: 0.875rem !important;
+    color: #0f172a !important;
+  }
+  .mp-df-input:focus { border-color: #2563eb !important; outline: none !important; }
+
+  .mp-df-flex-grid { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: flex-end; }
+  .mp-df-field { flex: 1 1 110px; min-width: 0; }
+
+  /* Visuel Damper (Luftspjæld) */
+  .mp-df-damper-track {
+    position: relative;
+    height: 40px;
+    background: #e2e8f0;
+    border-radius: 20px;
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .mp-df-damper-number { font-size: 0.7rem; font-weight: 800; color: #94a3b8; z-index: 1; }
+  .mp-df-damper-handle {
+    position: absolute;
+    top: -5px;
+    width: 30px;
+    height: 50px;
+    background: #2563eb;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(37,99,235,0.3);
+    transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateX(-50%);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mp-df-damper-handle::after { content: '|||'; color: rgba(255,255,255,0.5); font-size: 0.5rem; letter-spacing: 1px; transform: rotate(90deg); }
+
+  .mp-df-pm5-guide {
+    background: #0f172a;
+    color: #f8fafc;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+  }
+  .mp-df-pm5-guide ol { margin: 0.5rem 0 0 0; padding-left: 1.25rem; }
+  .mp-df-pm5-guide li { margin-bottom: 0.25rem; font-weight: 500; }
+  .mp-df-pm5-guide li strong { color: #38bdf8; font-weight: 800; }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="rowing-drag-factor" style="max-width: 600px; margin: 0 auto;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.75rem; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 2px 0;">💨 Drag Factor Anbefaler</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Find din optimale modstand (Drag Factor) ud fra køn, vægtklasse og bådtype.
+      </p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- 1. INPUTS -->
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.95rem; margin-bottom: 1.25rem;">
+    <div class="mp-df-flex-grid">
+      
+      <!-- Køn -->
+      <div class="mp-df-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Køn</label>
+        <select class="mp-df-input js-df-gender" style="text-align: left; padding-left: 10px;">
+          <option value="male" selected>Mand</option>
+          <option value="female">Kvinde</option>
+        </select>
+      </div>
+
+      <!-- Vægt -->
+      <div class="mp-df-field">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Vægt (kg)</label>
+        <input type="number" class="mp-df-input js-df-weight" min="40" max="150" placeholder="75" value="75">
+      </div>
+
+      <!-- Bådtype / Mål -->
+      <div class="mp-df-field" style="flex: 1 1 200px;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.25rem;">Træningsmål / Bådtype</label>
+        <select class="mp-df-input js-df-boat" style="text-align: left; padding-left: 10px;">
+          <option value="standard" selected>Standard (2k test / Allround)</option>
+          <option value="heavy">Tung Båd (Single sculler / 1x)</option>
+          <option value="light">Hurtig Båd (Otter / 8+)</option>
+        </select>
+      </div>
+
+    </div>
+
+    <!-- Info om vægtklasse -->
+    <div style="margin-top: 0.5rem; font-size: 0.7rem; font-weight: 700; color: #64748b; text-align: right;">
+      Vægtklasse: <span class="js-df-weight-class" style="color: #2563eb;">Sværvægt</span>
+    </div>
+  </div>
+
+  <!-- 2. RESULTAT -->
+  <div style="background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 1.25rem 1rem; text-align: center;">
+    <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.725rem; color: #1e40af; font-weight: 800; margin-bottom: 0.25rem;">
+      Din Anbefalede Drag Factor
+    </div>
+    
+    <div style="display: flex; align-items: baseline; justify-content: center; gap: 0.3rem;">
+      <span class="js-df-result-range" style="font-size: 3.5rem; font-weight: 900; color: #1e3a8a; line-height: 1;">125 - 135</span>
+    </div>
+
+    <div style="font-size: 0.8rem; font-weight: 700; color: #3b82f6; margin-top: 4px;">
+      Svarer cirka til niveau <strong class="js-df-damper-est" style="color: #0f172a;">4 - 5</strong> på luftspjældet
+    </div>
+
+    <!-- Visuel Damper Graf -->
+    <div class="mp-df-damper-track">
+      <div class="mp-df-damper-number">1</div>
+      <div class="mp-df-damper-number">2</div>
+      <div class="mp-df-damper-number">3</div>
+      <div class="mp-df-damper-number">4</div>
+      <div class="mp-df-damper-number">5</div>
+      <div class="mp-df-damper-number">6</div>
+      <div class="mp-df-damper-number">7</div>
+      <div class="mp-df-damper-number">8</div>
+      <div class="mp-df-damper-number">9</div>
+      <div class="mp-df-damper-number">10</div>
+      <!-- Håndtag -->
+      <div class="mp-df-damper-handle js-df-damper-handle" style="left: 40%;"></div>
+    </div>
+
+    <div style="font-size: 0.65rem; color: #64748b; font-weight: 600;">
+      *Bemærk: Den præcise indstilling (1-10) afhænger af, hvor støvet maskinens svinghjul er indvendigt, samt højden over havets overflade. Brug altid skærmen (PM5) til at ramme det rigtige tal.
+    </div>
+  </div>
+
+  <!-- 3. GUIDE TIL PM5 -->
+  <div class="mp-df-pm5-guide">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+      <span style="font-size: 1.2rem;">🖥️</span>
+      <strong style="font-size: 0.85rem; text-transform: uppercase;">Sådan ser du Drag Factor på skærmen</strong>
+    </div>
+    <ol>
+      <li>Tryk på <strong>Menu</strong> for at tænde PM5-skærmen.</li>
+      <li>Vælg <strong>Flere Muligheder</strong> (More Options).</li>
+      <li>Vælg <strong>Vis Drag Factor</strong> (Display Drag Factor).</li>
+      <li>Begynd at ro! Skærmen vil opdatere tallet på hvert tag. Justér håndtaget på siden af maskinen indtil tallet lander i dit anbefalede spænd.</li>
+    </ol>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('[data-calculator="rowing-drag-factor"]');
+  if (!container) return;
+
+  const genderSelect = container.querySelector('.js-df-gender');
+  const weightInput = container.querySelector('.js-df-weight');
+  const boatSelect = container.querySelector('.js-df-boat');
+
+  const weightClassOut = container.querySelector('.js-df-weight-class');
+  const resultRangeOut = container.querySelector('.js-df-result-range');
+  const damperEstOut = container.querySelector('.js-df-damper-est');
+  const damperHandle = container.querySelector('.js-df-damper-handle');
+
+  function calculate() {
+    const gender = genderSelect.value;
+    const weight = parseFloat(weightInput.value) || 0;
+    const boat = boatSelect.value;
+
+    if (weight <= 0) return;
+
+    // Fastlæg vægtklasse grænser i roning
+    // Mænd: Letvægt <= 72.5 kg (normalt maks 75, snit 70). Vi sætter snittet ved 75 kg.
+    // Kvinder: Letvægt <= 59 kg (normalt maks 61.5). Vi sætter snittet ved 61.5 kg.
+    let isLightweight = false;
+    if (gender === 'male' && weight <= 75) isLightweight = true;
+    if (gender === 'female' && weight <= 61.5) isLightweight = true;
+
+    weightClassOut.textContent = isLightweight ? 'Letvægt' : 'Sværvægt';
+
+    // BASE DRAG FACTOR LOGIK (Anbefalinger fra Concept2 / British Rowing)
+    let targetDF = 120; // Default
+    
+    if (gender === 'male') {
+      targetDF = isLightweight ? 125 : 130;
+    } else {
+      targetDF = isLightweight ? 110 : 120;
+    }
+
+    // JUSTERING FOR BÅDTYPE
+    // Tung båd (1x) kræver tungere træk (højere DF) for at simulere den langsommere fart pr. tag.
+    // Hurtig båd (8+) bevæger sig hurtigt i vandet og kræver et lettere og hurtigere træk (lavere DF).
+    if (boat === 'heavy') targetDF += 5;
+    if (boat === 'light') targetDF -= 10;
+
+    // SPÆND (RANGE)
+    const rangeMin = targetDF - 5;
+    const rangeMax = targetDF + 5;
+
+    resultRangeOut.textContent = `${rangeMin} - ${rangeMax}`;
+
+    // DAMPER SETTING ESTIMAT
+    // Grove tommelfingerregler på en ren Concept2 maskine:
+    // DF 90 ~ Damper 1
+    // DF 115 ~ Damper 3
+    // DF 130 ~ Damper 5
+    // Formel approximation: Damper = (DF - 70) / 15
+    const calcDamper = (df) => {
+      let d = Math.round((df - 70) / 15);
+      return Math.max(1, Math.min(10, d)); // Begræns mellem 1 og 10
+    };
+
+    const dampMin = calcDamper(rangeMin);
+    const dampMax = calcDamper(rangeMax);
+
+    if (dampMin === dampMax) {
+      damperEstOut.textContent = `${dampMin}`;
+    } else {
+      damperEstOut.textContent = `${dampMin} - ${dampMax}`;
+    }
+
+    // OPDATER VISUEL DAMPER POSITION PÅ GRAFIKKEN
+    // Skala: 1 = 10%, 10 = 100%
+    const avgDamper = (dampMin + dampMax) / 2;
+    // Vi plotter det på en procent-skala fra 5% til 95% for at håndtaget bliver inde i kassen
+    let positionPct = ((avgDamper - 1) / 9) * 90 + 5; 
+    damperHandle.style.left = `${positionPct}%`;
+  }
+
+  // EVENT LISTENERS
+  genderSelect.addEventListener('change', calculate);
+  weightInput.addEventListener('input', calculate);
+  boatSelect.addEventListener('change', calculate);
+
+  // Kør initialt
+  calculate();
+});
+</script>

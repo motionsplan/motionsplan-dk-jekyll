@@ -28,7 +28,7 @@ feature_row_topics:
   - image_path: /assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg
     credit: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0
     alt: Løbetræning
-    title: Løb og løbetræning
+    title: Løb & løbetræning
     excerpt: Effektiv motionsform til at forbedre iltoptagelse, udholdenhed og sundhed.
     url: /loebesiden/
     btn_label: Læs om løbetræning
@@ -36,7 +36,7 @@ feature_row_topics:
   - image_path: /assets/images/unsplash/photo-1709601414405-db08d323a87a.jpg
     credit: https://images.unsplash.com/photo-1709601414405-db08d323a87a
     alt: Konditionstræning
-    title: Kondition og cardio
+    title: Kondition & cardio
     excerpt: Træn kredsløbet med løb, roning, svømning eller højintensiv intervaltræning (HIIT).
     url: /kondition/
     btn_label: Læs om kondition
@@ -52,19 +52,20 @@ feature_row_topics:
   - image_path: /assets/images/unsplash/photo-1593810451137-5dc55105dace.jpg
     credit: https://images.unsplash.com/photo-1593810451137-5dc55105dace
     alt: Yoga og mindfulness
-    title: Yoga og smidighed
+    title: Yoga & smidighed
     excerpt: Styrk kropsstammen, forbedr din fleksibilitet og find ro i hverdagen.
     url: /yoga/
     btn_label: Læs om yoga
     btn_class: btn--success
   - image_path: /assets/images/unsplash/photo-1580058572462-98e2c0e0e2f0.jpg
     credit: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0
-    alt: Gang og hverdagsmotion
+    alt: Gang & hverdagsmotion
     title: Gang og walking
     excerpt: Lavintensiv motionsform med store sundhedsfordele og lav skadesrisiko.
     url: /gang/
     btn_label: Læs om gang
     btn_class: btn--info
+toc_sticky: true
 ---
 
 Der findes mange **forskellige træningsformer og motionsformer**, og den rette træningsform afhænger af dine individuelle mål, dit fysiske udgangspunkt og hvad du finder motiverende.
@@ -94,6 +95,7 @@ Styrketræning stimulerer muskelopbygning (hypertrofi), øger knogletætheden og
 ### 🫁 2. Udholdenheds- og konditionsformer
 Cardiotræning styrker hjertet, forbedrer kredsløbet og øger kroppens fedtforbrænding.
 * **[Løb og løbetræning](/loebesiden/)** – Tilgængelig motionsform til opbygning af aerob kapacitet.
+* **[Roning og roergometer](/roning/)** – Indendørs roning på roergometer.
 * **[Kondition og cardio](/kondition/)** – Alt om kondital, iltoptagelse (VO2 max) og pulszoner.
 * **[HIIT (Højintensiv intervaltræning)](/hiit/)** – Korte, eksplosive træningspas med maksimal pulspåvirkning.
 * **[Cykeltræning](/cykling/)** – Skånsom konditionstræning til både landevej, gravel og spinning.

@@ -14,6 +14,7 @@ header:
   credit: https://images.unsplash.com/photo-1581888748626-2a3f240a6f9f
   teaser: /assets/images/unsplash/photo-1581888748626-2a3f240a6f9f.jpg
   caption: Træningsmetoder til styrke og kondition
+toc_sticky: true
 ---
 
 En **træningsmetode** er den konkrete praktiske fremgangsmåde og struktur, du benytter i en træningsenhed for at stimulere krop og fysiologi mod et bestemt mål.
@@ -26,17 +27,6 @@ Hvor [træningsprincipperne](/traeningsprincipper/) udgør de overordnede videns
 * **Visuelle opslagskort:** Alle metoder vises med nøgletal (RPE, RIR, intervaller, pauser). Metoder med en fuld guide har linket *"Læs dybdegående guide →"*.
 </div>
 
-<div class="notice--primary" markdown="1">
-### ⚡ Hop direkte til en kategori:
-
-[💪 Hypertrofi (Muskelvækst)](#hypertrofi){: .btn .btn--info }
-[🏋️ Maksimal Styrke](#maksimal-styrke){: .btn .btn--success }
-[⚡ Power & Eksplosivitet](#power){: .btn .btn--warning }
-[🫁 Aerob Træning (VO2max)](#aerob){: .btn .btn--info }
-[🔥 Anaerob Træning (Sprint)](#anaerob){: .btn .btn--danger }
-[🔍 Søgbart Kartotek](#kartotek){: .btn .btn--inverse }
-</div>
-
 ---
 
 ## 🏋️‍♂️ Træningsmetoder til Styrketræning
@@ -44,7 +34,7 @@ Hvor [træningsprincipperne](/traeningsprincipper/) udgør de overordnede videns
 
 Inden for [styrketræning](/styrketraening/) tilpasses metoderne efter, om det primære mål er muskelopbygning (**hypertrofi**), øget kraftudvikling (**maksimal styrke**) eller hastighed og eksplosivitet (**power**).
 
-### 1. Hypertrofi (Muskelvækst)
+### 1. 💪 Hypertrofi (Muskelvækst)
 {: id="hypertrofi" }
 
 Intensitetsteknikker og volumenmetoder designet til at maksimere det mekaniske stræk, den metaboliske udmattelse og rekrutteringen af muskelfibre:
@@ -64,7 +54,7 @@ Intensitetsteknikker og volumenmetoder designet til at maksimere det mekaniske s
 
 ---
 
-### 2. Maksimal Styrke (1RM)
+### 2. 🏋️ Maksimal Styrke (1RM)
 {: id="maksimal-styrke" }
 
 Metoder der stimulerer nervesystemets evne til at rekruttere flest mulige motorenheder og øge den maksimale kraftudvikling:
@@ -81,7 +71,7 @@ Metoder der stimulerer nervesystemets evne til at rekruttere flest mulige motore
 
 ---
 
-### 3. Power og Eksplosivitet
+### 3. ⚡ Power og Eksplosivitet
 {: id="power" }
 
 Metoder til forbedring af $RFD$ (Rate of Force Development) og eksplosiv kraftudvikling:
@@ -102,7 +92,7 @@ Metoder til forbedring af $RFD$ (Rate of Force Development) og eksplosiv kraftud
 
 Inden for [konditionstræning](/konditionstraening/), [løb](/loebesiden/) og cykling opdeles træningsmetoderne efter det primære energisystem: det **aerobe** (med ilt) eller det **anaerobe** (uden ilt).
 
-### 1. Aerob Træning (Udholdenhed og VO2 max)
+### 1. 🫁 Aerob Træning (Udholdenhed og VO2 max)
 {: id="aerob" }
 
 Formålet med [aerob træning](/aerob-traening/) er at øge hjertets minutvolumen, kapillærtætheden og den [maksimale iltoptagelse (VO2 max)](/maksimale-iltoptagelse-vo2max/):
@@ -123,7 +113,7 @@ Formålet med [aerob træning](/aerob-traening/) er at øge hjertets minutvolume
 
 ---
 
-### 2. Anaerob Træning (Mælkesyretolerance og Sprint)
+### 2. 🔥 Anaerob Træning (Mælkesyretolerance og Sprint)
 {: id="anaerob" }
 
 Formålet med [anaerob træning](/anaerob-traening/) er at stimulere den eksplosive ydeevne og opbygge evnen til at tolerere og rydde mælkesyre. Det foregår ofte organiseret som [intervaltræning](/intervaltraening/):
