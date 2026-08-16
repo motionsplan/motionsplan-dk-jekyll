@@ -113,7 +113,7 @@ Kropskontrol og fleksibilitet forebygger skader og skaber balance i bevægeappar
 <div class="notice" markdown="1">
 ### ⚡ 4. Eksplosivitet og springstyrke
 Træningsformer der fokuserer på hurtig kraftudvikling (rate of force development).
-* **[Springtræning](/springstyrke-og-springtraening/)** – Metoder til at forbedre din hoppehøjde og springlængde.
+* **[Springtræning](/springtraening/)** – Metoder til at forbedre din hoppehøjde og springlængde.
 * **[Plyometrisk træning](/plyometrisk-traening/)** – Eksplosive øvelser der udnytter musklernes *stretch-shortening cycle* (SSC).
 </div>
 

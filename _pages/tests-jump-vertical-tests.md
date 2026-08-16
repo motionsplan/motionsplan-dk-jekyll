@@ -29,7 +29,7 @@ feature_row_jump_training:
     alt: Træn din hoppehøjde og springstyrke
     title: Træn din hoppehøjde og springstyrke
     excerpt: Bliv stærkere og hop højere! Øg din hoppehøjde og springstyrke med målrettet træning. Lær de bedste øvelser og metoder til at forbedre din eksplosive styrke.
-    url: /springstyrke-og-springtraening/
+    url: /springtraening/
     btn_label: Lær om springtræning
     btn_class: btn--info
 meta:
@@ -44,7 +44,7 @@ Måling af **hoppehøjde** og **springstyrke** benyttes ofte til at evaluere atl
 
 Der findes mange forskellige måder at udføre en **hoppetest** på. Valget af test afhænger af, om du har adgang til avanceret udstyr (som kraftplatforme og hoppemåtter) eller har brug for en lavpraktisk løsning med kridt og en mur.
 
-Hvis du laver [springtræning](/springstyrke-og-springtraening/), er det en rigtig god idé at teste dig selv løbende for at tracke din fremgang og se, om dit træningsprogram virker.
+Hvis du laver [springtræning](/springtraening/), er det en rigtig god idé at teste dig selv løbende for at tracke din fremgang og se, om dit træningsprogram virker.
 
 {: .notice--info}
 **Hurtig genvej til specifikke springtests:**

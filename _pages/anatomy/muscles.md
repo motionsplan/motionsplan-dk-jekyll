@@ -135,7 +135,7 @@ Læs den dybdegående guide til [benmuskler og bentræning](/muskler/ben/).
 <details markdown="1" class="faq">
   <summary><h3 id="rygmuskler">Rygmuskler</h3></summary>
 
-Ryggen er et komplekst system af muskler, der spænder fra den brede [**Latissimus Dorsi**](/latissimus-dorsi/) til de dybe rygstrækkere. For at bygge en stærk ryg skal du både mestre vertikale træk som [pullups](/chinup-vs-pullup/) og horisontale træk som [rows](/rows/).
+Ryggen er et komplekst system af muskler, der spænder fra den brede [**Latissimus Dorsi**](/latissimus-dorsi/) til de dybe rygstrækkere. For at bygge en stærk ryg skal du både mestre vertikale træk som [pullups og chinups](/chinup-vs-pullup/) og horisontale træk som [rows](/rows/).
 
 Se oversigten over [ryggens anatomi og rygmuskler her](/muskler/ryggen/).
 </details>

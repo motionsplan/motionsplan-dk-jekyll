@@ -12,9 +12,9 @@
     <div class="modal-body">
       <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
         <strong>OFFICIEL OPSTILLING OG BANEMÅL:</strong><br>
-        1. <strong>Startlinje (Midte / 0 yard):</strong> Løberen placerer sig i midten i en 3-punkts stående stilling.<br>
-        2. <strong>Yderlinjer (5 yards til hver side):</strong> Sæt markeringer 5 yards (ca. 4,57m) til venstre og højre for midterlinjen. Samlet banebredde: 10 yards.<br>
-        3. <strong>Rute:</strong> Spurt 5 yards til første side ➔ rør linje ➔ spurt 10 yards til modsat side ➔ rør linje ➔ spurt 5 yards igennem midten.
+        1. <strong>Startlinje (Midte / 0m):</strong> Løberen placerer sig i midten i en 3-punkts stående stilling.<br>
+        2. <strong>Yderlinjer (4,57m til hver side):</strong> Sæt markeringer 4,57m til venstre og højre for midterlinjen (officiel 20-yard bane). Ved ren meter-bane sættes markeringerne ved 5,00m. Samlet banebredde: 9,14m (eller 10,00m).<br>
+        3. <strong>Rute:</strong> Spurt til første side ➔ rør linje ➔ spurt helt til modsat side ➔ rør linje ➔ spurt igennem midten.
       </p>
 
       <p style="font-size: 0.85rem; line-height: 1.5; color: #495057; margin-top: 10px;">
@@ -41,10 +41,18 @@
         <span class="card-title">Pro Agility (5-10-5) Shuttle Test</span>
         <button class="info-icon-btn" type="button" title="Læs om opsætning og regler">ℹ️</button>
       </div>
-      <div class="card-desc">5 yards ➔ 10 yards ➔ 5 yards (20 yards i alt). Måler eksplosiv acceleration og retningsskift.</div>
+      <div class="card-desc" id="card-desc-text">4,57m ➔ 9,14m ➔ 4,57m (18,29m i alt). Måler eksplosiv acceleration og retningsskift.</div>
     </div>
 
     <div class="topbar-subrow">
+      <!-- BANESWITCH (OFFICIEL VS METER) -->
+      <div class="setting-item">
+        <div class="btn-toggle-group" id="pa-unit-toggle">
+          <button type="button" class="toggle-btn active" data-val="yard" title="Officiel bane (4,57m - 9,14m - 4,57m)">📏 Officiel (18,3m)</button>
+          <button type="button" class="toggle-btn" data-val="meter" title="Ren meter-bane (5m - 10m - 5m)">📐 Meter (20m)</button>
+        </div>
+      </div>
+
       <div class="setting-item">
         <div class="btn-toggle-group" id="pa-sound-toggle">
           <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
@@ -70,17 +78,17 @@
         <svg width="100%" viewBox="0 0 290 170" preserveAspectRatio="xMidYMid meet">
           <rect x="5" y="5" width="280" height="160" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
           
-          <!-- Linjer: Venstre 5yd, Midte 0yd, Højre 5yd -->
+          <!-- Linjer: Venstre, Midte, Højre -->
           <line x1="45" y1="30" x2="45" y2="125" stroke="#e03131" stroke-width="3"/>
           <line x1="145" y1="30" x2="145" y2="125" stroke="#228be6" stroke-width="3"/>
           <line x1="245" y1="30" x2="245" y2="125" stroke="#ff922b" stroke-width="3"/>
 
-          <text x="45" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">5 YARDS (V)</text>
+          <text x="45" y="142" id="lbl-v-left" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">4,57m (V)</text>
           <text x="145" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">START/MÅL (MIDTE)</text>
-          <text x="245" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#ff922b">5 YARDS (H)</text>
+          <text x="245" y="142" id="lbl-v-right" font-size="8" font-weight="900" text-anchor="middle" fill="#ff922b">4,57m (H)</text>
 
-          <text x="95" y="24" font-size="7" font-weight="800" text-anchor="middle" fill="#e03131">1. Spurt 5 yd</text>
-          <text x="145" y="24" font-size="7" font-weight="800" text-anchor="middle" fill="#ff922b">2. Spurt 10 yd mod højre</text>
+          <text x="95" y="24" id="lbl-v-step1" font-size="7" font-weight="800" text-anchor="middle" fill="#e03131">1. Spurt 4,57m</text>
+          <text x="145" y="24" id="lbl-v-step2" font-size="7" font-weight="800" text-anchor="middle" fill="#ff922b">2. Spurt 9,14m mod højre</text>
 
           <!-- Rute: Midte -> Venstre -> Højre -> Midte -->
           <path id="path-left" d="M 145,65 L 45,65 C 35,65 35,85 45,85 L 245,85 C 255,85 255,105 245,105 L 145,105" 
@@ -125,12 +133,12 @@
           <line x1="145" y1="30" x2="145" y2="125" stroke="#228be6" stroke-width="3"/>
           <line x1="245" y1="30" x2="245" y2="125" stroke="#e03131" stroke-width="3"/>
 
-          <text x="45" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#ff922b">5 YARDS (V)</text>
+          <text x="45" y="142" id="lbl-h-left" font-size="8" font-weight="900" text-anchor="middle" fill="#ff922b">4,57m (V)</text>
           <text x="145" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#1c7ed6">START/MÅL (MIDTE)</text>
-          <text x="245" y="142" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">5 YARDS (H)</text>
+          <text x="245" y="142" id="lbl-h-right" font-size="8" font-weight="900" text-anchor="middle" fill="#e03131">4,57m (H)</text>
 
-          <text x="195" y="24" font-size="7" font-weight="800" text-anchor="middle" fill="#e03131">1. Spurt 5 yd</text>
-          <text x="145" y="24" font-size="7" font-weight="800" text-anchor="middle" fill="#ff922b">2. Spurt 10 yd mod venstre</text>
+          <text x="195" y="24" id="lbl-h-step1" font-size="7" font-weight="800" text-anchor="middle" fill="#e03131">1. Spurt 4,57m</text>
+          <text x="145" y="24" id="lbl-h-step2" font-size="7" font-weight="800" text-anchor="middle" fill="#ff922b">2. Spurt 9,14m mod venstre</text>
 
           <!-- Rute: Midte -> Højre -> Venstre -> Midte -->
           <path id="path-right" d="M 145,65 L 245,65 C 255,65 255,85 245,85 L 45,85 C 35,85 35,105 45,105 L 145,105" 
@@ -181,16 +189,16 @@
       <div class="instructions-wrapper">
         <div class="step-instructions">
           <span class="step-chip">1. Start v. midte</span> ➔ 
-          <span class="step-chip">2. 5 yd side</span> ➔ 
-          <span class="step-chip">3. 10 yd modsat</span> ➔ 
-          <span class="step-chip">4. 5 yd mål</span>
+          <span class="step-chip" id="chip-step-2">2. 4,57m side</span> ➔ 
+          <span class="step-chip" id="chip-step-3">3. 9,14m modsat</span> ➔ 
+          <span class="step-chip" id="chip-step-4">4. 4,57m mål</span>
         </div>
         <div class="timer-phase-subtitle" id="timer-phase-text">Klar til start (Tryk på Start knappen)</div>
       </div>
 
       <div class="distance-info-card">
         <span class="dist-label">Total Distance:</span>
-        <span class="dist-val">20 Yards (ca. 18.28m)</span>
+        <span class="dist-val" id="dist-val-text">18,29 Meter (Officiel 20yd)</span>
       </div>
     </div>
 
@@ -285,7 +293,7 @@
 .modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
 
 /* Topbar Settings */
-.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 2px; }
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 8px; margin-top: 2px; flex-wrap: wrap; }
 .btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
 .toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
 .toggle-btn.active { background: #228be6; color: #ffffff; }
@@ -445,7 +453,8 @@
 <script>
 (function() {
   function initProAgilityWidget() {
-    const TOTAL_DISTANCE_METERS = 18.288; // 20 yards i meter
+    let TOTAL_DISTANCE_METERS = 18.288; // Default: 20 yards i meter (18,29 m)
+    let currentUnit = 'yard'; // 'yard' (18.29m) or 'meter' (20.00m)
 
     let timingState = 'IDLE'; // IDLE, COUNTDOWN, SAY_RUN, RUNNING
     let countdownValue = 3;
@@ -509,6 +518,23 @@
     const infoIconBtn = widget.querySelector(".info-icon-btn");
     const modalCloseBtn = widget.querySelector(".modal-close-btn");
 
+    // Dynamic unit labels
+    const cardDescText = widget.querySelector("#card-desc-text");
+    const distValText = widget.querySelector("#dist-val-text");
+    const chipStep2 = widget.querySelector("#chip-step-2");
+    const chipStep3 = widget.querySelector("#chip-step-3");
+    const chipStep4 = widget.querySelector("#chip-step-4");
+
+    const lblVLeft = widget.querySelector("#lbl-v-left");
+    const lblVRight = widget.querySelector("#lbl-v-right");
+    const lblVStep1 = widget.querySelector("#lbl-v-step1");
+    const lblVStep2 = widget.querySelector("#lbl-v-step2");
+
+    const lblHLeft = widget.querySelector("#lbl-h-left");
+    const lblHRight = widget.querySelector("#lbl-h-right");
+    const lblHStep1 = widget.querySelector("#lbl-h-step1");
+    const lblHStep2 = widget.querySelector("#lbl-h-step2");
+
     const targetBoxes = {
       v1: widget.querySelector("#box-v1"),
       v2: widget.querySelector("#box-v2"),
@@ -532,7 +558,55 @@
         });
       });
     }
+
     setupToggleGroup("pa-sound-toggle", (val) => { selectedSound = val; });
+    
+    setupToggleGroup("pa-unit-toggle", (val) => {
+      currentUnit = val;
+      updateUnitMode();
+    });
+
+    function updateUnitMode() {
+      if (currentUnit === 'yard') {
+        TOTAL_DISTANCE_METERS = 18.288;
+        cardDescText.textContent = "4,57m ➔ 9,14m ➔ 4,57m (18,29m i alt). Måler eksplosiv acceleration og retningsskift.";
+        distValText.textContent = "18,29 Meter (Officiel 20yd)";
+        
+        chipStep2.textContent = "2. 4,57m side";
+        chipStep3.textContent = "3. 9,14m modsat";
+        chipStep4.textContent = "4. 4,57m mål";
+
+        if (lblVLeft) lblVLeft.textContent = "4,57m (V)";
+        if (lblVRight) lblVRight.textContent = "4,57m (H)";
+        if (lblVStep1) lblVStep1.textContent = "1. Spurt 4,57m";
+        if (lblVStep2) lblVStep2.textContent = "2. Spurt 9,14m mod højre";
+
+        if (lblHLeft) lblHLeft.textContent = "4,57m (V)";
+        if (lblHRight) lblHRight.textContent = "4,57m (H)";
+        if (lblHStep1) lblHStep1.textContent = "1. Spurt 4,57m";
+        if (lblHStep2) lblHStep2.textContent = "2. Spurt 9,14m mod venstre";
+      } else {
+        TOTAL_DISTANCE_METERS = 20.00;
+        cardDescText.textContent = "5,00m ➔ 10,00m ➔ 5,00m (20,00m i alt). Måler eksplosiv acceleration og retningsskift.";
+        distValText.textContent = "20,00 Meter (Ren Meter-bane)";
+
+        chipStep2.textContent = "2. 5,00m side";
+        chipStep3.textContent = "3. 10,00m modsat";
+        chipStep4.textContent = "4. 5,00m mål";
+
+        if (lblVLeft) lblVLeft.textContent = "5,00m (V)";
+        if (lblVRight) lblVRight.textContent = "5,00m (H)";
+        if (lblVStep1) lblVStep1.textContent = "1. Spurt 5,00m";
+        if (lblVStep2) lblVStep2.textContent = "2. Spurt 10,00m mod højre";
+
+        if (lblHLeft) lblHLeft.textContent = "5,00m (V)";
+        if (lblHRight) lblHRight.textContent = "5,00m (H)";
+        if (lblHStep1) lblHStep1.textContent = "1. Spurt 5,00m";
+        if (lblHStep2) lblHStep2.textContent = "2. Spurt 10,00m mod venstre";
+      }
+
+      updateCalculationsAndChart();
+    }
 
     function playSound(type) {
       if (selectedSound === 'off') return;
@@ -920,7 +994,7 @@
 
     let lastSavedKey = "";
     function autoSaveToLocalStorage(bestL, bestR, asymPct) {
-      const saveKey = `${bestL.toFixed(2)}_${bestR.toFixed(2)}`;
+      const saveKey = `${bestL.toFixed(2)}_${bestR.toFixed(2)}_${currentUnit}`;
       if (saveKey === lastSavedKey) return;
       lastSavedKey = saveKey;
 
@@ -1000,7 +1074,7 @@
 
     setActiveTarget('v1');
     renderLocalStorageLog();
-    updateCalculationsAndChart();
+    updateUnitMode();
   }
 
   if (document.readyState === "loading") {

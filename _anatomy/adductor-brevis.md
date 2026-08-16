@@ -66,7 +66,7 @@ Læs også om [den store indadfører (Adductor Magnus)](/adductor-magnus/), der 
 
 ## Se oversigt over muskler
 
-Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
+Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over kroppens muskelgrupper](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

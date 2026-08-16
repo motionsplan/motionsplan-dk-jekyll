@@ -101,7 +101,7 @@ I beregneren er brugt formler fra Tokmakidis et al (1987) fra Tabel 1.
 
 Når du har udregnet dit tal i beregneren ovenfor, kan du sammenligne det med alderssvarende normer for mænd og kvinder:
 
-👉 **[Se den komplette kondital-tabel her og find ud af, om dit tal er højt eller lavt](/kondital/)**
+👉 **Sammenlign dit resultat i [den komplette kondital-tabel](/kondital/)**
 
 ---
 

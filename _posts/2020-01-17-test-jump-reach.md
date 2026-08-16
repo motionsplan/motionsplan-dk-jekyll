@@ -214,7 +214,7 @@ Jump & Reach testen anvendes i adskillige professionelle ligaer. I **NFL Combine
 
 Du kan læse mere om [normer for vertikale hop hos Topend Sports](https://www.topendsports.com/testing/results/vertical-jump.htm). 
 
-Vil du forbedre dit hop? Læs vores dybdegående artikel om **[springstyrke og springtræning](/springstyrke-og-springtraening/)**.
+Vil du forbedre dit hop? Læs vores dybdegående artikel om **[springstyrke og springtræning](/springtraening/)**.
 
 ---
 

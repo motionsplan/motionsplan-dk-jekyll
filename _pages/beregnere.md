@@ -47,9 +47,9 @@ Vælg en kategori herunder, eller søg i den samlede tabel efter det specifikke 
 <div class="notice--success" markdown="1">
 ### 🍏🔢 Kalorier, Kost & Energi
 Få styr på dit energiforbrug, dit kaloriebehov og din kost.
-* **[Ligevægtsindtag Beregner](/ligevaegtsindtag-beregner/)** – Udregn hvor mange kalorier du forbrænder om dagen.
+* **[Ligevægtsindtag beregner](/ligevaegtsindtag-beregner/)** – Udregn hvor mange kalorier du forbrænder om dagen.
 * **[BMR-beregner](/bmr-beregner/)** – Udregn hvor mange kalorier du forbrænder om dagen.
-* **[Kalorieberegnere Oversigt](/kalorieberegner/)** – Læs om de forskellige formler til kalorieberegning.
+* **[Kalorieberegnere oversigt](/kalorieberegner/)** – Læs om de forskellige formler til kalorieberegning.
 </div>
 
 <div class="notice--info" markdown="1">
@@ -66,13 +66,25 @@ Få overblik over din kropsbygning, ideelle vægt og sundhedsindikatorer.
 ### 🏃‍♂️📊 Løb & Kondition
 Optimér din løbetræning, hastighed og udholdenhed med vores løbeberegnere.
 * **[Oversigt over Løbeværktøjer & Beregnere](/loeb/vaerktoejer/)** – Samlet overblik over løberelevante beregnere.
+* **[Løbeberegner, Jack Daniels og VDOT](/loebesiden-jack-daniels-loebeberegner/)** – Beregn dit kondital ud fra dine testresultater.
 * **[Konditionstests & VO2-max](/kondition/tests/)** – Beregn dit kondital ud fra dine testresultater.
+* **[Paceberegner](/hastighed/)** – Beregn din hastighed og dit pace.
+* **[Pulszoner & Karvonen Formel](/pulszoner-beregner/)** – Find dine individuelle træningszoner ud fra hvile- og maks-puls.
+</div>
+
+<div class="notice--success" markdown="1">
+### 🏋️ Styrke & Vægtløftning
+Optimér din tung styrketræning og beregn dit styrkeniveau.
+
+* **[1RM Beregner](/rm-beregner/)** – Beregn din maksimale vægtudfoldelse (1 Rep Max) ud fra færre gentagelser.
+* **[Wilks & DOTS Beregner](/sammenligning-styrke/)** – Mål din relative styrke i forhold til kropsvægt på tværs af vægtklasser.
+* **[RPE & RIR Omregner](/rpe/)** – Omregn oplevet belastning og reserve-gentagelser til procenter af 1RM.
 </div>
 
 ---
 
 ## Leder du efter noget andet?
 
-* ⏱️ **[Det samlede Fysiske Testkatalog](/tests/)** – Mål din kondition, styrke og udholdenhed.
-* 🛠️ **[Træningsværktøjer & Biomekanik](/vaerktoejer/)** – Analysér dit squat, bænkpres og dødløft med tændstikmænd.
-* 🧠 **[Psykologiske Tests](/vurderingsvaerktoejer/)** – Test dit mentale velvære og din trivsel.
+* ⏱️ **[Det samlede fysiske testkatalog](/tests/)** – Mål din kondition, styrke og udholdenhed.
+* 🛠️ **[Træningsværktøjer & biomekanik](/vaerktoejer/)** – Analysér dit squat, bænkpres og dødløft med tændstikmænd.
+* 🧠 **[Psykologiske tests](/vurderingsvaerktoejer/)** – Test dit mentale velvære og din trivsel.

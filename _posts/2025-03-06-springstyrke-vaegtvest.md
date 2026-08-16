@@ -65,7 +65,7 @@ Men effekten af ekstra belastning kan variere afhængig af den enkelte atlets er
 
 Hvis du er en erfaren atlet, kan det være en god idé at integrere vægtveste i din plyometriske træning for at maksimere effekten. Denne træningsmetode er især effektiv, når du har nået et niveau, hvor traditionel træning ikke længere giver de ønskede forbedringer.
 
-Du kan finde flere ressourcer om plyometrisk træning og [springstyrke](/springstyrke-og-springtraening/) og [springtræning](/springtraening/).
+Du kan finde flere ressourcer om plyometrisk træning og [springstyrke og springtræning](/springtraening/).
 
 Hvis du vil teste din hoppehøjde og få indsigt i de bedste tests, kan du tjekke [springtests og hoppehøjde](/springtests-hoppehoejde/).
 

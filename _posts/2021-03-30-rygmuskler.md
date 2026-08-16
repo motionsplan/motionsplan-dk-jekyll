@@ -31,7 +31,7 @@ Jeg har samlet en liste over musklerne i din ryg her. Det er afgørende at forst
 
 {% include figure image_path=page.header.teaser caption="Du ser sjældent dine rygmuskler selv, men de er fundamentet for din krops styrke og en ret holdning." alt="rygmuskler og muskler i ryggen" %}
 
-Ryggen består af mange lag muskler, der arbejder sammen om alt fra at stabilisere rygsøjlen til at trække tunge genstande mod kroppen. For at træne ryggen komplet skal du både mestre vertikale træk som [pullups](/chinup-vs-pullup/) og horisontale bevægelser som [rows](/rows/).
+Ryggen består af mange lag muskler, der arbejder sammen om alt fra at stabilisere rygsøjlen til at trække tunge genstande mod kroppen. For at træne ryggen komplet skal du både mestre vertikale træk som [chinups og pullups](/chinup-vs-pullup/) og horisontale bevægelser som [rows](/rows/).
 
 Jeg har lavet en liste over [gode øvelser til ryggen](/rygoevelser/).
 

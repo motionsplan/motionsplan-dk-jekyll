@@ -26,6 +26,7 @@ faq:
     answer: 505 Agility Test (til måling af 180° retningsskift og ben-asymmetri) og Arrowhead Testen (som tester retningsskift i 115° og 90° vinkler) er blandt de mest anvendte i fodbold.
   - question: Hvad er COD Deficit (CODD)?
     answer: COD Deficit er forskellen mellem din tid på en retningsskift-test og din tid på et rent lineært sprint over samme distance. Tallet isolerer din evne til at skifte retning fra din rene tophastighed.
+mathjax: true
 ---
 
 **Agility** og evnen til hurtigt at skifte retning (*Change of Direction Speed* - CODS) er blandt de mest afgørende fysiske parametre i holdsport som fodbold, håndbold og basketball samt i ketchersport og militære fysiske optagelsesprøver.

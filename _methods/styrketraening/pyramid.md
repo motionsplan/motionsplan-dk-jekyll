@@ -61,7 +61,7 @@ card_data:
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
 
-Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
+Læs mere om [principper for hypertrofi](/hypertrofi-metoder/).
 
 ## Omvendt pyramide
 

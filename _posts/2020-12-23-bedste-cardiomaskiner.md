@@ -184,7 +184,7 @@ Hvis dit primære mål bare er at forbedre din generelle sundhed og dit kredslø
 >
 > — <cite>[Morten Zacho](https://jyllands-posten.dk/livsstil/familiesundhed/motion/ECE7680201/loebebaandet-motionscyklen-crosstraineren-eller-romaskinen/)</cite>
 
-Skal du derimod op til en specifik test (f.eks. [politiets optagelsesprøve](/politiet-fysisk-test/)), bør din træning være specifik for den øvelse, du testet i.
+Skal du derimod op til en specifik test (f.eks. [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/)), bør din træning være specifik for den øvelse, du testet i.
 
 ---
 

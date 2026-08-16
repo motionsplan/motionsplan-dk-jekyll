@@ -47,7 +47,7 @@ Biceps femoris er en del af baglåret eller _hamstrings_ sammen med [semitendino
 
 ## Se oversigt over muskler
 
-Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
+Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i vores [guide til anatomi](/anatomi/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -66,7 +66,7 @@ Herunder kan du klikke dig direkte ind på vores opdaterede oversigtssider:
 ### 📊 [Gå til alle Beregnere og Værktøjer →](/beregnere/)
 Her finder du vores samlede bibliotek af fysiologiske beregnere.
 * **[RM-beregner](/rm-beregner/):** Udregn din maksimale styrke (1RM) i squat, bænkpres osv.
-* **[Ligevægtsindtag & BMR](/ligevaegtsindtag-beregner/):** Find dit daglige kaloriebehov og hvilestofskifte.
+* **[Ligevægtsberegner](/ligevaegtsindtag-beregner/) og [BMR](/bmr-beregner/):** Find dit daglige kaloriebehov og hvilestofskifte.
 * **[BMI-beregner](/bmi-beregner/):** Beregn Body Mass Index for voksne, mænd, kvinder og børn.
 
 ### 🏃 [Gå til alle Konditionstests →](/tests/)

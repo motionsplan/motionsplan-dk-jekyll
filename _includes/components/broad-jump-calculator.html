@@ -1,0 +1,362 @@
+<div class="broad-jump-widget">
+  
+  <!-- TOPBAR -->
+  <div class="bj-topbar">
+    <div class="bj-header-card">
+      <span class="bj-title">📏 Stående Længdehop (Broad Jump)</span>
+      <p class="bj-desc">Træk i slideren eller indtast din hoplængde for at få en øjeblikkelig fysiologisk vurdering.</p>
+    </div>
+  </div>
+
+  <!-- HOVEDKORT: INDTASTNING & SLIDER -->
+  <div class="bj-main-card">
+    
+    <!-- KØN TOGGLE -->
+    <div class="bj-gender-row">
+      <span class="gender-label">Vælg køn for præcis vurdering:</span>
+      <div class="btn-toggle-group" id="bj-gender-toggle">
+        <button type="button" class="toggle-btn active" data-val="m">👨 Mand</button>
+        <button type="button" class="toggle-btn" data-val="k">👩 Kvinde</button>
+      </div>
+    </div>
+
+    <!-- DISPLAY OG INPUT -->
+    <div class="bj-input-section">
+      <div class="bj-value-display">
+        <input type="number" id="bj-num-input" class="bj-number-field" min="100" max="350" value="230">
+        <span class="bj-unit">cm</span>
+      </div>
+
+      <!-- RANGE SLIDER -->
+      <div class="bj-slider-wrapper">
+        <input type="range" id="bj-range-slider" min="100" max="350" value="230" step="1" class="bj-slider">
+        <div class="slider-marks">
+          <span>100 cm</span>
+          <span>225 cm</span>
+          <span>350 cm</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ØJEBLIKKELIG VURDERING -->
+    <div class="bj-feedback-grid">
+      <div class="feedback-box" id="box-general-level">
+        <span class="fb-label">Generelt Niveau</span>
+        <span class="fb-val" id="fb-level-text">Godt / Trænet</span>
+      </div>
+      <div class="feedback-box highlight-box" id="box-police-grade">
+        <span class="fb-label">Politiets Karakterskala</span>
+        <span class="fb-val" id="fb-police-text">Karakter 7</span>
+      </div>
+    </div>
+
+    <!-- GEM KNAP -->
+    <div class="bj-actions">
+      <button type="button" class="btn-save-bj" id="btn-save-bj">💾 Gem i Log & Dashboard</button>
+      <div class="bj-status-msg" id="bj-status-msg" style="display: none;"></div>
+    </div>
+
+  </div>
+
+  <!-- HISTORIK TABEL -->
+  <div class="bj-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Resultater (Hukommelse)</h5>
+      <button class="btn-clear-log" id="btn-clear-bj-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="bj-log-table">
+      <thead>
+        <tr>
+          <th>Dato & Tid</th>
+          <th>Køn</th>
+          <th>Længde</th>
+          <th>Niveau</th>
+          <th>Politi</th>
+        </tr>
+      </thead>
+      <tbody id="bj-log-tbody">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte hop endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<style>
+.broad-jump-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 20px;
+  max-width: 620px; width: 100%; margin: 2rem auto; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06); box-sizing: border-box; text-align: left;
+}
+.broad-jump-widget * { box-sizing: border-box; }
+
+.bj-header-card { background: #ebfbee; border: 1px solid #b2f2bb; border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; }
+.bj-title { font-weight: 800; font-size: 1.05rem; color: #1e293b; display: block; }
+.bj-desc { font-size: 0.78rem; color: #475569; margin: 3px 0 0 0; line-height: 1.35; }
+
+.bj-main-card { background: #f8f9fa; border: 1.5px solid #e9ecef; border-radius: 14px; padding: 16px; }
+
+.bj-gender-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 8px; }
+.gender-label { font-size: 0.80rem; font-weight: 800; color: #475569; }
+
+.btn-toggle-group { display: inline-flex; background: #ffffff; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 4px 10px; font-size: 0.78rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #2b8a3e; color: #ffffff; }
+
+/* Input & Slider */
+.bj-input-section { background: #ffffff; border: 1px solid #dee2e6; border-radius: 12px; padding: 16px; text-align: center; margin-bottom: 14px; }
+.bj-value-display { display: flex; align-items: baseline; justify-content: center; gap: 4px; margin-bottom: 10px; }
+
+/* Skjul browserens standard spinde-pile på number inputs */
+.bj-number-field::-webkit-outer-spin-button,
+.bj-number-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.bj-number-field {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #0f172a;
+  border: none;
+  background: transparent;
+  width: 160px;
+  padding: 0;
+  text-align: center;
+  outline: none;
+  line-height: 1;
+}
+.bj-number-field:focus { border-bottom: 2px solid #2b8a3e; }
+.bj-unit { font-size: 1.2rem; font-weight: 800; color: #64748b; }
+
+.bj-slider-wrapper { padding: 0 8px; }
+.bj-slider {
+  width: 100%; height: 8px; border-radius: 5px; background: #e2e8f0; outline: none;
+  -webkit-appearance: none; cursor: pointer;
+}
+.bj-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none; width: 22px; height: 22px; border-radius: 50%;
+  background: #2b8a3e; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.slider-marks { display: flex; justify-content: space-between; font-size: 0.65rem; font-weight: 700; color: #94a3b8; margin-top: 6px; }
+
+/* Feedback Boxes */
+.bj-feedback-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+@media (max-width: 480px) { .bj-feedback-grid { grid-template-columns: 1fr; } }
+
+.feedback-box { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 10px; text-align: center; }
+.feedback-box.highlight-box { background: #fff9db; border-color: #fcc419; }
+
+.fb-label { font-size: 0.62rem; font-weight: 800; color: #64748b; text-transform: uppercase; display: block; margin-bottom: 2px; }
+.fb-val { font-size: 1.05rem; font-weight: 900; color: #0f172a; }
+
+.btn-save-bj {
+  width: 100%; padding: 11px; font-size: 0.88rem; font-weight: 800; border-radius: 8px;
+  border: none; background: #0f172a; color: #ffffff; cursor: pointer; transition: background 0.15s ease;
+}
+.btn-save-bj:hover { background: #1e293b; }
+.bj-status-msg { font-size: 0.75rem; font-weight: 800; color: #2b8a3e; text-align: center; margin-top: 6px; }
+
+/* Log Table */
+.bj-log-wrapper { margin-top: 16px; border-top: 1px solid #e9ecef; padding-top: 12px; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn-clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.bj-log-table { width: 100%; border-collapse: collapse; font-size: 0.76rem; text-align: center; }
+.bj-log-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; font-weight: 800; color: #495057; }
+.bj-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; }
+</style>
+
+<script>
+(function() {
+  function initBroadJumpWidget() {
+    let gender = 'm'; // 'm' eller 'k'
+
+    const widget = document.querySelector(".broad-jump-widget");
+    if (!widget) return;
+
+    const numInput = widget.querySelector("#bj-num-input");
+    const rangeSlider = widget.querySelector("#bj-range-slider");
+
+    const fbLevelText = widget.querySelector("#fb-level-text");
+    const fbPoliceText = widget.querySelector("#fb-police-text");
+
+    const btnSave = widget.querySelector("#btn-save-bj");
+    const statusMsg = widget.querySelector("#bj-status-msg");
+    const logTbody = widget.querySelector("#bj-log-tbody");
+    const btnClearLog = widget.querySelector("#btn-clear-bj-log");
+
+    // Køn toggle
+    const genderBtns = widget.querySelectorAll("#bj-gender-toggle .toggle-btn");
+    genderBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        genderBtns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        gender = btn.dataset.val;
+        updateEvaluation();
+      });
+    });
+
+    // Synkroniser Slider & Number field
+    rangeSlider.addEventListener("input", (e) => {
+      numInput.value = e.target.value;
+      updateEvaluation();
+    });
+
+    numInput.addEventListener("input", (e) => {
+      let val = parseInt(e.target.value);
+      if (!isNaN(val)) {
+        rangeSlider.value = Math.min(350, Math.max(100, val));
+        updateEvaluation();
+      }
+    });
+
+    function getEvaluations(cm, g) {
+      let level = "Under middel";
+      let police = "-3 (Ikke bestået)";
+
+      if (g === 'm') {
+        // Mænd
+        if (cm >= 270) level = "🔥 Elite / Atlet";
+        else if (cm >= 230) level = "🌟 Godt / Trænet";
+        else if (cm >= 200) level = "👍 Middel";
+        else level = "⚡ Under middel";
+
+        if (cm >= 255) police = "Karakter 12";
+        else if (cm >= 240) police = "Karakter 10";
+        else if (cm >= 230) police = "Karakter 7";
+        else if (cm >= 220) police = "Karakter 4";
+        else if (cm >= 210) police = "Karakter 02";
+        else if (cm >= 200) police = "Karakter 00";
+        else police = "Karakter -3";
+      } else {
+        // Kvinder
+        if (cm >= 230) level = "🔥 Elite / Atlet";
+        else if (cm >= 180) level = "🌟 Godt / Trænet";
+        else if (cm >= 150) level = "👍 Middel";
+        else level = "⚡ Under middel";
+
+        if (cm >= 205) police = "Karakter 12";
+        else if (cm >= 190) police = "Karakter 10";
+        else if (cm >= 180) police = "Karakter 7";
+        else if (cm >= 170) police = "Karakter 4";
+        else if (cm >= 160) police = "Karakter 02";
+        else if (cm >= 150) police = "Karakter 00";
+        else police = "Karakter -3";
+      }
+
+      return { level, police };
+    }
+
+    function updateEvaluation() {
+      const cm = parseInt(numInput.value) || 0;
+      const ev = getEvaluations(cm, gender);
+
+      fbLevelText.textContent = ev.level;
+      fbPoliceText.textContent = ev.police;
+
+      // Gem udkast i browser
+      localStorage.setItem("broad_jump_draft", JSON.stringify({ cm, gender }));
+    }
+
+    function saveToLogAndDashboard() {
+      const cm = parseInt(numInput.value);
+      if (isNaN(cm) || cm <= 0) return;
+
+      const ev = getEvaluations(cm, gender);
+      const now = new Date();
+      const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+      // 1. Gem i lokal log
+      const logs = JSON.parse(localStorage.getItem("broad_jump_logs") || "[]");
+      logs.unshift({
+        date: dateStr,
+        gender: gender === 'm' ? 'Mand' : 'Kvinde',
+        cm: cm + ' cm',
+        level: ev.level,
+        police: ev.police
+      });
+      localStorage.setItem("broad_jump_logs", JSON.stringify(logs.slice(0, 20)));
+      renderLog();
+
+      // 2. Synkroniser til Main Eksplosivitets-Dashboard
+      syncToMainDashboard(cm);
+
+      statusMsg.textContent = "✅ Hoppet blev gemt i din log og synkroniseret med Dashboard!";
+      statusMsg.style.display = "block";
+      setTimeout(() => { statusMsg.style.display = "none"; }, 3500);
+    }
+
+    function syncToMainDashboard(cm) {
+      const dashKey = 'eksplosivitet_dashboard_v1';
+      let dashData = JSON.parse(localStorage.getItem(dashKey) || '{"activeTestIds":["cmj_no_arms","broad_jump","sprint_30m","pro_agility_5_10_5"],"results":{}}');
+
+      if (!dashData.results) dashData.results = {};
+      if (!dashData.results['broad_jump']) dashData.results['broad_jump'] = [];
+
+      dashData.results['broad_jump'].push({
+        date: new Date().toISOString(),
+        val: cm
+      });
+
+      localStorage.setItem(dashKey, JSON.stringify(dashData));
+    }
+
+    function renderLog() {
+      const logs = JSON.parse(localStorage.getItem("broad_jump_logs") || "[]");
+      logTbody.innerHTML = "";
+
+      if (logs.length === 0) {
+        logTbody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte hop endnu</td></tr>';
+        return;
+      }
+
+      logs.forEach(item => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${item.date}</td>
+          <td>${item.gender}</td>
+          <td><strong>${item.cm}</strong></td>
+          <td>${item.level}</td>
+          <td>${item.police}</td>
+        `;
+        logTbody.appendChild(tr);
+      });
+    }
+
+    // Indlæs udkast
+    const draft = JSON.parse(localStorage.getItem("broad_jump_draft") || "{}");
+    if (draft.cm) {
+      numInput.value = draft.cm;
+      rangeSlider.value = draft.cm;
+    }
+    if (draft.gender) {
+      gender = draft.gender;
+      genderBtns.forEach(b => {
+        b.classList.toggle("active", b.dataset.val === gender);
+      });
+    }
+
+    btnSave.addEventListener("click", saveToLogAndDashboard);
+
+    btnClearLog.addEventListener("click", () => {
+      if (confirm("Vil du slette alle gemte hop fra hukommelsen?")) {
+        localStorage.removeItem("broad_jump_logs");
+        renderLog();
+      }
+    });
+
+    renderLog();
+    updateEvaluation();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initBroadJumpWidget);
+  } else {
+    initBroadJumpWidget();
+  }
+})();
+</script>

@@ -62,12 +62,10 @@
           <rect x="5" y="5" width="170" height="140" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
           <line x1="20" y1="135" x2="160" y2="135" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
 
-          <!-- Figur i dyb squat / bøjede knæ (SJ) -->
+          <!-- Figur SJ -->
           <circle cx="90" cy="62" r="10" fill="#1c7ed6"/>
           <line x1="90" y1="72" x2="90" y2="102" stroke="#1c7ed6" stroke-width="3.5"/>
-          <!-- Hænder på hoften -->
           <path d="M 90,80 L 80,90 L 90,94 M 90,80 L 100,90 L 90,94" fill="none" stroke="#1c7ed6" stroke-width="2.5"/>
-          <!-- Bøjede knæ & lægge -->
           <line x1="90" y1="102" x2="72" y2="118" stroke="#1c7ed6" stroke-width="3.5"/>
           <line x1="90" y1="102" x2="108" y2="118" stroke="#1c7ed6" stroke-width="3.5"/>
           <line x1="72" y1="118" x2="78" y2="135" stroke="#1c7ed6" stroke-width="3.5"/>
@@ -97,7 +95,7 @@
           <rect x="5" y="5" width="170" height="140" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
           <line x1="20" y1="135" x2="160" y2="135" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
 
-          <!-- Figur CMJ (Strakt m. hænder på hoften) -->
+          <!-- Figur CMJ -->
           <circle cx="90" cy="45" r="10" fill="#0ca678"/>
           <line x1="90" y1="55" x2="90" y2="92" stroke="#0ca678" stroke-width="3.5"/>
           <path d="M 90,65 L 78,78 L 90,82 M 90,65 L 102,78 L 90,82" fill="none" stroke="#0ca678" stroke-width="2.5"/>
@@ -128,7 +126,7 @@
           <rect x="5" y="5" width="170" height="140" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
           <line x1="20" y1="135" x2="160" y2="135" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
 
-          <!-- Figur Abalakov m. arme i vejret -->
+          <!-- Figur Abalakov -->
           <circle cx="90" cy="45" r="10" fill="#e03131"/>
           <line x1="90" y1="55" x2="90" y2="92" stroke="#e03131" stroke-width="3.5"/>
           <line x1="90" y1="65" x2="72" y2="25" stroke="#e03131" stroke-width="3" stroke-linecap="round"/>
@@ -185,6 +183,12 @@
       <span class="legend-item"><span class="legend-dot cmj"></span> CMJ</span>
       <span class="legend-item"><span class="legend-dot abk"></span> Abalakov</span>
     </div>
+  </div>
+
+  <!-- KNAP TIL EKSLICIT GEMNING -->
+  <div class="jump-save-actions">
+    <button type="button" class="btn btn--save-result" id="btn-save-jump-test">💾 Gem Test i Log & Dashboard</button>
+    <div class="save-status-msg" id="save-status-msg" style="display:none;"></div>
   </div>
 
   <!-- LOCALSTORAGE LOG TABEL -->
@@ -263,7 +267,6 @@
 .side-card.card-cmj { border-color: #63e6be; background: #e6fcf5; }
 .side-card.card-abk { border-color: #ff8787; background: #fff5f5; }
 
-/* STRUKTURERET OVERSKRIFT M. HOVEDTITEL OG UNDERTEKST */
 .side-card-header {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   gap: 2px; margin-bottom: 6px; min-height: 36px; text-align: center;
@@ -277,7 +280,6 @@
 
 .side-svg-container { width: 100%; margin-bottom: 4px; }
 
-/* Enkelt input-felt pr. boks */
 .single-input-wrapper { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-top: 4px; }
 .input-label { font-size: 0.65rem; font-weight: 800; color: #495057; }
 .input-box { display: flex; align-items: center; gap: 3px; }
@@ -314,7 +316,17 @@
 .legend-dot.cmj { background: #0ca678; }
 .legend-dot.abk { background: #e03131; }
 
-/* Log Tabel med 100% bredde */
+/* Gem knap sektion */
+.jump-save-actions { margin-top: 12px; }
+.btn--save-result {
+  width: 100%; padding: 10px; font-size: 0.88rem; font-weight: 800; border-radius: 10px;
+  border: none; background: #0f172a; color: #ffffff; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15); transition: background 0.15s ease;
+}
+.btn--save-result:hover { background: #1e293b; }
+.save-status-msg { font-size: 0.75rem; font-weight: 800; color: #2b8a3e; margin-top: 4px; }
+
+/* Log Tabel */
 .jump-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
 .log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
 .log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
@@ -363,6 +375,9 @@
     const statTotalSub = widget.querySelector("#stat-total-sub");
     const boxTotal = widget.querySelector("#box-total");
 
+    const btnSaveTest = widget.querySelector("#btn-save-jump-test");
+    const saveStatusMsg = widget.querySelector("#save-status-msg");
+
     const svgChart = widget.querySelector("#jump-svg-chart");
     const logTbody = widget.querySelector(".log-tbody");
     const btnClearLog = widget.querySelector(".btn-clear-log");
@@ -395,9 +410,27 @@
       }
     }
 
+    // 1. INDLÆS GEMTE UDKAST I INPUT-FELTERNE (DRAFT)
+    function loadInputDrafts() {
+      const draft = JSON.parse(localStorage.getItem("jump_profile_draft") || "{}");
+      if (draft.sj !== undefined) inputSj.value = draft.sj;
+      if (draft.cmj !== undefined) inputCmj.value = draft.cmj;
+      if (draft.abk !== undefined) inputAbk.value = draft.abk;
+    }
+
+    function saveInputDrafts() {
+      const draft = {
+        sj: inputSj.value,
+        cmj: inputCmj.value,
+        abk: inputAbk.value
+      };
+      localStorage.setItem("jump_profile_draft", JSON.stringify(draft));
+    }
+
     allInputs.forEach(inp => {
       inp.addEventListener("input", () => {
         requestWakeLock();
+        saveInputDrafts();
         updateCalculationsAndChart();
       });
     });
@@ -470,10 +503,6 @@
         boxTotal.className = "stat-box highlight-box";
       }
 
-      if (hasSj && hasCmj && hasAbk) {
-        autoSaveToLocalStorage(sj, cmj, abk, sscPct, armPct);
-      }
-
       renderBarChart(hasSj ? sj : 0, hasCmj ? cmj : 0, hasAbk ? abk : 0);
     }
 
@@ -529,27 +558,72 @@
       svgChart.innerHTML = svgHtml;
     }
 
-    let lastSavedKey = "";
-    function autoSaveToLocalStorage(sj, cmj, abk, sscPct, armPct) {
-      const saveKey = `${sj.toFixed(1)}_${cmj.toFixed(1)}_${abk.toFixed(1)}`;
-      if (saveKey === lastSavedKey) return;
-      lastSavedKey = saveKey;
+    // GEM TEST I HISTORIK OG DASHBOARD VED KLIK
+    function saveTestToLogAndDashboard() {
+      const sj = parseFloat(inputSj.value);
+      const cmj = parseFloat(inputCmj.value);
+      const abk = parseFloat(inputAbk.value);
 
+      const hasSj = !isNaN(sj) && sj > 0;
+      const hasCmj = !isNaN(cmj) && cmj > 0;
+      const hasAbk = !isNaN(abk) && abk > 0;
+
+      if (!hasSj && !hasCmj && !hasAbk) {
+        alert("Indtast venligst mindst ét gyldigt hop (f.eks. CMJ) for at gemme.");
+        return;
+      }
+
+      const sscPct = (hasSj && hasCmj) ? ((cmj - sj) / sj) * 100 : null;
+      const armPct = (hasCmj && hasAbk) ? ((abk - cmj) / cmj) * 100 : null;
+
+      // 1. GEM I LOKAL LOG
       const logs = JSON.parse(localStorage.getItem("jump_profile_logs") || "[]");
       const now = new Date();
       const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
 
       logs.unshift({
         date: dateStr,
-        sj: sj.toFixed(1),
-        cmj: cmj.toFixed(1),
-        abk: abk.toFixed(1),
-        ssc: (sscPct >= 0 ? '+' : '') + sscPct.toFixed(1) + '%',
-        arm: (armPct >= 0 ? '+' : '') + armPct.toFixed(1) + '%'
+        sj: hasSj ? sj.toFixed(1) : '--',
+        cmj: hasCmj ? cmj.toFixed(1) : '--',
+        abk: hasAbk ? abk.toFixed(1) : '--',
+        ssc: sscPct !== null ? (sscPct >= 0 ? '+' : '') + sscPct.toFixed(1) + '%' : '--',
+        arm: armPct !== null ? (armPct >= 0 ? '+' : '') + armPct.toFixed(1) + '%' : '--'
       });
 
       localStorage.setItem("jump_profile_logs", JSON.stringify(logs.slice(0, 20)));
       renderLocalStorageLog();
+
+      // 2. GEM DIREKTE TIL MAIN EKSPLOSIVITET DASHBOARD
+      syncToMainDashboard(hasSj ? sj : null, hasCmj ? cmj : null, hasAbk ? abk : null);
+
+      saveStatusMsg.textContent = "✅ Test gemt i historik og synkroniseret med Dashboard!";
+      saveStatusMsg.style.display = "block";
+      setTimeout(() => { saveStatusMsg.style.display = "none"; }, 3500);
+    }
+
+    function syncToMainDashboard(sj, cmj, abk) {
+      const dashKey = 'eksplosivitet_dashboard_v1';
+      let dashData = JSON.parse(localStorage.getItem(dashKey) || '{"activeTestIds":["cmj_no_arms","broad_jump","sprint_30m","pro_agility_5_10_5"],"results":{}}');
+
+      if (!dashData.results) dashData.results = {};
+      const isoNow = new Date().toISOString();
+
+      if (cmj !== null) {
+        if (!dashData.results['cmj_no_arms']) dashData.results['cmj_no_arms'] = [];
+        dashData.results['cmj_no_arms'].push({ date: isoNow, val: cmj });
+      }
+
+      if (sj !== null) {
+        if (!dashData.results['squat_jump']) dashData.results['squat_jump'] = [];
+        dashData.results['squat_jump'].push({ date: isoNow, val: sj });
+      }
+
+      if (abk !== null) {
+        if (!dashData.results['jump_and_reach']) dashData.results['jump_and_reach'] = [];
+        dashData.results['jump_and_reach'].push({ date: isoNow, val: abk });
+      }
+
+      localStorage.setItem(dashKey, JSON.stringify(dashData));
     }
 
     function renderLocalStorageLog() {
@@ -595,6 +669,8 @@
       }
     }
 
+    if (btnSaveTest) btnSaveTest.addEventListener("click", saveTestToLogAndDashboard);
+
     if (btnClearLog) {
       btnClearLog.addEventListener("click", () => {
         if (confirm("Vil du slette alle gemte test fra hukommelsen?")) {
@@ -608,6 +684,7 @@
     if (infoIconBtn) infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
     if (modalCloseBtn) modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
 
+    loadInputDrafts();
     renderLocalStorageLog();
     updateCalculationsAndChart();
   }

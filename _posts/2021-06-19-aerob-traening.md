@@ -97,7 +97,7 @@ I den **aerobe træning** kan du sætte din baseline med følgende:
 - Måle din [hvilepuls](/hvilepuls/)
 - Bruge [Heart Rate Variability (HRV)](/hrv/)
 - Måle dit kondital med fx en [2400 meter-test](/kondital-2400-meter/) eller [Coopers 12-minutters test](/cooper-test/)
-- Måle Heart Rate Recovery efter lignende aktiviteter eller pulsen ved en stabil belastning.
+- Måle [Heart Rate Recovery (restitutionspulsen)](/restitutionspuls/) efter lignende aktiviteter eller pulsen ved en stabil belastning.
 
 Når du har etableret en _baseline_ for dit aerobe system, så kan du fokusere på at lave et træningsprogram, som forbedrer de parametre, du gerne vil forbedre i det aerobe system.
 

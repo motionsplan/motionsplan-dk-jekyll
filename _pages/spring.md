@@ -1,11 +1,12 @@
 ---
-title: Springtræning – Sådan forbedrer du dit spring
-seo_title: Springtræning – Guide til bedre hoppehøjde og springlængde
-description: Hvordan kan du hoppe højere og springe længere? Springtræning forbedrer dine spring, eksplosivitet og styrke.
-  Få overblik over metoder, tests og øvelser.
-excerpt: Hvordan kan du hoppe højere og springe længere? Springtræning forbedrer dine spring, eksplosivitet og styrke. Få
-  overblik over metoder, tests og øvelser.
+title: Springtræning – Sådan forbedrer du din springstyrke, hoppehøjde og springlængde
+seo_title: Springtræning & Springstyrke – Guide til øvelser, teknik og programmer
+description: Den komplette guide til springtræning og springstyrke. Lær om øvelser til højere og længere hop, fysikken bag afsættet og hvordan du tester din eksplosivitet.
+excerpt: Vil du hoppe højere eller springe længere? Få det fulde overblik over springtræning, plyometri, fysikken i afsættet og de mest effektive øvelser.
 permalink: /springtraening/
+breadcrumbs: true
+redirect_from:
+  - /springstyrke-og-springtraening/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1517626102333-83f7319aa06e.jpg
@@ -13,22 +14,21 @@ header:
   teaser: /assets/images/unsplash/photo-1517626102333-83f7319aa06e.jpg
   caption: Springtræning – Sådan forbedrer du dit spring
 categories:
-- Træning
-- Eksplosivitet
+  - Eksplosivitet
 tags:
-- spring
-- træning
-- moc
-- springtræning
-last_modified_at: '2021-11-19T23:14:14Z'
+  - spring
+  - træning
+  - moc
+  - springtræning
+  - eksplosivitet
+  - springstyrke
+last_modified_at: '2026-08-16T20:19:00Z'
 toc: 'true'
 ---
 
-Springtræning handler om at udvikle din eksplosivitet og styrke gennem målrettede hoppeøvelser og kraftudvikling. Det er ikke kun for atleter – enhver, der ønsker at forbedre sin fysiske formåen, kan få gavn af det. S
+Springtræning og udvikling af springstyrke handler om at optimere din underkrops evne til at generere maksimal kraft på kortest mulig tid. Det er ikke kun for elitetsatleter i basketball, volleyball, længdespring og fodbold – enhver, der ønsker bedre eksplosivitet, hurtighed og reaktionsevne, har gavn af målrettet springtræning.
 
-pringtræning kan bruges til at booste præstationer i sport, men også til at forbedre din generelle fitness. Ved at arbejde med målrettede øvelser kan du udvikle både muskelstyrke, stabilitet og reaktionsevne.
-
-I denne guide lærer du, hvordan du optimerer din springkraft, udfører de bedste øvelser og hvilke tests, du kan bruge til at måle dine fremskridt. Hvis du er dedikeret, vil du se markante forbedringer i dine hoppehøjder og springlængder på kort tid.
+I denne guide får du det fulde faglige og praktiske overblik: Hvilke muskler du bruger, hvordan Force-Velocity kurven påvirker dit afsæt, de bedste styrke- og plyometriske øvelser, samt hvordan du tester og opbygger din profil.
 
 *[GCT]: Ground Contact Time
 *[RSI]: Reactive Strength Index 
@@ -36,55 +36,127 @@ I denne guide lærer du, hvordan du optimerer din springkraft, udfører de bedst
 *[DSI]: Dynamic Strength Index
 *[DJ]: Drop Jump  
 *[SJ]: Squat Jump
+*[CMJ]: Countermovement Jump
 
-## Hvad er springtræning?
+---
 
-Springtræning fokuserer på at udvikle kraft, hurtighed og eksplosivitet i benene. Det betyder, at du arbejder på at forbedre din evne til hurtigt at udvikle kraft og udnytte den til at hoppe højere og springe længere. Det er centralt for atleter i sportsgrene som basketball, volleyball, fodbold og atletik, men kan også være til stor gavn for den almindelige fitnessudøver, der ønsker at styrke sine ben og forbedre sin balance.
+## Hvad er springstyrke og springtræning?
 
-Springtræning kan inddeles i tre hovedområder:
+Springtræning fokuserer på at opbygge **springstyrke**, som er muskulaturens evne til hurtigt at udvikle maksimal kraft i forbindelse med et vertikalt (lodret) eller horisontalt (vandret) afsæt. 
 
-- **Springstyrke**: Fokuserer på at opbygge muskelstyrke, som danner fundamentet for alle spring.
-- **Plyometrisk træning**: Træner din evne til at udføre hurtige og kraftfulde bevægelser, som er essentielt for eksplosive spring.
-- **Springtests**: Bruges til at vurdere og følge dine fremskridt over tid, så du kan tilpasse din træning.
+Springstyrke opbygges af tre fysiologiske hovedkomponenter:
 
-## Øvelser til springtræning
+1. **Muskulær styrke:** Evnen til at udvikle ren, maksimal kraft (fundamentet).
+2. **Eksplosivitet (RFD):** Hvor hurtigt du kan rekruttere dine muskelfibre og udvikle denne kraft (Rate of Force Development).
+3. **Reaktiv styrke (SSC):** Evnen til at udnytte den elastiske energi i sener og muskler gennem en hurtig stræk-forkortningscyklus (Stretch-Shortening Cycle).
 
-En effektiv springtræning kombinerer både styrketræning og plyometriske øvelser. Det betyder, at du både bygger muskelmasse og træner din eksplosive styrke. Øvelserne bør være varierede for at sikre, at du træner både vertikalt og horisontalt og får det maksimale udbytte af din træning.
+---
 
-Her er nogle af de mest effektive øvelser, du kan inkludere i dit træningsprogram:
+## Hvilke muskler bruger man, når man hopper?
 
-- **Squat & Front Squat**: Bygger styrke i lår, hofter og balder, som er de primære muskler i springbevægelsen.
-- **Step-ups & Lunges**: Øger både benstyrken og stabiliteten, hvilket hjælper med at stabilisere din krop under spring.
-- **Box Jumps & Hurdle Jumps**: Øger din reaktive styrke, som er vigtig for eksplosive bevægelser som hop.
-- **Broad Jump & Depth Jumps**: Træner både horisontale og vertikale spring og er essentielle for at udvikle både længde og højde i dine spring.
+Et eksplosivt spring er en helkropsbevægelse, der kræver synkroniseret kraftudvikling gennem den såkaldte *triple extension* (samtidig udretning af hofte-, knæ- og ankelled):
 
-## De bedste springere i verden
+* **Gluteus Maximus (Sædemusklen):** Den primære motor i hofteudretningen (*hip hinge*). Leverer en enorm del af den rå kraft i både vertikale og horisontale hop.
+* **Quadriceps (Lårets forside):** Ansvarlig for knæudretningen. Særligt aktiv i den excentriske nedbremsningsfase og den efterfølgende koncentriske afsætsfase.
+* **Gastrocnemius & Soleus (Lægmusklerne):** Står for den afsluttende ankelfleksion (plantarfleksion), der overfører den sidste impuls mod underlaget.
+* **Hamstrings (Lårets bagside):** Arbejder tæt sammen med baller og lænd for at stabilisere knæleddet og skabe fremdrift i det horisontale afsæt.
+* **Core & Rygmuskulatur:** Sikrer stivhed i overkroppen, så den skabte kraft fra benene ikke "lækker", men overføres uafkortet gennem tyngdepunktet.
 
-Hvad kan vi lære af de bedste springere i verden? Vi ser på deres træning, teknikker og fysik, som kan give inspiration til at forbedre din egen springstyrke. Atleter som Micheal Jordan og Carl Lewis er perfekte eksempler på, hvordan springtræning kan tage dig til nye højder – både bokstaveligt og figurativt.
+---
 
-{% include video provider="youtube" id="TzLU3gu3wb4" %}
+## Fysiologien bag det eksplosive afsæt
 
-## Parametre der påvirker springstyrke
+For at træne springstyrke effektivt skal du forstå de biomekaniske parametre, der styrer et hop:
 
-Der er flere faktorer, der spiller ind, når det kommer til at udvikle springstyrke. Det handler ikke kun om at træne dine benmuskler – det handler om at udvikle din evne til at generere kraft hurtigt og effektivt.
+### Force-Velocity Kurven
+Præstationen i et spring er begrænset af den tid, du har til rådighed mod underlaget. Force-Velocity kurven beskriver forholdet mellem styrke og hastighed:
+* **Maximum Strength:** Din maksimale grundstyrke. Jo højere dit max er, desto større er dit potentiale for kraftudvikling.
+* **Strength-Speed:** Tung eksplosiv træning (fx tunge Jump Squats eller olympiske løft).
+* **Speed-Strength:** Hurtig kraftudvikling mod lettere belastning (fx medicinboldkast eller kropsvægtssprang).
+* **Rate of Force Development (RFD):** Måler, hvor meget kraft du kan levere inden for de første 100–200 millisekunder af afsættet. Læs mere om [Rate of Force Development](/rate-of-force-development/).
 
-- **Maximum Strength**: Din maksimale styrke er fundamentet for eksplosiv kraft. Jo stærkere du er, desto lettere vil du have ved at udføre kraftfulde bevægelser som hop.
-- **Speed Strength**: Evnen til hurtigt at udvikle kraft er afgørende for, hvor eksplosiv du kan være i dine spring.
-- **Strength Speed**: Det handler om at kombinere styrke og hastighed – en balance, som er vigtig for at udføre hurtige spring med stor kraft.
-- [Rate of Force Development](/rate-of-force-development/): Hvor hurtigt du kan udvikle kraft er afgørende for dit spring.
+---
 
 ## Vertikale vs. horisontale spring
 
-Der er stor forskel på vertikale og horisontale spring, både i teknik og fysik. Vertikale spring kræver stor kraftudvikling i benene og er afhængige af din evne til at accelerere opad hurtigt, mens horisontale spring handler om at udnytte din hastighed og kraft til at springe længst muligt.
+Der er væsentlig forskel på teknikken, biomekanikken og kravene i vertikale og horisontale spring:
 
-- **Horisontale spring**: Længdespring og stående længdespring kræver eksplosiv kraft og god teknik. Læs mere om [fysikken i det stående længdespring](/fysik-horisontalt-hop/).
-- **Vertikale spring**: Springhøjde kræver styrke, eksplosivitet og god teknik. Læs om [fysikken i de vertikale hop](/fysik-vertikalt-hop/).
+* **Vertikale spring (Lodrette hop):** Handler om at accelerere tyngdepunktet direkte opad. Kræver høj vertikal kraftafvikling og god udnyttelse af Slow SSC. Læs om [fysikken i de vertikale hop](/fysik-vertikalt-hop/).
+* **Horisontale spring (Vandrette hop):** Handler om at omsætte hastighed og kraft fremad i planet. Kræver en lavere afsætsvinkel (ofte under 30°) og stærk udnyttelse af bagkæden. Læs om [fysikken i det stående længdespring](/fysik-horisontalt-hop/).
 
-Tjek alle springtests nedenfor.
+---
 
-## Hvordan tester jeg spring?
+---
 
-Springtests er en effektiv måde at måle din fremgang på. Ved at bruge specifikke tests kan du få en klar idé om, hvordan din springstyrke udvikler sig over tid. Nogle tests fokuserer på hoppehøjde, mens andre måler eksplosiviteten eller reaktive styrke.
+## Effektiv træning: De 3 øvelseskategorier til springstyrke
+
+For at bygge en komplet springformåen skal du kombinere tung underkropsstyrke, eksplosiv kraftafvikling og reaktiv plyometri.
+
+### 1. Tung Styrketræning (Fundamentet)
+Tung styrketræning opbygger det muskulære fundament og øger signalstyrken fra nervesystemet.
+
+| Øvelse | Fokusområde | Anbefalet Sæt & Reps |
+| :--- | :--- | :--- |
+| **Squat & Front Squat** | Maksimal benstyrke (Quadriceps & Glutes) | 3–5 sæt × 3–5 reps (80–90% 1RM) |
+| **Trap Bar Deadlift / Dødløft** | Hofteudretning og bagkæde (Glutes & Hamstrings) | 3–4 sæt × 3–5 reps |
+| **Bulgarian Split Squats / Step-ups** | Unilateral styrke, balance og side-asymmetri | 3 sæt × 6–8 reps pr. ben |
+
+---
+
+### 2. Eksplosiv Styrketræning (RFD & Hastighed)
+Fokuserer på at omsætte din tunge grundstyrke til lynhurtig kraftudvikling (*Rate of Force Development*).
+
+* **Olympiske løft (Power Clean, Snatch):** Træner maksimal synkroniseret *triple extension* (hofte, knæ og ankel) under høj belastning.  
+  * 👉 *Dosering:* 3–5 sæt × 2–4 reps med fokus på maksimal stanghastighed.
+* **Weighted Jump Squats:** Træner eksplosiv afsætskraft mod let til moderat modstand.  
+  * 👉 *Dosering:* 3–4 sæt × 4–5 reps (20–40% af 1RM squat).
+
+---
+
+### 3. Plyometrisk Træning (Reaktiv Senestivhed)
+Plyometri træner din *Stretch-Shortening Cycle (SSC)* – evnen til at absorbere energi i senerne og sende den eksplosivt retur. Træn med denne tre-trins progression:
+
+#### Fase 1: Fundament & Landekontrol (Lav belastning)
+* **Ankelhop & Hoppende Squats:** Indlærer hurtig afvikling over ankelleddet og blød landemekanik.
+* **Pausestop-hop (Landing Freeze):** Træner excentrisk bremsekraft.
+
+#### Fase 2: Eksplosiv Kraft & Retning (Moderat belastning)
+* **Box Jumps:** Træner vertikal afsætskraft med minimal excentrisk landebelastning.
+* **Broad Jumps & Hurdle Jumps:** Træner horisontal fremdrift og kontinuerlige rytmiske hop over forhindringer.
+
+#### Fase 3: Maksimal Reaktiv Styrke (Høj belastning)
+* **Depth Jumps (Drop Jumps):** Træder ned fra en boks (30–45 cm) og hopper lynhurtigt lodret op ved kontakt med jorden. Isolerer *Fast SSC* og senestivhed.
+* **Single-Leg Bounds (Enbens-hop):** Maksimerer den horisontale kraftudvikling og reaktive kontrol på ét ben ad gangen.
+
+Lær mere i den dybdegående guide til [plyometrisk træning](/plyometrisk-traening/).
+
+---
+
+## Sådan springer du: Teknik & lande-mekanik
+
+God springteknik kan lægge flere centimeter til din præstation med det samme:
+
+1. **Udnyt forspændingen:** Lav et hurtigt, kontrollet dyp (countermovement) for at lade senerne med elastisk energi.
+2. **Brug armene:** Et eksplosivt armtræk fra bagkroppen og op/fremad kan øge hoppehøjden med 10–18% (Abalakov-effekten).
+3. **Spring fra 'Hip Hinge':** Bøj i hoften frem for kun at bøje i knæene, så du aktiverer de stærke ballemuskler.
+4. **Sikker landing:** Absorber energien ved at lande blødt på forfoden, rulle tilbage på hælen og bøje kontrolleret i knæ og hofte. Ved Box Jumps anbefales det at træde ned fra kassen frem for at hoppe baglæns ned.
+
+---
+
+## Test din springstyrke & mål dine fremskridt
+
+For at sikre fremgang skal du løbende måle din udvikling i både højde, længde og reaktivitet.
+
+> ⚡ **Registrer dine tal direkte:**  
+> Du kan indtaste og gemme alle dine springresultater på dit personlige **[Eksplosiv Styrke Dashboard](/eksplosivitet/)**, som automatisk synkroniserer data i din browser.
+
+**Centrale springtests**:
+* **[Countermovement Jump (CMJ) & Squat Jump (SJ)](/countermovement-jump-cmj-squat-jump-sj/):** Isolerer effekten af forspænding i forhold til ren muskelkraft.
+* **[Broad Jump (Stående Længdehop)](/broadjump/):** Måler din horisontale springkraft.
+* **[Reactive Strength Index (RSI)](/reactive-strength-index-rsi/):** Måler forholdet mellem svævetid og kontakttid i underlaget (Fast SSC).
+* **[Dynamic Strength Index (DSI)](/dynamic-strength-index-dsi/):** Sammenligner din maksimale styrke mod din eksplosive hopkraft for at vise, om du skal træne mere tungt eller mere plyometrisk.
+
+**Flere springtests:**
 
 {% assign site_posts = site.posts | where: "tags", "springtest" | sort: "last_modified_at" | reverse %}
 
@@ -96,64 +168,28 @@ Springtests er en effektiv måde at måle din fremgang på. Ved at bruge specifi
   {% endfor %}  
 {% endif %}  
 
-[Se alle springtests](/springtests-hoppehoejde/){: .btn .btn--info .btn--center }
+[Se alle springtests og beregnere](/springtests-hoppehoejde/){: .btn .btn--info .btn--center }
 
 </div>
 
-## Begreber relateret til springstyrke
+---
 
-### Reactive Strength Index (RSI)
+## Hvad kan vi lære af verdens bedste springere?
 
-RSI måler din evne til hurtigt at skifte fra en excentrisk (strækkende) til en koncentrisk (sammentrækkende) bevægelse, hvilket er essentielt i plyometriske øvelser. En høj RSI indikerer en god evne til at udvikle kraft hurtigt. Læs mere om [Reactive Strength Index](/reactive-strength-index-rsi/).
+Atleter som Michael Jordan (basketball) og Carl Lewis (atletik) demonstrerer den perfekte kombination af høj RFD, optimal tilløbshastighed og ekstrem senestivhed. Ved at studere deres bevægemønstre ser man tydeligt, hvor afgørende koordination og landingsstivhed er for det samlede afsæt.
 
-### Dynamic Strength Index (DSI)
+{% include video provider="youtube" id="TzLU3gu3wb4" %}
 
-DSI måler forskellen mellem din maksimale styrke og din eksplosive styrke. Det kan hjælpe dig med at forstå, om du har brug for mere maksimal styrketræning eller mere dynamisk plyometrisk træning. Læs mere om [Dynamic Strength Index](/dynamic-strength-index-dsi/).
-
-## Hvordan træner du til de forskellige spring?
-
-### Plyometrisk træning
-
-Plyometrisk træning fokuserer på den _stretch-shortening cycle (SSC)_, som er afgørende for eksplosiv kraftudvikling. Det er vigtigt at have en ordentlig progression i plyometriske øvelser, så du gradvist opbygger både styrke og eksplosivitet.
-
-Følg disse fire trin for at komme i gang med [plyometrisk træning](/plyometrisk-traening/).
-
-**Bliv klogere**: [Læs mere om springstyrke og træning](/springstyrke-og-springtraening/)  
-{: .notice }
-
-## Eksplosivitet, sprint og spring
-
-Eksplosiv træning forbedrer ikke kun din evne til at springe, men den har også en stor effekt på din sprintkapacitet. At træne din eksplosive styrke vil hjælpe dig med at accelerere hurtigere, hvilket er vigtigt både på banen og i hverdagen.
-
-**Læs mere**: [Alt om eksplosivitet](/eksplosivitet/)  
-{: .notice }
-
-## Relaterede emner
-
-Her finder du guides til specifikke dele af springtræningen:
-
-- [Springstyrke – Øvelser til stærkere spring](/springstyrke-og-springtraening/)
-- [Springtests – Hvordan måler du din hoppehøjde?](/springtests-hoppehoejde/)
-- [Eksplosivitet – Udvikling af hurtig kraftudvikling](/eksplosivitet/)
-- [Plyometrisk træning – Springøvelser til eksplosiv styrke](/plyometrisk-traening/)
-
-## Sådan springer du!
-
-Sprint og spring staves næsten på samme måde. På samme måde som sprinten er det vigtigt, at du lærer at lave en god landing, hvor du absorberer energien i benene.
-
-På billedet til højre kan du se en god teknik.
-
-- Start med strakte ben
-- Udnyt forspændingen ved at gå ned og op i en hurtig bevægelse
-- Træk kraftfuldt med armene (bagfra og opad)
-- Hop fra ‘hip hinge’
-
-Hvis du introducerer boxjumps, kan det være en god ide at gå ned af boksen igen.
+---
 
 <details markdown="1" class="references">  
-  <summary><h2 id="references">Referencer</h2></summary>  
+  <summary><h2 id="references">Referencer & Litteratur</h2></summary>  
 
 - Bobbert, M. F. (1990). "The influence of muscle strength on vertical jump performance." *Journal of Biomechanics*.  
-- Markovic, G. (2007). "Does plyometric training improve vertical jump height?" *Sports Medicine*.  
+- Cormie, P. (2010). "Optimal load for maximal power output in the jump squat." *Journal of Strength and Conditioning Research*.  
 - Komi, P. V. (2008). *Strength and Power in Sport*. Blackwell Science.  
-</details>  
+- Markovic, G. (2007). "Does plyometric training improve vertical jump height?" *Sports Medicine*.  
+- McBride, J. M. (2002). "Effect of strength training on sprint and jump performance." *Journal of Strength & Conditioning Research*.  
+- Verkhoshansky, Y. (2006). *Special Strength Training: A Practical Manual for Coaches*.  
+
+</details>

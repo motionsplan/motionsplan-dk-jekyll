@@ -44,7 +44,7 @@ Her er de mest populære og effektive øvelser til træning af biceps:
 
 Hvis du gerne vil have større eller stærkere overarme, er det især triceps, du skal fokusere på. Triceps (*Triceps Brachii*) udgør nemlig ca. $2/3$ af overarmens samlede muskelmasse. 
 
-Triceps indgår naturligt som primær drivkraft i store presøvelser som [bænkpres](/brystoevelser/) og [armstrækninger](/armbojninger-eller-armstraekninger-pushups/), men rammes også direkte med målrettede isolationsøvelser:
+Triceps indgår naturligt som primær drivkraft i store presøvelser som [bænkpres](/oevelse/baenkpres/) og [armstrækninger](/armbojninger-eller-armstraekninger-pushups/), men rammes også direkte med målrettede isolationsøvelser:
 
 * 🟢 **Triceps Pushdowns med kabel (Begynder):** En af de nemmeste og mest sikre tricepsøvelser. Kan udføres med lige stang, V-bar eller reb fat.
 * 🟢 **Dips på bænk / Kropsvægt:** Effektiv øvelse til træning af triceps med kropsvægt – kan laves overalt.

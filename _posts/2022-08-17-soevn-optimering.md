@@ -1,7 +1,10 @@
 ---
 title: 'Søvnhygiejne: 7 tips til at optimere din søvn'
+seo_title: 'Søvnhygiejne: 7 konkrete råd til god søvnhygiejne og optimering'
+description: 'Hvad er god søvnhygiejne? Lær hvordan du optimerer din søvnrytme, dæmper blåt lys og falder hurtigere i søvn med vores interaktive døgnrytmecirkel.'
 permalink: /soevn-optimering/
-excerpt: Vi har samlet tankevækkende tips og viden om at optimere din søvn. Alle har brug for at sove godt for at fungere. Her kan du læse mere om søvnhygiejne og søvnoptimering, og hvordan du får en god nattesøvn.
+classes: wide
+excerpt: 'Vi har samlet tankevækkende tips og viden om at optimere din søvn. Alle har brug for at sove godt for at fungere. Her kan du læse mere om søvnhygiejne og søvnoptimering, og hvordan du får en god nattesøvn.'
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1531353826977-0941b4779a1c.jpg
@@ -13,8 +16,18 @@ categories:
   - Søvn
 tags:
   - søvn
-last_modified_at: '2022-08-17T23:14:14Z'
-toc: 'true'
+  - søvnhygiejne
+  - restitution
+  - faq
+last_modified_at: '2026-08-16T17:00:00Z'
+toc: true
+faq:
+- question: Hvad er god søvnhygiejne?
+  answer: God søvnhygiejne omfatter faste sovetider, et mørkt og køligt soveværelse, undgåelse af blåt lys fra skærme 1–2 timer før sengetid samt begrænsning af koffein og tunge måltider sent om aftenen.
+- question: Hvordan falder man hurtigere i søvn?
+  answer: Du falder hurtigere i søvn ved at sænke din kernekropstemperatur (køligt rum), etablere en fast aftenrutine uden skærme, og undgå intensiv træning eller stærke stimulanser inden for den sidste time før sengetid.
+- question: Hvad betyder cirkadisk rytme for søvnen?
+  answer: Den cirkadiske rytme er kroppens indre biologiske ur på ca. 24 timer. Rytmen styres af lys og mørke, som regulerer udskillelsen af vågenhedshormonet cortisol om morgenen og søvnhormonet melatonin om aftenen.
 gallery_soevnhygiejne:
   - image_path: /assets/images/blog/soevnhygiejne-soevnoptimering-anna-west.jpg
     url: /assets/images/blog/soevnhygiejne-soevnoptimering-anna-west.jpg
@@ -26,9 +39,9 @@ Vi har samlet tankevækkende tips og viden om at optimere din søvn. Alle har br
 
 Når du ved [hvor meget søvn man skal have](/hvor-meget-skal-man-sove/), så vil du sikkert gerne i gang med at optimere din [søvn](/soevn/). Der er mange ting, du kan gøre i løbet af dagen og lige inden sengetid for at forbedre din søvn.
 
-Dette indlæg skulle gerne hjælpe dig til en bedre søvn, så du undgår søvnproblemer. Det er godt for din sundhed og dit velbefindende, men også din præstation.
+Deste indlæg skulle gerne hjælpe dig til en bedre søvn, så du undgår søvnproblemer. Det er godt for din sundhed og dit velbefindende, men også din præstation.
 
-## Hvad er søvnhygienje?
+## Hvad er søvnhygiejne?
 
 Søvnhygiejne er en praksis, hvor man tager skridt til at sikre en god nattesøvn. Søvnhygiejne kan omfatte forskellige tiltag, der kan sikre, at du får en god nats søvn hver nat.
 
@@ -52,7 +65,7 @@ Rigtig mange danskere sover ikke så godt. Der er kommet nogle strømninger, bl.
 
 Søvnoptimering betyder at sikre, at du får nok kvalitetssøvn, og at dine søvnmønstre er i synkronisering med dit naturlige kropsur. Dette kan hjælpe dig med at føle dig udhvilet og energisk i løbet af dagen og forbedre dit generelle helbred og velvære.
 
-Der er mange faktorer, der kan påvirke din søvn, herunder stress, koffeinindtag, motion, alkoholforbrug og miljømæssige faktorer som støj og lys.
+Der er mange faktorer, der kan påvirke din søvn, herunder stress, koffeinindtag, [træning før sengetid](/traening-sengetid/), alkoholforbrug og miljømæssige faktorer som støj og blåt lys.
 
 Du kan optimere din søvn ved at foretage små ændringer i din daglige rutine og dit miljø. Du kan fx:
 
@@ -64,6 +77,8 @@ Du kan optimere din søvn ved at foretage små ændringer i din daglige rutine o
 
 Disse små ændringer kan have en stor betydning for din søvnkvalitet, og du får lettere ved at [restituere](/restitution/).
 
+---
+
 ## 7 trin til søvnoptimering
 
 Nick Littlehales er søvncoach. Han har arbejdet med søvn bl.a. med eliteatleter og fodboldspillere. Du kan læse meget mere på hans hjemmeside [www.sportsleepcoach.com](https://www.sportsleepcoach.com/).
@@ -72,13 +87,11 @@ Nick Littlehales er søvncoach. Han har arbejdet med søvn bl.a. med eliteatlete
 >
 > --- <cite>Nick Littlehales</cite>
 
-Du kan se mere om Nick Littlehales tanker om søvn i denne rigtig gode Ted-talk.
+Du kan se mere om Nick Littlehales tanker om søvn i denne rigtig gode TED-talk:
 
 {% include video provider="youtube" id="kvo5vF1g20E" %}
 
-Det kan ikke betale sig at tracke din søvn, hvis du ikke ved hvad du tracker. Du skal først have styr på alle de basale søvnvaner.
-
-Du kan lære meget mere i denne [podcast fra Superhuman Academy](https://superhumanacademy.com/podcast/improve-sleep-with-nick-littlehales-sleep-coach-to-the-worlds-best-athletes/).
+Det kan ikke betale sig at tracke din søvn, hvis du ikke ved hvad du tracker. Du skal først have styr på alle de basale søvnvaner. Du kan lære meget mere i denne [podcast fra Superhuman Academy](https://superhumanacademy.com/podcast/improve-sleep-with-nick-littlehales-sleep-coach-to-the-worlds-best-athletes/).
 
 Nick Littlehales har lavet et koncept, han kalder R90. Der er i alt 7 *Key Sleep Recovery Indicators* (KSRI) i hans system. Dem har han selv skitseret sådan her på et slide.
 
@@ -98,11 +111,11 @@ I det følgende kigger vi lidt på de forskellige indikatorer, hvordan du kan la
 
 ### 1. Den biologiske døgnrytme (circadian rhythm)
 
-Kroppen har sin egen tidsindstilling, som manifesterer sig som en biologisk døgnrytme. Faktisk har alle biologiske organismer sit eget indre ur. Den ser nogenlunde sådan her ud. Den daglige rytme styres både af biologien, bl.a. hormonet melatonin, men også de ydre påvirkninger fra omgivelserne, fx lys og, støj og stimulanser.
+Kroppen har sin egen tidsindstilling, som manifesterer sig som en biologisk døgnrytme. Faktisk har alle biologiske organismer sit eget indre ur. Den daglige rytme styres både af biologien, bl.a. [cortisol](/fysiologi/) og søvnhormonet **melatonin**, men også af ydre påvirkninger som lys, støj og stimulanser.
 
-{% include figure image_path="https://www.news-medical.net/image.axd?picture=2021%2F2%2Fshutterstock_1742387510.jpg" alt="cirkadiske rytmer og søvnoptimering" %}
+Brug vores interaktive døgnrytmecirkel herunder til at se, hvordan skærmtid, aften-træning og forskudt sengetid direkte påvirker dine hormoner og din dybe søvn:
 
-Hvis du skal have den bedste nattesøvn, så skal du tage højde for disse rytmer. Det er fx nyttigt at kende din kronotype for bedst at kunne tage højde for din søvnrytme.
+{% include components/circadian-cycle.html %}
 
 ### 2. Kronotype? Er du AM'er eller PM'er
 
@@ -146,7 +159,7 @@ Hvis du er som de fleste mennesker, tænker du sikkert ikke meget over dine søv
 
 Du sover kun godt, hvis der er harmoni mellem din aktivitet og din hvile. Hvis du arbejder eller træner for hårdt i forhold til det kroppen kan holde til, så bliver din søvn aldrig rigtig god.
 
-Hvis du skal lave motion om aftenen i nærheden af din sengetid, så bør det ikke være rigtig udmattende. Det er naturligvis ikke altid muligt, men det er at arbejde med noget yoga eller zone -udholdenhedstræning, end at lave maksimale sprints om aftenen.
+Hvis du skal lave motion om aftenen i nærheden af din sengetid, så bør det ikke være rigtig udmattende. Det er naturligvis ikke altid muligt, men det er bedre at arbejde med noget yoga eller zone 2-udholdenhedstræning end at lave maksimale sprints om aftenen.
 
 ### 6. Soveprodukter
 
@@ -156,35 +169,25 @@ Littlehales lægger vægt på, at du skal vælge en fornuftig madras, der passer
 
 Soveomgivelserne og soveværelset er naturligvis utrolig vigtigt. Littlehales fremhæver, at soveværelset skal være:
 
-- **mørkt**, mørklægningsgardiner kan hjælp til at gøre det helt mørkt.
+- **mørkt**, mørklægningsgardiner kan hjælpe til at gøre det helt mørkt.
 - **opryddet**, så det er et rart sted at være.
-- **temperereret**, der må ikke være for varmt.
+- **tempereret**, der må ikke være for varmt.
 
 {% include motionsplan/pinterest image_path="/assets/images/pinterest/citat-dalai-lama.jpg" %}
 
 ## Hvordan kan du optimere din søvn og søvnhygiejne?
 
-Anna West er også ekspert i søvn. Hun rådgiver bl.a. fodboldklubber gennem sin konsulentvirksomhed, [SleepToPerform](https://sleep2perform.com/). Du kan høre Anna West fortælle om sit arbejde med fodboldklubberne her.
+Anna West er også ekspert i søvn. Hun rådgiver bl.a. fodboldklubber gennem sin konsulentvirksomhed, [SleepToPerform](https://sleep2perform.com/). Du kan høre Anna West fortælle om sit arbejde med fodboldklubberne her:
 
 <a class="spreaker-player" href="https://www.spreaker.com/user/15082972/anna-west_1" data-resource="episode_id=47479195" data-theme="light" data-playlist="false" data-cover="/assets/images/d3wo5wojvuv7l.cloudfront.net/a8c9b047e4d54d82e6ee744c78e3e5c8-8a02cbb8.jpg" data-width="100%" data-height="400px">Listen to "#S1E3 - BONUS - Anna West" on Spreaker.</a><script async src="https://widget.spreaker.com/widgets.js"></script>
 
 Anna West [lægger vægt på](https://sems.ch/fileadmin/user_upload/Zeitschrift/66-2018-4/4-2018_7_West.pdf) **søvnhygiejne**. Hun skriver, at mange ikke er så dygtige til selv at vurdere deres søvnvaner. Derfor kan det være en god ide med en struktureret og lavpraktisk tilgang, fx gennem [brug af søvndagbog](/soevndagbog/).
 
-Anna West har identificeret følgende punkter, der **hjælper dig med at falde i søvn** modsat de elementer, der kan **holde dig vågen**.
-
 {% include gallery id="gallery_soevnhygiejne" caption="Søvnhygiejne - ting atleter og andre der gerne vil undgå dårlig søvn skal overveje. Frit efter [Anna West](https://sems.ch/fileadmin/user_upload/Zeitschrift/66-2018-4/4-2018_7_West.pdf)." %}
 
-Anna West har også været gæst i denne podcast, hvor hun deler ud af sine gode råd.
+Anna West har også været gæst i denne podcast, hvor hun deler ud af sine gode råd:
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1246190806&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/playmaker-fodbold" title="GameChanger" target="_blank" style="color: #cccccc; text-decoration: none;">GameChanger</a> · <a href="https://soundcloud.com/playmaker-fodbold/sovn-og-fodboldpraestationer" title="Søvn og fodboldpræstationer" target="_blank" style="color: #cccccc; text-decoration: none;">Søvn og fodboldpræstationer</a></div>
-
-{% comment %}
-
-## Hvad skal jeg gøre inden sengetid?
-
-
-## Hvordan kan du falde i søvn?
-{% endcomment %}
 
 ## Køb bog om søvnoptimering
 
@@ -198,4 +201,20 @@ Søvn er en vigtig del af vores liv. Den hjælper os med at komme til hægterne 
 
 I denne artikel har vi skitseret syv trin, du kan tage for at optimere din søvn og forbedre dit generelle helbred.
 
-Hvis du gerne vil dykke endnu længere ned i at optimere din søvn, så kan det være et rigtig godt redskab at [registrere din søvn i en søvndagbog](/soevndagbog/). Du er måske også interesseret i at læse mere om, dit [aktivitetsur kan tracke din søvn](/soevn-tracking/).
+Hvis du gerne vil dykke endnu længere ned i at optimere din søvn, så kan det være et rigtig godt redskab at [registrere din søvn i en søvndagbog](/soevndagbog/). Du er måske også interesseret i at læse mere om, hvordan dit [aktivitetsur kan tracke din søvn](/soevn-tracking/).
+
+---
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer & Litteratur</h2></summary>
+
+- **Chang, A. M., et al. (2015).** "Evening Use of Light-Emitting eReaders Suppresses Melatonin, Delays the Circadian Clock, and Impairs Morning Alertness." *Proceedings of the National Academy of Sciences (PNAS)*, 112(4), 1232–1237. <https://doi.org/10.1073/pnas.1418490112>
+- **Fuller, P. M., Gooley, J. J., & Saper, C. B. (2006).** "Neurobiology of the Sleep-Wake Cycle: Sleep Architecture, Circadian Regulation, and Neurophysiology." *Journal of Biological Rhythms*, 21(6), 482–493. <https://doi.org/10.1177/0748730406294627>
+- **Irish, L. A., et al. (2015).** "The Role of Sleep Hygiene in Promoting Public Health: A Review of Empirical Evidence." *Sleep Medicine Reviews*, 22, 23–36. <https://doi.org/10.1016/j.smrv.2014.10.001>
+- **Littlehales, N. (2016).** *Sleep: The Myth of 8 Hours, the Power of Naps... and the New Plan to Recharge Your Body and Mind*. Penguin Books.
+- **West, A. (2018).** "Sleep Hygiene and Recovery Strategies in Elite Sports." *Swiss Sports & Exercise Medicine*, 66(4), 22–26.
+</details>

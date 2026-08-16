@@ -54,18 +54,15 @@ faq:
     answer: "TMI (udviklet af Dr. Courtney Peterson) benytter nøjagtig samme matematiske formel som Ponderal Index (kg/m³), men er specifikt valideret som en mere præcis metode end BMI til at estimere kropsfedt hos børn og teenagere i alderen 8–17 år."
 ---
 
-*[BMI]: Body Mass Index
-*[TMI]: Tri-Ponderal Mass Index
-*[IUGR]: Intrauterine Growth Restriction
-
-<div class="notice--info" markdown="1">
-### 📏 Et mere præcist alternativ til BMI?
 **Ponderal Index** – også kendt som **Rohrer’s Index** eller **Corpulence Index** – er en antropometrisk metode til at vurdere, om en person er undervægtig, normalvægtig eller overvægtig. 
 
 Til forskel fra [Body Mass Index (BMI)](/bmi/) tager Ponderal Index højde for kropsvolumen ved at ophøje højden i **tredje potens ($m^3$)** i stedet for anden potens ($m^2$). Det gør indekset særligt velegnet til at sammenligne personer med stor højdeforskel samt til vurdering af børn og unge.
 
 👉 **Vil du beregne dit tal direkte?** Hop til vores **[interaktive Ponderal Index beregner](#calculator)** eller beregn dit almindelige **[BMI med vores BMI-beregner](/bmi-beregner/)**.
-</div>
+
+*[BMI]: Body Mass Index
+*[TMI]: Tri-Ponderal Mass Index
+*[IUGR]: Intrauterine Growth Restriction
 
 ---
 

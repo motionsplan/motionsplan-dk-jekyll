@@ -1,38 +1,39 @@
 ---
 title: Hvor meget protein har jeg brug for om dagen? (Beregner)
 seo_title: Hvor meget protein skal man have om dagen? (Beregner)
-description: Er du i tvivl om, hvor meget protein du skal have om dagen? Prøv vores interaktive beregner og se det præcise antal gram ud fra din vægt og træning.
+description: Er du i tvivl om, hvor meget protein du skal have om dagen? Prøv vores interaktive beregnere og se dit samlede proteinbehov samt optimal timing.
 permalink: /dagligt-protein-indtagelse/
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1583532452513-a02186582ccd.jpg
   credit: https://images.unsplash.com/photo-1583532452513-a02186582ccd
   caption: Beregn dit præcise proteinbehov
+classes: wide
 categories:
 - Kost & Ernæring
 tags:
 - kost & ernæring
 - protein
 - populær
-last_modified_at: '2026-07-18T10:15:00Z'
+last_modified_at: '2026-08-16T18:00:00Z'
 toc: true
 tools:
-  - id: "tool-sammenlign-foedevare"
-    title: "Sammenlign Fødevarer Interaktivt"
-    description: "Interaktivt sammenligningsværktøj til direkte at sammenligne protein, kalorier og makronæringsstoffer i to fødevarer over for hinanden."
-    category: ["Kost & Ernæring"]
+  - id: "tool-dagligt-proteinbehov-beregner"
+    title: "Daglig Proteinbehov Beregner"
+    description: "Interaktiv beregner til præcis udregning af dagligt proteinbehov (i gram og g/kg kropsvægt) baseret på kropsvægt, træningsmål og aktivitetsniveau."
+    category: ["Kost & Ernæring", "Beregnere"]
     type: ["Beregner"]
-    measures: ["Protein", "Kalorier", "Makronæringsstoffer", "Næringsindhold"]  # 🎯 Output-parametre fra sammenligneren
-    anchor: "#sammenlign-foedevare-interaktivt"
+    measures: ["Dagligt proteinbehov (g)", "Protein pr. kg kropsvægt"] 
+    anchor: "#beregn-dit-daglige-proteinbehov"
     category_schema: "HealthAndFitnessApplication"
 
-  - id: "tool-protein-kalorietabel"
-    title: "Interaktiv Protein- og Kalorietabel"
-    description: "Søgbar næringsstofdatabase over fødevarer med særligt fokus på proteinindhold, kalorier og makronæringsstoffer."
-    category: ["Kost & Ernæring"]
+  - id: "tool-mps-timing-beregner"
+    title: "Muskelproteinsyntese & Protein-Timing Beregner"
+    description: "Interaktiv fysiologisk model der viser muskelproteinsyntese (MPS), mTORC1-aktivering og proteindistribution over 24 timer."
+    category: ["Kost & Ernæring", "Beregnere"]
     type: ["Beregner"]
-    measures: ["Protein", "Kalorier", "Næringsstoffer", "Fedt", "Kulhydrat"]   # 🎯 Output-parametre fra databasetabellen
-    anchor: "#komplet-kalorie--og-proteintabel"
+    measures: ["Muskelproteinsyntese (MPS)", "mTORC1-aktivering", "Proteindistribution over døgnet"] 
+    anchor: "#interaktiv-muskelproteinsyntese--og-protein-timing-beregner"
     category_schema: "HealthAndFitnessApplication"
 ---
 
@@ -49,6 +50,8 @@ Lad os skære igennem myterne og se præcis på, hvor meget protein **du** har b
 Brug vores beregner herunder til lynhurtigt at finde dit personlige behov. Vælg dit aktivitetsniveau, indtast din kropsvægt – og se direkte, hvad det svarer til i rigtig mad!
 
 {% include components/proteinberegner.html %}
+
+---
 
 ## Hvor meget protein skal man have om dagen?
 
@@ -68,7 +71,9 @@ Her er de officielle og videnskabelige retningslinjer for dit daglige indtag:
 ### Hvor meget protein skal man have, når man træner?
 Når du styrketræner, bryder du muskelfibrene ned. Proteiner består af aminosyrer, som er byggestenene, kroppen bruger til at reparere og bygge musklerne større og stærkere igen (hypertrofi). Uden tilstrækkeligt med protein, udebliver resultaterne af din hårde træning simpelthen.
 
-## Hvor meget protein kan man optage pr. måltid?
+---
+
+## Proteintiming: Fordel dit indtag over dagen
 
 Et meget omdiskuteret spørgsmål er: *"Bliver resten af proteinet bare til fedt, hvis jeg spiser 80 gram i ét måltid?"*
 
@@ -78,11 +83,35 @@ Nikolaj Bach besvarer spørgsmålet glimrende i sin artikel om proteinoptagelse.
 > 
 > --- <cite>[Nikolaj Bach, Bodylab](https://www.bodylab.dk/shop/hvor-mange-gram-protein-kan-man-optage-3185c1.html)</cite>
 
-Selvom kroppen teknisk set godt kan fordøje og udnytte meget store mængder protein ad gangen (fordøjelsen går bare langsommere), er det **mest optimale for muskelopbygning** at fordele indtaget ud over dagen. 3-4 proteinrige måltider på 25-45 gram holder din muskelproteinsyntese forhøjet hele dagen.
+Kroppen kan teknisk set godt fordøje og udnytte meget store mængder protein ad gangen – fordøjelsen tager bare længere tid. Men for at opnå **maksimal muskelopbygning** er en jævn fordeling over dagen afgørende. 
+
+For at forstå hvorfor, skal vi kigge på den fysiologiske forskning bag muskelvækst:
+
+### The Muscle Full Effect og mTOR
+Muskelopbygning styres molekylært af et enzym i cellerne kaldet **mTORC1**. Når du spiser et proteinrigt måltid (ca. 25-40 gram), aktiveres mTOR via aminosyren *leucin*. Det kaldes **Leucin-tærsklen**, og det starter muskelproteinsyntesen (MPS). 
+
+Det fascinerende er, at denne "bygge-knap" automatisk slukker igen efter cirka 3 timer, selvom du har spist en kæmpe bøf, og dit blod stadig er fuldt af aminosyrer. Forskere kalder dette fænomen for **The Muscle Full Effect**. 
+
+Hvis du spiser alt dit protein i ét eller to store måltider (f.eks. ved faste-kure), udnytter du kun to af disse spikes. Hvis du derimod fordeler dit indtag over 3-4 måltider, kan du "tænde knappen" flere gange i løbet af en dag og dermed maksimere din muskelopbygning.
+
+### Natten: Faste og protein før sengetid
+Når du sover, faster kroppen i 7-8 timer. For at modvirke, at kroppen overgår til en katabolsk (nedbrydende) tilstand, har adskillige nyere studier (bl.a. fra Luc van Loons laboratorium) vist, at et måltid bestående af **30-40 gram langsomt optageligt kaseinprotein** (som findes i skyr, hytteost eller kaseinpulver) lige inden sengetid holder muskelproteinsyntesen forhøjet hele natten.
+
+---
+
+## Interaktiv muskelproteinsyntese- og protein-timing beregner
+
+Brug vores interaktive fysiologiske model herunder til at se, hvordan måltidsfordeling, leucin-tærsklen og indtagelse af protein før sengetid direkte påvirker din samlede muskelopbygning over et helt døgn:
+
+{% include components/mps-timing-calculator.html %}
+
+---
 
 ## Konklusion
 
 For de allerfleste mennesker, som træner almindeligt, er **1,6 gram protein pr. kg kropsvægt** det "magiske tal". Det sikrer, at du får fuldt udbytte af din træning.
+
+Derudover giver det markant bedre fysiologisk mening at fordele proteinet over **3-4 hovedmåltider** frem for at spise det hele til aften. 
 
 Og bare rolig – det kan sagtens lade sig gøre at få dækket sit daglige proteinbehov udelukkende gennem den almindelige kost, selvom et tilskud som proteinpulver kan gøre det nemmere i en travl hverdag.
 
@@ -90,10 +119,14 @@ Vil du vide præcis, hvilke råvarer du skal gå efter i supermarkedet? Så tjek
 
 ---
 
-## Kilder og videre læsning
+<details markdown="1" class="references">
+  <summary><h2 id="references">Kilder og videre læsning</h2></summary>
 
-1. **WHO / FAO / UNU (2007):** *Protein and Amino Acid Requirements in Human Nutrition.* World Health Organization Technical Report Series.
-2. **Nordic Council of Ministers (2023):** *Nordic Nutrition Recommendations 2023 (NNR).* Integration of environmental aspects.
-3. **Jäger, R. et al. (2017):** *International Society of Sports Nutrition Position Stand: protein and exercise.* Journal of the International Society of Sports Nutrition, 14(20).
-4. **Morton, R. W. et al. (2018):** *A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults.* British Journal of Sports Medicine, 52(6), 376–384.
-5. **Schoenfeld, B. J., & Aragon, A. A. (2018):** *How much protein can the body use in a single meal for muscle-building? Implications for daily protein distribution.* Journal of the International Society of Sports Nutrition, 15(10).
+1. **Areta, J. L., et al. (2013).** "Timing and Distribution of Protein Ingestion During Prolonged Recovery Through Resistance Exercise Alters Myofibrillar Protein Synthesis." *The Journal of Physiology*, 591(9), 2319–2331.
+2. **Jäger, R. et al. (2017).** "International Society of Sports Nutrition Position Stand: protein and exercise." *Journal of the International Society of Sports Nutrition*, 14(20).
+3. **Morton, R. W. et al. (2018).** "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults." *British Journal of Sports Medicine*, 52(6), 376–384.
+4. **Nordic Council of Ministers (2023).** *Nordic Nutrition Recommendations 2023 (NNR).* Integration of environmental aspects.
+5. **Schoenfeld, B. J., & Aragon, A. A. (2018).** "How much protein can the body use in a single meal for muscle-building? Implications for daily protein distribution." *Journal of the International Society of Sports Nutrition*, 15(10).
+6. **Trommelen, J., & van Loon, L. J. (2016).** "Pre-Sleep Protein Ingestion to Improve the Skeletal Muscle Adaptive Response to Exercise Training." *Nutrients*, 8(12), 763.
+7. **WHO / FAO / UNU (2007).** *Protein and Amino Acid Requirements in Human Nutrition.* World Health Organization Technical Report Series.
+</details>

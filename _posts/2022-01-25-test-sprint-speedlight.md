@@ -66,6 +66,8 @@ faq:
     answer: "Maksimal sprint belaster baglår (hamstrings) og lyske ekstremt hårdt. Uden en grundig dynamisk opvarmning med gradvis stigning i løbeintensitet er der stor risiko for fibersprængninger."
 ---
 
+En **lineær sprinttest** over korte distancer er "guldstandarden" inden for måling af eksplosivitet, acceleration og tophastighed i mange idrætsgrene (fx fodbold, håndbold og atletik). Ved at opstille **fotoceller** (sprintceller) undervejs på distancen, kan du få et kirurgisk præcist billede af atletens udvikling igennem løbet.
+
 Ved at måle splittider på 5, 10, 20 og 30 meter fanger du alle de vigtige faser i et sprint:
 
 * **0–5 meter:** Eksplosiv reaktion og startkraft (*first-step quickness*).
@@ -74,9 +76,6 @@ Ved at måle splittider på 5, 10, 20 og 30 meter fanger du alle de vigtige fase
 * **20–30 meter:** Maksimal løbehastighed (*max velocity*).
 
 <div class="notice--info" markdown="1">
-**⏱️ Om den lineære sprinttest (5m, 10m, 20m, 30m)**
-En **lineær sprinttest** over korte distancer er "guldstandarden" inden for måling af eksplosivitet, acceleration og tophastighed i mange idrætsgrene (fx fodbold, håndbold og atletik). Ved at opstille **fotoceller** (sprintceller) undervejs på distancen, kan du få et kirurgisk præcist billede af atletens udvikling igennem løbet.
-
 👉 **Leder du efter andre sprint- eller udholdenhedstests?** Se vores komplette oversigt over **[sprinttests og hurtighed](/tests/sprint/)**.  
 👉 **Vil du beregne generel løbehastighed eller tempo (km/t, min/km)?** Prøv vores **[generelle hastighedsberegner for løbere](/hastighed/)**.
 👉 **Vil du test retningsskift og agility?** Prøv vores **[tests til retningsskift](/retningsskift-test/)**.
@@ -165,8 +164,11 @@ I denne video kan du nørde videre og se nogle af de hurtigste sprintere i verde
 
 ---
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 * Speedendurance (2008). *Usain Bolt 100m 10-meter splits and speed endurance*. [speedendurance.com](https://speedendurance.com/2008/08/22/usain-bolt-100m-10-meter-splits-and-speed-endurance/)
 * Topend Sports. *Sprint Test Results & Norms*. [topendsports.com](https://www.topendsports.com/testing/results/sprint-tests.htm)
 * Science for Sport. *10m Sprint Test*, *20m Sprint Test* & *5m Sprint Test*. [scienceforsport.com](https://www.scienceforsport.com/)
+
+</details>

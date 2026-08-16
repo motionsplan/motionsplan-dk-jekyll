@@ -93,7 +93,7 @@ Fx [armstrækning](/armbojninger-eller-armstraekninger-pushups/), [dips](/oevels
 
 Find øvelser hvor du starter med hænderne væk fra kroppen og trækker en modstand til dig. Du skal gøre det både lodret og vandret. Det betyder at du skal vælge to øvelser i denne gruppe.
 
-Fx [pullups](/oevelse/pullup/) og [rows](/oevelse/bent-over-rows-bor/) - [Se flere trækøvelser](/traekoevelser/).
+Fx [pullups](/oevelse/pullup/) og [rows](/rows/) - [Se flere trækøvelser](/traekoevelser/).
 </details>
 
 <details markdown="1" class="faq">

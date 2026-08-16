@@ -76,8 +76,8 @@ Brug søgefeltet i tabellen herunder til at slå din mad op. Alle værdier er an
 
 Kalorier er ganske enkelt måleenheden for den energi, din krop får tilført gennem mad og drikke. For at bruge tabellen effektivt i din hverdag kan du holde dine tal op mod din krops grundlæggende behov:
 
-1. **Find dit Basalstofskifte (BMR):** BMR angiver, hvor mange kalorier din krop forbrænder i komplet hvile blot for at holde hjerne, hjerte og organer i gang. Udregn dit [BMR (Basalstofskifte) her](/bmr-beregner/).
-2. **Kend dit Ligevægtsindtag:** Når du lægger dit aktivitetsniveau (træning, arbejde, daglig bevægelse) oveni dit BMR, får du dit ligevægtsindtag. Beregn dit [Ligevægtsindtag her](/ligevaegtsindtag-beregner/).
+1. **Find dit Basalstofskifte (BMR):** BMR angiver, hvor mange kalorier din krop forbrænder i komplet hvile blot for at holde hjerne, hjerte og organer i gang. [Udregn dit BMR (Basalstofskifte)](/bmr-beregner/).
+2. **Kend dit Ligevægtsindtag:** Når du lægger dit aktivitetsniveau (træning, arbejde, daglig bevægelse) oveni dit BMR, får du dit ligevægtsindtag. [Beregn dit ligevægtsindtag](/ligevaegtsindtag-beregner/).
 3. **Justér for Vægttab eller Muskelopbygning:** 
    * **Vægttab:** Indtag ca. 300–500 kcal *mindre* end dit ligevægtsindtag pr. dag.
    * **Muskelopbygning:** Indtag ca. 200–400 kcal *mere* end dit ligevægtsindtag kombineret med styrketræning og tilstrækkeligt [dagligt proteinindtag](/dagligt-protein-indtagelse/).

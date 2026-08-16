@@ -81,7 +81,7 @@ Tallene i denne kalorietabel er hentet fra den officielle danske fødevaredataba
 
 *Bemærk: Da frugters modenhed, dyrkningssted og størrelse varierer, er alle værdier angivet som vejledende gennemsnit pr. 100 gram.*
 
-Vil du udregne dit samlede daglige energibehov? Brug vores beregnere til [basalstofskifte (BMR)](/bmr-beregner/) og [ligevægtsindtag](/ligevaegtsindtag-beregner/).
+Vil du udregne dit samlede daglige energibehov? Brug vores [basalstofskifte-beregner](/bmr-beregner/) og [ligevægtsberegner](/ligevaegtsindtag-beregner/).
 
 ---
 

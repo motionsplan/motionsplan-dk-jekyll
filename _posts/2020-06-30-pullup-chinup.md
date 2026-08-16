@@ -41,7 +41,7 @@ Hvad er pull ups og chin ups? **Pull ups er kropshævninger med overhåndsgreb o
 
 Kropshævninger et et vigtigt funktionelt bevægelsesmønster, som bør være et element i træning. Typisk skelner man mellem chinpus og pullups i forhold grebet, men du kan også lave kropshævninger med neutralt greb, hvor håndfladerne vender mod hinanden.
 
-Kropshævninger er en klassisk træningsøvelse, og med udbredelsen af calisthenics bliver de stadig mere og mere populære.
+Kropshævninger er en klassisk træningsøvelse, og med udbredelsen af [calisthenics](/calisthenics-begynderprogram-kropsvaegtstraening/) bliver de stadig mere og mere populære.
 
 For langt de fleste er det lettere at lave chinups end pullups, men for begge øvelser er der væsentlige tekniske elementer at være opmærksom på for at få den rette træningseffekt.
 

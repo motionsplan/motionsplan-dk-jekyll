@@ -56,7 +56,7 @@ Latissimus dorsi udspringer midt fra rygsøjlen hele vejen ned til lænden og ko
 
 Derfor er funktionen for latissimus dorsi også at dreje overarmen indad (indadrotation), føre armen ind til siden (adduktion) og føre armen bagud (extension). Derudover medvirker den også til at sænke skulderbladene ligesom [Kappemusklen og Trapezius](/trapezius/).
 
-Den brede rygmuskel er også involveret i stort set alle rygøvelser. Du kan altså træne den brede rygmuskel med [pullups](/chinup-vs-pullup/), [rows](/rows/) og dødløft-varianter. Her er min favorit helt sikkert pullups.
+Den brede rygmuskel er også involveret i stort set alle rygøvelser. Du kan altså træne den brede rygmuskel med [chinups eller pullups](/chinup-vs-pullup/), [rows](/rows/) og dødløft-varianter. Her er min favorit helt sikkert pullups.
 
 {% include motionsplan/exercise-detail.html key="43" title="Pullup" %}
 

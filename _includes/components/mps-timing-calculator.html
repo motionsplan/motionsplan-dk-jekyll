@@ -1,0 +1,472 @@
+<div class="circadian-calc-wrapper">
+  <style>
+    .circadian-calc-wrapper {
+      background: var(--background-color, #ffffff);
+      border: 1px solid var(--border-color, #e2e8f0);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 2em 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    
+    /* TOPKORT GRID (ALLE 3 KORT PÅ ÉN SYMMETRISK RÆKKE) */
+    .summary-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .summary-card {
+      background: #f8fafc;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 14px 16px;
+      cursor: pointer;
+      position: relative;
+      transition: border-color 0.25s ease, background-color 0.25s ease, transform 0.25s ease;
+      user-select: none;
+      z-index: 1;
+    }
+    .summary-card:hover {
+      border-color: #0ea5e9;
+      background: #f0f9ff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(14, 165, 233, 0.08);
+    }
+    .summary-card.open {
+      z-index: 100 !important;
+      border-color: #0ea5e9;
+      background: #ffffff;
+      box-shadow: 0 6px 16px rgba(14, 165, 233, 0.12);
+    }
+
+    .summary-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.78em;
+      font-weight: 700;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    .gear-icon {
+      font-size: 1.1em;
+      opacity: 0.6;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .summary-card:hover .gear-icon,
+    .summary-card.open .gear-icon {
+      opacity: 1;
+      transform: rotate(45deg);
+      color: #0ea5e9;
+    }
+
+    .active-val-title {
+      font-size: 0.98em;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 4px;
+    }
+    .active-val-desc {
+      font-size: 0.80em;
+      color: #475569;
+      line-height: 1.35;
+    }
+
+    /* POPUP DROPDOWN MENU */
+    .option-picker-dropdown {
+      display: none;
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      border: 1.5px solid #0ea5e9;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      z-index: 101;
+      overflow: hidden;
+    }
+    .summary-card.open .option-picker-dropdown {
+      display: block;
+    }
+    .picker-option {
+      padding: 10px 12px;
+      border-bottom: 1px solid #f1f5f9;
+      transition: background 0.15s ease;
+    }
+    .picker-option:last-child {
+      border-bottom: none;
+    }
+    .picker-option:hover {
+      background: #f0f9ff;
+    }
+    .picker-option.selected {
+      background: #e0f2fe;
+      font-weight: 600;
+    }
+    .picker-opt-title {
+      font-size: 0.85em;
+      color: #0f172a;
+      display: block;
+    }
+    .picker-opt-desc {
+      font-size: 0.75em;
+      color: #64748b;
+      display: block;
+    }
+
+    /* GRAF OG LEGEND */
+    .chart-box {
+      position: relative;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 16px 12px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+      z-index: 1;
+    }
+    .chart-box svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .chart-legend {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-size: 0.85em;
+      font-weight: 500;
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid #f1f5f9;
+      color: #475569;
+      flex-wrap: wrap;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .legend-line {
+      width: 22px;
+      height: 3px;
+      border-radius: 2px;
+    }
+    .legend-line.dashed {
+      background: repeating-linear-gradient(90deg, #94a3b8, #94a3b8 3px, transparent 3px, transparent 6px);
+      height: 2px;
+    }
+
+    /* FORKLARINGS-KORT UNDER GRAF */
+    .metrics-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .metric-card {
+      background: #f8fafc;
+      padding: 16px 18px;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+      border-left: 5px solid #0ea5e9;
+      line-height: 1.5;
+    }
+    .metric-card h5 {
+      margin: 0 0 6px 0;
+      font-size: 1.02em;
+      color: #0f172a;
+    }
+    .metric-card p {
+      margin: 0;
+      font-size: 0.90em;
+      color: #334155;
+    }
+  </style>
+
+  <!-- TRE OVERSIGTSKORT PÅ ÉN RÆKKE -->
+  <div class="summary-cards-grid">
+    
+    <!-- KORT 1: MÅLTIDER -->
+    <div class="summary-card" id="cardMeals">
+      <div class="summary-card-header">
+        <span>🥩 Proteindistribution</span>
+        <span class="gear-icon">⚙️</span>
+      </div>
+      <div class="active-val-title" id="titleMeals">Optimal (3-4 måltider)</div>
+      <div class="active-val-desc" id="descMeals">25-40g protein jævnt fordelt hver 3.-4. time.</div>
+
+      <div class="option-picker-dropdown">
+        <div class="picker-option" data-value="0">
+          <span class="picker-opt-title">Få store (Fasting/2 måltider)</span>
+          <span class="picker-opt-desc">Kæmpe portioner, men lang tid mellem stimulering.</span>
+        </div>
+        <div class="picker-option selected" data-value="1">
+          <span class="picker-opt-title">Optimal (3-4 måltider)</span>
+          <span class="picker-opt-desc">25-40g protein jævnt fordelt hver 3.-4. time.</span>
+        </div>
+        <div class="picker-option" data-value="2">
+          <span class="picker-opt-title">Små snacks (Grazing)</span>
+          <span class="picker-opt-desc">Mange små bidder. Rammer sjældent leucin-tærsklen.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- KORT 2: TRÆNING -->
+    <div class="summary-card" id="cardTraining">
+      <div class="summary-card-header">
+        <span>🏋️‍♂️ Træningstilstand</span>
+        <span class="gear-icon">⚙️</span>
+      </div>
+      <div class="active-val-title" id="titleTraining">Styrketræning (Kl. 16)</div>
+      <div class="active-val-desc" id="descTraining">Musklerne sensibiliseres for anabolske signaler.</div>
+
+      <div class="option-picker-dropdown">
+        <div class="picker-option" data-value="0">
+          <span class="picker-opt-title">Hviledag (Ingen træning)</span>
+          <span class="picker-opt-desc">Normal proteinudnyttelse. Basal mTOR-aktivering.</span>
+        </div>
+        <div class="picker-option selected" data-value="1">
+          <span class="picker-opt-title">Styrketræning (Kl. 16)</span>
+          <span class="picker-opt-desc">Musklerne sensibiliseres (Det anabolske vindue).</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- KORT 3: PRE-SLEEP -->
+    <div class="summary-card" id="cardSleep">
+      <div class="summary-card-header">
+        <span>🌙 Pre-Sleep Protein</span>
+        <span class="gear-icon">⚙️</span>
+      </div>
+      <div class="active-val-title" id="titleSleep">Intet indtag før sengetid</div>
+      <div class="active-val-desc" id="descSleep">Kroppen overgår til en katabolsk tilstand om natten.</div>
+
+      <div class="option-picker-dropdown">
+        <div class="picker-option selected" data-value="0">
+          <span class="picker-opt-title">Intet indtag før sengetid</span>
+          <span class="picker-opt-desc">Kroppen overgår til en katabolsk tilstand om natten.</span>
+        </div>
+        <div class="picker-option" data-value="1">
+          <span class="picker-opt-title">30g Kasein (Kl. 22:30)</span>
+          <span class="picker-opt-desc">Langsom optagelse holder proteinsyntesen oppe hele natten.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GRAF & RESULTATER -->
+  <div class="chart-box">
+    <svg viewBox="0 0 600 300" width="100%" height="auto" id="mpsSvg">
+      <!-- DAG / NAT BAGGRUND -->
+      <rect x="0" y="30" width="375" height="220" fill="#ffffff"/> <!-- 08:00 - 23:00 -->
+      <rect x="375" y="30" width="225" height="220" fill="#f1f5f9"/> <!-- 23:00 - 08:00 (Søvn) -->
+
+      <text x="187" y="20" font-size="11" font-weight="700" fill="#0ea5e9" text-anchor="middle">☀️ DAG (MÅLTIDER & TRÆNING)</text>
+      <text x="487" y="20" font-size="11" font-weight="700" fill="#64748b" text-anchor="middle">🌙 NAT (SØVN & RESTITUTION)</text>
+
+      <!-- BASELINE (Netto-balance 0) -->
+      <line x1="0" y1="240" x2="600" y2="240" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,4"/>
+      <text x="5" y="232" font-size="9" font-weight="600" fill="#64748b">Basis (Nedbrydning)</text>
+      
+      <!-- LEUCIN-TÆRSKEL (mTOR Aktivering) -->
+      <line x1="0" y1="160" x2="600" y2="160" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2,4"/>
+      <text x="5" y="152" font-size="9" font-weight="600" fill="#94a3b8">Leucin-tærskel (mTOR aktivering)</text>
+
+      <!-- DYNAMISK MPS KURVE (AREAL OG STREG) -->
+      <path id="mpsArea" d="" fill="#e0f2fe" opacity="0.6"/>
+      <path id="mpsLine" d="" fill="none" stroke="#0ea5e9" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- TRÆNINGSMARKØR (Hvis aktiv) -->
+      <g id="workoutMarker" style="display:none;">
+        <line x1="200" y1="30" x2="200" y2="250" stroke="#f43f5e" stroke-width="2" stroke-dasharray="4,4"/>
+        <text x="205" y="45" font-size="10" font-weight="700" fill="#f43f5e">Træning (Kl. 16)</text>
+      </g>
+
+      <!-- X-AKSE TIDSPUNKTER (24 timer fra 08:00 til 08:00) -->
+      <line x1="0" y1="250" x2="600" y2="250" stroke="#cbd5e1" stroke-width="1.5"/>
+      <text x="5" y="268" font-size="10" font-weight="600" fill="#334155">08:00</text>
+      <text x="100" y="268" font-size="10" fill="#64748b" text-anchor="middle">12:00</text>
+      <text x="200" y="268" font-size="10" fill="#64748b" text-anchor="middle">16:00</text>
+      <text x="300" y="268" font-size="10" fill="#64748b" text-anchor="middle">20:00</text>
+      <text x="375" y="268" font-size="10" font-weight="700" fill="#8b5cf6" text-anchor="middle">23:00 (Sengetid)</text>
+      <text x="595" y="268" font-size="10" font-weight="600" fill="#334155" text-anchor="end">08:00</text>
+    </svg>
+
+    <div class="chart-legend">
+      <div class="legend-item"><div class="legend-line" style="background:#0ea5e9;"></div><span>Muskelproteinsyntese (MPS)</span></div>
+      <div class="legend-item"><div class="legend-line dashed" style="background: repeating-linear-gradient(90deg, #94a3b8, #94a3b8 3px, transparent 3px, transparent 6px);"></div><span>Baseline (Muskelnedbrydning)</span></div>
+      <div class="legend-item"><div class="legend-line" style="background:#f43f5e; width:3px; height:12px; border-radius:0;"></div><span>Styrketræning</span></div>
+    </div>
+  </div>
+
+  <div class="metrics-stack">
+    <div class="metric-card" style="border-left-color: #0ea5e9;">
+      <h5>🧬 mTOR & The Muscle Full Effect</h5>
+      <p id="txtMTOR">-</p>
+    </div>
+    <div class="metric-card" style="border-left-color: #f43f5e;">
+      <h5>🏋️‍♀️ Mekanisk spænding & Det anabolske vindue</h5>
+      <p id="txtTraining">-</p>
+    </div>
+    <div class="metric-card" style="border-left-color: #8b5cf6;">
+      <h5>📈 Netto Muskelvækst (Areal under kurven)</h5>
+      <p id="txtResult">-</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    let state = {
+      meals: 1, // 0: IF, 1: Optimal, 2: Snacks
+      training: 1, // 0: Hvile, 1: Træning
+      presleep: 0 // 0: Nej, 1: Ja
+    };
+
+    const mpsLine = document.getElementById('mpsLine');
+    const mpsArea = document.getElementById('mpsArea');
+    const workoutMarker = document.getElementById('workoutMarker');
+
+    const txtMTOR = document.getElementById('txtMTOR');
+    const txtTraining = document.getElementById('txtTraining');
+    const txtResult = document.getElementById('txtResult');
+
+    // KORT KLIK HÅNDTERING
+    document.querySelectorAll('.summary-card').forEach(card => {
+      card.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const isOpen = this.classList.contains('open');
+        document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('open'));
+        if (!isOpen) this.classList.add('open');
+      });
+    });
+
+    document.addEventListener('click', function() {
+      document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('open'));
+    });
+
+    setupCardOptions('cardMeals', 'titleMeals', 'descMeals', 'meals');
+    setupCardOptions('cardTraining', 'titleTraining', 'descTraining', 'training');
+    setupCardOptions('cardSleep', 'titleSleep', 'descSleep', 'presleep');
+
+    function setupCardOptions(cardId, titleId, descId, stateKey) {
+      const card = document.getElementById(cardId);
+      card.querySelectorAll('.picker-option').forEach(opt => {
+        opt.addEventListener('click', function(e) {
+          e.stopPropagation();
+          state[stateKey] = parseInt(this.getAttribute('data-value'));
+
+          card.querySelectorAll('.picker-option').forEach(o => o.classList.remove('selected'));
+          this.classList.add('selected');
+
+          document.getElementById(titleId).textContent = this.querySelector('.picker-opt-title').textContent;
+          document.getElementById(descId).textContent = this.querySelector('.picker-opt-desc').textContent;
+
+          card.classList.remove('open');
+          updateMPSModel();
+        });
+      });
+    }
+
+    function updateMPSModel() {
+      const meals = state.meals;
+      const train = state.training;
+      const sleep = state.presleep;
+
+      workoutMarker.style.display = train === 1 ? 'block' : 'none';
+
+      let points = [];
+      let auc = 0;
+
+      for (let t = 0; t <= 24; t += 0.25) {
+        let x = t * 25;
+        let mpsBase = 0;
+
+        if (train === 1 && t >= 8) {
+          mpsBase += 15;
+        }
+
+        function getSpike(mealT, magnitude, duration, isSlow = false) {
+          if (t >= mealT && t <= mealT + duration) {
+            let progress = (t - mealT) / duration;
+            if (isSlow) {
+               return magnitude * (Math.sin(progress * Math.PI) * (1 - progress * 0.5));
+            } else {
+               return magnitude * Math.sin(progress * Math.PI);
+            }
+          }
+          return 0;
+        }
+
+        let currentMPS = mpsBase;
+
+        if (meals === 0) {
+          currentMPS += getSpike(4.5, 95, 3.5);
+          currentMPS += getSpike(11, 95, 3.5);
+        } else if (meals === 1) {
+          currentMPS += getSpike(0.5, 75, 3.5);
+          currentMPS += getSpike(4.5, 75, 3.5);
+          currentMPS += getSpike(8.5, 75, 3.5);
+          currentMPS += getSpike(12.5, 75, 3.5);
+        } else if (meals === 2) {
+          for (let m = 0.5; m < 15; m += 2.5) {
+            currentMPS += getSpike(m, 35, 2.5);
+          }
+        }
+
+        if (sleep === 1) {
+          currentMPS += getSpike(14.5, 60, 7.5, true); 
+        }
+
+        if (train === 1 && t >= 8) {
+          currentMPS = currentMPS * 1.35;
+        }
+
+        let y = 240 - currentMPS;
+        points.push(`${x},${y}`);
+        auc += Math.max(0, currentMPS);
+      }
+
+      const pathData = `M 0,240 L ${points.join(' L ')}`;
+      mpsLine.setAttribute('d', pathData);
+      
+      const areaData = `${pathData} L 600,240 Z`;
+      mpsArea.setAttribute('d', areaData);
+
+      if (meals === 0) {
+        txtMTOR.textContent = "Ved kun 2 store måltider får du enorme spikes, men 'The Muscle Full Effect' gør, at cellerne slukker for proteinsyntesen (mTOR) efter 3 timer. Det efterlader kroppen i nedbrydningstilstand resten af dagen.";
+      } else if (meals === 1) {
+        txtMTOR.textContent = "Perfekt protein-spacing! Ved at indtage 20-40g protein hver 3.-4. time rammer du leucin-tærsklen gentagne gange og genaktiverer mTORC1 præcis, når den forrige cyklus er afsluttet.";
+      } else {
+        txtMTOR.textContent = "Selvom du spiser hele tiden, er mængden af aminosyrer pr. snack for lille til at overstige den vitale 'Leucin-tærskel'. Den molekylære knap (mTOR) tændes derfor aldrig ordentligt.";
+      }
+
+      if (train === 1) {
+        txtTraining.textContent = "Styrketræningen løfter din generelle baseline og gør musklerne hyper-modtagelige for aminosyrer. Det anabolske vindue er ikke 45 minutter, men en sensibilisering, der varer i op til 24 timer!";
+      } else {
+        txtTraining.textContent = "Uden den mekaniske spænding fra vægttræning mangler musklerne det afgørende signal. Protein alene kan kun skubbe syntesen et lille stykke op.";
+      }
+
+      let scoreText = "";
+      if (auc > 4000) scoreText = "Maksimalt hypertrofi-potentiale. ";
+      else if (auc > 2500) scoreText = "Moderat anabolsk respons. ";
+      else scoreText = "Sub-optimalt for muskelopbygning. ";
+
+      if (sleep === 1) {
+        scoreText += "Det langsomt optagelige kaseinprotein inden sengetid redder dig fra den naturlige natlige faste (katabolisme) og lader musklerne genopbygges i de afgørende timer under den dybe søvn.";
+      } else {
+        scoreText += "I de 8 timer du sover, faster kroppen. Netto-balancen bliver negativ, og muskelnedbrydningen overstiger muskelopbygningen hele natten.";
+      }
+      txtResult.textContent = scoreText;
+    }
+
+    updateMPSModel();
+  })();
+</script>

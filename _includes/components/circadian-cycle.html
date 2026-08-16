@@ -1,0 +1,572 @@
+<div class="circadian-calc-wrapper">
+  <style>
+    .circadian-calc-wrapper {
+      background: var(--background-color, #ffffff);
+      border: 1px solid var(--border-color, #e2e8f0);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 2em 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    
+    /* RÆKKE 1: TOPKORT GRID (STIMULI) */
+    .summary-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-bottom: 14px;
+      position: relative;
+      z-index: 10;
+    }
+
+    /* RÆKKE 2: BUNDKORT GRID (SKEMA) */
+    .schedule-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 5;
+    }
+
+    .summary-card {
+      background: #f8fafc;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 14px 16px;
+      position: relative;
+      transition: border-color 0.25s ease, background-color 0.25s ease, transform 0.25s ease;
+      user-select: none;
+      z-index: 1;
+    }
+    .summary-card.clickable {
+      cursor: pointer;
+    }
+    .summary-card.clickable:hover {
+      border-color: #0284c7;
+      background: #f0f9ff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.08);
+    }
+    .summary-card.open {
+      z-index: 100 !important;
+      border-color: #0284c7;
+      background: #ffffff;
+      box-shadow: 0 6px 16px rgba(2, 132, 199, 0.12);
+    }
+
+    .summary-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.78em;
+      font-weight: 700;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    .gear-icon {
+      font-size: 1.1em;
+      opacity: 0.6;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .summary-card:hover .gear-icon,
+    .summary-card.open .gear-icon {
+      opacity: 1;
+      transform: rotate(45deg);
+      color: #0284c7;
+    }
+
+    .active-val-title {
+      font-size: 0.98em;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 4px;
+    }
+    .active-val-desc {
+      font-size: 0.80em;
+      color: #475569;
+      line-height: 1.35;
+    }
+
+    /* INPUTS OG STATS I SKEMA-KORT */
+    .card-time-input {
+      width: 100%;
+      padding: 6px 8px;
+      font-size: 1.1em;
+      font-weight: 700;
+      color: #0284c7;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      margin-top: 4px;
+      box-sizing: border-box;
+    }
+    .card-stat-big {
+      font-size: 1.25em;
+      font-weight: 800;
+      color: #0284c7;
+      line-height: 1.2;
+    }
+
+    /* POPUP DROPDOWN MENU */
+    .option-picker-dropdown {
+      display: none;
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      border: 1.5px solid #0284c7;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      z-index: 101;
+      overflow: hidden;
+    }
+    .summary-card.open .option-picker-dropdown {
+      display: block;
+    }
+    .picker-option {
+      padding: 10px 12px;
+      border-bottom: 1px solid #f1f5f9;
+      transition: background 0.15s ease;
+    }
+    .picker-option:last-child {
+      border-bottom: none;
+    }
+    .picker-option:hover {
+      background: #f0f9ff;
+    }
+    .picker-option.selected {
+      background: #e0f2fe;
+      font-weight: 600;
+    }
+    .picker-opt-title {
+      font-size: 0.85em;
+      color: #0f172a;
+      display: block;
+    }
+    .picker-opt-desc {
+      font-size: 0.75em;
+      color: #64748b;
+      display: block;
+    }
+
+    /* GRAF OG LEGEND */
+    .chart-box {
+      position: relative;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 16px 12px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+      z-index: 1;
+    }
+    .chart-box svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .chart-legend {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-size: 0.85em;
+      font-weight: 500;
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid #f1f5f9;
+      color: #475569;
+      flex-wrap: wrap;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .legend-line {
+      width: 22px;
+      height: 3px;
+      border-radius: 2px;
+    }
+    .legend-line.dashed {
+      background: repeating-linear-gradient(90deg, #94a3b8, #94a3b8 3px, transparent 3px, transparent 6px);
+      height: 2px;
+    }
+
+    /* FORKLARINGS-KORT UNDER GRAF */
+    .metrics-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .metric-card {
+      background: #f8fafc;
+      padding: 16px 18px;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+      border-left: 5px solid #0284c7;
+      line-height: 1.5;
+    }
+    .metric-card h5 {
+      margin: 0 0 6px 0;
+      font-size: 1.02em;
+      color: #0f172a;
+    }
+    .metric-card p {
+      margin: 0;
+      font-size: 0.90em;
+      color: #334155;
+    }
+  </style>
+
+  <!-- RÆKKE 1: INTERAKTIVE MULIGHEDSKORT (STIMULI) -->
+  <div class="summary-cards-grid">
+    <!-- KORT 1: BLÅT LYS TIMING -->
+    <div class="summary-card clickable" id="cardBlueLight">
+      <div class="summary-card-header">
+        <span>📱 Blåt Lys (Timing)</span>
+        <span class="gear-icon">⚙️</span>
+      </div>
+      <div class="active-val-title" id="titleBlueLight">Skærmfri 2 t. før sengetid</div>
+      <div class="active-val-desc" id="descBlueLight">Mørklægning eller filterbriller sidst på aftenen.</div>
+
+      <div class="option-picker-dropdown">
+        <div class="picker-option selected" data-value="0">
+          <span class="picker-opt-title">Skærmfri 2 t. før sengetid</span>
+          <span class="picker-opt-desc">Optimal udskillelse af melatonin.</span>
+        </div>
+        <div class="picker-option" data-value="1">
+          <span class="picker-opt-title">Skærm indtil 30-60 min. før</span>
+          <span class="picker-opt-desc">Udskyder og forstyrrer 1. søvnsignal.</span>
+        </div>
+        <div class="picker-option" data-value="2">
+          <span class="picker-opt-title">Skærm helt indtil sengetid</span>
+          <span class="picker-opt-desc">Hæmmer melatonintoppen og skaber uro.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- KORT 2: TRÆNINGSTIDSPUNKT -->
+    <div class="summary-card clickable" id="cardWorkout">
+      <div class="summary-card-header">
+        <span>🏋️‍♂️ Træningstidspunkt</span>
+        <span class="gear-icon">⚙️</span>
+      </div>
+      <div class="active-val-title" id="titleWorkout">Dagstræning</div>
+      <div class="active-val-desc" id="descWorkout">Intensiv træning om morgenen/eftermiddagen.</div>
+
+      <div class="option-picker-dropdown">
+        <div class="picker-option selected" data-value="0">
+          <span class="picker-opt-title">Dagstræning</span>
+          <span class="picker-opt-desc">Intensiv træning om morgenen/eftermiddagen.</span>
+        </div>
+        <div class="picker-option" data-value="1">
+          <span class="picker-opt-title">Aftentræning (2-3 t. før)</span>
+          <span class="picker-opt-desc">Kroppen når at køle af før sengetid.</span>
+        </div>
+        <div class="picker-option" data-value="2">
+          <span class="picker-opt-title">Sen træning (< 1,5 t. før)</span>
+          <span class="picker-opt-desc">Forhøjet puls, temperatur og aften-cortisol.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RÆKKE 2: 3 ELEGANTE SKEMA-KORT (SENGETID, OPVÅGNING & CYKLUSSER) -->
+  <div class="schedule-cards-grid">
+    <!-- KORT 3: SENGETID -->
+    <div class="summary-card">
+      <div class="summary-card-header">
+        <span>🌙 Din Sengetid</span>
+      </div>
+      <input type="time" id="inputBedtime" class="card-time-input" value="23:00">
+      <div class="active-val-desc" style="margin-top:4px;">1. Søvnsignal kl. 21:00</div>
+    </div>
+
+    <!-- KORT 4: OPVÅGNING -->
+    <div class="summary-card">
+      <div class="summary-card-header">
+        <span>☀️ Din Opvågning</span>
+      </div>
+      <input type="time" id="inputWakeTime" class="card-time-input" value="07:00">
+      <div class="active-val-desc" style="margin-top:4px;">Naturlig cortisol-stigning</div>
+    </div>
+
+    <!-- KORT 5: CYKLUSSER STATS -->
+    <div class="summary-card" style="background:#f0f9ff; border-color:#bae6fd;">
+      <div class="summary-card-header" style="color:#0284c7;">
+        <span>🔋 Søvncyklusser</span>
+      </div>
+      <div class="card-stat-big" id="statCycles">5,3 cyklusser</div>
+      <div class="active-val-desc" id="statDuration" style="color:#0369a1; font-weight:600;">8,0 timer samlet søvn</div>
+    </div>
+  </div>
+
+  <!-- GRAF & RESULTATER -->
+  <div class="chart-box">
+    <svg viewBox="0 0 600 310" width="100%" height="auto" id="circadianSvg">
+      <!-- DAG / NAT BAGGRUND -->
+      <rect x="0" y="30" width="175" height="220" fill="#f1f5f9"/>
+      <rect x="175" y="30" width="350" height="220" fill="#ffffff"/>
+      <rect x="525" y="30" width="75" height="220" fill="#f1f5f9"/>
+
+      <text x="87" y="20" font-size="11" font-weight="700" fill="#64748b" text-anchor="middle">🌙 NAT</text>
+      <text x="350" y="20" font-size="11" font-weight="700" fill="#0284c7" text-anchor="middle">☀️ DAGSAKTIVITET</text>
+      <text x="562" y="20" font-size="11" font-weight="700" fill="#64748b" text-anchor="middle">🌙 NAT</text>
+
+      <line x1="0" y1="250" x2="600" y2="250" stroke="#cbd5e1" stroke-width="1.5"/>
+
+      <!-- BASELINES (SØMLØS 24T KONTINUITET FRA 00:00 TIL 24:00) -->
+      <path d="M 0,100 C 30,60 75,50 175,240 L 525,240 C 550,200 575,130 600,100" 
+            fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,4"/>
+      <path d="M 0,240 C 40,242 110,220 175,48 C 220,85 300,160 420,195 C 490,225 550,240 600,240" 
+            fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4,4"/>
+
+      <!-- REELT SØVNVINDUE -->
+      <rect id="sleepWindowRect" x="575" y="30" width="25" height="220" fill="#8b5cf6" opacity="0.15"/>
+      <rect id="sleepWindowMorningRect" x="0" y="30" width="175" height="220" fill="#8b5cf6" opacity="0.15"/>
+
+      <!-- DYNAMISKE KURVER -->
+      <path id="cortisolPath" d="" fill="none" stroke="#e11d48" stroke-width="3.5" stroke-linecap="round"/>
+      <path id="melatoninPath" d="" fill="none" stroke="#0284c7" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- X-AKSE TIDSPUNKTER OG RENE LABELS UDEN OVERLAP -->
+      <text x="5" y="268" font-size="9" fill="#64748b">00:00</text>
+      
+      <text x="175" y="268" font-size="9" font-weight="700" fill="#334155" text-anchor="middle" id="lblWake">
+        <tspan x="175" dy="0">07:00</tspan>
+        <tspan x="175" dy="11">Opvågning</tspan>
+      </text>
+
+      <text x="300" y="268" font-size="9" fill="#64748b" text-anchor="middle">12:00</text>
+      <text x="420" y="268" font-size="9" fill="#64748b" text-anchor="middle">18:00</text>
+      
+      <!-- 1. SØVNSIGNAL -->
+      <text x="525" y="268" font-size="9" font-weight="700" fill="#0284c7" text-anchor="middle">
+        <tspan x="525" dy="0">21:00</tspan>
+        <tspan x="525" dy="11">1. Søvnsignal</tspan>
+      </text>
+
+      <!-- SENGETID (DYNAMISK POSITIONSOPDATERET FRA JS) -->
+      <text x="575" y="268" font-size="9" font-weight="700" fill="#8b5cf6" text-anchor="middle" id="lblBed">
+        <tspan x="575" dy="0" id="lblBedTime">23:00</tspan>
+        <tspan x="575" dy="11">Sengetid</tspan>
+      </text>
+    </svg>
+
+    <div class="chart-legend">
+      <div class="legend-item"><div class="legend-line" style="background:#0284c7;"></div><span>Melatonin (Søvnhormon)</span></div>
+      <div class="legend-item"><div class="legend-line" style="background:#e11d48;"></div><span>Cortisol (Stress/Vågenhed)</span></div>
+      <div class="legend-item"><div class="legend-line dashed"></div><span>Ideelt hormonforløb</span></div>
+      <div class="legend-item"><div class="legend-line" style="background:#8b5cf6; opacity:0.3;"></div><span>Reelt Søvnvindue</span></div>
+    </div>
+  </div>
+
+  <div class="metrics-stack">
+    <div class="metric-card" style="border-left-color: #0284c7;">
+      <h5>💤 Melatonin & Søvnsignal (Søvnvindue)</h5>
+      <p id="txtMelatonin">-</p>
+    </div>
+    <div class="metric-card" style="border-left-color: #e11d48;">
+      <h5>🔥 Cortisol & Nervesystem (Second Wind)</h5>
+      <p id="txtCortisol">-</p>
+    </div>
+    <div class="metric-card" style="border-left-color: #8b5cf6;">
+      <h5>🔋 Restitution & Søvncyklusser</h5>
+      <p id="txtRecovery">-</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    let state = {
+      blueLight: 0,
+      lateWorkout: 0,
+      bedtime: "23:00",
+      waketime: "07:00"
+    };
+
+    const inputBedtime = document.getElementById('inputBedtime');
+    const inputWakeTime = document.getElementById('inputWakeTime');
+    const statCycles = document.getElementById('statCycles');
+    const statDuration = document.getElementById('statDuration');
+
+    const melatoninPath = document.getElementById('melatoninPath');
+    const cortisolPath = document.getElementById('cortisolPath');
+    const sleepWindowRect = document.getElementById('sleepWindowRect');
+    const sleepWindowMorningRect = document.getElementById('sleepWindowMorningRect');
+    
+    const lblWake = document.getElementById('lblWake');
+    const lblBed = document.getElementById('lblBed');
+    const lblBedTime = document.getElementById('lblBedTime');
+
+    const txtMelatonin = document.getElementById('txtMelatonin');
+    const txtCortisol = document.getElementById('txtCortisol');
+    const txtRecovery = document.getElementById('txtRecovery');
+
+    // KLIK PÅ KORT
+    document.querySelectorAll('.summary-card.clickable').forEach(card => {
+      card.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const isOpen = this.classList.contains('open');
+        document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('open'));
+        if (!isOpen) this.classList.add('open');
+      });
+    });
+
+    document.addEventListener('click', function() {
+      document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('open'));
+    });
+
+    setupCardOptions('cardBlueLight', 'titleBlueLight', 'descBlueLight', 'blueLight');
+    setupCardOptions('cardWorkout', 'titleWorkout', 'descWorkout', 'lateWorkout');
+
+    function setupCardOptions(cardId, titleId, descId, stateKey) {
+      const card = document.getElementById(cardId);
+      card.querySelectorAll('.picker-option').forEach(opt => {
+        opt.addEventListener('click', function(e) {
+          e.stopPropagation();
+          state[stateKey] = parseInt(this.getAttribute('data-value'));
+
+          card.querySelectorAll('.picker-option').forEach(o => o.classList.remove('selected'));
+          this.classList.add('selected');
+
+          document.getElementById(titleId).textContent = this.querySelector('.picker-opt-title').textContent;
+          document.getElementById(descId).textContent = this.querySelector('.picker-opt-desc').textContent;
+
+          card.classList.remove('open');
+          updateCircadianModel();
+        });
+      });
+    }
+
+    inputBedtime.addEventListener('change', function() {
+      state.bedtime = this.value;
+      updateCircadianModel();
+    });
+
+    inputWakeTime.addEventListener('change', function() {
+      state.waketime = this.value;
+      updateCircadianModel();
+    });
+
+    function timeToHours(tStr) {
+      const parts = tStr.split(':');
+      return parseInt(parts[0]) + (parseInt(parts[1]) / 60);
+    }
+
+    function timeToSvgX(hours) {
+      return (hours / 24) * 600;
+    }
+
+    function updateCircadianModel() {
+      const blue = state.blueLight;
+      const workout = state.lateWorkout;
+      
+      const bedH = timeToHours(state.bedtime);
+      const wakeH = timeToHours(state.waketime);
+
+      // Beregn samlet søvnlængde
+      let durationHours = wakeH - bedH;
+      if (durationHours <= 0) durationHours += 24;
+
+      const cycles = (durationHours / 1.5).toFixed(1);
+      statCycles.textContent = `${cycles.replace('.', ',')} cyklusser`;
+      statDuration.textContent = `${durationHours.toFixed(1).replace('.', ',')} timer samlet søvn`;
+
+      // Kun forsinket hvis sengetid udskydes markant (efter kl. 23:30 eller over midnat)
+      let isBedtimeDelayed = (bedH > 23.5 || (bedH >= 0 && bedH < 4));
+
+      // 1. MELATONIN PRECIS KURVE-MAPPING
+      let mDrop = (blue * 35) + (workout * 15);
+      let mPeakY = 100 + (blue * 35) + (workout * 15);
+
+      let mPath;
+      if (blue === 0 && workout === 0 && !isBedtimeDelayed) {
+        mPath = "M 0,100 C 30,60 75,50 175,240 L 525,240 C 550,200 575,130 600,100";
+      } else {
+        let startX = 525 + (blue * 20) + (isBedtimeDelayed ? 30 : 0);
+        mPath = `M 0,${100 + mDrop/2} C 30,${60 + mDrop} 75,50 175,240 L ${Math.min(560, startX)},240 C ${startX + 15},220 ${startX + 35},${mPeakY + 20} 600,${mPeakY}`;
+      }
+      melatoninPath.setAttribute('d', mPath);
+
+      // 2. CORTISOL PRECIS KURVE-MAPPING (GLAT OM AFTENEN VED NORMAL SENGETID)
+      let cEveningSpike = (workout * 50) + (blue * 20) + (isBedtimeDelayed ? 35 : 0);
+      let cMorningBlunt = (workout * 15) + (blue * 10);
+      let cSpikeY = Math.max(80, 225 - cEveningSpike);
+
+      let wakeX = timeToSvgX(wakeH);
+      let cPath;
+      if (workout === 0 && blue === 0 && !isBedtimeDelayed) {
+        cPath = `M 0,240 C 40,242 110,220 ${wakeX},48 C 220,85 300,160 420,195 C 490,225 550,240 600,240`;
+      } else {
+        cPath = `M 0,240 C 40,242 110,220 ${wakeX},${48 + cMorningBlunt} C 220,85 300,160 420,195 C 510,${cSpikeY} 560,235 600,240`;
+      }
+      cortisolPath.setAttribute('d', cPath);
+
+      // 3. SØVN-VINDU RECT OG LABELS
+      let bedX = timeToSvgX(bedH);
+      
+      lblWake.querySelector('tspan:first-child').textContent = state.waketime;
+      lblWake.setAttribute('x', wakeX);
+      lblWake.querySelectorAll('tspan').forEach(ts => ts.setAttribute('x', wakeX));
+
+      lblBedTime.textContent = state.bedtime;
+      lblBed.setAttribute('x', bedX);
+      lblBed.querySelectorAll('tspan').forEach(ts => ts.setAttribute('x', bedX));
+
+      if (bedX >= 525) {
+        sleepWindowRect.setAttribute('x', bedX);
+        sleepWindowRect.setAttribute('width', 600 - bedX);
+        sleepWindowMorningRect.setAttribute('x', 0);
+        sleepWindowMorningRect.setAttribute('width', wakeX);
+      } else {
+        sleepWindowRect.setAttribute('x', 600);
+        sleepWindowRect.setAttribute('width', 0);
+        sleepWindowMorningRect.setAttribute('x', bedX);
+        sleepWindowMorningRect.setAttribute('width', Math.max(0, wakeX - bedX));
+      }
+
+      // 4. DANKS TEKSTFORKLARINGER
+      if (blue === 0 && workout === 0 && durationHours >= 7.5 && !isBedtimeDelayed) {
+        txtMelatonin.textContent = "Optimalt Søvnsignal. Hjernens masterklokke (SCN) udskiller melatonin fra kl. 21:00. Du udnytter det 1. biologiske søvnvindue, og tiden til at falde i søvn er minimal.";
+        txtCortisol.textContent = "Perfekt døgnrytme. Cortisol når sitt lavpunkt om aftenen, så nervesystemet kan geare ned. Næste morgen udløses den naturlige cortisol-stigning (CAR), så du vågner frisk.";
+        txtRecovery.textContent = `Fremragende restitution. Dine ${durationHours.toFixed(1).replace('.', ',')} timer giver ${cycles.replace('.', ',')} fulde søvncyklusser (à 90 min). Du opnår maksimal udskillelse af væksthormon i den tidlige dybe søvn.`;
+      } else {
+        let mTxt = "";
+        if (blue > 0) {
+          mTxt += `Blåt lys dæmper pinealkirtlens melatoninproduktion og udskyder det naturlige søvnsignal. `;
+        }
+        if (isBedtimeDelayed) {
+          mTxt += "Du har udskudt din sengetid forbi det 1. biologiske søvnvindue (kl. 21:00–22:30). Når du misser det første søvnsignal, går der typisk ~90 minutter (én hel søvncyklus), før det næste stærke søvnvindue rammer.";
+        }
+        txtMelatonin.textContent = mTxt || "Søvnsignalet er intakt.";
+
+        let cTxt = "";
+        if (isBedtimeDelayed) {
+          cTxt += "Når du overhører det 1. søvnsignal, udskiller binyrebarken et mildt cortisol- og adrenalinstød ('second wind') for at holde dig vågen. ";
+        }
+        if (workout > 0) {
+          cTxt += `Intensiv træning tæt på sengetid aktiverer det sympatiske nervesystem og holder aften-cortisolen og kropstemperaturen oppe. `;
+        }
+        txtCortisol.textContent = cTxt || "Nervesystemet gearer langsomt ned.";
+
+        let recTxt = `Du opnår ${cycles.replace('.', ',')} søvncyklusser (${durationHours.toFixed(1).replace('.', ',')} t). `;
+        if (durationHours < 7) {
+          recTxt += "En for kort søvnlængde stjæler de vigtigste REM-søvnfaser sidst på natten, hvilket svækker den mentale restitution og giver morgen-grogginess.";
+        } else if (isBedtimeDelayed) {
+          recTxt += "Selvom du sover nok timer, forskyder den sene sengetid den naturlige dybe søvn tidligt på natten, hvor væksthormon ellers udskilles mest effektivt.";
+        } else {
+          recTxt += "Sørg for ro i timerne før sengetid for at bevare kvaliteten af din dybe søvn.";
+        }
+        txtRecovery.textContent = recTxt;
+      }
+    }
+
+    updateCircadianModel();
+  })();
+</script>

@@ -35,7 +35,7 @@ Er du aktiv motionist eller atlet, og vil du optimere din mad i forhold til din 
 <div class="notice--success" markdown="1">
 ### 📊🔥 Energi, Kalorier & Stofskifte
 Lær at beregne din krops energiforbrug og forstå kalorierne i din mad.
-* **[Ligevægtsindtag beregner](/ligevaegtsindtag-beregner/)** – Udregn dit samlede daglige kalorieforbrug (TDEE).
+* **[Ligevægtsindtagberegner](/ligevaegtsindtag-beregner/)** – Udregn dit samlede daglige kalorieforbrug (TDEE).
 * **[BMR & Hvilestofskifte](/bmr-beregner/)** – Beregn dit basalstofskifte ud fra køn, alder, højde og vægt.
 * **[BMR-formler](/hvilestofskiftet-formler/)** & **[Alt om stofskiftet](/stofskifte/)** – Lær hvordan stofskiftet fungerer.
 * **[Physical Activity Level (PAL)](/beregner/pal/)** & **[MET-beregner](/met-beregner/)** – Beregn dit fysiske aktivitetsniveau.
