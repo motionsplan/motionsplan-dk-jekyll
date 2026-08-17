@@ -1,0 +1,402 @@
+<div class="bra-calc-widget" id="bra-calc-app">
+
+  <div class="bra-header">
+    <span class="bra-title">👙 Sports-BH Størrelse & Impact-Beregner</span>
+    <p class="bra-subtitle">Resultatet opdateres automatisk, når du tilpasser dine mål og din træningsform.</p>
+  </div>
+
+  <!-- TRIN 1: INTEGREREDE HVIDE MÅLEKORT -->
+  <div class="bra-section-title">1. Indtast kropsmål (cm)</div>
+  <div class="bra-measure-grid">
+    
+    <!-- Underbust Kort -->
+    <div class="measure-card">
+      <div class="card-img-wrap">
+        <img src="/assets/images/tools/underbust.jpg" alt="Mål under brystet" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="img-fallback" style="display:none;">📏</div>
+      </div>
+      <div class="card-title">Under brystet</div>
+      <div class="card-sub">(Underbust)</div>
+      <div class="input-wrap">
+        <input type="number" id="bra-underbust" class="bra-num-input" value="75" min="50" max="120" step="1">
+        <span class="input-unit">cm</span>
+      </div>
+    </div>
+
+    <!-- Bust Kort -->
+    <div class="measure-card">
+      <div class="card-img-wrap">
+        <img src="/assets/images/tools/bust.jpg" alt="Mål over brystet" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="img-fallback" style="display:none;">📐</div>
+      </div>
+      <div class="card-title">Over brystet</div>
+      <div class="card-sub">(Bust)</div>
+      <div class="input-wrap">
+        <input type="number" id="bra-bust" class="bra-num-input" value="90" min="50" max="140" step="1">
+        <span class="input-unit">cm</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TRIN 2: KOMPAKTE TRÆNINGSKORT MED FLEXBOX EMOJIS -->
+  <div class="bra-section-title">2. Vælg primær træningsform</div>
+  <div class="bra-activity-grid">
+    
+    <div class="activity-card active" data-activity="low">
+      <div class="act-text-wrap">
+        <div class="act-name">Low Impact</div>
+        <div class="act-desc">Yoga, gang, tung styrketræning uden hop.</div>
+      </div>
+      <div class="act-icon">🧘</div>
+    </div>
+
+    <div class="activity-card" data-activity="medium">
+      <div class="act-text-wrap">
+        <div class="act-name">Medium Impact</div>
+        <div class="act-desc">Cirkeltræning, romaskine, cykling, agility.</div>
+      </div>
+      <div class="act-icon">🏋️</div>
+    </div>
+
+    <div class="activity-card" data-activity="high">
+      <div class="act-text-wrap">
+        <div class="act-name">High Impact</div>
+        <div class="act-desc">Løb, sprint (10-30m), fodbold, håndbold.</div>
+      </div>
+      <div class="act-icon">🏃</div>
+    </div>
+
+    <div class="activity-card" data-activity="extreme">
+      <div class="act-text-wrap">
+        <div class="act-name">Extreme Impact</div>
+        <div class="act-desc">Vertikale hop, Drop Jumps, plyometri, ridning.</div>
+      </div>
+      <div class="act-icon">🔥</div>
+    </div>
+
+  </div>
+
+  <!-- REALTIME RESULTAT -->
+  <div class="bra-result-box" id="bra-result-box">
+    <div class="res-grid">
+      <div class="res-card">
+        <span class="res-card-label">Estimeret Størrelse</span>
+        <span class="res-card-val" id="res-bra-size">75C</span>
+      </div>
+      <div class="res-card highlight-res">
+        <span class="res-card-label">Anbefalet Mærkning</span>
+        <span class="res-card-val" id="res-impact-level">Low Impact</span>
+      </div>
+    </div>
+
+    <div class="res-details">
+      <h5 class="res-detail-title">💡 Anbefalet Konstruktion & Features:</h5>
+      <ul class="res-bullet-list" id="res-feature-list"></ul>
+    </div>
+
+    <div class="res-biomech-note" id="res-biomech-note"></div>
+  </div>
+
+</div>
+
+<style>
+.bra-calc-widget {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 640px;
+  margin: 2rem auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+}
+.bra-calc-widget * { box-sizing: border-box; }
+
+.bra-header {
+  background: #fdf2f8;
+  border: 1px solid #fbcfe8;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+.bra-title { font-size: 1.05rem; font-weight: 800; color: #831843; display: block; }
+.bra-subtitle { font-size: 0.78rem; color: #9d174d; margin: 4px 0 0 0; line-height: 1.35; }
+
+.bra-section-title {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #1e293b;
+  margin: 16px 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* 1. MÅLEKORT GRID (HVID INTEGRERET BAGGRUND MED BILLEDE-OVERLAP) */
+.bra-measure-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+@media (max-width: 480px) {
+  .bra-measure-grid { grid-template-columns: 1fr; }
+}
+
+.measure-card {
+  background: #ffffff; /* REN HVID BAGGRUND */
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.card-img-wrap {
+  width: 100%;
+  height: 140px; /* HØJERE BILLED-CONTAINER */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent; /* INTEGRERET UDEN RENDER-KASSE */
+  border: none;
+  margin-bottom: -8px; /* TEKSTEN GÅR LIDT IND OVER BILLEDET */
+  overflow: visible;
+}
+
+.card-img-wrap img {
+  max-height: 135px; /* MARKANT STØRRE BILLEDE */
+  max-width: 100%;
+  object-fit: contain;
+}
+.img-fallback { font-size: 2.5rem; }
+
+.card-title {
+  font-size: 0.90rem;
+  font-weight: 800;
+  color: #0f172a;
+  position: relative;
+  z-index: 2; /* LIGGER OVEN PÅ BILLEDETS BUND */
+}
+.card-sub {
+  font-size: 0.72rem;
+  color: #64748b;
+  margin-bottom: 8px;
+  position: relative;
+  z-index: 2;
+}
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 4px 8px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.input-wrap:focus-within { border-color: #db2777; }
+.bra-num-input {
+  width: 60px;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #0f172a;
+  text-align: center;
+  background: transparent;
+}
+.input-unit { font-size: 0.80rem; font-weight: 700; color: #64748b; }
+
+/* 2. TRÆNINGSKORT MED FLEXBOX (INGEN TEKST-OVERLAP OG FULDT HØJDE-IKON) */
+.bra-activity-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+@media (max-width: 520px) {
+  .bra-activity-grid { grid-template-columns: 1fr; }
+}
+
+.activity-card {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px; /* GARANTERER AFSTAND TIL EMOJI */
+  min-height: 76px;
+}
+.activity-card:hover { border-color: #f472b6; background: #fdf2f8; }
+.activity-card.active {
+  border-color: #db2777;
+  background: #fdf2f8;
+  box-shadow: 0 4px 12px rgba(219, 39, 119, 0.12);
+}
+
+.act-text-wrap {
+  flex: 1;
+  min-width: 0; /* FORHINDRER TEKSTEN I AT SKUBBE EMOJIEN UD */
+}
+
+.act-name { font-size: 0.88rem; font-weight: 800; color: #0f172a; line-height: 1.2; }
+.activity-card.active .act-name { color: #9d174d; }
+.act-desc { font-size: 0.70rem; color: #64748b; margin-top: 3px; line-height: 1.25; }
+
+.act-icon {
+  font-size: 2.3rem; /* MEGET STØRRE EMOJI */
+  line-height: 1;
+  flex-shrink: 0; /* SIKRER AT EMOJI BEVARER SIN STØRRELSE */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* RESULTATER */
+.bra-result-box {
+  border-top: 2px dashed #e2e8f0;
+  padding-top: 18px;
+}
+.res-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+@media (max-width: 480px) { .res-grid { grid-template-columns: 1fr; } }
+
+.res-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 10px; text-align: center; }
+.res-card.highlight-res { background: #fdf2f8; border-color: #fbcfe8; }
+
+.res-card-label { font-size: 0.65rem; font-weight: 800; color: #64748b; text-transform: uppercase; display: block; margin-bottom: 2px; }
+.res-card-val { font-size: 1.3rem; font-weight: 900; color: #0f172a; }
+
+.res-details { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px; margin-bottom: 10px; }
+.res-detail-title { margin: 0 0 6px 0; font-size: 0.80rem; font-weight: 800; color: #1e293b; }
+.res-bullet-list { margin: 0; padding-left: 18px; font-size: 0.76rem; color: #334155; line-height: 1.4; }
+
+.res-biomech-note { background: #fffbebfb; border: 1px solid #fef3c7; border-radius: 8px; padding: 10px; font-size: 0.74rem; color: #92400e; line-height: 1.38; }
+</style>
+
+<script>
+(function() {
+  let selectedActivity = 'low';
+
+  function calculateBra() {
+    const underbust = parseFloat(document.getElementById('bra-underbust').value) || 0;
+    const bust = parseFloat(document.getElementById('bra-bust').value) || 0;
+
+    if (underbust < 40 || bust < 40 || bust <= underbust) {
+      document.getElementById('res-bra-size').textContent = '--';
+      document.getElementById('res-impact-level').textContent = '--';
+      return;
+    }
+
+    const bandSize = Math.round(underbust / 5) * 5;
+
+    const diff = bust - underbust;
+    let cup = 'A';
+    if (diff >= 12 && diff < 14) cup = 'A';
+    else if (diff >= 14 && diff < 16) cup = 'B';
+    else if (diff >= 16 && diff < 18) cup = 'C';
+    else if (diff >= 18 && diff < 20) cup = 'D';
+    else if (diff >= 20 && diff < 22) cup = 'E (DD)';
+    else if (diff >= 22 && diff < 24) cup = 'F';
+    else if (diff >= 24 && diff < 26) cup = 'G';
+    else if (diff >= 26) cup = 'H+';
+    else cup = 'AA';
+
+    const fullSize = `${bandSize}${cup.split(' ')[0]}`;
+
+    let impactText = '';
+    let features = [];
+    let biomechText = '';
+
+    const isLargeCup = ['D', 'E (DD)', 'F', 'G', 'H+'].includes(cup);
+
+    if (selectedActivity === 'low') {
+      impactText = isLargeCup ? 'Medium Impact' : 'Low Impact';
+      features = [
+        '<strong>Konstruktion:</strong> Kompressionstype (blød, sømløs pasform).',
+        '<strong>Stropper:</strong> Smalle til medium stropper.',
+        '<strong>Lukning:</strong> Kan være uden hægter (pull-over).'
+      ];
+      biomechText = '💡 Ved low-impact aktiviteter er den vertikale acceleration lav. Mindre skåle kan nøjes med kompressions-strik, men større skåle (D+) bør vælge medium støtte for at undgå nakkespændinger.';
+    } else if (selectedActivity === 'medium') {
+      impactText = isLargeCup ? 'High Impact' : 'Medium Impact';
+      features = [
+        '<strong>Konstruktion:</strong> Kombination af kompression og faste sømme.',
+        '<strong>Stropper:</strong> Medium bredde for jævn vægtfordeling.',
+        '<strong>Bånd:</strong> Bredt, elastisk underbånd for stabilitet.'
+      ];
+      biomechText = '💡 Medium-impact aktiviteter medfører moderate rystelser. Et bredt underbånd er afgørende, da op mod 80% af støtten bør komme fra båndet – ikke fra skuldrene.';
+    } else if (selectedActivity === 'high') {
+      impactText = 'High Impact';
+      features = [
+        '<strong>Konstruktion:</strong> Indkapsling (Encapsulation), hvor hvert bryst støttes i sin egen skål.',
+        '<strong>Stropper:</strong> Buede, polstrede stropper (gerne bryderryg / racerback).',
+        '<strong>Lukning:</strong> Justerbare hægter for præcis tilpasning.'
+      ];
+      biomechText = '⚡ <strong>Performance-effekt:</strong> Ved løb og sprint reducerer en High Impact BH brystbevægelsen med op til 60-70%. Dette forhindrer kompenserende overkropshældning og forbedrer din løbeøkonomi.';
+    } else {
+      impactText = 'Extreme Impact';
+      features = [
+        '<strong>Konstruktion:</strong> Hybrid (Indkapsling + Kompression overtræk).',
+        '<strong>Stropper:</strong> Ekstra brede, polstrede stropper med krydsryg eller racerback.',
+        '<strong>Materiale:</strong> Uelastisk tekstil i skålene for at eliminere vertikalt stræk.'
+      ];
+      biomechText = '🔥 <strong>Ekstrem belastning:</strong> Ved vertikale hop (CMJ, Drop Jumps) og plyometri udsættes brystvævet for enorme g-kræfter. Extreme Impact støtte eliminerer vævsstræk og beskytter Coopers ligamenter.';
+    }
+
+    document.getElementById('res-bra-size').textContent = fullSize;
+    document.getElementById('res-impact-level').textContent = impactText;
+
+    const listEl = document.getElementById('res-feature-list');
+    listEl.innerHTML = '';
+    features.forEach(f => {
+      const li = document.createElement('li');
+      li.innerHTML = f;
+      listEl.appendChild(li);
+    });
+
+    document.getElementById('res-biomech-note').innerHTML = biomechText;
+  }
+
+  function initApp() {
+    document.getElementById('bra-underbust').addEventListener('input', calculateBra);
+    document.getElementById('bra-bust').addEventListener('input', calculateBra);
+
+    const cards = document.querySelectorAll('.bra-activity-grid .activity-card');
+    cards.forEach(card => {
+      card.addEventListener('click', function() {
+        cards.forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+        selectedActivity = this.dataset.activity;
+        calculateBra();
+      });
+    });
+
+    calculateBra();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initApp);
+  } else {
+    initApp();
+  }
+})();
+</script>

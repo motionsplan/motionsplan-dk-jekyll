@@ -135,7 +135,7 @@ Når folk går på for stramme slankekure, falder deres NEAT ofte automatisk, fo
 Ved blot at sætte dit daglige energiforbrug op ved at bevæge dig mere i hverdagen, vil du have en kæmpe fordel for, om din slankekur over tid bliver effektiv.
 
 * 📖 [Forbrænding ved gå-gang: Se hvor meget det reelt giver](/forbraending-ved-gaa-gang/)
-* 🚶 [Omregn dine daglige skridt til kalorier](/skridt-til-kalorier/)
+* 🚶 [Omregn dine daglige skridt til kalorier](/forbraending-ved-gaa-gang/)
 
 ---
 
@@ -143,7 +143,7 @@ Ved blot at sætte dit daglige energiforbrug op ved at bevæge dig mere i hverda
 
 Hvis din slankekur skal holde hele livet, bør du fokusere på følgende:
 
-1. **Kend dit udgangspunkt:** Beregn dit [ligevægtsindtag](/ligevaegtsindtag-beregner/) og din [BMR (basalforbrænding)](/beregn-bmr/), så du kender dit reelle kaloriebehov.
+1. **Kend dit udgangspunkt:** Beregn dit [ligevægtsindtag](/ligevaegtsindtag-beregner/) og din [BMR (basalforbrænding)](/bmr-beregner/), så du kender dit reelle kaloriebehov.
 2. **Sigt efter et moderat underskud:** Træk 300–500 kcal fra dit ligevægtsindtag for et stabilt fedttab på ca. 0,5 kg om ugen.
 3. **Fokusér på mæthed:** Spis rigeligt med protein og fibre, og brug gerne tænkningen fra Sense til at sammensætte dine måltider uden afsavn.
 4. **Hold hverdagsforbrændingen høj:** Husk at du [forbrænder en del kalorier bare ved at gå](/forbraending-ved-gaa-gang/) og holde dig aktiv gennem dagen.

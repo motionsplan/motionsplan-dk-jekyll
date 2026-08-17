@@ -136,6 +136,11 @@ Menstruationsbaseret træningsplanlægning bør ikke opfattes som et stift regel
 2. Planlæg dine tungeste [1RM-løft](/rm-beregner/) og hårdeste [intervaller](/hiit/) i den sen-follikulære fase, hvor du har fysiologisk medvind.
 3. Brug [RPE og RIR-styring](/rpe/) i lutealfasen til at tilpasse vægtstangen efter din dagsform uden at føle nederlag over fysiologisk betingede pulsstigninger.
 
+> **Støtte & Brystømhed i den Luteale Fase**:  
+> Brystømhed op til menstruation kan hæmme din træningslyst. Sørg for at tilpasse din bryststøtte til fasens øgede volumen.  
+> 👉 [Test dit støttebehov i vores Sports-BH Beregner](/sports-bh-beregner/)
+{: .notice--info }
+
 ---
 
 ## Ofte stillede spørgsmål
@@ -151,4 +156,5 @@ Menstruationsbaseret træningsplanlægning bør ikke opfattes som et stift regel
 - **McNulty, K. L., et al. (2020).** "The Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic Women: A Systematic Review and Meta-Analysis." *Sports Medicine*, 50(10), 1813–1827. <https://doi.org/10.1007/s40279-020-01319-3>
 - **Oosthuyse, T., & Bosch, A. N. (2010).** "The Effect of the Menstrual Cycle on Exercise Metabolism: Implications for Exercise Performance in Eumenorrheic Women." *Sports Medicine*, 40(3), 207–227. <https://doi.org/10.2165/11317090-000000000-00000>
 - **Wikström-Frisén, L., et al. (2017).** "Effects on Power, Strength and Lean Body Mass of Menstrual Cycle-Adapted Resistance Training." *The Journal of Sports Medicine and Physical Fitness*, 57(1-2), 43–52. <https://doi.org/10.23736/S0022-4707.16.06203-8>
+- Brown, N., White, J., Brasher, A., & Scurr, J. (2014). "The experience of breast pain (mastalgia) in female runners of the 2012 London Marathon and its relationship to sports bra use and menstrual cycle phase." Journal of Sports Sciences, 32(9), 801-809.
 </details>

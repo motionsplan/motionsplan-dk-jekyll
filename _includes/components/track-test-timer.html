@@ -13,12 +13,12 @@
       <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
         <strong>SÅDAN BRUGES SYSTEMET:</strong><br>
         1. Vælg forudindstilling eller indstil <strong>Type</strong> (Distance/Tid) og <strong>Målværdi</strong>.<br>
-        2. Indstil antal løbere og omgangsdistance.<br>
+        2. Klik på <strong>👥 Løbere</strong> for at vælge præcis de løbernumre (1-20), I har på banen.<br>
         3. Tryk <strong>🚀 START</strong>. Skærmen holdes automatisk tændt.<br>
         4. Tryk på <strong>BLÅ LAP</strong> for hver omgang.<br>
         5. Ved tidstest (fx 12 min) trykkes på den store <strong>🛑 STOP</strong> knap, hvorefter alle kort viser deres resultat.<br>
-        6. Klik direkte på distancen på et kort for at redigere den præcise metersum. Når du trykker **Gem**, lægges resultatet automatisk i loggen.<br>
-        7. Skift køn (♂/♀) ved at trykke på tegnet for at beregne den korrekte karakter på 2400m.<br>
+        6. Klik direkte på distancen på et kort for at redigere den præcise metersum.<br>
+        7. Skift køn (♂/♀) i øverste højre hjørne for at beregne den korrekte karakter på 2400m.<br>
         8. Brug <strong>📊 Eksporter CSV</strong> knappen i bunden til at hente alle data direkte ned i Excel.
       </p>
     </div>
@@ -28,16 +28,14 @@
   <div class="track-topbar">
     <div class="track-header-card">
       <div class="card-title-row">
-        <!-- TITEL OG INFO-KNAP LIGE BAGVED -->
         <div class="title-with-info">
           <span class="card-title">Banetest Tidtager (Multi-Løber)</span>
           <button class="info-icon-btn" type="button" title="Læs om modulet">ℹ️</button>
         </div>
         
-        <!-- FULD SKÆRM KNAP I ØVERSTE HØJRE HJØRNE -->
         <button class="fullscreen-btn" id="btn-fullscreen" type="button" title="Åbn/Luk fuldskærm">⛶ Fuldskærm</button>
       </div>
-      <div class="card-desc">Tag tid på op til 20 løbere med automatisk karakterskala og manuel override.</div>
+      <div class="card-desc">Tag tid på op til 20 individuelle løbernumre med automatisk karakterskala.</div>
     </div>
 
     <!-- Presets & Konfiguration -->
@@ -65,9 +63,23 @@
         <span class="setting-unit" id="target-unit-label">m</span>
       </div>
 
-      <div class="setting-item">
-        <label for="runner-count-select" class="setting-label">Løbere:</label>
-        <select id="runner-count-select" class="setting-select"></select>
+      <!-- INTERAKTIV LØBER-VÆLGER (1-20) -->
+      <div class="setting-item runner-picker-wrapper">
+        <label class="setting-label">Løbere:</label>
+        <button type="button" class="runner-picker-trigger" id="runner-picker-trigger">👥 4 Aktive ▼</button>
+        
+        <div class="runner-picker-popover" id="runner-picker-popover" style="display: none;">
+          <div class="picker-header">
+            <span>Vælg løbernumre på banen:</span>
+            <div class="picker-quick-btns">
+              <button type="button" class="quick-pick-btn" data-pick="1-4">1-4</button>
+              <button type="button" class="quick-pick-btn" data-pick="1-8">1-8</button>
+              <button type="button" class="quick-pick-btn" data-pick="all">Alle</button>
+              <button type="button" class="quick-pick-btn" data-pick="clear">Ryd</button>
+            </div>
+          </div>
+          <div class="runner-chips-grid" id="runner-chips-grid"></div>
+        </div>
       </div>
 
       <div class="setting-item">
@@ -114,7 +126,6 @@
     </div>
   </div>
 
-  <!-- SECTION HVOR MODALEN DÆKKER KORT & LOG NEDAD -->
   <div class="lower-section-relative">
     
     <!-- Løber Detaljer Modal -->
@@ -134,7 +145,7 @@
       </div>
     </div>
 
-    <!-- LØBER KORT GRID (4 PÅ EN RÆKKE) -->
+    <!-- LØBER KORT GRID -->
     <div class="runners-grid" id="runners-grid"></div>
 
     <!-- Gemte Resultater Log -->
@@ -175,7 +186,7 @@
     </div>
   </div>
 
-  <!-- HANDLINGSKNAPPER I BUNDEN: BILLEDE & CSV EKSPORT -->
+  <!-- HANDLINGSKNAPPER I BUNDEN -->
   <div class="track-action-buttons-bottom">
     <button class="btn btn--screenshot btn-take-screenshot" id="btn-take-screenshot" type="button">📸 Tag et billede</button>
     <button class="btn btn--csv btn-export-csv" id="btn-export-csv" type="button">📊 Eksporter CSV (Excel)</button>
@@ -187,15 +198,22 @@
 .track-test-widget { background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 12px; max-width: 880px; width: 100%; margin: 1.2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif; box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden; }
 .track-test-widget * { box-sizing: border-box; }
 
-/* FULD SKÆRM STYLING */
+/* FULD SKÆRM & IPAD PSEUDO-FULLSCREEN FALLBACK */
 .track-test-widget:fullscreen,
-.track-test-widget:-webkit-full-screen {
+.track-test-widget:-webkit-full-screen,
+.track-test-widget.is-pseudo-fullscreen {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
   width: 100vw !important;
   max-width: 100vw !important;
   height: 100vh !important;
+  z-index: 999999 !important;
   border-radius: 0 !important;
   margin: 0 !important;
-  padding: 16px !important;
+  padding: 12px !important;
   overflow-y: auto !important;
   background: #ffffff !important;
 }
@@ -203,25 +221,13 @@
 .track-topbar { display: flex; flex-direction: column; gap: 6px; margin-bottom: 6px; text-align: left; }
 .track-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 6px 12px; }
 
-/* HEADER ROW OG FLYTTET INFO-KNAP + NY FULD SKÆRM KNAP */
 .card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
 .title-with-info { display: flex; align-items: center; gap: 4px; }
 .card-title { font-weight: 800; font-size: 0.92rem; color: #1e293b; }
 .info-icon-btn { background: transparent; border: none; font-size: 1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
 
 .fullscreen-btn {
-  background: #ffffff;
-  border: 1px solid #a5d8ff;
-  color: #1c7ed6;
-  font-size: 0.76rem;
-  font-weight: 800;
-  padding: 3px 8px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
+  background: #ffffff; border: 1px solid #a5d8ff; color: #1c7ed6; font-size: 0.76rem; font-weight: 800; padding: 3px 8px; border-radius: 6px; cursor: pointer; transition: all 0.2s ease; display: inline-flex; align-items: center; gap: 4px;
 }
 .fullscreen-btn:hover { background: #228be6; color: #ffffff; }
 .fullscreen-btn.is-active { background: #fa5252; color: #ffffff; border-color: #e03131; }
@@ -244,10 +250,6 @@
 .detail-split-table { width: 100% !important; max-width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.82rem; table-layout: fixed; margin-top: 4px; }
 .detail-split-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
 .detail-split-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; }
-.detail-split-table th:nth-child(1), .detail-split-table td:nth-child(1) { width: 28%; }
-.detail-split-table th:nth-child(2), .detail-split-table td:nth-child(2) { width: 22%; }
-.detail-split-table th:nth-child(3), .detail-split-table td:nth-child(3) { width: 24%; }
-.detail-split-table th:nth-child(4), .detail-split-table td:nth-child(4) { width: 26%; font-weight: 800; }
 
 /* Topbar Controls */
 .topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 8px; margin-top: 2px; flex-wrap: wrap; }
@@ -261,6 +263,27 @@
 
 .setting-input-field.wide-input { width: 80px !important; min-width: 80px !important; padding: 3px 4px; border: 1px solid #ced4da; border-radius: 6px; font-size: 0.82rem; font-weight: 800; text-align: center; background: #ffffff; }
 .setting-unit { font-size: 0.72rem; font-weight: 700; color: #868e96; }
+
+/* MULTI LØBER PICKER POPOVER STYLING */
+.runner-picker-wrapper { position: relative; }
+.runner-picker-trigger {
+  padding: 3px 8px; border: 1px solid #ced4da; border-radius: 6px; font-size: 0.82rem; font-weight: 800; background: #ffffff; color: #1c7ed6; cursor: pointer; transition: all 0.15s ease;
+}
+.runner-picker-trigger:hover { background: #e7f5ff; border-color: #74c0fc; }
+
+.runner-picker-popover {
+  position: absolute; top: 100%; left: 0; z-index: 100; margin-top: 4px; background: #ffffff; border: 2px solid #228be6; border-radius: 10px; padding: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.18); min-width: 270px; text-align: left;
+}
+.picker-header { display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px; font-size: 0.75rem; font-weight: 800; color: #343a40; border-bottom: 1px solid #e9ecef; padding-bottom: 6px; }
+.picker-quick-btns { display: flex; gap: 4px; }
+.quick-pick-btn { background: #f1f3f5; border: 1px solid #ced4da; padding: 2px 6px; font-size: 0.70rem; font-weight: 800; border-radius: 4px; cursor: pointer; }
+.quick-pick-btn:hover { background: #e9ecef; }
+
+.runner-chips-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; }
+.runner-chip {
+  padding: 5px 2px; font-size: 0.78rem; font-weight: 900; border-radius: 6px; border: 1.5px solid #ced4da; background: #f8f9fa; color: #495057; cursor: pointer; text-align: center; user-select: none; transition: all 0.15s ease;
+}
+.runner-chip.selected { background: #228be6; color: #ffffff; border-color: #1c7ed6; box-shadow: 0 2px 4px rgba(34, 139, 230, 0.3); }
 
 .btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
 .toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.72rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
@@ -293,11 +316,11 @@
 
 .btn--secondary { background: #868e96; color: white; border: none; padding: 8px 10px; border-radius: 8px; font-weight: 800; font-size: 0.82rem; cursor: pointer; }
 
-/* INTEGRERET INLINE SORTERING I TOPBOKSEN */
+/* INTEGRERET INLINE SORTERING */
 .inline-sort-container { display: flex; align-items: center; gap: 4px; }
 .sort-label { font-size: 0.68rem; font-weight: 800; color: #495057; }
 
-/* RUNNER GRID: LÅST TIL PRÆCIS 4 KORT PR. RÆKKE */
+/* RUNNER GRID */
 .runners-grid, .runners-grid-history {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -306,15 +329,11 @@
 }
 
 @media (max-width: 720px) {
-  .runners-grid, .runners-grid-history {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .runners-grid, .runners-grid-history { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 440px) {
-  .runners-grid, .runners-grid-history {
-    grid-template-columns: 1fr;
-  }
+  .runners-grid, .runners-grid-history { grid-template-columns: 1fr; }
 }
 
 .runner-card { background: #ffffff; border: 2.5px solid #ced4da; border-radius: 12px; padding: 6px 6px 0 6px; text-align: left; position: relative; transition: border-color 0.2s ease, background-color 0.2s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; flex-shrink: 0; }
@@ -331,34 +350,36 @@
 .lap-color-7 { border-color: #ff922b; background: #fff4e6; }
 .lap-color-goal { border-color: #1e2529 !important; background: #f1f3f5 !important; border-style: dashed !important; }
 
-.runner-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 3px; gap: 4px; }
+.runner-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 3px; gap: 4px; padding-right: 22px; }
 
 /* NUMMERBOKS (#1) */
 .runner-number-badge {
-  background: #212529; color: #ffffff; font-weight: 900; font-size: 1.1rem;
-  min-width: 36px; height: 28px; padding: 2px 8px; display: inline-flex; align-items: center; justify-content: center;
+  background: #212529; color: #ffffff; font-weight: 900; font-size: 1.05rem;
+  min-width: 34px; height: 26px; padding: 2px 6px; display: inline-flex; align-items: center; justify-content: center;
   border-radius: 6px; line-height: 1; flex-shrink: 0; box-shadow: 0 2px 4px rgba(0,0,0,0.12);
 }
 
-/* KØNSKNAP: INGEN RAMME, TRANSPARENT BAGGRUND, MEGET FEDT SYMBOL (♂ / ♀) */
+/* KØNSKNAP RYKKET HELT OP I HØJRE HJØRNE */
 .gender-toggle-btn {
+  position: absolute !important;
+  top: 4px !important;
+  right: 6px !important;
   background: transparent !important;
   color: #000000 !important;
   border: none !important;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 900;
-  padding: 0 4px;
+  padding: 2px;
   cursor: pointer;
   transition: transform 0.1s ease;
-  flex-shrink: 0;
+  z-index: 5;
   line-height: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   -webkit-text-stroke: 0.6px #000000;
 }
-.gender-toggle-btn:hover { transform: scale(1.15); }
-.gender-toggle-btn:active { transform: scale(0.95); }
+.gender-toggle-btn:hover { transform: scale(1.2); }
 
 .runner-alias-input { border: none; background: transparent; font-weight: 800; font-size: 0.82rem; color: #212529; width: 100%; border-bottom: 1px dashed #ced4da; outline: none; padding: 1px; text-overflow: ellipsis; }
 .runner-alias-input:focus { border-bottom: 2px solid #228be6; background: #ffffff; }
@@ -368,70 +389,44 @@
 .runner-stats-body:hover { background: rgba(0,0,0,0.04); }
 .stat-single-row { display: flex; justify-content: space-between; align-items: center; width: 100%; font-size: 0.74rem; color: #343a40; white-space: nowrap; }
 
-/* FAST HØJDE PÅ KNAP-OMRÅDE (52px) */
+/* KNAP OMRÅDE */
 .runner-card-actions { display: flex; margin: 4px -6px 0 -6px; width: calc(100% + 12px); flex-shrink: 0; height: 52px !important; max-height: 52px !important; overflow: hidden; }
 
 .btn-lap, .btn-finish, .btn-finished-done, .btn-undo-finish {
   height: 52px !important; max-height: 52px !important; border: none; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.15; font-weight: 900; box-sizing: border-box; overflow: hidden; padding-top: 6px; padding-bottom: 6px;
 }
 
-/* BLÅ LAP KNAP */
 .btn-lap { flex: 1; background: #228be6; color: white; border-bottom-left-radius: 10px; font-size: 0.85rem; }
-.btn-lap:active { background: #1c7ed6; }
+.btn-lap.btn-full-width { width: 100% !important; flex: 1 1 100% !important; border-bottom-left-radius: 10px !important; border-bottom-right-radius: 10px !important; font-size: 0.90rem !important; }
 
-/* LAP KNAP I FULD BREDDE TIL TIDSTEST */
-.btn-lap.btn-full-width {
-  width: 100% !important; flex: 1 1 100% !important; border-bottom-left-radius: 10px !important; border-bottom-right-radius: 10px !important; border-left: none !important; font-size: 0.90rem !important;
-}
-
-/* RØD STOP KNAP */
 .btn-finish { flex: 1; background: #fa5252; color: white; border-bottom-right-radius: 10px; border-left: 1px solid rgba(255,255,255,0.25); font-size: 0.85rem; }
-.btn-finish:active { background: #e03131; }
+.btn-finish.btn-full-width { width: 100% !important; flex: 1 1 100% !important; border-bottom-left-radius: 10px !important; border-bottom-right-radius: 10px !important; font-size: 0.88rem !important; }
 
-/* FULD BREDDE VED SIDSTE OMGANG */
-.btn-finish.btn-full-width {
-  width: 100% !important; flex: 1 1 100% !important; border-bottom-left-radius: 10px !important; border-bottom-right-radius: 10px !important; border-left: none !important; font-size: 0.88rem !important;
-}
-
-/* GRØN I MÅL KNAP */
 .btn-finished-done {
-  width: 100% !important; flex: 1 1 100% !important; background: #2b8a3e !important; color: #ffffff !important; border-bottom-left-radius: 10px !important; border-bottom-right-radius: 10px !important; font-size: 0.92rem !important; cursor: pointer; transition: background 0.15s ease;
+  width: 100% !important; flex: 1 1 100% !important; background: #2b8a3e !important; color: #ffffff !important; border-bottom-left-radius: 10px !important; border-bottom-right-radius: 10px !important; font-size: 0.92rem !important; cursor: pointer;
 }
-.btn-finished-done:hover { background: #237032 !important; }
 
-/* PRÆCIS 52PX INLINE EDIT CONTAINER TIL DISTANCE */
 .inline-dist-edit-container {
   display: flex; align-items: center; gap: 6px; width: 100%; height: 52px !important; max-height: 52px !important;
   padding: 6px; background: #e7f5ff; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
-  box-sizing: border-box; overflow: hidden;
 }
 
 .inline-dist-input {
-  flex: 1; height: 40px !important; border: 2px solid #228be6; border-radius: 8px;
-  font-size: 1rem; font-weight: 900; text-align: center; color: #1c7ed6; outline: none;
-  background: #ffffff; padding: 0 4px; box-sizing: border-box;
+  flex: 1; height: 40px !important; border: 2px solid #228be6; border-radius: 8px; font-size: 1rem; font-weight: 900; text-align: center; color: #1c7ed6; outline: none; background: #ffffff; padding: 0 4px;
 }
 
 .btn-save-dist-inline {
-  height: 40px !important; padding: 0 14px; background: #12b886; color: white; border: none;
-  border-radius: 8px; font-size: 0.88rem; font-weight: 800; cursor: pointer; white-space: nowrap;
-  box-shadow: 0 2px 6px rgba(18, 184, 134, 0.25);
-}
-.btn-save-dist-inline:active { transform: scale(0.96); }
-
-/* KARAKTER BADGE UDEN PARENTESER [ ] */
-.grade-badge-inline {
-  background: rgba(255,255,255,0.22); border: 1px solid rgba(255,255,255,0.5); padding: 2px 6px; border-radius: 5px; font-weight: 900; margin-left: 6px; font-size: 0.85rem; display: inline-block;
+  height: 40px !important; padding: 0 14px; background: #12b886; color: white; border: none; border-radius: 8px; font-size: 0.88rem; font-weight: 800; cursor: pointer; white-space: nowrap;
 }
 
+.grade-badge-inline { background: rgba(255,255,255,0.22); border: 1px solid rgba(255,255,255,0.5); padding: 2px 6px; border-radius: 5px; font-weight: 900; margin-left: 6px; font-size: 0.85rem; display: inline-block; }
 .btn-subtext { font-size: 0.64rem; font-weight: 700; opacity: 0.95; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
 
 .btn-undo-finish { width: 100%; font-size: 0.82rem; background: #fa5252; color: white; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; animation: pulse-undo-card 0.8s infinite alternate; }
-@keyframes pulse-undo-card { 0% { transform: scale(0.99); background: #fa5252; } 100% { transform: scale(1.01); background: #e03131; } }
 
 .btn-finish:disabled, .btn-lap:disabled { opacity: 0.35; cursor: not-allowed; }
 
-/* Log Tabel 100% Bredde Fix */
+/* Log Tabel */
 .track-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100% !important; display: block; box-sizing: border-box; }
 .log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
 .log-title { font-size: 0.88rem; font-weight: 800; margin: 0; color: #343a40; }
@@ -440,30 +435,24 @@
 .track-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.80rem; table-layout: fixed; margin: 0; }
 .track-log-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
 .track-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
-.track-log-table th:nth-child(1), .track-log-table td:nth-child(1) { width: 30%; }
-.track-log-table th:nth-child(2), .track-log-table td:nth-child(2) { width: 22%; }
-.track-log-table th:nth-child(3), .track-log-table td:nth-child(3) { width: 22%; }
-.track-log-table th:nth-child(4), .track-log-table td:nth-child(4) { width: 26%; font-weight: 900; }
 
 .log-view-link { color: #228be6; font-weight: 800; cursor: pointer; text-decoration: underline; }
 
-/* HANDLINGS BOKS BUND TIL BILLEDE OG CSV */
 .track-action-buttons-bottom { display: flex; gap: 8px; margin-top: 14px; width: 100%; }
 .btn--screenshot { flex: 1; padding: 10px; font-size: 0.88rem; font-weight: 800; border-radius: 10px; border: none; background: #228be6; color: #ffffff; cursor: pointer; box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); }
-.btn--csv { flex: 1; padding: 10px; font-size: 0.88rem; font-weight: 800; border-radius: 10px; border: none; background: #12b886; color: #ffffff; cursor: pointer; box-shadow: 0 4px 12px rgba(18, 184, 134, 0.25); transition: background 0.15s ease; }
+.btn--csv { flex: 1; padding: 10px; font-size: 0.88rem; font-weight: 800; border-radius: 10px; border: none; background: #12b886; color: #ffffff; cursor: pointer; box-shadow: 0 4px 12px rgba(18, 184, 134, 0.25); }
 .btn--csv:hover { background: #0ca678; }
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const STORAGE_KEY_ACTIVE = "track_active_test_state_v12";
-  const STORAGE_KEY_HISTORY = "track_test_logs_v12";
+  const STORAGE_KEY_ACTIVE = "track_active_test_state_v13";
+  const STORAGE_KEY_HISTORY = "track_test_logs_v13";
 
-  // State
   let testMode = 'distance';
   let testTargetValue = 2400;
-  let runnerCount = 4;
   let lapDistance = 400;
+  let activeRunnerIds = [1, 2, 3, 4]; // Default aktive løbernumre
 
   let isRunning = false;
   let startTimestamp = null;
@@ -489,8 +478,11 @@ document.addEventListener("DOMContentLoaded", function() {
   const testModeSelect = widget.querySelector("#test-mode-select");
   const testTargetInput = widget.querySelector("#test-target-input");
   const targetUnitLabel = widget.querySelector("#target-unit-label");
-  const runnerCountSelect = widget.querySelector("#runner-count-select");
   const lapDistInput = widget.querySelector("#lap-dist-input");
+
+  const runnerPickerTrigger = widget.querySelector("#runner-picker-trigger");
+  const runnerPickerPopover = widget.querySelector("#runner-picker-popover");
+  const runnerChipsGrid = widget.querySelector("#runner-chips-grid");
 
   const mainDisplay = widget.querySelector("#main-display");
   const testBadge = widget.querySelector("#test-type-badge");
@@ -517,32 +509,101 @@ document.addEventListener("DOMContentLoaded", function() {
   const historyViewSub = widget.querySelector("#history-view-sub");
   const historyRunnersGrid = widget.querySelector("#history-runners-grid");
 
-  for (let i = 1; i <= 20; i++) {
-    const opt = document.createElement("option");
-    opt.value = i; opt.textContent = `${i} ${i === 1 ? 'løber' : 'løbere'}`;
-    if (i === 4) opt.selected = true;
-    runnerCountSelect.appendChild(opt);
-  }
-
-  // FULD SKÆRM FUNKTIONALITET
-  function toggleFullscreen() {
-    if (!document.fullscreenElement && !document.webkitFullscreenElement) {
-      if (widget.requestFullscreen) {
-        widget.requestFullscreen();
-      } else if (widget.webkitRequestFullscreen) {
-        widget.webkitRequestFullscreen();
-      }
-    } else {
-      if (document.exitFullscreen) {
-        document.exitFullscreen();
-      } else if (document.webkitExitFullscreen) {
-        document.webkitExitFullscreen();
-      }
+  // OPBYG LØBER-PICKER (CHIPS 1-20)
+  function renderRunnerPickerChips() {
+    runnerChipsGrid.innerHTML = "";
+    for (let i = 1; i <= 20; i++) {
+      const chip = document.createElement("div");
+      const isSelected = activeRunnerIds.includes(i);
+      chip.className = `runner-chip ${isSelected ? 'selected' : ''}`;
+      chip.textContent = `#${i}`;
+      chip.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (isRunning || stopPendingSecs > 0) return;
+        if (activeRunnerIds.includes(i)) {
+          if (activeRunnerIds.length > 1) {
+            activeRunnerIds = activeRunnerIds.filter(x => x !== i);
+          }
+        } else {
+          activeRunnerIds.push(i);
+          activeRunnerIds.sort((a, b) => a - b);
+        }
+        updateRunnerPickerUI();
+        initRunners(true);
+      });
+      runnerChipsGrid.appendChild(chip);
     }
   }
 
+  function updateRunnerPickerUI() {
+    runnerPickerTrigger.textContent = `👥 ${activeRunnerIds.length} Aktive ▼`;
+    renderRunnerPickerChips();
+  }
+
+  // POPOVER TOGGLE
+  runnerPickerTrigger.addEventListener("click", (e) => {
+    e.stopPropagation();
+    if (isRunning || stopPendingSecs > 0) return;
+    const isVisible = runnerPickerPopover.style.display === "block";
+    runnerPickerPopover.style.display = isVisible ? "none" : "block";
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!runnerPickerPopover.contains(e.target) && e.target !== runnerPickerTrigger) {
+      runnerPickerPopover.style.display = "none";
+    }
+  });
+
+  // QUICK PICK BUTTONS
+  widget.querySelectorAll(".quick-pick-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      if (isRunning || stopPendingSecs > 0) return;
+      const pick = btn.dataset.pick;
+      if (pick === "1-4") activeRunnerIds = [1, 2, 3, 4];
+      else if (pick === "1-8") activeRunnerIds = [1, 2, 3, 4, 5, 6, 7, 8];
+      else if (pick === "all") activeRunnerIds = Array.from({length: 20}, (_, i) => i + 1);
+      else if (pick === "clear") activeRunnerIds = [1];
+      updateRunnerPickerUI();
+      initRunners(true);
+    });
+  });
+
+  // FULD SKÆRM M. IPAD FALLBACK
+  function toggleFullscreen() {
+    const isFS = widget.classList.contains("is-pseudo-fullscreen") || !!(document.fullscreenElement || document.webkitFullscreenElement);
+    if (!isFS) {
+      if (widget.requestFullscreen) {
+        widget.requestFullscreen().catch(() => enablePseudoFS());
+      } else if (widget.webkitRequestFullscreen) {
+        widget.webkitRequestFullscreen();
+      } else {
+        enablePseudoFS();
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen().catch(() => {});
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      }
+      disablePseudoFS();
+    }
+  }
+
+  function enablePseudoFS() {
+    widget.classList.add("is-pseudo-fullscreen");
+    document.body.style.overflow = "hidden";
+    updateFullscreenBtn();
+  }
+
+  function disablePseudoFS() {
+    widget.classList.remove("is-pseudo-fullscreen");
+    document.body.style.overflow = "";
+    updateFullscreenBtn();
+  }
+
   function updateFullscreenBtn() {
-    const isFS = !!(document.fullscreenElement || document.webkitFullscreenElement);
+    const isFS = widget.classList.contains("is-pseudo-fullscreen") || !!(document.fullscreenElement || document.webkitFullscreenElement);
     if (btnFullscreen) {
       btnFullscreen.innerHTML = isFS ? '✖ Luk fuldskærm' : '⛶ Fuldskærm';
       btnFullscreen.classList.toggle('is-active', isFS);
@@ -610,7 +671,6 @@ document.addEventListener("DOMContentLoaded", function() {
     return parseFloat(str);
   }
 
-  // 2400M KARAKTER BEREGNING
   function get2400mGrade(timeInSeconds, gender) {
     if (isNaN(timeInSeconds) || timeInSeconds <= 0) return null;
     if (gender === 'K') {
@@ -620,7 +680,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (timeInSeconds <= 760) return '4';
       if (timeInSeconds <= 810) return '02';
       return '00';
-    } else { // 'M'
+    } else {
       if (timeInSeconds <= 540) return '12';
       if (timeInSeconds <= 580) return '10';
       if (timeInSeconds <= 620) return '7';
@@ -645,7 +705,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function saveActiveState() {
     const state = {
-      testMode, testTargetValue, runnerCount, lapDistance, elapsedSecs, isRunning, startTimestamp,
+      testMode, testTargetValue, lapDistance, activeRunnerIds, elapsedSecs, isRunning, startTimestamp,
       runners: runners.map(r => ({ ...r, undoTimer: null }))
     };
     localStorage.setItem(STORAGE_KEY_ACTIVE, JSON.stringify(state));
@@ -657,13 +717,15 @@ document.addEventListener("DOMContentLoaded", function() {
     try {
       const state = JSON.parse(data);
       testMode = state.testMode; testTargetValue = state.testTargetValue;
-      runnerCount = state.runnerCount; lapDistance = state.lapDistance;
+      lapDistance = state.lapDistance;
+      activeRunnerIds = state.activeRunnerIds || [1, 2, 3, 4];
 
       testModeSelect.value = testMode;
       targetUnitLabel.textContent = testMode === 'distance' ? 'm' : 'min';
       testTargetInput.value = testMode === 'distance' ? testTargetValue : (testTargetValue / 60);
 
-      runnerCountSelect.value = runnerCount; lapDistInput.value = lapDistance;
+      lapDistInput.value = lapDistance;
+      updateRunnerPickerUI();
 
       runners = state.runners;
       updateTestBadge();
@@ -687,13 +749,20 @@ document.addEventListener("DOMContentLoaded", function() {
   function initRunners(force = false) {
     if (!force && loadActiveState()) return;
 
-    runnerCount = parseInt(runnerCountSelect.value);
     lapDistance = parseInt(lapDistInput.value) || 400;
+    
+    // Bevar eksisterende aliasser hvis muligt
+    const oldRunnersMap = new Map(runners.map(r => [r.id, r]));
     runners = [];
 
-    for (let i = 1; i <= runnerCount; i++) {
-      runners.push({ id: i, alias: `Løber #${i}`, gender: 'M', laps: [], finished: false, finishTime: null, finishDistance: null, isEditingDist: false, isSaved: false, undoTimer: null, undoSecondsLeft: 0 });
-    }
+    activeRunnerIds.forEach(id => {
+      const old = oldRunnersMap.get(id);
+      if (old && !force) {
+        runners.push(old);
+      } else {
+        runners.push({ id, alias: `Løber #${id}`, gender: 'M', laps: [], finished: false, finishTime: null, finishDistance: null, isEditingDist: false, isSaved: false, undoTimer: null, undoSecondsLeft: 0 });
+      }
+    });
 
     updateTestBadge();
     renderRunnerCards();
@@ -722,7 +791,7 @@ document.addEventListener("DOMContentLoaded", function() {
     return list;
   }
 
-  // OPRETTELSE AF KORT
+  // OPRETTELSE AF LØBERKORT
   function createCardHtml(r, mode, targetVal, currentLapDist, isActive) {
     const card = document.createElement("div");
     const totalLaps = r.laps.length;
@@ -817,8 +886,8 @@ document.addEventListener("DOMContentLoaded", function() {
       <div class="runner-card-header">
         <span class="runner-number-badge">#${r.id}</span>
         ${isActive ? `<input type="text" class="runner-alias-input" data-id="${r.id}" value="${r.alias}">` : `<span class="runner-alias-input" style="border:none;">${r.alias}</span>`}
-        ${(mode === 'distance' && targetVal === 2400 && isActive) ? `<button class="gender-toggle-btn" data-id="${r.id}" title="Skift køn M/K">${genderSymbol}</button>` : ''}
       </div>
+      ${(mode === 'distance' && targetVal === 2400 && isActive) ? `<button class="gender-toggle-btn" data-id="${r.id}" title="Skift køn M/K">${genderSymbol}</button>` : ''}
       <div class="runner-stats-body" data-id="${r.id}">
         <div class="stat-single-row">
           <span>🔁 <strong>${totalLaps}</strong> <small>(${totalDistance}m)</small></span>
@@ -1086,7 +1155,6 @@ document.addEventListener("DOMContentLoaded", function() {
     initRunners(true);
   });
 
-  runnerCountSelect.addEventListener("change", function() { if (!isRunning && stopPendingSecs === 0) initRunners(true); });
   lapDistInput.addEventListener("change", function() { if (!isRunning && stopPendingSecs === 0) initRunners(true); });
 
   // MELLEMTIDER MODAL
@@ -1200,7 +1268,7 @@ document.addEventListener("DOMContentLoaded", function() {
     historyRunnersGrid.querySelectorAll(".runner-stats-body").forEach(b => b.addEventListener("click", function() { openRunnerDetail(parseInt(this.dataset.id), historicalRunners); }));
   }
 
-  // CSV EKSPORT FUNKTION (MED UTF-8 BOM & SEMIKOLON)
+  // CSV EKSPORT
   function exportToCSV() {
     const logs = JSON.parse(localStorage.getItem(STORAGE_KEY_HISTORY) || "[]");
     if (logs.length === 0) {
@@ -1276,6 +1344,7 @@ document.addEventListener("DOMContentLoaded", function() {
   btnStartAll.addEventListener("click", handleGlobalStartStop);
 
   // INITIALISER
+  updateRunnerPickerUI();
   if (!loadActiveState()) initRunners();
   renderLocalStorageLog();
 });

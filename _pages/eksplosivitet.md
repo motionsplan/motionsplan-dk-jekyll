@@ -39,7 +39,7 @@ feature_row_subhubs:
     alt: Retningsskift og agilitetstests
     title: Retningsskift
     excerpt: Mål din agility og evne til at styre dit tyngdepunkt og re-accelerere i vores tyngdepunktstests.
-    url: /retningsskift-tests/
+    url: /retningsskift-test/
     btn_label: Se retningsskiftstests →
     btn_class: btn--danger
 categories:
@@ -49,6 +49,11 @@ tags:
   - eksplosivitet
   - test
   - dashboard
+dashboards:
+  - title: "Eksplosivitet Dashboard"
+    url: "/eksplosivitet/#eksplosivitet-dashboard"
+    icon: "⚡"
+    description: "Se din udvikling i CMJ, Drop Jumps og RSI."
 ---
 
 **Eksplosivitet** er kroppens evne til at udvikle så meget kraft som muligt på så kort tid som muligt. I idrætsfysiologien hænger dette tæt sammen med din **[Rate of Force Development (RFD)](/rate-of-force-development/)**, som beskriver stejlheden af din kraftudviklingskurve.

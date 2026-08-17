@@ -47,8 +47,6 @@ For at få din kalorieforbrænding ved gang skal du gange din kropsvægt med tid
 
 ## Hvor mange kalorier forbrænder jeg ved at gå?
 
-{% include calculator/calculate-walk-energy.html %}
-
 {% include calc/walking-energy.html %}
 
 ## Udregning af forbrænding af kalorier ved gang kræver MET

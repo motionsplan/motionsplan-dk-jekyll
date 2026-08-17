@@ -25,6 +25,11 @@ tools:
     measures: ["Estimeret fedtprocent", "Estimeret muskelmasse", "BMI", "Ponderal Index", "Talje-Højde Ratio (WHtR)", "A Body Shape Index (ABSI)", "Basalstofskifte (BMR)", "Estimeret kondital (VO2max)", "Blodvolumen", "Lungekapacitet (FVC)", "Kroppens overfladeareal (BSA)"]  # 🎯 KUN rene fysiologiske slutmål
     anchor: "#fysiologisk-kropsanalyse-dashboard"
     category_schema: "HealthAndFitnessApplication"
+dashboards:
+  - title: "Kropsanalyse Dashboard"
+    url: "/kropsanalyse/#dashboard"
+    icon: "⚡"
+    description: "Sammenlign fedtprocent målinger med forskellige typer målinger."
 ---
 
 De fleste vurderer deres krop ud fra kropsvægt alene. Badevægten fortæller dig dog intet om, hvordan vægten er fordelt på muskler, fedtmasse, væske og organer.
@@ -38,6 +43,7 @@ Vores online **kropsanalyse dashboard** samler en række fysiologiske og antropo
 ---
 
 ## 🧪 Fysiologisk Kropsanalyse Dashboard
+{: id="dashboard" }
 
 Start med at indtaste dine stamdata i Niveau 1. Åbn sektion 2 og 3 for at tilføje omkredse eller pulsdata – dashboardet opdaterer automatisk de relevante formler undervejs.
 

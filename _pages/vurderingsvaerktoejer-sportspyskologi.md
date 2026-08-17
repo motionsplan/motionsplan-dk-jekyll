@@ -27,6 +27,11 @@ tags:
   - konkurrenceangstt
   - mental styrke
 last_modified_at: '2026-08-11T22:45:00Z'
+dashboards:
+  - title: "Mentalt Dashboard"
+    url: "/sportspsykologiske-tests/#dashboard"
+    icon: "⚡"
+    description: "Sportspsykologiske tests"
 ---
 
 Fysisk form, udholdenhed og muskelstyrke udgør kun halvdelen af regnestykket, når du ønsker at trives og præstere i din idræt. Det mentale overskud, din fysiologiske energibalance og din evne til at håndtere modgang og pres er mindst lige så afgørende.
@@ -105,6 +110,8 @@ Flyt fokus fra at reparere problemer til at opbygge dine mentale ressourcer, din
 * **[BRS – Mental Resiliens](/resiliens/)** – Mål din evne til at "bounce back" og komme hurtigt igen oven på skader, fejl og modgang.
 </div>
 
+**Sportspsykologisk dashboard**
+{: id="dashboard" }
 {% include components/mental-dashboard.html %}
 
 <div class="notice--warning" markdown="1">

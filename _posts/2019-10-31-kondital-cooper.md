@@ -38,6 +38,8 @@ tests:
     setting: ["Individuel", "Gruppetest", "Udendørs", "Skolebrug", "Militær"]
     target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-cooper-test-beregner", "tool-cooper-test-timer"]
+    ls_key: "mp_cooper_state"
+    icon: "🏃"
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

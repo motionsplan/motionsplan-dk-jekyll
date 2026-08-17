@@ -32,13 +32,18 @@ faq:
     answer: "Praktiske målemetoder til hjemmebrug og fitnesscentre har typisk en usikkerhed og fejlmargen på omkring ±3–5 procentpoint. Målingernes primære værdi er derfor at vise den overordnede tendens i din fremgang frem for et 100% eksakt enkelttal."
 tools:
   - id: "tool-ultimativt-fedtprocent-dashboard"
-    title: "Ultimativt Fedtprocent Dashboard"
+    title: "Fedtprocent Dashboard"
     description: "Interaktivt fedtprocent-dashboard til samlet beregning og estimering af fedtprocent, fedtmasse (kg) og fedtfri masse (FFM) ud fra kropsmål, målebånd og antropometri."
     category: ["Fedtprocent", "Beregnere", "Tests"]
     type: ["Beregner", "Dashboard"]
     measures: ["Estimeret fedtprocent", "Fedtfri masse (FFM)", "Fedtmasse (kg)", "Kropssammensætning"]  # 🎯 KUN rene fysiologiske slutmål
     anchor: "#dashboard"
     category_schema: "HealthAndFitnessApplication"
+dashboards:
+  - title: "Fedtprocent Dashboard"
+    url: "/maal-fedtprocent/#dashboard"
+    icon: "⚡"
+    description: "Sammenlign fedtprocent målinger med forskellige typer målinger."
 ---
 
 Vil du gerne måle din fedtprocent? Der findes flere metoder til at måle fedtprocent, men ingen af dem er 100% præcise. Hver metode har sine fordele, ulemper og en vis grad af unøjagtighed.
@@ -54,7 +59,7 @@ I denne guide får du svar på:
 
 Lad os dykke ned i de forskellige metoder og finde den, der passer bedst til dig!
 
-### 🏃‍♀️ Hvad vil du gøre nu?
+**🏃‍♀️ Hvad vil du gøre nu?**
 * **Vil du bruge et målebånd derhjemme?** Brug [US Navy-beregneren eller McArdle & Katch-beregneren](/fedtprocent-navy/).
 * **Vil du beregne ud fra højde/vægt?** Prøv vores [simple fedtprocent-udregner](/artikel/udregning-af-fedtprocent/).
 * **Vil du beregne ud fra skinfold-målinger?** Tjek vores [guide til fedtprocent ud fra hudfoldsmålinger](/skinfold/).
@@ -173,6 +178,7 @@ Når nu det er så vanskeligt at bestemme den nøjagtige fedtprocent, så skal d
 Hvis du vil dykke lidt mere ned i emnet om fedtprocent og vægt, så tjek mit omfattende indlæg om [idealvægt](/idealvaegt/) og vores betragtninger om [BMI for mænd og kvinder](/bmi/).
 
 ## Dashboard
+{: id="dashboard" }
 
 {% include calc/fat-pct-master-dashboard.html title="⚡ Ultimativt Fedtprocent Dashboard" calc_id="fat-pct-master" %}
 

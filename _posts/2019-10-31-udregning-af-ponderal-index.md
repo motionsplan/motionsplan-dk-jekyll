@@ -2,6 +2,7 @@
 title: 'Ponderal Index (Rohrer’s Index): Beregn kropsbygning uafhængigt af højde'
 seo_title: 'Ponderal Index Beregner | Rohrer’s Index, Formel & Tabeller'
 excerpt: "Ponderal Index (også kaldet Corpulence Index eller Rohrer’s Index) er et stærkt alternativ til BMI. Se grænseværdier for børn og voksne, samt Petersons TMI."
+permalink: /ponderal-index/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1618939291225-8d558ea4369f.jpg

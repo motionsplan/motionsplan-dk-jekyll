@@ -29,6 +29,11 @@ tools:
     measures: ["Træningsafhængighedsrisiko", "Ortorektisk risiko", "Intuitiv bevægelse", "Mental balance i sport"]  # 🎯 KUN rene psykologiske/funktionelle slutmål
     anchor: "#tjek-din-balance-i-dit-eget-tempo"
     category_schema: "HealthAndFitnessApplication"
+dashboards:
+  - title: "Træningsbalance Dashboard"
+    url: "/traeningsafhaengighed-ortoreksi/#dashboard"
+    icon: "⚡"
+    description: "Test din træningsbalance i hverdagen og dit forhold til mad i dit eget tempo."
 ---
 
 Måske kender du følelsen: Træningen startede som et fantastisk frirum. Det føltes godt at bruge kroppen, spise sundt, mærke fremskridt og fylde hverdagen med overskud og god energi.
@@ -104,6 +109,7 @@ I idrætspsykologien kaldes dette for **Intuitiv Bevægelse (Intuitive Exercise)
 ---
 
 ## ⚖️ Tjek din balance i dit eget tempo
+{: id="dashboard" }
 
 Nedenfor har vi samlet 4 enkle refleksionsværktøjer. De er skabt til at hjælpe dig med at få dine tanker ud af hovedet og give dig et roligt, samlet billede af, om din hverdag er præget af tvang eller sund balance.
 

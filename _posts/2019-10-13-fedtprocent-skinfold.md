@@ -55,6 +55,11 @@ tags:
   - antropometri
 last_modified_at: 2026-07-19T08:14:14Z
 toc: true
+dashboards:
+  - title: "Fedtprocent Skinfold Dashboard"
+    url: "/skinfold/#dashboard"
+    icon: "⚡"
+    description: "Sammenlign fedtprocent målinger med forskellige typer målinger."
 ---
 
 Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en hudfoldsmåler. Her kan du lære mere om meste almindelige metoder til fedtmåling med en fedttang. Vi dykker ned i både fordele og ulemper ved hudfoldsmålinger.
@@ -180,6 +185,7 @@ Alle de følgende måder at lave hudfoldsmålinger på kræver en pålidelig fed
 ---
 
 ## Dashboard
+{: id="dashboard" }
 
 {% include calc/skinfold-dashboard.html title="🧰 Hudfoldstest Dashboard" calc_id="skinfold-dashboard" %}
 
