@@ -12,6 +12,8 @@ tags:
   - fysioterapi
   - seniorer
 # TESTS / PROTOKOLLER
+header:
+  teaser: https://smartmedia.digital4danone.com/is/image/danonecs/Sit2stand?ts=1727727509105&dpr=off
 tests:
   - id: "test-30-sekunders-chair-stand-test"
     title: "30-sekunders Chair Stand Test (30STS)"

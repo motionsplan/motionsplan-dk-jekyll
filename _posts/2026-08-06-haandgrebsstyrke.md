@@ -13,6 +13,8 @@ tags:
   - muskelfunktion
   - geriatri
   - fysioterapi
+header: 
+  teaser: https://images.unsplash.com/photo-1573484091931-9792faf1ec12?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 # TESTS / PROTOKOLLER
 tests:
   - id: "test-haandgrebsstyrke-test"
@@ -50,9 +52,9 @@ faq:
     answer: "Ifølge de europæiske konsensuskriterier (EWGSOP2) indikerer en håndgrebsstyrke under 27 kg for mænd og under 16 kg for kvinder nedsat muskelstyrke (sarkopeni)."
 ---
 
-> **Kort om testen:** **Håndgrebsstyrke-testen** (Handgrip Strength Test) måler den maksimale isometriske muskelkraft i underarmens og håndens bøjemuskler ved hjælp af et hånd-dynamometer. Testen er anerkendt som en af de mest pålidelige indikatorer for en persons samlede muskelfunktion og biologiske helbredsstatus.
-
 Inden for både idræt, genoptræning og klinisk epidemiologi har måling af håndgrebsstyrke opnået status som et "fysiologisk biomarkør". Forskning viser, at en lav håndgrebsstyrke ikke blot afspejler svage hænder, men hænger tæt sammen med øget faldrisiko, længere hospitalsindlæggelser og forhøjet risiko for funktionstab hos ældre.
+
+> **Kort om testen:** **Håndgrebsstyrke-testen** (Handgrip Strength Test) måler den maksimale isometriske muskelkraft i underarmens og håndens bøjemuskler ved hjælp af et hånd-dynamometer. Testen er anerkendt som en af de mest pålidelige indikatorer for en persons samlede muskelfunktion og biologiske helbredsstatus.
 
 ---
 
