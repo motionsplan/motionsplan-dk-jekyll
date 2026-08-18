@@ -1,0 +1,568 @@
+<div id="treadmill-calc-container">
+  <!-- Input Form Card -->
+  <div class="calc-card">
+    <div class="calc-header">
+      <div class="calc-icon">🏃‍♂️</div>
+      <div>
+        <h3 class="calc-title">Løbebåndsberegner</h3>
+        <p class="calc-subtitle">Omregn hældning, hastighed, udendørs belastning og energiforbrug</p>
+      </div>
+    </div>
+
+    <div class="calc-grid">
+      <!-- Vægt -->
+      <div class="input-group">
+        <label for="tb-weight">Kropsvægt</label>
+        <div class="input-wrapper">
+          <input type="number" id="tb-weight" value="70" min="30" max="200" step="0.5" placeholder="70">
+          <span class="unit-tag">kg</span>
+        </div>
+      </div>
+
+      <!-- Hældning -->
+      <div class="input-group">
+        <label for="tb-incline">Løbebåndets hældning</label>
+        <div class="input-wrapper">
+          <input type="number" id="tb-incline" value="0.0" min="0" max="25" step="0.5" placeholder="0.0">
+          <span class="unit-tag">%</span>
+        </div>
+      </div>
+
+      <!-- Hastighed (km/t) -->
+      <div class="input-group">
+        <label for="tb-speed">Hastighed på bånd</label>
+        <div class="input-wrapper">
+          <input type="number" id="tb-speed" value="12.0" min="1" max="30" step="0.1" placeholder="12.0">
+          <span class="unit-tag">km/t</span>
+        </div>
+      </div>
+
+      <!-- Pace (min/km) -->
+      <div class="input-group">
+        <label for="tb-pace">Pace (min/km)</label>
+        <div class="input-wrapper">
+          <input type="text" id="tb-pace" value="05:00" placeholder="05:00">
+          <span class="unit-tag">min/km</span>
+        </div>
+      </div>
+
+      <!-- Varighed -->
+      <div class="input-group">
+        <label for="tb-time">Varighed</label>
+        <div class="input-wrapper">
+          <input type="number" id="tb-time" value="30" min="1" max="600" step="1" placeholder="30">
+          <span class="unit-tag">min</span>
+        </div>
+      </div>
+
+      <!-- Distance -->
+      <div class="input-group">
+        <label for="tb-distance">Distance på bånd</label>
+        <div class="input-wrapper">
+          <input type="number" id="tb-distance" value="6.0" min="0.1" max="100" step="0.1" placeholder="6.0">
+          <span class="unit-tag">km</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Hero Result (Full Width) -->
+  <div class="result-card-hero">
+    <div class="hero-header">
+      <span class="card-badge green">Fysiologisk udendørs ækvivalent (0% flad vej)</span>
+      <h4 class="hero-title">Dette svarer dit løbebåndspas til i fri luft:</h4>
+    </div>
+
+    <div class="hero-metrics-row">
+      <div class="hero-metric-item">
+        <span class="hero-label">Udendørs Hastighed</span>
+        <div class="hero-big-val" id="res-equiv-speed">12.0 <span class="hero-unit">km/t</span></div>
+      </div>
+      <div class="hero-metric-item">
+        <span class="hero-label">Udendørs Pace</span>
+        <div class="hero-big-val highlight-text" id="res-equiv-pace">05:00 <span class="hero-unit">min/km</span></div>
+      </div>
+      <div class="hero-metric-item">
+        <span class="hero-label">Ækvivalent Distance</span>
+        <div class="hero-big-val" id="res-equiv-dist">6.00 <span class="hero-unit">km</span></div>
+      </div>
+    </div>
+
+    <p class="hero-footnote" id="res-equiv-note">Ved 0% og moderat tempo opnås 1:1 fysiologisk match jf. Van Hooren et al. (2020).</p>
+  </div>
+
+  <!-- Secondary Results 3-Column Subgrid -->
+  <div class="results-subgrid">
+    <!-- Kalorier & Fedtforbrænding -->
+    <div class="result-card">
+      <div class="card-badge">Energiforbrug</div>
+      <h4>Samlet forbrænding</h4>
+      <div class="big-metric" id="res-calories">368 <span class="metric-unit">kcal</span></div>
+      <div class="metric-sub" id="res-fat-g">~41 g fedtvæv (1.540 kJ)</div>
+      <p class="card-footnote" id="res-mets">Belastning: 11.8 METs (VO2: 41.3 ml/kg/min)</p>
+    </div>
+
+    <!-- Højdemeter & Etager -->
+    <div class="result-card">
+      <div class="card-badge amber">Stigning & Arbejde</div>
+      <h4>Højdemeter & Bygning</h4>
+      <div class="big-metric" id="res-vert-gain">0 <span class="metric-unit">m</span></div>
+      <div class="metric-sub" id="res-stories">Svarer til 0 etagers bygning</div>
+      <p class="card-footnote" id="res-extra-cal">~0 extra kcal i forhold til 0% hældning</p>
+    </div>
+
+    <!-- Energisammenligning -->
+    <div class="result-card">
+      <div class="card-badge blue">Strøm-ækvivalent</div>
+      <h4>Hvad svarer energien til?</h4>
+      <div class="big-metric" id="res-kwh">0.43 <span class="metric-unit">kWh</span></div>
+      <div class="metric-sub" id="res-heater">1000W El-radiator i 26 min.</div>
+      <p class="card-footnote" id="res-bulb">Eller en 100W pære tændt i 4,3 timer</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  #treadmill-calc-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 840px;
+    margin: 24px auto;
+    color: #1e293b;
+  }
+
+  .calc-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+  }
+
+  .calc-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f1f5f9;
+  }
+
+  .calc-icon {
+    font-size: 2rem;
+    background: #f0fdf4;
+    padding: 10px;
+    border-radius: 12px;
+  }
+
+  .calc-title {
+    margin: 0;
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .calc-subtitle {
+    margin: 2px 0 0 0;
+    font-size: 0.88rem;
+    color: #64748b;
+  }
+
+  .calc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .input-group label {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .input-wrapper input {
+    width: 100%;
+    padding: 11px 48px 11px 14px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #0f172a;
+    background: #f8fafc;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+  }
+
+  .input-wrapper input:focus {
+    outline: none;
+    border-color: #16a34a;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.15);
+  }
+
+  .unit-tag {
+    position: absolute;
+    right: 12px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #94a3b8;
+    pointer-events: none;
+  }
+
+  /* Full Width Hero Card */
+  .result-card-hero {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border: 1.5px solid #bbf7d0;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(22, 163, 74, 0.08);
+  }
+
+  .hero-header {
+    margin-bottom: 16px;
+  }
+
+  .hero-title {
+    margin: 6px 0 0 0;
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .hero-metrics-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 16px 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(187, 247, 208, 0.6);
+    backdrop-filter: blur(4px);
+    margin-bottom: 14px;
+  }
+
+  .hero-metric-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #64748b;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+  }
+
+  .hero-big-val {
+    font-size: 1.65rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1.1;
+    display: flex;
+    align-items: baseline;
+    white-space: nowrap;
+  }
+
+  .hero-big-val.highlight-text {
+    color: #15803d;
+  }
+
+  /* Scaled down, refined unit tags */
+  .hero-unit {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #475569;
+    margin-left: 4px;
+  }
+
+  .hero-big-val.highlight-text .hero-unit {
+    color: #166534;
+  }
+
+  .hero-footnote {
+    margin: 0;
+    font-size: 0.82rem;
+    color: #166534;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  /* Secondary 3-Column Subgrid */
+  .results-subgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .result-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  }
+
+  .card-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: #e2e8f0;
+    color: #334155;
+    margin-bottom: 8px;
+  }
+
+  .card-badge.green { background: #dcfce7; color: #15803d; }
+  .card-badge.amber { background: #fef3c7; color: #b45309; }
+  .card-badge.blue { background: #e0f2fe; color: #0369a1; }
+
+  .result-card h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.92rem;
+    color: #475569;
+    font-weight: 700;
+  }
+
+  .big-metric {
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1.1;
+    margin-bottom: 4px;
+  }
+
+  .metric-unit {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #64748b;
+  }
+
+  .metric-sub {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #16a34a;
+    margin-bottom: 4px;
+  }
+
+  .card-footnote {
+    margin: 0;
+    font-size: 0.78rem;
+    color: #64748b;
+    line-height: 1.35;
+  }
+
+  @media (max-width: 768px) {
+    .results-subgrid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .calc-card, .result-card-hero { padding: 16px; }
+    .hero-big-val { font-size: 1.35rem; }
+    .big-metric { font-size: 1.4rem; }
+  }
+</style>
+
+<script>
+(function() {
+  const elWeight = document.getElementById('tb-weight');
+  const elIncline = document.getElementById('tb-incline');
+  const elSpeed = document.getElementById('tb-speed');
+  const elPace = document.getElementById('tb-pace');
+  const elTime = document.getElementById('tb-time');
+  const elDistance = document.getElementById('tb-distance');
+
+  const resEquivSpeed = document.getElementById('res-equiv-speed');
+  const resEquivPace = document.getElementById('res-equiv-pace');
+  const resEquivDist = document.getElementById('res-equiv-dist');
+  const resEquivNote = document.getElementById('res-equiv-note');
+  
+  const resCalories = document.getElementById('res-calories');
+  const resFatG = document.getElementById('res-fat-g');
+  const resMets = document.getElementById('res-mets');
+  
+  const resVertGain = document.getElementById('res-vert-gain');
+  const resStories = document.getElementById('res-stories');
+  const resExtraCal = document.getElementById('res-extra-cal');
+
+  const resKwh = document.getElementById('res-kwh');
+  const resHeater = document.getElementById('res-heater');
+  const resBulb = document.getElementById('res-bulb');
+
+  let activeSource = 'speed';
+
+  function speedToPaceStr(speedKmH) {
+    if (!speedKmH || speedKmH <= 0) return '00:00';
+    const paceMinDecimal = 60 / speedKmH;
+    const mins = Math.floor(paceMinDecimal);
+    const secs = Math.round((paceMinDecimal - mins) * 60);
+    const safeSecs = secs === 60 ? 0 : secs;
+    const safeMins = secs === 60 ? mins + 1 : mins;
+    return `${safeMins < 10 ? '0' : ''}${safeMins}:${safeSecs < 10 ? '0' : ''}${safeSecs}`;
+  }
+
+  function paceStrToSpeed(paceStr) {
+    const parts = paceStr.split(':');
+    if (parts.length !== 2) return null;
+    const mins = parseFloat(parts[0]);
+    const secs = parseFloat(parts[1]);
+    if (isNaN(mins) || isNaN(secs)) return null;
+    const totalMin = mins + (secs / 60);
+    if (totalMin <= 0) return null;
+    return 60 / totalMin;
+  }
+
+  function calculate() {
+    const weight = parseFloat(elWeight.value) || 70;
+    const incline = parseFloat(elIncline.value) || 0;
+    let speed = parseFloat(elSpeed.value) || 10;
+    let time = parseFloat(elTime.value) || 30;
+    let distance = parseFloat(elDistance.value) || 5;
+
+    // Recalculate 3rd parameter
+    if (activeSource === 'speed' || activeSource === 'time') {
+      distance = speed * (time / 60);
+      elDistance.value = distance.toFixed(2);
+    } else if (activeSource === 'distance') {
+      if (time > 0) {
+        speed = distance / (time / 60);
+        elSpeed.value = speed.toFixed(1);
+        elPace.value = speedToPaceStr(speed);
+      }
+    }
+
+    // ACSM Treadmill VO2 Equation:
+    const speedMMin = speed * (1000 / 60);
+    const inclineFraction = incline / 100;
+    const vo2Treadmill = 3.5 + (0.2 * speedMMin) + (0.9 * speedMMin * inclineFraction);
+    const mets = vo2Treadmill / 3.5;
+
+    // Speed-dependent Outdoor Equivalent (Van Hooren et al. 2020 / Jones & Doust 1996)
+    let outdoorWindFactor = 0.20;
+    
+    if (speed >= 10 && speed <= 15) {
+      outdoorWindFactor = 0.209;
+    } else if (speed > 15) {
+      outdoorWindFactor = 0.2135;
+    }
+
+    const equivFactor = (0.2 + (0.9 * inclineFraction)) / outdoorWindFactor;
+    const equivSpeedKmH = speed * equivFactor;
+    const equivPaceStr = speedToPaceStr(equivSpeedKmH);
+    const equivDistance = distance * equivFactor;
+
+    // Energy & Calories
+    const calories = (vo2Treadmill * weight * time / 1000) * 5;
+    const kj = calories * 4.184;
+    const kwh = kj / 3600;
+    const fatGrams = calories / 9;
+
+    // Vertical Climb
+    const vertGainMeters = Math.round(distance * 1000 * inclineFraction);
+    const stories = Math.round(vertGainMeters / 3);
+
+    // Extra calories compared to 0% treadmill
+    const vo2FlatTM = 3.5 + (0.2 * speedMMin);
+    const caloriesFlatTM = (vo2FlatTM * weight * time / 1000) * 5;
+    const extraCalories = Math.max(0, calories - caloriesFlatTM);
+
+    // Energy Analogies
+    const heaterMin = (kwh / 1.0) * 60;
+    const bulbHours = kwh / 0.1;
+
+    // Dynamic Explanatory Note
+    if (speed < 10) {
+      if (incline === 0) {
+        resEquivNote.innerText = "Ved under 10 km/t er vindmodstand udefinerbar udendørs, så 0% svarer 1:1 til udendørs løb (Van Hooren et al. 2020).";
+      } else {
+        resEquivNote.innerText = `Ved ${incline}% hældning opnås forøget mekanisk bakkearbejde ved lavere fart.`;
+      }
+    } else if (speed <= 15) {
+      if (Math.abs(incline - 1.0) < 0.1) {
+        resEquivNote.innerText = "1% hældning kompenserer præcist for vindmodstand ved 10–15 km/t (Jones & Doust 1996).";
+      } else if (incline < 1.0) {
+        resEquivNote.innerText = "Ved under 1% hældning er belastningen en smule lettere end udendørs pga. manglende fartvind.";
+      } else {
+        resEquivNote.innerText = `Ved ${incline}% stigning svarer iltforbruget til hurtigere udendørs tempo.`;
+      }
+    } else {
+      if (incline < 1.5) {
+        resEquivNote.innerText = "Ved høj fart (>15 km/t) kræves 1,5–2% hældning for helt at matche udendørs vindmodstand.";
+      } else {
+        resEquivNote.innerText = `Ved ${incline}% hældning og høj fart er den fysiologiske belastning markant forøget.`;
+      }
+    }
+
+    // UI Updates with scaled inline units
+    resEquivSpeed.innerHTML = `${equivSpeedKmH.toFixed(1)} <span class="hero-unit">km/t</span>`;
+    resEquivPace.innerHTML = `${equivPaceStr} <span class="hero-unit">min/km</span>`;
+    resEquivDist.innerHTML = `${equivDistance.toFixed(2)} <span class="hero-unit">km</span>`;
+
+    resCalories.innerHTML = `${Math.round(calories)} <span class="metric-unit">kcal</span>`;
+    resFatG.innerText = `~${Math.round(fatGrams)} g fedtvæv (${Math.round(kj).toLocaleString('da-DK')} kJ)`;
+    resMets.innerText = `Belastning: ${mets.toFixed(1)} METs (VO2: ${vo2Treadmill.toFixed(1)} ml/kg/min)`;
+
+    resVertGain.innerHTML = `${vertGainMeters} <span class="metric-unit">m</span>`;
+    resStories.innerText = `Svarer til ${stories} etagers bygning`;
+    resExtraCal.innerText = `~${Math.round(extraCalories)} extra kcal pga. hældning`;
+
+    resKwh.innerHTML = `${kwh.toFixed(2)} <span class="metric-unit">kWh</span>`;
+    resHeater.innerText = `1000W El-radiator i ${Math.round(heaterMin)} min.`;
+    resBulb.innerText = `Eller en 100W pære tændt i ${bulbHours.toFixed(1)} timer`;
+  }
+
+  // Event Listeners
+  elSpeed.addEventListener('input', () => {
+    activeSource = 'speed';
+    const s = parseFloat(elSpeed.value);
+    if (s && s > 0) elPace.value = speedToPaceStr(s);
+    calculate();
+  });
+
+  elPace.addEventListener('input', () => {
+    activeSource = 'speed';
+    const s = paceStrToSpeed(elPace.value);
+    if (s && s > 0) {
+      elSpeed.value = s.toFixed(1);
+      calculate();
+    }
+  });
+
+  elTime.addEventListener('input', () => {
+    activeSource = 'time';
+    calculate();
+  });
+
+  elDistance.addEventListener('input', () => {
+    activeSource = 'distance';
+    calculate();
+  });
+
+  elWeight.addEventListener('input', calculate);
+  elIncline.addEventListener('input', calculate);
+
+  // Init
+  calculate();
+})();
+</script>

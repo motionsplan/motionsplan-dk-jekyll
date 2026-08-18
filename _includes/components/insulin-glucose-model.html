@@ -1,0 +1,122 @@
+<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 20px; max-width: 800px; margin: 24px auto; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+  <div style="margin-bottom: 16px;">
+    <h3 style="margin: 0 0 6px 0; font-size: 1.15rem; font-weight: 800; color: #0f172a;">
+      📈 Blodsukker & Insulin Respons: -45 min vs. -15 min Gel
+    </h3>
+    <p style="margin: 0; font-size: 0.825rem; color: #64748b;">
+      Sammenligning af Reaktiv Hypoglykæmi (Bangsbo-fælden) og Adrenalin-undertrykkelse (Jeukendrup-tricket).
+    </p>
+  </div>
+
+  <div style="position: relative; height: 360px; width: 100%;">
+    <canvas id="insulinGlucoseChart"></canvas>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 16px; font-size: 0.775rem;">
+    <div style="background: #fef2f2; border: 1px solid #fecaca; padding: 10px; border-radius: 8px;">
+      <strong style="color: #dc2626; display: block; margin-bottom: 2px;">🔴 Gel v/ -45 min (Bangsbo)</strong>
+      Høj insulin v/ start + GLUT4 muskeloptag = Deep blodsukker-dip v/ 15–30 min i løbet.
+    </div>
+    <div style="background: #f0fdf4; border: 1px solid #bbf7d0; padding: 10px; border-radius: 8px;">
+      <strong style="color: #16a34a; display: block; margin-bottom: 2px;">🟢 Gel v/ -15 min (Jeukendrup)</strong>
+      Adrenalin slukker for insulin = Høj, stabil blodglukose uden blodsukker-krak.
+    </div>
+  </div>
+</div>
+
+<!-- Inkludér Chart.js fra CDN hvis det ikke allerede er indlæst på sitet -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+(function() {
+  const ctx = document.getElementById('insulinGlucoseChart').getContext('2d');
+
+  const timeLabels = ['-45m', '-30m', '-15m', '0m (Start)', '15m', '30m', '45m', '60m'];
+
+  // Fysiologiske dataserier
+  const glucoseBangsbo = [4.5, 7.2, 6.8, 5.2, 3.2, 4.1, 4.8, 5.0]; // Rebound dip v/ 15m
+  const glucoseJeukendrup = [4.5, 4.5, 4.5, 5.8, 6.9, 6.4, 5.8, 5.2]; // Stabil stigning
+  const insulinBangsbo = [5, 45, 65, 50, 30, 15, 8, 5]; // Højt insulin-spike
+  const insulinJeukendrup = [5, 5, 5, 12, 8, 6, 5, 5]; // Dæmpet insulin pga. adrenalin
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: timeLabels,
+      datasets: [
+        {
+          label: 'Blodsukker: Gel v/ -45m (mmol/L)',
+          data: glucoseBangsbo,
+          borderColor: '#dc2626',
+          backgroundColor: '#dc2626',
+          borderWidth: 3,
+          tension: 0.3,
+          yAxisID: 'yGlucose'
+        },
+        {
+          label: 'Blodsukker: Gel v/ -15m (mmol/L)',
+          data: glucoseJeukendrup,
+          borderColor: '#16a34a',
+          backgroundColor: '#16a34a',
+          borderWidth: 3,
+          tension: 0.3,
+          yAxisID: 'yGlucose'
+        },
+        {
+          label: 'Insulin: Gel v/ -45m (µU/mL)',
+          data: insulinBangsbo,
+          borderColor: '#f87171',
+          borderDash: [5, 5],
+          borderWidth: 2,
+          pointRadius: 0,
+          tension: 0.3,
+          yAxisID: 'yInsulin'
+        },
+        {
+          label: 'Insulin: Gel v/ -15m (µU/mL)',
+          data: insulinJeukendrup,
+          borderColor: '#4ade80',
+          borderDash: [5, 5],
+          borderWidth: 2,
+          pointRadius: 0,
+          tension: 0.3,
+          yAxisID: 'yInsulin'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { position: 'bottom', labels: { font: { size: 11, weight: '700' } } },
+        tooltip: { padding: 10 }
+      },
+      scales: {
+        x: {
+          grid: { color: '#f1f5f9' },
+          ticks: { font: { weight: '700' } }
+        },
+        yGlucose: {
+          type: 'linear',
+          display: true,
+          position: 'left',
+          title: { display: true, text: 'Blodglukose (mmol/L)', font: { weight: '800' } },
+          min: 2.5,
+          max: 8.5,
+          grid: { color: '#f1f5f9' }
+        },
+        yInsulin: {
+          type: 'linear',
+          display: true,
+          position: 'right',
+          title: { display: true, text: 'Plasmainulin (µU/mL)', font: { weight: '800' } },
+          min: 0,
+          max: 80,
+          grid: { drawOnChartArea: false }
+        }
+      }
+    }
+  });
+})();
+</script>

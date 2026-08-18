@@ -1,139 +1,189 @@
 ---
-title: Beregn kulhydratforbrug – Hvor meget sukker til løb og cykling?
-seo_title: Beregn kulhydratforbrug – Hvor meget energi skal du medbringe?
+title: "Kulhydrat Beregner til Løb & Cykling – Beregn Gels og Energi"
+seo_title: "Kulhydrat Beregner: Beregn g/t & energi til løb og cykling"
+description: "Brug vores kulhydrat beregner til løb og cykling. Udregn dit præcise kulhydratforbrug (g/t), og få styr på hvor mange gels og sukker du skal indtage."
 permalink: /kulhydratforbrug/
 redirect_from:
   - /kulhydratforbrug-cykling-watt/
-excerpt: Hvor meget sukker og kulhydrat skal du have med på din cykeltur eller løbetur? Beregn dit præcise kulhydratforbrug og undgå at møde muren.
-description: Beregn dit kulhydratforbrug under løb og cykling. Få svar på, hvor meget sukker, gels og energi du skal indtage pr. time for at optimere din præstation.
+excerpt: "Brug vores kulhydrat beregner til at udregne dit præcise energiforbrug under løb og cykling. Se hvor mange gram sukker og gels du skal bruge pr. time."
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1562245376-3f9dae9f0e73.jpg
   credit: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73
-  caption: Kulhydratforbrug – Beregn dit behov under træning
+  caption: Kulhydrat Beregner – Udregn dit energiindtag til træning
 categories:
-- Kost & Ernæring
+  - Kost & Ernæring
 meta:
-  name: Beregn kulhydratforbrug ved cykling, løb og idræt
+  name: Kulhydrat Beregner til Cykling og Løb
   measures: CHO-forbrug og energiindtag
   type: beregner
   equipment: wattmåler eller pulsmåler
 tools:
   - id: "tool-kulhydratforbrug-beregner"
-    title: "Kulhydratforbrug & Energiindtag Beregner"
-    description: "Interaktiv beregner til udregning af fysiologisk kulhydratforbrug (g/t), energiforbrug (kcal/t) samt optimal sukkerstrategi under cykling og løb."
+    title: "Kulhydrat Beregner & Energiindtag"
+    description: "Interaktiv kulhydrat beregner til udregning af fysiologisk kulhydratforbrug (g/t), energiforbrug (kcal/t) og optimal sukkerstrategi under cykling og løb."
     category: ["Kost & Ernæring", "Beregnere", "Cykling", "Løb"]
     type: ["Beregner"]
-    measures: ["Kulhydratforbrug (g/t)", "Energiforbrug (kcal/t)", "Anbefalet kulhydratindtag", "Glykogenlager-varighed"]  # 🎯 KUN rene fysiologiske output-parametre
-    anchor: "#beregn-dit-kulhydratforbrug-cykling--lob"
+    measures: ["Kulhydratforbrug (g/t)", "Energiforbrug (kcal/t)", "Anbefalet kulhydratindtag", "Glykogenlager-varighed"]
+    anchor: "#kulhydrat-beregner"
     category_schema: "HealthAndFitnessApplication"
 tags:
-- beregner
-- værktøj
-- kost & ernæring
-- kulhydratforbrug
-- energi til træning
-- cykling
-- løb
-last_modified_at: '2026-07-25T10:00:00Z'
+  - beregner
+  - værktøj
+  - kost & ernæring
+  - kulhydratforbrug
+  - energi til træning
+  - cykling
+  - løb
+  - faq
+last_modified_at: '2026-08-18T23:50:00Z'
 faq:
-- question: Hvor meget sukker skal jeg have med på min cykeltur eller løbetur?
-  answer: Det afhænger af varigheden og intensiteten. På ture under 60 minutter behøver du sjældent ekstra sukker. Ved intensiv træning over 90 minutter bør du typisk indtage mellem 60 og 90 gram kulhydrat (sukker) i timen.
-- question: Hvordan beregner man sit kulhydratforbrug?
-  answer: Beregneren estimerer dit kulhydratforbrug ud fra enten dine trådte watt (cykling) eller dit iltforbrug og intensitetszoner (løb/idræt). Ud fra din fysiologiske R-værdi beregnes fordelingen mellem fedt- og kulhydratforbrænding.
+  - question: Hvor meget sukker og kulhydrat skal jeg indtage pr. time?
+    answer: Ved træning under 60 minutter behøver du kun vand. Ved intensiv træning på 1-2 timer anbefales 30–60 gram kulhydrat i timen. Ved lange pas over 2,5 time (fx maraton eller cykelløb) bør du indtage 60–90 gram (eller op til 120 g/t ved 1:0,8 glukose-fruktose forhold).
+  - question: Hvor mange gels svarer 60 gram kulhydrat til?
+    answer: En typisk energigel indeholder 20–25 gram kulhydrat. 60 gram kulhydrat i timen svarer derfor til ca. 2–3 energigels eller 750 ml blandet sportsdrik.
+  - question: Hvordan virker denne kulhydrat beregner?
+    answer: Beregneren udregner dit energiforbrug baseret på trådt effekt i watt (cykling) eller hastighed og kropsvægt (løb). Ud fra fysiologiske intensitetszoner beregnes den præcise fordeling mellem fedt- og kulhydratforbrænding.
 ---
 
-Når du tager afsted på en lang cykeltur eller en hård løbetur, opstår det klassiske spørgsmål: **Hvor meget sukker og energi skal jeg have med i lommerne eller flaskerne?**
+Når du træner til et maraton, et cykelløb eller kører lange ture, er korrekt energiindtag afgørende: **Hvor mange gram kulhydrat og sukker skal du indtage pr. time for ikke at ramme muren?**
 
-Hvis du indtager for lidt kulhydrat undervejs, risikerer du at tømme kroppens glykogenlagre og "møde muren" (bonker). Indtager du omvendt alt for meget, eller den forkerte type sukker, protesterer mave-tarmsystemet.
+Indtager du for lidt energi, tømmes kroppens glykogenlagre før målstregen. Indtager du omvendt for meget sukker i den forkerte sammensætning, risikerer du alvorlige maveproblemer.
 
-Vores samlede **kulhydratforbrug-beregner** hjælper dig med at udregne dit præcise energiforbrug under både løb og cykling, så du ved nøjagtigt, hvor mange gram kulhydrat, gels eller energidrik du skal medbringe for at holde dampen oppe.
-
-## Beregn dit kulhydratforbrug (Cykling & Løb)
-
-*(Vælg fanen "Cykling" hvis du træner efter watt, eller "Generel Idræt" hvis du tager udgangspunkt i din iltoptagelse/intensitet).*
-
-{% include calculator/calculate-kulhydrat-forbrug.html %}
-
-{% include calc/cho-usage-calculator.html mode="cycling" title="🚴‍♂️ Kulhydratforbrug ved Cykling" %}
+Med vores interaktive **kulhydrat beregner** kan du udregne dit fysiologiske kulhydratforbrug (g/t) og samlede kalorieforbrug ved cykling og løb.
 
 ---
 
-## Hvor meget sukker skal du medbringe på turen?
+<h2 id="kulhydrat-beregner">Kulhydrat Beregner til Cykling & Løb</h2>
 
-Svaret på, hvor meget energi og sukker du skal indtage undervejs, afhænger direkte af **hvor hurtigt du forbrænder dine egne kulhydratdepoter** i forhold til turens varighed:
+*(Vælg "Cykling" for beregning baseret på watt, eller "Generel Idræt / Løb" for beregning baseret på tempo og vægt).*
 
-1. **Korte pas (< 60 min):** Kroppens egne sukkerlagre (glykogen) rækker fint. Rent vand er som regel nok.
-2. **Runder på 1-2 timer:** Du forbrænder mere kulhydrat end fedt ved moderat til høj intensitet. Et supplerende indtag på **30–60 gram sukker/kulhydrat pr. time** holder præstationen i top.
-3. **Lange ture (> 2-3 timer):** Her bliver din ernæringsstrategi afgørende. Dit kulhydratforbrug vil ofte overstige **60–90 gram pr. time**, og du er nødt til aktivt at supplere med gels, energidrik eller barer.
+{% include calc/cho-usage-calculator.html mode="cycling" title="🚴‍♂️ Kulhydrat Beregner" %}
 
-> 💡 **Hvad svarer det til i praksis?** 1 banan indeholder ca. 20-25 g kulhydrat, en typisk energigel indeholder 20-30 g sukker, og 500 ml blandet sportsdrik indeholder ofte 30-40 g kulhydrat.
+---
 
-## Sådan beregner vi dit kulhydratforbrug
+## Hvor meget energi skal du medbringe på turen?
 
-Kroppen forbrænder altid en blanding af fedt og kulhydrat under arbejde. Jo hårdere du presser dig selv, desto større en procentdel af energien skal komme fra kulhydrater.
+Dit behov for supplerende sukker og gels afhænger direkte af din træningsvarighed og den intensitet, du kører eller løber med:
 
-* **På cyklen:** Når du træder et bestemt antal watt, kender vi din mekaniske effekt. Ud fra din fysiologiske nyttevirkning (hvor effektivt kroppen omsætter energi til fremdrift) udregnes det præcise kalorie- og kulhydratforbrug pr. time.
-* **Ved løb og idræt:** Her udregnes energiforbruget ud fra din vægt, dit iltoptagelsesniveau og dine træningszoner. R-værdien (forholdet mellem udskilt CO₂ og optaget O₂) fortæller os præcist, hvor mange gram kulhydrat der forbrændes i minuttet.
+* **Korte pas (< 60 min):** Kroppens egne sukkerdepoter (glykogen) dækker behovet. Rent vand er tilstrækkeligt.
+* **Træning på 1–2,5 timer:** Du forbrænder primært kulhydrat. Indtag **30–60 gram kulhydrat pr. time** (fx 1–2 gels eller sportsdrik) for at opretholde blodsukkeret.
+* **Lange pas & konkurrencer (> 2,5 timer):** Dit kulhydratforbrug overstiger din naturlige optagelse. Her skal du indtage **60–90 gram kulhydrat pr. time**.
 
-Hvis du ikke kender dit præcise iltoptagelsesniveau, kan du estimere det ud fra et [kondital fundet via en af vores løbetests](/tests/loeb/).
+> 💡 **Hvad svarer det til i praksis?** 
+> * 1 energigel = ca. 20–25 g kulhydrat
+> * 1 banan = ca. 20–25 g kulhydrat
+> * 500 ml sportsdrik (6% opløsning) = ca. 30 g kulhydrat
 
-## Optimal sukkerstrategi: Glukose vs. Fruktose
+---
 
-Når du har beregnet dit timelige kulhydratbehov og fundet ud af, hvor meget energi du mangler, handler det om at få sukkeret optaget i blodet uden at få ondt i maven.
+## Beregning af kulhydrater: Fysiologien bag
 
-Kroppens optagelse af sukker styres af transportproteiner i tarmen:
+Under fysisk arbejde forbrænder musklerne en blanding af fedtsyre og glukose. Jo højere intensitet du træner med, desto større en andel af energien skal leveres af kulhydrater.
 
-* **Op til 60 gram kulhydrat/t:** Kan bestå af almindelig glukose eller maltodextrin (som benytter SGLT1-transporteren).
-* **Op til 90 gram kulhydrat/t:** Kræver, at du kombinerer **glukose og fruktose i et 2:1-forhold** (fx 60 g glukose + 30 g fruktose). Fruktose benytter en anden transportvej (GLUT5) i tarmen, hvilket gør, at du kan optage langt mere energi i timen uden maverepressalier.
-* **100–120 gram kulhydrat/t:** Bruges i moderne elitesport og kræver ofte et **1:1 eller 1:0,8 forhold** mellem glukose og fruktose – samt grundig tarmtræning ("gut training") i ugerne op til et løb.
+$$\text{Total Energi} = \text{Fedtforbrænding} + \text{Kulhydratforbrænding}$$
 
-> **⚠️ Pas på med at "overfylde" med kulhydrat**  
-> Indtager du markant mere sukker end nødvendigt – særligt på de roligere ture – stiger blodsukkeret og insulinniveauet, hvilket kan undertrykke kroppens naturlige fedtforbrænding. Målet er at dække det reelle energunderskud og bevare ydeevnen, ikke at oversvømme systemet.
+* **Ved cykling (Watt):** Ud fra din trådte effekt (fx 200 Watt) kender vi din mekaniske arbejdsrate. Med en fysiologisk bruttoeffektivitet på ~20–22 % udregnes dit præcise kalorieforbrug og kulhydratforbrænding i gram pr. time.
+* **Ved løb (Tempo & Vægt):** Energiforbruget beregnes ud fra din kropsvægt og din hastighed. Ved højere tempo stiger den respiratoriske udvekslingskvotient (RER-værdi), hvilket forskyder forbrændingen mod 100 % kulhydrat.
+
+---
+
+## Optimal sukkerstrategi: Glukose vs. Fruktose (2:1 & 1:0,8)
+
+Når du har fundet dit kulhydratforbrug pr. time i beregneren, skal sukkeret optages i tarmen uden at give kvalme eller mavekramper.
+
+Transporten over tarmvæggen styres af specifikke proteiner:
+
+1. **Op til 60 g kulhydrat/t:** Kan bestå af ren glukose eller maltodextrin (benytter SGLT1-transporteren).
+2. **60–90 g kulhydrat/t:** Kræver en kombination af **glukose og fruktose i et 2:1-forhold** (fx 60 g glukose + 30 g fruktose). Fruktose benytter GLUT5-transporteren og mætter ikke glukosevejen.
+3. **90–120 g kulhydrat/t:** Anvendes i moderne elitesport. Kræver et **1:0,8 forhold** mellem glukose og fruktose samt systematisk tilvænning af mave-tarmsystemet (*gut training*).
+
+> ⚠️ **Pas på med overskydende sukkerindtag**  
+> Indtager du mere kulhydrat end din tarm kan optage, bliver sukkeret liggende i mavesækken og binder væske, hvilket fører til maveproblemer og forringet præstation.
 {: .notice--warning }
 
-> 📖 Læs mere i vores dybdegående guide om det [optimale kulhydratforhold til træning og konkurrence](/optimale-kulhydrat-forhold/).
+---
 
-## Undgå at løbe tør: Kend dine glykogenlagre
+## Glykogenlagre: Hvor længe rækker dine egne depoter?
 
-Din krop lagrer sukker som **glykogen** i leveren og i de arbejdende muskler. Et veltrænet menneske har typisk omkring 400–600 gram sukker lagret i kroppen.
+Sukker lagres i kroppen som **glykogen** i leveren (~100 g) og i de arbejdende muskler (~400–500 g). 
 
-| Din træningstilstand | Estimeret sukkerlager (g/kg kropsvægt) |
-| :--- | :--- |
-| Utrænet / Hverdagstilstand | ~6 g/kg |
-| Godt trænet udholdenhedsatlet | ~8 g/kg |
-| Fyldte lagre efter [carb-loading](/carb-loading/) | 10–12 g/kg |
+| Træningstilstand | Estimeret sukkerlager | Varighed ved høj intensitet |
+| :--- | :--- | :--- |
+| **Normal tilstand** | ~6–8 g/kg kropsvægt | 75–90 minutter |
+| **Fyldte lagre efter Carb-Loading** | ~10–12 g/kg kropsvægt | 90–120 minutter |
 
-I beregneren øverst tager vi højde for din kropsvægt og dine startlagre. Dermed kan du se præcist, hvornår i dit pas du krydser den kritiske grænse, hvis ikke du indtager supplerende energi undervejs.
+Beregneren øverst tager højde for din kropsvægt og beregner den estimerede varighed af dine startdepoter, så du ved præcist, hvornår du skal begynde at indtage energi.
 
-Vil du spare penge på dyre gels? Så kan du nemt [blande din egen sportsdrik](/sportsdrik/) med den rette balance af glukose, fruktose og elektrolytter.
+---
 
-## Konklusion
+## Hvornår skal du tage den første gel? (Bangsbo vs. Jeukendrup)
 
-Ved at kende dit forventede kulhydratforbrug pr. time kan du bedre tilpasse din ernæringsstrategi og sikre, at du har tilstrækkelig energi til hele træningen eller konkurrencen.
+Gennem 1980’erne og 1990’erne var det en etableret sandhed i idrætsfysiologien – blandt andet fremført af den danske professor **Jens Bangsbo** og den amerikanske forsker **David Costill** – at man for alt i verden skulle **undgå hurtige kulhydrater 15–60 minutter før start**.
 
-Hvilke sukkertyper du skal vælge afhænger lidt af dine mål, men typisk vil du gerne have hurtigt optagelige kulhydrater.
+### Det klassiske dogme: Frygten for *Reaktiv Hypoglykæmi*
 
-Du kan læse mere om [glykæmisk indeks](/glykaemisk-indeks/) og blive klogere på, hvilket madvarer og sukkertyper, der optages hurtigt.
+Teorien byggede på et velkendt fysiologisk fænomen:
+1. **Insulin-spiket:** Indtager du hurtige sukkerarter (som en gel) kort før træning, stiger blodsukkeret hurtigt, hvilket får bugspytkirtlen til at udskille store mængder **insulin**.
+2. **Dobbelt-optag i musklerne:** Når du derefter starter dit løb eller din cykeltur, aktiverer muskelarbejdet sine egne mekanismer (GLUT4-transporterne) til at trække sukker ud af blodet – *uafhængigt af insulin*.
+3. **Sukker-krakket (Rebound Crash):** Samspillet mellem højt insulinniveau og akut muskelarbejde bevirker, at blodsukkeret falder dramatisk i løbet af de første 15–30 minutter (*reaktiv hypoglykæmi*). Samtidig blokerer den høje insulin for kroppens naturlige fedtforbrænding.
 
-Brug beregneren til at finde det rigtige indtag og optimere din præstation.
+Derfor lød datidens råd: *Hold dig til rent vand den sidste time før start, eller vent med sukkeret til mindst 20–30 minutter inde i løbet.*
+
+---
+
+### Den moderne opdagelse: Hvorfor "Startlinje-gelen" alligevel virker
+
+Nyere forskning ledet af blandt andre professor **Asker Jeukendrup** har nuanceret dette billede markant:
+
+* **Adrenalin slukker for insulinen:** Så snart du starter din opvarmning eller krydser startstregen, udskiller binyrebarken kamp-hormonerne **adrenalin og noradrenalin**. Adrenalin går direkte ind og undertrykker bugspytkirtlens evne til at udskille insulin.
+* **Den kritiske 30-minutters fældezone:** Hvis du tager en gel **30–45 minutter før start** (mens du sidder stille i omklædningsrummet), når insulinen at toppe, *før* adrenalinen stiger. Her opstår risikozonen for et blodsukkerfald.
+* **Startlinje-tricket (< 15 min før):** Indtager du derimod din gel **lige på startstregen (under 15 min før)**, når kroppen ikke at udskille insulin, før startskuddet lyder. Adrenalinkicket fra løbet blokerer insulinresponset, og du får i stedet glæde af en høj og stabil blodglukose fra første kilometer.
+
+> 💡 **Konklusion for din race-plan:**  
+> Vil du have en gel før start, så tag den enten **>60 minutter før** (som en del af et større måltid) eller **<15 minutter før** direkte på startstregen. Undgå at indtage ren gel i vinduet 30–45 minutter før startskuddet.
+{: .notice--info }
+
+---
+
+{% include components/insulin-glucose-model.html %}
+
+> 💡 **Sådan læser du modellen:**  
+> * **Stiliseret illustration:** Kurverne viser den generelle fysiologiske responstendens i blodglukose og insulin, ikke et direkte plot af et enkeltstående laboratorieforsøg.
+> * **Individuel følsomhed:** Studier viser, at kun ca. 15–30 % af alle atleter er stærkt følsomme over for *reaktiv hypoglykæmi* og mærker reelle symptomer (svimmelhed, krafttab) ved et kortsigtet blodsukkerfald.
+> * **Konkret takeaway:** Vil du tage en gel før løbet, så gør det direkte på startstregen (<15 min før). Så slår adrenalinen insulinen ud af kurs, før den når at toppe.
+{: .notice--info }
+
+---
+
+## Relaterede beregnere og guider
+
+* 🏃‍♂️ **[Løbebånd Beregner](/loebebaand-beregner/)** – Omregn løbebåndstempo, hældning og energiforbrug.
+* 🍼 **[Bland din egen sportsdrik](/sportsdrik/)** – Opskrift på billig energidrik med korrekt glukose-fruktose forhold.
+* 🍝 **[Carb-Loading Guide](/carb-loading/)** – Sådan fylder du glykogenlagrene op før konkurrence.
+
+---
 
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 id="references">Referencer</h2></summary>
+  <summary><h2 id="references">Kilder og videnskabelig litteratur</h2></summary>
 
+  * **Bangsbo, J. (1994).** *Fitness Training in Football - a scientific approach*. HO+Storm.  
+    *(Klassisk idrætsfysiologisk reference for arbejdsfysiologi, kulhydratdynamik og timing af energiindtag ved høj intensitet).*
   * **Burke, L. M., Hawley, J. A., Wong, S. H., & Jeukendrup, A. E. (2011).** Carbohydrates for training and competition. *Journal of Sports Sciences*, 29(sup1), S17-S27.  
-    *(Standardværket for kulhydratbehov, glykogenlagrenes kapacitet (g/kg) og anbefalinger til træning/konkurrence).*
-  * **Currell, K., & Jeukendrup, A. E. (2008).** Superior endurance performance with ingestion of multiple transportable carbohydrates. *Medicine & Science in Sports & Exercise*, 40(2), 275-281.  
-    *(Studiet der påviste den præstationsfremmende effekt ved kombinationen af glukose og fruktose via forskellige transportører).*
+    *(Standardværket for kulhydratbehov, glykogenlagrenes kapacitet og anbefalinger til træning og konkurrence).*
+  * **Costill, D. L., Coyle, E., Dalsky, G., Evans, W., Fink, W., & Hoopes, D. (1977).** Effects of elevated plasma FFA and insulin on muscle glycogen usage during exercise. *Journal of Applied Physiology*, 43(4), 695-699.  
+    *(Det historiske nybyggestudie, der først påviste faldet i blodsukker og hæmningen af fedtsyreforbrænding ved sukkerindtag før træning).*
+  * **Jentjens, R. L., & Jeukendrup, A. E. (2003).** Pre-exercise carbohydrate feedings: impact on metabolism and performance. *Sports Medicine*, 33(7), 517-543.  
+    *(Det skelsættende review-studie, der undersøgte reaktiv hypoglykæmi og viste, at timing tæt på start eller undervejs eliminerer de negative effekter).*
   * **Jeukendrup, A. E. (2014).** A step towards personalized sports nutrition: carbohydrate intake during exercise. *Sports Medicine*, 44(1), 25-33.  
-    *(Kildegrundlaget for de klassiske retningslinjer om 30, 60 og 90 gram kulhydrat i timen afhængigt af varighed).*
-  * **Jeukendrup, A. E. (2017).** Training the gut for athletes. *Sports Medicine*, 47(1), 101-110.  
-    *(Referencen på "gut training" og hvordan mave-tarmsystemet tilvænnes højere energiindtag uden ubehag).*
+    *(Referencen for nutidige retningslinjer om 30, 60, 90 og 120 g/t samt praktisk håndtering af maverespons og timing).*
+  * **Moser, O., et al. (2019).** Reduction of Insulin Administration Before Pre-Exercise Carbohydrate Ingestion Mitigates Post-Exercise Nocturnal Hypoglycemia in Individuals With Type 1 Diabetes. *Frontiers in Endocrinology*, 10, 508.  
+    *(Moderne studie af det sympatiske nervesystems (adrenalin) rolle i reguleringen af glukose og insulin under akut fysisk arbejde).*
   * **Viribay, A., et al. (2020).** Effects of 120 g/h of Carbohydrate Intake during a Mountain Marathon on Exercise-Induced Muscle Damage in Elite Runners. *Nutrients*, 12(5), 1367.  
-    *(Studie der dokumenterer effekten og tolerancen af meget høje kulhydratindtag helt op til 120 g/t hos trænede atleter).*
+    *(Dokumentation af effekten og tolerancen af ultrahøje kulhydratindtag helt op til 120 g/t hos eliteløbere).*
 
 </details>
