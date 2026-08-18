@@ -54,6 +54,10 @@ Alle har prøvet at lave en mavebøjning, men faktisk udfører mange mavebøjnin
 
 {{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
+> **💡 Døjer du med lænden under mavebøjninger?**  
+> Klassiske crunches tvinger lænden ud i gentagne bøjninger under belastning. Hvis du vil opbygge en stærk kropsstamme uden at belaste diskusskiverne i lænden, bør du kigge på den verdensberømte rygforsker Dr. Stuart McGills tilgang.  
+> 👉 **[Læs vores komplette guide til McGill Big 3 og skånsom kernestabilitet her](/mcgill-big-3/)**
+
 ## Hvad er mavebøjninger?
 
 Mavebøjninger træner dine [mavemuskler](/muskler/mave/). Du ligger på ryggen med bøjede ben. Så løfter du det øverste af ryggen fra gulvet, når rygsøjlen bøjer sig, mens du strammer mavemusklerne.

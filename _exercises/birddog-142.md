@@ -41,3 +41,7 @@ last_modified_at: 2013-10-03T10:07:22Z
 {{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Denne øvelse er for rygmusklerne. Begynd på alle fire og løft venstre arm og højre ben, indtil de er parallelle med gulvet. Hold positionen i 3-5 sekunder. Sænk igen og gentag med modsatte arm og ben. Det er vigtigt at du strammer i maven (bracing), mens du laver øvelsen. Hold hele ryggen i en neutral stilling under hele øvelsen.
+
+> **💡 Den ultimative øvelse til rygstabilitet og kryds-koordination**  
+> Bird-Dog træner din bagkæde og diagonale stabilitet uden at påføre klem eller skæringskræfter på rygsøjlen. Øvelsen fungerer perfekt som genoptræning og som opvarmning før tunge løft.  
+> 👉 **[Se hvordan du bruger Bird-Dog sammen med resten af McGill Big 3 her](/mcgill-big-3/)**

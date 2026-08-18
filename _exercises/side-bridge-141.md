@@ -38,3 +38,7 @@ Denne øvelse er for de skrå mavemuskler og transversus. Målet med øvelsen er
 Øvelsen kan for begyndere laves på knæene.
 
 De trænede kan lave den på strakt arm.
+
+> **💡 En del af Dr. McGills skånsomme rygprotokol**  
+> Sideplanken er ikke bare en fantastisk øvelse til de skrå mavemuskler – den er også én af de tre hjørnesten i *McGill Big 3*, som er udviklet af verdens førende rygforskere til at skabe en smertefri ryg og skåne diskusskiverne.  
+> 👉 **[Læs hvordan du kombinerer Sideplank i den samlede McGill Big 3-protokol her](/mcgill-big-3/)**

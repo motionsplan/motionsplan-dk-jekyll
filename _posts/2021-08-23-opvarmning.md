@@ -137,7 +137,7 @@ I mange år var statisk udstrækning (hvor et stræk holdes ubevægeligt i 30–
 
 ## RAMP-modellen: Den teoretiske ramme
 
-For at sikre at opvarmningen indeholder alle nødvendige fysiologiske komponenter uden at udtrætte dig, benyttes i dag **RAMP-modellen**, udviklet af Ian Jeffreys (2007).
+For at sikre at opvarmningen indeholder alle nødvendige fysiologiske komponenter, er mange i dag inspireret af **[RAMP-modellen](/ramp-opvarmning/)**, som er udviklet af Ian Jeffreys (2007).
 
 RAMP deler opvarmningen op i fire faser:
 

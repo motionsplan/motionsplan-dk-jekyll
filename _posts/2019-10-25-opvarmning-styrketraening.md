@@ -149,6 +149,10 @@ Opvarmning til styrketræning skal være målrettet. Ved at kombinere en kort, d
 
 Hvordan opbygger du din egen opvarmning til styrketræning?
 
+> **💡 Brug *McGill Big 3* til at aktivere kropsstammen før tunge løft**  
+> Inden du kaster dig over tunge squats eller dødløft, er det afgørende at skabe "neural stivhed" og aktivere kernemuskulaturen. Ved at køre 1-2 hurtige runder af Dr. Stuart McGills skånsomme stabilitetsøvelser opbygger du et beskyttende korset omkring rygsøjlen uden at trætte kropsstammen.  
+> 👉 **[Lær hvordan du bruger McGill Big 3 som aktivering til din opvarmning her](/mcgill-big-3/)**
+
 ---
 
 ## Ofte stillede spørgsmål om opvarmning til styrketræning

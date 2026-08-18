@@ -1,70 +1,162 @@
 ---
-title: Bulletproof Athlete og R7-metoden
-seo_title: Bulletproof Athlete og R7-metoden af Mike Robertson
+title: 'R7-metoden og Bulletproof Athlete: Byg det ultimative træningspas'
+seo_title: 'R7-metoden af Mike Robertson: Guide til struktureret programlægning'
+description: 'Lær R7-metoden at kende. Få overblik over de 7 faser fra Release og Reset til Resistance og Recovery, der opbygger en stærk, skadesfri krop.'
 permalink: /artikel/bulletproof-athlete/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1590260712186-ff1891e5876e.jpg
   credit: https://images.unsplash.com/photo-1590260712186-ff1891e5876e
   teaser: /assets/images/unsplash/photo-1590260712186-ff1891e5876e.jpg
-tags:
-- anmeldelse
 categories:
 - Styrketræning
 - Styrketræningsprogrammer
-last_modified_at: '2019-03-10T08:39:32Z'
-excerpt: Mike Robertson har udviklet programmet Bulletproof Athlete, som er bygget op efter princippet R7
+tags:
+- r7 metoden
+- mike robertson
+- programlægning
+- opvarmning
+- skadesforebyggelse
+last_modified_at: '2026-08-18T18:00:00Z'
+meta:
+  name: R7-metoden
+  equipment: kropsvægt, foam roller, vægte
+  measures: programlægning, skadesforebyggelse
+  type: styrketræningssystem
+
+# STRUCTURED FAQ (SCHEMA.ORG)
+faq:
+  - question: "Hvad står R7 for i R7-metoden?"
+    answer: "R7 repræsenterer de 7 faser i et komplet træningspas: 1. Release (SMR/foam rolling), 2. Reset (postural korrektion), 3. Readiness (dynamisk opvarmning), 4. Reactive (eksplosivitet/plyometri), 5. Resistance (styrketræning), 6. Resiliency/Regenerate (energibaneanpasning) og 7. Recovery (nedkøling/respiration)."
+  - question: "Hvem har udviklet R7-metoden?"
+    answer: "R7-metoden er udviklet af den anerkendte amerikanske styrke- og konditionstræner Mike Robertson fra Indianapolis Fitness and Sports Training (IFAST)."
+  - question: "Hvorfor skal man udføre 'Reset' og 'Readiness' før tunge løft?"
+    answer: "Reset-øvelser bringer leddene (især bækken og skuldre) i en neutral udgangsposition, mens Readiness (dynamisk opvarmning) øger nervesystemets engagement og smører leddene, så du kan belaste kroppen sikkert under tæt på maksimal modstand."
 ---
 
-Mike Robertson er en af de online trænere, jeg synes er mest spændende. Han har udviklet programmet Bulletproof Athlete, som er bygget op efter princippet R7. Egentlig udviklede de metoden for bedre at kunne forklare træning til klienterne, men nu bygger de træningsprogrammerne op efter det.[^alwyn]
+Hvordan sikrer du, at din træning ikke bare gør dig stærkere, men samtidig holder dig skadesfri, bevægelig og velrestitueret?
 
-## R7-metoden
+Mange motionister og atleter begår den fejl at springe direkte fra omklædningsrummet over til bænkpressen eller squat-stativet. Resultatet er ofte overbelastningsskader, dårlig bevægekvalitet og manglende fremgang over tid.
 
-R1 --- Release
-: Arbejde med det bløde muskelvæv med foamrollere og lacrosse bolde. Vi arbejder med vævet for at løsne spændinger.
+For at løse dette problem udviklede den anerkendte amerikanske styrketræner **Mike Robertson** (medstifter af *Indianapolis Fitness and Sports Training - IFAST*) det pædagogiske system **R7-metoden**. Systemet dannede oprindeligt grundlag for hans populære e-bog *The Bulletproof Athlete Project*, men fungerer i dag som en af de mest anerkendte skabeloner til moderne programlægning.
 
-R2 --- Reset
-: Her prøver vi at forbedre vores ledposition, fx med posturale øvelser med vejrtrækning, udspændingsøvelser eller andet, hvor vi kan få kroppen i en bedre position til at træne.
+<div class="notice--info" markdown="1">
+**RAMP som universel opvarmningsskabelon**
+Mens R7-modellen er er en model for hele træningen, så er den populære [RAMP-model](/ramp-opvarmning/) for dig, der gerne vil have struktur på opvarmningen. Læs hvordan du bruger RAMP-rammen til at opbygge opvarmningsrutiner til både styrketræning, løb og holdsport.
+</div>
 
-R3 --- Readiness
-: Her gør vi os klar gennem dynamisk opvarmning, hvor vi fysiologisk også skal blive klar til træningen. Vi smører ledene, gør nervesystemet klar og forbedre bevægeligheden. Vi forbereder folk til at træne.
+---
 
-R4 --- Reactive
-: Vi arbejder med eksplosivitet og fyrer for alvor op for nervesystemet.
+## Hvad er R7-metoden?
 
-R5 --- Resistance
-: Her laver vi styrketræning. Øvelserne skal være udfordrende, så vi kan få et respons fra kroppen.
+R7-metoden er en opdeling af et enkelt træningspas i **7 kronologiske faser**, der hver især har et fysiologisk formål. 
 
-R6 --- Reciliency
-: Her er den metabolske del af træningen, hvor vi arbejder med energisystemer. Denne fase i træningen tager højde for, at vores energisystem er komplekst.
+Formålet er at tage atleter igennem en glidende overgang fra det parasympatiske nervesystem (ro og hvile) til maksimal sympatisk aktivering (tung styrke og eksplosivitet) — og til sidst roligt føre kroppen tilbage til restituering igen.
 
-R7 --- Recover
-: Kroppen gøres klar til at restituere, og vi vil gerne tænde for det para-sympatiske nervesystem igen, så restitutionen kan foregå hurtigst muligt.
+```
+[Release] ➔ [Reset] ➔ [Readiness] ➔ [Reactive] ➔ [Resistance] ➔ [Resiliency] ➔ [Recovery]
+```
 
-R7 har for mig været et rigtig godt system til at systematisere min programlægning. Jeg tænker alle faserne ind i højere eller mindre grad i både mere klassisk styrketræning, men også i løbetræningen. Så lader jeg faserne fylde mere eller mindre.
+### De 7 faser i R7-modellen
 
-Jeg har lavet et eksempel på, hvordan man kan bygge sit program op over R7-metoden.
+#### R1: Release (Vævspræparation)
+* **Formål:** Minske tonus og løsne spændinger i stramt muskelvæv via *Self-Myofascial Release (SMR)*.
+* **Metode:** Udføres med en foam roller, massagebold eller lacrossebold på udvalgte muskelgrupper (fx baller, lårbasser, lats og bryst). 
+* **Varighed:** 20–40 sekunder pr. område.
 
-[Bulletproof Day 1](/assets/pdf/programs/bulletproof-transition-day-1.pdf){: .btn .btn-success} [Bulletproof Day 2](/assets/pdf/programs/bulletproof-transition-day-2.pdf){: .btn .btn-success}
+#### R2: Reset (Postural korrektion)
+* **Formål:** Genoprette neutral ledpositionering i bækken, hofter og skuldre samt aktivere dybe stabiliserende muskler inden belastning.
+* **Metode:** Specifikke øvelser med fokus på udånding og bækkenvippe (f.eks. glute bridges, diagnoale løft eller [McGill Big 3](/mcgill-big-3/)).
+* **Varighed:** 1–2 specifikke øvelser.
 
-## Faser i Bulletproof athlete
+#### R3: Readiness (Dynamisk opvarmning)
+* **Formål:** Forberede krop og nervesystem på bevægelse. Øge kropstemperaturen, smøre leddene med ledvæske og forbedre det aktive bevægelsesudslag (Range of Motion).
+* **Metode:** Aktive, dynamiske strækøvelser uden tunge vægte (f.eks. groiners, verdens bedste stræk, wall slides og squat-rotationer).
 
-Foundation
-: I denne fase skaber vi et solidt bevægelsesgrundlag, vi kan bygge videre på. Vi vækker mindre muskler, og vi går i gang med at træne energisystemerne, bl.a. laver vi langsom excentrisk træning.
+#### R4: Reactive (Eksplosivitet & Pliometri)
+* **Formål:** Fyre maksimalt op under det centrale nervesystem (CNS) og stimulere de hurtige Type II-muskelfibre, mens kroppen er helt frisk.
+* **Metode:** Hop, kast og eksplosive bevægelser (f.eks. box jumps, medicinboldskast eller linje-hop). Udføres altid med lavt rep-antal og høj kvalitet.
 
-Stabilisation
-: Her arbejder vi med stabilitet, så vi lærer at stabilisere inden for vores nyligt genvundne _range of motion_. Vi udfordrer med pauser undervejs i løftene.
+#### R5: Resistance (Hovedtræning / Styrketræning)
+* **Formål:** Opbygge rå styrke, funktionel muskelmasse og mekanisk spænding.
+* **Metode:** Træningens primære løft opdelt i supersæt eller blokke (f.eks. squats, dødløft, bænkpres, chin-ups og tunge rygøvelser).
 
-Transition
-: Så går vi i gang med nogle af vores favoritøvelser igen - og nyder en forbedret følelse, fordi vi har været igennem _foundation_ og _stability_-faserne.
+#### R6: Resiliency / Regenerate (Energibaneanpasning)
+* **Formål:** Styrke kredsløbet, forbedre konditioneringen og øge kroppens evne til at tolerere og udskille metaboliske affaldsprodukter.
+* **Metode:** Varierer efter målsætning — fra højintensiv intervaltræning (HIIT) og slædeskub (*Prowler*) til lavere intensitet som *Cardiac Output*-træning eller cykling.
 
-Competition
-: Vi går tilbage til de helt store øvelser, og vi skubber til energisystemerne endnu en gang.
+#### R7: Recover (Nedkøling & Respiration)
+* **Formål:** Tænde for det parasympatiske nervesystem og bremse kroppen, så restitutionsprocesserne igangsættes øjeblikkeligt.
+* **Metode:** 2–5 minutters dybe diafragmatiske vejrtrækninger liggende på ryggen (f.eks. 4 sekunders indånding, 8 sekunders udånding), kombineret med let udspænding.
 
-## Læs mere om Bulletproof Athlete
+---
 
-{% include video provider="youtube" id="6LK0NVK0w1Y" %}
+## Periodisering i 4 faser: Fra fundament til præstation
 
-Du kan læse mere om [Bulletproof Athlete](https://robertsontrainingsystems.com/products/bulletproof-athlete/). Bogen har ikke kun træningstips, men også tips til kost og ernæring, [søvn](/soevn/) og restitution.
+I Mike Robertsons oprindelige *Bulletproof Athlete*-tilgang er R7-strukturen ikke statisk. Træningsbelastningen og øvelsesvalget udvikler sig over 16 uger fordelt på **4 overordnede periodiseringsfaser**:
 
-[^alwyn]: Alwyn Cosgrove præsenterer ideerne i programmet i en artikel om Bulletproof Athlete.
+| Fase | Navn | Fysiologisk fokus |
+| :--- | :--- | :--- |
+| **Fase 1** | **Foundation** | Opbygning af bevægelsesgrundlag, genetablering af ledbevægelighed og støttemuskulatur. |
+| **Fase 2** | **Stability** | Udfordring af motorisk kontrol og kropsstabilitet (ofte med asymmetrisk belastning og pauser). |
+| **Fase 3** | **Transition** | Genintroduktion af store sammensatte flerledsøvelser med forbedret bevægemønster. |
+| **Fase 4** | **Competition** | Maksimal præstation, tunge løft, eksplosivitet og høj kredsløbsbelastning. |
+
+---
+
+## Eksempel på et R7-Træningspas
+
+Her er et konkret eksempel på, hvordan du kan opbygge en fuldkropstræning ud fra R7-principperne:
+
+### R1: Release (3 minutter)
+* Foam rolling af baglår, adduktorer og øvre ryg (30 sek. pr. sted).
+
+### R2: Reset (2 minutter)
+* **Supine Diaphragmatic Breathing:** 8 dybe vejrtrækninger med fødderne på væggen.
+* **Glute Bridge:** 10 kontrollerede repetitioner med 2 sekunders hold på toppen.
+
+### R3: Readiness (5 minutter)
+* **World's Greatest Stretch:** 5 reps pr. side.
+* **Forearm Wall Slides:** 8 reps for skulderbladskontrol.
+* **Prisoner Bodyweight Squats:** 10 dybe reps.
+
+### R4: Reactive (4 minutter)
+* **Box Jumps:** 3 sæt x 3 reps (fokus på bløde landinger og maksimal eksplosivitet).
+* **Medicinbold Brystkast:** 3 sæt x 5 reps.
+
+### R5: Resistance (30-40 minutter)
+* **1A) Goblet Squat (eller Barbell Squat):** 3 sæt x 8 reps (Pause: 60 sek)
+* **1B) Inverted Rows / Ryg-roing:** 3 sæt x 8-10 reps (Pause: 60 sek)
+* **2A) Rumænsk Dødløft:** 3 sæt x 8 reps (Pause: 60 sek)
+* **2B) Push-ups (eller Bænkpres):** 3 sæt x 8-10 reps (Pause: 60 sek)
+
+### R6: Resiliency (8-10 minutter)
+* **Prowler Skub / Airdyne Cykel:** 30 sekunders højt tempo / 60 sekunders let rul x 5 runder.
+
+### R7: Recover (3 minutter)
+* Liggende ryg-respiration (10 dybe ind- og udåndinger for at sænke pulsen).
+
+---
+
+## Hvorfor virker R7-systemet så godt?
+
+Det smukke ved R7-metoden er dens **fleksibilitet**. Hvad enten dit primære mål er vægttab, opbygning af [muskelmasse](/muskelmasse-beregner/) eller præstationsfremgang i idræt, giver skabelonen dig en struktur, du altid kan læne dig op ad.
+
+Systemet sikrer, at du aldrig glemmer de vigtige "støtteelementer" — såsom skadesforebyggende opvarmning, postural kontrol og optimeret restitution.
+
+---
+
+## Ofte stillede spørgsmål om R7-metoden
+
+{% include motionsplan/faq.html %}
+
+---
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+* Robertson, Mike (2013). *The Bulletproof Athlete Project*. Robertson Training Systems / IFAST.
+* Jamieson, Joel (2009). *Ultimate MMA Conditioning*. Performance Sports Conditioning.
+* McGill, Stuart M. (2015). *Back Mechanic: The secrets to a healthy spine*. Backfitpro Inc.
+
+</details>

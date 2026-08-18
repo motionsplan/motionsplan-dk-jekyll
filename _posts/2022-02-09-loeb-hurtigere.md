@@ -51,7 +51,7 @@ Når du vælger at bruge intervaller, så skal selve intervallerne føles hårde
 
 Intervaller er naturligvis virkelig hårde, så du skal ikke gøre det for ofte. Et eksempel på intervaller, som ofte bliver brugt med løbere er:
 
-- 10-20-30
+- [10-20-30 intervaltræning](/10-20-30-intervaltraening/)
 - 3-5 minutters løb og 2-3 minutters pause
 
 Du kan eksperimentere med aktiv pause i forhold til at hvile fuldstændigt. Vi har skrevet en masse forslag til [intervaltræning til løb](/intervallob-intervaltraening/), hvor du kan blive inspireret.

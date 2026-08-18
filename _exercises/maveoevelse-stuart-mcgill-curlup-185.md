@@ -40,3 +40,7 @@ last_modified_at: 2011-04-16T09:09:12Z
 Du lægger en hånd under ryggen for at sikre at der ikke kommer fleksion i selve rygsøjlen. Når du løfter brystkassen lige op mod loftet, skal du ikke føle at ryggen presser på dine hænder. Hold din brystkasse hævet i omkring 10 sekunder. Hold en kort pause. Se i øvrigt en god forklaring i videoen nedenunder.
 
 Stuart McGill curlup et et godt alternativ til [øvelsen mavebøjning](/oevelse/maveboejning/). Vi har beskrevet flere [øvelser til mavetræning](/maveoevelser/), hvis du vil have endnu flere øvelser at vælge imellem.
+
+> **💡 Brug *Modified Curl-Up* til at skåne lænden**  
+> Vidste du, at almindelige mavebøjninger med fleksion i ryggen belaster lændediskusskiverne markant? I Dr. McGills *Modified Curl-Up* ligger lænden helt stille, mens du får maksimal aktivering af forsiden uden gnavende rygstød.  
+> 👉 **[Lær den korrekte McGill Curl-Up teknik og hele Big 3-serien her](/mcgill-big-3/)**

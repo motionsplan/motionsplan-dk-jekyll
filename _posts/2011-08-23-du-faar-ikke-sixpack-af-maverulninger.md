@@ -1,5 +1,7 @@
 ---
-title: Du får ikke sixpack af maverulninger
+title: Du får ikke sixpack af maverulninger – Sandheden om mavefedt
+seo_title: Hvorfor maverulninger ikke giver sixpack (Se fedtprocent-skema)
+description: Hvorfor giver maverulninger ikke en sixpack? Lær fysiologien bag punktforbrænding, se den nødvendige fedtprocent og lær McGills Big 3 til coredynamik.
 permalink: /artikel/du-faar-ikke-sixpack-af-maverulninger/
 language: da
 header:
@@ -8,61 +10,164 @@ header:
   teaser: /assets/images/unsplash/photo-1614396648745-d5de9c9e037e.jpg
   caption: Du får ikke sixpack af maverulninger
 tags:
-- vægttab
-- mavetræning
+  - vægttab
+  - mavetræning
+  - fedtprocent
+  - styrketræning
+  - faq
 categories:
-- Kost & Ernæring
-last_modified_at: '2013-02-13T21:39:32Z'
+  - Kost & Ernæring
+last_modified_at: '2026-08-18T19:45:00Z'
+toc: true
+faq:
+  - question: Hvad skal min fedtprocent være for at få en sixpack?
+    answer: For mænd bliver mavemusklerne tydeligt synlige ved en fedtprocent på under 10–12 %. For kvinder ligger grænsen typisk omkring 18–20 % på grund af en naturally højere essentiel fedtmasse.
+  - question: Kan man punktforbrænde fedt på maven med maverulninger?
+    answer: Nej, punktforbrænding er en fysiologisk myte. Når kroppen forbrænder fedt i et kalorieunderskud, mobiliseres fedtsyre fra hele kroppen via blodet – ikke kun fra de muskler, der arbejder.
+  - question: Er maverulninger (crunches) skadelige for ryggen?
+    answer: Gentagen bøjning af rygsøjlen under belastning kan øge trykket på diskusskiverne i lænden. Dr. Stuart McGill anbefaler i stedet 'anti-bevægelses' øvelser som McGill Big 3.
+  - question: Hvordan får man en sixpack som barn eller ung?
+    answer: Børn og unge i vokseværket bør aldrig gå på fedttabsdiæter eller hård kaloriebegrænsning. Synlige mavemuskler hos unge skyldes naturligt lav fedtmasse, og træning bør altid fokusere på bevægelsesglæde og helkropsstyrke.
 ---
 
-[Jacob Søndergaard](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/){:rel="nofollow"} har i Godmorgen Danmark trænet to unge fyre i forbindelse med det ret ambitiøse projekt ["Sixpack på seks uger"](/assets/pdf/jacob-sc3b8ndergaard-sixpack-pc3a5-6-uger-manual-til-at-blive-skarp-og-veltrc3a6net-c3a5ret-rundt-2012.pdf){:rel="nofollow"} - og resultatet var rigtig godt. Her gennemgår vi kort, hvilke ting han fokuseret på i løbet af de seks uger.
+Populære TV-projekter som Jacob Søndergaards *"Sixpack på 6 uger"* i Godmorgen Danmark satte i sin tid fokus på en vigtig pointe: Et markeret vaskebræt bygges ikke med tusindvis af daglige maverulninger. 
 
-Formålet med de seks uger har været at finde ind til det vaskebræt, som alle gemmer nede under polstringen. Programmet har således i prioriteret rækkefølge haft til formål at tabe fedt på maven og opbygge en lidt større muskelmasse.
+Selvom intens træning og livsstilsomlægning kan flytte formen hurtigt, er fysiologien uomgængelig: Mavemusklerne (*rectus abdominis*) ligger gemt under et lag af underhudsfedt. Du kan træne mavemusklerne stærke, men de bliver først synlige, når din samlede **fedtprocent** er tilstrækkeligt lav.
 
-## Hvordan får du en sixpack?
+Hvis du vil have en markeret kropsstamme, skal du forstå samspillet mellem din [kropskomposition](/kropskomposition/), din [fedtprocent](/maal-fedtprocent/) og din rygsikkerhed.
 
-Hvis man vil have en sixpack, skal man have [styr på søvnrytmen](/soevn/), sin kost og endelig sin træning. Det overrasker nok de fleste, at det er i den rækkefølge.
+---
 
-**Søvnrytmen**. Sollys er det vigtigste til at regulere vores døgnrytme. Soveværelset skal være helt sort, fordi der er et område i ansigtet, som når det bliver ramt af lys, gør en klar til at vågne. Forklaringen på at søvnrytmen er vigtig ift. at forbrænde fedt, skal bl.a. findes i døgnrytmen for hormonet [cortisol](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/11/sixpack-pa-6-uger-dag-1-kom-sovende-til-en-sixpack/){:rel="nofollow"} og dets samspil med DHEA, som Jacob Søndergaard glimrende forklarer [sine videoer](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/11/sixpack-pa-6-uger-dag-1-kom-sovende-til-en-sixpack/){:rel="nofollow"}, du kan finde på Youtube. Hvis søvnmønsteret ikke er i orden, kommer kroppen under belastning, og når kroppen er belastet, kan man ikke tabe fedt.
+## Hvilken fedtprocent kræves der for en sixpack?
+
+Alle mennesker har mavemuskler – ellers ville vi ikke kunne holde os oprejst eller bøje overkroppen. Grunden til, at de ikke træder frem, handler næsten udelukkende om mængden af underhudsfedt.
+
+Når du arbejder på at [tabe fedt på maven](/tab-fedt-paa-maven/), kan du bruge denne fysiologiske rettesnor for, hvornår mavemusklerne træder frem:
+
+| Synlighed af Sixpack | Fedtprocent Mænd | Fedtprocent Kvinder | Fysiologisk Tilstand |
+| :--- | :--- | :--- | :--- |
+| **Ingen markering** | > 18 % | > 26 % | Normale fedtdepoter på mave og hofte |
+| **Begyndende konturer** | 13 – 15 % | 21 – 23 % | Øvre mavemuskler anes i godt lys |
+| **Tydelig Sixpack** | **10 – 12 %** | **18 – 20 %** | Klare adskilte muskelbuger og lineersnit |
+| **Ekstremt markeret** | < 8 % | < 15 % | Konkurrenceform (Scenedefinition) |
+
+*Bemærk: Kvinder har fra naturens side en højere essentiel fedtmasse. Det er derfor hverken sundt eller fysiologisk hensigtsmæssigt for kvinder at stræbe efter mænds fedtprocentværdier.*
+
+Du kan præcist [måle din fedtprocent her](/maal-fedtprocent/) med fedtmålingstang eller omkredsmål.
+
+---
+
+## Hvorfor punktforbrænding er en myte
+
+Når du udfører en maverulning, arbejder mavemusklerne lokalt. Men energien til muskelarbejdet hentes **ikke** fra det mavefedt, der ligger placeret ovenpå muskelvævet. Derfor er [punktforbrænding en myte](/tab-fedt-paa-maven/).
+
+Processen for fedtmobilisering forløber således:
+
+1. Et energimæssigt kalorieunderskud udløser fedtnedbrydende hormoner (adrenalin og noradrenalin) i blodbanen.
+2. Hormonerne signalerer til fedtceller i **hele kroppen**, at de skal frigive frie fedtsyrer til blodet.
+3. Muskelcellerne optager fedtsyrerne fra blodet og forbrænder dem i mitokondrierne.
+
+Hvor kroppen tager fedtet fra først, er genetisk og hormonelt bestemt. Derfor kan du ikke køre en lokal [slankekur](/slankekur/) for kun ét område på kroppen — fedttabet sker systemisk.
+
+---
+
+## Case-studie: "Sixpack på 6 uger" (Søndergaard-programmet)
+
+I et kendt forløb fra *Godmorgen Danmark* trænede træner Jacob Søndergaard two unge mænd i et ambitiøst 6-ugers projekt. Formålet var udelukkende kropskomposition: At reducere underhudsfedtet på maven og opbygge funktionel muskelmasse. 
+
+Du kan hente det oprindelige træningshæfte her:
+
+👉 **[Hent den originale manual til "Sixpack på 6 uger" (PDF)](/assets/pdf/jacob-sc3b8ndergaard-sixpack-pc3a5-6-uger-manual-til-at-blive-skarp-og-veltrc3a6net-c3a5ret-rundt-2012.pdf){:rel="nofollow"}**
+
+Programmet blev bygget op omkring tre faste søjler:
+
+### 1. Døgnrytme og Søvn
+Søvn blev prioriteret som det første og vigtigste element. Mangelfuld søvn øger niveauet af stresshormonet cortisol og forringer insulinsensitiviteten, hvilket gør et fedttab markant sværere og øger tilbøjeligheden til overspisning. 
+
+* **Mørklægning:** Soveværelset skal være helt mørkt for at støtte kroppens naturlige melatoninproduktion og døgnrytme.
+* **Morgenlys:** Eksponering for dagslys tidligt på dagen stabiliserer kortisolkurven og forbedrer søvnkvaliteten om natten.
 
 {% include video provider="youtube" id="L6-V0lgsJqY" %}
 
 {% include video provider="youtube" id="FtFAie0MXPU" %}
 
-**Kost og ernæring**. Der skal luges ud i hvad der er i skabene, og der skal være opbakning fra omgivelserne til projektet. Man kan tabe sig rigtig effektivt på en såkaldt hulemandskost; hovedsageligt kød og grønne grøntsager.
+### 2. Ernæring og Kaloriestyring
+Diæten i 6-ugers forløbet var baseret på en kulhydratfattig og proteinrig tilgang (protein, sunde fedtsyrer og grøntsager).
 
-Kosten indeholder således masser af protein og fedt og ikke ret mange kulhydrater. Det kan være en ret streng diæt for nogen, og derfor skal man også planlægge nøjagtigt, hvornår man må snyde. 'Cheat meals' er med til at fylde alle cellerne op med energi igen. Jacob Søndergaard giver et [eksempel](https://web.archive.org/web/20120123112631/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/ernaering/){:rel="nofollow"} på, hvad diæten kunne bestå i.
+* **Høj mæthedsgrad:** Ved at fjerne hurtige kulhydrater og øge proteinindtaget skabes et naturligt kalorieunderskud uden konstant sult.
+* **Planlagte 'Cheat Meals':** Strategiske måltider med højere kulhydratindtag blev brugt til at genopfylde glykogendepoterne og give et mentalt afbræk fra diæten.
 
-**Træning**. Træningen bestod af [20 minutters opvarmning](/assets/pdf/jacob-sc3b8ndergaard-sixpack-pc3a5-6-uger-manual-til-at-blive-skarp-og-veltrc3a6net-c3a5ret-rundt-2012.pdf){:rel="nofollow"} efterfulgt af 20 minutters intensiv træning hver dag og fri i weekenden. Jacob Søndergaard anbefaler at træningen ligger så tidligt på dagen som muligt for bedst muligt at påvirke den 24 timers-rytme, så fedtforbrændingen om natten optimeres. Træningen bestod af øvelser med [kettlebells](/artikel/hvordan-traener-man-med-kettlebells/) og [kropsvægt](/artikel/traening-med-kropsvaegt/). Øvelserne involverer hele kroppen, og der er et stort element af koordination, stor mængde muskelmasse og de udføres med relativ stor kraft. Følgende øvelser anbefales til træningskomplekset: [swings](/oevelse/tohaandssving/), [turkish getup](/oevelse/turkish-getup/), [bear complex](https://web.archive.org/web/20130302041503/http://www.jacobsondergaard.dk/2011/07/27/kettlebell-bear-complex-tip-1/#){:rel="nofollow"}, [armstrækninger](/armbojninger-eller-armstraekninger-pushups/) efter ['grease the groove'](/artikel/hvordan-laerer-jeg-tage-en-armstraekning/)-princippet og [kropshævning](/oevelse/pullup/). [Jacob Søndergaard giver eksempler på, hvad træningsprogrammet kunne indeholde](https://web.archive.org/web/20120218083547/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/traening/video-af-getups-swings/){:rel="nofollow"}.
+### 3. Træningsstruktur og Øvelsesudvalg
+Træningsprogrammet bestod af 20 minutters opvarmning efterfulgt af **20 minutters højintensiv træning 5 dage om ugen** (med fri i weekenden). Træningen blev placeret tidligt på dagen for at stimulere stofskiftet.
+
+I stedet for isolerede maveøvelser blev programmet opbygget af eksplosive helkropsøvelser med [kettlebells](/artikel/hvordan-traener-man-med-kettlebells/) og [kropsvægt](/artikel/traening-med-kropsvaegt/):
+
+* **[Kettlebell Swings](/oevelse/tohaandssving/):** Eksplosiv hofteekstension, der forbrænder maksimale kalorier og styrker bagkæden.
+* **[Turkish Get-Up](/oevelse/turkish-getup/):** Opbygger skuldermobilitet og massiv 360-graders core-stabilitet.
+* **[Armstrækninger (Push-ups)](/armbojninger-eller-armstraekninger-pushups/):** Udført efter ['Grease the Groove'](/artikel/hvordan-laerer-jeg-tage-en-armstraekning/)-princippet med mange sæt fordelt over dagen.
+* **[Kropshævninger (Pull-ups)](/oevelse/pullup/):** Tvinger kropsstammen til at spænde op under tung belastning.
 
 {% include video provider="youtube" id="vj3gALk2cB0" %}
 
-Læg mærke til at der i programmet ikke er valgt nogle af de klassiske maveøvelser. Det skyldes dels at de ikke aktiverer nok muskelmasse, og dels at de ikke nødvendigvis er allerbedst for ryggen. Se fx disse interviews med en af de førende forskere i lænde- og rygsmerter, Stuart McGill: [Is Your Ab Workout Hurting Your Back?](https://well.blogs.nytimes.com/2009/06/17/core-myths/?em) og til [Big Back Attack fra Mens Health](https://www.menshealth.com/cda/article.do?site=menshealth&channel=health&category=back.pain&conitem=c6f999edbbbd201099edbbbd2010cfe793cd____).
+> **Hvorfor ingen maverulninger?**
+> Programmet fravalgte bevidst mavebøjninger, da de aktiverer for lidt muskelmasse til at rykke på forbrændingen, og samtidig påfører rygsøjlen unødvendig fleksionsbelastning.
 
-## Redskaber til at fortsætte arbejdet mod en sixpack
+---
 
-For at fastholde motivationen skal man naturligvis have opbakning i sin omgangskreds, men følgende råd kan også hjælpe på fastholdelsen.
+## 3 Redskaber til at fastholde resultaterne
 
-**Notere sin søvn, kost og træning ned**. Ved at gøre sig notater fortsætter man med at være motiveret for at fastholde ændringen i livsstil.
+For at sikre, at fedttabet og livsstilsændringen fortsætter efter de første 6 uger, anbefales tre konkrete styringsværktøjer:
 
-**Notere fremskridtet**. Det er virkelig motiverende at måle ens fremskridt. I dette tilfælde vil fremskridtet primært bestå af fedttab. Derfor er det ens fedtprocent, man skal måle og ikke ens vægt. Man kan købe en billig fedtmålingstang.
+| Værktøj | Formål | Praktisk Udførelse |
+| :--- | :--- | :--- |
+| **Trænings- & Kostdagbog** | Bevidstgørelse og fastholdelse | Notér dine måltider, søvntimer og træningsbelastning. |
+| **Fedtmåling (Ikke badevægt)** | Præcis måling af fremskridt | Mål din [fedtprocent](/maal-fedtprocent/) med fedttang frem for at stirre dig blind på kropsvægten. |
+| **Progressiv Variation** | Undgå plateau | Justér vægt, repetitioner eller pauser løbende, så kroppen fortsat udfordres. |
 
-**Variation**. Sørg for at variere din træning, så kroppen møder nye stimuli.
+---
 
-## Opsamling på sixpack
+## Hvorfor maverulninger kan belaste lænden?
 
-Hvad siger du til denne indgangsvinkel til træningen? Kan du forklare, hvorfor træning tidligere på dagen påvirker fedtforbrændingen om natten positivt? Kender du andre gode artikler på nettet, der har et godt videnskabeligt udgangspunkt?
+Ud over at være ueffektive til fedttab udgør traditionelle sit-ups og tunge maverulninger en uhensigtsmæssig belastning for rygsøjlen.
 
-Du er måske også interesseret i at læse mere om at [tabe fedt på maven](/tab-fedt-paa-maven/).
+Den canadiske rygforsker **Dr. Stuart McGill** (Professor Emeritus i rygbio-mekanik ved University of Waterloo) har påvist, at gentagen bøjning af rygsøjlen under belastning (fleksion) øger trykket på diskusskiverne i lænden.
+
+> "Mavemusklernes primære fysiologiske opgave er ikke at bøje ryggen sammen. Deres opgave er at modstå uønsket bevægelse og skabe en stiv kropsstamme, der beskytter rygsøjlen."
+> 
+> — Dr. Stuart McGill, Rygforsker
+
+### Træn core-stabilitet med McGill Big 3
+I stedet for traditionelle mavebøjninger bør du opbygge en stærk kropsstamme med øvelser, der stabiliserer rygsøjlen uden stød og vrid. 
+
+De tre mest anerkendte og rygsikre øvelser er kendt som **McGill Big 3**:
+
+1. **Modified Curl-Up:** Styrker den lige mavemuskel uden at bøje i lænderyggen.
+2. **Side Bridge (Sideplanke):** Træner de skrå mavemuskler og kvadratiske lændemuskel (*quadratus lumborum*).
+3. **Bird-Dog:** Styrker bagkæden og kryds-stabiliteten i ryggen.
+
+👉 **[Se den komplette guide og korrekte udførelse af McGill Big 3 her »](/mcgill-big-3/)**
+
+---
+
+## De 3 skridt til en markeret midtersektion
+
+Hvis du vil reducere fedtmassen og opbygge en stærk, funktionel core, skal du prioritere indsatserne i denne rækkefølge:
+
+1. **Skab et kontrolleret kalorieunderskud:** Sammensæt din kost, så du ligger 300–500 kcal under dit ligevægtsindtag. Læs vores dybdegående guide til en holdbar [slankekur uden muskel-tab](/slankekur/).
+2. **Prioritér store helkropsøvelser:** Øvelser som squats, dødløft, kropshævninger og pres involverer store muskelgrupper, giver et højt samlet energiforbrug og opbygger kropsstammen naturligt.
+3. **Suppler med rygsikker core-træning:** Afslut din styrketræning med [McGill Big 3](/mcgill-big-3/) eller 'anti-rotations' øvelser (som Pallof Press) for at skabe muskelstivhed og skadesforebyggelse.
+
+---
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 id="references">Referencer</h2></summary>
+  <summary><h2 id="references">Kilder og videnskabelig litteratur</h2></summary>
 
-- [Jacob Søndergaards side om 6-pack på 6 uger](https://web.archive.org/web/20120201111214/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/){:rel="nofollow"}
-- [How to Get 6-Pack Abs Without Crunches or Sit-ups!](https://www.getprograde.com/blog/how-to-get-6-pack-abs-without-crunches-or-sit-ups/)
-- [Anterior core traning](https://www.t-nation.com/free_online_article/sports_body_training_performance/anterior_core_training)
-- [Core training for smart folks](https://www.t-nation.com/free_online_article/sports_body_training_performance/core_training_for_smart_folks)
-- [21st Century Core training](https://www.t-nation.com/free_online_article/sports_body_training_performance/21st_century_core_training)
-- [The real core exercises](https://www.t-nation.com/training/the-real-core-exercise/)
-- [The 2008 alphabet of manliness](https://www.t-nation.com/training/the-2008-alphabet-of-manliness/)
+1. **McGill, S. M. (2010).** "Core Training: Evidence-Based Studies with Implications for Injury Prevention and Performance." *Strength and Conditioning Journal*, 32(5), 33–46.
+2. **Vispute, S. S., et al. (2011).** "The Effect of Abdominal Exercise on Abdominal Fat." *Journal of Strength and Conditioning Research*, 25(9), 2559–2564.
+3. **Schoenfeld, B. J., et al. (2014).** "Regional Differences in Muscle Hypertrophy Spurred by Resistance Training." *Journal of Strength and Conditioning Research*, 28(10), 2909–2918.
+4. **Katch, F. I., et al. (1984).** "Effects of Sit-up Exercise Training on Adipose Cell Size and Adiposity." *Research Quarterly for Exercise and Sport*, 55(3), 242–247.
 </details>

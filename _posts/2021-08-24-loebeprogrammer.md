@@ -93,7 +93,7 @@ Måske er du allerede godt i gang med at løbe, og nu har du ambitioner om at pr
 | :--- | :--- | :--- | :--- | :--- |
 | **[5 km Løbeprogram](/loebeprogram-5km/)** | Begyndere & Motionister | 8 uger | 3 pas / uge | Gå/løb-intervaller & roligt tempo |
 | **[10 km Løbeprogram](/loebeprogram-10km/)** | Let øvede (kan løbe 5 km) | 12 uger | 3 pas / uge | Tærskeltempo & gradvis øgning af distance |
-| **[Halvmaraton (21 km)](/loebeprogram-halvmaraton-21km/)** | Øvede løbere | 12 uger | 3–4 pas / uge | Lange ture, 10-20-30 intervaller & energiindtag |
+| **[Halvmaraton (21 km)](/loebeprogram-halvmaraton-21km/)** | Øvede løbere | 12 uger | 3–4 pas / uge | Lange ture, [10-20-30 intervaller](/10-20-30-intervaltraening/) & energiindtag |
 | **[Maraton (42 km)](/loebeprogram-maraton-42km/)** | Erfarne løbere | 16 uger | 4 pas / uge | Stor udholdenhed, tapering & undgå muren |
 
 ---
