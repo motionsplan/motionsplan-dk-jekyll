@@ -139,7 +139,7 @@ Hvis dit træningsprogram siger, at du skal køre **5 sæt af 5 gentagelser på 
 
 Skal du løfte noget andet end 100 kg? Indtast din arbejdsvægt herunder og få automatisk tilpasset dine opvarmningssæt:
 
-{% include rampup_beregner.html %}
+{% include components/rampup_beregner.html %}
 ---
 
 ## Konklusion
