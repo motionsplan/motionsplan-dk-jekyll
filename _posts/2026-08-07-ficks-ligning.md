@@ -105,7 +105,7 @@ Fordi Ficks ligning har two adskilte ben, reagerer de også forskelligt på træ
 
 | Træningstype | Primær Fysiologisk Effekt | Fick-komponent |
 | :--- | :--- | :--- |
-| **Højintensiv Intervaltræning (HIIT)** <br> *(fx 4x4 min ved 90-95% HRmax)* | Hjertet fyldes med maksimalt blodvolumen under det høje tryk. Udvider venstre hjertekammer og øger **Slagvolumen**. | **Central ($Q$)** |
+| **Højintensiv Intervaltræning (HIIT)** <br> *(fx [4x4 min](/4x4-intervaltraening/) ved 90-95% HRmax)* | Hjertet fyldes med maksimalt blodvolumen under det høje tryk. Udvider venstre hjertekammer og øger **Slagvolumen**. | **Central ($Q$)** |
 | **Zone 2 Træning (Rolig udholdenhed)** <br> *(fx 1–3 timers løb/cykling i snakketempo)* | Stimulerer kapillærvækst og mitokondriedannelse i de langsomme (Type I) muskelfibre. | **Perifer ($\text{a-vO}_2\text{ diff}$)** |
 
 For at opnå et maksimalt kondital rækker det altså ikke kun at køre korte, hårde intervaller eller udelukkende lunte lange ture — du har brug for **både central og perifer adaptation**.

@@ -1,149 +1,150 @@
 ---
-title: 'Tabata-træning: 4 minutters effektiv intervaltræning'
-description: Tabata er 4 minutters hård, effektiv intervaltræning. Her får du den rigtige forklaring på hvad 8x 20 sekunders
-  Tabata-intervaller og Tabata-træning er!
+title: 'Tabata-træning: Sandheden om 4 minutters intervaltræning'
+seo_title: 'Hvad er en rigtig Tabata? (Fysiologi, 20/10-myten & Øvelser)'
+description: Hvad er en ægte Tabata? Lær forskellen på fysiologisk Tabata og almindelig 20/10-træning, den fulde originale protokol fra 1996, og de bedste øvelser.
 permalink: /artikel/tabata-traening-intervaller/
 redirect_from:
-- /artikel/4-minutters-h-rd-intervaltr-ning-bedre-end-en-times-moderat-l-b
-- /artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb
-- /artikel/4-minutter-i-helvede
+  - /artikel/4-minutters-h-rd-intervaltr-ning-bedre-end-en-times-moderat-l-b
+  - /artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb
+  - /artikel/4-minutter-i-helvede
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1586919257548-66ec29b8c7ed.jpg
   credit: https://images.unsplash.com/photo-1586919257548-66ec29b8c7ed
-  caption: Hvad er Tabata, Tabata-intervaller og Tabata-træning?
+  caption: Hvad er fysiologisk Tabata i forhold til almindelig 20/10-træning?
 tags:
-- udholdenhed
-- træning
-- intervaltræning
-- anaerob træning
-- aerob træning
-- løb
-- træningsmetode
+  - udholdenhed
+  - træning
+  - intervaltræning
+  - anaerob træning
+  - aerob træning
+  - løb
+  - træningsmetode
+  - faq
 categories:
-- Kondition
-- Løb
-last_modified_at: '2021-01-17T22:42:12Z'
+  - Kondition
+  - Løb
+last_modified_at: '2026-08-18T22:45:00Z'
 sidebar:
   nav: methods
+toc: true
+faq:
+  - question: Hvad er forskellen på en rigtig Tabata og almindelig 20/10-træning?
+    answer: En rigtig Tabata kræver supramaksimal belastning (170 % af VO₂max) på cykel eller løb, hvor hjertekredsløbet presses systemisk. Almindelig 20/10-træning med øvelser som armstrækninger eller squats er tidsstyret cirkeltræning, hvor lokal muskeltræthed stopper dig før pulsen og kredsløbet når toppen.
+  - question: Indeholdt den originale Tabata-protokol også rolig træning og opvarmning?
+    answer: Ja. I Izumi Tabatas studie fra 1996 lavede forsøgsgruppen 10 minutters opvarmning før hver Tabata. Derudover bestod 1 ud af de 5 ugentlige træningsdage af 30 minutters rolig udholdenhedstræning (70 % VO₂max) efterfulgt af kun 4 intervaller.
+  - question: Hvilke Tabata øvelser er bedst?
+    answer: De bedste Tabata-øvelser er cykliske bevægelser på kardiomaskiner – herunder kondicykel/Wattbike, roergometer, AirBike samt løbesprint på bakke.
 ---
 
-Tabata er 4 minutters hård intervaltræning, der er mere effektivt end en times moderat løb. Træning bliver ofte præsenteret som Tabata-intervaller, men langt det meste Tabata-træning bliver ikke lavet efter forskrifterne, så lad os dykke lidt ned i hvad Tabata-træning er?
+Begrebet **Tabata** brager frem i holdtræning, CrossFit og fitness-apps. Alt, der afvikles med et timer-ur på 20 sekunders arbejde og 10 sekunders pause, får i dag automatisk mærkatet "Tabata".
 
-Hvad er Tabata? **Tabata er intervaltræning med 8 x 20 sek _all out_-intervaller med 10 sek pause mellem arbejdsintervallerne. Træningen er undersøgt af den japanske forsker Izumi Tabata i 1996 og var oprindeligt rettet mod speedskatere.**
+Men der er et kæmpe fysiologisk problem: **At køre et 20/10-tidsmønster gør ikke din træning til en Tabata.**
 
-Det er egentlig ikke Izumi Tabata, der har opfundet træningsformen, men han undersøgte i 1996 en træningsform som blev brugt af speedskatere. Tabata er [anaerob træning](/anaerob-traening/), som også har en god effekt på det aerobe system. Tabata er [intervaltræning](/intervaltraening/).
+Langt det meste af det indhold, der markedsføres som Tabata i dag, er i virkeligheden blot almindelig cirkeltræning tidsstyret i 20 sekunders intervaller. Hvis du vil have den legendariske fremgang i [kondital](/kondital/) og [anaerob kapacitet](/anaerob-traening/), skal du forstå, hvad en fysiologisk korrekt Tabata kræver – og hvorfor det oprindelige studie indeholdt meget mere end blot 4 minutters arbejde.
 
-I dag bliver Tabata-intervallerne flittigt brugt inden for holdtræning, crossfit, men også løbere, roere, cykelmotionister bruger træningen. Langt de fleste laver dog i virkeligheden ikke træning efter Tabatas foreskrifter, selvom de arbejder i 20 sekunder og holder pause i 10 sekunder. Tabataintervaller er nemlig **all out** i arbejdsperioden.
+---
 
-Tabata-træning bliver markedsført som en meget let måde at komme i form på med kun 4 minutters arbejde. Det er en fantastisk påstand, men det er altså ikke let træning.
+## Den oprindelige Tabata-protokol (1996) – Det glemte fundament
 
-## Tabatas oprindelige studie
+Tabata-protokollen blev undersøgt af den japanske forsker Izumi Tabata i 1996 på opfordring fra det japanske landshold i speedskating. I fitness-myten fremstilles det ofte som om, at udøverne blot trænede 4 minutter om dagen og intet andet. 
 
-Lad os kigge lidt på Izumi Tabatas oprindelige studie fra 1996, som har givet navn til Tabata-intervaller.
+Læser man det oprindelige studie og fysiologiske analyser af protokollen (blandt andet belyst af trænere som Mike Robertson i hans gennemgang af *The Tabata Myth* og aerobe energisystemer), opdager man to helt afgørende detaljer, som de fleste misser:
 
-**Ved at løbe intervaller i 4 minutter kan trænede med træning fem gange om ugen i seks uger forbedre deres maksimale iltoptagelse med 14% og den anaerobe kapacitet med 28%.**
+### 1. Obligatorisk opvarmning før hver runde
+Forsøgspersonerne satte sig ikke uforberedt op på cyklen for at køre 4 minutters helvede. Hver eneste af de 4 ugentlige Tabata-sessioner blev indledt med **10 minutters grundig opvarmning** ved 50 % af [VO₂max](/maksimale-iltoptagelse-vo2max/). 
 
-Tabata (1996) sammenlignede to træningsprotokoller for deres virkning på det aerobe (maksimale iltoptagelse) og det anaerobe energisystem (evnen til at arbejde uden ilt). Forsøgsgrupperne var trænede. Begge forsøgsgrupper trænede fem dage om ugen i seks uger.
+### 2. Rolig mængdetræning var en del af ugeplanen
+Forsøgsgruppen trænede 5 dage om ugen. Men den femte dag var anderledes: Her kørte udøverne **30 minutters rolig, kontinuerlig udholdenhedstræning** ved 70 % af VO₂max, efterfulgt af blot 4 runder af 20/10-intervaller. 
 
-- **Gruppe 1** udførte længerevarende, kontinuerligt arbejde (1 time) med moderat intensitet (70% af VO<sup>2</sup>max).
-- **Gruppe 2** udførte kortvarigt arbejde (20 sekunder) med korte pauser (10 sekunder) med meget høj intensitet (170% af VO<sup>2</sup>max). Dette blev gentaget 7-8 gange. En samlet arbejdstid på 4 minutter. Den ene gang om ugen bestod træningen af kontinuerlig træning.
+Tabata var altså *aldrig* tænkt som en fuldstændig erstatning for et [aerobt fundament](/polariseret-traening/). Det var en ekstrem supramaksimal overbygning oven på en i forvejen opbygget grundform.
 
-## Resultater fra Tabata-studiet
+> **Kravene til en fysiologisk ægte Tabata:**
+> * **Intensitet på 170 % af VO₂max:** Det betyder absolut All-Out effekter fra første sekund. Det er en belastning, der ligger langt over det tempo, hvor din maksimale iltoptagelse indfinder sig.
+> * **7-8 runder af 20 sek. arbejde / 10 sek. pause:** Blev der gennemført flere end 9 runder, blev modstanden på ergometercyklen øget med 11 Watt.
+> * **Varighed på præcis 4 minutter:** Hvis du har overskud til at køre en runde mere – eller tage endnu et Tabata-sæt efter et par minutters pause – har du *ikke* kørt ved den nødvendige intensitet.
 
-Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min (9%), mens der ikke var nogen ændring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) med 7 ml/kg/min fra 48 ml/kg/min til 53 ml/kg/min (14%), mens den anaerobe kapacitet blev forbedret med 28%.
+---
 
-{% comment %}
+## Fysiologisk Tabata vs. "Fitness-Tabata" (Vores kritik)
 
-Det er interessant at iltoptagelsen formår at blive hævet med moderat træning i 60 minutter med hele 5 ml/kg.
+Når man i fitnesscentre eller til holdtræning kører "Tabata" med øvelser som armstrækninger, air-squats, kettlebell swings eller mavebøjninger, rammer man to fysiologiske barrierer:
 
-Det er lidt interessant, at det ser ud til at gruppe to havde en dårligere iltoptagelse og evne til at komme i iltgæld, men det giver mening, at træner du energisystemet, så bliver du bedre.
+### 1. Lokal vs. Systemisk udtrætning
+Når du laver armstrækninger i et 20/10-mønster, stopper du ikke, fordi dit hjerte og dine lunger er ved at sprænges af mangel på ilt. Du stopper, fordi dine triceps og brystmuskler syrer til og svigter lokalt (*lokal muskulær udtrætning*). 
 
-{% endcomment %}
+Derved når dit hjertekredsløb måske kun op på 70–80 % af sin makkapacitet. Du opnår **ingen** af de unikke centralfysiologiske tilpasninger i hjertets slagvolumen, som gjorde Tabatas studie berømt. Det fungerer fint som lokal syretræning eller en metabolsk afslutning på en styrketræning, men det er fysiologisk set ikke en Tabata.
 
-## Diskussion af Tabata og intensive intervaller
+### 2. Skadesrisiko ved teknisk sammenbrud
+Izumi Tabatas forsøgspersoner trænede på en fastspændt ergometercykel. De kunne lukke øjnene og træde med 100 % kraft uden at tænke på balance eller teknik. 
 
-Tabatas resultater viser, at man med **meget intensiv intervaltræning kan forbedre både den aerobe og den anaerobe kapacitet**. Hvis man varmer op i fem minutter og nedvarmer i fem minutter, kan man altså med 14 minutters træning træning opnå bedre resultater end med længerevarende træning med moderat intensitet. Den positive effekt på både det aerobe og det anaerobe system skal formentlig findes i den meget korte pause.
+Hvis du i stedet forsøger at køre All-Out i tekniske løft (som barbell front squats, dødløft eller kettlebell snatches) under den voldsomme iltgæld, der opstår efter 2 minutter, bryder din kropsholdning uundgåeligt sammen, hvilket øger skadesrisikoen drastisk.
 
-Helgerud (2007) viste, at intervaltræning set i forhold til træning med moderat intensitet var mere effektivt for at forbedre VO<sup>2</sup>max for moderat trænede mandlige løbere. Forsøgsgrupperne trænede 3 gange om ugen i 8 uger. To grupper trænede intensivt. Gruppe 3 lavede 47 gentagelser med 15 sekunders arbejde og 15 sekunders pause på en intensitet omkring 95% af den [maksimale puls](/test-max-puls/), mens gruppe 4 lavede 4 gentagelser af 4 minutters arbejde (90-95% af maxpulsen) og 3 minutters aktiv restitution (70% af maxpulsen).
+---
 
-Det kunne være interessant at sammenligne disse to protokoller med forsøgsprotokollen hos Tabata (1996) for at se effekten både på den aerobe del og den anaerobe del. Helgerud et al (2007) viser desuden, at man formentlig ikke kan kompensere for intensitet ved at forlænge træningstiden.
+## Forsøgsdata: Hvorfor virker den ægte protokol så effektivt?
 
-Intervallerne hos Tabata (1996) virker på papiret som noget, man hurtigt kan overstå, men det er benhård træning, og de kan først anbefales, når man er kommet i relativ god form. Samtidig skal man være opmærksom på, at selvom man får en højere maksimal iltoptagelse, så passer træningsformen bedst på folk, der arbejder kort og intensivt. Tabata har ikke undersøgt, hvordan træningen påvirker de enzymer i musklerne, der har med udholdenhed over længere tid, og hvordan sener og knogler reagerer på træningen.
+I Tabatas studie fra 1996 blev to grupper af trænede udøvere sammenlignet over 6 uger:
 
-Så 14 minutters træning alene er nok ikke en genvej til at forbedre din maratontid, men træningsformen kan formentlig være et godt supplement til din maratontræning.
+* **Gruppe 1 (Moderat udholdenhed):** 60 minutters kontinuerligt arbejde ved 70 % af VO₂max (5 dage/uge).
+* **Gruppe 2 (Tabata-protokol):** 10 min. opvarmning + 4 min. All-Out Tabata (4 dage/uge) + 1 dag med 30 min. rolig cykling plus 4 intervaller.
 
-Desuden kunne det være interessant at sammenligne protokollerne hos Helgerud (2007) med Tabatas (1996) intervaller for at se, hvilken protokol der er mest effektiv i forhold til at forbedre iltoptagelsen og den anaerobe kapacitet.
+| Målepunkt | Gruppe 1 (1 times moderat træning) | Gruppe 2 (Ægte Tabata-protokol) |
+| :--- | :--- | :--- |
+| **VO₂max (Kondital)** | + 9 % stigning | **+ 14 % stigning** |
+| **Anaerob kapacitet** | Ingen ændring (0 %) | **+ 28 % stigning** |
 
-Man skal være opmærksom på at de største forbedringer skete inden for de første tre uger og derefter aftog forbedringerne. Dette kunne tyde på, at en af forklaringerne på de store forbedringer kan være chokeffekten af træningen.
+Resultatet var en sensation: 4 minutters supramaksimalt arbejde sammen med en ugentlig rolig tur flyttede det aerobe [kondital](/kondital/) *mere* end en hel times moderat træning – og byggede samtidig en enorm anaerob syretolerance.
 
-{% comment %}
+### Chokeffekten og det hurtige plateau
+De voldsomme forbedringer fortsætter dog ikke uendeligt. Data fra studierne viser en tydelig **chokeffekt**: Næsten hele fremgangen sker inden for de første 3 til 4 uger. Kroppen får et voldsomt fysiologisk chok, enzymaktiviteten i musklerne eksploderer, og derefter flader kurven ud.
 
-I HVILKET STUDIE? OG I HVAD?
+Rigtig Tabata er derfor en **peaking-protokol** (formtopning), som du med fordel kan køre i 4-6 uger for at bryde et plateau, men det bør ikke erstatte din generelle [intervaltræning](/intervaltraening/) eller udholdenhedstræning hele året.
 
-MEN DET VISER OGSÅ NOGET OM HVORDAN DET ER MEST EFFEKTIVT AT TRÆNE VO2
+---
 
-{% endcomment %}
+## Timer til Tabata-intervaller
 
-## Konklusion om Tabata-træning
+{% include components/timer.html %}
 
-{% comment %}
+---
 
-DET ER TILSYNELADENDE MERE EFFEKTIVT AT ARBEJDE MED HØJ INTENSITET GENNEM HELE TRÆNINGEN - HVAD BETYDER DET?
+## De bedste øvelser til en RIGTIG Tabata
 
-{% endcomment %}
+Hvis du vil udføre en fysiologisk korrekt Tabata, skal du vælge cykliske øvelser med stor muskelinvolvering, hvor du ikke bremses af grebsstyrke, balance eller teknisk svigt.
 
-Det er tilsyneladende mere effektivt at arbejde med høj intensitet gennem hele træningen. Med Tabatas intervaller kan du nøjes med 14 minutters træning inklusiv opvarmning og nedvarmning og få en bedre effekt på både det aerobe og anaerobe system en en times træning med moderat intensitet.
+### 1. Kondicykel / Wattbike / Ergometer (Det ultimative valg)
+Det var her, studiet blev udført. 
+* **Udførsel:** Kør 10 minutters opvarmning. Sæt modstanden så højt, at du lige akkurat kan holde trådet ved absolut maksimal pedalfrekvens. Træd alt, hvad du overhovedet kan i 20 sekunder. Slip modstanden/træd helt roligt i 10 sekunder. Gentag 8 gange.
 
-Du skal dog være opmærksom på, at du skal følge protokollen før det virker. Tabata-intervaller er nemlig usædvanligt hårde. Det er ikke nok at udføre Tabata som 20 sekunders arbejde og 10 sekunders pause. Rigtige Tabata-intervaller er med **20 sekunders hårdt intensivt arbejde**.
+### 2. Roergometer / AirBike (Assault Bike)
+Helkrops-kardiomaskiner er formidable til ægte Tabata, fordi de aktiverer både over- og underkrop samtidig uden lokal led-belastning.
+* **Udførsel:** Eksplodér i 20 sekunder på roergometret (fokuser på maksimal watt-udladning), efterfulgt af 10 sekunders helt roligt glid.
 
-## Varier dine Tabata-intervaller
+### 3. Løbesprint på bakke
+Almindeligt sprint på flad vej i 100 % tempo kan give baglårs-sprængninger under udtrætning. 
+* **Udførsel:** Find en jævn stigning/bakke. Sprint All-Out op ad bakken i 20 sekunder. Gå langsomt baglæns/stå stille i 10 sekunder. Stigningen tager toppen af den mekaniske stød-belastning i landingen, men holder den kardiovaskulære intensitet i absolut top.
 
-Det er i hvert fald usædvanlig hårdt - både for kroppen, men sandelig også for psyken. Og så tager det kun fire minutter. Den japanske forsker Izumi Tabata studerede træningsmetoderne hos speedskatere og skriver:
+---
 
-> 6-8 virkelig hårde 20 sekunders intervaller med 10 sekunders pause mellem intervallerne er måske en af de allerbedste træningsprotokoller overhovedet.
->
-> --- <cite>Izumi Tabata</cite>
+## Hvad så med 20/10-træning i fitnesscenteret?
 
-Hvis man går op i træning, så er der ingen undskyldning. Man skal prøve Tabata-intervaller, ganske enkelt fordi Tabata-intervaller giver en usædvanlig god effekt. De rigtige Tabata-intervaller foregår på et cykelergometer eller løbende.
+Betyder det, at du skal lade være med at lave 20 sekunders squat og 10 sekunders pause med kropsvægt? 
 
-## Øvelser til Tabata-intervaller
+Overhovedet ikke. Det er udemærket tidsstyret cirkeltræning til at få pulsen lidt op, forbrænde kalorier og bygge lokal muskulær udholdenhed. Du skal bare være bevidst om forskellen: 
 
-{% comment %}
+Kører du cirkeltræning i et 20/10-mønster, får du fin lokal syretræning for musklerne. Vil du derimod have den oprindelige, videnskabeligt dokumenterede [VO₂max-fremgang](/maksimale-iltoptagelse-vo2max/), skal du op på cyklen, i roergometret eller ud på bakken og levere 170 % All-Out.
 
-DEN HØJINTENSE TRÆNING RYKKER MÅSKE TINGENE MERE END MODRAT INTENSITET, MEN DET ER OGSÅ VANSKELIGERE AT RESTITUERE FRA. FORDELEN VED TABATA ER AT ARBEJDSPERIODEN ER SÅ KORT.
+---
 
-{% endcomment %}
+## Ofte stillede spørgsmål
 
-{% comment %}
-
-GIVER DET MENING AT BESKRIVE TABATAINTERVALLER SÅDAN HER - ER DET IKKE HER ILTOPTAGELSEN IKKE RIGTIGT RYKKES MED CROSSFIT-LIGNENDE TRÆNING?
-
-{% endcomment %}
-
-De oprindelige studier er lavet på cykelergometer med inspiration for speedskating-verden, men der er ikke noget i vejen for at være lidt kreativ med Tabata-intervallerne, hvis det kan give dig motivation.
-
-Dog skal man huske på, at det ikke nødvendigvis har helt samme effekt - og der er også alle mulig andre måder at strukturere en træning med høj intensitet.
-
-Sådan udføres Tabata-intervaller:
-
-{% include motionsplan/exercise-grid.html exercises="Tabata-intervaller" match="exact" type="left" %}
-
-Når du er blevet enig med dig selv om, at det da ikke kan være så hårdt som, de siger, så skal du bare vælge den øvelse, du vil lave. Da du formentlig vil blive ret træt hen ad vejen, skal du vælge en øvelse, som du mestrer, og hvor du stadig kan udføre den hensigtsmæssigt under træthed.
-
-Her er nogle af vores favoritter - første gang du prøver, så brug ikke for høj vægt.
-
-{% include motionsplan/exercise-grid.html exercises="Sprint med vægt" match="exact" type="left" %}
-
-{% include motionsplan/exercise-grid.html exercises="Roning, roergometer" match="exact" type="left" %}
-
-{% include motionsplan/exercise-grid.html exercises="Squat med vægtstang foran" match="exact" type="left" %}
-
-{% include motionsplan/exercise-grid.html exercises="Swing, to hænder" match="exact" type="left" %}
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 id="references">Referencer</h2></summary>
+  <summary><h2 id="references">Kilder og videnskabelig litteratur</h2></summary>
 
-- Tabata, I., K. Nishimura, M. Kouzaki, Y. Hirai, F. Ogita, M. Miyachi, og K. Yamamoto. 1996. “Effects of Moderate-Intensity Endurance and High-Intensity Intermittent Training on Anaerobic Capacity and VO2max”. Medicine and Science in Sports and Exercise 28 (10): 1327–30. <https://doi.org/10.1097/00005768-199610000-00018>.
-- Helgerud, Jan, Kjetill Høydal, Eivind Wang, Trine Karlsen, Pålr Berg, Marius Bjerkaas, Thomas Simonsen, m.fl. 2007. “Aerobic High-Intensity Intervals Improve VO2max More than Moderate Training”. Medicine and Science in Sports and Exercise 39 (4): 665–71. <https://doi.org/10.1249/mss.0b013e3180304570>.
+- **Tabata, I., et al. (1996).** "Effects of moderate-intensity endurance and high-intensity intermittent training on anaerobic capacity and VO2max." *Medicine and Science in Sports and Exercise*, 28(10), 1327–1330.
+- **Helgerud, J., et al. (2007).** "Aerobic high-intensity intervals improve VO2max more than moderate training." *Medicine and Science in Sports and Exercise*, 39(4), 665–71.
+- **Robertson, M. (2012).** "The Tabata Myth" & "Long Duration Low Intensity Cardio." *Robertson Training Systems*.
 </details>

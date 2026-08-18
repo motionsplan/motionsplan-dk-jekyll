@@ -11,7 +11,6 @@ header:
   credit: https://images.unsplash.com/photo-1695918425283-eb385c012b7a
   teaser: /assets/images/unsplash/photo-1695918425283-eb385c012b7a.jpg
   caption: Sprint 8 – Maksimal indsats på kort tid
-classes: wide
 tags:
   - anaerob træning
   - aerob træning
@@ -51,6 +50,12 @@ Protokollen er opbygget omkring en fast struktur af maksimal belastning og relat
 Den samlede tid på selve arbejdsfaserne udgør blot **4 minutter**, men den høje intensitet aktiverer fysiologiske tilpasninger, som almindelig udholdenhedstræning kræver timer for at opnå.
 
 ![Sprint 8](/assets/images/sprint-8-landing-infographic.jpg "Sprint 8")
+
+---
+
+## Timer til Sprint 8-intervaller
+
+{% include components/timer.html preset="sprint8" %}
 
 ---
 
