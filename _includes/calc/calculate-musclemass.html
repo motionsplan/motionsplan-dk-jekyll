@@ -1,0 +1,339 @@
+<!-- _includes/calculator/calculate-musclemass.html -->
+<style>
+  .mp-mm-card {
+    position: relative !important;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-mm-header {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-mm-title {
+    margin: 0 0 4px 0;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #0f172a;
+  }
+
+  .mp-mm-subtitle {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #64748b;
+    font-weight: 500;
+  }
+
+  .mp-mm-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  @media (max-width: 480px) {
+    .mp-mm-grid { grid-template-columns: 1fr; }
+  }
+
+  .mp-mm-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mp-mm-group.full-width {
+    grid-column: 1 / -1;
+  }
+
+  .mp-mm-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 6px;
+  }
+
+  .mp-mm-input, .mp-mm-select {
+    padding: 0.65rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #0f172a;
+    background-color: #f8fafc;
+    transition: border-color 0.2s, background-color 0.2s;
+  }
+
+  .mp-mm-input:focus, .mp-mm-select:focus {
+    outline: none;
+    border-color: #2563eb;
+    background-color: #ffffff;
+  }
+
+  /* Segmenteret Switch til Køn */
+  .mp-mm-switch-group {
+    display: flex;
+    background: #f1f5f9;
+    padding: 3px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    gap: 3px;
+  }
+
+  .mp-mm-switch-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 0.6rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #64748b;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+  }
+
+  .mp-mm-switch-btn.active {
+    background: #ffffff;
+    color: #2563eb;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  }
+
+  /* Resultatboks */
+  .mp-mm-results {
+    margin-top: 1.25rem;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+
+  .mp-mm-res-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .mp-mm-res-box {
+    background: #ffffff;
+    padding: 0.85rem;
+    border-radius: 8px;
+    border: 1px solid #dbeafe;
+  }
+
+  .mp-mm-res-val {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #1e3a8a;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mp-mm-res-unit {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #3b82f6;
+  }
+
+  .mp-mm-res-lbl {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+</style>
+
+<div class="mp-mm-card" data-tool="musclemass-calculator" id="muskelmasse-beregner">
+  <div class="mp-mm-header">
+    <h3 class="mp-mm-title">💪 Muskelmasse Beregner</h3>
+    <p class="mp-mm-subtitle">Estimér din samlede skeletmuskelmasse (kg og %) ud fra antropometriske data.</p>
+  </div>
+
+  <form id="mp-mm-form" onsubmit="return false;">
+    <div class="mp-mm-grid">
+      
+      <!-- KØN SWITCH -->
+      <div class="mp-mm-group full-width">
+        <label class="mp-mm-label">Køn</label>
+        <div class="mp-mm-switch-group" id="mm-sex-switch">
+          <button type="button" class="mp-mm-switch-btn active" data-value="male">Mand</button>
+          <button type="button" class="mp-mm-switch-btn" data-value="female">Kvinde</button>
+        </div>
+      </div>
+
+      <!-- ETNICITET DROPDOWN -->
+      <div class="mp-mm-group full-width">
+        <label class="mp-mm-label" for="mm-ethnicity">Etnicitet</label>
+        <select class="mp-mm-select" id="mm-ethnicity">
+          <option value="white">Kaukasisk / Hvid</option>
+          <option value="black">Afroamerikansk / Sort</option>
+          <option value="other">Asiatisk / Anden</option>
+        </select>
+      </div>
+
+      <!-- INPUTS -->
+      <div class="mp-mm-group">
+        <label class="mp-mm-label" for="mm-age">Alder (år)</label>
+        <input class="mp-mm-input" type="number" id="mm-age" min="18" max="99" value="35" placeholder="fx 35" required>
+      </div>
+
+      <div class="mp-mm-group">
+        <label class="mp-mm-label" for="mm-weight">Vægt (kg)</label>
+        <input class="mp-mm-input" type="number" step="0.1" id="mm-weight" min="30" max="250" value="80" placeholder="fx 80" required>
+      </div>
+
+      <div class="mp-mm-group">
+        <label class="mp-mm-label" for="mm-height">Højde (cm)</label>
+        <input class="mp-mm-input" type="number" id="mm-height" min="100" max="230" value="180" placeholder="fx 180" required>
+      </div>
+
+      <div class="mp-mm-group">
+        <label class="mp-mm-label" for="mm-waist">Taljemål (cm)</label>
+        <input class="mp-mm-input" type="number" step="0.5" id="mm-waist" min="40" max="200" value="84" placeholder="fx 84" required>
+      </div>
+
+    </div>
+  </form>
+
+  <div class="mp-mm-results">
+    <div class="mp-mm-res-grid">
+      <div class="mp-mm-res-box">
+        <div>
+          <span class="mp-mm-res-val" id="mm-res-kg">0.0</span>
+          <span class="mp-mm-res-unit">kg</span>
+        </div>
+        <div class="mp-mm-res-lbl">Skeletmuskelmasse</div>
+      </div>
+      <div class="mp-mm-res-box">
+        <div>
+          <span class="mp-mm-res-val" id="mm-res-pct">0.0</span>
+          <span class="mp-mm-res-unit">%</span>
+        </div>
+        <div class="mp-mm-res-lbl">Andel af kropsvægt</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('[data-tool="musclemass-calculator"]');
+  if (!container) return;
+
+  const STORAGE_KEY = 'mp_musclemass_calc_v1';
+
+  // State
+  let sex = 'male';
+
+  // DOM Elements
+  const ethnicitySelect = container.querySelector('#mm-ethnicity');
+  const ageInput = container.querySelector('#mm-age');
+  const weightInput = container.querySelector('#mm-weight');
+  const heightInput = container.querySelector('#mm-height');
+  const waistInput = container.querySelector('#mm-waist');
+
+  const resKg = container.querySelector('#mm-res-kg');
+  const resPct = container.querySelector('#mm-res-pct');
+  const sexBtns = container.querySelectorAll('#mm-sex-switch .mp-mm-switch-btn');
+
+  // --- LOCALSTORAGE LOGIC ---
+  function loadSavedData() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      if (saved) {
+        if (saved.sex) {
+          sex = saved.sex;
+          sexBtns.forEach(b => {
+            b.classList.toggle('active', b.getAttribute('data-value') === sex);
+          });
+        }
+        if (saved.ethnicity) ethnicitySelect.value = saved.ethnicity;
+        if (saved.age) ageInput.value = saved.age;
+        if (saved.weight) weightInput.value = saved.weight;
+        if (saved.height) heightInput.value = saved.height;
+        if (saved.waist) waistInput.value = saved.waist;
+      }
+    } catch (e) {}
+  }
+
+  function saveData() {
+    try {
+      const data = {
+        sex: sex,
+        ethnicity: ethnicitySelect.value,
+        age: ageInput.value,
+        weight: weightInput.value,
+        height: heightInput.value,
+        waist: waistInput.value
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    } catch (e) {}
+  }
+
+  // --- SWITCH LOGIC ---
+  sexBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      sexBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      sex = this.getAttribute('data-value');
+      calculate();
+    });
+  });
+
+  // Event listeners til real-time opdatering
+  ethnicitySelect.addEventListener('change', calculate);
+  [ageInput, weightInput, heightInput, waistInput].forEach(input => {
+    input.addEventListener('input', calculate);
+  });
+
+  // --- BEREGNINGSFUNKTION ---
+  function calculate() {
+    const age = parseFloat(ageInput.value);
+    const weight = parseFloat(weightInput.value);
+    const height = parseFloat(heightInput.value);
+    const waist = parseFloat(waistInput.value);
+    const ethnicity = ethnicitySelect.value;
+
+    if (!age || !weight || !height || !waist || weight <= 0 || height <= 0) {
+      resKg.textContent = '0.0';
+      resPct.textContent = '0.0';
+      return;
+    }
+
+    let smKg = 0;
+
+    if (sex === 'male') {
+      smKg = (0.393 * weight) + (0.222 * height) - (0.115 * waist) - (0.082 * age) + 3.1;
+      if (ethnicity === 'black') smKg += 1.2;
+      if (ethnicity === 'other') smKg -= 0.6;
+    } else {
+      smKg = (0.296 * weight) + (0.165 * height) - (0.088 * waist) - (0.054 * age) + 1.8;
+      if (ethnicity === 'black') smKg += 0.9;
+      if (ethnicity === 'other') smKg -= 0.4;
+    }
+
+    // Fysiologiske grænser
+    if (smKg < 10) smKg = 10;
+    if (smKg > weight * 0.65) smKg = weight * 0.65;
+
+    const smPct = (smKg / weight) * 100;
+
+    resKg.textContent = smKg.toFixed(1);
+    resPct.textContent = smPct.toFixed(1);
+
+    saveData();
+  }
+
+  // Init
+  loadSavedData();
+  calculate();
+});
+</script>

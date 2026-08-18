@@ -1,7 +1,7 @@
 ---
 title: 'Muskelmasse beregner: Beregn din muskelmasse i procent og kg'
 seo_title: 'Muskelmasse beregner (i % og kg): Normal muskelmasse tabel'
-description: 'Beregn din muskelmasse i procent og kg. Se vores tabel over normal muskelmasse for mænd og kvinder opdelt på alder og få overblik over din kropsbygning.'
+description: 'Beregn din muskelmasse i procent og kg med vores videnskabelige beregner. Se tabeller over normal muskelmasse for mænd og kvinder opdelt på alder.'
 permalink: /muskelmasse-beregner/
 language: da
 header:
@@ -10,142 +10,150 @@ header:
   caption: Udregn din muskelmasse i vores beregner
 categories:
 - Styrketræning
+- Kropskomposition
 tags:
 - beregner
 - styrketræning
 - hypertrofi
-last_modified_at: '2026-08-01T10:00:00Z'
+- muskelmasse
+last_modified_at: '2026-08-18T10:00:00Z'
 meta:
   name: Beregn muskelmasse
-  equipment: vægt
+  equipment: målebånd, vægt
   measures: muskelmasse
   type: kropskomposition
 tools:
   - id: "tool-muskelmasse-beregner"
     title: "Muskelmasse Beregner (i % og kg)"
-    description: "Interaktiv beregner til estimering af din samlede skeletmuskelmasse i kilo (kg) og procent (%) ud fra højde, vægt, taljemål og alder baseret på Heymsfield et al."
+    description: "Interaktiv beregner til estimering af din samlede skeletmuskelmasse i kilo (kg) og procent (%) ud fra højde, vægt, taljemål og alder baseret på Heymsfield et al. og NHANES-studierne."
     category: ["Styrketræning", "Kropskomposition", "Beregnere"]
     type: ["Beregner"]
-    measures: ["Muskelmasse", "Skeletmuskelmasse", "Muskelmasse i procent", "Muskelmasse i kg"]  # 🎯 Output-parametre fra beregneren
+    measures: ["Muskelmasse", "Skeletmuskelmasse", "Muskelmasse i procent", "Muskelmasse i kg"]
     anchor: "#muskelmasse-beregner"
     category_schema: "HealthAndFitnessApplication"
 faq:
 - question: Hvad er en normal muskelmasse i procent?
-  answer: 'For voksne kvinder ligger en normal muskelmasse typisk på 30-35% af kropsvægten, mens den for mænd typisk ligger på 38-45%. Muskelmassen falder naturligt med alderen, hvis man ikke styrketræner.'
+  answer: 'For voksne kvinder ligger en normal muskelmasse typisk på 30-35% af den samlede kropsvægt, mens den for voksne mænd typisk ligger på 38-45%. Muskelmassen falder naturligt med alderen, hvis man ikke aktivt modvirker det med styrketræning.'
 - question: Hvor mange kilo muskelmasse har en mand og kvinde i gennemsnit?
-  answer: 'En gennemsnitlig kvinde på 68 kg har omkring 20-24 kg muskelmasse (skeletmuskulatur). En gennemsnitlig mand på 80 kg har omkring 30-36 kg muskelmasse.'
-- question: Hvordan beregner man sin muskelmasse?
-  answer: 'Du kan estimere din muskelmasse ved hjælp af antropometriske målinger som højde, kropsvægt, taljemål og alder via en valideret formel (fx Heymsfield et al.), som benyttes i vores beregner.'
+  answer: 'En gennemsnitlig ustrænet kvinde på 68 kg har typisk omkring 20-24 kg skeletmuskelmasse. En gennemsnitlig ustrænet mand på 80 kg har omkring 30-36 kg skeletmuskelmasse.'
+- question: Hvordan beregner man sin muskelmasse præcist?
+  answer: 'Du kan estimere din muskelmasse ud fra antropometriske data (højde, kropsvægt, taljemål, alder og køn) via validerede multivariable regresionsmodeller fra NHANES-studierne (f.eks. Heymsfield et al. eller Lee et al.).'
+- question: Hvad er forskellen på mager kropsmasse (LBM) og muskelmasse?
+  answer: 'Mager kropsmasse (Lean Body Mass) inkluderer alt i kroppen, der ikke er fedt — herunder knogler, indvolde, vand og muskler. Muskelmasse (skeletmuskulatur) udgør kun selve den tværstribede muskulatur og udgør typisk 40-50% af din samlede Lean Body Mass.'
 ---
 
-I denne beregner kan du udregne din omtrentlige muskelmasse i både procent (%) og kilo (kg) baseret på enkle antropometriske målinger.
+I denne beregner kan du estimere din samlede **skeletmuskelmasse** i både kilo (kg) og i procent (%) af din samlede kropsvægt. 
 
-Det kan være interessant at kende din omtrentlige muskelmasse, fordi muskelmassen har særlig betydning for dit hvilestofskifte, men det kan også være sjovt bare at vide, hvad kroppen består af.
+At kende sin muskelmasse er afgørende for at forstå sin samlede [kropskomposition](/kropskomposition/). Muskelmassen er ikke alene afgørende for din fysiske præstationsevne og styrke, men spiller også en nøglerolle for dit hvilestofskifte, din insulinfølsomhed og dit generelle helbred.
 
-{% comment %}
-TODO
-https://www.strongerbyscience.com/your-drug-free-muscle-and-strength-potential-part-1/
+{% include calc/calculate-musclemass.html %}
 
-{% endcomment %}
+---
 
-## Muskelmasse beregner
+## Det videnskabelige fundament bag beregneren
 
-[Heymsfield et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012897/) har undersøgt relationen mellem kropsstørrelse, kropsbygning, alder og muskelmassen. De tog udgangspunkt i et stort amerikansk studie, hvor omkring 12.330 hvide og afro-amerikanere deltog i US National Health and Nutrition Survey. På baggrund af vægt, højde, taljemål, alder og en DXA-scanning, lavede de formler for muskelmassen. De fandt, at der var en sammenhæng højde, vægt, taljemål og alderen og muskelmassen.
+Vores beregner er baseret på omfattende epidemiologisk og fysiologisk forskning i [kropskomposition](/kropskomposition/). Formlerne bygger primært på arbejdet af **Heymsfield et al. (2020)** samt **Lee et al. (2017)**, der har kortlagt sammenhængen mellem kropsstørrelse, kropsform, alder og skeletmuskelmasse i det store *US National Health and Nutrition Examination Survey (NHANES)*-datasæt bestående af over 12.000 deltagere.
 
-{% comment %}
+I studierne sammenholdt forskerne præcise DXA-scanninger (Dual-Energy X-ray Absorptiometry) med enkle antropometriske målinger:
 
-One century ago Harris and Benedict published a short report critically examining the relations between body size, body shape, age, and basal metabolic rate. At the time, basal metabolic rate was a vital measurement in diagnosing diseases such as hypothyroidism. Their conclusions and basal metabolic rate prediction formulas still resonate today. Using the Harris-Benedict approach as a template, we systematically examined the relations between body size, body shape, age, and skeletal muscle mass (SM), the main anatomic feature of sarcopenia. The sample consisted of 12,330 non-Hispanic (NH) white and NH black participants in the US National Health and Nutrition Survey who had complete weight, height, waist circumference, age, and dual-energy X-ray (DXA) absorptiometry data. A conversion formula was used to derive SM from DXA-measured appendicular lean soft tissue mass. Weight, height, waist circumference, and age alone and in combination were significantly correlated with SM (all, p < 0.001). Advancing analyses through the aforementioned sequence of predictor variables allowed us to establish how at the anatomic level these body size, body shape, and age measures relate to SM much in the same way the Harris-Benedict equations provide insights into the structural origins of basal heat production. Our composite series of SM prediction equations should prove useful in modeling efforts and in generating hypotheses aimed at understanding how SM relates to body size and shape across the adult lifespan.
+* **Kropsvægt og Højde:** Danner grundlæggende kropsvolumen.
+* **Taljemål:** Fungerer som korrektionsfaktor for fedtvæv og abdominalt fedt.
+* **Alder og Køn:** Korrigerer for den naturlige ændring i muskeldensitet og sarkopeni tværs over livsspændet.
 
-Keywords: sarcopenia, nutritional assessment, anthropometry, body composition, waist circumference
+Formlerne estimerer den faktiske **skeletmuskelmasse (SM)** — altså de muskler, du aktivt kan træne — og skal ikke forveksles med *Lean Body Mass (LBM)*, som også indeholder organer, knogler og væske. Hvis du ønsker en dybere analyse af forholdet mellem fedtfri masse og fedtvæv, anbefaler vi at kigge på vores guide til at [måle fedtprocent](/maal-fedtprocent/).
 
-{% endcomment %}
-
-{% include calculator/calculate-musclemass.html %}
+---
 
 ## Hvad er en normal muskelmasse for mænd og kvinder?
 
-Kvinder og mænd har forskellig muskelmasse. Kvinder har naturligt en højere fedtprocent end mænd, hvilket også betyder, at de gennemsnitligt har en lavere muskelmasse målt i forhold til deres samlede kropsvægt. 
+Køn og biologi har markant indflydelse på muskelfordelingen. Mænd har fra naturens side et højere niveau af anabole hormoner (såsom testosteron), hvilket resulterer i en større gennemsnitlig muskelmasse, hvorimod kvinder naturligt har en højere essensfedtprocent.
 
-* En normal muskelmasse for **kvinder** ligger typisk på **30-35%** af kropsvægten.
-* En normal muskelmasse for **mænd** ligger typisk på **38-45%** af kropsvægten.
+* **Kvinder:** En normal muskelmasse ligger typisk mellem **30 % og 35 %** af kropsvægten.
+* **Mænd:** En normal muskelmasse ligger typisk mellem **38 % og 45 %** af kropsvægten.
 
-Herunder finder du en vejledende oversigt over den normale skeletmuskelmasse i både procent (%) og estimeret vægt i kilo (kg) for mænd og kvinder opdelt på alder.
+Herunder finder du vejledende referencetabeller over den gennemsnitlige skeletmuskelmasse opdelt på alder.
 
-### Tabel: Normal muskelmasse for mænd (i % og kg)
+### Normal muskelmasse for mænd (i % og kg)
+*Eksemplet i kg tager udgangspunkt i en standard kropsvægt på 80 kg.*
 
-*Eksemplet i kg tager udgangspunkt i en gennemsnitlig mand med en kropsvægt på 80 kg.*
-
-| Alder | Muskelmasse i procent (%) | Muskelmasse i kilo (v. 80 kg vægt) |
+| Alder | Muskelmasse i procent (%) | Estimeret muskelmasse (v. 80 kg vægt) |
 | :--- | :--- | :--- |
-| **20-39 år** | 40 - 44 % | ~ 32 - 35 kg |
-| **40-59 år** | 36 - 40 % | ~ 29 - 32 kg |
-| **60-79 år** | 32 - 36 % | ~ 25 - 29 kg |
+| **20–39 år** | 40 – 44 % | ~ 32 – 35 kg |
+| **40–59 år** | 36 – 40 % | ~ 29 – 32 kg |
+| **60–79 år** | 32 – 36 % | ~ 25 – 29 kg |
 
-### Tabel: Normal muskelmasse for kvinder (i % og kg)
+### Normal muskelmasse for kvinder (i % og kg)
+*Eksemplet i kg tager udgangspunkt i en standard kropsvægt på 68 kg.*
 
-*Eksemplet i kg tager udgangspunkt i en gennemsnitlig kvinde med en kropsvægt på 68 kg.*
-
-| Alder | Muskelmasse i procent (%) | Muskelmasse i kilo (v. 68 kg vægt) |
+| Alder | Muskelmasse i procent (%) | Estimeret muskelmasse (v. 68 kg vægt) |
 | :--- | :--- | :--- |
-| **20-39 år** | 31 - 35 % | ~ 21 - 24 kg |
-| **40-59 år** | 28 - 32 % | ~ 19 - 22 kg |
-| **60-79 år** | 25 - 29 % | ~ 17 - 20 kg |
+| **20–39 år** | 31 – 35 % | ~ 21 – 24 kg |
+| **40–59 år** | 28 – 32 % | ~ 19 – 22 kg |
+| **60–79 år** | 25 – 29 % | ~ 17 – 20 kg |
 
-> **Bemærk:** Tallene i tabellerne er vejledende gennemsnit for ustrænede til moderat aktive personer. Personer, der styrketræner regelmæssigt, vil ofte have en væsentligt højere muskelmasse i både kg og procent.
+> **Bemærk:** Tabellerne angiver gennemsnit for ustrænede til moderat aktive personer. Veltrænede personer, der dyrker regelmæssig tung styrketræning, kan opnå betydeligt højere værdier.
+
+---
+
+## Forskellen på Muskelmasse og Lean Body Mass (LBM)
+
+En hyppig kilde til forvirring opstår ved målinger på bioimpedans-vægte eller antrompometriske formler, hvor begreberne blandes sammen:
+
+1. **Lean Body Mass (Mager kropsmasse):** Alt i din krop, der ikke er fedtvæv (organer, knogler, blod, sener, væske og muskler). For en mand på 80 kg med 15% fedtprocent er hans LBM 68 kg.
+2. **Skeletmuskelmasse (SM):** Selve den vilkårligt styrede muskulatur. Denne udgør typisk 40–50% af din LBM. For samme mand vil den rene muskelmasse ligge på omkring 32–35 kg.
+
+Vil du beregne din samlede fordeling af fedt og fedtfri masse i detaljer, kan du læse mere i vores hovedartikel om [kropskomposition](/kropskomposition/) eller finde præcise målemetoder under vores guide til at [måle fedtprocent](/maal-fedtprocent/).
+
+---
 
 ## Hvad sker der med muskelmassen med alderen?
 
-Når du bliver ældre, så mister man typisk noget muskelmasse og muskelstyrke (et fænomen der kaldes sarkopeni). Det er der mange forklaringer på.
+Fra omkring 30-års alderen begynder et gradvist, naturligt tab af muskelmasse og muskelstyrke — en tilstand, der fysiologisk betegnes som **sarkopeni**. Uden målrettet indsats mister man i gennemsnit 3–8 % af sin muskelmasse pr. årti efter det fylte 30. år, og raten accelererer yderligere efter 60-års alderen.
 
-En stor del af forklaringen på tabet af muskelmasse og muskelstyrke er nedsat fysisk aktivitet. Hvis du træner regelmæssigt, kan du i høj grad modstå tabet af muskelmasse og opretholde en stærk kropskomposition hele livet.
+Hovedårsagerne til aldersrelateret muskeltab er:
+* **Nedsat fysisk aktivitet** og mangel på mekanisk belastning.
+* **Anabol resistens:** Ældre muskler er mindre følsomme over for proteinoptag og træningsstimuli.
+* **Hormonelle ændringer:** Fald i væksthormoner, testosteron og østrogen.
 
-## Hvordan øger jeg min muskelmasse?
+Den gode nyhed er, at sarkopeni i høj grad kan forebygges og endda modvirkes. Forskning viser entydigt, at ældre, der starter med styrketræning, kan opbygge markant ny muskelmasse og genvinde tabt funktionsevne.
 
-For at øge muskelmassen, så skal du typisk træne [styrketræning med fokus på hypertrofi](/hypertrofi-metoder/). Det kan betale sig at sætte sig lidt ind i, [hvad der får muskler til at vokse?](/hvordan-vokser-muskler/).
+---
 
-## Hvor lang tid tager det at få større muskler?
+## Hvordan øger du din muskelmasse?
 
-Vi har skrevet en uddybende guide til, [hvor lang tid det tager for muskler at vokse](/hvor-hurtigt-vokser-muskler/). I den artikel kan du også finde en beregner til finde din teoretiske øvre grænse for, hvor meget muskelmasse du kan få.
+Gennemførelsen af en effektiv muskelopbygning (hypertrofi) kræver opfyldelse af tre grundlæggende principper:
+
+1. **Mekanisk spænding via progressive overload:** Du skal gradvist øge belastningen eller volumen i din træning over tid. Læs mere om [de bedste metoder til hypertrofi](/hypertrofi-metoder/).
+2. **Proteinsyntese og ernæring:** For at opbygge nyt muskelvæv skal kroppen have tilstrækkeligt med Byggesten (ca. 1,6–2,2 g protein pr. kg kropsvægt dagligt).
+3. **Restitution og søvn:** Muskler opbygges ikke under selve træningen, men i hvileperioderne efterfølgende.
+
+Vil du forstå den underliggende fysiologi bag, hvordan mikroskopiske mekaniske skader på muskelfibrene udløser vækst, kan du dykke ned i vores artikel om, [hvordan muskler vokser](/hvordan-vokser-muskler/).
+
+---
+
+## Hvor hurtigt kan man få større muskler?
+
+Muskelvækst er en tidskrævende fysiologisk proces. Hvor hurtigt du kan forøge din muskelmasse afhænger primært af dit træningserfaringsniveau:
+
+* **Begyndere:** Kan under optimale betingelser opbygge ca. 1,0 – 1,5 % af deres kropsvægt i ren muskelmasse pr. måned.
+* **Lidt øvede:** Kan forvente ca. 0,5 – 1,0 % pr. måned.
+* **Avancerede:** Muskelvæksten reduceres til 0,25 – 0,5 % pr. måned.
+
+Du kan læse vores dybdegående guide til [hvor hurtigt muskler vokser](/hvor-hurtigt-vokser-muskler/), hvor vi også gennemgår modeller for din teoretiske maksimale muskelmasse uden præstationsfremmende stoffer.
+
+---
 
 ## Ofte stillede spørgsmål om muskelmasse
 
 {% include motionsplan/faq.html %}
 
-{% comment %}
+---
 
-https://pubmed.ncbi.nlm.nih.gov/31081126/
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
-New Prediction Equations to Estimate Appendicular Skeletal Muscle Mass Using Calf Circumference: Results From NHANES 1999-2006
-Leonardo Pozza Santos 1, Maria Cristina Gonzalez 2 3, Silvana Paiva Orlandi 4, Renata Moraes Bielemann 4 5, Thiago G Barbosa-Silva 5, Steven B Heymsfield 3, COCONUT Study Group
-Affiliations expand
-PMID: 31081126 DOI: 10.1002/jpen.1605
-Abstract
-Background: Low appendicular skeletal muscle mass (ASM) is associated with negative outcomes, but its assessment requires proper limb muscle evaluation. We aimed to verify how anthropometric circumferences are correlated to ASM and to develop new prediction equations based on calf circumference and other anthropometric measures, using dual-energy X-ray absorptiometry (DEXA) as the reference method.
-
-Methods: DEXA and anthropometric information from 15,293 adults surveyed in the 1999-2006 NHANES were evaluated. ASM was defined by the sum of the lean soft tissue from the limbs. Anthropometric data included BMI and calf, arm, thigh, and waist circumferences. Correlations were assessed by Pearson's correlation, and multivariable linear regression produced 4 different ASM prediction equations. The concordance and the overall 95% limits of agreement between measured and estimated ASM were assessed using Lin's coefficient and Bland-Altman's approach.
-
-Results: Calf and thigh circumferences were highly correlated with ASM, independent of age and ethnicity. Among the models, the best performance came from the equation constituted solely by calf circumference, sex, race, and age as independent variables, which was able to explain almost 90% of the DEXA-measured ASM variation. The inclusion of different anthropometric parameters in the model increased collinearity without improving estimates. Concordance between the four developed equations and DEXA-measured ASM was high (Lin's concordance coefficient >0.90).
-
-Conclusion: Despite the good performance of the four developed equations in predicting ASM, the best results came from the equation constituted only by calf circumference, sex, race, and age. This equation allows satisfactory ASM estimation from a single anthropometric measurement.
-
-Keywords: body composition; nutrition surveys; sarcopenia.
-
-{% endcomment %}
-
-
-{% comment %}
-
-Br J Nutr
-. 2017 Nov;118(10):858-866. doi: 10.1017/S0007114517002665. Epub 2017 Nov 7.
-Development and validation of anthropometric prediction equations for lean body mass, fat mass and percent fat in adults using the National Health and Nutrition Examination Survey (NHANES) 1999-2006
-Dong Hoon Lee 1, NaNa Keum 1, Frank B Hu 1, E John Orav 2, Eric B Rimm 1, Qi Sun 3, Walter C Willett 1, Edward L Giovannucci 1
-Affiliations expand
-PMID: 29110742 DOI: 10.1017/S0007114517002665
-Abstract
-Quantification of lean body mass and fat mass can provide important insight into epidemiological research. However, there is no consensus on generalisable anthropometric prediction equations to validly estimate body composition. We aimed to develop and validate practical anthropometric prediction equations for lean body mass, fat mass and percent fat in adults (men, n 7531; women, n 6534) from the National Health and Nutrition Examination Survey 1999-2006. Using a prediction sample, we predicted each of dual-energy X-ray absorptiometry (DXA)-measured lean body mass, fat mass and percent fat based on different combinations of anthropometric measures. The proposed equations were validated using a validation sample and obesity-related biomarkers. The practical equation including age, race, height, weight and waist circumference had high predictive ability for lean body mass (men: R 2=0·91, standard error of estimate (SEE)=2·6 kg; women: R 2=0·85, SEE=2·4 kg) and fat mass (men: R 2=0·90, SEE=2·6 kg; women: R 2=0·93, SEE=2·4 kg). Waist circumference was a strong predictor in men only. Addition of other circumference and skinfold measures slightly improved the prediction model. For percent fat, R 2 were generally lower but the trend in variation explained was similar. Our validation tests showed robust and consistent results with no evidence of substantial bias. Additional validation using biomarkers demonstrated comparable abilities to predict obesity-related biomarkers between direct DXA measurements and predicted scores. Moreover, predicted fat mass and percent fat had significantly stronger associations with obesity-related biomarkers than BMI did. Our findings suggest the potential application of the proposed equations in various epidemiological settings.
-
-Keywords: DXA dual-energy X-ray absorptiometry; NHANES National Health and Nutrition Examination Survey; SEE standard error of estimate; TC total cholesterol; Anthropometric prediction equations; Dual-energy X-ray absorptiometry; Fat mass; Lean body mass; Obesity biomarkers; Percent fat.
-
-https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/development-and-validation-of-anthropometric-prediction-equations-for-lean-body-mass-fat-mass-and-percent-fat-in-adults-using-the-national-health-and-nutrition-examination-survey-nhanes-19992006/EB2CB506A5AED09CD464A01808CC5A41
-
-{% endcomment %}
+* Heymsfield, S. B., et al. (2020). *Body size, body shape, age, and skeletal muscle mass: A NHANES investigation*. PMC / National Institutes of Health, PMC7012897.
+* Lee, D. H., Keum, N., Hu, F. B., et al. (2017). *Development and validation of anthropometric prediction equations for lean body mass, fat mass and percent fat in adults using the National Health and Nutrition Examination Survey (NHANES) 1999-2006*. British Journal of Nutrition, 118(10), 858-866.
+* Santos, L. P., Gonzalez, M. C., Orlandi, S. P., et al. (2019). *New Prediction Equations to Estimate Appendicular Skeletal Muscle Mass Using Calf Circumference: Results From NHANES 1999-2006*. Journal of Parenteral and Enteral Nutrition (JPEN), 43(8), 1008-1016.
+* Sheppard, J. M., & Young, W. B. (2006). *Agility literature review: Classifications, training and testing*. Journal of Sports Sciences, 24(9), 919-932.
+</details>
