@@ -1,0 +1,223 @@
+<div class="rampup-calc-card">
+  <div class="rampup-calc-header">
+    <h3>⚡ Beregn dine opvarmningssæt (Ramp Up)</h3>
+    <p>Indtast din planlagte arbejdsvægt, og få automatisk beregnet dine opvarmningssæt afrundet til nærmeste 2,5 kg.</p>
+  </div>
+
+  <div class="rampup-calc-inputs">
+    <div class="rampup-field">
+      <label for="working-weight">Planlagt arbejdsvægt (kg)</label>
+      <input type="number" id="working-weight" value="100" min="20" step="2.5" oninput="calculateRampUp()">
+    </div>
+    <div class="rampup-field">
+      <label for="bar-weight">Stangvægt (kg)</label>
+      <input type="number" id="bar-weight" value="20" min="0" step="2.5" oninput="calculateRampUp()">
+    </div>
+  </div>
+
+  <div class="rampup-calc-table-wrap">
+    <table class="rampup-table">
+      <thead>
+        <tr>
+          <th>Sæt-type</th>
+          <th>Vægt</th>
+          <th>Gentagelser</th>
+          <th>Anstrengelse</th>
+          <th>Formål</th>
+        </tr>
+      </thead>
+      <tbody id="rampup-tbody">
+        <!-- Genereres automatisk af JavaScript -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<style>
+.rampup-calc-card {
+  background: #f7f8fa;
+  border: 1px solid #e0e2e6;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 24px 0;
+  font-family: inherit;
+}
+
+.rampup-calc-header h3 {
+  margin: 0 0 6px 0 !important;
+  font-size: 18px;
+  font-weight: 700;
+  color: #21232c;
+}
+
+.rampup-calc-header p {
+  margin: 0 0 16px 0 !important;
+  font-size: 14px;
+  color: #535865;
+}
+
+.rampup-calc-inputs {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.rampup-field {
+  flex: 1;
+  min-width: 140px;
+}
+
+.rampup-field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #21232c;
+  margin-bottom: 6px;
+}
+
+.rampup-field input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1.5px solid #e0e2e6;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #21232c;
+  box-sizing: border-box;
+}
+
+.rampup-field input:focus {
+  outline: none;
+  border-color: #243dec;
+  box-shadow: 0 0 0 3px rgba(36, 61, 236, 0.12);
+}
+
+.rampup-calc-table-wrap {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid #e0e2e6;
+  background: #ffffff;
+}
+
+.rampup-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  text-align: left;
+}
+
+.rampup-table th {
+  background: #21232c;
+  color: #ffffff;
+  padding: 10px 14px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.rampup-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e0e2e6;
+  color: #21232c;
+}
+
+.rampup-table tr:last-child td {
+  border-bottom: none;
+}
+
+.rampup-table tr.work-set {
+  background: rgba(238, 250, 112, 0.25);
+  font-weight: 700;
+}
+
+.rampup-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: #e0e2e6;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media (max-width: 580px) {
+  .rampup-calc-inputs {
+    flex-direction: column;
+  }
+}
+</style>
+
+<script>
+function calculateRampUp() {
+  const targetWeight = parseFloat(document.getElementById('working-weight').value) || 0;
+  const barWeight = parseFloat(document.getElementById('bar-weight').value) || 0;
+  const tbody = document.getElementById('rampup-tbody');
+  
+  tbody.innerHTML = '';
+
+  if (targetWeight <= 0) return;
+
+  // Afrunding til nærmeste 2,5 kg
+  function round25(val) {
+    return Math.max(barWeight, Math.round(val / 2.5) * 2.5);
+  }
+
+  const steps = [
+    { pct: 0.50, reps: 8, rpe: 'RPE 5,5', purpose: 'Gradvis tilpasning af ledbelastning' },
+    { pct: 0.70, reps: 5, rpe: 'RPE 6', purpose: 'Mærke vægtens acceleration' },
+    { pct: 0.85, reps: 3, rpe: 'RPE 7', purpose: 'Tænde for de hurtige Type II-fibre' },
+    { pct: 0.95, reps: 1, rpe: 'RPE 8', purpose: 'Sidste tjek af spænding og teknik' }
+  ];
+
+  let currentSetNum = 1;
+  let lastWeight = 0;
+
+  // Sæt 1: Altid tom stang (eller bare startvægten)
+  const startWeight = Math.min(barWeight, targetWeight);
+  tbody.innerHTML += `
+    <tr>
+      <td><strong>Opvarmningssæt ${currentSetNum}</strong></td>
+      <td>${startWeight} kg</td>
+      <td>10 reps</td>
+      <td><span class="rampup-badge">RPE 5</span></td>
+      <td>Øge lokal blodgennemstrømning og indøve bane</td>
+    </tr>
+  `;
+  lastWeight = startWeight;
+  currentSetNum++;
+
+  // Mellemliggende sæt baseret på procenter
+  steps.forEach(step => {
+    const calcWeight = round25(targetWeight * step.pct);
+    
+    // Tilføj kun sættet, hvis vægten reelt stiger og er lavere end arbejdsvægten
+    if (calcWeight > lastWeight && calcWeight < targetWeight) {
+      tbody.innerHTML += `
+        <tr>
+          <td><strong>Opvarmningssæt ${currentSetNum}</strong></td>
+          <td>${calcWeight} kg <small style="color:#666">(${Math.round(step.pct * 100)}%)</small></td>
+          <td>${step.reps} reps</td>
+          <td><span class="rampup-badge">${step.rpe}</span></td>
+          <td>${step.purpose}</td>
+        </tr>
+      `;
+      lastWeight = calcWeight;
+      currentSetNum++;
+    }
+  });
+
+  // Hoved-arbejdssæt
+  tbody.innerHTML += `
+    <tr class="work-set">
+      <td><strong>Arbejdssæt</strong></td>
+      <td><strong>${targetWeight} kg</strong> (100%)</td>
+      <td>Dine reps (fx 5)</td>
+      <td><span class="rampup-badge" style="background:#eefa70">RPE 8-9</span></td>
+      <td><strong>Selve hovedtræningen starter her!</strong></td>
+    </tr>
+  `;
+}
+
+// Kør ved indlæsning
+document.addEventListener('DOMContentLoaded', calculateRampUp);
+</script>

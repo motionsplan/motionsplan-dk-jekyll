@@ -181,10 +181,13 @@ Prøv dig frem i din træning: Lær at køre med både høje og lave kadencer, s
 
 ---
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer og videre læsning</h2></summary>
 
 * Abbiss, C. R., et al. (2009). *Optimal cadence selection during cycling: review and rating of muscle fatigue indicators*. International Journal of Sports Medicine, 30(10), 707-715.
 * Lucia, A., et al. (2001). *Preferred cadence during professional cycling stage races*. Medicine and Science in Sports and Exercise, 33(8), 1361-1366.
 * TrainerRoad. *What’s the Most Efficient Cycling Cadence?* [trainerroad.com](https://www.trainerroad.com/blog/whats-the-most-efficient-cycling-cadence-and-how-cadence-drills-can-make-you-faster/)
 * Videnskab.dk (2018). *Træd i pedalerne som du plejer: Teknikken betyder ikke noget særligt*. [videnskab.dk](https://videnskab.dk/krop-sundhed/traed-i-pedalerne-som-du-plejer-teknikken-betyder-ikke-noget-saerligt)
 * Wattbike. *A Beginner's Guide to Perfect Pedalling*. [wattbike.com](https://support.wattbike.com/)
+
+</details>

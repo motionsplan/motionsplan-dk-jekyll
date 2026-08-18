@@ -96,7 +96,10 @@ Når du planlægger din sengetid, skal du huske at lægge tid til at falde i sø
 
 ---
 
-## Referencer og videre læsning
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer og videre læsning</h2></summary>
 
 * Littlehales, N. (2016). *Sleep: The Myth of 8 Hours, the Power of Naps, and the New Plan to Recharge Your Body and Mind*. Penguin Life.
 * Hirshkowitz, M., et al. (2015). *National Sleep Foundation’s sleep time duration recommendations: methodology and results summary*. Sleep Health, 1(1), 40-43.
+
+</details>

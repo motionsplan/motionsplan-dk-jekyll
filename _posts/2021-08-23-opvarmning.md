@@ -1,8 +1,9 @@
 ---
-title: Opvarmning før træning og sport
+title: "Opvarmning før træning og sport: Hvad siger videnskaben?"
+seo_title: "Opvarmning før træning og sport: Den komplette fysiologiske guide"
+description: "Lær hvordan opvarmning øger din præstation fysiologisk. Dyk ned i RAMP-modellen, myten om statisk stræk, og hvornår opvarmning reelt forebygger skader."
 permalink: /opvarmning/
-excerpt: Opvarmning før træning, idræt og sport har mange fordele. Her leder vi dig gennem de forskellige faser i dit opvarmningsprogram,
-  så du kan præstere bedre og undgå skader.
+excerpt: "Dyk ned i den fysiologiske og pædagogiske videnskab bag opvarmning. Lær om RAMP-modellen, PAPE, myten om statisk stræk og skadesforebyggelse."
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1608138278545-366680accc66.jpg
@@ -10,173 +11,184 @@ header:
   teaser: /assets/images/unsplash/photo-1608138278545-366680accc66.jpg
   caption: Opvarmning før træning og sport
 categories:
-- Træning
+  - Træning
 tags:
-- opvarmning
-- begynder
-last_modified_at: '2021-08-22T23:14:14Z'
-toc: 'true'
+  - opvarmning
+  - fysiologie
+  - videnskab
+last_modified_at: '2026-08-18T00:00:00Z'
+toc: true
 faq:
-- question: Hvad er en god opvarmning?
-  answer: En god opvarmning sørger for at have både en generel opvarmning, hvor du får varmet hele kroppen op. Der er også
-    en specifik del, som gør dig helt klar til den aktivitet du skal lave efterfølgende. Endelig er der en eksplosiv del,
-    der virkelig aktivererer nervesystemet. Tjek indlægget for en udbybning af alle punkterne.
-- question: Hvorfor skal man varme op?
-  answer: Du skal varme op for at gøre dig klar til den efterfølgende aktivitet. Du hæver din kropstemperatur, så alle processerne
-    i kroppen bliver mere effektiv. De mindsker risikoen for skader, men forbedrer også din præstation i den efterfølgende
-    træning og sport.
+  - question: Hvad er det primære formål med opvarmning?
+    answer: Det primære videnskabeligt dokumenterede formål er at optimere din fysiske præstationsevne via temperaturafhængige og neuromuskulære mekanismer (Bishop, 2003).
+  - question: Forebygger opvarmning skader?
+    answer: Generel opvarmning alene reducerer ikke akut skadesrisiko entydigt. Målrettede, neuromuskulære opvarmningsprogrammer (som FIFA 11+) kan dog reducere risikoen for skader i underkroppen med 30–50% (Bahr et al., 2015).
+  - question: Hvor lang tid skal en opvarmning tage?
+    answer: For de fleste træningspas er 8–15 minutter optimalt. Til helt rolige ture er 3–5 minutters gradvis tempostigning nok, mens intense intervaller eller tung styrketræning kræver en grundig RAMP-protokol.
+  - question: Er foam rolling før træning en god idé?
+    answer: Ja, kortvarig foamrolling (30–60 sekunder pr. muskelgruppe) kan øge leddenes bevægelighed midlertidigt uden at forringe musklens kraftudvikling, som statisk stræk gør.
 ---
 
-Opvarmning er vigtig for dine resultater af træning og din præstationsevne i sport og idræt. Lær her alle effekterne af dit opvarmningsprogram, og hvordan du varmer optimalt op.
+Opvarmning betragtes ofte som et udefinerbart pligtarbejde. Mange bruger 10 minutter på løbebåndet eller laver tilfældige armsving, inden den "rigtige" træning går i gang. 
 
-Opvarmning skal gøre dig klar til den efterfølgende aktivitet. Du bør mindst varme op i 10-15 minutter, så du stille og roligt kommer i gang med din sport og idræt.
+Men i idrætsfysiologien er opvarmning et præcist redskab til at forberede både krop, hjerne og nervesystem på maksimal ydeevne (Bishop, 2003; McGowan et al., 2015).
 
-Men det er også en del af din træning, du skal prioritere højt. Det gælder både atleter og motionister.
- 
-Her dykker vi ned, hvorfor opvarmningen er vigtig, og du får eksempler på, hvordan du kan varme op til idræt og sport.
+Nedenfor dykker vi ned i fysiologien bag opvarmning, ser på hvad forskningen siger om skadesforebyggelse og udstrækning, og giver dig den teoretiske ramme for at sammensætte din egen opvarmning.
 
-Vi har skrevet en mere specifik [beskrivelse af opvarmning til styrketræning](/opvarmning-styrketraening/) og [opvarmning til løb](/opvarmning-loeb/).
+---
 
-Men lad os først dykke ned i, hvorfor du skal varme op? Og hvorfor du formentlig skal bruge lidt længere tid på de indledende manøvrer til træningen, end du gør lige nu.
+## Det dobbelte formål: Fysiologi og motivation
 
-## Hvorfor skal man lave opvarmning?
- 
-Betragtninger om opvarmning starter ofte med at formulere, at formålet med opvarmning er at øge præstationsevnen under den efterfølgende aktivitet.
+Når vi diskuterer opvarmning, skelner vi mellem de fysiologiske forandringer i muskelvævet og de psykologisk-pædagogiske effekter. 
 
-Dernæst beskrives hvilke fysiologiske parametre opvarmningen retter sig mod, og risikoen for skader nedsættes dermed.
+Som Frederiksen (1982) formulerede det, bør en god opvarmning opfylde fem grundlæggende principper:
 
-Endelig lægges vægt på, at opvarmningen har et psykologisk og socialt sigte. Men vi kan også formulere det lidt mere poetisk.
+* **Oplive og oplade:** Opvarmningen skal vække nervesystemet, give energi og sætte dig i den rette mentale tilstand til den kommende belastning.
+* **Udfordre og udvikle:** Det er en oplagt mulighed for at arbejde med din kropsfornemmelse, grundlæggende bevægemønstre, balance og koordination.
+* **Opvarme:** Selve den fysiske temperaturstigning, som gør muskler, sener og led klar til at levere kraft.
 
-Opvarmningen skal oplive, oplade, udfordre, udvikle og opvarme (ordene er fra Frederiksen, 1982).
+---
 
-- **Oplive og oplade.** Opvarmningen skal særligt efterlade deltagerne oplivet og opladet til den efterfølgende aktivitet. Opvarmningen må meget gerne være interessant og humørfyldt. Det er svært at redde en dårlig start på træningen, mens en god begyndelse kan give træningen vinger.
-- **Udfordre og udvikle.** Selvom opvarmningen er en indledende aktivitet, kan den ligeså godt bruges fornuftigt. Der er så meget at lære i de fleste idrætsgrene og motionsformer. Det er oplagt til at arbejde med grundlæggende bevægelser, sociale færdigheder eller tekniske finurligheder. Brug fantasien og kreativiteten og se alle mulighederne.
-- **Opvarme.** Formålet med opvarmningen er naturligvis også at varme kroppen op. Kropstemperaturen skal hæves og kroppen skal bevæges varieret og alsidigt igennem.
+## Hvad skal du varme op til i dag?
 
-## Hvad er virkningen af opvarmning?
+Søger du et specifikt opvarmningsprogram til din træningsform? Gå direkte til det du søger:
 
-- Øger den fysiske præstationsevne.
-- Øger den psykiske præstationsevne.
-- Styrker motivationen.
-- Regulere kroppens psykiske spænding.
-- Forebygger skader.
+<div class="notice--info" markdown="1">
 
-## Fysiologiske virkning af opvarmning
+### Generelle programmer
 
-Kropstemperaturen skal helst øges til omkring 39°C, som er den mest effektive temperatur for musklens biokemiske processer.
+* 🏋️‍♂️ **[Opvarmning til Styrketræning: valg af vægt, mobilitet og ramp-up](/opvarmning-styrketraening/)**
+* 🏃‍♀️ **[Opvarmning til Løb: Dynamiske øvelser, kadence og stigningsløb](/opvarmning-loeb/)**
+{% comment %}* 🚴‍♂️ **[Opvarmning til Cykling: Fra landevej til intetanende Zwift-ræs](/opvarmning-cykling/)**{% endcomment%}
+* 👮‍♂️ **[Politiets opvarmning til den fysiske prøve](/politiets-fysiske-test/opvarmning/)**
+{% comment %}* 🏫 **[Opvarmning til Idræt: Lege og reaktive øvelser til undervisning](/opvarmning-idraet/)**{% endcomment %}
+</div>
 
-Øget kropstemperatur bevirker, at:
+<div class="notice--success" markdown="1">
 
-- Enzymaktiviteten øges, så de kemiske processer i kroppen forløber hurtigere.
-- Nervefibrenes ledningsevne forbedres, så nerveimpulserne strømmer hurtigere og lettere. Det betyder en bedre koordination og mindsket risiko for skader.
-- Den viskøse modstand i muskler, bindevæv og led reduceres, hvilket bl.a. betyder, at blodet og vævsvæskerne strømmer lettere. Dermed bliver transporten af næringsstoffer og ilt til de arbejdende muskler også hurtigere.
-- Ilten afgives lettere fra hæmoglobin og myoglobin.
-- Vævet bliver mere eftergivende.
+### 🛡️ Evidensbaserede skadesforebyggende programmer
 
-## Psykologisk virkning af opvarmning
+* ⚽ **[FIFA 11+ Programmet](/fifa-11-plus/):** Guldstandarden i fodbold og holdidræt (30–50% skadesreduktion) med interaktiv afspiller.
+* 🦵 **[PEP Programmet](/pep-program/):** Målrettet neuromuskulær træning til forebyggelse af korsbåndsskader (ACL).
+</div>
 
-- Øger koncentrationen.
-- Forbereder mentalt til efterfølgende aktivitet
+<div class="notice--danger" markdown="1">
 
-## Tre faser i opvarmningen
+### ⚡ Præstationsforbedring & Maxtest
 
-Opvarmning kan med fordel følge disse tre faser:
+* 🚀 **[Opvarmning til 1RM-Maxtest & PAP](/pap-post-activation-potentiation-1rm-maxtest/):** Udnyt Post-Activation Performance Enhancement (PAPE), depth jumps og heavy walkouts til at sætte ny PR.
+</div>
 
-### 1. Generel opvarmning
+---
 
-Formålet i denne fase er at øge hjerterytmen, få blodet til at flyde hurtigere, smøre ledene. Der er mange måder, du kan gøre det på.
+## Fysiologien: Hvad sker der i kroppen?
 
-### 2. Specifik opvarmning
+Når du varmer op, påvirkes kroppen gennem to overordnede veje: **temperaturafhængige effekter** og **temperaturuafhængige (neuromuskulære) effekter** (Bishop, 2003; Blazevich & Babault, 2019).
 
-Her skal du ramme nogle af de bevægelser, du skal lave i den efterfølgende træning. Fx nogle goblet squats, hvis du skal squatte bagefter. Armstrækninger på bænkdag osv. Her kan du også tænke på at arbejde med de begrænsninger eller udfordringer, du har ift. specifikke øvelser.
+### 1. Temperaturafhængige effekter
 
-### 3. CNS-priming
+Målet med den indledende opvarmning er at hæve muskeltemperaturen fra hvileniveauet på ca. 37 °C til omkring **38,5–39,0 °C**. En stigning i muskeltemperaturen med blot 1 °C medfører markante tilpasninger:
 
-Her skal du gøre nervesystemet helt klar til den efterfølgende træning. Det gør du med nogle eksplosive og plyometriske øvelser. Typisk laver man sæt af 3-5 reps med 60-90 sekunders pause imellem, fx i en cirkel.
+* **Hurtigere enzymaktivitet:** Den kemiske nedbrydning af glycogen og ATP øges. Enzymet *ATP-ase* arbejder hurtigere ved højere temperaturer, hvilket direkte øger muskelfibrenes kontraktionshastighed og maksimale powereffekt (Gray et al., 2006).
+* **Øget nerveledningshastighed:** Nerveimpulsernes hastighed fra det centrale nervesystem til muskelcellerne stiger med ca. 10 % for hver grad, temperaturen stiger. Det forbedrer koordination, reaktionstid og fyringsfrekvens.
+* **Nedsat viskøs modstand:** Muskelvæv, sener og bindevæv udviser *viskoelastiske* egenskaber. Når vævet varmes op, falder den mekaniske modstand i muskler og led, hvilket giver et større bevægelsesudslag (Range of Motion).
+* **Forbedret iltafgivelse (Bohr-effekten):** Ved øget lokal temperatur og lavere pH-værdi i det arbejdende muskelvæv forskydes iltsammensætningen i blodet. Hemoglobin og myoglobin afgiver ilt væsentligt hurtigere til mitokondrierne, hvilket optimerer den aerobe energiproduktion i starten af træningen.
 
-## Derfor er det vigtigt at varme op
+### 2. Temperaturuafhængige og neuromuskulære effekter
 
-Opvarmning har som skrevet mange positive virkninger på kroppen. Når du skal i gang med træning og sport, så kan du forvente følgende fordele.
+Opvarmning påvirker også kroppen uafhængigt af selve temperaturstigningen — primært ved at stimulere centralnervesystemet:
 
-### 1. Nedsat skadesrisiko
+* **Post-Activation Performance Enhancement (PAPE):** Når musklerne udsættes for kortvarig, høj intensitet under opvarmningen, stimuleres fosforyleringen af de lette myosinkæder. Det betyder, at musklen i de efterfølgende minutter kan udvikle mere kraft ved samme nerveimpuls — et fænomen kendt som *PAPE* eller *Post-Activation Potentiation* (Blazevich & Babault, 2019).
+* **Senerne som spændstige fjedre:** Dynamiske bevægelser og stigningsløb indstiller senernes stivhed (*muscle-tendon stiffness*), så de fungerer som fjedre, der kan opsamle og genbruge elastisk energi i afsæt og hop.
 
-De fysiologiske effekter af opvarmningen er med til at nedsætte skadesrisikoen. Det sker fordi den øgede kropstemperatur gør at alle processerne i kroppen forløber mere effektivt. Fx forbedres nervesystemets evne til at sende og modtage signaler med helt op til 10%. Når nervesystemet fungerer bedre, så får du også bedre kontrol over kroppen. Samtidig fungerer musklerne og leddene bedre, og alle har formentlig oplevet at kroppens mobilitet er forbedret efter opvarmning. 
+---
 
-### 2. Præstationen øges i træning og kamp
+## Skadesforebyggelse vs. Præstation: Hvad siger forskningen?
 
-De forbedrede fysiologiske og psykologiske effekter af opvarmningen er også med til at forbedre præstationen i den efterfølgende træning og kamp. Kroppen er simpelthen mere effektiv, og det kommer dig til gode.
+Der eksisterer en udbredt antagelse om, at opvarmning automatisk forhindrer skader. Ser man nærmere på den videnskabelige litteratur, er billedet mere nuanceret:
 
-### 3. Forbedrer mobilitet og stabilitet
+### Generel opvarmning alene forebygger ikke overbelastninger
+En systematisk oversigt af Fradkin et al. (2006) konkluderede, at uspecifik, generel opvarmning (som fx roligt løb på et løbebånd) ikke i sig selv har en entydig, påviselig skadesforebyggende effekt i isolerede studier. 
 
-Mobilitet og stabilitet forbedres som følge af den fysiologiske virkning på kroppen. Det gør at du bedre kan komme ud i yderpositioner og bevæge dig mere frit. Opvarmningen gør det fx lettere at komme ned i bundpositionen i squat eller nå bolden ude i hjørnet i badminton. Når du kan bevæge dig mere frit, så øges effekten af træningen.
+Opvarmningens primære videnskabeligt dokumenterede formål er **at øge præstationsevnen**.
 
-### 4. Øger hormonproduktionen
+### Neuromuskulære opvarmningsprogrammer virker
+Når opvarmningen derimod opbygges som et **målrettet, sammensat program**, ændrer billedet sig markant. 
 
-Under opvarmningen øges produktionen af hormoner, som regulerer energibalancen. Du kan derfor udnytte kroppens energidepoter mere effektivt. Når du kan bruge energien mere effektivt, så kan du arbejde med højere intensitet og i længere tid.
+Evidensen for strukturerede opvarmningsprogrammer — som fx det velkendte *FIFA 11+* eller *PEP-programmet* til boldsport — er overvældende (Bahr et al., 2015; Thorborg et al., 2017). Disse programmer kombinerer kredsløbsopvarmning med:
+1. Dynamisk mobilitet og ledkontrol
+2. Excentrisk styrke (fx *Nordic Hamstrings*)
+3. Plyometrisk træning og landingsmekanik
+4. Core- og bækkenstabilitet
 
-## Forslag til struktur i opvarmningen
+Når opvarmningen bruges som en integreret træningsrutine over tid, viser systematiske reviews en reduktion i alvorlige underekstremitetsskader (især korsbåndsskader, baglårs- og lyskeskader) på mellem **30 % og 50 %** (Silvers-Granelli et al., 2015; Thorborg et al., 2017).
 
-Jeg er ret inspireret af Mike Robertsons træningstilgang og struktur i hans Bulletproof Athlete-program. I forhold til opvarmning til styrketræning, så bringer han os igennem disse faser.
+---
 
-R1 — Release
-: Arbejde med det bløde muskelvæv med foamrollere og lacrosse bolde. Vi arbejder med vævet for at løsne spændinger.
+## Myten om statisk udstrækning før træning
 
-R2 — Reset
-: Her prøver vi at forbedre vores ledposition, fx med posturale øvelser med vejrtrækning, udspændingsøvelser eller andet, hvor vi kan få kroppen i en bedre position til at træne.
+I mange år var statisk udstrækning (hvor et stræk holdes ubevægeligt i 30–60 sekunder) en fast bestanddel af opvarmningen. Nyere forskning har dog ændret denne praksis markant (Behm & Chaouachi, 2011; Kay & Blazevich, 2012).
 
-R3 — Readiness
-: Her gør vi os klar gennem dynamisk opvarmning, hvor vi fysiologisk også skal blive klar til træningen. Vi smører leddene, gør nervesystemet klar og forbedre bevægeligheden. Vi forbereder folk til at træne. Det kan både være dynamisk mobilitet eller større bevægelser, der sætter kredsløbet i gang. I denne fase skal der lidt sved på panden.
+* **Længerevarende statisk stræk (>60 sekunder)** nedsætter musklens maksimale kraftudvikling (peak force) og eksplosivitet midlertidigt. Dette skyldes både en dæmpning af det centrale nervesystem (*neural drive*) og et fald i senernes stivhed (*tendon stiffness*), hvilket forringer musklens evne til at genbruge elastisk energi i et afsæt (Behm et al., 2016).
+* **Statisk stræk forebygger ikke skader:** Metaanalyser af Lauersen et al. (2014) har slået fast, at statisk udstrækning før træning hverken reducerer den samlede skadesrisiko eller forebygger forsinket muskelømhed (DOMS).
+* **Anbefaling:** Gem langvarige statiske stræk til efter træningen. Brug i stedet **dynamiske stræk- og mobilitetsøvelser** under opvarmningen.
 
-R4 — Reactive
-: Vi arbejder med eksplosivitet og fyrer for alvor op for nervesystemet.
+---
 
-Jeg synes det er nogle gode faser at komme igennem, og i de enkelte faser kan du så tænke både generelle elementer og specifikke elementer ind.
+## RAMP-modellen: Den teoretiske ramme
 
-Ved at have en struktur på opvarmningen, er der større sandsynlighed for, at man rent laver det hele. Personligt er der stor forskel på, hvor dygtig jeg er til at varme op, hvis jeg har skrevet programmet ned på forhånd, eller hvis jeg bare finder på undervejs.
+For at sikre at opvarmningen indeholder alle nødvendige fysiologiske komponenter uden at udtrætte dig, benyttes i dag **RAMP-modellen**, udviklet af Ian Jeffreys (2007).
 
-## Eksempler på opvarmningsøvelser
+RAMP deler opvarmningen op i fire faser:
 
-[Fysiq](https://fysiq.dk/opvarmning-foer-traening-og-sport/) deler faserne i opvarmningen op lidt anderledes, men de har i denne video nogle meget gode forslag til opvarmningsøvelser.
+| Fase | Navn | Fysiologisk mål | Eksempler på udførelse |
+| :--- | :--- | :--- | :--- |
+| **R** | **Raise** | Hæv pulsen, muskeltemperaturen og blodomløbet. | Lette retningsskift, sjipning, jogging eller opvarmningslege i holdidræt. |
+| **A** | **Activate** | Neuromuskulær rekruttering af stabiliserende muskulatur. | Glute bridges, ét-bens balancetræning, planke-variationer, elastikarbejde. |
+| **M** | **Mobilize** | Reducere viskøs modstand i leddene gennem dynamiske bevægelser. | World's Greatest Stretch, dybe kontrollere squats, kontralaterale armsving. |
+| **P** | **Potentiate** | Udnytte PAPE og rekruttere hurtige Type II-muskelfibre. | Korte stigningsløb (strides), eksplosive hop, medicinboldkast, specifikke opvarmningssæt. |
+
+---
+
+## Eksempler på dynamiske opvarmningsøvelser
+
+Mangler du inspiration til særligt *Activate* og *Mobilize* faserne? [Fysiq](https://fysiq.dk/opvarmning-foer-traening-og-sport/) har samlet et udvalg af gode dynamiske øvelser i denne video:
 
 {% include video provider="youtube" id="tFHkPPN3oPc" %}
 
-## Eksempel på opvarmningsprogram
+---
 
-Med udgangspunkt i R7-faserne fra Bulletproof Athlete så kunne et forslag til et generelt opvarmningsprogram, som kan bruges til træning og sport se sådan her ud.
+## Hvor lang tid skal du bruge? (Tilpas til din træning)
 
-### R1 --- Release
+Opvarmningens varighed og intensitet skal altid matche det træningspas, der venter (McGowan et al., 2015):
 
-I denne fase bruger jeg ofte [foamrolling eller SMR](/foamrolling-foamroller-lacrossebolde/).
+1. **Rolige udholdenhedsture (Zone 2 løb/cykling):** Kræver minimal opvarmning. Du kan nøjes med at starte de første 5–10 minutter i et meget roligt tempo.
+2. **Tung styrketræning, intervaller eller boldsport:** Kræver en fuld RAMP-rutine på 10–15 minutter for at sikre maksimal nerveledning og fuld ledbevægelighed.
+3. **Konkurrencer / Sprint:** Kræver en grundig opvarmning afsluttet med specifikke *stigningsløb* eller eksplosive ryk tæt på konkurrenceintensitet, efterfulgt af 5 minutters ro før start, så mælkesyren kan nå at falde til ro.
 
-### R2 --- Reset
-
-[Åndedrætsøvelser og vejrtrækningsøvelser](/aandedraetstraening-forbedrer-udholdenheden/), som gør dig klar til træningen. Det kunne også være specifikke øvelser, som forbedrer din evne til at komme i den rigtige position.
-
-### R3 --- Readiness
-
-I en god generel opvarmning så kan det være godt at lave noget bevægelse, hvor du **tilbagelægger en distance**. Det kan fx være forskellige bevægelser, mens du enten går eller løber. Du kan også lave øvelser på stedet, fx sprællemænd og andre hoppeformer.
-
-Jeg kan også godt lide at bruge øvelser til **dynamisk mobilitet**, fx øvelser med forskellige rotationer. Du kan se et bredt udsnit af [øvelserne til opvarmning før styrketræning](/opvarmning-styrketraening/).
-
-### R4 --- Reactive
-
-I denne fase skal du arbejde med eksplosive bevægelser. Det kan enten være forskellige sprintformer. Du kan også bruge spring og kast med fx medicinbold i denne fase.
+---
 
 ## Ofte stillede spørgsmål om opvarmning
 
 {% include motionsplan/faq.html %}
 
-## Konklusion
-
-Opvarmning til træning og sport bør være en integreret del af din samlede træning. Du kan arbejde med mange gode elementer. Særligt opbygningen med generel opvarmning gående mod specifik opvarmning og med et eksplosivt element er rigtig god at holde sig for øje.
+---
 
 <details markdown="1" class="references">
-  <summary><h2 id="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer og videnskabeligt grundlag</h2></summary>
 
-- [Most intelligent way to warm up](https://www.t-nation.com/training/most-intelligent-way-to-warm-up)
-- [The simple 7 warmup](https://www.t-nation.com/training/the-simple-7-warm-up)
-- [The lifters 10 minutes warmup](https://www.t-nation.com/training/tip-the-lifters-10-minute-warm-up)
-- [Foam rolling isn't stretching, but still important](https://deansomerset.com/foam-rolling-isnt-stretching-still-important/)
-- [The most efficient Warm-Ups, Period](https://www.t-nation.com/training/the-most-efficient-warm-ups-period)
-- [Agile 8](https://breakingmuscle.com/workouts/use-the-agile-8-to-warm-up-quickly/)
+- Bahr, R., Clarsen, B., & Ekstrand, J. (2015). *Why we should focus on injury prevention in sports*. British Journal of Sports Medicine, 49(14), 929-930.
+- Behm, D. G., & Chaouachi, A. (2011). *A review of the acute effects of static and dynamic stretching on performance*. European Journal of Applied Physiology, 111(11), 2633-2651.
+- Behm, D. G., Blazevich, A. J., Kay, A. D., & McHugh, M. (2016). *Acute effects of muscle stretching on physical performance, range of motion, and injury incidence in healthy active individuals: a systematic review*. Applied Physiology, Nutrition, and Metabolism, 41(1), 1-11.
+- Bishop, D. (2003). *Warm-up and physical performance: Especially notes on physiological mechanisms*. Sports Medicine, 33(6), 439-454.
+- Blazevich, A. J., & Babault, N. (2019). *Post-activation potentiation (PAP) versus post-activation performance enhancement (PAPE): Similarities, differences, and practical applications*. Frontiers in Physiology, 10, 1357.
+- Fradkin, A. J., Gabbe, B. J., & Cameron, P. A. (2006). *Does warming up prevent injury in sport? The evidence from randomized controlled trials*. Journal of Science and Medicine in Sport, 9(3), 214-220.
+- Frederiksen, K. (1982). *Opvarmning i idræt*. Danmarks Højskole for Legemsøvelser.
+- Gray, S. C., Devito, G., & Nimmo, M. A. (2006). *Effect of active warm-up on metabolism prior to and during intense dynamic exercise*. Medicine & Science in Sports & Exercise, 38(11), 1978-1983.
+- Jeffreys, I. (2007). *Warm-up revisited: The RAMP method of optimizing warm-ups*. Professional Strength and Conditioning, (6), 12-18.
+- Kay, A. D., & Blazevich, A. J. (2012). *Effect of acute static stretch on maximal muscle performance: a systematic review*. Medicine & Science in Sports & Exercise, 44(1), 154-164.
+- Lauersen, J. B., Bertelsen, D. M., & Andersen, L. B. (2014). *The exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials*. British Journal of Sports Medicine, 48(11), 871-877.
+- McGowan, C. J., Pyne, D. B., Thompson, K. G., & Rattray, B. (2015). *Warm-up strategies for sport and exercise: A systematic review and recommendations*. Sports Medicine, 45(11), 1523-1546.
+- Silvers-Granelli, H., et al. (2015). *Efficacy of the FIFA 11+ injury prevention program in male collegiate soccer players*. The American Journal of Sports Medicine, 43(11), 2628-2637.
+- Thorborg, K., et al. (2017). *Clinical Orthopaedic Rehabilitation: A Team Approach*. Elsevier.
 </details>

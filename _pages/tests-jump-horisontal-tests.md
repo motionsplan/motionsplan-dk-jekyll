@@ -118,8 +118,10 @@ Startlinje (0m)                  Landing (bagerste hæl)
 
 ---
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 * Council of Europe (1988). *EUROFIT: Handbook for the EUROFIT Tests of Physical Fitness*. Rome.
 * Reid, A., et al. (2007). *Hop surveys: Reliability and validity of four single-leg hop tests in normal and ACL-deficient subjects*. Physical Therapy in Sport, 8(1), 22-30.
 * Hamilton, R. T., et al. (2008). *Triple-hop for distance as a predictor of lower limb strength and power*. Journal of Strength and Conditioning Research, 22(5), 1500-1505.
+</details>

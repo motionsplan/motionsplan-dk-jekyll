@@ -125,8 +125,11 @@ Ved at lade Rytter B køre på **640 Watt** i stedet for 520 Watt opnår begge r
 
 ---
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer og videre læsning</h2></summary>
 
 1. **Sandford, G. N., et al. (2021).** *Anaerobic Speed/Power Reserve and Locomotor Profiles: A Conceptual Framework for Sports Performance.* Sports Medicine, 51(11), 2263–2278.
 2. **Chidnok, W., et al. (2013).** *Muscle metabolic responses during high-intensity intermittent exercise measured by 31P-MRS: relationship to the anaerobic power reserve.* American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 305(9), R1085-R1092.
 3. **Quod, M. J., et al. (2010).** *The anaerobic speed reserve revisited: physiological basis and application to elite sprint-distance triathlon.* Sports Medicine, 40(5), 357–374.
+
+</details>

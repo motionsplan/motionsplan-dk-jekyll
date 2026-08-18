@@ -1,0 +1,721 @@
+{% assign program_key = include.program | default: "politi" %}
+{% assign workout_data = site.data.workouts[program_key] %}
+
+{% if workout_data %}
+
+<div id="wp-card-{{ program_key }}" class="wp-card">
+  
+  <!-- MODAL OVERLAY: FULL PROGRAM LIST -->
+  <div id="wp-modal-{{ program_key }}" class="wp-modal-overlay">
+    <div class="wp-modal-header">
+      <div>
+        <div class="wp-modal-title">📋 {{ workout_data.title | default: "Opvarmningsprogram" }}</div>
+        <p class="wp-modal-subtitle">Klik på en øvelse for at hoppe direkte dertil</p>
+      </div>
+      <button onclick="WorkoutPlayer_{{ program_key }}.toggleModal(false)" class="wp-close-btn" aria-label="Luk oversigt">✖</button>
+    </div>
+    <div id="wp-modal-list-{{ program_key }}" class="wp-modal-list"></div>
+  </div>
+
+  <!-- PLAYER HEADER -->
+  <div class="wp-header">
+    <div class="wp-header-info">
+      <h3 class="wp-title">{{ workout_data.title | default: "Opvarmnings-afspiller" }}</h3>
+    </div>
+    <div class="wp-header-actions">
+      <button id="wp-mute-btn-{{ program_key }}" onclick="WorkoutPlayer_{{ program_key }}.toggleMute()" class="wp-btn-icon" title="Lyd til/fra">🔊</button>
+    </div>
+  </div>
+
+  <!-- MAIN EXERCISE DISPLAY -->
+  <div id="wp-display-box-{{ program_key }}" class="wp-display">
+    
+    <!-- CATEGORY & COUNTER -->
+    <div class="wp-top-meta">
+      <span id="wp-category-{{ program_key }}" class="wp-category-tag">Kategori</span>
+      <span id="wp-counter-{{ program_key }}" class="wp-counter">Øvelse - / -</span>
+    </div>
+
+    <!-- EXERCISE NAME (FIXED HEIGHT TO PREVENT JUMPING) -->
+    <div class="wp-exercise-wrap">
+      <div id="wp-exercise-name-{{ program_key }}" class="wp-exercise-name">Henter øvelse...</div>
+    </div>
+    
+    <!-- STATUS & DETAIL BADGES -->
+    <div class="wp-status-wrap">
+      <div id="wp-status-msg-{{ program_key }}" class="wp-status-msg">&nbsp;</div>
+    </div>
+
+    <!-- TIMER / REPS COUNT DISPLAY -->
+    <div class="wp-timer-box">
+      <div id="wp-time-display-{{ program_key }}" class="wp-time-display">00:30</div>
+    </div>
+
+    <!-- NEXT EXERCISE PREVIEW -->
+    <div class="wp-next-preview">
+      Næste: <span id="wp-next-name-{{ program_key }}" class="wp-next-name">-</span>
+    </div>
+
+    <!-- PROGRESS BAR -->
+    <div class="wp-progress-bar-bg">
+      <div id="wp-progress-fill-{{ program_key }}" class="wp-progress-fill"></div>
+    </div>
+  </div>
+
+  <!-- PLAYER CONTROLS IN BOTTOM -->
+  <div class="wp-controls">
+    <button id="wp-play-btn-{{ program_key }}" onclick="WorkoutPlayer_{{ program_key }}.togglePlay()" class="wp-btn-ctrl wp-btn-main">
+      <span id="wp-btn-icon-{{ program_key }}">▶</span> <span id="wp-btn-text-{{ program_key }}">Start</span>
+    </button>
+
+    <button onclick="WorkoutPlayer_{{ program_key }}.next()" class="wp-btn-ctrl" title="Næste øvelse">⏭️ Næste</button>
+    <button onclick="WorkoutPlayer_{{ program_key }}.resetCurrent()" class="wp-btn-ctrl" title="Genstart øvelse">🔄 Nulstil</button>
+    <button onclick="WorkoutPlayer_{{ program_key }}.toggleModal(true)" class="wp-btn-ctrl wp-btn-program" title="Se hele programmet">📋 Program</button>
+  </div>
+
+</div>
+
+<!-- CSS STYLES -->
+<style>
+.wp-card {
+  position: relative;
+  background: #ffffff;
+  border: 3px solid #0284c7;
+  border-radius: 14px;
+  padding: 20px;
+  margin: 25px 0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: border-color 0.4s ease;
+}
+
+.wp-modal-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  z-index: 100;
+  padding: 18px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.wp-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.wp-modal-title {
+  margin: 0;
+  color: #0f172a;
+  font-size: 1.1em;
+  font-weight: 800;
+}
+
+.wp-modal-subtitle {
+  margin: 2px 0 0 0;
+  font-size: 0.8em;
+  color: #64748b;
+}
+
+.wp-close-btn {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0f172a;
+  transition: all 0.2s;
+}
+
+.wp-close-btn:hover { background: #e2e8f0; }
+
+.wp-modal-list {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.wp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.wp-title {
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.wp-header-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.wp-btn-icon {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.9em;
+  font-weight: 700;
+  cursor: pointer;
+  color: #334155;
+  transition: all 0.2s;
+}
+
+.wp-btn-icon:hover { background: #e2e8f0; }
+
+/* DISPLAY BOX */
+.wp-display {
+  background: #0f172a;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 20px 16px;
+  text-align: center;
+  margin-bottom: 16px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.4s ease;
+}
+
+.wp-top-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.wp-category-tag {
+  font-size: 0.8em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: color 0.3s ease;
+}
+
+.wp-counter {
+  font-size: 0.78em;
+  font-weight: 700;
+  color: #94a3b8;
+  background: rgba(255,255,255,0.1);
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+/* NO JUMPING FIX FOR EXERCISE NAME */
+.wp-exercise-wrap {
+  min-height: 3.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px 0;
+}
+
+.wp-exercise-name {
+  font-size: 1.55em;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #f8fafc;
+}
+
+.wp-status-wrap {
+  min-height: 1.4em;
+  margin-bottom: 4px;
+}
+
+.wp-status-msg {
+  font-size: 0.88em;
+  font-weight: 700;
+  color: #facc15;
+}
+
+.wp-timer-box {
+  margin: 4px 0 10px 0;
+}
+
+.wp-time-display {
+  font-size: 3.5em;
+  font-weight: 900;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -1px;
+  transition: color 0.3s ease;
+}
+
+.wp-next-preview {
+  font-size: 0.82em;
+  color: #94a3b8;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  padding-top: 8px;
+  margin-top: 8px;
+}
+
+.wp-next-name {
+  color: #cbd5e1;
+  font-weight: 600;
+}
+
+.wp-progress-bar-bg {
+  width: 100%;
+  background: rgba(255,255,255,0.15);
+  height: 6px;
+  border-radius: 3px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.wp-progress-fill {
+  width: 0%;
+  height: 100%;
+  transition: width 0.3s linear, background-color 0.3s ease;
+}
+
+/* CONTROLS IN BOTTOM */
+.wp-controls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wp-btn-ctrl {
+  background: #f1f5f9;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  padding: 11px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.wp-btn-ctrl:hover {
+  background: #e2e8f0;
+}
+
+.wp-btn-main {
+  color: #ffffff;
+  border: none;
+  padding: 11px 22px;
+  font-size: 0.98em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wp-btn-program {
+  background: #e0f2fe;
+  color: #0369a1;
+  border-color: #bae6fd;
+}
+
+.wp-btn-program:hover {
+  background: #bae6fd;
+}
+
+@media (max-width: 520px) {
+  .wp-exercise-name { font-size: 1.3em; }
+  .wp-time-display { font-size: 3em; }
+  .wp-controls { gap: 6px; }
+  .wp-btn-ctrl { padding: 9px 12px; font-size: 0.85em; }
+}
+</style>
+
+<!-- CONTROLLER SCRIPT -->
+<script>
+const WorkoutPlayer_{{ program_key }} = (function() {
+  const program = {{ workout_data.exercises | jsonify }};
+  const programKey = "{{ program_key }}";
+
+  // FARVE-THEMES TIL SEKTIONER
+  const sectionPalette = [
+    { main: "#0284c7", accent: "#38bdf8", bgDark: "#0f172a" }, // Blå
+    { main: "#d97706", accent: "#fbbf24", bgDark: "#1e1b18" }, // Amber/Orange
+    { main: "#16a34a", accent: "#4ade80", bgDark: "#0f1f15" }, // Grøn
+    { main: "#4f46e5", accent: "#a5b4fc", bgDark: "#13122b" }  // Indigo/Lilla
+  ];
+
+  // Map unikke sektioner til farver
+  const categoryThemeMap = {};
+  let categoryCount = 0;
+  program.forEach(item => {
+    if (item.cat && !categoryThemeMap[item.cat]) {
+      categoryThemeMap[item.cat] = sectionPalette[categoryCount % sectionPalette.length];
+      categoryCount++;
+    }
+  });
+
+  let currentIndex = 0;
+  let isPaused = true;
+  let isPrep = false;
+  let isSectionBreak = false;
+  let timeRemaining = program[0] ? (program[0].dur || 30) : 30;
+  let prepRemaining = 0;
+  let elapsedRepsTime = 0;
+  let isMuted = false;
+  let timerInterval = null;
+  let halfwayBeepPlayed = false;
+  let audioCtx = null;
+
+  function initAudio() {
+    if (!audioCtx) {
+      const AudioContext = window.AudioContext || window.webkitAudioContext;
+      if (AudioContext) audioCtx = new AudioContext();
+    }
+    if (audioCtx && audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+  }
+
+  function playSound(freq, type = 'sine', duration = 0.15, volume = 0.3) {
+    if (isMuted) return;
+    initAudio();
+    if (!audioCtx) return;
+
+    try {
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = type;
+      osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+      gain.gain.setValueAtTime(volume, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.00001, audioCtx.currentTime + duration);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc.start();
+      osc.stop(audioCtx.currentTime + duration);
+    } catch (e) {
+      console.warn("Audio error:", e);
+    }
+  }
+
+  function playBeepStart() { playSound(880, 'sine', 0.25, 0.4); }
+  function playBeepCount() { playSound(440, 'sine', 0.08, 0.2); }
+  function playBeepHalf() { 
+    playSound(600, 'sine', 0.12, 0.3);
+    setTimeout(() => playSound(800, 'sine', 0.18, 0.3), 140);
+  }
+  function playSectionChime() {
+    playSound(523, 'sine', 0.15, 0.3);
+    setTimeout(() => playSound(659, 'sine', 0.15, 0.3), 150);
+    setTimeout(() => playSound(783, 'sine', 0.25, 0.3), 300);
+  }
+
+  function formatTime(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+  }
+
+  function updateUI() {
+    const ex = program[currentIndex];
+    const nextEx = program[currentIndex + 1];
+    if (!ex) return;
+
+    const theme = categoryThemeMap[ex.cat] || sectionPalette[0];
+
+    // FARVE-TILDELING PÅ CARD OG DISPLAY
+    document.getElementById(`wp-card-${programKey}`).style.borderColor = theme.main;
+    document.getElementById(`wp-display-box-${programKey}`).style.backgroundColor = theme.bgDark;
+    document.getElementById(`wp-category-${programKey}`).style.color = theme.accent;
+    document.getElementById(`wp-time-display-${programKey}`).style.color = theme.accent;
+    document.getElementById(`wp-progress-fill-${programKey}`).style.backgroundColor = theme.accent;
+
+    // COUNTER
+    document.getElementById(`wp-counter-${programKey}`).innerText = `Øvelse ${currentIndex + 1} af ${program.length}`;
+
+    const statusEl = document.getElementById(`wp-status-msg-${programKey}`);
+    const playIcon = document.getElementById(`wp-btn-icon-${programKey}`);
+    const playText = document.getElementById(`wp-btn-text-${programKey}`);
+    const playBtn = document.getElementById(`wp-play-btn-${programKey}`);
+
+    if (isSectionBreak) {
+      document.getElementById(`wp-category-${programKey}`).innerText = "⏸ PAUSE & SEKTIONSSKIFT";
+      document.getElementById(`wp-exercise-name-${programKey}`).innerText = `Næste del: ${ex.cat}`;
+      statusEl.innerText = "Gør dig klar til næste sektion!";
+      document.getElementById(`wp-time-display-${programKey}`).innerText = "PAUSE";
+      
+      playIcon.innerText = "▶";
+      playText.innerText = `Start ${ex.cat}`;
+      playBtn.style.backgroundColor = theme.main;
+    } 
+    else if (isPrep) {
+      document.getElementById(`wp-category-${programKey}`).innerText = `${ex.cat} — GØR KLAR`;
+      document.getElementById(`wp-exercise-name-${programKey}`).innerText = `Næste: ${ex.name}`;
+      statusEl.innerText = "⏳ Gør dig klar til start!";
+      document.getElementById(`wp-time-display-${programKey}`).innerText = formatTime(prepRemaining);
+      
+      playIcon.innerText = "⏸";
+      playText.innerText = "Pause";
+      playBtn.style.backgroundColor = "#dc2626";
+    }
+    else {
+      document.getElementById(`wp-category-${programKey}`).innerText = ex.cat;
+      document.getElementById(`wp-exercise-name-${programKey}`).innerText = ex.name;
+
+      if (ex.type === 'reps') {
+        document.getElementById(`wp-time-display-${programKey}`).innerText = formatTime(elapsedRepsTime);
+        statusEl.innerText = `💪 ${ex.repsText || 'Udfør gentagelserne'} — Tryk Næste når færdig`;
+      } else {
+        document.getElementById(`wp-time-display-${programKey}`).innerText = formatTime(timeRemaining);
+        if (ex.switchHalf && timeRemaining <= Math.floor((ex.dur || 30) / 2)) {
+          statusEl.innerText = "↔️ Skift side / retning nu!";
+        } else if (ex.switchHalf) {
+          statusEl.innerText = "(Skiftes halvvejs)";
+        } else {
+          statusEl.innerHTML = "&nbsp;";
+        }
+      }
+
+      if (isPaused) {
+        playIcon.innerText = "▶";
+        playText.innerText = (currentIndex === 0 && timeRemaining === (ex.dur || 30) && elapsedRepsTime === 0) ? "Start" : "Fortsæt";
+        playBtn.style.backgroundColor = "#16a34a";
+      } else {
+        playIcon.innerText = "⏸";
+        playText.innerText = "Pause";
+        playBtn.style.backgroundColor = "#dc2626";
+      }
+    }
+
+    // PREVIEW NÆSTE
+    document.getElementById(`wp-next-name-${programKey}`).innerText = nextEx ? `${nextEx.name} (${nextEx.cat})` : "Slut på opvarmningen!";
+
+    // PROGRESS BAR
+    const pct = ((currentIndex + (isSectionBreak || isPrep ? 0 : 0.8)) / program.length) * 100;
+    document.getElementById(`wp-progress-fill-${programKey}`).style.width = `${pct}%`;
+
+    renderModalList();
+  }
+
+  function tick() {
+    if (isPaused) return;
+
+    const ex = program[currentIndex];
+
+    if (isSectionBreak) {
+      updateUI();
+      return;
+    }
+
+    if (isPrep) {
+      prepRemaining--;
+      playBeepCount();
+      if (prepRemaining <= 0) {
+        isPrep = false;
+        playBeepStart();
+      }
+      updateUI();
+      return;
+    }
+
+    if (ex.type === 'reps') {
+      elapsedRepsTime++;
+      updateUI();
+    } else {
+      timeRemaining--;
+
+      const halfTime = Math.floor((ex.dur || 30) / 2);
+      if (ex.switchHalf && timeRemaining === halfTime && !halfwayBeepPlayed) {
+        playBeepHalf();
+        halfwayBeepPlayed = true;
+      }
+
+      if (timeRemaining <= 3 && timeRemaining > 0) {
+        playBeepCount();
+      }
+
+      if (timeRemaining <= 0) {
+        playBeepStart();
+        nextExercise();
+      } else {
+        updateUI();
+      }
+    }
+  }
+
+  function startTimer() {
+    if (timerInterval) clearInterval(timerInterval);
+    timerInterval = setInterval(tick, 1000);
+  }
+
+  function togglePlay() {
+    initAudio();
+
+    if (isSectionBreak) {
+      isSectionBreak = false;
+      if (program[currentIndex].prep) {
+        isPrep = true;
+        prepRemaining = program[currentIndex].prep;
+      }
+      isPaused = false;
+      startTimer();
+      updateUI();
+      return;
+    }
+
+    isPaused = !isPaused;
+    if (!isPaused) {
+      startTimer();
+    } else {
+      clearInterval(timerInterval);
+    }
+    updateUI();
+  }
+
+  function setupExercise(index) {
+    const ex = program[index];
+    halfwayBeepPlayed = false;
+    elapsedRepsTime = 0;
+    timeRemaining = ex.dur || 30;
+
+    if (ex.prep && ex.prep > 0) {
+      isPrep = true;
+      prepRemaining = ex.prep;
+    } else {
+      isPrep = false;
+    }
+  }
+
+  function nextExercise() {
+    if (currentIndex < program.length - 1) {
+      const currentCat = program[currentIndex].cat;
+      const nextEx = program[currentIndex + 1];
+
+      currentIndex++;
+      setupExercise(currentIndex);
+
+      if (currentCat !== nextEx.cat) {
+        isPaused = true;
+        isSectionBreak = true;
+        isPrep = false;
+        clearInterval(timerInterval);
+        playSectionChime();
+      }
+
+      updateUI();
+    } else {
+      isPaused = true;
+      clearInterval(timerInterval);
+      playSectionChime();
+      alert("🎉 Flot arbejdet! Du har gennemført hele opvarmningen.");
+      updateUI();
+    }
+  }
+
+  function prevExercise() {
+    if (currentIndex > 0) {
+      currentIndex--;
+      isSectionBreak = false;
+      setupExercise(currentIndex);
+      updateUI();
+    }
+  }
+
+  function resetCurrent() {
+    isSectionBreak = false;
+    setupExercise(currentIndex);
+    updateUI();
+  }
+
+  function jumpToExercise(index) {
+    if (index >= 0 && index < program.length) {
+      currentIndex = index;
+      isSectionBreak = false;
+      setupExercise(currentIndex);
+      toggleModal(false);
+      updateUI();
+    }
+  }
+
+  function toggleMute() {
+    isMuted = !isMuted;
+    document.getElementById(`wp-mute-btn-${programKey}`).innerText = isMuted ? "🔇" : "🔊";
+  }
+
+  function toggleModal(show) {
+    document.getElementById(`wp-modal-${programKey}`).style.display = show ? "flex" : "none";
+    if (show) renderModalList();
+  }
+
+  function renderModalList() {
+    const container = document.getElementById(`wp-modal-list-${programKey}`);
+    if (!container) return;
+
+    let html = "";
+    let lastCat = "";
+
+    program.forEach((item, idx) => {
+      const theme = categoryThemeMap[item.cat] || sectionPalette[0];
+
+      if (item.cat !== lastCat) {
+        lastCat = item.cat;
+        html += `<div style="font-weight: 800; color: ${theme.main}; margin-top: 12px; margin-bottom: 6px; font-size: 0.85em; text-transform: uppercase; letter-spacing:0.5px;">${item.cat}</div>`;
+      }
+
+      const isActive = idx === currentIndex && !isSectionBreak;
+      const bg = isActive ? theme.main : "#ffffff";
+      const textColor = isActive ? "#ffffff" : "#334155";
+      const border = isActive ? `2px solid ${theme.main}` : "1px solid #cbd5e1";
+
+      html += `
+        <div onclick="WorkoutPlayer_${programKey}.jump(${idx})" class="wp-modal-item" style="background:${bg}; color:${textColor}; border:${border}; border-radius: 8px; padding: 10px 12px; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; font-size: 0.9em; transition: all 0.15s;">
+          <div>
+            <strong>${idx + 1}. ${item.name}</strong>
+            ${item.type === 'reps' ? `<span style="font-size: 0.82em; opacity: 0.85; margin-left: 6px;">(${item.repsText || 'Reps'})</span>` : ''}
+            ${item.switchHalf ? `<span style="font-size: 0.82em; opacity: 0.85; margin-left: 6px;">(Skift v. halvvejs)</span>` : ''}
+          </div>
+          <div style="font-size: 0.82em; font-weight: bold; opacity: 0.9;">
+            ${isActive ? '👉 AKTIV' : (item.type === 'reps' ? 'Reps' : (item.dur || 30) + 's')}
+          </div>
+        </div>
+      `;
+    });
+
+    container.innerHTML = html;
+  }
+
+  // DOM Init
+  document.addEventListener("DOMContentLoaded", function() {
+    setupExercise(0);
+    updateUI();
+  });
+
+  return {
+    togglePlay,
+    next: nextExercise,
+    prev: prevExercise,
+    resetCurrent,
+    jump: jumpToExercise,
+    toggleMute,
+    toggleModal
+  };
+})();
+</script>
+
+{% else %}
+<div style="background: #fef2f2; border: 1px solid #fca5a5; color: #991b1b; padding: 12px; border-radius: 8px; font-size: 0.9em; margin: 15px 0;">
+  <strong>Fejl i Opvarmnings-afspiller:</strong> Kunne ikke finde træningsdata for <code>{{ program_key }}</code> i mappen <code>_data/workouts/{{ program_key }}.json</code>.
+</div>
+{% endif %}

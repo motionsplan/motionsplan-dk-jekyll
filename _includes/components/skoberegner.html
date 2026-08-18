@@ -1,0 +1,383 @@
+<div class="mp-calc-container">
+  <!-- Tabs -->
+  <div class="mp-calc-tabs">
+    <button class="mp-calc-tab active" data-tab="cm">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5a2 2 0 0 1 2-2h13.4a.6.6 0 0 1 .6.6v13.8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M8 3v4"/><path d="M12 3v4"/><path d="M16 3v4"/></svg>
+      MÅLT FODLÆNGDE (CM)
+    </button>
+    <button class="mp-calc-tab" data-tab="ref">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12A10.5 10.5 0 0 0 2 12v6.5a3.5 3.5 0 0 0 3.5 3.5h13a3.5 3.5 0 0 0 3.5-3.5V12z"/><path d="M6 12v6"/><path d="M18 12v6"/></svg>
+      NUVÆRENDE SKO & MÆRKE
+    </button>
+  </div>
+
+  <div class="mp-calc-grid">
+    <!-- Venstre kolonne: Indtastning -->
+    <div class="mp-calc-inputs">
+      
+      <!-- IDRÆTSGREN -->
+      <div class="mp-calc-group mp-highlight-group">
+        <label>VÆLG DIN TRÆNINGSTYPE</label>
+        <select id="mp-sport">
+          <option value="running">Løb (Mængde & Tempo)</option>
+          <option value="crossfit">Crossfit & Fitness</option>
+          <option value="weightlifting">Vægtløftning (Squat sko)</option>
+          <option value="cycling">Cykling (Race, Gravel, MTB)</option>
+        </select>
+      </div>
+
+      <!-- Sektion: Målt i CM -->
+      <div id="mp-section-cm" class="mp-calc-section active">
+        <div class="mp-calc-group">
+          <label>MÅLT FODLÆNGDE (CM)</label>
+          <div class="mp-input-wrapper">
+            <input type="number" id="mp-cm-input" step="0.1" placeholder="F.eks. 27.2" autocomplete="off">
+            <span class="mp-input-suffix">CM</span>
+          </div>
+          <small class="mp-help-text">Mål begge fødder fra hæl til længste tå. Brug det største mål.</small>
+        </div>
+      </div>
+
+      <!-- Sektion: Reference Sko -->
+      <div id="mp-section-ref" class="mp-calc-section" style="display:none;">
+        <div class="mp-calc-row">
+          <div class="mp-calc-group">
+            <label>MÆRKE DU HAR NU</label>
+            <select id="mp-ref-brand">
+              <option value="Nike">Nike</option>
+              <option value="Adidas">Adidas</option>
+              <option value="Asics">Asics</option>
+              <option value="New Balance">New Balance</option>
+            </select>
+          </div>
+          <div class="mp-calc-group">
+            <label>STØRRELSE (EU)</label>
+            <input type="number" id="mp-ref-size" step="0.5" placeholder="F.eks. 43" autocomplete="off">
+          </div>
+        </div>
+        <small class="mp-help-text">Vælg en sko der sidder perfekt, så regner vi baglæns til din fodlængde.</small>
+      </div>
+
+      <!-- Pasform (Buffer) -->
+      <div class="mp-calc-group" style="margin-top:15px;">
+        <label>ØNSKET PASFORM (EKSTRA PLADS)</label>
+        <div class="mp-buffer-grid">
+          <button class="mp-buffer-btn" data-buffer="0">
+            <strong>0 cm</strong>
+            <span>PRÆCIS</span>
+          </button>
+          <button class="mp-buffer-btn" data-buffer="0.5">
+            <strong>0,5 cm</strong>
+            <span>SNÆVER</span>
+          </button>
+          <button class="mp-buffer-btn active" data-buffer="1.0">
+            <strong>1,0 cm</strong>
+            <span>STANDARD</span>
+          </button>
+          <button class="mp-buffer-btn" data-buffer="1.5">
+            <strong>1,5 cm</strong>
+            <span>KOMFORT</span>
+          </button>
+        </div>
+        <small class="mp-help-text" id="mp-buffer-desc">Standard anbefaling. God komfort og plads (Anbefalet til løb).</small>
+      </div>
+
+      <div class="mp-calc-actions">
+        <button id="mp-btn-reset" class="mp-btn-secondary">
+           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+           Nulstil indtastning
+        </button>
+      </div>
+    </div>
+
+    <!-- Højre kolonne: Resultater -->
+    <div class="mp-calc-results">
+      <h3>DIN STØRRELSE OVERSIGT</h3>
+      
+      <!-- Tom tilstand -->
+      <div id="mp-empty-state" class="mp-empty-state">
+        Indtast dit fodmål eller din nuværende sko til venstre, for at se din præcise størrelse i relevante mærker.
+      </div>
+
+      <!-- Resultat tilstand (vises live) -->
+      <div id="mp-result-state" style="display:none;">
+        <p class="mp-result-sub" id="mp-result-sub"></p>
+        <div id="mp-results-list" class="mp-brands-list">
+          <!-- Bliver udfyldt af JavaScript live -->
+        </div>
+        <div class="mp-result-footer">
+          Baseret på mærkernes Mondopoint-tabeller. Pasform varierer afhængig af skoens læst.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.mp-calc-container { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 950px; margin: 40px auto; background: #f8f9fa; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.06); overflow: hidden; color: #1a1a1a; border: 1px solid #e9ecef; }
+.mp-calc-container * { box-sizing: border-box; }
+.mp-calc-tabs { display: flex; background: #e9ecef; }
+.mp-calc-tab { flex: 1; padding: 15px; border: none; background: transparent; font-weight: 700; font-size: 0.9rem; color: #6c757d; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: 0.2s; }
+.mp-calc-tab:hover { background: #f1f3f5; color: #495057; }
+.mp-calc-tab.active { background: #ffffff; color: #113285; border-top: 3px solid #113285; }
+.mp-calc-grid { display: grid; grid-template-columns: 1fr 420px; background: #ffffff; }
+@media (max-width: 800px) { .mp-calc-grid { grid-template-columns: 1fr; } }
+.mp-calc-inputs { padding: 35px 30px; }
+.mp-highlight-group { background: #f1f3f5; padding: 15px; border-radius: 8px; border-left: 4px solid #113285; margin-bottom: 25px !important; }
+.mp-calc-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 5px; }
+.mp-calc-group { margin-bottom: 20px; display: flex; flex-direction: column; }
+.mp-calc-group label { font-size: 0.75rem; font-weight: 800; color: #113285; margin-bottom: 8px; letter-spacing: 0.5px; }
+.mp-calc-group input, .mp-calc-group select { width: 100%; padding: 14px 16px; border: 1px solid #ced4da; border-radius: 8px; font-size: 1.05rem; color: #212529; background: #fff; outline: none; transition: 0.2s; font-family: inherit; font-weight: 600; cursor: pointer;}
+.mp-calc-group input { cursor: text; font-weight: 400; }
+.mp-calc-group input:focus, .mp-calc-group select:focus { border-color: #113285; box-shadow: 0 0 0 3px rgba(17, 50, 133, 0.1); }
+.mp-input-wrapper { position: relative; }
+.mp-input-suffix { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); color: #6c757d; font-weight: 700; font-size: 0.9rem; pointer-events: none; }
+.mp-help-text { font-size: 0.8rem; color: #6c757d; margin-top: 8px; line-height: 1.4; }
+.mp-buffer-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.mp-buffer-btn { background: #ffffff; border: 1px solid #ced4da; border-radius: 8px; padding: 12px 2px; cursor: pointer; display: flex; flex-direction: column; align-items: center; transition: 0.2s; color: #495057; }
+.mp-buffer-btn strong { font-size: 1.05rem; color: #212529; margin-bottom: 4px; font-weight: 800;}
+.mp-buffer-btn span { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.5px; opacity: 0.7; }
+.mp-buffer-btn:hover { border-color: #113285; }
+.mp-buffer-btn.active { background: #113285; border-color: #113285; color: #ffffff; box-shadow: 0 4px 10px rgba(17,50,133,0.2); }
+.mp-buffer-btn.active strong, .mp-buffer-btn.active span { color: #ffffff; opacity: 1; }
+.mp-calc-actions { margin-top: 15px; display: flex; justify-content: flex-start; }
+.mp-btn-secondary { background: transparent; color: #6c757d; font-weight: 600; font-size: 0.85rem; border: none; cursor: pointer; display: flex; align-items: center; gap: 6px; padding: 5px 0; transition: 0.2s; }
+.mp-btn-secondary:hover { color: #dc3545; }
+
+/* Højre side - UI */
+.mp-calc-results { background: #0b1f52; color: #ffffff; padding: 35px 30px; display: flex; flex-direction: column; }
+.mp-calc-results h3 { margin: 0 0 15px 0; font-size: 1.25rem; font-weight: 800; color: #ffffff; line-height: 1.2; letter-spacing: 0.5px; }
+.mp-empty-state { background: rgba(255,255,255,0.05); border: 1px dashed rgba(255,255,255,0.2); border-radius: 8px; padding: 30px 20px; text-align: center; font-size: 0.95rem; color: #a9bbed; line-height: 1.6; margin-top: 20px; }
+.mp-result-sub { opacity: 0.8; font-size: 0.9rem; margin: 0 0 20px 0; line-height: 1.5; color: #d0d7ed; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 15px; }
+.mp-brands-list { display: flex; flex-direction: column; gap: 8px; max-height: 480px; overflow-y: auto; padding-right: 5px; }
+.mp-brands-list::-webkit-scrollbar { width: 6px; }
+.mp-brands-list::-webkit-scrollbar-track { background: rgba(255,255,255,0.05); border-radius: 4px; }
+.mp-brands-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 4px; }
+.mp-brand-card { display: flex; align-items: center; justify-content: space-between; background: rgba(255,255,255,0.08); border-radius: 8px; padding: 12px 16px; border: 1px solid rgba(255,255,255,0.05); transition: 0.2s; }
+.mp-brand-card:hover { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.2); }
+.mp-brand-info { display: flex; flex-direction: column; }
+.mp-brand-name { font-size: 1.05rem; font-weight: 800; letter-spacing: 0.5px; margin-bottom: 3px; color: #ffffff; }
+.mp-brand-sub { font-size: 0.75rem; color: #a9bbed; }
+.mp-brand-size { background: #ffffff; color: #0b1f52; font-weight: 800; font-size: 1.15rem; padding: 6px 12px; border-radius: 6px; white-space: nowrap; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+.mp-result-footer { margin-top: 25px; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.7rem; color: #8fa8e0; text-align: center; line-height: 1.5; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  
+  // -- MASSIV DATABASE: Skræddersyet til sportsgrenene (CM til EU) --
+  const BRAND_SIZES = {
+    // Løb & Generelt
+    "Nike": { 23.5:37.5, 24:38, 24.5:38.5, 25:39, 25.5:40, 26:40.5, 26.5:41, 27:42, 27.5:42.5, 28:43, 28.5:44, 29:44.5, 29.5:45, 30:45.5, 30.5:46, 31:47 },
+    "Adidas": { 23.5:"37 1/3", 24:38, 24.5:"38 2/3", 25:"39 1/3", 25.5:40, 26:"40 2/3", 26.5:"41 1/3", 27:42, 27.5:"42 2/3", 28:"43 1/3", 28.5:44, 29:"44 2/3", 29.5:"45 1/3", 30:46, 30.5:"46 2/3" },
+    "Asics": { 23.5:37.5, 24:38, 24.5:39, 25:39.5, 25.5:40, 26:41.5, 26.5:42, 27:42.5, 27.5:43.5, 28:44, 28.5:44.5, 29:45, 29.5:46, 30:46.5, 30.5:47 },
+    "New Balance": { 23.5:37.5, 24:38, 24.5:38.5, 25:39.5, 25.5:40, 26:40.5, 26.5:41.5, 27:42, 27.5:42.5, 28:43, 28.5:44, 29:44.5, 29.5:45, 30:45.5, 30.5:46.5 },
+    "Hoka": { 23.5:38, 24:38.5, 24.5:39.5, 25:40, 25.5:40.5, 26:41.5, 26.5:42, 27:42.5, 27.5:43.5, 28:44, 28.5:44.5, 29:45.5, 29.5:46, 30:46.5, 30.5:47.5 },
+    "Salomon": { 23.5:38, 24:"38 2/3", 24.5:"39 1/3", 25:40, 25.5:"40 2/3", 26:"41 1/3", 26.5:42, 27:"42 2/3", 27.5:"43 1/3", 28:44, 28.5:"44 2/3", 29:"45 1/3", 29.5:46, 30:"46 2/3" },
+    "Brooks": { 23.5:37.5, 24:38, 24.5:38.5, 25:39, 25.5:40, 26:40.5, 26.5:41, 27:42, 27.5:42.5, 28:43, 28.5:44, 29:44.5, 29.5:45, 30:45.5, 30.5:46 },
+    "Saucony": { 23.5:37.5, 24:38, 24.5:38.5, 25:39, 25.5:40, 26:40.5, 26.5:41, 27:42, 27.5:42.5, 28:43, 28.5:44, 29:44.5, 29.5:45, 30:45.5, 30.5:46 },
+    "Mizuno": { 23.5:37, 24:38, 24.5:38.5, 25:39, 25.5:40, 26:40.5, 26.5:41, 27:42, 27.5:42.5, 28:43, 28.5:44, 29:44.5, 29.5:45, 30:46 },
+    
+    // Crossfit & Fitness (Ekstra)
+    "Reebok": { 23.5:37, 24:37.5, 24.5:38, 25:39, 25.5:40, 26:40.5, 26.5:41, 27:42, 27.5:42.5, 28:43, 28.5:44, 29:44.5, 29.5:45, 30:45.5, 30.5:46 },
+    "Inov-8": { 24:38, 24.5:38.5, 25:39.5, 25.5:40, 26:40.5, 26.5:41.5, 27:42, 27.5:42.5, 28:43, 28.5:44, 29:44.5, 29.5:45, 30:45.5, 30.5:46.5 },
+    "Under Armour": { 24:38, 24.5:38.5, 25:39, 25.5:40, 26:40.5, 26.5:41, 27:42, 27.5:42.5, 28:43, 28.5:44, 29:44.5, 29.5:45, 30:45.5, 30.5:46 },
+    
+    // Cykelsko
+    "Shimano": { 24.5:39, 25.2:40, 25.8:41, 26.5:42, 27.2:43, 27.8:44, 28.5:45, 29.2:46, 29.8:47 },
+    "Specialized": { 24.5:39, 25:39.5, 25.5:40, 26:41, 26.5:41.5, 27:42, 27.5:43, 28:44, 28.5:44.5, 29:45, 29.5:46 },
+    "Fizik": { 24.5:39, 25:39.5, 25.7:40, 26.3:41, 27:42, 27.7:43, 28.3:44, 29:45, 29.7:46 },
+    "Sidi": { 24.5:39, 25:40, 25.5:41, 26:42, 26.5:43, 27:44, 27.5:45, 28:46, 28.5:47 } // Små i størrelsen
+  };
+
+  // Filtrering af mærker baseret på sport
+  const SPORT_CATEGORIES = {
+    running: ["Nike", "Adidas", "Asics", "New Balance", "Hoka", "Salomon", "Brooks", "Saucony", "Mizuno"],
+    crossfit: ["Nike", "Reebok", "Adidas", "Asics", "Inov-8", "Under Armour"],
+    weightlifting: ["Nike", "Adidas", "Reebok"],
+    cycling: ["Shimano", "Specialized", "Fizik", "Sidi"]
+  };
+
+  // Buffer anbefalinger pr. sport
+  const SPORT_BUFFERS = {
+    running: "1.0",
+    crossfit: "0.5",
+    weightlifting: "0",
+    cycling: "0.5"
+  };
+
+  // -- STATE VARIABLES --
+  let inputMode = 'cm';
+  let activeBuffer = 1.0;
+
+  // -- DOM ELEMENTS --
+  const tabs = document.querySelectorAll('.mp-calc-tab');
+  const sectionCm = document.getElementById('mp-section-cm');
+  const sectionRef = document.getElementById('mp-section-ref');
+  const bufferBtns = document.querySelectorAll('.mp-buffer-btn');
+  const bufferDesc = document.getElementById('mp-buffer-desc');
+  const inputCm = document.getElementById('mp-cm-input');
+  const inputRefSize = document.getElementById('mp-ref-size');
+  const selectRefBrand = document.getElementById('mp-ref-brand');
+  const selectSport = document.getElementById('mp-sport');
+  const btnReset = document.getElementById('mp-btn-reset');
+  
+  const emptyState = document.getElementById('mp-empty-state');
+  const resultState = document.getElementById('mp-result-state');
+  const resultSub = document.getElementById('mp-result-sub');
+  const resultsContainer = document.getElementById('mp-results-list');
+  
+  // -- INITIALIZE --
+  const savedCm = localStorage.getItem('motionsplan_foot_cm');
+  if (savedCm) { 
+    inputCm.value = savedCm; 
+    setTimeout(calculateAndRender, 100); 
+  }
+
+  // -- TAB SWITCHING --
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      inputMode = tab.getAttribute('data-tab');
+      if(inputMode === 'cm') {
+        sectionCm.style.display = 'block'; sectionRef.style.display = 'none';
+      } else {
+        sectionCm.style.display = 'none'; sectionRef.style.display = 'block';
+      }
+      calculateAndRender(); 
+    });
+  });
+
+  // -- BUFFER SELECTION --
+  const bufferTexts = {
+    "0": "Performance. Stram pasform uden spildplads (Vægtløftning, Race).",
+    "0.5": "Tæt pasform. Anbefales til Crossfit, styrketræning og cykling.",
+    "1.0": "Standard anbefaling. God komfort og plads (Anbefalet til løb).",
+    "1.5": "Ekstra rummelig. Til lange løbedistancer hvor fødderne hæver."
+  };
+
+  function setBuffer(val) {
+    bufferBtns.forEach(b => {
+      b.classList.remove('active');
+      if(b.getAttribute('data-buffer') === val) b.classList.add('active');
+    });
+    activeBuffer = parseFloat(val);
+    bufferDesc.innerText = bufferTexts[val];
+    calculateAndRender();
+  }
+
+  bufferBtns.forEach(btn => {
+    btn.addEventListener('click', () => setBuffer(btn.getAttribute('data-buffer')));
+  });
+
+  // -- SPORT SELECTION (AUTOMAGIC) --
+  selectSport.addEventListener('change', (e) => {
+    // Sæt automatisk den anbefalede buffer for sporten
+    const recommendedBuffer = SPORT_BUFFERS[e.target.value];
+    setBuffer(recommendedBuffer); 
+    // calculateAndRender kaldes automatisk indeni setBuffer
+  });
+
+  // -- LIVE LISTENERS PÅ INPUTS --
+  inputCm.addEventListener('input', calculateAndRender);
+  inputRefSize.addEventListener('input', calculateAndRender);
+  selectRefBrand.addEventListener('change', calculateAndRender);
+
+  // -- HELPER: Find tætteste størrelse --
+  function getClosestSizeInfo(brandKey, targetCm) {
+    const table = BRAND_SIZES[brandKey];
+    if (!table) return null;
+    let closestCm = 0;
+    let minDiff = 999;
+    
+    for (let cmStr in table) {
+      let cmVal = parseFloat(cmStr);
+      let diff = Math.abs(cmVal - targetCm);
+      if (diff < minDiff || (diff === minDiff && cmVal > closestCm)) {
+        minDiff = diff;
+        closestCm = cmVal;
+      }
+    }
+    return { euSize: table[closestCm], actualCm: closestCm };
+  }
+
+  // -- HELPER: Konverter fra reference til fod --
+  function getFootCmFromRef(brandKey, euSize) {
+    const table = BRAND_SIZES[brandKey];
+    if (!table) return 27; 
+    let targetCm = 27;
+    for (let cmStr in table) {
+      if (table[cmStr].toString() === euSize.toString() || parseFloat(table[cmStr]) === parseFloat(euSize)) {
+        targetCm = parseFloat(cmStr); break;
+      }
+    }
+    return targetCm - 1.0; // Standard buffer fratrækkes
+  }
+
+  // -- MAIN CALCULATION FUNCTION --
+  function calculateAndRender() {
+    let rawFootCm = 0;
+    let isValid = false;
+
+    if (inputMode === 'cm') {
+      rawFootCm = parseFloat(inputCm.value);
+      if (!isNaN(rawFootCm) && rawFootCm >= 15 && rawFootCm <= 40) {
+        isValid = true;
+        localStorage.setItem('motionsplan_foot_cm', rawFootCm);
+      }
+    } else {
+      const refBrand = selectRefBrand.value;
+      const refSize = parseFloat(inputRefSize.value);
+      if (!isNaN(refSize) && refSize >= 30 && refSize <= 55) {
+        isValid = true;
+        rawFootCm = getFootCmFromRef(refBrand, refSize);
+      }
+    }
+
+    if (!isValid) {
+      emptyState.style.display = 'block';
+      resultState.style.display = 'none';
+      return;
+    }
+
+    emptyState.style.display = 'none';
+    resultState.style.display = 'block';
+
+    const finalCm = rawFootCm + activeBuffer;
+    
+    resultSub.innerHTML = `Fodmål beregnet til <b>${rawFootCm.toFixed(1)} cm</b> + buffer (<b>${activeBuffer} cm</b>). <br>Beregner størrelser tættest på <b>${finalCm.toFixed(1)} cm</b>.`;
+
+    resultsContainer.innerHTML = '';
+    
+    // Hent de mærker der matcher den valgte sport
+    const currentSport = selectSport.value;
+    const brandsToShow = SPORT_CATEGORIES[currentSport];
+
+    brandsToShow.forEach(brand => {
+      let sizeInfo = getClosestSizeInfo(brand, finalCm);
+      if(!sizeInfo) return;
+
+      let card = document.createElement('div');
+      card.className = 'mp-brand-card';
+      card.innerHTML = `
+        <div class="mp-brand-info">
+          <div class="mp-brand-name">${brand}</div>
+          <div class="mp-brand-sub">Skoens indermål: ~${sizeInfo.actualCm.toFixed(1)} cm</div>
+        </div>
+        <div class="mp-brand-size">EU ${sizeInfo.euSize}</div>
+      `;
+      resultsContainer.appendChild(card);
+    });
+  }
+
+  // -- RESET BUTTON --
+  btnReset.addEventListener('click', () => {
+    inputCm.value = '';
+    inputRefSize.value = '';
+    localStorage.removeItem('motionsplan_foot_cm');
+    calculateAndRender();
+  });
+
+});
+</script>

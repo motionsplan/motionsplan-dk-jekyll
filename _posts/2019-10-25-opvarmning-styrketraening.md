@@ -1,65 +1,75 @@
 ---
-title: "Opvarmning til styrketræning: Øvelser du kan bruge i dag!"
+title: "Opvarmning til styrketræning: Den komplette RAMP-guide og øvelser"
+seo_title: "Opvarmning til styrketræning: RAMP-guide, øvelser og Ramp Up"
+description: "Lær at varme op til tung styrketræning med RAMP-modellen. Se de bedste øvelser til mobilitet og aktivering, og lær at lave de perfekte Ramp-up sæt på stangen."
 permalink: /opvarmning-styrketraening/
-excerpt: "Opvarmning til styrketræning kan kan struktureres gennem en række faser, fx generel, dynamisk, specifik og en forberedelse af nervesystemet."
+excerpt: "En god opvarmning til styrketræning gør dine led klar til dybe positioner og vækker nervesystemet til tunge løft. Se vores komplette RAMP-guide her."
 language: da
 header:
   overlay_image: /assets/images/rdellatraining.com/Warm-up-1-da0995fd.jpg
   credit: https://www.rdellatraining.com/wp-content/uploads/2017/02/Warm-up-1.jpg
   teaser: /assets/images/rdellatraining.com/Warm-up-1-da0995fd.jpg
-  credit: https://www.rdellatraining.com/wp-content/uploads/2017/02/Warm-up-1.jpg
   caption: "Opvarmning til styrketræning: Øvelser du kan bruge i dag!"
 categories:
   - Styrketræning
 tags:
   - opvarmning
+  - styrketræning
   - begynder
-last_modified_at: 2020-03-06T23:14:14Z
+last_modified_at: '2026-08-18T00:00:00Z'
 toc: true
+faq:
+  - question: Hvorfor er 5 minutter på løbebåndet ikke nok før styrketræning?
+    answer: Generel kredsløbstræning hæver kropstemperaturen, men gør hverken skuldre eller hofter klar til yderpositioner (fx i dyb squat eller bænkpres). Du mangler den specifikke mobilitet og den neuromuskulære tænding af nervesystemet.
+  - question: Hvor mange opvarmningssæt skal man køre på stangen?
+    answer: Det afhænger af, hvor tungt du skal løfte. Typisk anbefales 3–5 opvarmningssæt (Ramp-up), hvor du starter med en tom stang og gradvist bygger vægten op mod din arbejdsvægt med færre og færre gentagelser.
+  - question: Tæller opvarmningssæt med i min samlede træningsvolumen?
+    answer: Nej. Opvarmningssæt (Ramp-up) tæller ikke som arbejdssæt, da de udføres med lav anstrengelsesgrad (RPE) for at forberede nervesystemet uden at ophobe trætterskabsfaktorer.
 ---
 
-Opvarmning er vigtigt, og du kan bruge den fornuftigt. Det gælder også opvarmning til styrketræning. Formålet med opvarmning er at øge kropstemperaturen, smøre leddene, øge mobiliteten, gøre nervesystemet klar og forbedre ens evne til at bevæge sig.
+Står du ved vægtstangen og skal til at løfte tungt, er et par tilfældige armsving og fem minutter på en crosstrainer slet ikke nok. 
 
-Opvarmning skal tage højde for den efterfølgende aktivitet, og sådan er det også i styrketræning. For at tage opvarmningen seriøst nok, så er det en god ide at have nogle faser, som du sætter dig for at skulle igennem, når du starter din træning.
+Tung styrketræning stiller helt særlige krav til kroppen. Dine led skal kunne bevæge sig frit i yderpositioner (fx i bunden af et squat eller under et bænkpres), din coremuskulatur skal kunne skabe et tæt indre tryk, og dit centralnervesystem skal aktivere de hurtige, eksplosive Type II-muskelfibre.
 
-Jeg har skrevet et [uddybende indlæg om opvarmning her](/opvarmning/).
+En gennemtænkt opvarmning til styrketræning handler om at **forberede kroppen på maksimal kraftudvikling uden at skabe træthed**, før dine rigtige arbejdssæt starter (McGowan et al., 2015).
 
-## Opvarmning til styrketræning
+*(Søger du den dybe fysiologiske forklaring på enzymer, iltafgivelse og hvorfor statisk stræk forringer din maksimale styrke? Læs vores [faglige hovedartikel om fysiologien bag opvarmning](/opvarmning/).)*
 
-Opvarmning går typisk gennem tre faser:
+---
 
-General opvarmning
-: Formålet i denne fase er at øge hjerterytmen, få blodet til at flyde hurtigere, smøre leddene. Der er mange måder, du kan gøre det på.
+## Fysiologien bag opvarmning til tung styrketræning
 
-Specifik opvarmning
-: Her skal du ramme nogle af de bevægelser, du skal lave i den efterfølgende træning. Fx nogle goblet squats, hvis du skal squatte bagefter. Armstrækninger på bænkdag osv. Her kan du også tænke på at arbejde med de begrænsninger eller udfordringer, du har ift. specifikke øvelser.
+Når du træner med vægte, er der tre særlige fysiologiske mekanismer, opvarmningen skal aktivere:
 
-CNS-priming
-: Her skal du gøre nervesystemet helt klar til den efterfølgende træning. Det gør du med nogle [eksplosive og plyometriske øvelser](/plyometrisk-traening/). Typisk laver man sæt af 3-5 reps med 60-90 sekunders pause imellem, fx i en cirkel.
+1. **Rekruttering af tærskelstærke motorenheder:** For at løfte tungt skal hjernen sende kraftige elektriske impulser til musklerne. Opvarmningen vækker centralnervesystemet, så du kan rekruttere de store, eksplosive muskelfibre fra første rep (Henneman's size principle).
+2. **Nedsat modstand i leddene (Viskoelasticitet):** Når muskel- og bindevæv varmes op, falder den indre mekaniske modstand. Det gør det muligt at opnå den nødvendige mobilitet i ankler, hofter og skuldre uden ubehag eller kompensationer.
+3. **PAPE (Post-Activation Performance Enhancement):** Ved at køre gradvist tungere opvarmningssæt på stangen (*Ramp-up*) stimuleres nervesystemet så kraftigt, at du i de efterfølgende arbejdssæt kan udvikle mere kraft end normalt (Blazevich & Babault, 2019).
 
-## Forslag til struktur for opvarmningen
+---
 
-Jeg er ret inspireret af Mike Robertsons træningstilgang og [struktur i hans Bulletproof Athlete-program](/artikel/bulletproof-athlete/). I forhold til opvarmning til styrketræning, så bringer han os igennem disse faser.
+## RAMP-modellen til Styrketræning
 
-R1 --- Release
-: Arbejde med det bløde muskelvæv med foamrollere og lacrosse bolde. Vi arbejder med vævet for at løsne spændinger.
+For at opbygge et struktureret og effektivt opvarmningspas bruger vi den anerkendte **RAMP-model** (Jeffreys, 2007). 
 
-R2 --- Reset
-: Her prøver vi at forbedre vores ledposition, fx med posturale øvelser med vejrtrækning, udspændingsøvelser eller andet, hvor vi kan få kroppen i en bedre position til at træne.
+I styrkelokalet fungerer RAMP-modellen fantastisk sammen med de populære "R-faser" fra Mike Robertsons [Bulletproof Athlete-program](/artikel/bulletproof-athlete/). 
 
-R3 --- Readiness
-: Her gør vi os klar gennem dynamisk opvarmning, hvor vi fysiologisk også skal blive klar til træningen. Vi smører ledene, gør nervesystemet klar og forbedre bevægeligheden. Vi forbereder folk til at træne.
+Sådan oversættes faserne til din vægttræning:
 
-R4 --- Reactive
-: Vi arbejder med eksplosivitet og fyrer for alvor op for nervesystemet.
+- **R** — Raise & Release (Øg kropstemperaturen & dæmp vævsspændinger)
+- **A** — Activate / Reset (Tænd for core, balder og stabiliserende muskler)
+- **M** — Mobilize / Readiness (Åbn leddene dynamisk til fuld range of motion)
+- **P** — Potentiate & Ramp Up (Prime nervesystemet & byg vægten op på stangen)
 
-Jeg synes det er nogle gode faser at komme igennem, og i de enkelte faser kan du så tænke både generelle elementer og specifikke elementer ind.
+---
 
-Ved at have en struktur på opvarmningen, er der større sandsynlighed for, at man rent laver det hele. Personligt er der stor forskel på, hvor dygtig jeg er til at varme op, hvis jeg har skrevet programmet ned på forhånd, eller hvis jeg bare finder på undervejs.
+## Trin-for-trin: Dine opvarmningsøvelser (RAMP)
 
-## Eksempler på opvarmningsøvelser
+Brug 8–10 minutter på at køre igennem følgende faser, inden du lægger de tunge vægtskiver på stangen.
 
-### Release
+### 1. Release & Raise (Kropstemperatur og vævskvalitet)
+Start med 2-3 minutter på roraskine eller cykel for at få kropstemperaturen op. Hvis du har specifikke spændinger eller ømme punkter i muskelvævet, kan du med fordel bruge en foamroller eller lacrossebold (*SMR / Release*) til kortvarigt at øge den oplevede bevægelighed (Behm et al., 2016).
+
+*Eksempler på SMR og arbejde med det bløde muskelvæv:*
 
 {% include video provider="youtube" id="XlSkNiNdQfc" %}
 
@@ -67,7 +77,10 @@ Ved at have en struktur på opvarmningen, er der større sandsynlighed for, at m
 
 {% include video provider="youtube" id="Uoazu3aQC0g" %}
 
-### Reset
+### 2. Activate / Reset (Tænd for stabilisatorerne)
+Nu skal vi "tænde" for din core, dine balder og dine skulderstabilisatorer. Formålet her er at optimere din bækken- og rygsøjleposition (*Reset*), så du står stabilt under tunge løft.
+
+*Vælg 1-2 af disse aktiverings- og vejrtrækningsøvelser:*
 
 {% include video provider="youtube" id="vyx5RlUGV3g" %}
 
@@ -77,7 +90,10 @@ Ved at have en struktur på opvarmningen, er der større sandsynlighed for, at m
 
 {% include video provider="youtube" id="rwN5u_psGIc" %}
 
-### Readiness
+### 3. Mobilize / Readiness (Åbn leddene)
+Her arbejder vi med **dynamisk mobilitet**. I stedet for at holde et stræk stille, bevæger du leddene kontant ud i yderpositioner. Det gælder om at gøre ankel, hofte og brystryg klar til at bevæge sig med fuldt bevægelsesudslag (*Range of Motion*).
+
+*Vælg 2-3 af disse dynamiske mobilitetsøvelser:*
 
 {% include video provider="youtube" id="o5_14SfX9Is" %}
 
@@ -85,44 +101,68 @@ Ved at have en struktur på opvarmningen, er der større sandsynlighed for, at m
 
 {% include video provider="youtube" id="kNdy8m_qGEA" %}
 
-### Reactive
+### 4. Potentiate & Reactive (Væk nervesystemet)
+Sidste del af den generelle opvarmning handler om eksplosivitet. Du skal lave 2-3 korte, eksplosive øvelser (fx et par boks-hop, tunge medicinboldkast eller eksplosive armstrækninger) for at sende et kraftigt signal til nervesystemet uden at udtrætte musklerne.
 
-Der er mange forskellige øvelser, du kan lave for at aktivere nerveystemet. I [Neural Charge Training](https://www.t-nation.com/workouts/neural-charge-training) kan du finde en masse eksempler på øvelser.
+Du kan finde masser af inspiration til eksplosiv aktivering af nervesystemet i koncepterne omkring [Neural Charge Training](https://www.t-nation.com/workouts/neural-charge-training) og [plyometrisk træning](/plyometrisk-traening/).
 
-## Specifik opvarmning i styrketræning
+---
 
-Når du så skal i gang med at løfte vægte, så er det en god ide at lave opvarmningssæt i øvelsen. Dels får du gentaget og gjort bevægelsesmønsteret klart. Dels vænner du dig gradvist til vægten på skuldrene.
+## Det vigtigste trin: Specifik opvarmning med "Ramp Up"
 
-Vi kan rigtig godt lide at lave _ramp up_. Hvis du fx har planlagt, at din træning er 5 sæt med 5 reps med en RPE på 8-9, så kan det i praksis se sådan her ud:
+Når du er færdig med dine RAMP-øvelser på gulvet og går over til din første hovedøvelse (fx dødløft, squat eller bænkpres), starter den **specifikke opvarmning**.
 
-### Ramp up
+Du må aldrig lægge din fulde arbejdsvægt på stangen med det samme! 
 
-- x10 @ RPE 5
-- x8 @ RPE 5,5
-- x6 @ RPE 6
-- x4 @ RPE 7
-- x2 @ RPE 8
-- x1 @ RPE 8
+I stedet benytter vi en **Ramp Up** struktur. Ved at bygge vægten gradvist op på stangen opnår du to ting:
+1. Du indøver bevægelsesmønstret og forfiner din teknik, før det bliver tungt.
+2. Du udnytter *Post-Activation Performance Enhancement (PAPE)* — du mærker en tung vægt på ryggen eller i hænderne i et ultrakort sekund, hvilket gør, at din egentlige arbejdsvægt føles lettere (Blazevich & Babault, 2019).
 
-Du laver altså en ramp up til en vægt, der er tungere end dit arbejdssæt, men med færre reps. Det er formentlig med til at tænde nervesystemet yderligere gennem post-activation potentiation (PAP).
+### Eksempel på en Ramp Up protokol (100 kg)
 
-### Arbejdssæt
+Hvis dit træningsprogram siger, at du skal køre **5 sæt af 5 gentagelser på 100 kg** (med en anstrengelsesgrad på RPE 8), bør din opvarmning på stangen opbygges således:
 
-- 5x5 @ RPE 8
+| Sæt-type | Vægt / Belastning | Gentagelser | Anstrengelse (RPE) | Formål |
+| :--- | :--- | :--- | :--- | :--- |
+| **Opvarmningssæt 1** | Tom stang (20 kg) | 10 reps | RPE 5 | Øge lokal blodgennemstrømning og indøve bane |
+| **Opvarmningssæt 2** | 50 kg (50%) | 8 reps | RPE 5,5 | Gradvis tilpasning af ledbelastning |
+| **Opvarmningssæt 3** | 70 kg (70%) | 5 reps | RPE 6 | Mærke vægtens acceleration |
+| **Opvarmningssæt 4** | 85 kg (85%) | 3 reps | RPE 7 | Tænde for de hurtige Type II-fibre |
+| **Opvarmningssæt 5** | 95 kg (95%) | 1 rep | RPE 8 | Sidste tjek af spænding og teknik |
+| **Arbejdssæt (5x5)** | **100 kg (100%)** | **5 reps** | **RPE 8** | **Selve hovedtræningen starter her!** |
 
-## Afslutning på opvarmning til styrketræning
+> **Vigtig huskeregel:** Færre og færre gentagelser, jo tættere du kommer på din arbejdsvægt. Formålet med opvarmningssættene er at gøre dig klar — *ikke* at gøre dig træt!
 
-Det allervigtigste med opvarmning er, at du laver en opvarmning, du rent faktisk får lavet.
+---
 
-Hvordan varmer du op til styrketræning?
+### Beregn dine egne opvarmningssæt
+
+Skal du løfte noget andet end 100 kg? Indtast din arbejdsvægt herunder og få automatisk tilpasset dine opvarmningssæt:
+
+{% include rampup_beregner.html %}
+---
+
+## Konklusion
+
+Opvarmning til styrketræning skal være målrettet. Ved at kombinere en kort, dynamisk RAMP-rutine på gulvet med en gennemtænkt Ramp Up protokol på vægtstangen, opnår du maksimal ledmobilitet, fuld neuromuskulær rekruttering og nedsat risiko for overbelastningsskader.
+
+Hvordan opbygger du din egen opvarmning til styrketræning?
+
+---
+
+## Ofte stillede spørgsmål om opvarmning til styrketræning
+
+{% include motionsplan/faq.html %}
+
+---
 
 <details markdown="1" class="references">
-  <summary><h2 id="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer og videnskabeligt grundlag</h2></summary>
 
-- [Most intelligent way to warm up](https://www.t-nation.com/training/most-intelligent-way-to-warm-up)
-- [The simple 7 warmup](https://www.t-nation.com/training/the-simple-7-warm-up)
-- [The lifters 10 minutes warmup](https://www.t-nation.com/training/tip-the-lifters-10-minute-warm-up)
-- [Foam rolling isn't stretching, but still important](https://deansomerset.com/foam-rolling-isnt-stretching-still-important/)
-- [The most efficient Warm-Ups, Period](https://www.t-nation.com/training/the-most-efficient-warm-ups-period)
-- [Agile 8](https://breakingmuscle.com/workouts/use-the-agile-8-to-warm-up-quickly/)
+- Behm, D. G., Blazevich, A. J., Kay, A. D., & McHugh, M. (2016). *Acute effects of muscle stretching on physical performance, range of motion, and injury incidence in healthy active individuals: a systematic review*. Applied Physiology, Nutrition, and Metabolism, 41(1), 1-11.
+- Bishop, D. (2003). *Warm-up and physical performance: Especially notes on physiological mechanisms*. Sports Medicine, 33(6), 439-454.
+- Blazevich, A. J., & Babault, N. (2019). *Post-activation potentiation (PAP) versus post-activation performance enhancement (PAPE): Similarities, differences, and practical applications*. Frontiers in Physiology, 10, 1357.
+- Jeffreys, I. (2007). *Warm-up revisited: The RAMP method of optimizing warm-ups*. Professional Strength and Conditioning, (6), 12-18.
+- McGowan, C. J., Pyne, D. B., Thompson, K. G., & Rattray, B. (2015). *Warm-up strategies for sport and exercise: A systematic review and recommendations*. Sports Medicine, 45(11), 1523-1546.
+- Robertson, M. (2012). *Bulletproof Athlete Warm-up Architecture*. Robertson Training Systems.
 </details>

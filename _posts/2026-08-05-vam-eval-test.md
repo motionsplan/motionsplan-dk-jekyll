@@ -187,9 +187,11 @@ VAM-eval testen er en af de mest præcise, pålidelige og praktisk anvendelige f
 
 ---
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer og videre læsning</h2></summary>
 
 1. **Léger, L., & Boucher, R. (1980).** An indirect continuous multistage field test of maximal aerobic power for runners. *Canadian Journal of Applied Sport Sciences*, 5(2), 77-84.
 2. **Cazorla, G., & Léger, L. (1993).** *Comment évaluer et développer vos capacités aérobies? Épreuves de course navette et épreuve VAM-Eval.* Éditions AREAPS, Bordeaux.
 3. **Cazorla, G. (1990).** *Les épreuves d'effort en physiologie. Épreuves et mesures du potentiel aérobie.* Éditions AREAPS.
 4. **Ahmaidi, S., et al. (1992).** Maximal aerobic velocity calculated from the University of Montreal Track Test: comparison with laboratory determinations. *European Journal of Applied Physiology and Occupational Physiology*, 65(5), 456-459.
+</details>

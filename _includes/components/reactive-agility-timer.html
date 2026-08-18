@@ -1,0 +1,350 @@
+<!-- _includes/calc/reactive-agility-timer.html -->
+<style>
+  .mp-ag-card { 
+    position: relative !important; 
+    font-family: system-ui, -apple-system, sans-serif; 
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    overflow: hidden;
+  }
+
+  .mp-ag-header {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /* SCREENS */
+  .mp-ag-screen { display: none; flex-direction: column; align-items: center; justify-content: center; width: 100%; min-height: 350px; border-radius: 12px; text-align: center; position: relative; }
+  .mp-ag-screen.active { display: flex; }
+
+  /* Screen: Setup */
+  .mp-ag-setup { background: #f8fafc; border: 2px dashed #cbd5e1; padding: 1rem; }
+  
+  .mp-ag-mode-toggle {
+    display: flex; flex-direction: column; gap: 8px; width: 100%; margin-bottom: 1.5rem;
+  }
+  .mp-ag-mode-btn {
+    border: 2px solid #e2e8f0; padding: 12px; border-radius: 8px; font-size: 0.9rem; font-weight: 800;
+    cursor: pointer; background: #ffffff; color: #64748b; transition: all 0.2s ease;
+    text-align: left; display: flex; flex-direction: column;
+  }
+  .mp-ag-mode-btn span { font-size: 0.7rem; font-weight: 600; margin-top: 4px; color: #94a3b8; }
+  .mp-ag-mode-btn.active { border-color: #2563eb; background: #eff6ff; color: #1e40af; }
+  .mp-ag-mode-btn.active span { color: #3b82f6; }
+
+  .mp-ag-btn-start {
+    background: #2563eb; color: #fff; font-size: 1.25rem; font-weight: 900; text-transform: uppercase;
+    padding: 1rem 2.5rem; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 12px rgba(37,99,235,0.2);
+    transition: transform 0.1s ease; width: 100%; max-width: 300px;
+  }
+  .mp-ag-btn-start:active { transform: scale(0.96); background: #1d4ed8; }
+
+  /* Screen: Waiting (Stationary Mode) */
+  .mp-ag-waiting { background: #facc15; cursor: wait; }
+  .mp-ag-wait-text { font-size: 2.5rem; font-weight: 900; color: #854d0e; letter-spacing: 2px; animation: pulse 1s infinite alternate; }
+
+  /* Screen: Trigger (Y-RAT Mode) */
+  .mp-ag-trigger { background: #3b82f6; cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; }
+  .mp-ag-trigger-text { font-size: 2rem; font-weight: 900; color: #ffffff; line-height: 1.2; padding: 0 20px; }
+  .mp-ag-trigger-sub { font-size: 1rem; font-weight: 600; color: #bfdbfe; margin-top: 1rem; }
+
+  /* Screen: Running */
+  .mp-ag-running { cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; }
+  .mp-ag-dir-text { font-size: 3.5rem; font-weight: 900; color: #ffffff; text-transform: uppercase; margin-bottom: 0.5rem; line-height: 1; }
+  .mp-ag-dir-arrow { font-size: 6rem; line-height: 1; margin-bottom: 1rem; color: #ffffff; }
+  .mp-ag-stop-hint { font-size: 1rem; font-weight: 700; color: rgba(255,255,255,0.8); background: rgba(0,0,0,0.2); padding: 8px 16px; border-radius: 20px; }
+
+  /* Screen: Result */
+  .mp-ag-result { background: #eff6ff; border: 2px solid #bfdbfe; }
+  .mp-ag-res-time { font-size: 4.5rem; font-weight: 900; color: #1e3a8a; line-height: 1; font-variant-numeric: tabular-nums; }
+  .mp-ag-res-unit { font-size: 1.5rem; font-weight: 700; color: #3b82f6; }
+  .mp-ag-res-dir { font-size: 1.1rem; font-weight: 800; color: #64748b; margin-top: 0.5rem; text-transform: uppercase; }
+  .mp-ag-res-mode { font-size: 0.75rem; font-weight: 700; color: #94a3b8; margin-top: 0.5rem; }
+  .mp-ag-btn-reset { margin-top: 1.5rem; background: #2563eb; color: #fff; font-size: 1.1rem; font-weight: 800; padding: 0.85rem 2rem; border: none; border-radius: 8px; cursor: pointer; }
+
+  /* History Table */
+  .mp-ag-history { margin-top: 1.5rem; width: 100%; text-align: left; border-collapse: collapse; font-size: 0.85rem; }
+  .mp-ag-history th { background: #f1f5f9; padding: 8px; border-bottom: 2px solid #cbd5e1; color: #475569; font-weight: 800; }
+  .mp-ag-history td { padding: 8px; border-bottom: 1px solid #e2e8f0; color: #0f172a; font-weight: 600; }
+  .mp-ag-history-clear { font-size: 0.75rem; color: #ef4444; background: none; border: none; cursor: pointer; font-weight: 700; float: right; padding: 4px; }
+  .mp-ag-badge { font-size: 0.6rem; background: #e2e8f0; padding: 2px 4px; border-radius: 4px; margin-left: 4px; color: #64748b; }
+
+  @keyframes pulse {
+    0% { transform: scale(0.95); opacity: 0.8; }
+    100% { transform: scale(1.05); opacity: 1; }
+  }
+</style>
+
+<div class="mp-ag-card" data-tool="agility-timer">
+  
+  <div class="mp-ag-header">
+    <div>
+      <h3 style="margin: 0 0 2px 0; font-size: 1.1rem; font-weight: 900; color: #0f172a;">⚡ Reaktiv Agility Smart-Timer</h3>
+      <p style="margin: 0; font-size: 0.75rem; color: #64748b; font-weight: 500;">
+        Universelt testværktøj til Y-RAT og Generic Agility Tests.
+      </p>
+    </div>
+  </div>
+
+  <!-- SETUP SCREEN -->
+  <div class="mp-ag-screen mp-ag-setup active" id="screen-setup">
+    <div style="width: 100%; text-align: left; margin-bottom: 0.5rem; font-weight: 800; font-size: 0.85rem; color: #0f172a;">Vælg test-type:</div>
+    
+    <div class="mp-ag-mode-toggle">
+      <!-- Mode 1: Y-RAT -->
+      <button class="mp-ag-mode-btn active" data-mode="yrat">
+        🏃 I fart (Y-RAT / Manuel udløser)
+        <span>Træneren tapper skærmen i det sekund, atleten løber forbi porten. Signal og tid starter øjeblikkeligt.</span>
+      </button>
+      
+      <!-- Mode 2: Stationær -->
+      <button class="mp-ag-mode-btn" data-mode="stat">
+        🧍 Stationær (Tilfældig ventetid)
+        <span>Atleten står stille. Mobilen tæller usynligt ned (1-4 sek) og udløser selv signal og tid.</span>
+      </button>
+    </div>
+
+    <button class="mp-ag-btn-start" id="btn-start">Gør klar</button>
+  </div>
+
+  <!-- WAITING SCREEN (For Stationary Mode) -->
+  <div class="mp-ag-screen mp-ag-waiting" id="screen-wait">
+    <div class="mp-ag-wait-text">VENT...</div>
+    <div style="margin-top: 1rem; font-weight: 700; color: #a16207; font-size: 0.85rem;">Signalet kommer uforudsigeligt.</div>
+  </div>
+
+  <!-- TRIGGER SCREEN (For Y-RAT Mode) -->
+  <div class="mp-ag-screen mp-ag-trigger" id="screen-trigger">
+    <div class="mp-ag-trigger-text">TAP HER NÅR ATLETEN RAMMER PORTEN</div>
+    <div class="mp-ag-trigger-sub">Udløser signal og starter stopuret</div>
+  </div>
+
+  <!-- RUNNING SCREEN -->
+  <div class="mp-ag-screen mp-ag-running" id="screen-run">
+    <div class="mp-ag-dir-arrow" id="run-arrow">←</div>
+    <div class="mp-ag-dir-text" id="run-text">Venstre</div>
+    <div class="mp-ag-stop-hint">Tap hvor som helst for at stoppe</div>
+  </div>
+
+  <!-- RESULT SCREEN -->
+  <div class="mp-ag-screen mp-ag-result" id="screen-result">
+    <div style="font-size: 0.85rem; font-weight: 800; color: #475569; text-transform: uppercase; margin-bottom: 0.5rem;">Reaktion & Sprint</div>
+    <div>
+      <span class="mp-ag-res-time" id="res-time">0.00</span>
+      <span class="mp-ag-res-unit">sek</span>
+    </div>
+    <div class="mp-ag-res-dir" id="res-dir">Retning: Højre</div>
+    <div class="mp-ag-res-mode" id="res-mode">Mode: Y-RAT</div>
+    <button class="mp-ag-btn-reset" id="btn-reset">Klar til næste løb</button>
+  </div>
+
+  <!-- HISTORY SECTION -->
+  <div style="margin-top: 1.5rem;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #e2e8f0; padding-bottom: 4px;">
+      <strong style="font-size: 0.85rem; color: #0f172a;">Seneste Resultater</strong>
+      <button class="mp-ag-history-clear" id="btn-clear-history">Ryd liste</button>
+    </div>
+    <table class="mp-ag-history" id="history-table">
+      <thead>
+        <tr>
+          <th style="width: 20%;">Løb</th>
+          <th style="width: 45%;">Retning</th>
+          <th style="width: 35%; text-align: right;">Tid (sek)</th>
+        </tr>
+      </thead>
+      <tbody id="history-body">
+        <!-- Rækker indsættes via JS -->
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('[data-tool="agility-timer"]');
+  if (!container) return;
+
+  const STORAGE_KEY = 'mp_agility_history_v3';
+
+  // State
+  let timeoutId = null;
+  let startTime = 0;
+  let currentDirection = '';
+  let activeMode = 'yrat'; // 'yrat' eller 'stat'
+  
+  // DOM Elements
+  const screenSetup = container.querySelector('#screen-setup');
+  const screenWait = container.querySelector('#screen-wait');
+  const screenTrigger = container.querySelector('#screen-trigger');
+  const screenRun = container.querySelector('#screen-run');
+  const screenResult = container.querySelector('#screen-result');
+
+  const modeBtns = container.querySelectorAll('.mp-ag-mode-btn');
+  const btnStart = container.querySelector('#btn-start');
+  const btnReset = container.querySelector('#btn-reset');
+  const runArrow = container.querySelector('#run-arrow');
+  const runText = container.querySelector('#run-text');
+  const resTime = container.querySelector('#res-time');
+  const resDir = container.querySelector('#res-dir');
+  const resModeLabel = container.querySelector('#res-mode');
+  const historyBody = container.querySelector('#history-body');
+
+  // Mode Toggle
+  modeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modeBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeMode = btn.getAttribute('data-mode');
+    });
+  });
+
+  // --- HISTORY LOGIC ---
+  function getHistory() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; } catch (e) { return []; }
+  }
+  function saveToHistory(dir, time, mode) {
+    const history = getHistory();
+    history.unshift({ dir: dir, time: time.toFixed(2), mode: mode });
+    if (history.length > 10) history.pop(); 
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
+    renderHistory();
+  }
+  function renderHistory() {
+    const history = getHistory();
+    if (history.length === 0) {
+      historyBody.innerHTML = '<tr><td colspan="3" style="text-align:center; color:#94a3b8; font-weight: 500;">Ingen gemte løb endnu.</td></tr>';
+      return;
+    }
+    historyBody.innerHTML = history.map((item, index) => {
+      const color = item.dir === 'Venstre' ? '#16a34a' : '#dc2626';
+      const modeText = item.mode === 'yrat' ? 'I fart' : 'Stat.';
+      return `
+        <tr>
+          <td style="color:#64748b;">#${history.length - index}</td>
+          <td style="color:${color}; font-weight:800;">
+            ${item.dir} <span class="mp-ag-badge">${modeText}</span>
+          </td>
+          <td style="text-align: right; font-weight:800; font-variant-numeric: tabular-nums;">${item.time}</td>
+        </tr>
+      `;
+    }).join('');
+  }
+  container.querySelector('#btn-clear-history').addEventListener('click', () => {
+    localStorage.removeItem(STORAGE_KEY);
+    renderHistory();
+  });
+
+  // --- SCREEN NAVIGATION ---
+  function showScreen(id) {
+    [screenSetup, screenWait, screenTrigger, screenRun, screenResult].forEach(s => s.classList.remove('active'));
+    container.querySelector(id).classList.add('active');
+  }
+
+  // --- AUDIO API (BEEP ONLY) ---
+  let audioCtx = null;
+  function initAudio() {
+    if (!audioCtx) { audioCtx = new (window.AudioContext || window.webkitAudioContext)(); }
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+  }
+
+  function playBeepAndStart(isLeft) {
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+    
+    osc.type = 'sine';
+    osc.frequency.value = isLeft ? 400 : 800; 
+    
+    gain.gain.setValueAtTime(0, audioCtx.currentTime);
+    gain.gain.linearRampToValueAtTime(1, audioCtx.currentTime + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.3);
+    
+    osc.start();
+    osc.stop(audioCtx.currentTime + 0.3);
+
+    executeStartVisuals(isLeft);
+  }
+
+  // --- CORE LOGIC ---
+  function executeStartVisuals(isLeft) {
+    currentDirection = isLeft ? 'Venstre' : 'Højre';
+    
+    if (isLeft) {
+      screenRun.style.backgroundColor = '#16a34a'; // Grøn
+      runArrow.textContent = '←';
+    } else {
+      screenRun.style.backgroundColor = '#dc2626'; // Rød
+      runArrow.textContent = '→';
+    }
+    runText.textContent = currentDirection;
+
+    showScreen('#screen-run');
+    startTime = performance.now();
+  }
+
+  // 1. START KNAP KLIKKES
+  btnStart.addEventListener('click', () => {
+    initAudio(); 
+    
+    if (activeMode === 'stat') {
+      // Stationær mode: Vis Venteskærm og udløs automatisk
+      showScreen('#screen-wait');
+      const delay = Math.random() * 2500 + 1500; // 1.5 - 4.0 sekunder
+      timeoutId = setTimeout(() => {
+        const isLeft = Math.random() > 0.5;
+        playBeepAndStart(isLeft);
+      }, delay);
+    } else {
+      // Y-RAT mode: Vis Trigger-skærm (venter på trænerens tap)
+      showScreen('#screen-trigger');
+    }
+  });
+
+  // Hvis træneren tyvstarter i stationær mode:
+  screenWait.addEventListener('pointerdown', (e) => {
+    e.preventDefault();
+    clearTimeout(timeoutId);
+    showScreen('#screen-setup');
+    alert("Tyvstart! Atleten rørte sig, eller du afbrød ventetiden.");
+  });
+
+  // Manuel udløser i Y-RAT mode:
+  screenTrigger.addEventListener('pointerdown', (e) => {
+    e.preventDefault();
+    const isLeft = Math.random() > 0.5;
+    playBeepAndStart(isLeft);
+  });
+
+  // STOP KNAP (Krydser målstregen)
+  screenRun.addEventListener('pointerdown', (e) => {
+    e.preventDefault(); 
+    const endTime = performance.now();
+    const duration = (endTime - startTime) / 1000;
+    
+    resTime.textContent = duration.toFixed(2);
+    resDir.textContent = `Retning: ${currentDirection}`;
+    resModeLabel.textContent = `Mode: ${activeMode === 'yrat' ? 'I fart (Y-RAT)' : 'Stationær'}`;
+    
+    saveToHistory(currentDirection, duration, activeMode);
+    showScreen('#screen-result');
+  });
+
+  // RESET
+  btnReset.addEventListener('click', () => {
+    showScreen('#screen-setup');
+  });
+
+  renderHistory();
+});
+</script>

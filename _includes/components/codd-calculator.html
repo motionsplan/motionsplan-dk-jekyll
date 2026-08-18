@@ -1,0 +1,238 @@
+<div class="codd-calc-wrapper">
+  <style>
+    .codd-calc-wrapper {
+      background: var(--background-color, #ffffff);
+      border: 1px solid var(--border-color, #e2e8f0);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 2em 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    .codd-inputs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .codd-input-card {
+      background: #f8fafc;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .codd-input-card label {
+      display: block;
+      font-size: 0.80em;
+      font-weight: 700;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+
+    .codd-input-card input[type="number"] {
+      width: 100%;
+      padding: 8px 10px;
+      font-size: 1.1em;
+      font-weight: 700;
+      color: #0284c7;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    .codd-results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .codd-stat-card {
+      background: #f0f9ff;
+      border: 1.5px solid #bae6fd;
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .codd-stat-label {
+      font-size: 0.80em;
+      font-weight: 700;
+      color: #0369a1;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .codd-stat-value {
+      font-size: 1.6em;
+      font-weight: 800;
+      color: #0284c7;
+    }
+
+    .codd-stat-sub {
+      font-size: 0.78em;
+      color: #475569;
+      margin-top: 4px;
+    }
+
+    .codd-feedback-card {
+      background: #f8fafc;
+      padding: 16px 18px;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+      border-left: 5px solid #0284c7;
+      line-height: 1.5;
+    }
+
+    .codd-feedback-card h5 {
+      margin: 0 0 6px 0;
+      font-size: 1.02em;
+      color: #0f172a;
+    }
+
+    .codd-feedback-card p {
+      margin: 0;
+      font-size: 0.90em;
+      color: #334155;
+    }
+  </style>
+
+  <!-- INDTASTNINGSKORT -->
+  <div class="codd-inputs-grid">
+    <div class="codd-input-card">
+      <label for="inputSprint10m">⚡ 10m Lineært Sprint</label>
+      <input type="number" id="inputSprint10m" step="0.01" value="1.75" min="0.5" max="5.0">
+      <div class="codd-stat-sub">Ren tophastighed i sekunder</div>
+    </div>
+
+    <div class="codd-input-card">
+      <label for="input505Left">🔄 505 Venstre Ben</label>
+      <input type="number" id="input505Left" step="0.01" value="2.38" min="0.5" max="10.0">
+      <div class="codd-stat-sub">Vending på venstre ben</div>
+    </div>
+
+    <div class="codd-input-card">
+      <label for="input505Right">🔄 505 Højre Ben</label>
+      <input type="number" id="input505Right" step="0.01" value="2.45" min="0.5" max="10.0">
+      <div class="codd-stat-sub">Vending på højre ben</div>
+    </div>
+  </div>
+
+  <!-- BEREGNEDE STATS -->
+  <div class="codd-results-grid">
+    <div class="codd-stat-card">
+      <div class="codd-stat-label">CODD (Venstre Ben)</div>
+      <div class="codd-stat-value" id="resCoddLeft">0,63 s</div>
+      <div class="codd-stat-sub" id="evalLeft">Middel retningsskift</div>
+    </div>
+
+    <div class="codd-stat-card">
+      <div class="codd-stat-label">CODD (Højre Ben)</div>
+      <div class="codd-stat-value" id="resCoddRight">0,70 s</div>
+      <div class="codd-stat-sub" id="evalRight">Stort retningsskift-tab</div>
+    </div>
+
+    <div class="codd-stat-card" id="asymCard" style="background:#faf5ff; border-color:#e9d5ff;">
+      <div class="codd-stat-label" style="color:#6b21a8;">Side-Asymmetri</div>
+      <div class="codd-stat-value" style="color:#9333ea;" id="resAsymmetry">2,9 %</div>
+      <div class="codd-stat-sub" id="evalAsym">Lille forskel (Optimalt)</div>
+    </div>
+  </div>
+
+  <!-- INTERPRETATION FORKLARING -->
+  <div class="codd-feedback-card" id="coddFeedbackBorder">
+    <h5 id="coddFeedbackTitle">📊 Fysiologisk Analyse af COD Deficit</h5>
+    <p id="coddFeedbackTxt">-</p>
+  </div>
+</div>
+
+<script>
+  (function() {
+    const inputSprint10m = document.getElementById('inputSprint10m');
+    const input505Left = document.getElementById('input505Left');
+    const input505Right = document.getElementById('input505Right');
+
+    const resCoddLeft = document.getElementById('resCoddLeft');
+    const resCoddRight = document.getElementById('resCoddRight');
+    const resAsymmetry = document.getElementById('resAsymmetry');
+
+    const evalLeft = document.getElementById('evalLeft');
+    const evalRight = document.getElementById('evalRight');
+    const evalAsym = document.getElementById('evalAsym');
+
+    const coddFeedbackTitle = document.getElementById('coddFeedbackTitle');
+    const coddFeedbackTxt = document.getElementById('coddFeedbackTxt');
+    const coddFeedbackBorder = document.getElementById('coddFeedbackBorder');
+
+    function calculateCODD() {
+      const sprint = parseFloat(inputSprint10m.value) || 0;
+      const left505 = parseFloat(input505Left.value) || 0;
+      const right505 = parseFloat(input505Right.value) || 0;
+
+      if (sprint <= 0 || left505 <= 0 || right505 <= 0) return;
+
+      const coddL = left505 - sprint;
+      const coddR = right505 - sprint;
+
+      const minVal = Math.min(left505, right505);
+      const asym = (Math.abs(left505 - right505) / minVal) * 100;
+
+      resCoddLeft.textContent = `${coddL.toFixed(2).replace('.', ',')} s`;
+      resCoddRight.textContent = `${coddR.toFixed(2).replace('.', ',')} s`;
+      resAsymmetry.textContent = `${asym.toFixed(1).replace('.', ',')} %`;
+
+      // Evaluering af CODD Værdi
+      function getCoddEval(val) {
+        if (val < 0.50) return "Fremragende bremse- & afsætsevne";
+        if (val <= 0.65) return "Godkendt retningsskift";
+        return "Højt deficit (Mangler bremsekraft)";
+      }
+
+      evalLeft.textContent = getCoddEval(coddL);
+      evalRight.textContent = getCoddEval(coddR);
+
+      // Evaluering af Asymmetri
+      if (asym < 5) {
+        evalAsym.textContent = "Minimal forskel (Menneskeligt optimalt)";
+      } else if (asym <= 10) {
+        evalAsym.textContent = "Moderat asymmetri (Opmærksomhed)";
+      } else {
+        evalAsym.textContent = "Høj skadesrisiko (> 10 % asymmetri)";
+      }
+
+      // Samlet fysiologisk feedback
+      let title = "📊 Fysiologisk Analyse af COD Deficit";
+      let txt = "";
+
+      if (asym > 10) {
+        coddFeedbackBorder.style.borderLeftColor = "#ef4444";
+        txt += `⚠️ **Betydelig side-asymmetri detected (${asym.toFixed(1).replace('.', ',')} %)**. En forskel på over 10 % mellem benene øger risikoen for knæskader (fx korsbåndsskader). Du bør tilføje unilatéral ekscentrisk styrketræning (fx single-leg drop jumps eller tung unilatéral benpres) til det svage ben. `;
+      } else {
+        coddFeedbackBorder.style.borderLeftColor = "#0284c7";
+      }
+
+      const avgCodd = (coddL + coddR) / 2;
+      if (avgCodd > 0.65) {
+        txt += `Dine samlede tidstab i $180^\circ$-vendingen er relativt høje (${avgCodd.toFixed(2).replace('.', ',')} s). Dette indikere, at du har en stærk lineær tophastighed, men mangler den nødvendige **ekscentriske bremsekraft** i forlåret og sædemuskulaturen til at stoppe bevægelsesenergien hurtigt.`;
+      } else if (avgCodd < 0.50) {
+        txt += `Imponerende retningsskift! Dit lave COD Deficit viser, at du er ekstremt effektiv til at overføre lineær fremdrift til en $180^\circ$ vending med minimalt tidstab.`;
+      } else {
+        txt += `Fin balance mellem din lineære hurtighed og din retningsskiftevne.`;
+      }
+
+      coddFeedbackTitle.textContent = title;
+      coddFeedbackTxt.innerHTML = txt;
+    }
+
+    [inputSprint10m, input505Left, input505Right].forEach(inp => {
+      inp.addEventListener('input', calculateCODD);
+    });
+
+    calculateCODD();
+  })();
+</script>

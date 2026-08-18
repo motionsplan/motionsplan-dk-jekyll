@@ -1,0 +1,25 @@
+{
+  "title": "⚽ FIFA 11+ Opvarmnings-afspiller",
+  "themeColor": "#15803d",
+  "themeHeader": "#22c55e",
+  "exercises": [
+    { "cat": "1. Løb & Mobilitet", "name": "Almindeligt løb frem & tilbage", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "1. Løb & Mobilitet", "name": "Hofte udad (Aktivering)", "type": "time", "dur": 30, "prep": 5, "switchHalf": true },
+    { "cat": "1. Løb & Mobilitet", "name": "Hofte indad (Aktivering)", "type": "time", "dur": 30, "prep": 5, "switchHalf": true },
+    { "cat": "1. Løb & Mobilitet", "name": "Cirkelløb om partner", "type": "time", "dur": 30, "prep": 5, "switchHalf": true },
+    { "cat": "1. Løb & Mobilitet", "name": "Skulderkontakt i luften", "type": "time", "dur": 30, "prep": 5, "switchHalf": true },
+    { "cat": "1. Løb & Mobilitet", "name": "Frem og tilbage (Sprint/Stop)", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+
+    { "cat": "2. Styrke & Balance", "name": "Planken (Niveau 1-3)", "type": "time", "dur": 30, "prep": 10, "switchHalf": false },
+    { "cat": "2. Styrke & Balance", "name": "Sideplanke - Venstre side", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "2. Styrke & Balance", "name": "Sideplanke - Højre side", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "2. Styrke & Balance", "name": "Nordic Hamstrings", "type": "reps", "repsText": "3 - 12 kontrol-reps", "prep": 10 },
+    { "cat": "2. Styrke & Balance", "name": "Ét-bens balance m. boldkast", "type": "time", "dur": 60, "prep": 5, "switchHalf": true },
+    { "cat": "2. Styrke & Balance", "name": "Squats m. tåløft / Lunges", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "2. Styrke & Balance", "name": "Vertikale hop / Bænkhop", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+
+    { "cat": "3. Høj Intensitet", "name": "Stigningsløb (Strides)", "type": "time", "dur": 30, "prep": 10, "switchHalf": false },
+    { "cat": "3. Høj Intensitet", "name": "Hoppeløb (Bounding)", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "3. Høj Intensitet", "name": "Retningsskift (Plant & Cut)", "type": "time", "dur": 30, "prep": 5, "switchHalf": false }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "🛡️ PEP Korsbåndssikring Afspiller",
+  "themeColor": "#0284c7",
+  "themeHeader": "#38bdf8",
+  "exercises": [
+    { "cat": "1. Opvarmning", "name": "Sidelinje til sidelinje jog", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "1. Opvarmning", "name": "Sidelæns galop", "type": "time", "dur": 30, "prep": 5, "switchHalf": true },
+    { "cat": "1. Opvarmning", "name": "Baglæns løb på forfoden", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+
+    { "cat": "2. Styrke", "name": "Walking Lunges", "type": "reps", "repsText": "10 reps pr. ben (bløde knæ)", "prep": 10 },
+    { "cat": "2. Styrke", "name": "Russian Hamstrings", "type": "reps", "repsText": "10 kontrollerede reps", "prep": 10 },
+    { "cat": "2. Styrke", "name": "Ét-bens lægløft", "type": "reps", "repsText": "20 reps pr. ben", "prep": 5 },
+
+    { "cat": "3. Plyometri (Landingsfokus)", "name": "Sidelæns hop over linje", "type": "reps", "repsText": "20 dæmpede landinger", "prep": 10 },
+    { "cat": "3. Plyometri (Landingsfokus)", "name": "Hop frem og tilbage over linje", "type": "reps", "repsText": "20 dæmpede landinger", "prep": 5 },
+    { "cat": "3. Plyometri (Landingsfokus)", "name": "Ét-bens hop over linje", "type": "reps", "repsText": "20 reps pr. ben", "prep": 5 },
+    { "cat": "3. Plyometri (Landingsfokus)", "name": "Saksehop (Scissors Jumps)", "type": "reps", "repsText": "20 reps i alt", "prep": 5 },
+    { "cat": "3. Plyometri (Landingsfokus)", "name": "Vertikale hop m. boldgrib", "type": "reps", "repsText": "20 dybe landinger", "prep": 5 },
+
+    { "cat": "4. Agility & Retningsskift", "name": "Shuttle Runs (Pendulløb)", "type": "time", "dur": 45, "prep": 10, "switchHalf": false },
+    { "cat": "4. Agility & Retningsskift", "name": "Diagonalløb (45° opbremsning)", "type": "time", "dur": 45, "prep": 5, "switchHalf": false },
+    { "cat": "4. Agility & Retningsskift", "name": "Hoppeløb (Bounding)", "type": "time", "dur": 30, "prep": 5, "switchHalf": false }
+  ]
+}

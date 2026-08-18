@@ -138,10 +138,13 @@ Bergs Balanceskala (BBS) er et af de mest solide, validerede og klinisk anvendel
 
 ---
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer og videre læsning</h2></summary>
 
 1. **Berg, K. O., Wood-Dauphinee, S. L., Williams, J. I., & Gayton, D. (1989).** Measuring balance in the elderly: preliminary development of an instrument. *Physiotherapy Canada*, 41(6), 304-311.
 2. **Berg, K. O., Wood-Dauphinee, S. L., Williams, J. I., & Maki, B. (1992).** Measuring balance in the elderly: validation of an instrument. *Canadian Journal of Public Health*, 83(S2), S7-S11.
 3. **Shumway-Cook, A., Baldwin, M., Polissar, N. L., & Gruber, W. (1997).** Predicting the probability for falls in community-dwelling older adults. *Physical Therapy*, 77(8), 812-819.
 4. **Donoghue, D., & Stokes, E. K. (2009).** How much change is true change? The minimum detectable change of the Berg Balance Scale in elderly people. *Journal of Rehabilitation Medicine*, 41(5), 343-346.
 5. **Steffen, T. M., Hacker, T. A., & Mollinger, L. (2002).** Age- and gender-related test performance in community-dwelling elderly people: Six-Minute Walk Test, Berg Balance Scale, Timed Up & Go Test, and gait speeds. *Physical Therapy*, 82(2), 128-137.
+
+</details>

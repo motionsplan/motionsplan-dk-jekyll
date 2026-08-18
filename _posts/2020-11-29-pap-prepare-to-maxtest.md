@@ -1,127 +1,173 @@
 ---
-title: Hvordan forbereder jeg mig til en 1RM-maxtest med PAP? 🏋
-seo_title: Hvordan varmer du op til en 1RM-maxtest med PAP?
-excerpt: Hvordan forbereder du dig i opvarmningen til en 1RM-test? Når du skal lave en maxtest, så skal du forberede dig ordentligt
-  og varme grundigt op.
+title: "Hvordan forbereder du dig til en 1RM-maxtest med PAP?"
+seo_title: "Opvarmning til 1RM-maxtest: PAPE, tung opvarmning og øvelser"
+description: "Optimér dit maxforsøg med videnskabsbaseret opvarmning. Lær om RAMP-modellen, PAPE, depth jumps, heavy walkouts og brug vores interaktive Ramp Up-beregner."
+excerpt: "Skal du sætte ny PR i squat, bænkpres eller dødløft? Lær hvordan du strukturerer opvarmningen med RAMP, Ramp Up-sæt og PAPE for at hente de sidste 3–5% på stangen."
 permalink: /pap-post-activation-potentiation-1rm-maxtest/
 language: da
-author: lsolesen
 header:
   overlay_image: /assets/images/unsplash/photo-1532382752999-45b3dc5d4bf2.jpg
   credit: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2
   teaser: /assets/images/unsplash/photo-1532382752999-45b3dc5d4bf2.jpg
-  caption: Hvordan forbereder jeg mig til en 1RM-maxtest med PAP? 🏋
+  caption: Hvordan forbereder du dig til en 1RM-maxtest med PAP? 🏋
 categories:
-- Styrketræning
+  - Styrketræning
 tags:
-- opvarmning
-- præstation
-- styrketræning
-- eksplosivitet
-last_modified_at: '2020-11-13T23:14:14Z'
+  - opvarmning
+  - præstation
+  - styrketræning
+  - eksplosivitet
+last_modified_at: '2026-08-18T00:00:00Z'
+toc: true
+faq:
+  - question: Hvor ofte bør man lave en 1RM-maxtest?
+    answer: En ægte 1RM-test belaster centralnervesystemet (CNS) voldsomt og tager lang tid at restituere fra. Test derfor maksimalt din 1RM for enden af en struktureret træningsblok hver 8.–12. uge eller til styrkeløftsstævner.
+  - question: Hvad er forskellen på PAP og PAPE?
+    answer: PAP (Post-Activation Potentiation) henviser fysiologisk til den øgede kontraktionskraft i muskelcellerne (via fosforylering af myosinkæder), mens PAPE (Post-Activation Performance Enhancement) beskriver den faktiske, praktiske forbedring i præstation (fx et tungere løft eller et højere hop) efter en forudgående belastning (Blazevich & Babault, 2019).
+  - question: Hvor lange skal pauserne være mellem opvarmningssæt til en maxtest?
+    answer: I starten med lette vægte rækker 2–3 minutter. Når du nærmer dig 85–90% af din 1RM, bør du holde 5–8 minutters pause for at genopbygge ATP-depoterne fuldstændigt og reducere CNS-træthed.
 ---
 
-Hvordan forbereder du dig i opvarmningen til en [1RM-test](/rm-maxtest/)? Når du skal lave en maxtest, så skal du forberede dig ordentligt og varme grundigt op. Her kigger vi lidt på, hvad du kan tænke over i dine forberedelser og opvarmning til en maxtest eller styrkeløftstævne.
+Når du skal teste din [1RM (One Repetition Maximum)](/rm-maxtest/) i squat, bænkpres eller dødløft, handler det ikke kun om, hvor stærk du har opbygget dig til at være. Det handler i høj grad også om, hvor dygtig du er til at **klargøre dit centralnervesystem (CNS)** på selve dagen.
 
-Først og fremmest så skal du ikke lave en maxtest alt for ofte. Det koster nemlig på den efterfølgende træning at lave en maxtest.
+En maxtest eller et [styrkeløftstævne](/powerlifting-rules/) er en voldsom belasning. Hvis din opvarmning enten er for tilfældig eller skaber for meget træthed, mister du de afgørende kilo, du har kæmpet for.
 
-Maxtesten kan imidlertid være motiverende og være med til at afslutte en træningsblok. Hvis du på forhånd planlægger, hvornår du laver din maxtest, så kan du planlægge, at maxtesten er en del af træningen.
+I denne artikel gennemgår vi, hvordan du kombinerer en generel **RAMP-opvarmning**, en struktureret **Ramp Up-opbygning på stangen**, og hvordan du kan bruge fænomenet **PAPE / PAP (Post-Activation Potentiation)** til at hente 3–5% ekstra vægt på stangen.
 
-{% include figure image_path=page.header.overlay_image caption=page.title alt="opvarmning til maxløft og 1rm" %}
+---
 
-## Hvordan skal jeg varme op til mit 1RM-forsøg?
+> 📌 **Leder du efter den generelle opvarmningsrutine til hverdagstræningen?** > Se vores dybdegående guide til [opvarmning til styrketræning med RAMP-modellen](/opvarmning-styrketraening/) eller læs om det [fysiologiske fundament bag opvarmning](/opvarmning/).
 
-[Jacob Beermann foreslår](https://maxer.dk/artikler/maxtest), at du kan sammensætte din træning på denne måde, hvis du vil lave en maxtest. Samme fremgangsmåde kan anbefales i forhold til et [styrkeløftstævne og styrkeløftkonkurrence](/powerlifting-rules/).
+---
 
-Beermann foreslår, at du starter med en **15 minutters generel dynamisk opvarmning**, hvor du gradvist øger intensiteten. Jeg har skrevet mere om [generel opvarmning til styrketræning her](/opvarmning-styrketraening/).
+## Fase 1: Den generelle RAMP-opvarmning (10–15 min)
 
-Derefter laver du **5 minutters specifik opvarmning rettet mod øvelsen**. Når du har lavet en grundig opvarmning, så går du i gang med at selve øvelsen. Start med relativt let vægt for at få en fornemmelse for bevægelsen, og så begynder du **langsomt at sætte mere og mere vægt på stangen**.
+Ligesom til almindelig Styrketræning anbefales det at starte med **RAMP-modellen** (Jeffreys, 2007) for at forberede led og muskler uden at udtrætte nervesystemet:
 
-Du kan eksempelvis gå frem i din opvarmning til maxtesten på denne måde:
+* **Raise (Hæv temperaturen):** 3–5 minutter på romaskine eller cykel i roligt tempo for at øge kropstemperaturen og enzymaktiviteten.
+* **Activate (Tænd for stabilisatorerne):** Lette øvelser for core, balder (*gluteus*) og skuldre (fx glute bridges, planke og elastikøvelser) for at optimere bækken- og rygsøjlepositionen.
+* **Mobilize (Åbn leddene):** Dynamisk mobilitet (fx World's Greatest Stretch eller dybe kropsvægts-squats) for at reducere den viskøse modstand i leddene.
+* **Potentiate (Tænd for nervesystemet):** 2–3 eksplosive hop eller lette medicinboldkast for at begynde rekrutteringen af de hurtige Type II-muskelfibre.
 
-- 5 x 20%
-- 4 x 40%
-- 3 x 60%
-- 2 x 75%
-- 1 x 85%
-- 1 x 90%
+---
 
-Denne måde at varme op på til en maxtest og en 1RM-test minder meget om [Tim Henriques forslag på t-nation.com](https://www.t-nation.com/training/how-to-warm-up-for-a-one-rep-max). Tim Henriques specificerer, at pauserne mellem de enkelte sæt skal være relativt lange. Startende fra 2-3 minutter og når det bliver tungere så 5-15 minutter mellem løftene.
+## Fase 2: Opbygningen på stangen (Ramp Up)
 
-## Hvordan kan jeg bruge PAP til at forbedre mit 1RM-maxforsøg?
+Når du går til vægtstangen, foreslår træner Jacob Beermann ([maxer.dk](https://maxer.dk/artikler/maxtest)), at du bruger 5 minutter på øvelsesspecifik tilvænning, hvorefter du langsomt øger vægten mod dit maxforsøg.
 
-Når du skal lave en max-test og 1RM-test, så kan udnytte fænomenet _post-activation potentiation_ (PAP). De fleste protokoller med PAP udnytter en tung styrketræningsøvelse, fx squat, efterfulgt af en højhastighedsøvelse, fx vertikalt hop.
+En klassisk procentvis opbygning frem mod et 1RM-forsøg ser således ud:
 
-Ideen er, at du ved at squatte en tung vægt uden at gå til _failure_ og derefter holde pause et par minutter, så kan du springe højere end hvis ikke du havde løftet vægten.
+* **5 reps @ 20%** (Tom stang / helt let)
+* **4 reps @ 40%**
+* **3 reps @ 60%**
+* **2 reps @ 75%**
+* **1 rep @ 85%**
+* **1 rep @ 90%**
+* **1RM-forsøg (100%+)**
 
-[Stack](https://www.stack.com/a/testing-your-one-rep-max-use-this-surprising-science-backed-trick-to-move-more-weight) skriver, at effekten også kan udnyttes den anden vej rundt. Hvis du **først udfører en eksplosiv bevægelse**, holder en kort pause, så kan du **løfte mere efterfølgende**.
+Som styrketræner Tim Henriques understreger på [T-Nation](https://www.t-nation.com/training/how-to-warm-up-for-a-one-rep-max), er **pauserne afgørende**. I de første lette sæt holder du 2–3 minutters pause, men på de tunge singler (85–90%) skal du holde **5–8 minutters pause** (eller op til 10-15 minutter til stævner), så dine phosphagen-depoter (ATP/CP) genopbygges fuldstændigt, og den muskulære træthed fordufter (McGowan et al., 2015).
 
-[Masamoto et al (2003)](https://www.ncbi.nlm.nih.gov/pubmed/12580658) undersøgte, hvordan _to depth jumps_ udført 30 sekunder før et 1RM forsøg i squat påvirkede den maksimale styrke. _Depth jumps_ er en [højintensiv plyometrisk øvelse](/plyometrisk-traening/).
+---
 
-Den gennemsnitlige styrke steg fra 139,6 kg til 144 kg, hvilket er en 3,5% forbedring. Forskerne undersøgte også, hvad effekten var af at lave _tre tuck jumps_ (som kan karakteriseres som medium intensitet), men der var ingen signifikant forbedring af den maksimale styrke.
+### Beregn dine opvarmningssæt til maxtesten
 
-Studiet tyder altså på, at intensiteten i bevægelsen har betydning for, hvor godt PAP virker.
+Indtast din forventede eller tilstræbte arbejdsvægt herunder, og få automatisk beregnet dine opvarmningssæt afrundet til nærmeste 2,5 kg:
+
+{% include components/rampup_beregner.html %}
+
+---
+
+## Fase 3: Udnyts PAPE / PAP til at løfte mere
+
+Her bliver det rigtig interessant. Du kan udnytte et fysiologisk fænomen kaldet **Post-Activation Performance Enhancement (PAPE)** eller *Post-Activation Potentiation (PAP)* (Blazevich & Babault, 2019).
+
+
+
+Traditionelt bruges PAP ved at udføre et tungt løft (fx en tung squat) for efterfølgende at kunne hoppe højere. Men videnskaben viser, at effekten også kan udnyttes **den modsatte vej**: Ved at udføre en ultrakort, eksplosiv øvelse *lige inden* dit maxforsøg, kan du løfte mere vægt.
+
+### 1. Squat: Depth Jumps før 1RM
+Masamoto et al. (2003) undersøgte mandlige atleter med et gennemsnitligt 1RM i squat på 142 kg. 
+
+Når atleterne udførte **to Depth Jumps** (fald fra en kasse efterfulgt af et eksplosivt reaktionshop) blot **30 sekunder før deres 1RM-forsøg**, steg deres maksimale squat fra i gennemsnit **139,6 kg til 144,0 kg — en direkte fremgang på 3,5%**.
+
+Interessant nok testede forskerne også *tre Tuck Jumps* (hop med knæene mod brystet i stedet for faldhop fra kasse), men dette gav *ingen* signifikant forbedring. Det tyder på, at **intensiteten og den hurtige stræk-forkortningscyklus (SSC)** i øvelsen er afgørende for at opnå PAPE-effekten.
 
 {% include video provider="youtube" id="AzPJZHOmGEg" %}
 
-[Wilcox et al (2006)](https://www.ncbi.nlm.nih.gov/pubmed/19116439) undersøgte en lignende protokol i forbindelse med bænkpres. De lavede enten to plyometriske pushups eller to _med ball chest passes_ med 3-5 kg 30 sekunder før et bænkpres.
+*Både [Breaking Muscle](https://breakingmuscle.com/fitness/verkhoshanskys-depth-jumps-create-gains-in-max-strength) og [EliteFTS](https://www.elitefts.com/education/turbocharge-your-squat-with-depth-jumps/) beskriver i dybden, hvordan Verkhoshansky oprindeligt brugte dybdehop til at stimulere nervesystemet.*
 
-Dem der lavede plyometriske pushups havde en gennemsnitlig forbedring på 2,9 kg, mens dem der lavede _med ball chest pass_ havde en gennemsnitlig forbedring på 3,1 kg. Samlet var det en stigning på hhv. 2,4% og 2,6% i forhold til kontrolgruppen, der ikke lavede nogen PAP-øvelser.
+### 2. Bænkpres: Plyometriske pushups & Med-ball chest passes
+Wilcox et al. (2006) undersøgte en lignende PAPE-protokol for bænkpres hos trænede mænd (gennemsnitligt 1RM på 120 kg).
 
-Det kunne være interessant med endnu flere studier, da _med ball chest pass_ primært er en koncentrisk bevægele, som jeg vil tro er mindre intensiv ift. plyometriske pushups. Wilcox et al (2006) har altså et lidt andet resultat end Masamoto et al (2003) i forhold til intensiteten.
+Løfterne udførte enten **to plyometriske armstrækninger** eller **to eksplosive medicinboldkast fra brystet** (med 3–5 kg bold) 30 sekunder før deres 1RM-forsøg i bænkpres:
+* Plyometriske pushups gav en gennemsnitlig stigning på **2,9 kg (+2,4%)**.
+* Medicinboldkast gav en gennemsnitlig stigning på **3,1 kg (+2,6%)**.
 
 {% include video provider="youtube" id="s11x3f146qk" %}
 
 {% include video provider="youtube" id="pJ8amgzbZMM" %}
 
-Når du vil bruge PAP for at forbedre din maksimale styrke på kort sigt, skal du naturligvis have forberedt dig. PAP virker formentlig bedst, når du er godt forberedt, stærk og allerede har trænet eksplosivt. Studierne havde inkluderet løftere, der løftede hhv. 142 kg i squat og 120 kg i bænkpres i gennemsnit.
+### Hvorfor virker det — og hvem virker det for?
+Chiu et al. (2003) påviste, at PAPE/PAP-responsen er **stærkt afhængig af løfterens træningstilstand**. Veltrænede atleter med høj relativ Styrke og stor andel Type II-muskelfibre opnår en markant stærkere PAPE-effekt end utrænede. 
 
-Trænede løftere med nogenlunde de stats kan altså med eksplosive, relaterede øvelser 30 sekunder før løftet måske forbedre det efterfølgende løft med 3-5 kg.
+Trænede løftere kan altså ved at tilføje 2 eksplosive gentagelser 30–60 sekunder før deres 1RM-forsøg hente 3–5 kg ekstra på stangen.
 
-Det er jo også værd at tage med.
+---
 
-Både [breakingmuscle.com](https://breakingmuscle.com/fitness/verkhoshanskys-depth-jumps-create-gains-in-max-strength) og [elitefts.com](https://www.elitefts.com/education/turbocharge-your-squat-with-depth-jumps/) skriver mere om, hvordan man kan bruge depth jumps til at forbedre sin squat.
+## Det mentale hack: Heavy Walkouts & Liftoffs
 
-{% include motionsplan/pinterest image_path="/assets/images/pinterest/forberedelse-max-loeft.jpg" %}
+En anden effektiv måde at fremkalde PAPE på er foreslået af TJ Kuster på [T-Nation](https://www.t-nation.com/training/tip-hack-your-nervous-system-set-new-prs/). Her udnytter du et overbelastnings-hack på nervesystemet:
 
-## Heavy walkouts og liftoffs
-
-[TJ Kuster foreslår på t-nation.com](https://www.t-nation.com/training/tip-hack-your-nervous-system-set-new-prs/) _heavy walkouts_ og _heavy liftoffs_ til at få den samme _post-activation potentiation_ effekt.
-
-Kuster forelår, at man sætter **10% ekstra på stangen** i forhold til det, du vil løfte som din 1RM. Formålet er, at **bære vægten i omkring 10 sekunder**, inden man sætter den pænt på plads igen. Så **venter du 5 minutter og prøver dit maxforsøg**.
+1. Sæt **110% af dit planlagte 1RM-forsøg** på stangen.
+2. **I Squat:** Gør som hvis du skulle squatte: Løft stangen ud af stativet (*heavy walkout*), rets dig op og stå med vægten i **10 sekunder** uden at gå ned i squat. Sæt stangen sikkert tilbage.
+3. **I Bænkpres:** Få en spotter til at hjælpe dig med at løfte stangen ud (*heavy liftoff*), Hold vægten på udstrakte arme i 10 sekunder, og læg den på plads.
+4. **Hold 3–5 minutters pause.**
+5. Udfør herefter dit egentlige 1RM-forsøg.
 
 {% include video provider="youtube" id="rEzrea5aLT0" %}
 
 {% include video provider="youtube" id="Mo_eVQlDKYc" %}
 
-Ideen er naturligvis, at du forsøger at snyde kroppen til at tro, at du skal løfte rigtig meget, så den gør sig klar til det. Når du efterfølgende har 10% mindre på stangen, så vil kroppen ifølge Kusters teori sætte ekstra kræfter ind på at kunne løfte vægten.
+**Hvorfor virker det?** Når du har haft 110% på ryggen eller i hænderne, tilpasser dit centralnervesystem sig den enorme belastning ved maksimal motorisk rekruttering. Når du 5 minutter senere står med 100%, føles vægten fysiologisk og psykologisk væsentligt lettere (*perceptual load reduction*).
 
-## Hvordan estimerer jeg min 1RM?
+---
 
-Hvis du ikke ved, hvad din [1RM eller _one repetition maximum_](/rm-maxtest/) er, så kan du tjekke vores [RM-beregner](/rm-beregner/). Her kan du med et _all out_ submaximalt sæt estimere, hvor meget du kan løfte netop en gang.
+## Hvordan estimerer du din 1RM inden testen?
 
-Du kan også bruge [Rate of Perceived Exertion (RPE)](/rpe/) til at estimere sit maxløft. Jeg bruger selv [en træningslog app](/traeningsdagbog-app/) til at tracke min træning, og der angiver man RPE for de enkelte sæt. Det betyder faktisk at app'en hele tiden har et bud på dit maksimale løft.
+For at vælge den rigtige mål-vægt til dit 1RM-forsøg, skal du have et realistisk estimat. Du bør aldrig gætte i blinde.
 
-[Tim Henriques beskriver på t-nation.com](https://www.t-nation.com/training/whats-your-1rm) en anden approach til at lave sin egen estimerede 1RM, som er baseret på dine egne løft - og ikke formler baseret på andre løfteres præstationer.
+1. **Brug vores RM-beregner:** Indtast dine vægte fra et nyligt submaksimalt sæt (fx 5 reps på 80 kg) i vores interaktive [RM-beregner](/rm-beregner/) for at få et teoretisk estimat.
+2. **Brug RPE / RIR:** Hvis du bruger [Rate of Perceived Exertion (RPE)](/rpe/) i din [træningsdagbog eller trænings-app](/traeningsdagbog-app/), har du et løbende estimat af din e1RM (estimated 1RM) baseret på din formkurve.
+3. **Vælg din startvægt til stævne:** Til konkurrence gælder reglen om at vælge en sikker opningsvægt (ca. 90–92% af e1RM), som du kan løfte selv på en dårlig dag. Læs mere i vores gennemgang af [styrkeløft og powerlifting](/styrkeloeft/).
 
-## Hvordan finder jeg hvad jeg skal løfte?
+---
 
-Hvis du gerne vil lave en maxtest eller en 1RM-test, så skal du også have valgt, hvor meget vægt der skal på stangen. Jeg har skrevet lidt mere om det under min [gennemgang af styrkeløft og powerlifting](/styrkeloeft/).
+## Konklusion: Den ultimative maxtest-tjekliste
 
-## PAP virker også i forhold til at forbedre din springhøjde
+Skal du sætte ny PR i dag? Følg denne køreplan:
 
-Du kan også få PAP til at virke til at forbedre springhøjden. Så vidt jeg har forstået, så er det sådan man oprindeligt har brugt PAP. Det kan du læse mere om på [t-nation.com](https://www.t-nation.com/training/tip-a-very-weird-way-to-boost-your-vertical) og [jackedathlete.com](https://jackedathlete.com/instantly-jump-higher-post-activation-potentiation/).
+1. **Gennemfør 10-15 min RAMP-opvarmning** (kredsløb, mobilitet, aktivering).
+2. **Kør din Ramp Up-protokol på stangen** (byg op fra tom stang til 90% med færre reps og stigende pauser).
+3. *(Valgfrit hack)* **Udfør 2 eksplosive depth jumps / med-ball chest passes** 30–60 sekunder før dit 1RM-forsøg (eller kør en *heavy walkout* med 110% 5 min før).
+4. **Fokusér mentalt og udfør dit 1RM-forsøg!**
 
-## Konklusion om forberedelse til maxløft
+Hvordan forbereder du dig til en maxtest eller et styrkeløftstævne? Del dine erfaringer i kommentarsporet herunder!
 
-Jeg har skrevet et andet indlæg, der handler om [reglerne til styrkeløft](/powerlifting-rules/), hvor du også kan finde et skema med forslag til din startvægt i konkurrencen.
+---
 
-Hvordan forbereder du dig til en maxtest, styrkeløftkonkurrence og 1RM-test? Brug endelig kommentarerne til at inspirere os andre.
+## Ofte stillede spørgsmål om 1RM og PAP
+
+{% include motionsplan/faq.html %}
+
+---
 
 <details markdown="1" class="references">
-  <summary><h2 id="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer og videnskabeligt grundlag</h2></summary>
 
-- Masamoto, N et al. "Acute Effects of Plyometric Exercise on Maximum Squat Performance in Male Athletes." Journal of Strength and Conditioning Research. 2003 Feb; 17(1):68-71.
-- Wilcox, J et al. "Acute Explosive-Force Movements Enhance Bench-Press Performance in Athletic Men." International Journal of Sports Physiology and Performance. 2006 Sep; 1(3):261-269.
-- Chiu, LZF et al. "Post-activation Potentiation Response in Athletic and Recreationally Trained Individuals." Journal of Strength and Conditioning Research. 2003 Nov; 17(4):671-677.
-</summary>
+- Blazevich, A. J., & Babault, N. (2019). *Post-activation potentiation (PAP) versus post-activation performance enhancement (PAPE): Similarities, differences, and practical applications*. Frontiers in Physiology, 10, 1357.
+- Chiu, L. Z. F., et al. (2003). *Post-activation potentiation response in athletic and recreationally trained individuals*. Journal of Strength and Conditioning Research, 17(4), 671-677.
+- Jeffreys, I. (2007). *Warm-up revisited: The RAMP method of optimizing warm-ups*. Professional Strength and Conditioning, (6), 12-18.
+- Masamoto, N., et al. (2003). *Acute effects of plyometric exercise on maximum squat performance in male athletes*. Journal of Strength and Conditioning Research, 17(1), 68-71.
+- McGowan, C. J., et al. (2015). *Warm-up strategies for sport and exercise: A systematic review and recommendations*. Sports Medicine, 45(11), 1523-1546.
+- Wilcox, J., et al. (2006). *Acute explosive-force movements enhance bench-press performance in athletic men*. International Journal of Sports Physiology and Performance, 1(3), 261-269.
+</details>

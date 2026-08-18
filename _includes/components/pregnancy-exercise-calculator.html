@@ -1,0 +1,457 @@
+<div class="pregnancy-calc-wrapper">
+  <style>
+    .pregnancy-calc-wrapper {
+      background: var(--background-color, #ffffff);
+      border: 1px solid var(--border-color, #e2e8f0);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 2em 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    .summary-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .summary-card {
+      background: #f8fafc;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 14px 16px;
+      cursor: pointer;
+      position: relative;
+      transition: border-color 0.25s ease, background-color 0.25s ease, transform 0.25s ease;
+      user-select: none;
+      z-index: 1;
+    }
+    .summary-card:hover {
+      border-color: #ec4899;
+      background: #fdf2f8;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(236, 72, 153, 0.08);
+    }
+    .summary-card.open {
+      z-index: 100 !important;
+      border-color: #ec4899;
+      background: #ffffff;
+      box-shadow: 0 6px 16px rgba(236, 72, 153, 0.12);
+    }
+
+    .summary-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.78em;
+      font-weight: 700;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    .gear-icon {
+      font-size: 1.1em;
+      opacity: 0.6;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .summary-card:hover .gear-icon,
+    .summary-card.open .gear-icon {
+      opacity: 1;
+      transform: rotate(45deg);
+      color: #ec4899;
+    }
+
+    .active-val-title {
+      font-size: 0.98em;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 4px;
+    }
+    .active-val-desc {
+      font-size: 0.80em;
+      color: #475569;
+      line-height: 1.35;
+    }
+
+    .option-picker-dropdown {
+      display: none;
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      border: 1.5px solid #ec4899;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      z-index: 101;
+      overflow: hidden;
+    }
+    .summary-card.open .option-picker-dropdown {
+      display: block;
+    }
+    .picker-option {
+      padding: 10px 12px;
+      border-bottom: 1px solid #f1f5f9;
+      transition: background 0.15s ease;
+    }
+    .picker-option:last-child {
+      border-bottom: none;
+    }
+    .picker-option:hover {
+      background: #fdf2f8;
+    }
+    .picker-option.selected {
+      background: #fce7f3;
+      font-weight: 600;
+    }
+    .picker-opt-title {
+      font-size: 0.85em;
+      color: #0f172a;
+      display: block;
+    }
+    .picker-opt-desc {
+      font-size: 0.75em;
+      color: #64748b;
+      display: block;
+    }
+
+    .chart-box {
+      position: relative;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 18px 16px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+      margin-bottom: 20px;
+    }
+    .matrix-bar-group {
+      margin-bottom: 14px;
+    }
+    .matrix-bar-group:last-child {
+      margin-bottom: 0;
+    }
+    .matrix-label-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85em;
+      font-weight: 700;
+      color: #334155;
+      margin-bottom: 6px;
+    }
+    .matrix-track {
+      height: 10px;
+      background: #f1f5f9;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+    }
+    .matrix-fill {
+      height: 100%;
+      width: 50%;
+      border-radius: 5px;
+      transition: width 0.4s ease, background-color 0.4s ease;
+    }
+
+    .metrics-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .metric-card {
+      background: #f8fafc;
+      padding: 16px 18px;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+      border-left: 5px solid #ec4899;
+      line-height: 1.5;
+    }
+    .metric-card h5 {
+      margin: 0 0 6px 0;
+      font-size: 1.02em;
+      color: #0f172a;
+    }
+    .metric-card p {
+      margin: 0;
+      font-size: 0.90em;
+      color: #334155;
+    }
+    .bullet-list {
+      margin: 6px 0 0 16px;
+      padding: 0;
+      font-size: 0.88em;
+      color: #475569;
+    }
+    .bullet-list li {
+      margin-bottom: 4px;
+    }
+
+    /* ANSVARSFRASKRIVELSE & KILDER */
+    .disclaimer-box {
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 0.80em;
+      color: #64748b;
+      line-height: 1.45;
+    }
+    .disclaimer-box strong {
+      color: #475569;
+    }
+  </style>
+
+  <!-- KORT GRID FOR INPUTS -->
+  <div class="summary-cards-grid">
+    
+    <!-- KORT 1: TRIMESTER & UGE -->
+    <div class="summary-card" id="cardTrimester">
+      <div class="summary-card-header">
+        <span>🤰 Gestationsalder</span>
+        <span class="gear-icon">⚙️</span>
+      </div>
+      <div class="active-val-title" id="titleTrimester">2. Trimester (Uge 13-27)</div>
+      <div class="active-val-desc" id="descTrimester">Øget energi. Voksende livmoder, forskudt tyngdepunkt.</div>
+
+      <div class="option-picker-dropdown">
+        <div class="picker-option" data-value="1">
+          <span class="picker-opt-title">1. Trimester (Uge 1-12)</span>
+          <span class="picker-opt-desc">Kvalme, træthed, hormonel omstilling.</span>
+        </div>
+        <div class="picker-option selected" data-value="2">
+          <span class="picker-opt-title">2. Trimester (Uge 13-27)</span>
+          <span class="picker-opt-desc">Øget energi, forskudt tyngdepunkt.</span>
+        </div>
+        <div class="picker-option" data-value="3">
+          <span class="picker-opt-title">3. Trimester (Uge 28-40+)</span>
+          <span class="picker-opt-desc">Høj belastning, Relaxin-top, fødselsforberedelse.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- KORT 2: BÆKKEN & LEDSYMPTOMER -->
+    <div class="summary-card" id="cardPelvis">
+      <div class="summary-card-header">
+        <span>🦴 Bækken & Ledstabilitet</span>
+        <span class="gear-icon">⚙️</span>
+      </div>
+      <div class="active-val-title" id="titlePelvis">Symptomfri / Symmetrisk</div>
+      <div class="active-val-desc" id="descPelvis">Ingen smerter ved gang, trapper eller vanlige løft.</div>
+
+      <div class="option-picker-dropdown">
+        <div class="picker-option selected" data-value="0">
+          <span class="picker-opt-title">Symptomfri / Symmetrisk</span>
+          <span class="picker-opt-desc">Ingen smerter ved vanlige bevægelser.</span>
+        </div>
+        <div class="picker-option" data-value="1">
+          <span class="picker-opt-title">Mild ømhed / Træthed</span>
+          <span class="picker-opt-desc">Lidt murren i symfysen eller lænden sidst på dagen.</span>
+        </div>
+        <div class="picker-option" data-value="2">
+          <span class="picker-opt-title">Bækkenløsning / Asymmetri</span>
+          <span class="picker-opt-desc">Skærende smerter ved et-bens øvelser eller vending i seng.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- KORT 3: KERNE & MAVETRYK (CONING) -->
+    <div class="summary-card" id="cardCore">
+      <div class="summary-card-header">
+        <span>🧘‍♀️ Mavemuskler & Kerne</span>
+        <span class="gear-icon">⚙️</span>
+      </div>
+      <div class="active-val-title" id="titleCore">Normal kontrol</div>
+      <div class="active-val-desc" id="descCore">Ingen synlig 'toblerone' / spids mave ved belastning.</div>
+
+      <div class="option-picker-dropdown">
+        <div class="picker-option selected" data-value="0">
+          <span class="picker-opt-title">Normal kontrol</span>
+          <span class="picker-opt-desc">Jævnt stram mave under løft og stabilitet.</span>
+        </div>
+        <div class="picker-option" data-value="1">
+          <span class="picker-opt-title">Begyndende Coning / Diastase</span>
+          <span class="picker-opt-desc">Maven buler ud på midten under planke eller mavebøjning.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FYSIOLOGISK BELASTNINGS-MATRICE -->
+  <div class="chart-box">
+    <div class="matrix-bar-group">
+      <div class="matrix-label-row">
+        <span>🔥 Anbefalet Intensitet (Borg RPE Skala)</span>
+        <span id="lblRpe">RPE 12-14 (Moderat "Snakketempo")</span>
+      </div>
+      <div class="matrix-track">
+        <div class="matrix-fill" id="barRpe" style="background:#0ea5e9; width:65%;"></div>
+      </div>
+    </div>
+
+    <div class="matrix-bar-group">
+      <div class="matrix-label-row">
+        <span>⚡ Symmetrikrav & Stabilitetsfokus</span>
+        <span id="lblStab">80% Symmetriske øvelser</span>
+      </div>
+      <div class="matrix-track">
+        <div class="matrix-fill" id="barStab" style="background:#ec4899; width:80%;"></div>
+      </div>
+    </div>
+
+    <div class="matrix-bar-group">
+      <div class="matrix-label-row">
+        <span>🫀 Intra-abdominalt Tryk & Vena Cava Sikkerhed</span>
+        <span id="lblPressure">Lav risiko for kompression</span>
+      </div>
+      <div class="matrix-track">
+        <div class="matrix-fill" id="barPressure" style="background:#10b981; width:30%;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ANBEFALINGER STACK -->
+  <div class="metrics-stack">
+    <div class="metric-card" style="border-left-color: #ec4899;">
+      <h5>🏋️‍♀️ Styrketræning & Øvelsesmodifikationer</h5>
+      <p id="txtStrength">-</p>
+      <ul class="bullet-list" id="listStrength"></ul>
+    </div>
+
+    <div class="metric-card" style="border-left-color: #0ea5e9;">
+      <h5>🫁 Kondition, Puls & Bækkenbundsbelastning</h5>
+      <p id="txtCardio">-</p>
+    </div>
+
+    <div class="metric-card" style="border-left-color: #10b981;" id="cardSafety">
+      <h5>🛡️ ACOG Sikkerhedstjek & Stop-signaler</h5>
+      <p id="txtSafety">-</p>
+    </div>
+  </div>
+
+  <!-- FAGLIGT FUNDAMENT & LÆGEFAGLIG ANSVARSFRASKRIVELSE -->
+  <div class="disclaimer-box">
+    <p style="margin: 0 0 6px 0;"><strong>📚 Fagligt grundlag:</strong> Algoritmen bygger på de officielle kliniske anbefalinger fra <em>Sundhedsstyrelsen</em>, <em>Dansk Selskab for Obstetrik og Gynækologi (DSOG)</em> samt <em>American College of Obstetricians and Gynecologists (ACOG, Committee Opinion No. 804)</em>.</p>
+    <p style="margin: 0;"><strong>⚕️ Lægefaglig ansvarsfraskrivelse:</strong> Dette værktøj er udelukkende beregnet til oplysning og vejledning for raske gravide. Det erstatter ikke individuel sundhedsfaglig vurdering fra din egen læge, jordemoder eller fysioterapeut. Ved tvivl, kramper, smerter eller kompliceret graviditet skal du altid konsultere dit fødested før træning.</p>
+  </div>
+</div>
+
+<script>
+  (function() {
+    let state = {
+      trimester: 2,
+      pelvis: 0,
+      core: 0
+    };
+
+    const barRpe = document.getElementById('barRpe');
+    const barStab = document.getElementById('barStab');
+    const barPressure = document.getElementById('barPressure');
+
+    const lblRpe = document.getElementById('lblRpe');
+    const lblStab = document.getElementById('lblStab');
+    const lblPressure = document.getElementById('lblPressure');
+
+    const txtStrength = document.getElementById('txtStrength');
+    const listStrength = document.getElementById('listStrength');
+    const txtCardio = document.getElementById('txtCardio');
+    const txtSafety = document.getElementById('txtSafety');
+
+    document.querySelectorAll('.summary-card').forEach(card => {
+      card.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const isOpen = this.classList.contains('open');
+        document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('open'));
+        if (!isOpen) this.classList.add('open');
+      });
+    });
+
+    document.addEventListener('click', function() {
+      document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('open'));
+    });
+
+    setupCardOptions('cardTrimester', 'titleTrimester', 'descTrimester', 'trimester');
+    setupCardOptions('cardPelvis', 'titlePelvis', 'descPelvis', 'pelvis');
+    setupCardOptions('cardCore', 'titleCore', 'descCore', 'core');
+
+    function setupCardOptions(cardId, titleId, descId, stateKey) {
+      const card = document.getElementById(cardId);
+      card.querySelectorAll('.picker-option').forEach(opt => {
+        opt.addEventListener('click', function(e) {
+          e.stopPropagation();
+          state[stateKey] = parseInt(this.getAttribute('data-value'));
+
+          card.querySelectorAll('.picker-option').forEach(o => o.classList.remove('selected'));
+          this.classList.add('selected');
+
+          document.getElementById(titleId).textContent = this.querySelector('.picker-opt-title').textContent;
+          document.getElementById(descId).textContent = this.querySelector('.picker-opt-desc').textContent;
+
+          card.classList.remove('open');
+          updatePregnancyModel();
+        });
+      });
+    }
+
+    function updatePregnancyModel() {
+      const tri = state.trimester;
+      const pel = state.pelvis;
+      const cor = state.core;
+
+      let rpeVal = tri === 1 ? 70 : tri === 2 ? 60 : 45;
+      if (pel === 2) rpeVal -= 15;
+      barRpe.style.width = `${rpeVal}%`;
+      lblRpe.textContent = rpeVal > 60 ? "RPE 13-15 (Moderat til anstrengende)" : "RPE 11-13 (Nemt 'Snakketempo')";
+
+      let stabVal = pel === 2 ? 95 : pel === 1 ? 80 : 50;
+      barStab.style.width = `${stabVal}%`;
+      lblStab.textContent = pel === 2 ? "100% Symmetriske, to-bens øvelser" : pel === 1 ? "80% Symmetriske øvelser" : "Normale et-bens bevægelser tilladt";
+
+      let pressVal = tri === 3 ? 85 : tri === 2 ? 55 : 20;
+      if (cor === 1) pressVal += 15;
+      barPressure.style.width = `${pressVal}%`;
+      barPressure.style.backgroundColor = pressVal > 70 ? "#ef4444" : pressVal > 45 ? "#f59e0b" : "#10b981";
+      lblPressure.textContent = pressVal > 70 ? "Høj risiko (Undgå rygliggende & Valsalva)" : pressVal > 45 ? "Moderat tryk (Juster kerneøvelser)" : "Lav risiko for kompression";
+
+      listStrength.innerHTML = "";
+      if (pel === 2) {
+        txtStrength.textContent = "Ved bækkenløsning/smerter i symfysen skal alle asymmetriske et-bens øvelser (lunges, step-ups, bulgarian split squats) straks tages ud af programmet. Fokuser på:";
+        addBullet(listStrength, "Brede, symmetriske Squats til bænk/stol (hold benene samlet i hverdagen)");
+        addBullet(listStrength, "Siddende overkropsøvelser (Roing, Shoulder Press, Lat Pulldown)");
+        addBullet(listStrength, "Glute Bridges på måtte med samlede knæ og elastic band om lårene");
+      } else if (tri === 3) {
+        txtStrength.textContent = "3. Trimester kræver reduktion af den samlede vægtstang-belastning pga. hormonet Relaxin, der blødgør led og ligamenter. Prioriter:";
+        addBullet(listStrength, "Kabel- og maskintræning for kontrolleret bevægebane");
+        addBullet(listStrength, "Bænkpres modificeres til Incline Press (15-30 graders hældning) for at undgå Vena Cava Syndrome");
+        addBullet(listStrength, "Bækkenbundsaktivering koordineret med udånding under løftets tunge fase");
+      } else {
+        txtStrength.textContent = "Du kan fortsætte din vante styrketræning med fuld bevægeudslag, men undgå at holde vejret (Valsalva-manøvren) ved tunge løft:";
+        addBullet(listStrength, "Squats, Dødløft og Lunges med moderat belastning (RPE 12-14)");
+        addBullet(listStrength, "Aktiv udånding på vej op fra løftet for at beskytte bækkenbunden");
+      }
+
+      if (cor === 1) {
+        addBullet(listStrength, "⚠️ OBS: Ved synlig 'coning' (spids mave) fjernes traditionelle planker, push-ups og crunches. Erstat med Pallof Press, Side Planke på knæ og Farmer Carries.");
+      }
+
+      if (pel === 2 || tri === 3) {
+        txtCardio.textContent = "High-impact aktiviteter (løb, hop, tunge crossfit-metcons) bør udskiftes for at skåne bækkenbunden. Anbefalede former: Cykling på stationær cykel, svømning (fantastisk aflastning i vand) eller incline walking på løbebånd.";
+      } else {
+        txtCardio.textContent = "Løb og konditionstræning kan sagtens fortsættes, så længe du ikke oplever tyngdefornemmelse i underlivet eller lækage. Hold intensiteten på et niveau, hvor du kan føre en samtale undervejs.";
+      }
+
+      txtSafety.textContent = "Afbryd straks træningen og kontakt læge/jordemoder ved: Vaginal blødning, svimmelhed/besvimelse, brystsmerter, fostervandsafgang, regelmæssige smertefulde plukkeveer eller pludselig hævelse i ansigt/hænder.";
+    }
+
+    function addBullet(ul, text) {
+      const li = document.createElement('li');
+      li.innerHTML = text;
+      ul.appendChild(li);
+    }
+
+    updatePregnancyModel();
+  })();
+</script>

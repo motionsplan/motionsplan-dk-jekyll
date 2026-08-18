@@ -54,6 +54,11 @@ I idrætsfysiologien skelnes der skarpt mellem to begreber, som ofte forveksles 
 1. **Change of Direction Speed (CODS):** En forudbestemt bevægelse, hvor udøveren på forhånd kender løberuten (fx *”spurt 10m, rund en kegle, løb 5m tilbage”*). Det er denne fysiske komponent, de klassiske banetest måler.
 2. **Agility (Behændighed):** Inkluderer ud over CODS et **perceptuelt og kognitivt element**, hvor retningsskiftet sker som en direkte reaktion på en uforudsigelig stimulering (fx en modstanders finte eller en boldaflevering).
 
+> **💡 Måler du egentlig agility eller bare retningsskift?**  
+> Testen på denne side er fantastisk til at måle *Change of Direction (COD)*, fordi ruten er kendt på forhånd. Men i ægte boldspil ved du sjældent, hvor modstanderen løber hen. Vil du teste din sande reaktionsevne og agility i uforudsigelige situationer?  
+> 👉 **[Prøv vores Reaktive Agility Test (Y-RAT) og den interaktive Smart-Timer her](/reaktiv-agility-test/)**
+{: .notice--info }
+
 ---
 
 ## Sammenligningsoversigt: Hvilken test skal du vælge?
@@ -62,6 +67,7 @@ Forskellige sportsgrene stiller vidt forskellige krav til vinklerne i retningssk
 
 | Test | Vinkler & Mønster | Måler Primært | Oplagt Til | Banekrav |
 | :--- | :--- | :--- | :--- | :--- |
+| **[5-10-5 Pro Agility](/pro-agility-5-10-5-test/)** | Lateralt & to $180^\circ$ vendinger | Acceleration, deceleration & lateral eksplosivitet | Am. fodbold, basketball, håndbold | $10\text{ m}$ bane (3 kegler m. $5\text{ m}$ interval) |
 | **[505 Agility Test](/505-agility-test/)** | Ren $180^\circ$ vending | Ekscentrisk bremsning & Side-asymmetri | Fodbold, Rugby, ACL-rehab | $15\text{ m} \times 2\text{ m}$ |
 | **[Illinois Agility Test](/illinois-agility-test/)** | $180^\circ$ sving + Slalom | Sammensat CODS & Oprejsningsstyrke | Politi, Militær, Basketball | $10\text{ m} \times 5\text{ m}$ |
 | **[Agility T-Test](/t-test-agility/)** | Frem, Sideløb (Shuffle), Baglæns | Multidirektionel hurtighed & Balancestyrke | Basketball, Tennis, Badminton | $9{,}14\text{ m} \times 9{,}14\text{ m}$ |
@@ -70,20 +76,28 @@ Forskellige sportsgrene stiller vidt forskellige krav til vinklerne i retningssk
 
 ---
 
-## De Vigtigste Retningsskift-Tests
+## De vigtigste retningsskift-tests
 
-Herunder finder du et overblik over de fem mest populære og videnskabeligt validerede COD-tests.
+Herunder finder du et overblik over de mest populære og videnskabeligt validerede COD-tests.
 
-### 1. 505 Agility Test – Den gyldne standard for $180^\circ$ vendinger
+### 1. 5-10-5 Pro Agility Test (20-Yard Shuttle) – Acceleration og bremsning i topklasse
+
+{% include video provider="youtube" id="i9Xm2EIfNnc" %}
+
+5-10-5 testen er berømt som en af kernetestene fra den amerikanske NFL Combine, men den bruges globalt overalt i holdsport. Den er en af de absolut bedste tests til at måle lateral (sidelæns) eksplosivitet, massiv deceleration og evnen til hurtigt at vende $180^\circ$.
+
+Atleten starter i midten, sprinter 5 meter (eller yards) til højre og rører linjen med hånden, vender og sprinter 10 meter til venstre og rører den modsatte linje, for til sidst at sprinte 5 meter tilbage gennem startlinjen.
+
+**Særlig styrke:** Måler den absolutte evne til at generere kraft ud af et stillestående startpunkt, bremse kropsvægten lynhurtigt ned (ekscentrisk styrke) og skifte retning i et tæt og intenst rum. Den er særligt god som metrik på et eksplosivitetsdashboard.
+
+👉 **[Se banemål, regler og test din score i 5-10-5 testen her »](/pro-agility-5-10-5-test/)**
+
+### 2. 505 Agility Test – Den gyldne standard for $180^\circ$ vendinger
 {% include figure image_path="/assets/images/scienceforsport.com/Figure-1-Test-configuration-for-the-5-0-5-agility-test-d2d5dcd4.png" caption="Kilde: [scienceforsport.com](https://www.scienceforsport.com/5-0-5-agility-test/) [📷](https://www.scienceforsport.com/wp-content/uploads/2016/01/Figure-1-Test-configuration-for-the-5-0-5-agility-test.png){: rel='nofollow noopener' }" %}
-
-Du kan læse mere om 5-0-5 testen hos [scienceforsport.com](https://www.scienceforsport.com/5-0-5-agility-test/), hvor der bl.a. diskuteres, hvordan man bedst muligt tager tid ift. hvor høje _timing_-gates bør være.
 
 {% include video provider="youtube" id="ws0MsAy8t_4" %}
 
-[Sayers (2014)](https://www.jsams.org/article/S1440-2440(14)00490-3/fulltext) stiller spørgsmål til, om 5-0-5-testen i virkeligheden tester _change of direction_.
-
-505-testen er den mest præcise test til at isolere evnen til at deaccelerere fra høj fart, plante én vendefod og accelerere $180^\circ$ i modsat retning. Testen indeholder $10\text{ meters}$ flyvende tilløb, så udøveren rammer testzonen med maksimal hastighed.
+Formålet med 505-testen er at isolere evnen til at deaccelerere fra høj fart, plante én vendefod og accelerere $180^\circ$ i modsat retning. Testen indeholder $10\text{ meters}$ flyvende tilløb, så udøveren rammer testzonen med høj hastighed.
 
 **Særlig styrke:** Gør det muligt at identificere **side-asymmetri** mellem højre og venstre ben, hvilket er afgørende for skadesforebyggelse (fx korsbåndsskader).
 
@@ -91,7 +105,7 @@ Du kan læse mere om 5-0-5 testen hos [scienceforsport.com](https://www.sciencef
 
 ---
 
-### 2. Illinois Agility Test – Den klassiske sammensatte test
+### 3. Illinois Agility Test – Den klassiske sammensatte test
 Illinois Agility Test (Getchell, 1979) bliver ofte brugt, og der findes veletablerede normer, hvis du vil sammenligne din præstation.
 
 {% include figure image_path="/assets/images/tests/illinois-agility-test.webp" caption="Illinois Agility Test" %}
@@ -104,7 +118,7 @@ Illinois-testen er en af verdens mest udbredte agilitetstests. Den tester en bre
 
 ---
 
-### 3. Agility T-Test – Multidirektionel test med sideløb og baglænsløb
+### 4. Agility T-Test – Multidirektionel test med sideløb og baglænsløb
 T-Testen udmærker sig ved at kombinere fire forskellige løbeformer i én kort test: lineært sprint fremad, lateralt sideløb (shuffling) til venstre og højre samt baglænsløb tilbage mod mållinjen.
 
 **Særlig styrke:** Måler udøverens evne til at opretholde et lavt tyngdepunkt og kropskontrol under sidelæns og baglæns forflytning uden at krydse fødderne.
@@ -115,7 +129,7 @@ T-Testen udmærker sig ved at kombinere fire forskellige løbeformer i én kort 
 
 ---
 
-### 4. Arrowhead Agility Test – Pilen til fodboldsporten
+### 5. Arrowhead Agility Test – Pilen til fodboldsporten
 [Arrow head testen](/arrowhead-test/) bruges bl.a. flittigt til at teste fodboldspillere.
 
 Formålet med arrowhead testen er at teste hastighed, acceleration, kropskontrol og evnen til at skifte retning med forskellige vinkler.
@@ -134,7 +148,7 @@ Arrowhead-testen er opbygget som et pilehoved og anvendes flittigt i professione
 
 ---
 
-### 5. Politiskolens 8-Tals Løb – Hurtighedstest til optagelsesprøven
+### 6. Politiskolens 8-Tals Løb – Hurtighedstest til optagelsesprøven
 
 En af kravene i de [fysiske tests til politiprøven](/politiets-fysiske-tests-krav-optagelsesproeve/) er 8-tals-løbet. Når du har adgang til en hal, så er det en rigtig let test at sætte op. Du skal bare bruge et par kegler og et gulv i den rette størrelse.
 
@@ -144,11 +158,7 @@ En af kravene i de [fysiske tests til politiprøven](/politiets-fysiske-tests-kr
 
 **Særlig styrke:** Tester kurveløb, acceleration og evnen til at bevare balancen uden at berøre keglerne på et glat hallens trægulv.
 
-👉 **[Gå til Politiskolens 8-Tals Test (med officiel karakterskala og timer) »](/8-tal-hurtighedstest/)**
-
-### 6. V-Cut
-
-{% include figure image_path="https://www.researchgate.net/profile/Oliver-Gonzalo-Skok/publication/279730426/figure/fig1/AS:616377522061324@1523967261476/Schematic-illustration-of-V-cut-test-Players-run-from-the-point-A-following-lines.png" caption="Kilde: [www.researchgate.net](https://www.researchgate.net/figure/Schematic-illustration-of-V-cut-test-Players-run-from-the-point-A-following-lines_fig1_279730426)" %}
+👉 **[Gå til Politiskolens 8-tals test (med officiel karakterskala og timer) »](/8-tal-hurtighedstest/)**
 
 ---
 
