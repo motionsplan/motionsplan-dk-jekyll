@@ -27,11 +27,21 @@ keywords:
 
 Opvarmningen er den første del af Politiets fysiske optagelsesprøve. Det er et fast, obligatorisk program på 15 minutter, der skal gennemføres og godkendes, før du må gå videre til resten af prøverne.
 
-Mange aspiranter bliver overraskede over, hvor udmattende opvarmningen i virkeligheden er. Samtidig er det fysiologisk set et af de mest velstrukturerede **15-minutters opvarmningsprogrammer**, du kan bruge – uanset om du træner til Politiskolen eller leder efter det perfekte opvarmningsprogram til idrætstimerne i gymnasiet eller folkeskolen.
+Mange aspiranter bliver overraskede over, hvor udmattende opvarmningen i virkeligheden er. Samtidig er det et velstruktureret **15-minutters opvarmningsprogrammer**, du kan bruge – uanset om du træner til Politiskolen eller leder efter et godt opvarmningsprogram til andre lejligheder.
 
 ---
 
-## ⏱️ Interaktiv opvarmnings-timer: Kør programmet direkte på mobilen
+> **Søger du opvarmning til et andet træningsformål?**
+> * 🧠 **[Fysiologien bag opvarmning](/opvarmning/):** Vores videnskabelige hovedartikel om kropstemperatur, enzymer og nervesystemet.
+> * 🏋️ **[Opvarmning til Styrketræning](/opvarmning-styrketraening/):** Lær at opbygge dine Ramp-up sæt på stangen med vores interaktive beregner.
+> * 🏃 **[Opvarmning til Løb](/opvarmning-loeb/):** RAMP-rutiner til rolige ture, intervaller og konkurrencer.
+> * ⚽ **[FIFA 11+](/fifa-11-plus/) & [PEP-programmet](/pep-program/):** Evidensbaserede programmer til skadesforebyggelse og korsbåndssikring.
+> * 🚀 **[1RM-Maxtest & PAP](/pap-post-activation-potentiation-1rm-maxtest/):** Udnyts PAPE til at hente de sidste kilo i dine maxforsøg.
+{: .notice--info }
+
+---
+
+## ⏱️ Interaktiv opvarmningstimer: Kør programmet direkte på mobilen
 {: id="player" }
 
 Skal du træne opvarmningen igennem i hallen eller fitnesscenteret? I stedet for at I selv skal holde øje med stopuret undervejs, kan I bruge vores **interaktive opvarmnings-timer** herunder.
@@ -46,7 +56,7 @@ Timeren styrer automatisk hele forløbet:
 💡 **Ideel til idrætstimen:** Dette program passer perfekt til 15 minutters pulsfremmende og alsidig opvarmning i idræt. Sæt mobilen til en højttaler i hallen og tryk på start!
 </div>
 
-{% include components/politi-opvarmning-player.html %}
+{% include components/workout-player-simple.html program="politi" %}
 
 ---
 

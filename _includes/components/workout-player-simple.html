@@ -20,43 +20,78 @@
   <!-- PLAYER HEADER -->
   <div class="wp-header">
     <div class="wp-header-info">
-      <h3 class="wp-title">{{ workout_data.title | default: "Opvarmnings-afspiller" }}</h3>
+      <div class="wp-title">{{ workout_data.title | default: "Opvarmnings-afspiller" }}</div>
     </div>
     <div class="wp-header-actions">
       <button id="wp-mute-btn-{{ program_key }}" onclick="WorkoutPlayer_{{ program_key }}.toggleMute()" class="wp-btn-icon" title="Lyd til/fra">🔊</button>
     </div>
   </div>
 
-  <!-- MAIN EXERCISE DISPLAY -->
+  <!-- MAIN DISPLAY -->
   <div id="wp-display-box-{{ program_key }}" class="wp-display">
     
-    <!-- CATEGORY & COUNTER -->
-    <div class="wp-top-meta">
-      <span id="wp-category-{{ program_key }}" class="wp-category-tag">Kategori</span>
-      <span id="wp-counter-{{ program_key }}" class="wp-counter">Øvelse - / -</span>
+    <!-- VIEW 0: START SCREEN (SECTIONS OVERVIEW) -->
+    <div id="wp-view-start-{{ program_key }}" class="wp-view">
+      <div class="wp-top-meta">
+        <span class="wp-category-tag" style="color: #38bdf8;">PROGRAMOVERSIGT</span>
+        <span class="wp-counter">Startskærm</span>
+      </div>
+      <div class="wp-start-content">
+        <div class="wp-start-subtitle">Vælg en sektion eller tryk "Kom i gang":</div>
+        <div id="wp-sections-list-{{ program_key }}" class="wp-sections-list"></div>
+      </div>
     </div>
 
-    <!-- EXERCISE NAME (FIXED HEIGHT TO PREVENT JUMPING) -->
-    <div class="wp-exercise-wrap">
-      <div id="wp-exercise-name-{{ program_key }}" class="wp-exercise-name">Henter øvelse...</div>
-    </div>
-    
-    <!-- STATUS & DETAIL BADGES -->
-    <div class="wp-status-wrap">
-      <div id="wp-status-msg-{{ program_key }}" class="wp-status-msg">&nbsp;</div>
-    </div>
-
-    <!-- TIMER / REPS COUNT DISPLAY -->
-    <div class="wp-timer-box">
-      <div id="wp-time-display-{{ program_key }}" class="wp-time-display">00:30</div>
-    </div>
-
-    <!-- NEXT EXERCISE PREVIEW -->
-    <div class="wp-next-preview">
-      Næste: <span id="wp-next-name-{{ program_key }}" class="wp-next-name">-</span>
+    <!-- VIEW 1: SECTION INTRO CARD -->
+    <div id="wp-view-section-{{ program_key }}" class="wp-view" style="display: none;">
+      <div class="wp-top-meta">
+        <span id="wp-sec-tag-{{ program_key }}" class="wp-category-tag">SEKTION</span>
+        <span id="wp-sec-counter-{{ program_key }}" class="wp-counter">0 øvelser</span>
+      </div>
+      <div class="wp-center-content">
+        <div class="wp-section-card-title" id="wp-sec-title-{{ program_key }}">Sektionsnavn</div>
+        <div class="wp-status-msg">Gør dig klar til denne del af opvarmningen!</div>
+      </div>
+      <div class="wp-next-preview">
+        Første øvelse: <span id="wp-sec-first-ex-{{ program_key }}" class="wp-next-name">-</span>
+      </div>
     </div>
 
-    <!-- PROGRESS BAR -->
+    <!-- VIEW 2: ACTIVE EXERCISE (CLEAN SINGLE-LINE LAYOUT) -->
+    <div id="wp-view-active-{{ program_key }}" class="wp-view" style="display: none;">
+      <div class="wp-top-meta">
+        <span id="wp-active-cat-{{ program_key }}" class="wp-category-tag">Kategori</span>
+        <span id="wp-active-counter-{{ program_key }}" class="wp-counter">Øvelse 1 af 1</span>
+      </div>
+      <div class="wp-exercise-wrap">
+        <div id="wp-exercise-name-{{ program_key }}" class="wp-exercise-name">Øvelsesnavn</div>
+      </div>
+      <div class="wp-status-wrap">
+        <div id="wp-status-msg-{{ program_key }}" class="wp-status-msg">&nbsp;</div>
+      </div>
+      <div class="wp-timer-box">
+        <div id="wp-time-display-{{ program_key }}" class="wp-time-display">00:30</div>
+      </div>
+      <div class="wp-next-preview">
+        Næste: <span id="wp-next-name-{{ program_key }}" class="wp-next-name">-</span>
+      </div>
+    </div>
+
+    <!-- VIEW 3: FINISH SCREEN -->
+    <div id="wp-view-finish-{{ program_key }}" class="wp-view" style="display: none;">
+      <div class="wp-top-meta">
+        <span class="wp-category-tag" style="color: #4ade80;">GENNEMFØRT</span>
+        <span class="wp-counter">Slut</span>
+      </div>
+      <div class="wp-center-content">
+        <div style="font-size: 2.2em; margin-bottom: 6px;">🎉</div>
+        <div class="wp-exercise-name" style="color: #4ade80;">Programmet gennemført!</div>
+        <div class="wp-status-msg" style="color: #cbd5e1; margin-top: 8px;">Godt gået! Du gennemførte hele programmet.</div>
+      </div>
+      <div class="wp-next-preview">Klar til træning eller kamp!</div>
+    </div>
+
+    <!-- TIMER SLIDER BAR -->
     <div class="wp-progress-bar-bg">
       <div id="wp-progress-fill-{{ program_key }}" class="wp-progress-fill"></div>
     </div>
@@ -65,11 +100,11 @@
   <!-- PLAYER CONTROLS IN BOTTOM -->
   <div class="wp-controls">
     <button id="wp-play-btn-{{ program_key }}" onclick="WorkoutPlayer_{{ program_key }}.togglePlay()" class="wp-btn-ctrl wp-btn-main">
-      <span id="wp-btn-icon-{{ program_key }}">▶</span> <span id="wp-btn-text-{{ program_key }}">Start</span>
+      <span id="wp-btn-icon-{{ program_key }}">🚀</span> <span id="wp-btn-text-{{ program_key }}">Kom i gang</span>
     </button>
 
     <button onclick="WorkoutPlayer_{{ program_key }}.next()" class="wp-btn-ctrl" title="Næste øvelse">⏭️ Næste</button>
-    <button onclick="WorkoutPlayer_{{ program_key }}.resetCurrent()" class="wp-btn-ctrl" title="Genstart øvelse">🔄 Nulstil</button>
+    <button onclick="WorkoutPlayer_{{ program_key }}.resetCurrent()" class="wp-btn-ctrl" title="Genstart">🔄 Nulstil</button>
     <button onclick="WorkoutPlayer_{{ program_key }}.toggleModal(true)" class="wp-btn-ctrl wp-btn-program" title="Se hele programmet">📋 Program</button>
   </div>
 
@@ -155,12 +190,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .wp-title {
-  margin: 0;
-  font-size: 1.25em;
+  font-size: 1.2em;
   font-weight: 800;
   color: #0f172a;
 }
@@ -184,24 +218,36 @@
 
 .wp-btn-icon:hover { background: #e2e8f0; }
 
-/* DISPLAY BOX */
+/* MAIN DISPLAY BOX */
 .wp-display {
   background: #0f172a;
   color: #ffffff;
   border-radius: 12px;
-  padding: 20px 16px;
+  padding: 20px 18px 16px 18px;
   text-align: center;
   margin-bottom: 16px;
   position: relative;
   overflow: hidden;
   transition: background-color 0.4s ease;
+  min-height: 400px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wp-view {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .wp-top-meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px;
+  height: 24px;
 }
 
 .wp-category-tag {
@@ -221,35 +267,96 @@
   border-radius: 12px;
 }
 
-/* NO JUMPING FIX FOR EXERCISE NAME */
+/* START SCREEN SECTIONS LIST */
+.wp-start-content {
+  margin: 10px 0;
+}
+
+.wp-start-subtitle {
+  font-size: 0.85em;
+  color: #94a3b8;
+  margin-bottom: 8px;
+}
+
+.wp-sections-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.wp-start-section-item {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.88em;
+  color: #f1f5f9;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.wp-start-section-item:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(255,255,255,0.25);
+  transform: translateX(2px);
+}
+
+/* SECTION INTRO CARD */
+.wp-center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 10px 0;
+}
+
+.wp-section-card-title {
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #f8fafc;
+  margin-bottom: 6px;
+}
+
+/* EXERCISE NAME & SINGLE-LINE STATUS */
 .wp-exercise-wrap {
-  min-height: 3.2em;
+  min-height: 58px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 4px 0;
+  margin: 2px 0;
 }
 
 .wp-exercise-name {
-  font-size: 1.55em;
+  font-size: 1.6em;
   font-weight: 800;
-  line-height: 1.25;
+  line-height: 1.2;
   color: #f8fafc;
 }
 
 .wp-status-wrap {
-  min-height: 1.4em;
+  min-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 4px;
 }
 
 .wp-status-msg {
-  font-size: 0.88em;
+  font-size: 0.95em;
   font-weight: 700;
   color: #facc15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
 
 .wp-timer-box {
-  margin: 4px 0 10px 0;
+  margin: 2px 0 6px 0;
 }
 
 .wp-time-display {
@@ -266,7 +373,11 @@
   color: #94a3b8;
   border-top: 1px solid rgba(255,255,255,0.12);
   padding-top: 8px;
-  margin-top: 8px;
+  margin-top: 6px;
+  min-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .wp-next-name {
@@ -274,19 +385,20 @@
   font-weight: 600;
 }
 
+/* PROGRESS BAR */
 .wp-progress-bar-bg {
   width: 100%;
   background: rgba(255,255,255,0.15);
   height: 6px;
   border-radius: 3px;
-  margin-top: 12px;
+  margin-top: 10px;
   overflow: hidden;
 }
 
 .wp-progress-fill {
   width: 0%;
   height: 100%;
-  transition: width 0.3s linear, background-color 0.3s ease;
+  transition: width 1s linear, background-color 0.3s ease;
 }
 
 /* CONTROLS IN BOTTOM */
@@ -301,12 +413,16 @@
   background: #f1f5f9;
   color: #334155;
   border: 1px solid #cbd5e1;
-  padding: 11px 16px;
+  padding: 10px 16px;
   border-radius: 8px;
   font-weight: 700;
   font-size: 0.9em;
   cursor: pointer;
   transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
 
 .wp-btn-ctrl:hover {
@@ -316,11 +432,7 @@
 .wp-btn-main {
   color: #ffffff;
   border: none;
-  padding: 11px 22px;
-  font-size: 0.98em;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  background-color: #16a34a;
 }
 
 .wp-btn-program {
@@ -335,7 +447,7 @@
 
 @media (max-width: 520px) {
   .wp-exercise-name { font-size: 1.3em; }
-  .wp-time-display { font-size: 3em; }
+  .wp-time-display { font-size: 2.8em; }
   .wp-controls { gap: 6px; }
   .wp-btn-ctrl { padding: 9px 12px; font-size: 0.85em; }
 }
@@ -347,7 +459,8 @@ const WorkoutPlayer_{{ program_key }} = (function() {
   const program = {{ workout_data.exercises | jsonify }};
   const programKey = "{{ program_key }}";
 
-  // FARVE-THEMES TIL SEKTIONER
+  let playerState = 0;
+
   const sectionPalette = [
     { main: "#0284c7", accent: "#38bdf8", bgDark: "#0f172a" }, // Blå
     { main: "#d97706", accent: "#fbbf24", bgDark: "#1e1b18" }, // Amber/Orange
@@ -355,20 +468,18 @@ const WorkoutPlayer_{{ program_key }} = (function() {
     { main: "#4f46e5", accent: "#a5b4fc", bgDark: "#13122b" }  // Indigo/Lilla
   ];
 
-  // Map unikke sektioner til farver
+  const uniqueCategories = [];
   const categoryThemeMap = {};
-  let categoryCount = 0;
   program.forEach(item => {
-    if (item.cat && !categoryThemeMap[item.cat]) {
-      categoryThemeMap[item.cat] = sectionPalette[categoryCount % sectionPalette.length];
-      categoryCount++;
+    if (item.cat && !uniqueCategories.includes(item.cat)) {
+      uniqueCategories.push(item.cat);
+      categoryThemeMap[item.cat] = sectionPalette[(uniqueCategories.length - 1) % sectionPalette.length];
     }
   });
 
   let currentIndex = 0;
   let isPaused = true;
   let isPrep = false;
-  let isSectionBreak = false;
   let timeRemaining = program[0] ? (program[0].dur || 30) : 30;
   let prepRemaining = 0;
   let elapsedRepsTime = 0;
@@ -428,96 +539,168 @@ const WorkoutPlayer_{{ program_key }} = (function() {
     return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
   }
 
+  function getCategoryStats(index) {
+    const currentCat = program[index] ? program[index].cat : "";
+    const inCategory = program.filter(item => item.cat === currentCat);
+    let catIndex = 0;
+    let count = 0;
+    for (let i = 0; i < program.length; i++) {
+      if (program[i].cat === currentCat) {
+        count++;
+        if (i === index) catIndex = count;
+      }
+    }
+    return { catIndex, catTotal: inCategory.length };
+  }
+
+  function showView(viewId) {
+    document.getElementById(`wp-view-start-${programKey}`).style.display = viewId === 0 ? 'flex' : 'none';
+    document.getElementById(`wp-view-section-${programKey}`).style.display = viewId === 1 ? 'flex' : 'none';
+    document.getElementById(`wp-view-active-${programKey}`).style.display = viewId === 2 ? 'flex' : 'none';
+    document.getElementById(`wp-view-finish-${programKey}`).style.display = viewId === 3 ? 'flex' : 'none';
+  }
+
   function updateUI() {
+    const cardEl = document.getElementById(`wp-card-${programKey}`);
+    const displayBox = document.getElementById(`wp-display-box-${programKey}`);
+    const playIcon = document.getElementById(`wp-btn-icon-${programKey}`);
+    const playText = document.getElementById(`wp-btn-text-${programKey}`);
+    const playBtn = document.getElementById(`wp-play-btn-${programKey}`);
+    const progressFill = document.getElementById(`wp-progress-fill-${programKey}`);
+
+    showView(playerState);
+
+    // STATE 0: STARTSKÆRM
+    if (playerState === 0) {
+      const defaultTheme = sectionPalette[0];
+      cardEl.style.borderColor = defaultTheme.main;
+      displayBox.style.backgroundColor = defaultTheme.bgDark;
+
+      const listContainer = document.getElementById(`wp-sections-list-${programKey}`);
+      let summaryHtml = '';
+      uniqueCategories.forEach((cat, idx) => {
+        const catItems = program.filter(item => item.cat === cat);
+        summaryHtml += `
+          <div class="wp-start-section-item" onclick="WorkoutPlayer_${programKey}.startAtCategory('${cat}')">
+            <span><strong>${cat}</strong></span>
+            <span style="opacity: 0.8; font-size: 0.85em;">${catItems.length} øvelser ➔</span>
+          </div>`;
+      });
+      listContainer.innerHTML = summaryHtml;
+
+      playIcon.innerText = "🚀";
+      playText.innerText = "Kom i gang";
+      playBtn.style.backgroundColor = "#16a34a";
+      progressFill.style.width = "0%";
+      renderModalList();
+      return;
+    }
+
+    // STATE 3: SLUTSKÆRM
+    if (playerState === 3) {
+      const finishTheme = sectionPalette[2];
+      cardEl.style.borderColor = finishTheme.main;
+      displayBox.style.backgroundColor = finishTheme.bgDark;
+
+      playIcon.innerText = "🔄";
+      playText.innerText = "Start forfra";
+      playBtn.style.backgroundColor = "#16a34a";
+      progressFill.style.width = "100%";
+      progressFill.style.backgroundColor = "#4ade80";
+      renderModalList();
+      return;
+    }
+
     const ex = program[currentIndex];
     const nextEx = program[currentIndex + 1];
     if (!ex) return;
 
     const theme = categoryThemeMap[ex.cat] || sectionPalette[0];
+    cardEl.style.borderColor = theme.main;
+    displayBox.style.backgroundColor = theme.bgDark;
+    progressFill.style.backgroundColor = theme.accent;
 
-    // FARVE-TILDELING PÅ CARD OG DISPLAY
-    document.getElementById(`wp-card-${programKey}`).style.borderColor = theme.main;
-    document.getElementById(`wp-display-box-${programKey}`).style.backgroundColor = theme.bgDark;
-    document.getElementById(`wp-category-${programKey}`).style.color = theme.accent;
-    document.getElementById(`wp-time-display-${programKey}`).style.color = theme.accent;
-    document.getElementById(`wp-progress-fill-${programKey}`).style.backgroundColor = theme.accent;
+    const { catIndex, catTotal } = getCategoryStats(currentIndex);
 
-    // COUNTER
-    document.getElementById(`wp-counter-${programKey}`).innerText = `Øvelse ${currentIndex + 1} af ${program.length}`;
+    // STATE 1: SEKTIONSKORT
+    if (playerState === 1) {
+      const secTag = document.getElementById(`wp-sec-tag-${programKey}`);
+      secTag.style.color = theme.accent;
+      secTag.innerText = `SEKTION ${uniqueCategories.indexOf(ex.cat) + 1} AF ${uniqueCategories.length}`;
+      
+      document.getElementById(`wp-sec-counter-${programKey}`).innerText = `${catTotal} øvelser`;
+      document.getElementById(`wp-sec-title-${programKey}`).innerText = ex.cat;
+      document.getElementById(`wp-sec-first-ex-${programKey}`).innerText = `${ex.name}`;
+
+      playIcon.innerText = "▶";
+      playText.innerText = "Start";
+      playBtn.style.backgroundColor = theme.main;
+      progressFill.style.width = "0%";
+      renderModalList();
+      return;
+    }
+
+    // STATE 2: AKTIV ØVELSE (CLEAN SINGLE-LINE STATUS)
+    const activeCatTag = document.getElementById(`wp-active-cat-${programKey}`);
+    activeCatTag.innerText = ex.cat;
+    activeCatTag.style.color = theme.accent;
+
+    document.getElementById(`wp-active-counter-${programKey}`).innerText = `Øvelse ${catIndex} af ${catTotal}`;
+    document.getElementById(`wp-exercise-name-${programKey}`).innerText = ex.name;
 
     const statusEl = document.getElementById(`wp-status-msg-${programKey}`);
-    const playIcon = document.getElementById(`wp-btn-icon-${programKey}`);
-    const playText = document.getElementById(`wp-btn-text-${programKey}`);
-    const playBtn = document.getElementById(`wp-play-btn-${programKey}`);
+    const timeDisplay = document.getElementById(`wp-time-display-${programKey}`);
+    timeDisplay.style.color = theme.accent;
 
-    if (isSectionBreak) {
-      document.getElementById(`wp-category-${programKey}`).innerText = "⏸ PAUSE & SEKTIONSSKIFT";
-      document.getElementById(`wp-exercise-name-${programKey}`).innerText = `Næste del: ${ex.cat}`;
-      statusEl.innerText = "Gør dig klar til næste sektion!";
-      document.getElementById(`wp-time-display-${programKey}`).innerText = "PAUSE";
+    if (isPrep) {
+      timeDisplay.innerText = formatTime(prepRemaining);
+      statusEl.innerHTML = "⏳ Gør dig klar til start!";
       
+      const totalPrep = ex.prep || 5;
+      const pct = (prepRemaining / totalPrep) * 100;
+      progressFill.style.width = `${pct}%`;
+      progressFill.style.backgroundColor = "#d97706";
+    } else {
+      if (ex.type === 'reps') {
+        timeDisplay.innerText = formatTime(elapsedRepsTime);
+        statusEl.innerHTML = `💪 ${ex.repsText || 'Udfør gentagelserne'} — Tryk Næste når færdig`;
+        progressFill.style.width = "100%";
+      } else {
+        timeDisplay.innerText = formatTime(timeRemaining);
+        const totalDur = ex.dur || 30;
+        const halfTime = Math.floor(totalDur / 2);
+        
+        if (ex.switchHalf && timeRemaining <= halfTime) {
+          statusEl.innerHTML = "↔️ Skift side / retning nu!";
+        } else if (ex.switchHalf) {
+          statusEl.innerHTML = `(Skiftes ved ${halfTime} sek)`;
+        } else {
+          statusEl.innerHTML = "&nbsp;";
+        }
+
+        const pct = Math.max(0, Math.min(100, (timeRemaining / totalDur) * 100));
+        progressFill.style.width = `${pct}%`;
+      }
+    }
+
+    if (isPaused) {
       playIcon.innerText = "▶";
-      playText.innerText = `Start ${ex.cat}`;
-      playBtn.style.backgroundColor = theme.main;
-    } 
-    else if (isPrep) {
-      document.getElementById(`wp-category-${programKey}`).innerText = `${ex.cat} — GØR KLAR`;
-      document.getElementById(`wp-exercise-name-${programKey}`).innerText = `Næste: ${ex.name}`;
-      statusEl.innerText = "⏳ Gør dig klar til start!";
-      document.getElementById(`wp-time-display-${programKey}`).innerText = formatTime(prepRemaining);
-      
+      playText.innerText = "Fortsæt";
+      playBtn.style.backgroundColor = "#16a34a";
+    } else {
       playIcon.innerText = "⏸";
       playText.innerText = "Pause";
       playBtn.style.backgroundColor = "#dc2626";
     }
-    else {
-      document.getElementById(`wp-category-${programKey}`).innerText = ex.cat;
-      document.getElementById(`wp-exercise-name-${programKey}`).innerText = ex.name;
 
-      if (ex.type === 'reps') {
-        document.getElementById(`wp-time-display-${programKey}`).innerText = formatTime(elapsedRepsTime);
-        statusEl.innerText = `💪 ${ex.repsText || 'Udfør gentagelserne'} — Tryk Næste når færdig`;
-      } else {
-        document.getElementById(`wp-time-display-${programKey}`).innerText = formatTime(timeRemaining);
-        if (ex.switchHalf && timeRemaining <= Math.floor((ex.dur || 30) / 2)) {
-          statusEl.innerText = "↔️ Skift side / retning nu!";
-        } else if (ex.switchHalf) {
-          statusEl.innerText = "(Skiftes halvvejs)";
-        } else {
-          statusEl.innerHTML = "&nbsp;";
-        }
-      }
-
-      if (isPaused) {
-        playIcon.innerText = "▶";
-        playText.innerText = (currentIndex === 0 && timeRemaining === (ex.dur || 30) && elapsedRepsTime === 0) ? "Start" : "Fortsæt";
-        playBtn.style.backgroundColor = "#16a34a";
-      } else {
-        playIcon.innerText = "⏸";
-        playText.innerText = "Pause";
-        playBtn.style.backgroundColor = "#dc2626";
-      }
-    }
-
-    // PREVIEW NÆSTE
-    document.getElementById(`wp-next-name-${programKey}`).innerText = nextEx ? `${nextEx.name} (${nextEx.cat})` : "Slut på opvarmningen!";
-
-    // PROGRESS BAR
-    const pct = ((currentIndex + (isSectionBreak || isPrep ? 0 : 0.8)) / program.length) * 100;
-    document.getElementById(`wp-progress-fill-${programKey}`).style.width = `${pct}%`;
-
+    document.getElementById(`wp-next-name-${programKey}`).innerText = nextEx ? `${nextEx.name}` : "Slut på opvarmningen!";
     renderModalList();
   }
 
   function tick() {
-    if (isPaused) return;
+    if (isPaused || playerState !== 2) return;
 
     const ex = program[currentIndex];
-
-    if (isSectionBreak) {
-      updateUI();
-      return;
-    }
 
     if (isPrep) {
       prepRemaining--;
@@ -563,14 +746,25 @@ const WorkoutPlayer_{{ program_key }} = (function() {
   function togglePlay() {
     initAudio();
 
-    if (isSectionBreak) {
-      isSectionBreak = false;
-      if (program[currentIndex].prep) {
-        isPrep = true;
-        prepRemaining = program[currentIndex].prep;
-      }
+    if (playerState === 0) {
+      playerState = 1;
+      currentIndex = 0;
+      updateUI();
+      return;
+    }
+
+    if (playerState === 1) {
+      playerState = 2;
+      setupExercise(currentIndex);
       isPaused = false;
       startTimer();
+      updateUI();
+      return;
+    }
+
+    if (playerState === 3) {
+      playerState = 0;
+      currentIndex = 0;
       updateUI();
       return;
     }
@@ -582,6 +776,16 @@ const WorkoutPlayer_{{ program_key }} = (function() {
       clearInterval(timerInterval);
     }
     updateUI();
+  }
+
+  function startAtCategory(catName) {
+    initAudio();
+    const foundIdx = program.findIndex(item => item.cat === catName);
+    if (foundIdx !== -1) {
+      currentIndex = foundIdx;
+      playerState = 1;
+      updateUI();
+    }
   }
 
   function setupExercise(index) {
@@ -607,9 +811,8 @@ const WorkoutPlayer_{{ program_key }} = (function() {
       setupExercise(currentIndex);
 
       if (currentCat !== nextEx.cat) {
+        playerState = 1;
         isPaused = true;
-        isSectionBreak = true;
-        isPrep = false;
         clearInterval(timerInterval);
         playSectionChime();
       }
@@ -617,9 +820,9 @@ const WorkoutPlayer_{{ program_key }} = (function() {
       updateUI();
     } else {
       isPaused = true;
+      playerState = 3;
       clearInterval(timerInterval);
       playSectionChime();
-      alert("🎉 Flot arbejdet! Du har gennemført hele opvarmningen.");
       updateUI();
     }
   }
@@ -627,14 +830,17 @@ const WorkoutPlayer_{{ program_key }} = (function() {
   function prevExercise() {
     if (currentIndex > 0) {
       currentIndex--;
-      isSectionBreak = false;
+      playerState = 2;
       setupExercise(currentIndex);
+      updateUI();
+    } else {
+      playerState = 0;
       updateUI();
     }
   }
 
   function resetCurrent() {
-    isSectionBreak = false;
+    if (playerState === 0) return;
     setupExercise(currentIndex);
     updateUI();
   }
@@ -642,7 +848,7 @@ const WorkoutPlayer_{{ program_key }} = (function() {
   function jumpToExercise(index) {
     if (index >= 0 && index < program.length) {
       currentIndex = index;
-      isSectionBreak = false;
+      playerState = 2;
       setupExercise(currentIndex);
       toggleModal(false);
       updateUI();
@@ -674,7 +880,7 @@ const WorkoutPlayer_{{ program_key }} = (function() {
         html += `<div style="font-weight: 800; color: ${theme.main}; margin-top: 12px; margin-bottom: 6px; font-size: 0.85em; text-transform: uppercase; letter-spacing:0.5px;">${item.cat}</div>`;
       }
 
-      const isActive = idx === currentIndex && !isSectionBreak;
+      const isActive = idx === currentIndex && playerState === 2;
       const bg = isActive ? theme.main : "#ffffff";
       const textColor = isActive ? "#ffffff" : "#334155";
       const border = isActive ? `2px solid ${theme.main}` : "1px solid #cbd5e1";
@@ -696,9 +902,8 @@ const WorkoutPlayer_{{ program_key }} = (function() {
     container.innerHTML = html;
   }
 
-  // DOM Init
   document.addEventListener("DOMContentLoaded", function() {
-    setupExercise(0);
+    playerState = 0;
     updateUI();
   });
 
@@ -708,6 +913,7 @@ const WorkoutPlayer_{{ program_key }} = (function() {
     prev: prevExercise,
     resetCurrent,
     jump: jumpToExercise,
+    startAtCategory,
     toggleMute,
     toggleModal
   };
@@ -716,6 +922,6 @@ const WorkoutPlayer_{{ program_key }} = (function() {
 
 {% else %}
 <div style="background: #fef2f2; border: 1px solid #fca5a5; color: #991b1b; padding: 12px; border-radius: 8px; font-size: 0.9em; margin: 15px 0;">
-  <strong>Fejl i Opvarmnings-afspiller:</strong> Kunne ikke finde træningsdata for <code>{{ program_key }}</code> i mappen <code>_data/workouts/{{ program_key }}.json</code>.
+  <strong>Fejl i opvarmningsafspiller:</strong> Kunne ikke finde træningsdata for <code>{{ program_key }}</code> i mappen <code>_data/workouts/{{ program_key }}.json</code>.
 </div>
 {% endif %}

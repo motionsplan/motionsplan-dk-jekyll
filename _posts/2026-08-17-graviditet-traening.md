@@ -5,8 +5,7 @@ description: Hvordan træner man sikkert under graviditeten? Få videnskabeligt 
 permalink: /traening-graviditet/
 language: da
 header:
-  teaser: /assets/images/unsplash/photo-1518611012118-696072aa579a.jpg
-  credit: https://images.unsplash.com/photo-1518611012118-696072aa579a
+  teaser: https://images.unsplash.com/photo-1603455778956-d71832eafa4e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: Sikker og fysiologisk velfunderet træning under graviditeten
 classes: wide
 categories:

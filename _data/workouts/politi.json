@@ -1,0 +1,32 @@
+{
+  "title": "👮‍♂️ Politiets Opvarmning",
+  "themeColor": "#0284c7",
+  "themeHeader": "#38bdf8",
+  "exercises": [
+    { "cat": "1. Løbedel", "name": "Almindeligt Løb", "type": "time", "dur": 30, "prep": 0, "switchHalf": false },
+    { "cat": "1. Løbedel", "name": "Løb m. rundsving fremad", "type": "time", "dur": 30, "prep": 0, "switchHalf": true },
+    { "cat": "1. Løbedel", "name": "Løb m. rundsving bagud", "type": "time", "dur": 30, "prep": 0, "switchHalf": true },
+    { "cat": "1. Løbedel", "name": "Sidesteps", "type": "time", "dur": 30, "prep": 0, "switchHalf": true },
+    { "cat": "1. Løbedel", "name": "Krydsløb", "type": "time", "dur": 30, "prep": 0, "switchHalf": true },
+    { "cat": "1. Løbedel", "name": "Gadedrengeløb", "type": "time", "dur": 30, "prep": 0, "switchHalf": false },
+    { "cat": "1. Løbedel", "name": "Baglæns løb", "type": "time", "dur": 30, "prep": 0, "switchHalf": false },
+    { "cat": "1. Løbedel", "name": "Reaktionsøvelser (Klap i gulv)", "type": "time", "dur": 30, "prep": 0, "switchHalf": false },
+
+    { "cat": "2. Hoppedel", "name": "Sprællemand", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "2. Hoppedel", "name": "Skihop", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "2. Hoppedel", "name": "Sprællemand m. 360° rotation", "type": "time", "dur": 30, "prep": 5, "switchHalf": true },
+    { "cat": "2. Hoppedel", "name": "Skihop m. 360° rotation", "type": "time", "dur": 30, "prep": 5, "switchHalf": true },
+    { "cat": "2. Hoppedel", "name": "Fejesving m. to rundsving", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "2. Hoppedel", "name": "Knæ-til-albue", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "2. Hoppedel", "name": "Fod-til-hånd", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+    { "cat": "2. Hoppedel", "name": "Englehop", "type": "time", "dur": 30, "prep": 5, "switchHalf": false },
+
+    { "cat": "3. Styrkedel", "name": "Mavebøjninger", "type": "reps", "repsText": "12 gentagelser", "prep": 5 },
+    { "cat": "3. Styrkedel", "name": "Rygbøjninger", "type": "reps", "repsText": "12 gentagelser", "prep": 5 },
+    { "cat": "3. Styrkedel", "name": "Benbøjninger", "type": "reps", "repsText": "12 gentagelser", "prep": 5 },
+    { "cat": "3. Styrkedel", "name": "Armstrækninger", "type": "reps", "repsText": "12 gentagelser", "prep": 5 },
+    { "cat": "3. Styrkedel", "name": "Sakseben", "type": "reps", "repsText": "12 Højre + 12 Venstre", "prep": 5 },
+    { "cat": "3. Styrkedel", "name": "Lunges / Fremfald", "type": "reps", "repsText": "6 Højre + 6 Venstre", "prep": 5 },
+    { "cat": "3. Styrkedel", "name": "Mountain Climbers", "type": "reps", "repsText": "12 Højre + 12 Venstre", "prep": 5 }
+  ]
+}

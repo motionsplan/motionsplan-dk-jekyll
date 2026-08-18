@@ -98,6 +98,51 @@ En standardcyklus varer i gennemsnit 28 dage (med et normalområde på 21–35 d
 
 ---
 
+## Sådan bruger du cyklus-beregneren i praksis
+
+Vores interaktive beregner forudsiger dine teoretiske hormonudsving, men kroppen følger ikke altid et fastegnet skema. Brug derfor beregneren med to forskellige formål:
+
+* **Som logbog (anbefalet):** Noter dine faktiske symptomer, energi og humør over 2–3 cyklusser. Det afslører dine personlige mønstre frem for teoretiske gennemsnit.
+* **Som planlægningsværktøj:** Brug de forventede faser til at placere maxtests, tunge løft eller hårde konkurrencer i de uger, hvor hormonprofilen fysiologisk set bakker dig op.
+
+---
+
+## 2 strategier: Vælg den tilgang, der passer til dig
+
+Der findes ikke én rigtig måde at tilpasse træningen til menstruationscyklussen. Du kan vælge mellem to udgangspunkter:
+
+### Strategi A: Symptom- og dagsformsstyret (Anbefalet)
+Du beholder din faste ugentlige træningsstruktur (f.eks. tunge dage tirsdag/torsdag, lange ture søndag) uanset hvilken uge i måneden du er i. Du reagerer først, hvis du mærker fysiske symptomer som kramper, PMS eller markant træthed.
+
+Når symptomerne rammer, bruger du denne **3-trins justeringsmodel**:
+1. **Byt om på dagene:** Flyt det hårde pas (f.eks. intervaller eller 1RM-test) 1–2 dage frem i ugen, og kør ugens lette restitusjonspas i dag i stedet. Ugens samlede udbytte er uændret.
+2. **Skru ned frem for at aflyse:** Behold træningspasset, men reducer sæt eller belastning (f.eks. 3 sæt i stedet for 5, eller 10 % lavere vægt på stangen).
+3. **Genoptag normalen hurtigt:** Markante symptomer varer sjældent mere end 1–2 dage. Så snart overskuddet vender tilbage, hopper du direkte tilbage på din normale plan.
+
+### Strategi B: Fase-periodiseret træning (Cycle Syncing)
+Hvis du oplever meget tydelige hormonelle svingninger, kan du tilrettelægge din træningsstruktur direkte efter cyklussens faser:
+
+* **Follikulær fasen (Dag 1–13):** Læg hovedfokus på progression i tung styrketræning, eksplosivitet, HIIT og sæt nye PRs i vores **[1RM-beregner](/rm-beregner/)**.
+* **Ovulation (Dag 14–16):** Udfør dine tungeste maxforsøg, men vær ekstra opmærksom på stabil løfteteknik og knækontrol under landinger.
+* **Lutealfasen (Dag 17–28):** Læg fokus på subweighthits, volumentræning, Zone 2 udholdenhed og **[RPE-styring](/rpe/)**. Øg proteinindtaget, og indlæg en **[deloaddag/uge](/restitution/)** ved PMS.
+
+---
+
+## 🚩 Røde flag: Hvornår cyklustræning skal stoppes
+
+Tilpasning af træning forudsætter en sund og regelmæssig cyklus (*eumenoré*). 
+
+Udebleven menstruation (*amenoré*) eller uregelmæssige blødninger må **aldrig** betragtes som en ufarlig bivirkning ved hård træning. Det er et alvorligt tegn på relativ energimangel i idræt (**RED-S**), hvor kroppen lukker ned for reproduktive funktioner for at spare energi. 
+
+Hvis din menstruation udebliver i mere end 3 måneder, bør du søge læge og øge dit energiindtag – uanset hvad din træningsplan siger.
+
+> 📊 **Er du i risiko for REM-S?**
+> Hvis din energitilgængelighed falder til under **30 kcal pr. kg fedtfri vægt**, lukker kroppen ned for reproduktive hormoner. 
+> 👉 [Test dit energiniveau og beregn din energitilgængelighed i vores REM-S Beregner](/rem-s/)
+{: .notice--success }
+
+---
+
 ## Hvad siger den videnskabelige litteratur? (Meta-analyser)
 
 Der er stor forskel på kommercielle "Cycle Syncing"-koncepter og hvad den strengt kontrollerede videnskabelige litteratur konkluderer:
@@ -148,13 +193,14 @@ Menstruationsbaseret træningsplanlægning bør ikke opfattes som et stift regel
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 id="references">Referencer & Litteratur</h2></summary>
+  <summary><h2 id="references">Referencer & Videnskabeligt Grundlag</h2></summary>
 
 - **Colenso-Semple, L. M., et al. (2023).** "Current Evidence Does Not Support Whole-Body Cycle Syncing for Athletic Performance or Exercise Training Adaptation." *Frontiers in Sports and Active Living*, 5, 1200041. <https://doi.org/10.3389/fspor.2023.1200041>
 - **Elliott-Sale, K. J., et al. (2020).** "Methodological Considerations for Studies in Sport and Exercise Science with Female Participants." *Sports Medicine*, 50(2), 273–285. <https://doi.org/10.1007/s40279-019-01189-x>
 - **Enns, D. L., & Tiidus, P. M. (2010).** "The Influence of Estrogen on Skeletal Muscle: Sex Matters." *Sports Medicine*, 40(1), 41–58. <https://doi.org/10.2165/11319760-000000000-00000>
 - **McNulty, K. L., et al. (2020).** "The Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic Women: A Systematic Review and Meta-Analysis." *Sports Medicine*, 50(10), 1813–1827. <https://doi.org/10.1007/s40279-020-01319-3>
+- **Mountjoy, M., et al. (2018).** "IOC Consensus Statement on Relative Energy Deficiency in Sport (RED-S): 2018 Update." *British Journal of Sports Medicine*, 52(11), 687–697. <https://doi.org/10.1136/bjsports-2018-099193>
 - **Oosthuyse, T., & Bosch, A. N. (2010).** "The Effect of the Menstrual Cycle on Exercise Metabolism: Implications for Exercise Performance in Eumenorrheic Women." *Sports Medicine*, 40(3), 207–227. <https://doi.org/10.2165/11317090-000000000-00000>
 - **Wikström-Frisén, L., et al. (2017).** "Effects on Power, Strength and Lean Body Mass of Menstrual Cycle-Adapted Resistance Training." *The Journal of Sports Medicine and Physical Fitness*, 57(1-2), 43–52. <https://doi.org/10.23736/S0022-4707.16.06203-8>
-- Brown, N., White, J., Brasher, A., & Scurr, J. (2014). "The experience of breast pain (mastalgia) in female runners of the 2012 London Marathon and its relationship to sports bra use and menstrual cycle phase." Journal of Sports Sciences, 32(9), 801-809.
+- **Brown, N., et al. (2014).** "The Experience of Breast Pain (Mastalgia) in Female Runners of the 2012 London Marathon and Its Relationship to Sports Bra Use and Menstrual Cycle Phase." *Journal of Sports Sciences*, 32(9), 801–809. <https://doi.org/10.1080/02640414.2013.844364>
 </details>

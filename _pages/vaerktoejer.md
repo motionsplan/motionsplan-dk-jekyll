@@ -151,7 +151,7 @@ Optimér din løbetræning og præstation.
 <div class="notice--primary" markdown="1">
 ### 🧠 Mentale Vurderinger & Sportspsykologi
 Redskaber til at vurdere din mentale sundhed, trivsel og idrætspsykologiske balance.
-* **[REDs Energitjek (Relativ Energimangel)](/reds-relativ-energimangel-test/)** – Test balancen mellem træningsmængde, energi og fysiologi.
+* **[REDs Energitjek (Relativ Energimangel)](/rem-s/)** – Test balancen mellem træningsmængde, energi og fysiologi.
 * **[Sportspsykologiske Tests](/sportspsykologiske-tests/)** – Samlet portal for overtræning, præstationsangst, mental styrke og motivation.
 * **[WHO-5 Trivselsindeks](/who5-trivselindekset/)** & **[Stresstest (PSS-10)](/stress-test/)** – Mål dit hverdags-overskud og dit generelle belastningsniveau.
 

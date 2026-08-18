@@ -66,7 +66,7 @@ Besøg vores specialiserede søsterside **[Sportspsykologiske Tests & Energitjek
 
 ### 🏃 2. Træningsbalance, Tvang, REDs & Ortoreksi
 * **[Træningsafhængighed & Ortoreksi (Samlet Tema & Dashboard)](/traeningsafhaengighed-ortoreksi/)** – Læs guiden om tvang vs. balance og test dig selv på 4-i-1 dashboardet.
-* **[REDs Energitjek (Relativ Energimangel)](/reds-relativ-energimangel-test/)** – Kønsdifferentieret test for balancen mellem din træningsmængde, dit næringsindtag og din fysiologiske restitution.
+* **[REDs Energitjek (Relativ Energimangel)](/rem-s/)** – Kønsdifferentieret test for balancen mellem din træningsmængde, dit næringsindtag og din fysiologiske restitution.
 * **[Test af Træningsafhængighed (EAI)](/traeningsafhaengighed/)** – Tjek om dit forhold til motion og træning er sundt eller tvangspræget.
 * **[DOS Ortoreksi-skalaen](/dos-ortoreksi/)** – Test om dit fokus på "sund og ren mad" har udviklet sig til stive regler og tvang.
 * **[IES-2 Intuitiv Træning](/intuitiv-traening/)** – Mål din evne til at bevæge dig med lyst, fleksibilitet og kropskontakt.

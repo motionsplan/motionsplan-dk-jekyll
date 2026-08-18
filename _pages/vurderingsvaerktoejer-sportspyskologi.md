@@ -61,7 +61,7 @@ Hvad oplever du i din træning lige nu? Vælg den kategori herunder, der bedst b
 ### 🏃 1. Restitution, Energimangel & Overtræning
 *Føler du dig konstant fysisk udmattet, ramt af hyppige skader, eller at din fremgang er gået i stå?*
 
-* **[REDs Energitjek (Relativ Energimangel i Idræt)](/reds-relativ-energimangel-test/)**  
+* **[REDs Energitjek (Relativ Energimangel i Idræt)](/rem-s/)**  
   *Kønsdifferentieret test (IOC REDs CAT).* Mål balancen mellem din træningsmængde, dit kalorieindtag og dine biologiske advarselssignaler (menstruationsfejl, testosteronfald, ledsmerter og træthedsbrud).
 * **[Udbrændthed i Sport (ABQ - Athlete Burnout)](/abq-udbraendthed-overtraening/)**  
   *Mål:* Graden af fysisk og følelsesmæssig udmattelse, nedsat præstationsfølelse og mistet gejst ved din sport.

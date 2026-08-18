@@ -82,7 +82,7 @@ For at udregne din egen eller dine rytteres APR skal du gennemføre to uafhængi
 * **5-minutters All-Out Test:** Et 5-minutters maksimalt enkeltstarts-forsøg giver en gennemsnitseffekt, der ligger ekstremt tæt på din MAP.
 
 ### 2. Test af PPO (Peak Power Output)
-* **6-sekunders Max Sprint Test:** Efter en grundig opvarmning udføres 2–3 maksimale sprintforsøg fra lav/moderat hastighed i et tungt gear med fuld kadence-acceleration.
+* **[6-sekunders Max Sprint Test](/6sek/):** Efter en grundig opvarmning udføres 2–3 maksimale sprintforsøg fra lav/moderat hastighed i et tungt gear med fuld kadence-acceleration.
 * **Spidseffekt fra data (1–5 sek. peak Watt):** Måles som den højeste gennemsnitseffekt holdt over 3–5 sekunder fra en frisk sprint.
 
 ---
