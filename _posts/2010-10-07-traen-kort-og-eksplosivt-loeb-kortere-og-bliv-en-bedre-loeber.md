@@ -119,7 +119,7 @@ Træningen stiller store krav til din mentale tilstand. Da kilometertallet er la
 | **Mandag** | **VO2max Intervaller** | 8 x 2 min løb (1 min gåpause). Intensitet: $\sim 95\%$ af max-puls. |
 | **Tirsdag** | **Morgen:** Plyo + Sprint<br>**Aften:** Tung Styrke | **Morgen:** Trappe-/hækkespring + 12 x 30 sek sprint (3 min pause).<br>**Aften:** Tung squat & baglår (3–5 reps @ 90–95% 1RM). |
 | **Onsdag** | **Hviledag** | Fuldstændig kropslig restitution. |
-| **Torsdag** | **Tærskelintervaller** | [4 x 4 min løb](/4x4-intervaller/) (2 min pause). Intensitet: $\sim 90\text{--}95\%$ af max-puls. |
+| **Torsdag** | **Tærskelintervaller** | [4 x 4 min løb](/4x4-intervaltraening/) (2 min pause). Intensitet: $\sim 90\text{--}95\%$ af max-puls. |
 | **Fredag** | **Morgen:** Plyo + Sprint<br>**Aften:** Tung Styrke | **Morgen:** Trappe-/hækkespring + 12 x 30 sek sprint (3 min pause).<br>**Aften:** Tung squat & baglår (3–5 reps @ 90–95% 1RM). |
 | **Lørdag** | **Restitutionstur** | 10 km roligt/moderat løb i jævnt tempo. |
 | **Søndag** | **Tempoløb** | 5 km i højt, konkurrencenært tempo. |

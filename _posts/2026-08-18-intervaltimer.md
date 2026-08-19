@@ -73,7 +73,7 @@ Timeren indeholder en række færdige indstillinger (presets), som matcher de me
 ### 4. Sprint 8 (SIT - Sprint Interval Training)
 * **Struktur:** 8 runder af 30 sekunders eksplosiv sprint (100 % kraftudfoldelse) efterfulgt af 90 sekunders aktiv restitution.
 * **Formål:** Anabolfremmende væksthormon-stimulering, Type IIx muskelrekruttering og fedtmobilisering.
-* **Optimalt til:** Wattbike, romaskine og atletikbane. Læs guiden til [Sprint 8 træning](/sprint-8-intervaltraening-der-virker/).
+* **Optimalt til:** Wattbike, romaskine og atletikbane. Læs guiden til [Sprint 8 træning](/artikel/sprint-8-intervaltraening-der-virker/).
 
 ### 5. 15/15 og 30/30 Intervaller
 * **Struktur:** Klassiske kort-intervaller med lige dele arbejdstid og hviletid.
@@ -94,7 +94,7 @@ Ved at skifte mellem arbejds- og hvilefaser opnår du følgende fysiologiske for
 2. **Hurtigere affaldsstoffjernelse:** I pauserne opretholdes et højt blodflow, som skyller laktat og brintioner ud af muskelfibrene.
 3. **Bedre neural rekruttering:** Korte sprint-intervaller aktiverer de hurtige muskulære fibertyper (Type IIa og IIx), som ellers "sover" under roligt løb.
 
-Læs mere om balancen mellem hård og rolig træning i vores artikel om [polariseret træning (80/20-reglen)](/artikel/polariseret-traening/) og den populære [norske tærskelmodel](/norsk-taerskeltraening/).
+Læs mere om balancen mellem hård og rolig træning i vores artikel om polariseret træning (80/20-reglen) og den populære [norske tærskelmodel](/norsk-taerskeltraening/).
 
 ---
 

@@ -57,7 +57,7 @@ Forsøgspersonerne satte sig ikke uforberedt op på cyklen for at køre 4 minutt
 ### 2. Rolig mængdetræning var en del af ugeplanen
 Forsøgsgruppen trænede 5 dage om ugen. Men den femte dag var anderledes: Her kørte udøverne **30 minutters rolig, kontinuerlig udholdenhedstræning** ved 70 % af VO₂max, efterfulgt af blot 4 runder af 20/10-intervaller. 
 
-Tabata var altså *aldrig* tænkt som en fuldstændig erstatning for et [aerobt fundament](/polariseret-traening/). Det var en ekstrem supramaksimal overbygning oven på en i forvejen opbygget grundform.
+Tabata var altså *aldrig* tænkt som en fuldstændig erstatning for et aerobt fundament. Det var en ekstrem supramaksimal overbygning oven på en i forvejen opbygget grundform.
 
 > **Kravene til en fysiologisk ægte Tabata:**
 > * **Intensitet på 170 % af VO₂max:** Det betyder absolut All-Out effekter fra første sekund. Det er en belastning, der ligger langt over det tempo, hvor din maksimale iltoptagelse indfinder sig.

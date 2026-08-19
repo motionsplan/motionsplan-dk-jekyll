@@ -72,7 +72,7 @@ Denne metode tillader elite-nordmændene at samle op mod 30-40 kilometer om ugen
 
 ## Hvordan The Norwegian Model passer ind i Polariseret Træning
 
-Den norske model forveksles ofte med at bryde reglerne i [polariseret træning](/artikel/polariseret-traening/) (80/20-reglen), hvor 80 % skal være helt roligt (Zone 1) og 20 % skal være meget hårdt (Zone 4/5).
+Den norske model forveksles ofte med at bryde reglerne i polariseret træning (80/20-reglen), hvor 80 % skal være helt roligt (Zone 1) og 20 % skal være meget hårdt (Zone 4/5).
 
 Nordmændene træner i højere grad **Pyramide-træning**. De løber ekstremt meget langsomt mængdetræning (ofte 150-180 km om ugen for eliten), en massiv mængde i midten (tærskel / Zone 3) og næsten intet oppe i den rene anaerobe røde zone (VO2max sprints). 
 
