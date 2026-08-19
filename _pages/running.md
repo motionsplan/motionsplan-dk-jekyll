@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /loebesiden/
-title: "Løbeguide: Alt om løb, løbetræning og løbeprogrammer"
+title: "Løbeguide: Alt om løb og løbetræning"
 seo_title: "Løbetræning & Løb – Komplet guide til bedre løbeform"
 description: "Den ultimative guide til løb og løbetræning. Få strukturerede løbeprogrammer, lær om intervalløb og pulstræning, brug vores løbeberegnere og undgå skader."
 author_profile: true

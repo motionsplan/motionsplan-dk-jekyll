@@ -80,7 +80,7 @@ Før Jack Daniels' metode blev udbredt, brugte mange løbere [Pete Riegels forme
 
 {% include figure image_path="https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="løber efter løbsberegner fra jack daniels" %}
 
-## Jack Daniels' Løbeberegner
+## Jack Daniels' løbeberegner
 {: id="calculator" }
 
 Indtast en nylig løbetid for at beregne din VDOT og dine anbefalede træningstempi:
@@ -89,7 +89,7 @@ Indtast en nylig løbetid for at beregne din VDOT og dine anbefalede træningste
 
 Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval](/hvor-langt-per-interval/)?
 
-Jeg har også lavet en beregner, hvor du kan [omregne din løbehastighed fra pace i min/km til km/t](/hastighed/omregner-tempo-fart/). Du kan også være interesseret i vores andre [hastighedsberegnere](/hastighed/).
+Jeg har også lavet en beregner, hvor du kan [omregne din løbehastighed fra pace i min/km til km/t](/hastighed/).
 
 ## Om Løbesidens løbsberegner
 
@@ -114,7 +114,7 @@ Formålet med beregneren er todelt:
 - Du kan få **tempoanbefalinger til din løbetræning**, så du træner effektivt uden overbelastning.
 - Du kan få **estimerede konkurrencetider** på andre distancer, baseret på én præstation.
 
-Det hjælper dig med at forbedre både [konditionen](/kondition/tests/), udholdenheden og løbeøkonomien – uden at løbe for hurtigt for tidligt.
+Det hjælper dig med at forbedre både [kondition](/kondition/), udholdenhed og løbeøkonomi – uden at løbe for hurtigt for tidligt.
 
 ## Et par vigtige forbehold
 
@@ -178,7 +178,7 @@ Vil du hurtigt se, hvor hurtigt du skal løbe for at nå en bestemt sluttid på 
 
 Vi har samlet det hele i en overskuelig tabel:
 
-[📊 Se pacetabellen med distancer og sluttider](/hastighed/pace-tabeller/){: .btn .btn--primary }
+[📊 Se pacetabellen med distancer og sluttider](/hastighed/pace-tabeller/){: .btn .btn--large .btn--primary }
 
 Tabellen viser sluttider og tilhørende tempoer (pace) for forskellige distancer, justeret for at du naturally løber langsommere på længere løb.
 

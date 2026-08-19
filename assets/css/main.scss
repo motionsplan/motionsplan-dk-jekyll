@@ -209,16 +209,7 @@ span.strong {
 /* ==========================================================================
    MOBIL & TABLET OPTIMERING (TOC & Sidebar)
    ========================================================================== */
-
 @media screen and (max-width: 1024px) {
-  /* Skjul forfatterprofilen i sidebaren på mobil og tablet */
-  .sidebar .author__avatar,
-  .sidebar .author__content,
-  .sidebar .author__urls-wrapper {
-    display: none !important;
-  }
-
-  /* Sammenklappelig Indholdsfortegnelse (TOC) på Mobil & Tablet */
   .toc {
     background-color: #6c757d; 
     border-radius: 4px;
@@ -239,10 +230,6 @@ span.strong {
       margin: 0 !important;
       color: #ffffff;
 
-      i, svg {
-        margin-right: 0.6rem !important;
-      }
-
       &::after {
         content: "▼";
         margin-left: auto !important; 
@@ -252,19 +239,57 @@ span.strong {
       }
     }
 
-    .toc__menu {
+    /* Skjul alle tænkelige TOC-lister som standard på mobil */
+    .toc__menu,
+    #markdown-toc,
+    .section-nav,
+    .nav__items {
       display: none;
-      padding: 0.75rem 1rem 1rem 1rem;
-      background-color: #ffffff; 
-      color: #333333;
     }
 
+    /* Når .is-open tilføjes via JS */
     &.is-open {
       .nav__title::after {
         transform: rotate(180deg); 
       }
-      .toc__menu {
-        display: block !important; 
+
+      /* Åben beholderen uanset hvilken HTML-struktur Jekyll har genereret */
+      .toc__menu,
+      #markdown-toc,
+      .section-nav,
+      .nav__items {
+        display: block !important;
+        background-color: #ffffff;
+        padding: 0.75rem 1rem 1rem 1rem;
+
+        /* Tvinger alle underliggende listepunkter og lister til at blive vist */
+        ul, li, .toc__item {
+          display: block !important;
+          visibility: visible !important;
+          height: auto !important;
+          opacity: 1 !important;
+        }
+
+        ul {
+          padding-left: 1rem;
+          margin: 0;
+        }
+
+        li {
+          margin: 0.35rem 0;
+          font-size: 0.9em;
+        }
+
+        a {
+          display: inline-block !important;
+          color: #333333;
+          text-decoration: none;
+
+          &:hover {
+            color: #0284c7;
+            text-decoration: underline;
+          }
+        }
       }
     }
   }
