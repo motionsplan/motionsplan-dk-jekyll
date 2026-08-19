@@ -1,6 +1,6 @@
 ---
 title: Smidighedstræning – Den fysiologiske guide til bedre mobilitet
-seo_title: Smidighedstræning: Alt om fysiologi, stræktolerance og ROM
+seo_title: "Smidighedstræning: Alt om fysiologi, stræktolerance og ROM"
 description: Hvad bestemmer din smidighed, og hvordan træner du den bedst? Lær fysiologien bag nervøs stræktolerance, styrke i yderstilling og se vores øvelseskatalog.
 permalink: /smidighedstraening/
 language: da
