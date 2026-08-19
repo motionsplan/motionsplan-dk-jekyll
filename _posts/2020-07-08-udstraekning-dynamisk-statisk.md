@@ -1,6 +1,6 @@
 ---
 title: Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?
-seo_title: Dynamisk vs. statisk udstrækning: Forskelle, fordele og timing
+seo_title: "Dynamisk vs. statisk udstrækning: Forskelle, fordele og timing"
 description: Hvad er forskellen på dynamisk og statisk udstrækning? Lær hvornår du skal strække dynamisk i opvarmningen, og hvornår statisk stræk passer bedst.
 permalink: /dynamisk-og-statisk-udstraekning/
 language: da

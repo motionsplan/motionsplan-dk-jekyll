@@ -1,6 +1,6 @@
 ---
 title: PNF-udstrækning – Guide til neurofysiologi, tekniker og øvelser
-seo_title: PNF-udstrækning: Hold-Relax, autogen hæmning og effektiv smidighed
+seo_title: "PNF-udstrækning: Hold-Relax, autogen hæmning og effektiv smidighed"
 description: Alt om PNF-udstrækning (Proprioceptiv Neuromuskulær Facilitering). Lær hvordan Golgi-senetener, Hold-Relax og CRAC giver hurtige smidighedsresultater.
 permalink: /pnf-udstraekning/
 language: da
