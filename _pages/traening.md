@@ -119,7 +119,7 @@ Målret din træning med de helt rigtige øvelser for din krop:
 * **[Øvelser til ryggen](/rygoevelser/)** & **[Brystøvelser](/brystoevelser/)**.
 * **[Benøvelser](/benoevelser/)** & **[Balleøvelser](/balleoevelser/)**.
 * **[Skulderøvelser](/skulderoevelser/)** & **[Armøvelser (biceps & triceps)](/arme-triceps-biceps/)**.
-* **[Smidighed og udstrækning](/udstraekning-udspaending/)** & **[Balanceøvelser](/balancetraening/)**.
+* **[Smidighedstræning og mobilitet](/smidighedstraening/)** & **[Udstrækningsøvelser](/udstraekning-udspaending/)** & **[Balanceøvelser](/balancetraening/)**.
 </div>
 
 <div class="notice" markdown="1">

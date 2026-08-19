@@ -330,7 +330,7 @@ Læs: [Recovery Boots: Er vakuum bukser effektiv restitution?](/recovery-boots-r
 
 Foam rolling er en god måde at kick-starte restitutionsprocessen i slutningen af træningen, fordi den kan hjælpe kroppen med at sætte det parasympatiske nervesystem i gang hurtigere end det ellers ville have gjort.
 
-Læs: [Foamrolling og restitution](/foamrolling-foamroller-lacrossebolde/)
+Læs: [Foamrolling og restitution](/foamrolling/)
 {: .notice }
 
 ## Hvad sker der hvis jeg ikke restituerer ordentligt?

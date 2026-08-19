@@ -157,7 +157,7 @@ Velkommen til det samlede overblik over **{{ site.exercises.size }} træningsøv
     <p class="mp-category-excerpt">Dynamiske og statiske stræk for øget mobilitet.</p>
   </a>
 
-  <a href="/foamrolling-foamroller-lacrossebolde/" class="mp-category-card">
+  <a href="/foamrolling/" class="mp-category-card">
     <div class="mp-category-title">🎾 Foamrolling & SMR</div>
     <p class="mp-category-excerpt">Egenmassage, triggerpunkter og udspænding.</p>
   </a>

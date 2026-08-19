@@ -132,6 +132,33 @@ Formålet med [anaerob træning](/anaerob-traening/) er at stimulere den eksplos
 
 ---
 
+## 🧘‍♀️ Træningsmetoder til Smidighed og Mobilitet
+{: id="smidighed" }
+
+Metoder til at øge leddenes bevægeudslag (ROM), dæmpe nervesystemets spændingssignal (*muskeltonus*) og optimere bevægekvaliteten før eller efter træning.
+
+### 1. 🤸 Udstrækning og Udspænding
+{: id="udstraekningsmetoder" }
+
+Metoder designet til at øge stræktolerancen og udnytte reflexmekanismer i nervesystemet:
+* **[Smidighedstræning – Hovedguide](/smidighedstraening/)** – Den samlede fysiologiske guide til mobilitet og tilpasninger.
+* **[Dynamisk og statisk udstrækning](/dynamisk-og-statisk-udstraekning/)** – Rytmiske opvarmningsbevægelser vs. passive stræk til cool-down.
+* **[PNF-udstrækning](/pnf-udstraekning/)** – Avanceret udspænding baseret på isometrisk spænding og autogen hæmning.
+* **[Forskning og myter om udstrækning](/virker-udstraekning/)** – Videnskaben om stræktolerance, DOMS og maksimalstyrke.
+* **[Katalog over udstrækningsøvelser](/udstraekning-udspaending/)** – Billedguide og 22+ øvelser for hele kroppen.
+
+---
+
+### 2. 🪵 Self-Myofascial Release (SMR) og Punktmassage
+{: id="smr-metoder" }
+
+Metoder til akut dæmpning af muskeltonus og smertesignaler via mekanoreceptorer i huden og muskelvævet:
+* **[Virker foamrolling?](/virker-foamrolling/)** – Fysiologien bag SMR, Gate Control-teorien og myter om IT-båndet.
+* **[Foamrolling & skumrulle](/foamrolling/)** – Øvelsesguide og udstyrstips til store muskelgrupper.
+* **[Lacrosse bold & massagebold](/lacrosse-bold-massagebold/)** – Punktbehandling af dybe triggerpunkter og fascialinjer (Anatomy Trains).
+
+---
+
 ## 🔍 Søg i alle træningsmetoder (Kartotek)
 {: id="kartotek" }
 

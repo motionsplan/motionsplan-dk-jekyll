@@ -107,9 +107,10 @@ Cardiotræning styrker hjertet, forbedrer kredsløbet og øger kroppens fedtforb
 ### 🧘 3. Smidighed, mobilitet og kropskontrol
 Kropskontrol og fleksibilitet forebygger skader og skaber balance i bevægeapparatet.
 * **[Yoga og mindfulness](/yoga/)** – Kombination af fysiske stillinger, smidighed, vejrtrækning og mental ro.
+* **[Smidighedstræning](/smidighedstraening/)** – Den samlede hovedguide til fysiologi, mobilitet og SMR.
 * **[Udstrækning og udspænding](/udstraekning-udspaending/)** – Øvelser til forbedring af leddenes bevægelighed (ROM).
 * **[Balancetræning og core](/balancetraening/)** – Styrkelse af kropsstammen og den posturale kontrol.
-* **[Foam rolling](/foamrolling-foamroller-lacrossebolde/)** – Egenmassage til afspænding af muskler og fascievæv.
+* **[Foam rolling](/foamrolling/)** – Egenmassage til afspænding af muskler og fascievæv.
 </div>
 
 <div class="notice" markdown="1">
