@@ -4,6 +4,8 @@ seo_title: 'Intervalløb & Intervaltræning Løb: 10 Effektive Programmer'
 description: 'Vil du løbe hurtigere? Få 10 effektive intervalprogrammer til løb, lær om 10-20-30 metoden, bakkeintervaller og paceretningslinjer for løbere.'
 excerpt: 'Lær hvordan du opbygger din intervaltræning til løb med 10 effektive løbeprogrammer, tempotabeller og gennemtestede løbeintervaller.'
 permalink: /intervallob-intervaltraening/
+redirect_from:
+  - /hvor-langt-per-interval/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1483721310020-03333e577078.jpg
@@ -25,31 +27,40 @@ last_modified_at: '2026-07-14 15:35:00'
 toc: 'true'
 breadcrumb: 'true'
 faq:
-- question: Hvordan vælger jeg den rigtige intervaltræningsmetode?
-  answer: Valget afhænger af dine mål. Hvis du vil forbedre din sprint, kan korte, eksplosive intervaller være bedst. Hvis
-    du træner til et maraton, er længere tærskelintervaller mere relevante.
-- question: Hvor hurtigt skal jeg løbe mine intervaller?
-  answer: Intensiteten afhænger af formålet med træningen. For sprintintervaller bør du ligge tæt på din maksimale hastighed,
-    mens VO2-max-intervaller ofte løbes omkring 90-95 % af din maksimale kapacitet.
-- question: Hvordan undgår jeg skader ved intervalløb?
-  answer: Sørg for en grundig opvarmning, start med færre intervaller og øg gradvist intensiteten. Brug også restitutionstider
-    mellem træningerne for at minimere skadesrisiko.
-- question: Kan jeg kombinere intervalløb med styrketræning?
-  answer: Ja, men det kræver planlægning. Hvis du vil prioritere din løbepræstation, bør intervaltræning placeres før styrketræning
-    eller på separate dage.
-- question: Hvor hurtigt kan jeg forvente forbedringer med intervalløb?
-  answer: Mange oplever forbedringer i konditionen inden for 4-6 uger, men det afhænger af træningsmængde, intensitet og udgangspunkt.
-- question: Hvad er forskellen på HIIT og klassisk intervalløb?
-  answer: HIIT fokuserer ofte på korte, højintense perioder med minimal pause, mens klassisk intervalløb har længere intervaller
-    og mere strukturerede pauser.
-- question: Hvordan ved jeg, om jeg restituerer nok mellem intervalløb?
-  answer: Hvis du oplever vedvarende træthed, ømhed eller dalende præstation, kan det være tegn på utilstrækkelig restitution.
-    Sørg for at få nok søvn og justér træningsfrekvensen efter behov.
+  - question: Hvordan vælger jeg den rigtige intervaltræningsmetode?
+    answer: Valget afhænger af dine mål. Hvis du vil forbedre din sprint, kan korte, eksplosive intervaller være bedst. Hvis du træner til et maraton, er længere tærskelintervaller mere relevante.
+  - question: Hvor hurtigt skal jeg løbe mine intervaller?
+    answer: Intensiteten afhænger af formålet med træningen. For sprintintervaller bør du ligge tæt på din maksimale hastighed, mens VO2-max-intervaller ofte løbes omkring 90–95 % af din maksimale kapacitet.
+  - question: Hvordan undgår jeg skader ved intervalløb?
+    answer: Sørg for en grundig opvarmning, start med færre intervaller og øg gradvist intensiteten. Brug også restitutionstider mellem træningerne for at minimere skadesrisiko.
+  - question: Kan jeg kombinere intervalløb med styrketræning?
+    answer: Ja, men det kræver planlægning. Hvis du vil prioritere din løbepræstation, bør intervaltræning placeres før styrketræning eller på separate dage.
+  - question: Hvor hurtigt kan jeg forvente forbedringer med intervalløb?
+    answer: Mange oplever forbedringer i konditionen inden for 4–6 uger, men det afhænger af træningsmængde, intensitet og udgangspunkt.
+  - question: Hvad er forskellen på HIIT og klassisk intervalløb?
+    answer: HIIT fokuserer ofte på korte, højintense perioder med minimal pause, mens klassisk intervalløb har længere intervaller og mere strukturerede pauser.
+  - question: Hvordan ved jeg, om jeg restituerer nok mellem intervalløb?
+    answer: Hvis du oplever vedvarende træthed, ømhed eller dalende præstation, kan det være tegn på utilstrækkelig restitution. Sørg for at få nok søvn og justér træningsfrekvensen efter behov.
+  - question: Hvorfor er det en fordel at løbe tidsintervaller frem for faste distancer?
+    answer: Tidsintervaller (fx 4x4 minutter) gør det lettere at holde den korrekte fysiologiske intensitet og styre pauserne præcist – uanset om du løber i kuperet terræn, på løbebånd eller i en løbegruppe med forskelligt niveau.
+  - question: Hvordan ved jeg, hvor mange meter jeg skal løbe på et tidsinterval?
+    answer: Du beregner distancen ved at gange din intervaltid med dit mål-pace. Løber du fx et 4-minutters interval i et pace på 5:00 min/km (12 km/t), skal du tilbagelægge nøjagtigt 800 meter (hvilket svarer til 2 runder på en 400m bane).
+  - question: Hvordan omregner man pace (min/km) til hastighed (km/t) under intervaller?
+    answer: Du omregner pace til km/t ved at dividere 60 med dit pace i minutter. Et pace på 4:00 min/km svarer til 15 km/t (60 / 4), mens et pace på 5:00 min/km svarer til 12 km/t (60 / 5).
 keywords:
   - intervalløb
   - intervaltræning løb
   - intervalløb program
   - interval løb begynder
+tools:
+  - id: "tool-hvor-langt-per-interval-beregner"
+    title: "Intervaldistance Beregner"
+    description: "Beregn hvor mange meter du skal løbe på dit tidsinterval ud fra din løbehastighed (pace i min/km) og din valgte intervaltid."
+    category: ["Løb"]
+    type: ["Beregner"]
+    measures: ["Intervaldistance", "Løbedistance", "Pace", "Intervaltid"]  # 🎯 Nøjagtige output-parametre fra beregneren
+    anchor: "#calculator"
+    category_schema: "HealthAndFitnessApplication"
 ---
 
 Jeg bruger selv **intervalløb**, når jeg vil flytte min løbeform, forbedre min kondition og få flere kilometer i benene med høj fart. Intervaller er en uundværlig del af et struktureret løbeprogram.
@@ -101,7 +112,16 @@ En meget populær og effektiv måde at flytte sin maksimale iltoptagelse er at l
 
 Når eleverne løber med forskellig hastighed, er det sandsynligt at de træner noget forskelligt. De får i hvert fald en forskellig træningsmængde, hvor dem der løber lidt langsommere kommer til at træne længere tid.
 
-Hvis du bruger [Jack Daniels Løbsberegner](/loebesiden-jack-daniels-loebeberegner/), så får du et tempo, du skal holde i intervallerne. Jeg har lavet en beregner, som kan [omregne fra hastighed i min/km](/hastighed/) til, [hvor langt du skal løbe på et tidsinterval her](/hvor-langt-per-interval/).
+Hvis du bruger [Jack Daniels Løbsberegner](/loebesiden-jack-daniels-loebeberegner/), så får du et tempo, du skal holde i intervallerne. Jeg har lavet en beregner, som kan [omregne fra hastighed i min/km](/hastighed/), og du kan bruge beregneren nedenunder til, hvor langt du skal løbe på et tidsinterval.
+
+### Beregn hvor langt du skal løbe på dit tidsinterval
+{: id="calculator" }
+
+Brug beregneren til at udregne distancen i meter ud fra din intervaltid og dit udregnede pace (min/km) eller din hastighed (km/t):
+
+{% include components/calculate-how-long-timed-interval.html %}
+
+**Har du brug for flere beregnere?** Gå til vores [oversigt over alle løbeværktøjer](/loebesiden/#beregnere) og se, hvad der ellers kan hjælpe dig.
 
 ## Typer af intervaltræning til løb
 

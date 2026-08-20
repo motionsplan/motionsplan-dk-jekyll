@@ -107,7 +107,7 @@ Dette er en opdateret version af den klassiske beregner til aldersgraduerede lø
 
 Hvis du også vil tage højde for kropsvægt ud over alderen, kan du prøve vores [Flyer Handicap beregner for løbetider med alder og vægt](/flyer-handicap/).
 
-**Find endnu flere smarte beregnere** ved at udforske vores [komplette oversigt over løbeværktøjer](/loeb/vaerktoejer/).
+**Find endnu flere smarte beregnere** ved at udforske vores [komplette oversigt over løbeværktøjer](/loebesiden/#beregnere).
 
 ## Ofte stillede spørgsmål
 

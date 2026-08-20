@@ -1,6 +1,8 @@
 ---
 layout: single
 permalink: /loebesiden/
+redirect_from:
+  - /loeb/vaerktoejer/
 title: "Løbeguide: Alt om løb og løbetræning"
 seo_title: "Løbetræning & Løb – Komplet guide til bedre løbeform"
 description: "Den ultimative guide til løb og løbetræning. Få strukturerede løbeprogrammer, lær om intervalløb og pulstræning, brug vores løbeberegnere og undgå skader."
@@ -15,7 +17,7 @@ header:
     - label: "<i class='fas fa-running'></i> Løbeprogrammer"
       url: "/loebeprogrammer/"
     - label: "<i class='fas fa-calculator'></i> Løbeværktøjer"
-      url: "/loeb/vaerktoejer/"
+      url: "#beregnere"
     - label: "<i class='fas fa-stopwatch'></i> Løbetests"
       url: "/tests/loeb/"
 classes: wide
@@ -25,67 +27,21 @@ categories:
   - Træning
 tag:
   - træningsformer
-
-feature_row_guide_running:
-  - image_path: /assets/images/unsplash/photo-1529795533870-ea8020391255.jpg
-    credit: https://images.unsplash.com/photo-1529795533870-ea8020391255
-    alt: "Guide: Kom godt i gang med løbetræningen"
-    title: "Guide: Kom godt i gang med løbetræningen"
-    excerpt: "Vil du gerne i gang med at løbe, eller søger du inspiration til at strukturere din træning? Lær hvordan du lægger en realistisk plan uden overbelastning."
-    url: /artikel/kom-i-gang-med-loebetraeningen/
-    btn_label: "Læs opstartsguiden →"
-    btn_class: btn--success
-
-feature_row_choose_program:
-  - image_path: /assets/images/unsplash/photo-1594911772125-07fc7a2d8d9f.jpg
-    credit: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f
-    alt: "Løbeprogrammer til alle distancer"
-    title: "Løbeprogrammer til alle niveauer"
-    excerpt: "Et godt løbeprogram hjælper dig med at bygge distancen op trin for trin. Vi har løbetræningsprogrammer til 5 km, 10 km, halvmaraton og maraton."
-    url: /loebeprogrammer/
-    btn_label: "Se alle løbeprogrammer →"
-    btn_class: btn--info
-
-feature_row_how_fast:
-  - image_path: /assets/images/unsplash/photo-1529795533870-ea8020391255.jpg
-    credit: https://images.unsplash.com/photo-1529795533870-ea8020391255
-    alt: "Jack Daniels Løbeberegner"
-    title: "Løbeberegner & Daniels VDOT"
-    excerpt: "Beregn dit trænigstempo og forudsagte konkurrencetider med vores interaktive løbeberegner baseret på Jack Daniels' Running Formula."
-    url: /loebesiden-jack-daniels-loebeberegner/
-    btn_label: "Brug løbeberegneren →"
-    btn_class: btn--primary
-
-feature_row_cooper_test:
-  - image_path: /assets/images/unsplash/photo-1496163668521-39614a16b23f.jpg
-    credit: https://images.unsplash.com/photo-1496163668521-39614a16b23f
-    alt: "Cooper-test 12 minutters løbetest"
-    title: "Cooper-test (12 min løbetest)"
-    excerpt: "Cooper-testen er en klassisk 12-minutters løbetest. Brug vores beregner og normskema til at estimere dit kondital ud fra tilbagelagt distance."
-    url: /cooper-test/
-    btn_label: "Tag Cooper-testen →"
-    btn_class: btn--warning
-
-feature_row_calories_running:
-  - image_path: /assets/images/unsplash/photo-1496163668521-39614a16b23f.jpg
-    credit: https://images.unsplash.com/photo-1496163668521-39614a16b23f
-    alt: "Kalorieforbrænding ved løb og gang"
-    title: "Hvor mange kalorier forbrænder du ved løb?"
-    excerpt: "Se hvordan energiforbruget hænger sammen ved henholdsvis gang og løb, og beregn hvor meget du forbrænder pr. kilometer."
-    url: /loeb-mere-energi-gang/
-    btn_label: "Læs om løb & kalorier →"
-    btn_class: btn--info
 ---
 
 Velkommen til **Løbesiden** – vores samlede portal om løb og løbetræning. Uanset om dit mål er at komme i gang med din første løbetur, forbedre din personlige rekord på 5 km, eller gennemføre et maraton, finder du viden, beregnere og træningsplaner her.
 
 ---
 
-> ## Start her: Find det du mangler
-> * **Ny løber?** Læs vores teori og guide til [løb for begyndere](/artikel/kom-i-gang-med-loebetraeningen/).
-> * **Klar til en plan?** Følg vores [løbeprogram for begyndere](/loebeprogram-begyndere/).
-> * **Vil du nørde strukturen?** Læs om de vigtigste [træningsprincipper og progression i løb](/traeningsprincipper-loeb/).
-{: .notice--info }
+<div class="notice--info" markdown="1">
+
+**Start her: Find det du mangler**
+
+* **Ny løber?** Læs vores teori og guide til [løb for begyndere](/artikel/kom-i-gang-med-loebetraeningen/).
+* **Klar til en plan?** Følg vores [løbeprogram for begyndere](/loebeprogram-begyndere/).
+* **Vil du nørde structures?** Læs om de vigtigste [træningsprincipper og progression i løb](/traeningsprincipper-loeb/).
+
+</div>
 
 ---
 
@@ -94,10 +50,15 @@ Velkommen til **Løbesiden** – vores samlede portal om løb og løbetræning. 
 
 Er du ny løber, er den største udfordring at udvise tålmodighed. Sener og led kræver længere tid til at tilpasse sig belastningen end dit kredsløb.
 
-{% include feature_row id="feature_row_guide_running" type="left" %}
+<div class="notice--success" markdown="1">
 
-* 🚶‍♂️ **[Lær at skifte mellem gang og løb](/artikel/kom-i-gang-med-loebetraeningen/)** – Den sikreste start for nybegyndere.
-* 🏃‍♂️ **[Lær at løbe hurtigere](/loeb-hurtigere/)** – Principper for hastighedsændring og kadence.
+**🚀 Kom godt fra start**
+
+* 📘 **[Guide: Kom godt i gang med løbetræningen](/artikel/kom-i-gang-med-loebetraeningen/)** – Lær at lægge en realistisk plan uden overbelastning og forebyg skader fra start.
+* 🚶‍♂️ **[Skift mellem gang og løb](/artikel/kom-i-gang-med-loebetraeningen/)** – Den mest skånsomme og effektive metode for nybegyndere.
+* 🏃‍♂️ **[Lær at løbe hurtigere](/loeb-hurtigere/)** – Principper for hastighedsændring, kadence og løbeteknik.
+
+</div>
 
 ---
 
@@ -106,23 +67,29 @@ Er du ny løber, er den største udfordring at udvise tålmodighed. Sener og led
 
 Følg en målrettet træningsplan for at sikre den rette progression og restitution i din træning:
 
-{% include feature_row id="feature_row_choose_program" type="left" %}
+<div class="notice--warning" markdown="1">
 
-<div class="notice--info" markdown="1">
-### 🎯 Gå direkte til programmer for din distance:
-* 🏃 **[5 km løbeprogrammer](/loebeprogram-5km/)** – Til begyndere og letøvede.
-* 🏃‍♀️ **[10 km løbeprogrammer](/loebeprogram-10km/)** – Byg mere udholdenhed og fart på.
-* 🥇 **[Halvmaraton programmer (21,1 km)](/loebeprogram-halvmaraton-21km/)** – Træning til længere distancer.
-* 🏆 **[Maraton programmer (42,2 km)](/loebeprogram-maraton-42km/)** – Den ultimative udholdenhedstest.
-* 🛠️ **[Lav dit eget løbeprogram](/guide-til-loebeprogram/)** – 5 enkle trin til at planlægge din egen løbetræning.
+**🎯 Find løbeprogram til din distance**
+
+* 🏃 **[5 km løbeprogrammer](/loebeprogram-5km/)** – Målrettede programmer til begyndere og letøvede.
+* 🏃‍♀️ **[10 km løbeprogrammer](/loebeprogram-10km/)** – Byg udholdenhed og tempo på distancen.
+* 🥇 **[Halvmaraton programmer (21,1 km)](/loebeprogram-halvmaraton-21km/)** – Struktureret træning til længere løb.
+* 🏆 **[Maraton programmer (42,2 km)](/loebeprogram-maraton-42km/)** – Den ultimative udholdenhedsplan.
+* 📋 **[Oversigt over alle løbeprogrammer](/loebeprogrammer/)** – Se hele vores katalog af færdige træningsprogrammer.
+* 🛠️ **[Lav dit eget løbeprogram](/guide-til-loebeprogram/)** – 5 enkle trin til at strukturere din egen træning.
+
 </div>
 
 ---
 
-## ⚡ 3. Træningsmetoder, Teknik & Fart
+## ⚡ 3. Træningsmetoder, teknik & fart
 {: id="teknik-metoder" }
 
 Gør din træning mere varieret og effektiv ved at kombinere forskellige træningsformer og fokusere på din løbestil:
+
+<div class="notice--danger" markdown="1">
+
+**⏱️ Metoder og fysiologi**
 
 * ⏱️ **[Intervalløb & Intervaltræning](/intervallob-intervaltraening/)** – Øg din $\text{VO}_2\text{-max}$ og tophastighed.
 * 💓 **[Pulstræning & Zoner](/pulstraening/)** – Styring af træningsintensitet ud fra din puls.
@@ -130,29 +97,49 @@ Gør din træning mere varieret og effektiv ved at kombinere forskellige trænin
 * 🔋 **[Løbeøkonomi](/lobeokonomi/)** – Lær hvordan du bruger mindre energi ved samme løbetempo.
 * 🧠 **[Træningsfilosofier til løb](/traeningsfilosofier-loeb/)** – Oversigt over kendte systemer (fx Daniels, Lydiard og polariseret træning).
 
+</div>
+
 ---
 
-## 🧮 4. Løbeberegnere & Værktøjer
+## 🧮 4. Løbeberegnere & Løbeværktøjer
 {: id="beregnere" }
 
-Udnyt data til at kende dine nøjagtige træningstempi og udregne dit energiforbrug:
+Brug vores søgeboks eller slå op i tabellen for at finde den præcise beregner til din løbetræning:
 
-{% include feature_row id="feature_row_how_fast" type="left" %}
+{% include table/filter-table-beregnere.html 
+   category="Løb" 
+   label="løbeberegnere" 
+   placeholder="Søg i løbeberegnere (fx pace, VDOT, cooper, kalorier)..." 
+   widget_id="run-calc" %}
 
-{% include feature_row id="feature_row_calories_running" type="left" %}
+<div class="notice--primary" markdown="1">
 
-👉 **[Se alle vores løbeværktøjer og pace-beregnere »](/loeb/vaerktoejer/){: .btn .btn--info }**
+**📊 Mest populære beregnere**
+
+* ⏱️ **[Jack Daniels Løbeberegner (VDOT)](/loebesiden-jack-daniels-loebeberegner/)** – Beregn dit præcise træningstempo og forudsagte konkurrencetider.
+* ⚡ **[Hastigheds- og Paceberegner](/hastighed/)** – Omregn nemt mellem km/t, min/km (pace) og sluttider.
+* 🔥 **[Kalorieforbrænding ved løb og gang](/loeb-mere-energi-gang/)** – Se hvordan energiforbruget hænger sammen og beregn dit forbrug pr. km.
+
+</div>
 
 ---
 
 ## 🧪 5. Løbetests & Formtjek
 {: id="tests" }
 
-Mål din fremgang med videnskabelige feltbaserede tests:
+Mål din fremgang med videnskabelige og feltbaserede løbetests:
 
-{% include feature_row id="feature_row_cooper_test" type="left" %}
+<div class="notice--info" markdown="1">
 
-👉 **[Se samlet katalog over løbetests (Bip-test, Yo-Yo test osv.) »](/tests/loeb/){: .btn .btn--warning }**
+**⏱️ Mål din løbeform**
+
+* 🏃 **[Cooper-test (12 min løbetest)](/cooper-test/)** – Den klassiske maksimaltest. Beregn dit kondital ud fra tilbagelagt distance.
+* 🔊 **[Bip-test (Shuttle Run)](/bip-test/)** – Højintensiv udholdenhedstest med stigende tempo.
+* ⚽ **[Yo-Yo test](/yoyo-test/)** – Test din evne til at restituere under gentagne, intense ryk.
+
+</div>
+
+👉 **[Se det samlede katalog over alle løbetests »](/tests/loeb/){: .btn .btn--warning .btn--large }**
 
 ---
 
@@ -161,5 +148,11 @@ Mål din fremgang med videnskabelige feltbaserede tests:
 
 Hold dig skadesfri ved at bygge stærkere muskler og sener omkring leddene:
 
+<div class="notice--danger" markdown="1">
+
+**🩹 Styrke og genoptræning**
+
 * 🏋️‍♂️ **[Styrketræning for løbere](/styrketraening-til-loeb/)** – De vigtigste øvelser for bagkæde, lår og core.
 * 🩹 **[Undgå løbeskader](/artikel/loebeskader-loebe-uden-skader/)** – Guides til genkendelse og forebyggelse af typiske overbelastningsskader (som skindebensbetændelse og løberknæ).
+
+</div>

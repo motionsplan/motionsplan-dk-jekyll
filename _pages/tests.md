@@ -69,11 +69,15 @@ Uanset om du vil måle dit kondital, din trækstyrke, din løbekapacitet eller d
 {: .notice--info}
 **Leder du efter en helt specifik test?** Åbn tabellen herunder for at søge og filtrere på tværs af alle vores fysiske og psykologiske måleværktøjer.
 
-{% include table/filter-table-tests.html %}
+{% include table/filter-table-tests-v2.html 
+   category="Tests" 
+   label="tests" 
+   placeholder="Søg i alle tests (fx Cooper, Bip-test, Yo-Yo, VO2-max)..." 
+   pills="Løb, Cykling, Roning, Sprint, Spring" %}
 
 ---
 
-## Alle Testkategorier
+## Alle testkategorier
 {: id="kategorier" }
 
 Vælg den relevante kategori herunder for at gå direkte til vores uddybende guides, normtabeller og interaktive timere.
@@ -83,6 +87,15 @@ Vælg den relevante kategori herunder for at gå direkte til vores uddybende gui
 Mål din maksimale iltoptagelse ($\text{VO}_2\text{-max}$), dit kondital og din generelle udholdenhed. Vi har samlet både direkte laboratorietests og feltbaserede indirekte tests.
 
 [Se alle konditionstests »](/kondition/tests/){: .btn .btn--success }
+</div>
+
+<div class="notice" markdown="1">
+
+### 🏋️‍♂️💪 Styrketests
+Mål din maksimale muskelstyrke (1RM), muskulære udholdenhed og kernestabilitet med enkle og effektive felt- og laboratorietests.
+
+[1RM Beregner »](/rm-beregner/){: .btn .btn--primary } [Armstrækningstest »](/armstraekninger-test/){: .btn .btn--primary } [IMTPt »](/imtp-test/){: .btn .btn--primary }
+
 </div>
 
 <div class="notice--info" markdown="1">

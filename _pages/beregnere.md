@@ -65,7 +65,7 @@ Få overblik over din kropsbygning, ideelle vægt og sundhedsindikatorer.
 <div class="notice--warning" markdown="1">
 ### 🏃‍♂️📊 Løb & Kondition
 Optimér din løbetræning, hastighed og udholdenhed med vores løbeberegnere.
-* **[Oversigt over Løbeværktøjer & Beregnere](/loeb/vaerktoejer/)** – Samlet overblik over løberelevante beregnere.
+* **[Oversigt over Løbeværktøjer & Beregnere](/loebesiden/#beregnere)** – Samlet overblik over løberelevante beregnere.
 * **[Løbeberegner, Jack Daniels og VDOT](/loebesiden-jack-daniels-loebeberegner/)** – Beregn dit kondital ud fra dine testresultater.
 * **[Konditionstests & VO2-max](/kondition/tests/)** – Beregn dit kondital ud fra dine testresultater.
 * **[Paceberegner](/hastighed/)** – Beregn din hastighed og dit pace.

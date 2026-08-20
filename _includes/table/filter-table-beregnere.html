@@ -1,4 +1,22 @@
-{% assign tool_posts = site.posts | where_exp: "post", "post.tools.size > 0" | where_exp: "post", "post.url != page.url" | sort: "title" %}
+{% comment %}
+  Parametre du kan sende med:
+  - category: fx "Løb" (filtrerer på kategorier og tags)
+  - label: fx "løbeberegnere" (standard: "beregnere")
+  - placeholder: fx "Søg i løbeberegnere..."
+  - widget_id: unikt ID hvis der er flere tabeller på samme side (standard: "calc")
+{% endcomment %}
+
+{% assign widget_id = include.widget_id | default: "calc" %}
+{% assign label_text = include.label | default: "beregnere" %}
+{% assign placeholder_text = include.placeholder | default: "Søg i alle beregnere (fx watt, kcal, ratio, cda)..." %}
+
+{% assign all_tool_posts = site.posts | where_exp: "post", "post.tools.size > 0" | where_exp: "post", "post.url != page.url" %}
+
+{% if include.category %}
+  {% assign tool_posts = all_tool_posts | where_exp: "post", "post.categories contains include.category or post.tags contains include.category" | sort: "title" %}
+{% else %}
+  {% assign tool_posts = all_tool_posts | sort: "title" %}
+{% endif %}
 
 {% assign total_tools = 0 %}
 {% for post in tool_posts %}
@@ -6,7 +24,7 @@
 {% endfor %}
 
 {% if total_tools > 0 %}
-<div class="calc-table-widget">
+<div class="calc-table-widget" id="{{ widget_id }}-widget">
   
   <!-- STRØMLINET SØGEBAR OG KNAP -->
   <div class="calc-search-bar">
@@ -17,21 +35,21 @@
       </svg>
       <input 
         type="text" 
-        id="calc-filter-input" 
+        id="{{ widget_id }}-filter-input" 
         class="calc-filter-input" 
-        placeholder="Søg i alle beregnere (fx watt, kcal, ratio, cda)..." 
+        placeholder="{{ placeholder_text }}" 
         autocomplete="off"
       >
     </div>
-    <button type="button" id="calc-toggle-btn" class="calc-toggle-btn">
-      <span>Vis alle beregnere ({{ total_tools }})</span>
+    <button type="button" id="{{ widget_id }}-toggle-btn" class="calc-toggle-btn">
+      <span>Vis alle {{ label_text }} ({{ total_tools }})</span>
       <span class="calc-btn-arrow">▼</span>
     </button>
   </div>
 
   <!-- TABEL (SKJULT SOM STANDARD) -->
-  <div id="calc-table-wrapper" class="calc-table-wrapper" style="display: none;">
-    <table id="calc-table" class="calc-table">
+  <div id="{{ widget_id }}-table-wrapper" class="calc-table-wrapper" style="display: none;">
+    <table id="{{ widget_id }}-table" class="calc-table">
       <thead>
         <tr class="header">
           <th>Beregner / Værktøj</th>
@@ -52,8 +70,8 @@
       </tbody>
     </table>
 
-    <div id="calc-no-results-msg" class="calc-no-results-msg" style="display: none;">
-      Ingen beregnere matchede din søgning.
+    <div id="{{ widget_id }}-no-results-msg" class="calc-no-results-msg" style="display: none;">
+      Ingen {{ label_text }} matchede din søgning.
     </div>
   </div>
 
@@ -78,7 +96,6 @@
   }
 }
 
-/* INPUT CONTAINER MED ABSOLUT IKON */
 .calc-input-wrapper {
   position: relative;
   flex: 1;
@@ -97,8 +114,8 @@
 
 .calc-filter-input {
   width: 100%;
-  height: 46px; /* Matcher knappens højde præcist */
-  padding: 0 16px 0 42px !important; /* Ekstra plads til venstre så teksten aldrig overlapper */
+  height: 46px;
+  padding: 0 16px 0 42px !important;
   border: 1px solid #cbd5e1;
   border-radius: 10px;
   font-size: 0.95rem;
@@ -120,9 +137,8 @@
   stroke: #2563eb;
 }
 
-/* TOGGLE-KNAP */
 .calc-toggle-btn {
-  height: 46px; /* Matcher input-højden præcist */
+  height: 46px;
   padding: 0 18px;
   background: #f8fafc;
   border: 1px solid #cbd5e1;
@@ -159,7 +175,6 @@
   transition: transform 0.2s;
 }
 
-/* TABEL STYLING */
 .calc-table-wrapper {
   background: #ffffff;
   border: 1px solid #e2e8f0;
@@ -206,12 +221,14 @@
 
 <script>
 (function() {
-  const input = document.getElementById("calc-filter-input");
-  const wrapper = document.getElementById("calc-table-wrapper");
-  const table = document.getElementById("calc-table");
-  const toggleBtn = document.getElementById("calc-toggle-btn");
+  const widgetId = "{{ widget_id }}";
+  const labelText = "{{ label_text }}";
+  const input = document.getElementById(widgetId + "-filter-input");
+  const wrapper = document.getElementById(widgetId + "-table-wrapper");
+  const table = document.getElementById(widgetId + "-table");
+  const toggleBtn = document.getElementById(widgetId + "-toggle-btn");
   const arrow = toggleBtn ? toggleBtn.querySelector(".calc-btn-arrow") : null;
-  const noResults = document.getElementById("calc-no-results-msg");
+  const noResults = document.getElementById(widgetId + "-no-results-msg");
 
   if (!input || !wrapper || !table) return;
 
@@ -261,7 +278,7 @@
       if (input.value.trim() === "") {
         wrapper.style.display = "none";
       }
-      toggleBtn.querySelector("span").innerText = "Vis alle beregnere (" + rows.length + ")";
+      toggleBtn.querySelector("span").innerText = "Vis alle " + labelText + " (" + rows.length + ")";
       if(arrow) arrow.innerText = "▼";
     }
   });

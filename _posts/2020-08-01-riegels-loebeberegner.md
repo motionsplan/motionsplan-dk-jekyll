@@ -66,7 +66,7 @@ Riegels formel giver dig et simpelt estimat af dine løbetider, men hvis du vil 
 
 Er du klar til at udfordre dig selv med præcise træningstider? Gå videre til vores [hastighedsberegner](/hastighed/) og find din ideelle træningszone.
 
-**Få flere værktøjer til din løbetræning!** Besøg vores [samlede oversigt over løbeberegnere](/loeb/vaerktoejer/) og find præcis det, du har brug for.  
+**Få flere værktøjer til din løbetræning!** Besøg vores [samlede oversigt over løbeberegnere](/loebesiden/#beregnere) og find præcis det, du har brug for.  
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

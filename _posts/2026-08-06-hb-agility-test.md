@@ -89,7 +89,7 @@ For at sikre korrekte og sammenlignelige testresultater skal protokollen følges
 ### Forberedelse
 * Testpersonen udfører en grundig, standardiseret opvarmning, før testen igangsættes.
 
-### Afvikling af løberækkefølgen:
+### Afvikling af løberækkefølgen
 1. **Udgangsstilling:** Testpersonen stiller sig ved startkeglen og placerer den ene hånd på keglen.
 2. **Start:** Tiden startes i samme øjeblik, som testpersonens hånd slipper startkeglen.
 3. **Trin 1:** Testpersonen løber ind og rører ved den nærmeste målstolpe.
@@ -102,7 +102,7 @@ For at sikre korrekte og sammenlignelige testresultater skal protokollen følges
 
 ---
 
-## Tidtagning og Afvikling
+### Tidtagning og afvikling
 
 For at opnå maksimal præcision i målingen anvendes en særlig tidtagningsprocedure:
 
@@ -110,7 +110,7 @@ For at opnå maksimal præcision i målingen anvendes en særlig tidtagningsproc
 * **Start og stop:** Alle ure startes, når startkeglen slippes, og stoppes, når testpersonens krop passerer 7-meter linjen.
 * **Registrering af tid:** Den *midterste tid* af de tre stopure noteres som gældende resultat for forsøget.
 
-### Forsøg og pauser:
+### Forsøg og pauser
 * Testpersonen har som udgangspunkt **tre forsøg**.
 * Der skal være **3–5 minutters pause** mellem hvert forsøg for at sikre fuld anaerob restitution.
 * Hvis det 3. forsøg er det bedste, tildeles testpersonen ekstra forsøg, indtil der ikke længere opnås en tidsmæssig forbedring.
@@ -125,7 +125,7 @@ For at opnå maksimal præcision i målingen anvendes en særlig tidtagningsproc
 
 ---
 
-## Reproducerbarhed og Fejlkilder
+## Reproducerbarhed og fejlkilder
 
 For at testen skal have høj **reproducerbarhed** (test-retest reliabilitet), er det helt afgørende, at testbetingelserne er identiske fra gang til gang:
 
@@ -135,14 +135,20 @@ For at testen skal have høj **reproducerbarhed** (test-retest reliabilitet), er
 
 ---
 
-{: .notice .notice--info }
-> **Relaterede agility- og hurtighedstests på motionsplan.dk:**  
-> * **[Illinois Agility Test](/illinois-agility-test/):** Klassisk agilitytest med kegleslalom over længere distancer.  
-> * **[10m & 30m Sprinttest](/tests/sprint/):** Måling af lineær startacceleration og maksimal tophastighed.  
-> * **[30-15 Intermittent Fitness Test](/30-15-intermittent-fitness-test/):** Intervalløbestest med indbyggede retningsskift til holdidræt.
+<div class="notice--info" markdown="1">
+
+**Relaterede agility- og hurtighedstests**  
+
+* **[Illinois Agility Test](/illinois-agility-test/):** Klassisk agilitytest med kegleslalom over længere distancer.  
+* **[10m & 30m Sprinttest](/tests/sprint/):** Måling af lineær startacceleration og maksimal tophastighed.  
+* **[30-15 Intermittent Fitness Test](/30-15-intermittent-fitness-test/):** Intervalløbestest med indbyggede retningsskift til holdidræt.
+</div>
 
 ---
 
-## Kilder og Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
-1. **Gyldendal / Din Idræt C.** *Håndbold-agility-testen (Øvelses- og testkatalog)*, side 23–24. Illustration af Jørgen Strunge.
+- **Gyldendal / Din Idræt C.** *Håndbold-agility-testen (Øvelses- og testkatalog)*, side 23–24. Illustration af Jørgen Strunge.
+
+</div>

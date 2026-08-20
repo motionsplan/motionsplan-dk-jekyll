@@ -209,7 +209,9 @@ På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange me
 
 Du skal også huske at normalvægtige personer ikke nødvendigvis har en sund krop. Man kan godt holde sig inden for grænserne for normalvægt, men stadig have en fedtprocent, der er for høj i forhold til sin sundhed.
 
-{% include motionsplan/lead-magnet.html %}
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

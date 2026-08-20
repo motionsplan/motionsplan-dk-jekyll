@@ -100,7 +100,7 @@ I stedet for kun at se på det rå stopur tager Flyer Handicap-modellen højde f
 Vil du udforske andre vinkler på dine løbetider?
 * **[Aldersgraduerede løbetider](/aldersgraduerede-tider/)** – Sammenlign din løbetid udelukkende baseret på din alder.
 * **[Vægttab og løbetid](/vaegttab-loebetid/)** – Se hvor mange sekunder du skærer af kilometerprisen ved et vægttab.
-* **[Samlet oversigt over løbeværktøjer](/loeb/vaerktoejer/)** – Se alle vores beregnere og tests.
+* **[Samlet oversigt over løbeværktøjer](/loebesiden/#beregnere)** – Se alle vores beregnere og tests.
 
 ## Ofte stillede spørgsmål
 

@@ -194,7 +194,7 @@ Det gør virkelig en forskel i din træning, om du rammer den rigtige intensitet
 
 Når du løber de planlagte langsommere ture med lav intensitet, giver det god mening at kende dit tempo, så din løbehastighed ikke bliver for høj.
 
-Det giver også god mening at vide, hvilken hastighed du skal løbe under dine [intervaller og intervalløb](/intervallob-intervaltraening/). Du kan også beregne, [hvor langt du skal løbe på et interval](/hvor-langt-per-interval/).
+Det giver også god mening at vide, hvilken hastighed du skal løbe under dine [intervaller og intervalløb](/intervallob-intervaltraening/). Du kan også beregne, [hvor langt du skal løbe på et interval](/intervallob-intervaltraening/#calculator).
 
 ---
 

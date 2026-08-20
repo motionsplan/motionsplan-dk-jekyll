@@ -19,21 +19,11 @@ header:
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
   - label: <i class='fas fa-calculator'></i> Gå til oversigten
-    url: /tests/loeb/#l%C3%B8betests---samlet-oversigt
+    url: /tests/loeb/#oversigt
   - label: <i class='fas fa-tools'></i> Se løbeberegnere
-    url: /loeb/vaerktoejer/
+    url: "/loebesiden/#beregnere"
 breadcrumbs: 'true'
 classes: wide
-feature_row_loebesiden:
-- image_path: /assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg
-  credit: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0
-  alt: Løb og løbetræning
-  title: Guide til løb og løbetræning
-  excerpt: På løbesiden kan du finde masser af ressoucer og tips og tricks fra eksperter på, hvordan du kan planlægge din
-    løbetræning, så du får resultater.
-  url: /loebesiden/
-  btn_label: Læs mere om løb
-  btn_class: btn--success
 feature_row_cooper_test:
 - image_path: /assets/images/unsplash/photo-1496163668521-39614a16b23f.jpg
   credit: https://images.unsplash.com/photo-1496163668521-39614a16b23f
@@ -44,6 +34,7 @@ feature_row_cooper_test:
   url: /cooper-test/
   btn_label: Prøv Cooper-testen
   btn_class: btn--info
+mathjax: true
 ---
 
 Løbetests er en effektiv måde at måle din kondition, overvåge din træningsfremgang og sætte realistiske mål.
@@ -52,7 +43,7 @@ Uanset om du vil teste din maksimale iltoptagelse, udholdenhed eller sprintkapac
 
 På denne side får du en komplet oversigt over de mest anvendte løbetests, deres formål og hvordan du udfører dem korrekt.
 
-Hvis du er på udkig efter beregnere til hastighed eller pulszoner, så kan du se vores [oversigt over løbeværktøjer og beregnere](/loeb/vaerktoejer/).
+Hvis du er på udkig efter beregnere til hastighed eller pulszoner, så kan du se vores [oversigt over løbeværktøjer og beregnere](/loebesiden/#beregnere).
 
 ## Typer af løbetests
 
@@ -68,18 +59,15 @@ De første tre kategorier kan du finde mange eksempler i den nedenstående tabel
 Jeg håber, at du kan få et godt overblik over, hvilken løbetest, der passer dig!
 
 ## Løbetests - samlet oversigt
+{: id="oversigt" }
 
 Her har du en oversigt over alle de forskellige måder du kan teste din kondition på, så du kan vælge hvilken test, der passer bedst til dig.
 
-{% assign site_posts = site.posts | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% if site_posts.size > 0 %}
-| Test | Måler | Udstyr | Hårdhed | Målgruppe |
-|------|-------|--------|------|---------|-----------|
-  {%- for post in site_posts %}
-| [{{ post.meta.name | default: post.title  }}]({{ post.url }}) | {{ post.meta.measures }} | {{ post.meta.equipment }} | {{ post.meta.max }} | {{ post.meta.target | default: "voksne" }} |
-  {%- endfor %}
-{% endif %}
+{% include table/filter-table-tests-v2.html 
+   category="Løb" 
+   label="løbetests" 
+   placeholder="Søg i løbetests (fx Cooper, Bip-test, Yo-Yo, VO2-max)..." 
+   pills="Kondition, Maksimal, Submaksimal, Felt, Laboratorie, Sprint" %}
 
 ## De mest populære løbetests
 
@@ -97,51 +85,48 @@ Hvis du ikke helt kan overskue, hvor du skal starte, så kan du se de mest popul
 
 </div>
 
-## Konditionstests til løb
+## 🎯 Hvordan vælger du den rette løbetest?
 
-Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen.
+Valget af løbetest afhænger af dine personlige mål, dit nuværende træningsniveau, og hvor tæt du ønsker at presse kroppen til din maksimale ydeevne.
 
-Det er altid interessant at teste sin kondition, sin [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og sit [kondital](/kondital/). Her har jeg samlet alle løbetests til at teste din kondition.
+Det er altid interessant at følge sin fremgang ved regelmæssigt at teste sit [kondital](/kondital/) og sin [maksimale iltoptagelse ($\text{VO}_2\text{max}$)](/maksimale-iltoptagelse-vo2max/). 
 
-Bliv klogere på [konditionstests generelt](/kondition/tests/)
-{: .notice }
+> 💡 **Vil du nørde teorien?** Bliv klogere på grundprincipperne bag [konditionstests generelt](/kondition/tests/).
 
-Men hvilke konditionstest er egentlig bedst til løb? Få svaret her!
+---
 
-{% include feature_row id="feature_row_cooper_test" type="left" %}
+<div class="notice--info" markdown="1">
 
-Her kan du se alle de løbetests, som tester din kondition eller hastighed ved din maksimale iltoptagelse.
+### 📋 Vælg ud fra dit primære formål:
 
-{% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "løbetest" | where: "tags", "konditionstest" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
+* 🏃 **Maksimal formtest (Estimeret $\text{VO}_2\text{-max}$):** Vælg **[Cooper-testen](/cooper-test/)** (12 min) eller **[2400-meter testen](/2400-meter-test/)**, hvis du vil kende dit præcise kondital på en opmålt rute eller atletikbane.
+* 🚶‍♂️ **Begynder eller skånsom opstart (Submaksimal):** Vælg **[1609 m jogging-test](/jogging-test/)** eller **[Rockport gå-test](/rockport-test/)**, hvis du vil estimere dit kondital ud fra tid og puls uden at presse hjerte og led til udmattelse.
+* ⚽ **Holdsport og restitution (Intervaller & retningsskift):** Vælg **[Bip-testen](/bip-test/)** eller **[Yo-Yo testen](/yoyo-test/)**, hvis du skal måle din evne til at udføre gentagne, intense ryk og restituere hurtigt undervejs.
+* ⏱️ **Find træningstempi til intervaller ($v\text{VO}_2\text{max}$):** Vælg **[6-minutters all-out test](/6-minutters-test/)**, hvis du skal bruge din præcise løbehastighed ved maximal iltoptagelse til at køre strukturerede intervalprogrammer.
+* 🔬 **Laboratorietest med direkte måling:** Vælg en **[Løbebåndstest med iltmaske](/max-test-loebebaand/)**, hvis du vil have en laboratoriepræcis måling af dit kondital og dine individuelle pulszoner.
+* 👟 **Løbeteknik og skadesforebyggelse:** Hvis dit fokus er på at optimere din kropsholdning, kadence og undgå overbelastning, bør du supplere med en **[Løbestilsanalyse](/loebeteknik/)**.
 
 </div>
 
-> 🏃 **Mål din løbehastighed ved VO₂max ($vVO_2max$):**  
-> Se enten [Billat-intervaller og 6-min all-out test](/billat-vvovmax-tlimvo2max/) eller den skånsomme [Olher submaksimal 6-min test](/submaximal-6min-vvo2max-test/).
+---
 
-## Hvordan vælger du den rette test?
+### 📊 Sammenligning af løbetests
 
-Valget af løbetest afhænger af dine mål, dit træningsniveau og de ressourcer, du har til rådighed.
+| Test-type | Målgruppe | Belastningsgrad | Nødvendigt udstyr |
+| :--- | :--- | :--- | :--- |
+| **[Cooper-test](/cooper-test/)** | Letøvede / Øvede | Høj (Maksimal) | Stopur & opmålt rute |
+| **[1609m Jogging-test](/jogging-test/)** | Begyndere / Motionister | Medium (Submaksimal) | Pulsur & stopur |
+| **[Bip-test / Yo-Yo](/bip-test/)** | Holdidræt / Atleter | Meget høj (Intervaller) | Lydfil, højttaler & kegler |
+| **[Masketest på bånd](/max-test-loebebaand/)** | Nørder / Elite | Høj (Laboratorium) | Løbebånd & maskeudstyr |
 
-Hvis du ønsker at måle din maksimale kondition (VO2max), bør du vælge en maksimal test som Cooper-testen eller en laboratoriebaseret iltoptagelsestest.
+---
 
-Har du brug for en mindre belastende metode, kan en submaksimal test som 1609 m løbetesten være et bedre valg.
+<div class="notice--warning" markdown="1">
 
-For at vurdere din udholdenhed og restitutionsevne er intervalbaserede tests som fx Yo-Yo testen.
+⚡ **Mål din specifikke løbehastighed ved $\text{VO}_2\text{max}$ ($v\text{VO}_2\text{max}$):**  
+Skal du beregne dine nøjagtige interval-tempi, kan du benytte enten **[Billat-intervaller & 6-min all-out test](/billat-vvovmax-tlimvo2max/)** eller den mere skånsomme **[Olher submaksimal 6-min test](/submaximal-6min-vvo2max-test/)**.
 
-Hvis dit fokus er på løbeteknik og skadesforebyggelse, bør du overveje en løbestilsanalyse.
-
-Overvej om du har adgang til det nødvendige udstyr, og om testen passer til din nuværende træningstilstand.
-
-Hvis du er i tvivl, kan det være en fordel at starte med en lettere test og senere prøve en mere krævende.
+</div>
 
 ## Hvor ofte skal du teste?
 
@@ -152,6 +137,8 @@ Hyppigheden af dine løbetests afhænger af dine træningsmål og dit niveau. Ge
 - Ved løbestilsanalyser kan det være nok at teste én gang årligt eller ved behov, fx ved skadesproblemer eller skift til nye løbesko.
 
 Det vigtigste er at teste regelmæssigt, så du kan måle din fremgang og tilpasse din træning, uden at hyppige tests bliver en belastning.
+
+{% include feature_row id="feature_row_cooper_test" type="left" %}
 
 ## Afslutning
 

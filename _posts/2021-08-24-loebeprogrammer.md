@@ -152,12 +152,10 @@ Husk at læse den vejledende og forklarende tekst grundigt igennem, inden du sta
 
 ## Afslutning
 
-Uanset om du lige er startet, vil forbedre dine tider, eller træner mod længere distancer, er der masser af inspiration og [løbeværktøjer til dig](/loeb/vaerktoejer/).
-
-Besøg vores [løbeside](/loebesiden/) for [flere tips om løb](/bedre-loeber/), artikler og guides om alt fra teknik og udstyr til motivation og træningsplaner – så får du mest ud af din løbetræning.
+Uanset om du lige er startet, vil forbedre dine tider, eller træner mod længere distancer, er der masser af [inspiration og løbeværktøjer til dig](/loebesiden/#beregnere) og [flere tips om løb](/bedre-loeber/), artikler og guides om alt fra teknik og udstyr til motivation og træningsplaner – så får du mest ud af din løbetræning.
 
 <div class="notice--info" markdown="1">
-**Strukturer din træning:** Her finder du vores udvalg af programmer. Vil du nørde teorien og principperne bag en god opbygning, kan du læse vores hovedartikel om [løbetræning](/loebesiden/), eller starte blødt ud med vores populære [løbeprogram for begyndere](/loebeprogram-begyndere/).
+**Strukturer din træning:** Her finder du vores udvalg af programmer. Vil du nørde teorien og principperne bag en god opbygning, kan du klikke ind på vores [samlede guide til løbetræning](/loebesiden/), eller starte blødt ud med vores populære [løbeprogram for begyndere](/loebeprogram-begyndere/).
 </div>
 
 ---

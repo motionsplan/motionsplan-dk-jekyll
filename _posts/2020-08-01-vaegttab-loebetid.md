@@ -51,7 +51,7 @@ Sedeaud et al (2014) indikerer, at [dit BMI](/bmi/) kan være en parameter for d
 
 En mere anerkendt beregning af løbetider med forskellig vægt og alder er [Flyer Handicap](/flyer-handicap/). Prøv at tjekke den ud.
 
-**Vil du finde flere nyttige beregnere?** Se vores [fulde oversigt over løbeværktøjer](/loeb/vaerktoejer/) for at optimere din træning.  
+**Vil du finde flere nyttige beregnere?** Se vores [fulde oversigt over løbeværktøjer](/loebesiden/#beregnere) for at optimere din træning.  
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

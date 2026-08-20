@@ -87,9 +87,7 @@ Indtast en nylig løbetid for at beregne din VDOT og dine anbefalede træningste
 
 {% include calc/running-performance.html %}
 
-Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval](/hvor-langt-per-interval/)?
-
-Jeg har også lavet en beregner, hvor du kan [omregne din løbehastighed fra pace i min/km til km/t](/hastighed/).
+Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval](/intervallob-intervaltraening/#calculator)? Jeg har også lavet en beregner, hvor du kan [omregne din løbehastighed fra pace i min/km til km/t](/hastighed/).
 
 ## Om Løbesidens løbsberegner
 
@@ -225,22 +223,6 @@ Er du klar til at tage din træning til næste niveau? Læs mere om [Jack Daniel
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
-
-## Andre løbeberegnere
-
-{% assign site_posts = site.posts | where: "tags", "løb" | where: "tags", "beregner" | sort: "last_modified_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 3 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle løbeberegnere](/loeb/vaerktoejer/){: .btn .btn--success .btn--center }
-
-</div>
 
 ## Gode bøger om løbetræning
 

@@ -122,7 +122,7 @@ Du kan også bruge en [Cooper Test til at finde dit kondital](/cooper-test/) ell
 > 📊 **Skal du lave en beregning af dit kondital?**  
 > Brug vores samlede [kondital beregner](/kondital/) til at udregne dit formniveau hurtigt og præcist.
 
-**For flere smarte løbeværktøjer**, besøg vores [fulde samling af beregnere og værktøjer](/loeb/vaerktoejer/).
+**For flere smarte løbeværktøjer**, besøg vores [fulde samling af beregnere og værktøjer](/loebesiden/#beregnere).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

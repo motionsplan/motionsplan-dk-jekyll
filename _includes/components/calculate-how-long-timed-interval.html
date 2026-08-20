@@ -1,0 +1,107 @@
+<div class="calculator-box" style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; margin: 20px 0; font-family: inherit;">
+  <h3 style="margin-top: 0; color: #212529; font-size: 1.25rem;">⏱️ Beregn intervaldistance</h3>
+
+  <!-- Valg af inputmetode -->
+  <div style="margin-bottom: 15px;">
+    <label style="display: block; font-weight: bold; margin-bottom: 5px;">1. Vælg hvordan du vil angive tempoet:</label>
+    <label style="margin-right: 15px; cursor: pointer; font-weight: normal;">
+      <input type="radio" name="tempo_type" value="pace" checked onchange="toggleIntervalInput()"> Pace (min/km)
+    </label>
+    <label style="cursor: pointer; font-weight: normal;">
+      <input type="radio" name="tempo_type" value="speed" onchange="toggleIntervalInput()"> Hastighed (km/t)
+    </label>
+  </div>
+
+  <!-- Pace Input -->
+  <div id="group_pace" style="margin-bottom: 15px;">
+    <label style="display: block; font-weight: bold; margin-bottom: 5px;">2. Indtast dit interval-pace (min/km):</label>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <input type="number" id="calc_pace_min" value="4" min="2" max="15" style="width: 65px; padding: 6px; border: 1px solid #ced4da; border-radius: 4px;" oninput="calcIntervalDistance()"> min
+      <input type="number" id="calc_pace_sec" value="00" min="0" max="59" step="5" style="width: 65px; padding: 6px; border: 1px solid #ced4da; border-radius: 4px;" oninput="calcIntervalDistance()"> sek / km
+    </div>
+  </div>
+
+  <!-- Hastighed Input (skjult som standard) -->
+  <div id="group_speed" style="margin-bottom: 15px; display: none;">
+    <label style="display: block; font-weight: bold; margin-bottom: 5px;">2. Indtast din hastighed (km/t):</label>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <input type="number" id="calc_speed_kmh" value="15.0" min="4" max="30" step="0.1" style="width: 85px; padding: 6px; border: 1px solid #ced4da; border-radius: 4px;" oninput="calcIntervalDistance()"> km/t
+    </div>
+  </div>
+
+  <!-- Tid Input -->
+  <div style="margin-bottom: 20px;">
+    <label style="display: block; font-weight: bold; margin-bottom: 5px;">3. Indtast intervallets varighed:</label>
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <input type="number" id="calc_dur_min" value="4" min="0" max="60" style="width: 65px; padding: 6px; border: 1px solid #ced4da; border-radius: 4px;" oninput="calcIntervalDistance()"> min
+      <input type="number" id="calc_dur_sec" value="0" min="0" max="59" step="5" style="width: 65px; padding: 6px; border: 1px solid #ced4da; border-radius: 4px;" oninput="calcIntervalDistance()"> sek
+    </div>
+  </div>
+
+  <!-- Resultatboks -->
+  <div style="background: #e8f4f8; border-left: 4px solid #2b8a3e; padding: 15px; border-radius: 4px;">
+    <div style="font-size: 0.85rem; color: #495057; text-transform: uppercase; font-weight: bold; letter-spacing: 0.5px;">Du skal løbe:</div>
+    <div id="calc_res_distance" style="font-size: 1.8rem; font-weight: bold; color: #2b8a3e; margin: 4px 0;">1.000 meter</div>
+    <div id="calc_res_details" style="font-size: 0.95rem; color: #343a40;">
+      Svarer til ca. <strong>2,5 runder</strong> på en 400m bane | <strong>15,0 km/t</strong> (4:00 min/km)
+    </div>
+  </div>
+</div>
+
+<script>
+function toggleIntervalInput() {
+  const isPace = document.querySelector('input[name="tempo_type"]:checked').value === 'pace';
+  document.getElementById('group_pace').style.display = isPace ? 'block' : 'none';
+  document.getElementById('group_speed').style.display = isPace ? 'none' : 'block';
+  calcIntervalDistance();
+}
+
+function calcIntervalDistance() {
+  const isPace = document.querySelector('input[name="tempo_type"]:checked').value === 'pace';
+  const durMin = parseFloat(document.getElementById('calc_dur_min').value) || 0;
+  const durSec = parseFloat(document.getElementById('calc_dur_sec').value) || 0;
+  const totalDurSec = (durMin * 60) + durSec;
+
+  if (totalDurSec <= 0) {
+    document.getElementById('calc_res_distance').innerText = '0 meter';
+    document.getElementById('calc_res_details').innerText = 'Indtast venligst en gyldig intervaltid.';
+    return;
+  }
+
+  let distanceMeters = 0;
+  let speedKmh = 0;
+  let paceMin = 0;
+  let paceSec = 0;
+
+  if (isPace) {
+    paceMin = parseFloat(document.getElementById('calc_pace_min').value) || 0;
+    paceSec = parseFloat(document.getElementById('calc_pace_sec').value) || 0;
+    const totalPaceSec = (paceMin * 60) + paceSec;
+
+    if (totalPaceSec <= 0) return;
+
+    distanceMeters = (totalDurSec / totalPaceSec) * 1000;
+    speedKmh = 3600 / totalPaceSec;
+  } else {
+    speedKmh = parseFloat(document.getElementById('calc_speed_kmh').value) || 0;
+    if (speedKmh <= 0) return;
+
+    distanceMeters = (speedKmh / 3.6) * totalDurSec;
+    const totalPaceSec = 3600 / speedKmh;
+    paceMin = Math.floor(totalPaceSec / 60);
+    paceSec = Math.round(totalPaceSec % 60);
+  }
+
+  const formattedDistance = Math.round(distanceMeters).toLocaleString('da-DK');
+  const trackLaps = (distanceMeters / 400).toFixed(1).replace('.', ',');
+  const paceSecStr = paceSec < 10 ? '0' + paceSec : paceSec;
+  const speedStr = speedKmh.toFixed(1).replace('.', ',');
+
+  document.getElementById('calc_res_distance').innerText = formattedDistance + ' meter';
+  document.getElementById('calc_res_details').innerHTML = 
+    'Svarer til ca. <strong>' + trackLaps + ' runder</strong> på en 400m bane | <strong>' + speedStr + ' km/t</strong> (' + paceMin + ':' + paceSecStr + ' min/km)';
+}
+
+// Kør ved indlæsning
+document.addEventListener('DOMContentLoaded', calcIntervalDistance);
+</script>
