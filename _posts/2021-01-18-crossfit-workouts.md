@@ -133,7 +133,7 @@ Inden for crossfit findes der en række berømte, standardiserede træningspas. 
 ### ♀️ Girl workouts
 Grundlæggeren af Crossfit, Greg Glassman, opkaldte de første benchmark-workouts efter kvindenavne. Logikken var, at et træningspas, der efterlader dig fladt på ryggen mens du kigger op i loftet og tænker *"hvad skete der lige der?"*, fortjener et pigenavn ligesom orkaner.
 
-{% include figure image_path="https://www.crossfitholstebro.dk/wp-content/uploads/2016/01/thegirlshires.jpg" caption="God skematisk oversigt over girls crossfit workouts. Kilde: [Crossfit Holstebro](https://www.crossfitholstebro.dk/meet-the-crossfit-girls/)" %}
+{% include figure image_path="https://web.archive.org/web/20210622173818im_/https://www.crossfitholstebro.dk/wp-content/uploads/2016/01/thegirlshires.jpg" caption="God skematisk oversigt over girls crossfit workouts. Kilde: [Crossfit Holstebro](https://www.crossfitholstebro.dk/meet-the-crossfit-girls/)" %}
 
 * **Cindy (Kropsvægt):** 20 minutter AMRAP af 5 pull-ups, 10 push-ups og 15 squats.
 * **Fran (Vægtstang + Kropsvægt):** 21-15-9 gentagelser af thrusters og pull-ups for time.
@@ -143,11 +143,11 @@ Grundlæggeren af Crossfit, Greg Glassman, opkaldte de første benchmark-workout
 ### 🎖️ Hero workouts
 Hero Workouts er ekstra lange og ekstremt krævende pas opkaldt efter faldne soldater, brandmænd eller politifolk. De udføres ofte på årsdage for at ære deres indsats.
 
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=ARwIDHz_FAONnFEh5FKn92HlKdpDdMzNbLmQEa3MtyuozYcJQ__36Ao" height="1086" width="600" frameborder="0" scrolling="no"></iframe>
-
 * **Murph:** 1,6 km løb (1 mile), 100 pull-ups, 200 push-ups, 300 squats og 1,6 km løb for time (traditionelt udført med en 10 kg vægtvest).
 
-### 📹 Hvad er de hårdeste benchmark workouts?
+---
+
+## 📹 Hvad er de hårdeste benchmark workouts?
 Vil du se, hvordan de absolut hårdeste benchmark workouts ser ud i praksis, kan du se denne gennemgang:
 
 {% include video provider="youtube" id="QOD5ubsJoBQ" %}

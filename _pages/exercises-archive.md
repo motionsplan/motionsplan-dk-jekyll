@@ -185,6 +185,14 @@ Velkommen til det samlede overblik over **{{ site.exercises.size }} træningsøv
 
 </div>
 
+<div class="notice notice--info" markdown="1">
+
+🏋️‍♂️ **Leder du efter et færdigt træningspas?**  
+
+Vil du sætte øvelserne sammen til en overskuelig challenge eller WOD? Udforsk vores samlede **[Workouts & WODs Arkiv](/workouts/)**, hvor du kan filtrere på AMRAP, EMOM, kropsvægt og udstyr.
+
+</div>
+
 ## 🎯 Forskellige træningsformer
 
 Udforsk vores overordnede guides til de mest populære træningsformer – fra cirkeltræning og hypertrofiprogrammer til udendørstræning og cardio.

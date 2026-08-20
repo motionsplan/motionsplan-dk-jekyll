@@ -79,6 +79,14 @@ Et veltilrettelagt **træningsprogram** giver struktur, kontinuitet og de bedste
 
 Vælg din foretrukne træningsform herunder for at komme direkte til vores specialiserede programkataloger og guides.
 
+<div markdown="1" class="notice--success">
+
+**💡 Bare på udkig efter et hurtigt træningspas?**
+
+Hvis du bare lige vel have et hurtigt træningspas til i dag, så tjek vores [forskellige workouts](/workouts/).
+
+</div>
+
 ---
 
 ## Alle træningsprogrammer
@@ -126,6 +134,14 @@ Gang er en af de mest undervurderede motionsformer. Gåtræning er skånsomt for
 Vil du hellere opbygge dit eget program fra bunden? Vi har samlet både teoretiske guides om [træningslære og programlægning](/traeningslaere/) samt gratis skabeloner, du kan tilpasse.
 
 {% include feature_row id="feature_row_templates" type="left" %}
+
+---
+
+## 💡 Leder du efter et enkeltstående træningspas?
+
+Skal du ikke bruge et flerdages træningsprogram, men i stedet et enkelt, intenst træningspas til i dag?
+
+* 👉 **[Udforsk vores samlede Workouts & WODs Arkiv](/workouts/)** – Find Crossfit benchmark-pas, 300 Challenge, 10-20-30 løbepas, rointervaller og kropsvægts-rutiner.
 
 ---
 

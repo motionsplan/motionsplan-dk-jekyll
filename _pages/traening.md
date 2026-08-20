@@ -105,7 +105,8 @@ Find den træningsform, der passer bedst til dine mål og interesser:
 <div class="notice--success" markdown="1">
 ### 📋🗓️ 2. Træningsprogrammer og træningsplaner
 En struktureret **træningsplan** gør det nemt at bevare motivationen og sikre kontinuerlig fremgang.
-* **[Katalog over træningsprogrammer](/traeningsprogrammer/)** – Færdige programmer til styrke, løb og vægttab.
+* **[Katalog over træningsprogrammer](/traeningsprogrammer/)** – Flerdages forløb til løb, styrke, cykling og hjemmetræning.
+* 🏋️‍♂️ **[Workouts & WODs](/workouts/):** Enkeltstående træningspas, Crossfit-pas, challenges og intervaller.
 * **[Lav dit eget styrketræningsprogram](/traeningsprogram-programlaegning-styrketraening/)** – Trin-for-trin guide til programlægning.
 * **[Træningsplanlægning og periodisering](/traeningsplanlaegning/)** – Lær at opbygge ugeplaner og cyklusser.
 * **[Sammensæt dit løbeprogram](/artikel/kom-i-gang-med-loebetraeningen/)** – Sådan kommer du godt i gang med løb.

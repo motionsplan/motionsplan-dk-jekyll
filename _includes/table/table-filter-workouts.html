@@ -1,0 +1,407 @@
+{% comment %}
+  Parametre du kan sende med på interne sider:
+  - category: "crossfit", "roning", "kropsvægt", "løb" (præ-filtrerer automatisk)
+  - pills: fx "AMRAP, EMOM, For time, Benchmark, Kropsvægt" eller "Crossfit, Roning, Løb"
+  - placeholder: fx "Søg i workouts (fx Cindy, AMRAP, kropsvægt, romaskine...)"
+  - show_table: "true" (viser tabellen med det samme ved indlæsning)
+  - hide_category_select: "true" (skjuler kategori-dropdownen, ideelt til rene undersider)
+{% endcomment %}
+
+{% assign initial_cat = include.category | default: "" | downcase %}
+{% assign search_placeholder = include.placeholder | default: "Søg i alle workouts (fx Cindy, AMRAP, kropsvægt, romaskine...)" %}
+{% assign show_table_by_default = include.show_table | default: "false" %}
+{% assign hide_select = include.hide_category_select | default: "false" %}
+
+{% if initial_cat != blank %}
+  {% assign show_table_by_default = "true" %}
+{% endif %}
+
+{% comment %} Tæl samlede workouts pr. kategori {% endcomment %}
+{% assign count_all = 0 %}
+{% assign count_crossfit = 0 %}
+{% assign count_roning = 0 %}
+{% assign count_kropsvaegt = 0 %}
+{% assign count_loeb = 0 %}
+
+{% assign all_content = site.pages | concat: site.posts %}
+{% for item in all_content %}
+  {% if item.workouts %}
+    {% assign item_url = item.url | downcase %}
+    {% assign default_cat = "crossfit" %}
+    {% if item_url contains "romaskine" or item_url contains "roning" or item.category contains "Roning" or item.tags contains "roning" %}
+      {% assign default_cat = "roning" %}
+    {% elsif item_url contains "kropsvaegt" or item_url contains "hjemmetraening" or item.tags contains "kropsvægt" %}
+      {% assign default_cat = "kropsvægt" %}
+    {% elsif item_url contains "loeb" or item_url contains "løb" or item.category contains "Løb" or item.tags contains "løb" %}
+      {% assign default_cat = "løb" %}
+    {% elsif item_url contains "crossfit" or item.category contains "Crossfit" or item.tags contains "crossfit" %}
+      {% assign default_cat = "crossfit" %}
+    {% endif %}
+
+    {% for w in item.workouts %}
+      {% assign count_all = count_all | plus: 1 %}
+
+      {% assign cat_raw = w.category | first | default: w.modality | first | default: w.category | default: w.modality | default: default_cat %}
+      {% assign cat_str = cat_raw | join: " " | downcase %}
+
+      {% if cat_str contains "roning" or cat_str contains "romaskine" %}
+        {% assign count_roning = count_roning | plus: 1 %}
+      {% elsif cat_str contains "kropsvægt" or cat_str contains "kropsvaegt" or cat_str contains "calisthenics" %}
+        {% assign count_kropsvaegt = count_kropsvaegt | plus: 1 %}
+      {% elsif cat_str contains "løb" or cat_str contains "loeb" or cat_str contains "running" %}
+        {% assign count_loeb = count_loeb | plus: 1 %}
+      {% else %}
+        {% assign count_crossfit = count_crossfit | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+<div class="workout-filter-container" 
+     data-initial-category="{{ initial_cat }}"
+     data-show-default="{{ show_table_by_default }}">
+  
+  <!-- SØGE- OG DROPDOWNBAR -->
+  <div class="workout-filter-bar">
+    <div class="workout-search-wrapper">
+      <span class="search-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </span>
+      <input type="text" class="workout-search-input" placeholder="{{ search_placeholder }}">
+    </div>
+
+    {% if hide_select != "true" %}
+    <div class="workout-select-wrapper">
+      <select class="workout-category-select">
+        <option value="" {% if initial_cat == "" %}selected{% endif %} disabled>— Vælg kategori —</option>
+        <option value="all" {% if initial_cat == "all" %}selected{% endif %}>Vis alle workouts ({{ count_all }})</option>
+        <option value="crossfit" {% if initial_cat == "crossfit" %}selected{% endif %}>Crossfit / WODs ({{ count_crossfit }})</option>
+        <option value="roning" {% if initial_cat == "roning" %}selected{% endif %}>Ro-intervaller ({{ count_roning }})</option>
+        <option value="kropsvægt" {% if initial_cat == "kropsvægt" %}selected{% endif %}>Kropsvægts-pas ({{ count_kropsvaegt }})</option>
+        <option value="løb" {% if initial_cat == "løb" %}selected{% endif %}>Løbe-intervaller ({{ count_loeb }})</option>
+      </select>
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- FILTRERINGS-PILLS -->
+  {% if include.pills %}
+  {% assign pills_array = include.pills | split: "," %}
+  <div class="workout-pills-wrapper">
+    {% for pill in pills_array %}
+      {% assign pill_clean = pill | strip %}
+      <button type="button" class="workout-pill-btn" data-pill="{{ pill_clean }}">{{ pill_clean }}</button>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- HJÆLPETEKST NÅR SKJULT -->
+  {% if show_table_by_default != "true" %}
+  <div class="workout-prompt-hint text-muted">
+    <small>💡 Søg i feltet ovenfor eller vælg en kategori i dropdown-menuen for at få vist træningspassene.</small>
+  </div>
+  {% endif %}
+
+  <!-- WORKOUT TABEL -->
+  <div class="table-wrapper workout-table-wrapper" style="{% if show_table_by_default != 'true' %}display: none;{% endif %}">
+    <table class="table workout-table">
+      <thead>
+        <tr>
+          <th>Workout / Pas</th>
+          <th>Kategori</th>
+          <th>Udstyr</th>
+          <th>Varighed</th>
+          <th>Intensitet</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in all_content %}
+          {% if item.workouts %}
+            {% assign item_url = item.url | downcase %}
+            {% assign default_cat = "crossfit" %}
+            {% if item_url contains "romaskine" or item_url contains "roning" or item.category contains "Roning" or item.tags contains "roning" %}
+              {% assign default_cat = "roning" %}
+            {% elsif item_url contains "kropsvaegt" or item_url contains "hjemmetraening" or item.tags contains "kropsvægt" %}
+              {% assign default_cat = "kropsvægt" %}
+            {% elsif item_url contains "loeb" or item_url contains "løb" or item.category contains "Løb" or item.tags contains "løb" %}
+              {% assign default_cat = "løb" %}
+            {% elsif item_url contains "crossfit" or item.category contains "Crossfit" or item.tags contains "crossfit" %}
+              {% assign default_cat = "crossfit" %}
+            {% endif %}
+
+            {% for w in item.workouts %}
+              {% assign cat_raw = w.category | first | default: w.modality | first | default: w.category | default: w.modality | default: default_cat %}
+              {% assign cat_str = cat_raw | join: " " | downcase %}
+
+              {% assign cat_clean = "crossfit" %}
+              {% if cat_str contains "roning" or cat_str contains "romaskine" %}
+                {% assign cat_clean = "roning" %}
+              {% elsif cat_str contains "kropsvægt" or cat_str contains "kropsvaegt" or cat_str contains "calisthenics" %}
+                {% assign cat_clean = "kropsvægt" %}
+              {% elsif cat_str contains "løb" or cat_str contains "loeb" or cat_str contains "running" %}
+                {% assign cat_clean = "løb" %}
+              {% endif %}
+
+              {% assign w_title = w.title | default: w.name %}
+              {% assign w_type = w.type | join: ", " | default: w.type %}
+              {% assign w_equip = w.equipment | join: ", " | default: w.equipment %}
+              {% assign w_desc = w.description %}
+
+              {% capture search_build %}
+                {{ w_title }} {{ w_type }} {{ w_equip }} {{ w_desc }} {{ item.title }}
+              {% endcapture %}
+              {% assign search_clean = search_build | strip_newlines | downcase | replace: '"', '' | replace: "'", '' | replace: '[', '' | replace: ']', '' %}
+
+              {% assign link_url = item.url %}
+              {% if w.anchor %}
+                {% assign link_url = item.url | append: w.anchor %}
+              {% endif %}
+
+              <tr class="workout-row" 
+                  data-category="{{ cat_clean }}" 
+                  data-search="{{ search_clean }}">
+                <td>
+                  <strong><a href="{{ link_url }}">{{ w_title }}</a></strong>
+                  {% if w_type != blank %}
+                    <br><small class="text-muted">{{ w_type }}</small>
+                  {% endif %}
+                </td>
+                <td>
+                  <span class="workout-badge tag-{{ cat_clean }}">
+                    {% if cat_clean == "crossfit" %}🏋️‍♂️ Crossfit
+                    {% elsif cat_clean == "roning" %}🚣 Roning
+                    {% elsif cat_clean == "kropsvægt" %}🤸 Kropsvægt
+                    {% elsif cat_clean == "løb" %}🏃‍♂️ Løb
+                    {% else %}{{ cat_clean | capitalize }}
+                    {% endif %}
+                  </span>
+                </td>
+                <td>{{ w_equip | default: "Ingen" }}</td>
+                <td>{{ w.duration | default: "-" }}</td>
+                <td>{{ w.intensity | default: "-" }}</td>
+                <td class="text-right">
+                  <a href="{{ link_url }}" class="btn btn--small btn--info">Se pas</a>
+                </td>
+              </tr>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="no-workouts-notice notice--warning text-center" style="display: none;">
+    <p>Ingen workouts matchede din søgning.</p>
+  </div>
+</div>
+
+<style>
+  .workout-filter-container {
+    margin: 1.5rem 0;
+  }
+  .workout-filter-bar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .workout-search-wrapper {
+    position: relative;
+    flex: 1 1 300px;
+  }
+  .workout-search-wrapper .search-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+  }
+  .workout-search-input {
+    width: 100%;
+    padding: 10px 16px 10px 40px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    outline: none;
+    background-color: #ffffff;
+    color: #1f2937;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .workout-search-input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+  }
+  .workout-select-wrapper {
+    flex: 0 0 auto;
+  }
+  .workout-category-select {
+    padding: 10px 36px 10px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #1f2937;
+    background-color: #f9fafb;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%234b5563%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  }
+
+  /* PILLS STYLING */
+  .workout-pills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 0.75rem;
+  }
+  .workout-pill-btn {
+    background: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .workout-pill-btn:hover {
+    background: #e5e7eb;
+    color: #111827;
+  }
+  .workout-pill-btn.active {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #ffffff;
+  }
+
+  .workout-prompt-hint {
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  .workout-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .tag-crossfit { background-color: #f3e8ff; color: #6b21a8; }
+  .tag-roning { background-color: #e0f2fe; color: #0369a1; }
+  .tag-kropsvægt { background-color: #dcfce7; color: #15803d; }
+  .tag-løb { background-color: #ffedd5; color: #c2410c; }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const containers = document.querySelectorAll(".workout-filter-container");
+
+    containers.forEach(container => {
+      const select = container.querySelector(".workout-category-select");
+      const searchInput = container.querySelector(".workout-search-input");
+      const tableWrapper = container.querySelector(".workout-table-wrapper");
+      const rows = container.querySelectorAll(".workout-row");
+      const noResults = container.querySelector(".no-workouts-notice");
+      const promptHint = container.querySelector(".workout-prompt-hint");
+      const pillBtns = container.querySelectorAll(".workout-pill-btn");
+
+      let currentCategory = container.getAttribute("data-initial-category") || "";
+      let showByDefault = container.getAttribute("data-show-default") === "true";
+      let currentSearch = "";
+
+      if (currentCategory && select) {
+        const matchingOption = select.querySelector(`option[value="${currentCategory}"]`);
+        if (matchingOption) matchingOption.selected = true;
+      }
+
+      function filterAndToggle() {
+        const hasSearch = currentSearch.length > 0;
+        const hasCategory = currentCategory !== "";
+
+        if (!hasSearch && !hasCategory && !showByDefault) {
+          tableWrapper.style.display = "none";
+          if (noResults) noResults.style.display = "none";
+          if (promptHint) promptHint.style.display = "block";
+          return;
+        }
+
+        tableWrapper.style.display = "block";
+        if (promptHint) promptHint.style.display = "none";
+
+        let visibleCount = 0;
+
+        rows.forEach(row => {
+          const category = row.getAttribute("data-category");
+          const searchText = row.getAttribute("data-search");
+
+          const matchesCategory = (currentCategory === "all" || currentCategory === "" || category === currentCategory);
+          const matchesSearch = (!hasSearch || searchText.includes(currentSearch));
+
+          if (matchesCategory && matchesSearch) {
+            row.style.display = "";
+            visibleCount++;
+          } else {
+            row.style.display = "none";
+          }
+        });
+
+        if (noResults) {
+          noResults.style.display = visibleCount === 0 ? "block" : "none";
+        }
+      }
+
+      // Håndter Pills
+      pillBtns.forEach(btn => {
+        btn.addEventListener("click", function() {
+          const pillVal = this.getAttribute("data-pill").toLowerCase().trim();
+
+          if (this.classList.contains("active")) {
+            this.classList.remove("active");
+            currentSearch = "";
+            if (searchInput) searchInput.value = "";
+          } else {
+            pillBtns.forEach(b => b.classList.remove("active"));
+            this.classList.add("active");
+            currentSearch = pillVal;
+            if (searchInput) searchInput.value = this.getAttribute("data-pill");
+          }
+
+          filterAndToggle();
+        });
+      });
+
+      if (select) {
+        select.addEventListener("change", function() {
+          currentCategory = this.value;
+          filterAndToggle();
+        });
+      }
+
+      if (searchInput) {
+        searchInput.addEventListener("input", function() {
+          currentSearch = this.value.toLowerCase().trim();
+          pillBtns.forEach(b => {
+            if (b.getAttribute("data-pill").toLowerCase() !== currentSearch) {
+              b.classList.remove("active");
+            }
+          });
+          filterAndToggle();
+        });
+      }
+
+      filterAndToggle();
+    });
+  });
+</script>
