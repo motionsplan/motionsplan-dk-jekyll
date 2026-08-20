@@ -1,158 +1,161 @@
 ---
-title: 'Cirkeltræning: Effektiv træning - Øvelser og variationer'
+# SIDE-METADATA OG BRØDKRUMMER
+title: "Cirkeltræning: Komplet guide, øvelser & programmer"
+seo_title: "Cirkeltræning – Effektiv guide, øvelser & programmer (Print/PDF)"
+description: "Lær at opbygge et effektivt cirkeltræningsprogram. Få øvelser uden udstyr, tidsintervaller (AMRAP/EMOM), printbare øvelsesark og PDF-guides."
 permalink: /cirkeltraening/
 language: da
+page_type: "hub"
+primary_category: "Træning"
+
+category:
+  - Træning
+  - Cirkeltræning
+  - Træningsprogrammer
+
+tags:
+  - cirkeltraening
+  - kondition
+  - traening
+  - kombinationstraening
+  - styrketraening
+  - oevelser
+  - print
+
 header:
   overlay_image: /assets/images/unsplash/photo-1544216717-3bbf52512659.jpg
-  credit: https://images.unsplash.com/photo-1544216717-3bbf52512659
   teaser: /assets/images/unsplash/photo-1544216717-3bbf52512659.jpg
   overlay_filter: '0.4'
-  caption: 'Cirkeltræning: Effektiv træning - Øvelser og variationer'
-categories:
-- Træning
-tags:
-- kondition
-- træning
-- kombinationstræning
-- styrketræning
-last_modified_at: '2020-06-11T08:14:14Z'
-toc: 'true'
+  caption: "Cirkeltræning: Effektiv træning - øvelser, opbygning og variationer"
+
+last_modified_at: 2026-08-20T10:00:00Z
+toc: true
+
+# TESTS OG VÆRKTØJER
+tests: []
+tools: []
+
+# TRÆNINGSPROGRAMMER (FLERDAGES FORLØB & SKABELER)
+programs:
+  - id: "program-cirkeltraening-kropsvaegt-basis"
+    title: "Klassisk Kropsvægts Cirkeltræningsprogram"
+    description: "Alsidigt full-body cirkelprogram opbygget af 8 kropsvægtsøvelser i 30/15-intervaller over 3-4 runder."
+    category: ["Træning", "Cirkeltræning", "Træningsprogrammer"]
+    type: ["Kropsvægt", "Full-body", "Cirkeltræning"]
+    modality: ["Styrke", "Kondition"]
+    level: ["Begynder", "Øvet"]
+    duration: "20-30 minutter"
+    frequency: "2-3 gange/uge"
+    split_type: "Full Body"
+    goal: ["Kondition", "Grundstyrke", "Fedtforbrænding"]
+    equipment: ["Ingen (Kropsvægt)"]
+    target_group: ["Mænd", "Kvinder"]
+    anchor: "#eksempel-paa-et-cirkeltraeningsprogram"
+
+# OFTE STILLEDE SPØRGSMÅL (FAQ SCHEMA)
 faq:
-- question: Hvad er cirkeltræning?
-  answer: Cirkeltræning er en effektiv måde at strukturere din træning på. I cirkeltræning vælger du typisk 3-12 øvelser,
-    som du udfører på skift enten efter tid eller antal gentagelser. Når du har færdiggjort en øvelse, går du videre til næste
-    øvelse indtil, du har været hele cirklen rundt. Mange laver cirkeltræning i flere end en runde.
-- question: Hvor mange øvelser skal jeg vælge til cirkeltræning?
-  answer: Du bestemmer naturligvis selv, hvor mange øvelser du vælger til cirkeltræning. Men du skal nok i hvert fald vælge
-    3-4 øvelser før du kan kalde det cirkeltræning.
+  - question: "Hvad er cirkeltræning?"
+    answer: "Cirkeltræning er en effektiv måde at strukturere træningen på. Du vælger typisk 3–12 øvelser, som du udfører i rækkefølge enten efter tid (fx 30 sekunders arbejde) eller gentagelser. Når en øvelse er færdig, går du hurtigt videre til næste øvelse, indtil du har gennemført en hel runde."
+
+  - question: "Hvor mange øvelser skal man vælge til cirkeltræning?"
+    answer: "Et typisk cirkeltræningsprogram består af 6–10 øvelser. Det sikrer tilstrækkelig variation og giver mulighed for at skifte mellem overkrop, underkrop og kerne, så enkelte muskelgrupper kan holde pause undervejs."
+
+  - question: "Kan cirkeltræning laves uden redskaber og udstyr?"
+    answer: "Ja, cirkeltræning uden redskaber er særdeles effektivt. Ved at benytte øvelser med egen kropsvægt (som squats, push-ups, lunges og planke) opnår du både høj puls, øget fedtforbrænding og opbygning af funktionel grundstyrke."
+
+  - question: "Hvor lang pause skal der være i cirkeltræning?"
+    answer: "Forholdet mellem arbejds- og pausetid er typisk 2:1 eller 1:1. De mest populære intervaller er 30 sekunders arbejde efterfulgt af 15 sekunders pause (30/15) eller 40 sekunders arbejde og 20 sekunders pause (40/20)."
 ---
 
-Jeg kan godt lide at organisere min træning som cirkeltræning eller som det hedder på _circuit træning_. Jeg har kigget lidt på, hvad cirkeltræning er, hvordan du kan skrue dit cirkeltræningsprogram sammen, og hvilke øvelser du kan bruge i din cirkeltræning?
+Cirkeltræning (også kendt som *circuit training*) er en af de mest tidsbesparende og populære måder at strukturere sin træning på. Conceptet benyttes i alt fra kommercielle fitnesskæder og idrætsforeninger til genoptræning og hjemmetræning.
 
-## Hvad er cirkeltræning?
+Med cirkeltræning kan du kombinerer styrke, kondition, fedtforbrænding og motorik i én samlet pakke uden spildtid.
 
-**Cirkeltræning er en effektiv måde at strukturere din træning på. I cirkeltræning vælger du typisk 3-12 øvelser, som du udfører på skift enten efter tid eller antal gentagelser. Når du har færdiggjort en øvelse, går du videre til næste øvelse indtil, du har været hele cirklen rundt. Mange laver cirkeltræning i flere end en runde.**
+---
 
-Cirkeltræning bliver mere og mere populært. Faktisk er der en del kæder, fx Loop og Fitness World, der har koncepter, der er baseret på cirkeltræning. Cirkeltræning er nemlig både tidseffektivt og konceptet er også let at forstå.
+## 🌀 Hvad er cirkeltræning?
 
-Du kan selv vælge, hvordan du udformer dit cirkeltræningsprogram. Du kan have styrke-, kondition-, balance-, koordination- og smidighedsøvelser. Du kan bruge redskaber, eller du kan nøjes med din kropsvægt. Der er faktisk ingen begrænsninger for din opfindsomhed, når du skal sammensætte din cirkeltræning.
+I cirkeltræning sammensætter du en række øvelser (typisk 6–12 stationer), som gennemføres i en fastlagt rækkefølge. Du arbejder enten på **tid** (f.eks. 30 sekunder) eller et fastsat **antal gentagelser** på hver station.
 
-**Vores øvelseskatalog er perfekt til cirkeltræning**, da PDF-udskriften af alle øvelserne har forberedt et sted, hvor du kan skrive nummer på øvelsen, så man ved, hvilken rækkefølge øvelserne skal laves i.
-{: .notice .notice--info }
+Når tiden udløber, har du en kort pause til at skifte til næste øvelse. En fuld omgang kaldes en *runde*, og et typisk træningspas består af **3–5 runder**.
 
-Cirkeltræning behøver ikke noget udstyr, og du kan alligevel opnå en betydelig kombineret effekt på både styrke, kondition, metabolisk fitness, fedtforbrænding og motorisk udfordring.
+> 🖨️ **Printbare øvelsesark til hallen og stuen:**  
+> Vores [øvelseskatalog](/traeningsoevelser/) indeholder udskrivningsvenlige PDF-ark for hver øvelse. Arkene har indbyggede felter til stationsoversigt og nummerering, så de direkte kan bruges som fysiske øvelseskort i hallen eller derhjemme.
 
-## Hvordan sammensættes et cirkeltræningsprogram?
+---
 
-Du gør følgende for at planlægge din cirkeltræning:
+## 🛠️ Sådan opbygger du et cirkeltræningsprogram
 
-1. **Vælg arbejds- og pause-periode**. Du vælger først en arbejdsperiode og en pauseperiode. Tænk over dit formål med cirkeltræningen og hvilket energisystem, du gerne vil ramme.
-2. **Vælg øvelser**. Derefter vælger du antallet af øvelser, og hvilke øvelser du gerne vil have i dit program. Jeg forsøger ofte at variere øvelserne, så to på hinanden følgende øvelser rammer forskellige muskelgrupper eller bevægelsesmønstre.
-3. **Vælg antallet af runder**. Til sidst vælger du antallet af runder. Din arbejdsperiode kombineret med pauserne og ganget med runderne bliver den totale tid, dit cirkeltræningsprogram kommer til at vare.
-4. **Find passende musik**. Jeg har næsten altid musik til, når jeg laver cirkeltræning. Ofte har jeg kombineret musikken med en _tidtager-app_ på telefonen, som hjælper mig med at tage tid, så jeg ikke behøver at kigge på klokken.
-5. **Arbejd hårdt**. Og nyd træningen.
+For at få det maksimale udbytte af din cirkeltræning bør du opbygge programmet systematisk:
 
-{% include figure image_path="/assets/images/static1.squarespace.com/Circuit_Training_Defined-b049ccd8.jpg" caption="Eksempel på cirkeltræning [📷](https://static1.squarespace.com/static/595e5a971b631bc13c6ba25b/595e8a9578d171e39723c07c/596c68bef14aa1a6e70f9c9d/1533589031026/Circuit+Training+Defined.jpg?format=1500w){: rel='nofollow noopener' }" %}
+1. **Vælg arbejds- og pausetid:** Standardforholdet er 2:1 (f.eks. 30 sekunders arbejde og 15 sekunders pause) eller 1:1 ved meget høj intensitet.
+2. **Vælg øvelsesrækkefølge:** Skift bevidst mellem overkrop, underkrop, kerne og kondition. Det tillader én muskelgruppe at restituere, mens en anden arbejder.
+3. **Fastlæg antat runder:** 3–4 runder giver en effektiv samlet træningstid på 20–30 minutter.
+4. **Opsæt en intervaltimer:** Brug en timer-app på telefonen med biplicering, så du ikke spilder energi på at kigge på ure.
 
-Lad os tage et simpelt eksempel på denne fremgangsmåde til at planlægge dit cirkeltræningsprogram.
+---
 
-- 30s arbejde og 15s pause
-- 6-8 forskellige øvelser
-- 3-4 omgange
+## 📋 Eksempel på et cirkeltræningsprogram
+{: id="eksempel-paa-et-cirkeltraeningsprogram" }
 
-Når jeg bruger cirkeltræning i min undervisning, så plejer jeg altid at lade den første runde være en introduktion til programmet, organisationen og øvelserne. På den måde lærer alle øvelserne rigtig godt at kende. På de følgende runder kører jeg i et passende tempo alt efter målet med træningen.
+Her er en klassisk kropsvægtscirkel uden udstyr, der rammer hele kroppen:
 
-Du skal naturligvis varme op først og nedvarme bagefter, men den samlede cirkeltræning kan holdes på en relativt kort tid. Jeg kan ofte godt lide at træne lidt længere, men så laver jeg typisk opvarmningen længere, så jeg kan øve mig på noget, jeg gerne vil være bedre til.
+* **Struktur:** 30 sekunders arbejde / 15 sekunders pause | 4 runder (2 minutters pause mellem runder).
 
-Her på motionsplan.dk kan du finde et hav af [forskellige øvelser](/traeningsoevelser/) lige til at printe ud. Tænk lidt over hvad dit formål er. Hvis det primært er at få pulsen op og arbejde hårdt, så vælg en masse helkropsøvelser, hvor du aktiverer en stor del af din muskelmasse.
+1. **Squats** *(Underkrop – dynamisk)*
+2. **Push-ups** *(Overkrop – pres)*
+3. **Lunges** *(Underkrop – enbenet)*
+4. **Plank** *(Kerne – statisk)*
+5. **High knees / sprinterløb** *(Kondition/puls)*
+6. **Rygbøjninger / Supermans** *(Ryg & bagkæde)*
+7. **Triceps dips på stol/bænk** *(Overkrop – arm)*
+8. **Mountain climbers** *(Kerne & puls)*
 
-## Bryd cirkeltræningen op
+---
 
-Jeg kan godt lide at bryde cirkeltræningen op i mindre sekvenser. Fx kan jeg godt lide at lave tre øvelser i hver sekvens, som jeg fx tager tre runder af. I hver runde kan du fx vælge en øvelse fra forskellige kategorier, du har besluttet dig for på forhånd.
+## 🔀 Bryd cirkeltræningen op i blokke
 
-|-| Styrke | Kondition | Balance og stabilitet |
-|-|-|-|-|
-| 1. sekvens | Armstrækning | Højre knæløft | One legged deadlift |
-| 2. sekvens | Pullups | Sprint | Side planke |
-| 3. sekvens | Lunges | Boksning | Heidens |
+Hvis du ønsker mere variation, kan du opdele cirklen i mindre sekvenser/blokke (f.eks. 3 blokke med 3 øvelser i hver). Du kører 3 runder i Blok 1, før du går videre til Blok 2.
 
-Mulighederne er uendelige. Du kan vælge andre kategorier eller du kan vælge forskellige temaer i de forskelige sekvenser. Fx kan jeg også godt lide at have mobilitet eller yoga-lignende øvelser med i cirklen.
+| Blok | Styrkeøvelse | Konditionsøvelse | Stabilitet / Mobilitet |
+| :--- | :--- | :--- | :--- |
+| **Blok 1** | Push-ups | Sprinterknæ | Etbens Dødløft |
+| **Blok 2** | Inverted rows / Pull-ups | Høje knæløft | Sideplanke |
+| **Blok 3** | Lunges | Jumping jacks | Hundestræk / Cat-cow |
 
-## Intervallerne i cirkeltræningsprogrammet
+---
 
-Ofte er arbejdstiden i et cirkeltræningsprogram ifølge [Morten Zacho](https://web.archive.org/web/20150403151005/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/cirkeltraening/){:rel="nofollow"} dobbelt så lang som pausen. Fx 30/15, 40/20 eller 60/30.
+## 📲 Apps og redskaber til tidtagning
 
-Hvis jeg har høj variation i øvelserne, så kan jeg godt arbejde med mindre pause.
+Et godt cirkeltræningspas kræver præcis tidtagning:
 
-Hvis jeg gerne vil arbejde med andre energisystemer, så kan jeg køre uden pause et stykke tid, men veksle mellem øvelserne, og så holde en pause efter en hel runde.
+* **Interval Timer apps:** Apps som *Interval Timer* (Android/iOS) eller *Tabata Timer* lader dig indstille opvarmning, arbejdstid, pausetid, antal stationer og runder. Musik fra Spotify kan køre uforstyrret i baggrunden.
+* **Specialiserede formater:** Vil du have færdige koncepter, kan du se vores specifikke guides til [7 minute workout](/7-minute-workout/), [28 dages hjemmetræning uden udstyr](/hjemmetraening-traeningsprogram/) og [crossfit WODs](/crossfit-workouts/).
 
-Du kan også have valgt ekstremt hårde øvelser, hvor arbejdstid og pausetid med fordel kan være i forholdet 1:1.
+---
 
-## Valg af øvelser til cirkeltræning
+## 🖨️ Udskriv øvelsesark til din cirkeltræning
 
-Et princip for cirkeltræningen kan være at skifte mellem kredsløbsøvelser og styrkeøvelser, men der er faktisk ingen grænser for, hvordan du kan skrue et cirkeltræningsprogram sammen.
+I vores store øvelsesarkiv kan du filtrere på kropsvægtsøvelser og generere overskuelige print-sider til dine træningsstationer:
 
-Ud fra min egen erfaring kan det betale sig at afprøve sit eget program, inden man udsætter andre for det. Jeg har sommetider fået lavet et program, der var lige rigeligt hårdt til, at øvelserne kunne laves med kvalitet hele vejen igennem.
+{% assign exercises = site.exercises | where: "tags", "kropsvægt" | where: "tags", "cirkeltræning" | sample: 12 %}
+{% include motionsplan/exercise-grid.html title="Udvalgte øvelser til cirkeltræning (Klar til print)" exercises=exercises input_type="array" %}
 
-<div class="feature__wrapper">
+[Se alle printbare træningsøvelser](/traeningsoevelser/){: .btn .btn--large .btn--success }
 
-{% assign site_posts = site.exercises | where: "tags", "kropsvægt" | where: "tags", "cirkeltræning" | sample: 12 %}
+---
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 12 %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-Men det er faktisk kun fantasien, der sætter grænser for dit øvelsesvalg. Alle øvelserne lige til at printe ud og klar til at bruge som beskrivelse til din cirkeltræning.
-
-[Se alle øvelser](/traeningsoevelser/){: .btn .btn--large .btn--success }
-
-## Apps til cirkeltræning
-
-Der findes et utal af apps til Cirkeltræning, hvis du vil downloade et program til din telefon.
-
-- **Seven -- 7 minutes workout a day**. En meget populær workout med kropsvægtsøvelser som var baseret på nogle studier, der viste en god effekt med relativt kort træning hver dag. Riegler et al (2017) sammenlignede 7 minutes workout med en 7 minutters HIIT-træning på cykelergomenter, og der var cykelergometer-programmet mere effektivt som konditionstræning. Men det var også hårdere i forhold til pulsen.
-
-{% include video provider="youtube" id="Itye1DEJTQk" %}
-
-Hvis du foretrækker at designe din egen cirkeltræning, så kan jeg anbefale følgende app til tidtagning.
-
-- **Interval timer**. Jeg bruger selv den gratis [Interval timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da){: rel="nofollow noopener" } (dog med reklamer) fra Google Play Store, hvor jeg kan sætte intervallerne op, som jeg gerne vil have dem. Så kan jeg spille musik fra fx Spotify eller Youtube Music i baggrunden, og så bipper app’en, når intervallerne er gået. På IOS så ved jeg mange er glade for denne [Interval timer](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568){: rel="nofollow noopener" }.
-
-## Fordele ved cirkeltræning og circuit træning
-
-- **Variation i øvelserne**. Du kan have en stor variation i øvelserne, hvilket gør, at du får en alsidig træning.
-- **Tidseffektiv**. Cirkeltræning kan være en effektiv måde at strukturere træningen på, da du kan arbejde hårdt i de enkelte intervaller.
-- **Motiverende**. Hvis du knalder op for musikken og laver cirkeltræningen sammen med nogen, så er det meget motiverende.
-
-## Ulemper ved cirkeltræningsprogrammer
-
-- **Fokus**. Cirkeltræningsprogrammer kan ofte godt virke lidt tilfældige. Jeg kan godt lide at have et mål for programmet.
-- **Progression**. Hvis du kører forskellige cirkeltræningsprogrammer i hvert træningspas, så er det sværere at se, hvad progressionen i din træning er - og om du overhovedet går frem i træningen.
-
-## Cirkeltræning som en del af din træning
-
-Nu er du klædt på til at lave dit eget cirkeltræningsprogram. Du kan fx implementere _circuit træning_ en-to gange om ugen.
-
-Du kan læse mere om, hvordan du kan skrue arbejds- og pauseperioder sammen i mit indlæg om [intervaltræning](/intervaltraening/).
-
-## Ofte stillede spørgsmål
+## ❓ Ofte stillede spørgsmål om cirkeltræning
 
 {% include motionsplan/faq.html %}
 
-<details markdown="1" class="references">
-  <summary><h2 id="references">Referencer</h2></summary>
+---
 
-- Braun, W. A., W. E. Hawthorne, og M. M. Markofski. 2005. “Acute EPOC Response in Women to Circuit Training and Treadmill Exercise of Matched Oxygen Consumption”. European Journal of Applied Physiology 94 (5–6): 500–504. <https://doi.org/10.1007/s00421-005-1383-7>.
-- Riegler, Michelle, G. Stotz, Kaitlyn Fitzgerald, Christian K. Munoz, Jamie Thornton Lewis, Sebastian Ring, og Todd A. Astorino. 2017. “Acute Responses to the 7-Minute Workout”. Journal of strength and conditioning research. <https://doi.org/10.1519/JSC.0000000000002073>.
-- Mosher, P. E., M. S. Nash, A. C. Perry, A. R. LaPerriere, og R. B. Goldberg. 1998. “Aerobic Circuit Exercise Training: Effect on Adolescents with Well-Controlled Insulin-Dependent Diabetes Mellitus”. Archives of Physical Medicine and Rehabilitation 79 (6): 652–57. <https://doi.org/10.1016/s0003-9993(98)90039-9>.
-- Maiorana, Andrew, Gerard O’Driscoll, Carmel Goodman, Roger Taylor, og Daniel Green. 2002. “Combined Aerobic and Resistance Exercise Improves Glycemic Control and Fitness in Type 2 Diabetes”. Diabetes Research and Clinical Practice 56 (2): 115–23. <https://doi.org/10.1016/s0168-8227(01)00368-0>.
-- Maiorana, A., G. O’Driscoll, C. Cheetham, J. Collis, C. Goodman, S. Rankin, R. Taylor, og D. Green. 2000. “Combined Aerobic and Resistance Exercise Training Improves Functional Capacity and Strength in CHF”. Journal of Applied Physiology (Bethesda, Md.: 1985) 88 (5): 1565–70. <https://doi.org/10.1152/jappl.2000.88.5.1565>.
-- Mattar, Lama, Natali Farran, og Dalal Bakhour. 2017. “Effect of 7-Minute Workout on Weight and Body Composition”. The Journal of Sports Medicine and Physical Fitness 57 (10): 1299–1304. <https://doi.org/10.23736/S0022-4707.16.06788-8>.
-- Takeshima, Nobuo, Michael E. Rogers, Mohammod M. Islam, Tomoko Yamauchi, Eiji Watanabe, og Akiyoshi Okada. 2004. “Effect of Concurrent Aerobic and Resistance Circuit Exercise Training on Fitness in Older Adults”. European Journal of Applied Physiology 93 (1–2): 173–82. <https://doi.org/10.1007/s00421-004-1193-3>.
-- Kraemer, W. J., M. Keuning, N. A. Ratamess, J. S. Volek, M. McCormick, J. A. Bush, B. C. Nindl, m.fl. 2001. “Resistance Training Combined with Bench-Step Aerobics Enhances Women’s Health Profile”. Medicine and Science in Sports and Exercise 33 (2): 259–69. <https://doi.org/10.1097/00005768-200102000-00015>.
-- Schmidt, Dan, Kaz Anderson, Marissa Graff, og Victoria Strutz. 2016. “The Effect of High-Intensity Circuit Training on Physical Fitness”. The Journal of Sports Medicine and Physical Fitness 56 (5): 534–40.
+<details markdown="1" class="references">
+  <summary><h2 id="references">Kilder og referencer</h2></summary>
+
+- **Braun, W. A., et al. (2005).** *Acute EPOC Response in Women to Circuit Training and Treadmill Exercise of Matched Oxygen Consumption.* European Journal of Applied Physiology, 94(5–6), 500–504.
+- **Schmidt, D., et al. (2016).** *The Effect of High-Intensity Circuit Training on Physical Fitness.* The Journal of Sports Medicine and Physical Fitness, 56(5), 534–40.
+- **Riegler, M., et al. (2017).** *Acute Responses to the 7-Minute Workout.* Journal of Strength and Conditioning Research, 31(9), 2552–2559.
+- **Takeshima, N., et al. (2004).** *Effect of Concurrent Aerobic and Resistance Circuit Exercise Training on Fitness in Older Adults.* European Journal of Applied Physiology, 93(1–2), 173–82.
 </details>

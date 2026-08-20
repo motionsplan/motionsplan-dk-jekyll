@@ -149,7 +149,7 @@ Til forlårene foreslår vi øvelser som [pistol squats](/oevelse/pistol-squat/)
 
 Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden du laver et nyt program. Fra træning til træning og fra uge til uge, kan du langsomt øge antallet af sæt og antallet af gentagelser.
 
-Du kan også bruge [forskellige metoder til at gøre kropsvægtstræningen mere effektiv](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/). Måske kan du endda lade dig inspirere af vores [kropsvægtsøvelser](/artikel/traening-med-kropsvaegt/). God fornøjelse med træningen i hvert fald.
+Du kan også bruge [forskellige metoder til at gøre kropsvægtstræningen mere effektiv](/artikel/traening-med-kropsvaegt/). Måske kan du endda lade dig inspirere af vores [kropsvægtsøvelser](/artikel/traening-med-kropsvaegt/). God fornøjelse med træningen i hvert fald.
 
 Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lave hjemme uden udstyr, når du gerne vil forberede dig til politiets fysiske optagelsesprøve.
 
@@ -300,4 +300,4 @@ Du kan lade dig inspirere til, hvordan du kan [forberede dig til politiets fysis
 
 Vi har andre forslag til [træningsprogrammer](/traeningsprogrammer/), [styrketræningsprogrammer](/styrketraeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/).
 
-Hvis du mere er typen, der gerne vil have en workout inspiraret af crossfit, så kan du tjekke flere eksempler på [workouts til hjemmetræning og træningsprogrammer](/hjemmetraening-traeningsprogram/) eller vores [28 Corona Workouts](/corona-workouts/).
+Hvis du mere er typen, der gerne vil have en workout inspiraret af crossfit, så kan du tjekke flere eksempler på [workouts til hjemmetræning og træningsprogrammer](/hjemmetraening-traeningsprogram/).

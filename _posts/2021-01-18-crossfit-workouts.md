@@ -1,178 +1,187 @@
 ---
-title: 'Crossfit workouts: Hvad er Workout of the Day i crossfit?'
+# SIDE-METADATA OG BRØDKRUMMER
+title: "Crossfit workouts: De mest populære WODs & øvelser"
+seo_title: "Crossfit workouts – Komplet guide til WODs, øvelser & begreber"
+description: "Komplet guide til crossfit workouts og WODs. Lær de mest kendte Girl- og Hero-workouts, forstå begreber som AMRAP og EMOM, og se de bedste øvelser."
 permalink: /crossfit-workouts/
+redirect_from:
+  - /crossfit-crossfit-oevelser/
+  - /artikel/crossfit/
 language: da
-header:
-  overlay_image: /assets/images/unsplash/photo-1536922246289-88c42f957773.jpg
-  credit: https://images.unsplash.com/photo-1536922246289-88c42f957773
-  teaser: /assets/images/unsplash/photo-1536922246289-88c42f957773.jpg
-  caption: 'Crossfit workouts: Hvad er Workout of the Day i crossfit?'
-categories:
-- Styrketræning
+page_type: "hub"
+primary_category: "Træning"
+
+category:
+  - Træning
+  - Styrketræning
+  - Crossfit
+
 tags:
-- styrketræning
-- crossfit
-last_modified_at: '2020-01-23T08:14:14Z'
-toc: 'true'
+  - crossfit
+  - workouts
+  - wod
+  - oevelser
+  - styrketraening
+
+header:
+  overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: "Crossfit workouts: Komplet guide til WODs, begreber og øvelser"
+
+last_modified_at: 2026-08-20T10:00:00Z
+toc: true
+
+# TESTS OG VÆRKTØJER
+tests: []
+tools: []
+
+# WORKOUTS (BENCHMARK WODs & POPULÆRE PAS)
+workouts:
+  - id: "workout-crossfit-cindy"
+    title: "Cindy (Girl Benchmark WOD)"
+    description: "Klassisk 20-minutters kropsvægts-AMRAP bestående af 5 pull-ups, 10 push-ups og 15 squats."
+    category: ["Crossfit", "Workouts"]
+    type: ["AMRAP", "Kropsvægt", "Benchmark"]
+    modality: ["Kropsvægt", "Kondition"]
+    duration: "20 minutter"
+    intensity: "Høj"
+    equipment: ["Pull-up bar"]
+    target_group: ["Begynder", "Øvet"]
+    anchor: "#cindy"
+
+  - id: "workout-crossfit-fran"
+    title: "Fran (Girl Benchmark WOD)"
+    description: "Klassisk og benhård 21-15-9 rep-scheme af thrusters (43/30 kg) og pull-ups for time."
+    category: ["Crossfit", "Workouts"]
+    type: ["For time", "Benchmark"]
+    modality: ["Vægtløftning", "Gymnastik"]
+    duration: "Under 10 minutter"
+    intensity: "Maksimal"
+    equipment: ["Vægtstang", "Pull-up bar"]
+    target_group: ["Øvet", "Elite"]
+    anchor: "#fran"
+
+  - id: "workout-crossfit-murph"
+    title: "Murph (Hero WOD)"
+    description: "Legendarisk Hero-workout: 1 mile løb, 100 pull-ups, 200 push-ups, 300 squats og 1 mile løb (evt. med 10 kg vægtvest)."
+    category: ["Crossfit", "Workouts"]
+    type: ["Hero WOD", "For time"]
+    modality: ["Løb", "Kropsvægt"]
+    duration: "30-60 minutter"
+    intensity: "Meget høj"
+    equipment: ["Pull-up bar", "Vægtvest (valgfri)"]
+    target_group: ["Øvet", "Erfaren"]
+    anchor: "#murph"
+
+  - id: "workout-crossfit-annie"
+    title: "Annie (Girl Benchmark WOD)"
+    description: "Aktiv kernessamling opbygget som 50-40-30-20-10 af double unders (eller single unders) og sit-ups for time."
+    category: ["Crossfit", "Workouts"]
+    type: ["For time", "Benchmark"]
+    modality: ["Sjippetov", "Kerne"]
+    duration: "10-15 minutter"
+    intensity: "Høj"
+    equipment: ["Sjippetov"]
+    target_group: ["Alle"]
+    anchor: "#annie"
+
+# OFTE STILLEDE SPØRGSMÅL (FAQ SCHEMA)
+faq:
+  - question: "Hvad betyder WOD i crossfit?"
+    answer: "WOD står for 'Workout of the Day'. Det er den specifikke træningsrutine eller cirkel, som er planlagt til en given dag i en crossfit-box eller på Crossfits officielle hjemmeside."
+
+  - question: "Hvad er forskellen på AMRAP og EMOM?"
+    answer: "AMRAP betyder 'As Many Reps/Rounds As Possible' på en fastsat tid (fx 15 minutter). EMOM står for 'Every Minute On the Minute', hvor du skal udføre en bestemt øvelse/antal gentagelser ved starten af hvert minut og holde pause i resten af minuttet."
+
+  - question: "Kan man lave crossfit workouts uden udstyr?"
+    answer: "Ja, der findes mange klassiske crossfit workouts (som fx Cindy, Chelsea og opbyggede AMRAPs), der udelukkende kræver din egen kropsvægt og evt. en stang at trække dig op i."
 ---
 
-Crossfit workouts er utrolig populære. En crossfit workout er en række øvelser sat sammen, som du skal gennemføre på en bestemt måde. Dette indlæg handler om Workout of the Day.
+Crossfit er en af de mest populære træningsformer i verden. Konceptet bygger på konstant varierende, funktionelle bevægelser udført under høj intensitet.
 
-*[WOD]: Workout of the Day
+Uanset om du træner i en officiel crossfit-box, i et kommercielt fitnesscenter eller derhjemme, er en **crossfit workout (WOD)** den mest effektive måde at opbygge både styrke, kondition, eksplosivitet og udholdenhed på samme tid.
 
-Hvad er en crossfit workout? **En crossfit workout er en træning bygget op af varierende funktionelle øvelser. Træningen kaldes Workout of the Day (WOD) og øvelserne udføres typisk med relativ høj intensitet. Længden af en crossfit workot er typisk 5-20 minutter.**
+---
 
-{% comment %}
+## 🏋️‍♂️ Hvad er en crossfit workout (WOD)?
 
-Se opstilling med udstyr + øvelser her — https://wodwell.com/wod/the-300/
+En crossfit workout er en struktureret træningsrutine sammensat af øvelser fra henholdsvis **vægtløftning**, **gymnastik/kropsvægt** og **kredsløbstræning (cardio)**. 
 
-{% endcomment %}
+Træningen kaldes ofte for en **WOD** (*Workout of the Day*). De fleste WODs er korte og intense – typisk mellem 5 og 20 minutter. Fordi intensiteten er så høj, opnår du et meget højt *power output* på kort tid.
 
-I princippet kan alle lave en crossfit workout ved at sammensætte forskellige øvelser, men jeg synes det er sjovest at kigge lidt på de klassiske workouts. Jeg har skrevet lidt mere om de [mest brugte crossfitøvelser](/crossfit-crossfit-oevelser/).
+Funktionelle bevægelser er kernen i crossfit. Det er bevægelser, som efterligner kroppens naturlige bevægemønstre: at løfte, skubbe, trække, sidde på huck, hoppe og kaste. Bevægelserne involverer mange led og store muskelgrupper, hvor kraften genereres fra kernen og ud i arme og ben.
 
-Når du søger på 'Crossfit Workouts', så er et af de første resultater på Google [Wodwells populære crossfit workouts](https://wodwell.com/wods/?sort=popular). Det er en ret god samling af en masse fede crossfit workouts, hvor en del er de officielle crossfit workouts.
+---
 
-Crossfit er et registreret varemærke, og derfor bliver man først en helt officiel crossfit workout, hvis workouten har været vist på Crossfits hjemmeside. Hver dage udgiver Crossfit en [Workout of the Day](https://www.crossfit.com/workout/), som du kan lade dig inspirere af. Beskrivelsen af den enkelte workout er ret god, og der er også mulighed for at skalere den op og ned.
+## 🔤 Ordbog: Begreber og forkortelser i crossfit
 
-Grundlæggende er de mere officielle crossfit workout kategoriseret i to kategorier.
+For at forstå og gennemføre en crossfit workout skal du kende de mest almindelige forkortelser og formater:
 
-- **Girls workouts**. Der er tradition for at opkalde orkaner efter kvinder. Derfor valgte Glassman også at opkalde workouts efter kvinder, fordi når man gennemfører dem føler man, at man er blevet ramt af en orkan. Disse workouts kaldes også ofte _benchmark workouts_, fordi mange har lavet dem, og du kan konkurrere mod andre i disse workouts.
-- **Hero workouts**. Disse workouts er opkaldt efter krigshelte, og ofte opfordres man til at udføre de enkelte workouts på fx _memorial day_. Den mest kendte er formentlig Murph.
-- **Workout of the Day**. Hver dag lægger Crossfit en WOD op på deres site, som forklaret ovenfor.
-- **Competition og Qualifier Workouts**. Hvis du vil kvalificere dig til Crossfit Open, så sker det gennem officielle workouts, som typisk er forskellige fra år til år.
+* **AMRAP (*As Many Reps/Rounds As Possible*):** Du har en fastsat tidsgrænse (f.eks. 15 minutter) og skal gennemføre så mange runder eller gentagelser af de givne øvelser som muligt, før tiden udløber.
+* **For time:** Du skal gennemføre en fastsat mængde øvelser og gentagelser så hurtigt som muligt. Din sluttid er dit resultat.
+* **EMOM (*Every Minute On the Minute*):** Ved starten af hvert minut udfører du et angivet antal gentagelser. Den tid, der er tilbage af minuttet, er din pause, før næste minut starter.
+* **Tabata:** Intervalstruktur bestående af 20 sekunders maksimalt arbejde efterfulgt af 10 sekunders pause, oprepadsket i 8 runder (samlet 4 minutter).
+* **Time cap:** En øvre tidsgrænse for en workout, så du ikke overbelaster kroppen, hvis du bruger længere tid end planlagt.
+* **Buy-in / Cash-out:** En øvelse, du skal gennemføre helt i starten (*buy-in*) eller til sidst (*cash-out*) i din workout (f.eks. 500 meter roning).
 
-Lad os dykke lidt ned i Girls workouts og Hero Workouts fra de forskellige Crossfit Workouts.
+---
 
-## Crossfit workouts: Pigerne
+## 🏆 Klassiske benchmark workouts: "Girls" og "Heroes"
 
-En del af de forskellige crossfit workouts har pigenavne. Det er der faktisk en ret enkel forklaring på.
+Inden for crossfit findes der en række berømte, standardiserede træningspas. De bruges som test-workouts (*benchmarks*), så du kan måle din fremgang over tid eller sammenligne dine tider med andre atleter.
 
-> I thought that anything that left you flat on your back, looking up at the sky asking 'what just happened to me?' deserved a females name. Workouts are just like storms, they wreak havoc on towns.
->
-> — <cite>Greg Glassman, stifter af Crossfit</cite>
+### ♀️ Girl workouts
+Grundlæggeren af Crossfit, Greg Glassman, opkaldte de første benchmark-workouts efter kvindenavne. Logikken var, at et træningspas, der efterlader dig fladt på ryggen mens du kigger op i loftet og tænker *"hvad skete der lige der?"*, fortjener et pigenavn ligesom orkaner.
 
-Det er hårdt arbejde at gennemføre de enkelte workouts, som typisk tager fra 5-20 minutter at gennemføre. Nogle af de mest kendte Crossfit Workouts er følgende:
+{% include figure image_path="https://www.crossfitholstebro.dk/wp-content/uploads/2016/01/thegirlshires.jpg" caption="God skematisk oversigt over girls crossfit workouts. Kilde: [Crossfit Holstebro](https://www.crossfitholstebro.dk/meet-the-crossfit-girls/)" %}
 
-{% comment %}
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=513973376219329601" height="952" width="600" frameborder="0" scrolling="no" ></iframe>
-{% endcomment %}
+* **Cindy (Kropsvægt):** 20 minutter AMRAP af 5 pull-ups, 10 push-ups og 15 squats.
+* **Fran (Vægtstang + Kropsvægt):** 21-15-9 gentagelser af thrusters og pull-ups for time.
+* **Annie (Sjippetov + Kerne):** 50-40-30-20-10 af double unders og sit-ups for time.
+* **Diane (Tung overkrop/bagkæde):** 21-15-9 af dødløft og handstand push-ups (HSPU) for time.
 
-{% include figure image_path="https://www.crossfitholstebro.dk/wp-content/uploads/2016/01/thegirlshires.jpg" caption="God skematisk oversigt over girls crossfit workouts. Kilde: [Crossfit Holsterbro](https://www.crossfitholstebro.dk/meet-the-crossfit-girls/)" %}
+### 🎖️ Hero workouts
+Hero Workouts er ekstra lange og ekstremt krævende pas opkaldt efter faldne soldater, brandmænd eller politifolk. De udføres ofte på årsdage for at ære deres indsats.
 
-Jeg spurge crossfitlæreren på Vejle Idrætshøjskole, Mette Bjerre, hvad hendes yndlings crossfit workouts er, hvor der skal bruges et minimum af udstyr.
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=ARwIDHz_FAONnFEh5FKn92HlKdpDdMzNbLmQEa3MtyuozYcJQ__36Ao" height="1086" width="600" frameborder="0" scrolling="no"></iframe>
 
-Hendes foretrukne workouts var følgende:
+* **Murph:** 1,6 km løb (1 mile), 100 pull-ups, 200 push-ups, 300 squats og 1,6 km løb for time (traditionelt udført med en 10 kg vægtvest).
 
-- Diane (barbell)
-- Mary (pullup bar)
-- Annie (sjippetov)
-
-## Hero Crossfit workouts
-
-Hero Workouts er crossfit workouts, som skal hædre nogle personer, som fx kan være faldet i krig. Du kan se en oversigt over en del af Hero workouts her:
-
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=289285976050705184" height="700" width="600" frameborder="0" scrolling="no" ></iframe>
-
-Hvis Mette Bjerre skulle vælge en favorit blandt Hero Crossfit Workouts, så ville hun vælge Murph, hvor du kun skal bruge en Pullup bar.
-
-## Hvordan forstår jeg en crosssfit workout?
-
-Når du læser en crossefit workout, så er de sammensat på forskellige måder. Det kan være godt lige at kende skabelonen for, hvordan en crossfit workout kan være skruet sammen - og sætte sig ind i de forskellige begreber.
-
-## Begreber i en crossfit workout
-
-Hvis du skal forstå crossfit workouts, så er der en række begreber, du skal forstå.
-
-*[AMRAP]: As many reps as possible
-*[EMOM]: Every Minute on the Minute
-
-Hvad betyder AMRAP?
-: AMRAP betyder 'as many reps as possible'. Typisk vil en AMRAP-workout være lavet med en _time cap_, hvor du fx skal lave så mange gentagelser som muligt i et givent tidsrum. En AMRAP-workout foregår ofte i runder.
-
-Hvad betyder 'For time'?
-: Du skal så hurtigt som muligt gennemføre øvelserne og antallet af gentagelserne. Præstationen i workouten bliver således den samlede tid for at gennemføre workouten.
-
-Hvad er EMOM?
-: EMOM betyder 'every minute on the minute'. Det betyder, at man hvert minut skal lave det angivne antal øvelser og gentagelser. Så har du pause indtil næste minut. Sommetider kan man lave en øvelse i 'pausen' til at optjene point. Fx bruges kettlebell swings sommetider til at optjene point.
-
-Hvad betyder 'For load'?
-: Denne type workout bliver ikke brugt så ofte, men en workout kan også bestå i, at du undervejs i workouten skal lave den så tung som muligt.
-
-Hvad er Tabata-intervaller?
-: Tabata-intervaller er 20 sekunders arbejde og 10 sekunders pause.
-
-'I go, yo go'
-: En workout kan også konstrueres som en makker workout. Der skiftes man til at lave øvelserne.
-
-{% comment %}
-
-Templates for workouts.
-
-EMOM
-
-AMRAP
-
-x REPS for time
-
-100 - 90 - 80 …
-
-20 - 40 - 60
-
-13 - fordi det er fredag den 13 - mv.s
-
-Tabata
-
-3 x 3 - 3 x 3 - 3 x 3
-
-
-## Hvordan skalerer du en crossfit workout?
-{% endcomment %}
-
-## Hvor ofte kan jeg lave crossfit workouts?
-
-En crossfit workout er ofte en hård intensiv omgang. Derfor er det formentlig ikke nogen god ide at lave en workout hver eneste dag. Jeg kan godt lide den måde, de har bygget træningen op på i Training for Warriors.
-
-Der kører de typisk tung styrketræning to gange om ugen, og to gange om ugen er der planlagt _hurricanes_, som kan sammenlignes med en crossfit workout. Ved at køre crossfit workouts to gange om ugen, så kan du virkelig ramme kredsløbet hårdt, men samtidig have mulighed for at restitutere.
-
-Hvordan planlægger du crossfit workouts i din træning?
-
-{% comment %}
-
-## Crossfit workouts med kropsvægt
-
-Cindy
-Murph
-Annie
-Angie
-Chelsea
-Mary
-Kerrie
-
-## Crossfit workouts med håndvægte
-
-Ellen
-
-## Crossfit workouts med vægtstang
-
-Bear complex
-DT
-Fran
-Linda
-
-{% endcomment %}
-
-## Hvad er de hårdeste benchmark crossfit workouts?
+### 📹 Hvad er de hårdeste benchmark workouts?
+Vil du se, hvordan de absolut hårdeste benchmark workouts ser ud i praksis, kan du se denne gennemgang:
 
 {% include video provider="youtube" id="QOD5ubsJoBQ" %}
 
-## Crossfit øvelser til workouts
+---
 
-Jeg spurgte crossfitlæreren på Vejle Idrætshøjskole, hvad hendes favorit crossfit øvelser var. Hun svarede hurtigt:
+## 🤸‍♂️ Populære crossfit øvelser
 
-1) Handstand Pushups (HSPU)
-2) Pistols (one legged squats)
-3) [Burpees](/oevelse/burpees/)
+Øvelserne i crossfit kan varieres uendeligt. De tre mest klassiske kropsvægtsfavoritter til hjemmetræning eller i boksen er:
 
-Jeg har skrevet et andet indlæg, der går lidt mere i dybden med [crossfitøvelser](/crossfit-crossfit-oevelser/).
+1. **Handstand push-ups (HSPU):** Krævende skulderpres i håndstand op mod en væg.
+2. **Pistols (One-legged squats):** Enbenede squats, der kræver stor balance, mobilitet og styrke.
+3. **Burpees:** Den ultimative helkropsøvelse til at få pulsen helt i top.
 
-Har du nogle gode Workout of the Days, som du vil dele med os i kommentarerne. Måske endda en tid vi skal slå?
+{% include video provider="youtube" id="e0nwx7Q5j-k" %}
+
+Udforsk vores komplette arkiv af øvelser, der egner sig til crossfit og funktionel træning herunder:
+
+{% assign exercises = site.exercises | where: "tags", "crossfit" | sort: "title" %}
+{% include motionsplan/exercise-grid.html title="Øvelser til crossfit og funktionel træning" exercises=exercises input_type="array" %}
+
+---
+
+## 📈 Hvor ofte bør du køre crossfit workouts?
+
+Fordi en crossfit WOD har så høj intensitet, kræver det god restitution. 
+
+* **Begyndere:** 2 gange om ugen kombineret med almindelig styrketræning eller kredsløb.
+* **Øvede:** 3–4 ugentlige pas med indlagte hviledage (f.eks. mønsteret 3 dages træning, 1 dags pause).
+
+Du kan også lade dig inspirere af *Training for Warriors*-konceptet, hvor man kører tung, kontrolleret styrketræning 2 gange om ugen og kombinerer det med 2 ugentlige højintensive WODs/hurricanes for maksimal fedtforbrænding og kondition uden at brænde ud.
+
+---
+
+## ❓ Ofte stillede spørgsmål om crossfit
+
+{% include motionsplan/faq.html %}
