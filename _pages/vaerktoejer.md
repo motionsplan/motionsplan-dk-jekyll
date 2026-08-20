@@ -103,8 +103,9 @@ Gør din træning og sundhed mere datadrevet. Hvad enten du vil beregne din ener
 {: .notice--info}
 **Leder du efter en specifik beregner?** Åbn tabellen herunder for at søge og filtrere i alle vores interaktive beregnere.
 
-{% include table/filter-table-tools.html %}
-
+{% include table/filter-table-tools.html 
+   placeholder="Søg i alle værktøjer (fx watt, kcal, pulszoner)..." 
+   pills="Watt, Kcal, Puls, Løb, Styrke, Energi" %}
 
 ---
 

@@ -80,7 +80,7 @@ Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split,
 
 <div class="feature__wrapper">
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "splitprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "splitprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit:16 %}
@@ -98,7 +98,7 @@ Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split,
 
 <div class="feature__wrapper">
 
-{% assign articles = site.posts | where: "category", "Styrketræning" | where: "tags", "programlægning" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
+{% assign articles = site.posts | where: "categories", "Styrketræning" | where: "tags", "programlægning" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
 
 {% if articles.size > 0 %}
   {% for post in articles %}

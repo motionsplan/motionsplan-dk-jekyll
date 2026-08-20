@@ -35,7 +35,7 @@ For at måle og forbedre disse færdigheder anvendes standardiserede **retningss
 
 ---
 
-## Agility vs. Change of Direction (COD): Kender du forskellen?
+## Agility vs. Change of Direction (COD): Sådan er forskellen?
 
 I idrætsfysiologien skelnes der skarpt mellem to begreber, som ofte forveksles i daglig tale:
 
@@ -76,6 +76,19 @@ Forskellige sportsgrene stiller vidt forskellige krav til vinklerne i retningssk
 
 ---
 
+## 🔍 Søg i alle retningsskift- og agilitytests
+{: id="oversigt" }
+
+Brug søgeboksen eller filtrér på knapperne for at finde specifikke testprotokoller og beregnere:
+
+{% include table/filter-table-tests-v2.html 
+   category="Eksplosivitet" 
+   label="agilitytests" 
+   placeholder="Søg i agility- & COD-tests (fx 505, Illinois, T-Test, Pro Agility)..." 
+   pills="Agility, Retningsskift, Reaktiv, Felt, Asymmetri" %}
+
+---
+
 ## De vigtigste retningsskift-tests
 
 Herunder finder du et overblik over de mest populære og videnskabeligt validerede COD-tests.
@@ -95,7 +108,7 @@ Atleten starter i midten, sprinter 5 meter (eller yards) til højre og rører li
 ### 2. 505 Agility Test – Den gyldne standard for $180^\circ$ vendinger
 {% include figure image_path="/assets/images/scienceforsport.com/Figure-1-Test-configuration-for-the-5-0-5-agility-test-d2d5dcd4.png" caption="Kilde: [scienceforsport.com](https://www.scienceforsport.com/5-0-5-agility-test/) [📷](https://www.scienceforsport.com/wp-content/uploads/2016/01/Figure-1-Test-configuration-for-the-5-0-5-agility-test.png){: rel='nofollow noopener' }" %}
 
-{% include video provider="youtube" id="ws0MsAy8t_4" %}
+{% include video provider="youtube" id="z-wV9O8y-a0" %}
 
 Formålet med 505-testen er at isolere evnen til at deaccelerere fra høj fart, plante én vendefod og accelerere $180^\circ$ i modsat retning. Testen indeholder $10\text{ meters}$ flyvende tilløb, så udøveren rammer testzonen med høj hastighed.
 

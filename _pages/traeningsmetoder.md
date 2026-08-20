@@ -46,7 +46,7 @@ Intensitetsteknikker og volumenmetoder designet til at maksimere det mekaniske s
 * **Triset & Giantset** – 3 eller flere øvelser udført i stak for samme muskelgruppe.
 
 <div class="feature__wrapper">
-{% assign hypertrofi_methods = site.methods | where: "category", "Hypertrofi" %}
+{% assign hypertrofi_methods = site.methods | where: "categories", "Hypertrofi" %}
 {% for method in hypertrofi_methods %}
   {% include components/method-card.html method=method %}
 {% endfor %}
@@ -63,7 +63,7 @@ Metoder der stimulerer nervesystemets evne til at rekruttere flest mulige motore
 * **Backoff sæt** – Lettere volumentsæt udført efter dagens tungeste topsæt.
 
 <div class="feature__wrapper">
-{% assign maxstrength_methods = site.methods | where: "category", "Styrketræning" %}
+{% assign maxstrength_methods = site.methods | where: "categories", "Styrketræning" %}
 {% for method in maxstrength_methods %}
   {% include components/method-card.html method=method %}
 {% endfor %}
@@ -79,7 +79,7 @@ Metoder til forbedring af $RFD$ (Rate of Force Development) og eksplosiv kraftud
 * **[Plyometrisk træning](/plyometrisk-traening/)** – Hop, faldhop og reaktive øvelser, der træner stræk-forkortnings-cyklussen (SSC) og øger din reaktive styrke.
 
 <div class="feature__wrapper">
-{% assign power_methods = site.methods | where: "category", "Power" %}
+{% assign power_methods = site.methods | where: "categories", "Power" %}
 {% for method in power_methods %}
   {% include components/method-card.html method=method %}
 {% endfor %}

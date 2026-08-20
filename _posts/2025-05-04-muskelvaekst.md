@@ -338,7 +338,7 @@ Patroklos Androulakis-Korakakis og kollegaer satte sig til at undersøge, hvad d
 
 ## Alt om muskelvækst
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "hypertrofi" | sort: "date" %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "hypertrofi" | sort: "date" %}
 
 <div class="feature__wrapper">
 

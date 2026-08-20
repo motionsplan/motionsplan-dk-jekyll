@@ -208,7 +208,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 ## Endnu mere om programlægning til styrketræning
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "programlægning" | sort: "date" %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "programlægning" | sort: "date" %}
 
 <div class="feature__wrapper">
 
@@ -224,7 +224,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 Styrketræning kan være en rigtig god træningsaktivitet. Vi har skrevet en del indlæg, der henvender sig til begyndere i styrketræning.
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "begynder" | sort: "date" %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "begynder" | sort: "date" %}
 
 <div class="feature__wrapper">
 
@@ -244,7 +244,7 @@ Styrketræning kan være en rigtig god træningsaktivitet. Vi har skrevet en del
 
 ## Relevante tests og beregnere til styrkeløft
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "beregner" | sort: "date" %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "beregner" | sort: "date" %}
 
 <div class="feature__wrapper">
 
@@ -286,7 +286,7 @@ Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes d
 
 ## Bliv inspireret til din træning i styrkeløft
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | sort: "date" %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | sort: "date" %}
 
 <div class="feature__wrapper">
 

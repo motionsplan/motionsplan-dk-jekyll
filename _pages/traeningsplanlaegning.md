@@ -177,7 +177,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 ## Endnu mere om programlægning til styrketræning
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "programlægning" | sort: "date" %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "programlægning" | sort: "date" %}
 
 <div class="feature__wrapper" markdown="1">
 

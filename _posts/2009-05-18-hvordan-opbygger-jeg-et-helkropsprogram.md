@@ -173,7 +173,7 @@ Vil du også gerne have maksimalt udbytte af færrest mulige øvelser? Ofte afs�
 
 Rigtig mange af de [klassiske træningsprogrammer til styrke](/styrketraeningsprogrammer/) er fuldkropsprogrammer. Her kan du se et udsnit af de helkropsprogrammer, jeg har beskrevet.
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "fullbody" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "fullbody" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper" markdown="1">
 

@@ -73,7 +73,7 @@ Tests til dig, der vil måle din absolutte spidseffekt (Peak Power), din syretol
 
 * ⚡ **[Peak Power Test (6-15 sekunder)](/6sek/)** – Måler din rene rå maks-watt i en stående sprint fra lav hastighed.
 * 🚴 **[Wingate 30-sekunders All-Out Test](/wingate/)** – Den klassiske laboratoriums-sprinttest på ergometercykel. Måler din anaerobe effekt, syretolerance og effektfald over 30 sekunder.
-* 📉 **[MPO & Anaerob kapacitetstest](/mpo-test/)** – Måler din maksimale pedaleffekt ved kortvarigt arbejde.
+
 
 </div>
 
@@ -87,8 +87,8 @@ Når du har gennemført din test, kan du bruge vores øvrige værktøjer til at 
 
 **Træn videre ud fra dine resultater:**
 
-* 📊 **[Udregn dine Watt-zoner](/wattzoner/)** – Indtast din FTP og få dine præcise træningszoner (Z1-Z7).
-* ⚖️ **[Watt pr. kg beregner](/watt-pr-kg/)** – Sammenlign din styrke på stigninger i forhold til din kropsvægt.
+* 📊 **[Udregn dine Watt-zoner](/ftp-cykling/)** – Indtast din FTP og få dine præcise træningszoner (Z1-Z7).
+* ⚖️ **[Watt pr. kg beregner](/vam/)** – Sammenlign din styrke på stigninger i forhold til din kropsvægt.
 * 🚴‍♂️ **[Se alle cykelartikler og træningstips »](/cykling/)**
 
 </div>

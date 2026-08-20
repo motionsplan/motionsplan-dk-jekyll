@@ -29,6 +29,17 @@ categories:
   - Vurderingsværktøjer
   - Psykologi
 last_modified_at: '2026-08-11T23:00:00Z'
+faq:
+  - question: Kan jeg bruge disse online vurderingsværktøjer til at få en diagnose?
+    answer: Nej, online spørgeskemaer og selvtests kan ikke stille en klinisk diagnose. De er udelukkende udviklet som redskaber til selvrefleksion, oplysning og tidlig screening. Hvis du oplever tegn på alvorlig mistrivsel, stress, depression eller usund adfærd, bør du altid kontakte din egen læge eller en autoriseret fagperson.
+  - question: Hvad er forskellen på en præstationstest og et psykologisk vurderingsværktøj?
+    answer: En præstationstest måler din fysiske kapacitet (fx iltoptagelse, styrke eller hurtighed). Et psykologisk vurderingsværktøj evaluerer dine mentale parametre – såsom dit stressniveau, din generelle trivsel, din mentale robusthed under pres eller balancen mellem din træning og dit energiindtag.
+  - question: Hvad betyder REDs, og hvornår bør man bruge testen?
+    answer: REDs står for Relativ Energimangel i Sport (Relative Energy Deficiency in Sport). Det opstår, når kroppen får for lidt energi gennem kosten i forhold til træningsmængden. Hvis du oplever vedvarende træthed, hyppige skader, hormonelle forstyrrelser eller manglende præstationsfremgang, bør du udføre en REDs-screening.
+  - question: Hvordan bruger jeg bedst mit testresultat i hverdagen?
+    answer: Brug resultatet som et objektivt data-punkt til at forstå din egen tilstand. Mange atleter og motionister anvender deres score som en samtalestarter med deres træner, fysioterapeut eller pårørende til at justere træningsmængden, forbedre restitutionen eller skabe sundere vaner.
+  - question: Hvor ofte bør jeg udføre en trivsels- eller stresstest?
+    answer: Ved brede trivselsmålinger (som WHO-5 eller PSS-10) giver en gentagelse hver 2.–4. uge et rigtig godt billede af din udvikling. Tests for spiseadfærd eller mentalt overskud under præstation kan med fordel tages ved opstarten af en ny træningsfase, eller hvis du mærker forandringer i din hverdag.
 ---
 
 Velkommen til vores samlede katalog over **psykologiske tests og mentale vurderingsværktøjer**. Mentalt velvære, følelsesmæssig balance og god restitution er fundamentet for både hverdagens livskvalitet og fysiske præstationer.
@@ -37,18 +48,29 @@ Herunder finder du anerkendte, videnskabeligt validerede screeningsværktøjer o
 
 ---
 
-## 🛑 Vigtigt: Selvtests erstatter ikke professionel hjælp
+<div class="notice--warning" markdown="1">
 
-Vores online vurderingsværktøjer og psykologiske spørgeskemaer er udviklet til **selvrefleksion, oplysning og tidlig screening**:
+⚠️ **Vigtigt: Selvtests erstatter ikke professionel hjælp.** En online test kan **aldrig** erstatte en professionel klinisk vurdering hos en læge, psykolog eller psykiater.
 
-> ⚠️ **Husk:** En online test kan **aldrig** stille en medicinsk eller psykologisk diagnose, og den kan ikke erstatte en professionel vurdering eller samtale med en læge, psykolog eller autoriseret behandler.
-> 
-> Hvis du oplever alvorlig mistrivsel, langvarig nedtrykthed, lammende angst eller tegn på alvorlig overtræning/spiseforstyrrelse, bør du altid henvende dig til din egen læge eller en relevant rådgivningslinje.
-{: .notice--info }
+Hvis du oplever alvorlig mistrivsel, langvarig nedtrykthed, lammende angst eller tegn på alvorlig overtræning/spiseforstyrrelse, bør du altid henvende dig til din egen læge eller en relevant rådgivningslinje.
+
+</div>
+---
+
+## 🔍 Søg i alle mentale og psykologiske tests
+{: id="oversigt" }
+
+Brug søgeboksen eller filtrér på knapperne for at finde det specifikke spørgeskema eller værktøj, du skal bruge:
+
+{% include table/filter-table-tests-v2.html 
+   category="Vurderingsværktøjer" 
+   label="psykologiske tests" 
+   placeholder="Søg i tests (fx WHO-5, REDs, PHQ-9, Stress, Mindset)..." 
+   pills="Trivsel, Stress, Træningsbalance, Præstation, Motivation" %}
 
 ---
 
-## Mentale Vurderinger & Psykologiske Tests
+## Mentale vurderinger & psykologiske tests
 {: id="mentale-tests" }
 
 Tag vores online selvtests for at få et overblik over dit mentale overskud, din trivsel og dit præstationsmindset:
@@ -102,3 +124,7 @@ En af de bedste måder at anvende psykologiske spørgeskemaer på er som et **ob
 * ⏱️ **[Det Samlede Fysiske Testkatalog](/tests/)** – Se alle løbe-, cykel-, konditions- og styrketests.
 * 🧮 **[Interaktive Beregnere](/beregnere/)** – Udregn 1RM, kaloriebehov, BMI, pulszoner og fedtprocent.
 * 🛠️ **[Træningsværktøjer & Biomekanik](/vaerktoejer/)** – Analysér din løfteteknik i squat, bænkpres og dødløft.
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}

@@ -3,6 +3,7 @@
   - category: fx "Løb" (filtrerer på kategorier og tags)
   - label: fx "løbeberegnere" (standard: "beregnere")
   - placeholder: fx "Søg i løbeberegnere..."
+  - pills: fx "Watt, Kcal, Puls, Løb, Styrke" (komma-separerede hurtig-filtre)
   - widget_id: unikt ID hvis der er flere tabeller på samme side (standard: "calc")
 {% endcomment %}
 
@@ -46,6 +47,17 @@
       <span class="calc-btn-arrow">▼</span>
     </button>
   </div>
+
+  <!-- FILTRERINGS-PILLS -->
+  {% if include.pills %}
+  {% assign pills_array = include.pills | split: "," %}
+  <div class="calc-pills-wrapper" id="{{ widget_id }}-pills">
+    {% for pill in pills_array %}
+      {% assign pill_clean = pill | strip %}
+      <button type="button" class="calc-pill-btn" data-pill="{{ pill_clean }}">{{ pill_clean }}</button>
+    {% endfor %}
+  </div>
+  {% endif %}
 
   <!-- TABEL (SKJULT SOM STANDARD) -->
   <div id="{{ widget_id }}-table-wrapper" class="calc-table-wrapper" style="display: none;">
@@ -175,6 +187,38 @@
   transition: transform 0.2s;
 }
 
+/* PILLS STYLING */
+.calc-pills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.calc-pill-btn {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.calc-pill-btn:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.calc-pill-btn.active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
 .calc-table-wrapper {
   background: #ffffff;
   border: 1px solid #e2e8f0;
@@ -229,6 +273,7 @@
   const toggleBtn = document.getElementById(widgetId + "-toggle-btn");
   const arrow = toggleBtn ? toggleBtn.querySelector(".calc-btn-arrow") : null;
   const noResults = document.getElementById(widgetId + "-no-results-msg");
+  const pillBtns = document.querySelectorAll("#" + widgetId + "-pills .calc-pill-btn");
 
   if (!input || !wrapper || !table) return;
 
@@ -263,7 +308,34 @@
     }
   }
 
-  input.addEventListener("input", filterTable);
+  // Håndter pill-klik
+  pillBtns.forEach(btn => {
+    btn.addEventListener("click", function() {
+      const pillValue = this.getAttribute("data-pill");
+
+      if (this.classList.contains("active")) {
+        this.classList.remove("active");
+        input.value = "";
+      } else {
+        pillBtns.forEach(b => b.classList.remove("active"));
+        this.classList.add("active");
+        input.value = pillValue;
+      }
+
+      filterTable();
+    });
+  });
+
+  // Fjern active-state fra pills hvis brugeren selv indtaster noget i søgefeltet
+  input.addEventListener("input", function() {
+    const val = input.value.trim().toUpperCase();
+    pillBtns.forEach(b => {
+      if (b.getAttribute("data-pill").toUpperCase() !== val) {
+        b.classList.remove("active");
+      }
+    });
+    filterTable();
+  });
 
   toggleBtn.addEventListener("click", function() {
     isExplicitlyExpanded = !isExplicitlyExpanded;

@@ -174,7 +174,7 @@ En god form er afgørende for et godt helbred, at hverdagen føles lettere og du
 
 ## Artikler om kondition
 
-{% assign site_posts = site.posts | where: "category", "Kondition" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "categories", "Kondition" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 

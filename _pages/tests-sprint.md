@@ -71,21 +71,16 @@ Præcision er alt i en sprinttest, da forskellen på et gennemsnitligt og et fre
 
 ---
 
-## Alle sprinttests og måleværktøjer
+## 🔍 Søg i alle sprinttests og måleværktøjer
+{: id="oversigt" }
 
-Herunder finder du vores guides, testprotokoller og tilhørende beregnere til måling af sprinthurtighed:
+Brug søgeboksen eller filtrér på knapperne for at finde testprotokoller, guides og beregnere til måling af sprinthurtighed, acceleration og agilitet:
 
-{% assign site_posts = site.posts | where: "tags", "sprinttest" | sort: "date" %}
-
-{% if site_posts.size > 0 %}
-<div class="feature__wrapper">
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-</div>
-{% else %}
-<p>Udforsk vores guides til acceleration, tophastighed og sprintceller ovenfor.</p>
-{% endif %}
+{% include table/filter-table-tests-v2.html 
+   category="Sprint" 
+   label="sprinttests" 
+   placeholder="Søg i sprinttests (fx 30m sprint, Flyvende 20m, Agilitet, Acceleration)..." 
+   pills="Acceleration, Tophastighed, Retningsskift, Fotoceller" %}
 
 ---
 

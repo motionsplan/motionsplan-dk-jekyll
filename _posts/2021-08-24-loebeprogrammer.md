@@ -53,11 +53,14 @@ Et løbeprogram kan være din genvej til fremgang, motivation og færre skader. 
 Vil du gerne [lære at løbe hurtigere](/loeb-hurtigere/) eller vil du bare gerne i gang med at løbe, så er du kommet til det rette sted.
 
 <div class="notice--info" markdown="1">
-> 🏃‍♂️ **Leder du efter andre typer træningsprogrammer?**  
-> Siden her er fokuseret på løb. Hvis du leder efter træning i fitnesscenteret eller skabeloner, kan du tjekke vores andre sektioner:
-> * 🏋️‍♂️ **[Styrketræningsprogrammer](/styrketraeningsprogrammer/)** – Fullbody, splitprogrammer og basisløft.
-> * 🚶‍♂️ **[Gåprogrammer & Gangtræning](/gangtraening/)** – Skånsom motion og vægttab.
-> * 📋 **[Alle Træningsprogrammer](/traeningsprogrammer/)** – Se vores samlede overblik og skabeloner.
+
+🏃‍♂️ **Leder du efter andre typer træningsprogrammer?**  
+
+Siden her er fokuseret på løb. Hvis du leder efter træning i fitnesscenteret eller skabeloner, kan du tjekke vores andre sektioner:
+
+* 🏋️‍♂️ **[Styrketræningsprogrammer](/styrketraeningsprogrammer/)** – Fullbody, splitprogrammer og basisløft.
+* 🚶‍♂️ **[Gåprogrammer & Gangtræning](/gangtraening/)** – Skånsom motion og vægttab.
+* 📋 **[Alle Træningsprogrammer](/traeningsprogrammer/)** – Se vores samlede overblik og skabeloner.
 </div>
 
 ---
@@ -112,7 +115,7 @@ Vil du nørde teorien og principperne bag en god opbygning? Vi har skrevet dybde
 
 <div class="feature__wrapper" markdown="1">
 
-{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "træningsfilosofi" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "categories", "Løb" | where: "tags", "træningsfilosofi" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}

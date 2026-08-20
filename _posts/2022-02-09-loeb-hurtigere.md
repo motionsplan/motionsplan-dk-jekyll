@@ -70,7 +70,7 @@ Styrketræning er meget effektivt, hvis du gerne vil blive en bedre løber. Hvis
 
 Her kan du se nogle af de indlæg vi har skrevet om styrketræning og løb.
 
-{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "styrketræning" | sort: "date" %}
+{% assign site_posts = site.posts | where: "categories", "Løb" | where: "tags", "styrketræning" | sort: "date" %}
 
 <div class="feature__wrapper">
 

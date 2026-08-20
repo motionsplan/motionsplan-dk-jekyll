@@ -119,7 +119,7 @@ Specialiserede styrkeløftprogrammer eller avancerede cyklusser med fokus på pe
 *Helkropsprogrammer med fokus på basisøvelser og simpel progression.*
 
 <div class="feature__wrapper">
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where: "tags", "begynder" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "træningsprogram" | where: "tags", "begynder" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
     {% include_cached archive-single.html post=post type="grid" %}
@@ -135,7 +135,7 @@ Specialiserede styrkeløftprogrammer eller avancerede cyklusser med fokus på pe
 *For dig, der har styr på teknikken og vil opbygge mere muskelmasse eller styrke.*
 
 <div class="feature__wrapper">
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where: "tags", "øvet" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "træningsprogram" | where: "tags", "øvet" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
     {% include_cached archive-single.html post=post type="grid" %}
@@ -151,7 +151,7 @@ Specialiserede styrkeløftprogrammer eller avancerede cyklusser med fokus på pe
 *For erfarne løftere med behov for langsigtet periodisering.*
 
 <div class="feature__wrapper">
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where: "tags", "erfaren" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "træningsprogram" | where: "tags", "erfaren" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
     {% include_cached archive-single.html post=post type="grid" %}
@@ -166,7 +166,10 @@ Specialiserede styrkeløftprogrammer eller avancerede cyklusser med fokus på pe
 
 Brug tabellen herunder til at filtrere på tværs af hele vores katalog ud fra træningsdage, niveau og type:
 
-{% include table/filter-table-strengthprograms.html %}
+{% include table/filter-table-programs.html
+   category="styrke" 
+   placeholder="Søg i styrkeprogrammer (fx fullbody, split, håndvægte)..." 
+   pills="Fullbody, 2-split, 3-split, Begynder, Håndvægte, Styrkeløft" %}
 
 ---
 

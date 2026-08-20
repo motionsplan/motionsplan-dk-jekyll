@@ -55,6 +55,17 @@ feature_row_police_test:
   btn_class: btn--success
 classes: wide
 mathjax: true
+faq:
+  - question: Hvorfor er det en god idé at tage fysiske tests?
+    answer: Fysiske tests giver dig et objektivt nulpunkt for din nuværende form. Ved at teste dig selv regelmæssigt kan du måle, om din træning virker, fastholde motivationen og justere dit træningsprogram, hvis du ikke ser den ønskede fremgang.
+  - question: Hvilken type test skal jeg vælge?
+    answer: Det afhænger af dit mål. Vil du forbedre din udholdenhed, skal du kigge på konditionstests (fx Cooper eller Wattmax). Er du styrkeløfter, er en 1RM-test relevant, og spiller du fodbold, bør du kigge på sprint- og agilitetstests (fx Yo-Yo eller Bip-test).
+  - question: Hvor ofte bør man teste sin fysiske form?
+    answer: Det anbefales typisk at teste sin form hver 4. til 8. uge. Kroppen har brug for tid til at tilpasse sig træningen (superkompensation), så hvis du tester for ofte, vil du ikke kunne måle nogen reel fysiologisk fremgang.
+  - question: Skal man presse sig selv til fuld udmattelse i en test?
+    answer: Ikke nødvendigvis. Der findes både maksimale tests (hvor du yder dit absolutte max) og submaksimale tests (hvor du arbejder ved moderat puls). Submaksimale tests er skånsommere, kræver kortere restitution og er ideelle til begyndere.
+  - question: Kan jeg teste min form derhjemme uden udstyr?
+    answer: Ja, du behøver intet laboratorium. Der findes mange felt-tests, du kan lave hjemme eller udendørs, fx en 3-minutters step-test til kondition, en planke-test til core-styrke, eller en 1,6 km gå-test til at vurdere dit generelle helbred.
 ---
 
 Velkommen til vores samlede **testkatalog**. Fysiske og psykologiske tests er det bedste redskab til at objektivisere din fysiske form, måle træningsfremgang og identificere svagheder.
@@ -180,10 +191,14 @@ En **fitnesstest** er en struktureret måling af din fysiske formåen inden for 
 
 ---
 
-## Specifikke Testpakker & Sundhedsprofiler
+## Specifikke testpakker & sundhedsprofiler
 
 {% include feature_row id="feature_row_police_test" type="left" %}
 
 {% include feature_row id="feature_row_test_fat_percent" type="left" %}
 
 {% include feature_row id="feature_row_mental_tests" type="left" %}
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}

@@ -39,7 +39,7 @@ Hvis du vil se andre typer styrketræningsprogrammer, kan du gå til vores [over
 
 Rigtig mange af de [klassiske træningsprogrammer til styrke](/styrketraeningsprogrammer/) er fuldkropsprogrammer. Her kan du se et udsnit af de helkropsprogrammer, jeg har beskrevet.
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "fullbody" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "categories", "Styrketræning" | where: "tags", "fullbody" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 

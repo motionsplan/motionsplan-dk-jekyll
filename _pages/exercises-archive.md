@@ -191,7 +191,7 @@ Udforsk vores overordnede guides til de mest populære træningsformer – fra c
 
 <div class="feature__wrapper" markdown="1">
 
-{% assign training_forms = site.posts | where: "category", "Træning" | where: "tags", "moc" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% assign training_forms = site.posts | where: "categories", "Træning" | where: "tags", "moc" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if training_forms.size > 0 %}
   {% for post in training_forms limit: 4 %}

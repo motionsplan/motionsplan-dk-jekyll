@@ -1,5 +1,20 @@
+{% comment %}
+  Parametre du kan sende med på interne sider:
+  - category: "løb", "styrke", "cykling", "gang" (præ-filtrerer automatisk)
+  - pills: fx "Begynder, 5 km, 10 km, Halvmaraton" eller "Fullbody, Split, Vægttab"
+  - placeholder: fx "Søg i løbeprogrammer..."
+  - show_table: "true" (viser tabellen med det samme ved indlæsning)
+  - hide_category_select: "true" (skjuler kategori-dropdownen, ideelt til rene undersider)
+{% endcomment %}
+
 {% assign initial_cat = include.category | default: "" | downcase %}
-{% assign search_placeholder = include.placeholder | default: "Søg i alle programmer (fx begynder, 10 km, vægttab...)" %}
+{% assign search_placeholder = include.placeholder | default: "Søg i alle programmer (fx begynder, 5 km, fullbody, vægttab...)" %}
+{% assign show_table_by_default = include.show_table | default: "false" %}
+{% assign hide_select = include.hide_category_select | default: "false" %}
+
+{% if initial_cat != blank %}
+  {% assign show_table_by_default = "true" %}
+{% endif %}
 
 {% comment %} Tæl samlede programmer pr. kategori {% endcomment %}
 {% assign count_all = 0 %}
@@ -17,7 +32,7 @@
       {% assign default_cat = "gang" %}
     {% elsif item_url contains "cykel" or item_url contains "cykling" or item.category contains "Cykling" or item.tags contains "cykling" %}
       {% assign default_cat = "cykling" %}
-    {% elsif item_url contains "styrke" or item.category contains "Styrketræning" or item.tags contains "styrke" %}
+    {% elsif item_url contains "styrke" or item_url contains "bodybuilding" or item.category contains "Styrketræning" or item.tags contains "styrke" %}
       {% assign default_cat = "styrke" %}
     {% elsif item_url contains "loeb" or item.category contains "Løb" or item.tags contains "løb" %}
       {% assign default_cat = "løb" %}
@@ -33,7 +48,7 @@
         {% assign count_gang = count_gang | plus: 1 %}
       {% elsif mod_str contains "cykel" or mod_str contains "cykling" %}
         {% assign count_cykling = count_cykling | plus: 1 %}
-      {% elsif mod_str contains "styrke" %}
+      {% elsif mod_str contains "styrke" or mod_str contains "weightlifting" or mod_str contains "bodybuilding" %}
         {% assign count_styrke = count_styrke | plus: 1 %}
       {% else %}
         {% assign count_lob = count_lob | plus: 1 %}
@@ -42,7 +57,9 @@
   {% endif %}
 {% endfor %}
 
-<div class="program-filter-container" data-initial-category="{{ initial_cat }}">
+<div class="program-filter-container" 
+     data-initial-category="{{ initial_cat }}"
+     data-show-default="{{ show_table_by_default }}">
   
   <!-- SØGE- OG DROPDOWNBAR -->
   <div class="program-filter-bar">
@@ -56,25 +73,40 @@
       <input type="text" class="program-search-input" placeholder="{{ search_placeholder }}">
     </div>
 
+    {% if hide_select != "true" %}
     <div class="program-select-wrapper">
       <select class="program-category-select">
-        <option value="" selected disabled>— Vælg kategori —</option>
-        <option value="all">Vis alle programmer ({{ count_all }})</option>
-        <option value="løb">Løbeprogrammer ({{ count_lob }})</option>
-        <option value="gang">Gåprogrammer ({{ count_gang }})</option>
-        <option value="cykling">Cykelprogrammer ({{ count_cykling }})</option>
-        <option value="styrke">Styrkeprogrammer ({{ count_styrke }})</option>
+        <option value="" {% if initial_cat == "" %}selected{% endif %} disabled>— Vælg kategori —</option>
+        <option value="all" {% if initial_cat == "all" %}selected{% endif %}>Vis alle programmer ({{ count_all }})</option>
+        <option value="løb" {% if initial_cat == "løb" %}selected{% endif %}>Løbeprogrammer ({{ count_lob }})</option>
+        <option value="styrke" {% if initial_cat == "styrke" %}selected{% endif %}>Styrkeprogrammer ({{ count_styrke }})</option>
+        <option value="cykling" {% if initial_cat == "cykling" %}selected{% endif %}>Cykelprogrammer ({{ count_cykling }})</option>
+        <option value="gang" {% if initial_cat == "gang" %}selected{% endif %}>Gåprogrammer ({{ count_gang }})</option>
       </select>
     </div>
+    {% endif %}
   </div>
 
+  <!-- FILTRERINGS-PILLS -->
+  {% if include.pills %}
+  {% assign pills_array = include.pills | split: "," %}
+  <div class="program-pills-wrapper">
+    {% for pill in pills_array %}
+      {% assign pill_clean = pill | strip %}
+      <button type="button" class="program-pill-btn" data-pill="{{ pill_clean }}">{{ pill_clean }}</button>
+    {% endfor %}
+  </div>
+  {% endif %}
+
   <!-- HJÆLPETEKST NÅR SKJULT -->
+  {% if show_table_by_default != "true" %}
   <div class="program-prompt-hint text-muted">
     <small>💡 Søg i feltet ovenfor eller vælg en kategori i dropdown-menuen for at få vist træningsprogrammerne.</small>
   </div>
+  {% endif %}
 
   <!-- PROGRAM TABEL -->
-  <div class="table-wrapper program-table-wrapper" style="display: none;">
+  <div class="table-wrapper program-table-wrapper" style="{% if show_table_by_default != 'true' %}display: none;{% endif %}">
     <table class="table program-table">
       <thead>
         <tr>
@@ -95,14 +127,13 @@
               {% assign default_cat = "gang" %}
             {% elsif item_url contains "cykel" or item_url contains "cykling" or item.category contains "Cykling" or item.tags contains "cykling" %}
               {% assign default_cat = "cykling" %}
-            {% elsif item_url contains "styrke" or item.category contains "Styrketræning" or item.tags contains "styrke" %}
+            {% elsif item_url contains "styrke" or item_url contains "bodybuilding" or item.category contains "Styrketræning" or item.tags contains "styrke" %}
               {% assign default_cat = "styrke" %}
             {% elsif item_url contains "loeb" or item.category contains "Løb" or item.tags contains "løb" %}
               {% assign default_cat = "løb" %}
             {% endif %}
 
             {% for prog in item.programs %}
-              {% comment %} Find Kategori {% endcomment %}
               {% assign mod_raw = prog.modality | first | default: prog.category | first | default: prog.modality | default: prog.category | default: default_cat %}
               {% assign mod_str = mod_raw | join: " " | downcase %}
 
@@ -111,18 +142,16 @@
                 {% assign cat_clean = "gang" %}
               {% elsif mod_str contains "cykel" or mod_str contains "cykling" %}
                 {% assign cat_clean = "cykling" %}
-              {% elsif mod_str contains "styrke" %}
+              {% elsif mod_str contains "styrke" or mod_str contains "weightlifting" or mod_str contains "bodybuilding" %}
                 {% assign cat_clean = "styrke" %}
               {% endif %}
 
-              {% comment %} Sikker konvertering af arrays til rene strenge til visning {% endcomment %}
               {% assign prog_title = prog.title | default: prog.name %}
               {% assign prog_level = prog.level | join: ", " | default: prog.level %}
               {% assign prog_type = prog.type | join: ", " | default: prog.type %}
               {% assign prog_goal = prog.goal | join: ", " | default: prog.goal %}
               {% assign prog_equip = prog.equipment | join: ", " | default: prog.equipment %}
 
-              {% comment %} Sikker opbygning af søgestreng uden anførselstegn eller klammer {% endcomment %}
               {% capture search_build %}
                 {{ prog_title }} {{ prog_level }} {{ prog_type }} {{ prog_goal }} {{ prog_equip }} {{ item.title }}
               {% endcapture %}
@@ -179,7 +208,7 @@
     display: flex;
     gap: 12px;
     align-items: center;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
     flex-wrap: wrap;
   }
   .program-search-wrapper {
@@ -230,9 +259,35 @@
     background-position: right 14px center;
     box-shadow: 0 1px 2px rgba(0,0,0,0.03);
   }
-  .program-category-select:focus {
-    border-color: #3b82f6;
+
+  /* PILLS STYLING */
+  .program-pills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 0.75rem;
   }
+  .program-pill-btn {
+    background: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .program-pill-btn:hover {
+    background: #e5e7eb;
+    color: #111827;
+  }
+  .program-pill-btn.active {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #ffffff;
+  }
+
   .program-prompt-hint {
     margin-bottom: 1rem;
     font-style: italic;
@@ -261,22 +316,22 @@
       const rows = container.querySelectorAll(".program-row");
       const noResults = container.querySelector(".no-programs-notice");
       const promptHint = container.querySelector(".program-prompt-hint");
+      const pillBtns = container.querySelectorAll(".program-pill-btn");
 
       let currentCategory = container.getAttribute("data-initial-category") || "";
+      let showByDefault = container.getAttribute("data-show-default") === "true";
       let currentSearch = "";
 
       if (currentCategory && select) {
         const matchingOption = select.querySelector(`option[value="${currentCategory}"]`);
-        if (matchingOption) {
-          matchingOption.selected = true;
-        }
+        if (matchingOption) matchingOption.selected = true;
       }
 
       function filterAndToggle() {
         const hasSearch = currentSearch.length > 0;
         const hasCategory = currentCategory !== "";
 
-        if (!hasSearch && !hasCategory) {
+        if (!hasSearch && !hasCategory && !showByDefault) {
           tableWrapper.style.display = "none";
           if (noResults) noResults.style.display = "none";
           if (promptHint) promptHint.style.display = "block";
@@ -308,6 +363,26 @@
         }
       }
 
+      // Håndter Pills
+      pillBtns.forEach(btn => {
+        btn.addEventListener("click", function() {
+          const pillVal = this.getAttribute("data-pill").toLowerCase().trim();
+
+          if (this.classList.contains("active")) {
+            this.classList.remove("active");
+            currentSearch = "";
+            if (searchInput) searchInput.value = "";
+          } else {
+            pillBtns.forEach(b => b.classList.remove("active"));
+            this.classList.add("active");
+            currentSearch = pillVal;
+            if (searchInput) searchInput.value = this.getAttribute("data-pill");
+          }
+
+          filterAndToggle();
+        });
+      });
+
       if (select) {
         select.addEventListener("change", function() {
           currentCategory = this.value;
@@ -318,6 +393,11 @@
       if (searchInput) {
         searchInput.addEventListener("input", function() {
           currentSearch = this.value.toLowerCase().trim();
+          pillBtns.forEach(b => {
+            if (b.getAttribute("data-pill").toLowerCase() !== currentSearch) {
+              b.classList.remove("active");
+            }
+          });
           filterAndToggle();
         });
       }

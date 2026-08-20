@@ -38,7 +38,9 @@ Vælg en kategori herunder, eller søg i den samlede tabel efter det specifikke 
 {: .notice--info}
 **Leder du efter en specifik beregner?** Åbn tabellen herunder for at søge og filtrere i alle vores interaktive beregnere.
 
-{% include table/filter-table-beregnere.html %}
+{% include table/filter-table-tools.html 
+   placeholder="Søg i beregnere (fx watt, kcal, pulszoner)..." 
+   pills="Watt, Kcal, Puls, Løb, Styrke, Energi" %}
 
 ---
 
