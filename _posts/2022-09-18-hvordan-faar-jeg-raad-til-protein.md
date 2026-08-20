@@ -1,8 +1,8 @@
 ---
 title: Hvordan finder jeg billigt protein?
-seo_title: Hvordan får jeg råd til protein? Hvor er det billigst?
-description: Vil du gerne vide, hvordan du får dækket dit proteinbehov billigst? Her kigger vi på de billigste kilder til
-  protein.
+seo_title: Billigste proteinkilde – Få mest protein for pengene (Pristjek)
+description: Vil du gerne vide, hvordan du får dækket dit proteinbehov billigst? Her kigger vi på de billigste kilder til protein.
+excerpt: Vil du gerne vide, hvordan du får dækket dit proteinbehov billigst? Se vores samlede oversigt over billige proteinkilder og pris pr. gram protein.
 permalink: /billig-protein/
 language: da
 header:
@@ -16,8 +16,16 @@ tags:
 - kost & ernæring
 - protein
 - kosttilskud
-last_modified_at: '2022-10-06T23:14:14Z'
+last_modified_at: '2026-08-20T12:00:00Z'
 toc: 'true'
+classes: wide
+faq:
+  - question: Hvad er den absolut billigste proteinkilde?
+    answer: Tørrede bælgfrugter (som grønne og røde linser) samt tun på dåse og valleproteinpulver (Whey) i storkøb er typisk de billigste proteinkilder målt på ren pris pr. gram protein.
+  - question: Er proteinpulver billigere end almindelig mad?
+    answer: Målt rent på pris pr. gram protein er et standard whey-proteinpulver i storkøb (1-2,5 kg) ofte billigere end fersk kød og fisk, men ligger tæt op ad billige mejeriprodukter som skyr og tilbudsmælk.
+  - question: Hvordan regner man prisen ud pr. gram protein?
+    answer: Du dividerer den samlede pris for produktet med det totale antal gram protein i pakken. Formlen er Pris i kr. / (Samlet vægt i gram * Protein pr. gram).
 ---
 
 Vil du gerne vide, hvordan du får dækket dit proteinbehov billigst? Her kigger vi på de billigste kilder til protein.
@@ -42,16 +50,31 @@ Lad os kigge på, hvad madvarer koster per gram protein.
 
 {% assign met_values = site.data.protein-prices %}
 | Fødevare | Protein pr. 100 g | Pris pr. g protein | Pris 40 g protein |
-|-|-|
-{% for row in met_values offset:2 -%}
-| {{ row.Food }} | {{ row.Protein-per-100g }} | {{ row.Price-g-protein }} | {{ row.Price-40g-protein }} |
+| :--- | :--- | :--- | :--- |
+{% for row in met_values -%}
+| {{ row.Food }} | {{ row["Protein-per-100g"] }} g | {{ row["Price-g-protein"] }} kr. | {{ row["Price-40g-protein"] }} kr. |
 {% endfor %}
 
-{% comment %}
+*Bemærk: Priserne i tabellen er vejledende eksempler. Selvom dagspriser svinger i supermarkederne, forbliver det indbyrdes styrkeforhold (fx tørrede linser vs. fersk oksekød) meget stabilt over tid.*
 
 ## Hvor får du mest protein for pengene?
 
-{% endcomment %}
+For at regne ud, hvor du får mest næring for pengene, skal du kigge på forholdet mellem produktets pris og dets reelle proteinindhold. Formlen er enkel: **Pris i kr. / Samlet antal gram protein**.
+
+Hvis du vil optimere dit madbudget uden at gå på kompromis med din træning, bør du gå efter disse fire overordnede kilder:
+
+* 🫘 **Tørrede bælgfrugter (Linser, bønner og kikærter):** Tørrede bælgfrugter er den ukronede konge af billigt protein. Da de udvider sig ved udblødning og koger op, får du ekstremt mange gram protein pr. krone.
+* 🐟 **Konserves (Dåsetun og makrel):** Dåsetun har et meget højt proteinindhold pr. 100 g og tæt på nul fedt eller kulhydrat, hvilket gør det til en af de mest koncentrerede og billige proteinkilder fra kød/fisk.
+* 🥛 **Mejeriprodukter på tilbud (Skyr, hytteost og mælk):** Mælkeprodukter er rige på proteiner af høj biologisk kvalitet. Hvis du holder øje med tilbudsaviserne på skyr, kvark eller kakaomælk, kan gramprisen ofte presse kød af banen.
+* 🥤 **Proteinpulver i storkøb (Valle/Whey):** Køber du proteinpulver i store poser (1–2,5 kg), er liter- og gramprisen ofte væsentligt lavere end fersk oksekød og laks.
+
+## 5 gyldne sparetips til dit proteinbudget
+
+1. **Bland kød og bælgfrugter:** Stræk det hakkede oksekød eller kyllingen i gryderetter og kødsovs ved at erstatte 30–50 % af kødet med røde linser eller kidneybønner.
+2. **Køb datovarer i køledisken:** Hold øje med madspildshjørner i supermarkedet sidst på dagen, hvor fersk kød og mejeriprodukter ofte sættes ned med 30–50 %.
+3. **Vælg tørrede bønner frem for dåser:** Bønner og linser på dåse er nemme, men køber du dem tørrede i poser og udbløder dem selv, halverer du næsten prisen.
+4. **Udnyt tilbud på kakaomælk:** Kakaomælk indeholder ca. 3,4 g protein pr. 100 ml og fungerer fantastisk som en billig og nem restitutionsdrik efter hård træning, når den er på tilbud.
+5. **Køb stort ind online:** Kosttilskud og tørvarer har lang holdbarhed. Ved at samle dine køb og udnytte mængderabatter opnår du den laveste grampris.
 
 ## Konklusion
 
@@ -59,61 +82,18 @@ Du kan sagtens spare nogle penge og få dækket sit daglige proteinbehov gennem 
 
 Du kan tjekke vores [oversigt over proteinholdige fødevarer](/protein-i-madvarer/) for at få endnu mere inspiration. Så kan du selv regne priserne ud per gram og se, hvordan du får dækket dit proteinbehov billigst.
 
-{% comment %}
-***
+---
 
-Er du interesseret i, hvor meget protein du skal indtage om dagen for at få de optimale resultater af din træning? Her har du svaret!
+## 🔗 Relaterede guider på Motionsplan
 
-Hvor meget protein skal du have for at give dine muskler de bedste betingelser for muskelvækst og restitution?
+Søger du mere specifik viden om protein og ernæring?
 
-Og risikerer du at indtage for meget protein på en dag, så du slet ikke kan optage det?
+* 🥗 **[Protein i madvarer](/protein-i-madvarer/):** Se den komplette, søgbare oversigt over proteinindholdet i alle råvarer.
+* 📊 **[Beregn dit daglige proteinbehov](/dagligt-protein-indtagelse/):** Udregn præcis hvor mange gram protein du har brug for ud fra din vægt og træningsform.
+* 🥛 **[Guide til det bedste proteinpulver](/kosttilskud/proteinpulver/):** Få overblik over forskellen på valle (whey), kasein og plantebaserede proteintilskud.
 
-Der er stor interesse for protein nu om dage. Når du søger på Google efter: "Hvor meget protein har jeg behov for om dagen?", så kommer der mange resultater frem.
+---
 
-Videnskab.dk behandler [10 myter](https://videnskab.dk/krop-sundhed/10-myter-om-proteiner-del-i) om protein og Aktiv Træning har lavet en [beregner](https://aktivtraening.dk/sund-livsstil/test-hvor-meget-protein-har-jeg-brug-for) til at estimere, hvor meget protein forskellige træningsformer kræver.
+## ❓ Ofte stillede spørgsmål om billigt protein
 
-Men der er mange forskellige tal og anbefalinger i de forskellige artikler.
-
-Hvad skal man tro på?
-
-Så lad os dykke ned i, hvor meget protein du skal indtage om dagen?
-
-## Hvor meget protein har du brug for om dagen?
-
-**Du bør indtage 0,75-2,5 gram protein pr. kg kropsvægt pr. dag alt efter, hvor meget du træner og hvilken type træning du laver. Der er flere studier der viser, at man kan udnytte op til 2 gram protein pr. kg kropsvægt pr. dag, men som en helgardering kan folk, der træner rigtig meget indtage lidt mere.**
-
-Det er en bred anbefaling. Du kan regne lidt på dit eget daglige proteinindtag i beregneren nedenunder.
-
-Men du bør bagefter sætte dig ind i optagelseshastigheden for protein.
-
-## Beregn dit daglige proteinbehov
-
-{% include calculator/calculate-protein.html %}
-
-{% comment %}
-
-
-https://dovefitness.dk/hvor-meget-protein-skal-man-spise/
-
-https://youtu.be/59baGu7E0e8
-
-https://www.bodylab.dk/shop/proteinhierarkiet-det-2751c1.html
-
-{% endcomment %}
-
-## Hvor meget protein kan man optage om dagen?
-
-Nikolaj Bach besvarer spørgsmålet på [bodylab.dk](https://www.bodylab.dk/shop/hvor-mange-gram-protein-kan-man-optage-3185c1.html).
-
-> Denne viste at proteinbehovet for optimale resultater af styrketræning gennemsnitligt var på 1,6 g pr. kg kropsvægt, men at det øvre konfidensinterval for denne værdi var 2,2 g pr. kg (13).
->
-> De foreslår derfor at man i praksis fordeler dette indtag ligeligt over mindst 4 måltider. Det vil altså i praksis sige at hvis man spiser 4 måltider, så bør hvert måltid indeholde omtrent 0,55 g protein pr. kg kropsvægt. For en person på 85 kg ville det eksempelvis være (85 * 0,55) 47 g protein pr. måltid.
->
-> --- <cite>[Nikolaj Bach](https://www.bodylab.dk/shop/hvor-mange-gram-protein-kan-man-optage-3185c1.html)</cite>
-
-
-## Hvor hurtigt optager man protein?
-
-## Hvor meget protein kan man optage pr. måltid?
-
-{% endcomment %}
+{% include motionsplan/faq.html %}
