@@ -9,7 +9,7 @@ language: da
 page_type: "spoke"
 primary_category: "Træning"
 
-category:
+categories:
   - Træning
   - Hjemmetræning
   - Workouts
@@ -23,8 +23,8 @@ tags:
   - workout
 
 header:
-  overlay_image: /assets/images/unsplash/photo-1517838277536-f5f99be501cd.jpg
-  teaser: /assets/images/unsplash/photo-1517838277536-f5f99be501cd.jpg
+  overlay_image: https://images.unsplash.com/photo-1626444231642-6bd985bca16a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1626444231642-6bd985bca16a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "7 minute workout: Videnskabelig højintensiv cirkeltræning"
 
 last_modified_at: 2026-08-20T10:00:00Z

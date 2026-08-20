@@ -11,7 +11,7 @@ last_modified_at: 2026-08-18
 header:
   overlay_image: https://images.unsplash.com/photo-1717689411228-7fa5f9c602a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   teaser: https://images.unsplash.com/photo-1717689411228-7fa5f9c602a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-category:
+categories:
   - Træning
   - Fysiologi
 tags:

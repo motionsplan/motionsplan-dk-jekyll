@@ -1,7 +1,7 @@
 ---
 title: "Den ultimative størrelsesguide til sportssko: Find din præcise størrelse (Inkl. beregner)"
 description: "Træt af at gætte din skostørrelse? Brug vores interaktive størrelsesberegner til løb, crossfit og fitness, og lær hvordan du måler din fod korrekt i CM."
-category: Udstyr
+categories: Udstyr
 tags: [sko, løb, crossfit, fitness, guide]
 permalink: /skostorrelse-guide/
 header:

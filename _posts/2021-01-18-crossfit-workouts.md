@@ -11,7 +11,7 @@ language: da
 page_type: "hub"
 primary_category: "Træning"
 
-category:
+categories:
   - Træning
   - Styrketræning
   - Crossfit
