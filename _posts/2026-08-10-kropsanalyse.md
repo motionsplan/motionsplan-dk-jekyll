@@ -68,7 +68,7 @@ Formlerne i dashboardet opdeler dine data i fire pædagogiske kategorier:
 
 ### 3. Fysiologiske Størrelser & Kredsløb
 * **Blodvolumen (Nadlers formel):** Estimerer hvor mange liter blod dit kredsløb indeholder ud fra kropsoverflade og højde.
-* **Lungekapacitet (FVC):** Viser den forventede vitalkapacitet i lungerne ud fra alder, køn og højde.
+* **[Lungekapacitet (FVC)](/lunger-lungekapacitet/):** Viser den forventede vitalkapacitet i lungerne ud fra alder, køn og højde.
 * **Kroppens Overfladeareal (BSA):** Bruges i fysiologien til at relatere stofskifte og væskebehov til kroppens reelle størrelse.
 
 ### 4. Energiforbrug & Puls
