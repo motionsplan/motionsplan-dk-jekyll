@@ -128,7 +128,7 @@ Selvom BBS har fremragende test-retest reliabilitet (ICC > 0,95), bør fysiotera
 **Supplerende tests:** Hvis du vil vurdere ganghastighed, udholdenhed og hurtige retningsskift, bør Bergs Balanceskala kombineres med andre kliniske redskaber:
 * **[Timed Up and Go (TUG) Test](/timed-up-and-go-test/):** Evaluere rejse-sætte sig funktion og gangmønster under tidspres.
 * **[6 Minutters Gå-test (6MWT)](/gaatest-6min/):** Måler den samlede submaksimale gangudholdenhed.
-* **[Rockport 1,6 km Gangtest](/gaatest/):** Estimerer kredsløbskondition ($VO_{2\text{max}}$) hos gående klienter.
+* **[Rockport 1,6 km Gangtest](/gaatest/):** Estimerer kredsløbskondition (VO₂max) hos gående klienter.
 
 ---
 

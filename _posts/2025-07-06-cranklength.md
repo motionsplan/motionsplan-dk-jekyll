@@ -177,7 +177,9 @@ Længden på skinnebenet er formentlig en mere præcis måde at gøre det på en
 Målt fra midten af ankelknoglen til midten af knæleddet. Tibialængden i centimeter giver en god indikator for korrekt kranklængde.
 
 ***
+
 Kranklængde = 0,41 × skinnebenslængde
+
 ***
 
 <p><strong>Kranklængde = <span id="crank-length">150</span> mm</strong></p>
@@ -226,7 +228,9 @@ Målt fra skridt til gulv i stående position. Dette er den mindst præcise meto
 Læg mærke til at [Schultz](https://lermagazine.com/article/at-all-levels-and-categories-of-cycling-correct-poor-crank-arm-fit-to-relieve-chronic-knee-and-hip-pain) har udviklet lidt andre formler, som du også kan lade dig inspirere af.
 
 ***
+
 Kranklængde = 0,20 × skridtlængde
+
 ***
 
 <p><strong>Kranklængde = <span id="inseam-crank-length">155</span> mm</strong></p>

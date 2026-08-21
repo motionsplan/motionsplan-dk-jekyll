@@ -88,7 +88,7 @@ Valget af løbetest afhænger af dine personlige mål, dit nuværende træningsn
 
 ### 📋 Vælg løbetest ud fra dit formål:
 
-* 🏃 **Den klassiske formtest (Estimeret $\text{VO}_2\text{-max}$):** Vælg **[Cooper-testen](/cooper-test/)** (12 min) eller **[2400-meter testen](/kondital-2400-meter/)**, hvis du vil kende dit præcise kondital og er klar til at presse dig selv til max på en opmålt rute.
+* 🏃 **Den klassiske formtest (Estimeret VO₂max):** Vælg **[Cooper-testen](/cooper-test/)** (12 min) eller **[2400-meter testen](/kondital-2400-meter/)**, hvis du vil kende dit præcise kondital og er klar til at presse dig selv til max på en opmålt rute.
 * 🚶‍♂️ **Skånsom test for begyndere (Submaksimal):** Vælg **[1609 m jogging-test](//submaximal-jogging-test-vo2/)** eller **[Rockport gå-test](/gaatest/)**, hvis du vil estimere dit kondital ud fra tid og puls – helt uden at presse hjerte og led til udmattelse.
 * ⚽ **Holdidræt og interval-kapacitet:** Vælg **[Bip-testen](/bip-test/)** eller **[Yo-Yo testen](/yoyo-test/)**, hvis du skal måle evnen til at udføre gentagne, intense ryk og restituere hurtigt undervejs.
 * ⏱️ **Find dit præcise interval-tempo ($v\text{VO}_2\text{max}$):** Vælg **[6-minutters all-out test](/billat-vvovmax-tlimvo2max/)**, hvis du skal bruge din nøjagtige løbehastighed ved maksimal iltoptagelse til at skræddersy dit næste intervalprogram.
@@ -110,7 +110,7 @@ Valget af løbetest afhænger af dine personlige mål, dit nuværende træningsn
 
 <div class="notice--warning" markdown="1">
 
-⚡ **Mål din specifikke løbehastighed ved $\text{VO}_2\text{max}$ ($v\text{VO}_2\text{max}$):**  
+⚡ **Mål din specifikke løbehastighed ved VO₂max ($v\text{VO}_2\text{max}$):**  
 Skal du beregne dine nøjagtige interval-tempi, kan du benytte enten **[Billat-intervaller & 6-min all-out test](/billat-vvovmax-tlimvo2max/)** eller den mere skånsomme **[Olher submaksimal 6-min test](/submaximal-6min-vvo2max-test/)**.
 
 </div>

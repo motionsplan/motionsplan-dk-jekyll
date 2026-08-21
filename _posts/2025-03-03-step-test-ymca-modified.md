@@ -59,7 +59,7 @@ breadcrumbs: 'true'
 
 YMCA’s modified 3-minutters steptest ligner den originale [YMCA steptest](/ymca-3-minutters-steptest/). I tre minutter træder du op og ned af en boks, og efterfølgende tager du din puls. Forskellen er, at du i denne version udregner højden på boksen ud fra din egen kropshøjde, hvilket gør testen mere retfærdig uanset din kropsbygning.
 
-Den modificerede 3-minutters steptest kan bruges til at estimere dit kondital ($\text{VO}_2\text{max}$).
+Den modificerede 3-minutters steptest kan bruges til at estimere dit kondital (VO₂max).
 
 Du kan også se [andre variationer af steptests](/kondital-fra-steptest/).
 
@@ -108,7 +108,7 @@ Stephøjden tilpasses din kropshøjde, så belastningen bliver proportional med 
 * **Kvinder:**
   $$ \text{Stephøjde (cm)} = \text{kropshøjde i cm} \times 0{,}189 $$
 
-### 2. Estimat af $\text{VO}_2\text{max}$
+### 2. Estimat af VO₂max
 Konditallet beregnes direkte ud fra din genoprettelsespuls målt 1 minut efter testens afslutning:
 
 $$ \text{VO}_2\text{max} = 76{,}710 - (0{,}2805 \times \text{puls}_{1\text{ min}}) $$

@@ -41,7 +41,7 @@ APR bygger på en simpel fysiologisk ligning udtrykt i mekanisk effekt (Watt):
 
 $$\text{APR (Watt)} = \text{PPO} - \text{MAP}$$
 
-* **MAP (*Maximal Aerobic Power*):** Den laveste effektydelse i Watt, hvor rytteren opnår sin maksimale iltoptagelse ($\text{VO}_{2\text{max}}$). Dette er toppunktet af din "aerobe motor".
+* **MAP (*Maximal Aerobic Power*):** Den laveste effektydelse i Watt, hvor rytteren opnår sin maksimale iltoptagelse (VO₂max). Dette er toppunktet af din "aerobe motor".
 * **PPO (*Peak Power Output*):** Den absolut højeste spidseffekt i Watt, du kan trække i en stående spurtsprint over 3–5 sekunder. Dette er loftet for din "neuromuskulære gearkasse".
 * **APR (*Anaerobic Power Reserve*):** Mængden af ekstra "anaerobe Watt", du har til rådighed ud over din aerobe kapacitet.
 

@@ -178,8 +178,8 @@ Hvis du bruger Cooper-testen til at udregne dit kondital, skal du sørge for at 
 
 ### Hvorfor er kropsvægt ikke en variabel i formlen?
 Formlen tager ikke direkte højde for vægt i indtastningsfeltet, fordi vægten fysiologisk ophæver sig selv under løb:
-* En løber på 50 kg, der løber 3.000 meter på 12 minutter, har en iltoptagelse ($\text{VO}_2\text{max}$) på ca. 2,8 L/min.
-* En løber på 100 kg, der løber samme 3.000 meter, bruger dobbelt så meget energi ($\text{VO}_2\text{max}$ på ca. 5,6 L/min).
+* En løber på 50 kg, der løber 3.000 meter på 12 minutter, har en iltoptagelse (VO₂max) på ca. 2,8 L/min.
+* En løber på 100 kg, der løber samme 3.000 meter, bruger dobbelt så meget energi (VO₂max på ca. 5,6 L/min).
 * Når den absolutte iltoptagelse divideres med kropsvægten ($\text{ml/kg/min}$), ender begge personer med præcis det samme **kondital**.
 
 Du kan sammenligne dit resultat med [tabellen over kondital for mænd og kvinder](/kondital/).

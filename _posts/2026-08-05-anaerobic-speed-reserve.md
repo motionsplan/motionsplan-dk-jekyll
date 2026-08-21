@@ -46,7 +46,7 @@ $$\text{ASR} = \text{MSS} - \text{MAS}$$
 ```
 
 ### 1. MAS (Maximal Aerobic Speed / Maksimal Aerob Hastighed)
-MAS er den laveste løbehastighed, hvor atleten opnår sin maksimale iltoptagelse ($\text{VO}_{2\text{max}}$). Arbejde ved eller under MAS dækkes primært af det aerobe energisystem, om end det er maksimalt belastet ved 100% MAS.
+MAS er den laveste løbehastighed, hvor atleten opnår sin maksimale iltoptagelse (VO₂max). Arbejde ved eller under MAS dækkes primært af det aerobe energisystem, om end det er maksimalt belastet ved 100% MAS.
 
 ### 2. MSS (Maximal Sprint Speed / Maksimal Sprinthastighed)
 MSS er den absolut højeste tophastighed, atleten kan opnå i en kort sprint (typisk målt over 2–3 sekunder). MSS repræsenterer det absolutte mekaniske og neuromuskulære loft for løbehastighed.

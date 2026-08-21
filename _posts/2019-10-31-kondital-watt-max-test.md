@@ -79,10 +79,10 @@ faq:
 *[RPM]: Rounds Per Minute (omdrejninger pr. minut)
 *[MPO]: Maximal Power Output (Maksimal watt-effekt)
 
-Watt-max testen er en af de mest anvendte, præcise og enkle [konditionstests](/kondition/tests/) til cykling. Ved hjælp af en ergometercykel og en kontrolleret belastningsstigning kan du estimere din maksimale iltoptagelse ($\text{VO}_2\text{-max}$) og dit kondital.
+Watt-max testen er en af de mest anvendte, præcise og enkle [konditionstests](/kondition/tests/) til cykling. Ved hjælp af en ergometercykel og en kontrolleret belastningsstigning kan du estimere din maksimale iltoptagelse (VO₂max) og dit kondital.
 
 > ### ⏱️ Kort fortalt: Sæt testen i gang
-> * **Standard-protokol (Andersen, 1995):** 5 min opvarmning ($100 \text{ W}$ for mænd / $70 \text{ W}$ for kvinder). Derefter **$+35 \text{ watt}$ hvert 2. minut** til udmattelse.
+> * **Standard-protokol (Andersen, 1995):** 5 min opvarmning (100W for mænd / 70 W for kvinder). Derefter **+35 watt hvert 2. minut** til udmattelse.
 > * **Mål med testen:** At finde din **MPO** (*Maximal Power Output*) og beregne dit [kondital](/kondital/).
 > * **Tidsforbrug:** Ca. 15–25 minutter inkl. opvarmning.
 
@@ -99,7 +99,7 @@ Watt-max testen er en af de mest anvendte, præcise og enkle [konditionstests](/
 Søger du efter **max watt på cykel**, er det vigtigt at skelne mellem to helt forskellige fysiologiske begreber:
 
 1. **Eksplosiv Max Watt (Sprintkraft):** Den maksimale kraft du kan træde i pedalerne i 1–5 sekunder under en stående all-out sprint. Dette drives af [kreatinfosfat (ATP-CP)](/energisystemer/) og neuromuskulær styrke og ligger typisk på **700 til 1.800+ watt**.
-2. **Watt-max / MPO (*Maximal Power Output*):** Den højeste bæredygtige watt-belastning du rammer i slutningen af en trinvist stigende iltoptagelsestest. Dette er et udtryk for din **aerobe kapacitet** ($\text{VO}_2\text{-max}$) og ligger typisk på **200 til 500 watt**.
+2. **Watt-max / MPO (*Maximal Power Output*):** Den højeste bæredygtige watt-belastning du rammer i slutningen af en trinvist stigende iltoptagelsestest. Dette er et udtryk for din **aerobe kapacitet** (VO₂max) og ligger typisk på **200 til 500 watt**.
 
 Watt-max testen måler din **aerobe Watt-max (MPO)**.
 
@@ -130,7 +130,7 @@ Testen gennemføres på en ergometercykel (fx Monark, Wattbike, Body Bike eller 
 ## Udregn dit kondital fra Watt-max testen
 {: id="calculator" }
 
-Indtast dine testresultater herunder for at beregne din MPO, estimerede $\text{VO}_2\text{-max}$ og dit kondital:
+Indtast dine testresultater herunder for at beregne din MPO, estimerede VO₂max og dit kondital:
 
 {% include calc/wattmax-test.html %}
 
@@ -161,11 +161,13 @@ Watt-max testen blev valideret af den danske professor Lars Bo Andersen i 1995. 
 Formlerne bag beregningen er bygget op i tre trin:
 
 ### 1. Beregning af MPO (Maximal Power Output):
+
 $$MPO = \frac{T}{120} \times 35 + (W - 35)$$
 
 *Hvor $T$ er sekunder på sidste trin, og $W$ er watt-belastningen på sidste trin.*
 
-### 2. Estimering af maksimal iltoptagelse ($\text{VO}_2\text{-max}$ i L/min):
+### 2. Estimering af maksimal iltoptagelse (VO₂max i L/min):
+
 $$\text{VO}_2\text{max} = 0{,}16 + (0{,}0117 \times MPO)$$
 
 ### 3. Beregning af kondital (mL $\text{O}_2$/kg/min):

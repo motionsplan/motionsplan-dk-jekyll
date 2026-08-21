@@ -95,7 +95,7 @@ Vælg den relevante kategori herunder for at gå direkte til vores uddybende gui
 
 <div class="notice--success" markdown="1">
 ### 💨🫁 Konditionstests
-Mål din maksimale iltoptagelse ($\text{VO}_2\text{-max}$), dit kondital og din generelle udholdenhed. Vi har samlet både direkte laboratorietests og feltbaserede indirekte tests.
+Mål din maksimale iltoptagelse (VO₂max), dit kondital og din generelle udholdenhed. Vi har samlet både direkte laboratorietests og feltbaserede indirekte tests.
 
 [Se alle konditionstests »](/kondition/tests/){: .btn .btn--success }
 </div>
@@ -179,7 +179,7 @@ Leder du efter en af vores mest benyttede specifikke guides eller beregnere, kan
 
 En **fitnesstest** er en struktureret måling af din fysiske formåen inden for et af kroppens primære kapacitetsområder. Formålet med fitnesstests er at give dig et objektivt nulpunkt, spore din træningsfremgang og identificere svagheder i din fysik:
 
-* 🫁 **Kondition & Aerob effekttest:** Måling af din maksimale iltoptagelse ($\text{VO}_2\text{-max}$) og udholdenhed (fx [Cooper-test](/cooper-test/) eller [Bip-test](/bip-test/)).
+* 🫁 **Kondition & Aerob effekttest:** Måling af din maksimale iltoptagelse (VO₂max) og udholdenhed (fx [Cooper-test](/cooper-test/) eller [Bip-test](/bip-test/)).
 * 🏋️‍♂️ **Styrke- & Eksplosivitetstest:** Test af dit maksimale kraftudviklingspotentiale (fx [IMTP trækstyrketest](/imtp-test/) eller [hoppetests](/springtests-hoppehoejde/)).
 * 📐 **Antropometri & Kropssammensætning:** Vurdering af fedtprocent, BMI og kropsmål (fx [fedtprocentmåling](/maal-fedtprocent/)).
 * 🤸‍♂️ **Smidighed & Smidighedstest:** Måling af leddenes bevægelighed og fleksibilitet.

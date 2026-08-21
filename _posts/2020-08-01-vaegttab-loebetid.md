@@ -56,7 +56,7 @@ Indtast din nuværende vægt, din nuværende løbetid på en valgfri distance og
 
 {% include calculator/calculate-weightloss-runningtime.html %}
 
-*Bemærk: Beregneren antager, at vægttabet primært består af fedtmasse, og at din absolutte maksimale iltoptagelse ($\text{VO}_2\text{max}$ i L/min) forbliver uændret.*
+*Bemærk: Beregneren antager, at vægttabet primært består af fedtmasse, og at din absolutte maksimale iltoptagelse (VO₂max i L/min) forbliver uændret.*
 
 ---
 
@@ -64,7 +64,7 @@ Indtast din nuværende vægt, din nuværende løbetid på en valgfri distance og
 
 Sammenhængen mellem kropsvægt og løbehastighed bygger på tre fysiologiske grundpiller:
 
-### 1. Relativ iltoptagelse ($\text{VO}_2\text{max}$)
+### 1. Relativ iltoptagelse (VO₂max)
 Når man måler din kondition og dit [kondital](/kondital/), udtrykkes det som relativ iltoptagelse i milliliter ilt pr. kilo kropsvægt pr. minut ($\text{ml/kg/min}$):
 
 $$\text{Kondital} = \frac{\text{Absolut }\text{VO}_2\text{max (ml/min)}}{\text{Kropsvægt (kg)}}$$

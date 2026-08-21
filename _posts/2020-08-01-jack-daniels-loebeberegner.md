@@ -138,7 +138,7 @@ Jack Daniels har defineret forskellige løbetempi til fx restitutionsløb, tempo
 | **E** | Easy Run | 65–79% $\text{HR}_{\text{max}}$ | Opbygger aerob base, sener og led. Anvendes til opvarmning og afjog. |
 | **M** | Marathon Pace | 80–90% $\text{HR}_{\text{max}}$ | Træner specifik udholdenhed og tempofornemmelse til maraton. |
 | **T** | Threshold (Tærskel) | 88–92% $\text{HR}_{\text{max}}$ | Øger mælkesyregrænsen. Det tempo, du kan holde i 45–60 minutter. |
-| **I** | Intervaller | 98–100% $\text{HR}_{\text{max}}$ | Maksimerer din $\text{VO}_2\text{max}$. Typisk intervaller af 3–5 min. varighed. |
+| **I** | Intervaller | 98–100% $\text{HR}_{\text{max}}$ | Maksimerer din VO₂max. Typisk intervaller af 3–5 min. varighed. |
 | **R** | Repetitions | Hurtighed | Forbedrer løbeøkonomi, spændstighed og stride-teknik (med lange pauser). |
 
 </div>

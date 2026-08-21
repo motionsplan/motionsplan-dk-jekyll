@@ -91,7 +91,7 @@ Gør din træning mere varieret og effektiv ved at kombinere forskellige trænin
 
 **⏱️ Metoder og fysiologi**
 
-* ⏱️ **[Intervalløb & Intervaltræning](/intervallob-intervaltraening/)** – Øg din $\text{VO}_2\text{-max}$ og tophastighed.
+* ⏱️ **[Intervalløb & Intervaltræning](/intervallob-intervaltraening/)** – Øg din VO₂max og tophastighed.
 * 💓 **[Pulstræning & Zoner](/pulstraening/)** – Styring af træningsintensitet ud fra din puls.
 * 🏃‍♀️ **[Løbeteknik og Løbestil](/loebeteknik/)** – Bliv en mere effektiv løber med bedre kropsholdning og kadence.
 * 🔋 **[Løbeøkonomi](/lobeokonomi/)** – Lær hvordan du bruger mindre energi ved samme løbetempo.

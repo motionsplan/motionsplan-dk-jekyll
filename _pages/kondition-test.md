@@ -133,7 +133,7 @@ Valget af konditionstest afhænger af dit formål, hvor hårdt du ønsker at bel
 
 ### Direkte konditionstests (Laboratorium)
 
-En direkte konditest måler din maksimale iltoptagelse ($\text{VO}_2\text{max}$) med høj præcision i et laboratorium via en iltmaske. Testen foregår ved stigende belastning på et løbebånd eller en ergometercykel, indtil du rammer din absolutte udmattelsesgrænse.
+En direkte konditest måler din maksimale iltoptagelse (VO₂max) med høj præcision i et laboratorium via en iltmaske. Testen foregår ved stigende belastning på et løbebånd eller en ergometercykel, indtil du rammer din absolutte udmattelsesgrænse.
 
 * **Fordele:** Den absolut mest præcise måling af din iltoptagelse og dine fysiologiske pulszoner.
 * **Ulemper:** Kræver specialudstyr, fagpersonale og er dyrere at udføre.
@@ -143,7 +143,7 @@ En direkte konditest måler din maksimale iltoptagelse ($\text{VO}_2\text{max}$)
 
 ### Indirekte konditionstests (Felt-tests)
 
-Indirekte tests er en nem og tilgængelig måde at estimere dit kondital på uden laboratorieudstyr. Testen udføres typisk på en løbebane, udendørs eller på et ergometer, hvor din $\text{VO}_2\text{max}$ beregnes automatisk ud fra din præstation (fx din tid eller tilbagelagte distance) eller din pulsrespons.
+Indirekte tests er en nem og tilgængelig måde at estimere dit kondital på uden laboratorieudstyr. Testen udføres typisk på en løbebane, udendørs eller på et ergometer, hvor din VO₂max beregnes automatisk ud fra din præstation (fx din tid eller tilbagelagte distance) eller din pulsrespons.
 
 * **Fordele:** Tilgængelige, billige og nemme at gentage jævnligt for at følge din formudvikling.
 * **Ulemper:** Bygger på statistiske formler, hvilket giver en mindre usikkerhedsmargin i forhold til lab-tests.

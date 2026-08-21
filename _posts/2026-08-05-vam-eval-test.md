@@ -118,9 +118,9 @@ VAM-eval er utrolig nem at sætte op og kan afvikles med hele hold eller trupper
 
 ---
 
-## Beregning af MAS og $\text{VO}_2\text{max}$
+## Beregning af MAS og VO₂max
 
-VAM-eval testen giver dig to primære nøgletal: **Maksimal Aerob Hastighed (MAS)** (også kaldet $v\text{VO}_2\text{max}$) og et direkte estimat af **$\text{VO}_2\text{max}$**.
+VAM-eval testen giver dig to primære nøgletal: **Maksimal Aerob Hastighed (MAS)** (også kaldet $v\text{VO}_2\text{max}$) og et direkte estimat af **VO₂max**.
 
 ### 1. Bestemmelse af MAS (km/t)
 Løberens MAS er lig med hastigheden på det **sidste fuldførte 1-minuts trin**.
@@ -132,12 +132,12 @@ $$\text{MAS (km/t)} = \text{Hastighed i sidste fuldførte trin} + \left( \frac{\
 *Eksempel:* En løber fuldfører trinnet på 16,0 km/t. På det efterfølgende trin (16,5 km/t, som kræver i alt 14 bip) når løberen at passere 7 bip korrekt, før denne stopper.  
 $$\text{MAS} = 16,0 + \left( \frac{7}{14} \times 0,5 \right) = 16,25\text{ km/t}$$
 
-### 2. Estimat af $\text{VO}_2\text{max}$
+### 2. Estimat af VO₂max
 Cazorla og Léger (1993) påviste en stærk lineær sammenhæng mellem MAS i VAM-eval og laboratoriemålt iltoptagelse. Formlen lyder:
 
 $$\text{VO}_2\text{max} \; (\text{ml/min/kg}) = 3,5 \times \text{MAS (km/t)}$$
 
-*Eksempel:* Hvis din MAS måles til 16,0 km/t, estimeres din $\text{VO}_2\text{max}$ til:
+*Eksempel:* Hvis din MAS måles til 16,0 km/t, estimeres din VO₂max til:
 $$\text{VO}_2\text{max} = 3,5 \times 16,0 = 56,0\text{ ml/min/kg}$$
 
 ---
@@ -146,7 +146,7 @@ $$\text{VO}_2\text{max} = 3,5 \times 16,0 = 56,0\text{ ml/min/kg}$$
 
 Hvad er en god MAS-score? Tabellen herunder giver et overblik over træningsniveau baseret på MAS fra VAM-eval:
 
-| Niveau | MAS (km/t) | Estimeret $\text{VO}_2\text{max}$ (ml/min/kg) | Målgruppe / Profil |
+| Niveau | MAS (km/t) | Estimeret VO₂max (ml/min/kg) | Målgruppe / Profil |
 |---|---|---|---|
 | **Elite** | $\ge 20,0\text{ km/t}$ | $\ge 70\text{ ml/min/kg}$ | Eliteløbere, professionelle udholdenhedsatleter |
 | **Fremragende** | $18,0 - 19,5\text{ km/t}$ | $63 - 69\text{ ml/min/kg}$ | Konkurrenceløbere & elite-holdidrætsudøvere |

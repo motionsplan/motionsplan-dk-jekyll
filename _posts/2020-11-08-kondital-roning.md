@@ -78,7 +78,7 @@ Du kan finde dit kondital på forskellige måder i en romaskine. Hvis du har adg
 
 Danmark har fostret nogle af verdens absolut bedste roere gennem tiden, og det gælder i den grad også indendørs på ergometeret. Den mest udbredte og anerkendte konditionstest i roning er en klassisk, brutal **2000 meter maksimal test**, hvor du ror distancen så hurtigt som muligt.
 
-På baggrund af din rotest 2000 meter tid og din gennemsnitlige effekt (Watt) kan du beregne din maksimale iltoptagelse ($\text{VO}_2\text{max}$) og dit kondital.
+På baggrund af din rotest 2000 meter tid og din gennemsnitlige effekt (Watt) kan du beregne din maksimale iltoptagelse (VO₂max) og dit kondital.
 
 Herunder kan du indtaste dine testresultater direkte i vores opdaterede beregner, som lader dig skifte mellem de førende forskningsmodeller (Klusiewicz & Faff, 2003 samt Concept2 / Hagerman).
 
@@ -101,7 +101,7 @@ Dansk roning har en stolt tradition, og Team Danmark har opbygget stor viden om 
 
 I bogen *Aldersrelateret Træning for roning (ATRO)* foreslås blandt andet en trappetest og en ugetest. Mens ugetesten etablerer udøverens samlede roprofil, har **trappetesten** til formål at bestemme kredsløbets maksimale ydeevne.
 
-Den anden og mest udbredte testtype er en **all-out 2000 meter test**. Da du kan arbejde omkring din maksimale iltoptagelse i ca. 4–8 minutter, matcher 2k-distancen perfekt den fysiologiske tidsramme for en direkte måling af $\text{VO}_2\text{max}$.
+Den anden og mest udbredte testtype er en **all-out 2000 meter test**. Da du kan arbejde omkring din maksimale iltoptagelse i ca. 4–8 minutter, matcher 2k-distancen perfekt den fysiologiske tidsramme for en direkte måling af VO₂max.
 
 ## Hvilket roergometer skal jeg bruge til testen?
 
@@ -117,7 +117,7 @@ Ergometerets computer omregner derefter løbende dine Watt til den hastighed (f.
 
 ## Forskellige formler til beregning af kondital
 
-I beregneren øverst kan du vælge mellem to anerkendte videnskabelige tilgange til at estimere din $\text{VO}_2\text{max}$:
+I beregneren øverst kan du vælge mellem to anerkendte videnskabelige tilgange til at estimere din VO₂max:
 
 ### 1. Klusiewicz & Faff (2003) – Den mest præcise lineære model
 
@@ -133,16 +133,16 @@ Modellen er særligt god, fordi den ikke kræver, at du skal gætte på dit eget
 
 ### 2. Concept2 / Fritz Hagerman (ACSM) – Hvorfor gør "øvet" konditallet højere?
 
-Concept2's egen beregner bygger på mange års data indsamlet af prof. Fritz Hagerman fra Ohio University. Hagerman udførte direkte laboratoriemålinger af $\text{VO}_2\text{max}$ med iltmaske på roere, der samtidig kørte 2000m all-out tests.
+Concept2's egen beregner bygger på mange års data indsamlet af prof. Fritz Hagerman fra Ohio University. Hagerman udførte direkte laboratoriemålinger af VO₂max med iltmaske på roere, der samtidig kørte 2000m all-out tests.
 
 I Concept2's beregner bliver du bedt om at angive, om du er **øvet roer** eller **motionist/ikke-øvet**. Det kan virke overraskende, at beregneren tildeler et *højere* kondital til den øvede roer end til begynderen ved præcis samme 2000m tid.
 
 **Den fysiologiske forklaring på dette:**
-I en 2000-meter all-out test begrænses en utrænet motionist ofte af *lokal muskulær træthed* (ophobning af mælkesyre i lår og ryg) længe før, deres centrale kredsløb har nået sit absolutte $\text{VO}_2\text{max}$-loft. 
+I en 2000-meter all-out test begrænses en utrænet motionist ofte af *lokal muskulær træthed* (ophobning af mælkesyre i lår og ryg) længe før, deres centrale kredsløb har nået sit absolutte VO₂max-loft. 
 
 Sagt på en anden måde: Begynderen stopper eller sætter farten ned, fordi benene "syrer til", selvom hjertet og lungerne måske kun har arbejdet på 85-90% af deres maksimale kapacitet. 
 
-En veltrænet roer har derimod en enorm arbejdende muskelmasse, høj kapillærtætning og en fantastisk syretolerance. Den øvede roer er i stand til at presse sit centrale kredsløb helt op på 98-100% af sin maksimale iltoptagelse gennem hele testen. Ved samme roede tid og Watt-effekt har den øvede roer altså reelt haft et højere centralt iltforbrug ($\text{VO}_2\text{max}$) end begynderen.
+En veltrænet roer har derimod en enorm arbejdende muskelmasse, høj kapillærtætning og en fantastisk syretolerance. Den øvede roer er i stand til at presse sit centrale kredsløb helt op på 98-100% af sin maksimale iltoptagelse gennem hele testen. Ved samme roede tid og Watt-effekt har den øvede roer altså reelt haft et højere centralt iltforbrug (VO₂max) end begynderen.
 
 ### Sammenligning af eksempler
 Da jeg roede 2000 meter på **7:18 sekunder** (hvilket svarer til et snit på ca. **302 Watt**), vejede jeg 84 kg. 

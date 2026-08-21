@@ -50,14 +50,14 @@ Brug søgeboksen eller filtrér på knapperne for hurtigt at finde den specifikk
 
 ## Konditionstests & VO2max (Iltoptagelse)
 
-Vil du kende dit generelle helbreds-kondital eller din [maksimale iltoptagelse ($\text{VO}_2\text{max}$)](/maksimale-iltoptagelse-vo2max/)? Valget af test afhænger af, hvor hårdt du vil belaste kroppen:
+Vil du kende dit generelle helbreds-kondital eller din [maksimale iltoptagelse (VO₂max)](/maksimale-iltoptagelse-vo2max/)? Valget af test afhænger af, hvor hårdt du vil belaste kroppen:
 
 | Testmetode | Type | Belastning | Nødvendigt udstyr | Beskrivelse |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Åstrand 1-punktstest](/etpunktstest/)** | Submaksimal | Lav / Medium | Ergometercykel & pulsmåler | 6 min. ved fast watt. Beregner kondital ud fra din pulsrespons. |
 | **[Åstrand 2-punktstest](/topunktstest/)** | Submaksimal | Medium | Ergometercykel & pulsmåler | 10-12 min. på to belastningstrin. Højere præcision uden udmattelse. |
-| **[Wattmax-test](/kondital-wattmax/)** | Maksimal | Meget høj | Wattmåler / Ergometer | Trinvis belastning til udmattelse. Måler din maksimale watt-ydelse ved $\text{VO}_2\text{max}$. |
-| **[Laboratorietest til cykling](/iltoptagelsestest-cykel/)** | Maksimal | Meget høj | Wattmåler / Ergometer | Trinvis belastning til udmattelse. Måler din maksimale watt-ydelse ved $\text{VO}_2\text{max}$. |
+| **[Wattmax-test](/kondital-wattmax/)** | Maksimal | Meget høj | Wattmåler / Ergometer | Trinvis belastning til udmattelse. Måler din maksimale watt-ydelse ved VO₂max. |
+| **[Laboratorietest til cykling](/iltoptagelsestest-cykel/)** | Maksimal | Meget høj | Wattmåler / Ergometer | Trinvis belastning til udmattelse. Måler din maksimale watt-ydelse ved VO₂max. |
 
 > 💡 **Tip:** Er du nybegynder eller genoptager træningen, så overvej en **submaksimal test** (fx Åstrand 1-punkt), så du undgår overbelastning.
 

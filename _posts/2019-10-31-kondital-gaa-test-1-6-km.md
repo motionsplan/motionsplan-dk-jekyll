@@ -126,7 +126,7 @@ $$ \text{Kondital} = 132{,}853 - 0{,}169535479 \cdot \text{Kropsvægt} - 0{,}387
 
 Hvor:
 
-* **$\text{VO}_2\text{max}$** = Kondital (ml $\text{O}_2$ / kg / min)
+* **VO₂max** = Kondital (ml $\text{O}_2$ / kg / min)
 * **$m$** = Kropsvægt (kg)
 * **$A$** = Alder (år)
 * **$S$** = Køn ($\text{Mand} = 1$, $\text{Kvinde} = 0$)

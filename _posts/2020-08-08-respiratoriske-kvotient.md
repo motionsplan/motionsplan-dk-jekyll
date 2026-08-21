@@ -100,7 +100,7 @@ Jo højere intensitet du træner med, desto mere overgår forbrændingen til kul
 ### Hvorfor kan RER overstige 1,0?
 Ved meget høj intensitet dannes energi anaerobt, hvilket fører til [ophobning af mælkesyre](/maelkesyre-traening/). For at neutralisere faldet i blodets pH-værdi, omdannes bikarbonat til $\text{CO}_2$, som udluftes via kraftig vejrtrækning (hyperventilation). 
 
-Derved stiger udskillelsen af $\text{CO}_2$ i forhold til $\text{O}_2$, og **RER kan nå værdier på 1,10 – 1,20+**. Dette bruges ofte som et slutpunktskriterium under en maximal iltoptagelsestest ($\text{VO}_2\text{-max}$ test).
+Derved stiger udskillelsen af $\text{CO}_2$ i forhold til $\text{O}_2$, og **RER kan nå værdier på 1,10 – 1,20+**. Dette bruges ofte som et slutpunktskriterium under en maximal iltoptagelsestest (VO₂max test).
 
 ---
 

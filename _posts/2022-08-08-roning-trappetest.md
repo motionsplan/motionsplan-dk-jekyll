@@ -68,7 +68,7 @@ Trappetesten i roning er en test til at finde dit [kondital](/kondital/). Det er
 
 Trappetests (inkrementelle tests) kendes fra forskellige udholdenhedsidrætter, f.eks. cykling og løb. Fælles for dem alle er, at du starter på et relativt lavt niveau og gradvist øger belastningen, indtil du til sidst rammer udmattelse. 
 
-Fordelen ved den 5 minutter lange trintid i rotrappetesten er, at kredsløbet når en stabil tilstand (*steady state*) på hvert niveau. Dermed bliver sammenhængen mellem den ydede effekt (Watt) og den maksimale iltoptagelse ($\text{VO}_2\text{max}$) meget præcis. Det kræver blot et ergometer, f.eks. en Concept2, der viser Watt.
+Fordelen ved den 5 minutter lange trintid i rotrappetesten er, at kredsløbet når en stabil tilstand (*steady state*) på hvert niveau. Dermed bliver sammenhængen mellem den ydede effekt (Watt) og den maksimale iltoptagelse (VO₂max) meget præcis. Det kræver blot et ergometer, f.eks. en Concept2, der viser Watt.
 
 {% include figure image_path="https://images.unsplash.com/photo-1520536363714-9459b8f1af72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=600&q=60" alt="Trappetest i roning på Concept2" %}
 
@@ -139,7 +139,7 @@ Du behøver ikke køre en separat opvarmning, da de to første trin på 5 minutt
 
 ## Den fysiologiske formel bag beregningen
 
-Kurt Jensen og Team Danmark har efter talrige valideringstests i laboratoriet på danske roere fundet følgende stærke lineære sammenhæng mellem resultatet fra rotrappetesten og roerens maksimale iltoptagelse ($\text{VO}_2\text{max}$ i liter pr. minut):
+Kurt Jensen og Team Danmark har efter talrige valideringstests i laboratoriet på danske roere fundet følgende stærke lineære sammenhæng mellem resultatet fra rotrappetesten og roerens maksimale iltoptagelse (VO₂max i liter pr. minut):
 
 $$ \text{VO}_2\text{max (mL/min)} = 13,7 \times \text{Maksimal Watt} + 287 $$
 

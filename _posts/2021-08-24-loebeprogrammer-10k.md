@@ -112,7 +112,7 @@ At tage skridtet fra 5 km til **10 kilometer** er en af de største milepæle fo
 Når du træner op til 10 km på Motionsplan, arbejder vi med tre faste ugentlige træningspas:
 
 1. **Den rolige udholdenhedstur (Zone 2):** Løbes i et afslappet snakketempo. Bygger dit kapillærnetværk, styrker senerne og forbedrer fedtforbrændingen.
-2. **Kvalitetspasset (Zone 3–5):** Tempoløb omkring mælkesyregrænsen eller intervaller, der flytter din maksimale iltoptagelse ($\text{VO}_2\text{max}$).
+2. **Kvalitetspasset (Zone 3–5):** Tempoløb omkring mælkesyregrænsen eller intervaller, der flytter din maksimale iltoptagelse (VO₂max).
 3. **Ugens lange tur (Zone 2):** Ugens længste tur, hvor kilometertallet øges gradvist uge for uge med indlagte restitutionsuger.
 
 ---

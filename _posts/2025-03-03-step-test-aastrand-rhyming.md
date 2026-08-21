@@ -58,7 +58,7 @@ breadcrumbs: 'true'
 
 Åstrand-Ryhming Step Test er en af de mest fundamentale og anerkendte fysiologiske konditionstests i verden. Testen blev udviklet af de svenske fysiologer Per-Olof Åstrand og Irma Ryhming i 1950'erne og har en stærk forankring i skandinavisk idrætsforskning.
 
-Testen er submaksimal, hvilket betyder, at du ikke behøver at presse dig selv til udmattelse. I stedet måles din arbejdspuls undervejs for at estimere din maksimale iltoptagelse ($\text{VO}_2\text{max}$).
+Testen er submaksimal, hvilket betyder, at du ikke behøver at presse dig selv til udmattelse. I stedet måles din arbejdspuls undervejs for at estimere din maksimale iltoptagelse (VO₂max).
 
 Hvis du ønsker en kortere test, kan du se på [YMCA 3-minutters steptest](/ymca-3-minutters-steptest/) eller gå til vores samlede [oversigt over steptests](/kondital-fra-steptest/).
 
@@ -102,7 +102,7 @@ Når du har gennemført de 6 minutter og noteret din gennemsnitlige puls fra det
 Testen estimerer først din absolutte iltoptagelse i liter pr. minut ($\text{L/min}$) ud fra sammenhængen mellem din belastningspuls og arbejdsintensiteten. Derefter korrigeres resultatet for alder, da den maksimale hjertefrekvens falder naturligt med alderen.
 
 ### 1. Alderskorrektion
-Det estimerede $\text{VO}_2\text{max}$-tal ganges med en alderskorrektionsfaktor ($f_{\text{alder}}$):
+Det estimerede VO₂max-tal ganges med en alderskorrektionsfaktor ($f_{\text{alder}}$):
 
 $$ \text{VO}_2\text{max}_{\text{korrigeret}} = \text{VO}_2\text{max}_{\text{estimerede}} \times f_{\text{alder}} $$
 
@@ -114,7 +114,7 @@ Typiske aldersfaktorer ($f_{\text{alder}}$) inkluderer:
 * **55+ år:** $0{,}71 \text{ og lavere}$
 
 ### 2. Beregning af kondital
-Når den absolutte $\text{VO}_2\text{max}$ ($\text{L/min}$) er korrigeret, omregnes den til dit relativt kondital i forhold til din kropsvægt:
+Når den absolutte VO₂max ($\text{L/min}$) er korrigeret, omregnes den til dit relativt kondital i forhold til din kropsvægt:
 
 $$ \text{kondital} = \frac{\text{VO}_2\text{max}_{\text{korrigeret}} \times 1000}{\text{kropsvægt i kg}} $$
 

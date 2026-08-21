@@ -100,7 +100,7 @@ Når du har målt din puls i 1 minut efter testen, kan du indtaste dine data her
 
 ## Formlen bag beregning af konditallet
 
-Beregneren benytter validerede formler fra *Kieu et al. (2020)*. Formlerne estimerer din maksimale iltoptagelse ($\text{VO}_2\text{max}$) baseret på din alder, højde, vægt og din puls målt i ét minut umiddelbart efter testen:
+Beregneren benytter validerede formler fra *Kieu et al. (2020)*. Formlerne estimerer din maksimale iltoptagelse (VO₂max) baseret på din alder, højde, vægt og din puls målt i ét minut umiddelbart efter testen:
 
 **For mænd:**
 $$ \text{VO}_2\text{max} = 70{,}597 - (0{,}246 \times \text{alder}) + (0{,}077 \times \text{højde i cm}) - (0{,}222 \times \text{vægt i kg}) - (0{,}147 \times \text{puls}) $$
@@ -120,7 +120,7 @@ Du kan vurdere dit resultat ved at udregne dit kondital med beregneren ovenfor, 
 
 Steptesten er en nem, hurtig og effektiv måde at vurdere din kondition på. Testen tager kun 3 minutter, og resultaterne kan nemt sammenlignes over tid for at måle dine træningsfremskridt. Testen har dokumenteret pålidelighed i forskningen og er ideel til gentagen brug.
 
-Hvis du ønsker at estimere din $\text{VO}_2\text{max}$ uden at steppe eller løbe, er [Rockport Walking Test](/gaatest/) et godt alternativ. Hvis du foretrækker at løbe, er [Cooper-testen](/cooper-test/) en yderst præcis mulighed.
+Hvis du ønsker at estimere din VO₂max uden at steppe eller løbe, er [Rockport Walking Test](/gaatest/) et godt alternativ. Hvis du foretrækker at løbe, er [Cooper-testen](/cooper-test/) en yderst præcis mulighed.
 
 ## Følg denne video-guide til YMCA steptest (valgfrit)
 

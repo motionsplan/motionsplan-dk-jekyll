@@ -163,12 +163,12 @@ Et svensk interventionsstudie undersøgte effekten af cyklus-periodiseret styrke
 
 ---
 
-## Ernæring og Restitution i Lutealfasen
+## Ernæring og restitution i lutealfasen
 
 De hormonelle forskydninger i cyklussens anden halvdel stiller ændrede krav til din ernæring:
 
 1. **Øget energibehov (+100–300 kcal/dag):** På grund af den termogene effekt af progesteron stiger dit [hvilestofskifte (BMR)](/hvilestofskiftet-formler/). Justér dit kalorieindtag i vores **[ligevægtsindtag-beregner](/ligevaegtsindtag-beregner/)**.
-2. **Forhøjet proteinbehov (1,8–2,2 g/kg/dag):** Da progesteron fremmer den katabole aminosyreoxidation, er tilstrækkeligt protein essentielt for at genopbygge muskelvævet efter træning.
+2. **Forhøjet proteinbehov (1,8–2,2 g/kg/dag):** Da progesteron fremmer den katabole aminosyreoxidation, er tilstrækkeligt protein essentielt for at genopbygge muskelvævet efter træning. Læs mere om [dagligt proteinbehov](/dagligt-protein-indtagelse).
 3. **Ekstern kulhydrattilførsel under træning:** Da progesteron dæmper glukosefrigivelsen fra lever- og muskelglykogen, vil supplering med hurtige kulhydrater under lange eller intensive træningspas være ekstra gavnligt i lutealfasen.
 
 ---

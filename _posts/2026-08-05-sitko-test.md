@@ -56,7 +56,7 @@ faq:
 
 Vil du kende din reelle iltoptagelseskapacitet og maksimale watt-ydeevne på cyklen uden at skulle i et avanceret fysiologisk laboratorium? 
 
-**Sitkos 5-minutters all-out cykeltest** har vundet stor udbredelse blandt både motionister og eliteryttere. Testen er udviklet af idrætsforskere som et simpelt, men utroligt præcist feltredskab til at estimere din **Maximal Aerobic Power (MAP)** og din **$\text{VO}_2\text{max}$** (kondital på cyklen).
+**Sitkos 5-minutters all-out cykeltest** har vundet stor udbredelse blandt både motionister og eliteryttere. Testen er udviklet af idrætsforskere som et simpelt, men utroligt præcist feltredskab til at estimere din **Maximal Aerobic Power (MAP)** og din **VO₂max** (kondital på cyklen).
 
 Brug beregneren herunder til at indtaste dine testresultater, eller læs videre i guiden for at få den præcise testprotokol og pacing-strategi.
 
@@ -64,7 +64,7 @@ Brug beregneren herunder til at indtaste dine testresultater, eller læs videre 
 
 ## 🧮 Beregner: Sitkos 5-minutters cykeltest
 
-Indtast din gennemsnitlige watt fra de 5 minutter samt din kropsvægt for at få beregnet din $\text{W/kg}$, MAP og estimerede $\text{VO}_2\text{max}$:
+Indtast din gennemsnitlige watt fra de 5 minutter samt din kropsvægt for at få beregnet din $\text{W/kg}$, MAP og estimerede VO₂max:
 
 {% include calc/sitko-test.html %}
 
@@ -74,12 +74,12 @@ Indtast din gennemsnitlige watt fra de 5 minutter samt din kropsvægt for at få
 
 Hvor traditionelle cykeltests som den klassiske [20-minutters FTP-test](/ftp-test/) har til formål at estimere din anarobe tærskel, fokuserer Sitkos 5-minutters test direkte på dit **aerobe loft**.
 
-En 5-minutters maksimal indsats ("all-out") belaster kredsløbet og iltoptagelsen maksimalt. Efter cirka 90–120 sekunders all-out arbejde når din krop sin maksimale iltoptagelse ($\text{VO}_2\text{max}$), og de resterende minutter handler om mental og fysiologisk tolerance.
+En 5-minutters maksimal indsats ("all-out") belaster kredsløbet og iltoptagelsen maksimalt. Efter cirka 90–120 sekunders all-out arbejde når din krop sin maksimale iltoptagelse (VO₂max), og de resterende minutter handler om mental og fysiologisk tolerance.
 
 ### Testen giver dig 3 vigtige nøgletal:
 1. **5-min Peak Power (Watt):** Den gennemsnitlige effekt, du kan holde i præcis 300 sekunder.
 2. **Watt pr. kilo ($\text{W/kg}$):** Et afgørende nøgletal for din klatreevne og relative styrke.
-3. **Estimeret MAP & $\text{VO}_2\text{max}$:** Et direkte mål for, hvor stor din "motor" er.
+3. **Estimeret MAP & VO₂max:** Et direkte mål for, hvor stor din "motor" er.
 
 {% include figure image_path="https://images.unsplash.com/photo-1517649763962-0c623266ddc0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Rytter på racercykel under watt-test" %}
 
@@ -128,7 +128,7 @@ Bør du køre en 5-minutters test eller en 20-minutters test? Tabellen herunder 
 
 | Parameter | Sitkos 5-minutters Test | 20-minutters FTP-test |
 | :--- | :--- | :--- |
-| **Primære fysiologiske mål** | $\text{VO}_2\text{max}$ og MAP (Aerob kapacitet) | Anaerob Tærskel / FTP (Udholdenhed) |
+| **Primære fysiologiske mål** | VO₂max og MAP (Aerob kapacitet) | Anaerob Tærskel / FTP (Udholdenhed) |
 | **Pacing-sværhedsgrad** | Høj (Kræver hård disciplin mod overpace) | Middel/Høj |
 | **Restitutionstid efter test** | Hurtig (1-2 dage) | Længere (2-3 dage) |
 | **Egnet til at styre** | VO2max-intervaller ($3\text{–}5\text{ min}$) | Tærskel- og Sweetspot-intervaller |

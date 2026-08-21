@@ -120,7 +120,7 @@ Det teoretiske iltkrav for et givet niveau beregnes fysiologisk som:
 
 $$ \text{VO}_2 = (\text{step/min} \times 0{,}2) + (\text{step/min} \times \text{stephøjde i m} \times 1{,}8 \times 1{,}33) + 3{,}5 $$
 
-Når pulsen for de gennemførte niveauer indplottes mod disse $\text{VO}_2$-værdier, ekstrapoleres den linje, der danner sig, op til din forventede maksimalpuls ($\text{HR}_{\text{max}} = 220 - \text{alder}$). Skæringspunktet angiver dit estimerede kondital ($\text{VO}_{2\text{max}}$) i $\text{mL O}_2/\text{kg/min}$.
+Når pulsen for de gennemførte niveauer indplottes mod disse $\text{VO}_2$-værdier, ekstrapoleres den linje, der danner sig, op til din forventede maksimalpuls ($\text{HR}_{\text{max}} = 220 - \text{alder}$). Skæringspunktet angiver dit estimerede kondital (VO₂max) i $\text{mL O}_2/\text{kg/min}$.
 
 ## Styrker og begræsninger for testen
 

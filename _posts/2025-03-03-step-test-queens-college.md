@@ -57,7 +57,7 @@ toc: 'true'
 breadcrumbs: 'true'
 ---
 
-Queens College Step Test (også kendt som McArdle Step Test eller QCST) er en simpel, standardiseret og effektiv metode til at vurdere din kardiovaskulære kondition. Ved at gennemføre en 3-minutters step-rutine og måle din puls efterfølgende kan du estimere dit kondital ($\text{VO}_2\text{max}$).
+Queens College Step Test (også kendt som McArdle Step Test eller QCST) er en simpel, standardiseret og effektiv metode til at vurdere din kardiovaskulære kondition. Ved at gennemføre en 3-minutters step-rutine og måle din puls efterfølgende kan du estimere dit kondital (VO₂max).
 
 Hvis du synes boksen på 41,3 cm er for høj, kan du vælge [YMCA steptest](/ymca-3-minutters-steptest/) med en boks på 30 cm, eller den [modificerede YMCA-steptest](/ymca-modified-steptest/), hvor boksen udregnes direkte efter din kropshøjde.
 
@@ -102,7 +102,7 @@ Når du har målt din puls i 15 sekunder efter testen og ganget tallet med 4, ka
 
 ## Formlen bag beregning af konditallet
 
-Queens College Step Test benytter de klassiske formler fra *McArdle et al. (1972)* til at estimere den maksimale iltoptagelse ($\text{VO}_2\text{max}$):
+Queens College Step Test benytter de klassiske formler fra *McArdle et al. (1972)* til at estimere den maksimale iltoptagelse (VO₂max):
 
 **For mænd:**
 $$ \text{VO}_2\text{max} = 111{,}33 - (0{,}42 \times \text{puls}) $$

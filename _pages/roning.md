@@ -90,7 +90,7 @@ For at få mest muligt ud af din træning er det vigtigt at kende dit udgangspun
 Brug værktøjerne til at kortlægge din kondition:
 
 ### 🚣 2000m Testen: Beregn dit kondital
-Guldstandarden inden for konditionstests i roning er 2000 meter maksimal roning. Vores beregner tager din 2k-tid, dine Watt og din kropsvægt og udregner din præcise maksimale iltoptagelse ($\text{VO}_2\text{max}$) og dit kondital ud fra de anerkendte Klusiewicz & Faff- eller Concept2-formler.
+Guldstandarden inden for konditionstests i roning er 2000 meter maksimal roning. Vores beregner tager din 2k-tid, dine Watt og din kropsvægt og udregner din præcise maksimale iltoptagelse (VO₂max) og dit kondital ud fra de anerkendte Klusiewicz & Faff- eller Concept2-formler.
 
 👉 **[Tag testen: Kondital ud fra 2000m roning](/kondital-roning/)**
 

@@ -69,7 +69,7 @@ Det er først, når kroppens glykogenlagre tømmes efter et par timer (fx når d
 
 ### Hvad bruges aerob træning til?
 * Opbygning af din grundlæggende **kondition** og kardiovaskulære sundhed.
-* Øget iltoptagelse ($\text{VO}_2\text{max}$) og stærkere hjerte.
+* Øget iltoptagelse (VO₂max) og stærkere hjerte.
 * Forbedret fedtoxidation og [FatMax-effekt](/fatmax/).
 
 {: .notice--info}

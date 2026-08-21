@@ -87,7 +87,7 @@ feature_row:
 breadcrumbs: true
 ---
 
-**Bruce-testen** (også kendt som *Bruce Protocol Treadmill Test*) er en af verdens mest velafprøvede og anerkendte felt-test til beregning af dit kondital ($\text{VO}_2\text{max}$) på et løbebånd. 
+**Bruce-testen** (også kendt som *Bruce Protocol Treadmill Test*) er en af verdens mest velafprøvede og anerkendte felt-test til beregning af dit kondital (VO₂max) på et løbebånd. 
 
 Testen kræver hverken pulsmåler, iltmaske eller avanceret laboratorieudstyr – udelukkende et stærkt løbebånd, der kan indstilles til hastigheder og stejle stigninger på op til $22\%$, samt din evne til at yde en **maksimal udmattelsesindsats**.
 
@@ -152,7 +152,7 @@ Du kan se en visuel gennemgang af Bruce-testen i videoen herunder:
 
 ---
 
-## Formler til Beregning af Kondital ($\text{VO}_2\text{max}$)
+## Formler til Beregning af Kondital (VO₂max)
 
 For at beregne dit kondital ud fra den opnåede tid ($T$ i minutter), benyttes regneformler baseret på udøverens køn og aktivitetsniveau. 
 

@@ -186,7 +186,7 @@ Tabellen er udformet af [Morten Zacho](https://web.archive.org/web/2010022220222
 
 ## Sådan beregner du kondital fysiologisk
 
-For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** ($\text{VO}_2\text{max}$) og derefter dividere med din kropsvægt.
+For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** (VO₂max) og derefter dividere med din kropsvægt.
 
 $$
 \text{kondital} = \frac{\text{VO}_2\text{max}}{\text{kropsvægt}}
@@ -318,7 +318,7 @@ At beregne eller teste sit kondital er en fantastisk måde at få et konkret tal
 Vil du forbedre dit kondital, er der i bund og grund to knapper, du kan skrue på:
 
 1. **Tab dig (hvis du er overvægtig):** Da konditallet opgøres pr. kilo kropsvægt, vil et vægttab automatisk øge dit kondital – selv uden at din iltoptagelse ændrer sig.
-2. **Træn med høj intensitet:** Vil du styrke selve hjerte-kredsløbet og øge din maksimale iltoptagelse ($\text{VO}_2\text{max}$), kræver det træning, hvor pulsen kommer helt op. Læs mere om [hvorfor intensitet er afgørende for at øge din VO2max her](/maksimale-iltoptagelse-vo2max/).
+2. **Træn med høj intensitet:** Vil du styrke selve hjerte-kredsløbet og øge din maksimale iltoptagelse (VO₂max), kræver det træning, hvor pulsen kommer helt op. Læs mere om [hvorfor intensitet er afgørende for at øge din VO2max her](/maksimale-iltoptagelse-vo2max/).
 
 I sidste ende behøver du ikke at få målt din præcise iltoptagelse i et avanceret laboratorium. Hvis du bruger den samme beregner eller fysiske test regelmæssigt og præsterer bedre fra gang til gang, ved du med sikkerhed, at din kondition og din sundhed er i fremgang!
 

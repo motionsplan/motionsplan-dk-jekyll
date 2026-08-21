@@ -102,7 +102,7 @@ Hvis du gerne vil opbygge din træning på en struktureret måde, kan du følge 
 
 | Træningspas | Primært indhold | Formål & Fysiologisk fokus |
 | :--- | :--- | :--- |
-| **Dag 1** | [Intervalløb](/intervallob-intervaltraening/) + 3–5 stigningsløb | Forbedrer $\text{VO}_2\text{max}$ og løbespændstighed |
+| **Dag 1** | [Intervalløb](/intervallob-intervaltraening/) + 3–5 stigningsløb | Forbedrer VO₂max og løbespændstighed |
 | **Dag 2** | Tempotur (fx 5 km omkring mælkesyregrænsen) + 3–5 bakkesprints | Skubber til den anaerobe tærskel og styrker afsættet |
 | **Dag 3** | Længere tur i lavere intensitet (snakketempo) | Bygger aerob udholdenhed og fedtforbrænding |
 | *(Valgfri Dag 4)* | *Restitutionstur (kort og meget lav intensitet)* | *Aktiv restitution og ekstra ugentlig volumen* |
