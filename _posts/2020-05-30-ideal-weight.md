@@ -209,6 +209,8 @@ På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange me
 
 Du skal også huske at normalvægtige personer ikke nødvendigvis har en sund krop. Man kan godt holde sig inden for grænserne for normalvægt, men stadig have en fedtprocent, der er for høj i forhold til sin sundhed.
 
+Frem for udelukkende at kigge blindt på badevægten, peger moderne forskning på, at dit [taljemål holdt op imod din højde](/taljemaal/) er en langt bedre indikator for, om du har en sund idealvægt.
+
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}

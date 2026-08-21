@@ -182,7 +182,7 @@ Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præc
 | **DEXA-scanning** | Bruger røntgenstråler til at måle knogler, fedt og muskelmasse | 3C- og 4C-modellen | Meget høj | Detaljeret måling af knogler, fedt og muskler | Dyrt, kræver adgang til medicinsk udstyr |
 | **Hudfoldsmåling** (fedttang) | Måler subkutant fedt med en tang | 2C-modellen | Moderat | Billigt og nemt | Afhænger af brugerens teknik |
 | **Bioimpedans (BIA)** | Sender en svag strøm gennem kroppen for at estimere kropssammensætning | 2C-modellen | Moderat | Let at bruge, hurtig måling | Påvirkes af hydreringstilstand |
-| **Målinger og udregninger** | Brug af BMI, taljemål og formler til estimering | Ingen direkte model | Lav | Let tilgængeligt | Unøjagtigt for individer med høj muskelmasse |
+| **Målinger og udregninger** | Brug af BMI, [taljemål](/taljemaal/) og formler til estimering | Ingen direkte model | Lav | Let tilgængeligt | Unøjagtigt for individer med høj muskelmasse |
 
 ## Afslutning om kropssammensætning
 

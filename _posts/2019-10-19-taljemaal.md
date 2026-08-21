@@ -199,6 +199,15 @@ Derfor vinder **talje-højde-ratioen** stadigt større indpas i videnskabelig li
    title="📐 Beregn Talje-Højde-Ratio" 
 %}
 
+### Hvorfor er WHtR bedre end Sundhedsstyrelsens taljemål?
+
+Sundhedsstyrelsen opererer med faste grænseværdier (f.eks. over 80 cm for kvinder og 94 cm for mænd), men de tal tager ikke højde for, hvor høj du er. Det skaber et åbenlyst problem:
+
+* En kvinde på **155 cm** med et taljemål på 78 cm har relativt meget mavefedt og er i risikozonen (Hendes ratio er 0,50). Alligevel "godkendes" hun af Sundhedsstyrelsen.
+* En kvinde på **185 cm** med et taljemål på 82 cm er slank og har en uproblematisk fedtfordeling (Hendes ratio er 0,44). Alligevel placeres hun i farezonen hos Sundhedsstyrelsen.
+
+**Talje-højde-ratioen (WHtR)** fjerner denne skævvridning. Forskning har gentagne gange vist, at netop dette forholdstal er langt mere præcist til at forudsige risikoen for hjertekarsygdomme og type 2-diabetes end både BMI og almindeligt taljemål.
+
 ### Tommelfingerregel & Ashwell Shape Chart®
 
 En god grundregel er: **Dit taljemål bør være mindre end halvdelen af din højde (Ratio < 0,5)**.
@@ -212,7 +221,7 @@ En god grundregel er: **Dit taljemål bør være mindre end halvdelen af din hø
 
 Klassifikationen bygger blandt andet på *Ashwell Shape Chart®* (Ashwell et al., 2011/2014), som overskueligt opdeler kropsformer i sundhedszoner.
 
-{% include figure image_path="/assets/images/nebido.com/chart_with_waist_illustrations-909x697-dc1eece6.png" caption="Ashwell Shape Chart® viser grafisk risikozoner baseret på talje-højde-forholdet." alt="Ashwell Shape Chart for talje-højde ratio" %}
+{% include figure image_path="https://www.ashwell.uk.com/images/shapechart.jpg" caption="Ashwell Shape Chart® viser grafisk risikozoner baseret på talje-højde-forholdet." alt="Ashwell Shape Chart for talje-højde ratio" %}
 
 ---
 
@@ -260,7 +269,13 @@ Hvis du vil dykke dybere ned i din kropskomposition, kan du læse mere i vores a
 * 📊 **[Hvad er kropskomposition?](/kropskomposition/)** – Lær hvordan din krop er opbygget af fedtmasse, muskelmasse og knogler.
 * 📏 **[Sådan måler du din fedtprocent](/artikel/udregning-af-fedtprocent/)** – Se de mest almindelige metoder til at estimere din fedtprocent (fx fedttang, scanninger og bioimpedans).
 * 📋 **[Normer for fedtprocent for mænd og kvinder](/fedtprocent-normer/)** – Sammenlign dine tal med de anbefalede grænseværdier for din alder og køn.
-* 📐 **[Mål din fedtprocent med en fedttang (Skinfold)](/skinfold/)** – Prøv vores guide til hudfoldsmålinger og vælg den rigtige formel.
+* 📐 **[Mål din fedtprocent med en fedttang (skinfold)](/skinfold/)** – Prøv vores guide til hudfoldsmålinger og vælg den rigtige formel.
+
+---
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 ---
 
@@ -277,7 +292,3 @@ Hvis du vil dykke dybere ned i din kropskomposition, kan du læse mere i vores a
 - Lee, C. M. Y., et al. (2008). Indices of abdominal obesity are better discriminators of cardiovascular risk factors than BMI: A meta-analysis. *Journal of Clinical Epidemiology*, 61(7), 646–653.
 - World Health Organization (WHO). (2011). *Waist circumference and waist-hip ratio: report of a WHO expert consultation, Geneva, 8-11 December 2008*.
 </details>
-
-## Ofte stillede spørgsmål
-
-{% include motionsplan/faq.html %}

@@ -83,7 +83,7 @@ Formlers største styrke er **konsistens over tid**. Selvom et simpelt målebån
 
 1. **Mål under samme omstændigheder:** Tag dine mål om morgenen, fastende og før træning.
 2. **Fokuser på tendensen:** Se på udviklingen over måneder frem for enkelte dages svingninger.
-3. **Kombiner parametre:** Hvis vægten står stille, men dit taljemål og din WHtR falder, gennemskuer du hurtigt, at din kropssammensætning ændrer sig positivt.
+3. **Kombiner parametre:** Hvis vægten står stille, men [dit taljemål](/taljemaal/) og din WHtR falder, gennemskuer du hurtigt, at din kropssammensætning ændrer sig positivt.
 
 ---
 

@@ -118,7 +118,7 @@ export const WAIST_HEALTH_FORMULAS = {
     name: 'Højde-Talje Ratio (WHtR)',
     inputs: ['waist', 'height'],
     unit: 'ratio',
-    disclaimer: '⚠️ Forbehold: WHtR vurderer risiko uafhængigt af højde, men kan være upræcis ved ekstrem muskelmasse.',
+    disclaimer: '⚠️ Forbehold: WHtR vurderer risiko afhængigt af højde, men kan være upræcis ved ekstrem muskelmasse. Vurdering baseret på Ashwells retningslinjer.',
     criteria: {
       both: [
         { limit: '< 0.40', label: 'Slank / Undervægtig', color: '#3b82f6', min: 0, max: 0.399 },

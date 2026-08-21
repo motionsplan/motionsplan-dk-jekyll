@@ -57,7 +57,7 @@ Vores beregner er baseret på omfattende epidemiologisk og fysiologisk forskning
 I studierne sammenholdt forskerne præcise DXA-scanninger (Dual-Energy X-ray Absorptiometry) med enkle antropometriske målinger:
 
 * **Kropsvægt og Højde:** Danner grundlæggende kropsvolumen.
-* **Taljemål:** Fungerer som korrektionsfaktor for fedtvæv og abdominalt fedt.
+* **[Taljemål](/taljemaal/):** Fungerer som korrektionsfaktor for fedtvæv og abdominalt fedt.
 * **Alder og Køn:** Korrigerer for den naturlige ændring i muskeldensitet og sarkopeni tværs over livsspændet.
 
 Formlerne estimerer den faktiske **skeletmuskelmasse (SM)** — altså de muskler, du aktivt kan træne — og skal ikke forveksles med *Lean Body Mass (LBM)*, som også indeholder organer, knogler og væske. Hvis du ønsker en dybere analyse af forholdet mellem fedtfri masse og fedtvæv, anbefaler vi at kigge på vores guide til at [måle fedtprocent](/maal-fedtprocent/).
