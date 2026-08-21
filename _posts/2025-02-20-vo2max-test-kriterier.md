@@ -29,7 +29,7 @@ feature_row_tests_loeb:
 
 Maksimal iltoptagelse (VO₂max) er et afgørende mål for din aerobe kapacitet og en vigtig indikator for din kondition. Men hvordan ved vi, om en person virkelig har nået sin maksimale iltoptagelse under en test?
 
-For at sikre en præcis vurdering benytter forskere og fysiologer en række kriterier, der hjælper med at afgøre, om en testperson har nået sit fysiologiske loft. Her gennemgår vi seks af de mest anvendte kriterier for at bestemme, om VO₂max er opnået under en test.
+For at sikre en præcis vurdering benytter forskere og fysiologer en række kriterier, der hjælper med at afgøre, om en testperson har nået sit fysiologiske loft. Her gennemgår vi seks af de mest anvendte kriterier for at bestemme, om VO₂max er opnået under en test. [Læs alt om hvordan en direkte iltoptagelsestest afvikles i laboratoriet →](/iltoptagelse-laboratorietest/)
 
 ## Hvilke begreber snakker vi om?
 

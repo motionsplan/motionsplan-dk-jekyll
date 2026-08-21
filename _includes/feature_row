@@ -17,21 +17,22 @@
           <div class="archive__item-teaser">
             {% assign raw_f_img = f.image_path | absolute_url %}
 
-            {% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
+            {% if site.image_cdn and site.image_cdn != "" and jekyll.environment != "development" %}
               {% assign f_img_src = site.image_cdn | append: "f_auto,q_auto:eco,w_500/" | append: raw_f_img %}
               {% assign f_img_src_2x = site.image_cdn | append: "f_auto,q_auto:eco,w_1000/" | append: raw_f_img %}
             {% else %}
               {% assign f_img_src = f.image_path | relative_url %}
+              {% assign f_img_src_2x = nil %}
             {% endif %}
 
             <img src="{{ f_img_src }}"
-                 {% if site.image_cdn != "" and site.image_cdn and jekyll.environment != "development" %}
-                   srcset="{{ f_img_src }} 500w, {{ f_img_src_2x }} 1000w"
-                   sizes="(max-width: 768px) 100vw, 500px"
-                 {% endif %}
-                 alt="{% if f.alt %}{{ f.alt | escape }}{% endif %}" 
-                 loading="lazy"
-                 decoding="async">
+                {% if f_img_src_2x %}
+                  srcset="{{ f_img_src }} 500w, {{ f_img_src_2x }} 1000w"
+                  sizes="(max-width: 768px) 100vw, 500px"
+                {% endif %}
+                alt="{% if f.alt %}{{ f.alt | escape }}{% endif %}" 
+                loading="lazy"
+                decoding="async">
 
             {% if f.image_caption %}
               <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>

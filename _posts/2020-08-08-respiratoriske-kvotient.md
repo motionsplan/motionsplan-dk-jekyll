@@ -37,10 +37,17 @@ Når du arbejder med fysiologi, idræt eller tests med iltmaske på løbebånd, 
 
 Begge tal fortæller, om kroppen primært forbrænder **fedt** eller **kulhydrat** – men der er én afgørende forskel på, hvor målingen foretages.
 
-> ### ⏱️ Kort fortalt: Forskellen på RQ og RER
-> * **RQ (Metabolsk Udvekslingskvotient):** Måles direkte i **cellerne/vævet**. Angiver det reelle næringsstofforbrug ($RQ = \frac{\text{CO}_2 \text{ dannet i celler}}{\text{O}_2 \text{ forbrugt i celler}}$). Ligger altid mellem **0,70 og 1,00**.
-> * **RER / R (Respiratorisk Udvekslingskvotient):** Måles i **udåndingsluften ved munden** ($RER = \frac{\text{CO}_2 \text{ udskilt}}{\text{O}_2 \text{ optaget}}$). 
-> * **Steady-State:** Ved hvile og roligt arbejde er **RER = RQ**. Ved hårdt arbejde og hyperventilation stiger RER over **1,00**, fordi kroppen udskiller ekstra $\text{CO}_2$ fra mælkesyre.
+<div class="notice--success" markdown="1">
+
+**⏱️ Kort fortalt: Forskellen på RQ og RER**
+
+* **RQ (Metabolsk Udvekslingskvotient):** Måles direkte i **cellerne/vævet**. Angiver det reelle næringsstofforbrug ($RQ = \frac{\text{CO}_2 \text{ dannet i celler}}{\text{O}_2 \text{ forbrugt i celler}}$). Ligger altid mellem **0,70 og 1,00**.
+* **RER / R (Respiratorisk Udvekslingskvotient):** Måles i **udåndingsluften ved munden** ($RER = \frac{\text{CO}_2 \text{ udskilt}}{\text{O}_2 \text{ optaget}}$). 
+* **Steady-State:** Ved hvile og roligt arbejde er **RER = RQ**. Ved hårdt arbejde og hyperventilation stiger RER over **1,00**, fordi kroppen udskiller ekstra $\text{CO}_2$ fra mælkesyre.
+
+</div>
+
+RER-værdien måles via gasanalyse i en [direkte iltoptagelsestest](/iltoptagelse-laboratorietest/) for at vurdere fordelingen af kulhydrat- og fedtforbrænding.
 
 ---
 

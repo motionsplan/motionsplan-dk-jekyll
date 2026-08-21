@@ -70,7 +70,7 @@ Har du brug for hurtig inspiration? Her er nogle af de mest ikoniske og populær
 | ♀️ **[Cindy](/crossfit-workouts/#cindy)** | Crossfit Benchmark | AMRAP 20 min | Pull-up bar | 20 min |
 | ⚔️ **[300 Spartan Challenge](/300-challenge/)** | Challenge / Styrke | For Time (300 reps) | Vægtstang / Kropsvægt | 15–30 min |
 | ⚡ **[10-20-30 Løb](/10-20-30-intervaltraening/)** | Løb / Kondition | Intervaller | Løbesko | 25 min |
-| 🚣 **[Krintels Favorit (Roning)](/romaskine-traeningsprogram/#4-krintels-favorit)** | Romaskine / Cardio | Intervaller | Romaskine | 18–40 min |
+| 🚣 **[Krintels Favorit (Roning)](/artikel/traeningsprogrammer-intervaller-roning/)** | Romaskine / Cardio | Intervaller | Romaskine | 18–40 min |
 | ⏱️ **[7 Minute Workout](/7-minute-workout/)** | HICT / Hjemmetræning | Tabata / Tid | Ingen (Kropsvægt) | 7 min |
 | 🎖️ **[Murph](/crossfit-workouts/#murph)** | Crossfit Hero WOD | For Time | Pull-up bar (evt. vægtvest) | 30–60 min |
 
@@ -83,7 +83,7 @@ Søger du et komplet træningsforløb eller dybdegående guides inden for et spe
 * 🏋️‍♂️ **[Crossfit Workouts Hub](/crossfit-workouts/):** Lær alt om Girls & Hero WODs, begreber som AMRAP og EMOM samt teknikker til skalering.
 * 🏠 **[Hjemmetræning uden udstyr (28 Dage)](/hjemmetraening-traeningsprogram/):** Fuldstændigt månedsprogram til styrketræning og fedtforbrænding derhjemme.
 * 🌀 **[Cirkeltræning Hub](/cirkeltraening/):** Lær at opbygge stationstræning og print udskrivningsklare øvelsesark.
-* 🚣 **[Romaskine Træningsprogrammer](/romaskine-traeningsprogram/):** 10 unikke rointervaller fra ekspert Anders Krintel samt 10-ugers begynderforløb.
+* 🚣 **[Romaskine Træningsprogrammer](/artikel/traeningsprogrammer-intervaller-roning/):** 10 unikke rointervaller fra ekspert Anders Krintel samt 10-ugers begynderforløb.
 * 🏃 **[Intervaltræning & Løb](/intervaltraening/):** Guides til VO2-max intervaller, bakkeløb og polariseret træning.
 
 ---

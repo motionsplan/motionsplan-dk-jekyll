@@ -135,7 +135,6 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ seo_title | default: page_title }}">
 <meta property="og:url" content="{{ canonical_url }}">
-
 {% if seo_description -%}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif -%}
@@ -147,6 +146,20 @@
   <meta property="og:image" content="{{ page_teaser_image }}">
   <meta property="og:image:alt" content="{{ seo_title }}">
 {% endif -%}
+
+{% assign source_image = page.header.teaser | default: page.header.overlay_image %}
+
+{% if source_image %}
+  {% assign raw_thumb_img = source_image | absolute_url %}
+
+  {% if site.image_cdn and site.image_cdn != "" and jekyll.environment != "development" %}
+    {% assign thumb_url = site.image_cdn | append: "c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/" | append: raw_thumb_img %}
+  {% else %}
+    {% assign thumb_url = raw_thumb_img %}
+  {% endif %}
+
+  <meta name="thumbnail" content="{{ thumb_url }}" />
+{% endif %}
 
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">

@@ -5,7 +5,7 @@ excerpt: "Komplet guide til Håndbold-agility-testen. Lær hvordan du opstiller 
 permalink: /haandbold-agility-test/
 language: da
 categories:
-  - Retningskifttests
+  - Retningsskifttests
 tags:
   - test
   - agilitytest

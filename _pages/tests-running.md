@@ -104,7 +104,7 @@ Valget af løbetest afhænger af dine personlige mål, dit nuværende træningsn
 | **[Cooper-test](/cooper-test/)** | Letøvede / Øvede | Høj (Maksimal) | Stopur & opmålt rute |
 | **[1609m Jogging-test](//submaximal-jogging-test-vo2/)** | Begyndere / Motionister | Medium (Submaksimal) | Pulsur & stopur |
 | **[Bip-test / Yo-Yo](/bip-test/)** | Holdidræt / Atleter | Meget høj (Intervaller) | Lydfil, højttaler & kegler |
-| **[Masketest på bånd](/iltoptagelse-max-test-loeb/)** | Nørder / Elite | Høj (Laboratorium) | Løbebånd & maskeudstyr |
+| **[Masketest på løbebånd](/iltoptagelsestest-loebebaand/)** | Seriøse & Elite | Høj (Laboratorium) | Løbebånd & maskeudstyr |
 
 ---
 

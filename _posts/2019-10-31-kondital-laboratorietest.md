@@ -1,21 +1,19 @@
 ---
-title: Direkte måling af iltoptagelse i laboratoriet
-seo_title: Direkte iltoptagelsestest - Test VO2max med maske i laboratoriet
+title: "Iltoptagelsestest: Alt om direkte måling af VO2max i laboratorium"
+seo_title: "Direkte iltoptagelsestest - Test VO2max med maske i laboratoriet"
 permalink: /iltoptagelse-laboratorietest/
 redirect_from:
-- /kondital-laboratorietest/
-excerpt: En direkte måling af iltoptagelsen gennem både submaksimale og maksimale forsøgsprotokoller med maske, hvor man måler
-  ilt- og kuldioxidindholdet og volumen af indåndingsluften og udåndingsluften.
-description: Test din VO2max direkte i et laboratorium med maske. Læs om submaksimale og maksimale tests, og hvordan de kan
-  være med til at optimere din træning.
+  - /kondital-laboratorietest/
+excerpt: En direkte måling af iltoptagelsen gennem både submaksimale og maksimale forsøgsprotokoller med maske, hvor man måler ilt- og kuldioxidindholdet og volumen af indåndingsluften og udåndingsluften.
+description: Test din VO2max direkte i et laboratorium med maske. Læs om submaksimale og maksimale tests, og hvordan de kan være med til at optimere din træning.
 language: da
 header:
   overlay_image: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
   teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
   caption: Direkte måling af iltoptagelse i laboratoriet
 categories:
-- Kondition
-- Konditionstests
+  - Kondition
+  - Konditionstests
 meta:
   name: Direkte måling af iltoptagelse i laboratorium 📝
   measures: VO2max og kondital
@@ -38,27 +36,43 @@ tests:
     setting: ["Laboratorietest", "Testcenter"]
     target_group: ["Atleter", "Motionister", "Voksne", "Mænd", "Kvinder"]
 tags:
-- test
-- konditionstest
-- laboratorietest
-- testcenter
-- direkte test
-- populær
-last_modified_at: '2024-02-20T19:14:14Z'
+  - test
+  - konditionstest
+  - laboratorietest
+  - testcenter
+  - direkte test
+  - populær
+last_modified_at: '2026-08-21T10:00:00Z'
 feature_row_tests:
-- image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
-  credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
-  alt: Kondition og tests
-  title: Kondition og tests
-  excerpt: Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?
-  url: /kondition/tests/
-  btn_label: Læs og prøv konditionstests
-  btn_class: btn--success
+  - image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
+    credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
+    alt: Kondition og tests
+    title: Kondition og tests
+    excerpt: Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?
+    url: /kondition/tests/
+    btn_label: Læs og prøv konditionstests
+    btn_class: btn--success
+faq:
+  - question: "Hvad er forskellen på en trappetest og en rampetest?"
+    answer: "En trappetest øger belastningen i trin på 3–5 minutter for at lade fysiologiske parametre opnå steady state og kortlægge tærskler (LT1/LT2). En rampetest øger belastningen kontinuerligt hvert minut for hurtigt at presse iltoptagelsen til VO2max uden lokal bentræthed."
+  - question: "Hvad er forskellen på en submaksimal og en maksimal test?"
+    answer: "En submaksimal test stoppes kontrolleret ved den anaerobe tærskel (LT2 / ~4 mmol laktat) for at bestemme træningszoner og arbejdsøkonomi uden udmattelse. En maksimal test fortsætter direkte til udmattelse (failure) for at måle den reelle maksimale iltoptagelse (VO2max) og maxpuls."
+  - question: "Hvad er kriterierne for en godkendt VO2max-test?"
+    answer: "En test godkendes som maksimal ved opnåelse af et VO2-plateau trods øget belastning, RER ≥ 1,10–1,15, blodlaktat > 8,0 mmol/L, puls tæt på teoretisk maxpuls og ventilatorisk kvotient (VE/VO2) > 30–35."
 ---
 
 Vil du optimere din træning og forstå, hvor effektivt din krop bruger ilt? En laboratorietest af VO2max giver præcise data om din aerobe kapacitet.
 
 Her får du et overblik over, hvordan test af iltoptagelse foregår, samt de forskellige testtyper. Du finder også links til specifikke testprotokoller længere nede.
+
+<div class="notice--info" markdown="1">
+
+🏃‍♂️ **Leder du efter de praktiske øvelsesvejledninger?**  
+Gå direkte til vore trinvise vejledninger for afvikling i laboratoriet:  
+* **[Øvelsesvejledning: Iltoptagelsestest på løbebånd →](/iltoptagelsestest-loebebaand/)**  
+* **[Øvelsesvejledning: Iltoptagelsestest på cykel →](/iltoptagelsestest-cykel/)**
+
+</div>
 
 ## Hvad er en laboratorietest af iltoptagelse?
 
@@ -99,7 +113,7 @@ Iltoptagelsestests med progressivt stigende intensitet opdeles typisk i **trappe
 
 Testforløbet kan illustreres således:  
 
-{% include figure image_path="/assets/images/motionsplan/ramp-vs-incremental-test.jpg" caption="Forskellen mellem en trappetest og en rampetest. Eksemplet viser en cykeltest, hvor belastningen i rampetesten øges hvert minut, mens trappetesten øger hvert 3-5 minut." %}  
+{% include figure image_path="/assets/images/motionsplan/ramp-vs-incremental-test.jpg" caption="Forskellen mellem en trappetest og en rampetest. Eksemplet viser en cykeltest, hvor belastningen i rampetesten øges hvert minut, mens trappetesten øger hvert 3-5 minut." %} 
 
 ## Typer af laboratorietests  
 
@@ -109,7 +123,7 @@ Iltoptagelsestests inddeles ud fra testens formål:
 - **Maksimale tests**: Tester den **maksimale** iltoptagelse (VO2max) og kroppens respons ved højeste belastning.  
 - **Hybridtests**: Starter ved **submaksimale niveauer**, men intensiteten øges gradvist, indtil forsøgspersonen når udmattelse. (Bruges ofte på Vejle Idrætshøjskole til løbere).  
 
-Selvom testtyperne er adskilte, kan de kombineres afhængigt af formålet. 
+Selvom testtyperne er adskilte, kan de kombineres afhængigt af formålet.
 
 Selvom der er forskellige typer, så kan du naturligvis også kombinere de forskellige tests på den ene eller anden måde.
 
@@ -184,7 +198,7 @@ Den maksimale iltoptagelsestest måler den maksimale aerobe kapacitet (VO₂max)
 En maksimal test kendetegnes ofte ved:
 
 - Progressivt stigende intensitet med korte intervaller (rampe-test)
-- Måling af VO2max ved udmattelse  
+- Måling af højeste VO2max undervejs
 - Vurdere kroppens fysiologiske respons på maksimal belastning
 - At skulle opfylde kriterier for succesfuld test
 
@@ -217,8 +231,7 @@ For at bekræfte en maksimal test vurderes følgende:
 - Puls tæt på maksimal puls
 - Ventilation/VO₂-forhold > 30
 
-**Gå i dybden**: [5 kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
-{: .notice }
+**Gå i dybden**: [5 kriterier for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
 
 </details>
 
@@ -240,34 +253,56 @@ Hvis du dyrker en særlig idrætsgren, er det naturligvis mest relevant at lave 
 > 👉 **[Se hvordan du laver en laktattest derhjemme eller i klubben →](/laktattest/)**
 {: .notice--info }
 
-## Oversigt over testprotokoller
+## Oversigt over øvelsesvejledninger og protokoller
 
-Her finder du beskrivelser af forskellige testprotokoller, som bruges til at måle iltoptagelse og kondition. Klik på en test for at få en detaljeret beskrivelse.
+Her finder du vores direkte øvelsesvejledninger til afvikling af iltoptagelsestests i laboratorium opdelt på idrætsgren:
 
-{% assign site_posts = site.posts | where: "tags", "iltoptagelsestest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="full" markdown="1">
-{% if site_posts.size > 0 %}
-| Test | Måler | Udstyr | Hårdhed | Målgruppe |
-|------|-------|--------|------|---------|-----------|
-  {%- for post in site_posts %}
-| [{{ post.meta.name | default: post.title  }}]({{ post.url }}) | {{ post.meta.measures }} | {{ post.meta.equipment }} | {{ post.meta.max }} | {{ post.meta.target | default: "voksne" }} |
-  {%- endfor %}
-{% endif %}
-</div>
+| Idrætsgren | Beskrivelse & Indhold | Link til vejledning |
+| :--- | :--- | :--- |
+| **Løb (Løbebånd)** | Komplet vejledning til submax trappetest, rampetest, kombineret test og trappetest til failure + gratis Google Sheet. | **[Iltoptagelsestest på løbebånd →](/iltoptagelsestest-loebebaand/)** |
+| **Cykling (Cykelergometer)** | Trinvise watt-tests, rampetests og bestemmelse af FTP/tærskler i cykling. | **[Iltoptagelsestest på cykel →](/iltoptagelsestest-cykel/)** |
 
 ## Udstyr til direkte måling af iltoptagelse
 
-Der findes forskelligt udstyr, man kan bruge til måling af direkte iltoptagelse. På Vejle Idrætshøjskole har vi laboratorieudstyr, hvor vi kan bruge cykelergometer og løbebånd sammen med udstyret, når vi laver både submaksimale og maksimale tests af iltoptagelse.
+Direkte gasanalyse opdeles i tre udstyrsklasser afhængigt af præcisionskrav, budget og anvendelsesområde:
 
-Der er flere fordele ved at lave testene på stationært udstyr, da det er let for forsøgslederen undervejs at give tilbagemelding og lave andre målinger undervejs, fx laktat-målinger eller pulsmålinger.
+| Funktion / Niveau | 1. Consumer & Entry-level | 2. Bærbart Pro-udstyr | 3. Professionelt Lab-anlæg |
+| :--- | :--- | :--- | :--- |
+| **Model-eksempler** | **Calibre / Caliper** | **VO2 Master** | **Cosmed (K5 / Quark) & Jaeger** |
+| **Placering** | Direkte på masken (letvægt) | Direkte på masken (trådløs) | Rygsæk (bærbart) eller stationært lab-anlæg |
+| **Måleparametre** | Primært $VO_2$ & ventilation | $VO_2$, flow & ventilation | $VO_2$, $VCO_2$, RER, laktat & EKG-integration |
+| **Måleprincip** | Mikro-optisk / Flow-sensor | Galvanisk $O_2$-sensor & flow | Paramagnetisk $O_2$, NDIR $CO_2$ (BxB / Mixing Chamber) |
+| **Målgruppe** | Personlige trænere, atleter & motionister | Testcentre, udholdenhedstrænere & klubber | Universiteter, hospitaler & elite-testcentre |
+| **Prisniveau (ca.)** | 15.000 – 35.000 DKK | 50.000 – 80.000 DKK | 200.000 – 600.000+ DKK |
 
-Man kan også få mobilt udstyr til direkte test af iltoptagelse. Fx **[Cosmed K5](https://www.cosmed.com/en/products/cardio-pulmonary-exercise-test/k5)**. Jeg er ved at undersøge, hvor godt udstyret er i forhold til at få valide målinger.
+🔬 **Gå i dybden med udstyr, sensorer og måleprincipper**  
 
-{% include video provider="youtube" id="9QWic5oCXu8" %}
+Vil du læse om forskellen på *Breath-by-Breath* vs. *Mixing Chamber*, paramagnetiske sensorer eller den oprindelige Douglas-sæk?  
+
+👉 **[Se vores komplette guide til VO2max-gasanalyseudstyr →](/gasanalyse-udstyr-vo2max/)**
+
+---
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
+
+---
 
 ## Andre tests af iltoptagelse
 
 Hvis du ikke har adgang til et laboratorium, så kan du vælge nogle af de indirekte tests. I disse tests kan du estimere din iltoptagelse ud fra dine resultater i testene.
 
-{% include feature_row id="feature_row_about_tests" type="left" %}
+{% include feature_row id="feature_row_tests" type="left" %}
+
+---
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Kilder og videnskabelig litteratur</h2></summary>
+
+- **Wasserman, K., Hansen, J. E., Sue, D. Y., Stringer, W. W., & Whipp, B. J. (2011).** *Principles of Exercise Testing and Interpretation: Including Pathophysiology and Clinical Applications.* Lippincott Williams & Wilkins.
+- **Midgley, A. W., McNaughton, L. R., Polman, R., & Marchant, D. (2007).** *Criteria for determination of maximal oxygen uptake: a review.* Sports Medicine, 37(12), 1019-1028.
+- **Åstrand, P. O., Rodahl, K., Dahl, H. A., & Strømme, S. B. (2003).** *Textbook of Work Physiology: Physiological Bases of Exercise.* Human Kinetics.
+- **Bentley, D. J., Newell, J., & Bishop, D. (2007).** *Incremental exercise test design and analysis: physiological responses in trained athletes.* Sports Medicine, 37(7), 575-586.
+- **Faude, O., Kindermann, W., & Meyer, T. (2009).** *Lactate threshold concepts: how valid are they?* Sports Medicine, 39(6), 469-490.
+</details>

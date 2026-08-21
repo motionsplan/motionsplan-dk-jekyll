@@ -25,6 +25,9 @@ Træningsmængden er i mange sportsgrene steget markant i de sidste årtier. Det
 
 Målet er at forbedre præstationen, men den megen træning har også en negativ konsekvens. Antallet af skader er steget og især de alvorligere skader som overrevet korsbånd og kroniske skulderproblemer har gennemgået en uheldig udvikling.
 
+> **På jagt efter praktiske øvelser?**
+> [Se vores praktiske program med excentriske skadesforebyggende øvelser til benene her →](/skadesforebyggelse-skadesforebyggende-traening/)
+
 Vi vil i det følgende kigge på hvilke former for træning, der har en skadesforebyggende effekt.
 
 ## Skadesforebyggelse versus specificitet

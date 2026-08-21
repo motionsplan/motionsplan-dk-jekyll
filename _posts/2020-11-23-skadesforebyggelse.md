@@ -1,27 +1,54 @@
 ---
-last_modified_at: '2020-10-13T23:14:14.000Z'
-toc: 'true'
+last_modified_at: '2026-08-21T15:00:00Z'
+toc: true
 author: jesper.emil.jakobsgaard
 permalink: /skadesforebyggelse-skadesforebyggende-traening/
-title: 'Skadesforebyggelse: Hvilke øvelser kan forebygge skader?'
+title: 'Skadesforebyggende øvelser til ben: Excentrisk og isometrisk træning'
+seo_title: 'Skadesforebyggende øvelser til ben: Knæ, baglår og lyske'
+description: 'Praktisk guide og øvelsesprogram til skadesforebyggelse i benene. Se hvordan excentrisk og isometrisk træning forebygger skader i knæ, lyske og baglår.'
 header:
   overlay_image: /assets/images/unsplash/photo-1550259979-ed79b48d2a30.jpg
   credit: https://images.unsplash.com/photo-1550259979-ed79b48d2a30
   teaser: /assets/images/unsplash/photo-1550259979-ed79b48d2a30.jpg
-  caption: 'Skadesforebyggelse: Hvilke øvelser kan forebygge skader?'
+  caption: 'Skadesforebyggende øvelser til benene'
 language: da
 categories:
-- Træning
-- Skader & Skadesforebyggelse
+  - Træning
+  - Skader & Skadesforebyggelse
 tags:
-- styrketræning
-- skadesforebyggelse
+  - styrketræning
+  - skadesforebyggelse
+  - øvelser
+workout:
+  - name: "Sissy Squat"
+    reps: 6
+  - name: "Copenhagen Side Plank"
+    reps: 6
+  - name: "Bent Knee Calf Raise"
+    reps: 6
+  - name: "TRX Prone Knee Raise"
+    reps: 10
+  - name: "Nordic hamstring"
+    reps: 6
+  - name: "Wallsit"
+    secs: 45
+  - name: "Dynamic Side Bridge"
+    reps: 12
+  - name: "Tibialis Raises"
+    reps: 12
 ---
+
 Hvordan kan man arbejde med skadesforebyggelse? Skadesforebyggende træning kan mindske risikoen for skader, så vi dykker ned i hvilke øvelser, du kan lave for at forebygge skader.
 
-Hvad er skadesforebyggende træning? **Skadeforebyggende træning handler om at lave øvelser i træningen, som du mener kan være med til at reducere risikoen for skader i de efterfølgende aktiviteter. Det kan fx være balancetræning, strukturel muskelbalance og styrketræning.**
-
 Formålet med dette indlæg er, at du selv bliver inspireret til at dykke ned i den skadesforebyggende træning - og hvad der reelt er evidens for virker på forskellige typer skader primært for benene.
+
+> 📚 **Vil du dykke dybere ned i teorien?**  
+> Læs også Martins artikel om den generelle fysiologiske effekt af plyometri og balancetræning: **[Kan styrketræning forebygge skader? →](/artikel/kan-styrketraening-forebygge-skader/)**
+{: .notice--info }
+
+## Hvad er skadesforebyggende træning?
+
+**Skadeforebyggende træning handler om at lave øvelser i træningen, som du mener kan være med til at reducere risikoen for skader i de efterfølgende aktiviteter. Det kan fx være balancetræning, strukturel muskelbalance og styrketræning.**
 
 ## Hvad er skadesforebyggelse?
 
@@ -33,7 +60,7 @@ Når du tager højde for at træningsplanlæningen i sig selv er skadesforebygge
 
 ## Excentrisk og isometrisk styrketræning til skadesforebyggelse
 
-Det ser ud til, at excentrisk træning og isometrisk træning ser ud til at kunne have en god effekt i forhold til skadesforebyggelse, genopbygning efter skader og smertelindring.
+Det ser ud til, at [excentrisk træning](/excentrisk-traening/) og [isometrisk træning](/koncentrisk-excentrisk-isometrisk/) ser ud til at kunne have en god effekt i forhold til skadesforebyggelse, genopbygning efter skader og smertelindring.
 
 * **Excentrisk overload af muskler, sener og ledbånd**. Der må gerne være mulighed for excentrisk at kunne overloade musklerne og derved også sikre en relativ høj mekanisk spænding på tilhæftende sener og ledbånd. Det kan bl.a. være skadesforebyggende, fordi det ser ud til at forbedre modstandsdygtigheden ved høj-hastighedskontraktioner. Fx har Nordic Hamstring vist at kunne forebygge skader i baglåret i flere studier med fodboldspillere. I det følgende er Nordic Hamstring, Copenhagen Hip Adduction og Sissy Squats særligt valgt, fordi de giver god mulighed bare med kropsvægt at overloade den excentriske del af bevægelsen.
 * **Isometrisk komponent**. Flere og flere studier har demonstreret, at isometriske hold i en bevægelse kan have en akut, men også kronisk smertelindrende effekt. Isometrisk træning kan laves på to måder. *Overcoming isometrics* er når man skubber mod noget, der ikke bevæger sig. *Yielding isometrics* er når man forsøger at holde samme stilling på trods af en ydre mostand.
@@ -67,7 +94,19 @@ Her er eksempler på øvelser lavet for at forebygge skader i benene. Øvelserne
 
 Øvelserne er dels valgt for at skabe mekanisk overload på musklerne og senerne omkring leddene, men til dels også for at stimulere de mindre stabiliseringsmuskler.
 
-## Forlår, inderlår og lægge
+{% comment %}
+
+{% include components/workout-player.html
+  exercises=page.workout
+  title="Skadesforebyggelse"
+  description="Program med øvelser til styrkelse af ben gennem excentriske øvelser."
+  rounds=3
+  rest=15
+%}
+
+{% endcomment %}
+
+## 🔄 Cirkel 1: Forlår, inderlår og lægge
 
 Lav fx 3-4 runder af følgende øvelser.
 
@@ -87,11 +126,11 @@ Et alternativ til Sissy Squats kunne være [Spanish Squats](https://medium.com/@
 
 Øvelser på et ben kan være med til at overloade kroppen. Calf-raises på ét ben med bøjet knæ er en pragmatisk måde at stimulere *soleus* bare med egen kropsvægt.
 
-## Baglår, hoftebøjer, forlår og baller
+## 🔄 Cirkel 2: Baglår, hoftebøjer, forlår og baller
 
 Lav fx 3 runder af de følgende øvelser:
 
-### Nordic Hamstrings x4-8
+### Nordic Hamstrings x 4-8
 
 {% include video provider="youtube" id="uqTDV6c53us" %}
 
@@ -105,7 +144,7 @@ Lav fx 3 runder af de følgende øvelser:
 
 Wall Sits har et stort isometrisk komponent, som potentielt kan have en akut og kronisk smertelindrende effekt. Hvis du har sko på og har en en god friktion med underlaget, så har øvelsen endnu mere effekt, hvis du samtidig presser fødderne fremad på gulvet for at skabe et ekstra *ekstensor*-moment over knæet med den store lårmuskel *quadriceps*. På den måde har du både *overcoming* og *yielding* isometrisk komponent i samme øvelse.
 
-### Dynamic side bridge x10-12
+### Dynamic side bridge x 10-12
 
 {% include video provider="youtube" id="4Nqt4bCqSMw" %}
 
@@ -114,3 +153,16 @@ Den dynamiske sidebro er med for primært at stimulere hoftens abduktor-muskulat
 ## Hvilken skadesforebyggende træning laver du?
 
 Hvilken type skadesforebyggende træning laver du, som du har set en god effekt af?
+
+👉 **[Tilbage til oversigten over idrætsskader og forebyggelse →](/skader/)**
+
+---
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Litteratur og referencer</h2></summary>
+
+- **Clifford, C., et al. (2020).** *Isometrics: A isometric exercise review.* BMJ Open Sport & Exercise Medicine, 6(1), e000760. [Læs artikel](https://bmjopensem.bmj.com/content/6/1/e000760)
+- **Lorenz, D., & Reiman, M. (2011).** *The role of eccentric training in exercise theory and application in rehabilitation.* International Journal of Sports Physical Therapy, 6(2), 135–144. [Læs artikel](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105370/)
+- **Rudavsky, A., & Cook, J. (2014).** *Physiotherapy management of patellar tendinopathy (jumper's knee).* Journal of Physiotherapy, 60(3), 122–129.
+- **Silbernagel, K. G., et al. (2019).** *Tendinopathy: Evidence-based management.* British Journal of Sports Medicine, 53(21), 1330.
+</details>

@@ -88,7 +88,7 @@ Hvor pulszoner baseret på teoretisk maxpuls ofte kan ramme ved siden af, måler
 
 Efter at have læst denne artikel vil du vide, hvordan testen udføres, hvordan du undgår typiske målefejl, og hvordan du analyserer dine data for at identificere din **aerobe tærskel (AeT / LT1)** og **anaerobe tærskel (AnT / LT2)**.
 
-Testen kræver tålmodighed, for det kræver både øvelse og præcision at lave pålidelige laktatmålinger.
+Testen kræver tålmodighed, for det kræver både øvelse og præcision at lave pålidelige laktatmålinger. En laktattest kombineres ofte med en [direkte iltoptagelsestest i laboratoriet](/iltoptagelse-laboratorietest/) for at få det fulde billede af kondital og energiomsætning.
 
 [<i class='fas fa-calculator'></i> Hop direkte til Laktatberegneren](#calculator){: .btn .btn--success .btn--jump }
 
@@ -306,7 +306,7 @@ Ved at bruge blodlaktattests systematisk hver 3.–6. måned kan du løbende ove
 
 {% include video provider="youtube" id="17NFLGUJ3Pw" %}
 
-Laktattesten laves ofte sammen med en [submaksimal progressiv trappetest](/iltoptagelse-trappetest-maxtest-loeb/). Hvis du er interesseret i at dykke ned i, hvilke andre tests der findes, kan du tjekke vores [oversigt over iltoptagelsestests](/iltoptagelse-laboratorietest/).
+Laktattesten laves ofte sammen med en [submaksimal progressiv løbetest](/iltoptagelsestest-loebebaand/). Hvis du er interesseret i at dykke ned i, hvilke andre tests der findes, kan du tjekke vores [oversigt over iltoptagelsestests](/iltoptagelse-laboratorietest/).
 
 {% include feature_row id="feature_row_tests_loeb" type="left" %}
 

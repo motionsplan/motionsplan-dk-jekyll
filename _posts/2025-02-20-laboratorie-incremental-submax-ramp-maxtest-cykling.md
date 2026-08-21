@@ -1,16 +1,18 @@
 ---
-title: &title "Cykeltest med iltoptagelse (submax + maxtest) 🚴"
-seo_title: "Cykeltest med iltoptagelse (submax + maxtest)"
-permalink: /iltoptagelse-submax-trappetest-ramp-maxtest-cykling/
-excerpt: "Direkte måling af vo2 i cykling med maske og stigende belastning fra lav intensitet til omkring den anaerobe tærskel. Derefter en maksimal test af konditallet."
-description: "Direkte måling med maske af iltoptagelsen i cykling med stigende belastning fra lav intensitet til den anaerobe tærskel. Derefter en maksimal test af konditallet."
+title: "Iltoptagelsestest på cykelergometer (Submax, watt & maxtest) 🚴"
+seo_title: "Iltoptagelsestest på cykel – Øvelsesvejledning, submax & VO2max"
+permalink: /iltoptagelsestest-cykel/
+redirect_from:
+  - /iltoptagelse-submax-trappetest-ramp-maxtest-cykling/
+excerpt: "Direkte måling af iltoptagelse (VO2) i cykling med maske og stigende watt-belastning. Lær at afvikle ren submax, rampetest og den kombinerede hybridtest."
+description: "Komplet øvelsesvejledning for iltoptagelsestest på cykelergometer. Måling af VO2max, laktatprofil, FTP-zoner, submax watt-test og rampetest i cykling."
 language: da
 header:
   teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
   caption: *title
 categories:
   - Kondition
-  - Konditiontests
+  - Konditionstests
 meta:
   name: Cykeltest med iltoptagelse (submax + maxtest)
   measures: LT1, LT2, VO2max, kondital, maxpuls, cykeløkonomi
@@ -54,7 +56,7 @@ feature_row_tests_cykling:
     btn_class: "btn--success"
 ---
 
-I denne cykeltest for iltoptagelse får du en nøjagtig måling af din aerobe kapacitet under både submaksimalt, maksimalt aerobt og anaerobt arbejde. Testresultaterne kan give dig værdifuld indsigt i din præstation ved forskellige intensitetsniveauer og hjælpe dig med at optimere din træning.
+I denne cykeltest for iltoptagelse får du en nøjagtig måling af din aerobe kapacitet under både submaksimalt, maksimalt aerobt og anaerobt arbejde. Testresultaterne kan give dig værdifuld indsigt i din præstation ved forskellige intensitetsniveauer og hjælpe dig med at optimere din træning. Læs om den [teori om iltoptagelsestests](/iltoptagelse-laboratorietest/).
 {: .intro }
 
 Testen er delt i tre trin, som køres med en kort pause i mellem.

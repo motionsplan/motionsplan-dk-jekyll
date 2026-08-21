@@ -137,7 +137,7 @@ En direkte konditest måler din maksimale iltoptagelse ($\text{VO}_2\text{max}$)
 
 * **Fordele:** Den absolut mest præcise måling af din iltoptagelse og dine fysiologiske pulszoner.
 * **Ulemper:** Kræver specialudstyr, fagpersonale og er dyrere at udføre.
-* **Mest populære:** **[Løbebåndstest med iltmaske](/iltoptagelse-max-test-loeb/)** • **[Masketest på cykel](/iltoptagelse-submax-trappetest-ramp-maxtest-cykling/)**
+* **Mest populære:** **[Løbebåndstest med iltmaske](/iltoptagelsestest-loebebaand/)** • **[Masketest på cykel](/iltoptagelsestest-cykel/)**
 
 ---
 
@@ -248,6 +248,8 @@ For at opnå så præcise og reproducerbare resultater som muligt bør du:
 * **Vælge en flad, opmålt rute:** Sørg for at løberuten er flad, har godt underlag og er målt præcist op.
 * **Kalibrere udstyr:** Testes der på cykel, skal wattmåleren eller ergometeret kalibreres før start.
 * **Test under samme betingelser:** Så længe du bruger samme testmetode, samme rute og samme udstyr hver gang, får du et pålideligt billede af din fremgang.
+
+**Læs**: [Guide til direkte måling af iltoptagelse (VO2max) →](/iltoptagelse-laboratorietest/)
 
 ---
 

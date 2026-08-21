@@ -18,6 +18,8 @@ workout:
   - "Skulder, internal rotation from pullback"
   - "Skulder, internal rotation"
 last_modified_at: 2022-07-29T13:43:26Z
+header:
+  teaser: https://images.unsplash.com/photo-1727727302419-9579e5f9f76e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
 Discgolf er en sjov, rekreativ sport, der kan nydes af folk i alle aldre. Det er dog sjovere at spille, hvis man kan undgå skader. Her er nogle tips til, hvordan du kan forebygge skader, mens du spiller discgolf.
