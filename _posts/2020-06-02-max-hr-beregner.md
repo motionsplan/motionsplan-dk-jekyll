@@ -38,16 +38,16 @@ faq:
   - question: "Hvordan beregnes min maxpuls?"
     answer: "Din maxpuls beregnes typisk med en formel baseret på din alder. Der findes flere formler, som giver forskellige estimater. Du kan bruge vores maxpuls-beregner på denne side til at få en hurtig beregning."
   - question: "Hvor præcise er maxpuls-formlerne?"
-    answer: "Formlerne giver et gennemsnitligt estimat, men der kan være store individuelle forskelle. Den mest præcise måde at finde din maxpuls på er gennem en fysisk test. Se mere på vores side om [test af maxpuls](/max-puls-test/)."
+    answer: "Formlerne giver et gennemsnitligt estimat, men der kan være store individuelle forskelle. Den mest præcise måde at finde din maxpuls på er gennem en fysisk test. Se mere på vores side om [test af maxpuls](/test-max-puls/)."
   - question: "Hvor meget falder maxpulsen pr. år, når man bliver ældre?"
     answer: "Studier viser, at maxpulsen i gennemsnit falder med 0,5-1 slag/år. Dette er indbygget i de fleste beregningsformler. Du kan se forskellige formler på vores side om [maxpuls-formler](/max-puls-formler/)."
   - question: "Hvor høj bør min puls være under træning?"
     answer: "Det afhænger af din træningsintensitet. Du kan bruge pulszoner til at strukturere din træning og sikre, at du træner effektivt. Læs mere om [pulstræning og træningszoner](/pulstraening/)."
   - question: "Kan jeg bruge beregneren til at finde min optimale træningspuls?"
-    answer: "Ja! Når du har beregnet din maxpuls, kan du bruge den til at finde dine træningszoner. Mange træningsprogrammer bruger maxpulsen som grundlag for intensitetszoner. Det er dog mere præcist at bruge en [rigtig maxpuls-test](/max-puls-test/). Se vores guide til [pulstræning](/pulstraening/) for mere information."
+    answer: "Ja! Når du har beregnet din maxpuls, kan du bruge den til at finde dine træningszoner. Mange træningsprogrammer bruger maxpulsen som grundlag for intensitetszoner. Det er dog mere præcist at bruge en [rigtig maxpuls-test](/test-max-puls/). Se vores guide til [pulstræning](/pulstraening/) for mere information."
 ---
 
-Vil du hurtigt estimere din maksimale puls? Brug vores interaktive beregner, som baserer sig på videnskabelige formler. Husk dog, at den præcise værdi kun kan findes gennem en [fysisk maxpuls-test](/max-puls-test/).
+Vil du hurtigt estimere din maksimale puls? Brug vores interaktive beregner, som baserer sig på videnskabelige formler. Husk dog, at den præcise værdi kun kan findes gennem en [fysisk maxpuls-test](/test-max-puls/).
 
 Den maksimale puls afhænger af alderen. Mange studier har lavet [aldersrelatede maxpuls-formler](/max-puls-formler/). Du kan altså bekvemt få et estimat på din maxpuls ved bare at indtaste din alder i vores beregner. Så klarer vi resten.
 
@@ -61,7 +61,7 @@ Vælg den formel du helst vil bruge. Indtast derefter din alder, og få dit resu
 >
 > Da aldersbaserede formler har en usikkerhed på $\pm 10\text{--}15\text{ slag/min}$, giver de kun et gennemsnitligt estimat. 
 > 
-> * Vil du have helt præcise pulszoner? 👉 **[Læs vores guide til at teste din maxpuls selv](/max-puls-test/)**
+> * Vil du have helt præcise pulszoner? 👉 **[Læs vores guide til at teste din maxpuls selv](/test-max-puls/)**
 > * Vil du se, hvilken formel der passer bedst til din alder? 👉 **[Sammenlign alle maxpuls-formler her](/max-puls-formler/)**
 
 ## Hvordan finder beregneren min max-puls?
@@ -85,7 +85,7 @@ Maxpuls-beregninger baseret på formler kan give et estimat, men de er ikke 100%
 
 Derfor er en beregning af maxpulsen ikke så anvendelig, hvis du vil udregne pulszoner.
 
-Den mest præcise måde at finde din maxpuls på er ved en fysisk test, hvor du presser dig selv til maksimal anstrengelse. Læs mere om, hvordan du tester din maxpuls på vores side om [test af maxpuls](/max-puls-test/).
+Den mest præcise måde at finde din maxpuls på er ved en fysisk test, hvor du presser dig selv til maksimal anstrengelse. Læs mere om, hvordan du tester din maxpuls på vores side om [test af maxpuls](/test-max-puls/).
 
 ## Konklusion
 
@@ -93,7 +93,7 @@ At beregne din maksimale puls med en formel kan give et hurtigt estimat, men den
 
 🔗 **Læs mere om maksimal puls:**
 
-- 📊 [Test din maksimale puls](/max-puls-test/) – Se de bedste testmetoder.  
+- 📊 [Test din maksimale puls](/test-max-puls/) – Se de bedste testmetoder.  
 - 🧮 [Max-puls formler](/max-puls-formler/) – Sammenligning af forskellige beregningsmetoder.  
 - ℹ️ [Overblik over max-puls](/test-max-puls/) – Alt, du behøver at vide om maksimal puls.
 
