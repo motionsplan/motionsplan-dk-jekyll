@@ -1,0 +1,2755 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Styrkestandarder &amp; Beregner: Sammenlign din relativ styrke</title>
+<meta name="description" content="Beregner til relativ styrke, Wilks score, IPF GL points og Nuckols styrkestandarder. Sammenlign din styrke på tværs af køn, kropsvægt, højde og alder.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="Styrkestandarder &amp; Beregner: Sammenlign din relativ styrke">
+<meta property="og:url" content="https://www.motionsplan.dk/sammenligning-styrke/">
+<meta property="og:description" content="Beregner til relativ styrke, Wilks score, IPF GL points og Nuckols styrkestandarder. Sammenlign din styrke på tværs af køn, kropsvægt, højde og alder.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DStyrkestandarder+%26+Beregner%3A+Sammenlign+din+relativ+styrke%26excerpt%3DBeregner+til+relativ+styrke%2C+Wilks+score%2C+IPF+GL+points+og+Nuckols+styrkestandarder.+Sammenlign+din+styrke+p%C3%A5+tv%C3%A6rs+af+k%C3%B8n%2C+kropsv%C3%A6gt%2C+h%C3%B8jde+og+alder.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1761839258420-5c3e2f2e2a74%3Fq%3D80%26w%3D2070%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D13.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1786618800/opengraph/">
+  <meta property="og:image:alt" content="Styrkestandarder &amp; Beregner: Sammenlign din relativ styrke">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://images.unsplash.com/photo-1761839258420-5c3e2f2e2a74?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="Styrkestandarder &amp; Beregner: Sammenlign din relativ styrke">
+  <meta name="twitter:description" content="Beregner til relativ styrke, Wilks score, IPF GL points og Nuckols styrkestandarder. Sammenlign din styrke på tværs af køn, kropsvægt, højde og alder.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/sammenligning-styrke/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DStyrkestandarder+%26+Beregner%3A+Sammenlign+din+relativ+styrke%26excerpt%3DBeregner+til+relativ+styrke%2C+Wilks+score%2C+IPF+GL+points+og+Nuckols+styrkestandarder.+Sammenlign+din+styrke+p%C3%A5+tv%C3%A6rs+af+k%C3%B8n%2C+kropsv%C3%A6gt%2C+h%C3%B8jde+og+alder.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1761839258420-5c3e2f2e2a74%3Fq%3D80%26w%3D2070%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D13.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1786618800/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2019-10-31T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-08-13T11:00:00+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/sammenligning-styrke/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/sammenligning-styrke/#webpage",
+      "name": "Styrkestandarder &amp; Beregner: Sammenlign din relativ styrke",
+      "url": "https://www.motionsplan.dk/sammenligning-styrke/",
+      "description": "Beregner til relativ styrke, Wilks score, IPF GL points og Nuckols styrkestandarder. Sammenlign din styrke på tværs af køn, kropsvægt, højde og alder.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2019-10-31T00:00:00+00:00",
+      "dateModified": "2026-08-13T11:00:00+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/sammenligning-styrke/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/sammenligning-styrke/#article",
+        "inLanguage": "da",
+        "name": "Styrkestandarder & Beregner: Hvor stærk er du?",
+        "headline": "Styrkestandarder &amp; Beregner: Sammenlign din relativ styrke",
+        "keywords": "beregner,styrketræning,vurderingsværktøj,moc",
+        "description": "Hvor stærk er du egentlig i forhold til din kropsvægt, højde og alder? Test din styrke med vores samlede beregner og bliv klogere på allometrisk skalering, Wilks, IPF GL og Nuckols standarder.",
+        "articleBody": "Når du vil sammenligne din styrke med andre, er det sjældent nok blot at kigge på det rå antal kilo på vægtstangen. En person på 110 kg, der bænkpresser 140 kg, har en helt anden præstation end en person på 65 kg, der løfter det samme.\n\nMen hvordan sammenligner man styrke retfærdigt på tværs af kropsvægt, køn, højde og alder?\n\nI denne artikel gennemgår vi de vigtigste modeller til sammenligning af relativ styrke – lige fra simple styrkestandarder og den matematiske allometriske skalering til konkurrencesystemer som IPF GL Points, Wilks Score, Mel Siffs Index100 og Greg Nuckols’ biologiske potentialemodel.\n\n\n\nStyrkeberegner - sammenlign din relative styrke\n\nBrug beregneren nedenfor til at fange din samlede styrkeprofil med det samme. Indtast din alder, højde, vægt og dine bedste løft. Systemet udregner automatisk din relative styrke, IPF GL points, Wilks score og niveau baseret på Greg Nuckols styrkestandarder.\n\n\n  \n    Styrkeberegner - beregn relativ styrke\n    Sammenlign din styrke på tværs af køn, kropsvægt, højde og alder\n  \n\n  \n    \n    \n      \n      \n        Køn\n        \n          \n          Mand\n          \n          Kvinde\n          \n        \n      \n\n      \n      \n        Alder\n        \n      \n\n      \n      \n        Højde (cm)\n        \n      \n\n      \n      \n        Vægt (kg)\n        \n      \n    \n\n    \n    \n      Dine Løft (1RM i kg)\n      \n      \n      \n        \n        Raw\n        \n        Udstyr\n        \n      \n    \n\n    \n      \n      \n        Squat\n        \n      \n\n      \n      \n        Bænkpres\n        \n      \n\n      \n      \n        Dødløft\n        \n      \n    \n  \n\n  \n  \n    \n    \n    \n\n      \n      \n        \n          IPF GL Points\n          ℹ️\n        \n        \n          0.00\n          Beregner...\n          IPF GL (2020-2024)\n        \n      \n\n      \n      \n        \n          Wilks Score\n          ℹ️\n        \n        \n          0.00\n          Klassisk vægtklasse-indeks\n          \n        \n      \n\n      \n      \n        \n          Nuckols Standard\n          ℹ️\n        \n        \n          0%\n          Beregner...\n          \n            \n          \n        \n      \n\n    \n\n    \n    \n      \n        Løft-for-Løft Analyse\n        *Niveauer tager udgangspunkt i Nuckols' biologiske potentialemodel\n      \n      \n      \n        \n        \n          Squat\n          160 kg\n          1.88 x BW\n          \n          \n          \n            \n            \n          \n\n          Øvet\n        \n\n        \n        \n          Bænkpres\n          115 kg\n          1.35 x BW\n\n          \n          \n            \n            \n          \n\n          Øvet\n        \n\n        \n        \n          Dødløft\n          200 kg\n          2.35 x BW\n\n          \n          \n            \n            \n          \n\n          Øvet\n        \n\n        \n        \n          Total\n          475 kg\n          Nuckols Standard\n\n          \n          \n            \n            \n          \n\n          Øvet\n        \n      \n    \n\n  \n\n    \n  \n\n\n  \n  \n    \n      \n        Greg Nuckols Objective Standard\n        ✕\n      \n      \n        Greg Nuckols' model sammenligner dine løft mod det teoretiske muskulære potentiale for en atlet med din højde og kropsvægt (baseret på max FFMI ~25 for mænd / ~21,5 for kvinder).\n        \n        \n          Elite (&gt;85% af potentiale)Verdensklasse &amp; National Elite\n          Avanceret (70 - 85% af potentiale)Stærk Konkurrenceløfter\n          Øvet (55 - 70% af potentiale)Rutineret Trænende\n          Motionist / Begynder (&lt;55% af potentiale)Godt opbygningspotentiale\n        \n      \n    \n  \n\n  \n    \n      \n        IPF GL Points (Goodlift)\n        ✕\n      \n      \n        IPF GL Points benytter de gældende koefficienter fra International Powerlifting Federation.\n        \n          &gt; 90 point: Elite\n          75 - 90 point: Avanceret\n          60 - 75 point: Øvet\n          45 - 60 point: Motionist\n          &lt; 45 point: Begynder\n        \n      \n    \n  \n\n  \n    \n      \n        Wilks Score &amp; McCulloch Alder\n        ✕\n      \n      \n        Den klassiske Wilks Formel. Hvis du er under 23 år eller over 39 år, anvendes McCulloch koefficienten automatisk til at give en aldersjusteret score.\n      \n    \n  \n\n\n\n\n\n\n\n\n\nHvilke typer sammenligningsmodeller findes der?\n\nDer findes en række forskellige beregningsmodeller til at sammenligne løft i styrketræning, som overordnet kan opdeles i to typer:\n\n\n  Baseret på kropsvægt og matematik: Relativ styrke (kg/kg), Allometric Scaling og Morten Zachos Index100.\n  Baseret på empiriske konkurrencedata: Wilks Score, IPF GL Points, Mel Siffs formler og Greg Nuckols Index.\n\n\n\n\n1. Relativ Styrke &amp; Det Allometriske Dilemma\n\nDet er let at bruge relativ styrke som en måde at sammenligne på. Du tager bare et løft og deler det med din kropsvægt:\n\n\\[\\text{Relativ styrke} = \\frac{\\text{Løftet vægt (kg)}}{\\text{Kropsvægt (kg)}}\\]\n\nHvis du vejer 80 kg og tager 160 kg i squat, har du en relativ styrke på 2,0 x BW.\n\nSammenhængen mellem styrke og vægt er imidlertid ikke lineær, så denne måde at sammenligne på er ikke helt rimelig over for tungere løftere.\n\nKvadrat-kubik-loven (Square-Cube Law)\nForklaringen på, hvorfor tunge løftere altid taber i et simpelt kg/kg-forhold, findes i fysiologien og Galileos kvadrat-kubik-lov:\n\n\n  Muskelkraft afhænger af musklens tværsnitsareal, som skalerer i to dimensioner ($A \\propto L^2$).\n  Kropsvægt og volumen skalerer i tre dimensioner ($V \\propto L^3$).\n\n\nNår en person bliver større, vokser kropsvægten hurtigere end muskelstyrken. En lille løfter vil derfor næsten altid kunne udvise en højere relativ styrke (kg pr. kg kropsvægt), mens en tung løfter vil udvise en højere absolut styrke (flest kg i alt).\n\nAllometrisk Skalering\nFor at korrigere for denne biologiske skævhed benytter idrætsfysiologer allometrisk skalering, hvor kropsvægten ophøjes i en potens (typisk $2/3$ eller $0,67$), som bedre afspejler forholdet mellem areal og volumen:\n\n\\[\\text{Allometrisk styrke} = \\frac{\\text{Løftet vægt}}{\\text{Kropsvægt}^{2/3}}\\]\n\n\n\n2. Sammenligning med traditionelle styrkestandarder\n\nEn anden udbredt måde at sammenligne sin styrke på er at gå ud fra tabeller over styrkestandarder. Der findes en lang række populære databaser på nettet – herunder:\n\n\n  ExRx.net (en af de ældste og mest udbredte)\n  Symmetric Strength\n  Strength Level\n  Strength Standards\n  Muscle &amp; Strength\n\n\nProblemer med traditionelle tabeller\nDer er imidlertid en del problemer med mange af disse såkaldte styrkestandarder:\n\n\n  Subjektive vurderinger: Mange tabeller er ikke baseret på faktiske data, men på forfatternes personlige holdninger til, hvad man “burde” kunne løfte.\n  Selvrapporterede data: Sammenligninger som den på Strength Level er baseret på selvrapporterede data fra brugere på nettet. Det skaber støj i datagrundlaget, da mange blot taster tilfældige værdier ind for at tjekke siden eller opgiver løft med mangelfuld form.\n  Mangel på kvindedata: Mange af disse tabeller har manglet reelle data for kvinder, som også gerne vil løfte og sammenligne sig med andre.\n  Højde ignoreres: Tabellerne tager ikke kropshøjden med som parameter. Hvis två personer vejer det samme og løfter det samme, men den ene er højere end den anden, er den høje i realiteten en bedre løfter ifølge Greg Nuckols.\n\n\n\n  Undtagelse: Muscle &amp; Strength har lavet en sammenligningstabel direkte baseret på verdensrekorder og stævnedata fra styrkeløftforbund, hvor der laves dopingtests.\n\n\n\n\n3. Wilks Score\n\nWilks Score er den mest kendte metode til at sammenligne løftere på tværs af vægtklasser. Formlen benytter et 5.-grads polynomium til at udjævne vægtforskelle mellem mænd og kvinder.\n\nSelvom Wilks har været standarden i årtier, er den for nylig blevet afløst af IPF Points i officielle konkurrencer, da Wilks-formlen i visse tilfælde svagt favoriserede de mellemtunge vægtklasser.\n\n\n\n4. IPF GL Points &amp; Aldersjustering\n\nI International Powerlifting Federation (IPF) har man erstattet Wilks Score med en ny formel, som kaldes IPF GL Points (Goodlift).\n\nDu kan se og beregne ud fra den nyeste udgave hos Dansk Styrkeløft Forbund.\n\nHvorfor valgte IPF at udvikle en ny formel?\n\n\n  “In the following year, not satisfied with the new formula, the IPF released another one using a different algorithm with the intention to update the parameters used in it every four years, to keep it better aligned with the performance of elite powerlifters over time. The calculator below is based on this new formula and is current for lifts performed in the period 2020 - 2023. Points are referred to as IPF GL to distinguish them from the IPF points of the 2019 formula. IPF GL points are normalised in an attempt to represent performance as a percentage of that of an elite lifter with the same body weight.”\n\n  — WeightTraining.NZ\n\n\nMcCulloch aldersjustering\nAlder har stor betydning for styrkepræstationen. Yngre atleter har typisk ikke udviklet deres fulde potentiale endnu, mens man fra omkring 40-årsalderen oplever et naturligt fald i maksimal muskelmasse og eksplosivitet.\n\nHer benyttes McCulloch-koefficienten til at aldersjustere løftet:\n\n\n  “Sometimes scores are further adjusted by multiplying by a factor that takes the lifter’s age into account. The McCulloch coefficients take into account the fact that younger athletes generally have not developed to their potential strength, while from about the age of 40 onwards strength starts to steadily diminish.”\n\n  — WeightTraining.NZ\n\n\n\n\n5. Greg Nuckols’ styrkestandarder\n\nGreg Nuckols har lavet en gennemarbejdet og genial beregner til sammenligning af styrke, som giver dig et bud på, hvor stærk du er i forhold til dit biologiske potentiale.\n\nNuckols har lavet sine egne tabeller, som bygger på sammenhængen mellem styrke og fedtfri masse pr. centimeter kropshøjde.\n\n\n  “We know that among elite lifters, the squat, bench, and deadlift scale linearly with fat free mass per cm. Based on your height and weight, we can get an idea of how skilled you are at picking up heavy stuff with the muscle you currently have.”\n\n  — Greg Nuckols\n\n\nBaseret på din højde og vægt kan du få en idé om, hvor meget du ville løfte, hvis du havde de samme færdigheder og kropskomposition som verdensklasseløftere. Nuckols skriver, at mændene i verdenseliten har omkring 12 % kropsfedt, mens kvinderne løfter med en fedtprocent på omkring 20 %.\n\nHvis du har en højere fedtprocent eller mangler løftetekniske færdigheder, vil dit resultat være lavere. Det betyder også, at du har brug for at nærme dig dit muskulære potentiale for at score højt.\n\nNuckols’ sammenligningstabel\n\n\n  \n    \n      Score\n      Vurdering\n      Hvad betyder det i praksis?\n    \n  \n  \n    \n      &gt;100%\n      All-Time Elite\n      Du er den bedste løfter nogensinde.\n    \n    \n      90 – 100%\n      Verdensklasse\n      Du er blandt de bedste i verden.\n    \n    \n      75 – 90%\n      Ekstraordinær\n      Du er en ekstraordinært god løfter og vil blande dig i den nationale top 3.\n    \n    \n      60 – 75%\n      Øvet / Avanceret\n      Du vil imponere i de fleste fitnesscentre, og du vil formentlig være i top 20 i din vægtklasse til nationale stævner.\n    \n    \n      50 – 60%\n      Seriøs Motionist\n      Du har trænet seriøst meget, og du vil stadig imponere med masser af plads til forbedring.\n    \n    \n      40 – 50%\n      Letøvet / Plateau\n      Mange rammer et plateau i dette område. Typisk skal du hæve træningsvolumen og sørge for rigtig god restitution.\n    \n    \n      &lt;40%\n      Begynder\n      Du skal stadig træne, før du objektivt set kan kalde dig stærk.\n    \n  \n\n\n\n\n6. Dr. Mel Siff &amp; Index100\n\nSiden styrkeløftets spæde start har idrætsforskere forsøgt at opstille præcise matematiske formler for sammenligning.\n\nMel Siffs Formel\nDr. Mel Siff har i klassikeren * Supertraining * beskrevet følgende formel til sammenligning på tværs af vægtklasser:\n\n\\[T = a - b \\cdot \\text{bw}^{-c}\\]\n\nHvor $T$ er det forventede resultat for en topklasseløfter, $\\text{bw}$ er kropsvægten i kg, og $a, b, c$ er empiriske konstanter udregnet for styrkeløft og vægtløftning.\n\nIndex100\nMorten Zacho introducerede på Motion Online inspireret Mel Siff en Index100-beregning. Index100 omregner dit løft til, hvad det teoretisk set ville være, hvis du vejede præcis 100 kg:\n\n\\[\\text{Index100} = \\frac{\\text{kg} \\times 986{,}63}{1270 - 172970 \\cdot \\text{kropsvægt}^{-1{,}3925}}\\]\n\nFormålet med Index100 er at give et tal, der er let og intuitivt at forholde sig til i hverdagen.\n\n\n  Eksempel:\nPerson A vejer 90 kg og tager 115 kg i bænkpres ($1{,}28\\text{ kg pr. kg BW}$).\nPerson B vejer 75 kg og tager 100 kg i bænkpres ($1{,}33\\text{ kg pr. kg BW}$).\n\n  Hvem er stærkest? Kigger man kun på relativ styrke, ser Person B stærkest ud. Men ifølge Index100-beregningen ville Person A løfte 120 kg, hvis han vejede 100 kg, mens Person B kun ville løfte 117 kg. Efter en retfærdig normalisering er Person A altså den stærkeste!\n\n\nModellen har ikke vundet så meget udbredelse, selvom den er let at forstå.\n\n\n\nKonklusion\n\nDer er flere forskellige måder at sammenligne styrke på tværs af vægtklasser på. Relativ styrke og styrkestandardtabeller bliver ofte brugt i hverdagen, men der findes mere præcise muligheder.\n\nWilks Score og IPF GL Points er ideelle, hvis du står og skal sammenligne to konkurrenceløftere.\n\nVil du i stedet have et objektivt svar på, hvor stærk du er i forhold til din kropsbygning, højde og dit biologiske potentiale, er Greg Nuckols’ model et af de absolut mest interessante og gennemarbejdede bud.\n\n\n\n\n  Referencer\n\n  \n    Amirthalingam, T., et al. (2017). Effects of a Modified German Volume Training Program on Muscular Hypertrophy and Strength. Journal of Strength and Conditioning Research, 31(11), 3109–3119.\n    Siff, M. C., &amp; Verkhoshansky, Y. V. (2009). Supertraining (6th ed.). Ultimate Athletic Performance.\n    Nuckols, G. (2017). Objective Strength Standards. Stronger by Science. Hentet fra strongerbyscience.com\n    Nuckols, G. Who is the most impressive powerlifter. Stronger by Science. Hentet fra strongerbyscience.com\n    International Powerlifting Federation (IPF). IPF GL Points Formulas &amp; Coefficients. Hentet fra powerlifting.sport\n    Batterham, A. M., &amp; George, K. P. (1997). Allometric scaling of physiological variables. European Journal of Applied Physiology, 76(6), 561-568.\n    Zacho, M. (2003). Hvem er stærkest? - Beregning af Index100. Motion-Online.\n    WeightTraining.NZ. IPF GL Points Calculator. Hentet fra weighttraining.nz\n    Tsampa.org. About relative strength. Hentet fra tsampa.org\n    Sportsci.com. Evolution of Bodymass Adjustments. Hentet fra sportsci.com\n  \n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DStyrkestandarder+%26+Beregner%3A+Sammenlign+din+relativ+styrke%26excerpt%3DBeregner+til+relativ+styrke%2C+Wilks+score%2C+IPF+GL+points+og+Nuckols+styrkestandarder.+Sammenlign+din+styrke+p%C3%A5+tv%C3%A6rs+af+k%C3%B8n%2C+kropsv%C3%A6gt%2C+h%C3%B8jde+og+alder.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1761839258420-5c3e2f2e2a74%3Fq%3D80%26w%3D2070%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D13.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1786618800/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/sammenligning-styrke/#webpage"
+        },
+        "datePublished": "2019-10-31T00:00:00+00:00",
+        "dateModified": "2026-08-13T11:00:00+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/sammenligning-styrke/#styrkestandarder-relativ-styrke-beregner",
+          "name": "Styrkestandarder & Relativ Styrke Beregner",
+          "description": "Interaktiv beregner til sammenligning af relativ styrke, Wilks score, IPF GL points, allometrisk skalering og Greg Nuckols' biologiske styrkestandarder.",
+          "applicationCategory": ["Styrketræning","Styrkeløft","Beregnere"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/sammenligning-styrke/#webpage"
+          }
+        }
+        
+      
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=""
+>
+  
+    
+      
+      
+
+      <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://images.unsplash.com/photo-1761839258420-5c3e2f2e2a74?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+           srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://images.unsplash.com/photo-1761839258420-5c3e2f2e2a74?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://images.unsplash.com/photo-1761839258420-5c3e2f2e2a74?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1600w"
+           sizes="100vw"
+           alt="Styrkestandarder &amp; Beregner: Hvor stærk er du?"
+           class="page__hero-bg-img"
+           fetchpriority="high"
+           decoding="async">
+    
+  
+
+  
+    <div class="page__hero-filter" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));"></div>
+  
+
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Styrkestandarder &amp; Beregner: Hvor stærk er du?
+
+        
+      </h1>
+      
+        <p class="page__lead">Hvor stærk er du egentlig i forhold til din kropsvægt, højde og alder? Test din styrke med vores samlede beregner og bliv klogere på allometrisk skalering, Wilks, IPF GL og Nuckols standarder.
+</p>
+      
+      
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-13T11:00:00+00:00">13. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          9 min læsning
+        
+      </span>
+    
+  </p>
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Hvem er stærkest? Sammenligning på tværs af køn og vægtklasser
+</span>
+  
+</div>
+
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/styrketraening/" itemprop="item"><span itemprop="name">Styrketræning</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/styrkeloeft/" itemprop="item"><span itemprop="name">Styrkeløft</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">Styrkestandarder ...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Styrkestandarder &amp; Beregner: Hvor stærk er du?">
+    <meta itemprop="description" content="Hvor stærk er du egentlig i forhold til din kropsvægt, højde og alder? Test din styrke med vores samlede beregner og bliv klogere på allometrisk skalering, Wilks, IPF GL og Nuckols standarder.">
+    <meta itemprop="datePublished" content="2019-10-31T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-08-13T11:00:00+00:00">
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#styrkeberegner---sammenlign-din-relative-styrke">Styrkeberegner - sammenlign din relative styrke</a></li><li><a href="#hvilke-typer-sammenligningsmodeller-findes-der">Hvilke typer sammenligningsmodeller findes der?</a></li><li><a href="#1-relativ-styrke--det-allometriske-dilemma">1. Relativ Styrke &amp; Det Allometriske Dilemma</a><ul><li><a href="#kvadrat-kubik-loven-square-cube-law">Kvadrat-kubik-loven (Square-Cube Law)</a></li><li><a href="#allometrisk-skalering">Allometrisk Skalering</a></li></ul></li><li><a href="#2-sammenligning-med-traditionelle-styrkestandarder">2. Sammenligning med traditionelle styrkestandarder</a><ul><li><a href="#problemer-med-traditionelle-tabeller">Problemer med traditionelle tabeller</a></li></ul></li><li><a href="#3-wilks-score">3. Wilks Score</a></li><li><a href="#4-ipf-gl-points--aldersjustering">4. IPF GL Points &amp; Aldersjustering</a><ul><li><a href="#mcculloch-aldersjustering">McCulloch aldersjustering</a></li></ul></li><li><a href="#5-greg-nuckols-styrkestandarder">5. Greg Nuckols’ styrkestandarder</a><ul><li><a href="#nuckols-sammenligningstabel">Nuckols’ sammenligningstabel</a></li></ul></li><li><a href="#6-dr-mel-siff--index100">6. Dr. Mel Siff &amp; Index100</a><ul><li><a href="#mel-siffs-formel">Mel Siffs Formel</a></li><li><a href="#index100">Index100</a></li></ul></li><li><a href="#konklusion">Konklusion</a></li><li><a href="#references">Referencer</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>Når du vil sammenligne din styrke med andre, er det sjældent nok blot at kigge på det rå antal kilo på vægtstangen. En person på 110 kg, der bænkpresser 140 kg, har en helt anden præstation end en person på 65 kg, der løfter det samme.</p>
+
+<p>Men hvordan sammenligner man styrke retfærdigt på tværs af <strong>kropsvægt</strong>, <strong>køn</strong>, <strong>højde</strong> og <strong>alder</strong>?</p>
+
+<p>I denne artikel gennemgår vi de vigtigste modeller til sammenligning af relativ styrke – lige fra simple styrkestandarder og den matematiske <strong>allometriske skalering</strong> til konkurrencesystemer som <strong>IPF GL Points</strong>, <strong>Wilks Score</strong>, <strong>Mel Siffs Index100</strong> og <strong>Greg Nuckols’ biologiske potentialemodel</strong>.</p>
+
+<hr />
+
+<h2 id="styrkeberegner---sammenlign-din-relative-styrke">Styrkeberegner - sammenlign din relative styrke</h2>
+
+<p>Brug beregneren nedenfor til at fange din samlede styrkeprofil med det samme. Indtast din alder, højde, vægt og dine bedste løft. Systemet udregner automatisk din relative styrke, IPF GL points, Wilks score og niveau baseret på Greg Nuckols styrkestandarder.</p>
+
+<div class="styrke-app-container">
+  <div class="styrke-header">
+    <div class="styrke-title">Styrkeberegner - beregn relativ styrke</div>
+    <div class="styrke-subtitle">Sammenlign din styrke på tværs af køn, kropsvægt, højde og alder</div>
+  </div>
+
+  <form id="styrke-form" onsubmit="return false;">
+    <!-- Antropometri (Rent grid direkte på fladen, 100% aligned) -->
+    <div class="styrke-anthro-row">
+      <!-- Køn Switch -->
+      <div class="styrke-field">
+        <label class="styrke-lbl">Køn</label>
+        <div class="segmented-control">
+          <input type="radio" name="gender" id="g-male" value="male" checked="" />
+          <label for="g-male">Mand</label>
+          <input type="radio" name="gender" id="g-female" value="female" />
+          <label for="g-female">Kvinde</label>
+          <div class="segmented-bg"></div>
+        </div>
+      </div>
+
+      <!-- Alder -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-age">Alder</label>
+        <input type="number" id="styrke-age" placeholder="28" min="10" max="100" value="28" />
+      </div>
+
+      <!-- Højde -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-height">Højde (cm)</label>
+        <input type="number" id="styrke-height" placeholder="180" min="120" max="230" value="180" />
+      </div>
+
+      <!-- Kropsvægt -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-bw">Vægt (kg)</label>
+        <input type="number" id="styrke-bw" step="0.1" placeholder="85" min="30" max="250" value="85" />
+      </div>
+    </div>
+
+    <!-- Løft & Equipment Row -->
+    <div class="styrke-divider">
+      <span class="divider-title">Dine Løft (1RM i kg)</span>
+      
+      <!-- Udstyr Switch -->
+      <div class="equip-segmented">
+        <input type="radio" name="equip" id="eq-raw" value="raw" checked="" />
+        <label for="eq-raw">Raw</label>
+        <input type="radio" name="equip" id="eq-equipped" value="equipped" />
+        <label for="eq-equipped">Udstyr</label>
+        <div class="equip-bg"></div>
+      </div>
+    </div>
+
+    <div class="styrke-input-grid lifts-grid">
+      <!-- Squat -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-squat">Squat</label>
+        <input type="number" id="styrke-squat" step="0.5" placeholder="0" min="0" value="160" />
+      </div>
+
+      <!-- Bænkpres -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-bench">Bænkpres</label>
+        <input type="number" id="styrke-bench" step="0.5" placeholder="0" min="0" value="115" />
+      </div>
+
+      <!-- Dødløft -->
+      <div class="styrke-field">
+        <label class="styrke-lbl" for="styrke-deadlift">Dødløft</label>
+        <input type="number" id="styrke-deadlift" step="0.5" placeholder="0" min="0" value="200" />
+      </div>
+    </div>
+  </form>
+
+  <!-- Resultat Dashboard -->
+  <div class="styrke-results-wrapper" id="styrke-results">
+    
+    <!-- Målingers Grid (IPF -> Wilks -> Nuckols) -->
+    <div class="styrke-cards-grid">
+
+      <!-- Card 1: IPF GL Points -->
+      <div class="styrke-card card-ipf">
+        <div class="card-header">
+          <span class="card-title">IPF GL Points</span>
+          <button type="button" class="info-icon-btn" onclick="toggleModal('modal-ipf')" title="Information">ℹ️</button>
+        </div>
+        <div class="card-body">
+          <div class="score-primary" id="res-ipf">0.00</div>
+          <div class="score-badge" id="res-ipf-level">Beregner...</div>
+          <div class="score-subtext" id="res-ipf-mode">IPF GL (2020-2024)</div>
+        </div>
+      </div>
+
+      <!-- Card 2: Wilks Score (Med dynamisk alderskorrektion) -->
+      <div class="styrke-card card-wilks">
+        <div class="card-header">
+          <span class="card-title">Wilks Score</span>
+          <button type="button" class="info-icon-btn" onclick="toggleModal('modal-wilks')" title="Information">ℹ️</button>
+        </div>
+        <div class="card-body">
+          <div class="score-primary" id="res-wilks">0.00</div>
+          <div class="score-subtext" id="res-wilks-sub">Klassisk vægtklasse-indeks</div>
+          <div class="age-bonus-tag" id="res-mcculloch-tag" style="display:none;"></div>
+        </div>
+      </div>
+
+      <!-- Card 3: Nuckols Standard -->
+      <div class="styrke-card card-nuckols">
+        <div class="card-header">
+          <span class="card-title">Nuckols Standard</span>
+          <button type="button" class="info-icon-btn" onclick="toggleModal('modal-nuckols')" title="Information">ℹ️</button>
+        </div>
+        <div class="card-body">
+          <div class="score-primary" id="res-nuckols-pct">0%</div>
+          <div class="score-badge" id="res-nuckols-tier">Beregner...</div>
+          <div class="nuckols-progress-track">
+            <div class="nuckols-progress-fill" id="nuckols-bar" style="width: 0%;"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- LØFT-FOR-LØFT BREAKDOWN SECTION -->
+    <div class="lift-breakdown-section">
+      <div class="breakdown-header">
+        <div class="breakdown-title">Løft-for-Løft Analyse</div>
+        <div class="breakdown-subtitle">*Niveauer tager udgangspunkt i Nuckols' biologiske potentialemodel</div>
+      </div>
+      
+      <div class="breakdown-grid">
+        <!-- Squat Card -->
+        <div class="breakdown-card" id="card-sq">
+          <div class="b-lift-name">Squat</div>
+          <div class="b-lift-val" id="b-sq-val">160 kg</div>
+          <div class="b-lift-rel" id="b-sq-rel">1.88 x BW</div>
+          
+          <!-- Mini Progress Slider -->
+          <div class="mini-track-container">
+            <div class="mini-track-bg"></div>
+            <div class="mini-track-thumb" id="b-sq-thumb" style="left: 0%;"></div>
+          </div>
+
+          <div class="b-lift-badge" id="b-sq-tier">Øvet</div>
+        </div>
+
+        <!-- Bench Card -->
+        <div class="breakdown-card" id="card-bp">
+          <div class="b-lift-name">Bænkpres</div>
+          <div class="b-lift-val" id="b-bp-val">115 kg</div>
+          <div class="b-lift-rel" id="b-bp-rel">1.35 x BW</div>
+
+          <!-- Mini Progress Slider -->
+          <div class="mini-track-container">
+            <div class="mini-track-bg"></div>
+            <div class="mini-track-thumb" id="b-bp-thumb" style="left: 0%;"></div>
+          </div>
+
+          <div class="b-lift-badge" id="b-bp-tier">Øvet</div>
+        </div>
+
+        <!-- Deadlift Card -->
+        <div class="breakdown-card" id="card-dl">
+          <div class="b-lift-name">Dødløft</div>
+          <div class="b-lift-val" id="b-dl-val">200 kg</div>
+          <div class="b-lift-rel" id="b-dl-rel">2.35 x BW</div>
+
+          <!-- Mini Progress Slider -->
+          <div class="mini-track-container">
+            <div class="mini-track-bg"></div>
+            <div class="mini-track-thumb" id="b-dl-thumb" style="left: 0%;"></div>
+          </div>
+
+          <div class="b-lift-badge" id="b-dl-tier">Øvet</div>
+        </div>
+
+        <!-- Total Card (Uden x BW) -->
+        <div class="breakdown-card highlight-card" id="card-tot">
+          <div class="b-lift-name">Total</div>
+          <div class="b-lift-val" id="b-tot-val">475 kg</div>
+          <div class="b-lift-rel">Nuckols Standard</div>
+
+          <!-- Mini Progress Slider -->
+          <div class="mini-track-container">
+            <div class="mini-track-bg"></div>
+            <div class="mini-track-thumb" id="b-tot-thumb" style="left: 0%;"></div>
+          </div>
+
+          <div class="b-lift-badge" id="b-tot-tier">Øvet</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- Gimmick / Profil-note -->
+  <div class="gimmick-note" id="gimmick-note" style="display:none;"></div>
+
+
+  <!-- MODALS -->
+  <div class="styrke-modal-backdrop" id="modal-nuckols" style="display:none;">
+    <div class="styrke-modal">
+      <div class="modal-header">
+        <h3>Greg Nuckols Objective Standard</h3>
+        <button type="button" class="close-btn" onclick="toggleModal('modal-nuckols')">✕</button>
+      </div>
+      <div class="modal-body">
+        <p>Greg Nuckols' model sammenligner dine løft mod det teoretiske muskulære potentiale for en atlet med din <strong>højde og kropsvægt</strong> (baseret på max FFMI ~25 for mænd / ~21,5 for kvinder).</p>
+        
+        <div class="nuckols-tiers-list">
+          <div class="tier-item" id="tier-item-4"><span class="t-range">Elite (&gt;85% af potentiale)</span><span class="t-name">Verdensklasse &amp; National Elite</span></div>
+          <div class="tier-item" id="tier-item-3"><span class="t-range">Avanceret (70 - 85% af potentiale)</span><span class="t-name">Stærk Konkurrenceløfter</span></div>
+          <div class="tier-item" id="tier-item-2"><span class="t-range">Øvet (55 - 70% af potentiale)</span><span class="t-name">Rutineret Trænende</span></div>
+          <div class="tier-item" id="tier-item-1"><span class="t-range">Motionist / Begynder (&lt;55% af potentiale)</span><span class="t-name">Godt opbygningspotentiale</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="styrke-modal-backdrop" id="modal-ipf" style="display:none;">
+    <div class="styrke-modal">
+      <div class="modal-header">
+        <h3>IPF GL Points (Goodlift)</h3>
+        <button type="button" class="close-btn" onclick="toggleModal('modal-ipf')">✕</button>
+      </div>
+      <div class="modal-body">
+        <p><strong>IPF GL Points</strong> benytter de gældende koefficienter fra International Powerlifting Federation.</p>
+        <ul>
+          <li><strong>&gt; 90 point:</strong> Elite</li>
+          <li><strong>75 - 90 point:</strong> Avanceret</li>
+          <li><strong>60 - 75 point:</strong> Øvet</li>
+          <li><strong>45 - 60 point:</strong> Motionist</li>
+          <li><strong>&lt; 45 point:</strong> Begynder</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="styrke-modal-backdrop" id="modal-wilks" style="display:none;">
+    <div class="styrke-modal">
+      <div class="modal-header">
+        <h3>Wilks Score &amp; McCulloch Alder</h3>
+        <button type="button" class="close-btn" onclick="toggleModal('modal-wilks')">✕</button>
+      </div>
+      <div class="modal-body">
+        <p>Den klassiske <strong>Wilks Formel</strong>. Hvis du er under 23 år eller over 39 år, anvendes <strong>McCulloch koefficienten</strong> automatisk til at give en aldersjusteret score.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+/* CSS STYLES FOR SUPER STYRKEBEREGNER V8 (FULL WIDTH & PERFECT ALIGNMENT) */
+.styrke-app-container {
+  max-width: 680px;
+  margin: 20px auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1e293b;
+  box-sizing: border-box;
+}
+
+.styrke-header {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.styrke-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.styrke-subtitle {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+/* Antropometri Grid (Direkte på baggrunden uden grå boks) */
+.styrke-anthro-row {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.styrke-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.styrke-lbl {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #475569;
+  margin-bottom: 4px;
+  height: 16px;
+  line-height: 16px;
+  display: block;
+}
+
+.styrke-field input[type="number"] {
+  height: 38px;
+  width: 100%;
+  padding: 0 10px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #0f172a;
+  outline: none;
+  background: #ffffff;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+.styrke-field input[type="number"]:focus {
+  border-color: #2563eb;
+}
+
+/* Segmented Control Switch (Køn) */
+.segmented-control {
+  position: relative;
+  display: flex;
+  background: #f1f5f9;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  height: 38px;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Skjul radio-bullets 100% uanset tema */
+.segmented-control input[type="radio"],
+.equip-segmented input[type="radio"] {
+  display: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+.segmented-control label {
+  flex: 1;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #64748b;
+  cursor: pointer;
+  z-index: 2;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.segmented-control input[type="radio"]:checked + label { color: #1d4ed8; }
+
+.segmented-bg {
+  position: absolute;
+  top: 2px; bottom: 2px; left: 2px;
+  width: calc(50% - 2px);
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+#g-female:checked ~ .segmented-bg { transform: translateX(100%); }
+
+/* Udstyr Segmented Switch */
+.styrke-divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0 10px;
+  padding-bottom: 4px;
+  border-bottom: 1.5px solid #eff6ff;
+}
+
+.divider-title {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #2563eb;
+}
+
+.equip-segmented {
+  position: relative;
+  display: flex;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  padding: 2px;
+  border-radius: 6px;
+  height: 28px;
+  align-items: center;
+  width: 130px;
+}
+
+.equip-segmented label {
+  flex: 1;
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #64748b;
+  cursor: pointer;
+  z-index: 2;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equip-segmented input[type="radio"]:checked + label { color: #0f172a; }
+
+.equip-bg {
+  position: absolute;
+  top: 2px; bottom: 2px; left: 2px;
+  width: calc(50% - 2px);
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  z-index: 1;
+}
+
+#eq-equipped:checked ~ .equip-bg { transform: translateX(100%); }
+
+.lifts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* Gimmick Note */
+.gimmick-note {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 0.82rem;
+  color: #334155;
+  font-weight: 600;
+  animation: fadeIn 0.3s ease;
+}
+
+/* RESULTS DASHBOARD */
+.styrke-results-wrapper {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 2px dashed #e2e8f0;
+}
+
+.styrke-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.styrke-card {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.card-ipf { border-top: 3.5px solid #2563eb; }
+.card-wilks { border-top: 3.5px solid #7c3aed; }
+.card-nuckols { border-top: 3.5px solid #059669; }
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+  gap: 4px;
+}
+
+.card-title {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #334155;
+  white-space: nowrap;
+}
+
+.info-icon-btn {
+  background: none;
+  border: none;
+  font-size: 0.88rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  opacity: 0.65;
+  transition: opacity 0.15s ease;
+}
+
+.info-icon-btn:hover { opacity: 1; }
+
+.score-primary {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1;
+}
+
+/* Dynamic Badge Colors */
+.score-badge {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.badge-green { background: #dcfce7; color: #166534; }
+.badge-blue { background: #dbeafe; color: #1e40af; }
+.badge-purple { background: #f3e8ff; color: #6b21a8; }
+.badge-gold { background: #fef3c7; color: #92400e; }
+.badge-subtle { background: #f1f5f9; color: #475569; }
+
+.score-subtext {
+  font-size: 0.68rem;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.age-bonus-tag {
+  margin-top: 6px;
+  padding: 2px 6px;
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: 6px;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.nuckols-progress-track {
+  height: 5px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.nuckols-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #3b82f6, #8b5cf6);
+  transition: width 0.4s ease;
+}
+
+/* LØFT-FOR-LØFT BREAKDOWN SECTION */
+.lift-breakdown-section {
+  margin-top: 10px;
+}
+
+.breakdown-header {
+  margin-bottom: 12px;
+}
+
+.breakdown-title {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.breakdown-subtitle {
+  font-size: 0.72rem;
+  color: #64748b;
+  margin-top: 1px;
+}
+
+.breakdown-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.breakdown-card {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.breakdown-card.highlight-card {
+  background: #eff6ff;
+  border-color: #93c5fd;
+}
+
+.b-lift-name {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #334155;
+  margin-bottom: 2px;
+}
+
+.b-lift-val {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.1;
+}
+
+.b-lift-rel {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #64748b;
+  margin-top: 2px;
+  min-height: 14px;
+}
+
+/* MINI PROGRESS SLIDER FOR BREAKDOWN CARDS */
+.mini-track-container {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  margin: 8px 0 6px;
+}
+
+.mini-track-bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(to right, #ef4444, #f97316, #eab308, #10b981, #3b82f6);
+}
+
+.mini-track-thumb {
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  height: 11px;
+  background: #0f172a;
+  border: 1.5px solid #ffffff;
+  border-radius: 2px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  transition: left 0.3s ease;
+}
+
+.b-lift-badge {
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+/* MODAL STYLES */
+.styrke-modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.styrke-modal {
+  background: #ffffff;
+  border-radius: 16px;
+  max-width: 480px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  padding: 18px;
+  animation: modalIn 0.2s ease-out;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+.modal-header h3 { margin: 0; font-size: 1rem; color: #0f172a; }
+
+.close-btn {
+  background: #f1f5f9;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #64748b;
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.modal-body { font-size: 0.85rem; color: #334155; line-height: 1.45; }
+
+.nuckols-tiers-list { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+
+.tier-item {
+  padding: 8px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  display: flex; flex-direction: column;
+}
+
+.tier-item.active-tier {
+  background: #eff6ff;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+.t-range { font-size: 0.7rem; font-weight: 800; color: #2563eb; }
+.t-name { font-size: 0.82rem; font-weight: 800; color: #0f172a; }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes modalIn { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: scale(1); } }
+
+@media (max-width: 580px) {
+  .styrke-anthro-row { grid-template-columns: 1fr 1fr; }
+  .lifts-grid { grid-template-columns: 1fr; }
+  .styrke-cards-grid { grid-template-columns: 1fr; }
+  .breakdown-grid { grid-template-columns: 1fr 1fr; }
+}
+</style>
+
+<script>
+function toggleModal(id) {
+  const modal = document.getElementById(id);
+  if (modal) {
+    modal.style.display = (modal.style.display === 'none' || modal.style.display === '') ? 'flex' : 'none';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  const STORAGE_KEY = 'motionsplan_styrke_state';
+  const container = document.querySelector('.styrke-app-container');
+
+  container.addEventListener('input', calculateLive);
+  container.addEventListener('change', calculateLive);
+
+  function calculateLive() {
+    const genderEl = document.querySelector('input[name="gender"]:checked');
+    if (!genderEl) return;
+    const gender = genderEl.value;
+
+    const age = parseFloat(document.getElementById('styrke-age').value) || 28;
+    const height = parseFloat(document.getElementById('styrke-height').value) || 180;
+    const bw = parseFloat(document.getElementById('styrke-bw').value) || 85;
+
+    const squat = parseFloat(document.getElementById('styrke-squat').value) || 0;
+    const bench = parseFloat(document.getElementById('styrke-bench').value) || 0;
+    const deadlift = parseFloat(document.getElementById('styrke-deadlift').value) || 0;
+
+    const equipEl = document.querySelector('input[name="equip"]:checked');
+    const equip = equipEl ? equipEl.value : 'raw';
+
+    // GEM I LOCALSTORAGE
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        gender, age, height, bw, squat, bench, deadlift, equip
+      }));
+    } catch (e) {}
+
+    const total = squat + bench + deadlift;
+    const gimmickEl = document.getElementById('gimmick-note');
+
+    if (total <= 0 || bw <= 0 || height <= 0) {
+      gimmickEl.style.display = 'none';
+      return;
+    }
+
+    const isMale = (gender === 'male');
+    const hM = height / 100;
+    const maxFFM = (isMale ? 25 : 21.5) * Math.pow(hM, 2);
+
+    // Max Potentialer ud fra Nuckols
+    const maxSq = maxFFM * (isMale ? 3.7 : 2.9);
+    const maxBp = maxFFM * (isMale ? 2.3 : 1.8);
+    const maxDl = maxFFM * (isMale ? 4.1 : 3.3);
+    const maxTot = maxFFM * (isMale ? 9.3 : 7.4);
+
+    // Dynamic Helper for Badge Colors & Clean Categories
+    function getLiftData(val, maxVal) {
+      if (val <= 0) return { pct: 0, tier: "Ingen", class: "badge-subtle" };
+      const pct = Math.min(Math.round((val / maxVal) * 100), 100);
+      let tier = "Begynder";
+      let cls = "badge-subtle";
+      
+      if (pct >= 85) {
+        tier = "Elite";
+        cls = "badge-gold";
+      } else if (pct >= 70) {
+        tier = "Avanceret";
+        cls = "badge-purple";
+      } else if (pct >= 55) {
+        tier = "Øvet";
+        cls = "badge-blue";
+      } else if (pct >= 40) {
+        tier = "Motionist";
+        cls = "badge-green";
+      } else {
+        tier = "Begynder";
+        cls = "badge-subtle";
+      }
+      return { pct, tier, class: cls };
+    }
+
+    const sqData = getLiftData(squat, maxSq);
+    const bpData = getLiftData(bench, maxBp);
+    const dlData = getLiftData(deadlift, maxDl);
+    const totData = getLiftData(total, maxTot);
+
+    // OPDATER BREAKDOWN GRID DOM & MINI-SLIDERS
+    document.getElementById('b-sq-val').textContent = `${squat.toFixed(1)} kg`;
+    document.getElementById('b-sq-rel').textContent = `${(squat / bw).toFixed(2)} x BW`;
+    document.getElementById('b-sq-thumb').style.left = `${sqData.pct}%`;
+    const sqBadge = document.getElementById('b-sq-tier');
+    sqBadge.textContent = sqData.tier;
+    sqBadge.className = `b-lift-badge ${sqData.class}`;
+
+    document.getElementById('b-bp-val').textContent = `${bench.toFixed(1)} kg`;
+    document.getElementById('b-bp-rel').textContent = `${(bench / bw).toFixed(2)} x BW`;
+    document.getElementById('b-bp-thumb').style.left = `${bpData.pct}%`;
+    const bpBadge = document.getElementById('b-bp-tier');
+    bpBadge.textContent = bpData.tier;
+    bpBadge.className = `b-lift-badge ${bpData.class}`;
+
+    document.getElementById('b-dl-val').textContent = `${deadlift.toFixed(1)} kg`;
+    document.getElementById('b-dl-rel').textContent = `${(deadlift / bw).toFixed(2)} x BW`;
+    document.getElementById('b-dl-thumb').style.left = `${dlData.pct}%`;
+    const dlBadge = document.getElementById('b-dl-tier');
+    dlBadge.textContent = dlData.tier;
+    dlBadge.className = `b-lift-badge ${dlData.class}`;
+
+    // Total Card (INGEN x BW)
+    document.getElementById('b-tot-val').textContent = `${total.toFixed(1)} kg`;
+    document.getElementById('b-tot-thumb').style.left = `${totData.pct}%`;
+    const totBadge = document.getElementById('b-tot-tier');
+    totBadge.textContent = totData.tier;
+    totBadge.className = `b-lift-badge ${totData.class}`;
+
+    // --- GIMMICK / UBALLANCE NOTE ---
+    let gimmickText = "";
+    if (squat > 0 && bench > 0 && deadlift > 0) {
+      if (bpData.pct >= sqData.pct + 12 && bpData.pct >= dlData.pct + 12) {
+        gimmickText = "<strong>Bænkpres-Specialist:</strong> Din bænkpres er dit absolut stærkeste løft i forhold til standarderne.";
+      } else if (dlData.pct >= sqData.pct + 12 && dlData.pct >= bpData.pct + 12) {
+        gimmickText = "<strong>Dødløfts-Specialist:</strong> Din dødløft ligger i en højere kategori end dine andre løft.";
+      } else if (sqData.pct >= dlData.pct + 12 && sqData.pct >= bpData.pct + 12) {
+        gimmickText = "<strong>Squat-Dominant:</strong> Din squat er dit klart stærkeste løft i forhold til dit biologiske potentiale.";
+      }
+    }
+
+    if (gimmickText) {
+      gimmickEl.innerHTML = gimmickText;
+      gimmickEl.style.display = 'block';
+    } else {
+      gimmickEl.style.display = 'none';
+    }
+
+    // --- WILKS SCORE & MCCULLOCH ---
+    let wilksCoeff = 0;
+    if (isMale) {
+      const a = -216.0475144, b = 16.2606339, c = -0.002388645, d = -0.00113732, e = 7.01863e-6, f = -1.291e-8;
+      wilksCoeff = 500 / (a + (b * bw) + (c * Math.pow(bw, 2)) + (d * Math.pow(bw, 3)) + (e * Math.pow(bw, 4)) + (f * Math.pow(bw, 5)));
+    } else {
+      const a = 594.3174777, b = -27.2384253, c = 0.821122263, d = -0.009307339, e = 4.731582e-5, f = -9.054e-8;
+      wilksCoeff = 500 / (a + (b * bw) + (c * Math.pow(bw, 2)) + (d * Math.pow(bw, 3)) + (e * Math.pow(bw, 4)) + (f * Math.pow(bw, 5)));
+    }
+    const wilksScore = total * wilksCoeff;
+
+    // McCulloch Aldersfaktor
+    let ageCoeff = 1.0;
+    if (age > 39) ageCoeff = 1.0 + ((age - 39) * 0.009);
+    else if (age <= 23 && age >= 14) ageCoeff = 1.0 + ((23 - age) * 0.015);
+
+    const mccullochWilks = wilksScore * ageCoeff;
+
+    document.getElementById('res-wilks').textContent = wilksScore.toFixed(2);
+    const ageTag = document.getElementById('res-mcculloch-tag');
+
+    if (ageCoeff !== 1.0) {
+      ageTag.style.display = 'inline-block';
+      ageTag.textContent = `McCulloch: ${mccullochWilks.toFixed(1)} pt (${ageCoeff.toFixed(2)}x for ${age} år)`;
+    } else {
+      ageTag.style.display = 'none';
+    }
+
+    // --- IPF GL POINTS & HARMONISERET NIVEAU ---
+    let ipfA = 0, ipfB = 0, ipfC = 0;
+    if (equip === 'raw') {
+      if (isMale) { ipfA = 1199.72839; ipfB = 1025.18162; ipfC = 0.009210; }
+      else { ipfA = 610.32796; ipfB = 1045.56428; ipfC = 0.030480; }
+    } else {
+      if (isMale) { ipfA = 1236.2511; ipfB = 1449.2175; ipfC = 0.016440; }
+      else { ipfA = 758.3449; ipfB = 949.3138; ipfC = 0.024350; }
+    }
+
+    const ipfPoints = 100 * (total / (ipfA - ipfB * Math.exp(-ipfC * bw)));
+
+    let ipfLevelText = "Begynder";
+    let ipfClass = "badge-subtle";
+
+    if (ipfPoints >= 90) {
+      ipfLevelText = "Elite";
+      ipfClass = "badge-gold";
+    } else if (ipfPoints >= 75) {
+      ipfLevelText = "Avanceret";
+      ipfClass = "badge-purple";
+    } else if (ipfPoints >= 60) {
+      ipfLevelText = "Øvet";
+      ipfClass = "badge-blue";
+    } else if (ipfPoints >= 45) {
+      ipfLevelText = "Motionist";
+      ipfClass = "badge-green";
+    } else {
+      ipfLevelText = "Begynder";
+      ipfClass = "badge-subtle";
+    }
+
+    document.getElementById('res-ipf').textContent = ipfPoints.toFixed(2);
+    const ipfBadge = document.getElementById('res-ipf-level');
+    ipfBadge.textContent = ipfLevelText;
+    ipfBadge.className = `score-badge ${ipfClass}`;
+    document.getElementById('res-ipf-mode').textContent = `IPF GL (2020-2024) – ${equip.toUpperCase()}`;
+
+    // --- NUCKOLS KORT OPDATERING ---
+    document.getElementById('res-nuckols-pct').textContent = `${totData.pct}%`;
+    const nuckBadge = document.getElementById('res-nuckols-tier');
+    nuckBadge.textContent = totData.tier;
+    nuckBadge.className = `score-badge ${totData.class}`;
+    document.getElementById('nuckols-bar').style.width = `${Math.min(totData.pct, 100)}%`;
+
+    document.querySelectorAll('.tier-item').forEach(el => el.classList.remove('active-tier'));
+    let activeTierId = "tier-item-1";
+    if (totData.pct >= 85) activeTierId = "tier-item-4";
+    else if (totData.pct >= 70) activeTierId = "tier-item-3";
+    else if (totData.pct >= 55) activeTierId = "tier-item-2";
+    const activeEl = document.getElementById(activeTierId);
+    if (activeEl) activeEl.classList.add('active-tier');
+  }
+
+  // LOAD FRA LOCALSTORAGE
+  function loadSavedState() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        const d = JSON.parse(saved);
+        if (d.gender) {
+          const gEl = document.querySelector(`input[name="gender"][value="${d.gender}"]`);
+          if (gEl) gEl.checked = true;
+        }
+        if (d.equip) {
+          const eqEl = document.querySelector(`input[name="equip"][value="${d.equip}"]`);
+          if (eqEl) eqEl.checked = true;
+        }
+        if (d.age) document.getElementById('styrke-age').value = d.age;
+        if (d.height) document.getElementById('styrke-height').value = d.height;
+        if (d.bw) document.getElementById('styrke-bw').value = d.bw;
+        if (d.squat !== undefined) document.getElementById('styrke-squat').value = d.squat;
+        if (d.bench !== undefined) document.getElementById('styrke-bench').value = d.bench;
+        if (d.deadlift !== undefined) document.getElementById('styrke-deadlift').value = d.deadlift;
+      }
+    } catch (e) {}
+  }
+
+  loadSavedState();
+  calculateLive();
+});
+</script>
+
+<hr />
+
+<h2 id="hvilke-typer-sammenligningsmodeller-findes-der">Hvilke typer sammenligningsmodeller findes der?</h2>
+
+<p>Der findes en række forskellige beregningsmodeller til at sammenligne løft i styrketræning, som overordnet kan opdeles i to typer:</p>
+
+<ul>
+  <li><strong>Baseret på kropsvægt og matematik:</strong> Relativ styrke (kg/kg), Allometric Scaling og Morten Zachos Index100.</li>
+  <li><strong>Baseret på empiriske konkurrencedata:</strong> Wilks Score, IPF GL Points, Mel Siffs formler og Greg Nuckols Index.</li>
+</ul>
+
+<hr />
+
+<h2 id="1-relativ-styrke--det-allometriske-dilemma">1. Relativ Styrke &amp; Det Allometriske Dilemma</h2>
+
+<p>Det er let at bruge relativ styrke som en måde at sammenligne på. Du tager bare et løft og deler det med din kropsvægt:</p>
+
+\[\text{Relativ styrke} = \frac{\text{Løftet vægt (kg)}}{\text{Kropsvægt (kg)}}\]
+
+<p>Hvis du vejer 80 kg og tager 160 kg i squat, har du en relativ styrke på <strong>2,0 x BW</strong>.</p>
+
+<p>Sammenhængen mellem styrke og vægt er imidlertid <strong>ikke lineær</strong>, så denne måde at sammenligne på er ikke helt rimelig over for tungere løftere.</p>
+
+<h3 id="kvadrat-kubik-loven-square-cube-law">Kvadrat-kubik-loven (Square-Cube Law)</h3>
+<p>Forklaringen på, hvorfor tunge løftere altid taber i et simpelt kg/kg-forhold, findes i fysiologien og Galileos <em>kvadrat-kubik-lov</em>:</p>
+
+<ol>
+  <li><strong>Muskelkraft</strong> afhænger af musklens tværsnitsareal, som skalerer i to dimensioner ($A \propto L^2$).</li>
+  <li><strong>Kropsvægt og volumen</strong> skalerer i tre dimensioner ($V \propto L^3$).</li>
+</ol>
+
+<p>Når en person bliver større, vokser kropsvægten hurtigere end muskelstyrken. En lille løfter vil derfor næsten altid kunne udvise en højere <strong>relativ styrke</strong> (kg pr. kg kropsvægt), mens en tung løfter vil udvise en højere <strong>absolut styrke</strong> (flest kg i alt).</p>
+
+<h3 id="allometrisk-skalering">Allometrisk Skalering</h3>
+<p>For at korrigere for denne biologiske skævhed benytter idrætsfysiologer <strong>allometrisk skalering</strong>, hvor kropsvægten ophøjes i en potens (typisk $2/3$ eller $0,67$), som bedre afspejler forholdet mellem areal og volumen:</p>
+
+\[\text{Allometrisk styrke} = \frac{\text{Løftet vægt}}{\text{Kropsvægt}^{2/3}}\]
+
+<hr />
+
+<h2 id="2-sammenligning-med-traditionelle-styrkestandarder">2. Sammenligning med traditionelle styrkestandarder</h2>
+
+<p>En anden udbredt måde at sammenligne sin styrke på er at gå ud fra tabeller over styrkestandarder. Der findes en lang række populære databaser på nettet – herunder:</p>
+
+<ul>
+  <li><a href="https://www.exrx.net/Testing/WeightLifting/StrengthStandards.html">ExRx.net</a> (en af de ældste og mest udbredte)</li>
+  <li><a href="https://symmetricstrength.com/">Symmetric Strength</a></li>
+  <li><a href="https://strengthlevel.com/">Strength Level</a></li>
+  <li><a href="https://strengthstandards.com/">Strength Standards</a></li>
+  <li><a href="https://www.muscleandstrength.com/articles/strong-strength-standards-raw-natural-lifters">Muscle &amp; Strength</a></li>
+</ul>
+
+<h3 id="problemer-med-traditionelle-tabeller">Problemer med traditionelle tabeller</h3>
+<p>Der er imidlertid en del problemer med mange af disse såkaldte styrkestandarder:</p>
+
+<ol>
+  <li><strong>Subjektive vurderinger:</strong> Mange tabeller er ikke baseret på faktiske data, men på forfatternes personlige holdninger til, hvad man “burde” kunne løfte.</li>
+  <li><strong>Selvrapporterede data:</strong> Sammenligninger som den på <em>Strength Level</em> er baseret på selvrapporterede data fra brugere på nettet. Det skaber støj i datagrundlaget, da mange blot taster tilfældige værdier ind for at tjekke siden eller opgiver løft med mangelfuld form.</li>
+  <li><strong>Mangel på kvindedata:</strong> Mange af disse tabeller har manglet reelle data for kvinder, som også gerne vil løfte og sammenligne sig med andre.</li>
+  <li><strong>Højde ignoreres:</strong> Tabellerne tager ikke kropshøjden med som parameter. Hvis två personer vejer det samme og løfter det samme, men den ene er højere end den anden, er den høje i realiteten en bedre løfter ifølge <a href="https://www.strongerbyscience.com/objective-strength-standards/">Greg Nuckols</a>.</li>
+</ol>
+
+<blockquote>
+  <p><strong>Undtagelse:</strong> <a href="https://www.muscleandstrength.com/articles/strong-strength-standards-raw-natural-lifters">Muscle &amp; Strength</a> har lavet en sammenligningstabel direkte baseret på verdensrekorder og stævnedata fra styrkeløftforbund, hvor der laves dopingtests.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="3-wilks-score">3. Wilks Score</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/Wilks_Coefficient">Wilks Score</a> er den mest kendte metode til at sammenligne løftere på tværs af vægtklasser. Formlen benytter et 5.-grads polynomium til at udjævne vægtforskelle mellem mænd og kvinder.</p>
+
+<p>Selvom Wilks har været standarden i årtier, er den for nylig blevet afløst af IPF Points i officielle konkurrencer, da Wilks-formlen i visse tilfælde svagt favoriserede de mellemtunge vægtklasser.</p>
+
+<hr />
+
+<h2 id="4-ipf-gl-points--aldersjustering">4. IPF GL Points &amp; Aldersjustering</h2>
+
+<p>I International Powerlifting Federation (IPF) har man erstattet Wilks Score med en ny formel, som kaldes <strong>IPF GL Points (Goodlift)</strong>.</p>
+
+<p>Du kan se og beregne ud fra den nyeste udgave hos <a href="https://styrke.dk/?page=ipfglformel">Dansk Styrkeløft Forbund</a>.</p>
+
+<p>Hvorfor valgte IPF at udvikle en ny formel?</p>
+
+<blockquote>
+  <p>“In the following year, not satisfied with the new formula, the IPF released another one using a different algorithm with the intention to update the parameters used in it every four years, to keep it better aligned with the performance of elite powerlifters over time. The calculator below is based on this new formula and is current for lifts performed in the period 2020 - 2023. Points are referred to as IPF GL to distinguish them from the IPF points of the 2019 formula. IPF GL points are normalised in an attempt to represent performance as a percentage of that of an elite lifter with the same body weight.”</p>
+
+  <p>— <cite><a href="https://weighttraining.nz/ipf_calculator.php">WeightTraining.NZ</a></cite></p>
+</blockquote>
+
+<h3 id="mcculloch-aldersjustering">McCulloch aldersjustering</h3>
+<p>Alder har stor betydning for styrkepræstationen. Yngre atleter har typisk ikke udviklet deres fulde potentiale endnu, mens man fra omkring 40-årsalderen oplever et naturligt fald i maksimal muskelmasse og eksplosivitet.</p>
+
+<p>Her benyttes <strong>McCulloch-koefficienten</strong> til at aldersjustere løftet:</p>
+
+<blockquote>
+  <p>“Sometimes scores are further adjusted by multiplying by a factor that takes the lifter’s age into account. The McCulloch coefficients take into account the fact that younger athletes generally have not developed to their potential strength, while from about the age of 40 onwards strength starts to steadily diminish.”</p>
+
+  <p>— <cite><a href="https://weighttraining.nz/ipf_calculator.php">WeightTraining.NZ</a></cite></p>
+</blockquote>
+
+<hr />
+
+<h2 id="5-greg-nuckols-styrkestandarder">5. Greg Nuckols’ styrkestandarder</h2>
+
+<p><a href="https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/">Greg Nuckols</a> har lavet en gennemarbejdet og genial <a href="https://www.strongerbyscience.com/objective-strength-standards/">beregner til sammenligning af styrke</a>, som giver dig et bud på, hvor stærk du er i forhold til dit biologiske potentiale.</p>
+
+<p>Nuckols har lavet sine egne tabeller, som bygger på sammenhængen mellem <strong>styrke og fedtfri masse pr. centimeter kropshøjde</strong>.</p>
+
+<blockquote>
+  <p>“We know that among elite lifters, the squat, bench, and deadlift scale linearly with fat free mass per cm. Based on your height and weight, we can get an idea of how skilled you are at picking up heavy stuff with the muscle you currently have.”</p>
+
+  <p>— <cite><a href="https://www.strongerbyscience.com/objective-strength-standards/">Greg Nuckols</a></cite></p>
+</blockquote>
+
+<p>Baseret på din højde og vægt kan du få en idé om, hvor meget du ville løfte, hvis du havde de samme færdigheder og kropskomposition som verdensklasseløftere. Nuckols skriver, at mændene i verdenseliten har omkring <strong>12 % kropsfedt</strong>, mens kvinderne løfter med en fedtprocent på omkring <strong>20 %</strong>.</p>
+
+<p>Hvis du har en højere fedtprocent eller mangler løftetekniske færdigheder, vil dit resultat være lavere. Det betyder også, at du har brug for at nærme dig dit muskulære potentiale for at score højt.</p>
+
+<h3 id="nuckols-sammenligningstabel">Nuckols’ sammenligningstabel</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Score</th>
+      <th style="text-align: left">Vurdering</th>
+      <th style="text-align: left">Hvad betyder det i praksis?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>&gt;100%</strong></td>
+      <td style="text-align: left"><strong>All-Time Elite</strong></td>
+      <td style="text-align: left">Du er den bedste løfter nogensinde.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>90 – 100%</strong></td>
+      <td style="text-align: left"><strong>Verdensklasse</strong></td>
+      <td style="text-align: left">Du er blandt de bedste i verden.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>75 – 90%</strong></td>
+      <td style="text-align: left"><strong>Ekstraordinær</strong></td>
+      <td style="text-align: left">Du er en ekstraordinært god løfter og vil blande dig i den nationale top 3.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>60 – 75%</strong></td>
+      <td style="text-align: left"><strong>Øvet / Avanceret</strong></td>
+      <td style="text-align: left">Du vil imponere i de fleste fitnesscentre, og du vil formentlig være i top 20 i din vægtklasse til nationale stævner.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>50 – 60%</strong></td>
+      <td style="text-align: left"><strong>Seriøs Motionist</strong></td>
+      <td style="text-align: left">Du har trænet seriøst meget, og du vil stadig imponere med masser af plads til forbedring.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>40 – 50%</strong></td>
+      <td style="text-align: left"><strong>Letøvet / Plateau</strong></td>
+      <td style="text-align: left">Mange rammer et plateau i dette område. Typisk skal du hæve træningsvolumen og sørge for rigtig god restitution.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>&lt;40%</strong></td>
+      <td style="text-align: left"><strong>Begynder</strong></td>
+      <td style="text-align: left">Du skal stadig træne, før du objektivt set kan kalde dig stærk.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="6-dr-mel-siff--index100">6. Dr. Mel Siff &amp; Index100</h2>
+
+<p>Siden styrkeløftets spæde start har idrætsforskere forsøgt at opstille præcise matematiske formler for sammenligning.</p>
+
+<h3 id="mel-siffs-formel">Mel Siffs Formel</h3>
+<p>Dr. Mel Siff har i klassikeren * Supertraining * beskrevet følgende formel til sammenligning på tværs af vægtklasser:</p>
+
+\[T = a - b \cdot \text{bw}^{-c}\]
+
+<p>Hvor $T$ er det forventede resultat for en topklasseløfter, $\text{bw}$ er kropsvægten i kg, og $a, b, c$ er empiriske konstanter udregnet for styrkeløft og vægtløftning.</p>
+
+<h3 id="index100">Index100</h3>
+<p>Morten Zacho introducerede på Motion Online inspireret Mel Siff en <strong>Index100-beregning</strong>. Index100 omregner dit løft til, hvad det teoretisk set ville være, hvis du vejede præcis <strong>100 kg</strong>:</p>
+
+\[\text{Index100} = \frac{\text{kg} \times 986{,}63}{1270 - 172970 \cdot \text{kropsvægt}^{-1{,}3925}}\]
+
+<p>Formålet med Index100 er at give et tal, der er let og intuitivt at forholde sig til i hverdagen.</p>
+
+<blockquote>
+  <p><strong>Eksempel:</strong><br />
+Person A vejer 90 kg og tager 115 kg i bænkpres ($1{,}28\text{ kg pr. kg BW}$).<br />
+Person B vejer 75 kg og tager 100 kg i bænkpres ($1{,}33\text{ kg pr. kg BW}$).</p>
+
+  <p>Hvem er stærkest? Kigger man kun på relativ styrke, ser Person B stærkest ud. Men ifølge Index100-beregningen ville Person A løfte <strong>120 kg</strong>, hvis han vejede 100 kg, mens Person B kun ville løfte <strong>117 kg</strong>. Efter en retfærdig normalisering er Person A altså den stærkeste!</p>
+</blockquote>
+
+<p>Modellen har ikke vundet så meget udbredelse, selvom den er let at forstå.</p>
+
+<hr />
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Der er flere forskellige måder at sammenligne styrke på tværs af vægtklasser på. Relativ styrke og styrkestandardtabeller bliver ofte brugt i hverdagen, men der findes mere præcise muligheder.</p>
+
+<p>Wilks Score og IPF GL Points er ideelle, hvis du står og skal sammenligne to konkurrenceløftere.</p>
+
+<p>Vil du i stedet have et objektivt svar på, hvor stærk du er i forhold til din kropsbygning, højde og dit biologiske potentiale, er <a href="https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/">Greg Nuckols’ model</a> et af de absolut mest interessante og gennemarbejdede bud.</p>
+
+<hr />
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Amirthalingam, T., et al. (2017). <em>Effects of a Modified German Volume Training Program on Muscular Hypertrophy and Strength.</em> Journal of Strength and Conditioning Research, 31(11), 3109–3119.</li>
+    <li>Siff, M. C., &amp; Verkhoshansky, Y. V. (2009). <em>Supertraining</em> (6th ed.). Ultimate Athletic Performance.</li>
+    <li>Nuckols, G. (2017). <em>Objective Strength Standards.</em> Stronger by Science. Hentet fra <a href="https://www.strongerbyscience.com/objective-strength-standards/">strongerbyscience.com</a></li>
+    <li>Nuckols, G. <em>Who is the most impressive powerlifter.</em> Stronger by Science. Hentet fra <a href="https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/">strongerbyscience.com</a></li>
+    <li>International Powerlifting Federation (IPF). <em>IPF GL Points Formulas &amp; Coefficients.</em> Hentet fra <a href="https://www.powerlifting.sport">powerlifting.sport</a></li>
+    <li>Batterham, A. M., &amp; George, K. P. (1997). <em>Allometric scaling of physiological variables.</em> European Journal of Applied Physiology, 76(6), 561-568.</li>
+    <li>Zacho, M. (2003). <em>Hvem er stærkest? - Beregning af Index100.</em> Motion-Online.</li>
+    <li>WeightTraining.NZ. <em>IPF GL Points Calculator.</em> Hentet fra <a href="https://weighttraining.nz/ipf_calculator.php">weighttraining.nz</a></li>
+    <li>Tsampa.org. <em>About relative strength.</em> Hentet fra <a href="http://tsampa.org/training/scripts/relative_strength/#about">tsampa.org</a></li>
+    <li>Sportsci.com. <em>Evolution of Bodymass Adjustments.</em> Hentet fra <a href="https://web.archive.org/web/20050304042306/http://www.sportsci.com/SPORTSCI/JANUARY/evolution_of_bodymass_adjustment.htm">sportsci.com</a></li>
+  </ul>
+</details>
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/sammenligning-styrke/#article",
+    "name": "Styrkestandarder & Beregner: Hvor stærk er du?",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "11"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">11</span> stemmer. Gennemsnit: <span id="rating_average">4.6</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+<figure class=" hidden">
+  <img src="/assets/images/pinterest-hide-mini-image.png"
+       alt="Styrkestandarder & Beregner: Hvor stærk er du?"
+       data-pin-media="https://www.motionsplan.dk/assets/images/pinterest/generated/sammenligning-styrke.jpg"
+       data-pin-description="Beregner til relativ styrke, Wilks score, IPF GL points og Nuckols styrkestandarder. Sammenlign din styrke på tværs af køn, kropsvægt, højde og alder. #beregner #styrketræning #vurderingsværktøj #moc"
+        loading="lazy">
+  
+</figure>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#beregner" class="page__taxonomy-item" rel="tag">beregner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#moc" class="page__taxonomy-item" rel="tag">moc</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#styrketr%C3%A6ning" class="page__taxonomy-item" rel="tag">styrketræning</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#vurderingsv%C3%A6rkt%C3%B8j" class="page__taxonomy-item" rel="tag">vurderingsværktøj</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#styrkel%C3%B8ft" class="page__taxonomy-item" rel="tag">Styrkeløft</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#styrketr%C3%A6ning" class="page__taxonomy-item" rel="tag">Styrketræning</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-08-13">13. Aug, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/pulstraening/" class="pagination--pager" title="Pulstræning: Sådan kommer du i gang">Forrige</a>
+    
+    
+      <a href="/ponderal-index/" class="pagination--pager" title="Ponderal Index (Rohrer’s Index): Beregn kropsbygning uafhængigt af højde">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1683889842943-17e8eea3ac7c?q=80&w=2662&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="McGill Big 3: Den ultimative guide til en stærk og smertefri ryg
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Skadesforebyggelse</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/mcgill-big-3/" rel="permalink">McGill Big 3: Den ultimative guide til en stærk og smertefri ryg
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-18T12:00:00+00:00">18. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Lær Dr. Stuart McGills verdenskendte Big 3 øvelser (Modified Curl-Up, Side Plank og Bird-Dog). Få maksimal kernestabilitet og beskyt lænden mod skader.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1643142313112-3b9faa5dc015?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Wall Sit Test (90-graders test): Hvor længe kan du sidde?
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-stopwatch" aria-hidden="true" title="Test"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketests</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/wall-sit-test-90-graders-test/" rel="permalink">Wall Sit Test (90-graders test): Hvor længe kan du sidde?
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-06T23:30:00+00:00">6. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Test din statiske muskeludholdenhed i benene med Wall Sit testen (også kendt som 90-graders testen). Lær den korrekte protokol, se aldersnormer og læs om tes...</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1598971457999-ca4ef48a9a71.jpg" alt="Pull-up &amp; Chin-up Test: Protokol, Normer &amp; Politiets Krav
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-stopwatch" aria-hidden="true" title="Test"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketests</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/pullup-test/" rel="permalink">Pull-up &amp; Chin-up Test: Protokol, Normer &amp; Politiets Krav
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-06T23:00:00+00:00">6. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Komplet guide til Pull-up / Kropshævningstesten. Lær om testprotokollen fra Politiet og Forsvaret, gældende normer samt korrekt teknik uden kipping.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1534438327276-14e5300c3a48.jpg" alt="Minimum Effective Volume (MEV): Hvor lidt kan du træne?
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/minimum-effective-volume/" rel="permalink">Minimum Effective Volume (MEV): Hvor lidt kan du træne?
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-03T08:00:00+00:00">3. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">I styrketræningsverdenen hersker der ofte en “mere er bedre”-kultur. Hvis 3 sæt er godt, må 6 sæt være dobbelt så godt. Men videnskaben viser et helt andet b...</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCpybeLG46oZfczu4LfI5K0A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>

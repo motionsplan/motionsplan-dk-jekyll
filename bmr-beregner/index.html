@@ -1,0 +1,2456 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte</title>
+<meta name="description" content="Jeg har lavet en BMR-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte">
+<meta property="og:url" content="https://www.motionsplan.dk/bmr-beregner/">
+<meta property="og:description" content="Jeg har lavet en BMR-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DBMR-beregner%3A+Beregn+dit+hvilestofskifte+og+basalstofskifte%26excerpt%3DJeg+har+lavet+en+BMR-beregner%2C+hvor+du+kan+beregne+dit+hvilestofskifte+og+basalstofskifte+ud+fra+dit+k%C3%B8n%2C+alder%2C+v%C3%A6gt+og+h%C3%B8jde.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1507413245164-6160d8298b31.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D06.+Jul+2026%26domain%3Dwww.motionsplan.dk%26badge%3D%26layout%3D2%26v%3D1783379654/opengraph/">
+  <meta property="og:image:alt" content="BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://www.motionsplan.dk/assets/images/unsplash/photo-1507413245164-6160d8298b31.jpg" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte">
+  <meta name="twitter:description" content="Jeg har lavet en BMR-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/bmr-beregner/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DBMR-beregner%3A+Beregn+dit+hvilestofskifte+og+basalstofskifte%26excerpt%3DJeg+har+lavet+en+BMR-beregner%2C+hvor+du+kan+beregne+dit+hvilestofskifte+og+basalstofskifte+ud+fra+dit+k%C3%B8n%2C+alder%2C+v%C3%A6gt+og+h%C3%B8jde.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1507413245164-6160d8298b31.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D06.+Jul+2026%26domain%3Dwww.motionsplan.dk%26badge%3D%26layout%3D2%26v%3D1783379654/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2019-11-01T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-07-06T23:14:14+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/bmr-beregner/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/bmr-beregner/#webpage",
+      "name": "BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte",
+      "url": "https://www.motionsplan.dk/bmr-beregner/",
+      "description": "<p><strong>Jeg har lavet en BMR-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.</strong></p>",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2019-11-01T00:00:00+00:00",
+      "dateModified": "2026-07-06T23:14:14+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/bmr-beregner/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/bmr-beregner/#article",
+        "inLanguage": "da",
+        "name": "BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte",
+        "headline": "BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte",
+        "keywords": "beregner,stofskifte,stofskifteberegner",
+        "description": "<p><strong>Jeg har lavet en BMR-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.</strong></p>",
+        "articleBody": "Jeg har lavet en BMR-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.\n\nHer kan du også sammenligne forskellige formler, der bruges til at udregne BMR.\n\nStofskiftet består af tre hovedkomponenter:\n\n\n  Hvilestofskifte (BMR)\n  Fødeinduceret termogenese (FIT)\n  Fysisk aktivitet (PAL)\n\n\nI denne artikel fokuserer vi på hvilestofskiftet og basalstofskiftet.\n\nBeregn dit hvilestofskifte og basalstofskifte\n\nDet kræver avanceret udstyr at måle hvilestofskiftet præcist, og de færreste har adgang til det.\n\nDerfor kan du i stedet estimere dit hvilestofskifte med forskellige formler. Med denne BMR-beregner kan du hurtigt få et kvalificeret skøn baseret på dine personlige data.\n\nResultatet er en gennemsnitsberegning for personer med samme køn, alder, vægt og højde – men husk, at der kan være store individuelle forskelle.\n\nBMR beregner\n\n\n\n\n\n\n\n  \n  \n  \n    \n      Hvilestofskifteberegner (BMR)\n      \n        Beregn dit hvilestofskifte (BMR) på baggrund af din højde, alder og køn med anerkendte formler.\n      \n    \n    \n  \n\n  \n    \n    \n    \n      i\n\n      \n      \n        ✕\n        \n      \n\n      1. Dine stamdata\n\n      \n      \n        👨 Mand\n        👩 Kvinde\n      \n\n      \n      \n        \n          Alder (år)\n          \n        \n        \n          Højde (cm)\n          \n        \n        \n          Vægt (kg)\n          \n        \n\n        \n        \n        \n          \n            Fedt % (valgfri)\n          \n          \n            \n            \n            \n              🔒 Lås op\n            \n          \n        \n        \n      \n    \n\n    \n    \n      \n        Formel til hvilestofskifte (BMR)\n      \n\n      \n      \n        \n      \n\n      \n      \n        \n          \n        \n      \n    \n\n    \n    \n      \n        ⚡ Vil du også beregne dit samlede daglige energiforbrug (ligevægtsindtag)?\n        + Tilføj aktivitet\n      \n    \n\n    \n    \n      \n      \n        2. Fysisk Aktivitetsniveau (PAL / Daglige aktiviteter)\n        \n          ✕ Skjul\n        \n      \n\n      \n        ⚡ Hurtig\n        📊 Normal\n        🔍 Avanceret\n      \n\n      \n      \n        i\n\n        \n          ✕\n          \n        \n\n        \n          1. Vælg din generelle livsstil (Basal PAL)\n        \n\n        \n          \n            \n              \n              \n                Sengeliggende / Stille\n                Bundet til seng eller stol uden motion\n              \n            \n            1,20\n          \n\n          \n            \n              \n              \n                Stillesiddende arbejde\n                Kontorarbejde med minimal fysisk aktivitet i fritiden\n              \n            \n            1,45\n          \n\n          \n            \n              \n              \n                Stillesiddende m/ bevægelse\n                Kontorarbejde m/ nogen motion i fritiden eller stående opgaver\n              \n            \n            1,65\n          \n\n          \n            \n              \n              \n                Stående / Gående arbejde\n                fx butik, undervisning, håndværk eller daglig motion\n              \n            \n            1,85\n          \n\n          \n            \n              \n              \n                Tungt kropsarbejde\n                Hårdt fysisk erhverv eller daglig elite-træning\n              \n            \n            2,20\n          \n        \n\n        \n          2. Tillæg for ugentlig træning / motion\n        \n\n        \n          \n            \n              Moderat træning (timer/uge)\n            \n            \n          \n\n          \n            \n              Hård træning (timer/uge)\n            \n            \n          \n        \n      \n\n      \n      \n        \n        \n          i\n\n          \n            ✕\n            \n          \n\n          \n            Aktivitet i løbet af et døgn (24t)\n            1440 / 1440 min\n          \n\n          \n            \n              \n                \n                  Aktivitet\n                  \n                    MET \n                    \n                      \n                      🔒\n                    \n                  \n                  Minutter\n                  Beskrivelse\n                \n              \n              \n                \n                  Intens træning\n                  \n                  \n                  Hurtigt løb, interval, hård kamp\n                \n                \n                  Moderat træning\n                  \n                  \n                  Styrketræning, klatring, motion\n                \n                \n                  Let aktivitet\n                  \n                  \n                  Rask gang, havearbejde, cykling\n                \n                \n                  Stående &amp; gående\n                  \n                  \n                  Madlavning, let gang, shopping\n                \n                \n                  Siddende / Hvile\n                  \n                  \n                  TV, kontor, spise, afslapning\n                \n                \n                  Sove\n                  \n                  \n                  Søvn og dyb hvile\n                \n              \n            \n          \n        \n\n        \n        \n          i\n\n          \n            ✕\n            \n          \n\n          \n            \n              Avanceret: Vælg aktiviteter til dagen\n              Skriv en aktivitet – MET henter sig selv automatisk!\n            \n            1440 / 1440 min\n          \n\n          \n            Aktivitet (Søgbar)\n            MET\n            Minutter\n            \n          \n\n          \n          \n            \n              🛌 Sove\n            \n            \n              \n            \n            \n              \n            \n            \n          \n\n          \n\n          ➕ Tilføj aktivitet til døgnet\n\n          \n          \n            \n              🪑 Siddende / Hvile (Resttid)\n            \n            \n              \n            \n            \n              \n            \n            \n          \n        \n      \n    \n\n    \n    \n      \n      \n        🔥\n        Hvilestofskifte(BMR)\n        -\n        kcal / dag\n        - kJ / dag\n        SEE: ±- kcal\n      \n\n      \n      \n        ⚡\n        Aktivitetsfaktor(PAL)\n        -\n        -\n        -\n        -\n      \n\n      \n      \n        🏆\n        Ligevægtsindtag(TEE)\n        -\n        kcal / dag\n        - kJ / dag\n        SEE: ±- kcal\n      \n    \n\n    \n      For at holde vægten stabil (dit ligevægtsindtag), skal du indtage ca. - kcal om dagen.\n    \n\n    \n      Formel til hvilestofskifte: Nordic Nutrition Recommendations (2012)\n    \n\n    \n    \n      📸 Tag et billede\n      🗑️\n    \n\n  \n\n\nHvilken formel skal du vælge i BMR-beregneren?\n\nDer findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR.\n\nI beregneren kan du vælge den anbefalede formel. Beregneren er ret klog, så den kan vælge den mest passende formel til netop dig.\n\nMadden et al (2016) konkluderer i deres systematiske review, at valget af formel bl.a. afhænger af beregning af BMI. Desuden betyder alder og køn naturligvis også noget.\n\nBeregneren vælger den mest passende formel baseret disse kriterier fra Menneskets Ernæring:\n\n\n  \n    \n      Kriterie\n      Formel\n      Kilde for kriterie\n    \n  \n  \n    \n      Standard\n      Nordic Nutrition Recommendations (2012)\n      WHO’s anbefalinger\n    \n    \n      BMI ≥25 and ≥30 kg\n      Nordic Nutrition Recommendations (2012)\n      Madden et al (2016)\n    \n    \n      BMI ≥30\n      Mifflin et al (1990)\n      Madden et al (2016)\n    \n    \n      BMI ≥40\n      Henry (2005)\n      Madden et al (2016)\n    \n  \n\n\nHvis du selv vil bestemme formel, men er lidt i tvivl om hvilken formel, du skal vælge, så start med formlerne fra Nordic Nutrition Recommendations (2012). Disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.\n\nDu skal dog være opmærksom på, at det er vanskeligt at lave universelle formler for alle aldre, kropsbygninger og befolkningsgrupper. Formlerne i denne beregner baserer sig på alder, køn, vægt og højde, men da den fedtfrie masse kan have stor betydning for hvilestofskiftet, så har andre lavet formler baseret på den. Det er imidlertid noget vanskeligere at få den fedtfrie masse estimeret pålideligt.\n\nFormlerne i beregneren er baseret på gennemsnitsværdier for almindelige mennesker. Personer, der træner meget eller har en høj fedtfri masse i forhold til deres vægt, kan have et højere hvilestofskifte, mens meget inaktive personer kan have et lavere hvilestofskifte, end beregningerne af BMR viser.\n\nVil du vide mere om de specifikke formler, der anvendes til at beregne dit hvilestofskifte og basalstofskifte? Læs vores detaljerede artikel om BMR-formler her.\n\nPræcision af formler til hvilestofskiftet\n\nDer findes virkelig mange forskellige formler for BMR, hvilestofskift og basalstofskiftet. Der er også mange studier, der har valideret de forskellige formler.\n\nJagim et al (2018) sammenligner præcisionen af formler for hvilestofskiftet for atleter.\n\nForskerne konkluderer at de fleste formler undervurderer hvilestofskiftet lidt for en atletisk population.\n\nJamim og kollegaer vurderer følgende:\n\n\n  The Harris-Benedict equation seems to be most accurate for male athletes, whereas the Cunningham equation may be better suited for female athletes.\n\n  – Jagim et al (2018)\n\n\nHvis man kigger i andre studier, der tjekker pålideligheden af de forskellige formler, så ender de på andre formler som de mest pålidelige. Ofte handler studierne om, hvordan formlerne underestimerer og overestimerer BMR for særlige grupper.\n\nSabounchi et al (2013) har bl.a. lavet en større sammenligning, hvor de præsenterer en relativt avanceret tabel for forskellige befolkningsgrupper.\n\nHvordan måles BMR, hvilestofskiftet og basalstofskiftet?\n\nHvilestofskiftet måles ifølge Allan Stubbe: Stofskiftet normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår testen om morgenen efter mindst 12 timer uden mad og stimulanser og uden nogen nævneværdig aktivitet - både fysisk og psykisk.\n\nDe færreste har adgang til en facilitet, hvor man kan få målt sit basalstofskifte. Derfor kan man i stedet udregne BMR og lave en beregning af sit energiforbrug.\n\nUdregn BMR fra fedtfrie masse\n\nEn anden populær måde at udregne sit hvilestofskifte er ud fra sin fedtfrie masse. Det ser ud til i mange studier, at fedtmassen i kroppen kun bidrager i lille grad til hvilestofskiftet.\n\nDerfor kan det særligt ved atletiske personer, som alt andet lige har en højere fedtfri masse, sommetider få bedre resultater ved at bruge beregninger, som tager udgangspunkt i den fedtfrie masse.\n\nSærligt er Cunninghams formel til hvilestofskifte populær. Hvis du kender din fedtprocent og gerne vil sammenligne, så tjek vores beregner af BMR fra fedtfri masse.\n\nHvad er hvilestofskiftet og basalstofskiftet?\n\nKroppens hvilestofskifte kaldes også ofte basalstofskiftet. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale system. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.\n\nHvis du vil lære lidt om, hvordan du beregner dit ligevægtsindtag og energibehov, så har jeg også skrevet om det.\n\nEr der forskel på hvilestofskiftet og basalstofskiftet?\n\nI dette indlæg bruger jeg hvilestofskiftet og basalstofskiftet næsten som synonymer, men det er faktisk to forskellige begreber.\n\n\n  RMR has been measured either in the sitting or supine positions, with a minimum of 15 min of rest, sometimes up to an overnight rest. Resting and basal metabolic rate (BMR) are similar and only differ in that BMR is usually measured in the morning, after an overnight fast, no exercise for the previous 24 h, free from emotional stress, familiar with the apparatus, and the subject completely rested.\n\n  — McMurray et al (2014)\n\n\n\n    \n      \n        \n      \n    \n    \n    \n      Exercise Physiology - Nutrition, Energy, and Human Performance\n      \n        En af de mest anerkendte internationale lærebøger inden for motionsfysiologi, energiomsætning og ernæring.\n\n      \n\n      \n      \n        \n          \n          \n            Tjek prisen hos Saxo →\n          \n        \n      \n    \n  \n\n\n    \n      \n        \n      \n    \n    \n    \n      Menneskets ernæring\n      \n        Den tværfaglige lærebog Menneskets ernæring beskriver sammenhængen mellem de fysiologiske og biologiske processer, der er nødvendige for opretholdelse af liv.\n\n      \n\n      \n      \n        \n          \n          \n            Tjek prisen hos Saxo →\n          \n        \n      \n    \n  \n\n\n  Referencer\n\n  \n    Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. https://doi.org/10.1016/j.clnu.2013.03.022.\n    Gerrior, Shirley, WenYen Juan, og Basiotis Peter. 2006. “An Easy Approach to Calculating Estimated Energy Requirements”. Preventing Chronic Disease 3 (4). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/.\n    Henry, C. J. K. 2005. “Basal Metabolic Rate Studies in Humans: Measurement and Development of New Equations”. Public Health Nutrition 8 (7A): 1133–52. https://doi.org/10.1079/phn2005801.\n    Jagim, Andrew R., Clayton L. Camic, Jacob Kisiolek, Joel Luedke, Jacob Erickson, Margaret T. Jones, og Jonathan M. Oliver. 2018. “Accuracy of Resting Metabolic Rate Prediction Equations in Athletes”. Journal of Strength and Conditioning Research 32 (7): 1875–81. https://doi.org/10.1519/JSC.0000000000002111.\n    McMurray, Robert G., Jesus Soares, Carl J. Caspersen, og Thomas McCurdy. 2014. “Examining Variations of Resting Metabolic Rate of Adults: A Public Health Perspective”. Medicine and science in sports and exercise 46 (7): 1352–58. https://doi.org/10.1249/MSS.0000000000000232.\n    Sabounchi, Nasim S., Hazhir Rahmandad, og Alice Ammerman. 2013. “Best Fitting Prediction Equations for Basal Metabolic Rate: Informing Obesity Interventions in Diverse Populations”. International journal of obesity (2005) 37 (10): 1364–70. https://doi.org/10.1038/ijo.2012.218.\n    Schofield, W. N. 1985. “Predicting Basal Metabolic Rate, New Standards and Review of Previous Work”. Human Nutrition. Clinical Nutrition 39 Suppl 1: 5–41.\n    Tinsley, Grant M., Austin J. Graybeal, og M. Lane Moore. 2019. “Resting Metabolic Rate in Muscular Physique Athletes: Validity of Existing Methods and Development of New Prediction Equations”. Applied Physiology, Nutrition, and Metabolism = Physiologie Appliquee, Nutrition Et Metabolisme 44 (4): 397–406. https://doi.org/10.1139/apnm-2018-0412.\n    Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. https://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM.\n    Westerterp, Klaas R. 2013. “Physical activity and physical activity induced energy expenditure in humans: measurement, determinants, and effects”. Frontiers in Physiology 4 (april). https://doi.org/10.3389/fphys.2013.00090.\n  \n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DBMR-beregner%3A+Beregn+dit+hvilestofskifte+og+basalstofskifte%26excerpt%3DJeg+har+lavet+en+BMR-beregner%2C+hvor+du+kan+beregne+dit+hvilestofskifte+og+basalstofskifte+ud+fra+dit+k%C3%B8n%2C+alder%2C+v%C3%A6gt+og+h%C3%B8jde.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1507413245164-6160d8298b31.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D06.+Jul+2026%26domain%3Dwww.motionsplan.dk%26badge%3D%26layout%3D2%26v%3D1783379654/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/bmr-beregner/#webpage"
+        },
+        "datePublished": "2019-11-01T00:00:00+00:00",
+        "dateModified": "2026-07-06T23:14:14+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/bmr-beregner/#bmr-hvilestofskifte-beregner",
+          "name": "BMR & Hvilestofskifte Beregner",
+          "description": "Beregn dit hvilestofskifte (BMR) ud fra køn, alder, vægt og højde med videnskabeligt anerkendte formler.",
+          "applicationCategory": ["Ernæring"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/bmr-beregner/#webpage"
+          }
+        }
+        
+      
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single wide">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=""
+>
+  
+    
+      
+      
+
+      <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/unsplash/photo-1507413245164-6160d8298b31.jpg"
+           srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/unsplash/photo-1507413245164-6160d8298b31.jpg 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/unsplash/photo-1507413245164-6160d8298b31.jpg 1600w"
+           sizes="100vw"
+           alt="BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte"
+           class="page__hero-bg-img"
+           fetchpriority="high"
+           decoding="async">
+    
+  
+
+  
+    <div class="page__hero-filter" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));"></div>
+  
+
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte
+
+        
+      </h1>
+      
+        <p class="page__lead"><strong>Jeg har lavet en BMR-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.</strong>
+</p>
+      
+      
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-07-06T23:14:14+00:00">6. jul, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          7 min læsning
+        
+      </span>
+    
+  </p>
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">BMR-beregner: Beregn hvilestofskifte og basalstofskifte 🔥
+</span>
+  
+</div>
+
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/kost-ernaering/" itemprop="item"><span itemprop="name">Kost & Ernæring</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/kalorieberegner/" itemprop="item"><span itemprop="name">Kalorieberegnere</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">BMR-beregner: Ber...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte">
+    <meta itemprop="description" content="Jeg har lavet en BMR-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.">
+    <meta itemprop="datePublished" content="2019-11-01T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-07-06T23:14:14+00:00">
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <details class="collapsible-toc">
+            <summary class="nav__title">
+              <i class="fas fa-file-alt"></i> På denne side
+            </summary>
+            <nav class="toc">
+            <ul class="toc__menu"><li><a href="#beregn-dit-hvilestofskifte-og-basalstofskifte">Beregn dit hvilestofskifte og basalstofskifte</a></li><li><a href="#bmr-beregner">BMR beregner</a></li><li><a href="#hvilken-formel-skal-du-vælge-i-bmr-beregneren">Hvilken formel skal du vælge i BMR-beregneren?</a></li><li><a href="#præcision-af-formler-til-hvilestofskiftet">Præcision af formler til hvilestofskiftet</a></li><li><a href="#hvordan-måles-bmr-hvilestofskiftet-og-basalstofskiftet">Hvordan måles BMR, hvilestofskiftet og basalstofskiftet?</a></li><li><a href="#udregn-bmr-fra-fedtfrie-masse">Udregn BMR fra fedtfrie masse</a></li><li><a href="#hvad-er-hvilestofskiftet-og-basalstofskiftet">Hvad er hvilestofskiftet og basalstofskiftet?</a></li><li><a href="#er-der-forskel-på-hvilestofskiftet-og-basalstofskiftet">Er der forskel på hvilestofskiftet og basalstofskiftet?</a></li><li><a href="#references">Referencer</a></li></ul>
+            </nav>
+          </details>
+        
+        <p><strong>Jeg har lavet en <abbr title="Basic Metabolic Rate">BMR</abbr>-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.</strong></p>
+
+<p>Her kan du også sammenligne forskellige formler, der bruges til at udregne <abbr title="Basic Metabolic Rate">BMR</abbr>.</p>
+
+<p><a href="/stofskifte/">Stofskiftet består af tre hovedkomponenter</a>:</p>
+
+<ol>
+  <li>Hvilestofskifte (<abbr title="Basic Metabolic Rate">BMR</abbr>)</li>
+  <li>Fødeinduceret termogenese (<abbr title="Fødeinduceret termogenese">FIT</abbr>)</li>
+  <li><a href="/beregner/pal/">Fysisk aktivitet (<abbr title="Physical Activity Level">PAL</abbr>)</a></li>
+</ol>
+
+<p>I denne artikel fokuserer vi på hvilestofskiftet og basalstofskiftet.</p>
+
+<h2 id="beregn-dit-hvilestofskifte-og-basalstofskifte">Beregn dit hvilestofskifte og basalstofskifte</h2>
+
+<p>Det kræver avanceret udstyr at måle hvilestofskiftet præcist, og de færreste har adgang til det.</p>
+
+<p>Derfor kan du i stedet estimere dit hvilestofskifte med forskellige formler. Med denne <abbr title="Basic Metabolic Rate">BMR</abbr>-beregner kan du hurtigt få et kvalificeret skøn baseret på dine personlige data.</p>
+
+<p>Resultatet er en gennemsnitsberegning for personer med samme køn, alder, vægt og højde – men husk, at der kan være store individuelle forskelle.</p>
+
+<h2 id="bmr-beregner"><abbr title="Basic Metabolic Rate">BMR</abbr> beregner</h2>
+
+<style>
+  .mp-calc-card {
+    position: relative !important;
+  }
+
+  .mp-bmr-input-field {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+  }
+
+  .mp-bmr-builder-input {
+    height: 38px !important;
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    padding: 0 10px !important;
+    box-sizing: border-box !important;
+    border: 1px solid #cbd5e1 !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+  }
+
+  /* Overlay Lås direkte over inputfeltet */
+  .mp-bmr-fat-overlay {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: rgba(241, 245, 249, 0.95) !important;
+    border: 1px dashed #cbd5e1 !important;
+    border-radius: 8px !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 0.75rem !important;
+    font-weight: 800 !important;
+    color: #64748b !important;
+    cursor: pointer !important;
+    z-index: 5 !important;
+    transition: all 0.15s ease !important;
+    user-select: none !important;
+  }
+
+  .mp-bmr-fat-overlay.is-hidden {
+    display: none !important;
+  }
+
+  .mp-bmr-fat-overlay:hover {
+    background: #eff6ff !important;
+    border-color: #93c5fd !important;
+    color: #2563eb !important;
+  }
+
+  .mp-bmr-input-locked {
+    background: #f1f5f9 !important;
+    color: #64748b !important;
+    border-color: #cbd5e1 !important;
+    cursor: pointer !important;
+  }
+
+  .mp-bmr-section-rel {
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  /* Info Button (i) */
+  .mp-panel-info-btn {
+    position: absolute !important;
+    top: 12px !important;
+    right: 12px !important;
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 50% !important;
+    background: #eff6ff !important;
+    color: #2563eb !important;
+    border: 1px solid #bfdbfe !important;
+    font-size: 0.775rem !important;
+    font-weight: 900 !important;
+    font-style: italic !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+  }
+
+  .mp-panel-info-btn:hover {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+  }
+
+  /* Section Overlay */
+  .mp-panel-info-overlay {
+    position: absolute !important;
+    inset: 0 !important;
+    background: #ffffff !important;
+    border-radius: inherit !important;
+    z-index: 20 !important;
+    padding: 1.15rem !important;
+    box-sizing: border-box !important;
+    display: none;
+    flex-direction: column !important;
+    overflow-y: auto !important;
+    box-shadow: inset 0 0 0 1px #e2e8f0;
+  }
+
+  .mp-panel-info-close {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    background: #f1f5f9 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 1rem !important;
+    font-weight: 800 !important;
+    color: #64748b !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.15s ease !important;
+  }
+
+  .mp-panel-info-close:hover {
+    background: #fee2e2 !important;
+    color: #ef4444 !important;
+  }
+
+  /* Køn Knapper */
+  .mp-bmr-gender-btn {
+    flex: 1;
+    border: 1px solid #cbd5e1;
+    background: #ffffff;
+    padding: 0.65rem;
+    font-size: 0.825rem;
+    font-weight: 800;
+    color: #334155;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .mp-bmr-gender-btn.is-selected {
+    background: #eff6ff;
+    border-color: #2563eb;
+    color: #1e40af;
+  }
+
+  /* --- FORMELKORT KASSER OG VALG --- */
+  .mp-bmr-auto-badge {
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 0.85rem 1.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.05);
+  }
+
+  .mp-bmr-badge-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .mp-bmr-badge-title-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .mp-bmr-badge-title {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .mp-bmr-btn-gear {
+    background: #ffffff !important;
+    border: 1px solid #93c5fd !important;
+    color: #2563eb !important;
+    font-size: 1.05rem !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 9px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .mp-bmr-btn-gear:hover {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+  }
+
+  .mp-bmr-rec-tag {
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #1e40af;
+    background: #dbeafe;
+    padding: 3px 8px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .mp-bmr-picker-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .mp-bmr-picker-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-bmr-picker-card:hover:not(.is-selected) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+
+  .mp-bmr-picker-card.is-selected {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-bmr-check-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #e2e8f0;
+    color: #94a3b8;
+    font-size: 0.75rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+  }
+
+  .mp-bmr-picker-card.is-selected .mp-bmr-check-icon {
+    background: #2563eb;
+    color: #ffffff;
+  }
+
+  /* Mode Switcher */
+  .mp-bmr-mode-switch {
+    display: flex;
+    background: #e2e8f0;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-bmr-mode-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 0.6rem 0.35rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #64748b;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+  }
+
+  .mp-bmr-mode-btn.is-active {
+    background: #ffffff;
+    color: #2563eb;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  }
+
+  /* Radio Card Selectors for Simple Mode */
+  .mp-pal-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .mp-pal-radio-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 0.65rem 0.85rem;
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+
+  .mp-pal-radio-label:hover {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+
+  .mp-pal-radio-label.is-selected {
+    border-color: #2563eb;
+    background: #eff6ff;
+  }
+
+  .mp-pal-radio-label input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #2563eb;
+  }
+
+  /* Table styling */
+  .mp-pal-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.825rem;
+  }
+
+  .mp-pal-table th {
+    text-align: left;
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #64748b;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .mp-pal-table td {
+    padding: 0.45rem 0;
+    border-bottom: 1px solid #f1f5f9;
+    vertical-align: middle;
+  }
+
+  .mp-bmr-builder-row {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 0.45rem 0.65rem;
+    margin-bottom: 0.4rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .mp-bmr-btn-add {
+    background: #eff6ff;
+    color: #2563eb;
+    border: 1px dashed #93c5fd;
+    border-radius: 10px;
+    padding: 0.65rem;
+    width: 100%;
+    font-weight: 800;
+    font-size: 0.825rem;
+    cursor: pointer;
+    margin-top: 0.4rem;
+    transition: all 0.15s ease;
+  }
+
+  .mp-bmr-btn-add:hover {
+    background: #dbeafe;
+    border-color: #2563eb;
+  }
+
+  .mp-bmr-btn-remove {
+    background: #fef2f2;
+    color: #ef4444;
+    border: 1px solid #fca5a5;
+    border-radius: 6px;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  /* Hero Result Grid */
+  .mp-bmr-hero-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 0.85rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-bmr-hero-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 1.15rem 0.75rem 0.85rem 0.75rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mp-bmr-hero-card.highlight {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+  }
+
+  .mp-bmr-hero-icon {
+    font-size: 1.6rem;
+    line-height: 1;
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+
+  .mp-bmr-hero-title {
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+    min-height: 2.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.25;
+  }
+
+  .mp-bmr-hero-val {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+
+  .mp-bmr-hero-unit {
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #2563eb;
+    text-transform: uppercase;
+    min-height: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mp-bmr-hero-sub {
+    font-size: 0.725rem;
+    font-weight: 600;
+    color: #64748b;
+    margin-top: 0.25rem;
+    min-height: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mp-bmr-hero-see {
+    font-size: 0.675rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-top: 0.5rem;
+    padding-top: 0.4rem;
+    border-top: 1px dashed #e2e8f0;
+    width: 100%;
+    text-align: center;
+    min-height: 1.4em;
+    box-sizing: border-box;
+  }
+
+  .mp-pal-badge-time {
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 6px;
+  }
+
+  /* OPT-IN BOKS */
+  .mp-bmr-pal-optin-btn {
+    width: 100%;
+    background: #f8fafc;
+    border: 1.5px dashed #cbd5e1;
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    color: #2563eb;
+    font-weight: 800;
+    font-size: 0.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    transition: all 0.15s ease;
+  }
+
+  .mp-bmr-pal-optin-btn:hover {
+    background: #eff6ff;
+    border-color: #93c5fd;
+  }
+</style>
+
+<!-- SKJULT DATALIST TIL SØGBARE MET-AKTIVITETER -->
+<datalist id="mp-bmr-met-datalist"></datalist>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="bmr-calculator" data-ui-module="bmr-calculator-ui" data-show-body-fat="true" data-default-pal-mode="none">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">Hvilestofskifteberegner (BMR)</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn dit hvilestofskifte (BMR) på baggrund af din højde, alder og køn med anerkendte formler.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;" />
+  </div>
+
+  <div class="mp-bmr-container" style="width: 100%;">
+    
+    <!-- 1. STAMDATA SEKTION -->
+    <div class="mp-bmr-section-rel" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+      <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="bmr_formulas" title="Information om Hvilestofskifte &amp; Formler">i</button>
+
+      <!-- SECTION INFO OVERLAY -->
+      <div class="js-section-info-overlay mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-info-close" title="Luk forklaring">✕</button>
+        <div class="js-info-overlay-body"></div>
+      </div>
+
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0; padding-right: 32px;">1. Dine stamdata</h4>
+
+      <!-- Køn Knapper -->
+      <div style="display: flex; gap: 0.65rem; margin-bottom: 0.85rem;">
+        <button type="button" class="mp-bmr-gender-btn js-gender-btn is-selected" data-gender="man">👨 Mand</button>
+        <button type="button" class="mp-bmr-gender-btn js-gender-btn" data-gender="woman">👩 Kvinde</button>
+      </div>
+
+      <!-- Input Felter -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 0.65rem;">
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Alder (år)</label>
+          <input type="number" min="10" max="110" class="vbt-input-mega mp-bmr-input-field js-bmr-input" data-key="age" placeholder="40" value="40" />
+        </div>
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Højde (cm)</label>
+          <input type="number" min="50" max="250" class="vbt-input-mega mp-bmr-input-field js-bmr-input" data-key="height" placeholder="180" value="180" />
+        </div>
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Vægt (kg)</label>
+          <input type="number" min="30" max="300" step="0.1" class="vbt-input-mega mp-bmr-input-field js-bmr-input" data-key="weight" placeholder="70" value="70" />
+        </div>
+
+        
+        <!-- Fedtprocent Felt -->
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">
+            Fedt % <span style="font-weight: 500; color: #94a3b8;">(valgfri)</span>
+          </label>
+          <div style="position: relative;">
+            <input type="number" min="3" max="60" step="0.5" class="vbt-input-mega mp-bmr-input-field js-bmr-input js-bmr-fat-input" data-key="bodyFat" placeholder="15" style="width: 100%;" />
+            
+            <div class="js-bmr-fat-overlay mp-bmr-fat-overlay" title="Klik her for at låse op og angive din fedtprocent">
+              🔒 Lås op
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- SEPARAT BMR-FORMEL SEKTION (TRUKKET UD AF STAMDATA) -->
+    <div style="margin-bottom: 1.25rem;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+        Formel til hvilestofskifte (BMR)
+      </label>
+
+      <!-- COLLAPSED BAR: VISER DEN VALGTE/ANBEFALEDE FORMEL DIREKTE -->
+      <div class="js-bmr-formula-bar mp-bmr-auto-badge">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+
+      <!-- EXPANDED LISTE AF FORMELKORT -->
+      <div class="js-bmr-manual-dropdown-wrapper" style="display: none;">
+        <div class="js-bmr-picker-container mp-bmr-picker-list">
+          <!-- Genereres dynamisk i JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- OPT-IN BOKS TIL SKJULT PAL -->
+    <div class="js-pal-toggle-wrapper" style="margin-bottom: 1.25rem; display: none;">
+      <button type="button" class="js-pal-enable-btn mp-bmr-pal-optin-btn">
+        <span>⚡ Vil du også beregne dit samlede daglige energiforbrug (ligevægtsindtag)?</span>
+        <span style="background: #2563eb; color: #ffffff; padding: 4px 10px; border-radius: 6px; font-size: 0.725rem; flex-shrink: 0;">+ Tilføj aktivitet</span>
+      </button>
+    </div>
+
+    <!-- 2. AKTIVITETSNIVEAU (PAL) SEKTION -->
+    <div class="js-pal-section-wrapper" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0;">2. Fysisk Aktivitetsniveau (PAL / Daglige aktiviteter)</h4>
+        <button type="button" class="js-pal-disable-btn" style="background: transparent; border: none; font-size: 0.725rem; font-weight: 800; color: #64748b; cursor: pointer;" title="Skjul aktivitetsberegning">
+          ✕ Skjul
+        </button>
+      </div>
+
+      <div class="mp-bmr-mode-switch">
+        <button type="button" class="mp-bmr-mode-btn js-bmr-mode-btn is-active" data-pal-mode="simple">⚡ Hurtig</button>
+        <button type="button" class="mp-bmr-mode-btn js-bmr-mode-btn" data-pal-mode="normal">📊 Normal</button>
+        <button type="button" class="mp-bmr-mode-btn js-bmr-mode-btn" data-pal-mode="advanced">🔍 Avanceret</button>
+      </div>
+
+      <!-- SUB-PANEL 1: SIMPLE -->
+      <div class="js-pal-panel-simple mp-bmr-section-rel" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
+        <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="nnr_info" title="Information om Hurtig PAL">i</button>
+
+        <div class="js-section-info-overlay mp-panel-info-overlay">
+          <button type="button" class="mp-panel-info-close js-info-close" title="Luk forklaring">✕</button>
+          <div class="js-info-overlay-body"></div>
+        </div>
+
+        <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.65rem; padding-right: 32px;">
+          1. Vælg din generelle livsstil (Basal PAL)
+        </label>
+
+        <div class="mp-pal-radio-group">
+          <label class="mp-pal-radio-label is-selected">
+            <div style="display: flex; align-items: center;">
+              <input type="radio" name="bmr_base_pal" value="1.2" class="js-bmr-pal-input" />
+              <div>
+                <strong style="font-size: 0.825rem; color: #0f172a; display: block;">Sengeliggende / Stille</strong>
+                <span style="font-size: 0.7rem; color: #64748b;">Bundet til seng eller stol uden motion</span>
+              </div>
+            </div>
+            <span style="font-weight: 800; font-size: 0.825rem; color: #2563eb;">1,20</span>
+          </label>
+
+          <label class="mp-pal-radio-label">
+            <div style="display: flex; align-items: center;">
+              <input type="radio" name="bmr_base_pal" value="1.45" checked="" class="js-bmr-pal-input" />
+              <div>
+                <strong style="font-size: 0.825rem; color: #0f172a; display: block;">Stillesiddende arbejde</strong>
+                <span style="font-size: 0.7rem; color: #64748b;">Kontorarbejde med minimal fysisk aktivitet i fritiden</span>
+              </div>
+            </div>
+            <span style="font-weight: 800; font-size: 0.825rem; color: #2563eb;">1,45</span>
+          </label>
+
+          <label class="mp-pal-radio-label">
+            <div style="display: flex; align-items: center;">
+              <input type="radio" name="bmr_base_pal" value="1.65" class="js-bmr-pal-input" />
+              <div>
+                <strong style="font-size: 0.825rem; color: #0f172a; display: block;">Stillesiddende m/ bevægelse</strong>
+                <span style="font-size: 0.7rem; color: #64748b;">Kontorarbejde m/ nogen motion i fritiden eller stående opgaver</span>
+              </div>
+            </div>
+            <span style="font-weight: 800; font-size: 0.825rem; color: #2563eb;">1,65</span>
+          </label>
+
+          <label class="mp-pal-radio-label">
+            <div style="display: flex; align-items: center;">
+              <input type="radio" name="bmr_base_pal" value="1.85" class="js-bmr-pal-input" />
+              <div>
+                <strong style="font-size: 0.825rem; color: #0f172a; display: block;">Stående / Gående arbejde</strong>
+                <span style="font-size: 0.7rem; color: #64748b;">fx butik, undervisning, håndværk eller daglig motion</span>
+              </div>
+            </div>
+            <span style="font-weight: 800; font-size: 0.825rem; color: #2563eb;">1,85</span>
+          </label>
+
+          <label class="mp-pal-radio-label">
+            <div style="display: flex; align-items: center;">
+              <input type="radio" name="bmr_base_pal" value="2.2" class="js-bmr-pal-input" />
+              <div>
+                <strong style="font-size: 0.825rem; color: #0f172a; display: block;">Tungt kropsarbejde</strong>
+                <span style="font-size: 0.7rem; color: #64748b;">Hårdt fysisk erhverv eller daglig elite-træning</span>
+              </div>
+            </div>
+            <span style="font-weight: 800; font-size: 0.825rem; color: #2563eb;">2,20</span>
+          </label>
+        </div>
+
+        <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin: 1rem 0 0.5rem 0;">
+          2. Tillæg for ugentlig træning / motion
+        </label>
+
+        <div style="display: flex; gap: 0.85rem; flex-wrap: wrap;">
+          <div style="flex: 1; min-width: 130px;">
+            <label style="font-size: 0.725rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">
+              Moderat træning <span style="font-weight: 500; color: #64748b;">(timer/uge)</span>
+            </label>
+            <input type="number" min="0" max="40" step="0.5" class="vbt-input-mega mp-bmr-input-field js-bmr-pal-input" data-input="mod_hours" placeholder="0" value="0" />
+          </div>
+
+          <div style="flex: 1; min-width: 130px;">
+            <label style="font-size: 0.725rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">
+              Hård træning <span style="font-weight: 500; color: #64748b;">(timer/uge)</span>
+            </label>
+            <input type="number" min="0" max="40" step="0.5" class="vbt-input-mega mp-bmr-input-field js-bmr-pal-input" data-input="vig_hours" placeholder="0" value="0" />
+          </div>
+        </div>
+      </div>
+
+      <!-- ADVANCED WRAPPER FOR NORMAL & ADVANCED -->
+      <div class="js-pal-advanced-wrapper" style="display: none;">
+        <!-- SUB-PANEL 2: NORMAL -->
+        <div class="js-pal-panel-normal mp-bmr-section-rel" style="display: none; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
+          <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="met_24h_info" title="Information om 24-timers MET">i</button>
+
+          <div class="js-section-info-overlay mp-panel-info-overlay">
+            <button type="button" class="mp-panel-info-close js-info-close" title="Luk forklaring">✕</button>
+            <div class="js-info-overlay-body"></div>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; padding-right: 32px;">
+            <h4 style="font-size: 0.85rem; font-weight: 800; color: #0f172a; margin: 0;">Aktivitet i løbet af et døgn (24t)</h4>
+            <span class="js-bmr-normal-time-badge mp-pal-badge-time" style="background: #10b981; color: #ffffff;">1440 / 1440 min</span>
+          </div>
+
+          <div style="overflow-x: auto;">
+            <table class="mp-pal-table">
+              <thead>
+                <tr>
+                  <th style="width: 32%;">Aktivitet</th>
+                  <th style="width: 20%;">
+                    MET 
+                    <label style="cursor: pointer; font-size: 0.85rem; margin-left: 2px;" title="Lås op for MET">
+                      <input type="checkbox" class="js-bmr-unlock-met-normal" style="display:none;" />
+                      <span class="js-bmr-lock-icon-normal">🔒</span>
+                    </label>
+                  </th>
+                  <th style="width: 22%;">Minutter</th>
+                  <th style="width: 26%;">Beskrivelse</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Intens træning</strong></td>
+                  <td><input type="number" step="0.1" class="mp-bmr-builder-input mp-bmr-input-locked js-bmr-norm-met" data-key="intens" value="10.0" readonly="" style="width:70px; text-align:center;" /></td>
+                  <td><input type="number" min="0" max="1440" step="5" class="mp-bmr-builder-input js-bmr-norm-min" data-key="intens" value="0" style="width:80px; text-align:center;" /></td>
+                  <td style="color: #64748b; font-size: 0.725rem;">Hurtigt løb, interval, hård kamp</td>
+                </tr>
+                <tr>
+                  <td><strong>Moderat træning</strong></td>
+                  <td><input type="number" step="0.1" class="mp-bmr-builder-input mp-bmr-input-locked js-bmr-norm-met" data-key="moderat" value="7.0" readonly="" style="width:70px; text-align:center;" /></td>
+                  <td><input type="number" min="0" max="1440" step="5" class="mp-bmr-builder-input js-bmr-norm-min" data-key="moderat" value="0" style="width:80px; text-align:center;" /></td>
+                  <td style="color: #64748b; font-size: 0.725rem;">Styrketræning, klatring, motion</td>
+                </tr>
+                <tr>
+                  <td><strong>Let aktivitet</strong></td>
+                  <td><input type="number" step="0.1" class="mp-bmr-builder-input mp-bmr-input-locked js-bmr-norm-met" data-key="let" value="4.0" readonly="" style="width:70px; text-align:center;" /></td>
+                  <td><input type="number" min="0" max="1440" step="5" class="mp-bmr-builder-input js-bmr-norm-min" data-key="let" value="0" style="width:80px; text-align:center;" /></td>
+                  <td style="color: #64748b; font-size: 0.725rem;">Rask gang, havearbejde, cykling</td>
+                </tr>
+                <tr>
+                  <td><strong>Stående &amp; gående</strong></td>
+                  <td><input type="number" step="0.1" class="mp-bmr-builder-input mp-bmr-input-locked js-bmr-norm-met" data-key="staaende" value="2.0" readonly="" style="width:70px; text-align:center;" /></td>
+                  <td><input type="number" min="0" max="1440" step="5" class="mp-bmr-builder-input js-bmr-norm-min" data-key="staaende" value="120" style="width:80px; text-align:center;" /></td>
+                  <td style="color: #64748b; font-size: 0.725rem;">Madlavning, let gang, shopping</td>
+                </tr>
+                <tr>
+                  <td><strong>Siddende / Hvile</strong></td>
+                  <td><input type="number" step="0.1" class="mp-bmr-builder-input mp-bmr-input-locked js-bmr-norm-met" data-key="siddende" value="1.2" readonly="" style="width:70px; text-align:center;" /></td>
+                  <td><input type="number" min="0" max="1440" step="5" class="mp-bmr-builder-input js-bmr-norm-min" data-key="siddende" value="840" style="width:80px; text-align:center;" /></td>
+                  <td style="color: #64748b; font-size: 0.725rem;">TV, kontor, spise, afslapning</td>
+                </tr>
+                <tr>
+                  <td><strong>Sove</strong></td>
+                  <td><input type="number" step="0.1" class="mp-bmr-builder-input mp-bmr-input-locked js-bmr-norm-met" data-key="sove" value="0.9" readonly="" style="width:70px; text-align:center;" /></td>
+                  <td><input type="number" min="0" max="1440" step="5" class="mp-bmr-builder-input js-bmr-norm-min" data-key="sove" value="480" style="width:80px; text-align:center;" /></td>
+                  <td style="color: #64748b; font-size: 0.725rem;">Søvn og dyb hvile</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- SUB-PANEL 3: ADVANCED -->
+        <div class="js-pal-panel-advanced mp-bmr-section-rel" style="display: none; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
+          <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="met_24h_info" title="Information om Døgnbyggeren">i</button>
+
+          <div class="js-section-info-overlay mp-panel-info-overlay">
+            <button type="button" class="mp-panel-info-close js-info-close" title="Luk forklaring">✕</button>
+            <div class="js-info-overlay-body"></div>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; padding-right: 32px;">
+            <div>
+              <h4 style="font-size: 0.85rem; font-weight: 800; color: #0f172a; margin: 0;">Avanceret: Vælg aktiviteter til dagen</h4>
+              <span style="font-size: 0.7rem; color: #64748b; font-weight: 500;">Skriv en aktivitet – MET henter sig selv automatisk!</span>
+            </div>
+            <span class="js-bmr-adv-time-badge mp-pal-badge-time" style="background: #10b981; color: #ffffff;">1440 / 1440 min</span>
+          </div>
+
+          <div style="display: flex; gap: 0.5rem; padding: 0 0.65rem 0.35rem 0.65rem; font-size: 0.7rem; font-weight: 800; color: #64748b; text-transform: uppercase;">
+            <div style="flex: 2; min-width: 140px;">Aktivitet (Søgbar)</div>
+            <div style="width: 75px; text-align: center;">MET</div>
+            <div style="width: 90px; text-align: center;">Minutter</div>
+            <div style="width: 38px;"></div>
+          </div>
+
+          <!-- Sove Row -->
+          <div class="mp-bmr-builder-row" style="background: #f1f5f9; border-color: #cbd5e1;">
+            <div style="flex: 2; min-width: 140px; display: flex; align-items: center;">
+              <strong style="font-size: 0.825rem; color: #0f172a;">🛌 Sove</strong>
+            </div>
+            <div style="width: 75px;">
+              <input type="number" step="0.1" class="mp-bmr-builder-input mp-bmr-input-locked js-bmr-adv-sove-met" value="0.9" readonly="" style="width: 100%; text-align: center;" />
+            </div>
+            <div style="width: 90px;">
+              <input type="number" min="0" max="1440" step="5" class="mp-bmr-builder-input js-bmr-adv-sove-min" value="480" style="width: 100%; text-align: center;" />
+            </div>
+            <div style="width: 38px;"></div>
+          </div>
+
+          <div class="js-bmr-builder-container"></div>
+
+          <button type="button" class="mp-bmr-btn-add js-bmr-add-row-btn">➕ Tilføj aktivitet til døgnet</button>
+
+          <!-- Rest Row -->
+          <div class="mp-bmr-builder-row" style="background: #eff6ff; border-color: #bfdbfe; margin-top: 0.85rem;">
+            <div style="flex: 2; min-width: 140px; display: flex; align-items: center;">
+              <strong style="font-size: 0.825rem; color: #1e3a8a;">🪑 Siddende / Hvile (Resttid)</strong>
+            </div>
+            <div style="width: 75px;">
+              <input type="number" step="0.1" class="mp-bmr-builder-input mp-bmr-input-locked js-bmr-adv-rest-met" value="1.2" readonly="" style="width: 100%; text-align: center;" />
+            </div>
+            <div style="width: 90px;">
+              <input type="number" min="0" max="1440" class="mp-bmr-builder-input mp-bmr-input-locked js-bmr-adv-rest-min" value="840" readonly="" style="width: 100%; text-align: center;" />
+            </div>
+            <div style="width: 38px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HERO RESULTAT GRID -->
+    <div class="mp-bmr-hero-grid">
+      <!-- CARD 1: BMR -->
+      <div class="mp-bmr-hero-card">
+        <span class="mp-bmr-hero-icon">🔥</span>
+        <div class="mp-bmr-hero-title">Hvilestofskifte<br />(BMR)</div>
+        <div class="mp-bmr-hero-val js-res-bmr-kcal">-</div>
+        <div class="mp-bmr-hero-unit">kcal / dag</div>
+        <div class="mp-bmr-hero-sub js-res-bmr-kj">- kJ / dag</div>
+        <div class="mp-bmr-hero-see js-res-bmr-see">SEE: ±- kcal</div>
+      </div>
+
+      <!-- CARD 2: PAL -->
+      <div class="mp-bmr-hero-card js-res-pal-card">
+        <span class="mp-bmr-hero-icon">⚡</span>
+        <div class="mp-bmr-hero-title">Aktivitetsfaktor<br />(PAL)</div>
+        <div class="mp-bmr-hero-val js-res-pal-val">-</div>
+        <div class="mp-bmr-hero-unit js-res-pal-label">-</div>
+        <div class="mp-bmr-hero-sub" style="visibility: hidden;">-</div>
+        <div class="mp-bmr-hero-see" style="visibility: hidden;">-</div>
+      </div>
+
+      <!-- CARD 3: TEE -->
+      <div class="mp-bmr-hero-card highlight js-res-tee-card">
+        <span class="mp-bmr-hero-icon">🏆</span>
+        <div class="mp-bmr-hero-title">Ligevægtsindtag<br />(TEE)</div>
+        <div class="mp-bmr-hero-val js-res-tee-kcal" style="color: #2563eb;">-</div>
+        <div class="mp-bmr-hero-unit">kcal / dag</div>
+        <div class="mp-bmr-hero-sub js-res-tee-kj">- kJ / dag</div>
+        <div class="mp-bmr-hero-see js-res-tee-see">SEE: ±- kcal</div>
+      </div>
+    </div>
+
+    <p class="js-res-desc" style="text-align: center; font-size: 0.8rem; color: #475569; font-weight: 500; margin-bottom: 0.5rem;">
+      For at holde vægten stabil (dit ligevægtsindtag), skal du indtage ca. - kcal om dagen.
+    </p>
+
+    <div class="js-res-meta" style="text-align: center; font-size: 0.725rem; color: #64748b; font-weight: 600; margin-bottom: 1rem;">
+      Formel til hvilestofskifte: Nordic Nutrition Recommendations (2012)
+    </div>
+
+    <!-- Actions -->
+    <div class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag et billede</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>
+
+<h2 id="hvilken-formel-skal-du-vælge-i-bmr-beregneren">Hvilken formel skal du vælge i <abbr title="Basic Metabolic Rate">BMR</abbr>-beregneren?</h2>
+
+<p>Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og <abbr title="Basic Metabolic Rate">BMR</abbr>.</p>
+
+<p>I beregneren kan du vælge den <strong>anbefalede formel</strong>. Beregneren er ret klog, så den kan vælge den mest passende formel til netop dig.</p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/26923904/">Madden et al (2016)</a> konkluderer i deres systematiske review, at valget af formel bl.a. afhænger af <a href="/bmi/">beregning af BMI</a>. Desuden betyder alder og køn naturligvis også noget.</p>
+
+<p>Beregneren vælger den mest passende formel baseret disse kriterier fra <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&amp;bannerid=43264&amp;htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762" rel="sponsored nofollow noopener">Menneskets Ernæring</a>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kriterie</th>
+      <th>Formel</th>
+      <th>Kilde for kriterie</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Standard</td>
+      <td>Nordic Nutrition Recommendations (2012)</td>
+      <td>WHO’s anbefalinger</td>
+    </tr>
+    <tr>
+      <td>BMI ≥25 and ≥30 kg</td>
+      <td>Nordic Nutrition Recommendations (2012)</td>
+      <td><a href="https://pubmed.ncbi.nlm.nih.gov/26923904/">Madden et al (2016)</a></td>
+    </tr>
+    <tr>
+      <td>BMI ≥30</td>
+      <td>Mifflin et al (1990)</td>
+      <td><a href="https://pubmed.ncbi.nlm.nih.gov/26923904/">Madden et al (2016)</a></td>
+    </tr>
+    <tr>
+      <td>BMI ≥40</td>
+      <td>Henry (2005)</td>
+      <td><a href="https://pubmed.ncbi.nlm.nih.gov/26923904/">Madden et al (2016)</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Hvis du selv vil bestemme formel, men er lidt i tvivl om hvilken formel, du skal vælge, så start med formlerne fra Nordic Nutrition Recommendations (2012). Disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.</p>
+
+<p>Du skal dog være opmærksom på, at det er vanskeligt at lave universelle formler for alle aldre, kropsbygninger og befolkningsgrupper. Formlerne i denne beregner baserer sig på alder, køn, vægt og højde, men da den fedtfrie masse kan have stor betydning for hvilestofskiftet, så har andre lavet formler baseret på den. Det er imidlertid noget vanskeligere at få den fedtfrie masse estimeret pålideligt.</p>
+
+<p>Formlerne i beregneren er baseret på gennemsnitsværdier for almindelige mennesker. Personer, der træner meget eller har en høj fedtfri masse i forhold til deres vægt, kan have et højere hvilestofskifte, mens meget inaktive personer kan have et lavere hvilestofskifte, end beregningerne af <abbr title="Basic Metabolic Rate">BMR</abbr> viser.</p>
+
+<p>Vil du vide mere om de specifikke formler, der anvendes til at beregne dit hvilestofskifte og basalstofskifte? Læs vores <a href="/hvilestofskiftet-formler/">detaljerede artikel om <abbr title="Basic Metabolic Rate">BMR</abbr>-formler her</a>.</p>
+
+<h2 id="præcision-af-formler-til-hvilestofskiftet">Præcision af formler til hvilestofskiftet</h2>
+
+<p>Der findes virkelig mange forskellige formler for <abbr title="Basic Metabolic Rate">BMR</abbr>, hvilestofskift og basalstofskiftet. Der er også mange studier, der har valideret de forskellige formler.</p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/28682934/">Jagim et al (2018)</a> sammenligner præcisionen af formler for hvilestofskiftet for atleter.</p>
+
+<p>Forskerne konkluderer at de fleste formler undervurderer hvilestofskiftet lidt for en atletisk population.</p>
+
+<p>Jamim og kollegaer vurderer følgende:</p>
+
+<blockquote>
+  <p>The Harris-Benedict equation seems to be most accurate for male athletes, whereas the Cunningham equation may be better suited for female athletes.</p>
+
+  <p>– <cite><a href="https://pubmed.ncbi.nlm.nih.gov/28682934/">Jagim et al (2018)</a></cite></p>
+</blockquote>
+
+<p>Hvis man kigger i andre studier, der tjekker pålideligheden af de forskellige formler, så ender de på andre formler som de mest pålidelige. Ofte handler studierne om, hvordan formlerne underestimerer og overestimerer <abbr title="Basic Metabolic Rate">BMR</abbr> for særlige grupper.</p>
+
+<p>Sabounchi et al (2013) har bl.a. lavet en større sammenligning, hvor de præsenterer en relativt avanceret tabel for forskellige befolkningsgrupper.</p>
+
+<h2 id="hvordan-måles-bmr-hvilestofskiftet-og-basalstofskiftet">Hvordan måles <abbr title="Basic Metabolic Rate">BMR</abbr>, hvilestofskiftet og basalstofskiftet?</h2>
+
+<p>Hvilestofskiftet måles ifølge <a href="https://web.archive.org/web/20110606134040/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/" rel="nofollow">Allan Stubbe: Stofskiftet</a> normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår testen om morgenen efter mindst 12 timer uden mad og stimulanser og uden nogen nævneværdig aktivitet - både fysisk og psykisk.</p>
+
+<p>De færreste har adgang til en facilitet, hvor man kan få målt sit basalstofskifte. Derfor kan man i stedet udregne <abbr title="Basic Metabolic Rate">BMR</abbr> og lave en beregning af sit energiforbrug.</p>
+
+<h2 id="udregn-bmr-fra-fedtfrie-masse">Udregn <abbr title="Basic Metabolic Rate">BMR</abbr> fra fedtfrie masse</h2>
+
+<p>En anden populær måde at udregne sit hvilestofskifte er ud fra sin fedtfrie masse. Det ser ud til i mange studier, at fedtmassen i kroppen kun bidrager i lille grad til hvilestofskiftet.</p>
+
+<p>Derfor kan det særligt ved atletiske personer, som alt andet lige har en højere fedtfri masse, sommetider få bedre resultater ved at bruge beregninger, som tager udgangspunkt i den fedtfrie masse.</p>
+
+<p>Særligt er <a href="/bmr-beregner-ffm/">Cunninghams formel til hvilestofskifte</a> populær. Hvis du kender din fedtprocent og gerne vil sammenligne, så tjek vores <a href="/bmr-beregner-ffm/">beregner af <abbr title="Basic Metabolic Rate">BMR</abbr> fra fedtfri masse</a>.</p>
+
+<h2 id="hvad-er-hvilestofskiftet-og-basalstofskiftet">Hvad er hvilestofskiftet og basalstofskiftet?</h2>
+
+<p><strong>Kroppens hvilestofskifte kaldes også ofte basalstofskiftet. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale system. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.</strong></p>
+
+<p>Hvis du vil lære lidt om, hvordan du <a href="/ligevaegtsindtag-beregner/">beregner dit ligevægtsindtag og energibehov</a>, så har jeg også skrevet om det.</p>
+
+<h2 id="er-der-forskel-på-hvilestofskiftet-og-basalstofskiftet">Er der forskel på hvilestofskiftet og basalstofskiftet?</h2>
+
+<p>I dette indlæg bruger jeg hvilestofskiftet og basalstofskiftet næsten som synonymer, men det er faktisk to forskellige begreber.</p>
+
+<blockquote>
+  <p>RMR has been measured either in the sitting or supine positions, with a minimum of 15 min of rest, sometimes up to an overnight rest. Resting and basal metabolic rate (<abbr title="Basic Metabolic Rate">BMR</abbr>) are similar and only differ in that <abbr title="Basic Metabolic Rate">BMR</abbr> is usually measured in the morning, after an overnight fast, no exercise for the previous 24 h, free from emotional stress, familiar with the apparatus, and the subject completely rested.</p>
+
+  <p>— <cite><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4535334/">McMurray et al (2014)</a></cite></p>
+</blockquote>
+
+<div class="affiliate-card-row" style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin: 1.5rem 0; padding: 1.25rem; background: #fff; border: 1px solid #eef0f2; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.03);">
+    
+      <div class="affiliate-card-img" style="flex: 0 0 140px; text-align: center; margin: 0 auto;">
+        <img src="https://imgcdn.saxo.com/_9781975217303/0x500" alt="Exercise Physiology - Nutrition, Energy, and Human Performance" style="max-height: 130px; width: auto; object-fit: contain;" />
+      </div>
+    
+    
+    <div class="affiliate-card-content" style="flex: 1 1 240px;">
+      <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.2rem;">Exercise Physiology - Nutrition, Energy, and Human Performance</h3>
+      <p style="margin-bottom: 1rem; font-size: 0.95rem; line-height: 1.5; color: #444;">
+        <p>En af de mest anerkendte internationale lærebøger inden for motionsfysiologi, energiomsætning og ernæring.</p>
+
+      </p>
+
+      
+      <div class="affiliate-buttons" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        
+          
+          <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&amp;bannerid=57950&amp;htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303" target="_blank" rel="sponsored nofollow noopener" class="btn btn--danger" style="margin: 0;">
+            Tjek prisen hos Saxo →
+          </a>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="affiliate-card-row" style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin: 1.5rem 0; padding: 1.25rem; background: #fff; border: 1px solid #eef0f2; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.03);">
+    
+      <div class="affiliate-card-img" style="flex: 0 0 140px; text-align: center; margin: 0 auto;">
+        <img src="https://imgcdn.saxo.com/_9788762813762/0x500" alt="Menneskets ernæring" style="max-height: 130px; width: auto; object-fit: contain;" />
+      </div>
+    
+    
+    <div class="affiliate-card-content" style="flex: 1 1 240px;">
+      <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.2rem;">Menneskets ernæring</h3>
+      <p style="margin-bottom: 1rem; font-size: 0.95rem; line-height: 1.5; color: #444;">
+        <p>Den tværfaglige lærebog Menneskets ernæring beskriver sammenhængen mellem de fysiologiske og biologiske processer, der er nødvendige for opretholdelse af liv.</p>
+
+      </p>
+
+      
+      <div class="affiliate-buttons" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        
+          
+          <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&amp;bannerid=43264&amp;htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762" target="_blank" rel="sponsored nofollow noopener" class="btn btn--danger" style="margin: 0;">
+            Tjek prisen hos Saxo →
+          </a>
+        
+      </div>
+    </div>
+  </div>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. <a href="https://doi.org/10.1016/j.clnu.2013.03.022">https://doi.org/10.1016/j.clnu.2013.03.022</a>.</li>
+    <li>Gerrior, Shirley, WenYen Juan, og Basiotis Peter. 2006. “An Easy Approach to Calculating Estimated Energy Requirements”. Preventing Chronic Disease 3 (4). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/</a>.</li>
+    <li>Henry, C. J. K. 2005. “Basal Metabolic Rate Studies in Humans: Measurement and Development of New Equations”. Public Health Nutrition 8 (7A): 1133–52. <a href="https://doi.org/10.1079/phn2005801">https://doi.org/10.1079/phn2005801</a>.</li>
+    <li>Jagim, Andrew R., Clayton L. Camic, Jacob Kisiolek, Joel Luedke, Jacob Erickson, Margaret T. Jones, og Jonathan M. Oliver. 2018. “Accuracy of Resting Metabolic Rate Prediction Equations in Athletes”. Journal of Strength and Conditioning Research 32 (7): 1875–81. <a href="https://doi.org/10.1519/JSC.0000000000002111">https://doi.org/10.1519/JSC.0000000000002111</a>.</li>
+    <li>McMurray, Robert G., Jesus Soares, Carl J. Caspersen, og Thomas McCurdy. 2014. “Examining Variations of Resting Metabolic Rate of Adults: A Public Health Perspective”. Medicine and science in sports and exercise 46 (7): 1352–58. <a href="https://doi.org/10.1249/MSS.0000000000000232">https://doi.org/10.1249/MSS.0000000000000232</a>.</li>
+    <li>Sabounchi, Nasim S., Hazhir Rahmandad, og Alice Ammerman. 2013. “Best Fitting Prediction Equations for Basal Metabolic Rate: Informing Obesity Interventions in Diverse Populations”. International journal of obesity (2005) 37 (10): 1364–70. <a href="https://doi.org/10.1038/ijo.2012.218">https://doi.org/10.1038/ijo.2012.218</a>.</li>
+    <li>Schofield, W. N. 1985. “Predicting Basal Metabolic Rate, New Standards and Review of Previous Work”. Human Nutrition. Clinical Nutrition 39 Suppl 1: 5–41.</li>
+    <li>Tinsley, Grant M., Austin J. Graybeal, og M. Lane Moore. 2019. “Resting Metabolic Rate in Muscular Physique Athletes: Validity of Existing Methods and Development of New Prediction Equations”. Applied Physiology, Nutrition, and Metabolism = Physiologie Appliquee, Nutrition Et Metabolisme 44 (4): 397–406. <a href="https://doi.org/10.1139/apnm-2018-0412">https://doi.org/10.1139/apnm-2018-0412</a>.</li>
+    <li>Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <a href="https://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM">https://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM</a>.</li>
+    <li>Westerterp, Klaas R. 2013. “Physical activity and physical activity induced energy expenditure in humans: measurement, determinants, and effects”. Frontiers in Physiology 4 (april). <a href="https://doi.org/10.3389/fphys.2013.00090">https://doi.org/10.3389/fphys.2013.00090</a>.</li>
+  </ul>
+</details>
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/bmr-beregner/#article",
+    "name": "BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "20"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">20</span> stemmer. Gennemsnit: <span id="rating_average">4.7</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#beregner" class="page__taxonomy-item" rel="tag">beregner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#stofskifteberegner" class="page__taxonomy-item" rel="tag">stofskifteberegner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#stofskifte" class="page__taxonomy-item" rel="tag">stofskifte</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#kalorieberegnere" class="page__taxonomy-item" rel="tag">Kalorieberegnere</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#kost-ern%C3%A6ring" class="page__taxonomy-item" rel="tag">Kost & Ernæring</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-07-06">6. Jul, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/bmr-beregner-ffm/" class="pagination--pager" title="BMR-beregner fra fedtfri masse (FFM): Hvilestofskifte ud fra fedtprocent">Forrige</a>
+    
+    
+      <a href="/maksimale-iltoptagelse-vo2max/" class="pagination--pager" title="Maksimal iltoptagelse (VO2max): Alt om beregning, tests og træning">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1648748571003-98d6ff522019.jpg" alt="Brug dit energiforbrug som målsætning for træningen
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kost & Ernæring</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/energibudget/" rel="permalink">Brug dit energiforbrug som målsætning for træningen
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-16T22:21:26+00:00">16. jul, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Fokusér på arbejdet, ikke kun intensiteten. Brug vores beregner til at planlægge din træning ud fra energiforbrug og opbyg din arbejdskapacitet.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1583775598026-24bd150b540e?q=80&w=2101&auto=format&fit=crop&ixlib=rb-4.1.0" alt="RED-S / REM-S: Relativ energimangel i sport og løb
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Psykologi</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/rem-s/" rel="permalink">RED-S / REM-S: Relativ energimangel i sport og løb
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-18T00:00:00+00:00">18. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Test din risiko for RED-S / REM-S med vores kønsdifferentierede screening, beregn din energitilgængelighed og lær at genkende symptomerne på energimangel.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1530176611600-d05a6387d07c.jpg" alt="Kirsebærjuice og tranebærjuice til restitution
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kost & Ernæring</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/effekten-af-kirsebaer-og-tranebaer-juice/" rel="permalink">Kirsebærjuice og tranebærjuice til restitution
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-16T22:21:26+00:00">16. jul, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Kirsebær- og tranebærjuice bruges som naturlig hjælp til restitution, søvn og inflammation. Se hvad forskningen siger om effekten.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1581543870486-4435de4749fd.jpg" alt="Carb-loading: Hvad siger videnskaben og sådan gør du!
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kost & Ernæring</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/carb-loading/" rel="permalink">Carb-loading: Hvad siger videnskaben og sådan gør du!
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-16T22:21:26+00:00">16. jul, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Carb-loading øger dine glykogenlagre og forbedrer udholdenhed. Læs, hvad forskningen siger, og hvordan du gør i praksis før konkurrence.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCpybeLG46oZfczu4LfI5K0A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>

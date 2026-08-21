@@ -1,0 +1,1515 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Kropsanalyse Beregner: Estimer din kropsprofil &amp; fysiologiske mål</title>
+<meta name="description" content="Få et samlet fysiologisk overblik over dine kropsmål, estimerede fedtprocent, BMR, lungekapacitet og risikomarkører baseret på validerede formler.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="Kropsanalyse Beregner: Estimer din kropsprofil &amp; fysiologiske mål">
+<meta property="og:url" content="https://www.motionsplan.dk/kropsanalyse/">
+<meta property="og:description" content="Få et samlet fysiologisk overblik over dine kropsmål, estimerede fedtprocent, BMR, lungekapacitet og risikomarkører baseret på validerede formler.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DKropsanalyse+Beregner%3A+Estimer+din+kropsprofil+%26+fysiologiske+m%C3%A5l%26excerpt%3DF%C3%A5+et+samlet+fysiologisk+overblik+over+dine+kropsm%C3%A5l%2C+estimerede+fedtprocent%2C+BMR%2C+lungekapacitet+og+risikomark%C3%B8rer+baseret+p%C3%A5+validerede+formler.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1738523686514-4b6819db42ad%3Fq%3D80%26w%3D2070%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D10.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DNY%26layout%3D2%26v%3D1786320000/opengraph/">
+  <meta property="og:image:alt" content="Kropsanalyse Beregner: Estimer din kropsprofil &amp; fysiologiske mål">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://images.unsplash.com/photo-1738523686514-4b6819db42ad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="Kropsanalyse Beregner: Estimer din kropsprofil &amp; fysiologiske mål">
+  <meta name="twitter:description" content="Få et samlet fysiologisk overblik over dine kropsmål, estimerede fedtprocent, BMR, lungekapacitet og risikomarkører baseret på validerede formler.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/kropsanalyse/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DKropsanalyse+Beregner%3A+Estimer+din+kropsprofil+%26+fysiologiske+m%C3%A5l%26excerpt%3DF%C3%A5+et+samlet+fysiologisk+overblik+over+dine+kropsm%C3%A5l%2C+estimerede+fedtprocent%2C+BMR%2C+lungekapacitet+og+risikomark%C3%B8rer+baseret+p%C3%A5+validerede+formler.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1738523686514-4b6819db42ad%3Fq%3D80%26w%3D2070%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D10.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DNY%26layout%3D2%26v%3D1786320000/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2026-08-10T00:00:00+00:00">
+
+
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/kropsanalyse/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/kropsanalyse/#webpage",
+      "name": "Kropsanalyse Beregner: Estimer din kropsprofil &amp; fysiologiske mål",
+      "url": "https://www.motionsplan.dk/kropsanalyse/",
+      "description": "Få et samlet fysiologisk overblik over dine kropsmål, estimerede fedtprocent, BMR, lungekapacitet og risikomarkører baseret på validerede formler.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2026-08-10T00:00:00+00:00",
+      "dateModified": "2026-08-10T00:00:00+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/kropsanalyse/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/kropsanalyse/#article",
+        "inLanguage": "da",
+        "name": "Kropsanalyse Beregner: Estimer din kropsprofil & fysiologiske mål",
+        "headline": "Kropsanalyse Beregner: Estimer din kropsprofil &amp; fysiologiske mål",
+        "keywords": "",
+        "description": "Få et samlet fysiologisk overblik over dine kropsmål, estimerede fedtprocent, BMR, lungekapacitet og risikomarkører baseret på validerede formler.",
+        "articleBody": "De fleste vurderer deres krop ud fra kropsvægt alene. Badevægten fortæller dig dog intet om, hvordan vægten er fordelt på muskler, fedtmasse, væske og organer.\n\nVores online kropsanalyse dashboard samler en række fysiologiske og antropometriske formler ét sted. Det giver dig et indirekte estimat og et samlet overblik over din kropssammensætning og fysiologiske profiltal.\n\n\n  🏥 Leder du efter en direkte laboratorietest?\nHvis du er på udkig efter en fysisk kropsanalyse med fx en InBody-scanner eller vil dykke yderligere ned i, hvordan bioimpedans (BIA) fungerer sammenlignet med DEXA-scanninger og hydrostatisk vejning, kan du læse vores dybdegående guide til kropskomposition her.\n\n\n\n\n🧪 Fysiologisk Kropsanalyse Dashboard\n\nStart med at indtaste dine stamdata i Niveau 1. Åbn sektion 2 og 3 for at tilføje omkredse eller pulsdata – dashboardet opdaterer automatisk de relevante formler undervejs.\n\n\n  \n  \n  \n    \n      🧪 Fysiologisk Kropsanalyse Dashboard\n      Indtast kropsmål, omkredse og puls – se din krops profil låse op\n    \n    \n  \n\n  \n    \n    \n    \n      \n        \n          👤\n          \n            1. Basale Stamdata (Niveau 1)\n            Højde, vægt, alder &amp; køn (Låser op for 11 kropsanalyser)\n          \n        \n        \n          Udfyldt\n          ▼\n        \n      \n      \n      \n        \n        \n          👫 Køn\n          \n            \n            \n              👨 Mand\n            \n            \n            \n            \n              👩 Kvinde\n            \n          \n        \n\n        \n        \n          \n            🎂 Alder (år)\n            \n          \n          \n            📏 Højde (cm)\n            \n          \n          \n            ⚖️ Vægt (kg)\n            \n          \n        \n      \n    \n\n    \n    \n      \n        \n          📐\n          \n            2. Omkredsmålinger (Niveau 2)\n            Talje &amp; Hofte (Låser op for WHtR, WHR, ABSI, BAI)\n          \n        \n        \n          0 mål indtastet\n          ▼\n        \n      \n\n      \n        \n          \n            Talje (cm)\n            \n          \n          \n            Hofte (cm)\n            \n          \n        \n      \n    \n\n    \n    \n      \n        \n          🫀\n          \n            3. Pulsdata (Niveau 3)\n            Hvilepuls &amp; Maxpuls (Låser op for Kondital via Uths formel)\n          \n        \n        \n          0 pulstal indtastet\n          ▼\n        \n      \n\n      \n        \n          \n            Hvilepuls (bpm)\n            \n          \n          \n            Maxpuls (bpm) Valgfri\n            \n          \n        \n      \n    \n\n    \n    \n      📊 Din Samlede Kropsprofil\n      \n        0 af 18 analyser aktiveret\n      \n    \n\n    \n      \n    \n\n    \n    \n      \n        📸 Tag et billede / Gem Profil\n      \n      \n        🗑️\n      \n    \n\n    \n      &copy; motionsplan.dk\n    \n\n  \n\n\n\n\n\n\n  💡 Vigtigt om præcision:\nBeregningerne herunder er statistiske estimater baseret på populatoriske modeller og kropsmål – ikke en direkte anatomisk måling (som fx en DEXA-scanning eller hydrostatic vejning). Dashboardets primære værdi er at give dig et pædagogisk overblik og hjælpe dig med at spore relative ændringer over tid.\n\n\n\n\n📊 Hvad fortæller de forskellige estimater dig?\n\nFormlerne i dashboardet opdeler dine data i fire pædagogiske kategorier:\n\n1. Kropssammensætning &amp; Antropometri\n\n  BMI &amp; Ponderal Index: Vurderer forholdet mellem kropsvægt og højde. Ponderal Index tager højde for højde i 3D ($kg/m^3$) og er ofte mere retvisende for meget høje eller lave personer.\n  Estimeret Fedtprocent &amp; Muskelmasse: Beregnes som et gennemsnit af 7 validerede antropometriske formler (fx Deurenberg, Gallagher). Formlerne estimerer kropstætheden baseret på din alder, køn og BMI.\n\n\n2. Kropsform og Risikomarkører\n\n  Talje-Højde Ratio (WHtR): Et af de stærkeste enkle mål for kardiometabolisk risiko. En WHtR under 0,5 indikerer generelt en sund fedtfordeling.\n  ABSI (A Body Shape Index): Et nyere indeks, der vurderer mavefedt uafhængigt af dit BMI. Et højt ABSI kan indikere øget mængde visceralt fedt (fedt omkring organerne).\n\n\n3. Fysiologiske Størrelser &amp; Kredsløb\n\n  Blodvolumen (Nadlers formel): Estimerer hvor mange liter blod dit kredsløb indeholder ud fra kropsoverflade og højde.\n  Lungekapacitet (FVC): Viser den forventede vitalkapacitet i lungerne ud fra alder, køn og højde.\n  Kroppens Overfladeareal (BSA): Bruges i fysiologien til at relatere stofskifte og væskebehov til kroppens reelle størrelse.\n\n\n4. Energiforbrug &amp; Puls\n\n  BMR (Basalstofskifte): Estimerer dit energiforbrug i hvile ved hjælp af Mifflin-St Jeor-formlen.\n  Kondital (Uths formel): Estimerer din maksimale iltoptagelse (VO₂max) ud fra forholdet mellem din maxpuls og hvilepuls.\n\n\n\n\n⚖️ Hvordan bruger du analysen bedst i praksis?\n\nFormlers største styrke er konsistens over tid. Selvom et simpelt målebånd eller en matematikmodel har en statistisk usikkerhed (ofte ±3–4 % for fedtprocent), vil en faldende kurve over 8–12 uger næsten altid afspejle et reelt tab af fedtmasse.\n\n\n  Mål under samme omstændigheder: Tag dine mål om morgenen, fastende og før træning.\n  Fokuser på tendensen: Se på udviklingen over måneder frem for enkelte dages svingninger.\n  Kombiner parametre: Hvis vægten står stille, men dit taljemål og din WHtR falder, gennemskuer du hurtigt, at din kropssammensætning ændrer sig positivt.\n\n\n\n\n🏥 Kropsanalyse med InBody vs. Online formler\n\nNår man taler om kropsanalyse i fitnesscentre og hos diætister, henvises der ofte til bioimpedansscannere som InBody 570 eller Tanita.\n\n\n  InBody &amp; Bioimpedans (BIA): Sender svag vekselstrøm gennem kroppen for at måle den elektriske modstand i vævet. Det giver en hurtig og detaljeret opdeling af muskelmasse og væskebalance, men kræver streng faste og faste testbetingelser for ikke at slå ud på væskeforskydninger.\n  Vores online kropsanalyseberegner: Benytter statistiske populationstætheder baseret på dine kropsmål, højde og vægt. Det er 100% gratis at få nogle estimater på, hvordan din krop er sat sammen.\n\n\n👉 Har du fået lavet en InBody-måling?\nLæs vores komplette Guide til InBody 570 – Tolkning af resultatark og præcision.\n\n\n\nOfte stillede spørgsmål om kropsanalyse\n\n\nHvorfor giver beregneren et andet resultat end min badevægt / InBody?\nForskellige metoder benytter forskellige fysiologiske principper. Badevægte bruger bioelektrisk impedans (BIA), som påvirkes kraftigt af din væskebalance. Matematikmodellerne heri bruger i stedet statistiske gennemsnit af kropsmål og stamdata.\n\n\n\n\nEr formlerne nøjagtige nok til at sætte rammer for vægttab?\nJa, til planlægning af kost, energibehov og træning giver formler som Mifflin-St Jeor (BMR) og Deurenberg (fedtprocent) et rigtig godt udgangspunkt for langt de fleste voksne.\n\n\n\n\nKan atleter og styrkeløftere stole på tallene?\nPersoner med ekstremt meget muskelmasse (fx bodybuildere) vil ofte opleve, at antropometriske formler overvurderer deres fedtprocent, fordi muskelmasse øger BMI og omkredse på samme måde som fedt. I de tilfælde anbefales hudfoldstests med fedttang eller en DEXA-scanning.\n\n\n\n\n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DKropsanalyse+Beregner%3A+Estimer+din+kropsprofil+%26+fysiologiske+m%C3%A5l%26excerpt%3DF%C3%A5+et+samlet+fysiologisk+overblik+over+dine+kropsm%C3%A5l%2C+estimerede+fedtprocent%2C+BMR%2C+lungekapacitet+og+risikomark%C3%B8rer+baseret+p%C3%A5+validerede+formler.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1738523686514-4b6819db42ad%3Fq%3D80%26w%3D2070%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D10.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DNY%26layout%3D2%26v%3D1786320000/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/kropsanalyse/#webpage"
+        },
+        "datePublished": "2026-08-10T00:00:00+00:00",
+        "dateModified": "2026-08-10T00:00:00+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/kropsanalyse/#fysiologisk-kropsanalyse-dashboard",
+          "name": "Fysiologisk Kropsanalyse Dashboard",
+          "description": "Interaktivt kropsanalyse dashboard til samlet beregning og estimering af kropssammensætning, kropsform, risikomarkører (WHtR, ABSI), energiforbrug (BMR) og fysiologiske profiltal.",
+          "applicationCategory": ["Kropskomposition","Beregnere","Fysiologi"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/kropsanalyse/#webpage"
+          }
+        }
+        
+      
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/kropskomposition/" itemprop="item"><span itemprop="name">Kropskomposition</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">Kropsanalyse Bere...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Kropsanalyse Beregner: Estimer din kropsprofil &amp; fysiologiske mål">
+    <meta itemprop="description" content="Få et samlet fysiologisk overblik over dine kropsmål, estimerede fedtprocent, BMR, lungekapacitet og risikomarkører baseret på validerede formler.">
+    <meta itemprop="datePublished" content="2026-08-10T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title p-name" class="page__title" itemprop="headline">Kropsanalyse Beregner: Estimer din kropsprofil &amp; fysiologiske mål
+</h1>
+          
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-10T00:00:00+00:00">10. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#dashboard">🧪 Fysiologisk Kropsanalyse Dashboard</a></li><li><a href="#-hvad-fortæller-de-forskellige-estimater-dig">📊 Hvad fortæller de forskellige estimater dig?</a><ul><li><a href="#1-kropssammensætning--antropometri">1. Kropssammensætning &amp; Antropometri</a></li><li><a href="#2-kropsform-og-risikomarkører">2. Kropsform og Risikomarkører</a></li><li><a href="#3-fysiologiske-størrelser--kredsløb">3. Fysiologiske Størrelser &amp; Kredsløb</a></li><li><a href="#4-energiforbrug--puls">4. Energiforbrug &amp; Puls</a></li></ul></li><li><a href="#️-hvordan-bruger-du-analysen-bedst-i-praksis">⚖️ Hvordan bruger du analysen bedst i praksis?</a></li><li><a href="#-kropsanalyse-med-inbody-vs-online-formler">🏥 Kropsanalyse med InBody vs. Online formler</a></li><li><a href="#ofte-stillede-spørgsmål-om-kropsanalyse">Ofte stillede spørgsmål om kropsanalyse</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>De fleste vurderer deres krop ud fra kropsvægt alene. Badevægten fortæller dig dog intet om, hvordan vægten er fordelt på muskler, fedtmasse, væske og organer.</p>
+
+<p>Vores online <strong>kropsanalyse dashboard</strong> samler en række fysiologiske og antropometriske formler ét sted. Det giver dig et <strong>indirekte estimat og et samlet overblik</strong> over din kropssammensætning og fysiologiske profiltal.</p>
+
+<blockquote class="notice--info">
+  <p>🏥 <strong>Leder du efter en direkte laboratorietest?</strong><br />
+Hvis du er på udkig efter en fysisk kropsanalyse med fx en <a href="/artikel/inbody-570-bioimpedans/">InBody-scanner</a> eller vil dykke yderligere ned i, hvordan bioimpedans (BIA) fungerer sammenlignet med DEXA-scanninger og hydrostatisk vejning, kan du læse vores <a href="/kropskomposition/">dybdegående guide til kropskomposition her</a>.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="dashboard">🧪 Fysiologisk Kropsanalyse Dashboard</h2>
+
+<p>Start med at indtaste dine stamdata i Niveau 1. Åbn sektion 2 og 3 for at tilføje omkredse eller pulsdata – dashboardet opdaterer automatisk de relevante formler undervejs.</p>
+
+<div class="mp-calc-card vbt-premium-card" id="mp-body-analysis-card" data-calculator="body-analysis-dashboard" data-ui-module="body-analysis-dashboard">
+  
+  <!-- HEADER -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0; font-size: 1.35rem; font-weight: 800; color: #0f172a;">🧪 Fysiologisk Kropsanalyse Dashboard</h3>
+      <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: #64748b;">Indtast kropsmål, omkredse og puls – se din krops profil låse op</p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 38px; height: 38px; object-fit: contain; border-radius: 6px;" />
+  </div>
+
+  <div class="mp-dashboard-container">
+    
+    <!-- LEVEL 1: BASALE STAMDATA (ÅBEN SOM STANDARD) -->
+    <div class="mp-dash-acc-box is-open js-body-acc" data-sec="demo">
+      <div class="mp-dash-acc-header js-body-acc-toggle">
+        <div class="mp-dash-acc-title">
+          <span style="font-size: 1.2rem;">👤</span>
+          <div>
+            <strong style="font-size: 0.95rem; color: #0f172a; display: block;">1. Basale Stamdata (Niveau 1)</strong>
+            <span style="font-size: 0.72rem; color: #64748b;">Højde, vægt, alder &amp; køn (Låser op for 11 kropsanalyser)</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="js-body-badge-demo" style="font-size: 0.72rem; font-weight: 800; color: #2563eb; background: #eff6ff; padding: 3px 10px; border-radius: 12px; border: 1px solid #bfdbfe;">Udfyldt</span>
+          <span class="mp-acc-chevron">▼</span>
+        </div>
+      </div>
+      
+      <div class="mp-dash-acc-body">
+        <!-- Kønsvælger -->
+        <div class="mp-form-group" style="margin-bottom: 12px;">
+          <label style="font-size: 0.8rem; font-weight: 700; color: #475569; display: block; margin-bottom: 6px;">👫 Køn</label>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px; background: #f1f5f9; padding: 4px; border-radius: 12px; border: 1px solid #e2e8f0; box-sizing: border-box;">
+            <input type="radio" id="mp-body-male" name="mp-body-gender" value="male" class="js-body-gender-radio" checked="" style="display:none;" />
+            <label for="mp-body-male" class="js-body-gender-lbl" data-value="male" style="padding: 8px 12px; text-align: center; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 0.88rem; color: #475569; transition: all 0.15s ease;">
+              👨 Mand
+            </label>
+            
+            <input type="radio" id="mp-body-female" name="mp-body-gender" value="female" class="js-body-gender-radio" style="display:none;" />
+            <label for="mp-body-female" class="js-body-gender-lbl" data-value="female" style="padding: 8px 12px; text-align: center; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 0.88rem; color: #475569; transition: all 0.15s ease;">
+              👩 Kvinde
+            </label>
+          </div>
+        </div>
+
+        <!-- Alder, Højde, Vægt -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px;">
+          <div>
+            <label for="mp-body-age" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">🎂 Alder (år)</label>
+            <input type="number" id="mp-body-age" class="js-body-demo" data-field="age" value="30" placeholder="30" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;" />
+          </div>
+          <div>
+            <label for="mp-body-height" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">📏 Højde (cm)</label>
+            <input type="number" id="mp-body-height" class="js-body-demo" data-field="height" value="180" placeholder="180" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;" />
+          </div>
+          <div>
+            <label for="mp-body-weight" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">⚖️ Vægt (kg)</label>
+            <input type="number" step="0.1" id="mp-body-weight" class="js-body-demo" data-field="weight" value="80" placeholder="80" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEVEL 2: OMKREDSMÅLINGER (LUKKET SOM STANDARD) -->
+    <div class="mp-dash-acc-box js-body-acc" data-sec="girths">
+      <div class="mp-dash-acc-header js-body-acc-toggle">
+        <div class="mp-dash-acc-title">
+          <span style="font-size: 1.2rem;">📐</span>
+          <div>
+            <strong style="font-size: 0.95rem; color: #0f172a; display: block;">2. Omkredsmålinger (Niveau 2)</strong>
+            <span style="font-size: 0.72rem; color: #64748b;">Talje &amp; Hofte (Låser op for WHtR, WHR, ABSI, BAI)</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="js-body-badge-girths" style="font-size: 0.72rem; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 10px; border-radius: 12px; border: 1px solid #cbd5e1;">0 mål indtastet</span>
+          <span class="mp-acc-chevron">▼</span>
+        </div>
+      </div>
+
+      <div class="mp-dash-acc-body">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;">
+          <div>
+            <label for="mp-body-girth-waist" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Talje (cm)</label>
+            <input type="number" step="0.5" id="mp-body-girth-waist" class="js-body-girth" data-site="waist" placeholder="fx 85" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;" />
+          </div>
+          <div>
+            <label for="mp-body-girth-hip" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Hofte (cm)</label>
+            <input type="number" step="0.5" id="mp-body-girth-hip" class="js-body-girth" data-site="hip" placeholder="fx 95" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEVEL 3: PULSDATA (LUKKET SOM STANDARD) -->
+    <div class="mp-dash-acc-box js-body-acc" data-sec="heart">
+      <div class="mp-dash-acc-header js-body-acc-toggle">
+        <div class="mp-dash-acc-title">
+          <span style="font-size: 1.2rem;">🫀</span>
+          <div>
+            <strong style="font-size: 0.95rem; color: #0f172a; display: block;">3. Pulsdata (Niveau 3)</strong>
+            <span style="font-size: 0.72rem; color: #64748b;">Hvilepuls &amp; Maxpuls (Låser op for Kondital via Uths formel)</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="js-body-badge-heart" style="font-size: 0.72rem; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 10px; border-radius: 12px; border: 1px solid #cbd5e1;">0 pulstal indtastet</span>
+          <span class="mp-acc-chevron">▼</span>
+        </div>
+      </div>
+
+      <div class="mp-dash-acc-body">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;">
+          <div>
+            <label for="mp-body-hr-rest" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Hvilepuls (bpm)</label>
+            <input type="number" id="mp-body-hr-rest" class="js-body-heart" data-field="hrRest" placeholder="fx 60" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;" />
+          </div>
+          <div>
+            <label for="mp-body-hr-max" style="font-size: 0.78rem; font-weight: 700; color: #475569; display: block; margin-bottom: 4px;">Maxpuls (bpm) <small style="font-weight:400; color:#94a3b8;">Valgfri</small></label>
+            <input type="number" id="mp-body-hr-max" class="js-body-heart" data-field="hrMax" placeholder="Automatisk" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 700; text-align: center; box-sizing: border-box;" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTAT-GRID (ALLE KORT VISES DYNAMISK HERE) -->
+    <div style="margin: 1.5rem 0 10px 0; display: flex; justify-content: space-between; align-items: center;">
+      <span style="font-weight: 800; color: #0f172a; font-size: 0.95rem;">📊 Din Samlede Kropsprofil</span>
+      <span class="js-body-unlocked-status" style="font-size: 0.75rem; font-weight: 700; color: #2563eb; background: #eff6ff; padding: 3px 10px; border-radius: 12px; border: 1px solid #bfdbfe;">
+        0 af 18 analyser aktiveret
+      </span>
+    </div>
+
+    <div class="js-body-results-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-bottom: 1.5rem;">
+      <!-- JS bygger alle resultatkort dynamisk her -->
+    </div>
+
+    <!-- ACTIONS -->
+    <div id="sf-actions" class="mp-action-group" style="display: flex; gap: 10px; margin-top: 1rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn" style="flex: 1; background: #2563eb; color: #fff; border: none; padding: 12px; border-radius: 12px; font-weight: 700; cursor: pointer;">
+        📸 Tag et billede / Gem Profil
+      </button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd alle indtastninger" style="background: #f1f5f9; border: 1px solid #cbd5e1; padding: 0 16px; border-radius: 12px; cursor: pointer; font-size: 1.1rem;">
+        🗑️
+      </button>
+    </div>
+
+    <div style="text-align: center; margin-top: 1rem; font-size: 0.75rem; color: #94a3b8; font-weight: 600;">
+      &copy; motionsplan.dk
+    </div>
+
+  </div>
+</div>
+
+<!-- STYLES TIL HARMONIKAER -->
+<style>
+  .mp-dash-acc-box {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+  }
+
+  .mp-dash-acc-header {
+    padding: 12px 16px;
+    background: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    transition: background 0.15s ease;
+  }
+
+  .mp-dash-acc-header:hover {
+    background: #f8fafc;
+  }
+
+  .mp-dash-acc-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .mp-acc-chevron {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    transition: transform 0.2s ease;
+  }
+
+  .mp-dash-acc-body {
+    display: none;
+    padding: 14px 16px 16px 16px;
+    border-top: 1px solid #f1f5f9;
+    background: #ffffff;
+  }
+
+  .mp-dash-acc-box.is-open {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  }
+
+  .mp-dash-acc-box.is-open .mp-dash-acc-body {
+    display: block;
+  }
+
+  .mp-dash-acc-box.is-open .mp-acc-chevron {
+    transform: rotate(180deg);
+    color: #2563eb;
+  }
+</style>
+
+<blockquote>
+  <p><strong>💡 Vigtigt om præcision:</strong><br />
+Beregningerne herunder er <strong>statistiske estimater</strong> baseret på populatoriske modeller og kropsmål – ikke en direkte anatomisk måling (som fx en DEXA-scanning eller hydrostatic vejning). Dashboardets primære værdi er at give dig et <strong>pædagogisk overblik</strong> og hjælpe dig med at <strong>spore relative ændringer over tid</strong>.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-hvad-fortæller-de-forskellige-estimater-dig">📊 Hvad fortæller de forskellige estimater dig?</h2>
+
+<p>Formlerne i dashboardet opdeler dine data i fire pædagogiske kategorier:</p>
+
+<h3 id="1-kropssammensætning--antropometri">1. Kropssammensætning &amp; Antropometri</h3>
+<ul>
+  <li><strong>BMI &amp; Ponderal Index:</strong> Vurderer forholdet mellem kropsvægt og højde. Ponderal Index tager højde for højde i 3D ($kg/m^3$) og er ofte mere retvisende for meget høje eller lave personer.</li>
+  <li><strong>Estimeret Fedtprocent &amp; Muskelmasse:</strong> Beregnes som et gennemsnit af 7 validerede antropometriske formler (fx Deurenberg, Gallagher). Formlerne estimerer kropstætheden baseret på din alder, køn og BMI.</li>
+</ul>
+
+<h3 id="2-kropsform-og-risikomarkører">2. Kropsform og Risikomarkører</h3>
+<ul>
+  <li><strong>Talje-Højde Ratio (WHtR):</strong> Et af de stærkeste enkle mål for kardiometabolisk risiko. En WHtR under 0,5 indikerer generelt en sund fedtfordeling.</li>
+  <li><strong>ABSI (A Body Shape Index):</strong> Et nyere indeks, der vurderer mavefedt uafhængigt af dit BMI. Et højt ABSI kan indikere øget mængde visceralt fedt (fedt omkring organerne).</li>
+</ul>
+
+<h3 id="3-fysiologiske-størrelser--kredsløb">3. Fysiologiske Størrelser &amp; Kredsløb</h3>
+<ul>
+  <li><strong>Blodvolumen (Nadlers formel):</strong> Estimerer hvor mange liter blod dit kredsløb indeholder ud fra kropsoverflade og højde.</li>
+  <li><strong><a href="/lunger-lungekapacitet/">Lungekapacitet (FVC)</a>:</strong> Viser den forventede vitalkapacitet i lungerne ud fra alder, køn og højde.</li>
+  <li><strong>Kroppens Overfladeareal (BSA):</strong> Bruges i fysiologien til at relatere stofskifte og væskebehov til kroppens reelle størrelse.</li>
+</ul>
+
+<h3 id="4-energiforbrug--puls">4. Energiforbrug &amp; Puls</h3>
+<ul>
+  <li><strong><a href="/bmr-beregner/">BMR (Basalstofskifte)</a>:</strong> Estimerer dit energiforbrug i hvile ved hjælp af Mifflin-St Jeor-formlen.</li>
+  <li><strong>Kondital (Uths formel):</strong> Estimerer din maksimale iltoptagelse (VO₂max) ud fra forholdet mellem din maxpuls og hvilepuls.</li>
+</ul>
+
+<hr />
+
+<h2 id="️-hvordan-bruger-du-analysen-bedst-i-praksis">⚖️ Hvordan bruger du analysen bedst i praksis?</h2>
+
+<p>Formlers største styrke er <strong>konsistens over tid</strong>. Selvom et simpelt målebånd eller en matematikmodel har en statistisk usikkerhed (ofte ±3–4 % for fedtprocent), vil en <strong>faldende kurve over 8–12 uger</strong> næsten altid afspejle et reelt tab af fedtmasse.</p>
+
+<ol>
+  <li><strong>Mål under samme omstændigheder:</strong> Tag dine mål om morgenen, fastende og før træning.</li>
+  <li><strong>Fokuser på tendensen:</strong> Se på udviklingen over måneder frem for enkelte dages svingninger.</li>
+  <li><strong>Kombiner parametre:</strong> Hvis vægten står stille, men <a href="/taljemaal/">dit taljemål</a> og din WHtR falder, gennemskuer du hurtigt, at din kropssammensætning ændrer sig positivt.</li>
+</ol>
+
+<hr />
+
+<h2 id="-kropsanalyse-med-inbody-vs-online-formler">🏥 Kropsanalyse med InBody vs. Online formler</h2>
+
+<p>Når man taler om kropsanalyse i fitnesscentre og hos diætister, henvises der ofte til bioimpedansscannere som <strong>InBody 570</strong> eller <strong>Tanita</strong>.</p>
+
+<ul>
+  <li><strong>InBody &amp; Bioimpedans (BIA):</strong> Sender svag vekselstrøm gennem kroppen for at måle den elektriske modstand i vævet. Det giver en hurtig og detaljeret opdeling af muskelmasse og væskebalance, men kræver streng faste og faste testbetingelser for ikke at slå ud på væskeforskydninger.</li>
+  <li><strong>Vores online kropsanalyseberegner:</strong> Benytter statistiske populationstætheder baseret på dine kropsmål, højde og vægt. Det er 100% gratis at få nogle estimater på, hvordan din krop er sat sammen.</li>
+</ul>
+
+<p>👉 <strong>Har du fået lavet en InBody-måling?</strong><br />
+Læs vores komplette <a href="/artikel/inbody-570-bioimpedans/">Guide til InBody 570 – Tolkning af resultatark og præcision</a>.</p>
+
+<hr />
+
+<h2 id="ofte-stillede-spørgsmål-om-kropsanalyse">Ofte stillede spørgsmål om kropsanalyse</h2>
+
+<details class="faq">
+<summary><h3>Hvorfor giver beregneren et andet resultat end min badevægt / InBody?</h3></summary>
+<p>Forskellige metoder benytter forskellige fysiologiske principper. Badevægte bruger bioelektrisk impedans (BIA), som påvirkes kraftigt af din væskebalance. Matematikmodellerne heri bruger i stedet statistiske gennemsnit af kropsmål og stamdata.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Er formlerne nøjagtige nok til at sætte rammer for vægttab?</h3></summary>
+<p>Ja, til planlægning af kost, energibehov og træning giver formler som Mifflin-St Jeor (BMR) og Deurenberg (fedtprocent) et rigtig godt udgangspunkt for langt de fleste voksne.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Kan atleter og styrkeløftere stole på tallene?</h3></summary>
+<p>Personer med ekstremt meget muskelmasse (fx bodybuildere) vil ofte opleve, at antropometriske formler overvurderer deres fedtprocent, fordi muskelmasse øger BMI og omkredse på samme måde som fedt. I de tilfælde anbefales hudfoldstests med fedttang eller en DEXA-scanning.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvorfor giver beregneren et andet resultat end min badevægt / InBody?","acceptedAnswer":{"@type":"Answer","text":"Forskellige metoder benytter forskellige fysiologiske principper. Badevægte bruger bioelektrisk impedans (BIA), som påvirkes kraftigt af din væskebalance. Matematikmodellerne heri bruger i stedet statistiske gennemsnit af kropsmål og stamdata.\n"}},{"@type":"Question","name":"Er formlerne nøjagtige nok til at sætte rammer for vægttab?","acceptedAnswer":{"@type":"Answer","text":"Ja, til planlægning af kost, energibehov og træning giver formler som Mifflin-St Jeor (BMR) og Deurenberg (fedtprocent) et rigtig godt udgangspunkt for langt de fleste voksne.\n"}},{"@type":"Question","name":"Kan atleter og styrkeløftere stole på tallene?","acceptedAnswer":{"@type":"Answer","text":"Personer med ekstremt meget muskelmasse (fx bodybuildere) vil ofte opleve, at antropometriske formler overvurderer deres fedtprocent, fordi muskelmasse øger BMI og omkredse på samme måde som fedt. I de tilfælde anbefales hudfoldstests med fedttang eller en DEXA-scanning.\n"}}]
+    }
+</script>
+
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/kropsanalyse/#article",
+    "name": "Kropsanalyse Beregner: Estimer din kropsprofil & fysiologiske mål",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "18"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">18</span> stemmer. Gennemsnit: <span id="rating_average">4.5</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#kropskomposition" class="page__taxonomy-item" rel="tag">Kropskomposition</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-published" datetime="2026-08-10T00:00:00+00:00">10. Aug, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/intuitiv-traening/" class="pagination--pager" title="Intuitiv Træning (IES-2): Dyrker du sport med lyst eller tvang?">Forrige</a>
+    
+    
+      <a href="/traeningsafhaengighed-ortoreksi/" class="pagination--pager" title="Har træning og sundhed taget overhånd? Genfind balancen i din hverdag">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1478604659451-3424450de009.jpg" alt="Hvilken kropstype er du? Find din somatotype med vores beregner!
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-clipboard-check" aria-hidden="true" title="Vurderingsværktøj"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kropskomposition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/somatotype-og-kropstype/" rel="permalink">Hvilken kropstype er du? Find din somatotype med vores beregner!
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-04T10:14:14+00:00">4. aug, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Her kan du lære mere om somatotyperne endomorph, ectomorph og mesomorph. I vores beregner kan du find finde ud af, hvilken kropstype du er.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1586170737392-383ba61aca98.jpg" alt="Body Adiposity Index (BAI) Beregner
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Fedtprocent</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/bai-body-adiposity-index/" rel="permalink">Body Adiposity Index (BAI) Beregner
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-04-29T22:21:26+00:00">29. apr, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Body Adiposity Index (BAI) beregneren bestemmer din fedtprocent ud fra din højde og din hofteomkreds.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1613288092085-eb081fde1509.jpg" alt="Muskelmasse beregner: Beregn din muskelmasse i procent og kg
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kropskomposition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/muskelmasse-beregner/" rel="permalink">Muskelmasse beregner: Beregn din muskelmasse i procent og kg
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-18T10:00:00+00:00">18. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">I denne beregner kan du estimere din samlede skeletmuskelmasse i både kilo (kg) og i procent (%) af din samlede kropsvægt.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1600493033157-eed3fbe95d96.jpg" alt="ABSI Beregner: Body Shape Index og risiko for dødelighed
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kropskomposition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/absi/" rel="permalink">ABSI Beregner: Body Shape Index og risiko for dødelighed
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-08T12:00:00+00:00">8. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">A Body Shape Index (ABSI) er et moderne antropometrisk indeks, der er udviklet som et mere præcist alternativ til traditionelle BMI-målinger og taljemålet.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCpybeLG46oZfczu4LfI5K0A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>

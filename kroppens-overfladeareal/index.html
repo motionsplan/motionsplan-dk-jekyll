@@ -1,0 +1,1391 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Kroppens overfladeareal (BSA): Overfladeberegner &amp; Mostellers formel</title>
+<meta name="description" content="Beregn kroppens overfladeareal i m² med vores overfladeberegner. Se hvordan du beregner overfladeareal med Mostellers formel og Du Bois samt normalværdier.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="Kroppens overfladeareal (BSA): Overfladeberegner &amp; Mostellers formel">
+<meta property="og:url" content="https://www.motionsplan.dk/kroppens-overfladeareal/">
+<meta property="og:description" content="Beregn kroppens overfladeareal i m² med vores overfladeberegner. Se hvordan du beregner overfladeareal med Mostellers formel og Du Bois samt normalværdier.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DKroppens+overfladeareal+%28BSA%29%3A+Overfladeberegner+%26+Mostellers+formel%26excerpt%3DBeregn+kroppens+overfladeareal+i+m%C2%B2+med+vores+overfladeberegner.+Se+hvordan+du+beregner+overfladeareal+med+Mostellers+formel+og+Du+Bois+samt+normalv%C3%A6rdier.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1611784601573-409f9b545ed2.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D01.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785578400/opengraph/">
+  <meta property="og:image:alt" content="Kroppens overfladeareal (BSA): Overfladeberegner &amp; Mostellers formel">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://www.motionsplan.dk/assets/images/unsplash/photo-1611784601573-409f9b545ed2.jpg" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="Kroppens overfladeareal (BSA): Overfladeberegner &amp; Mostellers formel">
+  <meta name="twitter:description" content="Beregn kroppens overfladeareal i m² med vores overfladeberegner. Se hvordan du beregner overfladeareal med Mostellers formel og Du Bois samt normalværdier.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/kroppens-overfladeareal/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DKroppens+overfladeareal+%28BSA%29%3A+Overfladeberegner+%26+Mostellers+formel%26excerpt%3DBeregn+kroppens+overfladeareal+i+m%C2%B2+med+vores+overfladeberegner.+Se+hvordan+du+beregner+overfladeareal+med+Mostellers+formel+og+Du+Bois+samt+normalv%C3%A6rdier.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1611784601573-409f9b545ed2.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D01.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785578400/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2021-12-19T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-08-01T10:00:00+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/kroppens-overfladeareal/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/kroppens-overfladeareal/#webpage",
+      "name": "Kroppens overfladeareal (BSA): Overfladeberegner &amp; Mostellers formel",
+      "url": "https://www.motionsplan.dk/kroppens-overfladeareal/",
+      "description": "Beregn kroppens overfladeareal i m² med vores overfladeberegner. Se hvordan du beregner overfladeareal med Mostellers formel og Du Bois samt normalværdier.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2021-12-19T00:00:00+00:00",
+      "dateModified": "2026-08-01T10:00:00+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/kroppens-overfladeareal/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/kroppens-overfladeareal/#article",
+        "inLanguage": "da",
+        "name": "Kroppens overfladeareal (BSA): Beregner & Mostellers formel",
+        "headline": "Kroppens overfladeareal (BSA): Overfladeberegner &amp; Mostellers formel",
+        "keywords": "beregner",
+        "description": "<p>Denne beregner kan udregne din tilnærmede <em>body surface area (BSA)</em>, som er overfladen på kroppen i kvadratmeter (m<sup>2</sup>). Kroppens overflade er en mere præcis indikator for kroppens forbrænding end kropsvægten alene.</p>",
+        "articleBody": "Denne beregner kan udregne din tilnærmede body surface area (BSA), som er overfladen på kroppen i kvadratmeter (m2). Kroppens overflade er en mere præcis indikator for kroppens forbrænding end kropsvægten alene.\n\nNår du vil kende din krop, så er det også interessant at udregne kroppens overflade. I dette indlæg får du svar på:\n\n\n  Hvordan beregner man kroppens overfladeareal i m²?\n  Hvad er Mostellers formel og Du Bois-formlen?\n  Mulighed for at udregne dit overfladeareal i vores overfladeberegner!\n\n\nBeregn kroppens overfladeareal i m² (Overfladeberegner)\n\nI denne beregner kan du udregne, hvor stor kroppens overflade er. Du kan se de forskellige formler nedenunder, men i denne beregner er det Du Bois-formlen, som bruges som standard, da det er den mest brugte formel i praksis.\n\nIndtast din højde og vægt, og så får du et bud på, hvor stort din krops overfladeareal er.\n\n\n    \n        Udregning af overfladeareal (body surface area) for et menneske.\n        \n            Formel for udregning af BSA\n            \n                Mosteller\n                Du Bois\n                Fujimoto\n                Haycock\n                Gehan &amp; George\n            \n            \n        \n        \n        \n            Vægt (kg)\n                \n            \n        \n        \n            Højde (cm)\n                \n            \n        \n        \n    \n    \n        \n            Body Surface Area (m2)\n                \n            \n        \n    \n    \n    \n\n Køb mig en kaffe\n\n\n\n\n\nFormler til at udregne menneskekroppens areal\n\nI alle formlerne herunder er BSA målt i kvadratmeter (m2), vægten i kg og højden i centimeter.\n\nMostellers formel\nMostellers formel er en af de mest anerkendte og letteste formler at udregne manuelt:\n\n\\[\\text{BSA} = \\sqrt{\\frac{\\text{højde (cm)} \\times \\text{vægt (kg)}}{3600}}\\]\n\nAndre formler for overfladeareal\n\n\n  Du Bois: BSA = 0.007184 * weight0.425 * height0.725\n  Mosteller: BSA = SQRT{ [ height x weight ] / 3600 }\n  Haycock: BSA = 0.024265 * weight0.5378 * height0.3964\n  Gehan and George: BSA = 0.51456 * weight * height0.42246\n  Fujimoto: BSA = 0.008883 * weight0.444 * height0.663\n  Takahira: BSA = 0.007241 * weight0.425 * height0.725\n  Shuter and Aslani: BSA = 0.00949 * weight0.441 * height0.655\n  Schlich (kvinder): BSA = 0.000975482 * weight0.46 * height1.08\n  Schlich (mænd): BSA = 0.000579479 * weight0.38 * height1.24\n\n\nDu kan læse mere om formlerne på Wikipedia.\n\nHvorfor bruge en beregner til Body Surface Area?\n\nDu kan bruge beregneren til at udregne, hvor stort dit overfladeareal er. Helt enkelt får du altså at vide, hvor meget du fylder, hvis du blev lagt helt fladt ned på jorden. Det er ret enkelt, når du allerede kender din højde og vægt.\n\nGennemsnitlige overfladearealer for kroppen\n\nNår du har udregnet dit overfladeareal (BSA), så kan det også være interessant at kende gennemsnitlige BSA-værdier. Her er de delt op i forskellige kategorier.\n\nDet gennemsnitlige overfladeareal for kroppen er følgende ifølge omnicalculator.com:\n\n\n  Spædbørn: 0,25 m2\n  Børn på 2 år: 0,5 m2\n  Børn på 10 år: 1,14 m2\n  Voksne kvinder: 1,6 m2\n  Voksne mænd: 1,9 m2\n\n\nKonklusion\n\nHvis du er interesseret i andre mål for kroppen, så tjek vores BMI-beregner. BSA kan også være en god indikator til at udregne din metabolisme og forbrænding.\n\nAndre tilgange\n\nHvis du arbejder med en lidt eksperimenterende tilgang til at finde overfladearealet af mennesket og har en hulens masse husholdningsfilm, så kan du tjekke denne fremgangsmåde:\n\n\n\n  \n    \n      \n        \n        \n      \n    \n  \n\n\n\n\nDu har jo ret beset fundet ud af, hvor stor din hud er. Måske har du lyst til at afprøve følgende forsøg også med, “hvor stor huden er?” fra testoteket.dk.\n\nOfte stillede spørgsmål om overfladeareal\n\n\nHvordan beregner man kroppens overfladeareal (BSA)?\nKroppens overfladeareal beregnes ud fra højde (cm) og vægt (kg) via matematiske formler som Mostellers formel eller Du Bois-formlen. Resultatet angives i kvadratmeter (m²).\n\n\n\n\nHvad er Mostellers formel for overfladeareal?\nMostellers formel er en af de mest udbredte og enkle formler til at beregne BSA: $\\text{BSA (m²)} = \\sqrt{\\frac{\\text{højde (cm)} \\times \\text{vægt (kg)}}{3600}}$.\n\n\n\n\nHvad er et normalt overfladeareal for voksne?\nDet gennemsnitlige overfladeareal for voksne kvinder er ca. 1,6 m², mens det for voksne mænd ligger på ca. 1,9 m².\n\n\n\n\nHvad bruges Body Surface Area (BSA) til?\nBSA bruges i fysiologi og medicin til at beregne stofskifte, forbrænding og dosering af visse typer medicin, da overfladearealet ofte er en mere præcis indikator for kroppens metabolisme end kropsvægten alene.\n\n\n\n\n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DKroppens+overfladeareal+%28BSA%29%3A+Overfladeberegner+%26+Mostellers+formel%26excerpt%3DBeregn+kroppens+overfladeareal+i+m%C2%B2+med+vores+overfladeberegner.+Se+hvordan+du+beregner+overfladeareal+med+Mostellers+formel+og+Du+Bois+samt+normalv%C3%A6rdier.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1611784601573-409f9b545ed2.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D01.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785578400/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/kroppens-overfladeareal/#webpage"
+        },
+        "datePublished": "2021-12-19T00:00:00+00:00",
+        "dateModified": "2026-08-01T10:00:00+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/kroppens-overfladeareal/#bsa-kroppens-overfladeareal-beregner",
+          "name": "BSA & Kroppens Overfladeareal Beregner",
+          "description": "Interaktiv beregner til udregning af kroppens overfladeareal (BSA) i m² baseret på kropshøjde og kropsvægt via Du Bois og Mostellers formel.",
+          "applicationCategory": ["Anatomi","Beregnere"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/kroppens-overfladeareal/#webpage"
+          }
+        }
+        
+      
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/anatomi/" itemprop="item"><span itemprop="name">Anatomi</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">Kroppens overflad...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Kroppens overfladeareal (BSA): Beregner &amp; Mostellers formel">
+    <meta itemprop="description" content="Denne beregner kan udregne din tilnærmede body surface area (BSA), som er overfladen på kroppen i kvadratmeter (m2). Kroppens overflade er en mere præcis indikator for kroppens forbrænding end kropsvægten alene.">
+    <meta itemprop="datePublished" content="2021-12-19T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-08-01T10:00:00+00:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title p-name" class="page__title" itemprop="headline">Kroppens overfladeareal (BSA): Beregner &amp; Mostellers formel
+</h1>
+          
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-01T10:00:00+00:00">1. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#beregn-kroppens-overfladeareal-i-m-overfladeberegner">Beregn kroppens overfladeareal i m² (Overfladeberegner)</a></li><li><a href="#formler-til-at-udregne-menneskekroppens-areal">Formler til at udregne menneskekroppens areal</a><ul><li><a href="#mostellers-formel">Mostellers formel</a></li><li><a href="#andre-formler-for-overfladeareal">Andre formler for overfladeareal</a></li></ul></li><li><a href="#hvorfor-bruge-en-beregner-til-body-surface-area">Hvorfor bruge en beregner til Body Surface Area?</a></li><li><a href="#gennemsnitlige-overfladearealer-for-kroppen">Gennemsnitlige overfladearealer for kroppen</a></li><li><a href="#konklusion">Konklusion</a></li><li><a href="#andre-tilgange">Andre tilgange</a></li><li><a href="#ofte-stillede-spørgsmål-om-overfladeareal">Ofte stillede spørgsmål om overfladeareal</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>Denne beregner kan udregne din tilnærmede <em>body surface area (<abbr title="Body Surface Area">BSA</abbr>)</em>, som er overfladen på kroppen i kvadratmeter (m<sup>2</sup>). Kroppens overflade er en mere præcis indikator for kroppens forbrænding end kropsvægten alene.</p>
+
+<p>Når du vil kende din krop, så er det også interessant at udregne kroppens overflade. I dette indlæg får du svar på:</p>
+
+<ul>
+  <li>Hvordan beregner man kroppens overfladeareal i m²?</li>
+  <li>Hvad er Mostellers formel og Du Bois-formlen?</li>
+  <li>Mulighed for at udregne dit overfladeareal i vores overfladeberegner!</li>
+</ul>
+
+<h2 id="beregn-kroppens-overfladeareal-i-m-overfladeberegner">Beregn kroppens overfladeareal i m² (Overfladeberegner)</h2>
+
+<p>I denne beregner kan du udregne, hvor stor kroppens overflade er. Du kan se de forskellige formler nedenunder, men i denne beregner er det Du Bois-formlen, som bruges som standard, da det er den mest brugte formel i praksis.</p>
+
+<p>Indtast din højde og vægt, og så får du et bud på, hvor stort din krops overfladeareal er.</p>
+
+<form class="calculator" id="calculator_bsa">
+    <fieldset>
+        <legend>Udregning af overfladeareal (body surface area) for et menneske.</legend>
+        <div class="form-group">
+            <label>Formel for udregning af BSA
+            <select name="bsa-formula">
+                <option value="mosteller">Mosteller</option>
+                <option value="dubois">Du Bois</option>
+                <option value="fujimoto">Fujimoto</option>
+                <option value="haycock">Haycock</option>
+                <option value="gehanandgeorge">Gehan &amp; George</option>
+            </select>
+            </label>
+        </div>
+        <!--
+        <div class="form-group">
+            <label>Køn
+            <select name="gender">
+                <option value="male" selected>Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        -->
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" min="10" max="200" placeholder="fx 68" value="68" name="bsa_weight" id="bsa_weight" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input type="number" min="100" max="200" placeholder="fx 178" value="178" name="bsa_height" id="bsa_height" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Body Surface Area (m<sup>2</sup>)
+                <input name="bsa" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<h2 id="formler-til-at-udregne-menneskekroppens-areal">Formler til at udregne menneskekroppens areal</h2>
+
+<p>I alle formlerne herunder er <abbr title="Body Surface Area">BSA</abbr> målt i kvadratmeter (m<sup>2</sup>), vægten i kg og højden i centimeter.</p>
+
+<h3 id="mostellers-formel">Mostellers formel</h3>
+<p>Mostellers formel er en af de mest anerkendte og letteste formler at udregne manuelt:</p>
+
+\[\text{BSA} = \sqrt{\frac{\text{højde (cm)} \times \text{vægt (kg)}}{3600}}\]
+
+<h3 id="andre-formler-for-overfladeareal">Andre formler for overfladeareal</h3>
+
+<ul>
+  <li><strong>Du Bois:</strong> <abbr title="Body Surface Area">BSA</abbr> = 0.007184 * weight<sup>0.425</sup> * height<sup>0.725</sup></li>
+  <li><strong>Mosteller:</strong> <abbr title="Body Surface Area">BSA</abbr> = SQRT{ [ height x weight ] / 3600 }</li>
+  <li><strong>Haycock:</strong> <abbr title="Body Surface Area">BSA</abbr> = 0.024265 * weight<sup>0.5378</sup> * height<sup>0.3964</sup></li>
+  <li><strong>Gehan and George:</strong> <abbr title="Body Surface Area">BSA</abbr> = 0.51456 * weight * height<sup>0.42246</sup></li>
+  <li><strong>Fujimoto:</strong> <abbr title="Body Surface Area">BSA</abbr> = 0.008883 * weight<sup>0.444</sup> * height<sup>0.663</sup></li>
+  <li><strong>Takahira:</strong> <abbr title="Body Surface Area">BSA</abbr> = 0.007241 * weight<sup>0.425</sup> * height<sup>0.725</sup></li>
+  <li><strong>Shuter and Aslani:</strong> <abbr title="Body Surface Area">BSA</abbr> = 0.00949 * weight<sup>0.441</sup> * height<sup>0.655</sup></li>
+  <li><strong>Schlich (kvinder):</strong> <abbr title="Body Surface Area">BSA</abbr> = 0.000975482 * weight<sup>0.46</sup> * height<sup>1.08</sup></li>
+  <li><strong>Schlich (mænd):</strong> <abbr title="Body Surface Area">BSA</abbr> = 0.000579479 * weight<sup>0.38</sup> * height<sup>1.24</sup></li>
+</ul>
+
+<p>Du kan læse mere om formlerne på <a href="https://en.wikipedia.org/wiki/Body_surface_area">Wikipedia</a>.</p>
+
+<h2 id="hvorfor-bruge-en-beregner-til-body-surface-area">Hvorfor bruge en beregner til Body Surface Area?</h2>
+
+<p>Du kan bruge beregneren til at udregne, hvor stort dit overfladeareal er. Helt enkelt får du altså at vide, hvor meget du fylder, hvis du blev lagt helt fladt ned på jorden. Det er ret enkelt, når du allerede kender din højde og vægt.</p>
+
+<h2 id="gennemsnitlige-overfladearealer-for-kroppen">Gennemsnitlige overfladearealer for kroppen</h2>
+
+<p>Når du har udregnet dit overfladeareal (<abbr title="Body Surface Area">BSA</abbr>), så kan det også være interessant at kende gennemsnitlige <abbr title="Body Surface Area">BSA</abbr>-værdier. Her er de delt op i forskellige kategorier.</p>
+
+<p>Det gennemsnitlige overfladeareal for kroppen er følgende ifølge <a href="https://www.omnicalculator.com/health/bsa">omnicalculator.com</a>:</p>
+
+<ul>
+  <li><strong>Spædbørn:</strong> 0,25 m<sup>2</sup></li>
+  <li><strong>Børn på 2 år:</strong> 0,5 m<sup>2</sup></li>
+  <li><strong>Børn på 10 år:</strong> 1,14 m<sup>2</sup></li>
+  <li><strong>Voksne kvinder:</strong> 1,6 m<sup>2</sup></li>
+  <li><strong>Voksne mænd:</strong> 1,9 m<sup>2</sup></li>
+</ul>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Hvis du er interesseret i andre mål for kroppen, så tjek vores <a href="/bmi/">BMI-beregner</a>. <abbr title="Body Surface Area">BSA</abbr> kan også være en god indikator til at udregne din metabolisme og forbrænding.</p>
+
+<h2 id="andre-tilgange">Andre tilgange</h2>
+
+<p>Hvis du arbejder med en lidt eksperimenterende tilgang til at finde overfladearealet af mennesket og har en hulens masse husholdningsfilm, så kan du tjekke denne fremgangsmåde:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container">
+    <div class="youtube-player" data-id="KTDVl6JuZLM">
+      <a href="https://www.youtube.com/watch?v=KTDVl6JuZLM" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/KTDVl6JuZLM/hqdefault.jpg" loading="lazy" alt="Video: Kroppens overfladeareal (BSA): Beregner &amp; Mostellers formel" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+
+
+</div>
+
+<p>Du har jo ret beset fundet ud af, hvor stor din hud er. Måske har du lyst til at afprøve følgende forsøg også med, “hvor stor huden er?” fra <a href="https://testoteket.dk/aktivitet/hvor-stor-er-huden/">testoteket.dk</a>.</p>
+
+<h2 id="ofte-stillede-spørgsmål-om-overfladeareal">Ofte stillede spørgsmål om overfladeareal</h2>
+
+<details class="faq">
+<summary><h3>Hvordan beregner man kroppens overfladeareal (BSA)?</h3></summary>
+<p>Kroppens overfladeareal beregnes ud fra højde (cm) og vægt (kg) via matematiske formler som Mostellers formel eller Du Bois-formlen. Resultatet angives i kvadratmeter (m²).</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvad er Mostellers formel for overfladeareal?</h3></summary>
+<p>Mostellers formel er en af de mest udbredte og enkle formler til at beregne BSA: $\text{BSA (m²)} = \sqrt{\frac{\text{højde (cm)} \times \text{vægt (kg)}}{3600}}$.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvad er et normalt overfladeareal for voksne?</h3></summary>
+<p>Det gennemsnitlige overfladeareal for voksne kvinder er ca. 1,6 m², mens det for voksne mænd ligger på ca. 1,9 m².</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvad bruges Body Surface Area (BSA) til?</h3></summary>
+<p>BSA bruges i fysiologi og medicin til at beregne stofskifte, forbrænding og dosering af visse typer medicin, da overfladearealet ofte er en mere præcis indikator for kroppens metabolisme end kropsvægten alene.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvordan beregner man kroppens overfladeareal (BSA)?","acceptedAnswer":{"@type":"Answer","text":"Kroppens overfladeareal beregnes ud fra højde (cm) og vægt (kg) via matematiske formler som Mostellers formel eller Du Bois-formlen. Resultatet angives i kvadratmeter (m²).\n"}},{"@type":"Question","name":"Hvad er Mostellers formel for overfladeareal?","acceptedAnswer":{"@type":"Answer","text":"Mostellers formel er en af de mest udbredte og enkle formler til at beregne BSA: $\\text{BSA (m²)} = \\sqrt{\\frac{\\text{højde (cm)} \\times \\text{vægt (kg)}}{3600}}$.\n"}},{"@type":"Question","name":"Hvad er et normalt overfladeareal for voksne?","acceptedAnswer":{"@type":"Answer","text":"Det gennemsnitlige overfladeareal for voksne kvinder er ca. 1,6 m², mens det for voksne mænd ligger på ca. 1,9 m².\n"}},{"@type":"Question","name":"Hvad bruges Body Surface Area (BSA) til?","acceptedAnswer":{"@type":"Answer","text":"BSA bruges i fysiologi og medicin til at beregne stofskifte, forbrænding og dosering af visse typer medicin, da overfladearealet ofte er en mere præcis indikator for kroppens metabolisme end kropsvægten alene.\n"}}]
+    }
+</script>
+
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/kroppens-overfladeareal/#article",
+    "name": "Kroppens overfladeareal (BSA): Beregner & Mostellers formel",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "13"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">13</span> stemmer. Gennemsnit: <span id="rating_average">4.5</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+<figure class=" hidden">
+  <img src="/assets/images/pinterest-hide-mini-image.png"
+       alt="Kroppens overfladeareal (BSA): Beregner & Mostellers formel"
+       data-pin-media="https://www.motionsplan.dk/assets/images/pinterest/generated/kroppens-overfladeareal.jpg"
+       data-pin-description="Beregn kroppens overfladeareal i m² med vores overfladeberegner. Se hvordan du beregner overfladeareal med Mostellers formel og Du Bois samt normalværdier. #beregner"
+        loading="lazy">
+  
+</figure>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#beregner" class="page__taxonomy-item" rel="tag">beregner</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#anatomi" class="page__taxonomy-item" rel="tag">Anatomi</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-08-01">1. Aug, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/blazepod/" class="pagination--pager" title="Blazepod: Træn reaktionsevne og beslutningstagning">Forrige</a>
+    
+    
+      <a href="/kend-din-krop/" class="pagination--pager" title="Kend din krop: Quiz og spørgsmål om kroppen">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1648748571003-98d6ff522019.jpg" alt="Kroppens største og mindste muskler: Få det præcise svar her
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Anatomi</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/stoerste-og-mindste-muskel-i-kroppen/" rel="permalink">Kroppens største og mindste muskler: Få det præcise svar her
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-03-29T11:00:00+00:00">29. mar, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Er det ballemusklen, der er størst? Og hvor sidder kroppens mindste muskel? Få det hurtige svar og læs hele gennemgangen af muskelrekorderne.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1505236732171-72a5b19c4981.jpg" alt="Udregn kroppens rumfang (Beregner)
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Anatomi</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/kroppens-rumfang/" rel="permalink">Udregn kroppens rumfang (Beregner)
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-07-31T00:00:00+00:00">31. jul, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Hvor mange liter fylder et menneske egentlig? At kende kroppens rumfang (også kaldet kropsvolumen) er ikke kun en sjov fysikøvelse – det er en central parame...</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1541534741688-6078c6bfb5c5.jpg" alt="Skuldermuskler: Liste og øvelser til stærke skuldre
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Muskler</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/muskler/skulder/" rel="permalink">Skuldermuskler: Liste og øvelser til stærke skuldre
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-03-29T17:15:00+00:00">29. mar, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Jeg har samlet en liste over muskler i din skulder her. Det er afgørende at forstå skulderens anatomi, hvis du vil have stærke, brede og sunde skuldre uden s...</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1600677396360-9c4e8e46e7d4.jpg" alt="Rygmuskler: Liste og øvelser til muskler i ryggen
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Muskler</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/muskler/ryggen/" rel="permalink">Rygmuskler: Liste og øvelser til muskler i ryggen
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-03-29T18:25:00+00:00">29. mar, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Jeg har samlet en liste over musklerne i din ryg her. Det er afgørende at forstå ryggens komplekse anatomi, hvis du ønsker en stærk holdning, en bred ryg og ...</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCpybeLG46oZfczu4LfI5K0A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>

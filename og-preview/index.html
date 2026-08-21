@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <meta name="robots" content="noindex, follow">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    html, body {
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+      background: #ffffff;
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    }
+
+    #og-container {
+      width: 1200px;
+      height: 630px;
+      position: relative;
+    }
+
+    /* Badges for 'NY' og 'OPDATERET' */
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #10b981; /* Grøn for NY */
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 8px 18px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+
+    .badge-pill.OPDATERET {
+      background: #2563eb; /* Blå for OPDATERET */
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+    }
+
+    /* ============================================================
+       LAYOUT 1: DeepakNess Minimalist
+       ============================================================ */
+    .layout-1 {
+      width: 1200px;
+      height: 630px;
+      padding: 70px 80px 55px 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #fafbfd;
+      background-image: 
+        linear-gradient(to right, rgba(226, 232, 240, 0.8) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(226, 232, 240, 0.8) 1px, transparent 1px);
+      background-size: 32px 32px;
+      position: relative;
+    }
+
+    .layout-1::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 12px;
+      background: #2563eb;
+    }
+
+    .layout-1 .title {
+      font-size: 64px;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.12;
+      letter-spacing: -0.03em;
+      max-width: 1040px;
+    }
+
+    .layout-1 .excerpt {
+      font-size: 28px;
+      font-weight: 400;
+      color: #475569;
+      margin-top: 24px;
+      line-height: 1.5;
+      max-width: 1020px;
+    }
+
+    .layout-1 .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1.5px solid #e2e8f0;
+      padding-top: 28px;
+    }
+
+    .layout-1 .author-box {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .layout-1 .avatar-wrapper {
+      position: relative;
+      width: 60px;
+      height: 60px;
+    }
+
+    .layout-1 .avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      background-color: #e2e8f0;
+    }
+
+    .layout-1 .status-dot {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      width: 15px;
+      height: 15px;
+      background-color: #2563eb;
+      border: 3px solid #ffffff;
+      border-radius: 50%;
+    }
+
+    .layout-1 .author-name {
+      font-size: 26px;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.01em;
+    }
+
+    .layout-1 .domain-box {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 25px;
+      font-weight: 700;
+      color: #475569;
+    }
+
+    .layout-1 .domain-box img {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      object-fit: contain;
+    }
+
+    /* ============================================================
+       LAYOUT 2: Motionsplan Signature (Orange Ramme)
+       ============================================================ */
+    .layout-2 {
+      width: 1200px;
+      height: 630px;
+      border: 18px solid #f59e0b;
+      display: flex;
+      position: relative;
+      background: #ffffff;
+    }
+
+    .layout-2 .left-panel {
+      flex: 1.25;
+      padding: 65px 40px 65px 65px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #ffffff;
+      z-index: 2;
+      clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+      margin-right: -90px;
+    }
+
+    .layout-2 .brand-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .layout-2 .site-logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+    }
+
+    .layout-2 .site-domain {
+      font-size: 26px;
+      font-weight: 700;
+      color: #64748b;
+    }
+
+    .layout-2 .middle-content {
+      margin: auto 0;
+    }
+
+    .layout-2 .title {
+      font-size: 52px;
+      font-weight: 800;
+      color: #1e293b;
+      line-height: 1.18;
+      max-width: 600px;
+    }
+
+    .layout-2 .author-box {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .layout-2 .avatar {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .layout-2 .author-name {
+      font-size: 22px;
+      font-weight: 700;
+      color: #334155;
+    }
+
+    .layout-2 .right-image {
+      flex: 1;
+      background-size: cover;
+      background-position: center;
+      z-index: 1;
+    }
+
+    /* ============================================================
+       LAYOUT 3: Zach Leat Bold
+       ============================================================ */
+    .layout-3 {
+      width: 1200px;
+      height: 630px;
+      padding: 70px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .layout-3::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(4px);
+    }
+
+    .layout-3 .content-top {
+      position: relative;
+      z-index: 2;
+      max-width: 1020px;
+      margin-top: 20px;
+    }
+
+    .layout-3 .title span {
+      background: #000000;
+      color: #ffffff;
+      font-size: 52px;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 8px 22px;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+      line-height: 1.55;
+      letter-spacing: -0.01em;
+    }
+
+    .layout-3 .footer-bar {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .layout-3 .badge {
+      background: #000000;
+      color: #ffffff;
+      padding: 10px 22px;
+      font-size: 22px;
+      font-weight: 800;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .layout-3 .badge img {
+      width: 28px;
+      height: 28px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="og-container"></div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    
+    // Sikker dekodning af parametre (håndterer dobbelt-encoding)
+    function safeDecode(val) {
+      if (!val) return '';
+      let decoded = val;
+      try {
+        // Dekoder op til 2 gange hvis URL'en er dobbelt-encoded af 11ty
+        if (decoded.includes('%3A') || decoded.includes('%2F')) {
+          decoded = decodeURIComponent(decoded);
+        }
+        if (decoded.includes('%3A') || decoded.includes('%2F')) {
+          decoded = decodeURIComponent(decoded);
+        }
+      } catch (e) {
+        console.error('Decode error', e);
+      }
+      return decoded;
+    }
+
+    const title = safeDecode(params.get('title'));
+    const excerpt = safeDecode(params.get('excerpt'));
+    const authorName = safeDecode(params.get('author_name')) || 'Lars Olesen';
+    let authorImg = safeDecode(params.get('author_img'));
+    let postImg = safeDecode(params.get('post_img'));
+    let logo = safeDecode(params.get('logo')) || '/android-chrome-192x192.png';
+    const date = safeDecode(params.get('date'));
+    const badge = safeDecode(params.get('badge'));
+    const layout = safeDecode(params.get('layout')) || '1';
+
+    // FALLBACK: Hvis postImg mangler/er tom, brug logoet i stedet for at lave en tom url('')
+    if (!postImg || postImg.trim() === '') {
+      postImg = logo;
+    }
+
+    let domain = safeDecode(params.get('domain')) || 'motionsplan.dk';
+    domain = domain.replace(/^https?:\/\//, '').replace(/:[0-9]+/, '').replace(/\/$/, '');
+    if (domain.includes('localhost') || domain.includes('127.0.0.1')) {
+      domain = 'motionsplan.dk';
+    }
+
+    const container = document.getElementById('og-container');
+
+    if (layout === '2') {
+      container.innerHTML = `
+        <div class="layout-2">
+          <div class="left-panel">
+            <div class="brand-header">
+              <img class="site-logo" src="${logo}" alt="" onerror="this.style.opacity='0'">
+              <span class="site-domain">${domain}</span>
+            </div>
+            <div class="middle-content">
+              ${badge ? `<div><span class="badge-pill ${badge}">🔥 ${badge}</span></div>` : ''}
+              <h1 class="title">${title}</h1>
+            </div>
+            <div class="author-box">
+              ${authorImg ? `<img class="avatar" src="${authorImg}" alt="" onerror="this.style.opacity='0'">` : ''}
+              <span class="author-name">${authorName}</span>
+            </div>
+          </div>
+          <div class="right-image" style="background-image: url('${postImg}');"></div>
+        </div>
+      `;
+    } else if (layout === '3') {
+      container.innerHTML = `
+        <div class="layout-3" style="background-image: url('${postImg}');">
+          <div class="content-top">
+            ${badge ? `<div><span class="badge-pill ${badge}">🔥 ${badge}</span></div>` : ''}
+            <h1 class="title"><span>${title}</span></h1>
+          </div>
+          <div class="footer-bar">
+            <div class="badge">
+              <img src="${logo}" alt="" onerror="this.style.opacity='0'">
+              <span>${domain}</span>
+            </div>
+            ${date ? `<div class="badge"><span>${date}</span></div>` : ''}
+          </div>
+        </div>
+      `;
+    } else {
+      // LAYOUT 1
+      container.innerHTML = `
+        <div class="layout-1">
+          <div>
+            ${badge ? `<div><span class="badge-pill ${badge}">🔥 ${badge}</span></div>` : ''}
+            <h1 class="title">${title}</h1>
+            ${excerpt ? `<p class="excerpt">${excerpt}</p>` : ''}
+          </div>
+          <div class="footer">
+            <div class="author-box">
+              <div class="avatar-wrapper">
+                <img class="avatar" src="${authorImg}" alt="" onerror="this.style.opacity='0'">
+                <div class="status-dot"></div>
+              </div>
+              <span class="author-name">${authorName}</span>
+            </div>
+            <div class="domain-box">
+              <img src="${logo}" alt="" onerror="this.style.opacity='0'">
+              <span>${domain}</span>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>

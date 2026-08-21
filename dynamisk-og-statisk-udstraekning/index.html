@@ -1,0 +1,1619 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Dynamisk vs. statisk udstrækning: Forskelle, fordele og timing</title>
+<meta name="description" content="Hvad er forskellen på dynamisk og statisk udstrækning? Lær hvornår du skal strække dynamisk i opvarmningen, og hvornår statisk stræk passer bedst.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="Dynamisk vs. statisk udstrækning: Forskelle, fordele og timing">
+<meta property="og:url" content="https://www.motionsplan.dk/dynamisk-og-statisk-udstraekning/">
+<meta property="og:description" content="Hvad er forskellen på dynamisk og statisk udstrækning? Lær hvornår du skal strække dynamisk i opvarmningen, og hvornår statisk stræk passer bedst.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DDynamisk+vs.+statisk+udstr%C3%A6kning%3A+Forskelle%2C+fordele+og+timing%26excerpt%3DHvad+er+forskellen+p%C3%A5+dynamisk+og+statisk+udstr%C3%A6kning%3F+L%C3%A6r+hvorn%C3%A5r+du+skal+str%C3%A6kke+dynamisk+i+opvarmningen%2C+og+hvorn%C3%A5r+statisk+str%C3%A6k+passer+bedst.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1600881333195-dbad115a6162%3Fq%3D80%26w%3D2071%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D19.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1787133600/opengraph/">
+  <meta property="og:image:alt" content="Dynamisk vs. statisk udstrækning: Forskelle, fordele og timing">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://images.unsplash.com/photo-1600881333195-dbad115a6162?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="Dynamisk vs. statisk udstrækning: Forskelle, fordele og timing">
+  <meta name="twitter:description" content="Hvad er forskellen på dynamisk og statisk udstrækning? Lær hvornår du skal strække dynamisk i opvarmningen, og hvornår statisk stræk passer bedst.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/dynamisk-og-statisk-udstraekning/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DDynamisk+vs.+statisk+udstr%C3%A6kning%3A+Forskelle%2C+fordele+og+timing%26excerpt%3DHvad+er+forskellen+p%C3%A5+dynamisk+og+statisk+udstr%C3%A6kning%3F+L%C3%A6r+hvorn%C3%A5r+du+skal+str%C3%A6kke+dynamisk+i+opvarmningen%2C+og+hvorn%C3%A5r+statisk+str%C3%A6k+passer+bedst.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1600881333195-dbad115a6162%3Fq%3D80%26w%3D2071%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D19.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1787133600/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2020-07-08T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-08-19T10:00:00+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/dynamisk-og-statisk-udstraekning/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/dynamisk-og-statisk-udstraekning/#webpage",
+      "name": "Dynamisk vs. statisk udstrækning: Forskelle, fordele og timing",
+      "url": "https://www.motionsplan.dk/dynamisk-og-statisk-udstraekning/",
+      "description": "Hvad er forskellen på dynamisk og statisk udstrækning? Lær hvornår du skal strække dynamisk i opvarmningen, og hvornår statisk stræk passer bedst.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2020-07-08T00:00:00+00:00",
+      "dateModified": "2026-08-19T10:00:00+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/dynamisk-og-statisk-udstraekning/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/dynamisk-og-statisk-udstraekning/#article",
+        "inLanguage": "da",
+        "name": "Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?",
+        "headline": "Dynamisk vs. statisk udstrækning: Forskelle, fordele og timing",
+        "keywords": "udstrækning,opvarmning,smidighed,mobilitet,træning",
+        "description": "<p>Valget mellem <strong>dynamisk og statisk udstrækning</strong> er en af de hyppigste kilder til tvivl i træningssalen. Mange strækker statisk ud før løb eller tunge løft, mens andre helt undgår stræk i opvarmningen.</p>",
+        "articleBody": "Valget mellem dynamisk og statisk udstrækning er en af de hyppigste kilder til tvivl i træningssalen. Mange strækker statisk ud før løb eller tunge løft, mens andre helt undgår stræk i opvarmningen.\n\nForskningen viser dog, at hverken statisk eller dynamisk udstrækning er “bedst” i sig selv. De er två forskellige fysiologiske redskaber til to helt forskellige formål.\n\n\n\n  Kort fortalt: Sammenligning af udstrækningsformer\n\n  \n    Dynamisk udstrækning: Bedst før træning. Øger pulsen, smører leddene og forbereder muskler og nervesystem på bevægelse uden at reducere eksplosivitet.\n    Statisk udstrækning: Bedst efter træning eller på hviledage. Dæmper nervesystemets strækrefleks, opbygger langsigtet stræktolerance og hjælper kroppen ned i gear.\n  \n\n  💡 Udstrækning er en del af smidighedstræning. Se også vores dybdegående forskningsgennemgang om udstrækning samt vores komplette øvelseskatalog.\n\n\n\n\n\nSammenligning af udstrækningsmetoder\n\nFølgende oversigt viser de væsentligste fysiologiske og praktiske forskelle mellem statisk og dynamisk udstrækning:\n\n\n  \n    \n      Parameter\n      Statisk udstrækning\n      Dynamisk udstrækning\n    \n  \n  \n    \n      Udførelse\n      Langsomt stræk holdt stille i yderstilling.\n      Kontrolleret bevægelse ud i yderstilling og tilbage.\n    \n    \n      Typisk dosering\n      3–5 sæt af 30–60 sekunder pr. muskel.\n      3–5 sæt af 10–15 gentagelser.\n    \n    \n      Hovedformål\n      Øge stræktolerance og slappe af i nervesystemet.\n      Hæve kropstemperatur, smøre led og øge aktiv ROM.\n    \n    \n      Primære fordele\n      Lang tid i yderstilling; minimal skadesrisiko under strækket.\n      Høj overførselsværdi til sport; bevarer maksimal kraft.\n    \n    \n      Ulemper\n      Lav overførbarhed til eksplosiv bevægelse; akut styrkefald ved &gt; 60 sek.\n      Kræver mere motorisk kontrol; mindre tid i absolut yderstilling.\n    \n    \n      Bedste timing\n      Cool-down efter træning eller som separat mobilitetspas.\n      Opvarmning før styrketræning, sprint og holdsport.\n    \n  \n\n\n\n\nStatisk udstrækning: Fysiologi, teknik og timing\n\nStatisk udstrækning er den klassiske form for udspænding, hvor du fører et led ud i dets yderstilling og holder positionen konstant uden bevægelse.\n\n\n\n  \n    \n      \n        \n        \n      \n    \n  \n\n\n\n\nHvad sker der i kroppen ved statisk stræk?\nNår du holder et statisk stræk i 30–60 sekunder, dæmpes den myotatiske refleks (muskeltenenes automatiske sammentrækning). Samtidig aktiveres Golgi-senetenerne, hvilket medfører autogen hæmning – musklen slapper af, og den passive modstand i vævet falder midlertidigt (stress relaxation).\n\nOver tid er det dog primært en tilpasning i centralnervesystemet (øget stræktolerance), der gør, at hjernen accepterer strækket og tillader et større bevægeudslag (Range of Motion – ROM).\n\nUnderkategorier af statiske stræk\n\n  Aktivt statisk stræk: Du holder positionen udelukkende ved hjælp af modstående muskelkraft (antagonisten). F.eks. at løfte benet højt op foran dig og holde det oppe alene med hoftebøjerne.\n  Passivt statisk stræk: Strækket holdes ved hjælp af din kropsvægt, en makker, et håndklæde eller en fast genstand. Antagonisten er fuldstændig afslappet.\n  PNF-stræk (Proprioceptiv Neuromuskulær Facilitering): En avanceret statisk metode, hvor du udnytter autogen og reciprok hæmning ved at spænde musklen isometrisk mod modstand i 6 sekunder før et dybere passivt stræk. Læs vores dybdegående guide til PNF-udstrækning.\n\n\nAnbefalet dosering for statisk udstrækning\n\n  Varighed: 30–60 sekunder pr. stræk.\n  Sæt: 3–5 sæt pr. muskelgruppe.\n  Intensitet: Stræk til du mærker et tydeligt, men kontrolleret stræk. Det må gerne mærkes, men skal ikke forårsage skarp smerte.\n\n\n\n\nDynamisk udstrækning: Fysiologi, teknik og timing\n\nDynamisk udstrækning (ofte omtalt som aktive mobilitetsøvelser eller mobility flows) involverer kontinuerlig, rytmisk bevægelse gennem leddets tilgængelige bevægeudslag.\n\n\n\n  \n    \n      \n        \n        \n      \n    \n  \n\n\n\n\n\n\n  \n    \n      \n        \n        \n      \n    \n  \n\n\n\n\nHvad sker der i kroppen ved dynamisk stræk?\nI modsætning til statiske stræk, hvor målet er muskulær afspænding, har dynamisk udstrækning til formål at forberede kroppen på aktivitet:\n\n\n  Smøring af leddene: Rytmisk bevægelse øger produktionen og fordelingen af synovialvæske i leddene, hvilket mindsker den interne friktion.\n  Øget vævstemperatur: Aktive sammentrækninger øger blodgennemstrømningen og kropstemperaturen, hvilket gør muskler og sener mere eftergivelige.\n  Neuromuskulær aktivering: Nervesystemet vækkes, og den motoriske kontrol i leddets yderstillinger forbedres under aktive bevægemønstre.\n\n\nUnderkategorier af dynamiske stræk\n\n  Aktivt dynamisk stræk: Kontrollerede bevægelser udført ved egen muskelkraft, f.eks. kontrollerede bensving eller dybe kosak-squats.\n  Passivt dynamisk stræk: Bevægelser udført med ekstern assistance eller let momentum, hvor den strækkende muskel bevæger sig ind og ud af strækket.\n  Ballistisk stræk (Bør bruges med forsigtighed): Fjedrende eller “rykkende” bevægelser i yderstillingen. Ballistisk stræk kan aktivere den myotatiske strækrefleks voldsomt og øge skadesrisikoen, hvis det ikke udføres af trænede atleter.\n\n\nAnbefalet dosering for dynamisk udstrækning\n\n  Gentagelser: 10–15 gentagelser pr. øvelse.\n  Sæt: 2–4 sæt i et roligt, kontrolleret tempo.\n  Udførelse: Start med et moderat bevægeudslag og skru gradvist op for udslaget over gentagelserne.\n\n\n\n\nHvornår skal du vælge hvad? (Timing og præstation)\n\nDen fysiologiske forskel på statisk og dynamisk udstrækning placerer dem i hver sin ende af dit træningspas.\n\n\n  Timing af udstrækningsformer:\n  \n    Opvarmning (før træning): Dynamisk udstrækning &amp; mobility flows\n    Cool-down (efter træning): Statisk udstrækning &amp; PNF\n  \n\n\n1. Før træning (Opvarmning)\n\n  Primært valg: Dynamisk udstrækning.\n  Hvorfor: Dynamiske øvelser forbereder leddene på den kommende belastning uden at svække musklernes evne til at udvikle maksimal kraft eller eksplosivitet.\n  Hvad med statisk stræk? Ældre studier antydede, at statisk stræk i opvarmningen altid forringede præstationen. Nyere meta-analyser af Kay &amp; Blazevich (2012) samt Warneke et al. (2024) påviser dog, at statisk stræk under 60 sekunder pr. muskelgruppe ikke har en målbar negativ effekt på sprint og hop, hvis det efterfølges af en dynamisk opvarmning. Holdes strækket over 60 sekunder, ses der dog et akut fald i 1RM-styrke.\n\n\n2. Efter træning (Cool-down)\n\n  Primært valg: Statisk udstrækning.\n  Hvorfor: Efter træning er kropstemperaturen og blodgennemstrømningen i vævet høj. Statiske stræk hjælper kroppen med at skifte fra det sympatiske nervesystem (‘fight-or-flight’) til det parasympatiske nervesystem, hvilket fremmer ro og muskulær afspænding.\n  Bemærk: Statisk stræk efter træning reducerer ikke muskelømhed (DOMS) dagen efter (Herbert &amp; Gabriel, 2002), men det er en god rutine til at vedligeholde eller opbygge passiv smidighed.\n\n\n\n\nEksempel på opvarmningskompleks med dynamisk stræk\n\nI stedet for at sidde stille på gulvet før din træning, kan du opbygge en dynamisk opvarmning med et mobilitetsflow:\n\n\n  Ankler og hofter: World’s Greatest Stretch – 8–10 gentagelser pr. side.\n  Lyske og baglår: Kosak-squats – 10 kontrollerede gentagelser til hver side.\n  Brystryg og skuldre: Armcirkler og T-spine rotationer – 10–12 gentagelser.\n  Bagside: Inchworms med pause i bunden – 5–8 gentagelser.\n\n\n\n\n  \n    \n      \n        \n        \n      \n    \n  \n\n\n\n\n👉 Mangler du inspiration til konkrete øvelser? Se vores visuelle øvelseskatalog med 22+ stræk her »\n\n\n\nOfte stillede spørgsmål\n\n\nHvad er forskellen på dynamisk og statisk udstrækning?\nStatisk udstrækning indebærer at holde et stræk stille i yderstilling i 30-60 sekunder. Dynamisk udstrækning er kontrollerede bevægelser ud i yderstilling og tilbage igen over 10-15 gentagelser.\n\n\n\n\nHvornår skal man bruge dynamisk udstrækning?\nDynamisk udstrækning egner sig bedst til opvarmning før træning eller sport, da det hæver kropstemperaturen, smører leddene og forbereder nervesystemet uden at sænke styrke eller eksplosivitet.\n\n\n\n\nMå man lave statisk udstrækning før styrketræning?\nKorte statiske stræk under 30-60 sekunder påvirker ikke præstationen markant. Holdes strækket over 60 sekunder pr. muskelgruppe umiddelbart før opvarmning, kan det dog akut reducere maksimal styrke (1RM).\n\n\n\n\n\n\n\n\n  Kilder og videnskabelig litteratur\n\n  \n    Herbert, R. D., &amp; Gabriel, M. (2002). “Effects of stretching before and after exercising on muscle soreness and risk of injury: systematic review.” BMJ, 325(7362), 468.\n    Kay, A. D., &amp; Blazevich, A. J. (2012). “Effect of acute static stretch on maximal muscle performance: a systematic review.” Medicine &amp; Science in Sports &amp; Exercise, 44(1), 154–164.\n    Konrad, A., et al. (2023). “The Acute Effects of Static Stretching on Performance Variables: A Systematic Review and Meta-Analysis.” Sports Medicine, 53(2), 411–426.\n    Magnusson, S. P. (1998). “Passive properties of human skeletal muscle during stretch maneuvers.” Scandinavian Journal of Medicine &amp; Science in Sports, 8(2), 65–77.\n    Warneke, K., et al. (2024). “Influence of Static Stretching Duration on Jump and Sprint Performance: A Meta-Analysis.” Journal of Sports Sciences, 42(3), 210–225.\n    Weppler, C. H., &amp; Magnusson, S. P. (2010). “Increasing muscle extensibility: a matter of increasing length or modifying sensation?” Physical Therapy, 90(3), 438–449.\n  \n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DDynamisk+vs.+statisk+udstr%C3%A6kning%3A+Forskelle%2C+fordele+og+timing%26excerpt%3DHvad+er+forskellen+p%C3%A5+dynamisk+og+statisk+udstr%C3%A6kning%3F+L%C3%A6r+hvorn%C3%A5r+du+skal+str%C3%A6kke+dynamisk+i+opvarmningen%2C+og+hvorn%C3%A5r+statisk+str%C3%A6k+passer+bedst.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fimages.unsplash.com%2Fphoto-1600881333195-dbad115a6162%3Fq%3D80%26w%3D2071%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D19.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1787133600/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/dynamisk-og-statisk-udstraekning/#webpage"
+        },
+        "datePublished": "2020-07-08T00:00:00+00:00",
+        "dateModified": "2026-08-19T10:00:00+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single wide">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=""
+>
+  
+    
+      
+      
+
+      <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://images.unsplash.com/photo-1600881333195-dbad115a6162?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+           srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://images.unsplash.com/photo-1600881333195-dbad115a6162?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://images.unsplash.com/photo-1600881333195-dbad115a6162?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1600w"
+           sizes="100vw"
+           alt="Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?"
+           class="page__hero-bg-img"
+           fetchpriority="high"
+           decoding="async">
+    
+  
+
+  
+    <div class="page__hero-filter" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));"></div>
+  
+
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?
+
+        
+      </h1>
+      
+        <p class="page__lead">Valget mellem <strong>dynamisk og statisk udstrækning</strong> er en af de hyppigste kilder til tvivl i træningssalen. Mange strækker statisk ud før løb eller tunge løft, mens andre helt undgår stræk i opvarmningen.
+</p>
+      
+      
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-19T10:00:00+00:00">19. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 min læsning
+        
+      </span>
+    
+  </p>
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Dynamisk vs. statisk udstrækning
+</span>
+  
+</div>
+
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/traening/" itemprop="item"><span itemprop="name">Træning</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">Dynamisk vs. stat...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?">
+    <meta itemprop="description" content="Valget mellem dynamisk og statisk udstrækning er en af de hyppigste kilder til tvivl i træningssalen. Mange strækker statisk ud før løb eller tunge løft, mens andre helt undgår stræk i opvarmningen.">
+    <meta itemprop="datePublished" content="2020-07-08T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-08-19T10:00:00+00:00">
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <details class="collapsible-toc">
+            <summary class="nav__title">
+              <i class="fas fa-file-alt"></i> På denne side
+            </summary>
+            <nav class="toc">
+            <ul class="toc__menu"><li><a href="#sammenligning-af-udstrækningsmetoder">Sammenligning af udstrækningsmetoder</a></li><li><a href="#statisk-udstrækning-fysiologi-teknik-og-timing">Statisk udstrækning: Fysiologi, teknik og timing</a><ul><li><a href="#hvad-sker-der-i-kroppen-ved-statisk-stræk">Hvad sker der i kroppen ved statisk stræk?</a></li><li><a href="#underkategorier-af-statiske-stræk">Underkategorier af statiske stræk</a></li><li><a href="#anbefalet-dosering-for-statisk-udstrækning">Anbefalet dosering for statisk udstrækning</a></li></ul></li><li><a href="#dynamisk-udstrækning-fysiologi-teknik-og-timing">Dynamisk udstrækning: Fysiologi, teknik og timing</a><ul><li><a href="#hvad-sker-der-i-kroppen-ved-dynamisk-stræk">Hvad sker der i kroppen ved dynamisk stræk?</a></li><li><a href="#underkategorier-af-dynamiske-stræk">Underkategorier af dynamiske stræk</a></li><li><a href="#anbefalet-dosering-for-dynamisk-udstrækning">Anbefalet dosering for dynamisk udstrækning</a></li></ul></li><li><a href="#hvornår-skal-du-vælge-hvad-timing-og-præstation">Hvornår skal du vælge hvad? (Timing og præstation)</a><ul><li><a href="#1-før-træning-opvarmning">1. Før træning (Opvarmning)</a></li><li><a href="#2-efter-træning-cool-down">2. Efter træning (Cool-down)</a></li></ul></li><li><a href="#eksempel-på-opvarmningskompleks-med-dynamisk-stræk">Eksempel på opvarmningskompleks med dynamisk stræk</a></li><li><a href="#ofte-stillede-spørgsmål">Ofte stillede spørgsmål</a></li><li><a href="#references">Kilder og videnskabelig litteratur</a></li></ul>
+            </nav>
+          </details>
+        
+        <p>Valget mellem <strong>dynamisk og statisk udstrækning</strong> er en af de hyppigste kilder til tvivl i træningssalen. Mange strækker statisk ud før løb eller tunge løft, mens andre helt undgår stræk i opvarmningen.</p>
+
+<p>Forskningen viser dog, at hverken statisk eller dynamisk udstrækning er “bedst” i sig selv. De er två forskellige fysiologiske redskaber til to helt forskellige formål.</p>
+
+<div class="notice--info">
+
+  <p><strong>Kort fortalt: Sammenligning af udstrækningsformer</strong></p>
+
+  <ul>
+    <li><strong>Dynamisk udstrækning:</strong> Bedst <strong>før træning</strong>. Øger pulsen, smører leddene og forbereder muskler og nervesystem på bevægelse uden at reducere eksplosivitet.</li>
+    <li><strong>Statisk udstrækning:</strong> Bedst <strong>efter træning</strong> eller på hviledage. Dæmper nervesystemets strækrefleks, opbygger langsigtet stræktolerance og hjælper kroppen ned i gear.</li>
+  </ul>
+
+  <p>💡 <em>Udstrækning er en del af <a href="/smidighedstraening/">smidighedstræning</a>. Se også vores dybdegående <a href="/virker-udstraekning/">forskningsgennemgang om udstrækning</a> samt vores <a href="/udstraekning-udspaending/">komplette øvelseskatalog</a>.</em></p>
+
+</div>
+
+<hr />
+
+<h2 id="sammenligning-af-udstrækningsmetoder">Sammenligning af udstrækningsmetoder</h2>
+
+<p>Følgende oversigt viser de væsentligste fysiologiske og praktiske forskelle mellem statisk og dynamisk udstrækning:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Parameter</th>
+      <th style="text-align: left">Statisk udstrækning</th>
+      <th style="text-align: left">Dynamisk udstrækning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Udførelse</strong></td>
+      <td style="text-align: left">Langsomt stræk holdt stille i yderstilling.</td>
+      <td style="text-align: left">Kontrolleret bevægelse ud i yderstilling og tilbage.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Typisk dosering</strong></td>
+      <td style="text-align: left">3–5 sæt af 30–60 sekunder pr. muskel.</td>
+      <td style="text-align: left">3–5 sæt af 10–15 gentagelser.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Hovedformål</strong></td>
+      <td style="text-align: left">Øge stræktolerance og slappe af i nervesystemet.</td>
+      <td style="text-align: left">Hæve kropstemperatur, smøre led og øge aktiv ROM.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Primære fordele</strong></td>
+      <td style="text-align: left">Lang tid i yderstilling; minimal skadesrisiko under strækket.</td>
+      <td style="text-align: left">Høj overførselsværdi til sport; bevarer maksimal kraft.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Ulemper</strong></td>
+      <td style="text-align: left">Lav overførbarhed til eksplosiv bevægelse; akut styrkefald ved &gt; 60 sek.</td>
+      <td style="text-align: left">Kræver mere motorisk kontrol; mindre tid i absolut yderstilling.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Bedste timing</strong></td>
+      <td style="text-align: left">Cool-down efter træning eller som separat mobilitetspas.</td>
+      <td style="text-align: left">Opvarmning før styrketræning, sprint og holdsport.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="statisk-udstrækning-fysiologi-teknik-og-timing">Statisk udstrækning: Fysiologi, teknik og timing</h2>
+
+<p>Statisk udstrækning er den klassiske form for udspænding, hvor du fører et led ud i dets yderstilling og holder positionen konstant uden bevægelse.</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container">
+    <div class="youtube-player" data-id="YjhPbP0F2tQ">
+      <a href="https://www.youtube.com/watch?v=YjhPbP0F2tQ" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/YjhPbP0F2tQ/hqdefault.jpg" loading="lazy" alt="Video: Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+
+
+</div>
+
+<h3 id="hvad-sker-der-i-kroppen-ved-statisk-stræk">Hvad sker der i kroppen ved statisk stræk?</h3>
+<p>Når du holder et statisk stræk i 30–60 sekunder, dæmpes den <em>myotatiske refleks</em> (muskeltenenes automatiske sammentrækning). Samtidig aktiveres Golgi-senetenerne, hvilket medfører autogen hæmning – musklen slapper af, og den passive modstand i vævet falder midlertidigt (<em>stress relaxation</em>).</p>
+
+<p>Over tid er det dog primært en tilpasning i centralnervesystemet (<em>øget stræktolerance</em>), der gør, at hjernen accepterer strækket og tillader et større bevægeudslag (<em>Range of Motion</em> – ROM).</p>
+
+<h3 id="underkategorier-af-statiske-stræk">Underkategorier af statiske stræk</h3>
+<ul>
+  <li><strong>Aktivt statisk stræk:</strong> Du holder positionen udelukkende ved hjælp af modstående muskelkraft (antagonisten). F.eks. at løfte benet højt op foran dig og holde det oppe alene med hoftebøjerne.</li>
+  <li><strong>Passivt statisk stræk:</strong> Strækket holdes ved hjælp af din kropsvægt, en makker, et håndklæde eller en fast genstand. Antagonisten er fuldstændig afslappet.</li>
+  <li><strong>PNF-stræk (Proprioceptiv Neuromuskulær Facilitering):</strong> En avanceret statisk metode, hvor du udnytter autogen og reciprok hæmning ved at spænde musklen isometrisk mod modstand i 6 sekunder før et dybere passivt stræk. Læs vores <a href="/pnf-udstraekning/">dybdegående guide til PNF-udstrækning</a>.</li>
+</ul>
+
+<h3 id="anbefalet-dosering-for-statisk-udstrækning">Anbefalet dosering for statisk udstrækning</h3>
+<ul>
+  <li><strong>Varighed:</strong> 30–60 sekunder pr. stræk.</li>
+  <li><strong>Sæt:</strong> 3–5 sæt pr. muskelgruppe.</li>
+  <li><strong>Intensitet:</strong> Stræk til du mærker et tydeligt, men kontrolleret stræk. Det må gerne mærkes, men skal ikke forårsage skarp smerte.</li>
+</ul>
+
+<hr />
+
+<h2 id="dynamisk-udstrækning-fysiologi-teknik-og-timing">Dynamisk udstrækning: Fysiologi, teknik og timing</h2>
+
+<p>Dynamisk udstrækning (ofte omtalt som <em>aktive mobilitetsøvelser</em> eller <em>mobility flows</em>) involverer kontinuerlig, rytmisk bevægelse gennem leddets tilgængelige bevægeudslag.</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container">
+    <div class="youtube-player" data-id="xCBHJPivWX8">
+      <a href="https://www.youtube.com/watch?v=xCBHJPivWX8" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/xCBHJPivWX8/hqdefault.jpg" loading="lazy" alt="Video: Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+
+
+</div>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container">
+    <div class="youtube-player" data-id="o5_14SfX9Is">
+      <a href="https://www.youtube.com/watch?v=o5_14SfX9Is" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/o5_14SfX9Is/hqdefault.jpg" loading="lazy" alt="Video: Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+
+
+</div>
+
+<h3 id="hvad-sker-der-i-kroppen-ved-dynamisk-stræk">Hvad sker der i kroppen ved dynamisk stræk?</h3>
+<p>I modsætning til statiske stræk, hvor målet er muskulær afspænding, har dynamisk udstrækning til formål at forberede kroppen på aktivitet:</p>
+
+<ol>
+  <li><strong>Smøring af leddene:</strong> Rytmisk bevægelse øger produktionen og fordelingen af synovialvæske i leddene, hvilket mindsker den interne friktion.</li>
+  <li><strong>Øget vævstemperatur:</strong> Aktive sammentrækninger øger blodgennemstrømningen og kropstemperaturen, hvilket gør muskler og sener mere eftergivelige.</li>
+  <li><strong>Neuromuskulær aktivering:</strong> Nervesystemet vækkes, og den motoriske kontrol i leddets yderstillinger forbedres under aktive bevægemønstre.</li>
+</ol>
+
+<h3 id="underkategorier-af-dynamiske-stræk">Underkategorier af dynamiske stræk</h3>
+<ul>
+  <li><strong>Aktivt dynamisk stræk:</strong> Kontrollerede bevægelser udført ved egen muskelkraft, f.eks. kontrollerede bensving eller dybe kosak-squats.</li>
+  <li><strong>Passivt dynamisk stræk:</strong> Bevægelser udført med ekstern assistance eller let momentum, hvor den strækkende muskel bevæger sig ind og ud af strækket.</li>
+  <li><strong>Ballistisk stræk (Bør bruges med forsigtighed):</strong> Fjedrende eller “rykkende” bevægelser i yderstillingen. Ballistisk stræk kan aktivere den myotatiske strækrefleks voldsomt og øge skadesrisikoen, hvis det ikke udføres af trænede atleter.</li>
+</ul>
+
+<h3 id="anbefalet-dosering-for-dynamisk-udstrækning">Anbefalet dosering for dynamisk udstrækning</h3>
+<ul>
+  <li><strong>Gentagelser:</strong> 10–15 gentagelser pr. øvelse.</li>
+  <li><strong>Sæt:</strong> 2–4 sæt i et roligt, kontrolleret tempo.</li>
+  <li><strong>Udførelse:</strong> Start med et moderat bevægeudslag og skru gradvist op for udslaget over gentagelserne.</li>
+</ul>
+
+<hr />
+
+<h2 id="hvornår-skal-du-vælge-hvad-timing-og-præstation">Hvornår skal du vælge hvad? (Timing og præstation)</h2>
+
+<p>Den fysiologiske forskel på statisk og dynamisk udstrækning placerer dem i hver sin ende af dit træningspas.</p>
+
+<blockquote>
+  <p><strong>Timing af udstrækningsformer:</strong></p>
+  <ul>
+    <li><strong>Opvarmning (før træning):</strong> Dynamisk udstrækning &amp; mobility flows</li>
+    <li><strong>Cool-down (efter træning):</strong> Statisk udstrækning &amp; PNF</li>
+  </ul>
+</blockquote>
+
+<h3 id="1-før-træning-opvarmning">1. Før træning (Opvarmning)</h3>
+<ul>
+  <li><strong>Primært valg:</strong> <strong>Dynamisk udstrækning.</strong></li>
+  <li><strong>Hvorfor:</strong> Dynamiske øvelser forbereder leddene på den kommende belastning uden at svække musklernes evne til at udvikle maksimal kraft eller eksplosivitet.</li>
+  <li><strong>Hvad med statisk stræk?</strong> Ældre studier antydede, at statisk stræk i opvarmningen altid forringede præstationen. Nyere meta-analyser af Kay &amp; Blazevich (2012) samt Warneke et al. (2024) påviser dog, at statisk stræk <strong>under 60 sekunder</strong> pr. muskelgruppe ikke har en målbar negativ effekt på sprint og hop, hvis det efterfølges af en dynamisk opvarmning. Holdes strækket over 60 sekunder, ses der dog et akut fald i 1RM-styrke.</li>
+</ul>
+
+<h3 id="2-efter-træning-cool-down">2. Efter træning (Cool-down)</h3>
+<ul>
+  <li><strong>Primært valg:</strong> <strong>Statisk udstrækning.</strong></li>
+  <li><strong>Hvorfor:</strong> Efter træning er kropstemperaturen og blodgennemstrømningen i vævet høj. Statiske stræk hjælper kroppen med at skifte fra det sympatiske nervesystem (‘fight-or-flight’) til det parasympatiske nervesystem, hvilket fremmer ro og muskulær afspænding.</li>
+  <li><strong>Bemærk:</strong> Statisk stræk efter træning reducerer <strong>ikke</strong> muskelømhed (DOMS) dagen efter (Herbert &amp; Gabriel, 2002), men det er en god rutine til at vedligeholde eller opbygge passiv smidighed.</li>
+</ul>
+
+<hr />
+
+<h2 id="eksempel-på-opvarmningskompleks-med-dynamisk-stræk">Eksempel på opvarmningskompleks med dynamisk stræk</h2>
+
+<p>I stedet for at sidde stille på gulvet før din træning, kan du opbygge en dynamisk opvarmning med et mobilitetsflow:</p>
+
+<ol>
+  <li><strong>Ankler og hofter:</strong> <em>World’s Greatest Stretch</em> – 8–10 gentagelser pr. side.</li>
+  <li><strong>Lyske og baglår:</strong> <em>Kosak-squats</em> – 10 kontrollerede gentagelser til hver side.</li>
+  <li><strong>Brystryg og skuldre:</strong> <em>Armcirkler og T-spine rotationer</em> – 10–12 gentagelser.</li>
+  <li><strong>Bagside:</strong> <em>Inchworms med pause i bunden</em> – 5–8 gentagelser.</li>
+</ol>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container">
+    <div class="youtube-player" data-id="5szfC2oa9tM">
+      <a href="https://www.youtube.com/watch?v=5szfC2oa9tM" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/5szfC2oa9tM/hqdefault.jpg" loading="lazy" alt="Video: Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+
+
+</div>
+
+<p>👉 <strong>Mangler du inspiration til konkrete øvelser? <a href="/udstraekning-udspaending/">Se vores visuelle øvelseskatalog med 22+ stræk her »</a></strong></p>
+
+<hr />
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3>Hvad er forskellen på dynamisk og statisk udstrækning?</h3></summary>
+<p>Statisk udstrækning indebærer at holde et stræk stille i yderstilling i 30-60 sekunder. Dynamisk udstrækning er kontrollerede bevægelser ud i yderstilling og tilbage igen over 10-15 gentagelser.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvornår skal man bruge dynamisk udstrækning?</h3></summary>
+<p>Dynamisk udstrækning egner sig bedst til opvarmning før træning eller sport, da det hæver kropstemperaturen, smører leddene og forbereder nervesystemet uden at sænke styrke eller eksplosivitet.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Må man lave statisk udstrækning før styrketræning?</h3></summary>
+<p>Korte statiske stræk under 30-60 sekunder påvirker ikke præstationen markant. Holdes strækket over 60 sekunder pr. muskelgruppe umiddelbart før opvarmning, kan det dog akut reducere maksimal styrke (1RM).</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er forskellen på dynamisk og statisk udstrækning?","acceptedAnswer":{"@type":"Answer","text":"Statisk udstrækning indebærer at holde et stræk stille i yderstilling i 30-60 sekunder. Dynamisk udstrækning er kontrollerede bevægelser ud i yderstilling og tilbage igen over 10-15 gentagelser.\n"}},{"@type":"Question","name":"Hvornår skal man bruge dynamisk udstrækning?","acceptedAnswer":{"@type":"Answer","text":"Dynamisk udstrækning egner sig bedst til opvarmning før træning eller sport, da det hæver kropstemperaturen, smører leddene og forbereder nervesystemet uden at sænke styrke eller eksplosivitet.\n"}},{"@type":"Question","name":"Må man lave statisk udstrækning før styrketræning?","acceptedAnswer":{"@type":"Answer","text":"Korte statiske stræk under 30-60 sekunder påvirker ikke præstationen markant. Holdes strækket over 60 sekunder pr. muskelgruppe umiddelbart før opvarmning, kan det dog akut reducere maksimal styrke (1RM).\n"}}]
+    }
+</script>
+
+<hr />
+
+<details class="references">
+  <summary><h2 id="references">Kilder og videnskabelig litteratur</h2></summary>
+
+  <ol>
+    <li><strong>Herbert, R. D., &amp; Gabriel, M. (2002).</strong> “Effects of stretching before and after exercising on muscle soreness and risk of injury: systematic review.” <em>BMJ</em>, 325(7362), 468.</li>
+    <li><strong>Kay, A. D., &amp; Blazevich, A. J. (2012).</strong> “Effect of acute static stretch on maximal muscle performance: a systematic review.” <em>Medicine &amp; Science in Sports &amp; Exercise</em>, 44(1), 154–164.</li>
+    <li><strong>Konrad, A., et al. (2023).</strong> “The Acute Effects of Static Stretching on Performance Variables: A Systematic Review and Meta-Analysis.” <em>Sports Medicine</em>, 53(2), 411–426.</li>
+    <li><strong>Magnusson, S. P. (1998).</strong> “Passive properties of human skeletal muscle during stretch maneuvers.” <em>Scandinavian Journal of Medicine &amp; Science in Sports</em>, 8(2), 65–77.</li>
+    <li><strong>Warneke, K., et al. (2024).</strong> “Influence of Static Stretching Duration on Jump and Sprint Performance: A Meta-Analysis.” <em>Journal of Sports Sciences</em>, 42(3), 210–225.</li>
+    <li><strong>Weppler, C. H., &amp; Magnusson, S. P. (2010).</strong> “Increasing muscle extensibility: a matter of increasing length or modifying sensation?” <em>Physical Therapy</em>, 90(3), 438–449.</li>
+  </ol>
+</details>
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/dynamisk-og-statisk-udstraekning/#article",
+    "name": "Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "10"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">10</span> stemmer. Gennemsnit: <span id="rating_average">4.6</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#mobilitet" class="page__taxonomy-item" rel="tag">mobilitet</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#opvarmning" class="page__taxonomy-item" rel="tag">opvarmning</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#smidighed" class="page__taxonomy-item" rel="tag">smidighed</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#tr%C3%A6ning" class="page__taxonomy-item" rel="tag">træning</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#udstr%C3%A6kning" class="page__taxonomy-item" rel="tag">udstrækning</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#tr%C3%A6ning" class="page__taxonomy-item" rel="tag">Træning</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-08-19">19. Aug, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/smidighedstraening/" class="pagination--pager" title="Smidighedstræning – Den fysiologiske guide til bedre mobilitet">Forrige</a>
+    
+    
+      <a href="/pnf-udstraekning/" class="pagination--pager" title="PNF-udstrækning – Guide til neurofysiologi, tekniker og øvelser">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1626444231642-6bd985bca16a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="7 minute workout: Den videnskabelige guide &amp; øvelser
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Workouts</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/7-minute-workout/" rel="permalink">7 minute workout: Den videnskabelige guide &amp; øvelser
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-20T10:00:00+00:00">20. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Få maksimal effekt på kun 7 minutter. Lær den videnskabelige 7 minute workout-protokol at kende med 12 kropsvægtsøvelser, fysiologien bag og videnskabens ree...</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1600677396650-3d071466086a?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="PEP-programmet: Forebyg korsbåndsskader med målrettet træning
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Træning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/pep-program/" rel="permalink">PEP-programmet: Forebyg korsbåndsskader med målrettet træning
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-18T00:00:00+00:00">18. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">PEP-programmet er skræddersyet til at beskytte det forreste korsbånd (ACL) hos håndbold- og fodboldspillere. Se øvelserne for knækontrol og landingsteknik.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/flagged/photo-1568105631375-d992b82a905b?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="FIFA 11+: Den komplette guide til det evidensbaserede opvarmningsprogram
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Træning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/fifa-11-plus/" rel="permalink">FIFA 11+: Den komplette guide til det evidensbaserede opvarmningsprogram
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-18T00:00:00+00:00">18. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">FIFA 11+ er guldstandarden inden for skadesforebyggende opvarmning i fodbold og holdsport. Se hele øvelsesprotokollen og de 3 progressionsniveauer her.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1624880357913-a8539238245b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Træning og menstruationscyklus: Fysiologisk guide og cyklus-beregner
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Træning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/menstruationscyklus-og-traening/" rel="permalink">Træning og menstruationscyklus: Fysiologisk guide og cyklus-beregner
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-16T16:00:00+00:00">16. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Mange trænende kvinder oplever markante svingninger i præstationsevne, overskud og restitutionsbehov hen over en måned. Hvor de samme vægte den ene uge flyve...</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCpybeLG46oZfczu4LfI5K0A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>

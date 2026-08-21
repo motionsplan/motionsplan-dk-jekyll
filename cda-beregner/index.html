@@ -1,0 +1,1468 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>CdA-beregner – Beregn din aerodynamiske modstand (CdA) &amp; watt</title>
+<meta name="description" content="Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, watt, vægt og luftdensitet. Se hvor mange watt du sparer ved at optimere din position.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="CdA-beregner – Beregn din aerodynamiske modstand (CdA) &amp; watt">
+<meta property="og:url" content="https://www.motionsplan.dk/cda-beregner/">
+<meta property="og:description" content="Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, watt, vægt og luftdensitet. Se hvor mange watt du sparer ved at optimere din position.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DCdA-beregner+%E2%80%93+Beregn+din+aerodynamiske+modstand+%28CdA%29+%26+watt%26excerpt%3DBeregn+din+CdA+%28aerodynamiske+modstandskoefficient%29+ud+fra+fart%2C+watt%2C+v%C3%A6gt+og+luftdensitet.+Se+hvor+mange+watt+du+sparer+ved+at+optimere+din+position.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1728454994678-21be5481e249.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D04.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785871200/opengraph/">
+  <meta property="og:image:alt" content="CdA-beregner – Beregn din aerodynamiske modstand (CdA) &amp; watt">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://www.motionsplan.dk/assets/images/unsplash/photo-1728454994678-21be5481e249.jpg" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="CdA-beregner – Beregn din aerodynamiske modstand (CdA) &amp; watt">
+  <meta name="twitter:description" content="Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, watt, vægt og luftdensitet. Se hvor mange watt du sparer ved at optimere din position.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/cda-beregner/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DCdA-beregner+%E2%80%93+Beregn+din+aerodynamiske+modstand+%28CdA%29+%26+watt%26excerpt%3DBeregn+din+CdA+%28aerodynamiske+modstandskoefficient%29+ud+fra+fart%2C+watt%2C+v%C3%A6gt+og+luftdensitet.+Se+hvor+mange+watt+du+sparer+ved+at+optimere+din+position.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1728454994678-21be5481e249.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D04.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785871200/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2025-07-10T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-08-04T19:20:00+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/cda-beregner/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/cda-beregner/#webpage",
+      "name": "CdA-beregner – Beregn din aerodynamiske modstand (CdA) &amp; watt",
+      "url": "https://www.motionsplan.dk/cda-beregner/",
+      "description": "Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, watt, vægt og luftdensitet. Se hvor mange watt du sparer ved at optimere din position.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2025-07-10T00:00:00+00:00",
+      "dateModified": "2026-08-04T19:20:00+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/cda-beregner/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/cda-beregner/#article",
+        "inLanguage": "da",
+        "name": "Beregn din CdA (aerodynamisk modstand) på cyklen",
+        "headline": "CdA-beregner – Beregn din aerodynamiske modstand (CdA) &amp; watt",
+        "keywords": "beregner,træning,cykling,aerodynamik",
+        "description": "Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, effekt, vægt og luftmodstand. Lær at udføre aero-tests og spar watt på cyklen.",
+        "articleBody": "Når du cykler på flad vej med mere end 30 km/t, går over 80-90 % af din trådte effekt (watt) udelukkende til at overvinde luftmodstanden.\n\nDet er her, begrebet CdA (Drag Area) bliver den mest afgørende faktor for din fart. En reduktion i din CdA-værdi lader dig køre markant hurtigere med nøjagtig den samme trådte effekt.\n\nMed denne beregner kan du estimere din CdA-værdi ud fra din målte effekt (watt), hastighed, samlede vægt og ydre miljøfaktorer som luftdensitet og rullemodstand.\n\n\n\nCdA beregner\n\n\n    \n        Beregn CdA (aerodynamisk modstand)\n\n        \n            Effekt (watt)\n            \n        \n\n        \n            Fart (km/t)\n            \n        \n\n        \n            Totalvægt (inkl. cykel, kg)\n            \n        \n\n        \n            Stigning (%)\n            \n        \n\n        \n            Lufttryk (hPa)\n            \n        \n\n        \n            Temperatur (°C)\n            \n        \n\n        \n            Rullemodstand (Crr)\n            \n        \n\n        \n    \n\n    \n        Udregnet CdA\n        \n            CdA (m²)\n            \n        \n    \n\n    \n    \n\n Køb mig en kaffe\n\n\n\n\n\n\n\n\nFysikken bag CdA: Sådan beregnes din fart\n\nDen samlede effekt $P_{total}$, du skal levere i pedalerne for at holde en konstant hastighed, er summen af luftmodstand, rullemodstand og fremdriftstab i drivlinjen:\n\n\\[P_{total} = P_{drag} + P_{rolling} + P_{drivetrain}\\]\n\nHvor effekten til at overvinde luftmodstanden ($P_{drag}$) er defineret ved:\n\n\\[P_{drag} = \\frac{1}{2} \\cdot \\rho \\cdot CdA \\cdot v^3\\]\n\n\n  $\\rho$ (Luftdensitet): Lufts densitet i $\\text{kg/m}^3$ (typisk ca. $1,225 \\text{ kg/m}^3$ ved havoverfladen og 15°C).\n  CdA: Det samlede aerodynamiske modstandsareal i $\\text{m}^2$.\n  $v$: Din hastighed i forhold til luften i $\\text{m/s}$.\n\n\nBemærk, at effekten skal stige med hastigheden i tredje potens ($v^3$). Det betyder, at hvis du vil fordoble din fart, skal du yde næsten 8 gange så mange watt mod luftmodstanden – medmindre du reducerer din CdA!\n\n\n\nHvor mange watt sparer en lavere CdA?\n\nTabellen herunder viser den krævede effekt (watt) udelukkende til at overvinde luftmodstanden ($P_{drag}$) ved forskellige CdA-værdier og hastigheder (beregnet ved standard luftdensitet $\\rho = 1,225 \\text{ kg/m}^3$):\n\n\n  \n    \n      Ryttertype / Position\n      Typisk CdA (m²)\n      Watt v. 35 km/t\n      Watt v. 40 km/t\n      Watt v. 45 km/t\n    \n  \n  \n    \n      Oprejst bycyklist\n      0,45 m²\n      252 W\n      376 W\n      535 W\n    \n    \n      Racercykel (Hænder i greb)\n      0,33 m²\n      185 W\n      276 W\n      392 W\n    \n    \n      Racercykel (Drop-position / Bøjede albuer)\n      0,28 m²\n      157 W\n      234 W\n      333 W\n    \n    \n      Triatlet / Enkeltstart (Standard aero)\n      0,23 m²\n      129 W\n      192 W\n      273 W\n    \n    \n      Pro Enkeltstartsspecialist\n      0,19 m²\n      106 W\n      159 W\n      226 W\n    \n  \n\n\n\n  Konklusion: Hvis du kan reducere din CdA fra 0,33 til 0,23 m² (fx ved at montere bøjler eller gå fra oprejst til aggressiv aero-position), sparer du over 84 watt ved 40 km/t!\n\n\n\n\n5-trins protokol: Sådan tester du din CdA på vejen\n\nDu behøver ikke en dyr vindkanal til 5.000 kr. i timen for at optimere din aerodynamik. Har du en wattmåler og en hastighedssensor, kan du lave dine egne A/B-tests på vejen:\n\n\n  Find den rette test-strækning: Vælg en helt flad, ensartet og vindstille strækning på 2–4 km uden sving, lyskryds eller trafik.\n  Hold alle variabler konstante: Kør med samme dæktryk, samme samlede vægt og hold en konstant kadence.\n  Kør Test A (Baseline): Kør strækningen i din normale position (fx hænderne i skiftegrebene) med en konstant, kontrolleret effekt (fx 250 W). Notér din præcise gennemsnitshastighed og watt.\n  Kør Test B (Ny position/udstyr): Skift kun én variabel (fx sænk styret 2 cm eller skift til aero-hjelm). Kør strækningen med nøjagtig samme effekt.\n  Sammenlign CdA i beregneren: Indtast dine måledata i beregneren ovenfor for hhv. Test A og Test B. Den position, der giver den laveste CdA, er den hurtigste.\n\n\n\n\nOfte stillede spørgsmål om CdA og aerodynamik\n\n\nHvad er CdA i cykling?\nCdA er produktet af modstandskoefficienten (Cd) og det frontale areal (A) i kvadratmeter (m²). Tallet beskriver samlet, hvor meget luftmodstand du og din cykel skaber, når I bevæger jer gennem luften.\n\n\n\n\nHvad er en god CdA-værdi for en motionist vs. professionel?\nEn almindelig motionsrytter på racercykel har typisk en CdA på 0,30–0,35 m². En veltrænet enkeltstartsrytter eller triatlet ligger typisk mellem 0,20–0,24 m², mens professionelle elitecykelryttere kan nå helt ned på 0,18–0,20 m².\n\n\n\n\nHvor meget betyder CdA i forhold til vægt (watt/kg)?\nPå flad og let kuperet vej (over 30 km/t) udgør luftmodstanden over 80-90 % af den samlede modstand. Her betyder en lav CdA markant mere for din fart end et lavt watt/kg-forhold.\n\n\n\n\nHvilken udstyrsændring giver den største CdA-forbedring?\nRytterens kropsposition udgør ca. 70-80 % af den samlede luftmodstand. Dernæst giver tætsiddende aero-tøj/dragt, en god enkeltstartshjelm og dybe fælge/pladehjul de største besparelser i CdA.\n\n\n\n\n\n\n\n\n  Referencer &amp; Videnskabelige studier\n\n  \n    Martin, P. E., Milliken, D. L., Cobb, J. E., McFadden, K. L., &amp; Coggan, A. R. (1998). Validation of a mathematical model of road cycling power. Journal of Applied Biomechanics, 14(3), 276-291.\n    Bassett, D. R., Kyle, C. R., Passfield, L., Broker, J. P., &amp; Burke, E. R. (1999). Comparing cycling world hour records, 1967-1996: modeling with the aerodynamic velocity equation. Medicine &amp; Science in Sports &amp; Exercise, 31(11), 1665-1676.\n    Debraux, P., Grappe, F., Manolova, A. V., &amp; Bertucci, W. (2011). A aerodynamic drag in cycling: methods of assessment and relationship with performance. Sports Biomechanics, 10(3), 197-218.\n    Garcia-Lopez, J., Ogueta-Alday, A., Larrazabal, J., &amp; Rodriguez-Marroyo, J. A. (2014). The influence of helmet type and riding position on aerodynamic drag in cycling. International Journal of Sports Physiology and Performance, 9(5), 826-833.\n  \n\n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DCdA-beregner+%E2%80%93+Beregn+din+aerodynamiske+modstand+%28CdA%29+%26+watt%26excerpt%3DBeregn+din+CdA+%28aerodynamiske+modstandskoefficient%29+ud+fra+fart%2C+watt%2C+v%C3%A6gt+og+luftdensitet.+Se+hvor+mange+watt+du+sparer+ved+at+optimere+din+position.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1728454994678-21be5481e249.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D04.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1785871200/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/cda-beregner/#webpage"
+        },
+        "datePublished": "2025-07-10T00:00:00+00:00",
+        "dateModified": "2026-08-04T19:20:00+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/cda-beregner/#cda-aerodynamik-beregner",
+          "name": "CdA & Aerodynamik Beregner",
+          "description": "Interaktiv beregner til estimering af din CdA-værdi (m²), samlede luftmodstand og watt-besparelse ved forskellige hastigheder.",
+          "applicationCategory": ["Cykling","Beregnere"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/cda-beregner/#webpage"
+          }
+        }
+        
+      
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/cykling/" itemprop="item"><span itemprop="name">Cykling</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">Beregn din CdA (a...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Beregn din CdA (aerodynamisk modstand) på cyklen">
+    <meta itemprop="description" content="Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, effekt, vægt og luftmodstand. Lær at udføre aero-tests og spar watt på cyklen.">
+    <meta itemprop="datePublished" content="2025-07-10T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-08-04T19:20:00+00:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title p-name" class="page__title" itemprop="headline">Beregn din CdA (aerodynamisk modstand) på cyklen
+</h1>
+          
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-04T19:20:00+00:00">4. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#cda-beregner">CdA beregner</a></li><li><a href="#fysikken-bag-cda-sådan-beregnes-din-fart">Fysikken bag CdA: Sådan beregnes din fart</a></li><li><a href="#hvor-mange-watt-sparer-en-lavere-cda">Hvor mange watt sparer en lavere CdA?</a></li><li><a href="#5-trins-protokol-sådan-tester-du-din-cda-på-vejen">5-trins protokol: Sådan tester du din CdA på vejen</a></li><li><a href="#ofte-stillede-spørgsmål-om-cda-og-aerodynamik">Ofte stillede spørgsmål om CdA og aerodynamik</a></li><li><a href="#references">Referencer &amp; Videnskabelige studier</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>Når du cykler på flad vej med mere end 30 km/t, går over <strong>80-90 % af din trådte effekt (watt)</strong> udelukkende til at overvinde luftmodstanden.</p>
+
+<p>Det er her, begrebet <strong>CdA</strong> (<em>Drag Area</em>) bliver den mest afgørende faktor for din fart. En reduktion i din CdA-værdi lader dig køre markant hurtigere med nøjagtig den samme trådte effekt.</p>
+
+<p>Med denne beregner kan du estimere din CdA-værdi ud fra din målte effekt (watt), hastighed, samlede vægt og ydre miljøfaktorer som luftdensitet og rullemodstand.</p>
+
+<hr />
+
+<h2 id="cda-beregner">CdA beregner</h2>
+
+<form class="calculator" id="calculator_cda">
+    <fieldset>
+        <legend>Beregn CdA (aerodynamisk modstand)</legend>
+
+        <div class="form-group">
+            <label>Effekt (watt)</label>
+            <input type="number" name="power" placeholder="watt" step="1" required="" />
+        </div>
+
+        <div class="form-group">
+            <label>Fart (km/t)</label>
+            <input type="number" name="velocity_kmh" placeholder="km/t" step="0.1" required="" />
+        </div>
+
+        <div class="form-group">
+            <label>Totalvægt (inkl. cykel, kg)</label>
+            <input type="number" name="mass" placeholder="kg" step="0.1" required="" />
+        </div>
+
+        <div class="form-group">
+            <label>Stigning (%)</label>
+            <input type="number" name="gradient" placeholder="fx 0 for fladt" step="0.1" value="0" />
+        </div>
+
+        <div class="form-group">
+            <label>Lufttryk (hPa)</label>
+            <input type="number" name="pressure" placeholder="standard: 1013" step="1" value="1013" />
+        </div>
+
+        <div class="form-group">
+            <label>Temperatur (°C)</label>
+            <input type="number" name="temperature" placeholder="°C" step="1" value="20" />
+        </div>
+
+        <div class="form-group">
+            <label>Rullemodstand (Crr)</label>
+            <input type="number" name="crr" placeholder="fx 0.004" step="0.001" value="0.004" />
+        </div>
+
+        <input type="submit" value="Beregn" />
+    </fieldset>
+
+    <fieldset class="results">
+        <legend>Udregnet CdA</legend>
+        <div class="form-group">
+            <label>CdA (m²)</label>
+            <input type="text" id="cda_result" disabled="" class="input-small" />
+        </div>
+    </fieldset>
+
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+<script>
+    document.getElementById("calculator_cda").addEventListener("submit", function (e) {
+        e.preventDefault();
+    
+        const form = e.target;
+    
+        const power = parseFloat(form.power.value);
+        const velocity_kmh = parseFloat(form.velocity_kmh.value);
+        const mass = parseFloat(form.mass.value);
+        const gradient = parseFloat(form.gradient.value) / 100;
+        const pressure = parseFloat(form.pressure.value); // hPa
+        const temperature = parseFloat(form.temperature.value); // °C
+        const crr = parseFloat(form.crr.value);
+    
+        const g = 9.80665; // tyngdeacceleration (m/s²)
+        const rho = (pressure * 100) / (287.05 * (temperature + 273.15)); // luftens tæthed (kg/m³)
+        const velocity = velocity_kmh / 3.6; // m/s
+    
+        // Komponenter af den samlede effekt
+        const rollingResistance = mass * g * Math.cos(Math.atan(gradient)) * crr * velocity;
+        const climbingResistance = mass * g * Math.sin(Math.atan(gradient)) * velocity;
+    
+        const aeroPower = power - rollingResistance - climbingResistance;
+    
+        // Udregn CdA
+        const cda = (2 * aeroPower) / (rho * Math.pow(velocity, 3));
+    
+        document.getElementById("cda_result").value = cda > 0 && isFinite(cda) ? cda.toFixed(3) : "Ugyldige input";
+    });
+    </script>
+
+<hr />
+
+<h2 id="fysikken-bag-cda-sådan-beregnes-din-fart">Fysikken bag CdA: Sådan beregnes din fart</h2>
+
+<p>Den samlede effekt $P_{total}$, du skal levere i pedalerne for at holde en konstant hastighed, er summen af luftmodstand, rullemodstand og fremdriftstab i drivlinjen:</p>
+
+\[P_{total} = P_{drag} + P_{rolling} + P_{drivetrain}\]
+
+<p>Hvor effekten til at overvinde luftmodstanden ($P_{drag}$) er defineret ved:</p>
+
+\[P_{drag} = \frac{1}{2} \cdot \rho \cdot CdA \cdot v^3\]
+
+<ul>
+  <li><strong>$\rho$ (Luftdensitet):</strong> Lufts densitet i $\text{kg/m}^3$ (typisk ca. $1,225 \text{ kg/m}^3$ ved havoverfladen og 15°C).</li>
+  <li><strong>CdA:</strong> Det samlede aerodynamiske modstandsareal i $\text{m}^2$.</li>
+  <li><strong>$v$:</strong> Din hastighed i forhold til luften i $\text{m/s}$.</li>
+</ul>
+
+<p>Bemærk, at effekten skal stige med <strong>hastigheden i tredje potens ($v^3$)</strong>. Det betyder, at hvis du vil fordoble din fart, skal du yde næsten <strong>8 gange så mange watt</strong> mod luftmodstanden – medmindre du reducerer din CdA!</p>
+
+<hr />
+
+<h2 id="hvor-mange-watt-sparer-en-lavere-cda">Hvor mange watt sparer en lavere CdA?</h2>
+
+<p>Tabellen herunder viser den krævede effekt (watt) udelukkende til at overvinde luftmodstanden ($P_{drag}$) ved forskellige CdA-værdier og hastigheder (beregnet ved standard luftdensitet $\rho = 1,225 \text{ kg/m}^3$):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ryttertype / Position</th>
+      <th style="text-align: center">Typisk CdA (m²)</th>
+      <th style="text-align: center">Watt v. 35 km/t</th>
+      <th style="text-align: center">Watt v. 40 km/t</th>
+      <th style="text-align: center">Watt v. 45 km/t</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Oprejst bycyklist</strong></td>
+      <td style="text-align: center">0,45 m²</td>
+      <td style="text-align: center">252 W</td>
+      <td style="text-align: center">376 W</td>
+      <td style="text-align: center">535 W</td>
+    </tr>
+    <tr>
+      <td><strong>Racercykel (Hænder i greb)</strong></td>
+      <td style="text-align: center">0,33 m²</td>
+      <td style="text-align: center">185 W</td>
+      <td style="text-align: center">276 W</td>
+      <td style="text-align: center">392 W</td>
+    </tr>
+    <tr>
+      <td><strong>Racercykel (Drop-position / Bøjede albuer)</strong></td>
+      <td style="text-align: center">0,28 m²</td>
+      <td style="text-align: center">157 W</td>
+      <td style="text-align: center">234 W</td>
+      <td style="text-align: center">333 W</td>
+    </tr>
+    <tr>
+      <td><strong>Triatlet / Enkeltstart (Standard aero)</strong></td>
+      <td style="text-align: center">0,23 m²</td>
+      <td style="text-align: center">129 W</td>
+      <td style="text-align: center">192 W</td>
+      <td style="text-align: center">273 W</td>
+    </tr>
+    <tr>
+      <td><strong>Pro Enkeltstartsspecialist</strong></td>
+      <td style="text-align: center">0,19 m²</td>
+      <td style="text-align: center">106 W</td>
+      <td style="text-align: center">159 W</td>
+      <td style="text-align: center">226 W</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p><strong>Konklusion:</strong> Hvis du kan reducere din CdA fra <strong>0,33 til 0,23 m²</strong> (fx ved at montere bøjler eller gå fra oprejst til aggressiv aero-position), sparer du <strong>over 84 watt ved 40 km/t</strong>!</p>
+</blockquote>
+
+<hr />
+
+<h2 id="5-trins-protokol-sådan-tester-du-din-cda-på-vejen">5-trins protokol: Sådan tester du din CdA på vejen</h2>
+
+<p>Du behøver ikke en dyr vindkanal til 5.000 kr. i timen for at optimere din aerodynamik. Har du en wattmåler og en hastighedssensor, kan du lave dine egne A/B-tests på vejen:</p>
+
+<ol>
+  <li><strong>Find den rette test-strækning:</strong> Vælg en helt flad, ensartet og vindstille strækning på 2–4 km uden sving, lyskryds eller trafik.</li>
+  <li><strong>Hold alle variabler konstante:</strong> Kør med samme dæktryk, samme samlede vægt og hold en konstant kadence.</li>
+  <li><strong>Kør Test A (Baseline):</strong> Kør strækningen i din normale position (fx hænderne i skiftegrebene) med en konstant, kontrolleret effekt (fx 250 W). Notér din præcise gennemsnitshastighed og watt.</li>
+  <li><strong>Kør Test B (Ny position/udstyr):</strong> Skift kun én variabel (fx sænk styret 2 cm eller skift til aero-hjelm). Kør strækningen med nøjagtig samme effekt.</li>
+  <li><strong>Sammenlign CdA i beregneren:</strong> Indtast dine måledata i beregneren ovenfor for hhv. Test A og Test B. Den position, der giver den laveste CdA, er den hurtigste.</li>
+</ol>
+
+<hr />
+
+<h2 id="ofte-stillede-spørgsmål-om-cda-og-aerodynamik">Ofte stillede spørgsmål om CdA og aerodynamik</h2>
+
+<details class="faq">
+<summary><h3>Hvad er CdA i cykling?</h3></summary>
+<p>CdA er produktet af modstandskoefficienten (Cd) og det frontale areal (A) i kvadratmeter (m²). Tallet beskriver samlet, hvor meget luftmodstand du og din cykel skaber, når I bevæger jer gennem luften.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvad er en god CdA-værdi for en motionist vs. professionel?</h3></summary>
+<p>En almindelig motionsrytter på racercykel har typisk en CdA på 0,30–0,35 m². En veltrænet enkeltstartsrytter eller triatlet ligger typisk mellem 0,20–0,24 m², mens professionelle elitecykelryttere kan nå helt ned på 0,18–0,20 m².</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvor meget betyder CdA i forhold til vægt (watt/kg)?</h3></summary>
+<p>På flad og let kuperet vej (over 30 km/t) udgør luftmodstanden over 80-90 % af den samlede modstand. Her betyder en lav CdA markant mere for din fart end et lavt watt/kg-forhold.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvilken udstyrsændring giver den største CdA-forbedring?</h3></summary>
+<p>Rytterens kropsposition udgør ca. 70-80 % af den samlede luftmodstand. Dernæst giver tætsiddende aero-tøj/dragt, en god enkeltstartshjelm og dybe fælge/pladehjul de største besparelser i CdA.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er CdA i cykling?","acceptedAnswer":{"@type":"Answer","text":"CdA er produktet af modstandskoefficienten (Cd) og det frontale areal (A) i kvadratmeter (m²). Tallet beskriver samlet, hvor meget luftmodstand du og din cykel skaber, når I bevæger jer gennem luften.\n"}},{"@type":"Question","name":"Hvad er en god CdA-værdi for en motionist vs. professionel?","acceptedAnswer":{"@type":"Answer","text":"En almindelig motionsrytter på racercykel har typisk en CdA på 0,30–0,35 m². En veltrænet enkeltstartsrytter eller triatlet ligger typisk mellem 0,20–0,24 m², mens professionelle elitecykelryttere kan nå helt ned på 0,18–0,20 m².\n"}},{"@type":"Question","name":"Hvor meget betyder CdA i forhold til vægt (watt/kg)?","acceptedAnswer":{"@type":"Answer","text":"På flad og let kuperet vej (over 30 km/t) udgør luftmodstanden over 80-90 % af den samlede modstand. Her betyder en lav CdA markant mere for din fart end et lavt watt/kg-forhold.\n"}},{"@type":"Question","name":"Hvilken udstyrsændring giver den største CdA-forbedring?","acceptedAnswer":{"@type":"Answer","text":"Rytterens kropsposition udgør ca. 70-80 % af den samlede luftmodstand. Dernæst giver tætsiddende aero-tøj/dragt, en god enkeltstartshjelm og dybe fælge/pladehjul de største besparelser i CdA.\n"}}]
+    }
+</script>
+
+<hr />
+
+<details class="references">
+  <summary><h2 id="references">Referencer &amp; Videnskabelige studier</h2></summary>
+
+  <ul>
+    <li>Martin, P. E., Milliken, D. L., Cobb, J. E., McFadden, K. L., &amp; Coggan, A. R. (1998). <em>Validation of a mathematical model of road cycling power</em>. <em>Journal of Applied Biomechanics</em>, 14(3), 276-291.</li>
+    <li>Bassett, D. R., Kyle, C. R., Passfield, L., Broker, J. P., &amp; Burke, E. R. (1999). <em>Comparing cycling world hour records, 1967-1996: modeling with the aerodynamic velocity equation</em>. <em>Medicine &amp; Science in Sports &amp; Exercise</em>, 31(11), 1665-1676.</li>
+    <li>Debraux, P., Grappe, F., Manolova, A. V., &amp; Bertucci, W. (2011). <em>A aerodynamic drag in cycling: methods of assessment and relationship with performance</em>. <em>Sports Biomechanics</em>, 10(3), 197-218.</li>
+    <li>Garcia-Lopez, J., Ogueta-Alday, A., Larrazabal, J., &amp; Rodriguez-Marroyo, J. A. (2014). <em>The influence of helmet type and riding position on aerodynamic drag in cycling</em>. <em>International Journal of Sports Physiology and Performance</em>, 9(5), 826-833.</li>
+  </ul>
+
+</details>
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/cda-beregner/#article",
+    "name": "Beregn din CdA (aerodynamisk modstand) på cyklen",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "18"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">18</span> stemmer. Gennemsnit: <span id="rating_average">4.6</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#aerodynamik" class="page__taxonomy-item" rel="tag">aerodynamik</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#beregner" class="page__taxonomy-item" rel="tag">beregner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#cykling" class="page__taxonomy-item" rel="tag">cykling</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#tr%C3%A6ning" class="page__taxonomy-item" rel="tag">træning</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#cykling" class="page__taxonomy-item" rel="tag">Cykling</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-08-04">4. Aug, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/optimale-kulhydrat-forhold/" class="pagination--pager" title="Det optimale kulhydratforhold under udholdenhedsidræt">Forrige</a>
+    
+    
+      <a href="/naeseplastre-effekt-praestation/" class="pagination--pager" title="Næseplastre i sport &amp; cykling: Virker tape på næsen overhovedet?">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1637578371283-d9076f66ba8e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sitkos 5-minutters all-out cykeltest: Mål din VO2max og MAP 🚴‍♂️
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-stopwatch" aria-hidden="true" title="Test"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Cykeltests</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/sitko-5-min-cykeltest/" rel="permalink">Sitkos 5-minutters all-out cykeltest: Mål din VO2max og MAP 🚴‍♂️
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-05T10:00:00+00:00">5. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Test din maksimale iltoptagelse (VO2max) og iltoptagelseseffekt (MAP) på cyklen med Sitkos 5-minutters all-out cykeltest. Se testen, guiden og beregneren her.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1532985716028-255a31586f6c?q=80&w=1653&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Anaerobic Power Reserve (APR): Forstå Watt, MAP og PPO i cykling
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Cykling</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/anaerobic-power-reserve/" rel="permalink">Anaerobic Power Reserve (APR): Forstå Watt, MAP og PPO i cykling
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-06T11:00:00+00:00">6. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Lær alt om Anaerobic Power Reserve (APR) i cykling og roning. Se hvordan du måler MAP og PPO, undgår 130% MAP-fælden og skræddersyr absolut præcis Watt-inter...</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1562615193-cbeef074a501.jpg" alt="Guide til krankarmslængde: Komfort, kadence og kraft
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Cykling</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/krankarmlaengde/" rel="permalink">Guide til krankarmslængde: Komfort, kadence og kraft
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-05T22:21:26+00:00">5. jul, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Hvad betyder krankarmslængde for din komfort og performance på cyklen? Få overblik over fordele, ulemper og hvordan du vælger den rigtige længde.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1452573992436-6d508f200b30.jpg" alt="🚴 Beregn bevægelsesøkonomi og bruttoeffektivitet (Cykling)
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Cykling</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/beregn-bevaegelsesokonomi-effektivitet/" rel="permalink">🚴 Beregn bevægelsesøkonomi og bruttoeffektivitet (Cykling)
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-07-25T10:00:00+00:00">25. jul, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Udregn din bevægelsesøkonomi, cykeløkonomi og bruttoeffektivitet ud fra iltoptagelse (VO2) og watt. Lær fysiologien bag kroppens energiforbrug under cykling.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCpybeLG46oZfczu4LfI5K0A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>
