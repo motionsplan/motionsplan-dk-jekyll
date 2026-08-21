@@ -52,7 +52,7 @@ _posts/2026-08-02-return-to-sport.md,Y-Balance Test,/y-balance-test/
 _posts/2019-10-31-bmi.md,BMI-beregner for børn og unge,/bmi-beregner-boern-unge-teenagere/
 _posts/2019-10-31-bmi.md,idealvægt ud fra BMI,/idealvaegt/
 _posts/2019-10-31-bmi.md,Gå til vores BMI-beregner for børn og unge,/bmi-beregner-boern-unge-teenagere/
-_posts/2019-10-31-bmi.md,retfærdig vurdering af overvægtiges kondition,/kondital/
+_posts/2019-10-31-bmi.md,retfærdig vurdering af overvægtiges kondition,/kondital-index-23/
 _posts/2019-10-31-bmi.md,gennemsnitshøjden for mænd,/hvad-er-gennemsnitshoejden-i-danmark/
 _posts/2019-10-31-bmi.md,udregne din idealvægt,/idealvaegt/
 _posts/2019-10-31-bmi.md,min beregner til at udregne fedtprocent ud fra højde og vægt,/artikel/udregning-af-fedtprocent/
@@ -454,6 +454,7 @@ _posts/2020-06-15-intervallob.md,intensitetszone,/traeningszoner/
 _posts/2020-06-15-intervallob.md,Jack Daniels Løbsberegner,/loebesiden-jack-daniels-loebeberegner/
 _posts/2020-06-15-intervallob.md,omregne fra hastighed i min/km,/hastighed/
 _posts/2020-06-15-intervallob.md,oversigt over alle løbeværktøjer,/loebesiden/#beregnere
+_posts/2020-06-15-intervallob.md,paceberegner,/hastighed/
 _posts/2020-06-15-intervallob.md,anaerob træning,/anaerob-traening/
 _posts/2020-06-15-intervallob.md,Guide til bakkeintervaller,/bakkesprint-bakkeloeb/
 _posts/2020-06-15-intervallob.md,guide til kroppens energisystemer,/energisystemer/
@@ -1454,7 +1455,7 @@ _posts/2021-01-19-forbraending-gang.md,MET-tabellen,/met/
 _posts/2021-01-19-forbraending-gang.md,anaerobe energisystem,/energisystemer/
 _posts/2021-01-19-forbraending-gang.md,fysiologiske forandringer i kroppen ved konditionstræning,/tilpasning-konditionstraening/
 _posts/2021-01-19-forbraending-gang.md,beregneren for kalorieforbruget ved forskellige aktiviteter og oversigten over MET-værdier,/met/
-_posts/2021-01-19-forbraending-gang.md,10.000 skridt uanset hvor langt det er,/skridt-pr-km-10000/
+_posts/2021-01-19-forbraending-gang.md,hvor mange km 10.000 skridt er,/skridt-pr-km-10000/
 _posts/2021-01-19-forbraending-gang.md,kontinuerlig træning eller intervaltræning,/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/
 _posts/2021-01-19-forbraending-gang.md,intervaltræning,/intervaltraening/
 _posts/2021-01-19-forbraending-gang.md,kalorierberegner med MET-værdier,/met-beregner/
@@ -1591,6 +1592,7 @@ _posts/2022-04-14-kalorietaeller-apps.md,"Lær, hvordan du laver kostregistrerin
 _posts/2022-04-14-kalorietaeller-apps.md,"Få styr på, hvad der egentlig ligger bag kalorieindholdet i maden",/kost-ernaering/
 _posts/2021-08-24-loebeprogram-begyndere.md,løb for begyndere,/artikel/kom-i-gang-med-loebetraeningen/
 _posts/2021-08-24-loebeprogram-begyndere.md,løbetræning her,/loebesiden/
+_posts/2021-08-24-loebeprogram-begyndere.md,paceberegner,/hastighed/
 _posts/2021-08-24-loebeprogram-begyndere.md,12-ugers løbeprogram til 10 km,/loebeprogram-10km/
 _posts/2021-08-24-loebeprogram-begyndere.md,"løbeteknik, hvilket kan hjælpe på din løbeøkonomi",/lobeokonomi/
 _posts/2021-08-24-loebeprogram-begyndere.md,"musik, der passer til kadencen og din løbetræning",/artikel/musik-til-traeningen/
@@ -1829,7 +1831,6 @@ _posts/2020-06-09-test-muskelfibertyper.md,grundige overvejelser om muskelfibert
 _posts/2020-06-09-test-muskelfibertyper.md,"går i dybden med muskelfibertyper, og hvilken betydning det har",/muskelfibertyper/
 _posts/2019-10-28-cns-fatigue.md,1RM,/rm-beregner/
 _posts/2022-02-10-hvor-hurtigt-gaa-km.md,omregner skridt til km,/skridt-pr-km-10000/
-_posts/2022-02-10-hvor-hurtigt-gaa-km.md,Hvor lang tid tager det at gå en kilometer?,/tid-at-gaa/
 _posts/2022-02-10-hvor-hurtigt-gaa-km.md,hvor langt et skridt er,/skridtlaengde-gang/
 _posts/2022-02-10-hvor-hurtigt-gaa-km.md,hastighedsberegner,/hastighed/
 _posts/2022-02-10-hvor-hurtigt-gaa-km.md,regne din gennemsnitsfart i vores fartberegner,/hastighed/
@@ -1897,6 +1898,7 @@ _posts/2020-06-01-loeb-mere-energi-gang.md,mindst 20 fordele ved at gå,/gang-fo
 _posts/2020-06-01-loeb-mere-energi-gang.md,MET med en tabel over virkelig mange aktiviteter,/met/
 _posts/2020-06-01-loeb-mere-energi-gang.md,kalorieforbrænding under gang og på dine gåture,/forbraending-ved-gaa-gang/
 _posts/2020-06-01-loeb-mere-energi-gang.md,MET-værdier,/met/
+_posts/2020-06-01-loeb-mere-energi-gang.md,hvor mange km 10.000 skridt er,/skridt-pr-km-10000/
 _posts/2026-08-06-haandgrebsstyrke.md,Sit-to-Stand Test (30STS & 5xSTS),/sit-to-stand-test/
 _posts/2026-08-06-haandgrebsstyrke.md,Timed Up and Go (TUG),/timed-up-and-go-test/
 _posts/2026-08-06-haandgrebsstyrke.md,Bergs Balanceskala (BBS),/bergs-balanceskala/
@@ -1965,6 +1967,8 @@ _posts/2021-07-31-vaegttab.md,regelmæssige gåture,/forbraending-ved-gaa-gang/
 _posts/2021-07-31-vaegttab.md,slankekur,/slankekur/
 _posts/2021-07-31-vaegttab.md,kalorieberegner og madberegner,/kalorieberegner/
 _posts/2021-07-31-vaegttab.md,tabe lidt fedt på maven,/tab-fedt-paa-maven/
+_posts/2021-07-31-vaegttab.md,BMI-beregner,/bmi/
+_posts/2021-07-31-vaegttab.md,udregninger af idealvægt,/idealvaegt/
 _posts/2020-06-23-kondital-hvor-hurtigt.md,kondition,/kondition/
 _posts/2020-06-23-kondital-hvor-hurtigt.md,kondital for normalbefolkningen,/kondital/
 _posts/2020-06-23-kondital-hvor-hurtigt.md,fysiologiske adaptationer til konditionstræning,/tilpasning-konditionstraening/
@@ -2013,6 +2017,7 @@ _posts/2021-02-04-steps-kadence-running.md,Styrketræning til løb: Øvelser og 
 _posts/2021-02-04-steps-kadence-running.md,excentrisk arbejde,/koncentrisk-excentrisk-isometrisk/
 _posts/2021-02-04-steps-kadence-running.md,excentriske træning,/excentrisk-traening/
 _posts/2021-02-04-steps-kadence-running.md,Komplet guide til bakkeløb,/bakkesprint-bakkeloeb/
+_posts/2021-02-04-steps-kadence-running.md,paceberegner fra km/t til min/km,/hastighed/
 _posts/2019-10-31-bmi-beregner-boern.md,BMI-skalaen for voksne og ældre,/bmi/
 _posts/2019-10-31-bmi-beregner-boern.md,BMI beregner for voksne,/bmi/
 _posts/2019-10-31-bmi-beregner-boern.md,Ponderal Index,/ponderal-index/
@@ -2237,6 +2242,7 @@ _posts/2026-08-02-less-hop-test.md,LSI på $\ge 90\%$,/hoptest-batteriet/
 _posts/2026-08-02-less-hop-test.md,Hoptest-batteri (LSI),/hoptest-batteriet/
 _posts/2026-08-02-less-hop-test.md,Guide til springtests og hoppehøjde,/springtests-hoppehoejde/
 _posts/2026-08-02-less-hop-test.md,Enkeltbensstand og Stork-test,/enkeltbensstand-stork-test/
+_posts/2020-09-04-slankekur.md,BMI-beregner og skema,/bmi/
 _posts/2020-09-04-slankekur.md,vægttab,/vaegttab/
 _posts/2020-09-04-slankekur.md,ligevægtsindtag,/ligevaegtsindtag-beregner/
 _posts/2020-09-04-slankekur.md,kalorier,/hvad-er-kalorier/
@@ -2248,6 +2254,8 @@ _posts/2020-09-04-slankekur.md,Omregn dine daglige skridt til kalorier,/forbraen
 _posts/2020-09-04-slankekur.md,ligevægtsindtag,/ligevaegtsindtag-beregner/
 _posts/2020-09-04-slankekur.md,BMR (basalforbrænding),/bmr-beregner/
 _posts/2020-09-04-slankekur.md,forbrænder en del kalorier bare ved at gå,/forbraending-ved-gaa-gang/
+_posts/2020-09-04-slankekur.md,BMI-beregner og skema,/bmi/
+_posts/2020-09-04-slankekur.md,idealvægt ud fra sundhed og dødelighed,/idealvaegt/
 _posts/2025-04-14-gzclp-strength.md,vores RM-beregner,/rm-beregner/
 _posts/2025-04-14-gzclp-strength.md,Squat,/squat/
 _posts/2025-04-14-gzclp-strength.md,Dødløft,/oevelse/konventionel-doedloeft/
@@ -2740,6 +2748,7 @@ _posts/2020-04-16-smr-virker.md,Smidighedstræning – Den fysiologiske guide ti
 _posts/2020-04-16-smr-virker.md,Foamroller – Guide til 10+ rulle-øvelser,/foamrolling/
 _posts/2020-04-16-smr-virker.md,Lacrosse bold og massagebold – Punktbehandling og øvelser,/lacrosse-bold-massagebold/
 _posts/2020-04-16-smr-virker.md,"Virker udstrækning? Forskning i myter, DOMS og stræktolerance",/virker-udstraekning/
+_posts/2019-10-11-kropskomposition.md,BMI,/bmi/
 _posts/2019-10-11-kropskomposition.md,Alt om måling med fedttang,/skinfold/
 _posts/2019-10-11-kropskomposition.md,Læs mere om måling med bioimpedans,/bioimpedans-maaling/
 _posts/2019-10-11-kropskomposition.md,BMI beregner,/bmi/
@@ -2807,6 +2816,7 @@ _posts/2022-05-23-inspiration-gaatur.md,fordelene ved gang,/gang-fordele-ved-at-
 _posts/2022-05-23-inspiration-gaatur.md,Tæl Skridt,/artikel/tael-skridt/
 _posts/2022-05-23-inspiration-gaatur.md,Gåtræning: Inspiration til at få træning ud af gåturen,/gangtraening/
 _posts/2022-05-23-inspiration-gaatur.md,GPS-kunst og Stravakunst,/gps-doodles/
+_posts/2022-05-23-inspiration-gaatur.md,hvor mange km 10.000 skridt er,/skridt-pr-km-10000/
 _posts/2020-09-11-smidighedstests.md,Modified Sit & Reach,/smidighedstest/
 _posts/2020-09-11-smidighedstests.md,komplette guide til Modified Sit & Reach Test,/smidighedstest/
 _posts/2020-09-11-smidighedstests.md,Modified Sit & Reach side,/smidighedstest/
@@ -3029,6 +3039,8 @@ _posts/2025-01-13-traeningsprogram-politi-udstyr.md,Guide til politiets optagels
 _posts/2021-07-30-kalorieberegner.md,kalorier,/hvad-er-kalorier/
 _posts/2021-07-30-kalorieberegner.md,avancerede stofskifteberegner,/ligevaegtsindtag-beregner/
 _posts/2021-07-30-kalorieberegner.md,hvad kalorier er,/hvad-er-kalorier/
+_posts/2021-07-30-kalorieberegner.md,BMI-beregner og skema,/bmi/
+_posts/2021-07-30-kalorieberegner.md,idealvægt for mænd og kvinder,/idealvaegt/
 _posts/2021-07-30-kalorieberegner.md,"ligevægtsindtag, energibehov eller energiforbrug",/ligevaegtsindtag-beregner/
 _posts/2021-07-30-kalorieberegner.md,generelle formler for hvilestofskiftet og basalstofskiftet,/hvilestofskiftet-formler/
 _posts/2021-07-30-kalorieberegner.md,beregne dit stofskifte,/hvordan-beregne-dagligt-energibehov/
@@ -3213,6 +3225,8 @@ _posts/2019-11-01-stofskifte-ligevaegtsberegner.md,BMR-beregner ud fra fedtfri m
 _posts/2019-11-01-stofskifte-ligevaegtsberegner.md,fysiologien bag stofskiftet her,/stofskifte/
 _posts/2019-11-01-stofskifte-ligevaegtsberegner.md,formler for hvilestofskiftet,/hvilestofskiftet-formler/
 _posts/2019-11-01-stofskifte-ligevaegtsberegner.md,hvordan PAL og MET-værdier udregnes i vores specialartikel om PAL,/beregner/pal/
+_posts/2019-11-01-stofskifte-ligevaegtsberegner.md,idealvægt for mænd og kvinder,/idealvaegt/
+_posts/2019-11-01-stofskifte-ligevaegtsberegner.md,BMI for mænd og kvinder,/bmi/
 _posts/2019-11-01-stofskifte-ligevaegtsberegner.md,Energifordeling- og Makro-beregner,/beregner/energifordeling/
 _posts/2019-11-01-stofskifte-ligevaegtsberegner.md,hvad kalorier egentlig er,/hvad-er-kalorier/
 _posts/2019-11-01-stofskifte-ligevaegtsberegner.md,formlerne for hvilestofskiftet,/hvilestofskiftet-formler/
@@ -3356,6 +3370,7 @@ _posts/2021-08-24-kom-i-gang-med-loebetraeningen.md,anaerobe tærskel,/anaerobe-
 _posts/2021-08-24-kom-i-gang-med-loebetraeningen.md,løbeøkonomien,/lobeokonomi/
 _posts/2021-08-24-kom-i-gang-med-loebetraeningen.md,langsomme type I-fibres evne til at fjerne mælkesyre i kroppen,/anaerobe-taerskel/
 _posts/2021-08-24-kom-i-gang-med-loebetraeningen.md,maksimale puls,/test-max-puls/
+_posts/2021-08-24-kom-i-gang-med-loebetraeningen.md,udregne dit løbetempo ud fra din løbehastighed,/hastighed/
 _posts/2021-08-24-kom-i-gang-med-loebetraeningen.md,Jack Daniels løbsberegner til at udregne dit løbetempo,/loebesiden-jack-daniels-loebeberegner/
 _posts/2021-08-24-kom-i-gang-med-loebetraeningen.md,Stryd Wattmåler,/loeb-watt/
 _posts/2021-08-24-kom-i-gang-med-loebetraeningen.md,forskellige løbeprogrammer,/loebeprogrammer/
@@ -3588,6 +3603,8 @@ _posts/2019-10-31-pulstraening.md,Borg-skalaen,/borg-skala/
 _posts/2019-10-31-pulstraening.md,løbsberegner og tempo til at styre træningen,/loebesiden-jack-daniels-loebeberegner/
 _posts/2026-08-10-kropsanalyse.md,InBody-scanner,/artikel/inbody-570-bioimpedans/
 _posts/2026-08-10-kropsanalyse.md,dybdegående guide til kropskomposition her,/kropskomposition/
+_posts/2026-08-10-kropsanalyse.md,Lungekapacitet (FVC),/lunger-lungekapacitet/
+_posts/2026-08-10-kropsanalyse.md,BMR (Basalstofskifte),/bmr-beregner/
 _posts/2026-08-10-kropsanalyse.md,Guide til InBody 570 – Tolkning af resultatark og præcision,/artikel/inbody-570-bioimpedans/
 _posts/2021-08-24-loebeprogrammer-5k.md,beregner til løbehastighed,/hastighed/
 _posts/2021-08-24-loebeprogrammer-5k.md,et godt løbeprogram,/loebeprogrammer/

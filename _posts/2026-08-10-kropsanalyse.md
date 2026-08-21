@@ -72,7 +72,7 @@ Formlerne i dashboardet opdeler dine data i fire pædagogiske kategorier:
 * **Kroppens Overfladeareal (BSA):** Bruges i fysiologien til at relatere stofskifte og væskebehov til kroppens reelle størrelse.
 
 ### 4. Energiforbrug & Puls
-* **BMR (Basalstofskifte):** Estimerer dit energiforbrug i hvile ved hjælp af Mifflin-St Jeor-formlen.
+* **[BMR (Basalstofskifte)](/bmr-beregner/):** Estimerer dit energiforbrug i hvile ved hjælp af Mifflin-St Jeor-formlen.
 * **Kondital (Uths formel):** Estimerer din maksimale iltoptagelse ($VO_2\text{max}$) ud fra forholdet mellem din maxpuls og hvilepuls.
 
 ---

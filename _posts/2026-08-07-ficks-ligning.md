@@ -31,7 +31,7 @@ faq:
 
 Hvorfor kan en veltrænet eliteløber optage over 6 liter ilt i minuttet, mens en utrænet person måske kun kan optage 2,5 liter? Svaret gemmer sig i en enkel, men genial fysiologisk formel opkaldt efter den tyske fysiolog Adolf Fick: **Ficks ligning**.
 
-Ficks ligning viser, at din maksimale iltoptagelse ($VO_2\text{max}$) afhænger af **two uafhængige systemer**: Hjertets evne til at pumpe blodet rundt (**Central faktor**) og musklernes evne til at trække ilten ud af blodet (**Perifer faktor**).
+Ficks ligning viser, at din [maksimale iltoptagelse ($VO_2\text{max}$)](/maksimale-iltoptagelse-vo2max/) afhænger af **two uafhængige systemer**: Hjertets evne til at pumpe blodet rundt (**Central faktor**) og musklernes evne til at trække ilten ud af blodet (**Perifer faktor**).
 
 ---
 

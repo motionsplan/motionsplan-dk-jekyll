@@ -177,7 +177,7 @@ Læs vores **dybdegående guide til at vælge forsøg** og få konkrete strategi
 
 Det var en hurtig gennemgang af reglerne til styrkeløft, så du ikke er helt på bar bund, hvis du skal være med i et styrkeløftstævne.
 
-Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest](/pap-post-activation-potentiation-1rm-maxtest/).
+Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest](/pap-post-activation-potentiation-1rm-maxtest/). Måske er du også interesseret i [styrkeløftrekorder](/styrkeloeft-rekorder/).
 
 ## Quiz om regler for styrkeløft
 

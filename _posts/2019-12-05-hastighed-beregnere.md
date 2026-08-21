@@ -1,7 +1,8 @@
 ---
 title: 'Paceberegner & Hastighedsberegner'
-seo_title: 'Paceberegner: Omregn nemt pace til km/t & beregn din tid'
+seo_title: 'Paceberegner: Omregn pace til km/t & beregn din tid'
 description: 'Gratis hastigheds- og paceberegner til løb. Indtast din tid og distance, eller omregn lynhurtigt mellem pace (min/km) og km/t. Få svaret her!'
+excerpt: 'Gratis hastigheds- og paceberegner til løb. Indtast din tid og distance, eller omregn lynhurtigt mellem pace (min/km) og km/t. Få svaret her!'
 permalink: /hastighed/
 redirect_from:
   - /hastighed/beregn-fart/
