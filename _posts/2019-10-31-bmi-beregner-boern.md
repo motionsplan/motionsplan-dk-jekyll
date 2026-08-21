@@ -66,7 +66,7 @@ Hvordan kan du bruge BMI til børn, unge og teenagere? Body Mass Index (BMI) bru
 
 Fordelen ved BMI er, at det er let at bruge fordi du bare har brug for højde og vægt. Men når du fortolker BMI-tabeller for børn og unge, så skal du være opmærksom på, at du skal fortolke BMI-skalaen anderledes for børn end for voksne.
 
-Du kan læse meget mere om [BMI-skalaen for voksne og ældre](/bmi/) eller bruge vores [BMI beregner for voksne](/bmi-beregner/).
+Du kan læse meget mere om [BMI-skalaen for voksne og ældre](/bmi/) eller bruge vores [BMI beregner for voksne](/bmi/).
 
 [<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 

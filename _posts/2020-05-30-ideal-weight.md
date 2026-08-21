@@ -114,7 +114,7 @@ Med udgangspunkt i Lemmens (2005) har jeg valgt at bruge en target BMI på 22.
 
 [Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"} har som Peterson (2016) også foreslået, at basere idealvægten på Body Mass Index (BMI).
 
-Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [BMI](/bmi/) eller vores [BMI-beregner](/bmi-beregner/).
+Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [BMI](/bmi/).
 
 Når man skal udregne idealvægten for kvinder, så kan du altså bruge BMI på 22,5 og for mænd et BMI på 24,5 for at finde idealvægten.
 
@@ -195,7 +195,7 @@ Sideløbende med Broca og Lorenz arbejdede den belgiske matematiker Adolphe Quet
 
 I samme periode opstillede Fritz Rohrer i 1921 sitt tre-dimensionelle [Ponderal Index (Rohrer's Index)](/ponderal-index/), hvor højden opløftes i 3. potens ($m^3$) for bedre at afspejle kroppens reelle volumen.
 
-I dag bruges verken Brocas eller Lorenz' indeks i klinisk praksis eller i vores [BMI-beregner](/bmi-beregner/). De historiske formler er i dag erstattet af store epidemiologiske studier (som f.eks. Peterson et al.), der kobler kropsvægt og højde sammen med reel levetid og sundhedsrisiko.
+I dag bruges verken Brocas eller Lorenz' indeks i klinisk praksis eller i vores [BMI-beregner](/bmi/). De historiske formler er i dag erstattet af store epidemiologiske studier (som f.eks. Peterson et al.), der kobler kropsvægt og højde sammen med reel levetid og sundhedsrisiko.
 
 ## Konklusion
 

@@ -25,7 +25,9 @@ Velkommen til vores samlede overblik over **kost, ernæring og forbrænding**. U
 ## Vores vigtigste emneområder
 
 <div class="notice--info" markdown="1">
+
 ### 🏃‍♂️⚡ Sportsernæring & Præstation
+
 Er du aktiv motionist eller atlet, og vil du optimere din mad i forhold til din træning?
 * **[Sportsernæring – Guide til træning og præstation](/sportsernaering/)** – Alt om måltidstiming, kulhydrater og restitution.
 * **[Væske og hydrering](/hvad-skal-jeg-drikke/)** – Hvor meget skal du drikke før, under og efter træning?
@@ -33,7 +35,9 @@ Er du aktiv motionist eller atlet, og vil du optimere din mad i forhold til din 
 </div>
 
 <div class="notice--success" markdown="1">
+
 ### 📊🔥 Energi, Kalorier & Stofskifte
+
 Lær at beregne din krops energiforbrug og forstå kalorierne i din mad.
 * **[Ligevægtsindtagberegner](/ligevaegtsindtag-beregner/)** – Udregn dit samlede daglige kalorieforbrug (TDEE).
 * **[BMR & Hvilestofskifte](/bmr-beregner/)** – Beregn dit basalstofskifte ud fra køn, alder, højde og vægt.
@@ -44,9 +48,12 @@ Lær at beregne din krops energiforbrug og forstå kalorierne i din mad.
 </div>
 
 <div class="notice--warning" markdown="1">
+
 ### ⚖️📏 Kropskomposition, BMI & Fedtprocent
+
 Redskaber til vurdering af kropssammensætning, sundhed og vægt.
-* **[BMI Beregner](/bmi-beregner/)** & **[BMI til Børn og Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek dit BMI.
+
+* **[BMI Beregner](/bmi/)** & **[BMI til Børn og Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek dit BMI.
 * **[Mål din fedtprocent](/maal-fedtprocent/)** – Guide til 7 forskellige målemetoder.
 * **[Fedtmåling med fedttang (Skinfold)](/skinfold/)** & **[Fedtprocent med målebånd](/fedtprocent-navy/)**.
 * **[Bioimpedans (BIA)](/bioimpedans-maaling/)** – Lær om kropsanalysevægte og præcision.
@@ -56,7 +63,9 @@ Redskaber til vurdering af kropssammensætning, sundhed og vægt.
 </div>
 
 <div class="notice" markdown="1">
+
 ### 🥗🍏 Vægttab, Adfærd & Sunde Vaner
+
 Lær at opbygge et sundt forhold til mad uden strenge slankekure.
 * **[Et sundt syn på vægttab](/vaegttab/)** – Hvorfor varige vaner slår hurtige slankekure.
 * **[Er slankekure en god idé?](/slankekur/)** – Faldgruberne ved restriktive diæter.

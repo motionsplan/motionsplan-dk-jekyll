@@ -94,7 +94,7 @@ Der findes en lang række forskellige formler for hvilestofskiftet, basalstofski
 
 I beregneren kan du vælge den **anbefalede formel**. Beregneren er ret klog, så den kan vælge den mest passende formel til netop dig.
 
-[Madden et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26923904/) konkluderer i deres systematiske review, at valget af formel bl.a. afhænger af [udregning af BMI](/bmi-beregner/). Desuden betyder alder og køn naturligvis også noget.
+[Madden et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26923904/) konkluderer i deres systematiske review, at valget af formel bl.a. afhænger af [beregning af BMI](/bmi/). Desuden betyder alder og køn naturligvis også noget.
 
 Beregneren vælger den mest passende formel baseret disse kriterier fra [Menneskets Ernæring](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762){: rel='sponsored nofollow noopener' }:
 

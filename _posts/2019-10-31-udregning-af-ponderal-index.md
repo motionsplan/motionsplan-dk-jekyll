@@ -59,7 +59,7 @@ faq:
 
 Til forskel fra [Body Mass Index (BMI)](/bmi/) tager Ponderal Index højde for kropsvolumen ved at ophøje højden i **tredje potens ($m^3$)** i stedet for anden potens ($m^2$). Det gør indekset særligt velegnet til at sammenligne personer med stor højdeforskel samt til vurdering af børn og unge.
 
-👉 **Vil du beregne dit tal direkte?** Hop til vores **[interaktive Ponderal Index beregner](#calculator)** eller beregn dit almindelige **[BMI med vores BMI-beregner](/bmi-beregner/)**.
+👉 **Vil du beregne dit tal direkte?** Hop til vores **[interaktive Ponderal Index beregner](#calculator)** eller beregn dit almindelige **[BMI med vores BMI-beregner](/bmi/#calculator)**.
 
 *[BMI]: Body Mass Index
 *[TMI]: Tri-Ponderal Mass Index
@@ -144,7 +144,7 @@ TMI benytter nøjagtig samme matematiske formel som Ponderal Index, men har sat 
 | **Dimension** | 3D (Volumen) | 2D (Areal) |
 | **Højdefølsomhed** | Højdeuafhængig (måler ens for høje og lave) | Skævvrider for meget høje/lave |
 | **Udbredelse** | Voksende i pædiatri og forskning | Dominerende standard i sundhedsvæsenet |
-| **Beregner** | [Beregn Ponderal Index her](#calculator) | [Beregn dit BMI her](/bmi-beregner/) |
+| **Beregner** | [Beregn Ponderal Index her](#calculator) | [Beregn dit BMI her](/bmi/#calculator) |
 
 ---
 

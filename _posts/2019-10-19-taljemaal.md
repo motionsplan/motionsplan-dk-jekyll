@@ -161,7 +161,7 @@ For at få pålidelige og reproducerbare resultater er det afgørende, at du må
 
 ## 1. Det rene taljemål (Livvidde)
 
-Taljemålet er i sig selv særligt relevant, fordi det måler det risikable fedt omkring de indre organer. I forbindelse med vægttab og styrketræning er taljemålet ofte en langt bedre markør end vægten eller [BMI-beregninger](/bmi-beregner/), da øget muskelmasse kan øge kropsvægten, selvom du taber fedt.
+Taljemålet er i sig selv særligt relevant, fordi det måler det risikable fedt omkring de indre organer. I forbindelse med vægttab og styrketræning er taljemålet ofte en langt bedre markør end vægten eller [BMI-beregninger](/bmi/), da øget muskelmasse kan øge kropsvægten, selvom du taber fedt.
 
 {% include calc/waist.html 
    calc_id="waist-only" 

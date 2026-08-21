@@ -120,10 +120,12 @@ Gør din træning og sundhed mere datadrevet. Hvad enten du vil beregne din ener
 {: id="tools" }
 
 <div class="notice--info" markdown="1">
+
 ### 🧮 Sundheds- & Kalorieberegnere
+
 Få styr på kost, energiomsætning og kropssammensætning.
 * **[Ligevægtsindtag](/ligevaegtsindtag-beregner/)** & **[BMR Beregner](/bmr-beregner/)** – Udregn dit daglige kaloriebehov ud fra dit aktivitetsniveau.
-* **[BMI Beregner (Voksne)](/bmi-beregner/)** & **[BMI til Børn & Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek dit BMI i forhold til officielle sundhedsintervaller.
+* **[BMI Beregner (Voksne)](/bmi/)** & **[BMI til Børn & Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek dit BMI i forhold til officielle sundhedsintervaller.
 * **[Mål din Fedtprocent](/maal-fedtprocent/)** – Oversigt over 7 forskellige metoder til måling af kropsfedt.
 * **[Taljemål & Talje-Hofte Ratio](/taljemaal/)** – Vurdér sundhedsrisiko baseret på fedtfordeling.
 
@@ -131,7 +133,9 @@ Få styr på kost, energiomsætning og kropssammensætning.
 </div>
 
 <div class="notice--success" markdown="1">
+
 ### 🏋️‍♂️ Styrke & Træningsredskaber
+
 Værktøjer til dig, der træner i gymmet eller dyrker vægtløftning.
 * **[1RM Beregner (Max Vægt)](/rm-beregner/)** – Beregn din maksimale styrke uden at risikere skader.
 * **[Omregn Aktivitet til Skridt](/omregn-motion-aktivitet-sport-til-skridt/)** – Konvertér cykling, svømning og styrketræning til skridt.
@@ -139,8 +143,11 @@ Værktøjer til dig, der træner i gymmet eller dyrker vægtløftning.
 </div>
 
 <div class="notice--warning" markdown="1">
+
 ### 🏃‍♀️ Kondition & Løbeværktøjer
+
 Optimér din løbetræning og præstation.
+
 * **[Pulszoner Beregner](/pulszoner-beregner/)** – Find dine optimale træningszoner ud fra din hvile- og maxpuls.
 * **[Hastighed & Pace Beregner](/hastighed/)** – Omregn nemt mellem km/t og min/km.
 * **[VDOT & Løbetider](/loebesiden-jack-daniels-loebeberegner/)** – Forudsig dine løbetider på 5k, 10k, halvmaraton og maraton.
@@ -150,7 +157,9 @@ Optimér din løbetræning og præstation.
 
 
 <div class="notice--primary" markdown="1">
+
 ### 🧠 Mentale Vurderinger & Sportspsykologi
+
 Redskaber til at vurdere din mentale sundhed, trivsel og idrætspsykologiske balance.
 * **[REDs Energitjek (Relativ Energimangel)](/rem-s/)** – Test balancen mellem træningsmængde, energi og fysiologi.
 * **[Sportspsykologiske Tests](/sportspsykologiske-tests/)** – Samlet portal for overtræning, præstationsangst, mental styrke og motivation.

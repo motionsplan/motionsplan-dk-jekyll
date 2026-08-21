@@ -233,7 +233,7 @@ Der er reelt ikke en linæer sammenhæng mellem fedtprocent og BMI. Antagelsen i
 
 Da højden og vægten indgår i de fleste formler for fedtprocent, så er beregninger af fedtprocenten behæftet med de samme usikkerheder som BMI. Det er umuligt at vide, om vægten er forårsaget af muskler eller fedt.
 
-Jeg har skrevet mere om [Body Mass Index](/bmi/) og lavet en [BMI beregner](/bmi-beregner/), og jeg har også skrevet et omfattende indlæg om [idealvægt](/idealvaegt/).
+Jeg har skrevet mere om [Body Mass Index](/bmi/), og jeg har også skrevet et omfattende indlæg om [idealvægt](/idealvaegt/).
 
 ## Hvad er en god fedtprocent?
 

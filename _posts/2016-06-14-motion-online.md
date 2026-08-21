@@ -64,19 +64,25 @@ Dyk ned i vores to hovedkategorier herunder:
 Herunder kan du klikke dig direkte ind på vores opdaterede oversigtssider:
 
 ### 📊 [Gå til alle Beregnere og Værktøjer →](/beregnere/)
+
 Her finder du vores samlede bibliotek af fysiologiske beregnere.
+
 * **[RM-beregner](/rm-beregner/):** Udregn din maksimale styrke (1RM) i squat, bænkpres osv.
 * **[Ligevægtsberegner](/ligevaegtsindtag-beregner/) og [BMR](/bmr-beregner/):** Find dit daglige kaloriebehov og hvilestofskifte.
-* **[BMI-beregner](/bmi-beregner/):** Beregn Body Mass Index for voksne, mænd, kvinder og børn.
+* **[BMI-beregner](/bmi/):** Beregn Body Mass Index for voksne, mænd, kvinder og børn.
 
 ### 🏃 [Gå til alle Konditionstests →](/tests/)
+
 Her finder du alle vores guides og udregnere til at måle din kondition og udholdenhed.
+
 * **[Kondital & VO2-max](/kondital/):** Læs om iltoptagelse, og se tabeller for din alder.
 * **[Cooper-test](/cooper-test/):** Test din form ud fra, hvor langt du løber på 12 minutter.
 * **[Gangtest (6 min & Rockport)](/gaatest-6min/):** Skånsomme og præcise tests af dit kondital.
 
 ### 🏋️ [Gå til Træningsøvelser & Programmer →](/traening/)
+
 Mangler du inspiration til din styrketræning eller cirkeltræning?
+
 * **[Cirkeltræning](/cirkeltraening/):** Komplet guide til opbygning af effektive cirkeltræningspas.
 * **[Styrketræning for begyndere](/styrketraening/begyndere/):** Lær at lægge dit eget program fra bunden.
 

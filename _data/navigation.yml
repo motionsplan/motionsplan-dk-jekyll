@@ -76,7 +76,7 @@ blog:
       - title: "Ligevægtsindtag og energiforbrug"
         url: /ligevaegtsindtag-beregner/
       - title: "BMI beregner"
-        url: /bmi-beregner/
+        url: /bmi/
 anatomi:
   - title: "Anatomi"
     url: "/anatomi/"

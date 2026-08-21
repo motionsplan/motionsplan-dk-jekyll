@@ -47,7 +47,9 @@ Vælg en kategori herunder, eller søg i den samlede tabel efter det specifikke 
 ## Beregnere opdelt efter emne
 
 <div class="notice--success" markdown="1">
+
 ### 🍏🔢 Kalorier, Kost & Energi
+
 Få styr på dit energiforbrug, dit kaloriebehov og din kost.
 * **[Ligevægtsindtag beregner](/ligevaegtsindtag-beregner/)** – Udregn hvor mange kalorier du forbrænder om dagen.
 * **[BMR-beregner](/bmr-beregner/)** – Udregn hvor mange kalorier du forbrænder om dagen.
@@ -55,9 +57,11 @@ Få styr på dit energiforbrug, dit kaloriebehov og din kost.
 </div>
 
 <div class="notice--info" markdown="1">
+
 ### 🏋️‍♀️📏 BMI, Kropssammensætning & Vægt
+
 Få overblik over din kropsbygning, ideelle vægt og sundhedsindikatorer.
-* **[BMI Beregner](/bmi-beregner/)** – Beregn dit BMI og se officielle vægtklasser.
+* **[BMI Beregner](/bmi/)** – Beregn dit BMI og se officielle vægtklasser.
 * **[BMI Beregner til Børn & Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek alderssvarende BMI-kurver.
 * **[Mål din Fedtprocent](/maal-fedtprocent/)** – Oversigt over alle metoder til at finde din fedtprocent.
 * **[Idealvægt Beregner](/idealvaegt/)** – Udregn din teoretiske idealvægt.
@@ -65,7 +69,9 @@ Få overblik over din kropsbygning, ideelle vægt og sundhedsindikatorer.
 </div>
 
 <div class="notice--warning" markdown="1">
+
 ### 🏃‍♂️📊 Løb & Kondition
+
 Optimér din løbetræning, hastighed og udholdenhed med vores løbeberegnere.
 * **[Oversigt over Løbeværktøjer & Beregnere](/loebesiden/#beregnere)** – Samlet overblik over løberelevante beregnere.
 * **[Løbeberegner, Jack Daniels og VDOT](/loebesiden-jack-daniels-loebeberegner/)** – Beregn dit kondital ud fra dine testresultater.
@@ -75,7 +81,9 @@ Optimér din løbetræning, hastighed og udholdenhed med vores løbeberegnere.
 </div>
 
 <div class="notice--success" markdown="1">
+
 ### 🏋️ Styrke & Vægtløftning
+
 Optimér din tung styrketræning og beregn dit styrkeniveau.
 
 * **[1RM Beregner](/rm-beregner/)** – Beregn din maksimale vægtudfoldelse (1 Rep Max) ud fra færre gentagelser.
