@@ -1,8 +1,8 @@
 ﻿Kildeside (Fil),Ankertekst,Mål-URL
 404.html,Læs resten af artiklerne,/blog/
 _includes/calculator/calculate-bmi.html,beregner til BMI for børn,/bmi-beregner-boern-unge-teenagere/
-_includes/calculator/calculate-bmi.html,beregner til BMI for voksne kvinder og mænd,/bmi-beregner/
-_posts/2020-11-22-inol.md,one rep max,/rm-maxtest/
+_includes/calculator/calculate-bmi.html,beregner til BMI for voksne kvinder og mænd,/bmi/
+_posts/2020-11-22-inol.md,one rep max,/rm-beregner/
 _posts/2020-11-22-inol.md,RPE-tabel til styrketræning,/rpe/
 _posts/2020-11-22-inol.md,Prilepins tabel,/prilepins-tabel/
 _posts/2020-01-17-test-jump-sargent.md,Jump & Reach Test,/jump-reach/
@@ -10,7 +10,19 @@ _posts/2020-01-17-test-jump-sargent.md,CMJ & Squat Jump,/countermovement-jump-cm
 _posts/2020-01-17-test-jump-sargent.md,Oversigt over alle springtests,/springtests-hoppehoejde/
 _posts/2020-01-17-test-jump-sargent.md,springtræning og eksplosivitet,/springtraening/
 _posts/2020-01-17-test-jump-sargent.md,Jump & Reach-testen med en Vertec,/jump-reach/
+_posts/2025-02-20-laboratorie-incremental-submax-ramp-maxtest-cykling.md,teori om iltoptagelsestests,/iltoptagelse-laboratorietest/
 _posts/2025-02-20-laboratorie-incremental-submax-ramp-maxtest-cykling.md,Alle kritierer for en godkendt VO2max test,/kriterier-maksimal-iltoptagelsestest/
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,fysiologiske teori bag en iltoptagelsestest,/iltoptagelse-laboratorietest/
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,respiratoriske udvekslingskvotient (RER),/respiratoriske-metaboliske-udvekslingskvotient/
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,respiratoriske udvekslingskvotient (RER),/respiratoriske-metaboliske-udvekslingskvotient/
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,Se protokollen for laktat-trappetest og beregn din kurve her →,/laktattest/
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,Laktatberegner til LT1 & LT2 →,/laktattest/#calculator
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,Se alle 6 kriterier for en godkendt VO2max test →,/kriterier-maksimal-iltoptagelsestest/
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,Gå i dybden med alle 6 kriterier for en godkendt VO2max-test →,/kriterier-maksimal-iltoptagelsestest/
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,Direkte iltoptagelse i laboratorium,/iltoptagelse-laboratorietest/
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,Laktattest & blodlaktat guide,/laktattest/
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,Kriterier for VO2max test,/kriterier-maksimal-iltoptagelsestest/
+_posts/2025-02-20-iltoptagelsestest-loebebaand.md,Indirekte konditionstests,/tests/loeb/
 _posts/2022-07-21-discgolf-baner.md,spille discgolf,/discgolf/
 _posts/2022-07-21-discgolf-baner.md,lokale regler for handicap på banen,/discgolf-handicap/
 _posts/2022-07-21-discgolf-baner.md,hvordan du vælger en golfdisc til begyndere,/golfdisc-til-discgolf/
@@ -37,10 +49,9 @@ _posts/2026-08-02-return-to-sport.md,Bip-test & Yo-Yo Test,/bip-test/
 _posts/2026-08-02-return-to-sport.md,Hoptest-batteriet,/hoptest-batteriet/
 _posts/2026-08-02-return-to-sport.md,LESS-testen,/less-test/
 _posts/2026-08-02-return-to-sport.md,Y-Balance Test,/y-balance-test/
-_posts/2019-10-31-bmi.md,"BMI for børn, unge og teenagere",/bmi-beregner-boern-unge-teenagere/
-_posts/2019-10-31-bmi.md,"BMI for børn, unge og teenagere",/bmi-beregner-boern-unge-teenagere/
-_posts/2019-10-31-bmi.md,"idealvægt baseret på BMI
-    her",/idealvaegt/
+_posts/2019-10-31-bmi.md,BMI-beregner for børn og unge,/bmi-beregner-boern-unge-teenagere/
+_posts/2019-10-31-bmi.md,idealvægt ud fra BMI,/idealvaegt/
+_posts/2019-10-31-bmi.md,Gå til vores BMI-beregner for børn og unge,/bmi-beregner-boern-unge-teenagere/
 _posts/2019-10-31-bmi.md,retfærdig vurdering af overvægtiges kondition,/kondital/
 _posts/2019-10-31-bmi.md,gennemsnitshøjden for mænd,/hvad-er-gennemsnitshoejden-i-danmark/
 _posts/2019-10-31-bmi.md,udregne din idealvægt,/idealvaegt/
@@ -54,7 +65,7 @@ _posts/2019-10-31-bmi.md,tage på ved træning,/vaegt-stiger-traening/
 _posts/2019-10-31-bmi.md,Ponderal Index,/ponderal-index/
 _posts/2019-10-31-bmi.md,forskellige taljemål,/taljemaal/
 _posts/2019-10-31-bmi.md,forskellige modeller for kropskomposition her,/kropskomposition/
-_posts/2019-10-31-bmi.md,vores BMI beregner,/bmi-beregner/
+_posts/2019-10-31-bmi.md,vores BMI beregner for mænd og kvinder,/bmi/
 _posts/2019-10-31-bmi.md,Ponderal Index beregner,/ponderal-index/
 _posts/2022-05-22-svinetraening.md,Naturstyrelsens Naturfitness og træning i naturen,/naturfitness/
 _posts/2022-05-22-svinetraening.md,Outdoor Fitness og Dogmefitness og udendørs træning,/artikel/dogmefitness/
@@ -124,11 +135,15 @@ _posts/2020-06-18-borg-skala.md,RPE-skalaen til styrketræning her,/rpe/
 _posts/2020-06-18-borg-skala.md,Borg 15 cykelergometertest,/kondital-borg15/
 _posts/2021-11-19-vertical-jump-forces.md,Fysikkens love og det horisontale spring,/fysik-horisontalt-hop/
 _posts/2021-11-19-vertical-jump-forces.md,artikler om biomekanik,/biomekanik/
-_posts/2021-08-23-opvarmning.md,beskrivelse af opvarmning til styrketræning,/opvarmning-styrketraening/
-_posts/2021-08-23-opvarmning.md,opvarmning til løb,/opvarmning-loeb/
-_posts/2021-08-23-opvarmning.md,foamrolling eller SMR,/foamrolling-foamroller-lacrossebolde/
-_posts/2021-08-23-opvarmning.md,Åndedrætsøvelser og vejrtrækningsøvelser,/aandedraetstraening-forbedrer-udholdenheden/
-_posts/2021-08-23-opvarmning.md,øvelserne til opvarmning før styrketræning,/opvarmning-styrketraening/
+_posts/2021-08-23-opvarmning.md,"Opvarmning til Styrketræning: valg af vægt, mobilitet og ramp-up",/opvarmning-styrketraening/
+_posts/2021-08-23-opvarmning.md,"Opvarmning til Løb: Dynamiske øvelser, kadence og stigningsløb",/opvarmning-loeb/
+_posts/2021-08-23-opvarmning.md,Opvarmning til Cykling: Fra landevej til intetanende Zwift-ræs,/opvarmning-cykling/
+_posts/2021-08-23-opvarmning.md,Politiets opvarmning til den fysiske prøve,/politiets-fysiske-test/opvarmning/
+_posts/2021-08-23-opvarmning.md,Opvarmning til Idræt: Lege og reaktive øvelser til undervisning,/opvarmning-idraet/
+_posts/2021-08-23-opvarmning.md,FIFA 11+ Programmet,/fifa-11-plus/
+_posts/2021-08-23-opvarmning.md,PEP Programmet,/pep-program/
+_posts/2021-08-23-opvarmning.md,Opvarmning til 1RM-Maxtest & PAP,/pap-post-activation-potentiation-1rm-maxtest/
+_posts/2021-08-23-opvarmning.md,RAMP-modellen,/ramp-opvarmning/
 _posts/2021-11-12-abq.md,Test for Træningsafhængighed (EAI),/traeningsafhaengighed/
 _posts/2021-11-12-abq.md,WHO-5 Trivselsindeks,/who5-trivselindekset/
 _posts/2021-11-12-abq.md,Anerkendt Stresstest (PSS-10),/stress-test/
@@ -139,13 +154,12 @@ _posts/2022-09-07-hiit-aktiv-passiv-pause.md,intervaltræning,/intervaltraening/
 _posts/2022-09-07-hiit-aktiv-passiv-pause.md,HIIT-træning,/hiit/
 _posts/2022-09-07-hiit-aktiv-passiv-pause.md,Hvad er HIIT-træningsprogrammer,/hvad-er-hiit-traeningsprogrammer/
 _posts/2022-09-07-hiit-aktiv-passiv-pause.md,Alt om intervalløb,/intervallob-intervaltraening/
-_posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md,intervaller og intervaltræning,/intervaltraening/
+_posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md,Borg-skala / RPE-skalaen,/borg-skala/
 _posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md,anaerob træning,/anaerob-traening/
 _posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md,mælkesyre,/maelkesyre-traening/
-_posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md,intensitetsskala,/borg-skala/
-_posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md,intervaltræning,/intervaltraening/
-_posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md,energisystemerne,/energisystemer/
-_posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md,Concept2s 2000 meter test for at finde dit kondital,/kondital-roning/
+_posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md,intervaller,/intervaltraening/
+_posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md,kondital på romaskine,/kondital-roning/
+_posts/2025-02-20-vo2max-test-kriterier.md,Læs alt om hvordan en direkte iltoptagelsestest afvikles i laboratoriet →,/iltoptagelse-laboratorietest/
 _posts/2025-02-20-vo2max-test-kriterier.md,respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
 _posts/2025-02-20-vo2max-test-kriterier.md,Her kan du beregne din maksimale puls.,/max-puls-beregner/
 _posts/2021-01-25-hvor-mange-muskler.md,helt grundlæggende ikke forskel på selve opbygningen af mænds og kvinders muskler,/maend-kvinder-muskler/
@@ -169,14 +183,8 @@ _posts/2022-10-04-kontrastbade.md,restitutionstid,/restitutionstid/
 _posts/2026-08-05-sitko-test.md,20-minutters FTP-test,/ftp-test/
 _posts/2026-08-05-sitko-test.md,Watt Max test (Ramp-test),/kondital-wattmax/
 _posts/2022-08-08-roning-trappetest.md,kondital,/kondital/
-_posts/2022-08-08-roning-trappetest.md,"tests
-  til roning",/kondital-roning/
-_posts/2022-08-08-roning-trappetest.md,kondital,/kondital/
 _posts/2022-08-08-roning-trappetest.md,tests til roning,/kondital-roning/
-_posts/2022-08-08-roning-trappetest.md,maksimale iltoptagelse,/maksimale-iltoptagelse-vo2max/
-_posts/2022-08-08-roning-trappetest.md,bedre kondition,/kondition/
-_posts/2022-08-08-roning-trappetest.md,kredsløbstræning,/konditionstraening/
-_posts/2022-08-08-roning-trappetest.md,intervaller til roning,/artikel/traeningsprogrammer-intervaller-roning/
+_posts/2022-08-08-roning-trappetest.md,intervaller til romaskinen,/artikel/traeningsprogrammer-intervaller-roning/
 _posts/2025-07-21-couzens-kcal.md,Energiforbrug ved træning – hvor mange kalorier bruger du?,/beregn-bevaegelsesokonomi-effektivitet/
 _posts/2025-07-21-couzens-kcal.md,Træningsprincipper: 10 grundlæggende regler,/traeningsprincipper/
 _posts/2021-11-10-who5-trivsel.md,PHQ-9 Depressionstest,/phq-9-depression-test/
@@ -207,6 +215,8 @@ _posts/2022-07-27-discgolf-teknik.md,stabiliteten indvirker på en golfdiscs sv�
 _posts/2022-07-27-discgolf-teknik.md,discgolf-handicap,/discgolf-handicap/
 _posts/2022-07-27-discgolf-teknik.md,valgt dine frisbees til discgolf,/golfdisc-til-discgolf/
 _posts/2022-07-27-discgolf-teknik.md,apps til discgolf,/discgolf-apps/
+_posts/2026-08-17-storrelsesguide-sportssko.md,bedste sko til Crossfit,/sko-crossfit/
+_posts/2026-08-17-storrelsesguide-sportssko.md,styrketræningssko,/sko-styrketraening-fitness/
 _posts/2022-10-24-udstyr-virtuel-cykling.md,Zwift,/komplet-begynderguide-zwift/
 _posts/2022-10-24-udstyr-virtuel-cykling.md,MyWhoosh,/mywhoosh-cycling/
 _posts/2022-10-24-udstyr-virtuel-cykling.md,BKOOL,/bkool-begynderguide/
@@ -228,6 +238,10 @@ _posts/2021-04-24-programlaegning.md,forskellen på mænd og kvinders muskler,/m
 _posts/2021-04-24-programlaegning.md,en deload uge,/deload-uge/
 _posts/2021-04-24-programlaegning.md,superkompensation,/superkompensation/
 _posts/2021-04-24-programlaegning.md,Alt om progressionsmodeller,/progressionsmodeller-progressivt-overload/
+_posts/2020-04-16-smr-lacrosse-bolde.md,Smidighedstræning – Den fysiologiske guide til bedre mobilitet,/smidighedstraening/
+_posts/2020-04-16-smr-lacrosse-bolde.md,Virker foamrolling? Videnskaben om muskeltonus og myter,/virker-foamrolling/
+_posts/2020-04-16-smr-lacrosse-bolde.md,Foamroller – Guide og 10+ øvelser med foam roller,/foamrolling/
+_posts/2020-04-16-smr-lacrosse-bolde.md,Udstrækningsøvelser – 22+ stræk for hele kroppen,/udstraekning-udspaending/
 _posts/2021-08-24-loebetur.md,guide til opvarmning til løb,/opvarmning-loeb/
 _posts/2021-08-24-loebetur.md,hurtigere løbekadence,/gennemsnitlige-skridtlaengde-kadence-loeb/
 _posts/2021-08-24-loebetur.md,løbeteknik og løbestil,/loebeteknik/
@@ -277,7 +291,7 @@ _posts/2024-08-04-somatotype.md,hvordan idræt påvirker kroppen,/sportsgrene-pa
 _posts/2019-11-04-kondital-index-23.md,"kondition, kredsløb og konditionstræning",/kondition/
 _posts/2019-11-04-kondital-index-23.md,oversigt over konditionstests,/kondition/tests/
 _posts/2019-11-04-kondital-index-23.md,kondital,/kondital/
-_posts/2019-11-04-kondital-index-23.md,beregnet BMI,/bmi-beregner/
+_posts/2019-11-04-kondital-index-23.md,beregnet BMI,/bmi/
 _posts/2019-11-04-kondital-index-23.md,normalvægtig i forhold til BMI,/bmi/
 _posts/2019-11-04-kondital-index-23.md,løbeøkonomi,/lobeokonomi/
 _posts/2022-02-09-pulsure.md,løbemålinger og løbedynamik,/loebedynamik-loebemaalinger/
@@ -344,12 +358,12 @@ _posts/2026-08-02-minimum-effective-volume-strength.md,Dr. Paks Minimal Effectiv
 _posts/2026-08-02-minimum-effective-volume-strength.md,verdens mest effektive (og korteste) styrkeprogram,/artikel/verdens-korteste-styrkeprogram/
 _posts/2019-11-18-wingate-test.md,anaerob træning,/anaerob-traening/
 _posts/2019-11-18-wingate-test.md,anaerob træning,/wingate/
-_posts/2019-11-18-wingate-test.md,intervaltræning,/intervallob/
+_posts/2019-11-18-wingate-test.md,intervaltræning,/intervaltraening/
 _posts/2019-11-18-wingate-test.md,6 sekunders peak power test,/6sek/
 _posts/2019-11-01-stofskifteberegner-formler.md,BMR-beregner,/bmr-beregner/
 _posts/2019-11-01-stofskifteberegner-formler.md,kalorier (cal) og kilokalorier (kcal) er her,/hvad-er-kalorier/
 _posts/2019-11-01-stofskifteberegner-formler.md,kalorier (cal) og kilokalorier (kcal) er her,/hvad-er-kalorier/
-_posts/2019-11-01-stofskifteberegner-formler.md,udregning af BMI,/bmi-beregner/
+_posts/2019-11-01-stofskifteberegner-formler.md,udregning af BMI,/bmi/
 _posts/2019-11-01-stofskifteberegner-formler.md,BMR-beregner,/bmr-beregner/
 _posts/2019-11-01-stofskifteberegner-formler.md,Cunninghams formel til hvilestofskifte,/bmr-beregner-ffm/
 _posts/2019-11-01-stofskifteberegner-formler.md,beregner dit daglige energibehov,/hvordan-beregne-dagligt-energibehov/
@@ -402,13 +416,12 @@ _posts/2020-05-30-ideal-weight.md,ideelt BMI,/bmi/
 _posts/2020-05-30-ideal-weight.md,Danske kvinder er i gennemsnit,/hvad-er-gennemsnitshoejden-i-danmark/
 _posts/2020-05-30-ideal-weight.md,gennemsnitshøjden,/hvad-er-gennemsnitshoejden-i-danmark/
 _posts/2020-05-30-ideal-weight.md,BMI,/bmi/
-_posts/2020-05-30-ideal-weight.md,BMI-beregner,/bmi-beregner/
 _posts/2020-05-30-ideal-weight.md,Body Mass Index (BMI),/bmi/
 _posts/2020-05-30-ideal-weight.md,modeller til at beskrive kroppens sammensætning,/kropskomposition/
 _posts/2020-05-30-ideal-weight.md,måle fedtprocent,/maal-fedtprocent/
 _posts/2020-05-30-ideal-weight.md,Body Mass Index (BMI),/bmi/
 _posts/2020-05-30-ideal-weight.md,Ponderal Index (Rohrer's Index),/ponderal-index/
-_posts/2020-05-30-ideal-weight.md,BMI-beregner,/bmi-beregner/
+_posts/2020-05-30-ideal-weight.md,BMI-beregner,/bmi/
 _posts/2020-05-30-ideal-weight.md,lav fedtprocent,/fedtprocent-normer/
 _posts/2022-10-09-styrkeloeft-rekorder.md,standardreglerne for styrkeløft,/powerlifting-rules/
 _posts/2022-10-09-styrkeloeft-rekorder.md,sammenligne styrke,/sammenligning-styrke/
@@ -425,12 +438,8 @@ _posts/2025-04-11-pivot-week.md,Liftosaur,/liftosaur/
 _posts/2025-04-11-pivot-week.md,styrketræningsprogrammer,/styrketraeningsprogrammer/
 _posts/2025-04-11-pivot-week.md,træningsprogrammer,/traeningsprogrammer/
 _posts/2025-04-11-pivot-week.md,træning,/traening/
-_posts/2021-11-10-red-test.md,Test for Træningsafhængighed (EAI),/traeningsafhaengighed/
-_posts/2021-11-10-red-test.md,Test for Træningsafhængighed (EAI),/traeningsafhaengighed/
-_posts/2021-11-10-red-test.md,Screening for Spiseforstyrrelser,/spiseforstyrrelser/
-_posts/2021-11-10-red-test.md,Athlete Burnout Questionnaire (ABQ),/abq-udbraendthed-overtraening/
 _posts/2019-12-05-hastighed-beregnere.md,intervaller og intervalløb,/intervallob-intervaltraening/
-_posts/2019-12-05-hastighed-beregnere.md,hvor langt du skal løbe på et interval,/hvor-langt-per-interval/
+_posts/2019-12-05-hastighed-beregnere.md,hvor langt du skal løbe på et interval,/intervallob-intervaltraening/#calculator
 _posts/2019-12-05-hastighed-beregnere.md,Gå til siden med detaljerede pace-tabeller,/hastighed/pace-tabeller/
 _posts/2019-12-05-hastighed-beregnere.md,Jack Daniels løbeberegner,/loebesiden-jack-daniels-loebeberegner/
 _posts/2019-12-05-hastighed-beregnere.md,Slå op i vore pacetabeller,/hastighed/pace-tabeller/
@@ -444,7 +453,7 @@ _posts/2020-06-15-intervallob.md,løbeprogram,/loebeprogrammer/
 _posts/2020-06-15-intervallob.md,intensitetszone,/traeningszoner/
 _posts/2020-06-15-intervallob.md,Jack Daniels Løbsberegner,/loebesiden-jack-daniels-loebeberegner/
 _posts/2020-06-15-intervallob.md,omregne fra hastighed i min/km,/hastighed/
-_posts/2020-06-15-intervallob.md,hvor langt du skal løbe på et tidsinterval her,/hvor-langt-per-interval/
+_posts/2020-06-15-intervallob.md,oversigt over alle løbeværktøjer,/loebesiden/#beregnere
 _posts/2020-06-15-intervallob.md,anaerob træning,/anaerob-traening/
 _posts/2020-06-15-intervallob.md,Guide til bakkeintervaller,/bakkesprint-bakkeloeb/
 _posts/2020-06-15-intervallob.md,guide til kroppens energisystemer,/energisystemer/
@@ -458,6 +467,7 @@ _posts/2020-06-15-intervallob.md,maksimale iltoptagelse,/maksimale-iltoptagelse-
 _posts/2020-06-15-intervallob.md,anaerobe tærskel,/anaerobe-taerskel/
 _posts/2020-06-15-intervallob.md,VO2max-studier,/maksimale-iltoptagelse-vo2max/
 _posts/2020-06-15-intervallob.md,HIIT,/hiit/
+_posts/2020-06-15-intervallob.md,10-20-30,/10-20-30-intervaltraening/
 _posts/2020-06-15-intervallob.md,Tabata-intervaller,/artikel/tabata-traening-intervaller/
 _posts/2020-06-15-intervallob.md,HIIT,/hiit/
 _posts/2020-06-15-intervallob.md,Sprint 8,/artikel/sprint-8-intervaltraening-der-virker/
@@ -474,13 +484,6 @@ _posts/2020-06-15-intervallob.md,energimetoder,/energisystemer/
 _posts/2020-06-15-intervallob.md,HIIT træning,/hiit/
 _posts/2020-06-15-intervallob.md,intervaller til rotræning,/artikel/traeningsprogrammer-intervaller-roning/
 _posts/2020-06-15-intervallob.md,løbeprogrammerne,/loebeprogrammer/
-_posts/2025-02-20-laboratorie-incremental-submax-ramp-maxtest-loeb.md,respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
-_posts/2025-02-20-laboratorie-incremental-submax-ramp-maxtest-loeb.md,submaksimale iltoptagelsestest på løbebånd,/iltoptagelse-submax-trappetest-loeb/
-_posts/2025-02-20-laboratorie-incremental-submax-ramp-maxtest-loeb.md,rampetest til test af vo2max her,/iltoptagelse-max-test-loeb/
-_posts/2025-02-20-laboratorie-incremental-submax-ramp-maxtest-loeb.md,respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
-_posts/2025-02-20-laboratorie-incremental-submax-ramp-maxtest-loeb.md,beregner til max-puls,/max-puls-beregner/
-_posts/2025-02-20-laboratorie-incremental-submax-ramp-maxtest-loeb.md,Kritierer for en maksimal iltoptagelsestest,/kriterier-maksimal-iltoptagelsestest/
-_posts/2025-02-20-laboratorie-incremental-submax-ramp-maxtest-loeb.md,tests af iltoptagelsen i et laboratorium,/iltoptagelse-laboratorietest/
 _posts/2022-02-08-fitness-butikker.md,Blazepods,/blazepod/
 _posts/2022-02-08-fitness-butikker.md,forskellige sportsgrene,/sportsgrene-liste/
 _posts/2022-02-08-fitness-butikker.md,kreatin,/kreatin/
@@ -497,9 +500,14 @@ _posts/2020-12-12-styrk-dine-skuldre.md,triceps,/triceps-brachii/
 _posts/2020-12-12-styrk-dine-skuldre.md,skulderøvelser,/skulderoevelser/
 _posts/2020-12-12-styrk-dine-skuldre.md,skulderleddet,/joints/skulderleddet/
 _posts/2022-11-04-traening-sengetid.md,søvn og søvnkvalitet,/soevn/
+_posts/2022-11-04-traening-sengetid.md,hvilepuls,/hvilepuls/
 _posts/2022-11-04-traening-sengetid.md,Hvilepulsen,/hvilepuls/
 _posts/2022-11-04-traening-sengetid.md,hård intervaltræning,/intervaltraening/
 _posts/2022-11-04-traening-sengetid.md,hvilepulsen,/hvilepuls/
+_posts/2022-11-04-traening-sengetid.md,dine muskler,/muskler/
+_posts/2022-11-04-traening-sengetid.md,intervalpas,/intervallob-intervaltraening/
+_posts/2022-11-04-traening-sengetid.md,1RM-maxforsøg,/rm-beregner/
+_posts/2022-11-04-traening-sengetid.md,restitution,/restitution/
 _posts/2020-08-17-politiets-fysiske-tests.md,interaktive opvarmnings-timer på mobilen,/politiets-fysiske-test/opvarmning/
 _posts/2020-08-17-politiets-fysiske-tests.md,interaktive timer til 8-talstesten,/8-tal-hurtighedstest/
 _posts/2020-08-17-politiets-fysiske-tests.md,Guide: Læs mere om træning til længdespringstesten,/broadjump/
@@ -561,19 +569,39 @@ _posts/2020-01-16-sprinting.md,hoftedominante øvelser,/hoftedominante-oevelser/
 _posts/2020-01-16-sprinting.md,Sprinttræning for løbere,/loeb/sprinttraening/
 _posts/2020-01-16-sprinting.md,Eksplosivitet & RFD,/eksplosivitet/
 _posts/2020-01-16-sprinting.md,Sprinttests Oversigt,/tests/sprint/
-_posts/2009-08-04-traening-med-kropsvaegt.md,skrevet om cirkeltræning,/cirkeltraening/
+_posts/2009-08-04-traening-med-kropsvaegt.md,Se alle øvelser i arkivet,/traeningsoevelser/
+_posts/2009-08-04-traening-med-kropsvaegt.md,28-dages hjemmetræningsprogram,/hjemmetraening-traeningsprogram/
+_posts/2009-08-04-traening-med-kropsvaegt.md,guide til cirkeltræning,/cirkeltraening/
+_posts/2009-08-04-traening-med-kropsvaegt.md,begynderguide til Calisthenics,/calisthenics-begynderprogram-kropsvaegtstraening/
 _posts/2022-04-28-flyer-handicap.md,Brug vores aldersgraduerede løbeberegner her →,/aldersgraduerede-tider/
 _posts/2022-04-28-flyer-handicap.md,Læs også: Vægttab og løb – Beregn præcis hvor meget hurtigere du bliver pr. kilo →,/vaegttab-loebetid/
 _posts/2022-04-28-flyer-handicap.md,Aldersgraduerede løbetider,/aldersgraduerede-tider/
 _posts/2022-04-28-flyer-handicap.md,Vægttab og løbetid,/vaegttab-loebetid/
-_posts/2022-04-28-flyer-handicap.md,Samlet oversigt over løbeværktøjer,/loeb/vaerktoejer/
+_posts/2022-04-28-flyer-handicap.md,Samlet oversigt over løbeværktøjer,/loebesiden/#beregnere
 _posts/2021-11-12-sms-ii.md,ABQ Udbrændthedstest,/abq-udbraendthed-overtraening/
 _posts/2021-11-12-sms-ii.md,Test for Træningsafhængighed (EAI),/traeningsafhaengighed/
 _posts/2021-11-12-sms-ii.md,Athlete Burnout Questionnaire (ABQ),/abq-udbraendthed-overtraening/
 _posts/2021-11-12-sms-ii.md,Trivselsindekset (WHO-5),/who5-trivselindekset/
+_posts/2026-08-16-menstruation-traening.md,konditionstræning,/konditionstraening/
+_posts/2026-08-16-menstruation-traening.md,1RM-beregner,/rm-beregner/
+_posts/2026-08-16-menstruation-traening.md,HIIT-intervaller,/hiit/
+_posts/2026-08-16-menstruation-traening.md,specifik opvarmning,/opvarmning-styrketraening/
+_posts/2026-08-16-menstruation-traening.md,RPE-skalaen,/rpe/
+_posts/2026-08-16-menstruation-traening.md,deload-uge,/restitution/
+_posts/2026-08-16-menstruation-traening.md,1RM-beregner,/rm-beregner/
+_posts/2026-08-16-menstruation-traening.md,RPE-styring,/rpe/
+_posts/2026-08-16-menstruation-traening.md,deloaddag/uge,/restitution/
+_posts/2026-08-16-menstruation-traening.md,Test dit energiniveau og beregn din energitilgængelighed i vores REM-S Beregner,/rem-s/
+_posts/2026-08-16-menstruation-traening.md,hvilestofskifte (BMR),/hvilestofskiftet-formler/
+_posts/2026-08-16-menstruation-traening.md,ligevægtsindtag-beregner,/ligevaegtsindtag-beregner/
+_posts/2026-08-16-menstruation-traening.md,1RM-løft,/rm-beregner/
+_posts/2026-08-16-menstruation-traening.md,intervaller,/hiit/
+_posts/2026-08-16-menstruation-traening.md,RPE og RIR-styring,/rpe/
+_posts/2026-08-16-menstruation-traening.md,Test dit støttebehov i vores Sports-BH Beregner,/sports-bh-beregner/
 _posts/2022-08-14-soevndagbog.md,restituere optimalt,/restitution/
 _posts/2022-08-14-soevndagbog.md,optimere din søvn,/soevn-optimering/
 _posts/2022-08-14-soevndagbog.md,aktivitetsure påstår at kunne tracke søvn,/soevn-tracking/
+_posts/2009-04-22-kan-styrketraening-forebygge-skader.md,Se vores praktiske program med excentriske skadesforebyggende øvelser til benene her →,/skadesforebyggelse-skadesforebyggende-traening/
 _posts/2009-04-22-kan-styrketraening-forebygge-skader.md,Plyometrisk træning,/plyometrisk-traening/
 _posts/2009-04-22-kan-styrketraening-forebygge-skader.md,excentrisk domineret styrketræning,/excentrisk-traening/
 _posts/2009-04-22-kan-styrketraening-forebygge-skader.md,øvelsen Nordic Hamstring,/oevelse/nordic-hamstring/
@@ -600,20 +628,22 @@ _posts/2020-06-02-max-hr-beregner.md,Max-puls formler,/max-puls-formler/
 _posts/2020-06-02-max-hr-beregner.md,Overblik over max-puls,/test-max-puls/
 _posts/2020-06-02-max-hr-beregner.md,finde dine pulszoner ud fra maxpulsen,/pulszoner-beregner/
 _posts/2020-06-02-max-hr-beregner.md,udregne kondital baseret på maxpuls,/kondital-fra-puls/
+_posts/2019-10-31-kondital-laboratorietest.md,Øvelsesvejledning: Iltoptagelsestest på løbebånd →,/iltoptagelsestest-loebebaand/
+_posts/2019-10-31-kondital-laboratorietest.md,Øvelsesvejledning: Iltoptagelsestest på cykel →,/iltoptagelsestest-cykel/
 _posts/2019-10-31-kondital-laboratorietest.md,respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
 _posts/2019-10-31-kondital-laboratorietest.md,løbeøkonomien ved forskellige hastigheder,/lobeokonomi/
 _posts/2019-10-31-kondital-laboratorietest.md,Find dine træningszoner,/traeningszoner/
-_posts/2019-10-31-kondital-laboratorietest.md,5 kritierer for en maksimal iltoptagelsestest,/kriterier-maksimal-iltoptagelsestest/
+_posts/2019-10-31-kondital-laboratorietest.md,5 kriterier for en maksimal iltoptagelsestest,/kriterier-maksimal-iltoptagelsestest/
 _posts/2019-10-31-kondital-laboratorietest.md,Se hvordan du laver en laktattest derhjemme eller i klubben →,/laktattest/
+_posts/2019-10-31-kondital-laboratorietest.md,Iltoptagelsestest på løbebånd →,/iltoptagelsestest-loebebaand/
+_posts/2019-10-31-kondital-laboratorietest.md,Iltoptagelsestest på cykel →,/iltoptagelsestest-cykel/
+_posts/2019-10-31-kondital-laboratorietest.md,Se vores komplette guide til VO2max-gasanalyseudstyr →,/gasanalyse-udstyr-vo2max/
 _posts/2026-08-06-wallsit-test.md,Armstrækningstest,/armstraekninger-test/
 _posts/2026-08-06-wallsit-test.md,Sit-to-Stand test,/sit-to-stand-test/
 _posts/2026-08-06-wallsit-test.md,squat,/squat/
 _posts/2026-08-06-wallsit-test.md,Armstrækningstest (Push-ups),/armstraekninger-test/
 _posts/2026-08-06-wallsit-test.md,Pull-up Test (Kropshævninger),/pullup-test/
 _posts/2026-08-06-wallsit-test.md,Længdespring uden tilløb (Standing Broad Jump),/broadjump/
-_posts/2021-01-18-crossfit-workouts.md,mest brugte crossfitøvelser,/crossfit-crossfit-oevelser/
-_posts/2021-01-18-crossfit-workouts.md,Burpees,/oevelse/burpees/
-_posts/2021-01-18-crossfit-workouts.md,crossfitøvelser,/crossfit-crossfit-oevelser/
 _posts/2020-06-19-hurtigt-vokser-muskler.md,1RM,/rm-beregner/
 _posts/2020-06-19-hurtigt-vokser-muskler.md,Hvor hurtigt forsvinder muskler igen?,/atrofi-muskelmasse-muskelstyrke/
 _posts/2020-06-19-hurtigt-vokser-muskler.md,dansk mand af gennemsnitlig højde,/hvad-er-gennemsnitshoejden-i-danmark/
@@ -637,14 +667,13 @@ _posts/2025-04-14-arnolds-golden-six.md,Liftosaur-appen,/liftosaur/
 _posts/2025-03-30-svedtest.md,kulhydratforbrug-beregner,/kulhydratforbrug/
 _posts/2025-03-30-svedtest.md,Hvor meget vand skal du drikke om dagen?,/hvor-meget-vand-skal-man-drikke-om-dagen/
 _posts/2025-03-30-svedtest.md,hvad du skal drikke ved træning og konkurrence,/hvad-skal-jeg-drikke/
-_posts/2022-03-29-loebebaand-beregner.md,paceberegner og hastighedsberegner,/hastighed/
-_posts/2022-03-29-loebebaand-beregner.md,baldemusklerne,/balleoevelser/
-_posts/2022-03-29-loebebaand-beregner.md,baglårene,/hoftedominante-oevelser/
-_posts/2022-03-29-loebebaand-beregner.md,Hoftedominant,/hoftedominante-oevelser/
-_posts/2022-03-29-loebebaand-beregner.md,løbeteknik,/loebeteknik/
-_posts/2022-03-29-loebebaand-beregner.md,Paceberegner & Pacetabel,/hastighed/
+_posts/2022-03-29-loebebaand-beregner.md,kalorieforbrug ved løb og gang,/loeb-mere-energi-gang/
+_posts/2022-03-29-loebebaand-beregner.md,baldemuskler,/balleoevelser/
+_posts/2022-03-29-loebebaand-beregner.md,baglår,/hoftedominante-oevelser/
+_posts/2022-03-29-loebebaand-beregner.md,kondital,/kondital/
+_posts/2022-03-29-loebebaand-beregner.md,Paceberegner & Hastighedsberegner,/hastighed/
 _posts/2022-03-29-loebebaand-beregner.md,Løbebånd vs. Udendørs løb,/loebebaand-udendoers-loeb/
-_posts/2022-03-29-loebebaand-beregner.md,Guide til valg af løbebånd,/guide-loebebaand/
+_posts/2022-03-29-loebebaand-beregner.md,10-20-30 Intervaltræning,/10-20-30-intervaltraening/
 _posts/2022-03-29-loebebaand-beregner.md,VO2max & Maksimal iltoptagelse,/maksimale-iltoptagelse-vo2max/
 _posts/2020-07-16-mslhst-balance-test.md,Y-Balance Test,/y-balance-test/
 _posts/2020-07-16-mslhst-balance-test.md,enkeltbensstand,/balance-tests/
@@ -698,7 +727,8 @@ _posts/2016-06-14-motion-online.md,"Rockports 1,6 km gåtest",/gaatest/
 _posts/2016-06-14-motion-online.md,guide til cirkeltræning,/cirkeltraening/
 _posts/2016-06-14-motion-online.md,Gå til alle Beregnere og Værktøjer →,/beregnere/
 _posts/2016-06-14-motion-online.md,RM-beregner,/rm-beregner/
-_posts/2016-06-14-motion-online.md,Ligevægtsindtag & BMR,/ligevaegtsindtag-beregner/
+_posts/2016-06-14-motion-online.md,Ligevægtsberegner,/ligevaegtsindtag-beregner/
+_posts/2016-06-14-motion-online.md,BMR,/bmr-beregner/
 _posts/2016-06-14-motion-online.md,BMI-beregner,/bmi/
 _posts/2016-06-14-motion-online.md,Gå til alle Konditionstests →,/tests/
 _posts/2016-06-14-motion-online.md,Kondital & VO2-max,/kondital/
@@ -752,6 +782,15 @@ _posts/2019-10-20-1rm-beregner.md,Guide til en fysisk 1RM-maxtest,/rm-maxtest/
 _posts/2019-10-20-1rm-beregner.md,Styr dit program med RPE & RIR,/rpe/
 _posts/2020-07-06-rows.md,bent over rows,/oevelse/bent-over-rows-bor/
 _posts/2020-07-06-rows.md,chinups og pullps,/chinup-vs-pullup/
+_posts/2026-08-18-intervaltimer.md,intervaltræningspas,/intervaltraening/
+_posts/2026-08-18-intervaltimer.md,maksimale iltoptagelse (VO2max),/maksimale-iltoptagelse-vo2max/
+_posts/2026-08-18-intervaltimer.md,anaerobe kapacitet,/anaerob-traening/
+_posts/2026-08-18-intervaltimer.md,Tabata-træning,/artikel/tabata-traening-intervaller/
+_posts/2026-08-18-intervaltimer.md,kondital,/kondital/
+_posts/2026-08-18-intervaltimer.md,10-20-30 intervaltræning,/10-20-30-intervaltraening/
+_posts/2026-08-18-intervaltimer.md,4x4 intervaltræning,/4x4-intervaltraening/
+_posts/2026-08-18-intervaltimer.md,Sprint 8 træning,/artikel/sprint-8-intervaltraening-der-virker/
+_posts/2026-08-18-intervaltimer.md,norske tærskelmodel,/norsk-taerskeltraening/
 _posts/2019-10-31-andersen-test.md,konditionstest,/kondition/tests/
 _posts/2019-10-31-andersen-test.md,Coopers 12 minutters løbetest,/cooper-test/
 _posts/2019-10-31-andersen-test.md,tabellerne over normale kondital,/kondital/
@@ -781,6 +820,7 @@ _posts/2020-05-31-hvad-vejer-skelettet.md,beregne din fedtprocent,/artikel/udreg
 _posts/2020-05-31-hvad-vejer-skelettet.md,knoglerne og knogletyperne,/knogler/
 _posts/2020-05-31-hvad-vejer-skelettet.md,anatomi,/anatomi/
 _posts/2020-05-31-hvad-vejer-skelettet.md,**Se anbefalinger til anatomibøger og plakater her**,/traeningsboeger-boeger-om-traening/#anatomi-og-fysiologi
+_posts/2020-06-30-pullup-chinup.md,calisthenics,/calisthenics-begynderprogram-kropsvaegtstraening/
 _posts/2020-06-30-pullup-chinup.md,frontale bevægelsesplan,/led/
 _posts/2020-06-30-pullup-chinup.md,sagitale bevægelsesplan,/led/
 _posts/2019-10-31-kondital-gaa-test-1-6-km.md,hvor hurtigt man normalt går,/tid-at-gaa/
@@ -797,7 +837,7 @@ _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md,Kettlbell Swings,/oevel
 _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md,Clean and press,/oevelse/one-arm-clean-and-jerk/
 _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md,Turkish getups,/oevelse/turkish-getup/
 _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md,sammensætte et træningsprogram til styrketræning,/traeningsprogram-programlaegning-styrketraening/
-_posts/2019-10-19-taljemaal.md,BMI-beregninger,/bmi-beregner/
+_posts/2019-10-19-taljemaal.md,BMI-beregninger,/bmi/
 _posts/2019-10-19-taljemaal.md,Body Adiposity Index (BAI),/bai-body-adiposity-index/
 _posts/2019-10-19-taljemaal.md,Hvad er kropskomposition?,/kropskomposition/
 _posts/2019-10-19-taljemaal.md,Sådan måler du din fedtprocent,/artikel/udregning-af-fedtprocent/
@@ -808,8 +848,8 @@ _posts/2020-08-29-kalorietabellen.md,Kalorietabel for Brød,/kalorietabel-broed/
 _posts/2020-08-29-kalorietabellen.md,Kalorietabel for Frugt & Bær,/kalorietabel-frugt/
 _posts/2020-08-29-kalorietabellen.md,Kalorietabel for Grøntsager,/kalorietabel-groentsager/
 _posts/2020-08-29-kalorietabellen.md,Kalorietabel for Alkohol,/kalorietabel-alkohol/
-_posts/2020-08-29-kalorietabellen.md,BMR (Basalstofskifte) her,/bmr-beregner/
-_posts/2020-08-29-kalorietabellen.md,Ligevægtsindtag her,/ligevaegtsindtag-beregner/
+_posts/2020-08-29-kalorietabellen.md,Udregn dit BMR (Basalstofskifte),/bmr-beregner/
+_posts/2020-08-29-kalorietabellen.md,Beregn dit ligevægtsindtag,/ligevaegtsindtag-beregner/
 _posts/2020-08-29-kalorietabellen.md,dagligt proteinindtag,/dagligt-protein-indtagelse/
 _posts/2025-04-14-madcow-5x5.md,klassisk styrketræningsprogram,/styrketraeningsprogrammer/
 _posts/2025-04-14-madcow-5x5.md,Starting Strenght,/starting-strength-styrketraeningsprogram/
@@ -852,16 +892,22 @@ _posts/2021-08-24-hvordan-loebeprogram-udholdenhed.md,denne guide til at lave et
 _posts/2021-08-24-hvordan-loebeprogram-udholdenhed.md,fysiologiske tilpasninger og adaptation er til udholdenhedstræning,/tilpasning-konditionstraening/
 _posts/2021-08-24-hvordan-loebeprogram-udholdenhed.md,Borg-skalaen,/borg-skala/
 _posts/2021-08-24-hvordan-loebeprogram-udholdenhed.md,guiden til at lave et løbeprogram,/guide-til-loebeprogram/
-_posts/2021-08-23-opvarmning-loeb.md,generel gennemgang af opvarmning,/opvarmning/
+_posts/2021-08-23-opvarmning-loeb.md,dybdegående fagside om fysiologien bag opvarmning,/opvarmning/
 _posts/2021-08-23-opvarmning-loeb.md,opvarmning til styrketræning,/opvarmning-styrketraening/
-_posts/2021-08-23-opvarmning-loeb.md,plyometriske øvelser,/plyometrisk-traening/
-_posts/2021-08-23-opvarmning-loeb.md,flere balanceøvelser her,/balancetraening/
-_posts/2021-08-23-opvarmning-loeb.md,squat,/squat/
-_posts/2021-08-23-opvarmning-loeb.md,lunges,/lunges/
-_posts/2021-08-23-opvarmning-loeb.md,variationer af armstrækninger,/armbojninger-eller-armstraekninger-pushups/
-_posts/2021-08-23-opvarmning-loeb.md,mavemuskler,/muskler/mave/
-_posts/2021-08-23-opvarmning-loeb.md,core-øvelser,/core/
+_posts/2021-08-23-opvarmning-loeb.md,balancetræning,/balancetraening/
 _posts/2021-08-23-opvarmning-loeb.md,planken,/oevelse/planken/
+_posts/2021-08-23-opvarmning-loeb.md,core-øvelser,/core/
+_posts/2021-08-23-opvarmning-loeb.md,maveøvelser,/muskler/mave/
+_posts/2021-08-23-opvarmning-loeb.md,squats,/squat/
+_posts/2021-08-23-opvarmning-loeb.md,lunges,/lunges/
+_posts/2021-08-23-opvarmning-loeb.md,armstrækninger,/armbojninger-eller-armstraekninger-pushups/
+_posts/2021-08-23-opvarmning-loeb.md,plyometrisk træning,/plyometrisk-traening/
+_posts/2026-08-16-sports-bh.md,Countermovement Jump,/countermovement-jump-cmj-squat-jump-sj/#cmj
+_posts/2026-08-16-sports-bh.md,Træning & Menstruationscyklus,/menstruationscyklus-og-traening/
+_posts/2026-08-16-sports-bh.md,Eksplosiv Styrke Dashboard,/eksplosivitet/
+_posts/2026-08-16-sports-bh.md,Countermovement Jump (CMJ) Test,/countermovement-jump-cmj-squat-jump-sj/#cmj
+_posts/2026-08-16-sports-bh.md,Pulszoner & Karvonen Formel,/pulszoner-beregner/
+_posts/2026-08-07-ficks-ligning.md,4x4 min,/4x4-intervaltraening/
 _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md,flere strategier til restitution,/restitution/
 _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md,"Hypertrofi, muskelvækst og de fysiologiske tilpasninger til træning",/fysiologiske-tilpasninger/
 _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md,kropskomposition,/kropskomposition/
@@ -897,6 +943,7 @@ _posts/2022-02-12-styrketraeningsudstyr.md,Kreatin kan give en forøgelse af sty
 _posts/2022-02-12-styrketraeningsudstyr.md,"kosttilskud, der kan betale sig",/kosttilskud/
 _posts/2022-02-12-styrketraeningsudstyr.md,kosttilskud i danske webshops,/koeb-kosttilskud-online/
 _posts/2022-02-12-styrketraeningsudstyr.md,online fitnessshops,/fitnessbutikker/
+_posts/2026-08-18-mcgill-big-3.md,muskelmasse og hypertrofi,/muskelmasse-beregner/
 _posts/2020-08-01-bevaegelsesanalyse.md,underviser i træning,/fitnessinstruktoer/
 _posts/2020-08-01-bevaegelsesanalyse.md,Bliv klogere på bevægelsesplaner og bevægelsestyper,/bevaegelsestyper-og-bevaegelsesplaner/
 _posts/2020-08-01-bevaegelsesanalyse.md,"led, ledtyper og bevægelse",/led/
@@ -916,19 +963,13 @@ _posts/2020-06-23-atrofi-hvor-hurtigt.md,dagligt proteinindtag,/dagligt-protein-
 _posts/2020-06-23-atrofi-hvor-hurtigt.md,1RM,/rm-beregner/
 _posts/2020-06-23-atrofi-hvor-hurtigt.md,hvad de fysiologiske tilpasninger er ved styrketræning,/fysiologiske-tilpasninger/
 _posts/2020-06-23-atrofi-hvor-hurtigt.md,hvor hurtigt muskler vokser,/hvor-hurtigt-vokser-muskler/
-_posts/2020-01-16-jumping.md,Countermovement Jump (CMJ) & Squat Jump (SJ),/countermovement-jump-cmj-squat-jump-sj/
-_posts/2020-01-16-jumping.md,Broad Jump – Stående længdespring,/broadjump/
-_posts/2020-01-16-jumping.md,Reactive Strength Index (RSI),/reactive-strength-index-rsi/
-_posts/2020-01-16-jumping.md,Dynamic Strength Index (DSI),/dynamic-strength-index-dsi/
-_posts/2020-01-16-jumping.md,plyometrisk træning,/plyometrisk-traening/
-_posts/2020-01-16-jumping.md,Reactive Strength Index,/reactive-strength-index-rsi/
-_posts/2020-01-16-jumping.md,Dynamic Strength Index,/dynamic-strength-index-dsi/
-_posts/2020-01-16-jumping.md,Se alle springtests,/springtests-hoppehoejde/
 _posts/2025-04-20-traeningsfilosofier-loeb.md,træningsprincipper til løb,/traeningsprincipper-loeb/
 _posts/2025-04-20-traeningsfilosofier-loeb.md,grundlæggende træningsprincipper,/traeningsprincipper/
 _posts/2019-10-24-texas-method.md,begynderprogrammet Starting Strength af Mark Rippetoe,/starting-strength-styrketraeningsprogram/
 _posts/2019-10-24-texas-method.md,gratis klassiske styrkeprogrammer,/styrketraeningsprogrammer/
 _posts/2019-10-24-texas-method.md,Liftosaur-appen,/liftosaur/
+_posts/2010-10-07-traen-kort-og-eksplosivt-loeb-kortere-og-bliv-en-bedre-loeber.md,4 x 4 min løb,/4x4-intervaltraening/
+_posts/2019-11-03-intensiteten-og-vo2max.md,4x4 minutter,/4x4-intervaltraening/
 _posts/2019-11-03-intensiteten-og-vo2max.md,kondition,/kondition/
 _posts/2019-11-03-intensiteten-og-vo2max.md,kondital,/kondital/
 _posts/2019-11-03-intensiteten-og-vo2max.md,kondital,/kondital/
@@ -972,9 +1013,6 @@ _posts/2020-08-19-styrketraening-programlaegning.md,skabeloner til træningsprog
 _posts/2020-08-19-styrketraening-programlaegning.md,forslag til styrketræningsprogrammer,/styrketraeningsprogrammer/
 _posts/2020-08-19-styrketraening-programlaegning.md,INOL er en formel til at udregne det samlede træningsstimuli,/inol/
 _posts/2020-08-19-styrketraening-programlaegning.md,Prilepins tabel,/prilepins-tabel/
-_posts/2019-10-31-bmi-beregner.md,"BMI beregner for børn, unge og teenagere her",/bmi-beregner-boern-unge-teenagere/
-_posts/2019-10-31-bmi-beregner.md,BMI beregner til børn og unge,/bmi-beregner-boern-unge-teenagere/
-_posts/2019-10-31-bmi-beregner.md,Gå til vores guide til BMI for mænd og kvinder,/bmi/
 _posts/2025-02-20-laktatmaaler-test.md,trin-for-trin testprotokol for laktattests,/laktattest/
 _posts/2025-02-20-laktatmaaler-test.md,interaktive laktatberegner,/laktattest/#calculator
 _posts/2025-02-20-laktatmaaler-test.md,<i class='fas fa-arrow-right'></i> Gå til Testprotokol & Laktatberegner,/laktattest/
@@ -1039,6 +1077,7 @@ _posts/2021-06-19-aerob-traening.md,hvilepuls,/hvilepuls/
 _posts/2021-06-19-aerob-traening.md,Heart Rate Variability (HRV),/hrv/
 _posts/2021-06-19-aerob-traening.md,2400 meter-test,/kondital-2400-meter/
 _posts/2021-06-19-aerob-traening.md,Coopers 12-minutters test,/cooper-test/
+_posts/2021-06-19-aerob-traening.md,Heart Rate Recovery (restitutionspulsen),/restitutionspuls/
 _posts/2021-06-19-aerob-traening.md,intervaltræning,/intervaltraening/
 _posts/2021-06-19-aerob-traening.md,HIIT,/hiit/
 _posts/2021-06-19-aerob-traening.md,intervaltræning,/intervaltraening/
@@ -1082,6 +1121,8 @@ _posts/2022-03-02-squat-belt.md,komme længere ned i squat,/squat-dybt/
 _posts/2022-03-02-squat-belt.md,retningslinjerne fra styrkeløft,/powerlifting-rules/
 _posts/2022-03-02-squat-belt.md,online fitnesssbutikker,/fitnessbutikker/
 _posts/2014-04-14-træning-med-slynger-trx-powersling-suspension-training.md,hjemmetræning,/hjemmetraening-traeningsprogram/
+_posts/2026-08-18-pep-opvarmning.md,faglige hovedartikel om opvarmning,/opvarmning/
+_posts/2026-08-18-pep-opvarmning.md,FIFA 11+ program,/fifa-11-plus/
 _posts/2016-01-02-cykel-intervaltraening.md,intervaltræning,/intervaltraening/
 _posts/2016-01-02-cykel-intervaltraening.md,trappetest,/trappetest-cykel/
 _posts/2016-01-02-cykel-intervaltraening.md,FTP: Functional Threshold Power til cykling,/ftp-cykling/
@@ -1105,10 +1146,13 @@ _posts/2019-10-31-kondital-fra-danske-steptest.md,kondital med en tabel for mæn
 _posts/2025-03-30-maethedsfaktorer.md,"gratis kalorietæller
     apps",/kalorietaeller-apps/
 _posts/2025-03-30-maethedsfaktorer.md,kalorietabeller,/kalorietabellen/
+_posts/2026-08-18-fifa-11-plus.md,dybdegående fagartikel om fysiologien bag opvarmning,/opvarmning/
 _posts/2013-04-28-sprint-8-intervaltraening-der-virker.md,intervaltræning,/intervaltraening/
-_posts/2013-04-28-sprint-8-intervaltraening-der-virker.md,anaerob træning,/anaerob-traening/
-_posts/2013-04-28-sprint-8-intervaltraening-der-virker.md,Tabata-intervaller,/artikel/tabata-traening-intervaller/
+_posts/2013-04-28-sprint-8-intervaltraening-der-virker.md,anaerobe energisystem,/anaerob-traening/
 _posts/2013-04-28-sprint-8-intervaltraening-der-virker.md,Sprint 8,"/assets/images/sprint-8-landing-infographic.jpg ""Sprint 8"""
+_posts/2013-04-28-sprint-8-intervaltraening-der-virker.md,Tabata,/artikel/tabata-traening-intervaller/
+_posts/2013-04-28-sprint-8-intervaltraening-der-virker.md,10-20-30,/10-20-30-intervaltraening/
+_posts/2013-04-28-sprint-8-intervaltraening-der-virker.md,Klassisk HIIT,/hiit/
 _posts/2025-04-14-mcdonald-general-bulking-routine.md,gennemarbejdede programmer til styrketræning,/styrketraeningsprogrammer/
 _posts/2025-04-14-mcdonald-general-bulking-routine.md,eksempel på et splitprogram,/styrketraening/split-programmer/
 _posts/2025-04-14-mcdonald-general-bulking-routine.md,to overkrops- og to underkropsdage,/2-split-upper-lower/
@@ -1127,14 +1171,6 @@ _posts/2009-03-30-funktionel-styrketraening.md,træningsprincipper,/traeningspri
 _posts/2009-03-30-funktionel-styrketraening.md,balanceevne med balancetræning,/balancetraening/
 _posts/2009-03-30-funktionel-styrketraening.md,træning med kropsvægt,/artikel/traening-med-kropsvaegt/
 _posts/2009-03-30-funktionel-styrketraening.md,core træning,/core/
-_posts/2025-02-20-laboratorie-incremental-submax-loeb.md,laktattest,/laktattest/
-_posts/2025-02-20-laboratorie-incremental-submax-loeb.md,respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
-_posts/2025-02-20-laboratorie-incremental-submax-loeb.md,tests af iltoptagelsen i et laboratorium,/iltoptagelse-laboratorietest/
-_posts/2020-12-13-kropsvaegt-hjemmetraening-metoder.md,hjemmetræning,/hjemmetraening-traeningsprogram/
-_posts/2020-12-13-kropsvaegt-hjemmetraening-metoder.md,isometrisk,/koncentrisk-excentrisk-isometrisk/
-_posts/2020-12-13-kropsvaegt-hjemmetraening-metoder.md,excentriske og koncentriske fase,/koncentrisk-excentrisk-isometrisk/
-_posts/2020-12-13-kropsvaegt-hjemmetraening-metoder.md,Bulgarian Split Squats,/oevelse/bulgarian-split-squat/
-_posts/2020-12-13-kropsvaegt-hjemmetraening-metoder.md,træning med kropsvægt,/artikel/traening-med-kropsvaegt/
 _posts/2021-03-30-mavemuskler.md,gode øvelser til maven,/maveoevelser/
 _posts/2021-03-30-mavemuskler.md,liste over alle muskler i kroppen her,/muskler/
 _posts/2021-03-30-mavemuskler.md,anatomi,/anatomi/
@@ -1240,16 +1276,6 @@ _posts/2020-06-02-max-hr-formulas.md,udregne dine intensitetszoner fra pulsen,/p
 _posts/2020-06-02-max-hr-formulas.md,hvilepuls,/hvilepuls/
 _posts/2020-06-02-max-hr-formulas.md,estimere dit kondital ud fra puls,/kondital-fra-puls/
 _posts/2020-06-02-max-hr-formulas.md,Normal puls - sådan virker hjertet,/puls/
-_posts/2025-03-05-konditionstest-hjemme.md,Alt om konditionstests,/kondition/tests/
-_posts/2025-03-05-konditionstest-hjemme.md,Beregn dit kondital uden en test,/kondital/
-_posts/2025-03-05-konditionstest-hjemme.md,forskellige variationer af steptests,/kondital-fra-steptest/
-_posts/2025-03-05-konditionstest-hjemme.md,Læs mere om YMCA step-testen,/ymca-3-minutters-steptest/
-_posts/2025-03-05-konditionstest-hjemme.md,Læs mere om Rockport gangtesten,/gaatest/
-_posts/2025-03-05-konditionstest-hjemme.md,Læs mere om jogging-testen,/submaximal-jogging-test-vo2/
-_posts/2025-03-05-konditionstest-hjemme.md,Læs mere om Cooper-testen,/cooper-test/
-_posts/2025-03-05-konditionstest-hjemme.md,Læs mere om Bip-testen,/bip-test/
-_posts/2025-03-05-konditionstest-hjemme.md,2400-meter test,/kondital-2400-meter/
-_posts/2025-03-05-konditionstest-hjemme.md,Hvad er et godt kondital?,/kondital/
 _posts/2020-07-15-massage.md,restitutionstiden,/restitutionstid/
 _posts/2020-07-15-massage.md,restitutionen efter træning,/restitution/
 _posts/2020-07-15-massage.md,udstrækning,/udstraekning-udspaending/
@@ -1261,8 +1287,8 @@ _posts/2020-08-29-kalorietabel-frugt.md,samlede kalorietabel over mad,/kalorieta
 _posts/2020-08-29-kalorietabel-frugt.md,grøntsager,/kalorietabel-groentsager/
 _posts/2020-08-29-kalorietabel-frugt.md,brød,/kalorietabel-broed/
 _posts/2020-08-29-kalorietabel-frugt.md,kød,/kalorietabel-koed/
-_posts/2020-08-29-kalorietabel-frugt.md,basalstofskifte (BMR),/bmr-beregner/
-_posts/2020-08-29-kalorietabel-frugt.md,ligevægtsindtag,/ligevaegtsindtag-beregner/
+_posts/2020-08-29-kalorietabel-frugt.md,basalstofskifte-beregner,/bmr-beregner/
+_posts/2020-08-29-kalorietabel-frugt.md,ligevægtsberegner,/ligevaegtsindtag-beregner/
 _posts/2026-08-06-bronco-test.md,VAM-eval Test,/vam-eval-test/
 _posts/2026-08-06-bronco-test.md,Beep-test (20m Shuttle Run),/bip-test/
 _posts/2026-08-06-bronco-test.md,30-15 Intermittent Fitness Test,/30-15-intermittent-fitness-test/
@@ -1271,13 +1297,8 @@ _posts/2025-04-14-stronglifts-5x5.md,Madcow 5x5,/madcow-5x5/
 _posts/2025-04-14-stronglifts-5x5.md,Ivysaurs 4-4-8,/styrketraening/ivysaur-4-4-8/
 _posts/2025-04-14-stronglifts-5x5.md,Madcow 5x5,/madcow-5x5/
 _posts/2025-04-14-stronglifts-5x5.md,Liftosaur-appen,/liftosaur/
-_posts/2009-06-19-300-challenge.md,Pullups,/chinup-vs-pullup/
-_posts/2009-06-19-300-challenge.md,Barbell Deadlift,/doedloeft/
-_posts/2009-06-19-300-challenge.md,Pushups,/armbojninger-eller-armstraekninger-pushups/
-_posts/2009-06-19-300-challenge.md,V-Ups,/oevelse/v-ups/
-_posts/2009-06-19-300-challenge.md,Mountain Climbers,/oevelse/planken-mountain-climber/
-_posts/2009-06-19-300-challenge.md,Burpees,/oevelse/burpees/
-_posts/2009-06-19-300-challenge.md,træningsøvelser,/traeningsoevelser/
+_posts/2009-06-19-300-challenge.md,Crossfit og functional fitness,/crossfit-workouts/
+_posts/2009-06-19-300-challenge.md,mælkesyre,/maelkesyre-traening/
 _posts/2020-11-14-activity-to-steps.md,omregner fra skridt til km,/skridt-pr-km-10000/
 _posts/2020-11-14-activity-to-steps.md,MET,/met/
 _posts/2020-11-14-activity-to-steps.md,MET-værdien,/met/
@@ -1313,18 +1334,6 @@ _posts/2021-08-24-hvordan-loebeprogram-anaerob-taerskel.md,mælkesyre,/maelkesyr
 _posts/2021-08-24-hvordan-loebeprogram-anaerob-taerskel.md,maxpuls,/test-max-puls/
 _posts/2021-08-24-hvordan-loebeprogram-anaerob-taerskel.md,pulsreserven,/pulsreserve/
 _posts/2021-08-24-hvordan-loebeprogram-anaerob-taerskel.md,guiden til at lave et løbeprogram,/guide-til-loebeprogram/
-_posts/2020-06-02-max-hr-test.md,maxpuls-beregner,/max-puls-beregner/
-_posts/2020-06-02-max-hr-test.md,Lær om maxpuls,/test-max-puls/
-_posts/2020-06-02-max-hr-test.md,beregne din estimerede maxpuls med vores beregner,/max-puls-beregner/
-_posts/2020-06-02-max-hr-test.md,formler til at estimere maxpulsen,/max-puls-formler/
-_posts/2020-06-02-max-hr-test.md,udregne din maxpuls i vores beregner,/max-puls-beregner/
-_posts/2020-06-02-max-hr-test.md,producerer mælkesyre i musklerne,/maelkesyre-traening/
-_posts/2020-06-02-max-hr-test.md,maksimal laboratorietest af iltoptagelse her,/iltoptagelse-laboratorietest/
-_posts/2020-06-02-max-hr-test.md,maxpuls-beregner,/max-puls-beregner/
-_posts/2020-06-02-max-hr-test.md,hvordan du finder din maxpuls,/test-max-puls/
-_posts/2020-06-02-max-hr-test.md,Udregn dine pulszoner,/pulszoner-beregner/
-_posts/2020-06-02-max-hr-test.md,Forstå videnskaben bag formlerne,/max-puls-formler/
-_posts/2020-06-02-max-hr-test.md,Alt om maxpuls og hjertets fysiologi,/test-max-puls/
 _posts/2020-07-01-smart-goals.md,Y-tallerkenmodellen,/tallerken-modeller/
 _posts/2020-07-01-smart-goals.md,10.000 skridt om dagen,/skridt-pr-km-10000/
 _posts/2020-07-01-smart-goals.md,slankekur,/slankekur/
@@ -1334,6 +1343,11 @@ _posts/2021-08-24-hvordan-loebeprogram-sprint.md,løbeøkonomi,/lobeokonomi/
 _posts/2021-08-24-hvordan-loebeprogram-sprint.md,bakkesprints,/bakkesprint-bakkeloeb/
 _posts/2021-08-24-hvordan-loebeprogram-sprint.md,eksplosiv træning måske kan forbedre løbeøkonomien og præstationen,/lobeokonomi/
 _posts/2021-08-24-hvordan-loebeprogram-sprint.md,guiden til at lave et løbeprogram,/guide-til-loebeprogram/
+_posts/2025-07-17-rem-s.md,Test for Træningsafhængighed (EAI),/traeningsafhaengighed/
+_posts/2025-07-17-rem-s.md,guide til træning og menstruationscyklus,/menstruationscyklus-og-traening/
+_posts/2025-07-17-rem-s.md,Test for Træningsafhængighed (EAI),/traeningsafhaengighed/
+_posts/2025-07-17-rem-s.md,Screening for Spiseforstyrrelser,/spiseforstyrrelser/
+_posts/2025-07-17-rem-s.md,Athlete Burnout Questionnaire (ABQ),/abq-udbraendthed-overtraening/
 _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md,Se det præcise antal muskler i kroppen her →,/hvor-mange-muskler-i-kroppen/
 _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md,hvad knoglerne vejer,/hvad-vejer-skelettet/
 _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md,kroppens absolut mindste muskel,/stoerste-og-mindste-muskel-i-kroppen/
@@ -1346,7 +1360,7 @@ _posts/2016-06-04-gennemsnitshojde-danmark.md,hvordan man bliver højere,/hvorda
 _posts/2016-06-04-gennemsnitshojde-danmark.md,din kropsholdning og rette ryggen,/ret-ryggen-kropsholdning/
 _posts/2020-08-06-airbikes.md,Wingate-testen,/wingate/
 _posts/2020-08-06-airbikes.md,anaerob træning,/anaerob-traening/
-_posts/2020-08-06-airbikes.md,intervaltræning,/intervaltraening/
+_posts/2020-08-06-airbikes.md,højintensiv intervaltræning,/intervaltraening/
 _posts/2020-08-06-airbikes.md,træningsprincipperne,/traeningsprincipper/
 _posts/2020-08-06-airbikes.md,energisystemerne,/energisystemer/
 _posts/2020-08-06-airbikes.md,Tabata-intervaller,/artikel/tabata-traening-intervaller/
@@ -1355,11 +1369,6 @@ _posts/2020-08-06-airbikes.md,forbrænde rigtig mange kalorier ved at arbejde me
 _posts/2020-08-06-airbikes.md,regne kalorieforbrug ud fra MET-værdier,/met/
 _posts/2020-08-06-airbikes.md,mælkesyre i musklerne,/maelkesyre-traening/
 _posts/2020-08-06-airbikes.md,intervalløb,/intervallob-intervaltraening/
-_posts/2021-03-28-hvor-langt-pr-interval.md,Jack Daniels løbsberegner,/loebesiden-jack-daniels-loebeberegner/
-_posts/2021-03-28-hvor-langt-pr-interval.md,anaerobe tærskel,/anaerobe-taerskel/
-_posts/2021-03-28-hvor-langt-pr-interval.md,maksimale iltoptagelse,/maksimale-iltoptagelse-vo2max/
-_posts/2021-03-28-hvor-langt-pr-interval.md,intervalløb,/intervallob-intervaltraening/
-_posts/2021-03-28-hvor-langt-pr-interval.md,oversigt over alle løbeværktøjer,/loeb/vaerktoejer/
 _posts/2021-07-23-ol-sange.md,vælge musik til træningen,/artikel/musik-til-traeningen/
 _posts/2021-07-23-ol-sange.md,finde god musik til yoga og mindfulness,/yoga-musik/
 _posts/2020-11-22-structural-balance.md,beregne din 1RM ud fra submaksimale løft,/rm-beregner/
@@ -1430,16 +1439,14 @@ _posts/2019-10-31-kondital-to-punkts-test-cykel.md,den respiratoriske udveksling
 _posts/2019-10-31-kondital-to-punkts-test-cykel.md,kondital i tabellen for kondital for mænd og kvinder,/kondital/
 _posts/2019-10-31-kondital-to-punkts-test-cykel.md,Prøv den hurtige Åstrand 1-punktstest her,/etpunktstest/
 _posts/2019-10-31-kondital-to-punkts-test-cykel.md,konditionstests på cykel,/tests/cykling/
-_posts/2020-11-29-pap-prepare-to-maxtest.md,1RM-test,/rm-maxtest/
-_posts/2020-11-29-pap-prepare-to-maxtest.md,styrkeløftstævne og styrkeløftkonkurrence,/powerlifting-rules/
-_posts/2020-11-29-pap-prepare-to-maxtest.md,generel opvarmning til styrketræning her,/opvarmning-styrketraening/
-_posts/2020-11-29-pap-prepare-to-maxtest.md,højintensiv plyometrisk øvelse,/plyometrisk-traening/
-_posts/2020-11-29-pap-prepare-to-maxtest.md,1RM eller _one repetition maximum_,/rm-maxtest/
+_posts/2020-11-29-pap-prepare-to-maxtest.md,1RM (One Repetition Maximum),/rm-maxtest/
+_posts/2020-11-29-pap-prepare-to-maxtest.md,styrkeløftstævne,/powerlifting-rules/
+_posts/2020-11-29-pap-prepare-to-maxtest.md,opvarmning til styrketræning med RAMP-modellen,/opvarmning-styrketraening/
+_posts/2020-11-29-pap-prepare-to-maxtest.md,fysiologiske fundament bag opvarmning,/opvarmning/
 _posts/2020-11-29-pap-prepare-to-maxtest.md,RM-beregner,/rm-beregner/
 _posts/2020-11-29-pap-prepare-to-maxtest.md,Rate of Perceived Exertion (RPE),/rpe/
-_posts/2020-11-29-pap-prepare-to-maxtest.md,en træningslog app,/traeningsdagbog-app/
-_posts/2020-11-29-pap-prepare-to-maxtest.md,gennemgang af styrkeløft og powerlifting,/styrkeloeft/
-_posts/2020-11-29-pap-prepare-to-maxtest.md,reglerne til styrkeløft,/powerlifting-rules/
+_posts/2020-11-29-pap-prepare-to-maxtest.md,træningsdagbog eller trænings-app,/traeningsdagbog-app/
+_posts/2020-11-29-pap-prepare-to-maxtest.md,styrkeløft og powerlifting,/styrkeloeft/
 _posts/2021-01-19-forbraending-gang.md,Du forbrænder mere ved at løbe end ved at gå,/loeb-mere-energi-gang/
 _posts/2021-01-19-forbraending-gang.md,kalorier,/hvad-er-kalorier/
 _posts/2021-01-19-forbraending-gang.md,kalorieberegner,/kalorieberegner/
@@ -1457,14 +1464,13 @@ _posts/2021-01-19-forbraending-gang.md,omregne sport og motion til skridt med vo
 _posts/2021-01-19-forbraending-gang.md,hvor langt 10.000 skridt er,/skridt-pr-km-10000/
 _posts/2021-01-19-forbraending-gang.md,Hvor hurtigt går du,/tid-at-gaa/
 _posts/2021-01-19-forbraending-gang.md,mindre stresset,/stress-test/
-_posts/2020-11-08-kondital-roning.md,måle konditallet på,/kondital/
 _posts/2020-11-08-kondital-roning.md,forskellige konditests,/kondition/tests/
-_posts/2020-11-08-kondital-roning.md,Trappetesten i roning,/roning-trappetest/
-_posts/2020-11-08-kondital-roning.md,Trappetesten i roning,/roning-trappetest/
-_posts/2020-11-08-kondital-roning.md,intervaller og roprogrammer,/artikel/traeningsprogrammer-intervaller-roning/
-_posts/2020-06-16-cirkeltraening.md,forskellige øvelser,/traeningsoevelser/
-_posts/2020-06-16-cirkeltraening.md,Se alle øvelser,/traeningsoevelser/
-_posts/2020-06-16-cirkeltraening.md,intervaltræning,/intervaltraening/
+_posts/2020-11-08-kondital-roning.md,Læs alt om Trappetesten i roning her,/roning-trappetest/
+_posts/2020-06-16-cirkeltraening.md,øvelseskatalog,/traeningsoevelser/
+_posts/2020-06-16-cirkeltraening.md,7 minute workout,/7-minute-workout/
+_posts/2020-06-16-cirkeltraening.md,28 dages hjemmetræning uden udstyr,/hjemmetraening-traeningsprogram/
+_posts/2020-06-16-cirkeltraening.md,crossfit WODs,/crossfit-workouts/
+_posts/2020-06-16-cirkeltraening.md,Se alle printbare træningsøvelser,/traeningsoevelser/
 _posts/2012-07-31-naturfitness.md,Svinetræning: Beskidt træning,/svinetraening/
 _posts/2012-07-31-naturfitness.md,Outdoor Fitness og Dogmefitness og udendørs træning,/artikel/dogmefitness/
 _posts/2012-07-31-naturfitness.md,Outdoor Fitness,/artikel/dogmefitness/
@@ -1513,12 +1519,6 @@ _posts/2022-02-19-rouvy.md,Guide til det bedste hometrainer-udstyr og e-cykling,
 _posts/2022-02-19-rouvy.md,Zwift,/komplet-begynderguide-zwift/
 _posts/2022-02-19-rouvy.md,MyWhoosh Cycling,/mywhoosh-cycling/
 _posts/2022-02-19-rouvy.md,BKOOL,/bkool-begynderguide/
-_posts/2025-02-21-laboratorie-maxtest-loeb.md,Gå i dybden med iltoptagelsestest i laboratorium,/iltoptagelse-laboratorietest/
-_posts/2025-02-21-laboratorie-maxtest-loeb.md,respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
-_posts/2025-02-21-laboratorie-maxtest-loeb.md,udregne den teoretiske maxpuls,/max-puls-beregner/
-_posts/2025-02-21-laboratorie-maxtest-loeb.md,6 kritierer for en maksimal iltoptagelsestest,/kriterier-maksimal-iltoptagelsestest/
-_posts/2025-02-21-laboratorie-maxtest-loeb.md,iltoptagelsestests i et laboratorium,/iltoptagelse-laboratorietest/
-_posts/2025-02-21-laboratorie-maxtest-loeb.md,Se alle løbetests,/tests/loeb/
 _posts/2022-10-10-hvorfor-gaa.md,motionsformer og træningsformer,/traeningsformer/
 _posts/2022-10-10-hvorfor-gaa.md,forbrænder færre kalorier end ved løb,/loeb-mere-energi-gang/
 _posts/2022-10-10-hvorfor-gaa.md,forbrænding ved gang,/forbraending-ved-gaa-gang/
@@ -1531,6 +1531,16 @@ _posts/2022-10-10-hvorfor-gaa.md,beregner til kalorieforbrænding ved gang,/forb
 _posts/2022-10-10-hvorfor-gaa.md,sportsgrene,/sportsgrene-liste/
 _posts/2022-10-10-hvorfor-gaa.md,skridtomregner,/omregn-motion-aktivitet-sport-til-skridt/
 _posts/2022-10-10-hvorfor-gaa.md,Firmaidrættens Tæl-Skridt-konkurrence,/artikel/tael-skridt/
+_posts/2013-04-28-4x4-norwegian.md,maksimale iltoptagelse (VO2max),/maksimale-iltoptagelse-vo2max/
+_posts/2013-04-28-4x4-norwegian.md,kondital,/kondital/
+_posts/2013-04-28-4x4-norwegian.md,intervaltræning,/intervaltraening/
+_posts/2013-04-28-4x4-norwegian.md,HIIT,/hiit/
+_posts/2013-04-28-4x4-norwegian.md,norsk tærskeltræning,/norsk-taerskeltraening/
+_posts/2020-07-08-udstraekning-dynamisk-statisk.md,smidighedstræning,/smidighedstraening/
+_posts/2020-07-08-udstraekning-dynamisk-statisk.md,forskningsgennemgang om udstrækning,/virker-udstraekning/
+_posts/2020-07-08-udstraekning-dynamisk-statisk.md,komplette øvelseskatalog,/udstraekning-udspaending/
+_posts/2020-07-08-udstraekning-dynamisk-statisk.md,dybdegående guide til PNF-udstrækning,/pnf-udstraekning/
+_posts/2020-07-08-udstraekning-dynamisk-statisk.md,Se vores visuelle øvelseskatalog med 22+ stræk her »,/udstraekning-udspaending/
 _posts/2020-08-19-styrketraening-introduktion.md,Tjek guiden for begyndere i styrketræning,/styrketraening/begyndere/
 _posts/2020-08-19-styrketraening-introduktion.md,Læs mere om RPE i styrketræning,/rpe/
 _posts/2020-08-19-styrketraening-introduktion.md,Læs mere om Velocity Based Training,/vbt/
@@ -1609,7 +1619,7 @@ _posts/2020-05-28-restitution.md,Kompressionsstrømper og restitution,/kompressi
 _posts/2020-05-28-restitution.md,kolde afvaskninger måske kan hjælpe på restitutionstiden,/isbad-og-kryoterapi/
 _posts/2020-05-28-restitution.md,Kryoterapi: Virker et isbad efter træning på restitution?,/isbad-og-kryoterapi/
 _posts/2020-05-28-restitution.md,Recovery Boots: Er vakuum bukser effektiv restitution?,/recovery-boots-restitution/
-_posts/2020-05-28-restitution.md,Foamrolling og restitution,/foamrolling-foamroller-lacrossebolde/
+_posts/2020-05-28-restitution.md,Foamrolling og restitution,/foamrolling/
 _posts/2020-05-28-restitution.md,Restitution og alder: Hvad betyder alderen for kroppens genopbygning?,/restitutionstid-og-alder/
 _posts/2020-07-16-balancetraening.md,grundlæggende guide til balance og postural kontrol,/balance/
 _posts/2020-07-16-balancetraening.md,Stork-testen på tæer,/enkeltbensstand-stork-test/
@@ -1631,9 +1641,11 @@ _posts/2020-06-25-yoyo-test.md,klassiske bip-test,/bip-test/
 _posts/2020-06-25-yoyo-test.md,anaerob træning,/anaerob-traening/
 _posts/2020-06-25-yoyo-test.md,intervaltræning,/intervaltraening/
 _posts/2020-06-25-yoyo-test.md,energisystemerne,/energisystemer/
+_posts/2020-06-25-yoyo-test.md,heart rate recovery,/restitutionspuls/
 _posts/2020-08-01-aldersgradueret-loeb.md,Beregn dit kondital ud fra en løbetur her →,/kondital-loeb-distance-tid/
 _posts/2020-08-01-aldersgradueret-loeb.md,Flyer Handicap beregner for løbetider med alder og vægt,/flyer-handicap/
-_posts/2020-08-01-aldersgradueret-loeb.md,komplette oversigt over løbeværktøjer,/loeb/vaerktoejer/
+_posts/2020-08-01-aldersgradueret-loeb.md,vægttab gør direkte ved løbetiden,/vaegttab-loebetid/
+_posts/2020-08-01-aldersgradueret-loeb.md,komplette oversigt over løbeværktøjer,/loebesiden/#beregnere
 _posts/2020-12-07-progression-strength-training.md,Reactive Training systems app,/rts-app/
 _posts/2020-12-07-progression-strength-training.md,1RM-beregner,/rm-beregner/
 _posts/2020-07-04-hvordan-hojere.md,Gennemsnitshøjden blandt danskere,/hvad-er-gennemsnitshoejden-i-danmark/
@@ -1659,7 +1671,7 @@ _posts/2021-08-23-holdtraening.md,progressiv overload,/styrketraening/
 _posts/2021-08-23-holdtraening.md,CrossFit workout (WOD),/crossfit-workouts/
 _posts/2021-08-23-holdtraening.md,squat,/squat/
 _posts/2021-08-23-holdtraening.md,dødløft,/doedloeft/
-_posts/2021-12-19-body-surface.md,BMI-beregner,/bmi-beregner/
+_posts/2021-12-19-body-surface.md,BMI-beregner,/bmi/
 _posts/2022-01-20-trailloeb.md,online ruteopmålere og ruteplanlæggere,/ruteopmaaler-loebetur/
 _posts/2022-01-20-trailloeb.md,løbeprogrammer,/loebeprogrammer/
 _posts/2020-04-30-forbedr-din-udholdenhed-aandedraet.md,afslapning og restitution,/restitution/
@@ -1697,14 +1709,10 @@ _posts/2022-01-02-hvornaar-i-seng.md,optimering af søvn i cyklusser,/soevn/
 _posts/2022-01-02-hvornaar-i-seng.md,A- eller B-menneske,/a-eller-b-menneske/
 _posts/2022-01-02-hvornaar-i-seng.md,søvndagbog til søvnregistrering,/soevndagbog/
 _posts/2022-01-02-hvornaar-i-seng.md,søvn-tracking via ur,/soevn-tracking/
-_posts/2010-08-29-vaer-god-ved-din-ryg.md,Teknik i styrketræning,/rigtig-teknik-styrketraening/
-_posts/2010-08-29-vaer-god-ved-din-ryg.md,Curlup,/oevelse/maveoevelse-stuart-mcgill-curlup/
-_posts/2010-08-29-vaer-god-ved-din-ryg.md,planken,/oevelse/planken/
-_posts/2010-08-29-vaer-god-ved-din-ryg.md,stir the pot,/oevelse/stir-pot/
-_posts/2010-08-29-vaer-god-ved-din-ryg.md,Side bridge,/oevelse/side-bridge/
-_posts/2010-08-29-vaer-god-ved-din-ryg.md,Birddog,/oevelse/birddog/
 _posts/2010-08-29-vaer-god-ved-din-ryg.md,stress,/stress-test/
-_posts/2010-08-29-vaer-god-ved-din-ryg.md,søvn,/soevn/
+_posts/2010-08-29-vaer-god-ved-din-ryg.md,søvnkvalitet,/soevn/
+_posts/2010-08-29-vaer-god-ved-din-ryg.md,Læs guiden til McGill Big 3 for en stabil ryg,/mcgill-big-3/
+_posts/2010-08-29-vaer-god-ved-din-ryg.md,Se alle effektive rygøvelser til fitness & hjemmetræning,/rygoevelser/
 _posts/2020-08-11-kosttilskud.md,udregne dit eget proteinbehov i vores beregner,/dagligt-protein-indtagelse/
 _posts/2020-08-11-kosttilskud.md,fødevarer der har et højt proteinindhold,/protein-i-madvarer/
 _posts/2020-08-11-kosttilskud.md,åbent vindue,/artikel/aabne-vindue-og-anabolic-window/
@@ -1722,7 +1730,7 @@ _posts/2020-08-11-excentrisk-koncentrisk.md,styre tempoet i dine løft,/artikel/
 _posts/2020-08-11-excentrisk-koncentrisk.md,excentrisk træning,/excentrisk-traening/
 _posts/2020-08-11-excentrisk-koncentrisk.md,skadesforebyggelse og nedsættelse af smerter omkring senerne,/skadesforebyggelse-skadesforebyggende-traening/
 _posts/2020-08-11-excentrisk-koncentrisk.md,rate of force development (RFD),/rate-of-force-development/
-_posts/2020-08-11-excentrisk-koncentrisk.md,træning af kropsvægt hjemme,/metoder-hjemmetraening-kropsvaegt-mere-effektiv/
+_posts/2020-08-11-excentrisk-koncentrisk.md,træning af kropsvægt hjemme,/artikel/traening-med-kropsvaegt/
 _posts/2021-01-24-hvor-hoej-bliver-du.md,Hvad er gennemsnitshøjden for mænd og kvinder i Danmark?,/hvad-er-gennemsnitshoejden-i-danmark/
 _posts/2021-01-24-hvor-hoej-bliver-du.md,Forstå BMI for børn og unge (BMI-for-alder / iso-BMI),/bmi-beregner-boern-unge-teenagere/
 _posts/2021-01-24-hvor-hoej-bliver-du.md,Komplet Fysiologisk Kropsanalyse Dashboard,/kropsanalyse/
@@ -1750,7 +1758,9 @@ _posts/2019-10-31-hrzones-pulszoner.md,Lær mere om Heart Rate Reserve (Pulsrese
 _posts/2022-08-17-soevn-optimering.md,hvor meget søvn man skal have,/hvor-meget-skal-man-sove/
 _posts/2022-08-17-soevn-optimering.md,søvn,/soevn/
 _posts/2022-08-17-soevn-optimering.md,biohacking kulturen,/hvad-er-biohacking/
+_posts/2022-08-17-soevn-optimering.md,træning før sengetid,/traening-sengetid/
 _posts/2022-08-17-soevn-optimering.md,restituere,/restitution/
+_posts/2022-08-17-soevn-optimering.md,cortisol,/fysiologi/
 _posts/2022-08-17-soevn-optimering.md,test af din kronotype,/a-eller-b-menneske/
 _posts/2022-08-17-soevn-optimering.md,hvornår du skal i sove,/hvornaar-gaa-i-seng/
 _posts/2022-08-17-soevn-optimering.md,brug af søvndagbog,/soevndagbog/
@@ -1806,6 +1816,7 @@ _posts/2020-09-04-pushup-test.md,Hvordan lærer jeg at tage min første armstræ
 _posts/2025-04-20-progression-loeb.md,tjek vores begynderguide,/intervals-icu-begynderguide/
 _posts/2022-02-09-loeb-hurtigere.md,planlægge dit løbeprogram,/guide-til-loebeprogram/
 _posts/2022-02-09-loeb-hurtigere.md,Intervaltræning,/intervaltraening/
+_posts/2022-02-09-loeb-hurtigere.md,10-20-30 intervaltræning,/10-20-30-intervaltraening/
 _posts/2022-02-09-loeb-hurtigere.md,intervaltræning til løb,/intervallob-intervaltraening/
 _posts/2022-02-09-loeb-hurtigere.md,kondital,/kondital/
 _posts/2022-02-09-loeb-hurtigere.md,vægtændrings estimerede påvirkening af din løbetid,/vaegttab-loebetid/
@@ -1856,9 +1867,10 @@ _posts/2019-10-31-kondital-fra-puls.md,puls,/puls/
 _posts/2019-10-31-kondital-fra-puls.md,hvad hvilepulsen er og hvordan du måler den,/hvilepuls/
 _posts/2019-10-31-kondital-fra-puls.md,"hvordan du kan måle, beregne og teste maxpulsen",/test-max-puls/
 _posts/2019-10-31-kondital-fra-puls.md,tabellen for kondital for mænd og kvinder,/kondital/
-_posts/2019-10-25-opvarmning-styrketraening.md,uddybende indlæg om opvarmning her,/opvarmning/
-_posts/2019-10-25-opvarmning-styrketraening.md,eksplosive og plyometriske øvelser,/plyometrisk-traening/
-_posts/2019-10-25-opvarmning-styrketraening.md,struktur i hans Bulletproof Athlete-program,/artikel/bulletproof-athlete/
+_posts/2019-10-25-opvarmning-styrketraening.md,faglige hovedartikel om fysiologien bag opvarmning,/opvarmning/
+_posts/2019-10-25-opvarmning-styrketraening.md,Bulletproof Athlete-program,/artikel/bulletproof-athlete/
+_posts/2019-10-25-opvarmning-styrketraening.md,plyometrisk træning,/plyometrisk-traening/
+_posts/2019-10-25-opvarmning-styrketraening.md,Lær hvordan du bruger McGill Big 3 som aktivering til din opvarmning her,/mcgill-big-3/
 _posts/2025-04-14-greyskull-lp.md,Liftosaur-appen,/liftosaur/
 _posts/2021-11-02-imtp.md,rate of force development (RFD),/rate-of-force-development/
 _posts/2021-11-02-imtp.md,traditionel 1RM-test,/rm-maxtest/
@@ -1889,7 +1901,7 @@ _posts/2026-08-06-haandgrebsstyrke.md,Sit-to-Stand Test (30STS & 5xSTS),/sit-to-
 _posts/2026-08-06-haandgrebsstyrke.md,Timed Up and Go (TUG),/timed-up-and-go-test/
 _posts/2026-08-06-haandgrebsstyrke.md,Bergs Balanceskala (BBS),/bergs-balanceskala/
 _posts/2019-11-19-styrkeloeft-vaelg-forsoeg.md,Regler for løftene i styrkeløft,/powerlifting-rules/
-_posts/2019-11-19-styrkeloeft-vaelg-forsoeg.md,1RM max,/rm-maxtest/
+_posts/2019-11-19-styrkeloeft-vaelg-forsoeg.md,1RM max,/rm-beregner/
 _posts/2019-11-19-styrkeloeft-vaelg-forsoeg.md,strategi for dit 1RM-forsøg,/rm-maxtest/
 _posts/2019-11-19-styrkeloeft-vaelg-forsoeg.md,hvor meget vægt der skal på stangen,/hvor-meget-vaegt-paa-stangen/
 _posts/2019-11-19-styrkeloeft-vaelg-forsoeg.md,RM-beregner,/rm-beregner/
@@ -1911,13 +1923,19 @@ _posts/2019-11-19-styrkeloft-deadlift.md,komplette guide til styrkeløft,/styrke
 _posts/2019-11-19-styrkeloft-deadlift.md,store dødløft-guide,/doedloeft/
 _posts/2019-11-19-styrkeloft-deadlift.md,konventionel dødløft,/oevelse/konventionel-doedloeft/
 _posts/2019-11-19-styrkeloft-deadlift.md,sumodødløft,/oevelse/sumo-doedloeft/
-_posts/2020-07-08-udstraekning.md,muskelømhed,/omme-muskler-efter-traening/
+_posts/2020-07-08-udstraekning.md,Smidighedstræning – Den fysiologiske guide til bedre mobilitet,/smidighedstraening/
+_posts/2020-07-08-udstraekning.md,"Virker udstrækning? Videnskabelig gennemgang af myter, DOMS og 1RM",/virker-udstraekning/
+_posts/2020-07-08-udstraekning.md,Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?,/dynamisk-og-statisk-udstraekning/
+_posts/2020-07-08-udstraekning.md,PNF-udstrækning – Guide til Hold-Relax og autogen hæmning,/pnf-udstraekning/
+_posts/2020-07-08-udstraekning.md,PNF-udstrækning,/pnf-udstraekning/
+_posts/2020-07-08-udstraekning.md,Læs vores komplette guide til dynamisk vs. statisk udstrækning »,/dynamisk-og-statisk-udstraekning/
 _posts/2020-07-08-udstraekning.md,musklerne,/muskler/
-_posts/2020-07-08-udstraekning.md,rate of force development,/rate-of-force-development/
-_posts/2020-07-08-udstraekning.md,ømme muskler og muskelømhed efter træning,/omme-muskler-efter-traening/
-_posts/2020-07-08-udstraekning.md,restitution,/restitution/
-_posts/2020-07-08-udstraekning.md,De fem tibetanere,/artikel/de-fem-tibetanere/
 _posts/2020-07-08-udstraekning.md,Solhilsen A og B,/artikel/solhilsen-a-b-surya-namaskar/
+_posts/2020-07-08-udstraekning.md,De fem tibetanere,/artikel/de-fem-tibetanere/
+_posts/2020-07-08-udstraekning.md,Smidighedstests,/smidighedstests/
+_posts/2020-07-08-udstraekning.md,ømme muskler og DOMS,/omme-muskler-efter-traening/
+_posts/2020-07-08-udstraekning.md,Rate of Force Development,/rate-of-force-development/
+_posts/2020-07-08-udstraekning.md,Læs vores store forskningsgennemgang af udstrækning her »,/virker-udstraekning/
 _posts/2025-03-26-varedeklaration.md,"gratis kalorietæller
     apps",/kalorietaeller-apps/
 _posts/2025-03-26-varedeklaration.md,kalorietabeller,/kalorietabellen/
@@ -1966,13 +1984,6 @@ _posts/2021-08-24-loebeprogrammer-10k.md,16-ugers begynderprogram fra 0 til 5 km
 _posts/2021-08-24-loebeprogrammer-10k.md,Jack Daniels VDOT-principper,/loebesiden-jack-daniels-loebeberegner/
 _posts/2021-08-24-loebeprogrammer-10k.md,Jack Daniels VDOT-beregner,/loebesiden-jack-daniels-loebeberegner/
 _posts/2021-08-24-loebeprogrammer-10k.md,styrketræning for løbere,/styrketraening-til-loeb/
-_posts/2021-01-14-corona-workouts.md,hjemmetræning,/hjemmetraening-traeningsprogram/
-_posts/2021-01-14-corona-workouts.md,øvelser til hjemmetræning,/hjemmetraening-traeningsprogram/
-_posts/2021-01-14-corona-workouts.md,træning med kropsvægt,/artikel/traening-med-kropsvaegt/
-_posts/2021-01-14-corona-workouts.md,udendørs træning,/naturfitness/
-_posts/2021-01-14-corona-workouts.md,kettlebells,/artikel/hvordan-traener-man-med-kettlebells/
-_posts/2021-01-14-corona-workouts.md,TRX og slyngetræning,/artikel/traening-med-slynger-trx-powersling-suspension-training/
-_posts/2021-01-14-corona-workouts.md,disse webshops,/fitnessbutikker
 _posts/2022-01-23-styrketraening-cykling.md,Burpees,/oevelse/burpees/
 _posts/2025-05-04-muskelvaekst.md,Hvordan og hvorfor muskler vokser,/hvordan-vokser-muskler/
 _posts/2025-05-04-muskelvaekst.md,Fysiologiske tilpasninger til styrketræning,/fysiologiske-tilpasninger/
@@ -2003,7 +2014,7 @@ _posts/2021-02-04-steps-kadence-running.md,excentrisk arbejde,/koncentrisk-excen
 _posts/2021-02-04-steps-kadence-running.md,excentriske træning,/excentrisk-traening/
 _posts/2021-02-04-steps-kadence-running.md,Komplet guide til bakkeløb,/bakkesprint-bakkeloeb/
 _posts/2019-10-31-bmi-beregner-boern.md,BMI-skalaen for voksne og ældre,/bmi/
-_posts/2019-10-31-bmi-beregner-boern.md,BMI beregner for voksne,/bmi-beregner/
+_posts/2019-10-31-bmi-beregner-boern.md,BMI beregner for voksne,/bmi/
 _posts/2019-10-31-bmi-beregner-boern.md,Ponderal Index,/ponderal-index/
 _posts/2019-10-31-bmi-beregner-boern.md,WHO,/assets/pdf/who/cht_wfh_boys_z_2_5.pdf
 _posts/2019-10-31-bmi-beregner-boern.md,WHO,/assets/pdf/who/cht_wfh_girls_z_2_5.pdf
@@ -2073,10 +2084,10 @@ _posts/2019-10-14-fedtprocent-skinfold-jackson-pollock.md,normal fedtprocent er 
 _posts/2019-10-14-fedtprocent-skinfold-jackson-pollock.md,slankekur,/slankekur/
 _posts/2019-10-14-fedtprocent-skinfold-jackson-pollock.md,idealvægt,/idealvaegt/
 _posts/2019-10-31-udregning-af-ponderal-index.md,Body Mass Index (BMI),/bmi/
-_posts/2019-10-31-udregning-af-ponderal-index.md,BMI med vores BMI-beregner,/bmi-beregner/
+_posts/2019-10-31-udregning-af-ponderal-index.md,BMI med vores BMI-beregner,/bmi/#calculator
 _posts/2019-10-31-udregning-af-ponderal-index.md,Danske mænds gennemsnitshøjde,/hvad-er-gennemsnitshoejden-i-danmark/
 _posts/2019-10-31-udregning-af-ponderal-index.md,BMI-formlen,/bmi/
-_posts/2019-10-31-udregning-af-ponderal-index.md,Beregn dit BMI her,/bmi-beregner/
+_posts/2019-10-31-udregning-af-ponderal-index.md,Beregn dit BMI her,/bmi/#calculator
 _posts/2024-08-05-heat-management-running.md,varmehåndtering i cykling,/varme-management-cykling/
 _posts/2024-08-05-heat-management-running.md,højere kondital,/kondital/
 _posts/2024-08-05-heat-management-running.md,Løbeøkonomien,/lobeokonomi/
@@ -2125,15 +2136,12 @@ _posts/2021-01-25-forskel-anaerob-aerob.md,løbeøkonomi,/lobeokonomi/
 _posts/2021-01-25-forskel-anaerob-aerob.md,anaerob træning,/anaerob-traening/
 _posts/2021-01-25-forskel-anaerob-aerob.md,Sprint 8 intervaltræning,/artikel/sprint-8-intervaltraening-der-virker/
 _posts/2025-04-14-korte-3x3.md,gratis Sheiko-programmer,/sheiko/
-_posts/2009-06-13-crossfit.md,kropsvægtstræning,/artikel/traening-med-kropsvaegt/
-_posts/2009-06-13-crossfit.md,styrkeløft,/styrkeloeft/
-_posts/2009-06-13-crossfit.md,Calisthenics,/calisthenics-begynderprogram-kropsvaegtstraening/
-_posts/2009-06-13-crossfit.md,crossfit workouts,/crossfit-workouts/
-_posts/2009-06-13-crossfit.md,Burpees,/oevelse/burpees/
-_posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md,anaerob træning,/anaerob-traening/
+_posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md,kondital,/kondital/
+_posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md,anaerob kapacitet,/anaerob-traening/
+_posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md,VO₂max,/maksimale-iltoptagelse-vo2max/
+_posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md,kondital,/kondital/
 _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md,intervaltræning,/intervaltraening/
-_posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md,maksimale iltoptagelse,/maksimale-iltoptagelse-vo2max/
-_posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md,maksimale puls,/test-max-puls/
+_posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md,VO₂max-fremgang,/maksimale-iltoptagelse-vo2max/
 _posts/2020-08-07-superkompensation.md,Borg CR10,/borg-skala/
 _posts/2020-08-07-superkompensation.md,deload,/deload-uge/
 _posts/2020-08-07-superkompensation.md,intervaltræning,/intervaltraening/
@@ -2175,10 +2183,11 @@ _posts/2020-07-05-pushups.md,forreste hoved af deltoideus,/deltoideus/
 _posts/2020-07-05-pushups.md,serratus anterior,/serratus-anterior/
 _posts/2020-07-05-pushups.md,armstrækningstesten her,/armstraekninger-test/
 _posts/2020-07-05-pushups.md,trin-for-trin guide til at lære at lave armstrækninger,/artikel/hvordan-laerer-jeg-tage-en-armstraekning/
+_posts/2025-02-20-lactate-test.md,direkte iltoptagelsestest i laboratoriet,/iltoptagelse-laboratorietest/
 _posts/2025-02-20-lactate-test.md,Læs vores store test af laktatmålere her →,/laktatmaaler-test/
 _posts/2025-02-20-lactate-test.md,Alt om den aerobe tærskel (AeT / LT1),/aerobe-taerskel/
 _posts/2025-02-20-lactate-test.md,Guide til den anaerobe tærskel (AnT / LT2),/anaerobe-taerskel/
-_posts/2025-02-20-lactate-test.md,submaksimal progressiv trappetest,/iltoptagelse-trappetest-maxtest-loeb/
+_posts/2025-02-20-lactate-test.md,submaksimal progressiv løbetest,/iltoptagelsestest-loebebaand/
 _posts/2025-02-20-lactate-test.md,oversigt over iltoptagelsestests,/iltoptagelse-laboratorietest/
 _posts/2019-11-15-daily-undulating.md,1RM,/rm-beregner/
 _posts/2019-11-15-daily-undulating.md,1RM-beregner,/rm-beregner/
@@ -2216,10 +2225,8 @@ _posts/2022-02-20-absi.md,taljemålet,/taljemaal/
 _posts/2022-02-20-absi.md,beregning af din fedtprocent,/artikel/udregning-af-fedtprocent/
 _posts/2022-02-20-absi.md,talje-hofte-ratio beregner,/taljemaal/
 _posts/2022-08-08-roning-ugetest.md,2 kilometer rotest,/kondital-roning/
-_posts/2022-08-08-roning-ugetest.md,test til roning,/kondital-roning/
-_posts/2022-08-08-roning-ugetest.md,maksimale iltoptagelse,/maksimale-iltoptagelse-vo2max/
-_posts/2022-08-08-roning-ugetest.md,god kondition,/kondition/
-_posts/2022-08-08-roning-ugetest.md,konditionstræning for kredsløbet,/konditionstraening/
+_posts/2022-08-08-roning-ugetest.md,test-protokol til roning,/kondital-roning/
+_posts/2022-08-08-roning-ugetest.md,bedre kondition,/kondition/
 _posts/2022-08-08-roning-ugetest.md,rointervaller til romaskine,/artikel/traeningsprogrammer-intervaller-roning/
 _posts/2025-03-16-montreal-track-test.md,Bip Test,/bip-test/
 _posts/2025-03-16-montreal-track-test.md,VAM-eval testen,/vam-eval-test/
@@ -2248,6 +2255,12 @@ _posts/2025-04-14-gzclp-strength.md,Bænkpres,/oevelse/baenkpres/
 _posts/2025-04-14-gzclp-strength.md,Military Press,/oevelse/military-press/
 _posts/2025-04-14-gzclp-strength.md,styrketræningsprogram du vælger,/vaelg-traeningsprogram/
 _posts/2025-04-14-gzclp-strength.md,Liftosaur-appen,/liftosaur/
+_posts/2020-04-16-smr-foamrolling.md,Smidighedstræning – Den fysiologiske guide til bedre mobilitet,/smidighedstraening/
+_posts/2020-04-16-smr-foamrolling.md,Virker foamrolling? Videnskaben om muskeltonus og myter,/virker-foamrolling/
+_posts/2020-04-16-smr-foamrolling.md,Dynamisk vs. statisk udstrækning – Hvornår skal du bruge hvad?,/dynamisk-og-statisk-udstraekning/
+_posts/2020-04-16-smr-foamrolling.md,Lacrosse bold og massagebold – Dybdegående triggerpunktsbehandling,/lacrosse-bold-massagebold/
+_posts/2020-04-16-smr-foamrolling.md,Udstrækningsøvelser – 22+ stræk for hele kroppen,/udstraekning-udspaending/
+_posts/2020-04-16-smr-foamrolling.md,Se vores guide og øvelser med lacrosse bolde og massagebolde her »,/lacrosse-bold-massagebold/
 _posts/2020-06-29-superset-guide.md,pull up eller chinup,/chinup-vs-pullup/
 _posts/2020-06-29-superset-guide.md,armstrækning eller armbøjning,/armbojninger-eller-armstraekninger-pushups/
 _posts/2020-06-29-superset-guide.md,triset,/styrketraening/triset/
@@ -2289,8 +2302,12 @@ _posts/2019-11-01-stofskifte-hvordan-udregne-energibehov.md,formler til hvilesto
 _posts/2019-11-01-stofskifte-hvordan-udregne-energibehov.md,beregning af energifordeling,/beregner/energifordeling/
 _posts/2019-11-01-stofskifte-hvordan-udregne-energibehov.md,TDEE-beregner,/ligevaegtsindtag-beregner/
 _posts/2019-11-01-stofskifte-hvordan-udregne-energibehov.md,BMR-formlerne,/hvilestofskiftet-formler/
+_posts/2020-11-23-skadesforebyggelse.md,Kan styrketræning forebygge skader? →,/artikel/kan-styrketraening-forebygge-skader/
+_posts/2020-11-23-skadesforebyggelse.md,excentrisk træning,/excentrisk-traening/
+_posts/2020-11-23-skadesforebyggelse.md,isometrisk træning,/koncentrisk-excentrisk-isometrisk/
 _posts/2020-11-23-skadesforebyggelse.md,hoften,/joints/hofteleddet/
 _posts/2020-11-23-skadesforebyggelse.md,knæet,/joints/knaeleddet/
+_posts/2020-11-23-skadesforebyggelse.md,Tilbage til oversigten over idrætsskader og forebyggelse →,/skader/
 _posts/2019-10-13-fedtprocent-normer.md,Navy-beregner med målebånd her,/fedtprocent-navy/
 _posts/2019-10-13-fedtprocent-normer.md,7 måder at måle fedtprocent på,/maal-fedtprocent/
 _posts/2019-10-13-fedtprocent-normer.md,BMI,/bmi/
@@ -2357,13 +2374,13 @@ _posts/2019-12-16-running-economy.md,"løbestil og løbeteknik, som jeg har skre
 _posts/2019-12-16-running-economy.md,Jack Daniels griber det an i sin løbsberegner,/loebesiden-jack-daniels-loebeberegner/
 _posts/2019-12-16-running-economy.md,kombinationen af styrketræning og løb,/artikel/bedste-kombination-af-loeb-og-styrketraening/
 _posts/2019-12-16-running-economy.md,Styrkeøvelser til at forbedre dit løb,/styrketraening-til-loeb/
-_posts/2019-10-31-kondital-fri-loebedistance.md,"Se den komplette kondital-tabel her og find ud af, om dit tal er højt eller lavt",/kondital/
+_posts/2019-10-31-kondital-fri-loebedistance.md,den komplette kondital-tabel,/kondital/
 _posts/2019-10-31-kondital-fri-loebedistance.md,Brug vores Jack Daniels Løbeberegner til at finde dine specifikke træningstempi og VDOT-forudsigelser,/loebesiden-jack-daniels-loebeberegner/
 _posts/2019-10-31-kondital-fri-loebedistance.md,Cooper Test til at finde dit kondital,/cooper-test/
 _posts/2019-10-31-kondital-fri-loebedistance.md,beregning af dit kondital,/kondital/
 _posts/2019-10-31-kondital-fri-loebedistance.md,test af din kondition,/kondition/tests/
 _posts/2019-10-31-kondital-fri-loebedistance.md,kondital beregner,/kondital/
-_posts/2019-10-31-kondital-fri-loebedistance.md,fulde samling af beregnere og værktøjer,/loeb/vaerktoejer/
+_posts/2019-10-31-kondital-fri-loebedistance.md,fulde samling af beregnere og værktøjer,/loebesiden/#beregnere
 _posts/2020-06-03-hvilepuls.md,Hvad er normal puls – alt om hjertets rytme →,/puls/
 _posts/2020-06-03-hvilepuls.md,6 fysiologiske tilpasninger til konditionstræning,/tilpasning-konditionstraening/
 _posts/2020-06-03-hvilepuls.md,artikel om heart rate variability (HRV),/hrv/
@@ -2378,13 +2395,6 @@ _posts/2019-10-31-kondital-fra-borg15.md,store guide om Borg-skalaen,/borg-skala
 _posts/2019-10-31-kondital-fra-borg15.md,aldersbestemt maxpuls,/max-puls-beregner/
 _posts/2019-10-31-kondital-fra-borg15.md,Borg-skalaen,/borg-skala/
 _posts/2019-10-31-kondital-fra-borg15.md,tabellen for kondital for mænd og kvinder,/kondital/
-_posts/2025-02-20-laboratorie-incremental-max-test-loeb.md,respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
-_posts/2025-02-20-laboratorie-incremental-max-test-loeb.md,Se protokollen for laktat-trappetest og beregn din kurve her →,/laktattest/
-_posts/2025-02-20-laboratorie-incremental-max-test-loeb.md,respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
-_posts/2025-02-20-laboratorie-incremental-max-test-loeb.md,udregning af den maksimale puls,/max-puls-beregner/
-_posts/2025-02-20-laboratorie-incremental-max-test-loeb.md,Kriterier for en VO2max test,/kriterier-maksimal-iltoptagelsestest/
-_posts/2025-02-20-laboratorie-incremental-max-test-loeb.md,præcise test af din maksimale iltoptagelse,/iltoptagelse-max-test-loeb/
-_posts/2025-02-20-laboratorie-incremental-max-test-loeb.md,andre iltoptagelsestests et testcenter kan lave,/iltoptagelse-laboratorietest/
 _posts/2022-04-14-loebeblogs.md,One Rep Max & VDOT Beregner,/loebesiden-jack-daniels-loebeberegner/
 _posts/2022-04-14-loebeblogs.md,Pulszoner til løb,/pulszoner-beregner/
 _posts/2022-04-14-loebeblogs.md,Løbefællesskaber i Danmark,/loebefaellesskaber/
@@ -2419,6 +2429,7 @@ _posts/2021-08-16-styrke-2-split-push-pull.md,vælger et træningsprogram,/vaelg
 _posts/2021-08-16-styrke-2-split-push-pull.md,fullbody træningsprogram,/artikel/hvordan-opbygger-jeg-et-helkropsprogram/
 _posts/2021-08-16-styrke-2-split-push-pull.md,Upper/over eller overkrop/underkrop,/2-split-upper-lower/
 _posts/2021-08-16-styrke-2-split-push-pull.md,3-split-program,/3-split-push-pull/
+_posts/2020-08-08-respiratoriske-kvotient.md,direkte iltoptagelsestest,/iltoptagelse-laboratorietest/
 _posts/2020-08-08-respiratoriske-kvotient.md,ophobning af mælkesyre,/maelkesyre-traening/
 _posts/2020-08-08-respiratoriske-kvotient.md,laboratorietest af iltoptagelse,/iltoptagelse-laboratorietest/
 _posts/2021-01-13-politi-traeningsprogram-bw.md,politiets fysiske optagelsesprøve,/politiets-fysiske-tests-krav-optagelsesproeve/
@@ -2436,7 +2447,7 @@ _posts/2021-01-13-politi-traeningsprogram-bw.md,pistol squats,/oevelse/pistol-sq
 _posts/2021-01-13-politi-traeningsprogram-bw.md,lunges,/lunges/
 _posts/2021-01-13-politi-traeningsprogram-bw.md,squats,/squat/
 _posts/2021-01-13-politi-traeningsprogram-bw.md,nordic hamstring curls,/oevelse/nordic-hamstring/
-_posts/2021-01-13-politi-traeningsprogram-bw.md,forskellige metoder til at gøre kropsvægtstræningen mere effektiv,/metoder-hjemmetraening-kropsvaegt-mere-effektiv/
+_posts/2021-01-13-politi-traeningsprogram-bw.md,forskellige metoder til at gøre kropsvægtstræningen mere effektiv,/artikel/traening-med-kropsvaegt/
 _posts/2021-01-13-politi-traeningsprogram-bw.md,kropsvægtsøvelser,/artikel/traening-med-kropsvaegt/
 _posts/2021-01-13-politi-traeningsprogram-bw.md,Hindu pushups,/oevelse/armstraekning-hindu/
 _posts/2021-01-13-politi-traeningsprogram-bw.md,forberede dig til politiets fysiske test,/politiets-fysiske-tests-krav-optagelsesproeve/
@@ -2444,8 +2455,8 @@ _posts/2021-01-13-politi-traeningsprogram-bw.md,træningsprogrammer,/traeningspr
 _posts/2021-01-13-politi-traeningsprogram-bw.md,styrketræningsprogrammer,/styrketraeningsprogrammer/
 _posts/2021-01-13-politi-traeningsprogram-bw.md,"benprogram, som også er med til at forebygge skader",/skadesforebyggelse-skadesforebyggende-traening/
 _posts/2021-01-13-politi-traeningsprogram-bw.md,workouts til hjemmetræning og træningsprogrammer,/hjemmetraening-traeningsprogram/
-_posts/2021-01-13-politi-traeningsprogram-bw.md,28 Corona Workouts,/corona-workouts/
 _posts/2026-08-05-anaerobic-power-reserve.md,Watt Max / Ramp-test,/kondital-wattmax/
+_posts/2026-08-05-anaerobic-power-reserve.md,6-sekunders Max Sprint Test,/6sek/
 _posts/2026-08-05-anaerobic-power-reserve.md,Watt Max Test: Sådan tester du din MAP,/kondital-wattmax/
 _posts/2026-08-05-anaerobic-power-reserve.md,FTP Test & Watt-zoner,/ftp-test/
 _posts/2026-08-05-anaerobic-power-reserve.md,Anaerobic Speed Reserve (ASR): ASR-konceptet til løb,/anaerobic-speed-reserve/
@@ -2483,6 +2494,9 @@ _posts/2020-08-03-citater-om-at-kaempe.md,"træningscitater om løb, styrketræn
 _posts/2020-08-03-citater-om-at-kaempe.md,"træningscitater om løb, styrketræning og motivation",/citater-traening-motivation/
 _posts/2022-09-18-hvordan-faar-jeg-raad-til-protein.md,højt dagligt indtag af protein,/dagligt-protein-indtagelse/
 _posts/2022-09-18-hvordan-faar-jeg-raad-til-protein.md,oversigt over proteinholdige fødevarer,/protein-i-madvarer/
+_posts/2022-09-18-hvordan-faar-jeg-raad-til-protein.md,Protein i madvarer,/protein-i-madvarer/
+_posts/2022-09-18-hvordan-faar-jeg-raad-til-protein.md,Beregn dit daglige proteinbehov,/dagligt-protein-indtagelse/
+_posts/2022-09-18-hvordan-faar-jeg-raad-til-protein.md,Guide til det bedste proteinpulver,/kosttilskud/proteinpulver/
 _posts/2020-12-23-bedste-cardiomaskiner.md,dybdegående guide til MET-værdier og kalorieforbrænding,/met/
 _posts/2020-12-23-bedste-cardiomaskiner.md,Kondition,/kondition/
 _posts/2020-12-23-bedste-cardiomaskiner.md,Borg-skalaen,/borg-skala/
@@ -2503,16 +2517,16 @@ _posts/2020-12-23-bedste-cardiomaskiner.md,Watt-max-konditest,/kondital-wattmax/
 _posts/2020-12-23-bedste-cardiomaskiner.md,Vmax-træning,/vmax/
 _posts/2020-12-23-bedste-cardiomaskiner.md,HIIT-intervaller,/hiit/
 _posts/2020-12-23-bedste-cardiomaskiner.md,guide til Assault Bike,/airbike-assault-bike-workout-intervaller/
-_posts/2020-12-23-bedste-cardiomaskiner.md,politiets optagelsesprøve,/politiet-fysisk-test/
+_posts/2020-12-23-bedste-cardiomaskiner.md,politiets fysiske optagelsesprøve,/politiets-fysiske-tests-krav-optagelsesproeve/
 _posts/2020-12-23-bedste-cardiomaskiner.md,konditionstests,/kondition/tests/
 _posts/2020-12-23-bedste-cardiomaskiner.md,kondital,/kondital/
 _posts/2020-12-23-bedste-cardiomaskiner.md,tabel over kondital,/kondital/
 _posts/2020-08-01-riegels-loebeberegner.md,Jack Daniels Running Formula og løbsberegner,/loebesiden-jack-daniels-loebeberegner/
 _posts/2020-08-01-riegels-loebeberegner.md,Jack Daniels Running Formula beregner,/loebesiden-jack-daniels-loebeberegner/
 _posts/2020-08-01-riegels-loebeberegner.md,hastighedsberegner,/hastighed/
-_posts/2020-08-01-riegels-loebeberegner.md,samlede oversigt over løbeberegnere,/loeb/vaerktoejer/
-_posts/2020-05-20-vejer-muskler-mere-end-fedt.md,musklerne,/muskler/
-_posts/2020-05-20-vejer-muskler-mere-end-fedt.md,at man tager på af træning,/vaegt-stiger-traening/
+_posts/2020-08-01-riegels-loebeberegner.md,samlede oversigt over løbeberegnere,/loebesiden/#beregnere
+_posts/2020-05-20-vejer-muskler-mere-end-fedt.md,vores anatomi,/muskler/
+_posts/2020-05-20-vejer-muskler-mere-end-fedt.md,"Læs vores dybdegående artikel om, hvorfor man kan tage på af træning her »",/vaegt-stiger-traening/
 _posts/2026-08-05-anaerobic-speed-reserve.md,VAM-eval test,/vam-eval-test/
 _posts/2026-08-05-anaerobic-speed-reserve.md,30-15 Intermittent Fitness Test,/30-15-intermittent-fitness-test/
 _posts/2026-08-05-anaerobic-speed-reserve.md,VAM-eval test: Mål din rene MAS på rundbane,/vam-eval-test/
@@ -2522,10 +2536,18 @@ _posts/2022-09-17-3-9-test-running-power.md,wattmåling til løb,/loeb-watt/
 _posts/2022-09-17-3-9-test-running-power.md,FTPa til løb,/ftpa-loeb/
 _posts/2022-09-17-3-9-test-running-power.md,pulstræning,/pulstraening/
 _posts/2022-09-17-3-9-test-running-power.md,pulsreserven,/pulsreserve/
+_posts/2026-08-18-norwegian-threshold.md,intervaltræning,/intervaltraening/
+_posts/2026-08-18-norwegian-threshold.md,4x4 intervaltræning,/4x4-intervaltraening/
+_posts/2026-08-18-norwegian-threshold.md,10-20-30,/10-20-30-intervaltraening/
+_posts/2026-08-18-norwegian-threshold.md,maksimale iltoptagelse (VO2max),/maksimale-iltoptagelse-vo2max/
+_posts/2026-08-18-norwegian-threshold.md,den anaerobe tærskel,/anaerobe-taerskel/
+_posts/2026-08-18-norwegian-threshold.md,kondital,/kondital/
+_posts/2026-08-18-norwegian-threshold.md,anaerob træning,/anaerob-traening/
+_posts/2026-08-18-norwegian-threshold.md,4x4 intervaller,/4x4-intervaltraening/
+_posts/2026-08-18-norwegian-threshold.md,10-20-30 sprints,/10-20-30-intervaltraening/
 _posts/2025-03-06-springstyrke-vaegtvest.md,counter movement jump,/countermovement-jump-cmj-squat-jump-sj/#cmj
 _posts/2025-03-06-springstyrke-vaegtvest.md,squat jump-test,/countermovement-jump-cmj-squat-jump-sj/#sj
-_posts/2025-03-06-springstyrke-vaegtvest.md,springstyrke,/springstyrke-og-springtraening/
-_posts/2025-03-06-springstyrke-vaegtvest.md,springtræning,/springtraening/
+_posts/2025-03-06-springstyrke-vaegtvest.md,springstyrke og springtræning,/springtraening/
 _posts/2025-03-06-springstyrke-vaegtvest.md,springtests og hoppehøjde,/springtests-hoppehoejde/
 _posts/2020-06-09-muskelfibertyper.md,superkompensation,/superkompensation/
 _posts/2020-06-09-muskelfibertyper.md,kan teste din egen muskelfibertypesammensætning,/test-muskelfibertyper/
@@ -2543,7 +2565,6 @@ _posts/2008-10-30-udregning-af-fedtprocent.md,danske mænds gennemsnitshøjde,/h
 _posts/2008-10-30-udregning-af-fedtprocent.md,BMI i deres formel,/bmi/
 _posts/2008-10-30-udregning-af-fedtprocent.md,tvivlsom slankekur,/slankekur/
 _posts/2008-10-30-udregning-af-fedtprocent.md,Body Mass Index,/bmi/
-_posts/2008-10-30-udregning-af-fedtprocent.md,BMI beregner,/bmi-beregner/
 _posts/2008-10-30-udregning-af-fedtprocent.md,idealvægt,/idealvaegt/
 _posts/2008-10-30-udregning-af-fedtprocent.md,7 måder at måle sin fedtprocent på?,/maal-fedtprocent/
 _posts/2008-10-30-udregning-af-fedtprocent.md,Hvad er en normal fedtprocent for mænd og kvinder?,/fedtprocent-normer/
@@ -2552,6 +2573,7 @@ _posts/2019-10-16-fedtprocent-skinfold-slaughter.md,fedtprocentmålinger med fed
 _posts/2019-10-16-fedtprocent-skinfold-slaughter.md,Lohman formlen,/lohman-fedtprocent-boern/
 _posts/2019-10-16-fedtprocent-skinfold-slaughter.md,BMI til børn og unge,/bmi-beregner-boern-unge-teenagere/
 _posts/2020-06-25-biptest.md,yoyo-restitutionstesten YYIR1,/yoyo-test/
+_posts/2020-06-25-biptest.md,restitutionspuls,/restitutionspuls/
 _posts/2020-06-25-biptest.md,Gå til Yo-Yo intervaltest med pauser her,/yoyo-test/
 _posts/2020-06-25-biptest.md,Sammenlign dit resultat i vores samlede kondital-tabel for mænd og kvinder,/kondital/
 _posts/2020-06-25-biptest.md,Konditionstræning,/konditionstraening/
@@ -2675,6 +2697,11 @@ _posts/2024-08-05-heat-management-biking.md,varmetræning,/varmetraening/
 _posts/2024-08-05-heat-management-biking.md,Hvor meget væske skal du drikke?,/hvor-meget-vand-skal-man-drikke-om-dagen/
 _posts/2024-08-05-heat-management-biking.md,træne på din varmeakklimatisering,/varmeakklimatisering-traening-i-varmen/
 _posts/2024-08-05-heat-management-biking.md,varmehåndtering i løb,/varme-management-loeb/
+_posts/2020-07-08-udstraekning-pnf.md,smidighedstræning,/smidighedstraening/
+_posts/2020-07-08-udstraekning-pnf.md,gennemgang af om udstrækning virker,/virker-udstraekning/
+_posts/2020-07-08-udstraekning-pnf.md,statisk udstrækning,/dynamisk-og-statisk-udstraekning/
+_posts/2020-07-08-udstraekning-pnf.md,musklernes,/muskler/
+_posts/2020-07-08-udstraekning-pnf.md,Se vores visuelle øvelseskatalog med over 22+ udstrækningsøvelser her »,/udstraekning-udspaending/
 _posts/2025-07-07-ketoner.md,Kosttilskud og præstation – hvad virker?,/kosttilskud/
 _posts/2025-07-07-ketoner.md,Sådan planlægger du energiindtag til lange løb,/kulhydratforbrug/
 _posts/2025-07-07-ketoner.md,Hvordan restituerer du bedst efter hård træning?,/restitution/
@@ -2691,11 +2718,10 @@ _posts/2026-03-21-muskel-storrelse.md,komplette muskeloversigt →,/muskler/
 _posts/2020-08-01-jack-daniels-loebeberegner.md,intervalløb,/intervallob-intervaltraening/
 _posts/2020-08-01-jack-daniels-loebeberegner.md,Pete Riegels formel,/riegels-loebeberegner/
 _posts/2020-08-01-jack-daniels-loebeberegner.md,Jack Daniels' Træningsfilosofi & Running Formula,/jack-daniels-running-formula/
-_posts/2020-08-01-jack-daniels-loebeberegner.md,hvor langt du skal løbe i dit tidsinterval,/hvor-langt-per-interval/
-_posts/2020-08-01-jack-daniels-loebeberegner.md,omregne din løbehastighed fra pace i min/km til km/t,/hastighed/omregner-tempo-fart/
-_posts/2020-08-01-jack-daniels-loebeberegner.md,hastighedsberegnere,/hastighed/
+_posts/2020-08-01-jack-daniels-loebeberegner.md,hvor langt du skal løbe i dit tidsinterval,/intervallob-intervaltraening/#calculator
+_posts/2020-08-01-jack-daniels-loebeberegner.md,omregne din løbehastighed fra pace i min/km til km/t,/hastighed/
 _posts/2020-08-01-jack-daniels-loebeberegner.md,løbeøkonomi,/lobeokonomi/
-_posts/2020-08-01-jack-daniels-loebeberegner.md,konditionen,/kondition/tests/
+_posts/2020-08-01-jack-daniels-loebeberegner.md,kondition,/kondition/
 _posts/2020-08-01-jack-daniels-loebeberegner.md,Coggans træningszoner,/traeningszoner/
 _posts/2020-08-01-jack-daniels-loebeberegner.md,hvordan man laver et løbetræningsprogram,/guide-til-loebeprogram/
 _posts/2020-08-01-jack-daniels-loebeberegner.md,📊 Se pacetabellen med distancer og sluttider,/hastighed/pace-tabeller/
@@ -2703,7 +2729,6 @@ _posts/2020-08-01-jack-daniels-loebeberegner.md,puls og pulszonerne,/pulszoner-b
 _posts/2020-08-01-jack-daniels-loebeberegner.md,løbeprogram,/loebeprogrammer/
 _posts/2020-08-01-jack-daniels-loebeberegner.md,Jack Daniels' træningsfilosofi,/jack-daniels-running-formula/
 _posts/2020-08-01-jack-daniels-loebeberegner.md,løbetræning,/loebesiden/
-_posts/2020-08-01-jack-daniels-loebeberegner.md,Se alle løbeberegnere,/loeb/vaerktoejer/
 _posts/2025-04-14-periodisering-for-niveauer.md,Starting Strength,/starting-strength-styrketraeningsprogram/
 _posts/2025-04-14-periodisering-for-niveauer.md,Greyskull LP,/greyskull-lp/
 _posts/2025-04-14-periodisering-for-niveauer.md,StrongLifts 5x5,/stronglifts-5x5/
@@ -2711,21 +2736,18 @@ _posts/2025-04-14-periodisering-for-niveauer.md,Texas Method,/texas-method/
 _posts/2025-04-14-periodisering-for-niveauer.md,Texas Method,/texas-method/
 _posts/2025-04-14-periodisering-for-niveauer.md,Wendler 5/3/1,/wendler-531-styrketraeningsprogram/
 _posts/2025-04-14-periodisering-for-niveauer.md,Sheiko,/sheiko/
+_posts/2020-04-16-smr-virker.md,Smidighedstræning – Den fysiologiske guide til bedre mobilitet,/smidighedstraening/
+_posts/2020-04-16-smr-virker.md,Foamroller – Guide til 10+ rulle-øvelser,/foamrolling/
+_posts/2020-04-16-smr-virker.md,Lacrosse bold og massagebold – Punktbehandling og øvelser,/lacrosse-bold-massagebold/
+_posts/2020-04-16-smr-virker.md,"Virker udstrækning? Forskning i myter, DOMS og stræktolerance",/virker-udstraekning/
 _posts/2019-10-11-kropskomposition.md,Alt om måling med fedttang,/skinfold/
 _posts/2019-10-11-kropskomposition.md,Læs mere om måling med bioimpedans,/bioimpedans-maaling/
-_posts/2019-10-11-kropskomposition.md,BMI beregner,/bmi-beregner/
+_posts/2019-10-11-kropskomposition.md,BMI beregner,/bmi/
 _posts/2019-10-11-kropskomposition.md,Udregn din fedtprocent,/artikel/udregning-af-fedtprocent/
 _posts/2019-10-11-kropskomposition.md,idealvægt,/idealvaegt/
 _posts/2019-10-11-kropskomposition.md,slankekur,/slankekur/
 _posts/2025-03-26-squat-mechanics.md,Squat teknik,/squat/
 _posts/2025-03-26-squat-mechanics.md,indlæg om biomekanik,/biomekanik/
-_posts/2025-02-20-iltoptagelsestest-vih.md,respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
-_posts/2025-02-20-iltoptagelsestest-vih.md,Læs mere om testprotokollen,/iltoptagelse-trappetest-maxtest-loeb/
-_posts/2025-02-20-iltoptagelsestest-vih.md,Submaksimal iltoptagelsestest,/iltoptagelse-submax-trappetest-loeb/
-_posts/2025-02-20-iltoptagelsestest-vih.md,Rampetest til test af maksimal iltoptagelse,/iltoptagelse-max-test-loeb/
-_posts/2025-02-20-iltoptagelsestest-vih.md,respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
-_posts/2025-02-20-iltoptagelsestest-vih.md,udregning af den teoretiske maxpuls baseret på alder,/max-puls-beregner/
-_posts/2025-02-20-iltoptagelsestest-vih.md,6 kritierer for en maksimal iltoptagelsestest,/kriterier-maksimal-iltoptagelsestest/
 _posts/2022-03-27-powerlifting-staevne-program.md,styrkeløft,/styrkeloeft/
 _posts/2022-03-27-powerlifting-staevne-program.md,regler for styrkeløft,/powerlifting-rules/
 _posts/2019-11-13-george-turner-10x10.md,GVT 10x10-programmet,/gvt/
@@ -2766,6 +2788,14 @@ _posts/2020-07-16-balance.md,Y-Balance Test,/y-balance-test/
 _posts/2020-07-16-balance.md,MSLHST,/mslhst-test/
 _posts/2020-07-16-balance.md,validerede balancetests,/balance-tests/
 _posts/2020-07-16-balance.md,effektive balanceøvelser og progression,/balancetraening/
+_posts/2020-07-08-smidighedstraening.md,"Virker foamrolling? Læs om muskeltonus, IT-båndet og myter »",/virker-foamrolling/
+_posts/2020-07-08-smidighedstraening.md,Foamroller – Komplet guide og 10+ øvelser for hele kroppen »,/foamrolling/
+_posts/2020-07-08-smidighedstraening.md,Lacrosse bold og massagebold – Øvelser til triggerpunkter og fodsål »,/lacrosse-bold-massagebold/
+_posts/2020-07-08-smidighedstraening.md,Udstrækning & strækøvelser,/udstraekning-udspaending/
+_posts/2020-07-08-smidighedstraening.md,Virker udstrækning?,/virker-udstraekning/
+_posts/2020-07-08-smidighedstraening.md,Smidighedstests,/smidighedstests/
+_posts/2020-07-08-smidighedstraening.md,PNF-udstrækning,/pnf-udstraekning/
+_posts/2020-07-08-smidighedstraening.md,Dynamisk vs. statisk,/dynamisk-og-statisk-udstraekning/
 _posts/2021-02-14-zwift-guide-begyndere.md,cykeltræningen indendørs på en app,/hometrainer-apps/
 _posts/2021-02-14-zwift-guide-begyndere.md,MyWhoosh Cycling,/mywhoosh-cycling/
 _posts/2021-02-14-zwift-guide-begyndere.md,Rouvy,/rouvy/
@@ -2811,12 +2841,14 @@ _posts/2020-08-29-haandvaegte.md,armøvelser,/arme-triceps-biceps/
 _posts/2020-08-29-haandvaegte.md,brystøvelser,/brystoevelser/
 _posts/2020-08-29-haandvaegte.md,skulderøvelser,/skulderoevelser/
 _posts/2020-08-29-haandvaegte.md,benøvelserne,/benoevelser/
-_posts/2020-08-01-vaegttab-loebetid.md,kondition,/kondition/
 _posts/2020-08-01-vaegttab-loebetid.md,kondital,/kondital/
-_posts/2020-08-01-vaegttab-loebetid.md,løbeteknik og løbeøkonomi,/lobeokonomi/
-_posts/2020-08-01-vaegttab-loebetid.md,dit BMI,/bmi/
-_posts/2020-08-01-vaegttab-loebetid.md,Flyer Handicap,/flyer-handicap/
-_posts/2020-08-01-vaegttab-loebetid.md,fulde oversigt over løbeværktøjer,/loeb/vaerktoejer/
+_posts/2020-08-01-vaegttab-loebetid.md,løbeøkonomi,/lobeokonomi/
+_posts/2020-08-01-vaegttab-loebetid.md,REDs,/rem-s/
+_posts/2020-08-01-vaegttab-loebetid.md,kalorieberegner,/kalorieberegner/
+_posts/2020-08-01-vaegttab-loebetid.md,forbrænding ved løb vs. gang,/loeb-mere-energi-gang/
+_posts/2020-08-01-vaegttab-loebetid.md,Flyer Handicap Beregner,/flyer-handicap/
+_posts/2020-08-01-vaegttab-loebetid.md,Aldersgraduerede løbetider,/aldersgraduerede-tider/
+_posts/2020-08-01-vaegttab-loebetid.md,Se alle løbeberegnere,/loebesiden/#beregnere
 _posts/2021-12-19-kend-din-krop.md,anatomi,/anatomi/
 _posts/2021-12-19-kend-din-krop.md,fysiologi,/fysiologi/
 _posts/2025-03-03-step-test-ymca-modified.md,YMCA steptest,/ymca-3-minutters-steptest/
@@ -2831,13 +2863,30 @@ _posts/2022-05-30-nedvarmning.md,muskelømhed og DOMS,/omme-muskler-efter-traeni
 _posts/2022-05-30-nedvarmning.md,åndedrætsøvelser,/aandedraetstraening-forbedrer-udholdenheden/
 _posts/2022-05-30-nedvarmning.md,strækøvelser,/udstraekning-udspaending/
 _posts/2022-05-30-nedvarmning.md,fjernelsen af mælkesyre,/maelkesyre-traening/
+_posts/2020-08-17-politiets-fysiske-tests-opvarmning.md,Fysiologien bag opvarmning,/opvarmning/
+_posts/2020-08-17-politiets-fysiske-tests-opvarmning.md,Opvarmning til Styrketræning,/opvarmning-styrketraening/
+_posts/2020-08-17-politiets-fysiske-tests-opvarmning.md,Opvarmning til Løb,/opvarmning-loeb/
+_posts/2020-08-17-politiets-fysiske-tests-opvarmning.md,FIFA 11+,/fifa-11-plus/
+_posts/2020-08-17-politiets-fysiske-tests-opvarmning.md,PEP-programmet,/pep-program/
+_posts/2020-08-17-politiets-fysiske-tests-opvarmning.md,1RM-Maxtest & PAP,/pap-post-activation-potentiation-1rm-maxtest/
 _posts/2020-08-17-politiets-fysiske-tests-opvarmning.md,Se alle fysiske krav & karakterskalaer for Politiets Fysiske Test,/politiets-fysiske-tests-krav-optagelsesproeve/
 _posts/2022-03-01-crossfit-sko.md,vægtløftningssko,/sko-styrketraening-fitness/
+_posts/2021-08-23-limber-11.md,Jim Wendlers *5/3/1*-program,/wendler-531-styrketraeningsprogram/#
+_posts/2021-08-23-limber-11.md,RAMP-opvarmning,/ramp-opvarmning/
+_posts/2021-08-23-limber-11.md,foamrolling,/foamrolling/
+_posts/2021-08-23-limber-11.md,lacrossebolde,/lacrosse-bold-massagebold/
+_posts/2021-08-23-limber-11.md,dynamisk udstrækning,/udstraekning-udspaending/
+_posts/2021-08-23-limber-11.md,foamrolling,/foamrolling/
+_posts/2021-08-23-limber-11.md,massagebolde,/lacrosse-bold-massagebold/
+_posts/2021-08-23-limber-11.md,generelle opvarmning,/opvarmning/
+_posts/2021-08-23-limber-11.md,McGill Big 3,/mcgill-big-3/
+_posts/2021-08-23-limber-11.md,RAMP-modellen,/ramp-opvarmning/
 _posts/2020-09-22-hiit.md,intervaltræning,/intervaltraening/
 _posts/2020-09-22-hiit.md,max puls,/test-max-puls/
 _posts/2020-09-22-hiit.md,laktat-tærsklen eller den anaerobe tærskel,/anaerobe-taerskel/
 _posts/2020-09-22-hiit.md,10-trins RPE-skala,/borg-skala/
 _posts/2020-09-22-hiit.md,Tabata,/artikel/tabata-traening-intervaller/
+_posts/2020-09-22-hiit.md,4x4 intervaller,/4x4-intervaltraening/
 _posts/2020-09-22-hiit.md,roning på romaskine,/artikel/traeningsprogrammer-intervaller-roning/
 _posts/2020-09-22-hiit.md,assault bike,/airbike-assault-bike-workout-intervaller/
 _posts/2020-09-22-hiit.md,cardiomaskine og kredsløbsmaskine,/bedste-cardiomaskiner/
@@ -2902,7 +2951,7 @@ _posts/2020-08-16-loebeteknik.md,løbeskader,/artikel/loebeskader-loebe-uden-ska
 _posts/2020-01-17-test-jump-reach.md,Sargent Jump Test,/sargent-jump-test/
 _posts/2020-01-17-test-jump-reach.md,CMJ & Squat Jump,/countermovement-jump-cmj-squat-jump-sj/
 _posts/2020-01-17-test-jump-reach.md,Oversigt over alle springtests,/springtests-hoppehoejde/
-_posts/2020-01-17-test-jump-reach.md,springstyrke og springtræning,/springstyrke-og-springtraening/
+_posts/2020-01-17-test-jump-reach.md,springstyrke og springtræning,/springtraening/
 _posts/2025-04-14-phat.md,træningsprogram til styrke,/styrketraeningsprogrammer/
 _posts/2025-04-14-phat.md,upper-lower split,/2-split-upper-lower/
 _posts/2025-04-14-phat.md,push-pull-legs-split,/3-split-push-pull/
@@ -3089,9 +3138,14 @@ _posts/2020-06-16-vand-i-kroppen.md,bioimpedans-analyse,/bioimpedans-maaling/
 _posts/2020-06-16-vand-i-kroppen.md,gennemsnitshøjde i Danmark,/hvad-er-gennemsnitshoejden-i-danmark/
 _posts/2020-06-16-vand-i-kroppen.md,bioimpedans-måling,/bioimpedans-maaling/
 _posts/2020-06-16-vand-i-kroppen.md,Hvor meget vand skal du drikke om dagen?,/hvor-meget-vand-skal-man-drikke-om-dagen/
-_posts/2022-02-20-muskelmasse.md,styrketræning med fokus på hypertrofi,/hypertrofi-metoder/
-_posts/2022-02-20-muskelmasse.md,hvad der får muskler til at vokse?,/hvordan-vokser-muskler/
-_posts/2022-02-20-muskelmasse.md,hvor lang tid det tager for muskler at vokse,/hvor-hurtigt-vokser-muskler/
+_posts/2022-02-20-muskelmasse.md,kropskomposition,/kropskomposition/
+_posts/2022-02-20-muskelmasse.md,kropskomposition,/kropskomposition/
+_posts/2022-02-20-muskelmasse.md,måle fedtprocent,/maal-fedtprocent/
+_posts/2022-02-20-muskelmasse.md,kropskomposition,/kropskomposition/
+_posts/2022-02-20-muskelmasse.md,måle fedtprocent,/maal-fedtprocent/
+_posts/2022-02-20-muskelmasse.md,de bedste metoder til hypertrofi,/hypertrofi-metoder/
+_posts/2022-02-20-muskelmasse.md,hvordan muskler vokser,/hvordan-vokser-muskler/
+_posts/2022-02-20-muskelmasse.md,hvor hurtigt muskler vokser,/hvor-hurtigt-vokser-muskler/
 _posts/2021-11-10-stress.md,PHQ-9 depressionstest,/phq-9-depression-test/
 _posts/2021-11-10-stress.md,WHO-5 skema for trivsel,/who5-trivselindekset/
 _posts/2021-11-10-stress.md,PHQ-9 Depressionstest,/phq-9-depression-test/
@@ -3107,15 +3161,25 @@ _posts/2022-11-22-kreatin.md,hvordan en muskel trækker sig sammen,/muskelsammen
 _posts/2022-11-22-kreatin.md,indtager koffein før din træning,/koffein/
 _posts/2022-11-22-kreatin.md,hvordan du skaber muskelvækst,/hvordan-vokser-muskler/
 _posts/2022-11-22-kreatin.md,online fitnessbutikker,/fitnessbutikker/
+_posts/2020-07-08-virker-udspaending.md,smidighedstræning,/smidighedstraening/
+_posts/2020-07-08-virker-udspaending.md,smidighedstræning,/smidighedstraening/
+_posts/2020-07-08-virker-udspaending.md,katalog med 22+ udstrækningsøvelser her,/udstraekning-udspaending/
+_posts/2020-07-08-virker-udspaending.md,musklerne,/muskler/
+_posts/2020-07-08-virker-udspaending.md,muskelømhed og ømme muskler efter træning,/omme-muskler-efter-traening/
+_posts/2020-07-08-virker-udspaending.md,Rate of Force Development – RFD,/rate-of-force-development/
+_posts/2020-07-08-virker-udspaending.md,"PNF-udstrækning, Hold-Relax og reflekser her »",/pnf-udstraekning/
+_posts/2020-07-08-virker-udspaending.md,muskelømhed,/omme-muskler-efter-traening/
+_posts/2020-07-08-virker-udspaending.md,Læs vores komplette sammenligning af dynamisk og statisk udstrækning her »,/dynamisk-og-statisk-udstraekning/
+_posts/2020-07-08-virker-udspaending.md,Se vores komplette øvelseskatalog med 22+ udstrækningsøvelser her »,/udstraekning-udspaending/
 _posts/2024-10-18-liftosaur.md,god træningslog,/traeningsdagbog-app/
 _posts/2024-10-18-liftosaur.md,samlede oversigt over de bedste træningsdagbog-apps til styrke og kondition,/traeningsdagbog-app/
 _posts/2024-10-18-liftosaur.md,Hvad er RPE i styrketræning?,/rpe/
 _posts/2024-10-18-liftosaur.md,Alt om 1 RM med beregner,/rm-beregner/
 _posts/2024-10-18-liftosaur.md,gennemgang af RPE,/rpe/
 _posts/2021-08-24-loeberuter-ruteomaalere.md,løbeværktøjer og beregnere til løb,/loebesiden/
-_posts/2019-08-10-bulletproof-athlete-R7.md,Bulletproof Day 1,/assets/pdf/programs/bulletproof-transition-day-1.pdf
-_posts/2019-08-10-bulletproof-athlete-R7.md,Bulletproof Day 2,/assets/pdf/programs/bulletproof-transition-day-2.pdf
-_posts/2019-08-10-bulletproof-athlete-R7.md,søvn,/soevn/
+_posts/2019-08-10-bulletproof-athlete-R7.md,RAMP-model,/ramp-opvarmning/
+_posts/2019-08-10-bulletproof-athlete-R7.md,McGill Big 3,/mcgill-big-3/
+_posts/2019-08-10-bulletproof-athlete-R7.md,muskelmasse,/muskelmasse-beregner/
 _posts/2026-07-28-zone-2.md,aerobe tærskel,/aerobe-taerskel/
 _posts/2026-07-28-zone-2.md,online pulszone-beregner,/pulszoner-beregner/
 _posts/2026-07-28-zone-2.md,fordele og ulemper ved træningzoner,/traeningszoner/
@@ -3165,17 +3229,21 @@ _posts/2022-01-20-soevn-tracking.md,hvornår du bør gå i seng og sove,/hvornaa
 _posts/2022-08-30-sportsdrik.md,Glykæmiske index,/glykaemisk-indeks/
 _posts/2022-08-30-sportsdrik.md,forholdet mellem fruktose og glukose her,/optimale-kulhydrat-forhold/
 _posts/2020-06-02-max-hr.md,maxpuls-beregner,/max-puls-beregner/
-_posts/2020-06-02-max-hr.md,Normal puls – sådan virker hjertet,/puls/
-_posts/2020-06-02-max-hr.md,Max-puls formler – hvilken er mest præcis?,/max-puls-formler/
-_posts/2020-06-02-max-hr.md,Prøv vores maxpuls-beregner,/max-puls-beregner/
-_posts/2020-06-02-max-hr.md,Se alle testmetoder til maxpuls i detaljer,/test-max-puls/
-_posts/2020-06-02-max-hr.md,Brug Maxpuls-beregneren,/max-puls-beregner/
-_posts/2020-06-02-max-hr.md,Se guiden til fysisk maxpuls-test,/test-max-puls/
-_posts/2020-06-02-max-hr.md,Gå i dybden med maxpuls-formler,/max-puls-formler/
-_posts/2020-06-02-max-hr.md,pulszoner baseret på maxpuls,/pulszoner-beregner/
+_posts/2020-06-02-max-hr.md,maxpuls-beregner,/max-puls-beregner/
+_posts/2020-06-02-max-hr.md,Gå til vores dedikerede maxpuls-beregner for dybdegående værktøjer,/max-puls-beregner/
+_posts/2020-06-02-max-hr.md,laboratorietest af iltoptagelse,/iltoptagelse-laboratorietest/
+_posts/2020-06-02-max-hr.md,Maxpuls-beregner,/max-puls-beregner/
+_posts/2020-06-02-max-hr.md,Laboratorietest,/iltoptagelse-laboratorietest/
+_posts/2020-06-02-max-hr.md,hvilepuls,/hvilepuls/
+_posts/2020-06-02-max-hr.md,minutvolumen,/puls/
+_posts/2020-06-02-max-hr.md,normal puls og hjertets rytme,/puls/
+_posts/2020-06-02-max-hr.md,hvilepuls,/hvilepuls/
+_posts/2020-06-02-max-hr.md,max-puls formler – hvilken er mest præcis?,/max-puls-formler/
+_posts/2020-06-02-max-hr.md,Zone 2 træning,/zone-2-traening/
+_posts/2020-06-02-max-hr.md,pulszoneberegner,/pulszoner-beregner/
 _posts/2020-06-02-max-hr.md,hvilepuls,/hvilepuls/
 _posts/2020-06-02-max-hr.md,kondital-beregner fra puls,/kondital-fra-puls/
-_posts/2020-06-02-max-hr.md,vores maxpuls-beregner,/max-puls-beregner/
+_posts/2020-06-02-max-hr.md,maxpuls-beregner,/max-puls-beregner/
 _posts/2020-09-03-sportsgrene.md,discgolf,/discgolf/
 _posts/2020-09-03-sportsgrene.md,masser af skridt,/skridt-pr-km-10000/
 _posts/2021-05-14-sidestik.md,åndedrætsøvelser og vejrtrækningsøvelser,/aandedraetstraening-forbedrer-udholdenheden/
@@ -3185,17 +3253,28 @@ _posts/2021-05-14-sidestik.md,kropsstammen med coreøvelser,/core/
 _posts/2021-01-30-okklusion-udstyr.md,Okklusionstræning,/introduktion-okklusionstraening/
 _posts/2021-01-30-okklusion-udstyr.md,de bedste danske podcasts om træning,/bedste-fitness-traening-podcasts/
 _posts/2021-01-30-okklusion-udstyr.md,begynderguiden til okklusionstræning,/introduktion-okklusionstraening/
-_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,"""Sixpack på seks uger""",/assets/pdf/jacob-sc3b8ndergaard-sixpack-pc3a5-6-uger-manual-til-at-blive-skarp-og-veltrc3a6net-c3a5ret-rundt-2012.pdf
-_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,styr på søvnrytmen,/soevn/
-_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,20 minutters opvarmning,/assets/pdf/jacob-sc3b8ndergaard-sixpack-pc3a5-6-uger-manual-til-at-blive-skarp-og-veltrc3a6net-c3a5ret-rundt-2012.pdf
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,kropskomposition,/kropskomposition/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,fedtprocent,/maal-fedtprocent/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,tabe fedt på maven,/tab-fedt-paa-maven/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,måle din fedtprocent her,/maal-fedtprocent/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,punktforbrænding en myte,/tab-fedt-paa-maven/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,slankekur,/slankekur/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,"Hent den originale manual til ""Sixpack på 6 uger"" (PDF)",/assets/pdf/jacob-sc3b8ndergaard-sixpack-pc3a5-6-uger-manual-til-at-blive-skarp-og-veltrc3a6net-c3a5ret-rundt-2012.pdf
 _posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,kettlebells,/artikel/hvordan-traener-man-med-kettlebells/
 _posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,kropsvægt,/artikel/traening-med-kropsvaegt/
-_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,swings,/oevelse/tohaandssving/
-_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,turkish getup,/oevelse/turkish-getup/
-_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,armstrækninger,/armbojninger-eller-armstraekninger-pushups/
-_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,'grease the groove',/artikel/hvordan-laerer-jeg-tage-en-armstraekning/
-_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,kropshævning,/oevelse/pullup/
-_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,tabe fedt på maven,/tab-fedt-paa-maven/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,Kettlebell Swings,/oevelse/tohaandssving/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,Turkish Get-Up,/oevelse/turkish-getup/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,Armstrækninger (Push-ups),/armbojninger-eller-armstraekninger-pushups/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,'Grease the Groove',/artikel/hvordan-laerer-jeg-tage-en-armstraekning/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,Kropshævninger (Pull-ups),/oevelse/pullup/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,fedtprocent,/maal-fedtprocent/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,Se den komplette guide og korrekte udførelse af McGill Big 3 her »,/mcgill-big-3/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,slankekur uden muskel-tab,/slankekur/
+_posts/2011-08-23-du-faar-ikke-sixpack-af-maverulninger.md,McGill Big 3,/mcgill-big-3/
+_posts/2021-08-23-opvarmning-ramp.md,grundlæggende guide til opvarmning,/opvarmning/
+_posts/2021-08-23-opvarmning-ramp.md,Opvarmning til styrketræning,/opvarmning-styrketraening/
+_posts/2021-08-23-opvarmning-ramp.md,Opvarmning til løb,/opvarmning-loeb/
+_posts/2021-08-23-opvarmning-ramp.md,grundlæggende guide til opvarmning,/opvarmning/
 _posts/2019-10-31-pulsreserve.md,maxpulsen,/test-max-puls/
 _posts/2019-10-31-pulsreserve.md,hvilepulsen,/hvilepuls/
 _posts/2019-10-31-pulsreserve.md,optimale pulszoner fra pulsreserven,/pulszoner-beregner/
@@ -3218,7 +3297,7 @@ _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md,dips,/oevelse/dips/
 _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md,arnold press,/oevelse/arnold-press/
 _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md,Se flere presøvelser,/presoevelser/
 _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md,pullups,/oevelse/pullup/
-_posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md,rows,/oevelse/bent-over-rows-bor/
+_posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md,rows,/rows/
 _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md,Se flere trækøvelser,/traekoevelser/
 _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md,farmer walk,/oevelse/farmerwalk/
 _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md,øvelser til loaded carries,/loaded-carries/
@@ -3295,8 +3374,6 @@ _posts/2019-10-30-kondital-et-punkts-test-cykel.md,tabellen for kondital for mæ
 _posts/2019-10-30-kondital-et-punkts-test-cykel.md,max-puls,/test-max-puls/
 _posts/2019-10-30-kondital-et-punkts-test-cykel.md,Prøv Åstrands 2-punktstest her,/topunktstest/
 _posts/2019-10-30-kondital-et-punkts-test-cykel.md,konditionstests på cykel,/tests/cykling/
-_posts/2020-04-16-smr.md,restitution,/restitution/
-_posts/2020-04-16-smr.md,restituere hurtigere,/restitutionstid/
 _posts/2021-08-24-loebeprogrammer-21k.md,et løbeprogram,/loebeprogrammer/
 _posts/2021-08-24-loebeprogrammer-21k.md,16-ugers begynderprogram fra 0 til 5 km,/loebeprogram-begyndere/
 _posts/2021-08-24-loebeprogrammer-21k.md,12-ugers løbeprogram til 10 km,/loebeprogram-10km/
@@ -3407,20 +3484,13 @@ _posts/2022-08-14-sportsgrenen-paavirker-kroppen.md,bygge muskelmasse,/hypertrof
 _posts/2022-08-14-sportsgrenen-paavirker-kroppen.md,Fysiologiske tilpasninger ved konditionstræning?,/tilpasning-konditionstraening/
 _posts/2022-08-14-sportsgrenen-paavirker-kroppen.md,Tilpasninger i kroppen ved styrketræning?,/fysiologiske-tilpasninger/
 _posts/2022-08-14-sportsgrenen-paavirker-kroppen.md,kender din krop,/kend-din-krop/
-_posts/2020-08-06-hjemmetraening.md,benøvelser med kropsvægt,/skadesforebyggelse-skadesforebyggende-traening/
-_posts/2020-08-06-hjemmetraening.md,disse metoder til at gøre kropsvægtsøvelser mere effektive,/metoder-hjemmetraening-kropsvaegt-mere-effektiv/
+_posts/2020-08-06-hjemmetraening.md,fremragende benøvelser med kropsvægt,/skadesforebyggelse-skadesforebyggende-traening/
+_posts/2020-08-06-hjemmetraening.md,metoder til effektiv kropsvægtstræning,/artikel/traening-med-kropsvaegt/
 _posts/2020-08-06-hjemmetraening.md,hjemmetræning med klude og sliders,/hjemmetraening-med-klude-sliders/
-_posts/2020-08-06-hjemmetraening.md,TRX-øvelser,/artikel/traening-med-slynger-trx-powersling-suspension-training/
-_posts/2020-08-06-hjemmetraening.md,yogaøvelser og yogastillinger,/yogastillinger-yogaovelser/
+_posts/2020-08-06-hjemmetraening.md,TRX-øvelser og suspension training,/artikel/traening-med-slynger-trx-powersling-suspension-training/
+_posts/2020-08-06-hjemmetraening.md,7 minute workout,/7-minute-workout/
 _posts/2020-08-06-hjemmetraening.md,yogaserien De fem Tibetanere,/artikel/de-fem-tibetanere/
-_posts/2020-08-06-hjemmetraening.md,kendte solhilsner,/artikel/solhilsen-a-b-surya-namaskar/
-_posts/2020-08-06-hjemmetraening.md,crossfit-inspirerede workouts,/crossfit-workouts/
-_posts/2020-08-06-hjemmetraening.md,Corona workouts,/corona-workouts/
-_posts/2020-08-06-hjemmetraening.md,undgår skader,/artikel/kan-styrketraening-forebygge-skader/
-_posts/2020-08-06-hjemmetraening.md,træning med kropsvægt,/artikel/traening-med-kropsvaegt/
-_posts/2020-08-06-hjemmetraening.md,udendørs træning,/naturfitness/
-_posts/2020-08-06-hjemmetraening.md,kettlebells,/artikel/hvordan-traener-man-med-kettlebells/
-_posts/2020-08-06-hjemmetraening.md,TRX og slyngetræning,/artikel/traening-med-slynger-trx-powersling-suspension-training/
+_posts/2020-08-06-hjemmetraening.md,Solhilsen,/artikel/solhilsen-a-b-surya-namaskar/
 _posts/2021-02-04-wendler.md,splitprogram,/styrketraening/split-programmer/
 _posts/2021-02-04-wendler.md,upper/lower,/2-split-upper-lower/
 _posts/2021-02-04-wendler.md,styrketræningsprogrammer,/styrketraeningsprogrammer/
@@ -3445,6 +3515,10 @@ _posts/2021-11-10-phq-9-depression.md,søvn eller sove,/soevn/
 _posts/2019-10-14-fedtprocent-maalebaand-navy.md,Se fedtprocent skema & normer for mænd og kvinder,/fedtprocent-normer/
 _posts/2019-10-14-fedtprocent-maalebaand-navy.md,Oversigt over 7 metoder til måling af fedtprocent,/maal-fedtprocent/
 _posts/2019-10-14-fedtprocent-maalebaand-navy.md,Læs om taljemålet som sundhedsmarkør,/taljemaal/
+_posts/2019-10-31-kondital-laboratorietest-udstyr.md,Direkte måling af iltoptagelse i laboratorium,/iltoptagelse-laboratorietest/
+_posts/2019-10-31-kondital-laboratorietest-udstyr.md,Øvelsesvejledning: Iltoptagelsestest på løbebånd,/iltoptagelsestest-loebebaand/
+_posts/2019-10-31-kondital-laboratorietest-udstyr.md,Øvelsesvejledning: Iltoptagelsestest på løbebånd,/iltoptagelsestest-cykel/
+_posts/2019-10-31-kondital-laboratorietest-udstyr.md,Kriterier for VO2max test,/kriterier-maksimal-iltoptagelsestest/
 _posts/2021-08-24-loebeprogrammer.md,lære at løbe hurtigere,/loeb-hurtigere/
 _posts/2021-08-24-loebeprogrammer.md,Styrketræningsprogrammer,/styrketraeningsprogrammer/
 _posts/2021-08-24-loebeprogrammer.md,Gåprogrammer & Gangtræning,/gangtraening/
@@ -3454,6 +3528,7 @@ _posts/2021-08-24-loebeprogrammer.md,Løbeprogram for begyndere (0 til 5 km på 
 _posts/2021-08-24-loebeprogrammer.md,5 km Løbeprogram,/loebeprogram-5km/
 _posts/2021-08-24-loebeprogrammer.md,10 km Løbeprogram,/loebeprogram-10km/
 _posts/2021-08-24-loebeprogrammer.md,Halvmaraton (21 km),/loebeprogram-halvmaraton-21km/
+_posts/2021-08-24-loebeprogrammer.md,10-20-30 intervaller,/10-20-30-intervaltraening/
 _posts/2021-08-24-loebeprogrammer.md,Maraton (42 km),/loebeprogram-maraton-42km/
 _posts/2021-08-24-loebeprogrammer.md,Det mest effektive løbeprogram (3 x 5 km om ugen),/artikel/det-mest-effektive-loebeprogram-til-forbedre-din-praestation/
 _posts/2021-08-24-loebeprogrammer.md,Læs alt om træningsfilosofier i løbetræningen,/traeningsfilosofier-loeb/
@@ -3461,10 +3536,9 @@ _posts/2021-08-24-loebeprogrammer.md,Hastigheds- & Tempoberegner,/hastighed/
 _posts/2021-08-24-loebeprogrammer.md,Jack Daniels VDOT-beregner,/loebesiden-jack-daniels-loebeberegner/
 _posts/2021-08-24-loebeprogrammer.md,Pulszoner-beregner,/pulszoner-beregner/
 _posts/2021-08-24-loebeprogrammer.md,styrketræning til løb,/styrketraening-til-loeb/
-_posts/2021-08-24-loebeprogrammer.md,løbeværktøjer til dig,/loeb/vaerktoejer/
-_posts/2021-08-24-loebeprogrammer.md,løbeside,/loebesiden/
+_posts/2021-08-24-loebeprogrammer.md,inspiration og løbeværktøjer til dig,/loebesiden/#beregnere
 _posts/2021-08-24-loebeprogrammer.md,flere tips om løb,/bedre-loeber/
-_posts/2021-08-24-loebeprogrammer.md,løbetræning,/loebesiden/
+_posts/2021-08-24-loebeprogrammer.md,samlede guide til løbetræning,/loebesiden/
 _posts/2021-08-24-loebeprogrammer.md,løbeprogram for begyndere,/loebeprogram-begyndere/
 _posts/2021-07-23-kj-kcal-omregner.md,ligevægtsindtag,/ligevaegtsindtag-beregner/
 _posts/2021-07-23-kj-kcal-omregner.md,hvad kalorier egentlig er,/hvad-er-kalorier/
@@ -3541,6 +3615,7 @@ _posts/2021-11-19-horizontal-jump-forces.md,broad jump,/broadjump/
 _posts/2021-11-19-horizontal-jump-forces.md,fysikkens love bag det vertikale spring,/fysik-vertikalt-hop/
 _posts/2021-11-19-horizontal-jump-forces.md,teste stående længdespring,/broadjump/
 _posts/2021-11-19-horizontal-jump-forces.md,fysiologiske indlæg om biomekanik,/biomekanik/
+_posts/2021-11-19-broadjump.md,Eksplosiv Styrke Dashboard,/eksplosivitet/
 _posts/2021-11-19-broadjump.md,Lær mere om de fysiske kræfter bag det horisontale spring,/fysik-horisontalt-hop/
 _posts/2021-11-19-broadjump.md,politiets fysiske optagelsesprøve,/politiets-fysiske-tests-krav-optagelsesproeve/
 _posts/2021-01-20-yoga-udstyr.md,yogaøvelser,/yogastillinger-yogaovelser/
@@ -3556,7 +3631,7 @@ _posts/2024-01-11-intervals-icu.md,finde din functional threshold power (FTP),/f
 _posts/2024-01-11-intervals-icu.md,løber med wattmåling,/loeb-watt/
 _posts/2024-01-11-intervals-icu.md,anaerobe tærskel,/anaerobe-taerskel/
 _posts/2024-01-11-intervals-icu.md,udregne maxpulsen på baggrund af din alder,/max-puls-beregner/
-_posts/2021-03-30-rygmuskler.md,pullups,/chinup-vs-pullup/
+_posts/2021-03-30-rygmuskler.md,chinups og pullups,/chinup-vs-pullup/
 _posts/2021-03-30-rygmuskler.md,rows,/rows/
 _posts/2021-03-30-rygmuskler.md,gode øvelser til ryggen,/rygoevelser/
 _posts/2021-03-30-rygmuskler.md,forebygge skader,/skadesforebyggelse-skadesforebyggende-traening/
@@ -3570,11 +3645,9 @@ _posts/2021-03-30-rygmuskler.md,rygtræning og specifikke øvelser til ryggen he
 _posts/2021-03-30-rygmuskler.md,liste over muskler her,/muskler/
 _posts/2021-03-30-rygmuskler.md,anatomi,/anatomi/
 _posts/2021-03-30-rygmuskler.md,Skema over alle muskler,/muskler/tabel/
-_posts/2025-03-20-kulhydrat-forbrug-arbejde.md,kondital fundet via en af vores løbetests,/tests/loeb/
-_posts/2025-03-20-kulhydrat-forbrug-arbejde.md,optimale kulhydratforhold til træning og konkurrence,/optimale-kulhydrat-forhold/
-_posts/2025-03-20-kulhydrat-forbrug-arbejde.md,carb-loading,/carb-loading/
-_posts/2025-03-20-kulhydrat-forbrug-arbejde.md,blande din egen sportsdrik,/sportsdrik/
-_posts/2025-03-20-kulhydrat-forbrug-arbejde.md,glykæmisk indeks,/glykaemisk-indeks/
+_posts/2025-03-20-kulhydrat-forbrug-arbejde.md,Løbebånd Beregner,/loebebaand-beregner/
+_posts/2025-03-20-kulhydrat-forbrug-arbejde.md,Bland din egen sportsdrik,/sportsdrik/
+_posts/2025-03-20-kulhydrat-forbrug-arbejde.md,Carb-Loading Guide,/carb-loading/
 _posts/2020-08-31-skabeloner.md,"bedste gratis træningsdagbog-apps (fx Liftosaur, RTS og Intervals.icu) her",/traeningsdagbog-app/
 _posts/2020-08-31-skabeloner.md,gratis styrketræningsprogrammer,/styrketraeningsprogrammer/
 _posts/2020-08-31-skabeloner.md,programlægning i styrketræning,/traeningsprogram-programlaegning-styrketraening/
@@ -3595,7 +3668,7 @@ _posts/2020-07-12-vbt-traeningsprogram.md,metoden til velocity based training,/v
 _posts/2021-12-19-blazepod.md,bip test,/bip-test/
 _posts/2019-11-01-stofskifteberegner-simpel.md,Stofskiftet består af tre hovedkomponenter,/stofskifte/
 _posts/2019-11-01-stofskifteberegner-simpel.md,Fysisk aktivitet (PAL),/beregner/pal/
-_posts/2019-11-01-stofskifteberegner-simpel.md,udregning af BMI,/bmi-beregner/
+_posts/2019-11-01-stofskifteberegner-simpel.md,beregning af BMI,/bmi/
 _posts/2019-11-01-stofskifteberegner-simpel.md,detaljerede artikel om BMR-formler her,/hvilestofskiftet-formler/
 _posts/2019-11-01-stofskifteberegner-simpel.md,Cunninghams formel til hvilestofskifte,/bmr-beregner-ffm/
 _posts/2019-11-01-stofskifteberegner-simpel.md,beregner af BMR fra fedtfri masse,/bmr-beregner-ffm/
@@ -3694,7 +3767,7 @@ _anatomy/adductor-magnus.md,Adductor Longus,/adductor-longus/
 _anatomy/adductor-magnus.md,Brevis,/adductor-brevis/
 _anatomy/adductor-magnus.md,Gracilis (den slanke indadfører),/gracilis/
 _anatomy/adductor-magnus.md,liste over muskler her,/muskler/
-_anatomy/adductor-magnus.md,anatomi,/anatomi/
+_anatomy/adductor-magnus.md,bevægeapparatets anatomi,/anatomi/
 _anatomy/transversus-abdominis.md,mavemuskler her,/muskler/mave/
 _anatomy/transversus-abdominis.md,liste over muskler her,/muskler/
 _anatomy/transversus-abdominis.md,anatomi,/anatomi/
@@ -3722,11 +3795,11 @@ _anatomy/extensor-digitorum.md,anatomi,/anatomi/
 _anatomy/biceps-femoris.md,semitendinosus,/semitendinosus/
 _anatomy/biceps-femoris.md,semimembranosus,/semimembranosus/
 _anatomy/biceps-femoris.md,liste over muskler her,/muskler/
-_anatomy/biceps-femoris.md,anatomi,/anatomi/
+_anatomy/biceps-femoris.md,guide til anatomi,/anatomi/
 _anatomy/adductor-brevis.md,den lange indadfører (Adductor Longus),/adductor-longus/
 _anatomy/adductor-brevis.md,den store indadfører (Adductor Magnus),/adductor-magnus/
 _anatomy/adductor-brevis.md,den store indadfører (Adductor Magnus),/adductor-magnus/
-_anatomy/adductor-brevis.md,liste over muskler her,/muskler/
+_anatomy/adductor-brevis.md,liste over kroppens muskelgrupper,/muskler/
 _anatomy/adductor-brevis.md,anatomi,/anatomi/
 _anatomy/tensor-fascia-latae.md,Gluteus Maximus,/gluteus-maximus/
 _anatomy/tensor-fascia-latae.md,liste over muskler her,/muskler/
@@ -3749,7 +3822,7 @@ _anatomy/erector-spinae.md,Latissimus Dorsi,/latissimus-dorsi/
 _anatomy/erector-spinae.md,Trapezius,/trapezius/
 _anatomy/erector-spinae.md,Rectus Abdominis,/rectus-abdominis/
 _anatomy/erector-spinae.md,Quadratus Lumborum,/quadratus-lumborum/
-_anatomy/erector-spinae.md,liste over muskler her,/muskler/
+_anatomy/erector-spinae.md,en komplet liste over muskler her,/muskler/
 _anatomy/erector-spinae.md,anatomi,/anatomi/
 _anatomy/supraspinatus.md,liste over muskler her,/muskler/
 _anatomy/supraspinatus.md,anatomi,/anatomi/
@@ -3760,7 +3833,7 @@ _anatomy/flexor-carpi-radialis.md,liste over muskler her,/muskler/
 _anatomy/flexor-carpi-radialis.md,anatomi,/anatomi/
 _anatomy/brachialis.md,Biceps Brachii,/biceps-brachii/
 _anatomy/brachialis.md,Brachioradialis,/brachioradialis/
-_anatomy/brachialis.md,liste over muskler her,/muskler/
+_anatomy/brachialis.md,oversigt over muskler i kroppen,/muskler/
 _anatomy/brachialis.md,anatomi,/anatomi/
 _anatomy/sartorius.md,Gracilis,/gracilis/
 _anatomy/sartorius.md,Semitendinosus,/semitendinosus/
@@ -3809,8 +3882,8 @@ _anatomy/semimembranosus.md,liste over muskler her,/muskler/
 _anatomy/semimembranosus.md,anatomi,/anatomi/
 _anatomy/extensor-digitori-minimi.md,fingerstrækker (Extensor Digitorum),/extensor-digitorum/
 _anatomy/extensor-digitori-minimi.md,Extensor Carpi Ulnaris,/extensor-carpi-ulnaris/
-_anatomy/extensor-digitori-minimi.md,liste over muskler her,/muskler/
-_anatomy/extensor-digitori-minimi.md,anatomi,/anatomi/
+_anatomy/extensor-digitori-minimi.md,tabel med muskler,/muskler/
+_anatomy/extensor-digitori-minimi.md,menneskets anatomi,/anatomi/
 _anatomy/quadriceps-vastus-lateralis.md,firehovede knæstrækker (quadriceps femoris),/quadriceps-femoris/
 _anatomy/quadriceps-vastus-lateralis.md,liste over muskler her,/muskler/
 _anatomy/quadriceps-vastus-lateralis.md,anatomi,/anatomi/
@@ -3818,7 +3891,7 @@ _anatomy/iliopsoas.md,Quadratus Lumborum,/quadratus-lumborum/
 _anatomy/iliopsoas.md,liste over muskler her,/muskler/
 _anatomy/iliopsoas.md,anatomi,/anatomi/
 _anatomy/latissimus-dorsi.md,Kappemusklen og Trapezius,/trapezius/
-_anatomy/latissimus-dorsi.md,pullups,/chinup-vs-pullup/
+_anatomy/latissimus-dorsi.md,chinups eller pullups,/chinup-vs-pullup/
 _anatomy/latissimus-dorsi.md,rows,/rows/
 _anatomy/latissimus-dorsi.md,liste over muskler her,/muskler/
 _anatomy/latissimus-dorsi.md,anatomi,/anatomi/
@@ -3842,8 +3915,6 @@ _drafts/2020-09-04-weightloss-calculator.md,beregner til at udregne dit daglige 
 _drafts/2020-09-04-weightloss-calculator.md,daglige energiforbrug,/ligevaegtsindtag-beregner/
 _drafts/2020-09-04-weightloss-calculator.md,slankekur,/slankekur/
 _drafts/2019-08-10-gas.md,General Adaption Syndrome,/assets/images/svg/gas.svg
-_drafts/2021-01-17-crossfit-workouts.md,Burpees,/oevelse/burpees/
-_drafts/2021-01-17-crossfit-workouts.md,crossfitøvelser,/crossfit-crossfit-oevelser/
 _drafts/2020-08-21-sunde-opskrifter.md,princippet om superkompensation,/superkompensation/
 _drafts/2020-08-21-sunde-opskrifter.md,dybdegående artikel om programlægning,/traeningsprogram-programlaegning-styrketraening/
 _drafts/2020-01-17-test-jump-force-platform.md,"spring, at hoppe højere og eksplosivitet her",/_drafts/2020-01-16-jumping/
@@ -3853,7 +3924,7 @@ _methods/styrketraening/tempo-contrast.md,metoder til hypertrofi,/hypertrofi-met
 _methods/styrketraening/waves.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/range-of-motion.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/stage-system.md,metoder til hypertrofi,/hypertrofi-metoder/
-_methods/styrketraening/pyramid.md,metoder til hypertrofi,/hypertrofi-metoder/
+_methods/styrketraening/pyramid.md,principper for hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/isometrics.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/isometrics.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/dropset.md,metoder til hypertrofi,/hypertrofi-metoder/
@@ -3868,59 +3939,84 @@ _methods/styrketraening/forced-reps.md,dropsæt,/styrketraening/dropset/
 _methods/styrketraening/forced-reps.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/eccentrics.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/compound-set.md,overlevelsesguide til at forstå supersæt,/guide-superset/
-_methods/styrketraening/compound-set.md,metoder til hypertrofi,/hypertrofi-metoder/
+_methods/styrketraening/compound-set.md,træningsmetoder til muskelhypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/compound-set.md,overlevelsesguide til at forstå supersæt,/guide-superset/
 _methods/styrketraening/compound-set.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/escalating-density.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/rest-pause-myoreps.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/gvt.md,German Volume Training (GVT),/gvt/
 _methods/styrketraening/gvt.md,andre metoder til hypertrofi,/hypertrofi-metoder/
-_methods/styrketraening/backoff-sets.md,metoder til hypertrofi,/hypertrofi-metoder/
+_methods/styrketraening/backoff-sets.md,træningsmetoder til muskelvækst,/hypertrofi-metoder/
 _methods/styrketraening/contrast-training.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/okklusion.md,Okklusionstræning,/introduktion-okklusionstraening/
 _methods/styrketraening/okklusion.md,rigtige udstyr til okklusionstræning,/udstyr-okklusionstraening-okklusionsudstyr/
 _methods/styrketraening/okklusion.md,metoder til hypertrofi,/hypertrofi-metoder/
 _methods/styrketraening/okklusion.md,begynderartikel om okklusionstræning,/introduktion-okklusionstraening/
 _methods/styrketraening/giantset.md,metoder til hypertrofi,/hypertrofi-metoder/
+_pages/eksplosivitet.md,Rate of Force Development (RFD),/rate-of-force-development/
+_pages/eksplosivitet.md,CMJ uden arme,/countermovement-jump-cmj-squat-jump-sj/#cmj
+_pages/eksplosivitet.md,Squat Jump (SJ),/countermovement-jump-cmj-squat-jump-sj/#sj
+_pages/eksplosivitet.md,Drop Jump / RSI,/reactive-strength-index-rsi/
+_pages/eksplosivitet.md,Sargent Jump / Jump & Reach,/sargent-jump-test/
+_pages/eksplosivitet.md,Stående Længdehop / Broad Jump,/broadjump/
+_pages/eksplosivitet.md,Tredobbelt Hop,/springtests-hoppehoejde/
+_pages/eksplosivitet.md,Enbens Længdehop,/springtests-hoppehoejde/
+_pages/eksplosivitet.md,30m Sprint m. 10m split,/sprinttest-med-sprintceller/
+_pages/eksplosivitet.md,10m Acceleration,/sprinttest-med-sprintceller/
+_pages/eksplosivitet.md,Fly 10m / 20m Topfart,/tests/sprint/
+_pages/eksplosivitet.md,RAST-test,/rast-test/
+_pages/eksplosivitet.md,5-10-5 Pro Agility Test,/pro-agility-5-10-5-test/
+_pages/eksplosivitet.md,505 Agility Test,/505-agility-test/
+_pages/eksplosivitet.md,Illinois Agility Test,/illinois-agility-test/
+_pages/eksplosivitet.md,Agility T-Test,/t-test-agility/
+_pages/eksplosivitet.md,Arrowhead Test,/arrowhead-test/
+_pages/eksplosivitet.md,Rate of Force Development (RFD),/rate-of-force-development/
 _pages/eksplosivitet.md,Plyometrisk træning,/plyometrisk-traening/
 _pages/eksplosivitet.md,Eksplosiv styrketræning,/styrketraening/
 _pages/eksplosivitet.md,Olympiske løft & vægtløftning,/styrketraening/
 _pages/eksplosivitet.md,Contrast Training & PAP,/styrketraening/contrast-training/
-_pages/eksplosivitet.md,CMJ (Countermovement Jump),/countermovement-jump-cmj-squat-jump-sj/#cmj
-_pages/eksplosivitet.md,SJ (Squat Jump),/countermovement-jump-cmj-squat-jump-sj/#sj
-_pages/eksplosivitet.md,RSI (Reactive Strength Index),/reactive-strength-index-rsi/
-_pages/eksplosivitet.md,Broad Jump (Længdehop),/broadjump/
-_pages/eksplosivitet.md,Sprinttest (10m / 30m),/sprinttest-med-sprintceller/
+_pages/eksplosivitet.md,CMJ u. arme,/countermovement-jump-cmj-squat-jump-sj/#cmj
+_pages/eksplosivitet.md,Broad Jump,/broadjump/
+_pages/eksplosivitet.md,30m m. 10m split,/sprinttest-med-sprintceller/
+_pages/eksplosivitet.md,5-10-5 Pro Agility,/pro-agility-5-10-5-test/
 _pages/eksplosivitet.md,CMJ,/countermovement-jump-cmj-squat-jump-sj/#cmj
 _pages/eksplosivitet.md,Sargent Jump Test,/sargent-jump-test/
 _pages/eksplosivitet.md,Drop Jump RSI,/reactive-strength-index-rsi/
 _pages/eksplosivitet.md,Stående længdehop (Broad Jump),/broadjump/
 _pages/eksplosivitet.md,10m / 30m Sprinttest,/sprinttest-med-sprintceller/
-_pages/eksplosivitet.md,"Sprint, acceleration og tophastighed",/sprint/
+_pages/eksplosivitet.md,5-10-5 Pro Agility Test,/pro-agility-5-10-5-test/
 _pages/eksplosivitet.md,Springtræning og hoppetræning,/springtraening/
 _pages/eksplosivitet.md,Oversigt over alle springtests,/springtests-hoppehoejde/
+_pages/eksplosivitet.md,"Sprint, acceleration og tophastighed",/sprint/
+_pages/eksplosivitet.md,Oversigt over alle sprinttests,/tests/sprint/
+_pages/eksplosivitet.md,Oversigt over retningsskift & COD-tests,/retningsskift-test/
+_pages/tests-cod-tests.md,Prøv vores Reaktive Agility Test (Y-RAT) og den interaktive Smart-Timer her,/reaktiv-agility-test/
+_pages/tests-cod-tests.md,5-10-5 Pro Agility,/pro-agility-5-10-5-test/
 _pages/tests-cod-tests.md,505 Agility Test,/505-agility-test/
 _pages/tests-cod-tests.md,Illinois Agility Test,/illinois-agility-test/
 _pages/tests-cod-tests.md,Agility T-Test,/t-test-agility/
 _pages/tests-cod-tests.md,Arrowhead Test,/arrowhead-test/
 _pages/tests-cod-tests.md,Politiet 8-Tals Løb,/8-tal-hurtighedstest/
+_pages/tests-cod-tests.md,"Se banemål, regler og test din score i 5-10-5 testen her »",/pro-agility-5-10-5-test/
 _pages/tests-cod-tests.md,Læs den komplette guide til 505 Agility Testen (med interaktiv timer og asymmetri-beregner) »,/505-agility-test/
 _pages/tests-cod-tests.md,"Læs alt om Illinois Agility Test (se banemål, regler og brug vores timer) »",/illinois-agility-test/
 _pages/tests-cod-tests.md,"Se banetegning, normer og brug interaktiv T-Test timer her »",/t-test-agility/
 _pages/tests-cod-tests.md,Arrow head testen,/arrowhead-test/
 _pages/tests-cod-tests.md,Prøv vores Arrowhead Test beregner og se den officielle opstilling »,/arrowhead-test/
 _pages/tests-cod-tests.md,fysiske tests til politiprøven,/politiets-fysiske-tests-krav-optagelsesproeve/
-_pages/tests-cod-tests.md,Gå til Politiskolens 8-Tals Test (med officiel karakterskala og timer) »,/8-tal-hurtighedstest/
+_pages/tests-cod-tests.md,Gå til Politiskolens 8-tals test (med officiel karakterskala og timer) »,/8-tal-hurtighedstest/
 _pages/traening.md,Styrketræning,/styrketraening/
 _pages/traening.md,Løb og løbetræning,/loebesiden/
 _pages/traening.md,Kondition og cardio,/kondition/
 _pages/traening.md,Cykeltræning,/cykling/
+_pages/traening.md,Indendørs roning,/roning/
 _pages/traening.md,Yoga og mindfulness,/yoga/
 _pages/traening.md,Gang og hverdagsmotion,/gang/
 _pages/traening.md,Spring- og plyometrisk træning,/springtraening/
 _pages/traening.md,Oversigt over alle træningsformer,/traeningsformer/
 _pages/traening.md,Træningsmetoder,/traeningsmetoder/
 _pages/traening.md,Katalog over træningsprogrammer,/traeningsprogrammer/
+_pages/traening.md,Workouts & WODs,/workouts/
 _pages/traening.md,Lav dit eget styrketræningsprogram,/traeningsprogram-programlaegning-styrketraening/
 _pages/traening.md,Træningsplanlægning og periodisering,/traeningsplanlaegning/
 _pages/traening.md,Sammensæt dit løbeprogram,/artikel/kom-i-gang-med-loebetraeningen/
@@ -3933,7 +4029,8 @@ _pages/traening.md,Benøvelser,/benoevelser/
 _pages/traening.md,Balleøvelser,/balleoevelser/
 _pages/traening.md,Skulderøvelser,/skulderoevelser/
 _pages/traening.md,Armøvelser (biceps & triceps),/arme-triceps-biceps/
-_pages/traening.md,Smidighed og udstrækning,/udstraekning-udspaending/
+_pages/traening.md,Smidighedstræning og mobilitet,/smidighedstraening/
+_pages/traening.md,Udstrækningsøvelser,/udstraekning-udspaending/
 _pages/traening.md,Balanceøvelser,/balancetraening/
 _pages/traening.md,Træningslære og optimal træning,/traeningslaere/
 _pages/traening.md,Restitution og genopbygning,/restitution/
@@ -3981,6 +4078,9 @@ _pages/exercises-tag-ryg.md,Trækøvelser,/traekoevelser/
 _pages/exercises-tag-ryg.md,Hoftedominante øvelser,/hoftedominante-oevelser/
 _pages/exercises-tag-ryg.md,Maveøvelser,/maveoevelser/
 _pages/tests.md,Se alle konditionstests »,/kondition/tests/
+_pages/tests.md,1RM Beregner »,/rm-beregner/
+_pages/tests.md,Armstrækningstest »,/armstraekninger-test/
+_pages/tests.md,IMTPt »,/imtp-test/
 _pages/tests.md,Se alle løbetests »,/tests/loeb/
 _pages/tests.md,6 min gåtest for ældre (6MWT) »,/gaatest-6min/
 _pages/tests.md,"Rockports 1,6 km gangtest »",/gaatest/
@@ -4072,7 +4172,7 @@ _pages/vurderingsvaerktoejer.md,Anerkendt Stresstest (PSS-10),/stress-test/
 _pages/vurderingsvaerktoejer.md,Depressionstest (PHQ-2 & PHQ-9),/phq-9-depression-test/
 _pages/vurderingsvaerktoejer.md,Automatiske Negative Tanker (ATQ),/atq-automatiske-negative-tanker/
 _pages/vurderingsvaerktoejer.md,Træningsafhængighed & Ortoreksi (Samlet Tema & Dashboard),/traeningsafhaengighed-ortoreksi/
-_pages/vurderingsvaerktoejer.md,REDs Energitjek (Relativ Energimangel),/reds-relativ-energimangel-test/
+_pages/vurderingsvaerktoejer.md,REDs Energitjek (Relativ Energimangel),/rem-s/
 _pages/vurderingsvaerktoejer.md,Test af Træningsafhængighed (EAI),/traeningsafhaengighed/
 _pages/vurderingsvaerktoejer.md,DOS Ortoreksi-skalaen,/dos-ortoreksi/
 _pages/vurderingsvaerktoejer.md,IES-2 Intuitiv Træning,/intuitiv-traening/
@@ -4103,20 +4203,27 @@ _pages/exercises-tag-hip.md,Maveøvelser,/maveoevelser/
 _pages/running.md,løb for begyndere,/artikel/kom-i-gang-med-loebetraeningen/
 _pages/running.md,løbeprogram for begyndere,/loebeprogram-begyndere/
 _pages/running.md,træningsprincipper og progression i løb,/traeningsprincipper-loeb/
-_pages/running.md,Lær at skifte mellem gang og løb,/artikel/kom-i-gang-med-loebetraeningen/
+_pages/running.md,Guide: Kom godt i gang med løbetræningen,/artikel/kom-i-gang-med-loebetraeningen/
+_pages/running.md,Skift mellem gang og løb,/artikel/kom-i-gang-med-loebetraeningen/
 _pages/running.md,Lær at løbe hurtigere,/loeb-hurtigere/
 _pages/running.md,5 km løbeprogrammer,/loebeprogram-5km/
 _pages/running.md,10 km løbeprogrammer,/loebeprogram-10km/
 _pages/running.md,"Halvmaraton programmer (21,1 km)",/loebeprogram-halvmaraton-21km/
 _pages/running.md,"Maraton programmer (42,2 km)",/loebeprogram-maraton-42km/
+_pages/running.md,Oversigt over alle løbeprogrammer,/loebeprogrammer/
 _pages/running.md,Lav dit eget løbeprogram,/guide-til-loebeprogram/
 _pages/running.md,Intervalløb & Intervaltræning,/intervallob-intervaltraening/
 _pages/running.md,Pulstræning & Zoner,/pulstraening/
 _pages/running.md,Løbeteknik og Løbestil,/loebeteknik/
 _pages/running.md,Løbeøkonomi,/lobeokonomi/
 _pages/running.md,Træningsfilosofier til løb,/traeningsfilosofier-loeb/
-_pages/running.md,Se alle vores løbeværktøjer og pace-beregnere »,/loeb/vaerktoejer/
-_pages/running.md,"Se samlet katalog over løbetests (Bip-test, Yo-Yo test osv.) »",/tests/loeb/
+_pages/running.md,Jack Daniels Løbeberegner (VDOT),/loebesiden-jack-daniels-loebeberegner/
+_pages/running.md,Hastigheds- og Paceberegner,/hastighed/
+_pages/running.md,Kalorieforbrænding ved løb og gang,/loeb-mere-energi-gang/
+_pages/running.md,Cooper-test (12 min løbetest),/cooper-test/
+_pages/running.md,Bip-test (Shuttle Run),/bip-test/
+_pages/running.md,Yo-Yo test,/yoyo-test/
+_pages/running.md,Se det samlede katalog over alle løbetests »,/tests/loeb/
 _pages/running.md,Styrketræning for løbere,/styrketraening-til-loeb/
 _pages/running.md,Undgå løbeskader,/artikel/loebeskader-loebe-uden-skader/
 _pages/exercises-tag-skulder.md,skuldermusklen deltoideus her,/deltoideus/
@@ -4148,6 +4255,17 @@ _pages/kom-godt-i-gang.md,Energibehov og makronæringsstoffer,/beregner/energifo
 _pages/kom-godt-i-gang.md,Kost til træning og præstation,/kost-ernaering/
 _pages/kom-godt-i-gang.md,Tests og beregnere,/tests/
 _pages/kom-godt-i-gang.md,Sådan måler du din kropssammensætning,/kropskomposition/
+_pages/workouts.md,Cindy,/crossfit-workouts/#cindy
+_pages/workouts.md,300 Spartan Challenge,/300-challenge/
+_pages/workouts.md,10-20-30 Løb,/10-20-30-intervaltraening/
+_pages/workouts.md,Krintels Favorit (Roning),/artikel/traeningsprogrammer-intervaller-roning/
+_pages/workouts.md,7 Minute Workout,/7-minute-workout/
+_pages/workouts.md,Murph,/crossfit-workouts/#murph
+_pages/workouts.md,Crossfit Workouts Hub,/crossfit-workouts/
+_pages/workouts.md,Hjemmetræning uden udstyr (28 Dage),/hjemmetraening-traeningsprogram/
+_pages/workouts.md,Cirkeltræning Hub,/cirkeltraening/
+_pages/workouts.md,Romaskine Træningsprogrammer,/artikel/traeningsprogrammer-intervaller-roning/
+_pages/workouts.md,Intervaltræning & Løb,/intervaltraening/
 _pages/exercises-tag-ben.md,Safety Bar Squats,/safety-bar-squats/
 _pages/exercises-tag-ben.md,knædominante øvelser,/knaedominante-oevelser/
 _pages/exercises-tag-ben.md,hoftedominante øvelser,/hoftedominante-oevelser/
@@ -4163,19 +4281,25 @@ _pages/exercises-tag-ben.md,hoftedominante øvelser,/hoftedominante-oevelser/
 _pages/exercises-tag-ben.md,ankelleddet og musklerne i anklen,/joints/ankelleddet-og-fodleddet/
 _pages/exercises-tag-ben.md,knæleddet og musklerne omkring knæet,/joints/knaeleddet/
 _pages/exercises-tag-ben.md,hofteleddet og musklerne omkring hofteleddet,/joints/hofteleddet/
-_pages/beregnere.md,Ligevægtsindtag Beregner,/ligevaegtsindtag-beregner/
+_pages/beregnere.md,Ligevægtsindtag beregner,/ligevaegtsindtag-beregner/
 _pages/beregnere.md,BMR-beregner,/bmr-beregner/
-_pages/beregnere.md,Kalorieberegnere Oversigt,/kalorieberegner/
-_pages/beregnere.md,BMI Beregner,/bmi-beregner/
+_pages/beregnere.md,Kalorieberegnere oversigt,/kalorieberegner/
+_pages/beregnere.md,BMI Beregner,/bmi/
 _pages/beregnere.md,BMI Beregner til Børn & Unge,/bmi-beregner-boern-unge-teenagere/
 _pages/beregnere.md,Mål din Fedtprocent,/maal-fedtprocent/
 _pages/beregnere.md,Idealvægt Beregner,/idealvaegt/
 _pages/beregnere.md,Taljemål & Talje-Hofte Ratio,/taljemaal/
-_pages/beregnere.md,Oversigt over Løbeværktøjer & Beregnere,/loeb/vaerktoejer/
+_pages/beregnere.md,Oversigt over Løbeværktøjer & Beregnere,/loebesiden/#beregnere
+_pages/beregnere.md,"Løbeberegner, Jack Daniels og VDOT",/loebesiden-jack-daniels-loebeberegner/
 _pages/beregnere.md,Konditionstests & VO2-max,/kondition/tests/
-_pages/beregnere.md,Det samlede Fysiske Testkatalog,/tests/
-_pages/beregnere.md,Træningsværktøjer & Biomekanik,/vaerktoejer/
-_pages/beregnere.md,Psykologiske Tests,/vurderingsvaerktoejer/
+_pages/beregnere.md,Paceberegner,/hastighed/
+_pages/beregnere.md,Pulszoner & Karvonen Formel,/pulszoner-beregner/
+_pages/beregnere.md,1RM Beregner,/rm-beregner/
+_pages/beregnere.md,Wilks & DOTS Beregner,/sammenligning-styrke/
+_pages/beregnere.md,RPE & RIR Omregner,/rpe/
+_pages/beregnere.md,Det samlede fysiske testkatalog,/tests/
+_pages/beregnere.md,Træningsværktøjer & biomekanik,/vaerktoejer/
+_pages/beregnere.md,Psykologiske tests,/vurderingsvaerktoejer/
 _pages/exercises-tag-pull.md,træningsøvelser,/traeningsoevelser/
 _pages/exercises-tag-pull.md,styrketræningsøvelser,/styrketraeningsoevelser/
 _pages/exercises-tag-pull.md,presøvelser,/presoevelser/
@@ -4198,7 +4322,7 @@ _pages/kost-ernaering.md,kroppens stofskifte,/stofskifte/
 _pages/kost-ernaering.md,Sportsernæring – Guide til træning og præstation,/sportsernaering/
 _pages/kost-ernaering.md,Væske og hydrering,/hvad-skal-jeg-drikke/
 _pages/kost-ernaering.md,Kosttilskud i sport,/kosttilskud/
-_pages/kost-ernaering.md,Ligevægtsindtag beregner,/ligevaegtsindtag-beregner/
+_pages/kost-ernaering.md,Ligevægtsindtagberegner,/ligevaegtsindtag-beregner/
 _pages/kost-ernaering.md,BMR & Hvilestofskifte,/bmr-beregner/
 _pages/kost-ernaering.md,BMR-formler,/hvilestofskiftet-formler/
 _pages/kost-ernaering.md,Alt om stofskiftet,/stofskifte/
@@ -4207,7 +4331,7 @@ _pages/kost-ernaering.md,MET-beregner,/met-beregner/
 _pages/kost-ernaering.md,Hvad er kalorier?,/hvad-er-kalorier/
 _pages/kost-ernaering.md,kJ til kcal omregner,/kj-kcal-omregner/
 _pages/kost-ernaering.md,Oversigt over alle kalorieberegnere,/kalorieberegner/
-_pages/kost-ernaering.md,BMI Beregner,/bmi-beregner/
+_pages/kost-ernaering.md,BMI Beregner,/bmi/
 _pages/kost-ernaering.md,BMI til Børn og Unge,/bmi-beregner-boern-unge-teenagere/
 _pages/kost-ernaering.md,Mål din fedtprocent,/maal-fedtprocent/
 _pages/kost-ernaering.md,Fedtmåling med fedttang (Skinfold),/skinfold/
@@ -4235,7 +4359,7 @@ _pages/kost-ernaering.md,Hvor meget protein er der i madvarer?,/protein-i-madvar
 _pages/kost-ernaering.md,Læs alt om kroppens fysiologi,/fysiologi/
 _pages/kost-ernaering.md,Proteinpandekager uden banan,/proteinpandekager-uden-banan/
 _pages/kost-ernaering.md,Lækker proteinlasagne,/opskrift/protein-lasagne/
-_pages/vurderingsvaerktoejer-sportspyskologi.md,REDs Energitjek (Relativ Energimangel i Idræt),/reds-relativ-energimangel-test/
+_pages/vurderingsvaerktoejer-sportspyskologi.md,REDs Energitjek (Relativ Energimangel i Idræt),/rem-s/
 _pages/vurderingsvaerktoejer-sportspyskologi.md,Udbrændthed i Sport (ABQ - Athlete Burnout),/abq-udbraendthed-overtraening/
 _pages/vurderingsvaerktoejer-sportspyskologi.md,Test for Træningsafhængighed (EAI),/traeningsafhaengighed/
 _pages/vurderingsvaerktoejer-sportspyskologi.md,Screening for Spiseforstyrrelser,/spiseforstyrrelser/
@@ -4327,6 +4451,11 @@ _pages/traeningslaere.md,Skader og skadesforebyggelse,/skader/
 _pages/traeningslaere.md,Muskelømhed (DOMS),/omme-muskler-efter-traening/
 _pages/traeningslaere.md,Pause fra konditionstræning,/hvor-hurtigt-mister-form-kondition/
 _pages/traeningslaere.md,Atrofi: Hvor hurtigt mister man muskelmasse?,/atrofi-muskelmasse-muskelstyrke/
+_pages/roning.md,Læs vores store sammenligning af de bedste cardiomaskiner,/bedste-cardiomaskiner/
+_pages/roning.md,Tag testen: Kondital ud fra 2000m roning,/kondital-roning/
+_pages/roning.md,Prøv værktøjet: Trappetest i roning (Live Timer),/roning-trappetest/
+_pages/roning.md,Beregn din Powerkurve: Powerprofil Dashboard,/roning-powerprofil/
+_pages/roning.md,Se programmerne: Træningsprogrammer og Intervaller til Roning,/artikel/traeningsprogrammer-intervaller-roning/
 _pages/exercises-tag-hip-dominant.md,benøvelser,/benoevelser/
 _pages/exercises-tag-hip-dominant.md,balleøvelser,/balleoevelser/
 _pages/exercises-tag-hip-dominant.md,knædominante øvelser,/knaedominante-oevelser/
@@ -4391,18 +4520,21 @@ _pages/gymnasieidraet.md,Træningsprogrammer,/traeningsprogrammer/
 _pages/gymnasieidraet.md,Testsektion,/tests/
 _pages/politiets-optagelsesproeve.md,"Politiets fysiske tests, krav og træningstips",/politiets-fysiske-tests-krav-optagelsesproeve/
 _pages/tests-biking.md,kondital,/kondital/
-_pages/tests-biking.md,maksimale iltoptagelse,/maksimale-iltoptagelse-vo2max/
-_pages/tests-biking.md,kondital,/kondital/
-_pages/tests-biking.md,konditionstests,/kondition/tests/
+_pages/tests-biking.md,20-minutters FTP-test,/ftp-test/
+_pages/tests-biking.md,Ramp Test (Trappetest på cykel),/trappetest-cykel/
+_pages/tests-biking.md,maksimale iltoptagelse ($\text{VO}_2\text{max}$),/maksimale-iltoptagelse-vo2max/
 _pages/tests-biking.md,Åstrand 1-punktstest,/etpunktstest/
 _pages/tests-biking.md,Åstrand 2-punktstest,/topunktstest/
 _pages/tests-biking.md,Wattmax-test,/kondital-wattmax/
-_pages/tests-biking.md,Wingate-testen,/wingate/
-_pages/tests-biking.md,Peak Power Test (5-15 sekunder),/6sek/
-_pages/tests-biking.md,Se alle vores beregnere,/beregnere/
+_pages/tests-biking.md,Laboratorietest til cykling,/iltoptagelsestest-cykel/
+_pages/tests-biking.md,Peak Power Test (6-15 sekunder),/6sek/
+_pages/tests-biking.md,Wingate 30-sekunders All-Out Test,/wingate/
+_pages/tests-biking.md,Udregn dine Watt-zoner,/ftp-cykling/
+_pages/tests-biking.md,Watt pr. kg beregner,/vam/
+_pages/tests-biking.md,Se alle cykelartikler og træningstips »,/cykling/
 _pages/vaerktoejer.md,Ligevægtsindtag,/ligevaegtsindtag-beregner/
 _pages/vaerktoejer.md,BMR Beregner,/bmr-beregner/
-_pages/vaerktoejer.md,BMI Beregner (Voksne),/bmi-beregner/
+_pages/vaerktoejer.md,BMI Beregner (Voksne),/bmi/
 _pages/vaerktoejer.md,BMI til Børn & Unge,/bmi-beregner-boern-unge-teenagere/
 _pages/vaerktoejer.md,Mål din Fedtprocent,/maal-fedtprocent/
 _pages/vaerktoejer.md,Taljemål & Talje-Hofte Ratio,/taljemaal/
@@ -4416,7 +4548,7 @@ _pages/vaerktoejer.md,VDOT & Løbetider,/loebesiden-jack-daniels-loebeberegner/
 _pages/vaerktoejer.md,Se alle konditionstests »,/kondition/tests/
 _pages/vaerktoejer.md,Se alle løbetests »,/tests/loeb/
 _pages/vaerktoejer.md,Se alle cykeltests »,/tests/cykling/
-_pages/vaerktoejer.md,REDs Energitjek (Relativ Energimangel),/reds-relativ-energimangel-test/
+_pages/vaerktoejer.md,REDs Energitjek (Relativ Energimangel),/rem-s/
 _pages/vaerktoejer.md,Sportspsykologiske Tests,/sportspsykologiske-tests/
 _pages/vaerktoejer.md,WHO-5 Trivselsindeks,/who5-trivselindekset/
 _pages/vaerktoejer.md,Stresstest (PSS-10),/stress-test/
@@ -4479,14 +4611,38 @@ _pages/styrke.md,Velocity Based Training (VBT),/vbt/
 _pages/styrke.md,Styrketræning for Løbere,/styrketraening-til-loeb/
 _pages/kondition-test.md,kondital-beregnere uden test her,/kondital/
 _pages/kondition-test.md,Alt om kondition,/kondition/
-_pages/kondition-test.md,bip-testen,/bip-test/
-_pages/kondition-test.md,Cooper-testen,/cooper-test/
-_pages/kondition-test.md,Se alle løbetests,/tests/loeb/
-_pages/kondition-test.md,Se alle cykeltests,/tests/cykling/
-_pages/kondition-test.md,konditionstests hjemme,/konditionstests-hjemme/
-_pages/kondition-test.md,Mål din kondition uden tests,/kondital/
-_pages/kondition-test.md,Hvad er et godt kondital?,/kondital/
-_pages/tests-jump-vertical-tests.md,springtræning,/springstyrke-og-springtraening/
+_pages/kondition-test.md,Løbebåndstest med iltmaske,/iltoptagelsestest-loebebaand/
+_pages/kondition-test.md,Masketest på cykel,/iltoptagelsestest-cykel/
+_pages/kondition-test.md,Cooper-test,/cooper-test/
+_pages/kondition-test.md,2400-meter test,/kondital-2400-meter/
+_pages/kondition-test.md,Åstrand 1-punktstest,/etpunktstest/
+_pages/kondition-test.md,1609 m Jogging-test,//submaximal-jogging-test-vo2/
+_pages/kondition-test.md,Åstrand 1-punktstest,/etpunktstest/
+_pages/kondition-test.md,Rockport gå-test,/gaatest/
+_pages/kondition-test.md,Cooper-test (12 min),/cooper-test/
+_pages/kondition-test.md,Bip-test,/bip-test/
+_pages/kondition-test.md,Wattmax-test,/kondital-wattmax/
+_pages/kondition-test.md,Cooper-test (12 minutter),/cooper-test/
+_pages/kondition-test.md,2400-meter test,/kondital-2400-meter/
+_pages/kondition-test.md,Yo-Yo test,/yoyo-test/
+_pages/kondition-test.md,Bip-test,/bip-test/
+_pages/kondition-test.md,1609 m Jogging-test,//submaximal-jogging-test-vo2/
+_pages/kondition-test.md,Se den samlede oversigtsaide for alle løbetests »,/tests/loeb/
+_pages/kondition-test.md,Wattmax-test,/kondital-wattmax/
+_pages/kondition-test.md,Åstrand 1-punktstest,/etpunktstest/
+_pages/kondition-test.md,FTP & 20-minutters test,/ftp-test/
+_pages/kondition-test.md,Se den samlede oversigtsside for alle cykeltests »,/tests/cykling/
+_pages/kondition-test.md,6-minutters gangtest (6MWT),/gaatest-6min/
+_pages/kondition-test.md,"Rockport 1,6 km gå-test",/gaatest/
+_pages/kondition-test.md,Mål din kondition uden fysisk tests,/kondital/
+_pages/kondition-test.md,YMCA 3-minutters step-test,/ymca-3-minutters-steptest/
+_pages/kondition-test.md,oversigt over alle steptests,/kondital-fra-steptest/
+_pages/kondition-test.md,"Rockports 1,6 km gå-test",/gaatest/
+_pages/kondition-test.md,"1,6 km jogging-test",//submaximal-jogging-test-vo2/
+_pages/kondition-test.md,tabellen over hvad der er et godt kondital for mænd og kvinder,/kondital/
+_pages/kondition-test.md,Guide til direkte måling af iltoptagelse (VO2max) →,/iltoptagelse-laboratorietest/
+_pages/kondition-test.md,Hvilepuls,/hvilepuls/
+_pages/tests-jump-vertical-tests.md,springtræning,/springtraening/
 _pages/tests-jump-vertical-tests.md,Squat Jump (SJ),/countermovement-jump-cmj-squat-jump-sj/#sj
 _pages/tests-jump-vertical-tests.md,Countermovement Jump (CMJ),/countermovement-jump-cmj-squat-jump-sj/#cmj
 _pages/tests-jump-vertical-tests.md,Abalakov Jump test,/countermovement-jump-cmj-squat-jump-sj/#abalakov
@@ -4506,7 +4662,7 @@ _pages/exercises-tag-arme.md,trækøvelser,/traekoevelser/
 _pages/exercises-tag-arme.md,presøvelser,/presoevelser/
 _pages/exercises-tag-arme.md,rows,/rows/
 _pages/exercises-tag-arme.md,chinups og pullups,/chinup-vs-pullup/
-_pages/exercises-tag-arme.md,bænkpres,/brystoevelser/
+_pages/exercises-tag-arme.md,bænkpres,/oevelse/baenkpres/
 _pages/exercises-tag-arme.md,armstrækninger,/armbojninger-eller-armstraekninger-pushups/
 _pages/exercises-tag-arme.md,Trækøvelser,/traekoevelser/
 _pages/exercises-tag-arme.md,Presøvelser,/presoevelser/
@@ -4522,16 +4678,18 @@ _pages/traeningsformer.md,Calisthenics & kropsvægtstræning,/calisthenics-begyn
 _pages/traeningsformer.md,Funktionel træning,/artikel/funktionel-styrketraening/
 _pages/traeningsformer.md,Powerlifting & Vægtløftning,/styrketraening/
 _pages/traeningsformer.md,Løb og løbetræning,/loebesiden/
+_pages/traeningsformer.md,Roning og roergometer,/roning/
 _pages/traeningsformer.md,Kondition og cardio,/kondition/
 _pages/traeningsformer.md,HIIT (Højintensiv intervaltræning),/hiit/
 _pages/traeningsformer.md,Cykeltræning,/cykling/
 _pages/traeningsformer.md,Gang og walking,/gang/
 _pages/traeningsformer.md,Rotræning,/artikel/traeningsprogrammer-intervaller-roning/
 _pages/traeningsformer.md,Yoga og mindfulness,/yoga/
+_pages/traeningsformer.md,Smidighedstræning,/smidighedstraening/
 _pages/traeningsformer.md,Udstrækning og udspænding,/udstraekning-udspaending/
 _pages/traeningsformer.md,Balancetræning og core,/balancetraening/
-_pages/traeningsformer.md,Foam rolling,/foamrolling-foamroller-lacrossebolde/
-_pages/traeningsformer.md,Springtræning,/springstyrke-og-springtraening/
+_pages/traeningsformer.md,Foam rolling,/foamrolling/
+_pages/traeningsformer.md,Springtræning,/springtraening/
 _pages/traeningsformer.md,Plyometrisk træning,/plyometrisk-traening/
 _pages/traeningsformer.md,Træningsøvelser,/traeningsoevelser/
 _pages/traeningsformer.md,Træningsprogrammer,/traeningsprogrammer/
@@ -4548,18 +4706,15 @@ _pages/fitnessinstruktoer.md,Se alle øvelserne til fitnessinstruktør,/fitnessi
 _pages/fitnessinstruktoer.md,Alt om træningsplanlægning,/traeningsplanlaegning/
 _pages/fitnessinstruktoer.md,Mere om skader,/skader/
 _pages/spring.md,Rate of Force Development,/rate-of-force-development/
-_pages/spring.md,fysikken i det stående længdespring,/fysik-horisontalt-hop/
 _pages/spring.md,fysikken i de vertikale hop,/fysik-vertikalt-hop/
-_pages/spring.md,Se alle springtests,/springtests-hoppehoejde/
-_pages/spring.md,Reactive Strength Index,/reactive-strength-index-rsi/
-_pages/spring.md,Dynamic Strength Index,/dynamic-strength-index-dsi/
+_pages/spring.md,fysikken i det stående længdespring,/fysik-horisontalt-hop/
 _pages/spring.md,plyometrisk træning,/plyometrisk-traening/
-_pages/spring.md,Læs mere om springstyrke og træning,/springstyrke-og-springtraening/
-_pages/spring.md,Alt om eksplosivitet,/eksplosivitet/
-_pages/spring.md,Springstyrke – Øvelser til stærkere spring,/springstyrke-og-springtraening/
-_pages/spring.md,Springtests – Hvordan måler du din hoppehøjde?,/springtests-hoppehoejde/
-_pages/spring.md,Eksplosivitet – Udvikling af hurtig kraftudvikling,/eksplosivitet/
-_pages/spring.md,Plyometrisk træning – Springøvelser til eksplosiv styrke,/plyometrisk-traening/
+_pages/spring.md,Eksplosiv Styrke Dashboard,/eksplosivitet/
+_pages/spring.md,Countermovement Jump (CMJ) & Squat Jump (SJ),/countermovement-jump-cmj-squat-jump-sj/
+_pages/spring.md,Broad Jump (Stående Længdehop),/broadjump/
+_pages/spring.md,Reactive Strength Index (RSI),/reactive-strength-index-rsi/
+_pages/spring.md,Dynamic Strength Index (DSI),/dynamic-strength-index-dsi/
+_pages/spring.md,Se alle springtests og beregnere,/springtests-hoppehoejde/
 _pages/skader.md,restitution,/restitution/
 _pages/skader.md,restitutionstid,/restitutionstid/
 _pages/skader.md,Alt om restitution,/restitution/
@@ -4583,6 +4738,7 @@ _pages/skader.md,guide til bevægelsesanalyse,/bevaegelsesanalyse/
 _pages/skader.md,fysiologi,/fysiologi/
 _pages/skader.md,Alt om træningslæren,/traeningslaere/
 _pages/exercises-archive.md,styrketræningsøvelser,/styrketraeningsoevelser/
+_pages/exercises-archive.md,Workouts & WODs Arkiv,/workouts/
 _pages/exercises-archive.md,Se alle træningsformer,/traeningsformer/
 _pages/kondition.md,tabeller over kondital,/kondital/
 _pages/kondition.md,normer for kondital,/kondital/
@@ -4616,9 +4772,11 @@ _pages/styrke-programmer.md,helkropsprogram (fullbody),/styrketraening/helkropsp
 _pages/styrke-programmer.md,2-split eller 3-split program,/styrketraening/split-programmer/
 _pages/styrke-programmer.md,Se alle helkropsprogrammer (Fullbody) →,/styrketraening/helkropsprogrammer/
 _pages/styrke-programmer.md,Se alle splitprogrammer →,/styrketraening/split-programmer/
+_pages/programs.md,forskellige workouts,/workouts/
 _pages/programs.md,Fullbody / Helkropsprogrammer (Begynder),/styrketraening/helkropsprogrammer/
 _pages/programs.md,Splitprogrammer,/styrketraening/split-programmer/
 _pages/programs.md,træningslære og programlægning,/traeningslaere/
+_pages/programs.md,Udforsk vores samlede Workouts & WODs Arkiv,/workouts/
 _pages/exercises-tag-glutes.md,benøvelser,/benoevelser/
 _pages/exercises-tag-glutes.md,hoftedominante øvelser,/hoftedominante-oevelser/
 _pages/exercises-tag-glutes.md,træningsprogrammer,/traeningsprogrammer/
@@ -4655,16 +4813,23 @@ _pages/exercises-tag-press.md,Trækøvelser,/traekoevelser/
 _pages/exercises-tag-press.md,Bænkpresmekanik,/baenkpres-biomekanik/
 _pages/tests-running.md,Coopers 12 minutters løbetest,/cooper-test/
 _pages/tests-running.md,2400 meter testen,/kondital-2400-meter/
-_pages/tests-running.md,bib-testen,/bip-test/
-_pages/tests-running.md,oversigt over løbeværktøjer og beregnere,/loeb/vaerktoejer/
-_pages/tests-running.md,Cooper-testen,/cooper-test/
 _pages/tests-running.md,bip-testen,/bip-test/
-_pages/tests-running.md,"1,6 km submaksimal løbetest",/submaximal-jogging-test-vo2/
-_pages/tests-running.md,Yo-Yo-testen,/yoyo-test/
-_pages/tests-running.md,maksimale iltoptagelse,/maksimale-iltoptagelse-vo2max/
-_pages/tests-running.md,kondital,/kondital/
+_pages/tests-running.md,oversigt over løbeværktøjer og beregnere,/loebesiden/#beregnere
 _pages/tests-running.md,konditionstests generelt,/kondition/tests/
-_pages/tests-running.md,Billat-intervaller og 6-min all-out test,/billat-vvovmax-tlimvo2max/
+_pages/tests-running.md,Cooper-testen,/cooper-test/
+_pages/tests-running.md,2400-meter testen,/kondital-2400-meter/
+_pages/tests-running.md,1609 m jogging-test,//submaximal-jogging-test-vo2/
+_pages/tests-running.md,Rockport gå-test,/gaatest/
+_pages/tests-running.md,Bip-testen,/bip-test/
+_pages/tests-running.md,Yo-Yo testen,/yoyo-test/
+_pages/tests-running.md,6-minutters all-out test,/billat-vvovmax-tlimvo2max/
+_pages/tests-running.md,Løbebåndstest med iltmaske,/iltoptagelse-submax-trappetest-ramp-maxtest-loeb/
+_pages/tests-running.md,Løbestilsanalyse,/loebeteknik/
+_pages/tests-running.md,Cooper-test,/cooper-test/
+_pages/tests-running.md,1609m Jogging-test,//submaximal-jogging-test-vo2/
+_pages/tests-running.md,Bip-test / Yo-Yo,/bip-test/
+_pages/tests-running.md,Masketest på løbebånd,/iltoptagelsestest-loebebaand/
+_pages/tests-running.md,Billat-intervaller & 6-min all-out test,/billat-vvovmax-tlimvo2max/
 _pages/tests-running.md,Olher submaksimal 6-min test,/submaximal-6min-vvo2max-test/
 _pages/gang.md,forbrænder færre kalorier end ved løb,/loeb-mere-energi-gang/
 _pages/gang.md,forbrænding ved gang,/forbraending-ved-gaa-gang/
@@ -4679,17 +4844,17 @@ _pages/traeningsmetoder.md,maksimale iltoptagelse (VO2 max),/maksimale-iltoptage
 _pages/traeningsmetoder.md,anaerobe tærskel,/anaerobe-taerskel/
 _pages/traeningsmetoder.md,anaerob træning,/anaerob-traening/
 _pages/traeningsmetoder.md,intervaltræning,/intervaltraening/
+_pages/traeningsmetoder.md,Smidighedstræning – Hovedguide,/smidighedstraening/
+_pages/traeningsmetoder.md,Dynamisk og statisk udstrækning,/dynamisk-og-statisk-udstraekning/
+_pages/traeningsmetoder.md,PNF-udstrækning,/pnf-udstraekning/
+_pages/traeningsmetoder.md,Forskning og myter om udstrækning,/virker-udstraekning/
+_pages/traeningsmetoder.md,Katalog over udstrækningsøvelser,/udstraekning-udspaending/
+_pages/traeningsmetoder.md,Virker foamrolling?,/virker-foamrolling/
+_pages/traeningsmetoder.md,Foamrolling & skumrulle,/foamrolling/
+_pages/traeningsmetoder.md,Lacrosse bold & massagebold,/lacrosse-bold-massagebold/
 _pages/traeningsmetoder.md,Træningsprincipper,/traeningsprincipper/
 _pages/traeningsmetoder.md,Træningslære og fysiologi,/traeningslaere/
 _pages/traeningsmetoder.md,Træningsprogrammer,/traeningsprogrammer/
-_pages/running-tools.md,5 km,/loebeprogram-5km/
-_pages/running-tools.md,10 km,/loebeprogram-10km/
-_pages/running-tools.md,halvmaraton,/loebeprogram-halvmaraton-21km/
-_pages/running-tools.md,maraton,/loebeprogram-maraton-42km/
-_pages/running-tools.md,løbeprogram,/loebeprogrammer/
-_pages/running-tools.md,pulstræning,/pulstraening/
-_pages/running-tools.md,intervalløb og intervaltræning,/intervallob-intervaltraening/
-_pages/running-tools.md,Se alle løbetests,/tests/loeb/
 _pages/styrkeloeft.md,træningsprogrammer til styrketræning,/traeningsprogrammer/
 _pages/styrkeloeft.md,Se alle styrkeprogrammer,/styrketraeningsprogrammer/
 _pages/styrkeloeft.md,velocity based training,/vbt/
@@ -4773,7 +4938,7 @@ _pages/anatomy/muscles.md,**Gluteus Maximus**,/gluteus-maximus/
 _pages/anatomy/muscles.md,**Quadriceps**,/quadriceps-femoris/
 _pages/anatomy/muscles.md,benmuskler og bentræning,/muskler/ben/
 _pages/anatomy/muscles.md,**Latissimus Dorsi**,/latissimus-dorsi/
-_pages/anatomy/muscles.md,pullups,/chinup-vs-pullup/
+_pages/anatomy/muscles.md,pullups og chinups,/chinup-vs-pullup/
 _pages/anatomy/muscles.md,rows,/rows/
 _pages/anatomy/muscles.md,ryggens anatomi og rygmuskler her,/muskler/ryggen/
 _pages/anatomy/muscles.md,**Iliopsoas**,/iliopsoas/
@@ -4851,6 +5016,7 @@ _exercises/doedloeft.md,Konventionel vs. Sumo Dødløft: Hvilken skal du vælge?
 _exercises/doedloeft.md,Biomekanik i dødløft (interaktiv model),/doedloeft-biomekanik/
 _exercises/maveoevelse-stuart-mcgill-curlup-185.md,øvelsen mavebøjning,/oevelse/maveboejning/
 _exercises/maveoevelse-stuart-mcgill-curlup-185.md,øvelser til mavetræning,/maveoevelser/
+_exercises/maveoevelse-stuart-mcgill-curlup-185.md,Lær den korrekte McGill Curl-Up teknik og hele Big 3-serien her,/mcgill-big-3/
 _exercises/roning-pendlay-rows.md,rows,/rows/
 _exercises/roning-pendlay-rows.md,Ed Coans dødløftrutine til Mark Philippi,/ed-coan-doedloeft-cyklus/
 _exercises/roning-pendlay-rows.md,varianter af rows,/rows/
@@ -4881,6 +5047,7 @@ _exercises/rygstraekning-0-299.md,birddog,/oevelse/birddog/
 _exercises/rygstraekning-0-299.md,rygøvelser,/rygoevelser/
 _exercises/rygstraekning-0-299.md,rygmuskler,/muskler/ryggen/
 _exercises/triceps-fransk-pres-262.md,triceps extension,/oevelse/triceps-extension/
+_exercises/side-bridge-141.md,Læs hvordan du kombinerer Sideplank i den samlede McGill Big 3-protokol her,/mcgill-big-3/
 _exercises/mave-hanging-leg-raise-508.md,toes to bar,/oevelse/toes-to-bar/
 _exercises/roning-roergometer-241.md,cardiomaskine,/bedste-cardiomaskiner/
 _exercises/doedloeft-romanian-43.md,goodmornings,/oevelse/goodmorning/
@@ -4891,7 +5058,7 @@ _exercises/squat-back-53.md,specifikke squat-regler og teknikker,/styrkeloeft/sq
 _exercises/rite-4-table-pose-673.md,de fem tibetanere,/artikel/de-fem-tibetanere/
 _exercises/crosstrainer-255.md,cardiomaskine,/bedste-cardiomaskiner/
 _exercises/facepull-rotation-48.md,rows,/rows/
-_exercises/facepull-rotation-48.md,pullups,/chinup-vs-pullup/
+_exercises/facepull-rotation-48.md,chinups og pullups,/chinup-vs-pullup/
 _exercises/maverulning-med-boksning-667.md,flere øvelser til styrketræning af maven,/maveoevelser/
 _exercises/maveoevelse-fra-bom-154.md,Hanging leg raises,/oevelse/mave-hanging-leg-raise/
 _exercises/maveoevelse-fra-bom-154.md,øvelsen mavebøjning,/oevelse/maveboejning/
@@ -4900,6 +5067,7 @@ _exercises/dips-18.md,variation til bænkpres,/oevelse/baenkpres/
 _exercises/kropshaevning-vandret-33.md,bænkpres,/oevelse/baenkpres/
 _exercises/cykel-spinning-254.md,cardiomaskine,/bedste-cardiomaskiner/
 _exercises/hammer-swings-152.md,Tabata-intervaller,/oevelse/tabata-intervaller/
+_exercises/birddog-142.md,Se hvordan du bruger Bird-Dog sammen med resten af McGill Big 3 her,/mcgill-big-3/
 _exercises/knae-extension-248.md,Squat,/squat/
 _exercises/knae-extension-248.md,Front squat,/oevelse/front-squat/
 _exercises/knae-extension-248.md,Bulgarsk split-squat,/oevelse/bulgarian-split-squat/
@@ -4931,6 +5099,7 @@ _exercises/maveoevelse-hjul-rollout-280.md,øvelsen mavebøjning,/oevelse/mavebo
 _exercises/maveoevelse-hjul-rollout-280.md,øvelser til mavetræning,/maveoevelser/
 _exercises/maveboejning-281.md,restitution,/restitution/
 _exercises/maveboejning-281.md,mavemusklerne,/muskler/mave/
+_exercises/maveboejning-281.md,Læs vores komplette guide til McGill Big 3 og skånsom kernestabilitet her,/mcgill-big-3/
 _exercises/maveboejning-281.md,mavemuskler,/muskler/mave/
 _exercises/maveboejning-281.md,Skrå mavebøjning,/oevelse/maveboejning-skraa/
 _exercises/maveboejning-281.md,Mavebøjninger med løftede fødder,/oevelse/maveboejning-loeftede-foedder/

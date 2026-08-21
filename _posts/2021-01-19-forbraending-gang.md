@@ -135,7 +135,7 @@ Du kan naturligvis regne din egen gennemsnitlige kalorieforbrug pr. kilometer, h
 
 ## Hvor mange kalorier forbrænder du ved at gå 10.000 skridt?
 
-For at få et rimeligt estimat på, hvad du forbrænder ved at gå 10.000 skridt, så skal du kende din hastighed undervejs. Når du kender din hastighed, så kan du let bruge beregneren til at udregne, hvor mange kalorier du forbrænder på [10.000 skridt uanset hvor langt det er](/skridt-pr-km-10000/).
+For at få et præcist estimat på din kalorieforbrænding ved 10.000 skridt, skal du kende din hastighed. Når du kender dit tempo, kan du bruge beregneren herunder – og hvis du er i tvivl om den samlede distance, kan du se, [hvor mange km 10.000 skridt er](/skridt-pr-km-10000/).
 
 ## Fedtforbrænding ved at gå
 

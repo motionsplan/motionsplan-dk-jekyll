@@ -306,6 +306,12 @@ Det kunne være interessant med en model, som mere præcist kan fremskrive energ
 
 Jeg har lavet en tabel med [MET-værdier](/met/), og hvis du er interesseret i at læse mere om, [forbrænding ved cykling](https://www.cykel-ruter.dk/cykling-kalorier/), så har jeg skrevet lidt om det emne på [cykel-ruter.dk](https://www.cykel-ruter.dk/).
 
+## Gang vs. løb: Hvor langt tilbagelægger du reelt?
+
+Selvom løb forbrænder markant flere kalorier pr. minut end gang, ændrer regnestykket sig, når vi kigger på den tilbagelagte distance. Da skridtlængden naturligt er kortere ved gang end ved løb, kræver det væsentligt flere skridt at tilbagelægge den samme strækning til fods. 
+
+Hvis du bruger en skridttæller eller smartwatch til at måle din daglige motion, kan du læse vores dybdegående artikel om, [hvor mange km 10.000 skridt er](/skridt-pr-km-10000/), og se hvordan distancen varierer alt efter, om du går eller løber.
+
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}

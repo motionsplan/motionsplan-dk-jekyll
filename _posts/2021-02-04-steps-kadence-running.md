@@ -234,7 +234,7 @@ En almindelig skridtlængde ved løb ligger typisk mellem **1,1 og 1,5 meter** a
 
 Til gengæld ser det ud til, at du gerne må arbejde med din løbekadence, så den i hvert fald kommer op over 165-170 og måske endda gerne helt op til 180 skridt per minut for at reducere skadesrisikoen.
 
-Hvordan arbejder du med din skridtlængde og løbekadence?
+Måske er du også interesseret i vores [paceberegner fra km/t til min/km](/hastighed/).
 
 ---
 

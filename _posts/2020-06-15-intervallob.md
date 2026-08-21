@@ -121,7 +121,7 @@ Brug beregneren til at udregne distancen i meter ud fra din intervaltid og dit u
 
 {% include components/calculate-how-long-timed-interval.html %}
 
-**Har du brug for flere beregnere?** Gå til vores [oversigt over alle løbeværktøjer](/loebesiden/#beregnere) og se, hvad der ellers kan hjælpe dig.
+**Har du brug for flere beregnere?** Gå til vores [oversigt over alle løbeværktøjer](/loebesiden/#beregnere) eller tjekke vores [paceberegner](/hastighed/).
 
 ## Typer af intervaltræning til løb
 

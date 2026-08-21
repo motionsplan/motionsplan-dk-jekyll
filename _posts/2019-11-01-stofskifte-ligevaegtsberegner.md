@@ -259,6 +259,10 @@ Når du kender dit ligevægtsindtag, kan du målrette din kost i forhold til din
 * **Cut (Kalorieunderskud):** Du indtager færre kalorier end dit ligevægtsindtag (typisk 300–500 kcal under) for at forbrænde kropsfedt.
 * **Bulk (Kalorieoverskud):** Du indtager flere kalorier end dit ligevægtsindtag (typisk 200–400 kcal over) for at give kroppen energi til maksimal muskelopbygning.
 
+**Målsætning & vægtmål:** 
+
+Det kan være svært at vide, hvilket tal man skal sigte efter, men hvordan ved man egentlig det. Du kan udregne en sund målvægt baseret på dødelighed og fysiologi i vores guide til [idealvægt for mænd og kvinder](/idealvaegt/) eller tjekke dit [BMI for mænd og kvinder](/bmi/). Eller du kan bruge din sunde fornuft.
+
 ### Beregn din potentielle vægtændring over tid
 
 Brug beregneren herunder til at se, hvordan et specifikt kalorieoverskud eller -underskud vil påvirke din vægt over uger og måneder:

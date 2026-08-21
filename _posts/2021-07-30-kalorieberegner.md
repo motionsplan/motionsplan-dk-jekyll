@@ -37,17 +37,18 @@ Inden du går i gang med kalorieudregnerne, så kan det måske være relevant at
 
 ## 💡 Kalorieberegner - hvor mange kalorier har du brug for?
 
-Du kan bruge en kalorieberegner til at estimere dit daglige energibehov. Du kan altså beregne, hvor mange kalorier du har brug for om dagen for at holde vægten - eller for at få vægten til at stige eller falde.
+Du kan bruge en kalorieberegner til at estimere dit daglige energibehov. Du kan altså beregne, hvor mange kalorier du har brug for om dagen for at holde vægten – eller for at Justere kalorieindtaget til et vægttab eller muskelopbygning.
 
-Alle kalorieberegnere er naturligvis baseret på et gennemsnitligt kaloriebehov for et gennemsnitligt menneske. Der findes mange beregnere, hvor du kan beregne dit daglige kaloriebehov. Kalorieberegningen kan give dig en ide om, hvor meget energi du skal spise om dagen.
+Når du beregner kalorier med henblik på at ændre din vægt, er det en god idé først at kende dit fysiologiske udgangspunkt:
 
-Kært barn har mange navne. Man kalder ofte en beregner til kalorier for [ligevægtsindtag, energibehov eller energiforbrug](/ligevaegtsindtag-beregner/).
+* **Hvor ligger din vægt i dag?** Tjek dit tal i vores [BMI-beregner og skema](/bmi/) og få alle detaljerne om, hvordan du fortolker tallet ift. om du befinder dig i et sundt vægtinterval.
+* **Hvad bør din målvægt være?** I stedet for at gætte på et tilfældigt tal på badevægten, findes der også måder at beregne det på. Tjek fordele og ulemper ved at beregne [idealvægt for mænd og kvinder](/idealvaegt/).
 
-Disse kalorieberegnere er baseret på [generelle formler for hvilestofskiftet og basalstofskiftet](/hvilestofskiftet-formler/).
+Alle kalorieberegnere er baseret på et gennemsnitligt kaloriebehov. Man kalder ofte en beregner til kalorier for [ligevægtsindtag, energibehov eller energiforbrug](/ligevaegtsindtag-beregner/). Disse kalorieberegnere er opbygget omkring [generelle formler for hvilestofskiftet og basalstofskiftet](/hvilestofskiftet-formler/).
 
-Husk at en kalorieberegner ikke kan stå alene. Du skal ikke bare blindt følge forslagene i disse generelle programmer. Du finder først dit reelle kaloriebehov, hvis du ved hvor meget energi, du indtager over tid, og du fastholder din nuværende vægt.
+Husk at en kalorieberegner ikke kan stå alene. Du skal ikke bare blindt følge forslagene i disse generelle programmer. Du finder først dit reelle kaloriebehov, hvis du ved hvor meget energi du indtager over tid og sammenholder det med udviklingen på vægten.
 
-Her kan du hurtigt [beregne dit stofskifte](/hvordan-beregne-dagligt-energibehov/) og energiforbrug ved at bruge vores online værktøjer. Vælg den beregner, der passer bedst til dit behov.
+Her kan du hurtigt [beregne dit stofskifte](/hvordan-beregne-dagligt-energibehov/) og energiforbrug ved at bruge vores online værktøjer. Vælg den beregner, der passer bedst til dit behov:
 
 | Beregning | Beskrivelse |
 |-|-|

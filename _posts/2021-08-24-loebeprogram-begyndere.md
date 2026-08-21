@@ -117,9 +117,11 @@ Hvis du gerne vil se, om du bliver bedre i løbet af træningsprogrammet, kan du
 - **Hvor mange pauser du er nødt til at holde?** Mange uger handler det om at holde så få pauser som muligt. Du kan registrere, hvor mange pauser du holder pr. gang.
 - **Hvor mange minutter du løber?** Programmet er lavet på minutter. Derfor kan du automatisk se, at du bliver bedre og bedre, fordi du kan løbe flere minutter.
 
+**Læs**: Tjek din løbehastighed med vores [paceberegner](/hastighed/).
+
 ---
 
-## Principper i Motionsplans løbeprogram til begyndere
+## Principper i løbeprogrammet til begyndere
 
 - Løbeprogrammet er tilpasset begynderen, som gerne vil i gang med at løbe.
 - Programmet er lavet på minutter, så det passer til alle begyndere.

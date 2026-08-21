@@ -153,6 +153,12 @@ Print bingopladen ud og tag den med på gåturen. Kryds af, når du kommer forbi
 
 Brug en app på telefonen, der kan registrere din rute og find kreativiteten frem. Nu skal du ud at gå en tur og ”tegne” med dit gps-spor. Hvem kan tegne den flotteste figur? Du kan se mere i vores indlæg om [GPS-kunst og Stravakunst](/gps-doodles/)
 
+### Planlæg turlængden: Hvor langt skal din gåtur være?
+
+Når du planlægger din næste gåtur, kan det være en stor hjælp at kende den reelle afstand frem for kun at tælle skridt. Mange sætter sig et dagligt mål om at nå de klassiske 10.000 skridt, men hvor lang en rute kræver det egentlig i terrænet? 
+
+Hvis du gerne vil indtegne din tur på et kort eller tjekke, om en bestemt sti passer til dit tidsbudget, kan du læse vores guide til, [hvor mange km 10.000 skridt er](/skridt-pr-km-10000/). Det gør det nemt at oversætte dit skridtmål til en konkret gå-rute i skoven eller byen.
+
 ## Konklusion
 
 At gå er en god måde at få motion på, og det kan også være en sjov familieaktivitet. Der er mange forskellige måder at gå på, og vi håber, at disse tips har inspireret dig til at komme ud og begynde at udforske din by eller by til fods. Hvem ved? Måske vil du endda fare vild i nye og spændende kvarterer på din gåtur!

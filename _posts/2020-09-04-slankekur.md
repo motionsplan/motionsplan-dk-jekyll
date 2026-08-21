@@ -26,6 +26,19 @@ keywords:
   - hurtig slankekur
   - slankekur kostplan
   - Sense kuren
+faq:
+  - question: Hvad er den mest effektive slankekur?
+    answer: Den mest effektive slankekur er den, du kan holde på lang sigt. Fysiologisk handler et varigt vægttab om at skabe et moderat kalorieunderskud (ca. 300–500 kcal om dagen) kombineret med mættende mad (protein og fibre), styrketræning og høj hverdagsbevægelse (NEAT).
+  - question: Hvorfor virker hurtige lynkure ikke på lang sigt?
+    answer: Hurtige lynkure (f.eks. kure der lover 3–5 kg vægttab på fem dage) smider primært bundet væske, kulhydratlagre (glykogen) og tarmindhold – ikke kropsfedt. Når du vender tilbage til dine normale spisevaner, fyldes væskelagrene op igen, og vægten ryger direkte tilbage på start.
+  - question: Hvad er Sense-kuren, og hvorfor er den populær?
+    answer: Sense er et pædagogisk kostkoncept, hvor du bruger dine egne hænder som måleenhed til at opbygge dine måltider (1–2 håndfulde grønt, 1 håndfuld protein, 1 håndfuld kulhydrat og 1–3 spsk. fedtstof). Det skaber ubevidst et fornuftigt kalorieunderskud og god mæthed uden tælling eller forbud.
+  - question: Hvad betyder NEAT for mit vægttab?
+    answer: NEAT (Non-Exercise Activity Thermogenesis) er den energi, du forbrænder på almindelig hverdagsbevægelse som at tage trappen, gå tur, gøre rent og arbejde. En høj NEAT kan øge din daglige forbrænding markant mere end et enkelt ugentligt træningspas i fitnesscentret.
+  - question: Bør man gå på slankekur for at tabe 1–2 kilo?
+    answer: Nej, fysiologisk set er det sjældent en god idé. Vægtsvingninger på 1–2 kilo skyldes næsten altid midlertidige ændringer i væskebinding, saltindtag, tarmindhold eller hormonelle cyklusser – ikke fedt. Stramme kure for få kilo skaber unødigt stress og øger risikoen for yo-yo-effekt.
+  - question: Hvordan ved jeg, om jeg reelt har brug for at tabe mig?
+    answer: Du kan starte med at tjekke dit tal i vores [BMI-beregner og skema](/bmi/). Da BMI ikke skelner mellem muskler og fedt, bør det dog altid vurderes sammen med dit taljemål, din styrke og dit generelle helbred.
 ---
 
 Søger du efter den mest **effektive slankekur**? Du er langt fra den eneste. Internettet og ugebladene flyder over med løfter om mirakelkure, der lover et helt utroligt vægttab på meget kort tid.
@@ -147,3 +160,37 @@ Hvis din slankekur skal holde hele livet, bør du fokusere på følgende:
 2. **Sigt efter et moderat underskud:** Træk 300–500 kcal fra dit ligevægtsindtag for et stabilt fedttab på ca. 0,5 kg om ugen.
 3. **Fokusér på mæthed:** Spis rigeligt med protein og fibre, og brug gerne tænkningen fra Sense til at sammensætte dine måltider uden afsavn.
 4. **Hold hverdagsforbrændingen høj:** Husk at du [forbrænder en del kalorier bare ved at gå](/forbraending-ved-gaa-gang/) og holde dig aktiv gennem dagen.
+
+## 7. Skal du overhovedet på slankekur for at tabe 1-2 kilo?
+
+Mange overvejer at starte på en slankekur, fordi vægten har sneget sig 1-2 kilo op. Men fysiologisk set er det sjældent en god idé at sætte kroppen under kaloriestress for så lille en vægtændring.
+
+Svingninger på 1-2 kilo fra dag til dag – eller fra uge til uge – er helt normale og skyldes næsten aldrig fedtvæv:
+* **Væskebinding & salt:** Et enkelt saltrigt måltid eller ekstra kulhydrater kan binde op til et kilo vand i kroppen.
+* **Tarmindhold:** Mængden af mad i fordøjelsessystemet varierer naturligt.
+* **Menstruationscyklus:** Hormonelle svingninger hos kvinder kan skabe markante væskeophobninger i kroppen.
+
+At starte en streng slankekur for at fjerne et par midlertidige væskekilo skaber unødigt mentalt og fysiologisk stress. Undersøgelser af vægtsvingninger (*weight cycling*) viser, at hyppige småkure øger risikoen for tab af muskelmasse og yo-yo-effekt, fordi kroppen tilpasser sig ved ubevidst at sætte forbrændingen ned (Mann et al., 2007; Montani et al., 2015).
+
+### Ligger du allerede i et sundt vægtinterval?
+Rigtig mange jagter et tilfældigt tal på badevægten uden at tage højde for kropsbygning, muskelmasse og alder. I stedet for at slå dig selv i hovedet med kortvarige kure, kan du udregne dit tal i vores [BMI-beregner og skema](/bmi/) for at se, om du fysiologisk set befinder dig inden for en sund ramme. 
+
+Måske opdager du, at din nuværende vægt i virkeligheden passer perfekt til din [idealvægt ud fra sundhed og dødelighed](/idealvaegt/).
+
+I stedet for endnu en slankekur er den mest bæredygtige strategi at fastholde gode hverdagsbevægelser (NEAT), spise mættende og næringsrig mad samt styrketræne for at bevare din muskelmasse.
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
+
+---
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Mann, Traci, A. Janet Tomiyama, Erika Westling, Ann-Marie Lew, Barbra Samuels, og Jason Chatman. 2007. "Medicare's Search for Effective Obesity Treatments: Diets Are Not the Answer". *American Psychologist* 62 (3): 220–33. <https://doi.org/10.1037/0003-066X.62.3.220>
+- Montani, Jean-Pierre, Yvan Schutz, og Abdul G. Dulloo. 2015. "Dieting and Weight Cycling as Risk Factors for Cardiometabolic Diseases: Clinical Implications". *Obesity Reviews* 16 (Suppl 1): 7–18. <https://doi.org/10.1111/obr.12251>
+- Fothergill, Erin, et al. 2016. "Persistent Metabolic Adaptation 6 Years After 'The Biggest Loser' Competition". *Obesity* 24 (8): 1612–19. <https://doi.org/10.1002/oby.21538>
+- Levine, James A. 2002. "Non-Exercise Activity Thermogenesis (NEAT)". *Best Practice & Research Clinical Endocrinology & Metabolism* 16 (4): 679–702. <https://doi.org/10.1053/beem.2002.0227>
+- Byeon, Hae-Seong. 2019. "Effect of Weight Cycling on Body Composition and Metabolic Parameters". *Journal of Obesity & Metabolic Syndrome* 28 (4): 220–28.
+</details>

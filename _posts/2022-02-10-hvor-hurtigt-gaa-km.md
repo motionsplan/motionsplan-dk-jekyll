@@ -88,9 +88,6 @@ Vi har alle sammen forskellige tempo, når vi går. Men der er nogle definitione
 
 Alt afhængig af hvad dit tempo er, så vil tiden for at få gået x-antal skridt også variere. Det siger sig selv at jo hurtigere man går, jo hurtigere er man også i mål.
 
-Læs: [Hvor lang tid tager det at gå en kilometer?](/tid-at-gaa/)
-{: .notice }
-
 ## Hvor lang tid tager det at gå 10.000 skridt?
 
 10.000 skridt svarer til ca. 8 kilometer, hvis du har en gennemsnitlig skridtlængde. Moderat aktive kan typisk gennemføre den distance med 5 kilometer i timen, hvilket giver omkring 1 time og 40 minutter.
