@@ -89,7 +89,7 @@ Valget af løbetest afhænger af dine personlige mål, dit nuværende træningsn
 ### 📋 Vælg løbetest ud fra dit formål:
 
 * 🏃 **Den klassiske formtest (Estimeret VO₂max):** Vælg **[Cooper-testen](/cooper-test/)** (12 min) eller **[2400-meter testen](/kondital-2400-meter/)**, hvis du vil kende dit præcise kondital og er klar til at presse dig selv til max på en opmålt rute.
-* 🚶‍♂️ **Skånsom test for begyndere (Submaksimal):** Vælg **[1609 m jogging-test](//submaximal-jogging-test-vo2/)** eller **[Rockport gå-test](/gaatest/)**, hvis du vil estimere dit kondital ud fra tid og puls – helt uden at presse hjerte og led til udmattelse.
+* 🚶‍♂️ **Skånsom test for begyndere (Submaksimal):** Vælg **[1609 m jogging-test](/submaximal-jogging-test-vo2/)** eller **[Rockport gå-test](/gaatest/)**, hvis du vil estimere dit kondital ud fra tid og puls – helt uden at presse hjerte og led til udmattelse.
 * ⚽ **Holdidræt og interval-kapacitet:** Vælg **[Bip-testen](/bip-test/)** eller **[Yo-Yo testen](/yoyo-test/)**, hvis du skal måle evnen til at udføre gentagne, intense ryk og restituere hurtigt undervejs.
 * ⏱️ **Find dit præcise interval-tempo ($v\text{VO}_2\text{max}$):** Vælg **[6-minutters all-out test](/billat-vvovmax-tlimvo2max/)**, hvis du skal bruge din nøjagtige løbehastighed ved maksimal iltoptagelse til at skræddersy dit næste intervalprogram.
 * 🔬 **100 % præcision (Laboratorium):** Vælg en **[Løbebåndstest med iltmaske](/iltoptagelse-submax-trappetest-ramp-maxtest-loeb/)**, hvis du vil have en fysiologisk, direkte måling af dit kondital og dine individuelle pulszoner.
@@ -102,7 +102,7 @@ Valget af løbetest afhænger af dine personlige mål, dit nuværende træningsn
 | Test-type | Målgruppe | Belastningsgrad | Nødvendigt udstyr |
 | :--- | :--- | :--- | :--- |
 | **[Cooper-test](/cooper-test/)** | Letøvede / Øvede | Høj (Maksimal) | Stopur & opmålt rute |
-| **[1609m Jogging-test](//submaximal-jogging-test-vo2/)** | Begyndere / Motionister | Medium (Submaksimal) | Pulsur & stopur |
+| **[1609m Jogging-test](/submaximal-jogging-test-vo2/)** | Begyndere / Motionister | Medium (Submaksimal) | Pulsur & stopur |
 | **[Bip-test / Yo-Yo](/bip-test/)** | Holdidræt / Atleter | Meget høj (Intervaller) | Lydfil, højttaler & kegler |
 | **[Masketest på løbebånd](/iltoptagelsestest-loebebaand/)** | Seriøse & Elite | Høj (Laboratorium) | Løbebånd & maskeudstyr |
 

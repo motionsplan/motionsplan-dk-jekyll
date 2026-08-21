@@ -157,7 +157,7 @@ Fordelen ved en submaksimal konditionstest er, at det er let at overskue at få 
 
 * **Fordele:** Skånsomt for led og hjerte. Ideelt til begyndere, genoptagelse efter skader eller ældre.
 * **Ulemper:** Typisk mindre præcis end en maksimal test, da konditallet beregnes ud fra pulsrespons.
-* **Mest populære:** **[1609 m Jogging-test](//submaximal-jogging-test-vo2/)** • **[Åstrand 1-punktstest](/etpunktstest/)** • **[Rockport gå-test](/gaatest/)**
+* **Mest populære:** **[1609 m Jogging-test](/submaximal-jogging-test-vo2/)** • **[Åstrand 1-punktstest](/etpunktstest/)** • **[Rockport gå-test](/gaatest/)**
 
 ---
 
@@ -181,7 +181,7 @@ Vil du teste din løbekondition eller løbepræstation? Der findes flere velafpr
 * ⚡ **[Cooper-test (12 minutter)](/cooper-test/)** – Den klassiske udendørs max-test på atletikbane eller flad rute.
 * 🏃 **[2400-meter test](/kondital-2400-meter/)** – Politiets klassiske konditionstest.
 * ⚽ **[Yo-Yo test](/yoyo-test/) & [Bip-test](/bip-test/)** – Perfekt til holdsport med retningsskift og kortere intervaller.
-* 🚶‍♂️ **[1609 m Jogging-test](//submaximal-jogging-test-vo2/)** – Skånsom submaksimal løbetest til begyndere.
+* 🚶‍♂️ **[1609 m Jogging-test](/submaximal-jogging-test-vo2/)** – Skånsom submaksimal løbetest til begyndere.
 
 👉 **[Se den samlede oversigtsaide for alle løbetests »](/tests/loeb/)**
 
@@ -218,7 +218,7 @@ Konditionstests kan udføres på fitnesscentre og laboratorier, men der findes o
 * 📊 **[Mål din kondition uden fysisk tests](/kondital/)** – Se normtabeller og estimer dit kondital ud fra hvilepuls og alder.
 * 👟 **[YMCA 3-minutters step-test](/ymca-3-minutters-steptest/)** – Kræver kun en 30 cm høj bænk/trappetrin og et stopur. Du træder op og ned i 3 minutter og måler din puls bagefter. See også vores [oversigt over alle steptests](/kondital-fra-steptest/).
 * 🚶 **[Rockports 1,6 km gå-test](/gaatest/)** – Gå 1,6 km så hurtigt du kan og tæl din puls til sidst. Perfekt til begyndere og skånsom test i nærområdet.
-* 🏃 **[1,6 km jogging-test](//submaximal-jogging-test-vo2/)** – En submaksimal test, hvor du jogger i et roligt samtale-tempo og lader pulsen afsløre dit kondital.
+* 🏃 **[1,6 km jogging-test](/submaximal-jogging-test-vo2/)** – En submaksimal test, hvor du jogger i et roligt samtale-tempo og lader pulsen afsløre dit kondital.
 
 💡 **3 gyldne regler når du tester din kondition derhjemme:**
 

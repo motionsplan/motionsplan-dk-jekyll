@@ -216,5 +216,5 @@ Hvis du vil teste dig selv på et cykelergometer, så kan du kigge på den speci
 - Borg, G. 1970. “Perceived Exertion as an Indicator of Somatic Stress”. Scandinavian Journal of Rehabilitation Medicine 2 (2): 92–98. <https://pubmed.ncbi.nlm.nih.gov/5523831/>
 - Borg, G. 1990. “Psychophysical Scaling with Applications in Physical Work and the Perception of Exertion.” Scandinavian Journal of Work, Environment & Health 16: 55–58. <https://doi.org/10.5271/sjweh.1815>.
 - Chen MJ, Fan X, Moe ST, [Criterion-related validity of the Borg ratings of perceived exertion scale in healthy individuals: a meta-analysis](https://pubmed.ncbi.nlm.nih.gov/12430990/). J Sports Sci 2002 ;20: 873-899.
-- BRANDON S. POLLOCK, JACOB E. BARKLEY, NICK POTENZINI, RENEE M. DESALVO, STACEY L. BUSER, RONALD OTTERSTETTER, and JUDITH A. JUVANCIC-HELTZEL: [Validity of Borg Ratings of Perceived Exertion During Active Video Game Play](https://core.ac.uk/download/pdf/43643678.pdf)
+- BRANDON S. POLLOCK, JACOB E. BARKLEY, NICK POTENZINI, RENEE M. DESALVO, STACEY L. BUSER, RONALD OTTERSTETTER, and JUDITH A. JUVANCIC-HELTZEL: [Validity of Borg Ratings of Perceived Exertion During Active Video Game Play](https://pmc.ncbi.nlm.nih.gov/articles/PMC4882467/)
 </details>

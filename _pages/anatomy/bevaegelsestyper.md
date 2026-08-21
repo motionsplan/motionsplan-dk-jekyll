@@ -26,7 +26,7 @@ Der kan foregå bevægelser i leddene på mange forskellige måder. Her kigger v
 
 [Led](/led/) er delt op i forskellige ledtyper. Ledtypen definerer, hvordan leddene kan bevæge sig.
 
-{% include figure image_path="https://open.oregonstate.education/app/uploads/sites/157/2021/02/911_Body_MovementsPage-1-865x1024-1.jpg" caption="Bevægelsestyper og bevægelser i de store led i kroppen. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-5-types-of-body-movements/)" %}
+{% include figure image_path="https://open.oregonstate.education/app/uploads/sites/289/2024/11/911_Body_MovementsPage-1-865x1024-1.jpg" caption="Bevægelsestyper og bevægelser i de store led i kroppen. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-5-types-of-body-movements/)" %}
 
 Samlet set så kan leddene bevæge sig i forskellige bevægelsesplaner.
 
