@@ -1,5 +1,5 @@
 ---
-title: "Armbøjnings-test: Hvor mange armbøjninger skal man kunne tage?"
+title: "Armstrækningstest: Hvor mange armbøjninger skal man kunne tage?"
 seo_title: "Armbøjninger Test & Normer: Hvor mange skal man kunne tage?"
 excerpt: "Test din overkropsstyrke med armstrækningstesten fra The Canadian Standardized Test of Fitness. Se beregner, alders- og kønsopdelte normtabeller og vejledning."
 description: "Hvor mange armbøjninger kan du tage? Test din overkropsstyrke med vores online beregner og sammenlign dine resultater med normer for mænd og kvinder."

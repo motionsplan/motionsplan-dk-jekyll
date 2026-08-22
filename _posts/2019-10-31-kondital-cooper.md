@@ -95,6 +95,8 @@ faq:
   answer: '"Cuba-test" er en udbredt folkelig misforståelse og stavefejl for Cooper-test. Testen har intet med landet Cuba at gøre, men er opkaldt efter den amerikanske læge Kenneth H. Cooper.'
 - question: Kan børn løbe en Cooper-test?
   answer: Ja, børn fra omkring 10-12 års alderen kan sagtens løbe en coopertest, men det kræver god pacing. For mindre børn anbefales ofte kortere tests eller shuttle-runs (bip-test).
+- question: Kan jeg tage en Cooper-test på et løbebånd?
+  answer: Ja, det kan du. Indstil løbebåndet til 1% stigning for at kompensere for manglende vindmodstand udendørs, og sørg for at have en god idé om dit forventede tempo, så du undgår at justere hastigheden hele tiden.
 about:
   name: Cooper test
   url: https://da.wikipedia.org/wiki/Coopertest

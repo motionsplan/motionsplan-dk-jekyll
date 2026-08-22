@@ -35,8 +35,6 @@ mathjax: true
 faq:
   - question: Hvilken felt-test er den mest præcise til løbere?
     answer: Cooper-testen (12 minutters løb) og 2400-meter testen er de to mest præcise og videnskabeligt validerede felt-tests til at estimere dit kondital, hvis du ikke har adgang til et laboratorium med iltmaske.
-  - question: Kan jeg tage en Cooper-test på et løbebånd?
-    answer: Ja, det kan du. Indstil løbebåndet til 1% stigning for at kompensere for manglende vindmodstand udendørs, og sørg for at have en god idé om dit forventede tempo, så du undgår at justere hastigheden hele tiden.
   - question: Hvad er forskellen på en Cooper-test og en Bip-test?
     answer: Cooper-testen er en kontinuerlig test på en flad strækning, hvor du skal holde et jævnt tempo i 12 minutter. Bip-testen er en progressiv test med retningsskift hver 20. meter, hvor tempoet stiger undervejs. Bip-testen er derfor mere velegnet til hold- og kampsport.
   - question: Hvordan varmer man bedst op til en løbetest?

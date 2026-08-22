@@ -1,0 +1,242 @@
+<!-- INTERAKTIV SAMMENLIGNING AF ZONEMODELLER (ARJONA MODEL) -->
+<div class="mp-matrix-card">
+
+  <div class="mp-matrix-header">
+    <div class="mp-matrix-title-row">
+      <h3 class="mp-matrix-title">SAMMENLIGNING AF ZONEMODELLER & EFFEKT-DOMÆNER</h3>
+    </div>
+  </div>
+
+  <div class="mp-matrix-svg-wrap">
+    <svg id="zone-comparison-svg" viewBox="0 0 920 620" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+      
+      <defs>
+        <!-- GRADIENTER MAGE TIL ORIGINALT DIAGRAM -->
+        <linearGradient id="grad-aerobic-cap" x1="0" y1="1" x2="0" y2="0">
+          <stop offset="0%" stop-color="#38d9a9"/>
+          <stop offset="50%" stop-color="#a9e34b"/>
+          <stop offset="100%" stop-color="#ffd43b"/>
+        </linearGradient>
+
+        <linearGradient id="grad-aerobic-power" x1="0" y1="1" x2="0" y2="0">
+          <stop offset="0%" stop-color="#ff922b"/>
+          <stop offset="100%" stop-color="#ff4d4d"/>
+        </linearGradient>
+
+        <linearGradient id="grad-neuromuscular" x1="0" y1="1" x2="0" y2="0">
+          <stop offset="0%" stop-color="#4a148c"/>
+          <stop offset="100%" stop-color="#12005e"/>
+        </linearGradient>
+      </defs>
+
+      <!-- BAGGRUND -->
+      <rect x="0" y="0" width="920" height="620" fill="#ffffff" rx="8"/>
+
+      <!-- KOLONNE OVERSKRIFTER -->
+      <g font-family="sans-serif" text-anchor="middle" font-weight="800" font-size="13" fill="#0f172a">
+        <text x="192" y="32">Exercise</text>
+        <text x="192" y="48">Domains</text>
+
+        <text x="317" y="32">Trifasic</text>
+        <text x="317" y="48">Model</text>
+
+        <text x="442" y="32">5 zones-</text>
+        <text x="442" y="48">model</text>
+
+        <text x="567" y="32">San Millan</text>
+        <text x="567" y="48">Bioenergetics</text>
+
+        <text x="692" y="32">Coggan</text>
+        <text x="692" y="48">7 zones</text>
+
+        <text x="822" y="32">Metabolic /</text>
+        <text x="822" y="48">traditional</text>
+      </g>
+
+      <!-- HORISONTALE STIPLEDE TÆRSKEL-LINJER -->
+      <!-- VO2max / PAM linje (Y = 210) -->
+      <line x1="120" y1="210" x2="885" y2="210" stroke="#0f172a" stroke-width="2" stroke-dasharray="6,4"/>
+      
+      <!-- LT2 / CP linje (Y = 330) -->
+      <line x1="120" y1="330" x2="885" y2="330" stroke="#0f172a" stroke-width="2" stroke-dasharray="6,4"/>
+
+      <!-- LT1 / VT1 linje (Y = 460) -->
+      <line x1="120" y1="460" x2="885" y2="460" stroke="#0f172a" stroke-width="2" stroke-dasharray="6,4"/>
+
+      <!-- VENSTRE AKSE TÆRSKEL LABELS -->
+      <g font-family="sans-serif" font-weight="700" text-anchor="end" fill="#64748b">
+        <text x="110" y="115" font-size="11">Max</text>
+        <text x="110" y="130" font-size="11">power/speed</text>
+
+        <text x="110" y="198" font-size="13" font-weight="900" fill="#0f172a">PAM</text>
+        <text x="110" y="215" font-size="11">VO2MAX</text>
+
+        <text x="110" y="320" font-size="13" font-weight="900" fill="#0f172a">LT2</text>
+        <text x="110" y="337" font-size="11">CP</text>
+
+        <text x="110" y="450" font-size="13" font-weight="900" fill="#0f172a">LT1</text>
+        <text x="110" y="467" font-size="11">VT1</text>
+      </g>
+
+      <!-- ================= SØJLER OG BLOKKE ================= -->
+
+      <!-- 1. EXERCISE DOMAINS -->
+      <g id="col-domains">
+        <rect x="140" y="460" width="105" height="120" fill="#20c997" rx="2"/>
+        <text x="192" y="520" font-family="sans-serif" font-weight="900" font-size="15" fill="#ffffff" text-anchor="middle" transform="rotate(-75 192 520)">MODERATE</text>
+
+        <rect x="140" y="330" width="105" height="130" fill="#ff922b" rx="2"/>
+        <text x="192" y="395" font-family="sans-serif" font-weight="900" font-size="15" fill="#ffffff" text-anchor="middle" transform="rotate(-75 192 395)">HEAVY</text>
+
+        <rect x="140" y="210" width="105" height="120" fill="#ff4d4d" rx="2"/>
+        <text x="192" y="270" font-family="sans-serif" font-weight="900" font-size="15" fill="#ffffff" text-anchor="middle" transform="rotate(-75 192 270)">SEVERE</text>
+
+        <rect x="140" y="80" width="105" height="130" fill="#000000" rx="2"/>
+        <text x="192" y="145" font-family="sans-serif" font-weight="900" font-size="15" fill="#ffffff" text-anchor="middle" transform="rotate(-75 192 145)">EXTREME</text>
+      </g>
+
+      <!-- 2. TRIFASIC MODEL -->
+      <g id="col-trifasic" font-family="sans-serif" font-weight="800" font-size="16" fill="#ffffff" text-anchor="middle">
+        <rect x="265" y="460" width="105" height="120" fill="#20c997" rx="2"/>
+        <text x="317" y="525">z1</text>
+
+        <rect x="265" y="330" width="105" height="130" fill="#ffb74d" rx="2"/>
+        <text x="317" y="400">z2</text>
+
+        <rect x="265" y="80" width="105" height="250" fill="#ff4d4d" rx="2"/>
+        <text x="317" y="210">z3</text>
+      </g>
+
+      <!-- 3. 5 ZONES-MODEL -->
+      <g id="col-5zone" font-family="sans-serif" font-weight="800" font-size="15" text-anchor="middle">
+        <rect x="390" y="525" width="105" height="55" fill="#c7f9cc" rx="2"/>
+        <text x="442" y="560" fill="#15803d">z1</text>
+
+        <rect x="390" y="460" width="105" height="60" fill="#20c997" rx="2"/>
+        <text x="442" y="497" fill="#ffffff">z2</text>
+
+        <rect x="390" y="330" width="105" height="130" fill="#ffb74d" rx="2"/>
+        <text x="442" y="400" fill="#ffffff">Z3</text>
+
+        <rect x="390" y="210" width="105" height="120" fill="#ff4d4d" rx="2"/>
+        <text x="442" y="275" fill="#ffffff">Z4</text>
+
+        <rect x="390" y="80" width="105" height="130" fill="#000000" rx="2"/>
+        <text x="442" y="150" fill="#ffffff">Z5</text>
+      </g>
+
+      <!-- 4. SAN MILLAN BIOENERGETICS -->
+      <g id="col-sanmillan" font-family="sans-serif" font-weight="800" font-size="15" fill="#ffffff" text-anchor="middle">
+        <rect x="515" y="520" width="105" height="60" fill="#c7f9cc" rx="2"/>
+        <text x="567" y="555" fill="#15803d">z1</text>
+
+        <!-- z2 straddles LT1 -->
+        <rect x="515" y="440" width="105" height="75" fill="#20c997" rx="2"/>
+        <text x="567" y="482">z2</text>
+
+        <rect x="515" y="330" width="105" height="105" fill="#ffb74d" rx="2"/>
+        <text x="567" y="388">z3</text>
+
+        <rect x="515" y="210" width="105" height="120" fill="#ff4d4d" rx="2"/>
+        <text x="567" y="275">z4</text>
+
+        <rect x="515" y="145" width="105" height="60" fill="#845ef7" rx="2"/>
+        <text x="567" y="182">z5</text>
+
+        <rect x="515" y="80" width="105" height="60" fill="#000000" rx="2"/>
+        <text x="567" y="117">z6</text>
+      </g>
+
+      <!-- 5. COGGAN 7 ZONES -->
+      <g id="col-coggan" font-family="sans-serif" font-weight="800" font-size="15" text-anchor="middle">
+        <rect x="640" y="535" width="105" height="45" fill="#dcfce7" rx="2"/>
+        <text x="692" y="563" fill="#15803d">z1</text>
+
+        <rect x="640" y="475" width="105" height="55" fill="#20c997" rx="2"/>
+        <text x="692" y="510" fill="#ffffff">z2</text>
+
+        <!-- z3 (YELLOW) STRADDLES LT1 (from Y=405 to Y=470) -->
+        <rect x="640" y="405" width="105" height="65" fill="#ffd43b" rx="2"/>
+        <text x="692" y="445" fill="#0f172a">z3</text>
+
+        <!-- z4 (ORANGE) in upper Heavy domain (from Y=330 to Y=400) -->
+        <rect x="640" y="330" width="105" height="70" fill="#ff922b" rx="2"/>
+        <text x="692" y="370" fill="#ffffff">z4</text>
+
+        <rect x="640" y="210" width="105" height="120" fill="#ff4d4d" rx="2"/>
+        <text x="692" y="275" fill="#ffffff">z5</text>
+
+        <rect x="640" y="145" width="105" height="60" fill="#845ef7" rx="2"/>
+        <text x="692" y="182" fill="#ffffff">z6</text>
+
+        <rect x="640" y="80" width="105" height="60" fill="#000000" rx="2"/>
+        <text x="692" y="117" fill="#ffffff">z7</text>
+      </g>
+
+      <!-- 6. METABOLIC / TRADITIONAL -->
+      <g id="col-metabolic" font-family="sans-serif" font-weight="800" text-anchor="middle" fill="#ffffff">
+        <!-- Aerobic capacity: Spans from bottom (Y=580) all the way up to LT2 (Y=330) -->
+        <rect x="765" y="330" width="120" height="250" fill="url(#grad-aerobic-cap)" rx="2"/>
+        <text x="825" y="450" font-size="15" fill="#0f172a">Aerobic</text>
+        <text x="825" y="470" font-size="15" fill="#0f172a">capacity</text>
+
+        <!-- Aerobic power: Spans Severe domain (Y=210 to Y=330) -->
+        <rect x="765" y="210" width="120" height="120" fill="url(#grad-aerobic-power)" rx="2"/>
+        <text x="825" y="263" font-size="14">Aerobic</text>
+        <text x="825" y="281" font-size="14">power</text>
+
+        <!-- Anaerobic capacity -->
+        <rect x="765" y="145" width="120" height="60" fill="#8e44ad" rx="2"/>
+        <text x="825" y="172" font-size="12">Anaerobic</text>
+        <text x="825" y="187" font-size="12">capacity</text>
+
+        <!-- Neuromuscular power -->
+        <rect x="765" y="80" width="120" height="60" fill="url(#grad-neuromuscular)" rx="2"/>
+        <text x="825" y="107" font-size="11">Neuromuscular</text>
+        <text x="825" y="121" font-size="11">power</text>
+      </g>
+
+    </svg>
+  </div>
+</div>
+
+<style>
+  .mp-matrix-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 0;
+    margin: 1.75rem 0;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+    overflow: hidden;
+  }
+
+  .mp-matrix-header {
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0.75rem 1rem;
+  }
+
+  .mp-matrix-title-row {
+    margin-bottom: 0.2rem;
+  }
+
+  .mp-matrix-title {
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 900;
+    color: #0f172a;
+    letter-spacing: 0.5px;
+  }
+
+  .mp-matrix-svg-wrap {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .mp-matrix-svg-wrap svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>

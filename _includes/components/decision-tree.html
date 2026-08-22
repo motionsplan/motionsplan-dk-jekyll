@@ -1,0 +1,404 @@
+{% comment %}
+  ==============================================================================
+  Motionsplan - Ultimativt Beslutnings- & Valgmodul (Perfekt spacing & SEO-safe)
+  ==============================================================================
+{% endcomment %}
+
+{% assign data = include.tree | default: page.decision_tree %}
+{% assign module_id = include.id | default: data.id | default: "mp-decision" %}
+
+{% if data %}
+
+<style>
+  .mp-dt {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 28px 20px;
+    margin: 36px 0;
+    font-family: inherit;
+    color: #0f172a;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .mp-dt * {
+    box-sizing: border-box;
+  }
+
+  .mp-dt__header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .mp-dt__title {
+    margin: 0 0 6px 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: #0f172a;
+  }
+
+  .mp-dt__subtitle {
+    margin: 0 auto;
+    font-size: 0.92rem;
+    color: #475569;
+    max-width: 620px;
+    line-height: 1.45;
+  }
+
+  /* Trin-spacing (Sikrer luft mellem lagene i interaktiv mode) */
+  .mp-dt__step { 
+    display: none; 
+    opacity: 0; 
+    margin-top: 24px; 
+  }
+
+  .mp-dt__step:first-child {
+    margin-top: 0;
+  }
+
+  .mp-dt__step.is-active { 
+    display: block; 
+    opacity: 1; 
+    animation: mpDtFade 0.3s ease-out forwards; 
+  }
+
+  @keyframes mpDtFade { 
+    from { opacity: 0; transform: translateY(-8px); } 
+    to { opacity: 1; transform: translateY(0); } 
+  }
+
+  /* Spørgsmåls-boks & Pile */
+  .mp-dt__question {
+    background: #1e293b;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.98rem;
+    padding: 11px 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto 6px auto;
+    max-width: 650px;
+  }
+
+  .mp-dt__arrow {
+    width: 0; height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 7px solid #1e293b;
+    margin: 0 auto 16px auto;
+  }
+
+  /* Grid Layouts */
+  .mp-dt__grid {
+    display: grid;
+    gap: 16px;
+    max-width: 780px;
+    margin: 0 auto;
+    align-items: stretch;
+  }
+
+  .mp-dt__grid--count-2 { grid-template-columns: repeat(2, 1fr); }
+  .mp-dt__grid--count-3 { grid-template-columns: repeat(3, 1fr); }
+  .mp-dt__grid--count-4 { grid-template-columns: repeat(2, 1fr); }
+  .mp-dt__grid--count-1 { grid-template-columns: 1fr; }
+
+  @media (max-width: 640px) {
+    .mp-dt__grid--count-2,
+    .mp-dt__grid--count-3,
+    .mp-dt__grid--count-4 {
+      grid-template-columns: 1fr !important;
+    }
+  }
+
+  /* Kort Styling */
+  .mp-dt__card {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 22px 16px 16px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #334155;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .mp-dt__card:hover {
+    border-color: #2563eb;
+    background: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.08);
+  }
+
+  /* Badge i toppen */
+  .mp-dt__badge {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0f172a;
+    color: #ffffff;
+    font-size: 0.63rem;
+    font-weight: 800;
+    padding: 3px 10px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  }
+
+  .mp-dt__card-title {
+    font-weight: 800;
+    font-size: 1.02rem;
+    color: #0f172a;
+    margin-bottom: 6px;
+    display: block;
+    text-align: center;
+  }
+
+  .mp-dt__label {
+    font-weight: 800;
+    color: #0f172a;
+    margin-right: 4px;
+  }
+
+  /* Farver */
+  .mp-dt__card--green { background-color: #f7fee7; border-color: #a3e635; }
+  .mp-dt__card--blue { background-color: #f0f9ff; border-color: #38bdf8; }
+  .mp-dt__card--orange { background-color: #fff7ed; border-color: #fdba74; }
+  .mp-dt__card--neutral { background-color: #f8fafc; border-color: #cbd5e1; }
+
+  /* Interaktivitets-markeringer */
+  .mp-dt__card.is-selected {
+    box-shadow: 0 0 0 2px #2563eb !important;
+    border-color: #2563eb !important;
+    background-color: #ffffff !important;
+    opacity: 1 !important;
+  }
+
+  .mp-dt__card.is-dimmed {
+    opacity: 0.45;
+    filter: grayscale(25%);
+  }
+
+  /* Handlingsknap i bunden */
+  .mp-dt__action { 
+    display: none; 
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  
+  .mp-dt__btn {
+    display: inline-block;
+    padding: 11px 22px;
+    background: #2563eb;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 0.88rem;
+    border-radius: 8px;
+    text-decoration: none !important;
+    transition: background 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
+  }
+
+  .mp-dt__btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+  }
+
+  .mp-dt__reset { text-align: center; margin-top: 18px; display: none; }
+  .mp-dt__reset-btn {
+    background: none; border: none; color: #64748b;
+    font-size: 0.8rem; font-weight: 600; cursor: pointer; text-decoration: underline;
+  }
+  .mp-dt__reset-btn:hover { color: #2563eb; }
+
+  .mp-dt__footer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px dashed #e2e8f0;
+    line-height: 1.4;
+  }
+</style>
+
+<div class="mp-dt" id="{{ module_id }}">
+  
+  {% if data.title %}
+    <div class="mp-dt__header">
+      <h3 class="mp-dt__title">{{ data.title }}</h3>
+      {% if data.subtitle %}<p class="mp-dt__subtitle">{{ data.subtitle }}</p>{% endif %}
+    </div>
+  {% endif %}
+
+  <div class="mp-dt__body">
+    
+    {% comment %} SCENARIE 1: 1-Trins Matrix {% endcomment %}
+    {% if data.options %}
+      <div class="mp-dt__step is-active">
+        {% if data.question %}
+          <div class="mp-dt__question">{{ data.question }}</div>
+          <div class="mp-dt__arrow"></div>
+        {% endif %}
+
+        <div class="mp-dt__grid mp-dt__grid--count-{{ data.options.size }}">
+          {% for opt in data.options %}
+            <div class="mp-dt__card mp-dt__card--{{ opt.color | default: 'neutral' }}" data-link="{{ opt.link }}">
+              
+              {% if opt.badge %}
+                <span class="mp-dt__badge" style="{% if opt.badge_color %}background-color: {{ opt.badge_color }};{% endif %}">
+                  {{ opt.badge }}
+                </span>
+              {% endif %}
+
+              {% if opt.title %}
+                <span class="mp-dt__card-title">{{ opt.title }}</span>
+              {% endif %}
+
+              <div class="mp-dt__card-body">
+                {% if opt.label %}<span class="mp-dt__label">{{ opt.label }}:</span>{% endif %}
+                {{ opt.text }}
+              </div>
+
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    {% comment %} SCENARIE 2: Interaktivt Beslutningstræ {% endcomment %}
+    {% elsif data.steps %}
+      {% for step in data.steps %}
+        <div class="mp-dt__step {% if forloop.first %}is-active{% endif %}" data-step-id="{{ step.id }}">
+          
+          {% if step.question %}
+            <div class="mp-dt__question">{{ step.question }}</div>
+            <div class="mp-dt__arrow"></div>
+          {% endif %}
+
+          <div class="mp-dt__grid mp-dt__grid--count-{{ step.options.size }}">
+            {% for opt in step.options %}
+              <div class="mp-dt__card mp-dt__card--{{ opt.color | default: 'neutral' }}"
+                   data-next="{{ opt.next }}"
+                   data-link="{{ opt.link }}"
+                   data-btn-text="{{ opt.btn_text }}">
+                
+                {% if opt.badge %}
+                  <span class="mp-dt__badge" style="{% if opt.badge_color %}background-color: {{ opt.badge_color }};{% endif %}">
+                    {{ opt.badge }}
+                  </span>
+                {% endif %}
+
+                {% if opt.title %}
+                  <span class="mp-dt__card-title">{{ opt.title }}</span>
+                {% endif %}
+
+                <div class="mp-dt__card-body">
+                  {% if opt.label %}<span class="mp-dt__label">{{ opt.label }}:</span>{% endif %}
+                  {{ opt.text }}
+                </div>
+
+              </div>
+            {% endfor %}
+          </div>
+          <div class="mp-dt__action"></div>
+        </div>
+      {% endfor %}
+    {% endif %}
+
+  </div>
+
+  <div class="mp-dt__reset">
+    <button type="button" class="mp-dt__reset-btn">↺ Nulstil valg</button>
+  </div>
+
+  {% if data.footer %}
+    <div class="mp-dt__footer">{{ data.footer }}</div>
+  {% endif %}
+
+</div>
+
+<script>
+  if (!window.mpDtInitialized) {
+    window.mpDtInitialized = true;
+
+    document.addEventListener("click", function(e) {
+      if (e.target.closest('.mp-dt__reset-btn')) {
+        const mod = e.target.closest('.mp-dt');
+        mod.querySelectorAll('.mp-dt__card').forEach(c => c.classList.remove('is-selected', 'is-dimmed'));
+        mod.querySelectorAll('.mp-dt__action').forEach(a => { a.style.display = 'none'; a.innerHTML = ''; });
+        const steps = Array.from(mod.querySelectorAll('.mp-dt__step'));
+        steps.forEach((step, index) => {
+          if(index === 0) step.classList.add('is-active');
+          else step.classList.remove('is-active');
+        });
+        mod.querySelector('.mp-dt__reset').style.display = 'none';
+        return;
+      }
+
+      const card = e.target.closest('.mp-dt__card');
+      if (!card) return;
+
+      const mod = card.closest('.mp-dt');
+      const step = card.closest('.mp-dt__step');
+      if (!step) return;
+
+      const nextId = card.getAttribute('data-next');
+      const link = card.getAttribute('data-link');
+      const btnText = card.getAttribute('data-btn-text');
+
+      step.querySelectorAll('.mp-dt__card').forEach(c => {
+        c.classList.remove('is-selected');
+        c.classList.add('is-dimmed');
+      });
+      card.classList.remove('is-dimmed');
+      card.classList.add('is-selected');
+
+      const actionArea = step.querySelector('.mp-dt__action');
+      if (actionArea) actionArea.style.display = 'none';
+
+      let nextStepEl = step.nextElementSibling;
+      while(nextStepEl) {
+        if(nextStepEl.classList.contains('mp-dt__step')) {
+          nextStepEl.classList.remove('is-active');
+          nextStepEl.querySelectorAll('.mp-dt__card').forEach(c => c.classList.remove('is-selected', 'is-dimmed'));
+          const area = nextStepEl.querySelector('.mp-dt__action');
+          if (area) area.style.display = 'none';
+        }
+        nextStepEl = nextStepEl.nextElementSibling;
+      }
+
+      if (nextId) {
+        const targetStep = mod.querySelector(`.mp-dt__step[data-step-id="${nextId}"]`);
+        if (targetStep) targetStep.classList.add('is-active');
+      } else if (link) {
+        if (actionArea) {
+          actionArea.innerHTML = `<a href="${link}" class="mp-dt__btn">${btnText || 'Gå til metode →'}</a>`;
+          actionArea.style.display = 'block';
+        }
+      }
+
+      const resetWrap = mod.querySelector('.mp-dt__reset');
+      if (resetWrap) resetWrap.style.display = 'block';
+
+      if (link && link.startsWith('#')) {
+        const targetEl = document.querySelector(link);
+        if (targetEl) {
+          setTimeout(() => {
+            targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 120);
+        }
+      }
+    });
+  }
+</script>
+{% endif %}

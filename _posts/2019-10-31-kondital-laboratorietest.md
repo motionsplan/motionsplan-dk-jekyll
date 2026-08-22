@@ -150,7 +150,7 @@ En submaksimal test består typisk af:
 - Måling af fysiologiske parametre på hvert trin
 - Fortsætter indtil kroppen ikke længere kan være steady state på hvert trin
 
-<details markdown="1">
+<details markdown="1" class="faq">
   <summary>Læs mere om testens forløb og resultater</summary>
 
 Forsøgspersonen får en maske på, der måler iltoptagelse og CO₂-udveksling. Puls, laktat og arbejdsøkonomi registreres løbende.
@@ -208,7 +208,7 @@ Typisk forløb er:
 - Testforløb: Testen udføres uden pauser. Belastningen øges hver 1-2 minutter.
 - Afslutning: Testen sluttes ved udmattelse.
 
-<details markdown="1">
+<details markdown="1" class="faq">
   <summary>Læs om max-testens forløb og kriterier</summary>
 
 Testen starter typisk på niveauet omkring den anerobe tærskel. 

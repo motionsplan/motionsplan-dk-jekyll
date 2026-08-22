@@ -159,7 +159,7 @@ Her har du et par forskellige andre, jeg har skrevet.
 
 ### Fremgang baseret på e1RM
 
-<details markdown="1">
+<details markdown="1" class="faq">
   <summary>💻 Se koden for ændre 1RM ved dine løft</summary>
 
 Hvis du gerne vil have fremgang i dit program, når du laver bedre løft undervejs, så kan du gøre følgende:
@@ -178,7 +178,7 @@ Squat / 3x3 @8+ / progress: custom() {~
 
 ### Triple progression
 
-<details markdown="1">
+<details markdown="1" class="faq">
   <summary>💻 Se koden til Triple progression</summary>
 
 Hvis du gerne vil lave en triple progression, hvor du først øger antallet af sæt, reps og vægt i den rækkefølge, så kan du gøre følgende.
@@ -202,7 +202,7 @@ Split Squat[1-4] / 3x15-20+ / 4x15-20+ / progress: custom(maxVariations: 2, incr
 
 ### Styrkeprogression
 
-<details markdown="1">
+<details markdown="1" class="faq">
   <summary>💻 Se koden til styrkeprogression</summary>
 
 Hvis du gerne vil lave en styrkeprogression, hvor du over ugerne øger intensiteten, så kan du gøre følgende.
@@ -218,7 +218,7 @@ Bench Press / 3x7 / 4x6 / 5x5 / 6x4 / progress: custom(increase: 5kg) {~
 
 ### Emerging Strategies
 
-<details markdown="1">
+<details markdown="1" class="faq">
   <summary>💻 Se koden til Emerging Strategies</summary>
 
 Jeg kan godt lide fremgangsmåden i Reactive Training Systems Emerging Strategies. Her lader du første sæt danne baggrund for backoff sæt, og du lader RPE styre din træning.
