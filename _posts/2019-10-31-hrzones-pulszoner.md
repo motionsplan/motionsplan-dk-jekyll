@@ -1,6 +1,8 @@
 ---
-title: 'Pulszoneberegner: Beregn pulszoner fra Maxpuls, Karvonen og LTHR'
-seo_title: 'Pulszoneberegner: Find dine træningszoner (Maxpuls, HRR & LT2)'
+title: 'Pulszoneberegner: Beregn pulszoner fra maxpuls, Karvonen og LTHR'
+seo_title: 'Pulszoneberegner: Find dine pulszoner (maxpuls, HRR & LT2)'
+excerpt: 'Beregn dine personlige pulszoner nemt og præcist. Vælg mellem Maxpuls, Karvonen-formlen (pulsreserve) eller Laktattærskel (LTHR) og få fuld kontrol over din pulstræning.'
+description: 'Beregn dine pulszoner ud fra Maxpuls, Karvonen (pulsreserve) eller Laktattærskel (LTHR). Få præcise træningszoner til løb, cykling og pulstræning her.'
 permalink: /pulszoner-beregner/
 classes: wide
 redirect_from:
@@ -53,7 +55,7 @@ tools:
     category_schema: "HealthAndFitnessApplication"
 ---
 
-**Pulszoner er opdelinger af din puls, som bruges til præcist at styre intensiteten i din træning.** Ved at kende dine personlige træningszoner kan du ramme det helt rigtige fysiologiske energisystem i din [pulstræning](/pulstraening/) — uanset om målet er bedre udholdenhed, fedtforbrænding eller en højere VO₂max.
+**Pulszoner er opdelinger af din puls, som bruges til præcist at styre intensiteten i din træning.** Ved at kende dine personlige [træningszoner](/traeningszoner/) kan du ramme det helt rigtige fysiologiske energisystem i din [pulstræning](/pulstraening/) — uanset om målet er bedre udholdenhed, fedtforbrænding eller en højere VO₂max.
 
 Med denne samlede pulszoneberegner kan du udregne dine personlige træningszoner baseret på enten **[Maxpuls](/test-max-puls/)**, **Pulsreserve (Karvonen)** eller din **Laktattærskel (LTHR / Anaerob tærskel)**.
 
@@ -95,17 +97,20 @@ Anaerob tærskel / Laktattærskel (LT2 / LTHR)
 
 Beregneren giver dig mulighed for at vælge mellem tre fysiologiske datagrundlag:
 
-### Basis: Kun Maxpuls (% HRmax)
+### Basis: Kun maxpuls (% HRmax)
+
 Den enkleste metode til at komme i gang. Kræver kun, at du kender eller har [testet din maxpuls](/test-max-puls/). Metoden tager dog ikke højde for din hvilepuls og din aktuelle form. Det smarte ved maxpulsen er, at du kan estimere den ud fra din alder direkte i beregneren eller via vores [maxpuls-beregner](/max-puls-beregner/). 
 
 [Jack Daniels](/loebesiden-jack-daniels-loebeberegner/) anvender bl.a. relationer til maxpuls til sine løbeformer, om end tærsklen ofte er lavere hos begyndere end hos øvede løbere.
 
 ### Bedre: Maxpuls + Hvilepuls (Karvonen / Pulsreserve)
+
 [Karvonen-metoden](https://runandbeyond.com/karvonen-heart-rate/) inddrager din [hvilepuls](/hvilepuls/) og beregner zonerne ud fra din **[pulsreserve](/pulsreserve/)** ($HRR = HR_{\text{max}} - HR_{\text{hvile}}$). Dette giver et mere præcist billede af din reelle kropslige belastning.
 
 {% include figure image_path="/assets/images/blog/pulsreserve-landscape.jpg" caption="Pulsreserven er spændet mellem din hvilepuls og din maksimale puls." alt="Pulsreserve illustration" %}
 
 #### Hvorfor er Karvonen-formlen bedre end ren maxpuls?
+
 Klassisk beregning ud fra % af maxpuls tager ikke højde for din nuværende form. Hvis two personer begge har en maxpuls på **190 bpm**, vil en ren maxpuls-beregning give dem *nøjagtig de samme pulszoner* — uanset om den ene er eliteløber og den anden er utrænet:
 
 * **Person A (Veltrænet):** Maxpuls 190, Hvilepuls 40 $\rightarrow$ Pulsreserve = **150 bpm**.  
@@ -122,6 +127,7 @@ HR_{\text{mål}} = \left((HR_{\text{max}} - HR_{\text{hvile}}) \times \text{inte
 $$
 
 ### Bedst: Tærskelpuls (LTHR / LT2)
+
 [Joe Friel](https://joefrieltraining.com/a-quick-guide-to-setting-zone/) baserer sine træningszoner på pulsen ved laktattærsklen (LTHR). Ved at beregne zonerne ud fra LT2 og kende dit **aerobe vindue** ($LTHR - HR_{\text{hvile}}$), kan du ramme tærskelintervaller og tempo med kirurgisk præcision.
 
 {% include figure image_path="/assets/images/blog/pulsreserve-portrait.jpg" caption="Det aerobe vindue angiver spændet fra din hvilepuls op til din anaerobe tærskel." alt="Aerobe vindue illustration" %}
@@ -171,8 +177,23 @@ Generelle formler er et stærkt udgangspunkt, men i konditionstræning opnås de
 * **Cardiac Output træning:** Joel Jamieson anbefaler roligt løb/cykling i pulsintervallet **120–150 bpm** for specifikt at stimulere hjertets slagvolumen.
 * **Næse-trækningstest:** Løb i et tempo, hvor du lige nøjagtigt kan opretholde iltoptagelsen ved udelukkende at trække vejret gennem næsen. Når du bliver nødt til at åbne munden for at trække vejret, rammer du omkring din aerobe tærskel (LT1).
 
-{: .notice }
-**Læs mere**: [Dyk ned i teorien om den aerobe tærskel](/aerobe-taerskel/)
+**Læs mere**: [Dyk ned i teorien om den aerobe tærskel](/aerobe-taerskel/) og [Zone 2 træning](/zone-2-traening/)
+
+---
+
+## 🔬 Visuel sammenligning: Se forskellen på de tre beregningsmodeller
+
+Et pulsslag på 145 bpm kan være rolig restitution i én model og tærskeltræning i en anden. Prøv sammenligneren herunder og se, hvordan zonerne rykker sig fysiologisk, når du skifter beregningsmetode for den samme person.
+
+{% include components/heart-rate-zone-comparison.html %}
+
+**Hvorfor rykker zonerne sig så voldsomt?**
+
+Hvis vi tager udgangspunkt i en atlet med **200 bpm i maxpuls**, **180 bpm i laktattærskel** og **50 bpm i hvilepuls**, opstår der tre vidt forskellige træningsrammer:
+
+* **% af Maxpuls (Den enkle):** Sætter Zone 2 til **120–140 bpm**. Metoden ignorerer hvilepulsen og behandler en veltrænet atlet nøjagtigt som en utrænet begynder. For en atlet i god form vil dette tempo føles som en næsten virkningsløs gåtur.
+* **Karvonen / Pulsreserve (Den bedre):** Inddrager det fysiologiske arbejdsrum ($HRR = 150 \text{ bpm}$) og hæver Zone 2 til **140–155 bpm**. Det matcher kroppens reelle belastning langt bedre og sikrer en god aerob baseopbygning.
+* **Laktattærskel / LTHR (Guldstandarden):** Forankrer zonerne direkte omkring syretærsklen ($LT2$) og sætter Zone 2 til **153–160 bpm**. Det giver den højeste fysiologiske præcision, fordi zonerne opbygges ud fra kroppens faktiske mælkesyre-håndtering i stedet for en aldersberegnet teoretisk maxpuls.
 
 ---
 

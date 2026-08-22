@@ -1,0 +1,394 @@
+<!-- INTERAKTIV PULSZONE SAMMENLIGNER -->
+<div class="mp-hr-cmp-card">
+  
+  <div class="mp-hr-cmp-header">
+    <h3>🫀 Sammenligning af pulszone-modeller</h3>
+    <p>Indtast dine nøgletal og se direkte, hvordan zonerne flytter sig på tværs af modellerne.</p>
+  </div>
+
+  <!-- 4 ENSTRENGEDE KOLONNER (LABEL ØVERST, INPUT NEDENUNDER) -->
+  <div class="mp-hr-cmp-inputs">
+    <div class="mp-num-group">
+      <label for="cmp-max-hr">Maxpuls</label>
+      <div class="mp-input-wrap">
+        <input type="number" id="cmp-max-hr" min="140" max="220" value="200" step="1">
+        <span class="mp-unit">bpm</span>
+      </div>
+    </div>
+
+    <div class="mp-num-group">
+      <label for="cmp-lthr-hr">Laktattærskel</label>
+      <div class="mp-input-wrap">
+        <input type="number" id="cmp-lthr-hr" min="120" max="210" value="180" step="1">
+        <span class="mp-unit">bpm</span>
+      </div>
+    </div>
+
+    <div class="mp-num-group">
+      <label for="cmp-rest-hr">Hvilepuls</label>
+      <div class="mp-input-wrap">
+        <input type="number" id="cmp-rest-hr" min="30" max="100" value="50" step="1">
+        <span class="mp-unit">bpm</span>
+      </div>
+    </div>
+
+    <div class="mp-num-group">
+      <label for="cmp-age">Alder (MAF)</label>
+      <div class="mp-input-wrap">
+        <input type="number" id="cmp-age" min="15" max="90" value="20" step="1">
+        <span class="mp-unit">år</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- VISUEL GRAFISK SAMMENLIGNING -->
+  <div class="mp-hr-cmp-chart-wrap">
+    
+    <!-- SKALA I TOPPEN -->
+    <div class="mp-hr-cmp-scale" id="cmp-scale"></div>
+
+    <!-- MODEL 1: % AF MAXPULS -->
+    <div class="mp-model-row">
+      <div class="mp-model-info">
+        <strong>1. Maxpuls (%)</strong>
+        <span class="mp-model-sub">Upræcis standard</span>
+      </div>
+      <div class="mp-bar-container" id="bar-maxhr"></div>
+    </div>
+
+    <!-- MODEL 2: KARVONEN (PULSRESERVE) -->
+    <div class="mp-model-row">
+      <div class="mp-model-info">
+        <strong>2. Karvonen (HRR)</strong>
+        <span class="mp-model-sub">Maxpuls + Hvilepuls</span>
+      </div>
+      <div class="mp-bar-container" id="bar-karvonen"></div>
+    </div>
+
+    <!-- MODEL 3: LAKTATTÆRSKEL (LTHR / FRIEL) -->
+    <div class="mp-model-row">
+      <div class="mp-model-info">
+        <strong>3. Tærskel (LTHR)</strong>
+        <span class="mp-model-sub">Laktattærskel (LT2)</span>
+      </div>
+      <div class="mp-bar-container" id="bar-lthr"></div>
+    </div>
+
+    <!-- MODEL 4: MAFFETONE (MAF 180) -->
+    <div class="mp-model-row">
+      <div class="mp-model-info">
+        <strong>4. Maffetone 180</strong>
+        <span class="mp-model-sub">Aerobt baseloft</span>
+      </div>
+      <div class="mp-bar-container" id="bar-maf"></div>
+    </div>
+
+  </div>
+
+  <!-- TAKEAWAY BOKS -->
+  <div class="mp-hr-cmp-takeaway">
+    <div class="mp-takeaway-icon">💡</div>
+    <div class="mp-takeaway-text" id="cmp-takeaway-note"></div>
+  </div>
+
+</div>
+
+<style>
+  .mp-hr-cmp-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 1.15rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+    font-family: inherit;
+  }
+
+  .mp-hr-cmp-header h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.05rem;
+    color: #0f172a;
+    font-weight: 800;
+  }
+  .mp-hr-cmp-header p {
+    margin: 0 0 0.85rem 0;
+    font-size: 0.825rem;
+    color: #64748b;
+    line-height: 1.35;
+  }
+
+  /* 4 ENSARTEDE KOLONNER NÅR SKÆRMEN TILLADER DET */
+  .mp-hr-cmp-inputs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+  }
+
+  @media (max-width: 640px) {
+    .mp-hr-cmp-inputs {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .mp-num-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .mp-num-group label {
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
+
+  .mp-input-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .mp-num-group input[type="number"] {
+    width: 100%;
+    max-width: 72px;
+    padding: 0.3rem 0.45rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: #0f172a;
+    background: #ffffff;
+  }
+
+  .mp-unit {
+    font-size: 0.75rem;
+    color: #64748b;
+    font-weight: 600;
+  }
+
+  .mp-hr-cmp-chart-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+  }
+
+  .mp-hr-cmp-scale {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 175px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #94a3b8;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 0.2rem;
+  }
+
+  .mp-model-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 600px;
+  }
+
+  .mp-model-info {
+    width: 165px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.25;
+  }
+  .mp-model-info strong {
+    color: #0f172a;
+    font-size: 0.8rem;
+  }
+  .mp-model-sub {
+    font-size: 0.675rem;
+    color: #64748b;
+  }
+
+  .mp-bar-container {
+    flex-grow: 1;
+    height: 32px;
+    background: #f8fafc;
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #cbd5e1;
+  }
+
+  .mp-zone-segment {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(255,255,255,0.3);
+  }
+
+  .mp-zone-segment:last-child {
+    border-right: none;
+  }
+
+  .mp-zone-segment span {
+    line-height: 1;
+  }
+  .mp-zone-range {
+    font-size: 0.575rem;
+    font-weight: 700;
+    opacity: 0.95;
+    margin-top: 1px;
+    letter-spacing: -0.2px;
+  }
+
+  /* ZONEFARVER */
+  .z-bg-1 { background: #3b82f6; }
+  .z-bg-2 { background: #22c55e; }
+  .z-bg-3 { background: #eab308; }
+  .z-bg-4 { background: #f97316; }
+  .z-bg-5 { background: #ef4444; }
+  .z-bg-maf { background: #059669; }
+
+  .mp-hr-cmp-takeaway {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 6px;
+    padding: 0.65rem 0.85rem;
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #166534;
+    line-height: 1.35;
+  }
+  .mp-takeaway-icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const maxInput = document.getElementById('cmp-max-hr');
+    const lthrInput = document.getElementById('cmp-lthr-hr');
+    const restInput = document.getElementById('cmp-rest-hr');
+    const ageInput = document.getElementById('cmp-age');
+
+    const barMax = document.getElementById('bar-maxhr');
+    const barKarvonen = document.getElementById('bar-karvonen');
+    const barLthr = document.getElementById('bar-lthr');
+    const barMaf = document.getElementById('bar-maf');
+
+    const scale = document.getElementById('cmp-scale');
+    const takeaway = document.getElementById('cmp-takeaway-note');
+
+    function renderComparison() {
+      const max = parseInt(maxInput.value) || 200;
+      const lthr = parseInt(lthrInput.value) || 180;
+      const rest = parseInt(restInput.value) || 50;
+      const age = parseInt(ageInput.value) || 20;
+
+      const mafLimit = Math.max(rest, 180 - age);
+
+      const minScale = Math.max(30, rest - 10);
+      const maxScale = max;
+      const totalSpan = maxScale - minScale;
+
+      // Generer Skala Ticks
+      scale.innerHTML = '';
+      const step = Math.round(totalSpan / 5);
+      for (let i = 0; i <= 5; i++) {
+        const tickVal = Math.round(minScale + i * step);
+        const tickEl = document.createElement('span');
+        tickEl.textContent = tickVal + ' bpm';
+        scale.appendChild(tickEl);
+      }
+
+      // 1. REN % MAXPULS
+      const zMax = [
+        { name: 'Z1', min: Math.round(max * 0.5), max: Math.round(max * 0.6), cls: 'z-bg-1' },
+        { name: 'Z2', min: Math.round(max * 0.6), max: Math.round(max * 0.7), cls: 'z-bg-2' },
+        { name: 'Z3', min: Math.round(max * 0.7), max: Math.round(max * 0.8), cls: 'z-bg-3' },
+        { name: 'Z4', min: Math.round(max * 0.8), max: Math.round(max * 0.9), cls: 'z-bg-4' },
+        { name: 'Z5', min: Math.round(max * 0.9), max: max, cls: 'z-bg-5' }
+      ];
+
+      // 2. KARVONEN (PULSRESERVE HRR)
+      const hrr = max - rest;
+      const zKarv = [
+        { name: 'Z1', min: Math.round(rest + hrr * 0.5), max: Math.round(rest + hrr * 0.6), cls: 'z-bg-1' },
+        { name: 'Z2', min: Math.round(rest + hrr * 0.6), max: Math.round(rest + hrr * 0.7), cls: 'z-bg-2' },
+        { name: 'Z3', min: Math.round(rest + hrr * 0.7), max: Math.round(rest + hrr * 0.8), cls: 'z-bg-3' },
+        { name: 'Z4', min: Math.round(rest + hrr * 0.8), max: Math.round(rest + hrr * 0.9), cls: 'z-bg-4' },
+        { name: 'Z5', min: Math.round(rest + hrr * 0.9), max: max, cls: 'z-bg-5' }
+      ];
+
+      // 3. LAKTATTÆRSKEL (LTHR SAMMENHÆNGENDE SKALA)
+      const zLthr = [
+        { name: 'Z1', min: Math.round(lthr * 0.65), max: Math.round(lthr * 0.85), cls: 'z-bg-1' },
+        { name: 'Z2', min: Math.round(lthr * 0.85), max: Math.round(lthr * 0.90), cls: 'z-bg-2' },
+        { name: 'Z3', min: Math.round(lthr * 0.90), max: Math.round(lthr * 0.95), cls: 'z-bg-3' },
+        { name: 'Z4', min: Math.round(lthr * 0.95), max: Math.round(lthr * 1.00), cls: 'z-bg-4' },
+        { name: 'Z5', min: Math.round(lthr * 1.00), max: max, cls: 'z-bg-5' }
+      ];
+
+      // 4. MAFFETONE
+      const zMaf = [
+        { name: 'MAF Base', min: rest, max: mafLimit, cls: 'z-bg-maf' }
+      ];
+
+      function buildBar(element, zones) {
+        element.innerHTML = '';
+        zones.forEach(z => {
+          const widthPct = Math.max(0, ((z.max - z.min) / totalSpan) * 100);
+          const leftPct = Math.max(0, ((z.min - minScale) / totalSpan) * 100);
+
+          const seg = document.createElement('div');
+          seg.className = `mp-zone-segment ${z.cls}`;
+          seg.style.left = leftPct + '%';
+          seg.style.width = widthPct + '%';
+
+          const rangeHtml = widthPct > 6.5 ? `<span class="mp-zone-range">${z.min}-${z.max}</span>` : '';
+          seg.innerHTML = `<span>${z.name}</span>${rangeHtml}`;
+          
+          element.appendChild(seg);
+        });
+      }
+
+      buildBar(barMax, zMax);
+      buildBar(barKarvonen, zKarv);
+      buildBar(barLthr, zLthr);
+      buildBar(barMaf, zMaf);
+
+      takeaway.innerHTML = `
+        For en ${age}-årig med maxpuls <strong>${max} bpm</strong>, LTHR <strong>${lthr} bpm</strong> og hvilepuls <strong>${rest} bpm</strong>: % Maxpuls sætter Zone 2 til <strong>${zMax[1].min}–${zMax[1].max} bpm</strong>, Karvonen til <strong>${zKarv[1].min}–${zKarv[1].max} bpm</strong>, LTHR til <strong>${zLthr[1].min}–${zLthr[1].max} bpm</strong> og MAF til op til <strong>${mafLimit} bpm</strong>.
+      `;
+    }
+
+    maxInput.addEventListener('input', renderComparison);
+    lthrInput.addEventListener('input', renderComparison);
+    restInput.addEventListener('input', renderComparison);
+    ageInput.addEventListener('input', renderComparison);
+
+    renderComparison();
+  });
+</script>
