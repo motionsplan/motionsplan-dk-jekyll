@@ -1,0 +1,504 @@
+<!-- TRÆNINGSPAS ANALYSATOR (sRPE, EDWARDS TRIMP & TSS) -->
+<div class="mp-load-card">
+  
+  <div class="mp-load-header">
+    <h3>⚡ Træningspas Analysator: sRPE, TRIMP & TSS</h3>
+    <p>Sammenlign hvordan tre forskellige træningspas scorer på de tre belastningsmodeller.</p>
+  </div>
+
+  <!-- 3 SCENARIE-KNAPPER PÅ ÉN RÆKKE (STRUKTUR: OVERSKRIFT -> TID -> BESKRIVELSE) -->
+  <div class="mp-scenario-grid">
+    <button type="button" class="mp-scenario-card active" id="btn-p1">
+      <div class="mp-scen-title">Zone 1–2 Udholdenhed</div>
+      <div class="mp-scen-time">90 minutter</div>
+      <div class="mp-scen-desc">Roligt opbygningspas ved lav puls og jævnt tempo.</div>
+    </button>
+
+    <button type="button" class="mp-scenario-card" id="btn-p2">
+      <div class="mp-scen-title">HIIT & Anaerob Sprint</div>
+      <div class="mp-scen-time">45 minutter</div>
+      <div class="mp-scen-desc">Eksplosivt pas med høje krav til Z5/Z6 kapacitet.</div>
+    </button>
+
+    <button type="button" class="mp-scenario-card" id="btn-p3">
+      <div class="mp-scen-title">Tærskel & Sweet Spot</div>
+      <div class="mp-scen-time">90 minutter</div>
+      <div class="mp-scen-desc">Hårdt pas med lang tid omkring syretærsklen (LT2).</div>
+    </button>
+  </div>
+
+  <!-- TRÆNINGS-INPUTS -->
+  <div class="mp-input-section">
+    <!-- HOVED-INPUTS -->
+    <div class="mp-main-inputs">
+      <div class="mp-input-group">
+        <label for="w-duration">Samlet Tid (minutter):</label>
+        <input type="number" id="w-duration" value="90" min="5" max="360" step="5">
+      </div>
+
+      <div class="mp-input-group">
+        <label for="w-rpe">Anstrengelse (sRPE 1–10):</label>
+        <input type="number" id="w-rpe" value="2" min="1" max="10" step="1">
+      </div>
+    </div>
+
+    <!-- ZONETIDER PÅ ÉN VANDRET RÆKKE -->
+    <div class="mp-zone-row-label">Tidsfordeling i pulszoner (minutter):</div>
+    <div class="mp-zones-row">
+      <div class="mp-zone-input">
+        <label for="w-z12">Zone 1–2 (Rolig)</label>
+        <input type="number" id="w-z12" value="90" min="0" max="360">
+      </div>
+
+      <div class="mp-zone-input">
+        <label for="w-z34">Zone 3–4 (Tærskel)</label>
+        <input type="number" id="w-z34" value="0" min="0" max="360">
+      </div>
+
+      <div class="mp-zone-input">
+        <label for="w-z5">Zone 5 (VO2max)</label>
+        <input type="number" id="w-z5" value="0" min="0" max="360">
+      </div>
+
+      <div class="mp-zone-input">
+        <label for="w-z6">Zone 6 (Sprint)</label>
+        <input type="number" id="w-z6" value="0" min="0" max="360">
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTAT KORT MED SINGLE-LINE OVERSKRIFT -->
+  <div class="mp-results-grid">
+    
+    <!-- sRPE SCORE -->
+    <div class="mp-res-card">
+      <div class="mp-res-title">sRPE Score</div>
+      <div class="mp-res-val-row">
+        <span class="mp-res-value" id="score-srpe">180</span>
+        <span class="mp-badge-tag" id="badge-srpe">Let</span>
+      </div>
+      <div class="mp-res-sub">Varighed × sRPE (Foster)</div>
+      <div class="mp-meter-track">
+        <div class="mp-meter-bar" id="meter-srpe" style="width: 20%;"></div>
+      </div>
+    </div>
+
+    <!-- EDWARDS TRIMP -->
+    <div class="mp-res-card">
+      <div class="mp-res-title">Edwards TRIMP</div>
+      <div class="mp-res-val-row">
+        <span class="mp-res-value" id="score-trimp">108</span>
+        <span class="mp-badge-tag" id="badge-trimp">Let</span>
+      </div>
+      <div class="mp-res-sub">Pulszone-vægtet (1–6×)</div>
+      <div class="mp-meter-track">
+        <div class="mp-meter-bar" id="meter-trimp" style="width: 25%;"></div>
+      </div>
+    </div>
+
+    <!-- TSS SCORE -->
+    <div class="mp-res-card">
+      <div class="mp-res-title">TSS (Stress Score)</div>
+      <div class="mp-res-val-row">
+        <span class="mp-res-value" id="score-tss">32</span>
+        <span class="mp-badge-tag" id="badge-tss">Let</span>
+      </div>
+      <div class="mp-res-sub">Relativ tærskel-belastning</div>
+      <div class="mp-meter-track">
+        <div class="mp-meter-bar" id="meter-tss" style="width: 21%;"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FYSIOLOGISK FORKLARING -->
+  <div class="mp-load-explanation" id="workout-explanation">
+    <strong>💡 Fysiologisk indsigt:</strong> I dette rolige basepas vurderer alle tre modeller belastningen som <em>Let</em>, fordi både tid og puls holdes på et lavt fysiologisk niveau.
+  </div>
+
+</div>
+
+<style>
+  .mp-load-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 1.15rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+    font-family: inherit;
+  }
+
+  .mp-load-header h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.05rem;
+    color: #0f172a;
+    font-weight: 800;
+  }
+  .mp-load-header p {
+    margin: 0 0 0.85rem 0;
+    font-size: 0.825rem;
+    color: #64748b;
+    line-height: 1.35;
+  }
+
+  /* 3 SCENARIE KNAPPER STRIPEDE PÅ ÉN LINJE */
+  .mp-scenario-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 640px) {
+    .mp-scenario-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .mp-scenario-card {
+    background: #f8fafc;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 7px;
+    padding: 0.5rem 0.6rem;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mp-scenario-card:hover {
+    border-color: #94a3b8;
+    background: #ffffff;
+  }
+
+  .mp-scenario-card.active {
+    background: #ffffff;
+    border-color: #2563eb;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-scen-title {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mp-scen-time {
+    font-size: 0.675rem;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 2px;
+  }
+
+  .mp-scen-desc {
+    font-size: 0.65rem;
+    color: #64748b;
+    line-height: 1.25;
+  }
+
+  /* INPUT-SEKTION */
+  .mp-input-section {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 0.75rem 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  .mp-main-inputs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 0.65rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 1px stroke #e2e8f0;
+  }
+
+  .mp-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .mp-input-group label {
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #334155;
+  }
+
+  .mp-input-group input {
+    padding: 0.3rem 0.45rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #0f172a;
+    background: #ffffff;
+  }
+
+  .mp-zone-row-label {
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 0.35rem;
+  }
+
+  .mp-zones-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.4rem;
+  }
+
+  @media (max-width: 580px) {
+    .mp-zones-row {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .mp-zone-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .mp-zone-input label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: #475569;
+    white-space: nowrap;
+  }
+
+  .mp-zone-input input {
+    width: 100%;
+    padding: 0.25rem 0.35rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 0.825rem;
+    font-weight: 800;
+    color: #0f172a;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+
+  /* RESULTAT KORT */
+  .mp-results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 0.65rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .mp-res-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 0.65rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* PRÆCIS 1 LINJE OVERSKRIFT UDEN LINJESKIFT */
+  .mp-res-title {
+    width: 100%;
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #475569;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mp-res-val-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .mp-res-value {
+    font-size: 1.45rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+  }
+
+  .mp-badge-tag {
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 1px 6px;
+    border-radius: 4px;
+    line-height: 1.2;
+  }
+
+  .tag-low { background: #dcfce7; color: #15803d; border: 1px solid #16a34a; }
+  .tag-mod { background: #fef9c3; color: #854d0e; border: 1px solid #ca8a04; }
+  .tag-high { background: #ffedd5; color: #9a3412; border: 1px solid #ea580c; }
+  .tag-ext { background: #fee2e2; color: #991b1b; border: 1px solid #dc2626; }
+
+  .mp-res-sub {
+    font-size: 0.65rem;
+    color: #94a3b8;
+    margin-bottom: 0.45rem;
+  }
+
+  .mp-meter-track {
+    width: 100%;
+    height: 5px;
+    background: #e2e8f0;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .mp-meter-bar {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+
+  .mp-load-explanation {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 6px;
+    padding: 0.65rem 0.85rem;
+    font-size: 0.8rem;
+    color: #166534;
+    line-height: 1.35;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const durInput = document.getElementById('w-duration');
+    const rpeInput = document.getElementById('w-rpe');
+    const z12Input = document.getElementById('w-z12');
+    const z34Input = document.getElementById('w-z34');
+    const z5Input = document.getElementById('w-z5');
+    const z6Input = document.getElementById('w-z6');
+
+    const scoreSrpe = document.getElementById('score-srpe');
+    const scoreTrimp = document.getElementById('score-trimp');
+    const scoreTss = document.getElementById('score-tss');
+
+    const badgeSrpe = document.getElementById('badge-srpe');
+    const badgeTrimp = document.getElementById('badge-trimp');
+    const badgeTss = document.getElementById('badge-tss');
+
+    const meterSrpe = document.getElementById('meter-srpe');
+    const meterTrimp = document.getElementById('meter-trimp');
+    const meterTss = document.getElementById('meter-tss');
+
+    const explanation = document.getElementById('workout-explanation');
+
+    const btnP1 = document.getElementById('btn-p1');
+    const btnP2 = document.getElementById('btn-p2');
+    const btnP3 = document.getElementById('btn-p3');
+
+    function updateBadgeAndMeter(val, maxVal, badgeEl, meterEl, thresholds) {
+      const pct = Math.min(100, Math.max(5, Math.round((val / maxVal) * 100)));
+      meterEl.style.width = pct + '%';
+
+      if (val < thresholds[0]) {
+        badgeEl.textContent = 'Let';
+        badgeEl.className = 'mp-badge-tag tag-low';
+        meterEl.style.backgroundColor = '#22c55e';
+      } else if (val < thresholds[1]) {
+        badgeEl.textContent = 'Moderat';
+        badgeEl.className = 'mp-badge-tag tag-mod';
+        meterEl.style.backgroundColor = '#eab308';
+      } else if (val < thresholds[2]) {
+        badgeEl.textContent = 'Hårdt';
+        badgeEl.className = 'mp-badge-tag tag-high';
+        meterEl.style.backgroundColor = '#f97316';
+      } else {
+        badgeEl.textContent = 'Ekstremt';
+        badgeEl.className = 'mp-badge-tag tag-ext';
+        meterEl.style.backgroundColor = '#ef4444';
+      }
+    }
+
+    function calculateScores() {
+      const dur = parseInt(durInput.value) || 0;
+      const rpe = parseInt(rpeInput.value) || 0;
+      const z12 = parseInt(z12Input.value) || 0;
+      const z34 = parseInt(z34Input.value) || 0;
+      const z5 = parseInt(z5Input.value) || 0;
+      const z6 = parseInt(z6Input.value) || 0;
+
+      // 1. sRPE Score = Varighed * RPE
+      const srpe = dur * rpe;
+
+      // 2. Edwards TRIMP (Vægtede pulszoner: Z1-2*1.2, Z3-4*2.5, Z5*4.2, Z6*6.5)
+      const trimp = Math.round(z12 * 1.2 + z34 * 2.5 + z5 * 4.2 + z6 * 6.5);
+
+      // 3. FYSIOLOGISK KORREKT TSS (Vægtet IF^2 per zone)
+      // Z1-2: IF^2 ~0.36, Z3-4: IF^2 ~0.81, Z5: IF^2 ~1.56, Z6: IF^2 ~2.89
+      const totalZoneMin = (z12 + z34 + z5 + z6) || dur;
+      const weightedIF2 = ((z12 * 0.36) + (z34 * 0.81) + (z5 * 1.56) + (z6 * 2.89)) / totalZoneMin;
+      const tss = Math.round((dur / 60) * weightedIF2 * 100);
+
+      scoreSrpe.textContent = srpe;
+      scoreTrimp.textContent = trimp;
+      scoreTss.textContent = tss;
+
+      // TÆRSKLER
+      updateBadgeAndMeter(srpe, 800, badgeSrpe, meterSrpe, [250, 380, 550]);
+      updateBadgeAndMeter(trimp, 350, badgeTrimp, meterTrimp, [120, 180, 260]);
+      updateBadgeAndMeter(tss, 150, badgeTss, meterTss, [50, 85, 120]);
+    }
+
+    function setPreset(p) {
+      document.querySelectorAll('.mp-scenario-card').forEach(b => b.classList.remove('active'));
+
+      if (p === 1) {
+        btnP1.classList.add('active');
+        durInput.value = 90;
+        rpeInput.value = 2;
+        z12Input.value = 90;
+        z34Input.value = 0;
+        z5Input.value = 0;
+        z6Input.value = 0;
+        explanation.innerHTML = '<strong>💡 Zone 1–2 Udholdenhed:</strong> Roligt basepas. Alle modeller vurderer belastningen som <em>Let</em>, fordi puls og tid holdes på et lavt niveau.';
+      } else if (p === 2) {
+        btnP2.classList.add('active');
+        durInput.value = 45;
+        rpeInput.value = 9;
+        z12Input.value = 10;
+        z34Input.value = 10;
+        z5Input.value = 15;
+        z6Input.value = 10;
+        explanation.innerHTML = '<strong>⚡ HIIT & Anaerob Sprint:</strong> Se fysiologien i aktion! Selvom passet kun er 45 minutter, trækker de 10 minutters Zone 6 (Sprint) TSS helt op på <strong>107 (Hårdt)</strong> pga. den eksponentielle $IF^2$-belastning!';
+      } else if (p === 3) {
+        btnP3.classList.add('active');
+        durInput.value = 90;
+        rpeInput.value = 8;
+        z12Input.value = 15;
+        z34Input.value = 75;
+        z5Input.value = 0;
+        z6Input.value = 0;
+        explanation.innerHTML = '<strong>🎯 Tærskel & Sweet Spot:</strong> Høj samlet mængde ved syretærsklen (LT2). Både sRPE (720) og TSS (123) ryger op som <em>Ekstremt</em>.';
+      }
+      calculateScores();
+    }
+
+    btnP1.addEventListener('click', () => setPreset(1));
+    btnP2.addEventListener('click', () => setPreset(2));
+    btnP3.addEventListener('click', () => setPreset(3));
+
+    [durInput, rpeInput, z12Input, z34Input, z5Input, z6Input].forEach(inp => {
+      inp.addEventListener('input', calculateScores);
+    });
+
+    calculateScores();
+  });
+</script>

@@ -1,0 +1,591 @@
+<!-- PERIODE & TSB SIMULATOR (8 UGER PMC MODEL) -->
+<div class="mp-pmc-card">
+
+  <div class="mp-pmc-header">
+    <h3>📈 Periode & TSB Simulator (8 Uger)</h3>
+    <p>Simuler et 8-ugers forløb og se, hvordan Fitness (CTL), Træthed (ATL), Form (TSB) og ACWR reagerer på dine ændringer.</p>
+  </div>
+
+  <!-- 4 SCENARIE KNAPPER I ET RENT 2x2 GRID -->
+  <div class="mp-scenario-grid-2x2">
+    <button type="button" class="mp-scenario-card active" id="pmc-btn-base">
+      <div class="mp-scen-title">🟢 1. Sikker Base (3:1)</div>
+      <div class="mp-scen-desc">Kontrolleret stigning med restitutionsuge hver 4. uge.</div>
+    </button>
+
+    <button type="button" class="mp-scenario-card" id="pmc-btn-hiit">
+      <div class="mp-scen-title">🔴 2. HIIT / Mængde-Hop</div>
+      <div class="mp-scen-desc">Pludselig markant stigning i træningsmængde eller Zone 5-6.</div>
+    </button>
+
+    <button type="button" class="mp-scenario-card" id="pmc-btn-taper">
+      <div class="mp-scen-title">🏆 3. Tapering (Race)</div>
+      <div class="mp-scen-desc">Opbygning fulgt af nedtrapning for maksimal TSB/friskhed.</div>
+    </button>
+
+    <button type="button" class="mp-scenario-card" id="pmc-btn-hojskole">
+      <div class="mp-scen-title">⚡ 4. Idrætshøjskole</div>
+      <div class="mp-scen-desc">Mængdehop + skift i underlag (kunstgræs, hal, terræn).</div>
+    </button>
+  </div>
+
+  <!-- INTERAKTIVE REGULATORER DER HOLDER SIG INDEN FOR BOKSEN -->
+  <div class="mp-params-panel">
+    <div class="mp-param-title">⚙️ Indstillinger og uge-modellering:</div>
+    
+    <div class="mp-param-grid-2col">
+      <!-- RÆKKE 1: PROGRESSION & DELOAD -->
+      <div class="mp-param-group">
+        <label for="p-base-tss">Start-belastning: <strong id="lbl-base-tss">350 TSS</strong></label>
+        <input type="range" id="p-base-tss" min="150" max="600" value="350" step="25">
+      </div>
+
+      <div class="mp-param-group">
+        <label for="p-prog-rate">Ugentlig stigning: <strong id="lbl-prog-rate">+5%</strong></label>
+        <input type="range" id="p-prog-rate" min="0" max="25" value="5" step="1">
+      </div>
+
+      <!-- RÆKKE 2: DELOAD FREKVENS & UNDERLAG -->
+      <div class="mp-param-group">
+        <label for="p-deload-freq">Restitutionsuge (Deload):</label>
+        <select id="p-deload-freq" class="mp-param-select">
+          <option value="4" selected>Hver 4. uge (-30% mængde)</option>
+          <option value="3">Hver 3. uge (-30% mængde)</option>
+          <option value="0">Ingen (Uafbrudt stigning)</option>
+        </select>
+      </div>
+
+      <div class="mp-param-group">
+        <label for="p-variation">Underlag / Ny idræt:</label>
+        <select id="p-variation" class="mp-param-select">
+          <option value="1.0" selected>Normalt (Løb/Cykel på vej)</option>
+          <option value="1.2">Moderat skift (Trail/Grus)</option>
+          <option value="1.45">Idrætshøjskole (Kunstgræs/Hal)</option>
+        </select>
+      </div>
+
+      <!-- RÆKKE 3: PLUDSELIGT BELASTNINGSHOP (LET FORSTÅELIGT) & START-UGE -->
+      <div class="mp-param-group">
+        <label for="p-spike-percent">Pludseligt Belastningshop: <strong id="lbl-spike-percent">+0% (Ingen)</strong></label>
+        <input type="range" id="p-spike-percent" min="0" max="100" value="0" step="10">
+      </div>
+
+      <div class="mp-param-group">
+        <label for="p-spike-week">Start-uge for Belastningshop:</label>
+        <select id="p-spike-week" class="mp-param-select">
+          <option value="3">Fra Uge 3</option>
+          <option value="4">Fra Uge 4</option>
+          <option value="5" selected>Fra Uge 5</option>
+          <option value="6">Fra Uge 6</option>
+        </select>
+      </div>
+
+      <!-- RÆKKE 4: TAPERING % & START-UGE -->
+      <div class="mp-param-group">
+        <label for="p-taper-red">Tapering (Volumen fald): <strong id="lbl-taper-red">0%</strong></label>
+        <input type="range" id="p-taper-red" min="0" max="50" value="0" step="5">
+      </div>
+
+      <div class="mp-param-group">
+        <label for="p-taper-week">Start-uge for Tapering:</label>
+        <select id="p-taper-week" class="mp-param-select">
+          <option value="6">Fra Uge 6</option>
+          <option value="7" selected>Fra Uge 7</option>
+          <option value="8">Kun Uge 8</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIVE READOUT BADGES -->
+  <div class="mp-pmc-kpi-bar">
+    <div class="mp-pmc-kpi">
+      <span class="mp-pmc-kpi-lbl">FITNESS (CTL)</span>
+      <span class="mp-pmc-kpi-val color-ctl" id="pmc-val-ctl">58</span>
+    </div>
+    <div class="mp-pmc-kpi">
+      <span class="mp-pmc-kpi-lbl">TRÆTHED (ATL)</span>
+      <span class="mp-pmc-kpi-val color-atl" id="pmc-val-atl">62</span>
+    </div>
+    <div class="mp-pmc-kpi">
+      <span class="mp-pmc-kpi-lbl">FORM (TSB)</span>
+      <span class="mp-pmc-kpi-val color-tsb" id="pmc-val-tsb">-4</span>
+    </div>
+    <div class="mp-pmc-kpi">
+      <span class="mp-pmc-kpi-lbl">ACWR RATIO</span>
+      <span class="mp-pmc-kpi-val" id="pmc-val-acwr">1.07</span>
+    </div>
+  </div>
+
+  <!-- SVG PMC GRAF MED STØRRE OG TYDELIGERE TEKST -->
+  <div class="mp-pmc-svg-wrap">
+    <svg id="pmc-svg" viewBox="0 0 880 360" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+      
+      <!-- NUL-LINJE FOR TSB -->
+      <line x1="50" y1="200" x2="830" y2="200" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="5,4"/>
+      <text x="835" y="204" font-family="sans-serif" font-size="12" fill="#64748b" font-weight="800">TSB 0</text>
+
+      <!-- UGE OVERSKRIFTER PÅ X-AKSEN (TYDELIG 13PX SKRIFT) -->
+      <g font-family="sans-serif" font-size="13" font-weight="800" fill="#334155" text-anchor="middle">
+        <text x="90" y="342">Uge 1</text>
+        <text x="195" y="342">Uge 2</text>
+        <text x="300" y="342">Uge 3</text>
+        <text x="405" y="342">Uge 4</text>
+        <text x="510" y="342">Uge 5</text>
+        <text x="615" y="342">Uge 6</text>
+        <text x="720" y="342">Uge 7</text>
+        <text x="825" y="342">Uge 8</text>
+      </g>
+
+      <!-- PATHS TIL GRAFER -->
+      <path id="path-ctl" d="" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+      <path id="path-atl" d="" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="6,3" stroke-linecap="round"/>
+      <path id="path-tsb" d="" fill="none" stroke="#d97706" stroke-width="3.2" stroke-linecap="round"/>
+
+      <!-- SIGNATURFORKLARING I TOPPEN (STOR OG LÆSELIG 14PX SKRIFT) -->
+      <g transform="translate(180, 26)" font-family="sans-serif" font-size="14" font-weight="900">
+        <line x1="0" y1="0" x2="26" y2="0" stroke="#2563eb" stroke-width="4"/>
+        <text x="34" y="5" fill="#1e40af">CTL (Fitness)</text>
+
+        <line x1="165" y1="0" x2="191" y2="0" stroke="#ef4444" stroke-width="3" stroke-dasharray="6,3"/>
+        <text x="199" y="5" fill="#991b1b">ATL (Træthed)</text>
+
+        <line x1="330" y1="0" x2="356" y2="0" stroke="#d97706" stroke-width="3.2"/>
+        <text x="364" y="5" fill="#854d0e">TSB (Form)</text>
+      </g>
+    </svg>
+  </div>
+
+  <!-- STATUSBOKS -->
+  <div class="mp-pmc-status" id="pmc-status-box"></div>
+
+</div>
+
+<style>
+  .mp-pmc-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 1.15rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+    font-family: inherit;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .mp-pmc-header h3 {
+    margin: 0 0 0.2rem 0;
+    font-size: 1.05rem;
+    color: #0f172a;
+    font-weight: 800;
+  }
+  .mp-pmc-header p {
+    margin: 0 0 0.85rem 0;
+    font-size: 0.825rem;
+    color: #64748b;
+    line-height: 1.35;
+  }
+
+  /* 2x2 SCENARIE GRID */
+  .mp-scenario-grid-2x2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 580px) {
+    .mp-scenario-grid-2x2 {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .mp-scenario-card {
+    background: #f8fafc;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 7px;
+    padding: 0.55rem 0.75rem;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .mp-scenario-card:hover {
+    border-color: #94a3b8;
+    background: #ffffff;
+  }
+
+  .mp-scenario-card.active {
+    background: #ffffff;
+    border-color: #2563eb;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-scen-title {
+    font-size: 0.775rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mp-scen-desc {
+    font-size: 0.675rem;
+    color: #64748b;
+    line-height: 1.25;
+  }
+
+  /* REGULATOR PANEL DER HOLDER SIG INDEN FOR RAMMEN */
+  .mp-params-panel {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 0.75rem 0.9rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .mp-param-title {
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    margin-bottom: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+
+  /* minmax(0, 1fr) FORHINDRER OVERFLOW I GRID */
+  .mp-param-grid-2col {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 620px) {
+    .mp-param-grid-2col {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .mp-param-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    color: #334155;
+    font-weight: 700;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mp-param-group label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mp-param-group label strong {
+    color: #2563eb;
+  }
+
+  .mp-param-group input[type="range"] {
+    width: 100%;
+    max-width: 100%;
+    accent-color: #2563eb;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  .mp-param-select {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.3rem 0.45rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 0.775rem;
+    font-weight: 700;
+    color: #0f172a;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+
+  /* KPI BAR */
+  .mp-pmc-kpi-bar {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.5rem;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    padding: 0.65rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+  }
+
+  .mp-pmc-kpi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mp-pmc-kpi-lbl {
+    font-size: 0.65rem;
+    font-weight: 800;
+    color: #64748b;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .mp-pmc-kpi-val {
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #0f172a;
+  }
+
+  .color-ctl { color: #2563eb; }
+  .color-atl { color: #dc2626; }
+  .color-tsb { color: #d97706; }
+
+  .mp-pmc-svg-wrap {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .mp-pmc-svg-wrap svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .mp-pmc-status {
+    border-radius: 6px;
+    padding: 0.75rem 0.9rem;
+    font-size: 0.825rem;
+    line-height: 1.4;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const btnBase = document.getElementById('pmc-btn-base');
+    const btnHiit = document.getElementById('pmc-btn-hiit');
+    const btnTaper = document.getElementById('pmc-btn-taper');
+    const btnHojskole = document.getElementById('pmc-btn-hojskole');
+
+    const pBaseTss = document.getElementById('p-base-tss');
+    const pProgRate = document.getElementById('p-prog-rate');
+    const pDeloadFreq = document.getElementById('p-deload-freq');
+    const pVariation = document.getElementById('p-variation');
+    const pSpikePercent = document.getElementById('p-spike-percent');
+    const pSpikeWeek = document.getElementById('p-spike-week');
+    const pTaperRed = document.getElementById('p-taper-red');
+    const pTaperWeek = document.getElementById('p-taper-week');
+
+    const lblBaseTss = document.getElementById('lbl-base-tss');
+    const lblProgRate = document.getElementById('lbl-prog-rate');
+    const lblSpikePercent = document.getElementById('lbl-spike-percent');
+    const lblTaperRed = document.getElementById('lbl-taper-red');
+
+    const valCtl = document.getElementById('pmc-val-ctl');
+    const valAtl = document.getElementById('pmc-val-atl');
+    const valTsb = document.getElementById('pmc-val-tsb');
+    const valAcwr = document.getElementById('pmc-val-acwr');
+
+    const pathCtl = document.getElementById('path-ctl');
+    const pathAtl = document.getElementById('path-atl');
+    const pathTsb = document.getElementById('path-tsb');
+    const statusBox = document.getElementById('pmc-status-box');
+
+    function runSimulation() {
+      const baseTss = parseInt(pBaseTss.value);
+      const progRate = parseInt(pProgRate.value) / 100;
+      const deloadFreq = parseInt(pDeloadFreq.value);
+      const varMult = parseFloat(pVariation.value);
+      const spikePercent = parseInt(pSpikePercent.value); // 0% til 100%
+      const spikeStartWeek = parseInt(pSpikeWeek.value); // 3, 4, 5, 6
+      const taperRed = parseInt(pTaperRed.value) / 100;
+      const taperStartWeek = parseInt(pTaperWeek.value); // 6, 7, 8
+
+      lblBaseTss.textContent = `${baseTss} TSS`;
+      lblProgRate.textContent = `+${pProgRate.value}%`;
+      lblSpikePercent.textContent = spikePercent > 0 ? `+${spikePercent}% Ekstra` : '0% (Ingen)';
+      lblTaperRed.textContent = `${pTaperRed.value}%`;
+
+      const dailyLoads = [];
+
+      // Generer 56 dages (8 ugers) belastningsmønster
+      for (let day = 0; day < 56; day++) {
+        const weekNum = Math.floor(day / 7) + 1; // 1 til 8
+        const dayInWeek = day % 7;
+        const isRestDay = (dayInWeek === 6); // Hviledag om søndagen
+
+        let weeklyTssTarget = baseTss * Math.pow(1 + progRate, weekNum - 1);
+
+        // DELOAD LOGIK: Hver 3. eller 4. uge falder mængden med 30%
+        if (deloadFreq > 0 && weekNum % deloadFreq === 0 && weekNum < taperStartWeek) {
+          weeklyTssTarget *= 0.70;
+        }
+
+        // BELASTNINGSHOP (CHOK) LOGIK: Fra start-ugen lægges ekstra % på
+        if (weekNum >= spikeStartWeek && spikePercent > 0) {
+          weeklyTssTarget *= (1 + (spikePercent / 100));
+        }
+
+        // TAPERING LOGIK: Fra start-ugen falder mængden gradvist
+        if (weekNum >= taperStartWeek && taperRed > 0) {
+          const taperDuration = (8 - taperStartWeek + 1);
+          const currentTaperStep = (weekNum - taperStartWeek + 1);
+          const factor = 1 - (taperRed * (currentTaperStep / taperDuration));
+          weeklyTssTarget *= Math.max(0.4, factor);
+        }
+
+        const dailyAvg = (weeklyTssTarget / 6);
+        dailyLoads.push(isRestDay ? 0 : dailyAvg);
+      }
+
+      // BANISTER MOVING AVERAGE BEREGNING (CTL: 42 DAGE, ATL: 7 DAGE)
+      let ctl = 35;
+      let atl = 35;
+      let peakAcwr = 0;
+
+      const ctlPoints = [];
+      const atlPoints = [];
+      const tsbPoints = [];
+
+      const startX = 50;
+      const endX = 830;
+      const stepX = (endX - startX) / 55;
+
+      dailyLoads.forEach((load, day) => {
+        ctl = ctl + (load - ctl) * (1 / 42);
+        atl = atl + (load - atl) * (1 / 7);
+        const tsb = ctl - atl;
+
+        const effectiveAcwr = ((atl * varMult) / ctl);
+        if (effectiveAcwr > peakAcwr) peakAcwr = effectiveAcwr;
+
+        const x = startX + day * stepX;
+        
+        // Y Skalering (0 til 160 TSS/dag -> Y 300 til 40)
+        const yCtl = 300 - (ctl / 125) * 240;
+        const yAtl = 300 - (atl / 125) * 240;
+        const yTsb = 200 - (tsb / 85) * 130;
+
+        ctlPoints.push(`${x},${yCtl}`);
+        atlPoints.push(`${x},${yAtl}`);
+        tsbPoints.push(`${x},${yTsb}`);
+      });
+
+      pathCtl.setAttribute('d', 'M ' + ctlPoints.join(' L '));
+      pathAtl.setAttribute('d', 'M ' + atlPoints.join(' L '));
+      pathTsb.setAttribute('d', 'M ' + tsbPoints.join(' L '));
+
+      const finalCtl = Math.round(ctl);
+      const finalAtl = Math.round(atl);
+      const finalTsb = Math.round(ctl - atl);
+      const finalAcwr = ((atl * varMult) / ctl).toFixed(2);
+
+      valCtl.textContent = finalCtl;
+      valAtl.textContent = finalAtl;
+      valTsb.textContent = finalTsb;
+      valAcwr.textContent = finalAcwr;
+
+      // PRÆCIS DYNAMISK EVALUERING PÅ DE FAKTISKE TALLER
+      if (parseFloat(finalAcwr) >= 1.40 || peakAcwr >= 1.45) {
+        statusBox.style.background = '#fef2f2';
+        statusBox.style.borderColor = '#fca5a5';
+        statusBox.style.color = '#991b1b';
+        statusBox.innerHTML = `<strong>🔴 ADVARSEL: Høj Skadesrisiko & Overbelastning! (ACWR: ${finalAcwr}).</strong> ${varMult > 1.2 ? 'Skiftet til nyt underlag/idræt lægger markant ekstra vævs-stress på led og sener.' : 'Trætheden (ATL) stiger alt for hurtigt i forhold til din fysiologiske base (CTL).'} Du har høj risiko for skinnebensbetændelse, overbelastning eller skader!`;
+      } else if (parseFloat(finalAcwr) >= 1.25 && parseFloat(finalAcwr) < 1.40) {
+        statusBox.style.background = '#ffedd5';
+        statusBox.style.borderColor = '#fdba74';
+        statusBox.style.color = '#9a3412';
+        statusBox.innerHTML = `<strong>🟠 Forøget Skadesrisiko (ACWR: ${finalAcwr}).</strong> Belastningsstigningen ligger i overkanten. Trætheden accumuleres hurtigt – vær ekstra opmærksom på din restitution.`;
+      } else if (finalTsb > +10) {
+        statusBox.style.background = '#fefce8';
+        statusBox.style.borderColor = '#fef08a';
+        statusBox.style.color = '#854d0e';
+        statusBox.innerHTML = `<strong>🏆 Topform & Maximal Friskhed! (Form/TSB: +${finalTsb}).</strong> Trætheden er sluppet, mens din opbyggede Fitness (CTL: ${finalCtl}) bevares. Du er klar til at præstere maksimalt!`;
+      } else if (progRate === 0 && spikePercent === 0 && taperRed === 0) {
+        statusBox.style.background = '#f8fafc';
+        statusBox.style.borderColor = '#cbd5e1';
+        statusBox.style.color = '#334155';
+        statusBox.innerHTML = `<strong>⚖️ Flad & Stabil Belastning (ACWR: ${finalAcwr}).</strong> Du træner ved en konstant ugentlig mængde uden stigning. Fitness (CTL) stabiliserer sig på <strong>${finalCtl}</strong>, og du har lav skadesrisiko.`;
+      } else {
+        statusBox.style.background = '#f0fdf4';
+        statusBox.style.borderColor = '#bbf7d0';
+        statusBox.style.color = '#166534';
+        statusBox.innerHTML = `<strong>🟢 Bæredygtig Progression (ACWR: ${finalAcwr}).</strong> Din Fitness (CTL) stiger støt til <strong>${finalCtl}</strong>, mens trætheden holdes under kontrol. ACWR ligger inde i det trygge sweet spot (0,8–1,25).`;
+      }
+    }
+
+    function setPreset(key) {
+      document.querySelectorAll('.mp-scenario-card').forEach(b => b.classList.remove('active'));
+
+      if (key === 'base') {
+        btnBase.classList.add('active');
+        pBaseTss.value = 350;
+        pProgRate.value = 5;
+        pDeloadFreq.value = 4;
+        pVariation.value = "1.0";
+        pSpikePercent.value = 0;
+        pSpikeWeek.value = 5;
+        pTaperRed.value = 0;
+        pTaperWeek.value = 7;
+      } else if (key === 'hiit') {
+        btnHiit.classList.add('active');
+        pBaseTss.value = 300;
+        pProgRate.value = 5;
+        pDeloadFreq.value = 0;
+        pVariation.value = "1.0";
+        pSpikePercent.value = 70;
+        pSpikeWeek.value = 5;
+        pTaperRed.value = 0;
+        pTaperWeek.value = 7;
+      } else if (key === 'taper') {
+        btnTaper.classList.add('active');
+        pBaseTss.value = 350;
+        pProgRate.value = 8;
+        pDeloadFreq.value = 4;
+        pVariation.value = "1.0";
+        pSpikePercent.value = 0;
+        pSpikeWeek.value = 5;
+        pTaperRed.value = 40;
+        pTaperWeek.value = 7;
+      } else if (key === 'hojskole') {
+        btnHojskole.classList.add('active');
+        pBaseTss.value = 250;
+        pProgRate.value = 5;
+        pDeloadFreq.value = 0;
+        pVariation.value = "1.45";
+        pSpikePercent.value = 60;
+        pSpikeWeek.value = 3;
+        pTaperRed.value = 0;
+        pTaperWeek.value = 7;
+      }
+
+      runSimulation();
+    }
+
+    btnBase.addEventListener('click', () => setPreset('base'));
+    btnHiit.addEventListener('click', () => setPreset('hiit'));
+    btnTaper.addEventListener('click', () => setPreset('taper'));
+    btnHojskole.addEventListener('click', () => setPreset('hojskole'));
+
+    [pBaseTss, pProgRate, pDeloadFreq, pVariation, pSpikePercent, pSpikeWeek, pTaperRed, pTaperWeek].forEach(inp => {
+      inp.addEventListener('input', runSimulation);
+    });
+
+    setPreset('base');
+  });
+</script>
