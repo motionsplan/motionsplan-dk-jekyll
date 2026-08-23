@@ -33,6 +33,37 @@ faq:
   answer: Type 1-muskelfibre (slow twitch) er langsomme, udholdende og røde. Type 2-muskelfibre (fast twitch) er hurtige, stærke og eksplosive, men har lavere udholdenhed.
 - question: Kan man ændre sin fordeling af muskelfibertyper med træning?
   answer: Du kan i vid udstrækning ændre undergrupperne af hurtige fibre (fx omdanne Type IIx til IIa ved træning og omvendt). Grundfordelingen mellem Type I (langsomme) og Type II (hurtige) fibre er dog i høj grad genetisk bestemt.
+sorting_matrices:
+  fibers:
+    title: "🧠 Test din viden: Muskelfibertyper"
+    description: "Klik på et udsagn og placer det i den rette fibertype-kategori."
+    auto_scramble: true
+    columns:
+      - id: "type1"
+        title: "Type I (Langsomme)"
+        subtitle: "Røde / Aerobe fibre"
+        color_class: "bg-blue"
+        items:
+          - "Høj kapillærtæthed og mange mitokondrier"
+          - "Meget udholdende og modstandsdygtige over for udtrætning"
+          - "Primær energikilde er aerob fedt- og glukoseforbrænding"
+      - id: "type2a"
+        title: "Type IIa (Hurtige / Hybride)"
+        subtitle: "Intermediære fibre"
+        color_class: "bg-orange"
+        items:
+          - "Blanding af høj kraftudvikling og moderat udholdenhed"
+          - "Kan tilpasse sig både aerob og anaerob træning"
+          - "Benytter både iltkrævende og glykolytiske energisystemer"
+      - id: "type2x"
+        title: "Type IIx (Eksplosive)"
+        subtitle: "Hvide / Anaerobe fibre"
+        color_class: "bg-red"
+        items:
+          - "Maksimal kontraktionshastighed og ren eksplosiv styrke"
+          - "Udtrættes meget hurtigt (få sekunder til minutter)"
+          - "Lav mitokondrietæthed og stor spaltning af ATP/CP"
+
 ---
 
 Hvilke typer muskelfibre har mennesker? Hvad er forskellene på de hurtige og langsomme muskelfibertyper? Hvorfor kaldes det hvide og røde muskelfibre?
@@ -141,6 +172,10 @@ Muskulaturens areal udgøres nu af en større procentdel af type II-fibre, fordi
 ## Kend din egen fibertypesammensætning
 
 Den mest sikre måde at finde ud af, hvordan ens muskelfibertypesammensætning er, er at få lavet en muskelbiopsi. Jeg har beskrevet i et andet indlæg, hvordan du [kan teste din egen muskelfibertypesammensætning](/test-muskelfibertyper/) på en lavpraktisk måde.
+
+## Test dig selv
+
+{% include components/sorting-matrix.html matrix=page.sorting_matrices.fibers id="matrix-fibers" %}
 
 ---
 

@@ -1,7 +1,7 @@
 <!-- Indlæs Chart.js -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<div class="metabolic-simulator-widget">
+<div class="full">
+<div class="metabolic-simulator-widget" id="metabolic-widget-root">
     <style>
         .metabolic-simulator-widget {
             --widget-bg: #0f172a;
@@ -18,7 +18,7 @@
             
             background-color: var(--widget-bg);
             color: var(--widget-text);
-            padding: 16px;
+            padding: 20px;
             border-radius: var(--border-radius);
             box-sizing: border-box;
             line-height: 1.4;
@@ -26,30 +26,87 @@
             margin: 20px 0;
             width: 100%;
             max-width: 100%;
-            overflow: hidden;
+            position: relative;
         }
 
         .metabolic-simulator-widget * { box-sizing: border-box; }
 
-        /* GRID FIX: Sikrer at højre side aldrig skubber sig ud af containeren */
-        .metabolic-simulator-widget .dashboard {
-            display: grid;
-            grid-template-columns: minmax(260px, 310px) minmax(0, 1fr);
+        /* Fullscreen knap uden tekst */
+        .metabolic-simulator-widget .fullscreen-btn {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: #334155;
+            border: 1px solid #475569;
+            color: var(--widget-text);
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            z-index: 10;
+        }
+        .metabolic-simulator-widget .fullscreen-btn:hover {
+            background: var(--atp-color);
+            color: #0f172a;
+        }
+
+        /* Top Header */
+        .metabolic-simulator-widget .widget-top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-right: 42px;
+        }
+        .metabolic-simulator-widget .widget-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #f8fafc;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Card Typografi uden H-tags */
+        .metabolic-simulator-widget .card-title { 
+            font-size: 0.92rem; 
+            margin: 0 0 12px 0; 
+            border-bottom: 2px solid #334155; 
+            padding-bottom: 6px; 
+            color: #e2e8f0; 
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .metabolic-simulator-widget .card-subtitle { 
+            font-size: 0.78rem; 
+            color: var(--widget-muted); 
+            margin: 0 0 6px 0; 
+            font-weight: 600;
+        }
+
+        /* Layout Struktur */
+        .metabolic-simulator-widget .layout-stack {
+            display: flex;
+            flex-direction: column;
             gap: 16px;
-            width: 100%;
-            max-width: 100%;
+        }
+
+        .metabolic-simulator-widget .row-grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
         }
 
         @media (max-width: 850px) {
-            .metabolic-simulator-widget .dashboard { 
-                grid-template-columns: 1fr; 
+            .metabolic-simulator-widget .row-grid-2 {
+                grid-template-columns: 1fr;
             }
-        }
-
-        .metabolic-simulator-widget .sidebar,
-        .metabolic-simulator-widget .main-content {
-            min-width: 0;
-            width: 100%;
         }
 
         .metabolic-simulator-widget .card {
@@ -57,35 +114,11 @@
             border-radius: var(--border-radius);
             padding: 16px;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
-            margin-bottom: 16px;
             border: 1px solid #334155;
             width: 100%;
         }
 
-        .metabolic-simulator-widget .card:last-child {
-            margin-bottom: 0;
-        }
-
-        .metabolic-simulator-widget h2 { 
-            font-size: 1.05rem; 
-            margin: 0 0 12px 0; 
-            border-bottom: 2px solid #334155; 
-            padding-bottom: 6px; 
-            color: #e2e8f0; 
-            font-weight: 600;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .metabolic-simulator-widget h3 { 
-            font-size: 0.85rem; 
-            color: var(--widget-muted); 
-            margin: 0 0 8px 0; 
-            font-weight: 500;
-        }
-
-        .metabolic-simulator-widget .control-group { margin-bottom: 12px; }
+        .metabolic-simulator-widget .control-group { margin-bottom: 10px; }
         .metabolic-simulator-widget .control-group label { 
             display: flex; 
             justify-content: space-between; 
@@ -103,16 +136,24 @@
             margin: 4px 0;
         }
 
-        /* 7-Zone Genveje */
+        /* Genveje & Intervaller */
         .metabolic-simulator-widget .preset-btns {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             gap: 4px;
             margin-top: 6px;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
-        .metabolic-simulator-widget .btn-preset {
+        .metabolic-simulator-widget .workout-btns {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 6px;
+            margin-top: 6px;
+        }
+
+        .metabolic-simulator-widget .btn-preset,
+        .metabolic-simulator-widget .btn-workout {
             background: #334155;
             color: var(--widget-text);
             border: 1px solid #475569;
@@ -125,84 +166,44 @@
             transition: all 0.2s;
             white-space: nowrap;
         }
-        .metabolic-simulator-widget .btn-preset:hover {
+        .metabolic-simulator-widget .btn-preset:hover,
+        .metabolic-simulator-widget .btn-workout:hover {
             background: var(--atp-color);
             color: #0f172a;
         }
 
-        /* Tanke & Visualisering */
-        .metabolic-simulator-widget .tanks-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            margin-bottom: 14px;
+        .metabolic-simulator-widget .btn-workout.active-workout {
+            background: #f59e0b;
+            color: #0f172a;
+            border-color: #d97706;
         }
 
-        .metabolic-simulator-widget .tank-wrapper {
+        /* Stopur Display */
+        .metabolic-simulator-widget .stopwatch-container {
             background: #0f172a;
-            border-radius: var(--border-radius);
-            padding: 8px;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 10px 14px;
             text-align: center;
-            border: 1px solid #334155;
-        }
-
-        .metabolic-simulator-widget .tank-bar-outer {
-            height: 90px;
-            width: 24px;
-            background: #334155;
-            margin: 6px auto;
-            border-radius: 6px;
-            display: flex;
-            align-items: flex-end;
-            overflow: hidden;
-        }
-
-        .metabolic-simulator-widget .tank-bar-inner {
+            margin-top: 10px;
             width: 100%;
-            transition: height 0.1s linear;
-            border-radius: 0 0 6px 6px;
         }
-
-        #tank-atp { background-color: var(--atp-color); }
-        #tank-wprime { background-color: var(--anaerob-color); }
-        #tank-aerob { background-color: var(--aerob-color); }
-
-        /* Mælkesyre & Brændstof bars */
-        .metabolic-simulator-widget .meter-container {
-            margin-top: 8px;
-            background: #0f172a;
-            padding: 8px 10px;
-            border-radius: var(--border-radius);
-            border: 1px solid #334155;
+        .metabolic-simulator-widget .stopwatch-digits {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.65rem;
+            font-weight: 800;
+            color: var(--atp-color);
+            letter-spacing: 2px;
+            line-height: 1;
         }
-
-        .metabolic-simulator-widget .meter-bar-outer {
-            height: 10px;
-            background: #334155;
-            border-radius: 5px;
-            overflow: hidden;
+        .metabolic-simulator-widget .stopwatch-mode {
+            font-size: 0.75rem;
+            color: var(--widget-muted);
             margin-top: 4px;
-            display: flex;
+            font-weight: 600;
         }
 
-        .metabolic-simulator-widget .acid-bar-inner {
-            height: 100%;
-            width: 0%;
-            background: linear-gradient(90deg, #10b981, #f59e0b, #ef4444);
-            transition: width 0.1s linear;
-        }
-
-        .metabolic-simulator-widget .fuel-fat-bar {
-            height: 100%;
-            background-color: var(--fat-color);
-            transition: width 0.2s;
-        }
-        .metabolic-simulator-widget .fuel-carb-bar {
-            height: 100%;
-            background-color: var(--carb-color);
-            transition: width 0.2s;
-        }
-
+        /* Knapper under stopuret */
         .metabolic-simulator-widget .btn-group { 
             display: flex; 
             gap: 8px; 
@@ -210,7 +211,7 @@
         }
         .metabolic-simulator-widget .btn {
             flex: 1;
-            padding: 8px 10px;
+            padding: 9px 10px;
             border: none;
             border-radius: 6px;
             font-weight: bold;
@@ -222,6 +223,7 @@
         .metabolic-simulator-widget .btn-primary { background: var(--atp-color); color: #0f172a; }
         .metabolic-simulator-widget .btn-secondary { background: #475569; color: var(--widget-text); }
 
+        /* Hastigheds-vælger */
         .metabolic-simulator-widget .speed-selector {
             display: flex;
             align-items: center;
@@ -233,10 +235,7 @@
             border: 1px solid #334155;
             font-size: 0.78rem;
         }
-        .metabolic-simulator-widget .speed-btns {
-            display: flex;
-            gap: 4px;
-        }
+        .metabolic-simulator-widget .speed-btns { display: flex; gap: 4px; }
         .metabolic-simulator-widget .speed-btn {
             background: #334155;
             border: none;
@@ -252,19 +251,103 @@
             font-weight: bold;
         }
 
+        /* Tanke & Visualisering */
+        .metabolic-simulator-widget .tanks-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .metabolic-simulator-widget .tank-wrapper {
+            background: #0f172a;
+            border-radius: var(--border-radius);
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #334155;
+        }
+
+        .metabolic-simulator-widget .tank-bar-outer {
+            height: 85px;
+            width: 22px;
+            background: #334155;
+            margin: 6px auto;
+            border-radius: 6px;
+            display: flex;
+            align-items: flex-end;
+            overflow: hidden;
+        }
+
+        .metabolic-simulator-widget .tank-bar-inner {
+            width: 100%;
+            transition: height 0.15s linear;
+            border-radius: 0 0 6px 6px;
+        }
+
+        #tank-atp { background-color: var(--atp-color); }
+        #tank-wprime { background-color: var(--anaerob-color); }
+        #tank-aerob { background-color: var(--aerob-color); }
+
+        /* Sikring mod 2-linjes wrap på statusmålere */
+        .metabolic-simulator-widget .meter-container {
+            margin-top: 8px;
+            background: #0f172a;
+            padding: 8px 10px;
+            border-radius: var(--border-radius);
+            border: 1px solid #334155;
+        }
+
+        .metabolic-simulator-widget .meter-header-line {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: clamp(0.68rem, 1.5vw, 0.78rem);
+            color: var(--widget-text);
+            white-space: nowrap;
+            gap: 6px;
+        }
+
+        .metabolic-simulator-widget .meter-bar-outer {
+            height: 10px;
+            background: #334155;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 4px;
+            display: flex;
+        }
+
+        .metabolic-simulator-widget .acid-bar-inner {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #10b981, #f59e0b, #ef4444);
+            transition: width 0.15s linear;
+        }
+
+        .metabolic-simulator-widget .fuel-fat-bar {
+            height: 100%;
+            background-color: var(--fat-color);
+            transition: width 0.2s;
+        }
+        .metabolic-simulator-widget .fuel-carb-bar {
+            height: 100%;
+            background-color: var(--carb-color);
+            transition: width 0.2s;
+        }
+
         .metabolic-simulator-widget .status-box {
             padding: 10px;
             border-radius: 6px;
             background: #0f172a;
             font-size: 0.8rem;
-            margin-top: 10px;
+            margin-top: 8px;
             border-left: 4px solid var(--atp-color);
             color: var(--widget-text);
-            min-height: 48px;
+            min-height: 44px;
         }
 
+        /* Power Duration Chart Container */
         .metabolic-simulator-widget .chart-box { 
-            height: 310px; 
+            height: 290px; 
             position: relative; 
             width: 100%; 
             min-width: 0;
@@ -272,60 +355,80 @@
 
         .metabolic-simulator-widget .badge {
             font-size: 0.68rem;
-            padding: 2px 5px;
+            padding: 2px 6px;
             border-radius: 4px;
             background: #334155;
             color: var(--atp-color);
-            font-weight: 600;
+            font-weight: 700;
         }
     </style>
 
-    <div class="dashboard">
-        <!-- VENSTRE PANEL: Kontroller -->
-        <div class="sidebar">
-            <div class="card">
-                <h2>1. Atletens Træningsprofil</h2>
-                
+    <!-- Fullscreen Knap -->
+    <button class="fullscreen-btn" id="btn-fullscreen" title="Skift til fuld skærm" aria-label="Fuld skærm">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+        </svg>
+    </button>
+
+    <div class="widget-top-bar">
+        <div class="widget-title">⚡ Metabolisk Arbejdssimulator</div>
+    </div>
+
+    <div class="layout-stack">
+        <!-- RÆKKE 1: Atletens Træningsprofil -->
+        <div class="card">
+            <div class="card-title">Atletens Træningsprofil</div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
                 <div class="control-group">
-                    <label>Anaerob Tærskel (FTP / CP) <span id="val-cp">250 W</span></label>
+                    <label>Anaerob Tærskel (FTP / CP) <span id="val-cp" style="color:var(--atp-color);">250 W</span></label>
                     <input type="range" id="input-cp" min="150" max="450" value="250" step="5">
                     <div style="display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--widget-muted);">
-                        <span>Zone 2 grænse: <b id="val-z2-max" style="color:#10b981;">188 W</b></span>
-                        <span>Grænse for syre</span>
+                        <span>Zone 2 max: <b id="val-z2-max" style="color:#10b981;">188 W</b></span>
+                        <span>Syretærskel (CP)</span>
                     </div>
                 </div>
 
-                <div class="control-group" style="margin-top: 10px;">
-                    <label>Anaerob Kapacitet (W') <span id="val-wprime">18 kJ</span></label>
+                <div class="control-group">
+                    <label>Anaerob Kapacitet (W') <span id="val-wprime" style="color:var(--anaerob-color);">18 kJ</span></label>
                     <input type="range" id="input-wprime" min="5" max="35" value="18" step="1">
-                    <small style="color: var(--widget-muted); font-size: 0.7rem;">Batteri til arbejde over tærskel</small>
+                    <div style="font-size: 0.7rem; color: var(--widget-muted);">
+                        Maksimal anaerob energireserve over CP
+                    </div>
                 </div>
             </div>
+        </div>
 
+        <!-- RÆKKE 2: Arbejdssimulator (Venstre) & Metabolisk Status (Højre) -->
+        <div class="row-grid-2">
+            <!-- VENSTRE: Arbejdssimulator -->
             <div class="card">
-                <h2>2. Arbejdssimulator</h2>
+                <div class="card-title">Arbejdssimulator</div>
                 
                 <div class="control-group">
                     <label>
-                        Mål-Effekt 
-                        <span><b id="val-target">350 W</b></span>
+                        Manuel Mål-Effekt 
+                        <span id="val-target" style="font-weight:800; color:var(--atp-color);">350 W</span>
                     </label>
                     <div style="margin-bottom: 4px;"><span id="badge-zone" class="badge">Zone 5 (VO2max)</span></div>
-                    <input type="range" id="input-target" min="50" max="1500" value="350" step="10">
+                    <input type="range" id="input-target" min="50" max="1200" value="350" step="10">
                     
                     <!-- 7-Zone Genveje -->
                     <div class="preset-btns">
-                        <button class="btn-preset" onclick="setPreset(0.45)">Z1 Rest.</button>
+                        <button class="btn-preset" onclick="setPreset(0.45)">Z1 Rest</button>
                         <button class="btn-preset" onclick="setPreset(0.70)">Z2 Base</button>
                         <button class="btn-preset" onclick="setPreset(1.00)">Z4 FTP</button>
                         <button class="btn-preset" onclick="setPreset(1.15)">Z5 VO2</button>
-                        <button class="btn-preset" onclick="setPreset(1.80)">Z7 Sprint</button>
+                        <button class="btn-preset" onclick="setPreset(2.00)">Z7 Sprint</button>
                     </div>
-                </div>
 
-                <div class="btn-group">
-                    <button class="btn btn-primary" id="btn-start">▶ Start</button>
-                    <button class="btn btn-secondary" id="btn-reset">↺ Nulstil</button>
+                    <!-- Forudprogrammerede Intervaller -->
+                    <div class="card-subtitle" style="margin-top:10px; margin-bottom:4px;">Strukturerede Intervalløb:</div>
+                    <div class="workout-btns">
+                        <button class="btn-workout" id="wk-4x4" onclick="startWorkout('4x4')">🏃 4x4 min VO2</button>
+                        <button class="btn-workout" id="wk-3030" onclick="startWorkout('3030')">⚡ 30/30 Sek</button>
+                        <button class="btn-workout" id="wk-sprint" onclick="startWorkout('sprint')">🔥 Sprint-Set</button>
+                    </div>
                 </div>
 
                 <!-- Hastigheds-vælger -->
@@ -339,19 +442,30 @@
                     </div>
                 </div>
 
+                <!-- Stopur Display (Placeret øverst) -->
+                <div class="stopwatch-container">
+                    <div class="stopwatch-digits" id="timer-text">00:00:00</div>
+                    <div class="stopwatch-mode" id="workout-phase-tag">Manuel Mode</div>
+                </div>
+
+                <!-- Start & Nulstil Knapper (Direkte under stopuret) -->
+                <div class="btn-group">
+                    <button class="btn btn-primary" id="btn-start">▶ Start</button>
+                    <button class="btn btn-secondary" id="btn-reset">↺ Nulstil</button>
+                </div>
+
                 <div class="status-box" id="status-text">
-                    Klar. Indstil intensitet og tryk på "Start".
+                    Klar. Indstil watt eller vælg et intervalpas og tryk "Start".
                 </div>
             </div>
-        </div>
 
-        <!-- HØJRE PANEL: Graf og Tanke -->
-        <div class="main-content">
+            <!-- HØJRE: Metabolisk Status -->
             <div class="card">
-                <h2>Metabolisk Status & Brændstof</h2>
+                <div class="card-title">Metabolisk Status & Tanke</div>
+                
                 <div class="tanks-container">
                     <div class="tank-wrapper">
-                        <h3>ATP-CP</h3>
+                        <div class="card-subtitle">ATP-CP</div>
                         <div class="tank-bar-outer">
                             <div class="tank-bar-inner" id="tank-atp" style="height: 100%;"></div>
                         </div>
@@ -359,7 +473,7 @@
                     </div>
 
                     <div class="tank-wrapper">
-                        <h3>Anaerob (W')</h3>
+                        <div class="card-subtitle">Anaerob ($W'$)</div>
                         <div class="tank-bar-outer">
                             <div class="tank-bar-inner" id="tank-wprime" style="height: 100%;"></div>
                         </div>
@@ -367,7 +481,7 @@
                     </div>
 
                     <div class="tank-wrapper">
-                        <h3>Aerob Tank</h3>
+                        <div class="card-subtitle">Aerob Tank</div>
                         <div class="tank-bar-outer">
                             <div class="tank-bar-inner" id="tank-aerob" style="height: 100%;"></div>
                         </div>
@@ -375,10 +489,10 @@
                     </div>
                 </div>
 
-                <!-- Mælkesyre / Affaldsstoffer -->
+                <!-- Mælkesyre / Affaldsstoffer (Sikret mod 2 linjer) -->
                 <div class="meter-container">
-                    <div style="display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--widget-text);">
-                        <span>Akkumuleret Mælkesyre / Træthed:</span>
+                    <div class="meter-header-line">
+                        <span>Mælkesyre / Træthed:</span>
                         <span id="txt-acid" style="font-weight: bold; color: var(--acid-color);">0%</span>
                     </div>
                     <div class="meter-bar-outer">
@@ -386,13 +500,13 @@
                     </div>
                 </div>
 
-                <!-- Brændstof-fordeling (Fedt vs Kulhydrat) -->
+                <!-- Brændstof-fordeling (Sikret mod 2 linjer) -->
                 <div class="meter-container">
-                    <div style="display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--widget-text);">
+                    <div class="meter-header-line">
                         <span>Brændstofmiks:</span>
-                        <span style="font-size:0.72rem;">
-                            <b style="color:var(--fat-color)" id="txt-fat">% Fedt</b> | 
-                            <b style="color:var(--carb-color)" id="txt-carb">% Sukker</b>
+                        <span style="font-size:0.72rem; white-space:nowrap;">
+                            <b style="color:var(--fat-color)" id="txt-fat">0% Fedt</b> | 
+                            <b style="color:var(--carb-color)" id="txt-carb">100% Sukker</b>
                         </span>
                     </div>
                     <div class="meter-bar-outer">
@@ -401,23 +515,23 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="card">
-                <h2>
-                    Power-Duration vs Reel Ydelse
-                    <span id="chart-live-status" style="font-size:0.72rem; font-weight:normal; color:var(--atp-color);">🟢 Live Ydelse</span>
-                </h2>
-                <div class="chart-box">
-                    <canvas id="pdChart"></canvas>
-                </div>
+        <!-- RÆKKE 3: Effekt & W' Graf -->
+        <div class="card">
+            <div class="card-title">Effekt & W' Reserve Over Tid</div>
+            <div class="chart-box">
+                <canvas id="pdChart"></canvas>
             </div>
         </div>
     </div>
 </div>
 
+</div>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    // --- FYSIOLOGISKE VARIABLER ---
+    // FYSIOLOGISKE VARIABLER
     let cp = 250;           
     let wPrimeMax = 18000;  
     let wPrimeCurrent = 18000;
@@ -432,7 +546,16 @@ document.addEventListener("DOMContentLoaded", function() {
     let simTime = 0;        
     let timerInterval = null;
 
-    // --- UI ELEMENTER ---
+    // Intervalløb Tilstand
+    let activeWorkoutType = null;
+    let workoutSchedule = [];
+    let currentWorkoutStep = 0;
+    let stepTimeRemaining = 0;
+
+    // UI ELEMENTER
+    const rootWidget = document.getElementById('metabolic-widget-root');
+    const btnFullscreen = document.getElementById('btn-fullscreen');
+
     const inputCp = document.getElementById('input-cp');
     const inputWprime = document.getElementById('input-wprime');
     const inputTarget = document.getElementById('input-target');
@@ -457,57 +580,61 @@ document.addEventListener("DOMContentLoaded", function() {
     const txtFat = document.getElementById('txt-fat');
     const txtCarb = document.getElementById('txt-carb');
     const statusText = document.getElementById('status-text');
+    const timerText = document.getElementById('timer-text');
+    const workoutPhaseTag = document.getElementById('workout-phase-tag');
 
     const btnStart = document.getElementById('btn-start');
     const btnReset = document.getElementById('btn-reset');
 
-    // Tids-punkter på X-aksen i sekunder
-    const durationSeconds = [5, 15, 30, 60, 120, 300, 600, 1200, 1800, 3600];
-    const durationLabels = ['5s', '15s', '30s', '1m', '2m', '5m', '10m', '20m', '30m', '1t'];
+    // FULLSCREEN TOGGLE
+    btnFullscreen.addEventListener('click', () => {
+        if (!document.fullscreenElement) {
+            if (rootWidget.requestFullscreen) rootWidget.requestFullscreen();
+            else if (rootWidget.webkitRequestFullscreen) rootWidget.webkitRequestFullscreen();
+        } else {
+            if (document.exitFullscreen) document.exitFullscreen();
+        }
+    });
 
-    // --- REALISTISK CAP FOR WATT (Pmax cap på ~1200-1400W i stedet for 4000W) ---
-    function generatePDData() {
-        // En typisk rytter med CP=250W har maks eksplosiv sprint (Pmax) på ca. 1100-1300W
-        let pMax = Math.round(cp * 4.2 + (wPrimeMax / 1000) * 10); 
-        pMax = Math.min(1500, Math.max(800, pMax)); // Capped realistisk
+    // GRAF SETUP (Linear X-Aksis med Dynamic Max Time)
+    let maxTimeAxis = 3600; // Standard 60 minutter
+    let powerHistory = [{ x: 0, y: targetPower }];
+    let wPrimeHistory = [{ x: 0, y: 100 }];
 
-        return durationSeconds.map(t => {
-            let pCalc = cp + (wPrimeMax / t);
-            return Math.round(Math.min(pMax, pCalc));
-        });
-    }
-
-    // Array til at gemme historikken over den REELLE ydede effekt under simulationen
-    let actualPowerHistory = new Array(durationSeconds.length).fill(null);
-
-    // --- CHART.JS SETUP ---
     const ctx = document.getElementById('pdChart').getContext('2d');
 
     const pdChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: durationLabels,
             datasets: [
                 {
-                    label: 'Teoretisk Maksimal Kapacitet',
-                    data: generatePDData(),
-                    borderColor: '#38bdf8',
-                    backgroundColor: 'rgba(56, 189, 248, 0.08)',
+                    label: 'CP Tærskel (Watt)',
+                    data: [{ x: 0, y: cp }, { x: maxTimeAxis, y: cp }],
+                    borderColor: '#10b981',
                     borderWidth: 2,
-                    fill: true,
-                    tension: 0.25,
-                    pointRadius: 2
+                    borderDash: [6, 4],
+                    pointRadius: 0,
+                    yAxisID: 'y'
                 },
                 {
-                    label: 'Reel Ydet Effekt (Live Track)',
-                    data: actualPowerHistory,
+                    label: 'Ydet Effekt (Watt)',
+                    data: powerHistory,
                     borderColor: '#ef4444',
-                    backgroundColor: 'rgba(239, 68, 68, 0.2)',
-                    borderWidth: 3,
-                    pointRadius: 5,
-                    pointBackgroundColor: '#ef4444',
-                    showLine: true,
-                    tension: 0.1
+                    backgroundColor: 'rgba(239, 68, 68, 0.15)',
+                    borderWidth: 2.5,
+                    stepped: 'after',
+                    pointRadius: 0,
+                    fill: true,
+                    yAxisID: 'y'
+                },
+                {
+                    label: "Resterende W' Tank (%)",
+                    data: wPrimeHistory,
+                    borderColor: '#f59e0b',
+                    borderWidth: 2,
+                    borderDash: [3, 3],
+                    pointRadius: 0,
+                    yAxisID: 'y1'
                 }
             ]
         },
@@ -516,16 +643,37 @@ document.addEventListener("DOMContentLoaded", function() {
             maintainAspectRatio: false,
             animation: false,
             scales: {
-                y: {
-                    grid: { color: '#334155' },
-                    ticks: { color: '#94a3b8' },
-                    title: { display: true, text: 'Effekt (Watt)', color: '#94a3b8' },
-                    suggestedMax: 1400 // Forhindrer at den skalerer helt vildt op
-                },
                 x: {
+                    type: 'linear',
+                    min: 0,
+                    max: maxTimeAxis,
+                    grid: { color: '#334155' },
+                    ticks: {
+                        color: '#94a3b8',
+                        stepSize: 600, // Hvert 10. minut
+                        callback: function(val) {
+                            return Math.round(val / 60) + 'm';
+                        }
+                    },
+                    title: { display: true, text: 'Tid (Minutter)', color: '#94a3b8' }
+                },
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    min: 0,
+                    suggestedMax: 600,
                     grid: { color: '#334155' },
                     ticks: { color: '#94a3b8' },
-                    title: { display: true, text: 'Varighed', color: '#94a3b8' }
+                    title: { display: true, text: 'Effekt (Watt)', color: '#94a3b8' }
+                },
+                y1: {
+                    type: 'linear',
+                    position: 'right',
+                    min: 0,
+                    max: 100,
+                    grid: { drawOnChartArea: false },
+                    ticks: { color: '#f59e0b', callback: v => v + '%' },
+                    title: { display: true, text: "W' Reserve (%)", color: '#f59e0b' }
                 }
             },
             plugins: {
@@ -534,39 +682,19 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    // Opdaterer live spor af den reelt ydede effekt på grafen
-    function updateLiveChartPoint() {
-        if (simTime <= 0) {
-            actualPowerHistory = new Array(durationSeconds.length).fill(null);
-            pdChart.data.datasets[1].data = actualPowerHistory;
-            pdChart.update('none');
-            return;
-        }
-
-        // Find det matchende punkt på X-aksens tids-skala
-        let activeIdx = 0;
-        for (let i = 0; i < durationSeconds.length; i++) {
-            if (simTime >= durationSeconds[i]) {
-                activeIdx = i;
-            }
-        }
+    // RENT STOPUR FORMAT (HH:MM:SS)
+    function formatStopwatch(seconds) {
+        let hrs = Math.floor(seconds / 3600);
+        let mins = Math.floor((seconds % 3600) / 60);
+        let secs = Math.floor(seconds % 60);
         
-        // Gem den nuværende ydede effekt i historik-arrayet op til aktiv tid
-        actualPowerHistory[activeIdx] = currentPower;
-        
-        // Udfyld også punkter op til aktiv tid hvis de var tomme
-        for (let j = 0; j < activeIdx; j++) {
-            if (actualPowerHistory[j] === null) {
-                actualPowerHistory[j] = targetPower;
-            }
-        }
-
-        pdChart.data.datasets[1].data = actualPowerHistory;
-        pdChart.update('none');
+        let p = n => String(n).padStart(2, '0');
+        return `${p(hrs)}:${p(mins)}:${p(secs)}`;
     }
 
-    // --- 7-ZONE LOGIK ---
+    // PRESET KNAPPER
     window.setPreset = function(ratio) {
+        cancelWorkout();
         let watts = Math.round(cp * ratio);
         inputTarget.value = watts;
         updateInputs();
@@ -577,6 +705,65 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelectorAll('.metabolic-simulator-widget .speed-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
     };
+
+    // WORKOUT PRESETS
+    window.startWorkout = function(type) {
+        cancelWorkout();
+        activeWorkoutType = type;
+
+        document.querySelectorAll('.btn-workout').forEach(b => b.classList.remove('active-workout'));
+
+        if (type === '4x4') {
+            document.getElementById('wk-4x4').classList.add('active-workout');
+            workoutSchedule = [
+                { dur: 180, pwrPct: 0.50, name: "Opvarmning" },
+                { dur: 240, pwrPct: 1.15, name: "Interval 1/4 (VO2max)" },
+                { dur: 180, pwrPct: 0.50, name: "Aktiv Pause" },
+                { dur: 240, pwrPct: 1.15, name: "Interval 2/4 (VO2max)" },
+                { dur: 180, pwrPct: 0.50, name: "Aktiv Pause" },
+                { dur: 240, pwrPct: 1.15, name: "Interval 3/4 (VO2max)" },
+                { dur: 180, pwrPct: 0.50, name: "Aktiv Pause" },
+                { dur: 240, pwrPct: 1.15, name: "Interval 4/4 (VO2max)" },
+                { dur: 300, pwrPct: 0.45, name: "Afrulning" }
+            ];
+        } else if (type === '3030') {
+            document.getElementById('wk-3030').classList.add('active-workout');
+            workoutSchedule = [{ dur: 120, pwrPct: 0.50, name: "Opvarmning" }];
+            for (let i = 1; i <= 8; i++) {
+                workoutSchedule.push({ dur: 30, pwrPct: 1.35, name: `Sprint ${i}/8` });
+                workoutSchedule.push({ dur: 30, pwrPct: 0.50, name: "Pause" });
+            }
+            workoutSchedule.push({ dur: 180, pwrPct: 0.45, name: "Afrulning" });
+        } else if (type === 'sprint') {
+            document.getElementById('wk-sprint').classList.add('active-workout');
+            workoutSchedule = [{ dur: 120, pwrPct: 0.50, name: "Opvarmning" }];
+            for (let i = 1; i <= 4; i++) {
+                workoutSchedule.push({ dur: 15, pwrPct: 2.20, name: `Max Sprint ${i}/4` });
+                workoutSchedule.push({ dur: 75, pwrPct: 0.40, name: "Gendannelse" });
+            }
+            workoutSchedule.push({ dur: 180, pwrPct: 0.45, name: "Afrulning" });
+        }
+
+        currentWorkoutStep = 0;
+        stepTimeRemaining = workoutSchedule[0].dur;
+        applyWorkoutStep();
+    };
+
+    function cancelWorkout() {
+        activeWorkoutType = null;
+        workoutSchedule = [];
+        document.querySelectorAll('.btn-workout').forEach(b => b.classList.remove('active-workout'));
+        workoutPhaseTag.textContent = "Manuel Mode";
+    }
+
+    function applyWorkoutStep() {
+        if (!activeWorkoutType || currentWorkoutStep >= workoutSchedule.length) return;
+        let step = workoutSchedule[currentWorkoutStep];
+        let targetW = Math.round(cp * step.pwrPct);
+        inputTarget.value = targetW;
+        workoutPhaseTag.textContent = step.name;
+        updateInputs();
+    }
 
     function updateInputs() {
         cp = parseInt(inputCp.value);
@@ -602,7 +789,7 @@ document.addEventListener("DOMContentLoaded", function() {
             badgeZone.textContent = "Zone 3 (Tempo)";
             badgeZone.style.color = "#38bdf8";
         } else if (ratio <= 1.05) {
-            badgeZone.textContent = "Zone 4 (Tærskel / FTP)";
+            badgeZone.textContent = "Zone 4 (Syretærskel / FTP)";
             badgeZone.style.color = "#f59e0b";
         } else if (ratio <= 1.20) {
             badgeZone.textContent = "Zone 5 (VO2max)";
@@ -628,26 +815,54 @@ document.addEventListener("DOMContentLoaded", function() {
         txtFat.textContent = fatPct + '% Fedt';
         txtCarb.textContent = carbPct + '% Sukker';
 
+        // Opdater CP Linje på Grafen
+        pdChart.data.datasets[0].data = [{ x: 0, y: cp }, { x: maxTimeAxis, y: cp }];
+
         if (!isRunning && simTime === 0) {
             wPrimeCurrent = wPrimeMax;
+            powerHistory[0] = { x: 0, y: targetPower };
             updateVisuals();
         }
 
-        pdChart.data.datasets[0].data = generatePDData();
         pdChart.update('none');
     }
 
-    // --- SIMULATIONS LOGIK (MED INTERVALLER & RESTITUTION) ---
+    // FYSIOLOGISK SIMULATIONS LOGIK
     function tick() {
         simTime += (1 * speedMultiplier);
+        timerText.textContent = formatStopwatch(simTime);
 
+        // Udvid tidsaksen dynamisk hvis tiden går over 1 time
+        if (simTime > maxTimeAxis) {
+            maxTimeAxis = Math.ceil((simTime + 1) / 1800) * 1800; // Tilføjer 30 min ad gangen
+            pdChart.options.scales.x.max = maxTimeAxis;
+            pdChart.data.datasets[0].data = [{ x: 0, y: cp }, { x: maxTimeAxis, y: cp }];
+        }
+
+        // HÅNDTER WORKOUT SCHEDULE
+        if (activeWorkoutType && workoutSchedule.length > 0) {
+            stepTimeRemaining -= (1 * speedMultiplier);
+            if (stepTimeRemaining <= 0) {
+                currentWorkoutStep++;
+                if (currentWorkoutStep < workoutSchedule.length) {
+                    stepTimeRemaining = workoutSchedule[currentWorkoutStep].dur;
+                    applyWorkoutStep();
+                } else {
+                    cancelWorkout();
+                    statusText.innerHTML = "🏁 <span style='color:#10b981; font-weight:bold;'>Intervalløb Fuldført!</span> Godt kørt!";
+                }
+            }
+        }
+
+        // FYSIOLOGISK BEHANDLING
         if (targetPower > cp) {
-            // ARBEJDE OVER TÆRSKEL (Dræner W' og ATP-CP)
             let surplusPower = targetPower - cp; 
 
-            // Eksplosivt ATP-CP forbrug ved sprint (>130% CP)
-            if (targetPower > cp * 1.3 && atpCurrent > 0) {
-                atpCurrent = Math.max(0, atpCurrent - (2.5 * speedMultiplier)); 
+            // ATP-CP Drænes kun ved eksplosiv sprint (>180% CP)
+            if (targetPower >= cp * 1.8) {
+                atpCurrent = Math.max(0, atpCurrent - (3.0 * speedMultiplier));
+            } else {
+                if (atpCurrent > 90) atpCurrent -= (0.2 * speedMultiplier);
             }
 
             // Dræn W' tanken
@@ -657,52 +872,46 @@ document.addEventListener("DOMContentLoaded", function() {
             let usedPercent = (1 - (wPrimeCurrent / wPrimeMax));
             acidLevel = Math.min(100, Math.round(usedPercent * 100));
 
-            // UDMARTELSE - W' tømt!
+            // UDMATTELSE - W' tømt!
             if (wPrimeCurrent <= 0) {
                 wPrimeCurrent = 0;
-                currentPower = cp; // Tvunget fald i effekt direkte til CP!
-                
-                let mins = Math.floor(simTime / 60);
-                let secs = Math.floor(simTime % 60);
-                let timeStr = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`;
+                currentPower = cp; 
 
-                statusText.innerHTML = `<span style="color: var(--acid-color); font-weight:bold;">⚠️ UDMARTELSE (${timeStr})!</span> $W'$-tanken er tom! Ydelsen falder til <b>${cp}W (CP)</b>. Sæt effekten ned (<${Math.round(cp*0.75)}W) eller hold pause for at fylde tanken op igen!`;
+                statusText.innerHTML = `<span style="color: var(--acid-color); font-weight:bold;">⚠️ UDMATTELSE!</span> $W'$-tanken er tom! Ydelsen falder til <b>${cp}W (CP)</b>. Sæt effekten ned for at genopfylde tanken!`;
             } else {
                 currentPower = targetPower;
-                let mins = Math.floor(simTime / 60);
-                let secs = Math.floor(simTime % 60);
-                let timeStr = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`;
-                statusText.innerHTML = `⏱️ Tid: <b>${timeStr}</b> | Yder: <b>${currentPower}W</b>.<br>Forbrænder $W'$-reserve.`;
+                let phaseInfo = activeWorkoutType ? `[${workoutSchedule[currentWorkoutStep].name}] ` : "";
+                statusText.innerHTML = `${phaseInfo}Yder: <b>${currentPower}W</b>.<br>Forbrænder $W'$-reserve.`;
             }
 
         } else {
-            // ARBEJDE UNDER TÆRSKEL ELLER PAUSE (RESTITUTION & GENOPFYLDNING)
+            // RESTITUTION UNDER CP
             currentPower = targetPower;
 
-            // Genopfyld W' når effekten er under CP
             if (wPrimeCurrent < wPrimeMax) {
-                let recoveryRate = (cp - targetPower) * 0.25 * speedMultiplier; 
+                let recoveryRate = (cp - targetPower) * 0.28 * speedMultiplier; 
                 wPrimeCurrent = Math.min(wPrimeMax, wPrimeCurrent + recoveryRate);
             }
 
-            // Genopfyld ATP-CP og reducer mælkesyre
-            acidLevel = Math.max(0, acidLevel - (2.0 * speedMultiplier));
-            atpCurrent = Math.min(100, atpCurrent + (4.0 * speedMultiplier));
-
-            let mins = Math.floor(simTime / 60);
-            let secs = Math.floor(simTime % 60);
-            let timeStr = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`;
+            acidLevel = Math.max(0, acidLevel - (2.5 * speedMultiplier));
+            atpCurrent = Math.min(100, atpCurrent + (3.5 * speedMultiplier));
 
             let wPct = Math.round((wPrimeCurrent / wPrimeMax) * 100);
+            let phaseInfo = activeWorkoutType ? `[${workoutSchedule[currentWorkoutStep].name}] ` : "";
+            
             if (wPct < 100) {
-                statusText.innerHTML = `⏱️ Tid: <b>${timeStr}</b> | Yder: <b>${currentPower}W</b>.<br>🔋 <span style="color:#10b981;">Restituerer!</span> $W'$-tank genopfyldes (${wPct}%). Sæt watt op for næste interval!`;
+                statusText.innerHTML = `${phaseInfo}Yder: <b>${currentPower}W</b>.<br>🔋 <span style="color:#10b981;">Restituerer!</span> $W'$-tank genopfyldes (${wPct}%).`;
             } else {
-                statusText.innerHTML = `⏱️ Tid: <b>${timeStr}</b> | Yder: <b>${currentPower}W</b> (Aerob). Tankene er helt fulde!`;
+                statusText.innerHTML = `${phaseInfo}Yder: <b>${currentPower}W</b> (Aerob). Tankene er helt fulde!`;
             }
         }
 
+        // Gem live datapunkter på grafen
+        powerHistory.push({ x: simTime, y: currentPower });
+        wPrimeHistory.push({ x: simTime, y: Math.round((wPrimeCurrent / wPrimeMax) * 100) });
+
         updateVisuals();
-        updateLiveChartPoint();
+        pdChart.update('none');
     }
 
     function updateVisuals() {
@@ -714,7 +923,7 @@ document.addEventListener("DOMContentLoaded", function() {
         tankWprime.style.height = wPrimePct + '%';
         txtWprime.textContent = wPrimePct + '%';
 
-        let aerobPct = Math.max(10, 100 - Math.floor(simTime / 180));
+        let aerobPct = Math.max(10, 100 - Math.floor(simTime / 240));
         tankAerob.style.height = aerobPct + '%';
         txtAerob.textContent = aerobPct + '%';
 
@@ -722,10 +931,13 @@ document.addEventListener("DOMContentLoaded", function() {
         txtAcid.textContent = acidLevel + '%';
     }
 
-    // --- EVENT LISTENERS ---
-    inputCp.addEventListener('input', updateInputs);
-    inputWprime.addEventListener('input', updateInputs);
-    inputTarget.addEventListener('input', updateInputs);
+    // EVENT LISTENERS
+    inputCp.addEventListener('input', () => { updateInputs(); });
+    inputWprime.addEventListener('input', () => { updateInputs(); });
+    inputTarget.addEventListener('input', () => { 
+        cancelWorkout(); 
+        updateInputs(); 
+    });
 
     btnStart.addEventListener('click', () => {
         if (!isRunning) {
@@ -745,16 +957,25 @@ document.addEventListener("DOMContentLoaded", function() {
         isRunning = false;
         clearInterval(timerInterval);
         simTime = 0;
+        maxTimeAxis = 3600;
         wPrimeCurrent = wPrimeMax;
         atpCurrent = 100;
         acidLevel = 0;
-        actualPowerHistory = new Array(durationSeconds.length).fill(null);
+        cancelWorkout();
+        
+        powerHistory = [{ x: 0, y: targetPower }];
+        wPrimeHistory = [{ x: 0, y: 100 }];
+        
+        pdChart.options.scales.x.max = maxTimeAxis;
+        pdChart.data.datasets[1].data = powerHistory;
+        pdChart.data.datasets[2].data = wPrimeHistory;
+
         btnStart.textContent = '▶ Start';
         btnStart.style.background = 'var(--atp-color)';
-        statusText.innerHTML = 'Klar. Indstil intensitet og tryk på "Start".';
+        timerText.textContent = "00:00:00";
+        statusText.innerHTML = 'Klar. Indstil watt eller vælg et intervalpas og tryk "Start".';
         updateInputs();
         updateVisuals();
-        updateLiveChartPoint();
     });
 
     updateInputs();

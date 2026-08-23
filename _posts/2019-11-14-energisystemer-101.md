@@ -17,6 +17,28 @@ tags:
 - aerob træning
 last_modified_at: '2020-03-06T23:14:14Z'
 toc: 'true'
+sorting_matrices:
+  energisystemer:
+    title: "⚡ Aerob vs. Anaerob Energiomsætning"
+    description: "Sorter udsagnene under det rette energisystem."
+    auto_scramble: true
+    columns:
+      - id: "aerob"
+        title: "Aerob (Med ilt)"
+        subtitle: "Udholdenhed & Fedtforbrænding"
+        color_class: "bg-green"
+        items:
+          - "Foregår inde i cellernes mitokondrier"
+          - "Primær energikilde under roligt og moderat arbejde"
+          - "Danner CO2 og vand som affaldsprodukter"
+      - id: "anaerob"
+        title: "Anaerob (Uden ilt)"
+        subtitle: "Eksplosiv & Mælkesyre"
+        color_class: "bg-red"
+        items:
+          - "Foregår i cellernes cytoplasma"
+          - "Skaber hurtig energi (ATP/CP og spaltning af glykogen)"
+          - "Danner laktat (mælkesyre) ved høj intensitet"
 ---
 
 Man hører ofte om træning af det aerobe og det anaerobe energisystem. Jeg har siddet og researchet lidt på forskellen på anaerob og aerob træning, og hvordan du træner de aerobe og anaerobe energissystemer?
@@ -293,6 +315,10 @@ Når man træner det aerobe og anaerobe system, så er det godt at skelne mellem
 ## Mere om energisystemer
 
 Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/) og [hvor hurtigt du kan forbedre dit kondital](/hvor-hurtigt-mister-form-kondition/). Vi har også skrevet om [HIIT-træning eller højintensive intervaller](/hiit/). Tjek også vores indlæg om [anaerob træning](/anaerob-traening/).
+
+## Test dig selv
+
+{% include components/sorting-matrix.html matrix=page.sorting_matrices.energisystemer id="matrix-energisystmer" %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -1,0 +1,369 @@
+{% assign matrix = include.matrix %}
+{% assign col_count = matrix.columns.size %}
+{% assign widget_id = include.id | default: "sort-widget-default" %}
+{% assign auto_scramble = matrix.auto_scramble | default: include.auto_scramble | default: false %}
+
+<!-- INTERAKTIV SORTERINGSMATRIX (SEO-PRÆRENDERET) -->
+<div class="mp-sort-card" id="{{ widget_id }}" data-auto-scramble="{{ auto_scramble }}">
+
+  <div class="mp-sort-header">
+    <h3>{{ matrix.title | default: "🧠 Test din viden: Sorter udsagnene korrekt" }}</h3>
+    <p>{{ matrix.description | default: "Klik på et udsagn i puljen forneden og placer det i den rette kategori." }}</p>
+  </div>
+
+  <!-- BROWSER/MOBILES STYRINGS-KNAPPER -->
+  <div class="mp-sort-actions">
+    <button type="button" class="mp-sort-btn btn-scramble">
+      🔀 Bland og start test
+    </button>
+    <button type="button" class="mp-sort-btn btn-solve">
+      ✨ Vis Facit
+    </button>
+  </div>
+
+  <!-- UDSAGNS-PULJE -->
+  <div class="mp-pool-container" style="display: none;">
+    <div class="mp-pool-title">Udsagn til sortering (Klik for at vælge):</div>
+    <div class="mp-pool-box"></div>
+  </div>
+
+  <!-- KATEGORI-KOLONNER -->
+  <div class="mp-sort-columns-grid cols-{{ col_count }}">
+    {% for col in matrix.columns %}
+      <div class="mp-sort-col" data-col-id="{{ col.id }}">
+        <div class="mp-col-header {{ col.color_class | default: 'bg-blue' }}">
+          <h4>{{ col.title }}</h4>
+          {% if col.subtitle %}<span class="mp-col-sub">{{ col.subtitle }}</span>{% endif %}
+        </div>
+        <div class="mp-col-dropzone" id="dz-{{ widget_id }}-{{ col.id }}">
+          {% for item in col.items %}
+            <div class="mp-sort-item" data-correct-col="{{ col.id }}">
+              <span class="mp-item-text">{{ item }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- FEEDBACK STATUS -->
+  <div class="mp-sort-feedback" style="display: none;"></div>
+
+</div>
+
+<style>
+  .mp-sort-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin: 1.75rem 0;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+    font-family: inherit;
+  }
+
+  .mp-sort-header h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.1rem;
+    color: #0f172a;
+    font-weight: 800;
+  }
+  .mp-sort-header p {
+    margin: 0 0 1rem 0;
+    font-size: 0.85rem;
+    color: #64748b;
+    line-height: 1.35;
+  }
+
+  .mp-sort-actions {
+    display: flex;
+    gap: 0.65rem;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .mp-sort-btn {
+    padding: 0.45rem 0.85rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    border: none;
+  }
+
+  .btn-scramble {
+    background: #2563eb;
+    color: #ffffff;
+  }
+  .btn-scramble:hover {
+    background: #1d4ed8;
+  }
+
+  .btn-solve {
+    background: #f1f5f9;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+  }
+  .btn-solve:hover {
+    background: #e2e8f0;
+    color: #0f172a;
+  }
+
+  .mp-pool-container {
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 8px;
+    padding: 0.85rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-pool-title {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 0.6rem;
+  }
+
+  .mp-pool-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    min-height: 50px;
+  }
+
+  .mp-sort-columns-grid {
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  .mp-sort-columns-grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+  .mp-sort-columns-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .mp-sort-columns-grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+
+  @media (max-width: 720px) {
+    .mp-sort-columns-grid.cols-4,
+    .mp-sort-columns-grid.cols-3,
+    .mp-sort-columns-grid.cols-2 {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .mp-sort-col {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .mp-col-header {
+    padding: 0.6rem 0.75rem;
+    color: #ffffff;
+  }
+  .mp-col-header h4 {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 800;
+  }
+  .mp-col-sub {
+    font-size: 0.675rem;
+    opacity: 0.9;
+  }
+
+  .bg-blue { background: #2563eb; }
+  .bg-orange { background: #ea580c; }
+  .bg-red { background: #dc2626; }
+  .bg-green { background: #16a34a; }
+  .bg-purple { background: #9333ea; }
+
+  .mp-col-dropzone {
+    padding: 0.6rem;
+    flex-grow: 1;
+    min-height: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #fafafa;
+  }
+
+  .mp-sort-item {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 0.55rem 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #1e293b;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+  }
+
+  .mp-sort-item:hover {
+    border-color: #2563eb;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(37, 99, 235, 0.1);
+  }
+
+  .mp-sort-item.selected {
+    border: 2px solid #2563eb;
+    background: #eff6ff;
+  }
+
+  .mp-sort-item.correct {
+    border-color: #22c55e;
+    background: #f0fdf4;
+    color: #15803d;
+  }
+
+  .mp-sort-item.wrong {
+    border-color: #ef4444;
+    background: #fef2f2;
+    color: #991b1b;
+  }
+
+  .mp-sort-feedback {
+    margin-top: 1rem;
+    padding: 0.75rem 0.9rem;
+    border-radius: 6px;
+    font-size: 0.825rem;
+    line-height: 1.4;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const card = document.getElementById('{{ widget_id }}');
+    if (!card) return;
+
+    const poolWrap = card.querySelector('.mp-pool-container');
+    const pool = card.querySelector('.mp-pool-box');
+    const columns = card.querySelectorAll('.mp-sort-col');
+    const items = Array.from(card.querySelectorAll('.mp-sort-item'));
+
+    const btnScramble = card.querySelector('.btn-scramble');
+    const btnSolve = card.querySelector('.btn-solve');
+    const feedback = card.querySelector('.mp-sort-feedback');
+
+    const autoScramble = card.getAttribute('data-auto-scramble') === 'true';
+
+    let selectedItem = null;
+    let isScrambled = false;
+
+    // BLAND OG START TEST
+    function scrambleItems() {
+      isScrambled = true;
+      poolWrap.style.display = 'block';
+      feedback.style.display = 'none';
+
+      items.forEach(item => {
+        item.classList.remove('correct', 'wrong', 'selected');
+      });
+
+      // Fisher-Yates Bland algoritme
+      const shuffled = [...items].sort(() => Math.random() - 0.5);
+
+      pool.innerHTML = '';
+      shuffled.forEach(item => pool.appendChild(item));
+
+      btnScramble.textContent = '🔄 Bland igen';
+    }
+
+    // VIS FACIT (SPRING PÅ PLADS)
+    function solveAll() {
+      isScrambled = false;
+      poolWrap.style.display = 'none';
+
+      items.forEach(item => {
+        const correctColId = item.getAttribute('data-correct-col');
+        const targetDz = card.querySelector('#dz-{{ widget_id }}-' + correctColId);
+        if (targetDz) {
+          targetDz.appendChild(item);
+          item.classList.remove('selected', 'wrong');
+          item.classList.add('correct');
+        }
+      });
+
+      feedback.style.display = 'block';
+      feedback.style.background = '#f0fdf4';
+      feedback.style.border = '1px solid #bbf7d0';
+      feedback.style.color = '#166534';
+      feedback.innerHTML = '<strong>✨ Facit opstillet!</strong> Alle udsagn er placeret korrekt i deres respektive kategorier.';
+    }
+
+    // MOBILVENLIG KLIK-OG-PLACER
+    items.forEach(item => {
+      item.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (!isScrambled) return;
+
+        if (selectedItem === item) {
+          item.classList.remove('selected');
+          selectedItem = null;
+        } else {
+          items.forEach(i => i.classList.remove('selected'));
+          item.classList.add('selected');
+          selectedItem = item;
+        }
+      });
+    });
+
+    columns.forEach(col => {
+      col.addEventListener('click', () => {
+        if (!isScrambled || !selectedItem) return;
+
+        const targetDz = col.querySelector('.mp-col-dropzone');
+        const colId = col.getAttribute('data-col-id');
+        const correctColId = selectedItem.getAttribute('data-correct-col');
+
+        targetDz.appendChild(selectedItem);
+        selectedItem.classList.remove('selected');
+
+        if (colId === correctColId) {
+          selectedItem.classList.add('correct');
+          selectedItem.classList.remove('wrong');
+        } else {
+          selectedItem.classList.add('wrong');
+          selectedItem.classList.remove('correct');
+        }
+
+        selectedItem = null;
+        checkCompletion();
+      });
+    });
+
+    function checkCompletion() {
+      if (pool.children.length === 0) {
+        const totalCorrect = card.querySelectorAll('.mp-sort-item.correct').length;
+        const totalItems = items.length;
+
+        feedback.style.display = 'block';
+        if (totalCorrect === totalItems) {
+          feedback.style.background = '#f0fdf4';
+          feedback.style.border = '1px solid #bbf7d0';
+          feedback.style.color = '#166534';
+          feedback.innerHTML = `<strong>🎉 Bravo! Alle ${totalCorrect} af ${totalItems} udsagn er placeret 100% korrekt!</strong>`;
+        } else {
+          feedback.style.background = '#ffedd5';
+          feedback.style.border = '1px solid #fdba74';
+          feedback.style.color = '#9a3412';
+          feedback.innerHTML = `<strong>Du ramte ${totalCorrect} ud af ${totalItems} rigtige.</strong> Tryk på "Vis Facit" for at se den helt korrekte opstilling.`;
+        }
+      }
+    }
+
+    btnScramble.addEventListener('click', scrambleItems);
+    btnSolve.addEventListener('click', solveAll);
+
+    // AUTOMATISK BLANDING VED LÆSNING HVIS INDSTILLET
+    if (autoScramble) {
+      scrambleItems();
+    }
+  });
+</script>
