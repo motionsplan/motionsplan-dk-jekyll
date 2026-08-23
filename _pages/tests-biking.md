@@ -27,7 +27,7 @@ For cykelryttere og triatleter er FTP-testen det vigtigste redskab til at bestem
 
 <div class="notice--info" markdown="1">
 
-**Vælg den rette FTP-test:**
+**[Vælg den rette FTP-test](/ftp-test/) fremhæver:**
 
 * 🚴‍♂️ **[20-minutters FTP-test](/ftp-test/)** – *Guldstandarden:* Kør alt hvad du kan i 20 minutter på hometrainer eller landevej. Kræver god pace-styring, men giver den mest præcise beregning af din FTP.
 * 📈 **[Ramp Test (Trappetest på cykel)](/trappetest-cykel/)** – *Hurtig og udmattende:* Belastningen stiger automatisk med et fast antal watt hvert minut indtil udmattelse. Kræver ingen pacing og er overstået på 10-15 minutter.
@@ -48,7 +48,7 @@ Brug søgeboksen eller filtrér på knapperne for hurtigt at finde den specifikk
 
 ---
 
-## Konditionstests & VO2max (Iltoptagelse)
+## Konditionstests & VO2max (iltoptagelse)
 
 Vil du kende dit generelle helbreds-kondital eller din [maksimale iltoptagelse (VO₂max)](/maksimale-iltoptagelse-vo2max/)? Valget af test afhænger af, hvor hårdt du vil belaste kroppen:
 
