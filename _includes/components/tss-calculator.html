@@ -1,0 +1,474 @@
+<!-- DYNAMISK MULTI-SPORT TSS BEREGNER -->
+<div class="mp-tss-card">
+  
+  <div class="mp-tss-header">
+    <h3>🧮 Multi-Sport TSS Beregner (Watt, Løb & Puls)</h3>
+    <p>Vælg din datakilde og beregn din præcise Training Stress Score (TSS) samt restitutionsbehov.</p>
+  </div>
+
+  <!-- MULTI-SPORT TABS (FANEBLADE) -->
+  <div class="mp-tss-tabs">
+    <button type="button" class="mp-tss-tab active" id="tab-watt">🚴‍♂️ Cykling (Watt TSS)</button>
+    <button type="button" class="mp-tss-tab" id="tab-run">🏃‍♂️ Løb (rTSS)</button>
+    <button type="button" class="mp-tss-tab" id="tab-hr">🫀 Puls (hrTSS)</button>
+  </div>
+
+  <!-- 1. CYKLING (WATT) INPUTS -->
+  <div class="mp-tss-panel" id="panel-watt">
+    <div class="mp-tss-input-grid">
+      <div class="mp-tss-group">
+        <label for="w-ftp">Din FTP (Watt):</label>
+        <input type="number" id="w-ftp" value="250" min="50" max="600" step="5">
+      </div>
+
+      <div class="mp-tss-group">
+        <label for="w-np">Normalized Power / NP (Watt):</label>
+        <input type="number" id="w-np" value="215" min="50" max="700" step="5">
+      </div>
+
+      <div class="mp-tss-group">
+        <label for="w-dur">Varighed (minutter):</label>
+        <input type="number" id="w-dur" value="90" min="5" max="600" step="5">
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. LØB (rTSS) INPUTS -->
+  <div class="mp-tss-panel" style="display: none;" id="panel-run">
+    <div class="mp-tss-input-grid">
+      <div class="mp-tss-group">
+        <label for="r-thresh-min">Tærskeltempo (min:sek /km):</label>
+        <div class="mp-time-wrap">
+          <input type="number" id="r-thresh-min" value="4" min="2" max="10"> :
+          <input type="number" id="r-thresh-sec" value="15" min="0" max="59">
+        </div>
+      </div>
+
+      <div class="mp-tss-group">
+        <label for="r-pace-min">Pas-tempo / NGP (min:sek /km):</label>
+        <div class="mp-time-wrap">
+          <input type="number" id="r-pace-min" value="4" min="2" max="10"> :
+          <input type="number" id="r-pace-sec" value="45" min="0" max="59">
+        </div>
+      </div>
+
+      <div class="mp-tss-group">
+        <label for="r-dur">Varighed (minutter):</label>
+        <input type="number" id="r-dur" value="60" min="5" max="360" step="5">
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. PULS (hrTSS) INPUTS -->
+  <div class="mp-tss-panel" style="display: none;" id="panel-hr">
+    <div class="mp-tss-input-grid">
+      <div class="mp-tss-group">
+        <label for="h-lthr">Laktattærskelpuls (LTHR):</label>
+        <input type="number" id="h-lthr" value="175" min="100" max="220" step="1">
+      </div>
+
+      <div class="mp-tss-group">
+        <label for="h-avg">Gennemsnitspuls i passet:</label>
+        <input type="number" id="h-avg" value="152" min="60" max="220" step="1">
+      </div>
+
+      <div class="mp-tss-group">
+        <label for="h-dur">Varighed (minutter):</label>
+        <input type="number" id="h-dur" value="75" min="5" max="600" step="5">
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTAT VISNING (KORT & MÅLER) -->
+  <div class="mp-tss-results">
+    <div class="mp-tss-res-box">
+      <div class="mp-tss-res-title">Intensitetsfaktor (IF)</div>
+      <div class="mp-tss-val-wrap">
+        <span class="mp-tss-val" id="res-if">0.86</span>
+        <span class="mp-tss-badge" id="badge-if">Moderat</span>
+      </div>
+      <div class="mp-tss-sub">Procent af tærskel</div>
+    </div>
+
+    <div class="mp-tss-res-box highlight">
+      <div class="mp-tss-res-title">Beregnet TSS Score</div>
+      <div class="mp-tss-val-wrap">
+        <span class="mp-tss-val" id="res-tss">111</span>
+        <span class="mp-tss-badge" id="badge-tss">Moderat</span>
+      </div>
+      <div class="mp-tss-sub">Samlet træningsstress</div>
+    </div>
+  </div>
+
+  <!-- VISUEL MÅLER BAR -->
+  <div class="mp-meter-container">
+    <div class="mp-meter-track">
+      <div class="mp-meter-fill" id="tss-meter-fill" style="width: 45%;"></div>
+    </div>
+  </div>
+
+  <!-- FYSIOLOGISK RESTITUTIONS-EVALUERING -->
+  <div class="mp-tss-feedback" id="tss-feedback-box"></div>
+
+</div>
+
+<style>
+  .mp-tss-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 1.15rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+    font-family: inherit;
+    box-sizing: border-box;
+  }
+
+  .mp-tss-header h3 {
+    margin: 0 0 0.2rem 0;
+    font-size: 1.05rem;
+    color: #0f172a;
+    font-weight: 800;
+  }
+  .mp-tss-header p {
+    margin: 0 0 0.85rem 0;
+    font-size: 0.825rem;
+    color: #64748b;
+    line-height: 1.35;
+  }
+
+  /* TABS */
+  .mp-tss-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 580px) {
+    .mp-tss-tabs {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .mp-tss-tab {
+    background: #f8fafc;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 0.45rem 0.5rem;
+    font-size: 0.775rem;
+    font-weight: 800;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mp-tss-tab:hover {
+    background: #ffffff;
+    border-color: #94a3b8;
+  }
+
+  .mp-tss-tab.active {
+    background: #ffffff;
+    border-color: #2563eb;
+    color: #2563eb;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.12);
+  }
+
+  /* INPUT GRID */
+  .mp-tss-panel {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 0.75rem 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .mp-tss-input-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  @media (max-width: 620px) {
+    .mp-tss-input-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .mp-tss-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #334155;
+  }
+
+  .mp-tss-group input[type="number"] {
+    width: 100%;
+    padding: 0.3rem 0.45rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: #0f172a;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+
+  .mp-time-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .mp-time-wrap input {
+    text-align: center;
+  }
+
+  /* RESULTAT BOKSE */
+  .mp-tss-results {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .mp-tss-res-box {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 0.65rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mp-tss-res-box.highlight {
+    border-color: #93c5fd;
+    background: #eff6ff;
+  }
+
+  .mp-tss-res-title {
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #64748b;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+  }
+
+  .mp-tss-val-wrap {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+  }
+
+  .mp-tss-val {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+  }
+
+  .mp-tss-badge {
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 1px 6px;
+    border-radius: 4px;
+    line-height: 1.2;
+  }
+
+  .tag-low { background: #dcfce7; color: #15803d; border: 1px solid #16a34a; }
+  .tag-mod { background: #fef9c3; color: #854d0e; border: 1px solid #ca8a04; }
+  .tag-high { background: #ffedd5; color: #9a3412; border: 1px solid #ea580c; }
+  .tag-ext { background: #fee2e2; color: #991b1b; border: 1px solid #dc2626; }
+
+  .mp-tss-sub {
+    font-size: 0.65rem;
+    color: #94a3b8;
+    margin-top: 0.25rem;
+  }
+
+  /* MÅLER BAR */
+  .mp-meter-container {
+    margin-bottom: 0.85rem;
+  }
+
+  .mp-meter-track {
+    width: 100%;
+    height: 6px;
+    background: #e2e8f0;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .mp-meter-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+
+  .mp-tss-feedback {
+    border-radius: 6px;
+    padding: 0.65rem 0.85rem;
+    font-size: 0.8rem;
+    line-height: 1.35;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabWatt = document.getElementById('tab-watt');
+    const tabRun = document.getElementById('tab-run');
+    const tabHr = document.getElementById('tab-hr');
+
+    const panelWatt = document.getElementById('panel-watt');
+    const panelRun = document.getElementById('panel-run');
+    const panelHr = document.getElementById('panel-hr');
+
+    // Watt Inputs
+    const wFtp = document.getElementById('w-ftp');
+    const wNp = document.getElementById('w-np');
+    const wDur = document.getElementById('w-dur');
+
+    // Run Inputs
+    const rThreshMin = document.getElementById('r-thresh-min');
+    const rThreshSec = document.getElementById('r-thresh-sec');
+    const rPaceMin = document.getElementById('r-pace-min');
+    const rPaceSec = document.getElementById('r-pace-sec');
+    const rDur = document.getElementById('r-dur');
+
+    // HR Inputs
+    const hLthr = document.getElementById('h-lthr');
+    const hAvg = document.getElementById('h-avg');
+    const hDur = document.getElementById('h-dur');
+
+    // Displays
+    const resIf = document.getElementById('res-if');
+    const resTss = document.getElementById('res-tss');
+    const badgeIf = document.getElementById('badge-if');
+    const badgeTss = document.getElementById('badge-tss');
+    const meterFill = document.getElementById('tss-meter-fill');
+    const feedbackBox = document.getElementById('tss-feedback-box');
+
+    let activeSport = 'watt';
+
+    function setBadge(el, text, type) {
+      el.textContent = text;
+      el.className = `mp-tss-badge tag-${type}`;
+    }
+
+    function calculateTSS() {
+      let ifVal = 0;
+      let tssVal = 0;
+      let durationHours = 0;
+
+      if (activeSport === 'watt') {
+        const ftp = parseInt(wFtp.value) || 250;
+        const np = parseInt(wNp.value) || 200;
+        const durMin = parseInt(wDur.value) || 60;
+        durationHours = durMin / 60;
+
+        ifVal = np / ftp;
+        tssVal = Math.round((durMin * 60 * np * ifVal) / (ftp * 3600) * 100);
+
+      } else if (activeSport === 'run') {
+        const tMin = parseInt(rThreshMin.value) || 4;
+        const tSec = parseInt(rThreshSec.value) || 15;
+        const pMin = parseInt(rPaceMin.value) || 4;
+        const pSec = parseInt(rPaceSec.value) || 45;
+        const durMin = parseInt(rDur.value) || 60;
+        durationHours = durMin / 60;
+
+        const threshSpeed = 3600 / (tMin * 60 + tSec); // m/s proportional
+        const paceSpeed = 3600 / (pMin * 60 + pSec);
+
+        ifVal = paceSpeed / threshSpeed;
+        tssVal = Math.round(durationHours * (ifVal * ifVal) * 100);
+
+      } else if (activeSport === 'hr') {
+        const lthr = parseInt(hLthr.value) || 175;
+        const avgHr = parseInt(hAvg.value) || 150;
+        const durMin = parseInt(hDur.value) || 60;
+        durationHours = durMin / 60;
+
+        ifVal = avgHr / lthr;
+        tssVal = Math.round(durationHours * (ifVal * ifVal) * 100);
+      }
+
+      resIf.textContent = ifVal.toFixed(2);
+      resTss.textContent = tssVal;
+
+      // IF BADGE
+      if (ifVal < 0.75) setBadge(badgeIf, 'Aktiv Hvile / Z2', 'low');
+      else if (ifVal < 0.90) setBadge(badgeIf, 'Moderat Tempo', 'mod');
+      else if (ifVal < 1.02) setBadge(badgeIf, 'Tærskel / Hårdt', 'high');
+      else setBadge(badgeIf, 'Eksplosiv / Max', 'ext');
+
+      // TSS BADGE & MÅLER
+      const pct = Math.min(100, Math.max(5, Math.round((tssVal / 250) * 100)));
+      meterFill.style.width = pct + '%';
+
+      if (tssVal < 50) {
+        setBadge(badgeTss, 'Mindre pas', 'low');
+        meterFill.style.backgroundColor = '#22c55e';
+        feedbackBox.style.background = '#f0fdf4';
+        feedbackBox.style.borderColor = '#bbf7d0';
+        feedbackBox.style.color = '#166534';
+        feedbackBox.innerHTML = `<strong>🟢 Lav Belastning (< 50 TSS):</strong> Restitutionspas eller kort træning. Du er klar til ny træning i dag eller i morgen uden behov for ekstra hvile.`;
+      } else if (tssVal < 120) {
+        setBadge(badgeTss, 'Moderat', 'mod');
+        meterFill.style.backgroundColor = '#eab308';
+        feedbackBox.style.background = '#fef9c3';
+        feedbackBox.style.borderColor = '#fef08a';
+        feedbackBox.style.color = '#854d0e';
+        feedbackBox.innerHTML = `<strong>🟡 Moderat Belastning (50–120 TSS):</strong> Solidt træningspas. Med normal nattesøvn og god ernæring er du klar til ny hård træning i morgen.`;
+      } else if (tssVal < 200) {
+        setBadge(badgeTss, 'Hårdt pas', 'high');
+        meterFill.style.backgroundColor = '#f97316';
+        feedbackBox.style.background = '#ffedd5';
+        feedbackBox.style.borderColor = '#fdba74';
+        feedbackBox.style.color = '#9a3412';
+        feedbackBox.innerHTML = `<strong>🟠 Hård Belastning (120–200 TSS):</strong> Betydeligt fysiologisk stress. Du bør påregne 1–2 dages let træning (Zone 1-2) eller hvile, før dit næste helt hårde tærskel-pas.`;
+      } else {
+        setBadge(badgeTss, 'Ekstremt pas', 'ext');
+        meterFill.style.backgroundColor = '#ef4444';
+        feedbackBox.style.background = '#fee2e2';
+        feedbackBox.style.borderColor = '#fca5a5';
+        feedbackBox.style.color = '#991b1b';
+        feedbackBox.innerHTML = `<strong>🔴 Ekstrem Belastning (> 200 TSS):</strong> Meget udtalt udmattelse (konkurrence eller episk langpas). Kræver 2–3+ dages opbygning og hvile før næste maksimale indsats.`;
+      }
+    }
+
+    function switchSport(sport) {
+      activeSport = sport;
+      [tabWatt, tabRun, tabHr].forEach(t => t.classList.remove('active'));
+      [panelWatt, panelRun, panelHr].forEach(p => p.style.display = 'none');
+
+      if (sport === 'watt') {
+        tabWatt.classList.add('active');
+        panelWatt.style.display = 'block';
+      } else if (sport === 'run') {
+        tabRun.classList.add('active');
+        panelRun.style.display = 'block';
+      } else if (sport === 'hr') {
+        tabHr.classList.add('active');
+        panelHr.style.display = 'block';
+      }
+      calculateTSS();
+    }
+
+    tabWatt.addEventListener('click', () => switchSport('watt'));
+    tabRun.addEventListener('click', () => switchSport('run'));
+    tabHr.addEventListener('click', () => switchSport('hr'));
+
+    [wFtp, wNp, wDur, rThreshMin, rThreshSec, rPaceMin, rPaceSec, rDur, hLthr, hAvg, hDur].forEach(inp => {
+      inp.addEventListener('input', calculateTSS);
+    });
+
+    calculateTSS();
+  });
+</script>

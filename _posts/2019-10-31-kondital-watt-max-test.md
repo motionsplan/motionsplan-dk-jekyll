@@ -81,16 +81,27 @@ faq:
 
 Watt-max testen er en af de mest anvendte, præcise og enkle [konditionstests](/kondition/tests/) til cykling. Ved hjælp af en ergometercykel og en kontrolleret belastningsstigning kan du estimere din maksimale iltoptagelse (VO₂max) og dit kondital.
 
-> ### ⏱️ Kort fortalt: Sæt testen i gang
-> * **Standard-protokol (Andersen, 1995):** 5 min opvarmning (100W for mænd / 70 W for kvinder). Derefter **+35 watt hvert 2. minut** til udmattelse.
-> * **Mål med testen:** At finde din **MPO** (*Maximal Power Output*) og beregne dit [kondital](/kondital/).
-> * **Tidsforbrug:** Ca. 15–25 minutter inkl. opvarmning.
+<div markdown="1" class="notice--success">
+
+**⏱️ Kort fortalt: Sæt testen i gang**
+
+* **Standard-protokol (Andersen, 1995):** 5 min opvarmning (100W for mænd / 70 W for kvinder). Derefter **+35 watt hvert 2. minut** til udmattelse.
+* **Mål med testen:** At finde din **MPO** (*Maximal Power Output*) og beregne dit [kondital](/kondital/).
+* **Tidsforbrug:** Ca. 15–25 minutter inkl. opvarmning.
+</div>
 
 > 👦 **Skal du teste børn (7–15 år)?**
 > Børn skal køre med en mildere belastningsstigning. Gå til den specifikke [Wattmax-test for børn](/kondital-wattmax-boern/).
 {: .notice--info }
 
 [<i class='fas fa-calculator'></i> Hop direkte til beregneren →](#calculator){: .btn .btn--success .btn--jump }
+
+<div markdown="1" class="notice--info">
+
+⚡ **Er dit primære mål at finde dine watt-træningszoner?**
+
+Watt-max testen er fremragende til at finde dit kondital. Er du derimod cykelrytter, og ønsker du at teste dit niveau med henblik på at træne efter watt, bør du i stedet kigge på en [Ramp-test / Trappetest](/trappetest-cykel/) eller vælge en anden [klassisk FTP-test](/ftp-test/).
+</div>
 
 ---
 

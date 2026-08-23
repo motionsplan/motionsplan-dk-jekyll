@@ -35,6 +35,10 @@ Udfordringen for de fleste løbere og cykelryttere er dog: **Hvordan sammenligne
 
 Her gennemgår vi de vigtigste fysiologiske belastningsmodeller, fra klassiske pulsbaserede TRIMP-modeller til moderne **sRPE**, **TSS** og **Performance Management Charts (CTL, ATL, TSB)**.
 
+> 🚴‍♂️ **Dyk helt ned i maskinrummet på TSS, FTP og NP**  
+> Vil du beregne din præcise belastning på cykel (Watt TSS), løb (rTSS) eller puls (hrTSS)?  
+> 👉 **[Læs vores dybdegående guide til TSS og prøv den interaktive Multi-Sport beregner her →](/tss-training-stress-score/)**
+
 ---
 
 ## ⚖️ Hvad er træningsbelastning? (Ydre vs. Indre Belastning)
@@ -60,7 +64,7 @@ Der findes tre dominerende metoder til at beregne belastningen for ét enkelt tr
 3. **TSS / HR-TSS (Training Stress Score):**
    Introduceret af Andrew Coggan. Måler belastningen i forhold til din tærskel (FTP eller tærskelpuls). 100 TSS svarer til 1 times maksimal enkeltstart ved tærskel.
 
-### 🔬 Værktøj 1: Enkeltpas Analysator
+### 🔬 Analyse af et træningspas
 {% include components/workout-load-analyzer.html %}
 
 ---
@@ -89,7 +93,7 @@ $$\text{TSB} = \text{CTL (Fitness)} - \text{ATL (Træthed)}$$
 
 ---
 
-## 📊 Værktøj 2: Periode & TSB Simulator (Gå fra Base til HIIT)
+## 📊 Periode & TSB-simulator
 
 Prøv simulatoren herunder og se, hvad der sker med din Fitness (CTL), Træthed (ATL), Form (TSB) og **ACWR Ratio**, når du ændrer træningsmønster over en 6-ugers periode:
 

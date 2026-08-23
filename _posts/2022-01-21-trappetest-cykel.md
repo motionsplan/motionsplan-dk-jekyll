@@ -10,7 +10,6 @@ header:
   credit: https://images.unsplash.com/photo-1590523329673-7b10bd21e519
   caption: 'Trappetest på cykel: En enkel cykeltest du kan lave selv'
 categories:
-- Kondition
 - Cykling
 - Cykeltests
 tags:
@@ -66,6 +65,10 @@ En **trappetest på cykel** – også ofte omtalt som en **ramptest på cykel** 
 Med en simpel protokol kan du estimere din maksimale iltoptagelse (VO₂max) og finde dit [Functional Threshold Power (FTP)](/ftp-cykling/)-niveau direkte fra din hometrainer.
 
 I denne artikel gennemgår vi **Hawleys klassiske trappetest-protokol**, hvordan du udregner din Peak Power Output (PPO), og hvordan du bruger resultaterne aktivt i din træningsplanlægning.
+
+> 🚴 **Er dit primære mål at finde dit kondital?**
+> Selvom trappetesten her på siden (Hawley-protokollen) kan estimere din maksimale iltoptagelse, er den danske guldstandard til udregning af kondital den anerkendte [Watt-max test (Andersen-protokollen)](/kondital-wattmax/). Trappetesten er til gengæld ideel til dig, der primært ønsker at [estimere din FTP til cykeltræning](/ftp-test/).
+{: .notice--info }
 
 ---
 

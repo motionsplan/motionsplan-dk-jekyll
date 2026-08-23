@@ -107,6 +107,12 @@ Du kan se de præcise værdier for alle aldersgrupper i tabellerne nedenunder.
 
 [Test din kondition](/kondition/tests/){: .btn .btn--large .btn--info }
 
+## Kondital tabel: Hvad er et godt kondital?
+
+{% include components/kondital-tabel-interaktiv.html %}
+
+{% comment %}
+
 ## Kondital tabel for mænd (normalbefolkning)
 {: id="tabel" }
 
@@ -144,6 +150,8 @@ Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over
 | Kvinder | \< 50 | 50-58  | 58-64 | 64-72      | \> 72          |
 
 Tabellen er udformet af [Morten Zacho](https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
+
+{% endcomment %}
 
 {% include motionsplan/templates.html id="kondital_tabel_doc" %}
 

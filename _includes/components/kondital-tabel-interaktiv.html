@@ -1,0 +1,552 @@
+{% comment %}
+  ==============================================================================
+  Motionsplan - Interaktiv Kondital-Tabel (Pixel Perfect & Zero Shift)
+  ==============================================================================
+{% endcomment %}
+
+<style>
+  .mp-kt-table-widget {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 28px 0;
+    font-family: inherit;
+    color: #0f172a;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  }
+
+  /* Ultrakompakt Input-bar i 1 Linje */
+  .mp-kt-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 6px 14px;
+    margin-bottom: 12px;
+  }
+
+  .mp-kt-bar__field {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 32px;
+  }
+
+  .mp-kt-bar__label {
+    font-size: 0.83rem;
+    font-weight: 700;
+    color: #334155;
+    white-space: nowrap;
+    line-height: 1;
+  }
+
+  /* Input-boks med fast 32px højde og skjulte spin-pile */
+  .mp-input-box {
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 0 8px;
+    gap: 4px;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+  }
+
+  .mp-input-box:focus-within {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-input-box input {
+    border: none;
+    outline: none;
+    font-size: 0.88rem;
+    font-weight: 800;
+    color: #0f172a;
+    text-align: right;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    line-height: 32px;
+    -moz-appearance: textfield;
+  }
+
+  .mp-input-box input::-webkit-outer-spin-button,
+  .mp-input-box input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .mp-input-box .unit {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #64748b;
+    user-select: none;
+    line-height: 1;
+  }
+
+  /* Køn Toggle fastlåst til 32px højde */
+  .mp-kt-bar__toggle {
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    background: #e2e8f0;
+    padding: 2px;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  .mp-kt-bar__toggle-btn {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #64748b;
+    border: none;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .mp-kt-bar__toggle-btn.is-active {
+    background: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  /* Fast Låst Subbar (Ingen Margin Shift) */
+  .mp-kt-subbar {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    padding: 0 2px;
+    box-sizing: border-box;
+  }
+
+  .mp-kt-msg-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.82rem;
+    color: #475569;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .mp-kt-badge-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  /* Overskrifter med Farvede Indikator-prikker */
+  .mp-kt-h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 18px 0 8px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .mp-dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin-right: 8px;
+    flex-shrink: 0;
+  }
+
+  .mp-dot--male { background-color: #2563eb; }
+  .mp-dot--female { background-color: #ec4899; }
+  .mp-dot--elite { background-color: #16a34a; }
+
+  /* Tabel Styling */
+  .mp-kt-table-wrap {
+    overflow-x: auto;
+    margin-bottom: 4px;
+  }
+
+  .mp-kt-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.88rem;
+    text-align: center;
+  }
+
+  .mp-kt-table th {
+    background: #f1f5f9;
+    color: #0f172a;
+    font-weight: 700;
+    padding: 8px 6px;
+    border-bottom: 2px solid #cbd5e1;
+    font-size: 0.82rem;
+  }
+
+  .mp-kt-table td {
+    padding: 8px 6px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #334155;
+    transition: all 0.15s ease;
+  }
+
+  .mp-cat-badge {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.73rem;
+    font-weight: 800;
+  }
+
+  .mp-cat-badge--vlow { background: #fef2f2; color: #dc2626; }
+  .mp-cat-badge--low { background: #fff7ed; color: #ea580c; }
+  .mp-cat-badge--mid { background: #fefce8; color: #d97706; }
+  .mp-cat-badge--high { background: #f0fdf4; color: #16a34a; }
+  .mp-cat-badge--vhigh { background: #eff6ff; color: #2563eb; }
+  .mp-cat-badge--ext { background: #f0fdf4; color: #15803d; }
+
+  .mp-kt-table tr.is-row-active td {
+    background-color: #f8fafc;
+    font-weight: 700;
+    color: #0f172a;
+  }
+
+  .mp-kt-table tr.is-row-active td:first-child {
+    border-left: 3px solid #2563eb;
+    color: #2563eb;
+  }
+
+  .mp-kt-table td.is-cell-active.cat-0 { background-color: #dc2626 !important; color: #ffffff !important; font-weight: 900 !important; }
+  .mp-kt-table td.is-cell-active.cat-1 { background-color: #ea580c !important; color: #ffffff !important; font-weight: 900 !important; }
+  .mp-kt-table td.is-cell-active.cat-2 { background-color: #d97706 !important; color: #ffffff !important; font-weight: 900 !important; }
+  .mp-kt-table td.is-cell-active.cat-3 { background-color: #16a34a !important; color: #ffffff !important; font-weight: 900 !important; }
+  .mp-kt-table td.is-cell-active.cat-4 { background-color: #2563eb !important; color: #ffffff !important; font-weight: 900 !important; }
+  .mp-kt-table td.is-cell-active.cat-5 { background-color: #15803d !important; color: #ffffff !important; font-weight: 900 !important; }
+
+  .mp-kt-credit {
+    margin-top: 0 !important;
+    padding-top: 0 !important; 
+    font-size: 0.8em !important;
+    color: #64748b;
+    margin-bottom: 1em;
+  }
+
+  .mp-kt-credit a {
+    color: #475569;
+    text-decoration: underline;
+  }
+
+  .mp-kt-credit a:hover {
+    color: #2563eb;
+  }
+</style>
+
+<div class="mp-kt-table-widget" id="mp-kt-interactive-tables">
+
+  <!-- Ultrakompakt Input-bar i 1 Linje -->
+  <div class="mp-kt-bar">
+    
+    <!-- 1. Kondital -->
+    <div class="mp-kt-bar__field">
+      <span class="mp-kt-bar__label">Dit kondital:</span>
+      <div class="mp-input-box">
+        <input type="number" id="kt-tab-val" placeholder="45" step="0.1" style="width: 32px;">
+        <span class="unit">ml/kg/min</span>
+      </div>
+    </div>
+
+    <!-- 2. Alder -->
+    <div class="mp-kt-bar__field">
+      <span class="mp-kt-bar__label">Alder:</span>
+      <div class="mp-input-box">
+        <input type="number" id="kt-tab-age" placeholder="40" min="5" max="100" style="width: 26px;">
+        <span class="unit">år</span>
+      </div>
+    </div>
+
+    <!-- 3. Køn Toggle -->
+    <div class="mp-kt-bar__field">
+      <div class="mp-kt-bar__toggle">
+        <button type="button" class="mp-kt-bar__toggle-btn is-active" data-gender="male">Mand</button>
+        <button type="button" class="mp-kt-bar__toggle-btn" data-gender="female">Kvinde</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Fast Låst Linje til Instruktion / Resultat -->
+  <div class="mp-kt-subbar">
+    <div class="mp-kt-msg-box" id="kt-tab-msg-container">
+      <span style="color: #64748b;">💡 Indtast kondital og alder for at se dit resultat.</span>
+    </div>
+  </div>
+
+  <!-- TABEL 1: MÆND -->
+  <h3 class="mp-kt-h3" id="vo2max-table-men"><span class="mp-dot mp-dot--male"></span>Kondital tabel for mænd (normalbefolkning)</h3>
+  <div class="mp-kt-table-wrap">
+    <table class="mp-kt-table" id="kt-table-male">
+      <thead>
+        <tr>
+          <th style="text-align: left; padding-left: 10px;">Alder</th>
+          <th><span class="mp-cat-badge mp-cat-badge--vlow">Meget lavt</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--low">Lavt</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--mid">Middel</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--high">Højt</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--vhigh">Meget højt</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-min-age="5" data-max-age="14" data-bounds="38,43,51,56">
+          <td style="text-align: left; padding-left: 10px;">5-14 år</td>
+          <td>&lt; 38</td><td>39-43</td><td>44-51</td><td>52-56</td><td>&gt; 57</td>
+        </tr>
+        <tr data-min-age="15" data-max-age="19" data-bounds="43,48,56,61">
+          <td style="text-align: left; padding-left: 10px;">15-19 år</td>
+          <td>&lt; 43</td><td>44-48</td><td>49-56</td><td>57-61</td><td>&gt; 62</td>
+        </tr>
+        <tr data-min-age="20" data-max-age="29" data-bounds="38,43,51,56">
+          <td style="text-align: left; padding-left: 10px;">20-29 år</td>
+          <td>&lt; 38</td><td>39-43</td><td>44-51</td><td>52-56</td><td>&gt; 57</td>
+        </tr>
+        <tr data-min-age="30" data-max-age="39" data-bounds="34,39,47,51">
+          <td style="text-align: left; padding-left: 10px;">30-39 år</td>
+          <td>&lt; 34</td><td>35-39</td><td>40-47</td><td>48-51</td><td>&gt; 52</td>
+        </tr>
+        <tr data-min-age="40" data-max-age="49" data-bounds="30,35,43,47">
+          <td style="text-align: left; padding-left: 10px;">40-49 år</td>
+          <td>&lt; 30</td><td>31-35</td><td>36-43</td><td>44-47</td><td>&gt; 48</td>
+        </tr>
+        <tr data-min-age="50" data-max-age="59" data-bounds="25,31,39,43">
+          <td style="text-align: left; padding-left: 10px;">50-59 år</td>
+          <td>&lt; 25</td><td>26-31</td><td>32-39</td><td>40-43</td><td>&gt; 44</td>
+        </tr>
+        <tr data-min-age="60" data-max-age="69" data-bounds="21,26,35,39">
+          <td style="text-align: left; padding-left: 10px;">60-69 år</td>
+          <td>&lt; 21</td><td>22-26</td><td>27-35</td><td>36-39</td><td>&gt; 40</td>
+        </tr>
+        <tr data-min-age="70" data-max-age="120" data-bounds="19,24,32,37">
+          <td style="text-align: left; padding-left: 10px;">70+ år</td>
+          <td>&lt; 19</td><td>20-24</td><td>25-32</td><td>33-37</td><td>&gt; 38</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TABEL 2: KVINDE -->
+  <h3 class="mp-kt-h3" id="vo2max-table-women"><span class="mp-dot mp-dot--female"></span>Kondital tabel for kvinder (normalbefolkning)</h3>
+  <div class="mp-kt-table-wrap">
+    <table class="mp-kt-table" id="kt-table-female">
+      <thead>
+        <tr>
+          <th style="text-align: left; padding-left: 10px;">Alder</th>
+          <th><span class="mp-cat-badge mp-cat-badge--vlow">Meget lavt</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--low">Lavt</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--mid">Middel</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--high">Højt</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--vhigh">Meget højt</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-min-age="5" data-max-age="14" data-bounds="34,39,47,51">
+          <td style="text-align: left; padding-left: 10px;">5-14 år</td>
+          <td>&lt; 34</td><td>35-39</td><td>40-47</td><td>48-51</td><td>&gt; 52</td>
+        </tr>
+        <tr data-min-age="15" data-max-age="29" data-bounds="28,34,43,48">
+          <td style="text-align: left; padding-left: 10px;">15-29 år</td>
+          <td>&lt; 28</td><td>29-34</td><td>35-43</td><td>44-48</td><td>&gt; 49</td>
+        </tr>
+        <tr data-min-age="30" data-max-age="39" data-bounds="27,33,41,47">
+          <td style="text-align: left; padding-left: 10px;">30-39 år</td>
+          <td>&lt; 27</td><td>28-33</td><td>34-41</td><td>42-47</td><td>&gt; 48</td>
+        </tr>
+        <tr data-min-age="40" data-max-age="49" data-bounds="25,31,40,45">
+          <td style="text-align: left; padding-left: 10px;">40-49 år</td>
+          <td>&lt; 25</td><td>26-31</td><td>32-40</td><td>41-45</td><td>&gt; 46</td>
+        </tr>
+        <tr data-min-age="50" data-max-age="64" data-bounds="21,28,36,41">
+          <td style="text-align: left; padding-left: 10px;">50-64 år</td>
+          <td>&lt; 21</td><td>22-28</td><td>29-36</td><td>37-41</td><td>&gt; 42</td>
+        </tr>
+        <tr data-min-age="65" data-max-age="120" data-bounds="19,26,34,39">
+          <td style="text-align: left; padding-left: 10px;">65+ år</td>
+          <td>&lt; 19</td><td>20-26</td><td>27-34</td><td>35-39</td><td>&gt; 40</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TABEL 3: ATLETER -->
+  <h3 class="mp-kt-h3" id="vo2max-table-elite"><span class="mp-dot mp-dot--elite"></span>Kondital tabel for atleter i verdensklasse</h3>
+
+  <p class="mp-kt-credit">
+    Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over 70. Hvis du forventer at kunne være med i verdenseliten, bør du vurdere dig selv ud fra nedenstående tabel:
+  </p>
+
+  <div class="mp-kt-table-wrap">
+    <table class="mp-kt-table" id="kt-table-athlete">
+      <thead>
+        <tr>
+          <th style="text-align: left; padding-left: 10px;">Køn</th>
+          <th><span class="mp-cat-badge mp-cat-badge--vlow">Lavt</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--mid">Middel</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--high">Højt</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--vhigh">Meget højt</span></th>
+          <th><span class="mp-cat-badge mp-cat-badge--ext">Ekstremt højt</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-gender-row="male" data-bounds="60,70,80,90">
+          <td style="text-align: left; padding-left: 10px; font-weight: 700;">Mænd</td>
+          <td>&lt; 60</td><td>60-70</td><td>70-80</td><td>80-90</td><td>&gt; 90</td>
+        </tr>
+        <tr data-gender-row="female" data-bounds="50,58,64,72">
+          <td style="text-align: left; padding-left: 10px; font-weight: 700;">Kvinder</td>
+          <td>&lt; 50</td><td>50-58</td><td>58-64</td><td>64-72</td><td>&gt; 72</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="mp-kt-credit" style="margin-bottom: 0;">
+     Tabellerne er udarbejdet af Per-Olof Åstrand og suppleret med data fra danske unge af <a href="https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/" rel="nofollow" target="_blank">Morten Zacho</a>.
+     Tabellen for eliteatleter er udformet af <a href="https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/" rel="nofollow" target="_blank">Morten Zacho</a>.
+  </p>
+
+</div>
+
+<script>
+  if (!window.mpKtInteractiveTablesInitialized) {
+    window.mpKtInteractiveTablesInitialized = true;
+
+    document.addEventListener("DOMContentLoaded", function() {
+      const widget = document.getElementById("mp-kt-interactive-tables");
+      if (!widget) return;
+
+      const ageInput = widget.querySelector("#kt-tab-age");
+      const valInput = widget.querySelector("#kt-tab-val");
+      const toggleBtns = widget.querySelectorAll(".mp-kt-bar__toggle-btn");
+      const msgContainer = widget.querySelector("#kt-tab-msg-container");
+
+      let currentGender = "male";
+      const catNames = ["Meget lavt", "Lavt", "Middel", "Højt", "Meget højt"];
+      const catClasses = ["cat-0", "cat-1", "cat-2", "cat-3", "cat-4", "cat-5"];
+      const catColors = ["#dc2626", "#ea580c", "#d97706", "#16a34a", "#2563eb", "#15803d"];
+
+      toggleBtns.forEach(btn => {
+        btn.addEventListener("click", function() {
+          toggleBtns.forEach(b => b.classList.remove("is-active"));
+          btn.classList.add("is-active");
+          currentGender = btn.dataset.gender;
+          updateHighlights();
+        });
+      });
+
+      [ageInput, valInput].forEach(inp => {
+        inp.addEventListener("input", updateHighlights);
+      });
+
+      function updateHighlights() {
+        widget.querySelectorAll("tr").forEach(tr => tr.classList.remove("is-row-active"));
+        widget.querySelectorAll("td").forEach(td => {
+          td.classList.remove("is-cell-active", "cat-0", "cat-1", "cat-2", "cat-3", "cat-4", "cat-5");
+        });
+
+        const age = parseFloat(ageInput.value);
+        const vo2 = parseFloat(valInput.value);
+
+        if (!age || age < 5) {
+          msgContainer.innerHTML = `<span style="color: #64748b;">💡 Indtast kondital og alder for at se dit resultat.</span>`;
+          return;
+        }
+
+        const activeTable = widget.querySelector(`#kt-table-${currentGender}`);
+        if (!activeTable) return;
+
+        const rows = Array.from(activeTable.querySelectorAll("tbody tr"));
+        let matchedRow = null;
+
+        for (let tr of rows) {
+          const minA = parseFloat(tr.dataset.minAge);
+          const maxA = parseFloat(tr.dataset.maxAge);
+          if (age >= minA && age <= maxA) {
+            matchedRow = tr;
+            break;
+          }
+        }
+
+        if (matchedRow) {
+          matchedRow.classList.add("is-row-active");
+
+          if (vo2 && vo2 > 10 && vo2 < 100) {
+            const bounds = matchedRow.dataset.bounds.split(",").map(Number);
+            let catIndex = 0;
+
+            if (vo2 < bounds[0]) catIndex = 0;
+            else if (vo2 <= bounds[1]) catIndex = 1;
+            else if (vo2 <= bounds[2]) catIndex = 2;
+            else if (vo2 <= bounds[3]) catIndex = 3;
+            else catIndex = 4;
+
+            const cells = matchedRow.querySelectorAll("td");
+            if (cells[catIndex + 1]) {
+              cells[catIndex + 1].classList.add("is-cell-active", catClasses[catIndex]);
+            }
+
+            // Indsæt Pill + Tekst direkte i samme container uden at ændre margin/højde
+            const genderLabel = currentGender === 'male' ? 'mand' : 'kvinde';
+            msgContainer.innerHTML = `
+              <span class="mp-kt-badge-tag" style="background-color: ${catColors[catIndex]};">${catNames[catIndex]}</span>
+              <span style="font-weight: 700; color: #0f172a;">for en ${genderLabel} på ${age} år.</span>
+            `;
+
+            const minEliteThreshold = currentGender === 'male' ? 60 : 50;
+
+            if (vo2 >= minEliteThreshold) {
+              const athTable = widget.querySelector("#kt-table-athlete");
+              const athRow = athTable.querySelector(`tbody tr[data-gender-row="${currentGender}"]`);
+
+              if (athRow) {
+                athRow.classList.add("is-row-active");
+                const athBounds = athRow.dataset.bounds.split(",").map(Number);
+                let athCat = 1;
+
+                if (vo2 <= athBounds[1]) athCat = 1;
+                else if (vo2 <= athBounds[2]) athCat = 2;
+                else if (vo2 <= athBounds[3]) athCat = 3;
+                else athCat = 4;
+
+                const athCells = athRow.querySelectorAll("td");
+                if (athCells[athCat + 1]) {
+                  athCells[athCat + 1].classList.add("is-cell-active", catClasses[athCat]);
+                }
+              }
+            }
+          } else {
+            msgContainer.innerHTML = `<span style="color: #64748b;">💡 Indtast kondital for at fremhæve din fane i tabellen.</span>`;
+          }
+        }
+      }
+    });
+  }
+</script>

@@ -1,0 +1,470 @@
+<!-- DYNAMISK DUP PROGRAM-BEREGNER (KORT-LAYOUT) -->
+<div class="mp-dup-card full">
+
+  <div class="mp-dup-header">
+    <h3>🏋️‍♂️ DUP Ugeprogram & Vægtberegner</h3>
+    <p>Vælg din foretrukne DUP-model og indtast din 1RM for at udregne dine ugentlige arbejdsvægte, sæt, reps og RPE.</p>
+  </div>
+
+  <!-- RÆKKE 1: PROGRAM-MODELLE -->
+  <div class="mp-dup-section-lbl">1. Vælg DUP-Model:</div>
+  <div class="mp-dup-tabs mp-3tabs">
+    <button type="button" class="mp-dup-tab active" id="btn-m-power">
+      💥 Zourdos Model<br><small>(Power / Styrke / Hyp)</small>
+    </button>
+    <button type="button" class="mp-dup-tab" id="btn-m-bb">
+      💪 Bodybuilding<br><small>(5, 8 & 15 Reps)</small>
+    </button>
+    <button type="button" class="mp-dup-tab" id="btn-m-rhea">
+      📊 Rhea et al.<br><small>(Klassisk 8/6/4RM)</small>
+    </button>
+  </div>
+
+  <!-- RÆKKE 2: ØVELSESFOKUS -->
+  <div class="mp-dup-section-lbl">2. Vælg Øvelsesfokus:</div>
+  <div class="mp-dup-tabs">
+    <button type="button" class="mp-dup-tab active" id="btn-focus-bench">
+      👮‍♂️ Bænkpres Fokus (Politiprøve / Enkelt)
+    </button>
+    <button type="button" class="mp-dup-tab" id="btn-focus-fullbody">
+      🏋️‍♀️ Fullbody (Squat, Bænkpres, Dødløft)
+    </button>
+  </div>
+
+  <!-- INPUT FELTER -->
+  <div class="mp-dup-panel" id="panel-bench">
+    <div class="mp-dup-input-row">
+      <div class="mp-dup-group">
+        <label for="bp-1rm">Bænkpres 1RM (kg):</label>
+        <input type="number" id="bp-1rm" value="100" min="30" max="350" step="2.5">
+      </div>
+    </div>
+  </div>
+
+  <div class="mp-dup-panel" id="panel-fullbody" style="display: none;">
+    <div class="mp-dup-input-grid">
+      <div class="mp-dup-group">
+        <label for="fb-sq">Squat 1RM (kg):</label>
+        <input type="number" id="fb-sq" value="140" min="30" max="400" step="2.5">
+      </div>
+      <div class="mp-dup-group">
+        <label for="fb-bp">Bænkpres 1RM (kg):</label>
+        <input type="number" id="fb-bp" value="100" min="30" max="350" step="2.5">
+      </div>
+      <div class="mp-dup-group">
+        <label for="fb-dl">Dødløft 1RM (kg):</label>
+        <input type="number" id="fb-dl" value="180" min="30" max="450" step="2.5">
+      </div>
+    </div>
+  </div>
+
+  <!-- SKEMA (RESPONSIVE CARDS) -->
+  <div class="mp-dup-schedule" id="dup-schedule-box">
+    <!-- Genereres af JS -->
+  </div>
+
+  <!-- VEJLEDNINGSNOTE -->
+  <div class="mp-dup-note" id="dup-note-box">
+    <!-- Genereres af JS -->
+  </div>
+
+</div>
+
+<style>
+  .mp-dup-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 1.15rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+    font-family: inherit;
+    box-sizing: border-box;
+  }
+
+  .mp-dup-header h3 {
+    margin: 0 0 0.2rem 0;
+    font-size: 1.05rem;
+    color: #0f172a;
+    font-weight: 800;
+  }
+  .mp-dup-header p {
+    margin: 0 0 0.85rem 0;
+    font-size: 0.825rem;
+    color: #64748b;
+    line-height: 1.35;
+  }
+
+  .mp-dup-section-lbl {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 0.35rem;
+  }
+
+  .mp-dup-tabs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    margin-bottom: 0.85rem;
+  }
+  .mp-dup-tabs.mp-3tabs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  @media (max-width: 680px) {
+    .mp-dup-tabs, .mp-dup-tabs.mp-3tabs { grid-template-columns: 1fr; }
+  }
+
+  .mp-dup-tab {
+    background: #f8fafc;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 0.45rem 0.55rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+    line-height: 1.25;
+  }
+  .mp-dup-tab small { font-weight: 600; font-size: 0.65rem; color: #64748b; }
+  .mp-dup-tab:hover { background: #ffffff; border-color: #94a3b8; }
+  .mp-dup-tab.active { background: #ffffff; border-color: #2563eb; color: #2563eb; box-shadow: 0 2px 6px rgba(37, 99, 235, 0.12); }
+  .mp-dup-tab.active small { color: #2563eb; }
+
+  .mp-dup-panel {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 0.75rem 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .mp-dup-input-row { display: grid; grid-template-columns: minmax(0, 220px); }
+  .mp-dup-input-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
+  @media (max-width: 600px) { .mp-dup-input-grid { grid-template-columns: 1fr; } }
+
+  .mp-dup-group { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.75rem; font-weight: 800; color: #334155; }
+  .mp-dup-group input { width: 100%; padding: 0.35rem 0.45rem; border: 1px solid #cbd5e1; border-radius: 5px; font-size: 0.875rem; font-weight: 800; color: #0f172a; background: #ffffff; box-sizing: border-box; }
+
+  /* KORT-LAYOUT */
+  .mp-dup-schedule {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .mp-dup-schedule {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .mp-day-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mp-day-header {
+    background: #0f172a;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+
+  .mp-ex-row {
+    padding: 0.9rem;
+    border-bottom: 3px solid #f1f5f9;
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Får rækkerne til at fylde kortet pænt ud */
+  }
+  .mp-ex-row:last-child {
+    border-bottom: none;
+  }
+
+  /* TOP: Titel og Label */
+  .mp-ex-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .mp-ex-title {
+    font-size: 0.95rem;
+    font-weight: 900;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1;
+  }
+
+  .mp-badge {
+    font-size: 0.625rem;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-block;
+  }
+
+  .p-power { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+  .p-strength { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
+  .p-hyper { background: #dcfce7; color: #166534; border: 1px solid #bbf7d0; }
+  .p-pump { background: #fae8ff; color: #86198f; border: 1px solid #f5d0fe; }
+  .p-light { background: #fef9c3; color: #854d0e; border: 1px solid #fef08a; }
+
+  /* MIDTE: Sæt, Reps, RPE */
+  .mp-ex-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .mp-ex-sets {
+    font-size: 0.8rem;
+    color: #0f172a;
+  }
+
+  .mp-ex-desc {
+    font-size: 0.75rem;
+    color: #475569;
+    line-height: 1.3;
+  }
+
+  .mp-ex-rpe {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-top: 0.15rem;
+  }
+
+  /* BUND: Egen række, Højrestillet, Vægt + Procent */
+  .mp-ex-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top: 1px dashed #cbd5e1;
+    padding-top: 0.6rem;
+    margin-top: auto; /* Skubber vægten helt i bund */
+  }
+
+  .mp-ex-weight {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #2563eb;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .mp-ex-weight small {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-left: 3px;
+  }
+
+  .mp-ex-pct {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #94a3b8;
+    margin-top: 0.25rem;
+  }
+
+  .mp-dup-note {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 8px;
+    padding: 0.75rem 0.9rem;
+    font-size: 0.775rem;
+    color: #166534;
+    line-height: 1.45;
+  }
+  .mp-dup-note ul { margin: 0.4rem 0 0 1.1rem; padding: 0; }
+  .mp-dup-note li { margin-bottom: 0.25rem; }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const btnMPower = document.getElementById('btn-m-power');
+    const btnMBb = document.getElementById('btn-m-bb');
+    const btnMRhea = document.getElementById('btn-m-rhea');
+
+    const btnFocusBench = document.getElementById('btn-focus-bench');
+    const btnFocusFB = document.getElementById('btn-focus-fullbody');
+
+    const panelBench = document.getElementById('panel-bench');
+    const panelFB = document.getElementById('panel-fullbody');
+
+    const bp1rm = document.getElementById('bp-1rm');
+    const fbSq = document.getElementById('fb-sq');
+    const fbBp = document.getElementById('fb-bp');
+    const fbDl = document.getElementById('fb-dl');
+
+    const scheduleBox = document.getElementById('dup-schedule-box');
+    const noteBox = document.getElementById('dup-note-box');
+
+    let currentModel = 'zourdos';
+    let currentFocus = 'bench';
+
+    function r25(val) { return (Math.round(val / 2.5) * 2.5).toFixed(1).replace('.0', ''); }
+
+    function buildCard(dayTitle, rows) {
+      let html = `<div class="mp-day-card"><div class="mp-day-header">${dayTitle}</div>`;
+      rows.forEach(r => {
+        html += `
+          <div class="mp-ex-row">
+            
+            <div class="mp-ex-header">
+              <div class="mp-ex-title">${r.ex}</div>
+              <span class="mp-badge ${r.badgeClass}">${r.badgeText}</span>
+            </div>
+            
+            <div class="mp-ex-body">
+              <div class="mp-ex-sets"><strong>${r.sets}</strong> sæt × <strong>${r.reps}</strong> reps</div>
+              <div class="mp-ex-desc">${r.desc}</div>
+              <div class="mp-ex-rpe">${r.rpe}</div>
+            </div>
+
+            <div class="mp-ex-footer">
+              <div class="mp-ex-weight">${r.weight}<small>kg</small></div>
+              <div class="mp-ex-pct">${r.pct}% 1RM</div>
+            </div>
+
+          </div>
+        `;
+      });
+      html += `</div>`;
+      return html;
+    }
+
+    function renderCards() {
+      scheduleBox.innerHTML = '';
+      const bp = parseFloat(bp1rm.value) || 100;
+      const sq = parseFloat(fbSq.value) || 140;
+      const dl = parseFloat(fbDl.value) || 180;
+
+      let html = '';
+
+      if (currentModel === 'zourdos') {
+        if (currentFocus === 'bench') {
+          html += buildCard("Dag 1 (Mandag)", [
+            { ex: "Bænkpres", badgeClass: "p-power", badgeText: "Power", sets: 5, reps: 3, desc: "Eksplosiv acceleration", rpe: "RPE 5–6", pct: "70", weight: r25(bp*0.70) }
+          ]);
+          html += buildCard("Dag 2 (Onsdag)", [
+            { ex: "Bænkpres", badgeClass: "p-strength", badgeText: "Styrke", sets: 4, reps: 4, desc: "Tung opbygning", rpe: "RPE ~8", pct: "82,5", weight: r25(bp*0.825) }
+          ]);
+          html += buildCard("Dag 3 (Fredag)", [
+            { ex: "Bænkpres", badgeClass: "p-hyper", badgeText: "Hypertrofi", sets: 3, reps: 8, desc: "Muskelmasse", rpe: "RPE ~8", pct: "72,5", weight: r25(bp*0.725) }
+          ]);
+        } else {
+          html += buildCard("Dag 1 (Mandag)", [
+            { ex: "Bænkpres", badgeClass: "p-power", badgeText: "Power", sets: 5, reps: 3, desc: "Eksplosiv acceleration", rpe: "RPE 5–6", pct: "70", weight: r25(bp*0.70) },
+            { ex: "Dødløft", badgeClass: "p-strength", badgeText: "Styrke", sets: 4, reps: 4, desc: "Tung opbygning", rpe: "RPE ~8", pct: "82,5", weight: r25(dl*0.825) },
+            { ex: "Squat", badgeClass: "p-hyper", badgeText: "Hypertrofi", sets: 3, reps: 8, desc: "Muskelmasse", rpe: "RPE ~8", pct: "72,5", weight: r25(sq*0.725) }
+          ]);
+          html += buildCard("Dag 2 (Onsdag)", [
+            { ex: "Squat", badgeClass: "p-power", badgeText: "Power", sets: 5, reps: 3, desc: "Eksplosiv acceleration", rpe: "RPE 5–6", pct: "70", weight: r25(sq*0.70) },
+            { ex: "Bænkpres", badgeClass: "p-strength", badgeText: "Styrke", sets: 4, reps: 4, desc: "Tung opbygning", rpe: "RPE ~8", pct: "82,5", weight: r25(bp*0.825) },
+            { ex: "Dødløft", badgeClass: "p-hyper", badgeText: "Hypertrofi", sets: 3, reps: 8, desc: "Muskelmasse", rpe: "RPE ~8", pct: "72,5", weight: r25(dl*0.725) }
+          ]);
+          html += buildCard("Dag 3 (Fredag)", [
+            { ex: "Dødløft", badgeClass: "p-power", badgeText: "Power", sets: 5, reps: 3, desc: "Eksplosiv acceleration", rpe: "RPE 5–6", pct: "70", weight: r25(dl*0.70) },
+            { ex: "Squat", badgeClass: "p-strength", badgeText: "Styrke", sets: 4, reps: 4, desc: "Tung opbygning", rpe: "RPE ~8", pct: "82,5", weight: r25(sq*0.825) },
+            { ex: "Bænkpres", badgeClass: "p-hyper", badgeText: "Hypertrofi", sets: 3, reps: 8, desc: "Muskelmasse", rpe: "RPE ~8", pct: "72,5", weight: r25(bp*0.725) }
+          ]);
+        }
+        noteBox.innerHTML = `<strong>💡 Udførelse for Zourdos-modellen (Styrkeløft & Eksplosivitet):</strong><ul><li><strong>Power-dag:</strong> Vægten føles let. Kør den opadgående fase med maksimal eksplosiv acceleration (RPE ~5–6).</li><li><strong>Styrke/Hypertrofi:</strong> Arbejd med ca. 2 reps i overskud (RPE ~8).</li><li>Øg arbejdsvægten med 1,25–2,5 kg pr. uge på tunge dage.</li></ul>`;
+      } 
+      else if (currentModel === 'bb') {
+        if (currentFocus === 'bench') {
+          html += buildCard("Dag 1 (Mandag)", [
+            { ex: "Bænkpres", badgeClass: "p-strength", badgeText: "Styrkedag", sets: 3, reps: 5, desc: "Myofibrillær stimulering", rpe: "RPE ~8", pct: "80", weight: r25(bp*0.80) }
+          ]);
+          html += buildCard("Dag 2 (Onsdag)", [
+            { ex: "Bænkpres", badgeClass: "p-hyper", badgeText: "Hypertrofi", sets: 3, reps: 8, desc: "Mekanisk spænding", rpe: "RPE ~8", pct: "72,5", weight: r25(bp*0.725) }
+          ]);
+          html += buildCard("Dag 3 (Fredag)", [
+            { ex: "Bænkpres", badgeClass: "p-pump", badgeText: "Udholdenhed", sets: 3, reps: 15, desc: "Metabolisk stress", rpe: "RPE ~8", pct: "60", weight: r25(bp*0.60) }
+          ]);
+        } else {
+          html += buildCard("Dag 1 (Mandag)", [
+            { ex: "Bænkpres", badgeClass: "p-strength", badgeText: "Styrkedag", sets: 3, reps: 5, desc: "Myofibrillær", rpe: "RPE ~8", pct: "80", weight: r25(bp*0.80) },
+            { ex: "Dødløft", badgeClass: "p-hyper", badgeText: "Hypertrofi", sets: 3, reps: 8, desc: "Mekanisk spænding", rpe: "RPE ~8", pct: "72,5", weight: r25(dl*0.725) },
+            { ex: "Squat", badgeClass: "p-pump", badgeText: "Udholdenhed", sets: 3, reps: 15, desc: "Metabolisk stress", rpe: "RPE ~8", pct: "60", weight: r25(sq*0.60) }
+          ]);
+          html += buildCard("Dag 2 (Onsdag)", [
+            { ex: "Squat", badgeClass: "p-strength", badgeText: "Styrkedag", sets: 3, reps: 5, desc: "Myofibrillær", rpe: "RPE ~8", pct: "80", weight: r25(sq*0.80) },
+            { ex: "Bænkpres", badgeClass: "p-hyper", badgeText: "Hypertrofi", sets: 3, reps: 8, desc: "Mekanisk spænding", rpe: "RPE ~8", pct: "72,5", weight: r25(bp*0.725) },
+            { ex: "Dødløft", badgeClass: "p-pump", badgeText: "Udholdenhed", sets: 3, reps: 15, desc: "Metabolisk stress", rpe: "RPE ~8", pct: "60", weight: r25(dl*0.60) }
+          ]);
+          html += buildCard("Dag 3 (Fredag)", [
+            { ex: "Dødløft", badgeClass: "p-strength", badgeText: "Styrkedag", sets: 3, reps: 5, desc: "Myofibrillær", rpe: "RPE ~8", pct: "80", weight: r25(dl*0.80) },
+            { ex: "Squat", badgeClass: "p-hyper", badgeText: "Hypertrofi", sets: 3, reps: 8, desc: "Mekanisk spænding", rpe: "RPE ~8", pct: "72,5", weight: r25(sq*0.725) },
+            { ex: "Bænkpres", badgeClass: "p-pump", badgeText: "Udholdenhed", sets: 3, reps: 15, desc: "Metabolisk stress", rpe: "RPE ~8", pct: "60", weight: r25(bp*0.60) }
+          ]);
+        }
+        noteBox.innerHTML = `<strong>💪 Udførelse for Bodybuilding DUP (5, 8 & 15 Reps):</strong><ul><li><strong>Trippel-spektrum:</strong> Rammer både råstyrke (5 reps), volumen (8 reps) og metabolisk pump (15 reps) i samme uge.</li><li>Øg arbejdsvægten med 1,25–2,5 kg pr. uge på 5- og 8-reps dagene, så længe RPE er 8.</li></ul>`;
+      }
+      else {
+        // RHEA MODEL
+        if (currentFocus === 'bench') {
+          html += buildCard("Dag 1 (Mandag)", [
+            { ex: "Bænkpres", badgeClass: "p-light", badgeText: "8RM Dag (Let)", sets: 3, reps: 8, desc: "Submaksimal volumen", rpe: "RPE 7.5–8", pct: "75", weight: r25(bp*0.75) }
+          ]);
+          html += buildCard("Dag 2 (Onsdag)", [
+            { ex: "Bænkpres", badgeClass: "p-power", badgeText: "6RM Dag (Moderat)", sets: 3, reps: 6, desc: "Moderat opbygning", rpe: "RPE 8", pct: "80", weight: r25(bp*0.80) }
+          ]);
+          html += buildCard("Dag 3 (Fredag)", [
+            { ex: "Bænkpres", badgeClass: "p-strength", badgeText: "4RM Dag (Tung)", sets: 3, reps: 4, desc: "Tung aksial belastning", rpe: "RPE 8.5–9", pct: "85", weight: r25(bp*0.85) }
+          ]);
+        } else {
+          html += buildCard("Dag 1 (Mandag)", [
+            { ex: "Bænkpres", badgeClass: "p-light", badgeText: "8RM Dag (Let)", sets: 3, reps: 8, desc: "Submaksimal", rpe: "RPE 7.5–8", pct: "75", weight: r25(bp*0.75) },
+            { ex: "Dødløft", badgeClass: "p-power", badgeText: "6RM Dag (Moderat)", sets: 3, reps: 6, desc: "Moderat opbygning", rpe: "RPE 8", pct: "80", weight: r25(dl*0.80) },
+            { ex: "Squat", badgeClass: "p-strength", badgeText: "4RM Dag (Tung)", sets: 3, reps: 4, desc: "Tung styrke", rpe: "RPE 8.5–9", pct: "85", weight: r25(sq*0.85) }
+          ]);
+          html += buildCard("Dag 2 (Onsdag)", [
+            { ex: "Squat", badgeClass: "p-light", badgeText: "8RM Dag (Let)", sets: 3, reps: 8, desc: "Submaksimal", rpe: "RPE 7.5–8", pct: "75", weight: r25(sq*0.75) },
+            { ex: "Bænkpres", badgeClass: "p-power", badgeText: "6RM Dag (Moderat)", sets: 3, reps: 6, desc: "Moderat opbygning", rpe: "RPE 8", pct: "80", weight: r25(bp*0.80) },
+            { ex: "Dødløft", badgeClass: "p-strength", badgeText: "4RM Dag (Tung)", sets: 3, reps: 4, desc: "Tung styrke", rpe: "RPE 8.5–9", pct: "85", weight: r25(dl*0.85) }
+          ]);
+          html += buildCard("Dag 3 (Fredag)", [
+            { ex: "Dødløft", badgeClass: "p-light", badgeText: "8RM Dag (Let)", sets: 3, reps: 8, desc: "Submaksimal", rpe: "RPE 7.5–8", pct: "75", weight: r25(dl*0.75) },
+            { ex: "Squat", badgeClass: "p-power", badgeText: "6RM Dag (Moderat)", sets: 3, reps: 6, desc: "Moderat opbygning", rpe: "RPE 8", pct: "80", weight: r25(sq*0.80) },
+            { ex: "Bænkpres", badgeClass: "p-strength", badgeText: "4RM Dag (Tung)", sets: 3, reps: 4, desc: "Tung styrke", rpe: "RPE 8.5–9", pct: "85", weight: r25(bp*0.85) }
+          ]);
+        }
+        noteBox.innerHTML = `<strong>📊 Udførelse for Rhea et al. (Klassisk DUP Studie):</strong><ul><li>Skifter direkte mellem 8RM (75%), 6RM (80%) og 4RM (85%) for at bryde plateauer.</li><li>Øg arbejdsvægten med 1,25–2,5 kg pr. uge gennem en 4-ugers blok.</li></ul>`;
+      }
+
+      scheduleBox.innerHTML = html;
+    }
+
+    // EVENT LISTENERS FOR TABS
+    btnMPower.addEventListener('click', () => { currentModel = 'zourdos'; btnMPower.classList.add('active'); btnMBb.classList.remove('active'); btnMRhea.classList.remove('active'); renderCards(); });
+    btnMBb.addEventListener('click', () => { currentModel = 'bb'; btnMBb.classList.add('active'); btnMPower.classList.remove('active'); btnMRhea.classList.remove('active'); renderCards(); });
+    btnMRhea.addEventListener('click', () => { currentModel = 'rhea'; btnMRhea.classList.add('active'); btnMPower.classList.remove('active'); btnMBb.classList.remove('active'); renderCards(); });
+
+    btnFocusBench.addEventListener('click', () => { currentFocus = 'bench'; btnFocusBench.classList.add('active'); btnFocusFB.classList.remove('active'); panelBench.style.display = 'block'; panelFB.style.display = 'none'; renderCards(); });
+    btnFocusFB.addEventListener('click', () => { currentFocus = 'fullbody'; btnFocusFB.classList.add('active'); btnFocusBench.classList.remove('active'); panelFB.style.display = 'block'; panelBench.style.display = 'none'; renderCards(); });
+
+    [bp1rm, fbSq, fbBp, fbDl].forEach(inp => inp.addEventListener('input', renderCards));
+
+    renderCards();
+  });
+</script>
