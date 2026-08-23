@@ -5,6 +5,33 @@ Sti: _includes/components/flashcards.html
 -----------------------------------------------------------------------------
 {% endcomment %}
 
+<style>
+  /* Cloze / Huludfyldning Styling */
+  .mp-cloze-blank {
+    display: inline-block;
+    padding: 2px 8px;
+    background-color: #e2e8f0;
+    border-bottom: 2px solid #2563eb;
+    border-radius: 4px;
+    color: #2563eb;
+    font-weight: 700;
+    margin: 0 2px;
+  }
+  .mp-cloze-revealed {
+    display: inline-block;
+    padding: 2px 8px;
+    background-color: #dbeafe;
+    border: 1px solid #93c5fd;
+    border-radius: 4px;
+    color: #1e40af;
+    font-weight: 800;
+    margin: 0 2px;
+  }
+  .mp-cloze-sentence {
+    margin-bottom: 12px;
+  }
+</style>
+
 {% if include.front and include.back %}
 {% assign raw_front = include.front %}
 {% assign raw_back = include.back %}
@@ -110,7 +137,7 @@ Sti: _includes/components/flashcards.html
   <div class="mp-card-stack">
     {% for card in card_list %}
     {% assign raw_front = card.question | default: card.front %}
-    {% assign raw_back = card.answer | default: card.back %}
+    {% assign raw_back = card.answer | default: card.back | default: "" %}
 
     {% assign page_identifier = page.slug | default: page.url | slugify %}
     {% assign question_identifier = raw_front | slugify %}

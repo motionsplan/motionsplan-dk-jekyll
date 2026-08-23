@@ -1,6 +1,8 @@
 ---
-title: 'Sådan finder du dit kondital: Beregning og tabel'
-seo_title: "Kondital: Beregning, beregner & tabel for mænd og kvinder"
+title: 'Kondital: Hvad er et godt kondital? (Tabel & beregner)'
+seo_title: "Kondital: Se tabel for mænd og kvinder (og beregn dit eget)"
+description: Hvad er et godt, højt kondital? Se kondital for mænd, kvinder, teenagere og børn i en samlet tabel og skema lige til at printe ud – eller beregn dit eget her!
+excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital for mænd, kvinder og børn i tabel. Find metoder til at teste dit kondital.
 keywords:
   - kondital
   - beregn kondital
@@ -12,14 +14,12 @@ permalink: /kondital/
 redirect_from:
   - /beregn-kondital/
   - /kondital-loeb/
-description: Hvad er et godt, højt kondital? Se kondital for mænd, kvinder, teenagere og børn i en samlet tabel og skema lige til at printe ud – eller beregn dit eget her!
-excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital for mænd, kvinder og børn i tabel. Find metoder til at teste dit kondital.
 header:
   overlay_image: /assets/images/unsplash/photo-1571008887538-b36bb32f4571.jpg
   credit: https://images.unsplash.com/photo-1571008887538-b36bb32f4571
   teaser: /assets/images/unsplash/photo-1571008887538-b36bb32f4571.jpg
   caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd, kvinder og børn?
-last_modified_at: '2026-07-25T16:50:00+02:00'
+last_modified_at: '2026-08-23T16:50:00+02:00'
 toc: 'true'
 categories:
 - Kondition
@@ -48,16 +48,6 @@ templates:
     btn_text: "📝 Se tabel over kondital"
     url: "https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing"
     image: "/assets/images/freebies/kondital.png"
-gallery_world_fitnesslevel:
-- image_path: /assets/images/blog/worldfitnesslevel-www.jpg
-  url: https://www.worldfitnesslevel.org/
-polar:
-- image_path: /assets/images/blog/polar-ownindex-2.jpg
-  url: /assets/images/blog/polar-ownindex-2.jpg
-- image_path: /assets/images/blog/polar-ownindex-3.jpg
-  url: /assets/images/blog/polar-ownindex-3.jpg
-- image_path: /assets/images/blog/polar-ownindex-4.jpg
-  url: /assets/images/blog/polar-ownindex-4.jpg
 faq:
 - question: Hvad er definitionen på et kondital?
   answer: Et kondital er defineret ved din maksimale iltoptagelse delt med din kropsvægt. Det måles i ml O₂ pr. min pr. kg kropsvægt.
@@ -75,6 +65,9 @@ faq:
   answer: For mænd i 20-29 år regnes et kondital over 52 som højt og over 57 som meget højt. For mænd i 40-49 år er et kondital over 44 højt. Se de fulde tabeller på siden.
 - question: Hvad er et godt kondital for en kvinde?
   answer: For kvinder i 15-29 år regnes et kondital over 44 som højt og over 49 som meget højt. For kvinder i 40-49 år er et kondital over 41 højt. Se de fulde tabeller på siden.
+flashcards:
+  - question: "Kondital beskriver din maksimale iltoptagelse i forhold til kropsvægt og angives i enheden {{c1::ml O2/min/kg::enhed}}."
+    answer: "Ved at dividere iltoptagelsen med vægten i kg kan du sammenligne kondition direkte på tværs af kropsstørrelser."
 ---
 
 Dit **kondital** fortæller, hvor effektivt din krop kan optage og anvende ilt i forhold til din kropsvægt ($\text{ml O}_2/\text{min/kg}$). 
@@ -141,6 +134,17 @@ Du kan se de præcise værdier for alle aldersgrupper i tabellerne nedenunder.
 
 Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge af [Morten Zacho](https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
 
+## Kondital tabel for atleter i verdensklasse (fx løb, cykling, roning, langrend)
+
+Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over 70. Hvis du forventer at kunne være med i verdenseliten, bør du vurdere dig selv ud fra nedenstående tabel:
+
+|         | Lavt | Middel | Højt  | Meget højt | Ekstremt højt |
+| ------- |:----:|:------:|:-----:|:----------:|:-------------:|
+| Mænd    | \< 60 | 60-70  | 70-80 | 80-90      | \> 90          |
+| Kvinder | \< 50 | 50-58  | 58-64 | 64-72      | \> 72          |
+
+Tabellen er udformet af [Morten Zacho](https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
+
 {% include motionsplan/templates.html id="kondital_tabel_doc" %}
 
 ## Hvad betyder tallene i praksis?
@@ -155,94 +159,55 @@ Tabellerne kan virke abstrakte, så her er en konkret fortolkning:
 
 Den nedre grænse for at klare sig selv og komme rundt er omkring 11 ml/kg/min. Det kan ramme ældre inaktive mennesker, der bliver syge — og er man først der, er det vanskeligt at genvinde konditionen.
 
-## Hvad er de højeste kondital der er målt?
-
-Den norske skiløber [Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie) har uden for sæson fået målt et kondital på 96 ml/kg/min. Den norske cyklist Oskar Svendsen har ifølge [procycling.no](https://www.procycling.no/3467273/) slået rekorden med en maksimal iltoptagelse målt til 97,5 ml/min/kg.
-
-Den norske triatlet Kristian Blummenfelt har rapporteret en historisk rekord med en VO2max på 101,1 ml/kg/min under laboratoriemåling – som den første atlet nogensinde til officielt at bryde 100-grænsen ifølge [About Run](https://aboutrun.com/kristian-blummenfelt-vo2-max-record-101/).
-
-Blummenfelt delte resultaterne fra testen på Instagram, hvor han ses løbe på et løbebånd iført en åndedrætsmaske, mens iltoptagelsen blev målt. Det endelige resultat fremgik klart på den afsluttende slide ifølge [Marathon Handbook](https://marathonhandbook.com/this-endurance-athlete-just-dropped-the-first-100-vo2max/).
-
-Mange [forskere mener](https://sweatscience.substack.com/p/the-vo2max-record-that-probably-wasnt), at målingen sandsynligvis er forkert. Et centralt argument er atletens RER-værdi (respiratorisk udvekslingskvotient) ved testens afslutning – normalt bør den overstige 1,00 ved maksimal anstrengelse, men Blummenfelts lå under dette, hvilket typisk indikerer, at atleten stoppede for tidligt og at den sande VO2max faktisk er endnu højere. Det giver biologisk mening for en rekord, men er fysiologisk mærkværdigt.
-
-Flere [fysiologer](https://velo.outsideonline.com/road/road-training/blummenfelt-vo2-max-record/), herunder UAE-holdets cheftræner, har stillet spørgsmålstegn ved rekordtallet. En del af kritikken går på, at det måleudstyr, der normalt bruges i laboratorier, ikke er designet til atleter, der kan forbruge over syv liter ilt pr. minut.
-
-Det er interessant, hvor mange nordmænd der er på listen over de højeste kondital i verden på [topendsports.com](https://www.topendsports.com/testing/records/vo2max.htm).
-
-[Anna Møller](https://sport.tv2.dk/video/2022-07-01-anna-moeller-har-faaet-maalt-det-hoejeste-kondital-paa-koebenhavns-universitet-6308926045112) har fået målt det højeste kondital på Københavns Universitet for danskere. Ellers kan du tjekke denne video med de højeste tal for kvinder, hvor langdistanceløberen Joan Benoit står registreret til 78,6 ml/min/kg.
-
-{% include video provider="youtube" id="KmigHqqdWto" %}
-
-## Kondital tabel for atleter i verdensklasse (fx løb, cykling, roning, langrend)
-
-Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over 70. Hvis du forventer at kunne være med i verdenseliten, bør du vurdere dig selv ud fra nedenstående tabel:
-
-|         | Lavt | Middel | Højt  | Meget højt | Ekstremt højt |
-| ------- |:----:|:------:|:-----:|:----------:|:-------------:|
-| Mænd    | \< 60 | 60-70  | 70-80 | 80-90      | \> 90          |
-| Kvinder | \< 50 | 50-58  | 58-64 | 64-72      | \> 72          |
-
-Tabellen er udformet af [Morten Zacho](https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
-
-## Sådan beregner du kondital fysiologisk
-
-For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** (VO₂max) og derefter dividere med din kropsvægt.
-
-$$
-\text{kondital} = \frac{\text{VO}_2\text{max}}{\text{kropsvægt}}
-$$
-
-Du kan forbedre dit kondital på to måder: enten ved at forbedre din maksimale iltoptagelse eller ved at tabe dig.
-
+---
 
 ## Beregn dit kondital uden fysisk test (fra sofaen)
 {: id="calculator" }
 
-Vil du have et hurtigt bud på dit kondital direkte fra sofaen, er der to veje at gå: ud fra din **puls** (mest præcis) eller ud fra din **alder og aktivitetsniveau**.
+Du behøver hverken løbebånd, laktatmåler eller at løbe dig helt i sænk for at få et realistisk estimat af din maksimale iltoptagelse ($VO_2max$). Med en såkaldt **sofatest** kan du estimere dit kondital ud fra fysiologiske data som hvilepuls, taljemål, kropsbygning og dit hverdagsaktivitetsniveau.
 
-### 1. Ud fra din puls (Uth-formlen)
-Hvis du kender din maxpuls og hvilepuls, giver Uth-formlen et bud på dit kondital:
+Vælg den metode i beregneren herunder, der passer bedst til de data, du har til rådighed:
 
-{% include calc/vo2max-maxpuls-uth.html %}
+{% include calc/kondital-sofatest-master.html %}
 
 ---
 
-### 2. Har du ingen pulsmåler? Test ud fra din livsstil
-Har du ikke styr på din hvilepuls, kan du estimere dit kondital ud fra spørgeskemaer om din krop og hvor meget du bevæger dig i hverdagen:
+### De tre videnskabelige modeller bag beregneren
+
+Vil du dykke ned i teorien og forskningen bag de tre sofatests, kan du læse mere om modellerne herunder:
 
 <details class="faq" markdown="1">
-<summary><strong>Konditalberegner (Nes et al. 2011) – baseret på aktivitetsniveau</strong></summary>
+<summary><strong>1. Uth-Sørensens formel (2004) – Baseret på pulsdata</strong></summary>
 
-I de følgende konditalberegnere har forskerne stillet spørgsmål om krop og aktivitetsniveau, som de har sammenlignet med fysiske laboratorietests.
+Uth-formlen tager udgangspunkt i forholdet mellem din hvilepuls og din maksimale puls ($HR_{max} / HR_{rest}$). Logikken er simpel: Et stærkt og veltrænet hjerte pumper mere blod ud pr. slag, hvilket giver en lavere hvilepuls og et større spænd op til makspulsen.
 
-[Nes et al (2011)](https://pubmed.ncbi.nlm.nih.gov/21502897/) har lavet denne test for VO₂max, som er baseret på nogle enkle antropometriske spørgsmål og selvoplevet fysisk aktivitetsniveau.
+* **Kræver:** Hvilepuls og makspuls.
+* **Præcision:** Standardafvigelse på ca. $\pm 4,9 \text{ ml O}_2/\text{kg/min}$.
 
-{% include calculator/calculate-fitness-norwegian-2011.html %}
+> **Læs mere:** Vil du vide mere om, hvordan du finder eller estimerer din makspuls præcist, kan du dykke ned i vores [dedikerede guide til Uths formel til at finde kondital ud fra puls](/kondital-fra-puls/).
 </details>
 
 <details class="faq" markdown="1">
-<summary><strong>Konditionsberegner (Jackson et al. 1990) – inkl. fedtprocent</strong></summary>
+<summary><strong>2. Nes et al. (2011) – HUNT-studiets fysiologiske model</strong></summary>
 
-[Jackson (1990)](https://www.topendsports.com/testing/tests/non-exercise.htm) har lavet denne test, som også har en variation, hvor du indsætter din fedtprocent.
+Denne model er udarbejdet af fysiologiske forskere ved NTNU (CERG) i Norge på baggrund af data fra over 37.000 deltagere i det omfattende HUNT-studie. Den kombinerer dine basale kropsmål med selvoplevet træningsintensitet.
 
-{% include calculator/calculate-fitness-jackson.html %}
+* **Kræver:** Alder, køn, taljemål, hvilepuls og ugentlig træningsmængde.
+* **Præcision:** Den mest præcise sofatest til almindelige voksne uten laboratorieudstyr.
+
+> **Bemærk:** Denne forskningsmodel ligger også til grund for den kendte norske [World Fitness Level](https://www.ntnu.edu/cerg/vo2max) beregner.
 </details>
 
 <details class="faq" markdown="1">
-<summary><strong>World Level Fitness</strong></summary>
+<summary><strong>3. Jackson et al. (1990) – Non-Exercise modellen (BMI & Aktivitet)</strong></summary>
 
-{% include gallery id="gallery_world_fitnesslevel" caption="World Fitness Level er lavet af norske forskere og giver dig et bud på dit fitness level ved at besvare en række spørgsmål." %}
+Jackson-modellen er udviklet til hurtigt at evaluere kondition uden brug af pulsmåler eller avanceret udstyr. Formlen kobler din kropsbygning (BMI via højde og vægt) med NASA's anerkendte PAR-aktivitetsskala (Physical Activity Rating 0-7).
 
+* **Kræver:** Alder, køn, højde, vægt og overordnet aktivitetsniveau.
+* **Præcision:** God til hurtig screening, når du ikke kender din hvilepuls eller makspuls.
 </details>
 
-<details class="faq" markdown="1">
-<summary><strong>Kondital fra Polar Ownindex</strong></summary>
-
-{% include gallery id="polar" layout="third" %}
-
-Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar Beat og en brystmåler. Jeg har skrevet mere om, hvordan du kan bruge dit [ur til at måle din kondition](/ur-vo2max/).
-
-</details>
+Jeg har skrevet mere om, hvordan du kan bruge dit [ur til at måle din kondition](/ur-vo2max/).
 
 ---
 
@@ -262,6 +227,18 @@ Her kan du finde vores mest populære fysiske konditionstests:
 Du kan også finde flere [løbetests](/tests/loeb/), [cykeltests](/tests/cykling/), rotests eller gangtests på vores samleside.
 
 [Se alle konditionstests](/kondition/tests/){: .btn .btn--large .btn--info }
+
+---
+
+## Sådan beregner du kondital fysiologisk
+
+For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** (VO₂max) og derefter dividere med din kropsvægt.
+
+$$
+\text{kondital} = \frac{\text{VO}_2\text{max}}{\text{kropsvægt}}
+$$
+
+Du kan forbedre dit kondital på to måder: enten ved at forbedre din maksimale iltoptagelse eller ved at tabe dig.
 
 ---
 
@@ -311,6 +288,26 @@ Bente Klarlund og Bengt Saltin har lavet følgende grafik, der viser hvad den re
 
 ---
 
+## Hvad er de højeste kondital der er målt?
+
+Den norske skiløber [Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie) har uden for sæson fået målt et kondital på 96 ml/kg/min. Den norske cyklist Oskar Svendsen har ifølge [procycling.no](https://www.procycling.no/3467273/) slået rekorden med en maksimal iltoptagelse målt til 97,5 ml/min/kg.
+
+Den norske triatlet Kristian Blummenfelt har rapporteret en historisk rekord med en VO2max på 101,1 ml/kg/min under laboratoriemåling – som den første atlet nogensinde til officielt at bryde 100-grænsen ifølge [About Run](https://aboutrun.com/kristian-blummenfelt-vo2-max-record-101/).
+
+Blummenfelt delte resultaterne fra testen på Instagram, hvor han ses løbe på et løbebånd iført en åndedrætsmaske, mens iltoptagelsen blev målt. Det endelige resultat fremgik klart på den afsluttende slide ifølge [Marathon Handbook](https://marathonhandbook.com/this-endurance-athlete-just-dropped-the-first-100-vo2max/).
+
+Mange [forskere mener](https://sweatscience.substack.com/p/the-vo2max-record-that-probably-wasnt), at målingen sandsynligvis er forkert. Et centralt argument er atletens RER-værdi (respiratorisk udvekslingskvotient) ved testens afslutning – normalt bør den overstige 1,00 ved maksimal anstrengelse, men Blummenfelts lå under dette, hvilket typisk indikerer, at atleten stoppede for tidligt og at den sande VO2max faktisk er endnu højere. Det giver biologisk mening for en rekord, men er fysiologisk mærkværdigt.
+
+Flere [fysiologer](https://velo.outsideonline.com/road/road-training/blummenfelt-vo2-max-record/), herunder UAE-holdets cheftræner, har stillet spørgsmålstegn ved rekordtallet. En del af kritikken går på, at det måleudstyr, der normalt bruges i laboratorier, ikke er designet til atleter, der kan forbruge over syv liter ilt pr. minut.
+
+Det er interessant, hvor mange nordmænd der er på listen over de højeste kondital i verden på [topendsports.com](https://www.topendsports.com/testing/records/vo2max.htm).
+
+[Anna Møller](https://sport.tv2.dk/video/2022-07-01-anna-moeller-har-faaet-maalt-det-hoejeste-kondital-paa-koebenhavns-universitet-6308926045112) har fået målt det højeste kondital på Københavns Universitet for danskere. Ellers kan du tjekke denne video med de højeste tal for kvinder, hvor langdistanceløberen Joan Benoit står registreret til 78,6 ml/min/kg.
+
+{% include video provider="youtube" id="KmigHqqdWto" %}
+
+---
+
 ## Konklusion: Hvad kan du bruge dit kondital til?
 
 At beregne eller teste sit kondital er en fantastisk måde at få et konkret tal på sin fysiologiske form. Men husk altid, at et beregnet kondital blot er en tilnærmelse af virkeligheden – det vigtigste er ikke det præcise tal i sig selv, men **udviklingen i dine resultater over tid**.
@@ -329,6 +326,8 @@ Har du en specifik løbetid, du gerne vil regne ud fra? Du kan også prøve vore
 ## Ofte stillede spørgsmål om kondital
 
 {% include motionsplan/faq.html %}
+
+{% include components/flashcards.html cards=page.flashcards%}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

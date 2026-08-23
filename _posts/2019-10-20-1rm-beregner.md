@@ -1,13 +1,13 @@
 ---
 title: 'RM-beregner: Udregn dit 1RM max (One Repetition Maximum)'
-seo_title: '1RM Beregner | Udregn dit max løft i kg & se 1RM tabel'
+seo_title: 'RM Beregner | Udregn dit max løft i kg & se 1RM tabel'
 description: 'Brug vores gratis 1RM beregner til at udregne dit max løft i kg i bænkpres, squat og dødløft. Se Epleys formel, repetition ranges og 1RM tabel.'
+excerpt: Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Beregn din 1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres.
 permalink: /rm-beregner/
 classes: wide
 redirect_from:
   - /artikel/brug-tests-og-faa-fremgang/
   - /1rm-one-rep-max/
-excerpt: Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Beregn din 1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1526401485004-46910ecc8e51.jpg
@@ -106,7 +106,7 @@ Indtast den løftede vægt i kg og antallet af gentagelser. Vælg en specifik be
 
 {% include calc/1rm.html %}
 
-## Hvad er en RM-beregner?
+## Hvad er en 1RM-beregner?
 
 En **RM-beregner** kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser.
 

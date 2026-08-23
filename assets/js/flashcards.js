@@ -2,6 +2,31 @@ document.addEventListener('DOMContentLoaded', () => {
   const STORAGE_KEY = 'motionsplan_flashcards';
   const OPT_OUT_KEY = 'motionsplan_disable_flashcards';
 
+  // Parser Anki-style Cloze deletion: {{c1::svar}} eller {{c1::svar::hint}}
+  function parseAnkiCloze(text) {
+    if (!text) return null;
+    const clozeRegex = /\{\{c\d+::([^:]+?)(?:::([^:]+?))?\}\}/g;
+    
+    if (!clozeRegex.test(text)) return null;
+
+    clozeRegex.lastIndex = 0; // Reset index efter test()
+
+    // Forside: Erstat med [...] eller [hint]
+    const frontText = text.replace(clozeRegex, (match, answer, hint) => {
+      const placeholder = hint ? `[${hint}]` : '[...]';
+      return `<span class="mp-cloze-blank">${placeholder}</span>`;
+    });
+
+    clozeRegex.lastIndex = 0; // Reset index igen
+
+    // Bagside: Fremhæv svaret
+    const backText = text.replace(clozeRegex, (match, answer) => {
+      return `<span class="mp-cloze-revealed">${answer}</span>`;
+    });
+
+    return { front: frontText, back: backText };
+  }
+
   // Skjul moduler hvis brugeren har valgt opt-out
   if (localStorage.getItem(OPT_OUT_KEY) === 'true') {
     document.querySelectorAll('.mp-flashcard-stack-container').forEach(el => el.style.display = 'none');
@@ -32,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return { bottomStack, cardStack };
   }
 
-// Opdaterer bundstakken (viser KUN det første svære kort ad gangen)
+  // Opdaterer bundstakken (viser KUN det første svære kort ad gangen)
   function refreshBottomStack() {
     const bottomData = getBottomStack();
     if (!bottomData) return;
@@ -117,6 +142,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const title = wrapper.dataset.title;
     const frontContent = wrapper.querySelector('.mp-card-front .mp-card-content');
     const backContent = wrapper.querySelector('.mp-card-back .mp-card-content');
+    const questionTextEl = wrapper.querySelector('.mp-question-text');
+    const answerTextEl = wrapper.querySelector('.mp-answer-text');
+
+    // Tjek om teksten indeholder Anki Cloze syntaks
+    if (questionTextEl) {
+      const clozeData = parseAnkiCloze(questionTextEl.innerHTML);
+      if (clozeData) {
+        // Opdatér forsiden med blank felt [...]
+        questionTextEl.innerHTML = clozeData.front;
+
+        // Opdatér bagsiden med det afslørede svar
+        if (answerTextEl) {
+          const existingText = answerTextEl.innerHTML.trim();
+          if (!existingText || existingText === '<p></p>') {
+            answerTextEl.innerHTML = `<p class="mp-cloze-sentence">${clozeData.back}</p>`;
+          } else {
+            answerTextEl.innerHTML = `<div class="mp-cloze-sentence">${clozeData.back}</div>${existingText}`;
+          }
+        }
+      }
+    }
 
     // Gem baseline-data i localStorage
     let store = getStoredData();
@@ -154,45 +200,44 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 3. Multiple Choice knapper
-    // Auto-shuffle af options og tjek af facit
-const grid = wrapper.querySelector('.mp-options-grid');
+    const grid = wrapper.querySelector('.mp-options-grid');
 
-if (grid) {
-  const btns = Array.from(grid.children);
-  const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+    if (grid) {
+      const btns = Array.from(grid.children);
+      const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
 
-  // 1. Scramble (bland) knapperne i tilfældig rækkefølge (Fisher-Yates Algorithm)
-  for (let i = btns.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    grid.appendChild(btns[j]);
-  }
-
-  // 2. Tildel nye A, B, C... bogstaver ud fra den nye rækkefølge
-  Array.from(grid.children).forEach((btn, idx) => {
-    const letterSpan = btn.querySelector('.mp-option-letter');
-    if (letterSpan) letterSpan.textContent = letters[idx] || '';
-
-    // 3. Klik-event: Tjek om denne knap var den oprindelige muligheden nr. 1
-    btn.onclick = (e) => {
-      e.preventDefault();
-      const isCorrect = btn.dataset.correct === 'true';
-      const resultBadge = wrapper.querySelector('.mp-user-result-badge');
-
-      if (resultBadge) {
-        if (isCorrect) {
-          resultBadge.textContent = "Korrekt! 🎉";
-          resultBadge.className = "mp-user-result-badge correct";
-        } else {
-          resultBadge.textContent = "Forkert ❌";
-          resultBadge.className = "mp-user-result-badge wrong";
-        }
+      // 1. Scramble (bland) knapperne i tilfældig rækkefølge (Fisher-Yates Algorithm)
+      for (let i = btns.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        grid.appendChild(btns[j]);
       }
 
-      // Vend kortet om til forklaringen
-      wrapper.classList.add('flipped');
-    };
-  });
-}
+      // 2. Tildel nye A, B, C... bogstaver ud fra den nye rækkefølge
+      Array.from(grid.children).forEach((btn, idx) => {
+        const letterSpan = btn.querySelector('.mp-option-letter');
+        if (letterSpan) letterSpan.textContent = letters[idx] || '';
+
+        // 3. Klik-event: Tjek om denne knap var den oprindelige muligheden nr. 1
+        btn.onclick = (e) => {
+          e.preventDefault();
+          const isCorrect = btn.dataset.correct === 'true';
+          const resultBadge = wrapper.querySelector('.mp-user-result-badge');
+
+          if (resultBadge) {
+            if (isCorrect) {
+              resultBadge.textContent = "Korrekt! 🎉";
+              resultBadge.className = "mp-user-result-badge correct";
+            } else {
+              resultBadge.textContent = "Forkert ❌";
+              resultBadge.className = "mp-user-result-badge wrong";
+            }
+          }
+
+          // Vend kortet om til forklaringen
+          wrapper.classList.add('flipped');
+        };
+      });
+    }
 
     // 4. Rating knapper (🔴 Svær, 🟡 OK, 🟢 Let)
     wrapper.querySelectorAll('[data-rating]').forEach(btn => {
