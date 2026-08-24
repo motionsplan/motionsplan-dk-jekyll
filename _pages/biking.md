@@ -16,8 +16,6 @@ header:
   actions:
   - label: <i class='fas fa-download'></i> Hvad er min hastighed?
     url: /hastighed/
-sidebar:
-  nav: trainingtypes
 toc: 'true'
 classes: wide
 categories:

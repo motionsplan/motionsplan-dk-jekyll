@@ -47,8 +47,6 @@ feature_row_skridt_til_km:
     får du også svaret på, hvor hurtigt man går 1 kilometer?
   btn_label: Hvor hurtigt går du?
   btn_class: btn--info
-sidebar:
-  nav: trainingtypes
 categories:
 - Træning
 - Gang

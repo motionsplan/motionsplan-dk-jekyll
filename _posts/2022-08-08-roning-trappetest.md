@@ -64,7 +64,7 @@ faq:
 last_modified_at: '2026-08-16T10:14:14Z'
 ---
 
-Trappetesten i roning er en test til at finde dit [kondital](/kondital/). Det er en af de mest udbredte og fysiologisk pålidelige [tests til roning](/kondital-roning/), især hvis du ror regelmæssigt og vil kende din maksimale ydeevne uden brug af iltmaske.
+Trappetesten i roning er en test til at finde dit [kondital](/kondital/). Det er en af de mest udbredte og fysiologisk pålidelige tests sammen med [2000 meter testen til roning](/kondital-roning/), især hvis du ror regelmæssigt og vil kende din maksimale ydeevne uden brug af iltmaske.
 
 Trappetests (inkrementelle tests) kendes fra forskellige udholdenhedsidrætter, f.eks. cykling og løb. Fælles for dem alle er, at du starter på et relativt lavt niveau og gradvist øger belastningen, indtil du til sidst rammer udmattelse. 
 
@@ -83,12 +83,12 @@ Sæt computeren eller mobilen foran roergometeret, vælg dit startniveau og tryk
 
 ---
 
-## Hvordan udføres trappetesten i roning i praksis?
+## Sådan udføres trappetesten i roning i praksis
 
 Protokollen er udviklet af Kurt Jensen for Team Danmark og beskrevet detaljeret i [Aldersrelateret Træning i Roning (ATRO)](https://roning.dk/app/uploads/2016/12/ATRO-bogen.pdf). Den udføres således:
 
-- Trinnene varer præcis **5 minutter**.
-- I værktøjet ovenfor (eller i ATRO-tabellen længere nede) vælger du det niveau, der bedst matcher den forventede Tid/500m, du kan holde under et maksimalt 2000-meter-løb.
+- Trinene varer præcis **5 minutter**.
+- I værktøjet ovenfor (eller i ATRO-tabellen længere nede) vælger du det niveau, der bedst matcher den forventede Tid/500m, du kan holde på en 2000-meter-test.
 - Start på Trin 1. Hold det præcise **Watt-tal** og den foreslåede **kadence (+/- 2 tag pr. min)**. Modsat cykling styrer romaskinen ikke selv belastningen, så det kræver koncentration at ro *steady*.
 - Efter præcis 5 minutter på Trin 1 fortsætter du straks og uden pause på Trin 2, hvor både Watt og kadence stiger.
 - Fortsæt til du er totalt udmattet. Testen afbrydes, når du ikke længere kan holde den krævede Watt-belastning i tre på hinanden følgende rotag.
@@ -128,14 +128,20 @@ $230 \text{ Watt} + 9 \text{ Watt} = \mathbf{239 \text{ Watt}}$.
 
 I vores beregner øverst sker denne interpolering helt automatisk.
 
+---
+
 ## Hvordan varmer jeg op til testen?
 
 Du behøver ikke køre en separat opvarmning, da de to første trin på 5 minutter ved relativt lav belastning (hhv. Trin 1 og Trin 2) fungerer perfekt som fysiologisk opvarmning. Brug dem til at finde ro-rytmen, holde øje med skærmen og mærke efter i musklerne.
+
+---
 
 ## Hvornår er testen godkendt?
 
 1. **Du skal være fuldstændig udmattet**, når du slipper håndtaget. Hvis du benytter en pulsmåler, bør din puls være inden for få slag af din maksimale puls. Tager du laktatprøver, vil værdierne også være maksimale.
 2. For at sikre, at testen har forløbet primært aerobt, skal du **som minimum nå til Trin 6 eller Trin 7**. Bliver du udmattet på Trin 4, startede du for hårdt, og testen viser ikke et retvisende billede af din udholdenhed.
+
+---
 
 ## Den fysiologiske formel bag beregningen
 
@@ -144,6 +150,33 @@ Kurt Jensen og Team Danmark har efter talrige valideringstests i laboratoriet p�
 $$ \text{VO}_2\text{max (mL/min)} = 13,7 \times \text{Maksimal Watt} + 287 $$
 
 Dette absolutte tal (i milliliter) deles herefter med din kropsvægt i kilo for at finde dit endelige **relative kondital** (mL/kg/min).
+
+---
+
+
+## Hvorfor skal kadencen (SPM) overholdes?
+
+Den primære årsag er **standardisering og formlens validitet**. Kurt Jensens formel for VO₂max er udledt empirisk på baggrund af præcis denne protokol, hvor kadencen stiger synkront med belastningen (fra 20 til 32 SPM).
+
+* **Præcis iltudnyttelse:** Hvis du ændrer kadencen markant, ændres den mekaniske virkningsgrad (forholdet mellem dit faktiske iltforbrug og den ydede effekt i Watt). Dermed passer formlens fysiologiske præmisser ikke længere.
+* **Kredsløb frem for muskelstyrke:** Sænker du kadencen for at ro på ren råstyrke, øges kraftudviklingen i det enkelte rotag. Det flytter testen fra at være en måling af dit centrale kredsløb (hjerte og lunger) over mod lokal muskulær udholdenhed.
+
+---
+
+## Sådan bruger du trappetesten til at finde dine træningszoner
+
+Trappetesten måler din maksimale aerobe effekt (Peak Power Output). Da testen afvikles i 5-minutters trin, opnår dit kredsløb en stabil tilstand (*steady state*) på hvert niveau, hvilket gør testen ideel til at kortlægge dine træningszoner:
+
+1. **Watt og Puls (med pulsmåler):** Bærer du pulsmåler under testen, kan du direkte aflæse, hvilken puls du holder ved de enkelte Watt-niveauer. Det giver et præcist billede af din reelle belastning på f.eks. Trin 3 og Trin 4.
+2. **Matematiske zoner (baseret på Peak Watt):** Har du ikke målt mælkesyre eller puls, kan du bruge dit slut-resultat (Max Watt) fra testen som udgangspunkt for dine træningszoner:
+
+* **Zone 1 (Aktiv Restitution):** < 45 % af Max Watt
+* **Zone 2 (Udholdenhed / Langtur):** 45 – 60 % af Max Watt
+* **Zone 3 (Tempo / Sub-tærskel):** 60 – 75 % af Max Watt
+* **Zone 4 (Anaerob Tærskel / AT):** 75 – 90 % af Max Watt
+* **Zone 5 (VO₂max / Intervaller):** 90 – 100+ % af Max Watt
+
+---
 
 ## Hvordan forbedrer jeg mit kondital?
 
@@ -155,7 +188,17 @@ Du kan også lade dig inspirere af vores [intervaller til romaskinen](/artikel/t
 
 ---
 
-## FAQ om Trappetesten i roning
+## Har du travlt? Prøv 2000-meter testen i stedet
+
+Trappetesten er den fysiologisk mest præcise rotest, og den er dejlig nem at pace, fordi du bare skal følge skemaets faste Watt- og SPM-krav slavisk. Ulempen er, at testen typisk tager 30-40 minutter.
+
+Hvis du foretrækker en kortere, mere brutal test (6-10 minutter) og gerne vil måle din samlede præstationsevne og "kampskarphed", kan du i stedet køre en **2000-meter all-out test**. Denne test måler dog i højere grad din mælkesyretolerance og kræver, at du selv er i stand til at disponere (pace) dine kræfter perfekt fra start til slut.
+
+[Læs alt om 2000-meter testen og beregn kondital her](/kondital-roning/){: .btn .btn--large .btn--info }
+
+---
+
+## FAQ om trappetesten i roning
 
 {% include motionsplan/faq.html %}
 

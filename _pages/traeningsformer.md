@@ -14,8 +14,6 @@ header:
   credit: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9
   teaser: /assets/images/unsplash/photo-1540474238286-8fd6702d30d9.jpg
   caption: Træningsformer og motionsformer
-sidebar:
-  nav: trainingtypes
 feature_row_topics:
   - image_path: /assets/images/unsplash/photo-1526403223670-2aa44aaface2.jpg
     credit: https://images.unsplash.com/photo-1526403223670-2aa44aaface2

@@ -12,8 +12,6 @@ header:
   caption: Yoga
 author_profile: 'false'
 toc: 'true'
-sidebar:
-  nav: trainingtypes
 categories:
 - Træning
 tag:

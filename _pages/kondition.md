@@ -37,8 +37,6 @@ feature_row_kondital:
 author_profile: 'true'
 system:
 - fitnessinstruktør
-sidebar:
-  nav: trainingtypes
 toc: 'true'
 faq:
   - question: Hvad er kondition?

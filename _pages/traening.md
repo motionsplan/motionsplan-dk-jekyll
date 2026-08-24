@@ -18,8 +18,6 @@ header:
   actions:
     - label: "<i class='fas fa-rocket'></i> Se træningsprogrammer →"
       url: /traeningsprogrammer/
-sidebar:
-  nav: trainingtypes
 feature_row_topics:
   - image_path: /assets/images/unsplash/photo-1526403223670-2aa44aaface2.jpg
     credit: https://images.unsplash.com/photo-1526403223670-2aa44aaface2

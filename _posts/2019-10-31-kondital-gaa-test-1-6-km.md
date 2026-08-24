@@ -3,8 +3,7 @@ title: 'Gå-test (1,6 km Rockport): Beregn dit kondital med gang 🚶‍'
 seo_title: 'Gå-test: Beregn dit kondital med Rockport 1,6 km gangtest'
 description: 'Tag en simpel gå-test og beregn dit kondital ud fra Rockports 1,6 km gangtest. Den ideelle konditionstest for dig, der vil i form ved at gå.'
 permalink: /gaatest/
-excerpt: Rockports 1,6 km gå-test er en submaksimal gang-test til at estimere konditallet ud fra tiden det tager at gennemføre
-  gangtesten. Gå-testen er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige.
+excerpt: Rockports 1,6 km gå-test er en submaksimal gangtest til at estimere konditallet ud fra gangtid og slutpuls. Testen er skånsom og velegnet til begyndere, ældre og overvægtige.
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1434119261056-73a0f53c8306.jpg
@@ -29,10 +28,10 @@ tests:
   - id: "test-rockport-16km-gangtest"
     title: "Rockports 1,6 km Gangtest"
     description: "Submaksimal 1,6 km (1 mile) felt-gangtest til estimering af VO2max og kondital ud fra tid, slutpuls, kropsvægt, alder og køn."
-    category: ["Kondition", "Gang"]        # 💡 Søgbar under BÅDE Kondition og Gang i test-databasen
+    category: ["Kondition", "Gang"]        
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]
-    method: "indirekte"                  # 🧮 Indirekte test: Estimering af VO2max ud fra gangtid og slutpuls
+    method: "indirekte"                  
     modality: ["Gang"]
     measures: ["Kondital", "VO2max", "Iltoptagelse"]
     equipment: ["Fladt underlag", "Stopur", "Pulsmåler", "Vægt"]
@@ -60,95 +59,106 @@ tags:
 - tracking
 - featured
 - populær
-last_modified_at: '2026-07-13T10:14:14Z'
+last_modified_at: '2026-08-24T22:15:00Z'
 faq:
   - question: Hvem egner Rockports gå-test sig til?
-    answer: Rockport 1,6 km gå-testen er ideel til motionister, begyndere, overvægtige eller folk, der ønsker at teste deres kondition uden at skulle løbe.
+    answer: Rockport 1,6 km gå-testen er ideel til motionister, begyndere, overvægtige og ældre, der ønsker at teste deres kondition på en skånsom måde uden at skulle løbe.
   - question: Hvor hurtigt skal man gå 1,6 km?
-    answer: Tempoet skal være rask gang i et jævnt tempo, hvor du bliver moderat forpustet. Du kan sammenligne din tid med vores oversigt over, [hvor hurtigt man normalt går](/tid-at-gaa/).
+    answer: Tempoet skal være rask gang i et jævnt, højt tempo, hvor du bliver moderat forpustet, men uden at løbe. Du kan sammenligne din tid med vores oversigt over, [hvor hurtigt man normalt går](/tid-at-gaa/).
 ---
 
-Vil du gerne kende dit kondital ud fra en gå-test? Så er Rockports 1,6 km gå-test helt oplagt. Her får du både baggrunden for testen og en beregner til at udregne dit resultat.
+Vil du gerne kende dit kondital, men foretrækker du at undgå de hårde og opslidende løbetests? Så er **Rockports 1,6 km gå-test** (ofte kaldet *Rockport Walk Test*) det perfekte valg for dig.
 
-**Rockports 1,6 km gå-test er en submaksimal konditionstest. Konditallet estimeres ud fra tiden for gennemførelse af testen og pulsen hen mod afslutningen af gå-testen.**
+Testen er en submaksimal konditionstest. Det betyder, at du ikke skal presse dig selv til udmattelse. I stedet estimeres dit [kondital](/kondital/) indirekte ved at kigge på den tid, det tager dig at gå distancen, samt hvor meget dit hjerte belastes undervejs (din slutpuls).
 
-Rockports gå-test er særligt egnet til utrænede, folk i dårlig form, ældre og overvægtige. Testen kræver blot, at du kan gå 1,6 km, tage tid på det og måle pulsen til sidst i gang-testen.
+Rockports gå-test er skånsom for led og sener og henvender sig især til begyndere, utrænede, overvægtige og ældre. Det eneste, testen kræver, er, at du kan gå 1,6 kilometer rask til, måle tiden og aflæse din puls til sidst.
 
 > **Er du ikke så godt gående?**
-> Hvis ikke du kan gå så langt, så kan du overveje [6 minutters gang-test (6MWT)](/gaatest-6min/).
+> Hvis 1,6 km (1 mile) er for langt, eller du er meget besværet af gangen, kan du overveje den kortere [6 minutters gang-test (6MWT)](/gaatest-6min/).
 {: .notice--info }
 
-I vores beregner kan du vælge mellem to formler, hvor formlen af Lunt et al (2013) henvender sig til yngre, raske mennesker i god form.
+I beregneren længere nede kan du indtaste dine resultater og udregne dit kondital. Du har endda mulighed for at vælge mellem to forskellige videnskabelige formler afhængigt af din alder og grundform.
 
 [<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
-## Sådan udfører du gå-testen på 1,6 km
+## Sådan udfører du gå-testen i praksis
 
-Du kan se, hvordan man udfører _Rockport Fitness Walking Test (RFWT)_ forklaret i denne Youtube-video.
+Det er afgørende, at du giver den gas og går så hurtigt, som du overhovedet kan, *uden at begynde at løbe*. Du kan se, hvordan *Rockport Fitness Walking Test* udføres i denne video:
 
 {% include video provider="youtube" id="tYhltBpAsSo" %}
 
-Du skal i testen [måle din puls](/puls/). Du kan enten måle din puls med en pulsmåler eller ved at tælle pulsen med et stopur.
+Du skal [måle din puls](/puls/) umiddelbart efter målstregen. Det gøres mest præcist med et pulsur eller et pulsbælte, men du kan også tælle hjerteslagene manuelt med et stopur i 15 sekunder og gange med fire.
 
-Følg disse trin for at gennemføre testen:
+**Følg disse 6 trin for at gennemføre testen:**
 
-1. **Vej dig** på en pålidelig vægt.
-2. **Mål en distance på 1,609 km**. Det er oplagt at gå på en 400 meter løbebane eller en anden flad vej. Alternativt kan du gøre det på løbebånd, men resultatet er måske ikke helt så pålideligt.
-3. **Varm op** i 10 minutter.
-4. **Gå distancen** i et hurtigt tempo. Det er vigtigt at holde en konstant fart, så hjertet ligger nogenlunde på _steady state_ i en stor periode af testen.
-5. Skriv tiden ned og den puls du havde ved afslutningen af de 1,6 km.
-6. Indtast værdierne i beregneren nedenunder for at få dit kondital.
+1. **Vej dig:** Testen kræver din præcise kropsvægt (gerne i let træningstøj).
+2. **Mål distancen (1.609 meter):** Det svarer præcist til 1 mile. Det gøres lettest på en 400 meter løbebane (lidt over 4 omgange) eller en fuldstændig flad asfalteret vej målt op med GPS. Testen kan udføres på løbebånd, men resultatet er i forskningen mindre pålideligt end udendørs gang.
+3. **Varm op:** Gå i et roligt tempo i 5-10 minutter, så kroppen er klar.
+4. **Gå testen:** Gå distancen i et jævnt, hurtigt tempo. Sørg for at holde farten stabil, så dit hjerte arbejder roligt (steady state) under størstedelen af turen.
+5. **Notér tid og puls:** Stop uret præcis på 1.609 meter og aflæs straks din puls.
+6. **Brug beregneren:** Indtast dine værdier i beregneren herunder og find dit kondital.
 
 ## Udregn dit kondital ud fra 1,6 km gang-test
 {: id="calculator" }
 
-Du kan udregne dit kondital i denne beregner til gå-testen.
+Indtast din tid, slutpuls og dine personlige data i beregneren herunder.
 
 {% include calc/walkingtest-rockport.html %}
 
-## Validiteten af Rockports 1,6 km gå-test
+---
 
-Rockports gå-test estimerer konditallet. Hvor præcist den rammer konditallet for den enkelte afhænger af mange faktorer.
+## Formlerne bag Rockports gang-test
 
-Weiglein (2011) har vist at testen er valid til at estimere konditallet, når man sammenligner med 1,5 mile (2.414 meter) løbetesten, som bruges af det amerikanske militær. Det betyder i praksis, at den kan sammenlignes med [Coopers 2400 meter test](/kondital-2400-meter/).
+I beregneren kan du vælge mellem to anerkendte fysiologiske modeller. Selvom de begge tager udgangspunkt i Rockport-protokollen, har de lidt forskellige målgrupper:
 
-Lunt et al (2013) rapporterer imidlertid, at studier har fundet, at formlerne fra Kline et al (1987) overestimerer VO₂max med mellem 8% and 23%. Lunt et al (2013) foreslår selv en alternativ formler for folk fra 18-39 år, som passer bedre på det militærpersonale, de undersøgte.
+### 1. Kline (1987) - Standard Rockport Walk Test
+Dette er den klassiske og mest udbredte formel. Den blev oprindeligt udviklet af Kline et al. (1987) til en bred befolkningsgruppe i alderen 30-69 år.
 
-Testen er relativt god til at overvåge fremgang i dit træningsniveau. Du kan altså lave testen, når du begynder med at træne, og så kan du følge op med en test fx hver anden uge. På den måde kan du følge med i, hvordan træningen virker for formen.
+$$ \text{Kondital} = 132{,}853 - (0{,}1695 \cdot \text{Vægt}) - (0{,}3877 \cdot \text{Alder}) + (6{,}315 \cdot \text{Køn}) - (3{,}2649 \cdot \text{Tid}) - (0{,}1565 \cdot \text{Puls}) $$
 
-## Formel bag Rockports 1600 meters gå-test
+*Hvor:*
+* **Kropsvægt** angives i lbs (pounds) i den originale ligning.
+* **Køn:** Mand = 1, Kvinde = 0.
+* **Tid:** Minutter med decimaler (fx er 15 min. og 30 sek. = 15,5).
 
-### Kline (1987) - Standard Rockport Walk Test
+### 2. Lunt et al. (2013) - For yngre og raske
+Lunt et al. (2013) observerede, at standardformlen fra Kline ofte overestimerede konditallet med op til 8-23 % for yngre, raske voksne (herunder militærpersonale). Lunt foreslog derfor denne justerede formel, som er mere præcis, hvis du er i alderen 18-39 år og i rimelig fysisk form:
 
-Testen er oprindeligt udviklet af Kline et al (1987). De udviklede denne formel for at estimere konditallet med en målgruppe mellem 30-69 år:
+$$ \text{Kondital} = 51{,}047 + (8{,}336 \cdot \text{Køn}) + \left(\frac{635{,}012}{\text{Tid}}\right) - (0{,}225 \cdot \text{Puls}) - (0{,}271 \cdot \text{Vægt i kg}) - (0{,}231 \cdot \text{Alder}) $$
 
-$$ \text{Kondital} = 132{,}853 - 0{,}169535479 \cdot \text{Kropsvægt} - 0{,}3877 \cdot \text{Alder} + 6{,}315 \cdot \text{Køn} - 3{,}2649 \cdot \text{Tid} - 0{,}1565 \cdot \text{HR} $$
+## Hvorfor får mænd foræret point i formlen?
 
-Hvor:
+Når du kigger på standardformlen for Rockport-testen (Kline, 1987), vil du bemærke et særligt led: **$+ (6{,}315 \cdot \text{Køn})$**. 
 
-* **VO₂max** = Kondital (ml $\text{O}_2$ / kg / min)
-* **$m$** = Kropsvægt (kg)
-* **$A$** = Alder (år)
-* **$S$** = Køn ($\text{Mand} = 1$, $\text{Kvinde} = 0$)
-* **$t$** = Tid i minutter og decimaler (fx 15 min. og 30 sek. = $15{,}5$ min)
-* **$HR$** = Puls / Heart Rate (slag/min)
+Da mænd er indkodet som '1' og kvinder som '0', betyder det, at der **lægges over 6 point direkte til mandens kondital**, blot fordi han er mand.
 
-### Lunt et al. (2013)
+Hvis en 40-årig mand og en 40-årig kvinde, der begge vejer 75 kg, går distancen på præcis **15:00 minutter** og slutter med en puls på **130**, vil manden altså få udregnet et kondital på ca. 41, mens kvinden får 35. 
 
-Lunt et al (2013) undersøgte militærpersonale i alderen 18-39 år. De fandt, at følgende formel var endnu mere præcis til at forudsige det korrekte kondital for deltagerne i deres test.
+**Den fysiologiske årsag:**
+Dette skyldes mænds naturlige biologi. Mænd har i gennemsnit en større arbejdende muskelmasse og et højere niveau af hæmoglobin i blodet (som transporterer ilt). Laboratoriemålinger viser, at når en mand og en kvinde (med samme vægt) går lige hurtigt og har nøjagtig samme pulsrespons, arbejder mandens hjerte rent fysiologisk ved en *lavere procentdel* af hans maksimale iltkapacitet. Derfor estimerer formlen med rette, at hans totale fysiologiske "motor" er større.
 
-$$ \text{Kondital} = 51{,}047 + 8{,}336 \cdot \text{Køn} + \frac{635{,}012}{\text{Tid}} - 0{,}225 \cdot \text{HR} - 0{,}271 \cdot \text{Kropsvægt} - 0{,}231 \cdot \text{Alder} $$
+Er du nysgerrig på, hvordan køn påvirker testresultater på tværs af forskellige idrætsgrene? Så læs vores dybdegående artikel om [hvorfor mænd og kvinder måles forskelligt i konditionstests](/kondital-maend-kvinder-forskelle/).
+
+---
+
+## Hvor præcis er Rockport-testen?
+
+Rockports gå-test giver et estimat af dit kondital. Testens validitet blev bekræftet af Weiglein (2011), der fandt en stærk sammenhæng mellem Rockport-testen og den amerikanske hærs 1,5 mile løbetest (hvilket svarer til principperne i [Coopers 2400 meter test](/kondital-2400-meter/)).
+
+Testen er dog allermest brugbar som et **personligt pejlemærke**. Måske er konditallet ikke 100 % præcist på decimalen, men hvis din tid og din puls forbedres næste gang du tager testen, er din form blevet bedre! Det gør den fremragende til at overvåge dine fremskridt hver 4. uge, når du starter på et nyt træningsprogram.
+
+---
 
 ## Hvor god form er jeg i?
 
-Når du har lavet testen, så får du et tilnærmet kondital. Du kan sammenligne dit eget med en [tabel med forskellige normer for kondital for mænd og kvinder](/kondital/). 
+Når du har fået beregnet dit kondital, kan du slå det op i en [tabel over kondital for mænd og kvinder](/kondital/) for at se, hvordan du placerer dig i forhold til andre på din alder.
 
-Du kan lade 1,6 km gå-testen være en del af dit mål om at komme i bedre form. Du kan sammenligne din egen tid med [hvor hurtigt man normalt går](/tid-at-gaa/).
+Du kan også dykke ned i vores statistik over [hvor hurtigt man normalt går](/tid-at-gaa/), og udregne præcis [hvor mange kalorier du forbrænder ved gang](/forbraending-ved-gaa-gang/).
 
-Du kan også udregne, hvor meget [energi og kalorier du bruger på at gå](/forbraending-ved-gaa-gang/). Jeg kan godt lide at motivere mig selv ved at [tælle mine daglige skridt](/artikel/tael-skridt/). Måske er du også interesseret i at finde ud af, [hvor mange skridt, du går på en kilometer](/skridt-pr-km-10000/).
+Rigtig mange finder stor motivation i at [tælle deres daglige skridt](/artikel/tael-skridt/). Vil du vide, hvor mange skridt din Rockport-test krævede? Så tjek vores guide til [hvor mange skridt, der går på en kilometer](/skridt-pr-km-10000/).
 
-> **Andre konditionstests**
-> Vi har mange [flere konditionstests](/kondition/tests/), du kan lade dig inspirere af.
+> **Flere konditionstests?**
+> Vi har samlet en stor oversigt med mange [forskellige konditionstests](/kondition/tests/), hvis du er klar til at prøve kræfter med f.eks. løb eller cykling næste gang.
 {: .notice--info }
 
 ## Ofte stillede spørgsmål om gå-testen
@@ -158,8 +168,8 @@ Du kan også udregne, hvor meget [energi og kalorier du bruger på at gå](/forb
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Kline, G. M., J. P. Porcari, R. Hintermeister, P. S. Freedson, A. Ward, R. F. McCarron, J. Ross, og J. M. Rippe. 1987. “Estimation of VO2max from a One-Mile Track Walk, Gender, Age, and Body Weight”. Medicine and Science in Sports and Exercise 19 (3): 253–59.
-- Lunt, Heather, Daniel Roiz De Sa, Julia Roiz De Sa, og Adrian Allsopp. 2013. “Validation of One-Mile Walk Equations for the Estimation of Aerobic Fitness in British Military Personnel under the Age of 40 Years”. Military Medicine 178 (7): 753–59. <https://doi.org/10.7205/MILMED-D-12-00369>.
-- Sartor, Francesco, Gianluca Vernillo, Helma M. de Morree, Alberto G. Bonomi, Antonio La Torre, Hans-Peter Kubis, og Arsenio Veicsteinas. 2013. “Estimation of Maximal Oxygen Uptake via Submaximal Exercise Testing in Sports, Clinical, and Home Settings”. Sports Medicine (Auckland, N.Z.) 43 (9): 865–73. <https://doi.org/10.1007/s40279-013-0068-3>.
-- Weiglein, Laura, Jeffery Herrick, Stacie Kirk, og Erik P. Kirk. 2011. “The 1-Mile Walk Test Is a Valid Predictor of VO₂max and Is a Reliable Alternative Fitness Test to the 1.5-Mile Run in U.S. Air Force Males”. Military Medicine 176 (6): 669–73. <https://doi.org/10.7205/milmed-d-10-00444>.
+- Kline, G. M., J. P. Porcari, R. Hintermeister, P. S. Freedson, A. Ward, R. F. McCarron, J. Ross, og J. M. Rippe. 1987. “Estimation of VO2max from a One-Mile Track Walk, Gender, Age, and Body Weight”. *Medicine and Science in Sports and Exercise* 19 (3): 253–59.
+- Lunt, Heather, Daniel Roiz De Sa, Julia Roiz De Sa, og Adrian Allsopp. 2013. “Validation of One-Mile Walk Equations for the Estimation of Aerobic Fitness in British Military Personnel under the Age of 40 Years”. *Military Medicine* 178 (7): 753–59. <https://doi.org/10.7205/MILMED-D-12-00369>.
+- Sartor, Francesco, Gianluca Vernillo, Helma M. de Morree, Alberto G. Bonomi, Antonio La Torre, Hans-Peter Kubis, og Arsenio Veicsteinas. 2013. “Estimation of Maximal Oxygen Uptake via Submaximal Exercise Testing in Sports, Clinical, and Home Settings”. *Sports Medicine* 43 (9): 865–73. <https://doi.org/10.1007/s40279-013-0068-3>.
+- Weiglein, Laura, Jeffery Herrick, Stacie Kirk, og Erik P. Kirk. 2011. “The 1-Mile Walk Test Is a Valid Predictor of VO₂max and Is a Reliable Alternative Fitness Test to the 1.5-Mile Run in U.S. Air Force Males”. *Military Medicine* 176 (6): 669–73. <https://doi.org/10.7205/milmed-d-10-00444>.
 </details>

@@ -214,6 +214,22 @@ Ergometertider afhænger stærkt af køn, alder og kropsvægt. Du kan se de offi
 
 ---
 
+## Hvilken rotest skal du vælge?
+
+Valget mellem en 2000-meter test og en trappetest handler om, hvorvidt du vil måle din samlede præstationsevne i en konkurrencesituation eller kende din rene, fysiologiske motor.
+
+| Parameter | 2000-meter test | Trappetest |
+| :--- | :--- | :--- |
+| **Primært fokus** | Race performance & kampskarphed | Aerob kapacitet & træningszoner |
+| **Varighed** | 6–10 minutter (all-out) | 30–40 minutter (trinvist stigende) |
+| **Præcision af kondital** | **God, men sammensat:** Udregnes fra gennemsnits-Watt, hvor 12–30 % af energien hentes anaerobt fra mælkesyresystemet. Pacing-fejl påvirker resultatet. | **Højeste fysiologiske præcision:** 5-minutters trin sikrer *steady state* (stabil iltoptagelse) på hvert trin uden forstyrrende mælkesyre eller pacing-støj. |
+| **Hvornår skal den bruges?** | Tæt på kampsæsonen eller når du vil teste din laktattolerance og pacing på den officielle konkurrencedistance. | I opstarts- og opbygningsfasen, når du vil have det mest præcise fysiologiske kondital og et rent datagrundlag til dine træningszoner. |
+
+**Kort sagt:**
+Vil du kende din samlede præstationsevne på vandet eller til et indendørs stævne, ror du **2000-meter testen**. Vil du kende størrelsen på dit hjerte og dine lungers reelle kapacitet (VO₂max) uforstyrret af mælkesyre, vælger du **[Trappetesten i roning](/roning-trappetest/)**.
+
+---
+
 ## FAQ om 2000m rotest og kondital
 
 {% include motionsplan/faq.html %}

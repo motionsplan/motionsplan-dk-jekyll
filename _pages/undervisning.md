@@ -17,8 +17,6 @@ header:
   actions:
     - label: "<i class='fas fa-calculator'></i> Hop til beregnerne →"
       url: "#1-interaktive-beregnere-til-idraetstimen"
-sidebar:
-  nav: trainingtypes
 ---
 
 Velkommen til **motionsplan.dk's undervisningshub**. Denne side er skabt som et gratis, digitalt [hjælpeværktøj til idrætslærere i gymnasieuddannelserne](/gymnasieidraet/) (STX, HF, HHX, HTX) samt udskolingen.

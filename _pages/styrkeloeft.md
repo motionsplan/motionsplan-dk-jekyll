@@ -27,8 +27,6 @@ feature_row_strength:
     med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med.
   btn_class: btn--info
   rel: sponsored nofollow noopener
-sidebar:
-  nav: trainingtypes
 feature_row_lifts:
 - image_path: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
   credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg

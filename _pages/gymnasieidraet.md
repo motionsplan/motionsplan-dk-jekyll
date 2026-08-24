@@ -17,8 +17,6 @@ header:
   actions:
     - label: "<i class='fas fa-calculator'></i> Gå til beregnere →"
       url: "#3-test-og-databehandling-i-idraetstimerne"
-sidebar:
-  nav: trainingtypes
 ---
 
 Skal du op til **mundtlig eksamen i Idræt C eller B**, skrive din første **idrætsrapport**, eller behandle klassens testdata fra idrætstimen?
