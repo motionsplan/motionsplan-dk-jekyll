@@ -238,6 +238,6 @@ Læs: [Skadesforebyggelse: Hvilke øvelser kan forebygge skader?](/skadesforebyg
 
 ## Konklusion
 
-Træningsplanlægning og gradvis opbygning af formen ser altså ud til at være noget af det vigtigste for at undgå løbeskader. Her kommer [restitution](/restitution/) og [restitutionstid](/restitutionstid/) naturligvis også ind i billedet.
+Træningsplanlægning og gradvis opbygning af formen ser altså ud til at være noget af det vigtigste for at undgå løbeskader. Her kommer [restitution og restitutionstid](/restitution/) naturligvis også ind i billedet.
 
 Styrketræning er en god måde at forebygge skader på, og det bør være en integreret del af enhver løberes rutine. 

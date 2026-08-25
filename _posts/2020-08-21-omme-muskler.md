@@ -173,7 +173,7 @@ Først og fremmest så er ømhed i musklerne typisk ikke farligt. **Ømhed i mus
 
 Hvis du leder efter hjælp til ømme muskler efter træning, så kan følgende tiltag dæmpe følelsen af stivhed:
 
-1. **Let træning og aktiv restitution:** Udfør let træning med lav intensitet. Det øger blodgennemstrømningen i musklerne, hvilket fremskynder kroppens helingsprocesser ([Cheung et al 2003](https://pubmed.ncbi.nlm.nih.gov/12617692/)). På den måde bliver din [restitutionstid hurtigere](/restitutionstid/).
+1. **Let træning og aktiv restitution:** Udfør let træning med lav intensitet. Det øger blodgennemstrømningen i musklerne, hvilket fremskynder kroppens helingsprocesser ([Cheung et al 2003](https://pubmed.ncbi.nlm.nih.gov/12617692/)). På den måde bliver din [restitutionstid hurtigere](/restitution/).
 2. **Udspænding og let udstrækning:** Brug let udstrækning dagen efter for at holde kroppen i gang og øge blodcirkulationen. Udstrækning i forbindelse med selve træningspasset forebygger desværre ikke ømhed dagen efter.
 
 > Visse fund tyder på, at strækøvelser faktisk kan gøre ondt værre. Men det betyder ikke, at man skal holde op med at strække ud af den grund. Man laver strækøvelser for at opretholde normal bevægelighed.

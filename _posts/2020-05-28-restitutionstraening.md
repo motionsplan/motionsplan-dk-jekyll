@@ -1,7 +1,8 @@
 ---
 title: 'Restitutionstræning: Træn for at blive hurtigere klar!'
-excerpt: Hvis du gerne vil accelerere din genopbygning efter træning, så kan du lave restitutionstræning. Her kigger vi på,
-  hvordan du kan skrue sådan en træning sammen.
+seo_title: 'Restitutionstræning: Hvad er aktiv restitution? (Guide)'
+description: 'Lær alt om aktiv restitutionstræning. Få konkrete øvelser, pulszoner og lær at sammensætte det perfekte restitutionspas for hurtigere genopbygning.'
+excerpt: 'Hvis du gerne vil accelerere din genopbygning efter træning, kan du lave restitutionstræning. Her kigger vi på, hvordan du kan skrue sådan et pas sammen.'
 permalink: /restitutionstraening/
 language: da
 header:
@@ -9,18 +10,27 @@ header:
   credit: https://images.unsplash.com/photo-1547852356-68f969d6ac59
   teaser: /assets/images/unsplash/photo-1547852356-68f969d6ac59.jpg
   caption: 'Restitutionstræning: Træn for at blive hurtigere klar!'
-  alt: Photo by Cris Saur on Unsplash
+  alt: Aktiv restitution og træning
 categories:
-- Restitution
+  - Restitution
 tags:
-- restitution
-last_modified_at: '2025-04-20T08:14:14Z'
-toc: 'true'
+  - restitution
+last_modified_at: '2026-08-25T08:55:00Z'
+toc: true
+faq:
+  - question: "Hvad er restitutionstræning?"
+    answer: "Restitutionstræning (eller aktiv restitution) er træning med meget lav intensitet og belastning. Formålet er at øge blodgennemstrømningen og fremskynde musklernes heling uden at skabe ny muskeltræthed."
+  - question: "Hvilken puls skal man have under restitutionstræning?"
+    answer: "Pulsen skal holdes nede i Zone 1. Som tommelfingerregel svarer det til under 60-65% af din maksimale puls, eller 50-60% af din pulsreserve. Du skal ubesværet kunne føre en samtale."
+  - question: "Er aktiv restitution bedre end en hviledag?"
+    answer: "Ofte ja. Let aktivitet (cykling, gang, let løb) transporterer hurtigere næringsstoffer og ilt ud til trætte muskler end total stilstand. Har du dog stærke smerter eller infektion, er en komplet hviledag bedst."
+  - question: "Hvor lang tid bør et restitutionspas vare?"
+    answer: "For de fleste er 15 til 45 minutter optimalt. Længere tid begynder at dræne dine glykogendepoter og påføre senerne en unødig belastning, som modarbejder formålet."
 ---
 
 Når du træner hårdt, så kan det hjælpe at lave restitutionstræning for at gøre genopbygningen mellem to hårdere træningspas hurtigere.
 
-[Restitution](/restitution/) er en vigtig del af den balance din krop har brug for i forbindelse med træning. Restitutionstræning kan være med til at gøre [restitutionstiden](/restitutionstid/) hurtigere mellem forskellige træningspas, så du får en endnu bedre effekt af de hårde træninger.
+[Restitution](/restitution/) er en vigtig del af den balance din krop har brug for i forbindelse med træning. Restitutionstræning kan være med til at gøre [restitutionstiden](/restitution/) hurtigere mellem forskellige træningspas, så du får en endnu bedre effekt af de hårde træninger.
 
 Her kigger vi på følgende spørgsmål:
 
@@ -98,13 +108,13 @@ Her er målet at få bragt pulsen ned så tæt på [hvilepulsen](/hvilepuls/) so
 
 ## Restitutionstræning til løb
 
-Når du løber, så har kroppen brug for tid til at bygge sig op igen bagefter. Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution, hvilket også gælder i løb. Det bruger du den en langsommere løbetur til.
+Når du løber, har kroppen brug for tid til at bygge sig op igen bagefter. Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution, hvilket også gælder inden for løb. Det kan du med fordel bruge en ekstra langsom løbetur til.
 
-Igen skal du holde intensiteten lav på løbeturen, så du kan udnytte de gode effekter ved at kroppen kommer i gang, men du ikke introducerer ny træthed i kroppen. Jeg kan godt lide at bruge pulsen for at sikre mig, at jeg ikke løber for hurtigt, men du kan også tage udgangspunkt i fx [Borg-skalaen](/borg-skala/) til subjektiv at vurdere, hvornår du arbejder i restitutionszonen.
+Igen skal du holde intensiteten lav på turen, så du kan udnytte de gode effekter ved at kroppen kommer i gang, uden at du introducerer ny træthed. Jeg kan godt lide at bruge pulsen for at sikre mig, at jeg ikke løber for hurtigt, men du kan også tage udgangspunkt i fx [Borg-skalaen](/borg-skala/) til subjektivt at vurdere, om du reelt arbejder nede i restitutionszonen.
 
-Du kan fx arbejde med 50-60% af din [pulsreserve](/pulsreserve/). Et restitutionsløb kan vare fra 20 minutter til 60 minutter alt efter din nuværende form. Vælg gerne en rute, hvor underlaget måske er lidt blødere. Du kan læse mere om [løb og løbetræning](/loebesiden/).
+Du kan fx sigte efter at arbejde med 50-60 % af din [pulsreserve](/pulsreserve/). Et restitutionsløb bør typisk vare fra 20 til 45 minutter alt efter din nuværende form (løber du meget længere, begynder stødene op gennem benene at skabe ny træthed). Vælg desuden gerne en rute, hvor underlaget er lidt blødere – fx grus eller skovsti frem for asfalt. Du kan læse mere om [løb og løbetræning](/loebesiden/).
 
-Læs: [Restitutionsløb: Løb langsomt for at løbe hurtigere](/restitutionsloeb/)
+Læs hele guiden: [Restitutionsløb: Løb langsomt for at blive hurtigere](/restitutionsloeb/)
 {: .notice }
 
 ## Hvornår giver det mening?
@@ -120,3 +130,7 @@ Restitutionstræning anvendes typisk:
 Hvis du træner meget, så kan det være en rigtig god ide at lægge et par restitutionstræninger ind i din uge. Du retituerer ganske enkelt bedre, hvis du laver noget aktivt, end hvis du bare sætter dig ned og venter på næste træning.
 
 Restitutionstræning kan være virkelig mange forskellige ting, så derfor kan du sagtens finde noget, som du synes om at lave også.
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}

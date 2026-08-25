@@ -71,6 +71,16 @@ Her er de officielle og videnskabelige retningslinjer for dit daglige indtag:
 ### Hvor meget protein skal man have, når man træner?
 Når du styrketræner, bryder du muskelfibrene ned. Proteiner består af aminosyrer, som er byggestenene, kroppen bruger til at reparere og bygge musklerne større og stærkere igen (hypertrofi). Uden tilstrækkeligt med protein, udebliver resultaterne af din hårde træning simpelthen.
 
+### Proteinbehov og alder: Anabol resistens (40+ og 50+)
+Når vi passerer 40-50 år, opstår der et fysiologisk fænomen kaldet **anabol resistens**. Det betyder, at muskelcellerne bliver mindre følsomme over for aminosyrer. 
+
+Det påvirker dit proteinbehov på to måder:
+
+1. **Højere baseline:** De officielle nordiske næringsstofanbefalinger (NNR 2023) anbefaler, at ældre og midaldrende øger deres daglige minimumsindtag til **1,2 – 1,4 g protein pr. kg kropsvægt** for at modvirke tab af muskelmasse (sarkopeni).
+2. **Højere måltidstærskel:** Hvor en 20-årig kan nøjes med 20-25 gram protein i ét måltid for at tænde for muskelopbygningen (mTOR-signalvejen), kræver musklerne hos en 40-50-årig ofte **35-40 gram protein pr. hovedmåltid** (rigt på aminosyren *leucin*) for at nå samme anabole effekt. Et hårdt styrketræningspas inden et måltid kan imidlertid tænde for følsomheden (Pennings et al., 2011; Holwerda et al., 2016).
+
+Træner du aktivt midt i livet, kan du læse mere i vores dybdegående guide til [træning og ernæring i 40'erne og 50'erne](/traening-40-plus/).
+
 ---
 
 ## Proteintiming: Fordel dit indtag over dagen
@@ -123,10 +133,13 @@ Vil du vide præcis, hvilke råvarer du skal gå efter i supermarkedet? Så tjek
   <summary><h2 id="references">Kilder og videre læsning</h2></summary>
 
 1. **Areta, J. L., et al. (2013).** "Timing and Distribution of Protein Ingestion During Prolonged Recovery Through Resistance Exercise Alters Myofibrillar Protein Synthesis." *The Journal of Physiology*, 591(9), 2319–2331.
-2. **Jäger, R. et al. (2017).** "International Society of Sports Nutrition Position Stand: protein and exercise." *Journal of the International Society of Sports Nutrition*, 14(20).
-3. **Morton, R. W. et al. (2018).** "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults." *British Journal of Sports Medicine*, 52(6), 376–384.
-4. **Nordic Council of Ministers (2023).** *Nordic Nutrition Recommendations 2023 (NNR).* Integration of environmental aspects.
-5. **Schoenfeld, B. J., & Aragon, A. A. (2018).** "How much protein can the body use in a single meal for muscle-building? Implications for daily protein distribution." *Journal of the International Society of Sports Nutrition*, 15(10).
-6. **Trommelen, J., & van Loon, L. J. (2016).** "Pre-Sleep Protein Ingestion to Improve the Skeletal Muscle Adaptive Response to Exercise Training." *Nutrients*, 8(12), 763.
-7. **WHO / FAO / UNU (2007).** *Protein and Amino Acid Requirements in Human Nutrition.* World Health Organization Technical Report Series.
+2. **Holwerda, A. M., et al. (2016).** "Daily physical activity enhances postprandial muscle protein accretion in older adults." *The Journals of Gerontology: Series A*, 71(10), 1333–1340.
+3. **Jäger, R., et al. (2017).** "International Society of Sports Nutrition Position Stand: protein and exercise." *Journal of the International Society of Sports Nutrition*, 14(20).
+4. **Morton, R. W., et al. (2018).** "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults." *British Journal of Sports Medicine*, 52(6), 376–384.
+5. **Nordic Council of Ministers (2023).** *Nordic Nutrition Recommendations 2023 (NNR).* Integration of environmental aspects.
+6. **Pennings, B., et al. (2011).** "Exercising before protein intake allows for greater use of dietary protein-derived amino acids for postprandial muscle protein accretion in elderly men." *American Journal of Clinical Nutrition*, 93(2), 322–331.
+7. **Schoenfeld, B. J., & Aragon, A. A. (2018).** "How much protein can the body use in a single meal for muscle-building? Implications for daily protein distribution." *Journal of the International Society of Sports Nutrition*, 15(10).
+8. **Trommelen, J., & van Loon, L. J. (2016).** "Pre-Sleep Protein Ingestion to Improve the Skeletal Muscle Adaptive Response to Exercise Training." *Nutrients*, 8(12), 763.
+9. **WHO / FAO / UNU (2007).** *Protein and Amino Acid Requirements in Human Nutrition.* World Health Organization Technical Report Series.
+
 </details>

@@ -214,7 +214,7 @@ Roligt løb kan bruges meget i træning, så længe den samlede træningsmængde
 
 Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning](/restitutionstraening/).
 
-Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen](/restitution/) og [restitutionstiden](/restitutionstid/).
+Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen og restitutionstiden](/restitution/).
 
 Restitutionstræning hjælper med at fremskynde kroppens restitutionsproces. Aktiv restitution kan inkludere langsommere løbeture eller andre aktiviteter, der øger blodgennemstrømningen.
 

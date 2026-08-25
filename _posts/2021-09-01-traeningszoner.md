@@ -168,7 +168,7 @@ Træning i Zone 2 forbedrer desuden din samlede [bevægelsesøkonomi](/beregn-be
 
 Zone 3 repræsenterer et hurtigt grundtempo (fx maraton-pace eller frisk landevejstempo). I denne zone aktiveres flere af de hurtigere "fast-twitch" (Type IIa) muskelfibre, og andelen af kulhydrat i forbrændingen stiger. Træningen skaber centrale tilpasninger i hjertet med øget [slagvolumen](/puls/) og blodvolumen, og den opbygger tempokapacitet. 
 
-Du skal dog dosere Zone 3 klogt. Du opnår mange af de samme fysiologiske tilpasninger i Zone 2 med kortere [restitutionstid](/restitutionstid/).
+Du skal dog dosere Zone 3 klogt. Du opnår mange af de samme fysiologiske tilpasninger i Zone 2 med kortere [restitutionstid](/restitution/).
 
 ### Zone 4: Tærskel
 

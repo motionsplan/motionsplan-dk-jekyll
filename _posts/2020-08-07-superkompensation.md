@@ -118,7 +118,7 @@ Når du udsætter kroppen for en stor belastning — fx gennem hård [intervaltr
 
 Kroppen bliver dog ikke ved med at være i superkompensationsfasen. Hvis du venter for længe med at give et nyt stimulus, indtræder involutionsfasen, og du falder tilbage til dit udgangspunkt.
 
-Når du planlægger din træning, er det altså afgørende at have balancen mellem træningsstimulus, [restitutionstid](/restitutionstid/) og timers pause i baghovedet.
+Når du planlægger din træning, er det altså afgørende at have balancen mellem træningsstimulus, [restitutionstid](/restitution/) og timers pause i baghovedet.
 
 ---
 

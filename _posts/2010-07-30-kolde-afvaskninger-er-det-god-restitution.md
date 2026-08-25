@@ -1,178 +1,174 @@
 ---
-title: 'Cold Water Immersion: Virker isbade på restitutionen?'
-description: Kan isbade og koldt vand få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis
-  du sænker dig ned i koldt vand efter træning og konkurrence.
-excerpt: Kan isbade og koldt vand få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis
-  du sænker dig ned i koldt vand efter træning og konkurrence?
+title: 'Cold Water Immersion, Kryoterapi & Kontrastbade: Hvad virker på restitutionen?'
+seo_title: 'Isbade, Kryoterapi & Kontrastbade til Restitution (Komplet Guide)'
+description: 'Dybdegående guide til isbade (CWI), helekrops-kryoterapi (WBC) og kontrastbade (CWT). Se hvad forskningen siger om restitution, muskelopbygning og præstation.'
+excerpt: 'Kan isbade, kryokamre og skiftende vandtemperaturer få dig til at restituere hurtigere? Få videnskabens svar på effekten af kuldebehandling og kontrastterapi.'
 permalink: /isbad-og-kryoterapi/
 redirect_from:
-- /artikel/kolde-afvaskninger-er-det-god-restitution
+  - /artikel/kolde-afvaskninger-er-det-god-restitution
+  - /kontrastbade/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1570877441418-a00651b562ef.jpg
   credit: https://images.unsplash.com/photo-1570877441418-a00651b562ef
   teaser: /assets/images/unsplash/photo-1570877441418-a00651b562ef.jpg
-  caption: 'Cold Water Immersion: Virker isbade på restitutionen?'
+  caption: 'Cold Water Immersion & Kontrastbade: Virker isbade på restitutionen?'
 tags:
-- restitution
-- kuldebehandling
+  - restitution
+  - kuldebehandling
 categories:
-- Restitution
-last_modified_at: '2023-10-14T20:39:39Z'
+  - Restitution
+last_modified_at: '2026-08-25T08:35:00Z'
+toc: true
 ---
 
-Kan isbade og koldt vand få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker dig ned i koldt vand efter træning og konkurrence?
+Kan isbade, kryokamre og koldt vand få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker dig ned i koldt eller skiftevis varmt og koldt vand efter træning og konkurrence?
 
-Jeg fik på et tidspunkt anbefalet at spule mine ben med koldt vand efter mine løbeture. Nu er jeg ikke så vild med koldt vand, så jeg gik i gang med at researche lidt på isbade i forhold til restitution.
+Nedsænkning i koldt og tempereret vand – i fagsprog kaldet **Cold Water Immersion (CWI)**, **Whole Body Cryotherapy (WBC)** og **Contrast Water Therapy (CWT)** – er blevet utrolig udbredt blandt atleter og motionister, der leder efter hurtige genveje til friske ben. 
 
-Jeg lavede en [videnskabelig søgning](/videnskabelig-sogning/) for at finde studier af effekten af nedsænkning af koldt vand.
+Men der er stor forskel på blot at spule benene med en kold bruser og på at udføre en reel videnskabelig restitutionsprotokol. Og vigtigst af alt: Effekten afhænger fuldstændigt af, om du har dyrket udholdenhedsidræt eller løftet tunge vægte.
 
-Det bliver også i fagsprog kaldt Cold Water Immersion.
+Lad os dykke ned i forskningen og se på virkningen af både isbade, helekrops-kryoterapi og kontrastbade.
 
-Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med koldt vand for at få effekt.
+---
 
-Den videnskabelige litteratur ser ud til, at der kan være en gavnlig effekt af **cold water immersion (CWI)** og **isbade** som en strategi til at mindske [muskelømhed](/omme-muskler-efter-traening/). Men det er bare ikke det samme som, at man [forbedrer restitutionstiden](/restitutionstid/) eller at det har en gavnlig effekt i forhold til træningen.
+## De 4 typer af nedsænkning i vand
 
-Lad os dykke ned i effekten og forskningen omkring nedsænkning i vand og virkningen i forhold til [restitution](/restitution/) og træningseffekter.
+Inden for idrætsfysiologien skelner man skarpt mellem forskellige vand- og kuldebehandlinger. I et omfattende review opdelte Versey et al. (2013) strategierne i fire hovedkategorier:
 
-## Typer af nedsækning i vand
+1. **Cold Water Immersion (CWI):** Nedsænkning i koldt vand ($\le 20 \text{ }^\circ\text{C}$), herunder klassiske isbade.
+2. **Hot Water Immersion (HWI):** Nedsænkning i varmt karbad ($\ge 36 \text{ }^\circ\text{C}$).
+3. **Contrast Water Therapy (CWT):** Skiftevis nedsænkning i varmt og koldt vand.
+4. **Thermoneutral Water Immersion (TWI):** Nedsænkning i lunkent vand ($> 20 \text{ til } < 36 \text{ }^\circ\text{C}$).
 
-Nedsænkning i vand er blevet mere og mere udbredt blandt eliteatleter, der forsøger at forbedre deres restitutionstid og mindske trætheden efter træning og konkurrence.
+Forskningen viser, at det primært er **Cold Water Immersion** og **Contrast Water Therapy** (samt luftbaseret kryoterapi), der har en målbar fysiologisk effekt på kroppen (Versey et al., 2013).
 
-Der eksisterer forskellige protokoller til at fremme den kortvarige restitution, så man kan præstere hurtigt igen.
+---
 
-[Versey et al (2013)](https://pubmed.ncbi.nlm.nih.gov/23743793/) har opdelt de forskellige strategier i 4 forskellige typer.
+## Cold Water Immersion (CWI) og Isbade
 
-1. Cold Water Immersion (CWI; ≤20 °C) eller isbade
-2. Hot Water Immersion (HWI; ≥36 °C)
-3. Contrast Water Therapy (CWT)
-4. Thermoneutral Water Immersion (TWI; >20 to <36 °C)
+Når du sænker kroppen ned i koldt vand, trækker de overfladiske blodkar sig sammen (vasokonstriktion). Dette presser væske væk fra vævet og kan dæmpe hævelser og betændelsestilstande efter hård træning.
 
-Versey et al (2013) konkluderer, at Cold Water Immersion og Contrast Water Therapy ser ud til at kunne have en effekt, mens studierne ikke viser noget klart om de andre typer.
-
-I dette indlæg fokuserer vi på isbade, men vi har skrevet et andet indlæg om [effekten af kontrastbade på restitutionen](/kontrastbade/).
-
-[Malta et al (2021)](https://pubmed.ncbi.nlm.nih.gov/33146851/) konkluderer i deres metastudie, at de kolde isbade har en positiv effekt i forhold til udholdenhedsidræt, men har en hæmmende effekt på styrketræning.
-
-Derfor deler vi følgende gennemgang op i de forskellige træningsmodaliteter.
-
-Her kan du se Jeff Nippard gennemgå nyere viden om isbade og kryoterapi.
+Her kan du se idrætsfysiolog Jeff Nippard gennemgå den nyeste viden om isbade og kryoterapi:
 
 {% include video provider="youtube" id="ZBJYJjG2B8Q" %}
 
-## Hvordan bruger man isbad som restitution?
+### Protokol: Hvordan bruges et isbad korrekt?
+Hvis du vil opnå den fysiologiske effekt af et isbad, er det ikke nok med en hurtig kold bruser eller et køligt karbad. Forskningen peger på følgende retningslinjer:
 
-Nogle studier har vist, at Cold Water Immersion kan forbedre restitutionen efter særligt udholdenhedsaktiviteter, men sørg for at læse hele denne artikel, inden du kaster dig ud i koldtvandseksponering.
+* **Vandtemperatur:** Vandet skal være under **10–15 °C**.
+* **Dybde:** Du skal være nedsænket i vandet op til navlen, så hele benmuskulaturen dækkes.
+* **Varighed:** Varigheden bør være **5–15 minutter**.
 
-Hvordan får jeg den bedste effekt af et isbad?
+### Virker isbade på restitutionen?
+Forskningen viser blandede resultater, alt efter hvad man måler på:
 
-De forskellige studier har nemlig håndteret protokollen lidt forskelligt. 
+* **Muskelømhed (DOMS) og opfattet træthed:** I et nyere metastudie fandt Moore et al. (2022), at CWI var passiv hvile overlegen målt på muskelkraft, reduceret ømhed og oplevet restitution 24 timer efter træning. Forsøgspersoner oplever markant bedre ben (Stacey et al., 2010; Kinugasa & Kilding, 2009).
+* **Nervesystemet:** Et koldt bad er særdeles effektivt til at sætte gang i den parasympatiske aktivitet i nervesystemet efter træning (Al Haddad et al., 2010).
+* **Eksplosivitet:** Nunes et al. (2019) fandt, at isbade har en positiv effekt på restitutionen af eksplosiv muskelkraft (målt ved *countermovement jump*) op til 72 timer efter en kamp.
 
-Det ser ud til, at isbadet virker bedst, når du har benene nede i vandet, og vandet går op til navlen. Vandet skal være under 10-15 °C, og dine ben skal være dækket i 5-15 minutter.
+### Advarsel: Isbade og Styrketræning (Hæmmet muskelvækst)
+Selvom isbade kan føles lindrende for ømme muskler, skal du være særdeles påpasselig, hvis dit mål er at opbygge muskelmasse og styrke.
 
-Det er desværre ikke nok at stille sig ind under den kolde bruser, og du kan heller ikke nøjes med et køligt karbad. Det skal være koldt, og du skal være nedsænket i vandet længe nok.
-
-Men hvad er effekten af kuldepåvirkningen på restitutionen efter træning?
-
-## Virker isbade på restitutionen?
-
-**Isbade efter træning viser i forskningen blandede resultater. Folk der gennemgår en protokol med isbade oplever mindre ømhed efter træning, men det har ikke kunnet påvises på biologiske markører. Tilsyneladende kan isbade hæmme effekten af styrketræning, men formentlig godt bruges efter udholdenhedstræning.**
-
-Det er fortsat ikke klart, hvad det videnskabelige rationale er bag at tage et koldt bad (se metastudium af [Bleakley og Davison 2010](https://bjsm.bmj.com/content/44/3/179)), men derfor kan vi jo sagtens se på, om det virker i praksis?
-
-## Restituerer du hurtigere med et isbad?
-
-Crowe et al (2007) viste ved sprint på cykel med en times restitution, at det kolde bad faktisk sænker den anaerobe kapacitet.
-
-Hvis man kigger på restitution med et lidt længere tidsperspektiv, så viste Lane og Wenger (2004), at både massage, aktiv nedvarmning og kolde bade var med til at facilitetere restitutionsprocessen i de 24 timer, der var mellem to træningspas med høj intensitet.
-
-Det kan dog være at perioden mellem de to træninger var nok i sig selv til at restituere, som foreslået af King and Duffield (2009) efter deres studium.
-
-## Isbade og eksplosivitet
-
-Et andet studium tyder imidlertid på, at man faktisk restituerer hurtigere efter eksplosive aktiviteter.
-
-[Nunes et al. (2019)](https://www.ncbi.nlm.nih.gov/pubmed/30321486) fandt at isbad har en positiv effekt på restitutionen i forhold til højeksplosive øvelser.
-
-Forskere har set på, hvor højt sportsudøvere kan hoppe i et såkaldt countermovement jump i 0, 24, 48 og 72 timer efter en kamp.
-
-Studiet viste en positiv effekt af brug af isbad. Dem der blev kølet ned præsterede ganske enkelt bedre i testene efter kampen.
-
-## Er isbade bedre end aktiv restitution?
-
-Isbade bliver særligt interessante, hvis de er mere effektive end andre restitutionsformer. Her er resultaterne fra studierne ikke helt klare.
-
-I sammenligninger mellem forskellige restitutionstyper, så har det kolde bad ikke været overlegent ift. andre restitutionstyper (afslapning, aktiv nedvarmning og isbadet), når man kigger på præstationerne efter restitutionsfasen (Stacey 2010; Kinugasa og Kilding 2009).
-
-Dog oplevede deltagerne i et studium, at deres ben føltes bedre efter at have været i det kolde bad (Stacey 2010; Kinugasa og Kilding 2009).
-
-Det ser også ud til, at det kolde bad er meget effektivt ift. at sætte gang i den parasympatiske aktivitet, når man ser på nogle indirekte målinger (Haddad 2010).
-
-[Moore et al (2022)](https://pubmed.ncbi.nlm.nih.gov/35157264/) har i et nyere metastudie imidlertid **sammenlignet Cold Water Immersion med passiv restitution**. 
-
-De fandt at CWI var et effektivt restitutionsredskab målt på muskelkraft, muskelømhed og opfattet grad af restitution 24 timer efter træning.
-
-De kolde bade ser ud til at være passiv restitution overlegent ved eksplosive aktiviteter og udholdenhedsaktiviteter, men kan have hæmmende effekt på styrketræningsparametre.
-
-{% comment %}
-
-[Higgins et al (2017)](https://pubmed.ncbi.nlm.nih.gov/27398915/) har undersøgt effekten af Cold Water Immersion i forhold til holdsport i deres review.
-
-{% endcomment %}
-
-## Hvordan virker Cold Water Immersion i forhold til styrketræning?
-
-[Wilcock et al (2006)](https://doi.org/10.1123/ijspp.1.3.195) har foreslået, at nedkøling med koldt vand kan forbedre restitutionen efter aktivitet, der ødelægger muskelfibrene, men nyere studier har ikke kunnet vise at de kolde bade skulle forbedre restitutionen efter muskelødelæggende aktivitet ([Jakeman et al 2009](https://doi.org/10.1080/00140130802707733)).
-
-Nyere [studier](https://doi.org/10.1113/JP270570) fra 2015 tyder imidlertid på, at hvis man bruger isbade efter styrketræning, så risikerer man, at ens muskeltilvækst vil blive mindre på sigt.
+En række centrale studier (Roberts et al., 2015; Peake et al., 2015; Malta et al., 2021) viser samstemmende, at isbade direkte efter styrketræning **hæmmer de langsigtede muskelgevinster**.
 
 > "Vi fandt, at nedsænkning i koldt vand efter træning væsentligt svækkede eller reducerede de langsigtede gevinster for muskelmasse og -styrke."
 >
 > --- <cite>dr. Llion Roberts (2015)</cite>
 
-> "Man må forvente, at atleter, der bruger isbade efter træning vil få mindre langsigtede muskelgevinster end dem, der vælger at varme ned."
->
-> --- <cite>dr. Jonathan Peake (2015)</cite>
+Nedkølingen dæmper den lokale inflammation og proteinsyntese i musklen, som kroppen rent faktisk har *brug for* som signal til at opbygge større og stærkere muskler (Petersen & Fyfe, 2021). 
 
-[Peterson og Fyfe (2022)](https://www.frontiersin.org/articles/10.3389/fspor.2021.660291/full) har samlet den eksisterende viden om Cold Water Immersion og styrketræning i deres review.
+**Tommelfingerregel:** Isbade er fantastiske til udholdenhedssport, maraton eller turneringer, hvor du skal præstere igen dagen efter. Men undgå isbad efter tung styrketræning, hvis dit mål er hypertrofi og maksimal styrke.
 
-Et isbad efter styrketræning kan have kortvarige effekter på restitutionen. Men lige nu ser det ud til at Cold Water Immersion i værste fald kan reducere de [fysiologiske tilpasninger til styrketræningen](/fysiologiske-tilpasninger/) på muskelvækst, maksimal styrke, muskeludholdenhed og power.
+---
 
-Der er ingen studier, der viser, at Cold Water Immersion har positive effekter i forhold til styrketræning.
+## Helekrops-kryoterapi (WBC) vs. Isbade
 
-Det betyder naturligvis ikke, at isbade kan være gavnlige for nogle grupper i forbindelse med styrketræning.
+Ud over klassiske isbade i vand er **helekrops-kryoterapi** (*Whole Body Cryotherapy* eller WBC) blevet et udbredt fænomen. Her opholder man sig i 2–4 minutter i et specialbygget kuldekammer eller en kryokabine med en ekstremt kold, tør lufttemperatur på mellem **-110 °C og -140 °C**.
 
-Derfor kan vi ikke anbefale de kolde isbade i forbindelse med styrketræning i øjeblikket, hvis dit formål er at restituere fra træningen.
+{% include figure image_path="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&h=600&q=60" alt="Helekrops kryoterapi i kuldekammer" caption="Helekrops-kryoterapi (WBC) bruger ekstremt kold, tør luft i et specialfremstillet kuldekammer." %}
 
-Du kan imidlertid også bruge de iskolde bade til at dæmpe inflammation og muskelømhed, og derfor 
+### Hvad siger forskningen om kryokamre?
+* **Dæmper muskelømhed:** En omfattende Cochrane-review (Costello et al., 2015) samt meta-analysen af Dupuy et al. (2018) viser, at helekrops-kryoterapi kan reducere den oplevede muskelømhed (DOMS) og give en følelse af hurtigere genopfriskning.
+* **Luft vs. Vand:** Selvom temperaturerne i et kryokammer lyder voldsomme (-110 °C), har vand en lang række gange højere termisk ledningsevne end luft. Et isbad på 10 °C køler derfor det dybe muskelvæv lige så effektivt – og ofte mere langvarigt – end 3 minutter i kold luft (Bleakley et al., 2012).
+* **Samme forholdsregel ved styrketræning:** Ligesom med isbade dæmper den stærke nedkøling i et kryokammer den akutte inflammationsrespons. Træner du for maksimal muskelopbygning (hypertrofi), bør du derfor også holde igen med kryoterapi lige efter tunge løft.
 
-## Konklusion på koldtvandseksponering
+**Konklusion på kryoterapi:** Helekrops-kryoterapi i kuldekamre er en behagelig og tør måde at opnå kuldeeksponering på, men videnskabeligt set giver det ikke bedre restitution end et almindeligt isbad.
 
-Der kan være forskellige grunde til at bruge isbade. I dette indlæg har vi fokuseret på effekten af de kolde bade på restitution og træningseffekter.
+---
 
-Et koldt bad forbedrer tilsyneladende ikke restitutionstiden, så man kan udføre en bedre præstation dagen efter. Det er dog værd at tage med, at man op til 24 timer vil føle, at man har bedre ben (Kinugasa og Kilding 2009).
+## Contrast Water Therapy (CWT) og Kontrastbade
 
-Det betød dog ikke noget for de enkeltes præstation, men at opleve at tingene føles lettere, er også værd at tage med.
+Kontrastbade går ud på skiftevis at sænke kroppen ned i koldt og varmt vand. Ideen er at skabe en mekanisk "pumpe-effekt" i blodkarrene: Det kolde vand får karrene til at trække sig sammen, mens det varme vand får dem til at udvide sig (vasodilatation). 
 
-Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da koldtvandseksponering tilsyneladende har en hæmmende effekt på [de fysiologiske tilpasninger  styrketræning](/fysiologiske-tilpasninger/), bl.a. i forhold til muskeltilvækst.
+Mange eliteudøvere benytter denne metode. I videoen herunder kan du se strongman Hafthor Bjornsson bruge kontrastbade som en fast del af sin restitutionsstrategi:
 
-Der findes mange andre metoder til at [forbedre din restitution](/restitution/) og [restitutionstid](/restitutionstid/), som du måske skal prøve først.
+{% include video provider="youtube" id="KYti_1rUIOo" %}
 
-Du skal også huske, at det er vanskeligt at lave et dobbeltblindet, placebo-kontrolleret studie. Man kan godt lave et studie, der sammenligner med en anden type restitutionsaktivitet, men hvis man ender i den kolde balje, så opdager man det i hvert fald.
+{% include figure image_path="https://images.unsplash.com/photo-1570877441418-a00651b562ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=600&q=60" alt="Kontrastbad og vandterapi" caption="Kontrastbade veksler mellem koldt og varmt vand for at stimulere blodcirkulationen." %}
+
+### Protokol for Kontrastbade
+* **Temperaturer:** Det kolde bad skal være **10–15 °C**, mens det varme bad skal være **$\ge 36 \text{ }^\circ\text{C}$**.
+* **Interval:** Du opholder dig ca. **1 minut** i hver temperatur og skifter frem og tilbage.
+* **Samlet tid:** Den samlede varighed bør være op til **10–15 minutter**.
+* **Mønster:** Der er lige lang tid i det varme og det kolde element.
+
+### Effekten af Kontrastbade
+* **Hurtigere udskillelse af mælkesyre:** Forskning viser, at ophobet [mælkesyre](/maelkesyre-traening/) fjernes hurtigere fra blodet, hvis man tager et kontrastbad direkte efter anaerobt arbejde (Morton, 2007; Heyman et al., 2009). 
+* **Alternativ til kontrastbad:** Det er dog værd at bemærke, at en almindelig [aktiv nedvarmning](/restitutionstraening/) (som 10 minutters let jogging eller cykling) giver nøjagtig samme positive effekt på mælkesyreafviklingen uden krav om to karbade.
+* **Langsigtet restitution:** Når man måler på præstationsevne og muskelstyrke 72 timer efter træning, har kontrastbade ikke vist sig overlegne i forhold til almindelig passiv hvile eller udstrækning (Robey et al., 2009).
+
+---
+
+## Sammenligning: Hvornår skal du vælge hvad?
+
+| Metode / Type | Bedste anvendelse | Fysiologisk effekt | Ulemper / Risiko |
+| :--- | :--- | :--- | :--- |
+| **Isbad (CWI)** | Etapeløb, turneringer, udholdenhed | Sænker ømhed (DOMS), dæmper hævelse, stimulerer nervesystemet | Hæmmer muskelopbygning og styrkefremgang ved styrketræning |
+| **Kryokammer (WBC)** | Hurtig, tør kuldebehandling | Reducerer oplevet træthed og muskelømhed | Dyr adgang, køler ikke dybt muskelvæv bedre end vand |
+| **Kontrastbad (CWT)** | Holdsport, efter anaerobe pas | Øger blodcirkulationen, fremskynder fjernelse af affaldsstoffer | Kræver adgang til både varmt og koldt kar; svarer i effekt til aktiv nedvarmning |
+
+---
+
+## Konklusion
+
+Både isbade (CWI), helekrops-kryoterapi (WBC) og kontrastbade (CWT) kan være effektive redskaber til at reducere muskelømhed og give en mentalt forfriskende fornemmelse i benene. 
+
+* Brug **isbade** eller **kryokamre** i perioder med tæt konkurrenceprogram eller efter lange udholdenhedspas, hvor hurtig smertelindring er vigtigere end langsigtet adaptation.
+* **Undgå stærk kuldeeksponering** direkte efter tunge styrketræningspas, hvis du træner for at bygge større og stærkere muskler.
+* **Kontrastbade** kan hjælpe på mælkesyreudskillelse og føles behagelige, men en rolig [aktiv nedvarmning](/restitutionstraening/) er et lige så effektivt og gratis alternativ.
+
+Husk, at vandefterbehandling og kuldebehandling kun er supplementer. Grundstenene i din genopbygning vil altid være tilstrækkelig [søvn](/soevn-optimering/), rigelig ernæring og en velstruktureret træningsplan.
+
+---
+
+## Ofte stillede spørgsmål om isbade, kryoterapi og kontrastbade
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Crowe, M. J., D. O’Connor, og D. Rudd. 2007. “Cold Water Recovery Reduces Anaerobic Performance”. International Journal of Sports Medicine 28 (12): 994–98. <https://doi.org/10.1055/s-2007-965118>.
-- Morton, R. Hugh. 2007. “Contrast Water Immersion Hastens Plasma Lactate Decrease after Intense Anaerobic Exercise”. Journal of Science and Medicine in Sport 10 (6): 467–70. <https://doi.org/10.1016/j.jsams.2006.09.004>.
-- Lane, Kirstin N., og H. A. Wenger. 2004. “Effect of Selected Recovery Conditions on Performance of Repeated Bouts of Intermittent Cycling Separated by 24 Hours”. Journal of Strength and Conditioning Research 18 (4): 855–60. <https://doi.org/10.1519/14183.1>.
-- Stacey, Douglas L., Martin J. Gibala, Kathleen A. Martin Ginis, og Brian W. Timmons. 2010. “Effects of Recovery Method after Exercise on Performance, Immune Changes, and Psychological Outcomes”. The Journal of Orthopaedic and Sports Physical Therapy 40 (10): 656–65. <https://doi.org/10.2519/jospt.2010.3224>.
-- Al Haddad, Hani, Paul B. Laursen, Didier Chollet, Frédéric Lemaitre, Saïd Ahmaidi, og Martin Buchheit. 2010. “Effect of Cold or Thermoneutral Water Immersion on Post-Exercise Heart Rate Recovery and Heart Rate Variability Indices”. Autonomic Neuroscience: Basic & Clinical 156 (1–2): 111–16. <https://doi.org/10.1016/j.autneu.2010.03.017>.
-- Robey, Elisa, Brian Dawson, Carmel Goodman, og John Beilby. 2009. “Effect of Postexercise Recovery Procedures Following Strenuous Stair-Climb Running”. Research in Sports Medicine (Print) 17 (4): 245–59. <https://doi.org/10.1080/15438620902901276>.
-- Wilcock, Ian M., John B. Cronin, og Wayne A. Hing. 2006. “Water Immersion: Does It Enhance Recovery from Exercise?” International Journal of Sports Physiology and Performance 1 (3): 195–206. <https://doi.org/10.1123/ijspp.1.3.195>.
-- Bleakley, Chris M., og Gareth W. Davison. 2010. “What Is the Biochemical and Physiological Rationale for Using Cold-Water Immersion in Sports Recovery? A Systematic Review”. British Journal of Sports Medicine 44 (3): 179–87. <https://bjsm.bmj.com/content/44/3/179>.
-- King, Monique, og Rob Duffield. 2009. “The Effects of Recovery Interventions on Consecutive Days of Intermittent Sprint Exercise”. Journal of Strength and Conditioning Research 23 (6): 1795–1802. <https://doi.org/10.1519/JSC.0b013e3181b3f81f>.
-- Kinugasa, Taisuke, og Andrew E. Kilding. 2009. “A Comparison of Post-Match Recovery Strategies in Youth Soccer Players”. Journal of Strength and Conditioning Research 23 (5): 1402–7. <https://doi.org/10.1519/JSC.0b013e3181a0226a>.
-- Heyman, Elsa, Bas DE Geus, Inge Mertens, og Romain Meeusen. 2009. “Effects of Four Recovery Methods on Repeated Maximal Rock Climbing Performance”. Medicine and Science in Sports and Exercise 41 (6): 1303–10. <https://doi.org/10.1249/MSS.0b013e318195107d>.
-- Jakeman, J. R., R. Macrae, og R. Eston. 2009. “A Single 10-Min Bout of Cold-Water Immersion Therapy after Strenuous Plyometric Exercise Has No Beneficial Effect on Recovery from the Symptoms of Exercise-Induced Muscle Damage”. Ergonomics 52 (4): 456–60. <https://doi.org/10.1080/00140130802707733>.
+- Al Haddad, H., Laursen, P. B., Chollet, D., Lemaitre, F., Ahmaidi, S., & Buchheit, M. (2010). Effect of cold or thermoneutral water immersion on post-exercise heart rate recovery and heart rate variability indices. *Autonomic Neuroscience*, 156(1-2), 111-116.
+- Bleakley, C. M., & Davison, G. W. (2010). What is the biochemical and physiological rationale for using cold-water immersion in sports recovery? A systematic review. *British Journal of Sports Medicine*, 44(3), 179-187.
+- Bleakley, C. M., Bieuzen, F., Ng, C. Y., & Costello, J. T. (2012). Whole-body cryotherapy: empirical evidence and theoretical perspectives. *Open Access Journal of Sports Medicine*, 3, 35-50.
+- Costello, J. T., Baker, P. R., Minett, G. M., Bieuzen, F., Stewart, I. B., & Bleakley, C. (2015). Whole-body cryotherapy (extreme cold air exposure) for preventing and treating muscle soreness after exercise in adults. *Cochrane Database of Systematic Reviews*, (9).
+- Crowe, M. J., O’Connor, D., & Rudd, D. (2007). Cold water recovery reduces anaerobic performance. *International Journal of Sports Medicine*, 28(12), 994-998.
+- Dupuy, O., Douzi, W., Theurot, D., Bosquet, L., & Dugué, B. (2018). An Evidence-Based Approach for Choosing Post-exercise Recovery Techniques to Reduce Markers of Muscle Damage, Soreness, Fatigue, and Inflammation: A Systematic Review With Meta-Analysis. *Frontiers in Physiology*, 9, 403. <https://doi.org/10.3389/fphys.2018.00403>
+- Heyman, E., De Geus, B., Mertens, I., & Meeusen, R. (2009). Effects of four recovery methods on repeated maximal rock climbing performance. *Medicine and Science in Sports and Exercise*, 41(6), 1303-1310.
+- Jakeman, J. R., Macrae, R., & Eston, R. (2009). A single 10-min bout of cold-water immersion therapy after strenuous plyometric exercise has no beneficial effect on recovery from the symptoms of exercise-induced muscle damage. *Ergonomics*, 52(4), 456-460.
+- King, M., & Duffield, R. (2009). The effects of recovery interventions on consecutive days of intermittent sprint exercise. *Journal of Strength and Conditioning Research*, 23(6), 1795-1802.
+- Kinugasa, T., & Kilding, A. E. (2009). A comparison of post-match recovery strategies in youth soccer players. *Journal of Strength and Conditioning Research*, 23(5), 1402-1407.
+- Lane, K. N., & Wenger, H. A. (2004). Effect of selected recovery conditions on performance of repeated bouts of intermittent cycling separated by 24 hours. *Journal of Strength and Conditioning Research*, 18(4), 855-860.
+- Malta, E. S., Dutra, Y. M., Broatch, J. R., Bishop, D. J., & Zagatto, A. M. (2021). The effects of cold-water immersion on chronic adaptations to strength and endurance training: a systematic review and meta-analysis. *Sports Medicine*, 51(7), 1449-1464.
+- Moore, E., Fuller, J. T., Buckley, J. D., Saunders, S., Forbes, S. C., Cannataro, R., & Nelson, M. J. (2022). Impact of cold-water immersion compared with passive recovery following a single bout of strenuous exercise on athletic performance in physically active participants: a systematic review and meta-analysis. *Sports Medicine*, 52(7), 1667-1688.
+- Morton, R. H. (2007). Contrast water immersion hastens plasma lactate decrease after intense anaerobic exercise. *Journal of Science and Medicine in Sport*, 10(6), 467-470.
+- Nunes, R. F. H., Cidral-Filho, F. J., Flores, L. J. F., Santos, A. R. S., de Oliveira, L. P., & Martins, M. M. (2019). Effects of cold-water immersion on recovery of countermovement jump performance: A systematic review and meta-analysis. *Journal of Strength and Conditioning Research*, 33(4), 1159-1169.
+- Petersen, A. C., & Fyfe, J. J. (2021). Post-exercise Cold Water Immersion Effects on Physiological Adaptations to Resistance Training and the Underlying Mechanisms in Skeletal Muscle: A Narrative Review. *Frontiers in Sports and Active Living*, 3, 660291.
+- Peake, J. M., Roberts, L. A., Figueiredo, V. C., Egner, I., Kerdokass, S., Raastad, T., & Coombes, J. S. (2015). The effects of cold water immersion and active recovery on inflammation and cell stress responses in skeletal muscle after resistance exercise. *The Journal of Physiology*, 593(18), 4285-4401.
+- Roberts, L. A., Raastad, T., Markworth, J. F., Figueiredo, V. C., Egner, I. M., Shield, A., ... & Peake, J. M. (2015). Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training. *The Journal of Physiology*, 593(18), 4285-4301.
+- Robey, E., Dawson, B., Goodman, C., & Beilby, J. (2009). Effect of postexercise recovery procedures following strenuous stair-climb running. *Research in Sports Medicine*, 17(4), 245-259.
+- Stacey, D. L., Gibala, M. J., Martin Ginis, K. A., & Timmons, B. W. (2010). Effects of recovery method after exercise on performance, immune changes, and psychological outcomes. *Journal of Orthopaedic & Sports Physical Therapy*, 40(10), 656-665.
+- Versey, N. G., Halson, S. L., & Dawson, B. T. (2013). Water immersion recovery for athletes: effect on exercise performance and practical recommendations. *Sports Medicine*, 43(11), 1101-1130.
+- Wilcock, I. M., Cronin, J. B., & Hing, W. A. (2006). Water immersion: does it enhance recovery from exercise? *International Journal of Sports Physiology and Performance*, 1(3), 195-206.
 </details>

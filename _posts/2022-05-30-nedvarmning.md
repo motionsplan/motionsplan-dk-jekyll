@@ -23,13 +23,13 @@ Det står sort på hvidt i træningshæfterne fra Dansk Idræts-Forbund, at nedv
 >
 > --- <cite>Lars Bojsen Michalsik, DIF, Anaerob Træning 2007</cite>
 
-Nedvarmning foreslås altså som en [måde at restitutere på](/restitution/) for at gøre [restitutionstiden kortere](/restitutionstid-og-alder/).
+Nedvarmning foreslås altså som en [måde at restituere på restitutionstiden kortere](/restitution/).
 
 Men er det stadig sådan, eller har forskningen på området rykket sig?
 
 ## Hvad er nedvarmning?
 
-Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/restitutionstid/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
+Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/restitution/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
 
 ## Hvordan laver man nedvarmning?
 

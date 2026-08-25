@@ -85,7 +85,7 @@ Hvis du træner for at blive bedre til noget, så synes jeg, at det kan være me
 
 Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitutionen.
 
-Læs meget mere om [restitution](/restitution/) og [restitutionstid](/restitutionstid/).
+Læs meget mere i vores guide om [restitution og optimering af restitutionstid](/restitution/).
 
 Du kan også lade dig inspirere af alle vores indlæg om restitution her:
 

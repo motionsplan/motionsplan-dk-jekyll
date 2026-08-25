@@ -121,7 +121,7 @@ Læs: [Balancetræning - effektiv træning af din balance](/balancetraening/)
 
 ## Nedvarmning og restitution
 
-Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/restitutionstid/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
+Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/restitution/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
 
 Læs: [Virker nedvarmning og afjogging på restitutionen?](/nedvarmning-som-restitutionsaktivitet/)
 {: .notice }

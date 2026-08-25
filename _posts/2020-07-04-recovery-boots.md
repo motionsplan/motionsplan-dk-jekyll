@@ -51,7 +51,7 @@ Recovery Boots øger via kompression blodcirkulationen. I praksis kommer der luf
 
 Ved at presse den venøse væske i benet tilbage, øges blodgennemstrømningen omkring muskulaturen. Den øgede blodgennemstrømning medfører teoretisk set, at der kan komme en større mængde ilt og næringsstoffer til genopbygning af musklerne efter træning.
 
-Teoretisk set bliver depoterne også fyldt hurtigere op, hvilket [fremmer restitutionsprocessen](/restitution/) og [tiden det tager at restituere](/restitutionstid/).
+Teoretisk set bliver depoterne også fyldt hurtigere op, hvilket [fremmer restitutionsprocessen og tiden](/restitution/).
 
 Lad os kigge på løfterne bag leverandørerne af recovery boots.
 
@@ -109,7 +109,7 @@ Først skal du sørge for at optimere din træning, kost og [søvn](/soevn/). N�
 
 Jeg har tidligere skrevet om [kompressionsstrømper som tilsyneladende har vist en bedre effekt på restitution](/kompressionsstroemper-restitution-praestation-bivirkninger/), og de er noget billigere at købe med nogenlunde samme påståede effekt.
 
-Jeg har skrevet et andet indlæg om, [hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning](/restitutionstid/).
+Jeg har skrevet et andet indlæg om, [hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning](/restitution/).
 
 Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes de er behagelige at have på efter træning, og du får en god fornemmelse i kroppen. Du kan fx tjekke **hvad priserne på _recovery boots_** er hos [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-6-kamre){: rel='sponsored nofollow noopener' } eller hos [optimasport.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636){: rel='sponsored nofollow noopener' }.
 

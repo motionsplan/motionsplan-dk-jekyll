@@ -254,7 +254,7 @@ Når du begynder at vænne dig til vægtene, og du ikke længere kan få fremgan
 
 ## Mark Rippetoes træningstips til Starting Strength
 
-Starting Strength bør starte relativt let ud i forhold til din intensitet, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution](/restitution/) og [restitutionstid](/restitutionstid/), din hvile og sørger for at få rigeligt at spise.
+Starting Strength bør starte relativt let ud i forhold til din intensitet, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution og restititionstid](/restitution/), din hvile og sørger for at få rigeligt at spise.
 
 ### 1. Hvil rigeligt
 
