@@ -5,6 +5,8 @@ seo_title: "Fra kontorstol til træningscenter: Undgå ryg- og nakkesmerter"
 description: "Sidder du meget ned på arbejdet? Lær hvordan du kombinerer skrivebordsarbejde med styrketræning og undgår smerter i ryg, nakke og skuldre."
 permalink: /kontorstol-til-traeningscenter/
 excerpt: "Kombinationen af lange timer ved skrivebordet og tung styrketræning kræver den rette tilgang. Få faglige råd, øvelsesudvalg og strategier til en smertefri hverdag."
+header:
+  teaser: https://images.unsplash.com/photo-1699523229208-be1e1dd9252d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 categories:
   - Træning
   - Sundhed
