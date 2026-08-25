@@ -73,7 +73,7 @@ Testen er specielt egnet til svage personer fx patienter eller gamle, som ikke e
 
 I **6 minutters gangtest (6MWT)** gælder det om at gå så langt som muligt på 6 minutter. Den tilbagelagte distance sammenlignes herefter med alders- og kønsspecifikke referenceværdier.
 
-Testen er en såkaldt *submaksimal funktionstest*, der er specielt egnet til fysisk svækkede personer, fx ældre, hjerte- eller lungesyge patienter. Testen kaldes derfor også ofte for en *Senior Fitness Test*. 
+Testen er en såkaldt *submaksimal funktionstest*, der er specielt egnet til fysisk svækkede personer, fx ældre, hjerte- eller lungesyge patienter for bl.a. at teste [lungekapaciteten](/lunger-lungekapacitet/). Testen kaldes derfor også ofte for en *Senior Fitness Test*. 
 
 > **Er du i god fysisk form og rask?**
 > For dig i god fysisk form, så anbefaler vi at bruge [1,6 km gåtesten (Rockport Walking Test)](/gaatest/) i stedet.

@@ -44,7 +44,11 @@ Gennemsnitsdanskeren har haft et solidt vokseværk, og højden er faktisk øget 
 
 [DR.dk](https://www.dr.dk/nyheder/viden/danske-maend-og-kvinder-er-blandt-verdens-hoejeste) skriver, at forskere har gennemgået 1.500 tidligere studier for at undersøge, hvordan verdensbefolkningens højde har ændret sig de seneste 100 år. På denne måde kan man sammenligne hele verdens gennemsnitlige højde, og gennemsnitshøjden i Danmark er altså nok til at placere sig i toppen af undersøgelsen.
 
-Du kan læse mere om Gennemsnitsdanskeren hos [Dansk Statistik](https://www.dst.dk/da/Statistik/Publikationer/gennemsnitsdanskeren). Jeg synes altid, at det er sjovt at se, hvordan man er i forhold til andre mennesker. Der er Dansk Statistik en guldgrube for at se, hvordan den gennemsnitlige dansker lever. Du vil sikkert opleve, at du har mange fællestræk med andre danskere.
+Du kan læse mere om Gennemsnitsdanskeren hos [Dansk Statistik](https://www.dst.dk/da/Statistik/Publikationer/gennemsnitsdanskeren). Jeg synes altid, at det er sjovt at se, hvordan man er i forhold til andre mennesker. 
+
+Der er Dansk Statistik en guldgrube for at se, hvordan den gennemsnitlige dansker lever. Du vil sikkert opleve, at du har mange fællestræk med andre danskere.
+
+Hvis du endnu ikke er udvokset, så kan du sammenligne dig med gennemsnitsdanskeren ved at [beregne hvor høj du bliver](/hvor-hoej-bliver-jeg/).
 
 ## Undersøgelse af gennemsnitshøjde i Danmark
 

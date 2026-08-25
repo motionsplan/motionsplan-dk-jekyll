@@ -87,6 +87,7 @@ _posts/2021-08-24-loeberuter.md,forskellige ruteopmålere til løberuter,/ruteop
 _posts/2021-08-24-loeberuter.md,udregne dit kondital ud fra din tid og distance,/kondital-loeb-distance-tid/
 _posts/2021-08-24-loeberuter.md,løbe intervalløb,/intervallob-intervaltraening/
 _posts/2021-08-24-loeberuter.md,løbeformer og hvordan du laver et løbeprogram,/guide-til-loebeprogram/
+_posts/2020-10-24-hvor-meget-protein.md,træning og ernæring i 40'erne og 50'erne,/traening-40-plus/
 _posts/2020-10-24-hvor-meget-protein.md,tabel med proteinindhold i almindelige fødevarer,/protein-i-madvarer/
 _posts/2022-07-28-discgolf-handicap.md,"guide til at
     vælge disc",/golfdisc-til-discgolf/
@@ -101,8 +102,7 @@ _posts/2021-03-18-starting-strength.md,andre træningsprogrammer til styrketræn
 _posts/2021-03-18-starting-strength.md,Texas Method,/texas-method/
 _posts/2021-03-18-starting-strength.md,teknik i styrketræning,/rigtig-teknik-styrketraening/
 _posts/2021-03-18-starting-strength.md,chinups,/chinup-vs-pullup/
-_posts/2021-03-18-starting-strength.md,restitution,/restitution/
-_posts/2021-03-18-starting-strength.md,restitutionstid,/restitutionstid/
+_posts/2021-03-18-starting-strength.md,restitution og restititionstid,/restitution/
 _posts/2021-03-18-starting-strength.md,"hvor meget protein, du har brug for",/dagligt-protein-indtagelse/
 _posts/2021-03-18-starting-strength.md,Texas Method,/texas-method/
 _posts/2021-03-18-starting-strength.md,andre styrketræningsprogrammer,/styrketraeningsprogrammer/
@@ -174,19 +174,12 @@ _posts/2009-07-10-traener-du-grebsstyrke.md,Captain of crunch,/assets/images/bod
 _posts/2009-07-10-traener-du-grebsstyrke.md,De 5 vigtigste træningsprincipper,/traeningsprincipper/
 _posts/2009-07-10-traener-du-grebsstyrke.md,Citat element,/assets/images/bodylab.dk/citat_element_blaa-c204632d.jpg
 _posts/2009-07-10-traener-du-grebsstyrke.md,![,/assets/images/bodylab.dk/1080x429-efee3ed2.jpg
-_posts/2022-10-04-kontrastbade.md,effekten af isbade,/isbad-og-kryoterapi/
-_posts/2022-10-04-kontrastbade.md,videnskabelig søgning,/videnskabelig-sogning/
-_posts/2022-10-04-kontrastbade.md,strategi til restitution,/restitution/
-_posts/2022-10-04-kontrastbade.md,forbedre restitutionstiden,/restitutionstid/
-_posts/2022-10-04-kontrastbade.md,effekten af isbade på restitutionen,/isbad-og-kryoterapi/
-_posts/2022-10-04-kontrastbade.md,mælkesyre,/maelkesyre-traening/
-_posts/2022-10-04-kontrastbade.md,forbedre din restitution,/restitution/
-_posts/2022-10-04-kontrastbade.md,restitutionstid,/restitutionstid/
 _posts/2026-08-05-sitko-test.md,20-minutters FTP-test,/ftp-test/
 _posts/2026-08-05-sitko-test.md,Watt Max test (Ramp-test),/kondital-wattmax/
 _posts/2022-08-08-roning-trappetest.md,kondital,/kondital/
-_posts/2022-08-08-roning-trappetest.md,tests til roning,/kondital-roning/
+_posts/2022-08-08-roning-trappetest.md,2000 meter testen til roning,/kondital-roning/
 _posts/2022-08-08-roning-trappetest.md,intervaller til romaskinen,/artikel/traeningsprogrammer-intervaller-roning/
+_posts/2022-08-08-roning-trappetest.md,Læs alt om 2000-meter testen og beregn kondital her,/kondital-roning/
 _posts/2025-07-21-couzens-kcal.md,Energiforbrug ved træning – hvor mange kalorier bruger du?,/beregn-bevaegelsesokonomi-effektivitet/
 _posts/2025-07-21-couzens-kcal.md,Træningsprincipper: 10 grundlæggende regler,/traeningsprincipper/
 _posts/2021-11-10-who5-trivsel.md,PHQ-9 Depressionstest,/phq-9-depression-test/
@@ -617,7 +610,6 @@ _posts/2009-04-22-kan-styrketraening-forebygge-skader.md,vores indlæg om teknik
 _posts/2009-04-22-kan-styrketraening-forebygge-skader.md,Nordisk hamstring,/oevelse/nordic-hamstring/
 _posts/2009-04-22-kan-styrketraening-forebygge-skader.md,hamstring curl på swiss bold,/oevelse/swiss-ball-curl/
 _posts/2009-04-22-kan-styrketraening-forebygge-skader.md,restitution,/restitution/
-_posts/2009-04-22-kan-styrketraening-forebygge-skader.md,restitutionstid,/restitutionstid/
 _posts/2009-04-22-kan-styrketraening-forebygge-skader.md,forslag til forskellige øvelser til at forebygge skader,/skadesforebyggelse-skadesforebyggende-traening/
 _posts/2020-06-02-max-hr-beregner.md,test af maxpuls,/test-max-puls/
 _posts/2020-06-02-max-hr-beregner.md,maxpuls-formler,/max-puls-formler/
@@ -706,8 +698,7 @@ _posts/2013-05-04-loeb-uden-skader.md,konkluderet i sit speciale,/artikel/kan-st
 _posts/2013-05-04-loeb-uden-skader.md,Styrketræning til løb,/styrketraening-til-loeb/
 _posts/2013-05-04-loeb-uden-skader.md,god effekt i forhold til skadesforebyggelse,/skadesforebyggelse-skadesforebyggende-traening/
 _posts/2013-05-04-loeb-uden-skader.md,Skadesforebyggelse: Hvilke øvelser kan forebygge skader?,/skadesforebyggelse-skadesforebyggende-traening/
-_posts/2013-05-04-loeb-uden-skader.md,restitution,/restitution/
-_posts/2013-05-04-loeb-uden-skader.md,restitutionstid,/restitutionstid/
+_posts/2013-05-04-loeb-uden-skader.md,restitution og restitutionstid,/restitution/
 _posts/2025-04-07-kostregistrering.md,Se Kalorietæller apps,/kalorietaeller-apps/
 _posts/2025-04-07-kostregistrering.md,ligevægtsberegneren,/ligevaegtsindtag-beregner/
 _posts/2025-04-07-kostregistrering.md,apps til at tælle kalorier,/kalorietaeller-apps/
@@ -831,15 +822,17 @@ _posts/2020-06-30-pullup-chinup.md,calisthenics,/calisthenics-begynderprogram-kr
 _posts/2020-06-30-pullup-chinup.md,frontale bevægelsesplan,/led/
 _posts/2020-06-30-pullup-chinup.md,sagitale bevægelsesplan,/led/
 _posts/2019-10-31-kondital-gaa-test-1-6-km.md,hvor hurtigt man normalt går,/tid-at-gaa/
+_posts/2019-10-31-kondital-gaa-test-1-6-km.md,kondital,/kondital/
 _posts/2019-10-31-kondital-gaa-test-1-6-km.md,6 minutters gang-test (6MWT),/gaatest-6min/
 _posts/2019-10-31-kondital-gaa-test-1-6-km.md,måle din puls,/puls/
+_posts/2019-10-31-kondital-gaa-test-1-6-km.md,hvorfor mænd og kvinder måles forskelligt i konditionstests,/kondital-maend-kvinder-forskelle/
 _posts/2019-10-31-kondital-gaa-test-1-6-km.md,Coopers 2400 meter test,/kondital-2400-meter/
-_posts/2019-10-31-kondital-gaa-test-1-6-km.md,tabel med forskellige normer for kondital for mænd og kvinder,/kondital/
+_posts/2019-10-31-kondital-gaa-test-1-6-km.md,tabel over kondital for mænd og kvinder,/kondital/
 _posts/2019-10-31-kondital-gaa-test-1-6-km.md,hvor hurtigt man normalt går,/tid-at-gaa/
-_posts/2019-10-31-kondital-gaa-test-1-6-km.md,energi og kalorier du bruger på at gå,/forbraending-ved-gaa-gang/
-_posts/2019-10-31-kondital-gaa-test-1-6-km.md,tælle mine daglige skridt,/artikel/tael-skridt/
-_posts/2019-10-31-kondital-gaa-test-1-6-km.md,"hvor mange skridt, du går på en kilometer",/skridt-pr-km-10000/
-_posts/2019-10-31-kondital-gaa-test-1-6-km.md,flere konditionstests,/kondition/tests/
+_posts/2019-10-31-kondital-gaa-test-1-6-km.md,hvor mange kalorier du forbrænder ved gang,/forbraending-ved-gaa-gang/
+_posts/2019-10-31-kondital-gaa-test-1-6-km.md,tælle deres daglige skridt,/artikel/tael-skridt/
+_posts/2019-10-31-kondital-gaa-test-1-6-km.md,"hvor mange skridt, der går på en kilometer",/skridt-pr-km-10000/
+_posts/2019-10-31-kondital-gaa-test-1-6-km.md,forskellige konditionstests,/kondition/tests/
 _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md,Kettlbell Swings,/oevelse/tohaandssving/
 _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md,Clean and press,/oevelse/one-arm-clean-and-jerk/
 _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md,Turkish getups,/oevelse/turkish-getup/
@@ -922,7 +915,7 @@ _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md,kropskomposit
 _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md,Hvor meget protein har du brug for om dagen?,/dagligt-protein-indtagelse/
 _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md,"kosttilskud, hvor jeg også nævner protein",/kosttilskud/
 _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md,glykæmiske index,/glykaemisk-indeks/
-_posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md,restitutionstiden,/restitutionstid/
+_posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md,restitutionstiden,/restitution/
 _posts/2022-01-21-trappetest-cykel.md,Functional Threshold Power (FTP),/ftp-cykling/
 _posts/2022-01-21-trappetest-cykel.md,Watt-max test (Andersen-protokollen),/kondital-wattmax/
 _posts/2022-01-21-trappetest-cykel.md,estimere din FTP til cykeltræning,/ftp-test/
@@ -1287,7 +1280,7 @@ _posts/2020-06-02-max-hr-formulas.md,udregne dine intensitetszoner fra pulsen,/p
 _posts/2020-06-02-max-hr-formulas.md,hvilepuls,/hvilepuls/
 _posts/2020-06-02-max-hr-formulas.md,estimere dit kondital ud fra puls,/kondital-fra-puls/
 _posts/2020-06-02-max-hr-formulas.md,Normal puls - sådan virker hjertet,/puls/
-_posts/2020-07-15-massage.md,restitutionstiden,/restitutionstid/
+_posts/2020-07-15-massage.md,restitutionstiden,/restitution/
 _posts/2020-07-15-massage.md,restitutionen efter træning,/restitution/
 _posts/2020-07-15-massage.md,udstrækning,/udstraekning-udspaending/
 _posts/2020-07-15-massage.md,muskelømheden,/omme-muskler-efter-traening/
@@ -1480,6 +1473,7 @@ _posts/2021-01-19-forbraending-gang.md,Hvor hurtigt går du,/tid-at-gaa/
 _posts/2021-01-19-forbraending-gang.md,mindre stresset,/stress-test/
 _posts/2020-11-08-kondital-roning.md,forskellige konditests,/kondition/tests/
 _posts/2020-11-08-kondital-roning.md,Læs alt om Trappetesten i roning her,/roning-trappetest/
+_posts/2020-11-08-kondital-roning.md,Trappetesten i roning,/roning-trappetest/
 _posts/2020-06-16-cirkeltraening.md,øvelseskatalog,/traeningsoevelser/
 _posts/2020-06-16-cirkeltraening.md,7 minute workout,/7-minute-workout/
 _posts/2020-06-16-cirkeltraening.md,28 dages hjemmetræning uden udstyr,/hjemmetraening-traeningsprogram/
@@ -1613,29 +1607,24 @@ _posts/2021-08-24-loebeprogram-begyndere.md,kompressionsstrømper,/kompressionss
 _posts/2021-08-24-loebeprogram-begyndere.md,gerne vil i gang med løbetræningen,/artikel/kom-i-gang-med-loebetraeningen/
 _posts/2021-08-24-loebeprogram-begyndere.md,alle vores løbeprogrammer,/loebeprogrammer/
 _posts/2020-05-28-restitution.md,Superkompensationsteorien,/superkompensation/
-_posts/2020-05-28-restitution.md,Ophobet mælkesyre i muskler,/maelkesyre-traening/
-_posts/2020-05-28-restitution.md,Restitutionstid: Hvor længe tager det at restituere?,/restitutionstid/
-_posts/2020-05-28-restitution.md,hvor længe det tager at restituere,/restitutionstid/
-_posts/2020-05-28-restitution.md,ømhed i musklerne,/omme-muskler-efter-traening/
-_posts/2020-05-28-restitution.md,Muskelømhed: Hvorfor får jeg ømme muskler efter træning?,/omme-muskler-efter-traening/
-_posts/2020-05-28-restitution.md,HRV og heart rate variability,/hrv/
+_posts/2020-05-28-restitution.md,Ophobet mælkesyre,/maelkesyre-traening/
+_posts/2020-05-28-restitution.md,konditallet,/kondital/
+_posts/2020-05-28-restitution.md,muskelømhed (DOMS),/omme-muskler-efter-traening/
 _posts/2020-05-28-restitution.md,hvilepuls,/hvilepuls/
-_posts/2020-05-28-restitution.md,jævn døgnrytme og søvnrytme,/soevn/
-_posts/2020-05-28-restitution.md,7 trin til optimering af din søvn,/soevn-optimering/
-_posts/2020-05-28-restitution.md,åbne vindue efter træning,/artikel/aabne-vindue-og-anabolic-window/
-_posts/2020-05-28-restitution.md,Hvad er facts om det åbne vindue?,/artikel/aabne-vindue-og-anabolic-window/
-_posts/2020-05-28-restitution.md,udstrækning og strækøvelser,/udstraekning-udspaending/
-_posts/2020-05-28-restitution.md,forhindrer heller ikke andendagsømhed,/omme-muskler-efter-traening/
-_posts/2020-05-28-restitution.md,Restitutionstræning: Træn for at blive hurtigere klar!,/restitutionstraening/
-_posts/2020-05-28-restitution.md,Vejrtrækningsøvelser: 3 åndedrætsøvelser,/aandedraetstraening-forbedrer-udholdenheden/
-_posts/2020-05-28-restitution.md,Sportsmassage og fysiurgisk massage til restitution?,/massage/
-_posts/2020-05-28-restitution.md,kompressionsstrømper kan være en god ide,/kompressionsstroemper-restitution-praestation-bivirkninger/
-_posts/2020-05-28-restitution.md,Kompressionsstrømper og restitution,/kompressionsstroemper-restitution-praestation-bivirkninger/
-_posts/2020-05-28-restitution.md,kolde afvaskninger måske kan hjælpe på restitutionstiden,/isbad-og-kryoterapi/
-_posts/2020-05-28-restitution.md,Kryoterapi: Virker et isbad efter træning på restitution?,/isbad-og-kryoterapi/
-_posts/2020-05-28-restitution.md,Recovery Boots: Er vakuum bukser effektiv restitution?,/recovery-boots-restitution/
-_posts/2020-05-28-restitution.md,Foamrolling og restitution,/foamrolling/
-_posts/2020-05-28-restitution.md,Restitution og alder: Hvad betyder alderen for kroppens genopbygning?,/restitutionstid-og-alder/
+_posts/2020-05-28-restitution.md,HRV,/hrv/
+_posts/2020-05-28-restitution.md,7 trin til optimering af søvn,/soevn-optimering/
+_posts/2020-05-28-restitution.md,åbne vindue,/artikel/aabne-vindue-og-anabolic-window/
+_posts/2020-05-28-restitution.md,nedvarmning virker på restitutionstiden,/nedvarmning-som-restitutionsaktivitet/
+_posts/2020-05-28-restitution.md,vejrtrækningsøvelser,/aandedraetstraening-forbedrer-udholdenheden/
+_posts/2020-05-28-restitution.md,Restitutionstræning,/restitutionstraening/
+_posts/2020-05-28-restitution.md,sportsmassage,/massage/
+_posts/2020-05-28-restitution.md,kompressionsstrømper,/kompressionsstroemper-restitution-praestation-bivirkninger/
+_posts/2020-05-28-restitution.md,isbad efter træning,/isbad-og-kryoterapi/
+_posts/2020-05-28-restitution.md,"isbade, kryoterapi og kontrastbade",/isbad-og-kryoterapi/
+_posts/2020-05-28-restitution.md,Recovery boots,/recovery-boots-restitution/
+_posts/2020-05-28-restitution.md,Foam rolling,/foamrolling/
+_posts/2020-05-28-restitution.md,restitutionstid og alder,/restitutionstid-og-alder/
+_posts/2020-05-28-restitution.md,træning over 40 og 50 år,/traening-40-plus/
 _posts/2020-07-16-balancetraening.md,grundlæggende guide til balance og postural kontrol,/balance/
 _posts/2020-07-16-balancetraening.md,Stork-testen på tæer,/enkeltbensstand-stork-test/
 _posts/2020-07-16-balancetraening.md,Stork-testen,/enkeltbensstand-stork-test/
@@ -1864,8 +1853,7 @@ _posts/2022-05-30-muskeltraening.md,cirkeltræning,/cirkeltraening/
 _posts/2022-05-30-muskeltraening.md,styrketræningsprogrammer,/styrketraeningsprogrammer/
 _posts/2020-08-14-loebebaand.md,betydning løbesko har for risikoen for løbeskader,/artikel/loebeskader-loebe-uden-skader/
 _posts/2020-08-14-loebebaand.md,løbeøkonomien,/lobeokonomi/
-_posts/2020-08-14-loebebaand.md,restitutionen,/restitution/
-_posts/2020-08-14-loebebaand.md,restitutionstiden,/restitutionstid/
+_posts/2020-08-14-loebebaand.md,restitutionen og restitutionstiden,/restitution/
 _posts/2020-08-14-loebebaand.md,musik til min træning,/artikel/musik-til-traeningen/
 _posts/2020-08-14-loebebaand.md,god podcast om træning,/bedste-fitness-traening-podcasts/
 _posts/2020-08-14-loebebaand.md,intervalløb,/intervallob-intervaltraening/
@@ -1962,13 +1950,10 @@ _posts/2025-03-26-varedeklaration.md,Hvor meget protein har jeg brug for om dage
 _posts/2022-03-01-styrketraening-sko.md,squat,/squat/
 _posts/2022-03-01-styrketraening-sko.md,dødløft,/doedloeft/
 _posts/2022-03-01-styrketraening-sko.md,squatte dybere,/squat-dybt/
-_posts/2020-05-28-restitution-og-alder.md,restitution,/restitution/
-_posts/2020-05-28-restitution-og-alder.md,restitutionstid,/restitutionstid/
-_posts/2020-05-28-restitution-og-alder.md,Restitution: Komplet guide til kroppens genopbygning,/restitution/
-_posts/2020-05-28-restitution-og-alder.md,superkompensationsmodellen,/superkompensation/
-_posts/2020-05-28-restitution-og-alder.md,Restitutionstid: Hvor hurtigt kan du træne igen?,/restitutionstid/
-_posts/2020-05-28-restitution-og-alder.md,muskelømhed,/omme-muskler-efter-traening/
-_posts/2020-05-28-restitution-og-alder.md,træning af ældre og med alderen,/traening-aeldre/
+_posts/2020-05-28-restitution-og-alder.md,guide til restitution og restitutionstid,/restitution/
+_posts/2020-05-28-restitution-og-alder.md,restitutionsløb,/restitutionsloeb/
+_posts/2020-05-28-restitution-og-alder.md,træning for 40+ og 50+ årlige,/traening-40-plus/
+_posts/2020-05-28-restitution-og-alder.md,styrketræning for ældre,/traening-aeldre/
 _posts/2022-02-12-apps-bevaegelse.md,Blazepods,/blazepod/
 _posts/2021-07-31-vaegttab.md,kalorier,/hvad-er-kalorier/
 _posts/2021-07-31-vaegttab.md,kalorier,/hvad-er-kalorier/
@@ -2126,11 +2111,10 @@ _posts/2021-08-16-styrke-2-split-upper-lower.md,andre træningsprogrammer til st
 _posts/2021-08-16-styrke-2-split-upper-lower.md,hvordan du vælger et træningsprogram,/vaelg-traeningsprogram/
 _posts/2021-08-16-styrke-2-split-upper-lower.md,fullbody program,/artikel/hvordan-opbygger-jeg-et-helkropsprogram/
 _posts/2021-08-16-styrke-2-split-upper-lower.md,Jim Wendlers 5/3/1,/wendler-531-styrketraeningsprogram/
-_posts/2020-07-04-recovery-boots.md,fremmer restitutionsprocessen,/restitution/
-_posts/2020-07-04-recovery-boots.md,tiden det tager at restituere,/restitutionstid/
+_posts/2020-07-04-recovery-boots.md,fremmer restitutionsprocessen og tiden,/restitution/
 _posts/2020-07-04-recovery-boots.md,søvn,/soevn/
 _posts/2020-07-04-recovery-boots.md,kompressionsstrømper som tilsyneladende har vist en bedre effekt på restitution,/kompressionsstroemper-restitution-praestation-bivirkninger/
-_posts/2020-07-04-recovery-boots.md,"hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning",/restitutionstid/
+_posts/2020-07-04-recovery-boots.md,"hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning",/restitution/
 _posts/2025-03-20-forsvarets-fysiske-test.md,12 minutters løb (Cooper-test),/cooper-test/
 _posts/2025-03-20-forsvarets-fysiske-test.md,Bip-test,/bip-test/
 _posts/2025-03-20-forsvarets-fysiske-test.md,Politiets fysiske krav og 2400-meter testen,/politiets-fysiske-tests-krav-optagelsesproeve/
@@ -2168,7 +2152,7 @@ _posts/2020-08-07-superkompensation.md,deload,/deload-uge/
 _posts/2020-08-07-superkompensation.md,intervaltræning,/intervaltraening/
 _posts/2020-08-07-superkompensation.md,styrketræningspas,/styrketraening/
 _posts/2020-08-07-superkompensation.md,Styrketræning,/styrketraening/
-_posts/2020-08-07-superkompensation.md,restitutionstid,/restitutionstid/
+_posts/2020-08-07-superkompensation.md,restitutionstid,/restitution/
 _posts/2020-06-11-hvad-er-biohacking.md,"heart rate variability, hvis du er interesseret",/hrv/
 _posts/2020-06-11-hvad-er-biohacking.md,heart rate variability,/hrv/
 _posts/2025-04-20-traeningsprincipper-loeb.md,løbeprogram,/loebeprogrammer/
@@ -2224,22 +2208,6 @@ _posts/2020-08-26-aerobe-taerskel.md,Zone 2,/zone-2-traening/
 _posts/2020-08-26-aerobe-taerskel.md,interaktive laktatberegner til at finde LT1 og LT2,/laktattest/#calculator
 _posts/2020-08-26-aerobe-taerskel.md,pulsreserven,/pulsreserve/
 _posts/2020-08-26-aerobe-taerskel.md,Maffetone-beregner,/maffetone-metoden/
-_posts/2020-05-28-restitutionstid.md,Restitution,/restitution/
-_posts/2020-05-28-restitutionstid.md,superkompensationsteorien,/superkompensation/
-_posts/2020-05-28-restitutionstid.md,Restitution: Hvornår kan jeg træne igen?,/restitution/
-_posts/2020-05-28-restitutionstid.md,restitution og alder,/restitutionstid-og-alder/
-_posts/2020-05-28-restitutionstid.md,jævn døgnrytme og søvnrytme,/soevn/
-_posts/2020-05-28-restitutionstid.md,kontrast- og kuldebehandling,/isbad-og-kryoterapi/
-_posts/2020-05-28-restitutionstid.md,udstrækning,/udstraekning-udspaending/
-_posts/2020-05-28-restitutionstid.md,effektiv og optimeret restitution,/restitution/
-_posts/2020-05-28-restitutionstid.md,guide til restitution,/restitution/
-_posts/2020-05-28-restitutionstid.md,åbne vindue,/artikel/aabne-vindue-og-anabolic-window/
-_posts/2020-05-28-restitutionstid.md,kompressionsstrømper,/kompressionsstroemper-restitution-praestation-bivirkninger/
-_posts/2020-05-28-restitutionstid.md,kompressionsstrømper kan være en god ide,/kompressionsstroemper-restitution-praestation-bivirkninger/
-_posts/2020-05-28-restitutionstid.md,forhindrer heller ikke andendagsømhed,/udstraekning-udspaending/
-_posts/2020-05-28-restitutionstid.md,kolde afvaskninger måske kan hjælpe på restitutionstiden,/isbad-og-kryoterapi/
-_posts/2020-05-28-restitutionstid.md,Massage,/massage/
-_posts/2020-05-28-restitutionstid.md,guide til restitution,/restitution/
 _posts/2020-12-13-hjemmetraening-med-klude.md,træningsprogram til hjemmetræning,/hjemmetraening-traeningsprogram/
 _posts/2022-02-20-absi.md,BMI-målinger,/bmi/
 _posts/2022-02-20-absi.md,taljemålet,/taljemaal/
@@ -2377,15 +2345,10 @@ _posts/2022-10-04-1rm-test.md,Texas Method,/texas-method/
 _posts/2022-10-04-1rm-test.md,IMTP-test,/imtp-test/
 _posts/2022-10-04-1rm-test.md,sammenligne din styrke med andre,/sammenligning-styrke/
 _posts/2022-10-04-1rm-test.md,strukturel balance i styrke,/strukturel-balance/
-_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,videnskabelig søgning,/videnskabelig-sogning/
-_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,muskelømhed,/omme-muskler-efter-traening/
-_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,forbedrer restitutionstiden,/restitutionstid/
-_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,restitution,/restitution/
-_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,effekten af kontrastbade på restitutionen,/kontrastbade/
-_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,fysiologiske tilpasninger til styrketræningen,/fysiologiske-tilpasninger/
-_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,de fysiologiske tilpasninger  styrketræning,/fysiologiske-tilpasninger/
-_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,forbedre din restitution,/restitution/
-_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,restitutionstid,/restitutionstid/
+_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,mælkesyre,/maelkesyre-traening/
+_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,aktiv nedvarmning,/restitutionstraening/
+_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,aktiv nedvarmning,/restitutionstraening/
+_posts/2010-07-30-kolde-afvaskninger-er-det-god-restitution.md,søvn,/soevn-optimering/
 _posts/2019-11-01-stofskifteberegner-energifordeling.md,Sådan beregner du PAL,/beregner/pal/
 _posts/2019-12-16-running-economy.md,maksimale iltoptagelse,/maksimale-iltoptagelse-vo2max/
 _posts/2019-12-16-running-economy.md,kondital,/kondital/
@@ -2796,7 +2759,7 @@ _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md,hvilke muskler der bruge
 _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md,forskellen på chin ups og pull ups her,/chinup-vs-pullup/
 _posts/2022-05-07-blodtryk.md,Hvordan virker koffein på træning?,/koffein/
 _posts/2020-05-28-restitutionstraening.md,Restitution,/restitution/
-_posts/2020-05-28-restitutionstraening.md,restitutionstiden,/restitutionstid/
+_posts/2020-05-28-restitutionstraening.md,restitutionstiden,/restitution/
 _posts/2020-05-28-restitutionstraening.md,Åndedrætsøvelser,/aandedraetstraening-forbedrer-udholdenheden/
 _posts/2020-05-28-restitutionstraening.md,dine pulszoner,/pulszoner-beregner/
 _posts/2020-05-28-restitutionstraening.md,maksimale puls,/test-max-puls/
@@ -2805,7 +2768,7 @@ _posts/2020-05-28-restitutionstraening.md,hvilepulsen,/hvilepuls/
 _posts/2020-05-28-restitutionstraening.md,Borg-skalaen,/borg-skala/
 _posts/2020-05-28-restitutionstraening.md,pulsreserve,/pulsreserve/
 _posts/2020-05-28-restitutionstraening.md,løb og løbetræning,/loebesiden/
-_posts/2020-05-28-restitutionstraening.md,Restitutionsløb: Løb langsomt for at løbe hurtigere,/restitutionsloeb/
+_posts/2020-05-28-restitutionstraening.md,Restitutionsløb: Løb langsomt for at blive hurtigere,/restitutionsloeb/
 _posts/2022-02-09-loebebutikker.md,trailløb,/trailloeb/
 _posts/2021-08-29-ftp-power.md,Se overblik over alle testmetoder her,/ftp-test/
 _posts/2021-08-29-ftp-power.md,Functional Threshold Pace (rFTPa),/ftpa-loeb/
@@ -2893,9 +2856,8 @@ _posts/2025-03-03-step-test-ymca-modified.md,andre variationer af steptests,/kon
 _posts/2025-03-03-step-test-ymca-modified.md,oversigt over steptests,/kondital-fra-steptest/
 _posts/2021-11-12-scat.md,WHO-5 Trivselsindekset,/who5-trivselindekset/
 _posts/2021-11-12-scat.md,Anerkendt Stresstest (PSS-10),/stress-test/
-_posts/2022-05-30-nedvarmning.md,måde at restitutere på,/restitution/
-_posts/2022-05-30-nedvarmning.md,restitutionstiden kortere,/restitutionstid-og-alder/
-_posts/2022-05-30-nedvarmning.md,restitutionstiden,/restitutionstid/
+_posts/2022-05-30-nedvarmning.md,måde at restituere på restitutionstiden kortere,/restitution/
+_posts/2022-05-30-nedvarmning.md,restitutionstiden,/restitution/
 _posts/2022-05-30-nedvarmning.md,muskelømhed og DOMS,/omme-muskler-efter-traening/
 _posts/2022-05-30-nedvarmning.md,åndedrætsøvelser,/aandedraetstraening-forbedrer-udholdenheden/
 _posts/2022-05-30-nedvarmning.md,strækøvelser,/udstraekning-udspaending/
@@ -2965,8 +2927,7 @@ _posts/2021-08-24-hvordan-loebeprogram.md,forbedrer din løbeøkonomi,/lobeokono
 _posts/2021-08-24-hvordan-loebeprogram.md,eksplosiv træning måske kan forbedre løbeøkonomien og præstationen,/lobeokonomi/
 _posts/2021-08-24-hvordan-loebeprogram.md,Læs uddybende om sprinttræning til løb,/loeb/sprinttraening/
 _posts/2021-08-24-hvordan-loebeprogram.md,andre former for restitutionstræning,/restitutionstraening/
-_posts/2021-08-24-hvordan-loebeprogram.md,fremme restitutionen,/restitution/
-_posts/2021-08-24-hvordan-loebeprogram.md,restitutionstiden,/restitutionstid/
+_posts/2021-08-24-hvordan-loebeprogram.md,fremme restitutionen og restitutionstiden,/restitution/
 _posts/2021-08-24-hvordan-loebeprogram.md,Læs uddybende om restitutionsløb,/restitutionsloeb/
 _posts/2020-06-29-maend-kvinder-muskler.md,antallet af muskler i menneskekroppen →,/hvor-mange-muskler-i-kroppen/
 _posts/2020-06-29-maend-kvinder-muskler.md,røde og hvide muskelfibre →,/muskelfibertyper/
@@ -3100,7 +3061,7 @@ _posts/2022-10-11-styrketraening-til-loeb.md,kondital,/kondital/
 _posts/2022-10-11-styrketraening-til-loeb.md,bip-test,/bip-test/
 _posts/2022-10-11-styrketraening-til-loeb.md,guide til at blive en bedre løber,/bedre-loeber/
 _posts/2019-10-28-hrv.md,restitution,/restitution/
-_posts/2019-10-28-hrv.md,restitutionstid,/restitutionstid/
+_posts/2019-10-28-hrv.md,restitution,/restitution/
 _posts/2019-10-28-hrv.md,åndedrætstræning,/aandedraetstraening-forbedrer-udholdenheden/
 _posts/2019-10-28-hrv.md,stressniveau,/stress-test/
 _posts/2021-11-12-smtq.md,SCAT Konkurrencenervøsitet,/scat-konkurrencenervoesitet/
@@ -3128,6 +3089,19 @@ _posts/2022-05-03-bai-body-adiposity-index.md,"taljemål, talje-højde-ratio og 
 _posts/2022-05-03-bai-body-adiposity-index.md,beregne sin fedtprocent på,/artikel/udregning-af-fedtprocent/
 _posts/2022-05-03-bai-body-adiposity-index.md,normer for fedtprocent for mænd og kvinder,/fedtprocent-normer/
 _posts/2022-05-03-bai-body-adiposity-index.md,måling af fedtprocent,/maal-fedtprocent/
+_posts/2026-08-24-kondital-mk.md,Andersen-test,/andersen-test/
+_posts/2026-08-24-kondital-mk.md,Cooper-test,/cooper-test/
+_posts/2026-08-24-kondital-mk.md,kondital,/kondital/
+_posts/2026-08-24-kondital-mk.md,forskellige konditionstests,/kondition/tests/
+_posts/2026-08-24-kondital-mk.md,Andersen-testen,/andersen-test/
+_posts/2026-08-24-kondital-mk.md,Cooper-testen,/cooper-test/
+_posts/2026-08-24-kondital-mk.md,Åstrand cykeltesten,/astrand-test/
+_posts/2026-08-24-kondital-mk.md,2000m rotest,/kondital-roning/
+_posts/2026-08-24-kondital-mk.md,trappetest i roning,/roning-trappetest/
+_posts/2026-08-24-kondital-mk.md,Andersen-test,/andersen-test/
+_posts/2026-08-24-kondital-mk.md,Cooper-test,/cooper-test/
+_posts/2026-08-24-kondital-mk.md,Åstrand test,/topunktstest/
+_posts/2026-08-24-kondital-mk.md,2000m Rotest,/kondital-roning/
 _posts/2021-11-12-atq.md,WHO-5 Trivselsindeks,/who5-trivselindekset/
 _posts/2021-11-12-atq.md,PHQ-9 Depressionstest,/phq-9-depression-test/
 _posts/2021-11-12-atq.md,Anerkendt Stresstest (PSS-10),/stress-test/
@@ -3143,7 +3117,7 @@ _posts/2022-05-31-fysisk-traening.md,4 trin til at lave plyometrisk træning,/pl
 _posts/2022-05-31-fysisk-traening.md,Guide til udstrækningsøvelser og strækøvelser,/udstraekning-udspaending/
 _posts/2022-05-31-fysisk-traening.md,forbedre din balance,/balance/
 _posts/2022-05-31-fysisk-traening.md,Balancetræning - effektiv træning af din balance,/balancetraening/
-_posts/2022-05-31-fysisk-traening.md,restitutionstiden,/restitutionstid/
+_posts/2022-05-31-fysisk-traening.md,restitutionstiden,/restitution/
 _posts/2022-05-31-fysisk-traening.md,muskelømhed og DOMS,/omme-muskler-efter-traening/
 _posts/2022-05-31-fysisk-traening.md,Virker nedvarmning og afjogging på restitutionen?,/nedvarmning-som-restitutionsaktivitet/
 _posts/2022-05-31-fysisk-traening.md,Forebyggelse af skader: Hvad er medst effektivt?,/artikel/kan-styrketraening-forebygge-skader/
@@ -3158,7 +3132,7 @@ _posts/2020-08-21-omme-muskler.md,træningspas med okklusionstræning,/introdukt
 _posts/2020-08-21-omme-muskler.md,excentrisk komponent,/koncentrisk-excentrisk-isometrisk/
 _posts/2020-08-21-omme-muskler.md,excentrisk træning,/excentrisk-traening/
 _posts/2020-08-21-omme-muskler.md,sportsgrene og idrætsgrene,/sportsgrene-liste/
-_posts/2020-08-21-omme-muskler.md,restitutionstid hurtigere,/restitutionstid/
+_posts/2020-08-21-omme-muskler.md,restitutionstid hurtigere,/restitution/
 _posts/2020-08-21-omme-muskler.md,mælkesyren,/maelkesyre-traening/
 _posts/2020-08-21-omme-muskler.md,restitution,/restitution/
 _posts/2020-08-24-fedtforbraeningszonen.md,den respiratoriske udvekslingskvotient,/respiratoriske-metaboliske-udvekslingskvotient/
@@ -3252,11 +3226,15 @@ _posts/2020-06-19-styrketraening-fysiologisk.md,hvordan muskler vokser,/hvordan-
 _posts/2020-06-19-styrketraening-fysiologisk.md,lignende forsøg med bevægelsesøkonomi i løb,/lobeokonomi/
 _posts/2020-06-19-styrketraening-fysiologisk.md,hvordan muskler vokser,/hvordan-vokser-muskler/
 _posts/2020-06-19-styrketraening-fysiologisk.md,de fysiologiske tilpasningerne til konditionstræning,/tilpasning-konditionstraening/
-_posts/2020-05-28-restitutionsloeb.md,fremme restitutionen,/restitution/
-_posts/2020-05-28-restitutionsloeb.md,restitutionstiden,/restitutionstid/
 _posts/2020-05-28-restitutionsloeb.md,restitutionstræning,/restitutionstraening/
-_posts/2020-05-28-restitutionsloeb.md,løbeprogram,/loebeprogrammer/
+_posts/2020-05-28-restitutionsloeb.md,restitutionsprocesser,/restitution/
 _posts/2020-05-28-restitutionsloeb.md,pulsreserve,/pulsreserve/
+_posts/2020-05-28-restitutionsloeb.md,morgenhvilepuls,/hvilepuls/
+_posts/2020-05-28-restitutionsloeb.md,løbeprogram,/loebeprogrammer/
+_posts/2020-05-28-restitutionsloeb.md,søvnkvaliteten,/soevn-optimering/
+_posts/2020-05-28-restitutionsloeb.md,hvilepuls,/hvilepuls/
+_posts/2020-05-28-restitutionsloeb.md,muskelømhed (DOMS),/omme-muskler-efter-traening/
+_posts/2020-05-28-restitutionsloeb.md,restitutionstræning,/restitutionstraening/
 _posts/2019-11-01-stofskifte-ligevaegtsberegner.md,Se vores overblik over kalorietæller-apps,/kalorietaeller-apps/
 _posts/2019-11-01-stofskifte-ligevaegtsberegner.md,hvilestofskifte (BMR),/bmr-beregner/
 _posts/2019-11-01-stofskifte-ligevaegtsberegner.md,PAL-faktor,/beregner/pal/
@@ -3488,7 +3466,7 @@ _posts/2021-09-01-traeningszoner.md,bevægelsesøkonomi,/beregn-bevaegelsesokono
 _posts/2021-09-01-traeningszoner.md,løbeøkonomi,/lobeokonomi/
 _posts/2021-09-01-traeningszoner.md,Zone 2 træning,/zone-2-traening/
 _posts/2021-09-01-traeningszoner.md,slagvolumen,/puls/
-_posts/2021-09-01-traeningszoner.md,restitutionstid,/restitutionstid/
+_posts/2021-09-01-traeningszoner.md,restitutionstid,/restitution/
 _posts/2021-09-01-traeningszoner.md,anaerobe tærskel,/anaerobe-taerskel/
 _posts/2021-09-01-traeningszoner.md,$\text{VO}_2\text{max}$,/maksimale-iltoptagelse-vo2max/
 _posts/2021-09-01-traeningszoner.md,intervaltræning,/intervaltraening/
@@ -3539,10 +3517,23 @@ _posts/2016-01-02-cykel-styrketraening.md,muskelfibertyper,/muskelfibertyper/
 _posts/2020-07-11-magnesium.md,"kosttilskud, du skal overveje",/kosttilskud/
 _posts/2020-07-11-magnesium.md,kosttilskud,/kosttilskud/
 _posts/2020-07-11-magnesium.md,D-vitamin,/kosttilskud-d-vitamin/
-_posts/2020-06-19-traening-over-40.md,Sænker blodtrykket,/blodtryk/
-_posts/2020-06-19-traening-over-40.md,hvilepulsen,/hvilepuls/
-_posts/2020-06-19-traening-over-40.md,basale træningsprincipper,/traeningsprincipper/
-_posts/2020-06-19-traening-over-40.md,10.000 daglige skridt,/skridt-pr-km-10000/
+_posts/2020-06-19-traening-over-40.md,træning for ældre,/traening-aeldre/
+_posts/2020-06-19-traening-over-40.md,Testosteron-niveauet falder,/testosteron/
+_posts/2020-06-19-traening-over-40.md,eksplosivitet (RFD),/rate-of-force-development/
+_posts/2020-06-19-traening-over-40.md,opvarmning,/opvarmning/
+_posts/2020-06-19-traening-over-40.md,styrketræning,/styrketraening/
+_posts/2020-06-19-traening-over-40.md,konditallet,/kondital/
+_posts/2020-06-19-traening-over-40.md,restitutionstid,/restitutionstid-og-alder/
+_posts/2020-06-19-traening-over-40.md,Blodtrykket,/blodtryk/
+_posts/2020-06-19-traening-over-40.md,Hvilepulsen,/hvilepuls/
+_posts/2020-06-19-traening-over-40.md,balancetræning,/balancetraening/
+_posts/2020-06-19-traening-over-40.md,restitutionstid og alder,/restitutionstid-og-alder/
+_posts/2020-06-19-traening-over-40.md,restitution,/restitution/
+_posts/2020-06-19-traening-over-40.md,Squat,/squat-dybt/
+_posts/2020-06-19-traening-over-40.md,10.000 skridt,/skridt-pr-km-10000/
+_posts/2020-06-19-traening-over-40.md,Dødløft,/doedloeft-biomekanik/
+_posts/2020-06-19-traening-over-40.md,træningsprincipper,/traeningsprincipper/
+_posts/2020-06-19-traening-over-40.md,10.000 skridt,/skridt-pr-km-10000/
 _posts/2021-11-10-phq-9-depression.md,søvn eller sove,/soevn/
 _posts/2019-10-14-fedtprocent-maalebaand-navy.md,Se fedtprocent skema & normer for mænd og kvinder,/fedtprocent-normer/
 _posts/2019-10-14-fedtprocent-maalebaand-navy.md,Oversigt over 7 metoder til måling af fedtprocent,/maal-fedtprocent/
@@ -3590,7 +3581,7 @@ _posts/2009-08-06-bedste-kombination-af-loeb-og-styrketraening.md,rate of force 
 _posts/2009-08-06-bedste-kombination-af-loeb-og-styrketraening.md,1RM,/rm-beregner/
 _posts/2009-08-06-bedste-kombination-af-loeb-og-styrketraening.md,intervaltræning,/intervaltraening/
 _posts/2009-08-06-bedste-kombination-af-loeb-og-styrketraening.md,jeg har skrevet om her,/lobeokonomi/
-_posts/2009-08-06-bedste-kombination-af-loeb-og-styrketraening.md,restitutionstiden,/restitutionstid/
+_posts/2009-08-06-bedste-kombination-af-loeb-og-styrketraening.md,restitutionstiden,/restitution/
 _posts/2009-08-06-bedste-kombination-af-loeb-og-styrketraening.md,løbe hurtigere,/loeb-hurtigere/
 _posts/2021-11-02-imtp-accupower.md,detaljerede guide til IMTP-testen,/imtp-test/
 _posts/2022-08-23-kredsloeb.md,pulsen,/puls/
@@ -4611,8 +4602,7 @@ _pages/tests-sprint.md,retningsskift og agilitetstests,/retningsskift-test/
 _pages/udstyr.md,musik til træningen,/artikel/musik-til-traeningen/
 _pages/udstyr.md,gode podcasts fx om fitness og træning,/bedste-fitness-traening-podcasts/
 _pages/udstyr.md,heart rate variability,/hrv/
-_pages/udstyr.md,restitution,/restitution/
-_pages/udstyr.md,restitutionstid,/restitutionstid/
+_pages/udstyr.md,restitution og restitutionstid,/restitution/
 _pages/udstyr.md,kompressionsstrømper,/kompressionsstroemper-restitution-praestation-bivirkninger/
 _pages/udstyr.md,velocity based training,/vbt/
 _pages/udstyr.md,løbebøger,/loebeboeger-boeger-om-loeb/
@@ -4742,8 +4732,7 @@ _pages/spring.md,Broad Jump (Stående Længdehop),/broadjump/
 _pages/spring.md,Reactive Strength Index (RSI),/reactive-strength-index-rsi/
 _pages/spring.md,Dynamic Strength Index (DSI),/dynamic-strength-index-dsi/
 _pages/spring.md,Se alle springtests og beregnere,/springtests-hoppehoejde/
-_pages/skader.md,restitution,/restitution/
-_pages/skader.md,restitutionstid,/restitutionstid/
+_pages/skader.md,restitution og optimering af restitutionstid,/restitution/
 _pages/skader.md,Alt om restitution,/restitution/
 _pages/skader.md,hvordan du laver dit eget styrketræningsprogram,/traeningsprogram-programlaegning-styrketraening/
 _pages/skader.md,hvad du skal tænke på i et løbeprogram,/artikel/kom-i-gang-med-loebetraeningen/

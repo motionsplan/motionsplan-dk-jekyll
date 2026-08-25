@@ -117,7 +117,7 @@ Løbehastighed kan typisk angives på tre måder:
 
 Vil du selv have lommeregneren frem, eller vil du forstå matematikken bag super-beregneren? Her er formlerne og konkrete eksempler på hver beregning:
 
-### 1. Beregn Hastighed (km/t) ud fra Distance og Tid
+### 1. Beregn Hastighed (km/t) ud fra distance og tid
 For at finde din gennemsnitshastighed i km/t dividerer du distancen (i km) med tiden (i timer):
 
 $$\text{Hastighed (km/t)} = \frac{\text{Distance (km)} \times 60}{\text{Tid (min)}}$$
@@ -125,9 +125,11 @@ $$\text{Hastighed (km/t)} = \frac{\text{Distance (km)} \times 60}{\text{Tid (min
 > **Eksempel:** Du løber **10 km** på **50 minutter**:
 > $$\text{Hastighed} = \frac{10 \times 60}{50} = \mathbf{12 \text{ km/t}}$$
 
+Beregn din gennemsnitlige km/t under f.eks. [Cooper-testens 12 minutter](/cooper-test/) for at vurdere dit løbetempo.
+
 ---
 
-### 2. Beregn Distance ud fra Hastighed og Tid
+### 2. Beregn Distance ud fra hastighed og tid
 Vil du vide, hvor langt du når på en bestemt tid med en givet hastighed, bruger du denne formel:
 
 $$\text{Distance (km)} = \frac{\text{Hastighed (km/t)} \times \text{Tid (min)}}{60}$$
