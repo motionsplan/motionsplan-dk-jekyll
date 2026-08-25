@@ -1,0 +1,407 @@
+<!-- _includes/calculator/calculate-absi.html -->
+<style>
+  .mp-absi-card {
+    position: relative !important;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-absi-header {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-absi-title {
+    margin: 0 0 4px 0;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #0f172a;
+  }
+
+  .mp-absi-subtitle {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #64748b;
+    font-weight: 500;
+  }
+
+  .mp-absi-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  @media (max-width: 480px) {
+    .mp-absi-grid { grid-template-columns: 1fr; }
+  }
+
+  .mp-absi-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mp-absi-group.full-width {
+    grid-column: 1 / -1;
+  }
+
+  .mp-absi-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 6px;
+  }
+
+  .mp-absi-input {
+    padding: 0.65rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #0f172a;
+    background-color: #f8fafc;
+    transition: border-color 0.2s, background-color 0.2s;
+  }
+
+  .mp-absi-input:focus {
+    outline: none;
+    border-color: #2563eb;
+    background-color: #ffffff;
+  }
+
+  /* Segmenteret Switch til Køn */
+  .mp-absi-switch-group {
+    display: flex;
+    background: #f1f5f9;
+    padding: 3px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    gap: 3px;
+  }
+
+  .mp-absi-switch-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 0.6rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #64748b;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+  }
+
+  .mp-absi-switch-btn.active {
+    background: #ffffff;
+    color: #2563eb;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  }
+
+  /* Resultatboks */
+  .mp-absi-results {
+    margin-top: 1.25rem;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+
+  .mp-absi-res-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .mp-absi-res-box {
+    background: #ffffff;
+    padding: 0.85rem;
+    border-radius: 8px;
+    border: 1px solid #dbeafe;
+  }
+
+  .mp-absi-res-val {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #1e3a8a;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mp-absi-res-unit {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #3b82f6;
+  }
+
+  .mp-absi-res-lbl {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+
+  /* Vurderingsbanner */
+  .mp-absi-eval-box {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    border-left: 5px solid #cbd5e1;
+    text-align: left;
+  }
+
+  .mp-absi-eval-title {
+    font-size: 0.85rem;
+    font-weight: 800;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }
+
+  .mp-absi-eval-desc {
+    font-size: 0.8rem;
+    color: #475569;
+    margin: 0;
+    line-height: 1.3;
+  }
+</style>
+
+<div class="mp-absi-card" data-tool="absi-calculator" id="absi-beregner">
+  <div class="mp-absi-header">
+    <h3 class="mp-absi-title">📐 ABSI Beregner (A Body Shape Index)</h3>
+    <p class="mp-absi-subtitle">Beregn dit ABSI og ABSI z-score for at vurdere din sundhedsrisiko baseret på kropsform.</p>
+  </div>
+
+  <form id="mp-absi-form" onsubmit="return false;">
+    <div class="mp-absi-grid">
+      
+      <!-- KØN SWITCH -->
+      <div class="mp-absi-group full-width">
+        <label class="mp-absi-label">Køn</label>
+        <div class="mp-absi-switch-group" id="absi-sex-switch">
+          <button type="button" class="mp-absi-switch-btn active" data-value="male">Mand</button>
+          <button type="button" class="mp-absi-switch-btn" data-value="female">Kvinde</button>
+        </div>
+      </div>
+
+      <!-- INPUTS -->
+      <div class="mp-absi-group">
+        <label class="mp-absi-label" for="absi-age">Alder (år)</label>
+        <input class="mp-absi-input" type="number" id="absi-age" min="18" max="99" value="35" placeholder="fx 35" required>
+      </div>
+
+      <div class="mp-absi-group">
+        <label class="mp-absi-label" for="absi-weight">Vægt (kg)</label>
+        <input class="mp-absi-input" type="number" step="0.1" id="absi-weight" min="30" max="250" value="80" placeholder="fx 80" required>
+      </div>
+
+      <div class="mp-absi-group">
+        <label class="mp-absi-label" for="absi-height">Højde (cm)</label>
+        <input class="mp-absi-input" type="number" id="absi-height" min="100" max="230" value="180" placeholder="fx 180" required>
+      </div>
+
+      <div class="mp-absi-group">
+        <label class="mp-absi-label" for="absi-waist">Taljemål (cm)</label>
+        <input class="mp-absi-input" type="number" step="0.5" id="absi-waist" min="40" max="200" value="88" placeholder="fx 88" required>
+      </div>
+
+    </div>
+  </form>
+
+  <div class="mp-absi-results">
+    <div class="mp-absi-res-grid">
+      <div class="mp-absi-res-box">
+        <div>
+          <span class="mp-absi-res-val" id="absi-res-score">0.0000</span>
+        </div>
+        <div class="mp-absi-res-lbl">ABSI Score</div>
+      </div>
+      <div class="mp-absi-res-box">
+        <div>
+          <span class="mp-absi-res-val" id="absi-res-zscore">0.00</span>
+        </div>
+        <div class="mp-absi-res-lbl">ABSI z-Score</div>
+      </div>
+    </div>
+
+    <!-- Vurdering -->
+    <div class="mp-absi-eval-box" id="absi-eval-box">
+      <div class="mp-absi-eval-title" id="absi-eval-title">Beregner...</div>
+      <p class="mp-absi-eval-desc" id="absi-eval-desc">Indtast dine målinger ovenfor for at få en fysiologisk vurdering.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('[data-tool="absi-calculator"]');
+  if (!container) return;
+
+  const STORAGE_KEY = 'mp_absi_calc_v1';
+
+  // State
+  let sex = 'male';
+
+  // DOM Elements
+  const ageInput = container.querySelector('#absi-age');
+  const weightInput = container.querySelector('#absi-weight');
+  const heightInput = container.querySelector('#absi-height');
+  const waistInput = container.querySelector('#absi-waist');
+
+  const resScore = container.querySelector('#absi-res-score');
+  const resZScore = container.querySelector('#absi-res-zscore');
+  const evalBox = container.querySelector('#absi-eval-box');
+  const evalTitle = container.querySelector('#absi-eval-title');
+  const evalDesc = container.querySelector('#absi-eval-desc');
+
+  const sexBtns = container.querySelectorAll('#absi-sex-switch .mp-absi-switch-btn');
+
+  // --- LOCALSTORAGE LOGIC ---
+  function loadSavedData() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      if (saved) {
+        if (saved.sex) {
+          sex = saved.sex;
+          sexBtns.forEach(b => {
+            b.classList.toggle('active', b.getAttribute('data-value') === sex);
+          });
+        }
+        if (saved.age) ageInput.value = saved.age;
+        if (saved.weight) weightInput.value = saved.weight;
+        if (saved.height) heightInput.value = saved.height;
+        if (saved.waist) waistInput.value = saved.waist;
+      }
+    } catch (e) {}
+  }
+
+  function saveData() {
+    try {
+      const data = {
+        sex: sex,
+        age: ageInput.value,
+        weight: weightInput.value,
+        height: heightInput.value,
+        waist: waistInput.value
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    } catch (e) {}
+  }
+
+  // --- SWITCH LOGIC ---
+  sexBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      sexBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      sex = this.getAttribute('data-value');
+      calculate();
+    });
+  });
+
+  // Event listeners til real-time opdatering
+  [ageInput, weightInput, heightInput, waistInput].forEach(input => {
+    input.addEventListener('input', calculate);
+  });
+
+  // --- BEREGNINGSFUNKTION (Krakauer & Krakauer, 2012) ---
+  function calculate() {
+    const age = parseFloat(ageInput.value);
+    const weight = parseFloat(weightInput.value);
+    const heightCm = parseFloat(heightInput.value);
+    const waistCm = parseFloat(waistInput.value);
+
+    if (!age || !weight || !heightCm || !waistCm || weight <= 0 || heightCm <= 0 || waistCm <= 0) {
+      resScore.textContent = '0.0000';
+      resZScore.textContent = '0.00';
+      return;
+    }
+
+    // Omregninger til MKS enheder
+    const heightM = heightCm / 100;
+    const waistM = waistCm / 100;
+
+    // 1. BMI Beregning
+    const bmi = weight / (heightM * heightM);
+
+    // 2. ABSI Formel: WC / (BMI^(2/3) * height^(1/2))
+    const absi = waistM / (Math.pow(bmi, 2/3) * Math.pow(heightM, 1/2));
+
+    // 3. Normtal for ABSI Mean og SD baseret på NHANES datasæt (Krakauer 2012 / 2014)
+    // Mean og SD afhænger af køn og alder
+    let meanABSI = 0;
+    let sdABSI = 0;
+
+    if (sex === 'male') {
+      meanABSI = 0.0789 + (0.000085 * age);
+      sdABSI = 0.0038 + (0.00001 * age);
+    } else {
+      meanABSI = 0.0770 + (0.000100 * age);
+      sdABSI = 0.0037 + (0.00001 * age);
+    }
+
+    // 4. ABSI z-Score = (ABSI - Mean) / SD
+    const absiZScore = (absi - meanABSI) / sdABSI;
+
+    // Opdater tal i DOM
+    resScore.textContent = absi.toFixed(4);
+    resZScore.textContent = (absiZScore > 0 ? '+' : '') + absiZScore.toFixed(2);
+
+    // 5. Vurdering og Farvekodning baseret på z-score (Krakauer risikoklasser)
+    updateEvaluation(absiZScore);
+
+    saveData();
+  }
+
+  function updateEvaluation(z) {
+    let title = '';
+    let desc = '';
+    let borderColor = '#cbd5e1';
+    let titleColor = '#475569';
+
+    if (z <= -0.868) {
+      title = 'Meget lav risiko';
+      desc = 'Din kropsform viser en lavere andel af abdominalt fedt i forhold til din BMI end gennemsnittet. Dette er forbundet med en meget lav kardiometabolisk risiko.';
+      borderColor = '#16a34a'; // Grøn
+      titleColor = '#15803d';
+    } else if (z > -0.868 && z <= -0.272) {
+      title = 'Lav risiko';
+      desc = 'Dine antropometriske målinger ligger i den gunstige ende af gennemsnittet. Din risiko for livsstilssygdomme er lavere end gennemsnittet.';
+      borderColor = '#22c55e'; // Lys grøn
+      titleColor = '#166534';
+    } else if (z > -0.272 && z <= 0.229) {
+      title = 'Gennemsnitlig risiko';
+      desc = 'Din kropsform og fedtfordeling svarer til gennemsnittet for din alder og køn. Din kardiometaboliske risiko er normal.';
+      borderColor = '#3b82f6'; // Blå
+      titleColor = '#1e40af';
+    } else if (z > 0.229 && z <= 0.825) {
+      title = 'Forhøjet risiko';
+      desc = 'Din ABSI z-score er over gennemsnittet, hvilket indikerer en højere mængde visceralt fedt omkring maveregionen relativt til din samlede BMI.';
+      borderColor = '#eab308'; // Gul/Orange
+      titleColor = '#a16207';
+    } else {
+      title = 'Høj / Meget høj risiko';
+      desc = 'Din kropsform viser en markant overvægt af maveregionsfedt i forhold til din kropsstørrelse. Det anbefales at fokusere på kropskomposition og fysisk aktivitet.';
+      borderColor = '#dc2626'; // Rød
+      titleColor = '#991b1b';
+    }
+
+    evalBox.style.borderLeftColor = borderColor;
+    evalTitle.textContent = title;
+    evalTitle.style.color = titleColor;
+    evalDesc.textContent = desc;
+  }
+
+  // Init
+  loadSavedData();
+  calculate();
+});
+</script>
