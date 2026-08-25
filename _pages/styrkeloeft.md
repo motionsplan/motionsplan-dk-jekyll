@@ -3,9 +3,10 @@ layout: single
 title: Styrkeløft - komplet guide til squat, bænkpres og dødløft
 seo_title: 'Styrkeløft: Komplet guide til sporten'
 permalink: /styrkeloeft/
+permalink:
+  - /variationer/
 excerpt: Bliv stærkere i squat, bænkpres og dødløft! Lær korrekt teknik, effektive træningsprogrammer og regler for styrkeløft.
-description: Få en komplet guide til styrkeløft. Lær teknikken i squat, bænkpres og dødløft, følg effektive træningsprogrammer,
-  og forstå reglerne i konkurrence.
+description: Få en komplet guide til styrkeløft. Lær teknikken i squat, bænkpres og dødløft, følg effektive træningsprogrammer, og forstå reglerne i konkurrence.
 header:
   overlay_image: /assets/images/unsplash/photo-1526403223670-2aa44aaface2.jpg
   credit: https://images.unsplash.com/photo-1526403223670-2aa44aaface2
@@ -197,6 +198,38 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 [Se alle styrkeprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center }
 
 </div>
+
+## Variationer af basisløftene (Squat, Bænkpres og Dødløft)
+
+Når du ønsker at blive stærkere i styrkeløft, kræver det høj frekvens og mange gentagelser af de tre basisløft. Hvis du løfter helt ensfaret hver gang, øges risikoen for overbelastningsskader i led og sener, og du risikerer at gå i stå ved bestemte svaghedspunkter i løftet (såkaldte *sticking points*).
+
+Ved at inddrage variationer af squat, bænkpres og dødløft i din træningsplan, kan du øge din samlede træningsvolumen, styrke specifikke faser af bevægelsesbanen og skåne nervesystemet.
+
+Der er fem primære knapper, du kan skrue på for at variere løftene:
+
+* **Greb og stance (standbredde):** Ændring af hvor bredt du står (fx sumodødløft eller smal squat) eller hvor bredt du holder på vægtstangen (fx smalt bænkpres). Dette forrykker den muskulære belastning og ændrer leddenes vinkler og momentarme.
+* **Tempo:** Ved at kontrollere hastigheden – særligt i den sænkende (excentriske) fase eller på vej op – øger du musklernes tid under spænding (TUT) og forbedrer din kontrol over vægtstangens bane.
+* **Pauser og stop:** Indlagte pauser i bunden af et squat eller bænkpres fjerner den elastiske energi (stretch-shortening cycle) fra senerne. Det tvinger muskulaturen til at skabe ren, eksplosiv kraft fra et stående startpunkt.
+* **Range of Motion (ROM):** Ved at forkorte eller forlænge bevægelsesbanen kan du overbelaste specifikke faser af løftet. Eksempler er *pin squats*, *board press* i bænkpres eller dødløft fra klodser (block pulls) samt *deficit deadlifts* for øget bevægelsesudslag.
+* **Akommoderende modstand og stangtyper:** Brug af elastikker, kæder eller specialstænger (som *Safety Squat Bar* eller *Swiss Bar*) ændrer belastningskurven gennem løftet eller skåner skuldre og håndled.
+
+---
+
+### Træning med tempo
+
+Tempotræning er oplagt til at rette tekniske fejl og opbygge positionel styrke i den excentriske fase:
+
+{% include video provider="youtube" id="-_cUbg4cxf0" %}
+
+---
+
+### Træning med kæder og akommoderende modstand
+
+Når du monterer kæder på vægtstangen, bliver løftet tungere, jo højere op du presser vægten, fordi flere kædeled løftes fra gulvet. Det træner din evne til at accelerere vægten igennem hele bevægelsesbanen og styrker din *lockout*:
+
+{% include video provider="youtube" id="AhTyE9HBnmQ" %}
+
+---
 
 ## Hvordan laver jeg mit eget styrketræningsprogram?
 

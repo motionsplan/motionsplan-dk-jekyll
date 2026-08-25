@@ -5,6 +5,7 @@ description: Dit personlige dashboard. Her samles alle dine testresultater, 1RM-
 permalink: /hjem/
 classes: wide
 layout: splash
+sitemap: false
 header:
   overlay_color: "#333"
 ---

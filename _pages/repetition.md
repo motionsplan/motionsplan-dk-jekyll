@@ -3,6 +3,7 @@ layout: single
 title: 🧠 Dagens Repetition & Flashcards
 permalink: /repetition/
 classes: wide
+sitemap: false
 ---
 
 <style>
