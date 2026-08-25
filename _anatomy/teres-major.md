@@ -64,10 +64,7 @@ Da Teres Major fungerer i tæt samarbejde med "lats", trænes den i stort set al
 
 ## Se oversigt over muskler
 
-Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
-
-👉 **[Se muskeloversigten](/muskler/tabel/)**
-{: .notice--info }
+Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [muskeloversigt](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -2,6 +2,7 @@
 title: "Mål din hoppehøjde: Guide til de 5 bedste springtests"
 seo_title: "Hoppetest & springtest – 5 måder at måle hoppehøjde på"
 description: "Vil du måle din hoppehøjde og eksplosive springstyrke? Se de 5 mest anerkendte springtests (Sargent, CMJ, SJ, Vertec) og find den rette for dig."
+excerpt: "Vil du måle din hoppehøjde og eksplosive springstyrke? Se de 5 mest anerkendte springtests (Sargent, CMJ, SJ, Vertec) og find den rette for dig."
 permalink: /springtests-hoppehoejde/
 language: da
 header:

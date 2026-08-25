@@ -32,7 +32,7 @@ Træner du dit baglår og dine haser? Det tror jeg nok du går, så næste gang 
 
 Ofte bliver baglåret ikke trænet tilstrækkeligt, og ofte heller ikke på den måde baglårsmusklen bruges.
 
-Lad os dykke lidt ned i anatomien i baglåret. Musklerne har nemlig både betydning for [knæledet](/joints/knaeleddet/) og [hofteleddet](/joints/hofteleddet/).
+Lad os dykke lidt ned i anatomien i baglåret. Musklerne har nemlig både betydning for [knæleddet](/joints/knaeleddet/) og [hofteleddet](/joints/hofteleddet/).
 
 {% include figure image_path="/assets/images/cdn.ncbi.nlm.nih.gov/gr1-2eccf932.jpg" caption="Musklerne i baglåret. Kilde: [Ernlund og Viera (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5582808/) [📷](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d84/5582808/17516000fce8/gr1.jpg){: rel='nofollow noopener' }" %}
 

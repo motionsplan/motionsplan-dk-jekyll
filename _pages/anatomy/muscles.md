@@ -7,6 +7,8 @@ description: Få en komplet oversigt over kroppens muskler, deres funktioner og 
 excerpt: Her har du en oversigt over muskler i kroppen, muskelgrupper og muskel anatomi. Du får både navne på kroppens muskler
   på latin og dansk.
 permalink: /muskler/
+redirect_from:
+  - /muskler/tabel/
 header:
   overlay_image: /assets/images/unsplash/photo-1539814858141-928517f6afd3.jpg
   credit: https://images.unsplash.com/photo-1539814858141-928517f6afd3
@@ -103,8 +105,15 @@ I denne tabel over muskler kan du se en oversigt over muskler i ben, arme, skuld
 
 Hvis du er studerende eller bare vil nørde de anatomiske detaljer, har jeg lavet et dedikeret værktøj til dig. Her kan du søge i alle muskler og se deres præcise udspring og hæfte på både dansk og latin.
 
-👉 **[Se den store søgbare tabel over alle muskler her](/muskler/tabel/)**
-{: .notice--info }
+Denne tabel er designet til at give dig et hurtigt overblik uden at skulle klikke ind på hver enkelt muskel. 
+
+* **Søg på knogler:** Skriv fx "Humerus" eller "Femur" for at se alle muskler, der udspringer fra eller hæfter på disse knogler.
+* **Eksamensforberedelse:** Skift til "Latin" for at teste dig selv i de latinske betegnelser, som ofte bruges til eksamen.
+* **Sammenlign funktioner:** Find hurtigt alle muskler, der laver "Dorsalfleksion" eller "Udadrotation".
+
+Du kan skifte mellem at se navnene på **Dansk** eller **Latin** ved hjælp af knapperne herunder.
+
+{% include table/muscles-origin.html %}
 
 ---
 

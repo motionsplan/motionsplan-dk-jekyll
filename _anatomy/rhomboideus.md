@@ -60,9 +60,6 @@ Andre gode øvelser inkluderer:
 
 Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
 
-👉 **[Tabel over kroppens muskler](/muskler/tabel/)**
-{: .notice--info }
-
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
