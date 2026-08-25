@@ -2,7 +2,7 @@ kondition:
   type: kondition
   category: Aerob og anaerob kapacitet
   title: "🫀 Kondition (din aerobe kapacitet)"
-  faq_title: 🫀 Hvad er kondition?
+  faq_title: "🫀 Hvad er kondition?"
   excerpt: "Kondition er kroppens evne til at udføre fysisk arbejde over tid. Den afhænger af hjerte, lunger og muskler og kan forbedres med træning som løb, cykling og intervaltræning."
   btn_label: "Lær om kondition"
   url: "/kondition/"
