@@ -19,7 +19,7 @@ header:
   credit: https://images.unsplash.com/photo-1571008887538-b36bb32f4571
   teaser: /assets/images/unsplash/photo-1571008887538-b36bb32f4571.jpg
   caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd, kvinder og børn?
-last_modified_at: '2026-08-23T16:50:00+02:00'
+last_modified_at: '2026-08-27T16:50:00+02:00'
 toc: 'true'
 categories:
 - Kondition
@@ -81,8 +81,8 @@ Hvad er et godt kondital, og hvordan finder du det? Konditallet siger meget om, 
 - **Fysiske konditionstests:** Find de mest populære løbe-, cykel- og gangtests til at måle dit præcise tal.
 - **Sundhed & rekordtal:** Læs om konditallets betydning for sygdomsrisiko, retfærdig vurdering for overvægtige og de højeste kondital nogensinde målt.
 
-[<i class='fas fa-table'></i> Hop til kondital-tabellen](#tabel){: .btn .btn--success .btn--jump }
-[<i class='fas fa-calculator'></i> Hop til beregnere](#calculator){: .btn .btn--info .btn--jump }
+[<i class='fas fa-table'></i> Gå til kondital-tabellen](#tabel){: .btn .btn--success .btn--jump }
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--info .btn--jump }
 
 *[BMI]: Body Mass Index
 
@@ -105,7 +105,8 @@ Som en hurtig tommelfingerregel gælder følgende for raske voksne i normalbefol
 
 Du kan se de præcise værdier for alle aldersgrupper i tabellerne nedenunder.
 
-[Test din kondition](/kondition/tests/){: .btn .btn--large .btn--info }
+[Fysisk test af din kondition](/kondition/tests/){: .btn .btn--large .btn--info }
+[<i class='fas fa-calculator'></i> Beregn dit kondital](#calculator){: .btn .btn--info .btn--jump }
 
 ## Kondital tabel: Hvad er et godt kondital?
 
@@ -180,12 +181,23 @@ Vælg den metode i beregneren herunder, der passer bedst til de data, du har til
 
 ---
 
-### De tre videnskabelige modeller bag beregneren
+### De videnskabelige modeller bag beregneren
 
-Vil du dykke ned i teorien og forskningen bag de tre sofatests, kan du læse mere om modellerne herunder:
+Vil du dykke ned i teorien og forskningen bag disse beregninger af kondital, kan du læse mere om modellerne herunder:
 
 <details class="faq" markdown="1">
-<summary><strong>1. Uth-Sørensens formel (2004) – Baseret på pulsdata</strong></summary>
+<summary><strong>1. Tokmakidis et al. (1987) – Baseret på løbetur (tid & distance)</strong></summary>
+
+Tokmakidis-formlen estimerer din maksimale iltoptagelse ($\text{VO}_2\max$) direkte ud fra din gennemsnitlige hastighed på en maksimal løbetur. Modellen bygger på fysiologiske regressionsligninger og er valideret på flade ruter på distancer helt fra 1,5 km op til 42,2 km.
+
+* **Kræver:** Løbedistance og løbetid (all-out præstation).
+* **Præcision:** Stærkt fysiologisk match til måling af den funktionelle motor under reelt løbearbejde.
+
+> **Læs mere:** Se teorien bag formlen i vores [dedikerede guide til kondital ud fra tid og distance](/kondital-loeb-distance-tid/). Vil du også have beregnet dine konkrete træningstempi (E-, T- og I-pace) samt VDOT-forudsigelser ud fra din løbetid, kan du prøve vores [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
+</details>
+
+<details class="faq" markdown="1">
+<summary><strong>2. Uth-Sørensens formel (2004) – Baseret på pulsdata</strong></summary>
 
 Uth-formlen tager udgangspunkt i forholdet mellem din hvilepuls og din maksimale puls ($HR_{max} / HR_{rest}$). Logikken er simpel: Et stærkt og veltrænet hjerte pumper mere blod ud pr. slag, hvilket giver en lavere hvilepuls og et større spænd op til makspulsen.
 
@@ -196,7 +208,7 @@ Uth-formlen tager udgangspunkt i forholdet mellem din hvilepuls og din maksimale
 </details>
 
 <details class="faq" markdown="1">
-<summary><strong>2. Nes et al. (2011) – HUNT-studiets fysiologiske model</strong></summary>
+<summary><strong>3. Nes et al. (2011) – HUNT-studiets fysiologiske model</strong></summary>
 
 Denne model er udarbejdet af fysiologiske forskere ved NTNU (CERG) i Norge på baggrund af data fra over 37.000 deltagere i det omfattende HUNT-studie. Den kombinerer dine basale kropsmål med selvoplevet træningsintensitet.
 
@@ -207,7 +219,7 @@ Denne model er udarbejdet af fysiologiske forskere ved NTNU (CERG) i Norge på b
 </details>
 
 <details class="faq" markdown="1">
-<summary><strong>3. Jackson et al. (1990) – Non-Exercise modellen (BMI & Aktivitet)</strong></summary>
+<summary><strong>4. Jackson et al. (1990) – Non-Exercise modellen (BMI & Aktivitet)</strong></summary>
 
 Jackson-modellen er udviklet til hurtigt at evaluere kondition uden brug af pulsmåler eller avanceret udstyr. Formlen kobler din kropsbygning (BMI via højde og vægt) med NASA's anerkendte PAR-aktivitetsskala (Physical Activity Rating 0-7).
 
@@ -215,7 +227,7 @@ Jackson-modellen er udviklet til hurtigt at evaluere kondition uden brug af puls
 * **Præcision:** God til hurtig screening, når du ikke kender din hvilepuls eller makspuls.
 </details>
 
-Jeg har skrevet mere om, hvordan du kan bruge dit [ur til at måle din kondition](/ur-vo2max/).
+Jeg har skrevet en guide til, hvordan du kan bruge dit [ur til at måle din kondition](/ur-vo2max/).
 
 ---
 

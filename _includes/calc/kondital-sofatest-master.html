@@ -1,94 +1,127 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
-<div class="mp-calc-card" data-calculator="kondital-sofatest-master" style="max-width: 720px; margin: 0 auto; position: relative;">
+<div class="mp-calc-card" data-calculator="kondital-master" style="max-width: 720px; margin: 0 auto; position: relative; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1.25rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
 
   <!-- Header -->
-  <div class="mp-calc-header" style="margin-bottom: 0.35rem;">
-    <h3 class="mp-calc-title" style="margin-bottom: 0;">Sofatest: Beregn dit kondital</h3>
+  <div class="mp-calc-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+    <h3 class="mp-calc-title" style="margin: 0; font-size: 1.25rem; font-weight: 800; color: #0f172a;">Kondital Beregner: Vælg testmetode</h3>
     <div data-html2canvas-ignore="true">
       <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 32px; height: 32px; object-fit: contain; border-radius: 6px;">
     </div>
   </div>
   
   <p class="mp-calc-description" style="margin-top: 0.25rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #64748b; line-height: 1.4;">
-    Estimer dit kondital og din fysiologiske fitness-alder helt uden at skulle igennem en hård løbetest.
+    Beregn eller estimer dit kondital (VO₂max) ud fra en løbetur eller en af vores tre sofatests.
   </p>
 
-  <!-- Top Selector (3 Centrerede & Alignerede Kort) -->
-  <div class="js-kt-mode-selector" data-html2canvas-ignore="true" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.5rem; margin-bottom: 1.25rem;">
+  <!-- Top Selector: 2x2 Grid med beskrivelsen over kilden for optimal plads -->
+  <div class="js-kt-mode-selector" data-html2canvas-ignore="true" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.6rem; margin-bottom: 1.25rem;">
     
-    <button type="button" class="js-kt-mode-btn mp-card-btn is-active" data-mode="uth" style="padding: 0.85rem 0.6rem; border: 2px solid #cbd5e1; border-radius: 10px; background: #ffffff; text-align: center; cursor: pointer; transition: all 0.2s ease; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-      <div style="font-weight: 800; font-size: 0.9rem; color: #0f172a; margin-bottom: 2px;">Hvilepuls & maxpuls</div>
-      <div style="font-size: 0.73rem; color: #2563eb; margin-bottom: 6px;">Uth et al (2004)</div>
-      <div style="font-size: 0.72rem; color: #64748b; line-height: 1.3;">Kræver både hvilepuls & maxpuls.</div>
+    <!-- Kort 1: Løbetur (Tokmakidis) -->
+    <button type="button" class="js-kt-mode-btn mp-card-btn is-active" data-mode="tokmakidis" style="position: relative; padding: 0.85rem 0.75rem; border: 2px solid #2563eb; border-radius: 10px; background: #eff6ff; text-align: left; cursor: pointer; transition: all 0.2s ease; min-height: 96px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="font-weight: 800; font-size: 0.9rem; color: #0f172a; margin-bottom: 2px;">🏃 Løbetur (Tid & km)</div>
+        <div style="font-size: 0.72rem; color: #64748b; line-height: 1.3; margin-bottom: 4px;">All-out løbetur på flad rute.</div>
+        <div style="font-size: 0.73rem; color: #2563eb; font-weight: 700; padding-right: 48px;">Tokmakidis et al (1987)</div>
+      </div>
+      <div class="js-kt-card-badge" data-badge="tokmakidis" style="position: absolute; bottom: 8px; right: 8px; font-size: 0.75rem; font-weight: 900; padding: 3px 8px; border-radius: 6px; background: #cbd5e1; color: #475569; transition: all 0.2s ease;">-</div>
     </button>
 
-    <button type="button" class="js-kt-mode-btn mp-card-btn" data-mode="nes" style="padding: 0.85rem 0.6rem; border: 2px solid #e2e8f0; border-radius: 10px; background: #f8fafc; text-align: center; cursor: pointer; transition: all 0.2s ease; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-      <div style="font-weight: 800; font-size: 0.9rem; color: #0f172a; margin-bottom: 2px;">Taljemål & hvilepuls</div>
-      <div style="font-size: 0.73rem; color: #2563eb; margin-bottom: 6px;">Nes et al (2011)</div>
-      <div style="font-size: 0.72rem; color: #64748b; line-height: 1.3;">Mest præcis! Kræver taljemål & hvilepuls.</div>
+    <!-- Kort 2: Hvilepuls & maxpuls (Uth) -->
+    <button type="button" class="js-kt-mode-btn mp-card-btn" data-mode="uth" style="position: relative; padding: 0.85rem 0.75rem; border: 2px solid #e2e8f0; border-radius: 10px; background: #ffffff; text-align: left; cursor: pointer; transition: all 0.2s ease; min-height: 96px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="font-weight: 800; font-size: 0.9rem; color: #0f172a; margin-bottom: 2px;">💓 Hvilepuls & maxpuls</div>
+        <div style="font-size: 0.72rem; color: #64748b; line-height: 1.3; margin-bottom: 4px;">Kræver både hvilepuls & maxpuls.</div>
+        <div style="font-size: 0.73rem; color: #2563eb; font-weight: 700; padding-right: 48px;">Uth et al (2004)</div>
+      </div>
+      <div class="js-kt-card-badge" data-badge="uth" style="position: absolute; bottom: 8px; right: 8px; font-size: 0.75rem; font-weight: 900; padding: 3px 8px; border-radius: 6px; background: #cbd5e1; color: #475569; transition: all 0.2s ease;">-</div>
     </button>
 
-    <button type="button" class="js-kt-mode-btn mp-card-btn" data-mode="jackson" style="padding: 0.85rem 0.6rem; border: 2px solid #e2e8f0; border-radius: 10px; background: #f8fafc; text-align: center; cursor: pointer; transition: all 0.2s ease; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-      <div style="font-weight: 800; font-size: 0.9rem; color: #0f172a; margin-bottom: 2px;">Aktivitet & kropsmål</div>
-      <div style="font-size: 0.73rem; color: #2563eb;; margin-bottom: 6px;">Jackson et al (1990)</div>
-      <div style="font-size: 0.72rem; color: #64748b; line-height: 1.3;">Hurtig! Ingen pulsdata krævet.</div>
+    <!-- Kort 3: Taljemål & hvilepuls (Nes / HUNT) -->
+    <button type="button" class="js-kt-mode-btn mp-card-btn" data-mode="nes" style="position: relative; padding: 0.85rem 0.75rem; border: 2px solid #e2e8f0; border-radius: 10px; background: #ffffff; text-align: left; cursor: pointer; transition: all 0.2s ease; min-height: 96px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="font-weight: 800; font-size: 0.9rem; color: #0f172a; margin-bottom: 2px;">📏 Taljemål & hvilepuls</div>
+        <div style="font-size: 0.72rem; color: #64748b; line-height: 1.3; margin-bottom: 4px;">Kræver taljemål & hvilepuls.</div>
+        <div style="font-size: 0.73rem; color: #2563eb; font-weight: 700; padding-right: 48px;">Nes et al (2011)</div>
+      </div>
+      <div class="js-kt-card-badge" data-badge="nes" style="position: absolute; bottom: 8px; right: 8px; font-size: 0.75rem; font-weight: 900; padding: 3px 8px; border-radius: 6px; background: #cbd5e1; color: #475569; transition: all 0.2s ease;">-</div>
+    </button>
+
+    <!-- Kort 4: Aktivitet & kropsmål (Jackson / NASA) -->
+    <button type="button" class="js-kt-mode-btn mp-card-btn" data-mode="jackson" style="position: relative; padding: 0.85rem 0.75rem; border: 2px solid #e2e8f0; border-radius: 10px; background: #ffffff; text-align: left; cursor: pointer; transition: all 0.2s ease; min-height: 96px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="font-weight: 800; font-size: 0.9rem; color: #0f172a; margin-bottom: 2px;">🛋️ Aktivitet & kropsmål</div>
+        <div style="font-size: 0.72rem; color: #64748b; line-height: 1.3; margin-bottom: 4px;">Hurtig! Ingen pulsdata krævet.</div>
+        <div style="font-size: 0.73rem; color: #2563eb; font-weight: 700; padding-right: 48px;">Jackson et al (1990)</div>
+      </div>
+      <div class="js-kt-card-badge" data-badge="jackson" style="position: absolute; bottom: 8px; right: 8px; font-size: 0.75rem; font-weight: 900; padding: 3px 8px; border-radius: 6px; background: #cbd5e1; color: #475569; transition: all 0.2s ease;">-</div>
     </button>
 
   </div>
 
   <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 0 0 1.25rem 0;">
 
-  <!-- 1. Fælles Demografi (Alder, Vægt, Køn) -->
+  <!-- 1. Fælles Demografi -->
   <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; align-items: flex-start;">
-    
     <div class="mp-form-group" style="flex: 0 0 85px;">
-      <label style="font-size: 0.8rem; font-weight: 700;">Alder <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(år)</span></label>
-      <input type="number" name="kt_age" class="mp-form-control js-kt-input" min="10" max="100" placeholder="40" style="padding: 0.4rem; text-align: center;">
+      <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 0.2rem;">Alder <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(år)</span></label>
+      <input type="number" name="kt_age" class="mp-form-control js-kt-input" min="10" max="100" placeholder="40" value="40" style="width: 100%; padding: 0.4rem; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box;">
     </div>
     
     <div class="mp-form-group" style="flex: 0 0 85px;">
-      <label style="font-size: 0.8rem; font-weight: 700;">Vægt <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(kg)</span></label>
-      <input type="number" name="kt_weight" class="mp-form-control js-kt-input" min="30" max="200" placeholder="80" style="padding: 0.4rem; text-align: center;">
+      <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 0.2rem;">Vægt <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(kg)</span></label>
+      <input type="number" name="kt_weight" class="mp-form-control js-kt-input" min="30" max="200" placeholder="80" value="80" style="width: 100%; padding: 0.4rem; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box;">
     </div>
     
     <div class="mp-form-group" style="flex: 1; min-width: 140px;">
-      <label style="font-size: 0.8rem; font-weight: 700;">Køn</label>
-      <div class="mp-toggle-group" style="height: 38px;">
-        <label style="flex: 1; margin: 0; position: relative;">
-          <input type="radio" name="kt_gender" value="male" class="js-kt-input" checked>
-          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Mand</div>
+      <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 0.2rem;">Køn</label>
+      <div class="mp-toggle-group" style="display: flex; height: 38px; border: 1px solid #cbd5e1; border-radius: 6px; overflow: hidden;">
+        <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
+          <input type="radio" name="kt_gender" value="male" class="js-kt-input" checked style="position: absolute; opacity: 0;">
+          <div class="mp-toggle-btn js-kt-gender-btn" data-gender="male" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: 700; background: #2563eb; color: #ffffff;">Mand</div>
         </label>
-        <label style="flex: 1; margin: 0; position: relative;">
-          <input type="radio" name="kt_gender" value="female" class="js-kt-input">
-          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Kvinde</div>
+        <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
+          <input type="radio" name="kt_gender" value="female" class="js-kt-input" style="position: absolute; opacity: 0;">
+          <div class="mp-toggle-btn js-kt-gender-btn" data-gender="female" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: 700; background: #f8fafc; color: #475569;">Kvinde</div>
         </label>
       </div>
     </div>
-
   </div>
 
   <!-- 2. Mode-specifikke felter -->
 
+  <!-- Mode 0: Tokmakidis (Løbetur) -->
+  <div class="js-kt-section" data-section="tokmakidis" style="margin-bottom: 1.25rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: flex-start;">
+      <div class="mp-form-group" style="flex: 1; min-width: 130px;">
+        <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 0.2rem;">Distance <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(km)</span></label>
+        <input type="number" name="kt_tok_dist" class="mp-form-control js-kt-input" step="0.01" min="1.5" max="42.2" placeholder="fx 5.0" style="width: 100%; padding: 0.4rem; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box;">
+      </div>
+      <div class="mp-form-group" style="flex: 1.2; min-width: 160px;">
+        <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 0.2rem;">Løbetid <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(min & sek)</span></label>
+        <div style="display: flex; gap: 0.35rem; height: 38px;">
+          <input type="number" name="kt_tok_min" class="mp-form-control js-kt-input" min="3" max="300" placeholder="Min" style="flex: 1; padding: 0.4rem; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box;">
+          <span style="display: flex; align-items: center; font-weight: 800; color: #64748b;">:</span>
+          <input type="number" name="kt_tok_sec" class="mp-form-control js-kt-input" min="0" max="59" placeholder="Sek" style="flex: 1; padding: 0.4rem; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box;">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Mode 1: Uth (Puls) -->
-  <div class="js-kt-section" data-section="uth" style="margin-bottom: 1.25rem;">
+  <div class="js-kt-section" data-section="uth" style="display: none; margin-bottom: 1.25rem;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: flex-start;">
       <div class="mp-form-group" style="flex: 1; min-width: 140px;">
-        <label style="font-size: 0.8rem; font-weight: 700;">Hvilepuls <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(slag/min)</span></label>
-        <input type="number" name="kt_resthr" class="mp-form-control js-kt-input" min="30" max="120" placeholder="fx 60" style="padding: 0.4rem; text-align: center;">
+        <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 0.2rem;">Hvilepuls <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(slag/min)</span></label>
+        <input type="number" name="kt_resthr" class="mp-form-control js-kt-input" min="30" max="120" placeholder="fx 60" style="width: 100%; padding: 0.4rem; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box;">
       </div>
-
       <div class="mp-form-group" style="flex: 1.2; min-width: 160px; position: relative;">
-        <label style="font-size: 0.8rem; font-weight: 700;">Maxpuls <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(slag/min)</span></label>
+        <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 0.2rem;">Maxpuls <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(slag/min)</span></label>
         <div style="display: flex; gap: 0.35rem; height: 38px;">
-          <input type="number" name="kt_maxhr" class="mp-form-control js-kt-input" min="130" max="220" placeholder="fx 185" style="flex: 1; min-width: 0; padding: 0.4rem; text-align: center;">
-          <button type="button" class="js-kt-estimate-btn mp-btn-submit" style="flex: 0 0 42px; width: 42px; padding: 0; font-size: 1.1rem; background: #f1f5f9; color: #475569; border: 1.5px solid #cbd5e1; border-radius: 8px; display: flex; align-items: center; justify-content: center; cursor: pointer;" title="Estimer maxpuls ud fra alder">
-            🪄
-          </button>
+          <input type="number" name="kt_maxhr" class="mp-form-control js-kt-input" min="130" max="220" placeholder="fx 185" style="flex: 1; min-width: 0; padding: 0.4rem; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box;">
+          <button type="button" class="js-kt-estimate-btn" style="flex: 0 0 42px; width: 42px; padding: 0; font-size: 1.1rem; background: #f1f5f9; color: #475569; border: 1.5px solid #cbd5e1; border-radius: 8px; display: flex; align-items: center; justify-content: center; cursor: pointer;" title="Estimer maxpuls ud fra alder">🪄</button>
         </div>
-        <div class="js-kt-maxhr-helper" style="position: absolute; bottom: -18px; right: 0; font-size: 0.65rem; color: #16a34a; font-weight: 600; display: none; white-space: nowrap;">
-          ✓ Tanaka (2001)
-        </div>
+        <div class="js-kt-maxhr-helper" style="position: absolute; bottom: -18px; right: 0; font-size: 0.65rem; color: #16a34a; font-weight: 600; display: none; white-space: nowrap;">✓ Tanaka (2001)</div>
       </div>
     </div>
   </div>
@@ -97,18 +130,17 @@
   <div class="js-kt-section" data-section="nes" style="display: none; margin-bottom: 1.25rem;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem;">
       <div class="mp-form-group" style="flex: 1; min-width: 130px;">
-        <label style="font-size: 0.8rem; font-weight: 700;">Taljemål <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(cm)</span></label>
-        <input type="number" name="kt_waist" class="mp-form-control js-kt-input" placeholder="fx 85" style="padding: 0.4rem; text-align: center;">
+        <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 0.2rem;">Taljemål <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(cm)</span></label>
+        <input type="number" name="kt_waist" class="mp-form-control js-kt-input" placeholder="fx 85" style="width: 100%; padding: 0.4rem; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box;">
       </div>
       <div class="mp-form-group" style="flex: 1; min-width: 130px;">
-        <label style="font-size: 0.8rem; font-weight: 700;">Hvilepuls <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(slag/min)</span></label>
-        <input type="number" name="kt_nes_resthr" class="mp-form-control js-kt-input" placeholder="fx 60" style="padding: 0.4rem; text-align: center;">
+        <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 0.2rem;">Hvilepuls <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(slag/min)</span></label>
+        <input type="number" name="kt_nes_resthr" class="mp-form-control js-kt-input" placeholder="fx 60" style="width: 100%; padding: 0.4rem; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box;">
       </div>
     </div>
     
     <div class="mp-form-group">
       <label style="font-size: 0.8rem; font-weight: 700; margin-bottom: 0.4rem; display: block;">Aktivitetsniveau <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(seneste 6 måneder)</span></label>
-      <!-- Lodret liste for ren læsbarhed -->
       <div class="js-kt-pill-group" data-name="kt_nes_pa" style="display: flex; flex-direction: column; gap: 0.4rem;">
         <button type="button" class="js-kt-pill mp-pill-btn" data-value="1" style="padding: 0.6rem 0.75rem; font-size: 0.8rem; border: 1.5px solid #cbd5e1; border-radius: 6px; background: #ffffff; cursor: pointer; text-align: left;">Inaktiv (Sjældent eller aldrig motion)</button>
         <button type="button" class="js-kt-pill mp-pill-btn" data-value="2" style="padding: 0.6rem 0.75rem; font-size: 0.8rem; border: 1.5px solid #cbd5e1; border-radius: 6px; background: #ffffff; cursor: pointer; text-align: left;">Middel (1-2 gange rolig motion om ugen)</button>
@@ -122,14 +154,13 @@
   <div class="js-kt-section" data-section="jackson" style="display: none; margin-bottom: 1.25rem;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem;">
       <div class="mp-form-group" style="flex: 1; min-width: 130px;">
-        <label style="font-size: 0.8rem; font-weight: 700;">Højde <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(cm)</span></label>
-        <input type="number" name="kt_height" class="mp-form-control js-kt-input" placeholder="fx 180" style="padding: 0.4rem; text-align: center;">
+        <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 0.2rem;">Højde <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(cm)</span></label>
+        <input type="number" name="kt_height" class="mp-form-control js-kt-input" placeholder="fx 180" style="width: 100%; padding: 0.4rem; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box;">
       </div>
     </div>
 
     <div class="mp-form-group">
-      <label style="font-size: 0.8rem; font-weight: 700; margin-bottom: 0.4rem; display: block;">Aktivitetsniveau</label>
-      <!-- Lodret liste 0-7 -->
+      <label style="font-size: 0.8rem; font-weight: 700; margin-bottom: 0.4rem; display: block;">Aktivitetsniveau (NASA PAR)</label>
       <div class="js-kt-pill-group" data-name="kt_jackson_par" style="display: flex; flex-direction: column; gap: 0.4rem;">
         <button type="button" class="js-kt-pill mp-pill-btn" data-value="0" style="padding: 0.55rem 0.75rem; font-size: 0.78rem; border: 1.5px solid #cbd5e1; border-radius: 6px; background: #ffffff; cursor: pointer; text-align: left;">0: Undgår motion / tager altid elevatoren</button>
         <button type="button" class="js-kt-pill mp-pill-btn" data-value="1" style="padding: 0.55rem 0.75rem; font-size: 0.78rem; border: 1.5px solid #cbd5e1; border-radius: 6px; background: #ffffff; cursor: pointer; text-align: left;">1: Går ture eller tager trappen jævnligt</button>
@@ -143,16 +174,15 @@
     </div>
   </div>
 
-  <!-- 3. Resultater -->
+  <!-- 3. Resultater (Opdateret med align-items: stretch & flex: 1) -->
   <div style="margin-bottom: 1.25rem; position: relative !important;">
-    
-    <div class="mp-results-split">
+    <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: stretch;">
       
-      <!-- Venstre Hero-Boks (Kondital + Slider + Integreret Badge under slider) -->
-      <div class="mp-results-left">
-        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 0.85rem 1rem; text-align: center;">
+      <!-- Venstre Hero-Boks -->
+      <div style="flex: 1.2; min-width: 220px; display: flex; flex-direction: column;">
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 0.85rem 1rem; text-align: center; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 10px; flex: 1; box-sizing: border-box;">
           <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; color: #1e40af; font-weight: 700; line-height: 1.1;">
-            Estimeret Kondital
+            Beregnet Kondital
           </div>
           
           <div class="js-kt-fitness" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.15rem 0;">-</div>
@@ -163,56 +193,55 @@
           </div>
           
           <!-- Slider -->
-          <div class="mp-fitness-continuum" style="margin-top: 0.4rem; margin-bottom: 0.6rem;">
-            <div class="mp-continuum-bar-wrapper">
-              <div class="mp-continuum-bar">
-                <div class="mp-segment" style="background: #ef4444;"></div>
-                <div class="mp-segment" style="background: #f97316;"></div>
-                <div class="mp-segment" style="background: #eab308;"></div>
-                <div class="mp-segment" style="background: #22c55e;"></div>
-                <div class="mp-segment" style="background: #3b82f6;"></div>
+          <div style="width: 100%; margin-top: 0.4rem; margin-bottom: 0.6rem;">
+            <div style="position: relative; height: 8px; border-radius: 4px; overflow: hidden; background: #e2e8f0;">
+              <div style="display: flex; height: 100%; width: 100%;">
+                <div style="flex: 1; background: #ef4444;"></div>
+                <div style="flex: 1; background: #f97316;"></div>
+                <div style="flex: 1; background: #eab308;"></div>
+                <div style="flex: 1; background: #22c55e;"></div>
+                <div style="flex: 1; background: #2563eb;"></div>
               </div>
-              <div class="js-kt-continuum-marker mp-continuum-marker" style="display: none;"></div>
+              <div class="js-kt-continuum-marker" style="position: absolute; top: 0; bottom: 0; width: 4px; background: #0f172a; display: none; transform: translateX(-50%);"></div>
             </div>
-            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 3px; text-transform: uppercase;">
+            <div style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 3px; text-transform: uppercase;">
               <span>Lav</span>
               <span>Høj</span>
             </div>
           </div>
 
-          <!-- KLIKBAR BADGE MED 📊 IKON UNDER SLIDEREN -->
+          <!-- KLIKBAR BADGE MED 📊 IKON -->
           <div style="margin-top: 0.2rem;">
             <button type="button" class="js-kt-eval-badge js-kt-table-btn" style="font-size: 0.82rem; font-weight: 800; padding: 0.4rem 0.85rem; border-radius: 20px; background: #e2e8f0; color: #64748b; border: none; cursor: pointer; display: inline-flex; align-items: center; gap: 0.35rem; transition: transform 0.15s ease;">
               <span class="js-kt-eval-text">Mangler data</span>
               <span style="font-size: 0.95rem; line-height: 1;">📊</span>
             </button>
           </div>
-
         </div>
       </div>
 
-      <!-- Højre Bokse (Maksimal Iltoptagelse & Fysiologisk Fitnessalder) -->
-      <div class="mp-results-boxes">
+      <!-- Højre Bokse (Opdelt ligeligt i højden) -->
+      <div style="flex: 1; min-width: 180px; display: flex; flex-direction: column; gap: 0.5rem;">
         
         <!-- Iltoptagelse -->
-        <div class="mp-result-box-split" style="padding: 0.85rem 1rem; align-items: center;">
-          <div class="mp-box-left">
+        <div style="flex: 1; padding: 0.75rem 1rem; border: 1px solid #e2e8f0; border-radius: 10px; background: #ffffff; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box;">
+          <div>
             <div style="font-weight: 800; font-size: 0.85rem; color: #475569; line-height: 1.2;">Maksimal<br>iltoptagelse</div>
           </div>
-          <div class="mp-box-right" style="text-align: right; line-height: 1;">
-            <div class="mp-box-value js-kt-vo2max" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
-            <div class="mp-box-unit" style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">L/min</div>
+          <div style="text-align: right; line-height: 1;">
+            <div class="js-kt-vo2max" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
+            <div style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">L/min</div>
           </div>
         </div>
 
         <!-- Fysiologisk Fitnessalder -->
-        <div class="mp-result-box-split" style="padding: 0.85rem 1rem; align-items: center; background: #eff6ff; border-color: #bfdbfe;">
-          <div class="mp-box-left">
+        <div style="flex: 1; padding: 0.75rem 1rem; border: 1px solid #bfdbfe; border-radius: 10px; background: #eff6ff; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box;">
+          <div>
             <div style="font-weight: 800; font-size: 0.85rem; color: #1e40af; line-height: 1.2;">Fysiologisk<br>Fitnessalder</div>
           </div>
-          <div class="mp-box-right" style="text-align: right; line-height: 1;">
-            <div class="mp-box-value js-kt-fitness-age" style="font-weight: 900; font-size: 1.5rem; color: #1e3a8a;">--</div>
-            <div class="mp-box-unit" style="font-size: 0.65rem; color: #3b82f6; font-weight: 700; margin-top: 2px;">år</div>
+          <div style="text-align: right; line-height: 1;">
+            <div class="js-kt-fitness-age" style="font-weight: 900; font-size: 1.5rem; color: #1e3a8a;">--</div>
+            <div style="font-size: 0.65rem; color: #3b82f6; font-weight: 700; margin-top: 2px;">år</div>
           </div>
         </div>
 
@@ -221,22 +250,19 @@
 
     <!-- Popup-tabel -->
     <div class="js-kt-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
-      
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
         <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</h4>
         <button type="button" class="js-kt-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
       </div>
 
       <div style="flex: 1; overflow-y: auto;">
-        <table style="width: 100%; display: table; text-align: left; border-collapse: collapse; background: #ffffff;">
+        <table style="width: 100%; border-collapse: collapse; background: #ffffff; font-size: 0.8rem;">
           <tbody class="js-kt-table-body">
             <!-- Udfyldes af JS -->
           </tbody>
         </table>
       </div>
-
     </div>
-
   </div>
 
   <!-- Forklaringsboks i bunden -->
@@ -245,10 +271,443 @@
   </div>
 
   <!-- Action knapper -->
-  <div class="mp-action-group" style="margin-bottom: 1rem;" data-html2canvas-ignore="true">
-    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag billede</button>
-    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd felter">🗑️</button>
+  <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;" data-html2canvas-ignore="true">
+    <button type="button" class="js-download-btn" style="flex: 1; padding: 0.6rem; border: none; border-radius: 6px; background: #2563eb; color: #ffffff; font-weight: 700; font-size: 0.85rem; cursor: pointer;">📸 Tag billede</button>
+    <button type="button" class="js-reset-btn" style="width: 42px; padding: 0; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc; font-size: 1rem; cursor: pointer;" title="Ryd felter">🗑️</button>
   </div>
+  
   <div style="text-align: center; font-size: 0.7rem; color: #94a3b8; font-weight: 600;">&copy; motionsplan.dk</div>
 
 </div>
+
+<script>
+(function() {
+  const container = document.querySelector('[data-calculator="kondital-master"]');
+  if (!container) return;
+
+  const STORAGE_KEY = 'mp_kondital_master_data';
+  let currentMode = 'tokmakidis';
+  let computedScores = { tokmakidis: null, uth: null, nes: null, jackson: null };
+
+  const modeInfos = {
+    tokmakidis: '<strong>Tokmakidis et al. (1987):</strong> Beregner dit reelle fysiologiske kondital ud fra din løbehastighed på en all-out løbetur. Formlen er valideret på distancer fra 1,5 km til 42,2 km.',
+    uth: '<strong>Uth et al. (2004):</strong> Estimerer din VO₂max ud fra forholdet mellem din hvilepuls og din makspuls (Heart Rate Ratio Method). Præcision: ± 4,9 ml/kg/min.',
+    nes: '<strong>Nes et al. (2011) / HUNT:</strong> Norsk forskningsmodel baseret på data fra over 37.000 deltagere. Tager højde for taljemål, hvilepuls og træningsmængde.',
+    jackson: '<strong>Jackson et al. (1990) / NASA:</strong> Non-exercise model udviklet for NASA til hurtig vurdering af kondital ud fra BMI og NASA\'s PAR-aktivitetsskala (0-7).'
+  };
+
+  // UI Elementer
+  const modeBtns = container.querySelectorAll('.js-kt-mode-btn');
+  const sections = container.querySelectorAll('.js-kt-section');
+  const inputs = container.querySelectorAll('.js-kt-input');
+  const pills = container.querySelectorAll('.js-kt-pill');
+  const infoBox = container.querySelector('.js-kt-mode-info');
+  
+  const displayFitness = container.querySelector('.js-kt-fitness');
+  const displayVo2max = container.querySelector('.js-kt-vo2max');
+  const displayFitnessAge = container.querySelector('.js-kt-fitness-age');
+  const displaySdText = container.querySelector('.js-kt-sd-text');
+  const marker = container.querySelector('.js-kt-continuum-marker');
+  
+  const evalBadge = container.querySelector('.js-kt-eval-badge');
+  const evalText = container.querySelector('.js-kt-eval-text');
+  const popup = container.querySelector('.js-kt-popup');
+  const popupClose = container.querySelector('.js-kt-popup-close');
+  const tableBody = container.querySelector('.js-kt-table-body');
+  
+  const estimateBtn = container.querySelector('.js-kt-estimate-btn');
+  const maxHrHelper = container.querySelector('.js-kt-maxhr-helper');
+
+  // Helper til vurderingsfarver
+  function getEvalCategory(score, gender) {
+    if (!score || score <= 0) return { cat: 'Mangler data', color: '#cbd5e1', textColor: '#475569' };
+    const cutoffs = (gender === 'male') 
+      ? { low: 35, mid: 44, high: 52, vhigh: 57 }
+      : { low: 28, mid: 35, high: 44, vhigh: 49 };
+
+    if (score < cutoffs.low) return { cat: 'Lav', color: '#ef4444', textColor: '#ffffff' };
+    if (score < cutoffs.mid) return { cat: 'Under middel', color: '#f97316', textColor: '#ffffff' };
+    if (score < cutoffs.high) return { cat: 'Middel', color: '#eab308', textColor: '#ffffff' };
+    if (score < cutoffs.vhigh) return { cat: 'Høj', color: '#22c55e', textColor: '#ffffff' };
+    return { cat: 'Meget høj', color: '#2563eb', textColor: '#ffffff' };
+  }
+
+  // Skift Mode
+  modeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentMode = btn.dataset.mode;
+      modeBtns.forEach(b => {
+        b.style.border = '2px solid #e2e8f0';
+        b.style.background = '#ffffff';
+        b.classList.remove('is-active');
+      });
+      btn.style.border = '2px solid #2563eb';
+      btn.style.background = '#eff6ff';
+      btn.classList.add('is-active');
+
+      sections.forEach(sec => {
+        sec.style.display = (sec.dataset.section === currentMode) ? 'block' : 'none';
+      });
+
+      infoBox.innerHTML = modeInfos[currentMode];
+      calculateAll();
+    });
+  });
+
+  // Køn toggle
+  const genderBtns = container.querySelectorAll('.js-kt-gender-btn');
+  genderBtns.forEach(btn => {
+    btn.parentElement.querySelector('input').addEventListener('change', (e) => {
+      genderBtns.forEach(b => {
+        b.style.background = '#f8fafc';
+        b.style.color = '#475569';
+      });
+      if (e.target.checked) {
+        btn.style.background = '#2563eb';
+        btn.style.color = '#ffffff';
+      }
+      calculateAll();
+    });
+  });
+
+  // Pill knapper (Aktivitet)
+  pills.forEach(pill => {
+    btn = pill;
+    btn.addEventListener('click', () => {
+      const group = btn.closest('.js-kt-pill-group');
+      group.querySelectorAll('.js-kt-pill').forEach(p => {
+        p.style.border = '1.5px solid #cbd5e1';
+        p.style.background = '#ffffff';
+        p.style.color = '#0f172a';
+        p.style.fontWeight = 'normal';
+        p.classList.remove('is-active');
+      });
+      btn.style.border = '2px solid #2563eb';
+      btn.style.background = '#eff6ff';
+      btn.style.color = '#1e40af';
+      btn.style.fontWeight = '700';
+      btn.classList.add('is-active');
+      calculateAll();
+    });
+  });
+
+  // Maxpuls estimering (Tanaka 2001)
+  if (estimateBtn) {
+    estimateBtn.addEventListener('click', () => {
+      const ageInput = container.querySelector('[name="kt_age"]');
+      const maxHrInput = container.querySelector('[name="kt_maxhr"]');
+      const age = parseFloat(ageInput.value);
+      if (age && age >= 10 && age <= 100) {
+        const estMax = Math.round(208 - (0.7 * age));
+        maxHrInput.value = estMax;
+        if (maxHrHelper) maxHrHelper.style.display = 'block';
+        calculateAll();
+      }
+    });
+  }
+
+  // Input ændringer
+  inputs.forEach(input => {
+    input.addEventListener('input', calculateAll);
+  });
+
+  // Popup tabel
+  if (evalBadge) evalBadge.addEventListener('click', () => popup.style.display = 'flex');
+  if (popupClose) popupClose.addEventListener('click', () => popup.style.display = 'none');
+
+  // LOCAL STORAGE FUNKTIONER
+  function saveToLocalStorage() {
+    const nesPill = container.querySelector('[data-name="kt_nes_pa"] .js-kt-pill.is-active');
+    const jackPill = container.querySelector('[data-name="kt_jackson_par"] .js-kt-pill.is-active');
+    
+    const data = {
+      mode: currentMode,
+      age: container.querySelector('[name="kt_age"]').value,
+      weight: container.querySelector('[name="kt_weight"]').value,
+      gender: container.querySelector('[name="kt_gender"]:checked')?.value || 'male',
+      tok_dist: container.querySelector('[name="kt_tok_dist"]').value,
+      tok_min: container.querySelector('[name="kt_tok_min"]').value,
+      tok_sec: container.querySelector('[name="kt_tok_sec"]').value,
+      resthr: container.querySelector('[name="kt_resthr"]').value,
+      maxhr: container.querySelector('[name="kt_maxhr"]').value,
+      waist: container.querySelector('[name="kt_waist"]').value,
+      nes_resthr: container.querySelector('[name="kt_nes_resthr"]').value,
+      nes_pa: nesPill ? nesPill.dataset.value : '3',
+      height: container.querySelector('[name="kt_height"]').value,
+      jackson_par: jackPill ? jackPill.dataset.value : '4'
+    };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  }
+
+  function loadFromLocalStorage() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (!saved) return;
+    try {
+      const data = JSON.parse(saved);
+      if (data.age) container.querySelector('[name="kt_age"]').value = data.age;
+      if (data.weight) container.querySelector('[name="kt_weight"]').value = data.weight;
+      if (data.tok_dist) container.querySelector('[name="kt_tok_dist"]').value = data.tok_dist;
+      if (data.tok_min) container.querySelector('[name="kt_tok_min"]').value = data.tok_min;
+      if (data.tok_sec) container.querySelector('[name="kt_tok_sec"]').value = data.tok_sec;
+      if (data.resthr) container.querySelector('[name="kt_resthr"]').value = data.resthr;
+      if (data.maxhr) container.querySelector('[name="kt_maxhr"]').value = data.maxhr;
+      if (data.waist) container.querySelector('[name="kt_waist"]').value = data.waist;
+      if (data.nes_resthr) container.querySelector('[name="kt_nes_resthr"]').value = data.nes_resthr;
+      if (data.height) container.querySelector('[name="kt_height"]').value = data.height;
+
+      // Køn
+      if (data.gender) {
+        const radio = container.querySelector(`[name="kt_gender"][value="${data.gender}"]`);
+        if (radio) {
+          radio.checked = true;
+          genderBtns.forEach(b => {
+            b.style.background = '#f8fafc';
+            b.style.color = '#475569';
+          });
+          const activeBtn = radio.parentElement.querySelector('.js-kt-gender-btn');
+          if (activeBtn) {
+            activeBtn.style.background = '#2563eb';
+            activeBtn.style.color = '#ffffff';
+          }
+        }
+      }
+
+      // NES Pill
+      if (data.nes_pa) {
+        const nesGroup = container.querySelector('[data-name="kt_nes_pa"]');
+        if (nesGroup) {
+          nesGroup.querySelectorAll('.js-kt-pill').forEach(p => {
+            p.classList.remove('is-active');
+            p.style.border = '1.5px solid #cbd5e1';
+            p.style.background = '#ffffff';
+            p.style.color = '#0f172a';
+            p.style.fontWeight = 'normal';
+            if (p.dataset.value === String(data.nes_pa)) {
+              p.classList.add('is-active');
+              p.style.border = '2px solid #2563eb';
+              p.style.background = '#eff6ff';
+              p.style.color = '#1e40af';
+              p.style.fontWeight = '700';
+            }
+          });
+        }
+      }
+
+      // Jackson Pill
+      if (data.jackson_par) {
+        const jackGroup = container.querySelector('[data-name="kt_jackson_par"]');
+        if (jackGroup) {
+          jackGroup.querySelectorAll('.js-kt-pill').forEach(p => {
+            p.classList.remove('is-active');
+            p.style.border = '1.5px solid #cbd5e1';
+            p.style.background = '#ffffff';
+            p.style.color = '#0f172a';
+            p.style.fontWeight = 'normal';
+            if (p.dataset.value === String(data.jackson_par)) {
+              p.classList.add('is-active');
+              p.style.border = '2px solid #2563eb';
+              p.style.background = '#eff6ff';
+              p.style.color = '#1e40af';
+              p.style.fontWeight = '700';
+            }
+          });
+        }
+      }
+
+      // Tilstand (Mode)
+      if (data.mode) {
+        const targetBtn = container.querySelector(`.js-kt-mode-btn[data-mode="${data.mode}"]`);
+        if (targetBtn) {
+          currentMode = data.mode;
+          modeBtns.forEach(b => {
+            b.style.border = '2px solid #e2e8f0';
+            b.style.background = '#ffffff';
+            b.classList.remove('is-active');
+          });
+          targetBtn.style.border = '2px solid #2563eb';
+          targetBtn.style.background = '#eff6ff';
+          targetBtn.classList.add('is-active');
+          sections.forEach(sec => {
+            sec.style.display = (sec.dataset.section === currentMode) ? 'block' : 'none';
+          });
+        }
+      }
+    } catch(e) {
+      console.warn('Fejl ved indlæsning af gemte kondital-data', e);
+    }
+  }
+
+  // Hoved-beregning for alle 4 modeller
+  function calculateAll() {
+    const ageInput = container.querySelector('[name="kt_age"]');
+    const weightInput = container.querySelector('[name="kt_weight"]');
+    const genderInput = container.querySelector('[name="kt_gender"]:checked');
+
+    const age = parseFloat(ageInput ? ageInput.value : 40) || 40;
+    const weight = parseFloat(weightInput ? weightInput.value : 80) || 80;
+    const gender = genderInput ? genderInput.value : 'male';
+
+    // 1. Tokmakidis (Løbetur)
+    const dist = parseFloat(container.querySelector('[name="kt_tok_dist"]').value);
+    const min = parseFloat(container.querySelector('[name="kt_tok_min"]').value);
+    const sec = parseFloat(container.querySelector('[name="kt_tok_sec"]').value) || 0;
+    if (dist && min && dist >= 1.5) {
+      const timeInMin = min + (sec / 60);
+      const speedKmH = dist / (timeInMin / 60);
+      const met = 3.1747 + (0.9139 * speedKmH);
+      computedScores.tokmakidis = met * 3.5;
+    } else {
+      computedScores.tokmakidis = null;
+    }
+
+    // 2. Uth (Puls)
+    const restHr = parseFloat(container.querySelector('[name="kt_resthr"]').value);
+    const maxHr = parseFloat(container.querySelector('[name="kt_maxhr"]').value);
+    if (restHr && maxHr && maxHr > restHr) {
+      computedScores.uth = 15.3 * (maxHr / restHr);
+    } else {
+      computedScores.uth = null;
+    }
+
+    // 3. Nes (HUNT)
+    const waist = parseFloat(container.querySelector('[name="kt_waist"]').value);
+    const nesRestHr = parseFloat(container.querySelector('[name="kt_nes_resthr"]').value);
+    const nesPill = container.querySelector('[data-name="kt_nes_pa"] .js-kt-pill.is-active');
+    const nesPa = nesPill ? parseFloat(nesPill.dataset.value) : 3;
+    if (waist && nesRestHr) {
+      const paScoreMap = { 1: 0, 2: 0.6, 3: 1.5, 4: 2.2 };
+      const paVal = paScoreMap[nesPa] || 1.5;
+      if (gender === 'male') {
+        computedScores.nes = 100.27 - (0.296 * age) - (0.369 * waist) - (0.155 * nesRestHr) + (0.226 * paVal * 10);
+      } else {
+        computedScores.nes = 74.74 - (0.247 * age) - (0.259 * waist) - (0.114 * nesRestHr) + (0.198 * paVal * 10);
+      }
+    } else {
+      computedScores.nes = null;
+    }
+
+    // 4. Jackson (NASA)
+    const height = parseFloat(container.querySelector('[name="kt_height"]').value);
+    const jackPill = container.querySelector('[data-name="kt_jackson_par"] .js-kt-pill.is-active');
+    const par = jackPill ? parseFloat(jackPill.dataset.value) : 4;
+    if (height && weight) {
+      const bmi = weight / Math.pow(height / 100, 2);
+      const genderVal = (gender === 'male') ? 1 : 0;
+      computedScores.jackson = 56.363 + (1.921 * par) - (0.381 * age) - (0.754 * bmi) + (10.887 * genderVal) - 10.887 * (1 - genderVal) / 2;
+    } else {
+      computedScores.jackson = null;
+    }
+
+    // Opdater Dashboard Badges i toppen
+    Object.keys(computedScores).forEach(mode => {
+      const badge = container.querySelector(`.js-kt-card-badge[data-badge="${mode}"]`);
+      const score = computedScores[mode];
+      if (badge) {
+        if (score && score > 0) {
+          const evalRes = getEvalCategory(score, gender);
+          badge.textContent = score.toFixed(1);
+          badge.style.background = evalRes.color;
+          badge.style.color = evalRes.textColor;
+        } else {
+          badge.textContent = '-';
+          badge.style.background = '#cbd5e1';
+          badge.style.color = '#475569';
+        }
+      }
+    });
+
+    // Opdater Hovedresultat for AKTIV mode
+    const activeScore = computedScores[currentMode];
+    if (activeScore && activeScore > 0) {
+      displayFitness.textContent = activeScore.toFixed(1);
+      
+      const vo2Abs = (activeScore * weight) / 1000;
+      displayVo2max.textContent = vo2Abs.toFixed(2);
+
+      // Fitnessalder
+      const baseAgeScore = (gender === 'male') ? (52 - (0.35 * age)) : (44 - (0.32 * age));
+      const ageDiff = Math.round((baseAgeScore - activeScore) / 0.35);
+      const fitnessAge = Math.max(18, Math.min(85, age + ageDiff));
+      displayFitnessAge.textContent = fitnessAge;
+
+      // SD tekst
+      displaySdText.textContent = (currentMode === 'tokmakidis') ? 'Målt via løbehastighed' : '± 4.9 ml/kg/min';
+
+      // Marker slider (20 - 70 skala)
+      const pct = Math.max(0, Math.min(100, ((activeScore - 20) / 50) * 100));
+      marker.style.left = pct + '%';
+      marker.style.display = 'block';
+
+      // Vurdering & tabel
+      updateEvaluation(activeScore, age, gender);
+    } else {
+      displayFitness.textContent = '-';
+      displayVo2max.textContent = '-';
+      displayFitnessAge.textContent = '--';
+      marker.style.display = 'none';
+      evalText.textContent = 'Mangler data';
+      evalBadge.style.background = '#e2e8f0';
+      evalBadge.style.color = '#64748b';
+    }
+
+    saveToLocalStorage();
+  }
+
+  function updateEvaluation(score, age, gender) {
+    const evalRes = getEvalCategory(score, gender);
+    const cat = evalRes.cat;
+    const color = evalRes.color;
+
+    evalText.textContent = cat;
+    evalBadge.style.background = color;
+    evalBadge.style.color = '#ffffff';
+
+    const cutoffs = (gender === 'male') 
+      ? { low: 35, mid: 44, high: 52, vhigh: 57 }
+      : { low: 28, mid: 35, high: 44, vhigh: 49 };
+
+    // Byg popup tabel
+    tableBody.innerHTML = `
+      <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 0.4rem; font-weight: 700;">Kategori</td><td style="padding: 0.4rem; font-weight: 700;">Grænse (ml/kg/min)</td></tr>
+      <tr style="background: ${cat==='Lav'?'#fee2e2':'transparent'};"><td style="padding: 0.4rem; color: #ef4444; font-weight: 700;">Lav</td><td style="padding: 0.4rem;">< ${cutoffs.low}</td></tr>
+      <tr style="background: ${cat==='Under middel'?'#ffedd5':'transparent'};"><td style="padding: 0.4rem; color: #f97316; font-weight: 700;">Under middel</td><td style="padding: 0.4rem;">${cutoffs.low} - ${cutoffs.mid-1}</td></tr>
+      <tr style="background: ${cat==='Middel'?'#fef9c3':'transparent'};"><td style="padding: 0.4rem; color: #ca8a04; font-weight: 700;">Middel</td><td style="padding: 0.4rem;">${cutoffs.mid} - ${cutoffs.high-1}</td></tr>
+      <tr style="background: ${cat==='Høj'?'#dcfce7':'transparent'};"><td style="padding: 0.4rem; color: #16a34a; font-weight: 700;">Høj</td><td style="padding: 0.4rem;">${cutoffs.high} - ${cutoffs.vhigh-1}</td></tr>
+      <tr style="background: ${cat==='Meget høj'?'#dbeafe':'transparent'};"><td style="padding: 0.4rem; color: #2563eb; font-weight: 700;">Meget høj</td><td style="padding: 0.4rem;">> ${cutoffs.vhigh}</td></tr>
+    `;
+  }
+
+  // Reset knap
+  const resetBtn = container.querySelector('.js-reset-btn');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      localStorage.removeItem(STORAGE_KEY);
+      container.querySelectorAll('input').forEach(i => {
+        if (i.type === 'number') i.value = '';
+      });
+      container.querySelector('[name="kt_age"]').value = 40;
+      container.querySelector('[name="kt_weight"]').value = 80;
+      if (maxHrHelper) maxHrHelper.style.display = 'none';
+      calculateAll();
+    });
+  }
+
+  // Billede Download
+  const downloadBtn = container.querySelector('.js-download-btn');
+  if (downloadBtn) {
+    downloadBtn.addEventListener('click', () => {
+      html2canvas(container, { scale: 2 }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = 'kondital-resultat.png';
+        link.href = canvas.toDataURL();
+        link.click();
+      });
+    });
+  }
+
+  // Initiel kørsel og gemt data
+  loadFromLocalStorage();
+  infoBox.innerHTML = modeInfos[currentMode];
+  calculateAll();
+})();
+</script>
