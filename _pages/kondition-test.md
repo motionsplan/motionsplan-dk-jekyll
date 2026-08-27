@@ -215,7 +215,7 @@ Skånsomme og videnskabeligt validerede gangtests til ældre, genoptræningsforl
 
 Konditionstests kan udføres på fitnesscentre og laboratorier, men der findes også **nemme tests, du kan lave selv** – derhjemme eller udendørs. På denne side finder du nogle af de bedste **selvtests**, du kan lave uden udstyr.
 
-* 📊 **[Mål din kondition uden fysisk tests](/kondital/)** – Se normtabeller og estimer dit kondital ud fra hvilepuls og alder.
+* 📊 **[Beregn din kondition uden fysisk tests](/kondital/)** – Se normtabeller og estimer dit kondital ud fra hvilepuls og alder.
 * 👟 **[YMCA 3-minutters step-test](/ymca-3-minutters-steptest/)** – Kræver kun en 30 cm høj bænk/trappetrin og et stopur. Du træder op og ned i 3 minutter og måler din puls bagefter. See også vores [oversigt over alle steptests](/kondital-fra-steptest/).
 * 🚶 **[Rockports 1,6 km gå-test](/gaatest/)** – Gå 1,6 km så hurtigt du kan og tæl din puls til sidst. Perfekt til begyndere og skånsom test i nærområdet.
 * 🏃 **[1,6 km jogging-test](/submaximal-jogging-test-vo2/)** – En submaksimal test, hvor du jogger i et roligt samtale-tempo og lader pulsen afsløre dit kondital.

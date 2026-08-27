@@ -67,7 +67,7 @@ Hvis du gerne vil i bedre form og opnå en højere fart, så kan det være en go
 
 Lad os kigge på fordelene ved intervaltræning og hvorfor det kan være så effektivt, når du gerne vil have resultater af din træning:
 
-- Du kan sammenlagt arbejde flere minutter med høj intensitet, hvis du sammenligner med kontinuerligt arbejde. Når du arbejder flere minutter med høj intensitet, så kan træningen have større effekt på den maksimale iltoptagelse - og derved dit [kondital](/kondital/).
+- Du kan sammenlagt arbejde flere minutter med høj intensitet, hvis du sammenligner med kontinuerligt arbejde. Når du arbejder flere minutter med høj intensitet, så kan træningen have større effekt på den maksimale iltoptagelse - og derved [dit kondital](/kondital/).
 - Intervaltræning med høj intensitet kan skubbe til den anaerobe kapacitet, når du laver [anaerob træning](/anaerob-traening/). Det sker formentlig, fordi det aerobe system bliver bedre til at bidrage til processen og fjernelsen af træthedsstoffer.
 - Intervaltræning er med til at vænne dig til at arbejde mere intenst.
 - Hvis pausen er tilpasset, så du kan være frisk i arbejdsperioderne, så kan du arbejde målrettet med din teknik.

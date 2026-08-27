@@ -173,9 +173,7 @@ Den nedre grænse for at klare sig selv og komme rundt er omkring 11 ml/kg/min. 
 ## Beregn dit kondital uden fysisk test (fra sofaen)
 {: id="calculator" }
 
-Du behøver hverken løbebånd, laktatmåler eller at løbe dig helt i sænk for at få et realistisk estimat af din maksimale iltoptagelse ($VO_2max$). Med en såkaldt **sofatest** kan du estimere dit kondital ud fra fysiologiske data som hvilepuls, taljemål, kropsbygning og dit hverdagsaktivitetsniveau.
-
-Vælg den metode i beregneren herunder, der passer bedst til de data, du har til rådighed:
+Du behøver hverken løbebånd, laktatmåler eller at løbe dig helt i sænk for at få et realistisk estimat af din maksimale iltoptagelse ($VO_2max$). Du kan estimere dit kondital ud fra fysiologiske data som hvilepuls, taljemål, kropsbygning og dit hverdagsaktivitetsniveau - eller en løbetur du har løbet for nylig.
 
 {% include calc/kondital-sofatest-master.html %}
 
@@ -193,7 +191,7 @@ Tokmakidis-formlen estimerer din maksimale iltoptagelse ($\text{VO}_2\max$) dire
 * **Kræver:** Løbedistance og løbetid (all-out præstation).
 * **Præcision:** Stærkt fysiologisk match til måling af den funktionelle motor under reelt løbearbejde.
 
-> **Læs mere:** Se teorien bag formlen i vores [dedikerede guide til kondital ud fra tid og distance](/kondital-loeb-distance-tid/). Vil du også have beregnet dine konkrete træningstempi (E-, T- og I-pace) samt VDOT-forudsigelser ud fra din løbetid, kan du prøve vores [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
+> **Læs mere:** Se teorien bag formlen i vores beregner til at finde [kondital ud fra en løbetur baseret på tid og distance](/kondital-loeb-distance-tid/). Vil du også have beregnet dine konkrete træningstempi (E-, T- og I-pace) samt VDOT-forudsigelser ud fra din løbetid, kan du prøve vores [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
 </details>
 
 <details class="faq" markdown="1">
@@ -213,7 +211,7 @@ Uth-formlen tager udgangspunkt i forholdet mellem din hvilepuls og din maksimale
 Denne model er udarbejdet af fysiologiske forskere ved NTNU (CERG) i Norge på baggrund af data fra over 37.000 deltagere i det omfattende HUNT-studie. Den kombinerer dine basale kropsmål med selvoplevet træningsintensitet.
 
 * **Kræver:** Alder, køn, taljemål, hvilepuls og ugentlig træningsmængde.
-* **Præcision:** Den mest præcise sofatest til almindelige voksne uten laboratorieudstyr.
+* **Præcision:** Den mest præcise sofatest til almindelige voksne uden laboratorieudstyr.
 
 > **Bemærk:** Denne forskningsmodel ligger også til grund for den kendte norske [World Fitness Level](https://www.ntnu.edu/cerg/vo2max) beregner.
 </details>
@@ -339,7 +337,7 @@ Vil du forbedre dit kondital, er der i bund og grund to knapper, du kan skrue p�
 
 I sidste ende behøver du ikke at få målt din præcise iltoptagelse i et avanceret laboratorium. Hvis du bruger den samme beregner eller fysiske test regelmæssigt og præsterer bedre fra gang til gang, ved du med sikkerhed, at din kondition og din sundhed er i fremgang!
 
-Har du en specifik løbetid, du gerne vil regne ud fra? Du kan også prøve vores [konditalberegner ud fra tid og distance](/kondital-loeb-distance-tid/).
+Har du en specifik løbetid, du gerne vil regne ud fra? Du kan også prøve vores [konditalberegner ud fra en løbetur](/kondital-loeb-distance-tid/).
 
 ---
 

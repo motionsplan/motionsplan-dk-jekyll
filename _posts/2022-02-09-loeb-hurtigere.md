@@ -84,7 +84,7 @@ Her kan du se nogle af de indlæg vi har skrevet om styrketræning og løb.
 
 ## 5. Vægt og løb
 
-Løb er en vægtbærende aktivitet. Når du beregner dit [kondital](/kondital/), så er vægten en væsentlig del af udregningen. Min filosofi er, at kroppen tilpasser sig til det du laver. Det kan bedre betale sig at træne for at blive hurtigere til at løbe end at tabe vægt for at blive hurtigere.
+Løb er en vægtbærende aktivitet. Når du [beregner dit kondital](/kondital/), så er vægten en væsentlig del af udregningen. Min filosofi er, at kroppen tilpasser sig til det du laver. Det kan bedre betale sig at træne for at blive hurtigere til at løbe end at tabe vægt for at blive hurtigere.
 
 {% include figure image_path="https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Når du ser verdensklasseløbere, så er der ikke meget ekstravægt på kroppen. Hvis du gerne vil være rigtig hurtig, så har vægten betydning. Det er dog det sidste parameter, jeg selv ville optimere." %}
 

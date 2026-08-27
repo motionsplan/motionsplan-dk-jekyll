@@ -100,7 +100,7 @@ Puls er meget udbredt som et redskab til at styre intensitet i træning. Puls m�
 
 Du kan lave [pulstræning](/pulstraening/), hvor du kan træne med forskellige [pulszoner](/pulszoner-beregner/). Pulszonerne er ofte etableret udfra [maxpulsen](/test-max-puls/), men du kan også bruge [pulsreserven](/pulsreserve/), som også inddrager [hvilepuls](/hvilepuls/).
 
-Faktisk har nogle forskere fundet ud af, at du også kan estimere dit [kondital](/kondital/) ved at bruge dine [pulsmålinger](/kondital-fra-puls/).
+Faktisk har nogle forskere fundet ud af, at du også kan [estimere dit kondital](/kondital/) ved at bruge dine [pulsmålinger](/kondital-fra-puls/).
 
 De fleste har efterhånden et [pulsur](/pulsure/), men mange får ikke indstillet pulszonerne. Det giver kun mening at bruge pulsen som intensitetsmåling, hvis du kender din maksimale puls.
 

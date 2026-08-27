@@ -89,7 +89,7 @@ $$\text{Mekanisk arbejde} = \text{Masse} \times \text{Tyngdeacceleration} \times
 ### Hvorfor gå på løbebånd med stigning?
 1. **Samme kalorieforbrænding med lavere stødbelastning:** At gå med 10–12% hældning ved 5 km/t kræver samme iltoptagelse ($VO_2$) og energiforbrug som fladt løb ved 9–10 km/t – men uden den kraftige stødbelastning i landingen (som ved løb udgør 2-3 gange din kropsvægt).
 2. **Øget aktivering af bagkæden:** Hældningen tvinger dine [baldemuskler](/balleoevelser/), [baglår](/hoftedominante-oevelser/) og lægge til at arbejde i et større bevægeudslag (gluteus maximus skal strække hoften kraftigere igennem).
-3. **Ideelt til skadesforebyggelse og tungere løbere:** Perfekt metode til at opbygge et højt [kondital](/kondital/) og forbrænde kalorier, hvis du skåner knæ eller skinneben.
+3. **Ideelt til skadesforebyggelse og tungere løbere:** Perfekt metode til at opbygge et [højt kondital](/kondital/) og forbrænde kalorier, hvis du skåner knæ eller skinneben.
 
 ---
 

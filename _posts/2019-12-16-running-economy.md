@@ -83,7 +83,7 @@ Forbrug af ilt er ofte den mest direkte begrænsende faktor i løb, når vi kigg
 
 Der er tre testbare faktorer, der udgør præstationsevnen, når man løber, og løbeøkonomien er en af dem:
 
-- Den **[maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/)** - VO₂max - eller vores [kondital](/kondital/).
+- Den **[maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/)** - VO₂max - eller [konditallet](/kondital/).
 - **Løbeøkonomien**
 - Evnen til at **løbe med en så høj procentdel af VO₂max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den [anaerobe tærskel](/anaerobe-taerskel/).
 

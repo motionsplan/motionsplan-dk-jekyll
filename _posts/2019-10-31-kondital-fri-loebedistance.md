@@ -69,6 +69,17 @@ Du kan beregne dit kondital ud fra en løbetur, du har løbet. Du indtaster bare
 
 [<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
+## Find dit kondital fra løbetest
+{: id="calculator" }
+
+Du kan bruge denne beregner til fx at beregne dit kondital på baggrund af en 5 km test eller andre vilkårlige distancer mellem 1500 meter og 42 km.
+
+{% include calc/running-distance-vo2max.html %}
+
+---
+
+## Sådan laver du Tokmadikis-testen
+
 Konditionstesten til løb er baseret på Tokmakidis et al (1987). Du skal være opmærksom på, at din løbetest skal være løbet så hurtigt som overhovedet muligt.
 
 Du skal derfor opfylde følgende forudsætninger for at kunne bruge udregne dit kondital på baggrund af formlerne fra Tokmakidis et al (1987).
@@ -77,13 +88,6 @@ Du skal derfor opfylde følgende forudsætninger for at kunne bruge udregne dit 
 - Du skal løbe distancen så hurtigt som overhovedet muligt.
 - Du skal løbe på en nogenlunde flad rute, fx på en løbebane for at få det mest pålidelige resultat, når du udregner konditallet.
 - Distancen skal være mellem 1500 meter og 42 km, da formlen fra Tokmakidis et al (1987) er baseret på disse distancer.
-
-## Find dit kondital fra løbetest
-{: id="calculator" }
-
-Du kan bruge denne beregner til fx at beregne dit kondital på baggrund af en 5 km test eller andre vilkårlige distancer mellem 1500 meter og 42 km.
-
-{% include calc/running-distance-vo2max.html %}
 
 ---
 
@@ -112,6 +116,19 @@ Ud over dit kondital (VO₂max) estimerer beregneren ovenfor også din **VDOT-v�
 VDOT er et begreb udviklet af den legendariske løbecoach Jack Daniels. Hvor konditallet fortæller, hvor stor din biologiske 'motor' er, tager VDOT også højde for din løbeøkonomi. Det gør VDOT ideelt til at planlægge din træning.
 
 👉 **[Brug vores Jack Daniels Løbeberegner til at finde dine specifikke træningstempi og VDOT-forudsigelser](/loebesiden-jack-daniels-loebeberegner/)**
+
+---
+
+## Hvorfor er det svært at beregne præcist på baggrund af en løbetur? (Løbeøkonomi)
+
+Beregningen fra Tokmakidis et al. giver et fysiologisk estimat, men det er vigtigt at huske, at det blot er en tilnærmelse. Formlen antager nemlig, at alle løbere har en gennemsnitlig **løbeøkonomi** (hvor meget ilt kroppen forbruger på at flytte dig 1 meter frem).
+
+I den virkelige verden er vi fysiologisk forskellige:
+
+* **To løbere med samme tid:** Hvis to personer løber 5 km på præcis 20 minutter, beregner formlen nøjagtigt det samme kondital til dem begge.
+* **Forskellig biologisk 'motor':** I et laboratorium kan den ene løber have et reelt kondital på **52** (pga. en fænomenal og effektiv løbestil), mens den anden skal op på **60** for at holde samme tempo (pga. dårligere løbeøkonomi).
+
+Formler baseret på kun tid og distance kan ikke kende forskel på din biologiske iltoptagelse og din løbeteknik. Derfor har testen en naturlig usikkerhed på op mod 10-15% i forhold til en direkte laboratorietest.
 
 ---
 

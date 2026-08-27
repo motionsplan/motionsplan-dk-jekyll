@@ -17,7 +17,7 @@ classes: wide
 mathjax: true
 ---
 
-Hvad enten du vil kende din **FTP** (*Functional Threshold Power*) til struktureret watt-træning, estimere dit [kondital](/kondital/), eller måle din eksplosive sprintstyrke på cyklen, finder du den rette testmetode og beregner herunder.
+Hvad enten du vil kende din **FTP** (*Functional Threshold Power*) til struktureret watt-træning, [estimere dit kondital](/kondital/), eller måle din eksplosive sprintstyrke på cyklen, finder du den rette testmetode og beregner herunder.
 
 ---
 

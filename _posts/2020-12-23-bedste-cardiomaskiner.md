@@ -192,4 +192,4 @@ Skal du derimod op til en specifik test (f.eks. [politiets fysiske optagelsespr�
 
 Cardiomaskiner er et fantastisk redskab til at opbygge kondition og forbrænde kalorier – uanset vejret udenfor.
 
-Test gerne din nuværende form med en af vores **[konditionstests](/kondition/tests/)** for at finde dit nuværende [kondital](/kondital/), og sammenlign det i vores **[tabel over kondital](/kondital/)**.
+Test gerne din nuværende form med en af vores **[konditionstests](/kondition/tests/)** og sammenlign det i vores **[tabel over kondital for mænd og kvinder](/kondital/)**.

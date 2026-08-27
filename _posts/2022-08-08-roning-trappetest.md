@@ -64,7 +64,7 @@ faq:
 last_modified_at: '2026-08-16T10:14:14Z'
 ---
 
-Trappetesten i roning er en test til at finde dit [kondital](/kondital/). Det er en af de mest udbredte og fysiologisk pålidelige tests sammen med [2000 meter testen til roning](/kondital-roning/), især hvis du ror regelmæssigt og vil kende din maksimale ydeevne uden brug af iltmaske.
+Trappetesten i roning er en test til at [finde dit kondital](/kondital/). Det er en af de mest udbredte og fysiologisk pålidelige tests sammen med [2000 meter testen til roning](/kondital-roning/), især hvis du ror regelmæssigt og vil kende din maksimale ydeevne uden brug af iltmaske.
 
 Trappetests (inkrementelle tests) kendes fra forskellige udholdenhedsidrætter, f.eks. cykling og løb. Fælles for dem alle er, at du starter på et relativt lavt niveau og gradvist øger belastningen, indtil du til sidst rammer udmattelse. 
 

@@ -52,7 +52,7 @@ Det kan du gøre med løbetræning, cykeltræning, roning eller andre typer træ
 
 ## Hvad er konditionstræning og kredsløbstræning?
 
-I konditionstræning og kredsløbstræning arbejder vi med at forbedre [konditionen](/kondition/). Konditionen måles med [konditallet](/kondital/), som afhænger af den [maksimale iltoptagelse og VO₂max](/maksimale-iltoptagelse-vo2max/).
+I konditionstræning og kredsløbstræning arbejder vi med at forbedre [konditionen](/kondition/). Konditionen [måles med konditallet](/kondital/), som afhænger af den [maksimale iltoptagelse og VO₂max](/maksimale-iltoptagelse-vo2max/).
 
 I konditionstræning arbejder vi både med aerobe og anaerobe processer. Meget forskning har nemlig vist, at meget intensive intervaller også har potentiale til at flytte iltoptagelseshastigheden, selvom noget af energiomsætningen kommer fra anaerobe energiprocesser.
 

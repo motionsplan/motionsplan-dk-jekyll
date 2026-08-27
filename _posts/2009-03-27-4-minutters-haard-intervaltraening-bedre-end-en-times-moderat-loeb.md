@@ -94,7 +94,7 @@ I Tabatas studie fra 1996 blev to grupper af trænede udøvere sammenlignet over
 | **VO₂max (Kondital)** | + 9 % stigning | **+ 14 % stigning** |
 | **Anaerob kapacitet** | Ingen ændring (0 %) | **+ 28 % stigning** |
 
-Resultatet var en sensation: 4 minutters supramaksimalt arbejde sammen med en ugentlig rolig tur flyttede det aerobe [kondital](/kondital/) *mere* end en hel times moderat træning – og byggede samtidig en enorm anaerob syretolerance.
+Resultatet var en sensation: 4 minutters supramaksimalt arbejde sammen med en ugentlig rolig tur flyttede[konditallet](/kondital/) *mere* end en hel times moderat træning – og byggede samtidig en enorm anaerob syretolerance.
 
 ### Chokeffekten og det hurtige plateau
 De voldsomme forbedringer fortsætter dog ikke uendeligt. Data fra studierne viser en tydelig **chokeffekt**: Næsten hele fremgangen sker inden for de første 3 til 4 uger. Kroppen får et voldsomt fysiologisk chok, enzymaktiviteten i musklerne eksploderer, og derefter flader kurven ud.

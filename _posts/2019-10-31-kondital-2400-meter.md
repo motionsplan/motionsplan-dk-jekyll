@@ -111,7 +111,7 @@ Indtast din tid på 2400 meter nedenfor for at udregne dit estimerede kondital (
 >
 >Hvis du vil se de officielle **alders- og kønsspecifikke normtabeller**, læse om hvad der definerer et "godt" kondital, eller se hvordan du effektivt forbedrer din iltoptagelse, har vi samlet det hele ét sted.
 >
->👉 [**Se vores samlede guide til kondital, normer og beregning her**](/kondital/){: .btn .btn--info }
+>👉 [Guide til kondital, normer og beregning](/kondital/)
 {: .notice--info }
 
 ---

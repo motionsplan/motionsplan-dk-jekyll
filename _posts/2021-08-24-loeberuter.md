@@ -43,7 +43,7 @@ Jeg har gennemgået [forskellige ruteopmålere til løberuter](/ruteopmaaler-loe
 
 Du kan finde en testløberute, som du bruger engang imellem for at teste om din løbetræning virker. Hvis dit mål fx er at forbedre din tid på 5 kilometer, så kan du prøve at finde en rute på cirka den distance, som du så løber en gang om måneden.
 
-Hvis du vil bruge testruten til at [udregne dit kondital ud fra din tid og distance](/kondital-loeb-distance-tid/), så er det bedst at finde en nogenlunde flad rute, hvor du ikke kommer ud for utilsigtede ting.
+Hvis du vil bruge testruten til at [udregne dit kondital ud fra din tid og distance på en løbetur](/kondital-loeb-distance-tid/), så er det bedst at finde en nogenlunde flad rute, hvor du ikke kommer ud for utilsigtede ting.
 
 Ellers kan du bare bruge tiden og evt. pulsen på den test-løberute, du har valgt, til at se om du er blevet bedre over tid.
 

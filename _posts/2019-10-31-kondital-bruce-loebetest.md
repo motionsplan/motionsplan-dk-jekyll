@@ -173,7 +173,7 @@ For mere præcise resultater benytter *American College of Sports Medicine (ACSM
 * **Active / Raske Voksne (Generelt):**
   $$ \text{VO}_2\text{max} = 3{,}62 \cdot T + 3{,}91 $$
 
-Når du har beregnet dit kondital, kan du sammenligne dit resultat med de aldersrelaterede [normtal i vores tabel over kondital for mænd og kvinder](/kondital/).
+Når du har beregnet dit kondital, kan du sammenligne dit resultat med de aldersrelaterede [normtal i vores tabel over kondital for kvinder og mænd](/kondital/).
 
 ---
 

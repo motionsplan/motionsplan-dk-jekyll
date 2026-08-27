@@ -30,7 +30,7 @@ Klik direkte ind på det opdaterede værktøj eller den test, du leder efter:
 | Gamle Motion Online værktøj | Opdateret udgave på Motionsplan.dk |
 | :--- | :--- |
 | **Motion Online RM-beregner** | Prøv vores interaktive [RM-beregner til styrketræning](/rm-beregner/) |
-| **Motion Online Kondital** | [Læs om kondital](/kondital/) og [Test dit kondital her](/kondition/tests/) |
+| **Motion Online Kondital** | [Beregn dit kondital](/kondital/) og [Test dit kondital her](/kondition/tests/) |
 | **Motion Online BMI** | Se vores [BMI-beregner for mænd, kvinder og børn](/bmi/) |
 | **Motion Online Cooper-test** | Se beregner og tabeller i vores [guide til Cooper-testen](/cooper-test/) |
 | **Motion Online Gangtest** | Prøv vores [6 minutters gangtest](/gaatest-6min/) eller [Rockports 1,6 km gåtest](/gaatest/) |
@@ -75,7 +75,7 @@ Her finder du vores samlede bibliotek af fysiologiske beregnere.
 
 Her finder du alle vores guides og udregnere til at måle din kondition og udholdenhed.
 
-* **[Kondital & VO2-max](/kondital/):** Læs om iltoptagelse, og se tabeller for din alder.
+* **[Beregning af kondital](/kondital/):** Læs om iltoptagelse, og se tabeller for din alder.
 * **[Cooper-test](/cooper-test/):** Test din form ud fra, hvor langt du løber på 12 minutter.
 * **[Gangtest (6 min & Rockport)](/gaatest-6min/):** Skånsomme og præcise tests af dit kondital.
 
