@@ -1,17 +1,16 @@
 ---
-title: '4 mmol-grænsen: Hvad er den anaerobe tærskel?'
+title: 'Anaerob tærskel (LT2): Definition, test og sandheden om 4 mmol-grænsen'
+seo_title: 'Anaerob tærskel (LT2) – Hvad er det, og er 4 mmol en myte?'
 permalink: /anaerobe-taerskel/
-last_modified_at: '2025-02-24T09:41:09Z'
-description: Den anaerobe tærskel markerer grænsen, hvor mælkesyre ophobes hurtigere, end kroppen kan fjerne den. Lær, hvordan
-  du tester og forbedrer din tærskel for bedre præstation og udholdenhed.
-excerpt: Den anaerobe tærskel markerer grænsen, hvor mælkesyre ophobes hurtigere, end kroppen kan fjerne den. Lær, hvordan
-  du tester og forbedrer din tærskel for bedre præstation og udholdenhed.
+last_modified_at: '2026-08-27T14:00:00Z'
+description: Hvad er den anaerobe tærskel (LT2 / MLSS)? Lær hvordan du tester din mælkesyregrænse, forbedrer din præstation og hvorfor 4 mmol-grænsen ofte slår fejl.
+excerpt: Den anaerobe tærskel (LT2 / MLSS) markerer grænsen, hvor mælkesyre ophobes hurtigere, end kroppen kan fjerne den. Lær at teste din tærskel og forstå sandheden om 4 mmol-grænsen.
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1560073743-0a45c01b68c4.jpg
   credit: https://images.unsplash.com/photo-1560073743-0a45c01b68c4
   teaser: /assets/images/unsplash/photo-1560073743-0a45c01b68c4.jpg
-  caption: '4 mmol-grænsen: Hvad er den anaerobe tærskel og mælkesyregrænsen?'
+  caption: 'Anaerob tærskel (LT2) og sandheden om 4 mmol-grænsen'
 categories:
 - Fysiologi
 tags:
@@ -20,107 +19,158 @@ tags:
 - anaerob
 - mælkesyre
 - løb
+- cykling
+- zone 4
+toc: true
+faq:
+- question: Hvad er den anaerobe tærskel (LT2)?
+  answer: Den anaerobe tærskel (LT2 / MLSS) er den højeste træningsintensitet, hvor kroppen lige akkurat kan fjerne mælkesyre (laktat) i samme tempo, som den dannes. Overstiges tærsklen, opstår der ubalance med hurtig syreophobning og udmattelse til følge.
+- question: Er 4 mmol-grænsen (OBLA) en myte?
+  answer: Som en universal fast regnemodel er den forældet. 4 mmol-grænsen opstod i 1970'erne som et gennemsnitstal fra fuldblodsanalyser. I dag ved vi, at udøveres fysiologiske tærskel (MLSS) er individuel og varierer fra 2,5 helt op til over 7,0 mmol/L.
+- question: Hvor længe kan man holde sin anaerobe tærskel?
+  answer: Da den anaerobe tærskel repræsenterer den øverste bagkant for fysiologisk steady state (MLSS), kan veltrænede atleter typisk opretholde intensiteten i 30 til 60 minutter i en konkurrencesituation.
+- question: Hvordan måles den anaerobe tærskel præcist i dag?
+  answer: I et laboratorium estimeres LT2 bedst ved hjælp af individuelle baselinemodeller (fx Baseline + 1,5 mmol/L eller Modificeret Dmax) frem for faste laktattal. I felten estimeres den via en 30-minutters all-out test (LTHR / FTP).
+- question: Hvordan forbedrer man sin anaerobe tærskel?
+  answer: Tærsklen forbedres mest effektivt ved at kombinere Zone 2-træning (som øger langsomme muskelfibres MCT-1 transportører til laktat-rydning) med tærskelintervaller i Zone 4 (som optimerer MCT-4 transportørerne og kulhydratomsætningen).
 ---
 
-Den anaerobe tærskel eller mælkesyregrænsen er et meget udbredt begreb i [konditionstræning](/konditionstraening/) og udholdenhedstræning, men der er stadig en del forvirring omkring begrebet, og hvordan det kan bruges i praksis? 
+Den **anaerobe tærskel**, **LT2**, **MLSS** eller **mælkesyregrænsen** er et af de mest udbredte begreber inden for [konditionstræning](/konditionstraening/) og udholdenhedssport. 
 
-Lad os dykke direkte ned i det.
+Mange motionister har hørt om **4 mmol-grænsen**, men hvad betyder den fysiologisk – og er tallet 4,0 mmol/L i virkeligheden sandheden for din egen træning?
 
-## Hvad er den anaerobe tærskel?
+Her gennemgår vi, hvad den anaerobe tærskel reelt repræsenterer, hvorfor 4 mmol-grænsen i dag betragtes som en historisk tommelfingerregel, og hvordan du i praksis tester og træner din tærskel.
 
-**Den anaerobe tærskel er det tidspunkt, hvor kroppen ikke længere kan nå at fjerne mælkesyren (laktat), der produceres ved anaerobt arbejde med højere intensiteter.**
+---
+
+{: .notice--info}
+### 🔗 Hænger sammen med den aerobe tærskel
+Hvor den anaerobe tærskel (LT2) definerer *det øverste loft* for fysiologisk balance, markerer den [aerobe tærskel (LT1)](/aerobe-taerskel/) *starten* på laktatstigningen. Vil du køre en laktattest, kan du bruge vores [interaktive laktatberegner til LT1 og LT2](/laktattest/#calculator).
+
+---
+
+## Hvad er den anaerobe tærskel (LT2 / MLSS)?
+
+Fysiologisk set er den anaerobe tærskel defineret som **Maximal Lactate Steady State (MLSS)** (Poole et al., 2021). 
+
+Det er det højeste intensitetsniveau (udtrykt i watt, puls eller km/t), hvor kroppen lige akkurat kan fjerne mælkesyre (laktat) fra blodbanen i samme tempo, som det produceres i de arbejdende muskler.
 
 ## Laktatkinetik ved forskellige intensiteter
 
 {% include components/laktatkinetik-graf.html %}
 
-## Aerob og anaerob tærskel ud fra laktat
+* **Under LT2 (Steady State):** Laktatkoncentrationen i blodet forbliver stabil over tid. Du kan opretholde belastningen i 30–60 minutter.
+* **Over LT2 (Non-steady State):** Laktatproduktionen overstiger kroppens samlede rydningskapacitet. Laktat og hydrogenioner ($\text{H}^+$) hober sig brat op i blodet, vejrtrækningen bliver forceret, og udmattelsen indtræffer inden for kort tid.
 
-Der er stor forskel fra person til person, hvornår man opnår den anaerobe tærskel. Den utrænede støder på tærsklen hurtigere end den trænede. De kan med andre ord træne med mindre intensitet i forhold den maksimale ydeevne inden de opbygger træthedsstoffer i musklerne.
+---
 
-[Musklerne producerer mælkesyre](/maelkesyre-traening/) propertionelt med arbejdets intensitet, men når koncentrationen af mælkesyre i blodet når omkring 4 mmol, så kan særligt leveren ikke længere følge med til at fjerne mælkesyren.
+## Sandheden om "4 mmol-grænsen" (Myte vs. virkelighed)
 
-Derfor har man typisk kaldt denne grænse for den **anaerobe tærskel**. Det er altså ikke fordi arbejdet pludselig springer over på det anaerobe system på et bestemt punkt.
+Begrebet **4 mmol-grænsen** (i fysiologien kendt som *OBLA - Onset of Blood Lactate Accumulation*) opstod i 1970'erne og 1980'erne gennem studier af forskere som Alois Mader og Heck et al. (1985). De observerede, at udholdenhedsatleter i gennemsnit ramte deres bæredygtige tærskel ved en blodlaktatkoncentration på $4{,}0\text{ mmol/L}$.
 
-Mælkesyreophobningen bruges til at skelne mellem den **aerobe tærskel og den anaerobe tærskel**.
+Selvom 4 mmol-grænsen har været en udbredt tommelfingerregel, anses faste absolutte tal i dag for at være forældede i moderne idrætsfysiologi (Faude et al., 2009; Heuberger et al., 2018; Poole et al., 2021). 
 
-Tærsklerne kan være beskrevet som LT1 og LT2:
+I et review af Heuberger et al. (2018) diskuterer forfatterne hele 8 forskellige fortolkninger af den anaerobe tærskel, hvilket understreger, at der ikke findes én enkelt universel laktatværdi for alle.
 
-### LT1 - Aerobe tærskel
+{% include figure image_path="/assets/images/uphillathlete.com/Screen-Shot-2019-11-03-at-08_31_47-6d2d92af.png" caption="Den aerobe og anaerobe tærskel - LT1 og LT2. Kilde: [uphillathlete.com](https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/)" %}
 
-LT1 er defineret som den intensitet, hvor laktat i blodet begynder at stige over hvileniveauet. Der er altid mælkesyre i blodet på omkring 1 mmol/l. På den aerobe tærskel er det meste af forbrændingen aerob. Typisk sætter man LT1 til en grænse på omkring 2,0 - 2,2 mmol/l. Du kan arbejde rigtig længe omkring denne tærskel.
+### Hvorfor 4 mmol-grænsen ofte rammer ved siden af:
 
-**Lær mere**: [Alt om den aerobe tærskel](/aerobe-taerskel/)
-{: .notice }
+1. **Massiv individuel spredning:** Det fysiologiske MLSS-punkt varierer betydeligt fra udøver til udøver. Myburgh et al. (2001) viste, at veltrænede triatleter under en 1-times maksimal tidskørsel i gennemsnit lå på $7{,}6\text{ mmol/L}$ laktat, med et individuelt spænd helt fra $5{,}0$ til $12{,}3\text{ mmol/L}$. Laktatkoncentrationen korrelerede i øvrigt ikke direkte med præstationsevnen.
+2. **Fuldblod vs. Plasma-kalibrering:** Heck og Maders oprindelige forsøg blev foretaget på udstyr, der analyserede ren *fuldblod*. Moderne håndholdte laktatmålere (som fx Lactate Pro 2) kalibreres mod *plasma-ækvivalenter*, der måler 11–15 % højere (Bourdon, 2013). En klassisk 4,0-værdi svarer derfor ofte til 4,5–5,5 mmol/L på et moderne apparat.
+3. **Forskellig hvile-baseline:** En atlet med en høj hvilelaktat kan nå 4,0 mmol/L ved en relativt lav belastning uden at være i nærheden af syre-ophobning, mens en atlet med en lav baseline først rammer sit fysiologiske knæk langt over 4,0 mmol/L.
 
-### LT2 - Anaerob tærskel
+I stedet for et fast tal på 4,0 mmol/L anvender laktatberegnere i dag **individuelle baselinemodeller** som *Baseline + 1,5 mmol/L* eller *Modificeret Dmax (mDmax)* (Jamnick et al., 2018).
 
-LT2 er på det tidspunkt, hvor der kommer en stigning i koncentrationen af laktat i blodet, når man sætter intensiteten op. På dette punkt kan kroppen - og særligt leveren - ikke længere bortskaffe den mælkesyre, der produceres i musklerne. Typisk ligger denne værdi mellem 2,5-5,5 mmol/l, men traditionelt har man sat den anaerobe tærskel ved 4,0 mmol/l.
+---
 
-{% include figure image_path="https://training4endurance.co.uk/wp-content/uploads/2020/03/lactate-threshold-cycling-test.jpg" caption="Den aerobe og anaerobe tærskel - LT1 og LT2. Kilde: [training4endurance.co.uk](https://training4endurance.co.uk/physiology-of-endurance/lactate-threshold/)" %}
+## Aerob tærskel (LT1) vs. Anaerob tærskel (LT2)
 
-Men der findes i hvert fald 8 fortolkninger af den anaerob tærskel, som [Heuberger et al (2018)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235347/) diskuterer i deres studium.
+For at forstå kroppens metabolisme under belastning kan de to fysiologiske tærskler opstilles over for hinanden:
 
-Det er væsentligt at nævne, at 4 mmol/l-tærsklen er en gammel observation. Fx fandt [Myburgh et al (2001)](https://pubmed.ncbi.nlm.nih.gov/11194102/), at veltrænede triatleter på et cykelergometer i en time kunne køre med en gennemsnitlig laktatkoncentration på 7,6 mmol/l, og at koncentrationen lå i spændet fra 5,0 - 12,3 mmol/l. Laktatkoncentrationen i blodet korrelerede ikke med præstationen i studiet (altså distancen kørt på en time).
+| Parameter | Aerob tærskel (LT1 / VT1) | Anaerob tærskel (LT2 / VT2 / MLSS) |
+| :--- | :--- | :--- |
+| **Fysiologisk status** | Første målbare laktatstigning over hvile. | Sidste grænse for fysiologisk steady state (MLSS). |
+| **Laktat-model** | Stigning på **+0,5 mmol/L** over baseline. | Stigning på **+1,5 mmol/L** over baseline / mDmax. |
+| **Subjektiv følelse (RPE)** | Let til moderat (3–4 på 10-skala). | Hårdt til meget hårdt (7–8 på 10-skala). |
+| **Hovedbrændstof** | Fedtforbrænding i top (FatMax-område). | Næsten 100 % kulhydratforbrænding (glykolyse). |
+| **Varighed** | 2 – 6+ timer. | 30 – 60 minutter. |
+| **Klassisk misforståelse** | Fast grænse ved 2,0 mmol/L. | Fast **4 mmol-grænse** (OBLA). |
 
-Den anaerobe tærskel findes, men den kan altså ikke præcist sættes i forhold til en bestemt værdi for laktatmålinger i blodet. Derfor kan det være godt at have andre indikationer også.
-
-Det er interessant, om du kan estimere din egen absolutte laktattærskel, og om den så flytter sig over tid.
+---
 
 ## Hvordan tester jeg min anaerobe tærskel?
 
-Du kan naturligvis få testet din anaerobe tærskel i et laboratorium, hvor du kan få målt laktat jævnligt med professionelt udstyr. Typisk vil man lave testen som en "trappe"-test, hvor man gradvist sætter tempoet op og tager laktatmålinger undervejs. Det kan fx ske sammen med en [submaksimal test af iltoptagelsen](/iltoptagelse-laboratorietest/).
+Du kan finde din anaerobe tærskel enten i et laboratorium eller via funktionelle felttests.
 
-Du kan også teste den lidt mere **lavpraktisk**, hvis du gerne vil have en ide om, hvor din **anaerobe tærskel** ligger i forhold til din puls og hastighed. Her skal du arbejde maksimalt i en periode på omkring 30 minutter - 60 minutter.
+### 1. Laboratorietest med laktat- eller gasanalyse (Guldstandarden)
+I et laboratorium udføres testen typisk som en trappetest med trinvist stigende belastning (fx 3-minutters trin på løbebånd eller ergometercykel), hvor der tages kapillære blodprøver undervejs. Testen kombineres ofte med en [submaksimal test af iltoptagelsen](/iltoptagelse-laboratorietest/).
 
-Testen er en _all-out_-test, og derfor anbefales det, at du har en vis træningserfaring, inden du går i gang med testaen. Hvis du er begynder, så er det alligevel ikke først og fremmest den anaerobe tærskel, der er interessant i træningsprogrammet.
+* **Baseline + 1,5 mmol/L:** Den foretrukne model til sub-maksimale tests (Faude et al., 2009).
+* **Modificeret Dmax (mDmax):** Den matematisk mest præcise model ved fulde maxtests helt til udmattelse (Bishop et al., 1998; Jamnick et al., 2018).
 
-Gennemsnitspulsen i arbejdstiden i testen kan fortolkes som den anaerobe tærskel, men det kræver, at du har arbejdet så hårdt du kunne i hele perioden.
-
-- **Løb**. Varm grundigt op i 15-20 minutter med stigende intensitet. Derefter løbet 30 minutter _all-out_ gerne på løbebane eller et andet sted, hvor du ikke risikerer at blive forstyrret undervejs. Fordelen er også at du her får en ret præcis distance, og bakker ikke forstyrrer testresultatet. Du kan fx læse om [FTPa: Threshold Pace til løb](/ftpa-loeb/).
-- **Cykling**. Det er en god ide at lave testen på en hjemmetræner eller en Wattbike, da det er lettest at kontrollere intensiteten her. Start med 15-20 minutters grundig opvarmning med stigende intenstitet. Kør i alt en halv time med høj intensitet, men brug gennemsnitspulsen fra de sidste 20 minutter. Du kan læse mere om [trappetest til cykling](/trappetest-cykel/) eller [FTP og Functional Threshold Power til cykling](/ftp-cykling/).
-
-Hvis du bruger pulsen som rettesnor for dine træningszoner, så skal du huske at pulsen er meget specifik i forhold til, om du laver et [roprogram på en romaskine](/artikel/traeningsprogrammer-intervaller-roning/), løber eller cykler.
-
-> 📈 **Find din anaerobe tærskel (LT2 / MLSS) med en laktatkurve**  
-> En blodlaktattest er guldstandarden til at identificere det punkt, hvor mælkesyren begynder at ophobe sig i blodet. Se hvordan du udfører testen korrekt, og brug vores beregner med modeller som *Baseline + 1,5* og *Modificeret Dmax*.  
-> 👉 **[Læs guiden til laktattest og prøv laktatberegneren →](/laktattest/)**
+> 📈 **Prøv vores laktatberegner**  
+> Har du allerede målingerne fra din test? Indtast dine tal og få beregnet dine tærskler automatisk i vores [interaktive laktatberegner →](/laktattest/#calculator)
 {: .notice--warning }
 
-## Pulszoner på baggrund af _lactate threshold heart rate (LTHR)_?
+### 2. Lavpraktiske felttests (LTHR, FTP og FTPa)
+Hvis du ikke har adgang til en laktatmåler, kan du estimere din anaerobe tærskel i forhold til puls og hastighed via en 30-minutters maksimal test (*all-out*). Testen kræver god træningserfaring for at kunne disponeres korrekt.
 
-Hvis du selv tester din anaerobe tærskel med en pulsmåler, så ender du med at få en gennemsnitspuls, der bliver din LTHR, som er den højeste intensitet du kan løbe med før produktionen af laktat overstiger, hvor meget mælkesyre der kan fjernes fra musklerne.
+Gennemsnitspulsen i arbejdstiden i testen kan fortolkes som din **Lactate Threshold Heart Rate (LTHR)** – den højeste intensitet, du kan løbe eller cykle med, før produktionen af laktat overstiger kroppens rydningskapacitet.
 
-Den anaerobe tærskel er trænerbar, og derfor bliver du jævnligt nødt til at teste din LTHR igen, hvis du bruger pulsen til at bestemme din intensitet.
+* **Løb (FTPa / Tærskeltempo):** Varm grundigt op i 15–20 minutter med stigende intensitet. Løb 30 minutter *all-out* (gerne på løbebane for at undgå bakker og lyskurve). Din gennemsnitspuls for testen udgør din LTHR, og dit gennemsnitstempo udgør dit tærskeltempo. Læs mere i vores guide til [FTPa: Threshold Pace til løb](/ftpa-loeb/).
+* **Cykling (FTP / Functional Threshold Power):** Udføres bedst på en hometrainer eller Wattbike. Varm op i 15–20 minutter. Kør 30 minutter med høj jævn intensitet. Brug gennemsnitspulsen og gennemsnitseffekten fra de sidste 20 minutter af testen. Læs mere om [trappetest til cykling](/trappetest-cykel/) og [FTP til cykling](/ftp-cykling/).
 
-Når du har lavet din test, så kan du sætte dine [træningszoner](/traeningszoner/) ud fra din LTHR. (Husk dog at det er vigtigt at genteste jævnligt, da LTHR vil flytte sig, hvis det lykkes at forbedre den anaerobe tærskel). Vi har skrevet mere om at sætte dine [pulszoner på forskellige måder](/pulszoner-beregner/). Her kan du dog se de foreslåede pulszoner.
+Hvis du bruger pulsen som rettesnor for dine træningszoner, skal du huske, at pulsen er specifik for sportsgrenen. LTHR ved løb er typisk 5–10 slag højere end ved cykling eller ved et [roprogram på en romaskine](/artikel/traeningsprogrammer-intervaller-roning/).
+
+---
+
+## Pulszoner på baggrund af _lactate threshold heart rate (LTHR)_
+
+Når du har lavet din test og fundet din LTHR, kan du udregne dine [træningszoner](/traeningszoner/). Husk at genteste med jævne mellemrum, da din LTHR flytter sig i takt med, at din anaerobe tærskel forbedres. (Se vores [udvidede beregner til pulszoner](/pulszoner-beregner/)).
 
 {% include calculator/calculate-hrzones-lthr.html %}
 
+---
+
 ## Hvordan forbedrer jeg min anaerobe tærskel?
 
-Traditionelt vil man træne omkring den anaerobe tærskel for at kunne flytte den, men formentlig skal man ikke bruge for meget af sin træningsindsats i dette område, da det også er rigtig hårdt for kroppen.
+Traditionelt har man troet, at tærskeltræning kun handlede om konstant at køre direkte på eller over den anaerobe tærskel. Fysiologen Dr. Iñigo San Millán (San Millán & Brooks, 2018) argumenterer dog på [Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/) for en mere nuanceret tilgang baseret på musklernes transportproteiner:
 
-San Millán foreslår dog en nuanceret tilgang til at forbedre den anaerobe tærskel i et indlæg på [Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/).
-
-> During exercise, lactate is mainly produced in fast twitch muscle fibers, which use lots of glucose for energy. It is cleared mainly by slow twitch muscle fibers. This is a complex process involving different lactate-specific transporters and enzymes. Fast twitch fibers have a high content of one transporter called MCT-4 (Monocarboxylate-4) which transports lactate away from these fibers. Slow twitch fibers possess a transporter called MCT-1 which takes lactate inside these fibers. That lactate is then converted to pyruvate in the mitochondria by an enzyme called mLDH (mitochondrial lactate dehydrogenase), to then finally synthesize ATP (energy).
->
+> *"During exercise, lactate is mainly produced in fast twitch muscle fibers, which use lots of glucose for energy. It is cleared mainly by slow twitch muscle fibers. Fast twitch fibers have a high content of one transporter called MCT-4 which transports lactate away from these fibers. Slow twitch fibers possess a transporter called MCT-1 which takes lactate inside these fibers. That lactate is then converted to pyruvate in the mitochondria by an enzyme called mLDH... to finally synthesize ATP."*
 > — <cite>[San Millán på Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/)</cite>
 
-San Millán foreslår derfor, at man bruger en del tid på at træne udholdenhedstræning i stedet for at ligge og træne på grænsen af den anaerobe tærskel.
+San Millán påpeger, at mange begår den fejl udelukkende at træne ved tærsklen. For effektivt at forbedre laktat-rydningen er det helt afgørende at stimulere de langsomme muskelfibre (Type I):
 
-Træningen af den anaerobe tærskel skal primært forbedre kroppens evne til at fjerne mælkesyre hurtigt nok.
-
-> A typical training mistake that many athletes and coaches do is training at “lactate threshold” in order to improve lactate clearance capacity. This is not correct as we know that during exercise lactate is mainly produced by glycolytic fibers (fast twitch) which are the ones recruited at “lactate threshold”. However, lactate is mainly cleared by adjacent slow twitch fibers that have a very high mitochondrial capacity and a much higher amount of mLDH enzymes and MCT-1 transporters. Therefore to improve lactate clearance capacity, and although totally counterintuitive, it is key to train those slow twitch muscle fibers to stimulate mitochondrial growth and function as well as increase MCT-1 and mLDH. Training at lactate threshold is essential to improve glycolytic fibers and their machinery (our “Turbo”) and to upregulate the number and function of glycolytic enzymes as well as to increase the number of MCT-4 transporters necessary to transport lactate away from fast twitch fibers to then be cleared by slow twitch fibers.
->
+> *"A typical training mistake that many athletes and coaches do is training at 'lactate threshold' in order to improve lactate clearance capacity. This is not correct... to improve lactate clearance capacity, it is key to train those slow twitch muscle fibers to stimulate mitochondrial growth and function as well as increase MCT-1 and mLDH. Training at lactate threshold is essential to improve glycolytic fibers... and to increase the number of MCT-4 transporters."*
 > — <cite>[San Millán på Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/)</cite>
 
-San Millán argumenterer altså for, at en stor del af træningen skal foregå i [Zone 2](https://www.trainingpeaks.com/blog/why-triathletes-should-train-in-zone-2/). I denne zone arbejder vi under den anaerobe tærskel, men tættere på den [aerobe tærskel](/aerobe-taerskel/).
+### Optimal træningsstruktur:
+1. **Stor volumen i Zone 2:** Træning tæt på den [aerobe tærskel](/aerobe-taerskel/) stimulerer mitokondrierne og øger mængden af **MCT-1 transportører** og *mLDH*-enzymer i de langsomme muskelfibre, hvilket maksimerer kroppens laktat-rydningskapacitet.
+2. **Målrettede tærskelintervaller (Zone 4):** Træning lige omkring LT2 opbygger de hurtige muskelfibres apparat og øger mængden af **MCT-4 transportører**, så laktaten hurtigt kan eksporteres ud af fibrene.
+
+---
 
 ## Konklusion
 
-Den anaerobe tærskel er et afgørende punkt i træning, hvor kroppen ikke længere kan bortskaffe mælkesyre hurtigt nok, hvilket fører til træthed. Ved at forstå og træne omkring denne tærskel kan du forbedre din evne til at præstere ved høj intensitet og udskyde udmattelsen.
+Den anaerobe tærskel er et afgørende fysiologisk ankerpunkt i din træning, som markerer grænsen for fysiologisk steady state. Ved at forstå, at 4 mmol-grænsen blot er et forældet gennemsnitstal, kan du i stedet fokusere på din individuelle laktatkurve og LTHR.
 
-Regelmæssig intervaltræning, laktatmålinger og pulsovervågning kan hjælpe dig med at optimere din anaerobe kapacitet og forbedre din samlede udholdenhed.
+Kombinationen af regelmæssig udholdenhedstræning i Zone 2 og specifikke tærskelintervaller vil forskyde din anaerobe tærskel mod højre, så du kan yde mere og udskyde udmattelsen.
 
-Jeg har skrevet en mere grundig artikel om [mælkesyre](/maelkesyre-traening/), hvis du vil dykke endnu mere ned i emnet.
+Vil du dykke endnu dybere ned i kroppens biokemi? Læs vores udvidede artikel om [mælkesyre og mælkesyretræning](/maelkesyre-traening/).
+
+---
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- **Bishop, D., Jenkins, D. G., & Mackinnon, L. T. (1998).** *The relationship between plasma lactate parameters and muscle characteristics in female cyclists.* European Journal of Applied Physiology, 78(5), 438–444.
+- **Bourdon, P. C. (2013).** *Blood Lactate Thresholds: Concepts and Applications.* In: Australian Institute of Sport, *Physiological Tests for Elite Athletes* (2nd ed., pp. 77–101). Human Kinetics.
+- **Faude, O., Kindermann, W., & Meyer, T. (2009).** *Lactate Threshold Concepts: How Valid are They?* Sports Medicine, 39(6), 469–490.
+- **Heck, H., Mader, A., Hess, G., Mücke, S., Müller, R., & Hollmann, W. (1985).** *Justification of the 4-mmol/l lactate threshold.* International Journal of Sports Medicine, 6(3), 117–130.
+- **Heuberger, J. A. et al. (2018).** *Review of methods to determine aerobic capacity and maximal lactate steady state in athletes.* PLOS ONE, 13(11), e0206846.
+- **Jamnick, N. A., Botella, J., Pyne, D. B., & Bishop, D. J. (2018).** *Repeatability and predictive value of lactate threshold concepts in endurance-trained individuals.* PLOS ONE, 13(11), e0206846.
+- **Myburgh, K. H., Viljoen, A., & Tereblanche, S. (2001).** *Plasma lactate concentrations for self-selected maximal effort endurance exercise.* Journal of Sports Sciences, 19(5), 317–324.
+- **Poole, D. C., Rossiter, H. B., Whipp, B. J., & Jones, A. M. (2021).** *The Maximal Metabolic Steady State: Redefining the Gold Standard.* Medicine & Science in Sports & Exercise, 53(5), 1029–1037.
+- **San Millán, I., & Brooks, G. A. (2018).** *Assessment of Metabolic Flexibility and Lactate Clearance Capacity in Exercise.* Sports Medicine, 48(2), 467–479.
+</details>

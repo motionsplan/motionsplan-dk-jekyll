@@ -5,8 +5,8 @@
 <div class="mp-lactate-wrapper">
   
   <div class="mp-lactate-header">
-    <h2>Interaktiv Laktatprofil & Tærskelberegner</h2>
-    <p>Indtast dine testdata herunder. Værktøjet genererer laktatkurven i fuld bredde og beregner automatisk dine tærskler baseret på de valgte fysiologiske modeller.</p>
+    <div class="mp-calc-main-title">Laktatprofil & Tærskelberegner</div>
+    <p>Indtast dine laktatdata herunder for at få en laktatkurve og et bud på dine tærskler baseret på de valgte fysiologiske modeller.</p>
   </div>
 
   <!-- 1. FULL WIDTH TESTDATA INDTASTNING -->
@@ -23,7 +23,7 @@
       <table class="mp-data-table" id="lactate-table">
         <thead>
           <tr>
-            <th>Intensitet (Watt / Fart)</th>
+            <th>Intensitet (Watt/Fart)</th>
             <th>Puls (bpm)</th>
             <th>Laktat (mmol/L)</th>
             <th style="width: 40px;"></th>
@@ -64,12 +64,11 @@
       </table>
     </div>
 
-    <div class="mp-action-row">
+    <!-- Handlingsrække samlet på én linje -->
+    <div class="mp-save-row">
       <button class="mp-btn-add" onclick="addRow()">+ Tilføj Trin</button>
-      <div class="mp-right-actions">
-        <input type="text" id="test-name-input" placeholder="Navn/Note (fx 'Mads Cykeltest')" class="mp-test-name-field">
-        <button class="mp-btn-calc" onclick="calculateAndDraw(true)">📊 Beregn & Gem i Log</button>
-      </div>
+      <input type="text" id="test-name-input" placeholder="Navn/Note (fx 'Mads Cykeltest')" class="mp-test-name-field">
+      <button class="mp-btn-calc" onclick="calculateAndDraw(true)">📊 Beregn</button>
     </div>
   </div>
 
@@ -78,7 +77,7 @@
 
   <!-- 2. FULL WIDTH LAKTATKURVE -->
   <div class="mp-section-card">
-    <div class="mp-section-title">2. Laktatkurve & Pulsforløb</div>
+    <div class="mp-section-title" style="margin-bottom: 12px;">2. Laktatkurve & Pulsforløb</div>
     <div class="mp-chart-container-full">
       <canvas id="lactateChart"></canvas>
     </div>
@@ -89,17 +88,15 @@
     
     <!-- AEROB TÆRSKEL (LT1) KORT -->
     <div class="mp-result-card lt1-result-card">
-      <div class="mp-card-fieldset-header">
-        <h3>Aerob tærskel (LT1)</h3>
+      
+      <!-- Overskrift og tandhjul på samme linje -->
+      <div class="mp-card-header-row">
+        <div class="mp-card-title">Aerob tærskel (LT1)</div>
+        <button type="button" class="mp-btn-gear-icon" onclick="toggleOverlay('lt1')" title="Skift metode">⚙️</button>
       </div>
 
       <!-- METODE Sektion inde i kortet -->
       <div class="mp-method-picker-inline">
-        <div class="mp-picker-label-row">
-          <span class="mp-inline-label">Beregningsmetode:</span>
-          <button type="button" class="mp-btn-gear-icon" onclick="toggleOverlay('lt1')" title="Skift metode">⚙️</button>
-        </div>
-
         <div id="lt1-summary-box" class="mp-summary-box" onclick="toggleOverlay('lt1')">
           <!-- Udfyldes dynamisk via JS -->
         </div>
@@ -107,20 +104,25 @@
         <!-- OVERLAY DROPDOWN (FLYDER OVENPÅ) -->
         <div id="lt1-overlay-dropdown" class="mp-overlay-dropdown" style="display: none;">
           <div class="mp-option-item active" onclick="selectMethod('lt1', 'bsln05')">
-            <div class="mp-opt-top"><span class="mp-opt-title">Baseline + 0,5 mmol/L (Dickhuth / Delta)</span><span class="mp-badge-rec">⭐ Anbefalet</span></div>
-            <p class="mp-opt-desc">Tager højde for individuel hvilelaktat. Måler hvornår laktat stiger 0,5 mmol/L over laveste punkt.</p>
+            <span class="mp-badge-rec">⭐ Anbefalet</span>
+            <div class="mp-opt-title">Baseline + 0,5 mmol/L</div>
+            <p class="mp-opt-desc">LT1 findes fra en stigning på laktat på 0,5 mmol/L over laveste punkt (Dickhuth).</p>
           </div>
           <div class="mp-option-item" onclick="selectMethod('lt1', 'bsln10')">
-            <div class="mp-opt-top"><span class="mp-opt-title">Baseline + 1,0 mmol/L</span></div>
+            <div class="mp-opt-title">Baseline + 1,0 mmol/L</div>
             <p class="mp-opt-desc">Konservativ aerob tærskel for trænede udøvere.</p>
           </div>
-          <div class="mp-option-item" onclick="selectMethod('lt1', 'loglog')">
-            <div class="mp-opt-top"><span class="mp-opt-title">Log-Log Metoden (Beaver et al.)</span></div>
-            <p class="mp-opt-desc">Finder det matematiske knækpunkt via dobbelt logaritmisk regression.</p>
+          
+          <!-- LOG-LOG VISES KUN HVIS DER ER >6 PUNKTER -->
+          <div class="mp-option-item opt-loglog" id="opt-loglog-item" style="display: none;" onclick="selectMethod('lt1', 'loglog')">
+            <span class="mp-badge-rec" style="background:#f3e8ff; color:#6b21a8;">📈 7+ punkter</span>
+            <div class="mp-opt-title">Log-Log Metoden</div>
+            <p class="mp-opt-desc">Matematisk knækpunkt via dobbelt logaritmisk regression. Kræver mange målepunkter for stabilitet (Beaver et al.).</p>
           </div>
+
           <div class="mp-option-item" onclick="selectMethod('lt1', 'obla20')">
-            <div class="mp-opt-top"><span class="mp-opt-title">Fast Laktat: 2,0 mmol/L (Mader et al.)</span></div>
-            <p class="mp-opt-desc">Klassisk fast grænseværdi for aerob tærskel.</p>
+            <div class="mp-opt-title">OBLA 2,0 mmol/L</div>
+            <p class="mp-opt-desc">Klassisk, forældet model med fast grænseværdi for aerob tærskel (Mader).</p>
           </div>
         </div>
       </div>
@@ -142,17 +144,15 @@
 
     <!-- ANAEROB TÆRSKEL (LT2) KORT -->
     <div class="mp-result-card lt2-result-card">
-      <div class="mp-card-fieldset-header">
-        <h3>Anaerob tærskel (LT2)</h3>
+      
+      <!-- Overskrift og tandhjul på samme linje -->
+      <div class="mp-card-header-row">
+        <div class="mp-card-title">Anaerob tærskel (LT2)</div>
+        <button type="button" class="mp-btn-gear-icon" onclick="toggleOverlay('lt2')" title="Skift metode">⚙️</button>
       </div>
 
       <!-- METODE Sektion inde i kortet -->
       <div class="mp-method-picker-inline">
-        <div class="mp-picker-label-row">
-          <span class="mp-inline-label">Beregningsmetode:</span>
-          <button type="button" class="mp-btn-gear-icon" onclick="toggleOverlay('lt2')" title="Skift metode">⚙️</button>
-        </div>
-
         <div id="lt2-summary-box" class="mp-summary-box" onclick="toggleOverlay('lt2')">
           <!-- Udfyldes dynamisk via JS -->
         </div>
@@ -160,21 +160,23 @@
         <!-- OVERLAY DROPDOWN (FLYDER OVENPÅ) -->
         <div id="lt2-overlay-dropdown" class="mp-overlay-dropdown" style="display: none;">
           <div class="mp-option-item active" onclick="selectMethod('lt2', 'bsln15')">
-            <div class="mp-opt-top"><span class="mp-opt-title">Baseline + 1,5 mmol/L (Modificeret Keul)</span><span class="mp-badge-rec">⭐ Anbefalet</span></div>
-            <p class="mp-opt-desc">Mest robust ved submaksimale tests. Måler stigning på 1,5 mmol/L over baseline.</p>
+            <span class="mp-badge-rec">⭐ Anbefalet</span>
+            <div class="mp-opt-title">Baseline + 1,5 mmol/L</div>
+            <p class="mp-opt-desc">Mod. Keul som er robust ved submaksimale tests. LT2 sættes ved stigning på 1,5 mmol/L over baseline.</p>
           </div>
           <div class="mp-option-item" onclick="selectMethod('lt2', 'bsln20')">
-            <div class="mp-opt-top"><span class="mp-opt-title">Baseline + 2,0 mmol/L</span></div>
+            <div class="mp-opt-title">Baseline + 2,0 mmol/L</div>
             <p class="mp-opt-desc">Måler stigning på 2,0 mmol/L over laveste punkt.</p>
           </div>
           <div class="mp-option-item" onclick="selectMethod('lt2', 'obla40')">
-            <div class="mp-opt-top"><span class="mp-opt-title">Fast Laktat: 4,0 mmol/L (Heck et al. / OBLA)</span></div>
-            <p class="mp-opt-desc">Klassisk OBLA-grænse for maksimal steady state.</p>
+            <div class="mp-opt-title">OBLA 4,0 mmol/L</div>
+            <p class="mp-opt-desc">Klassisk, forældet fast grænse for maksimal steady state.</p>
           </div>
           <!-- MODDMAX VISES KUN HVIS MAXTEST ER VALGT -->
           <div class="mp-option-item opt-moddmax" id="opt-moddmax-item" style="display: none;" onclick="selectMethod('lt2', 'moddmax')">
-            <div class="mp-opt-top"><span class="mp-opt-title">Modificeret Dmax (mDmax / Bishop)</span><span class="mp-badge-max">🔥 Maxtest</span></div>
-            <p class="mp-opt-desc">Største afstand til linjen mellem LT1 og slutpunkt. Gyldig da maxtest er markeret!</p>
+            <span class="mp-badge-max">🔥 Maxtest</span>
+            <div class="mp-opt-title">Modificeret Dmax</div>
+            <p class="mp-opt-desc">mDmax er største afstand fra kurven til linjen mellem LT1 og slutpunkt. Kun ved maxtest!!</p>
           </div>
         </div>
       </div>
@@ -199,11 +201,11 @@
   <!-- 4. LOCALSTORAGE HISTORIK / LOG -->
   <div class="mp-section-card mp-history-card">
     <div class="mp-section-header">
-      <span class="mp-section-title">🕒 Test-historik (Gemt lokalt i din browser)</span>
+      <span class="mp-section-title">🕒 Test-historik (Gemt lokalt)</span>
       <button class="mp-btn-clear-history" onclick="clearHistory()">🗑️ Tøm Historik</button>
     </div>
     <div id="history-list-container">
-      <p class="mp-no-history">Ingen gemte tests endnu. Indtast data og tryk 'Beregn & Gem i Log' for at gemme her.</p>
+      <p class="mp-no-history">Ingen gemte tests endnu. Indtast data og tryk 'Beregn' for at gemme her.</p>
     </div>
   </div>
 
@@ -223,7 +225,7 @@
   box-shadow: 0 4px 20px rgba(0,0,0,0.04);
 }
 
-.mp-lactate-header h2 { margin: 0 0 8px 0; color: #0f172a; font-size: 1.6rem; font-weight: 800; }
+.mp-calc-main-title { margin: 0 0 8px 0; color: #0f172a; font-size: 1.6rem; font-weight: 800; }
 .mp-lactate-header p { margin: 0 0 24px 0; color: #64748b; font-size: 0.95rem; line-height: 1.5; }
 
 /* SEKTIONER (FULL WIDTH CARDS) */
@@ -260,19 +262,70 @@
 .mp-maxtest-checkbox input { cursor: pointer; width: 16px; height: 16px; }
 
 /* TABEL */
-.mp-table-container { overflow-x: auto; margin-bottom: 14px; }
-.mp-data-table { width: 100%; border-collapse: collapse; }
+.mp-table-container { overflow-x: auto; margin-bottom: 6px; /* Mindre afstand til handlingsrækken */ }
+.mp-data-table { width: 100%; border-collapse: collapse; margin-bottom: 0; }
 .mp-data-table th { text-align: left; font-size: 0.8rem; color: #64748b; padding-bottom: 8px; text-transform: uppercase; }
 .mp-data-table td { padding: 4px; }
 .mp-data-table input { width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.9rem; text-align: center; font-weight: 600; }
 .mp-btn-del { background: none; border: none; color: #ef4444; cursor: pointer; font-size: 1.1rem; font-weight: bold; }
 
-.mp-action-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
-.mp-right-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-.mp-test-name-field { padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 0.9rem; min-width: 220px; }
-.mp-btn-add { background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; padding: 10px 16px; border-radius: 8px; font-weight: 700; cursor: pointer; }
-.mp-btn-calc { background: #0284c7; color: #ffffff; border: none; padding: 10px 20px; border-radius: 8px; font-weight: 700; font-size: 0.95rem; cursor: pointer; }
-.mp-btn-calc:hover { background: #0369a1; }
+/* GEM-RÆKKE PÅ ÉN LINJE - 100% ALIGNMENT */
+.mp-save-row { 
+  display: flex; 
+  gap: 12px; 
+  align-items: center; 
+  width: 100%; 
+  flex-wrap: wrap; 
+  margin-top: 4px;
+}
+.mp-save-row > * {
+  height: 42px; /* Fast højde på alle tre elementer sikrer perfekt linje */
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inherit;
+}
+.mp-btn-add { 
+  background: #f1f5f9; 
+  color: #334155; 
+  border: 1px solid #cbd5e1; 
+  border-radius: 8px; 
+  font-weight: 700; 
+  cursor: pointer; 
+  white-space: nowrap; 
+  padding: 0 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.mp-test-name-field { 
+  flex: 1; 
+  min-width: 150px; 
+  border: 1px solid #cbd5e1; 
+  border-radius: 8px; 
+  font-size: 0.9rem; 
+  padding: 0 12px;
+  outline: none;
+}
+.mp-btn-calc { 
+  background: #0284c7; 
+  color: #ffffff; 
+  border: 1px solid #0284c7; 
+  border-radius: 8px; 
+  font-weight: 700; 
+  font-size: 0.95rem; 
+  cursor: pointer; 
+  white-space: nowrap; 
+  padding: 0 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.mp-btn-calc:hover { background: #0369a1; border-color: #0369a1; }
+
+@media(max-width: 550px) {
+  .mp-save-row { flex-direction: column; align-items: stretch; }
+  .mp-btn-add, .mp-btn-calc { width: 100%; }
+}
 
 /* GRAF FULL WIDTH */
 .mp-chart-container-full { width: 100%; height: 380px; position: relative; }
@@ -298,12 +351,14 @@
 .lt1-result-card { border-color: #bbf7d0; background: #f0fdf4; }
 .lt2-result-card { border-color: #fef08a; background: #fffbeb; }
 
-.mp-card-fieldset-header h3 { margin: 0 0 14px 0; font-size: 1.15rem; font-weight: 800; color: #0f172a; }
-
-/* INLINE METHOD PICKER MED OVERLAY */
-.mp-method-picker-inline { position: relative; }
-.mp-picker-label-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
-.mp-inline-label { font-size: 0.8rem; font-weight: 700; color: #475569; text-transform: uppercase; }
+/* HEADER ROW FOR KORT (Titel + Tandhjul) */
+.mp-card-header-row { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 20px; /* Mere afstand til boksene under */
+}
+.mp-card-title { margin: 0; font-size: 1.15rem; font-weight: 800; color: #0f172a; }
 
 /* TANDHJUL KNAP (KUN IKON) */
 .mp-btn-gear-icon {
@@ -318,29 +373,59 @@
 }
 .mp-btn-gear-icon:hover { background: #e2e8f0; transform: rotate(30deg); }
 
+/* INLINE METHOD PICKER MED OVERLAY */
+.mp-method-picker-inline { 
+  position: relative; 
+  width: 100%; /* Sikrer brug af fuld bredde */
+}
+
+/* SUMMARY BOKS */
 .mp-summary-box {
+  width: 100%; /* Fuld bredde */
+  height: 150px; /* Fast og lige højde */
+  box-sizing: border-box;
   background: #ffffff;
   border: 1.5px solid #3b82f6;
   border-radius: 10px;
-  padding: 10px 12px;
+  padding: 14px 14px 14px 14px; /* Højre-padding reduceret lidt, så tekst kan fylde mere */
   cursor: pointer;
   box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
 }
 
-.mp-opt-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-.mp-opt-title { font-size: 0.88rem; font-weight: 700; color: #0f172a; }
-.mp-opt-desc { margin: 3px 0 0 0; font-size: 0.78rem; color: #64748b; line-height: 1.35; }
+.mp-opt-title { font-size: 0.92rem; font-weight: 700; color: #0f172a; line-height: 1.2; margin-bottom: 8px; }
+.mp-opt-desc { 
+  margin: 4px 0 0 0; 
+  font-size: 0.82rem !important; /* Tekststørrelse gjort lidt mindre */
+  color: #64748b; 
+  line-height: 1.25; 
+}
 
-.mp-badge-rec { background: #dbeafe; color: #1e40af; font-size: 0.7rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; white-space: nowrap; }
-.mp-badge-max { background: #fee2e2; color: #991b1b; font-size: 0.7rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; white-space: nowrap; }
+/* ABSOLUT PLACEREDE BADGES */
+.mp-badge-rec, .mp-badge-max { 
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  font-size: 0.7rem; 
+  font-weight: 700; 
+  padding: 3px 6px; 
+  border-radius: 4px; 
+  white-space: nowrap; 
+}
+.mp-badge-rec { background: #dbeafe; color: #1e40af; }
+.mp-badge-max { background: #fee2e2; color: #991b1b; }
 
 /* OVERLAY DROPDOWN (FLYDER OVENPÅ DEN OMKRINGLIGGENDE PLADS) */
 .mp-overlay-dropdown {
   position: absolute;
   top: 100%;
   left: 0;
-  right: 0;
-  z-index: 100; /* FLYDER OVENPÅ ALT */
+  width: 100%; /* Fuld bredde */
+  box-sizing: border-box;
+  z-index: 100;
   background: #ffffff;
   border: 1.5px solid #3b82f6;
   border-radius: 12px;
@@ -352,11 +437,14 @@
   gap: 6px;
 }
 .mp-option-item {
-  padding: 8px 10px;
+  width: 100%; /* Fuld bredde */
+  box-sizing: border-box;
+  padding: 10px 10px 10px 14px;
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid transparent;
   transition: all 0.12s ease;
+  position: relative;
 }
 .mp-option-item:hover { background: #f1f5f9; border-color: #cbd5e1; }
 .mp-option-item.active { background: #eff6ff; border-color: #3b82f6; }
@@ -396,17 +484,17 @@
 <script>
 // METODESÆT (KUN RELEVANTE FOR HVER TÆRSKEL)
 const methodsLT1 = {
-  bsln05: { title: 'Baseline + 0,5 mmol/L (Dickhuth / Delta)', rec: true, desc: 'Måler hvornår laktat stiger 0,5 mmol/L over laveste baseline.' },
+  bsln05: { title: 'Baseline + 0,5 mmol/L', rec: true, desc: 'LT1 findes fra en stigning på laktat på 0,5 mmol/L over laveste punkt (Dickhuth).' },
   bsln10: { title: 'Baseline + 1,0 mmol/L', rec: false, desc: 'Konservativ aerob tærskel for trænede udøvere.' },
-  loglog: { title: 'Log-Log Metoden (Beaver et al.)', rec: false, desc: 'Finder det matematiske knækpunkt via dobbelt logaritmisk regression.' },
-  obla20: { title: 'Fast Laktat: 2,0 mmol/L (Mader et al.)', rec: false, desc: 'Klassisk fast grænseværdi for aerob tærskel.' }
+  loglog: { title: 'Log-Log Metoden', rec: false, isLog: true, desc: 'Matematisk knækpunkt via dobbelt logaritmisk regression. Kræver mange målepunkter for stabilitet (Beaver et al.).' },
+  obla20: { title: 'OBLA 2,0 mmol/L', rec: false, desc: 'Klassisk, forældet model med fast grænseværdi for aerob tærskel (Mader).' }
 };
 
 const methodsLT2 = {
-  bsln15: { title: 'Baseline + 1,5 mmol/L (Modificeret Keul)', rec: true, desc: 'Mest robust ved submaksimale tests. Stigning på 1,5 mmol/L over baseline.' },
-  bsln20: { title: 'Baseline + 2,0 mmol/L', rec: false, desc: 'Stigning på 2,0 mmol/L over laveste baseline.' },
-  obla40: { title: 'Fast Laktat: 4,0 mmol/L (Heck / OBLA)', rec: false, desc: 'Klassisk OBLA-grænse for maksimal steady state.' },
-  moddmax: { title: 'Modificeret Dmax (mDmax / Bishop)', rec: false, isMax: true, desc: 'Geometrisk største afstand til linjen mellem LT1 og slutpunkt.' }
+  bsln15: { title: 'Baseline + 1,5 mmol/L', rec: true, desc: 'Mod. Keul som er robust ved submaksimale tests. LT2 sættes ved stigning på 1,5 mmol/L over baseline.' },
+  bsln20: { title: 'Baseline + 2,0 mmol/L', rec: false, desc: 'Måler stigning på 2,0 mmol/L over laveste punkt.' },
+  obla40: { title: 'OBLA 4,0 mmol/L', rec: false, desc: 'Klassisk, forældet fast grænse for maksimal steady state.' },
+  moddmax: { title: 'Modificeret Dmax', rec: false, isMax: true, desc: 'mDmax er største afstand fra kurven til linjen mellem LT1 og slutpunkt. Kun ved maxtest!!' }
 };
 
 let currentLT1 = 'bsln05';
@@ -430,7 +518,6 @@ function toggleMaxtest(checked) {
     moddmaxElem.style.display = checked ? 'block' : 'none';
   }
   
-  // Hvis maxtest slås fra mens moddmax var valgt -> skift tilbage til anbefalet
   if (!checked && currentLT2 === 'moddmax') {
     selectMethod('lt2', 'bsln15');
   } else {
@@ -443,7 +530,6 @@ function toggleOverlay(type) {
   const dropdown = document.getElementById(`${type}-overlay-dropdown`);
   const isHidden = dropdown.style.display === 'none';
   
-  // Luk alle dropdowns først
   document.getElementById('lt1-overlay-dropdown').style.display = 'none';
   document.getElementById('lt2-overlay-dropdown').style.display = 'none';
 
@@ -452,9 +538,8 @@ function toggleOverlay(type) {
   }
 }
 
-// LUK DROPDOWN HVIS DER KLIKKES UDENFOR
 document.addEventListener('click', (e) => {
-  if (!e.target.closest('.mp-method-picker-inline')) {
+  if (!e.target.closest('.mp-result-card')) {
     document.getElementById('lt1-overlay-dropdown').style.display = 'none';
     document.getElementById('lt2-overlay-dropdown').style.display = 'none';
   }
@@ -464,11 +549,9 @@ function selectMethod(type, methodKey) {
   if (type === 'lt1') currentLT1 = methodKey;
   if (type === 'lt2') currentLT2 = methodKey;
 
-  // Opdater visuel active class
   const dropdown = document.getElementById(`${type}-overlay-dropdown`);
   dropdown.querySelectorAll('.mp-option-item').forEach(el => el.classList.remove('active'));
   
-  // Luk overlay
   dropdown.style.display = 'none';
 
   renderSummaryBox(type);
@@ -481,11 +564,10 @@ function renderSummaryBox(type) {
   const box = document.getElementById(`${type}-summary-box`);
 
   box.innerHTML = `
-    <div class="mp-opt-top">
-      <span class="mp-opt-title">${data.title}</span>
-      ${data.rec ? '<span class="mp-badge-rec">⭐ Anbefalet</span>' : ''}
-      ${data.isMax ? '<span class="mp-badge-max">🔥 Maxtest</span>' : ''}
-    </div>
+    ${data.rec ? '<span class="mp-badge-rec">⭐ Anbefalet</span>' : ''}
+    ${data.isMax ? '<span class="mp-badge-max">🔥 Maxtest</span>' : ''}
+    ${data.isLog ? '<span class="mp-badge-rec" style="background:#f3e8ff; color:#6b21a8;">📈 7+ punkter</span>' : ''}
+    <div class="mp-opt-title">${data.title}</div>
     <p class="mp-opt-desc">${data.desc}</p>
   `;
 }
@@ -534,10 +616,10 @@ function getInterpolatedX(targetY, dataList, startIndex = 0) {
   }
   return null;
 }
-// 1. MINDSTE KVADRATERS METODE (3. grads polynomium: y = a*x^3 + b*x^2 + c*x + d)
+
 function fitPolynomial3rdDegree(points) {
   let n = points.length;
-  if (n < 4) return null; // Kræver mindst 4 punkter for 3. grads fit
+  if (n < 4) return null;
 
   let sumX = 0, sumX2 = 0, sumX3 = 0, sumX4 = 0, sumX5 = 0, sumX6 = 0;
   let sumY = 0, sumXY = 0, sumX2Y = 0, sumX3Y = 0;
@@ -550,7 +632,6 @@ function fitPolynomial3rdDegree(points) {
     sumY += y; sumXY += x * y; sumX2Y += x2 * y; sumX3Y += x3 * y;
   }
 
-  // Opstil 4x4 matrix til Gauss-elimination
   let m = [
     [sumX6, sumX5, sumX4, sumX3, sumX3Y],
     [sumX5, sumX4, sumX3, sumX2, sumX2Y],
@@ -558,7 +639,6 @@ function fitPolynomial3rdDegree(points) {
     [sumX3, sumX2, sumX,  n,     sumY]
   ];
 
-  // Gauss-Jordan elimination
   for (let i = 0; i < 4; i++) {
     let maxEl = Math.abs(m[i][i]), maxRow = i;
     for (let k = i + 1; k < 4; k++) {
@@ -567,7 +647,7 @@ function fitPolynomial3rdDegree(points) {
     for (let k = i; k < 5; k++) {
       let tmp = m[maxRow][k]; m[maxRow][k] = m[i][k]; m[i][k] = tmp;
     }
-    if (Math.abs(m[i][i]) < 1e-12) return null; // Kan ikke løses
+    if (Math.abs(m[i][i]) < 1e-12) return null;
 
     for (let k = i + 1; k < 4; k++) {
       let c = -m[k][i] / m[i][i];
@@ -586,17 +666,14 @@ function fitPolynomial3rdDegree(points) {
     }
   }
 
-  // Returnerer funktion der evaluerer polynomiet f(x)
   return function(x) {
     return coeff[0] * Math.pow(x, 3) + coeff[1] * Math.pow(x, 2) + coeff[2] * x + coeff[3];
   };
 }
 
-// 2. SAND BEREGNING AF MDMAX (Bishop et al. 1998)
 function calculateModDmax(lt1_x, dataList) {
   if (!lt1_x || dataList.length < 4) return null;
 
-  // Fit 3. grads polynomium til HELE laktatkurven
   const polyFunc = fitPolynomial3rdDegree(dataList);
   if (!polyFunc) return null;
 
@@ -609,19 +686,12 @@ function calculateModDmax(lt1_x, dataList) {
 
   let maxDistance = -1;
   let bestX = null;
-
-  // Scan med fine trin (0.1 Watt) mellem LT1 og Slutpunkt
   const step = (x_end - x_start) / 500;
 
   for (let x = x_start; x <= x_end; x += step) {
     let y = polyFunc(x);
-
-    // NORMALISERING TIL [0, 1] (fjerner Watt/Laktat skaleringsforskelle)
     let x_norm = (x - x_start) / (x_end - x_start);
     let y_norm = (y - y_start) / (y_end - y_start);
-
-    // Vinkelret afstand i et normaliseret 1x1 kvadrat til linjen y = x
-    // Dist = |x_norm - y_norm| / sqrt(2)
     let dist = (x_norm - y_norm) / Math.SQRT2;
 
     if (dist > maxDistance) {
@@ -629,8 +699,7 @@ function calculateModDmax(lt1_x, dataList) {
       bestX = x;
     }
   }
-
-  return bestX; // Returnerer det præcise kontinuere Watt-tal for mDmax
+  return bestX;
 }
 
 function calculateAndDraw(shouldSaveToHistory = false) {
@@ -648,7 +717,20 @@ function calculateAndDraw(shouldSaveToHistory = false) {
 
   parsedData.sort((a, b) => a.x - b.x);
 
-  // SANITY CHECK
+  // Tjek om Log-Log skal vises (kræver > 6 punkter)
+  const loglogElem = document.getElementById('opt-loglog-item');
+  if (loglogElem) {
+    if (parsedData.length > 6) {
+      loglogElem.style.display = 'block';
+    } else {
+      loglogElem.style.display = 'none';
+      if (currentLT1 === 'loglog') {
+        currentLT1 = 'bsln05'; // Reset til anbefalet
+        renderSummaryBox('lt1');
+      }
+    }
+  }
+
   const alertsBox = document.getElementById('lactate-alerts');
   alertsBox.innerHTML = '';
   alertsBox.style.display = 'none';
@@ -668,8 +750,13 @@ function calculateAndDraw(shouldSaveToHistory = false) {
       }
     }
 
-    if(baselineValue > 2.8) {
-      warnings.push("⚠️ <strong>Høj startlaktat:</strong> Baseline er over 2,8 mmol/L. Opvarmningen kan have været for hård.");
+    // Advarsel udløses kun hvis baseline i sig selv er ekstremt høj (>3.5),
+    // ELLER hvis laktaten stiger markant på trin 2 i stedet for at være flad
+    const firstPoint = parsedData[0].y;
+    const secondPoint = parsedData.length > 1 ? parsedData[1].y : firstPoint;
+
+    if (baselineValue > 3.5 || (firstPoint > 2.8 && secondPoint > firstPoint + 0.4)) {
+      warnings.push("⚠️ <strong>Høj startlaktat:</strong> Startlaktaten er høj eller stiger straks fra 1. trin. Tjek om opvarmningen var for hård, eller om atleten har høj måler-baseline.");
     }
 
     if(warnings.length > 0) {
@@ -677,22 +764,20 @@ function calculateAndDraw(shouldSaveToHistory = false) {
       alertsBox.style.display = 'block';
     }
 
-    // LT1 BEREGNING
     let lt1_x = null;
     if (currentLT1 === 'bsln05') lt1_x = getInterpolatedX(baselineValue + 0.5, parsedData, baselineIndex);
     else if (currentLT1 === 'bsln10') lt1_x = getInterpolatedX(baselineValue + 1.0, parsedData, baselineIndex);
     else if (currentLT1 === 'obla20') lt1_x = getInterpolatedX(2.0, parsedData, baselineIndex);
     else if (currentLT1 === 'loglog') lt1_x = getInterpolatedX(baselineValue + 0.4, parsedData, baselineIndex);
 
-    // LT2 BEREGNING
     let lt2_x = null;
     if (currentLT2 === 'bsln15') lt2_x = getInterpolatedX(baselineValue + 1.5, parsedData, baselineIndex);
     else if (currentLT2 === 'bsln20') lt2_x = getInterpolatedX(baselineValue + 2.0, parsedData, baselineIndex);
     else if (currentLT2 === 'obla40') lt2_x = getInterpolatedX(4.0, parsedData, baselineIndex);
     else if (currentLT2 === 'moddmax') lt2_x = calculateModDmax(lt1_x || parsedData[0].x, parsedData);
 
-    document.getElementById('out-lt1-x').value = lt1_x ? Math.round(lt1_x) : '';
-    document.getElementById('out-lt2-x').value = lt2_x ? Math.round(lt2_x) : '';
+    document.getElementById('out-lt1-x').value = lt1_x ? lt1_x.toFixed(1) : '';
+    document.getElementById('out-lt2-x').value = lt2_x ? lt2_x.toFixed(1) : '';
   }
 
   updateFromManual();
@@ -787,7 +872,6 @@ function drawChart() {
   });
 }
 
-// LOCALSTORAGE HISTORIK LOGIK
 function saveToHistory() {
   const nameInput = document.getElementById('test-name-input').value.trim();
   const title = nameInput || `Laktattest (${new Date().toLocaleDateString('da-DK')})`;
@@ -803,8 +887,8 @@ function saveToHistory() {
   };
 
   let history = JSON.parse(localStorage.getItem('mp_lactate_history') || '[]');
-  history.unshift(testRecord); // Læg øverst
-  if(history.length > 10) history = history.slice(0, 10); // Gem max 10
+  history.unshift(testRecord);
+  if(history.length > 10) history = history.slice(0, 10);
   
   localStorage.setItem('mp_lactate_history', JSON.stringify(history));
   document.getElementById('test-name-input').value = '';
@@ -816,7 +900,7 @@ function renderHistoryList() {
   const history = JSON.parse(localStorage.getItem('mp_lactate_history') || '[]');
 
   if (history.length === 0) {
-    container.innerHTML = '<p class="mp-no-history">Ingen gemte tests endnu. Indtast data og tryk \'Beregn & Gem i Log\' for at gemme her.</p>';
+    container.innerHTML = '<p class="mp-no-history">Ingen gemte tests endnu. Indtast data og tryk \'Beregn\' for at gemme her.</p>';
     return;
   }
 
@@ -842,7 +926,6 @@ function loadHistoryItem(id) {
   const item = history.find(h => h.id === id);
   if (!item) return;
 
-  // Fyld tabellen op
   const tbody = document.querySelector('#lactate-table tbody');
   tbody.innerHTML = '';
 
@@ -857,7 +940,6 @@ function loadHistoryItem(id) {
     tbody.appendChild(tr);
   });
 
-  // Indstil maxtest og metoder
   document.getElementById('chk-maxtest').checked = item.isMaxtest || false;
   toggleMaxtest(item.isMaxtest || false);
 

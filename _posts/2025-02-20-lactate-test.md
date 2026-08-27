@@ -63,15 +63,6 @@ tags:
   - cykeltest
   - laboratorietest
 last_modified_at: '2026-07-29T08:00:00Z'
-feature_row_tests_loeb:
-  - image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
-    credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
-    alt: Løbetests og kondition
-    title: Andre løbetests
-    excerpt: Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor du også kan estimere dit kondital.
-    url: /tests/loeb/
-    btn_label: Se flere løbetests
-    btn_class: btn--success
 faq:
   - question: Hvorfor starter laktatmålingerne sommetider på 2 mmol/l eller højere?
     answer: 'Der kan være et par forskellige grunde til dette usædvanlige forløb:
@@ -82,21 +73,22 @@ faq:
     answer: 'Sommetider ser man laktatniveauer, der starter over 2 mmol/l og fortsætter med at stige. Dette kan skyldes, at atleten har lavet meget højintensitetstræning mange gange om ugen. Det skærper det glykolytiske system. Hvis det ikke suppleres med træning i zone 1 og 2, som opbygger den aerobe base, står atleten tilbage med et underudviklet aerobt system. I nogle tilfælde er eneste mulighed ifølge Uphill Athlete at skære ned på højintensitetstræning og skifte til mere lav-intensiv træning.'
 ---
 
-En **laktattest** (også kaldes en **blodlaktattest** eller mælkesyretest) giver en uvurderlig og præcis indsigt i din træningstilstand, og hvordan kroppen arbejder ved forskellige intensiteter.
+En **laktattest** (også kaldes en **blodlaktattest** eller mælkesyretest) giver indsigt i din træningstilstand, og hvordan kroppen arbejder ved forskellige intensiteter.
 
-Hvor pulszoner baseret på teoretisk maxpuls ofte kan ramme ved siden af, måler en **laktat test** direkte på blodets kemi under belastning. Hvad enten du søger information om en laktattest til løb eller cykling, får du her en komplet guide til, hvordan du udfører testen korrekt uden nødvendigvis at skulle besøge et dyrt laboratorium.
+Hvor pulszoner baseret på teoretisk maxpuls eller pulsreserven ofte kan ramme ved siden af, måler en **laktat test** direkte på blodet under forskellige belastninger. Hvad enten du søger information om en laktattest til løb eller cykling, får du her en komplet guide til, hvordan du udfører testen korrekt, hvis du har adgang til en laktatmåler.
 
 Efter at have læst denne artikel vil du vide, hvordan testen udføres, hvordan du undgår typiske målefejl, og hvordan du analyserer dine data for at identificere din **aerobe tærskel (AeT / LT1)** og **anaerobe tærskel (AnT / LT2)**.
 
-Testen kræver tålmodighed, for det kræver både øvelse og præcision at lave pålidelige laktatmålinger. En laktattest kombineres ofte med en [direkte iltoptagelsestest i laboratoriet](/iltoptagelse-laboratorietest/) for at få det fulde billede af kondital og energiomsætning.
+En laktattest kræver tålmodighed, for det kræver både øvelse og præcision at lave pålidelige laktatmålinger. En laktattest kombineres ofte med en [direkte iltoptagelsestest i laboratoriet](/iltoptagelse-laboratorietest/) for at få det fulde billede af kondital og energiomsætning.
 
-[<i class='fas fa-calculator'></i> Hop direkte til Laktatberegneren](#calculator){: .btn .btn--success .btn--jump }
+[<i class='fas fa-calculator'></i> Hop direkte til laktatberegneren](#calculator){: .btn .btn--success .btn--jump }
 
 ---
 
 ## Hvad tester en blodlaktattest?
 
 Kroppens evne til at danne energi til muskelarbejde under træning og konkurrence beror overordnet set på två processer:
+
 1. **De aerobe processer** (der foregår med ilt)
 2. **De anaerobe processer** (der foregår uden ilt)
 
@@ -113,12 +105,10 @@ På et senere tidspunkt i testen kan kroppen ikke længere fjerne laktaten lige 
 
 ---
 
-## Interaktiv Laktatberegner (LT1 & LT2)
+## Laktatberegner (LT1 & LT2)
 {: id="calculator" }
 
-Har du gennemført en laktattest og står med dine målinger? Indtast dine tal i beregneren herunder. 
-
-Værktøjet tegner din laktatkurve i fuld bredde og beregner automatisk dine tærskler baseret på fysiologisk validerede modeller (fx *Baseline + Delta* eller *Modificeret Dmax*).
+Har du gennemført en laktattest og står med dine målinger? Indtast dine tal i beregneren herunder for at få din laktatkurve - og vælg en af de fysiologisk validerede modeller for at finde dine tærskler, fx *Baseline + Delta* eller *Modificeret Dmax*.
 
 {% include components/lactate-calculator.html %}
 
@@ -126,28 +116,44 @@ Værktøjet tegner din laktatkurve i fuld bredde og beregner automatisk dine tæ
 
 ## Oversigt over laktatværdier: Hvad er normalt?
 
-Når du udfører en laktattest, kan laktatniveauerne inddeles i fire typiske fysiologiske zoner:
+Når du udfører en laktattest, kan laktatniveauerne fysiologisk set inddeles i fire typiske faser. Bemærk, at vi her fokuserer på *stigningen* (delta) frem for faste tal:
 
 | Fase / Tærskel | Typisk Laktatniveau | Hvad sker der i kroppen? |
 | :--- | :--- | :--- |
-| **Hvile / Opvarmning** | 0,8 – 1,8 mmol/L | Fuldstændig aerob forbrænding. Laktat fjernes lige så hurtigt, som det dannes. |
+| **Hvile / Opvarmning** | 0,8 – 2,5 mmol/L | Fuldstændig aerob forbrænding. Laktat fjernes lige så hurtigt, som det dannes. |
 | **Aerob Tærskel (LT1)** | Baseline + 0,5 mmol/L | Første markante stigning. Fedtforbrændingen er maksimal (FatMax). |
 | **Anaerob Tærskel (LT2)** | Baseline + 1,5 mmol/L | Maximal Lactate Steady State (MLSS). Sidste niveau hvor laktat kan stabiliseres. |
-| **Maksimal belastning** | 8,0 – 14,0+ mmol/L | Udmattelse (*failure*). Anaerob glykolyse kører for fuldt tryk. |
+| **Maksimal belastning** | 8,0 – 18,0+ mmol/L | Udmattelse (*failure*). Anaerob glykolyse kører for fuldt tryk. |
+
+---
+
+### Myten om de faste grænser (2,0 og 4,0 mmol/L)
+
+Hvis du har læst ældre fysiologibøger, har du sikkert stødt på reglen om, at den aerobe tærskel ligger ved præcis **2,0 mmol/L**, og den anaerobe tærskel (OBLA) ligger ved præcis **4,0 mmol/L**. 
+
+**Disse faste grænser er i dag forældede.** De blev etableret i 1970'erne med ældre laboratorieudstyr, der analyserede ren *fuldblod*. Moderne laktatmålere analyserer i stedet ud fra en *plasma-ækvivalent* (hvilket indeholder 11-15 % mere laktat). Det betyder, at en fysiologisk grænse, der hed 4,0 i 1970'erne, i virkeligheden svarer til et højere tal på dit moderne udstyr. Samtidig er det helt normalt at have et hvilelaktat på 2,0 mmol/L på nyere apparater. 
+
+Moderne idrætsfysiologi bruger derfor udelukkende **individuelle, relative tærskler** (stigninger i forhold til din egen baseline) – præcis som vores laktatberegner her på siden gør brug af.
+
+### Vigtigt: Forskellen på laktatmålere og deres baseline
+
+Når du fortolker dine målinger, er det afgørende at huske, at laktatmålere ikke kalibreres ens på tværs af mærker:
+
+* **Forskellig baseline:** Producenterne benytter forskellige algoritmer til at matche laboratorieudstyret. Hvor det for nogle målere (fx **Lactate Scout 4**) oftest er normalt at starte testen helt nede på **0,8 – 1,4 mmol/L** i hvile, vil andre målere (fx **Lactate Pro 2**) helt naturligt og korrekt afspejle plasmaniveauet ved at ligge på **1,5 – 2,5 mmol/L** i hvile – uden at det betyder, at atleten er træt eller har spist sukker.
+* **Kig kun på Delta (stigningen):** Du kan ikke sammenligne absolutte laktattal direkte på tværs af forskellige modeller. En måling på 2,0 mmol/L på én måler betyder fysiologisk noget andet end 2,0 mmol/L på en anden.
+
+Når du skal identificere din **aerobe tærskel (LT1)** og **anaerobe tærskel (LT2)**, skal du derfor aldrig kigge blindt på det faste tal på skærmen, men i stedet fokusere på *stigningen* i forhold til din egen baseline på det specifikke apparat.
 
 ---
 
 ## Valg af en håndholdt blodlaktatmåler
 
-Du har brug for en godkendt laktatmåler for at kunne lave en laktattest. En laktatmåling er meget følsom over for forurening og udstyrsfejl.
+For at udføre en laktattest har du brug for en præcis laktatmåler. En laktatmåling er meget følsom over for forurening af blodprøven og udstyrsfejl, så det er vigtigt at bruge en pålidelig model.
 
-Der findes tre fremtrædende målere på markedet:
-* **Lactate Scout 4 / Scout Sport:** Meget præcis, kræver kun 0,2 µL blod og giver svar på 10 sekunder.
-* **Lactate Plus:** Verdens mest udbredte måler med lavere pris pr. teststrimmel.
-* **Accutrend Plus:** Kombineret kolesterol- og laktatmåler, som er det billigste budgetvalg.
+De mest anerkendte og udbredte målere på markedet tæller bl.a. **Lactate Scout 4**, **Lactate Pro 2** og **Lactate Plus**. De varierer i pris, svartid og ikke mindst prisen pr. teststrimmel (hvilket oftest er den største løbende udgift). På Vejle Idrætshøjskole har vi haft stor succes med både Lactate Scout og Lactate Pro 2.
 
 > 🛒 **Vil du sammenligne laktatmålere?**  
-> Prisen på laktatmålere og strimler varierer meget. Vi har samlet en dybdegående købsguide og sammenligning af præcision og driftsøkonomi.  
+> Prisen på laktatmålere og strimler varierer meget. Vi har samlet en dybdegående købsguide og sammenligning af præcision og driftsøkonomi for de mest populære modeller.  
 > 👉 **[Læs vores store test af laktatmålere her →](/laktatmaaler-test/)**
 
 ---
@@ -158,7 +164,7 @@ Når du skal tage blodprøven under en blodlaktattest, skal du være meget omhyg
 
 {% include video provider="youtube" id="80a7OHZFu-8" %}
 
-<details markdown="1" class="faq" open>
+<details markdown="1" class="faq">
   <summary>📌 Tips til en god og præcis blodprøve</summary>
 
 - **Brug en passende lancet** – Den nål, du stikker med, skal være tyk og dyb nok til, at der kommer en tilstrækkelig dråbe blod ud uden kraftigt klem. Det reducerer fejlmålinger.
@@ -226,14 +232,13 @@ Det kommer an på dit specifikke formål med laktattesten:
 
 ## Hvad er den aerobe tærskel (AeT / LT1)?
 
-Ved at bruge en laktatmåler kan vi fastslå din aerobe tærskel præcist. Denne tærskel markerer det øverste niveau af din zone 2-træning, og testen kan afsløre, om du har en aerob træningsmangel.
+Ved at bruge en laktatmåler kan vi fastslå din aerobe tærskel præcist. Denne tærskel markerer det øverste niveau af din zone 2-træning, og testen kan afsløre, om du lider af "aerob mangel".
 
-Der er forskellige videnskabelige definitioner af den aerobe tærskel:
-- **Laktatstigning på 0,5 mmol/L** over baseline (Dickhuth-metoden - *vores anbefaling*).
-- **Blodlaktatkoncentration på 2,0 mmol/L** (Mader-metoden).
-- **Det første synlige bøjningspunkt** på laktatkurven.
+Når du skal identificere LT1 på din laktatkurve, anbefaler vi kraftigt, at du fokuserer på den *relative stigning* frem for faste tal:
 
-Uanset hvilken beregningsmetode du vælger, er det vigtigste at være konsekvent, når du senere gen-tester for at sammenligne resultater over tid.
+- **Laktatstigning på 0,5 mmol/L over baseline (Dickhuth-metoden):** Dette er den mest robuste matematiske model for LT1 (*vores anbefaling*, jf. Dickhuth et al., 1999; Faude et al., 2009).
+- **Visuel inspektion (Det første knæk):** Det første synlige bøjningspunkt på kurven, hvor værdierne slipper den flade baseline. Du bør altid bruge det blotte øje til at bekræfte matematikkens resultat.
+- **~Blodlaktat på 2,0 mmol/L (Mader):~** En klassisk, men forældet metode fra 1970'erne (Mader et al., 1976). Bruger du en moderne måler som Lactate Pro 2, vil din baseline ofte allerede starte omkring 2,0 mmol/L, hvilket gør denne faste grænse ubrugelig.
 
 **Vil du vide mere?**: [Alt om den aerobe tærskel (AeT / LT1)](/aerobe-taerskel/)
 {: .notice }
@@ -242,12 +247,14 @@ Uanset hvilken beregningsmetode du vælger, er det vigtigste at være konsekvent
 
 ## Blodlaktattest for den anaerobe tærskel (AnT / LT2)
 
-Den anaerobe tærskel (AnT / LT2) er det punkt, hvor laktat ophobes hurtigt i blodet, og intensiteten maksimalt kan opretholdes i 20–60 minutter. Det svarer til den maksimale bæredygtige indsats for en udholdenhedsatlet (Maximal Lactate Steady State / MLSS).
+Den anaerobe tærskel (AnT / LT2) er det punkt, hvor kroppen ikke længere kan fjerne laktat i samme tempo, som det produceres. Det svarer til den maksimale bæredygtige indsats for en udholdenhedsatlet, typisk over 20–60 minutter (Maximal Lactate Steady State / MLSS, jf. Poole et al., 2021).
 
-Klassiske metoder til at identificere AnT på laktatkurven inkluderer:
-- **Baseline + 1,5 mmol/L** (Modificeret Keul - *vores anbefaling*).
-- **Modificeret Dmax (mDmax):** Det punkt på kurven, der har den største vinkelrette afstand til den rette linje mellem LT1 og slutpunktet (kræver maxtest).
-- **OBLA 4,0 mmol/L:** Fast grænseværdi.
+For at finde LT2 på din laktatkurve bruger vores laktatberegner følgende metoder:
+
+- **Baseline + 1,5 mmol/L (Vores anbefaling):** Et glimrende og meget robust estimat (jf. Faude et al., 2009; Bourdon, 2013). Det er vores foretrukne metode til langt de fleste, fordi den fungerer perfekt på en sub-maksimal test, hvor du ikke behøver at køre dig selv til total udmattelse.
+- **Visuel inspektion:** Punktet hvor kurven pludselig "stikker af" og stiger eksponentielt. Et afgørende kvalitetstjek, da en enkelt "skæv" måling sommetider kan snyde algoritmerne. Læg altid din visuelle vurdering ned over matematikkens resultat.
+- **Modificeret Dmax (mDmax):** Den matematisk mest præcise model til fulde maxtests (Bishop et al., 1998; Jamnick et al., 2018). *Vigtigt:* Denne model er meget brugt, men kan KUN bruges, hvis du har kørt en ægte maxtest helt til udmattelse (*failure*).
+- **~OBLA 4,0 mmol/L:~** Endnu en forældet fast grænseværdi. En måling på 4,0 mmol/L på gammelt fuldblodsudstyr svarer i dag oftest til 4,5–5,5 mmol/L på et moderne plasma-kalibreret apparat (Bourdon, 2013; Poole et al., 2021).
 
 **Læs mere**: [Guide til den anaerobe tærskel (AnT / LT2)](/anaerobe-taerskel/)
 {: .notice }
@@ -308,8 +315,6 @@ Ved at bruge blodlaktattests systematisk hver 3.–6. måned kan du løbende ove
 
 Laktattesten laves ofte sammen med en [submaksimal progressiv løbetest](/iltoptagelsestest-loebebaand/). Hvis du er interesseret i at dykke ned i, hvilke andre tests der findes, kan du tjekke vores [oversigt over iltoptagelsestests](/iltoptagelse-laboratorietest/).
 
-{% include feature_row id="feature_row_tests_loeb" type="left" %}
-
 ---
 
 ## Ofte stillede spørgsmål
@@ -319,8 +324,10 @@ Laktattesten laves ofte sammen med en [submaksimal progressiv løbetest](/iltopt
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- [Blood Lactate Test Protocol - Tips and Tricks](https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/) fra Uphill Athlete.
-- Bishop, D., Jenkins, D. G., & Mackinnon, L. T. (1998). *The relationship between plasma lactate parameters and muscle characteristics in female cyclists*. European Journal of Applied Physiology.
-- Faude, O., Kindermann, W., & Meyer, T. (2009). *Lactate Threshold Concepts: How Valid are They?*. Sports Medicine.
-- Dickhuth, H. H. et al. (1999). *The Concept of Individual Anaerobic Threshold*.
+- **Faude, O., Kindermann, W., & Meyer, T. (2009).** *Lactate Threshold Concepts: How Valid are They?* Sports Medicine, 39(6), 469–490.
+- **Jamnick, N. A., Botella, J., Pyne, D. B., & Bishop, D. J. (2018).** *Repeatability and predictive value of lactate threshold concepts in endurance-trained individuals.* PLOS ONE, 13(11), e0206846.
+- **Poole, D. C., Rossiter, H. B., Whipp, B. J., & Jones, A. M. (2021).** *The Maximal Metabolic Steady State: Redefining the Gold Standard.* Medicine & Science in Sports & Exercise, 53(5), 1029–1037.
+- **Bourdon, P. C. (2013).** *Blood Lactate Thresholds: Concepts and Applications.* In: Australian Institute of Sport, *Physiological Tests for Elite Athletes* (2nd ed., pp. 77–101). Human Kinetics.
+- **Bishop, D., Jenkins, D. G., & Mackinnon, L. T. (1998).** *The relationship between plasma lactate parameters and muscle characteristics in female cyclists.* European Journal of Applied Physiology, 78(5), 438–444.
+- **Dickhuth, H. H. et al. (1999).** *The Concept of Individual Anaerobic Threshold.* International Journal of Sports Medicine, 20(2), 122–127.
 </details>
