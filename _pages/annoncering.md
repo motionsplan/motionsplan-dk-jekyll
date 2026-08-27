@@ -8,7 +8,7 @@ sitemap: false
 toc: true
 ---
 
-Motionsplan er finansieret af iværksætterkraft og interesse for emnet. Derudover er der reklamer, annoncer og affiliate links på sitet.
+Motionsplan er finansieret af iværksætterkraft og interesse for emnet. Derudover kand er være reklamer, annoncer og affiliate links på sitet.
 
 Vi henviser fra vores indhold til udvalgte samarbejdspartnere.
 
@@ -24,6 +24,8 @@ Vi accepterer ikke samarbejde omkring:
 - Sensationsjournalistik
 - Bliv rig hurtigt
 - Våben
+- Kryptovaluta & Forex
+- CBD
 
 ## Bannerreklamer
 
@@ -37,7 +39,7 @@ Vi kan tilbyde dig at være med i rotationen af reklamer på Motionsplan. Du ska
 - 728x90
 - 970x250
 
-Prisen for 1000 visninger er 11 kroner (eller 1,5 USD / 1,5 EUR). Det ønskede antal visninger betales forud.
+Prisen for 1000 visninger er 25 kroner. Det ønskede antal visninger betales forud.
 
 ## Sponsoreret placering
 
@@ -71,7 +73,7 @@ Derfor har vi høje krav til standarden af gæsteartiklerne.
 
 I **leverer selv tekst og billedmateriale** til de sponsorerede indlæg. Priserne for sponsorerede indlæg er 1800 DKK / 300 EUR / 300 USD. Artiklen ligger på Motionsplan i mindst et år.
 
-**Jeg skriver indlægget** så koster det det 2400 DKK / 400 EUR / 400 USD for den skrevne artikel og 1200 DKK / 200 EUR / 200 USD pr. link indsat i artiklen.
+**Jeg skriver indlægget** så koster det det 2400 DKK / 400 EUR / 400 USD for den skrevne artikel inkl. 1 link indsat.
 
 ## Kontakt
 
