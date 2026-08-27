@@ -30,7 +30,7 @@ faq:
 
 Valget mellem **dynamisk og statisk udstrækning** er en af de hyppigste kilder til tvivl i træningssalen. Mange strækker statisk ud før løb eller tunge løft, mens andre helt undgår stræk i opvarmningen. 
 
-Forskningen viser dog, at hverken statisk eller dynamisk udstrækning er "bedst" i sig selv. De er två forskellige fysiologiske redskaber til to helt forskellige formål.
+Forskningen viser dog, at hverken statisk eller dynamisk udstrækning er "bedst" i sig selv. De erto forskellige fysiologiske redskaber til to helt forskellige formål.
 
 <div class="notice--info" markdown="1">
 
@@ -72,7 +72,7 @@ Når du holder et statisk stræk i 30–60 sekunder, dæmpes den *myotatiske ref
 Over tid er det dog primært en tilpasning i centralnervesystemet (*øget stræktolerance*), der gør, at hjernen accepterer strækket og tillader et større bevægeudslag (*Range of Motion* – ROM).
 
 ### Underkategorier af statiske stræk
-* **Aktivt statisk stræk:** Du holder positionen udelukkende ved hjælp af modstående muskelkraft (antagonisten). F.eks. at løfte benet højt op foran dig og holde det oppe alene med hoftebøjerne.
+* **Aktivt statisk stræk:** Du holder positionen udelukkende ved hjælp af modstående muskelkraft (antagonisten). fx at løfte benet højt op foran dig og holde det oppe alene med hoftebøjerne.
 * **Passivt statisk stræk:** Strækket holdes ved hjælp af din kropsvægt, en makker, et håndklæde eller en fast genstand. Antagonisten er fuldstændig afslappet.
 * **PNF-stræk (Proprioceptiv Neuromuskulær Facilitering):** En avanceret statisk metode, hvor du udnytter autogen og reciprok hæmning ved at spænde musklen isometrisk mod modstand i 6 sekunder før et dybere passivt stræk. Læs vores [dybdegående guide til PNF-udstrækning](/pnf-udstraekning/).
 
@@ -99,7 +99,7 @@ I modsætning til statiske stræk, hvor målet er muskulær afspænding, har dyn
 3. **Neuromuskulær aktivering:** Nervesystemet vækkes, og den motoriske kontrol i leddets yderstillinger forbedres under aktive bevægemønstre.
 
 ### Underkategorier af dynamiske stræk
-* **Aktivt dynamisk stræk:** Kontrollerede bevægelser udført ved egen muskelkraft, f.eks. kontrollerede bensving eller dybe kosak-squats.
+* **Aktivt dynamisk stræk:** Kontrollerede bevægelser udført ved egen muskelkraft, fx kontrollerede bensving eller dybe kosak-squats.
 * **Passivt dynamisk stræk:** Bevægelser udført med ekstern assistance eller let momentum, hvor den strækkende muskel bevæger sig ind og ud af strækket.
 * **Ballistisk stræk (Bør bruges med forsigtighed):** Fjedrende eller "rykkende" bevægelser i yderstillingen. Ballistisk stræk kan aktivere den myotatiske strækrefleks voldsomt og øge skadesrisikoen, hvis det ikke udføres af trænede atleter.
 

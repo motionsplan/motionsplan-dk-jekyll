@@ -43,7 +43,7 @@ Før du kan indkaldes til selve optagelsesprøven, skal du opfylde en række for
 
 ## Overblik over optagelsesforløbet
 
-Optagelsesforløbet til Politiskolen er opdelt i två primære prøvedage samt en lægelig helbredsundersøgelse.
+Optagelsesforløbet til Politiskolen er opdelt ito primære prøvedage samt en lægelig helbredsundersøgelse.
 
 1. **Ansøgning & Bilag** (Indsendelse via politi.dk)
 2. **Prøvedag 1** (Fysisk test + Skriftlig dansk)

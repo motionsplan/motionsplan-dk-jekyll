@@ -160,7 +160,7 @@ Rammer din beregning for højt, rykker din tærskeltræning over i det udmattend
 ### Hvorfor forældede standardtal fejler – og hvad der virker i stedet
 
 * **Forældede faste grænser (OBLA 4.0 mmol/L):** Den faste grænse på 4.0 mmol/L fra 1980'erne er i dag fuldstændig afvist i moderne idrætsfysiologi. Den reelle laktatkoncentration ved MLSS varierer enormt fra atlet til atlet (typisk mellem 2,5 og 6,0 mmol/L). For veltrænede udholdenhedsatleter ligger den reelle tærskel ofte helt nede omkring 2,8–3,4 mmol/L. At bruge 4.0 mmol/L som universel facitliste vil derfor næsten altid overvurdere din kapacitet massivt.
-* **Relative baseline-stigninger (f.eks. Baseline + 1,5 mmol/L):** Faude et al. (2009) viste, at en stigning på 1,5 mmol/L over atletens laveste måling rammer den reelle tærskel langt bedre end faste tal. Modellen tilpasser sig din personlige hvilelaktat, men kan være følsom over for, hvor hurtigt kurven knækker til sidst.
+* **Relative baseline-stigninger (fx Baseline + 1,5 mmol/L):** Faude et al. (2009) viste, at en stigning på 1,5 mmol/L over atletens laveste måling rammer den reelle tærskel langt bedre end faste tal. Modellen tilpasser sig din personlige hvilelaktat, men kan være følsom over for, hvor hurtigt kurven knækker til sidst.
 * **Geometriske og kurvebaserede modeller (mDmax, Exp-Dmax og LTP2):** Dmax-modellerne analyserer hele kurvens form ved at finde punktet med den største vinkelrette afstand til en ret linje. Mens Original Dmax (Cheng et al.) er sårbar over for testens start-belastning, løser Modificeret Dmax (mDmax - Bishop et al.) dette ved at forankre linjen i din aerobe tærskel (LT1). Det gør mDmax fysiologisk overlegen, da den kobler din anaerobe tærskel direkte sammen med dit aerobe fundament.
 
 ### Sammenlign forskellige beregningsmodeller for LT2
@@ -173,13 +173,13 @@ Når du betragter laktatkurven på grafen, kan du visuelt aflæse din fysiologi 
 
 Se hvor forskellige resultater de forskellige beregningsmetoder kommer frem til.
 
-{% include components/lactate-comparator.html view="lt2" %}
+{% include components/lactate-comparison.html view="lt2" %}
 
 ### Hvilken model rammer din reelle LT2 bedst?
 
 Forskningen inden for laktattærskler (*Jamnick et al., 2020* og *Faude et al., 2009*) slår fast, at du skal kigge på din personlige kurve – ikke på vilkårlige laktattal:
 
-* **Smid OBLA 4.0 på porten:** Brug aldrig faste tal som retttesnor for din tærskel. Det fører kun til overbelastning og skævvredne træningszoner.
+* **Drop OBLA 4.0:** Brug aldrig faste tal som retttesnor for din tærskel. Det fører kun til overbelastning og skævvredne træningszoner.
 * **Vælg en individuel kurvemodel:** Modeller baseret på din baseline (*Baseline + 1,5 mmol/L*) eller kurvens maksimale knækpunkt (*mDmax*) rammer atletens reelle MLSS og Critical Power betydeligt mere præcist, fordi de tilpasser sig din unikke fysiologi.
 * **Test tærsklen i virkeligheden:** En matematisk model er et stærkt redskab, men din reelle anaerobe tærskel skal altid kunne mærkes i praksis. LT2 svarer til en intensitet, du kan holde i et kontrollere, men kradsende tempo i ca. 45–60 minutter (RPE 6–7), hvor du kun kan sige få ord ad gangen. Den rette beregningsmodel er den, der rammer dette fysiologiske punkt bedst på din graf.
 

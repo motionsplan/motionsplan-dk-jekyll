@@ -125,7 +125,7 @@ $$\text{Hastighed (km/t)} = \frac{\text{Distance (km)} \times 60}{\text{Tid (min
 > **Eksempel:** Du løber **10 km** på **50 minutter**:
 > $$\text{Hastighed} = \frac{10 \times 60}{50} = \mathbf{12 \text{ km/t}}$$
 
-Beregn din gennemsnitlige km/t under f.eks. [Cooper-testens 12 minutter](/cooper-test/) for at vurdere dit løbetempo.
+Beregn din gennemsnitlige km/t under fx [Cooper-testens 12 minutter](/cooper-test/) for at vurdere dit løbetempo.
 
 ---
 

@@ -120,7 +120,7 @@ Nedenstående skema viser den generelle klassifikation af vægtstatus for voksne
 Inden for pædiatrien har Rohrer's Index været brugt i årtier til at vurdere nyfødte spædbørns ernæringstilstand – særligt ved mistanke om *Intrauterine Growth Restriction* (IUGR):
 
 * **Symmetrisk IUGR (PI er normalt):** Barnet er lille over det hele (både kort og slankt).
-* **Asymmetrisk IUGR (PI er lavt, < 2,0 $\text{g/cm}^3$):** Barnet har normal længde, men mangler fedt- og muskelmasse (f.eks. pga. utilstrækkelig næring i slutningen af graviditeten).
+* **Asymmetrisk IUGR (PI er lavt, < 2,0 $\text{g/cm}^3$):** Barnet har normal længde, men mangler fedt- og muskelmasse (fx pga. utilstrækkelig næring i slutningen af graviditeten).
 
 ---
 
@@ -153,7 +153,7 @@ TMI benytter nøjagtig samme matematiske formel som Ponderal Index, men har sat 
 Selvom Ponderal Index løser højdeproblematikken fra BMI, deler det stadig et par af de samme grundlæggende begrænsninger:
 
 * **Skelner ikke mellem muskel- og fedtmasse:** En veltrænet atlet med stor muskelmasse vil få et højt Ponderal Index, selvom vedkommende har en meget lav fedtprocent.
-* **Mindre kendt:** Da de fleste officielle sundhedsanbefalinger (f.eks. Sundhedsstyrelsen og WHO) tager udgangspunkt i BMI-grænseværdier ($18{,}5 - 25$), skal Ponderal Index bruges som et supplerende refleksionsværktøj.
+* **Mindre kendt:** Da de fleste officielle sundhedsanbefalinger (fx Sundhedsstyrelsen og WHO) tager udgangspunkt i BMI-grænseværdier ($18{,}5 - 25$), skal Ponderal Index bruges som et supplerende refleksionsværktøj.
 
 Hvis du ønsker en mere komplet kropsanalyse, bør Ponderal Index suppleres med måling af livvidde eller fedtprocent.
 

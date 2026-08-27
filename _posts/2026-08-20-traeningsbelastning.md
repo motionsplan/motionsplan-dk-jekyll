@@ -45,7 +45,7 @@ Her gennemgår vi de vigtigste fysiologiske belastningsmodeller, fra klassiske p
 
 I idrætsfysiologien opdeles belastning i to kategorier:
 
-* **Ydre belastning (*External Load*):** Det du reelt udfører – f.eks. 10 km løb, 200 watt i 60 minutter eller 5x5 løft i squat.
+* **Ydre belastning (*External Load*):** Det du reelt udfører – fx 10 km løb, 200 watt i 60 minutter eller 5x5 løft i squat.
 * **Indre belastning (*Internal Load*):** Kroppens fysiologiske og psykologiske reaktion på den ydre belastning – målt via gennemsnitspuls, laktatophobning, hjerterytmevariabilitet (HRV) eller oplevet anstrengelse (RPE).
 
 $$\text{Træningsbelastning} = \text{Volumen (Tid / Distance)} \times \text{Intensitet (Puls / Watt / RPE)}$$
@@ -71,7 +71,7 @@ Der findes tre dominerende metoder til at beregne belastningen for ét enkelt tr
 
 ## 📈 Langsigtet Belastning: CTL, ATL og TSB (PMC-Modellen)
 
-For at styre formen over en hel træningsblok (f.eks. fra vinterens basetræning til forårets intensiv-fase) benyttes Eric Banisters *Impulse Response Model* – i dag bedre kendt som **PMC (Performance Management Chart)** i platforme som TrainingPeaks og Intervals.icu.
+For at styre formen over en hel træningsblok (fx fra vinterens basetræning til forårets intensiv-fase) benyttes Eric Banisters *Impulse Response Model* – i dag bedre kendt som **PMC (Performance Management Chart)** i platforme som TrainingPeaks og Intervals.icu.
 
 Modellen opererer med tre nøgletal:
 

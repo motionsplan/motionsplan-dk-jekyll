@@ -126,7 +126,7 @@ En overbelastningstilstand i senerne til underarmens strækkemuskler (*extensore
 Minder om tennisalbue, men rammer i stedet senerne til underarmens bøjemuskler (*fleksorer*), der hæfter på indersiden af albuen (*epicondylus medialis*). Smerterne provokeres typisk ved kraftig bøjning af håndleddet eller ved tunge trækøvelser.
 
 ### 3. Studenteralbue / Slimsækbetændelse (*Bursitis olecrani*)
-En betændelsestilstand i slimsækken (*bursa*), der ligger udvendigt på albuespidsen (*olecranon*). Kan opstå efter et direkte slag eller ved langvarigt tryk mod et hårdt underlag (f.eks. at støtte på albuen ved et skrivebord).
+En betændelsestilstand i slimsækken (*bursa*), der ligger udvendigt på albuespidsen (*olecranon*). Kan opstå efter et direkte slag eller ved langvarigt tryk mod et hårdt underlag (fx at støtte på albuen ved et skrivebord).
 
 ### 4. Sideledbåndsskader (MCL-skader)
 Skader på det indvendige ledbånd ses hyppigt hos kasteatleter (håndboldspillere, spydkastere, baseballpitchere) på grund af de ekstreme valgus-kræfter, der opstår i kasteafviklingen.

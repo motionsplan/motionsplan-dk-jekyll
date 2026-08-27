@@ -97,13 +97,13 @@ En benhård tempometode udviklet af Dr. Ellington Darden:
 {% include video provider="youtube" id="yHKuuG-gv3M" %}
 
 ### 5. Intra-Set Isometriske Holds
-Hold statiske pauser *midt* i dit sæt. Lav f.eks. 5 push-ups, hold bunden af øvelsen statisk i 10 sekunder, lav 5 push-ups mere, hold igen i 10 sekunder, og afslut med maksimalt antal gentagelser.
+Hold statiske pauser *midt* i dit sæt. Lav fx 5 push-ups, hold bunden af øvelsen statisk i 10 sekunder, lav 5 push-ups mere, hold igen i 10 sekunder, og afslut med maksimalt antal gentagelser.
 
 ### 6. Halvanden gentagelse (1.5 Reps)
 I stedet for en almindelig gentagelse kører du en hel og en halv bevægelse sammen som én rep. I en squat går du helt ned, stiger halvvejs op, går helt ned igen og presser dig derefter helt op til toppen. Det øger tiden under spænding (*Time Under Tension*) markant.
 
 ### 7. Myo-Reps (Rest-Pause princippet)
-Kør et hovedsæt tæt på udmattelse (f.eks. 15-20 reps). Hold 10 sekunders pause (tag 5 dybe vejrtrækninger), kør 3 ekstra reps, hold 10 sekunders pause, kør 3 reps mere. Gentag indtil du ikke længere kan tage 3 rene gentagelser.
+Kør et hovedsæt tæt på udmattelse (fx 15-20 reps). Hold 10 sekunders pause (tag 5 dybe vejrtrækninger), kør 3 ekstra reps, hold 10 sekunders pause, kør 3 reps mere. Gentag indtil du ikke længere kan tage 3 rene gentagelser.
 
 ### 8. Mekaniske Drop-sets
 Start med en svær øvelsesvariation (fx enbenede hip thrusts eller elevated push-ups). Når du rammer udmattelse, skifter du øjeblikkeligt til en lettere variation (fx tobenede hip thrusts eller push-ups på knæene) og fortsætter sættet.

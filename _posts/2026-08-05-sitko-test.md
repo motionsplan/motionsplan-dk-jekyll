@@ -124,7 +124,7 @@ Fordi 5 minutter føles kort sammenlignet med en 20-minutters test, starter mang
 
 ## 5-minutters test vs. 20-minutters FTP-test
 
-Bør du køre en 5-minutters test eller en 20-minutters test? Tabellen herunder viser forskellene på de två mest populære felt-tests:
+Bør du køre en 5-minutters test eller en 20-minutters test? Tabellen herunder viser forskellene på deto mest populære felt-tests:
 
 | Parameter | Sitkos 5-minutters Test | 20-minutters FTP-test |
 | :--- | :--- | :--- |

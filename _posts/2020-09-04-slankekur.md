@@ -30,7 +30,7 @@ faq:
   - question: Hvad er den mest effektive slankekur?
     answer: Den mest effektive slankekur er den, du kan holde på lang sigt. Fysiologisk handler et varigt vægttab om at skabe et moderat kalorieunderskud (ca. 300–500 kcal om dagen) kombineret med mættende mad (protein og fibre), styrketræning og høj hverdagsbevægelse (NEAT).
   - question: Hvorfor virker hurtige lynkure ikke på lang sigt?
-    answer: Hurtige lynkure (f.eks. kure der lover 3–5 kg vægttab på fem dage) smider primært bundet væske, kulhydratlagre (glykogen) og tarmindhold – ikke kropsfedt. Når du vender tilbage til dine normale spisevaner, fyldes væskelagrene op igen, og vægten ryger direkte tilbage på start.
+    answer: Hurtige lynkure (fx kure der lover 3–5 kg vægttab på fem dage) smider primært bundet væske, kulhydratlagre (glykogen) og tarmindhold – ikke kropsfedt. Når du vender tilbage til dine normale spisevaner, fyldes væskelagrene op igen, og vægten ryger direkte tilbage på start.
   - question: Hvad er Sense-kuren, og hvorfor er den populær?
     answer: Sense er et pædagogisk kostkoncept, hvor du bruger dine egne hænder som måleenhed til at opbygge dine måltider (1–2 håndfulde grønt, 1 håndfuld protein, 1 håndfuld kulhydrat og 1–3 spsk. fedtstof). Det skaber ubevidst et fornuftigt kalorieunderskud og god mæthed uden tælling eller forbud.
   - question: Hvad betyder NEAT for mit vægttab?

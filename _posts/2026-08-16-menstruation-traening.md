@@ -88,7 +88,7 @@ En standardcyklus varer i gennemsnit 28 dage (med et normalområde på 21–35 d
 
 ### 3. Ovulationsfasen / Ægløsning (Dag 14–16)
 * **Hormonsignal:** Peak i østrogen, LH/FSH-surge samt en kortvarig transient stigning i androgener (testosteron).
-* **Fysiologi:** Maksimal muskelstyrke og kraftudvikling. *Bemærk:* Nogle studier (f.eks. Myklebust et al., 2005) peger på en teoretisk forøget slaphed i korsbånd (ACL) grundet østrogens påvirkning af kollagensyntesen i ledbånd, om end den reelle skadesrisiko fortsat diskuteres (Colenso-Semple et al., 2023).
+* **Fysiologi:** Maksimal muskelstyrke og kraftudvikling. *Bemærk:* Nogle studier (fx Myklebust et al., 2005) peger på en teoretisk forøget slaphed i korsbånd (ACL) grundet østrogens påvirkning af kollagensyntesen i ledbånd, om end den reelle skadesrisiko fortsat diskuteres (Colenso-Semple et al., 2023).
 * **Træningsstrategi:** Fremragende til maksimal styrke. Sørg for grundig, [specifik opvarmning](/opvarmning-styrketraening/) og stabil løfteteknik.
 
 ### 4. Lutealfasen (Dag 17–28)
@@ -112,11 +112,11 @@ Vores interaktive beregner forudsiger dine teoretiske hormonudsving, men kroppen
 Der findes ikke én rigtig måde at tilpasse træningen til menstruationscyklussen. Du kan vælge mellem to udgangspunkter:
 
 ### Strategi A: Symptom- og dagsformsstyret (Anbefalet)
-Du beholder din faste ugentlige træningsstruktur (f.eks. tunge dage tirsdag/torsdag, lange ture søndag) uanset hvilken uge i måneden du er i. Du reagerer først, hvis du mærker fysiske symptomer som kramper, PMS eller markant træthed.
+Du beholder din faste ugentlige træningsstruktur (fx tunge dage tirsdag/torsdag, lange ture søndag) uanset hvilken uge i måneden du er i. Du reagerer først, hvis du mærker fysiske symptomer som kramper, PMS eller markant træthed.
 
 Når symptomerne rammer, bruger du denne **3-trins justeringsmodel**:
-1. **Byt om på dagene:** Flyt det hårde pas (f.eks. intervaller eller 1RM-test) 1–2 dage frem i ugen, og kør ugens lette restitusjonspas i dag i stedet. Ugens samlede udbytte er uændret.
-2. **Skru ned frem for at aflyse:** Behold træningspasset, men reducer sæt eller belastning (f.eks. 3 sæt i stedet for 5, eller 10 % lavere vægt på stangen).
+1. **Byt om på dagene:** Flyt det hårde pas (fx intervaller eller 1RM-test) 1–2 dage frem i ugen, og kør ugens lette restitusjonspas i dag i stedet. Ugens samlede udbytte er uændret.
+2. **Skru ned frem for at aflyse:** Behold træningspasset, men reducer sæt eller belastning (fx 3 sæt i stedet for 5, eller 10 % lavere vægt på stangen).
 3. **Genoptag normalen hurtigt:** Markante symptomer varer sjældent mere end 1–2 dage. Så snart overskuddet vender tilbage, hopper du direkte tilbage på din normale plan.
 
 ### Strategi B: Fase-periodiseret træning (Cycle Syncing)

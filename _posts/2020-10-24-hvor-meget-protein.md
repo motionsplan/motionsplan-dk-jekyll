@@ -102,7 +102,7 @@ Muskelopbygning styres molekylært af et enzym i cellerne kaldet **mTORC1**. Nå
 
 Det fascinerende er, at denne "bygge-knap" automatisk slukker igen efter cirka 3 timer, selvom du har spist en kæmpe bøf, og dit blod stadig er fuldt af aminosyrer. Forskere kalder dette fænomen for **The Muscle Full Effect**. 
 
-Hvis du spiser alt dit protein i ét eller to store måltider (f.eks. ved faste-kure), udnytter du kun to af disse spikes. Hvis du derimod fordeler dit indtag over 3-4 måltider, kan du "tænde knappen" flere gange i løbet af en dag og dermed maksimere din muskelopbygning.
+Hvis du spiser alt dit protein i ét eller to store måltider (fx ved faste-kure), udnytter du kun to af disse spikes. Hvis du derimod fordeler dit indtag over 3-4 måltider, kan du "tænde knappen" flere gange i løbet af en dag og dermed maksimere din muskelopbygning.
 
 ### Natten: Faste og protein før sengetid
 Når du sover, faster kroppen i 7-8 timer. For at modvirke, at kroppen overgår til en katabolsk (nedbrydende) tilstand, har adskillige nyere studier (bl.a. fra Luc van Loons laboratorium) vist, at et måltid bestående af **30-40 gram langsomt optageligt kaseinprotein** (som findes i skyr, hytteost eller kaseinpulver) lige inden sengetid holder muskelproteinsyntesen forhøjet hele natten.

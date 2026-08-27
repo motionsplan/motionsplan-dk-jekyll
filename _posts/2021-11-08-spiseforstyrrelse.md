@@ -51,7 +51,7 @@ tools:
     category_schema: "HealthAndFitnessApplication"
 ---
 
-En spiseforstyrrelse er kendetegnet ved et uhensigtsmæssigt og tvangspræget forhold til mad, krop og vægt. Det er en alvorlig tilstand, som kan komme til udtryk på mange måder – f.eks. ved at overkontrollere og begrænse sit madindtag, kaste op, spise tvangspræget eller dyrke ekstrem motion.
+En spiseforstyrrelse er kendetegnet ved et uhensigtsmæssigt og tvangspræget forhold til mad, krop og vægt. Det er en alvorlig tilstand, som kan komme til udtryk på mange måder – fx ved at overkontrollere og begrænse sit madindtag, kaste op, spise tvangspræget eller dyrke ekstrem motion.
 
 I sundhedssektoren benyttes kortfattede screeningsværktøjer som **SCOFF** og **ESP (Eating Disorder Screen for Primary Care)** til hurtigt at identificere personer i risikogruppen.
 

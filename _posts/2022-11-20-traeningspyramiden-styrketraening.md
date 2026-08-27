@@ -40,7 +40,7 @@ Vil du gerne have gode resultater af din træning? Træningspyramiden kan være 
 Når du går i gang med at planlægge din styrketræning, så kan man ofte blive overvældet af alle de muligheder, der er.
 
 > 💡 **Søger du efter pyramidesæt?**  
-> Denne artikel gennemgår Eric Helms' prioriteringsmodel for styrketræning. Hvis du i stedet leder efter *pyramidetræning* som sæt- og gentagelsesstruktur (f.eks. 12-10-8-6 reps), kan du [gå direkte til guiden om pyramidesæt her](/styrketraening/pyramide/).
+> Denne artikel gennemgår Eric Helms' prioriteringsmodel for styrketræning. Hvis du i stedet leder efter *pyramidetræning* som sæt- og gentagelsesstruktur (fx 12-10-8-6 reps), kan du [gå direkte til guiden om pyramidesæt her](/styrketraening/pyramide/).
 {: .notice--info }
 
 Træningspyramiden er et forsøg på at prioritere lidt i kompleksiteten. Her gennemgår vi styrketræningspyramiden og fortæller, hvordan du kan bruge modellen i praksis med din egen træning.

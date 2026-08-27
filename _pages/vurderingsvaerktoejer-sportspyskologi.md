@@ -48,7 +48,7 @@ Vores online vurderingsværktøjer og sportspsykologiske spørgeskemaer er udvik
 
 > ⚠️ **Husk:** En online selvtest kan **aldrig** erstatte en professionel medicinsk, fysiologisk eller psykologisk vurdering hos en idrætslæge, sportspsykolog eller idrætsdietist.
 > 
-> Hvis du oplever alvorlige kropslige advarselssignaler (f.eks. vedvarende menstruationsudblivelse, fald i testosteron/libido, genstridige træthedsbrud), svær udbrændthed eller spiseforstyrrede mønstre, bør du altid henvende dig til din læge eller en kvalificeret fagperson.
+> Hvis du oplever alvorlige kropslige advarselssignaler (fx vedvarende menstruationsudblivelse, fald i testosteron/libido, genstridige træthedsbrud), svær udbrændthed eller spiseforstyrrede mønstre, bør du altid henvende dig til din læge eller en kvalificeret fagperson.
 {: .notice--info }
 
 ---

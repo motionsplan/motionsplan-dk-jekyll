@@ -57,7 +57,7 @@ Det tryk, du kan skabe med din egen kropsvægt på en skumrulle, er altså slet 
 ### 2. Den reelle fysiologiske forklaring: Neurologisk tonusdæmpning
 Når foamrolling beviseligt øger det akutte bevægeudslag (*Range of Motion* – ROM), skyldes det tilpasninger i **centralnervesystemet**:
 
-* **Sænkning af muskeltonus:** Hjernen sender uafbrudt et ubevidst baggrundssignal til dine alpha-motoneuroner om at opretholde en vis hvilespænding (*muskeltonus*). Når du placerer et fast tryk på musklen, aktiveres mekanoreceptorer (f.eks. Ruffini- og Pacini-korpuskler) i huden og underhuden.
+* **Sænkning af muskeltonus:** Hjernen sender uafbrudt et ubevidst baggrundssignal til dine alpha-motoneuroner om at opretholde en vis hvilespænding (*muskeltonus*). Når du placerer et fast tryk på musklen, aktiveres mekanoreceptorer (fx Ruffini- og Pacini-korpuskler) i huden og underhuden.
 * **Dæmpning af H-refleksen:** Trykket sender hæmmende afferente signaler til rygmarven, hvilket akut dæmper alpha-motoneuronernes eksitabilitet (Andersen et al., 2013; Goats, 1994).
 * **Gate Control-teorien:** Tryk- og berøringssignaler overføres via hurtige A-beta nervefibre, som blokerer og overdøver de langsommere smertesignaler fra C-fibrene i rygmarvens baghorn (Melzack & Wall, 1965).
 

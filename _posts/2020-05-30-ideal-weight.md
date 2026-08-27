@@ -180,7 +180,7 @@ I 1871 formulerede den franske kirurg og antropolog Paul Broca en af de allerfø
 $$\text{Idealvægt (kg)} = \text{Højde (cm)} - 100$$
 
 * **Eksempel:** En person på $180\text{ cm}$ burde ifølge Broca veje præcis $80\text{ kg}$.
-* **Hvorfor den udgik:** Brocas indeks var alt for grovt. Det tog hverken højde for køn, alder eller skeletbygning, og formlen overestimerede i voldsom grad idealvægten for høje personer, mens den gjorde lave personer kunstigt slanke. Senere tilpassede man formlen (f.eks. ved at trække $10\text{ \%}$ fra for mænd og $15\text{ \%}$ for kvinder), men grundlæggende var matematikken for forenklet.
+* **Hvorfor den udgik:** Brocas indeks var alt for grovt. Det tog hverken højde for køn, alder eller skeletbygning, og formlen overestimerede i voldsom grad idealvægten for høje personer, mens den gjorde lave personer kunstigt slanke. Senere tilpassede man formlen (fx ved at trække $10\text{ \%}$ fra for mænd og $15\text{ \%}$ for kvinder), men grundlæggende var matematikken for forenklet.
 
 ### 2. Lorenz' indeks (1929)
 For at korrigere for Brocas manglende hensyn til køn og højdejustering, videreudviklede den tyske læge Friedrich Lorenz i 1929 formlen. Lorenz' formel indførte en differentiering mellem mænd og kvinder:
@@ -195,7 +195,7 @@ Sideløbende med Broca og Lorenz arbejdede den belgiske matematiker Adolphe Quet
 
 I samme periode opstillede Fritz Rohrer i 1921 sitt tre-dimensionelle [Ponderal Index (Rohrer's Index)](/ponderal-index/), hvor højden opløftes i 3. potens ($m^3$) for bedre at afspejle kroppens reelle volumen.
 
-I dag bruges verken Brocas eller Lorenz' indeks i klinisk praksis eller i vores [BMI-beregner](/bmi/). De historiske formler er i dag erstattet af store epidemiologiske studier (som f.eks. Peterson et al.), der kobler kropsvægt og højde sammen med reel levetid og sundhedsrisiko.
+I dag bruges verken Brocas eller Lorenz' indeks i klinisk praksis eller i vores [BMI-beregner](/bmi/). De historiske formler er i dag erstattet af store epidemiologiske studier (som fx Peterson et al.), der kobler kropsvægt og højde sammen med reel levetid og sundhedsrisiko.
 
 ## Konklusion
 

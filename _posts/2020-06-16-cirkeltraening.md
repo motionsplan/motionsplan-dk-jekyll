@@ -75,7 +75,7 @@ Med cirkeltræning kan du kombinerer styrke, kondition, fedtforbrænding og moto
 
 ## 🌀 Hvad er cirkeltræning?
 
-I cirkeltræning sammensætter du en række øvelser (typisk 6–12 stationer), som gennemføres i en fastlagt rækkefølge. Du arbejder enten på **tid** (f.eks. 30 sekunder) eller et fastsat **antal gentagelser** på hver station.
+I cirkeltræning sammensætter du en række øvelser (typisk 6–12 stationer), som gennemføres i en fastlagt rækkefølge. Du arbejder enten på **tid** (fx 30 sekunder) eller et fastsat **antal gentagelser** på hver station.
 
 Når tiden udløber, har du en kort pause til at skifte til næste øvelse. En fuld omgang kaldes en *runde*, og et typisk træningspas består af **3–5 runder**.
 
@@ -88,7 +88,7 @@ Når tiden udløber, har du en kort pause til at skifte til næste øvelse. En f
 
 For at få det maksimale udbytte af din cirkeltræning bør du opbygge programmet systematisk:
 
-1. **Vælg arbejds- og pausetid:** Standardforholdet er 2:1 (f.eks. 30 sekunders arbejde og 15 sekunders pause) eller 1:1 ved meget høj intensitet.
+1. **Vælg arbejds- og pausetid:** Standardforholdet er 2:1 (fx 30 sekunders arbejde og 15 sekunders pause) eller 1:1 ved meget høj intensitet.
 2. **Vælg øvelsesrækkefølge:** Skift bevidst mellem overkrop, underkrop, kerne og kondition. Det tillader én muskelgruppe at restituere, mens en anden arbejder.
 3. **Fastlæg antat runder:** 3–4 runder giver en effektiv samlet træningstid på 20–30 minutter.
 4. **Opsæt en intervaltimer:** Brug en timer-app på telefonen med biplicering, så du ikke spilder energi på at kigge på ure.
@@ -115,7 +115,7 @@ Her er en klassisk kropsvægtscirkel uden udstyr, der rammer hele kroppen:
 
 ## 🔀 Bryd cirkeltræningen op i blokke
 
-Hvis du ønsker mere variation, kan du opdele cirklen i mindre sekvenser/blokke (f.eks. 3 blokke med 3 øvelser i hver). Du kører 3 runder i Blok 1, før du går videre til Blok 2.
+Hvis du ønsker mere variation, kan du opdele cirklen i mindre sekvenser/blokke (fx 3 blokke med 3 øvelser i hver). Du kører 3 runder i Blok 1, før du går videre til Blok 2.
 
 | Blok | Styrkeøvelse | Konditionsøvelse | Stabilitet / Mobilitet |
 | :--- | :--- | :--- | :--- |

@@ -108,7 +108,7 @@ Har du nogensinde undret dig over, om du er bedst til at sprinte eller ro langt?
 
 ## 4. Træningsprogrammer og Intervaller
 
-Når du har styr på teknikken og kender din form (f.eks. via en af testene ovenfor), er næste skridt en struktureret træningsplan. 
+Når du har styr på teknikken og kender din form (fx via en af testene ovenfor), er næste skridt en struktureret træningsplan. 
 
 For at blive en bedre roer, skal du træne varieret. Det betyder en blanding af:
 * **Steady State (Kategori 6 og 5):** Lange, rolige ture ved lav puls. Bygger den basale aerobe "motor".

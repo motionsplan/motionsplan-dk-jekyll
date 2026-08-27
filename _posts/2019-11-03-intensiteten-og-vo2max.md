@@ -66,7 +66,7 @@ Når du vil sammenligne din form med andre, omregnes tallet i forhold til din kr
 ## Beregn VO2max og omregn til kondital
 {: id="calculator" }
 
-Overordnet set opgøres VO2 max ud fra två forskellige betragtninger:
+Overordnet set opgøres VO2 max ud frato forskellige betragtninger:
 - **Den absolutte VO2 max:** Måles i liter ilt pr. minut ($\text{L/min}$) eller $\text{ml ilt/min}$.
 - **Den relative VO2 max:** Måles i $\text{ml ilt/kg/min}$ (dvs. konditallet, hvor kropsvægten indgår).
 

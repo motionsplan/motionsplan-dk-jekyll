@@ -87,7 +87,7 @@ En laktattest kræver tålmodighed, for det kræver både øvelse og præcision 
 
 ## Hvad tester en blodlaktattest?
 
-Kroppens evne til at danne energi til muskelarbejde under træning og konkurrence beror overordnet set på två processer:
+Kroppens evne til at danne energi til muskelarbejde under træning og konkurrence beror overordnet set påto processer:
 
 1. **De aerobe processer** (der foregår med ilt)
 2. **De anaerobe processer** (der foregår uden ilt)

@@ -14,7 +14,7 @@ export const JUMP_POWER_FORMULAS = {
     key: 'sayers_cmj',
     name: 'Sayers et al. (1999) – CMJ / Vertec',
     shortName: 'Sayers (CMJ)',
-    desc: 'Mest præcise formel til hop med fjedring/modbevægelse (f.eks. Vertec eller Sargent-test). Formel: Peak Power (W) = 51.9 × h + 48.9 × m - 2007.',
+    desc: 'Mest præcise formel til hop med fjedring/modbevægelse (fx Vertec eller Sargent-test). Formel: Peak Power (W) = 51.9 × h + 48.9 × m - 2007.',
     requiresHeight: false,
     isRecommended: true
   },

@@ -35,7 +35,7 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
   <!-- 4. UDFORSK OG FILTER -->
   <h2 class="dash-section-title">🔍 Udforsk værktøjer</h2>
   <div class="search-filter-wrapper">
-    <input type="text" id="test-search" class="test-search-input" placeholder="Søg efter værktøj eller test (f.eks. 'fedtprocent', 'squat' eller 'hop')...">
+    <input type="text" id="test-search" class="test-search-input" placeholder="Søg efter værktøj eller test (fx 'fedtprocent', 'squat' eller 'hop')...">
     <div id="category-filters" class="category-pills">
       <!-- Genereres af JS -->
     </div>

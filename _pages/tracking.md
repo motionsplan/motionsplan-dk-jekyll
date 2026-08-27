@@ -25,7 +25,7 @@ faq:
     answer: "Forskning viser, at velvalgte subjektive rating-skalaer ofte er *mere* følsomme over for akut træningstræthed og overbelastning end rent fysiologiske målinger. Kombinerer du begge verdener, har du den stærkeste model."
 
   - question: "Hvad gør jeg, hvis min Readiness-score viser rød/lav parathed?"
-    answer: "En lav score betyder ikke nødvendigvis, at du skal blive liggende på sofaen. Det er et vink om at tilpasse træningen: skær 20-30 % af din volumen, sænk intensiteten (f.eks. kør zone 2 i stedet for intervaller), eller fokuser på teknisk træning og mobilisering."
+    answer: "En lav score betyder ikke nødvendigvis, at du skal blive liggende på sofaen. Det er et vink om at tilpasse træningen: skær 20-30 % af din volumen, sænk intensiteten (fx kør zone 2 i stedet for intervaller), eller fokuser på teknisk træning og mobilisering."
 ---
 
 **Tracking og monitorering af træning** handler om kontinuerligt at måle din træningsbelastning, din restitution og dit fysiologiske beredskab (readiness). 

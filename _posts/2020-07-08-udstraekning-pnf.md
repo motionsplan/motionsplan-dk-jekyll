@@ -61,7 +61,7 @@ PNF adskiller sig fra almindelig [statisk udstrækning](/dynamisk-og-statisk-uds
 Når en muskel spændes kraftigt under et stræk, aktiveres *Golgi-senetenerne*, som sidder i overgangen mellem muskel og sene. Senetenerne opfatter den høje mekaniske spænding som en potentiel risiko for overrivning. De sender øjeblikkeligt hæmmende signaler via Ib-nervefibre tilbage til rygmarven, hvilket tvinger den spændte muskel til akut at slappe af (*autogen hæmning*). Dette åbner et kortvarigt vindue, hvor leddet kan føres længere ud.
 
 ### 2. Reciprok hæmning (Antagonist-princippet)
-Når du spænder muskelgruppen på den modsatte side af leddet (antagonisten), sender rygmarven automatisk et hæmmende signal til den muskel, du ønsker at strække (agonisten). Hvis du f.eks. vil strække baglåret, vil en aktiv sammentrækning af forlåret (quadriceps) få baglåret til automatisk at slappe yderligere af.
+Når du spænder muskelgruppen på den modsatte side af leddet (antagonisten), sender rygmarven automatisk et hæmmende signal til den muskel, du ønsker at strække (agonisten). Hvis du fx vil strække baglåret, vil en aktiv sammentrækning af forlåret (quadriceps) få baglåret til automatisk at slappe yderligere af.
 
 ### 3. Nervøs stræktolerance
 Ligesom ved almindelig udstrækning viser forskningen (Sharman et al., 2006), at en stor del af PNF-effekten over tid skyldes en omkalibrering i centralnervesystemet. Hjernen vænner sig til spændingen i yderstillingen og dæmper smertesignalet (*forøget stræktolerance*).
@@ -78,7 +78,7 @@ Dette er den mest udbredte og enkle PNF-metode, som bygger ren internt på *auto
 {% include video provider="youtube" id="3Nrh59-z3n0" %}
 
 1. **Passivt stræk:** Leddet føres langsomt ud i yderstillingen og holdes i 10 sekunder.
-2. **Isometrisk hold:** Du spænder målmusklen mod modstand (f.eks. en makkers hånd eller en væg) uden at leddet bevæger sig. Spænd med ca. 50–70 % af maksimal kraft i **6 sekunder**.
+2. **Isometrisk hold:** Du spænder målmusklen mod modstand (fx en makkers hånd eller en væg) uden at leddet bevæger sig. Spænd med ca. 50–70 % af maksimal kraft i **6 sekunder**.
 3. **Afspænding og nyt stræk:** Slap helt af i musklen i 2 sekunder, hvorefter leddet føres ud i et dybere passivt stræk i **20–30 sekunder**.
 
 ### 2. Contract-Relax (Kontrahér-Slap af)

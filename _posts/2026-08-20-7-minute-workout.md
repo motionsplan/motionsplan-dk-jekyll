@@ -104,7 +104,7 @@ Den fysiologiske præmis for HICT-konceptet er at kombinere **aerob og anaerob t
 Da *New York Times* og globale medier samlede artiklen op under overskriften *"Scientific 7-Minute Workout"*, opstod der hurtigt en række misforståelser. Idrætsfysiologer og trænere har med rette fremført en række kritiske pointer:
 
 ### 1. Det var en oversigtsartikel – ikke et klinisk studie
-Klika og Jordans udgivelse i 2013 var **ikke et kontrolleret forsøg**, der direkte testede netop disse 12 øvelser i 7 minutter. Det var en *review-artikel*, som ekstrapolerede data fra eksisterende HIIT-forskning (f.eks. Martin Gibala eller Izumi Tabatas studier) og overførte principperne til kropsvægtsøvelser.
+Klika og Jordans udgivelse i 2013 var **ikke et kontrolleret forsøg**, der direkte testede netop disse 12 øvelser i 7 minutter. Det var en *review-artikel*, som ekstrapolerede data fra eksisterende HIIT-forskning (fx Martin Gibala eller Izumi Tabatas studier) og overførte principperne til kropsvægtsøvelser.
 
 ### 2. Tabata og Gibala brugte helt andre intensiteter
 Forskningen, som 7-minute-konceptet læner sig op ad, benyttede **ekstremt høje belastninger** – som all-out sprints på en ergometercykel ved $170\%\text{ af }VO_2max$. 
@@ -127,7 +127,7 @@ Kropsvægtstræning har en naturlig begrænsning for erfarne atleter. Når du ka
 ## 💡 3 gode råd til at få mest muligt ud af protokollen
 
 * **Pres intensiteten helt op:** Virkningen af HICT står og falder med din indsats. De 30 sekunders arbejde skal føles som en 8-9-er på en 10-skala. Hvis du kan føre en samtale undervejs, er intensiteten for lav.
-* **Byg progression på:** Er du øvet, så kør 2 eller 3 runder (14–21 minutter) med 1–2 minutters pause mellem hver runde, eller gør øvelserne sværere (f.eks. afsæt i squats eller elevated push-ups).
+* **Byg progression på:** Er du øvet, så kør 2 eller 3 runder (14–21 minutter) med 1–2 minutters pause mellem hver runde, eller gør øvelserne sværere (fx afsæt i squats eller elevated push-ups).
 * **Prioritér teknik frem for tempo:** Udfør øvelserne kontrolleret. Især ved øvelser som lunge og push-up-rotation kan højt tempo med dårlig kontrol belaste knæ, lænd og skuldre uhensigtsmæssigt.
 
 ---

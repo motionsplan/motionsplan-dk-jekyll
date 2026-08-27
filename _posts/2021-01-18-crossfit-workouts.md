@@ -117,12 +117,12 @@ Funktionelle bevægelser er kernen i crossfit. Det er bevægelser, som efterlign
 
 For at forstå og gennemføre en crossfit workout skal du kende de mest almindelige forkortelser og formater:
 
-* **AMRAP (*As Many Reps/Rounds As Possible*):** Du har en fastsat tidsgrænse (f.eks. 15 minutter) og skal gennemføre så mange runder eller gentagelser af de givne øvelser som muligt, før tiden udløber.
+* **AMRAP (*As Many Reps/Rounds As Possible*):** Du har en fastsat tidsgrænse (fx 15 minutter) og skal gennemføre så mange runder eller gentagelser af de givne øvelser som muligt, før tiden udløber.
 * **For time:** Du skal gennemføre en fastsat mængde øvelser og gentagelser så hurtigt som muligt. Din sluttid er dit resultat.
 * **EMOM (*Every Minute On the Minute*):** Ved starten af hvert minut udfører du et angivet antal gentagelser. Den tid, der er tilbage af minuttet, er din pause, før næste minut starter.
 * **Tabata:** Intervalstruktur bestående af 20 sekunders maksimalt arbejde efterfulgt af 10 sekunders pause, oprepadsket i 8 runder (samlet 4 minutter).
 * **Time cap:** En øvre tidsgrænse for en workout, så du ikke overbelaster kroppen, hvis du bruger længere tid end planlagt.
-* **Buy-in / Cash-out:** En øvelse, du skal gennemføre helt i starten (*buy-in*) eller til sidst (*cash-out*) i din workout (f.eks. 500 meter roning).
+* **Buy-in / Cash-out:** En øvelse, du skal gennemføre helt i starten (*buy-in*) eller til sidst (*cash-out*) i din workout (fx 500 meter roning).
 
 ---
 
@@ -176,7 +176,7 @@ Udforsk vores komplette arkiv af øvelser, der egner sig til crossfit og funktio
 Fordi en crossfit WOD har så høj intensitet, kræver det god restitution. 
 
 * **Begyndere:** 2 gange om ugen kombineret med almindelig styrketræning eller kredsløb.
-* **Øvede:** 3–4 ugentlige pas med indlagte hviledage (f.eks. mønsteret 3 dages træning, 1 dags pause).
+* **Øvede:** 3–4 ugentlige pas med indlagte hviledage (fx mønsteret 3 dages træning, 1 dags pause).
 
 Du kan også lade dig inspirere af *Training for Warriors*-konceptet, hvor man kører tung, kontrolleret styrketræning 2 gange om ugen og kombinerer det med 2 ugentlige højintensive WODs/hurricanes for maksimal fedtforbrænding og kondition uden at brænde ud.
 

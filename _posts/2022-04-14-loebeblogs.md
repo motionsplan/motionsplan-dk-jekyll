@@ -19,7 +19,7 @@ faq:
   - question: Hvilke løbeblogs og løbesites er de bedste i Danmark?
     answer: De mest aktive danske løbesites omfatter Løberen.dk (guides og udstyrsanmeldelser), Kaiser Sport & Ortopædi (skadesforebyggelse og biomekanik) samt Hechmann Running. Til daglig inspiration benytter mange løbere i dag Strava, YouTube og løbepodcasts.
   - question: Hvor finder man ny inspiration til sin løbetræning?
-    answer: Den mest aktive løbeinspiration findes i dag på YouTube (f.eks. Seth James DeMoor, Phily Bowden og Nick Bare), på Strava ved at følge lokale og internationale atleter samt via dedikerede løbepodcasts under løbeturen.
+    answer: Den mest aktive løbeinspiration findes i dag på YouTube (fx Seth James DeMoor, Phily Bowden og Nick Bare), på Strava ved at følge lokale og internationale atleter samt via dedikerede løbepodcasts under løbeturen.
 ---
 
 Leder du efter gode **løbeblogs** og kilder til ny løbeinspiration? Måden, vi henter viden og motivation på, har ændret sig markant. Hvor personlige dagbogs-blogs tidligere dominerede, hentes den bedste inspiration i dag på faglige vidensdatabaser, visuelle YouTube-vlogs, Strava og i løbepodcasts.

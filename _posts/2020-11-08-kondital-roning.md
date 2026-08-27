@@ -111,7 +111,7 @@ Den mest berømte producent af roergometre er Concept2. Det er også på disse m
 
 Instrumentet på et Concept2-roergometer måler i virkeligheden mekanisk effekt i **Watt**. Apparatet registrerer den acceleration, du tilfører svinghjulet ved hvert eneste rotag, samt hvor hurtigt svinghjulet bremses igen af luftmodstanden (*drag factor*). Watt-målingen er yderst nøjagtig.
 
-Ergometerets computer omregner derefter løbende dine Watt til den hastighed (f.eks. tid pr. 500m), som en single sculler ville have på vandet ved samme effekt.
+Ergometerets computer omregner derefter løbende dine Watt til den hastighed (fx tid pr. 500m), som en single sculler ville have på vandet ved samme effekt.
 
 ---
 
@@ -185,7 +185,7 @@ Svinghjulets modstand skaber maskinens **drag factor**. Drag factor måler præc
 
 I roklubber og ved verdensrekordforsøg står spjældet typisk på **4–5** (hvilket svarer til en drag factor på ca. 120–135 for mænd og 110–120 for kvinder). Denne indstilling svarer nøje til modstanden i vandet i en single sculler. 
 
-Kører du med for høj drag factor (f.eks. 10), bremses svinghjulet voldsomt ned mellem hvert tag, hvilket øger den lokale belastning på lænd og knæ og øger risikoen for tidlig muskulær udtrætning.
+Kører du med for høj drag factor (fx 10), bremses svinghjulet voldsomt ned mellem hvert tag, hvilket øger den lokale belastning på lænd og knæ og øger risikoen for tidlig muskulær udtrætning.
 
 {% include video provider="youtube" id="3Uc2HQILJhU" %}
 
@@ -198,7 +198,7 @@ Kører du med for høj drag factor (f.eks. 10), bremses svinghjulet voldsomt ned
 
 I en maksimal 2000-meter test ligger kadencen (*Strokes Per Minute* / SPM) for de fleste roere typisk på **28–34 rotag pr. minut**. 
 
-Eksperimenter i din træning med at holde et jævnt tryk (f.eks. split-tid 2:00/500m) ved forskellige kadencer og drag factors for at finde den kombination, hvor du bevæger dig mest effektivt.
+Eksperimenter i din træning med at holde et jævnt tryk (fx split-tid 2:00/500m) ved forskellige kadencer og drag factors for at finde den kombination, hvor du bevæger dig mest effektivt.
 
 ## Hvilken teknik skal jeg bruge?
 

@@ -24,7 +24,7 @@ Når folk skal i gang med træning, stiller de ofte spørgsmålene: **Hvilke car
 
 Svaret kræver naturligvis et forbehold: *Det kommer an på din egen indsats.* Det er først og fremmest intensiteten, der afgør, hvor mange kalorier du forbrænder, og hvor meget du forbedrer din form. 
 
-Generelt gælder det, at jo flere store muskelgrupper du aktiverer samtidig (f.eks. både ben, ryg og arme), desto højere bliver det samlede energiforbrug og effekten på kredsløbet.
+Generelt gælder det, at jo flere store muskelgrupper du aktiverer samtidig (fx både ben, ryg og arme), desto højere bliver det samlede energiforbrug og effekten på kredsløbet.
 
 ---
 
@@ -184,7 +184,7 @@ Hvis dit primære mål bare er at forbedre din generelle sundhed og dit kredslø
 >
 > — <cite>[Morten Zacho](https://jyllands-posten.dk/livsstil/familiesundhed/motion/ECE7680201/loebebaandet-motionscyklen-crosstraineren-eller-romaskinen/)</cite>
 
-Skal du derimod op til en specifik test (f.eks. [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/)), bør din træning være specifik for den øvelse, du testet i.
+Skal du derimod op til en specifik test (fx [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/)), bør din træning være specifik for den øvelse, du testet i.
 
 ---
 

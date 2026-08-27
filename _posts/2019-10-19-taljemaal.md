@@ -201,7 +201,7 @@ Derfor vinder **talje-højde-ratioen** stadigt større indpas i videnskabelig li
 
 ### Hvorfor er WHtR bedre end Sundhedsstyrelsens taljemål?
 
-Sundhedsstyrelsen opererer med faste grænseværdier (f.eks. over 80 cm for kvinder og 94 cm for mænd), men de tal tager ikke højde for, hvor høj du er. Det skaber et åbenlyst problem:
+Sundhedsstyrelsen opererer med faste grænseværdier (fx over 80 cm for kvinder og 94 cm for mænd), men de tal tager ikke højde for, hvor høj du er. Det skaber et åbenlyst problem:
 
 * En kvinde på **155 cm** med et taljemål på 78 cm har relativt meget mavefedt og er i risikozonen (Hendes ratio er 0,50). Alligevel "godkendes" hun af Sundhedsstyrelsen.
 * En kvinde på **185 cm** med et taljemål på 82 cm er slank og har en uproblematisk fedtfordeling (Hendes ratio er 0,44). Alligevel placeres hun i farezonen hos Sundhedsstyrelsen.

@@ -94,7 +94,7 @@ Når du vælger en workout, er den opbygget efter en af følgende strukturer:
 
 * **AMRAP (*As Many Reps/Rounds As Possible*):** Du har en fast tidsgrænse og skal nå så mange runder af de givne øvelser som muligt.
 * **EMOM (*Every Minute On the Minute*):** Ved starten af hvert minut udfører du et angivet antal reps. Resten af minuttet er din pause.
-* **For Time:** Du har en fastsat mængde arbejde (f.eks. 300 gentagelser), der skal gennemføres så hurtigt som muligt.
+* **For Time:** Du har en fastsat mængde arbejde (fx 300 gentagelser), der skal gennemføres så hurtigt som muligt.
 * **Tabata:** Intervaller bestående af 20 sekunders maksimalt arbejde efterfulgt af 10 sekunders pause i 8 runder (4 minutter i alt).
 
 ---

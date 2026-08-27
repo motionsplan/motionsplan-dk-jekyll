@@ -37,7 +37,7 @@ faq:
 - question: Hvor mange kilo muskelmasse har en mand og kvinde i gennemsnit?
   answer: 'En gennemsnitlig ustrænet kvinde på 68 kg har typisk omkring 20-24 kg skeletmuskelmasse. En gennemsnitlig ustrænet mand på 80 kg har omkring 30-36 kg skeletmuskelmasse.'
 - question: Hvordan beregner man sin muskelmasse præcist?
-  answer: 'Du kan estimere din muskelmasse ud fra antropometriske data (højde, kropsvægt, taljemål, alder og køn) via validerede multivariable regresionsmodeller fra NHANES-studierne (f.eks. Heymsfield et al. eller Lee et al.).'
+  answer: 'Du kan estimere din muskelmasse ud fra antropometriske data (højde, kropsvægt, taljemål, alder og køn) via validerede multivariable regresionsmodeller fra NHANES-studierne (fx Heymsfield et al. eller Lee et al.).'
 - question: Hvad er forskellen på mager kropsmasse (LBM) og muskelmasse?
   answer: 'Mager kropsmasse (Lean Body Mass) inkluderer alt i kroppen, der ikke er fedt — herunder knogler, indvolde, vand og muskler. Muskelmasse (skeletmuskulatur) udgør kun selve den tværstribede muskulatur og udgør typisk 40-50% af din samlede Lean Body Mass.'
 ---

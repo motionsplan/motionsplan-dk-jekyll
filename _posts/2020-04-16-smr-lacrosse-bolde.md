@@ -35,7 +35,7 @@ faq:
   - question: Hvorfor er en lacrosse bold så god til massage?
     answer: En lacrosse bold er lavet af hårdt, fast gummi med en let gribende overflade. Det gør den ideel til at lægge et præcist, dybt tryk på lokalicerede triggerpunkter uden at bolden smutter væk.
   - question: Hvad er en duoball (dobbelt massagebold) god til?
-    answer: En duoball består af två sammensatte bolde med en udsparing i midten. Den er skræddersyet til at massere muskelstrøgene langs rygsøjlen, da udsparingen skåner ryghvirvlerne mod direkte tryk.
+    answer: En duoball består afto sammensatte bolde med en udsparing i midten. Den er skræddersyet til at massere muskelstrøgene langs rygsøjlen, da udsparingen skåner ryghvirvlerne mod direkte tryk.
   - question: Hvorfor hjælper massage under foden på smidigheden i baglåret?
     answer: Fodsålen (plantar fascia) udgør starten på den bageste fascialinje (Superficial Back Line). Dæmpning af muskeltonus under foden kan sende afslappende nervesignaler op igennem hele bagsiden af kroppen.
 ---
@@ -86,7 +86,7 @@ Når du arbejder med en hård lacrosse bold, er det afgørende at dosere trykket
 
 * **Tryk og hold (15–30 sekunder):** Placér bolden direkte på det ømme punkt. Læg din kropsvægt over bolden, indtil du mærker en intensitet på omkring 5–7 ud af 10.
 * **Arbejd med åndedrættet:** Træk vejret roligt helt ned i maven. Når du puster ud, forsøger du bevidst at lade musklen "smelte" hen over bolden.
-* **Aktiv bevægelse (Pin & Stretch):** Hold trykket på det ømme punkt med bolden, og bevæg derefter leddet ved siden af. F.eks. ved at dreje armen, mens bolden trykker på brystmusklen.
+* **Aktiv bevægelse (Pin & Stretch):** Hold trykket på det ømme punkt med bolden, og bevæg derefter leddet ved siden af. fx ved at dreje armen, mens bolden trykker på brystmusklen.
 * **Undgå direkte tryk på knogler og nerver:** Rul aldrig direkte oven på ryghvirvler, knæskaller eller i lysken, hvor store nervebaner og blodkar ligger overfladisk.
 
 ---
@@ -97,7 +97,7 @@ Brug listen herunder til at målrette din punktbehandling mod specifikke område
 
 ### 1. Fodsålen (Plantar Fascia & Anatomy Trains)
 * **Udførelse:** Stå op, og placér lacrosse bolden under foden. Træd ned på bolden med moderat vægt, og rul langsomt fra hælen ud mod tæerne.
-* **Fasciakæder i praksis:** Fodsålen er startpunktet for *Den bageste fascialinje* (Superficial Back Line), som beskrevet af Thomas Myers i *Anatomy Trains*. Ved at dæmpe spændingen i bindevævet under foden sender du afslappende nervesignaler hele vejen op igennem lægge, baglår og rygsøjle, hvilket kan give en akut bedre rækkevidde i f.eks. et foroverbøjningsstræk.
+* **Fasciakæder i praksis:** Fodsålen er startpunktet for *Den bageste fascialinje* (Superficial Back Line), som beskrevet af Thomas Myers i *Anatomy Trains*. Ved at dæmpe spændingen i bindevævet under foden sender du afslappende nervesignaler hele vejen op igennem lægge, baglår og rygsøjle, hvilket kan give en akut bedre rækkevidde i fx et foroverbøjningsstræk.
 
 {% include figure image_path="https://static.bodyspec.com/tr/e2/1b/e21b172a24a4e33e?w=1024&h=683&f=jpg" caption="Den bageste fascialinje (Superficial Back Line) løber fra fodsålen helt op til panden." alt="Superficial backline og lacrosse bold" %}
 

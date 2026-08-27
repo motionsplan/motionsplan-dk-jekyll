@@ -168,7 +168,7 @@ Ved at kombinere et passivt stræk med en isometrisk kontraktion udnyttes Golgi-
 Kronisk forhøjet muskelspænding opstår typisk som en beskyttelsesrespons fra nervesystemet. Hvis en muskel konstant er overbelastet, svag eller mangler kapacitet til at bære din kropsholdning, vil hjernen opretholde en høj hviletonus for at stabilisere området.
 
 * **Symptomlindring (Gate Control):** Udspænding giver en kortvarig smertelindring via *Gate Control-teorien* (Melzack & Wall, 1965), hvor stræk- og berøringssignaler overdøver smertesignalerne i rygmarven.
-* **Årsagsbehandling:** Hvis du ikke opbygger styrke og belastningstolerance i den spændte muskel (f.eks. via tung styrketræning i fuldt bevægeudslag), vil nervesystemet hurtigt skrue op for spændingen igen (Afonso et al., 2021).
+* **Årsagsbehandling:** Hvis du ikke opbygger styrke og belastningstolerance i den spændte muskel (fx via tung styrketræning i fuldt bevægeudslag), vil nervesystemet hurtigt skrue op for spændingen igen (Afonso et al., 2021).
 
 ### 4. Afstressning og det parasympatiske nervesystem
 Udspænding har en dokumenteret effekt på det autonome nervesystem. Farinatti et al. (2011) samt Inami et al. (2014) viste, at langsom, dyb vejrtrækning kombineret med rolige statiske stræk øger den vagale tone og skifter kroppens tilstand fra det sympatiske nervesystem (*fight-or-flight*) til det parasympatiske nervesystem (*rest-and-digest*).
@@ -192,7 +192,7 @@ Når fysiologien skal omsættes til praksis, handler det sjelden om at kåre én
 
 Inden for de senere år har idrætsforskningen i stigende grad rettet blikket mod et effektivt alternativ til passiv udspænding: **Styrketræning i fuldt bevægeudslag (Loaded Stretching)**.
 
-Når en muskel belastes tungt i sin yderstilling (f.eks. i bunden af et rumænsk dødløft, en dyp bulgarian split squat eller db flyes):
+Når en muskel belastes tungt i sin yderstilling (fx i bunden af et rumænsk dødløft, en dyp bulgarian split squat eller db flyes):
 
 1. **Aktiv yderstillingsstyrke:** Nervesystemet tvinges til at rekruttere motorenheder i leddets mest sårbare position. Det opbygger funktionel stabilitet og styrke i yderstillingen – noget passivt stræk ikke kan matche.
 2. **Sarcomerogenese:** Den høje mekaniske spænding kombineret med ekstrem muskellængde udløser mekaniske signalveje (bl.a. mTor og titin-strækning), der stimulerer tilføjelsen af sarcomerer i serie.

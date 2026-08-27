@@ -105,7 +105,7 @@ I en klassisk XY-graf med tid ud ad X-aksen og procent af 2K-watt op ad Y-aksen 
 Det helt store potentiale opstår, når du bruger dashboardet til at plotte *dine egne* testtider ind.
 
 **Er dine sprint-tider (10s og 60s) for langsomme i forhold til kurven?**
-Så mangler du rå muskelstyrke, eksplosivitet og anaerob laktattolerance. Ligger dit tyngdepunkt her, bør den fremtidige træning suppleres med tung styrketræning og eksplosive, korte intervaller (f.eks. 15 x 30 sekunders all-out roning).
+Så mangler du rå muskelstyrke, eksplosivitet og anaerob laktattolerance. Ligger dit tyngdepunkt her, bør den fremtidige træning suppleres med tung styrketræning og eksplosive, korte intervaller (fx 15 x 30 sekunders all-out roning).
 
 **Ligger dine lange distancer (6k og 60 min) under målet?**
 Dette er det klassiske problem for mange tunge, stærke roere. Du har muskelkraften (og måske en fin 2K-tid), men du "syrer til" og kan ikke fjerne affaldsstofferne hurtigt nok over tid. Løsningen her er at opbygge en langt stærkere aerob motor gennem mange timers lang, stabil zone 1 og 2 roning.

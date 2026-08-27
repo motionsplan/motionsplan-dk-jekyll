@@ -120,7 +120,7 @@ Som et ægte kugleled har hofteleddet 3 frihedsgrader (tre bevægelsesplaner).
 Hoftens muskler opdeles typisk i fire funktionelle grupper, der koordinerer bevægelse og stabiliserer bækkenet under vægtbæring:
 
 1. **Hoftebøjerne (Anterior gruppe):** *Iliopsoas* (M. Psoas Major & M. Iliacus) er kroppens stærkeste hoftebøjer. Suppleres af *Rectus Femoris* (en del af forlåret) og *Tensor Fasciae Latae*.
-2. **Hoftestrækkerne & Ballemusklerne (Posterior gruppe):** *Gluteus Maximus* er kroppens største muskel og genererer enorm kraft ved hoftestrik (f.eks. ved sprint, trappegang og squat). *Hamstrings* på baglåret assisterer kraftigt ved hoftestrik.
+2. **Hoftestrækkerne & Ballemusklerne (Posterior gruppe):** *Gluteus Maximus* er kroppens største muskel og genererer enorm kraft ved hoftestrik (fx ved sprint, trappegang og squat). *Hamstrings* på baglåret assisterer kraftigt ved hoftestrik.
 3. **Abduktorerne & Bækkenstabilisatorerne (Lateral gruppe):** *Gluteus Medius* og *Gluteus Minimus* trækker benet ud til siden. Deres vigtigste fysiologiske funktion er dog at holde bækkenet vandret, når du står på ét ben under gang og løb (forhindrer *Trendelenburgs tegn*).
 4. **Adduktorerne (Medial gruppe / Inderlår):** *Adductor longus, brevis og magnus* samt *Gracilis* trækker benene sammen og stabiliserer bækkenet i det frontale plan.
 5. **De dybe udadrotatorer ("Hoftens rotator cuff"):** Seks små dybe muskler (*Piriformis, Obturator externus/internus, Gemelli superior/inferior, Quadratus femoris*), der finjusterer lårbenshovedets placering i ledskålen.
@@ -141,7 +141,7 @@ Grundet de store biomekaniske kræfter, der overføres gennem hoften, opstår de
 Gradvis nedslidning af den beskyttende ledbrusk i acetabulum og på lårbenshovedet. Medfører smerter (især i lysken og strålende ned mod knæet), morgenstivhed og indskrænket bevægelighed (især indadrotation og strækning).
 
 ### 2. Femoroacetabulært Impingement (FAI / Inklemning i hoften)
-En anatomisk tilstand, hvor ekstra knoglevækst på lårbenshalsen (*Cam-deformitet*) eller på skålkanten (*Pincer-deformitet*) klemmer mod ledlæben og brusken ved dybe hoftebøjninger (f.eks. ved dybe squats eller kampsport).
+En anatomisk tilstand, hvor ekstra knoglevækst på lårbenshalsen (*Cam-deformitet*) eller på skålkanten (*Pincer-deformitet*) klemmer mod ledlæben og brusken ved dybe hoftebøjninger (fx ved dybe squats eller kampsport).
 
 ### 3. Labrumlæsion (Rift i ledlæben)
 Skade på fiberbruskringen (*labrum acetabulare*). Kan opstå akut ved eksplosive vrid/tacklinger eller gradvist som følge af langvarigt FAI-impingement. Symptomerne er typisk dybe lyskesmerter samt "klik"-fornemmelser i leddet.

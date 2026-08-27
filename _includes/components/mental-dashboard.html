@@ -104,7 +104,7 @@
   let completedCount = 0;
   let acsiSum = null, dfs2Sum = null, hpScore = null, opScore = null, brsAvg = null;
 
-  // 1. TJEK ACSI-28 (Viser f.eks. "13 / 84")
+  // 1. TJEK ACSI-28 (Viser fx "13 / 84")
   const acsiSaved = localStorage.getItem(K_ACSI);
   if (acsiSaved) {
     try {
@@ -132,7 +132,7 @@
     } catch(e) {}
   }
 
-  // 2. TJEK DFS-2 FLOW (Viser f.eks. "22 / 45")
+  // 2. TJEK DFS-2 FLOW (Viser fx "22 / 45")
   const dfs2Saved = localStorage.getItem(K_DFS2);
   if (dfs2Saved) {
     try {
@@ -155,7 +155,7 @@
     } catch(e) {}
   }
 
-  // 3. TJEK PASSION (Viser f.eks. "4.2 vs 1.8")
+  // 3. TJEK PASSION (Viser fx "4.2 vs 1.8")
   const passionSaved = localStorage.getItem(K_PASSION);
   if (passionSaved) {
     try {
@@ -185,7 +185,7 @@
     } catch(e) {}
   }
 
-  // 4. TJEK BRS RESILIENS (Viser f.eks. "3.8 / 5.0")
+  // 4. TJEK BRS RESILIENS (Viser fx "3.8 / 5.0")
   const brsSaved = localStorage.getItem(K_BRS);
   if (brsSaved) {
     try {

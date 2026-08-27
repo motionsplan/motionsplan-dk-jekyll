@@ -158,7 +158,7 @@ Du kan også dykke ned i vores statistik over [hvor hurtigt man normalt går](/t
 Rigtig mange finder stor motivation i at [tælle deres daglige skridt](/artikel/tael-skridt/). Vil du vide, hvor mange skridt din Rockport-test krævede? Så tjek vores guide til [hvor mange skridt, der går på en kilometer](/skridt-pr-km-10000/).
 
 > **Flere konditionstests?**
-> Vi har samlet en stor oversigt med mange [forskellige konditionstests](/kondition/tests/), hvis du er klar til at prøve kræfter med f.eks. løb eller cykling næste gang.
+> Vi har samlet en stor oversigt med mange [forskellige konditionstests](/kondition/tests/), hvis du er klar til at prøve kræfter med fx løb eller cykling næste gang.
 {: .notice--info }
 
 ## Ofte stillede spørgsmål om gå-testen

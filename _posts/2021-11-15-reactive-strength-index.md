@@ -192,7 +192,7 @@ En anden brugt formel er svævetiden delt med kontakttiden. Hvis du har en måde
 
 De normer jeg har kunnet finde omkring reactive strength index bruger dog den første formel. Derfor kan det være en ide at få omregnet svævetiden til en hoppehøjde. Så kan du sammenligne dine værdier.
 
-Hvis du benytter udstyr (f.eks. en simpel kontaktmåtte), der måler svævetid (*flight time*) direkte frem for beregnet hoppehøjde, benyttes denne formel:
+Hvis du benytter udstyr (fx en simpel kontaktmåtte), der måler svævetid (*flight time*) direkte frem for beregnet hoppehøjde, benyttes denne formel:
 
 $$RSI = \frac{\text{Svævetid (s)}}{\text{Kontakttid (s)}}$$
 

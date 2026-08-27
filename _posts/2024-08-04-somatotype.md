@@ -99,7 +99,7 @@ For at bruge beregneren herunder skal du bruge:
 Når man diskuterer kropstyper, er det afgørende at skelne mellem den historiske oprindelse og moderne idrætsvidenskab:
 
 ### Myten om Sheldons psykologiske kropstyper
-I 1940'erne formulerede den amerikanske psykolog William Sheldon den oprindelige teori om somatotyper. Sheldon hævdede, at en mands kropstype direkte bestemte hans personlighed og opførsel (f.eks. at ektomorfe altid var introverte og ængstelige, mens mesomorfe var aggressive ledere). 
+I 1940'erne formulerede den amerikanske psykolog William Sheldon den oprindelige teori om somatotyper. Sheldon hævdede, at en mands kropstype direkte bestemte hans personlighed og opførsel (fx at ektomorfe altid var introverte og ængstelige, mens mesomorfe var aggressive ledere). 
 
 **Denne del af teorien er i dag fuldstændigt afvist som pseudovidenskab og biologisk determinisme.**
 
@@ -143,10 +143,10 @@ Knoglebredde (håndled/knæ)
 [ Fikseret af genetik ]                             [ Kan ændres via træning/kost ]
 ```
 
-1. **Knoglestrukturen (Chassis):** Din højde, længden på dine knogler og bredden over dine led (f.eks. omkredsen af dine håndled og ankler) er 100% genetisk bestemt efter puberteten.
+1. **Knoglestrukturen (Chassis):** Din højde, længden på dine knogler og bredden over dine led (fx omkredsen af dine håndled og ankler) er 100% genetisk bestemt efter puberteten.
 2. **Fedt- og muskelmasse:** Mængden af fedt og muskelvæv er ekstremt formbar (*malleable*).
 
-Det betyder i praksis, at en person, der måske starter som en fedtrig endomorf (f.eks. score 6-2-2), gennem målrettet vægttab og tung styrketræning kan rykke sin placering på somatoplottet til f.eks. **2-5-2** (mesomorf med lav fedtprocent). Du kan ikke ændre længden på dine knogler, men du kan i den grad ændre det væv, der sidder uden på dem.
+Det betyder i praksis, at en person, der måske starter som en fedtrig endomorf (fx score 6-2-2), gennem målrettet vægttab og tung styrketræning kan rykke sin placering på somatoplottet til fx **2-5-2** (mesomorf med lav fedtprocent). Du kan ikke ændre længden på dine knogler, men du kan i den grad ændre det væv, der sidder uden på dem.
 
 ---
 

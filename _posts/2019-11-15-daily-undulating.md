@@ -127,7 +127,7 @@ Denne model er ideel til dig, der primært træner for æstetik, muskelmasse og 
 
 ## 📋 Sådan opsættes programmet i praksis
 
-### Option A: Ren Bænkpres Special (f.eks. mod Politiprøven)
+### Option A: Ren Bænkpres Special (fx mod Politiprøven)
 Hvis du ønsker maksimal fremgang i én specifik øvelse, køre du den samme hovedøvelse tre gange om ugen:
 
 | Pas / Dag | Fokus | Protokol (Moderne DUP) | Belastning | Udførelse & RPE |

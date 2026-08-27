@@ -66,9 +66,9 @@ last_modified_at: '2026-08-16T10:14:14Z'
 
 Trappetesten i roning er en test til at [finde dit kondital](/kondital/). Det er en af de mest udbredte og fysiologisk pålidelige tests sammen med [2000 meter testen til roning](/kondital-roning/), især hvis du ror regelmæssigt og vil kende din maksimale ydeevne uden brug af iltmaske.
 
-Trappetests (inkrementelle tests) kendes fra forskellige udholdenhedsidrætter, f.eks. cykling og løb. Fælles for dem alle er, at du starter på et relativt lavt niveau og gradvist øger belastningen, indtil du til sidst rammer udmattelse. 
+Trappetests (inkrementelle tests) kendes fra forskellige udholdenhedsidrætter, fx cykling og løb. Fælles for dem alle er, at du starter på et relativt lavt niveau og gradvist øger belastningen, indtil du til sidst rammer udmattelse. 
 
-Fordelen ved den 5 minutter lange trintid i rotrappetesten er, at kredsløbet når en stabil tilstand (*steady state*) på hvert niveau. Dermed bliver sammenhængen mellem den ydede effekt (Watt) og den maksimale iltoptagelse (VO₂max) meget præcis. Det kræver blot et ergometer, f.eks. en Concept2, der viser Watt.
+Fordelen ved den 5 minutter lange trintid i rotrappetesten er, at kredsløbet når en stabil tilstand (*steady state*) på hvert niveau. Dermed bliver sammenhængen mellem den ydede effekt (Watt) og den maksimale iltoptagelse (VO₂max) meget præcis. Det kræver blot et ergometer, fx en Concept2, der viser Watt.
 
 {% include figure image_path="https://images.unsplash.com/photo-1520536363714-9459b8f1af72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=600&q=60" alt="Trappetest i roning på Concept2" %}
 
@@ -167,7 +167,7 @@ Den primære årsag er **standardisering og formlens validitet**. Kurt Jensens f
 
 Trappetesten måler din maksimale aerobe effekt (Peak Power Output). Da testen afvikles i 5-minutters trin, opnår dit kredsløb en stabil tilstand (*steady state*) på hvert niveau, hvilket gør testen ideel til at kortlægge dine træningszoner:
 
-1. **Watt og Puls (med pulsmåler):** Bærer du pulsmåler under testen, kan du direkte aflæse, hvilken puls du holder ved de enkelte Watt-niveauer. Det giver et præcist billede af din reelle belastning på f.eks. Trin 3 og Trin 4.
+1. **Watt og Puls (med pulsmåler):** Bærer du pulsmåler under testen, kan du direkte aflæse, hvilken puls du holder ved de enkelte Watt-niveauer. Det giver et præcist billede af din reelle belastning på fx Trin 3 og Trin 4.
 2. **Matematiske zoner (baseret på Peak Watt):** Har du ikke målt mælkesyre eller puls, kan du bruge dit slut-resultat (Max Watt) fra testen som udgangspunkt for dine træningszoner:
 
 * **Zone 1 (Aktiv Restitution):** < 45 % af Max Watt

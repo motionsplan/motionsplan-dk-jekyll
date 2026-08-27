@@ -66,20 +66,20 @@ Formålet er at tage atleter igennem en glidende overgang fra det parasympatiske
 
 #### R2: Reset (Postural korrektion)
 * **Formål:** Genoprette neutral ledpositionering i bækken, hofter og skuldre samt aktivere dybe stabiliserende muskler inden belastning.
-* **Metode:** Specifikke øvelser med fokus på udånding og bækkenvippe (f.eks. glute bridges, diagnoale løft eller [McGill Big 3](/mcgill-big-3/)).
+* **Metode:** Specifikke øvelser med fokus på udånding og bækkenvippe (fx glute bridges, diagnoale løft eller [McGill Big 3](/mcgill-big-3/)).
 * **Varighed:** 1–2 specifikke øvelser.
 
 #### R3: Readiness (Dynamisk opvarmning)
 * **Formål:** Forberede krop og nervesystem på bevægelse. Øge kropstemperaturen, smøre leddene med ledvæske og forbedre det aktive bevægelsesudslag (Range of Motion).
-* **Metode:** Aktive, dynamiske strækøvelser uden tunge vægte (f.eks. groiners, verdens bedste stræk, wall slides og squat-rotationer).
+* **Metode:** Aktive, dynamiske strækøvelser uden tunge vægte (fx groiners, verdens bedste stræk, wall slides og squat-rotationer).
 
 #### R4: Reactive (Eksplosivitet & Pliometri)
 * **Formål:** Fyre maksimalt op under det centrale nervesystem (CNS) og stimulere de hurtige Type II-muskelfibre, mens kroppen er helt frisk.
-* **Metode:** Hop, kast og eksplosive bevægelser (f.eks. box jumps, medicinboldskast eller linje-hop). Udføres altid med lavt rep-antal og høj kvalitet.
+* **Metode:** Hop, kast og eksplosive bevægelser (fx box jumps, medicinboldskast eller linje-hop). Udføres altid med lavt rep-antal og høj kvalitet.
 
 #### R5: Resistance (Hovedtræning / Styrketræning)
 * **Formål:** Opbygge rå styrke, funktionel muskelmasse og mekanisk spænding.
-* **Metode:** Træningens primære løft opdelt i supersæt eller blokke (f.eks. squats, dødløft, bænkpres, chin-ups og tunge rygøvelser).
+* **Metode:** Træningens primære løft opdelt i supersæt eller blokke (fx squats, dødløft, bænkpres, chin-ups og tunge rygøvelser).
 
 #### R6: Resiliency / Regenerate (Energibaneanpasning)
 * **Formål:** Styrke kredsløbet, forbedre konditioneringen og øge kroppens evne til at tolerere og udskille metaboliske affaldsprodukter.
@@ -87,7 +87,7 @@ Formålet er at tage atleter igennem en glidende overgang fra det parasympatiske
 
 #### R7: Recover (Nedkøling & Respiration)
 * **Formål:** Tænde for det parasympatiske nervesystem og bremse kroppen, så restitutionsprocesserne igangsættes øjeblikkeligt.
-* **Metode:** 2–5 minutters dybe diafragmatiske vejrtrækninger liggende på ryggen (f.eks. 4 sekunders indånding, 8 sekunders udånding), kombineret med let udspænding.
+* **Metode:** 2–5 minutters dybe diafragmatiske vejrtrækninger liggende på ryggen (fx 4 sekunders indånding, 8 sekunders udånding), kombineret med let udspænding.
 
 ---
 

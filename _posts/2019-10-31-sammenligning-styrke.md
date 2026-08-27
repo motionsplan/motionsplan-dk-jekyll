@@ -101,7 +101,7 @@ Der er imidlertid en del problemer med mange af disse såkaldte styrkestandarder
 1. **Subjektive vurderinger:** Mange tabeller er ikke baseret på faktiske data, men på forfatternes personlige holdninger til, hvad man "burde" kunne løfte.
 2. **Selvrapporterede data:** Sammenligninger som den på *Strength Level* er baseret på selvrapporterede data fra brugere på nettet. Det skaber støj i datagrundlaget, da mange blot taster tilfældige værdier ind for at tjekke siden eller opgiver løft med mangelfuld form.
 3. **Mangel på kvindedata:** Mange af disse tabeller har manglet reelle data for kvinder, som også gerne vil løfte og sammenligne sig med andre.
-4. **Højde ignoreres:** Tabellerne tager ikke kropshøjden med som parameter. Hvis två personer vejer det samme og løfter det samme, men den ene er højere end den anden, er den høje i realiteten en bedre løfter ifølge [Greg Nuckols](https://www.strongerbyscience.com/objective-strength-standards/).
+4. **Højde ignoreres:** Tabellerne tager ikke kropshøjden med som parameter. Hvisto personer vejer det samme og løfter det samme, men den ene er højere end den anden, er den høje i realiteten en bedre løfter ifølge [Greg Nuckols](https://www.strongerbyscience.com/objective-strength-standards/).
 
 > **Undtagelse:** [Muscle & Strength](https://www.muscleandstrength.com/articles/strong-strength-standards-raw-natural-lifters) har lavet en sammenligningstabel direkte baseret på verdensrekorder og stævnedata fra styrkeløftforbund, hvor der laves dopingtests.
 

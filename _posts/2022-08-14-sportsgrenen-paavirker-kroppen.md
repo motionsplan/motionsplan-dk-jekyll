@@ -24,7 +24,7 @@ faq:
   - question: "Vælger man sport ud fra sin kropstype?"
     answer: "Ja, der findes en stærk selektionsbias i elitesport. Personer med langstrakt ektomorf kropsbygning og højde klarer sig naturligt bedre i basketball, mens personer med højt indhold af type IIx-muskelfibre ofte søger mod eksplosive sporter som sprint."
   - question: "Hvad er forskellen på akutte og langsigtede kropstilpasninger?"
-    answer: "Akutte tilpasninger er kortvarige mærker og reaktioner lige efter træning (f.eks. forhøjet puls, dehydrering, blå mærker eller hævelse). Langsigtede tilpasninger er varige fysiologiske ændringer som øget muskelmasse, knogletæthed og kapillærtæthed."
+    answer: "Akutte tilpasninger er kortvarige mærker og reaktioner lige efter træning (fx forhøjet puls, dehydrering, blå mærker eller hævelse). Langsigtede tilpasninger er varige fysiologiske ændringer som øget muskelmasse, knogletæthed og kapillærtæthed."
 ---
 
 Forholdet mellem menneskekroppen og idrætten er en fysiologisk tovejsallé. 

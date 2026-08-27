@@ -40,7 +40,7 @@ I tilfælde af akut opstået stivhed eller hold i ryggen kan hurtig og lokal fag
 En hverdag med både kontorarbejde og træning fungerer bedst, når belastningen struktureres med blik for restitution. 
 
 * **Træningsfrekvens:** En enkel struktur med tre styrketræningspas om ugen suppleret med 1–2 dage med gang eller let løb giver en fin balance mellem genopbygning og stimulering.
-* **Mikropauser på kontoret:** Små bevægelsespauser hver halve time – f.eks. skulderrulninger, let stræk af hoftebøjere og korte afbræk, hvor du rejser dig – reducerer spændinger i nakke og lænd betydeligt.
+* **Mikropauser på kontoret:** Små bevægelsespauser hver halve time – fx skulderrulninger, let stræk af hoftebøjere og korte afbræk, hvor du rejser dig – reducerer spændinger i nakke og lænd betydeligt.
 * **Målrettet opvarmning:** I træningscenteret giver det mening at varme grundigt op før tunge løft. Se vores komplette guide til [RAMP-opvarmning](/ramp-opvarmning/) for at vække nervesystemet og leddene korrekt.
 
 Hvis nakke eller ryg føles anspændt efter arbejdsdagen, kan det være hensigtsmæssigt at reducere arbejdsstørrelsen på vægtstangen og i stedet prioritere kontrollerede gentagelser med fokus på bevægekvalitet. Forstå mere om kroppens genopbygning i vores guide til [restitution og genopbygning](/restitution/).

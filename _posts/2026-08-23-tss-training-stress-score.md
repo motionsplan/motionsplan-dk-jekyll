@@ -81,7 +81,7 @@ Udført ved præcis $1,00 \text{ IF}$ (1 times kørsel ved FTP) giver formlen n�
 | **50 – 150** | **Moderat pas** | Klar igen næste dag med god ernæring og søvn. |
 | **150 – 300** | **Hårdt pas** | Mærkbar træthed i 1–2 dage. Kræver restitutionspas eller hvile. |
 | **300 – 450** | **Meget hårdt** | Ekstrem udmattelse. Kræver 2–3 dages genopbygning. |
-| **> 450** | **Episk belastning** | Flere dages udmattelse (f.eks. Ironman eller etape-løb). |
+| **> 450** | **Episk belastning** | Flere dages udmattelse (fx Ironman eller etape-løb). |
 
 ---
 
@@ -95,7 +95,7 @@ Løber du i fladt terræn, benyttes dit tærskeltempo (*Functional Threshold Pac
 👉 *Tip:* Husk at løb medfører mekanisk stød-belastning på led og sener. 100 rTSS føles ofte hårdere for kroppen dagen derpå end 100 TSS på cykel.
 
 ### hrTSS (Heart Rate TSS)
-Har du hverken wattmåler eller GPS-tempo (f.eks. under langrend, svømning eller indendørs kropstræning), beregner uret din **hrTSS** ud fra din puls over tid i forhold til din laktattærskelpuls ($LTHR$).
+Har du hverken wattmåler eller GPS-tempo (fx under langrend, svømning eller indendørs kropstræning), beregner uret din **hrTSS** ud fra din puls over tid i forhold til din laktattærskelpuls ($LTHR$).
 
 👉 **[Vil du finde din fysiologiske tærskelpuls? Brug vores interaktive pulszone-beregner her →](/pulszoner-beregner/)**
 

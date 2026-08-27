@@ -91,7 +91,7 @@ Over tid fører den gentagne restitutionsproces til følgende forbedringer:
 
 Det er meget individuelt, hvor lang tid det tager at restituere. Restitutionstiden afhænger af din genetiske profil, din aktuelle træningstilstand, din alder, samt aktivitetens intensitet og varighed. 
 
-Desuden tager øvelser med meget *excentrisk* arbejde (hvor musklen forlænges under belastning, f.eks. løb ned ad bakke eller den sænkende fase i styrketræning) længere tid at restituere fra end rent *koncentrisk* arbejde.
+Desuden tager øvelser med meget *excentrisk* arbejde (hvor musklen forlænges under belastning, fx løb ned ad bakke eller den sænkende fase i styrketræning) længere tid at restituere fra end rent *koncentrisk* arbejde.
 
 Her er tre overskuelige tabeller og oversigter over restitutionstider udarbejdet af henholdsvis Iform og Marina Aagaard:
 

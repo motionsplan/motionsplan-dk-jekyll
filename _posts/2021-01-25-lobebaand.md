@@ -57,7 +57,7 @@ Formålet med denne guide er hovedsageligt at vise dig, hvad du skal holde øje 
 
 {% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.gymleco_curve_lhr510 view="card" %}
 
-Når man taler om løbebånd, så er der två særlige typer. Du kan få et **kurvet løbebånd** uden motor, men hvor du selv genererer farten, når du træder ned på båndet. Den anden type er et **motoriseret løbebånd**, hvor du stiller farten på løbebåndets computer. På mange af de motoriserede løbebånd, kan du også stille hældningen, og de har forskellige programmer.
+Når man taler om løbebånd, så er derto særlige typer. Du kan få et **kurvet løbebånd** uden motor, men hvor du selv genererer farten, når du træder ned på båndet. Den anden type er et **motoriseret løbebånd**, hvor du stiller farten på løbebåndets computer. På mange af de motoriserede løbebånd, kan du også stille hældningen, og de har forskellige programmer.
 
 [Schoenmakers og Reed (2018)](https://www.jsams.org/article/S1440-2440(18)30145-2/fulltext) undersøgte 13 mandlige løbere, der kunne løbe 5 kilometer på under 20 minutter. Løberne skulle løbe fire gange over to uger. Første gang var løb på et almindeligt motoriseret løbebånd med 1% hældning til udmattelse for at finde maxpuls, hastighed og [maksimal iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 

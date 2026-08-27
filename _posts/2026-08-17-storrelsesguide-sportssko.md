@@ -71,7 +71,7 @@ Cykelsko klemmer ofte, fordi de er designet til at have en stiv sål og et tæt 
 Selvom du kender dine centimeter, bygger de forskellige brands deres sko over forskellige "læster" (skabelonen, skoen formes efter). Her er, hvad du generelt skal vide om de største mærker:
 
 * **Nike:** Har ry for at være til den smalle side, specielt hen over midtfoden. Mange oplever, at de skal gå et halvt EU-nummer op i Nike løbesko sammenlignet med hverdags-sneakers.
-* **Adidas:** Er generelt meget "True to size", men deres størrelsessystem bruger ofte tredjedele (f.eks. str. 42 2/3 eller 43 1/3). 
+* **Adidas:** Er generelt meget "True to size", men deres størrelsessystem bruger ofte tredjedele (fx str. 42 2/3 eller 43 1/3). 
 * **Reebok:** Kendt for at have en fantastisk, bred tåboks i deres Nano-serie. Perfekt til dig med en lidt bredere fod, der elsker fitness og crossfit.
 * **Asics:** Deres løbesko sidder fantastisk, men følger et meget stramt Mondopoint/CM-system. Gå altid efter CM-målet, når du køber Asics.
 * **Hoka:** Kendt for maksimal stødabsorbering. Nogle af deres hurtige modeller kan være lidt smalle, mens deres mængdetræningssko giver god plads. De findes ofte i en "Wide" udgave til brede fødder.

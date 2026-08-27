@@ -190,7 +190,7 @@ Dansk Roning har lavet denne instruktionsvideo med tidligere landsholdsroer Jens
 
 Anders Krintel, der er redaktør af [ropro.dk](https://ropro.dk/) og flerdobbelt dansk mester i kano/kajak, anbefaler at styre træningen efter oplevet anstrengelse ([Borg-skala / RPE-skalaen](/borg-skala/) fra 1 til 10).
 
-Træner du f.eks. 4 gange om ugen, bør fordelingen henholdsvis bestå af tre længere pas med moderat intensitet og ét rigtig hårdt intervalpas:
+Træner du fx 4 gange om ugen, bør fordelingen henholdsvis bestå af tre længere pas med moderat intensitet og ét rigtig hårdt intervalpas:
 
 | Ugedag | Varighed | Intensitet (RPE 1-10) | Træningstype |
 | :--- | :--- | :--- | :--- |
