@@ -141,6 +141,32 @@ Selvom OBLA 2,0 har været en historisk milepæl i idrætsfysiologien, anses fas
 
 ---
 
+## Sådan beregnes den aerobe tærskel (LT1)
+
+Formålet med at beregne LT1 er at ramme dit reelle aerobe omstillingspunkt så præcist som muligt. Sættes tærsklen blot en smule for højt, rykker din rolige Zone 2-træning over i en anaerob zone, der skaber uønsket træthed og forringer opbygningen af din udholdenhedsbase.
+
+### Problemet med de tre primære beregningsprincipper
+
+* **Faste laktatværdier (f.eks. OBLA 2.0 mmol/L):** Antager, at alle rammer deres aerobe tærskel ved præcis 2,0 mmol/L. For en atlet med lav hvilelaktat (f.eks. 0,7 mmol/L) repræsenterer 2,0 mmol/L dog allerede en betydelig laktatophobning. Faste grænser risikerer derfor at skyde langt over din reelle LT1 og gøre dine rolige ture for hårde.
+* **Relative baseline-stigninger (f.eks. Baseline + 0,5 mmol/L og First Rise):** Modeller som Dickhuths (+0,5 mmol/L over laveste måling) tager højde for dit personlige udgangspunkt. De er stærke til at fange det præcise øjeblik, hvor laktaten begynder at stige over baseline, men kræver en grundig opvarmning for ikke at lade en urolig startmåling forrykke tærsklen.
+* **Matematiske knækpunktsmodeller (f.eks. Log-Log og LTP1):** Beavers Log-Log-model og LTP1 leder efter det nøjagtige vinkelknæk på kurvens stigningstakt. De er helt uafhængige af faste tal, men kræver en stram testprotokol med lange trin for at modvirke forsinket laktatrespons.
+
+### Sammenligning mellem forskellige beregningsmetoder til LT1
+
+{% include components/lactate-comparison.html view="lt1" %}
+
+### Hvilken model rammer din reelle LT1 bedst?
+
+Systematiske oversigtsstudier (bl.a. *Faude et al., 2009* og *Jamnick et al., 2020*) viser, at faste standardværdier som 2,0 mmol/L sjældent rammer atletens reelle ventilatoriske tærskel ($VT_1$) eller iltoptagelsesmæssige tærskel.
+
+For at ramme den korrekte LT1, så du får det maksimale udbytte af din zone 2-træning, bør du fokusere på:
+
+* **Droppe faste standardtal:** Hvis du har lav hvilelaktat eller er veltrænet, vil faste tal som 2,0 mmol/L næsten altid overvurdere din tærskel og skade din restituering.
+* **Vælge den model, der fanger det første reelle laktatskift:** Modeller baseret på din personlige baseline (f.eks. *Baseline + 0,5 mmol/L*) eller kurvens matematiske knæk (*Log-Log*) afspejler din faktiske fysiologi langt bedre.
+* **Validere beregningen i praksis:** Sammenlign den beregnede intensitet og tærskelpuls med din reelle fornemmelse under træning. Din faktiske LT1 ligger ved grænsen til ubesværet snakketempo (RPE 3-4). Den rette beregningsmodel er den, der rammer dette fysiologiske omstillingspunkt bedst.
+
+---
+
 ## Ofte stillede spørgsmål om den aerobe tærskel
 
 {% include motionsplan/faq.html %}

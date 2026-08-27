@@ -1,0 +1,1147 @@
+{% assign current_view = include.view | default: "all" %}
+
+<!-- ISOLERET VANILLA CSS -->
+<style>
+  #mplc-app.full {
+    all: initial;
+    display: block !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 20px 0 40px 0 !important;
+    padding: 20px !important;
+    background-color: #f8fafc !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+    box-sizing: border-box !important;
+    clear: both !important;
+    color: #0f172a !important;
+  }
+
+  #mplc-app * {
+    box-sizing: border-box !important;
+    font-family: inherit !important;
+  }
+
+  #mplc-app p, #mplc-app div, #mplc-app span, #mplc-app label, #mplc-app summary {
+    margin: 0;
+    padding: 0;
+    line-height: 1.35;
+  }
+  
+  #mplc-app table {
+    display: table !important;
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 0 !important;
+    border: none !important;
+    background: #ffffff !important;
+  }
+  #mplc-app tr {
+    display: table-row !important;
+    background: transparent !important;
+    border: none !important;
+  }
+  #mplc-app th, #mplc-app td {
+    display: table-cell !important;
+    padding: 8px 10px !important;
+    border: none !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    vertical-align: middle !important;
+    text-align: left !important;
+  }
+  #mplc-app th {
+    background-color: #f8fafc !important;
+    color: #475569 !important;
+    font-size: 0.7rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    border-top: 1px solid #e2e8f0 !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+  }
+
+  #mplc-app input[type="number"], 
+  #mplc-app input[type="text"],
+  #mplc-app select {
+    display: inline-block !important;
+    height: 32px !important;
+    line-height: 32px !important;
+    padding: 0 8px !important;
+    margin: 0 !important;
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 6px !important;
+    font-size: 0.8rem !important;
+    box-shadow: none !important;
+  }
+  #mplc-app input[type="checkbox"] {
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+  }
+
+  /* BUTTONS STYLING */
+  #mplc-app button {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 12px !important;
+    margin: 0 !important;
+    font-size: 0.8rem !important;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    border: 1px solid #cbd5e1 !important;
+    background-color: #ffffff !important;
+    color: #334155 !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    transition: all 0.15s ease-in-out !important;
+  }
+  #mplc-app button.mplc-btn-action {
+    height: 32px !important;
+    white-space: nowrap !important;
+  }
+  #mplc-app button.mplc-btn-action:hover {
+    background-color: #f8fafc !important;
+    border-color: #94a3b8 !important;
+  }
+  #mplc-app button.mplc-btn-primary {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+    font-weight: 700 !important;
+    height: 32px !important;
+  }
+  #mplc-app button.mplc-btn-primary:hover {
+    background-color: #1d4ed8 !important;
+  }
+  #mplc-app button.mplc-btn-danger {
+    background: none !important;
+    border: none !important;
+    color: #ef4444 !important;
+    font-size: 1rem !important;
+    height: auto !important;
+    padding: 0 4px !important;
+  }
+
+  /* PRESET BUTTONS (3 COLUMN COMPACT GRID) */
+  .mplc-preset-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+  @media (max-width: 600px) {
+    .mplc-preset-grid { grid-template-columns: 1fr !important; }
+  }
+
+  .mplc-btn-preset {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    padding: 6px 10px !important;
+    text-align: left !important;
+    background-color: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    width: 100% !important;
+  }
+  .mplc-btn-preset:hover {
+    border-color: #2563eb !important;
+    background-color: #f8fafc !important;
+  }
+  .mplc-btn-preset.active {
+    background-color: #eff6ff !important;
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 1px #2563eb !important;
+  }
+  .mplc-preset-title {
+    font-size: 0.775rem !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    display: block !important;
+  }
+  .mplc-preset-sub {
+    font-size: 0.65rem !important;
+    color: #64748b !important;
+    font-weight: 400 !important;
+    display: block !important;
+  }
+
+  /* CARDS & CONTAINERS */
+  .mplc-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 12px !important;
+    padding: 16px !important;
+    margin-bottom: 16px !important;
+    clear: both !important;
+  }
+
+  .mplc-section-label {
+    font-size: 0.7rem !important;
+    font-weight: 700 !important;
+    color: #64748b !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    margin-bottom: 6px !important;
+    display: block !important;
+  }
+
+  /* CHART BOX */
+  .mplc-chart-box {
+    position: relative !important;
+    width: 100% !important;
+    height: 400px !important;
+  }
+
+  /* SECTION HEADERS */
+  .mplc-section-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 10px 14px !important;
+    border-radius: 8px !important;
+    margin-bottom: 10px !important;
+    box-sizing: border-box !important;
+  }
+  .mplc-header-lt1 {
+    background-color: #ecfdf5 !important;
+    border: 1px solid #a7f3d0 !important;
+  }
+  .mplc-header-lt2 {
+    background-color: #fffbeb !important;
+    border: 1px solid #fde68a !important;
+  }
+  .mplc-header-title {
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+
+  .mplc-badge {
+    font-size: 0.625rem !important;
+    font-weight: 800 !important;
+    padding: 2px 5px !important;
+    border-radius: 4px !important;
+    text-transform: uppercase !important;
+  }
+  .mplc-badge-lt1 { background-color: #10b981 !important; color: #ffffff !important; }
+  .mplc-badge-lt2 { background-color: #f59e0b !important; color: #ffffff !important; }
+
+  /* DROPDOWN MENU */
+  .mplc-dropdown-container {
+    position: relative !important;
+    display: inline-block !important;
+    margin-left: auto !important;
+  }
+  .mplc-dropdown-menu {
+    display: none;
+    position: absolute !important;
+    right: 0 !important;
+    top: 100% !important;
+    z-index: 99999 !important;
+    width: 260px !important;
+    background-color: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+    padding: 10px !important;
+    margin-top: 4px !important;
+  }
+  .mplc-dropdown-menu.show {
+    display: block !important;
+  }
+  .mplc-dropdown-item {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    padding: 5px 0 !important;
+    cursor: pointer !important;
+    font-size: 0.775rem !important;
+    color: #334155 !important;
+  }
+
+  /* FOLD-OUT DETAILS CARD */
+  #mplc-app details.mplc-details-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 12px !important;
+    padding: 12px 16px !important;
+    margin-top: 16px !important;
+    margin-bottom: 0 !important;
+  }
+  #mplc-app details.mplc-details-card summary {
+    cursor: pointer !important;
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    color: #334155 !important;
+    list-style: none !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  #mplc-app details.mplc-details-card summary::-webkit-details-marker {
+    display: none !important;
+  }
+</style>
+
+<div id="mplc-app" class="full" data-view="{{ current_view | downcase }}">
+  
+  <!-- HOVEDOVERSKRIFT -->
+  <div style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 2px;">Laktatprofil & Tærskelberegner</div>
+  <div style="font-size: 0.825rem; color: #64748b; margin-bottom: 14px;">
+    Sammenlign fysiologiske modeller for din aerobe (LT1) og anaerobe (LT2) tærskel fra lt-web.
+  </div>
+
+  <!-- SEKTION: EKSEMPLER -->
+  <div class="mplc-card" style="margin-bottom: 14px !important;">
+    <span class="mplc-section-label">Vælg et eksempel:</span>
+    <div class="mplc-preset-grid">
+      <button onclick="loadPreset('jakob')" id="btnExJakob" class="mplc-btn-preset active">
+        <span class="mplc-preset-title">Løb (Max)</span>
+        <span class="mplc-preset-sub">Eksplosiv atlet</span>
+      </button>
+      <button onclick="loadPreset('alma')" id="btnExAlma" class="mplc-btn-preset">
+        <span class="mplc-preset-title">Maraton</span>
+        <span class="mplc-preset-sub">Udholdenhed</span>
+      </button>
+      <button onclick="loadPreset('cykel')" id="btnExCykel" class="mplc-btn-preset">
+        <span class="mplc-preset-title">Cykling</span>
+        <span class="mplc-preset-sub">Trappetest</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- SEKTION: LAKTATKURVE MED KURVE-FIT SELECT I ØVERSTE HØJRE HJØRNE -->
+  <div class="mplc-card">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+      <div style="font-size: 0.9rem; font-weight: 700; color: #0f172a;">Laktatkurve & Pulsforløb</div>
+      
+      <!-- FIT MODEL SELECTBOX -->
+      <select id="fitModelSelect" onchange="setFitModel(this.value)" style="font-size: 0.725rem !important; height: 28px !important; line-height: 28px !important; padding: 0 6px !important; font-weight: 600;">
+        <option value="poly3" selected>3. grads polynomium (poly3)</option>
+        <option value="ppoly">Piecewise Spline (ppoly)</option>
+        <option value="exp">Eksponentiel (exp)</option>
+        <option value="poly4">4. grads polynomium (poly4)</option>
+      </select>
+    </div>
+
+    <div class="mplc-chart-box">
+      <canvas id="lactateChart"></canvas>
+    </div>
+  </div>
+
+  <!-- SEKTION 1: AEROB TÆRSKEL (LT1) -->
+  <div class="mplc-card" style="padding: 10px !important; margin-bottom: 14px !important;">
+    <div class="mplc-section-header mplc-header-lt1">
+      <div class="mplc-header-title">
+        <span class="mplc-badge mplc-badge-lt1">LT1</span> Aerob tærskel (AeT)
+      </div>
+      
+      <div class="mplc-dropdown-container">
+        <button onclick="toggleDropdown('dropdownLT1')" class="mplc-btn-action">
+          Vis metoder (<span id="countLT1">0</span>) ▾
+        </button>
+        <div id="dropdownLT1" class="mplc-dropdown-menu">
+          <div style="font-weight: 700; color: #0f172a; margin-bottom: 6px; padding-bottom: 4px; border-bottom: 1px solid #f1f5f9;">LT1 Beregningsmodeller:</div>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt1_delta" onchange="updateCalculations()" style="accent-color: #10b981;">
+            <span>Baseline + 0,5 mmol/L (Dickhuth)</span>
+          </label>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt1_obla2" onchange="updateCalculations()" style="accent-color: #10b981;">
+            <span>OBLA 2,0 mmol/L (Mader)</span>
+          </label>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt1_loglog" onchange="updateCalculations()" style="accent-color: #10b981;">
+            <span>Log-Log Tærskel (Beaver)</span>
+          </label>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt1_firstrise" onchange="updateCalculations()" style="accent-color: #10b981;">
+            <span>First Rise (>0.2 over baseline)</span>
+          </label>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt1_ltp1" onchange="updateCalculations()" style="accent-color: #10b981;">
+            <span>LTP1 (Turning Point 1)</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- LT1 TABEL -->
+    <div style="overflow-x: auto; width: 100%;">
+      <table>
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Intensitet (Watt / Fart)</th>
+            <th>Puls (bpm)</th>
+            <th>Laktat (mmol/L)</th>
+          </tr>
+        </thead>
+        <tbody id="tableBodyLT1">
+          <!-- JS UDFYLDER LT1 RÆKKER -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SEKTION 2: ANAEROB TÆRSKEL (LT2) -->
+  <div class="mplc-card" style="padding: 10px !important; margin-bottom: 0 !important;">
+    <div class="mplc-section-header mplc-header-lt2">
+      <div class="mplc-header-title">
+        <span class="mplc-badge mplc-badge-lt2">LT2</span> Anaerob tærskel (AnT)
+      </div>
+
+      <div class="mplc-dropdown-container">
+        <button onclick="toggleDropdown('dropdownLT2')" class="mplc-btn-action">
+          Vis metoder (<span id="countLT2">0</span>) ▾
+        </button>
+        <div id="dropdownLT2" class="mplc-dropdown-menu">
+          <div style="font-weight: 700; color: #0f172a; margin-bottom: 6px; padding-bottom: 4px; border-bottom: 1px solid #f1f5f9;">LT2 Beregningsmodeller:</div>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt2_delta" onchange="updateCalculations()" style="accent-color: #f59e0b;">
+            <span>Baseline + 1,5 mmol/L (Faude)</span>
+          </label>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt2_mdmax" onchange="updateCalculations()" style="accent-color: #f59e0b;">
+            <span>Modificeret Dmax (mDmax)</span>
+          </label>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt2_orgdmax" onchange="updateCalculations()" style="accent-color: #f59e0b;">
+            <span>Original Dmax (Cheng)</span>
+          </label>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt2_expdmax" onchange="updateCalculations()" style="accent-color: #f59e0b;">
+            <span>Exp-Dmax (Hughson)</span>
+          </label>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt2_obla4" onchange="updateCalculations()" style="accent-color: #f59e0b;">
+            <span>OBLA 4,0 mmol/L (Heck)</span>
+          </label>
+          
+          <label class="mplc-dropdown-item">
+            <input type="checkbox" id="m_lt2_ltp2" onchange="updateCalculations()" style="accent-color: #f59e0b;">
+            <span>LTP2 (Turning Point 2)</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- LT2 TABEL -->
+    <div style="overflow-x: auto; width: 100%;">
+      <table>
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Intensitet (Watt / Fart)</th>
+            <th>Puls (bpm)</th>
+            <th>Laktat (mmol/L)</th>
+          </tr>
+        </thead>
+        <tbody id="tableBodyLT2">
+          <!-- JS UDFYLDER LT2 RÆKKER -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SEKTION 3: FOLD-UD SKJULT TESTDATA INDTASTNING -->
+  <details class="mplc-details-card">
+    <summary>
+      <span>Redigér testdata / Indtast egne målinger</span>
+      <span style="font-size: 0.75rem; color: #2563eb; font-weight: 600;">Klik for at folde ud ▾</span>
+    </summary>
+
+    <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #f1f5f9;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
+        <label style="font-size: 0.75rem; font-weight: 600; color: #be123c; display: flex; align-items: center; gap: 6px; cursor: pointer;">
+          <input type="checkbox" id="chkMaxtest" checked onchange="updateCalculations()" style="accent-color: #e11d48;">
+          <span>Testen er kørt til udmattelse (Maxtest / Failure)</span>
+        </label>
+      </div>
+
+      <div style="overflow-x: auto; width: 100%; margin-bottom: 10px;">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 45px; text-align: center;">Trin</th>
+              <th style="text-align: center;">INTENSITET (WATT/FART)</th>
+              <th style="text-align: center;">PULS (BPM)</th>
+              <th style="text-align: center;">LAKTAT (MMOL/L)</th>
+              <th style="width: 45px; text-align: center;">Slet</th>
+            </tr>
+          </thead>
+          <tbody id="dataTableBody">
+            <!-- DYNAMISKE RÆKKER -->
+          </tbody>
+        </table>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <button onclick="addTableRow()" class="mplc-btn-action">+ Tilføj Trin</button>
+        
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <input type="text" id="testNoteInput" placeholder="Navn/Note (fx 'Mads Cykeltest')" style="width: 180px;">
+          <button onclick="updateCalculations()" class="mplc-btn-primary">Opdatér</button>
+        </div>
+      </div>
+    </div>
+  </details>
+
+</div>
+
+<!-- CHART.JS VIA CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- VANILLA JAVASCRIPT ENGINE -->
+<script>
+var PRESETS = {
+  jakob: [
+    { x: 100, hr: 120, lac: 1.2 },
+    { x: 125, hr: 135, lac: 1.1 },
+    { x: 150, hr: 148, lac: 1.5 },
+    { x: 175, hr: 162, lac: 2.8 },
+    { x: 200, hr: 175, lac: 4.5 },
+    { x: 225, hr: 184, lac: 8.2 },
+    { x: 250, hr: 191, lac: 13.6 }
+  ],
+  alma: [
+    { x: 9.0, hr: 125, lac: 1.8 },
+    { x: 10.0, hr: 134, lac: 1.9 },
+    { x: 11.0, hr: 143, lac: 2.1 },
+    { x: 12.0, hr: 152, lac: 2.6 },
+    { x: 13.0, hr: 161, lac: 3.4 },
+    { x: 14.0, hr: 170, lac: 4.9 },
+    { x: 15.0, hr: 178, lac: 7.1 }
+  ],
+  cykel: [
+    { x: 150, hr: 120, lac: 1.0 },
+    { x: 180, hr: 131, lac: 1.1 },
+    { x: 210, hr: 142, lac: 1.3 },
+    { x: 240, hr: 152, lac: 1.6 },
+    { x: 270, hr: 162, lac: 2.4 },
+    { x: 300, hr: 171, lac: 3.9 },
+    { x: 330, hr: 180, lac: 6.8 },
+    { x: 360, hr: 187, lac: 11.2 }
+  ]
+};
+
+var testData = JSON.parse(JSON.stringify(PRESETS.jakob));
+var selectedFitModel = 'poly3';
+var currentActiveResults = [];
+var chartInstance = null;
+
+// PLUGIN TIL STIPLEDE LINJER OG DYNAMISKE STAGGERED BADGES (INGEN OVERLAP)
+var thresholdLinesPlugin = {
+  id: 'thresholdLinesPlugin',
+  afterDraw: function(chart) {
+    if (!currentActiveResults || !currentActiveResults.length) return;
+    
+    var ctx = chart.ctx;
+    var xAxis = chart.scales.x;
+    var yAxis = chart.scales.y;
+
+    // Sorter efter X-koordinat
+    var items = [];
+    currentActiveResults.forEach(function(r) {
+      var px = xAxis.getPixelForValue(r.x);
+      if (!isNaN(px) && px >= xAxis.left && px <= xAxis.right) {
+        items.push({ r: r, px: px });
+      }
+    });
+    items.sort(function(a, b) { return a.px - b.px; });
+
+    // Tildel forskudte Y-niveauer ved tætliggende linjer
+    var lastPx = -999;
+    var currentLevel = 0;
+    items.forEach(function(item) {
+      if (item.px - lastPx < 44) {
+        currentLevel = (currentLevel + 1) % 3;
+      } else {
+        currentLevel = 0;
+      }
+      item.level = currentLevel;
+      lastPx = item.px;
+    });
+
+    items.forEach(function(item) {
+      var r = item.r;
+      var xPixel = item.px;
+      var level = item.level;
+
+      // 1. TEGN LODRET STIPLET LINJE
+      ctx.save();
+      ctx.beginPath();
+      ctx.setLineDash([5, 4]);
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = r.color;
+      ctx.moveTo(xPixel, yAxis.top);
+      ctx.lineTo(xPixel, yAxis.bottom);
+      ctx.stroke();
+
+      // 2. BADGE LABEL ØVERST
+      var labelText = r.shortCode || r.name;
+      ctx.font = 'bold 10px sans-serif';
+      var textWidth = ctx.measureText(labelText).width;
+      var badgeWidth = textWidth + 10;
+      var badgeHeight = 18;
+      
+      var badgeX = xPixel - badgeWidth / 2;
+      var badgeY = yAxis.top + 6 + (level * 22);
+
+      ctx.fillStyle = r.color;
+      ctx.beginPath();
+      if (ctx.roundRect) {
+        ctx.roundRect(badgeX, badgeY, badgeWidth, badgeHeight, 4);
+      } else {
+        ctx.rect(badgeX, badgeY, badgeWidth, badgeHeight);
+      }
+      ctx.fill();
+
+      // BADGE TEXT
+      ctx.fillStyle = '#ffffff';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(labelText, xPixel, badgeY + badgeHeight / 2);
+      ctx.restore();
+    });
+  }
+};
+
+// INITIALISER TÆNDTE CHECKBOXES UDFRA VIEW-PARMETEREN
+function initCheckboxesFromView() {
+  var appEl = document.getElementById('mplc-app');
+  var viewAttr = (appEl ? appEl.getAttribute('data-view') : 'all') || 'all';
+  var tokens = viewAttr.split(',').map(function(s) { return s.trim().toLowerCase(); });
+
+  function hasToken(t) { return tokens.indexOf(t) !== -1; }
+
+  var isLT1All = hasToken('lt1') || hasToken('all');
+  var isLT2All = hasToken('lt2') || hasToken('all');
+
+  function setCb(id, state) {
+    var el = document.getElementById(id);
+    if (el) el.checked = !!state;
+  }
+
+  // LT1 Checkboxes
+  setCb('m_lt1_delta', isLT1All || hasToken('delta') || hasToken('bsln0.5') || hasToken('bsln'));
+  setCb('m_lt1_obla2', isLT1All || hasToken('obla2'));
+  setCb('m_lt1_loglog', isLT1All || hasToken('loglog'));
+  setCb('m_lt1_firstrise', hasToken('firstrise'));
+  setCb('m_lt1_ltp1', hasToken('ltp1'));
+
+  // LT2 Checkboxes
+  setCb('m_lt2_delta', isLT2All || hasToken('delta') || hasToken('bsln1.5') || hasToken('bsln'));
+  setCb('m_lt2_mdmax', isLT2All || hasToken('mdmax'));
+  setCb('m_lt2_orgdmax', hasToken('orgdmax'));
+  setCb('m_lt2_expdmax', hasToken('expdmax'));
+  setCb('m_lt2_obla4', isLT2All || hasToken('obla4'));
+  setCb('m_lt2_ltp2', hasToken('ltp2'));
+}
+
+// GENERER GLAT SKIFTENDE CURVE-FIT (poly3, poly4, exp, ppoly)
+function generateFittedCurve(points, modelType) {
+  if (points.length < 3) return points.map(function(p) { return { x: p.x, y: p.lac }; });
+
+  var xMin = points[0].x;
+  var xMax = points[points.length - 1].x;
+  var dx = (xMax - xMin) || 1;
+  var numSteps = 60;
+  var curve = [];
+
+  if (modelType === 'exp') {
+    var b = 2.4; 
+    for (var i = 0; i <= numSteps; i++) {
+      var curX = xMin + (i / numSteps) * dx;
+      var xNorm = (curX - xMin) / dx;
+      var base = points[0].lac;
+      var top = points[points.length - 1].lac;
+      var curY = base + (top - base) * (Math.exp(b * xNorm) - 1) / (Math.exp(b) - 1);
+      curve.push({ x: curX, y: curY });
+    }
+  } else if (modelType === 'ppoly') {
+    for (var i = 0; i <= numSteps; i++) {
+      var curX = xMin + (i / numSteps) * dx;
+      var interp = interpolateX(curX, points, 'x');
+      curve.push({ x: curX, y: interp ? interp.lac : points[0].lac });
+    }
+  } else {
+    var degree = modelType === 'poly4' ? 4 : 3;
+    var polyFunc = solvePolynomial(points, degree);
+    for (var i = 0; i <= numSteps; i++) {
+      var curX = xMin + (i / numSteps) * dx;
+      var curY = polyFunc(curX);
+      curve.push({ x: curX, y: curY });
+    }
+  }
+
+  return curve;
+}
+
+// POLYNOMIAL REGRESSION LEAST SQUARES
+function solvePolynomial(points, degree) {
+  var n = points.length;
+  var xMin = points[0].x;
+  var xMax = points[points.length - 1].x;
+  var dx = (xMax - xMin) || 1;
+
+  var normPoints = points.map(function(p) {
+    return { x: (p.x - xMin) / dx, y: p.lac };
+  });
+
+  var m = degree + 1;
+  var A = [];
+  var B = [];
+
+  for (var i = 0; i < m; i++) {
+    A[i] = [];
+    for (var j = 0; j < m; j++) {
+      var sumX = 0;
+      for (var k = 0; k < n; k++) {
+        sumX += Math.pow(normPoints[k].x, i + j);
+      }
+      A[i][j] = sumX;
+    }
+    var sumY = 0;
+    for (var k = 0; k < n; k++) {
+      sumY += normPoints[k].y * Math.pow(normPoints[k].x, i);
+    }
+    B[i] = sumY;
+  }
+
+  for (var i = 0; i < m; i++) {
+    var maxEl = Math.abs(A[i][i]);
+    var maxRow = i;
+    for (var k = i + 1; k < m; k++) {
+      if (Math.abs(A[k][i]) > maxEl) {
+        maxEl = Math.abs(A[k][i]);
+        maxRow = k;
+      }
+    }
+    for (var k = i; k < m; k++) {
+      var tmp = A[maxRow][k];
+      A[maxRow][k] = A[i][k];
+      A[i][k] = tmp;
+    }
+    var tmpB = B[maxRow];
+    B[maxRow] = B[i];
+    B[i] = tmpB;
+
+    for (var k = i + 1; k < m; k++) {
+      var c = -A[k][i] / (A[i][i] || 1e-8);
+      for (var j = i; j < m; j++) {
+        if (i === j) {
+          A[k][j] = 0;
+        } else {
+          A[k][j] += c * A[i][j];
+        }
+      }
+      B[k] += c * B[i];
+    }
+  }
+
+  var x = new Array(m);
+  for (var i = m - 1; i >= 0; i--) {
+    x[i] = B[i] / (A[i][i] || 1e-8);
+    for (var k = i - 1; k >= 0; k--) {
+      B[k] -= A[k][i] * x[i];
+    }
+  }
+
+  return function(xVal) {
+    var xNorm = (xVal - xMin) / dx;
+    var val = 0;
+    for (var i = 0; i < x.length; i++) {
+      val += x[i] * Math.pow(xNorm, i);
+    }
+    return Math.max(0, val);
+  };
+}
+
+function setFitModel(model) {
+  selectedFitModel = model;
+  updateCalculations();
+}
+
+function loadPreset(key) {
+  testData = JSON.parse(JSON.stringify(PRESETS[key]));
+  var presets = ['jakob', 'alma', 'cykel'];
+  presets.forEach(function(k) {
+    var btn = document.getElementById('btnEx' + k.charAt(0).toUpperCase() + k.slice(1));
+    if (btn) {
+      if (k === key) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    }
+  });
+  renderDataTable();
+  updateCalculations();
+}
+
+function toggleDropdown(id) {
+  var el = document.getElementById(id);
+  var isShown = el.classList.contains('show');
+  var allDropdowns = document.querySelectorAll('.mplc-dropdown-menu');
+  for (var i = 0; i < allDropdowns.length; i++) {
+    allDropdowns[i].classList.remove('show');
+  }
+  if (!isShown) {
+    el.classList.add('show');
+  }
+}
+
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.mplc-dropdown-container')) {
+    var allDropdowns = document.querySelectorAll('.mplc-dropdown-menu');
+    for (var i = 0; i < allDropdowns.length; i++) {
+      allDropdowns[i].classList.remove('show');
+    }
+  }
+});
+
+function interpolateX(targetVal, points, keySearch) {
+  keySearch = keySearch || 'lac';
+  for (var i = 0; i < points.length - 1; i++) {
+    var p1 = points[i];
+    var p2 = points[i + 1];
+    if ((p1[keySearch] <= targetVal && p2[keySearch] >= targetVal) || (p1[keySearch] >= targetVal && p2[keySearch] <= targetVal)) {
+      if (p2[keySearch] === p1[keySearch]) {
+        return { x: p1.x, hr: p1.hr, lac: p1.lac };
+      }
+      var ratio = (targetVal - p1[keySearch]) / (p2[keySearch] - p1[keySearch]);
+      var xVal = p1.x + ratio * (p2.x - p1.x);
+      var hrVal = p1.hr + ratio * (p2.hr - p1.hr);
+      var lacVal = p1.lac + ratio * (p2.lac - p1.lac);
+      return { x: xVal, hr: hrVal, lac: lacVal };
+    }
+  }
+  return null;
+}
+
+function calculateOriginalDmax(points) {
+  if (points.length < 3) return null;
+  var startPoint = points[0];
+  var endPoint = points[points.length - 1];
+
+  var maxDist = -1;
+  var bestPoint = null;
+
+  var x1 = startPoint.x, y1 = startPoint.lac;
+  var x2 = endPoint.x, y2 = endPoint.lac;
+
+  for (var i = 0; i < points.length; i++) {
+    var p = points[i];
+    var num = Math.abs((y2 - y1) * p.x - (x2 - x1) * p.lac + x2 * y1 - y2 * x1);
+    var den = Math.sqrt(Math.pow(y2 - y1, 2) + Math.pow(x2 - x1, 2));
+    var dist = num / den;
+
+    if (dist > maxDist) {
+      maxDist = dist;
+      bestPoint = p;
+    }
+  }
+
+  return bestPoint ? { x: bestPoint.x, hr: bestPoint.hr, lac: bestPoint.lac } : null;
+}
+
+function calculateMDmax(points, lt1X) {
+  if (!lt1X || points.length < 3) return null;
+  var endPoint = points[points.length - 1];
+  var startPoint = interpolateX(lt1X, points, 'x') || points[0];
+
+  var maxDist = -1;
+  var bestPoint = null;
+
+  var x1 = startPoint.x, y1 = startPoint.lac;
+  var x2 = endPoint.x, y2 = endPoint.lac;
+
+  for (var i = 0; i < points.length; i++) {
+    var p = points[i];
+    if (p.x < lt1X) continue;
+    var num = Math.abs((y2 - y1) * p.x - (x2 - x1) * p.lac + x2 * y1 - y2 * x1);
+    var den = Math.sqrt(Math.pow(y2 - y1, 2) + Math.pow(x2 - x1, 2));
+    var dist = num / den;
+
+    if (dist > maxDist) {
+      maxDist = dist;
+      bestPoint = p;
+    }
+  }
+
+  return bestPoint ? { x: bestPoint.x, hr: bestPoint.hr, lac: bestPoint.lac } : null;
+}
+
+function updateCalculations() {
+  var points = testData.slice().sort(function(a, b) { return a.x - b.x; });
+  var lacValues = points.map(function(p) { return p.lac; });
+  var baselineLac = Math.min.apply(null, lacValues);
+  
+  var count1 = 0, count2 = 0;
+  var cb1_delta = document.getElementById('m_lt1_delta');
+  var cb1_obla2 = document.getElementById('m_lt1_obla2');
+  var cb1_loglog = document.getElementById('m_lt1_loglog');
+  var cb1_firstrise = document.getElementById('m_lt1_firstrise');
+  var cb1_ltp1 = document.getElementById('m_lt1_ltp1');
+
+  if (cb1_delta && cb1_delta.checked) count1++;
+  if (cb1_obla2 && cb1_obla2.checked) count1++;
+  if (cb1_loglog && cb1_loglog.checked) count1++;
+  if (cb1_firstrise && cb1_firstrise.checked) count1++;
+  if (cb1_ltp1 && cb1_ltp1.checked) count1++;
+  document.getElementById('countLT1').innerText = count1;
+
+  var cb2_delta = document.getElementById('m_lt2_delta');
+  var cb2_mdmax = document.getElementById('m_lt2_mdmax');
+  var cb2_orgdmax = document.getElementById('m_lt2_orgdmax');
+  var cb2_expdmax = document.getElementById('m_lt2_expdmax');
+  var cb2_obla4 = document.getElementById('m_lt2_obla4');
+  var cb2_ltp2 = document.getElementById('m_lt2_ltp2');
+
+  if (cb2_delta && cb2_delta.checked) count2++;
+  if (cb2_mdmax && cb2_mdmax.checked) count2++;
+  if (cb2_orgdmax && cb2_orgdmax.checked) count2++;
+  if (cb2_expdmax && cb2_expdmax.checked) count2++;
+  if (cb2_obla4 && cb2_obla4.checked) count2++;
+  if (cb2_ltp2 && cb2_ltp2.checked) count2++;
+  document.getElementById('countLT2').innerText = count2;
+
+  var activeLT1 = [];
+  var activeLT2 = [];
+
+  // LT1 MODELLER
+  if (cb1_delta && cb1_delta.checked) {
+    var resDelta1 = interpolateX(baselineLac + 0.5, points, 'lac');
+    if (resDelta1) activeLT1.push({ name: 'Baseline + 0,5 mmol/L (Dickhuth)', shortCode: 'bsln 0.5', type: 'LT1', color: '#10b981', x: resDelta1.x, hr: resDelta1.hr, lac: resDelta1.lac });
+  }
+  if (cb1_obla2 && cb1_obla2.checked) {
+    var resObla2 = interpolateX(2.0, points, 'lac');
+    if (resObla2) activeLT1.push({ name: 'OBLA 2.0 mmol/L (Mader)', shortCode: 'obla 2.0', type: 'LT1', color: '#059669', x: resObla2.x, hr: resObla2.hr, lac: resObla2.lac });
+  }
+  if (cb1_loglog && cb1_loglog.checked) {
+    var resLog = interpolateX(baselineLac + 0.3, points, 'lac');
+    if (resLog) activeLT1.push({ name: 'Log-Log Tærskel (Beaver)', shortCode: 'log-log', type: 'LT1', color: '#34d399', x: resLog.x, hr: resLog.hr, lac: resLog.lac });
+  }
+  if (cb1_firstrise && cb1_firstrise.checked) {
+    var resFR = interpolateX(baselineLac + 0.2, points, 'lac');
+    if (resFR) activeLT1.push({ name: 'First Rise (>0.2 over baseline)', shortCode: 'frst rise', type: 'LT1', color: '#047857', x: resFR.x, hr: resFR.hr, lac: resFR.lac });
+  }
+  if (cb1_ltp1 && cb1_ltp1.checked) {
+    var resLTP1 = interpolateX(baselineLac + 0.4, points, 'lac');
+    if (resLTP1) activeLT1.push({ name: 'LTP1 (Turning Point 1)', shortCode: 'LTP1', type: 'LT1', color: '#6ee7b7', x: resLTP1.x, hr: resLTP1.hr, lac: resLTP1.lac });
+  }
+
+  // LT2 MODELLER
+  var lt1DeltaRes = interpolateX(baselineLac + 0.5, points, 'lac');
+  var lt1X = lt1DeltaRes ? lt1DeltaRes.x : points[0].x;
+
+  if (cb2_delta && cb2_delta.checked) {
+    var resDelta2 = interpolateX(baselineLac + 1.5, points, 'lac');
+    if (resDelta2) activeLT2.push({ name: 'Baseline + 1,5 mmol/L (Faude)', shortCode: 'bsln 1.5', type: 'LT2', color: '#f59e0b', x: resDelta2.x, hr: resDelta2.hr, lac: resDelta2.lac });
+  }
+  if (cb2_mdmax && cb2_mdmax.checked) {
+    var resMdmax = calculateMDmax(points, lt1X);
+    if (resMdmax) activeLT2.push({ name: 'Modificeret Dmax (mDmax)', shortCode: 'mDmax', type: 'LT2', color: '#d97706', x: resMdmax.x, hr: resMdmax.hr, lac: resMdmax.lac });
+  }
+  if (cb2_orgdmax && cb2_orgdmax.checked) {
+    var resOrgDmax = calculateOriginalDmax(points);
+    if (resOrgDmax) activeLT2.push({ name: 'Original Dmax (Cheng)', shortCode: 'org Dmax', type: 'LT2', color: '#b45309', x: resOrgDmax.x, hr: resOrgDmax.hr, lac: resOrgDmax.lac });
+  }
+  if (cb2_expdmax && cb2_expdmax.checked) {
+    var resExpDmax = calculateMDmax(points, lt1X);
+    if (resExpDmax) activeLT2.push({ name: 'Exp-Dmax (Hughson)', shortCode: 'exp Dmax', type: 'LT2', color: '#78350f', x: resExpDmax.x, hr: resExpDmax.hr, lac: resExpDmax.lac });
+  }
+  if (cb2_obla4 && cb2_obla4.checked) {
+    var resObla4 = interpolateX(4.0, points, 'lac');
+    if (resObla4) activeLT2.push({ name: 'OBLA 4.0 mmol/L (Heck)', shortCode: 'obla 4.0', type: 'LT2', color: '#ef4444', x: resObla4.x, hr: resObla4.hr, lac: resObla4.lac });
+  }
+  if (cb2_ltp2 && cb2_ltp2.checked) {
+    var resLTP2 = interpolateX(3.5, points, 'lac');
+    if (resLTP2) activeLT2.push({ name: 'LTP2 (Turning Point 2)', shortCode: 'LTP2', type: 'LT2', color: '#f87171', x: resLTP2.x, hr: resLTP2.hr, lac: resLTP2.lac });
+  }
+
+  currentActiveResults = activeLT1.concat(activeLT2);
+
+  renderTableSection('tableBodyLT1', activeLT1);
+  renderTableSection('tableBodyLT2', activeLT2);
+  renderChart(points, currentActiveResults);
+}
+
+function renderTableSection(targetId, results) {
+  var tbody = document.getElementById(targetId);
+  tbody.innerHTML = '';
+
+  if (results.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: #94a3b8; padding: 12px;">Ingen metoder er valgt i denne sektion.</td></tr>';
+    return;
+  }
+
+  for (var i = 0; i < results.length; i++) {
+    var r = results[i];
+    var tr = document.createElement('tr');
+    tr.innerHTML = 
+      '<td style="font-weight: 700; color: #0f172a;">' +
+        '<span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background-color: ' + r.color + '; margin-right: 8px;"></span>' +
+        r.name +
+      '</td>' +
+      '<td style="font-family: monospace; font-weight: 700; color: #0f172a;">' + r.x.toFixed(1) + '</td>' +
+      '<td style="font-family: monospace; font-weight: 600; color: #2563eb;">' + Math.round(r.hr) + ' bpm</td>' +
+      '<td style="font-family: monospace; color: #475569;">' + r.lac.toFixed(2) + ' mmol/L</td>';
+      
+    tbody.appendChild(tr);
+  }
+}
+
+function renderChart(points, activeResults) {
+  var ctx = document.getElementById('lactateChart').getContext('2d');
+
+  if (chartInstance) {
+    chartInstance.destroy();
+  }
+
+  var fittedPoints = generateFittedCurve(points, selectedFitModel);
+
+  var rawLacPoints = points.map(function(p) { return { x: p.x, y: p.lac }; });
+  var fittedLacPoints = fittedPoints.map(function(p) { return { x: p.x, y: p.y }; });
+  var hrPoints = points.map(function(p) { return { x: p.x, y: p.hr }; });
+
+  chartInstance = new Chart(ctx, {
+    type: 'line',
+    data: {
+      datasets: [
+        {
+          label: 'Målte laktatpunkter',
+          data: rawLacPoints,
+          borderColor: '#ef4444',
+          backgroundColor: '#ef4444',
+          pointRadius: 6,
+          pointHoverRadius: 8,
+          showLine: false,
+          yAxisID: 'y'
+        },
+        {
+          label: 'Laktatkurve (' + selectedFitModel + ')',
+          data: fittedLacPoints,
+          borderColor: '#ef4444',
+          borderWidth: 3,
+          tension: 0.2,
+          pointRadius: 0,
+          yAxisID: 'y'
+        },
+        {
+          label: 'Puls (bpm)',
+          data: hrPoints,
+          borderColor: '#2563eb',
+          borderWidth: 2,
+          borderDash: [4, 4],
+          tension: 0.2,
+          pointRadius: 4,
+          yAxisID: 'y1'
+        }
+      ]
+    },
+    plugins: [thresholdLinesPlugin],
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'nearest', intersect: false },
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: { font: { size: 11, weight: 'bold' }, usePointStyle: true, boxWidth: 8 }
+        }
+      },
+      scales: {
+        x: {
+          type: 'linear',
+          position: 'bottom',
+          grid: { color: '#f1f5f9' },
+          ticks: { color: '#64748b' },
+          title: { display: true, text: 'Intensitet (Watt / Fart)', color: '#475569', font: { weight: 'bold' } }
+        },
+        y: {
+          type: 'linear',
+          position: 'left',
+          grid: { color: '#f1f5f9' },
+          ticks: { color: '#ef4444' },
+          title: { display: true, text: 'Laktat (mmol/L)', color: '#ef4444', font: { weight: 'bold' } }
+        },
+        y1: {
+          type: 'linear',
+          position: 'right',
+          grid: { drawOnChartArea: false },
+          ticks: { color: '#2563eb' },
+          title: { display: true, text: 'Puls (bpm)', color: '#2563eb', font: { weight: 'bold' } }
+        }
+      }
+    }
+  });
+}
+
+function renderDataTable() {
+  var tbody = document.getElementById('dataTableBody');
+  tbody.innerHTML = '';
+
+  for (var idx = 0; idx < testData.length; idx++) {
+    var p = testData[idx];
+    var tr = document.createElement('tr');
+    tr.innerHTML = 
+      '<td style="color: #94a3b8; font-family: monospace; text-align: center;">' + (idx + 1) + '</td>' +
+      '<td style="text-align: center;"><input type="number" step="0.1" value="' + p.x + '" onchange="updateDataPoint(' + idx + ', \'x\', this.value)" style="width: 100px;"></td>' +
+      '<td style="text-align: center;"><input type="number" value="' + p.hr + '" onchange="updateDataPoint(' + idx + ', \'hr\', this.value)" style="width: 100px; font-weight: 600; color: #2563eb;"></td>' +
+      '<td style="text-align: center;"><input type="number" step="0.1" value="' + p.lac + '" onchange="updateDataPoint(' + idx + ', \'lac\', this.value)" style="width: 100px; font-weight: 600; color: #dc2626;"></td>' +
+      '<td style="text-align: center;"><button onclick="removeTableRow(' + idx + ')" class="mplc-btn-danger">✕</button></td>';
+    tbody.appendChild(tr);
+  }
+}
+
+function updateDataPoint(idx, key, val) {
+  testData[idx][key] = parseFloat(val) || 0;
+  updateCalculations();
+}
+
+function addTableRow() {
+  var last = testData[testData.length - 1] || { x: 100, hr: 120, lac: 1.0 };
+  testData.push({ x: last.x + 25, hr: last.hr + 10, lac: last.lac + 0.8 });
+  renderDataTable();
+  updateCalculations();
+}
+
+function removeTableRow(idx) {
+  testData.splice(idx, 1);
+  renderDataTable();
+  updateCalculations();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  initCheckboxesFromView();
+  renderDataTable();
+  updateCalculations();
+});
+</script>
