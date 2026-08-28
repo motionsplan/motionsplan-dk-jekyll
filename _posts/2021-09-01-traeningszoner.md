@@ -244,7 +244,7 @@ Aerobe tærskel (LT1)
 <div class="notice--info" markdown="1">
 
 🏃‍♂️ **Vil du nørde Zone 2-træning i dybden?**  
-Zone 2 er den helt centrale zone til opbygning af din aerobe base, fedtforbrænding og mitokondrier. Læs vores komplette guide til **[Zone 2 træning og den aerobe tærskel](/zone-2-traening/)**, hvor du får 7 konkrete metoder (bl.a. laktat, Maffetone og Snakketesten) til at finde din præcise intensitet.
+Zone 2 er den helt centrale zone til opbygning af din aerobe base, fedtforbrænding og mitokondrier. Læs vores komplette guide til **[Zone 2 træning og den aerobe tærskel](/zone-2-traening/)**, hvor du får 7 konkrete metoder (bl.a. laktat, Maffetone og [snakketesten](/snakketest/)) til at finde din præcise intensitet.
 
 </div>
 

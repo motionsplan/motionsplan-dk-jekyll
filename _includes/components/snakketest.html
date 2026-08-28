@@ -1,0 +1,242 @@
+<style>
+  /* ====== VANILLA CSS: REN SNAKKETEST WIDGET ====== */
+  #talk-widget {
+    max-width: 720px;
+    margin: 0 auto;
+    font-family: inherit;
+    color: #1e293b;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+  }
+  #talk-widget * { box-sizing: border-box; }
+
+  .talk-hidden { display: none !important; }
+  .talk-flex-between { display: flex; justify-content: space-between; align-items: center; }
+
+  /* Header & Titles */
+  .talk-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .talk-main-title { font-size: 1.25rem; font-weight: 800; display: flex; align-items: center; gap: 8px; color: #0f172a; margin: 0; }
+  .talk-section-title { font-size: 0.85rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+
+  /* Info Modal */
+  .talk-modal-overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(15, 23, 42, 0.75); border-radius: 16px; z-index: 70;
+    display: flex; justify-content: center; align-items: center; padding: 20px;
+  }
+  .talk-modal-content {
+    background: #fff; padding: 24px; border-radius: 12px; max-width: 580px;
+    max-height: 90%; overflow-y: auto; font-size: 0.88rem; line-height: 1.5;
+  }
+  .talk-info-btn {
+    background: #0284c7; color: #fff; border: none; border-radius: 50%;
+    width: 22px; height: 22px; font-size: 0.8rem; font-weight: bold;
+    cursor: pointer; display: inline-flex; justify-content: center; align-items: center;
+  }
+
+  /* Cards & Inputs */
+  .talk-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 16px; margin-bottom: 16px; }
+  .talk-card-blue { background: #eff6ff; border-color: #bfdbfe; }
+  .talk-label { display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 6px; }
+  .talk-select {
+    width: 100%; height: 38px; padding: 0 10px; border: 1px solid #cbd5e1; border-radius: 8px;
+    font-size: 0.92rem; font-weight: 700; background: #fff; color: #1e293b;
+  }
+
+  /* Læseboks */
+  .talk-passage {
+    font-size: 1rem; font-style: italic; line-height: 1.5; color: #1e293b;
+    background: #ffffff; padding: 14px; border-radius: 8px; border-left: 4px solid #0284c7;
+    margin-top: 6px; text-align: center; border-top: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;
+  }
+
+  /* 3 Talk Test Niveauer */
+  .talk-eval-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 6px; }
+  .talk-eval-card {
+    border: 1px solid #cbd5e1; border-radius: 10px; padding: 12px; background: #fff;
+    cursor: pointer; transition: all 0.15s; text-align: left;
+  }
+  .talk-eval-card:hover { border-color: #2563eb; transform: translateY(-1px); }
+  .talk-eval-card.active { border-width: 2px; }
+  .talk-card-green.active { border-color: #10b981; background: #ecfdf5; }
+  .talk-card-yellow.active { border-color: #f59e0b; background: #fffbeb; }
+  .talk-card-red.active { border-color: #ef4444; background: #fef2f2; }
+
+  /* Fuld-Bredde Resultatkort */
+  .talk-full-result {
+    background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 14px;
+    padding: 20px; margin-top: 16px;
+  }
+  .talk-result-header {
+    display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 1px solid #bfdbfe; padding-bottom: 12px; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;
+  }
+  .talk-zone-badge {
+    display: inline-block; padding: 5px 14px; border-radius: 20px; font-weight: 800; font-size: 0.85rem; color: #fff;
+  }
+  .talk-info-box {
+    background: #ffffff; padding: 12px 14px; border-radius: 10px; border: 1px solid #bfdbfe; margin-bottom: 10px;
+  }
+</style>
+
+<div id="talk-widget">
+
+    <!-- INFO MODAL -->
+    <div id="talk-modal" class="talk-modal-overlay talk-hidden">
+        <div class="talk-modal-content">
+            <div class="talk-flex-between" style="margin-bottom: 12px;">
+                <div style="font-size:1.1rem; font-weight:800;">Snakketest & Ventilatoriske Tærskler</div>
+                <button id="talk-modal-close" style="border:none; background:none; font-size:1.2rem; cursor:pointer;">✕</button>
+            </div>
+            <p><strong>Snakketesten (Talk Test)</strong> vurderer kroppens ventilatoriske tilstand direkte ud fra taleevnen under fysisk arbejde:</p>
+            <ul>
+                <li><strong>🟢 Positive (Ubesværet tale):</strong> Arbejdet foregår under den første ventilatoriske tærskel (VT1). Energiomsætningen er fuldstændig aerob. Korrelerer typisk med Borg 11–12.</li>
+                <li><strong>🟡 Equivocal (Tøvende / afbrudt tale):</strong> Du har ramt din <em>aerobe tærskel (VT1)</em>. Kuldioxidudskillelsen stiger, og åndedrættet forstyrrer talen hørbart. Korrelerer typisk med Borg 13–14.</li>
+                <li><strong>🔴 Negative (Umulig tale):</strong> Du arbejder i det tunge område ved eller over din <em>anærobe tærskel (VT2)</em>. Korrelerer typisk med Borg 15–17+.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div class="talk-header">
+        <div class="talk-main-title">
+            Snakketest (Talk Test)
+            <button id="talk-info-trigger" class="talk-info-btn" title="Læs om fysiologien">i</button>
+        </div>
+    </div>
+
+    <!-- SPROGVALG OG LÆSETEKST -->
+    <div class="talk-card talk-card-blue">
+        <div class="talk-flex-between" style="margin-bottom:8px;">
+            <label class="talk-label" style="margin:0;">1. Læs teksten højt under aktivitet:</label>
+            <select id="talk-lang-select" class="talk-select" style="width:180px; height:32px; font-size:0.8rem;">
+                <option value="da">Dansk Standardtekst</option>
+                <option value="en">Engelsk (Foster et al.)</option>
+            </select>
+        </div>
+        <div id="talk-text-passage" class="talk-passage">
+            "Solen skinner over det grønne landskab. Træerne kaster lange skygger, og fuglene synger i grene. Det er en dejlig dag til at mærke pulsen stige ubesværet."
+        </div>
+    </div>
+
+    <!-- 2. SNAKKETEST EVALUERING -->
+    <div style="margin-bottom:16px;">
+        <label class="talk-label">2. Vurder din taleevne under oplæsningen:</label>
+        <div class="talk-eval-grid">
+            <div class="talk-eval-card talk-card-green active" onclick="setTalkEval('positive', this)">
+                <div style="font-weight:800; color:#059669; font-size:0.88rem;">🟢 Positive</div>
+                <div style="font-size:0.8rem; color:#334155; margin-top:2px; font-weight:700;">Ubesværet tale</div>
+                <div style="font-size:0.72rem; color:#64748b; margin-top:2px;">Sætninger gennemføres uden pauser til luft.</div>
+            </div>
+            
+            <div class="talk-eval-card talk-card-yellow" onclick="setTalkEval('equivocal', this)">
+                <div style="font-weight:800; color:#d97706; font-size:0.88rem;">🟡 Equivocal</div>
+                <div style="font-size:0.8rem; color:#334155; margin-top:2px; font-weight:700;">Tøvende / afbrudt tale</div>
+                <div style="font-size:0.72rem; color:#64748b; margin-top:2px;">Må stoppe midtvejs for at trække vejret.</div>
+            </div>
+
+            <div class="talk-eval-card talk-card-red" onclick="setTalkEval('negative', this)">
+                <div style="font-weight:800; color:#dc2626; font-size:0.88rem;">🔴 Negative</div>
+                <div style="font-size:0.8rem; color:#334155; margin-top:2px; font-weight:700;">Umulig tale</div>
+                <div style="font-size:0.72rem; color:#64748b; margin-top:2px;">Kan kun sige enkelte ord ad gangen.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FULD-BREDDE RESULTATKORT -->
+    <div id="talk-result-card" class="talk-full-result">
+        <div class="talk-result-header">
+            <div>
+                <span class="talk-section-title" style="display:block; text-align:left;">Fysiologisk Tærskel-status</span>
+                <div id="res-zone-title" style="font-size:1.45rem; font-weight:900; color:#059669;">Under VT1 (Aerob Drift)</div>
+            </div>
+            <div style="text-align:right;">
+                <span id="res-zone-badge" class="talk-zone-badge" style="background:#10b981;">Aerob Zone</span>
+            </div>
+        </div>
+
+        <div class="talk-info-box">
+            <span style="font-size:0.75rem; font-weight:700; color:#64748b; display:block;">Forventet Oplevet Anstrengelse (Borg RPE)</span>
+            <strong style="font-size:0.95rem; color:#0f172a;" id="res-borg-val">Borg 11–12 (Lidt anstrengende)</strong>
+        </div>
+
+        <div class="talk-info-box" style="margin-bottom:0;">
+            <strong style="font-size:0.85rem; color:#1e293b; display:block; margin-bottom:4px;">Fysiologisk Forklaring:</strong>
+            <div id="res-physio-desc" style="font-size:0.82rem; color:#334155; line-height:1.4;">
+                Du befinder dig under den første ventilatoriske tærskel (VT1). Energiomsætningen er primært aerob, og laktat ophobes ikke i blodet.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- VANILLA JS -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let currentEval = 'positive';
+
+    const texts = {
+        da: "Solen skinner over det grønne landskab. Træerne kaster lange skygger, og fuglene synger i grene. Det er en dejlig dag til at mærke pulsen stige ubesværet.",
+        en: "I pledge allegiance to the flag of the United States of America and to the Republic for which it stands, one nation under God, indivisible, with liberty and justice for all."
+    };
+
+    const elLangSelect = document.getElementById('talk-lang-select');
+    const elTextPassage = document.getElementById('talk-text-passage');
+
+    // 1. SPROG SKIFT
+    elLangSelect.addEventListener('change', function() {
+        elTextPassage.textContent = '"' + texts[this.value] + '"';
+    });
+
+    // 2. KRITERIE SÆTTER
+    window.setTalkEval = function(type, cardEl) {
+        currentEval = type;
+        document.querySelectorAll('.talk-eval-card').forEach(c => c.classList.remove('active'));
+        cardEl.classList.add('active');
+        updateResults();
+    };
+
+    // 3. RESULTAT OPDATERING
+    function updateResults() {
+        let zTitle = "Under VT1 (Aerob Drift)";
+        let zBadge = "Aerob Zone";
+        let zBadgeBg = "#10b981";
+        let borgText = "Borg 11–12 (Lidt anstrengende)";
+        let physio = "Du befinder dig under den første ventilatoriske tærskel (VT1). Energiomsætningen er primært aerob, og laktat ophobes ikke i blodet.";
+
+        if (currentEval === 'equivocal') {
+            zTitle = "Lige på VT1 (Aerob Tærskel)";
+            zBadge = "VT1 Tærskel-punkt";
+            zBadgeBg = "#f59e0b";
+            borgText = "Borg 13–14 (Noget anstrengende)";
+            physio = "Du har ramt din aerobe tærskel (VT1) præcist. Laktatdannelsen øges svagt, og kroppen udlufter ekstra CO2 via lungerne, hvilket forstyrrer talen hørbart.";
+        } else if (currentEval === 'negative') {
+            zTitle = "Ved / Over VT2 (Anærob Tærskel)";
+            zBadge = "VT2 / Anærob Zone";
+            zBadgeBg = "#ef4444";
+            borgText = "Borg 15–17+ (Anstrengende til Meget anstrengende)";
+            physio = "Du befinder dig ved eller over din anærobe tærskel (VT2 / Respiratory Compensation Threshold). Vejrtrækningen hyperventilerer for at kompensere for syreophobning i blodet.";
+        }
+
+        document.getElementById('res-zone-title').textContent = zTitle;
+        document.getElementById('res-zone-title').style.color = zBadgeBg;
+        document.getElementById('res-zone-badge').textContent = zBadge;
+        document.getElementById('res-zone-badge').style.background = zBadgeBg;
+
+        document.getElementById('res-borg-val').textContent = borgText;
+        document.getElementById('res-physio-desc').textContent = physio;
+    }
+
+    // Modal Events
+    document.getElementById('talk-info-trigger').onclick = () => document.getElementById('talk-modal').classList.remove('talk-hidden');
+    document.getElementById('talk-modal-close').onclick = () => document.getElementById('talk-modal').classList.add('talk-hidden');
+
+    updateResults();
+});
+</script>

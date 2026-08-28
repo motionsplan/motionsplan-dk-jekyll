@@ -89,7 +89,7 @@ Der opstår ofte forvirring omkring de to tærskler. De repræsentererto vidt fo
 Hvordan finder du ud af, hvor din egen aerobe tærskel ligger i puls, watt eller min/km? Her er 6 metoder arrangeret fra den mest tilgængelige hverdagsmetode til avanceret laboratorieanalyse:
 
 ### 1. Snakketesten (Ventilatorisk tærskel - VT1)
-Din åndedrætsfrekvens er koblet direkte til kroppens kuldioxidproduktion og laktatniveau. Snakketesten er den mest praktiske metode i hverdagen:
+Din åndedrætsfrekvens er koblet direkte til kroppens kuldioxidproduktion og laktatniveau. [Snakketesten](/snakketest/) er den mest praktiske metode i hverdagen:
 * **Under LT1:** Du kan føre en ubesværet samtale i hele, lange sætninger uden at skulle efterfylde med luft.
 * **Lige ved LT1:** Vejrtrækningen skifter karakter, og du bliver nødt til at tage en kortere indånding midt i en sætning.
 * **Belastningsfølelse:** Svarer typisk til omkring **13–14 på Borg-skalaen** (eller 3–4 på en 1–10 RPE-skala).

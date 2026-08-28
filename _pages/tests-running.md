@@ -90,7 +90,7 @@ Valget af løbetest afhænger af dine personlige mål, dit nuværende træningsn
 * 🚶‍♂️ **Skånsom test for begyndere (Submaksimal):** Vælg **[1609 m jogging-test](/submaximal-jogging-test-vo2/)** eller **[Rockport gå-test](/gaatest/)**, hvis du vil estimere dit kondital ud fra tid og puls – helt uden at presse hjerte og led til udmattelse.
 * ⚽ **Holdidræt og interval-kapacitet:** Vælg **[Bip-testen](/bip-test/)** eller **[Yo-Yo testen](/yoyo-test/)**, hvis du skal måle evnen til at udføre gentagne, intense ryk og restituere hurtigt undervejs.
 * ⏱️ **Find dit præcise interval-tempo ($v\text{VO}_2\text{max}$):** Vælg **[6-minutters all-out test](/billat-vvovmax-tlimvo2max/)**, hvis du skal bruge din nøjagtige løbehastighed ved maksimal iltoptagelse til at skræddersy dit næste intervalprogram.
-* 🔬 **100 % præcision (Laboratorium):** Vælg en **[Løbebåndstest med iltmaske](/iltoptagelse-submax-trappetest-ramp-maxtest-loeb/)**, hvis du vil have en fysiologisk, direkte måling af dit kondital og dine individuelle pulszoner.
+* 🔬 **100 % præcision (Laboratorium):** Vælg en **[Løbebåndstest med iltmaske](/iltoptagelsestest-loebebaand/)**, hvis du vil have en fysiologisk, direkte måling af dit kondital og dine individuelle pulszoner.
 * 👟 **Fokus på skadesfri løb (Teknik):** Hvis dit mål ikke er at måle formen, men derimod at optimere din kropsholdning, kadence og undgå skader, bør du kigge på en **[Løbestilsanalyse](/loebeteknik/)**.
 
 ---
