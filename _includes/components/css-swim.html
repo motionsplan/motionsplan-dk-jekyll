@@ -1,0 +1,260 @@
+<style>
+  /* ====== VANILLA CSS: CSS & SVØMMEZONE WIDGET ====== */
+  #css-widget {
+    max-width: 720px;
+    margin: 0 auto;
+    font-family: inherit;
+    color: #1e293b;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+  }
+  #css-widget * { box-sizing: border-box; }
+
+  /* Utilities */
+  .css-hidden { display: none !important; }
+  .css-flex-between { display: flex; justify-content: space-between; align-items: center; }
+
+  /* Header & Titles */
+  .css-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .css-main-title { font-size: 1.25rem; font-weight: 800; display: flex; align-items: center; gap: 8px; color: #0f172a; margin: 0; }
+  .css-section-title { font-size: 0.85rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+
+  /* Modal */
+  .css-modal-overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(15, 23, 42, 0.75); border-radius: 16px; z-index: 70;
+    display: flex; justify-content: center; align-items: center; padding: 20px;
+  }
+  .css-modal-content {
+    background: #fff; padding: 24px; border-radius: 12px; max-width: 580px;
+    max-height: 90%; overflow-y: auto; font-size: 0.88rem; line-height: 1.5;
+  }
+  .css-info-btn {
+    background: #0284c7; color: #fff; border: none; border-radius: 50%;
+    width: 22px; height: 22px; font-size: 0.8rem; font-weight: bold;
+    cursor: pointer; display: inline-flex; justify-content: center; align-items: center;
+  }
+
+  /* Cards & Inputs */
+  .css-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+  .css-card-blue { background: #eff6ff; border-color: #bfdbfe; }
+  .css-label { display: block; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 6px; }
+  
+  .css-input-group { display: flex; align-items: center; gap: 4px; }
+  .css-input {
+    width: 100%; height: 38px; padding: 0 8px; border: 1px solid #cbd5e1; border-radius: 8px;
+    text-align: center; font-size: 0.95rem; font-weight: 700; background: #fff; color: #1e293b;
+  }
+
+  /* Formel forklaring */
+  .css-formula-text { font-size: 0.78rem; color: #64748b; line-height: 1.4; margin-top: 8px; }
+
+  /* Resultatkort */
+  .css-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 16px; }
+  @media (max-width: 520px) { .css-grid-2 { grid-template-columns: 1fr; } }
+
+  .css-res-card {
+    background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 12px;
+    padding: 16px; text-align: center; display: flex; flex-direction: column; justify-content: center;
+  }
+  .css-res-val { font-size: 2.8rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 4px 0; }
+  .css-res-unit { font-size: 0.82rem; font-weight: 700; color: #2563eb; }
+
+  /* Zone Tabel */
+  .css-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 6px; }
+  .css-table th, .css-table td { padding: 9px 10px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+  .css-table th { background: #f1f5f9; color: #475569; font-weight: 700; }
+  .css-zone-badge {
+    display: inline-block; padding: 2px 8px; border-radius: 6px; font-weight: 800; font-size: 0.75rem; color: #fff;
+  }
+</style>
+
+<div id="css-widget">
+
+    <div id="css-modal" class="css-modal-overlay css-hidden">
+        <div class="css-modal-content">
+            <div class="css-flex-between" style="margin-bottom: 12px;">
+                <div style="font-size:1.1rem; font-weight:800;">CSS Testprotokol & Teorien</div>
+                <button id="css-modal-close" style="border:none; background:none; font-size:1.2rem; cursor:pointer;">✕</button>
+            </div>
+            <p><strong>Critical Swim Speed (CSS)</strong> er den teoretiske svømmehastighed, der svarer til din anærobe tærskel (laktattærskel) i vandet.</p>
+            <p><strong>Sådan udfører du testen i bassinet:</strong></p>
+            <ol>
+                <li><strong>Grundig opvarmning:</strong> 400–600 meter blandet svømning med et par korte stigninger.</li>
+                <li><strong>400m Time Trial:</strong> Svøm 400 meter med maksimal, jævn kadence. Notér tiden præcist.</li>
+                <li><strong>Aktiv pause:</strong> 10–15 minutters let svømning og hvile.</li>
+                <li><strong>50m Time Trial:</strong> Svøm 50 meter sprint ("all-out"). Notér tiden præcist.</li>
+            </ol>
+            <p>Formlen eliminerer accelerations- og frasætseffekten, så kun din funktionelle tærskelhastighed måles.</p>
+        </div>
+    </div>
+
+    <div class="css-header">
+        <div class="css-main-title">
+            Critical Swim Speed (CSS)
+            <button id="css-info-trigger" class="css-info-btn" title="Læs om testprotokollen">i</button>
+        </div>
+    </div>
+
+    <div class="css-card css-card-blue">
+        <span class="css-section-title" style="display:block; margin-bottom:10px;">Indtast Testtider</span>
+        
+        <div class="css-grid-2">
+            <div>
+                <label class="css-label">400 meter All-Out Tid:</label>
+                <div class="css-input-group">
+                    <input type="number" id="t400-min" class="css-input" placeholder="min" min="3" max="20" value="6">
+                    <span style="font-weight:bold;">:</span>
+                    <input type="number" id="t400-sec" class="css-input" placeholder="sek" min="0" max="59" value="00">
+                </div>
+            </div>
+
+            <div>
+                <label class="css-label">50 meter All-Out Tid:</label>
+                <div class="css-input-group">
+                    <input type="number" id="t50-min" class="css-input" placeholder="min" min="0" max="5" value="0">
+                    <span style="font-weight:bold;">:</span>
+                    <input type="number" id="t50-sec" class="css-input" placeholder="sek" min="0" max="59" value="40">
+                </div>
+            </div>
+        </div>
+
+        <div class="css-formula-text">
+            * Beregnes via formlen: $CSS = \frac{400 - 50}{T_{400} - T_{50}}$. Eliminering af startkraften giver dit sande tærskeltempo i bassinet.
+        </div>
+    </div>
+
+    <div class="css-grid-2">
+        <div class="css-res-card">
+            <span class="css-section-title" style="margin:0;">CSS Tærskeltempo</span>
+            <div id="res-css-pace" class="css-res-val">1:31</div>
+            <span class="css-res-unit">min : sek / 100m</span>
+        </div>
+
+        <div class="css-res-card">
+            <span class="css-section-title" style="margin:0;">Tærskelhastighed</span>
+            <div id="res-css-speed" class="css-res-val">1.09</div>
+            <span class="css-res-unit">meter pr. sekund (m/s)</span>
+        </div>
+    </div>
+
+    <div class="css-card" style="margin-bottom:0;">
+        <span class="css-section-title" style="display:block; margin-bottom:8px;">Træningszoner for Svømning</span>
+        <table class="css-table">
+            <thead>
+                <tr>
+                    <th>Zone</th>
+                    <th>Tempo / 100m</th>
+                    <th>Fokus & Anvendelse</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="css-zone-badge" style="background:#0284c7;">Zone 1</span></td>
+                    <td><strong id="z1-pace">1:39 - 1:41</strong></td>
+                    <td style="color:#475569;">Restitution & Let opvarmning (CSS + 8 til 10s)</td>
+                </tr>
+                <tr>
+                    <td><span class="css-zone-badge" style="background:#10b981;">Zone 2</span></td>
+                    <td><strong id="z2-pace">1:35 - 1:37</strong></td>
+                    <td style="color:#475569;">Udholdenhed & Triatlon Pace (CSS + 4 til 6s)</td>
+                </tr>
+                <tr>
+                    <td><span class="css-zone-badge" style="background:#f59e0b;">Zone 3</span></td>
+                    <td><strong id="z3-pace">1:30 - 1:33</strong></td>
+                    <td style="color:#475569;">CSS Tærskelsæt & Anærob Tærskel (CSS ± 1-2s)</td>
+                </tr>
+                <tr>
+                    <td><span class="css-zone-badge" style="background:#ef4444;">Zone 4</span></td>
+                    <td><strong id="z4-pace">1:26 - 1:28</strong></td>
+                    <td style="color:#475569;">VO₂max & Korte Sprint Sæt (CSS - 3 til 5s)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const inT400Min = document.getElementById('t400-min');
+    const inT400Sec = document.getElementById('t400-sec');
+    const inT50Min = document.getElementById('t50-min');
+    const inT50Sec = document.getElementById('t50-sec');
+
+    function formatTimePace(sec) {
+        if (isNaN(sec) || sec <= 0) return "--:--";
+        let m = Math.floor(sec / 60);
+        let s = Math.round(sec % 60);
+        if (s === 60) { m++; s = 0; }
+        return m + ":" + (s < 10 ? "0" : "") + s;
+    }
+
+    function calculateCSS() {
+        let m400 = parseFloat(inT400Min.value) || 0;
+        let s400 = parseFloat(inT400Sec.value) || 0;
+        let m50 = parseFloat(inT50Min.value) || 0;
+        let s50 = parseFloat(inT50Sec.value) || 0;
+
+        let t400sec = (m400 * 60) + s400;
+        let t50sec = (m50 * 60) + s50;
+
+        if (t400sec <= t50sec || t400sec === 0 || t50sec === 0) {
+            document.getElementById('res-css-pace').textContent = "--:--";
+            document.getElementById('res-css-speed').textContent = "0.00";
+            document.getElementById('z1-pace').textContent = "--:--";
+            document.getElementById('z2-pace').textContent = "--:--";
+            document.getElementById('z3-pace').textContent = "--:--";
+            document.getElementById('z4-pace').textContent = "--:--";
+            return;
+        }
+
+        // CSS Formel: (400 - 50) / (T400 - T50) i m/s
+        let cssSpeedMs = 350 / (t400sec - t50sec);
+        
+        // CSS Tempo pr. 100m i sekunder
+        let cssPaceSec = 100 / cssSpeedMs;
+
+        document.getElementById('res-css-pace').textContent = formatTimePace(cssPaceSec);
+        document.getElementById('res-css-speed').textContent = cssSpeedMs.toFixed(2);
+
+        // Zone Belysning
+        // Z1: CSS + 8s til +10s
+        let z1Low = cssPaceSec + 8;
+        let z1High = cssPaceSec + 10;
+        document.getElementById('z1-pace').textContent = formatTimePace(z1Low) + " - " + formatTimePace(z1High);
+
+        // Z2: CSS + 4s til +6s
+        let z2Low = cssPaceSec + 4;
+        let z2High = cssPaceSec + 6;
+        document.getElementById('z2-pace').textContent = formatTimePace(z2Low) + " - " + formatTimePace(z2High);
+
+        // Z3: CSS -1s til +2s
+        let z3Low = cssPaceSec - 1;
+        let z3High = cssPaceSec + 2;
+        document.getElementById('z3-pace').textContent = formatTimePace(z3Low) + " - " + formatTimePace(z3High);
+
+        // Z4: CSS -5s til -3s
+        let z4Low = cssPaceSec - 5;
+        let z4High = cssPaceSec - 3;
+        document.getElementById('z4-pace').textContent = formatTimePace(z4Low) + " - " + formatTimePace(z4High);
+    }
+
+    inT400Min.addEventListener('input', calculateCSS);
+    inT400Sec.addEventListener('input', calculateCSS);
+    inT50Min.addEventListener('input', calculateCSS);
+    inT50Sec.addEventListener('input', calculateCSS);
+
+    // Modal Events
+    document.getElementById('css-info-trigger').onclick = () => document.getElementById('css-modal').classList.remove('css-hidden');
+    document.getElementById('css-modal-close').onclick = () => document.getElementById('css-modal').classList.add('css-hidden');
+
+    calculateCSS();
+});
+</script>

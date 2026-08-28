@@ -1,0 +1,441 @@
+<style>
+  /* ====== VANILLA CSS: TRIATLON PACING WIDGET ====== */
+  #tri-widget {
+    max-width: 740px;
+    margin: 0 auto;
+    font-family: inherit;
+    color: #1e293b;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+  }
+  #tri-widget * { box-sizing: border-box; }
+
+  /* Utilities */
+  .tri-hidden { display: none !important; }
+  .tri-flex-between { display: flex; justify-content: space-between; align-items: center; }
+
+  /* Header & Titles */
+  .tri-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .tri-main-title { font-size: 1.25rem; font-weight: 800; display: flex; align-items: center; gap: 8px; color: #0f172a; margin: 0; }
+  .tri-section-title { font-size: 0.85rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+
+  /* Modal */
+  .tri-modal-overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(15, 23, 42, 0.75); border-radius: 16px; z-index: 70;
+    display: flex; justify-content: center; align-items: center; padding: 20px;
+  }
+  .tri-modal-content {
+    background: #fff; padding: 24px; border-radius: 12px; max-width: 580px;
+    max-height: 90%; overflow-y: auto; font-size: 0.88rem; line-height: 1.5;
+  }
+  .tri-info-btn {
+    background: #0284c7; color: #fff; border: none; border-radius: 50%;
+    width: 22px; height: 22px; font-size: 0.8rem; font-weight: bold;
+    cursor: pointer; display: inline-flex; justify-content: center; align-items: center;
+  }
+
+  /* Distance Presets Tabs */
+  .tri-dist-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px; margin-bottom: 16px; }
+  .tri-dist-btn {
+    border: 1px solid #cbd5e1; background: #fff; color: #334155;
+    padding: 10px 8px; font-size: 0.82rem; font-weight: 700; border-radius: 8px; cursor: pointer;
+    text-align: center; transition: all 0.15s;
+  }
+  .tri-dist-btn:hover { border-color: #2563eb; background: #f8fafc; }
+  .tri-dist-btn.active { background: #2563eb; color: #fff; border-color: #2563eb; }
+
+  /* Cards & Inputs */
+  .tri-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+  .tri-card-blue { background: #eff6ff; border-color: #bfdbfe; }
+
+  .tri-input-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+  .tri-label { display: block; font-size: 0.78rem; font-weight: 700; color: #475569; margin-bottom: 4px; }
+  
+  .tri-input-group { display: flex; align-items: center; gap: 4px; }
+  .tri-input {
+    width: 100%; height: 36px; padding: 0 8px; border: 1px solid #cbd5e1; border-radius: 8px;
+    text-align: center; font-size: 0.9rem; font-weight: 700; background: #fff; color: #1e293b;
+  }
+
+  /* Total Time Hero Card */
+  .tri-hero-card {
+    background: #0f172a; color: #fff; border-radius: 14px; padding: 20px;
+    text-align: center; margin-bottom: 16px;
+  }
+  .tri-hero-title { font-size: 0.85rem; font-weight: 700; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.8px; }
+  .tri-hero-val { font-size: 3.2rem; font-weight: 900; color: #38bdf8; line-height: 1.1; margin: 4px 0; font-variant-numeric: tabular-nums; }
+
+  /* Visual Distribution Bar */
+  .tri-dist-bar-wrapper { margin-top: 10px; }
+  .tri-dist-bar { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: #334155; }
+  .tri-bar-seg { height: 100%; transition: width 0.3s ease; }
+  .tri-bar-swim { background: #0284c7; }
+  .tri-bar-t1 { background: #94a3b8; }
+  .tri-bar-bike { background: #f59e0b; }
+  .tri-bar-t2 { background: #cbd5e1; }
+  .tri-bar-run { background: #10b981; }
+
+  /* Split Table */
+  .tri-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 6px; }
+  .tri-table th, .tri-table td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+  .tri-table th { background: #f1f5f9; color: #475569; font-weight: 700; }
+  .tri-badge { display: inline-block; padding: 2px 8px; border-radius: 6px; font-weight: 800; font-size: 0.75rem; color: #fff; }
+</style>
+
+<div id="tri-widget">
+
+    <!-- INFO MODAL -->
+    <div id="tri-modal" class="tri-modal-overlay tri-hidden">
+        <div class="tri-modal-content">
+            <div class="tri-flex-between" style="margin-bottom: 12px;">
+                <div style="font-size:1.1rem; font-weight:800;">Pacing & Triatlon Strategi</div>
+                <button id="tri-modal-close" style="border:none; background:none; font-size:1.2rem; cursor:pointer;">✕</button>
+            </div>
+            <p><strong>Pacing er nøglen til et godt triatlonstævne.</strong> De fleste triatleter taber ikke tid på svømningen, men på løbet pga. for høj intensitet på cyklen.</p>
+            <ul>
+                <li><strong>Svømning:</strong> Hold et jævnt tempo og udnyt draft (ligge på snor efter andre).</li>
+                <li><strong>Skiftetider (T1 & T2):</strong> Effektivitet i skiftezonen kan let spare 2–5 minutter uden ekstra energiforbrug.</li>
+                <li><strong>Cykling:</strong> Hold igen på de første 20% af cyklingen. At overskride sin tærskel i bakker eller modvind koster dyrt på løbet.</li>
+                <li><strong>Løb & Træthedsfaktor:</strong> De fleste løber 5–10% langsommere til triatlon end på et rent maraton/halvmaraton. Slå "Træthedsfaktor"-knappen til for et mere realistisk estimat.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div class="tri-header">
+        <div class="tri-main-title">
+            Triatlon Løbstids- & Pacing-Beregner 🏊‍♂️🚴‍♂️🏃‍♂️
+            <button id="tri-info-trigger" class="tri-info-btn" title="Læs om pacing-strategi">i</button>
+        </div>
+    </div>
+
+    <!-- DISTANCE SELECTION -->
+    <div class="tri-dist-grid">
+        <button type="button" class="tri-dist-btn" onclick="selectDistance('sprint', this)">Sprint<br><small style="font-weight:normal;">750m / 20k / 5k</small></button>
+        <button type="button" class="tri-dist-btn" onclick="selectDistance('olympic', this)">Olympisk<br><small style="font-weight:normal;">1.5k / 40k / 10k</small></button>
+        <button type="button" class="tri-dist-btn active" onclick="selectDistance('half', this)">70.3 (Halv)<br><small style="font-weight:normal;">1.9k / 90k / 21.1k</small></button>
+        <button type="button" class="tri-dist-btn" onclick="selectDistance('full', this)">140.6 (Full)<br><small style="font-weight:normal;">3.8k / 180k / 42.2k</small></button>
+    </div>
+
+    <!-- INPUTS CARD -->
+    <div class="tri-card tri-card-blue">
+        <span class="tri-section-title" style="display:block;">1. Svømning</span>
+        <div class="tri-input-grid" style="margin-bottom:14px;">
+            <div>
+                <label class="tri-label">Distance (meter)</label>
+                <input type="number" id="tri-swim-dist" class="tri-input" value="1900">
+            </div>
+            <div>
+                <label class="tri-label">Svømmetempo (min:sek / 100m)</label>
+                <div class="tri-input-group">
+                    <input type="number" id="tri-swim-min" class="tri-input" value="1" min="0">
+                    <span style="font-weight:bold;">:</span>
+                    <input type="number" id="tri-swim-sec" class="tri-input" value="45" min="0" max="59">
+                </div>
+            </div>
+        </div>
+
+        <span class="tri-section-title" style="display:block;">2. Skifte T1 (Svøm ➔ Cykel)</span>
+        <div class="tri-input-grid" style="margin-bottom:14px;">
+            <div>
+                <label class="tri-label">Forventet T1 Tid (min:sek)</label>
+                <div class="tri-input-group">
+                    <input type="number" id="tri-t1-min" class="tri-input" value="3" min="0">
+                    <span style="font-weight:bold;">:</span>
+                    <input type="number" id="tri-t1-sec" class="tri-input" value="30" min="0" max="59">
+                </div>
+            </div>
+        </div>
+
+        <span class="tri-section-title" style="display:block;">3. Cykling</span>
+        <div class="tri-input-grid" style="margin-bottom:14px;">
+            <div>
+                <label class="tri-label">Distance (km)</label>
+                <input type="number" id="tri-bike-dist" class="tri-input" value="90">
+            </div>
+            <div>
+                <label class="tri-label">Gennemsnitshastighed (km/t)</label>
+                <input type="number" id="tri-bike-speed" class="tri-input" value="31.5" step="0.5">
+            </div>
+        </div>
+
+        <span class="tri-section-title" style="display:block;">4. Skifte T2 (Cykel ➔ Løb)</span>
+        <div class="tri-input-grid" style="margin-bottom:14px;">
+            <div>
+                <label class="tri-label">Forventet T2 Tid (min:sek)</label>
+                <div class="tri-input-group">
+                    <input type="number" id="tri-t2-min" class="tri-input" value="2" min="0">
+                    <span style="font-weight:bold;">:</span>
+                    <input type="number" id="tri-t2-sec" class="tri-input" value="15" min="0" max="59">
+                </div>
+            </div>
+        </div>
+
+        <span class="tri-section-title" style="display:block;">5. Løb</span>
+        <div class="tri-input-grid">
+            <div>
+                <label class="tri-label">Distance (km)</label>
+                <input type="number" id="tri-run-dist" class="tri-input" value="21.1" step="0.1">
+            </div>
+            <div>
+                <label class="tri-label">Grundtempo Løb (min:sek / km)</label>
+                <div class="tri-input-group">
+                    <input type="number" id="tri-run-min" class="tri-input" value="5" min="0">
+                    <span style="font-weight:bold;">:</span>
+                    <input type="number" id="tri-run-sec" class="tri-input" value="15" min="0" max="59">
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top:12px; background:#fff; padding:10px 12px; border-radius:8px; border:1px solid #bfdbfe;">
+            <label style="font-size:0.8rem; font-weight:700; color:#1e293b; cursor:pointer; display:flex; align-items:center; gap:8px;">
+                <input type="checkbox" id="tri-penalty-check" checked style="width:16px; height:16px; accent-color:#2563eb;">
+                Tilføj realistisk cykeltræthed (+7% langsommere løbetempo)
+            </label>
+        </div>
+    </div>
+
+    <!-- TOTAL TIME HERO DISPLAY -->
+    <div class="tri-hero-card">
+        <div class="tri-hero-title">Beregnet Estimeret Sluttid</div>
+        <div id="tri-total-time" class="tri-hero-val">04:52:18</div>
+        <div style="font-size:0.8rem; color:#94a3b8;" id="tri-hero-subtext">Baseret på 70.3 Halv Ironman parametre</div>
+
+        <!-- VISUAL TIME DISTRIBUTION BAR -->
+        <div class="tri-dist-bar-wrapper">
+            <div class="tri-dist-bar">
+                <div id="bar-swim" class="tri-bar-seg tri-bar-swim" style="width: 15%;" title="Svømning"></div>
+                <div id="bar-t1" class="tri-bar-seg tri-bar-t1" style="width: 2%;" title="T1"></div>
+                <div id="bar-bike" class="tri-bar-seg tri-bar-bike" style="width: 55%;" title="Cykling"></div>
+                <div id="bar-t2" class="tri-bar-seg tri-bar-t2" style="width: 1%;" title="T2"></div>
+                <div id="bar-run" class="tri-bar-seg tri-bar-run" style="width: 27%;" title="Løb"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SPLITTABLE -->
+    <div class="tri-card" style="margin-bottom:0;">
+        <span class="tri-section-title" style="display:block; margin-bottom:8px;">Disciplin Splittider & Fordeling</span>
+        <table class="tri-table">
+            <thead>
+                <tr>
+                    <th>Disciplin</th>
+                    <th>Tempo / Fart</th>
+                    <th>Split Tid</th>
+                    <th>Andel %</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="tri-badge" style="background:#0284c7;">Svømning</span></td>
+                    <td id="tbl-swim-pace">1:45 /100m</td>
+                    <td><strong id="tbl-swim-time">00:33:15</strong></td>
+                    <td id="tbl-swim-pct">11%</td>
+                </tr>
+                <tr>
+                    <td><span class="tri-badge" style="background:#64748b;">T1 Skifte</span></td>
+                    <td>-</td>
+                    <td><strong id="tbl-t1-time">00:03:30</strong></td>
+                    <td id="tbl-t1-pct">1%</td>
+                </tr>
+                <tr>
+                    <td><span class="tri-badge" style="background:#f59e0b;">Cykling</span></td>
+                    <td id="tbl-bike-speed">31.5 km/t</td>
+                    <td><strong id="tbl-bike-time">02:51:25</strong></td>
+                    <td id="tbl-bike-pct">58%</td>
+                </tr>
+                <tr>
+                    <td><span class="tri-badge" style="background:#94a3b8;">T2 Skifte</span></td>
+                    <td>-</td>
+                    <td><strong id="tbl-t2-time">00:02:15</strong></td>
+                    <td id="tbl-t2-pct">1%</td>
+                </tr>
+                <tr>
+                    <td><span class="tri-badge" style="background:#10b981;">Løb</span></td>
+                    <td id="tbl-run-pace">5:37 /km</td>
+                    <td><strong id="tbl-run-time">01:58:11</strong></td>
+                    <td id="tbl-run-pct">29%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<!-- VANILLA JS -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const presetDistances = {
+        sprint:  { swim: 750,  bike: 20,   run: 5,    name: 'Sprint Triatlon' },
+        olympic: { swim: 1500, bike: 40,   run: 10,   name: 'Olympisk Triatlon' },
+        half:    { swim: 1900, bike: 90,   run: 21.1, name: '70.3 Halv Ironman' },
+        full:    { swim: 3800, bike: 180,  run: 42.2, name: '140.6 Full Ironman' }
+    };
+
+    let currentPreset = 'half';
+
+    // Inputs
+    const elSwimDist = document.getElementById('tri-swim-dist');
+    const elSwimMin = document.getElementById('tri-swim-min');
+    const elSwimSec = document.getElementById('tri-swim-sec');
+
+    const elT1Min = document.getElementById('tri-t1-min');
+    const elT1Sec = document.getElementById('tri-t1-sec');
+
+    const elBikeDist = document.getElementById('tri-bike-dist');
+    const elBikeSpeed = document.getElementById('tri-bike-speed');
+
+    const elT2Min = document.getElementById('tri-t2-min');
+    const elT2Sec = document.getElementById('tri-t2-sec');
+
+    const elRunDist = document.getElementById('tri-run-dist');
+    const elRunMin = document.getElementById('tri-run-min');
+    const elRunSec = document.getElementById('tri-run-sec');
+    const elPenaltyCheck = document.getElementById('tri-penalty-check');
+
+    // Helper: Sekunder til HH:MM:SS
+    function fmtHHMMSS(totalSec) {
+        if (isNaN(totalSec) || totalSec < 0) return "00:00:00";
+        let h = Math.floor(totalSec / 3600);
+        let m = Math.floor((totalSec % 3600) / 60);
+        let s = Math.round(totalSec % 60);
+
+        if (s === 60) { m++; s = 0; }
+        if (m === 60) { h++; m = 0; }
+
+        let hStr = h.toString().padStart(2, '0');
+        let mStr = m.toString().padStart(2, '0');
+        let sStr = s.toString().padStart(2, '0');
+
+        return hStr + ":" + mStr + ":" + sStr;
+    }
+
+    function fmtPace(sec) {
+        let m = Math.floor(sec / 60);
+        let s = Math.round(sec % 60);
+        if (s === 60) { m++; s = 0; }
+        return m + ":" + (s < 10 ? "0" : "") + s;
+    }
+
+    // Distance Preset Handler
+    window.selectDistance = function(type, btnEl) {
+        currentPreset = type;
+        document.querySelectorAll('.tri-dist-btn').forEach(b => b.classList.remove('active'));
+        if (btnEl) btnEl.classList.add('active');
+
+        let data = presetDistances[type];
+        if (data) {
+            elSwimDist.value = data.swim;
+            elBikeDist.value = data.bike;
+            elRunDist.value = data.run;
+            
+            // Justér standard skiftetider efter distance
+            if (type === 'sprint' || type === 'olympic') {
+                elT1Min.value = 2; elT1Sec.value = 0;
+                elT2Min.value = 1; elT2Sec.value = 30;
+            } else {
+                elT1Min.value = 3; elT1Sec.value = 30;
+                elT2Min.value = 2; elT2Sec.value = 15;
+            }
+        }
+        calculateTriathlon();
+    };
+
+    function calculateTriathlon() {
+        // 1. Svømning
+        let swimDistM = parseFloat(elSwimDist.value) || 0;
+        let swimPaceSec = ((parseFloat(elSwimMin.value) || 0) * 60) + (parseFloat(elSwimSec.value) || 0);
+        let swimTotalSec = (swimDistM / 100) * swimPaceSec;
+
+        // 2. T1
+        let t1TotalSec = ((parseFloat(elT1Min.value) || 0) * 60) + (parseFloat(elT1Sec.value) || 0);
+
+        // 3. Cykling
+        let bikeDistKm = parseFloat(elBikeDist.value) || 0;
+        let bikeSpeedKmh = parseFloat(elBikeSpeed.value) || 0;
+        let bikeTotalSec = bikeSpeedKmh > 0 ? (bikeDistKm / bikeSpeedKmh) * 3600 : 0;
+
+        // 4. T2
+        let t2TotalSec = ((parseFloat(elT2Min.value) || 0) * 60) + (parseFloat(elT2Sec.value) || 0);
+
+        // 5. Løb
+        let runDistKm = parseFloat(elRunDist.value) || 0;
+        let baseRunPaceSec = ((parseFloat(elRunMin.value) || 0) * 60) + (parseFloat(elRunSec.value) || 0);
+        
+        // Træthedsfaktor (+7%)
+        let effectiveRunPaceSec = elPenaltyCheck.checked ? baseRunPaceSec * 1.07 : baseRunPaceSec;
+        let runTotalSec = runDistKm * effectiveRunPaceSec;
+
+        // Total
+        let grandTotalSec = swimTotalSec + t1TotalSec + bikeTotalSec + t2TotalSec + runTotalSec;
+
+        // Opdater DOM Display
+        document.getElementById('tri-total-time').textContent = fmtHHMMSS(grandTotalSec);
+        
+        let presetObj = presetDistances[currentPreset];
+        document.getElementById('tri-hero-subtext').textContent = "Baseret på " + (presetObj ? presetObj.name : "tilpassede") + " parametre";
+
+        // Procentfordeling
+        let pctSwim = grandTotalSec > 0 ? ((swimTotalSec / grandTotalSec) * 100) : 0;
+        let pctT1   = grandTotalSec > 0 ? ((t1TotalSec / grandTotalSec) * 100) : 0;
+        let pctBike = grandTotalSec > 0 ? ((bikeTotalSec / grandTotalSec) * 100) : 0;
+        let pctT2   = grandTotalSec > 0 ? ((t2TotalSec / grandTotalSec) * 100) : 0;
+        let pctRun  = grandTotalSec > 0 ? ((runTotalSec / grandTotalSec) * 100) : 0;
+
+        // Opdater Visuel Bar
+        document.getElementById('bar-swim').style.width = pctSwim + '%';
+        document.getElementById('bar-t1').style.width   = pctT1 + '%';
+        document.getElementById('bar-bike').style.width = pctBike + '%';
+        document.getElementById('bar-t2').style.width   = pctT2 + '%';
+        document.getElementById('bar-run').style.width  = pctRun + '%';
+
+        // Opdater Tabel
+        document.getElementById('tbl-swim-pace').textContent = fmtPace(swimPaceSec) + " /100m";
+        document.getElementById('tbl-swim-time').textContent = fmtHHMMSS(swimTotalSec);
+        document.getElementById('tbl-swim-pct').textContent = Math.round(pctSwim) + '%';
+
+        document.getElementById('tbl-t1-time').textContent = fmtHHMMSS(t1TotalSec);
+        document.getElementById('tbl-t1-pct').textContent = Math.round(pctT1) + '%';
+
+        document.getElementById('tbl-bike-speed').textContent = bikeSpeedKmh.toFixed(1) + " km/t";
+        document.getElementById('tbl-bike-time').textContent = fmtHHMMSS(bikeTotalSec);
+        document.getElementById('tbl-bike-pct').textContent = Math.round(pctBike) + '%';
+
+        document.getElementById('tbl-t2-time').textContent = fmtHHMMSS(t2TotalSec);
+        document.getElementById('tbl-t2-pct').textContent = Math.round(pctT2) + '%';
+
+        document.getElementById('tbl-run-pace').textContent = fmtPace(effectiveRunPaceSec) + " /km" + (elPenaltyCheck.checked ? " (+7%)" : "");
+        document.getElementById('tbl-run-time').textContent = fmtHHMMSS(runTotalSec);
+        document.getElementById('tbl-run-pct').textContent = Math.round(pctRun) + '%';
+    }
+
+    // Bind event listeners
+    const allInputs = [
+        elSwimDist, elSwimMin, elSwimSec,
+        elT1Min, elT1Sec,
+        elBikeDist, elBikeSpeed,
+        elT2Min, elT2Sec,
+        elRunDist, elRunMin, elRunSec, elPenaltyCheck
+    ];
+
+    allInputs.forEach(input => {
+        if (input) {
+            input.addEventListener('input', calculateTriathlon);
+            input.addEventListener('change', calculateTriathlon);
+        }
+    });
+
+    // Modal Events
+    document.getElementById('tri-info-trigger').onclick = () => document.getElementById('tri-modal').classList.remove('tri-hidden');
+    document.getElementById('tri-modal-close').onclick = () => document.getElementById('tri-modal').classList.add('tri-hidden');
+
+    calculateTriathlon();
+});
+</script>
