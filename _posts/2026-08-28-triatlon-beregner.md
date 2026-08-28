@@ -23,7 +23,6 @@ tools:
 tags:
   - triatlon
   - ironman tid
-  - 70.3
   - pacing
   - splittider
   - skiftetider
