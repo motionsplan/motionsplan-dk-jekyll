@@ -43,9 +43,13 @@ Her gennemgår vi, hvad den anaerobe tærskel reelt repræsenterer, hvorfor 4 mm
 
 ---
 
-{: .notice--info}
-### 🔗 Hænger sammen med den aerobe tærskel
+<div markdown="1" class="notice--info">
+
+**🔗 Hænger sammen med den aerobe tærskel**
+
 Hvor den anaerobe tærskel (LT2) definerer *det øverste loft* for fysiologisk balance, markerer den [aerobe tærskel (LT1)](/aerobe-taerskel/) *starten* på laktatstigningen. Vil du køre en laktattest, kan du bruge vores [interaktive laktatberegner til LT1 og LT2](/laktattest/#calculator).
+
+</div>
 
 ---
 

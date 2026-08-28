@@ -3,20 +3,26 @@
 
 <div class="lk-widget">
   <div class="lk-card lk-controls">
+    <!-- TOGGLE 1: VLAMAX -->
     <div class="lk-control-group">
-      <label for="lk-vlamax">
-        Glykolytisk kapacitet (VLAmax): <span id="lk-val-vlamax">Moderat</span>
-      </label>
-      <input type="range" id="lk-vlamax" min="1" max="3" value="2" step="1">
-      <small style="color: #6b7280; font-size: 0.8rem;">Styrer hvor hurtigt kroppen danner laktat fra kulhydrat</small>
+      <label>Glykolytisk kapacitet ($VLa_{max}$)</label>
+      <div class="lk-segmented" id="lk-vla-segmented">
+        <button type="button" class="lk-seg-btn" data-value="1">Lav (Udholdende)</button>
+        <button type="button" class="lk-seg-btn active" data-value="2">Moderat</button>
+        <button type="button" class="lk-seg-btn" data-value="3">Høj (Eksplosiv)</button>
+      </div>
+      <small>Styrer hvor hurtigt kroppen danner laktat fra kulhydrat</small>
     </div>
     
+    <!-- TOGGLE 2: AEROBIC / CLEARANCE -->
     <div class="lk-control-group">
-      <label for="lk-aerobic">
-        Aerob / Clearance kapacitet: <span id="lk-val-aerobic">Trænet</span>
-      </label>
-      <input type="range" id="lk-aerobic" min="1" max="3" value="2" step="1">
-      <small style="color: #6b7280; font-size: 0.8rem;">Styrer mitokondriernes evne til at forbrænde laktat</small>
+      <label>Aerob / Clearance kapacitet</label>
+      <div class="lk-segmented" id="lk-aerob-segmented">
+        <button type="button" class="lk-seg-btn" data-value="1">Utrænet</button>
+        <button type="button" class="lk-seg-btn active" data-value="2">Trænet</button>
+        <button type="button" class="lk-seg-btn" data-value="3">Elite (Zone 2)</button>
+      </div>
+      <small>Styrer mitokondriernes evne til at forbrænde laktat</small>
     </div>
   </div>
 
@@ -29,12 +35,12 @@
       <div class="lk-metric-card lk-lt1-card">
         <div>Aerob Tærskel (LT₁)</div>
         <div class="lk-metric-value" id="lk-metric-lt1">0 % VO₂max</div>
-        <small>Første stigning (~2.0 mmol/L)</small>
+        <small>Første stigning over baseline (~1,7–2,0 mmol/L)</small>
       </div>
       <div class="lk-metric-card lk-lt2-card">
         <div>Anaerob Tærskel (LT₂ / MLSS)</div>
         <div class="lk-metric-value" id="lk-metric-lt2">0 % VO₂max</div>
-        <small>Produktion overstiger max clearance</small>
+        <small>Maksimal balance (Produktion = Clearance)</small>
       </div>
     </div>
   </div>
@@ -56,22 +62,56 @@
   }
   .lk-controls {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
   }
   .lk-control-group {
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    gap: 0.5rem;
   }
   .lk-control-group label {
     font-weight: 600;
     font-size: 0.9rem;
+    color: #111827;
   }
-  .lk-control-group input[type=range] {
-    width: 100%;
+  .lk-control-group small {
+    color: #6b7280;
+    font-size: 0.8rem;
+  }
+
+  /* Segmented Controls (3-position toggles) */
+  .lk-segmented {
+    display: flex;
+    background: #f3f4f6;
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    gap: 4px;
+  }
+  .lk-seg-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 8px 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #4b5563;
+    border-radius: 6px;
     cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    text-align: center;
+    white-space: nowrap;
   }
+  .lk-seg-btn:hover {
+    color: #111827;
+  }
+  .lk-seg-btn.active {
+    background: #ffffff;
+    color: #2563eb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
   .lk-chart-container {
     position: relative;
     height: 400px;
@@ -94,8 +134,8 @@
     border-top-color: #8b5cf6;
   }
   .lk-metric-value {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.6rem;
+    font-weight: 800;
     margin-top: 0.25rem;
   }
   .lk-lt1-card .lk-metric-value {
@@ -108,23 +148,21 @@
     .lk-metrics {
       flex-direction: column;
     }
+    .lk-segmented {
+      flex-direction: column;
+    }
   }
 </style>
 
 <script>
 (function() {
-  const vlaLabels = { 1: "Lav (Udholdende)", 2: "Moderat", 3: "Høj (Eksplosiv)" };
-  const aerobicLabels = { 1: "Utrænet", 2: "Trænet", 3: "Elite (Zone 2 stærk)" };
-
   let lkChartInstance = null;
+  let selectedVla = 2;
+  let selectedAerob = 2;
 
   function calculateKinetics() {
-    const vlaVal = parseInt(document.getElementById('lk-vlamax').value);
-    const aerobVal = parseInt(document.getElementById('lk-aerobic').value);
-
-    // Multiplikatorer baseret på valg
-    const vlaFactor = vlaVal === 1 ? 0.65 : (vlaVal === 2 ? 1.0 : 1.45);
-    const aerobFactor = aerobVal === 1 ? 0.7 : (aerobVal === 2 ? 1.0 : 1.35);
+    const vlaFactor = 0.90 + (selectedVla - 1) * 0.40;   
+    const aerobFactor = 0.85 + (selectedAerob - 1) * 0.22; 
 
     const labels = [];
     const prodData = [];
@@ -134,39 +172,36 @@
     let lt1Intensity = null;
     let lt2Intensity = null;
 
-    // Intensitet fra 40% til 110% af VO2max
-    for (let x = 40; x <= 110; x += 2) {
+    // Forlænget til 120% af VO2max for bedre visuel effekt over LT2
+    for (let x = 40; x <= 120; x += 2) {
       labels.push(x + '%');
+      const relX = x / 100.0;
 
-      // Laktatproduktion (eksponentiel stigning med intensitet)
-      const p = 0.4 + vlaFactor * 0.07 * Math.exp(0.062 * (x - 30));
+      // Produktionstakt
+      const p = 0.25 + vlaFactor * (1.1 * Math.pow(relX, 2.2) + 1.25 * Math.pow(relX, 4.5));
 
-      // Laktatclearance (stiger op mod et plateau/kapacitet)
-      const c = aerobFactor * (0.6 + 3.8 * (x - 30) / ((x - 30) + 20));
+      // Clearancetakt (flader ud nær/over VO2max)
+      const c = aerobFactor * ((2.2 * relX) / (0.4 + relX));
 
       // Blodlaktatkoncentration (mmol/L)
       let bloodLactate;
       if (p <= c) {
-        // Under tærskel: stabil balance
-        bloodLactate = 1.2 + (p / c) * 1.2;
+        bloodLactate = 1.1 + 0.8 * Math.pow(p / c, 1.5);
       } else {
-        // Over tærskel: eksponentiel akkumulering
         const diff = p - c;
-        bloodLactate = 2.4 + Math.pow(diff, 1.35) * 2.8;
+        bloodLactate = 1.9 + 3.8 * Math.pow(diff, 1.2);
       }
 
-      // Begræns maks visning af blodlaktat
-      if (bloodLactate > 15) bloodLactate = 15;
+      if (bloodLactate > 14) bloodLactate = 14;
 
       prodData.push(p.toFixed(2));
       clearData.push(c.toFixed(2));
       bloodLactateData.push(bloodLactate.toFixed(2));
 
-      // Tærskelbestemmelse
-      if (!lt1Intensity && bloodLactate >= 2.0) {
+      if (!lt1Intensity && bloodLactate >= 1.7) {
         lt1Intensity = x;
       }
-      if (!lt2Intensity && (p >= c || bloodLactate >= 4.0)) {
+      if (!lt2Intensity && p >= c) {
         lt2Intensity = x;
       }
     }
@@ -176,16 +211,13 @@
       prodData,
       clearData,
       bloodLactateData,
-      lt1: lt1Intensity || 60,
-      lt2: lt2Intensity || 85
+      lt1: lt1Intensity || 65,
+      lt2: lt2Intensity || 80
     };
   }
 
   function updateChart() {
     const data = calculateKinetics();
-
-    document.getElementById('lk-val-vlamax').textContent = vlaLabels[document.getElementById('lk-vlamax').value];
-    document.getElementById('lk-val-aerobic').textContent = aerobicLabels[document.getElementById('lk-aerobic').value];
 
     document.getElementById('lk-metric-lt1').textContent = `${data.lt1} % VO₂max`;
     document.getElementById('lk-metric-lt2').textContent = `${data.lt2} % VO₂max`;
@@ -246,7 +278,7 @@
               position: 'left',
               title: { display: true, text: 'Laktatrate (Relativ)' },
               min: 0,
-              max: 6,
+              max: 4.5,
               grid: { drawOnChartArea: false }
             },
             yLactate: {
@@ -262,10 +294,28 @@
     }
   }
 
-  document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.lk-widget input[type=range]').forEach(input => {
-      input.addEventListener('input', updateChart);
+  function setupSegmentedListeners() {
+    document.querySelectorAll('#lk-vla-segmented .lk-seg-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('#lk-vla-segmented .lk-seg-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        selectedVla = parseInt(this.getAttribute('data-value'));
+        updateChart();
+      });
     });
+
+    document.querySelectorAll('#lk-aerob-segmented .lk-seg-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('#lk-aerob-segmented .lk-seg-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        selectedAerob = parseInt(this.getAttribute('data-value'));
+        updateChart();
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    setupSegmentedListeners();
     updateChart();
   });
 })();
