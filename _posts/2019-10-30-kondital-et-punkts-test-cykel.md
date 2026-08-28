@@ -161,8 +161,8 @@ Zacho bruger også sin formel i nedenstående beregner til Åstrands etpunktstes
 
 I beregneren ovenfor har jeg brugt formlerne fra Buono et al (1989) til at estimere den maksimale iltoptagelse:
 
-- **Kvinder:** $\text{VO}_2\text{max} = \frac{0{,}00193 \cdot \text{Workload} + 0{,}326}{0{,}769 \cdot \text{HR}_{\text{ss}} - 56{,}1} \cdot 100$
-- **Mænd:** $\text{VO}_2\text{max} = \frac{0{,}00212 \cdot \text{Workload} + 0{,}299}{0{,}769 \cdot \text{HR}_{\text{ss}} - 48{,}5} \cdot 100$
+- **Kvinder:** $\text{VO}\_2\text{max} = \frac{0{,}00193 \cdot \text{Workload} + 0{,}326}{0{,}769 \cdot \text{HR}\_{\text{ss}} - 56{,}1} \cdot 100$
+- **Mænd:** $\text{VO}\_2\text{max} = \frac{0{,}00212 \cdot \text{Workload} + 0{,}299}{0{,}769 \cdot \text{HR}\_{\text{ss}} - 48{,}5} \cdot 100$
 
 Du kan sammenligne dit kondital i [tabellen for kondital for mænd og kvinder](/kondital/).
 
