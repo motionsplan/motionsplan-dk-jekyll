@@ -129,7 +129,7 @@ Hvis du bruger pulsen som rettesnor for dine træningszoner, skal du huske, at p
 
 Når du har lavet din test og fundet din LTHR, kan du udregne dine [træningszoner](/traeningszoner/). Husk at genteste med jævne mellemrum, da din LTHR flytter sig i takt med, at din anaerobe tærskel forbedres. (Se vores [udvidede beregner til pulszoner](/pulszoner-beregner/)).
 
-{% include calculator/calculate-hrzones-lthr.html %}
+{% include calc/heart-rate-calculator.html default_mode="lthr" title="Pulszoner ud fra laktattærsklen (LTHR)" %}
 
 ---
 

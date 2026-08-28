@@ -1,4 +1,3 @@
-// assets/js/ui/heart-rate-calculator-ui.js
 import {
   HEART_RATE_MODELS,
   getAutoRecommendedFormulaKey,
@@ -12,10 +11,18 @@ export function initHeartRateCalculatorUI(container, calcId = 'heart-rate-calcul
 
   const STORAGE_KEY = `mp_hr_calc_state_v19_${calcId}`;
 
-  let currentInputMode = 'hrmax'; // 'hrmax', 'hrr', 'lthr'
-  let currentZoneStructure = '3_zone'; // '3_zone', '5_zone'
+  const defaultMode = container.getAttribute('data-default-mode') || 'hrmax';
+  const hideModeSelector = container.getAttribute('data-hide-mode-selector') === 'true';
+
+  let currentInputMode = defaultMode;
+  let currentZoneStructure = '3_zone';
   let isManualOverride = false;
   let activeManualFormulaKey = '';
+
+  const baseGrid = container.querySelector('.js-hr-base-grid');
+  if (baseGrid && hideModeSelector) {
+    baseGrid.style.setProperty('display', 'none', 'important');
+  }
 
   // Data mode buttons & field wrappers
   const inputModeBtns = container.querySelectorAll('.js-hr-input-mode-btn');
@@ -454,7 +461,7 @@ export function initHeartRateCalculatorUI(container, calcId = 'heart-rate-calcul
       if (lthrInput) lthrInput.value = '168';
       if (lt1Input) lt1Input.value = '';
 
-      setInputMode('hrmax');
+      setInputMode(defaultMode);
       switchZoneStructure('3_zone');
     });
   }
@@ -475,7 +482,7 @@ export function initHeartRateCalculatorUI(container, calcId = 'heart-rate-calcul
   }
 
   // SIKRER 100% INIT VED POPUP / LOAD
-  setInputMode('hrmax');
+  setInputMode(defaultMode);
 }
 
 export const initCalculator = initHeartRateCalculatorUI;

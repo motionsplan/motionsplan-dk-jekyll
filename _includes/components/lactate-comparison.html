@@ -2,7 +2,7 @@
 
 <!-- ISOLERET VANILLA CSS -->
 <style>
-  #mplc-app.full {
+  #mplc-app {
     all: initial;
     display: block !important;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
@@ -17,6 +17,20 @@
     box-sizing: border-box !important;
     clear: both !important;
     color: #0f172a !important;
+    position: relative !important;
+  }
+
+  /* FULLSCREEN STYLING */
+  #mplc-app:fullscreen,
+  #mplc-app:-webkit-full-screen,
+  #mplc-app:-moz-full-screen {
+    overflow-y: auto !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 24px !important;
+    background-color: #f8fafc !important;
   }
 
   #mplc-app * {
@@ -130,6 +144,15 @@
     padding: 0 4px !important;
   }
 
+  /* FULLSCREEN KNAP POSITIONERING */
+  .mplc-fullscreen-btn {
+    position: absolute !important;
+    top: 16px !important;
+    right: 16px !important;
+    z-index: 10 !important;
+    font-size: 0.75rem !important;
+  }
+
   /* PRESET BUTTONS (3 COLUMN COMPACT GRID) */
   .mplc-preset-grid {
     display: grid !important;
@@ -164,12 +187,14 @@
     box-shadow: 0 0 0 1px #2563eb !important;
   }
   .mplc-preset-title {
+    text-align: center;
     font-size: 0.775rem !important;
     font-weight: 700 !important;
     color: #0f172a !important;
     display: block !important;
   }
   .mplc-preset-sub {
+    text-align: center;
     font-size: 0.65rem !important;
     color: #64748b !important;
     font-weight: 400 !important;
@@ -278,14 +303,14 @@
   #mplc-app details.mplc-details-card {
     background-color: #ffffff !important;
     border: 1px solid #e2e8f0 !important;
-    border-radius: 12px !important;
-    padding: 12px 16px !important;
-    margin-top: 16px !important;
+    border-radius: 8px !important;
+    padding: 10px 12px !important;
+    margin-top: 10px !important;
     margin-bottom: 0 !important;
   }
   #mplc-app details.mplc-details-card summary {
     cursor: pointer !important;
-    font-size: 0.85rem !important;
+    font-size: 0.8rem !important;
     font-weight: 700 !important;
     color: #334155 !important;
     list-style: none !important;
@@ -298,31 +323,79 @@
   }
 </style>
 
-<div id="mplc-app" class="full" data-view="{{ current_view | downcase }}">
+<div class="full">
+<div id="mplc-app" data-view="{{ current_view | downcase }}">
   
+  <!-- FULLSCREEN KNAP -->
+  <button onclick="toggleFullScreen()" class="mplc-btn-action mplc-fullscreen-btn" title="Åbn i fuld skærm">
+    ⛶ Fuld skærm
+  </button>
+
   <!-- HOVEDOVERSKRIFT -->
-  <div style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 2px;">Laktatprofil & Tærskelberegner</div>
+  <div style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 2px; padding-right: 110px;">Sammenlign tærskelberegninger</div>
   <div style="font-size: 0.825rem; color: #64748b; margin-bottom: 14px;">
-    Sammenlign fysiologiske modeller for din aerobe (LT1) og anaerobe (LT2) tærskel fra lt-web.
+    Sammenlign fysiologiske beregningsmodeller for din aerobe (LT1) og anaerobe (LT2) tærskel.
   </div>
 
-  <!-- SEKTION: EKSEMPLER -->
+  <!-- SEKTION: EKSEMPLER OG REDIGÉR TESTDATA -->
   <div class="mplc-card" style="margin-bottom: 14px !important;">
     <span class="mplc-section-label">Vælg et eksempel:</span>
-    <div class="mplc-preset-grid">
-      <button onclick="loadPreset('jakob')" id="btnExJakob" class="mplc-btn-preset active">
-        <span class="mplc-preset-title">Løb (Max)</span>
-        <span class="mplc-preset-sub">Eksplosiv atlet</span>
-      </button>
-      <button onclick="loadPreset('alma')" id="btnExAlma" class="mplc-btn-preset">
-        <span class="mplc-preset-title">Maraton</span>
-        <span class="mplc-preset-sub">Udholdenhed</span>
-      </button>
-      <button onclick="loadPreset('cykel')" id="btnExCykel" class="mplc-btn-preset">
-        <span class="mplc-preset-title">Cykling</span>
-        <span class="mplc-preset-sub">Trappetest</span>
-      </button>
-    </div>
+<div class="mplc-preset-grid">
+  <button onclick="loadPreset('udholdenhed')" id="btnExUdholdenhed" class="mplc-btn-preset active">
+    <span class="mplc-preset-title">Udholdenhedsatlet</span>
+    <span class="mplc-preset-sub">Flad laktatkurve og bred aerob base.</span>
+  </button>
+  <button onclick="loadPreset('eksplosiv')" id="btnExEksplosiv" class="mplc-btn-preset">
+    <span class="mplc-preset-title">Eksplosiv atlet</span>
+    <span class="mplc-preset-sub">Høj maxlaktat og anaerob evne.</span>
+  </button>
+  <button onclick="loadPreset('aerob_mangel')" id="btnExAerobMangel" class="mplc-btn-preset">
+    <span class="mplc-preset-title">Aerob mangel</span>
+    <span class="mplc-preset-sub">Høj startlaktat og stigende for hvert trin.</span>
+  </button>
+</div>
+    <!-- FOLD-UD TESTDATA INDTASTNING (PLACERET DIREKTE UNDER EKSEMPLERNE) -->
+    <details class="mplc-details-card">
+      <summary>
+        <span>Redigér testdata / Indtast egne målinger</span>
+        <span style="font-size: 0.75rem; color: #2563eb; font-weight: 600;">Klik for at folde ud ▾</span>
+      </summary>
+
+      <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #f1f5f9;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
+          <label style="font-size: 0.75rem; font-weight: 600; color: #be123c; display: flex; align-items: center; gap: 6px; cursor: pointer;">
+            <input type="checkbox" id="chkMaxtest" checked onchange="updateCalculations()" style="accent-color: #e11d48;">
+            <span>Testen er kørt til udmattelse (Maxtest / Failure)</span>
+          </label>
+        </div>
+
+        <div style="overflow-x: auto; width: 100%; margin-bottom: 10px;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 45px; text-align: center;">Trin</th>
+                <th style="text-align: center;">INTENSITET (WATT/FART)</th>
+                <th style="text-align: center;">PULS (BPM)</th>
+                <th style="text-align: center;">LAKTAT (MMOL/L)</th>
+                <th style="width: 45px; text-align: center;">Slet</th>
+              </tr>
+            </thead>
+            <tbody id="dataTableBody">
+              <!-- DYNAMISKE RÆKKER -->
+            </tbody>
+          </table>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+          <button onclick="addTableRow()" class="mplc-btn-action">+ Tilføj Trin</button>
+          
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <input type="text" id="testNoteInput" placeholder="Navn/Note (fx 'Mads Cykeltest')" style="width: 180px;">
+            <button onclick="updateCalculations()" class="mplc-btn-primary">Opdatér</button>
+          </div>
+        </div>
+      </div>
+    </details>
   </div>
 
   <!-- SEKTION: LAKTATKURVE MED KURVE-FIT SELECT I ØVERSTE HØJRE HJØRNE -->
@@ -469,48 +542,7 @@
     </div>
   </div>
 
-  <!-- SEKTION 3: FOLD-UD SKJULT TESTDATA INDTASTNING -->
-  <details class="mplc-details-card">
-    <summary>
-      <span>Redigér testdata / Indtast egne målinger</span>
-      <span style="font-size: 0.75rem; color: #2563eb; font-weight: 600;">Klik for at folde ud ▾</span>
-    </summary>
-
-    <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #f1f5f9;">
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
-        <label style="font-size: 0.75rem; font-weight: 600; color: #be123c; display: flex; align-items: center; gap: 6px; cursor: pointer;">
-          <input type="checkbox" id="chkMaxtest" checked onchange="updateCalculations()" style="accent-color: #e11d48;">
-          <span>Testen er kørt til udmattelse (Maxtest / Failure)</span>
-        </label>
-      </div>
-
-      <div style="overflow-x: auto; width: 100%; margin-bottom: 10px;">
-        <table>
-          <thead>
-            <tr>
-              <th style="width: 45px; text-align: center;">Trin</th>
-              <th style="text-align: center;">INTENSITET (WATT/FART)</th>
-              <th style="text-align: center;">PULS (BPM)</th>
-              <th style="text-align: center;">LAKTAT (MMOL/L)</th>
-              <th style="width: 45px; text-align: center;">Slet</th>
-            </tr>
-          </thead>
-          <tbody id="dataTableBody">
-            <!-- DYNAMISKE RÆKKER -->
-          </tbody>
-        </table>
-      </div>
-
-      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-        <button onclick="addTableRow()" class="mplc-btn-action">+ Tilføj Trin</button>
-        
-        <div style="display: flex; align-items: center; gap: 8px;">
-          <input type="text" id="testNoteInput" placeholder="Navn/Note (fx 'Mads Cykeltest')" style="width: 180px;">
-          <button onclick="updateCalculations()" class="mplc-btn-primary">Opdatér</button>
-        </div>
-      </div>
-    </div>
-  </details>
+</div>
 
 </div>
 
@@ -520,40 +552,67 @@
 <!-- VANILLA JAVASCRIPT ENGINE -->
 <script>
 var PRESETS = {
-  jakob: [
-    { x: 100, hr: 120, lac: 1.2 },
-    { x: 125, hr: 135, lac: 1.1 },
-    { x: 150, hr: 148, lac: 1.5 },
-    { x: 175, hr: 162, lac: 2.8 },
-    { x: 200, hr: 175, lac: 4.5 },
-    { x: 225, hr: 184, lac: 8.2 },
-    { x: 250, hr: 191, lac: 13.6 }
+  udholdenhed: [ // Flad baseline omkring 1.6-1.8 mmol/L op til høj fart
+    { x: 10, hr: 122, lac: 1.6 },
+    { x: 11, hr: 130, lac: 1.6 },
+    { x: 12, hr: 139, lac: 1.7 },
+    { x: 13, hr: 147, lac: 1.8 },
+    { x: 14, hr: 155, lac: 2.2 }, // LT1 (Baseline + 0.5 = 2.1)
+    { x: 15, hr: 164, lac: 3.1 }, // LT2 (Baseline + 1.5 = 3.1)
+    { x: 16, hr: 172, lac: 4.8 },
+    { x: 17, hr: 180, lac: 7.2 }
   ],
-  alma: [
-    { x: 9.0, hr: 125, lac: 1.8 },
-    { x: 10.0, hr: 134, lac: 1.9 },
-    { x: 11.0, hr: 143, lac: 2.1 },
-    { x: 12.0, hr: 152, lac: 2.6 },
-    { x: 13.0, hr: 161, lac: 3.4 },
-    { x: 14.0, hr: 170, lac: 4.9 },
-    { x: 15.0, hr: 178, lac: 7.1 }
+  eksplosiv: [ // Normal baseline, men stikker af mod ekstrem maxlaktat
+    { x: 10, hr: 128, lac: 1.8 },
+    { x: 11, hr: 137, lac: 1.9 },
+    { x: 12, hr: 146, lac: 2.3 }, // LT1 (Baseline + 0.5 = 2.3)
+    { x: 13, hr: 155, lac: 3.3 }, // LT2 (Baseline + 1.5 = 3.3)
+    { x: 14, hr: 164, lac: 5.1 },
+    { x: 15, hr: 173, lac: 8.4 },
+    { x: 16, hr: 182, lac: 12.6 },
+    { x: 17, hr: 190, lac: 16.2 }
   ],
-  cykel: [
-    { x: 150, hr: 120, lac: 1.0 },
-    { x: 180, hr: 131, lac: 1.1 },
-    { x: 210, hr: 142, lac: 1.3 },
-    { x: 240, hr: 152, lac: 1.6 },
-    { x: 270, hr: 162, lac: 2.4 },
-    { x: 300, hr: 171, lac: 3.9 },
-    { x: 330, hr: 180, lac: 6.8 },
-    { x: 360, hr: 187, lac: 11.2 }
+  aerob_mangel: [ // Starter ved 2.0 og stiger MENS DET SAMME (ingen flad fase)
+    { x: 8,  hr: 125, lac: 2.0 },
+    { x: 9,  hr: 136, lac: 2.6 }, // LT1 nås allerede her på trin 2
+    { x: 10, hr: 147, lac: 3.5 }, // LT2 nås ekstremt tidligt (Baseline + 1.5)
+    { x: 11, hr: 158, lac: 4.9 },
+    { x: 12, hr: 168, lac: 6.8 },
+    { x: 13, hr: 178, lac: 9.6 },
+    { x: 14, hr: 186, lac: 13.2 }
   ]
 };
 
-var testData = JSON.parse(JSON.stringify(PRESETS.jakob));
+var testData = JSON.parse(JSON.stringify(PRESETS.udholdenhed));
 var selectedFitModel = 'poly3';
 var currentActiveResults = [];
 var chartInstance = null;
+
+// FULLSCREEN HANDLER FUNKTION
+function toggleFullScreen() {
+  var elem = document.getElementById('mplc-app');
+  if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) {
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+      elem.msRequestFullscreen();
+    } else if (elem.mozRequestFullScreen) {
+      elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) {
+      elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+    }
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    }
+  }
+}
 
 // PLUGIN TIL STIPLEDE LINJER OG DYNAMISKE STAGGERED BADGES (INGEN OVERLAP)
 var thresholdLinesPlugin = {
@@ -565,7 +624,6 @@ var thresholdLinesPlugin = {
     var xAxis = chart.scales.x;
     var yAxis = chart.scales.y;
 
-    // Sorter efter X-koordinat
     var items = [];
     currentActiveResults.forEach(function(r) {
       var px = xAxis.getPixelForValue(r.x);
@@ -575,7 +633,6 @@ var thresholdLinesPlugin = {
     });
     items.sort(function(a, b) { return a.px - b.px; });
 
-    // Tildel forskudte Y-niveauer ved tætliggende linjer
     var lastPx = -999;
     var currentLevel = 0;
     items.forEach(function(item) {
@@ -593,7 +650,6 @@ var thresholdLinesPlugin = {
       var xPixel = item.px;
       var level = item.level;
 
-      // 1. TEGN LODRET STIPLET LINJE
       ctx.save();
       ctx.beginPath();
       ctx.setLineDash([5, 4]);
@@ -603,7 +659,6 @@ var thresholdLinesPlugin = {
       ctx.lineTo(xPixel, yAxis.bottom);
       ctx.stroke();
 
-      // 2. BADGE LABEL ØVERST
       var labelText = r.shortCode || r.name;
       ctx.font = 'bold 10px sans-serif';
       var textWidth = ctx.measureText(labelText).width;
@@ -622,7 +677,6 @@ var thresholdLinesPlugin = {
       }
       ctx.fill();
 
-      // BADGE TEXT
       ctx.fillStyle = '#ffffff';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
@@ -632,7 +686,6 @@ var thresholdLinesPlugin = {
   }
 };
 
-// INITIALISER TÆNDTE CHECKBOXES UDFRA VIEW-PARMETEREN
 function initCheckboxesFromView() {
   var appEl = document.getElementById('mplc-app');
   var viewAttr = (appEl ? appEl.getAttribute('data-view') : 'all') || 'all';
@@ -648,14 +701,12 @@ function initCheckboxesFromView() {
     if (el) el.checked = !!state;
   }
 
-  // LT1 Checkboxes
   setCb('m_lt1_delta', isLT1All || hasToken('delta') || hasToken('bsln0.5') || hasToken('bsln'));
   setCb('m_lt1_obla2', isLT1All || hasToken('obla2'));
   setCb('m_lt1_loglog', isLT1All || hasToken('loglog'));
   setCb('m_lt1_firstrise', hasToken('firstrise'));
   setCb('m_lt1_ltp1', hasToken('ltp1'));
 
-  // LT2 Checkboxes
   setCb('m_lt2_delta', isLT2All || hasToken('delta') || hasToken('bsln1.5') || hasToken('bsln'));
   setCb('m_lt2_mdmax', isLT2All || hasToken('mdmax'));
   setCb('m_lt2_orgdmax', hasToken('orgdmax'));
@@ -664,7 +715,6 @@ function initCheckboxesFromView() {
   setCb('m_lt2_ltp2', hasToken('ltp2'));
 }
 
-// GENERER GLAT SKIFTENDE CURVE-FIT (poly3, poly4, exp, ppoly)
 function generateFittedCurve(points, modelType) {
   if (points.length < 3) return points.map(function(p) { return { x: p.x, y: p.lac }; });
 
@@ -703,7 +753,6 @@ function generateFittedCurve(points, modelType) {
   return curve;
 }
 
-// POLYNOMIAL REGRESSION LEAST SQUARES
 function solvePolynomial(points, degree) {
   var n = points.length;
   var xMin = points[0].x;
@@ -790,7 +839,7 @@ function setFitModel(model) {
 
 function loadPreset(key) {
   testData = JSON.parse(JSON.stringify(PRESETS[key]));
-  var presets = ['jakob', 'alma', 'cykel'];
+  var presets = ['udholdenhed', 'eksplosiv', 'aerob_mangel'];
   presets.forEach(function(k) {
     var btn = document.getElementById('btnEx' + k.charAt(0).toUpperCase() + k.slice(1));
     if (btn) {
@@ -993,13 +1042,21 @@ function updateCalculations() {
   renderChart(points, currentActiveResults);
 }
 
+// HJÆLPEFUNKTION DER SKJULER TABELLEN OG OVERSKRIFTEN HVIS DER ER 0 RESULTATER
 function renderTableSection(targetId, results) {
   var tbody = document.getElementById(targetId);
+  var table = tbody ? tbody.closest('table') : null;
   tbody.innerHTML = '';
 
   if (results.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: #94a3b8; padding: 12px;">Ingen metoder er valgt i denne sektion.</td></tr>';
+    if (table) {
+      table.style.setProperty('display', 'none', 'important');
+    }
     return;
+  }
+
+  if (table) {
+    table.style.setProperty('display', 'table', 'important');
   }
 
   for (var i = 0; i < results.length; i++) {

@@ -1,6 +1,14 @@
 {% assign calc_title = include.title | default: "Beregn dine pulszoner" %}
 {% assign calc_description = include.description | default: "Beregn dine pulszoner fra enten maxpuls, pulsreserve eller pulsen ved din laktattærskel med anerkendte formler." %}
 {% assign data_id = include.calc_id | default: "heart-rate-calculator" %}
+{% assign default_mode = include.default_mode | default: include.input_mode | default: "hrmax" %}
+
+{% assign hide_mode_selector = include.hide_mode_selector %}
+{% if hide_mode_selector == nil and include.default_mode %}
+  {% assign hide_mode_selector = true %}
+{% elsif hide_mode_selector == nil %}
+  {% assign hide_mode_selector = false %}
+{% endif %}
 
 <style>
   .mp-hr-input-field {
@@ -501,7 +509,11 @@
   }
 </style>
 
-<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="heart-rate-calculator-ui">
+<div class="mp-calc-card vbt-premium-card" 
+     data-calculator="{{ data_id }}" 
+     data-ui-module="heart-rate-calculator-ui"
+     data-default-mode="{{ default_mode }}"
+     data-hide-mode-selector="{{ hide_mode_selector }}">
   
   <!-- Header -->
   <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
@@ -526,12 +538,12 @@
         <div class="js-info-overlay-body"></div>
       </div>
 
-      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.75rem 0; padding-right: 32px;">
-        1. Vælg dit datagrundlag
+      <h4 class="js-hr-step1-title" style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.75rem 0; padding-right: 32px;">
+        {% if hide_mode_selector %}1. Indtast dine pulstal{% else %}1. Vælg dit datagrundlag{% endif %}
       </h4>
 
       <!-- 3 KORT-KNAPPER PÅ HVID BAGGRUND -->
-      <div class="mp-hr-base-grid">
+      <div class="mp-hr-base-grid js-hr-base-grid" {% if hide_mode_selector %}style="display: none !important;"{% endif %}>
         <!-- MAXPULS -->
         <button type="button" class="mp-hr-base-btn js-hr-input-mode-btn is-active" data-input-mode="hrmax">
           <div class="mp-hr-base-top-row">
@@ -573,19 +585,19 @@
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; position: relative;">
         
         <!-- MAXPULS ESTIMERING POPOVER (Åbnes via 🪄 Estimer linket) -->
-<div class="js-hr-magic-popover mp-hr-magic-popover">
-  <button type="button" class="mp-panel-info-close js-hr-magic-close" title="Luk estimering">✕</button>
-  <h4 style="font-size: 0.875rem; font-weight: 800; color: #1e40af; margin: 0 0 0.5rem 0;">🪄 Estimer din Maxpuls fra alder</h4>
-  
-  <div style="display: flex; gap: 0.75rem; align-items: center; margin-top: 0.5rem;">
-    <div style="flex: 1;">
-      <input type="number" min="10" max="100" class="vbt-input-mega mp-hr-input-field js-hr-est-age" value="40" placeholder="40" style="width: 100%; margin: 0;">
-    </div>
-    <button type="button" class="js-hr-apply-est-btn" style="flex: 1.5; height: 42px; background: #2563eb; color: #ffffff; border: none; border-radius: 8px; font-size: 0.8rem; font-weight: 800; cursor: pointer; display: flex; align-items: center; justify-content: center; margin: 0; transition: background 0.15s ease;">
-      Indsæt <span class="js-hr-est-val-span" style="margin: 0 4px;">180</span> bpm ↵
-    </button>
-  </div>
-</div>
+        <div class="js-hr-magic-popover mp-hr-magic-popover">
+          <button type="button" class="mp-panel-info-close js-hr-magic-close" title="Luk estimering">✕</button>
+          <h4 style="font-size: 0.875rem; font-weight: 800; color: #1e40af; margin: 0 0 0.5rem 0;">🪄 Estimer din Maxpuls fra alder</h4>
+          
+          <div style="display: flex; gap: 0.75rem; align-items: center; margin-top: 0.5rem;">
+            <div style="flex: 1;">
+              <input type="number" min="10" max="100" class="vbt-input-mega mp-hr-input-field js-hr-est-age" value="40" placeholder="40" style="width: 100%; margin: 0;">
+            </div>
+            <button type="button" class="js-hr-apply-est-btn" style="flex: 1.5; height: 42px; background: #2563eb; color: #ffffff; border: none; border-radius: 8px; font-size: 0.8rem; font-weight: 800; cursor: pointer; display: flex; align-items: center; justify-content: center; margin: 0; transition: background 0.15s ease;">
+              Indsæt <span class="js-hr-est-val-span" style="margin: 0 4px;">180</span> bpm ↵
+            </button>
+          </div>
+        </div>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.75rem;">
           <!-- MAXPULS -->
