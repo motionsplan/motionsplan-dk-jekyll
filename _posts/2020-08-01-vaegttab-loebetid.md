@@ -123,7 +123,7 @@ Vil du sammenligne dine løbetider på tværs af mere end blot vægt?
 
 * 🏃‍♂️ **[Flyer Handicap Beregner](/flyer-handicap/):** Vil du se, hvordan din tid klarer sig, når der korrigeres for *både* din alder og din kropsvægt?
 * 📊 **[Aldersgraduerede løbetider](/aldersgraduerede-tider/):** Sammenlign din præstation med de officielle WMA-verdensrekorder for din aldersgruppe.
-* 🛠️ **[Se alle løbeberegnere](/loebesiden/#beregnere):** Beregn dine pulszoner, pace, $v\text{VO}_2\text{max}$ og intervaltempi.
+* 🛠️ **[Se alle løbeberegnere](/loebesiden/#beregnere):** Beregn dine pulszoner, pace, vVO₂max og intervaltempi.
 
 ---
 

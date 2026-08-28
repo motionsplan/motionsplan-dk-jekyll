@@ -99,7 +99,7 @@ Formålet med [aerob træning](/aerob-traening/) er at øge hjertets minutvolume
 * **10-20-30 metoden** – Populær og videnskabeligt valideret intervalform (30s jog, 20s moderat, 10s sprint).
 * **HIIT & VO2 max-intervaller** – Højintense intervaller (fx 3–4 minutter ved +90% af maxpuls).
 * **Tærskeltræning (Threshold Method)** – Træning tæt på den [anaerobe tærskel](/anaerobe-taerskel/) for at øge udholdenheden.
-* **Billat-intervaller** – Præcist tidsstyrede intervaller baseret på din $v\text{VO}_2\text{max}$.
+* **Billat-intervaller** – Præcist tidsstyrede intervaller baseret på din vVO₂max.
 * **Fartlek (Fartleg)** – Ustruktureret og lystbetonet tempovariation i terrænet.
 * **Cardiac Power Intervals** – Korte, intense ryk designet til at øge hjertets slagvolumen.
 * **HICT (High Intensity Continuous Training)** – Høj modstand ved lav kadence for at træne Type IIa muskelfibre aerobt.

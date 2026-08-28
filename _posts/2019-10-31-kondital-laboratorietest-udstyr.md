@@ -8,14 +8,14 @@ language: da
 categories:
   - Kondition
   - Laboratorietest
+header:
+  teaser: https://images.unsplash.com/photo-1709601414405-db08d323a87a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags:
   - gasanalyse
   - vo2max
   - udstyr
   - cosmed
   - laboratorietest
-header:
-  teaser: https://images.unsplash.com/photo-1709601414405-db08d323a87a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 last_modified_at: 2026-08-21T12:00:00Z
 faq:
   - question: "Hvad er den mest præcise metode til måling af VO2max?"

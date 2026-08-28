@@ -6,10 +6,7 @@ excerpt: "Åstrands et-punktstest er en submaksimal test på ergometercykel, hvo
 description: "Beregn dit kondital med Åstrands 1-punktstest (et-punktstest). Nem og hurtig submaksimal konditionstest på cykel på kun 6 minutter."
 language: da
 header:
-  overlay_image: /assets/images/healthcheckshop.com/12A0041-8c979225.jpg
-  credit: https://www.healthcheckshop.com/wp-content/uploads/2019/07/12A0041.jpg
   teaser: /assets/images/healthcheckshop.com/12A0041-8c979225.jpg
-  credit: https://www.healthcheckshop.com/wp-content/uploads/2019/07/12A0041.jpg
   caption: *title
 meta:
   name: "Åstrands 1-punktstest"
@@ -87,6 +84,7 @@ Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan Åstr
 
 [<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump } [<i class='fas fa-volume-up'></i> Hop til timer](#timer){: .btn .btn--success .btn--jump }
 
+{% include figure image_path="/assets/images/healthcheckshop.com/12A0041-8c979225.jpg" caption="Aastrands etpunktstest er velegnet til folk som ikke er i så god form." %}
 
 ## Hvad er Åstrands etpunktstest?
 

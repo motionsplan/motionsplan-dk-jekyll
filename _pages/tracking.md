@@ -61,8 +61,8 @@ Brug biologiske markører til at vurdere dit nervesystems restitution og din kro
 <div class="notice--warning" markdown="1">
 ### ⏱️ 3. Submaksimale "Tracking Tests"
 Undgå maksimale udmattelsestests – brug skånsomme, submaksimale protokoller til at måle din fremgang:
-* **[Submaksimal 6-minutters vo2max test](/submaximal-6min-vvo2max-test/)** – Estimér din løbehastighed ved VO2 max ($v\text{VO}_2\text{max}$) ud fra puls og tempo.
-* **[1600-meters jogging-test](/submaximal-jogging-test-vo2/)** – Estimér din løbehastighed ved VO2 max ($v\text{VO}_2\text{max}$) ud fra puls og tempo.
+* **[Submaksimal 6-minutters vo2max test](/submaximal-6min-vvo2max-test/)** – Estimér din løbehastighed ved VO2 max (vVO₂max) ud fra puls og tempo.
+* **[1600-meters jogging-test](/submaximal-jogging-test-vo2/)** – Estimér din løbehastighed ved VO2 max (vVO₂max) ud fra puls og tempo.
 * **[Åstrands cykeltest (1-punktstest)](/etpunktstest/)** – Mål din konditionsfremgang på ergometercykel ud fra pulsrespons ved en kendt belastning.
 * **[Kondital fra puls](/kondital-fra-puls/)** – Beregn dit kondital direkte ud fra forholdet mellem hvilepuls og maxpuls.
 </div>

@@ -68,7 +68,7 @@ Sprint 8 placerer sig i den absolutte top af intensitetsskalaen sammenlignet med
 | **Sprint 8 (SIT)** | 30 sekunder | 90 sekunder | Supramaksimal (100 % All-Out) | Anaerob effekttærskel & Muskelrekruttering |
 | **[Tabata](/artikel/tabata-traening-intervaller/)** | 20 sekunder | 10 sekunder | Maksimal (100 %) | Laktattolerance & VO2max-belastning |
 | **[10-20-30](/10-20-30-intervaltraening/)** | 10 sek. spurt / 20 sek. mod. | 30 sek. rolig | Variable zoner | Submaksimal kondition & Løbeøkonomi |
-| **[Klassisk HIIT](/hiit/)** | 1 – 4 minutter | 1 – 3 minutter | High (85 – 95 % HRmax) | Aerob effekt og $v\text{VO}_2\text{max}$ |
+| **[Klassisk HIIT](/hiit/)** | 1 – 4 minutter | 1 – 3 minutter | High (85 – 95 % HRmax) | Aerob effekt og vVO₂max |
 
 ---
 

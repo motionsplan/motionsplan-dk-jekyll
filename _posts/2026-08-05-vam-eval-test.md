@@ -120,7 +120,7 @@ VAM-eval er utrolig nem at sætte op og kan afvikles med hele hold eller trupper
 
 ## Beregning af MAS og VO₂max
 
-VAM-eval testen giver dig to primære nøgletal: **Maksimal Aerob Hastighed (MAS)** (også kaldet $v\text{VO}_2\text{max}$) og et direkte estimat af **VO₂max**.
+VAM-eval testen giver dig to primære nøgletal: **Maksimal Aerob Hastighed (MAS)** (også kaldet vVO₂max) og et direkte estimat af **VO₂max**.
 
 ### 1. Bestemmelse af MAS (km/t)
 Løberens MAS er lig med hastigheden på det **sidste fuldførte 1-minuts trin**.

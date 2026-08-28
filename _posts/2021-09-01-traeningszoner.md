@@ -142,7 +142,7 @@ Vi er især inspireret af Andrew Coggans zonemodel. [Andrew Coggan](https://trai
 | **2** | Udholdenhed | Aerob | 60–300 min | N/A |
 | **3** | Tempo | Hovedsageligt aerob | 60–180 min | N/A |
 | **4** | Anaerob tærskel | Aerob og anaerob | N/A | 10–30 min |
-| **5** | $\text{VO}_2\text{max}$ | Aerob og anaerob | N/A | 3–8 min |
+| **5** | VO₂max | Aerob og anaerob | N/A | 3–8 min |
 | **6/7** | Anaerob kapacitet & Power | Anaerob | N/A | < 3 min |
 
 ### Zone 1: Restitution
@@ -176,11 +176,11 @@ Zone 4 ligger omkring din [anaerobe tærskel](/anaerobe-taerskel/). Træning her
 
 Mælkesyretærskeltræning er typisk baseret på intervaller på 5-30 minutter ad gangen, men du kan også arbejde kontinuerligt og arbejde med høj intensitet i 20-40 minutter.
 
-Træning i Zone 4 styrker din **modstandsdygtighed** – et udtryk for, hvor høj en procentdel af din [$\text{VO}_2\text{max}$](/maksimale-iltoptagelse-vo2max/) du kan opretholde uden at ophobe mælkesyre. Det er særligt her eliteløbere adskiller sig fra os andre. De kan nemlig løbe med rigtig høj intensitet i forhold til deres maksimale iltoptagelse uden at opbygge ekstra træthedsstoffer i musklerne.
+Træning i Zone 4 styrker din **modstandsdygtighed** – et udtryk for, hvor høj en procentdel af din [VO₂max](/maksimale-iltoptagelse-vo2max/) du kan opretholde uden at ophobe mælkesyre. Det er særligt her eliteløbere adskiller sig fra os andre. De kan nemlig løbe med rigtig høj intensitet i forhold til deres maksimale iltoptagelse uden at opbygge ekstra træthedsstoffer i musklerne.
 
 {% include figure image_path="/assets/images/trainerroad.com/cycling-power-zones-threshold-1536x616-c41a76ea.jpg" caption="4x9 minutters intervaller på FTP med 4 minutters pause er et klassisk eksempel på Zone 4. Kilde: [www.trainerroad.com](https://www.trainerroad.com/blog/cycling-power-zones-training-zones-explained/) [📷](https://www.trainerroad.com/blog/wp-content/uploads/2021/06/cycling-power-zones-threshold-1536x616.jpg){: rel='nofollow noopener' }" %}
 
-### Zone 5: $\text{VO}_2\text{max}$
+### Zone 5: VO2max
 
 Zone 5 er en meget intens træningszone. Træningen udføres typisk som [intervaltræning](/intervaltraening/) eller cykelintervaller af 2–8 minutters varighed (oftest 3–5 minutter). Intensiteten presser hjertets pumpekapacitet til sit maksimale og flytter dit [kondital](/kondital/). Fordi pulsen kan være 1–2 minutter om at stabilisere sig på et interval, bør du også styre efter watt, pace eller følt anstrengelse.
 
@@ -207,7 +207,7 @@ Her er en samlet oversigt over de enkelte træningszoner og deres fysiologiske v
 | **2** | Udholdenhed | Øger fedtforbrændingen, mitokondrietætheden og kapillariseringen. | Mere effektiv energiudnyttelse og stærkere aerob base. |
 | **3** | Tempo | Øger kulhydratforbrændingen og aktiverer FT-muskelfibre. | Bedre evne til at fastholde et højt grundtempo over tid. |
 | **4** | Anaerob tærskel | Forbedrer den anaerobe tærskel og muskelcellernes laktattolerance. | Højere intensitet på tærsklen uden at ophobe træthedsstoffer. |
-| **5** | $\text{VO}_2\text{max}$ | Udvikler hjertets slagvolumen og den maksimale iltoptagelse. | Øger dit kondital og din maksimale overordnede kapacitet. |
+| **5** | VO₂max | Udvikler hjertets slagvolumen og den maksimale iltoptagelse. | Øger dit kondital og din maksimale overordnede kapacitet. |
 | **6/7** | Anaerob & Power | Udvikler anaerob enzymkapacitet og neuromuskulær rekruttering. | Øger din topfart, acceleration og eksplosive sprintstyrke. |
 
 </div>
@@ -226,7 +226,7 @@ Tabellen herunder viser, hvordan de enkelte zoner udtrykkes på tværs af de for
 | **2** | Udholdenhed | 81–89% | 64–72% | 72–82% | 124–115% | 56–75% | 13 | 2–3 |
 | **3** | Tempo | 90–94% | 72–80% | 82–87% | 115–106% | 76–90% | 14–15 | 3–4 |
 | **4** | Anaerob Tærskel | 94–100% | 80–90% | 88–92% | 106–98% | 91–105% | 16 | 5–6 |
-| **5** | $\text{VO}_2\text{max}$ | 100–102%+ | 90–100% | 93–100% | 98–90% | 106–120% | 17–18 | 7–8 |
+| **5** | VO₂max | 100–102%+ | 90–100% | 93–100% | 98–90% | 106–120% | 17–18 | 7–8 |
 | **6** | Anaerob kapacitet | N/A | N/A | N/A | < 90% | 121–150% | 19–20 | 8–9 |
 | **7** | Power og sprint | N/A | N/A | N/A | < 90% | > 151% | 19–20 | 10 |
 
@@ -406,7 +406,7 @@ Når du træner i mere end 45–60 minutter – særligt i varme eller ved væsk
 Hvordan ser en god træningsuge ud i praksis? Det afhænger af din valgte filosofi. Mange udholdenhedsatleter hælder til **80/20-fordelingen**, men det bedste er nok på en uge at ramme alle zonerne, hvis du har tid til det:
 
 * **80 % af tiden i Zone 1 og Zone 2:** Rolig udholdenhedstræning, der opbygger kapillærer, mitokondrier og fedtforbrænding uden at overbelaste nervesystemet. Kræver lang tid.
-* **20 % af tiden i Zone 4, 5 eller 6/7:** Højintense intervaller (tærskel, $\text{VO}_2\text{max}$ eller sprint), der flytter din overordnede kapacitet.
+* **20 % af tiden i Zone 4, 5 eller 6/7:** Højintense intervaller (tærskel, VO₂max eller sprint), der flytter din overordnede kapacitet.
 * **Zone 3 (Tempo/Sweet Spot):** Bruges strategisk og doseres forskriftsmæssigt i specifikke opbygningsfaser mod maraton, cykelløb eller lange ro-konkurrencer.
 
 ---

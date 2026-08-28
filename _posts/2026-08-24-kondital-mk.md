@@ -66,7 +66,7 @@ $$ \text{Kondital} = \frac{\text{VO}_2\text{max (mL/min)}}{\text{Kropsvægt (kg)
 
 Kvindekroppen er fra naturens side designet med en højere Essential Fat Mass (essentiel fedtmasse til reproduktion og hormonbalance) på ca. 12 %, mod mænds 3 %. 
 
-Da fedtvæv ikke forbruger ilt under arbejde, fungerer det som ren "dødvægt" i løbetests. I formlens nævner tæller fedtet med i den samlede kropsvægt, men det bidrager ikke til tælleren ($\text{VO}_2\text{max}$). Det giver kvinder et naturligt lavere relativt kondital.
+Da fedtvæv ikke forbruger ilt under arbejde, fungerer det som ren "dødvægt" i løbetests. I formlens nævner tæller fedtet med i den samlede kropsvægt, men det bidrager ikke til tælleren (VO₂max). Det giver kvinder et naturligt lavere relativt kondital.
 
 ---
 
@@ -121,7 +121,7 @@ Mandens biologiske forudsætninger gør, at 2800 meter for ham blot svarer til e
 
 ## Submaksimale tests: Faldgruben ved faste Watt
 
-I submaksimale ergometer-tests, såsom [Åstrand cykeltesten](/astrand-test/), cykler testpersonen ved en fast, moderat belastning (fx 100 Watt), mens pulsen måles. 
+I submaksimale ergometer-tests, såsom [Åstrand cykeltesten](/etpunktstest/), cykler testpersonen ved en fast, moderat belastning (fx 100 Watt), mens pulsen måles. 
 
 Her opstår der ofte store målefejl, hvis der ikke korrigeres for køn:
 
