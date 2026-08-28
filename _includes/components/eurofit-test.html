@@ -1,0 +1,529 @@
+<style>
+  /* ====== VANILLA CSS: EUROFIT DASHBOARD (DYNAMISKE ALDERSNORMER) ====== */
+  #euro-widget {
+    max-width: 840px; margin: 0 auto; font-family: inherit; color: #1e293b;
+    background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px;
+    padding: 24px; box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.05); box-sizing: border-box;
+  }
+  #euro-widget * { box-sizing: border-box; }
+
+  /* Header & Setup */
+  .euro-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .euro-main-title { font-size: 1.3rem; font-weight: 900; color: #0f172a; margin: 0; letter-spacing: -0.5px; }
+  
+  .euro-setup-card { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 12px; padding: 14px 16px; margin-bottom: 20px; }
+  .euro-label { display: block; font-size: 0.75rem; font-weight: 700; color: #475569; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .euro-input { width: 100%; height: 36px; padding: 0 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem; font-weight: 700; background: #fff; color: #1e293b; text-align: center; }
+
+  /* Toggle for Køn */
+  .euro-toggle-group { display: flex; background: #cbd5e1; border-radius: 8px; padding: 2px; height: 36px; }
+  .euro-toggle-btn { flex: 1; border: none; background: transparent; font-size: 0.8rem; font-weight: 700; color: #475569; border-radius: 6px; cursor: pointer; transition: all 0.15s; }
+  .euro-toggle-btn.active { background: #2563eb; color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+
+  /* 3x3 Grid */
+  .euro-grid-3x3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 20px; }
+  @media (max-width: 768px) { .euro-grid-3x3 { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 500px) { .euro-grid-3x3 { grid-template-columns: 1fr; } }
+
+  /* Test Card */
+  .euro-card { background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; transition: border-color 0.2s; }
+  .euro-card:hover { border-color: #94a3b8; }
+  .euro-card-title { font-size: 0.88rem; font-weight: 800; color: #0f172a; margin-bottom: 10px; border-bottom: 1px solid #e2e8f0; padding-bottom: 6px; }
+
+  /* Timers */
+  .euro-timer-box { display: flex; justify-content: space-between; align-items: center; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 6px; padding: 4px 8px; margin-bottom: 10px; }
+  .euro-timer-display { font-size: 1.05rem; font-weight: 900; font-variant-numeric: tabular-nums; color: #0f172a; }
+  .euro-timer-controls { display: flex; gap: 4px; }
+  
+  .euro-btn-primary { border: none; background: #2563eb; color: #fff; border-radius: 4px; padding: 3px 8px; font-size: 0.68rem; font-weight: 800; cursor: pointer; transition: all 0.15s; display: inline-flex; align-items: center; gap: 4px; text-transform: uppercase; }
+  .euro-btn-primary:hover { background: #1d4ed8; }
+  .euro-btn-running { background: #ef4444 !important; }
+  .euro-btn-running:hover { background: #dc2626 !important; }
+  .euro-btn-icon { border: 1px solid #cbd5e1; background: #fff; color: #475569; border-radius: 4px; padding: 3px 6px; font-size: 0.68rem; font-weight: 700; cursor: pointer; }
+  .euro-btn-icon:hover { background: #e2e8f0; }
+
+  .euro-spacer { flex-grow: 1; }
+
+  /* Badges */
+  .euro-badge { display: inline-block; padding: 5px 8px; border-radius: 6px; font-weight: 800; font-size: 0.72rem; text-align: center; width: 100%; margin-top: 8px; }
+  .euro-badge-gray { background: #f1f5f9; color: #64748b; border: 1px solid #e2e8f0; }
+  .euro-badge-green { background: #dcfce7; color: #15803d; border: 1px solid #86efac; }
+  .euro-badge-yellow { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
+  .euro-badge-red { background: #fee2e2; color: #b91c1c; border: 1px solid #fca5a5; }
+
+  /* Summary & Radar Section */
+  .euro-results-wrapper { background: #0f172a; border-radius: 14px; padding: 24px; display: flex; gap: 24px; align-items: center; color: #fff; flex-wrap: wrap; }
+  .euro-results-text { flex: 1; min-width: 250px; }
+  .euro-score-val { font-size: 2.2rem; font-weight: 900; color: #38bdf8; line-height: 1; margin-top: 8px; }
+  .euro-clear-btn { border: none; background: transparent; color: #94a3b8; font-size: 0.75rem; text-decoration: underline; cursor: pointer; margin-top: 16px; padding: 0; }
+  .euro-clear-btn:hover { color: #f87171; }
+  
+  .euro-radar-container { flex: 1; min-width: 300px; display: flex; justify-content: center; align-items: center; background: #1e293b; border-radius: 12px; padding: 16px; position: relative; }
+  #radar-svg { width: 100%; max-width: 320px; height: auto; }
+  
+  .euro-radar-legend { display: flex; gap: 12px; justify-content: center; margin-top: 12px; font-size: 0.75rem; font-weight: 700; color: #cbd5e1; }
+  .euro-legend-item { display: flex; align-items: center; gap: 6px; }
+  .euro-legend-color { width: 12px; height: 12px; border-radius: 3px; }
+</style>
+
+<div id="euro-widget">
+
+  <div class="euro-header"><h3 class="euro-main-title">Eurofit Testbatteri</h3></div>
+
+  <div class="euro-setup-card">
+    <div style="display:grid; grid-template-columns: 1.2fr 1fr; gap:12px;">
+      <div>
+        <label class="euro-label">Køn</label>
+        <div class="euro-toggle-group">
+          <button type="button" class="euro-toggle-btn active" id="btn-gender-m" onclick="setGender('m')">Mand / Dreng</button>
+          <button type="button" class="euro-toggle-btn" id="btn-gender-f" onclick="setGender('f')">Kvinde / Pige</button>
+        </div>
+      </div>
+      <div>
+        <label class="euro-label">Alder (År)</label>
+        <input type="number" id="euro-age" class="euro-input" value="14" min="6" max="80">
+      </div>
+    </div>
+  </div>
+
+  <div class="euro-grid-3x3">
+    <div class="euro-card">
+      <div class="euro-card-title">1. Bip-test (20m)</div><div class="euro-spacer"></div>
+      <div>
+        <label class="euro-label">Niveau.Shuttle (fx 7.5)</label>
+        <input type="number" id="in-bip" class="euro-input" step="0.1">
+        <div id="badge-bip" class="euro-badge euro-badge-gray">Ej indtastet</div>
+      </div>
+    </div>
+    <div class="euro-card">
+      <div class="euro-card-title">2. Længdehop</div><div class="euro-spacer"></div>
+      <div>
+        <label class="euro-label">Distance (cm)</label>
+        <input type="number" id="in-broad" class="euro-input" placeholder="fx 165">
+        <div id="badge-broad" class="euro-badge euro-badge-gray">Ej indtastet</div>
+      </div>
+    </div>
+    <div class="euro-card">
+      <div class="euro-card-title">3. Sit-and-Reach</div><div class="euro-spacer"></div>
+      <div>
+        <label class="euro-label">Rækkevidde (cm)</label>
+        <input type="number" id="in-reach" class="euro-input" placeholder="fx 22">
+        <div id="badge-reach" class="euro-badge euro-badge-gray">Ej indtastet</div>
+      </div>
+    </div>
+    <div class="euro-card">
+      <div class="euro-card-title">4. Sit-ups (30 sek)</div>
+      <div class="euro-timer-box">
+        <div class="euro-timer-display" id="disp-timer-situps">00:30</div>
+        <div class="euro-timer-controls">
+          <button type="button" class="euro-btn-primary" id="btn-timer-situps" onclick="toggleCountdown('situps', 30)">▶ Start</button>
+          <button type="button" class="euro-btn-icon" onclick="resetCountdown('situps', 30)" title="Nulstil">↻</button>
+        </div>
+      </div>
+      <div>
+        <label class="euro-label">Antal reps</label>
+        <input type="number" id="in-situps" class="euro-input" placeholder="fx 20">
+        <div id="badge-situps" class="euro-badge euro-badge-gray">Ej indtastet</div>
+      </div>
+    </div>
+    <div class="euro-card">
+      <div class="euro-card-title">5. Gribestyrke</div><div class="euro-spacer"></div>
+      <div>
+        <label class="euro-label">Maks. kraft (kg)</label>
+        <input type="number" id="in-grip" class="euro-input" placeholder="fx 30">
+        <div id="badge-grip" class="euro-badge euro-badge-gray">Ej indtastet</div>
+      </div>
+    </div>
+    <div class="euro-card">
+      <div class="euro-card-title">6. 10x5m Sprint</div>
+      <div class="euro-timer-box">
+        <div class="euro-timer-display" id="disp-timer-shuttle">00:00.0</div>
+        <div class="euro-timer-controls">
+          <button type="button" class="euro-btn-primary" id="btn-sw-shuttle" onclick="toggleStopwatch('shuttle', 'in-shuttle')">▶ Start</button>
+          <button type="button" class="euro-btn-icon" onclick="resetStopwatch('shuttle')" title="Nulstil">↻</button>
+        </div>
+      </div>
+      <div>
+        <label class="euro-label">Tid (sekunder)</label>
+        <input type="number" id="in-shuttle" class="euro-input" step="0.1" placeholder="fx 22.0">
+        <div id="badge-shuttle" class="euro-badge euro-badge-gray">Ej indtastet</div>
+      </div>
+    </div>
+    <div class="euro-card">
+      <div class="euro-card-title">7. Bent Arm Hang</div>
+      <div class="euro-timer-box">
+        <div class="euro-timer-display" id="disp-timer-hang">00:00.0</div>
+        <div class="euro-timer-controls">
+          <button type="button" class="euro-btn-primary" id="btn-sw-hang" onclick="toggleStopwatch('hang', 'in-hang')">▶ Start</button>
+          <button type="button" class="euro-btn-icon" onclick="resetStopwatch('hang')" title="Nulstil">↻</button>
+        </div>
+      </div>
+      <div>
+        <label class="euro-label">Tid (sekunder)</label>
+        <input type="number" id="in-hang" class="euro-input" placeholder="fx 25">
+        <div id="badge-hang" class="euro-badge euro-badge-gray">Ej indtastet</div>
+      </div>
+    </div>
+    <div class="euro-card">
+      <div class="euro-card-title">8. Plate Tapping</div>
+      <div class="euro-timer-box">
+        <div class="euro-timer-display" id="disp-timer-tapping">00:00.0</div>
+        <div class="euro-timer-controls">
+          <button type="button" class="euro-btn-primary" id="btn-sw-tapping" onclick="toggleStopwatch('tapping', 'in-tapping')">▶ Start</button>
+          <button type="button" class="euro-btn-icon" onclick="resetStopwatch('tapping')" title="Nulstil">↻</button>
+        </div>
+      </div>
+      <div>
+        <label class="euro-label">Tid (sekunder)</label>
+        <input type="number" id="in-tapping" class="euro-input" step="0.1" placeholder="fx 12.5">
+        <div id="badge-tapping" class="euro-badge euro-badge-gray">Ej indtastet</div>
+      </div>
+    </div>
+    <div class="euro-card">
+      <div class="euro-card-title">9. Flamingo Balance</div>
+      <div class="euro-timer-box">
+        <div class="euro-timer-display" id="disp-timer-flamingo">01:00</div>
+        <div class="euro-timer-controls">
+          <button type="button" class="euro-btn-primary" id="btn-timer-flamingo" onclick="toggleCountdown('flamingo', 60)">▶ Start</button>
+          <button type="button" class="euro-btn-icon" onclick="resetCountdown('flamingo', 60)" title="Nulstil">↻</button>
+        </div>
+      </div>
+      <div>
+        <label class="euro-label">Antal fald (straf)</label>
+        <input type="number" id="in-flamingo" class="euro-input" placeholder="fx 3">
+        <div id="badge-flamingo" class="euro-badge euro-badge-gray">Ej indtastet</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="euro-results-wrapper">
+    <div class="euro-results-text">
+      <div style="font-size:0.8rem; text-transform:uppercase; font-weight:700; color:#94a3b8;">Fysiologisk Profil</div>
+      <div style="font-size:1.15rem; font-weight:800; margin-top:4px;" id="euro-summary-text">Udfyld testfelterne ovenfor</div>
+      <div class="euro-score-val" id="euro-score-count">0 / 9</div>
+      <div style="font-size:0.75rem; color:#94a3b8; margin-top:4px;">Gennemførte deltests</div>
+      <button type="button" class="euro-clear-btn" onclick="clearAllData()">Ryd alle gemte data</button>
+    </div>
+    
+    <div style="display:flex; flex-direction:column; align-items:center; width:100%; max-width:320px;">
+      <div class="euro-radar-container">
+        <svg id="radar-svg" viewBox="0 0 340 340"></svg>
+      </div>
+      <div class="euro-radar-legend">
+        <div class="euro-legend-item"><div class="euro-legend-color" style="background:#ef4444;"></div> Din Profil</div>
+        <div class="euro-legend-item"><div class="euro-legend-color" style="background:#10b981;"></div> Eurofit Gennemsnit</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let audioCtx = null;
+    let selectedGender = 'm';
+    const STORAGE_PREFIX = 'eurofit_v6_';
+    const countdowns = {}, stopwatches = {};
+    const inputIds = ['euro-age', 'in-bip', 'in-broad', 'in-reach', 'in-situps', 'in-grip', 'in-shuttle', 'in-hang', 'in-tapping', 'in-flamingo'];
+
+    /* ==========================================================================
+       OFFICIELLE EUROFIT PERCENTRIL-LOOKUP TABELLER (P25 og P75 grænser)
+       Baseret på Eurofit Manual & Tomkinson et al. (2018) for aldrene 6-18+ år.
+       ========================================================================== */
+    const EUROFIT_NORMS = {
+        m: {
+            6:  { bip:[3.5, 5.5], broad:[95,120],  reach:[10,18], situps:[9,16],  grip:[10,16], shuttle:[26.0,23.0], hang:[4,12],  tapping:[18.0,15.0], flamingo:[8,3] },
+            8:  { bip:[4.5, 6.5], broad:[115,140], reach:[12,20], situps:[13,20], grip:[14,20], shuttle:[24.5,21.5], hang:[7,18],  tapping:[16.0,13.2], flamingo:[7,2] },
+            10: { bip:[5.5, 8.0], broad:[130,155], reach:[14,22], situps:[16,23], grip:[18,25], shuttle:[23.5,20.5], hang:[10,24], tapping:[14.5,12.0], flamingo:[6,2] },
+            12: { bip:[6.5, 9.0], broad:[145,175], reach:[16,24], situps:[18,26], grip:[23,32], shuttle:[22.5,19.5], hang:[14,30], tapping:[13.5,11.0], flamingo:[5,2] },
+            14: { bip:[7.5,10.5], broad:[165,200], reach:[18,26], situps:[21,29], grip:[30,42], shuttle:[21.5,18.8], hang:[18,38], tapping:[12.5,10.2], flamingo:[4,1] },
+            16: { bip:[8.5,11.5], broad:[185,220], reach:[20,28], situps:[23,31], grip:[38,50], shuttle:[20.5,18.0], hang:[22,45], tapping:[11.8,9.6],  flamingo:[4,1] },
+            18: { bip:[9.0,12.0], broad:[195,230], reach:[21,29], situps:[24,32], grip:[42,54], shuttle:[20.0,17.5], hang:[25,50], tapping:[11.5,9.2],  flamingo:[3,1] }
+        },
+        f: {
+            6:  { bip:[3.0, 5.0], broad:[90,112],  reach:[13,21], situps:[8,15],  grip:[9,14],  shuttle:[27.0,24.0], hang:[3,10],  tapping:[18.5,15.5], flamingo:[8,3] },
+            8:  { bip:[4.0, 6.0], broad:[105,130], reach:[15,23], situps:[12,18], grip:[12,18], shuttle:[25.5,22.2], hang:[5,14],  tapping:[16.5,13.8], flamingo:[7,2] },
+            10: { bip:[4.5, 7.0], broad:[120,145], reach:[17,25], situps:[14,21], grip:[16,23], shuttle:[24.2,21.0], hang:[7,18],  tapping:[15.0,12.5], flamingo:[6,2] },
+            12: { bip:[5.0, 7.5], broad:[132,158], reach:[19,27], situps:[16,23], grip:[20,28], shuttle:[23.5,20.2], hang:[8,20],  tapping:[14.0,11.6], flamingo:[5,2] },
+            14: { bip:[5.5, 8.0], broad:[140,165], reach:[22,30], situps:[17,24], grip:[24,32], shuttle:[23.0,19.8], hang:[9,22],  tapping:[13.2,11.0], flamingo:[4,1] },
+            16: { bip:[5.5, 8.0], broad:[145,170], reach:[24,32], situps:[17,24], grip:[26,34], shuttle:[22.8,19.5], hang:[9,22],  tapping:[12.8,10.6], flamingo:[4,1] },
+            18: { bip:[5.5, 8.0], broad:[148,172], reach:[25,33], situps:[17,24], grip:[27,35], shuttle:[22.5,19.2], hang:[9,22],  tapping:[12.5,10.4], flamingo:[3,1] }
+        }
+    };
+
+    // Henter relevante aldersnormer (afrundes til nærmeste Eurofit-kategori)
+    function getNorms(gender, age) {
+        let ageKeys = [6, 8, 10, 12, 14, 16, 18];
+        let clampedAge = Math.max(6, Math.min(18, age));
+        let closestAge = ageKeys.reduce((prev, curr) => Math.abs(curr - clampedAge) < Math.abs(prev - clampedAge) ? curr : prev);
+        return EUROFIT_NORMS[gender][closestAge];
+    }
+
+    // --- KØN TOGGLE ---
+    window.setGender = function(gender) {
+        selectedGender = gender;
+        document.getElementById('btn-gender-m').classList.toggle('active', gender === 'm');
+        document.getElementById('btn-gender-f').classList.toggle('active', gender === 'f');
+        saveState(); evaluateAll();
+    };
+
+    function playBeep() {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator(), gain = audioCtx.createGain();
+        osc.frequency.value = 800; osc.connect(gain); gain.connect(audioCtx.destination);
+        osc.start(); gain.gain.exponentialRampToValueAtTime(0.00001, audioCtx.currentTime + 0.3);
+        setTimeout(() => osc.stop(), 300);
+    }
+
+    // --- TIMERS ---
+    function updateCdDisp(id, sec) {
+        let m = Math.floor(sec / 60).toString().padStart(2, '0');
+        let s = (sec % 60).toString().padStart(2, '0');
+        document.getElementById('disp-timer-' + id).textContent = m + ":" + s;
+    }
+    window.toggleCountdown = function(id, totalSec) {
+        if (!countdowns[id]) countdowns[id] = { left: totalSec, running: false, interval: null };
+        const state = countdowns[id], btn = document.getElementById('btn-timer-' + id);
+        if (state.running) {
+            clearInterval(state.interval); state.running = false;
+            btn.innerHTML = "▶ Start"; btn.classList.remove('euro-btn-running');
+        } else {
+            if (state.left <= 0) state.left = totalSec;
+            state.running = true; btn.innerHTML = "⏸ Pause"; btn.classList.add('euro-btn-running');
+            state.interval = setInterval(() => {
+                state.left--; updateCdDisp(id, state.left);
+                if (state.left <= 0) {
+                    clearInterval(state.interval); state.running = false;
+                    btn.innerHTML = "▶ Start"; btn.classList.remove('euro-btn-running'); playBeep();
+                }
+            }, 1000);
+        }
+    };
+    window.resetCountdown = function(id, totalSec) {
+        if (countdowns[id]) { clearInterval(countdowns[id].interval); countdowns[id].running = false; countdowns[id].left = totalSec; }
+        const btn = document.getElementById('btn-timer-' + id);
+        if (btn) { btn.innerHTML = "▶ Start"; btn.classList.remove('euro-btn-running'); }
+        updateCdDisp(id, totalSec);
+    };
+
+    function updateSwDisp(id, ms) {
+        let totalSec = ms / 1000;
+        let m = Math.floor(totalSec / 60).toString().padStart(2, '0');
+        let s = (totalSec % 60).toFixed(1).padStart(4, '0');
+        document.getElementById('disp-timer-' + id).textContent = m + ":" + s;
+    }
+    window.toggleStopwatch = function(id, targetInputId) {
+        if (!stopwatches[id]) stopwatches[id] = { elapsed: 0, running: false, interval: null, startTime: 0 };
+        const state = stopwatches[id], btn = document.getElementById('btn-sw-' + id);
+        if (state.running) {
+            clearInterval(state.interval); state.running = false;
+            btn.innerHTML = "▶ Start"; btn.classList.remove('euro-btn-running');
+            document.getElementById(targetInputId).value = (state.elapsed / 1000).toFixed(1);
+            saveState(); evaluateAll();
+        } else {
+            state.running = true; btn.innerHTML = "⏸ Pause"; btn.classList.add('euro-btn-running');
+            state.startTime = Date.now() - state.elapsed;
+            state.interval = setInterval(() => { state.elapsed = Date.now() - state.startTime; updateSwDisp(id, state.elapsed); }, 100);
+        }
+    };
+    window.resetStopwatch = function(id) {
+        if (stopwatches[id]) { clearInterval(stopwatches[id].interval); stopwatches[id].running = false; stopwatches[id].elapsed = 0; }
+        const btn = document.getElementById('btn-sw-' + id);
+        if (btn) { btn.innerHTML = "▶ Start"; btn.classList.remove('euro-btn-running'); }
+        document.getElementById('disp-timer-' + id).textContent = "00:00.0";
+    };
+
+    // --- EVALUATION & DYNAMISK RADAR SCORING ---
+    function setBadge(id, text, cls) {
+        const el = document.getElementById('badge-' + id);
+        el.textContent = text; el.className = 'euro-badge ' + cls;
+    }
+
+    // Skalerer værdien til [0-6] point ud fra aldersspecifikke P25 (mid) og P75 (high) grænser
+    function calcScore(val, p25, p75, isHigherBetter) {
+        if (isNaN(val) || val === '') return 0;
+        let score;
+        if (isHigherBetter) {
+            if (val >= p75) score = 4.0 + Math.min(2.0, ((val - p75) / ((p75 - p25)||1)) * 2.0);
+            else if (val >= p25) score = 2.0 + ((val - p25) / ((p75 - p25)||1)) * 2.0;
+            else score = Math.max(0.5, (val / (p25||1)) * 2.0);
+        } else { // Lavere er bedre (f.eks. tid eller fald)
+            if (val <= p75) score = 4.0 + Math.min(2.0, ((p75 - val) / ((p25 - p75)||1)) * 2.0);
+            else if (val <= p25) score = 2.0 + ((p25 - val) / ((p25 - p75)||1)) * 2.0;
+            else score = Math.max(0.5, 2.0 - ((val - p25) / (p25||1)) * 2.0);
+        }
+        return score;
+    }
+
+    function evaluateAll() {
+        const age = parseInt(document.getElementById('euro-age').value) || 14;
+        const currentNorms = getNorms(selectedGender, age);
+        
+        let completed = 0, greenCount = 0;
+        let scores = { bip:0, broad:0, reach:0, situps:0, grip:0, shuttle:0, hang:0, tapping:0, flamingo:0 };
+
+        function evalTest(id, val, isHigher) {
+            if (isNaN(val) || val === '') { setBadge(id, 'Ej indtastet', 'euro-badge-gray'); return; }
+            completed++;
+            let n = currentNorms[id];
+            scores[id] = calcScore(val, n[0], n[1], isHigher);
+            
+            // OFFICIELLE EUROFIT CATEGORIES
+            if (scores[id] >= 4.0) { setBadge(id, 'Over Middel (>P75)', 'euro-badge-green'); greenCount++; }
+            else if (scores[id] >= 2.0) setBadge(id, 'Middel (P25-P75)', 'euro-badge-yellow');
+            else setBadge(id, 'Under Middel (<P25)', 'euro-badge-red');
+        }
+
+        evalTest('bip', parseFloat(document.getElementById('in-bip').value), true);
+        evalTest('broad', parseFloat(document.getElementById('in-broad').value), true);
+        evalTest('reach', parseFloat(document.getElementById('in-reach').value), true);
+        evalTest('situps', parseFloat(document.getElementById('in-situps').value), true);
+        evalTest('grip', parseFloat(document.getElementById('in-grip').value), true);
+        evalTest('shuttle', parseFloat(document.getElementById('in-shuttle').value), false);
+        evalTest('hang', parseFloat(document.getElementById('in-hang').value), true);
+        evalTest('tapping', parseFloat(document.getElementById('in-tapping').value), false);
+        evalTest('flamingo', parseFloat(document.getElementById('in-flamingo').value), false);
+
+        // Update Summary
+        document.getElementById('euro-score-count').textContent = completed + " / 9";
+        let sumText = "Udfyld testfelterne ovenfor";
+        if (completed > 0) sumText = greenCount + " af " + completed + " tests er Over Middel";
+        document.getElementById('euro-summary-text').textContent = sumText;
+
+        drawRadar(scores);
+    }
+
+    // --- DRAW SVG RADAR CHART ---
+    function drawRadar(scores) {
+        const svg = document.getElementById('radar-svg');
+        svg.innerHTML = ''; 
+        
+        const cx = 170, cy = 170, radius = 100;
+        const axes = [
+            { name: "Overkropsstyrke", val: avgScore(scores.hang, scores.grip) },
+            { name: "Benstyrke", val: scores.broad },
+            { name: "Mavestyrke", val: scores.situps },
+            { name: "Kondition", val: scores.bip },
+            { name: "Smidighed", val: scores.reach },
+            { name: "Agility", val: avgScore(scores.shuttle, scores.tapping) },
+            { name: "Balance", val: scores.flamingo }
+        ];
+        const num = axes.length;
+
+        function avgScore(v1, v2) {
+            if(v1 > 0 && v2 > 0) return (v1+v2)/2;
+            if(v1 > 0) return v1;
+            if(v2 > 0) return v2;
+            return 0; 
+        }
+
+        function polarToCartesian(angle, r) {
+            return { x: cx + r * Math.cos(angle), y: cy + r * Math.sin(angle) };
+        }
+
+        // Grid
+        for (let level = 1; level <= 6; level++) {
+            let pts = '';
+            for (let i = 0; i < num; i++) {
+                let angle = (Math.PI * 2 * i / num) - Math.PI / 2;
+                pts += `${polarToCartesian(angle, radius * (level/6)).x},${polarToCartesian(angle, radius * (level/6)).y} `;
+            }
+            let poly = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+            poly.setAttribute('points', pts.trim());
+            poly.setAttribute('fill', level % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.05)');
+            poly.setAttribute('stroke', '#334155');
+            svg.appendChild(poly);
+        }
+
+        // Axes Lines & Labels
+        for (let i = 0; i < num; i++) {
+            let angle = (Math.PI * 2 * i / num) - Math.PI / 2;
+            let endPt = polarToCartesian(angle, radius);
+            
+            let line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', cx); line.setAttribute('y1', cy);
+            line.setAttribute('x2', endPt.x); line.setAttribute('y2', endPt.y);
+            line.setAttribute('stroke', '#334155');
+            svg.appendChild(line);
+
+            let txtPt = polarToCartesian(angle, radius + 22);
+            let txt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            txt.setAttribute('x', txtPt.x); txt.setAttribute('y', txtPt.y + 4);
+            txt.setAttribute('fill', '#94a3b8'); txt.setAttribute('font-size', '10px'); txt.setAttribute('font-weight', '700'); txt.setAttribute('text-anchor', 'middle');
+            txt.textContent = axes[i].name;
+            svg.appendChild(txt);
+        }
+
+        // Eurofit Cohort Average Line (Score = 3.0 / 6)
+        let cohortPts = '';
+        for (let i = 0; i < num; i++) {
+            let angle = (Math.PI * 2 * i / num) - Math.PI / 2;
+            cohortPts += `${polarToCartesian(angle, radius * (3.0/6)).x},${polarToCartesian(angle, radius * (3.0/6)).y} `;
+        }
+        let cohortPoly = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+        cohortPoly.setAttribute('points', cohortPts.trim());
+        cohortPoly.setAttribute('fill', 'transparent');
+        cohortPoly.setAttribute('stroke', '#10b981');
+        cohortPoly.setAttribute('stroke-width', '2.5');
+        cohortPoly.setAttribute('stroke-dasharray', '5,4');
+        svg.appendChild(cohortPoly);
+
+        // User Profile Line
+        let userPts = '';
+        let hasData = false;
+        for (let i = 0; i < num; i++) {
+            let angle = (Math.PI * 2 * i / num) - Math.PI / 2;
+            let val = axes[i].val;
+            if (val > 0) hasData = true;
+            userPts += `${polarToCartesian(angle, radius * (val/6)).x},${polarToCartesian(angle, radius * (val/6)).y} `;
+        }
+        
+        if (hasData) {
+            let userPoly = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+            userPoly.setAttribute('points', userPts.trim());
+            userPoly.setAttribute('fill', 'rgba(239, 68, 68, 0.25)');
+            userPoly.setAttribute('stroke', '#ef4444');
+            userPoly.setAttribute('stroke-width', '3');
+            svg.appendChild(userPoly);
+        }
+    }
+
+    // --- LOCALSTORAGE ---
+    function saveState() {
+        try {
+            localStorage.setItem(STORAGE_PREFIX + 'gender', selectedGender);
+            inputIds.forEach(id => { localStorage.setItem(STORAGE_PREFIX + id, document.getElementById(id).value); });
+        } catch(e) {}
+    }
+    function loadState() {
+        try {
+            let savedGender = localStorage.getItem(STORAGE_PREFIX + 'gender');
+            if (savedGender) setGender(savedGender);
+            inputIds.forEach(id => {
+                let val = localStorage.getItem(STORAGE_PREFIX + id);
+                if (val !== null) document.getElementById(id).value = val;
+            });
+        } catch(e) {}
+    }
+    window.clearAllData = function() {
+        if (confirm("Vil du nulstille alle indtastede testresultater?")) {
+            try {
+                localStorage.removeItem(STORAGE_PREFIX + 'gender');
+                inputIds.forEach(id => { localStorage.removeItem(STORAGE_PREFIX + id); document.getElementById(id).value = ''; });
+                document.getElementById('euro-age').value = '14'; setGender('m');
+            } catch(e) {}
+            evaluateAll();
+        }
+    };
+
+    // Events
+    inputIds.forEach(id => {
+        let el = document.getElementById(id);
+        if (el) { el.addEventListener('input', () => { saveState(); evaluateAll(); }); }
+    });
+
+    loadState();
+    evaluateAll();
+});
+</script>

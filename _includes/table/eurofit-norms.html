@@ -1,0 +1,193 @@
+<style>
+  /* ====== VANILLA CSS: INTERAKTIV EUROFIT NORMTABEL (MED KNAPPER TIL ALT) ====== */
+  #euro-norm-widget {
+    max-width: 840px; margin: 2rem auto; font-family: inherit; color: #1e293b;
+    background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.05); overflow: hidden;
+  }
+  #euro-norm-widget * { box-sizing: border-box; }
+
+  /* Top Toolbar */
+  .euro-norm-toolbar {
+    background: #f8fafc; padding: 16px 20px; border-bottom: 1px solid #e2e8f0;
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  @media (min-width: 800px) {
+    .euro-norm-toolbar { flex-direction: row; justify-content: space-between; align-items: center; }
+  }
+  
+  .euro-norm-title { font-size: 1.1rem; font-weight: 900; margin: 0; color: #0f172a; }
+  
+  .euro-norm-controls { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  
+  /* Toggle Switch Design */
+  .euro-norm-toggle-group {
+    display: inline-flex; background: #cbd5e1; border-radius: 8px; padding: 2px;
+    flex-wrap: wrap; /* Sikrer at de bryder pænt på helt små mobiler */
+  }
+  .euro-norm-toggle-btn {
+    padding: 6px 12px; border: none; background: transparent; font-size: 0.8rem; font-weight: 700;
+    color: #475569; border-radius: 6px; cursor: pointer; transition: all 0.15s; white-space: nowrap;
+  }
+  .euro-norm-toggle-btn:hover { color: #0f172a; }
+  .euro-norm-toggle-btn.active {
+    background: #2563eb; color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  }
+
+  /* Table Styles */
+  .euro-norm-table-container { width: 100%; overflow-x: auto; }
+  .euro-norm-table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+  .euro-norm-table th { background: #0f172a; color: #fff; font-weight: 700; padding: 12px 16px; white-space: nowrap; }
+  .euro-norm-table td { padding: 12px 16px; border-bottom: 1px solid #e2e8f0; font-weight: 600; color: #334155; }
+  .euro-norm-table tr:last-child td { border-bottom: none; }
+  .euro-norm-table tr:hover { background: #f1f5f9; }
+
+  /* Table Badges & Colors */
+  .euro-col-test { font-weight: 800 !important; color: #0f172a !important; }
+  .euro-col-low { color: #b91c1c !important; }
+  .euro-col-mid { color: #b45309 !important; }
+  .euro-col-high { color: #15803d !important; }
+
+  .euro-th-low { border-bottom: 4px solid #ef4444; }
+  .euro-th-mid { border-bottom: 4px solid #f59e0b; }
+  .euro-th-high { border-bottom: 4px solid #10b981; }
+</style>
+
+<div id="euro-norm-widget">
+  
+  <!-- Toolbar: Titel og Knapper -->
+  <div class="euro-norm-toolbar">
+    <div class="euro-norm-controls">
+      <!-- Køn Knapper -->
+      <div class="euro-norm-toggle-group">
+        <button type="button" class="euro-norm-toggle-btn active" id="btn-norm-m" onclick="setNormGender('m')">Dreng</button>
+        <button type="button" class="euro-norm-toggle-btn" id="btn-norm-f" onclick="setNormGender('f')">Pige</button>
+      </div>
+
+      <!-- Alder Knapper -->
+      <div class="euro-norm-toggle-group">
+        <button type="button" class="euro-norm-toggle-btn" id="btn-age-6" onclick="setNormAge(6)">6-7</button>
+        <button type="button" class="euro-norm-toggle-btn" id="btn-age-8" onclick="setNormAge(8)">8-9</button>
+        <button type="button" class="euro-norm-toggle-btn" id="btn-age-10" onclick="setNormAge(10)">10-11</button>
+        <button type="button" class="euro-norm-toggle-btn" id="btn-age-12" onclick="setNormAge(12)">12-13</button>
+        <button type="button" class="euro-norm-toggle-btn" id="btn-age-14" onclick="setNormAge(14)">14-15</button>
+        <button type="button" class="euro-norm-toggle-btn active" id="btn-age-16" onclick="setNormAge(16)">16-17</button>
+        <button type="button" class="euro-norm-toggle-btn" id="btn-age-18" onclick="setNormAge(18)">18+</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Norm Tabel -->
+  <div class="euro-norm-table-container">
+    <table class="euro-norm-table">
+      <thead>
+        <tr>
+          <th>Eurofit Deltest</th>
+          <th class="euro-th-low">Under Middel (&lt;P25)</th>
+          <th class="euro-th-mid">Middel (P25 - P75)</th>
+          <th class="euro-th-high">Over Middel (&gt;P75)</th>
+        </tr>
+      </thead>
+      <tbody id="norm-table-body">
+        <!-- Rows genereres af JavaScript -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let currentNormGender = 'm'; 
+    let currentNormAge = 16;     
+
+    const NORMS = {
+        m: {
+            6:  { bip:[3.5, 5.5], broad:[95,120],  reach:[10,18], situps:[9,16],  grip:[10,16], shuttle:[26.0,23.0], hang:[4,12],  tapping:[18.0,15.0], flamingo:[8,3] },
+            8:  { bip:[4.5, 6.5], broad:[115,140], reach:[12,20], situps:[13,20], grip:[14,20], shuttle:[24.5,21.5], hang:[7,18],  tapping:[16.0,13.2], flamingo:[7,2] },
+            10: { bip:[5.5, 8.0], broad:[130,155], reach:[14,22], situps:[16,23], grip:[18,25], shuttle:[23.5,20.5], hang:[10,24], tapping:[14.5,12.0], flamingo:[6,2] },
+            12: { bip:[6.5, 9.0], broad:[145,175], reach:[16,24], situps:[18,26], grip:[23,32], shuttle:[22.5,19.5], hang:[14,30], tapping:[13.5,11.0], flamingo:[5,2] },
+            14: { bip:[7.5,10.5], broad:[165,200], reach:[18,26], situps:[21,29], grip:[30,42], shuttle:[21.5,18.8], hang:[18,38], tapping:[12.5,10.2], flamingo:[4,1] },
+            16: { bip:[8.5,11.5], broad:[185,220], reach:[20,28], situps:[23,31], grip:[38,50], shuttle:[20.5,18.0], hang:[22,45], tapping:[11.8,9.6],  flamingo:[4,1] },
+            18: { bip:[9.0,12.0], broad:[195,230], reach:[21,29], situps:[24,32], grip:[42,54], shuttle:[20.0,17.5], hang:[25,50], tapping:[11.5,9.2],  flamingo:[3,1] }
+        },
+        f: {
+            6:  { bip:[3.0, 5.0], broad:[90,112],  reach:[13,21], situps:[8,15],  grip:[9,14],  shuttle:[27.0,24.0], hang:[3,10],  tapping:[18.5,15.5], flamingo:[8,3] },
+            8:  { bip:[4.0, 6.0], broad:[105,130], reach:[15,23], situps:[12,18], grip:[12,18], shuttle:[25.5,22.2], hang:[5,14],  tapping:[16.5,13.8], flamingo:[7,2] },
+            10: { bip:[4.5, 7.0], broad:[120,145], reach:[17,25], situps:[14,21], grip:[16,23], shuttle:[24.2,21.0], hang:[7,18],  tapping:[15.0,12.5], flamingo:[6,2] },
+            12: { bip:[5.0, 7.5], broad:[132,158], reach:[19,27], situps:[16,23], grip:[20,28], shuttle:[23.5,20.2], hang:[8,20],  tapping:[14.0,11.6], flamingo:[5,2] },
+            14: { bip:[5.5, 8.0], broad:[140,165], reach:[22,30], situps:[17,24], grip:[24,32], shuttle:[23.0,19.8], hang:[9,22],  tapping:[13.2,11.0], flamingo:[4,1] },
+            16: { bip:[5.5, 8.0], broad:[145,170], reach:[24,32], situps:[17,24], grip:[26,34], shuttle:[22.8,19.5], hang:[9,22],  tapping:[12.8,10.6], flamingo:[4,1] },
+            18: { bip:[5.5, 8.0], broad:[148,172], reach:[25,33], situps:[17,24], grip:[27,35], shuttle:[22.5,19.2], hang:[9,22],  tapping:[12.5,10.4], flamingo:[3,1] }
+        }
+    };
+
+    const TEST_META = [
+        { id: 'bip', name: '1. Bip-test (20m)', unit: 'niv', isHigherBetter: true },
+        { id: 'broad', name: '2. Stående Længdehop', unit: 'cm', isHigherBetter: true },
+        { id: 'reach', name: '3. Sit-and-Reach', unit: 'cm', isHigherBetter: true },
+        { id: 'situps', name: '4. Sit-ups (30 sek)', unit: 'reps', isHigherBetter: true },
+        { id: 'grip', name: '5. Gribestyrke', unit: 'kg', isHigherBetter: true },
+        { id: 'shuttle', name: '6. 10x5m Sprint', unit: 'sek', isHigherBetter: false },
+        { id: 'hang', name: '7. Bent Arm Hang', unit: 'sek', isHigherBetter: true },
+        { id: 'tapping', name: '8. Plate Tapping', unit: 'sek', isHigherBetter: false },
+        { id: 'flamingo', name: '9. Flamingo Balance', unit: 'fald', isHigherBetter: false }
+    ];
+
+    window.setNormGender = function(gender) {
+        currentNormGender = gender;
+        document.getElementById('btn-norm-m').classList.toggle('active', gender === 'm');
+        document.getElementById('btn-norm-f').classList.toggle('active', gender === 'f');
+        updateNormTable();
+    };
+
+    window.setNormAge = function(age) {
+        currentNormAge = age;
+        const ages = [6, 8, 10, 12, 14, 16, 18];
+        ages.forEach(a => {
+            document.getElementById('btn-age-' + a).classList.toggle('active', a === age);
+        });
+        updateNormTable();
+    };
+
+    function formatCell(p25, p75, isHigherBetter, type, unit) {
+        if (isHigherBetter) {
+            if (type === 'low') return `&lt; ${p25} ${unit}`;
+            if (type === 'mid') return `${p25} - ${p75} ${unit}`;
+            if (type === 'high') return `&gt; ${p75} ${unit}`;
+        } else {
+            if (type === 'low') return `&gt; ${p25} ${unit}`;
+            if (type === 'mid') return `${p25} - ${p75} ${unit}`;
+            if (type === 'high') return `&lt; ${p75} ${unit}`;
+        }
+    }
+
+    window.updateNormTable = function() {
+        const currentNorms = NORMS[currentNormGender][currentNormAge];
+        
+        const tbody = document.getElementById('norm-table-body');
+        tbody.innerHTML = ''; 
+
+        TEST_META.forEach(test => {
+            const vals = currentNorms[test.id];
+            const p25 = vals[0];
+            const p75 = vals[1];
+
+            const strLow = formatCell(p25, p75, test.isHigherBetter, 'low', test.unit);
+            const strMid = formatCell(p25, p75, test.isHigherBetter, 'mid', test.unit);
+            const strHigh = formatCell(p25, p75, test.isHigherBetter, 'high', test.unit);
+
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td class="euro-col-test">${test.name}</td>
+                <td class="euro-col-low">${strLow}</td>
+                <td class="euro-col-mid">${strMid}</td>
+                <td class="euro-col-high">${strHigh}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    };
+
+    // Initial load
+    updateNormTable();
+});
+</script>

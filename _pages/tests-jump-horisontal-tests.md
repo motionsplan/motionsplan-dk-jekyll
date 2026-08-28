@@ -64,7 +64,7 @@ Mange atleter og trænere har stærkt fokus på den vertikale hoppehøjde, men d
 Afhængigt af om du tester generel råstyrke, genoptræning eller reaktiv elasticitet, findes der flere anerkendte testprotokoller:
 
 ### 1. Stående længdehop (Broad Jump / Standing Long Jump)
-Dette er den absolutte klassiker og grundstenen i horisontale springtests. Atleten står med samlede fødder bag startlinjen, svinger armene og hopper så langt frem som muligt med samlet landing. Testen indgår i alt fra Eurofit-testbatteriet til politiets fysiske optagelsesprøver.
+Dette er den absolutte klassiker og grundstenen i horisontale springtests. Atleten står med samlede fødder bag startlinjen, svinger armene og hopper så langt frem som muligt med samlet landing. Testen indgår i alt fra [Eurofit-testbatteriet](/eurofit-testbatteri/) til politiets fysiske optagelsesprøver.
 
 👉 **Læs den komplette guide og se normtal for [stående længdehop (broad jump)](/broadjump/)**.
 
