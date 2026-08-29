@@ -26,12 +26,12 @@ faq:
   - question: Hvad er Sprint 8 intervaltræning?
     answer: Sprint 8 er en specifik Sprint Interval Training (SIT) protokol bestående af 8 intervaller af 30 sekunders all-out sprint efterfulgt af 90 sekunders aktiv restitution. Det samlede pas tager 20 minutter inklusiv opvarmning og afkøling.
   - question: Hvad er forskellen på HIIT og SIT?
-    answer: HIIT (High-Intensity Interval Training) udføres typisk ved 85-95 % af maksimal hjertefrekvens. SIT (Sprint Interval Training) udføres ved supramaksimal intensitet (100 % all-out) med fuld kraftudfoldelse i hver spurt.
+    answer: HIIT (High-Intensity Interval Training) udføres typisk ved 85-95% af maksimal hjertefrekvens. SIT (Sprint Interval Training) udføres ved supramaksimal intensitet (100% all-out) med fuld kraftudfoldelse i hver spurt.
   - question: Hvor ofte bør man køre Sprint 8?
     answer: Grundet den massive belastning på centralnervesystemet og muskelfibrene bør Sprint 8 maksimalt udføres 2 til 3 gange om ugen med mindst 48 timers restitution mellem passene.
 ---
 
-**Sprint 8** er en videnskabeligt dokumenteret træningsprotokol inden for kategorien *Sprint Interval Training* (SIT). Træningsformen blev oprindeligt udviklet af Phil Campbell og adskiller sig fra almindelig [intervaltræning](/intervaltraening/) ved at kræve 100 % maximal kraftudfoldelse i ultrakorte ryk.
+**Sprint 8** er en videnskabeligt dokumenteret træningsprotokol inden for kategorien *Sprint Interval Training* (SIT). Træningsformen blev oprindeligt udviklet af Phil Campbell og adskiller sig fra almindelig [intervaltræning](/intervaltraening/) ved at kræve 100% maximal kraftudfoldelse i ultrakorte ryk.
 
 På kun **20 minutter tre gange om ugen** stimulerer protokollen både det aerobe og [anaerobe energisystem](/anaerob-traening/), øger den muskulære laktattolerance og fremmer udskillelsen af væksthormon (GH).
 
@@ -65,10 +65,10 @@ Sprint 8 placerer sig i den absolutte top af intensitetsskalaen sammenlignet med
 
 | Træningsform | Arbejdsfase | Restitution | Intensitet | Primært Fokus |
 | :--- | :--- | :--- | :--- | :--- |
-| **Sprint 8 (SIT)** | 30 sekunder | 90 sekunder | Supramaksimal (100 % All-Out) | Anaerob effekttærskel & Muskelrekruttering |
+| **Sprint 8 (SIT)** | 30 sekunder | 90 sekunder | Supramaksimal (100% All-Out) | Anaerob effekttærskel & Muskelrekruttering |
 | **[Tabata](/artikel/tabata-traening-intervaller/)** | 20 sekunder | 10 sekunder | Maksimal (100 %) | Laktattolerance & VO2max-belastning |
 | **[10-20-30](/10-20-30-intervaltraening/)** | 10 sek. spurt / 20 sek. mod. | 30 sek. rolig | Variable zoner | Submaksimal kondition & Løbeøkonomi |
-| **[Klassisk HIIT](/hiit/)** | 1 – 4 minutter | 1 – 3 minutter | High (85 – 95 % HRmax) | Aerob effekt og vVO₂max |
+| **[Klassisk HIIT](/hiit/)** | 1 – 4 minutter | 1 – 3 minutter | High (85 – 95% HRmax) | Aerob effekt og vVO₂max |
 
 ---
 
@@ -87,7 +87,7 @@ Hvorfor er 30 sekunders sprint så effektivt for både fedtforbrænding og kondi
 For at få det fulde udbytte af Sprint 8 uden at pådrage sig fibersprængninger eller overbelastningsskader bør du overholde følgende retningslinjer:
 
 1. **Vælg det rette redskab:** Hvis du er løber, bør spurterne udføres på græs eller en blød atletikbane for at reducere stødkoefficienten. Motionscykler, romaskiner eller Wattbikes er fremragende skånsomme alternativer til tungere udøvere.
-2. **Undgå progressiv udmattelse i starten:** Læg ikke ud med at løbe 100 % på den allerførste spurt, hvis du ikke er gennemvarm. Byg op til fuld kraft over de første 2-3 runder for at skåne baglåret.
+2. **Undgå progressiv udmattelse i starten:** Læg ikke ud med at løbe 100% på den allerførste spurt, hvis du ikke er gennemvarm. Byg op til fuld kraft over de første 2-3 runder for at skåne baglåret.
 3. **Respektér restitutionen:** Da SIT belaster centralnervesystemet (CNS) kraftigt, bør du holde mindst én hel hviledag mellem Sprint 8-pas og undgå at kombinere det med tunge benøvelser samme dag.
 
 ---

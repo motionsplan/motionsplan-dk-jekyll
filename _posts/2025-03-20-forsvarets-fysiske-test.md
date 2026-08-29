@@ -92,7 +92,7 @@ Du udfører øvelserne i træk med kort pause imellem. Alle gentagelser skal udf
 
 Et af de mest stillede spørgsmål er, om der er særlige **fysiske krav for kvinder i Forsvaret**.
 
-Svaret er, at **øvelserne og testens opbygning er 100 % identiske** for mænd og kvinder. I feltet og under værnepligten skal alle kunne bære den samme udrustning og udføre de samme operative opgaver.
+Svaret er, at **øvelserne og testens opbygning er 100% identiske** for mænd og kvinder. I feltet og under værnepligten skal alle kunne bære den samme udrustning og udføre de samme operative opgaver.
 
 Pointsystemet i Basistesten er dog differentieret på baggrund af køn og alder. Det betyder i praksis, at en kvinde skal løbe færre meter på sin [Cooper-test](/cooper-test/) eller tage færre repetitioner i styrkeøvelserne end en mand i samme aldersgruppe for at opnå de krævede 2 point for bestået.
 

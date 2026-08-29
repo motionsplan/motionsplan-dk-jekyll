@@ -39,7 +39,7 @@ garmin:
     alt: garmin vo2max pulsur
 faq:
   - question: Hvor præcist estimerer et løbeur VO2-max?
-    answer: Løbeure fra fx Garmin og Polar estimerer typisk din VO2-max inden for en usikkerhedsmargin på 3–5 % i forhold til en laboratorietest, forudsat at du bruger et brystbælte og har indtastet din korrekte maxpuls.
+    answer: Løbeure fra fx Garmin og Polar estimerer typisk din VO2-max inden for en usikkerhedsmargin på 3–5% i forhold til en laboratorietest, forudsat at du bruger et brystbælte og har indtastet din korrekte maxpuls.
   - question: Er pulsmåling i håndleddet præcis nok til VO2-max?
     answer: Nej. Forskning viser, at optisk håndledsmåling konsekvent underestimerer pulsen ved høj intensitet, hvilket fører til en kunstigt for høj estimeret VO2-max. Et pulsbælte om brystet er altid mere nøjagtigt.
 ---

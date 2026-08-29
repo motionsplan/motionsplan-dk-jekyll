@@ -80,7 +80,7 @@ Du kan styre din intensitet efter din [pulsreserve](/pulsreserve/), din maksimal
 
 ## Løb langsomt for at blive hurtigere (Fysiologien)
 
-Filosofien om at "løbe langsomt for at blive hurtig" er grundpillen i **polariseret træning** (Seiler, 2010). Eliteudøvere løber op mod 80 % af deres samlede kilometertal ved meget lav intensitet.
+Filosofien om at "løbe langsomt for at blive hurtig" er grundpillen i **polariseret træning** (Seiler, 2010). Eliteudøvere løber op mod 80% af deres samlede kilometertal ved meget lav intensitet.
 
 Når du holder belastningen helt nede i Zone 1 under dit restitutionsløb, opnår du store fysiologiske tilpasninger uden at udløse et højt niveau af stresshormonet kortisol:
 

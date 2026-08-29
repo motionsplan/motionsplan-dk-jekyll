@@ -34,7 +34,7 @@ faq:
 - question: Hvor lang tid tager træningspasset?
   answer: Selve træningen kan gennemføres på 20–30 minutter (eksklusiv opvarmning), hvis du holder dine pauser på 1,5 til 2 minutter mellem sættene.
 - question: Er dette program nok til at opbygge muskelmasse og styrke?
-  answer: Ja, ifølge forskningen i Minimum Effective Volume (MEV) og Minimum Effective Dose (MED) er 3–4 hårde sæt pr. hovedbevægelse 2-3 gange om ugen mere end rigeligt til at stimulere både muskelvækst og markant styrkefremgang for 90 % af alle motionister.
+  answer: Ja, ifølge forskningen i Minimum Effective Volume (MEV) og Minimum Effective Dose (MED) er 3–4 hårde sæt pr. hovedbevægelse 2-3 gange om ugen mere end rigeligt til at stimulere både muskelvækst og markant styrkefremgang for 90% af alle motionister.
 programs:
   - id: "kompakt-helkropsprogram-normal"
     title: "Det Kompakte Helkropsprogram (3 Øvelser)"
@@ -114,13 +114,13 @@ Grunden til, at du kan nøjes med 3 øvelser, er princippet om **Push / Pull / L
 2. **Overkrop Pres (Push):** Træner bryst, skuldre og triceps.
 3. **Overkrop Træk (Pull):** Træner den brede rygmuskel (lats), øvre ryg, bagskulder og biceps.
 
-Når du udfører disse tre grundbevægelser med høj intensitet, har du stimuleret næsten 100 % af kroppens muskelmasse uden at spilde tid på isolationsøvelser som bicep curls eller lårcurl.
+Når du udfører disse tre grundbevægelser med høj intensitet, har du stimuleret næsten 100% af kroppens muskelmasse uden at spilde tid på isolationsøvelser som bicep curls eller lårcurl.
 
 ---
 
 ## Niveau 1: Det kompakte helkropsprogram (Normale version)
 
-Dette program er designet til 95 % af alle motionister. Øvelserne er sikre, lette at gå til og kan tilpasses med både frie vægte, kropsvægt eller elastikker.
+Dette program er designet til 95% af alle motionister. Øvelserne er sikre, lette at gå til og kan tilpasses med både frie vægte, kropsvægt eller elastikker.
 
 ### Træningsskabelon:
 * **Frekvens:** 2 – 3 gange om ugen (fx mandag, onsdag, fredag).

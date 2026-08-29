@@ -60,7 +60,7 @@ Da Nike i 2017 lancerede deres *Vaporfly 4%*, ændrede det langdistanceløb for 
 
 {% include figure image_path="https://s3.amazonaws.com/nikeinc/assets/69101/Nike-4percent_final_native_1600.jpg?1493744193" caption="Opbygningen af sålen på en Nike Vaporfly med carbon-plade og stødabsorberende skum. Kilde: [Nike](https://news.nike.com/news/nike-vaporfly-4-review)" %}
 
-Kombinationen reducerer det energitab, der opstår, hver gang foden rammer jorden. Det giver en fjedrende effekt, der forbedrer løbeøkonomien med op mod 4–5 %. 
+Kombinationen reducerer det energitab, der opstår, hver gang foden rammer jorden. Det giver en fjedrende effekt, der forbedrer løbeøkonomien med op mod 4–5%. 
 
 Eliud Kipchoge brugte en prototype af skoen med tre carbonplader, da han brød den magiske 2-timers grænse på maratondistancen under et uofficielt event i Wien i 2019 (1:59:40). 
 

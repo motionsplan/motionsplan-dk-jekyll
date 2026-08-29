@@ -73,9 +73,9 @@ Og resultatet er imponerende og overraskende. Jeg løb seks minutter hurtigere t
 
 Det gælder overordnet om at systematisere og periodisere din træning. Vælg med omhu i hvilke perioder af året, du vil være i topform. Der skal være perioder, hvor det er ’off season’, og du ikke er konkurrenceklar. Husk på, at kroppen har brug for det.
 
-I de intense træningsperioder skal du sørge for udelukkende at træne interval. Det skal være perioder med maksimal belastning, og turene skal være varieres, så du både træner i 2-4 minutter med en iltoptagelse tæt på 95 % af max, og kortere intervaller af 30 sekunders varighed med op til 100 % belastning. Det vil forbedre både din aerobe og anaerobe kapacitet.
+I de intense træningsperioder skal du sørge for udelukkende at træne interval. Det skal være perioder med maksimal belastning, og turene skal være varieres, så du både træner i 2-4 minutter med en iltoptagelse tæt på 95% af max, og kortere intervaller af 30 sekunders varighed med op til 100% belastning. Det vil forbedre både din aerobe og anaerobe kapacitet.
 
-Samtidig skal du inkludere tung styrketræning. Øget muskelkraft, muskelpower og muskelmasse vil forbedre din præstationsevne på løbebanen. Det er imidlertid essentielt, at styrketræningen er tung og eksplosiv. Kun på den måde får man øget muskelstyrken uden vægtøgning. Styrketræningsintensiteten skal være høj, og der skal kun være 3-5 gentagelser i en øvelse, hvor belastningen er op til 95 % af den maksimale ydeevne.
+Samtidig skal du inkludere tung styrketræning. Øget muskelkraft, muskelpower og muskelmasse vil forbedre din præstationsevne på løbebanen. Det er imidlertid essentielt, at styrketræningen er tung og eksplosiv. Kun på den måde får man øget muskelstyrken uden vægtøgning. Styrketræningsintensiteten skal være høj, og der skal kun være 3-5 gentagelser i en øvelse, hvor belastningen er op til 95% af den maksimale ydeevne.
 
 ---
 
@@ -98,7 +98,7 @@ Traditionel maratontræning bygger på høj kilometermængde for at stimulere de
 Der er tre primære fysiologiske årsager til, at denne tilgang virker:
 
 ### 1. Forbedring af løbeøkonomien
-Tung styrketræning (fx dybe squats med 90–95 % af 1RM) og plyometri (hække- og trappehop) øger senernes og musklernes elastiske stivhed (*musculotendinous stiffness*). Dine ben fungerer som stramme fjedre: For hvert skridt du tager på asfalten, genbruger kroppen mere passiv energi. Du bruger altså mindre ilt ved den samme hastighed.
+Tung styrketræning (fx dybe squats med 90–95% af 1RM) og plyometri (hække- og trappehop) øger senernes og musklernes elastiske stivhed (*musculotendinous stiffness*). Dine ben fungerer som stramme fjedre: For hvert skridt du tager på asfalten, genbruger kroppen mere passiv energi. Du bruger altså mindre ilt ved den samme hastighed.
 
 ### 2. Neuromuskulær rekruttering (Fast-twitch fibrene)
 Når du løber langt og langsomt, bruges kun de langsomme (Type I) muskelfibre. Når disse bliver trætte mod slutningen af et maraton, falder din teknik fra hinanden. Ved at træne tunge løft og 30-sekunders all-out sprints lærer hjernen at rekruttere de hurtige (Type II) muskelfibre. Under maratonet har du dermed en langt større "reserve" af muskelfibre at trække på.

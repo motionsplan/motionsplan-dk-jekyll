@@ -116,7 +116,7 @@ Du beholder din faste ugentlige træningsstruktur (fx tunge dage tirsdag/torsdag
 
 Når symptomerne rammer, bruger du denne **3-trins justeringsmodel**:
 1. **Byt om på dagene:** Flyt det hårde pas (fx intervaller eller 1RM-test) 1–2 dage frem i ugen, og kør ugens lette restitusjonspas i dag i stedet. Ugens samlede udbytte er uændret.
-2. **Skru ned frem for at aflyse:** Behold træningspasset, men reducer sæt eller belastning (fx 3 sæt i stedet for 5, eller 10 % lavere vægt på stangen).
+2. **Skru ned frem for at aflyse:** Behold træningspasset, men reducer sæt eller belastning (fx 3 sæt i stedet for 5, eller 10% lavere vægt på stangen).
 3. **Genoptag normalen hurtigt:** Markante symptomer varer sjældent mere end 1–2 dage. Så snart overskuddet vender tilbage, hopper du direkte tilbage på din normale plan.
 
 ### Strategi B: Fase-periodiseret træning (Cycle Syncing)

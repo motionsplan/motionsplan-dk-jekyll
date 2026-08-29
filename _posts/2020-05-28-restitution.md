@@ -109,7 +109,7 @@ Her er tre overskuelige tabeller og oversigter over restitutionstider udarbejdet
 | **Maksimal** (fx tung styrketræning til udmattelse, sprint) | 30–36 timer | 72–120 timer |
 
 ### Restitutionstid for styrketræning (Bishop et al., 2008)
-Bishop et al. (2008) viste, at når man venter mellem 48 og 72 timer efter et hårdt styrketræningspas, er omkring 70 % af udøverne tilbage på deres maksimale ydelsesniveau.
+Bishop et al. (2008) viste, at når man venter mellem 48 og 72 timer efter et hårdt styrketræningspas, er omkring 70% af udøverne tilbage på deres maksimale ydelsesniveau.
 
 | Belastning / Intensitet | Gentagelser (RM) | Restitutionstid |
 | :--- | :--- | :--- |

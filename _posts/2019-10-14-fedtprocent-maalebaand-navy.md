@@ -153,7 +153,7 @@ McArdle & Katch-metoden (2010) tager udgangspunkt i en fysiologisk antagelse om,
 Formlen benytter forskellige alders- og kønsspecifikke målesteder afhængigt af, hvem der testes. For yngre mænd måles fx underarm og talje, mens der hos kvinder inddrages målinger af overarm, mave og hofte.
 
 ### ⚠️ Forudsætninger og begrænsninger
-Testen er oprindeligt udarbejdet med baggrund i utrænede personer med en normal kropsbygning. McArdle & Katch angiver selv, at testen har en relativt stor standardafvigelse på 2,5–4,0 %. 
+Testen er oprindeligt udarbejdet med baggrund i utrænede personer med en normal kropsbygning. McArdle & Katch angiver selv, at testen har en relativt stor standardafvigelse på 2,5–4,0%. 
 
 Testen bliver derfor særligt unøjagtig for:
 * **Meget trænede personer:** Muskelmasse på overarme, lår, lægge eller underarme vil få algoritmen til at overestimere fedtprocenten.

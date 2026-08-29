@@ -79,7 +79,7 @@ Formlerne i dashboardet opdeler dine data i fire pædagogiske kategorier:
 
 ## ⚖️ Hvordan bruger du analysen bedst i praksis?
 
-Formlers største styrke er **konsistens over tid**. Selvom et simpelt målebånd eller en matematikmodel har en statistisk usikkerhed (ofte ±3–4 % for fedtprocent), vil en **faldende kurve over 8–12 uger** næsten altid afspejle et reelt tab af fedtmasse.
+Formlers største styrke er **konsistens over tid**. Selvom et simpelt målebånd eller en matematikmodel har en statistisk usikkerhed (ofte ±3–4% for fedtprocent), vil en **faldende kurve over 8–12 uger** næsten altid afspejle et reelt tab af fedtmasse.
 
 1. **Mål under samme omstændigheder:** Tag dine mål om morgenen, fastende og før træning.
 2. **Fokuser på tendensen:** Se på udviklingen over måneder frem for enkelte dages svingninger.

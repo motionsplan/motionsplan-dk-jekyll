@@ -20,7 +20,7 @@ faq:
     answer: "Anaerobic Speed Reserve (ASR) er differencen mellem en atlets maksimale sprinthastighed (MSS) og dennes maksimale aerobe hastighed (MAS). ASR repræsenterer atletens samlede anaerobe hastighedskapacitet."
   - question: "Hvordan beregnes ASR?"
     answer: "ASR beregnes med den simple formel: ASR = MSS - MAS (angivet i enten km/t eller m/s)."
-  - question: "Hvorfor er % MAS uegnet til supramaximale intervaller?"
+  - question: "Hvorfor er% MAS uegnet til supramaximale intervaller?"
     answer: "Traditionel styring ud fra procent af MAS (fx 120% MAS) tager ikke højde for atletens maksimale sprinthastighed. To atleter med samme MAS kan have vidt forskellig MSS, hvilket betyder, at 120% MAS kan føles som moderat overskud for én atlet, men være umuligt at gennemføre for en anden."
 ---
 
@@ -56,7 +56,7 @@ ASR er det "hastighedsspænd", der ligger over MAS op til MSS. Alt løb, der for
 
 ---
 
-## Hvorfor % MAS fejler: "120% MAS-paradokset"
+## Hvorfor% MAS fejler: "120% MAS-paradokset"
 
 Hvorfor er det et problem blot at bruge en fast procentdel af MAS til supramaximale intervaller? 
 
@@ -81,7 +81,7 @@ Begge løbere skal altså løbe $21{,}6\text{ km/t}$. Men ser vi på, hvor stor 
 
 > **Konsekvens:** Løber A arbejder ved **36% af sin anaerobe reserve**, ophober lynhurtigt laktat og udtrættes hurtigt. Løber B arbejder kun ved **22,5% af sin reserve** og oplever passet som en forholdsvis overskuelig opgave. 
 >
-> Ved at træne ud fra ren % MAS bliver den udholdende type overbelastet, mens den eksplosive type underbelastes.
+> Ved at træne ud fra ren% MAS bliver den udholdende type overbelastet, mens den eksplosive type underbelastes.
 
 ---
 
@@ -131,7 +131,7 @@ MAS  -------------------        MAS  -------------------         MAS  ----------
 
 ---
 
-## Praktisk Træningsstyring med % ASR
+## Praktisk Træningsstyring med% ASR
 
 I stedet for at foreskrive et interval til $120\% \text{ af MAS}$, foreskriver moderne fysiske trænere i stedet arbejdsintensiteten som en **procent af ASR**:
 

@@ -87,7 +87,7 @@ En 5-minutters maksimal indsats ("all-out") belaster kredsløbet og iltoptagelse
 
 ## Sådan udfører du Sitkos 5-minutters test (Trin-for-trin)
 
-For at få et brugbart og reproducerbart resultat er det afgørende, at du følger en fastlagt protokol. Testen kan udføres enten udendørs på en jævn stigning (3-5 % hældning) eller indendørs på en hometrainer/smart trainer.
+For at få et brugbart og reproducerbart resultat er det afgørende, at du følger en fastlagt protokol. Testen kan udføres enten udendørs på en jævn stigning (3-5% hældning) eller indendørs på en hometrainer/smart trainer.
 
 1. **Grundig opvarmning (15–20 minutter):**  
    Start med 10 minutters let rul (Zone 1-2). Kør derefter 3 x 30 sekunder med høj kadence (>100 RPM) samt et enkelt ryk på 1 minut ved moderat-høj intensitet for at åbne op for iltoptagelsen.
@@ -140,7 +140,7 @@ Bør du køre en 5-minutters test eller en 20-minutters test? Tabellen herunder 
 Når du har gennemført testen og tastet dine tal ind i [beregneren ovenfor](#beregner), kan du aktivt bruge dit resultat til at tilpasse din cykeltræning:
 
 * **Styring af VO2max-intervaller:**  
-  Når du skal køre klassiske iltoptagelsesintervaller (fx $5 \times 3 \text{ minutter}$ eller $4 \times 4 \text{ minutter}$), bør din mål-watt ligge på omkring **90–98 % af din 5-minutters Peak Power**.
+  Når du skal køre klassiske iltoptagelsesintervaller (fx $5 \times 3 \text{ minutter}$ eller $4 \times 4 \text{ minutter}$), bør din mål-watt ligge på omkring **90–98% af din 5-minutters Peak Power**.
 * **Registrering af fremgang:**  
   Konditallet på cyklen og din $\text{W/kg}$ over 5 minutter er et af de mest følsomme mål for din formfremgang. Genoptag testen hver 6.–8. uge under en træningsblok for at måle din progression.
 

@@ -66,12 +66,12 @@ Timeren indeholder en række færdige indstillinger (presets), som matcher de me
 * **Optimalt til:** Løbere på alle niveauer. Se den komplette guiden til [10-20-30 intervaltræning](/10-20-30-intervaltraening/).
 
 ### 3. 4x4 Norsk Tærskel (Norwegian Protocol)
-* **Struktur:** 4 arbejdsintervaller af 4 minutters varighed ved 85-95 % af makspuls, adskilt af 3 minutters aktiv pause (ca. 70 % af makspuls).
+* **Struktur:** 4 arbejdsintervaller af 4 minutters varighed ved 85-95% af makspuls, adskilt af 3 minutters aktiv pause (ca. 70% af makspuls).
 * **Formål:** Maksimal stimulering af hjertets slagvolumen og central hjertekapacitet.
 * **Optimalt til:** Løb, cykling og roning. Læs den videnskabelige gennemgang af [4x4 intervaltræning](/4x4-intervaltraening/).
 
 ### 4. Sprint 8 (SIT - Sprint Interval Training)
-* **Struktur:** 8 runder af 30 sekunders eksplosiv sprint (100 % kraftudfoldelse) efterfulgt af 90 sekunders aktiv restitution.
+* **Struktur:** 8 runder af 30 sekunders eksplosiv sprint (100% kraftudfoldelse) efterfulgt af 90 sekunders aktiv restitution.
 * **Formål:** Anabolfremmende væksthormon-stimulering, Type IIx muskelrekruttering og fedtmobilisering.
 * **Optimalt til:** Wattbike, romaskine og atletikbane. Læs guiden til [Sprint 8 træning](/artikel/sprint-8-intervaltraening-der-virker/).
 
@@ -108,7 +108,7 @@ Hvis du ikke ønsker at bruge de faste presets, kan du tilpasse alle parametre m
 * **Intervaller pr. serie (Reps):** Antallet af arbejds-intervaller i én blok.
 * **Antal serier (Series):** Hvor mange samlede blokke/sæt, du vil gennemføre.
 * **Seriepause (Series Rest):** Den længere pause mellem to blokke (fx 2 minutters pause mellem to 5-minutters 10-20-30 serier).
-* **Instruktioner:** Indtast din egen tekst, som vises på skærmen under faserne (fx *"Hold 90 % puls!"* eller *"Gå roligt"*).
+* **Instruktioner:** Indtast din egen tekst, som vises på skærmen under faserne (fx *"Hold 90% puls!"* eller *"Gå roligt"*).
 
 ---
 

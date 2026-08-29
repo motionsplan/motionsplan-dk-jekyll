@@ -104,7 +104,7 @@ Glukose (uden ilt) ──&gt; Energi (ATP) + Laktat (Mælkesyre) + H+
 
 ## Energisystemerne er et glidende spektrum
 
-Det er en udbredt myte, at kroppen enten træner *100 % aerobt* eller *100 % anaerobt*. 
+Det er en udbredt myte, at kroppen enten træner *100% aerobt* eller *100% anaerobt*. 
 
 I virkeligheden **kører begge energisystemer altid samtidigt** – det er blot et spørgsmål om, hvilket system der leverer den største procentdel af energien:
 
@@ -114,9 +114,9 @@ I virkeligheden **kører begge energisystemer altid samtidigt** – det er blot 
   Gåtur        Zone 2 / Maraton     5 km tempo     400m sprint    1RM Dødløft
 </pre>
 
-* Ved en **rolig gåtur** leverer det aerobe system næsten 100 % af energien.
-* Ved et **800-meter løb** leverer det aerobe system ca. 60 % og det anaerobe system ca. 40 %.
-* Ved et **100-meter sprint** leverer det anaerobe system over 90 % af energien.
+* Ved en **rolig gåtur** leverer det aerobe system næsten 100% af energien.
+* Ved et **800-meter løb** leverer det aerobe system ca. 60% og det anaerobe system ca. 40%.
+* Ved et **100-meter sprint** leverer det anaerobe system over 90% af energien.
 
 ---
 

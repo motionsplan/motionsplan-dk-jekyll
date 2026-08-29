@@ -67,7 +67,7 @@ Knæleddet er et sammensat led, der består af tre knogler, som danner to funkti
 
 * **Femur (Lårbenet):** Kroppens længste og stærkeste knogle, der danner den øvre ledflade.
 * **Tibia (Skinnebenet):** Bærer næsten al kropsvægt fra overbenet ned mod anklen.
-* **Patella (Knæskallen):** Kroppens største sesamknogle (en knogle indlejret i en sene). Patella ligger indkapslet i quadriceps-senen, som fortsætter ned i patellasenen (*ligamentum patellae*) og hæfter på skinnebensfremspringet (*tuberositas tibiae*). Knæskallen fungerer som en vægtstang (stangarm), der øger lårmusklens trækstyrke med op til 30-50 %.
+* **Patella (Knæskallen):** Kroppens største sesamknogle (en knogle indlejret i en sene). Patella ligger indkapslet i quadriceps-senen, som fortsætter ned i patellasenen (*ligamentum patellae*) og hæfter på skinnebensfremspringet (*tuberositas tibiae*). Knæskallen fungerer som en vægtstang (stangarm), der øger lårmusklens trækstyrke med op til 30-50%.
 * **Fibula (Lægbenet):** Ligger på ydersiden af underbenet. Fibula indgår **ikke** i selve knæleddet, men tjener som et vigtigt forankringspunkt for det udvendige sideledbånd og biceps femoris-musklen.
 
 ---
@@ -80,7 +80,7 @@ Da lårbensknoglens ledhoveder er runde og skinnebenets plateau er relativt flad
 * **Meniscus lateralis (Udvendige menisk):** O-formet/næsten cirkulær. Den er mindre end den mediale menisk og er ikke fæstnet til det udvendige sideledbånd, hvilket gør den mere mobil og mindre tilbøjelig til slid.
 
 ### Meniskernes hovedfunktioner
-1. **Trykfordeling:** De øger kontaktarealet mellem femur og tibia, hvilket reducerer belastningen pr. kvadratmillimeter brusk med op til 50 %.
+1. **Trykfordeling:** De øger kontaktarealet mellem femur og tibia, hvilket reducerer belastningen pr. kvadratmillimeter brusk med op til 50%.
 2. **Stødabsorbering:** Dæmper kompressionsstød under hop, løb og tung træning.
 3. **Ledsmøring og ernæring:** Hjælper med at fordele ledvæsken (*synovialvæsken*) jævnt over ledbrusken.
 

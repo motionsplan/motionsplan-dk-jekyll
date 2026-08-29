@@ -7,7 +7,7 @@ permalink: /ebbeling-test/
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1580977345188-0f9997ed457f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: 'Single-stage submaksimal gå-test på løbebånd ved 5 % hældning'
+  caption: 'Single-stage submaksimal gå-test på løbebånd ved 5% hældning'
 categories:
   - Konditionstests
   - Løb
@@ -21,9 +21,9 @@ last_modified_at: '2026-08-29T10:00:00Z'
 toc: true
 faq:
   - question: "Hvad er Ebbeling-testen?"
-    answer: "Ebbeling-testen er en validated 8-minutters submaksimal gå-test på løbebånd. Den estimerer dit kondital (VO2max) baseret på din puls ved 5,0 % hældning uden at du skal løbe eller presse dig selv til udmattelse."
+    answer: "Ebbeling-testen er en validated 8-minutters submaksimal gå-test på løbebånd. Den estimerer dit kondital (VO2max) baseret på din puls ved 5,0% hældning uden at du skal løbe eller presse dig selv til udmattelse."
   - question: "Hvor stigningen skal løbebåndet have under Ebbeling-testen?"
-    answer: "Testen består af 4 minutters opvarmning ved 0 % hældning efterfulgt af 4 minutters testfase ved nøjagtigt 5,0 % hældning med uændret gå-hastighed."
+    answer: "Testen består af 4 minutters opvarmning ved 0% hældning efterfulgt af 4 minutters testfase ved nøjagtigt 5,0% hældning med uændret gå-hastighed."
   - question: "Hvem er Ebbeling-testen egnet til?"
     answer: "Den er særdeles velegnet til voksne (20–59 år), motionister, kliniske patienter eller folk, der ikke ønsker eller kan gennemføre maksimale løbetests som Cooper-testen."
 ---
@@ -42,7 +42,7 @@ Når du skal måle dit [kondital ($\text{VO}_2\max$)](/iltoptagelse/), står val
 
 Ebbeling-testen udmærker sig på tre centrale områder:
 
-* **Ingen løb eller led-belastning:** Testen udføres 100 % ved gang, hvilket gør den ideel til folk med knæproblemer, overvægt eller personer i genoptræningsforløb.
+* **Ingen løb eller led-belastning:** Testen udføres 100% ved gang, hvilket gør den ideel til folk med knæproblemer, overvægt eller personer i genoptræningsforløb.
 * **Tidsbesparende (8 minutter):** Modsat lange progressive protokoller som [Balke-testen](/balke-test/) varer Ebbeling-testen altid nøjagtigt 8 minutter.
 * **Ingen iltgæld eller mælkesyre:** Da testen er submaksimal, opbygger du ikke udmattende mælkesyre. Du kan træne videre eller passe din hverdag umiddelbart efter.
 
@@ -53,14 +53,14 @@ Ebbeling-testen udmærker sig på tre centrale områder:
 Ebbeling-protokollen er opdelt i to præcise faser á 4 minutter:
 
 ```
-[0:00 - 4:00 min]  Fase 1: Opvarmning (0 % hældning, hastighed vælges til 50-70 % HRmax)
-[4:00 - 8:00 min]  Fase 2: Testfase   (5 % hældning, SAMME hastighed beholdes)
+[0:00 - 4:00 min]  Fase 1: Opvarmning (0% hældning, hastighed vælges til 50-70% HRmax)
+[4:00 - 8:00 min]  Fase 2: Testfase   (5% hældning, SAMME hastighed beholdes)
 ```
 
 ### Fase 1: Opvarmning & Hastighedsvalg (0 – 4 minutter)
 1. Indstil løbebåndets hældning til **$0{,}0\,\%$**.
 2. Vælg en behagelig, men rask gå-hastighed mellem **$3{,}2 \text{ km/t}$ og $7{,}2 \text{ km/t}$** ($2{,}0 – 4{,}5 \text{ mph}$).
-3. **Målet i Fase 1:** Hastigheden skal tilpasses, så din puls i løbet af de 4 minutter stabiliserer sig i zonen **50–70 % af din teoretiske makspuls**.
+3. **Målet i Fase 1:** Hastigheden skal tilpasses, så din puls i løbet af de 4 minutter stabiliserer sig i zonen **50–70% af din teoretiske makspuls**.
    * *Hurtig regel for pulszone:* Bær din pulsmåler og tjek, at pulsen føles moderat ($RPE \; 11–13$).
 
 ### Fase 2: Testfase ved stigning (4 – 8 minutter)
@@ -73,14 +73,14 @@ I løbet af testfasen skal du notere din puls på to bestemte tidspunkter:
 * **Minut 3 af testfasen** (tidstempel 6:45 – 7:00 minutter)
 * **Minut 4 af testfasen** (tidstempel 7:45 – 8:00 minutter)
 
-> 💡 **Steady-State Kriterium:** Hvis pulsen i minut 3 og minut 4 afviger med **under 5 slag pr. minut (bpm)**, har dit hjerte opnået et stabilt iltoptagelsesniveau (*steady state*). Gennemsnittet af disse two målinger indtastes i formlen. Afviger de med mere end 5 bpm, forlænges testen med 1 minut ved 5 % hældning for at lade pulsen falde til ro.
+> 💡 **Steady-State Kriterium:** Hvis pulsen i minut 3 og minut 4 afviger med **under 5 slag pr. minut (bpm)**, har dit hjerte opnået et stabilt iltoptagelsesniveau (*steady state*). Gennemsnittet af disse two målinger indtastes i formlen. Afviger de med mere end 5 bpm, forlænges testen med 1 minut ved 5% hældning for at lade pulsen falde til ro.
 
 ---
 
 ## Ebbeling Test Timer & Kondital Beregner
 {: id="timer" }
 
-Brug timeren herunder direkte på din telefon eller tablet på løbebåndet. Den holder styr på 4-minutters faserne, angiver hvornår hældningen skal hæves til 5,0 %, udregner din 50–70 % pulszone og beregner dit kondital så snart du indtaster din testpuls.
+Brug timeren herunder direkte på din telefon eller tablet på løbebåndet. Den holder styr på 4-minutters faserne, angiver hvornår hældningen skal hæves til 5,0 %, udregner din 50–70% pulszone og beregner dit kondital så snart du indtaster din testpuls.
 
 {% include components/ebbeling-timer.html %}
 
@@ -130,7 +130,7 @@ Hvis du ønsker at teste dit kondital uden maksimal udmattelse, findes der flere
 | Test | Modalitet | Varighed | Belastningsændring | Primære fordel |
 | :--- | :--- | :--- | :--- | :--- |
 | **Ebbeling Test** | Løbebånd (Gang) | 8 minutter | Single-stage ($0\,\% \rightarrow 5\,\%$) | Hurtig, fast tid, kun gang |
-| **Modificeret Balke** | Løbebånd (Gang) | 10–18 minutter | Progressiv ($+1\,\%$ hældning/min) | Stopper præcist ved 85 % HRmax |
+| **Modificeret Balke** | Løbebånd (Gang) | 10–18 minutter | Progressiv ($+1\,\%$ hældning/min) | Stopper præcist ved 85% HRmax |
 | **[Åstrand Cykeltest](/aastrand-cykeltest/)** | Kondicykel | 6 minutter | Fast watt-belastning | Fuldstændig uden stød i leddene |
 | **6-Minutters Gangtest** | Gulv / Gang | 6 minutter | Selvvagt gangtempo | Velegnet til svage/ældre patienter |
 
@@ -146,7 +146,7 @@ Når Ebbeling-beregneren har udregnet dit kondital ($\text{ml O}_2/\text{kg/min}
 
 Selvom Ebbeling-testen er submaksimal, kræver den korrekte forberedelsesbetingelser for at sikre præcise pulsmålinger:
 
-1. **Integrated Opvarmning:** Da Fase 1 (de første 4 minutter ved 0 % hældning) fysiologisk fungerer som opvarmning, behøver du *ikke* at udføre en lang opvarmningssekvens inden start.
+1. **Integrated Opvarmning:** Da Fase 1 (de første 4 minutter ved 0% hældning) fysiologisk fungerer som opvarmning, behøver du *ikke* at udføre en lang opvarmningssekvens inden start.
 2. **Undgå koffein og nikotin:** Indtag ikke koffein, energidrikke eller nikotin de sidste 2–3 timer før testen, da det hæver din hvile- og arbejdspuls kunstigt, hvilket vil underestimere dit beregnede kondital.
 3. **Ingen hidsig udstrækning:** Statisk udstrækning er ufornødent før submaksimale gåtests. Læs mere om optimal opvarmningsstruktur i vores artikel om [opvarmning til løb og konditionstests](/opvarmning-til-loeb/).
 

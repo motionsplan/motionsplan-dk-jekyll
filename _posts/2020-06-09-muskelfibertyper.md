@@ -80,7 +80,7 @@ Generelt findes der tre muskelfibertyper:
 - **Type IIA**. Fast Twitch. Hurtige fibre. 
 - **Type IIX** (blev tidligere kaldt IIB). Fast Twitch. Hurtige muskelfibre. Hvide fibre.
 
-De fleste mennesker har 40-70 % røde muskelfibre, mens resten er type IIa og IIx.
+De fleste mennesker har 40-70% røde muskelfibre, mens resten er type IIa og IIx.
 
 ## Sammenligning af røde og hvide muskelfibertyper
 

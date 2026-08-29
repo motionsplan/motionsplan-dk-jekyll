@@ -19,7 +19,7 @@ sidebar:
   nav: exercises
 faq:
   - question: Hvorfor er testen med lukkede øjne så meget sværere?
-    answer: "Synet er vores dominerende balancesans. Når du lukker øjnene, fjernes den visuelle faste referenceramme, og hjernen tvinges til 100 % at stole på signaler fra ledbånd, sener og det vestibulære system i det indre øre."
+    answer: "Synet er vores dominerende balancesans. Når du lukker øjnene, fjernes den visuelle faste referenceramme, og hjernen tvinges til 100% at stole på signaler fra ledbånd, sener og det vestibulære system i det indre øre."
   - question: Er "Stork Test" det samme som en bækkenundersøgelse hos fysioterapeuten?
     answer: Inden for manuel terapi og fysioterapi findes der en undersøgelse af SI-leddet og bækkenbevægelighed, som også kaldes *Stork Test* (eller *Gillet Test*). Når man taler om træning, motion og fitness, henviser Stork-testen dog næsten altid til balancetest på tæer.
   - question: Hvad er en god score i Enkeltbensstand med åbne øjne?

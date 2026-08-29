@@ -86,7 +86,7 @@ Når det gælder raske løbere, viser studierne et skel mellem fysiologisk præs
 I cykelsporten har forskerne interesseret sig for både tråd-effekt (watt), laktatrydning og præstation ved gentagne intervaller:
 
 * **Øget watt-output ved sprint:** Argus et al. (2013) undersøgte fire forskellige restitutionsstrategier hos trænede cykelmotionister og fandt, at brug af kompressionsbeklædning i hvilefasen øgede den gennemsnitlige tråd-effekt (watt) under gentagne sprintpræstationer.
-* **Tidskørsel og restitution:** de Glanville & Hamlin (2012) testede effekten af underkropskompression i hvileperioden før en 40 km tidskørsel på cykel. Deltagerne skar i gennemsnit **1,2 % af deres tid** på 40 km tidskørslen, når de havde båret kompressionsbeklædning under hvilen forinden.
+* **Tidskørsel og restitution:** de Glanville & Hamlin (2012) testede effekten af underkropskompression i hvileperioden før en 40 km tidskørsel på cykel. Deltagerne skar i gennemsnit **1,2% af deres tid** på 40 km tidskørslen, når de havde båret kompressionsbeklædning under hvilen forinden.
 * **Hurtigere laktatrydning hos elitecyklister:** San Millán et al. (2013) udførte et randomiseret kontrolleret forsøg med mandlige elitecyklister og påviste, at aktiv kompressionsbehandling øgede laktatrydningen fra blodbanen og forbedrede den efterfølgende cykelpræstation.
 
 ---

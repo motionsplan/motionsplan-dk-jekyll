@@ -83,7 +83,7 @@ faq:
   - question: Hvilken gå-test skal jeg vælge?
     answer: Rockport (1,6 km) er den mest udbredte internationale standard og er velegnet til alle aldersgrupper. UKK (2,0 km) er den klassiske finske/nordiske test, som især er god, hvis du vil gå på en lidt længere strækning og er mellem 20 og 65 år.
   - question: Kan jeg udføre gå-testen på et løbebånd?
-    answer: Ja, du kan godt bruge et løbebånd (ved 0 % stigning), men udendørs gang på flad vej eller atletikbane er mest præcist. På løbebånd skal du manueltjustere hastigheden, hvilket gør det sværere at holde et naturligt, maksimalt gå-tempo. Forskning viser, at folk ofte går en smule langsommere på løbebånd, hvilket kan påvirke testens præcision.
+    answer: Ja, du kan godt bruge et løbebånd (ved 0% stigning), men udendørs gang på flad vej eller atletikbane er mest præcist. På løbebånd skal du manueltjustere hastigheden, hvilket gør det sværere at holde et naturligt, maksimalt gå-tempo. Forskning viser, at folk ofte går en smule langsommere på løbebånd, hvilket kan påvirke testens præcision.
 ---
 
 Vil du gerne kende dit kondital, men foretrækker du at undgå de hårde og opslidende løbetests? Så er **Rockports 1,6 km gå-test** (ofte kaldet *Rockport Walk Test*) det perfekte valg for dig.
@@ -140,7 +140,7 @@ $$ \text{Kondital} = 132{,}853 - (0{,}1695 \cdot \text{Vægt}) - (0{,}3877 \cdot
 * **Tid:** Minutter med decimaler (fx er 15 min. og 30 sek. = 15,5).
 
 ### 2. Lunt et al. (2013) - For yngre og raske
-Lunt et al. (2013) observerede, at standardformlen fra Kline ofte overestimerede konditallet med op til 8-23 % for yngre, raske voksne (herunder militærpersonale). Lunt foreslog derfor denne justerede formel, som er mere præcis, hvis du er i alderen 18-39 år og i rimelig fysisk form:
+Lunt et al. (2013) observerede, at standardformlen fra Kline ofte overestimerede konditallet med op til 8-23% for yngre, raske voksne (herunder militærpersonale). Lunt foreslog derfor denne justerede formel, som er mere præcis, hvis du er i alderen 18-39 år og i rimelig fysisk form:
 
 $$ \text{Kondital} = 51{,}047 + (8{,}336 \cdot \text{Køn}) + \left(\frac{635{,}012}{\text{Tid}}\right) - (0{,}225 \cdot \text{Puls}) - (0{,}271 \cdot \text{Vægt i kg}) - (0{,}231 \cdot \text{Alder}) $$
 
@@ -163,7 +163,7 @@ Er du nysgerrig på, hvordan køn påvirker testresultater på tværs af forskel
 
 Rockports gå-test giver et estimat af dit kondital. Testens validitet blev bekræftet af Weiglein (2011), der fandt en stærk sammenhæng mellem Rockport-testen og den amerikanske hærs 1,5 mile løbetest (hvilket svarer til principperne i [Coopers 2400 meter test](/kondital-2400-meter/)).
 
-Testen er dog allermest brugbar som et **personligt pejlemærke**. Måske er konditallet ikke 100 % præcist på decimalen, men hvis din tid og din puls forbedres næste gang du tager testen, er din form blevet bedre! Det gør den fremragende til at overvåge dine fremskridt hver 4. uge, når du starter på et nyt træningsprogram.
+Testen er dog allermest brugbar som et **personligt pejlemærke**. Måske er konditallet ikke 100% præcist på decimalen, men hvis din tid og din puls forbedres næste gang du tager testen, er din form blevet bedre! Det gør den fremragende til at overvåge dine fremskridt hver 4. uge, når du starter på et nyt træningsprogram.
 
 ---
 

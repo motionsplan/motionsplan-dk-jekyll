@@ -81,8 +81,8 @@ Beregneren kombinerer dine indtastninger til en samlet score fra **0–100 %**:
 
 | Score | Status | Fysiologisk tilstand | Træningsanbefaling |
 | :--- | :--- | :--- | :--- |
-| **85 – 100%** | 🟢 **Fuld Parathed** | Krop og nervesystem er 100 % restitueret. | **Grønt lys!** Klar til tunge løft, PR-forsøg, tærskelintervaller og max-tests. |
-| **65 – 84%** | 🟡 **Moderat Træthed** | Let akkumuleret træthed eller suboptimal søvn. | **Gult lys.** Gennemfør træningen, men skær evt. 10–20 % af volumen eller hold RPE på 7–8. |
+| **85 – 100%** | 🟢 **Fuld Parathed** | Krop og nervesystem er 100% restitueret. | **Grønt lys!** Klar til tunge løft, PR-forsøg, tærskelintervaller og max-tests. |
+| **65 – 84%** | 🟡 **Moderat Træthed** | Let akkumuleret træthed eller suboptimal søvn. | **Gult lys.** Gennemfør træningen, men skær evt. 10–20% af volumen eller hold RPE på 7–8. |
 | **< 65%** | 🔴 **Høj Belastning** | Klare tegn på overbelastning eller infektion. | **Rødt lys.** Tag en hviledag eller skift til rolig aktiv restitution (gåtur, stræk, zone 1). |
 
 ---

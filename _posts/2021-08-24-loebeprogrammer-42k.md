@@ -129,7 +129,7 @@ At "ramme muren" på et maraton sker typisk efter 30–32 km, hvis dine glykogen
 Sådan sikrer du, at du har benzin nok på tanken hele vejen:
 
 ### 1. Kulhydratopladning (Carb-loading)
-* **3 dage før løbet:** Justér din kost, så 60–70 % af dine kalorier kommer fra kulhydrater (pasta, ris, hvidt brød, juice, havregryn).
+* **3 dage før løbet:** Justér din kost, så 60–70% af dine kalorier kommer fra kulhydrater (pasta, ris, hvidt brød, juice, havregryn).
 * Undgå tunge fedtkilder og overdreven mængde fibre i dagene op til, så din mave ikke føles oppustet.
 
 ### 2. Energiindtag under løbet

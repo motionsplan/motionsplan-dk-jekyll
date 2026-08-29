@@ -55,7 +55,7 @@ Variabilitet (Ja/Nej)                                     - Genstandsmanipulatio
 Miljøet bestemmer, hvor meget information nervesystemet skal bearbejde udefra:
 
 * **Stationært vs. Dynamisk miljø:** Befinder omgivelserne sig i ro (fx et tomt træningslokale), eller er de i bevægelse (fx en vippebræt, en blød madras eller medspillere i bevægelse)?
-* **Intertrial variabilitet (Variabilitet mellem forsøg):** Er betingelserne 100 % identiske fra gentagelse til gentagelse (fx kaste til måls efter et fast stående mål), eller ændrer afstand, underlag og vinkler sig for hver gentagelse?
+* **Intertrial variabilitet (Variabilitet mellem forsøg):** Er betingelserne 100% identiske fra gentagelse til gentagelse (fx kaste til måls efter et fast stående mål), eller ændrer afstand, underlag og vinkler sig for hver gentagelse?
 
 ### 2. Handlingsfunktion (Action Function)
 Handlingen bestemmer, hvad kroppen reelt skal udrette under bevægelsen:

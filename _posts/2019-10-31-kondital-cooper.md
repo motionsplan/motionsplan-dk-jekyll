@@ -420,6 +420,55 @@ Cooper-testen er utrolig populær i idrætsundervisningen i folkeskolen og på u
 * **Pacing-udfordring:** Den største udfordring for børn er pacing. Yngre børn løber ofte i sprint de første 200 meter og må gå resten af tiden.
 * **Alternativer til mindre børn:** For børn under 10 år anbefales det ofte at benytte en [bip-test (shuttle run)](/bip-test/) eller kortere distancer (fx 6 minutters løb), da det er nemmere for børn at disponere over.
 
+## Cooper-test på løbebånd: Fordele, ulemper og regler
+
+Du kan sagtens gennemføre en Cooper-test på et løbebånd. Det er en populær løsning om vinteren eller i dårligt vejr, men testen adskiller sig på tre vigtige punkter fra en udendørs test på atletikbane:
+
+### 3 gyldne regler til løbebåndet
+
+* **Sæt hældningen til 1,0%:** Indendørs møder du ingen vindmodstand. Ved at indstille løbebåndet til 1,0% stigning kompenserer du fysiologisk for den manglende luftmodstand og får et testresultat, der matcher udendørs løb.
+* **Læg en fast tempostrategi på forhånd:** Modsat udendørs løb, hvor du trinløst justerer farten med benene, kræver fartændringer på løbebåndet tryk på knapper samt tid til, at motoren accelererer. Vælg din målhastighed i km/t inden start i stedet for at gætte undervejs.
+* **Pas på sikkerheden i slutspurten:** En Cooper-test er en all-out $v\text{VO}_2\max$-test. I de sidste 2–3 minutter ophobes mælkesyre, og koordinationen svækkes. Pas på med at skrue løbebåndet op til en vild slutspurt, hvis benene er ved at syre helt til.
+
+---
+
+### Sammenligning: Atletikbane vs. Løbebånd
+
+| Parameter | Atletikbane (Udendørs) | Løbebånd (Indendørs) |
+| :--- | :--- | :--- |
+| **Vindmodstand** | Mærkbar (kræver mere energi) | Ingen (kræver 1,0% hældning) |
+| **Pacing** | Naturlig og intuitiv via kropsfornemmelse | Låst til motorens indstillede fart |
+| **Slutspurt** | Eksplosiv og fleksibel | Begrænset af knaptryk og reaktionstid |
+| **Underlag & Vejr** | Regn, blæst og hjørnesving | Perfekt jævnt og tørt klima |
+
+---
+
+### Sådan omregner du hastighed til distance på 12 minutter
+
+Når de 12 minutter er gået, aflæser du distancen på displayet. Hvis dit løbebånd kun viser distancen med ét decimal (fx 2,8 km), kan du finde den præcise meter-distance ved at gange din gennemsnitshastighed med 200:
+
+$$\text{Distance (meter)} = \text{Hastighed (km/t)} \cdot 200$$
+
+> **Eksempel:** Løber du med en fast hastighed på $14{,}5 \text{ km/t}$ i alle 12 minutter, har du tilbagelagt: $14{,}5 \cdot 200 = 2.900 \text{ meter}$.
+
+### Omregningstabel: Fart på løbebånd til Cooper-distance
+
+Hold en fast hastighed på løbebåndet i alle 12 minutter for at nå din måldistance:
+
+| Hastighed (km/t) | Distance (12 min) | Pace (min/km) | Typisk vurdering (Voksne 20–39 år) |
+| :--- | :--- | :--- | :--- |
+| **10,0 km/t** | 2.000 meter | 6:00 min/km | Under middel |
+| **11,0 km/t** | 2.200 meter | 5:27 min/km | Middel (Mænd) / Høj (Kvinder) |
+| **12,0 km/t** | 2.400 meter | 5:00 min/km | Middel (Mænd) / Meget høj (Kvinder) |
+| **13,0 km/t** | 2.600 meter | 4:37 min/km | Høj (Mænd) |
+| **14,0 km/t** | 2.800 meter | 4:17 min/km | Høj / Meget høj (Mænd) |
+| **15,0 km/t** | 3.000 meter | 4:00 min/km | Meget høj (Mænd) |
+| **16,0 km/t** | 3.200 meter | 3:45 min/km | Eliteniveau |
+| **17,0 km/t** | 3.400 meter | 3:32 min/km | Eliteniveau |
+| **18,0 km/t** | 3.600 meter | 3:20 min/km | Topatlet |
+
+> 💡 **Tip til løbebåndet:** Hvis du vil lave en progressiv Cooper-test (fx lægge ud ved $13{,}0 \text{ km/t}$ og slutte ved $15{,}0 \text{ km/t}$), beregner løbebåndet selv distancen løbende. Tjek blot, at du tager **1,0% hældning** på fra start!
+
 ## Konklusion - Hvordan kan Cooper testen hjælpe dig?
 
 Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er et rigtig godt alternativ, når du ikke har adgang til et laboratorium, hvor du kan få målt dit kondital med en direkte test. Samtidig kan testen laves overalt og med store grupper ad gangen.

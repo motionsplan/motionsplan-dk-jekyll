@@ -74,19 +74,19 @@ Hvorfor falder hjertets slagvolumen ($\text{SV}$) undervejs på turen? Det skyld
 • Mindre blod returneres til hjertet     • Blodet bliver tykkere (viskøst)         • Forhøjet ventilationskrav</code></pre>
 
 ### 1. Varmeregulering og kropstemperatur
-Når du løber, omdannes ca. 75–80 % af den energi, dine muskler forbrænder, til ren varme. For at forhindre, at din krop overophedes, åbner nervesystemet for blodkarrene helt ude i huden (*cutan vasodilation*). 
+Når du løber, omdannes ca. 75–80% af den energi, dine muskler forbrænder, til ren varme. For at forhindre, at din krop overophedes, åbner nervesystemet for blodkarrene helt ude i huden (*cutan vasodilation*). 
 
 Blodet sendes ud til overfladen for at afkøles af luften og sveden. Men når store mængder blod opholder sig ude i huden, løber der mindre blod tilbage til hjertekamrene mellem hvert slag (reduceret *venøst tilbageløb*). Hjertet fyldes ikke helt op og pumper derfor **mindre blod ud pr. slag**.
 
 ### 2. Dehydrering og tab af plasmavolumen
 Når du sveder, trækkes vandet direkte fra din blodbane. Blodets samlede volumen falder, og blodet bliver mere "tyktflydende" (viskøst). 
 
-Et væsketab på blot 2 % af din kropsvægt kan reducere hjertets slagvolumen markant. Igen tvinges hjerterytmen i vejret for at kompensere for det svigtende blodvolumen pr. stød.
+Et væsketab på blot 2% af din kropsvægt kan reducere hjertets slagvolumen markant. Igen tvinges hjerterytmen i vejret for at kompensere for det svigtende blodvolumen pr. stød.
 
 ### 3. Substratmangel (Når depotet tømmes)
 Efter 60–90 minutters løb begynder kroppens [muskelglykogen](/kulhydrater-opbygning/) at slippe op. Kroppen skifter i højere grad over til ren fedtforbrænding. 
 
-Da nedbrydningen af fedtsyremolekyler kræver ca. 7 % mere ilt pr. produceret ATP end kulhydrat, stiger det samlede iltkrav ($VO_2$) en anelse i slutningen af turen. Dette ekstra iltkrav lægger et yderligere pres på pulsen.
+Da nedbrydningen af fedtsyremolekyler kræver ca. 7% mere ilt pr. produceret ATP end kulhydrat, stiger det samlede iltkrav ($VO_2$) en anelse i slutningen af turen. Dette ekstra iltkrav lægger et yderligere pres på pulsen.
 
 ---
 
@@ -98,7 +98,7 @@ Mange atleter begår den fejl at styre deres lange ture benhårdt efter enten *k
 * **Hvis du kun løber efter puls:** Hvis du stramt vil holde pulsen på fx 140 bpm, bliver du nødt til at **sænke løbetempoet** gradvist, som turen skrider frem, for at kompensere for det faldende slagvolumen.
 
 > **Regel for lange pas i sommervarmen:**  
-> På lange ture (særligt i varme) er det helt normalt at se en pulsdrift på **5–10 %**. Hvis din puls stiger mere end 10-15 % ved uændret tempo, er det et tydeligt tegn på enten dehydrering, overophedning eller mangel på energi.
+> På lange ture (særligt i varme) er det helt normalt at se en pulsdrift på **5–10 %**. Hvis din puls stiger mere end 10-15% ved uændret tempo, er det et tydeligt tegn på enten dehydrering, overophedning eller mangel på energi.
 
 ---
 

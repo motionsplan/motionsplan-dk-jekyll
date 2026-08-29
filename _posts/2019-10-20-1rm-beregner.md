@@ -145,7 +145,7 @@ For at få det mest præcise resultat ud af RM-beregneren, skal du følge disse 
 Den submaksimale estimering af 1RM-max kan være hurtigere og mere sikker særligt for uerfarne løftere end at lave 1RM-løft.
 
 ### Fordele:
-* **Mindre skadesrisiko:** Du undgår at belaste led, sener og nervesystem med 100 % maximal belastning.
+* **Mindre skadesrisiko:** Du undgår at belaste led, sener og nervesystem med 100% maximal belastning.
 * **Hurtig opfølgning:** Du kan løbende tjekke din fremgang i træningsprogrammet uden at afsætte en hel uge til maxtests.
 
 ### Ulemper & forbehold:

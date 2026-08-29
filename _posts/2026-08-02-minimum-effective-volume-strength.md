@@ -79,7 +79,7 @@ Mens MEV typisk handler om *muskelstørrelse* (hypertrofi), taler man i styrkel�
 
 Svaret er ja. Forskeren og styrkeløfteren **Dr. Patroklos Androulakis-Korakakis (kaldet Dr. Pak)** har forsket intenst i "Minimum Effective Dose" for $1\text{RM}$-styrke. Hans forskning viser, at styrke kan opbygges og vedligeholdes med endnu lavere volumen end muskelmasse, blot intensiteten (vægten på stangen) er høj nok.
 
-Faktisk kan blot 1 tungt sæt af 1-3 gentagelser pr. øvelse (fx single reps ved 90 % af 1RM) 1-2 gange om ugen være nok til at opretholde elitestyrke!
+Faktisk kan blot 1 tungt sæt af 1-3 gentagelser pr. øvelse (fx single reps ved 90% af 1RM) 1-2 gange om ugen være nok til at opretholde elitestyrke!
 
 {: .notice--info}
 ### 📊 Vil du se Dr. Paks konkrete MED-programmer?

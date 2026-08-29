@@ -120,7 +120,7 @@ Læs: [HIIT-træning: Øvelser og træningsprogrammer](/hiit/)
 
 Den anaerobe tærskel er det punkt, hvor kroppen begynder at producere mere laktat, end den kan fjerne fra blodet. Når du træner ved eller tæt på denne intensitet, forbedrer du din kapacitet til at fjerne laktat og din evne til at arbejde aerobt.
 
-Træningen foregår ved at veksle mellem intervaller med høj intensitet omkring laktatgrænsen og intervaller med lavere intensitet. Arbejdsperioderne ligger normalt omkring 80-90 % af VO[max], og restitutionsperioden bør ligge på 50-60 %.
+Træningen foregår ved at veksle mellem intervaller med høj intensitet omkring laktatgrænsen og intervaller med lavere intensitet. Arbejdsperioderne ligger normalt omkring 80-90% af VO[max], og restitutionsperioden bør ligge på 50-60%.
 
 Du kan læse mere om, hvordan du laver laktattærskeltræning i indlægget nedenfor. Her finder du også et udgangspunkt for at lave dit eget kredsløbstræningsprogram.
 

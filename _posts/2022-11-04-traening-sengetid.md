@@ -96,7 +96,7 @@ Meget intensiv træning med fx [hård intervaltræning](/intervaltraening/) inde
 
 At stille spørgsmålet *"hvor vigtigt er søvn for træning?"* er centralt for enhver, der ønsker fremgang i sin form. Søvn er ikke blot passiv hvile; det er kroppens mest kraftfulde anabole (opbyggende) vindue:
 
-* **Muskelproteinsyntese og Væksthormon:** Omkring 70 % af kroppens samlede døgnudskillelse af **væksthormon (GH)** sker under den dybe søvn i nattens første timer. Ved for lidt søvn hæmmes genopbygningen af muskelvævet.
+* **Muskelproteinsyntese og Væksthormon:** Omkring 70% af kroppens samlede døgnudskillelse af **væksthormon (GH)** sker under den dybe søvn i nattens første timer. Ved for lidt søvn hæmmes genopbygningen af muskelvævet.
 * **Genopfyldning af Glykogen:** Søvnmangel forringer insulinfølsomheden og forsinker lagringen af kulhydrater (glykogen) i depoterne i [dine muskler](/muskler/).
 * **Skadesrisiko og centralnervesystem:** Et fald i søvnlængde øger risikoen for overbelastningsskader og sænker din reaktionsevne og mentale overskud under træning.
 

@@ -82,7 +82,7 @@ faq:
   - question: "Hvor mange runder på en løbebane er 2400 meter?"
     answer: "På en standard 400-meters atletikbane svarer 2400 meter til præcis 6 hele runder i bane 1 (den inderste bane)."
   - question: "Kan man træne til 2400-meter testen på et løbebånd?"
-    answer: "Ja, det kan du sagtens. Det anbefales at indstille løbebåndet til 1 % hældning for at opveje den manglende vindmodstand og bedre efterligne udendørs løb."
+    answer: "Ja, det kan du sagtens. Det anbefales at indstille løbebåndet til 1% hældning for at opveje den manglende vindmodstand og bedre efterligne udendørs løb."
   - question: "Hvad er forskellen på 2400-meter testen og Cooper-testen?"
     answer: "På 2400-meter testen løber du en fast distance på tid (så hurtigt som muligt). På den klassiske Cooper-test løber du i et fast tidsrum på 12 minutter og måler, hvor lang en distance du når."
   - question: "Hvor hurtigt skal man løbe 2400 meter for at bestå Politiets test?"

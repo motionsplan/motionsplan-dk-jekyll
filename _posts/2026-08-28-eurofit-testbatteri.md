@@ -108,7 +108,7 @@ Eurofit anvender ikke én samlet "karakter", da to personer med samme samlede po
 * **Udholdenhedsprofil:** Høj score i *Bip-testen* og *Sit-ups* afspejler veludviklet kapillærtætning, høj [anærob tærskel](/aerobe-taerskel/) og god lokal muskulær udholdenhed.
 * **Bevægelses- og Kontrolprofil:** Høj score i *Sit-and-reach*, *Flamingo* og *Plate Tapping* viser god ledfleksibilitet og koordinative evner.
 
-Ved at identificere svage felter i dit 3x3 dashboard kan træningsindsatsen målrettes specifikt — f.eks. ved at supplere konditionstræningen med smidighedsøvelser eller eksplosiv styrketræning.
+Ved at identificere svage felter i dit 3x3 dashboard kan træningsindsatsen målrettes specifikt — fx ved at supplere konditionstræningen med smidighedsøvelser eller eksplosiv styrketræning.
 
 ---
 

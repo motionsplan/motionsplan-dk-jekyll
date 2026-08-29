@@ -81,7 +81,7 @@ I et review af Heuberger et al. (2018) diskuterer forfatterne hele 8 forskellige
 ### Hvorfor 4 mmol-grænsen ofte rammer ved siden af:
 
 1. **Massiv individuel spredning:** Det fysiologiske MLSS-punkt varierer betydeligt fra udøver til udøver. Myburgh et al. (2001) viste, at veltrænede triatleter under en 1-times maksimal tidskørsel i gennemsnit lå på $7{,}6\text{ mmol/L}$ laktat, med et individuelt spænd helt fra $5{,}0$ til $12{,}3\text{ mmol/L}$. Laktatkoncentrationen korrelerede i øvrigt ikke direkte med præstationsevnen.
-2. **Fuldblod vs. Plasma-kalibrering:** Heck og Maders oprindelige forsøg blev foretaget på udstyr, der analyserede ren *fuldblod*. Moderne håndholdte laktatmålere (som fx Lactate Pro 2) kalibreres mod *plasma-ækvivalenter*, der måler 11–15 % højere (Bourdon, 2013). En klassisk 4,0-værdi svarer derfor ofte til 4,5–5,5 mmol/L på et moderne apparat.
+2. **Fuldblod vs. Plasma-kalibrering:** Heck og Maders oprindelige forsøg blev foretaget på udstyr, der analyserede ren *fuldblod*. Moderne håndholdte laktatmålere (som fx Lactate Pro 2) kalibreres mod *plasma-ækvivalenter*, der måler 11–15% højere (Bourdon, 2013). En klassisk 4,0-værdi svarer derfor ofte til 4,5–5,5 mmol/L på et moderne apparat.
 3. **Forskellig hvile-baseline:** En atlet med en høj hvilelaktat kan nå 4,0 mmol/L ved en relativt lav belastning uden at være i nærheden af syre-ophobning, mens en atlet med en lav baseline først rammer sit fysiologiske knæk langt over 4,0 mmol/L.
 
 I stedet for et fast tal på 4,0 mmol/L anvender laktatberegnere i dag **individuelle baselinemodeller** som *Baseline + 1,5 mmol/L* eller *Modificeret Dmax (mDmax)* (Jamnick et al., 2018).
@@ -97,7 +97,7 @@ For at forstå kroppens metabolisme under belastning kan de to fysiologiske tær
 | **Fysiologisk status** | Første målbare laktatstigning over hvile. | Sidste grænse for fysiologisk steady state (MLSS). |
 | **Laktat-model** | Stigning på **+0,5 mmol/L** over baseline. | Stigning på **+1,5 mmol/L** over baseline / mDmax. |
 | **Subjektiv følelse (RPE)** | Let til moderat (3–4 på 10-skala). | Hårdt til meget hårdt (7–8 på 10-skala). |
-| **Hovedbrændstof** | Fedtforbrænding i top (FatMax-område). | Næsten 100 % kulhydratforbrænding (glykolyse). |
+| **Hovedbrændstof** | Fedtforbrænding i top (FatMax-område). | Næsten 100% kulhydratforbrænding (glykolyse). |
 | **Varighed** | 2 – 6+ timer. | 30 – 60 minutter. |
 | **Klassisk misforståelse** | Fast grænse ved 2,0 mmol/L. | Fast **4 mmol-grænse** (OBLA). |
 

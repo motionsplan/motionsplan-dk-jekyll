@@ -37,7 +37,7 @@ Som en del af den overordnede ramme for [smidighedstræning](/smidighedstraening
 **Kort fortalt: Hvad siger forskningen om udstrækning?**
 
 * **Øget smidighed (ROM):** **Ja.** Udstrækning virker, men det skyldes en øget *nervøs stræktolerance* (hjernen flytter smertetærsklen) – ikke at musklerne mekanisk bliver længere.
-* **Muskelømhed (DOMS) & skadesforebyggelse:** **Nej.** Forskningen viser 0 % effekt på forebyggelse af akutte skader og muskelømhed efter træning.
+* **Muskelømhed (DOMS) & skadesforebyggelse:** **Nej.** Forskningen viser 0% effekt på forebyggelse af akutte skader og muskelømhed efter træning.
 * **Genoptræning:** **Ja.** Doseret mekanisk stræk under genoptræning stimulerer kollagenjustering i arrevæv.
 * **Styrke & præstation:** Statisk stræk over 60 sekunder dæmper akut maksimalstyrke (1RM). Stræk under 60 sekunder efterfulgt af dynamisk opvarmning forringer *ikke* sprint og vertikale hop.
 * **Løbeøkonomi:** Lavere passiv smidighed i underkroppen giver ofte en *bedre* løbeøkonomi på grund af øget elastisk returenergi.
@@ -111,7 +111,7 @@ Når vi holder videnskabelige reviews op imod de mest udbredte træningsmyter, o
 
 ### Skadesforebyggelse mod akutte skader
 * **Myten:** "Smidige atleter får færre skader."
-* **Fysiologisk realitet:** Lauersen et al. (2014) udførte en omfattende meta-analyse af 25 randomiserede kontrollerede studier (26.610 deltagere). Resultatet viste, at udstrækning havde en skadesreducerende effekt på præcis 0 % (RR 0,963). Til sammenligning reducerede tung styrketræning skadesrisikoen med over 66 %.
+* **Fysiologisk realitet:** Lauersen et al. (2014) udførte en omfattende meta-analyse af 25 randomiserede kontrollerede studier (26.610 deltagere). Resultatet viste, at udstrækning havde en skadesreducerende effekt på præcis 0% (RR 0,963). Til sammenligning reducerede tung styrketræning skadesrisikoen med over 66%.
 
 ### Udstrækning i genoptræning: Kollagenjustering i arrevæv
 * **Genoptræningsfase:** Selvom udstrækning ikke forebygger akutte skader før træning, spiller kontrolleret stræk en vigtig rolle under den subakutte genoptræningsfase efter en muskel- eller seneskade.
@@ -119,7 +119,7 @@ Når vi holder videnskabelige reviews op imod de mest udbredte træningsmyter, o
 
 ### Kan udstrækning give "lange, slanke" muskler?
 * **Myten:** "Statisk udstrækning former slanke muskler uden at bulke."
-* **Fysiologisk realitet:** En muskels udseende og anatomiske udspring/hæfte er 100 % genetisk bestemt. Udstrækning kan ikke ændre musklens hæftepunkt på knoglen. Du kan øge eller mindske muskelcellens tværsnit (hypertrofi/atrofi), men du kan ikke strække en muskel til at blive "slankere".
+* **Fysiologisk realitet:** En muskels udseende og anatomiske udspring/hæfte er 100% genetisk bestemt. Udstrækning kan ikke ændre musklens hæftepunkt på knoglen. Du kan øge eller mindske muskelcellens tværsnit (hypertrofi/atrofi), men du kan ikke strække en muskel til at blive "slankere".
 
 ---
 
@@ -135,7 +135,7 @@ En af de seneste tiårs største kontroverser har været påstanden om, at udstr
 Hvis målet er maksimal kraftudvikling (1RM) eller maksimal isometrisk spænding, har statisk udstrækning en akut negativ effekt ved lang varighed:
 
 * **Mekanisme:** Langvarigt stræk dæmper nervesystemets evne til efferent driv (motorisk rekruttering) og nedsætter muskel-sene-enhedens passive stivhed.
-* **Evidens:** Kay & Blazevich (2012) viste i et systematisk review, at statiske stræk af **over 60 sekunders varighed** pr. muskelgruppe medfører et akut fald i den maksimale kraftudvikling og hastigheden for kraftudvikling ([Rate of Force Development – RFD](/rate-of-force-development/)). Simic et al. (2013) bekræftede et gennemsnitligt fald på 3,7 % i 1RM-styrke.
+* **Evidens:** Kay & Blazevich (2012) viste i et systematisk review, at statiske stræk af **over 60 sekunders varighed** pr. muskelgruppe medfører et akut fald i den maksimale kraftudvikling og hastigheden for kraftudvikling ([Rate of Force Development – RFD](/rate-of-force-development/)). Simic et al. (2013) bekræftede et gennemsnitligt fald på 3,7% i 1RM-styrke.
 
 ### Hvorfor sprint og hop frisiges ved kortere stræk
 Tidligere frygtede man, at udstrækning også forringede den eksplosive Stretch-Shortening Cycle (SSC) under sprint og vertikale hop. Nyere meta-analyser ændrer dette billede:

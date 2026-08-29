@@ -348,7 +348,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (val >= p75) score = 4.0 + Math.min(2.0, ((val - p75) / ((p75 - p25)||1)) * 2.0);
             else if (val >= p25) score = 2.0 + ((val - p25) / ((p75 - p25)||1)) * 2.0;
             else score = Math.max(0.5, (val / (p25||1)) * 2.0);
-        } else { // Lavere er bedre (f.eks. tid eller fald)
+        } else { // Lavere er bedre (fx tid eller fald)
             if (val <= p75) score = 4.0 + Math.min(2.0, ((p75 - val) / ((p25 - p75)||1)) * 2.0);
             else if (val <= p25) score = 2.0 + ((p25 - val) / ((p25 - p75)||1)) * 2.0;
             else score = Math.max(0.5, 2.0 - ((val - p25) / (p25||1)) * 2.0);

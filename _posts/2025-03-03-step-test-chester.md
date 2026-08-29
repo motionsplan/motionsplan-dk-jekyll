@@ -58,7 +58,7 @@ breadcrumbs: 'true'
 
 Chester Step Test (CST) er en af de mest udbredte og anerkendte submaksimale steptests i Europa. Testen blev oprindeligt udviklet af professor Kevin Sykes ved University of Chester og bruges i dag hyppigt inden for arbejdsmedicin, sundhedstjek samt hos redningstjenester som brandvæsen og politi.
 
-Testen er progressiv, hvilket vil sige, at tempoet skrues op for hvert 2. minut. Fordi testen stoppes, når din puls når omkring 80 % af din teoretiske maksimale hjertefrekvens, undgår du at skulle presse dig selv til fuldstændig udmattelse.
+Testen er progressiv, hvilket vil sige, at tempoet skrues op for hvert 2. minut. Fordi testen stoppes, når din puls når omkring 80% af din teoretiske maksimale hjertefrekvens, undgår du at skulle presse dig selv til fuldstændig udmattelse.
 
 Søger du en test med et helt fast tempo i stedet, kan du læse om [YMCA 3-minutters steptest](/ymca-3-minutters-steptest/) eller se vores samlede [oversigt over steptests](/kondital-fra-steptest/).
 
@@ -86,7 +86,7 @@ Modsat mange andre tests tilpasses bokshøjden ud fra din alder og dit nuværend
 1. **Forberedelse**  
    Vælg den rette bokshøjde ud fra din alder og form. Udregn din vejledende maksimale puls:
    $$ \text{HR}_{\text{max}} = 220 - \text{alder} $$
-   Beregn din stop-grænse (80 % af $\text{HR}_{\text{max}}$):
+   Beregn din stop-grænse (80% af $\text{HR}_{\text{max}}$):
    $$ \text{Stop-puls} = \text{HR}_{\text{max}} \times 0{,}80 $$
 2. **Start testen**  
    Start vores interaktive guide nedenfor. Træd op og ned i takt med timeren. Timeren skruer automatisk op for tempoet hvert 2. minut.
@@ -95,7 +95,7 @@ Modsat mange andre tests tilpasses bokshøjden ud fra din alder og dit nuværend
 4. **Hvornår stopper testen?**  
    Testen afsluttes enten når:
    * Du har gennemført alle 5 niveauer (10 minutter).
-   * Din puls overstiger din stop-grænse (80 % af $\text{HR}_{\text{max}}$).
+   * Din puls overstiger din stop-grænse (80% af $\text{HR}_{\text{max}}$).
    * Du føler dig udmattet eller ikke kan holde kadencen.
 
 ## Tag testen med interaktiv guide

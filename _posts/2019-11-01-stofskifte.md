@@ -31,11 +31,11 @@ faq:
   - question: Hvad er forskellen på hvilestofskifte (BMR) og basalstofskifte?
     answer: Begreberne bruges ofte synonymt. Basalstofskifte (Basal Metabolic Rate - BMR) er den absolutte minimumsenergi, kroppen bruger i hvile under helt fastsatte betingelser (12 timers faste, tempereret rum, fuldstændig ro). Hvilestofskifte (RMR) måles under lidt mindre strenge krav, men tallene ligger typisk inden for få procent af hinanden.
   - question: Hvor stor en del af forbrændingen udgør hvilestofskiftet?
-    answer: Hvilestofskiftet udgør langt den største del af kroppens samlede daglige energiforbrug – typisk 50–70 % hos almindelige voksne.
+    answer: Hvilestofskiftet udgør langt den største del af kroppens samlede daglige energiforbrug – typisk 50–70% hos almindelige voksne.
   - question: Kan man øge sit hvilestofskifte?
     answer: Ja, den mest effektive måde at øge BMR på er ved at øge den fedtfrie masse (muskelmasse) via styrketræning. Muskler forbrænder ca. 54 kJ/kg om dagen i hvile mod fedts 19 kJ/kg.
   - question: Hvad er fødeinduceret termogenese (TEF/FIT)?
-    answer: TEF (eller FIT) er den energi, kroppen bruger på at fordøje, optage og transportere næringsstofferne fra maden. Det udgør ca. 10 % af det daglige energiforbrug, men varierer fra 20–30 % for proteiner til 1–3 % for fedt.
+    answer: TEF (eller FIT) er den energi, kroppen bruger på at fordøje, optage og transportere næringsstofferne fra maden. Det udgør ca. 10% af det daglige energiforbrug, men varierer fra 20–30% for proteiner til 1–3% for fedt.
   - question: Hvad betyder lavt stofskifte?
     answer: Lavt stofskifte (hypothyroidisme) betyder, at skjoldbruskkirtlen danner for lidt stofskiftehormon (T3/T4), hvilket dæmper cellernes energiomsætning. Det kan føre til vægtøgning, kuldeskærhed og træthed og kræver medicinsk udredning hos lægen.
 ---
@@ -87,13 +87,13 @@ Formelt måles BMR om morgenen efter 12–18 timers faste og hvile i et temperer
 
 ### Hvilke faktorer påvirker dit hvilestofskifte?
 
-* **Kropssammensætning (Fedtfri masse - FFM):** Omkring 85 % af den individuelle variation i hvilestofskiftet skyldes mængden af fedtfri masse (FFM = kropsvægt minus fedtmasse). Muskelvæv har en energiomsætning på ca. **54 kJ/kg pr. dag** (ca. 13 kcal/kg), mens fedtvæv kun forbrænder ca. **19 kJ/kg pr. dag** (ca. 4,5 kcal/kg).
+* **Kropssammensætning (Fedtfri masse - FFM):** Omkring 85% af den individuelle variation i hvilestofskiftet skyldes mængden af fedtfri masse (FFM = kropsvægt minus fedtmasse). Muskelvæv har en energiomsætning på ca. **54 kJ/kg pr. dag** (ca. 13 kcal/kg), mens fedtvæv kun forbrænder ca. **19 kJ/kg pr. dag** (ca. 4,5 kcal/kg).
 * **Vægt og højde:** En større krop har flere celler og kræver mere energi at holde i gang.
 * **Alder:** Hvilestofskiftet falder i gennemsnit med ca. **150 kJ (ca. 35 kcal) pr. tiår**. Det skyldes primært tab af muskelmasse (sarkopeni) og ændret væskebalance.
 * **Køn:** Mænd har generelt et højere BMR end kvinder pga. en højere andel af fedtfri muskelmasse og lavere fedtprocent.
 * **Hormoner:** Skjoldbruskkirtelhormonerne (T3 og T4) fungerer som kroppens termostat. Ved forhøjet stofskifte (*hyperthyroidisme*) stiger BMR, mens det falder ved lavt stofskifte (*hypothyroidisme*). Adrenalin fra binyremarven øger ligeledes stofskiftet ved akut stress.
 * **Genetik:** Der ses en naturlig genetisk variation i BMR på op til $\pm 10\ \%$ mellem personer med identisk alder, køn, vægt og FFM.
-* **Farmakologi og stimulanser:** Nikotin fra rygning kan øge stofskiftet midlertidigt med 5–10 %. Koffein (kaffe, te) og visse stoffer som capsaicin i chili øger også energiomsætningen svagt.
+* **Farmakologi og stimulanser:** Nikotin fra rygning kan øge stofskiftet midlertidigt med 5–10%. Koffein (kaffe, te) og visse stoffer som capsaicin i chili øger også energiomsætningen svagt.
 
 ### Formler for BMR baseret på fedtfri masse (FFM)
 
@@ -129,7 +129,7 @@ TEF udgør i gennemsnit **ca. 10 %** af det samlede daglige energiindtag, men de
 
 ## 3. Fysisk Aktivitetsniveau (PAL, NEAT & EPOC)
 
-Fysisk aktivitet er den variabel i stofskiftet, du selv har størst kontrol over. Den udgør typisk 20–40 % af den samlede forbrænding, men kan variere voldsomt.
+Fysisk aktivitet er den variabel i stofskiftet, du selv har størst kontrol over. Den udgør typisk 20–40% af den samlede forbrænding, men kan variere voldsomt.
 
 For at beregne dit samlede energiforbrug (TDEE) ganges dit hvilestofskifte (BMR) med en **PAL-faktor (Physical Activity Level)**.
 
@@ -150,7 +150,7 @@ Følgende tabel tager udgangspunkt i *Nordiska Næringsrekommendationer*:
 
 1. **NEAT (Non-Exercise Activity Thermogenesis):** Al den ubevidste bevægelse i hverdagen – at gå på trapper, gøre rent, vippe med foden, rejse sig fra stolen og havearbejde. NEAT udgør ofte en langt større del af forbrændingen end selve træningen!
 2. **EAT (Exercise Activity Thermogenesis):** Den planlagte motion og træning (løb, cykling, styrketræning).
-3. **EPOC (Efterforbrænding):** *Excess Post-exercise Oxygen Consumption*. Efter hård fysisk aktivitet (særligt ved intensitet over 60–65 % af VO2max som fx [HIIT](/hiit/) eller tung styrketræning) forbliver stofskiftet forhøjet i 12–24 timer, mens kroppen genopbygger sine energidepoter og fjerner affaldsstoffer.
+3. **EPOC (Efterforbrænding):** *Excess Post-exercise Oxygen Consumption*. Efter hård fysisk aktivitet (særligt ved intensitet over 60–65% af VO2max som fx [HIIT](/hiit/) eller tung styrketræning) forbliver stofskiftet forhøjet i 12–24 timer, mens kroppen genopbygger sine energidepoter og fjerner affaldsstoffer.
 
 ---
 

@@ -20,7 +20,7 @@ faq:
 - question: Hvor meget søvn skal man have?
   answer: 'Voksne skal i gennemsnit have 7–9 timers søvn hver nat (gennemsnitligt 7,5 timer). Søvnbehovet er dog individuelt og ændrer sig gennem livet afhængigt af alder.'
 - question: Hvor meget dyb søvn skal man have om natten?
-  answer: 'Hos voksne bør den dybe søvn udgøre ca. 10–25 % af den samlede nattesøvn. Det svarer til omkring 1 til 2 timer (60–120 minutter) i løbet af en hel nat.'
+  answer: 'Hos voksne bør den dybe søvn udgøre ca. 10–25% af den samlede nattesøvn. Det svarer til omkring 1 til 2 timer (60–120 minutter) i løbet af en hel nat.'
 - question: Hvor lang er en søvncyklus?
   answer: 'En gennemsnitlig søvncyklus tager ca. 90 minutter (1,5 time), hvor kroppen bevæger sig igennem let søvn, dyb søvn og REM-søvn.'
 - question: Hvor mange søvncyklusser skal man have hver nat?
@@ -79,16 +79,16 @@ Tabellen ovenfor samler de mange studier. Selvom anbefalingerne er lavet af _Nat
 
 Mange der måler deres søvn med et ur, spørger sig selv: *Hvor mange timers dyb søvn skal man have?* 
 
-Hos en rask voksen udgør den dybe søvn (N3-stadiet) typisk **10–25 % af den samlede nattesøvn**. Hvis du sover omkring 7,5 til 8 timer, svarer det til ca. **1 til 2 timer (60–120 minutter)** med dyb søvn hver nat.
+Hos en rask voksen udgør den dybe søvn (N3-stadiet) typisk **10–25% af den samlede nattesøvn**. Hvis du sover omkring 7,5 til 8 timer, svarer det til ca. **1 til 2 timer (60–120 minutter)** med dyb søvn hver nat.
 
 I denne tabel kan du se normalfordelingen af søvnstadierne for en voksen:
 
 | Søvnstadie | Andel af samlet søvn | Varighed ved 8 timers søvn |
 | :--- | :--- | :--- |
-| **N1 (Indsovning/Døs)** | 5 % | ~ 20-25 minutter |
-| **N2 (Let søvn)** | 45 - 55 % | ~ 3,5 - 4,5 timer |
+| **N1 (Indsovning/Døs)** | 5% | ~ 20-25 minutter |
+| **N2 (Let søvn)** | 45 - 55% | ~ 3,5 - 4,5 timer |
 | **N3 (Dyb søvn)** | **10 - 25 %** | **~ 1 - 2 timer (60-120 min)** |
-| **REM (Drømmesøvn)** | 20 - 25 % | ~ 1,5 - 2 timer |
+| **REM (Drømmesøvn)** | 20 - 25% | ~ 1,5 - 2 timer |
 
 Din søvn foregår i forskellige søvnstadier. Det har vi skrevet meget mere om under [søvn og søvnstadier](/soevn/). Alle søvnstadierne er vigtige, men den dybe søvn er rigtig vigtig for [kroppens genopbygning og restitution](/restitution/).
 

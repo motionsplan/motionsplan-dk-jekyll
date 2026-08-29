@@ -94,7 +94,7 @@ Men hvordan gør du i praksis?
 
 - Jeg træner for A.
 - A har brug for B som en fysiologisk tilpasning.
-- For at opnå B skal jeg lave X antal gentagelser ved en given % intensitet.
+- For at opnå B skal jeg lave X antal gentagelser ved en given% intensitet.
 - En effektiv træning kræver Z gentagelser.
 - Derfor skal jeg lave Y sæt med X gentagelser for at opnå Z.
 

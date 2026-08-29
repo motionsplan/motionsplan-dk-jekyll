@@ -48,7 +48,7 @@ Herunder er en hurtig sammenligning af de fire mest populære kredsløbsmaskiner
 Forbrændingen på en cardiomaskine hænger direkte sammen med, hvor stor en del af din muskelmasse du arbejder med, og hvor høj en intensitet du kan opretholde over tid:
 
 1. **Løbebåndet** ligger helt i top, når det gælder ren kalorieforbrænding pr. minut ved høj intensitet, fordi du bærer hele din egen kropsvægt og arbejder mod tyngdekraften.
-2. **Romaskinen** aktiverer op mod 86 % af kroppens muskelmasse (både ben, kropsstamme og overkrop) og er fysiologisk set fænomenal til både kalorieforbrænding og muskeludholdenhed.
+2. **Romaskinen** aktiverer op mod 86% af kroppens muskelmasse (både ben, kropsstamme og overkrop) og er fysiologisk set fænomenal til både kalorieforbrænding og muskeludholdenhed.
 3. **Motionscyklen** og **Crosstraineren** er yderst effektive til længere træningspas, fordi belastningen på leddene er minimal, hvilket gør det nemmere at holde arbejdet i gang i lang tid.
 
 ---
@@ -162,12 +162,12 @@ En cykel med håndtag og luftmodstand, hvor modstanden stiger eksponentielt med 
 ### 3. Skimaskine (SkiErg / ThoraxTrainer)
 Efterligner bevægelsen fra langrend, hvor du arbejder med dobbeltdans og stavgang.
 * **Hvorfor den virker:** Isolerer mavemuskler, ryg, skuldre og triceps, mens kredsløbet arbejder på højtryk.
-* **Fordel:** En af de få cardiomaskiner, der drives næsten 100 % af overkroppen og coremuskulaturen, hvilket gør den til et fantastisk afbræk fra benbaseret cardio.
+* **Fordel:** En af de få cardiomaskiner, der drives næsten 100% af overkroppen og coremuskulaturen, hvilket gør den til et fantastisk afbræk fra benbaseret cardio.
 
 ### 4. Buet løbebånd (Curve / Manuelt løbebånd)
 Et løbebånd uden motor, hvor det er dine egne ben, der driver bælte-lamellerne rundt.
 * **Hvorfor den virker:** Da du selv skal skabe al fremdriften i trådet, aktiveres bagkæden (balder og baglår) langt kraftigere end på et motoriseret løbebånd.
-* **Fordel:** Studier viser, at du forbrænder op mod 30 % mere energi ved samme hastighed sammenlignet med et almindeligt løbebånd.
+* **Fordel:** Studier viser, at du forbrænder op mod 30% mere energi ved samme hastighed sammenlignet med et almindeligt løbebånd.
 
 ### 5. Versaclimber (Vertikal klatremaskine)
 Versaclimberen er en vertikal klatremaskine, der udfordrer både kredsløb, styrkeudholdenhed og koordination på højeste niveau.

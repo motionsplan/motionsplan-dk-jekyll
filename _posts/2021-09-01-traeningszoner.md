@@ -106,7 +106,7 @@ Her præsenterer vi træningszoner baseret på intensitet. De enkelte træningsz
 
 ⚡ **Hurtigt overblik: Hvad er træningszoner?**
 * **Formål:** Træningszoner opdeler din træningsintensitet, så du rammer det helt rigtige fysiologiske energisystem (fedtforbrænding, aerob kapacitet eller mælkesyretolerance).
-* **To modeller:** Man skelner mellem **3-zoners modellen** (fysiologisk opdelt af den aerobe og anaerobe tærskel) og **5-7-zoners modellen** (praktisk opdelt ud fra % af maxpuls, watt eller pace).
+* **To modeller:** Man skelner mellem **3-zoners modellen** (fysiologisk opdelt af den aerobe og anaerobe tærskel) og **5-7-zoners modellen** (praktisk opdelt ud fra% af maxpuls, watt eller pace).
 * **Måleredskaber:** Du kan styre dine zoner via **Puls** (alle sportsgrene), **Watt** (cykling/roning/løb), **Pace** (løb/roning) eller **Borg-skalaen** (følt anstrengelse).
 
 </div>
@@ -350,7 +350,7 @@ Hvis din puls er usædvanlig høj ved dit normale tærskeltempo eller watt-tal, 
 
 Inden for konditionstræning er der two udbredte tilgange, som ofte sammenlignes: **Sweet Spot træning** over for **Polariseret træning**.
 
-* **Polariseret træning:** 80 % af arbejdet udføres ved lav intensitet (Zone 1–2 under LT1), mens 20 % udføres ved høj intensitet (Zone 5+ over LT2). Der bruges relativt lidt tid i tærskelzonen.
+* **Polariseret træning:** 80% af arbejdet udføres ved lav intensitet (Zone 1–2 under LT1), mens 20% udføres ved høj intensitet (Zone 5+ over LT2). Der bruges relativt lidt tid i tærskelzonen.
 * **Sweet Spot træning:** Arbejdet placeres målrettet i "smørhullet" mellem Zone 3 og Zone 4 (lige under mælkesyretærsklen). Formålet er at give det størst mulige fysiologiske udbytte på kortere tid.
 
 [Seiler (2010)](https://pubmed.ncbi.nlm.nih.gov/20861519/) diskuterer polariseret træning og *sweet spot* træning. Du kan også læse mere i [Cheungs artikel](https://pezcyclingnews.com/toolbox/cycling-polarized-training-stephen-seiler/) om de two fremgangsmåder.
@@ -405,8 +405,8 @@ Når du træner i mere end 45–60 minutter – særligt i varme eller ved væsk
 
 Hvordan ser en god træningsuge ud i praksis? Det afhænger af din valgte filosofi. Mange udholdenhedsatleter hælder til **80/20-fordelingen**, men det bedste er nok på en uge at ramme alle zonerne, hvis du har tid til det:
 
-* **80 % af tiden i Zone 1 og Zone 2:** Rolig udholdenhedstræning, der opbygger kapillærer, mitokondrier og fedtforbrænding uden at overbelaste nervesystemet. Kræver lang tid.
-* **20 % af tiden i Zone 4, 5 eller 6/7:** Højintense intervaller (tærskel, VO₂max eller sprint), der flytter din overordnede kapacitet.
+* **80% af tiden i Zone 1 og Zone 2:** Rolig udholdenhedstræning, der opbygger kapillærer, mitokondrier og fedtforbrænding uden at overbelaste nervesystemet. Kræver lang tid.
+* **20% af tiden i Zone 4, 5 eller 6/7:** Højintense intervaller (tærskel, VO₂max eller sprint), der flytter din overordnede kapacitet.
 * **Zone 3 (Tempo/Sweet Spot):** Bruges strategisk og doseres forskriftsmæssigt i specifikke opbygningsfaser mod maraton, cykelløb eller lange ro-konkurrencer.
 
 ---

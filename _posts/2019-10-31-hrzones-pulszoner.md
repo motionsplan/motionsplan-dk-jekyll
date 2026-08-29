@@ -111,12 +111,12 @@ Den enkleste metode til at komme i gang. Kræver kun, at du kender eller har [te
 
 #### Hvorfor er Karvonen-formlen bedre end ren maxpuls?
 
-Klassisk beregning ud fra % af maxpuls tager ikke højde for din nuværende form. Hvis two personer begge har en maxpuls på **190 bpm**, vil en ren maxpuls-beregning give dem *nøjagtig de samme pulszoner* — uanset om den ene er eliteløber og den anden er utrænet:
+Klassisk beregning ud fra% af maxpuls tager ikke højde for din nuværende form. Hvis two personer begge har en maxpuls på **190 bpm**, vil en ren maxpuls-beregning give dem *nøjagtig de samme pulszoner* — uanset om den ene er eliteløber og den anden er utrænet:
 
 * **Person A (Veltrænet):** Maxpuls 190, Hvilepuls 40 $\rightarrow$ Pulsreserve = **150 bpm**.  
-  *70 % intensitet = $(150 \times 0{,}70) + 40 = \mathbf{145 \text{ bpm}}$*
+  *70% intensitet = $(150 \times 0{,}70) + 40 = \mathbf{145 \text{ bpm}}$*
 * **Person B (Utrænet):** Maxpuls 190, Hvilepuls 70 $\rightarrow$ Pulsreserve = **120 bpm**.  
-  *70 % intensitet = $(120 \times 0{,}70) + 70 = \mathbf{154 \text{ bpm}}$*
+  *70% intensitet = $(120 \times 0{,}70) + 70 = \mathbf{154 \text{ bpm}}$*
 
 Med ren maxpuls ville begge have fået $190 \times 0{,}70 = 133 \text{ bpm}$, hvilket for den veltrænede person A ville svare til en næsten virkningsløs gåtur.
 
@@ -205,7 +205,7 @@ En anden udbredt angivelse af de fysiologiske zoner i forhold til HR<sub>max</su
 
 ---
 
-> 🎯 **Få 100 % præcise pulszoner i stedet for gæt**  
+> 🎯 **Få 100% præcise pulszoner i stedet for gæt**  
 > Formler baseret på maxpuls rammer ofte forkert. Ved at udføre en blodlaktattest måler du direkte på blodets kemi og finder de nøjagtige pulsslag for din aerobe (Zone 2-loft) og anaerobe tærskel.  
 > 👉 **[Brug laktattesten til at indstille dine personlige pulszoner →](/laktattest/)**
 {: .notice--info }

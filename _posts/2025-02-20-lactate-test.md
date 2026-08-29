@@ -131,7 +131,7 @@ Når du udfører en laktattest, kan laktatniveauerne fysiologisk set inddeles i 
 
 Hvis du har læst ældre fysiologibøger, har du sikkert stødt på reglen om, at den aerobe tærskel ligger ved præcis **2,0 mmol/L**, og den anaerobe tærskel (OBLA) ligger ved præcis **4,0 mmol/L**. 
 
-**Disse faste grænser er i dag forældede.** De blev etableret i 1970'erne med ældre laboratorieudstyr, der analyserede ren *fuldblod*. Moderne laktatmålere analyserer i stedet ud fra en *plasma-ækvivalent* (hvilket indeholder 11-15 % mere laktat). Det betyder, at en fysiologisk grænse, der hed 4,0 i 1970'erne, i virkeligheden svarer til et højere tal på dit moderne udstyr. Samtidig er det helt normalt at have et hvilelaktat på 2,0 mmol/L på nyere apparater. 
+**Disse faste grænser er i dag forældede.** De blev etableret i 1970'erne med ældre laboratorieudstyr, der analyserede ren *fuldblod*. Moderne laktatmålere analyserer i stedet ud fra en *plasma-ækvivalent* (hvilket indeholder 11-15% mere laktat). Det betyder, at en fysiologisk grænse, der hed 4,0 i 1970'erne, i virkeligheden svarer til et højere tal på dit moderne udstyr. Samtidig er det helt normalt at have et hvilelaktat på 2,0 mmol/L på nyere apparater. 
 
 Moderne idrætsfysiologi bruger derfor udelukkende **individuelle, relative tærskler** (stigninger i forhold til din egen baseline) – præcis som vores laktatberegner her på siden gør brug af.
 

@@ -85,15 +85,15 @@ I hvile på en normal kost er RER typisk omkring **0,80 – 0,85**. Det svarer t
 
 ### Tabel: Betydning af RQ / RER-værdier
 
-| RQ / RER | % Energi fra Fedt | % Energi fra Kulhydrat |
+| RQ / RER |% Energi fra Fedt |% Energi fra Kulhydrat |
 | :---: | :---: | :---: |
-| **0,70** | 100 % | 0 % |
-| **0,75** | 84 % | 16 % |
-| **0,80** | 67 % | 33 % |
-| **0,85** | 49 % | 51 % |
-| **0,90** | 33 % | 67 % |
-| **0,95** | 16 % | 84 % |
-| **1,00** | 0 % | 100 % |
+| **0,70** | 100% | 0% |
+| **0,75** | 84% | 16% |
+| **0,80** | 67% | 33% |
+| **0,85** | 49% | 51% |
+| **0,90** | 33% | 67% |
+| **0,95** | 16% | 84% |
+| **1,00** | 0% | 100% |
 
 Jo højere intensitet du træner med, desto mere overgår forbrændingen til kulhydrat, og RER stiger mod 1,0.
 

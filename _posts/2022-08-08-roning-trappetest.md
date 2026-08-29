@@ -170,11 +170,11 @@ Trappetesten måler din maksimale aerobe effekt (Peak Power Output). Da testen a
 1. **Watt og Puls (med pulsmåler):** Bærer du pulsmåler under testen, kan du direkte aflæse, hvilken puls du holder ved de enkelte Watt-niveauer. Det giver et præcist billede af din reelle belastning på fx Trin 3 og Trin 4.
 2. **Matematiske zoner (baseret på Peak Watt):** Har du ikke målt mælkesyre eller puls, kan du bruge dit slut-resultat (Max Watt) fra testen som udgangspunkt for dine træningszoner:
 
-* **Zone 1 (Aktiv Restitution):** < 45 % af Max Watt
-* **Zone 2 (Udholdenhed / Langtur):** 45 – 60 % af Max Watt
-* **Zone 3 (Tempo / Sub-tærskel):** 60 – 75 % af Max Watt
-* **Zone 4 (Anaerob Tærskel / AT):** 75 – 90 % af Max Watt
-* **Zone 5 (VO₂max / Intervaller):** 90 – 100+ % af Max Watt
+* **Zone 1 (Aktiv Restitution):** < 45% af Max Watt
+* **Zone 2 (Udholdenhed / Langtur):** 45 – 60% af Max Watt
+* **Zone 3 (Tempo / Sub-tærskel):** 60 – 75% af Max Watt
+* **Zone 4 (Anaerob Tærskel / AT):** 75 – 90% af Max Watt
+* **Zone 5 (VO₂max / Intervaller):** 90 – 100+% af Max Watt
 
 ---
 

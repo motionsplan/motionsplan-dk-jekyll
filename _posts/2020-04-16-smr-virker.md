@@ -50,7 +50,7 @@ Der hersker mange sejlende myter om "opblødning af bindevæv" og "nedbrydning a
 Mange populære fremstillinger hævder, at du med en foam roller mekanisk kan "æltes" slankere, forlænge forkortede muskler eller løsne fysisk sammenvoksede kollagenfibre.
 
 ### 1. Hvorfor mekanisk deformering er en myte
-Biomekaniske studier af Chaudhry et al. (2008, 2014) har undersøgt den mekaniske modstandskraft i det menneskelige bindevæv (*plantar fascia* og *fascia lata*). Forskningen viser, at der skal tilføres ekstremt voldsomme kræfter (over 900 kg tryk) blot for at skabe en mekanisk deformering på 1 % i fascia-vævet.
+Biomekaniske studier af Chaudhry et al. (2008, 2014) har undersøgt den mekaniske modstandskraft i det menneskelige bindevæv (*plantar fascia* og *fascia lata*). Forskningen viser, at der skal tilføres ekstremt voldsomme kræfter (over 900 kg tryk) blot for at skabe en mekanisk deformering på 1% i fascia-vævet.
 
 Det tryk, du kan skabe med din egen kropsvægt på en skumrulle, er altså slet ikke tilstrækkeligt til mekanisk at strække eller nedbryde sundt bindevæv.
 
@@ -86,7 +86,7 @@ Fysiologisk er IT-båndet ikke en muskel, men en enormt tyk, uelastisk kollagen-
 Systematiske reviews og meta-analyser (bl.a. Beardsley & Škarabot, 2015; Wiewelhove et al., 2019) har undersøgt effekten af SMR på tværs af tre parametre:
 
 ### 1. Bevægeudslag (ROM) i opvarmningen
-Skumrullning øger akut det ledspecifikke bevægeudslag med i gennemsnit 5–10 % (MacDonald et al., 2012; Sullivan et al., 2013). Modsat langvarig statisk udstrækning sker denne forøgelse i ROM **uden** samtidige tab i maksimal muskelstyrke (1RM), hop-højde eller sprintpræstation.
+Skumrullning øger akut det ledspecifikke bevægeudslag med i gennemsnit 5–10% (MacDonald et al., 2012; Sullivan et al., 2013). Modsat langvarig statisk udstrækning sker denne forøgelse i ROM **uden** samtidige tab i maksimal muskelstyrke (1RM), hop-højde eller sprintpræstation.
 
 ### 2. Integration i opvarmningssæt
 Som påpeget af Nicholas Licameli (2017) har den akutte tonusdæmpning fra foamrolling et relativt kort tidsvindue (typisk 10–30 minutter). Hvis du ønsker langvarige forbedringer i dit bevægelsesmønster, skal du udnytte dette tidsvindue til at udføre dine styrkeøvelser (fx dybe squats) i den nye yderstilling. 

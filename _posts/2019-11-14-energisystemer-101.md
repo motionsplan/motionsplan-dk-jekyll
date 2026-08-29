@@ -144,7 +144,7 @@ ATP og CrP bliver hurtigt genopladet igen, men hvis man laver maksimale præstat
 
 Anaerob og aerob træning ser forskellig ud. Selvom de to energisystemer supplerer hinanden, så kan du få overblik over, hvordan du skal gribe anaerob træning og aerob træning an i forhold til arbejdstid og pausetider.
 
-| Træningsform        | Primært træningsområde     | % af maksimal intensitet | Arbejdstid           | Varighed af pause  |
+| Træningsform        | Primært træningsområde     |% af maksimal intensitet | Arbejdstid           | Varighed af pause  |
 |---------------------|----------------------------|--------------------------|----------------------|--------------------|
 | **Anaerob** træning | Hurtighedstræning          | 100                      | 2-10 sek             | 20 sek - 5 min     |
 | Anaerob træning     | Produktionstræning         | 60-100                   | 5-40 sek             | 2-10 min           |

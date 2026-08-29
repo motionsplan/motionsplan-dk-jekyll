@@ -46,7 +46,7 @@ Ifølge de internationale konsensus-retningslinjer (*Ardern et al., 2016*) er de
 
 1. **Return to Participation:** Du er tilbage i træning, men deltager i modificeret form (fx undgår tacklinger eller max-sprints).
 2. **Return to Sport:** Du er tilbage i fuld træning og kan spille kamp, men præsterer måske endnu ikke på dit gamle niveau.
-3. **Return to Performance:** Du er 100 % tilbage og præsterer på samme (eller højere) niveau som før skaden.
+3. **Return to Performance:** Du er 100% tilbage og præsterer på samme (eller højere) niveau som før skaden.
 
 For at rykke fra fase 1 til fase 2 kræves det, at du kan bestå en række strenge tests inden for **asymmetri (LSI)**, **bevægelseskvalitet** og **psykologisk tryghed**.
 

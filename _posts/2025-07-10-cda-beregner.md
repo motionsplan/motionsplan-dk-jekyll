@@ -57,12 +57,12 @@ faq:
   - question: Hvad er en god CdA-værdi for en motionist vs. professionel?
     answer: En almindelig motionsrytter på racercykel har typisk en CdA på 0,30–0,35 m². En veltrænet enkeltstartsrytter eller triatlet ligger typisk mellem 0,20–0,24 m², mens professionelle elitecykelryttere kan nå helt ned på 0,18–0,20 m².
   - question: Hvor meget betyder CdA i forhold til vægt (watt/kg)?
-    answer: På flad og let kuperet vej (over 30 km/t) udgør luftmodstanden over 80-90 % af den samlede modstand. Her betyder en lav CdA markant mere for din fart end et lavt watt/kg-forhold.
+    answer: På flad og let kuperet vej (over 30 km/t) udgør luftmodstanden over 80-90% af den samlede modstand. Her betyder en lav CdA markant mere for din fart end et lavt watt/kg-forhold.
   - question: Hvilken udstyrsændring giver den største CdA-forbedring?
-    answer: Rytterens kropsposition udgør ca. 70-80 % af den samlede luftmodstand. Dernæst giver tætsiddende aero-tøj/dragt, en god enkeltstartshjelm og dybe fælge/pladehjul de største besparelser i CdA.
+    answer: Rytterens kropsposition udgør ca. 70-80% af den samlede luftmodstand. Dernæst giver tætsiddende aero-tøj/dragt, en god enkeltstartshjelm og dybe fælge/pladehjul de største besparelser i CdA.
 ---
 
-Når du cykler på flad vej med mere end 30 km/t, går over **80-90 % af din trådte effekt (watt)** udelukkende til at overvinde luftmodstanden. 
+Når du cykler på flad vej med mere end 30 km/t, går over **80-90% af din trådte effekt (watt)** udelukkende til at overvinde luftmodstanden. 
 
 Det er her, begrebet **CdA** (*Drag Area*) bliver den mest afgørende faktor for din fart. En reduktion i din CdA-værdi lader dig køre markant hurtigere med nøjagtig den samme trådte effekt.
 

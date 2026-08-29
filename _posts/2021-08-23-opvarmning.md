@@ -90,7 +90,7 @@ Når du varmer op, påvirkes kroppen gennem to overordnede veje: **temperaturafh
 Målet med den indledende opvarmning er at hæve muskeltemperaturen fra hvileniveauet på ca. 37 °C til omkring **38,5–39,0 °C**. En stigning i muskeltemperaturen med blot 1 °C medfører markante tilpasninger:
 
 * **Hurtigere enzymaktivitet:** Den kemiske nedbrydning af glycogen og ATP øges. Enzymet *ATP-ase* arbejder hurtigere ved højere temperaturer, hvilket direkte øger muskelfibrenes kontraktionshastighed og maksimale powereffekt (Gray et al., 2006).
-* **Øget nerveledningshastighed:** Nerveimpulsernes hastighed fra det centrale nervesystem til muskelcellerne stiger med ca. 10 % for hver grad, temperaturen stiger. Det forbedrer koordination, reaktionstid og fyringsfrekvens.
+* **Øget nerveledningshastighed:** Nerveimpulsernes hastighed fra det centrale nervesystem til muskelcellerne stiger med ca. 10% for hver grad, temperaturen stiger. Det forbedrer koordination, reaktionstid og fyringsfrekvens.
 * **Nedsat viskøs modstand:** Muskelvæv, sener og bindevæv udviser *viskoelastiske* egenskaber. Når vævet varmes op, falder den mekaniske modstand i muskler og led, hvilket giver et større bevægelsesudslag (Range of Motion).
 * **Forbedret iltafgivelse (Bohr-effekten):** Ved øget lokal temperatur og lavere pH-værdi i det arbejdende muskelvæv forskydes iltsammensætningen i blodet. Hemoglobin og myoglobin afgiver ilt væsentligt hurtigere til mitokondrierne, hvilket optimerer den aerobe energiproduktion i starten af træningen.
 
@@ -121,7 +121,7 @@ Evidensen for strukturerede opvarmningsprogrammer — som fx det velkendte *FIFA
 3. Plyometrisk træning og landingsmekanik
 4. Core- og bækkenstabilitet
 
-Når opvarmningen bruges som en integreret træningsrutine over tid, viser systematiske reviews en reduktion i alvorlige underekstremitetsskader (især korsbåndsskader, baglårs- og lyskeskader) på mellem **30 % og 50 %** (Silvers-Granelli et al., 2015; Thorborg et al., 2017).
+Når opvarmningen bruges som en integreret træningsrutine over tid, viser systematiske reviews en reduktion i alvorlige underekstremitetsskader (især korsbåndsskader, baglårs- og lyskeskader) på mellem **30% og 50 %** (Silvers-Granelli et al., 2015; Thorborg et al., 2017).
 
 ---
 

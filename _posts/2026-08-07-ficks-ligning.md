@@ -85,12 +85,12 @@ Forskellen på en utrænet og en eliteløber ligger næsten udelukkende i **Slag
 
 Selvom hjertet pumper tonsvis af iltrigt blod ud i kroppen, hjælper det intet, hvis muskelcellerne ikke kan trække ilten ud af blodet og omdanne den til energi. Det er her, den perifere faktor ($\text{a-vO}_2\text{ diff}$) kommer ind i billedet.
 
-I hvile indeholder 1 liter arterieblod ca. 200 mL ilt, mens veneblodet indeholder ca. 150 mL ilt. Kroppen udnytter altså kun ca. 25 % af ilten ($\text{a-vO}_2\text{ diff} = 50\text{ mL } O_2/\text{L}$).
+I hvile indeholder 1 liter arterieblod ca. 200 mL ilt, mens veneblodet indeholder ca. 150 mL ilt. Kroppen udnytter altså kun ca. 25% af ilten ($\text{a-vO}_2\text{ diff} = 50\text{ mL } O_2/\text{L}$).
 
 Under maksimalt arbejde stiger musklernes iltsug:
 
-* **Utrænet ved max:** Udnytter ca. 65–70 % af ilten ($\text{a-vO}_2\text{ diff} \approx 130\text{--}140\text{ mL } O_2/\text{L}$).
-* **Veltrænet ved max:** Udnytter op mod 85–90 % af ilten ($\text{a-vO}_2\text{ diff} \approx 160\text{--}180\text{ mL } O_2/\text{L}$).
+* **Utrænet ved max:** Udnytter ca. 65–70% af ilten ($\text{a-vO}_2\text{ diff} \approx 130\text{--}140\text{ mL } O_2/\text{L}$).
+* **Veltrænet ved max:** Udnytter op mod 85–90% af ilten ($\text{a-vO}_2\text{ diff} \approx 160\text{--}180\text{ mL } O_2/\text{L}$).
 
 ### Hvad øger den perifere iltudnyttelse?
 1. **Kapillærtæthed:** Flere mikroskopiske blodkar omkring hver enkelt muskelfiber giver blodet længere tid til at afgive sin ilt.

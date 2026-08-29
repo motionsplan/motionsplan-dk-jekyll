@@ -21,7 +21,7 @@ last_modified_at: '2026-08-29T10:00:00Z'
 toc: true
 faq:
   - question: "Hvad er forskellen på Balke-testen og Bruce-testen?"
-    answer: "Bruce-testen øger både hastighed og hældning samtidigt for hvert 3. minut, hvilket gør testen meget stejl og fysisk rykvis. Balke-testen holder en helt fast hastighed (fx 5,3 km/t eller 8,0 km/t) og øger hældningen roligt med 1 % for hvert minut."
+    answer: "Bruce-testen øger både hastighed og hældning samtidigt for hvert 3. minut, hvilket gør testen meget stejl og fysisk rykvis. Balke-testen holder en helt fast hastighed (fx 5,3 km/t eller 8,0 km/t) og øger hældningen roligt med 1% for hvert minut."
   - question: "Hvad er formlen for Balke løbebåndstesten?"
     answer: "Balke-formlen afhænger af testtypen og køn. For gang benyttes Pollock et al. formlerne: VO2max = 14,99 + (1,444 * T) for mænd og VO2max = 5,22 + (1,38 * T) for kvinder. For løb ved 8,0 km/t benyttes ACSM-ligningen: VO2max = 30,17 + (1,20 * T), hvor T er tiden i minutter."
   - question: "Kan man gennemføre Balke-testen ved rent gangtempo?"
@@ -30,7 +30,7 @@ faq:
 
 **Balke-testen** er en af de mest anerkendte og klassiske metoder til at estimere kroppens maksimale iltoptagelse ($\text{VO}_2\max$) og kondital. Testen blev oprindelig udviklet af den tysk-amerikanske idrætsfysiolog dr. Bruno Balke i 1960'erne som et mere kontrolleret og skånsomt alternativ til eksplosive løbetests.
 
-Det unikke ved Balkes fysiologiske tilgang er princippet om **fast hastighed**: I stedet for at øge farten undervejs, holder du et konstant tempo, mens belastningen øges gradvist ved at skrue op for løbebåndets stigning (hældning) med 1 % for hvert minut.
+Det unikke ved Balkes fysiologiske tilgang er princippet om **fast hastighed**: I stedet for at øge farten undervejs, holder du et konstant tempo, mens belastningen øges gradvist ved at skrue op for løbebåndets stigning (hældning) med 1% for hvert minut.
 
 [<i class='fas fa-volume-up'></i> Hop til timer & beregner for løbebånd](#timer){: .btn .btn--success .btn--jump }
 
@@ -54,7 +54,7 @@ Løbebåndstesten anvendes hyppigt af fysioterapeuter, idrætsfysiologer og træ
 * **Valg af hastighed:**
   * **Gang (Balke-Ware):** Fast hastighed på **$5{,}3 \text{ km/t}$** ($3{,}3 \text{ mph}$).
   * **Løb:** Fast hastighed på **$8{,}0 \text{ km/t}$** ($5{,}0 \text{ mph}$).
-* **Trin-forløb:** Hvert trin varer **1 minut (60 sekunder)**. For hvert minut øges løbebåndets hældning med **1 %** (f.eks. Minut 1 = 0 %, Minut 2 = 1 %, Minut 3 = 2 %).
+* **Trin-forløb:** Hvert trin varer **1 minut (60 sekunder)**. For hvert minut øges løbebåndets hældning med **1 %** (fx Minut 1 = 0 %, Minut 2 = 1 %, Minut 3 = 2 %).
 * **Slutmål:** Testen fortsætter indtil udmattelse ($RPE > 18$), eller til testpersonen ikke længere kan følge med.
 
 ---
@@ -108,7 +108,7 @@ $$\text{VO}_2\max = 30{,}17 + (1{,}20 \cdot T)$$
 
 ### 3. Modificeret Balke Løbebåndstest (Submaksimal gangtest)
 
-I modsætning til den klassiske Balke-test, som køres til maksimal udmattelse, er den **modificerede Balke-test** en submaksimal gangtest på løbebånd. Målet er ikke at presse testpersonen til grænsen, men derimod at stoppe testen i det øjeblik, vedkommende rammer **85 % af sin maksimale hjertefrekvens** (eller en RPE-skala på ca. 15). Den modificerede Balketest minder således om [Borg 15 cykeltesten](/kondital-borg15/).
+I modsætning til den klassiske Balke-test, som køres til maksimal udmattelse, er den **modificerede Balke-test** en submaksimal gangtest på løbebånd. Målet er ikke at presse testpersonen til grænsen, men derimod at stoppe testen i det øjeblik, vedkommende rammer **85% af sin maksimale hjertefrekvens** (eller en RPE-skala på ca. 15). Den modificerede Balketest minder således om [Borg 15 cykeltesten](/kondital-borg15/).
 
 Testen er fysiologisk ideel til kliniske patienter, ældre, utrænede eller i genoptræningsforløb, hvor en maksimal belastning til udmattelse enten er ubehagelig eller udgør en helbredsrisiko.
 
@@ -163,7 +163,7 @@ $$\text{VO}_2\max = \left(\left(\frac{D}{15} - 133\right) \cdot 0{,}172\right) +
 
 For at opnå et pålideligt resultat er det afgørende at tilpasse din opvarmning til testformen:
 
-* **Ved submaksimal løbebåndstest (afbrudt ved 85 % HRmax):** Hold opvarmningen minimal. Lav 3–5 minutters let gang ved $3–4 \text{ km/t}$ ved $0\,\%$ hældning. Undgå stigningsløb og pulstoppe, da kardiovaskulært drift vil give en kunstigt høj puls og underestimere dit beregnede kondital.
+* **Ved submaksimal løbebåndstest (afbrudt ved 85% HRmax):** Hold opvarmningen minimal. Lav 3–5 minutters let gang ved $3–4 \text{ km/t}$ ved $0\,\%$ hældning. Undgå stigningsløb og pulstoppe, da kardiovaskulært drift vil give en kunstigt høj puls og underestimere dit beregnede kondital.
 * **Ved maksimal test til udmattelse / 15-min felt-test:** Følg en [RAMP-opvarmningsprotokol](/opvarmning-til-loeb/) med 5 minutter let jog, dynamisk mobilitet og 2–3 korte stigningsløb, så iltoptagelsen ($\text{VO}_2$-kinetikken) er aktiveret inden startskuddet.
 
 ---
@@ -190,7 +190,7 @@ De mest anvendte indirekte konditionstests adskiller sig markant på intensitet 
 
 | Test | Modalitet | Belastningsændring | Typisk varighed | Primære målgruppe |
 | :--- | :--- | :--- | :--- | :--- |
-| **Balke Løbebånd** | Gang / Løb | Fast fart • +1 % hældning/min | 10–20 min | Klinisk, utrænede, motionister |
+| **Balke Løbebånd** | Gang / Løb | Fast fart • +1% hældning/min | 10–20 min | Klinisk, utrænede, motionister |
 | **Bruce Protokol** | Løbebånd | Fast trin • +Hældning & +Hastighed/3 min | 6–15 min | Raske voksne & atleter |
 | **Cooper Test** | Løb (Felt) | Fri tempodisponering på flad rute | 12 min | Motionister & militær |
 | **6-Minutters Gang** | Gang (Felt) | Selvvagt gangtempo | 6 min | KOL, hjertepatienter, ældre |

@@ -20,11 +20,11 @@ last_modified_at: '2026-07-25T18:00:00Z'
 toc: 'true'
 faq:
   - question: Hvad er en normal fedtprocent for kvinder?
-    answer: For unge kvinder (20-39 år) ligger en normal fedtprocent typisk på 21-33 %. Med alderen stiger normen naturally til 23-35 % (40-59 år) og 24-36 % (over 60 år).
+    answer: For unge kvinder (20-39 år) ligger en normal fedtprocent typisk på 21-33%. Med alderen stiger normen naturally til 23-35% (40-59 år) og 24-36% (over 60 år).
   - question: Hvad er en normal fedtprocent for mænd?
-    answer: For unge mænd (20-39 år) ligger en normal fedtprocent typisk på 8-19 %. For mænd i alderen 40-59 år er normen 11-22 %, og for mænd over 60 år er den 13-25 %.
+    answer: For unge mænd (20-39 år) ligger en normal fedtprocent typisk på 8-19%. For mænd i alderen 40-59 år er normen 11-22 %, og for mænd over 60 år er den 13-25%.
   - question: Hvorfor har kvinder en højere fedtprocent end mænd?
-    answer: Kvinder har fysiologisk set omkring 10-12 % mere essentielt fedt end mænd. Dette fedt er nødvendigt for den hormonelle balance og reproduktive funktioner.
+    answer: Kvinder har fysiologisk set omkring 10-12% mere essentielt fedt end mænd. Dette fedt er nødvendigt for den hormonelle balance og reproduktive funktioner.
 ---
 
 Vil du vide, om din fedtprocent er sund, lav eller høj? Kvinders og mænds fysiologi er forskellig, og derfor afhænger en **normal fedtprocent** i høj grad af både dit køn og din alder.
@@ -41,9 +41,9 @@ Kvinder har naturally en højere fedtprocent end mænd på grund af essentielle 
 
 | Alder | For lav fedtprocent | Normal fedtprocent | Overvægt | Svær overvægt |
 | :---: | :---: | :---: | :---: | :---: |
-| **20 – 39 år** | Under 21 % | **21 – 33 %** | 33 – 39 % | Over 39 % |
-| **40 – 59 år** | Under 23 % | **23 – 35 %** | 35 – 40 % | Over 40 % |
-| **Over 60 år** | Under 24 % | **24 – 36 %** | 36 – 42 % | Over 42 % |
+| **20 – 39 år** | Under 21% | **21 – 33 %** | 33 – 39% | Over 39% |
+| **40 – 59 år** | Under 23% | **23 – 35 %** | 35 – 40% | Over 40% |
+| **Over 60 år** | Under 24% | **24 – 36 %** | 36 – 42% | Over 42% |
 
 *Kilde: Gallagher et al. (New York Obesity Research Center / WHO guidelines).*
 
@@ -55,9 +55,9 @@ Mænd har en lavere mængde essentielt fedt og opbygger lettere muskelmasse i fo
 
 | Alder | For lav fedtprocent | Normal fedtprocent | Overvægt | Svær overvægt |
 | :---: | :---: | :---: | :---: | :---: |
-| **20 – 39 år** | Under 8 % | **8 – 19 %** | 19 – 25 % | Over 25 % |
-| **40 – 59 år** | Under 11 % | **11 – 22 %** | 22 – 28 % | Over 28 % |
-| **Over 60 år** | Under 13 % | **13 – 25 %** | 25 – 30 % | Over 30 % |
+| **20 – 39 år** | Under 8% | **8 – 19 %** | 19 – 25% | Over 25% |
+| **40 – 59 år** | Under 11% | **11 – 22 %** | 22 – 28% | Over 28% |
+| **Over 60 år** | Under 13% | **13 – 25 %** | 25 – 30% | Over 30% |
 
 *Kilde: Gallagher et al. (New York Obesity Research Center / WHO guidelines).*
 
@@ -69,17 +69,17 @@ Træner du meget, eller vil du se normerne for atleter, har *American Council on
 
 | Klassifikation | Kvinder (% fedt) | Mænd (% fedt) |
 | :--- | :---: | :---: |
-| **Essentielt fedt** (minimum for overlevelse) | 10 – 12 % | 2 – 5 % |
-| **Atleter / Eliteløbere** | 14 – 20 % | 6 – 13 % |
-| **Fitness / Motionist** | 21 – 24 % | 14 – 17 % |
-| **Gennemsnitlig / Acceptabel** | 25 – 31 % | 18 – 24 % |
-| **Overvægt** | > 32 % | > 25 % |
+| **Essentielt fedt** (minimum for overlevelse) | 10 – 12% | 2 – 5% |
+| **Atleter / Eliteløbere** | 14 – 20% | 6 – 13% |
+| **Fitness / Motionist** | 21 – 24% | 14 – 17% |
+| **Gennemsnitlig / Acceptabel** | 25 – 31% | 18 – 24% |
+| **Overvægt** | > 32% | > 25% |
 
 ---
 
 ## Hvorfor har kvinder højere fedtprocent end mænd?
 
-Studier (fx Jackson et al., 2002) viser, at kvinders fedtprocent i gennemsnit ligger ca. **10,4 % højere** end mænds ved samme [BMI](/bmi/). 
+Studier (fx Jackson et al., 2002) viser, at kvinders fedtprocent i gennemsnit ligger ca. **10,4% højere** end mænds ved samme [BMI](/bmi/). 
 
 Dette skyldes primært kønshormonet østrogen samt behovet for energidepoter til graviditet og amning. Det fedt, der sidder på hofte, lår og baller hos kvinder, er kønsspecifikt og udgør sjældent samme sundhedsrisiko som mavefedt.
 

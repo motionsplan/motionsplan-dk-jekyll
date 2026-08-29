@@ -151,7 +151,7 @@ $$ \text{Fedtprocent} = 1{,}37 \cdot \text{BMI} - 3{,}47 $$
 <details markdown="1" class="equation">
   <summary><h3 id="jackson-pollock-equation">Se formel fra Jackson & Pollock (1980)</h3></summary>
 
-Adult Body Fat % = (1,61 * BMI) + (0,13 * age) - (12,1 * gender) - 13.9
+Adult Body Fat% = (1,61 * BMI) + (0,13 * age) - (12,1 * gender) - 13.9
 
 </details>
 

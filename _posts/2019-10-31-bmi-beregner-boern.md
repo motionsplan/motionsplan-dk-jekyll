@@ -155,7 +155,7 @@ TMI benytter højden i **3. potens** ($m^3$) i stedet for 2. potens ($m^2$):
 
 $$\text{TMI} = \frac{\text{Vægt (kg)}}{\text{Højde (m)}^3}$$
 
-Forskerne konkluderede, at TMI reducerer fejlklassificeringer af overvægt hos børn med over 20 % i forhold til BMI, fordi det tager højde for kroppens tre-dimensionelle volumen under opvæksten.
+Forskerne konkluderede, at TMI reducerer fejlklassificeringer af overvægt hos børn med over 20% i forhold til BMI, fordi det tager højde for kroppens tre-dimensionelle volumen under opvæksten.
 
 👉 **Vil du vide mere?** Read om historien bag formlen og prøv vores **[Ponderal Index og TMI-beregner her](/ponderal-index/)**.
 

@@ -47,7 +47,7 @@ $$\text{APR (Watt)} = \text{PPO} - \text{MAP}$$
 
 ---
 
-## Hvorfor % MAP fejler: "130% MAP-fælden"
+## Hvorfor% MAP fejler: "130% MAP-fælden"
 
 Forestil dig to veltrænede cykelryttere, der begge har gennemført en laboratorietest og opnået en **MAP på 400 Watt**:
 
@@ -99,7 +99,7 @@ Ud fra forholdet mellem MAP og PPO kan man klassificere ryttere i tre udprægede
 
 ---
 
-## Praktisk styring: Træn ud fra % APR
+## Praktisk styring: Træn ud fra% APR
 
 Når du planlægger supramaximale Watt-intervaller (fx 30/15, 20/10 eller 1-minuts bakkeangreb), anbefales det at dosere målwatt ud fra formlen:
 

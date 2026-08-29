@@ -98,7 +98,7 @@ Deltagerne i studiet løb i gennemsnit 63 km om ugen i et moderat tempo. Forsker
 
 Træningen så sådan her ud:
 
-- ’Speed endurance’ træning 2 x om ugen. Træningen bestod i hårde sprintintervaller på 4-10 x 30 sek ved 90-95 % af deltagernes maksimale hastighed. I første uge startede deltagerne med at løbe 4 x 30 sek og gennem træningsperioden arbejdede de sig op til 10 x 30 sek.
+- ’Speed endurance’ træning 2 x om ugen. Træningen bestod i hårde sprintintervaller på 4-10 x 30 sek ved 90-95% af deltagernes maksimale hastighed. I første uge startede deltagerne med at løbe 4 x 30 sek og gennem træningsperioden arbejdede de sig op til 10 x 30 sek.
 - Styrketræning 2 x om ugen. Træningen bestod af squat, benpres og dødløft. Deltagerne startede med at køre 1 sæt á 10 reps (1 x 10), og henover ugerne blev intensiteteten i løftene øget 2 x 8, 3 x 6 og 4 x 4.
 - 1 x ugen stod den på hårde intervaller med 8 x 2 min ved >90% af maxpulsen.
 - 1 x ugen blev der løbet med moderat intensitet (2-17 km ved 80% af maxpulsen).

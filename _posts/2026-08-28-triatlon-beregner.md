@@ -35,9 +35,9 @@ faq:
   - question: "Hvor lang tid tager en Full Ironman (140.6) for en motionist?"
     answer: "For en almindelig motionist ligger sluttiden på en Full Ironman typisk mellem 11 og 14 timer, hvor cykeldelen udgør cirka halvdelen af den samlede konkurrencetid."
   - question: "Hvad er den normale tidsfordeling mellem disciplinerne i triatlon?"
-    answer: "En generel tommelfingerregel for tidsfordelingen er cirka 10–15 % svømning, 50–55 % cykling, 30–35 % løb og 1–3 % på skiftetiderne (T1 og T2)."
+    answer: "En generel tommelfingerregel for tidsfordelingen er cirka 10–15% svømning, 50–55% cykling, 30–35% løb og 1–3% på skiftetiderne (T1 og T2)."
   - question: "Hvorfor løber man langsommere i et triatlon end til et rent løbestævne?"
-    answer: "Muskulær udtrætning, nedsat laktattærskel og partiel glykogenudtømning fra cyklingen bevirker, at de fleste triatleter løber 5–10 % langsommere på løbedelen end deres rene tempo på distancen."
+    answer: "Muskulær udtrætning, nedsat laktattærskel og partiel glykogenudtømning fra cyklingen bevirker, at de fleste triatleter løber 5–10% langsommere på løbedelen end deres rene tempo på distancen."
 ---
 
 En gennemtænkt pacing-strategi er afgørende for at gennemføre et triatlonstævne uden at ramme den berømte "mur" på løberuten. Triatlonberegneren herunder estimerer din samlede sluttid samt individuelle splittider på tværs af alle discipliner og skiftetider.
@@ -48,10 +48,10 @@ Forskellige triatlondistancer stiller vidt forskellige krav til intensitet og en
 
 | Distance | Svømning | Cykling | Løb | Typisk tidsfordeling (Svøm / Cykel / Løb) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Sprint** | 750 m | 20 km | 5 km | ~15 % / 50 % / 35 % |
-| **Olympisk** | 1.500 m | 40 km | 10 km | ~15 % / 50 % / 35 % |
-| **70.3 (Halv Ironman)** | 1.900 m | 90 km | 21,1 km | ~11 % / 55 % / 34 % |
-| **140.6 (Full Ironman)** | 3.800 m | 180 km | 42,2 km | ~10 % / 54 % / 36 % |
+| **Sprint** | 750 m | 20 km | 5 km | ~15% / 50% / 35% |
+| **Olympisk** | 1.500 m | 40 km | 10 km | ~15% / 50% / 35% |
+| **70.3 (Halv Ironman)** | 1.900 m | 90 km | 21,1 km | ~11% / 55% / 34% |
+| **140.6 (Full Ironman)** | 3.800 m | 180 km | 42,2 km | ~10% / 54% / 36% |
 
 ## Triatlon Pacing- og Sluttidsberegner
 {: id="calculator" }
@@ -81,7 +81,7 @@ Når du har beregnet din egen forventede sluttid, kan det være motiverende at h
 Aflæs din samlede beregnede tid for en Full Ironman (140.6) mod disse fysiologiske niveaugrupper:
 
 * **Verdenselite / Pro:** Under 8:00 timer (Mænd) / Under 8:45 timer (Kvinder).
-* **Sub-9 / Sub-10 (Top 5 % Age-Group):** 8:30–9:30 timer. Kræver stærk cykling (36–38 km/t) og et maraton under 3:15 timer.
+* **Sub-9 / Sub-10 (Top 5% Age-Group):** 8:30–9:30 timer. Kræver stærk cykling (36–38 km/t) og et maraton under 3:15 timer.
 * **God Motionist (Top 25 %):** 10:00–11:30 timer. Et veldisponeret stævne med et maraton omkring 3:45–4:00 timer.
 * **Gennemsnitlig Motionist:** 11:30–13:30 timer. Den typiske sluttid for breddeidrætten og førstegangsdeltagere.
 * **Finisher / Cut-off:** 16:00–17:00 timer. Grænsen for at modtage den officielle finisher-medalje.
@@ -95,7 +95,7 @@ En af de mest hyppige beregningsfejl hos uerfarne triatleter er at antage, at ma
 Fysiologiske studier af triatleter viser en markant neuromuskulær udtrætning og forringet løbeøkonomi umiddelbart efter cykling:
 
 * **Glykogenforbrug:** Selv ved stram indtagelse af kulhydrater på cyklen vil laktat- og syreophobning samt partiel tomhed i kropsvævets glykogendepoter forringe muskelfibrenes Kontraktionshastighed.
-* **Løbe-penalty (+5-10 %):** Beregneren indeholder en valgfri *træthedsfaktor*, som automatisk tilføjer ~7 % til dit indtastede grundtempo på løb. På en 70.3 udgør dette typisk 15–25 sekunders ekstra tid pr. kilometer sammenlignet med et rent halvmaraton.
+* **Løbe-penalty (+5-10 %):** Beregneren indeholder en valgfri *træthedsfaktor*, som automatisk tilføjer ~7% til dit indtastede grundtempo på løb. På en 70.3 udgør dette typisk 15–25 sekunders ekstra tid pr. kilometer sammenlignet med et rent halvmaraton.
 
 ## T1 og T2: Skiftezonen som en gratis tidsgevinst
 

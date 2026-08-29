@@ -26,7 +26,7 @@ faq:
   - question: Hvad er 'Double Threshold Days' (dobbelt-tærskel)?
     answer: Et unikt element i den norske model er to tærskel-pas på samme dag (fx formiddag og aften). Dette tillader atleten at opnå en enorm mængde tærskeltræning (op til 30-40 minutter pr. pas) uden at udtrætte centralnervesystemet, som det ville ske ved ét massivt pas.
   - question: Kræver metoden, at jeg køber en laktatmåler?
-    answer: Nej. For eliten er laktatmålere afgørende for ikke at løbe for stærkt. Som motionist kan du opnå samme effekt ved at løbe intervaller ud fra puls (typisk 82-88 % af makspuls) eller ud fra følelsen af 'komfortabelt hårdt' tempo (hvor du akkurat kan sige korte sætninger).
+    answer: Nej. For eliten er laktatmålere afgørende for ikke at løbe for stærkt. Som motionist kan du opnå samme effekt ved at løbe intervaller ud fra puls (typisk 82-88% af makspuls) eller ud fra følelsen af 'komfortabelt hårdt' tempo (hvor du akkurat kan sige korte sætninger).
 ---
 
 Norge har i de senere år overtaget den globale udholdenhedsverden. Fra mellemdistanceløberen Jakob Ingebrigtsen og hans brødre til triatleterne Kristian Blummenfelt og Gustav Iden; nordmændene vinder OL-guld og smadrer verdensrekorder på stribe. 
@@ -41,7 +41,7 @@ Men hvad er det præcis, nordmændene gør, som adskiller sig fra resten af verd
 
 For at forstå den norske model skal vi forstå, hvad den *ikke* er. I årtier har [intervaltræning](/intervaltraening/) været synonymt med at grave dybt, smage blod og presse hjertet til det yderste. 
 
-Metoder som den norske [4x4 intervaltræning](/4x4-intervaltraening/) (fra Helgerud og Hoff) eller sprint-protokollen [10-20-30](/10-20-30-intervaltraening/) fokuserer benhårdt på at hæve den [maksimale iltoptagelse (VO2max)](/maksimale-iltoptagelse-vo2max/) ved at ligge tæt på 90-100 % af maksimal ydeevne.
+Metoder som den norske [4x4 intervaltræning](/4x4-intervaltraening/) (fra Helgerud og Hoff) eller sprint-protokollen [10-20-30](/10-20-30-intervaltraening/) fokuserer benhårdt på at hæve den [maksimale iltoptagelse (VO2max)](/maksimale-iltoptagelse-vo2max/) ved at ligge tæt på 90-100% af maksimal ydeevne.
 
 Den norske tærskelmodel – pioneret af den tidligere stjerneløber Marius Bakken i starten af 00'erne – går den stik modsatte vej. Her gælder én ufravigelig regel: **Du må aldrig løbe hurtigere end din tærskel.**
 
@@ -72,7 +72,7 @@ Denne metode tillader elite-nordmændene at samle op mod 30-40 kilometer om ugen
 
 ## Hvordan The Norwegian Model passer ind i Polariseret Træning
 
-Den norske model forveksles ofte med at bryde reglerne i polariseret træning (80/20-reglen), hvor 80 % skal være helt roligt (Zone 1) og 20 % skal være meget hårdt (Zone 4/5).
+Den norske model forveksles ofte med at bryde reglerne i polariseret træning (80/20-reglen), hvor 80% skal være helt roligt (Zone 1) og 20% skal være meget hårdt (Zone 4/5).
 
 Nordmændene træner i højere grad **Pyramide-træning**. De løber ekstremt meget langsomt mængdetræning (ofte 150-180 km om ugen for eliten), en massiv mængde i midten (tærskel / Zone 3) og næsten intet oppe i den rene anaerobe røde zone (VO2max sprints). 
 
@@ -87,7 +87,7 @@ Jakob Ingebrigtsen og Kristian Blummenfelt stikker sig selv i fingeren med en la
 Du kan høste de fysiologiske fordele af den norske model ved at ændre din tilgang til intervaltræning via disse tre principper:
 
 ### 1. Sænk farten på dine intervaller
-Næste gang du løber intervaller, skal du ikke løbe for at slå rekord. Løb ud fra følelsen "komfortabelt hårdt". Hvis du løber med pulsur, skal du ligge omkring **82-88 % af din maksimale hjertefrekvens**. Du bør føle, at du kunne have løbet et eller to intervaller mere, når træningen er færdig. 
+Næste gang du løber intervaller, skal du ikke løbe for at slå rekord. Løb ud fra følelsen "komfortabelt hårdt". Hvis du løber med pulsur, skal du ligge omkring **82-88% af din maksimale hjertefrekvens**. Du bør føle, at du kunne have løbet et eller to intervaller mere, når træningen er færdig. 
 
 ### 2. Øg den samlede tid i zonen (Volumen frem for intensitet)
 Fordi du nu løber langsommere i dine intervaller, kan du holde til mere. 

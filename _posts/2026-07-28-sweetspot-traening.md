@@ -21,7 +21,7 @@ last_modified_at: '2026-08-02T10:30:00Z'
 toc: true
 faq:
 - question: Hvad er Sweet Spot træning?
-  answer: Sweet Spot er en træningsintensitet, der ligger lige under din mælkesyretærskel (FTP). Det defineres typisk som 84–97 % af din FTP eller ca. 88–93 % af din maksimale puls. Det er hårdt, men ikke så hårdt at du syrer til.
+  answer: Sweet Spot er en træningsintensitet, der ligger lige under din mælkesyretærskel (FTP). Det defineres typisk som 84–97% af din FTP eller ca. 88–93% af din maksimale puls. Det er hårdt, men ikke så hårdt at du syrer til.
 - question: Hvad er forskellen på Sweet Spot og Zone 2?
   answer: Zone 2 bygger din aerobe base og fedtforbrænding ved meget lav intensitet, hvilket tillader massiv træningsmængde. Sweet Spot er markant hårdere, forbrænder primært kulhydrater og presser din tærskel opad. Sweet Spot giver hurtigere resultater på kortere tid, men kræver mere restitution.
 - question: Hvor lang tid skal man køre Sweet Spot?
@@ -46,8 +46,8 @@ Navnet "Sweet Spot" refererer til et fysiologisk *smørhul*. Det er et kompromis
 
 Når du træner Sweet Spot, ligger du *lige under* din anaerobe tærskel (LT2 / mælkesyretærsklen / FTP). 
 
-* **Watt (Cykling):** 84 – 97 % af din FTP (Functional Threshold Power)
-* **Puls:** 88 – 93 % af maxpuls
+* **Watt (Cykling):** 84 – 97% af din FTP (Functional Threshold Power)
+* **Puls:** 88 – 93% af maxpuls
 * **Følelse (RPE):** Det føles *"behageligt hårdt"*. Du er forpustet, men du syrer ikke til, og du har overskuddet til at holde tempoet i relativt lang tid (fx 20-40 minutter).
 
 Logikken bag Sweet Spot er, at du får næsten de samme udholdenhedsgevinster som ved decideret tærskeltræning (Zone 4), men fordi du ligger netop et par procenter under tærsklen, akkumulerer du **langt mindre mælkesyre og udmattelse**. Det betyder, at du kan træne dagen efter igen.
@@ -71,10 +71,10 @@ For at forstå Sweet Spot skal vi se på, hvor det ligger på intensitetsskalaen
 </pre>
 
 ### 1. Zone 2 og FatMax (Basen)
-[Zone 2-træning](/zone-2-traening/) (og dermed [FatMax](/fatmax/)) foregår ved relativt lav intensitet (omkring 55–75 % af din FTP). Her bygger du mitokondrier og lærer kroppen at forbrænde **fedt** som primær energikilde. Du kan træne i Zone 2 i mange timer i træk uden at blive smadret. Zone 2 skubber din bund opad.
+[Zone 2-træning](/zone-2-traening/) (og dermed [FatMax](/fatmax/)) foregår ved relativt lav intensitet (omkring 55–75% af din FTP). Her bygger du mitokondrier og lærer kroppen at forbrænde **fedt** som primær energikilde. Du kan træne i Zone 2 i mange timer i træk uden at blive smadret. Zone 2 skubber din bund opad.
 
 ### 2. Tærskel (Toppen)
-Tærskeltræning (Zone 4) foregår ved 98–105 % af FTP. Det gør ondt, du trækker vejret tungt, og du forbrænder 100 % kulhydrat. Det giver en massiv formfremgang, men stresser centralnervesystemet ekstremt meget. Træner du tærskel i dag, har du typisk brug for flere dages restitution før næste hårde pas.
+Tærskeltræning (Zone 4) foregår ved 98–105% af FTP. Det gør ondt, du trækker vejret tungt, og du forbrænder 100% kulhydrat. Det giver en massiv formfremgang, men stresser centralnervesystemet ekstremt meget. Træner du tærskel i dag, har du typisk brug for flere dages restitution før næste hårde pas.
 
 ### 3. Sweet Spot (Smørhullet)
 Sweet Spot ligger præcis mellem Tempo (Zone 3) og Tærskel (Zone 4). Her forbrænder du primært **kulhydrater**, men fordi du holder dig lige under syregrænsen, kan du opholde dig der meget længere end i Zone 4. Sweet Spot arbejder oppefra og "trækker" din tærskel opad.
@@ -83,7 +83,7 @@ Sweet Spot ligger præcis mellem Tempo (Zone 3) og Tærskel (Zone 4). Her forbr�
 
 ## Det store skænderi: Sweet Spot vs. Polariseret træning (Zone 2)
 
-I træningsvidenskaben er der netop nu en stor debat: Skal motionister køre Sweet Spot, eller skal de køre Polariseret træning (80/20-reglen, hvor 80 % er let Zone 2 og 20 % er benhårde intervaller)?
+I træningsvidenskaben er der netop nu en stor debat: Skal motionister køre Sweet Spot, eller skal de køre Polariseret træning (80/20-reglen, hvor 80% er let Zone 2 og 20% er benhårde intervaller)?
 
 ### Argumentet FOR Sweet Spot (Tidseffektivitet)
 Eksperter peger på, at Sweet Spot er genialt til den "tidspressede atlet". Har du kun tid til at træne 4-6 timer om ugen, vil ren Zone 2 simpelthen ikke give dig nok træningsstress (TSS) til at forbedre dig markant. Med Sweet Spot kan du komprimere en stor træningsmængde ned på kort tid og bygge en utroligt høj FTP.
@@ -103,9 +103,9 @@ For at få gavn af Sweet Spot, skal du tilbringe relativt lang tid i zonen (hvil
 
 Her er tre klassiske eksempler på gode Sweet Spot-intervaller på cyklen eller løbeturen:
 
-* **Begynderen:** 3 x 10 minutter ved 85-90 % FTP. (5 min. rul/lunt mellem hvert).
-* **Den øvede:** 2 x 20 minutter ved 88-93 % FTP. (5 min. rul/lunt imellem).
-* **Eksperten:** 3 x 20 minutter (eller 1 x 60 minutter) ved 90 % FTP.
+* **Begynderen:** 3 x 10 minutter ved 85-90% FTP. (5 min. rul/lunt mellem hvert).
+* **Den øvede:** 2 x 20 minutter ved 88-93% FTP. (5 min. rul/lunt imellem).
+* **Eksperten:** 3 x 20 minutter (eller 1 x 60 minutter) ved 90% FTP.
 
 Sørg altid for at varme grundigt op i 15 minutter og køre af (cool-down) i 10 minutter. Da du forbrænder rigtig mange kulhydrater ved denne intensitet, er det vigtigt at [indtage energi (evt. sportsdrik)](/sportsdrik/) under træningen.
 

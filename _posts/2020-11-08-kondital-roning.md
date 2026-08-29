@@ -222,7 +222,7 @@ Valget mellem en 2000-meter test og en trappetest handler om, hvorvidt du vil m�
 | :--- | :--- | :--- |
 | **Primært fokus** | Race performance & kampskarphed | Aerob kapacitet & træningszoner |
 | **Varighed** | 6–10 minutter (all-out) | 30–40 minutter (trinvist stigende) |
-| **Præcision af kondital** | **God, men sammensat:** Udregnes fra gennemsnits-Watt, hvor 12–30 % af energien hentes anaerobt fra mælkesyresystemet. Pacing-fejl påvirker resultatet. | **Højeste fysiologiske præcision:** 5-minutters trin sikrer *steady state* (stabil iltoptagelse) på hvert trin uden forstyrrende mælkesyre eller pacing-støj. |
+| **Præcision af kondital** | **God, men sammensat:** Udregnes fra gennemsnits-Watt, hvor 12–30% af energien hentes anaerobt fra mælkesyresystemet. Pacing-fejl påvirker resultatet. | **Højeste fysiologiske præcision:** 5-minutters trin sikrer *steady state* (stabil iltoptagelse) på hvert trin uden forstyrrende mælkesyre eller pacing-støj. |
 | **Hvornår skal den bruges?** | Tæt på kampsæsonen eller når du vil teste din laktattolerance og pacing på den officielle konkurrencedistance. | I opstarts- og opbygningsfasen, når du vil have det mest præcise fysiologiske kondital og et rent datagrundlag til dine træningszoner. |
 
 **Kort sagt:**

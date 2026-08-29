@@ -1,6 +1,6 @@
 ---
 title: 'Muskelmasse beregner: Beregn din muskelmasse i procent og kg'
-seo_title: 'Muskelmasse beregner (i % og kg): Normal muskelmasse tabel'
+seo_title: 'Muskelmasse beregner (i% og kg): Normal muskelmasse tabel'
 description: 'Beregn din muskelmasse i procent og kg med vores videnskabelige beregner. Se tabeller over normal muskelmasse for mænd og kvinder opdelt på alder.'
 permalink: /muskelmasse-beregner/
 language: da
@@ -24,7 +24,7 @@ meta:
   type: kropskomposition
 tools:
   - id: "tool-muskelmasse-beregner"
-    title: "Muskelmasse Beregner (i % og kg)"
+    title: "Muskelmasse Beregner (i% og kg)"
     description: "Interaktiv beregner til estimering af din samlede skeletmuskelmasse i kilo (kg) og procent (%) ud fra højde, vægt, taljemål og alder baseret på Heymsfield et al. og NHANES-studierne."
     category: ["Styrketræning", "Kropskomposition", "Beregnere"]
     type: ["Beregner"]
@@ -68,28 +68,28 @@ Formlerne estimerer den faktiske **skeletmuskelmasse (SM)** — altså de muskle
 
 Køn og biologi har markant indflydelse på muskelfordelingen. Mænd har fra naturens side et højere niveau af anabole hormoner (såsom testosteron), hvilket resulterer i en større gennemsnitlig muskelmasse, hvorimod kvinder naturligt har en højere essensfedtprocent.
 
-* **Kvinder:** En normal muskelmasse ligger typisk mellem **30 % og 35 %** af kropsvægten.
-* **Mænd:** En normal muskelmasse ligger typisk mellem **38 % og 45 %** af kropsvægten.
+* **Kvinder:** En normal muskelmasse ligger typisk mellem **30% og 35 %** af kropsvægten.
+* **Mænd:** En normal muskelmasse ligger typisk mellem **38% og 45 %** af kropsvægten.
 
 Herunder finder du vejledende referencetabeller over den gennemsnitlige skeletmuskelmasse opdelt på alder.
 
-### Normal muskelmasse for mænd (i % og kg)
+### Normal muskelmasse for mænd (i% og kg)
 *Eksemplet i kg tager udgangspunkt i en standard kropsvægt på 80 kg.*
 
 | Alder | Muskelmasse i procent (%) | Estimeret muskelmasse (v. 80 kg vægt) |
 | :--- | :--- | :--- |
-| **20–39 år** | 40 – 44 % | ~ 32 – 35 kg |
-| **40–59 år** | 36 – 40 % | ~ 29 – 32 kg |
-| **60–79 år** | 32 – 36 % | ~ 25 – 29 kg |
+| **20–39 år** | 40 – 44% | ~ 32 – 35 kg |
+| **40–59 år** | 36 – 40% | ~ 29 – 32 kg |
+| **60–79 år** | 32 – 36% | ~ 25 – 29 kg |
 
-### Normal muskelmasse for kvinder (i % og kg)
+### Normal muskelmasse for kvinder (i% og kg)
 *Eksemplet i kg tager udgangspunkt i en standard kropsvægt på 68 kg.*
 
 | Alder | Muskelmasse i procent (%) | Estimeret muskelmasse (v. 68 kg vægt) |
 | :--- | :--- | :--- |
-| **20–39 år** | 31 – 35 % | ~ 21 – 24 kg |
-| **40–59 år** | 28 – 32 % | ~ 19 – 22 kg |
-| **60–79 år** | 25 – 29 % | ~ 17 – 20 kg |
+| **20–39 år** | 31 – 35% | ~ 21 – 24 kg |
+| **40–59 år** | 28 – 32% | ~ 19 – 22 kg |
+| **60–79 år** | 25 – 29% | ~ 17 – 20 kg |
 
 > **Bemærk:** Tabellerne angiver gennemsnit for ustrænede til moderat aktive personer. Veltrænede personer, der dyrker regelmæssig tung styrketræning, kan opnå betydeligt højere værdier.
 
@@ -108,7 +108,7 @@ Vil du beregne din samlede fordeling af fedt og fedtfri masse i detaljer, kan du
 
 ## Hvad sker der med muskelmassen med alderen?
 
-Fra omkring 30-års alderen begynder et gradvist, naturligt tab af muskelmasse og muskelstyrke — en tilstand, der fysiologisk betegnes som **sarkopeni**. Uden målrettet indsats mister man i gennemsnit 3–8 % af sin muskelmasse pr. årti efter det fylte 30. år, og raten accelererer yderligere efter 60-års alderen.
+Fra omkring 30-års alderen begynder et gradvist, naturligt tab af muskelmasse og muskelstyrke — en tilstand, der fysiologisk betegnes som **sarkopeni**. Uden målrettet indsats mister man i gennemsnit 3–8% af sin muskelmasse pr. årti efter det fylte 30. år, og raten accelererer yderligere efter 60-års alderen.
 
 Hovedårsagerne til aldersrelateret muskeltab er:
 * **Nedsat fysisk aktivitet** og mangel på mekanisk belastning.
@@ -135,9 +135,9 @@ Vil du forstå den underliggende fysiologi bag, hvordan mikroskopiske mekaniske 
 
 Muskelvækst er en tidskrævende fysiologisk proces. Hvor hurtigt du kan forøge din muskelmasse afhænger primært af dit træningserfaringsniveau:
 
-* **Begyndere:** Kan under optimale betingelser opbygge ca. 1,0 – 1,5 % af deres kropsvægt i ren muskelmasse pr. måned.
-* **Lidt øvede:** Kan forvente ca. 0,5 – 1,0 % pr. måned.
-* **Avancerede:** Muskelvæksten reduceres til 0,25 – 0,5 % pr. måned.
+* **Begyndere:** Kan under optimale betingelser opbygge ca. 1,0 – 1,5% af deres kropsvægt i ren muskelmasse pr. måned.
+* **Lidt øvede:** Kan forvente ca. 0,5 – 1,0% pr. måned.
+* **Avancerede:** Muskelvæksten reduceres til 0,25 – 0,5% pr. måned.
 
 Du kan læse vores dybdegående guide til [hvor hurtigt muskler vokser](/hvor-hurtigt-vokser-muskler/), hvor vi også gennemgår modeller for din teoretiske maksimale muskelmasse uden præstationsfremmende stoffer.
 

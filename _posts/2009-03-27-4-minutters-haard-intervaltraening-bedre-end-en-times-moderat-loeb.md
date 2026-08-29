@@ -30,9 +30,9 @@ sidebar:
 toc: true
 faq:
   - question: Hvad er forskellen på en rigtig Tabata og almindelig 20/10-træning?
-    answer: En rigtig Tabata kræver supramaksimal belastning (170 % af VO₂max) på cykel eller løb, hvor hjertekredsløbet presses systemisk. Almindelig 20/10-træning med øvelser som armstrækninger eller squats er tidsstyret cirkeltræning, hvor lokal muskeltræthed stopper dig før pulsen og kredsløbet når toppen.
+    answer: En rigtig Tabata kræver supramaksimal belastning (170% af VO₂max) på cykel eller løb, hvor hjertekredsløbet presses systemisk. Almindelig 20/10-træning med øvelser som armstrækninger eller squats er tidsstyret cirkeltræning, hvor lokal muskeltræthed stopper dig før pulsen og kredsløbet når toppen.
   - question: Indeholdt den originale Tabata-protokol også rolig træning og opvarmning?
-    answer: Ja. I Izumi Tabatas studie fra 1996 lavede forsøgsgruppen 10 minutters opvarmning før hver Tabata. Derudover bestod 1 ud af de 5 ugentlige træningsdage af 30 minutters rolig udholdenhedstræning (70 % VO₂max) efterfulgt af kun 4 intervaller.
+    answer: Ja. I Izumi Tabatas studie fra 1996 lavede forsøgsgruppen 10 minutters opvarmning før hver Tabata. Derudover bestod 1 ud af de 5 ugentlige træningsdage af 30 minutters rolig udholdenhedstræning (70% VO₂max) efterfulgt af kun 4 intervaller.
   - question: Hvilke Tabata øvelser er bedst?
     answer: De bedste Tabata-øvelser er cykliske bevægelser på kardiomaskiner – herunder kondicykel/Wattbike, roergometer, AirBike samt løbesprint på bakke.
 ---
@@ -52,15 +52,15 @@ Tabata-protokollen blev undersøgt af den japanske forsker Izumi Tabata i 1996 p
 Læser man det oprindelige studie og fysiologiske analyser af protokollen (blandt andet belyst af trænere som Mike Robertson i hans gennemgang af *The Tabata Myth* og aerobe energisystemer), opdager man to helt afgørende detaljer, som de fleste misser:
 
 ### 1. Obligatorisk opvarmning før hver runde
-Forsøgspersonerne satte sig ikke uforberedt op på cyklen for at køre 4 minutters helvede. Hver eneste af de 4 ugentlige Tabata-sessioner blev indledt med **10 minutters grundig opvarmning** ved 50 % af [VO₂max](/maksimale-iltoptagelse-vo2max/). 
+Forsøgspersonerne satte sig ikke uforberedt op på cyklen for at køre 4 minutters helvede. Hver eneste af de 4 ugentlige Tabata-sessioner blev indledt med **10 minutters grundig opvarmning** ved 50% af [VO₂max](/maksimale-iltoptagelse-vo2max/). 
 
 ### 2. Rolig mængdetræning var en del af ugeplanen
-Forsøgsgruppen trænede 5 dage om ugen. Men den femte dag var anderledes: Her kørte udøverne **30 minutters rolig, kontinuerlig udholdenhedstræning** ved 70 % af VO₂max, efterfulgt af blot 4 runder af 20/10-intervaller. 
+Forsøgsgruppen trænede 5 dage om ugen. Men den femte dag var anderledes: Her kørte udøverne **30 minutters rolig, kontinuerlig udholdenhedstræning** ved 70% af VO₂max, efterfulgt af blot 4 runder af 20/10-intervaller. 
 
 Tabata var altså *aldrig* tænkt som en fuldstændig erstatning for et aerobt fundament. Det var en ekstrem supramaksimal overbygning oven på en i forvejen opbygget grundform.
 
 > **Kravene til en fysiologisk ægte Tabata:**
-> * **Intensitet på 170 % af VO₂max:** Det betyder absolut All-Out effekter fra første sekund. Det er en belastning, der ligger langt over det tempo, hvor din maksimale iltoptagelse indfinder sig.
+> * **Intensitet på 170% af VO₂max:** Det betyder absolut All-Out effekter fra første sekund. Det er en belastning, der ligger langt over det tempo, hvor din maksimale iltoptagelse indfinder sig.
 > * **7-8 runder af 20 sek. arbejde / 10 sek. pause:** Blev der gennemført flere end 9 runder, blev modstanden på ergometercyklen øget med 11 Watt.
 > * **Varighed på præcis 4 minutter:** Hvis du har overskud til at køre en runde mere – eller tage endnu et Tabata-sæt efter et par minutters pause – har du *ikke* kørt ved den nødvendige intensitet.
 
@@ -73,10 +73,10 @@ Når man i fitnesscentre eller til holdtræning kører "Tabata" med øvelser som
 ### 1. Lokal vs. Systemisk udtrætning
 Når du laver armstrækninger i et 20/10-mønster, stopper du ikke, fordi dit hjerte og dine lunger er ved at sprænges af mangel på ilt. Du stopper, fordi dine triceps og brystmuskler syrer til og svigter lokalt (*lokal muskulær udtrætning*). 
 
-Derved når dit hjertekredsløb måske kun op på 70–80 % af sin makkapacitet. Du opnår **ingen** af de unikke centralfysiologiske tilpasninger i hjertets slagvolumen, som gjorde Tabatas studie berømt. Det fungerer fint som lokal syretræning eller en metabolsk afslutning på en styrketræning, men det er fysiologisk set ikke en Tabata.
+Derved når dit hjertekredsløb måske kun op på 70–80% af sin makkapacitet. Du opnår **ingen** af de unikke centralfysiologiske tilpasninger i hjertets slagvolumen, som gjorde Tabatas studie berømt. Det fungerer fint som lokal syretræning eller en metabolsk afslutning på en styrketræning, men det er fysiologisk set ikke en Tabata.
 
 ### 2. Skadesrisiko ved teknisk sammenbrud
-Izumi Tabatas forsøgspersoner trænede på en fastspændt ergometercykel. De kunne lukke øjnene og træde med 100 % kraft uden at tænke på balance eller teknik. 
+Izumi Tabatas forsøgspersoner trænede på en fastspændt ergometercykel. De kunne lukke øjnene og træde med 100% kraft uden at tænke på balance eller teknik. 
 
 Hvis du i stedet forsøger at køre All-Out i tekniske løft (som barbell front squats, dødløft eller kettlebell snatches) under den voldsomme iltgæld, der opstår efter 2 minutter, bryder din kropsholdning uundgåeligt sammen, hvilket øger skadesrisikoen drastisk.
 
@@ -86,13 +86,13 @@ Hvis du i stedet forsøger at køre All-Out i tekniske løft (som barbell front 
 
 I Tabatas studie fra 1996 blev to grupper af trænede udøvere sammenlignet over 6 uger:
 
-* **Gruppe 1 (Moderat udholdenhed):** 60 minutters kontinuerligt arbejde ved 70 % af VO₂max (5 dage/uge).
+* **Gruppe 1 (Moderat udholdenhed):** 60 minutters kontinuerligt arbejde ved 70% af VO₂max (5 dage/uge).
 * **Gruppe 2 (Tabata-protokol):** 10 min. opvarmning + 4 min. All-Out Tabata (4 dage/uge) + 1 dag med 30 min. rolig cykling plus 4 intervaller.
 
 | Målepunkt | Gruppe 1 (1 times moderat træning) | Gruppe 2 (Ægte Tabata-protokol) |
 | :--- | :--- | :--- |
-| **VO₂max (Kondital)** | + 9 % stigning | **+ 14 % stigning** |
-| **Anaerob kapacitet** | Ingen ændring (0 %) | **+ 28 % stigning** |
+| **VO₂max (Kondital)** | + 9% stigning | **+ 14% stigning** |
+| **Anaerob kapacitet** | Ingen ændring (0 %) | **+ 28% stigning** |
 
 Resultatet var en sensation: 4 minutters supramaksimalt arbejde sammen med en ugentlig rolig tur flyttede[konditallet](/kondital/) *mere* end en hel times moderat træning – og byggede samtidig en enorm anaerob syretolerance.
 
@@ -122,7 +122,7 @@ Helkrops-kardiomaskiner er formidable til ægte Tabata, fordi de aktiverer både
 * **Udførsel:** Eksplodér i 20 sekunder på roergometret (fokuser på maksimal watt-udladning), efterfulgt af 10 sekunders helt roligt glid.
 
 ### 3. Løbesprint på bakke
-Almindeligt sprint på flad vej i 100 % tempo kan give baglårs-sprængninger under udtrætning. 
+Almindeligt sprint på flad vej i 100% tempo kan give baglårs-sprængninger under udtrætning. 
 * **Udførsel:** Find en jævn stigning/bakke. Sprint All-Out op ad bakken i 20 sekunder. Gå langsomt baglæns/stå stille i 10 sekunder. Stigningen tager toppen af den mekaniske stød-belastning i landingen, men holder den kardiovaskulære intensitet i absolut top.
 
 ---
@@ -133,7 +133,7 @@ Betyder det, at du skal lade være med at lave 20 sekunders squat og 10 sekunder
 
 Overhovedet ikke. Det er udemærket tidsstyret cirkeltræning til at få pulsen lidt op, forbrænde kalorier og bygge lokal muskulær udholdenhed. Du skal bare være bevidst om forskellen: 
 
-Kører du cirkeltræning i et 20/10-mønster, får du fin lokal syretræning for musklerne. Vil du derimod have den oprindelige, videnskabeligt dokumenterede [VO₂max-fremgang](/maksimale-iltoptagelse-vo2max/), skal du op på cyklen, i roergometret eller ud på bakken og levere 170 % All-Out.
+Kører du cirkeltræning i et 20/10-mønster, får du fin lokal syretræning for musklerne. Vil du derimod have den oprindelige, videnskabeligt dokumenterede [VO₂max-fremgang](/maksimale-iltoptagelse-vo2max/), skal du op på cyklen, i roergometret eller ud på bakken og levere 170% All-Out.
 
 ---
 

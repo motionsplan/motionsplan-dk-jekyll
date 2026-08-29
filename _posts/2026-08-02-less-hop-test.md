@@ -65,7 +65,7 @@ For at udføre testen korrekt opstilles en standardiseret testbane:
 
 ### Udstyr
 1. **En kasse eller bænk** med en højde på **30 cm**.
-2. **En landingslinje** placeret i en afstand svarende til **50 % af atletens kropshøjde** fra kassens forkant.
+2. **En landingslinje** placeret i en afstand svarende til **50% af atletens kropshøjde** fra kassens forkant.
 3. **To kameraer (eller smartphones):** Et placeret direkte **forfra** og et placeret direkte **fra siden** (eller én smartphone, hvor testen udføres ad to omgange).
 
 <pre>

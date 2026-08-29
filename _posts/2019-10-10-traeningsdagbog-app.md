@@ -42,7 +42,7 @@ Når du træner for styrke eller hypertrofi, har du brug for en app, der husker 
 * 👉 **[Læs vores dybdegående guide til Liftosaur her →](/liftosaur/)**
 
 ### 🏋️ RTS (Reactive Training Systems) – Til styrkeløft & RPE
-**Reactive Training Systems** er udviklet af Mike Tuchscherer og er en 100 % gratis web-app, der er skræddersyet til styrkeløftere og atleter, der træner efter **autoregulering** og RPE-skalaen.
+**Reactive Training Systems** er udviklet af Mike Tuchscherer og er en 100% gratis web-app, der er skræddersyet til styrkeløftere og atleter, der træner efter **autoregulering** og RPE-skalaen.
 * **Fordele:** Høj faglighed, TRAC-restitutionsmåling, beregner automatisk din teoretiske 1RM.
 * 👉 **[Læs vores komplette gennemgang af RTS-appen her →](/rts-app/)**
 
@@ -64,7 +64,7 @@ Hvis du løber, cykler eller dyrker triatlon, er **[Intervals.icu](https://inter
 | App | Primært fokus | RPE / Puls-support | Pris |
 | :--- | :--- | :--- | :--- |
 | **Liftosaur** | Styrketræning & Progression | Ja (RPE / RIR) | Gratis (Valgfri Premium) |
-| **RTS App** | Styrkeløft & Autoregulering | Ja (Full RPE) | 100 % Gratis |
+| **RTS App** | Styrkeløft & Autoregulering | Ja (Full RPE) | 100% Gratis |
 | **Intervals.icu** | Løb, Cykling & Kondition | Ja (Puls & Watt) | Gratis (Frivilligt bidrag) |
 | **Hevy / Strong** | Enkel hverdags-styrkelog | Delvist | Gratis (Begrænsninger) |
 

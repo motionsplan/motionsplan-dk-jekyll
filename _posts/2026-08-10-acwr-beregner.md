@@ -109,7 +109,7 @@ $$\text{sRPE Belastning} = \text{Varighed (minutter)} \times \text{RPE Score (1-
 
 ## 💡 ACWR vs. Den klassiske "10 %-regel"
 
-Mange løbere har lært tommelfingerreglen om, at man **aldrig må øge sin ugentlige kilometerdistance med mere end 10 % om ugen**. 
+Mange løbere har lært tommelfingerreglen om, at man **aldrig må øge sin ugentlige kilometerdistance med mere end 10% om ugen**. 
 
 Selvom 10 %-reglen er et udmærket udgangspunkt for begyndere, har den to store svagheder:
 1. Den tager ikke højde for genopbygning efter en rolig uge (restitutionuge/tapering).

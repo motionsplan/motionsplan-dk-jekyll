@@ -142,7 +142,7 @@ Hvis du gerne vil have et mere præcist tal, der er baseret på en helt specifik
 
 ## Hvordan spiller kropsbygning ind på idealvægten?
 
-> Hvis man bare kigger på kropsbygning som forskelle i hvor kraftigt / bredt skelet man er udstyret med, så havde de oprindelige idealvægtstabeller fra 1960'erne en korrektion på plus-minus 10 % af kropsvægten. Kigger man på nyere studier, så ser det ud til, at det er normalt, at forskelle i skeletbredde kan påvirke kropsvægten 6-8 % i hver retning.
+> Hvis man bare kigger på kropsbygning som forskelle i hvor kraftigt / bredt skelet man er udstyret med, så havde de oprindelige idealvægtstabeller fra 1960'erne en korrektion på plus-minus 10% af kropsvægten. Kigger man på nyere studier, så ser det ud til, at det er normalt, at forskelle i skeletbredde kan påvirke kropsvægten 6-8% i hver retning.
 >
 > --- <cite>[Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
 

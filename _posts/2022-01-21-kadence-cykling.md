@@ -43,7 +43,7 @@ I denne guide kigger vi på, hvad der definerer en optimal kadence, forskellen p
 
 ## Hvad er en optimal kadence i cykling?
 
-Der findes ikke én enkelt kadence, som er 100 % optimal for alle cyklister under alle forhold. 
+Der findes ikke én enkelt kadence, som er 100% optimal for alle cyklister under alle forhold. 
 
 Som en generel tommelfingerregel anbefales det, at du holder en kadence på omkring **80–100 RPM** ved landevejscykling på flad vej. Når det går opad på stigninger, falder kadencen for de fleste naturligt til **70–85 RPM**.
 
@@ -133,7 +133,7 @@ Hvis du forbedrer din pedalleringsteknik, opnår du to store fordele: **højere 
 1. **Skrab mudder af fodsålen:** Forestil dig, at du skal skrabe mudder af bunden af din sko, idet pedalen er i nederste position (klokken 6). Det aktiverer baglår og lægge og sikrer en blød overgang.
 2. **Indstil dine klamper korrekt:** Placeringen af klamperne under dine cykelsko er afgørende for kraftoverførslen og for at undgå knæskader.
 3. **Sid ned på stigninger:** Du sparer overmodig energi ved at blive siddende i sadlen med en tilpasset kadence. Stå kun op i kortere perioder for at skifte stilling eller ved eksplosive ryk.
-4. **Tjek din højre/venstre balance:** Mange cyklister har en naturlig dominans (fx 53 % / 47 %). Træn bevidst på at aktivere dit svage ben.
+4. **Tjek din højre/venstre balance:** Mange cyklister har en naturlig dominans (fx 53% / 47 %). Træn bevidst på at aktivere dit svage ben.
 5. **Skift gear i god tid:** Når du nærmer dig et sving, et lyskryds eller en stejl bakke, skal du skifte til et lettere gear *før* hastigheden falder, så du fastholder din kadence.
 
  I denne video får du flere konkrete råd til din position og teknik på cyklen:

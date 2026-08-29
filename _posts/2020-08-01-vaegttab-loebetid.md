@@ -94,7 +94,7 @@ Forskningen understreger dog, at sammenhængen ikke er lineær i det uendelige: 
 
 En udbredt tommelfingerregel i løbeverdenen siger, at du vinder ca. **2–3 sekunder pr. kilometer pr. kg fedttab**. 
 
-I praksis responderer kroppen dog individuelt. [Løbesiden.dk](https://web.archive.org/web/20201125014511/https://loebesiden.dk/beregninger/beregn_vaegt/){: rel="nofollow noopener" } vurderer, at den reelle fremgang i praksis ofte udgør ca. **80 % af den teoretiske beregning**. Det skyldes tre forhold:
+I praksis responderer kroppen dog individuelt. [Løbesiden.dk](https://web.archive.org/web/20201125014511/https://loebesiden.dk/beregninger/beregn_vaegt/){: rel="nofollow noopener" } vurderer, at den reelle fremgang i praksis ofte udgør ca. **80% af den teoretiske beregning**. Det skyldes tre forhold:
 
 1. **Sammensætningen af vægttabet:** Hvis du ligger i et for stort kalorieunderskud, risikerer du at miste muskelmasse. Det svækker din afsætseffekt og øger risikoen for skader.
 2. **Energiniveau under træning:** Træner du med tomme glykogenlagre (sukkerlagre), falder kvaliteten af dine nøglepas og intervaller.

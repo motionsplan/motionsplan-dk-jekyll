@@ -96,9 +96,9 @@ Her har du en god vejledning til, hvordan du måler iltmætningsniveauet med et 
 
 ## Hvad betyder de forskellige iltmætningsniveauer?
 
-Et normalt iltmætningsniveau i blodet ligger typisk på mellem 96-99 %. Det betyder, at 96-99 % af dit hæmoglobin (proteinet i dine røde blodlegemer, der transporterer ilt) er mættet med ilt.
+Et normalt iltmætningsniveau i blodet ligger typisk på mellem 96-99%. Det betyder, at 96-99% af dit hæmoglobin (proteinet i dine røde blodlegemer, der transporterer ilt) er mættet med ilt.
 
-Iltmætningsniveauer under 90 % anses for at være lave og kan forårsage åndenød, træthed eller forvirring. Hos raske voksne kræver iltmætningsniveauer på under 80% øjeblikkelig lægehjælp, da de kan føre til organskader.
+Iltmætningsniveauer under 90% anses for at være lave og kan forårsage åndenød, træthed eller forvirring. Hos raske voksne kræver iltmætningsniveauer på under 80% øjeblikkelig lægehjælp, da de kan føre til organskader.
 
 ## Normal iltmætning i blodet (SpO2): Se tabel over normalværdier
 
@@ -106,7 +106,7 @@ Når du måler din iltmætning med en iltmåler eller et pulsoximeter, så er de
 
 Nedenstående tabel over **normal iltmætning** kan fungere som retningslinje for dine målinger af ilt i blodet (saturation):
 
-| SpO2 % | Klinisk betydning (Saturation) |
+| SpO2% | Klinisk betydning (Saturation) |
 |-|-|
 | **97 - 99 %** | Normal iltmætning (Ung normal mand/kvinde) |
 | **95 - 97 %** | Sovende ung, vågen ældre |

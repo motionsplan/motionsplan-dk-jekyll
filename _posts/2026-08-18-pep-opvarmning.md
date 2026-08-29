@@ -31,7 +31,7 @@ En overrevet korsbåndsskade (ACL-skade) er en af de mest alvorlige og langvarig
 
 Genoptræningen tager typisk 9–12 måneder, og mange atleter opnår aldrig helt samme niveau som før skaden.
 
-Udfordringen er, at over 70 % af alle korsbåndsskader sker som **non-kontakt skader** — altså i situationer uden modspiller, hvor atleten lander skævt efter et hop, bremser hårdt op eller foretager et hurtigt retningsskift (Mandelbaum et al., 2005).
+Udfordringen er, at over 70% af alle korsbåndsskader sker som **non-kontakt skader** — altså i situationer uden modspiller, hvor atleten lander skævt efter et hop, bremser hårdt op eller foretager et hurtigt retningsskift (Mandelbaum et al., 2005).
 
 Det er præcis denne mekanisme, **PEP-programmet (*Prevent Injury and Enhance Performance*)** tager hånd om. Studier viser, at hold der benytter PEP-programmet fast, reducerer risikoen for korsbåndsskader med helt op til **74–88 %** (Mandelbaum et al., 2005; Gilchrist et al., 2008).
 
@@ -141,7 +141,7 @@ Forskning viser, at den skadesforebyggende effekt af PEP-programmet er direkte a
 Hvis spillerne udfører plyometri-øvelserne med stive ben og knæ, der falder indad, opnås den modsatte effekt.
 
 **Gode råd til træneren:**
-1. **Prioriter kvalitet over kvantitet:** Start med færre hop, indtil landingsmekanikken er 100 % på plads.
+1. **Prioriter kvalitet over kvantitet:** Start med færre hop, indtil landingsmekanikken er 100% på plads.
 2. **Filmer landingerne:** Brug en smartphone til at optage afspillerne i snit forfra. Vis dem deres knæstilling under landingen — det er en øjenåbner for mange unge atleter.
 3. **Gør det fast 3 gange om ugen:** Det tager ca. 4 uger med fast træning, før de nye neuromuskulære bevægemønstre bliver til automatiske refleksbevægelser under kamp.
 

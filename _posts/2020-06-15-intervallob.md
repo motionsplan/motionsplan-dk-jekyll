@@ -30,7 +30,7 @@ faq:
   - question: Hvordan vælger jeg den rigtige intervaltræningsmetode?
     answer: Valget afhænger af dine mål. Hvis du vil forbedre din sprint, kan korte, eksplosive intervaller være bedst. Hvis du træner til et maraton, er længere tærskelintervaller mere relevante.
   - question: Hvor hurtigt skal jeg løbe mine intervaller?
-    answer: Intensiteten afhænger af formålet med træningen. For sprintintervaller bør du ligge tæt på din maksimale hastighed, mens VO2-max-intervaller ofte løbes omkring 90–95 % af din maksimale kapacitet.
+    answer: Intensiteten afhænger af formålet med træningen. For sprintintervaller bør du ligge tæt på din maksimale hastighed, mens VO2-max-intervaller ofte løbes omkring 90–95% af din maksimale kapacitet.
   - question: Hvordan undgår jeg skader ved intervalløb?
     answer: Sørg for en grundig opvarmning, start med færre intervaller og øg gradvist intensiteten. Brug også restitutionstider mellem træningerne for at minimere skadesrisiko.
   - question: Kan jeg kombinere intervalløb med styrketræning?

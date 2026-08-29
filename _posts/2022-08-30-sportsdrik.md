@@ -226,7 +226,7 @@ Så hvad kan man tage med sig?
 
 En hjemmelavet energidrik og sportsdrik med kulhydrater og elektrolytter er rimelig let at lave selv. Du kan eksperimentere med at købe sukkerkilder, som er hurtigt optagelige, som fx maltodextrin.
 
-Hvis du ønsker at lave din egen sportsdrik til cykling eller løb, skal du sigte efter en kulhydratkoncentration på 6-7 % og tilføje nogle elektrolytter (salt), hvis du sveder meget.
+Hvis du ønsker at lave din egen sportsdrik til cykling eller løb, skal du sigte efter en kulhydratkoncentration på 6-7% og tilføje nogle elektrolytter (salt), hvis du sveder meget.
 
 Du kan købe færdiglavede drikkevarer eller pulvere.
 

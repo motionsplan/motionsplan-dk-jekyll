@@ -21,7 +21,7 @@ last_modified_at: '2026-08-01T10:00:00Z'
 toc: 'true'
 faq:
 - question: Hvordan bliver man højere?
-  answer: 'Din højde er op mod 80 % genetisk bestemt. I opvæksten kan du optimere din sluthøjde ved at få nok næringsrig kost (protein, calcium, D-vitamin), tilstrækkelig dyb søvn (hvor væksthormon frigives) og regelmæssig motion.'
+  answer: 'Din højde er op mod 80% genetisk bestemt. I opvæksten kan du optimere din sluthøjde ved at få nok næringsrig kost (protein, calcium, D-vitamin), tilstrækkelig dyb søvn (hvor væksthormon frigives) og regelmæssig motion.'
 - question: Kan man tage piller for at blive højere?
   answer: 'Nej, der findes ingen lovlige eller dokumenterede piller, kosttilskud eller vitaminer, der kan gøre dig højere efter din naturlige vækstfase. Væksthormon er receptpligtig medicin, som kun gives af læger ved diagnosticeret væksthormonmangel.'
 - question: Hvornår stopper man med at vokse i højden som mand eller kvinde?

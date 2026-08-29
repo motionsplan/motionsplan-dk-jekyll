@@ -54,7 +54,7 @@ Du kan læse mere om de [fysiologiske tilpasninger, der sker ved konditionstræn
 
 I den følgende tabel kan du se eksempler på, hvordan du kan gribe træningen an:
 
-| Træningsform        | Primært træningsområde     | % af maksimal intensitet | Arbejdstid           | Varighed af pause  |
+| Træningsform        | Primært træningsområde     |% af maksimal intensitet | Arbejdstid           | Varighed af pause  |
 |---------------------|----------------------------|--------------------------|----------------------|--------------------|
 | **Aerob** træning   | Høj-intensitetstræning     | 15-40                    | 20-120 sek, 2-10 min | 10-60 sek, 1-6 min |
 | Aerob træning       | Moderat-intensitetstræning | 5-20                     | 5 min eller længere  | 1-2 min            |

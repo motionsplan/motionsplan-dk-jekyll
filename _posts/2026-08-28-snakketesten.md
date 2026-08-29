@@ -91,7 +91,7 @@ I denne sammenhæng bruges den hyppigt i specifikke protokoller som **[Graded Cy
 
 * **GCT-TT protokollen:** Forsøgspersonen cykler med trinvist øget belastning (+15 Watt pr. minut), og snakketesten udføres i de sidste 15 sekunder af hvert minut. Testen afbrydes ved første *Negative* eller tydelige *Equivocal* respons, hvilket giver et sikkert mål for arbejdskapaciteten.
 * **Sikkerhed uden maks-belastning:** Patienter med hjertesygdomme bør undgå maksimale belastningstests. Snakketesten sikrer et præcist stopkriterium inden for det skånsomme submaksimale område.
-* **Uafhængig af betablokkere:** Mange hjertepatienter tager medicin (f.eks. betablokkere), som dæmper pulsen kunstigt og gør pulszoner upålidelige. Snakketesten påvirkes ikke af medicinens pulssænkende effekt.
+* **Uafhængig af betablokkere:** Mange hjertepatienter tager medicin (fx betablokkere), som dæmper pulsen kunstigt og gør pulszoner upålidelige. Snakketesten påvirkes ikke af medicinens pulssænkende effekt.
 
 ## Metodiske fejlkilder
 

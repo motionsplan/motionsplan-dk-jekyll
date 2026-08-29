@@ -45,7 +45,7 @@ Der hersker en sejlivet myte om, at vi efter 40-års-alderen rammer en fysiologi
 
 I takt med at alderen stiger, ændres kroppens biologiske forudsætninger. Men i stedet for at acceptere et vilkårligt forfald, handler det om at forstå de mekanismer, der er i spil:
 
-* **Testosteron-niveauet falder langsomt:** For mænd daler det frie testosteron med ca. 1 % om året fra 30-års alderen. Det gør det lidt mere krævende at opbygge ny muskelmasse. For kvinder ændres hormonbalancen markant omkring overgangsalderen. Det udligner en del af den køns-specifikke forskel i muskelmasse, og det giver i den grad kvinder al mulig grund til at fatte vægtstængerne.
+* **Testosteron-niveauet falder langsomt:** For mænd daler det frie testosteron med ca. 1% om året fra 30-års alderen. Det gør det lidt mere krævende at opbygge ny muskelmasse. For kvinder ændres hormonbalancen markant omkring overgangsalderen. Det udligner en del af den køns-specifikke forskel i muskelmasse, og det giver i den grad kvinder al mulig grund til at fatte vægtstængerne.
 * **Mængden af de hurtige muskelfibre falder:** De eksplosive Type II-muskelfibre er mest følsomme over for inaktivitet. Hvis du holder op med at løfte tungt eller bevæge dig eksplosivt, svinder disse fibre ind først. Da de også er de største og stærkeste fibre, mistes muskelstyrke og [eksplosivitet (RFD)](/rate-of-force-development/) hurtigt uden stimulations-træning.
 * **Knoglerne afkalkes langsomt:** Fra 40’erne begynder knogledensiteten gradvist at falde, hvilket er særligt udtalt hos kvinder.
 * **Senerne mister elasticitet:** Senestyrken og senens stivhed (*tendon stiffness*) daler over tid, især hvis aktivitetsniveauet sænkes. Det øger kravet til grundig [opvarmning](/opvarmning/).
@@ -138,7 +138,7 @@ Uanset om målet er et maraton, en stærkere krop eller generel sundhed, høstes
 Med alderen mister sener og ledvæske en del af deres naturlige væskeindhold og elasticitet. Muskelvæv tilpasser sig desuden hurtigere end sener. Det gør midaldrende atleter følsomme over for overbelastningsskader i akillessener, knæskaller og skuldre.
 
 1. **Brug 5-minutters RAMP-opvarmning:** (Raise, Activate, Mobilize, Potentiate). Få pulsen op, aktiver ballerne og skuldrenes stabilisatorer, og bevæg leddene i yderpositioner, før du sætter tunge vægte på stangen.
-2. **Progressiv overload over tid:** Øg vægten på stangen med 1–2 % om ugen frem for store hop, så senerne har tid til at opbygge den nødvendige senestivhed.
+2. **Progressiv overload over tid:** Øg vægten på stangen med 1–2% om ugen frem for store hop, så senerne har tid til at opbygge den nødvendige senestivhed.
 3. **Prik til balancen:** Vedligehold ledssansen ved jævnligt at inddrage øvelser fra vores guide til [balancetræning](/balancetraening/).
 
 ---

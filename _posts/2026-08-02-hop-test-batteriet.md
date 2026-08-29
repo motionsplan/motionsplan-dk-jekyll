@@ -47,10 +47,10 @@ last_modified_at: 2026-08-02T12:00:00Z
 toc: true
 faq:
   - question: "Hvad er et godkendt LSI (Limb Symmetry Index)?"
-    answer: "I de fleste Return to Sport-protokoller kræves et LSI på mindst 90 % (hvor det skadede ben præsterer 90 % af det raske ben). For atleter med mange retningsskift (fodbold, håndbold) anbefales det ofte at ramme over 95-100 %."
+    answer: "I de fleste Return to Sport-protokoller kræves et LSI på mindst 90% (hvor det skadede ben præsterer 90% af det raske ben). For atleter med mange retningsskift (fodbold, håndbold) anbefales det ofte at ramme over 95-100%."
   - question: "Må jeg bruge armene til at tage fart?"
     answer: "Ja, i standardiserede hop-tests må du gerne svinge med armene for at generere kraft, da det simulerer en naturlig, atletisk bevægelse. Det vigtigste er, at du overholder kravet om en kontrolleret landing (stick the landing)."
-  - question: "Er et LSI på 90 % nok til at spille kamp igen?"
+  - question: "Er et LSI på 90% nok til at spille kamp igen?"
     answer: "Nej, ikke nødvendigvis. Hoptest-batteriet måler primært afstand og tid. Du bør altid supplere med en visuel analyse af *måden*, du lander på (fx med LESS-testen), for at sikre, at knæet ikke falder indad (valgus)."
 ---
 
@@ -73,7 +73,7 @@ Limb Symmetry Index er en simpel matematisk beregning, der beskriver forskellen 
 **Formlen for LSI (Afstand):**
 $$ LSI = \left( \frac{\text{Skadet ben (cm)}}{\text{Rask ben (cm)}} \right) \times 100 $$
 
-*Eksempel:* Hvis du kan hinke 180 cm frem på dit raske ben, men kun 150 cm på det tidligere korsbåndsskadede ben, er dit LSI: *(150 / 180) * 100 = 83,3 %.*
+*Eksempel:* Hvis du kan hinke 180 cm frem på dit raske ben, men kun 150 cm på det tidligere korsbåndsskadede ben, er dit LSI: *(150 / 180) * 100 = 83,3%.*
 
 > **Tommelfingerreglen:** Fysioterapeuter og sportslæger kræver typisk et LSI på **mindst 90 %** (og gerne op mod 100 %), før en atlet betragtes som klar til *Return to Sport*.
 
@@ -127,7 +127,7 @@ I stedet for afstand tester denne øvelse fart, reaktionskraft og selvtillid til
 
 ## Hvorfor hop-længde ikke er nok (Kvalitet vs. Kvantitet)
 
-Et højt Limb Symmetry Index (LSI) på fx 95 % er et rigtig stærkt tegn, men **det fortæller ikke hele historien.** 
+Et højt Limb Symmetry Index (LSI) på fx 95% er et rigtig stærkt tegn, men **det fortæller ikke hele historien.** 
 
 Atleten kan sagtens kompensere ved at hinke akkurat lige så langt, men lande med et katastrofalt indadfaldende knæ (valgus) eller et stift knæled uden stødabsorbering. Hvis mekanikken i landingen er forkert, er der stadig enorm risiko for at rive det nye korsbånd over igen.
 
@@ -144,7 +144,7 @@ Derfor skal Hoptest-batteriet altid suppleres med en analyse af **landingskvalit
 
 ## Næste skridt
 
-Når du har gennemført alle 4 hoptests, bør du have et klart billede af, hvorvidt det skadede ben kan matche det raske. Ligger du under 90 % i LSI, skal fokus tilbage på ensidig (unilateral) styrketræning, plyometrisk træning og stabilitet.
+Når du har gennemført alle 4 hoptests, bør du have et klart billede af, hvorvidt det skadede ben kan matche det raske. Ligger du under 90% i LSI, skal fokus tilbage på ensidig (unilateral) styrketræning, plyometrisk træning og stabilitet.
 
 * **Se også:** [Vores side for måling af hoppehøjde og vertikal spændstighed](/springtests-hoppehoejde/)
 * **Test din balance:** Udfør [Enkeltbensstand og Stork-test](/enkeltbensstand-stork-test/) for at sikre din statiske ankelkontrol.

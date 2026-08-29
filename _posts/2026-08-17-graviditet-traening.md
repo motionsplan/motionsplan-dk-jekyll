@@ -50,7 +50,7 @@ Både *Sundhedsstyrelsen* og *American College of Obstetricians and Gynecologist
 
 | Fysisk Parameter | Effekten af Regelmæssig Træning | Videnskabeligt Grundlag |
 | :--- | :--- | :--- |
-| **Graviditetsdiabetes** | Op til 50 % reduktion i risiko | Forbedret insulinsensitivitet og glukoseregulering |
+| **Graviditetsdiabetes** | Op til 50% reduktion i risiko | Forbedret insulinsensitivitet og glukoseregulering |
 | **Svangerskabsforgiftning** | Reduceret forekomst af hypertension | Bedre vaskulær funktion og lavere hvileblodtryk |
 | **Ryg- og Bækkensmerter** | Markant reduktion i smerteintensitet | Styrket kropsstamme og forbedret bækkengürtel-stabilitet |
 | **Fødselsforløb & Genoptræning** | Kortere pressefase og hurtigere restitution | Øget udholdenhed i bækkenbund og kropskerne |
@@ -62,7 +62,7 @@ Både *Sundhedsstyrelsen* og *American College of Obstetricians and Gynecologist
 Når du planlægger din træning som gravid, er der fire primære fysiologiske faktorer, der afgør, hvordan øvelserne bør modificeres:
 
 ### 1. Intensivitetsstyring via Borg RPE (Talk Test)
-Glem faste pulszoner! Hormonet progesteron og en øget blodvolumen (op til 45 % stigning) gør, at hvile- og makspuls ændrer sig uforudsigeligt. 
+Glem faste pulszoner! Hormonet progesteron og en øget blodvolumen (op til 45% stigning) gør, at hvile- og makspuls ændrer sig uforudsigeligt. 
 
 ACOG anbefaler i stedet at styre intensiteten ud fra **Borgs RPE-skala (12–14)** eller den klassiske **Talk Test**: Du skal kunne føre en ubesværet samtale, mens du træner.
 

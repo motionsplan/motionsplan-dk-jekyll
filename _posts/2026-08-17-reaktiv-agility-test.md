@@ -88,7 +88,7 @@ For at testen har værdi, må atleten under ingen omstændigheder kunne gætte, 
 
 ## Det store problem: Udstyret
 
-I laboratorier og hos professionelle klubber bruger man dyrt udstyr som *FitLight*, *Microgate Witty* eller *BlazePod* til at skabe signalet og tage tiden via lasere. Fotocellerne sikrer, at alt er 100 % præcist, ned til mindste millisekund.
+I laboratorier og hos professionelle klubber bruger man dyrt udstyr som *FitLight*, *Microgate Witty* eller *BlazePod* til at skabe signalet og tage tiden via lasere. Fotocellerne sikrer, at alt er 100% præcist, ned til mindste millisekund.
 
 En træner med et almindeligt stopur, som samtidig skal råbe "højre!" på det rigtige tidspunkt, introducerer for meget menneskelig fejl (trænerens egen reaktionstid). 
 

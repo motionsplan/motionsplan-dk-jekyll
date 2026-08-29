@@ -94,7 +94,7 @@ Når du træner, så forbedres dit kredsløb også. Særligt hvis du træner car
 
 En voksen person har cirka **5,5 liter blod i kroppen**. Blodet transporterer ilt og næringsstoffer ud til vævet og cellerne, og blodet transporterer også affaldsstoffer og kuldioxid væk fra cellerne. Blodets celler udgøres af de røde og hvide blodlegemer samt af blodpladerne.
 
-Blod består af cirka 45 % celler og 55 % plasma, som er den væske, cellerne befinder sig i.
+Blod består af cirka 45% celler og 55% plasma, som er den væske, cellerne befinder sig i.
 
 | Bestanddele | Andel |
 |-|-|

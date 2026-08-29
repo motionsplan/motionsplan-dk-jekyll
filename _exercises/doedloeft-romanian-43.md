@@ -97,7 +97,7 @@ Rumænsk dødløft kan udføres på flere måder for at tilpasse det til forskel
 
 - **Staggered Stance Rumænsk Dødløft**:
   - Udfør øvelsen på et ben med støtte fra det bagerste ben (som står på tæerne).
-  - Hold 50-60 % af kropsvægten på hælen og fokuser på balancen.
+  - Hold 50-60% af kropsvægten på hælen og fokuser på balancen.
 
 - **Et-bens Rumænsk Dødløft**:
   - Løft det bagerste ben helt fra jorden for en ekstra balanceudfordring.

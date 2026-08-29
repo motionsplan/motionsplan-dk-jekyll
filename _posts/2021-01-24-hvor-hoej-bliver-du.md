@@ -152,9 +152,9 @@ Selvom det lyder simpelt, giver det faktisk et overraskende godt fingerpeg, ford
 
 ## 🥗 Hvilke faktorer påvirker sluthøjden?
 
-Genetikken lægger rammen for ca. **80 % af vores sluthøjde**, mens de sidste **20 % afgøres af miljøfaktorer**:
+Genetikken lægger rammen for ca. **80% af vores sluthøjde**, mens de sidste **20% afgøres af miljøfaktorer**:
 
-* **Søvn:** Op mod 70–80 % af kroppens daglige væksthormon (*Growth Hormone*) udskilles i den dybe NREM-søvn om natten. Kronisk søvnmangel hos børn kan hæmme væksten.
+* **Søvn:** Op mod 70–80% af kroppens daglige væksthormon (*Growth Hormone*) udskilles i den dybe NREM-søvn om natten. Kronisk søvnmangel hos børn kan hæmme væksten.
 * **Ernæring:** Tilstrækkeligt proteinindtag samt mikronæringsstoffer som D-vitamin, kalk, zink og jern er essentielle byggeklodser for knoglevævet.
 * **Trivsel og stress:** Langvarig alvorlig psykisk mistrivsel eller kronisk sygdom kan føre til såkaldt *psykosocial dværgvækst*, hvor kroppen nedprioriterer længdevækst.
 

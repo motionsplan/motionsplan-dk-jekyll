@@ -21,7 +21,7 @@ last_modified_at: '2026-08-18T19:45:00Z'
 toc: true
 faq:
   - question: Hvad skal min fedtprocent være for at få en sixpack?
-    answer: For mænd bliver mavemusklerne tydeligt synlige ved en fedtprocent på under 10–12 %. For kvinder ligger grænsen typisk omkring 18–20 % på grund af en naturally højere essentiel fedtmasse.
+    answer: For mænd bliver mavemusklerne tydeligt synlige ved en fedtprocent på under 10–12%. For kvinder ligger grænsen typisk omkring 18–20% på grund af en naturally højere essentiel fedtmasse.
   - question: Kan man punktforbrænde fedt på maven med maverulninger?
     answer: Nej, punktforbrænding er en fysiologisk myte. Når kroppen forbrænder fedt i et kalorieunderskud, mobiliseres fedtsyre fra hele kroppen via blodet – ikke kun fra de muskler, der arbejder.
   - question: Er maverulninger (crunches) skadelige for ryggen?
@@ -46,10 +46,10 @@ Når du arbejder på at [tabe fedt på maven](/tab-fedt-paa-maven/), kan du brug
 
 | Synlighed af Sixpack | Fedtprocent Mænd | Fedtprocent Kvinder | Fysiologisk Tilstand |
 | :--- | :--- | :--- | :--- |
-| **Ingen markering** | > 18 % | > 26 % | Normale fedtdepoter på mave og hofte |
-| **Begyndende konturer** | 13 – 15 % | 21 – 23 % | Øvre mavemuskler anes i godt lys |
+| **Ingen markering** | > 18% | > 26% | Normale fedtdepoter på mave og hofte |
+| **Begyndende konturer** | 13 – 15% | 21 – 23% | Øvre mavemuskler anes i godt lys |
 | **Tydelig Sixpack** | **10 – 12 %** | **18 – 20 %** | Klare adskilte muskelbuger og lineersnit |
-| **Ekstremt markeret** | < 8 % | < 15 % | Konkurrenceform (Scenedefinition) |
+| **Ekstremt markeret** | < 8% | < 15% | Konkurrenceform (Scenedefinition) |
 
 *Bemærk: Kvinder har fra naturens side en højere essentiel fedtmasse. Det er derfor hverken sundt eller fysiologisk hensigtsmæssigt for kvinder at stræbe efter mænds fedtprocentværdier.*
 

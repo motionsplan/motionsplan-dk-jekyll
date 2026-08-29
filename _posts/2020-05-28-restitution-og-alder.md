@@ -130,7 +130,7 @@ Undgå at havne i "gråzonen", hvor alle træningspas bliver halv-hårde. Sørg 
 For at modvirke den aldersbetingede anabole resistens bør midaldrende atleter sigte efter ca. **0,35–0,40 gram protein pr. kg kropsvægt** pr. måltid efter hård træning (sammenlignet med 0,25 g/kg for yngre). Sørg for kilder med et højt indhold af aminosyren leucin (fx æg, mejeriprodukter eller kvalitetsproteinpulver).
 
 ### 3. Giv bindevævet tid til adaptation
-Hvor muskelstyrken hurtigt kan øges, tager det måneder for sener og ledbånd at opbygge ny tæthed. Øg træningsmængden gradvist (max 5–10 % pr. uge), og undgå pludselige hop i træningsintensitet.
+Hvor muskelstyrken hurtigt kan øges, tager det måneder for sener og ledbånd at opbygge ny tæthed. Øg træningsmængden gradvist (max 5–10% pr. uge), og undgå pludselige hop i træningsintensitet.
 
 ### 4. Respekter den oplevede træthed
 Selvom dine fysiske kraftmålinger siger, du er klar, viser forskningen (Borges et al., 2018), at den mentale træthed og stivhed i kroppen sidder længere i masters-atleter. Hvis motivationen er i bund og benene føles stive, så vælg en aktiv restitutionsdag frem for et hårdt pas.

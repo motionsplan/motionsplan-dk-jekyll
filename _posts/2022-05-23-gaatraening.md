@@ -202,7 +202,7 @@ En god gåteknik åbner for bevægelsesglæden. Du vil mærke mere energi i krop
 ### 4 guldregler for god gåteknik:
 * **Ret ryggen og løft blikket:** Undgå at kigge ned i jorden lige foran dine fødder. Se 10–15 meter frem.
 * **Rul fra hæl til tå:** Sæt hælen i først, rul blødt over ydersiden af foden, og afsæt med storetåen.
-* **Aktivér armene:** Bøj albuerne i ca. 90 grader og lad armene pendle naturally langs kroppen. Det giver mere fremdrift og brænder op mod 10–15 % ekstra kalorier.
+* **Aktivér armene:** Bøj albuerne i ca. 90 grader og lad armene pendle naturally langs kroppen. Det giver mere fremdrift og brænder op mod 10–15% ekstra kalorier.
 * **Aktivér sædemusklerne:** Klem let i balderne, når du skubber fra med det bageste ben.
 
 {% include video provider="youtube" id="npoJotZN9Xk" %}
@@ -224,9 +224,9 @@ Har du mod på at give den lidt ekstra gas på gåturen? Du kan nemt lave små s
 
 Videnskaben er helt klar – daglige gåture har en enorm effekt på dit helbred og dit vægttab:
 
-* **50 % mindre risiko for type 2-diabetes** ved en daglig gåtur.
+* **50% mindre risiko for type 2-diabetes** ved en daglig gåtur.
 * **Forebygger op mod 13 forskellige kræftformer** gennem regelmæssig fysisk aktivitet.
-* **30 % mindre risiko for hjerte-kar-sygdomme**, hvis du går blot 30 minutter om dagen.
+* **30% mindre risiko for hjerte-kar-sygdomme**, hvis du går blot 30 minutter om dagen.
 * **Ca. 5 kg vægttab på et halvt år**, hvis du går 30 minutter om dagen uden at øge dit kalorieindtag.
 
 ---

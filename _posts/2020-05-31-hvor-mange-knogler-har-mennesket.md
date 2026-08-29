@@ -65,7 +65,7 @@ I løbet af barndommen og teenageårene sker der en proces kaldet *ossifikation*
 * **Korsbenet (Os sacrum):** Består oprindeligt af 5 separate, små ryghvirvler, der smelter helt sammen til én stor knogle nederst i rygsøjlen.
 * **Halebenet:** Starter også som 3-5 små hvirvler, der langsomt vokser sammen.
 
-Når vi når voksenalderen omkring de 20-25 år, er fusionen komplet, og vi ender på det velkendte tal: **206 knogler**. Skelettet udgør på dette tidspunkt ca. 14-18 % af din samlede kropsvægt. 
+Når vi når voksenalderen omkring de 20-25 år, er fusionen komplet, og vi ender på det velkendte tal: **206 knogler**. Skelettet udgør på dette tidspunkt ca. 14-18% af din samlede kropsvægt. 
 *(Læs mere i vores artikel om [hvad knoglerne vejer](/hvad-vejer-skelettet/))*
 
 {% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Det voksne menneske har i alt 206 stærke knogler." alt="Hvor mange knogler har mennesket" %}

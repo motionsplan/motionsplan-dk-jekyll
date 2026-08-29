@@ -136,7 +136,7 @@ Typiske bivirkninger inkluderer:
 
 Særligt kombinationen med **koffein** kan øge risikoen for ubehag, og der er rapporteret tilfælde hvor koffeins præstationsfremmende effekt blev neutraliseret af bivirkninger fra bikarbonat.
 
-Desuden udgør natrium ca. **25 % af bikarbonatmolekylets masse**, hvilket betyder, at store doser bikarbonat også indebærer et højt natriumindtag. Dette er problematisk for personer med:
+Desuden udgør natrium ca. **25% af bikarbonatmolekylets masse**, hvilket betyder, at store doser bikarbonat også indebærer et højt natriumindtag. Dette er problematisk for personer med:
 
 - Forhøjet blodtryk  
 - Nyresygdomme  

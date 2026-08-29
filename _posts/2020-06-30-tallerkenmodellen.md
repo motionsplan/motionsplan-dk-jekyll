@@ -240,10 +240,10 @@ Læg mærke til, at det er energifordelingen og ikke vægtfordelingen. Du kan l�
 
 Som tommelfingerregel så kan energiindtaget fordeles således i løbet af dagen:
 
-- Morgenmåltidet kan udgøre 20-25 % af dagens energiindtag
+- Morgenmåltidet kan udgøre 20-25% af dagens energiindtag
 - Frokosten 25-35 %
 - Aftensmaden 25-35 %
-- Mellemmåltiderne 5-30 %.
+- Mellemmåltiderne 5-30%.
 
 Den nøjagtige fordeling er individuel og hænger også sammen med fysisk aktivitetsniveau. Fx skal sportsfolk formentlig skrue lidt på fordelingen.
 

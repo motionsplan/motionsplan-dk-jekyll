@@ -130,7 +130,7 @@ I de senere år har forskningen givet Ponderal Index en stor genfødsel under na
 
 I et omfattende studie publiceret i *JAMA Pediatrics* undersøgte et forskerhold ledet af Dr. Courtney Peterson over 2.000 børn og teenagere (8–17 år) ved hjælp af præcise DXA-scanninger. Forskerne konkluderede:
 
-> **BMI rammer ofte forkert hos børn i vokseværket**, fordi knogler og højde vokser hurtigere end kropsarealet. **Tri-Ponderal Mass Index ($kg/m^3$)** estimerer børns reelle fedtprocent markant mere præcist end BMI og reducerer fejlklassificeringer af overvægt med over 20 %.
+> **BMI rammer ofte forkert hos børn i vokseværket**, fordi knogler og højde vokser hurtigere end kropsarealet. **Tri-Ponderal Mass Index ($kg/m^3$)** estimerer børns reelle fedtprocent markant mere præcist end BMI og reducerer fejlklassificeringer af overvægt med over 20%.
 
 TMI benytter nøjagtig samme matematiske formel som Ponderal Index, men har sat en ny standard i pædiatrisk vægtforskning.
 

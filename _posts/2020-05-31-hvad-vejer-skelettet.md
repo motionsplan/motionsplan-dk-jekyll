@@ -41,7 +41,7 @@ Hvis du vil lære mere om, hvor mange knogler der er i menneskekroppen, kan du f
 
 ## Hvor meget vejer skelettet?
 
-**Menneskets skelet og knogler udgør omkring 12–20 % af kropsvægten.** Vægten af skelettet og knoglerne topper i 20-30 års alderen, hvor skelettet indeholder omkring 1200 g kalk. 
+**Menneskets skelet og knogler udgør omkring 12–20% af kropsvægten.** Vægten af skelettet og knoglerne topper i 20-30 års alderen, hvor skelettet indeholder omkring 1200 g kalk. 
 
 Skelettets tørvægt (uden vand og rygmarv) vejer ofte kun 3-4 kg, men det levende, våde knoglevæv vejer væsentligt mere:
 

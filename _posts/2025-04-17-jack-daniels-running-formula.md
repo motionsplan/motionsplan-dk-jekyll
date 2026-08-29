@@ -97,7 +97,7 @@ Jack Daniels inddeler træningen i fem specifikke zoner, som hver især har et u
 * **Fysiologisk formål:**
   * Opbygger mental og fysiologisk vænning til konkurrencetempo over lang tid.
   * Lærer kroppen effektivt at brænde en blanding af kulhydrat og fedt af ved højere hastigheder.
-* **Anvendelse:** Bruges under lange ture (op til 18–25 km) for løbere, der træner specifikt mod halvmaraton eller maraton. Bør udgøre max 15–20 % af ugemængden.
+* **Anvendelse:** Bruges under lange ture (op til 18–25 km) for løbere, der træner specifikt mod halvmaraton eller maraton. Bør udgøre max 15–20% af ugemængden.
 
 ### 3. Threshold (T) – Tærskelløb / Laktattærskel
 * **Intensitet:** 88–92% af $\text{HR}_{\text{max}}$ / 83–88% af VO₂max.
@@ -107,7 +107,7 @@ Jack Daniels inddeler træningen i fem specifikke zoner, som hver især har et u
 * **Træningsformer:**
   * *Tempo Run:* Kontinuerligt løb i 20–30 minutter i T-tempo.
   * *Cruise Intervals:* Fx $3 \times 10 \text{ min}$ eller $5 \times 6 \text{ min}$ i T-tempo med kort pause (fx 1 minuts jog).
-* **Anvendelse:** Højst 10 % af den ugentlige mængde (maksimalt 30 minutters samlet effektiv T-tid pr. pas).
+* **Anvendelse:** Højst 10% af den ugentlige mængde (maksimalt 30 minutters samlet effektiv T-tid pr. pas).
 
 ### 4. Interval (I) – VO₂max-træning
 * **Intensitet:** 98–100% af $\text{HR}_{\text{max}}$ / 95–100% af VO₂max.
@@ -116,7 +116,7 @@ Jack Daniels inddeler træningen i fem specifikke zoner, som hver især har et u
   * Stimulerer det maksimale iltoptag (VO₂max) og øger pumpekapaciteten i kredsløbet.
 * **Træningsformer:**
   * Intervaller af **3 til 5 minutters varighed** (fx $5 \times 1000 \text{ m}$ eller $4 \times 4 \text{ min}$). Pausen skal være aktiv jog og vare lidt kortere end arbejdsperioden (fx 2–3 min jog).
-* **Anvendelse:** Højst 8 % af den ugentlige mængde (maksimalt 10 km samlet arbejdsdistance pr. uge).
+* **Anvendelse:** Højst 8% af den ugentlige mængde (maksimalt 10 km samlet arbejdsdistance pr. uge).
 
 ### 5. Repetition (R) – Løbeøkonomi og hurtighed
 * **Intensitet:** Anaerob / Meget høj (over 100% VO₂max).
@@ -126,7 +126,7 @@ Jack Daniels inddeler træningen i fem specifikke zoner, som hver især har et u
   * Øger evnen til at løbe afslappet ved høj hastighed.
 * **Træningsformer:**
   * Korte intervaller på $\le 2 \text{ minutter}$ (fx $10 \times 200 \text{ m}$ eller $8 \times 400 \text{ m}$) med **lang pause** (fuld restitution, fx dobbelt så lang pause som arbejdstid), så der ikke ophobes stor mælkesyre.
-* **Anvendelse:** Højst 5 % af den ugentlige mængde (maksimalt 8 km samlet R-distance pr. uge).
+* **Anvendelse:** Højst 5% af den ugentlige mængde (maksimalt 8 km samlet R-distance pr. uge).
 
 ---
 
@@ -179,7 +179,7 @@ Selvom Jack Daniels' tilgang er en af de mest anerkendte i verden, er det værd 
 
 ### Jack Daniels vs. Polarized Training (80/20)
 * **Daniels:** Bruger en del tid i tærskelzonen (T) og maratonzonen (M) – altså "mellemhård" intensitet.
-* **Polarized 80/20:** Tilstræber at holde 80 % helt roligt (zone 1) og 20 % ultrahårdt (zone 3), mens tærskelzonen (zone 2) stort set undgås for at minimere autonom træthed.
+* **Polarized 80/20:** Tilstræber at holde 80% helt roligt (zone 1) og 20% ultrahårdt (zone 3), mens tærskelzonen (zone 2) stort set undgås for at minimere autonom træthed.
 
 ---
 

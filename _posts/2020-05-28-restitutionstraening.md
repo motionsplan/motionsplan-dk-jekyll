@@ -71,7 +71,7 @@ Man kan forestille sig mange måder at tilrettelægge sin restitutionstræning p
 
 Eksempler på restitutionstræning inkluderer:
 
-- Aerob træning med meget lav intensitet (fx 20–40 % af VO₂max)
+- Aerob træning med meget lav intensitet (fx 20–40% af VO₂max)
 - Let cykling, svømning eller gang
 - Dynamisk mobilitetstræning og skånsom udspænding
 - Tekniktræning med lav vægt eller modstand
@@ -112,7 +112,7 @@ Når du løber, har kroppen brug for tid til at bygge sig op igen bagefter. Det 
 
 Igen skal du holde intensiteten lav på turen, så du kan udnytte de gode effekter ved at kroppen kommer i gang, uden at du introducerer ny træthed. Jeg kan godt lide at bruge pulsen for at sikre mig, at jeg ikke løber for hurtigt, men du kan også tage udgangspunkt i fx [Borg-skalaen](/borg-skala/) til subjektivt at vurdere, om du reelt arbejder nede i restitutionszonen.
 
-Du kan fx sigte efter at arbejde med 50-60 % af din [pulsreserve](/pulsreserve/). Et restitutionsløb bør typisk vare fra 20 til 45 minutter alt efter din nuværende form (løber du meget længere, begynder stødene op gennem benene at skabe ny træthed). Vælg desuden gerne en rute, hvor underlaget er lidt blødere – fx grus eller skovsti frem for asfalt. Du kan læse mere om [løb og løbetræning](/loebesiden/).
+Du kan fx sigte efter at arbejde med 50-60% af din [pulsreserve](/pulsreserve/). Et restitutionsløb bør typisk vare fra 20 til 45 minutter alt efter din nuværende form (løber du meget længere, begynder stødene op gennem benene at skabe ny træthed). Vælg desuden gerne en rute, hvor underlaget er lidt blødere – fx grus eller skovsti frem for asfalt. Du kan læse mere om [løb og løbetræning](/loebesiden/).
 
 Læs hele guiden: [Restitutionsløb: Løb langsomt for at blive hurtigere](/restitutionsloeb/)
 {: .notice }

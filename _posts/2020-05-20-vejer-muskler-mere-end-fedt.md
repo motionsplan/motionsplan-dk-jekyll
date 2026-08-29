@@ -1,8 +1,8 @@
 ---
 title: Vejer muskler mere end fedt? Fysiologi, massefylde og myter
 seo_title: Vejer muskler mere end fedt? Dybdegående guide & massefylde
-description: Ja, muskler vejer omkring 18 % mere end fedt ved samme volumen. Dyk ned i fysiologien bag hvidt fedt, muskelproteiner, massefylde og badevægten.
-excerpt: Ja, muskler vejer omkring 18 % mere end fedt ved samme volumen. Dyk ned i fysiologien bag hvidt fedt, muskelproteiner, massefylde og badevægten.
+description: Ja, muskler vejer omkring 18% mere end fedt ved samme volumen. Dyk ned i fysiologien bag hvidt fedt, muskelproteiner, massefylde og badevægten.
+excerpt: Ja, muskler vejer omkring 18% mere end fedt ved samme volumen. Dyk ned i fysiologien bag hvidt fedt, muskelproteiner, massefylde og badevægten.
 permalink: /vejer-muskler-mere-end-fedt/
 language: da
 header:
@@ -19,16 +19,16 @@ last_modified_at: '2026-08-19T12:15:00Z'
 toc: true
 faq:
   - question: Vejer muskler mere end fedt?
-    answer: Ja. Ved samme volumen vejer muskelvæv omkring 18 % mere end fedtvæv, fordi muskler har en højere massefylde. En liter muskel vejer cirka 1,06 kg, mens en liter fedt vejer cirka 0,90 kg.
+    answer: Ja. Ved samme volumen vejer muskelvæv omkring 18% mere end fedtvæv, fordi muskler har en højere massefylde. En liter muskel vejer cirka 1,06 kg, mens en liter fedt vejer cirka 0,90 kg.
   - question: Hvor meget fylder 1 kg fedt i forhold til 1 kg muskler?
-    answer: 1 kg fedt fylder cirka 1,11 liter, mens 1 kg muskler kun fylder cirka 0,94 liter. Fedt fylder altså omkring 18 % mere end den samme vægt i muskler.
+    answer: 1 kg fedt fylder cirka 1,11 liter, mens 1 kg muskler kun fylder cirka 0,94 liter. Fedt fylder altså omkring 18% mere end den samme vægt i muskler.
   - question: Hvorfor viser vægten intet vægttab, selvom tøjet sidder løsere?
     answer: Hvis du opbygger muskelmasse og samtidig taber fedtmasse i samme forhold, står badevægten stille. Du bliver dog smallere om taljen, fordi muskelvævet er mere kompakt og fylder mindre end fedtet.
 ---
 
 **Ja, muskler vejer mere end fedt, hvis du sammenligner den samme mængde (volumen).** Muskelvæv har en højere massefylde end fedtvæv, hvilket betyder, at 1 liter muskel vejer cirka **1,06 kg**, mens 1 liter fedt kun vejer **0,90 kg**. 
 
-Muskler er altså omkring **18 % tættere og tungere end fedt** ved samme rumfang.
+Muskler er altså omkring **18% tættere og tungere end fedt** ved samme rumfang.
 
 ---
 
@@ -38,9 +38,9 @@ Det er en klassisk træningsmyte, at "1 kg muskler vejer mere end 1 kg fedt" –
 
 | Parameter | Muskelvæv | Fedtvæv | Forskelsværdi |
 | :--- | :--- | :--- | :--- |
-| **Massefylde (densitet)** | ~1,06 g/cm³ | ~0,90 g/cm³ | Muskel er 18 % tættere |
+| **Massefylde (densitet)** | ~1,06 g/cm³ | ~0,90 g/cm³ | Muskel er 18% tættere |
 | **Vægt af 1 liter (volumen)** | 1,06 kg | 0,90 kg | Muskel vejer 0,16 kg mere pr. liter |
-| **Volumen af 1 kg (rumfang)** | 0,94 liter | 1,11 liter | Fedt fylder 18 % mere pr. kilo |
+| **Volumen af 1 kg (rumfang)** | 0,94 liter | 1,11 liter | Fedt fylder 18% mere pr. kilo |
 | **Hovedkomponenter** | Proteiner (20 %) & vand (75 %) | Triglycerider (87 %) & vand (10 %) | Muskel indeholder tungere molekyler |
 
 ---
@@ -50,7 +50,7 @@ Det er en klassisk træningsmyte, at "1 kg muskler vejer mere end 1 kg fedt" –
 For at forstå, hvorfor vævstyperne vejer forskelligt, skal vi kigge på deres molekylære og cellulære opbygning i [vores anatomi](/muskler/):
 
 ### 1. Fedtcellens opbygning (Hvidt vs. brunt fedt)
-Langt størstedelen af kroppens fedtdepoter består af **hvidt fedtvæv**. En typisk hvid fedtcelle indeholder en stor central fedtdråbe, som udgøres af ca. **87 % pure triglycerider** (fedtsyrer). De resterende 13 % udgøres af vand, cellemembran og mitokondrier. 
+Langt størstedelen af kroppens fedtdepoter består af **hvidt fedtvæv**. En typisk hvid fedtcelle indeholder en stor central fedtdråbe, som udgøres af ca. **87% pure triglycerider** (fedtsyrer). De resterende 13% udgøres af vand, cellemembran og mitokondrier. 
 
 Da triglycerider er organiske fedtstoffer med lav tæthed, flyder fedt ovenpå vand. Det er grunden til, at fedtvæv har en massefylde på blot 0,90 g/cm³ (lavere end rent vands massefylde på 0,997 g/cm³).
 
@@ -58,9 +58,9 @@ Da triglycerider er organiske fedtstoffer med lav tæthed, flyder fedt ovenpå v
 Muskelceller er langstrakte fibre opbygget af tæt pakkede proteintråde kaldet **myofibriller** (hovedsageligt proteinerne *actin* og *myosin*). 
 
 En muskelcelle består typisk af:
-* **75 % vand:** Vand har en tæthed tæt på 1,0 g/cm³.
-* **20 % proteiner:** Proteinstrukturerne har en tæthed på omkring 1,3–1,4 g/cm³.
-* **5 % glycogen og mineraler:** Bindes inde i cellen.
+* **75% vand:** Vand har en tæthed tæt på 1,0 g/cm³.
+* **20% proteiner:** Proteinstrukturerne har en tæthed på omkring 1,3–1,4 g/cm³.
+* **5% glycogen og mineraler:** Bindes inde i cellen.
 
 Da tungere proteiner og strukturelle elementer pakkes tæt sammen med vand i muskelcellen, bliver den samlede tæthed markant højere end i fedtcellens triglyceriddråber.
 

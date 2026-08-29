@@ -29,7 +29,7 @@ faq:
 - question: Hvordan hænger den aerobe tærskel sammen med Zone 2 og FatMax?
   answer: Den aerobe tærskel udgør det fysiologiske loft for Zone 2-træning. Lige under LT1 findes din FatMax – det punkt hvor kroppen forbrænder den største mængde fedt i gram pr. minut. Overstiger du LT1, falder fedtforbrændingen brat til fordel for kulhydratforbrug.
 - question: Hvordan finder jeg min aerobe tærskel uden en laktattest?
-  answer: Du kan identificere LT1 via indirekte fysiologiske responser. Det kan gøres ved snakketesten (det sidste niveau, hvor ubesværet samtale i hele sætninger er mulig), ved Pa:HR drift-test (< 5 % pulsstigning over 60 minutter ved konstant fart), via DFA-alpha1 HRV-analyse ($\alpha1 = 0{,}75$) eller som toppen af din pulszone 2.
+  answer: Du kan identificere LT1 via indirekte fysiologiske responser. Det kan gøres ved snakketesten (det sidste niveau, hvor ubesværet samtale i hele sætninger er mulig), ved Pa:HR drift-test (< 5% pulsstigning over 60 minutter ved konstant fart), via DFA-alpha1 HRV-analyse ($\alpha1 = 0{,}75$) eller som toppen af din pulszone 2.
 - question: Hvilket laktatniveau svarer den aerobe tærskel til?
   answer: Der findes intet fast universelt laktattal (som fx 2,0 mmol/L) for LT1. Fysiologisk er tærsklen et individuelt tippepunkt, hvor laktatniveauet for første gang bevæger sig væk fra din personlige hvile-baseline. Det præcise laktattal varierer fra person til person samt fra apparat til apparat.
 ---
@@ -78,7 +78,7 @@ Der opstår ofte forvirring omkring de to tærskler. De repræsentererto vidt fo
 | **Fysiologisk tilstand** | Første målbare stigning over hvile. Fedtforbrændingen er i sin top. | Maximal Metabolic Steady State (MLSS). Sidste niveau med kontrolleret laktat. |
 | **Laktat-respons** | Svag stigning over baseline (estimeres ved **+0,5 mmol/L**). | Eksponentiel ophobning (estimeres ved **+1,5 mmol/L** eller **mDmax**). |
 | **Følelse (RPE)** | Let til moderat. Du trækker vejret roligt og kontrolleret. | Hårdt. Vejrtrækningen er tung, rytmisk og forceret. |
-| **Primært brændstof** | Stor andel **fedt** suppleret med kulhydrat. | Næsten 100 % **kulhydrat** (glykolyse). |
+| **Primært brændstof** | Stor andel **fedt** suppleret med kulhydrat. | Næsten 100% **kulhydrat** (glykolyse). |
 | **Varighed** | Kan opretholdes i **mange timer**. | Kan opretholdes i ca. **30–60 minutter**. |
 | **Træningszone** | Toppen af [Zone 2](/zone-2-traening/). | Toppen af Zone 4 (Tærskelzone). |
 
@@ -104,7 +104,7 @@ I et laboratorium med iltmaske identificeres den første ventilatoriske tærskel
 
 ### 4. Puls- og wattzoner (Zone 2 / MAHR)
 I en standard 5-zone model svarer den aerobe tærskel teoretisk til **toppen af Zone 2**:
-* **Puls:** Typisk omkring 70–80 % af din maxpuls (eller 65–75 % af [pulsreserven](/pulsreserve/)).
+* **Puls:** Typisk omkring 70–80% af din maxpuls (eller 65–75% af [pulsreserven](/pulsreserve/)).
 * **Maffetone-formlen (MAHR):** En simpel tommelfingerregel baseret på alderskorrektion: $\text{MAHR} = 180 - \text{alder} \pm \text{kategori}$. Du kan udregne din Maffetone-puls i vores [Maffetone-beregner](/maffetone-metoden/).
 
 ### 5. Pa:HR Drift-test (Cardiac Drift)
@@ -123,7 +123,7 @@ Med moderne pulsmåling kan du finde din aerobe tærskel via hjerterytmevariabil
 
 Formålet med udholdenhedstræning er at skubbe din aerobe tærskel mod højre – altså at øge den effekt (watt) eller den hastighed (min/km), du kan holde ved din LT1-puls.
 
-1. **Prioritér stort volumen ved lav intensitet:** 70–80 % af din ugentlige træning bør foregå under den aerobe tærskel (Zone 2). Dette øger mitokondrietætheden og kapillærnettet i musklerne.
+1. **Prioritér stort volumen ved lav intensitet:** 70–80% af din ugentlige træning bør foregå under den aerobe tærskel (Zone 2). Dette øger mitokondrietætheden og kapillærnettet i musklerne.
 2. **Kør lange, kontinuerlige pas:** Lange ture på 2–4 timer på cykel eller 75–120 minutter i løb opbygger musklernes evne til at forbrænde fedt over tid.
 3. **Undgå "Den Grå Zone":** Pas på med ikke at køre for mange ture i Zone 3 (mellem LT1 og LT2). Det skaber uforholdsmæssigt meget træthed uden at give de samme specifikke aerobe adaptationer som Zone 2.
 
@@ -136,7 +136,7 @@ Hvis du har læst ældre fysiologibøger, har du garanteret stødt på begrebet 
 Selvom OBLA 2,0 har været en historisk milepæl i idrætsfysiologien, anses faste absolutte tal i dag for at være forældede:
 
 * **Individuelle hvileniveauer:** En veltrænet atlet kan starte testen med en hvilelaktat på 0,8 mmol/L, mens en anden ligger fuldstændig naturligt på 2,1 mmol/L i hvile på grund af sin metabolisme. For den sidste atlet ville en OBLA 2,0-grænse betyde, at vedkommende "passerede sin aerobe tærskel" ved blot at sidde stille på cyklen.
-* **Fuldblod vs. plasma-kalibrering:** Maders oprindelige forsøg i 1970'erne blev udført på laboratorieudstyr, der analyserede ren *fuldblod*. Moderne håndholdte laktatmålere analyserer ud fra en *plasma-ækvivalent* (hvilket indeholder 11–15 % mere laktat). En fysiologisk værdi, der hed 2,0 dengang, svarer altså til et højere tal på dit udstyr i dag.
+* **Fuldblod vs. plasma-kalibrering:** Maders oprindelige forsøg i 1970'erne blev udført på laboratorieudstyr, der analyserede ren *fuldblod*. Moderne håndholdte laktatmålere analyserer ud fra en *plasma-ækvivalent* (hvilket indeholder 11–15% mere laktat). En fysiologisk værdi, der hed 2,0 dengang, svarer altså til et højere tal på dit udstyr i dag.
 * **Det fysiologiske facit:** I moderne idrætsfysiologi måles LT1 derfor aldrig ud fra tallet 2,0 mmol/L, men som din personlige, relative stigning på **+0,5 mmol/L over din egen baseline** (Dickhuth et al., 1999; Faude et al., 2009).
 
 ---

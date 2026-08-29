@@ -85,7 +85,7 @@ Det maksimale vægt, du kan løfte et givet antal gentagelser. Fx hvis du kan ta
 
 Eksempler: [Squat](/squat/), [Dødløft](/oevelse/konventionel-doedloeft/), [Bænkpres](/oevelse/baenkpres/), [Military Press](/oevelse/military-press/).
 
-- **Intensitet:** Høj (85-100 % af 2-3RM)  
+- **Intensitet:** Høj (85-100% af 2-3RM)  
 - **Volumen:** Lav  
 - Typisk: 10-15 gentagelser i alt, sæt med 1-3 reps
 
@@ -93,7 +93,7 @@ Eksempler: [Squat](/squat/), [Dødløft](/oevelse/konventionel-doedloeft/), [Bæ
 
 Eksempler: `front squat`, `rumænsk dødløft`, `incline bænkpres`  
 
-- **Intensitet:** Moderat (65-85 % af 2-3RM)  
+- **Intensitet:** Moderat (65-85% af 2-3RM)  
 - **Volumen:** Høj  
 - Typisk: 5-8 reps per sæt  
 - Vælg øvelser, der støtter dine T1-løft
@@ -102,7 +102,7 @@ Eksempler: `front squat`, `rumænsk dødløft`, `incline bænkpres`
 
 Eksempler: `leg press`, `leg curl`, `triceps extension`, `lateral raise`  
 
-- **Intensitet:** Lav (under 65 % af 2-3RM)  
+- **Intensitet:** Lav (under 65% af 2-3RM)  
 - **Volumen:** Høj  
 - Typisk: 8+ reps per sæt  
 - Støtter T1 og T2
@@ -158,7 +158,7 @@ Stop når du har 1-2 reps i reserve
 Hvis du fejler Stage 3:
 
 - Enten: Find nyt 5RM og start forfra på Stage 1  
-- Eller: Sænk vægten med 10 % og start forfra på Stage 1
+- Eller: Sænk vægten med 10% og start forfra på Stage 1
 
 ---
 

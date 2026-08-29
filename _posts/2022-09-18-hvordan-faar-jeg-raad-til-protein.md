@@ -70,8 +70,8 @@ Hvis du vil optimere dit madbudget uden at gå på kompromis med din træning, b
 
 ## 5 gyldne sparetips til dit proteinbudget
 
-1. **Bland kød og bælgfrugter:** Stræk det hakkede oksekød eller kyllingen i gryderetter og kødsovs ved at erstatte 30–50 % af kødet med røde linser eller kidneybønner.
-2. **Køb datovarer i køledisken:** Hold øje med madspildshjørner i supermarkedet sidst på dagen, hvor fersk kød og mejeriprodukter ofte sættes ned med 30–50 %.
+1. **Bland kød og bælgfrugter:** Stræk det hakkede oksekød eller kyllingen i gryderetter og kødsovs ved at erstatte 30–50% af kødet med røde linser eller kidneybønner.
+2. **Køb datovarer i køledisken:** Hold øje med madspildshjørner i supermarkedet sidst på dagen, hvor fersk kød og mejeriprodukter ofte sættes ned med 30–50%.
 3. **Vælg tørrede bønner frem for dåser:** Bønner og linser på dåse er nemme, men køber du dem tørrede i poser og udbløder dem selv, halverer du næsten prisen.
 4. **Udnyt tilbud på kakaomælk:** Kakaomælk indeholder ca. 3,4 g protein pr. 100 ml og fungerer fantastisk som en billig og nem restitutionsdrik efter hård træning, når den er på tilbud.
 5. **Køb stort ind online:** Kosttilskud og tørvarer har lang holdbarhed. Ved at samle dine køb og udnytte mængderabatter opnår du den laveste grampris.

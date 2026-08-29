@@ -148,7 +148,7 @@ Nuckols har lavet sine egne tabeller, som bygger på sammenhængen mellem **styr
 >
 > --- <cite>[Greg Nuckols](https://www.strongerbyscience.com/objective-strength-standards/)</cite>
 
-Baseret på din højde og vægt kan du få en idé om, hvor meget du ville løfte, hvis du havde de samme færdigheder og kropskomposition som verdensklasseløftere. Nuckols skriver, at mændene i verdenseliten har omkring **12 % kropsfedt**, mens kvinderne løfter med en fedtprocent på omkring **20 %**.
+Baseret på din højde og vægt kan du få en idé om, hvor meget du ville løfte, hvis du havde de samme færdigheder og kropskomposition som verdensklasseløftere. Nuckols skriver, at mændene i verdenseliten har omkring **12% kropsfedt**, mens kvinderne løfter med en fedtprocent på omkring **20 %**.
 
 Hvis du har en højere fedtprocent eller mangler løftetekniske færdigheder, vil dit resultat være lavere. Det betyder også, at du har brug for at nærme dig dit muskulære potentiale for at score højt.
 

@@ -82,7 +82,7 @@ Udover størrelse findes der andre måder at vurdere kroppens muskelkapacitet p�
 
 Når folk ønsker "store arme", fokuserer de ofte blindt på at træne [biceps](/biceps-brachii/). Men hvis målet er rent volumen og fylde i overarmen, kigger man det forkerte sted.
 
-* [**Triceps Brachii**](/triceps-brachii/) (armstrækkeren) udgør ca. **60-70 % af overarmens samlede muskelmasse**.
+* [**Triceps Brachii**](/triceps-brachii/) (armstrækkeren) udgør ca. **60-70% af overarmens samlede muskelmasse**.
 * Biceps udgør kun omkring en tredjedel.
 
 Det betyder i praksis, at hvis du vil have overarme, der fylder T-shirt-ærmet ud, er det langt mere effektivt at træne triceps tungt og varieret end udelukkende at lave bicep-curls. Triceps har tre hoveder, der tilsammen skaber langt mere volumen end de to hoveder i biceps.

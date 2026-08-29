@@ -34,7 +34,7 @@ Glykæmisk indeks angiver, hvor hurtigt og hvor meget kulhydrater fra en bestemt
 
 For at bestemme en fødevares GI indtager testpersoner en portion, der giver 50 gram tilgængelige kulhydrater. Blodsukkeret måles herefter løbende i to timer og sammenlignes med blodsukkerkurven efter indtagelse af glukose (GI = 100).
 
-Eksempel: Hvis en fødevare har GI 40, betyder det, at den øger blodsukkeret med 40 % af det, som ren glukose ville gøre.
+Eksempel: Hvis en fødevare har GI 40, betyder det, at den øger blodsukkeret med 40% af det, som ren glukose ville gøre.
 
 ## Hvad påvirker GI?
 

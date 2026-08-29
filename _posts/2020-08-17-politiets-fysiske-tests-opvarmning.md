@@ -62,7 +62,7 @@ Timeren styrer automatisk hele forløbet:
 
 ## Programmet for Politiets opvarmning
 
-Opvarmningen tager ca. 15 minutter og er opbygget i tre faste faser: løbedel, hoppedel og styrkedel. Du kan forberede dig 100 % på opvarmningen, da det altid er nøjagtigt de samme øvelser, der udføres i samme rækkefølge.
+Opvarmningen tager ca. 15 minutter og er opbygget i tre faste faser: løbedel, hoppedel og styrkedel. Du kan forberede dig 100% på opvarmningen, da det altid er nøjagtigt de samme øvelser, der udføres i samme rækkefølge.
 
 {% include video provider="youtube" id="isDmCC3_fPk" %}
 

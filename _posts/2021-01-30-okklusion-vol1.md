@@ -77,9 +77,9 @@ Manchetten pumpes op til et fastsat tryk, og trykket i manchetten vil begrænse 
 
 {% include motionsplan/pinterest image_path="/assets/images/occlude/occlusion-training-768.jpg" data-pin-media="/assets/images/pinterest/occlusion-training.jpg" caption="Pumpestyret okklusionstræning" alt="Pumpestyret okklusionstræning" %}
 
-Det individualiserede tryk fastsættes ud fra AOP: ”arterial occlusion pressure”. På dansk oversat til _det arterielle okklusionstryk_ som er det tryk, hvor der er total afklemning (100 % AOP) af det arterielle indløb. Okklusionstræning praktiseres ved mellem 40 og 80 % af dette tryk.
+Det individualiserede tryk fastsættes ud fra AOP: ”arterial occlusion pressure”. På dansk oversat til _det arterielle okklusionstryk_ som er det tryk, hvor der er total afklemning (100% AOP) af det arterielle indløb. Okklusionstræning praktiseres ved mellem 40 og 80% af dette tryk.
 
-I okklusionstræning arbejdes der, modsat konventionel free-flow styrketræning, med lave belastninger. Den typiske belastning i okklusionstræning er mellem 20 og 40 % af 1 repetitions maksimum (1 RM).
+I okklusionstræning arbejdes der, modsat konventionel free-flow styrketræning, med lave belastninger. Den typiske belastning i okklusionstræning er mellem 20 og 40% af 1 repetitions maksimum (1 RM).
 
 En øvelse består typisk af 2-4 arbejdssæt, med 30-60 sekunders sætpause. Afklemningen af blodflow opretholdes i pauserne inden for samme øvelse, og det giver en samlet okklusionstid på mellem 5 og 10 minutter for de fleste øvelser.
 
@@ -119,11 +119,11 @@ Også skadesfri sportsfolk og styrketræningsentusiaster kan have gavn af okklus
 
 Effekterne målt på ændring i både stigning i muskelmasse og muskelstyrke efter okklusionstræning er veldokumenterede.
 
-Interessen for okklusionstræning skyldes især, at det er meget potent træningsstimuli til hypertrofi, som er helt på niveau med det vi kender fra tung styrketræning. Et metastudie fra 2018 (resultater fra flere studier samlet i ét) viste en gennemsnitlig stigning i muskelmasse på ca. 7 % over 21 træningspas for både tung styrketræning (> 65 % af 1 RM) og okklusionsbaseret styrketræning (< 50 % af 1 RM) \[11\]. Sammenlignelige data er også observeret andetsteds for styrketræning generelt \[12\].
+Interessen for okklusionstræning skyldes især, at det er meget potent træningsstimuli til hypertrofi, som er helt på niveau med det vi kender fra tung styrketræning. Et metastudie fra 2018 (resultater fra flere studier samlet i ét) viste en gennemsnitlig stigning i muskelmasse på ca. 7% over 21 træningspas for både tung styrketræning (> 65% af 1 RM) og okklusionsbaseret styrketræning (< 50% af 1 RM) \[11\]. Sammenlignelige data er også observeret andetsteds for styrketræning generelt \[12\].
 
 Okklusionstræning forbedrer også den maksimale styrke \[13, 14\], men ikke med samme effekt som tung styrketræning \[11\]. Det tidligere omtalte metastudie fra 2018 undersøgte også forskellen i styrkeadaptioner mellem low-load okklusionstræning og tung styrketræning.
 
-Studiets resultater viste at den gennemsnitlige fremgang i styrke for begge træningsmodaliteter var 14.36 % over 21 træningspas, men at der var en statistisk signifikant forskel på 7.36 % til fordel for den tunge træning \[11\]. Det svarer til en forbedring i maksimal styrke på ca. 11 % for dem der trænede okklusionstræning, og ca. 18 % for dem der trænede tung styrketræning. Forskellen i styrkefremgang mellem okklusionstræning og tung styrketræning forklares af neurale adaptationer og den forbedrede evne til at aktivere musklen efter tung styrketræning \[11\].
+Studiets resultater viste at den gennemsnitlige fremgang i styrke for begge træningsmodaliteter var 14.36% over 21 træningspas, men at der var en statistisk signifikant forskel på 7.36% til fordel for den tunge træning \[11\]. Det svarer til en forbedring i maksimal styrke på ca. 11% for dem der trænede okklusionstræning, og ca. 18% for dem der trænede tung styrketræning. Forskellen i styrkefremgang mellem okklusionstræning og tung styrketræning forklares af neurale adaptationer og den forbedrede evne til at aktivere musklen efter tung styrketræning \[11\].
 
 Kombinationen af tung styrketræning og okklusionstræning er sandsynligvis det stærkeste stimuli, hvis målet både er at forbedre den maksimale styrke og øge muskelmassen.
 
@@ -137,7 +137,7 @@ Er du derimod træner eller aktiv i en sportsgren hvor styrke-vægt forholdet er
 
 ## Sikkerhed og kontraindikationer ved okklusionstræning
 
-Okklusionstræning er helt overordnet at betragte som en sikker træningsform \[1, 15, 16\] med en meget lav incidens af alvorligt indrapporterede komplikationer \[17\]. For at minimere risikoen for komplikationer, anbefales det at screene patienter for kontraindikationer i forbindelse med okklusionstræning, at individualisere arbejdstrykket til 40-80 % af AOP, have viden om manchetplacering og manchetbreddens betydning, samt overholde maksimal okklusionstid \[16\].
+Okklusionstræning er helt overordnet at betragte som en sikker træningsform \[1, 15, 16\] med en meget lav incidens af alvorligt indrapporterede komplikationer \[17\]. For at minimere risikoen for komplikationer, anbefales det at screene patienter for kontraindikationer i forbindelse med okklusionstræning, at individualisere arbejdstrykket til 40-80% af AOP, have viden om manchetplacering og manchetbreddens betydning, samt overholde maksimal okklusionstid \[16\].
 
 Selvom standardtræningsprotokollen til okklusionstræning er 30-15-15-15 repetitioner så anbefales det, at lave en indkøringsfase for at reducere graden af [muskelømhed](/omme-muskler-efter-traening/) og skade, samt opnå repeated bout effect \[18\].
 
@@ -170,11 +170,11 @@ Et blåt mærke er ganske harmløst, men i min tid i Occlude, er vi i flere tilf
 
 _Numbness_ (følelsesforstyrrelse som følge af nervekompression) er i øvrigt den næst hyppigst indrapporterede komplikation i forbindelse med okklusionstræning ved en spørgeskemaundersøgelse i 2018, foretaget blandt fysiske trænere, fysioterapeuter ol. sundhedsprofesionelle.
 
-Her svarede 18.5 % at de havde patienter/klienter som havde oplevet følelsesforstyrrelser. Det sammenholdt med, at kun 11.5 % af de adspurgte sundhedsprofessionelle anvendte individualiseret arbejdstryk ud fra AOP som trykangivelse til deres patienters/klienters træning\[16\], understreger behovet for viden og uddannelse i okklusionstræning inden man går i gang.
+Her svarede 18.5% at de havde patienter/klienter som havde oplevet følelsesforstyrrelser. Det sammenholdt med, at kun 11.5% af de adspurgte sundhedsprofessionelle anvendte individualiseret arbejdstryk ud fra AOP som trykangivelse til deres patienters/klienters træning\[16\], understreger behovet for viden og uddannelse i okklusionstræning inden man går i gang.
 
 Er du sundhedsprofessionel og står med ansvaret for andres okklusionstræning, vil jeg på det kraftigste anbefale dig at bruge trykreguleret og pumpestyret okklusionsudstyr, hvor du kan individualiseret arbejdstrykket og føre patients træning til protokol som foreskrevet i den videnskabelige litteratur. Vælger du at gå med praktisk okklusionsudstyr til din egen træning, så er mit råd, at du afklemmer så bredt som muligt.
 
-{% include figure image_path="/assets/images/occlude/aop-doppler.jpg" caption="Måling af individuelt okklusionstryk ud fra AOP med doppler er guldstandarden i okklusionstræning. En vaskulær doppler placeres på arterie tibialis posterior (til måling af tryk i benet), opfanger pulsen i arterien og omdanner dette til lyd. Når arterien er helt afklemt forsvinder pulsen og lyden i doppleren. Trykket registreres samtidig på pumpen svarende til 100 % AOP. Arbejdstrykket lægges mellem 40 og 80 %" alt="Måling af okklusionstryk ud fra AOP med doppler er guldstandarden i okklusionstræning" %}
+{% include figure image_path="/assets/images/occlude/aop-doppler.jpg" caption="Måling af individuelt okklusionstryk ud fra AOP med doppler er guldstandarden i okklusionstræning. En vaskulær doppler placeres på arterie tibialis posterior (til måling af tryk i benet), opfanger pulsen i arterien og omdanner dette til lyd. Når arterien er helt afklemt forsvinder pulsen og lyden i doppleren. Trykket registreres samtidig på pumpen svarende til 100% AOP. Arbejdstrykket lægges mellem 40 og 80 %" alt="Måling af okklusionstryk ud fra AOP med doppler er guldstandarden i okklusionstræning" %}
 
 ## Afrunding på okklusionstræning
 

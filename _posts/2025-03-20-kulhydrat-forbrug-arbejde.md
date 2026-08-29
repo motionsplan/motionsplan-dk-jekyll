@@ -83,8 +83,8 @@ Under fysisk arbejde forbrænder musklerne en blanding af fedtsyre og glukose. J
 
 $$\text{Total Energi} = \text{Fedtforbrænding} + \text{Kulhydratforbrænding}$$
 
-* **Ved cykling (Watt):** Ud fra din trådte effekt (fx 200 Watt) kender vi din mekaniske arbejdsrate. Med en fysiologisk bruttoeffektivitet på ~20–22 % udregnes dit præcise kalorieforbrug og kulhydratforbrænding i gram pr. time.
-* **Ved løb (Tempo & Vægt):** Energiforbruget beregnes ud fra din kropsvægt og din hastighed. Ved højere tempo stiger den respiratoriske udvekslingskvotient (RER-værdi), hvilket forskyder forbrændingen mod 100 % kulhydrat.
+* **Ved cykling (Watt):** Ud fra din trådte effekt (fx 200 Watt) kender vi din mekaniske arbejdsrate. Med en fysiologisk bruttoeffektivitet på ~20–22% udregnes dit præcise kalorieforbrug og kulhydratforbrænding i gram pr. time.
+* **Ved løb (Tempo & Vægt):** Energiforbruget beregnes ud fra din kropsvægt og din hastighed. Ved højere tempo stiger den respiratoriske udvekslingskvotient (RER-værdi), hvilket forskyder forbrændingen mod 100% kulhydrat.
 
 ---
 
@@ -150,7 +150,7 @@ Nyere forskning ledet af blandt andre professor **Asker Jeukendrup** har nuancer
 
 > 💡 **Sådan læser du modellen:**  
 > * **Stiliseret illustration:** Kurverne viser den generelle fysiologiske responstendens i blodglukose og insulin, ikke et direkte plot af et enkeltstående laboratorieforsøg.
-> * **Individuel følsomhed:** Studier viser, at kun ca. 15–30 % af alle atleter er stærkt følsomme over for *reaktiv hypoglykæmi* og mærker reelle symptomer (svimmelhed, krafttab) ved et kortsigtet blodsukkerfald.
+> * **Individuel følsomhed:** Studier viser, at kun ca. 15–30% af alle atleter er stærkt følsomme over for *reaktiv hypoglykæmi* og mærker reelle symptomer (svimmelhed, krafttab) ved et kortsigtet blodsukkerfald.
 > * **Konkret takeaway:** Vil du tage en gel før løbet, så gør det direkte på startstregen (<15 min før). Så slår adrenalinen insulinen ud af kurs, før den når at toppe.
 {: .notice--info }
 

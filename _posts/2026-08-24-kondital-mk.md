@@ -48,7 +48,7 @@ For at forstå, hvorfor mænd og kvinder måles og vurderes forskelligt i [forsk
 ### 1. Blodets ilttransport (Hæmoglobin)
 Når du presser kredsløbet, er det mængden af ilt, der transporteres fra lungerne ud til de arbejdende muskler, der sætter begrænsningen. 
 
-Testosteron stimulerer nyrerne til at udskille hormonet erythropoietin (EPO), som øger produktionen af røde blodlegemer. Mænd har derfor i gennemsnit en hæmoglobin-koncentration, der ligger **10–14 % højere** end kvinders:
+Testosteron stimulerer nyrerne til at udskille hormonet erythropoietin (EPO), som øger produktionen af røde blodlegemer. Mænd har derfor i gennemsnit en hæmoglobin-koncentration, der ligger **10–14% højere** end kvinders:
 * **Mænd:** ca. 138–172 g/L
 * **Kvinder:** ca. 121–151 g/L
 
@@ -64,7 +64,7 @@ Det relative kondital måles i milliliter ilt pr. kilo kropsvægt pr. minut:
 
 $$ \text{Kondital} = \frac{\text{VO}_2\text{max (mL/min)}}{\text{Kropsvægt (kg)}} $$
 
-Kvindekroppen er fra naturens side designet med en højere Essential Fat Mass (essentiel fedtmasse til reproduktion og hormonbalance) på ca. 12 %, mod mænds 3 %. 
+Kvindekroppen er fra naturens side designet med en højere Essential Fat Mass (essentiel fedtmasse til reproduktion og hormonbalance) på ca. 12 %, mod mænds 3%. 
 
 Da fedtvæv ikke forbruger ilt under arbejde, fungerer det som ren "dødvægt" i løbetests. I formlens nævner tæller fedtet med i den samlede kropsvægt, men det bidrager ikke til tælleren (VO₂max). Det giver kvinder et naturligt lavere relativt kondital.
 

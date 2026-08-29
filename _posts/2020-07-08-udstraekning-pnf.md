@@ -78,7 +78,7 @@ Dette er den mest udbredte og enkle PNF-metode, som bygger ren internt på *auto
 {% include video provider="youtube" id="3Nrh59-z3n0" %}
 
 1. **Passivt stræk:** Leddet føres langsomt ud i yderstillingen og holdes i 10 sekunder.
-2. **Isometrisk hold:** Du spænder målmusklen mod modstand (fx en makkers hånd eller en væg) uden at leddet bevæger sig. Spænd med ca. 50–70 % af maksimal kraft i **6 sekunder**.
+2. **Isometrisk hold:** Du spænder målmusklen mod modstand (fx en makkers hånd eller en væg) uden at leddet bevæger sig. Spænd med ca. 50–70% af maksimal kraft i **6 sekunder**.
 3. **Afspænding og nyt stræk:** Slap helt af i musklen i 2 sekunder, hvorefter leddet føres ud i et dybere passivt stræk i **20–30 sekunder**.
 
 ### 2. Contract-Relax (Kontrahér-Slap af)
