@@ -1,10 +1,11 @@
 ---
-title: &title "Mål din fedtprocent med en hudfoldsmåling"
-seo_title: &title "Skinfoldmåling: Sådan måler du din fedtprocent med kalipermåling"
+title: "Mål din fedtprocent med fedttang (Hudfoldsmåling guide)"
+seo_title: "Måling af fedtprocent med fedttang (Skinfold guide & formler)"
+description: "Vil du måle din fedtprocent med en fedttang (kaliper)? Se vores komplette guide til hudfoldsmåling, vælg den rigtige formel og beregn dit resultat."
+excerpt: "Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en hudfoldsmåler. Lær mere om meste almindelige metoder til fedtmåling med en fedttang."
 permalink: /skinfold/
 redirect_from:
   - /artikel/fedtprocent-skinfold/
-excerpt: "Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en hudfoldsmåler. Lær mere om meste almindelige metoder til fedtmåling med en fedttang."
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-fedttang.jpg
@@ -65,6 +66,10 @@ dashboards:
 Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en hudfoldsmåler. Her kan du lære mere om meste almindelige metoder til fedtmåling med en fedttang. Vi dykker ned i både fordele og ulemper ved hudfoldsmålinger.
 
 Det er meget udbredt at bruge en fedttang til at måle hudfoldstykkelser rundt omkring på kroppen for at bestemme fedtprocenten. Man bruger tykkelsen af hudfolderne til ved hjælp af en formel at estimere, hvor meget fedt man i alt har på kroppen.
+
+{: .notice--info }
+> 📊 **Vil du se alle måder at teste kropsfedt på?**  
+> Fedttang er blot én af flere muligheder. Se vores [samlede overblik over måling af fedtprocent](/fedtprocent-normer/#metoder) eller tjek de [officielle fedtprocent-normer for mænd og kvinder](/fedtprocent-normer/).
 
 Jeg har kigget lidt på, hvad man skal være opmærksom på i forbindelse med måling af fedtprocent med hudfoldsmålinger og fedttang - og så har jeg lavet beregnere til de mest udbredte metoder.
 

@@ -60,7 +60,7 @@ Lohman-formlen er en enkel [måling af fedtprocent](/fedtprocent-normer/#metoder
 
 Lohman-formlen bruges som reference i mange større undersøgelser med børn. I studier af danske skolebørn, har man imidlertid brugt [Slaughter-formlen](/slaughter-fedtprocent-boern/).
 
-Der findes mange andre lignende [fedtmålinger med fedttang for voksne](/skinfold/). Læs den artikel grundigt igennem for alle faldgruberne om fedtprocent-målinger.
+Der findes mange andre lignende [fedtmålinger med kaliper for voksne](/skinfold/). Læs den artikel grundigt igennem for alle faldgruberne om fedtprocent-målinger.
 
 ## Instruktion til Lohman-formlen
 
