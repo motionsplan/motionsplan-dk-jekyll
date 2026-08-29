@@ -56,7 +56,7 @@ last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 ---
 
-Lohman-formlen er en enkel måling af fedtprocent hos børn mellem 8-18 år baseret på hudfoldsmålinger. Den kræver bare to målinger af hudfoldstykkelsen ved triceps og ved læggen.
+Lohman-formlen er en enkel [måling af fedtprocent](/fedtprocent-normer/#metoder) hos børn mellem 8-18 år baseret på hudfoldsmålinger. Den kræver bare to målinger af hudfoldstykkelsen ved triceps og ved læggen.
 
 Lohman-formlen bruges som reference i mange større undersøgelser med børn. I studier af danske skolebørn, har man imidlertid brugt [Slaughter-formlen](/slaughter-fedtprocent-boern/).
 

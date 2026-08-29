@@ -62,7 +62,7 @@ faq:
   - question: Hvad er en normal fedtprocent?
     answer: En normal fedtprocent er forskellig for mænd og kvinder. En sund fedtprocent for mænd ligger mellem 8% til 25% alt efter alderen. En normal fedtprocent hos kvinder ligger på 21% til 36% alt efter alderen. Kvinder har ganske enkelt en større mængde fedt i forhold til deres kropsvægt. Du kan læse mere om [normal fedtprocent for kvinder og mænd](/fedtprocent-normer/).
   - question: Hvordan kan man måle fedtprocent?
-    answer: Du kan måle din fedtprocent på mange måder. Du kan fx måle tykkelsen af dine hudfolder med [hudfoldsmålinger](/skinfold/) med en professionel fedttang. Det er også meget populært at få lavet en [bioimpedans-måling](/bioimpedans-maaling/) på en vægt. Vi har skrevet meget mere om [metoder til måling af fedtprocent](/maal-fedtprocent/).
+    answer: Du kan måle din fedtprocent på mange måder. Du kan fx måle tykkelsen af dine hudfolder med [hudfoldsmålinger](/skinfold/) med en professionel fedttang. Det er også meget populært at få lavet en [bioimpedans-måling](/bioimpedans-maaling/) på en vægt. Vi har skrevet meget mere om [metoder til måling af fedtprocent](/fedtprocent-normer/#metoder).
   - question: Kan man have for lav fedtprocent?
     answer: Du kan sagtens have for lav fedtprocent. Fedt er en helt essentiel del af kroppens processer. Derfor der det også godt at holde sig inden for den anbefalede fedtprocent. Hvis du allerede har en meget lav fedtprocent, så kan det gå ud over din sundhed, hvis du går efter en lavere fedtprocent.
   - question: Kan man have for høj fedtprocent?
@@ -78,7 +78,7 @@ Udregning af fedtindholdet i kroppen er kun én måde at vurdere din kropskompos
 Der findes også mere avancerede teknikker som skinfoldmålinger, bioimpedans og DEXA-scanning. Du kan læse mere om de forskellige metoder her:
 
 - 📌 [Bestem din kropskomposition](/kropskomposition/)
-- 📌 [Flere metoder til måling af fedtprocent](/maal-fedtprocent/)
+- 📌 [Flere metoder til måling af fedtprocent](/fedtprocent-normer/#metoder)
 
 {: .notice--info }
 > 📏 **Har du et målebånd ved hånden?**  
@@ -241,14 +241,13 @@ Hvis du får et alarmerende resultat i denne beregner, så kan du starte med at 
 
 {% include figure image_path="/assets/images/exerciseandwellness.files.wordpress.com/body-fat-percentage-men-women-23e92cca.jpg" caption="Øjemålstest af fedtprocenten: Kilde: [exerciseandwellness.wordpress.com](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/) [📷](https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg){: rel='nofollow noopener' }" alt="beregn din fedtprocent" %}
 
-Læs: [7 måder at måle sin fedtprocent på?](/maal-fedtprocent/)
-{: .notice }
-
 Gallagher et al (2000) giver i følgende grafik et bud på, hvad en god fedtprocent er? Det sunde område for en god fedtprocent er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der formentlig ikke nogen grund til at skubbe grænserne.
 
 {% include figure image_path="/assets/images/4.bp.blogspot.com/BodyFatRangeChartLarge-c4f51d51.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)) [📷](https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg){: rel='nofollow noopener' }" alt="Hvordan beregner jeg fedtprocent?" %}
 
 Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)).
+
+Har du fået dit resultat i beregneren? [Se vores samlede tabel over normal fedtprocent](/fedtprocent-normer/) for at vurdere, om dit tal ligger inden for normen. Vil du udforske andre måder at teste din kropskomposition på? [Se vores overblik over de 7 mest anvendte metoder til måling af fedtprocent](/fedtprocent-normer/#maalemetoder).
 
 ## Er kvinders fedtprocent højere end mænds?
 
@@ -265,7 +264,7 @@ Læs: [Hvad er en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/
 
 Her har du haft mulighed for at beregne din fedtprocent baseret på alder, køn og højde. Det siger sig selv, at du ikke ender med din faktiske fedtprocent med mindre, at du er helt usædvanlig gennemsnitlig ift. den gruppe forsøgsdeltagere formlerne er baseret på.
 
-Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på vores andre måder at [måle fedtprocent](/maal-fedtprocent/) på.
+Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på vores andre måder at [måle fedtprocent](/fedtprocent-normer/#metoder) på.
 
 Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vil bruge det tal til.
 

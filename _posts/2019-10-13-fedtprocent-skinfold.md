@@ -9,7 +9,7 @@ language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-fedttang.jpg
 categories:
-  - Tests
+  - Kropskomposition
   - Fedtprocent
 meta:
   name: Mål din fedtprocent hudfoldsmåling
@@ -193,7 +193,7 @@ Alle de følgende måder at lave hudfoldsmålinger på kræver en pålidelig fed
 
 ## Hvad er normale fedtprocenter?
 
-Du kan også [udregne din fedtprocent](/artikel/udregning-af-fedtprocent/), og hvis du se normalværdier for fedtprocent, så kig i mit indlæg om [normal fedtprocent tabel](/fedtprocent-normer/).
+Når du har målt dine hudfolder og beregnet dit resultat, kan du holde tallet op mod vores [skemaer over normal fedtprocent](/fedtprocent-normer/) for mænd og kvinder. Du kan også [udregne din fedtprocent](/artikel/udregning-af-fedtprocent/).
 
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur](/slankekur/), fordi du gerne vil opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
 {: .notice .notice--info }

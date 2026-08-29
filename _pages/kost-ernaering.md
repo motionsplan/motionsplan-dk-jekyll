@@ -54,7 +54,7 @@ Lær at beregne din krops energiforbrug og forstå kalorierne i din mad.
 Redskaber til vurdering af kropssammensætning, sundhed og vægt.
 
 * **[BMI Beregner](/bmi/)** & **[BMI til Børn og Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek dit BMI.
-* **[Mål din fedtprocent](/maal-fedtprocent/)** – Guide til 7 forskellige målemetoder.
+* **[Mål din fedtprocent](/fedtprocent-normer/#metoder)** – Guide til 7 forskellige målemetoder.
 * **[Fedtmåling med fedttang (Skinfold)](/skinfold/)** & **[Fedtprocent med målebånd](/fedtprocent-navy/)**.
 * **[Bioimpedans (BIA)](/bioimpedans-maaling/)** – Lær om kropsanalysevægte og præcision.
 * **[Normer for fedtprocent](/fedtprocent-normer/)** – Skemaer og tabeller for mænd og kvinder.

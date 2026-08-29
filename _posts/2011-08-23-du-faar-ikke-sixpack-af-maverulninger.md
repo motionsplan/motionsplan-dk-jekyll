@@ -34,7 +34,7 @@ Populære TV-projekter som Jacob Søndergaards *"Sixpack på 6 uger"* i Godmorge
 
 Selvom intens træning og livsstilsomlægning kan flytte formen hurtigt, er fysiologien uomgængelig: Mavemusklerne (*rectus abdominis*) ligger gemt under et lag af underhudsfedt. Du kan træne mavemusklerne stærke, men de bliver først synlige, når din samlede **fedtprocent** er tilstrækkeligt lav.
 
-Hvis du vil have en markeret kropsstamme, skal du forstå samspillet mellem din [kropskomposition](/kropskomposition/), din [fedtprocent](/maal-fedtprocent/) og din rygsikkerhed.
+Hvis du vil have en markeret kropsstamme, skal du forstå samspillet mellem din [kropskomposition](/kropskomposition/), din [fedtprocent](/fedtprocent-normer/#metoder) og din rygsikkerhed.
 
 ---
 
@@ -53,7 +53,7 @@ Når du arbejder på at [tabe fedt på maven](/tab-fedt-paa-maven/), kan du brug
 
 *Bemærk: Kvinder har fra naturens side en højere essentiel fedtmasse. Det er derfor hverken sundt eller fysiologisk hensigtsmæssigt for kvinder at stræbe efter mænds fedtprocentværdier.*
 
-Du kan præcist [måle din fedtprocent her](/maal-fedtprocent/) med fedtmålingstang eller omkredsmål.
+Du kan præcist [måle din fedtprocent her](/fedtprocent-normer/#metoder) med fedtmålingstang eller omkredsmål.
 
 ---
 
@@ -121,7 +121,7 @@ For at sikre, at fedttabet og livsstilsændringen fortsætter efter de første 6
 | Værktøj | Formål | Praktisk Udførelse |
 | :--- | :--- | :--- |
 | **Trænings- & Kostdagbog** | Bevidstgørelse og fastholdelse | Notér dine måltider, søvntimer og træningsbelastning. |
-| **Fedtmåling (Ikke badevægt)** | Præcis måling af fremskridt | Mål din [fedtprocent](/maal-fedtprocent/) med fedttang frem for at stirre dig blind på kropsvægten. |
+| **Fedtmåling (Ikke badevægt)** | Præcis måling af fremskridt | Mål din [fedtprocent](/fedtprocent-normer/#metoder) med fedttang frem for at stirre dig blind på kropsvægten. |
 | **Progressiv Variation** | Undgå plateau | Justér vægt, repetitioner eller pauser løbende, så kroppen fortsat udfordres. |
 
 ---

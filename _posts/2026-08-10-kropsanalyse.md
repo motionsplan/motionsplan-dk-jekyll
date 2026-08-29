@@ -34,7 +34,7 @@ dashboards:
 
 De fleste vurderer deres krop ud fra kropsvægt alene. Badevægten fortæller dig dog intet om, hvordan vægten er fordelt på muskler, fedtmasse, væske og organer.
 
-Vores online **kropsanalyse dashboard** samler en række fysiologiske og antropometriske formler ét sted. Det giver dig et **indirekte estimat og et samlet overblik** over din kropssammensætning og fysiologiske profiltal.
+Vores online **kropsanalyse dashboard** samler en række fysiologiske og antropometriske formler ét sted. Det giver dig et **indirekte estimat og et samlet overblik** over din [kropskomposition og kropssammensætning](/kropskomposition/) og fysiologiske profiltal.
 
 > 🏥 **Leder du efter en direkte laboratorietest?**  
 > Hvis du er på udkig efter en fysisk kropsanalyse med fx en [InBody-scanner](/artikel/inbody-570-bioimpedans/) eller vil dykke yderligere ned i, hvordan bioimpedans (BIA) fungerer sammenlignet med DEXA-scanninger og hydrostatisk vejning, kan du læse vores [dybdegående guide til kropskomposition her](/kropskomposition/).
@@ -42,7 +42,7 @@ Vores online **kropsanalyse dashboard** samler en række fysiologiske og antropo
 
 ---
 
-## 🧪 Fysiologisk Kropsanalyse Dashboard
+## 🧪 Fysiologisk kropsanalyse dashboard
 {: id="dashboard" }
 
 Start med at indtaste dine stamdata i Niveau 1. Åbn sektion 2 og 3 for at tilføje omkredse eller pulsdata – dashboardet opdaterer automatisk de relevante formler undervejs.
@@ -60,9 +60,11 @@ Formlerne i dashboardet opdeler dine data i fire pædagogiske kategorier:
 
 ### 1. Kropssammensætning & Antropometri
 * **BMI & Ponderal Index:** Vurderer forholdet mellem kropsvægt og højde. Ponderal Index tager højde for højde i 3D ($kg/m^3$) og er ofte mere retvisende for meget høje eller lave personer.
-* **Estimeret Fedtprocent & Muskelmasse:** Beregnes som et gennemsnit af 7 validerede antropometriske formler (fx Deurenberg, Gallagher). Formlerne estimerer kropstætheden baseret på din alder, køn og BMI.
+* **Estimeret fedtprocent & muskelmasse:** Beregnes som et gennemsnit af 7 validerede antropometriske formler (fx Deurenberg, Gallagher). Formlerne estimerer kropstætheden baseret på din alder, køn og BMI.
 
-### 2. Kropsform og Risikomarkører
+Tjek også vores [muskelmasse-beregner](/muskelmasse-beregner/) og [guide til fedtprocent](/fedtprocent-normer/).
+
+### 2. Kropsform og risikomarkører
 * **Talje-Højde Ratio (WHtR):** Et af de stærkeste enkle mål for kardiometabolisk risiko. En WHtR under 0,5 indikerer generelt en sund fedtfordeling.
 * **ABSI (A Body Shape Index):** Et nyere indeks, der vurderer mavefedt uafhængigt af dit BMI. Et højt ABSI kan indikere øget mængde visceralt fedt (fedt omkring organerne).
 

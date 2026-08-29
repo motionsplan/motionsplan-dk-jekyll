@@ -126,7 +126,7 @@ Gør din træning og sundhed mere datadrevet. Hvad enten du vil beregne din ener
 Få styr på kost, energiomsætning og kropssammensætning.
 * **[Ligevægtsindtag](/ligevaegtsindtag-beregner/)** & **[BMR Beregner](/bmr-beregner/)** – Udregn dit daglige kaloriebehov ud fra dit aktivitetsniveau.
 * **[BMI Beregner (Voksne)](/bmi/)** & **[BMI til Børn & Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek dit BMI i forhold til officielle sundhedsintervaller.
-* **[Mål din Fedtprocent](/maal-fedtprocent/)** – Oversigt over 7 forskellige metoder til måling af kropsfedt.
+* **[Mål din Fedtprocent](/fedtprocent-normer/#metoder)** – Oversigt over 7 forskellige metoder til måling af kropsfedt.
 * **[Taljemål & Talje-Hofte Ratio](/taljemaal/)** – Vurdér sundhedsrisiko baseret på fedtfordeling.
 
 [Se alle vores beregnere »](/beregnere/){: .btn .btn--info }

@@ -68,7 +68,7 @@ tags:
 - aerob test
 - populær
 - politi
-last_modified_at: '2026-07-26T18:00:00Z'
+last_modified_at: '2026-08-26T18:00:00Z'
 gallery_whyiexercise:
 - image_path: /assets/images/whyiexercise.com/xcooper-1_5-mile-run-score-chart-women-by-age-group_jpg_pagespeed_ic_KhNsKxmeOD-1eac3be7.webp
   credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp

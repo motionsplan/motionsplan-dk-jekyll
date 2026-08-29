@@ -63,7 +63,7 @@ Få styr på dit energiforbrug, dit kaloriebehov og din kost.
 Få overblik over din kropsbygning, ideelle vægt og sundhedsindikatorer.
 * **[BMI Beregner](/bmi/)** – Beregn dit BMI og se officielle vægtklasser.
 * **[BMI Beregner til Børn & Unge](/bmi-beregner-boern-unge-teenagere/)** – Tjek alderssvarende BMI-kurver.
-* **[Mål din Fedtprocent](/maal-fedtprocent/)** – Oversigt over alle metoder til at finde din fedtprocent.
+* **[Mål din Fedtprocent](/fedtprocent-normer/#metoder)** – Oversigt over alle metoder til at finde din fedtprocent.
 * **[Idealvægt Beregner](/idealvaegt/)** – Udregn din teoretiske idealvægt.
 * **[Taljemål & Talje-Hofte Ratio](/taljemaal/)** – Vurdér din fedtfordeling og sundhedsrisiko.
 </div>

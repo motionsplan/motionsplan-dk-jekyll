@@ -97,7 +97,7 @@ Formelt måles BMR om morgenen efter 12–18 timers faste og hvile i et temperer
 
 ### Formler for BMR baseret på fedtfri masse (FFM)
 
-Hvis du kender din [fedtprocent](/maal-fedtprocent/) og [kropskomposition](/kropskomposition/), angiver fysiologisk litteratur (bl.a. *Menneskets Ernæring* af Astrup et al.) følgende præcise formler for basalstofskiftet:
+Hvis du kender din [fedtprocent](/fedtprocent-normer/#metoder) og [kropskomposition](/kropskomposition/), angiver fysiologisk litteratur (bl.a. *Menneskets Ernæring* af Astrup et al.) følgende præcise formler for basalstofskiftet:
 
 $$\text{BMR (MJ/døgn)} = 0{,}09 \times \text{FFM (kg)} + 1{,}55$$
 

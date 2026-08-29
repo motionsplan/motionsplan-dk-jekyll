@@ -113,7 +113,7 @@ Her giver 2800 meter præcis **51,3 mL/kg/min** uanset køn. Men kigger du på v
 | **Mand** | 2800 meter | 51,3 | **Godt** (Over middel) |
 | **Kvinde** | 2800 meter | 51,3 | **Fremragende / Elite** (Top 1%) |
 
-Fordi kvinden skal slæbe på en naturligt højere fedtprocent og har en lavere iltbærende kapacitet i blodet, kræver det en **ekstraordinær muskulær og fysiologisk tilpasning** for en kvinde at nå 2800 meter. 
+Fordi kvinden skal slæbe på en naturligt højere fedtprocent og har en lavere iltbærende kapacitet i blodet, så kræver det en **højere muskulær og fysiologisk tilpasning** for en kvinde at nå 2800 meter på testen. 
 
 Mandens biologiske forudsætninger gør, at 2800 meter for ham blot svarer til et godt motionsniveau.
 

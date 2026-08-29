@@ -89,7 +89,7 @@ hvor
 
 BAI er ligesom mange andre indirekte målinger af fedtprocent behæftet med en del usikkerhed. Den er særligt følsom over for atleter, da tallene er baseret på gennemsnitsbefolkningen. Men selv for det gennemsnitlige menneske, så kan der være store variationer.
 
-Hvis du gerne vil have et mere præcist bud på, hvor meget af din krop, der består af fedt, så bliv klogere ved at læse om [måling af fedtprocent](/maal-fedtprocent/).
+Hvis du gerne vil have et mere præcist bud på, hvor meget af din krop, der består af fedt, så bliv klogere ved at læse om [måling af fedtprocent](/fedtprocent-normer/#metoder).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

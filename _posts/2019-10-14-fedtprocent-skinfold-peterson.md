@@ -86,7 +86,7 @@ Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startsku
 
 Jeg har skrevet et uddybende indlæg, hvor du kan se flere [formler til at bestemme fedtprocent baseret på måling af skinfolds med fedttang](/skinfold/).
 
-Sammenlign den fedtprocent, du har fundet med [anbefalet fedtprocent for voksne mænd og kvinder](/fedtprocent-normer/).
+Sammenlign den fedtprocent, du har fundet med [anbefalet fedtprocent for voksne mænd og kvinder](/fedtprocent-normer/#metoder).
 
 ## Køb en tang til hudfoldsmålinger
 

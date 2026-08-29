@@ -125,7 +125,7 @@ Metoden sammenholder omkredsen af halsen og taljen (samt hoften hos kvinder) med
 * **Talje (Kvinder):** Mål omkredsen på det smalleste punkt på torsoen (natural waist).
 * **Hofte (Kvinder):** Mål omkredsen over ballerne på det bredeste punkt set fra siden.
 
-### 🧮 Navy Fedtprocent Beregner
+### 🧮 Navy fedtprocent beregner
 {: id="navy-beregner" }
 
 {% include components/fatpercent-navy.html %}
@@ -222,8 +222,8 @@ En af styrkerne ved målebåndsmålinger i hverdagen er, at de udelukkende regis
 
 Når du har beregnet din estimerede fedtprocent, kan du sammenligne værdien med generelle kropskompositionsdata eller følge din egen udvikling over tid:
 
-- 📌 **[Se fedtprocent skema & normer for mænd og kvinder](/fedtprocent-normer/)** – Oversigt over alders- og kønsspecifikke intervaller.
-- 📌 **[Oversigt over 7 metoder til måling af fedtprocent](/maal-fedtprocent/)** – Læs om skinfoldmåling, bioimpedans, DEXA og vandvejning.
+- 📌 **[Se vores oversigtsguide til måling af fedtprocent](/fedtprocent-normer/#metoder)** – Sammenlign målebånd med 6 andre målemetoder.
+- 📌 **[Se fedtprocent skema & normer for mænd og kvinder](/fedtprocent-normer/)** – Sammenlign dit resultat med de officielle normer.
 - 📌 **[Læs om taljemålet som sundhedsmarkør](/taljemaal/)** – Hvorfor taljens omkreds i sig selv giver vigtig viden om fedtfordeling.
 
 ---

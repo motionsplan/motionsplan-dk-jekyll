@@ -14,8 +14,7 @@ header:
   credit: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
   caption: *title
 categories:
-  - Kost & Ernæring
-  - Fedtprocent
+  - Kropskomposition
 tags:
   - kropskomposition
   - fedtprocent
@@ -119,7 +118,7 @@ Samlet kan de to modeller give dig en mere præcis opfattelse af, hvad din krop 
 
 Men hvad betyder måling af kropskomposition, muskelmasse og fedtmasse for den almindelige person?
 
-Du har sikkert hørt om [BMI](/bmi/), som på befolkningsgruppeniveu kan forudsige mortalitet, men det er ikke så præcist på individniveau, fordi målingen ikke kan afdække, hvad kropsvægten består af. Som skrevet tidligere så er fedt nødvendigt for en velfungerende krop, men for meget fedt kan være forbundet med sundhedsproblemer. Selvom man er normalvægtig set ud fra BMI, kan man således godt have en fedtprocent, som er lidt for høj.
+Du har sikkert hørt om [BMI](/bmi/), som på befolkningsgruppeniveu kan forudsige mortalitet, men det er ikke så præcist på individniveau, fordi målingen ikke kan afdække, hvad kropsvægten består af. Som skrevet tidligere så er fedt nødvendigt for en velfungerende krop, men for meget fedt kan være forbundet med sundhedsproblemer. Selvom man er normalvægtig set ud fra BMI, kan man således godt have en [fedtprocent](/fedtprocent-normer/), som er lidt for høj.
 
 {% include figure image_path="/assets/images/static.wixstatic.com/a04440_4d589093bbfe43389d0dcb4919fc7e15_mv2-34e9c0bd.jpg" caption="Kilde: [My Sport Science](https://www.mysportscience.com/post/body-composition-methods-compared) [📷](https://static.wixstatic.com/media/a04440_4d589093bbfe43389d0dcb4919fc7e15~mv2.jpg/v1/fill/w_1249,h_800,al_c,q_85,enc_avif,quality_auto/a04440_4d589093bbfe43389d0dcb4919fc7e15~mv2.jpg){: rel='nofollow noopener' }" %}
 

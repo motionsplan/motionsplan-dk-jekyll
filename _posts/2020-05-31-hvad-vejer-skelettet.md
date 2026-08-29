@@ -54,7 +54,7 @@ Skelettets tørvægt (uden vand og rygmarv) vejer ofte kun 3-4 kg, men det leven
 Vil du have det fulde overblik over, hvad din kropsvægt egentlig består af udover knoglerne? 
 
 * **Muskelmasse:** Se hvor meget af din vægt der bør være muskler i vores [muskelmasse beregner](/muskelmasse-beregner/).
-* **Fedtmasse:** Læs hvordan du laver en præcis [måling af fedtprocent](/maal-fedtprocent/) og du kan [beregne din fedtprocent](/artikel/udregning-af-fedtprocent/).
+* **Fedtmasse:** Læs hvordan du laver en præcis [måling af fedtprocent](/fedtprocent-normer/#metoder) og du kan [beregne din fedtprocent](/artikel/udregning-af-fedtprocent/).
 </div>
 
 ## Hvornår vejer knoglerne mest?

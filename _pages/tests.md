@@ -42,7 +42,7 @@ feature_row_test_fat_percent:
   title: Mål din fedtprocent
   excerpt: Vil du gerne måle din fedtprocent? Her har jeg samlet op på, hvordan du kan måle din fedtprocent. Der er i hvert
     fald mindst 7 forskellige metoder, du kan afprøve.
-  url: /maal-fedtprocent/
+  url: /fedtprocent-normer/#metoder
   btn_label: Test din fedtprocent
   btn_class: btn--success
 feature_row_police_test:
@@ -181,7 +181,7 @@ En **fitnesstest** er en struktureret måling af din fysiske formåen inden for 
 
 * 🫁 **Kondition & Aerob effekttest:** Måling af din maksimale iltoptagelse (VO₂max) og udholdenhed (fx [Cooper-test](/cooper-test/) eller [Bip-test](/bip-test/)).
 * 🏋️‍♂️ **Styrke- & Eksplosivitetstest:** Test af dit maksimale kraftudviklingspotentiale (fx [IMTP trækstyrketest](/imtp-test/) eller [hoppetests](/springtests-hoppehoejde/)).
-* 📐 **Antropometri & Kropssammensætning:** Vurdering af fedtprocent, BMI og kropsmål (fx [fedtprocentmåling](/maal-fedtprocent/)).
+* 📐 **Antropometri & Kropssammensætning:** Vurdering af fedtprocent, BMI og kropsmål (fx [fedtprocentmåling](/fedtprocent-normer/#metoder)).
 * 🤸‍♂️ **Smidighed & Smidighedstest:** Måling af leddenes bevægelighed og fleksibilitet.
 
 > 💡 **Tip til præcise målinger:** Udfør altid dine fitnesstests under de samme forhold (samme tidspunkt på dagen, samme opvarmning og samme udstyr) for at få et pålideligt sammenligningsgrundlag.

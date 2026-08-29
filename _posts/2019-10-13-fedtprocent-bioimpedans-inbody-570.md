@@ -14,7 +14,7 @@ header:
   teaser: /assets/images/bodytracker.dk/DSC02424-1030x688-90b2ef04.jpg
   credit: https://bodytracker.dk/wp-content/uploads/2022/05/DSC02424-1030x688.jpg
 categories:
-  - Tests
+  - Kropskomposition
   - Fedtprocent
 breadcrumbs: true
 tags:
@@ -140,7 +140,7 @@ Det betyder, som med alle andre typer måling af fedtprocent, at du skal tage de
 
 En ulempe ved maskinen er naturligvis prisen. Den er virkelig kostbar. En anden ulempe man kan pege på er det usædvanligt detaljerede resultatark. Det får alt til at virke som meget nøjagtig videnskab.
 
-Der er andre måder at måle kropskomposition på. Det kan du læse mere om i vores oversigtsartikel over [målemetoder til fedtprocent og kropskompostion](/maal-fedtprocent/).
+Der er andre måder at måle kropskomposition på. Det kan du læse mere om i vores oversigtsartikel over [målemetoder til fedtprocent og kropskompostion](/fedtprocent-normer/#metoder).
 
 ## Konklusion
 

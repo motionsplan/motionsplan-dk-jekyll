@@ -1,10 +1,8 @@
 ---
-title: Forskel på fedtenergiprocent og fedtprocent i mad (Beregner)
+title: "Fedtenergiprocent i mad: Beregner og formel (E%)"
+seo_title: "Fedtenergiprocent beregner: Udregn E% i mad (Formel & Kcal)"
+description: "Beregn fedtenergiprocenten (E%) i din mad. Se forskellen på fedtprocent og fedtenergiprocent, og lær at udregne det ud fra kcal eller kJ."
 permalink: /fedtenergiprocent/
-excerpt: Beregn fedtenergiprocent og se, hvor stor del af dine kalorier der kommer fra fedt. Nem udregning for kostplan og
-  ernæringsanalyse.
-description: Beregn fedtenergiprocent og se, hvor stor del af dine kalorier der kommer fra fedt. Nem udregning for kostplan
-  og ernæringsanalyse.
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1494390248081-4e521a5940db.jpg
@@ -13,16 +11,23 @@ header:
   overlay_filter: '0.2'
   caption: Forskel på fedtenergiprocent og fedtprocent i mad (Beregner)
 categories:
-- Kost & Ernæring
-- Kalorieberegnere
+  - Kost & Ernæring
+  - Kalorieberegnere
 tags:
-- beregner
-- kost & ernæring
-- kalorieberegner
-- guide
-- featured
-last_modified_at: '2020-06-11T08:14:14Z'
+  - beregner
+  - kost & ernæring
+  - kalorieberegner
+  - guide
+  - fedtenergiprocent
+last_modified_at: '2026-08-29T21:00:00Z'
 toc: 'true'
+faq:
+  - question: Hvad er forskellen på fedtprocent og fedtenergiprocent i mad?
+    answer: Fedtprocent angiver hvor mange gram fedt der er pr. 100 gram fødevare (vægtprocent). Fedtenergiprocent (E%) angiver hvor stor en del af den samlede energi (kalorier), der stammer fra fedt. Da fedt indeholder næsten dobbelt så meget energi pr. gram som protein og kulhydrat, er fedtenergiprocenten altid højere end vægtprocenten.
+  - question: Hvor meget energi giver 1 gram fedt?
+    answer: 1 gram fedt giver ca. 9 kcal eller 38 kJ. Til sammenligning giver 1 gram protein eller kulhydrat kun ca. 4 kcal (17 kJ).
+  - question: Hvad bør fedtenergiprocenten ligge på i en sund kost?
+    answer: Nordiske Næringsstofanbefalinger (NNA) anbefaler, at 25-40 E% (fedtenergiprocent) af din daglige energi kommer fra fedt, hvoraf mættet fedt bør udgøre maksimalt 10 E%.
 meta:
   name: Udregn fedtenergiprocent i mad
   equipment: ingen
@@ -30,43 +35,73 @@ meta:
   type: kost & ernæring
 ---
 
-Når du skal have styr på, hvor meget fedt, der er i mad, så skal du udregne fedtenergiprocenten. Jeg har lavet en beregner til at udregne fedtenergiprocenten, og så har jeg skrevet en lidt grundigere forklaring af hvad fedtprocent og fedtenergiprocent betyder, når man snakker om mad.
+Når du vil have styr på ernæringssammensætningen i din mad, skal du skelne mellem vægtprocent og **fedtenergiprocent (E%)**. 
 
-[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+{: .notice--info }
+> 🏋️ **Leder du efter fedtprocent på kroppen?**  
+> Denne side omhandler fedtindhold i fødevarer og kost. Hvis du vil beregne eller måle din kropps fedtprocent, skal du gå til vores [store guide om normal fedtprocent for mænd og kvinder](/fedtprocent-normer/).
 
-Når du kigger på en varedeklaration, så kan du se, hvor mange procent protein, kulhydrat og fedt, der er i varen. Det er typisk angivt i gram pr. 100 gram. På den måde svarer det til procent i varen. Hvis der fx er 17 gram fedt i en Marsbar, så kan man sagtens tænke, at der er 17% fedt i.
+[<i class='fas fa-calculator'></i> Hop direkte til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
-Men der er noget mere energi i fedt, end der er i protein og kulhydrat. Faktisk knap dobbelt så meget energi. Derfor skal man kende begrebet fedtenergiprocent. Her kommer en definition på fedtenergiprocenten.
+---
 
-## Hvad er fedtenergiprocenten?
+## Hvad er fedtenergiprocent (E%)?
 
-**Fedtenergiprocenten angiver hvor meget af energien, der kommer fra fedt i en given madvare. Fedtenergiprocenten udregnes ved at gange vægten af fedt med 38 kJ og dividere med energien (kJ) pr. 100 g i fødevaren.**
+**Fedtenergiprocenten (E%) angiver, hvor stor en procentdel af den samlede energi (kalorier/kilojoule) i en fødevare, der stammer fra fedt.**
+
+Når du kigger på en varedeklaration, angives fedtindholdet typisk i gram pr. 100 gram. Det er fødevarens *vægtprocent*. Men fordi fedt indeholder mere end dobbelt så meget energi pr. gram sammenlignet med protein og kulhydrat, vil fedtets andel af de samlede kalorier altid være betydeligt højere end vægtangivelsen.
+
+* **1 g fedt** = $9\text{ kcal}$ ($38\text{ kJ}$)
+* **1 g protein** = $4\text{ kcal}$ ($17\text{ kJ}$)
+* **1 g kulhydrat** = $4\text{ kcal}$ ($17\text{ kJ}$)
+
+---
 
 ## Udregn fedtenergiprocenten i vores beregner
 {: id="calculator" }
 
+Indtast værdierne fra din varedeklaration herunder for at beregne fedtenergiprocenten:
+
 {% include calculator/calculate-fat-percent-food.html %}
 
-## Hvordan beregner jeg fedtenergiprocenten?
+---
 
-Jeg foretrækker at bruge kilojoule, når jeg angiver energi i fødevarer. 
+## Hvordan beregner man fedtenergiprocent?
 
-1 gram fedt giver en energi på 38 kilojoule.
+Du kan beregne fedtenergiprocenten enten ved hjælp af kilojoule ($\text{kJ}$) eller kilokalorier ($\text{kcal}$).
 
-Det kan sættes ind i følgende formel:
+### Formel med kilojoule (kJ):
+$$ \text{Fedtenergiprocent (E\%)} = \frac{\text{fedt (g)} \times 38\text{ kJ}}{\text{samlet energi (kJ)}} \times 100 $$
 
-$$
-\text{Fedtenergiprocent} = \frac{\text{fedt}_{100\text{g}} \times 38 \text{ kJ}}{\text{energi}_{\text{samlet}} \text{ (kJ)}} \times 100
-$$
+### Formel med kalorier (kcal):
+$$ \text{Fedtenergiprocent (E\%)} = \frac{\text{fedt (g)} \times 9\text{ kcal}}{\text{samlet energi (kcal)}} \times 100 $$
 
-## Eksempel på fedtenergiprocent med Mars
+---
 
-Der er altså 17 g fedt / 100 g i en Marsbar. I 100 g Mars er der 1859 kJ. Hvis du sætter tallene ind i formlen eller beregneren ovenfor, så får du en fedtenergiprocent på 34%.
+## Eksempel: Sådan regner du det ud i praksis
 
-## Fedtenergiprocent i praksis
+Lad os tage en chokoladebar (fx en Marsbar) som eksempel:
+* **Fedtindhold:** $17\text{ g}$ fedt pr. $100\text{ g}$ (dvs. $17\%$ fedt i vægt).
+* **Samlet energi:** $1859\text{ kJ}$ ($443\text{ kcal}$) pr. $100\text{ g}$.
 
-Når man ser angivelser på, hvor mange procent af din energi, du skal have fra fedt, så er det **fedtenergprocenten**, der henvises til. I mange anbefalinger står der, at maksimalt 30% af din energi skal komme fra fedt.
+Putter vi tallene ind i formlen:
 
-Det betyder **ikke** at du skal sortere dine madvarer efter fedtenergiprocenten. Det er det samlede måltid eller endnu bedre den samlede indtagelse på en dag, der skal opfylde anbefalingen.
+$$ \text{Fedtenergiprocent} = \frac{17\text{ g} \times 38\text{ kJ}}{1859\text{ kJ}} \times 100 = 34{,}7\text{ E\%} $$
 
-Mennesket har brug for fedt.
+Selvom chokoladebaren kun indeholder $17\%$ fedt i ren vægt, kommer **$34,7\%$ af alle kalorierne** i baren altså fra fedt!
+
+---
+
+## Fedtenergiprocent i en sund kost
+
+De Nordiske Næringsstofanbefalinger anbefaler, at **$25\text{--}40\%$ af din daglige energi** bør stamme fra fedt (E%).
+
+Det betyder dog **ikke**, at hver enkelt madvare i din indkøbsvogn skal ligge under $30\text{ E\%}$. En sund kost handler om den samlede energifordeling over en hel dag eller uge. Du kan sagtens spise madvarer med høj fedtenergiprocent (som laks, nødder og olivenolie), så længe det samlede Måltid har en varieret balance af proteiner, kulhydrater og sunde fedtsyrer.
+
+Mennesket har brug for fedt!
+
+---
+
+## Ofte stillede spørgsmål om fedtenergiprocent
+
+{% include motionsplan/faq.html %}

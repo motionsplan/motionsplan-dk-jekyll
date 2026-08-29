@@ -96,7 +96,7 @@ Et studie af [Jagim et al. (2018)](https://pubmed.ncbi.nlm.nih.gov/28682934/) un
 > "The Harris-Benedict equation seems to be most accurate for male athletes, whereas the Cunningham equation may be better suited for female athletes."
 > — <cite>[Jagim et al. (2018)](https://pubmed.ncbi.nlm.nih.gov/28682934/)</cite>
 
-Formlerne til beregning af hvilestofskiftet ud fra fedtprocent kan være et godt redskab, hvis du har en præcis måling af din kropssammensætning (fx fra DEXA-scan eller InBody). Det kan du blive meget klogere på, hvor vanskeligt det kan være i vores indlæg om [hvordan du måler din fedtprocent](/maal-fedtprocent/) og i vores artikel om [kropskomposition](/kropskomposition/).
+Formlerne til beregning af hvilestofskiftet ud fra fedtprocent kan være et godt redskab, hvis du har en præcis måling af din kropssammensætning (fx fra DEXA-scan eller InBody). Det kan du blive meget klogere på, hvor vanskeligt det kan være i vores indlæg om [hvordan du måler din fedtprocent](/fedtprocent-normer/#metoder) og i vores artikel om [kropskomposition](/kropskomposition/).
 
 Du kan med fordel også sammenligne resultatet med vores [standard BMR-beregner baseret på højde og vægt](/bmr-beregner/).
 

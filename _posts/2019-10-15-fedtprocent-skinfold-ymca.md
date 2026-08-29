@@ -52,7 +52,7 @@ last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 ---
 
-YMCA hudfoldstesten er en af de mest anvendte metoder til måling af fedtprocent. Den har den fordel, at man frit kan vælge om lår-målingen skal indgå. Det kan nemlig godt være besværligt at lave lårmålingen - og det kan være forbundet blufærdighed også.
+YMCA hudfoldstesten er en af de mest anvendte [metoder til måling af fedtprocent](/fedtprocent-normer/#metoder). Den har den fordel, at man frit kan vælge om lår-målingen skal indgå. Det kan nemlig godt være besværligt at lave lårmålingen - og det kan være forbundet blufærdighed også.
 
 *[YMCA]: Young Men's Christian Association
 

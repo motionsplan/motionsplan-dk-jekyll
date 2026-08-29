@@ -97,7 +97,7 @@ Brug beregneren herunder til hurtigt at estimere dit eget rumfang og volumen bas
 
 I idrætslaboratorier og medicinsk forskning nøjes man ikke altid med teoretiske estimater. Her benyttes to primære metoder til at måle det eksakte rumfang:
 
-1. **Hydrostatisk vejning (Archimedes' princip):** Personen nedsænkes helt i en vandtank, mens lungerne tømmes for luft. Mængden af fortrængt vand (eller vægtændringen under vand) giver det præcise rumfang. Ud fra vægt og rumfang kan den eksakte [fedtprocent beregnes](/maal-fedtprocent/).
+1. **Hydrostatisk vejning (Archimedes' princip):** Personen nedsænkes helt i en vandtank, mens lungerne tømmes for luft. Mængden af fortrængt vand (eller vægtændringen under vand) giver det præcise rumfang. Ud fra vægt og rumfang kan den eksakte [fedtprocent beregnes](/fedtprocent-normer/#metoder).
 2. **Bod Pod (Air Displacement Plethysmography):** Personen sidder i et lukket, ægformet kammer. I stedet for vand måler maskinen, hvor meget *luft* kroppen fortrænger. Det er en hurtig og yderst præcis metode til at finde kropsvolumen.
 
 ---

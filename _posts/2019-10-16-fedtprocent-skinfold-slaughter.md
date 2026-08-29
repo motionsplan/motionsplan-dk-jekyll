@@ -55,7 +55,7 @@ last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 ---
 
-Slaughter har udviklet en relativt enkel og pålidelig måde at estimere fedtprocenten på hos børn ved at måle hudfoldstykkelsen kun to forskellige steder. Hudfoldene skal måles midt på triceps og på skulderbladsspidsen.
+Slaughter har udviklet en relativt enkel og pålidelig måde at [estimere fedtprocenten](/fedtprocent-normer/#metoder) på hos børn ved at måle hudfoldstykkelsen kun to forskellige steder. Hudfoldene skal måles midt på triceps og på skulderbladsspidsen.
 
 Slaugther formlen er bl.a. anvendt i studier af danske skolebørn og kræver en måling ved triceps og på skulderbladsspidsen.
 

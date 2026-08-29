@@ -71,7 +71,7 @@ feature_row:
   rel: sponsored nofollow noopener
 ---
 
-**Bioimpedansmåling** er en enkel og tilgængelig metode til at [måle fedtprocent](/maal-fedtprocent/) og [kropssammensætning](/kropskomposition/). 
+**Bioimpedansmåling** er en enkel og tilgængelig metode til at [måle fedtprocent](/fedtprocent-normer/#metoder) og [kropssammensætning](/kropskomposition/). 
 
 Teknologien blev udviklet i 1980’erne, men de tidlige målinger var mindre præcise sammenlignet med 'guldstandarderne' _hydrostatisk vejning_ (vandvejning) og DEXA-scanning.  
 
@@ -163,6 +163,8 @@ Læs meget mere om, hvordan du foretager en bioimpedansmåling med [InBody 570](
 
 ## Konklusion
 
+Bioimpedansmåleren giver dig et procenttal, men tallet kræver kontekst. Sammenlign din måling med de officielle [fedtprocent-normer opdelt på alder](/fedtprocent-normer/).
+
 Resultatarket fra en kropsanalyse fra en Inbody bioimpedansmåler er meget imponerende.
 
 Bioimpedansmåling er en tilgængelig metode til at vurdere din kropssammensætning, og resultatarket fra fx en InBody bioimpedans måler ser meget imponerende og overbevisende ud.
@@ -174,7 +176,7 @@ Faktorer som hydrering, kost og fysisk aktivitet kan påvirke målingernes nøja
 For en dybere forståelse af kropskomposition, så kan du dykke ned i følgende:
 
 - [Alt om kropskomposition](/kropskomposition/)
-- [Forskellige teknikker til måling af fedtprocent](/maal-fedtprocent/).
+- [Forskellige teknikker til måling af fedtprocent](/fedtprocent-normer/#metoder).
 
 Du skal **ikke** gå på [slankekur](/slankekur/) på baggrund af tallene fra en tilfældig maskine.
 

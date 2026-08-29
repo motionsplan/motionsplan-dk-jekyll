@@ -52,7 +52,7 @@ At kende sin muskelmasse er afgørende for at forstå sin samlede [kropskomposit
 
 ## Det videnskabelige fundament bag beregneren
 
-Vores beregner er baseret på omfattende epidemiologisk og fysiologisk forskning i [kropskomposition](/kropskomposition/). Formlerne bygger primært på arbejdet af **Heymsfield et al. (2020)** samt **Lee et al. (2017)**, der har kortlagt sammenhængen mellem kropsstørrelse, kropsform, alder og skeletmuskelmasse i det store *US National Health and Nutrition Examination Survey (NHANES)*-datasæt bestående af over 12.000 deltagere.
+Vores beregner er baseret på omfattende epidemiologisk og fysiologisk forskning i kropskomposition. Formlerne bygger primært på arbejdet af **Heymsfield et al. (2020)** samt **Lee et al. (2017)**, der har kortlagt sammenhængen mellem kropsstørrelse, kropsform, alder og skeletmuskelmasse i det store *US National Health and Nutrition Examination Survey (NHANES)*-datasæt bestående af over 12.000 deltagere.
 
 I studierne sammenholdt forskerne præcise DXA-scanninger (Dual-Energy X-ray Absorptiometry) med enkle antropometriske målinger:
 
@@ -60,7 +60,7 @@ I studierne sammenholdt forskerne præcise DXA-scanninger (Dual-Energy X-ray Abs
 * **[Taljemål](/taljemaal/):** Fungerer som korrektionsfaktor for fedtvæv og abdominalt fedt.
 * **Alder og Køn:** Korrigerer for den naturlige ændring i muskeldensitet og sarkopeni tværs over livsspændet.
 
-Formlerne estimerer den faktiske **skeletmuskelmasse (SM)** — altså de muskler, du aktivt kan træne — og skal ikke forveksles med *Lean Body Mass (LBM)*, som også indeholder organer, knogler og væske. Hvis du ønsker en dybere analyse af forholdet mellem fedtfri masse og fedtvæv, anbefaler vi at kigge på vores guide til at [måle fedtprocent](/maal-fedtprocent/).
+Formlerne estimerer den faktiske **skeletmuskelmasse (SM)** — altså de muskler, du aktivt kan træne — og skal ikke forveksles med *Lean Body Mass (LBM)*, som også indeholder organer, knogler og væske. Hvis du ønsker en dybere analyse af forholdet mellem fedtfri masse og fedtvæv, anbefaler vi at kigge på vores guide til at [måle fedtprocent](/fedtprocent-normer/#metoder).
 
 ---
 
@@ -95,14 +95,14 @@ Herunder finder du vejledende referencetabeller over den gennemsnitlige skeletmu
 
 ---
 
-## Forskellen på Muskelmasse og Lean Body Mass (LBM)
+## Forskellen på muskelmasse og Lean Body Mass (LBM)
 
 En hyppig kilde til forvirring opstår ved målinger på bioimpedans-vægte eller antrompometriske formler, hvor begreberne blandes sammen:
 
 1. **Lean Body Mass (Mager kropsmasse):** Alt i din krop, der ikke er fedtvæv (organer, knogler, blod, sener, væske og muskler). For en mand på 80 kg med 15% fedtprocent er hans LBM 68 kg.
 2. **Skeletmuskelmasse (SM):** Selve den vilkårligt styrede muskulatur. Denne udgør typisk 40–50% af din LBM. For samme mand vil den rene muskelmasse ligge på omkring 32–35 kg.
 
-Vil du beregne din samlede fordeling af fedt og fedtfri masse i detaljer, kan du læse mere i vores hovedartikel om [kropskomposition](/kropskomposition/) eller finde præcise målemetoder under vores guide til at [måle fedtprocent](/maal-fedtprocent/).
+Vil du beregne din samlede fordeling af fedt og fedtfri masse i detaljer, kan du læse mere i vores hovedartikel om [kropskomposition](/kropskomposition/) eller finde præcise målemetoder under vores guide til at [måle fedtprocent](/fedtprocent-normer/#metoder).
 
 ---
 
