@@ -202,6 +202,48 @@ Vi har lavet en timer, hvor du kan holde styr på en række løbere på 2400-met
 
 ---
 
+## 2.400-meter test på løbebånd: Sådan gør du
+
+Det er bedst at lave 2400-meter testen udenfor, men du kan også gennemføre testen på et løbebånd. Da målet er at gennemføre 2,4 km så hurtigt som muligt, handler det på løbebåndet om at ramme den helt rigtige fastsatte starthastighed fra første sekund.
+
+### 3 vigtige regler på løbebåndet
+
+* **Sæt stigningen til 1,0%:** Hæv løbebåndet til 1,0% hældning for at kompensere fysiologisk for den manglende vindmodstand indendørs.
+* **Beregn din målhastighed på forhånd:** I stedet for at gætte undervejs skal du indstille løbebåndet til den nøjagtige hastighed i km/t, der svarer til din ønskede sluttid.
+* **Husk motorens responstid:** Løbebåndet bruger et par sekunder på at accelerere op i fart fra stilstand. Start timeren i det øjeblik, båndet rammer din valgte testhastighed.
+
+---
+
+### Sådan beregner du den nødvendige hastighed (km/t)
+
+For at finde den præcise hastighed, du skal indstille løbebåndet til for at ramme en bestemt sluttid, bruges denne formel fra [paceberegneren](/hastighed/):
+
+$$\text{Påkrævet hastighed (km/t)} = \frac{144}{\text{Måltid i minutter}}$$
+
+> **Eksempel:** Vil du løbe 2,4 km på nøjagtigt **10 minutter og 0 sekunder** ($10{,}0 \text{ min}$):  
+> $$\text{Hastighed} = \frac{144}{10{,}0} = 14{,}4 \text{ km/t}$$
+
+---
+
+### Hastighedstabel: Hvilken fart skal løbebåndet stå på?
+
+Brug tabellen til at vælge din fart på løbebåndet ud fra dit tidsmål på 2,4 km:
+
+| Måltid (2,4 km) | Påkrævet fart (km/t) | Pace (min/km) | Typisk kontekst / Niveau |
+| :--- | :--- | :--- | :--- |
+| **08:30 min** | 16,9 km/t | 3:32 min/km | Eliteniveau |
+| **09:00 min** | 16,0 km/t | 3:45 min/km | Topscore (Forsvaret / Politi) |
+| **09:30 min** | 15,2 km/t | 3:57 min/km | Meget høj form |
+| **10:00 min** | 14,4 km/t | 4:10 min/km | Høj form (Bane-krav for mænd) |
+| **10:30 min** | 13,7 km/t | 4:22 min/km | God form |
+| **11:00 min** | 13,1 km/t | 4:35 min/km | Middel / God form |
+| **11:30 min** | 12,5 km/t | 4:47 min/km | Middel form |
+| **12:00 min** | 12,0 km/t | 5:00 min/km | Middel form (Bane-krav for kvinder) |
+| **13:00 min** | 11,1 km/t | 5:25 min/km | Under middel |
+| **14:00 min** | 10,3 km/t | 5:50 min/km | Lav form |
+
+---
+
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
