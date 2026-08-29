@@ -1,0 +1,697 @@
+<div class="balke-widget">
+  
+  <!-- Info Modal -->
+  <div class="balke-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Balke Løbebåndstest & Formler</h4>
+        <span class="modal-subtitle-text">Gradueret test med fast hastighed og trinvist stigende hældning</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>TESTENS OPBYGNING:</strong><br>
+        1. Vælg <strong>Gang (5,3 km/t)</strong> eller <strong>Løb (8,0 km/t)</strong> samt køn.<br>
+        2. Hastigheden holdes helt fast under hele testen.<br>
+        3. Hvert trin varer nøjagtigt <strong>1 minut (60 sekunder)</strong>.<br>
+        4. Hældningen på løbebåndet øges med <strong>1 % for hvert minut</strong>.<br>
+        5. Testen fortsætter indtil udmattelse.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Beregningsformler</h5>
+      <ul style="font-size: 0.82rem; color: #495057; background: #f8f9fa; padding: 10px 10px 10px 25px; border-radius: 6px; border: 1px solid #e9ecef; margin: 0;">
+        <li style="margin-bottom: 4px;"><strong>Gang (Mand):</strong> $\text{VO}_2\max = 14{,}99 + (1{,}444 \cdot T)$ <small>(Pollock et al. 1976)</small></li>
+        <li style="margin-bottom: 4px;"><strong>Gang (Kvinde):</strong> $\text{VO}_2\max = 5{,}22 + (1{,}38 \cdot T)$ <small>(Pollock et al. 1982)</small></li>
+        <li><strong>Løb (8,0 km/t):</strong> $\text{VO}_2\max = 30{,}17 + (1{,}20 \cdot T)$ <small>(ACSM Running Ligning)</small></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topbar Header & Controls -->
+  <div class="balke-topbar">
+    <div class="balke-header-card">
+      <div class="card-title-row">
+        <span class="card-title">
+          Balke Protocol Timer & Beregner
+          <button class="icon-btn info-icon-btn" type="button" title="Læs om opsætning og regler">ℹ️</button>
+        </span>
+        <button class="icon-btn fullscreen-btn" type="button" title="Fuld skærm">⛶</button>
+      </div>
+    </div>
+
+    <!-- Controls Row: TESTTYPE & KØN aligned på samme række -->
+    <div class="topbar-controls-row">
+      <div class="control-item">
+        <span class="control-label">TESTTYPE:</span>
+        <div class="btn-toggle-group" id="balke-mode-toggle">
+          <button type="button" class="toggle-btn active" data-mode="walk">🚶 Gang (5,3 km/t)</button>
+          <button type="button" class="toggle-btn" data-mode="run">🏃 Løb (8,0 km/t)</button>
+        </div>
+      </div>
+
+      <div class="control-item" id="gender-toggle-container">
+        <span class="control-label">KØN:</span>
+        <div class="btn-toggle-group" id="balke-gender-toggle">
+          <button type="button" class="toggle-btn active" data-gender="male">Mand</button>
+          <button type="button" class="toggle-btn" data-gender="female">Kvinde</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTEGRERET HOVEDBOKS -->
+  <div class="balke-unified-card" id="balke-unified-card">
+    
+    <!-- Header i hovedboks: Lyd placeret i øverste højre hjørne af timeren -->
+    <div class="unified-card-header">
+      <div class="timer-top-label">⏱️ SAMLET TESTTID</div>
+      <div class="card-tools-right">
+        <div class="btn-toggle-group" id="balke-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+        <div class="wakelock-status">📱 Skærm tændt</div>
+      </div>
+    </div>
+
+    <!-- 1. TID & SLIDER (Input felter tilpasset så tallene står perfekt uden overflow) -->
+    <div class="timer-section">
+      <div class="time-display-row">
+        <input type="number" id="input-min" class="large-time-input" min="0" max="60" value="00" placeholder="00">
+        <span class="large-colon">:</span>
+        <input type="number" id="input-sec" class="large-time-input" min="0" max="59" value="00" placeholder="00">
+      </div>
+      <div class="time-unit-sub">minutter : sekunder</div>
+
+      <!-- Tidsslider -->
+      <div class="slider-container">
+        <input type="range" id="balke-time-slider" class="balke-slider" min="0" max="1500" value="0" step="1">
+      </div>
+    </div>
+
+    <hr class="card-divider">
+
+    <!-- 2. NUVÆRENDE TRIN & TRIN-SLIDER -->
+    <div class="stage-section">
+      <div class="stage-header-line">
+        <span class="badge-current">⚡ NUVÆRENDE: TRIN <span id="current-stage-num">1</span></span>
+        <span class="badge-speed" id="current-fixed-speed">5,3 km/t</span>
+      </div>
+
+      <div class="stage-metrics-row">
+        <div class="metric-block">
+          <span class="metric-sub">HÆLDNING</span>
+          <div class="metric-val-hero"><span id="current-incline-val">0</span><small>%</small></div>
+        </div>
+        <div class="metric-block">
+          <span class="metric-sub">TID PÅ TRIN</span>
+          <div class="stage-timer-prominent" id="current-stage-time-elapsed">00:00 / 01:00</div>
+        </div>
+      </div>
+
+      <!-- Slider/Ned-tællende bar på det aktuelle trin -->
+      <div class="stage-progress-wrapper" title="Fremgang på nuværende trin">
+        <div class="stage-progress-fill" id="current-stage-fill" style="width: 100%;"></div>
+      </div>
+    </div>
+
+    <!-- 3. NÆSTE TRIN STRIP (Med hældning placeret mindre nedenunder) -->
+    <div class="next-strip" id="card-next-stage">
+      <div class="next-strip-left">
+        <div class="badge-next">⏭️ NÆSTE: TRIN <span id="next-stage-num">2</span></div>
+        <div class="next-incline-sub">Hældning: <strong id="next-incline-val">1%</strong></div>
+      </div>
+      <div class="next-strip-right">
+        <span class="next-timer-sub">Skift om:</span>
+        <span class="time-rem-val" id="next-stage-time-remaining">01:00</span>
+      </div>
+    </div>
+
+    <hr class="card-divider">
+
+    <!-- 4. KONDITAL RESULTAT (INTEGRERET) -->
+    <div class="result-section">
+      <div class="res-title">BEREGNET KONDITAL (VO₂MAX)</div>
+      <div class="vo2-value-main" id="res-vo2max-val">-</div>
+      <div class="vo2-unit">ml/kg/min</div>
+      
+      <div style="margin-top: 4px;">
+        <span class="fitness-eval-badge" id="res-fitness-badge">Mangler data</span>
+      </div>
+
+      <!-- Tydelig visning af valgt formel -->
+      <div class="formula-badge-container">
+        <span class="formula-badge" id="active-formula-text">Formel: Pollock et al. (1976) – Gang (Mand)</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CONTROLS (START / STOP / RESET) -->
+  <div class="balke-controls-card">
+    <div class="balke-controls">
+      <button class="btn btn--giant-action btn-start-stop" id="btn-balke-start-stop" type="button">🚀 START TEST</button>
+      <button class="btn btn--icon-reset btn-reset" id="btn-balke-reset" type="button" title="Nulstil Alt">🗑️</button>
+    </div>
+  </div>
+
+  <!-- GEMTE RESULTATER LOG -->
+  <div class="balke-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="balke-log-table">
+      <thead>
+        <tr>
+          <th>Dato</th>
+          <th>Type</th>
+          <th>Tid</th>
+          <th>Kondital</th>
+          <th>Hældning</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SCREENSHOT BUTTON -->
+  <div class="balke-screenshot-wrapper">
+    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.balke-widget {
+  background: #ffffff; border: 2px solid #e2e8f0; border-radius: 16px; padding: 14px;
+  max-width: 680px; width: 100%; margin: 1.5rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.balke-widget * { box-sizing: border-box; }
+
+.balke-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; text-align: left; }
+.balke-header-card { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 8px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #0f172a; display: flex; align-items: center; gap: 6px; }
+.icon-btn { background: #ffffff; border: 1px solid #cbd5e1; font-size: 0.95rem; cursor: pointer; padding: 3px 6px; border-radius: 6px; line-height: 1; }
+
+/* Modal */
+.balke-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 30; padding: 18px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 8px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #0f172a; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #64748b; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Control Row: Testtype & Køn flugter på samme række */
+.topbar-controls-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 12px; margin-top: 2px; }
+.control-item { display: flex; align-items: center; gap: 6px; }
+.control-label { font-size: 0.68rem; font-weight: 900; color: #64748b; letter-spacing: 0.03em; }
+
+.btn-toggle-group { display: inline-flex; background: #f1f5f9; padding: 2px; border-radius: 8px; border: 1px solid #cbd5e1; }
+.toggle-btn { background: transparent; border: none; padding: 4px 8px; font-size: 0.75rem; font-weight: 700; color: #475569; border-radius: 6px; cursor: pointer; transition: all 0.15s ease; }
+.toggle-btn.active { background: #2563eb; color: #ffffff; }
+
+.wakelock-status { font-size: 0.65rem; font-weight: 800; color: #16a34a; background: #dcfce7; border: 1px solid #86efac; padding: 2px 6px; border-radius: 10px; opacity: 0; transition: opacity 0.2s ease; }
+.wakelock-status.active { opacity: 1; }
+
+/* INTEGRERET HOVEDBOKS */
+.balke-unified-card {
+  background: #f8fafc; border: 2px solid #2563eb; border-radius: 14px; padding: 12px; margin-bottom: 10px;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.08); transition: all 0.2s ease;
+}
+.balke-unified-card.is-running { background: #eff6ff; border-color: #1d4ed8; }
+
+.unified-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap; gap: 4px; }
+.timer-top-label { font-size: 0.68rem; font-weight: 900; color: #64748b; letter-spacing: 0.04em; text-align: left; }
+.card-tools-right { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+
+.card-divider { border: none; border-top: 1px solid #e2e8f0; margin: 10px 0; }
+
+/* 1. Timer & Slider Sektion */
+.time-display-row { display: flex; align-items: center; justify-content: center; gap: 4px; }
+
+/* Perfekt tilpassede input-bokse uden overflow */
+.large-time-input {
+  width: 68px; height: 48px; text-align: center; font-size: 2.2rem; font-weight: 900; color: #0f172a;
+  border: 1.5px solid #cbd5e1; border-radius: 8px; background: #ffffff; padding: 0; line-height: 48px;
+  font-variant-numeric: tabular-nums; box-sizing: border-box; -moz-appearance: textfield;
+}
+.large-time-input::-webkit-outer-spin-button,
+.large-time-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.large-time-input:focus { outline: none; border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); }
+
+.large-colon { font-size: 2.0rem; font-weight: 900; color: #0f172a; line-height: 1; }
+.time-unit-sub { font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px; }
+
+.slider-container { width: 100%; margin-top: 8px; padding: 0 4px; }
+.balke-slider {
+  width: 100%; height: 6px; border-radius: 3px; background: #cbd5e1; outline: none; -webkit-appearance: none; cursor: pointer;
+}
+.balke-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none; width: 20px; height: 20px; border-radius: 50%; background: #2563eb; cursor: pointer; border: 2px solid #ffffff; box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* 2. Nuværende Trin Sektion (Integreret & Tydelig) */
+.stage-section { background: #ffffff; border: 1.5px solid #bfdbfe; border-radius: 10px; padding: 8px 10px; margin-top: 4px; }
+.stage-header-line { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+.badge-current { font-size: 0.82rem; font-weight: 900; color: #1d4ed8; }
+.badge-speed { font-size: 0.72rem; font-weight: 800; background: #dbeafe; color: #1e40af; padding: 2px 6px; border-radius: 6px; }
+
+.stage-metrics-row { display: flex; justify-content: space-around; align-items: center; margin: 2px 0 6px 0; }
+.metric-block { text-align: center; }
+.metric-sub { font-size: 0.60rem; font-weight: 800; color: #64748b; letter-spacing: 0.04em; display: block; }
+.metric-val-hero { font-size: 2.0rem; font-weight: 900; color: #0f172a; line-height: 1; }
+.metric-val-hero small { font-size: 1.1rem; color: #2563eb; margin-left: 1px; }
+
+.stage-timer-prominent { font-size: 1.35rem; font-weight: 900; color: #1e293b; font-variant-numeric: tabular-nums; line-height: 1; }
+
+.stage-progress-wrapper { height: 6px; background: #e2e8f0; border-radius: 3px; overflow: hidden; width: 100%; margin-top: 4px; }
+.stage-progress-fill { height: 100%; background: #2563eb; transition: width 0.2s linear; }
+
+/* 3. Næste Trin Strip (Med mindre hældning under teksten) */
+.next-strip {
+  background: #fffbeb; border: 1px solid #fef08a; border-radius: 8px; padding: 6px 10px;
+  display: flex; justify-content: space-between; align-items: center; margin-top: 6px; text-align: left;
+}
+.badge-next { font-size: 0.78rem; font-weight: 900; color: #b45309; }
+.next-incline-sub { font-size: 0.68rem; color: #78350f; font-weight: 700; margin-top: 1px; }
+.next-strip-right { text-align: right; }
+.next-timer-sub { font-size: 0.65rem; color: #78350f; font-weight: 700; display: block; }
+.time-rem-val { font-size: 1.05rem; font-weight: 900; color: #b45309; font-variant-numeric: tabular-nums; }
+
+/* Advarsel ved trinskift (< 10 sek) */
+@keyframes warningPulse {
+  0% { transform: scale(1); border-color: #ef4444; background: #fef2f2; }
+  50% { transform: scale(1.01); border-color: #dc2626; background: #fee2e2; }
+  100% { transform: scale(1); border-color: #ef4444; background: #fef2f2; }
+}
+.next-strip.is-warning { animation: warningPulse 1s infinite ease-in-out; }
+.next-strip.is-warning .badge-next, .next-strip.is-warning .time-rem-val { color: #dc2626; }
+
+/* 4. Kondital Resultat Sektion */
+.result-section { background: #ffffff; border: 1.5px solid #bbf7d0; border-radius: 10px; padding: 8px 10px; margin-top: 4px; }
+.res-title { font-size: 0.68rem; font-weight: 900; color: #166534; letter-spacing: 0.04em; }
+.vo2-value-main { font-size: 2.6rem; font-weight: 900; color: #15803d; line-height: 1; margin: 2px 0 0 0; }
+.vo2-unit { font-size: 0.65rem; font-weight: 800; color: #16a34a; }
+
+.fitness-eval-badge { font-size: 0.70rem; font-weight: 900; padding: 2px 10px; border-radius: 12px; background: #cbd5e1; color: #ffffff; display: inline-block; }
+
+.formula-badge-container { margin-top: 4px; }
+.formula-badge { font-size: 0.65rem; font-weight: 700; color: #475569; background: #f1f5f9; padding: 3px 8px; border-radius: 6px; border: 1px solid #cbd5e1; display: inline-block; }
+
+/* CONTROLS */
+.balke-controls-card { margin-bottom: 12px; }
+.balke-controls { display: flex; gap: 8px; width: 100%; }
+.btn--giant-action {
+  flex: 1; height: 44px; font-size: 1.05rem; font-weight: 900; border-radius: 10px; border: none; cursor: pointer; color: white; background: #2563eb;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25); transition: all 0.15s ease; display: flex; align-items: center; justify-content: center;
+}
+.btn--giant-action.is-running { background: #ef4444; box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3); }
+.btn--giant-action:active { transform: scale(0.98); }
+
+.btn--icon-reset {
+  width: 44px; height: 44px; background: #64748b; color: white; border: none; border-radius: 10px;
+  font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+
+/* LOG TABLE */
+.balke-log-wrapper { margin-top: 10px; text-align: left; border-top: 1px solid #e2e8f0; padding-top: 8px; width: 100%; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+.log-title { font-size: 0.80rem; font-weight: 800; margin: 0; color: #334155; }
+.btn--clear-log { background: transparent; border: none; color: #ef4444; font-weight: 800; font-size: 0.72rem; cursor: pointer; }
+
+.balke-log-table { width: 100% !important; border-collapse: collapse; font-size: 0.75rem; table-layout: fixed; margin: 0; }
+.balke-log-table th { background: #f8fafc; padding: 5px 4px; border-bottom: 2px solid #cbd5e1; text-align: center; font-weight: 800; color: #475569; }
+.balke-log-table td { padding: 5px 4px; border-bottom: 1px solid #f1f5f9; text-align: center; vertical-align: middle; }
+
+/* SCREENSHOT */
+.balke-screenshot-wrapper { margin-top: 10px; width: 100%; }
+.btn--screenshot {
+  width: 100%; padding: 8px; font-size: 0.85rem; font-weight: 800; border-radius: 8px;
+  border: none; background: #2563eb; color: #ffffff; cursor: pointer; transition: background 0.15s ease;
+}
+.btn--screenshot:hover { background: #1d4ed8; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let activeMode = 'walk'; // 'walk' (5,3 km/t) eller 'run' (8,0 km/t)
+  let activeGender = 'male'; // 'male' eller 'female'
+  
+  let isRunning = false;
+  let startTime = 0;
+  let elapsedTimeMs = 0;
+  let animFrameId = null;
+
+  let lastStageIndex = 0;
+  let lastWarnedSec = -1;
+  let selectedSound = 'on';
+
+  let audioCtx = null;
+  let wakeLock = null;
+
+  const widget = document.querySelector(".balke-widget");
+  if (!widget) return;
+
+  const unifiedCard = widget.querySelector("#balke-unified-card");
+  const inputMin = widget.querySelector("#input-min");
+  const inputSec = widget.querySelector("#input-sec");
+  const timeSlider = widget.querySelector("#balke-time-slider");
+
+  const btnStartStop = widget.querySelector("#btn-balke-start-stop");
+  const btnReset = widget.querySelector("#btn-balke-reset");
+
+  const currentStageNum = widget.querySelector("#current-stage-num");
+  const currentFixedSpeed = widget.querySelector("#current-fixed-speed");
+  const currentInclineVal = widget.querySelector("#current-incline-val");
+  const currentStageTimeElapsed = widget.querySelector("#current-stage-time-elapsed");
+  const currentStageFill = widget.querySelector("#current-stage-fill");
+
+  const cardNextStage = widget.querySelector("#card-next-stage");
+  const nextStageNum = widget.querySelector("#next-stage-num");
+  const nextInclineVal = widget.querySelector("#next-incline-val");
+  const nextStageTimeRemaining = widget.querySelector("#next-stage-time-remaining");
+
+  const resVo2maxVal = widget.querySelector("#res-vo2max-val");
+  const resFitnessBadge = widget.querySelector("#res-fitness-badge");
+  const activeFormulaText = widget.querySelector("#active-formula-text");
+  const genderContainer = widget.querySelector("#gender-toggle-container");
+
+  const logTbody = widget.querySelector(".log-tbody");
+  const btnClearLog = widget.querySelector(".btn-clear-log");
+  const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const infoModal = widget.querySelector(".balke-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+  const fullscreenBtn = widget.querySelector(".fullscreen-btn");
+
+  function getStageData(stageIndex, mode) {
+    const speedStr = (mode === 'walk') ? "5,3" : "8,0";
+    let incline = (mode === 'walk') ? ((stageIndex === 0) ? 0 : stageIndex + 1) : stageIndex;
+    return { stage: stageIndex + 1, speed: speedStr, incline: Math.min(25, incline) };
+  }
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.mode || btn.dataset.gender || btn.dataset.val);
+      });
+    });
+  }
+
+  setupToggleGroup("balke-mode-toggle", (mode) => {
+    activeMode = mode;
+    currentFixedSpeed.textContent = (activeMode === 'walk') ? "5,3 km/t" : "8,0 km/t";
+    genderContainer.style.opacity = (activeMode === 'walk') ? "1" : "0.5";
+    updateAllFromSeconds(getSecsFromInputs());
+  });
+
+  setupToggleGroup("balke-gender-toggle", (gender) => {
+    activeGender = gender;
+    updateAllFromSeconds(getSecsFromInputs());
+  });
+
+  setupToggleGroup("balke-sound-toggle", (val) => { selectedSound = val; });
+
+  fullscreenBtn.addEventListener("click", () => {
+    if (!document.fullscreenElement) widget.requestFullscreen().catch(() => {});
+    else document.exitFullscreen();
+  });
+
+  function playSound(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain); gain.connect(audioCtx.destination);
+    const now = audioCtx.currentTime;
+
+    if (type === 'warn') {
+      osc.frequency.value = 880; gain.gain.setValueAtTime(0.2, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+      osc.start(now); osc.stop(now + 0.15);
+    } else if (type === 'stage') {
+      osc.frequency.value = 1200; gain.gain.setValueAtTime(0.4, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+      osc.start(now); osc.stop(now + 0.4);
+    } else if (type === 'stop') {
+      osc.frequency.value = 500; gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.start(now); osc.stop(now + 0.3);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function getSecsFromInputs() {
+    const m = parseInt(inputMin.value, 10) || 0;
+    const s = parseInt(inputSec.value, 10) || 0;
+    return (m * 60) + s;
+  }
+
+  function formatMMSS(totalSecs) {
+    const mins = Math.floor(totalSecs / 60);
+    const secs = Math.floor(totalSecs % 60);
+    return {
+      m: mins.toString().padStart(2, '0'),
+      s: secs.toString().padStart(2, '0'),
+      str: `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`
+    };
+  }
+
+  function calculateVO2(totalSecs) {
+    if (totalSecs <= 0) return 0;
+    const T = totalSecs / 60;
+    if (activeMode === 'walk') {
+      return (activeGender === 'male') ? (14.99 + (1.444 * T)) : (5.22 + (1.38 * T));
+    } else {
+      return 30.17 + (1.20 * T);
+    }
+  }
+
+  function getEvalCat(vo2) {
+    if (vo2 < 30) return { cat: 'Lav', color: '#ef4444' };
+    if (vo2 < 38) return { cat: 'Under middel', color: '#f97316' };
+    if (vo2 < 46) return { cat: 'Middel', color: '#eab308' };
+    if (vo2 < 54) return { cat: 'Høj', color: '#22c55e' };
+    return { cat: 'Meget høj', color: '#2563eb' };
+  }
+
+  function updateAllFromSeconds(totalSecs) {
+    const formatted = formatMMSS(totalSecs);
+    if (document.activeElement !== inputMin) inputMin.value = formatted.m;
+    if (document.activeElement !== inputSec) inputSec.value = formatted.s;
+    timeSlider.value = totalSecs;
+
+    const stageIndex = Math.floor(totalSecs / 60);
+    const currData = getStageData(stageIndex, activeMode);
+    const nextData = getStageData(stageIndex + 1, activeMode);
+    const secInStage = totalSecs % 60;
+    const secRem = 60 - secInStage;
+
+    currentStageNum.textContent = currData.stage;
+    currentInclineVal.textContent = currData.incline;
+    currentStageTimeElapsed.textContent = `${formatMMSS(secInStage).str} / 01:00`;
+    
+    // Slider der tæller ned på det aktuelle trin (100% ned til 0%)
+    const stagePctRemaining = (secRem / 60) * 100;
+    currentStageFill.style.width = `${stagePctRemaining}%`;
+
+    nextStageNum.textContent = nextData.stage;
+    nextInclineVal.textContent = `${nextData.incline}%`;
+    nextStageTimeRemaining.textContent = formatMMSS(secRem).str;
+
+    if (secRem <= 10 && totalSecs > 0) cardNextStage.classList.add("is-warning");
+    else cardNextStage.classList.remove("is-warning");
+
+    const vo2 = calculateVO2(totalSecs);
+    if (vo2 > 0) {
+      resVo2maxVal.textContent = vo2.toFixed(1);
+      const ev = getEvalCat(vo2);
+      resFitnessBadge.textContent = ev.cat;
+      resFitnessBadge.style.background = ev.color;
+    } else {
+      resVo2maxVal.textContent = "-";
+      resFitnessBadge.textContent = "Mangler data";
+      resFitnessBadge.style.background = "#cbd5e1";
+    }
+
+    if (activeMode === 'walk') {
+      activeFormulaText.textContent = (activeGender === 'male') 
+        ? "Formel: Pollock et al. (1976) – Gang (Mand)"
+        : "Formel: Pollock et al. (1982) – Gang (Kvinde)";
+    } else {
+      activeFormulaText.textContent = "Formel: ACSM Running Ligning – Løb (8,0 km/t)";
+    }
+  }
+
+  inputMin.addEventListener("input", () => updateAllFromSeconds(getSecsFromInputs()));
+  inputSec.addEventListener("input", () => updateAllFromSeconds(getSecsFromInputs()));
+  timeSlider.addEventListener("input", (e) => updateAllFromSeconds(parseFloat(e.target.value)));
+
+  function updateTimer() {
+    if (!isRunning) return;
+    const now = performance.now();
+    elapsedTimeMs = now - startTime;
+    const totalSecs = elapsedTimeMs / 1000;
+
+    updateAllFromSeconds(totalSecs);
+
+    const stageIndex = Math.floor(totalSecs / 60);
+    const secRem = 60 - (totalSecs % 60);
+    const currentSecInt = Math.floor(totalSecs);
+
+    if (currentSecInt !== lastWarnedSec) {
+      if (secRem <= 5 && secRem > 0) playSound('warn');
+      if (stageIndex > lastStageIndex) { playSound('stage'); lastStageIndex = stageIndex; }
+      lastWarnedSec = currentSecInt;
+    }
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function startTest() {
+    isRunning = true;
+    requestWakeLock();
+    startTime = performance.now() - (getSecsFromInputs() * 1000);
+    unifiedCard.classList.add("is-running");
+    btnStartStop.className = "btn btn--giant-action is-running";
+    btnStartStop.textContent = "🛑 STOP TEST (UDMATTELSE)";
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function stopTest() {
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+    playSound('stop');
+
+    unifiedCard.classList.remove("is-running");
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TEST";
+
+    const totalSecs = getSecsFromInputs();
+    const vo2 = calculateVO2(totalSecs);
+    const currData = getStageData(Math.floor(totalSecs / 60), activeMode);
+
+    autoSaveToLocalStorage(
+      formatMMSS(totalSecs).str,
+      (activeMode === 'walk') ? `Gang (${activeGender === 'male'?'M':'K'})` : 'Løb (8,0)',
+      vo2 > 0 ? vo2.toFixed(1) : '-',
+      `${currData.incline}%`
+    );
+  }
+
+  function resetTest() {
+    if (isRunning && !confirm("Afbryd igangværende Balke-test?")) return;
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    elapsedTimeMs = 0;
+    lastStageIndex = 0;
+    lastWarnedSec = -1;
+
+    unifiedCard.classList.remove("is-running");
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TEST";
+
+    updateAllFromSeconds(0);
+  }
+
+  let lastSavedKey = "";
+  function autoSaveToLocalStorage(timeStr, typeStr, vo2Str, loadStr) {
+    const saveKey = `${timeStr}_${typeStr}`;
+    if (saveKey === lastSavedKey) return;
+    lastSavedKey = saveKey;
+
+    const logs = JSON.parse(localStorage.getItem("balke_test_logs") || "[]");
+    const now = new Date();
+    const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+    logs.unshift({ date: dateStr, type: typeStr, time: timeStr, vo2: vo2Str, load: loadStr });
+    localStorage.setItem("balke_test_logs", JSON.stringify(logs.slice(0, 20)));
+    renderLocalStorageLog();
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem("balke_test_logs") || "[]");
+    logTbody.innerHTML = "";
+    if (logs.length === 0) {
+      logTbody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+      return;
+    }
+    logs.forEach(item => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td><span style="font-weight:700;">${item.type}</span></td>
+        <td><strong>${item.time}</strong></td>
+        <td><strong style="color:#16a34a;">${item.vo2}</strong></td>
+        <td><span style="color:#2563eb; font-weight:800;">${item.load}</span></td>
+      `;
+      logTbody.appendChild(tr);
+    });
+  }
+
+  function takeScreenshot() {
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `balke-test-resultat-${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  btnStartStop.addEventListener("click", () => {
+    if (!isRunning) startTest();
+    else stopTest();
+  });
+
+  btnReset.addEventListener("click", resetTest);
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Vil du slette alle gemte Balke-test fra hukommelsen?")) {
+      localStorage.removeItem("balke_test_logs");
+      renderLocalStorageLog();
+    }
+  });
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  renderLocalStorageLog();
+  updateAllFromSeconds(0);
+});
+</script>

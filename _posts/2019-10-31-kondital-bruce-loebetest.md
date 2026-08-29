@@ -152,7 +152,7 @@ Du kan se en visuel gennemgang af Bruce-testen i videoen herunder:
 
 ---
 
-## Formler til Beregning af Kondital (VO₂max)
+## Formler brugt i beregneren til Bruce-protokollen
 
 For at beregne dit kondital ud fra den opnåede tid ($T$ i minutter), benyttes regneformler baseret på udøverens køn og aktivitetsniveau. 
 
