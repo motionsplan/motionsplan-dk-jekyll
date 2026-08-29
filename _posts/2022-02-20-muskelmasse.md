@@ -9,7 +9,6 @@ header:
   credit: https://images.unsplash.com/photo-1613288092085-eb081fde1509
   caption: Udregn din muskelmasse i vores beregner
 categories:
-- Styrketræning
 - Kropskomposition
 tags:
 - beregner
@@ -103,6 +102,9 @@ En hyppig kilde til forvirring opstår ved målinger på bioimpedans-vægte elle
 2. **Skeletmuskelmasse (SM):** Selve den vilkårligt styrede muskulatur. Denne udgør typisk 40–50% af din LBM. For samme mand vil den rene muskelmasse ligge på omkring 32–35 kg.
 
 Vil du beregne din samlede fordeling af fedt og fedtfri masse i detaljer, kan du læse mere i vores hovedartikel om [kropskomposition](/kropskomposition/) eller finde præcise målemetoder under vores guide til at [måle fedtprocent](/fedtprocent-normer/#metoder).
+
+> 🏋️ **Dyrker du tung styrketræning?**  
+> Prøv vores **[FFMI Beregner (Fat-Free Mass Index)](/ffmi-fat-free-mass-index/)** for at udregne dit genetiske muskelpotentiale og se, hvor du ligger på den videnskabelige FFMI-skala.
 
 ---
 

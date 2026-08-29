@@ -1,0 +1,528 @@
+{% assign calc_title = include.title | default: "Somatotype & Kropstype" %}
+{% assign data_id = include.calc_id | default: "somatotype-dashboard" %}
+
+<div class="mp-calc-card vbt-premium-card" id="{{ data_id }}" data-calculator="{{ data_id }}" data-ui-module="somatotype-dashboard" style="box-sizing: border-box; clear: both;">
+  
+  <!-- HEADER -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0; font-size: 1.3rem; font-weight: 800; color: #0f172a;">{{ calc_title }}</h3>
+      <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: #64748b;">Find din kropstype (Endomorph, Mesomorph, Ectomorph) og sammenlign med eliten</p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-somatotype-container" style="display: flex; flex-direction: column; gap: 1.25rem;">
+    
+    <!-- MODE TOGGLE -->
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <label style="font-weight: 700; font-size: 0.9rem; color: #334155;">Vælg målemetode</label>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; background: #f8fafc; padding: 6px; border-radius: 14px; border: 1px solid #e2e8f0;">
+        
+        <input type="radio" id="soma-mode-simple-{{ data_id }}" name="soma-mode-{{ data_id }}" value="simple" class="js-soma-mode-radio" checked style="display:none;">
+        <label for="soma-mode-simple-{{ data_id }}" class="js-soma-mode-label" data-value="simple" style="padding: 12px 14px; border-radius: 10px; cursor: pointer; transition: all 0.2s ease; background: #2563eb; color: #ffffff; border: 1px solid #2563eb; display: flex; flex-direction: column; gap: 4px; box-sizing: border-box; min-height: 85px;">
+          <span style="font-weight: 800; font-size: 0.95rem;">Hurtig målemetode</span>
+          <span class="js-soma-mode-subtext" style="font-size: 0.75rem; color: #dbeafe; font-weight: 500; line-height: 1.35;">Baseret på højde, vægt og kropsproportioner uden specialudstyr.</span>
+        </label>
+        
+        <input type="radio" id="soma-mode-full-{{ data_id }}" name="soma-mode-{{ data_id }}" value="full" class="js-soma-mode-radio" style="display:none;">
+        <label for="soma-mode-full-{{ data_id }}" class="js-soma-mode-label" data-value="full" style="padding: 12px 14px; border-radius: 10px; cursor: pointer; transition: all 0.2s ease; background: #ffffff; color: #334155; border: 1px solid #cbd5e1; display: flex; flex-direction: column; gap: 4px; box-sizing: border-box; min-height: 85px;">
+          <span style="font-weight: 800; font-size: 0.95rem;">Fuld Heath-Carter</span>
+          <span class="js-soma-mode-subtext" style="font-size: 0.75rem; color: #64748b; font-weight: 500; line-height: 1.35;">Præcis antropometri med fedttang (skinfolds), omkredse og knoglebredder.</span>
+        </label>
+
+      </div>
+    </div>
+
+    <!-- BASIS DEMOGRAFI METRICS (PERFEKT VERTICAL ALIGNMENT) -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; align-items: end;">
+      
+      <!-- KØN TOGGLE -->
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <label style="font-size: 0.8rem; font-weight: 700; color: #475569; margin: 0; line-height: 1.2;">Køn</label>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3px; background: #f1f5f9; padding: 3px; border-radius: 10px; border: 1px solid #cbd5e1; height: 44px; box-sizing: border-box; align-items: center;">
+          <input type="radio" id="soma-gender-male-{{ data_id }}" name="soma-gender-{{ data_id }}" value="male" class="js-soma-gender-radio" checked style="display:none;">
+          <label for="soma-gender-male-{{ data_id }}" class="js-soma-gender-label" data-value="male" style="display: flex; align-items: center; justify-content: center; height: 100%; border-radius: 7px; cursor: pointer; font-size: 0.78rem; font-weight: 700; background: #2563eb; color: #ffffff; transition: all 0.2s ease; padding: 0; text-align: center; margin: 0; box-sizing: border-box;">
+            Mand
+          </label>
+          
+          <input type="radio" id="soma-gender-female-{{ data_id }}" name="soma-gender-{{ data_id }}" value="female" class="js-soma-gender-radio" style="display:none;">
+          <label for="soma-gender-female-{{ data_id }}" class="js-soma-gender-label" data-value="female" style="display: flex; align-items: center; justify-content: center; height: 100%; border-radius: 7px; cursor: pointer; font-size: 0.78rem; font-weight: 700; background: transparent; color: #475569; transition: all 0.2s ease; padding: 0; text-align: center; margin: 0; box-sizing: border-box;">
+            Kvinde
+          </label>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <label style="font-size: 0.8rem; font-weight: 700; color: #475569; margin: 0; line-height: 1.2;">Højde (cm)</label>
+        <input type="number" class="js-soma-height" placeholder="180" value="180" min="100" max="230" style="width:100%; height: 44px; padding: 0 10px; border: 1px solid #cbd5e1; border-radius: 10px; font-weight: 700; box-sizing: border-box; font-size: 0.9rem; margin: 0;">
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <label style="font-size: 0.8rem; font-weight: 700; color: #475569; margin: 0; line-height: 1.2;">Kropsvægt (kg)</label>
+        <input type="number" step="0.1" class="js-soma-weight" placeholder="78" value="78" style="width:100%; height: 44px; padding: 0 10px; border: 1px solid #cbd5e1; border-radius: 10px; font-weight: 700; box-sizing: border-box; font-size: 0.9rem; margin: 0;">
+      </div>
+    </div>
+
+    <!-- ADVANCED HEATH-CARTER FIELDS -->
+    <div class="js-soma-advanced-section" style="display: none; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 16px; padding: 16px;">
+      <span style="font-weight: 800; color: #0f172a; font-size: 0.95rem; display: block; margin-bottom: 12px;">Antropometriske målinger (Fuld Heath-Carter)</span>
+      
+      <!-- Hudfoldsmålinger -->
+      <div style="font-size: 0.75rem; font-weight: 800; color: #0284c7; letter-spacing: 0.5px; margin-bottom: 8px;">HUDFOLDSMÅLINGER (MM)</div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 16px;">
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Triceps hudfold</label>
+          <input type="number" step="0.5" class="js-soma-sf-triceps" value="8" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Subscapularis hudfold</label>
+          <input type="number" step="0.5" class="js-soma-sf-subscap" value="10" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Supraspinale hudfold</label>
+          <input type="number" step="0.5" class="js-soma-sf-supra" value="7" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Abdominale hudfold</label>
+          <input type="number" step="0.5" class="js-soma-sf-abdo" value="12" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Forlår hudfold</label>
+          <input type="number" step="0.5" class="js-soma-sf-thigh" value="9" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Læg hudfold</label>
+          <input type="number" step="0.5" class="js-soma-sf-calf" value="6" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+      </div>
+
+      <!-- Knoglebredder & Omkredse -->
+      <div style="font-size: 0.75rem; font-weight: 800; color: #0284c7; letter-spacing: 0.5px; margin-bottom: 8px;">KNOGLEBREDDER & OMKREDSE (CM)</div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;">
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Overarm bredde (Albue)</label>
+          <input type="number" step="0.1" class="js-soma-humerus" value="7.1" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Lår bredde (Knæ)</label>
+          <input type="number" step="0.1" class="js-soma-femur" value="9.6" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Overarm (afslappet)</label>
+          <input type="number" step="0.1" class="js-soma-arm-relaxed" value="31" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Overarm (flekset)</label>
+          <input type="number" step="0.1" class="js-soma-arm-flexed" value="34" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Låromkreds</label>
+          <input type="number" step="0.1" class="js-soma-thigh-girth" value="55" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+        <div>
+          <label style="font-size: 0.7rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Lægomkreds</label>
+          <input type="number" step="0.1" class="js-soma-calf-girth" value="37" style="width:100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; font-weight: 600; box-sizing: border-box;">
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTATER -->
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+        
+        <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 12px; padding: 10px; text-align: center;">
+          <span style="font-size: 0.7rem; font-weight: 800; color: #991b1b; display: block;">ENDOMORPH</span>
+          <span class="js-soma-endo-val" style="font-size: 1.8rem; font-weight: 900; color: #dc2626;">2.5</span>
+          <span style="font-size: 0.65rem; color: #7f1d1d; display: block;">Relativ fedtmasse</span>
+        </div>
+
+        <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 12px; padding: 10px; text-align: center;">
+          <span style="font-size: 0.7rem; font-weight: 800; color: #1e40af; display: block;">MESOMORPH</span>
+          <span class="js-soma-meso-val" style="font-size: 1.8rem; font-weight: 900; color: #2563eb;">4.8</span>
+          <span style="font-size: 0.65rem; color: #1e3a8a; display: block;">Relativ muskelmasse</span>
+        </div>
+
+        <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 10px; text-align: center;">
+          <span style="font-size: 0.7rem; font-weight: 800; color: #166534; display: block;">ECTOMORPH</span>
+          <span class="js-soma-ecto-val" style="font-size: 1.8rem; font-weight: 900; color: #16a34a;">3.2</span>
+          <span style="font-size: 0.65rem; color: #14532d; display: block;">Relativ slankhed</span>
+        </div>
+
+      </div>
+
+      <div style="background: #0f172a; color: #ffffff; border-radius: 12px; padding: 14px; text-align: center;">
+        <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; font-weight: 700; display: block;">Din Dominante Kropstype</span>
+        <div class="js-soma-category-title" style="font-size: 1.35rem; font-weight: 800; color: #38bdf8; margin: 2px 0;">Ectomorphic Mesomorph</div>
+        <div class="js-soma-category-desc" style="font-size: 0.82rem; color: #cbd5e1;">Atletisk bygget krop med god muskelmasse og lav fedtprocent.</div>
+      </div>
+    </div>
+
+    <!-- CANVAS SOMATOPLOT (SØMLØS REN HVID BAGGRUND) -->
+    <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 16px; text-align: center;">
+      <div style="position: relative; width: 100%; max-width: 440px; margin: 0 auto;">
+        <canvas class="js-soma-canvas" width="440" height="380" style="width: 100%; height: auto; display: block; background: #ffffff; border-radius: 12px;"></canvas>
+      </div>
+      <p style="font-size: 0.78rem; color: #64748b; margin: 12px 0 0 0; line-height: 1.4; font-weight: 500;">
+        Trekanten (Somatoplot) viser din kropsbygning i forhold til de tre grundlæggende kropstyper. Den røde prik repræsenterer din placering sammenlignet med gennemsnittet for eliteatleter.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  // Benchmark koordinater
+  const ELITE_BENCHMARKS = [
+    { name: 'Olympic Lifter (M)', endo: 1.5, meso: 7.5, ecto: 0.7, align: 'left', dx: 8, dy: 3 },
+    { name: 'Wrestler (M)', endo: 2.2, meso: 6.8, ecto: 1.0, align: 'right', dx: -8, dy: 3 },
+    { name: 'Gymnast (M)', endo: 1.7, meso: 5.8, ecto: 2.3, align: 'left', dx: 8, dy: 3 },
+    { name: 'Water Polo (M)', endo: 2.6, meso: 5.2, ecto: 2.3, align: 'right', dx: -8, dy: -2 },
+    { name: 'Elite Rower (M HW)', endo: 2.1, meso: 5.0, ecto: 2.7, align: 'left', dx: 8, dy: -4 },
+    { name: 'Elite Swim (M)', endo: 2.0, meso: 5.0, ecto: 3.0, align: 'left', dx: 8, dy: 8 },
+    { name: 'Elite Tri (M)', endo: 1.8, meso: 4.2, ecto: 3.2, align: 'left', dx: 8, dy: -2 },
+    { name: 'Elite Tri (F)', endo: 2.6, meso: 3.8, ecto: 3.1, align: 'right', dx: -8, dy: 6 },
+    { name: 'Elite Distance Runner (M)', endo: 1.4, meso: 4.1, ecto: 3.8, align: 'left', dx: 8, dy: 3 },
+    { name: 'Kenyan (M)', endo: 1.4, meso: 1.8, ecto: 4.3, align: 'left', dx: 8, dy: 3 }
+  ];
+
+  const STORAGE_KEY = 'motionsplan_somatotype_data_{{ data_id }}';
+
+  function initSomatotypeDashboard(container) {
+    if (!container) return;
+
+    const modeRadios = container.querySelectorAll('.js-soma-mode-radio');
+    const modeLabels = container.querySelectorAll('.js-soma-mode-label');
+    const genderRadios = container.querySelectorAll('.js-soma-gender-radio');
+    const genderLabels = container.querySelectorAll('.js-soma-gender-label');
+    const advSection = container.querySelector('.js-soma-advanced-section');
+    const canvas = container.querySelector('.js-soma-canvas');
+
+    let currentMode = 'simple';
+    let currentGender = 'male';
+
+    function getInputs() {
+      return {
+        gender: currentGender,
+        height: parseFloat(container.querySelector('.js-soma-height').value) || 180,
+        weight: parseFloat(container.querySelector('.js-soma-weight').value) || 78,
+
+        triceps: parseFloat(container.querySelector('.js-soma-sf-triceps').value) || 8,
+        subscap: parseFloat(container.querySelector('.js-soma-sf-subscap').value) || 10,
+        supra: parseFloat(container.querySelector('.js-soma-sf-supra').value) || 7,
+        abdo: parseFloat(container.querySelector('.js-soma-sf-abdo').value) || 12,
+        thighSf: parseFloat(container.querySelector('.js-soma-sf-thigh').value) || 9,
+        calfSf: parseFloat(container.querySelector('.js-soma-sf-calf').value) || 6,
+
+        humerus: parseFloat(container.querySelector('.js-soma-humerus').value) || 7.1,
+        femur: parseFloat(container.querySelector('.js-soma-femur').value) || 9.6,
+        armRelaxed: parseFloat(container.querySelector('.js-soma-arm-relaxed').value) || 31,
+        armFlexed: parseFloat(container.querySelector('.js-soma-arm-flexed').value) || 34,
+        thighGirth: parseFloat(container.querySelector('.js-soma-thigh-girth').value) || 55,
+        calfGirth: parseFloat(container.querySelector('.js-soma-calf-girth').value) || 37
+      };
+    }
+
+    function saveState() {
+      const data = {
+        mode: currentMode,
+        gender: currentGender,
+        height: container.querySelector('.js-soma-height').value,
+        weight: container.querySelector('.js-soma-weight').value,
+        triceps: container.querySelector('.js-soma-sf-triceps').value,
+        subscap: container.querySelector('.js-soma-sf-subscap').value,
+        supra: container.querySelector('.js-soma-sf-supra').value,
+        abdo: container.querySelector('.js-soma-sf-abdo').value,
+        thighSf: container.querySelector('.js-soma-sf-thigh').value,
+        calfSf: container.querySelector('.js-soma-sf-calf').value,
+        humerus: container.querySelector('.js-soma-humerus').value,
+        femur: container.querySelector('.js-soma-femur').value,
+        armRelaxed: container.querySelector('.js-soma-arm-relaxed').value,
+        armFlexed: container.querySelector('.js-soma-arm-flexed').value,
+        thighGirth: container.querySelector('.js-soma-thigh-girth').value,
+        calfGirth: container.querySelector('.js-soma-calf-girth').value
+      };
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      } catch (e) {}
+    }
+
+    function loadState() {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (!saved) return;
+        const data = JSON.parse(saved);
+
+        if (data.mode) {
+          currentMode = data.mode;
+          const radio = container.querySelector(`.js-soma-mode-radio[value="${currentMode}"]`);
+          if (radio) radio.checked = true;
+        }
+        if (data.gender) {
+          currentGender = data.gender;
+          const radio = container.querySelector(`.js-soma-gender-radio[value="${currentGender}"]`);
+          if (radio) radio.checked = true;
+        }
+
+        const map = {
+          height: '.js-soma-height', weight: '.js-soma-weight',
+          triceps: '.js-soma-sf-triceps', subscap: '.js-soma-sf-subscap',
+          supra: '.js-soma-sf-supra', abdo: '.js-soma-sf-abdo',
+          thighSf: '.js-soma-sf-thigh', calfSf: '.js-soma-sf-calf',
+          humerus: '.js-soma-humerus', femur: '.js-soma-femur',
+          armRelaxed: '.js-soma-arm-relaxed', armFlexed: '.js-soma-arm-flexed',
+          thighGirth: '.js-soma-thigh-girth', calfGirth: '.js-soma-calf-girth'
+        };
+
+        Object.keys(map).forEach(key => {
+          if (data[key] !== undefined) {
+            const el = container.querySelector(map[key]);
+            if (el) el.value = data[key];
+          }
+        });
+      } catch (e) {}
+    }
+
+    function updateUIStyles() {
+      modeLabels.forEach(lbl => {
+        const subtext = lbl.querySelector('.js-soma-mode-subtext');
+        if (lbl.dataset.value === currentMode) {
+          lbl.style.background = '#2563eb';
+          lbl.style.color = '#ffffff';
+          lbl.style.borderColor = '#2563eb';
+          if (subtext) subtext.style.color = '#dbeafe';
+        } else {
+          lbl.style.background = '#ffffff';
+          lbl.style.color = '#334155';
+          lbl.style.borderColor = '#cbd5e1';
+          if (subtext) subtext.style.color = '#64748b';
+        }
+      });
+
+      genderLabels.forEach(lbl => {
+        if (lbl.dataset.value === currentGender) {
+          lbl.style.background = '#2563eb';
+          lbl.style.color = '#ffffff';
+        } else {
+          lbl.style.background = 'transparent';
+          lbl.style.color = '#475569';
+        }
+      });
+
+      advSection.style.display = (currentMode === 'full') ? 'block' : 'none';
+    }
+
+    function calculateScores(inp) {
+      let endo, meso, ecto;
+
+      const hwr = inp.height / Math.pow(inp.weight, 0.3333);
+      if (hwr >= 40.75) {
+        ecto = 0.732 * hwr - 28.58;
+      } else if (hwr >= 38.25) {
+        ecto = 0.463 * hwr - 17.63;
+      } else {
+        ecto = 0.1;
+      }
+
+      if (currentMode === 'full') {
+        const sum3 = (inp.triceps + inp.subscap + inp.supra) * (170.18 / inp.height);
+        endo = -0.7182 + (0.1451 * sum3) - (0.00068 * Math.pow(sum3, 2)) + (0.0000014 * Math.pow(sum3, 3));
+        
+        const armCorr = inp.armFlexed - (inp.triceps / 10);
+        const calfCorr = inp.calfGirth - (inp.calfSf / 10);
+        meso = (0.858 * inp.humerus) + (0.601 * inp.femur) + (0.188 * armCorr) + (0.161 * calfCorr) - (0.131 * inp.height) + 4.5;
+      } else {
+        const bmi = inp.weight / Math.pow(inp.height / 100, 2);
+        endo = Math.max(1, (bmi - 18) * 0.35 + 1.5);
+        meso = Math.max(1, (bmi - 16) * 0.4 - (ecto * 0.3));
+      }
+
+      endo = Math.round(Math.max(0.5, endo) * 10) / 10;
+      meso = Math.round(Math.max(0.5, meso) * 10) / 10;
+      ecto = Math.round(Math.max(0.5, ecto) * 10) / 10;
+
+      return { endo, meso, ecto };
+    }
+
+    function getCategory(scores) {
+      const { endo, meso, ecto } = scores;
+
+      if (meso > endo && meso > ecto) {
+        if (ecto > endo) return { title: 'Ectomorphic Mesomorph', desc: 'Muskuløs og atletisk opbygning med lange, slanke lemmer.' };
+        if (endo > ecto) return { title: 'Endomorphic Mesomorph', desc: 'Kraftig og meget muskuløs kropsbygning med solid knoglestruktur.' };
+        return { title: 'Balanced Mesomorph', desc: 'Dominant muskel- og knoglemasse med lav fedtprocent.' };
+      }
+      if (endo > meso && endo > ecto) {
+        if (meso > ecto) return { title: 'Mesomorphic Endomorph', desc: 'Kraftig kropsbygning med både god muskelmasse og polstring.' };
+        return { title: 'Balanced Endomorph', desc: 'Rundere konturer med nem adgang til energilagring.' };
+      }
+      if (ecto > endo && ecto > meso) {
+        if (meso > endo) return { title: 'Mesomorphic Ectomorph', desc: 'Slank, lineær krop med markeret muskulatur.' };
+        return { title: 'Balanced Ectomorph', desc: 'Klassisk slank kropsbygning med spinkle led og lange lemmer.' };
+      }
+      return { title: 'Central / Balanceret', desc: 'Ligelig fordeling mellem fedtmasse, muskelmasse og slankhed.' };
+    }
+
+    function drawSomatoplot(userScores) {
+      if (!canvas || !canvas.getContext) return;
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width;
+      const h = canvas.height;
+
+      ctx.clearRect(0, 0, w, h);
+
+      // Matematisk Origo (X=0, Y=0) placeret præcist i canvas midte
+      const cx = w / 2;
+      const cy = 205;
+
+      // Skalering af X og Y koordinater
+      const scaleX = 17;
+      const scaleY = 12;
+
+      function getCoords(endo, meso, ecto) {
+        const xVal = ecto - endo;
+        const yVal = (2 * meso) - (endo + ecto);
+        return {
+          x: cx + (xVal * scaleX),
+          y: cy - (yVal * scaleY)
+        };
+      }
+
+      // De 3 matematisk præcise toppunkter for envelope-trekanten
+      // Mesomorph (X=0, Y=14.5), Endomorph (X=-9.2, Y=-7.25), Ectomorph (X=9.2, Y=-7.25)
+      const topPt = { x: cx, y: cy - (14.5 * scaleY) };
+      const leftPt = { x: cx + (-9.2 * scaleX), y: cy - (-7.25 * scaleY) };
+      const rightPt = { x: cx + (9.2 * scaleX), y: cy - (-7.25 * scaleY) };
+
+      // Ydre trekant
+      ctx.strokeStyle = '#94a3b8';
+      ctx.lineWidth = 1.5;
+
+      ctx.beginPath();
+      ctx.moveTo(topPt.x, topPt.y);
+      ctx.lineTo(leftPt.x, leftPt.y);
+      ctx.lineTo(rightPt.x, rightPt.y);
+      ctx.closePath();
+      ctx.stroke();
+
+      // Skrålinjer gennem Origo (0,0) til modstående sider (rammer 100% hinanden i midten)
+      ctx.strokeStyle = '#e2e8f0';
+      ctx.lineWidth = 1;
+
+      ctx.beginPath();
+      // Lodret akse (Mesomorph top til bund midt)
+      ctx.moveTo(topPt.x, topPt.y);
+      ctx.lineTo(topPt.x, leftPt.y);
+
+      // Venstre akse fra Endomorph gennem origo (0,0)
+      ctx.moveTo(leftPt.x, leftPt.y);
+      ctx.lineTo(cx + (4.6 * scaleX), cy - (7.25 * scaleY));
+
+      // Højre akse fra Ectomorph gennem origo (0,0)
+      ctx.moveTo(rightPt.x, rightPt.y);
+      ctx.lineTo(cx + (-4.6 * scaleX), cy - (7.25 * scaleY));
+
+      ctx.stroke();
+
+      // Hjørne labels
+      ctx.font = 'bold 12px system-ui, -apple-system, sans-serif';
+      ctx.fillStyle = '#2563eb';
+      ctx.textAlign = 'center';
+      ctx.fillText('Mesomorph', topPt.x, topPt.y - 12);
+
+      ctx.fillStyle = '#dc2626';
+      ctx.textAlign = 'left';
+      ctx.fillText('Endomorph', leftPt.x - 10, leftPt.y + 22);
+
+      ctx.fillStyle = '#16a34a';
+      ctx.textAlign = 'right';
+      ctx.fillText('Ectomorph', rightPt.x + 10, rightPt.y + 22);
+
+      // Elite benchmarks
+      ELITE_BENCHMARKS.forEach(pt => {
+        const pos = getCoords(pt.endo, pt.meso, pt.ecto);
+        ctx.fillStyle = '#475569';
+        ctx.beginPath();
+        ctx.arc(pos.x, pos.y, 3.5, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.font = '500 10px system-ui, -apple-system, sans-serif';
+        ctx.fillStyle = '#334155';
+        ctx.textAlign = pt.align || 'left';
+        ctx.fillText(pt.name, pos.x + (pt.dx || 6), pos.y + (pt.dy || 3));
+      });
+
+      // Brugerens placering (Rød prik uden pin)
+      const userPos = getCoords(userScores.endo, userScores.meso, userScores.ecto);
+
+      ctx.fillStyle = '#ef4444';
+      ctx.beginPath();
+      ctx.arc(userPos.x, userPos.y, 7, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.strokeStyle = '#ffffff';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      ctx.font = 'bold 11px system-ui, -apple-system, sans-serif';
+      ctx.fillStyle = '#991b1b';
+      ctx.textAlign = 'left';
+      ctx.fillText('Du er her', userPos.x + 10, userPos.y + 4);
+    }
+
+    function updateAll() {
+      updateUIStyles();
+      const inputs = getInputs();
+      const scores = calculateScores(inputs);
+      const cat = getCategory(scores);
+
+      container.querySelector('.js-soma-endo-val').textContent = scores.endo.toFixed(1);
+      container.querySelector('.js-soma-meso-val').textContent = scores.meso.toFixed(1);
+      container.querySelector('.js-soma-ecto-val').textContent = scores.ecto.toFixed(1);
+
+      container.querySelector('.js-soma-category-title').textContent = cat.title;
+      container.querySelector('.js-soma-category-desc').textContent = cat.desc;
+
+      drawSomatoplot(scores);
+      saveState();
+    }
+
+    // Event Listeners for Mode
+    modeRadios.forEach(radio => {
+      radio.addEventListener('change', (e) => {
+        currentMode = e.target.value;
+        updateAll();
+      });
+    });
+
+    // Event Listeners for Gender
+    genderRadios.forEach(radio => {
+      radio.addEventListener('change', (e) => {
+        currentGender = e.target.value;
+        updateAll();
+      });
+    });
+
+    // Event Listeners for Inputs
+    container.querySelectorAll('input').forEach(el => {
+      el.addEventListener('input', updateAll);
+    });
+
+    // Indlæs fra LocalStorage & beregn ved opstart
+    loadState();
+    updateAll();
+  }
+
+  function setup() {
+    const el = document.getElementById('{{ data_id }}');
+    if (el) initSomatotypeDashboard(el);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setup);
+  } else {
+    setup();
+  }
+})();
+</script>
