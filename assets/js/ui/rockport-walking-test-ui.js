@@ -1,21 +1,31 @@
-// assets/js/ui/rockport-walking-test-ui.js
-import { calculateRockport, ROCKPORT_FORMULAS } from '../core/rockport-walking-test.js';
+import { calculateWalkingTest, ROCKPORT_FORMULAS, UKK_FORMULAS } from '../core/rockport-walking-test.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
 
 export function initCalculator(container) {
   if (!container) return;
 
-  const STORAGE_KEY = 'mp_rockport_state_v4';
+  const STORAGE_KEY = 'mp_walking_test_state_v7';
+  let activeTestType = 'rockport';
   let activeFormulaKey = 'auto';
 
+  // Hukommelse til tider opdelt pr. testtype
+  let timesByTest = {
+    rockport: { min: '', sec: '' },
+    ukk: { min: '', sec: '' }
+  };
+
   const inputs = container.querySelectorAll('.js-rw-input');
-  
-  // Formel UI elementer
+  const testTypeBtns = container.querySelectorAll('.js-test-type-btn');
+
+  // Text Elements
+  const sectionTestTitle = container.querySelector('.js-section-test-title');
+
+  // Formel UI
   const formulaBar = container.querySelector('.js-rw-formula-bar');
   const manualWrapper = container.querySelector('.js-rw-manual-dropdown-wrapper');
   const pickerContainer = container.querySelector('.js-rw-picker-container');
 
-  // Resultat DOM elementer
+  // Resultat DOM
   const resFitness = container.querySelector('.js-rw-fitness');
   const resSee = container.querySelector('.js-rw-see');
   const resEvalBadge = container.querySelector('.js-rw-eval-badge');
@@ -27,6 +37,10 @@ export function initCalculator(container) {
   const popup = container.querySelector('.js-rw-popup');
   const popupClose = container.querySelector('.js-rw-popup-close');
   const tableBody = container.querySelector('.js-rw-table-body');
+
+  function getAvailableFormulas() {
+    return activeTestType === 'ukk' ? UKK_FORMULAS : ROCKPORT_FORMULAS;
+  }
 
   function toggleFormulaPicker(show) {
     const isCurrentlyOpen = manualWrapper && manualWrapper.style.display === 'block';
@@ -44,21 +58,22 @@ export function initCalculator(container) {
   function renderFormulaPicker() {
     if (!pickerContainer) return;
 
-    pickerContainer.innerHTML = Object.keys(ROCKPORT_FORMULAS).map(key => {
-      const f = ROCKPORT_FORMULAS[key];
+    const formulas = getAvailableFormulas();
+    pickerContainer.innerHTML = Object.keys(formulas).map(key => {
+      const f = formulas[key];
       const isSelected = key === activeFormulaKey;
-      const isAuto = key === 'auto';
+      const isAuto = key === 'auto' || key === 'ukk_std';
 
       return `
         <div class="mp-rw-picker-card ${isSelected ? 'is-selected' : ''}" data-formula-key="${key}">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.15rem;">
             <div style="display: flex; align-items: center; gap: 0.35rem;">
-              <strong style="font-size: 0.85rem; color: #0f172a;">${f.name}</strong>
+              <strong style="font-size: 0.825rem; color: #0f172a;">${f.name}</strong>
               ${isAuto ? '<span class="mp-rw-rec-tag">⭐ Anbefalet</span>' : ''}
             </div>
             <span class="mp-rw-check-icon ${isSelected ? 'is-selected' : ''}">✓</span>
           </div>
-          <div style="font-size: 0.725rem; color: #475569; line-height: 1.35;">${f.desc}</div>
+          <div style="font-size: 0.7rem; color: #475569; line-height: 1.3;">${f.desc}</div>
         </div>
       `;
     }).join('');
@@ -73,16 +88,46 @@ export function initCalculator(container) {
     });
   }
 
+  function updateTestTypeUI() {
+    testTypeBtns.forEach(btn => {
+      const isMatch = btn.getAttribute('data-test-type') === activeTestType;
+      btn.classList.toggle('is-active', isMatch);
+    });
+
+    if (activeTestType === 'ukk') {
+      if (sectionTestTitle) sectionTestTitle.textContent = '2. Testresultat (2,0 km)';
+      activeFormulaKey = 'ukk_std';
+    } else {
+      if (sectionTestTitle) sectionTestTitle.textContent = '2. Testresultat (1,6 km)';
+      if (activeFormulaKey === 'ukk_std') activeFormulaKey = 'auto';
+    }
+  }
+
+  function updateTimeFieldsForActiveTest() {
+    const times = timesByTest[activeTestType] || { min: '', sec: '' };
+    const minInput = container.querySelector('[name="rw_min"]');
+    const secInput = container.querySelector('[name="rw_sec"]');
+    if (minInput) minInput.value = times.min;
+    if (secInput) secInput.value = times.sec;
+  }
+
   function saveState() {
     try {
+      // Gem den aktuelle tidsindtastning i objektet for den aktive test
+      timesByTest[activeTestType] = {
+        min: container.querySelector('[name="rw_min"]')?.value || '',
+        sec: container.querySelector('[name="rw_sec"]')?.value || ''
+      };
+
       const state = {
+        activeTestType,
         activeFormulaKey,
         age: container.querySelector('[name="rw_age"]')?.value || '',
         weight: container.querySelector('[name="rw_weight"]')?.value || '',
-        min: container.querySelector('[name="rw_min"]')?.value || '',
-        sec: container.querySelector('[name="rw_sec"]')?.value || '',
+        height: container.querySelector('[name="rw_height"]')?.value || '',
         hr: container.querySelector('[name="rw_hr"]')?.value || '',
-        gender: container.querySelector('input[name="rw_gender"]:checked')?.value || 'male'
+        gender: container.querySelector('input[name="rw_gender"]:checked')?.value || 'male',
+        timesByTest
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     } catch (e) {}
@@ -93,15 +138,18 @@ export function initCalculator(container) {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         const state = JSON.parse(saved);
+        if (state.activeTestType) activeTestType = state.activeTestType;
         if (state.activeFormulaKey) activeFormulaKey = state.activeFormulaKey;
         if (state.age !== undefined && state.age !== '') container.querySelector('[name="rw_age"]').value = state.age;
         if (state.weight !== undefined && state.weight !== '') container.querySelector('[name="rw_weight"]').value = state.weight;
-        if (state.min !== undefined && state.min !== '') container.querySelector('[name="rw_min"]').value = state.min;
-        if (state.sec !== undefined && state.sec !== '') container.querySelector('[name="rw_sec"]').value = state.sec;
+        if (state.height !== undefined && state.height !== '') container.querySelector('[name="rw_height"]').value = state.height;
         if (state.hr !== undefined && state.hr !== '') container.querySelector('[name="rw_hr"]').value = state.hr;
         if (state.gender) {
           const radio = container.querySelector(`input[name="rw_gender"][value="${state.gender}"]`);
           if (radio) radio.checked = true;
+        }
+        if (state.timesByTest) {
+          timesByTest = state.timesByTest;
         }
       }
     } catch (e) {}
@@ -112,27 +160,28 @@ export function initCalculator(container) {
 
     const age = parseFloat(container.querySelector('[name="rw_age"]')?.value || 0);
     const weight = parseFloat(container.querySelector('[name="rw_weight"]')?.value || 0);
+    const height = parseFloat(container.querySelector('[name="rw_height"]')?.value || 175);
     const min = parseFloat(container.querySelector('[name="rw_min"]')?.value || 0);
     const sec = parseFloat(container.querySelector('[name="rw_sec"]')?.value || 0);
     const hr = parseFloat(container.querySelector('[name="rw_hr"]')?.value || 0);
     const genderEl = container.querySelector('input[name="rw_gender"]:checked');
     const gender = genderEl ? genderEl.value : 'male';
 
-    const params = { formula: activeFormulaKey, age, weight, min, sec, hr, gender };
-    const result = calculateRockport(params);
+    const params = { testType: activeTestType, formula: activeFormulaKey, age, weight, height, min, sec, hr, gender };
+    const result = calculateWalkingTest(params);
 
-    // Bestem hvilken formel der blev anvendt
+    const formulas = getAvailableFormulas();
     let usedFormulaKey = activeFormulaKey;
-    if (activeFormulaKey === 'auto') {
+    if (activeTestType === 'rockport' && activeFormulaKey === 'auto') {
       usedFormulaKey = (age >= 18 && age <= 39) ? 'lunt' : 'kline';
     }
-    const usedFormulaObj = ROCKPORT_FORMULAS[usedFormulaKey] || ROCKPORT_FORMULAS.kline;
+    const usedFormulaObj = formulas[usedFormulaKey] || formulas.kline || formulas.ukk_std;
 
-    // Opdater Formel Badge (UDEN SEE I OVERSKRIFTEN)
-    const activeDef = ROCKPORT_FORMULAS[activeFormulaKey] || ROCKPORT_FORMULAS.auto;
+    // Update Formula Badge
+    const activeDef = formulas[activeFormulaKey] || formulas.auto || formulas.ukk_std;
     if (formulaBar && activeDef) {
       let subDesc = activeDef.desc;
-      if (activeFormulaKey === 'auto' && age > 0) {
+      if (activeTestType === 'rockport' && activeFormulaKey === 'auto' && age > 0) {
         subDesc = `Automatisk valgt: <strong>${usedFormulaKey === 'lunt' ? 'Lunt et al. (2013)' : 'Kline et al. (1987)'}</strong> ud fra en alder på ${age} år.`;
       }
 
@@ -140,13 +189,13 @@ export function initCalculator(container) {
         <div class="mp-rw-badge-header">
           <div class="mp-rw-badge-title-group">
             <strong class="mp-rw-badge-title">${activeDef.name}</strong>
-            ${activeFormulaKey === 'auto' ? '<span class="mp-rw-rec-tag">⭐ Anbefalet</span>' : ''}
+            ${(activeFormulaKey === 'auto' || activeFormulaKey === 'ukk_std') ? '<span class="mp-rw-rec-tag">⭐ Anbefalet</span>' : ''}
           </div>
-          <button type="button" class="js-rw-toggle-override mp-rw-btn-gear" title="Skift formel">
-            ⚙️
-          </button>
+          ${activeTestType === 'rockport' ? `
+            <button type="button" class="js-rw-toggle-override mp-rw-btn-gear" title="Skift formel">⚙️</button>
+          ` : ''}
         </div>
-        <div style="font-size: 0.725rem; color: #475569; line-height: 1.35; margin-top: 0.15rem;">
+        <div style="font-size: 0.7rem; color: #475569; line-height: 1.3; margin-top: 0.1rem;">
           ${subDesc}
         </div>
       `;
@@ -162,7 +211,6 @@ export function initCalculator(container) {
 
     renderFormulaPicker();
 
-    // SÆT SEE KUN UNDER ML/KG/MIN RESULTATET
     if (resSee && usedFormulaObj) {
       resSee.textContent = `SEE: ${usedFormulaObj.see}`;
     }
@@ -180,7 +228,6 @@ export function initCalculator(container) {
         resEvalBadge.style.color = '#ffffff';
       }
 
-      // Slider Marker positionering
       const thresholds = getFitnessThresholds(age, normGender);
       if (thresholds && marker) {
         const v = parseFloat(result.fitnessLevel);
@@ -205,7 +252,6 @@ export function initCalculator(container) {
         marker.style.left = `${percent}%`;
         marker.style.display = 'block';
 
-        // Opbyg Popuptabel
         if (tableBody) {
           const tableData = [
             { name: 'Meget lavt', range: `< ${t[0]}`, color: '#ef4444' },
@@ -230,10 +276,10 @@ export function initCalculator(container) {
             const tr = document.createElement('tr');
             tr.style = `border-bottom: 1px solid #e2e8f0; ${bgStyle}`;
             tr.innerHTML = `
-              <td style="padding: 0.75rem 0.5rem; font-size: 0.9rem; ${fontStyle}">
+              <td style="padding: 0.65rem 0.5rem; font-size: 0.85rem; ${fontStyle}">
                 <div style="display:flex; align-items:center;">${dot}${row.name}</div>
               </td>
-              <td style="padding: 0.75rem 0.5rem; text-align: right; font-size: 0.9rem; ${fontStyle}">
+              <td style="padding: 0.65rem 0.5rem; text-align: right; font-size: 0.85rem; ${fontStyle}">
                 ${row.range} ${badgeHtml}
               </td>
             `;
@@ -257,7 +303,19 @@ export function initCalculator(container) {
     if (marker) marker.style.display = 'none';
   }
 
-  // Event Listeners
+  // Event listeners for Test Type Selector
+  testTypeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      saveState(); // Gem den aktuelle testtid først
+      activeTestType = btn.getAttribute('data-test-type');
+      updateTimeFieldsForActiveTest(); // Hent den gemte tid for den nye test
+      updateTestTypeUI();
+      toggleFormulaPicker(false);
+      calculate();
+    });
+  });
+
+  // Inputs event listeners
   inputs.forEach(input => {
     ['input', 'change', 'keyup'].forEach(ev => input.addEventListener(ev, calculate));
   });
@@ -280,12 +338,17 @@ export function initCalculator(container) {
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
       try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+      activeTestType = 'rockport';
       activeFormulaKey = 'auto';
+      timesByTest = { rockport: { min: '', sec: '' }, ukk: { min: '', sec: '' } };
+      
+      updateTestTypeUI();
+      updateTimeFieldsForActiveTest();
       toggleFormulaPicker(false);
       
       inputs.forEach(input => {
         if (input.type === 'radio' && input.value === 'male') input.checked = true;
-        else if (input.type !== 'radio') input.value = input.getAttribute('placeholder') || '';
+        else if (input.type !== 'radio') input.value = '';
       });
 
       if (popup) popup.style.display = 'none';
@@ -300,7 +363,7 @@ export function initCalculator(container) {
         if (typeof html2canvas !== 'undefined') {
           html2canvas(container, { scale: 2, backgroundColor: '#ffffff' }).then(canvas => {
             const link = document.createElement('a');
-            link.download = 'rockport-test-rapport.png';
+            link.download = `${activeTestType}-test-rapport.png`;
             link.href = canvas.toDataURL('image/png');
             link.click();
           });
@@ -310,6 +373,8 @@ export function initCalculator(container) {
   }
 
   loadState();
+  updateTimeFieldsForActiveTest();
+  updateTestTypeUI();
   calculate();
 }
 
