@@ -6,7 +6,7 @@ excerpt: 'Traditionel træningslære måler progression i kilo og gentagelser. G
 permalink: /gentiles-taksonomi/
 language: da
 header:
-  teaser: /assets/images/unsplash/photo-1518611012118-696072aa579a.jpg
+  teaser: https://images.unsplash.com/photo-1527254059249-f52d831cbff1?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: 'Motorisk kontrol og progression efter Gentiles taksonomi'
 categories:
   - Motorik

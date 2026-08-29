@@ -1,0 +1,917 @@
+<div class="ebbeling-widget">
+  
+  <!-- Info Modal -->
+  <div class="ebbeling-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Ebbeling Løbebåndstest (Single-Stage Submax)</h4>
+        <span class="modal-subtitle-text">ACSM-standardiseret 8-minutters gå-test på løbebånd</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>TESTENS OPBYGNING (8 MINUTTER I ALT):</strong><br>
+        1. <strong>Fase 1 – Opvarmning (0:00 - 4:00 min ved 0% hældning):</strong> Vælg en fast gå-hastighed (mellem 3,2 og 7,2 km/t), hvor din puls ligger stabilt i zonen <strong>50–70 % af din makspuls</strong>.<br>
+        2. <strong>Fase 2 – Testfase (4:00 - 8:00 min ved 5,0% hældning):</strong> Farten holdes 100 % uændret, men løbebåndet skrues op til <strong>5,0 % hældning</strong>.<br>
+        3. <strong>Registrering:</strong> Notér din puls ved 6:45–7:00 min (min 3) og 7:45–8:00 min (min 4). Afviger de med under 5 bpm, er der opnået steady-state.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Ebbeling Ligningen (Ebbeling et al., 1991)</h5>
+      <p style="font-size: 0.82rem; color: #495057; background: #f8f9fa; padding: 10px; border-radius: 6px; border: 1px solid #e9ecef; margin: 0;">
+        $$\text{VO}_2\max = 15{,}1 + (21{,}8 \cdot S) - (0{,}327 \cdot HR) - (0{,}263 \cdot A) + (5{,}98 \cdot G)$$<br>
+        <small style="color: #6c757d;">$S = \text{Hastighed i mph}$ ($\text{km/t} / 1{,}60934$), $HR = \text{Steady-State Puls (bpm)}$, $A = \text{Alder (år)}$, $G = \text{Køn (Mand = 1, Kvinde = 0)}$.</small>
+      </p>
+    </div>
+  </div>
+
+  <!-- Topbar Header -->
+  <div class="ebbeling-topbar">
+    <div class="ebbeling-header-card">
+      <div class="card-title-row">
+        <span class="card-title">
+          Ebbeling Submax Treadmill Test
+          <button class="icon-btn info-icon-btn" type="button" title="Læs om opsætning og regler">ℹ️</button>
+        </span>
+        <button class="icon-btn fullscreen-btn" type="button" title="Fuld skærm">⛶</button>
+      </div>
+    </div>
+
+    <!-- User Parameters Row (Køn, Alder, Max Puls) -->
+    <div class="inputs-inline-row">
+      <div class="control-item">
+        <span class="control-label">KØN:</span>
+        <div class="btn-toggle-group" id="ebbeling-gender-toggle">
+          <button type="button" class="toggle-btn active" data-gender="male">Mand</button>
+          <button type="button" class="toggle-btn" data-gender="female">Kvinde</button>
+        </div>
+      </div>
+
+      <div class="control-item">
+        <span class="control-label">ALDER:</span>
+        <input type="number" id="input-age" class="small-num-input" min="10" max="99" value="30">
+        <span class="unit-tag">år</span>
+      </div>
+
+      <div class="control-item">
+        <span class="control-label">MAX PULS:</span>
+        <input type="number" id="input-max-hr" class="small-num-input wide-num-input" min="100" max="220" value="187">
+        <button type="button" class="tanaka-btn" id="btn-tanaka" title="Beregn estimeret maxpuls med Tanakas formel (208 - 0,7 × alder)">🪄</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTEGRERET HOVEDBOKS -->
+  <div class="ebbeling-unified-card" id="ebbeling-unified-card">
+    
+    <!-- Header i timeren -->
+    <div class="unified-card-header">
+      <div class="timer-header-left">
+        <div class="timer-top-label">⏱️ TESTTID (TOTAL: 08:00)</div>
+        <div class="zone-badge" id="warmup-zone-badge">🎯 Opvarmningspuls: 94-131 bpm</div>
+      </div>
+      <div class="card-tools-right">
+        <button type="button" class="wakelock-btn" id="btn-wakelock" title="Slå skærmlås til/fra">📱 Skærm til</button>
+        <div class="btn-toggle-group" id="ebbeling-sound-toggle">
+          <button type="button" class="toggle-btn active" data-val="on" title="Lyd til">🔊 Lyd</button>
+          <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1. TIMER & SLIDER (Gode, rummelige felter) -->
+    <div class="timer-section">
+      <div class="time-display-row">
+        <input type="number" id="input-min" class="large-time-input" min="0" max="8" value="00" placeholder="00">
+        <span class="large-colon">:</span>
+        <input type="number" id="input-sec" class="large-time-input" min="0" max="59" value="00" placeholder="00">
+      </div>
+      <div class="time-unit-sub">minutter : sekunder</div>
+
+      <!-- Tidsslider (0 til 480 sekunder) -->
+      <div class="slider-container">
+        <input type="range" id="ebbeling-time-slider" class="ebbeling-slider" min="0" max="480" value="0" step="1">
+      </div>
+    </div>
+
+    <hr class="card-divider">
+
+    <!-- 2. AKTIV FASE MED INTEGRERET HASTIGHEDSBADGE -->
+    <div class="stage-section">
+      <div class="stage-header-line">
+        <span class="badge-phase" id="phase-badge">FASE 1: OPVARMNING</span>
+        
+        <!-- HASTIGHEDS-INPUT INTEGRERET DIREKTE I DET GRØNNE BADGE -->
+        <div class="speed-input-badge" title="Indstil gå-hastighed på løbebåndet (3,2 - 7,2 km/t)">
+          <span class="speed-label">🏃 Fart:</span>
+          <input type="number" id="input-speed-kmh" class="badge-speed-input" min="3.2" max="7.2" step="0.1" value="5.5">
+          <span class="speed-unit">km/t</span>
+        </div>
+      </div>
+
+      <div class="stage-metrics-row">
+        <div class="metric-block">
+          <span class="metric-sub">PÅKRÆVET HÆLDNING</span>
+          <div class="metric-val-hero"><span id="current-incline-val">0,0</span><small>%</small></div>
+        </div>
+        <div class="metric-block">
+          <span class="metric-sub">FASETID</span>
+          <div class="stage-timer-prominent" id="phase-time-elapsed">00:00 / 04:00</div>
+        </div>
+      </div>
+
+      <!-- Nedtællende progress bar for fasen -->
+      <div class="stage-progress-wrapper" title="Fremgang i nuværende fase">
+        <div class="stage-progress-fill" id="phase-progress-fill" style="width: 100%;"></div>
+      </div>
+    </div>
+
+    <hr class="card-divider">
+
+    <!-- 3. PULS REGISTRERING MED TYDELIG INDIKATION NÅR PULS SKAL AFLÆSES -->
+    <div class="hr-input-section" id="hr-input-section">
+      <div class="hr-section-header">
+        <span class="hr-section-title">📝 REGISTRERING AF TESTPULS (FASE 2)</span>
+        <span class="hr-alert-badge" id="hr-alert-badge" style="display: none;">🔔 AFLÆS PULS NU!</span>
+      </div>
+
+      <div class="hr-inputs-grid">
+        <div class="hr-input-box" id="box-hr-min3">
+          <div class="hr-box-top">
+            <span class="hr-time-tag">Minut 3 (6:45-7:00)</span>
+            <span class="hr-prompt-dot" id="dot-min3"></span>
+          </div>
+          <div class="hr-input-field-row">
+            <input type="number" id="input-hr-min3" class="hr-num-input" min="60" max="210" placeholder="134">
+            <span class="hr-unit-tag">bpm</span>
+          </div>
+        </div>
+
+        <div class="hr-input-box" id="box-hr-min4">
+          <div class="hr-box-top">
+            <span class="hr-time-tag">Minut 4 (7:45-8:00)</span>
+            <span class="hr-prompt-dot" id="dot-min4"></span>
+          </div>
+          <div class="hr-input-field-row">
+            <input type="number" id="input-hr-min4" class="hr-num-input" min="60" max="210" placeholder="136">
+            <span class="hr-unit-tag">bpm</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="steady-state-msg" id="steady-state-msg">Indtast puls fra minut 3 og 4 af testfasen for at beregne.</div>
+    </div>
+
+    <hr class="card-divider">
+
+    <!-- 4. KONDITAL RESULTATSEKTION -->
+    <div class="result-section">
+      <div class="res-title" id="res-title-text">ESTIMERET ILTOPTAGELSE (VO₂)</div>
+      <div class="vo2-value-main" id="res-vo2max-val">-</div>
+      <div class="vo2-unit">ml/kg/min</div>
+      
+      <div style="margin-top: 4px;">
+        <span class="fitness-eval-badge" id="res-fitness-badge">Mangler pulsmåling</span>
+      </div>
+
+      <div class="formula-badge-container">
+        <span class="formula-badge" id="active-formula-text">Formel: Ebbeling et al. (1991) Single-Stage Løbebåndstest</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CONTROLS -->
+  <div class="ebbeling-controls-card">
+    <div class="ebbeling-controls">
+      <button class="btn btn--giant-action btn-start-stop" id="btn-ebbeling-start-stop" type="button">🚀 START TEST</button>
+      <button class="btn btn--icon-reset btn-reset" id="btn-ebbeling-reset" type="button" title="Nulstil Alt">🗑️</button>
+    </div>
+  </div>
+
+  <!-- LOG TABLE -->
+  <div class="ebbeling-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Ebbeling Testresultater</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="ebbeling-log-table">
+      <thead>
+        <tr>
+          <th>Dato</th>
+          <th>Hastighed</th>
+          <th>Steady HR</th>
+          <th>Kondital</th>
+          <th>Vurdering</th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SCREENSHOT BUTTON -->
+  <div class="ebbeling-screenshot-wrapper">
+    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag billede af resultatet</button>
+  </div>
+
+</div>
+
+<style>
+.ebbeling-widget {
+  background: #ffffff; border: 2px solid #e2e8f0; border-radius: 16px; padding: 14px;
+  max-width: 680px; width: 100%; margin: 1.5rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.ebbeling-widget * { box-sizing: border-box; }
+
+.ebbeling-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; text-align: left; }
+.ebbeling-header-card { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 8px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #166534; display: flex; align-items: center; gap: 6px; }
+.icon-btn { background: #ffffff; border: 1px solid #cbd5e1; font-size: 0.95rem; cursor: pointer; padding: 3px 6px; border-radius: 6px; line-height: 1; }
+
+/* Modal */
+.ebbeling-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 30; padding: 18px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 8px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #0f172a; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #64748b; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Inline Inputs Row (Rummelige felter) */
+.inputs-inline-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 10px; margin-top: 4px; }
+.control-item { display: flex; align-items: center; gap: 4px; }
+.control-label { font-size: 0.68rem; font-weight: 900; color: #64748b; letter-spacing: 0.03em; }
+
+.small-num-input {
+  width: 58px; height: 32px; border: 1.5px solid #cbd5e1; border-radius: 6px; text-align: center;
+  font-size: 0.90rem; font-weight: 800; color: #0f172a; background: #ffffff; padding: 0 4px;
+  box-sizing: border-box; -moz-appearance: textfield;
+}
+.small-num-input::-webkit-outer-spin-button,
+.small-num-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.small-num-input.wide-num-input { width: 62px; }
+.small-num-input:focus { outline: none; border-color: #16a34a; box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.15); }
+.unit-tag { font-size: 0.68rem; color: #64748b; font-weight: 700; }
+
+.tanaka-btn {
+  background: #fdf4ff; border: 1px solid #f0abfc; color: #a21caf; font-size: 0.85rem; font-weight: 800;
+  padding: 2px 6px; border-radius: 6px; cursor: pointer; transition: all 0.15s ease; line-height: 1.2;
+}
+.tanaka-btn:hover { background: #fae8ff; }
+
+.btn-toggle-group { display: inline-flex; background: #f1f5f9; padding: 2px; border-radius: 8px; border: 1px solid #cbd5e1; }
+.toggle-btn { background: transparent; border: none; padding: 4px 8px; font-size: 0.75rem; font-weight: 700; color: #475569; border-radius: 6px; cursor: pointer; transition: all 0.15s ease; }
+.toggle-btn.active { background: #16a34a; color: #ffffff; }
+
+/* INTEGRERET HOVEDBOKS */
+.ebbeling-unified-card {
+  background: #f8fafc; border: 2px solid #16a34a; border-radius: 14px; padding: 12px; margin-bottom: 10px;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.08); transition: all 0.2s ease;
+}
+.ebbeling-unified-card.is-running { background: #f0fdf4; border-color: #15803d; }
+
+.unified-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap; gap: 4px; }
+.timer-header-left { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
+.timer-top-label { font-size: 0.68rem; font-weight: 900; color: #64748b; letter-spacing: 0.04em; text-align: left; }
+.zone-badge { font-size: 0.68rem; font-weight: 800; color: #15803d; background: #dcfce7; padding: 2px 8px; border-radius: 8px; border: 1px solid #86efac; }
+
+.card-tools-right { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+
+.wakelock-btn {
+  background: #f1f5f9; border: 1px solid #cbd5e1; font-size: 0.72rem; font-weight: 800; color: #64748b;
+  padding: 3px 8px; border-radius: 8px; cursor: pointer; transition: all 0.15s ease;
+}
+.wakelock-btn.active { background: #dcfce7; border-color: #86efac; color: #15803d; }
+
+.card-divider { border: none; border-top: 1px solid #e2e8f0; margin: 10px 0; }
+
+/* Timer Sektion (Gode rummelige bokse med store tal) */
+.time-display-row { display: flex; align-items: center; justify-content: center; gap: 6px; }
+
+.large-time-input {
+  width: 96px; height: 58px; text-align: center; font-size: 2.8rem; font-weight: 900; color: #0f172a;
+  border: 1.5px solid #cbd5e1; border-radius: 10px; background: #ffffff; padding: 0 8px; line-height: 58px;
+  font-variant-numeric: tabular-nums; box-sizing: border-box; -moz-appearance: textfield;
+}
+.large-time-input::-webkit-outer-spin-button,
+.large-time-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.large-time-input:focus { outline: none; border-color: #16a34a; box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.15); }
+
+.large-colon { font-size: 2.4rem; font-weight: 900; color: #0f172a; line-height: 1; }
+.time-unit-sub { font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px; }
+
+.slider-container { width: 100%; margin-top: 8px; padding: 0 4px; }
+.ebbeling-slider {
+  width: 100%; height: 6px; border-radius: 3px; background: #cbd5e1; outline: none; -webkit-appearance: none; cursor: pointer;
+}
+.ebbeling-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none; width: 20px; height: 20px; border-radius: 50%; background: #16a34a; cursor: pointer; border: 2px solid #ffffff; box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Stage Section med INTEGRERET GRØN HASTIGHEDS-BADGE INPUT */
+.stage-section { background: #ffffff; border: 1.5px solid #bbf7d0; border-radius: 10px; padding: 8px 10px; margin-top: 4px; }
+.stage-header-line { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; flex-wrap: wrap; gap: 4px; }
+.badge-phase { font-size: 0.78rem; font-weight: 900; color: #15803d; }
+
+/* Integreret grønt hastigheds-badge */
+.speed-input-badge {
+  display: inline-flex; align-items: center; gap: 4px; background: #dcfce7; border: 1.5px solid #86efac;
+  padding: 2px 8px; border-radius: 8px; font-size: 0.75rem; font-weight: 800; color: #166534;
+}
+.speed-label { font-size: 0.70rem; color: #15803d; font-weight: 800; }
+.badge-speed-input {
+  width: 50px; height: 26px; border: 1px solid #86efac; border-radius: 5px; text-align: center;
+  font-size: 0.90rem; font-weight: 900; color: #15803d; background: #ffffff; padding: 0 2px;
+  box-sizing: border-box; -moz-appearance: textfield;
+}
+.badge-speed-input::-webkit-outer-spin-button,
+.badge-speed-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.badge-speed-input:focus { outline: none; border-color: #16a34a; box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.2); }
+.speed-unit { font-size: 0.72rem; font-weight: 800; color: #166534; }
+
+.stage-metrics-row { display: flex; justify-content: space-around; align-items: center; margin: 2px 0 6px 0; }
+.metric-block { text-align: center; }
+.metric-sub { font-size: 0.60rem; font-weight: 800; color: #64748b; letter-spacing: 0.04em; display: block; }
+.metric-val-hero { font-size: 2.0rem; font-weight: 900; color: #0f172a; line-height: 1; }
+.metric-val-hero small { font-size: 1.1rem; color: #16a34a; margin-left: 1px; }
+
+.stage-timer-prominent { font-size: 1.35rem; font-weight: 900; color: #1e293b; font-variant-numeric: tabular-nums; line-height: 1; }
+
+.stage-progress-wrapper { height: 6px; background: #e2e8f0; border-radius: 3px; overflow: hidden; width: 100%; margin-top: 4px; }
+.stage-progress-fill { height: 100%; background: #16a34a; transition: width 0.2s linear; }
+
+/* Puls Målings Sektion & Tydelige Indikatorer */
+.hr-input-section { background: #ffffff; border: 1.5px solid #cbd5e1; border-radius: 10px; padding: 8px 10px; margin-top: 4px; transition: all 0.3s ease; }
+.hr-section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap; gap: 4px; }
+.hr-section-title { font-size: 0.70rem; font-weight: 900; color: #334155; letter-spacing: 0.03em; }
+
+@keyframes alertPulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.85; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.hr-alert-badge {
+  font-size: 0.68rem; font-weight: 900; color: #ffffff; background: #ef4444; padding: 2px 8px;
+  border-radius: 10px; animation: alertPulse 1s infinite ease-in-out;
+}
+
+.hr-inputs-grid { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+
+.hr-input-box {
+  background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 8px; padding: 6px 10px;
+  display: flex; flex-direction: column; align-items: center; transition: all 0.25s ease;
+}
+.hr-box-top { display: flex; align-items: center; justify-content: space-between; width: 100%; margin-bottom: 4px; }
+.hr-time-tag { font-size: 0.64rem; font-weight: 800; color: #64748b; }
+.hr-prompt-dot { width: 8px; height: 8px; border-radius: 50%; background: #cbd5e1; display: inline-block; }
+
+.hr-input-field-row { display: flex; align-items: center; gap: 4px; }
+.hr-num-input {
+  width: 74px; height: 36px; border: 1.5px solid #cbd5e1; border-radius: 6px; text-align: center;
+  font-size: 1.15rem; font-weight: 900; color: #0f172a; background: #ffffff; padding: 0 4px;
+  box-sizing: border-box; -moz-appearance: textfield;
+}
+.hr-num-input::-webkit-outer-spin-button,
+.hr-num-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.hr-num-input:focus { outline: none; border-color: #16a34a; box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.2); }
+.hr-unit-tag { font-size: 0.70rem; font-weight: 800; color: #64748b; }
+
+/* VISUEL INDIKATION NÅR DER SKAL AFLÆSES PULS */
+@keyframes activeHrGlow {
+  0% { border-color: #ef4444; box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); background: #fef2f2; }
+  50% { border-color: #dc2626; box-shadow: 0 0 0 6px rgba(239, 68, 68, 0.15); background: #fee2e2; }
+  100% { border-color: #ef4444; box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); background: #fef2f2; }
+}
+
+.hr-input-box.is-prompting {
+  animation: activeHrGlow 1.2s infinite ease-in-out;
+}
+.hr-input-box.is-prompting .hr-time-tag { color: #dc2626; font-weight: 900; }
+.hr-input-box.is-prompting .hr-prompt-dot { background: #ef4444; box-shadow: 0 0 6px #ef4444; }
+
+.steady-state-msg { font-size: 0.68rem; font-weight: 700; color: #64748b; margin-top: 6px; }
+
+/* Resultat Sektion */
+.result-section { background: #ffffff; border: 1.5px solid #bbf7d0; border-radius: 10px; padding: 8px 10px; margin-top: 4px; }
+.res-title { font-size: 0.68rem; font-weight: 900; color: #166534; letter-spacing: 0.04em; }
+.vo2-value-main { font-size: 2.6rem; font-weight: 900; color: #15803d; line-height: 1; margin: 2px 0 0 0; }
+.vo2-unit { font-size: 0.65rem; font-weight: 800; color: #16a34a; }
+
+.fitness-eval-badge { font-size: 0.70rem; font-weight: 900; padding: 2px 10px; border-radius: 12px; background: #cbd5e1; color: #ffffff; display: inline-block; }
+
+.formula-badge-container { margin-top: 4px; }
+.formula-badge { font-size: 0.65rem; font-weight: 700; color: #475569; background: #f1f5f9; padding: 3px 8px; border-radius: 6px; border: 1px solid #cbd5e1; display: inline-block; }
+
+/* CONTROLS */
+.ebbeling-controls-card { margin-bottom: 12px; }
+.ebbeling-controls { display: flex; gap: 8px; width: 100%; }
+.btn--giant-action {
+  flex: 1; height: 44px; font-size: 1.05rem; font-weight: 900; border-radius: 10px; border: none; cursor: pointer; color: white; background: #16a34a;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.25); transition: all 0.15s ease; display: flex; align-items: center; justify-content: center;
+}
+.btn--giant-action.is-running { background: #ef4444; box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3); }
+.btn--giant-action:active { transform: scale(0.98); }
+
+.btn--icon-reset {
+  width: 44px; height: 44px; background: #64748b; color: white; border: none; border-radius: 10px;
+  font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+
+/* LOG TABLE */
+.ebbeling-log-wrapper { margin-top: 10px; text-align: left; border-top: 1px solid #e2e8f0; padding-top: 8px; width: 100%; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+.log-title { font-size: 0.80rem; font-weight: 800; margin: 0; color: #334155; }
+.btn--clear-log { background: transparent; border: none; color: #ef4444; font-weight: 800; font-size: 0.72rem; cursor: pointer; }
+
+.ebbeling-log-table { width: 100% !important; border-collapse: collapse; font-size: 0.75rem; table-layout: fixed; margin: 0; }
+.ebbeling-log-table th { background: #f8fafc; padding: 5px 4px; border-bottom: 2px solid #cbd5e1; text-align: center; font-weight: 800; color: #475569; }
+.ebbeling-log-table td { padding: 5px 4px; border-bottom: 1px solid #f1f5f9; text-align: center; vertical-align: middle; }
+
+/* SCREENSHOT */
+.ebbeling-screenshot-wrapper { margin-top: 10px; width: 100%; }
+.btn--screenshot {
+  width: 100%; padding: 8px; font-size: 0.85rem; font-weight: 800; border-radius: 8px;
+  border: none; background: #16a34a; color: #ffffff; cursor: pointer; transition: background 0.15s ease;
+}
+.btn--screenshot:hover { background: #15803d; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let activeGender = 'male'; // 'male' eller 'female'
+  
+  let isRunning = false;
+  let isTestFinished = false;
+  let startTime = 0;
+  let elapsedTimeMs = 0;
+  let animFrameId = null;
+
+  let lastPhaseIndex = 0;
+  let lastWarnedSec = -1;
+  let selectedSound = 'on';
+
+  let audioCtx = null;
+  let wakeLock = null;
+  let manualWakeLock = false;
+
+  const widget = document.querySelector(".ebbeling-widget");
+  if (!widget) return;
+
+  const unifiedCard = widget.querySelector("#ebbeling-unified-card");
+  const inputMin = widget.querySelector("#input-min");
+  const inputSec = widget.querySelector("#input-sec");
+  const timeSlider = widget.querySelector("#ebbeling-time-slider");
+
+  const inputAge = widget.querySelector("#input-age");
+  const inputMaxHr = widget.querySelector("#input-max-hr");
+  const btnTanaka = widget.querySelector("#btn-tanaka");
+  const inputSpeedKmh = widget.querySelector("#input-speed-kmh");
+  const warmupZoneBadge = widget.querySelector("#warmup-zone-badge");
+
+  const btnStartStop = widget.querySelector("#btn-ebbeling-start-stop");
+  const btnReset = widget.querySelector("#btn-ebbeling-reset");
+  const btnWakelock = widget.querySelector("#btn-wakelock");
+
+  const phaseBadge = widget.querySelector("#phase-badge");
+  const currentInclineVal = widget.querySelector("#current-incline-val");
+  const phaseTimeElapsed = widget.querySelector("#phase-time-elapsed");
+  const phaseProgressFill = widget.querySelector("#phase-progress-fill");
+
+  const hrAlertBadge = widget.querySelector("#hr-alert-badge");
+  const boxHrMin3 = widget.querySelector("#box-hr-min3");
+  const boxHrMin4 = widget.querySelector("#box-hr-min4");
+  const inputHrMin3 = widget.querySelector("#input-hr-min3");
+  const inputHrMin4 = widget.querySelector("#input-hr-min4");
+  const steadyStateMsg = widget.querySelector("#steady-state-msg");
+
+  const resTitleText = widget.querySelector("#res-title-text");
+  const resVo2maxVal = widget.querySelector("#res-vo2max-val");
+  const resFitnessBadge = widget.querySelector("#res-fitness-badge");
+
+  const logTbody = widget.querySelector(".log-tbody");
+  const btnClearLog = widget.querySelector(".btn-clear-log");
+  const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+
+  const infoModal = widget.querySelector(".ebbeling-info-modal");
+  const infoIconBtn = widget.querySelector(".info-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+  const fullscreenBtn = widget.querySelector(".fullscreen-btn");
+
+  function setupToggleGroup(groupId, onChange) {
+    const group = widget.querySelector(`#${groupId}`);
+    if (!group) return;
+    const btns = group.querySelectorAll(".toggle-btn");
+    btns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        btns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.gender || btn.dataset.val);
+      });
+    });
+  }
+
+  setupToggleGroup("ebbeling-gender-toggle", (gender) => {
+    activeGender = gender;
+    updateAllFromSeconds(getSecsFromInputs());
+  });
+
+  setupToggleGroup("ebbeling-sound-toggle", (val) => { selectedSound = val; });
+
+  function applyTanaka() {
+    const age = parseInt(inputAge.value, 10) || 30;
+    const estMax = Math.round(208 - (0.7 * age));
+    inputMaxHr.value = estMax;
+    updateWarmupZone();
+    updateAllFromSeconds(getSecsFromInputs());
+  }
+
+  function updateWarmupZone() {
+    const maxHr = parseInt(inputMaxHr.value, 10) || 180;
+    const low = Math.round(maxHr * 0.50);
+    const high = Math.round(maxHr * 0.70);
+    warmupZoneBadge.textContent = `🎯 Opvarmningspuls: ${low}-${high} bpm`;
+  }
+
+  btnTanaka.addEventListener("click", applyTanaka);
+  inputAge.addEventListener("input", () => { updateWarmupZone(); updateAllFromSeconds(getSecsFromInputs()); });
+  inputMaxHr.addEventListener("input", () => { updateWarmupZone(); updateAllFromSeconds(getSecsFromInputs()); });
+  inputSpeedKmh.addEventListener("input", () => { updateAllFromSeconds(getSecsFromInputs()); });
+
+  fullscreenBtn.addEventListener("click", () => {
+    if (!document.fullscreenElement) widget.requestFullscreen().catch(() => {});
+    else document.exitFullscreen();
+  });
+
+  function playSound(type) {
+    if (selectedSound === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain); gain.connect(audioCtx.destination);
+    const now = audioCtx.currentTime;
+
+    if (type === 'warn') {
+      osc.frequency.value = 880; gain.gain.setValueAtTime(0.2, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+      osc.start(now); osc.stop(now + 0.15);
+    } else if (type === 'prompt') {
+      // Dobbelt biip for pulsaflæsning
+      osc.frequency.value = 1000; gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+      osc.start(now); osc.stop(now + 0.2);
+    } else if (type === 'stage') {
+      osc.frequency.value = 1200; gain.gain.setValueAtTime(0.4, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+      osc.start(now); osc.stop(now + 0.4);
+    } else if (type === 'stop') {
+      osc.frequency.value = 500; gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.start(now); osc.stop(now + 0.3);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try {
+        wakeLock = await navigator.wakeLock.request('screen');
+        btnWakelock.classList.add("active");
+        btnWakelock.textContent = "📱 Skærm til";
+      } catch (e) {}
+    }
+  }
+
+  function releaseWakeLock() {
+    if (wakeLock) {
+      wakeLock.release();
+      wakeLock = null;
+      btnWakelock.classList.remove("active");
+      btnWakelock.textContent = "📱 Skærm fra";
+    }
+  }
+
+  btnWakelock.addEventListener("click", () => {
+    manualWakeLock = !manualWakeLock;
+    if (manualWakeLock || isRunning) requestWakeLock();
+    else releaseWakeLock();
+  });
+
+  function getSecsFromInputs() {
+    const m = parseInt(inputMin.value, 10) || 0;
+    const s = parseInt(inputSec.value, 10) || 0;
+    return Math.min(480, (m * 60) + s);
+  }
+
+  function formatMMSS(totalSecs) {
+    const mins = Math.floor(totalSecs / 60);
+    const secs = Math.floor(totalSecs % 60);
+    return {
+      m: mins.toString().padStart(2, '0'),
+      s: secs.toString().padStart(2, '0'),
+      str: `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`
+    };
+  }
+
+  function calculateEbbelingVO2(speedKmh, hr, age, gender) {
+    if (!speedKmh || !hr || !age) return 0;
+    const speedMph = speedKmh / 1.60934;
+    const gVal = (gender === 'male') ? 1 : 0;
+    const vo2 = 15.1 + (21.8 * speedMph) - (0.327 * hr) - (0.263 * age) + (5.98 * gVal);
+    return Math.max(0, vo2);
+  }
+
+  function getFitnessCategory(vo2, gender, age) {
+    let thresholds;
+    if (gender === 'male') {
+      if (age < 30) thresholds = [35, 44, 52, 57];
+      else if (age < 40) thresholds = [34, 42, 50, 55];
+      else if (age < 50) thresholds = [32, 40, 48, 53];
+      else if (age < 60) thresholds = [30, 38, 45, 50];
+      else thresholds = [26, 35, 42, 47];
+    } else {
+      if (age < 30) thresholds = [28, 35, 44, 49];
+      else if (age < 40) thresholds = [27, 34, 42, 47];
+      else if (age < 50) thresholds = [25, 32, 39, 44];
+      else if (age < 60) thresholds = [23, 30, 36, 41];
+      else thresholds = [20, 27, 33, 38];
+    }
+
+    if (vo2 < thresholds[0]) return { cat: 'Lav', color: '#ef4444' };
+    if (vo2 < thresholds[1]) return { cat: 'Under middel', color: '#f97316' };
+    if (vo2 < thresholds[2]) return { cat: 'Middel', color: '#eab308' };
+    if (vo2 < thresholds[3]) return { cat: 'Høj', color: '#22c55e' };
+    return { cat: 'Meget høj', color: '#2563eb' };
+  }
+
+  function updateAllFromSeconds(totalSecs) {
+    const formatted = formatMMSS(totalSecs);
+    if (document.activeElement !== inputMin) inputMin.value = formatted.m;
+    if (document.activeElement !== inputSec) inputSec.value = formatted.s;
+    timeSlider.value = totalSecs;
+
+    const speedKmh = parseFloat(inputSpeedKmh.value) || 5.5;
+
+    const isPhase2 = (totalSecs >= 240); // > 4:00 min
+    if (isPhase2) {
+      phaseBadge.textContent = "FASE 2: TESTFASE (5,0% HÆLDNING)";
+      phaseBadge.style.color = "#d97706";
+      currentInclineVal.textContent = "5,0";
+      const pSecs = totalSecs - 240;
+      phaseTimeElapsed.textContent = `${formatMMSS(pSecs).str} / 04:00`;
+      phaseProgressFill.style.width = `${((240 - pSecs) / 240) * 100}%`;
+      phaseProgressFill.style.background = "#d97706";
+    } else {
+      phaseBadge.textContent = "FASE 1: OPVARMNING (0% HÆLDNING)";
+      phaseBadge.style.color = "#15803d";
+      currentInclineVal.textContent = "0,0";
+      phaseTimeElapsed.textContent = `${formatMMSS(totalSecs).str} / 04:00`;
+      phaseProgressFill.style.width = `${((240 - totalSecs) / 240) * 100}%`;
+      phaseProgressFill.style.background = "#16a34a";
+    }
+
+    // TYDELIG STYRING AF PULS-AFLÆSNINGS INDIKATORER
+    // Minut 3 af testfase = Total tid 390s til 420s (6:30 til 7:00 min)
+    // Minut 4 af testfase = Total tid 450s til 480s (7:30 til 8:00 min)
+    const isMin3Prompt = (totalSecs >= 390 && totalSecs < 420);
+    const isMin4Prompt = (totalSecs >= 450 && totalSecs <= 480);
+
+    if (isMin3Prompt) {
+      boxHrMin3.classList.add("is-prompting");
+      boxHrMin4.classList.remove("is-prompting");
+      hrAlertBadge.style.display = "inline-block";
+      hrAlertBadge.textContent = "💓 AFLÆS PULS MIN 3!";
+    } else if (isMin4Prompt) {
+      boxHrMin4.classList.add("is-prompting");
+      boxHrMin3.classList.remove("is-prompting");
+      hrAlertBadge.style.display = "inline-block";
+      hrAlertBadge.textContent = "💓 AFLÆS PULS MIN 4!";
+    } else {
+      boxHrMin3.classList.remove("is-prompting");
+      boxHrMin4.classList.remove("is-prompting");
+      hrAlertBadge.style.display = "none";
+    }
+
+    if (isTestFinished || (!isRunning && totalSecs >= 480)) {
+      resTitleText.textContent = "BEREGNET KONDITAL (VO₂MAX)";
+    } else {
+      resTitleText.textContent = "ESTIMERET ILTOPTAGELSE (VO₂)";
+    }
+
+    // Steady State puls check
+    const hr3 = parseFloat(inputHrMin3.value);
+    const hr4 = parseFloat(inputHrMin4.value);
+
+    let avgHr = 0;
+    if (hr3 && hr4) {
+      const diff = Math.abs(hr3 - hr4);
+      avgHr = (hr3 + hr4) / 2;
+      if (diff <= 5) {
+        steadyStateMsg.textContent = `✅ Steady-state opnået! Gennemsnitspuls: ${avgHr.toFixed(1)} bpm (afvigelse: ${diff} bpm).`;
+        steadyStateMsg.style.color = "#15803d";
+      } else {
+        steadyStateMsg.textContent = `⚠️ Advarsel: Afvigelse er ${diff} bpm (> 5 bpm). Forlæng evt. testen 1 min.`;
+        steadyStateMsg.style.color = "#d97706";
+      }
+    } else if (hr3 || hr4) {
+      avgHr = hr3 || hr4;
+      steadyStateMsg.textContent = "💡 Indtast begge pulsmålinger for at tjekke steady-state.";
+      steadyStateMsg.style.color = "#64748b";
+    } else {
+      steadyStateMsg.textContent = "Indtast puls fra minut 3 og 4 af testfasen for at beregne.";
+      steadyStateMsg.style.color = "#64748b";
+    }
+
+    const age = parseInt(inputAge.value, 10) || 30;
+    const vo2 = calculateEbbelingVO2(speedKmh, avgHr, age, activeGender);
+
+    if (vo2 > 0) {
+      resVo2maxVal.textContent = vo2.toFixed(1);
+      const ev = getFitnessCategory(vo2, activeGender, age);
+      resFitnessBadge.textContent = ev.cat;
+      resFitnessBadge.style.background = ev.color;
+    } else {
+      resVo2maxVal.textContent = "-";
+      resFitnessBadge.textContent = "Mangler pulsmåling";
+      resFitnessBadge.style.background = "#cbd5e1";
+    }
+  }
+
+  inputMin.addEventListener("input", () => { isTestFinished = true; updateAllFromSeconds(getSecsFromInputs()); });
+  inputSec.addEventListener("input", () => { isTestFinished = true; updateAllFromSeconds(getSecsFromInputs()); });
+  timeSlider.addEventListener("input", (e) => { isTestFinished = true; updateAllFromSeconds(parseFloat(e.target.value)); });
+
+  inputHrMin3.addEventListener("input", () => updateAllFromSeconds(getSecsFromInputs()));
+  inputHrMin4.addEventListener("input", () => updateAllFromSeconds(getSecsFromInputs()));
+
+  function updateTimer() {
+    if (!isRunning) return;
+    const now = performance.now();
+    elapsedTimeMs = now - startTime;
+    const totalSecs = Math.min(480, elapsedTimeMs / 1000);
+
+    updateAllFromSeconds(totalSecs);
+
+    const isPhase2 = (totalSecs >= 240);
+    const phaseIndex = isPhase2 ? 1 : 0;
+    const currentSecInt = Math.floor(totalSecs);
+
+    if (currentSecInt !== lastWarnedSec) {
+      if (currentSecInt === 235 || currentSecInt === 475) playSound('warn');
+      if (currentSecInt === 390 || currentSecInt === 450) playSound('prompt'); // Lyd ved pulsaflæsning!
+      if (phaseIndex > lastPhaseIndex) { playSound('stage'); lastPhaseIndex = phaseIndex; }
+      lastWarnedSec = currentSecInt;
+    }
+
+    if (totalSecs >= 480) {
+      stopTest();
+      return;
+    }
+
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function startTest() {
+    isRunning = true;
+    isTestFinished = false;
+    requestWakeLock();
+    startTime = performance.now() - (getSecsFromInputs() * 1000);
+    unifiedCard.classList.add("is-running");
+    btnStartStop.className = "btn btn--giant-action is-running";
+    btnStartStop.textContent = "🛑 STOP TEST";
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function stopTest() {
+    isRunning = false;
+    isTestFinished = true;
+    cancelAnimationFrame(animFrameId);
+    if (!manualWakeLock) releaseWakeLock();
+    playSound('stop');
+
+    unifiedCard.classList.remove("is-running");
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TEST";
+
+    const totalSecs = getSecsFromInputs();
+    updateAllFromSeconds(totalSecs);
+
+    const speedKmh = parseFloat(inputSpeedKmh.value) || 5.5;
+    const hr3 = parseFloat(inputHrMin3.value);
+    const hr4 = parseFloat(inputHrMin4.value);
+    const avgHr = (hr3 && hr4) ? (hr3 + hr4) / 2 : (hr3 || hr4 || 0);
+
+    const age = parseInt(inputAge.value, 10) || 30;
+    const vo2 = calculateEbbelingVO2(speedKmh, avgHr, age, activeGender);
+    const ev = vo2 > 0 ? getFitnessCategory(vo2, activeGender, age).cat : '-';
+
+    if (vo2 > 0) {
+      autoSaveToLocalStorage(
+        `${speedKmh.toFixed(1)} km/t`,
+        `${avgHr.toFixed(0)} bpm`,
+        vo2.toFixed(1),
+        ev
+      );
+    }
+  }
+
+  function resetTest() {
+    if (isRunning && !confirm("Afbryd igangværende Ebbeling-test?")) return;
+    isRunning = false;
+    isTestFinished = false;
+    cancelAnimationFrame(animFrameId);
+    if (!manualWakeLock) releaseWakeLock();
+
+    elapsedTimeMs = 0;
+    lastPhaseIndex = 0;
+    lastWarnedSec = -1;
+
+    unifiedCard.classList.remove("is-running");
+    btnStartStop.className = "btn btn--giant-action";
+    btnStartStop.textContent = "🚀 START TEST";
+
+    inputHrMin3.value = "";
+    inputHrMin4.value = "";
+
+    updateAllFromSeconds(0);
+  }
+
+  let lastSavedKey = "";
+  function autoSaveToLocalStorage(speedStr, hrStr, vo2Str, evalStr) {
+    const saveKey = `${speedStr}_${hrStr}_${vo2Str}`;
+    if (saveKey === lastSavedKey) return;
+    lastSavedKey = saveKey;
+
+    const logs = JSON.parse(localStorage.getItem("ebbeling_test_logs") || "[]");
+    const now = new Date();
+    const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+    logs.unshift({ date: dateStr, speed: speedStr, hr: hrStr, vo2: vo2Str, eval: evalStr });
+    localStorage.setItem("ebbeling_test_logs", JSON.stringify(logs.slice(0, 20)));
+    renderLocalStorageLog();
+  }
+
+  function renderLocalStorageLog() {
+    const logs = JSON.parse(localStorage.getItem("ebbeling_test_logs") || "[]");
+    logTbody.innerHTML = "";
+    if (logs.length === 0) {
+      logTbody.innerHTML = '<tr class="empty-row"><td colspan="5" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+      return;
+    }
+    logs.forEach(item => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${item.date}</td>
+        <td><span style="font-weight:700;">${item.speed}</span></td>
+        <td>${item.hr}</td>
+        <td><strong style="color:#16a34a;">${item.vo2}</strong></td>
+        <td><span style="color:#2563eb; font-weight:800;">${item.eval}</span></td>
+      `;
+      logTbody.appendChild(tr);
+    });
+  }
+
+  function takeScreenshot() {
+    function capture() {
+      html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `ebbeling-test-resultat-${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    }
+
+    if (typeof html2canvas === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+      script.onload = capture;
+      document.head.appendChild(script);
+    } else {
+      capture();
+    }
+  }
+
+  btnStartStop.addEventListener("click", () => {
+    if (!isRunning) startTest();
+    else stopTest();
+  });
+
+  btnReset.addEventListener("click", resetTest);
+  btnClearLog.addEventListener("click", () => {
+    if (confirm("Vil du slette alle gemte Ebbeling-test fra hukommelsen?")) {
+      localStorage.removeItem("ebbeling_test_logs");
+      renderLocalStorageLog();
+    }
+  });
+
+  btnScreenshot.addEventListener("click", takeScreenshot);
+  infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+  updateWarmupZone();
+  renderLocalStorageLog();
+  updateAllFromSeconds(0);
+});
+</script>

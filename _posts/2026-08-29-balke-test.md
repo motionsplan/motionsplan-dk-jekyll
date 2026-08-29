@@ -106,6 +106,31 @@ $$\text{VO}_2\max = 30{,}17 + (1{,}20 \cdot T)$$
 
 ---
 
+### 3. Modificeret Balke Løbebåndstest (Submaksimal gangtest)
+
+I modsætning til den klassiske Balke-test, som køres til maksimal udmattelse, er den **modificerede Balke-test** en submaksimal gangtest på løbebånd. Målet er ikke at presse testpersonen til grænsen, men derimod at stoppe testen i det øjeblik, vedkommende rammer **85 % af sin maksimale hjertefrekvens** (eller en RPE-skala på ca. 15). Den modificerede Balketest minder således om [Borg 15 cykeltesten](/kondital-borg15/).
+
+Testen er fysiologisk ideel til kliniske patienter, ældre, utrænede eller i genoptræningsforløb, hvor en maksimal belastning til udmattelse enten er ubehagelig eller udgør en helbredsrisiko.
+
+#### Fysiologisk princip og beregning
+Modellen bygger på den fysiologiske præmis, at der er en lineær sammenhæng mellem arbejdets belastning (tid på løbebåndet) og stigningen i puls. Når testen stoppes ved 85% af makspulsen, udregnes den teoretiske sluttid ($T_{\text{est}}$), hvis personen havde fortsat hele vejen op til sin maksimale ydeevne (100%):
+
+$$T_{\text{est}} = \frac{T_{\text{sub}}}{0{,}85}$$
+
+Den ekstrapolerede tid $T_{\text{est}}$ indsættes derefter i de klassiske Pollock-formler for gang:
+
+$$\text{VO}_2\max = 14{,}99 + (1{,}444 \cdot T_{\text{est}}) \quad \text{(Mænd)}$$
+
+$$\text{VO}_2\max = 5{,}22 + (1{,}38 \cdot T_{\text{est}}) \quad \text{(Kvinder)}$$
+
+> **Eksempel (Mand, 30 år med makspuls på 187 bpm):**  
+> * **Målpuls (85 %):** $187 \cdot 0{,}85 = 159 \text{ bpm}$.  
+> * **Testforløb:** Testpersonen rammer 159 bpm efter **10 minutter og 12 sekunder** ($T_{\text{sub}} = 10{,}2 \text{ min}$).  
+> * **Ekstrapoleret tid:** $T_{\text{est}} = \frac{10{,}2}{0{,}85} = 12{,}0 \text{ min}$.  
+> * **Beregnet kondital:** $\text{VO}_2\max = 14{,}99 + (1{,}444 \cdot 12{,}0) = 32{,}3 \text{ ml/kg/min}$.
+
+---
+
 ## 2. Balke 15-minutters Felt-test (Løbetest)
 
 Som et alternativ til sin løbebåndstest designede Bruno Balke også en 15-minutters felt-test. Den fungerer på samme måde som den kendte 12-minutters [Cooper-test](/cooper-test/), men den 3 minutter længere varighed dæmper effekten af den anaerobe slutspurt og giver et mere rent aerob iltoptagelsesestimat.

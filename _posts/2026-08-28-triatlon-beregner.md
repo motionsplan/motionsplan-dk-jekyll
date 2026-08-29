@@ -27,6 +27,8 @@ tags:
   - splittider
   - skiftetider
 last_modified_at: '2026-08-28T12:00:00Z'
+header:
+  teaser: https://images.unsplash.com/photo-1658748721934-81c70336b200?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 toc: true
 breadcrumbs: true
 faq:
