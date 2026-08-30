@@ -1,7 +1,8 @@
 ---
-title: 6 fysiologiske forandringer i kroppen ved konditionstræning?
-excerpt: Her får du en oversigt over de fysiologiske tilpasninger og adaptationer, der sker i kroppen, når du laver konditionstræning.
-  Hvordan virker kredsløbstræning egentlig?
+title: 6 fysiologiske forandringer i kroppen ved konditionstræning? 🫀
+seo_title: 6 fysiologiske tilpasninger ved konditionstræning & kredsløb
+description: Hvad sker der i kroppen ved kredsløbstræning? Få overblik over de 6 fysiologiske tilpasninger i hjertet, blodet og musklerne i hvile og arbejde.
+excerpt: Her får du en oversigt over de fysiologiske tilpasninger og adaptationer, der sker i kroppen, når du laver konditionstræning. Hvordan virker kredsløbstræning egentlig?
 permalink: /tilpasning-konditionstraening/
 language: da
 header:
@@ -12,37 +13,59 @@ header:
   overlay_filter: '0.2'
 categories:
 - Kondition
+- Konditionstræning
 tags:
 - kredsløb
 - fysiologi
 - træningslære
 - løb
-last_modified_at: '2020-05-31T08:14:14Z'
+last_modified_at: '2026-08-30T08:14:14Z'
+faq:
+- question: Hvad sker der med hjertet ved konditionstræning?
+  answer: Hjertet vokser i både rumfang (venstre hjertekammer udvides ved moderat træning) og muskelstyrke (ved høj intensitet). Det øger slagvolumen, hvilket sænker hvilepulsen og gør hjertet mere effektivt.
+- question: Hvorfor falder hvilepulsen, når man kommer i bedre form?
+  answer: Da hjertet pumper mere blod ud pr. slag (øget slagvolumen), behøver det færre slag i minuttet for at levere den nødvendige mængde ilt og næringsstoffer til kroppen i hvile.
+- question: Hvad er forskellen på kredsløbet i hvile og i arbejde?
+  answer: I hvile pumper hjertet ca. 5 liter blod igennem kroppen pr. minut med en moderat puls. Under maksimalt arbejde øges minutvolumen markant, da både pulsen stiger og slagvolumen øges for at dække musklernes iltbehov.
 ---
 
-Jeg satte satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver [konditionstræning og kredsløbstræning](/konditionstraening/). Så lad os kigge på, hvad effekten er af kredsløbstræning?
+Jeg satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver [konditionstræning og kredsløbstræning](/konditionstraening/). Så lad os kigge på, hvad effekten er af kredsløbstræning?
 
-Konditionstræning kaldes også pulstræning, kredsløbstræning eller cardio-træning eller slet og ret _cardio_. Træningen handler naturligvis om at få kredsløbet med hjertet, lungerne og musklerne til at arbejde og sende blod rundt i systemet.
+Konditionstræning kaldes også pulstræning, kredsløbstræning eller cardio-træning eller slet og ret *cardio*. Træningen handler naturligvis om at få kredsløbet med hjertet, lungerne og musklerne til at arbejde og sende blod rundt i systemet.
 
-Kredsløbstræning og konditionstræning kræver, at du belaster kroppen ved at få hjertet til at arbejde over længere tid. Det kan du gøre med løbetræning, cykeltræning, roning eller andre typer træning, hvor man holder pulsen oppe over længere tid og arbejder på at forbedre den maksimale iltoptaptagelse.
+Kredsløbstræning og konditionstræning kræver, at du belaster kroppen ved at få hjertet til at arbejde over længere tid. Det kan du gøre med løbetræning, cykeltræning, roning eller andre typer træning, hvor man holder pulsen oppe over længere tid og arbejder på at forbedre den maksimale iltoptagelse.
 
-Hvis du ikke vil læse hele indlægget, så har jeg sammenfattet effekten af konditionstræning og de fysiologiske tilpasninger således:
+<div class="notice--info" markdown="1">
 
-**Under konditionstræning sker der en række fysiologiske forandringer i kroppen. Blodmængden stiger og du får mere hæmoglobin. Hjertet bliver større og stærkere. Du får flere mitokondrier og myoglobin i musklerne. Enzymaktiviteten bliver højere og mere effektiv. Alt dette er med til at øge din maksimale iltoptagelse og derved din kondition.**
+**Kort fortalt: De 6 fysiologiske tilpasninger**
+1. **Blod og hæmoglobin:** Blodvolumen og røde blodlegemer stiger for bedre ilttransport.
+2. **Hjertets pumpekapacitet:** Venstre hjertekammer udvides og hjertemusklen styrkes – slagvolumen øges og hvilepulsen falder.
+3. **Kapillærnet:** Der dannes flere mikroskopiske blodkar lokalt i de arbejdende muskler.
+4. **Myoglobin:** Flere iltbindende proteiner inde i muskelcellerne tager imod ilten fra blodet.
+5. **Mitokondrier:** Musklernes "kraftværker" øges i antal og placeres tættere på cellevæggen.
+6. **Enzymaktivitet:** Forbrændingen af fedt og kulhydrat i cellerne gøres mere effektiv.
+
+</div>
+
+Hvis du vil gå direkte til det praktiske og sammensætte dit eget træningsprogram, kan du hoppe over i vores [komplette guide til konditionstræning og kredsløbstræning](/konditionstraening/).
 
 {% include figure image_path="/assets/images/e/freepik-kredsloeb-fysiologi.jpg" caption="Oversigt over kredsløbet, hvor de fysiologiske ændringer sker" alt="Tilpasninger og adaptationer ved konditionstræning" %}
+
+---
 
 ## Kroppen tilpasser sig træning
 
 Kroppen har en fantastisk tilpasningsevne. Kroppen tilpasser sig de belastninger, den udsættes for. Hvis du udfordrer kredsløbet, så vil kroppen forsøge at forbedre systemet, så kroppen kan holde til mere næste gang, kroppen møder en lignende udfordring. Kroppen reagerer på træning med at forbedre funktionerne i kroppen og producere mere af det der skal bruges.
 
+---
+
 ## Hvad er kondition?
 
 Når kroppen skal producere vedvarende energi under længere tids arbejde, skal der tilføres ilt til musklerne. Ilt er et af de vigtigste elementer i energiproduktionen ved udholdenhedsarbejde.
 
-**Kondition er et mål for, hvor effektiv ilt transporteres rundt i kroppen, og hvor effektivt musklerne udnytter ilten til at skabe energi.**
+**Kondition er et mål for, hvor effektivt ilt transporteres rundt i kroppen, og hvor effektivt musklerne udnytter ilten til at skabe energi.**
 
-[Kondition](/kondition/) kan måles med [konditallet](/kondital/). **Konditallet** er et udtryk for, hvor mange ml ilt en atlet kan optage pr. kg kropsvægt i minuttet. Desto mere ilt musklerne kan optage, desto større arbejdskapacitet har atleten og jo større er udholdenheden.
+[Kondition](/kondition/) kan måles med [konditallet](/kondital/). **Konditallet** er et udtryk for, hvor mange ml ilt en atlet kan optage pr. kg kropsvægt i minuttet ($\text{ml O}_2\text{/kg/min}$). Desto mere ilt musklerne kan optage, desto større arbejdskapacitet har atleten og jo større er udholdenheden.
 
 Det er til stadig diskussion hvor de begrænsende faktorer er i kredsløbssystemet. Enten er det lungerne og kredsløbets evne til at få sendt ilten rundt i kroppen, eller også er det musklernes evne til at optage og bruge ilten.
 
@@ -58,30 +81,27 @@ Desto mere effektivt og udholdende dette system er, desto længere kan vi bevæg
 
 Lad os komme til sagen med, hvilke adaptationer der sker ved konditionstræning.
 
-## Hvilken effekt har konditionstræning?
+---
 
-Kredsløbstræning har en række fysiologiske effekter. Her kan du se en række af de det mest oplagte ting, der sker.
+## Hvilken effekt har konditionstræning? De 6 tilpasninger
+
+Kredsløbstræning har en række fysiologiske effekter. Her kan du se en række af de mest oplagte ting, der sker.
 
 ### 1. Blodmængden og hæmoglobinmængden stiger
-
 Blodbanen skal ved hjælp af de røde blodlegemer (hæmoglobin) transportere ilt og næringsstoffer til musklerne og fjerne affaldsstofferne fra musklerne igen. Du trækker vejret, så der kommer ilt ned i lungerne. Ilten bliver optaget i blodet, hvor iltmolekylet binder sig til hæmoglobin. Med de røde blodlegemer transporteres ilten hen til musklerne.
 
 Når du belaster kredsløbet over længere tid, så begynder kroppen at producere mere blod for at tilpasse sig træningen. En utrænet voksen har omkring 5-6 liter blod i kroppen, men ekstremt veltrænede atleter kan have helt op til 6-8 liter blod. Med stigningen i blodmængden stiger andelen af røde blodlegemer også.
 
 ### 2. Hjertet vokser og bliver stærkere
+Hjertet er ansvarlig for at pumpe blod ud til de arbejdende muskler. Hjertets pumpefunktion og -kapacitet udgøres af tre faktorer:
 
-Hjertets er ansvarlig for at pumpe blod ud til de arbejdende muskler. Hjertets pumpefunktion og -kapacitet udgøres af to faktorer:
-
-- **Slagvolumen (SV)** er den mængde blod hjertet kan sende rundt på en sammentrækning - altså på et hjerteslag.
-- **Pulsfrekvens (HR)** er det antal gange hjertet slår i minuttet.
-
-Samlet er det et udtryk for, hvor meget blod der kommer rundt i kroppen.
-
-- **Minutvolumen (MV)** er den mængde blod, der bliver pumpet rundt i kroppen pr. minut. Det er ganske enkelt slagvolumen ganget med pulsfrekvensen.
+- **Slagvolumen (SV):** Den mængde blod hjertet kan sende rundt på en sammentrækning - altså på et hjerteslag.
+- **Pulsfrekvens (HR):** Det antal gange hjertet slår i minuttet.
+- **Minutvolumen (MV):** Den mængde blod, der bliver pumpet rundt i kroppen pr. minut. 
 
 Det kan sættes på følgende formel:
 
-    MV = SV * HR
+$$\text{MV} = \text{SV} \times \text{HR}$$
 
 En utrænet person har en slagvolumen på omkring 85 ml blod pr. hjerteslag, når hjertet slår omkring 60 gange i minuttet. Det giver altså en minutvolumen på omtrent 5 liter blod i minuttet. Det betyder altså, at hele kroppens samlede blodmængde løber igennem systemet hvert minut.
 
@@ -91,17 +111,16 @@ Når vi har trænet, så behøver hjertet ikke at arbejde så hårdt i hvile. De
 
 Når du kan pumpe mere blod rundt, så stiller det samme arbejde ikke lige så høje krav til hjertet, og derfor vil du kunne bevæge dig hurtigere uden at komme i nærheden af din maksimale puls.
 
-Der sker to tilpasninger i hjertet ved konditionstræning. Hvilken tilpasning der sker afhænger af intensiteten af træningen.
+Der sker to tilpasninger i hjertet ved konditionstræning. Hvilken tilpasning der sker afhænger af intensiteten af træningen:
 
-- **Venstre hjertekammer vokser**. Hvis man arbejder med lidt lavere intensitet over lang tid, hvor hjertet kan følge med, så vil hjertet tilpasse sig med at venstre hjertekammer vokser, så det kan fyldes mere op og slagvolumen stiger.
-- **Hjertemusklen bliver stærkere**. Hvis man arbejder med højere intensiteter, så vil hjertemusklen blive stærkere og vokse i størrelse, så den kan pumpe kraftigere.
+- **Venstre hjertekammer vokser:** Hvis man arbejder med lidt lavere intensitet over lang tid, hvor hjertet kan følge med, så vil hjertet tilpasse sig med at venstre hjertekammer vokser, så det kan fyldes mere op og slagvolumen stiger.
+- **Hjertemusklen bliver stærkere:** Hvis man arbejder med højere intensiteter, så vil hjertemusklen blive stærkere og vokse i størrelse, så den kan pumpe kraftigere.
 
-{% include figure image_path="/assets/images/athleticlab.com/ventriculargeo-1024x552-2c49424f.jpg" caption="Venstre hjertekammer vokser i rumfang, hvilket hovedsageligt sker ved lavere intensitet. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://www.athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/). [📷](https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg){: rel='nofollow noopener' }" alt="fysiologiske og strukturelle tilpasninger i venstre hjertekammer i forhold størrelse" %}
+{% include figure image_path="/assets/images/athleticlab.com/ventriculargeo-1024x552-2c49424f.jpg" caption="Venstre hjertekammer vokser i rumfang, hvilket hovedsageligt sker ved lavere intensitet. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: athleticlab.com" alt="fysiologiske og strukturelle tilpasninger i venstre hjertekammer i forhold størrelse" %}
 
 Så hjertet vokser altså både i størrelse, og hjertet bliver stærkere.
 
 ### 3. Kapillærnettet udbygges
-
 Kapillærerne er kroppens mindste blodårer. Kapillærerne omkranser muskler og organer, og det er her udvekslingen af næringsstoffer, ilt og affaldsstoffer foregår.
 
 Når man laver specifik træning udbygges kapillærnettet lokalt i de arbejdende muskler. Kroppen producerer ganske enkelt flere små blodårer, så der er flere steder hvor tilførslen af ilt og næringsstoffer kan foregå, og hvor bortskaffelsen af affaldsstoffer fra musklen kan hentes.
@@ -109,26 +128,27 @@ Når man laver specifik træning udbygges kapillærnettet lokalt i de arbejdende
 Med flere kapillærer kan processen med at levere ilt og næringsstoffer forløbe hurtigere og mere effektivt, og musklernes arbejdsbetingelser bliver bedre.
 
 ### 4. Myoglobinniveauet i musklen stiger
-
 Myoglobin og hæmoglobin er gode venner i kroppen. Hæmoglobinet findes i blodbanen og transporterer ilt, og myoglobinet findes i muskelcellerne for at tage imod ilten fra hæmoglobinet.
 
 Når du træner får du mere myoglobin i muskelcellerne, så der er flere modtagere til at modtage ilten fra blodets hæmoglobin (som jo også er steget).
 
 ### 5. Antallet af mitokondrier vokser
-
 Mitokondrierne er de små kraftværker i musklerne, som kan lave energi. Mitokondrierne bruger næringsstofferne og ilten til at lave energimolekylet ATP. Antallet af mitokondrier øges med træning, og sandsynligvis bliver koncentrationen af mitokondrier tæt på cellevæggen formentlig også højere.
 
 ### 6. Antallet af enzymer stiger
-
 Enzymer hjælper gør processerne i forbindelse med forbrændingen i mitokondrierne mere effektive. Der findes mange forskellige enzymer i kroppen, som hjælper i forskellige processer.
 
 Kroppen har både enzymer, der hjælper med at lave udvekslingen af ilt og næringsstoffer over cellevæggen ind til musklerne, og enzymer der hjælper i forbrændingsprocessen i mitokondrierne.
 
 Kroppen producerer flere af de nødvendige enzymer, så processerne kan blive mere effektive. Igen er tilpasningerne i enzymniveau relativt lokale i de muskler, der bliver trænet.
 
+---
+
 ## Forskel på mænd og kvinder i fysiologiske tilpasninger
 
 Der er så vidt jeg ved ikke forskel på, hvordan mænd og kvinder fysiologisk responderer på konditionstræning.
+
+---
 
 ## Opsummering på effekten af konditionstræning
 
@@ -136,14 +156,16 @@ Kredsløbstræning har altså en række afledte effekter, som kan sammenfattes s
 
 - **Hjertet** vokser både i **størrelse** og **styrke**, så der kan pumpes mere blod ud pr. hjerteslag.
 - **Blodvolumen** og **mængden af hæmoglobin stiger**, og derved kan der transporteres mere ilt ud til de arbejdende muskler.
-- **Kapillærnettet bliver bedre**, så der er flere steder at lave en udveklsing af ilt og næringsstoffer fra blodbane til musklerne - og flere steder at fjerne affaldsstofferne fra musklerne også.
+- **Kapillærnettet bliver bedre**, så der er flere steder at lave en udveksling af ilt og næringsstoffer fra blodbane til musklerne - og flere steder at fjerne affaldsstofferne fra musklerne også.
 - **Myoglobinindholdet stiger** i musklerne, så der er flere modtagere af ilten fra hæmoglobinet i blodstrømmen.
-- **Flere mitokondrier** i musklerne som samtidig ligger tætteret på cellevæggene, så kroppen har flere kraftværker til at lave energi.
+- **Flere mitokondrier** i musklerne som samtidig ligger tættere på cellevæggene, så kroppen har flere kraftværker til at lave energi.
 - **Øget enzymaktivitet** så processerne i kroppen kan fungere mere effektivt.
 
 Samlet set giver alle tilpasninger til kredsløbstræningen mulighed for, at kroppen kan skabe mere energi til at musklerne kan arbejde. Når musklerne kan arbejde længere tid og mere effektivt, så bliver dine præstationer alt andet lige bedre.
 
 Konkret giver de fysiologiske tilpasninger mulighed for at den maksimale iltoptagelse kan stige, så din kondition og dit kondital bliver bedre. Hvis du går i gang med træning, så anbefaler jeg, at du laver nogle test for at se om træningen virker.
+
+Vil du omsætte disse fysiologiske forandringer til et konkret træningsprogram? Læs vores [store guide til konditionstræning og kredsløbstræning med øvelser og programmer](/konditionstraening/).
 
 Jeg synes denne video forklarer tilpasningerne ved konditionstræning på en god måde:
 
@@ -158,7 +180,7 @@ Hvis du vil lære mere om fysiologi og arbejdsfysiologi, så har [Saxo rigtig ma
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Leveritt, M., H. MacLaughlin, og P. J. Abernethy. 2000. “Changes in Leg Strength 8 and 32 h after Endurance Exercise”. Journal of Sports Sciences 18 (11): 865–71. <https://doi.org/10.1080/026404100750017797>.
-- Trappe, Scott, Matthew Harber, Andrew Creer, Philip Gallagher, Dustin Slivka, Kiril Minchev, og David Whitsett. 2006. “Single Muscle Fiber Adaptations with Marathon Training”. Journal of Applied Physiology (Bethesda, Md.: 1985) 101 (3): 721–27. <https://doi.org/10.1152/japplphysiol.01595.2005>.
-- Wenger, H. A., og G. J. Bell. 1986. “The Interactions of Intensity, Frequency and Duration of Exercise Training in Altering Cardiorespiratory Fitness”. Sports Medicine (Auckland, N.Z.) 3 (5): 346–56. <https://doi.org/10.2165/00007256-198603050-00004>.
+- Leveritt, M., H. MacLaughlin, og P. J. Abernethy. 2000. “Changes in Leg Strength 8 and 32 h after Endurance Exercise”. *Journal of Sports Sciences* 18 (11): 865–71. <https://doi.org/10.1080/026404100750017797>.
+- Trappe, Scott, Matthew Harber, Andrew Creer, Philip Gallagher, Dustin Slivka, Kiril Minchev, og David Whitsett. 2006. “Single Muscle Fiber Adaptations with Marathon Training”. *Journal of Applied Physiology* 101 (3): 721–27. <https://doi.org/10.1152/japplphysiol.01595.2005>.
+- Wenger, H. A., og G. J. Bell. 1986. “The Interactions of Intensity, Frequency and Duration of Exercise Training in Altering Cardiorespiratory Fitness”. *Sports Medicine* 3 (5): 346–56. <https://doi.org/10.2165/00007256-198603050-00004>.
 </details>
