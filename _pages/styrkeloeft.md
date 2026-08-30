@@ -5,6 +5,7 @@ seo_title: 'Styrkeløft: Komplet guide til sporten'
 permalink: /styrkeloeft/
 redirect_from:
   - /variationer/
+  - /styrkeloeftstaevne/
 excerpt: Bliv stærkere i squat, bænkpres og dødløft! Lær korrekt teknik, effektive træningsprogrammer og regler for styrkeløft.
 description: Få en komplet guide til styrkeløft. Lær teknikken i squat, bænkpres og dødløft, følg effektive træningsprogrammer, og forstå reglerne i konkurrence.
 header:

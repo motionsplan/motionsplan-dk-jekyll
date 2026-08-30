@@ -1,5 +1,5 @@
 ---
-title: 5 bedste discgolf apps i 2025 (til at forbedre dit spil)
+title: 5 bedste discgolf apps i 2026 (til at forbedre dit spil)
 excerpt: Her får du forskellige apps til discgolf, som kan hjælpe dig med at forbedre dit spil og få en bedre oplevelse, når
   du spiller discgolf.
 permalink: /discgolf-apps/
@@ -7,14 +7,14 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1655161910681-1f94317056fe.jpg
   credit: https://images.unsplash.com/photo-1655161910681-1f94317056fe
-  caption: 5 bedste discgolf apps i 2025 (til at forbedre dit spil)
+  caption: 5 bedste discgolf apps (til at forbedre dit spil)
 categories:
 - Sportsgrene
 - Discgolf
 tags:
 - discgolf
 - apps
-last_modified_at: '2022-07-21T10:21:26Z'
+last_modified_at: '2026-07-21T10:21:26Z'
 faq:
 - question: Hvad er de bedste discs for en begynder?
   answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge
