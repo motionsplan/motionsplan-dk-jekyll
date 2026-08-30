@@ -9,7 +9,7 @@ author_profile: true
 toc: true
 breadcrumbs: true
 categories:
-  - Vurderingsværktøjer
+  - Psykologi
   - Psykologi
 tags:
   - vurderingsværktøj

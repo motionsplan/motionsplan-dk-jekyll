@@ -10,7 +10,6 @@ header:
   credit: https://images.unsplash.com/photo-1478604659451-3424450de009
   caption: Hvilken kropstype er du? Find din somatotype med vores beregner!
 categories:
-  - Vurderingsværktøjer
   - Kropskomposition
 tags:
   - vurderingsværktøj

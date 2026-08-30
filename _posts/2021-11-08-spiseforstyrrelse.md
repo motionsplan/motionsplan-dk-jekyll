@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/unsplash/photo-1620302044674-2b39db73b8db.jpg
   caption: 'Spiseforstyrrelser: Har du forstyrret spisning?'
 categories:
-  - Vurderingsværktøjer
+  - Psykologi
   - Psykologi
 tags:
   - vurderingsværktøj

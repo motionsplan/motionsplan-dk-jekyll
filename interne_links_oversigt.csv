@@ -4114,7 +4114,7 @@ _pages/tests.md,Se alle cykeltests »,/tests/cykling/
 _pages/tests.md,Se alle spring- og hoppetests »,/springtests-hoppehoejde/
 _pages/tests.md,Se alle sprint- og hurtighedstests »,/tests/sprint/
 _pages/tests.md,Se guides til retningsskift og agilitet »,/retningsskift-test/
-_pages/tests.md,Se alle psykologiske sundhedstests »,/vurderingsvaerktoejer/
+_pages/tests.md,Se alle psykologiske sundhedstests »,/psykologiske-tests/
 _pages/tests.md,Cooper-test (12 minutters løbetest),/cooper-test/
 _pages/tests.md,Bip-test (Multi-Stage Fitness Test),/bip-test/
 _pages/tests.md,IMTP Trækstyrketest (Isometric Mid-Thigh Pull),/imtp-test/
@@ -4316,7 +4316,7 @@ _pages/beregnere.md,Wilks & DOTS Beregner,/sammenligning-styrke/
 _pages/beregnere.md,RPE & RIR Omregner,/rpe/
 _pages/beregnere.md,Det samlede fysiske testkatalog,/tests/
 _pages/beregnere.md,Træningsværktøjer & biomekanik,/vaerktoejer/
-_pages/beregnere.md,Psykologiske tests,/vurderingsvaerktoejer/
+_pages/beregnere.md,Psykologiske tests,/psykologiske-tests/
 _pages/exercises-tag-pull.md,træningsøvelser,/traeningsoevelser/
 _pages/exercises-tag-pull.md,styrketræningsøvelser,/styrketraeningsoevelser/
 _pages/exercises-tag-pull.md,presøvelser,/presoevelser/
@@ -4396,7 +4396,7 @@ _pages/vurderingsvaerktoejer-sportspyskologi.md,Træningsafhængighed & Ortoreks
 _pages/vurderingsvaerktoejer-sportspyskologi.md,EAI-Testen for Træningsafhængighed,/traeningsafhaengighed/
 _pages/vurderingsvaerktoejer-sportspyskologi.md,DOS Ortoreksi-skalaen,/dos-ortoreksi/
 _pages/vurderingsvaerktoejer-sportspyskologi.md,IES-2 Intuitiv Træning,/intuitiv-traening/
-_pages/vurderingsvaerktoejer-sportspyskologi.md,Alle Vurderingsværktøjer & Psykologiske Tests,/vurderingsvaerktoejer/
+_pages/vurderingsvaerktoejer-sportspyskologi.md,Alle Vurderingsværktøjer & Psykologiske Tests,/psykologiske-tests/
 _pages/vurderingsvaerktoejer-sportspyskologi.md,Det Samlede Fysiske Testkatalog,/tests/
 _pages/vurderingsvaerktoejer-sportspyskologi.md,Interaktive Beregnere,/beregnere/
 _pages/tests-balance-tests.md,Enkeltbensstand & Stork Test,/enkeltbensstand-stork-test/
@@ -4570,9 +4570,9 @@ _pages/vaerktoejer.md,REDs Energitjek (Relativ Energimangel),/rem-s/
 _pages/vaerktoejer.md,Sportspsykologiske Tests,/sportspsykologiske-tests/
 _pages/vaerktoejer.md,WHO-5 Trivselsindeks,/who5-trivselindekset/
 _pages/vaerktoejer.md,Stresstest (PSS-10),/stress-test/
-_pages/vaerktoejer.md,Se det fulde psykologiske testkatalog »,/vurderingsvaerktoejer/
+_pages/vaerktoejer.md,Se det fulde psykologiske testkatalog »,/psykologiske-tests/
 _pages/vaerktoejer.md,"Fysisk Testkatalog (Kondition, Løb, Cykling, Styrke)",/tests/
-_pages/vaerktoejer.md,Vurderingsværktøjer & Psykologiske Tests,/vurderingsvaerktoejer/
+_pages/vaerktoejer.md,Vurderingsværktøjer & Psykologiske Tests,/psykologiske-tests/
 _pages/vaerktoejer.md,Sportspsykologiske Tests (Atleter & Trænere),/sportspsykologiske-tests/
 _pages/vaerktoejer.md,Politiets Optagelsesprøve,/politiets-optagelsesproeve/
 _pages/tag-activity-archive.md,træningsøvelser,/traeningsoevelser/

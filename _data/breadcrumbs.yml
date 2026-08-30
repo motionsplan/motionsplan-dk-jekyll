@@ -94,9 +94,12 @@ Hastighed:
 Tests:
   title: Tests
   url: /tests/
-Vurderingsværktøjer:
-  title: Vurderingsværktøjer
-  url: /vurderingsvaerktoejer/
+Psykologi:
+  title: Psykologi
+  url: /psykologiske-tests/
+Sportspsykologi:
+  title: Sportspsykologi
+  url: /sportspsykologiske-tests/
 Kropskomposition:
   title: Kropskomposition
   url: /kropskomposition/

@@ -23,7 +23,7 @@ header:
   - label: <i class='fas fa-tools'></i> Værktøjer
     url: /vaerktoejer/
   - label: <i class='fas fa-brain'></i> Psykologiske tests
-    url: /vurderingsvaerktoejer/
+    url: /psykologiske-tests/
 breadcrumbs: 'true'
 feature_row_mental_tests:
 - image_path: /assets/images/unsplash/photo-1546016366-bf061374d54e.jpg
@@ -32,7 +32,7 @@ feature_row_mental_tests:
   title: Psykisk og mentalt velvære
   excerpt: Psykisk velvære er lige så vigtigt som fysisk sundhed. Med disse tests kan du få en bedre forståelse af din mentale
     tilstand og tage de første skridt mod at forbedre din trivsel.
-  url: /vurderingsvaerktoejer/
+  url: /psykologiske-tests/
   btn_label: Test din mentale sundhed
   btn_class: btn--success
 feature_row_test_fat_percent:
@@ -156,7 +156,7 @@ Mål din agilitet, Change of Direction Speed (CODS) og evne til hurtige vendinge
 ### 🧠💭 Psykologiske Tests & Vurderingsværktøjer
 Mål din mentale sundhed, trivsel og dit forhold til motion med validerede psykologiske spørgeskemaer (fx træningsafhængighed og mentalt velvære).
 
-[Se alle psykologiske sundhedstests »](/vurderingsvaerktoejer/){: .btn .btn--primary }
+[Se alle psykologiske sundhedstests »](/psykologiske-tests/){: .btn .btn--primary }
 </div>
 
 ---

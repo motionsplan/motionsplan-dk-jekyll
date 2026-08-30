@@ -16,7 +16,7 @@ header:
 breadcrumbs: true
 classes: wide
 categories:
-  - Vurderingsværktøjer
+  - Psykologi
   - Psykologi
   - Sportspsykologi
 tags:
@@ -139,6 +139,6 @@ Vores selvtests er opbygget til at fungere som et **objektivt og trygt dialogvæ
 
 ## Udforsk flere redskaber på Motionsplan
 
-* 🧠 **[Alle Vurderingsværktøjer & Psykologiske Tests](/vurderingsvaerktoejer/)** – Vores samlede oversigtskatalog.
+* 🧠 **[Alle Vurderingsværktøjer & Psykologiske Tests](/psykologiske-tests/)** – Vores samlede oversigtskatalog.
 * ⏱️ **[Det Samlede Fysiske Testkatalog](/tests/)** – Se alle løbe-, cykel-, konditions- og styrketests.
 * 🧮 **[Interaktive Beregnere](/beregnere/)** – Udregn 1RM, kaloriebehov, BMI, pulszoner og fedtprocent.

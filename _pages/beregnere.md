@@ -21,7 +21,7 @@ header:
     - label: "<i class='fas fa-tools'></i> Værktøjer"
       url: "/vaerktoejer/"
     - label: "<i class='fas fa-brain'></i> Psykologiske tests"
-      url: "/vurderingsvaerktoejer/"
+      url: "/psykologiske-tests/"
 breadcrumbs: true
 classes: wide
 ---
@@ -97,4 +97,4 @@ Optimér din tung styrketræning og beregn dit styrkeniveau.
 
 * ⏱️ **[Det samlede fysiske testkatalog](/tests/)** – Mål din kondition, styrke og udholdenhed.
 * 🛠️ **[Træningsværktøjer & biomekanik](/vaerktoejer/)** – Analysér dit squat, bænkpres og dødløft med tændstikmænd.
-* 🧠 **[Psykologiske tests](/vurderingsvaerktoejer/)** – Test dit mentale velvære og din trivsel.
+* 🧠 **[Psykologiske tests](/psykologiske-tests/)** – Test dit mentale velvære og din trivsel.

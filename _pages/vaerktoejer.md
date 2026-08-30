@@ -23,7 +23,7 @@ header:
     - label: "<i class='fas fa-tools'></i> Værktøjer"
       url: "/vaerktoejer/"
     - label: "<i class='fas fa-brain'></i> Psykologiske tests"
-      url: "/vurderingsvaerktoejer/"
+      url: "/psykologiske-tests/"
 breadcrumbs: true
 classes: wide
 feature_row_navigation:
@@ -56,7 +56,7 @@ feature_row_navigation:
     alt: Psykologiske Tests
     title: Mentale & Psykologiske Tests
     excerpt: Afdæk dit mentale overskud, overtræning (REDs) og konkurrenceangstt med vores idrætspsykologiske screeningsværktøjer.
-    url: /vurderingsvaerktoejer/
+    url: /psykologiske-tests/
     btn_label: <i class='fas fa-brain'></i> Gå til mentale tests
     btn_class: btn--success
 feature_row_biomekanik:
@@ -165,7 +165,7 @@ Redskaber til at vurdere din mentale sundhed, trivsel og idrætspsykologiske bal
 * **[Sportspsykologiske Tests](/sportspsykologiske-tests/)** – Samlet portal for overtræning, præstationsangst, mental styrke og motivation.
 * **[WHO-5 Trivselsindeks](/who5-trivselindekset/)** & **[Stresstest (PSS-10)](/stress-test/)** – Mål dit hverdags-overskud og dit generelle belastningsniveau.
 
-[Se det fulde psykologiske testkatalog »](/vurderingsvaerktoejer/){: .btn .btn--primary }
+[Se det fulde psykologiske testkatalog »](/psykologiske-tests/){: .btn .btn--primary }
 </div>
 
 ---
@@ -195,6 +195,6 @@ Forstå hvordan din kropsbygning og antropometri (lårben, armlængde, ryglængd
 Hvis du er på udkig efter konkrete testprotokoller (som *Cooper-test, Bip-test, Wingate eller Agility-tests*), finder du dem i vores dedikerede testkataloger:
 
 * ⏱️ **[Fysisk Testkatalog (Kondition, Løb, Cykling, Styrke)](/tests/)**
-* 🧠 **[Vurderingsværktøjer & Psykologiske Tests](/vurderingsvaerktoejer/)**
+* 🧠 **[Vurderingsværktøjer & Psykologiske Tests](/psykologiske-tests/)**
 * 🏆 **[Sportspsykologiske Tests (Atleter & Trænere)](/sportspsykologiske-tests/)**
 * 👮 **[Politiets Optagelsesprøve](/politiets-optagelsesproeve/)**
