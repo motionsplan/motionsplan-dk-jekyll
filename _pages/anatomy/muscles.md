@@ -190,7 +190,7 @@ Musklerne består af små enheder, der kaldes muskelfibre. For at få musklerne 
 
 Før du dykker mere ned i, hvordan du kan få dine muskler til at vokse, så kan du måske være interesseret i at læse disse indlæg:
 
-- [Hvordan vokser muskler?](/hvordan-vokser-muskler/)
+- [Hvordan vokser muskler?](/muskelvaekst-hypertrofi/)
 - [Hvor hurtigt vokser dine muskler?](/hvor-hurtigt-vokser-muskler/)
 - [Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?](/atrofi-muskelmasse-muskelstyrke/)
 

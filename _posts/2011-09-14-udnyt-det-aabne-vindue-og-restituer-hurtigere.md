@@ -108,7 +108,7 @@ Schoenfeld et al (2013) fandt kun:
 
 De lavede en subanalyse, der viste at mange af forskellene i hypertrofi kunne forklares af den **daglige totale proteinindtagelse** snarere end timing af proteinindtaget.
 
-Læs: [Hypertrofi, muskelvækst og de fysiologiske tilpasninger til træning](/fysiologiske-tilpasninger/)
+Læs: [Hypertrofi, muskelvækst og de fysiologiske tilpasninger til træning](/muskelvaekst-hypertrofi/)
 {: .notice }
 
 Noget kan altså tyde på at de studier, der har fundet en positiv effekt af at spise protein i det såkaldet _anabolic window_ i virkeligheden bare har spist mere protein i alt i løbet af dagen.

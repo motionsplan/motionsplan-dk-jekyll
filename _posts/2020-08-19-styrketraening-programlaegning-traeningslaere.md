@@ -80,7 +80,7 @@ Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øge
 
 Når du træner, sker der to typer af tilpasninger i kroppen. Først der der de **neurale ændringer**, hvilket ganske enkelt betyder, at hjernen bliver bedre til at aktivere mere muskelmasse. Desuden er der ændringer i **musklens struktur**. 
 
-Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger til styrketræning](/fysiologiske-tilpasninger/).
+Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger til styrketræning](/muskelvaekst-hypertrofi/).
 
 Det er sandsynligt at den neurale tilpasning sker først - nærmest fra allerførste gang, du træner. Derefter følger muskelmassen. Figuren viser også, at når man har trænet et stykke tid, bliver det vanskeligere at forbedre sig - og det kræver en større og større indsats.
 

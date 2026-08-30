@@ -100,7 +100,7 @@ Hvilken af disse parametre der har en så hurtig tilpasningsgrad, har jeg endnu 
 
 Jeg har skrevet endnu mere om de fysiologiske tilpasninger til konditionstræning tidligere, hvis du er interesseret i at gå endnu mere i dybden med de [fysiologiske adaptationer til konditionstræning](/tilpasning-konditionstraening/).
 
-Jeg har også skrevet om, hvor hurtigt musklemasse og muskelstyrke kan [vokse](/hvor-hurtigt-vokser-muskler/) eller [forsvinde](/atrofi-muskelmasse-muskelstyrke/) og de [fysiologiske tilpasninger til styrketræning](/fysiologiske-tilpasninger/).
+Jeg har også skrevet om, hvor hurtigt musklemasse og muskelstyrke kan [vokse](/hvor-hurtigt-vokser-muskler/) eller [forsvinde](/atrofi-muskelmasse-muskelstyrke/) og de [fysiologiske tilpasninger til styrketræning](/muskelvaekst-hypertrofi/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -151,7 +151,7 @@ Jeg synes denne video forklarer tilpasningerne ved konditionstræning på en god
 
 Jeg har skrevet en grundig artikel om, [hvordan du tester dit kondital med og uden udstyr](/kondition/tests/), og jeg har også skrevet om, [hvad et godt kondital er](/kondital/). Her kan du sammenligne dit kondital med normer og eliteatleter.
 
-Vi har også skrevet et indlæg, der handler om [fysiologiske tilpasninger til styrketræning](/fysiologiske-tilpasninger/).
+Vi har også skrevet et indlæg, der handler om [fysiologiske tilpasninger til styrketræning](/muskelvaekst-hypertrofi/).
 
 Hvis du vil lære mere om fysiologi og arbejdsfysiologi, så har [Saxo rigtig mange gode bøger om emnet](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=fysiologi){: rel='sponsored nofollow noopener' }.
 

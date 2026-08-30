@@ -129,7 +129,7 @@ Gennemførelsen af en effektiv muskelopbygning (hypertrofi) kræver opfyldelse a
 2. **Proteinsyntese og ernæring:** For at opbygge nyt muskelvæv skal kroppen have tilstrækkeligt med Byggesten (ca. 1,6–2,2 g protein pr. kg kropsvægt dagligt).
 3. **Restitution og søvn:** Muskler opbygges ikke under selve træningen, men i hvileperioderne efterfølgende.
 
-Vil du forstå den underliggende fysiologi bag, hvordan mikroskopiske mekaniske skader på muskelfibrene udløser vækst, kan du dykke ned i vores artikel om, [hvordan muskler vokser](/hvordan-vokser-muskler/).
+Vil du forstå den underliggende fysiologi bag, hvordan mikroskopiske mekaniske skader på muskelfibrene udløser vækst, kan du dykke ned i vores artikel om, [hvordan muskler vokser](/muskelvaekst-hypertrofi/).
 
 ---
 

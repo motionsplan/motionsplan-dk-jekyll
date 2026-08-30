@@ -211,7 +211,7 @@ Det er sandsynligt at den neurale adaptation sker først - nærmest fra allerfø
 <details markdown="1" class="faq">
   <summary>3. Muskelvækst</summary>
 
-Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske adaptationer og tilpasninger til styrketræning](/fysiologiske-tilpasninger/).
+Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske adaptationer og tilpasninger til styrketræning](/muskelvaekst-hypertrofi/).
 
 For at få muskeltilvækst kræver det en relativt stor volumen, så hvis du gerne vil være stærkere og mere eksplosiv uden at dine muskler vokser, kan du altså træne med relativt tunge vægte, men en lav volumen. Vær dog opmærksom på at det kan være en god ide at oparbejde en større arbejdskapacitet, så du kan holde til at træne nok (Nucklos & Isuf 2015b).
 </details>

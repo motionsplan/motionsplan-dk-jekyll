@@ -1,0 +1,648 @@
+<!-- BEREGNER: MUSKELVÆKST HASTIGHED & TIDSLINJE (CASEY BUTT) -->
+<div class="full">
+<div class="tcalc-wrap">
+  
+  <div class="tcalc-header">
+    <div style="1.5em; font-weight: 700;">Muskelvækst Tidslinje & Hastighed</div>
+    <div class="tcalc-icon">📈</div>
+  </div>
+  <p class="tcalc-desc">Estimer hvor mange kilo ren muskelmasse du fysiologisk kan opbygge fra år 1 til år 5 baseret på Casey Butts tidsmodel og din knoglebygning.</p>
+
+  <!-- BASIS INDTASTNING GRID -->
+  <div class="tcalc-inputs">
+    <div class="tcalc-group">
+      <label>Højde <small>(cm)</small></label>
+      <input type="number" id="tc-height" class="tcalc-input" value="180" oninput="runTimeCalc()">
+    </div>
+    <div class="tcalc-group">
+      <label>Håndled <small>(cm)</small></label>
+      <input type="number" id="tc-wrist" class="tcalc-input" value="17.5" step="0.1" oninput="runTimeCalc()">
+    </div>
+    <div class="tcalc-group">
+      <label>Mål-fedt <small>(%)</small></label>
+      <input type="number" id="tc-bf" class="tcalc-input" value="10" step="0.5" oninput="runTimeCalc()">
+    </div>
+    <div class="tcalc-group" style="flex: 1.4; min-width: 150px;">
+      <label>Køn</label>
+      <div class="tcalc-segmented">
+        <button id="tc-btn-male" class="tcalc-seg-btn active" onclick="setTimeGender('male')">Mand</button>
+        <button id="tc-btn-female" class="tcalc-seg-btn" onclick="setTimeGender('female')">Kvinde</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDER FOR TRAENINGSERFARING -->
+  <div class="tcalc-slider-box">
+    <div class="tcalc-slider-header">
+      <label for="tc-years">Gennemført træning indtil nu:</label>
+      <span class="tcalc-slider-badge"><strong id="lbl-years-val">1.0</strong> År</span>
+    </div>
+    <input type="range" id="tc-years" min="0" max="5" step="0.1" value="1.0" class="tcalc-slider" oninput="runTimeCalc()">
+    <div class="tcalc-slider-labels">
+      <span>0 år (Nybegynder)</span>
+      <span>1 år</span>
+      <span>2 år</span>
+      <span>3 år</span>
+      <span>4 år</span>
+      <span>5+ år (Elite)</span>
+    </div>
+  </div>
+
+  <!-- INTERAKTIV SVG GRAF (Achieved vs Remaining) -->
+  <div class="tcalc-chart-container">
+    <div class="tcalc-chart-header">
+      <span class="tcalc-legend-item"><span class="tcalc-dot achieved"></span> Opnået vækst</span>
+      <span class="tcalc-legend-item"><span class="tcalc-dot remaining"></span> Resterende potentiale</span>
+    </div>
+    <div class="tcalc-svg-wrapper">
+      <svg id="tc-svg-chart" viewBox="0 0 600 220" preserveAspectRatio="none">
+        <!-- Dynamisk SVG renderes via JS -->
+      </svg>
+      <!-- Hover Tooltip -->
+      <div id="tc-tooltip" class="tcalc-tooltip" style="display:none;"></div>
+    </div>
+  </div>
+
+  <!-- HIGHLIGHT CARDS -->
+  <div class="tcalc-highlights">
+    <div class="tcalc-hl-card hl-blue">
+      <span class="hl-title">Forventet vækst næste 12 mdr.</span>
+      <div class="hl-value"><span id="res-next-year">--</span> <small>kg</small></div>
+      <span class="hl-sub">Ren muskelmasse det kommende år</span>
+    </div>
+    <div class="tcalc-hl-card hl-green">
+      <span class="hl-title">Opnået indtil nu</span>
+      <div class="hl-value"><span id="res-achieved-kg">--</span> <small>kg</small></div>
+      <span class="hl-sub"><span id="res-achieved-pct">--</span>% af 5-års potentialet</span>
+    </div>
+    <div class="tcalc-hl-card hl-purple">
+      <span class="hl-title">5-Års Samlet Muskeløgning</span>
+      <div class="hl-value"><span id="res-total-5y">--</span> <small>kg</small></div>
+      <span class="hl-sub">Teoretisk max tilvækst</span>
+    </div>
+  </div>
+
+  <!-- DETALJERET ÅR-FOR-ÅR TABEL -->
+  <div class="tcalc-table-wrap">
+    <h4>År-for-år fordeling (Casey Butts Tidsmodel)</h4>
+    <table class="tcalc-table">
+      <thead>
+        <tr>
+          <th>Træningsår</th>
+          <th>Muskelvækst i året</th>
+          <th>Akkumuleret vækst</th>
+          <th>Andel af total</th>
+        </tr>
+      </thead>
+      <tbody id="tc-table-body">
+        <!-- Dynamisk række-generering -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FORKLARINGS BOKS -->
+  <div class="tcalc-info">
+    <strong>Om Casey Butts Tidsmodel:</strong> 
+    Dr. Casey Butt påviste, at muskelvækst følger en asymptotisk kurve med kraftigt aftagende udbytte. Det første år er det absolut mest kritiske vindue, hvor du har mulighed for at hente over 50 % af dit samlede 5-års muskelpotentiale. Hvert efterfølgende år halveres vækstraten i kilo.
+  </div>
+
+</div>
+</div>
+<!-- STYLES -->
+<style>
+.tcalc-wrap {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 750px;
+  margin: 30px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  color: #0f172a;
+}
+.tcalc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.tcalc-header h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0;
+  color: #0f172a;
+}
+.tcalc-icon {
+  font-size: 1.5rem;
+  background: #f1f5f9;
+  padding: 8px 12px;
+  border-radius: 50%;
+}
+.tcalc-desc {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.tcalc-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.tcalc-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 110px;
+}
+.tcalc-group label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 6px;
+}
+.tcalc-group label small {
+  font-weight: 400;
+  color: #94a3b8;
+}
+.tcalc-input {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #0f172a;
+  text-align: center;
+  transition: all 0.2s;
+}
+.tcalc-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
+}
+.tcalc-segmented {
+  display: flex;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 4px;
+  height: 42px;
+  box-sizing: border-box;
+}
+.tcalc-seg-btn {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #64748b;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.tcalc-seg-btn.active {
+  background: #3b82f6;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* SLIDER */
+.tcalc-slider-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+.tcalc-slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.tcalc-slider-header label {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #1e293b;
+}
+.tcalc-slider-badge {
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+.tcalc-slider {
+  width: 100%;
+  accent-color: #3b82f6;
+  cursor: pointer;
+}
+.tcalc-slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin-top: 6px;
+}
+
+/* GRAF CONTAINER & SVG */
+.tcalc-chart-container {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+  position: relative;
+}
+.tcalc-chart-header {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+.tcalc-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #475569;
+}
+.tcalc-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.tcalc-dot.achieved { background: #fed7aa; border: 1px solid #f97316; }
+.tcalc-dot.remaining { background: #ccfbf1; border: 1px solid #14b8a6; }
+
+.tcalc-svg-wrapper {
+  position: relative;
+  width: 100%;
+  height: 220px;
+}
+#tc-svg-chart {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.tcalc-tooltip {
+  position: absolute;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  pointer-events: none;
+  transform: translate(-50%, -120%);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  white-space: nowrap;
+  z-index: 10;
+}
+
+/* HIGHLIGHT CARDS */
+.tcalc-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.tcalc-hl-card {
+  padding: 16px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hl-blue { background: #eff6ff; border: 1px solid #bfdbfe; color: #1e40af; }
+.hl-green { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
+.hl-purple { background: #faf5ff; border: 1px solid #e9d8fd; color: #6b21a8; }
+
+.hl-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+.hl-value {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 2px;
+}
+.hl-value small { font-size: 1rem; font-weight: 600; }
+.hl-sub { font-size: 0.75rem; opacity: 0.85; }
+
+/* TABEL */
+.tcalc-table-wrap {
+  margin-bottom: 24px;
+}
+.tcalc-table-wrap h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #1e293b;
+}
+.tcalc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.tcalc-table th {
+  background: #f1f5f9;
+  color: #334155;
+  text-align: left;
+  padding: 10px;
+  font-weight: 700;
+  border-bottom: 2px solid #e2e8f0;
+}
+.tcalc-table td {
+  padding: 10px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #0f172a;
+}
+.tcalc-table tr.active-row {
+  background: #eff6ff;
+  font-weight: 700;
+}
+
+.tcalc-info {
+  background: #f1f5f9;
+  border-left: 4px solid #3b82f6;
+  border-radius: 0 8px 8px 0;
+  padding: 14px 16px;
+  font-size: 0.88rem;
+  color: #334155;
+  line-height: 1.5;
+}
+</style>
+
+<!-- JAVASCRIPT LOGIK -->
+<script>
+let tcGender = 'male';
+
+document.addEventListener('DOMContentLoaded', function() {
+  loadTimeInputs();
+  runTimeCalc();
+});
+
+function setTimeGender(gender) {
+  tcGender = gender;
+  document.getElementById('tc-btn-male').classList.remove('active');
+  document.getElementById('tc-btn-female').classList.remove('active');
+  document.getElementById('tc-btn-' + gender).classList.add('active');
+  runTimeCalc();
+}
+
+function runTimeCalc() {
+  saveTimeInputs();
+
+  let h_cm = parseFloat(document.getElementById('tc-height').value) || 180;
+  let w_cm = parseFloat(document.getElementById('tc-wrist').value) || 17.5;
+  let yearsDone = parseFloat(document.getElementById('tc-years').value) || 0;
+
+  document.getElementById('lbl-years-val').innerText = yearsDone.toFixed(1);
+
+  // CASEY BUTT ARLIGE GAIN FORMEL:
+  // Year 1 Gain (lbs) = 0.3 * (wristInInches^2)
+  // Year N Gain = Year 1 * (0.5^(N-1))
+  let w_in = w_cm / 2.54;
+  let y1_lbs = 0.3 * Math.pow(w_in, 2);
+  
+  if (tcGender === 'female') {
+    y1_lbs *= 0.80; // Kvinders fysiologiske skalering (~80%)
+  }
+
+  let y1_kg = y1_lbs * 0.45359237;
+
+  // Beregn 5 års række-data
+  let yearlyGains = [
+    y1_kg,
+    y1_kg * 0.50,
+    y1_kg * 0.25,
+    y1_kg * 0.125,
+    y1_kg * 0.0625
+  ];
+
+  let cumulativeGains = [0];
+  let totalPctList = [0];
+  let sumGains = 0;
+  let total5YearKg = yearlyGains.reduce((a, b) => a + b, 0);
+
+  for (let i = 0; i < 5; i++) {
+    sumGains += yearlyGains[i];
+    cumulativeGains.push(sumGains);
+    totalPctList.push((sumGains / total5YearKg) * 100);
+  }
+
+  // BEREGN OPNÅET INDTIL NU (Interpolering på kurven)
+  let achievedKg = getInterpolatedGain(yearsDone, cumulativeGains);
+  let achievedPct = (achievedKg / total5YearKg) * 100;
+
+  // BEREGN FORVENTET VÆKST NÆSTE 12 MÅNEDER
+  let nextYearEnd = Math.min(5, yearsDone + 1);
+  let nextYearEndKg = getInterpolatedGain(nextYearEnd, cumulativeGains);
+  let next12MoKg = nextYearEndKg - achievedKg;
+
+  // OPDATER CARDS
+  document.getElementById('res-next-year').innerText = next12MoKg.toFixed(1);
+  document.getElementById('res-achieved-kg').innerText = achievedKg.toFixed(1);
+  document.getElementById('res-achieved-pct').innerText = achievedPct.toFixed(0);
+  document.getElementById('res-total-5y').innerText = total5YearKg.toFixed(1);
+
+  // OPDATER TABEL
+  let tbody = document.getElementById('tc-table-body');
+  tbody.innerHTML = '';
+  let pctPcts = [51.6, 25.8, 12.9, 6.5, 3.2];
+
+  for (let i = 0; i < 5; i++) {
+    let tr = document.createElement('tr');
+    let isCurrentYear = (yearsDone >= i && yearsDone < i + 1);
+    if (isCurrentYear) tr.className = 'active-row';
+
+    tr.innerHTML = `
+      <td>År ${i+1} ${isCurrentYear ? '👈 (Din fase)' : ''}</td>
+      <td>+${yearlyGains[i].toFixed(2)} kg</td>
+      <td>${cumulativeGains[i+1].toFixed(1)} kg</td>
+      <td>${pctPcts[i]}%</td>
+    `;
+    tbody.appendChild(tr);
+  }
+
+  // TEGN SVG GRAF
+  renderSVGChart(cumulativeGains, yearsDone, total5YearKg);
+}
+
+function getInterpolatedGain(years, cumulative) {
+  if (years <= 0) return 0;
+  if (years >= 5) return cumulative[5];
+
+  let lowerIndex = Math.floor(years);
+  let upperIndex = Math.ceil(years);
+  if (lowerIndex === upperIndex) return cumulative[lowerIndex];
+
+  let fraction = years - lowerIndex;
+  return cumulative[lowerIndex] + fraction * (cumulative[upperIndex] - cumulative[lowerIndex]);
+}
+
+// RENDERING AF INTERAKTIV SVG GRAF
+function renderSVGChart(cumulative, yearsDone, totalMax) {
+  let svg = document.getElementById('tc-svg-chart');
+  svg.innerHTML = '';
+
+  let width = 600;
+  let height = 220;
+  let margin = { top: 20, right: 30, bottom: 40, left: 45 };
+  let chartW = width - margin.left - margin.right;
+  let chartH = height - margin.top - margin.bottom;
+
+  let points = [];
+  for (let i = 0; i <= 5; i++) {
+    let x = margin.left + (i / 5) * chartW;
+    let y = margin.top + chartH - (cumulative[i] / (totalMax * 1.05)) * chartH;
+    points.push({ x: x, y: y, yr: i, kg: cumulative[i] });
+  }
+
+  // X position for current training years completed
+  let splitX = margin.left + (yearsDone / 5) * chartW;
+
+  // Path definition (Smooth curve)
+  let dPath = `M ${points[0].x} ${points[0].y}`;
+  for (let i = 0; i < points.length - 1; i++) {
+    let p0 = points[i];
+    let p1 = points[i + 1];
+    let cx = (p0.x + p1.x) / 2;
+    dPath += ` C ${cx} ${p0.y}, ${cx} ${p1.y}, ${p1.x} ${p1.y}`;
+  }
+
+  // 1. SHADED BACKGROUND: REMAINING (Grøn tone)
+  let bgRemaining = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  let dRem = dPath + ` L ${points[5].x} ${margin.top + chartH} L ${margin.left} ${margin.top + chartH} Z`;
+  bgRemaining.setAttribute('d', dRem);
+  bgRemaining.setAttribute('fill', '#ccfbf1');
+  bgRemaining.setAttribute('opacity', '0.7');
+  svg.appendChild(bgRemaining);
+
+  // 2. SHADED BACKGROUND: ACHIEVED (Orange tone op til splitX)
+  let clipId = 'achieved-clip-' + Math.random().toString(36).substr(2, 5);
+  let clipPath = document.createElementNS('http://www.w3.org/2000/svg', 'clipPath');
+  clipPath.setAttribute('id', clipId);
+  let clipRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+  clipRect.setAttribute('x', '0');
+  clipRect.setAttribute('y', '0');
+  clipRect.setAttribute('width', splitX);
+  clipRect.setAttribute('height', height);
+  clipPath.appendChild(clipRect);
+  svg.appendChild(clipPath);
+
+  let bgAchieved = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  bgAchieved.setAttribute('d', dRem);
+  bgAchieved.setAttribute('fill', '#fed7aa');
+  bgAchieved.setAttribute('opacity', '0.95');
+  bgAchieved.setAttribute('clip-path', `url(#${clipId})`);
+  svg.appendChild(bgAchieved);
+
+  // GRID LINES & LABELS
+  for (let i = 0; i <= 5; i++) {
+    let x = margin.left + (i / 5) * chartW;
+    
+    // Vertical grid line
+    let line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.setAttribute('x1', x);
+    line.setAttribute('y1', margin.top);
+    line.setAttribute('x2', x);
+    line.setAttribute('y2', margin.top + chartH);
+    line.setAttribute('stroke', '#e2e8f0');
+    line.setAttribute('stroke-dasharray', '3 3');
+    svg.appendChild(line);
+
+    // X Label
+    let text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    text.setAttribute('x', x);
+    text.setAttribute('y', height - 12);
+    text.setAttribute('text-anchor', 'middle');
+    text.setAttribute('font-size', '11');
+    text.setAttribute('fill', '#64748b');
+    text.setAttribute('font-weight', '600');
+    text.textContent = i + ' år';
+    svg.appendChild(text);
+  }
+
+  // VERTICAL SPLIT LINE FOR CURRENT PROGRESS
+  let currentLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+  currentLine.setAttribute('x1', splitX);
+  currentLine.setAttribute('y1', margin.top);
+  currentLine.setAttribute('x2', splitX);
+  currentLine.setAttribute('y2', margin.top + chartH);
+  currentLine.setAttribute('stroke', '#3b82f6');
+  currentLine.setAttribute('stroke-width', '2');
+  currentLine.setAttribute('stroke-dasharray', '4 4');
+  svg.appendChild(currentLine);
+
+  // CURVE LINE
+  let path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  path.setAttribute('d', dPath);
+  path.setAttribute('fill', 'none');
+  path.setAttribute('stroke', '#0284c7');
+  path.setAttribute('stroke-width', '3.5');
+  svg.appendChild(path);
+
+  // DOTS ON CURVE WITH HOVER TOOLTIP
+  points.forEach(pt => {
+    let circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    circle.setAttribute('cx', pt.x);
+    circle.setAttribute('cy', pt.y);
+    circle.setAttribute('r', '5.5');
+    circle.setAttribute('fill', '#ffffff');
+    circle.setAttribute('stroke', '#0284c7');
+    circle.setAttribute('stroke-width', '3');
+    circle.style.cursor = 'pointer';
+
+    circle.addEventListener('mouseenter', function(e) {
+      circle.setAttribute('r', '8');
+      let tooltip = document.getElementById('tc-tooltip');
+      tooltip.style.display = 'block';
+      tooltip.style.left = (pt.x / width * 100) + '%';
+      tooltip.style.top = (pt.y / height * 100) + '%';
+      tooltip.innerHTML = `År ${pt.yr}: <strong>+${pt.kg.toFixed(1)} kg</strong> samlet`;
+    });
+
+    circle.addEventListener('mouseleave', function() {
+      circle.setAttribute('r', '5.5');
+      document.getElementById('tc-tooltip').style.display = 'none';
+    });
+
+    svg.appendChild(circle);
+  });
+}
+
+// LOCAL STORAGE
+function saveTimeInputs() {
+  const data = {
+    gender: tcGender,
+    height: document.getElementById('tc-height').value,
+    wrist: document.getElementById('tc-wrist').value,
+    bf: document.getElementById('tc-bf').value,
+    years: document.getElementById('tc-years').value
+  };
+  localStorage.setItem('muscleTimeCalcData', JSON.stringify(data));
+}
+
+function loadTimeInputs() {
+  const dataStr = localStorage.getItem('muscleTimeCalcData');
+  if (dataStr) {
+    try {
+      const data = JSON.parse(dataStr);
+      if (data.height) document.getElementById('tc-height').value = data.height;
+      if (data.wrist) document.getElementById('tc-wrist').value = data.wrist;
+      if (data.bf) document.getElementById('tc-bf').value = data.bf;
+      if (data.years) document.getElementById('tc-years').value = data.years;
+      if (data.gender) setTimeGender(data.gender);
+    } catch (e) {}
+  }
+}
+</script>

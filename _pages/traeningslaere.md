@@ -128,7 +128,7 @@ Præstationsoptimering dækker over de samlede strategiske greb – både i og u
 ### 🧬 1. Fysiologi og energisystemer
 Fysiologi er læren om, hvordan kroppens organer, celler og energisystemer fungerer under belastning.
 * **[Læs alt om kroppens fysiologi](/fysiologi/)** – Forstå stofskiftet, nervesystemet og kredsløbet.
-* **[Fysiologiske tilpasninger ved styrketræning](/fysiologiske-tilpasninger/)** – Hvad sker der i musklerne, når du løfter tungt?
+* **[Fysiologiske tilpasninger ved styrketræning](/muskelvaekst-hypertrofi/)** – Hvad sker der i musklerne, når du løfter tungt?
 * **[6 fysiologiske forandringer ved konditionstræning](/tilpasning-konditionstraening/)** – Hjertets og kredsløbets tilpasning.
 * **[Superkompensation](/superkompensation/)** – Forstå balancen mellem nedbrydning, genopbygning og hvile.
 * **[Muskelvækst og hypertrofi](/muskelvaekst-hypertrofi/)** – Den ultimative guide til opbygning af muskelmasse.

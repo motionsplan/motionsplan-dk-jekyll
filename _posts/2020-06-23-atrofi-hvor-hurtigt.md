@@ -1,5 +1,8 @@
 ---
-title: Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?
+title: Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke? 💪
+seo_title: Hvor hurtigt taber man muskelmasse og muskelstyrke?
+description: Hvor hurtigt taber man muskelmasse og styrke ved en træningspause? Læs om fysiologien bag muskelatrofi og hvornår tabet reelt starter.
+excerpt: Hvor hurtigt taber man muskelmasse og muskelstyrke ved en træningspause? Se hvad videnskaben siger om atrofi og muskelhukommelse.
 permalink: /atrofi-muskelmasse-muskelstyrke/
 language: da
 header:
@@ -7,17 +10,39 @@ header:
   credit: https://images.unsplash.com/photo-1519156062512-8e563047dc6f
   caption: Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?
 categories:
-- Fysiologi
+- Styrketræning
+- Hypertrofi
 tags:
 - fysiologi
 - muskler
 - træningslære
-last_modified_at: '2020-06-11T08:14:14Z'
+last_modified_at: '2026-08-30T08:00:00Z'
+faq:
+- question: Hvor hurtigt taber man muskelmasse ved en træningspause?
+  answer: Det tager typisk 2–3 ugers komplet inaktivitet, før kroppen begynder at nedbryde reelt muskelvæv (atrofi). Pauser under 14 dage medfører primært et fald i muskelglykogen og bundet væske, hvilket kan få musklerne til at se mindre ud uden at muskelmassen reelt er tabt.
+- question: Hvad forsvinder først – muskelstyrke eller muskelmasse?
+  answer: Muskelstørrelsen og muskelvolumen falder typisk før den reelle muskelstyrke. Styrken opretholdes i længere tid af nervesystemet (neurale tilpasninger), mens muskelstørrelsen hurtigere skrumper på grund af udtømte glykogen- og væskedepoter.
+- question: Hvad er muscle memory, og hvor hurtigt genvinder man musklerne?
+  answer: Muscle memory (muskelhukommelse) skyldes, at de cellekerner (myonuclei), du opbyggede under din træning, bevares i muskelfibrene under pausen. Når du starter træningen igen, kan du genvinde din tidligere muskelmasse op til 2–3 gange hurtigere, end det tog at opbygge den første gang.
+- question: Hvor meget skal man træne for at bevare sin muskelmasse i en pause?
+  answer: Forskning viser, at du kan bevare stort set al din muskelmasse og styrke i flere måneder med blot 1/3 af din normale træningsvolumen (f.eks. ét enkelt intensivt helkropstræningspas om ugen).
+- question: Taber ældre mennesker muskelmasse hurtigere end yngre?
+  answer: Ja, personer over 60 år mister muskelmasse og styrke hurtigere ved inaktivitet på grund af lavere anabolsk hormonproduktion og aldersrelateret muskelatrofi (sarkopeni).
 ---
 
 Jeg har haft en længere styrketræningspause, så jeg synes det er interessant at kigge på, hvor hurtigt musklerne forsvinder.
 
 Det er naturligvis ikke selve musklerne, der forsvinder, men hvor hurtigt forsvinder muskelmassen, muskelstørrelsen og muskelstyrken?
+
+<div class="notice--info" markdown="1">
+
+**Kort fortalt: Hvor hurtigt taber man muskelmasse?**
+
+* **2–3 ugers pause:** Både begyndere og trænede kan bevare langt størstedelen af deres muskelmasse og muskelstyrke i op til 3 uger uden styrketræning.
+* **Størrelse vs. styrke:** Muskelstørrelsen (volumen) falder typisk hurtigere end den reelle muskelstyrke, hvilket delvist skyldes fald i muskelglykogen og bundet væske.
+* **Genopbygning:** Takket være *muscle memory* (bevarede cellekerner / myonuclei) genvinder du tabt muskelmasse og styrke væsentligt hurtigere, end da du opbyggede det første gang.
+
+</div>
 
 **Tilsyneladende kan både begyndere og trænede opretholde muskelstyrke og muskelmasse i omkring 2-3 uger uden træning, særligt hvis de sørger for ikke at være helt inaktiv i pauserne. De fleste forskningsresultater peger på, at muskelstørrelsen forsvinder før selve muskelstyrken går ned.**
 
@@ -27,13 +52,15 @@ Men lad os først kigge lidt på fysiologien bag ved, at muskelmassen forsvinder
 
 {% include figure image_path="https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke" %}
 
-## Atrofi har en fysiologisk forklaring
+---
+
+## Hvad er atrofi? Fysiologien bag tab af muskelmasse
 
 Det kræver rigtig meget energi at have en stor muskelmasse. Man kan kalde det en metabolisk udgift for kroppen. Derfor vil kroppen gerne kun have den nødvendige muskelmasse til at klare dine gøremål.
 
 Kroppen vil derfor skille sig af med overflødig muskelmasse, som ikke bruges. Hvis du holder pause fra træningen, så behøver kroppen ikke vedligeholde den muskelmasse, der er nødvendig for at klare din træning.
 
-Når dine muskler vokser (hypertrofi), så ved man at der er en lang række vækstfaktorer, der får musklerne til at vokse. Vi har skrevet andre indlæg, der handler om [vækstfaktorerne](/hvordan-vokser-muskler/) og [hvor hurtigt musklerne kan vokse](/hvor-hurtigt-vokser-muskler/).
+Når dine muskler vokser (hypertrofi), så ved man at der er en lang række vækstfaktorer, der får musklerne til at vokse. Vi har skrevet andre indlæg, der handler om [vækstfaktorerne](/muskelvaekst-hypertrofi/) og [hvor hurtigt musklerne kan vokse](/hvor-hurtigt-vokser-muskler/).
 
 Når man holder pause, så aktiverer man naturligvis ikke længere vækstfaktorerne. Men det ser også ud til, at der er signalveje, der ansporer kroppen til at miste muskelmasse. Atrofi kan ske enten som følge af faste, inaktivitet eller sygdomme, og det ser ud til, at muskelnedbrydningen sættes i gang af nogle proteinnedbrydende processer.
 
@@ -43,7 +70,9 @@ Når man holder pause, så aktiverer man naturligvis ikke længere vækstfaktore
 >
 > --- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/den-frygtede-pause-1620c1.html){: rel='sponsored nofollow noopener' }</cite>
 
-## Hvilke faktorer spiller ind på hastigheden af tab i muskelmasse og muskelstyrke?
+---
+
+## Hvad påvirker hvor hurtigt man taber muskelmasse og styrke?
 
 Hvor meget muskelmasse man taber i en træningspause hænger naturligvis sammen med flere faktorer.
 
@@ -57,13 +86,15 @@ Desuden er der formentlig forskel på, hvordan detræning påvirker begyndere og
 - **Begyndere** har trænet i mindre end et år med 3 træninger om ugen.
 - **Trænede** har trænet i mere end et år.
 
-## Hvor hurtigt forsvinder muskelmassen?
+---
+
+## Hvor hurtigt taber man muskelmasse?
 
 Vi må slås med metodemæssige udfordringer, når vi taler om muskelmasse og detræning. Musklens glykogenlagre mindskes nemlig, når du stopper med at træne. Når glykogenlagrene i musklerne bliver mindre, så forsvinder der også noget vand fra musklerne.
 
 Bone et al (2016) har vist at mængden af glykogen i musklerne har indflydelse på, hvordan en DEXA-scanner estimerer muskelmassen. Denne effekt skaber også usikkerhed om målingerne af, hvor hurtigt man kan tage muskelmasse på.
 
-### Tab af muskelmasse for begyndere
+### Hvor hurtigt mister begyndere muskelmasse?
 
 Taaffe og Marcus (1997) lod deltagerne styrketræne i 24 uger. Deltagerne fik et øget tværsnitsareal på 26% og en styrkefremgang på 40%. Efter 12 ugers pause var tværsnitsarealet tilbage på udgangspunktet. Styrken var imidlertid kun faldet med 30%.
 
@@ -89,7 +120,7 @@ Ogasawara et al (2012) undersøgte det periodiske styrkeprogram (PTR) og det kon
 
 {% include figure image_path="/assets/images/blog/ogasawara-tvaersnit-brystmuskel.png" caption="Udvikling i tværsnitsarealet i pectoralis major (brystmusklen) over 24 timers styrketræning. PRT gruppen trænede i 6 uger og derefter 3 ugers pause. CTR trænede kontinuerligt igennem alle 24 uger. Ved forsøget slutning var der en ingen forskel i mængden af muskelmasse, men fluktuationerne kan måske forklares af ændringer i muskelglykogendepoter (Ogasawara et al 2012)." %}
 
-### Hvordan reagerer muskelmassen på pause for trænede?
+### Hvor hurtigt mister trænede muskelmasse?
 
 Fisher et al (2013) konkluderer følgende i forhold til atrofi for øvede i deres metareview:
 
@@ -99,13 +130,15 @@ Fisher et al (2013) konkluderer følgende i forhold til atrofi for øvede i dere
 
 Flere studier ser altså ud til, at trænede uden at være bekymrede for muskelmassen kan holde pause i 2-3 uger - og måske kan de endda have en fordel af det i forhold til hypertrofi, når de vender tilbage til træningen.
 
-## Hvor hurtigt mister man styrke?
+---
+
+## Hvor hurtigt mister man muskelstyrke?
 
 Styrke og muskelfiberstørrelse kan hænge sammen, men det behøver de ikke at gøre. Der er et stort neuralt komponent, der spiller ind på din muskelstyrke. Det foreslås, at muskelstyrketab i de første uge af pausen, måske kan skyldes et **nedsat neuralt drive** og at tilpasningerne i selve muskelfiberstørrelserne først kommer senere.
 
 Det hænger imidlertid ikke helt sammen med fundene Taaffe og Marcus (1997), hvor styrken ikke faldt så meget som muskeltværsnittet efter 12 ugers pause.
 
-### Styrkefald for nybegyndere
+### Tab af muskelstyrke hos begyndere
 
 Hortobagyi et al. (1993) så i deres studium, at styrken var bevaret efter to ugers pause hos styrkeatleter. Flere senere studier har vist at nybegyndere kan fastholde hovedparten af styrken i tre uger efter træningsforløb på 10-24 uger (Häkkinen et al 2000; Ogasawara 2011; Ogasawara 2013).
 
@@ -127,7 +160,7 @@ Jeg synes resultat fra Lemmer et al (2000) er lidt overraskende, at man faktisk 
 
 Samlet set så er der mange faktorer, der spiller ind på, hvor meget styrke du mister i en træningspause. Styrkefaldet afhænger af alder, træningserfaring, muskelgrupper, og så handler det naturligvis også om du holder komplet pause eller har nogen aktivitet.
 
-### Tab af muskelstyrke for trænede
+### Tab af muskelstyrke hos trænede
 
 McMaster et al (2013) har lavet et metareview af 27 studier, hvor man har kigget på pauser i træning.
 
@@ -139,7 +172,9 @@ McMaster et al (2013) konkluderer
 >
 > --- <cite>[McMaster et al (2013)](https://pubmed.ncbi.nlm.nih.gov/23529287/)</cite>
 
-## Hvor hurtigt kan du genvinde muskelmasse og -styrke efter en pause?
+---
+
+## Hvor hurtigt kan man genvinde tabt muskelmasse og styrke?
 
 Det kan imidlertid være interessant at kigge på, hvor hurtigt man kan genvinde muskelstyrke og muskelmasse efter en træningsperiode.
 
@@ -163,7 +198,9 @@ Desværre har jeg aldrig haft store muskler, så jeg kan ikke helt udnytte fæno
 
 Det er bl.a. undersøgelsen af _muscle memory_ podcasten med Anders Nedergaard som vært handler om. Seaborne et al (2018) har undersøgt det med 7 ugers styrketræning på utrænede, efterfulgt af 7 ugers træningspause og 7 ugers retræning. Det kunne være interessant at se studier med endnu længere pause i forhold til muskelmasse.
 
-## Konklusion
+---
+
+## Opsamling: Hvor hurtigt forsvinder musklerne?
 
 Tilsyneladende kan man opretholde sin muskelstyrke og muskelmasse i omkring 2-3 uger uden træning, særligt hvis du sørger for ikke at være helt inaktiv i pauserne.
 
@@ -173,7 +210,13 @@ Fatouros (2006) viste på ældre mænd (70 år i gennemsnit), at hvis du inden t
 
 Jeg vil dog på ingen måde anbefale en pause, hvis du er kommet op i den alder.
 
-Hvis du er interesseret, så har jeg skrevet et andet indlæg om, [hvad de fysiologiske tilpasninger er ved styrketræning](/fysiologiske-tilpasninger/) eller [hvor hurtigt muskler vokser](/hvor-hurtigt-vokser-muskler/).
+Hvis du er interesseret, så har jeg skrevet et andet indlæg om, [hvad de fysiologiske tilpasninger er ved styrketræning](/muskelvaekst-hypertrofi/) eller [hvor hurtigt muskler vokser](/hvor-hurtigt-vokser-muskler/).
+
+---
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
@@ -183,7 +226,7 @@ Hvis du er interesseret, så har jeg skrevet et andet indlæg om, [hvad de fysio
 - Bone, Julia L., Megan L. Ross, Kristyen A. Tomcik, Nikki A. Jeacocke, Will G. Hopkins, og Louise M. Burke. 2017. “Manipulation of Muscle Creatine and Glycogen Changes Dual X-Ray Absorptiometry Estimates of Body Composition”. Medicine and Science in Sports and Exercise 49 (5): 1029–35. <https://doi.org/10.1249/MSS.0000000000001174>.
 - Bruusgaard, J. C., I. B. Johansen, I. M. Egner, Z. A. Rana, og K. Gundersen. 2010. “Myonuclei Acquired by Overload Exercise Precede Hypertrophy and Are Not Lost on Detraining”. Proceedings of the National Academy of Sciences 107 (34): 15111–16. <https://pubmed.ncbi.nlm.nih.gov/20713720/>.
 - Correa, Cleiton Silva, Bruno Manfredini Baroni, Régis Radaelli, Fábio Juner Lanferdini, Giovani Dos Santos Cunha, Álvaro Reischak-Oliveira, Marco Aurélio Vaz, og Ronei Silveira Pinto. 2013. “Effects of strength training and detraining on knee extensor strength, muscle volume and muscle quality in elderly women”. Age 35 (5): 1899–1904. <https://doi.org/10.1007/s11357-012-9478-7>.
-- Egner, Ingrid M, Jo C Bruusgaard, Einar Eftestøl, og Kristian Gundersen. 2013. “A cellular memory mechanism aids overload hypertrophy in muscle long after an episodic exposure to anabolic steroids”. The Journal of Physiology 591 (Pt 24): 6221–30. >https://doi.org/10.1113/jphysiol.2013.264457>.
+- Egner, Ingrid M, Jo C Bruusgaard, Einar Eftestøl, og Kristian Gundersen. 2013. “A cellular memory mechanism aids overload hypertrophy in muscle long after an episodic exposure to anabolic steroids”. The Journal of Physiology 591 (Pt 24): 6221–30. <https://doi.org/10.1113/jphysiol.2013.264457>.
 - English, Kirk L., og Douglas Paddon-Jones. 2010. “Protecting muscle mass and function in older adults during bed rest”. Current Opinion in Clinical Nutrition and Metabolic Care 13 (1): 34–39. <https://doi.org/10.1097/MCO.0b013e328333aa66>.
 - Fisher, James, James Steele, og Dave Smith. 2013. “Evidence-Based Resistance Training Recommendations for Muscular Hypertrophy”. Medicina Sportiva 17 (december): 217–35. <https://www.researchgate.net/publication/259390281_Evidence-Based_Resistance_Training_Recommendations_for_Muscular_Hypertrophy>.
 - Gundersen, Kristian. 2016. “Muscle Memory and a New Cellular Model for Muscle Atrophy and Hypertrophy”. Journal of Experimental Biology 219 (2): 235–42. <https://doi.org/10.1242/jeb.124495>.

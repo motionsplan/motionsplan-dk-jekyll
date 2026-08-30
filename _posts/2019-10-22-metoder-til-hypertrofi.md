@@ -30,7 +30,7 @@ Rigtig mange af mine elever træner for at få større muskler (hypertrofi) og i
 
 **Maksimal muskelvækst og hypertrofi skabes, hvis volumen i styrketræningen er stor nok til at skabe betydelig mekanisk belastning, udtrætte muskelfibre, så der rekrutteres flere fibre og måske kan mikroskaderne i musklerne også være med til at skabe vækstfaktorer. Maksimal muskelvækst kræver også et overskud af energi.**
 
-Hvis muskler skal vokse, så skal du først og fremmest være i overskud af energi, og så skal du træne. I træningen skal du flytte en stor volumen, så musklerne og -fibrene udsættes for mekanisk belastning, bliver udtrættet så flere muskelfibre rekrutteres og måske vil muskelskader også skabe vækst. Du kan læse mere i vores artikel om [hvorfor muskler vokser?](/hvordan-vokser-muskler/) - sørg for at læse indlægget grundigt igennem, så du ved, hvordan du kan bygge volumen op.
+Hvis muskler skal vokse, så skal du først og fremmest være i overskud af energi, og så skal du træne. I træningen skal du flytte en stor volumen, så musklerne og -fibrene udsættes for mekanisk belastning, bliver udtrættet så flere muskelfibre rekrutteres og måske vil muskelskader også skabe vækst. Du kan læse mere i vores artikel om [hvorfor muskler vokser?](/muskelvaekst-hypertrofi/) - sørg for at læse indlægget grundigt igennem, så du ved, hvordan du kan bygge volumen op.
 
 Du kan sagtens lave træning, hvor du køre sæt og gentagelser ligeud, fx x12 @ RPE 9.5 med en given vægt i øvelserne. Nedenstående metoder og teknikker kan du overveje at bruge, hvis du synes de fungerer godt for dig, så du øger volumen i din træning og får lidt variation.
 
@@ -107,4 +107,4 @@ Det er nogle af de metoder, du kan bruge i forbindelse med styrketræning og hyp
 
 Hvilke metoder holder du mest af?
 
-Jeg har skrevet et andet indlæg om [metoder til maksimal muskelstyrke](/maksimal-styrke/). Men først og fremmest bør du tjekke mit indlæg om [hvordan muskler vokser ud](/hvordan-vokser-muskler/).
+Jeg har skrevet et andet indlæg om [metoder til maksimal muskelstyrke](/maksimal-styrke/). Men først og fremmest bør du tjekke mit indlæg om [hvordan muskler vokser ud](/muskelvaekst-hypertrofi/).

@@ -147,7 +147,7 @@ Når du udsætter kroppen for regelmæssig fysisk belastning, gennemgår den **f
 
 Læs videre om de specifikke adaptationer for kondition og styrke:
 - 🏃‍♂️ **[6 fysiologiske forandringer ved konditionstræning](/tilpasning-konditionstraening/)**
-- 🏋️‍♂️ **[Fysiologiske tilpasninger ved styrketræning](/fysiologiske-tilpasninger/)**
+- 🏋️‍♂️ **[Fysiologiske tilpasninger ved styrketræning](/muskelvaekst-hypertrofi/)**
 
 ---
 

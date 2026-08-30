@@ -1,0 +1,550 @@
+<!-- BEREGNER: ØVRE GRÆNSE FOR MUSKELMASSE -->
+<div class="mcalc-wrap">
+  
+  <div class="mcalc-header">
+    <div style="font-size: 1.8em; font-weight: 700">Beregn genetisk potentiale</div>
+    <div class="mcalc-icon">💪</div>
+  </div>
+  <p class="mcalc-desc">Estimer din øvre grænse for muskelmasse ud fra anerkendte fysiologiske modeller.</p>
+
+  <!-- METODE KNAPPER / MINI-DASHBOARDS -->
+  <div class="mcalc-methods">
+    
+    <!-- CASEY BUTT KORT -->
+    <div class="mcalc-method active" id="btn-casey" onclick="setMethod('casey')">
+      <div class="mcalc-card-top">
+        <span class="mcalc-card-title">Casey Butt (2007)</span>
+      </div>
+      <p class="mcalc-card-desc">Avanceret med knoglemål for naturlig fysik.</p>
+      
+      <div class="mcalc-mini-dash">
+        <div class="mini-dash-item">
+          <span class="mini-label">Kropsvægt</span>
+          <span class="mini-val" id="dash-casey-weight">-- kg</span>
+        </div>
+        <div class="mini-dash-divider"></div>
+        <div class="mini-dash-item">
+          <span class="mini-label">Muskelmasse</span>
+          <span class="mini-val highlight" id="dash-casey-muscle">-- kg</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ABE ET AL. KORT -->
+    <div class="mcalc-method" id="btn-abe" onclick="setMethod('abe')">
+      <div class="mcalc-card-top">
+        <span class="mcalc-card-title">Abe et al. (2018)</span>
+      </div>
+      <p class="mcalc-card-desc">Baseret på højde. Absolut fysiologisk max-grænse.</p>
+      
+      <div class="mcalc-mini-dash">
+        <div class="mini-dash-item">
+          <span class="mini-label">Kropsvægt</span>
+          <span class="mini-val" id="dash-abe-weight">-- kg</span>
+        </div>
+        <div class="mini-dash-divider"></div>
+        <div class="mini-dash-item">
+          <span class="mini-label">Muskelmasse</span>
+          <span class="mini-val highlight" id="dash-abe-muscle">-- kg</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BASIS INDTASTNING -->
+  <div class="mcalc-inputs">
+    <div class="mcalc-group">
+      <label>Alder <small>(år)</small></label>
+      <input type="number" id="mc-age" class="mcalc-input" value="30" oninput="runCalc()">
+    </div>
+    <div class="mcalc-group">
+      <label>Højde <small>(cm)</small></label>
+      <input type="number" id="mc-height" class="mcalc-input" value="180" oninput="runCalc()">
+    </div>
+    <div class="mcalc-group">
+      <label>Mål-fedt <small>(%)</small></label>
+      <input type="number" id="mc-bf" class="mcalc-input" value="10" step="0.5" oninput="runCalc()">
+    </div>
+    <div class="mcalc-group" style="flex: 1.4; min-width: 140px;">
+      <label>Køn</label>
+      <div class="mcalc-segmented">
+        <button id="btn-male" class="mcalc-seg-btn active" onclick="setGender('male')">Mand</button>
+        <button id="btn-female" class="mcalc-seg-btn" onclick="setGender('female')">Kvinde</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- AVANCERET INDTASTNING (KUN CASEY BUTT) -->
+  <div class="mcalc-inputs" id="advanced-inputs">
+    <div class="mcalc-group">
+      <label>Håndled <small>(cm) - tyndeste sted</small></label>
+      <input type="number" id="mc-wrist" class="mcalc-input" value="17.5" step="0.1" oninput="runCalc()">
+    </div>
+    <div class="mcalc-group">
+      <label>Ankel <small>(cm) - tyndeste sted</small></label>
+      <input type="number" id="mc-ankle" class="mcalc-input" value="22.5" step="0.1" oninput="runCalc()">
+    </div>
+  </div>
+
+  <!-- HOVED RESULTAT KORT -->
+  <div class="mcalc-results">
+    
+    <div class="mcalc-res-main">
+      <h4 id="res-main-title">Casey Butt (2007) Potentiale</h4>
+      <p>VED <span id="lbl-bf">10</span>% FEDTPROCENT</p>
+      <div class="value"><span id="res-weight">--</span> <small>kg</small></div>
+      <div class="res-subtext">Estimeret maksimal kropsvægt i topform.</div>
+    </div>
+    
+    <div class="mcalc-res-side-wrap">
+      <div class="mcalc-res-side">
+        <h4>Fedtfri masse (FFM)</h4>
+        <div class="value"><span id="res-ffm">--</span> <small>kg</small></div>
+      </div>
+      <div class="mcalc-res-side">
+        <h4>Maksimal muskelmasse</h4>
+        <div class="value"><span id="res-muscle">--</span> <small>kg</small></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DYNAMISK INFO BOKS -->
+  <div class="mcalc-info">
+    <strong id="info-title">Casey Butt (2007):</strong> 
+    <span id="info-desc">Beregner dit naturlige maksimale muskelpotentiale ud fra din knoglebygning. Modellen er valideret på historiske, naturlige bodybuildere og anses som guldstandarden for trænende i dag.</span>
+    <div id="female-warning" style="display:none; margin-top: 8px; color: #b45309; font-size: 0.85rem;">
+      <em>* Bemærk: Modellerne bygger oprindeligt på mandlige atleter. Kvinders tal er fysiologisk skaleret (~80% muskelmasse ift. mænd) og fungerer som et kvalificeret estimat.</em>
+    </div>
+  </div>
+
+</div>
+
+<!-- STYLES -->
+<style>
+.mcalc-wrap {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 750px;
+  margin: 30px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  color: #0f172a;
+}
+.mcalc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.mcalc-header h2 {
+  font-size: 1.45rem;
+  font-weight: 800;
+  margin: 0;
+  color: #0f172a;
+}
+.mcalc-icon {
+  font-size: 1.4rem;
+  background: #f1f5f9;
+  padding: 6px 10px;
+  border-radius: 50%;
+}
+.mcalc-desc {
+  color: #64748b;
+  font-size: 0.92rem;
+  margin-bottom: 18px;
+  margin-top: 0;
+}
+
+/* METODE KNAPPER */
+.mcalc-methods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .mcalc-methods { grid-template-columns: 1fr; }
+}
+.mcalc-method {
+  border: 2px solid #e2e8f0;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mcalc-method:hover {
+  border-color: #cbd5e1;
+}
+.mcalc-method.active {
+  border-color: #3b82f6;
+  background: #eff6ff;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.08);
+}
+.mcalc-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.mcalc-card-title {
+  font-weight: 800;
+  font-size: 0.98rem;
+  color: #0f172a;
+}
+.mcalc-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.badge-blue { background: #dbeafe; color: #1e40af; }
+.badge-purple { background: #f3e8ff; color: #6b21a8; }
+
+.mcalc-card-desc {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin: 0 0 10px 0;
+  line-height: 1.25;
+}
+
+/* MINI DASHBOARD */
+.mcalc-mini-dash {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.mcalc-method.active .mcalc-mini-dash {
+  border-color: #bfdbfe;
+}
+.mini-dash-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mini-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+.mini-val {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #1e293b;
+  white-space: nowrap;
+}
+.mini-val.highlight {
+  color: #2563eb;
+}
+.mini-dash-divider {
+  width: 1px;
+  height: 22px;
+  background: #e2e8f0;
+}
+
+/* INPUTS */
+.mcalc-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.mcalc-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 100px;
+}
+.mcalc-group label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 4px;
+}
+.mcalc-group label small {
+  font-weight: 400;
+  color: #94a3b8;
+}
+.mcalc-input {
+  padding: 9px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.98rem;
+  color: #0f172a;
+  text-align: center;
+  transition: all 0.2s;
+}
+.mcalc-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
+}
+.mcalc-segmented {
+  display: flex;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 3px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.mcalc-seg-btn {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: #64748b;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.mcalc-seg-btn.active {
+  background: #3b82f6;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* RESULTAT KORT */
+.mcalc-results {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+@media (max-width: 600px) {
+  .mcalc-results { grid-template-columns: 1fr; }
+}
+.mcalc-res-main {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mcalc-res-main h4 {
+  color: #1e40af;
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 2px 0;
+}
+.mcalc-res-main p {
+  color: #64748b;
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+.mcalc-res-main .value {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #2563eb;
+  line-height: 1;
+  margin-bottom: 6px;
+  white-space: nowrap;
+}
+.mcalc-res-main .value small {
+  font-size: 1.1rem;
+  color: #64748b;
+  font-weight: 600;
+}
+.res-subtext {
+  font-size: 0.78rem;
+  color: #64748b;
+}
+.mcalc-res-side-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.mcalc-res-side {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  gap: 10px;
+}
+.mcalc-res-side h4 {
+  color: #334155;
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.25;
+}
+.mcalc-res-side .value {
+  font-size: 1.55rem;
+  font-weight: 800;
+  color: #0f172a;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mcalc-res-side .value small {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-left: 2px;
+}
+.mcalc-info {
+  background: #f1f5f9;
+  border-left: 4px solid #3b82f6;
+  border-radius: 0 8px 8px 0;
+  padding: 14px;
+  font-size: 0.88rem;
+  color: #334155;
+  line-height: 1.45;
+}
+</style>
+
+<!-- JAVASCRIPT LOGIK -->
+<script>
+let currentMethod = 'casey';
+let currentGender = 'male';
+
+document.addEventListener('DOMContentLoaded', function() {
+  loadInputs();
+  runCalc();
+});
+
+function setMethod(method) {
+  currentMethod = method;
+  document.getElementById('btn-casey').classList.remove('active');
+  document.getElementById('btn-abe').classList.remove('active');
+  document.getElementById('btn-' + method).classList.add('active');
+  
+  if(method === 'casey') {
+    document.getElementById('advanced-inputs').style.display = 'flex';
+    document.getElementById('res-main-title').innerText = "Casey Butt (2007)";
+    document.getElementById('info-title').innerText = "Casey Butt (2007):";
+    document.getElementById('info-desc').innerText = " Beregner dit naturlige maksimale muskelpotentiale ud fra din knoglebygning (håndleds- og ankelomkreds). Modellen er valideret på historiske, naturlige bodybuildere og anses som guldstandarden for trænende i dag.";
+  } else {
+    document.getElementById('advanced-inputs').style.display = 'none';
+    document.getElementById('res-main-title').innerText = "Abe et al. (2018)";
+    document.getElementById('info-title').innerText = "Abe et al. (2018):";
+    document.getElementById('info-desc').innerText = " Beregner den absolutte fysiologiske grænse for muskelmasse. Modellen er baseret på de tungeste menneskelige atleter (inkl. sumobrydere og NFL-spillere) og giver derfor et markant højere ekstrem-estimat frem for et 'fit' ideal.";
+  }
+  runCalc();
+}
+
+function setGender(gender) {
+  currentGender = gender;
+  document.getElementById('btn-male').classList.remove('active');
+  document.getElementById('btn-female').classList.remove('active');
+  document.getElementById('btn-' + gender).classList.add('active');
+  
+  let bfInput = document.getElementById('mc-bf');
+  if(gender === 'female' && bfInput.value == '10') bfInput.value = '18';
+  if(gender === 'male' && bfInput.value == '18') bfInput.value = '10';
+  
+  document.getElementById('female-warning').style.display = (gender === 'female') ? 'block' : 'none';
+  runCalc();
+}
+
+function runCalc() {
+  saveInputs();
+  
+  let h_cm = parseFloat(document.getElementById('mc-height').value) || 180;
+  let bf = parseFloat(document.getElementById('mc-bf').value) || 10;
+  let w_cm = parseFloat(document.getElementById('mc-wrist').value) || 17.5;
+  let a_cm = parseFloat(document.getElementById('mc-ankle').value) || 22.5;
+
+  document.getElementById('lbl-bf').innerText = bf;
+
+  // 1. CASEY BUTT BEREGNING (LBM & TOTAL KROPSVÆGT)
+  let h_in = h_cm / 2.54;
+  let w_in = w_cm / 2.54;
+  let a_in = a_cm / 2.54;
+  
+  // Casey Butts formel udregner den fedtfrie masse (LBM/FFM) i lbs ved den valgte fedtprocent
+  let lbm_lbs = Math.pow(h_in, 1.5) * (Math.sqrt(w_in) / 22.6670 + Math.sqrt(a_in) / 17.0104) * (bf / 224.0 + 1.0);
+  if (currentGender === 'female') {
+    lbm_lbs *= 0.80; // Skalering til kvinders fysiologi (~80%)
+  }
+  
+  let ffm_casey = lbm_lbs * 0.45359237; // Lean Body Mass i kg
+  let weight_casey = ffm_casey / (1 - (bf / 100)); // Samlet kropsvægt i kg ved mål-fedtprocent
+  let muscle_casey = ffm_casey * 0.50; // Estimeret skeletmuskelmasse (~50% af FFM)
+
+  // 2. ABE ET AL. BEREGNING
+  let h_m = h_cm / 100;
+  let ffm_abe = 0;
+  let muscle_abe = 0;
+  
+  if (currentGender === 'male') {
+    ffm_abe = h_m * h_m * 34;
+    muscle_abe = h_m * h_m * 17;
+  } else {
+    ffm_abe = h_m * h_m * 24.5;
+    muscle_abe = h_m * h_m * 11.5;
+  }
+  let weight_abe = ffm_abe / (1 - (bf / 100));
+
+  // 3. OPDATER MINI DASHBOARDS INLINE INKL. UNIT
+  document.getElementById('dash-casey-weight').innerText = weight_casey.toFixed(1) + ' kg';
+  document.getElementById('dash-casey-muscle').innerText = muscle_casey.toFixed(1) + ' kg';
+
+  document.getElementById('dash-abe-weight').innerText = weight_abe.toFixed(1) + ' kg';
+  document.getElementById('dash-abe-muscle').innerText = muscle_abe.toFixed(1) + ' kg';
+
+  // 4. OPDATER HOVEDRESULTAT DYNAMISK FOR VALGT METODE
+  if (currentMethod === 'casey') {
+    document.getElementById('res-weight').innerText = weight_casey.toFixed(1);
+    document.getElementById('res-ffm').innerText = ffm_casey.toFixed(1);
+    document.getElementById('res-muscle').innerText = muscle_casey.toFixed(1);
+  } else {
+    document.getElementById('res-weight').innerText = weight_abe.toFixed(1);
+    document.getElementById('res-ffm').innerText = ffm_abe.toFixed(1);
+    document.getElementById('res-muscle').innerText = muscle_abe.toFixed(1);
+  }
+}
+
+// LOCAL STORAGE
+function saveInputs() {
+  const data = {
+    method: currentMethod,
+    gender: currentGender,
+    age: document.getElementById('mc-age').value,
+    height: document.getElementById('mc-height').value,
+    bf: document.getElementById('mc-bf').value,
+    wrist: document.getElementById('mc-wrist').value,
+    ankle: document.getElementById('mc-ankle').value
+  };
+  localStorage.setItem('muscleCalcData', JSON.stringify(data));
+}
+
+function loadInputs() {
+  const dataStr = localStorage.getItem('muscleCalcData');
+  if (dataStr) {
+    try {
+      const data = JSON.parse(dataStr);
+      if (data.age) document.getElementById('mc-age').value = data.age;
+      if (data.height) document.getElementById('mc-height').value = data.height;
+      if (data.bf) document.getElementById('mc-bf').value = data.bf;
+      if (data.wrist) document.getElementById('mc-wrist').value = data.wrist;
+      if (data.ankle) document.getElementById('mc-ankle').value = data.ankle;
+      if (data.gender) setGender(data.gender);
+      if (data.method) setMethod(data.method);
+    } catch (e) {}
+  }
+}
+</script>

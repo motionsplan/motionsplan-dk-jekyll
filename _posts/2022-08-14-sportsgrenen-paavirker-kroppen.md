@@ -78,7 +78,7 @@ Gennem måneder og års regelmæssig træning sker der permanente forandringer i
 
 {% include figure image_path="https://www.lunge.dk/sites/default/files/Infografik_Det%20sker%20i%20kroppen_3.jpg" caption="Kilde: [Lungeforeningen](https://www.lunge.dk/traening/viden-det-sker-i-kroppen-naar-du-traener)" %}
 
-Du kan læse mere om de specifikke dybdegående tilpasninger i vores guides til [fysiologiske tilpasninger ved konditionstræning](/tilpasning-konditionstraening/) og [tilpasninger ved styrketræning](/fysiologiske-tilpasninger/).
+Du kan læse mere om de specifikke dybdegående tilpasninger i vores guides til [fysiologiske tilpasninger ved konditionstræning](/tilpasning-konditionstraening/) og [tilpasninger ved styrketræning](/muskelvaekst-hypertrofi/).
 
 ### 3. Hormoner og kroppens kemi
 Når dine musklerarbejder under sport, udskiller de signalstoffer og myokiner. Træningen påvirker hormonbalancen ved at dæmpe stresshormonet kortisol, fremme endorfiner og øge insulinfølsomheden (læs mere om emnet hos [Vores Puls](https://vorespuls.dk/kost-sundhed/artikler/motion-styrker-kroppens-kemi)).
