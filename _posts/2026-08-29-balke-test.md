@@ -164,7 +164,7 @@ $$\text{VO}_2\max = \left(\left(\frac{D}{15} - 133\right) \cdot 0{,}172\right) +
 For at opnå et pålideligt resultat er det afgørende at tilpasse din opvarmning til testformen:
 
 * **Ved submaksimal løbebåndstest (afbrudt ved 85% HRmax):** Hold opvarmningen minimal. Lav 3–5 minutters let gang ved $3–4 \text{ km/t}$ ved $0\,\%$ hældning. Undgå stigningsløb og pulstoppe, da kardiovaskulært drift vil give en kunstigt høj puls og underestimere dit beregnede kondital.
-* **Ved maksimal test til udmattelse / 15-min felt-test:** Følg en [RAMP-opvarmningsprotokol](/opvarmning-til-loeb/) med 5 minutter let jog, dynamisk mobilitet og 2–3 korte stigningsløb, så iltoptagelsen ($\text{VO}_2$-kinetikken) er aktiveret inden startskuddet.
+* **Ved maksimal test til udmattelse / 15-min felt-test:** Følg en [RAMP-opvarmningsprotokol til løb](/opvarmning-loeb/) med 5 minutter let jog, dynamisk mobilitet og 2–3 korte stigningsløb, så iltoptagelsen ($\text{VO}_2$-kinetikken) er aktiveret inden startskuddet.
 
 ---
 

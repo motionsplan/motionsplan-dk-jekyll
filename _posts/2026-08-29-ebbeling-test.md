@@ -38,7 +38,7 @@ Testens største styrke er dens enkelhed: Det er en **single-stage test**, der k
 
 ## Hvorfor vælge Ebbeling-testen?
 
-Når du skal måle dit [kondital ($\text{VO}_2\max$)](/iltoptagelse/), står valget ofte mellem maksimale tests (hvor du presser dig til udmattelse) og submaksimale tests (hvor konditallet beregnes ud fra din pulsrespons ved moderat belastning).
+Når du skal måle dit [kondital ($\text{VO}_2\max$)](/kondital/), står valget ofte mellem maksimale tests (hvor du presser dig til udmattelse) og submaksimale tests (hvor konditallet beregnes ud fra din pulsrespons ved moderat belastning).
 
 Ebbeling-testen udmærker sig på tre centrale områder:
 
@@ -131,7 +131,7 @@ Hvis du ønsker at teste dit kondital uden maksimal udmattelse, findes der flere
 | :--- | :--- | :--- | :--- | :--- |
 | **Ebbeling Test** | Løbebånd (Gang) | 8 minutter | Single-stage ($0\,\% \rightarrow 5\,\%$) | Hurtig, fast tid, kun gang |
 | **Modificeret Balke** | Løbebånd (Gang) | 10–18 minutter | Progressiv ($+1\,\%$ hældning/min) | Stopper præcist ved 85% HRmax |
-| **[Åstrand Cykeltest](/aastrand-cykeltest/)** | Kondicykel | 6 minutter | Fast watt-belastning | Fuldstændig uden stød i leddene |
+| **[Åstrand Cykeltest](/etpunktstest/)** | Kondicykel | 6 minutter | Fast watt-belastning | Fuldstændig uden stød i leddene |
 | **6-Minutters Gangtest** | Gulv / Gang | 6 minutter | Selvvagt gangtempo | Velegnet til svage/ældre patienter |
 
 ---
@@ -148,7 +148,7 @@ Selvom Ebbeling-testen er submaksimal, kræver den korrekte forberedelsesbetinge
 
 1. **Integrated Opvarmning:** Da Fase 1 (de første 4 minutter ved 0% hældning) fysiologisk fungerer som opvarmning, behøver du *ikke* at udføre en lang opvarmningssekvens inden start.
 2. **Undgå koffein og nikotin:** Indtag ikke koffein, energidrikke eller nikotin de sidste 2–3 timer før testen, da det hæver din hvile- og arbejdspuls kunstigt, hvilket vil underestimere dit beregnede kondital.
-3. **Ingen hidsig udstrækning:** Statisk udstrækning er ufornødent før submaksimale gåtests. Læs mere om optimal opvarmningsstruktur i vores artikel om [opvarmning til løb og konditionstests](/opvarmning-til-loeb/).
+3. **Ingen hidsig udstrækning:** Statisk udstrækning er ufornødent før submaksimale gåtests. Læs mere om optimal opvarmningsstruktur i vores artikel om [opvarmning til løb og konditionstests](/opvarmning-loeb/).
 
 ---
 

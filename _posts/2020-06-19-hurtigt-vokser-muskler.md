@@ -161,7 +161,7 @@ Vil du lære mere om kropskomposition, har vi skrevet en guide om [forskellige m
 
 **Du kan også prøve vores andre tests:**
 * **[Hvor meget muskelmasse har du?](/muskelmasse-beregner/)** – Få et bud på din muskelmasse i kilo ud fra få, simple kropsmål.
-* **[FFMI-beregner](/ffmi-beregner/)** – Beregn dit *Fat-Free Mass Index* (dit "muskel-BMI") og se din præcise muskelmasse-status.
+* **[FFMI-beregner](/ffmi-fat-free-mass-index/)** – Beregn dit *Fat-Free Mass Index* (dit "muskel-BMI") og se din præcise muskelmasse-status.
 
 ---
 
