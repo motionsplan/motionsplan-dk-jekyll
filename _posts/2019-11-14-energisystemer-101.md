@@ -1,6 +1,8 @@
 ---
 title: 'Energisystemer 101: Aerobt og anaerobt arbejde 💗'
-seo_title: 'Energisystemer 101: Aerob og anaerob arbejde'
+seo_title: 'Energisystemer 101: Forstå aerob og anaerob energi'
+description: "Hvad er kroppens energisystemer, og hvordan dannes ATP? Lær forskellen på aerob og anaerob energiomsætning, mælkesyre og optimal træning her."
+excerpt: "Lær om kroppens energisystemer og bliv klogere på, hvordan den aerobe og anaerobe energiomsætning skaber ATP under forskellig træningsintensitet."
 permalink: /energisystemer/
 language: da
 header:
@@ -15,7 +17,7 @@ tags:
 - energisystemer
 - anaerob træning
 - aerob træning
-last_modified_at: '2020-03-06T23:14:14Z'
+last_modified_at: '2026-08-06T23:14:14Z'
 toc: 'true'
 sorting_matrices:
   energisystemer:
@@ -204,7 +206,7 @@ Målet er at forbedre udholdenheden af _fast twitch_-muskelfibrene. Skal ske med
 
 {% include video provider="facebook" id="8weeksout/videos/10155741321175787" %}
 
-Jeg har skrevet endnu mere om [hvad aerob træning er her](/aerob-traening/).
+Læs også vores [guide til aerob træning](/aerob-traening/).
 
 ## Træning af det anaerobe system
 

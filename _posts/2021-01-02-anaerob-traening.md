@@ -1,8 +1,8 @@
 ---
-title: 'Anaerob træning: Øvelser og træningsprogram 🏃'
+title: 'Anaerob træning: Guide, øvelser og træningsprogram 🏃'
 seo_title: 'Anaerob træning: Øvelser og træningsprogram'
-description: Kunne du tænke dig at prøve anaerob træning? Det er en vigtig del af dit energisystem og her får du øvelser og
-  træningsprogrammer.
+description: Hvad er anaerob træning? Få den komplette guide til laktacid og alaktacid træning, mælkesyretolerance, eksplosive øvelser og effekttest.
+excerpt: Lær hvordan du opbygger eksplosiv styrke, hurtighed og mælkesyretolerance med anaerob træning. Få konkrete øvelser og overskuelige programmer.
 permalink: /anaerob-traening/
 language: da
 header:

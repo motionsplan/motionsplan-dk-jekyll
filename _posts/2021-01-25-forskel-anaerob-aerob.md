@@ -2,6 +2,7 @@
 title: "Forskel på aerob og anaerob træning: Alt om kroppens energisystemer"
 seo_title: "Forskel på aerob og anaerob træning: Se sammenligning & eksempler"
 description: "Hvad er forskellen på aerob og anaerob træning? Lær om iltomsætning, mælkesyre, steady state, og se eksempler på øvelser i denne komplette guide."
+excerpt: "Forstå den fundamentale forskel på aerob og anaerob træning. Se hvordan ilttilførsel, intensitet og brændstoffer påvirker din ydeevne og restitution."
 permalink: /forskel-aerob-anaerob-traening/
 language: da
 header:

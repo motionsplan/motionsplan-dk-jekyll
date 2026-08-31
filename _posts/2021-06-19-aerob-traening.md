@@ -1,5 +1,8 @@
 ---
 title: 'Aerob træning: 5 forslag til at træne det aerobe system 💗'
+seo_title: "Aerob træning: Alt om udholdenhed og aerob power"
+description: "Hvad er aerob træning? Lær hvordan du forbedrer din iltoptagelse (VO2max), opbygger en stærk aerob base og optimerer din udholdenhed her."
+excerpt: "Styrk dit kredsløb og din iltoptagelse med aerob træning. Få 5 konkrete metoder til at opbygge en stærk udholdenhedsbase og øge din aerobe power."
 permalink: /aerob-traening/
 language: da
 header:

@@ -8,7 +8,7 @@ redirect_from:
 title: "Psykologiske Tests & Mentale Vurderingsværktøjer"
 seo_title: "Psykologiske Tests & Mentale Sundhedstests (Online Selvtests)"
 excerpt: "Samlet katalog over anerkendte psykologiske tests, mentale sundhedstests og trivselsmålinger. Test stress, depression, trivsel, overtræning og spiseforstyrrelser."
-description: "Brug vores anerkendte psykologiske tests og mentale sundhedstests til at få indsigt i din trivsel, dit stressniveau, dine tankemønstre og din sportspsykologi."
+description: "Brug vores anerkendte psykologiske tests og mentale sundhedstests til at få indsigt i din trivsel, dit stressniveau og dine tankemønstre gratis online."
 author_profile: true
 header:
   overlay_image: /assets/images/unsplash/photo-1434030216411-0b793f4b4173.jpg
