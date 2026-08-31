@@ -1,6 +1,6 @@
 ---
-title: "Hvordan tester jeg min muskelfibertype? (1RM-test og muskelbiopsi)"
-seo_title: "Test af muskelfibertyper: 1RM-metoder & muskelbiopsi"
+title: "Hvordan tester jeg min muskelfibertype?"
+seo_title: "Test af muskelfibertyper: praktisk & muskelbiopsi"
 description: "Hvordan tester man sin muskelfibertypesammensætning? Se 3 praktiske 1RM-styrketests (Pipes, Hatfield, Poliquin) samt hvordan en muskelbiopsi udføres."
 permalink: /test-muskelfibertyper/
 language: da
