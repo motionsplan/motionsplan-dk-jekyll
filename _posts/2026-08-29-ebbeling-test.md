@@ -10,7 +10,6 @@ header:
   caption: 'Single-stage submaksimal gå-test på løbebånd ved 5% hældning'
 categories:
   - Konditionstests
-  - Løb
 tags:
   - ebbeling test
   - kondital

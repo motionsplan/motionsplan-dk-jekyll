@@ -10,7 +10,6 @@ header:
   caption: 'Gradueret konditionstest med fast hastighed og trinvist stigende hældning'
 categories:
   - Konditionstests
-  - Løb
 tags:
   - balke test
   - kondital

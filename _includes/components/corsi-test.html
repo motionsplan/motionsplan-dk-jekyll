@@ -1,0 +1,361 @@
+<!-- Corsi Block-Tapping Test Component -->
+<div class="corsi-wrapper" id="corsi-container">
+  
+  <!-- START SKÆRM -->
+  <div class="corsi-card" id="corsi-start-screen">
+    <div class="corsi-icon-badge"><i class="fas fa-th"></i></div>
+    <h3>Corsi-test: Taktisk arbejdshukommelse</h3>
+    <p>Test din hjernes evne til at "fotografere" og huske visuelle mønstre i rummet.</p>
+    
+    <div class="corsi-rule-box">
+      <strong>⚠️ Opgaven:</strong> Husk rækkefølgen af de felter, der lyser op. Tap bagefter på felterne i <u>PRÆCIS SAMME</u> rækkefølge. Klarer du det, bliver næste sekvens ét felt længere!
+    </div>
+
+    <button class="btn btn--primary btn--large" id="start-corsi-btn">Start hukommelsestest</button>
+  </div>
+
+  <!-- SPIL SKÆRM -->
+  <div class="corsi-card" id="corsi-game-screen" style="display: none;">
+    <div class="corsi-top-bar">
+      <span class="corsi-level" id="corsi-level-display">Niveau: 3 felter</span>
+      <span class="corsi-status" id="corsi-status-msg">Gør dig klar...</span>
+    </div>
+
+    <div class="corsi-grid" id="corsi-grid">
+      <div class="corsi-cell" data-index="0"></div>
+      <div class="corsi-cell" data-index="1"></div>
+      <div class="corsi-cell" data-index="2"></div>
+      <div class="corsi-cell" data-index="3"></div>
+      <div class="corsi-cell" data-index="4"></div>
+      <div class="corsi-cell" data-index="5"></div>
+      <div class="corsi-cell" data-index="6"></div>
+      <div class="corsi-cell" data-index="7"></div>
+      <div class="corsi-cell" data-index="8"></div>
+    </div>
+  </div>
+
+  <!-- RESULTAT SKÆRM -->
+  <div class="corsi-card" id="corsi-result-screen" style="display: none;">
+    <div class="corsi-icon-badge" id="corsi-res-icon"><i class="fas fa-memory"></i></div>
+    <h3>Din Visuelle Hukommelse</h3>
+    
+    <div class="corsi-results-grid">
+      <div class="corsi-res-box">
+        <span class="res-label">Corsi-Score:</span>
+        <span class="res-value" id="res-corsi-score">0</span>
+      </div>
+      <div class="corsi-res-box">
+        <span class="res-label">Korrekt taps:</span>
+        <span class="res-value" id="res-corsi-total-taps">0</span>
+      </div>
+    </div>
+
+    <div class="corsi-assessment" id="corsi-assessment">
+      <!-- Genereres dynamisk -->
+    </div>
+<div class="result-actions">
+      <button class="btn btn--success" id="retry-corsi-btn">Prøv igen</button>
+      <a href="/kognitive-tests/" class="btn btn--outline">← Kontrolpanel</a>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.corsi-wrapper {
+  margin: 2rem 0;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.corsi-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.corsi-icon-badge {
+  width: 56px;
+  height: 56px;
+  background: #e9d8fd;
+  color: #805ad5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto 1rem auto;
+}
+
+.corsi-card h3 {
+  margin: 0 0 0.5rem 0 !important;
+  color: #2d3748;
+}
+
+.corsi-rule-box {
+  background: #faf5ff;
+  border-left: 4px solid #805ad5;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: #553c9a;
+  font-size: 0.95rem;
+  margin: 1rem 0 1.5rem 0;
+  text-align: left;
+}
+
+.corsi-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.corsi-level {
+  background: #2b6cb0;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.corsi-status {
+  font-size: 0.95rem;
+  color: #4a5568;
+}
+
+.corsi-status.active-turn { color: #38a169; font-weight: 700; }
+.corsi-status.watch-turn { color: #dd6b20; font-weight: 700; }
+
+.corsi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.corsi-cell {
+  background: #edf2f7;
+  border-radius: 12px;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: background-color 0.1s ease, transform 0.1s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.corsi-cell.highlight {
+  background-color: #ecc94b; /* Gul indikator */
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(236, 201, 75, 0.6);
+}
+
+.corsi-cell.correct {
+  background-color: #38a169; /* Grøn success */
+}
+
+.corsi-cell.wrong {
+  background-color: #e53e3e; /* Rød fejl */
+}
+
+/* Deaktiver klik, mens systemet viser sekvensen */
+.corsi-grid.locked .corsi-cell {
+  cursor: not-allowed;
+}
+
+.corsi-results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 1.2rem 0;
+}
+
+.corsi-res-box {
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #edf2f7;
+}
+
+.res-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #718096;
+}
+
+.res-value {
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: #2d3748;
+}
+
+.corsi-assessment {
+  background: #edf2f7;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  let sequence = [];
+  let playerStep = 0;
+  let currentLevel = 3; // Starter på 3 brikker
+  let isLocked = true;
+  let totalCorrectTaps = 0;
+
+  const startScreen = document.getElementById('corsi-start-screen');
+  const gameScreen = document.getElementById('corsi-game-screen');
+  const resultScreen = document.getElementById('corsi-result-screen');
+  const gridContainer = document.getElementById('corsi-grid');
+  const cells = document.querySelectorAll('.corsi-cell');
+  const levelDisplay = document.getElementById('corsi-level-display');
+  const statusMsg = document.getElementById('corsi-status-msg');
+  const startBtn = document.getElementById('start-corsi-btn');
+  const retryBtn = document.getElementById('retry-corsi-btn');
+
+  function vibrate(ms) {
+    if (navigator.vibrate) navigator.vibrate(ms);
+  }
+
+  function startGame() {
+    currentLevel = 3;
+    totalCorrectTaps = 0;
+    startScreen.style.display = 'none';
+    resultScreen.style.display = 'none';
+    gameScreen.style.display = 'block';
+    nextLevel();
+  }
+
+  function nextLevel() {
+    sequence = [];
+    playerStep = 0;
+    isLocked = true;
+    gridContainer.classList.add('locked');
+    levelDisplay.textContent = 'Niveau: ' + currentLevel + ' felter';
+    statusMsg.textContent = 'KIG GODT EFTER...';
+    statusMsg.className = 'corsi-status watch-turn';
+
+    // Generer sekvens
+    for (let i = 0; i < currentLevel; i++) {
+      let nextIndex = Math.floor(Math.random() * 9);
+      // Undgå to ens træk i træk for bedre flow
+      if (i > 0 && nextIndex === sequence[i-1]) {
+        nextIndex = (nextIndex + 1) % 9;
+      }
+      sequence.push(nextIndex);
+    }
+
+    setTimeout(playSequence, 1000);
+  }
+
+  function playSequence() {
+    let delay = 0;
+    sequence.forEach((cellIndex, i) => {
+      setTimeout(() => {
+        const cell = cells[cellIndex];
+        cell.classList.add('highlight');
+        setTimeout(() => {
+          cell.classList.remove('highlight');
+        }, 400); // Tiden den lyser
+      }, delay);
+      delay += 700; // Tiden mellem hver brik
+    });
+
+    setTimeout(() => {
+      isLocked = false;
+      gridContainer.classList.remove('locked');
+      statusMsg.textContent = 'DIN TUR! TAP FELTERNE';
+      statusMsg.className = 'corsi-status active-turn';
+    }, delay + 100);
+  }
+
+  function handleCellClick(e) {
+    if (isLocked) return;
+    
+    const clickedIndex = parseInt(e.target.getAttribute('data-index'));
+    const expectedIndex = sequence[playerStep];
+
+    if (clickedIndex === expectedIndex) {
+      // Rigtigt tap
+      totalCorrectTaps++;
+      e.target.classList.add('correct');
+      vibrate(20);
+      setTimeout(() => e.target.classList.remove('correct'), 200);
+      
+      playerStep++;
+      if (playerStep === sequence.length) {
+        // Niveau gennemført
+        isLocked = true;
+        statusMsg.textContent = 'FLOT! GØR KLAR TIL NÆSTE...';
+        statusMsg.className = 'corsi-status';
+        currentLevel++;
+        setTimeout(nextLevel, 1500);
+      }
+    } else {
+      // Forkert tap - Game Over
+      isLocked = true;
+      e.target.classList.add('wrong');
+      vibrate([50, 50, 50]);
+      statusMsg.textContent = 'FORKERT! TEST AFSLUTTET';
+      statusMsg.className = 'corsi-status';
+      setTimeout(endGame, 1500);
+    }
+  }
+
+  function endGame() {
+    gameScreen.style.display = 'none';
+    resultScreen.style.display = 'block';
+    
+    // Nulstil forkerte celler
+    cells.forEach(c => { c.classList.remove('wrong', 'correct', 'highlight'); });
+    
+    const finalScore = currentLevel - 1; // Den højeste fuldførte længde
+    document.getElementById('res-corsi-score').textContent = finalScore;
+    document.getElementById('res-corsi-total-taps').textContent = totalCorrectTaps;
+
+    // Gem resultat i localStorage til dashboardet
+    try {
+      const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+      store['corsi'] = {
+        value: finalScore,
+        display: finalScore + ' brikker',
+        date: new Date().toLocaleDateString('da-DK')
+      };
+      localStorage.setItem('mp_neuro_results', JSON.stringify(store));
+    } catch (e) {
+      console.error('Kunne ikke gemme neuro-resultat:', e);
+    }
+
+    const assessmentEl = document.getElementById('corsi-assessment');
+    let feedback = '';
+    
+    if (finalScore >= 7) {
+      feedback = '<strong>🟢 Elite-niveau:</strong> En score på 7 eller mere er exceptionelt. Din hjernes "scratchpad" har enorm kapacitet til lynhurtigt at kode rumlige informationer, præcis som elitespillere.';
+    } else if (finalScore >= 5) {
+      feedback = '<strong>🟡 Solidt gennemsnit:</strong> Den gennemsnitlige voksne kan huske mellem 5 og 6 visuelle elementer. Du har et fint, normalt taktisk overblik.';
+    } else {
+      feedback = '<strong>🔴 Udfordret arbejdshukommelse:</strong> Din hjerne havde svært ved at holde fast i de rumlige informationer i dag. Det er et klassisk tegn på mental træthed, dårlig søvn eller kognitiv overbelastning.';
+    }
+
+    assessmentEl.innerHTML = feedback;
+  }
+
+  cells.forEach(cell => {
+    cell.addEventListener('click', handleCellClick);
+  });
+
+  startBtn.addEventListener('click', startGame);
+  retryBtn.addEventListener('click', startGame);
+});
+</script>

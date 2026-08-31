@@ -1,0 +1,346 @@
+<!-- Kognitivt Kontrolpanel / Dashboard Component -->
+<div class="neuro-dashboard-wrapper">
+
+  <!-- Dagens Samlede Neuro-Score / Banner -->
+  <div id="neuro-score-banner" class="neuro-banner" style="display: none;">
+    <div class="banner-content">
+      <div class="banner-score-ring" id="score-ring-border">
+        <span id="total-neuro-score">0%</span>
+        <small>Dagsform</small>
+      </div>
+      <div class="banner-text">
+        <h3 id="banner-title">Din Dagsform i Dag</h3>
+        <p id="banner-desc">Gennemfør testene for at udregne dit fysiologiske Readiness Indeks.</p>
+      </div>
+    </div>
+    <button id="clear-neuro-data" class="btn btn--small btn--danger">Nulstil dagens data</button>
+  </div>
+
+  <!-- Dashboard Grid -->
+  <div class="neuro-dashboard">
+
+    <!-- FASE 1 -->
+    <div class="dash-category">
+      <h3 class="dash-cat-title"><i class="fas fa-battery-half"></i> Fase 1: Friskhed & Restitution</h3>
+      <div class="dash-grid">
+        
+        <a href="/cns-fatigue/" class="dash-card">
+          <div class="card-header-row">
+            <h4>Finger Tapping Test</h4>
+            <div class="card-icon" style="background:#e6fffa; color:#319795;"><i class="fas fa-fingerprint"></i></div>
+          </div>
+          <p>Mål centraltræthed (CNS Fatigue) og din finmotoriske fyringsfrekvens.</p>
+        </a>
+
+        <a href="/mental-traethed/" class="dash-card">
+          <div class="card-header-row">
+            <h4>Stroop Test</h4>
+            <div class="card-icon" style="background:#ebf8ff; color:#3182ce;"><i class="fas fa-brain"></i></div>
+          </div>
+          <p>Mål kognitiv udmattelse og evnen til at filtrere forstyrrende indtryk.</p>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- FASE 2 -->
+    <div class="dash-category">
+      <h3 class="dash-cat-title"><i class="fas fa-bolt"></i> Fase 2: Hastighed & Beslutning</h3>
+      <div class="dash-grid">
+
+        <a href="/reaktionstid-test/" class="dash-card">
+          <div class="card-header-row">
+            <h4>Reaktionstid Test</h4>
+            <div class="card-icon" style="background:#fffaf0; color:#dd6b20;"><i class="fas fa-stopwatch"></i></div>
+          </div>
+          <p>Mål din rene visuelle reaktionshastighed i millisekunder (Øje til finger).</p>
+        </a>
+
+        <a href="/impulskontrol-test/" class="dash-card">
+          <div class="card-header-row">
+            <h4>Go / No-Go Test</h4>
+            <div class="card-icon" style="background:#fef1f2; color:#e53e3e;"><i class="fas fa-hand-paper"></i></div>
+          </div>
+          <p>Test din impulskontrol. Kan du lade være med at hoppe på skudfinter?</p>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- FASE 3 -->
+    <div class="dash-category">
+      <h3 class="dash-cat-title"><i class="fas fa-chess-knight"></i> Fase 3: Præcision & Overblik</h3>
+      <div class="dash-grid">
+
+        <a href="/arbejdshukommelse-test/" class="dash-card">
+          <div class="card-header-row">
+            <h4>Corsi Grid Test</h4>
+            <div class="card-icon" style="background:#faf5ff; color:#805ad5;"><i class="fas fa-th"></i></div>
+          </div>
+          <p>Test dit taktiske overblik og rumlige arbejdshukommelse (Spilleforståelse).</p>
+        </a>
+
+        <a href="/visuel-forudsigelse/" class="dash-card">
+          <div class="card-header-row">
+            <h4>Time Wall Test</h4>
+            <div class="card-icon" style="background:#f0fff4; color:#38a169;"><i class="fas fa-bullseye"></i></div>
+          </div>
+          <p>Mål din evne til at forudsige objekters hastighed og bane (Boldøje).</p>
+        </a>
+
+        <a href="/fokus-test/" class="dash-card">
+  <div class="card-header-row">
+    <h4>Flanker Fokus Test</h4>
+    <div class="card-icon" style="background:#edf2f7; color:#4a5568;"><i class="fas fa-compress-arrows-alt"></i></div>
+  </div>
+  <p>Mål din evne til at filtrere visuel støj fra i synsfeltet under tidspres.</p>
+</a>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<style>
+.neuro-dashboard-wrapper {
+  margin: 2rem 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Banner Styling */
+.neuro-banner {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.banner-content { 
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.banner-score-ring {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid #4299e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.3rem;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: border-color 0.3s ease;
+}
+
+.banner-score-ring small { 
+  font-size: 0.6rem; 
+  opacity: 0.8; 
+  margin-top: 3px; 
+  text-transform: uppercase;
+}
+
+.banner-text h3 { 
+  color: #ffffff !important; 
+  margin: 0 0 4px 0 !important; 
+  font-size: 1.25rem !important;
+}
+
+.banner-text p { 
+  color: #a0aec0 !important; 
+  margin: 0 !important; 
+  font-size: 0.9rem; 
+}
+
+/* Grid Layout */
+.neuro-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.dash-cat-title {
+  font-size: 1.25rem !important;
+  color: #2d3748 !important;
+  border-bottom: 2px solid #edf2f7;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dash-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.dash-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+.dash-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  border-color: #cbd5e0;
+}
+
+/* Kort Header & Ikon i top-højre */
+.card-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  gap: 12px;
+}
+
+.dash-card h4 {
+  margin: 0 !important;
+  font-size: 1.1rem;
+  color: #1a202c;
+  font-weight: 700;
+  line-height: 1.3;
+  padding-top: 4px; /* Finpudsning for at flugte pænt med ikonet */
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  flex-shrink: 0; /* Forhindrer at ikonet krymper, hvis titlen er lang */
+}
+
+.dash-card p {
+  font-size: 0.88rem;
+  color: #4a5568;
+  margin: 0 0 1rem 0 !important;
+  line-height: 1.45;
+  flex-grow: 1; /* Pytter stat-badgen helt i bunden */
+}
+
+/* Status Badges */
+.test-status-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 12px;
+  align-self: flex-start;
+}
+
+.badge-empty { background: #edf2f7; color: #a0aec0; }
+.badge-done { background: #c6f6d5; color: #22543d; }
+.badge-old { background: #feebc8; color: #7b341e; }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+  const today = new Date().toLocaleDateString('da-DK');
+
+  const banner = document.getElementById('neuro-score-banner');
+  const totalScoreEl = document.getElementById('total-neuro-score');
+  const bannerTitle = document.getElementById('banner-title');
+  const bannerDesc = document.getElementById('banner-desc');
+  const clearBtn = document.getElementById('clear-neuro-data');
+  const ringBorder = document.getElementById('score-ring-border');
+
+const testConfig = {
+  tapping:  { url: 'cns-fatigue',           calcScore: (v) => Math.min(100, Math.round((v / 70) * 100)) },
+  stroop:   { url: 'mental-traethed',       calcScore: (v) => v },
+  reaction: { url: 'reaktionstid-test',     calcScore: (v) => Math.max(0, Math.min(100, Math.round(100 - (v - 180) / 2))) },
+  gonogo:   { url: 'impulskontrol-test',    calcScore: (v) => v },
+  corsi:    { url: 'arbejdshukommelse-test',calcScore: (v) => Math.min(100, Math.round((v / 7) * 100)) },
+  timewall: { url: 'visuel-forudsigelse',   calcScore: (v) => Math.max(0, Math.min(100, Math.round(100 - v / 1.5))) },
+  flanker:  { url: 'fokus-test',            calcScore: (v) => v } // Ny 7. test!
+};
+
+  let todayScores = [];
+  let completedTodayCount = 0;
+
+  Object.keys(testConfig).forEach(function(key) {
+    const config = testConfig[key];
+    const card = document.querySelector(`.dash-card[href*="${config.url}"]`);
+
+    if (card) {
+      const badge = document.createElement('span');
+      const data = store[key];
+
+      if (data && data.date === today) {
+        completedTodayCount++;
+        const performanceScore = config.calcScore(data.value);
+        todayScores.push(performanceScore);
+
+        badge.className = 'test-status-badge badge-done';
+        badge.innerHTML = `<i class="fas fa-check"></i> I dag: ${data.display}`;
+      } else if (data) {
+        badge.className = 'test-status-badge badge-old';
+        badge.innerHTML = `<i class="fas fa-history"></i> Gammel: ${data.display} (${data.date})`;
+      } else {
+        badge.className = 'test-status-badge badge-empty';
+        badge.textContent = 'Ej gennemført i dag';
+      }
+      card.appendChild(badge);
+    }
+  });
+
+  // Beregn samlet Readiness-indeks
+  if (completedTodayCount > 0) {
+    banner.style.display = 'flex';
+    
+    const avgPerformance = Math.round(todayScores.reduce((a, b) => a + b, 0) / todayScores.length);
+    totalScoreEl.textContent = avgPerformance + '%';
+
+    if (avgPerformance >= 85) {
+      ringBorder.style.borderColor = '#38a169';
+      bannerTitle.textContent = '🟢 Optimal Dagsform';
+      bannerDesc.textContent = `Dit nervesystem udviser høj skarphed og overskud (${completedTodayCount}/6 tests gennemført).`;
+    } else if (avgPerformance >= 65) {
+      ringBorder.style.borderColor = '#dd6b20';
+      bannerTitle.textContent = '🟡 Moderat Træthed';
+      bannerDesc.textContent = `Nervesystemet er let udfordret. Hav fokus på god opvarmning i dag (${completedTodayCount}/6 tests gennemført).`;
+    } else {
+      ringBorder.style.borderColor = '#e53e3e';
+      bannerTitle.textContent = '🔴 Markant Centraltræthed';
+      bannerDesc.textContent = `Lave scorer indikerer kognitiv udmattelse eller manglende restitution (${completedTodayCount}/6 tests gennemført).`;
+    }
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      if (confirm('Vil du nulstille dine gemte testresultater?')) {
+        localStorage.removeItem('mp_neuro_results');
+        location.reload();
+      }
+    });
+  }
+});
+</script>

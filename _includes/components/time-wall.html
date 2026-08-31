@@ -1,0 +1,451 @@
+<!-- Time Wall / Visuel Forudsigelse Test Component -->
+<div class="timewall-wrapper" id="timewall-container">
+  
+  <!-- START SKÆRM -->
+  <div class="timewall-card" id="timewall-start-screen">
+    <div class="timewall-icon-badge"><i class="fas fa-eye"></i></div>
+    <h3>Time Wall: Test din visuelle timing</h3>
+    <p>Test din hjernes evne til at forudsige et objekts bane og fart i "blinde".</p>
+    
+    <div class="timewall-rule-box">
+      <strong>⚠️ Opgaven:</strong> En bold triller mod højre med konstant fart. Når den ruller ind bag muren, forsvinder den. 
+      Tap på skærmen (eller tryk på Space) <u>PRÆCIS</u> i det millisekund, du mener bolden rammer den røde streg!
+    </div>
+
+    <button class="btn btn--primary btn--large" id="start-timewall-btn">Start timing-test (5 runder)</button>
+  </div>
+
+  <!-- SPIL SKÆRM -->
+  <div class="timewall-card" id="timewall-game-screen" style="display: none;">
+    <div class="timewall-top-bar">
+      <span id="timewall-progress">Runde 1 af 5</span>
+      <span id="timewall-status">Gør dig klar...</span>
+    </div>
+
+    <div class="timewall-track" id="timewall-track">
+      <div class="timewall-ball" id="timewall-ball"></div>
+      <div class="timewall-wall" id="timewall-wall">
+        <span>MUR</span>
+      </div>
+      <div class="timewall-finish-line"></div>
+    </div>
+
+    <div class="timewall-tap-zone" id="timewall-tap-zone">
+      <span>TAP HÉRFRA ELLER TRYK PÅ MELLEMRUMSTASTEN</span>
+    </div>
+  </div>
+
+  <!-- RESULTAT SKÆRM -->
+  <div class="timewall-card" id="timewall-result-screen" style="display: none;">
+    <div class="timewall-icon-badge" id="timewall-res-icon"><i class="fas fa-bullseye"></i></div>
+    <h3>Dit Timings-resultat</h3>
+    
+    <div class="timewall-results-grid">
+      <div class="timewall-res-box">
+        <span class="res-label">Gns. Afvigelse:</span>
+        <span class="res-value" id="res-timewall-avg">0 ms</span>
+      </div>
+      <div class="timewall-res-box">
+        <span class="res-label">Bedste hit:</span>
+        <span class="res-value" id="res-timewall-best">0 ms</span>
+      </div>
+    </div>
+
+    <div class="timewall-assessment" id="timewall-assessment">
+      <!-- Genereres dynamisk -->
+    </div>
+<div class="result-actions">
+      <button class="btn btn--success" id="retry-timewall-btn">Prøv igen</button>
+      <a href="/kognitive-tests/" class="btn btn--outline">← Kontrolpanel</a>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.timewall-wrapper {
+  margin: 2rem 0;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.timewall-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.timewall-icon-badge {
+  width: 56px;
+  height: 56px;
+  background: #e6fffa;
+  color: #319795;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto 1rem auto;
+}
+
+.timewall-card h3 {
+  margin: 0 0 0.5rem 0 !important;
+  color: #2d3748;
+}
+
+.timewall-rule-box {
+  background: #e6fffa;
+  border-left: 4px solid #319795;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: #234e52;
+  font-size: 0.95rem;
+  margin: 1rem 0 1.5rem 0;
+  text-align: left;
+}
+
+.timewall-top-bar {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #718096;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.timewall-track {
+  position: relative;
+  height: 90px;
+  background: #edf2f7;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+  border: 1px solid #cbd5e0;
+  cursor: pointer;
+}
+
+.timewall-ball {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  background-color: #319795;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.timewall-wall {
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 45%;
+  height: 100%;
+  background-color: #4a5568;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e2e8f0;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+.timewall-finish-line {
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 4px;
+  height: 100%;
+  background-color: #e53e3e;
+  z-index: 3;
+}
+
+.timewall-tap-zone {
+  background: #319795;
+  color: #ffffff;
+  padding: 1.2rem 1rem;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(49, 151, 149, 0.3);
+  transition: transform 0.1s ease, background-color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.timewall-tap-zone:active {
+  transform: scale(0.97);
+  background-color: #2c7a7b;
+}
+
+.timewall-results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 1.2rem 0;
+}
+
+.timewall-res-box {
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #edf2f7;
+}
+
+.res-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #718096;
+}
+
+.res-value {
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: #2d3748;
+}
+
+.timewall-assessment {
+  background: #edf2f7;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.result-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+.result-actions .btn, .result-actions a.btn {
+  flex: 1;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn--outline {
+  background: transparent;
+  border: 2px solid #cbd5e0;
+  color: #4a5568;
+  transition: all 0.2s ease;
+}
+.btn--outline:hover {
+  background: #f7fafc;
+  color: #2d3748;
+  border-color: #a0aec0;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const TOTAL_ROUNDS = 5;
+  
+  let currentRound = 0;
+  let animId = null;
+  let startTime = 0;
+  let duration = 0; 
+  let targetTime = 0; 
+  let isRunning = false;
+  let hasTapped = false;
+  let errors = [];
+
+  const startScreen = document.getElementById('timewall-start-screen');
+  const gameScreen = document.getElementById('timewall-game-screen');
+  const resultScreen = document.getElementById('timewall-result-screen');
+  
+  const ball = document.getElementById('timewall-ball');
+  const progressEl = document.getElementById('timewall-progress');
+  const statusEl = document.getElementById('timewall-status');
+
+  const startBtn = document.getElementById('start-timewall-btn');
+  const retryBtn = document.getElementById('retry-timewall-btn');
+
+  function vibrate(ms) {
+    if (navigator.vibrate) navigator.vibrate(ms);
+  }
+
+  function startRound() {
+    if (currentRound >= TOTAL_ROUNDS) {
+      endGame();
+      return;
+    }
+
+    currentRound++;
+    progressEl.textContent = 'Runde ' + currentRound + ' af ' + TOTAL_ROUNDS;
+    statusEl.textContent = 'Hold øje med bolden...';
+    statusEl.style.color = '#718096';
+
+    ball.style.left = '0%';
+    ball.style.opacity = '1';
+    isRunning = false;
+    hasTapped = false;
+
+    // Varighed fra 0% til 80% (mållinjen): 1600ms - 2600ms
+    duration = Math.floor(Math.random() * 1000) + 1600;
+
+    setTimeout(function() {
+      isRunning = true;
+      startTime = performance.now();
+      targetTime = startTime + duration;
+      animate();
+    }, 800);
+  }
+
+  function animate() {
+    if (!isRunning) return;
+
+    const now = performance.now();
+    const elapsed = now - startTime;
+
+    // Progress 1.0 svarer til at bolden rammer mållinjen ved 80%
+    const progress = elapsed / duration; 
+    const currentPosPct = progress * 80;
+
+    if (currentPosPct <= 100) {
+      ball.style.left = currentPosPct + '%';
+      
+      // Muren dækker fra 35% til 80%
+      if (currentPosPct >= 35 && currentPosPct < 80) {
+        ball.style.opacity = '0';
+      } else {
+        ball.style.opacity = '1';
+      }
+
+      // Tillad op til 1200 ms forsinkelse før automatisk timeout
+      if (elapsed > duration + 1200) {
+        handleTimeout();
+      } else {
+        animId = requestAnimationFrame(animate);
+      }
+    } else {
+      handleTimeout();
+    }
+  }
+
+  function handleTimeout() {
+    if (!hasTapped && isRunning) {
+      hasTapped = true;
+      isRunning = false;
+      cancelAnimationFrame(animId);
+      vibrate([40, 40, 40]);
+      errors.push(800);
+      statusEl.textContent = '❌ Du tappede ikke i tide!';
+      statusEl.style.color = '#e53e3e';
+      setTimeout(startRound, 1500);
+    }
+  }
+
+  function handleTap(e) {
+    if (e && e.type !== 'keydown') e.preventDefault();
+    if (!isRunning || hasTapped) return;
+
+    hasTapped = true;
+    isRunning = false;
+    cancelAnimationFrame(animId);
+
+    const tapTime = performance.now();
+    const diff = Math.round(tapTime - targetTime); // Positiv = for sent, Negativ = for tidligt
+    const absDiff = Math.abs(diff);
+
+    errors.push(absDiff);
+    ball.style.opacity = '1';
+
+    if (absDiff < 60) {
+      vibrate(30);
+      statusEl.textContent = '🎯 PERFEKT! (' + (diff >= 0 ? '+' : '') + diff + ' ms)';
+      statusEl.style.color = '#38a169';
+    } else if (diff < 0) {
+      vibrate(20);
+      statusEl.textContent = '⚡ For tidligt (' + diff + ' ms)';
+      statusEl.style.color = '#dd6b20';
+    } else {
+      vibrate(20);
+      statusEl.textContent = '⏳ For sent (+' + diff + ' ms)';
+      statusEl.style.color = '#e53e3e';
+    }
+
+    setTimeout(startRound, 1600);
+  }
+
+  function startGame() {
+    currentRound = 0;
+    errors = [];
+
+    startScreen.style.display = 'none';
+    resultScreen.style.display = 'none';
+    gameScreen.style.display = 'block';
+
+    startRound();
+  }
+
+  function endGame() {
+    gameScreen.style.display = 'none';
+    resultScreen.style.display = 'block';
+
+    const avgError = Math.round(errors.reduce((a, b) => a + b, 0) / errors.length);
+    const bestError = Math.min(...errors);
+
+    document.getElementById('res-timewall-avg').textContent = avgError + ' ms';
+    document.getElementById('res-timewall-best').textContent = bestError + ' ms';
+
+    try {
+      const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+      store['timewall'] = {
+        value: avgError,
+        display: avgError + ' ms afvigelse',
+        date: new Date().toLocaleDateString('da-DK')
+      };
+      localStorage.setItem('mp_neuro_results', JSON.stringify(store));
+    } catch (e) {
+      console.error('Kunne ikke gemme neuro-resultat:', e);
+    }
+
+    const assessmentEl = document.getElementById('timewall-assessment');
+    let feedback = '';
+
+    if (avgError < 60) {
+      feedback = '<strong>🟢 Fænomenalt "boldøje":</strong> En gennemsnitlig afvigelse på under 60 ms indikerer en fantastisk evne til at forudsige fart og baner i blinde. Dette er elite-timing!';
+    } else if (avgError < 120) {
+      feedback = '<strong>🟡 God visuel timing:</strong> Du har en fin fornemmelse for objekters hastighed. Med lidt mere kognitivt overskud kan timingen findubbes endnu skarpere.';
+    } else {
+      feedback = '<strong>🔴 Nedsat timing-fornemmelse:</strong> Stor afvigelse i dine gæt. Mangel på fokus, mental træthed eller synstræthed gør det svært for hjernen at beregne bevægelsen præcist.';
+    }
+
+    assessmentEl.innerHTML = feedback;
+  }
+
+  // Registrér tryk overalt på spilleregionen
+  gameScreen.addEventListener('pointerdown', function(e) {
+    if (e.target.id !== 'retry-timewall-btn' && e.target.id !== 'start-timewall-btn') {
+      handleTap(e);
+    }
+  });
+
+  // Tastatur lytter (Spacebar & Enter)
+  document.addEventListener('keydown', function(e) {
+    if (!isRunning) return;
+    if (e.code === 'Space' || e.code === 'Enter') {
+      e.preventDefault();
+      handleTap(e);
+    }
+  });
+
+  startBtn.addEventListener('click', startGame);
+  retryBtn.addEventListener('click', startGame);
+});
+</script>

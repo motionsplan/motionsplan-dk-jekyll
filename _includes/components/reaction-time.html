@@ -1,0 +1,540 @@
+<!-- Reaction Time Test Component -->
+<div class="reaction-test-wrapper" id="reaction-test-container">
+  
+  <!-- Topbar med tilstande (Visuel / Lyd) -->
+  <div class="reaction-topbar">
+    <div class="setting-item">
+      <span class="setting-label">Test-type:</span>
+      <div class="btn-toggle-group" id="reaction-mode-toggle">
+        <button type="button" class="toggle-btn active" data-val="visuel" id="btn-mode-visuel">
+          <span>👁️ Visuel</span>
+          <span class="mode-badge" id="badge-visuel">Mangler</span>
+        </button>
+        <button type="button" class="toggle-btn" data-val="lyd" id="btn-mode-lyd">
+          <span>🔊 Lyd</span>
+          <span class="mode-badge" id="badge-lyd">Mangler</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hoved-trykfeltet -->
+  <div class="reaction-test-box state-waiting" id="reaction-box" role="button" tabindex="0">
+    <div class="reaction-content">
+      <i class="fas fa-bolt reaction-icon" id="reaction-icon"></i>
+      <h3 id="reaction-status-title">Tryk her for at starte</h3>
+      <p id="reaction-status-desc">Når feltet bliver GRØNT, skal du tappe så hurtigt som muligt!</p>
+    </div>
+  </div>
+
+  <!-- Stats Bar -->
+  <div class="reaction-stats-bar" id="reaction-stats" style="display: none;">
+    <div class="stat-item">
+      <span class="stat-label">Seneste:</span>
+      <span class="stat-value" id="current-score">0 ms</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-label">Gns. (seneste 5):</span>
+      <span class="stat-value" id="avg-score">0 ms</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-label">Bedste:</span>
+      <span class="stat-value" id="best-score">0 ms</span>
+    </div>
+  </div>
+
+  <!-- Historik & Reset -->
+  <div class="reaction-history" id="reaction-history" style="display: none;">
+    <div id="reaction-asymmetry-box" class="reaction-summary-box" style="display: none;"></div>
+    <h4>Dine forsøg (Session):</h4>
+    <ul id="history-list"></ul>
+    <button class="btn btn--small btn--danger" id="reset-test-btn">Nulstil test & data</button>
+  </div>
+
+</div>
+
+<style>
+.reaction-test-wrapper {
+  margin: 2rem 0;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.reaction-topbar {
+  margin-bottom: 12px;
+}
+
+.setting-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.setting-label {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #495057;
+  white-space: nowrap;
+}
+
+.btn-toggle-group {
+  display: inline-flex;
+  background: #f1f3f5;
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  width: 100%;
+}
+
+.toggle-btn {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #495057;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.toggle-btn:hover:not(.active) {
+  color: #212529;
+  background: rgba(0,0,0,0.04);
+}
+
+.toggle-btn.active {
+  background: #2b6cb0;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(43, 108, 176, 0.3);
+}
+
+.mode-badge {
+  font-size: 0.65rem;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-weight: 800;
+  background: #e9ecef;
+  color: #6c757d;
+}
+
+.toggle-btn.active .mode-badge {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.mode-badge.done {
+  background: #d3f9d8 !important;
+  color: #2b8a3e !important;
+}
+
+.toggle-btn.active .mode-badge.done {
+  background: #ffffff !important;
+  color: #2b8a3e !important;
+}
+
+.reaction-test-box {
+  min-height: 260px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  touch-action: manipulation;
+  outline: none;
+}
+
+.reaction-test-box:active {
+  transform: scale(0.98);
+}
+
+.reaction-content {
+  color: #ffffff;
+}
+
+.reaction-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.reaction-test-box h3 {
+  color: #ffffff !important;
+  margin: 0 0 0.5rem 0 !important;
+  font-size: 1.6rem;
+}
+
+.reaction-test-box p {
+  color: rgba(255,255,255,0.9) !important;
+  margin: 0 !important;
+  font-size: 1.05rem;
+}
+
+/* Tilstande */
+.state-waiting { background-color: #2b6cb0; }
+.state-ready { background-color: #c53030; }
+.state-go { background-color: #2f855a; }
+.state-early { background-color: #dd6b20; }
+.state-result { background-color: #4a5568; }
+
+.reaction-stats-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 1rem;
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: #718096;
+}
+
+.stat-value {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #2d3748;
+}
+
+.reaction-history {
+  margin-top: 1rem;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.reaction-summary-box {
+  background: #ebf8ff;
+  border: 1px solid #90cdf4;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  color: #2b6cb0;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.reaction-history h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.reaction-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.reaction-history li {
+  background: #edf2f7;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.result-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+.result-actions .btn, .result-actions a.btn {
+  flex: 1;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn--outline {
+  background: transparent;
+  border: 2px solid #cbd5e0;
+  color: #4a5568;
+  transition: all 0.2s ease;
+}
+.btn--outline:hover {
+  background: #f7fafc;
+  color: #2d3748;
+  border-color: #a0aec0;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const box = document.getElementById('reaction-box');
+  const icon = document.getElementById('reaction-icon');
+  const title = document.getElementById('reaction-status-title');
+  const desc = document.getElementById('reaction-status-desc');
+  const statsBar = document.getElementById('reaction-stats');
+  const historySec = document.getElementById('reaction-history');
+  const currentScoreEl = document.getElementById('current-score');
+  const avgScoreEl = document.getElementById('avg-score');
+  const bestScoreEl = document.getElementById('best-score');
+  const historyList = document.getElementById('history-list');
+  const resetBtn = document.getElementById('reset-test-btn');
+  const summaryBox = document.getElementById('reaction-asymmetry-box');
+
+  const badgeVisuel = document.getElementById('badge-visuel');
+  const badgeLyd = document.getElementById('badge-lyd');
+
+  let selectedMode = 'visuel'; // visuel | lyd
+  let state = 'waiting'; // waiting, ready, go, result
+  let timer = null;
+  let startTime = 0;
+  let scores = [];
+  let audioCtx = null;
+
+  // Indlæs eksisterende data fra localStorage ved opstart
+  loadSavedReactionScores();
+
+  // Toggle Mode setup
+  const modeBtns = document.querySelectorAll('#reaction-mode-toggle .toggle-btn');
+  modeBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      if (state === 'ready') return; // Lås under aktiv ventetid
+      modeBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      selectedMode = this.getAttribute('data-val');
+      
+      scores = [];
+      historyList.innerHTML = '';
+      statsBar.style.display = 'none';
+      
+      updateInstructionText();
+    });
+  });
+
+  function updateInstructionText() {
+    if (selectedMode === 'visuel') {
+      setBoxState('waiting', 'Tryk her for at starte (Visuel)', 'Når feltet bliver GRØNT, skal du tappe så hurtigt som muligt!', 'fa-bolt');
+    } else {
+      setBoxState('waiting', 'Tryk her for at starte (Lyd)', 'Når du hører PIP-LYDEN, skal du tappe så hurtigt som muligt!', 'fa-volume-up');
+    }
+  }
+
+  function vibrate(ms) {
+    if (navigator.vibrate) navigator.vibrate(ms);
+  }
+
+  function playSignalSound() {
+    try {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      const now = audioCtx.currentTime;
+      osc.frequency.value = 1000; // 1000 Hz klokkeklar tone
+      gain.gain.setValueAtTime(0.4, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+
+      osc.start(now);
+      osc.stop(now + 0.2);
+    } catch (e) {
+      console.error('Lyd kunne ikke afspilles:', e);
+    }
+  }
+
+  function setBoxState(newState, titleText, descText, iconClass) {
+    state = newState;
+    box.className = 'reaction-test-box state-' + newState;
+    title.textContent = titleText;
+    desc.textContent = descText;
+    icon.className = 'fas ' + iconClass + ' reaction-icon';
+  }
+
+  function startTest() {
+    if (selectedMode === 'visuel') {
+      setBoxState('ready', 'Vent på grøn...', 'Tap SÅ SNART feltet skifter farve!', 'fa-ellipsis-h');
+    } else {
+      setBoxState('ready', 'Vent på lyd...', 'Tap SÅ SNART du hører tonen!', 'fa-volume-mute');
+    }
+
+    const randomDelay = Math.floor(Math.random() * 3000) + 2000; // 2-5 sekunder
+
+    timer = setTimeout(function() {
+      if (selectedMode === 'lyd') {
+        playSignalSound();
+      }
+      setBoxState('go', 'TRYK NU!', 'Tap på skærmen!', 'fa-bolt');
+      startTime = Date.now();
+      vibrate(50);
+    }, randomDelay);
+  }
+
+  function handleTap() {
+    if (state === 'waiting' || state === 'result') {
+      startTest();
+    } else if (state === 'ready') {
+      clearTimeout(timer);
+      vibrate([50, 50, 50]);
+      setBoxState('early', 'For tidligt!', 'Du trykkede før signalet kom. Tap for at prøve igen.', 'fa-exclamation-triangle');
+      state = 'result';
+    } else if (state === 'go') {
+      const reactionTime = Date.now() - startTime;
+      vibrate(30);
+      scores.push(reactionTime);
+      updateStats(reactionTime);
+      setBoxState('result', reactionTime + ' ms', 'Flot! Tap for at tage næste forsøg.', 'fa-check-circle');
+    }
+  }
+
+  function updateStats(latest) {
+    statsBar.style.display = 'grid';
+    historySec.style.display = 'block';
+
+    currentScoreEl.textContent = latest + ' ms';
+    
+    const best = Math.min(...scores);
+    bestScoreEl.textContent = best + ' ms';
+
+    const lastFive = scores.slice(-5);
+    const avg = Math.round(lastFive.reduce((a, b) => a + b, 0) / lastFive.length);
+    avgScoreEl.textContent = avg + ' ms';
+
+    const li = document.createElement('li');
+    li.textContent = '#' + scores.length + ' (' + (selectedMode === 'visuel' ? 'Syn' : 'Lyd') + '): ' + latest + ' ms';
+    historyList.insertBefore(li, historyList.firstChild);
+
+    saveAndRefreshData(avg);
+  }
+
+  function saveAndRefreshData(currentAvg) {
+    try {
+      const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+      const today = new Date().toLocaleDateString('da-DK');
+      
+      let reactionData = store['reaction'] || { visual: null, sound: null, date: '' };
+
+      if (reactionData.date !== today) {
+        reactionData = { visual: null, sound: null, date: today };
+      }
+
+      if (selectedMode === 'visuel') reactionData.visual = currentAvg;
+      if (selectedMode === 'lyd') reactionData.sound = currentAvg;
+
+      let displayStr = '';
+      if (reactionData.visual && reactionData.sound) {
+        displayStr = `Syn: ${reactionData.visual}ms / Lyd: ${reactionData.sound}ms`;
+      } else if (reactionData.visual) {
+        displayStr = `${reactionData.visual} ms (Syn)`;
+      } else {
+        displayStr = `${reactionData.sound} ms (Lyd)`;
+      }
+
+      const activeVal = reactionData.visual || reactionData.sound;
+
+      store['reaction'] = {
+        visual: reactionData.visual,
+        sound: reactionData.sound,
+        value: activeVal,
+        display: displayStr,
+        date: today
+      };
+
+      localStorage.setItem('mp_neuro_results', JSON.stringify(store));
+      loadSavedReactionScores();
+    } catch (e) {
+      console.error('Fejl ved gemning af reaktionstid:', e);
+    }
+  }
+
+  function loadSavedReactionScores() {
+    try {
+      const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+      const today = new Date().toLocaleDateString('da-DK');
+      const data = store['reaction'];
+
+      if (data && data.date === today) {
+        if (data.visual) {
+          badgeVisuel.textContent = `${data.visual} ms`;
+          badgeVisuel.classList.add('done');
+        } else {
+          badgeVisuel.textContent = 'Mangler';
+          badgeVisuel.classList.remove('done');
+        }
+
+        if (data.sound) {
+          badgeLyd.textContent = `${data.sound} ms`;
+          badgeLyd.classList.add('done');
+        } else {
+          badgeLyd.textContent = 'Mangler';
+          badgeLyd.classList.remove('done');
+        }
+
+        // Sammenligning hvis begge er testet
+        if (data.visual && data.sound) {
+          const diff = data.visual - data.sound;
+          summaryBox.innerHTML = `<strong>💡 Fysiologisk Sammenligning:</strong> Din lyd-reaktion er <strong>${diff > 0 ? diff + ' ms hurtigere' : Math.abs(diff) + ' ms langsommere'}</strong> end din visuelle reaktion. (Lydimpulser behandles typisk 30-50 ms hurtigere i hjernen).`;
+          summaryBox.style.display = 'block';
+          historySec.style.display = 'block';
+        }
+      } else {
+        badgeVisuel.textContent = 'Mangler';
+        badgeVisuel.classList.remove('done');
+        badgeLyd.textContent = 'Mangler';
+        badgeLyd.classList.remove('done');
+        summaryBox.style.display = 'none';
+      }
+    } catch (e) {
+      console.error('Fejl ved indlæsning af reaktions-scores:', e);
+    }
+  }
+
+  function resetTest() {
+    if (!confirm('Vil du nulstille alle gemte reaktionstests for i dag?')) return;
+    scores = [];
+    historyList.innerHTML = '';
+    statsBar.style.display = 'none';
+    historySec.style.display = 'none';
+    summaryBox.style.display = 'none';
+
+    try {
+      const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+      delete store['reaction'];
+      localStorage.setItem('mp_neuro_results', JSON.stringify(store));
+      loadSavedReactionScores();
+    } catch (e) {}
+
+    updateInstructionText();
+  }
+
+  box.addEventListener('click', handleTap);
+  box.addEventListener('keydown', function(e) {
+    if (e.code === 'Space' || e.code === 'Enter') {
+      e.preventDefault();
+      handleTap();
+    }
+  });
+  resetBtn.addEventListener('click', resetTest);
+});
+</script>

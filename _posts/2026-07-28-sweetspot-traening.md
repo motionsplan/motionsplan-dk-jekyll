@@ -10,6 +10,7 @@ header:
   caption: Sweet Spot træning på landevejen
 categories:
 - Træning
+- Kondition
 tags:
 - cykling
 - løb

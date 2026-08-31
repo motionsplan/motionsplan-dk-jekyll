@@ -58,7 +58,9 @@ Vores online vurderingsværktøjer og sportspsykologiske spørgeskemaer er udvik
 Hvad oplever du i din træning lige nu? Vælg den kategori herunder, der bedst beskriver dit behov:
 
 <div class="notice--warning" markdown="1">
+
 ### 🏃 1. Restitution, Energimangel & Overtræning
+
 *Føler du dig konstant fysisk udmattet, ramt af hyppige skader, eller at din fremgang er gået i stå?*
 
 * **[REDs Energitjek (Relativ Energimangel i Idræt)](/rem-s/)**  
@@ -74,7 +76,9 @@ Hvad oplever du i din træning lige nu? Vælg den kategori herunder, der bedst b
 ---
 
 <div class="notice--primary" markdown="1">
+
 ### 🎯 2. Præstationspres, Mindset & Motivation
+
 *Oplever du lammende nervøsitet før start, selvkritik eller manglende drivkraft?*
 
 * **[SCAT Konkurrencenervøsitet (Sport Competition Anxiety)](/scat-konkurrencenervoesitet/)**  
@@ -90,7 +94,9 @@ Hvad oplever du i din træning lige nu? Vælg den kategori herunder, der bedst b
 ---
 
 <div class="notice" markdown="1">
+
 ### 🧠 3. Generelt Mentalt Overskud & Hverdagsstress
+
 *Befinder du dig i en generel ubalance, der påvirker dit overskud både i og uden for sporten?*
 
 * **[WHO-5 Trivselsindeks](/who5-trivselindekset/)** – Mål dit generelle ugentlige overskud, din livskvalitet og dit humør.
@@ -102,7 +108,9 @@ Hvad oplever du i din træning lige nu? Vælg den kategori herunder, der bedst b
 ---
 
 <div class="notice--success" markdown="1">
+
 ### 🌟 4. Mentale Styrker, Flow & Mestringstro (Positiv Idrætspsykologi)
+
 Flyt fokus fra at reparere problemer til at opbygge dine mentale ressourcer, din trivsel og din evne til at ramme "zonen":
 * **[ACSI-28 – Atletens Mentale Værktøjskasse](/acsi-28/)** – Test dine 7 primære mestringsfærdigheder, fra topræstation under pres til trænbarhed og selvtillid.
 * **[DFS-2 – Flow-skalaen i Sport](/dfs2/)** – Mål din tilbøjelighed til at opnå absolut fokus, kontrol og ubesværet præstation i "zonen".
@@ -115,12 +123,31 @@ Flyt fokus fra at reparere problemer til at opbygge dine mentale ressourcer, din
 {% include components/mental-dashboard.html %}
 
 <div class="notice--warning" markdown="1">
+
 ### ⚖️ 5. Tvang, Ortoreksi & Intuitiv Træning
+
 Afdæk om din træning drives af sund balance, kropskontakt og glæde – eller af usund besættelse og kontrolbehov:
 * **[Træningsafhængighed & Ortoreksi (Samlet Tema & Dashboard)](/traeningsafhaengighed-ortoreksi/)** – Læs temaguiden og kortlæg din samlede risikoprofil på 4-i-1 dashboardet.
 * **[EAI-Testen for Træningsafhængighed](/traeningsafhaengighed/)** – Tag den klinisk validerede EAI-screening for motionstvangs-symptomer.
 * **[DOS Ortoreksi-skalaen](/dos-ortoreksi/)** – Test om dit fokus på "sund og ren mad" har taget overhånd.
 * **[IES-2 Intuitiv Træning](/intuitiv-traening/)** – Mål din evne til at bevæge dig med lyst, fleksibilitet og kropskontakt.
+</div>
+
+---
+
+<div class="notice--info" markdown="1">
+
+### 6. Interaktive tests af din kognitive beslutningstagning
+
+Når du arbejder med din præstationspsykologi (fx via ACSI-28 eller Flow-skalaen), er det afgørende også at kende din hjernes kapacitet under pres. Mentalt pres og nerver påvirker din støjfiltrering og beslutningshastighed direkte.
+
+* **[Flanker Fokus Test](/fokus-test/)** – Mål din evne til at ignorere tilskuerstøj og forstyrrelser i øjenkrogen.
+* **[Go / No-Go Impulskontrol](/impulskontrol-test/)** – Test om din kognitive inhibering holder, når du skal undgå skudfinter.
+* **[Corsi Taktisk Hukommelse](/arbejdshukommelse-test/)** – Mål din rumlige arbejdshukommelse (din evne til at "læse banen").
+* **[Time Wall Visuel Timing](/visuel-forudsigelse/)** – Test dit boldøje og din evne til at beregne objekters hastighed.
+
+👉 *Se alle 7 moduler i det samlede **[Kognitive Kontrolpanel](/kognitive-tests/)**.*
+
 </div>
 
 ---

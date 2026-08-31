@@ -94,8 +94,6 @@ Man kan også forestille sig, at man kan bruge finger tapping test til at se, om
 
 Med introduktionen af smartphones er det ret let at lave en finger tapping test, da du kan gøre det direkte på din smartphone.
 
-[<i class="fab fa-android"></i> CNS Tap](https://play.google.com/store/apps/details?id=com.sreyas.cnstapmonitor&hl=da&gl=US){: .btn .btn--large .btn--success } eller [<i class="fab fa-apple"></i> Digital Finger Tapping Test](https://apps.apple.com/us/app/finger-tapping-test/id1668553521){: .btn .btn--large .btn--info }
-
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
@@ -103,4 +101,6 @@ Med introduktionen af smartphones er det ret let at lave en finger tapping test,
 - <https://barbend.com/cns-fatigue/>
 - <https://mennohenselmans.com/cns-fatigue/>
 - <https://simplifaster.com/articles/central-nervous-system-fatigue-effects-speed-power-athletes/>
+* **Jobbágy, A., et al. (2005).** *Analysis of finger tapping test for assessment of central nervous system state.* IEEE Transactions on Biomedical Engineering, 52(7), 1331-1339.
+
 </summary>

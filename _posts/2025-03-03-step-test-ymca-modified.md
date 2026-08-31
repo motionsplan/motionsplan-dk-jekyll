@@ -91,8 +91,6 @@ Brug afspilleren nedenfor til at holde den korrekte takt (96 BPM) og trinfølge 
 
 Indtast din puls 1 minut efter testen for at beregne dit kondital:
 
-{% include calculator/calculate-steptest-ymca.html %}
-
 {% include calc/steptest.html test="ymca_modified" %}
 
 ## Formlen bag beregningerne

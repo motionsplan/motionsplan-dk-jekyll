@@ -151,7 +151,7 @@ Indirekte tests er en nem og tilgængelig måde at estimere dit kondital på ude
 
 ---
 
-### Submaksimale konditionstests (Skånsom belastning)
+### Submaksimale konditionstests (mindre belastning)
 
 Fordelen ved en submaksimal konditionstest er, at det er let at overskue at få lavet testen. Du arbejder ved en jævn, moderat belastning uden at presse dig selv til udmattelse, hvilket betyder, at du kan gentage den oftere i hverdagen uden behov for lang restitutionstid.
 
@@ -161,7 +161,7 @@ Fordelen ved en submaksimal konditionstest er, at det er let at overskue at få 
 
 ---
 
-### Maksimale konditionstests (Full-out tærskel)
+### Maksimale konditionstests (All-out test)
 
 En maksimal test er typisk mere præcis til at estimere dit kondital, da konditallet i sin natur er et udtryk for din *maksimale* iltoptagelse. Til gengæld er det en ekstremt hård belastning, hvor du skal presse hjerte, lunger og muskler til din absolutte udmattelsesgrænse, hvilket kræver god mental opsætning.
 
@@ -183,7 +183,7 @@ Vil du teste din løbekondition eller løbepræstation? Der findes flere velafpr
 * ⚽ **[Yo-Yo test](/yoyo-test/) & [Bip-test](/bip-test/)** – Perfekt til holdsport med retningsskift og kortere intervaller.
 * 🚶‍♂️ **[1609 m Jogging-test](/submaximal-jogging-test-vo2/)** – Skånsom submaksimal løbetest til begyndere.
 
-👉 **[Se den samlede oversigtsaide for alle løbetests »](/tests/loeb/)**
+👉 **[Se den samlede oversigtsside for alle løbetests »](/tests/loeb/)**
 
 </details>
 
@@ -194,6 +194,7 @@ Vil du måle din kondition, din trådeffekt eller din tærskel på ergometercyke
 
 * ⚡ **[Wattmax-test](/kondital-wattmax/)** – Trinvis maksimal belastningstest til udmattelse.
 * 💓 **[Åstrand 1-punktstest](/etpunktstest/)** – Submaksimal 6-minutters cykeltest baseret på din pulsrespons.
+* 💓 **[Åstrand 2-punktstest](/topunktstest/)** – Submaksimal cykeltest baseret på din pulsrespons over to målinger - mere præcis end 1-punktstesten.
 * 📈 **[FTP & 20-minutters test](/ftp-test/)** – Mål din tærskeleffekt til watt-træning.
 
 👉 **[Se den samlede oversigtsside for alle cykeltests »](/tests/cykling/)**
@@ -207,6 +208,8 @@ Skånsomme og videnskabeligt validerede gangtests til ældre, genoptræningsforl
 
 * ⏱️ **[6-minutters gangtest (6MWT)](/gaatest-6min/)** – Mål din tilbagelagte gådistance på 6 minutter.
 * 🚶 **[Rockport 1,6 km gå-test](/gaatest/)** – Beregn dit kondital ud fra din gåtid og din slutpuls.
+* 🚶 **[Balkes gåtest på løbebånd](/balke-test/)** – Beregn dit kondital ud fra din gåtid og din slutpuls.
+* 🚶 **[Ebbeling 4 minutters test](/ebbeling-test/)** – Beregn dit kondital ud fra din gåtid og din slutpuls.
 
 </details>
 

@@ -28,7 +28,6 @@ breadcrumbs: true
 classes: wide
 categories:
   - Psykologi
-  - Psykologi
 last_modified_at: '2026-08-30T08:00:00Z'
 faq:
   - question: Kan jeg bruge disse online psykologiske tests til at få en diagnose?
@@ -112,6 +111,18 @@ Besøg vores specialiserede søsterside **[Sportspsykologiske Tests & Energitjek
 * **[SMTQ Mental Styrke (Mental Toughness)](/smtq-mental-styrke/)** – Mål din selvtillid, dit fokus og din følelsesmæssige kontrol under pres.
 * **[Sport-MPS-2 Perfektionisme](/sport-mps-2-perfektionisme/)** – Vurdér balancen mellem sunde, høje ambitioner og usund frygt for at fejle.
 * **[SMS-II Træningsmotivation](/sms-2-traeningsmotivation/)** – Afdæk om din drivkraft kommer fra indre lyst eller ydre pres og skyldfølelse.
+
+---
+
+<div class="notice--info" markdown="1">
+
+**🎛️ Vil du supplere dine svar med en objektiv måling af dagsformen?**
+
+Hvor spørgeskemaerne herunder måler din *oplevede* trivsel, stress og mentale balance, kan du måle din hjernes fysiologiske parathed direkte på skærmen. 
+
+Brug vores **[Kognitive Kontrolpanel & Dagsform-tester](/kognitive-tests/)** til at måle centraltræthed (CNS), reaktionstid og mentalt overskud inden dagens træning.
+
+</div>
 
 ---
 

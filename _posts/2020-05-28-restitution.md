@@ -100,6 +100,7 @@ Her er tre overskuelige tabeller og oversigter over restitutionstider udarbejdet
 {% include figure image_path="/assets/images/cdn.bloggersdelight.dk/restitution_tabel_2016_web-680x631-82bfd7af.jpg" caption="Restitutionstid for udholdenhedstræning, styrketræning og hurtighedstræning. Kilde: [Marina Aagaard](https://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/) [📷](https://cdn.bloggersdelight.dk/wp-content/blogs.dir/205710/files/2016/12/restitution_tabel_2016_web-680x631.jpg){: rel='nofollow noopener' }" alt="restitutionstider for styrketræning og udholdenhedsidræt" %}
 
 ### Generelt restitutionsskema i timer
+
 | Træningsintensitet | 90-95% frisk | Maksimal restitution |
 | :--- | :--- | :--- |
 | **Lav** (fx hurtig gang, let løb og yoga) | Få timer | 12–36 timer |
@@ -119,6 +120,7 @@ Bishop et al. (2008) viste, at når man venter mellem 48 og 72 timer efter et h�
 | **Meget høj** | 1–5 RM | 3–6 døgn |
 
 ### Restitutionstid for løb
+
 | Løbstype / Intensitet | Eksempel | Restitutionstid |
 | :--- | :--- | :--- |
 | **Lav** | 45-60 min. hurtig gang / meget let jog | 12–48 timer |
@@ -156,6 +158,23 @@ Din morgenhvilepuls kan indikere dit restitutionsniveau. Hvis din [hvilepuls](/h
 
 ### 5. Heart Rate Variability (HRV)
 Mange nyere pulsure og apps kan måle *Heart Rate Variability* (pulsvariation). HRV måler den mikroskopiske tidsforskel mellem dine hjerteslag og giver et billede af dit nervesystems balance. Lav HRV indikerer typisk stress og manglende restitution (se vores guide til [HRV](/hrv/)).
+
+### 6. Mål din neuromuskulære restitution (CNS Status)
+
+Muskelømhed (DOMS) fortæller kun halvdelen af sandheden. Dit centralnervesystem (CNS) kan være udbrændt efter tunge løft eller intens træning, selvom dine muskler føles friske. 
+
+Brug værktøjet herunder til at tage en **10-sekunders Finger Tapping Test** for at tjekke din motoriske fyringsfrekvens og se, om du har ubalance mellem højre og venstre side:
+
+{% include components/finger-tapping.html %}
+
+<div class="notice--info" markdown="1">
+
+**Hvordan fortolker du dit resultat?**
+
+* **Normal score & god balance:** Dit nervesystem er restitueret og klar til tung belastning.
+* **Fald på > 10% eller stor side-asymmetri:** Dit centralnervesystem udviser træthed. Overvej et lettere restitutionspas i dag for ikke at overbelaste kroppen.
+* **Vil du prøve endnu flere tests?** [Gennemfør alle 7 kognitive reaktionstests](/kognitive-tests/).
+</div>
 
 ---
 

@@ -56,7 +56,7 @@ faq:
 
 Vil du kende din reelle iltoptagelseskapacitet og maksimale watt-ydeevne på cyklen uden at skulle i et avanceret fysiologisk laboratorium? 
 
-**Sitkos 5-minutters all-out cykeltest** har vundet stor udbredelse blandt både motionister og eliteryttere. Testen er udviklet af idrætsforskere som et simpelt, men utroligt præcist feltredskab til at estimere din **Maximal Aerobic Power (MAP)** og din **VO₂max** (kondital på cyklen).
+**Sitkos 5-minutters all-out [cykeltest](/tests/cykling/)** har vundet stor udbredelse blandt både motionister og eliteryttere. Testen er udviklet af idrætsforskere som et simpelt, men utroligt præcist feltredskab til at estimere din **Maximal Aerobic Power (MAP)** og din **VO₂max** (kondital på cyklen).
 
 Brug beregneren herunder til at indtaste dine testresultater, eller læs videre i guiden for at få den præcise testprotokol og pacing-strategi.
 

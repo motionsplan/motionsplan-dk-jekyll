@@ -1,0 +1,372 @@
+<!-- Stroop Test Component -->
+<div class="stroop-test-wrapper" id="stroop-container">
+  
+  <!-- START SKÆRM -->
+  <div class="stroop-card" id="stroop-start-screen">
+    <div class="stroop-icon-badge"><i class="fas fa-brain"></i></div>
+    <h3>Stroop-test: Mål din mentale træthed</h3>
+    <p>Test din hjernes evne til at undertrykke forstyrrende indtryk under tidspres.</p>
+    <div class="stroop-rule-box">
+      <strong>⚠️ Reglen:</strong> Tryk på knappen, der matcher tekstens <u>FARVE</u> — <strong>IKKE</strong> hvad der står skrevet!
+    </div>
+    <button class="btn btn--primary btn--large" id="start-stroop-btn">Start testen (10 runder)</button>
+  </div>
+
+  <!-- SPIL SKÆRM -->
+  <div class="stroop-card" id="stroop-game-screen" style="display: none;">
+    <div class="stroop-top-bar">
+      <span class="stroop-progress" id="stroop-progress">Runde 1 af 10</span>
+      <span class="stroop-timer" id="stroop-timer">0.0s</span>
+    </div>
+
+    <div class="stroop-word-display" id="stroop-word">KLAR</div>
+
+    <div class="stroop-buttons-grid">
+      <button class="stroop-btn stroop-btn-red" data-color="red">RØD</button>
+      <button class="stroop-btn stroop-btn-blue" data-color="blue">BLÅ</button>
+      <button class="stroop-btn stroop-btn-green" data-color="green">GRØN</button>
+      <button class="stroop-btn stroop-btn-yellow" data-color="yellow">GUL</button>
+    </div>
+  </div>
+
+  <!-- RESULTAT SKÆRM -->
+  <div class="stroop-card" id="stroop-result-screen" style="display: none;">
+    <div class="stroop-icon-badge" id="result-icon-badge"><i class="fas fa-chart-line"></i></div>
+    <h3>Dit kognitive testresultat</h3>
+    
+    <div class="stroop-results-grid">
+      <div class="stroop-res-box">
+        <span class="res-label">Total tid:</span>
+        <span class="res-value" id="res-total-time">0.0 s</span>
+      </div>
+      <div class="stroop-res-box">
+        <span class="res-label">Præcision:</span>
+        <span class="res-value" id="res-accuracy">100%</span>
+      </div>
+      <div class="stroop-res-box">
+        <span class="res-label">Gns. pr. svar:</span>
+        <span class="res-value" id="res-avg-time">0 ms</span>
+      </div>
+    </div>
+
+    <div class="stroop-assessment" id="stroop-assessment">
+      <!-- Vurdering genereres dynamisk -->
+    </div>
+<div class="result-actions">
+      <button class="btn btn--success" id="retry-stroop-btn">Prøv igen</button>
+      <a href="/kognitive-tests/" class="btn btn--outline">← Kontrolpanel</a>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.stroop-test-wrapper {
+  margin: 2rem 0;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.stroop-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.stroop-icon-badge {
+  width: 56px;
+  height: 56px;
+  background: #ebf8ff;
+  color: #3182ce;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto 1rem auto;
+}
+
+.stroop-card h3 {
+  margin: 0 0 0.5rem 0 !important;
+  color: #2d3748;
+}
+
+.stroop-rule-box {
+  background: #fffaf0;
+  border-left: 4px solid #dd6b20;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: #7b341e;
+  font-size: 0.95rem;
+  margin: 1rem 0 1.5rem 0;
+  text-align: left;
+}
+
+.stroop-top-bar {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #718096;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.stroop-word-display {
+  font-size: 3.2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background: #f7fafc;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #edf2f7;
+}
+
+.stroop-buttons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.stroop-btn {
+  border: none;
+  border-radius: 12px;
+  padding: 1.2rem 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.1s ease, filter 0.15s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.stroop-btn:active {
+  transform: scale(0.95);
+}
+
+.stroop-btn-red { background-color: #e53e3e; }
+.stroop-btn-blue { background-color: #3182ce; }
+.stroop-btn-green { background-color: #38a169; }
+.stroop-btn-yellow { background-color: #d69e2e; }
+
+.stroop-results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 1.2rem 0;
+}
+
+.stroop-res-box {
+  background: #f7fafc;
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 1px solid #edf2f7;
+}
+
+.res-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #718096;
+}
+
+.res-value {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #2d3748;
+}
+
+.stroop-assessment {
+  background: #edf2f7;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+.result-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+.result-actions .btn, .result-actions a.btn {
+  flex: 1;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn--outline {
+  background: transparent;
+  border: 2px solid #cbd5e0;
+  color: #4a5568;
+  transition: all 0.2s ease;
+}
+.btn--outline:hover {
+  background: #f7fafc;
+  color: #2d3748;
+  border-color: #a0aec0;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const COLOR_DATA = [
+    { id: 'red', name: 'RØD', hex: '#e53e3e' },
+    { id: 'blue', name: 'BLÅ', hex: '#3182ce' },
+    { id: 'green', name: 'GRØN', hex: '#38a169' },
+    { id: 'yellow', name: 'GUL', hex: '#d69e2e' }
+  ];
+
+  const TOTAL_ROUNDS = 10;
+  
+  let currentRound = 0;
+  let correctAnswers = 0;
+  let startTime = 0;
+  let gameInterval = null;
+  let currentColorId = '';
+  let reactionTimes = [];
+
+  const startScreen = document.getElementById('stroop-start-screen');
+  const gameScreen = document.getElementById('stroop-game-screen');
+  const resultScreen = document.getElementById('stroop-result-screen');
+  
+  const wordDisplay = document.getElementById('stroop-word');
+  const progressEl = document.getElementById('stroop-progress');
+  const timerEl = document.getElementById('stroop-timer');
+  const colorBtns = document.querySelectorAll('.stroop-btn');
+
+  const startBtn = document.getElementById('start-stroop-btn');
+  const retryBtn = document.getElementById('retry-stroop-btn');
+
+  const resTotalTime = document.getElementById('res-total-time');
+  const resAccuracy = document.getElementById('res-accuracy');
+  const resAvgTime = document.getElementById('res-avg-time');
+  const assessmentEl = document.getElementById('stroop-assessment');
+
+  function vibrate(ms) {
+    if (navigator.vibrate) navigator.vibrate(ms);
+  }
+
+  function getRandomIndex(max) {
+    return Math.floor(Math.random() * max);
+  }
+
+  function nextRound() {
+    if (currentRound >= TOTAL_ROUNDS) {
+      endGame();
+      return;
+    }
+
+    currentRound++;
+    progressEl.textContent = 'Runde ' + currentRound + ' af ' + TOTAL_ROUNDS;
+
+    // Vælg tilfældigt ord og tilfældig farve (inkongruent)
+    const textObj = COLOR_DATA[getRandomIndex(COLOR_DATA.length)];
+    let colorObj = COLOR_DATA[getRandomIndex(COLOR_DATA.length)];
+
+    // Sørg for at farve og tekst er forskellige 80% af gangene for Stroop-effekt
+    if (Math.random() < 0.8) {
+      while (colorObj.id === textObj.id) {
+        colorObj = COLOR_DATA[getRandomIndex(COLOR_DATA.length)];
+      }
+    }
+
+    currentColorId = colorObj.id;
+    wordDisplay.textContent = textObj.name;
+    wordDisplay.style.color = colorObj.hex;
+  }
+
+  function startGame() {
+    currentRound = 0;
+    correctAnswers = 0;
+    reactionTimes = [];
+
+    startScreen.style.display = 'none';
+    resultScreen.style.display = 'none';
+    gameScreen.style.display = 'block';
+
+    startTime = Date.now();
+    gameInterval = setInterval(function() {
+      const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+      timerEl.textContent = elapsed + 's';
+    }, 100);
+
+    nextRound();
+  }
+
+  function handleChoice(chosenColor) {
+    if (chosenColor === currentColorId) {
+      correctAnswers++;
+      vibrate(30);
+    } else {
+      vibrate([40, 40, 40]);
+    }
+
+    nextRound();
+  }
+
+  function endGame() {
+    clearInterval(gameInterval);
+    const totalTimeMs = Date.now() - startTime;
+    const totalTimeSec = (totalTimeMs / 1000).toFixed(2);
+    const accuracyPct = Math.round((correctAnswers / TOTAL_ROUNDS) * 100);
+    const avgMs = Math.round(totalTimeMs / TOTAL_ROUNDS);
+
+    gameScreen.style.display = 'none';
+    resultScreen.style.display = 'block';
+
+    resTotalTime.textContent = totalTimeSec + 's';
+    resAccuracy.textContent = accuracyPct + '%';
+    resAvgTime.textContent = avgMs + ' ms';
+
+    // Gem resultat i localStorage til dashboardet
+    try {
+      const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+      store['stroop'] = {
+        value: accuracyPct,
+        display: accuracyPct + '% (' + avgMs + ' ms)',
+        date: new Date().toLocaleDateString('da-DK')
+      };
+      localStorage.setItem('mp_neuro_results', JSON.stringify(store));
+    } catch (e) {
+      console.error('Kunne ikke gemme neuro-resultat:', e);
+    }
+
+    // Generer fysiologisk vurdering
+    let feedback = '';
+    if (accuracyPct >= 90 && avgMs < 1200) {
+      feedback = '<strong>🟢 Høj kognitiv klarhed:</strong> Din hjerne filtrerer ubesværet visuel støj. Dit kognitive overskud og din fokusstyrke er helt i top!';
+    } else if (accuracyPct >= 70 && avgMs < 1800) {
+      feedback = '<strong>🟡 Moderat kognitiv belastning:</strong> Fin præstation, men en smule tøven på de forstyrrende farver. Indikerer et normalt hverdags-overskud.';
+    } else {
+      feedback = '<strong>🔴 Tegn på kognitiv udmattelse:</strong> Mange fejl eller lang responstid. Din hjernes prefrontale cortex udviser tegn på mental træthed fra studie, arbejde eller manglende søvn.';
+    }
+
+    assessmentEl.innerHTML = feedback;
+  }
+
+  colorBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      const chosen = this.getAttribute('data-color');
+      handleChoice(chosen);
+    });
+  });
+
+  startBtn.addEventListener('click', startGame);
+  retryBtn.addEventListener('click', startGame);
+});
+</script>
