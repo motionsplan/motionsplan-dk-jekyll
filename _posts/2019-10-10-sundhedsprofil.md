@@ -187,7 +187,9 @@ Udgangspunktet for hele beregningen er din iltoptagelse ($VO_2\text{-max}$). Men
 
 $$\text{Konditionsalder} = 20 + \frac{VO_2\text{-max}_{\text{ref}} - VO_2\text{-max}_{\text{målt}}}{\text{Årligt fald i } VO_2\text{-max}}$$
 
-> **Eksempel:** Hvis en 48-årig mand måles til et kondital på $50{,}2\text{ mL/kg/min}$, har han et kredsløb, der svarer til gennemsnittet for en 25-årig. hans **fysiologiske konditionsalder er 25 år**.
+**Eksempel:** 
+
+Hvis en 48-årig mand måles til et kondital på $50{,}2\text{ mL/kg/min}$, har han et kredsløb, der svarer til gennemsnittet for en 25-årig. hans **fysiologiske konditionsalder er 25 år**.
 
 ---
 

@@ -87,9 +87,11 @@ $$\text{VO}_2\max = 5{,}22 + (1{,}38 \cdot T)$$
 
 $$\text{Decimaltid } (T) = \text{Minutter} + \left(\frac{\text{Sekunder}}{60}\right)$$
 
-> **Eksempel (Mand på gangtest):**  
-> Hvis en mand gennemfører 14 minutter og 30 sekunder ($T = 14 + \frac{30}{60} = 14{,}5 \text{ min}$):  
-> $$\text{VO}_2\max = 14{,}99 + (1{,}444 \cdot 14{,}5) = 14{,}99 + 20{,}94 = 35{,}9 \text{ ml/kg/min}$$
+**Eksempel (Mand på gangtest):**  
+
+Hvis en mand gennemfører 14 minutter og 30 sekunder ($T = 14 + \frac{30}{60} = 14{,}5 \text{ min}$):  
+
+$$\text{VO}_2\max = 14{,}99 + (1{,}444 \cdot 14{,}5) = 14{,}99 + 20{,}94 = 35{,}9 \text{ ml/kg/min}$$
 
 ---
 
@@ -100,9 +102,11 @@ Ved løb med en fast starthastighed på $8{,}0 \text{ km/t}$ ($5{,}0 \text{ mph}
 
 $$\text{VO}_2\max = 30{,}17 + (1{,}20 \cdot T)$$
 
-> **Eksempel (Løbetest):**  
-> Hvis testen stoppes efter 12 minutter og 0 sekunder ($T = 12{,}0 \text{ min}$):  
-> $$\text{VO}_2\max = 30{,}17 + (1{,}20 \cdot 12{,}0) = 30{,}17 + 14{,}40 = 44{,}6 \text{ ml/kg/min}$$
+**Eksempel (Løbetest):**  
+
+Hvis testen stoppes efter 12 minutter og 0 sekunder ($T = 12{,}0 \text{ min}$):  
+
+$$\text{VO}_2\max = 30{,}17 + (1{,}20 \cdot 12{,}0) = 30{,}17 + 14{,}40 = 44{,}6 \text{ ml/kg/min}$$
 
 ---
 
@@ -123,11 +127,12 @@ $$\text{VO}_2\max = 14{,}99 + (1{,}444 \cdot T_{\text{est}}) \quad \text{(Mænd)
 
 $$\text{VO}_2\max = 5{,}22 + (1{,}38 \cdot T_{\text{est}}) \quad \text{(Kvinder)}$$
 
-> **Eksempel (Mand, 30 år med makspuls på 187 bpm):**  
-> * **Målpuls (85 %):** $187 \cdot 0{,}85 = 159 \text{ bpm}$.  
-> * **Testforløb:** Testpersonen rammer 159 bpm efter **10 minutter og 12 sekunder** ($T_{\text{sub}} = 10{,}2 \text{ min}$).  
-> * **Ekstrapoleret tid:** $T_{\text{est}} = \frac{10{,}2}{0{,}85} = 12{,}0 \text{ min}$.  
-> * **Beregnet kondital:** $\text{VO}_2\max = 14{,}99 + (1{,}444 \cdot 12{,}0) = 32{,}3 \text{ ml/kg/min}$.
+**Eksempel (Mand, 30 år med makspuls på 187 bpm):**  
+
+* **Målpuls (85 %):** $187 \cdot 0{,}85 = 159 \text{ bpm}$.  
+* **Testforløb:** Testpersonen rammer 159 bpm efter **10 minutter og 12 sekunder** ($T_{\text{sub}} = 10{,}2 \text{ min}$).  
+* **Ekstrapoleret tid:** $T_{\text{est}} = \frac{10{,}2}{0{,}85} = 12{,}0 \text{ min}$.  
+* **Beregnet kondital:** $\text{VO}_2\max = 14{,}99 + (1{,}444 \cdot 12{,}0) = 32{,}3 \text{ ml/kg/min}$.
 
 ---
 
@@ -152,10 +157,11 @@ $$\text{VO}_2\max = \left(\left(\frac{D}{15} - 133\right) \cdot 0{,}172\right) +
 
 *Hvor $D$ er distancen i meter.*
 
-> **Eksempel (Felt-test):**  
-> Løber du $3.200 \text{ meter}$ på 15 minutter:  
-> $$\text{Gennemsnitshastighed} = \frac{3200}{15} = 213{,}33 \text{ m/min}$$  
-> $$\text{VO}_2\max = ((213{,}33 - 133) \cdot 0{,}172) + 33{,}3 = (80{,}33 \cdot 0{,}172) + 33{,}3 = 47{,}1 \text{ ml/kg/min}$$
+**Eksempel (Felt-test):**  
+
+Løber du $3.200 \text{ meter}$ på 15 minutter:  
+$$\text{Gennemsnitshastighed} = \frac{3200}{15} = 213{,}33 \text{ m/min}$$  
+$$\text{VO}_2\max = ((213{,}33 - 133) \cdot 0{,}172) + 33{,}3 = (80{,}33 \cdot 0{,}172) + 33{,}3 = 47{,}1 \text{ ml/kg/min}$$
 
 ---
 

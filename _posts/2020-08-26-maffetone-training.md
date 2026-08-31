@@ -103,7 +103,9 @@ Start med grundtallet: **$180 - \text{din alder}$**. Justér derefter tallet ud 
 | **Kategori C:** Du har trænet regelmæssigt (2–3 gange om ugen) i op til to år uden større skader eller problemer. | **Læg 0 til** *(Uændret)* |
 | **Kategori D:** Du har trænet kontinuerligt i mere end to år uden skader og fremviser konstant fremgang. | **Læg 5 til** |
 
-> **Eksempel:** En løber på 40 år i Kategori C får en MAF-puls på $180 - 40 = 140 \text{ BPM}$. Under alle basisture skal pulsen ligge **mellem 130 og 140 BPM** og må aldrig overstige 140.
+**Eksempel:**
+
+En løber på 40 år i Kategori C får en MAF-puls på $180 - 40 = 140 \text{ BPM}$. Under alle basisture skal pulsen ligge **mellem 130 og 140 BPM** og må aldrig overstige 140.
 
 ---
 

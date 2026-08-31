@@ -220,8 +220,11 @@ For at finde den præcise hastighed, du skal indstille løbebåndet til for at r
 
 $$\text{Påkrævet hastighed (km/t)} = \frac{144}{\text{Måltid i minutter}}$$
 
-> **Eksempel:** Vil du løbe 2,4 km på nøjagtigt **10 minutter og 0 sekunder** ($10{,}0 \text{ min}$):  
-> $$\text{Hastighed} = \frac{144}{10{,}0} = 14{,}4 \text{ km/t}$$
+**Eksempel:**
+
+Vil du løbe 2,4 km på nøjagtigt **10 minutter og 0 sekunder** ($10{,}0 \text{ min}$):  
+
+$$\text{Hastighed} = \frac{144}{10{,}0} = 14{,}4 \text{ km/t}$$
 
 ---
 

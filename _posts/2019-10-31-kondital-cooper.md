@@ -449,7 +449,9 @@ Når de 12 minutter er gået, aflæser du distancen på displayet. Hvis dit løb
 
 $$\text{Distance (meter)} = \text{Hastighed (km/t)} \cdot 200$$
 
-> **Eksempel:** Løber du med en fast hastighed på $14{,}5 \text{ km/t}$ i alle 12 minutter, har du tilbagelagt: $14{,}5 \cdot 200 = 2.900 \text{ meter}$.
+**Eksempel:**
+
+Løber du med en fast hastighed på $14{,}5 \text{ km/t}$ i alle 12 minutter, har du tilbagelagt: $14{,}5 \cdot 200 = 2.900 \text{ meter}$.
 
 ### Omregningstabel: Fart på løbebånd til Cooper-distance
 

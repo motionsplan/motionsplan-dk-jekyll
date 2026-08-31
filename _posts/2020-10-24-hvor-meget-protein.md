@@ -66,7 +66,9 @@ Her er de officielle og videnskabelige retningslinjer for dit daglige indtag:
 | **Styrketræning & Vægttab** | 1,6 g / kg | ISSN (Sports Nutrition) |
 | **Maksimal muskelopbygning** | 2,0 – 2,2 g / kg | Forskning i hypertrofi |
 
-> **Eksempel:** Vejer du 80 kg og styrketræner 3 gange om ugen, er dit optimale proteinbehov (80 kg x 1,6 g) = **128 gram protein om dagen.**
+**Eksempel:**
+
+Vejer du 80 kg og styrketræner 3 gange om ugen, er dit optimale proteinbehov (80 kg x 1,6 g) = **128 gram protein om dagen.**
 
 ### Hvor meget protein skal man have, når man træner?
 Når du styrketræner, bryder du muskelfibrene ned. Proteiner består af aminosyrer, som er byggestenene, kroppen bruger til at reparere og bygge musklerne større og stærkere igen (hypertrofi). Uden tilstrækkeligt med protein, udebliver resultaterne af din hårde træning simpelthen.

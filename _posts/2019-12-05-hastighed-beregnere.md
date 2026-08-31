@@ -122,8 +122,11 @@ For at finde din gennemsnitshastighed i km/t dividerer du distancen (i km) med t
 
 $$\text{Hastighed (km/t)} = \frac{\text{Distance (km)} \times 60}{\text{Tid (min)}}$$
 
-> **Eksempel:** Du løber **10 km** på **50 minutter**:
-> $$\text{Hastighed} = \frac{10 \times 60}{50} = \mathbf{12 \text{ km/t}}$$
+**Eksempel:**
+
+Du løber **10 km** på **50 minutter**:
+
+$$\text{Hastighed} = \frac{10 \times 60}{50} = \mathbf{12 \text{ km/t}}$$
 
 Beregn din gennemsnitlige km/t under fx [Cooper-testens 12 minutter](/cooper-test/) for at vurdere dit løbetempo.
 
@@ -134,8 +137,11 @@ Vil du vide, hvor langt du når på en bestemt tid med en givet hastighed, bruge
 
 $$\text{Distance (km)} = \frac{\text{Hastighed (km/t)} \times \text{Tid (min)}}{60}$$
 
-> **Eksempel:** Du løber i **15 minutter** med en hastighed på **15 km/t**:
-> $$\text{Distance} = \frac{15 \times 15}{15} = \mathbf{3,75 \text{ km}}$$
+**Eksempel:**
+
+Du løber i **15 minutter** med en hastighed på **15 km/t**:
+
+$$\text{Distance} = \frac{15 \times 15}{15} = \mathbf{3,75 \text{ km}}$$
 
 ---
 
@@ -144,8 +150,11 @@ Hvis du kender din planlagte distance og din hastighed, kan du udregne varighede
 
 $$\text{Tid (min)} = \frac{\text{Distance (km)} \times 60}{\text{Hastighed (km/t)}}$$
 
-> **Eksempel:** Du skal løbe **10 km** med en hastighed på **12 km/t**:
-> $$\text{Tid} = \frac{10 \times 60}{12} = \mathbf{50 \text{ minutter}}$$
+**Eksempel:**
+
+Du skal løbe **10 km** med en hastighed på **12 km/t**:
+
+$$\text{Tid} = \frac{10 \times 60}{12} = \mathbf{50 \text{ minutter}}$$
 
 ---
 

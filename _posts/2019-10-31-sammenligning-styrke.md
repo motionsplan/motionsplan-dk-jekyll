@@ -184,11 +184,12 @@ $$\text{Index100} = \frac{\text{kg} \times 986{,}63}{1270 - 172970 \cdot \text{k
 
 Formålet med Index100 er at give et tal, der er let og intuitivt at forholde sig til i hverdagen.
 
-> **Eksempel:**  
-> Person A vejer 90 kg og tager 115 kg i bænkpres ($1{,}28\text{ kg pr. kg BW}$).  
-> Person B vejer 75 kg og tager 100 kg i bænkpres ($1{,}33\text{ kg pr. kg BW}$).  
->  
-> Hvem er stærkest? Kigger man kun på relativ styrke, ser Person B stærkest ud. Men ifølge Index100-beregningen ville Person A løfte **120 kg**, hvis han vejede 100 kg, mens Person B kun ville løfte **117 kg**. Efter en retfærdig normalisering er Person A altså den stærkeste!
+**Eksempel:**  
+
+* Person A vejer 90 kg og tager 115 kg i bænkpres ($1{,}28\text{ kg pr. kg BW}$).  
+* Person B vejer 75 kg og tager 100 kg i bænkpres ($1{,}33\text{ kg pr. kg BW}$).  
+  
+Hvem er stærkest? Kigger man kun på relativ styrke, ser Person B stærkest ud. Men ifølge Index100-beregningen ville Person A løfte **120 kg**, hvis han vejede 100 kg, mens Person B kun ville løfte **117 kg**. Efter en retfærdig normalisering er Person A altså den stærkeste!
 
 Modellen har ikke vundet så meget udbredelse, selvom den er let at forstå.
 

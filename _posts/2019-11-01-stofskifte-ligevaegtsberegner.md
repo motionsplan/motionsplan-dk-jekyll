@@ -178,9 +178,11 @@ Tabellen herunder stammer fra *Nordic Nutrition Recommendations (2012)*:
 
 *Bemærk: Hvis du har stillesiddende arbejde, men træner hårdt 30–60 minutter 4–5 gange om ugen, lægges der typisk ca. +0,3 til din PAL-faktor.*
 
-> **Eksempel:**  
-> En mand har et beregnet BMR på 7.600 kJ (ca. 1.815 kcal). Han har stillesiddende kontorarbejde (PAL = 1,4), men træner i motionscenter 4 gange om ugen (+0,3). Hans samlede PAL er 1,7.  
-> **Ligevægtsindtag:** $7.600 \text{ kJ} \times 1,7 = \mathbf{12.920 \text{ kJ/døgn}}$ (ca. 3.088 kcal).
+**Eksempel:**  
+
+En mand har et beregnet BMR på 7.600 kJ (ca. 1.815 kcal). Han har stillesiddende kontorarbejde (PAL = 1,4), men træner i motionscenter 4 gange om ugen (+0,3). Hans samlede PAL er 1,7.  
+
+**Ligevægtsindtag:** $7.600 \text{ kJ} \times 1,7 = \mathbf{12.920 \text{ kJ/døgn}}$ (ca. 3.088 kcal).
 
 Du kan dykke dybere ned i [hvordan PAL og MET-værdier udregnes i vores specialartikel om PAL](/beregner/pal/).
 

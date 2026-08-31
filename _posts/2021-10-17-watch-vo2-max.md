@@ -113,6 +113,7 @@ Studier af [Koteles (2015)](https://pubmed.ncbi.nlm.nih.gov/26690034/){:target="
 Dine løbeurs estimat af VO₂-max kan bruges som en fin **tendensindikator** over tid, men det er ikke en eksakt videnskabelig måling. 
 
 For at få det mest præcise tal ud af dit ur skal du:
+
 1. Altid benytte et brystbælte frem for håndledsmåling.
 2. Indtaste din korrekte [maxpuls](/test-max-puls/) og hvilepuls i profilen.
 3. Løbe i fladt terræn med godt GPS-signal.
