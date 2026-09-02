@@ -11,7 +11,6 @@ header:
   caption: 'Test af træningsafhængighed: Er du afhængig af træning?'
 categories:
   - Psykologi
-  - Psykologi
 tags:
   - vurderingsværktøj
   - træning

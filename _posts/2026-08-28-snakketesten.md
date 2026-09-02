@@ -5,8 +5,7 @@ permalink: /snakketest/
 excerpt: "Lær hvordan du udfører snakketesten (Talk Test) i praksis med validerede læsetekster, ventilatoriske tærskler og Foster et al.'s officielle protokol."
 language: da
 categories:
-  - Konditionstests
-  - Træningslære
+  - Kondition
 meta:
   name: "Snakketest"
   measures: "snakketest, talk test protokol, VT1, GCT-TT"

@@ -204,9 +204,9 @@ Formålet med den rene submaksimale test er at bestemme din **aerobe tærskel (L
 2. **Montering af udstyr:** Pulsbælte og iltoptagelsesmaske monteres, og forsøgspersonen tilsluttes gasmålingsudstyret.
 3. **Opvarmning (~10 min):** Let løb på løbebåndet for tilvænning.
 4. **Vælg starthastighed:** Konservativ starthastighed vælges (typisk 4–5 km/t under forventet 5k-tempo).
-5. **Trinvis stigning (3–5 min. trin):** Hastigheden øges med 1 km/t pr. trin. Hvert trin varer 3–5 minutter for at sikre fysiologisk *steady state*.
+5. **Trinvis stigning (3–5 min. trin):** Hastigheden øges med 1 km/t pr. trin. Hvert trin varer 3–5 minutter for at sikre fysiologisk *steady state*. For at være på den sikre side i en submax-test, så brug 5 minutter pr. trin.
 6. **Målinger i slutsekunder:** I de sidste 30 sekunder af hvert trin registreres $VO_2$, $VCO_2$, RER og puls. Løberen hopper ud til siden på løbebåndet i ~30 sekunder til en kapillær priktest.
-7. **Kontrolleret afslutning (LT2):** Testen stoppes af forsøgslederen, når blodlaktaten stiger markant over den anaerobe tærskel (typisk ved måling omkring eller over 4,0 mmol/L).
+7. **Kontrolleret afslutning (LT2):** Testen stoppes af forsøgslederen, når blodlaktaten stiger markant over den anaerobe tærskel (typisk er den anaerobe tærskel bestemt ved baseline (den laveste måling) +1,5-2,0 mmol/L).
 
 <details markdown="1" class="faq">
  <summary>📚 Teoretisk baggrund: Aerob/anaerob energiomsætning & steady state</summary>
@@ -300,7 +300,8 @@ I denne uafbrudte variant startes der med 3-minutters trin ligesom i submax-test
 
 Dette giver både laktatprofilen på de første trin og et mål for **VO2peak**. Vi kalder det *VO2peak* (og ikke nødvendigvis VO2max), da den lange tidsudtrætning over mange 3-minutters trin kan bevirke, at løberen stopper pga. udmattelse før kredsløbet rammer sit absolutte iltoptagelsesloft.
 
-**Hvad udleder vi af denne test?**  
+**Hvad udleder vi af denne test?**
+
 {% include concept.html concept="lt1" %}
 {% include concept.html concept="lt2" %}
 {% include concept.html concept="løbeøkonomi" %}
@@ -321,16 +322,22 @@ Dette giver både laktatprofilen på de første trin og et mål for **VO2peak**.
 
 ---
 
-## 🧪 Datakvalitet: Hvornår er testen vellykket?
+### Resultatark fra trappetesten til failure
+
+{% include figure image_path="/assets/images/blog/iltoptagelsestest-loebetest.jpg" caption="På Vejle Idrætshøjskole bruger vi følgende resultatark til at give resultaterne." %}
+
+---
+
+### 🧪 Datakvalitet: Hvornår er testen vellykket?
 
 For at sikre, at testresultaterne kan bruges til præcis planlægning af træningszoner og kondital, vurderes datakvaliteten ud fra to fysiologiske tjekpunkter:
 
-### 1. Er laktatkurven forudsigelig og støjfri?
+#### 1. Er laktatkurven som forventet?
 I den submaksimale trappetest skal laktatværdierne udvise et fysiologisk logisk forløb:
-* **Flad baseline:** Laktatkoncentrationen skal ligge stabilt og lavt (typisk 1,0–2,0 mmol/L) på de første lette belastningstrin.
-* **Tydeligt knækpunkt:** Når intensiteten nærmer sig $LT1$ og $LT2$, skal laktatakkumuleringen stige jævnt eller eksponentielt – uden pludselige, ukontrollerede hop mellem enkelte trin.
+* **Flad baseline:** Laktatkoncentrationen skal ligge stabilt og lavt (typisk 1,0–2,5 mmol/L alt efter laktatmålerens kalibrering) på de første lette belastningstrin.
+* **Tydeligt knækpunkt:** Når intensiteten nærmer sig LT1 og LT2, skal laktatakkumuleringen stige jævnt eller eksponentielt – uden pludselige, ukontrollerede hop mellem enkelte trin.
 
-### 2. Er de fysiologiske kriterier for $VO_2max$ opnået?
+#### 2. Er de fysiologiske kriterier for $VO_2max$ opnået?
 For at bekræfte, at forsøgspersonen har presset kredsløbet til sit absolutte loft (og ikke stoppet pga. manglende motivation), skal **mindst 3 ud af 5 kriterier** være opfyldt ved teststop:
 
 | Kriterium | Fysiologisk grænseværdi | Forklaring |
@@ -345,30 +352,31 @@ For at bekræfte, at forsøgspersonen har presset kredsløbet til sit absolutte 
 
 ---
 
-## ⚠️ Metodiske overvejelser og faldgruber
+### ⚠️ Metodiske overvejelser for den lange trappetest
 
 Selvom laboratorietesten er guldstandarden, skal testlederen tage højde for to vigtige begrænsninger i testdesignet:
 
 * **Opnås der reel steady state på 3 minutter?**  
   Tre minutter pr. trin er minimumskravet for, at iltoptagelse, laktat og puls stabiliserer sig. Hos utrænede eller stærkt udholdenhedstrænede løbere kan iltoptagelsens kinetik være langsommere, hvilket kan medføre en let underestimering af laktatniveauet på de tidlige trin.
 * **$VO_2max$ vs. $VO_2peak$ ved lange trappetests:**  
-  Hvis du benytter [Test 4 (Trappetest til failure)](#4-test-4-incremental-trappetest-til-failure-3-minutters-trin), varer testen ofte 18–25 minutter. Den lange tidsudtrætning kan bevirke, at løberen stopper pga. lokal muskulær bentræthed, før hjertet når sit absolutte iltoptagelsesloft. I så fald registreres et $VO_2peak$ i stedet for et sandt $VO_2max$. Det er årsagen til, at en kort [Rampetest (Test 2)](#2-test-2-maksimal-rampetest-haeldning) er mere præcis til ren VO2max-bestemmelse.
+  Hvis du benytter [Test 4 (Trappetest til failure)](#4-test-4-incremental-trappetest-til-failure-3-minutters-trin), varer testen ofte 18–25 minutter. Den lange tidsudtrætning kan bevirke, at løberen stopper pga. lokal muskulær træthed, før hjertet når sit absolutte iltoptagelsesloft. I så fald registreres et $VO_2peak$ i stedet for et sandt $VO_2max$. Det er årsagen til, at en kort [Rampetest (Test 2)](#2-test-2-maksimal-rampetest-haeldning) er mere præcis til ren VO2max-bestemmelse.
 
 ---
 
 ## 📈 Meningsfuld forbedring: Forskydning af laktatkurven
 
-Når atleten eller den studerende re-testes efter en træningsperiode, evalueres effekten af træningen ved at sammenligne laktat- og pulskurverne før og efter forløbet:
+Når atleten re-testes efter en træningsperiode, evalueres effekten af træningen ved at sammenligne laktat- og pulskurverne før og efter forløbet:
 
 {% include figure image_path="/assets/images/motionsplan/incremental-max-test-results.jpg" alt="Laktat- og pulskurve før og efter træningsforløb" caption="Testresultat før og efter et træningsforløb. Laktatkurven er skubbet mod højre." %}
 
 **Sådan fortolkes resultatet:**
+
 * **Kurven forskydes mod højre:** Løberen kan holde en højere hastighed ved samme laktatniveau. Både LT1 og LT2 flytter sig til et højere tempo.
 * **Lavere puls ved samme hastighed:** Hjertefrekvensen falder på de submaksimale trin som tegn på øget slagvolumen og forbedret løbeøkonomi.
 
 ---
 
-## 📊 Sammenligning af de 4 løbebaandsprotokoller
+## 📊 Sammenligning af de 4 løbebåndsprotokoller
 
 | Testprotokol | Primære målinger | Varighed | Belastningsform | Udbytte vs. Faldgrube |
 | :--- | :--- | :--- | :--- | :--- |

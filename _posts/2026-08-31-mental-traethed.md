@@ -120,8 +120,11 @@ Stroop-testen fungerer perfekt i samspil med vores andre mavefornemmelses- og ne
 
 ---
 
-## Videnskabelige kilder & litteratur
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 * **Marcora, S. M., Staiano, W., & Manning, V. (2009).** *Mental fatigue impairs physical performance in humans.* Journal of Applied Physiology, 106(3), 857-864.
 * **Stroop, J. R. (1935).** *Studies of interference in serial verbal reactions.* Journal of Experimental Psychology, 18(6), 643–662.
 * **Pageaux, B., et al. (2014).** *The effects of mental fatigue on sport-related performance.* Sports Medicine, 44(12), 1677-1686.
+
+</details>

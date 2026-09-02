@@ -6,8 +6,7 @@ excerpt: "Planlæg dit triatlonstævne med vores tidsberegner. Beregn realistisk
 description: "Planlæg dit triatlonstævne med vores tidsberegner. Beregn realistiske splittider og sluttid for Sprint, Olympisk, 70.3 og Full Ironman."
 language: da
 categories:
-  - Triatlon
-  - Konditionstests
+  - Træning
 meta:
   name: "Triatlon Beregner"
   measures: "sluttid, splittider, triatlon pacing"

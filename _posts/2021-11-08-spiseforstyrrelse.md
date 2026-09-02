@@ -11,7 +11,6 @@ header:
   caption: 'Spiseforstyrrelser: Har du forstyrret spisning?'
 categories:
   - Psykologi
-  - Psykologi
 tags:
   - vurderingsværktøj
   - kost & ernæring

@@ -1,0 +1,287 @@
+<!-- BPM Counter / Tap Tempo Component -->
+<div class="bpm-counter-widget" id="bpm-counter-container">
+  
+  <div class="bpm-header">
+    <div class="bpm-icon-badge"><i class="fas fa-music"></i></div>
+    <h3>BPM-Måler: Find musikkens tempo</h3>
+    <p>Tap i takt til en sang for at finde dens BPM og se, hvilken træning den passer bedst til.</p>
+  </div>
+
+  <div class="bpm-display-box">
+    <span class="bpm-value" id="bpm-display">--</span>
+    <span class="bpm-unit">BPM</span>
+  </div>
+
+  <div class="bpm-assessment-box" id="bpm-assessment" style="display: none;">
+    <!-- Vurdering genereres dynamisk -->
+  </div>
+
+  <div class="bpm-action-zone">
+    <button class="bpm-tap-btn" id="bpm-tap-btn" type="button">
+      <span class="tap-main-text">TAP TAKTEN HÉR</span>
+      <span class="tap-sub-text">(eller tryk på Mellemrumstasten)</span>
+    </button>
+  </div>
+
+  <div class="bpm-footer">
+    <span id="bpm-tap-count">Antal tap: 0</span>
+    <button class="btn-reset-bpm" id="bpm-reset-btn" type="button">Nulstil</button>
+  </div>
+
+</div>
+
+<style>
+.bpm-counter-widget {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 1.5rem;
+  max-width: 520px;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+}
+
+.bpm-header {
+  margin-bottom: 1.25rem;
+}
+
+.bpm-icon-badge {
+  width: 50px;
+  height: 50px;
+  background: #ebf8ff;
+  color: #3182ce;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin: 0 auto 0.75rem auto;
+}
+
+.bpm-header h3 {
+  margin: 0 0 0.3rem 0 !important;
+  color: #2d3748;
+  font-size: 1.25rem;
+}
+
+.bpm-header p {
+  margin: 0 !important;
+  font-size: 0.88rem;
+  color: #718096;
+}
+
+.bpm-display-box {
+  background: #1a202c;
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.bpm-value {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1;
+  color: #48bb78;
+  font-variant-numeric: tabular-nums;
+}
+
+.bpm-unit {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #a0aec0;
+}
+
+.bpm-assessment-box {
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 0.85rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  color: #2d3748;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.bpm-tap-btn {
+  width: 100%;
+  min-height: 120px;
+  background: #3182ce;
+  color: #ffffff;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-shadow: 0 4px 14px rgba(49, 130, 206, 0.35);
+  transition: transform 0.05s ease, background-color 0.15s ease;
+  user-select: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.bpm-tap-btn:active, .bpm-tap-btn.is-tapped {
+  transform: scale(0.96);
+  background: #2b6cb0;
+}
+
+.tap-main-text {
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+}
+
+.tap-sub-text {
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+.bpm-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #a0aec0;
+}
+
+.btn-reset-bpm {
+  background: transparent;
+  border: 1px solid #cbd5e0;
+  color: #718096;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-reset-bpm:hover {
+  background: #edf2f7;
+  color: #2d3748;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const RESET_TIMEOUT = 2500; // Nulstil hvis der gaaer mere end 2.5 sekunder mellem tap
+  let taps = [];
+  let resetTimer = null;
+
+  const display = document.getElementById('bpm-display');
+  const tapBtn = document.getElementById('bpm-tap-btn');
+  const resetBtn = document.getElementById('bpm-reset-btn');
+  const assessmentBox = document.getElementById('bpm-assessment');
+  const countDisplay = document.getElementById('bpm-tap-count');
+
+  function vibrate(ms) {
+    if (navigator.vibrate) navigator.vibrate(ms);
+  }
+
+  function handleTap(e) {
+    if (e && e.type !== 'keydown') e.preventDefault();
+    
+    const now = performance.now();
+
+    // Visuel feedback på knappen
+    tapBtn.classList.add('is-tapped');
+    setTimeout(() => tapBtn.classList.remove('is-tapped'), 60);
+    vibrate(20);
+
+    // Hvis der har været en lang pause, start forfra
+    if (taps.length > 0 && (now - taps[taps.length - 1]) > RESET_TIMEOUT) {
+      taps = [];
+    }
+
+    taps.push(now);
+
+    clearTimeout(resetTimer);
+    resetTimer = setTimeout(function() {
+      // Automatisk pause-detektion uden at slette resultatet
+    }, RESET_TIMEOUT);
+
+    countDisplay.textContent = 'Antal tap: ' + taps.length;
+
+    if (taps.length >= 2) {
+      calculateBPM();
+    } else {
+      display.textContent = '--';
+      assessmentBox.style.display = 'none';
+    }
+  }
+
+  function calculateBPM() {
+    // Brug seneste 12 taps for at få en glat måling
+    const recentTaps = taps.slice(-12);
+    const intervals = [];
+
+    for (let i = 1; i < recentTaps.length; i++) {
+      intervals.push(recentTaps[i] - recentTaps[i - 1]);
+    }
+
+    const avgInterval = intervals.reduce((a, b) => a + b, 0) / intervals.length;
+    const bpm = Math.round(60000 / avgInterval);
+
+    if (bpm >= 40 && bpm <= 240) {
+      display.textContent = bpm;
+      showAssessment(bpm);
+    }
+  }
+
+  function showAssessment(bpm) {
+    assessmentBox.style.display = 'block';
+    let text = '';
+
+    if (bpm < 65) {
+      text = '🧘 <strong>Udstrækning & Yoga (' + bpm + ' BPM):</strong> Meget roligt tempo. Perfekt til dyb afspænding, yoga og nedkøling.';
+    } else if (bpm >= 65 && bpm < 85) {
+      text = '🧘‍♂️ <strong>Sving & Tung Styrke (' + bpm + ' BPM):</strong> Langsomt, tungt beat. Velegnet til kontrollerede opvarmningsbevægelser eller tunge løft.';
+    } else if (bpm >= 85 && bpm < 115) {
+      text = '🏋️ <strong>Styrketræning & Rask Gang (' + bpm + ' BPM):</strong> Godt mellemtempo til bænkpres, squat, roning og rask gang.';
+    } else if (bpm >= 115 && bpm < 155) {
+      text = '🚴 <strong>Opvarmning & Spinning (' + bpm + ' BPM):</strong> Høj energi! Ideelt til aerobic, hop og spinning. (Vær opmærksom på, at dette ofte er for langsomt til at løbe til, da det kan give tunge hællandinger).';
+    } else if (bpm >= 155 && bpm < 170) {
+      text = '🏃 <strong>Roligt Løb & Restitution (' + bpm + ' BPM):</strong> Godt til langsomme ture. Husk at tage korte, lette skridt for at undgå at lande tungt på hælen.';
+    } else if (bpm >= 170 && bpm <= 185) {
+      text = '⚡ <strong>OPTIMAL LØBEKADENCE (' + bpm + ' BPM):</strong> Guldstandarden for løb! Dette beat minimerer kontakttiden med jorden og beskytter dine knæ mod hårde stød.';
+    } else {
+      text = '🚀 <strong>Eksplosiv Spurt & Spinning (' + bpm + ' BPM):</strong> Ekstremt hurtigt tempo! Ideelt til kortere intervaller, spurter og dobbelttakt på spinningcyklen.';
+    }
+
+    assessmentBox.innerHTML = text;
+  }
+
+  function resetBPM() {
+    taps = [];
+    clearTimeout(resetTimer);
+    display.textContent = '--';
+    countDisplay.textContent = 'Antal tap: 0';
+    assessmentBox.style.display = 'none';
+  }
+
+  tapBtn.addEventListener('pointerdown', handleTap);
+  resetBtn.addEventListener('click', resetBPM);
+
+  document.addEventListener('keydown', function(e) {
+    if (e.code === 'Space') {
+      // Forhindr at siden scroller ned ved tryk på Spacebar
+      if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+        e.preventDefault();
+        handleTap(e);
+      }
+    }
+  });
+});
+</script>

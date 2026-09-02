@@ -124,7 +124,10 @@ Reaktionstid er blot én af flere brikker i at forstå kroppens parathed:
 
 ---
 
-## Videnskabelige kilder & litteratur
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 * **Luce, R. D. (1986).** *Response Times: Their Role in Inferring Elementary Mental Organization.* Oxford University Press.
 * **Jain, A., et al. (2015).** *A comparative study of visual and auditory reaction times in athletes and non-athletes.* International Journal of Basic and Applied Physiology, 4(1), 120-125.
+
+</details>

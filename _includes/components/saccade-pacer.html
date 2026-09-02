@@ -1,0 +1,431 @@
+<!-- Digital Saccade Pacer Widget -->
+<div class="saccade-widget-container" id="saccade-container">
+  <!-- Fullscreen Ikon (Top Højre) -->
+  <button id="btn-saccade-fullscreen" class="saccade-icon-btn" type="button" title="Fuld skærm" aria-label="Fuld skærm">
+    <i class="fas fa-expand"></i>
+  </button>
+
+  <div class="saccade-header">
+    <h3>Digital Sakkade-Pacer <i class="fas fa-eye" style="margin-left:8px; color:#4fd1c5;"></i></h3>
+    <p>Træn dine hurtige fokusskift. <strong>Regel nr. 1: Hold hovedet helt stille!</strong></p>
+  </div>
+
+  <div class="saccade-controls">
+    <div class="control-group">
+      <label for="saccade-speed">Tempo:</label>
+      <select id="saccade-speed" class="saccade-select">
+        <option value="1200">Langsom (1.2s)</option>
+        <option value="750" selected>Mellem (0.75s)</option>
+        <option value="450">Hurtig (0.45s)</option>
+        <option value="250">Ekstrem (0.25s)</option>
+      </select>
+    </div>
+    
+    <div class="control-group">
+      <label for="saccade-mode">Mønster:</label>
+      <select id="saccade-mode" class="saccade-select">
+        <option value="random" selected>Tilfældig (Reaktiv)</option>
+        <option value="horizontal">Højre/Venstre</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="saccade-duration">Tid (Sæt):</label>
+      <select id="saccade-duration" class="saccade-select">
+        <option value="30">30 sekunder</option>
+        <option value="60" selected>60 sek. (Anbefalet)</option>
+        <option value="90">90 sekunder</option>
+        <option value="0">Uden tidsgrænse</option>
+      </select>
+    </div>
+
+    <div class="control-group btn-group">
+      <button id="btn-saccade-toggle" class="btn-saccade-start" type="button">Start Træning</button>
+    </div>
+  </div>
+
+  <div class="saccade-arena" id="saccade-arena">
+    <!-- Live Timer Badge -->
+    <div class="saccade-timer-badge" id="saccade-timer-badge">60s</div>
+
+    <!-- Prikker -->
+    <div class="saccade-target" id="s-target-1" style="top: 50%; left: 10%;"></div>
+    <div class="saccade-target" id="s-target-2" style="top: 20%; left: 50%;"></div>
+    <div class="saccade-target" id="s-target-3" style="top: 50%; right: 10%;"></div>
+    <div class="saccade-target" id="s-target-4" style="top: 80%; left: 50%;"></div>
+  </div>
+</div>
+
+<style>
+.saccade-widget-container {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 640px;
+  margin: 2rem auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+}
+
+/* Fullscreen Top-Højre Ikon */
+.saccade-icon-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  color: #718096;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.saccade-icon-btn:hover {
+  background: #edf2f7;
+  color: #2d3748;
+  border-color: #cbd5e0;
+}
+
+.saccade-header {
+  padding-right: 2.5rem; /* Plads til ikon */
+}
+
+.saccade-header h3 {
+  margin: 0 0 0.4rem 0 !important;
+  color: #1a202c;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.saccade-header p {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin: 0 0 1.2rem 0 !important;
+}
+
+/* Perfect Grid Alignment for Kontroller */
+.saccade-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.85rem;
+  align-items: end;
+  margin-bottom: 1.2rem;
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #edf2f7;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.control-group.btn-group {
+  grid-column: span 1;
+}
+
+.control-group label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #718096;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.saccade-select {
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.9rem;
+  color: #2d3748;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.saccade-select:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.2);
+}
+
+.btn-saccade-start {
+  height: 40px;
+  width: 100%;
+  background: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-saccade-start:hover {
+  background: #2b6cb0;
+}
+
+.btn-saccade-start.is-running {
+  background: #e53e3e;
+}
+.btn-saccade-start.is-running:hover {
+  background: #c53030;
+}
+
+/* Arena & Target Styling */
+.saccade-arena {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background: #1a202c;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: inset 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Live Timer Badge i Arenaen */
+.saccade-timer-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-mono: monospace;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+}
+
+.saccade-target {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background: #4fd1c5;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: opacity 0.05s ease, transform 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 0 15px rgba(79, 209, 197, 0.7);
+}
+
+.saccade-target.is-active {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+/* Native Fullscreen Styling Override */
+.saccade-widget-container:fullscreen {
+  background: #0f172a;
+  max-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0;
+  border: none;
+}
+
+.saccade-widget-container:fullscreen .saccade-header h3 {
+  color: #f7fafc;
+}
+.saccade-widget-container:fullscreen .saccade-header p {
+  color: #a0aec0;
+}
+.saccade-widget-container:fullscreen .saccade-controls {
+  background: #1e293b;
+  border-color: #334155;
+}
+.saccade-widget-container:fullscreen .control-group label {
+  color: #94a3b8;
+}
+.saccade-widget-container:fullscreen .saccade-select {
+  background: #0f172a;
+  color: #f1f5f9;
+  border-color: #475569;
+}
+.saccade-widget-container:fullscreen .saccade-icon-btn {
+  background: #1e293b;
+  border-color: #475569;
+  color: #cbd5e1;
+}
+.saccade-widget-container:fullscreen .saccade-arena {
+  flex: 1;
+  height: auto;
+  min-height: 300px;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('saccade-container');
+  const btnToggle = document.getElementById('btn-saccade-toggle');
+  const btnFullscreen = document.getElementById('btn-saccade-fullscreen');
+  const speedSelect = document.getElementById('saccade-speed');
+  const modeSelect = document.getElementById('saccade-mode');
+  const durationSelect = document.getElementById('saccade-duration');
+  const timerBadge = document.getElementById('saccade-timer-badge');
+  
+  const targets = [
+    document.getElementById('s-target-1'),
+    document.getElementById('s-target-2'),
+    document.getElementById('s-target-3'),
+    document.getElementById('s-target-4')
+  ];
+
+  let isRunning = false;
+  let intervalId = null;
+  let countdownId = null;
+  let currentTargetIndex = -1;
+  let secondsRemaining = 60;
+
+  function clearTargets() {
+    targets.forEach(t => t.classList.remove('is-active'));
+  }
+
+  function pickNextTarget() {
+    clearTargets();
+    const mode = modeSelect.value;
+    let nextIndex = currentTargetIndex;
+
+    if (mode === 'horizontal') {
+      nextIndex = (currentTargetIndex === 0) ? 2 : 0;
+    } else {
+      while (nextIndex === currentTargetIndex) {
+        nextIndex = Math.floor(Math.random() * targets.length);
+      }
+    }
+
+    currentTargetIndex = nextIndex;
+    targets[currentTargetIndex].classList.add('is-active');
+  }
+
+  function updateTimerDisplay() {
+    const duration = parseInt(durationSelect.value, 10);
+    if (duration === 0) {
+      timerBadge.textContent = '∞';
+    } else {
+      timerBadge.textContent = secondsRemaining + 's';
+    }
+  }
+
+  function start() {
+    const speed = parseInt(speedSelect.value, 10);
+    const duration = parseInt(durationSelect.value, 10);
+
+    isRunning = true;
+    btnToggle.textContent = 'Stop';
+    btnToggle.classList.add('is-running');
+    
+    speedSelect.disabled = true;
+    modeSelect.disabled = true;
+    durationSelect.disabled = true;
+
+    secondsRemaining = duration;
+    updateTimerDisplay();
+
+    pickNextTarget();
+    intervalId = setInterval(pickNextTarget, speed);
+
+    // Håndter timer nedtælling
+    if (duration > 0) {
+      countdownId = setInterval(function() {
+        secondsRemaining--;
+        updateTimerDisplay();
+
+        if (secondsRemaining <= 0) {
+          stop();
+          timerBadge.textContent = 'Færdig! 👏';
+        }
+      }, 1000);
+    }
+  }
+
+  function stop() {
+    isRunning = false;
+    btnToggle.textContent = 'Start Træning';
+    btnToggle.classList.remove('is-running');
+    
+    speedSelect.disabled = false;
+    modeSelect.disabled = false;
+    durationSelect.disabled = false;
+
+    clearInterval(intervalId);
+    clearInterval(countdownId);
+    clearTargets();
+    currentTargetIndex = -1;
+    
+    const duration = parseInt(durationSelect.value, 10);
+    secondsRemaining = duration;
+    updateTimerDisplay();
+  }
+
+  // Toggle Start / Stop
+  btnToggle.addEventListener('click', function() {
+    if (isRunning) {
+      stop();
+    } else {
+      start();
+    }
+  });
+
+  // Opdater badge hvis brugeren skifter varighed
+  durationSelect.addEventListener('change', function() {
+    secondsRemaining = parseInt(this.value, 10);
+    updateTimerDisplay();
+  });
+
+  // Fullscreen Toggle
+  btnFullscreen.addEventListener('click', function() {
+    if (!document.fullscreenElement) {
+      if (container.requestFullscreen) {
+        container.requestFullscreen();
+      } else if (container.webkitRequestFullscreen) { /* Safari */
+        container.webkitRequestFullscreen();
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+    }
+  });
+
+  // Skift ikon når skærmtilstand ændres (fx via Esc-tast)
+  document.addEventListener('fullscreenchange', function() {
+    const icon = btnFullscreen.querySelector('i');
+    if (document.fullscreenElement) {
+      icon.className = 'fas fa-compress';
+      btnFullscreen.title = 'Luk fuld skærm';
+    } else {
+      icon.className = 'fas fa-expand';
+      btnFullscreen.title = 'Fuld skærm';
+    }
+  });
+
+  updateTimerDisplay();
+});
+</script>

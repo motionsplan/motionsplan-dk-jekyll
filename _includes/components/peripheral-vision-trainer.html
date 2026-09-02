@@ -1,0 +1,503 @@
+<!-- Digital Peripheral Vision Trainer Widget -->
+<div class="periph-widget-container" id="periph-container">
+  <!-- Fullscreen Top-Højre Ikon -->
+  <button id="btn-periph-fullscreen" class="periph-icon-btn" type="button" title="Fuld skærm" aria-label="Fuld skærm">
+    <i class="fas fa-expand"></i>
+  </button>
+
+  <div class="periph-header">
+    <h3>Digital Periferi-Træner <i class="fas fa-expand-alt" style="margin-left:8px; color:#4fd1c5;"></i></h3>
+    <p>Fiksér på midten. Reager på <strong>GRØNNE glimt (⬅️ ⬆️ ➡️ ⬇️)</strong>. Undgå <strong>RØDE støjglimt!</strong></p>
+  </div>
+
+  <div class="periph-controls">
+    <div class="control-group">
+      <label for="periph-mode">Sværhedsgrad:</label>
+      <select id="periph-mode" class="periph-select">
+        <option value="standard">Standard (Kun Grønne)</option>
+        <option value="distractor" selected>Go / No-Go (Grøn vs Rød)</option>
+        <option value="expert">Ekspert (Korte Glimt + Rød)</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="periph-span">Synsfelt (Vinkel):</label>
+      <select id="periph-span" class="periph-select">
+        <option value="narrow">Moderat</option>
+        <option value="wide" selected>Bred (Standard)</option>
+        <option value="extreme">Ekstrem (Maksimal)</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="periph-duration">Tid (Sæt):</label>
+      <select id="periph-duration" class="periph-select">
+        <option value="30">30 sekunder</option>
+        <option value="60" selected>60 sek. (Anbefalet)</option>
+        <option value="90">90 sekunder</option>
+      </select>
+    </div>
+
+    <div class="control-group btn-group">
+      <button id="btn-periph-toggle" class="btn-periph-start" type="button">Start Træning</button>
+    </div>
+  </div>
+
+  <div class="periph-arena" id="periph-arena" tabindex="0">
+    <!-- Live Badges -->
+    <div class="periph-timer-badge" id="periph-timer-badge">60s</div>
+    <div class="periph-score-badge" id="periph-score-badge">Gns: 0 ms | Fejl: 0</div>
+
+    <!-- Midterkryds / Kognitiv Skifter -->
+    <div class="periph-center-cross" id="periph-center">+</div>
+
+    <!-- Perifere Mål (Venstre, Top, Højre, Bund) -->
+    <div class="periph-target" id="pt-left"><i class="fas fa-arrow-left"></i></div>
+    <div class="periph-target" id="pt-up"><i class="fas fa-arrow-up"></i></div>
+    <div class="periph-target" id="pt-right"><i class="fas fa-arrow-right"></i></div>
+    <div class="periph-target" id="pt-down"><i class="fas fa-arrow-down"></i></div>
+  </div>
+</div>
+
+<style>
+.periph-widget-container {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 640px;
+  margin: 2rem auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+}
+
+.periph-icon-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  color: #718096;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.periph-icon-btn:hover {
+  background: #edf2f7;
+  color: #2d3748;
+  border-color: #cbd5e0;
+}
+
+.periph-header {
+  padding-right: 2.5rem;
+}
+
+.periph-header h3 {
+  margin: 0 0 0.4rem 0 !important;
+  color: #1a202c;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.periph-header p {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin: 0 0 1.2rem 0 !important;
+}
+
+.periph-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.85rem;
+  align-items: end;
+  margin-bottom: 1.2rem;
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #edf2f7;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.control-group.btn-group {
+  grid-column: span 1;
+}
+
+.control-group label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #718096;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.periph-select {
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.9rem;
+  color: #2d3748;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.btn-periph-start {
+  height: 40px;
+  width: 100%;
+  background: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-periph-start:hover {
+  background: #2b6cb0;
+}
+
+.btn-periph-start.is-running {
+  background: #e53e3e;
+}
+
+.periph-arena {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #1a202c;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: inset 0 4px 12px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+.periph-timer-badge, .periph-score-badge {
+  position: absolute;
+  top: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-mono: monospace;
+  pointer-events: none;
+  z-index: 5;
+}
+.periph-timer-badge { right: 12px; }
+.periph-score-badge { left: 12px; }
+
+.periph-center-cross {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #e53e3e;
+  user-select: none;
+  text-shadow: 0 0 12px rgba(229, 62, 62, 0.8);
+  z-index: 10;
+}
+
+.periph-target {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #4fd1c5; /* Standard Grøn GO */
+  color: #1a202c;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.05s ease, transform 0.05s ease, background 0.1s ease;
+  user-select: none;
+  box-shadow: 0 0 20px rgba(79, 209, 197, 0.9);
+}
+
+.periph-target.is-nogo {
+  background: #f56565 !important; /* Rød NO-GO Distraktør */
+  color: #ffffff !important;
+  box-shadow: 0 0 20px rgba(245, 101, 101, 0.9) !important;
+}
+
+.periph-target.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Native Fullscreen Override */
+.periph-widget-container:fullscreen {
+  background: #0f172a;
+  max-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0;
+  border: none;
+}
+
+.periph-widget-container:fullscreen .periph-target {
+  width: 64px;
+  height: 64px;
+  font-size: 1.8rem;
+}
+
+.periph-widget-container:fullscreen .periph-arena {
+  flex: 1;
+  height: auto;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('periph-container');
+  const arena = document.getElementById('periph-arena');
+  const btnToggle = document.getElementById('btn-periph-toggle');
+  const btnFullscreen = document.getElementById('btn-periph-fullscreen');
+  const modeSelect = document.getElementById('periph-mode');
+  const spanSelect = document.getElementById('periph-span');
+  const durationSelect = document.getElementById('periph-duration');
+  const timerBadge = document.getElementById('periph-timer-badge');
+  const scoreBadge = document.getElementById('periph-score-badge');
+  const centerCross = document.getElementById('periph-center');
+  
+  const targetMap = {
+    'ArrowLeft': document.getElementById('pt-left'),
+    'ArrowUp': document.getElementById('pt-up'),
+    'ArrowRight': document.getElementById('pt-right'),
+    'ArrowDown': document.getElementById('pt-down')
+  };
+
+  const keys = ['ArrowLeft', 'ArrowUp', 'ArrowRight', 'ArrowDown'];
+
+  let isRunning = false;
+  let currentKey = null;
+  let isNoGo = false;
+  let startTime = 0;
+  let reactionTimes = [];
+  let errorCount = 0;
+  let flashTimerId = null;
+  let nogoTimeoutId = null;
+  let countdownId = null;
+  let secondsRemaining = 60;
+
+  function updateTargetPositions() {
+    const span = spanSelect.value;
+    const isFS = !!document.fullscreenElement;
+    
+    let offset = isFS ? '18%' : '10%';
+    if (span === 'narrow') offset = isFS ? '28%' : '20%';
+    if (span === 'wide') offset = isFS ? '16%' : '10%';
+    if (span === 'extreme') offset = isFS ? '8%' : '4%';
+
+    targetMap['ArrowLeft'].style.left = offset;
+    targetMap['ArrowLeft'].style.top = '50%';
+
+    targetMap['ArrowUp'].style.top = offset;
+    targetMap['ArrowUp'].style.left = '50%';
+
+    targetMap['ArrowRight'].style.right = offset;
+    targetMap['ArrowRight'].style.top = '50%';
+
+    targetMap['ArrowDown'].style.bottom = offset;
+    targetMap['ArrowDown'].style.left = '50%';
+  }
+
+  function clearTargets() {
+    Object.values(targetMap).forEach(t => {
+      t.classList.remove('is-active', 'is-nogo');
+    });
+  }
+
+  function updateScoreDisplay() {
+    const avg = reactionTimes.length > 0 
+      ? Math.round(reactionTimes.reduce((a, b) => a + b, 0) / reactionTimes.length) 
+      : 0;
+    scoreBadge.textContent = 'Gns: ' + avg + ' ms | Fejl: ' + errorCount;
+  }
+
+  function triggerNextSignal() {
+    clearTargets();
+    if (!isRunning) return;
+
+    const mode = modeSelect.value;
+    const minPause = (mode === 'expert') ? 800 : 1100;
+    const pause = Math.floor(Math.random() * 1000) + minPause;
+    
+    flashTimerId = setTimeout(function() {
+      if (!isRunning) return;
+      
+      currentKey = keys[Math.floor(Math.random() * keys.length)];
+      const targetEl = targetMap[currentKey];
+
+      // Afgør om det er en No-Go distraktør (ca 30% chance i distractor/expert mode)
+      isNoGo = (mode !== 'standard') && (Math.random() < 0.35);
+
+      if (isNoGo) {
+        targetEl.classList.add('is-nogo');
+      }
+
+      targetEl.classList.add('is-active');
+      startTime = performance.now();
+      updateTargetPositions();
+
+      // Hvis det var en No-Go, forsvinder den automatisk efter et stykke tid uden fejl
+      if (isNoGo) {
+        nogoTimeoutId = setTimeout(function() {
+          if (isRunning && isNoGo) {
+            clearTargets();
+            currentKey = null;
+            isNoGo = false;
+            triggerNextSignal();
+          }
+        }, 1200);
+      }
+    }, pause);
+  }
+
+  function handleKeyPress(e) {
+    if (!isRunning || !currentKey) return;
+
+    if (keys.includes(e.key)) {
+      e.preventDefault();
+      
+      if (isNoGo) {
+        // STRAF: Trykkede på en RØD No-Go!
+        errorCount++;
+        updateScoreDisplay();
+        clearTimeout(nogoTimeoutId);
+        clearTargets();
+        currentKey = null;
+        isNoGo = false;
+        triggerNextSignal();
+      } else if (e.key === currentKey) {
+        // KORREKT: Trykkede på den rigtige grønne pil!
+        const rt = Math.round(performance.now() - startTime);
+        reactionTimes.push(rt);
+        updateScoreDisplay();
+
+        clearTargets();
+        currentKey = null;
+        triggerNextSignal();
+      } else {
+        // KORREKT FARVE, MEN FORKERT RETNING
+        errorCount++;
+        updateScoreDisplay();
+      }
+    }
+  }
+
+  function updateTimerDisplay() {
+    const duration = parseInt(durationSelect.value, 10);
+    timerBadge.textContent = secondsRemaining + 's';
+  }
+
+  function start() {
+    const duration = parseInt(durationSelect.value, 10);
+
+    isRunning = true;
+    reactionTimes = [];
+    errorCount = 0;
+    updateScoreDisplay();
+    btnToggle.textContent = 'Stop';
+    btnToggle.classList.add('is-running');
+
+    modeSelect.disabled = true;
+    spanSelect.disabled = true;
+    durationSelect.disabled = true;
+
+    secondsRemaining = duration;
+    updateTimerDisplay();
+
+    arena.focus();
+    triggerNextSignal();
+
+    if (duration > 0) {
+      countdownId = setInterval(function() {
+        secondsRemaining--;
+        updateTimerDisplay();
+
+        if (secondsRemaining <= 0) {
+          stop();
+          timerBadge.textContent = 'Færdig! 👏';
+        }
+      }, 1000);
+    }
+  }
+
+  function stop() {
+    isRunning = false;
+    currentKey = null;
+    isNoGo = false;
+    btnToggle.textContent = 'Start Træning';
+    btnToggle.classList.remove('is-running');
+
+    modeSelect.disabled = false;
+    spanSelect.disabled = false;
+    durationSelect.disabled = false;
+
+    clearTimeout(flashTimerId);
+    clearTimeout(nogoTimeoutId);
+    clearInterval(countdownId);
+    clearTargets();
+
+    const duration = parseInt(durationSelect.value, 10);
+    secondsRemaining = duration;
+    updateTimerDisplay();
+  }
+
+  btnToggle.addEventListener('click', function() {
+    if (isRunning) stop();
+    else start();
+  });
+
+  window.addEventListener('keydown', handleKeyPress);
+
+  btnFullscreen.addEventListener('click', function() {
+    if (!document.fullscreenElement) {
+      if (container.requestFullscreen) container.requestFullscreen();
+      else if (container.webkitRequestFullscreen) container.webkitRequestFullscreen();
+    } else {
+      if (document.exitFullscreen) document.exitFullscreen();
+    }
+  });
+
+  document.addEventListener('fullscreenchange', function() {
+    updateTargetPositions();
+  });
+
+  spanSelect.addEventListener('change', updateTargetPositions);
+  updateTargetPositions();
+  updateTimerDisplay();
+});
+</script>

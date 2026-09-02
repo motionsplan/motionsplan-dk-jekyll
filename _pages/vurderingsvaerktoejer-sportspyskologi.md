@@ -17,7 +17,6 @@ breadcrumbs: true
 classes: wide
 categories:
   - Psykologi
-  - Psykologi
   - Sportspsykologi
 tags:
   - sportspsykologi
@@ -146,7 +145,7 @@ Når du arbejder med din præstationspsykologi (fx via ACSI-28 eller Flow-skalae
 * **[Corsi Taktisk Hukommelse](/arbejdshukommelse-test/)** – Mål din rumlige arbejdshukommelse (din evne til at "læse banen").
 * **[Time Wall Visuel Timing](/visuel-forudsigelse/)** – Test dit boldøje og din evne til at beregne objekters hastighed.
 
-👉 *Se alle 7 moduler i det samlede **[Kognitive Kontrolpanel](/kognitive-tests/)**.*
+👉 *Se alle 7 moduler i det samlede **[oversigt over kognitive tests](/kognitive-tests/)**.*
 
 </div>
 

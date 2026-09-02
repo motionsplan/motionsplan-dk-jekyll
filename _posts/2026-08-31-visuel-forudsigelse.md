@@ -107,7 +107,10 @@ Time Wall testen er den sidste brik i vores komplette neuromuskulære og kogniti
 
 ---
 
-## Videnskabelige kilder & litteratur
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 * **Schiff, W., & Oldak, R. (1990).** *Accuracy of judging time to arrival: Effects of modality, trajectory, and various observer variables.* Journal of Experimental Psychology: Human Perception and Performance, 16(2), 303–316.
 * **Tresilian, J. R. (1995).** *Perceptual-motor control of interception in historical perspective.* Annals of Human Movement Science, 4, 1-22.
+
+</details>

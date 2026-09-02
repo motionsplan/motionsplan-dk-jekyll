@@ -1,0 +1,257 @@
+{% assign pacer_title = include.title | default: "Åndedræts-Pacer" %}
+{% assign inhale_sec = include.inhale | default: 4 | plus: 0 %}
+{% assign hold1_sec = include.hold1 | default: 0 | plus: 0 %}
+{% assign exhale_sec = include.exhale | default: 4 | plus: 0 %}
+{% assign hold2_sec = include.hold2 | default: 0 | plus: 0 %}
+{% assign pacer_id = include.id | default: "pacer-" | append: inhale_sec | append: "-" | append: hold1_sec | append: "-" | append: exhale_sec | append: "-" | append: hold2_sec %}
+
+<div class="breathing-pacer-widget" 
+     id="{{ pacer_id }}"
+     data-inhale="{{ inhale_sec }}" 
+     data-hold1="{{ hold1_sec }}" 
+     data-exhale="{{ exhale_sec }}" 
+     data-hold2="{{ hold2_sec }}">
+
+  <div class="pacer-header">
+    <h4 class="pacer-title">{{ pacer_title }}</h4>
+    <div class="pacer-formula">
+      <span>{{ inhale_sec }}s Ind</span>
+      {% if hold1_sec > 0 %} · <span>{{ hold1_sec }}s Hold</span>{% endif %}
+      · <span>{{ exhale_sec }}s Ud</span>
+      {% if hold2_sec > 0 %} · <span>{{ hold2_sec }}s Hold</span>{% endif %}
+    </div>
+  </div>
+
+  <div class="pacer-visual-zone">
+    <div class="pacer-circle-outer">
+      <div class="pacer-circle-inner"></div>
+      <div class="pacer-text-group">
+        <span class="pacer-phase-label">KLAR</span>
+        <span class="pacer-timer-count">--</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="pacer-controls">
+    <button type="button" class="btn btn--primary pacer-start-btn">Start Åndedræt</button>
+  </div>
+</div>
+
+<style>
+.breathing-pacer-widget {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 480px;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-sizing: border-box;
+}
+
+.pacer-header {
+  margin-bottom: 1.25rem;
+}
+
+.pacer-title {
+  color: #ffffff !important;
+  margin: 0 0 4px 0 !important;
+  font-size: 1.15rem !important;
+  font-weight: 800;
+}
+
+.pacer-formula {
+  font-size: 0.8rem;
+  color: #a0aec0;
+  font-weight: 600;
+}
+
+.pacer-visual-zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  margin-bottom: 1rem;
+}
+
+.pacer-circle-outer {
+  position: relative;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pacer-circle-inner {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #4fd1c5 0%, #319795 100%);
+  box-shadow: 0 0 20px rgba(79, 209, 197, 0.4);
+  transform: scale(1);
+  transition: transform 0.1s linear;
+  will-change: transform;
+}
+
+.pacer-text-group {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+}
+
+.pacer-phase-label {
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.pacer-timer-count {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1;
+  margin-top: 2px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.pacer-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.pacer-start-btn {
+  background: #319795;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(49, 151, 149, 0.3);
+  transition: all 0.2s ease;
+}
+
+.pacer-start-btn:hover {
+  background: #2c7a7b;
+  transform: translateY(-1px);
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll(".breathing-pacer-widget").forEach(function(widget) {
+    const inhale = parseFloat(widget.dataset.inhale) || 4;
+    const hold1 = parseFloat(widget.dataset.hold1) || 0;
+    const exhale = parseFloat(widget.dataset.exhale) || 4;
+    const hold2 = parseFloat(widget.dataset.hold2) || 0;
+
+    const circle = widget.querySelector(".pacer-circle-inner");
+    const phaseLabel = widget.querySelector(".pacer-phase-label");
+    const timerCount = widget.querySelector(".pacer-timer-count");
+    const startBtn = widget.querySelector(".pacer-start-btn");
+
+    let isRunning = false;
+    let animFrame = null;
+    let cycleStartTime = 0;
+
+    const MIN_SCALE = 1.0;
+    const MAX_SCALE = 2.0;
+
+    function getPhaseInfo(elapsed) {
+      let t = elapsed;
+
+      // Phase 1: Inhale
+      if (t < inhale) {
+        const progress = t / inhale;
+        const scale = MIN_SCALE + (MAX_SCALE - MIN_SCALE) * progress;
+        const remaining = Math.ceil(inhale - t);
+        return { name: "Ånd ind", scale: scale, count: remaining, color: "#4fd1c5" };
+      }
+      t -= inhale;
+
+      // Phase 2: Hold 1
+      if (hold1 > 0 && t < hold1) {
+        const remaining = Math.ceil(hold1 - t);
+        return { name: "Hold vejret", scale: MAX_SCALE, count: remaining, color: "#f6ad55" };
+      }
+      if (hold1 > 0) t -= hold1;
+
+      // Phase 3: Exhale
+      if (t < exhale) {
+        const progress = t / exhale;
+        const scale = MAX_SCALE - (MAX_SCALE - MIN_SCALE) * progress;
+        const remaining = Math.ceil(exhale - t);
+        return { name: "Pust ud", scale: scale, count: remaining, color: "#63b3ed" };
+      }
+      t -= exhale;
+
+      // Phase 4: Hold 2
+      if (hold2 > 0 && t < hold2) {
+        const remaining = Math.ceil(hold2 - t);
+        return { name: "Pause", scale: MIN_SCALE, count: remaining, color: "#f6ad55" };
+      }
+
+      return null; // Cycle complete
+    }
+
+    function loop(now) {
+      if (!isRunning) return;
+
+      const totalCycleDuration = (inhale + hold1 + exhale + hold2) * 1000;
+      let elapsed = (now - cycleStartTime) % totalCycleDuration;
+      let elapsedSec = elapsed / 1000;
+
+      let info = getPhaseInfo(elapsedSec);
+
+      if (info) {
+        circle.style.transform = `scale(${info.scale})`;
+        circle.style.background = info.color;
+        phaseLabel.textContent = info.name;
+        timerCount.textContent = info.count;
+      }
+
+      animFrame = requestAnimationFrame(loop);
+    }
+
+    function start() {
+      isRunning = true;
+      startBtn.textContent = "Stop Pacer";
+      startBtn.style.background = "#e53e3e";
+      cycleStartTime = performance.now();
+      animFrame = requestAnimationFrame(loop);
+    }
+
+    function stop() {
+      isRunning = false;
+      cancelAnimationFrame(animFrame);
+      startBtn.textContent = "Start Åndedræt";
+      startBtn.style.background = "#319795";
+      circle.style.transform = "scale(1)";
+      circle.style.background = "radial-gradient(circle, #4fd1c5 0%, #319795 100%)";
+      phaseLabel.textContent = "KLAR";
+      timerCount.textContent = "--";
+    }
+
+    startBtn.addEventListener("click", function() {
+      if (isRunning) {
+        stop();
+      } else {
+        start();
+      }
+    });
+  });
+});
+</script>

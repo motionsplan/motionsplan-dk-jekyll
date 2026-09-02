@@ -120,7 +120,7 @@ Besøg vores specialiserede søsterside **[Sportspsykologiske Tests & Energitjek
 
 Hvor spørgeskemaerne herunder måler din *oplevede* trivsel, stress og mentale balance, kan du måle din hjernes fysiologiske parathed direkte på skærmen. 
 
-Brug vores **[Kognitive Kontrolpanel & Dagsform-tester](/kognitive-tests/)** til at måle centraltræthed (CNS), reaktionstid og mentalt overskud inden dagens træning.
+Du kan bruge nogle af vores **[kognitive tests](/kognitive-tests/)** til at måle centraltræthed (CNS), reaktionstid og mentalt overskud inden dagens træning.
 
 </div>
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Har træning og sundhed taget overhånd? Genfind balancen i din hverdag"
+title: "Træningsafhængighed og ortoreksi: Har træning og sundhed taget overhånd?"
 seo_title: "Træningsafhængighed og ortoreksi – Genfind balancen i hverdagen"
 description: "Føles træningen eller maden mere som et krav end en kilde til glæde? Lær tegnene på træningsafhængighed og ortoreksi at kende, og tjek din balance."
 excerpt: "Føles træningen eller maden mere som et krav end en kilde til glæde? Lær tegnene på træningsafhængighed og ortoreksi at kende, og tjek din balance."
@@ -9,7 +9,6 @@ author_profile: true
 toc: true
 breadcrumbs: true
 categories:
-  - Psykologi
   - Psykologi
 tags:
   - vurderingsværktøj

@@ -10,7 +10,6 @@ header:
   caption: 'Mål din mentaltrivsel og livskvalitet med det validerede WHO-5 spørgeskema.'
 categories:
 - Psykologi
-- Psykologi
 tags:
 - vurderingsværktøj
 - psykologi

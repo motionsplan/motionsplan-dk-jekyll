@@ -1,0 +1,480 @@
+<!-- Digital Smooth Pursuit Tracker Widget -->
+<div class="pursuit-widget-container" id="pursuit-container">
+  <!-- Fullscreen Top-Højre Ikon -->
+  <button id="btn-pursuit-fullscreen" class="pursuit-icon-btn" type="button" title="Fuld skærm" aria-label="Fuld skærm">
+    <i class="fas fa-expand"></i>
+  </button>
+
+  <div class="pursuit-header">
+    <h3>Digital Smooth Pursuit Tracker <i class="fas fa-bullseye" style="margin-left:8px; color:#4fd1c5;"></i></h3>
+    <p>Træn din evne til at følge objekter i bevægelse. <strong>Regel nr. 1: Hold hovedet helt stille!</strong></p>
+  </div>
+
+  <div class="pursuit-controls">
+    <div class="control-group">
+      <label for="pursuit-speed">Hastighed:</label>
+      <select id="pursuit-speed" class="pursuit-select">
+        <option value="1">Langsom (Kontrol)</option>
+        <option value="2" selected>Mellem (Opvarmning)</option>
+        <option value="3">Hurtig (Kampklar)</option>
+        <option value="4">Ekstrem (Elite)</option>
+      </select>
+    </div>
+    
+    <div class="control-group">
+      <label for="pursuit-pattern">Mønster:</label>
+      <select id="pursuit-pattern" class="pursuit-select">
+        <option value="pendulum">Vandret Pendul</option>
+        <option value="circle">Cirkel</option>
+        <option value="infinity" selected>Uendelighed (∞)</option>
+        <option value="vertical">Lodret Pendul</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="pursuit-duration">Tid (Sæt):</label>
+      <select id="pursuit-duration" class="pursuit-select">
+        <option value="30">30 sekunder</option>
+        <option value="60" selected>60 sek. (Anbefalet)</option>
+        <option value="90">90 sekunder</option>
+        <option value="0">Uden tidsgrænse</option>
+      </select>
+    </div>
+
+    <div class="control-group btn-group">
+      <button id="btn-pursuit-toggle" class="btn-pursuit-start" type="button">Start Tracking</button>
+    </div>
+  </div>
+
+  <div class="pursuit-arena" id="pursuit-arena">
+    <!-- Live Timer Badge -->
+    <div class="pursuit-timer-badge" id="pursuit-timer-badge">60s</div>
+
+    <!-- Canvas -->
+    <canvas id="pursuit-canvas"></canvas>
+  </div>
+</div>
+
+<style>
+.pursuit-widget-container {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 640px;
+  margin: 2rem auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+}
+
+/* Fullscreen Top-Højre Ikon */
+.pursuit-icon-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  color: #718096;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.pursuit-icon-btn:hover {
+  background: #edf2f7;
+  color: #2d3748;
+  border-color: #cbd5e0;
+}
+
+.pursuit-header {
+  padding-right: 2.5rem;
+}
+
+.pursuit-header h3 {
+  margin: 0 0 0.4rem 0 !important;
+  color: #1a202c;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.pursuit-header p {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin: 0 0 1.2rem 0 !important;
+}
+
+/* Grid Alignment */
+.pursuit-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.85rem;
+  align-items: end;
+  margin-bottom: 1.2rem;
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #edf2f7;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.control-group.btn-group {
+  grid-column: span 1;
+}
+
+.control-group label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #718096;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.pursuit-select {
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.9rem;
+  color: #2d3748;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.pursuit-select:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.2);
+}
+
+.btn-pursuit-start {
+  height: 40px;
+  width: 100%;
+  background: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-pursuit-start:hover {
+  background: #2b6cb0;
+}
+
+.btn-pursuit-start.is-running {
+  background: #e53e3e;
+}
+.btn-pursuit-start.is-running:hover {
+  background: #c53030;
+}
+
+/* Arena & Canvas */
+.pursuit-arena {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background: #1a202c;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: inset 0 4px 12px rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pursuit-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Live Timer Badge i Arenaen */
+.pursuit-timer-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-mono: monospace;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Native Fullscreen Override */
+.pursuit-widget-container:fullscreen {
+  background: #0f172a;
+  max-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0;
+  border: none;
+}
+
+.pursuit-widget-container:fullscreen .pursuit-header h3 {
+  color: #f7fafc;
+}
+.pursuit-widget-container:fullscreen .pursuit-header p {
+  color: #a0aec0;
+}
+.pursuit-widget-container:fullscreen .pursuit-controls {
+  background: #1e293b;
+  border-color: #334155;
+}
+.pursuit-widget-container:fullscreen .control-group label {
+  color: #94a3b8;
+}
+.pursuit-widget-container:fullscreen .pursuit-select {
+  background: #0f172a;
+  color: #f1f5f9;
+  border-color: #475569;
+}
+.pursuit-widget-container:fullscreen .pursuit-icon-btn {
+  background: #1e293b;
+  border-color: #475569;
+  color: #cbd5e1;
+}
+.pursuit-widget-container:fullscreen .pursuit-arena {
+  flex: 1;
+  height: auto;
+  min-height: 300px;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('pursuit-container');
+  const btnToggle = document.getElementById('btn-pursuit-toggle');
+  const btnFullscreen = document.getElementById('btn-pursuit-fullscreen');
+  const speedSelect = document.getElementById('pursuit-speed');
+  const patternSelect = document.getElementById('pursuit-pattern');
+  const durationSelect = document.getElementById('pursuit-duration');
+  const timerBadge = document.getElementById('pursuit-timer-badge');
+  const canvas = document.getElementById('pursuit-canvas');
+  const ctx = canvas.getContext('2d');
+
+  let isRunning = false;
+  let animFrameId = null;
+  let countdownId = null;
+  let time = 0;
+  let secondsRemaining = 60;
+
+  function resizeCanvas() {
+    const rect = canvas.getBoundingClientRect();
+    canvas.width = rect.width;
+    canvas.height = rect.height;
+  }
+  
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+
+  function drawStaticCenter() {
+    resizeCanvas();
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    // Tegn en dæmpet start-prik i midten
+    ctx.beginPath();
+    ctx.arc(canvas.width / 2, canvas.height / 2, 12, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(79, 209, 197, 0.3)';
+    ctx.fill();
+  }
+
+  function getPosition(t, pattern, w, h) {
+    const cx = w / 2;
+    const cy = h / 2;
+    // Maksimalt øjenudslag: 45% af bredden og 42% af højden
+    const rx = w * 0.45;
+    const ry = h * 0.42;
+
+    let x = cx;
+    let y = cy;
+
+    if (pattern === 'pendulum') {
+      x = cx + rx * Math.sin(t);
+      y = cy;
+    } else if (pattern === 'vertical') {
+      x = cx;
+      y = cy + ry * Math.sin(t);
+    } else if (pattern === 'circle') {
+      x = cx + ry * Math.cos(t);
+      y = cy + ry * Math.sin(t);
+    } else if (pattern === 'infinity') {
+      const scale = rx;
+      x = cx + (scale * Math.cos(t)) / (1 + Math.sin(t) * Math.sin(t));
+      y = cy + (scale * Math.sin(t) * Math.cos(t)) / (1 + Math.sin(t) * Math.sin(t));
+    }
+
+    return { x, y };
+  }
+
+  function loop() {
+    if (!isRunning) return;
+
+    const speedMultiplier = parseFloat(speedSelect.value) * 0.015;
+    time += speedMultiplier;
+
+    const pattern = patternSelect.value;
+    const w = canvas.width;
+    const h = canvas.height;
+
+    ctx.clearRect(0, 0, w, h);
+
+    const pos = getPosition(time, pattern, w, h);
+
+    // Ydre glød
+    ctx.beginPath();
+    ctx.arc(pos.x, pos.y, 18, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(79, 209, 197, 0.25)';
+    ctx.fill();
+
+    // Hovedbold
+    ctx.beginPath();
+    ctx.arc(pos.x, pos.y, 10, 0, Math.PI * 2);
+    ctx.fillStyle = '#4fd1c5';
+    ctx.fill();
+
+    // Indre sigtepunkt
+    ctx.beginPath();
+    ctx.arc(pos.x, pos.y, 3, 0, Math.PI * 2);
+    ctx.fillStyle = '#ffffff';
+    ctx.fill();
+
+    animFrameId = requestAnimationFrame(loop);
+  }
+
+  function updateTimerDisplay() {
+    const duration = parseInt(durationSelect.value, 10);
+    if (duration === 0) {
+      timerBadge.textContent = '∞';
+    } else {
+      timerBadge.textContent = secondsRemaining + 's';
+    }
+  }
+
+  function start() {
+    const duration = parseInt(durationSelect.value, 10);
+
+    isRunning = true;
+    btnToggle.textContent = 'Stop';
+    btnToggle.classList.add('is-running');
+    
+    speedSelect.disabled = true;
+    patternSelect.disabled = true;
+    durationSelect.disabled = true;
+
+    secondsRemaining = duration;
+    updateTimerDisplay();
+
+    time = 0;
+    resizeCanvas();
+    animFrameId = requestAnimationFrame(loop);
+
+    // Nedtælling
+    if (duration > 0) {
+      countdownId = setInterval(function() {
+        secondsRemaining--;
+        updateTimerDisplay();
+
+        if (secondsRemaining <= 0) {
+          stop();
+          timerBadge.textContent = 'Færdig! 👏';
+        }
+      }, 1000);
+    }
+  }
+
+  function stop() {
+    isRunning = false;
+    btnToggle.textContent = 'Start Tracking';
+    btnToggle.classList.remove('is-running');
+    
+    speedSelect.disabled = false;
+    patternSelect.disabled = false;
+    durationSelect.disabled = false;
+
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    if (countdownId) clearInterval(countdownId);
+
+    drawStaticCenter();
+
+    const duration = parseInt(durationSelect.value, 10);
+    secondsRemaining = duration;
+    updateTimerDisplay();
+  }
+
+  btnToggle.addEventListener('click', function() {
+    if (isRunning) {
+      stop();
+    } else {
+      start();
+    }
+  });
+
+  durationSelect.addEventListener('change', function() {
+    secondsRemaining = parseInt(this.value, 10);
+    updateTimerDisplay();
+  });
+
+  // Fullscreen Toggle
+  btnFullscreen.addEventListener('click', function() {
+    if (!document.fullscreenElement) {
+      if (container.requestFullscreen) {
+        container.requestFullscreen();
+      } else if (container.webkitRequestFullscreen) {
+        container.webkitRequestFullscreen();
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+    }
+  });
+
+  document.addEventListener('fullscreenchange', function() {
+    const icon = btnFullscreen.querySelector('i');
+    setTimeout(resizeCanvas, 100);
+
+    if (document.fullscreenElement) {
+      icon.className = 'fas fa-compress';
+      btnFullscreen.title = 'Luk fuld skærm';
+    } else {
+      icon.className = 'fas fa-expand';
+      btnFullscreen.title = 'Fuld skærm';
+    }
+  });
+
+  drawStaticCenter();
+  updateTimerDisplay();
+});
+</script>

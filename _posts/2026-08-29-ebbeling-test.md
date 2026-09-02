@@ -52,8 +52,8 @@ Ebbeling-testen udmærker sig på tre centrale områder:
 Ebbeling-protokollen er opdelt i to præcise faser á 4 minutter:
 
 ```
-[0:00 - 4:00 min]  Fase 1: Opvarmning (0% hældning, hastighed vælges til 50-70% HRmax)
-[4:00 - 8:00 min]  Fase 2: Testfase   (5% hældning, SAMME hastighed beholdes)
+[0:00 - 4:00 min] Fase 1: Opvarmning (0% hældning, hastighed vælges til 50-70% HRmax)
+[4:00 - 8:00 min] Fase 2: Testfase   (5% hældning, SAMME hastighed beholdes)
 ```
 
 ### Fase 1: Opvarmning & Hastighedsvalg (0 – 4 minutter)
@@ -79,7 +79,7 @@ I løbet af testfasen skal du notere din puls på to bestemte tidspunkter:
 ## Ebbeling Test Timer & Kondital Beregner
 {: id="timer" }
 
-Brug timeren herunder direkte på din telefon eller tablet på løbebåndet. Den holder styr på 4-minutters faserne, angiver hvornår hældningen skal hæves til 5,0 %, udregner din 50–70% pulszone og beregner dit kondital så snart du indtaster din testpuls.
+Brug timeren herunder direkte på din telefon eller tablet på løbebåndet. Den holder styr på 4-minutters faserne, angiver hvornår hældningen skal hæves til 5,0%, udregner din 50–70% pulszone og beregner dit kondital så snart du indtaster din testpuls.
 
 {% include components/ebbeling-timer.html %}
 

@@ -108,8 +108,11 @@ Corsi-testen belyser din hjernes *hukommelseskapacitet*, men du kan også teste 
 
 ---
 
-## Videnskabelige kilder & litteratur
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 * **Corsi, P. M. (1972).** *Human memory and the medial temporal region of the brain.* Dissertation Abstracts International, 34(02), 891B.
 * **Baddeley, A. (2000).** *The episodic buffer: a new component of working memory?* Trends in Cognitive Sciences, 4(11), 417-423.
 * **Vestberg, T., et al. (2011).** *Executive functions predict the success of top-soccer players.* PLoS ONE, 6(4), e19223.
+
+</details>

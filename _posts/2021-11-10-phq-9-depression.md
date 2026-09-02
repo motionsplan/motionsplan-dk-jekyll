@@ -10,7 +10,6 @@ header:
   caption: 'Depression: Test om du er deprimeret med PHQ-2 og PHQ-9'
 categories:
 - Psykologi
-- Psykologi
 tags:
 - vurderingsværktøj
 - psykologi

@@ -17,8 +17,8 @@ tags:
 - musik
 - løb
 categories:
-- Kondition
-last_modified_at: '2023-01-01T15:29:24Z'
+- Træning
+last_modified_at: '2026-01-01T15:29:24Z'
 ---
 
 Hvordan vælger du den bedste musik til din træning? Musik kan være motiverende, og den kan forbedre din træning, men hvad skal du tænke på?
@@ -119,6 +119,47 @@ Her er nogle eksempler på musikstykker i forskellig tempo, som bliver foreslåe
 | Gang og hop | 117 bpm | Estelle - American Boy |
 | Løb | 160 bpm | Pharell Williams - Happy |
 | Udstrækning | 76 bpm | Ed Sheeran - I See Fire |
+
+---
+
+## Mål selv musikkens BPM (Tap Tempo)
+
+Vil du tjekke, om et bestemt nummer i dit head-set passer til dit løbetempo eller din opvarmning? 
+
+Brug værktøjet herunder: Afspil sangen i din højttaler eller i ørene, og **tap i takt på knappen** (eller tryk på Mellemrumstasten på din PC) i 5–10 sekunder. Værktøjet udregner straks sangens præcise BPM og fortæller dig, hvilken træningstype den matcher bedst:
+
+{% include components/bpm-counter.html %}
+
+---
+
+## Løbemusik-testen
+
+**Løbemusik-testen** kan give dig din **nedre og øvre grænse** for din skridtfrekvens (kadence), når du løber i takt til musik. 
+
+### Sådan udfører du Løbemusik-testen:
+
+1. **Opvarmning:** Løb 10 minutter i roligt tempo for at blive varm.
+2. **Gradvis stigning:** Afspil en playliste, hvor musikkens tempo stiger hvert 30. sekund — startende fra **150 BPM** og gradvist øget op til **195 BPM**.
+3. **Find din nedre grænse:** I starten føles musikken alt for langsom. Det laveste tempo, hvor du lige akkurat kan "tvinge" dine fødder til at ramme jorden i takt med beatet uden at overstride, udgør din *nedre kadencegrænse* (oftest omkring 155–160 BPM).
+4. **Find din øvre grænse:** Efterhånden som musikken skruer op for tempoet, tager du hurtigere og kortere skridt. Det højeste tempo, hvor du stadig kan holde takten uden at miste kontrollen eller falde i et decideret spurt-skridt, er din *øvre kadencegrænse* (oftest 180–185 BPM).
+
+### Det fortæller dit resultat dig om din løbestil:
+
+Når du tager testen, vil du opdage dit naturlige "Kadence-vindue". Dette vindue er afgørende for at forstå og forbedre din løbeøkonomi:
+
+* **Den nedre grænse (fx 155–160 BPM):** Mange begyndere løber naturligt hernede, når de løber langsomt. Udfordringen ved for lav en kadence er, at du "svæver" længere i luften og derved lander med et tungere stød op gennem knæ og hofter (overstriding). 
+* **Den lette restitution (165–175 BPM):** Selvom du løber langsomt på en restitutionstur, er det en stor fordel at holde en lidt højere skridtfrekvens for at minimere stødene op gennem benene. Skru ned for farten ved at tage kortere, "trippende" skridt i stedet for at sænke kadencen for meget.
+* **Den optimale grænse (175–185 BPM):** Dette er zonen for tempoture, intervaller og konkurrence. Her er kontakttiden med jorden ultrakort, og du udnytter senernes elastiske energi optimalt.
+
+Når du kender disse zoner, kan du bevidst vælge musik, der hjælper dig med at holde kadencen oppe på dine langsomme ture, så du undgår tunge hællandinger. Brug vores **BPM-Måler (Tap Tempo)** her på siden til at finde sange, der ligger i det perfekte 165–180 BPM spænd til din næste tur!
+
+<div class="notice--info" markdown="1">
+
+**Kort fortalt om løbekadence og musik:**
+
+* **Langsomme ture (Restitution):** Sigt efter 165–175 BPM med korte, lette skridt frem for lange, tunge hællandinger.
+* **Hurtige ture (Intervaller/Tempotur):** Sigt efter 175–185 BPM for minimal kontakttid med jorden og maksimal energi-udnyttelse.
+</div>
 
 ## Musikkens budskab
 

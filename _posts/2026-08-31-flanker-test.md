@@ -99,7 +99,10 @@ Denne konflikt koster millisekunder. Jo mere kognitivt udmattet du er, desto st�
 
 ---
 
-## Videnskabelige kilder & litteratur
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 * **Eriksen, B. A., & Eriksen, C. W. (1974).** *Effects of noise letters upon the identification of a target letter in a nonsearch task.* Perception & Psychophysics, 16(1), 143–149.
 * **Nieuwenhuis, S., et al. (2006).** *Mental fatigue, error processing, and the cortical regulation of cognitive control.* Psychophysiology, 43(1), 29–36.
+
+</details>

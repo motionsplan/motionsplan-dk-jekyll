@@ -113,7 +113,10 @@ Go / No-Go testen udgør en vigtig brik i vores kognitive testbatteri:
 
 ---
 
-## Videnskabelige kilder & litteratur
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 * **Verbruggen, F., & Logan, G. D. (2008).** *Automatic inhibition: Unconscious responses to stop signals.* Journal of Experimental Psychology: General, 137(4), 649–672.
 * **Donders, F. C. (1969).** *On the speed of mental processes.* Acta Psychologica, 30, 412-431.
+
+</details>
