@@ -27,7 +27,7 @@ faq:
     answer: "Et lukket miljø er stationært og forudsigeligt (fx at lave et squat på et fast gulv i et tomt rum). Et åbent miljø er dynamisk og skiftende (fx at gribe en bold på en bane i løb med modspillere omkring dig)."
 ---
 
-Traditionel træningslære fokuserer ofte ensidigt på fysiologisk belastning: Flere kilo på stangen, flere gentagelser eller højere puls. Men når det gælder balancetræning, genoptræning og sportsspecifik færdighedstræning, er det **hjernen og nervesystemets motoriske kontrol**, der skal udfordres.
+Traditionel [træningslære](/traeningslaere/) fokuserer ofte ensidigt på fysiologisk belastning: Flere kilo på stangen, flere gentagelser eller højere puls. Men når det gælder balancetræning, genoptræning og sportsspecifik færdighedstræning, er det **hjernen og nervesystemets motoriske kontrol**, der skal udfordres.
 
 **Gentiles taksonomi** (udviklet af forskeren A.M. Gentile i 1979/2000) er en af de mest anerkendte faglige rammer til at analysere og opbygge motorisk indlæring. Modellen kategoriserer enhver fysisk bevægelse i en matrix med 16 niveauer baseret på bevægelsens kontekst og krav.
 

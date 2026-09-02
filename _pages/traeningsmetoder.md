@@ -178,5 +178,5 @@ Leder du efter en specifik metode? Fold boksen ud herunder for at søge i vores 
 Når du har fundet dine ideelle træningsmetoder, skal de sættes i system:
 
 * 📐 **[Træningsprincipper](/traeningsprincipper/)** – Se de 10 grundregler for overbelastning, progression og specificitet.
-* 🧬 **[Træningslære og fysiologi](/traeningslaere/)** – Lær hvordan du sammensætter metoderne til en helhedsorienteret præstationsoptimering.
+* 🧬 **[Træningslære](/traeningslaere/)** – Lær hvordan du sammensætter metoderne til en helhedsorienteret præstationsoptimering.
 * 📋 **[Træningsprogrammer](/traeningsprogrammer/)** – Se hvordan metoderne omsættes til konkrete ugeplaner.

@@ -43,18 +43,30 @@ Vælg en test herunder for at måle din parathed. Hver test åbner direkte i din
 
 ---
 
-## De 6 kognitive komponenter i test-batteriet
+## De 7 komponenter i test-batteriet
 
-Vores test-batteri måler seks specifikke funktioner i din hjerne og dit centrale nervesystem (CNS):
+For at give et præcist billede af din form opdeler vi testene i henholdsvis din **neuromuskulære parathed** (ren nerveledningshastighed) og din **kognitive kontrol** (hjernens bearbejdning og overblik):
 
-| Test | Fysiologisk / Kognitiv funktion | Betydning i sport og hverdag |
+### 1. Neuromuskulær Parathed (Nervesystem & Signalhastighed)
+Måler hvor hurtigt dit centrale nervesystem (CNS) sender uforstyrrede elektriske impulser til musklerne – uden kognitiv tøven.
+
+| Test | Fysiologisk funktion | Betydning i sport og hverdag |
 |---|---|---|
-| **Simpel Reaktionstid** | Måler den efferente overførselshastighed fra nethinde til motorisk cortex og ud i musklen. | Hvor hurtigt du reagerer på en startpistol eller en pludselig aflevering. |
-| **Go / No-Go (Impulskontrol)** | Tester din hjerne-hæmningskontrol (*response inhibition*) under tids-stress. | Evnen til at undgå at falde for modstanderens finte eller undgå fejlafleveringer. |
-| **Finger Tapping (CNS Fatigue)** | Måler den maksimale fyringsfrekvens af motoriske enheder fra motorisk cortex. | Den reneste fysiologiske indikator for central nervesystem-træthed efter tunge løft. |
-| **Time Wall (Visuel Timing)** | Tester din evne til intern ekstrapolering og tidsmæssig forudsigelse (*anticipation*). | Hvornår du skal starte dit løb, gribe bolden eller time en takling. |
-| **Flanker Test (Fokus & Støj)** | Måler din evne til selektiv opmærksomhed og filtrering af irrelevant visuel støj. | At fastholde blikket på den frie medspiller trods tilskuere og kaotiske forsvarsspillere. |
-| **N-back (Arbejdshukommelse)** | Måler din arbejdshukommelseskapacitet (*Working Memory*) under løbende opdatering. | At fastholde taktiske aftaler og overskue baneåbninger under høj puls. |
+| **Simpel Reaktionstid** | Måler den efferente overførselshastighed fra nethinde til motorisk cortex og ud i musklen. | Hvor hurtigt du reagerer på et simpelt visuelt signal eller en startpistol. |
+| **Finger Tapping (CNS Fatigue)** | Måler den maksimale fyringsfrekvens af motoriske enheder fra motorisk cortex. | Den reneste fysiologiske indikator for centralnervesystem-træthed efter tunge løft. |
+| **Ruler Drop Test** | Fysisk felttest af den visuelt-motoriske gribereaktion ud fra tyngdeacceleration ($t = \sqrt{\frac{2d}{g}}$). | Lynhurtig overførsel fra synsindtryk til fysisk gribereaktion helt uden skærm-latens. |
+
+---
+
+### 2. Kognitiv Kontrol & Processing (Hjernens Overblik)
+Måler din præfrontale cortex' evne til at analysere, filtrere støj, time handlinger og træffe beslutninger under tidspres.
+
+| Test | Kognitiv funktion | Betydning i sport og hverdag |
+|---|---|---|
+| **Go / No-Go** | Tester hjernens hæmningskontrol (*response inhibition*) under tids-stress. | Evnen til at undgå at falde for modstanderens finte eller undgå fejlafleveringer. |
+| **Time Wall** | Tester evnen til intern ekstrapolering og tidsmæssig forudsigelse (*anticipation*). | Hvornår du skal starte dit løb, gribe bolden eller time en takling i blinde. |
+| **Flanker Test** | Måler evnen til selektiv opmærksomhed og filtrering af irrelevant visuel støj. | At fastholde blikket på den frie medspiller trods tilskuere og kaotiske forsvarsspillere. |
+| **N-back** | Måler arbejdshukommelsens kapacitet (*Working Memory*) under løbende opdatering. | At fastholde taktiske aftaler og overskue baneåbninger under høj puls. |
 
 ---
 
@@ -83,6 +95,31 @@ For at omsætte tallene fra kontrolpanelet til bedre træningsbeslutninger bør 
    * **Grønt lys (In-range):** Dine scorer ligger inden for ±5 % af din baseline. *Nervesystemet er frisk — kør med fuld belastning og maksimal intensitet.*
    * **Gult lys (Mild træthed):** Din reaktionstid er 10-15 % langsommere, eller du laver flere fejl i impulskontrollen. *Dæmp den kognitive og eksplosive volumen. Skift tunge eksplosive løft ud med submaksimale, kontrollerede sæt.*
    * **Rødt lys (Markant CNS-fatigue):** Din reaktionstid falder med over 20 %, og din finger-tapping frekvens styrtdykker. *Tag en aktiv restitutionsdag. Dit nervesystem har brug for søvn og ro, ikke tung overbelastning.*
+
+---
+
+### Ruler Drop Test: Den analoge reaktionstest
+
+Hvor digitale reaktionstests måler din reaktion på en skærm, måler *Ruler Drop Testen* din direkte visuelt-motoriske gribereaktion med en fysikbaseret beregning. 
+
+**Sådan beregnes tiden:**
+Når en lineal slippes uden varsel, falds distancen $d$ (i meter) under påvirkning af tyngdeaccelerationen $g = 9{,}81 \text{ m/s}^2$. Din reaktionstid $t$ i sekunder beregnes direkte med formlen:
+
+$$t = \sqrt{\frac{2d}{g}}$$
+
+* **Eksempel:** Griber du linealen ved **20 cm** ($0{,}20 \text{ m}$), svarer det til en reaktionstid på:
+
+$$t = \sqrt{\frac{2 \times 0{,}20}{9{,}81}} \approx 0{,}202 \text{ sekunder} \quad (202 \text{ ms})$$
+
+* **Normalværdier for atleter:**
+  * **Under 15 cm (< 175 ms):** Elite / lynhurtig reaktion.
+  * **15–20 cm (175–200 ms):** Over gennemsnittet.
+  * **20–25 cm (200–225 ms):** Gennemsnitlig reaktionstid.
+  * **Over 25 cm (> 225 ms):** Langsom reaktion (tegn på træthed eller uopmærksomhed).
+
+### Beregner til Drop Ruler Test
+
+{% include components/drop-ruler-test.html %}
 
 ---
 

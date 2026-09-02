@@ -1,0 +1,347 @@
+<!-- Ruler Drop Test Calculator Widget -->
+<div class="ruler-calc-widget" id="ruler-calc-widget">
+  <div class="ruler-calc-header">
+    <h3>📏 Ruler Drop Test Beregner</h3>
+    <p>Indtast de grebne centimeter (cm) fra dine forsøg for at beregne din visuelt-motoriske reaktionstid i millisekunder.</p>
+  </div>
+
+  <div class="ruler-input-card">
+    <div class="ruler-input-group">
+      <label for="ruler-cm-input">Grebne centimeter (cm):</label>
+      <div class="input-with-button">
+        <input type="number" id="ruler-cm-input" min="1" max="100" step="0.5" placeholder="fx 18" autofocus>
+        <button type="button" id="btn-add-ruler-trial" class="btn-ruler-add">+ Tilføj Forsøg</button>
+      </div>
+    </div>
+
+    <!-- Trial Badges List -->
+    <div class="ruler-trials-list" id="ruler-trials-list">
+      <span class="no-trials-text">Ingen registrerede forsøg endnu. Indtast cm ovenfor.</span>
+    </div>
+  </div>
+
+  <!-- Dynamic Results Section -->
+  <div class="ruler-output-card" id="ruler-output-card" style="display: none;">
+    <div class="ruler-results-grid">
+      <div class="ruler-res-box">
+        <span class="ruler-res-label">Gns. Distance</span>
+        <div class="ruler-res-value" id="res-avg-cm">-- cm</div>
+      </div>
+      <div class="ruler-res-box highlight">
+        <span class="ruler-res-label">Gns. Reaktionstid</span>
+        <div class="ruler-res-value" id="res-avg-ms">-- ms</div>
+      </div>
+    </div>
+
+    <div class="ruler-rating-badge" id="ruler-rating-badge">--</div>
+    
+    <button type="button" id="btn-reset-ruler" class="btn-ruler-reset">🔄 Nulstil Måling</button>
+  </div>
+</div>
+
+<style>
+.ruler-calc-widget {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 16px;
+  padding: 1.25rem;
+  max-width: 540px;
+  margin: 2rem auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  box-sizing: border-box;
+}
+
+.ruler-calc-header h3 {
+  margin: 0 0 0.3rem 0 !important;
+  color: #1e293b;
+  font-size: 1.2rem;
+}
+
+.ruler-calc-header p {
+  margin: 0 0 1rem 0 !important;
+  font-size: 0.85rem;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.ruler-input-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ruler-input-group label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #475569;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  letter-spacing: 0.03em;
+}
+
+.input-with-button {
+  display: flex;
+  gap: 8px;
+}
+
+#ruler-cm-input {
+  flex: 1;
+  height: 42px;
+  padding: 0 12px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0f172a;
+  outline: none;
+}
+
+#ruler-cm-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.btn-ruler-add {
+  height: 42px;
+  padding: 0 16px;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  white-space: nowrap;
+}
+
+.btn-ruler-add:hover {
+  background: #1d4ed8;
+}
+
+.ruler-trials-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+  min-height: 28px;
+  align-items: center;
+}
+
+.no-trials-text {
+  font-size: 0.78rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.trial-chip {
+  background: #e2e8f0;
+  color: #334155;
+  padding: 4px 10px;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.trial-chip .btn-remove-chip {
+  background: transparent;
+  border: none;
+  color: #ef4444;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 900;
+  padding: 0;
+  line-height: 1;
+}
+
+.ruler-output-card {
+  background: #0f172a;
+  border-radius: 12px;
+  padding: 1.25rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.ruler-results-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.ruler-res-box {
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+}
+
+.ruler-res-box.highlight {
+  background: #1e3a8a;
+  border-color: #3b82f6;
+}
+
+.ruler-res-label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+}
+
+.ruler-res-box.highlight .ruler-res-label {
+  color: #93c5fd;
+}
+
+.ruler-res-value {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #f8fafc;
+}
+
+.ruler-rating-badge {
+  font-size: 0.85rem;
+  font-weight: 800;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.rating-elite { background: #15803d; color: #ffffff; }
+.rating-good { background: #0369a1; color: #ffffff; }
+.rating-avg { background: #b45309; color: #ffffff; }
+.rating-slow { background: #b91c1c; color: #ffffff; }
+
+.btn-ruler-reset {
+  background: transparent;
+  border: 1px solid #475569;
+  color: #cbd5e1;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-ruler-reset:hover {
+  background: #334155;
+  color: #ffffff;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const cmInput = document.getElementById('ruler-cm-input');
+  const btnAdd = document.getElementById('btn-add-ruler-trial');
+  const trialsList = document.getElementById('ruler-trials-list');
+  const outputCard = document.getElementById('ruler-output-card');
+  const resAvgCm = document.getElementById('res-avg-cm');
+  const resAvgMs = document.getElementById('res-avg-ms');
+  const ratingBadge = document.getElementById('ruler-rating-badge');
+  const btnReset = document.getElementById('btn-reset-ruler');
+
+  let trials = [];
+
+  // Formel: t (sekunder) = sqrt( (2 * d_meter) / 9.81 )
+  function cmToMs(cm) {
+    const dMeters = cm / 100;
+    const tSecs = Math.sqrt((2 * dMeters) / 9.81);
+    return Math.round(tSecs * 1000);
+  }
+
+  function addTrial() {
+    const val = parseFloat(cmInput.value);
+    if (isNaN(val) || val <= 0 || val > 100) return;
+
+    trials.push(val);
+    cmInput.value = '';
+    cmInput.focus();
+    render();
+  }
+
+  function removeTrial(index) {
+    trials.splice(index, 1);
+    render();
+  }
+
+  function render() {
+    trialsList.innerHTML = '';
+
+    if (trials.length === 0) {
+      trialsList.innerHTML = '<span class="no-trials-text">Ingen registrerede forsøg endnu. Indtast cm ovenfor.</span>';
+      outputCard.style.display = 'none';
+      return;
+    }
+
+    trials.forEach((cm, idx) => {
+      const ms = cmToMs(cm);
+      const chip = document.createElement('div');
+      chip.className = 'trial-chip';
+      chip.innerHTML = `#${idx + 1}: ${cm} cm (${ms} ms) <button type="button" class="btn-remove-chip" data-idx="${idx}">✖</button>`;
+      trialsList.appendChild(chip);
+    });
+
+    // Event listeners til slette-knapper på chips
+    trialsList.querySelectorAll('.btn-remove-chip').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const idx = parseInt(this.dataset.idx, 10);
+        removeTrial(idx);
+      });
+    });
+
+    // Beregn gennemsnit
+    const sumCm = trials.reduce((a, b) => a + b, 0);
+    const avgCm = sumCm / trials.length;
+    const avgMs = cmToMs(avgCm);
+
+    resAvgCm.textContent = avgCm.toFixed(1) + ' cm';
+    resAvgMs.textContent = avgMs + ' ms';
+
+    // Vurdering
+    ratingBadge.className = 'ruler-rating-badge ';
+    if (avgCm < 15) {
+      ratingBadge.classList.add('rating-elite');
+      ratingBadge.textContent = '🚀 Ekstremt hurtig reaktion (< 175 ms)';
+    } else if (avgCm < 20) {
+      ratingBadge.classList.add('rating-good');
+      ratingBadge.textContent = '⚡ God / Over gennemsnittet (175–200 ms)';
+    } else if (avgCm < 25) {
+      ratingBadge.classList.add('rating-avg');
+      ratingBadge.textContent = '👍 Gennemsnitlig reaktionstrafik (200–225 ms)';
+    } else {
+      ratingBadge.classList.add('rating-slow');
+      ratingBadge.textContent = '⚠️ Langsom reaktion / CNS-træthed (> 225 ms)';
+    }
+
+    outputCard.style.display = 'block';
+  }
+
+  btnAdd.addEventListener('click', addTrial);
+
+  cmInput.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      addTrial();
+    }
+  });
+
+  btnReset.addEventListener('click', function() {
+    trials = [];
+    cmInput.value = '';
+    render();
+  });
+});
+</script>

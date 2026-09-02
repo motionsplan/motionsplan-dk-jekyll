@@ -1,0 +1,359 @@
+<!-- Alternate Wall Toss Test Widget -->
+<div class="walltoss-widget-container" id="walltoss-widget">
+  <div class="walltoss-header">
+    <h3>🎾 Alternate Wall Toss Test</h3>
+    <p>Stå 2 meter fra en væg. Kast med højre, grib med venstre — kast med venstre, grib med højre i 30 sekunder.</p>
+  </div>
+
+  <div class="walltoss-mode-tabs">
+    <button type="button" id="tab-live" class="walltoss-tab active">⏱️ Live Timer & Tæller</button>
+    <button type="button" id="tab-manual" class="walltoss-tab">✏️ Indtast Resultat</button>
+  </div>
+
+  <!-- Mode 1: Live Interactive Test -->
+  <div class="walltoss-body" id="mode-live-body">
+    <div class="walltoss-timer-display">
+      <span class="timer-label">Tid tilbage</span>
+      <div class="timer-val" id="wt-timer-val">30s</div>
+    </div>
+
+    <div class="walltoss-counter-display">
+      <span class="counter-label">Grebne kast</span>
+      <div class="counter-val" id="wt-count-val">0</div>
+    </div>
+
+    <div class="walltoss-btn-grid">
+      <button type="button" id="btn-wt-start" class="btn-wt-primary">Start 30s Test</button>
+      <button type="button" id="btn-wt-count" class="btn-wt-success" disabled>+1 Grebet! (Eller Mellemrum)</button>
+    </div>
+  </div>
+
+  <!-- Mode 2: Manual Input -->
+  <div class="walltoss-body" id="mode-manual-body" style="display: none;">
+    <div class="walltoss-manual-group">
+      <label for="manual-catches-input">Antal gribninger på 30 sekunder:</label>
+      <input type="number" id="manual-catches-input" min="0" max="80" placeholder="fx 28">
+      <button type="button" id="btn-manual-calc" class="btn-wt-primary">Vurder Score</button>
+    </div>
+  </div>
+
+  <!-- Result Output -->
+  <div class="walltoss-result-card" id="walltoss-result-card" style="display: none;">
+    <div class="res-score-title">Resultat: <span id="res-score-num">0</span> gribninger</div>
+    <div class="res-rating-badge" id="res-rating-badge">--</div>
+    <button type="button" id="btn-wt-reset" class="btn-wt-reset">🔄 Prøv igen / Nulstil</button>
+  </div>
+</div>
+
+<style>
+.walltoss-widget-container {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 1.25rem;
+  max-width: 540px;
+  margin: 2rem auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+}
+
+.walltoss-header h3 {
+  margin: 0 0 0.3rem 0 !important;
+  color: #0f172a;
+  font-size: 1.25rem;
+}
+
+.walltoss-header p {
+  margin: 0 0 1rem 0 !important;
+  font-size: 0.85rem;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.walltoss-mode-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1rem;
+  background: #f1f5f9;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.walltoss-tab {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  color: #64748b;
+  font-weight: 700;
+  font-size: 0.8rem;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.walltoss-tab.active {
+  background: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.walltoss-body {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.walltoss-timer-display, .walltoss-counter-display {
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.timer-label, .counter-label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.timer-val {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #2563eb;
+}
+
+.counter-val {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #0f172a;
+}
+
+.walltoss-btn-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn-wt-primary {
+  height: 44px;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  width: 100%;
+}
+.btn-wt-primary:hover { background: #1d4ed8; }
+
+.btn-wt-success {
+  height: 52px;
+  background: #16a34a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  width: 100%;
+}
+.btn-wt-success:hover:not(:disabled) { background: #15803d; transform: scale(1.01); }
+.btn-wt-success:disabled { background: #cbd5e1; cursor: not-allowed; }
+
+.walltoss-manual-group label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 6px;
+}
+
+.walltoss-manual-group input {
+  width: 100%;
+  height: 42px;
+  padding: 0 12px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.walltoss-result-card {
+  background: #0f172a;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.res-score-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.res-rating-badge {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 0.88rem;
+  margin-bottom: 12px;
+}
+
+.rating-excellent { background: #15803d; color: #ffffff; }
+.rating-good { background: #0284c7; color: #ffffff; }
+.rating-average { background: #d97706; color: #ffffff; }
+.rating-below { background: #dc2626; color: #ffffff; }
+
+.btn-wt-reset {
+  background: transparent;
+  border: 1px solid #475569;
+  color: #cbd5e1;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-wt-reset:hover { background: #334155; color: #ffffff; }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const tabLive = document.getElementById('tab-live');
+  const tabManual = document.getElementById('tab-manual');
+  const modeLive = document.getElementById('mode-live-body');
+  const modeManual = document.getElementById('mode-manual-body');
+  
+  const timerVal = document.getElementById('wt-timer-val');
+  const countVal = document.getElementById('wt-count-val');
+  const btnStart = document.getElementById('btn-wt-start');
+  const btnCount = document.getElementById('btn-wt-count');
+  
+  const manualInput = document.getElementById('manual-catches-input');
+  const btnManualCalc = document.getElementById('btn-manual-calc');
+  
+  const resultCard = document.getElementById('walltoss-result-card');
+  const resScoreNum = document.getElementById('res-score-num');
+  const resRatingBadge = document.getElementById('res-rating-badge');
+  const btnReset = document.getElementById('btn-wt-reset');
+
+  let timeLeft = 30;
+  let count = 0;
+  let timerId = null;
+  let isRunning = false;
+
+  // Tab Switching
+  tabLive.addEventListener('click', function() {
+    tabLive.classList.add('active');
+    tabManual.classList.remove('active');
+    modeLive.style.display = 'block';
+    modeManual.style.display = 'none';
+  });
+
+  tabManual.addEventListener('click', function() {
+    tabManual.classList.add('active');
+    tabLive.classList.remove('active');
+    modeManual.style.display = 'block';
+    modeLive.style.display = 'none';
+  });
+
+  function evaluateScore(score) {
+    resScoreNum.textContent = score;
+    resRatingBadge.className = 'res-rating-badge ';
+
+    if (score >= 35) {
+      resRatingBadge.classList.add('rating-excellent');
+      resRatingBadge.textContent = '🌟 Fremragende / Elite (> 35 gribninger)';
+    } else if (score >= 30) {
+      resRatingBadge.classList.add('rating-good');
+      resRatingBadge.textContent = '⚡ Over Gennemsnit (30–34 gribninger)';
+    } else if (score >= 20) {
+      resRatingBadge.classList.add('rating-average');
+      resRatingBadge.textContent = '👍 Gennemsnitlig (20–29 gribninger)';
+    } else {
+      resRatingBadge.classList.add('rating-below');
+      resRatingBadge.textContent = '⚠️ Under Gennemsnit (< 20 gribninger)';
+    }
+
+    resultCard.style.display = 'block';
+  }
+
+  function startTest() {
+    count = 0;
+    timeLeft = 30;
+    isRunning = true;
+    
+    countVal.textContent = '0';
+    timerVal.textContent = '30s';
+    
+    btnStart.disabled = true;
+    btnCount.disabled = false;
+    btnCount.focus();
+    resultCard.style.display = 'none';
+
+    timerId = setInterval(function() {
+      timeLeft--;
+      timerVal.textContent = timeLeft + 's';
+
+      if (timeLeft <= 0) {
+        clearInterval(timerId);
+        isRunning = false;
+        btnStart.disabled = false;
+        btnCount.disabled = true;
+        evaluateScore(count);
+      }
+    }, 1000);
+  }
+
+  btnStart.addEventListener('click', startTest);
+
+  btnCount.addEventListener('click', function() {
+    if (isRunning) {
+      count++;
+      countVal.textContent = count;
+    }
+  });
+
+  // Spacebar to count catches
+  document.addEventListener('keydown', function(e) {
+    if (isRunning && e.code === 'Space') {
+      e.preventDefault();
+      count++;
+      countVal.textContent = count;
+    }
+  });
+
+  btnManualCalc.addEventListener('click', function() {
+    const score = parseInt(manualInput.value, 10);
+    if (!isNaN(score) && score >= 0) {
+      evaluateScore(score);
+    }
+  });
+
+  btnReset.addEventListener('click', function() {
+    clearInterval(timerId);
+    isRunning = false;
+    count = 0;
+    timeLeft = 30;
+    
+    countVal.textContent = '0';
+    timerVal.textContent = '30s';
+    manualInput.value = '';
+    
+    btnStart.disabled = false;
+    btnCount.disabled = true;
+    resultCard.style.display = 'none';
+  });
+});
+</script>

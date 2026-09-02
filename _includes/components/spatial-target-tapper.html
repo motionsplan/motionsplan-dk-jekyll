@@ -1,0 +1,564 @@
+<!-- Spatial Target Tapper Widget (Aim & Precision) -->
+<div class="aim-widget-container" id="aim-container">
+  <!-- Fullscreen Top-Højre Ikon -->
+  <button id="btn-aim-fullscreen" class="aim-icon-btn" type="button" title="Fuld skærm" aria-label="Fuld skærm">
+    <i class="fas fa-expand"></i>
+  </button>
+
+  <div class="aim-header">
+    <h3>Digital Aim & Precision Trainer <i class="fas fa-crosshair" style="margin-left:8px; color:#3b82f6;"></i></h3>
+    <p>Ram målene så hurtigt og præcist som muligt. Måler din visuelt-motoriske sigteevne og reaktionstid.</p>
+  </div>
+
+  <div class="aim-controls">
+    <div class="control-group">
+      <label for="aim-mode">Test-type:</label>
+      <select id="aim-mode" class="aim-select">
+        <option value="20" selected>20 Mål (Standard)</option>
+        <option value="30">30 Sekunder (Sprint)</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="aim-size">Målstørrelse:</label>
+      <select id="aim-size" class="aim-select">
+        <option value="variable" selected>Variabel / Fitts' Lov (Skiftende)</option>
+        <option value="small">Lille (20 px - Elite)</option>
+        <option value="medium">Mellem (38 px - Standard)</option>
+        <option value="large">Stor (56 px - Begynder)</option>
+      </select>
+    </div>
+
+    <div class="control-group btn-group">
+      <button id="btn-aim-start" class="btn-aim-start" type="button">Start Sigte-test</button>
+    </div>
+  </div>
+
+  <div class="aim-arena" id="aim-arena">
+    <!-- Overlay Start Screen -->
+    <div class="aim-overlay" id="aim-overlay">
+      <div class="aim-overlay-content">
+        <i class="fas fa-bullseye aim-big-icon"></i>
+        <p>Tryk på <strong>Start Sigte-test</strong> for at begynde.</p>
+      </div>
+    </div>
+
+    <!-- Live Stat Badges -->
+    <div class="aim-stats-bar">
+      <div class="aim-stat">Hits: <span id="stat-hits">0</span></div>
+      <div class="aim-stat">Misses: <span id="stat-misses">0</span></div>
+      <div class="aim-stat">Gns. Tid: <span id="stat-avg-time">0 ms</span></div>
+    </div>
+
+    <!-- Target Layer -->
+    <div id="aim-target-layer"></div>
+  </div>
+
+  <!-- Results Card -->
+  <div class="aim-result-card" id="aim-result-card" style="display: none;">
+    <h4>Test Resultat</h4>
+    <div class="aim-results-grid">
+      <div class="aim-res-box">
+        <span class="aim-res-label">Gns. Sigtetid</span>
+        <div class="aim-res-value" id="res-time">-- ms</div>
+      </div>
+      <div class="aim-res-box">
+        <span class="aim-res-label">Præcision</span>
+        <div class="aim-res-value" id="res-accuracy">-- %</div>
+      </div>
+    </div>
+    <div class="aim-rating-badge" id="aim-rating-badge">--</div>
+    <button type="button" id="btn-aim-reset" class="btn-aim-reset">🔄 Prøv igen</button>
+  </div>
+</div>
+
+<style>
+.aim-widget-container {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 640px;
+  margin: 2rem auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.aim-icon-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  color: #718096;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+.aim-icon-btn:hover { background: #edf2f7; color: #2d3748; }
+
+.aim-header h3 {
+  margin: 0 0 0.4rem 0 !important;
+  color: #1a202c;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+.aim-header p {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin: 0 0 1.2rem 0 !important;
+}
+
+.aim-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.85rem;
+  align-items: end;
+  margin-bottom: 1.2rem;
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #edf2f7;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.control-group label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #718096;
+  text-transform: uppercase;
+}
+
+.aim-select {
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.85rem;
+  color: #2d3748;
+  cursor: pointer;
+}
+
+.btn-aim-start {
+  height: 40px;
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.btn-aim-start:hover { background: #1d4ed8; }
+
+.btn-aim-start.is-running {
+  background: #ef4444;
+}
+.btn-aim-start.is-running:hover {
+  background: #dc2626;
+}
+
+.aim-arena {
+  position: relative;
+  width: 100%;
+  height: 340px;
+  background: #0f172a;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.aim-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  color: #f8fafc;
+  text-align: center;
+}
+
+.aim-big-icon {
+  font-size: 3rem;
+  color: #3b82f6;
+  margin-bottom: 0.5rem;
+}
+
+.aim-stats-bar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  z-index: 4;
+}
+
+.aim-stat {
+  background: rgba(30, 41, 59, 0.85);
+  color: #cbd5e1;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-mono: monospace;
+}
+
+.aim-target {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ef4444 0%, #dc2626 60%, #991b1b 100%);
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.6);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 3;
+}
+
+.aim-target::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  height: 30%;
+  background: #ffffff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aim-result-card {
+  margin-top: 1rem;
+  background: #1e293b;
+  border-radius: 8px;
+  padding: 1.25rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.aim-result-card h4 {
+  margin: 0 0 0.8rem 0;
+  color: #f8fafc;
+}
+
+.aim-results-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.aim-res-box {
+  background: #0f172a;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+}
+
+.aim-res-label {
+  display: block;
+  font-size: 0.7rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.aim-res-value {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #38bdf8;
+}
+
+.aim-rating-badge {
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: 800;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.rating-pro { background: #15803d; color: #fff; }
+.rating-good { background: #0284c7; color: #fff; }
+.rating-avg { background: #d97706; color: #fff; }
+.rating-slow { background: #b91c1c; color: #fff; }
+
+.btn-aim-reset {
+  background: transparent;
+  border: 1px solid #475569;
+  color: #cbd5e1;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-aim-reset:hover { background: #334155; color: #fff; }
+
+/* Fullscreen Styling */
+.aim-widget-container:fullscreen {
+  background: #0f172a;
+  max-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0;
+  border: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.aim-widget-container:fullscreen .aim-header h3,
+.aim-widget-container:fullscreen .aim-header p {
+  color: #f8fafc !important;
+}
+
+.aim-widget-container:fullscreen .aim-controls {
+  background: #1e293b;
+  border-color: #334155;
+  margin-bottom: 1rem;
+}
+
+.aim-widget-container:fullscreen .aim-arena {
+  flex: 1;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.aim-widget-container:fullscreen .aim-icon-btn {
+  background: #1e293b;
+  border-color: #475569;
+  color: #cbd5e1;
+}
+.aim-widget-container:fullscreen .aim-icon-btn:hover {
+  background: #334155;
+  color: #ffffff;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('aim-container');
+  const arena = document.getElementById('aim-arena');
+  const targetLayer = document.getElementById('aim-target-layer');
+  const overlay = document.getElementById('aim-overlay');
+  
+  const btnStart = document.getElementById('btn-aim-start');
+  const btnFullscreen = document.getElementById('btn-aim-fullscreen');
+  const modeSelect = document.getElementById('aim-mode');
+  const sizeSelect = document.getElementById('aim-size');
+  
+  const statHits = document.getElementById('stat-hits');
+  const statMisses = document.getElementById('stat-misses');
+  const statAvgTime = document.getElementById('stat-avg-time');
+  
+  const resultCard = document.getElementById('aim-result-card');
+  const resTime = document.getElementById('res-time');
+  const resAccuracy = document.getElementById('res-accuracy');
+  const ratingBadge = document.getElementById('aim-rating-badge');
+  const btnReset = document.getElementById('btn-aim-reset');
+
+  let isRunning = false;
+  let hits = 0;
+  let misses = 0;
+  let targetTimes = [];
+  let lastTargetSpawn = 0;
+  let timerId = null;
+
+  function getTargetSize() {
+    const mode = sizeSelect.value;
+    if (mode === 'large') return 56;
+    if (mode === 'medium') return 38;
+    if (mode === 'small') return 20;
+    if (mode === 'variable') {
+      // Markant spænd fra 18 px til 60 px for tydelig variation
+      return Math.floor(Math.random() * (60 - 18 + 1)) + 18;
+    }
+    return 38;
+  }
+
+  function spawnTarget() {
+    targetLayer.innerHTML = '';
+    
+    const rect = arena.getBoundingClientRect();
+    const size = getTargetSize();
+    const padding = size;
+
+    const maxX = rect.width - padding;
+    const minX = padding;
+    const maxY = rect.height - padding;
+    const minY = padding + 25; // Undgå overlap med stats bar
+
+    const x = Math.floor(Math.random() * (maxX - minX + 1)) + minX;
+    const y = Math.floor(Math.random() * (maxY - minY + 1)) + minY;
+
+    const target = document.createElement('div');
+    target.className = 'aim-target';
+    target.style.width = size + 'px';
+    target.style.height = size + 'px';
+    target.style.left = x + 'px';
+    target.style.top = y + 'px';
+
+    target.addEventListener('pointerdown', function(e) {
+      e.stopPropagation();
+      if (!isRunning) return;
+
+      const hitTime = performance.now() - lastTargetSpawn;
+      targetTimes.push(hitTime);
+      hits++;
+      statHits.textContent = hits;
+      
+      updateAvgTime();
+      checkGameStatus();
+    });
+
+    targetLayer.appendChild(target);
+    lastTargetSpawn = performance.now();
+  }
+
+  function updateAvgTime() {
+    if (targetTimes.length === 0) return;
+    const sum = targetTimes.reduce((a, b) => a + b, 0);
+    const avg = Math.round(sum / targetTimes.length);
+    statAvgTime.textContent = avg + ' ms';
+  }
+
+  arena.addEventListener('pointerdown', function(e) {
+    if (!isRunning) return;
+    if (e.target.classList.contains('aim-target')) return;
+    
+    misses++;
+    statMisses.textContent = misses;
+  });
+
+  function checkGameStatus() {
+    const mode = modeSelect.value;
+    if (mode !== '30' && hits >= parseInt(mode, 10)) {
+      endGame();
+    } else {
+      spawnTarget();
+    }
+  }
+
+  function startGame() {
+    isRunning = true;
+    hits = 0;
+    misses = 0;
+    targetTimes = [];
+    
+    statHits.textContent = '0';
+    statMisses.textContent = '0';
+    statAvgTime.textContent = '0 ms';
+    
+    overlay.style.display = 'none';
+    resultCard.style.display = 'none';
+    
+    modeSelect.disabled = true;
+    sizeSelect.disabled = true;
+
+    btnStart.textContent = 'Stop Test';
+    btnStart.classList.add('is-running');
+
+    spawnTarget();
+
+    const mode = modeSelect.value;
+    if (mode === '30') {
+      timerId = setTimeout(endGame, 30000);
+    }
+  }
+
+  function endGame() {
+    isRunning = false;
+    if (timerId) clearTimeout(timerId);
+    targetLayer.innerHTML = '';
+    
+    modeSelect.disabled = false;
+    sizeSelect.disabled = false;
+
+    btnStart.textContent = 'Start Sigte-test';
+    btnStart.classList.remove('is-running');
+
+    const totalAttempts = hits + misses;
+    const accuracy = totalAttempts > 0 ? Math.round((hits / totalAttempts) * 100) : 0;
+    const sumTime = targetTimes.reduce((a, b) => a + b, 0);
+    const avgTime = targetTimes.length > 0 ? Math.round(sumTime / targetTimes.length) : 0;
+
+    resTime.textContent = avgTime + ' ms';
+    resAccuracy.textContent = accuracy + '%';
+
+    ratingBadge.className = 'aim-rating-badge ';
+    if (avgTime > 0 && avgTime < 380 && accuracy >= 90) {
+      ratingBadge.classList.add('rating-pro');
+      ratingBadge.textContent = '🚀 Elite Præcision & Lynhurtigt Sigte!';
+    } else if (avgTime < 480 && accuracy >= 80) {
+      ratingBadge.classList.add('rating-good');
+      ratingBadge.textContent = '⚡ Over Gennemsnitlig Hånd-Øje Reaktion';
+    } else if (accuracy >= 70) {
+      ratingBadge.classList.add('rating-avg');
+      ratingBadge.textContent = '👍 Godkendt Grund-præcision';
+    } else {
+      ratingBadge.classList.add('rating-slow');
+      ratingBadge.textContent = '⚠️ Mange forbi-skud eller langsom reaktion';
+    }
+
+    resultCard.style.display = 'block';
+    overlay.style.display = 'flex';
+  }
+
+  btnStart.addEventListener('click', function() {
+    if (isRunning) endGame();
+    else startGame();
+  });
+
+  btnReset.addEventListener('click', startGame);
+
+  btnFullscreen.addEventListener('click', function() {
+    if (!document.fullscreenElement) {
+      if (container.requestFullscreen) {
+        container.requestFullscreen();
+      } else if (container.webkitRequestFullscreen) {
+        container.webkitRequestFullscreen();
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+    }
+  });
+
+  document.addEventListener('fullscreenchange', function() {
+    const icon = btnFullscreen.querySelector('i');
+    if (document.fullscreenElement) {
+      icon.className = 'fas fa-compress';
+      btnFullscreen.title = 'Luk fuld skærm';
+    } else {
+      icon.className = 'fas fa-expand';
+      btnFullscreen.title = 'Fuld skærm';
+    }
+  });
+});
+</script>
