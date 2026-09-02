@@ -88,7 +88,7 @@ Når du skal flytte din finger eller en mus mod et mål på skærmen (eller ramm
 1. **Ballistisk fase (Grov-bevægelsen):** Et hurtigt motorisk stød, hvor armen eller fingeren sendes i retning af målet.
 2. **Visuel korrektionsfase (Fin-justeringen):** Sidste del af bevægelsen, hvor øjnene lynhurtigt måler afstanden til målet og sender mikro-korrektioner til musklerne for ikke at ramme ved siden af.
 
-Jo hurtigere du prøver at udføre bevægelsen, desto kortere tid har hjernen til den visuelle korrektionsfase — hvilket øger risikoen for forbi-skud. Målet med din hånd-øje-træning er at flytte denne grænse, så du kan fastholde maksimal præcision ved højest mulige hastighed.
+Jo hurtigere du prøver at udføre bevægelsen, desto kortere tid har hjernen til den visuelle korrektionsfase — hvilket øger risikoen for forbiere. Målet med din hånd-øje-træning er at flytte denne grænse, så du kan fastholde maksimal præcision ved højest mulige hastighed.
 
 ---
 

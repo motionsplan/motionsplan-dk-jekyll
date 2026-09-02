@@ -241,8 +241,9 @@ Her har jeg givet et bud på vurderingskriterier for distancen gennemført på C
 
 Cooper (1968) lavede selv en tabel over normalværdier for distance på Cooper-testen for mænd og kvinder, hvor du kan vurdere dig selv i forhold til forskellige distancer.
 
-Værdierne fra disse skemaer over Cooper-testen er lidt anderledes end de tabeller, du kan finde på den [danske Wikipedia-side for Cooper-testen](https://da.wikipedia.org/wiki/Coopertest). Det ved jeg ikke hvorfor. Hvis du gør, så brug endelig kommentarerne.
-{: notice .notice--info }
+> **Hvorfor afviger vores tabeller fra den danske Wikipedia?**  
+> Den danske Wikipedia-tabel bygger på tilpassede normer fra det danske gymnasiesystem og afrundede 100-meter intervaller. Vores skemaer benytter dr. Kenneth Coopers originale 1968-data samt den præcise fysiologiske formel for iltoptagelse, så din distance og dit beregnede kondital altid matcher 100%.
+{: .notice--info }
 
 Hvis du sammenligner værdierne i tabellerne fra Cooper (1968) med det kondital, du kan udregne i vores beregner, så ender du i forskellige kategorier. Der er stor forskel i vurderingen, om du bruger [tabellen over kondital](/kondital/) eller Coopers skema til at vurdere din kondition.
 
@@ -303,10 +304,10 @@ Alder|Meget lavt|Lavt|Middel|Højt|Meget højt
 15-19|< 2473|2473 - 2697|2697 - 3055|3055 - 3278|3278+
 20-29|< 2249|2249 - 2473|2473 - 2831|2831 - 3055|3055+
 30-39|< 2070|2070 - 2294|2294 - 2652|2652 - 2831|2831+
-30-49|< 1892|1892 - 2115|2115 - 2473|2473 - 2652|2652+
-50-59|< 2115|1668 - 1936|1936 - 2294|2294 - 2473|2473+
-60-69|< 1489|1489 - 1713|2160 - 2115|2115 - 2294|2294+
-70-|< 1400|1400 - 1623|2070 - 1981|1981 - 2205|2205+
+40-49|< 1892|1892 - 2115|2115 - 2473|2473 - 2652|2652+
+50-59|< 1668|1668 - 1936|1936 - 2294|2294 - 2473|2473+
+60-69|< 1489|1489 - 1713|1713 - 2160|2160 - 2294|2294+
+70-|< 1400|1400 - 1623|1623 - 2070|2070 - 2205|2205+
 
 ### Modificeret tabel for Cooper-test for kvinder
 
@@ -315,7 +316,7 @@ Alder|Meget lavt|Lavt|Middel|Højt|Meget højt
 5-14|< 2070|2070 - 2294|2294 - 2652|2652 - 2831|2831+
 15-29|< 1802|1802 - 2070|2070 - 2473|2473 - 2697|2697+
 30-39|< 1757|1757 - 2026|2026 - 2384|2384 - 2652|2652+
-30-49|< 1668|1668 - 1936|1936 - 2339|2339 - 2562|2562+
+40-49|< 1668|1668 - 1936|1936 - 2339|2339 - 2562|2562+
 50-64|< 1489|1489 - 1802|1802 - 2160|2160 - 2384|2384+
 65-|< 1400|1400 - 1713|1713 - 2070|2070 - 2294|2294+
 
@@ -327,8 +328,8 @@ Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brug
 
 | Køn | Fremragende | Godt      | Gennemsnitlig | Dårlig    | Forfærdelig |
 |:-------:|:---------------:|:-------------:|:-----------------:|:-------------:|:---------------:|
-| Male    | > 3700 m        | 3400 - 3700 m | 3100 - 3399 m     | 2800 - 3099 m | < 2800 m        |
-| Female  | > 3000 m        | 2700 - 3000 m | 2400 - 2699 m     | 2100 - 2399 m | < 2100 m        |
+| Mand   | > 3700 m        | 3400 - 3700 m | 3100 - 3399 m     | 2800 - 3099 m | < 2800 m        |
+| Kvinde  | > 3000 m        | 2700 - 3000 m | 2400 - 2699 m     | 2100 - 2399 m | < 2100 m        |
 
 {% comment %}
 
@@ -428,7 +429,7 @@ Du kan sagtens gennemføre en Cooper-test på et løbebånd. Det er en populær 
 
 * **Sæt hældningen til 1,0%:** Indendørs møder du ingen vindmodstand. Ved at indstille løbebåndet til 1,0% stigning kompenserer du fysiologisk for den manglende luftmodstand og får et testresultat, der matcher udendørs løb.
 * **Læg en fast tempostrategi på forhånd:** Modsat udendørs løb, hvor du trinløst justerer farten med benene, kræver fartændringer på løbebåndet tryk på knapper samt tid til, at motoren accelererer. Vælg din målhastighed i km/t inden start i stedet for at gætte undervejs.
-* **Pas på sikkerheden i slutspurten:** En Cooper-test er en all-out $v\text{VO}_2\max$-test. I de sidste 2–3 minutter ophobes mælkesyre, og koordinationen svækkes. Pas på med at skrue løbebåndet op til en vild slutspurt, hvis benene er ved at syre helt til.
+* **Pas på sikkerheden i slutspurten:** En Cooper-test er en all-out vVO₂max-test. I de sidste 2–3 minutter ophobes mælkesyre, og koordinationen svækkes. Pas på med at skrue løbebåndet op til en vild slutspurt, hvis benene er ved at syre helt til.
 
 ---
 
@@ -451,7 +452,7 @@ $$\text{Distance (meter)} = \text{Hastighed (km/t)} \cdot 200$$
 
 **Eksempel:**
 
-Løber du med en fast hastighed på $14{,}5 \text{ km/t}$ i alle 12 minutter, har du tilbagelagt: $14{,}5 \cdot 200 = 2.900 \text{ meter}$.
+Løber du med en fast hastighed på 14,5 km/t i alle 12 minutter, har du tilbagelagt: $14{,}5 \cdot 200 = 2.900 \text{ meter}$.
 
 ### Omregningstabel: Fart på løbebånd til Cooper-distance
 
@@ -469,7 +470,7 @@ Hold en fast hastighed på løbebåndet i alle 12 minutter for at nå din måldi
 | **17,0 km/t** | 3.400 meter | 3:32 min/km | Eliteniveau |
 | **18,0 km/t** | 3.600 meter | 3:20 min/km | Topatlet |
 
-> 💡 **Tip til løbebåndet:** Hvis du vil lave en progressiv Cooper-test (fx lægge ud ved $13{,}0 \text{ km/t}$ og slutte ved $15{,}0 \text{ km/t}$), beregner løbebåndet selv distancen løbende. Tjek blot, at du tager **1,0% hældning** på fra start!
+> 💡 **Tip til løbebåndet:** Hvis du vil lave en progressiv Cooper-test (fx lægge ud ved 13,0 km/t og slutte ved 15,0 km/t), beregner løbebåndet selv distancen løbende. Tjek blot, at du tager **1,0% hældning** på fra start!
 
 ## Konklusion - Hvordan kan Cooper testen hjælpe dig?
 
@@ -477,7 +478,7 @@ Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er
 
 Jeg synes ikke de oprindelige tabeller til vurdering af din præstation baseret på distancen er så anvendelige. Det er bedre at udregne dit kondital eller bruge de modificerede tabeller, jeg har lavet ved at regne distancen baseret på [kategorierne for konditallet](/kondital/).
 
-Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen](/kondital-2400-meter/) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
+Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen](/kondital-2400-meter/), der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/), et godt alternativ.
 
 ## Ofte stillede spørgsmål
 
