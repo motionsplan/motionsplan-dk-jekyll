@@ -17,6 +17,7 @@ tags:
   - postural kontrol
 categories:
   - Balance
+breadcrumbs: true
 last_modified_at: 2026-08-02T12:00:00Z
 faq:
   - question: Hvad er forskellen på statisk og dynamisk balance?

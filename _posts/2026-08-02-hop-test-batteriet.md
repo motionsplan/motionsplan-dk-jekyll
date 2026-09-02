@@ -96,6 +96,8 @@ Før du går i gang med de 4 tests, er der et par standardiserede regler, der sk
 
 Du skal bruge et fladt underlag med god friktion, et målebånd på mindst 6 meter og noget sportstape. En tape-stribe på ca. 6 meter markeres på gulvet som hjælpelinje.
 
+{% include figure image_path="https://static.wixstatic.com/media/04409a_15a74c73bca34856b882e61334e11bf5~mv2.jpg/v1/fill/w_504,h_480,al_c,lg_1,q_80,enc_avif,quality_auto/04409a_15a74c73bca34856b882e61334e11bf5~mv2.jpg" caption="Illustration af hoptest-batteriet." %}
+
 ### 1. Single Hop for Distance (Enkelt hop)
 Dette er basistesten, som måler den eksplosive fremdrift fra ét ben og evnen til at bremse kraften i landingen.
 * **Udførelse:** Stå på ét ben med tåen lige bag startstregen. Hop så langt frem som muligt på det samme ben, og "frys" landingen.
