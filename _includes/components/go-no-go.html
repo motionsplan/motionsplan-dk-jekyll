@@ -10,11 +10,11 @@
     <div class="gonogo-rules">
       <div class="rule-item rule-go">
         <span class="rule-circle bg-green"></span>
-        <span><strong>GRØN cirkel (GO):</strong> Tap lynhurtigt på skærmen!</span>
+        <span><strong>GRØN cirkel (GO):</strong> Tap lynhurtigt på skærmen eller tryk på <strong>Mellemrumstast</strong>!</span>
       </div>
       <div class="rule-item rule-nogo">
         <span class="rule-circle bg-red"></span>
-        <span><strong>RØD cirkel (NO-GO):</strong> RØR IKKE SKÆRMEN!</span>
+        <span><strong>RØD cirkel (NO-GO):</strong> RØR IKKE SKÆRMEN / TASTEN!</span>
       </div>
     </div>
 
@@ -28,7 +28,7 @@
       <span id="gonogo-score-live">Fejl: 0</span>
     </div>
 
-    <div class="gonogo-target-area" id="gonogo-target-box">
+    <div class="gonogo-target-area" id="gonogo-target-box" tabindex="0">
       <div class="gonogo-target-circle" id="gonogo-circle"></div>
       <div class="gonogo-feedback-msg" id="gonogo-feedback"></div>
     </div>
@@ -57,7 +57,8 @@
     <div class="gonogo-assessment" id="gonogo-assessment">
       <!-- Genereres dynamisk -->
     </div>
-<div class="result-actions">
+    
+    <div class="result-actions">
       <button class="btn btn--success" id="retry-gonogo-btn">Prøv igen</button>
       <a href="/kognitive-tests/#dashboard" class="btn btn--outline">← Kontrolpanel</a>
     </div>
@@ -150,6 +151,10 @@
   justify-content: center;
   position: relative;
   cursor: pointer;
+  outline: none;
+  
+  /* LOW LATENCY TOUCH OPTIMERING: Slår skærm-zooming og panorering fra */
+  touch-action: none;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -159,7 +164,7 @@
   border-radius: 50%;
   display: none;
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-  transition: transform 0.1s ease;
+  transition: transform 0.05s ease;
 }
 
 .gonogo-target-circle.active {
@@ -208,11 +213,13 @@
   margin-bottom: 1.5rem;
   text-align: left;
 }
+
 .result-actions {
   display: flex;
   gap: 10px;
   margin-top: 1.5rem;
 }
+
 .result-actions .btn, .result-actions a.btn {
   flex: 1;
   padding: 14px;
@@ -224,12 +231,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .btn--outline {
   background: transparent;
   border: 2px solid #cbd5e0;
   color: #4a5568;
   transition: all 0.2s ease;
 }
+
 .btn--outline:hover {
   background: #f7fafc;
   color: #2d3748;
@@ -244,7 +253,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const DISPLAY_TIME = 900; // Cirkel synlig i ms
 
   let currentRound = 0;
-  let falseAlarms = 0; // Fejl-taps på No-Go
+  let falseAlarms = 0;
   let totalNoGo = 0;
   let correctGoTaps = 0;
   let totalGo = 0;
@@ -294,7 +303,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const pauseTime = Math.floor(Math.random() * 1500) + 800; // 0.8 til 2.3s pause
 
     setTimeout(function() {
-      // Bestem om det er GO eller NO-GO
+      if (currentRound > TOTAL_ROUNDS) return;
+
       isCurrentGo = Math.random() >= NOGO_RATIO;
       if (isCurrentGo) {
         totalGo++;
@@ -306,20 +316,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
       circle.classList.add('active');
       roundActive = true;
-      roundStartTime = Date.now();
+      
+      // Måling med sub-millisekund præcision
+      roundStartTime = performance.now();
 
-      // Cirklen forsvinder automatisk efter DISPLAY_TIME ms
       roundTimer = setTimeout(function() {
         if (roundActive) {
           circle.classList.remove('active');
           roundActive = false;
 
           if (!isCurrentGo && !roundTapped) {
-            // Korrekt overholdt No-Go
             feedbackEl.textContent = ' Flot holdt!';
             feedbackEl.style.color = '#38a169';
           } else if (isCurrentGo && !roundTapped) {
-            // For langsom på Go
             feedbackEl.textContent = '⚠️ For langsom!';
             feedbackEl.style.color = '#dd6b20';
           }
@@ -332,7 +341,10 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function handleTap(e) {
-    if (e) e.preventDefault();
+    if (e) {
+      if (e.cancelable) e.preventDefault();
+    }
+    
     if (!roundActive || roundTapped) return;
 
     roundTapped = true;
@@ -340,7 +352,8 @@ document.addEventListener('DOMContentLoaded', function() {
     clearTimeout(roundTimer);
     roundActive = false;
 
-    const reactionTime = Date.now() - roundStartTime;
+    // Højpræcisions reaktionstid
+    const reactionTime = Math.round(performance.now() - roundStartTime);
 
     if (isCurrentGo) {
       correctGoTaps++;
@@ -372,6 +385,7 @@ document.addEventListener('DOMContentLoaded', function() {
     resultScreen.style.display = 'none';
     gameScreen.style.display = 'block';
 
+    targetBox.focus();
     startRound();
   }
 
@@ -387,7 +401,6 @@ document.addEventListener('DOMContentLoaded', function() {
     resSpeed.textContent = avgGoMs + ' ms';
     resErrors.textContent = falseAlarms + ' / ' + totalNoGo;
 
-    // Gem resultat i localStorage til dashboardet
     try {
       const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
       store['gonogo'] = {
@@ -412,8 +425,18 @@ document.addEventListener('DOMContentLoaded', function() {
     assessmentEl.innerHTML = feedback;
   }
 
-  targetBox.addEventListener('click', handleTap);
-  targetBox.addEventListener('touchstart', handleTap, { passive: false });
+  // LOW LATENCY EVENT LISTENERS:
+  // 1. Pointerdown registrerer touch/mus øjeblikkeligt uden 300ms mobil-forsinkelse
+  targetBox.addEventListener('pointerdown', handleTap);
+
+  // 2. Tastatur-lytter til Mellemrumstast / Enter med snyde-spærring
+  window.addEventListener('keydown', function(e) {
+    if (!roundActive) return;
+    if (e.code === 'Space' || e.code === 'Enter') {
+      if (e.repeat) return; // Forhindrer hold-nede snyd
+      handleTap(e);
+    }
+  });
 
   startBtn.addEventListener('click', startGame);
   retryBtn.addEventListener('click', startGame);

@@ -140,7 +140,7 @@
       <span class="grade-badge-value" id="grade-value">--</span>
       <div class="grade-text-group">
         <span class="grade-title" id="grade-title">POLITI KARAKTER</span>
-        <span class="grade-subtext" id="grade-subtext">Tryk på 'Færdige... Løb!' for at starte tidtagningen</span>
+        <span class="grade-subtext" id="grade-subtext">Tryk på knappen eller Space for at starte</span>
       </div>
     </div>
   </div>
@@ -254,11 +254,16 @@
 .grade-title { font-size: 0.9rem; font-weight: 900; letter-spacing: 0.03em; }
 .grade-subtext { font-size: 0.78rem; font-weight: 700; opacity: 0.85; margin-top: 2px; }
 
-/* KÆMPE KNAPPER FOR TIDTAGER */
+/* KÆMPE KNAPPER FOR TIDTAGER MED LOW-LATENCY TOUCH */
 .politi-controls { display: flex; gap: 10px; margin-bottom: 14px; }
 .btn--giant-action {
   flex: 3; padding: 18px 12px; font-size: 1.35rem; font-weight: 900; border-radius: 14px; border: none; cursor: pointer; color: white; background: #228be6;
-  box-shadow: 0 6px 16px rgba(34, 139, 230, 0.35); transition: transform 0.1s ease, background-color 0.2s ease;
+  box-shadow: 0 6px 16px rgba(34, 139, 230, 0.35); transition: transform 0.05s ease, background-color 0.2s ease;
+  outline: none;
+  
+  /* LOW LATENCY OPTIMERING: Ingen skærmpanorering eller zoom-delay */
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 .btn--giant-action:active { transform: scale(0.97); }
 .btn--giant-action.is-running { background: #fa5252; box-shadow: 0 6px 16px rgba(250, 82, 82, 0.35); }
@@ -311,7 +316,6 @@
 .badge-red { background: #e03131; }
 .badge-gray { background: #868e96; }
 
-/* Billed-knap nederst */
 .politi-screenshot-wrapper { margin-top: 16px; width: 100%; }
 .btn--screenshot {
   width: 100%; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 10px;
@@ -364,7 +368,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const infoIconBtn = widget.querySelector(".info-icon-btn");
   const modalCloseBtn = widget.querySelector(".modal-close-btn");
 
-  // OFFICIEL POLITI KARAKTERSKALA
   function calculatePolitiGrade(timeInSecs, genderCode) {
     const t = parseFloat(timeInSecs.toFixed(2));
     if (genderCode === 'm') {
@@ -487,6 +490,11 @@ document.addEventListener("DOMContentLoaded", function() {
     evaluateTime(elapsedSecs, true);
   }
 
+  function toggleTimerState() {
+    if (!isRunning) startTimer();
+    else stopTimer();
+  }
+
   function evaluateTime(timeSecs, autoSave) {
     const res = calculatePolitiGrade(timeSecs, selectedGender);
     
@@ -505,7 +513,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  // LOCALSTORAGE & TABEL STYRING
   function saveToLocalStorage(timeSecs, genderCode, grade) {
     const logs = JSON.parse(localStorage.getItem("politi_8tal_logs") || "[]");
     const now = new Date();
@@ -599,7 +606,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     gradeValue.textContent = "--";
     gradeTitle.textContent = "POLITI KARAKTER";
-    gradeSubtext.textContent = "Tryk på 'Færdige... Løb!' for at starte tidtagningen";
+    gradeSubtext.textContent = "Tryk på knappen eller Space for at starte";
     gradeResultCard.className = "grade-result-card neutral";
 
     if (figure8Path) {
@@ -609,7 +616,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  // BILLEDE TAGNINGS FUNKTION (html2canvas integration)
   function takeScreenshot() {
     function capture() {
       html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
@@ -630,9 +636,22 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  btnStartStop.addEventListener("click", () => {
-    if (!isRunning) startTimer();
-    else stopTimer();
+  // LOW LATENCY POINTER-DOWN EVENT LISTENERS
+  btnStartStop.addEventListener("pointerdown", function(e) {
+    if (e.cancelable) e.preventDefault();
+    toggleTimerState();
+  });
+
+  // TASTATUR-SUPPORT (Mellemrumstast & Enter for instruktører med laptop)
+  window.addEventListener("keydown", function(e) {
+    if (e.code === "Space" || e.code === "Enter") {
+      // Tjek at brugeren ikke er ved at skrive i et inputfelt
+      if (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "SELECT") return;
+      
+      if (e.repeat) return; // Forhindrer hold-nede snyd
+      e.preventDefault();
+      toggleTimerState();
+    }
   });
 
   btnReset.addEventListener("click", resetWidget);

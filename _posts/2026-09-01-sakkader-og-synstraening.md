@@ -51,6 +51,84 @@ Udover at træne øjets linse (akkommodation), træner det i høj grad de horiso
 
 Men du behøver ikke printe lister ud for at træne dine øjne i dag.
 
+{% include figure image_path="https://www.visus.de/media/image/5b/87/63/80109-hart-chart_600x600.png" caption="Hart Chart - træner både sakkader og akkomodation at kigge langt fra og tæt på." %}
+
+## Sakkade-pyramider: Fra "finger-styring" til ren visuel kontrollering
+
+Når du læser eller scanner en bane, kombinerer hjernen lynhurtige sakkader med mindre, glidende bevægelser. Mange mennesker — både børn, kognitivt trætte atleter og folk under genoptræning — oplever, at øjnene "hopper af sporet" eller mister linjen. 
+
+For at kompensere bruger man ofte en finger under teksten. I fysiologien kaldes dette for **proprioception** (kroppens sans for egne bevægelser), hvor du lader hånden guide øjets fiksationspunkt. 
+
+For at opbygge reel styrke og præcision i øjets muskler skal du fjerne dette "støttehjul". Det er her **Sakkade-pyramider** kommer ind i billedet.
+
+### Hvad er en Sakkade-pyramide?
+En Sakkade-pyramide er et print-selv ark eller digitalt skema, hvor bogstaver eller tal står opstillet i en pyramideform, der bliver bredere og bredere nedad. 
+
+{% include figure image_path="/assets/images/blog/saccade.jpeg" caption="Sakkade pyramiden" %}
+
+### Sådan udføres øvelsen:
+1. **Fikser hovedet:** Hold hovedet 100 % stille — kun øjnene må bevæge sig.
+2. **Hop fra side til side:** Læs øverste par (fx 1 ➔ 2), hop derefter ned til næste linje (A ➔ B), og fortsæt ned til bunden, hvor afstanden er størst.
+3. **INGEN fingre:** Hold hænderne på ryggen eller i skødet. Du må ikke pege på næste tegn.
+4. **Progression:** Start med pyramider, der har støttelinjer trukket mellem tegnene. Når du kan køre dem lynhurtigt uden at miste orienteringen, skifter du til Avancerede Pyramider uden linjer.
+
+
+## Sakkade-penne: Partnertræning af præcision og hæmningskontrol
+
+Sakkade-penne (*Saccade Pens*) er en effektiv, analog partnerøvelse, der styrker øjnenes præcision og koordination. Hvor digitale øvelser primært træner dine reaktive evner, træner denne øvelse både dine reaktive fiksationer og din evne til bevidst at undertrykke synsreflekser (hæmningskontrol / anti-sakkader).
+
+{% include figure image_path="https://cdn.prod.website-files.com/655d3a8af50e9270145a6c46/657f9eeb7367791cbd938bd8_saccade-2-pens.jpeg" caption="Sakkade blyanterne" %}
+
+### Det skal du bruge
+* En makker (træner, holdkammerat eller forælder)
+* 2 kuglepenne
+
+### Grundopstilling
+1. Din makker sidder direkte over for dig med ca. 1 meters afstand.
+2. Makkeren holder de to penne vandret i øjenhøjde med ca. 50 cm afstand imellem dem.
+3. Du starter med at fiksere blikket direkte på din makkers næse.
+4. **VIGTIGT:** Hold hovedet 100 % stille under hele øvelsen — det er kun øjnene, der må bevæge sig.
+
+### Niveau 1: Reaktive Sakkader (Næse ➔ Pen ➔ Næse)
+* Makkeren ryster forsigtigt den ene pen.
+* Så snart du opfanger bevægelsen i dit perifere syn, flytter du lynhurtigt blikket over på den rystende pen og stiller skarpt.
+* Kast derefter straks blikket tilbage på makkerens næse.
+* Makkeren varierer tilfældigt, hvilken pen der rystes, i **1 minut**.
+* Hold 30 sekunders pause.
+
+### Niveau 2: Hæmningskontrol / Anti-sakkader
+* I denne runde sker det modsatte: Når makkeren ryster den ene pen, må du **IKKE** kigge på den!
+* Du skal i stedet tvinge øjnene til lynhurtigt at kigge over på den **stillestående pen**.
+* Dette træner din hjerne i aktivt at undertrykke automatiske reflekser og i stedet vælge det rigtige fiksationspunkt — en afgørende evne på banen, når du skal lade være med at falde for modstanderens finte.
+* Kør i **1 minut** efterfulgt af 30 sekunders pause.
+
+### Variation og progression
+* **Vinkel og retning:** Skift stilling på pennene mellem hver runde, så de står lodret (op/ned) eller diagonalt.
+* **Bredere synsfelt:** Øg afstanden mellem de to penne, så øjnene tvinges ud i større vinkler.
+* **Dosering:** Gennemfør 5 runder af 1 minuts varighed 1-3 gange om ugen.
+
+---
+
+## Retningsbestemte sakkader og deres funktion i sport
+
+Dine øjenmuskler arbejder i tre primære planer. For at opnå en komplet synstræning bør du variere bevægelsesmønsteret:
+
+* **Vandrette (Horisontale) Sakkader:** Træner lynhurtig scanning fra side til side. Essentielt for at overskue spillet på tværs af banen i boldsport og forbedre læsehastighed.
+* **Lodrette (Vertikale) Sakkader:** Træner øjets evne til at skifte linje i højdeplanet. Afgørende når du skal bedømme høje bolde i ketsjersport, spring i basketball eller trappeløb.
+* **Diagonale Sakkader:** Den mest komplekse bevægelse, hvor både de lige og de skrå øjenmuskler (*musculi obliqui*) skal fyre synkront.
+* **Tilfældige (Reaktive) Sakkader:** Tvinger hjernen til at reager uforudsigeligt på visuelle stimuli frem for at køre i en fast rytme.
+
+---
+
+## Kliniske forbehold og hjernerystelse (mTBI)
+
+Selvom sakkadetræning har vist store resultater i nyere forskning inden for både sportsperformance og hjjernerystelses-rehabilitering (*mild Traumatic Brain Injury*), er det vigtigt at skelne mellem synstræning og balancetræning:
+
+<div class="notice--info" markdown="1">
+**🩺 Klinisk retningslinje (APTA 2022 Guidelines):**
+Sakkadetræning *uden* hovedbevægelse isolerer de ekstraokulære øjenmuskler ideelt til sport. Dog anbefaler *Academy of Neurologic Physical Therapy*, at personer med vestibulære balanceforstyrrelser (uægtet svimmelhed) ikke laver isolerede øjenøvelser uden samtidig hovedbevægelse, da syn og balanceapparat her skal genoptrænes i samspil.
+</div>
+
 ---
 
 ## Træn dine sakkader online

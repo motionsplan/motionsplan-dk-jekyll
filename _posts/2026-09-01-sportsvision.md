@@ -40,7 +40,7 @@ Sakkader er de lynhurtige hop, dine øjne foretager, når du flytter blikket fra
 
 **Typisk problem på banen:** Du er langsom til at skifte blikket fra bolden på fødderne op til en fri medspiller.
 
-**Træn det her:** [Åbn Sakkade-Paceren & Læs om Hart Charts](/sakkader-synstraening/#widget)
+**Træn det her:** [Træn sakkade & Læs om Hart Charts](/sakkader-synstraening/#widget)
 
 ### 2. Smooth Pursuit (Visuel sporing)
 Smooth pursuit er øjets evne til at fange et objekt i bevægelse og følge det i en helt glidende, uafbrudt bevægelse. Hvis systemet er utrænet, vil øjnene "chokke" og hoppe undervejs, hvilket slører billedet af bolden.
@@ -61,7 +61,7 @@ Det perifere syn reagerer lynhurtigt på bevægelse i udkanten af dit synsfelt. 
 
 **Typisk problem på banen:** Du får "tunnelsyn", når du bliver træt, og bliver overrumplet af modstandere fra siden.
 
-**Træn det her:** [Åbn Periferi-Træneren & Se baneøvelser](/perifert-syn-synstraening/#widget)
+**Træn det her:** [Træn dit periferisyn](/perifert-syn-synstraening/#widget)
 
 ---
 
@@ -107,5 +107,5 @@ Synstræning hænger tæt sammen med din generelle kognitive reaktionsevne. Supp
 * **Erickson, G. B. (2007).** *Sports Vision: Vision Care for the Enhancement of Sports Performance.* Butterworth-Heinemann.
 * **Vickers, J. N. (2007).** *Perception, Cognition, and Decision Training: The Quiet Eye in Action.* Human Kinetics.
 * **Vater, C., Williams, A. M., & Hossner, E. J. (2020).** *Assessment of peripheral vision in sport: A systematic review.* Sports Medicine, 50(6), 1133–1148.
-
+* **Buscemi et al (2024).** *Role of Sport Vision in Performance: Systematic Review*
 </details>

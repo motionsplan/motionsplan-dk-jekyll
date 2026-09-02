@@ -45,7 +45,7 @@ tools:
     category: ["Restitution", "Psykologi"]
     type: ["Testværktøj"]
     execution: ["Testberegner"]
-    anchor: "#test-dit-visuelle-fokus"
+    anchor: "#widget"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-08-31T23:55:00Z'
 toc: 'true'
@@ -67,7 +67,8 @@ Når du skal gribe en bold i et tætpakket felt, fange en aflevering under pres 
 
 ---
 
-## Test dit visuelle fokus her
+## Test dit visuelle fokus online
+{: id="widget" }
 
 Hold øjnene på midten af boksen. Tryk på knappen **Venstre** eller **Højre** ud fra hvilken vej den **MIDTERSTE PIL** peger!
 

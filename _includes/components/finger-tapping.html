@@ -171,26 +171,10 @@
 .toggle-btn.active { background: #228be6; color: #ffffff; box-shadow: 0 2px 4px rgba(34, 139, 230, 0.3); }
 
 /* Badges inde i knapperne */
-.hand-badge {
-  font-size: 0.65rem;
-  padding: 2px 6px;
-  border-radius: 6px;
-  font-weight: 800;
-  background: #e9ecef;
-  color: #6c757d;
-}
-.toggle-btn.active .hand-badge {
-  background: rgba(255, 255, 255, 0.25);
-  color: #ffffff;
-}
-.hand-badge.done {
-  background: #d3f9d8 !important;
-  color: #2b8a3e !important;
-}
-.toggle-btn.active .hand-badge.done {
-  background: #ffffff !important;
-  color: #2b8a3e !important;
-}
+.hand-badge { font-size: 0.65rem; padding: 2px 6px; border-radius: 6px; font-weight: 800; background: #e9ecef; color: #6c757d; }
+.toggle-btn.active .hand-badge { background: rgba(255, 255, 255, 0.25); color: #ffffff; }
+.hand-badge.done { background: #d3f9d8 !important; color: #2b8a3e !important; }
+.toggle-btn.active .hand-badge.done { background: #ffffff !important; color: #2b8a3e !important; }
 
 /* Stats Grid */
 .ftt-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
@@ -200,7 +184,7 @@
 .stat-value { font-size: 1.8rem; font-weight: 900; color: #212529; font-variant-numeric: tabular-nums; line-height: 1.1; margin-top: 4px; }
 .stat-label { font-size: 0.65rem; font-weight: 800; color: #868e96; letter-spacing: 0.05em; }
 
-/* Tap Zone */
+/* Tap Zone (Optimeret til touch uden lag) */
 .ftt-action-zone { margin-bottom: 16px; }
 .ftt-tap-area {
   width: 100%;
@@ -213,9 +197,12 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: all 0.05s ease;
+  transition: background 0.05s ease, transform 0.05s ease, border-color 0.05s ease;
+  
+  /* DE KRITISKE CSS-OPTIMERINGER: */
   user-select: none;
-  touch-action: manipulation;
+  -webkit-user-select: none;
+  touch-action: none; /* Slår ALT browser-gestik og lag fra */
   -webkit-tap-highlight-color: transparent;
   outline: none;
 }
@@ -238,16 +225,7 @@
 
 /* Result Log & Asymmetri */
 .ftt-log-wrapper { text-align: left; border-top: 1px solid #e9ecef; padding-top: 14px; }
-.asymmetry-box {
-  background: #f0fff4;
-  border: 1px solid #b2f2bb;
-  border-radius: 10px;
-  padding: 10px 14px;
-  font-size: 0.85rem;
-  color: #2b8a3e;
-  margin-bottom: 12px;
-  line-height: 1.4;
-}
+.asymmetry-box { background: #f0fff4; border: 1px solid #b2f2bb; border-radius: 10px; padding: 10px 14px; font-size: 0.85rem; color: #2b8a3e; margin-bottom: 12px; line-height: 1.4; }
 .log-title { font-size: 0.9rem; font-weight: 800; margin: 0 0 10px 0; color: #495057; }
 .ftt-log-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
 .ftt-log-table th { background: #f8f9fa; padding: 8px; border-bottom: 2px solid #dee2e6; text-align: left; font-weight: 800; color: #495057; }
@@ -301,7 +279,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const infoIconBtn = widget.querySelector(".info-icon-btn");
   const modalCloseBtn = widget.querySelector(".modal-close-btn");
 
-  // Indlæs dagens gemte scores til knapperne ved opstart
   loadSavedHandScores();
 
   function setupToggleGroup(groupId, onChange) {
@@ -468,19 +445,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
       const maxValue = Math.max(tappingData.right || 0, tappingData.left || 0);
 
-      store['tapping'] = {
-        right: tappingData.right,
-        left: tappingData.left,
-        value: maxValue,
-        display: displayStr,
-        date: today
-      };
-
+      store['tapping'] = { right: tappingData.right, left: tappingData.left, value: maxValue, display: displayStr, date: today };
       localStorage.setItem('mp_neuro_results', JSON.stringify(store));
       loadSavedHandScores();
-    } catch (e) {
-      console.error('Kunne ikke gemme neuro-resultat:', e);
-    }
+    } catch (e) { console.error('Kunne ikke gemme neuro-resultat:', e); }
   }
 
   function loadSavedHandScores() {
@@ -506,7 +474,6 @@ document.addEventListener("DOMContentLoaded", function() {
           badgeLeft.classList.remove('done');
         }
 
-        // Hvis begge hænder er testet i dag, vis asymmetri-boksen
         if (data.right && data.left) {
           const diff = Math.abs(data.right - data.left);
           const max = Math.max(data.right, data.left);
@@ -524,28 +491,18 @@ document.addEventListener("DOMContentLoaded", function() {
           logWrapper.style.display = 'block';
         }
       } else {
-        badgeRight.textContent = 'Mangler';
-        badgeRight.classList.remove('done');
-        badgeLeft.textContent = 'Mangler';
-        badgeLeft.classList.remove('done');
+        badgeRight.textContent = 'Mangler'; badgeRight.classList.remove('done');
+        badgeLeft.textContent = 'Mangler'; badgeLeft.classList.remove('done');
         asymmetryBox.style.display = 'none';
       }
-    } catch (e) {
-      console.error('Fejl ved indlæsning af hånd-scores:', e);
-    }
+    } catch (e) {}
   }
 
   function logResult(taps, hz) {
     attemptCount++;
     logWrapper.style.display = "block";
-    
     const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>#${attemptCount}</td>
-      <td>${selectedHand}</td>
-      <td><strong>${taps}</strong></td>
-      <td>${hz} Hz</td>
-    `;
+    tr.innerHTML = `<td>#${attemptCount}</td><td>${selectedHand}</td><td><strong>${taps}</strong></td><td>${hz} Hz</td>`;
     logTbody.insertBefore(tr, logTbody.firstChild);
   }
 
@@ -565,7 +522,6 @@ document.addEventListener("DOMContentLoaded", function() {
     tapAreaSubText.textContent = "Tryk på 'Start Test' for at begynde";
     btnStart.textContent = "Start 10s Test";
 
-    // Nulstil gemte scores for i dag
     try {
       const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
       delete store['tapping'];
@@ -574,26 +530,37 @@ document.addEventListener("DOMContentLoaded", function() {
     } catch(e) {}
   }
 
-  function handleTap(e) {
+  // OPTIMERET: Pointerdown til touch/mus sikrer absolut instant aktivering (0ms lag)
+  tapArea.addEventListener("pointerdown", (e) => {
     if (!isTesting) return;
-    e.preventDefault();
     
     tapCount++;
     tapDisplay.textContent = tapCount;
-    
     tapArea.classList.add("is-tapped");
-    setTimeout(() => {
-      if(isTesting) tapArea.classList.remove("is-tapped");
-    }, 40);
-  }
+  });
 
-  tapArea.addEventListener("pointerdown", handleTap);
+  // Fjerner den visuelle effekt det sekund man slipper, ikke via timeout
+  tapArea.addEventListener("pointerup", () => tapArea.classList.remove("is-tapped"));
+  tapArea.addEventListener("pointercancel", () => tapArea.classList.remove("is-tapped"));
+  tapArea.addEventListener("pointerout", () => tapArea.classList.remove("is-tapped"));
 
+  // OPTIMERET: Tastatur-lytter der blokerer OS "hold-nede-snyd"
   document.addEventListener("keydown", (e) => {
     if (!isTesting) return;
     if (e.code === "Space" || e.code === "Enter") {
-      e.preventDefault();
-      handleTap(e);
+      e.preventDefault(); 
+      // VIGTIGT: Hvis e.repeat er true, holder brugeren knappen nede - ignorér det!
+      if (e.repeat) return;
+      
+      tapCount++;
+      tapDisplay.textContent = tapCount;
+      tapArea.classList.add("is-tapped");
+    }
+  });
+
+  document.addEventListener("keyup", (e) => {
+    if (e.code === "Space" || e.code === "Enter") {
+      tapArea.classList.remove("is-tapped");
     }
   });
 

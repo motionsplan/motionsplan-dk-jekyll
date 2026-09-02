@@ -148,10 +148,13 @@
   text-align: center;
   padding: 2rem;
   cursor: pointer;
-  transition: background-color 0.15s ease, transform 0.1s ease;
+  transition: background-color 0.05s ease, transform 0.05s ease;
   box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-  touch-action: manipulation;
   outline: none;
+  
+  /* LOW LATENCY OPTIMERING: Slår skærm-zooming og panorering fra */
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .reaction-test-box:active {
@@ -160,6 +163,7 @@
 
 .reaction-content {
   color: #ffffff;
+  pointer-events: none;
 }
 
 .reaction-icon {
@@ -256,11 +260,13 @@
   font-size: 0.85rem;
   font-weight: 600;
 }
+
 .result-actions {
   display: flex;
   gap: 10px;
   margin-top: 1.5rem;
 }
+
 .result-actions .btn, .result-actions a.btn {
   flex: 1;
   padding: 14px;
@@ -272,12 +278,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .btn--outline {
   background: transparent;
   border: 2px solid #cbd5e0;
   color: #4a5568;
   transition: all 0.2s ease;
 }
+
 .btn--outline:hover {
   background: #f7fafc;
   color: #2d3748;
@@ -304,16 +312,15 @@ document.addEventListener('DOMContentLoaded', function() {
   const badgeLyd = document.getElementById('badge-lyd');
 
   let selectedMode = 'visuel'; // visuel | lyd
-  let state = 'waiting'; // waiting, ready, go, result
+  let state = 'waiting'; // waiting, ready, go, result, early
   let timer = null;
   let startTime = 0;
   let scores = [];
   let audioCtx = null;
 
-  // Indlæs eksisterende data fra localStorage ved opstart
   loadSavedReactionScores();
 
-  // Toggle Mode setup
+  // Mode-knapper
   const modeBtns = document.querySelectorAll('#reaction-mode-toggle .toggle-btn');
   modeBtns.forEach(btn => {
     btn.addEventListener('click', function() {
@@ -330,6 +337,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  function initAudioContext() {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+  }
+
   function updateInstructionText() {
     if (selectedMode === 'visuel') {
       setBoxState('waiting', 'Tryk her for at starte (Visuel)', 'Når feltet bliver GRØNT, skal du tappe så hurtigt som muligt!', 'fa-bolt');
@@ -344,21 +360,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function playSignalSound() {
     try {
-      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-      if (audioCtx.state === 'suspended') audioCtx.resume();
-
+      initAudioContext();
       const osc = audioCtx.createOscillator();
       const gain = audioCtx.createGain();
       osc.connect(gain);
       gain.connect(audioCtx.destination);
 
       const now = audioCtx.currentTime;
-      osc.frequency.value = 1000; // 1000 Hz klokkeklar tone
+      osc.frequency.value = 1000; // 1000 Hz ren tone
       gain.gain.setValueAtTime(0.4, now);
-      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.18);
 
       osc.start(now);
-      osc.stop(now + 0.2);
+      osc.stop(now + 0.18);
     } catch (e) {
       console.error('Lyd kunne ikke afspilles:', e);
     }
@@ -373,6 +387,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function startTest() {
+    initAudioContext(); // Forvarm lyd-konteksten ved første tryk
+
     if (selectedMode === 'visuel') {
       setBoxState('ready', 'Vent på grøn...', 'Tap SÅ SNART feltet skifter farve!', 'fa-ellipsis-h');
     } else {
@@ -385,22 +401,26 @@ document.addEventListener('DOMContentLoaded', function() {
       if (selectedMode === 'lyd') {
         playSignalSound();
       }
+      
       setBoxState('go', 'TRYK NU!', 'Tap på skærmen!', 'fa-bolt');
-      startTime = Date.now();
+      
+      // Sub-millisekund tidsstempel
+      startTime = performance.now();
       vibrate(50);
     }, randomDelay);
   }
 
-  function handleTap() {
-    if (state === 'waiting' || state === 'result') {
+  function handleTap(e) {
+    if (e && e.cancelable) e.preventDefault();
+
+    if (state === 'waiting' || state === 'result' || state === 'early') {
       startTest();
     } else if (state === 'ready') {
       clearTimeout(timer);
       vibrate([50, 50, 50]);
       setBoxState('early', 'For tidligt!', 'Du trykkede før signalet kom. Tap for at prøve igen.', 'fa-exclamation-triangle');
-      state = 'result';
     } else if (state === 'go') {
-      const reactionTime = Date.now() - startTime;
+      const reactionTime = Math.round(performance.now() - startTime);
       vibrate(30);
       scores.push(reactionTime);
       updateStats(reactionTime);
@@ -491,7 +511,6 @@ document.addEventListener('DOMContentLoaded', function() {
           badgeLyd.classList.remove('done');
         }
 
-        // Sammenligning hvis begge er testet
         if (data.visual && data.sound) {
           const diff = data.visual - data.sound;
           summaryBox.innerHTML = `<strong>💡 Fysiologisk Sammenligning:</strong> Din lyd-reaktion er <strong>${diff > 0 ? diff + ' ms hurtigere' : Math.abs(diff) + ' ms langsommere'}</strong> end din visuelle reaktion. (Lydimpulser behandles typisk 30-50 ms hurtigere i hjernen).`;
@@ -528,13 +547,23 @@ document.addEventListener('DOMContentLoaded', function() {
     updateInstructionText();
   }
 
-  box.addEventListener('click', handleTap);
-  box.addEventListener('keydown', function(e) {
+  // LOW LATENCY EVENT LISTENERS:
+  // 1. Pointerdown registrerer touch/mus instant uden 300ms mobil-forsinkelse
+  box.addEventListener('pointerdown', handleTap);
+
+  // 2. Tastatur-support (Mellemrumstast og Enter) med blokering af snyd
+  window.addEventListener('keydown', function(e) {
     if (e.code === 'Space' || e.code === 'Enter') {
-      e.preventDefault();
-      handleTap();
+      if (e.repeat) return; // Blokerer hold-nede snyd
+      
+      // Kun hvis fokus er i/omkring boksen eller aktiv test
+      if (document.activeElement === box || state === 'ready' || state === 'go' || state === 'waiting' || state === 'result' || state === 'early') {
+        e.preventDefault();
+        handleTap();
+      }
     }
   });
+
   resetBtn.addEventListener('click', resetTest);
 });
 </script>

@@ -45,7 +45,7 @@ tools:
     category: ["Restitution", "Psykologi"]
     type: ["Testværktøj"]
     execution: ["Testberegner"]
-    anchor: "#test-din-taktiske-arbejdshukommelse"
+    anchor: "#widget"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-08-31T23:30:00Z'
 toc: 'true'
@@ -68,6 +68,7 @@ Hvordan kan en fodboldspiller kigge ned på bolden for at drible, og samtidig l�
 ---
 
 ## Test din taktiske arbejdshukommelse
+{: id="widget" }
 
 Test din hjernes kapacitet her. Værktøjet viser en sekvens af felter, der lyser op. Din opgave er at tappe på felterne i **præcis samme rækkefølge**. Når du svarer rigtigt, bliver næste sekvens én blok længere!
 

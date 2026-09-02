@@ -1,7 +1,7 @@
 ---
 title: "Samsyn og dybdesyn: Bedøm afstande og time dine handlinger"
 seo_title: "Samsyn & Dybdesyn: Træn øjnenes samarbejde (Sports Vision)"
-description: "Lær at træne dit samsyn, din akkommodation og dit dybdesyn. Se hvordan du bruger den klassiske Brock String og henter vores træningsark."
+description: "Lær at træne dit samsyn, din akkommodation og dit dybdesyn. Se hvordan du bruger Pencil Push-ups, den klassiske Brock String og henter vores træningsark."
 excerpt: "Samsyn og dybdesyn lader dig bedømme afstande i 3D. Træn øjnenes samarbejde, så du tager de rigtige beslutninger i kampsituationer."
 permalink: /samsyn-dybdesyn-synstraening/
 language: da
@@ -54,7 +54,33 @@ I denne guide gennemgår vi fysiologien bag samsyn, akkommodation og konvergens 
 
 ---
 
-## 1. Brock String: Den klassiske metode
+## 1. Pencil Push-ups: Grundlæggende konvergenstræning
+
+Pencil Push-ups er guldstandarden inden for synstræning til at forbedre øjnenes **konvergens**. Øvelsen genoptræner øjnenes indaddrejende muskler (*musculi recti mediales*), så du undgår dobbeltsyn og sløring, når bolde eller spilsituationer kommer tæt på ansigtet.
+
+{% include video provider="youtube" id="ghvpt3dSYfk"  %}
+
+### Niveau 1: Glidende Konvergens (Smooth Convergence)
+Optræner den fysiologiske grundstyrke og evne til at holde fiksationen tæt på ansigtet.
+
+1. **Startposition:** Hold en blyant eller pen i strakt arm direkte foran dit ansigt. Fokuser skarpt på pennespidsen eller et bogstav på blyanten.
+2. **Bevægelse:** Før blyanten langsomt og jævnt direkte mod næsetippen, mens du fastholder et enkelt og skarpt billede.
+3. **Undgå dobbeltsyn:** Hvis blyanten blir en smule sløret helt tæt på næsen, er det acceptable — så længe du stadig kun ser **én** blyant. Oplever du dobbeltsyn, stopper du op og tvinger øjnene til at samle billedet igen.
+4. **Slutpunkt:** Kan du føre blyanten helt ind til næsetippen uden dobbeltsyn, holder du positionen i 2 sekunder og slapper af. Mister du fiksationen, føres blyanten tilbage til strakt arm, og du starter forfra.
+5. **Dosering:** Kør i 1 minut (ca. 20 gentagelser), og slap derefter af i øjnene ved at kigge ud i horisonten i 1 minut.
+
+### Niveau 2: Spring-Konvergens (Jump Convergence)
+En mere avanceret variation, der efterligner de lynhurtige dybdejusteringer, dine øjne foretager under kampsituationer på banen.
+
+1. **Startposition:** Hold én blyant i strakt arm og én anden blyant ca. 10 cm fra næsetippen.
+2. **Skift fokus:** Flyt blikket lynhurtigt fra den fjerne blyant til den nære blyant. Tving øjnene til at gøre den nære blyant skarp og enkeltstående (den fjerne blyant vil naturligt fremstå dobbelt i dit perifere syn).
+3. **Hold og skift:** Hold fiksationen i 2 sekunder, og skift derefter lynhurtigt blikket tilbage til den fjerne blyant.
+4. **Progression:** Føles 10 cm for svært, flytter du den nære blyant til 15 cm. Efterhånden som dit samsyn forbedres, flytter du den nære blyant helt ind til 5 cm eller næsetippen.
+5. **Dosering:** Kør 3 sæt af 1 minuts varighed 3 gange om dagen.
+
+---
+
+## 2. Brock String: Den klassiske metode
 
 Inden for **Sports Vision** og optometri er *Brock String* (opkaldt efter dr. Frederick Brock) den mest anerkendte fysiske øvelse til træning af samsyn og konvergens.
 
@@ -69,7 +95,7 @@ En Brock String er en tre meter lang hvid snor med tre farvede perler placeret p
 
 ---
 
-## 2. Hent træningsark til samsyn (PDF)
+## 3. Hent træningsark til samsyn (PDF)
 
 Da ægte samsynstræning kræver et fysisk 3D-rum frem for en flad 2D-skærm, opnås den bedste træningseffekt med papirbaserede øvelser, hvor arkets kant placeres directly mod næsetippen.
 

@@ -9,7 +9,7 @@
     
     <div class="timewall-rule-box">
       <strong>⚠️ Opgaven:</strong> En bold triller mod højre med konstant fart. Når den ruller ind bag muren, forsvinder den. 
-      Tap på skærmen (eller tryk på Space) <u>PRÆCIS</u> i det millisekund, du mener bolden rammer den røde streg!
+      Tap på skærmen (eller tryk på <strong>Mellemrumstasten</strong>) <u>PRÆCIS</u> i det millisekund, du mener bolden rammer den røde streg!
     </div>
 
     <button class="btn btn--primary btn--large" id="start-timewall-btn">Start timing-test (5 runder)</button>
@@ -54,7 +54,8 @@
     <div class="timewall-assessment" id="timewall-assessment">
       <!-- Genereres dynamisk -->
     </div>
-<div class="result-actions">
+
+    <div class="result-actions">
       <button class="btn btn--success" id="retry-timewall-btn">Prøv igen</button>
       <a href="/kognitive-tests/#dashboard" class="btn btn--outline">← Kontrolpanel</a>
     </div>
@@ -126,6 +127,10 @@
   margin-bottom: 1.2rem;
   border: 1px solid #cbd5e0;
   cursor: pointer;
+  
+  /* LOW LATENCY TOUCH OPTIMERING */
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .timewall-ball {
@@ -177,11 +182,15 @@
   font-size: 1rem;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(49, 151, 149, 0.3);
-  transition: transform 0.1s ease, background-color 0.15s ease;
+  transition: transform 0.05s ease, background-color 0.15s ease;
+  outline: none;
+
+  /* LOW LATENCY TOUCH OPTIMERING */
+  touch-action: none;
   -webkit-tap-highlight-color: transparent;
 }
 
-.timewall-tap-zone:active {
+.timewall-tap-zone:active, .timewall-tap-zone.is-pressed {
   transform: scale(0.97);
   background-color: #2c7a7b;
 }
@@ -227,6 +236,7 @@
   gap: 10px;
   margin-top: 1.5rem;
 }
+
 .result-actions .btn, .result-actions a.btn {
   flex: 1;
   padding: 14px;
@@ -238,12 +248,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .btn--outline {
   background: transparent;
   border: 2px solid #cbd5e0;
   color: #4a5568;
   transition: all 0.2s ease;
 }
+
 .btn--outline:hover {
   background: #f7fafc;
   color: #2d3748;
@@ -271,6 +283,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const ball = document.getElementById('timewall-ball');
   const progressEl = document.getElementById('timewall-progress');
   const statusEl = document.getElementById('timewall-status');
+  const tapZone = document.getElementById('timewall-tap-zone');
 
   const startBtn = document.getElementById('start-timewall-btn');
   const retryBtn = document.getElementById('retry-timewall-btn');
@@ -295,10 +308,10 @@ document.addEventListener('DOMContentLoaded', function() {
     isRunning = false;
     hasTapped = false;
 
-    // Varighed fra 0% til 80% (mållinjen): 1600ms - 2600ms
     duration = Math.floor(Math.random() * 1000) + 1600;
 
     setTimeout(function() {
+      if (currentRound > TOTAL_ROUNDS) return;
       isRunning = true;
       startTime = performance.now();
       targetTime = startTime + duration;
@@ -312,21 +325,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const now = performance.now();
     const elapsed = now - startTime;
 
-    // Progress 1.0 svarer til at bolden rammer mållinjen ved 80%
     const progress = elapsed / duration; 
     const currentPosPct = progress * 80;
 
     if (currentPosPct <= 100) {
       ball.style.left = currentPosPct + '%';
       
-      // Muren dækker fra 35% til 80%
       if (currentPosPct >= 35 && currentPosPct < 80) {
         ball.style.opacity = '0';
       } else {
         ball.style.opacity = '1';
       }
 
-      // Tillad op til 1200 ms forsinkelse før automatisk timeout
       if (elapsed > duration + 1200) {
         handleTimeout();
       } else {
@@ -351,7 +361,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function handleTap(e) {
-    if (e && e.type !== 'keydown') e.preventDefault();
+    if (e && e.cancelable) e.preventDefault();
     if (!isRunning || hasTapped) return;
 
     hasTapped = true;
@@ -359,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function() {
     cancelAnimationFrame(animId);
 
     const tapTime = performance.now();
-    const diff = Math.round(tapTime - targetTime); // Positiv = for sent, Negativ = for tidligt
+    const diff = Math.round(tapTime - targetTime);
     const absDiff = Math.abs(diff);
 
     errors.push(absDiff);
@@ -429,18 +439,25 @@ document.addEventListener('DOMContentLoaded', function() {
     assessmentEl.innerHTML = feedback;
   }
 
-  // Registrér tryk overalt på spilleregionen
+  // LOW LATENCY POINTER-LISTENERS (Instant touch/mus på hele spil-arealet)
   gameScreen.addEventListener('pointerdown', function(e) {
     if (e.target.id !== 'retry-timewall-btn' && e.target.id !== 'start-timewall-btn') {
+      tapZone.classList.add('is-pressed');
+      setTimeout(() => tapZone.classList.remove('is-pressed'), 100);
       handleTap(e);
     }
   });
 
-  // Tastatur lytter (Spacebar & Enter)
-  document.addEventListener('keydown', function(e) {
+  // TASTATUR-SUPPORT (Mellemrumstast og Enter med snyde-spærring)
+  window.addEventListener('keydown', function(e) {
     if (!isRunning) return;
     if (e.code === 'Space' || e.code === 'Enter') {
+      if (e.repeat) return; // Blokerer hold-nede snyd
       e.preventDefault();
+      
+      tapZone.classList.add('is-pressed');
+      setTimeout(() => tapZone.classList.remove('is-pressed'), 100);
+      
       handleTap(e);
     }
   });

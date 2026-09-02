@@ -45,7 +45,7 @@ tools:
     category: ["Restitution", "Psykologi"]
     type: ["Testværktøj"]
     execution: ["Testberegner"]
-    anchor: "#test-din-impulskontrol"
+    anchor: "#widget"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-08-31T23:14:14Z'
 toc: 'true'
@@ -65,7 +65,8 @@ Hvor hurtigt kan dit nervesystem ombestemme sig og bremse en kropslig handling, 
 
 ---
 
-## Test din impulskontrol her
+## Test din impulskontrol online
+{: id="widget" }
 
 Tryk på startknappen. Trikket er at tappe så hurtigt som muligt på de **GRØNNE** cirkler, men lade skærmen være helt i fred, når en **RØD** cirkel dukker op!
 

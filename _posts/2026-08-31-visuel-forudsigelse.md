@@ -45,7 +45,7 @@ tools:
     category: ["Restitution", "Psykologi"]
     type: ["Testværktøj"]
     execution: ["Testberegner"]
-    anchor: "#test-din-visuelle-timing"
+    anchor: "#widget"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-08-31T23:45:00Z'
 toc: 'true'
@@ -67,7 +67,8 @@ I idrætsfysiologien kaldes denne evne for **Coincidence Anticipation Timing (CA
 
 ---
 
-## Test din visuelle timing her
+## Test din visuelle timing online
+{: id="widget" }
 
 Tryk på startknappen. Hold øje med boldens fart. Når den ruller ind bag den grå mur, skal du tappe i zone-feltet præcis i det øjeblik, du beregner, at den krydser den røde linje!
 

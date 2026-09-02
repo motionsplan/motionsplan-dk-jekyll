@@ -7,7 +7,8 @@
     <h3>Stroop-test: Mål din mentale træthed</h3>
     <p>Test din hjernes evne til at undertrykke forstyrrende indtryk under tidspres.</p>
     <div class="stroop-rule-box">
-      <strong>⚠️ Reglen:</strong> Tryk på knappen, der matcher tekstens <u>FARVE</u> — <strong>IKKE</strong> hvad der står skrevet!
+      <strong>⚠️ Reglen:</strong> Tryk på knappen, der matcher tekstens <u>FARVE</u> — <strong>IKKE</strong> hvad der står skrevet!<br>
+      <small style="opacity: 0.85; margin-top: 4px; display: block;">💡 På computer kan du bruge tallene <strong>1, 2, 3, 4</strong> eller <strong>Piletasterne</strong>.</small>
     </div>
     <button class="btn btn--primary btn--large" id="start-stroop-btn">Start testen (10 runder)</button>
   </div>
@@ -22,10 +23,10 @@
     <div class="stroop-word-display" id="stroop-word">KLAR</div>
 
     <div class="stroop-buttons-grid">
-      <button class="stroop-btn stroop-btn-red" data-color="red">RØD</button>
-      <button class="stroop-btn stroop-btn-blue" data-color="blue">BLÅ</button>
-      <button class="stroop-btn stroop-btn-green" data-color="green">GRØN</button>
-      <button class="stroop-btn stroop-btn-yellow" data-color="yellow">GUL</button>
+      <button class="stroop-btn stroop-btn-red" data-color="red" data-key="1">RØD (1 / ⬅️)</button>
+      <button class="stroop-btn stroop-btn-blue" data-color="blue" data-key="2">BLÅ (2 / ⬆️)</button>
+      <button class="stroop-btn stroop-btn-green" data-color="green" data-key="3">GRØN (3 / ⬇️)</button>
+      <button class="stroop-btn stroop-btn-yellow" data-color="yellow" data-key="4">GUL (4 / ➡️)</button>
     </div>
   </div>
 
@@ -52,7 +53,8 @@
     <div class="stroop-assessment" id="stroop-assessment">
       <!-- Vurdering genereres dynamisk -->
     </div>
-<div class="result-actions">
+    
+    <div class="result-actions">
       <button class="btn btn--success" id="retry-stroop-btn">Prøv igen</button>
       <a href="/kognitive-tests/#dashboard" class="btn btn--outline">← Kontrolpanel</a>
     </div>
@@ -140,17 +142,22 @@
   border: none;
   border-radius: 12px;
   padding: 1.2rem 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 800;
   color: #ffffff;
   cursor: pointer;
-  transition: transform 0.1s ease, filter 0.15s ease;
+  transition: transform 0.05s ease, filter 0.15s ease;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  outline: none;
+  
+  /* LOW LATENCY TOUCH OPTIMERING: Ingenting zoom/panorering */
+  touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
 }
 
-.stroop-btn:active {
+.stroop-btn:active, .stroop-btn.is-pressed {
   transform: scale(0.95);
+  filter: brightness(0.9);
 }
 
 .stroop-btn-red { background-color: #e53e3e; }
@@ -193,11 +200,13 @@
   margin-bottom: 1.5rem;
   text-align: left;
 }
+
 .result-actions {
   display: flex;
   gap: 10px;
   margin-top: 1.5rem;
 }
+
 .result-actions .btn, .result-actions a.btn {
   flex: 1;
   padding: 14px;
@@ -209,12 +218,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .btn--outline {
   background: transparent;
   border: 2px solid #cbd5e0;
   color: #4a5568;
   transition: all 0.2s ease;
 }
+
 .btn--outline:hover {
   background: #f7fafc;
   color: #2d3748;
@@ -225,10 +236,10 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const COLOR_DATA = [
-    { id: 'red', name: 'RØD', hex: '#e53e3e' },
-    { id: 'blue', name: 'BLÅ', hex: '#3182ce' },
-    { id: 'green', name: 'GRØN', hex: '#38a169' },
-    { id: 'yellow', name: 'GUL', hex: '#d69e2e' }
+    { id: 'red', name: 'RØD', hex: '#e53e3e', keys: ['1', 'ArrowLeft', 'r'] },
+    { id: 'blue', name: 'BLÅ', hex: '#3182ce', keys: ['2', 'ArrowUp', 'b'] },
+    { id: 'green', name: 'GRØN', hex: '#38a169', keys: ['3', 'ArrowDown', 'g'] },
+    { id: 'yellow', name: 'GUL', hex: '#d69e2e', keys: ['4', 'ArrowRight', 'y'] }
   ];
 
   const TOTAL_ROUNDS = 10;
@@ -236,9 +247,11 @@ document.addEventListener('DOMContentLoaded', function() {
   let currentRound = 0;
   let correctAnswers = 0;
   let startTime = 0;
-  let gameInterval = null;
+  let roundStartTime = 0;
+  let animFrameId = null;
   let currentColorId = '';
-  let reactionTimes = [];
+  let roundReactionTimes = [];
+  let isGameActive = false;
 
   const startScreen = document.getElementById('stroop-start-screen');
   const gameScreen = document.getElementById('stroop-game-screen');
@@ -265,6 +278,13 @@ document.addEventListener('DOMContentLoaded', function() {
     return Math.floor(Math.random() * max);
   }
 
+  function updateTimerDisplay() {
+    if (!isGameActive) return;
+    const elapsed = ((performance.now() - startTime) / 1000).toFixed(1);
+    timerEl.textContent = elapsed + 's';
+    animFrameId = requestAnimationFrame(updateTimerDisplay);
+  }
+
   function nextRound() {
     if (currentRound >= TOTAL_ROUNDS) {
       endGame();
@@ -274,11 +294,9 @@ document.addEventListener('DOMContentLoaded', function() {
     currentRound++;
     progressEl.textContent = 'Runde ' + currentRound + ' af ' + TOTAL_ROUNDS;
 
-    // Vælg tilfældigt ord og tilfældig farve (inkongruent)
     const textObj = COLOR_DATA[getRandomIndex(COLOR_DATA.length)];
     let colorObj = COLOR_DATA[getRandomIndex(COLOR_DATA.length)];
 
-    // Sørg for at farve og tekst er forskellige 80% af gangene for Stroop-effekt
     if (Math.random() < 0.8) {
       while (colorObj.id === textObj.id) {
         colorObj = COLOR_DATA[getRandomIndex(COLOR_DATA.length)];
@@ -288,30 +306,36 @@ document.addEventListener('DOMContentLoaded', function() {
     currentColorId = colorObj.id;
     wordDisplay.textContent = textObj.name;
     wordDisplay.style.color = colorObj.hex;
+    
+    // Sub-millisekund tidsstempel for runden
+    roundStartTime = performance.now();
   }
 
   function startGame() {
     currentRound = 0;
     correctAnswers = 0;
-    reactionTimes = [];
+    roundReactionTimes = [];
+    isGameActive = true;
 
     startScreen.style.display = 'none';
     resultScreen.style.display = 'none';
     gameScreen.style.display = 'block';
 
-    startTime = Date.now();
-    gameInterval = setInterval(function() {
-      const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-      timerEl.textContent = elapsed + 's';
-    }, 100);
+    startTime = performance.now();
+    animFrameId = requestAnimationFrame(updateTimerDisplay);
 
     nextRound();
   }
 
   function handleChoice(chosenColor) {
+    if (!isGameActive) return;
+
+    const roundMs = Math.round(performance.now() - roundStartTime);
+    roundReactionTimes.push(roundMs);
+
     if (chosenColor === currentColorId) {
       correctAnswers++;
-      vibrate(30);
+      vibrate(25);
     } else {
       vibrate([40, 40, 40]);
     }
@@ -320,11 +344,15 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function endGame() {
-    clearInterval(gameInterval);
-    const totalTimeMs = Date.now() - startTime;
+    isGameActive = false;
+    cancelAnimationFrame(animFrameId);
+    
+    const totalTimeMs = Math.round(performance.now() - startTime);
     const totalTimeSec = (totalTimeMs / 1000).toFixed(2);
     const accuracyPct = Math.round((correctAnswers / TOTAL_ROUNDS) * 100);
-    const avgMs = Math.round(totalTimeMs / TOTAL_ROUNDS);
+    const avgMs = roundReactionTimes.length > 0 
+      ? Math.round(roundReactionTimes.reduce((a, b) => a + b, 0) / roundReactionTimes.length)
+      : Math.round(totalTimeMs / TOTAL_ROUNDS);
 
     gameScreen.style.display = 'none';
     resultScreen.style.display = 'block';
@@ -333,7 +361,6 @@ document.addEventListener('DOMContentLoaded', function() {
     resAccuracy.textContent = accuracyPct + '%';
     resAvgTime.textContent = avgMs + ' ms';
 
-    // Gem resultat i localStorage til dashboardet
     try {
       const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
       store['stroop'] = {
@@ -346,11 +373,10 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error('Kunne ikke gemme neuro-resultat:', e);
     }
 
-    // Generer fysiologisk vurdering
     let feedback = '';
-    if (accuracyPct >= 90 && avgMs < 1200) {
+    if (accuracyPct >= 90 && avgMs < 1100) {
       feedback = '<strong>🟢 Høj kognitiv klarhed:</strong> Din hjerne filtrerer ubesværet visuel støj. Dit kognitive overskud og din fokusstyrke er helt i top!';
-    } else if (accuracyPct >= 70 && avgMs < 1800) {
+    } else if (accuracyPct >= 70 && avgMs < 1600) {
       feedback = '<strong>🟡 Moderat kognitiv belastning:</strong> Fin præstation, men en smule tøven på de forstyrrende farver. Indikerer et normalt hverdags-overskud.';
     } else {
       feedback = '<strong>🔴 Tegn på kognitiv udmattelse:</strong> Mange fejl eller lang responstid. Din hjernes prefrontale cortex udviser tegn på mental træthed fra studie, arbejde eller manglende søvn.';
@@ -359,10 +385,36 @@ document.addEventListener('DOMContentLoaded', function() {
     assessmentEl.innerHTML = feedback;
   }
 
+  // LOW LATENCY POINTER-LISTENERS (Instant touch/mus uden 300ms delay)
   colorBtns.forEach(function(btn) {
-    btn.addEventListener('click', function() {
+    btn.addEventListener('pointerdown', function(e) {
+      if (e.cancelable) e.preventDefault();
       const chosen = this.getAttribute('data-color');
+      
+      this.classList.add('is-pressed');
+      setTimeout(() => this.classList.remove('is-pressed'), 100);
+
       handleChoice(chosen);
+    });
+  });
+
+  // TASTATOR-SUPPORT (1, 2, 3, 4, Piletaster og Bogstaver)
+  window.addEventListener('keydown', function(e) {
+    if (!isGameActive) return;
+    if (e.repeat) return; // Blokerer hold-nede snyd
+
+    COLOR_DATA.forEach(function(colorObj) {
+      if (colorObj.keys.includes(e.key) || colorObj.keys.includes(e.key.toLowerCase())) {
+        e.preventDefault();
+        
+        const btn = document.querySelector(`.stroop-btn[data-color="${colorObj.id}"]`);
+        if (btn) {
+          btn.classList.add('is-pressed');
+          setTimeout(() => btn.classList.remove('is-pressed'), 100);
+        }
+
+        handleChoice(colorObj.id);
+      }
     });
   });
 

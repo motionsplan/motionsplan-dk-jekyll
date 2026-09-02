@@ -45,7 +45,7 @@ tools:
     category: ["Restitution", "Psykologi"]
     type: ["Testværktøj"]
     execution: ["Testberegner"]
-    anchor: "#test-din-mentale-traethed"
+    anchor: "#widget"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-08-31T23:00:00Z'
 toc: 'true'
@@ -61,15 +61,15 @@ Har du nogensinde følt dig fuldstændig fysisk tung og udmattet til træning, s
 
 * **Hvad er Stroop-effekten?** Din hjerne læser automatisk ordet "BLÅ" hurtigere end den opfatter farven rød. Når ordet "BLÅ" står skrevet med rød skrift, opstår der *kognitiv interferens*, som kræver overskud i pandelappen (prefrontal cortex) at overvinde.
 * **Effekt på træning:** Forskning viser, at kognitiv udmattelse øger din **oplevede anstrengelse (RPE)** under træning. Dine muskler har samme fysiske kapacitet, men hjernen sender hurtigere signaler om at stoppe.
-* **Testen:** Gennemfør 10 runder på tid herunder – husk at trykke på knappen med tekstens **farve**, ikke ordet!
 
 </div>
 
 ---
 
 ## Test din mentale træthed her
+{: id="widget" }
 
-Tryk på knappen for at starte. Værktøjet fører dig igennem 10 hurtige runder på tid og udregner din kognitive præcision og responstid:
+Tryk på knappen for at starte. Så gennemfører du 10 runder på tid. Det gælder om at trykke på tekstens **farve** - ikke på ordet. Herefter udregnes din kognitive præcision og responstid:
 
 {% include components/stroop-test.html %}
 

@@ -46,7 +46,7 @@ tools:
     category: ["Restitution"]
     type: ["Beregner", "Testværktøj"]
     execution: ["Testberegner"]
-    anchor: "#hvad-kan-jeg-bruge-finger-tapping-testen-til"
+    anchor: "#widget"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-03-06T23:14:14Z'
 toc: 'true'
@@ -88,11 +88,10 @@ Selvom styrketræning formentlig ikke forårsager længerevarende CNS-fatigue, s
 
 Man kan også forestille sig, at man kan bruge finger tapping test til at se, om dit opvarmningsprogram formår gøre nervesystemet endnu mere klar til den efterfølgende træning ved at lave en før- og eftertest.
 
+## Finger tapping test online
+{: id="widget" }
+
 {% include components/finger-tapping.html %}
-
-## En app til en finger tapping test
-
-Med introduktionen af smartphones er det ret let at lave en finger tapping test, da du kan gøre det direkte på din smartphone.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

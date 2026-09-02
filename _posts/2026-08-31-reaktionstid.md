@@ -45,7 +45,7 @@ tools:
     category: ["Restitution"]
     type: ["Testværktøj"]
     execution: ["Testberegner"]
-    anchor: "#test-din-reaktionstid"
+    anchor: "#widget"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: '2026-08-31T23:00:00Z'
 toc: 'true'
@@ -66,6 +66,7 @@ Hvor hurtigt reagerer dit nervesystem, når der opstår en uventet hændelse? Vo
 ---
 
 ## Test din reaktionstid her
+{: id="widget" }
 
 Tryk på det blå felt for at starte. Når feltet skifter farve til **GRØNT**, skal du tappe på skærmen så hurtigt som muligt. Værktøjet udregner dit gennemsnit over 5 forsøg.
 
