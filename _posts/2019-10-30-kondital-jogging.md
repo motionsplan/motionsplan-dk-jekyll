@@ -11,7 +11,7 @@ header:
   caption: ️Submaksimal 1609 m løbetest til at finde VO2max
 categories:
 - Løb
-- Løbetest
+- Løbetests
 meta:
   name: "1,6 km submaksimal løbetest"
   measures: "kondital"

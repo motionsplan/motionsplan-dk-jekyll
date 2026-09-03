@@ -13,7 +13,7 @@ header:
   - label: <i class='fas fa-print'></i> Print tabel →
     url: '#print'
 categories:
-- Hastighed
+- Beregnere
 classes: wide
 tags:
 - tabel

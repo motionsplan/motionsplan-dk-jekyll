@@ -1,6 +1,6 @@
 ---
 title: "Wall Sit Test (90-graders test): Hvor længe kan du sidde?"
-seo_title: "Wall Sit Test (90-graders test): Normer & Guide til Vægsidning"
+seo_title: "Wall Sit Test (90-graders test): Normer & Guide"
 excerpt: "Test din statiske muskeludholdenhed i benene med Wall Sit testen (også kendt som 90-graders testen). Lær den korrekte protokol, se aldersnormer og læs om testens baggrund."
 description: "Hvor længe kan du sidde i 90 grader mod en væg? Prøv Wall Sit testen og sammenlign din tid med normtabeller for mænd og kvinder."
 permalink: /wall-sit-test-90-graders-test/
@@ -35,7 +35,7 @@ tests:
     measures: ["Isometrisk muskeludholdenhed i underkroppen", "Vægsidningstid (s)", "Lokal muskulær træthedstolerance"]  # 🎯 KUN rene fysiologiske slutmål
     equipment: ["Glat væg", "Stopur / Timer", "Skridsikkert underlag / Fodtøj"]
     setting: ["Træningscenter", "Indendørs", "Klinik", "Testcenter", "Individuel"]
-    target_group: ["Skiløbere", "Atleter", "Motionister", "Mænd", "Kvinder"]
+    target_group: ["Atleter", "Motionister", "Mænd", "Kvinder"]
     related_tools: []
 last_modified_at: '2026-08-06T23:30:00Z'
 toc: true

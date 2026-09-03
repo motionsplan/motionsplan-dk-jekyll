@@ -6,8 +6,6 @@ permalink: /haandgrebsstyrke-test/
 language: da
 categories:
   - Tests
-  - Sundhed
-  - Fysioterapi
 tags:
   - test
   - muskelfunktion

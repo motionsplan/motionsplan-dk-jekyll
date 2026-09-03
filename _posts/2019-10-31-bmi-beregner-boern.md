@@ -13,7 +13,6 @@ header:
   caption: BMI-beregner for børn, unge og teenagere
 categories:
 - Kropskomposition
-- BMI
 tags:
 - beregner
 - kropskomposition

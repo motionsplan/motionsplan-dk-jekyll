@@ -17,7 +17,6 @@ header:
   alt: Photo by Fitsum Admasu on Unsplash
 categories:
 - Løb
-- Løbeværktøjer
 tags:
 - beregner
 - løbeøkonomi

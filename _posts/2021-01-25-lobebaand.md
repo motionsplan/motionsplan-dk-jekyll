@@ -12,7 +12,6 @@ header:
   caption: 'Guide til løbebånd: Kurvet eller motoriseret 🏃🏃‍♀🐹️'
 categories:
   - Løb
-  - Løbeudstyr
 tags:
   - løb
   - løbebånd

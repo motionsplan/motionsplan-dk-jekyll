@@ -11,7 +11,7 @@ header:
   caption: '2400-meter løbetest: Sådan beregner du dit kondital 🏃'
 categories:
 - Kondition
-- Konditionstest
+- Konditionstests
 classes: wide
 meta:
   name: 2400-meters løbetest

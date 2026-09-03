@@ -15,7 +15,7 @@ header:
   caption: Find dit kondital med Cooper-testen. Konditionstest til løb.
 categories:
 - Kondition
-- Konditionstest
+- Konditionstests
 meta:
   name: "Coopers 12 minutters løbetest"
   measures: "kondital"

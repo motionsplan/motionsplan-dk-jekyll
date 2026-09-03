@@ -6,8 +6,7 @@ excerpt: Broad Jump er en test af eksplosiv kraft og horisontal springstyrke. L�
 permalink: /broadjump/
 language: da
 header:
-  teaser: /assets/images/unsplash/photo-1473091540282-9b846e7965e3.jpg
-  credit: https://images.unsplash.com/photo-1473091540282-9b846e7965e3
+  teaser: https://images.unsplash.com/photo-1729166241081-7031b4df0bba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 categories:
   - Spring
   - Springtests
@@ -54,7 +53,7 @@ tools:
     category: ["Spring", "Beregnere", "Tests"]
     type: ["Beregner"]
     measures: ["Springlængde (cm)", "Niveau", "Politi-karakter"]
-    anchor: "#beregner"
+    anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 
 last_modified_at: '2026-08-16T19:40:00Z'
@@ -67,10 +66,14 @@ Testen bruges i idræt, fitness og fysiske optagelsesprøver til at vurdere atle
 
 I denne guide lærer du, hvordan du udfører Broad Jump korrekt, hvad dine resultater betyder, og hvilke øvelser der kan forbedre din springlængde.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
+{% include figure image_path="https://images.unsplash.com/photo-1729166241081-7031b4df0bba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" %}
+
 ---
 
 ## Beregn og vurder dit Broad Jump
-{: id="beregner" }
+{: id="calculator" }
 
 Brug slideren nedenfor til at vælge din hoplængde. Værktøjet giver dig en øjeblikkelig fysiologisk vurdering og viser din karakter i forhold til Politiets optagelsesprøve. Resultatet kan gemmes direkte på dit **[Eksplosiv Styrke Dashboard](/eksplosivitet/)**.
 
