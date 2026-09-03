@@ -68,7 +68,7 @@ Du kan lære lidt mere om forskellen på laktat og mælkesyre i denne video.
 
 ## Mælkesyrebalance og mælkesyre i musklerne
 
-I hvile har de fleste mennesker omkring 1,5 mmol laktat i blodet. Når vi bevæger os og træner intensivt, så øges niveauet af mælkesyre i musklerne og laktat i blodet.
+I hvile har de fleste mennesker omkring 1,5-2,5 mmol laktat i blodet (alt efter målemetoden). Når vi bevæger os og træner intensivt, så øges niveauet af mælkesyre i musklerne og laktat i blodet.
 
 Når du laver let til moderat arbejde, så er der ilt nok til stede i musklerne til at lave forbrænding af fedt og kulhydrat i mitochondrierne. Når man arbejder hårdere, hvor pulsen kommer op over 150-170 slag pr. minut, så kan kredsløbet ikke nå at levere nok ilt til musklerne, og derfor produceres noget af energien i det anaerobe energisystem.
 
@@ -161,4 +161,4 @@ Du kan træne din evne til at udholde mælkesyre i kroppen. Jeg er fortaler for,
 
 Du kan fx stifte bekendtskab med en [assault bike eller airbike](/airbike-assault-bike-workout-intervaller/), [rointervaller](/artikel/traeningsprogrammer-intervaller-roning/) eller en [prowler](/prowler-traening-workout-intervaller/), hvor det er let at komme til at arbejde med mælkesyre som biprodukt af træning. Det kan du også i [intervalløb](/intervallob-intervaltraening/) og [anaerob træning](/anaerob-traening/). Hvis du virkelig vil føle mælkesyre i benene, så kan du også prøve den [anaerobe test Wingate-testen](/wingate/).
 
-Jeg har skrevet en grundig artikel om [kroppens energisystemer og aerob og anaerob energiforsyning](/energisystemer/).
+Jeg har skrevet en grundig artikel om [kroppens energisystemer og aerob og anaerob energiforsyning](/energisystemer/) - og du kan også tjekke vores [gennemgang af hvordan en laktattest foregår](/laktattest/).

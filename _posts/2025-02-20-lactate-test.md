@@ -1,5 +1,5 @@
 ---
-title: "Laktattest og Blodlaktattest: Guide, Testprotokol & Beregner"
+title: "Laktattest & Blodlaktattest: Guide, Testprotokol & Beregner"
 seo_title: "Laktattest & Blodlaktattest – Guide til Laktattærskel + Beregner"
 permalink: /laktattest/
 excerpt: "Komplet guide til laktattest og blodlaktattest for løb og cykling. Udfør testen korrekt, fortolk din laktatkurve og beregn din aerobe og anaerobe tærskel."
@@ -62,7 +62,7 @@ tags:
   - løbetest
   - cykeltest
   - laboratorietest
-last_modified_at: '2026-07-29T08:00:00Z'
+last_modified_at: '2026-09-03T08:00:00Z'
 faq:
   - question: Hvorfor starter laktatmålingerne sommetider på 2 mmol/l eller højere?
     answer: 'Der kan være et par forskellige grunde til dette usædvanlige forløb:

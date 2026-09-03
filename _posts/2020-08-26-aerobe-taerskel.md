@@ -96,7 +96,7 @@ Din åndedrætsfrekvens er koblet direkte til kroppens kuldioxidproduktion og la
 
 ### 2. Laboratorietest med laktatmåling (Guldstandarden)
 En trinvist stigende test på ergometercykel eller løbebånd med kapillær blodprøvetagning.
-* **Dickhuth-metoden:** I stedet for et fast universelt tal defineres LT1 fysiologisk som det trin, hvor laktatniveauet stiger med **0,5 mmol/L over din individuelle baseline** (Dickhuth et al., 1999; Faude et al., 2009).
+* **Dickhuth-metoden:** I stedet for et fast universelt tal defineres LT1 fysiologisk som det trin, hvor laktatniveauet stiger med **0,5 mmol/L over din individuelle baseline** (Dickhuth et al., 1999; Faude et al., 2009). Du kan læse meget mere under vores [guide til laktattests](/laktattest/).
 
 ### 3. Metabolisk Spirometri (Gasanalyse / VT1)
 I et laboratorium med iltmaske identificeres den første ventilatoriske tærskel ($VT1$) direkte via udåndingsgasserne.
