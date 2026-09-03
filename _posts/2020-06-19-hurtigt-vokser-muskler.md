@@ -139,12 +139,12 @@ For at give kvinder et realistisk og fysiologisk velfunderet pejlemærke benytte
 
 ---
 
-## Beregner til øvre muskelvækst
+## Beregner til øvre grænse for muskelvækst
 {: id="calculator" }
 
 Vi har lavet en beregner her, som du lynhurtigt kan smide dine egne tal ind i. Beregneren indeholder nu både Abe et al. og Casey Butts model og virker for både mænd og kvinder.
 
-{% include calculator/calculate-musclemass-upper-limit.html %}
+{% include calc/muscle-mass-upper-limit.html %}
 
 ### Et eksempel
 En [dansk mand af gennemsnitlig højde](/hvad-er-gennemsnitshoejden-i-danmark/) på 1,81 meter kan med den simple model (Abe et al.) teoretisk set pakke omkring 55 kg muskler – hvorimod Casey Butts model giver et mere naturligt, realistisk loft ud fra knoglemål.
