@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Styrketræning: Den komplette guide til øvelser, programmer og teori"
-seo_title: "Styrketræning – Komplelt guide til øvelser, programmer & teknik"
+seo_title: "Styrketræning – Komplet guide til øvelser, programmer & teknik"
 permalink: /styrketraening/
 redirect_from:
   - /styrke/
@@ -27,6 +27,8 @@ tag:
   - træningsformer
 breadcrumbs: true
 classes: wide
+last_modified_at: 2026-09-04T17:21:31.000Z
+author: lsolesen
 
 feature_row_beginner_get_started:
   - image_path: /assets/images/unsplash/photo-1643142313816-0d9c86c49f91.jpg
