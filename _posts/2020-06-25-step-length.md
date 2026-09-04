@@ -1,7 +1,7 @@
 ---
 title: Hvor langt er et skridt? (Sådan måler du din skridtlængde)
 seo_title: "Hvor langt er et skridt? [Se gennemsnit & skridtlængde-beregner]"
-description: Find din skridtlængde nemt – mål den selv eller brug vores beregner til at se dine skridt per kilometer.
+description: Find din skridtlængde nemt – se skridtlængde tabel for kvinder og mænd, lær hvordan du måler den selv, eller beregn dine skridt pr. kilometer.
 excerpt: Vil du kende din præcise skridtlængde? Lær, hvordan du måler den med en nem metode eller bruger vores beregner til at finde ud af, hvor mange skridt du tager per kilometer.
 permalink: /skridtlaengde-gang/
 header:
@@ -28,123 +28,145 @@ tools:
     description: "Beregn præcist hvor langt dit skridt er i centimeter baseret på din højde og dit køn, eller udregn hvor mange skridt der går på en kilometer."
     category: ["Gang"]
     type: ["Beregner"]
-    measures: ["Skridtlængde", "Trinlængde", "Skridt pr. kilometer", "Distance"]  # 🎯 Output-parametre fra modulet
+    measures: ["Skridtlængde", "Trinlængde", "Skridt pr. kilometer", "Distance"]
     anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 popular: true
-last_modified_at: '2026-07-05T08:12:14.000Z'
+last_modified_at: '2026-08-27T16:50:00.000Z'
 toc: true
 faq:
+  - question: Hvordan måler man skridtlængde?
+    answer: "Gå 10 skridt i dit normale tempo, mål den samlede distance fra start til slut med et målebånd, og divider afstanden med 10. Så har du din præcise skridtlængde i centimeter."
+  - question: Hvad er den gennemsnitlige skridtlængde for kvinder?
+    answer: "Den gennemsnitlige skridtlængde (trinlængde) for kvinder er ca. 66 cm. Det svarer til cirka 1.515 skridt pr. kilometer."
+  - question: Hvad er den gennemsnitlige skridtlængde for mænd?
+    answer: "Den gennemsnitlige skridtlængde (trinlængde) for mænd er ca. 79 cm. Det svarer til cirka 1.266 skridt pr. kilometer."
+  - question: Hvor mange skridt er 5 km?
+    answer: "5 km svarer i gennemsnit til ca. 7.575 skridt for kvinder (skridtlængde 66 cm) og ca. 6.330 skridt for mænd (skridtlængde 79 cm)."
   - question: Hvor mange skridt er 1 km?
-    answer: "Det afhænger af din skridtlængde! Hvis du regner i almindelige hverdags-skridt (trin), tager mænd med en gennemsnitlig skridtlængde på 79 cm ca. 1.266 skridt på 1 km. Kvinder med en gennemsnitlig skridtlængde på 66 cm tager ca. 1.515 skridt på 1 km. Regner du i hele gangcyklusser (2 trin = 132-158 cm), er tallet ca. 633-757."
-  - question: Hvor mange km er 10.000 skridt?
-    answer: "10.000 hverdags-skridt svarer i gennemsnit til ca. 7,9 km for mænd (skridtlængde på 79 cm) og ca. 6,6 km for kvinder (skridtlængde på 66 cm). Du kan bruge vores beregner her på siden til at taste dit eget præcise tal ind."
+    answer: "1 km svarer i gennemsnit til ca. 1.515 skridt for kvinder og ca. 1.266 skridt for mænd."
   - question: Hvad er forskellen mellem skridtlængde og trinlængde?
-    answer: "I daglig tale kalder vi ofte et enkelt trin for et skridt. I ganganalyse er der dog forskel: Et **trin** (step length) er afstanden fra den ene fod til den anden. En **skridtlængde** (stride length) – også kaldet en **gangcyklus** – er afstanden fra den ene fod, indtil den samme fod rammer jorden igen (altså 2 trin). I vores beregner tager vi udgangspunkt i de enkelte trin, da det er det, skridttællere måler."
-  - question: Hvordan kan jeg måle min skridtlængde?
-    answer: "Du kan måle din skridtlængde på en enkel måde ved hjælp af et kridt og en måling: 1. Sæt et kridtmærke ved hælen på din sko. 2. Gå 10 skridt (5 med højre ben og 5 med venstre). 3. Mål afstanden mellem de to kridtstreger. 4. Del afstanden med 10 for at finde længden af et skridt."
-  - question: Hvad er den gennemsnitlige skridtlængde?
-    answer: "I daglig tale er den gennemsnitlige skridtlængde (længden på ét trin) ca. 79 cm for mænd og 66 cm for kvinder. I faglige sammenhænge er en skridtlængde (en hel gangcyklus / to trin) i gennemsnit 158 cm for mænd og 132 cm for kvinder."
+    answer: "I hverdagen kaldes et enkelt trin for et skridt. I ganganalyse er et trin (step length) afstanden fra den ene fod til den anden, mens en skridtlængde/gangcyklus (stride length) er 2 trin."
 ---
 
-Hvis du vil omregne skridt til kilometer nøjagtigt, er det vigtigt at kende din egen skridtlængde. Gennemsnitsværdier kan give et godt estimat, men der kan være stor individuel variation.
+Hvis du vil omregne dine skridt til kilometer nøjagtigt, er det vigtigt at kende din egen skridtlængde. Gennemsnitsværdier giver et stærkt estimat, men højden har stor betydning for din præcise trinlængde.
 
-I denne guide lærer du, hvordan du nemt måler din skridtlængde – enten ved at bruge en beregning baseret på din højde eller ved at lave en praktisk måling med et kridt.
+> **Kort svar:**
+> * **Skridtlængde for kvinder (gns.):** 66 cm pr. trin (ca. 1.515 skridt pr. km)
+> * **Skridtlængde for mænd (gns.):** 79 cm pr. trin (ca. 1.266 skridt pr. km)
+> * **Formel ud fra højde:** Højde i cm × 0,413 (kvinder) eller × 0,415 (mænd)
 
-> **Kort svar:** Et skridt for en voksen er i gennemsnit **ca. 65 til 78 cm** langt. 
-> * **Mænd:** Ca. 75 cm pr. skridt
-> * **Kvinder:** Ca. 68 cm pr. skridt
-> * **Tommelfingerregel:** Din højde i cm × 0,414 (for kvinder) eller × 0,415 (for mænd).
+[<i class='fas fa-calculator'></i> Prøv vores skridtlængde-beregner her](#calculator){: .btn .btn--success .btn--jump }
 
-Til sidst kan du bruge vores skridtlængde-beregner for at få en præcis værdi.
+Hvis du er interesseret i løb, kan du også læse vores guide om [kadence og skridtlængde ved løb](/gennemsnitlige-skridtlaengde-kadence-loeb/).
 
-[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+---
 
-I denne artikel får du svaret på:
+## Skridtlængde-beregner
+{: id="calculator" }
 
-- Hvordan finder du din skridtlængde? 
-- Hvad er den gennemsnitlige skridtlængde under gang for mænd og kvinder?
-
-Hvis du er interesseret i løb, så er det måske denne artikel om [kadence og skridtlængde ved løb](/gennemsnitlige-skridtlaengde-kadence-loeb/), du er på udkig efter.
-
-## Beregner
+Brug beregneren nedenfor til at finde din præcise skridtlængde ud fra køn og højde – samt hvor mange skridt du tager pr. kilometer:
 
 {% include calc/skridtlaengde-calculator.html %}
+
+---
 
 ## Hvad er forskellen på skridt, trin og gangcyklus?
 
 I daglig tale bruger vi næsten altid ordet **"skridt"** om den afstand, vi tilbagelægger, når vi flytter den ene fod frem foran den anden. Når dit ur eller din telefon tæller "10.000 skridt", tæller den netop disse enkelte stød mod jorden.
 
-Inden for ganganalyse og biomekanik skelner man dog mere præcist mellem begreberne:
+Inden for ganganalyse og biomekanik skelner man mere præcist:
 
-* **Trin / Hverdags-skridt (*Step length*):** Afstanden fra hælisæt af den ene fod til hælisæt af den anden fod (fx fra højre til venstre). 
-* **Gangcyklus / Fagligt skridt (*Stride length*):** Afstanden fra hælisæt af den ene fod til hælisæt af *samme* fod. En hel gangcyklus kræver altså to hverdags-skridt (et højre- og et venstretrin).
+* **Trin / Hverdags-skridt (*Step length*):** Afstanden fra den ene fod til den anden (fx fra højre til venstre). Det er dette mål, vores beregner og hverdagsudregninger benytter.
+* **Gangcyklus / Fagligt skridt (*Stride length*):** Afstanden fra hælisæt af den ene fod, til *samme* fod rammer jorden igen. En gangcyklus består af **2 trin** (ca. 132 cm for kvinder og 158 cm for mænd).
 
-> **Hvorfor vi bruger "Skridt" og "Gangcyklus" i beregneren:**  
-> Da de fleste af os i hverdagen tænker i enkeltvise skridt (og det er det, aktivitetsarmbånd tæller), har vi i vores beregner valgt at lade **Skridt** afspejle et enkelt trin (*step length*). Vil du lave mere faglige udregninger, kan du i stedet vælge **Gangcyklus** (*stride length*), som svarer til 2 skridt.
+---
 
-## Sådan måler du din skridtlængde
+## Skridtlængde tabel (ud fra højde og køn)
 
-Det er godt at kende sin skridtlængde, hvis du gerne vil finde ud af, hvor langt du går på en dag. Hvis du fx har en skridttæller, så kan du skrive din skridtlængde ind, så dit resultat bliver lidt mere præcist.
+Du kan udregne din forventede trinlængde direkte ud fra din kropshøjde med følgende formler:
 
-### 1. Udregn trinlængde og skridtlængde ud fra din højde
-{: id="calculator" }
+* **Mænd:** $\text{Trinlængde (cm)} = \text{Højde (cm)} \times 0,415$
+* **Kvinder:** $\text{Trinlængde (cm)} = \text{Højde (cm)} \times 0,413$
 
-{% include calculator/calculate-step-length.html %}
+*(Eksempel: En mand på 181 cm vil have en forventet trinlængde på ca. 75 cm).*
 
-Det er blevet foreslået, at du kan udregne din skridtlængde med disse formler:
+Tabellen herunder viser den forventede skridtlængde og det gennemsnitlige antal skridt pr. kilometer for forskellige højder:
 
-- **Mænd**: trinlængde = højde (cm) * 0,415
-- **Kvinder**: trinlængde (cm) = højde (cm) * 0,413
+| Højde | Kvinder (Skridtlængde) | Mænd (Skridtlængde) | Skridt pr. 1 km (Kvinder / Mænd) |
+| :--- | :--- | :--- | :--- |
+| **150 cm** | 62 cm | 62 cm | ca. 1.613 skridt |
+| **155 cm** | 64 cm | 64 cm | ca. 1.562 skridt |
+| **160 cm** | 66 cm | 66 cm | ca. 1.515 skridt |
+| **165 cm** | 68 cm | 68 cm | ca. 1.470 skridt |
+| **170 cm** | 70 cm | 71 cm | ca. 1.428 / 1.408 skridt |
+| **175 cm** | 72 cm | 73 cm | ca. 1.388 / 1.370 skridt |
+| **180 cm** | 74 cm | 75 cm | ca. 1.351 / 1.333 skridt |
+| **185 cm** | 76 cm | 77 cm | ca. 1.315 / 1.298 skridt |
+| **190 cm** | 78 cm | 79 cm | ca. 1.282 / 1.266 skridt |
+| **195 cm** | 80 cm | 81 cm | ca. 1.250 / 1.234 skridt |
 
-Når jeg bruger mig selv som eksempel, så vil jeg med min højde på 181 cm have en trinlængde på 75 cm. Det er lidt under gennemsnittet, når man kigger på nedenstående gennemsnitsværdier for trin- og skridtlængde.
+---
 
-### 2. Brug et kridt til at måle skridtlængden
+## Hvordan måler man sin skridtlængde?
 
-Du kan måle din egen skridtlængde på følgende lavpraktiske måde, hvis du gerne vil vide mere præcist, hvor lange dine skridt er:
+Hvis du vil kende din helt præcise skridtlængde frem for et gennemsnit ud fra højden, kan du måle den selv med **10-skridts metoden**:
 
-- Stå.
-- Sæt et kridtmærke ved dine hæle.
-- Gå 10 skridt - 5 med højre ben og 5 skridt med venstre.
-- Sæt kridtstreg ved hælen efter sidste skridt.
-- Mål den samlede distance mellem de to kridtstreger.
-- Del distance med 10 for at finde længden for et enkelt skridt.
+1. **Find et fladt underlag** (fx en gang, en vej eller en løbebane).
+2. **Sæt et kridtmærke** på jorden lige bag dine hæle.
+3. **Gå 10 skridt fremad** (5 med højre ben og 5 med venstre) i dit helt normale hverdags-gangtempo.
+4. **Sæt et slutmærke** direkte bag hælen på din bagerste sko efter det 10. skridt.
+5. **Mål afstanden** mellem de två kridtmærker i centimeter med et målebånd.
+6. **Divider distancen med 10**.
 
-## Hvor mange skridt er der per kilometer?
+> **Eksempel:** Måler du en samlet afstand på 740 cm efter 10 skridt, er din gennemsnitlige skridtlængde $740 / 10 = 74\text{ cm}$.
 
-Det kan være meget sjovt at vide, hvor langt man har gået på sin gåtur. Hvis du har en aktivitetsmåler med indbygget skridttæller, så ved du nogenlunde, hvor mange skridt du har gået på din gåtur.
+---
 
-Du kan lave din egen skridt pr. kilometerberegning i beregneren herunder. Så får du dit egen personlige **skridt til km**-beregning.
+## Hvor mange skridt er 5 km, 1 km og 10 km?
 
-{% include calculator/calculate-step-km.html %}
+Når du kender din skridtlængde, kan du nemt omregne kilometer til skridt. Tabellen viser skridttallet for de mest populære distancer:
 
-## Gennemsnitlig trinlængde og skridtlængde for mænd og kvinder
+| Distance | Kvinder (Gns. 66 cm) | Mænd (Gns. 79 cm) |
+| :--- | :--- | :--- |
+| **1 km** | ca. 1.515 skridt | ca. 1.266 skridt |
+| **3 km** | ca. 4.545 skridt | ca. 3.798 skridt |
+| **5 km** | ca. 7.575 skridt | ca. 6.330 skridt |
+| **8 km** (~10.000 skridt f. mænd) | ca. 12.120 skridt | ca. 10.126 skridt |
+| **10 km** | ca. 15.150 skridt | ca. 12.660 skridt |
 
-Du kan bruge gennemsnitsværdier for trinlængde og skridtlængde for mænd og kvinder, når du laver dine beregninger.
+> **Vil du omregne direkte fra skridt til kilometer?**  
+> Hvis du kender dit skridttal og vil omregne det direkte til samlet distance, kan du prøve vores dedikerede [skridt til km omregner](/skridt-pr-km-10000/){: .read-more-link }.
 
-Nedenstående tabel er baseret på studier af Murray et al (1964) og Murray et al (1970). Tabellen viser den normal skridtlængde for mænd og kvinder.
+---
+
+## Gennemsnitlig skridtlængde for mænd og kvinder
+
+Nedenstående fysiologiske normer bygger på studier af Murray et al. (1964, 1970) og viser forskellene mellem køn under almindelig gang:
 
 | Begreb / Køn | Mænd | Kvinder |
 | :--- | :--- | :--- |
 | **Enkelt skridt / Trin (*Step length*)** | 79 cm | 66 cm |
 | **Gangcyklus / Fagligt skridt (*Stride length*)** | 158 cm | 132 cm |
-| **Kadence (trin/min)** | 117 (60-132) | 117 (60-132) |
+| **Gennemsnitlig kadence** | 117 (60-132) trin/min | 117 (60-132) trin/min |
 
-Hvis din skridtlængde afhænger af højden, så er den sandsynligvis steget, da [gennemsnitshøjden i Danmark](/hvad-er-gennemsnitshoejden-i-danmark/) er steget siden studierne blev lavet.
+Da skridtlængden hænger sammen med højden, er den gennemsnitlige skridtlængde sandsynligvis steget en smule over tid, da [gennemsnitshøjden i Danmark](/hvad-er-gennemsnitshoejden-i-danmark/) er steget siden disse studier blev gennemført (Kjær Mackie 2014).
 
-I 1962 var gennemsnitshøjden ved session fx 175,8 cm, mens den i 2011 var 179,8 cm (Kjær Mackie 2014). Hvis vi bruger omregningsfaktoren ovenfor, så er skridtlængden altså i gennemsnit 1,66 cm længere nu end dengang.
+---
 
-## Konklusion
+## Konklusion & relaterede værktøjer
 
-Da både skridtlængde og trinlængde varierer fra person til person, er det vigtigt at kende din egen skridtlængde for at få et præcist mål for, hvor langt du går på en given distance. For at finde ud af, hvor mange skridt du tager på en kilometer, bør du beregne eller måle din egen skridtlængde.
+Kendskabet til din egen skridtlængde gør det nemt at udregne din nøjagtige distancemåling på gåture. Brug vores [skridtlængde-beregner i toppen](#calculator) til at finde dine personlige tal.
 
-På denne side kunne du finde en **skridtlængde-beregner**, som kan hjælpe dig med at finde din præcise skridtlængde baseret på din højde. Brug den til at få en nøjagtig beregning af dine skridt pr. kilometer.
+Vil du vide mere om tidsforbrug, omregning og kalorieforbrænding under gang? Se vores andre guider:
 
-Hvis du ønsker at få et endnu mere præcist billede af din daglige aktivitet, kan du også bruge vores **[skridtomregner](/omregn-motion-aktivitet-sport-til-skridt/)**, som kan omregne andre motions- og sportsaktiviteter til skridt. Det er en god måde at sikre, at du får et fuldt billede af din fysiske aktivitet.
+* [Omregner fra skridt til km](/skridt-pr-km-10000/)
+* [Hvor lang tid tager det at gå 10.000 skridt?](/tid-at-gaa/)
+* [Omregn andre motionsformer og aktiviteter til skridt](/omregn-motion-aktivitet-sport-til-skridt/)
+* [Tæl Skridt-kampagnen fra Dansk Firmaidræt](/artikel/tael-skridt/)
+* [Hvor meget forbrænder man ved at gå?](/forbraending-ved-gaa-gang/)
 
-Er du interesseret i at tælle skridt som en del af en sundere livsstil, kan du deltage i **[Tæl Skridt-kampagnen](/artikel/tael-skridt/)** fra Dansk Firmaidræt og begynde at tælle dine daglige skridt.
-
-Og hvis du undrer dig over, hvor mange kalorier du forbrænder under gang, kan du læse min artikel om **[kalorieforbrænding ved gang](/forbraending-ved-gaa-gang/)**, hvor du finder nyttig information om energiforbruget under gåture.
+---
 
 ## Køb bøger om at gå
 
@@ -152,15 +174,20 @@ Og hvis du undrer dig over, hvor mange kalorier du forbrænder under gang, kan d
 
 {% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.books.gaa_kunsten_at_leve view="card" %}
 
+---
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
+
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Holden, M. K., K. M. Gill, og M. R. Magliozzi. 1986. “Gait Assessment for Neurologically Impaired Patients. Standards for Outcome Assessment”. Physical Therapy 66 (10): 1530–39. <https://doi.org/10.1093/ptj/66.10.1530>.
-- “Kjær Mackie og Dänemark - 2014 - 65 år i tal Danmark siden 2. verdenskrig.pdf”. u.å. Set 25. juni 2020. <https://www.dst.dk/Site/Dst/Udgivelser/GetPubFile.aspx?id=19228&sid=65aarital>.
-- Murray, M. P., A. B. Drought, og R. C. Kory. 1964. “WALKING PATTERNS OF NORMAL MEN”. The Journal of Bone and Joint Surgery. American Volume 46 (marts): 335–60.
+- Holden, M. K., K. M. Gill, og M. R. Magliozzi. 1986. “Gait Assessment for Neurologically Impaired Patients. Standards for Outcome Assessment”. Physical Therapy 66 (10): 1530–39.
+- Kjær Mackie og Dänemark - 2014. "65 år i tal Danmark siden 2. verdenskrig". Danmarks Statistik.
+- Murray, M. P., A. B. Drought, og R. C. Kory. 1964. “WALKING PATTERNS OF NORMAL MEN”. The Journal of Bone and Joint Surgery.
 - Murray, M. P., R. C. Kory, og S. B. Sepic. 1970. “Walking Patterns of Normal Women”. Archives of Physical Medicine and Rehabilitation 51 (11): 637–50.
-- Stuberg, W. A., V. L. Colerick, D. J. Blanke, og W. Bruce. 1988. “Comparison of a Clinical Gait Analysis Method Using Videography and Temporal-Distance Measures with 16-Mm Cinematography”. Physical Therapy 68 (8): 1221–25.
-- Tudor-Locke, Catrine, Cora L. Craig, John P. Thyfault, og John C. Spence. 2013. “A Step-Defined Sedentary Lifestyle Index: <5000 Steps/Day”. Applied Physiology, Nutrition, and Metabolism 38 (2): 100–114. <https://doi.org/10.1139/apnm-2012-0235>.
+- Tudor-Locke, Catrine, et al. 2013. “A Step-Defined Sedentary Lifestyle Index: <5000 Steps/Day”. Applied Physiology, Nutrition, and Metabolism.
 </details>
 
 {% include motionsplan/pinterest image_path="/assets/images/pinterest/10000-skridt.jpg" data-pin-media="/assets/images/pinterest/10000-skridt.jpg" class="hidden" %}

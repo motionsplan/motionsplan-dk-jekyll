@@ -81,7 +81,7 @@ Når du har trænet din reaktive opmærksomhed på skærmen, kan du overføre f�
 * **Formål:** At isolere det perifere synsfelt, mens du udfører uafhængige hånd-øje-bevægelser.
 * **Udførsel:** Hæng et talkort op i øjenhøjde, og placer 20 klemmer eller mærker i en cirkel helt ude i kanten af dit synsfelt. Fiksér på midten af talkortet. En makker kalder et mærke, og du skal ramme det med en pegepind udelukkende ved brug af dit perifere syn, mens du uafbrudt læser tallene på kortet op i en fast rytme.
 
-[![](/assets/images/exercises/trainyoureyes-ninja.png)](/assets/pdf/trainyoureyes-ninja.pdf)
+[![](/assets/images/tye/trainyoureyes-ninja.png)](/assets/pdf/trainyoureyes-ninja.pdf)
 
 ---
 
