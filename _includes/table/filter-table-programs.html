@@ -41,8 +41,8 @@
     {% for prog in item.programs %}
       {% assign count_all = count_all | plus: 1 %}
 
-      {% assign mod_raw = prog.modality | first | default: prog.category | first | default: prog.modality | default: prog.category | default: default_cat %}
-      {% assign mod_str = mod_raw | join: " " | downcase %}
+      {% assign mod_raw = prog.modality | default: prog.category | default: default_cat %}
+      {% assign mod_str = mod_raw | join: " " | default: mod_raw | downcase %}
 
       {% if mod_str contains "gang" %}
         {% assign count_gang = count_gang | plus: 1 %}
@@ -70,7 +70,7 @@
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
       </span>
-      <input type="text" class="program-search-input" placeholder="{{ search_placeholder }}">
+      <input type="text" class="program-search-input" placeholder="{{ search_placeholder }}" autocomplete="off">
     </div>
 
     {% if hide_select != "true" %}
@@ -110,12 +110,12 @@
     <table class="table program-table">
       <thead>
         <tr>
-          <th>Program</th>
-          <th>Kategori</th>
-          <th>Niveau</th>
-          <th>Varighed</th>
-          <th>Hyppighed</th>
-          <th></th>
+          <th style="width: 32%;">Program</th>
+          <th style="width: 18%;">Kategori</th>
+          <th style="width: 15%;">Niveau</th>
+          <th style="width: 12%;">Varighed</th>
+          <th style="width: 13%;">Hyppighed</th>
+          <th style="width: 10%;"></th>
         </tr>
       </thead>
       <tbody>
@@ -134,8 +134,8 @@
             {% endif %}
 
             {% for prog in item.programs %}
-              {% assign mod_raw = prog.modality | first | default: prog.category | first | default: prog.modality | default: prog.category | default: default_cat %}
-              {% assign mod_str = mod_raw | join: " " | downcase %}
+              {% assign mod_raw = prog.modality | default: prog.category | default: default_cat %}
+              {% assign mod_str = mod_raw | join: " " | default: mod_raw | downcase %}
 
               {% assign cat_clean = "løb" %}
               {% if mod_str contains "gang" %}
@@ -235,6 +235,7 @@
     color: #1f2937;
     box-shadow: 0 1px 2px rgba(0,0,0,0.03);
     transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    box-sizing: border-box;
   }
   .program-search-input:focus {
     border-color: #3b82f6;
@@ -277,6 +278,7 @@
     color: #374151;
     cursor: pointer;
     transition: all 0.2s ease;
+    user-select: none;
   }
   .program-pill-btn:hover {
     background: #e5e7eb;
@@ -292,12 +294,33 @@
     margin-bottom: 1rem;
     font-style: italic;
   }
+
+  /* TABEL SIKRING TIL MOBIL */
+  .program-table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .program-table {
+    width: 100% !important;
+    display: table !important;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  .program-table th, 
+  .program-table td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    padding: 10px 12px;
+  }
+
   .program-badge {
     display: inline-block;
     padding: 0.2rem 0.6rem;
     border-radius: 6px;
     font-size: 0.8rem;
     font-weight: 600;
+    white-space: nowrap;
   }
   .tag-løb { background-color: #e0f2fe; color: #0369a1; }
   .tag-gang { background-color: #dcfce7; color: #15803d; }
@@ -320,18 +343,29 @@
 
       let currentCategory = container.getAttribute("data-initial-category") || "";
       let showByDefault = container.getAttribute("data-show-default") === "true";
-      let currentSearch = "";
 
       if (currentCategory && select) {
         const matchingOption = select.querySelector(`option[value="${currentCategory}"]`);
         if (matchingOption) matchingOption.selected = true;
       }
 
-      function filterAndToggle() {
-        const hasSearch = currentSearch.length > 0;
-        const hasCategory = currentCategory !== "";
+      // Hjælpefunktion til præcis ord-match (med æ, ø, å)
+      function matchesExactWord(text, word) {
+        const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const pattern = `(?:^|[^a-zæøå0-9])${escapedWord}(?:$|[^a-zæøå0-9])`;
+        return new RegExp(pattern, 'i').test(text);
+      }
 
-        if (!hasSearch && !hasCategory && !showByDefault) {
+      function filterAndToggle() {
+        const query = searchInput ? searchInput.value.trim() : "";
+        const activePill = container.querySelector(".program-pill-btn.active");
+        const activePillVal = activePill ? activePill.getAttribute("data-pill") : null;
+
+        const terms = query.toLowerCase().split(/\s+/).filter(term => term.length > 0);
+        const hasSearch = terms.length > 0 || activePillVal !== null;
+        const hasCategory = currentCategory !== "" && currentCategory !== "all";
+
+        if (!hasSearch && currentCategory === "" && !showByDefault) {
           tableWrapper.style.display = "none";
           if (noResults) noResults.style.display = "none";
           if (promptHint) promptHint.style.display = "block";
@@ -345,12 +379,20 @@
 
         rows.forEach(row => {
           const category = row.getAttribute("data-category");
-          const searchText = row.getAttribute("data-search");
+          const searchText = row.getAttribute("data-search") || "";
 
-          const matchesCategory = (currentCategory === "all" || currentCategory === "" || category === currentCategory);
-          const matchesSearch = (!hasSearch || searchText.includes(currentSearch));
+          const matchesCategory = (!hasCategory || category === currentCategory);
+          
+          // 1. Tjek om alle indtastede ord matchede i data-search
+          let matchesTerms = terms.length === 0 || terms.every(term => searchText.indexOf(term) > -1);
 
-          if (matchesCategory && matchesSearch) {
+          // 2. Tjek om aktiv pill matchede som helt ord
+          let matchesPill = true;
+          if (activePillVal) {
+            matchesPill = matchesExactWord(searchText, activePillVal);
+          }
+
+          if (matchesCategory && matchesTerms && matchesPill) {
             row.style.display = "";
             visibleCount++;
           } else {
@@ -363,22 +405,15 @@
         }
       }
 
-      // Håndter Pills
+      // Håndter Pills (toggle til/fra)
       pillBtns.forEach(btn => {
         btn.addEventListener("click", function() {
-          const pillVal = this.getAttribute("data-pill").toLowerCase().trim();
-
           if (this.classList.contains("active")) {
             this.classList.remove("active");
-            currentSearch = "";
-            if (searchInput) searchInput.value = "";
           } else {
             pillBtns.forEach(b => b.classList.remove("active"));
             this.classList.add("active");
-            currentSearch = pillVal;
-            if (searchInput) searchInput.value = this.getAttribute("data-pill");
           }
-
           filterAndToggle();
         });
       });
@@ -391,15 +426,7 @@
       }
 
       if (searchInput) {
-        searchInput.addEventListener("input", function() {
-          currentSearch = this.value.toLowerCase().trim();
-          pillBtns.forEach(b => {
-            if (b.getAttribute("data-pill").toLowerCase() !== currentSearch) {
-              b.classList.remove("active");
-            }
-          });
-          filterAndToggle();
-        });
+        searchInput.addEventListener("input", filterAndToggle);
       }
 
       filterAndToggle();

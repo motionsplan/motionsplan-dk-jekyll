@@ -2,6 +2,7 @@
 title: "YMCA metoden - Mål fedtprocent med fedttang"
 permalink: /skinfold-ymca/
 excerpt: "YMCA-metoden er baseret på Jackson & Pollocks formler, men specielt tilpasset YMCA's behov. Det betyder, at mænd og kvinder måles på de samme punkter, og hvis det volder problemer at måle på låret, så kan den måling let udelades."
+description: "Mål din fedtprocent med YMCA-metoden. Enkel hudfoldsmåling med 3 eller 4 punkter, hvor den besværlige lårmåling valgfrit kan udelades. Beregn resultatet her."
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
@@ -46,7 +47,7 @@ tools:
     category: ["Kropskomposition"]
     type: ["Beregner"]
     execution: ["Testberegner"]
-    anchor: "#ymca-fedtprocent-beregner"
+    anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
@@ -68,6 +69,7 @@ Mål hudfoldstykkelsen med en fedttang fire steder på kroppen:
 {% include figure image_path="/assets/images/fedtprocent/ymca.png" caption="Her skal der måles til YMCA-formlen for fedtprocent." alt="ymca fedtprocent målinger" %}
 
 ## YMCA fedtprocent beregner
+{: id="calculator" }
 
 Angiv værdierne i beregneren nedenunder.
 
@@ -84,21 +86,7 @@ Når du har beregnet din fedtprocent, så kan du tjekke en [normal fedtprocent i
 
 ## Alternativer til YMCA-formlen
 
-{% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% assign i = 0 %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-
-{% assign i = i | plus: 1 %}
-
-### [{{ i }}. {{ post.title }}]({{ post.url }})
-
-{{ post.excerpt }}
-
-  {% endfor %}
-{% endif %}
+Vil du prøve en mere omfattende 4-punktsmåling i stedet for YMCA? Se alle tilgængelige metoder i vores [samlede guide til hudfoldsmåling](/skinfold/), eller vælg den rette formel i vores [interaktive formelvælger](/skinfold/#formelvaelger).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

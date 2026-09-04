@@ -171,28 +171,19 @@ Jeg foretrækker selv at bruge [Durnin & Womersley 4-punkts måling af fedtproce
 
 Alle de følgende måder at lave hudfoldsmålinger på kræver en pålidelig fedttang til at lave målinger for at estimere fedtprocenten.
 
-{% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% assign i = 0 %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-
-{% assign i = i | plus: 1 %}
-
-### [{{ i }}. {{ post.title }}]({{ post.url }})
-
-{{ post.excerpt }}
-
-  {% endfor %}
-{% endif %}
+* [Durnin & Womersley 4-punktsmåling](/skinfold-durnin-womersley/) – Bedst til almindelig kropsbygning og voksne (bruges af Team Danmark).
+* [Jackson & Pollock 3-punktsmåling](/skinfold-jackson-pollock/) – Velegnet til slanke, atleter og trænede personer.
+* [Peterson 4-punktsmåling](/skinfold-peterson/) – Nyere formel baseret på en 4-komponentmodel.
+* [YMCA 3/4-punktsmåling](/skinfold-ymca/) – Hurtig og nem måling, hvor lår-målingen kan udelades.
+* [Slaughter 2-punktsmåling til børn](/slaughter-fedtprocent-boern/) – Valideret formel til børn og unge (triceps og skulderblad).
+* [Lohman 2-punktsmåling til børn](/lohman-fedtprocent-boern/) – Enkel børneformel baseret på triceps- og lægmåling.
 
 ---
 
 ## Dashboard
 {: id="dashboard" }
 
-{% include calc/skinfold-dashboard.html title="🧰 Hudfoldstest Dashboard" calc_id="skinfold-dashboard" %}
+{% include calc/skinfold-dashboard.html title="🧰 Fedtprocent fra hudfolde" calc_id="skinfold-dashboard" %}
 
 ---
 

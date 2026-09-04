@@ -58,7 +58,7 @@ Her har du en oversigt over alle de forskellige måder du kan teste din konditio
    category="Løb" 
    label="løbetests" 
    placeholder="Søg i løbetests (fx Cooper, Bip-test, Yo-Yo, VO2-max)..." 
-   pills="Kondition, Maksimal, Submaksimal, Felt, Laboratorie, Sprint" %}
+   pills="Kondition, Maksimal, Submaksimal, Løbebånd, Felttest, Laboratorium, Sprint" %}
 
 ---
 

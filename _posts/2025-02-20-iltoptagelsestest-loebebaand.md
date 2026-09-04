@@ -46,7 +46,7 @@ tests:
     equipment: ["Løbebånd", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler (priktest)", "Pulsbælte"]
     setting: ["Laboratorium", "Testcenter", "Undervisning"]
     target_group: ["Løbere", "Atleter", "Studerende", "Mænd", "Kvinder"]
-    anchor: "#1-test-1-ren-submaksimal-trappetest-taerskler--loebeoekonomi"
+    anchor: "#submax-trappetest"
 
   - id: "test-maksimal-rampetest-loeb"
     title: "Maksimal rampetest (VO2max)"
@@ -60,7 +60,7 @@ tests:
     equipment: ["Løbebånd", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler (priktest)", "Pulsbælte"]
     setting: ["Laboratorium", "Testcenter", "Undervisning"]
     target_group: ["Løbere", "Atleter", "Studerende", "Mænd", "Kvinder"]
-    anchor: "#2-test-2-maksimal-rampetest-haeldning"
+    anchor: "#max-rampetest"
 
   - id: "test-kombineret-submax-ramp-loeb"
     title: "Kombineret test (Submax trappetest + pause + rampetest)"
@@ -74,7 +74,7 @@ tests:
     equipment: ["Løbebånd", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler", "Pulsbælte"]
     setting: ["Laboratorium", "Testcenter", "Undervisning"]
     target_group: ["Løbere", "Atleter", "Studerende"]
-    anchor: "#3-test-3-kombineret-test-submax-trappetest--pause--rampetest"
+    anchor: "#vo2-kombineret"
 
   - id: "test-trappetest-maxtest-loeb"
     title: "Incremental trappetest til failure (3-minutters trin)"
@@ -84,11 +84,11 @@ tests:
     execution: ["Fysisk"]
     method: "direkte"
     modality: ["Løb"]
-    measures: ["LT1 (Aerob tærskel)", "LT2 (Anaerob tærskel)", "Løbeøkonomi", "VO2peak", "Submaksimal laktat", "Maxpuls"]
+    measures: ["LT1 (Aerob tærskel)", "LT2 (Anaerob tærskel)", "Løbeøkonomi", "VO2peak", "Laktatkurve", "Maxpuls"]
     equipment: ["Løbebånd", "Gasanalyseudstyr / Iltoptagelsesmaske", "Laktatmåler (priktest)", "Pulsbælte"]
     setting: ["Laboratorium", "Testcenter", "Undervisning"]
     target_group: ["Løbere", "Atleter", "Studerende", "Mænd", "Kvinder"]
-    anchor: "#4-test-4-incremental-trappetest-til-failure-3-minutters-trin"
+    anchor: "#max-trappetest"
 
 # FORMULARER OG SKABELER (GOOGLE SHEETS FREEBIE)
 templates:

@@ -193,6 +193,8 @@
     border-spacing: 0;
     font-size: 0.88rem;
     text-align: center;
+    display: table !important; /* Bevarer ægte tabel-funktion */
+    table-layout: fixed;      /* Fordeler kolonner jævnt */
   }
 
   .mp-kt-table th {
@@ -269,18 +271,18 @@
     
     <!-- 1. Kondital -->
     <div class="mp-kt-bar__field">
-      <span class="mp-kt-bar__label">Dit kondital:</span>
+      <span class="mp-kt-bar__label">Kondital</span>
       <div class="mp-input-box">
-        <input type="number" id="kt-tab-val" placeholder="45" step="0.1" style="width: 32px;">
+        <input type="number" id="kt-tab-val" placeholder="45" step="0.1" style="width: 30px;">
         <span class="unit">ml/kg/min</span>
       </div>
     </div>
 
     <!-- 2. Alder -->
     <div class="mp-kt-bar__field">
-      <span class="mp-kt-bar__label">Alder:</span>
+      <span class="mp-kt-bar__label">Alder</span>
       <div class="mp-input-box">
-        <input type="number" id="kt-tab-age" placeholder="40" min="5" max="100" style="width: 26px;">
+        <input type="number" id="kt-tab-age" placeholder="40" min="5" max="100" style="width: 24px;">
         <span class="unit">år</span>
       </div>
     </div>
@@ -318,35 +320,35 @@
       </thead>
       <tbody>
         <tr data-min-age="5" data-max-age="14" data-bounds="38,43,51,56">
-          <td style="text-align: left; padding-left: 10px;">5-14 år</td>
+          <td style="text-align: left; padding-left: 10px;">5-14</td>
           <td>&lt; 38</td><td>39-43</td><td>44-51</td><td>52-56</td><td>&gt; 57</td>
         </tr>
         <tr data-min-age="15" data-max-age="19" data-bounds="43,48,56,61">
-          <td style="text-align: left; padding-left: 10px;">15-19 år</td>
+          <td style="text-align: left; padding-left: 10px;">15-19</td>
           <td>&lt; 43</td><td>44-48</td><td>49-56</td><td>57-61</td><td>&gt; 62</td>
         </tr>
         <tr data-min-age="20" data-max-age="29" data-bounds="38,43,51,56">
-          <td style="text-align: left; padding-left: 10px;">20-29 år</td>
+          <td style="text-align: left; padding-left: 10px;">20-29</td>
           <td>&lt; 38</td><td>39-43</td><td>44-51</td><td>52-56</td><td>&gt; 57</td>
         </tr>
         <tr data-min-age="30" data-max-age="39" data-bounds="34,39,47,51">
-          <td style="text-align: left; padding-left: 10px;">30-39 år</td>
+          <td style="text-align: left; padding-left: 10px;">30-39</td>
           <td>&lt; 34</td><td>35-39</td><td>40-47</td><td>48-51</td><td>&gt; 52</td>
         </tr>
         <tr data-min-age="40" data-max-age="49" data-bounds="30,35,43,47">
-          <td style="text-align: left; padding-left: 10px;">40-49 år</td>
+          <td style="text-align: left; padding-left: 10px;">40-49</td>
           <td>&lt; 30</td><td>31-35</td><td>36-43</td><td>44-47</td><td>&gt; 48</td>
         </tr>
         <tr data-min-age="50" data-max-age="59" data-bounds="25,31,39,43">
-          <td style="text-align: left; padding-left: 10px;">50-59 år</td>
+          <td style="text-align: left; padding-left: 10px;">50-59</td>
           <td>&lt; 25</td><td>26-31</td><td>32-39</td><td>40-43</td><td>&gt; 44</td>
         </tr>
         <tr data-min-age="60" data-max-age="69" data-bounds="21,26,35,39">
-          <td style="text-align: left; padding-left: 10px;">60-69 år</td>
+          <td style="text-align: left; padding-left: 10px;">60-69</td>
           <td>&lt; 21</td><td>22-26</td><td>27-35</td><td>36-39</td><td>&gt; 40</td>
         </tr>
         <tr data-min-age="70" data-max-age="120" data-bounds="19,24,32,37">
-          <td style="text-align: left; padding-left: 10px;">70+ år</td>
+          <td style="text-align: left; padding-left: 10px;">70+</td>
           <td>&lt; 19</td><td>20-24</td><td>25-32</td><td>33-37</td><td>&gt; 38</td>
         </tr>
       </tbody>
@@ -369,27 +371,27 @@
       </thead>
       <tbody>
         <tr data-min-age="5" data-max-age="14" data-bounds="34,39,47,51">
-          <td style="text-align: left; padding-left: 10px;">5-14 år</td>
+          <td style="text-align: left; padding-left: 10px;">5-14</td>
           <td>&lt; 34</td><td>35-39</td><td>40-47</td><td>48-51</td><td>&gt; 52</td>
         </tr>
         <tr data-min-age="15" data-max-age="29" data-bounds="28,34,43,48">
-          <td style="text-align: left; padding-left: 10px;">15-29 år</td>
+          <td style="text-align: left; padding-left: 10px;">15-29</td>
           <td>&lt; 28</td><td>29-34</td><td>35-43</td><td>44-48</td><td>&gt; 49</td>
         </tr>
         <tr data-min-age="30" data-max-age="39" data-bounds="27,33,41,47">
-          <td style="text-align: left; padding-left: 10px;">30-39 år</td>
+          <td style="text-align: left; padding-left: 10px;">30-39</td>
           <td>&lt; 27</td><td>28-33</td><td>34-41</td><td>42-47</td><td>&gt; 48</td>
         </tr>
         <tr data-min-age="40" data-max-age="49" data-bounds="25,31,40,45">
-          <td style="text-align: left; padding-left: 10px;">40-49 år</td>
+          <td style="text-align: left; padding-left: 10px;">40-49</td>
           <td>&lt; 25</td><td>26-31</td><td>32-40</td><td>41-45</td><td>&gt; 46</td>
         </tr>
         <tr data-min-age="50" data-max-age="64" data-bounds="21,28,36,41">
-          <td style="text-align: left; padding-left: 10px;">50-64 år</td>
+          <td style="text-align: left; padding-left: 10px;">50-64</td>
           <td>&lt; 21</td><td>22-28</td><td>29-36</td><td>37-41</td><td>&gt; 42</td>
         </tr>
         <tr data-min-age="65" data-max-age="120" data-bounds="19,26,34,39">
-          <td style="text-align: left; padding-left: 10px;">65+ år</td>
+          <td style="text-align: left; padding-left: 10px;">65+</td>
           <td>&lt; 19</td><td>20-26</td><td>27-34</td><td>35-39</td><td>&gt; 40</td>
         </tr>
       </tbody>

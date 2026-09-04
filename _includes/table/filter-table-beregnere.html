@@ -25,7 +25,7 @@
 {% endfor %}
 
 {% if total_tools > 0 %}
-<div class="calc-table-widget" id="{{ widget_id }}-widget">
+<div class="calc-table-widget" id="{{ widget_id }}-widget" data-base-count="{{ total_tools }}" data-label-text="{{ label_text }}">
   
   <!-- STRØMLINET SØGEBAR OG KNAP -->
   <div class="calc-search-bar">
@@ -64,9 +64,9 @@
     <table id="{{ widget_id }}-table" class="calc-table">
       <thead>
         <tr class="header">
-          <th>Beregner / Værktøj</th>
-          <th>Type</th>
-          <th>Måler / Udregner</th>
+          <th style="width: 30%;">Beregner / Værktøj</th>
+          <th style="width: 20%;">Type</th>
+          <th style="width: 50%;">Måler / Udregner</th>
         </tr>
       </thead>
       <tbody>
@@ -223,13 +223,15 @@
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
-  overflow: hidden;
+  overflow-x: auto;
   box-shadow: 0 4px 12px rgba(0,0,0,0.03);
   margin-top: 12px;
 }
 
 .calc-table {
-  width: 100%;
+  width: 100% !important;
+  display: table !important;
+  table-layout: fixed;
   border-collapse: collapse;
   margin: 0;
   font-size: 0.95rem;
@@ -240,6 +242,9 @@
   padding: 12px 16px;
   text-align: left;
   border-bottom: 1px solid #f1f5f9;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
 }
 
 .calc-table th {
@@ -266,30 +271,58 @@
 <script>
 (function() {
   const widgetId = "{{ widget_id }}";
-  const labelText = "{{ label_text }}";
+  const widget = document.getElementById(widgetId + "-widget");
+  if (!widget) return;
+
   const input = document.getElementById(widgetId + "-filter-input");
   const wrapper = document.getElementById(widgetId + "-table-wrapper");
   const table = document.getElementById(widgetId + "-table");
   const toggleBtn = document.getElementById(widgetId + "-toggle-btn");
   const arrow = toggleBtn ? toggleBtn.querySelector(".calc-btn-arrow") : null;
   const noResults = document.getElementById(widgetId + "-no-results-msg");
-  const pillBtns = document.querySelectorAll("#" + widgetId + "-pills .calc-pill-btn");
+  const pillBtns = widget.querySelectorAll(".calc-pill-btn");
+
+  const labelText = widget.getAttribute("data-label-text") || "beregnere";
+  const baseCount = widget.getAttribute("data-base-count") || 0;
 
   if (!input || !wrapper || !table) return;
 
   const rows = table.querySelectorAll("tbody tr");
   let isExplicitlyExpanded = false;
 
-  function filterTable() {
-    const filter = input.value.trim().toUpperCase();
+  // Hjælpefunktion til præcis ord-match (med dansk æ, ø, å)
+  function matchesExactWord(text, word) {
+    const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const pattern = `(?:^|[^a-zæøå0-9])${escapedWord}(?:$|[^a-zæøå0-9])`;
+    return new RegExp(pattern, 'i').test(text);
+  }
 
-    if (filter.length > 0) {
+  function filterTable() {
+    const query = input.value.trim();
+    const activePill = widget.querySelector(".calc-pill-btn.active");
+    const activePillVal = activePill ? activePill.getAttribute("data-pill") : null;
+
+    const terms = query.toUpperCase().split(/\s+/).filter(term => term.length > 0);
+    const hasSearch = terms.length > 0 || activePillVal !== null;
+
+    if (hasSearch) {
       wrapper.style.display = "block";
       let matchCount = 0;
 
       rows.forEach(row => {
         const text = row.textContent || row.innerText;
-        if (text.toUpperCase().indexOf(filter) > -1) {
+        const upperText = text.toUpperCase();
+
+        // 1. Tjek om alle indtastede ord matchede
+        let matchesTerms = terms.length === 0 || terms.every(term => upperText.indexOf(term) > -1);
+
+        // 2. Tjek om aktiv pill matchede som helt ord
+        let matchesPill = true;
+        if (activePillVal) {
+          matchesPill = matchesExactWord(text, activePillVal);
+        }
+
+        if (matchesTerms && matchesPill) {
           row.style.display = "";
           matchCount++;
         } else {
@@ -297,61 +330,49 @@
         }
       });
 
-      noResults.style.display = matchCount === 0 ? "block" : "none";
+      if (noResults) noResults.style.display = matchCount === 0 ? "block" : "none";
     } else {
       if (!isExplicitlyExpanded) {
         wrapper.style.display = "none";
       } else {
         rows.forEach(row => row.style.display = "");
-        noResults.style.display = "none";
+        if (noResults) noResults.style.display = "none";
       }
     }
   }
 
-  // Håndter pill-klik
+  // Håndter pill-klik (Toggle til/fra uden at fylde rå streng i inputfeltet)
   pillBtns.forEach(btn => {
     btn.addEventListener("click", function() {
-      const pillValue = this.getAttribute("data-pill");
-
       if (this.classList.contains("active")) {
         this.classList.remove("active");
-        input.value = "";
       } else {
         pillBtns.forEach(b => b.classList.remove("active"));
         this.classList.add("active");
-        input.value = pillValue;
       }
-
       filterTable();
     });
   });
 
-  // Fjern active-state fra pills hvis brugeren selv indtaster noget i søgefeltet
-  input.addEventListener("input", function() {
-    const val = input.value.trim().toUpperCase();
-    pillBtns.forEach(b => {
-      if (b.getAttribute("data-pill").toUpperCase() !== val) {
-        b.classList.remove("active");
-      }
-    });
-    filterTable();
-  });
+  input.addEventListener("input", filterTable);
 
   toggleBtn.addEventListener("click", function() {
     isExplicitlyExpanded = !isExplicitlyExpanded;
+    const btnText = toggleBtn.querySelector("span");
 
     if (isExplicitlyExpanded) {
       wrapper.style.display = "block";
-      toggleBtn.querySelector("span").innerText = "Skjul tabel";
-      if(arrow) arrow.innerText = "▲";
+      if (btnText) btnText.innerText = "Skjul tabel";
+      if (arrow) arrow.innerText = "▲";
       rows.forEach(row => row.style.display = "");
-      noResults.style.display = "none";
+      if (noResults) noResults.style.display = "none";
     } else {
-      if (input.value.trim() === "") {
+      const activePill = widget.querySelector(".calc-pill-btn.active");
+      if (input.value.trim() === "" && !activePill) {
         wrapper.style.display = "none";
       }
-      toggleBtn.querySelector("span").innerText = "Vis alle " + labelText + " (" + rows.length + ")";
-      if(arrow) arrow.innerText = "▼";
+      if (btnText) btnText.innerText = "Vis alle " + labelText + " (" + baseCount + ")";
+      if (arrow) arrow.innerText = "▼";
     }
   });
 })();

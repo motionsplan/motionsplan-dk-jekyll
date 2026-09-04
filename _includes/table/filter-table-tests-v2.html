@@ -20,7 +20,19 @@
     {% for test in post.tests %}
       {% assign is_match = true %}
 
-      {% capture test_cat_str %}{{ test.category | join: " " }} {{ test.category }} {{ test.categories | join: " " }} {{ post.categories | join: " " }} {{ post.tags | join: " " }}{% endcapture %}
+      {% capture test_cat_str %}
+        {{ test.category | join: " " }} 
+        {{ test.type | join: " " }} 
+        {{ test.modality | join: " " }} 
+        {{ test.method }} 
+        {{ test.execution }} 
+        {{ test.setting | join: " " }} 
+        {{ test.equipment | join: " " }} 
+        {{ test.target_group | join: " " }} 
+        {{ post.categories | join: " " }} 
+        {{ post.tags | join: " " }}
+      {% endcapture %}
+
       {% assign full_cat_clean = test_cat_str | downcase %}
 
       {% if filter_cat != blank %}
@@ -360,12 +372,19 @@
     const rows = table.querySelectorAll('tbody tr');
     let isExplicitlyExpanded = false;
 
+    // Hjælpefunktion til præcis ord-matching (tager højde for æ, ø, å)
+    function matchesExactWord(text, word) {
+      const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const pattern = `(?:^|[^a-zæøå0-9])${escapedWord}(?:$|[^a-zæøå0-9])`;
+      return new RegExp(pattern, 'i').test(text);
+    }
+
     function getActivePillFilters() {
       const activePills = [];
       pillBtns.forEach(btn => {
         const filterVal = btn.getAttribute('data-filter');
         if (btn.classList.contains('active') && filterVal !== 'all') {
-          activePills.push(filterVal.toUpperCase());
+          activePills.push(filterVal);
         }
       });
       return activePills;
@@ -389,19 +408,19 @@
       let matchCount = 0;
 
       rows.forEach(row => {
-        const rowText = (row.textContent || row.innerText).toUpperCase();
-        const rowCat = (row.getAttribute('data-category') || '').toUpperCase();
-        const rowType = (row.getAttribute('data-type') || '').toUpperCase();
-        const rowEquip = (row.getAttribute('data-equipment') || '').toUpperCase();
+        const rowText = (row.textContent || row.innerText);
+        const rowCat = (row.getAttribute('data-category') || '');
+        const rowType = (row.getAttribute('data-type') || '');
+        const rowEquip = (row.getAttribute('data-equipment') || '');
 
-        const matchesText = !hasText || rowText.indexOf(textQuery) > -1;
-        const matchesSelect = !hasCatSelect || rowCat.indexOf(selectedCat) > -1;
+        const matchesText = !hasText || rowText.toUpperCase().indexOf(textQuery) > -1;
+        const matchesSelect = !hasCatSelect || rowCat.toUpperCase().indexOf(selectedCat) > -1;
 
-        // Kombineret sideordnet filtrering (Must match ALL active pills)
+        // Præcis ord-match for pills (forhindrer "løb" i at matche "kredsløb")
         let matchesPills = true;
         if (hasPills) {
-          const combinedRowData = rowText + ' ' + rowCat + ' ' + rowType + ' ' + rowEquip;
-          matchesPills = activePills.every(pill => combinedRowData.indexOf(pill) > -1);
+          const combinedRowData = `${rowText} ${rowCat} ${rowType} ${rowEquip}`;
+          matchesPills = activePills.every(pill => matchesExactWord(combinedRowData, pill));
         }
 
         if (matchesText && matchesSelect && matchesPills) {
@@ -418,7 +437,6 @@
     input.addEventListener('input', applyFilters);
     if (catSelect) catSelect.addEventListener('change', applyFilters);
 
-    // MULTI-SELECT TOGGLE LOGIK
     pillBtns.forEach(btn => {
       btn.addEventListener('click', function() {
         const filterVal = btn.getAttribute('data-filter');

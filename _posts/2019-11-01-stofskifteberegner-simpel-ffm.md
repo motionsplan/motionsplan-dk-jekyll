@@ -137,7 +137,8 @@ eller den mere udvidede model:
 
 - **Basalstofskifte (MJ/døgn)** = $0{,}058 \times \text{FFM (kg)} + 0{,}026 \times \text{FM (kg)} - 0{,}018 \times \text{alder} + 0{,}615 \times \text{køn} + 3{,}322$
 
-*(Hvor køn = 1 for mænd og 0 for kvinder).*</details>
+*(Hvor køn = 1 for mænd og 0 for kvinder).*
+</details>
 
 ---
 

@@ -4,6 +4,7 @@ permalink: /skinfold-durnin-womersley/
 redirect_from:
   - /durnin/
 excerpt: "Durnin & Womersley 4-punktsmåling er meget anerkendt hudfoldsmåling til bestemmelse af fedtprocent, der kan bruges til de fleste mennesker. Team Danmarks testcentre bruger denne formel."
+description: "Lær at udføre Durnin & Womersley 4-punkts hudfoldsmåling. Mål på biceps, triceps, skulder og hofte, og beregn din fedtprocent med alderskorrigeret formel."
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
@@ -47,7 +48,7 @@ tools:
     category: ["Kropskomposition"]
     type: ["Beregner"]
     execution: ["Testberegner"]
-    anchor: "#udregn-din-fedtprocent"
+    anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
@@ -67,7 +68,8 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 
 {% include video provider="youtube" id="VBJuVfiKrbY" %}
 
-## Udregn din fedtprocent
+## Udregn din fedtprocent med Durnin & Womersley
+{: id="calculator" }
 
 {% include calc/skinfold.html 
    calc_id="skinfold-durnin-4" 
@@ -113,32 +115,16 @@ Durnin og Womersley har så lavet korrelationsmodeller med densiteten fundet i u
 
 I den sammenhæng er det også værd at bide mærke i, at [Siri-formlen](https://www.topendsports.com/testing/siri-equation.htm) ikke er den eneste måde at omregne en fedtprocent på baggrund af densiteten.
 
+## Flere formler til hudfoldsmåling
+
+Passer Durnin & Womersley ikke helt til din profil? Prøv vores [formelvælger til måling af fedtprocent med fedttang](/skinfold/#formelvaelger) til at finde den mest præcise metode for dig.
+
 ## Konklusion
 
-En skinfold-test kan være meget brugbar til at følge ændringer i kropskomposition over tid.
-
-Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang](/skinfold/). Du kan også sammenligne med [normalværdier for fedtprocent](/fedtprocent-normer/).
+En skinfold-test kan være meget brugbar til at følge ændringer i kropskomposition over tid. Når du har din måling, så kan du sammenligne resultatet med [normalværdier for fedtprocent](/fedtprocent-normer/).
 
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur](/slankekur/), fordi du gerne vil opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
 {: .notice .notice--info }
-
-## Alternativer til Durnin & Womersleys formel
-
-{% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% assign i = 0 %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-
-{% assign i = i | plus: 1 %}
-
-### [{{ i }}. {{ post.title }}]({{ post.url }})
-
-{{ post.excerpt }}
-
-  {% endfor %}
-{% endif %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

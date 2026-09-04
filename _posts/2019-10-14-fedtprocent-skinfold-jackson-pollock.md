@@ -2,6 +2,7 @@
 title: "Jackson & Pollock 3-punktsmåling af fedtprocent"
 permalink: /skinfold-jackson-pollock/
 excerpt: "Jackson & Pollock trepunktsmåling er en hudfoldsmåling, som kan bruges til at estimere fedtprocent. Formlen egner sig bedst til personer, der ikke har for stort et fedtlag på kroppen."
+description: "Beregn din fedtprocent med Jackson & Pollock 3-punktsmåling. Guide til målesteder for mænd og kvinder samt den klassiske formel til slanke og trænede."
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
@@ -45,7 +46,7 @@ tools:
     category: ["Kropskomposition"]
     type: ["Beregner"]
     execution: ["Testberegner"]
-    anchor: "#fedtprocent-for-maend"
+    anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
@@ -70,18 +71,11 @@ Jackson og Pollocks formel en blandt flere måder at [finde fedtprocenten med en
 
 I Jackson og Pollocks trepunktsmåling måles forskellige steder for mænd og kvinder. Jeg gennemgår dem særskilt nedenunder:
 
-{% include calc/skinfold.html 
-   calc_id="skinfold-jackson-pollock-3" 
-   title="📐 Jackson & Pollock 3-punkt" 
-%}
-
 ## Fedtprocent for mænd
 
 **Mænd** skal måle hudfolderne ved bryst, mave og lår. Du kan se mere i følgende video.
 
 {% include video provider="youtube" id="6KLdyRJIAqk" %}
-
-{% include calculator/calculate-fatpercent-skinfold-jackson-pollock-male.html %}
 
 ## Fedtprocent for kvinder
 
@@ -89,7 +83,13 @@ I Jackson og Pollocks trepunktsmåling måles forskellige steder for mænd og kv
 
 {% include video provider="youtube" id="hvC2TDs95xY" %}
 
-{% include calculator/calculate-fatpercent-skinfold-jackson-pollock-female.html %}
+## Beregner for Jackson & Pollock
+{: id="calculator" }
+
+{% include calc/skinfold.html 
+   calc_id="skinfold-jackson-pollock-3" 
+   title="📐 Jackson & Pollock 3-punkt" 
+%}
 
 ## Formel til Pollock og Jacksons fedtmåling
 
@@ -101,9 +101,13 @@ Jeg bruger [formlerne som præsenteres på fitties.com](https://fitties.com/fat-
 
 Nevill et al (2008) rapporterer både om 7-punktsmålingen og 3-punktsmålingen. Hvis man i 7-punktsmålingen har en samlet _sum of skinfolds_ på over 120, så bør man være varsom med at bruge formlerne til at estimere fedtprocenten. De foreslår en alternativ formel.
 
+## Alternativer til Jackson & Pollocks beregner
+
+Er du i tvivl, om Jackson & Pollock er den rette metode for dig? Prøv vores [online formelvælger til skinfold-tests](/skinfold/#formelvaelger).
+
 ## Konklusion
 
-Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang](/skinfold/). Når du har bestemt fedtprocenten, så vil du måske tjekke, hvad en [normal fedtprocent er for mænd og kvinder](/fedtprocent-normer/)?
+Når du har fået dit resultat, så kan du tjekke, hvad en [normal fedtprocent er for mænd og kvinder](/fedtprocent-normer/)?
 
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur](/slankekur/), fordi du gerne vil opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
 {: .notice .notice--info }

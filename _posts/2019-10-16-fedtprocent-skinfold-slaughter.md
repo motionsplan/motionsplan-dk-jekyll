@@ -1,9 +1,10 @@
 ---
-title: "Slaugther formlen: Fedtprocent for børn med fedttang"
+title: "Slaughter formlen: Fedtprocent for børn med fedttang"
 permalink: /slaughter-fedtprocent-boern/
 redirect_from:
   - /skinfold-slaughter/
-excerpt: "Slaugther formlen er bl.a. anvendt i studier af danske skolebørn og kræver en måling ved triceps og på skulderbladsspidsen."
+excerpt: "Slaughter formlen er bl.a. anvendt i studier af danske skolebørn og kræver en måling ved triceps og på skulderbladsspidsen."
+description: "Beregn børns fedtprocent med Slaughter-formlen. En godkendt 2-punkts hudfoldsmåling på triceps og skulderblad, som er anvendt i danske undersøgelser af børn."
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
@@ -49,7 +50,7 @@ tools:
     category: ["Kropskomposition"]
     type: ["Beregner"]
     execution: ["Testberegner"]
-    anchor: "#slaughter-fedtprocent-beregner-for-boern"
+    anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 last_modified_at: 2026-03-06T23:14:14Z
 toc: true
@@ -57,7 +58,7 @@ toc: true
 
 Slaughter har udviklet en relativt enkel og pålidelig måde at [estimere fedtprocenten](/fedtprocent-normer/#metoder) på hos børn ved at måle hudfoldstykkelsen kun to forskellige steder. Hudfoldene skal måles midt på triceps og på skulderbladsspidsen.
 
-Slaugther formlen er bl.a. anvendt i studier af danske skolebørn og kræver en måling ved triceps og på skulderbladsspidsen.
+Slaughter formlen er bl.a. anvendt i studier af danske skolebørn og kræver en måling ved triceps og på skulderbladsspidsen.
 
 Hvis du skal måle fedtprocenten for voksne, så tjek en af de de andre [fedtprocentmålinger med fedttang for voksne](/skinfold/). Læs den artikel grundigt igennem for alle faldgruberne om fedtprocent-målinger.
 
@@ -74,6 +75,7 @@ Mål hudfoldstykkelsen med en fedttang. Mål midt på triceps og lige under skul
 {% include figure image_path="/assets/images/fedtprocent/slaughter-boern.png" caption="Her skal der måles til Slaughter-formlen for fedtprocent for børn." alt="slaughter fedtprocent målinger for børn" %}
 
 ## Slaughter fedtprocent beregner for børn
+{: id="calculator" }
 
 {% include calc/skinfold.html 
    calc_id="skinfold-slaughter-2" 
@@ -96,6 +98,10 @@ Slaughter-formlen bruges til at estimere børns fedtprocent. Det er dog formentl
 Det er vigtigt at være opmærksom på, at den estimerede fedtprocent ikke er helt præcis. Hav dig derfor for øje, hvad du har brug for fedtprocenten til - og hvilken præcision du tillægger den.
 
 Måske er du også interesseret i at læse lidt om, hvordan man bruger [BMI til børn og unge](/bmi-beregner-boern-unge-teenagere/).
+
+## Flere formler til hudfoldsmåling
+
+Leder du efter formler til voksne eller andre børnemetoder? Se vores [formelvælger](/skinfold/#formelvaelger).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

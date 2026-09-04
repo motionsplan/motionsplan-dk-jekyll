@@ -2,6 +2,7 @@
 title: "Peterson 4-punktsmåling af fedtprocent"
 permalink: /skinfold-peterson/
 excerpt: "Peterson 4-punktsmåling er en nyere hudfoldsmåling til bestemmelse af fedtprocent baseret på 4-komponentmodellen for kropskomposition."
+description: "Beregn fedtprocent med Peterson 4-punktsmåling. En moderne og præcis formel baseret på 4-komponentmodellen, der inddrager hudfolde, højde, vægt og alder."
 language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
@@ -69,7 +70,7 @@ I [Peterson et al (2003)](https://academic.oup.com/ajcn/article/77/5/1186/468981
 
 For at estimere fedtprocenten så skal der både for mænd og kvinder måles hudfolde på fire steder. Hudfolden skal måles ved triceps, ved skulderbladets nederste spids, lige over hoftekammen og midt på låret.
 
-{% include figure image_path="/assets/images/fedtprocent/peterson.png" caption="Her skal der måles til Peterson-formlen for fedtprocent for voksne." alt="peterson fedtprocent målinger for børn" %}
+{% include figure image_path="/assets/images/fedtprocent/peterson.png" caption="Her skal der måles til Peterson-formlen for fedtprocent for voksne." alt="peterson fedtprocent målinger for voksne" %}
 
 ## Udregn din fedtprocent med Peterson et al.-beregneren
 {: id="calculator" }
@@ -81,36 +82,19 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 
 ## Usikkerheder i Peterson formlen
 
+Vil du sammenligne 4-komponentmodellen med traditionelle metoder? Find den rette beregner via vores [skinfold-formelvælger](/skinfold/#formelvaelger).
+
+Sammenlign den fedtprocent, du har fundet med [anbefalet fedtprocent for voksne mænd og kvinder](/fedtprocent-normer/).
+
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur](/slankekur/), fordi du gerne vil opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
 {: .notice .notice--info }
 
-Jeg har skrevet et uddybende indlæg, hvor du kan se flere [formler til at bestemme fedtprocent baseret på måling af skinfolds med fedttang](/skinfold/).
-
-Sammenlign den fedtprocent, du har fundet med [anbefalet fedtprocent for voksne mænd og kvinder](/fedtprocent-normer/#metoder).
 
 ## Køb en tang til hudfoldsmålinger
 
 {% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.accumeasure_fat_caliper view="card" %}
 
 {% include motionsplan/affiliate-box.html type="product" item=site.data.affiliates.products.harpenden_skinfold_caliper view="card" %}
-
-## Alternativer til Petersons formel
-
-{% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% assign i = 0 %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-
-{% assign i = i | plus: 1 %}
-
-### [{{ i }}. {{ post.title }}]({{ post.url }})
-
-{{ post.excerpt }}
-
-  {% endfor %}
-{% endif %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

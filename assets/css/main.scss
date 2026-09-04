@@ -40,31 +40,36 @@ $doc-font-size: 14px;
   border-radius: 8px;
   padding: 16px;
 }
-
-// Gør alle tabeller fuldbredde sitewide
+// 1. Globale tabel-regler
 table {
   width: 100%;
   max-width: 100%;
-  border-collapse: collapse; // Sikrer rene grænser uden dobbeltstreger
-  
-  // Sikrer at celler fordeler sig og overholder padding/borders i bredden
+  border-collapse: collapse;
+  table-layout: fixed; // Tvinger altid tabellen til præcis 100% bredde
+
   th, td {
     box-sizing: border-box;
+    word-wrap: break-word; // Forhindrer lange ord/tal i at skubbe brede kolonner
+    overflow-wrap: break-word;
   }
 }
 
+// 2. Specifik håndtering i artikler (Jekyll Markdown-output)
 .page__content, article {
   table {
-    width: 100%;
     margin-bottom: 1.5rem;
-    
-    // Valgfrit: Sikrer at tabellen kan scrolle vandret på mobil i stedet for at trykke siden
     display: block;
+    width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    
+
+    // Tvinger tabellens indhold til at strække sig 100% ud på mobil, selvom 'display: block' er aktivt
+    thead, tbody, tr {
+      min-width: 100%;
+    }
+
     @media (min-width: 600px) {
-      display: table; // Vender tilbage til normal tabelvisning på større skærme
+      display: table; // Genopretter ren tabel-stak på desktop
     }
   }
 }

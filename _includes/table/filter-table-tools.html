@@ -6,7 +6,7 @@
 {% endfor %}
 
 {% if total_tools > 0 %}
-<div class="calc-table-widget">
+<div class="calc-table-widget" data-base-count="{{ total_tools }}">
   
   <!-- STRØMLINET SØGEBAR OG KNAP -->
   <div class="calc-search-bar">
@@ -17,26 +17,25 @@
       </svg>
       <input 
         type="text" 
-        id="calc-filter-input" 
         class="calc-filter-input" 
         placeholder="Søg i alle beregnere (fx watt, kcal, ratio, cda)..." 
         autocomplete="off"
       >
     </div>
-    <button type="button" id="calc-toggle-btn" class="calc-toggle-btn">
+    <button type="button" class="calc-toggle-btn">
       <span>Vis alle beregnere ({{ total_tools }})</span>
       <span class="calc-btn-arrow">▼</span>
     </button>
   </div>
 
   <!-- TABEL (SKJULT SOM STANDARD) -->
-  <div id="calc-table-wrapper" class="calc-table-wrapper" style="display: none;">
-    <table id="calc-table" class="calc-table">
+  <div class="calc-table-wrapper" style="display: none;">
+    <table class="calc-table">
       <thead>
         <tr class="header">
-          <th>Beregner / Værktøj</th>
-          <th>Type</th>
-          <th>Beskrivelse</th>
+          <th style="width: 30%;">Beregner / Værktøj</th>
+          <th style="width: 20%;">Type</th>
+          <th style="width: 50%;">Beskrivelse</th>
         </tr>
       </thead>
       <tbody>
@@ -52,7 +51,7 @@
       </tbody>
     </table>
 
-    <div id="calc-no-results-msg" class="calc-no-results-msg" style="display: none;">
+    <div class="calc-no-results-msg" style="display: none;">
       Ingen beregnere matchede din søgning.
     </div>
   </div>
@@ -78,7 +77,6 @@
   }
 }
 
-/* INPUT CONTAINER MED ABSOLUT IKON */
 .calc-input-wrapper {
   position: relative;
   flex: 1;
@@ -97,8 +95,8 @@
 
 .calc-filter-input {
   width: 100%;
-  height: 46px; /* Matcher knappens højde præcist */
-  padding: 0 16px 0 42px !important; /* Ekstra plads til venstre så teksten aldrig overlapper */
+  height: 46px;
+  padding: 0 16px 0 42px !important;
   border: 1px solid #cbd5e1;
   border-radius: 10px;
   font-size: 0.95rem;
@@ -120,9 +118,8 @@
   stroke: #2563eb;
 }
 
-/* TOGGLE-KNAP */
 .calc-toggle-btn {
-  height: 46px; /* Matcher input-højden præcist */
+  height: 46px;
   padding: 0 18px;
   background: #f8fafc;
   border: 1px solid #cbd5e1;
@@ -159,18 +156,19 @@
   transition: transform 0.2s;
 }
 
-/* TABEL STYLING */
 .calc-table-wrapper {
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
-  overflow: hidden;
+  overflow-x: auto;
   box-shadow: 0 4px 12px rgba(0,0,0,0.03);
   margin-top: 12px;
 }
 
 .calc-table {
-  width: 100%;
+  width: 100% !important;
+  display: table !important;
+  table-layout: fixed;
   border-collapse: collapse;
   margin: 0;
   font-size: 0.95rem;
@@ -181,6 +179,9 @@
   padding: 12px 16px;
   text-align: left;
   border-bottom: 1px solid #f1f5f9;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
 }
 
 .calc-table th {
@@ -206,64 +207,72 @@
 
 <script>
 (function() {
-  const input = document.getElementById("calc-filter-input");
-  const wrapper = document.getElementById("calc-table-wrapper");
-  const table = document.getElementById("calc-table");
-  const toggleBtn = document.getElementById("calc-toggle-btn");
-  const arrow = toggleBtn ? toggleBtn.querySelector(".calc-btn-arrow") : null;
-  const noResults = document.getElementById("calc-no-results-msg");
+  document.querySelectorAll('.calc-table-widget').forEach(function(widget) {
+    const input = widget.querySelector('.calc-filter-input');
+    const wrapper = widget.querySelector('.calc-table-wrapper');
+    const table = widget.querySelector('.calc-table');
+    const toggleBtn = widget.querySelector('.calc-toggle-btn');
+    const arrow = toggleBtn ? toggleBtn.querySelector('.calc-btn-arrow') : null;
+    const noResults = widget.querySelector('.calc-no-results-msg');
+    const baseCount = widget.getAttribute('data-base-count') || 0;
 
-  if (!input || !wrapper || !table) return;
+    if (!input || !wrapper || !table || !toggleBtn) return;
 
-  const rows = table.querySelectorAll("tbody tr");
-  let isExplicitlyExpanded = false;
+    const rows = table.querySelectorAll('tbody tr');
+    let isExplicitlyExpanded = false;
 
-  function filterTable() {
-    const filter = input.value.trim().toUpperCase();
+    function filterTable() {
+      const query = input.value.trim().toUpperCase();
+      const terms = query.split(/\s+/).filter(term => term.length > 0);
 
-    if (filter.length > 0) {
-      wrapper.style.display = "block";
-      let matchCount = 0;
+      if (terms.length > 0) {
+        wrapper.style.display = 'block';
+        let matchCount = 0;
 
-      rows.forEach(row => {
-        const text = row.textContent || row.innerText;
-        if (text.toUpperCase().indexOf(filter) > -1) {
-          row.style.display = "";
-          matchCount++;
-        } else {
-          row.style.display = "none";
-        }
-      });
+        rows.forEach(row => {
+          const text = (row.textContent || row.innerText).toUpperCase();
+          // Alle indtastede søgeord skal matche i rækken (uanset rækkefølge)
+          const matchesAll = terms.every(term => text.indexOf(term) > -1);
 
-      noResults.style.display = matchCount === 0 ? "block" : "none";
-    } else {
-      if (!isExplicitlyExpanded) {
-        wrapper.style.display = "none";
+          if (matchesAll) {
+            row.style.display = '';
+            matchCount++;
+          } else {
+            row.style.display = 'none';
+          }
+        });
+
+        if (noResults) noResults.style.display = matchCount === 0 ? 'block' : 'none';
       } else {
-        rows.forEach(row => row.style.display = "");
-        noResults.style.display = "none";
+        if (!isExplicitlyExpanded) {
+          wrapper.style.display = 'none';
+        } else {
+          rows.forEach(row => row.style.display = '');
+          if (noResults) noResults.style.display = 'none';
+        }
       }
     }
-  }
 
-  input.addEventListener("input", filterTable);
+    input.addEventListener('input', filterTable);
 
-  toggleBtn.addEventListener("click", function() {
-    isExplicitlyExpanded = !isExplicitlyExpanded;
+    toggleBtn.addEventListener('click', function() {
+      isExplicitlyExpanded = !isExplicitlyExpanded;
+      const btnText = toggleBtn.querySelector('span');
 
-    if (isExplicitlyExpanded) {
-      wrapper.style.display = "block";
-      toggleBtn.querySelector("span").innerText = "Skjul tabel";
-      if(arrow) arrow.innerText = "▲";
-      rows.forEach(row => row.style.display = "");
-      noResults.style.display = "none";
-    } else {
-      if (input.value.trim() === "") {
-        wrapper.style.display = "none";
+      if (isExplicitlyExpanded) {
+        wrapper.style.display = 'block';
+        if (btnText) btnText.innerText = 'Skjul tabel';
+        if (arrow) arrow.innerText = '▲';
+        rows.forEach(row => row.style.display = '');
+        if (noResults) noResults.style.display = 'none';
+      } else {
+        if (input.value.trim() === '') {
+          wrapper.style.display = 'none';
+        }
+        if (btnText) btnText.innerText = 'Vis alle beregnere (' + baseCount + ')';
+        if (arrow) arrow.innerText = '▼';
       }
-      toggleBtn.querySelector("span").innerText = "Vis alle beregnere (" + rows.length + ")";
-      if(arrow) arrow.innerText = "▼";
-    }
+    });
   });
 })();
 </script>

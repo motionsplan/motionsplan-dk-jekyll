@@ -35,7 +35,7 @@ tests:
     modality: ["Løb"]
     measures: ["Kondital", "VO2max", "Iltoptagelse"]
     equipment: ["Løbebane", "Stopur", "GPS-ur"]
-    setting: ["Individuel", "Gruppetest", "Udendørs", "Skolebrug", "Militær"]
+    setting: ["Individuel", "Gruppetest", "Udendørs", "Skolebrug", "Militær", "Felttest"]
     target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-cooper-test-beregner", "tool-cooper-test-timer"]
     ls_key: "mp_cooper_state"

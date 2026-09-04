@@ -96,4 +96,4 @@ Hvis du gerne vil have et mere præcist bud på, hvor meget af din krop, der bes
 
 - Colombo O, Villani S, Pinelli G, Trentani C, Baldi M, Tomarchio O, Tagliabue A. To treat or not to treat: comparison of different criteria used to determine whether weight loss is to be recommended. Nutr J. 2008 Jan 29;7:5.
 - Gallagher D, Heymsfield SB, Heo M, Jebb SA, Murgatroyd PR, Sakamoto Y. Healthy percentage body fat ranges: an approach for developing guidelines based on body mass index. Am J Clin Nutr. 2000 Sep;72(3):694-701.
-- </details>
+</details>
