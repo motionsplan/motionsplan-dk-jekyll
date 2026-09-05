@@ -1,0 +1,1788 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>ABSI Beregner: Udregn dit Body Shape Index og z-score</title>
+<meta name="description" content="Beregn dit Body Shape Index (ABSI) og z-score. Lær hvordan ABSI kombinerer taljemål, BMI og højde for at give et mere præcist billede af din kardiometaboliske risiko end BMI alene.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="ABSI Beregner: Udregn dit Body Shape Index og z-score">
+<meta property="og:url" content="https://www.motionsplan.dk/absi/">
+<meta property="og:description" content="Beregn dit Body Shape Index (ABSI) og z-score. Lær hvordan ABSI kombinerer taljemål, BMI og højde for at give et mere præcist billede af din kardiometaboliske risiko end BMI alene.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DABSI+Beregner%3A+Udregn+dit+Body+Shape+Index+og+z-score%26excerpt%3DBeregn+dit+Body+Shape+Index+%28ABSI%29+og+z-score.+L%C3%A6r+hvordan+ABSI+kombinerer+taljem%C3%A5l%2C+BMI+og+h%C3%B8jde+for+at+give+et+mere+pr%C3%A6cist+billede+af+din+kardiometaboliske+risiko+end+BMI+alene.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1600493033157-eed3fbe95d96.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D18.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1787086800/opengraph/">
+  <meta property="og:image:alt" content="ABSI Beregner: Udregn dit Body Shape Index og z-score">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://www.motionsplan.dk/assets/images/unsplash/photo-1600493033157-eed3fbe95d96.jpg" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="ABSI Beregner: Udregn dit Body Shape Index og z-score">
+  <meta name="twitter:description" content="Beregn dit Body Shape Index (ABSI) og z-score. Lær hvordan ABSI kombinerer taljemål, BMI og højde for at give et mere præcist billede af din kardiometaboliske risiko end BMI alene.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/absi/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DABSI+Beregner%3A+Udregn+dit+Body+Shape+Index+og+z-score%26excerpt%3DBeregn+dit+Body+Shape+Index+%28ABSI%29+og+z-score.+L%C3%A6r+hvordan+ABSI+kombinerer+taljem%C3%A5l%2C+BMI+og+h%C3%B8jde+for+at+give+et+mere+pr%C3%A6cist+billede+af+din+kardiometaboliske+risiko+end+BMI+alene.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1600493033157-eed3fbe95d96.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D18.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1787086800/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2022-02-20T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-08-18T21:00:00+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/absi/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/absi/#webpage",
+      "name": "ABSI Beregner: Udregn dit Body Shape Index og z-score",
+      "url": "https://www.motionsplan.dk/absi/",
+      "description": "Beregn dit Body Shape Index (ABSI) og z-score. Lær hvordan ABSI kombinerer taljemål, BMI og højde for at give et mere præcist billede af din kardiometaboliske risiko end BMI alene.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2022-02-20T00:00:00+00:00",
+      "dateModified": "2026-08-18T21:00:00+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/absi/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/absi/#article",
+        "inLanguage": "da",
+        "name": "ABSI Beregner: Body Shape Index og risiko for dødelighed",
+        "headline": "ABSI Beregner: Udregn dit Body Shape Index og z-score",
+        "keywords": "beregner,kropskomposition,antropometri,absi",
+        "description": "<p><strong>A Body Shape Index (ABSI)</strong> er et moderne antropometrisk indeks, der er udviklet som et mere præcist alternativ til traditionelle <a href=\"/bmi/\">BMI-målinger</a> og isolerede <a href=\"/taljemaal/\">taljemål</a>.</p>",
+        "articleBody": "A Body Shape Index (ABSI) er et moderne antropometrisk indeks, der er udviklet som et mere præcist alternativ til traditionelle BMI-målinger og isolerede taljemål.\n\nMens et almindeligt BMI kun kigger på din samlede kropsvægt i forhold til din højde, medtager ABSI også din taljeomkreds, dit køn og din alder. Dermed tager indekset højde for, hvor fedtet er placeret på kroppen – hvilket er afgørende, da fedt omkring de indre organer (visceralt fedt) øger risikoen for livsstilssygdomme og tidlig dødelighed.\n\n\n\nABSI Beregner\n\nBrug beregneren herunder til at udregne dit Body Shape Index og din relative risikoprofil ud fra køn, alder, højde, vægt og taljemål:\n\n\n\n\n\n  \n    📐 ABSI Beregner (A Body Shape Index)\n    Beregn dit ABSI og ABSI z-score for at vurdere din sundhedsrisiko baseret på kropsform.\n  \n\n  \n    \n      \n      \n      \n        Køn\n        \n          Mand\n          Kvinde\n        \n      \n\n      \n      \n        Alder (år)\n        \n      \n\n      \n        Vægt (kg)\n        \n      \n\n      \n        Højde (cm)\n        \n      \n\n      \n        Taljemål (cm)\n        \n      \n\n    \n  \n\n  \n    \n      \n        \n          0.0000\n        \n        ABSI Score\n      \n      \n        \n          0.00\n        \n        ABSI z-Score\n      \n    \n\n    \n    \n      Beregner...\n      Indtast dine målinger ovenfor for at få en fysiologisk vurdering.\n    \n  \n\n\n\n\n\n\nHvordan udregnes ABSI? (Formlen)\n\nABSI-modellen blev opfundet af forskerne Nir Y. Krakauer og Jesse C. Krakauer i 2012 på baggrund af befolkningsdata fra det store amerikanske NHANES-studie (National Health and Nutrition Examination Survey).\n\nMatematisk opstilles formlen for råt ABSI således:\n\n\\[ABSI = \\frac{WC}{BMI^{2/3} \\cdot height^{1/2}}\\]\n\nHvor variablerne angives i MKS-enheder:\n\n  $WC$ (Waist Circumference): Taljemålet målt i meter (fx 0,88 m).\n  $BMI$: Dit Body Mass Index udtrykt som $\\text{kg/m}^2$.\n  $height$: Din højde målt i meter (fx 1,80 m).\n\n\nFormlen er designet således, at et højt ABSI-tal indikerer, at din taljeomkreds er større end forventet for en person med din specifikke højde og vægt.\n\n\n\nHvad betyder din ABSI z-score for din sundhed?\n\nEt råt ABSI-tal (som typisk ligger omkring 0,070–0,090) fortæller dig ikke meget i sig selv, da taljemålet naturligt stiger med alderen. For at fortolke dit resultat omregnes tallet til en ABSI z-score, som sammenligner dit resultat direkte med normtal for din alder og dit køn:\n\n\\[ABSI\\text{ z-score} = \\frac{ABSI - ABSI_{\\text{gennemsnit}}}{ABSI_{SD}}\\]\n\nUd fra din z-score kan din statistiske risiko for tidlig dødelighed vurderes ud fra følgende kliniske intervaller:\n\n\n  \n    \n      ABSI z-score\n      Risiko for dødelighed\n      Forklaring\n    \n  \n  \n    \n      &lt; -0,868\n      Meget lav\n      Din taljeomkreds er markant mindre end gennemsnittet for din vægt, alder og køn.\n    \n    \n      -0,868 til -0,272\n      Lav\n      Under gennemsnitlig kardiometabolisk risiko.\n    \n    \n      -0,272 til +0,229\n      Gennemsnitlig\n      Normal kropsformsrelateret risikoprofil.\n    \n    \n      +0,229 til +0,825\n      Høj\n      Øget mængde fedt omkring maveregionen i forhold til din kropsbygning.\n    \n    \n      &gt; +0,825\n      Meget høj\n      Betydeligt øget taljemål og forhøjet risiko for hjerte-kar-sygdomme og type 2-diabetes.\n    \n  \n\n\n\n\nSådan måler du dit taljemål korrekt\n\nFor at få en præcis udregning er det afgørende, at du måler din talje ensartet:\n\n\n  Stå oprejst og slap af i maveregionen (hold ikke vejret eller sug maven ind).\n  Placer et blødt målebånd midt mellem det nederste ribben og den øverste kant af hoftekammen (typisk 1-2 cm over navlen).\n  Aflæs målet i centimeter ved udånding.\n\n\n\n\nFordele og ulemper ved ABSI\n\nFordele:\n\n  Fokuserer på det viscerale mavefedt: Hvor et almindeligt BMI ikke skelner mellem muskler og fedt, opfanger ABSI den sundhedsskadelige ophobning af mavefedt.\n  Egnet til muskuløse personer: Da muskelmasse fordeler sig anderledes på kroppen end mavefedt, rammes atletiske personer i langt mindre grad af fejlklassificering end ved BMI.\n  Integrerer køn og alder: z-scoren korrigerer for den naturlige ændring i kropsbygning over livsspændet.\n\n\nUlemper:\n\n  Generelt populationsskøn: ABSI er et statistisk risikomål. Det tager ikke højde for øvrige livsstilsfaktorer som rygning, blodtryk, kostvaner eller kondition.\n  Følsomt over for målefejl: En usikkerhed på blot et par centimeter med målebåndet kan rykke din z-score mærkbart.\n\n\nVil du have et endnu mere komplet billede af din kropssammensætning? Læs vores dybdegående guide til fedtprocent-måling, udregning af fedtprocent eller prøv vores talje-hofte-ratio beregner.\n\n\n\nOfte stillede spørgsmål om ABSI\n\n\nHvad er et normalt ABSI-tal?\nEt råt ABSI-tal ligger for de fleste voksne typisk mellem 0,070 og 0,090. Da råtallet stiger naturligt med alderen og varierer mellem køn, vurderes ABSI i praksis altid ud fra din ABSI z-score.\n\n\n\n\nHvad er forskellen på BMI og ABSI?\nAlmindeligt BMI tager kun højde for samlet kropsvægt og højde, hvilket gør, at muskuløse personer ofte fejlagtigt klassificeres som overvægtige. ABSI tager højde for taljeomkredsen, hvilket isolerer mængden af det farlige viscerale mavefedt omkring organerne.\n\n\n\n\nHvad er en god ABSI z-score?\nEn ABSI z-score omkring 0 (eller lavere) indikerer gennemsnitlig til meget lav risikoprofil. En z-score over +0,229 peger på øget mængde mavefedt og forhøjet kardiometabolisk risiko.\n\n\n\n\nHvorfor er taljemålet vigtigere end den samlede vægt?\nMavefedt (visceral fedtvæv) producerer inflammatoriske stoffer og hormoner, som øger risikoen for hjerte-kar-sygdomme, type 2-diabetes og tidlig dødelighed. Fedt placeret på hofter og lår har ikke samme skadelige virkning.\n\n\n\n\n\n\n\n\n  Referencer\n\n  \n    Krakauer, N. Y., &amp; Krakauer, J. C. (2012). A new body shape index predicts mortality hazard independently of body mass index. PLoS ONE, 7(7), e39504.\n    Krakauer, N. Y., &amp; Krakauer, J. C. (2014). An ABSI (A Body Shape Index) z-score predicts mortality in a large-scale US cohort. International Journal of Biology, 6(3), 16-25.\n    World Health Organization. (2008). Waist Circumference and Waist-Hip Ratio: Report of a WHO Expert Consultation. Geneva: World Health Organization.\n  \n\n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DABSI+Beregner%3A+Udregn+dit+Body+Shape+Index+og+z-score%26excerpt%3DBeregn+dit+Body+Shape+Index+%28ABSI%29+og+z-score.+L%C3%A6r+hvordan+ABSI+kombinerer+taljem%C3%A5l%2C+BMI+og+h%C3%B8jde+for+at+give+et+mere+pr%C3%A6cist+billede+af+din+kardiometaboliske+risiko+end+BMI+alene.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1600493033157-eed3fbe95d96.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D18.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1787086800/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/absi/#webpage"
+        },
+        "datePublished": "2022-02-20T00:00:00+00:00",
+        "dateModified": "2026-08-18T21:00:00+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/absi/#absi-beregner-a-body-shape-index",
+          "name": "ABSI Beregner (A Body Shape Index)",
+          "description": "Interaktiv beregner til udregning af dit Body Shape Index (ABSI) og z-score for relativ sundheds- og dødelighedsrisiko baseret på taljemål, højde, vægt og alder.",
+          "applicationCategory": ["Kropskomposition","Beregnere"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/absi/#webpage"
+          }
+        }
+        
+      
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/beregnere/" itemprop="item"><span itemprop="name">Beregnere</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/kropskomposition/" itemprop="item"><span itemprop="name">Kropskomposition</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">ABSI Beregner: Bo...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="ABSI Beregner: Body Shape Index og risiko for dødelighed">
+    <meta itemprop="description" content="A Body Shape Index (ABSI) er et moderne antropometrisk indeks, der er udviklet som et mere præcist alternativ til traditionelle BMI-målinger og isolerede taljemål.">
+    <meta itemprop="datePublished" content="2022-02-20T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-08-18T21:00:00+00:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title p-name" class="page__title" itemprop="headline">ABSI Beregner: Body Shape Index og risiko for dødelighed
+</h1>
+          
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-18T21:00:00+00:00">18. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#absi-beregner">ABSI Beregner</a></li><li><a href="#hvordan-udregnes-absi-formlen">Hvordan udregnes ABSI? (Formlen)</a></li><li><a href="#hvad-betyder-din-absi-z-score-for-din-sundhed">Hvad betyder din ABSI z-score for din sundhed?</a></li><li><a href="#sådan-måler-du-dit-taljemål-korrekt">Sådan måler du dit taljemål korrekt</a></li><li><a href="#fordele-og-ulemper-ved-absi">Fordele og ulemper ved ABSI</a><ul><li><a href="#fordele">Fordele:</a></li><li><a href="#ulemper">Ulemper:</a></li></ul></li><li><a href="#ofte-stillede-spørgsmål-om-absi">Ofte stillede spørgsmål om ABSI</a></li><li><a href="#references">Referencer</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p><strong>A Body Shape Index (ABSI)</strong> er et moderne antropometrisk indeks, der er udviklet som et mere præcist alternativ til traditionelle <a href="/bmi/">BMI-målinger</a> og isolerede <a href="/taljemaal/">taljemål</a>.</p>
+
+<p>Mens et almindeligt BMI kun kigger på din samlede kropsvægt i forhold til din højde, medtager ABSI også din <strong>taljeomkreds, dit køn og din alder</strong>. Dermed tager indekset højde for, hvor fedtet er placeret på kroppen – hvilket er afgørende, da fedt omkring de indre organer (visceralt fedt) øger risikoen for livsstilssygdomme og tidlig dødelighed.</p>
+
+<hr />
+
+<h2 id="absi-beregner">ABSI Beregner</h2>
+
+<p>Brug beregneren herunder til at udregne dit Body Shape Index og din relative risikoprofil ud fra køn, alder, højde, vægt og taljemål:</p>
+
+<!-- _includes/calculator/calculate-absi.html -->
+<style>
+  .mp-absi-card {
+    position: relative !important;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-absi-header {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-absi-title {
+    margin: 0 0 4px 0;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #0f172a;
+  }
+
+  .mp-absi-subtitle {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #64748b;
+    font-weight: 500;
+  }
+
+  .mp-absi-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  @media (max-width: 480px) {
+    .mp-absi-grid { grid-template-columns: 1fr; }
+  }
+
+  .mp-absi-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mp-absi-group.full-width {
+    grid-column: 1 / -1;
+  }
+
+  .mp-absi-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 6px;
+  }
+
+  .mp-absi-input {
+    padding: 0.65rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #0f172a;
+    background-color: #f8fafc;
+    transition: border-color 0.2s, background-color 0.2s;
+  }
+
+  .mp-absi-input:focus {
+    outline: none;
+    border-color: #2563eb;
+    background-color: #ffffff;
+  }
+
+  /* Segmenteret Switch til Køn */
+  .mp-absi-switch-group {
+    display: flex;
+    background: #f1f5f9;
+    padding: 3px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    gap: 3px;
+  }
+
+  .mp-absi-switch-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 0.6rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #64748b;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+  }
+
+  .mp-absi-switch-btn.active {
+    background: #ffffff;
+    color: #2563eb;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  }
+
+  /* Resultatboks */
+  .mp-absi-results {
+    margin-top: 1.25rem;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+
+  .mp-absi-res-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .mp-absi-res-box {
+    background: #ffffff;
+    padding: 0.85rem;
+    border-radius: 8px;
+    border: 1px solid #dbeafe;
+  }
+
+  .mp-absi-res-val {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #1e3a8a;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mp-absi-res-unit {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #3b82f6;
+  }
+
+  .mp-absi-res-lbl {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+
+  /* Vurderingsbanner */
+  .mp-absi-eval-box {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    border-left: 5px solid #cbd5e1;
+    text-align: left;
+  }
+
+  .mp-absi-eval-title {
+    font-size: 0.85rem;
+    font-weight: 800;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }
+
+  .mp-absi-eval-desc {
+    font-size: 0.8rem;
+    color: #475569;
+    margin: 0;
+    line-height: 1.3;
+  }
+</style>
+
+<div class="mp-absi-card" data-tool="absi-calculator" id="absi-beregner">
+  <div class="mp-absi-header">
+    <h3 class="mp-absi-title">📐 ABSI Beregner (A Body Shape Index)</h3>
+    <p class="mp-absi-subtitle">Beregn dit ABSI og ABSI z-score for at vurdere din sundhedsrisiko baseret på kropsform.</p>
+  </div>
+
+  <form id="mp-absi-form" onsubmit="return false;">
+    <div class="mp-absi-grid">
+      
+      <!-- KØN SWITCH -->
+      <div class="mp-absi-group full-width">
+        <label class="mp-absi-label">Køn</label>
+        <div class="mp-absi-switch-group" id="absi-sex-switch">
+          <button type="button" class="mp-absi-switch-btn active" data-value="male">Mand</button>
+          <button type="button" class="mp-absi-switch-btn" data-value="female">Kvinde</button>
+        </div>
+      </div>
+
+      <!-- INPUTS -->
+      <div class="mp-absi-group">
+        <label class="mp-absi-label" for="absi-age">Alder (år)</label>
+        <input class="mp-absi-input" type="number" id="absi-age" min="18" max="99" value="35" placeholder="fx 35" required="" />
+      </div>
+
+      <div class="mp-absi-group">
+        <label class="mp-absi-label" for="absi-weight">Vægt (kg)</label>
+        <input class="mp-absi-input" type="number" step="0.1" id="absi-weight" min="30" max="250" value="80" placeholder="fx 80" required="" />
+      </div>
+
+      <div class="mp-absi-group">
+        <label class="mp-absi-label" for="absi-height">Højde (cm)</label>
+        <input class="mp-absi-input" type="number" id="absi-height" min="100" max="230" value="180" placeholder="fx 180" required="" />
+      </div>
+
+      <div class="mp-absi-group">
+        <label class="mp-absi-label" for="absi-waist">Taljemål (cm)</label>
+        <input class="mp-absi-input" type="number" step="0.5" id="absi-waist" min="40" max="200" value="88" placeholder="fx 88" required="" />
+      </div>
+
+    </div>
+  </form>
+
+  <div class="mp-absi-results">
+    <div class="mp-absi-res-grid">
+      <div class="mp-absi-res-box">
+        <div>
+          <span class="mp-absi-res-val" id="absi-res-score">0.0000</span>
+        </div>
+        <div class="mp-absi-res-lbl">ABSI Score</div>
+      </div>
+      <div class="mp-absi-res-box">
+        <div>
+          <span class="mp-absi-res-val" id="absi-res-zscore">0.00</span>
+        </div>
+        <div class="mp-absi-res-lbl">ABSI z-Score</div>
+      </div>
+    </div>
+
+    <!-- Vurdering -->
+    <div class="mp-absi-eval-box" id="absi-eval-box">
+      <div class="mp-absi-eval-title" id="absi-eval-title">Beregner...</div>
+      <p class="mp-absi-eval-desc" id="absi-eval-desc">Indtast dine målinger ovenfor for at få en fysiologisk vurdering.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('[data-tool="absi-calculator"]');
+  if (!container) return;
+
+  const STORAGE_KEY = 'mp_absi_calc_v1';
+
+  // State
+  let sex = 'male';
+
+  // DOM Elements
+  const ageInput = container.querySelector('#absi-age');
+  const weightInput = container.querySelector('#absi-weight');
+  const heightInput = container.querySelector('#absi-height');
+  const waistInput = container.querySelector('#absi-waist');
+
+  const resScore = container.querySelector('#absi-res-score');
+  const resZScore = container.querySelector('#absi-res-zscore');
+  const evalBox = container.querySelector('#absi-eval-box');
+  const evalTitle = container.querySelector('#absi-eval-title');
+  const evalDesc = container.querySelector('#absi-eval-desc');
+
+  const sexBtns = container.querySelectorAll('#absi-sex-switch .mp-absi-switch-btn');
+
+  // --- LOCALSTORAGE LOGIC ---
+  function loadSavedData() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      if (saved) {
+        if (saved.sex) {
+          sex = saved.sex;
+          sexBtns.forEach(b => {
+            b.classList.toggle('active', b.getAttribute('data-value') === sex);
+          });
+        }
+        if (saved.age) ageInput.value = saved.age;
+        if (saved.weight) weightInput.value = saved.weight;
+        if (saved.height) heightInput.value = saved.height;
+        if (saved.waist) waistInput.value = saved.waist;
+      }
+    } catch (e) {}
+  }
+
+  function saveData() {
+    try {
+      const data = {
+        sex: sex,
+        age: ageInput.value,
+        weight: weightInput.value,
+        height: heightInput.value,
+        waist: waistInput.value
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    } catch (e) {}
+  }
+
+  // --- SWITCH LOGIC ---
+  sexBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      sexBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      sex = this.getAttribute('data-value');
+      calculate();
+    });
+  });
+
+  // Event listeners til real-time opdatering
+  [ageInput, weightInput, heightInput, waistInput].forEach(input => {
+    input.addEventListener('input', calculate);
+  });
+
+  // --- BEREGNINGSFUNKTION (Krakauer & Krakauer, 2012) ---
+  function calculate() {
+    const age = parseFloat(ageInput.value);
+    const weight = parseFloat(weightInput.value);
+    const heightCm = parseFloat(heightInput.value);
+    const waistCm = parseFloat(waistInput.value);
+
+    if (!age || !weight || !heightCm || !waistCm || weight <= 0 || heightCm <= 0 || waistCm <= 0) {
+      resScore.textContent = '0.0000';
+      resZScore.textContent = '0.00';
+      return;
+    }
+
+    // Omregninger til MKS enheder
+    const heightM = heightCm / 100;
+    const waistM = waistCm / 100;
+
+    // 1. BMI Beregning
+    const bmi = weight / (heightM * heightM);
+
+    // 2. ABSI Formel: WC / (BMI^(2/3) * height^(1/2))
+    const absi = waistM / (Math.pow(bmi, 2/3) * Math.pow(heightM, 1/2));
+
+    // 3. Normtal for ABSI Mean og SD baseret på NHANES datasæt (Krakauer 2012 / 2014)
+    // Mean og SD afhænger af køn og alder
+    let meanABSI = 0;
+    let sdABSI = 0;
+
+    if (sex === 'male') {
+      meanABSI = 0.0789 + (0.000085 * age);
+      sdABSI = 0.0038 + (0.00001 * age);
+    } else {
+      meanABSI = 0.0770 + (0.000100 * age);
+      sdABSI = 0.0037 + (0.00001 * age);
+    }
+
+    // 4. ABSI z-Score = (ABSI - Mean) / SD
+    const absiZScore = (absi - meanABSI) / sdABSI;
+
+    // Opdater tal i DOM
+    resScore.textContent = absi.toFixed(4);
+    resZScore.textContent = (absiZScore > 0 ? '+' : '') + absiZScore.toFixed(2);
+
+    // 5. Vurdering og Farvekodning baseret på z-score (Krakauer risikoklasser)
+    updateEvaluation(absiZScore);
+
+    saveData();
+  }
+
+  function updateEvaluation(z) {
+    let title = '';
+    let desc = '';
+    let borderColor = '#cbd5e1';
+    let titleColor = '#475569';
+
+    if (z <= -0.868) {
+      title = 'Meget lav risiko';
+      desc = 'Din kropsform viser en lavere andel af abdominalt fedt i forhold til din BMI end gennemsnittet. Dette er forbundet med en meget lav kardiometabolisk risiko.';
+      borderColor = '#16a34a'; // Grøn
+      titleColor = '#15803d';
+    } else if (z > -0.868 && z <= -0.272) {
+      title = 'Lav risiko';
+      desc = 'Dine antropometriske målinger ligger i den gunstige ende af gennemsnittet. Din risiko for livsstilssygdomme er lavere end gennemsnittet.';
+      borderColor = '#22c55e'; // Lys grøn
+      titleColor = '#166534';
+    } else if (z > -0.272 && z <= 0.229) {
+      title = 'Gennemsnitlig risiko';
+      desc = 'Din kropsform og fedtfordeling svarer til gennemsnittet for din alder og køn. Din kardiometaboliske risiko er normal.';
+      borderColor = '#3b82f6'; // Blå
+      titleColor = '#1e40af';
+    } else if (z > 0.229 && z <= 0.825) {
+      title = 'Forhøjet risiko';
+      desc = 'Din ABSI z-score er over gennemsnittet, hvilket indikerer en højere mængde visceralt fedt omkring maveregionen relativt til din samlede BMI.';
+      borderColor = '#eab308'; // Gul/Orange
+      titleColor = '#a16207';
+    } else {
+      title = 'Høj / Meget høj risiko';
+      desc = 'Din kropsform viser en markant overvægt af maveregionsfedt i forhold til din kropsstørrelse. Det anbefales at fokusere på kropskomposition og fysisk aktivitet.';
+      borderColor = '#dc2626'; // Rød
+      titleColor = '#991b1b';
+    }
+
+    evalBox.style.borderLeftColor = borderColor;
+    evalTitle.textContent = title;
+    evalTitle.style.color = titleColor;
+    evalDesc.textContent = desc;
+  }
+
+  // Init
+  loadSavedData();
+  calculate();
+});
+</script>
+
+<hr />
+
+<h2 id="hvordan-udregnes-absi-formlen">Hvordan udregnes ABSI? (Formlen)</h2>
+
+<p>ABSI-modellen blev opfundet af forskerne Nir Y. Krakauer og Jesse C. Krakauer i 2012 på baggrund af befolkningsdata fra det store amerikanske <em>NHANES</em>-studie (National Health and Nutrition Examination Survey).</p>
+
+<p>Matematisk opstilles formlen for råt ABSI således:</p>
+
+\[ABSI = \frac{WC}{BMI^{2/3} \cdot height^{1/2}}\]
+
+<p>Hvor variablerne angives i MKS-enheder:</p>
+<ul>
+  <li><strong>$WC$ (Waist Circumference):</strong> Taljemålet målt i meter (fx 0,88 m).</li>
+  <li><strong>$BMI$:</strong> Dit Body Mass Index udtrykt som $\text{kg/m}^2$.</li>
+  <li><strong>$height$:</strong> Din højde målt i meter (fx 1,80 m).</li>
+</ul>
+
+<p>Formlen er designet således, at et højt ABSI-tal indikerer, at din taljeomkreds er større end forventet for en person med din specifikke højde og vægt.</p>
+
+<hr />
+
+<h2 id="hvad-betyder-din-absi-z-score-for-din-sundhed">Hvad betyder din ABSI z-score for din sundhed?</h2>
+
+<p>Et råt ABSI-tal (som typisk ligger omkring 0,070–0,090) fortæller dig ikke meget i sig selv, da taljemålet naturligt stiger med alderen. For at fortolke dit resultat omregnes tallet til en <strong>ABSI z-score</strong>, som sammenligner dit resultat direkte med normtal for din alder og dit køn:</p>
+
+\[ABSI\text{ z-score} = \frac{ABSI - ABSI_{\text{gennemsnit}}}{ABSI_{SD}}\]
+
+<p>Ud fra din z-score kan din statistiske risiko for tidlig dødelighed vurderes ud fra følgende kliniske intervaller:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">ABSI z-score</th>
+      <th style="text-align: left">Risiko for dødelighed</th>
+      <th style="text-align: left">Forklaring</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>&lt; -0,868</strong></td>
+      <td style="text-align: left"><strong>Meget lav</strong></td>
+      <td style="text-align: left">Din taljeomkreds er markant mindre end gennemsnittet for din vægt, alder og køn.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>-0,868 til -0,272</strong></td>
+      <td style="text-align: left"><strong>Lav</strong></td>
+      <td style="text-align: left">Under gennemsnitlig kardiometabolisk risiko.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>-0,272 til +0,229</strong></td>
+      <td style="text-align: left"><strong>Gennemsnitlig</strong></td>
+      <td style="text-align: left">Normal kropsformsrelateret risikoprofil.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>+0,229 til +0,825</strong></td>
+      <td style="text-align: left"><strong>Høj</strong></td>
+      <td style="text-align: left">Øget mængde fedt omkring maveregionen i forhold til din kropsbygning.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>&gt; +0,825</strong></td>
+      <td style="text-align: left"><strong>Meget høj</strong></td>
+      <td style="text-align: left">Betydeligt øget taljemål og forhøjet risiko for hjerte-kar-sygdomme og type 2-diabetes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="sådan-måler-du-dit-taljemål-korrekt">Sådan måler du dit taljemål korrekt</h2>
+
+<p>For at få en præcis udregning er det afgørende, at du måler din talje ensartet:</p>
+
+<ol>
+  <li>Stå oprejst og slap af i maveregionen (hold ikke vejret eller sug maven ind).</li>
+  <li>Placer et blødt målebånd <strong>midt mellem det nederste ribben og den øverste kant af hoftekammen</strong> (typisk 1-2 cm over navlen).</li>
+  <li>Aflæs målet i centimeter ved udånding.</li>
+</ol>
+
+<hr />
+
+<h2 id="fordele-og-ulemper-ved-absi">Fordele og ulemper ved ABSI</h2>
+
+<h3 id="fordele">Fordele:</h3>
+<ul>
+  <li><strong>Fokuserer på det viscerale mavefedt:</strong> Hvor et almindeligt BMI ikke skelner mellem muskler og fedt, opfanger ABSI den sundhedsskadelige ophobning af mavefedt.</li>
+  <li><strong>Egnet til muskuløse personer:</strong> Da muskelmasse fordeler sig anderledes på kroppen end mavefedt, rammes atletiske personer i langt mindre grad af fejlklassificering end ved BMI.</li>
+  <li><strong>Integrerer køn og alder:</strong> z-scoren korrigerer for den naturlige ændring i kropsbygning over livsspændet.</li>
+</ul>
+
+<h3 id="ulemper">Ulemper:</h3>
+<ul>
+  <li><strong>Generelt populationsskøn:</strong> ABSI er et statistisk risikomål. Det tager ikke højde for øvrige livsstilsfaktorer som rygning, blodtryk, kostvaner eller kondition.</li>
+  <li><strong>Følsomt over for målefejl:</strong> En usikkerhed på blot et par centimeter med målebåndet kan rykke din z-score mærkbart.</li>
+</ul>
+
+<p>Vil du have et endnu mere komplet billede af din kropssammensætning? Læs vores dybdegående guide til <a href="/fedtprocent-normer/#metoder">fedtprocent-måling</a>, <a href="/artikel/udregning-af-fedtprocent/">udregning af fedtprocent</a> eller prøv vores <a href="/taljemaal/">talje-hofte-ratio beregner</a>.</p>
+
+<hr />
+
+<h2 id="ofte-stillede-spørgsmål-om-absi">Ofte stillede spørgsmål om ABSI</h2>
+
+<details class="faq">
+<summary><h3>Hvad er et normalt ABSI-tal?</h3></summary>
+<p>Et råt ABSI-tal ligger for de fleste voksne typisk mellem 0,070 og 0,090. Da råtallet stiger naturligt med alderen og varierer mellem køn, vurderes ABSI i praksis altid ud fra din ABSI z-score.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvad er forskellen på BMI og ABSI?</h3></summary>
+<p>Almindeligt BMI tager kun højde for samlet kropsvægt og højde, hvilket gør, at muskuløse personer ofte fejlagtigt klassificeres som overvægtige. ABSI tager højde for taljeomkredsen, hvilket isolerer mængden af det farlige viscerale mavefedt omkring organerne.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvad er en god ABSI z-score?</h3></summary>
+<p>En ABSI z-score omkring 0 (eller lavere) indikerer gennemsnitlig til meget lav risikoprofil. En z-score over +0,229 peger på øget mængde mavefedt og forhøjet kardiometabolisk risiko.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvorfor er taljemålet vigtigere end den samlede vægt?</h3></summary>
+<p>Mavefedt (visceral fedtvæv) producerer inflammatoriske stoffer og hormoner, som øger risikoen for hjerte-kar-sygdomme, type 2-diabetes og tidlig dødelighed. Fedt placeret på hofter og lår har ikke samme skadelige virkning.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er et normalt ABSI-tal?","acceptedAnswer":{"@type":"Answer","text":"Et råt ABSI-tal ligger for de fleste voksne typisk mellem 0,070 og 0,090. Da råtallet stiger naturligt med alderen og varierer mellem køn, vurderes ABSI i praksis altid ud fra din ABSI z-score.\n"}},{"@type":"Question","name":"Hvad er forskellen på BMI og ABSI?","acceptedAnswer":{"@type":"Answer","text":"Almindeligt BMI tager kun højde for samlet kropsvægt og højde, hvilket gør, at muskuløse personer ofte fejlagtigt klassificeres som overvægtige. ABSI tager højde for taljeomkredsen, hvilket isolerer mængden af det farlige viscerale mavefedt omkring organerne.\n"}},{"@type":"Question","name":"Hvad er en god ABSI z-score?","acceptedAnswer":{"@type":"Answer","text":"En ABSI z-score omkring 0 (eller lavere) indikerer gennemsnitlig til meget lav risikoprofil. En z-score over +0,229 peger på øget mængde mavefedt og forhøjet kardiometabolisk risiko.\n"}},{"@type":"Question","name":"Hvorfor er taljemålet vigtigere end den samlede vægt?","acceptedAnswer":{"@type":"Answer","text":"Mavefedt (visceral fedtvæv) producerer inflammatoriske stoffer og hormoner, som øger risikoen for hjerte-kar-sygdomme, type 2-diabetes og tidlig dødelighed. Fedt placeret på hofter og lår har ikke samme skadelige virkning.\n"}}]
+    }
+</script>
+
+<hr />
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Krakauer, N. Y., &amp; Krakauer, J. C. (2012). <em>A new body shape index predicts mortality hazard independently of body mass index</em>. PLoS ONE, 7(7), e39504.</li>
+    <li>Krakauer, N. Y., &amp; Krakauer, J. C. (2014). <em>An ABSI (A Body Shape Index) z-score predicts mortality in a large-scale US cohort</em>. International Journal of Biology, 6(3), 16-25.</li>
+    <li>World Health Organization. (2008). <em>Waist Circumference and Waist-Hip Ratio: Report of a WHO Expert Consultation</em>. Geneva: World Health Organization.</li>
+  </ul>
+
+</details>
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/absi/#article",
+    "name": "ABSI Beregner: Body Shape Index og risiko for dødelighed",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "17"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">17</span> stemmer. Gennemsnit: <span id="rating_average">4.6</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+<figure class=" hidden">
+  <img src="/assets/images/pinterest-hide-mini-image.png"
+       alt="ABSI Beregner: Body Shape Index og risiko for dødelighed"
+       data-pin-media="https://www.motionsplan.dk/assets/images/pinterest/generated/absi.jpg"
+       data-pin-description="Beregn dit Body Shape Index (ABSI) og z-score. Lær hvordan ABSI kombinerer taljemål, BMI og højde for at give et mere præcist billede af din kardiometaboliske risiko end BMI alene. #beregner #kropskomposition #antropometri #absi"
+        loading="lazy">
+  
+</figure>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#absi" class="page__taxonomy-item" rel="tag">absi</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#antropometri" class="page__taxonomy-item" rel="tag">antropometri</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#beregner" class="page__taxonomy-item" rel="tag">beregner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#kropskomposition" class="page__taxonomy-item" rel="tag">kropskomposition</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#beregnere" class="page__taxonomy-item" rel="tag">Beregnere</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#kropskomposition" class="page__taxonomy-item" rel="tag">Kropskomposition</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-08-18">18. Aug, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/rouvy/" class="pagination--pager" title="Rouvy cykling på hometrainer: Komplet guide til begyndere 🚴‍♂️">Forrige</a>
+    
+    
+      <a href="/muskelmasse-beregner/" class="pagination--pager" title="Muskelmasse beregner: Beregn din muskelmasse i procent og kg">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1494698852314-652666555934?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sports-BH Impact &amp; Størrelsesberegner – Find den rette støtte til din træning
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Beregnere</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/sports-bh-beregner/" rel="permalink">Sports-BH Impact &amp; Størrelsesberegner – Find den rette støtte til din træning
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-16T23:00:00+00:00">16. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Utilstrækkelig bryststøtte koster præstationsevne, ændrer din løbeøkonomi og belaster kropsholdningen. Find din rette BH-størrelse og støtteprofil her.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1611077544695-c7942e060c4d.jpg" alt="Omregner fra kJ til kcal og kcal til kJ
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kalorieberegnere</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/kj-kcal-omregner/" rel="permalink">Omregner fra kJ til kcal og kcal til kJ
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-07-25T18:00:00+00:00">25. jul, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Omregn nemt mellem kilojoule (kJ) og kilokalorier (kcal). Brug vores gratis omregner og se den præcise formel og omregningstabel her!
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1453342664588-b702c83fc822.jpg" alt="Motionsomregner: Omregn aktivitet og sport til skridt 🚴‍♀️ ⇒ 🚶‍♀️
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Beregnere</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/omregn-motion-aktivitet-sport-til-skridt/" rel="permalink">Motionsomregner: Omregn aktivitet og sport til skridt 🚴‍♀️ ⇒ 🚶‍♀️
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-07-13T23:14:14+00:00">13. jul, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Hvis du gerne vil have svar på, hvor mange skridt 10 km cykling svarer til – eller hvor mange skridt du kan skrive i regnskabet for din træning – så er du la...</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1720804274286-eb479df0388a.jpg" alt="Pacetabel: Se tempo, tid og hastighed for distancer
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Beregnere</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/hastighed/pace-tabeller/" rel="permalink">Pacetabel: Se tempo, tid og hastighed for distancer
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-07-24T00:00:00+00:00">24. jul, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Brug denne pacetabel til at finde din løbehastighed (km/t), tempo (min/km) og estimeret tid for distancer fra 1 km til maraton.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>

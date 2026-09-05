@@ -1,0 +1,2212 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Powerprofil i roning: Beregn din powerkurve på romaskine</title>
+<meta name="description" content="De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve kan se ud i roning og hvordan du tester den på romaskine.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="Powerprofil i roning: Beregn din powerkurve på romaskine">
+<meta property="og:url" content="https://www.motionsplan.dk/roning-powerprofil/">
+<meta property="og:description" content="De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve kan se ud i roning og hvordan du tester den på romaskine.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DPowerprofil+i+roning%3A+Beregn+din+powerkurve+p%C3%A5+romaskine%26excerpt%3DDe+bedste+roere+har+noget+til+f%C3%A6lles.+De+har+nogenlunde+den+samme+powerprofil.+Her+dykker+vi+ned+i%2C+hvordan+en+powerkurve+kan+se+ud+i+roning+og+hvordan+du+tester+den+p%C3%A5+romaskine.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1467818488384-3a21f2b79959.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D16.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1786875254/opengraph/">
+  <meta property="og:image:alt" content="Powerprofil i roning: Beregn din powerkurve på romaskine">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://www.motionsplan.dk/assets/images/unsplash/photo-1467818488384-3a21f2b79959.jpg" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="Powerprofil i roning: Beregn din powerkurve på romaskine">
+  <meta name="twitter:description" content="De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve kan se ud i roning og hvordan du tester den på romaskine.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/roning-powerprofil/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DPowerprofil+i+roning%3A+Beregn+din+powerkurve+p%C3%A5+romaskine%26excerpt%3DDe+bedste+roere+har+noget+til+f%C3%A6lles.+De+har+nogenlunde+den+samme+powerprofil.+Her+dykker+vi+ned+i%2C+hvordan+en+powerkurve+kan+se+ud+i+roning+og+hvordan+du+tester+den+p%C3%A5+romaskine.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1467818488384-3a21f2b79959.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D16.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1786875254/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2022-08-08T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-08-16T10:14:14+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/roning-powerprofil/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/roning-powerprofil/#webpage",
+      "name": "Powerprofil i roning: Beregn din powerkurve på romaskine",
+      "url": "https://www.motionsplan.dk/roning-powerprofil/",
+      "description": "De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve kan se ud i roning og hvordan du tester den på romaskine.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2022-08-08T00:00:00+00:00",
+      "dateModified": "2026-08-16T10:14:14+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/roning-powerprofil/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/roning-powerprofil/#article",
+        "inLanguage": "da",
+        "name": "Powerprofil i roning: Beregn din powerkurve på romaskine",
+        "headline": "Powerprofil i roning: Beregn din powerkurve på romaskine",
+        "keywords": "test,roning,rotest,kondition",
+        "description": "De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve kan se ud i roning og hvordan du tester den på romaskine.",
+        "articleBody": "De bedste roere har noget til fælles. De har nogenlunde den samme fysiologiske balance mellem eksplosivitet og udholdenhed – de har den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve i roning ser ud, og hvordan du tester den på romaskine.\n\nI dette indlæg finder du et interaktivt Dashboard, som kan udregne din personlige powerprofil til roning på baggrund af dit resultat i en 2 kilometer rotest. Denne side er stærkt inspireret af de bagvedliggende data og analyser hos Erg Rowing.\n\nPowerprofilen danner samtidig udgangspunktet for den landskendte Ugetest i roning. Ugetesten er udformet af Kurt Jensen (tidligere leder af Team Danmark Testcenter) og er beskrevet detaljeret i Aldersrelateret Træning i Roning (ATRO).\n\nLad os dykke ned i, hvordan powerprofilen ser ud, og hvordan du kan bruge Ugetesten til systematisk at forbedre din rotræning.\n\n\n  \n\nHvad er en powerprofil i roning?\n\nEn powerprofil i roning er en teoretisk kurve, som beskriver sammenhængen mellem roerens evne til at udøve kraft (Watt) over forskellige tidsrum (fra 10 sekunder til 60 minutter).\n\nKurt Jensen har igennem mange årtier testet et utal af danske eliteroere – herunder adskillige olympiske medaljevindere. Gennem testningen opdagede han en utroligt konsistent numerisk sammenhæng mellem roernes 2 kilometer-resultat og deres resultater på 10 sekunder, 60 sekunder, 6 kilometer og 60 minutters roning.\n\nDenne sammenhæng er et fantastisk værktøj til træningsplanlægning. Ved at kortlægge din egen profil og sammenligne den med guldstandarden, kan du se sort på hvidt, hvilke fysiologiske systemer (det anaerobe eller det aerobe), der bremser din udvikling.\n\nBeregn din powerprofil og Ugetest\n\nI beregneren herunder kan du indtaste dit 2k-resultat og straks se din ideelle powerkurve. Du kan også vælge at udfolde dashboardet og logge resultaterne af din fulde ugetest. Værktøjet vil da automatisk visualisere, hvor du er stærkest, og hvor du halter bagefter den ideelle profil.\n\n\n\n\n\n\n\n\n  \n  \n    \n      📈 Powerprofil &amp; Ugetest i Roning\n      \n        Beregn dit teoretiske potentiale ud fra 2k, eller log hele ugetesten.\n      \n    \n    \n      \n    \n  \n\n  \n  \n    \n      Estimer fra 2000m\n      Se din ideelle powerkurve og få målwatt til dine øvrige distancer baseret på dit 2k-niveau.\n    \n    \n      Fuld Ugetest Dashboard\n      Log alle ugens 4 tests (Dag 1-4) og sammenlign dine faktiske resultater med teorien.\n    \n  \n\n  \n  \n    \n      \n        Indtast din 2000m tid (Baseline = 100%)\n      \n    \n\n    \n      \n        Sluttid (min:sek)\n        \n          \n          \n        \n      \n\n      \n        Gns. Pace/500m\n        \n          \n          \n        \n      \n\n      \n        Gns. Watt\n        \n      \n    \n  \n\n  \n  \n    \n      Powerprofil Kurve\n    \n    \n       Teoretisk mål\n       Testresultat\n    \n    \n    \n    \n  \n\n  \n  \n    \n      Log dine faktiske tests\n      Ryd tests\n    \n    Aflæs gennemsnittet på PM5-skærmen. Indtast enten Watt eller Pace – den anden udregnes automatisk.\n\n    \n      \n      \n      \n        \n          \n            Dag 1\n            6 km Test\n          \n          85%\n        \n        Mål: -\n        \n        \n          \n            Gns. Pace/500m\n            \n              \n              \n            \n          \n          \n            Gns. Watt\n            \n          \n        \n      \n\n      \n      \n        \n          \n            Dag 3\n            3 x 100m (Sprint)\n          \n          175%\n        \n        Mål: -\n        \n        \n          \n            Gns. Pace for de 3\n            \n              \n              \n            \n          \n          \n            Gns. Watt\n            \n          \n        \n      \n\n      \n      \n        \n          \n            Dag 3\n            1 x 1 minut\n          \n          153%\n        \n        Mål: -\n        \n        \n          \n            Gns. Pace/500m\n            \n              \n              \n            \n          \n          \n            Gns. Watt\n            \n          \n        \n      \n\n      \n      \n        \n          \n            Dag 4\n            60 minutter (Hour of Power)\n          \n          76%\n        \n        Mål: -\n        \n        \n          \n            Gns. Pace/500m\n            \n              \n              \n            \n          \n          \n            Gns. Watt\n            \n          \n        \n      \n\n    \n  \n\n  \n  \n    Download Dashboard\n    Ryd alt\n  \n\n\n\n\nHvad betyder tallene i powerprofilen for roning?\n\nUd fra analysen af eliteroerne viste Kurt Jensens data følgende faste sammenhæng mellem den intensitet, roerne kunne yde på de forskellige distancer:\n\n\n  10 sekunder all out sprint: Gennemsnitlig effekt lå omkring 175% af de gennemsnitlige Watt for 2k-testen.\n  60 sekunder all out: Omkring 153% af 2k-testen.\n  2k testen: Basislinjen (100%).\n  6k testen: Omkring 85% af 2k-testen.\n  60 minutters “Hour of Power”: Omkring 76% af 2k-testens gennemsnitlige watt.\n\n\nI en klassisk XY-graf med tid ud ad X-aksen og procent af 2K-watt op ad Y-aksen ser det således ud:\n\n\n  \n      📷\n\n    \n\nSådan analyserer du din egen powerprofil\n\nDet helt store potentiale opstår, når du bruger dashboardet til at plotte dine egne testtider ind.\n\nEr dine sprint-tider (10s og 60s) for langsomme i forhold til kurven?\nSå mangler du rå muskelstyrke, eksplosivitet og anaerob laktattolerance. Ligger dit tyngdepunkt her, bør den fremtidige træning suppleres med tung styrketræning og eksplosive, korte intervaller (fx 15 x 30 sekunders all-out roning).\n\nLigger dine lange distancer (6k og 60 min) under målet?\nDette er det klassiske problem for mange tunge, stærke roere. Du har muskelkraften (og måske en fin 2K-tid), men du “syrer til” og kan ikke fjerne affaldsstofferne hurtigt nok over tid. Løsningen her er at opbygge en langt stærkere aerob motor gennem mange timers lang, stabil zone 1 og 2 roning.\n\nHvad er ugetesten i roning?\n\nUgetesten er en komprimeret test-protokol til roning, hvor du kortlægger både din anaerobe og aerobe ydeevne på blot én uge. Testen placeres typisk på følgende måde henover træningsugen:\n\n\n  1. dag: 6 km (Test af den primære aerobe kapacitet / anaerob tærskel)\n  2. dag: 2 km (Basislinje-test, relateret til VO2max)\n  3. dag: 3 x 100 meter + 1 x 1 minut (Test af det alaktacide og laktacide anaerobe system)\n  4. dag: 60 minutter (Test af den basale udholdenhed. For U19 roere er det ofte justeret til 40 minutter).\n\n\nFor at lave testen skal du blot bruge romaskinen. Maskinens indbyggede monitor måler de præcise gennemsnits-watt, som du bagefter taster ind i dashboardet her på siden.\n\nHvordan forbedrer jeg mit resultat i ugetesten?\n\nNår Ugetesten har afsløret din svaghed, skal træningen tilpasses. Vil du gerne i bedre kondition generelt, eller vil du forskyde din mælkesyretærskel?\n\nDet nationale ro-miljø har stærke traditioner for veltilrettelagte, periodiserede træningsprogrammer. Kurt Jensen har deltaget i udformningen af meget materiale, herunder glimrende oversigter om træningsplanlægning for maskinroere (se redking.me.uk C2 Training).\n\nDu kan også finde stor inspiration i vores egen samling af de mest klassiske og effektive rointervaller til romaskine.\n\n\n\nFAQ om Powerprofil og Ugetesten\n\n\nHvad betyder det, hvis mine resultater på 6k og 60 minutter ligger under powerprofilens mål?\nHvis du ikke kan ramme 85% på din 6k eller 76% på 60 minutter, betyder det, at din aerobe udholdenhed er din begrænsende faktor. Du mangler evnen til at bortskaffe mælkesyre over længere tid, og du bør fokusere mere på lang, rolig steady-state træning (zone 1-2).\n\n\n\n\nHvad betyder det, hvis mine sprint-resultater (10s og 60s) er lavere end profilen?\nHvis du rammer målene fint på de lange distancer, men falder under målwatt på dine 10- og 60 sekunders tests, mangler du eksplosivitet og anaerob kapacitet. Træningen bør suppleres med tung styrketræning (squat, dødløft) og ultrakorte, all-out powerintervaller på romaskinen.\n\n\n\n\nSkal jeg ro testene på vandet eller romaskinen?\nPowerprofilen og Ugetesten fra Kurt Jensen er udelukkende udviklet og valideret på roergometer (typisk Concept2). Vind, vejr og vandmodstand gør det umuligt at måle en pålidelig effekt-profil i en båd.\n\n\n\n\n\n\n  Referencer\n\n  \n    Jensen, K. (2016). Aldersrelateret Træning i Roning (ATRO). Dansk Forening for Rosport &amp; Team Danmark.\n    Erg Rowing (2020). 2K Erg Power Profile Calculator. ErgRowing.com. Hentet fra: ergrowing.com\n    Jensen, K. (2000). Fysiologiske krav og testning i roning. Team Danmark Fysiologisk Testcenter.\n    Seiler, S. (2010). What is best practice for training intensity and duration distribution in endurance athletes? International Journal of Sports Physiology and Performance.\n  \n\n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DPowerprofil+i+roning%3A+Beregn+din+powerkurve+p%C3%A5+romaskine%26excerpt%3DDe+bedste+roere+har+noget+til+f%C3%A6lles.+De+har+nogenlunde+den+samme+powerprofil.+Her+dykker+vi+ned+i%2C+hvordan+en+powerkurve+kan+se+ud+i+roning+og+hvordan+du+tester+den+p%C3%A5+romaskine.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1467818488384-3a21f2b79959.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D16.+Aug+2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1786875254/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/roning-powerprofil/#webpage"
+        },
+        "datePublished": "2022-08-08T00:00:00+00:00",
+        "dateModified": "2026-08-16T10:14:14+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/roning-powerprofil/#powerprofil-roning-dashboard",
+          "name": "Powerprofil Roning Dashboard",
+          "description": "Interaktivt dashboard til udregning af din optimale powerkurve og forventede målwatt på 10s, 60s, 6k og 60 minutter baseret på dit 2k-testresultat. Inkluderer logbogsfunktion til fuld ugetest.",
+          "applicationCategory": ["Roning","Kondition","Tests"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/roning-powerprofil/#webpage"
+          }
+        }
+        
+      
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/traening/" itemprop="item"><span itemprop="name">Træning</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/roning/" itemprop="item"><span itemprop="name">Roning</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">Powerprofil i ron...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Powerprofil i roning: Beregn din powerkurve på romaskine">
+    <meta itemprop="description" content="De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve kan se ud i roning og hvordan du tester den på romaskine.">
+    <meta itemprop="datePublished" content="2022-08-08T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-08-16T10:14:14+00:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title p-name" class="page__title" itemprop="headline">Powerprofil i roning: Beregn din powerkurve på romaskine
+</h1>
+          
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-16T10:14:14+00:00">16. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 min læsning
+        
+      </span>
+    
+  </p>
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#hvad-er-en-powerprofil-i-roning">Hvad er en powerprofil i roning?</a></li><li><a href="#beregn-din-powerprofil">Beregn din powerprofil og Ugetest</a></li><li><a href="#hvad-betyder-tallene-i-powerprofilen-for-roning">Hvad betyder tallene i powerprofilen for roning?</a></li><li><a href="#sådan-analyserer-du-din-egen-powerprofil">Sådan analyserer du din egen powerprofil</a></li><li><a href="#hvad-er-ugetesten-i-roning">Hvad er ugetesten i roning?</a></li><li><a href="#hvordan-forbedrer-jeg-mit-resultat-i-ugetesten">Hvordan forbedrer jeg mit resultat i ugetesten?</a></li><li><a href="#faq-om-powerprofil-og-ugetesten">FAQ om Powerprofil og Ugetesten</a></li><li><a href="#references">Referencer</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>De bedste roere har noget til fælles. De har nogenlunde den samme fysiologiske balance mellem eksplosivitet og udholdenhed – de har den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve i roning ser ud, og hvordan du tester den på romaskine.</p>
+
+<p>I dette indlæg finder du et interaktivt <strong>Dashboard</strong>, som kan udregne din personlige powerprofil til roning på baggrund af dit resultat i en <a href="/kondital-roning/">2 kilometer rotest</a>. Denne side er stærkt inspireret af de bagvedliggende data og analyser hos <a href="https://ergrowing.com/2k-erg-power-profile-calculator/">Erg Rowing</a>.</p>
+
+<p>Powerprofilen danner samtidig udgangspunktet for den landskendte <strong>Ugetest i roning</strong>. Ugetesten er udformet af Kurt Jensen (tidligere leder af Team Danmark Testcenter) og er beskrevet detaljeret i <a href="https://roning.dk/app/uploads/2016/12/ATRO-bogen.pdf">Aldersrelateret Træning i Roning (ATRO)</a>.</p>
+
+<p>Lad os dykke ned i, hvordan powerprofilen ser ud, og hvordan du kan bruge Ugetesten til systematisk at forbedre din rotræning.</p>
+
+<figure class="">
+  <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://images.unsplash.com/photo-1467818488384-3a21f2b79959?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;h=600&amp;q=60" srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://images.unsplash.com/photo-1467818488384-3a21f2b79959?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;h=600&amp;q=60 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://images.unsplash.com/photo-1467818488384-3a21f2b79959?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;h=600&amp;q=60 1600w" sizes="(max-width: 800px) 100vw, 800px" alt="Powerprofil og ugetest i roning på Concept2" loading="lazy" decoding="async" /></figure>
+
+<h2 id="hvad-er-en-powerprofil-i-roning">Hvad er en powerprofil i roning?</h2>
+
+<p>En powerprofil i roning er en teoretisk kurve, som beskriver sammenhængen mellem roerens evne til at udøve kraft (Watt) over forskellige tidsrum (fra 10 sekunder til 60 minutter).</p>
+
+<p>Kurt Jensen har igennem mange årtier testet et utal af danske eliteroere – herunder adskillige olympiske medaljevindere. Gennem testningen opdagede han en utroligt konsistent <strong>numerisk sammenhæng</strong> mellem roernes 2 kilometer-resultat og deres resultater på 10 sekunder, 60 sekunder, 6 kilometer og 60 minutters roning.</p>
+
+<p>Denne sammenhæng er et fantastisk værktøj til træningsplanlægning. Ved at kortlægge din egen profil og sammenligne den med guldstandarden, kan du se sort på hvidt, hvilke fysiologiske systemer (det anaerobe eller det aerobe), der bremser din udvikling.</p>
+
+<h2 id="beregn-din-powerprofil">Beregn din powerprofil og Ugetest</h2>
+
+<p>I beregneren herunder kan du indtaste dit 2k-resultat og straks se din ideelle powerkurve. Du kan også vælge at udfolde dashboardet og logge resultaterne af din fulde ugetest. Værktøjet vil da automatisk visualisere, hvor du er stærkest, og hvor du halter bagefter den ideelle profil.</p>
+
+<!-- _includes/calc/rowing-powerprofile.html -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+  .mp-calc-card { position: relative !important; font-family: system-ui, -apple-system, sans-serif; }
+  
+  .mp-pp-input { 
+    height: 38px !important; 
+    border-radius: 6px !important; 
+    text-align: center !important; 
+    font-weight: 800 !important; 
+    box-sizing: border-box !important; 
+    padding: 0 4px !important; 
+    border: 1px solid #cbd5e1 !important; 
+    background: #ffffff !important; 
+    margin: 0 !important; 
+    width: 100% !important;
+    font-size: 0.85rem !important;
+    color: #0f172a !important;
+  }
+  .mp-pp-input:focus { border-color: #2563eb !important; outline: none !important; }
+
+  .mp-pp-flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: flex-end;
+  }
+  .mp-pp-field { flex: 1 1 80px; min-width: 0; }
+
+  /* MODE SELECTOR (2 STORE KORT I TOPPEN) */
+  .mp-pp-mode-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  @media (max-width: 600px) { .mp-pp-mode-grid { grid-template-columns: 1fr; } }
+  
+  .mp-pp-mode-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mp-pp-mode-card:hover:not(.active) { border-color: #93c5fd; background: #f8fafc; }
+  .mp-pp-mode-card.active { border-color: #2563eb; background: #eff6ff; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12); }
+  
+  .mp-pp-mode-title { font-size: 0.85rem; font-weight: 900; color: #0f172a; margin-bottom: 0.25rem; }
+  .mp-pp-mode-desc { font-size: 0.7rem; font-weight: 600; color: #64748b; line-height: 1.3; }
+
+  /* Baseline Kort */
+  .mp-pp-baseline-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  /* Ugetest Kort Grid */
+  .mp-pp-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  @media (max-width: 600px) { .mp-pp-cards-grid { grid-template-columns: 1fr; } }
+
+  .mp-pp-test-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 0.85rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+  }
+  .mp-pp-test-card.has-data { border-color: #2563eb; background: #eff6ff; }
+
+  .mp-pp-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #cbd5e1;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .mp-pp-card-day { font-size: 0.7rem; font-weight: 800; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
+  .mp-pp-card-title { font-size: 0.85rem; font-weight: 900; color: #0f172a; }
+  .mp-pp-card-pct { font-size: 0.7rem; font-weight: 800; color: #2563eb; background: #dbeafe; padding: 2px 6px; border-radius: 4px; }
+
+  .mp-pp-card-target { font-size: 0.7rem; color: #475569; font-weight: 700; margin-bottom: 0.75rem; }
+  .mp-pp-card-target span { color: #0f172a; font-weight: 900; }
+
+  /* SVG Graf Container */
+  .mp-pp-graph-container {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+    position: relative;
+    height: 250px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Knapper */
+  .mp-btn-action-wide {
+    border: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+    gap: 0.35rem; font-size: 0.75rem; font-weight: 800; padding: 0.4rem 0.85rem; border-radius: 6px; background: #2563eb; color: #ffffff; transition: all 0.15s ease;
+  }
+  .mp-btn-action-wide:hover { background: #1d4ed8; }
+  .mp-btn-action-reset {
+    border: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+    font-size: 0.85rem; padding: 0.4rem; border-radius: 6px; background: #f1f5f9; color: #ef4444; transition: all 0.15s ease;
+  }
+  .mp-btn-action-reset:hover { background: #fee2e2; }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="rowing-powerprofile" style="max-width: 750px; margin: 0 auto; position: relative;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.75rem; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 2px 0;">📈 Powerprofil &amp; Ugetest i Roning</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn dit teoretiske potentiale ud fra 2k, eller log hele ugetesten.
+      </p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;" />
+    </div>
+  </div>
+
+  <!-- MODE SELECTOR (2 STORE KORT I TOPPEN) -->
+  <div class="mp-pp-mode-grid" data-html2canvas-ignore="true">
+    <div class="mp-pp-mode-card js-pp-mode-btn active" data-mode="estimate">
+      <div class="mp-pp-mode-title">Estimer fra 2000m</div>
+      <div class="mp-pp-mode-desc">Se din ideelle powerkurve og få målwatt til dine øvrige distancer baseret på dit 2k-niveau.</div>
+    </div>
+    <div class="mp-pp-mode-card js-pp-mode-btn" data-mode="full">
+      <div class="mp-pp-mode-title">Fuld Ugetest Dashboard</div>
+      <div class="mp-pp-mode-desc">Log alle ugens 4 tests (Dag 1-4) og sammenlign dine faktiske resultater med teorien.</div>
+    </div>
+  </div>
+
+  <!-- 1. BASELINE (2000M) -->
+  <div class="mp-pp-baseline-card">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+      <h4 class="js-pp-baseline-title" style="font-size: 0.85rem; font-weight: 900; color: #0f172a; margin: 0; text-transform: uppercase;">
+        Indtast din 2000m tid (Baseline = 100%)
+      </h4>
+    </div>
+
+    <div class="mp-pp-flex-grid">
+      <div class="mp-pp-field" style="flex: 1.5 1 120px;">
+        <label style="font-size: 0.7rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.2rem;">Sluttid (min:sek)</label>
+        <div style="display: flex; gap: 4px;">
+          <input type="number" class="mp-pp-input js-base-time-m" min="5" max="12" placeholder="7" value="7" />
+          <input type="number" class="mp-pp-input js-base-time-s" min="0" max="59" step="0.1" placeholder="15" value="15" />
+        </div>
+      </div>
+
+      <div class="mp-pp-field">
+        <label style="font-size: 0.7rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.2rem;">Gns. Pace/500m</label>
+        <div style="display: flex; gap: 4px;">
+          <input type="number" class="mp-pp-input js-base-pace-m" min="1" max="3" placeholder="1" value="1" />
+          <input type="number" class="mp-pp-input js-base-pace-s" min="0" max="59" step="0.1" placeholder="48.7" value="48.7" />
+        </div>
+      </div>
+
+      <div class="mp-pp-field">
+        <label style="font-size: 0.7rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.2rem;">Gns. Watt</label>
+        <input type="number" class="mp-pp-input js-base-watt" min="50" max="700" placeholder="302" value="302" />
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. VISUEL GRAF -->
+  <div class="mp-pp-graph-container">
+    <div style="position: absolute; top: 12px; left: 15px; font-size: 0.75rem; font-weight: 800; color: #0f172a; text-transform: uppercase;">
+      Powerprofil Kurve
+    </div>
+    <div style="position: absolute; top: 12px; right: 15px; font-size: 0.65rem; font-weight: 700; color: #64748b; display: flex; gap: 10px;">
+      <span style="display: flex; align-items: center; gap: 4px;"><span style="display: inline-block; width: 10px; height: 3px; background: #94a3b8;"></span> Teoretisk mål</span>
+      <span class="js-pp-legend-actual" style="display: none; align-items: center; gap: 4px;"><span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #2563eb;"></span> Testresultat</span>
+    </div>
+    
+    <!-- SVG Area for the smooth curve -->
+    <svg id="mp-pp-svg" width="100%" height="100%" style="display: block;"></svg>
+  </div>
+
+  <!-- 3. FULD UGETEST (KUN SYNLIG I FULD MODE) -->
+  <div class="js-pp-full-tests" style="display: none;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+      <h4 style="font-size: 0.85rem; font-weight: 900; color: #0f172a; margin: 0; text-transform: uppercase;">Log dine faktiske tests</h4>
+      <button type="button" class="js-pp-clear-tests-btn" style="background: none; border: none; font-size: 0.7rem; font-weight: 800; color: #ef4444; cursor: pointer;">Ryd tests</button>
+    </div>
+    <p style="font-size: 0.7rem; color: #64748b; margin: 0 0 1rem 0;">Aflæs gennemsnittet på PM5-skærmen. Indtast enten Watt eller Pace – den anden udregnes automatisk.</p>
+
+    <div class="mp-pp-cards-grid">
+      
+      <!-- DAG 1: 6 KM -->
+      <div class="mp-pp-test-card js-test-card" data-key="6k">
+        <div class="mp-pp-card-header">
+          <div>
+            <div class="mp-pp-card-day">Dag 1</div>
+            <div class="mp-pp-card-title">6 km Test</div>
+          </div>
+          <div class="mp-pp-card-pct">85%</div>
+        </div>
+        <div class="mp-pp-card-target js-target-6k">Mål: <span>-</span></div>
+        
+        <div class="mp-pp-flex-grid">
+          <div class="mp-pp-field">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Pace/500m</label>
+            <div style="display: flex; gap: 4px;">
+              <input type="number" class="mp-pp-input js-test-pace-m" placeholder="m" />
+              <input type="number" class="mp-pp-input js-test-pace-s" step="0.1" placeholder="s" />
+            </div>
+          </div>
+          <div class="mp-pp-field" style="max-width: 80px;">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Watt</label>
+            <input type="number" class="mp-pp-input js-test-watt" placeholder="W" />
+          </div>
+        </div>
+      </div>
+
+      <!-- DAG 3: 3x100m -->
+      <div class="mp-pp-test-card js-test-card" data-key="10s">
+        <div class="mp-pp-card-header">
+          <div>
+            <div class="mp-pp-card-day">Dag 3</div>
+            <div class="mp-pp-card-title">3 x 100m (Sprint)</div>
+          </div>
+          <div class="mp-pp-card-pct">175%</div>
+        </div>
+        <div class="mp-pp-card-target js-target-10s">Mål: <span>-</span></div>
+        
+        <div class="mp-pp-flex-grid">
+          <div class="mp-pp-field">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Pace for de 3</label>
+            <div style="display: flex; gap: 4px;">
+              <input type="number" class="mp-pp-input js-test-pace-m" placeholder="m" />
+              <input type="number" class="mp-pp-input js-test-pace-s" step="0.1" placeholder="s" />
+            </div>
+          </div>
+          <div class="mp-pp-field" style="max-width: 80px;">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Watt</label>
+            <input type="number" class="mp-pp-input js-test-watt" placeholder="W" />
+          </div>
+        </div>
+      </div>
+
+      <!-- DAG 3: 1 min -->
+      <div class="mp-pp-test-card js-test-card" data-key="60s">
+        <div class="mp-pp-card-header">
+          <div>
+            <div class="mp-pp-card-day">Dag 3</div>
+            <div class="mp-pp-card-title">1 x 1 minut</div>
+          </div>
+          <div class="mp-pp-card-pct">153%</div>
+        </div>
+        <div class="mp-pp-card-target js-target-60s">Mål: <span>-</span></div>
+        
+        <div class="mp-pp-flex-grid">
+          <div class="mp-pp-field">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Pace/500m</label>
+            <div style="display: flex; gap: 4px;">
+              <input type="number" class="mp-pp-input js-test-pace-m" placeholder="m" />
+              <input type="number" class="mp-pp-input js-test-pace-s" step="0.1" placeholder="s" />
+            </div>
+          </div>
+          <div class="mp-pp-field" style="max-width: 80px;">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Watt</label>
+            <input type="number" class="mp-pp-input js-test-watt" placeholder="W" />
+          </div>
+        </div>
+      </div>
+
+      <!-- DAG 4: 60 min -->
+      <div class="mp-pp-test-card js-test-card" data-key="60m">
+        <div class="mp-pp-card-header">
+          <div>
+            <div class="mp-pp-card-day">Dag 4</div>
+            <div class="mp-pp-card-title">60 minutter (Hour of Power)</div>
+          </div>
+          <div class="mp-pp-card-pct">76%</div>
+        </div>
+        <div class="mp-pp-card-target js-target-60m">Mål: <span>-</span></div>
+        
+        <div class="mp-pp-flex-grid">
+          <div class="mp-pp-field">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Pace/500m</label>
+            <div style="display: flex; gap: 4px;">
+              <input type="number" class="mp-pp-input js-test-pace-m" placeholder="m" />
+              <input type="number" class="mp-pp-input js-test-pace-s" step="0.1" placeholder="s" />
+            </div>
+          </div>
+          <div class="mp-pp-field" style="max-width: 80px;">
+            <label style="font-size: 0.65rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.2rem;">Gns. Watt</label>
+            <input type="number" class="mp-pp-input js-test-watt" placeholder="W" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div style="display: flex; justify-content: flex-end; gap: 8px;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">Download Dashboard</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil alt">Ryd alt</button>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('[data-calculator="rowing-powerprofile"]');
+  if (!container) return;
+
+  const STORAGE_KEY = 'mp_rowing_powerprofile_v2';
+
+  // KONSTANTER FRA KURT JENSEN
+  const PCT = {
+    '10s': 1.75,
+    '60s': 1.53,
+    '2k':  1.00,
+    '6k':  0.85,
+    '60m': 0.76
+  };
+
+  let activeMode = 'estimate'; // 'estimate' or 'full'
+
+  // DOM: Mode Switcher
+  const modeBtns = container.querySelectorAll('.js-pp-mode-btn');
+  const sectionFullTests = container.querySelector('.js-pp-full-tests');
+  const baselineTitle = container.querySelector('.js-pp-baseline-title');
+  const legendActual = container.querySelector('.js-pp-legend-actual');
+
+  // DOM: Baseline
+  const bTimeM = container.querySelector('.js-base-time-m');
+  const bTimeS = container.querySelector('.js-base-time-s');
+  const bPaceM = container.querySelector('.js-base-pace-m');
+  const bPaceS = container.querySelector('.js-base-pace-s');
+  const bWatt  = container.querySelector('.js-base-watt');
+
+  // DOM: Graph & Targets
+  const svg = container.querySelector('#mp-pp-svg');
+  const targets = {
+    '10s': container.querySelector('.js-target-10s span'),
+    '60s': container.querySelector('.js-target-60s span'),
+    '6k':  container.querySelector('.js-target-6k span'),
+    '60m': container.querySelector('.js-target-60m span')
+  };
+
+  // DOM: Test Cards
+  const cards = container.querySelectorAll('.js-test-card');
+
+  // CONCEPT2 WATT -> PACE OMREGNER
+  function paceToWatt(m, s) {
+    const totalSec = (m * 60) + s;
+    if (totalSec <= 0) return 0;
+    return 2.8 / Math.pow(totalSec / 500, 3);
+  }
+
+  function wattToPaceObj(watt) {
+    if (watt <= 0) return { m: 0, s: 0, str: '00:00.0' };
+    const paceSec = 500 * Math.pow(2.8 / watt, 1/3);
+    const m = Math.floor(paceSec / 60);
+    const s = paceSec % 60;
+    return { 
+      m, 
+      s: parseFloat(s.toFixed(1)), 
+      str: `${String(m).padStart(2, '0')}:${String(Math.floor(s)).padStart(2, '0')}.${Math.floor((s%1)*10)}` 
+    };
+  }
+
+  // --- MODE SWITCH LOGIK ---
+  modeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modeBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeMode = btn.getAttribute('data-mode');
+
+      if (activeMode === 'full') {
+        sectionFullTests.style.display = 'block';
+        baselineTitle.textContent = 'Dag 2: 2000m Test (Baseline = 100%)';
+        legendActual.style.display = 'flex';
+      } else {
+        sectionFullTests.style.display = 'none';
+        baselineTitle.textContent = 'Indtast din 2000m tid (Baseline = 100%)';
+        legendActual.style.display = 'none';
+      }
+      
+      updateAll();
+    });
+  });
+
+  // --- BASELINE SYNC LOGIK ---
+  let isUpdatingBase = false;
+  function syncBaseline(source) {
+    if (isUpdatingBase) return;
+    isUpdatingBase = true;
+
+    let w = 0;
+    if (source === 'time') {
+      const min = parseFloat(bTimeM.value) || 0;
+      const sec = parseFloat(bTimeS.value) || 0;
+      const totalSec = (min * 60) + sec;
+      if (totalSec > 0) {
+        const paceSec = totalSec / 4;
+        const pObj = { m: Math.floor(paceSec / 60), s: parseFloat((paceSec % 60).toFixed(1)) };
+        bPaceM.value = pObj.m;
+        bPaceS.value = pObj.s;
+        w = paceToWatt(pObj.m, pObj.s);
+        bWatt.value = Math.round(w);
+      }
+    } else if (source === 'pace') {
+      const pm = parseFloat(bPaceM.value) || 0;
+      const ps = parseFloat(bPaceS.value) || 0;
+      w = paceToWatt(pm, ps);
+      bWatt.value = Math.round(w);
+      const totalSec = (pm * 60 + ps) * 4;
+      bTimeM.value = Math.floor(totalSec / 60);
+      bTimeS.value = parseFloat((totalSec % 60).toFixed(1));
+    } else if (source === 'watt') {
+      w = parseFloat(bWatt.value) || 0;
+      if (w > 0) {
+        const pObj = wattToPaceObj(w);
+        bPaceM.value = pObj.m;
+        bPaceS.value = pObj.s;
+        const totalSec = ((pObj.m * 60) + pObj.s) * 4;
+        bTimeM.value = Math.floor(totalSec / 60);
+        bTimeS.value = parseFloat((totalSec % 60).toFixed(1));
+      }
+    }
+    
+    isUpdatingBase = false;
+    updateAll();
+  }
+
+  [bTimeM, bTimeS].forEach(el => el.addEventListener('input', () => syncBaseline('time')));
+  [bPaceM, bPaceS].forEach(el => el.addEventListener('input', () => syncBaseline('pace')));
+  bWatt.addEventListener('input', () => syncBaseline('watt'));
+
+  // --- KORT SYNC LOGIK ---
+  cards.forEach(card => {
+    const pM = card.querySelector('.js-test-pace-m');
+    const pS = card.querySelector('.js-test-pace-s');
+    const tW = card.querySelector('.js-test-watt');
+
+    let isUpdatingCard = false;
+    
+    const syncCard = (source) => {
+      if (isUpdatingCard) return;
+      isUpdatingCard = true;
+      if (source === 'pace') {
+        const m = parseFloat(pM.value) || 0;
+        const s = parseFloat(pS.value) || 0;
+        const w = paceToWatt(m, s);
+        if (w > 0) tW.value = Math.round(w); else tW.value = '';
+      } else if (source === 'watt') {
+        const w = parseFloat(tW.value) || 0;
+        if (w > 0) {
+          const pObj = wattToPaceObj(w);
+          pM.value = pObj.m;
+          pS.value = pObj.s;
+        } else {
+          pM.value = ''; pS.value = '';
+        }
+      }
+      isUpdatingCard = false;
+      updateAll();
+    };
+
+    [pM, pS].forEach(el => el.addEventListener('input', () => syncCard('pace')));
+    tW.addEventListener('input', () => syncCard('watt'));
+  });
+
+  // --- SVG KURVE GENERATOR ---
+  function drawSmoothCurve(svgEl, baselineW) {
+    if (!svgEl || baselineW <= 0) return;
+    
+    const w = svgEl.clientWidth || 600;
+    const h = svgEl.clientHeight || 250;
+    
+    const pointsData = [
+      { key: '10s', xFactor: 0.05, pct: PCT['10s'] },
+      { key: '60s', xFactor: 0.20, pct: PCT['60s'] },
+      { key: '2k',  xFactor: 0.40, pct: PCT['2k'] },
+      { key: '6k',  xFactor: 0.65, pct: PCT['6k'] },
+      { key: '60m', xFactor: 0.90, pct: PCT['60m'] }
+    ];
+
+    const padX = 35;
+    const padY = 40;
+    
+    const mapX = (factor) => padX + factor * (w - padX * 2);
+    const mapY = (pct) => h - padY - ((pct - 0.70) / 1.10) * (h - padY * 2);
+
+    const thePoints = pointsData.map(d => ({
+      x: mapX(d.xFactor),
+      y: mapY(d.pct),
+      key: d.key,
+      targetW: Math.round(baselineW * d.pct)
+    }));
+
+    const line = (pA, pB) => {
+      const lengthX = pB.x - pA.x; const lengthY = pB.y - pA.y;
+      return { length: Math.sqrt(Math.pow(lengthX, 2) + Math.pow(lengthY, 2)), angle: Math.atan2(lengthY, lengthX) };
+    }
+    const controlPoint = (current, prev, next, reverse) => {
+      const p = prev || current; const n = next || current;
+      const smooth = 0.2;
+      const o = line(p, n);
+      const angle = o.angle + (reverse ? Math.PI : 0);
+      const length = o.length * smooth;
+      return { x: current.x + Math.cos(angle) * length, y: current.y + Math.sin(angle) * length };
+    }
+    const bezierCommand = (point, i, a) => {
+      const cps = controlPoint(a[i - 1], a[i - 2], point);
+      const cpe = controlPoint(point, a[i - 1], a[i + 1], true);
+      return `C ${cps.x},${cps.y} ${cpe.x},${cpe.y} ${point.x},${point.y}`;
+    }
+
+    const pathD = thePoints.reduce((acc, pt, i, a) => i === 0 ? `M ${pt.x},${pt.y}` : `${acc} ${bezierCommand(pt, i, a)}`, "");
+
+    let svgHtml = `
+      <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#94a3b8" stop-opacity="0.2"/>
+          <stop offset="100%" stop-color="#94a3b8" stop-opacity="0.0"/>
+        </linearGradient>
+      </defs>
+      <!-- Baggrunds-fill for teoretisk kurve -->
+      <path d="${pathD} L ${thePoints[thePoints.length-1].x},${h-padY} L ${thePoints[0].x},${h-padY} Z" fill="url(#grad)" />
+      <!-- Teoretisk streg -->
+      <path d="${pathD}" fill="none" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    `;
+
+    // Tegn Teoretiske punkter & Labels
+    const labels = {'10s':'10 sek', '60s':'1 min', '2k':'2k (100%)', '6k':'6 km', '60m':'60 min'};
+    thePoints.forEach(pt => {
+      svgHtml += `
+        <circle cx="${pt.x}" cy="${pt.y}" r="5" fill="#ffffff" stroke="#94a3b8" stroke-width="2" />
+        <text x="${pt.x}" y="${h - 15}" font-size="11" font-weight="700" fill="#64748b" text-anchor="middle">${labels[pt.key]}</text>
+      `;
+      // Hvis vi er i estimate mode, så skriv også målwatt på grafen
+      if (activeMode === 'estimate') {
+        svgHtml += `<text x="${pt.x}" y="${pt.y - 12}" font-size="11" font-weight="800" fill="#475569" text-anchor="middle">${pt.targetW}W</text>`;
+      }
+    });
+
+    // Tegn FAKTISKE punkter HVIS vi er i Fuld Ugetest mode
+    if (activeMode === 'full') {
+      thePoints.forEach(pt => {
+        if (pt.key === '2k') {
+          svgHtml += `
+            <circle cx="${pt.x}" cy="${pt.y}" r="6" fill="#2563eb" />
+            <text x="${pt.x}" y="${pt.y - 12}" font-size="12" font-weight="900" fill="#1e40af" text-anchor="middle">${baselineW}W</text>
+          `;
+          return;
+        }
+        
+        const card = container.querySelector(`.js-test-card[data-key="${pt.key}"]`);
+        if (card) {
+          const actW = parseFloat(card.querySelector('.js-test-watt').value);
+          if (actW > 0) {
+            card.classList.add('has-data');
+            const actPct = actW / baselineW;
+            const actY = mapY(actPct);
+            
+            svgHtml += `<line x1="${pt.x}" y1="${pt.y}" x2="${pt.x}" y2="${actY}" stroke="#bfdbfe" stroke-width="2" stroke-dasharray="4" />`;
+            
+            svgHtml += `
+              <circle cx="${pt.x}" cy="${actY}" r="6" fill="#2563eb" />
+              <text x="${pt.x}" y="${actY - 12}" font-size="12" font-weight="900" fill="#1e40af" text-anchor="middle">${actW}W</text>
+            `;
+          } else {
+            card.classList.remove('has-data');
+          }
+        }
+      });
+    }
+
+    svgEl.innerHTML = svgHtml;
+  }
+
+  function updateAll() {
+    const baseW = parseFloat(bWatt.value) || 0;
+    if (baseW <= 0) {
+      if (svg) svg.innerHTML = '';
+      Object.values(targets).forEach(el => el.textContent = '-');
+      cards.forEach(c => c.classList.remove('has-data'));
+      return;
+    }
+
+    // Update Targets Text on Cards
+    ['10s', '60s', '6k', '60m'].forEach(key => {
+      const tgtW = Math.round(baseW * PCT[key]);
+      const pObj = wattToPaceObj(tgtW);
+      if (targets[key]) targets[key].innerHTML = `${tgtW}W <span>(${pObj.str})</span>`;
+    });
+
+    drawSmoothCurve(svg, baseW);
+    saveState();
+  }
+
+  function saveState() {
+    try {
+      const state = { 
+        activeMode, 
+        baseM: bTimeM.value, 
+        baseS: bTimeS.value, 
+        tests: {} 
+      };
+      cards.forEach(card => {
+        const k = card.getAttribute('data-key');
+        state.tests[k] = {
+          pm: card.querySelector('.js-test-pace-m').value,
+          ps: card.querySelector('.js-test-pace-s').value,
+          w: card.querySelector('.js-test-watt').value
+        };
+      });
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {}
+  }
+
+  function loadState() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        const state = JSON.parse(saved);
+        if (state.activeMode) {
+          activeMode = state.activeMode;
+          modeBtns.forEach(b => {
+            if(b.getAttribute('data-mode') === activeMode) b.click();
+          });
+        }
+        if (state.baseM) bTimeM.value = state.baseM;
+        if (state.baseS) bTimeS.value = state.baseS;
+        
+        syncBaseline('time');
+        
+        if (state.tests) {
+          cards.forEach(card => {
+            const k = card.getAttribute('data-key');
+            if (state.tests[k]) {
+              card.querySelector('.js-test-pace-m').value = state.tests[k].pm || '';
+              card.querySelector('.js-test-pace-s').value = state.tests[k].ps || '';
+              card.querySelector('.js-test-watt').value = state.tests[k].w || '';
+            }
+          });
+        }
+      }
+    } catch (e) {}
+  }
+
+  const btnClearTests = container.querySelector('.js-pp-clear-tests-btn');
+  if (btnClearTests) {
+    btnClearTests.addEventListener('click', () => {
+      cards.forEach(card => {
+        card.querySelector('.js-test-pace-m').value = '';
+        card.querySelector('.js-test-pace-s').value = '';
+        card.querySelector('.js-test-watt').value = '';
+      });
+      updateAll();
+    });
+  }
+
+  const btnReset = container.querySelector('.js-reset-btn');
+  if (btnReset) {
+    btnReset.addEventListener('click', () => {
+      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+      bTimeM.value = '7'; bTimeS.value = '15';
+      syncBaseline('time');
+      cards.forEach(card => {
+        card.querySelector('.js-test-pace-m').value = '';
+        card.querySelector('.js-test-pace-s').value = '';
+        card.querySelector('.js-test-watt').value = '';
+      });
+      modeBtns[0].click(); // Reset til Estimate mode
+      updateAll();
+    });
+  }
+
+  const btnDownload = container.querySelector('.js-download-btn');
+  if (btnDownload) {
+    btnDownload.addEventListener('click', () => {
+      if (typeof html2canvas !== 'undefined') {
+        html2canvas(container, { scale: 2, backgroundColor: '#ffffff' }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = 'powerprofil-roning.png';
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+    });
+  }
+
+  loadState();
+  if (!bTimeM.value) { bTimeM.value = '7'; bTimeS.value = '15'; syncBaseline('time'); }
+  else { updateAll(); }
+
+  window.addEventListener('resize', () => {
+    if (bWatt.value) updateAll();
+  });
+});
+</script>
+
+<h2 id="hvad-betyder-tallene-i-powerprofilen-for-roning">Hvad betyder tallene i powerprofilen for roning?</h2>
+
+<p>Ud fra analysen af eliteroerne viste Kurt Jensens data følgende faste sammenhæng mellem den intensitet, roerne kunne yde på de forskellige distancer:</p>
+
+<ul>
+  <li><strong>10 sekunder <em>all out</em> sprint:</strong> Gennemsnitlig effekt lå omkring <strong>175%</strong> af de gennemsnitlige Watt for 2k-testen.</li>
+  <li><strong>60 sekunder <em>all out</em>:</strong> Omkring <strong>153%</strong> af 2k-testen.</li>
+  <li><strong>2k testen:</strong> Basislinjen (<strong>100%</strong>).</li>
+  <li><strong>6k testen:</strong> Omkring <strong>85%</strong> af 2k-testen.</li>
+  <li><strong>60 minutters “Hour of Power”:</strong> Omkring <strong>76%</strong> af 2k-testens gennemsnitlige watt.</li>
+</ul>
+
+<p>I en klassisk XY-graf med tid ud ad X-aksen og procent af 2K-watt op ad Y-aksen ser det således ud:</p>
+
+<figure class="">
+  <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/ergrowing.com/power-profile-ae2e9344.png" srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/ergrowing.com/power-profile-ae2e9344.png 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/ergrowing.com/power-profile-ae2e9344.png 1600w" sizes="(max-width: 800px) 100vw, 800px" alt="Powerprofil for roere baseret på Kurt Jensens Data. Kilde: [Kurt Jensen](https://ergrowing.com/2k-erg-power-profile-calculator/)." loading="lazy" decoding="async" /><figcaption>
+      <a href="https://ergrowing.com/wp-content/uploads/2012/01/power-profile.png" rel="nofollow noopener">📷</a>
+
+    </figcaption></figure>
+
+<h2 id="sådan-analyserer-du-din-egen-powerprofil">Sådan analyserer du din egen powerprofil</h2>
+
+<p>Det helt store potentiale opstår, når du bruger dashboardet til at plotte <em>dine egne</em> testtider ind.</p>
+
+<p><strong>Er dine sprint-tider (10s og 60s) for langsomme i forhold til kurven?</strong>
+Så mangler du rå muskelstyrke, eksplosivitet og anaerob laktattolerance. Ligger dit tyngdepunkt her, bør den fremtidige træning suppleres med tung styrketræning og eksplosive, korte intervaller (fx 15 x 30 sekunders all-out roning).</p>
+
+<p><strong>Ligger dine lange distancer (6k og 60 min) under målet?</strong>
+Dette er det klassiske problem for mange tunge, stærke roere. Du har muskelkraften (og måske en fin 2K-tid), men du “syrer til” og kan ikke fjerne affaldsstofferne hurtigt nok over tid. Løsningen her er at opbygge en langt stærkere aerob motor gennem mange timers lang, stabil zone 1 og 2 roning.</p>
+
+<h2 id="hvad-er-ugetesten-i-roning">Hvad er ugetesten i roning?</h2>
+
+<p>Ugetesten er en komprimeret <a href="/kondital-roning/">test-protokol til roning</a>, hvor du kortlægger både din anaerobe og aerobe ydeevne på blot én uge. Testen placeres typisk på følgende måde henover træningsugen:</p>
+
+<ul>
+  <li><strong>1. dag:</strong> 6 km (Test af den primære aerobe kapacitet / anaerob tærskel)</li>
+  <li><strong>2. dag:</strong> 2 km (Basislinje-test, relateret til VO2max)</li>
+  <li><strong>3. dag:</strong> 3 x 100 meter + 1 x 1 minut (Test af det alaktacide og laktacide anaerobe system)</li>
+  <li><strong>4. dag:</strong> 60 minutter (Test af den basale udholdenhed. <em>For U19 roere er det ofte justeret til 40 minutter</em>).</li>
+</ul>
+
+<p>For at lave testen skal du blot bruge romaskinen. Maskinens indbyggede monitor måler de præcise gennemsnits-watt, som du bagefter taster ind i dashboardet her på siden.</p>
+
+<h2 id="hvordan-forbedrer-jeg-mit-resultat-i-ugetesten">Hvordan forbedrer jeg mit resultat i ugetesten?</h2>
+
+<p>Når Ugetesten har afsløret din svaghed, skal træningen tilpasses. Vil du gerne i <a href="/kondition/">bedre kondition</a> generelt, eller vil du forskyde din mælkesyretærskel?</p>
+
+<p>Det nationale ro-miljø har stærke traditioner for veltilrettelagte, periodiserede træningsprogrammer. Kurt Jensen har deltaget i udformningen af meget materiale, herunder glimrende oversigter om træningsplanlægning for maskinroere (se <a href="http://www.redking.me.uk/sport/rowing/training/c2_training_v2.pdf">redking.me.uk C2 Training</a>).</p>
+
+<p>Du kan også finde stor inspiration i vores egen samling af de mest klassiske og effektive <a href="/artikel/traeningsprogrammer-intervaller-roning/">rointervaller til romaskine</a>.</p>
+
+<hr />
+
+<h2 id="faq-om-powerprofil-og-ugetesten">FAQ om Powerprofil og Ugetesten</h2>
+
+<details class="faq">
+<summary><h3>Hvad betyder det, hvis mine resultater på 6k og 60 minutter ligger under powerprofilens mål?</h3></summary>
+<p>Hvis du ikke kan ramme 85% på din 6k eller 76% på 60 minutter, betyder det, at din aerobe udholdenhed er din begrænsende faktor. Du mangler evnen til at bortskaffe mælkesyre over længere tid, og du bør fokusere mere på lang, rolig steady-state træning (zone 1-2).</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvad betyder det, hvis mine sprint-resultater (10s og 60s) er lavere end profilen?</h3></summary>
+<p>Hvis du rammer målene fint på de lange distancer, men falder under målwatt på dine 10- og 60 sekunders tests, mangler du eksplosivitet og anaerob kapacitet. Træningen bør suppleres med tung styrketræning (squat, dødløft) og ultrakorte, all-out powerintervaller på romaskinen.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Skal jeg ro testene på vandet eller romaskinen?</h3></summary>
+<p>Powerprofilen og Ugetesten fra Kurt Jensen er udelukkende udviklet og valideret på roergometer (typisk Concept2). Vind, vejr og vandmodstand gør det umuligt at måle en pålidelig effekt-profil i en båd.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad betyder det, hvis mine resultater på 6k og 60 minutter ligger under powerprofilens mål?","acceptedAnswer":{"@type":"Answer","text":"Hvis du ikke kan ramme 85% på din 6k eller 76% på 60 minutter, betyder det, at din aerobe udholdenhed er din begrænsende faktor. Du mangler evnen til at bortskaffe mælkesyre over længere tid, og du bør fokusere mere på lang, rolig steady-state træning (zone 1-2).\n"}},{"@type":"Question","name":"Hvad betyder det, hvis mine sprint-resultater (10s og 60s) er lavere end profilen?","acceptedAnswer":{"@type":"Answer","text":"Hvis du rammer målene fint på de lange distancer, men falder under målwatt på dine 10- og 60 sekunders tests, mangler du eksplosivitet og anaerob kapacitet. Træningen bør suppleres med tung styrketræning (squat, dødløft) og ultrakorte, all-out powerintervaller på romaskinen.\n"}},{"@type":"Question","name":"Skal jeg ro testene på vandet eller romaskinen?","acceptedAnswer":{"@type":"Answer","text":"Powerprofilen og Ugetesten fra Kurt Jensen er udelukkende udviklet og valideret på roergometer (typisk Concept2). Vind, vejr og vandmodstand gør det umuligt at måle en pålidelig effekt-profil i en båd.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Jensen, K. (2016). <em>Aldersrelateret Træning i Roning (ATRO)</em>. Dansk Forening for Rosport &amp; Team Danmark.</li>
+    <li>Erg Rowing (2020). <em>2K Erg Power Profile Calculator</em>. ErgRowing.com. Hentet fra: <a href="https://ergrowing.com/2k-erg-power-profile-calculator/">ergrowing.com</a></li>
+    <li>Jensen, K. (2000). <em>Fysiologiske krav og testning i roning</em>. Team Danmark Fysiologisk Testcenter.</li>
+    <li>Seiler, S. (2010). <em>What is best practice for training intensity and duration distribution in endurance athletes?</em> International Journal of Sports Physiology and Performance.</li>
+  </ul>
+
+</details>
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/roning-powerprofil/#article",
+    "name": "Powerprofil i roning: Beregn din powerkurve på romaskine",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "10"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">10</span> stemmer. Gennemsnit: <span id="rating_average">4.6</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+<figure class=" hidden">
+  <img src="/assets/images/pinterest-hide-mini-image.png"
+       alt="Powerprofil i roning: Beregn din powerkurve på romaskine"
+       data-pin-media="https://www.motionsplan.dk/assets/images/pinterest/generated/roning-powerprofil.jpg"
+       data-pin-description="De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve kan se ud i roning og hvordan du tester den på romaskine. #test #roning #rotest #kondition"
+        loading="lazy">
+  
+</figure>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#kondition" class="page__taxonomy-item" rel="tag">kondition</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#roning" class="page__taxonomy-item" rel="tag">roning</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#rotest" class="page__taxonomy-item" rel="tag">rotest</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#test" class="page__taxonomy-item" rel="tag">test</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#roning" class="page__taxonomy-item" rel="tag">Roning</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#tr%C3%A6ning" class="page__taxonomy-item" rel="tag">Træning</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-08-16">16. Aug, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/roning-trappetest/" class="pagination--pager" title="Trappetest i roning: Test din maksimale præstation">Forrige</a>
+    
+    
+      <a href="/hoejdetraening/" class="pagination--pager" title="Højdetræning: Hvordan virker det at træne i højderne?">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hånd-øje-koordination: Mål og træn din visuelt-motoriske præcision
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-stopwatch" aria-hidden="true" title="Test"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Sportsvision</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/haand-oeje-koordination/" rel="permalink">Hånd-øje-koordination: Mål og træn din visuelt-motoriske præcision
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-09-02T00:00:00+00:00">2. sep, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Hvor hurtigt og præcist omsætter din krop det, dine øjne ser? Test din hånd-øje-koordination med vores interaktive Alternate Wall Toss beregner.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1617339860632-f53c5b5dce4d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sports Vision: Træn dine øjne og reager hurtigere i sport
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Træning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/sportsvision/" rel="permalink">Sports Vision: Træn dine øjne og reager hurtigere i sport
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-09-01T00:00:00+00:00">1. sep, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Synet styrer over 80 % af dine handlinger i sport. Brug vores interaktive dashboard til at træne dine øjnes færdigheder hver uge.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1546188994-07c34f6e5e1b?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Smooth Pursuit og visuel tracking: Følg bolden skarpt i luften
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Sportsvision</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/smooth-pursuit-synstraening/" rel="permalink">Smooth Pursuit og visuel tracking: Følg bolden skarpt i luften
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-09-01T00:00:00+00:00">1. sep, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Smooth pursuit er øjets evne til jævnt at følge objekter i bevægelse. Træn din visuelle tracking, så du aldrig mister bolden af syne.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1485740112426-0c2549fa8c86?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Samsyn og dybdesyn: Bedøm afstande og time dine handlinger
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Sportsvision</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/samsyn-dybdesyn-synstraening/" rel="permalink">Samsyn og dybdesyn: Bedøm afstande og time dine handlinger
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-09-01T00:00:00+00:00">1. sep, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Samsyn og dybdesyn lader dig bedømme afstande i 3D. Træn øjnenes samarbejde, så du tager de rigtige beslutninger i kampsituationer.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>

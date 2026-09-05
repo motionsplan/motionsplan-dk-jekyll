@@ -1,0 +1,2804 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Pulszoneberegner: Find dine pulszoner (maxpuls, HRR &amp; LT2)</title>
+<meta name="description" content="Beregn dine pulszoner ud fra Maxpuls, Karvonen (pulsreserve) eller Laktattærskel (LTHR). Få præcise træningszoner til løb, cykling og pulstræning her.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="Pulszoneberegner: Find dine pulszoner (maxpuls, HRR &amp; LT2)">
+<meta property="og:url" content="https://www.motionsplan.dk/pulszoner-beregner/">
+<meta property="og:description" content="Beregn dine pulszoner ud fra Maxpuls, Karvonen (pulsreserve) eller Laktattærskel (LTHR). Få præcise træningszoner til løb, cykling og pulstræning her.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DPulszoneberegner%3A+Find+dine+pulszoner+%28maxpuls%2C+HRR+%26+LT2%29%26excerpt%3DBeregn+dine+pulszoner+ud+fra+Maxpuls%2C+Karvonen+%28pulsreserve%29+eller+Laktatt%C3%A6rskel+%28LTHR%29.+F%C3%A5+pr%C3%A6cise+tr%C3%A6ningszoner+til+l%C3%B8b%2C+cykling+og+pulstr%C3%A6ning+her.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1609096458733-95b38583ac4e.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D24.+Jul+2026%26domain%3Dwww.motionsplan.dk%26badge%3D%26layout%3D2%26v%3D1784851200/opengraph/">
+  <meta property="og:image:alt" content="Pulszoneberegner: Find dine pulszoner (maxpuls, HRR &amp; LT2)">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://www.motionsplan.dk/assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="Pulszoneberegner: Find dine pulszoner (maxpuls, HRR &amp; LT2)">
+  <meta name="twitter:description" content="Beregn dine pulszoner ud fra Maxpuls, Karvonen (pulsreserve) eller Laktattærskel (LTHR). Få præcise træningszoner til løb, cykling og pulstræning her.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/pulszoner-beregner/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DPulszoneberegner%3A+Find+dine+pulszoner+%28maxpuls%2C+HRR+%26+LT2%29%26excerpt%3DBeregn+dine+pulszoner+ud+fra+Maxpuls%2C+Karvonen+%28pulsreserve%29+eller+Laktatt%C3%A6rskel+%28LTHR%29.+F%C3%A5+pr%C3%A6cise+tr%C3%A6ningszoner+til+l%C3%B8b%2C+cykling+og+pulstr%C3%A6ning+her.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1609096458733-95b38583ac4e.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D24.+Jul+2026%26domain%3Dwww.motionsplan.dk%26badge%3D%26layout%3D2%26v%3D1784851200/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2019-10-31T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-07-24T00:00:00+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/pulszoner-beregner/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/pulszoner-beregner/#webpage",
+      "name": "Pulszoneberegner: Find dine pulszoner (maxpuls, HRR &amp; LT2)",
+      "url": "https://www.motionsplan.dk/pulszoner-beregner/",
+      "description": "Beregn dine pulszoner ud fra Maxpuls, Karvonen (pulsreserve) eller Laktattærskel (LTHR). Få præcise træningszoner til løb, cykling og pulstræning her.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2019-10-31T00:00:00+00:00",
+      "dateModified": "2026-07-24T00:00:00+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/pulszoner-beregner/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/pulszoner-beregner/#article",
+        "inLanguage": "da",
+        "name": "Pulszoneberegner: Beregn pulszoner fra maxpuls, Karvonen og LTHR",
+        "headline": "Pulszoneberegner: Find dine pulszoner (maxpuls, HRR &amp; LT2)",
+        "keywords": "pulszoneberegner,karvonen,laktattærskel,maxpuls,lthr,pulstræning,kondition,løb",
+        "description": "Beregn dine personlige pulszoner nemt og præcist. Vælg mellem Maxpuls, Karvonen-formlen (pulsreserve) eller Laktattærskel (LTHR) og få fuld kontrol over din pulstræning.",
+        "articleBody": "Pulszoner er opdelinger af din puls, som bruges til præcist at styre intensiteten i din træning. Ved at kende dine personlige træningszoner kan du ramme det helt rigtige fysiologiske energisystem i din pulstræning — uanset om målet er bedre udholdenhed, fedtforbrænding eller en højere VO₂max.\n\nMed denne samlede pulszoneberegner kan du udregne dine personlige træningszoner baseret på enten Maxpuls, Pulsreserve (Karvonen) eller din Laktattærskel (LTHR / Anaerob tærskel).\n\nUanset om du træner efter en simpel 3-zone model (polariseret træning) eller en 5–7 zone model (Garmin, Coggan, Joe Friel), hjælper beregneren dig med at tilpasse intensiteten.\n\n Hop direkte til beregneren\n\n\n\nPulszone- &amp; Pulsreserve Beregner\n\n\n\n\n  \n  \n  \n    \n      Beregn dine pulszoner\n      \n        Beregn dine personlige trænervinduer og pulszoner.\n      \n    \n    \n  \n\n  \n    \n    \n    \n      i\n\n      \n      \n        ✕\n        \n      \n\n      \n        1. Vælg dit datagrundlag\n      \n\n      \n      \n        \n        \n          \n            Basis\n            ✓\n          \n          \n            Procent af Maxpuls\n            Kan udregnes eller testes\n          \n        \n\n        \n        \n          \n            Bedre\n            ✓\n          \n          \n            Pulsreserven (Karvonen)\n            Maxpuls og hvilepuls\n          \n        \n\n        \n        \n          \n            ⭐ Bedst\n            ✓\n          \n          \n            Laktattærskel (LTHR)\n            LT2 (&amp; LT1) - Kræver test\n          \n        \n      \n\n      \n      \n        \n        \n        \n          ✕\n          🪄 Estimer din Maxpuls fra alder\n          \n          \n            \n              \n            \n            \n              Indsæt 180 bpm ↵\n            \n          \n        \n\n        \n          \n          \n            \n              Maxpuls\n              🪄 Estimer\n            \n            \n          \n\n          \n          \n            \n              Hvilepuls\n            \n            \n          \n\n          \n          \n            \n              Tærskelpuls (LT2)\n            \n            \n          \n\n          \n          \n            \n              Aerob tærskel (LT1) (valgfri)\n            \n            \n          \n        \n      \n    \n\n    \n    \n      \n        2. Vælg zonetype\n      \n      \n      \n        \n        \n          \n            \n              \n              \n              \n            \n            ✓\n          \n          3-Zone Model\n          Tærskel &amp; Polariseret (LT1 / LT2)\n        \n\n        \n        \n          \n            \n              \n              \n              \n              \n              \n            \n            ✓\n          \n          5–7 Zone Model\n          Garmin, Joe Friel, Coggan &amp; OLT\n        \n      \n    \n\n    \n    \n      \n        3. Vælg formel\n      \n\n      \n      \n        \n      \n\n      \n      \n        \n          \n        \n      \n    \n\n    \n    \n      \n      \n      \n        ✕\n        \n          \n        \n      \n\n      \n        \n          Dine Personlige Pulszoner\n        \n        \n        \n          Maxpuls: 190 bpm\n        \n      \n\n      \n      \n        \n      \n\n    \n\n    \n    \n      📸 Tag et billede\n      🗑️\n    \n\n  \n\n\n\n\nBegreber: Få styr på fysiologien\n\nFør du vælger datagrundlag i beregneren, er det en god idé at have styr på de fysiologiske grundbegreber:\n\n\n  Hvilepuls ($HR_{rest}$)\n  Hvilepulsen er antallet af hjerteslag pr. minut, når du slapper fuldstændigt af. Den måles bedst om morgenen inden du står op. En lavere hvilepuls er ofte et tegn på et større hjerte (slagvolumen) og en bedre grundkondition.\n  Maxpuls ($HR_{max}$)\n  Maxpulsen er det absolut højeste antal slag, dit hjerte kan præstere under maksimal belastning. Maxpulsen falder naturligt med alderen og bør måles ved en maxpulstest.\n  Pulsreserve ($HRR$)\n  Pulsreserven er spændet mellem din hvilepuls og din maxpuls ($HRR = HR_{\\text{max}} - HR_{\\text{hvile}}$). Den angiver det reelle fysiologiske arbejdsrum, dit hjerte har til rådighed. Lær mere om pulsreserven.\n  Aerob tærskel (LT1)\n  Den intensitet, hvor mælkesyreniveauet i blodet begynder at stige let over hvileniveau, men hvor kroppen stadig fuldt ud kan omsætte fedt og ilt uden at ophobe syre. Læs mere om den aerobe tærskel.\n  Anaerob tærskel / Laktattærskel (LT2 / LTHR)\n  Den intensitet, hvor kroppen producerer mælkesyre i samme hastighed, som den kan nå at fjerne den (maximal steady state). Overskrides LT2, ophobes syren hurtigt, og du udtrættes. Læs mere om den anaerobe tærskel.\n\n\n\n\n1. Datagrundlag: Hvilken metode skal du vælge?\n\nBeregneren giver dig mulighed for at vælge mellem tre fysiologiske datagrundlag:\n\nBasis: Kun maxpuls (% HRmax)\n\nDen enkleste metode til at komme i gang. Kræver kun, at du kender eller har testet din maxpuls. Metoden tager dog ikke højde for din hvilepuls og din aktuelle form. Det smarte ved maxpulsen er, at du kan estimere den ud fra din alder direkte i beregneren eller via vores maxpuls-beregner.\n\nJack Daniels anvender bl.a. relationer til maxpuls til sine løbeformer, om end tærsklen ofte er lavere hos begyndere end hos øvede løbere.\n\nBedre: Maxpuls + Hvilepuls (Karvonen / Pulsreserve)\n\nKarvonen-metoden inddrager din hvilepuls og beregner zonerne ud fra din pulsreserve ($HRR = HR_{\\text{max}} - HR_{\\text{hvile}}$). Dette giver et mere præcist billede af din reelle kropslige belastning.\n\n\n  \n      Pulsreserven er spændet mellem din hvilepuls og din maksimale puls.\n\n    \n\nHvorfor er Karvonen-formlen bedre end ren maxpuls?\n\nKlassisk beregning ud fra% af maxpuls tager ikke højde for din nuværende form. Hvis two personer begge har en maxpuls på 190 bpm, vil en ren maxpuls-beregning give dem nøjagtig de samme pulszoner — uanset om den ene er eliteløber og den anden er utrænet:\n\n\n  Person A (Veltrænet): Maxpuls 190, Hvilepuls 40 $\\rightarrow$ Pulsreserve = 150 bpm.\n70% intensitet = $(150 \\times 0{,}70) + 40 = \\mathbf{145 \\text{ bpm}}$\n  Person B (Utrænet): Maxpuls 190, Hvilepuls 70 $\\rightarrow$ Pulsreserve = 120 bpm.\n70% intensitet = $(120 \\times 0{,}70) + 70 = \\mathbf{154 \\text{ bpm}}$\n\n\nMed ren maxpuls ville begge have fået $190 \\times 0{,}70 = 133 \\text{ bpm}$, hvilket for den veltrænede person A ville svare til en næsten virkningsløs gåtur.\n\nFormlen for Karvonen lyder:\n\n\\[HR_{\\text{mål}} = \\left((HR_{\\text{max}} - HR_{\\text{hvile}}) \\times \\text{intensitet}\\%\\right) + HR_{\\text{hvile}}\\]\n\nBedst: Tærskelpuls (LTHR / LT2)\n\nJoe Friel baserer sine træningszoner på pulsen ved laktattærsklen (LTHR). Ved at beregne zonerne ud fra LT2 og kende dit aerobe vindue ($LTHR - HR_{\\text{hvile}}$), kan du ramme tærskelintervaller og tempo med kirurgisk præcision.\n\n\n  \n      Det aerobe vindue angiver spændet fra din hvilepuls op til din anaerobe tærskel.\n\n    \n\n\n\n2. Valg af zonemodel: 3-Zone vs. 5–7 Zone Modeller\n\n3-Zone Modellen (LT1 &amp; LT2)\nOpdeler træningen direkte ud fra de to fysiologiske tærskler: LT1 (den aerobe tærskel) og LT2 (den anaerobe tærskel / syretærskel). Modellen benyttes i høj grad til polariseret træning:\n\n  Zone 1 (Lav / Aerob): Under LT1. Rolige ture, restitution og opbygning af kapillærnet.\n  Zone 2 (Moderat / Tærskel): Mellem LT1 og LT2. Tempoløb, maraton-tempo og kontrollerede tærskelintervaller.\n  Zone 3 (Høj / Anaerob): Over LT2. VO₂max-intervaller og hård anaerob belastning.\n\n\n5–7 Zone Modellerne (Coggan &amp; Joe Friel)\nAndrew Coggan opererer med 7 forskellige træningszoner, som giver en finere opdeling af energisystemerne i strukturerede træningsprogrammer:\n\n\n  \n    \n      Zone\n      Navn\n      Beskrivelse &amp; Energisystem\n      Vejrtrækning &amp; RPE\n    \n  \n  \n    \n      1\n      Restitution\n      Ren aerob / Meget lav belastning\n      Ubesværet samtale (RPE 1-2)\n    \n    \n      2\n      Udholdenhed\n      Aerob fedtforbrænding / Basistræning\n      Kan tale i hele sætninger (RPE 3-4)\n    \n    \n      3\n      Tempo\n      Hovedsageligt aerob / Aerob tærskel (LT1)\n      Anstrengt samtale (RPE 5-6)\n    \n    \n      4\n      Anaerob tærskel\n      Syretærskel (LT2) / Tærskelintervaller\n      Korte sætninger / Sætninger knækker (RPE 7-8)\n    \n    \n      5\n      VO₂max\n      Maksimal iltoptagelse / Hård aerob\n      Enkelte ord / Meget tung (RPE 9)\n    \n    \n      6\n      Anaerob kapacitet\n      Hovedsageligt anaerob / Korte intervaller\n      Kan ikke tale (RPE 10)\n    \n    \n      7\n      Neuromuskulær power\n      Ren anaerob / Maksimal sprint (under 10 sek.)\n      All-out effort\n    \n  \n\n\n\n\n3. Find dine egne pulszoner med tests\n\nGenerelle formler er et stærkt udgangspunkt, men i konditionstræning opnås de bedste resultater, hvis pulszonerne tilpasses individuelt ud fra tre nøgleelementer:\n\n  Maksimal iltoptagelse / VO₂max (Zone 5)\n  Anaerob tærskel / Tærskeltræning (Zone 4)\n  Udholdenhed og hjertekapacitet / Slagvolumen (Zone 1–2)\n\n\nTests til at finde den anaerobe tærskel (LT2 / LTHR)\n\n\n  30-minutters felttest: McGehee et al. (2005) sammenlignede VDOT, 3200 meter, 30 minutter og Conconi-test. De konkluderede, at en 30-minutters enkeltstartstest er den bedste felttest til at bestemme den anaerobe tærskel. Din gennemsnitspuls for de sidste 20 minutter af testen svarer meget tæt til din LTHR.\n  Test på dit pulsur: Mange moderne sportsure (fx Garmin) tilbyder en automatisk guided laktattærskeltest.\n  Laboratorietest: Du kan lade dig teste i et fysiologisk testcenter med blodmåling af mælkesyre. Læs mere om iltoptagelsestests i laboratorium.\n\n\n\n\n    \n\n\n    \n\n\n    \n\n    Eksempel på en guidet laktattærskeltest direkte på et Garmin-ur.\n\n  \n\n\nTests til at finde den aerobe tærskel (LT1 / Udholdenhed)\n\n\n  Cardiac Output træning: Joel Jamieson anbefaler roligt løb/cykling i pulsintervallet 120–150 bpm for specifikt at stimulere hjertets slagvolumen.\n  Næse-trækningstest: Løb i et tempo, hvor du lige nøjagtigt kan opretholde iltoptagelsen ved udelukkende at trække vejret gennem næsen. Når du bliver nødt til at åbne munden for at trække vejret, rammer du omkring din aerobe tærskel (LT1).\n\n\nLæs mere: Dyk ned i teorien om den aerobe tærskel og Zone 2 træning\n\n\n\n🔬 Visuel sammenligning: Se forskellen på de tre beregningsmodeller\n\nEt pulsslag på 145 bpm kan være rolig restitution i én model og tærskeltræning i en anden. Prøv sammenligneren herunder og se, hvordan zonerne rykker sig fysiologisk, når du skifter beregningsmetode for den samme person.\n\n\n\n  \n  \n    🫀 Sammenligning af pulszone-modeller\n    Indtast dine nøgletal og se direkte, hvordan zonerne flytter sig på tværs af modellerne.\n  \n\n  \n  \n    \n      Maxpuls\n      \n        \n        bpm\n      \n    \n\n    \n      Laktattærskel\n      \n        \n        bpm\n      \n    \n\n    \n      Hvilepuls\n      \n        \n        bpm\n      \n    \n\n    \n      Alder (MAF)\n      \n        \n        år\n      \n    \n  \n\n  \n  \n    \n    \n    \n\n    \n    \n      \n        1. Maxpuls (%)\n        Upræcis standard\n      \n      \n    \n\n    \n    \n      \n        2. Karvonen (HRR)\n        Maxpuls + Hvilepuls\n      \n      \n    \n\n    \n    \n      \n        3. Tærskel (LTHR)\n        Laktattærskel (LT2)\n      \n      \n    \n\n    \n    \n      \n        4. Maffetone 180\n        Aerobt baseloft\n      \n      \n    \n\n  \n\n  \n  \n    💡\n    \n  \n\n\n\n\n\n\n\nHvorfor rykker zonerne sig så voldsomt?\n\nHvis vi tager udgangspunkt i en atlet med 200 bpm i maxpuls, 180 bpm i laktattærskel og 50 bpm i hvilepuls, opstår der tre vidt forskellige træningsrammer:\n\n\n  % af Maxpuls (Den enkle): Sætter Zone 2 til 120–140 bpm. Metoden ignorerer hvilepulsen og behandler en veltrænet atlet nøjagtigt som en utrænet begynder. For en atlet i god form vil dette tempo føles som en næsten virkningsløs gåtur.\n  Karvonen / Pulsreserve (Den bedre): Inddrager det fysiologiske arbejdsrum ($HRR = 150 \\text{ bpm}$) og hæver Zone 2 til 140–155 bpm. Det matcher kroppens reelle belastning langt bedre og sikrer en god aerob baseopbygning.\n  Laktattærskel / LTHR (Guldstandarden): Forankrer zonerne direkte omkring syretærsklen ($LT2$) og sætter Zone 2 til 153–160 bpm. Det giver den højeste fysiologiske præcision, fordi zonerne opbygges ud fra kroppens faktiske mælkesyre-håndtering i stedet for en aldersberegnet teoretisk maxpuls.\n\n\n\n\nAndre beskrivelser af pulstræningszoner\n\nEn anden udbredt angivelse af de fysiologiske zoner i forhold til HRmax kan ses i denne grafik:\n\n\n  \n      Kilde: vic.tri-alliance.com. 📷\n\n    \n\n\n\n\n  🎯 Få 100% præcise pulszoner i stedet for gæt\nFormler baseret på maxpuls rammer ofte forkert. Ved at udføre en blodlaktattest måler du direkte på blodets kemi og finder de nøjagtige pulsslag for din aerobe (Zone 2-loft) og anaerobe tærskel.\n👉 Brug laktattesten til at indstille dine personlige pulszoner →\n\n\n\n\nNæste skridt i din træning\n\nNår du har styr på dine pulszoner, kan du dykke dybere ned i fysiologien bag:\n\n  🏃‍♂️ Komplet guide til pulstræning og kredsløbsfysiologi\n  🫀 SÅDAN tester du din maxpuls korrekt\n  💤 Hvad fortæller din hvilepuls om din sundhed og form?\n  📏 Lær mere om Heart Rate Reserve (Pulsreserven)\n\n\n\n\nOfte stillede spørgsmål\n\n\nHar Jack Daniels pulszoner i sit træningssystem?\nJack Daniels baserer primært sine træningsprogrammer på løbehastigheder (VDOT). Du kan udregne hans foreslåede løbehastigheder i Jack Daniels løbeberegner. De enkelte løbeformer hos Daniels er dog også forbundet med specifikke pulsværdier i forhold til den maksimale puls.\n\n\n\n\nHvilken metode til pulszoner er mest præcis?\nLaktattærsklen (LTHR / LT2) er den mest præcise metode til at styre din træningsintensitet, da den tager direkte udgangspunkt i din krops fysiologiske syretærskel. Karvonen-metoden (pulsreserve) er næstbedst, mens ren procent af maxpuls er den enkleste, men mindst individuelle metode.\n\n\n\n\n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DPulszoneberegner%3A+Find+dine+pulszoner+%28maxpuls%2C+HRR+%26+LT2%29%26excerpt%3DBeregn+dine+pulszoner+ud+fra+Maxpuls%2C+Karvonen+%28pulsreserve%29+eller+Laktatt%C3%A6rskel+%28LTHR%29.+F%C3%A5+pr%C3%A6cise+tr%C3%A6ningszoner+til+l%C3%B8b%2C+cykling+og+pulstr%C3%A6ning+her.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1609096458733-95b38583ac4e.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D24.+Jul+2026%26domain%3Dwww.motionsplan.dk%26badge%3D%26layout%3D2%26v%3D1784851200/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/pulszoner-beregner/#webpage"
+        },
+        "datePublished": "2019-10-31T00:00:00+00:00",
+        "dateModified": "2026-07-24T00:00:00+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/pulszoner-beregner/#pulszone-pulsreserve-beregner",
+          "name": "Pulszone- & Pulsreserve Beregner",
+          "description": "Beregn dine personlige træningszoner ud fra maxpuls, hvilepuls (Karvonen/pulsreserve) eller laktattærskel (LTHR).",
+          "applicationCategory": ["Kondition"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/pulszoner-beregner/#webpage"
+          }
+        }
+        
+      
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single wide">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=""
+>
+  
+    
+      
+      
+
+      <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg"
+           srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg 1600w"
+           sizes="100vw"
+           alt="Pulszoneberegner: Beregn pulszoner fra maxpuls, Karvonen og LTHR"
+           class="page__hero-bg-img"
+           fetchpriority="high"
+           decoding="async">
+    
+  
+
+  
+    <div class="page__hero-filter" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));"></div>
+  
+
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Pulszoneberegner: Beregn pulszoner fra maxpuls, Karvonen og LTHR
+
+        
+      </h1>
+      
+        <p class="page__lead">Beregn dine personlige pulszoner nemt og præcist. Vælg mellem Maxpuls, Karvonen-formlen (pulsreserve) eller Laktattærskel (LTHR) og få fuld kontrol over din pulstræning.
+</p>
+      
+      
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-07-24T00:00:00+00:00">24. jul, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          8 min læsning
+        
+      </span>
+    
+  </p>
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Pulszoneberegner: Find dine personlige træningszoner 🫀
+</span>
+  
+</div>
+
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/kondition/" itemprop="item"><span itemprop="name">Kondition</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/pulstraening/" itemprop="item"><span itemprop="name">Pulstræning</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">Pulszoneberegner:...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Pulszoneberegner: Beregn pulszoner fra maxpuls, Karvonen og LTHR">
+    <meta itemprop="description" content="Beregn dine personlige pulszoner nemt og præcist. Vælg mellem Maxpuls, Karvonen-formlen (pulsreserve) eller Laktattærskel (LTHR) og få fuld kontrol over din pulstræning.">
+    <meta itemprop="datePublished" content="2019-10-31T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-07-24T00:00:00+00:00">
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <details class="collapsible-toc">
+            <summary class="nav__title">
+              <i class="fas fa-file-alt"></i> På denne side
+            </summary>
+            <nav class="toc">
+            <ul class="toc__menu"><li><a href="#calculator">Pulszone- &amp; Pulsreserve Beregner</a></li><li><a href="#begreber-få-styr-på-fysiologien">Begreber: Få styr på fysiologien</a></li><li><a href="#1-datagrundlag-hvilken-metode-skal-du-vælge">1. Datagrundlag: Hvilken metode skal du vælge?</a><ul><li><a href="#basis-kun-maxpuls--hrmax">Basis: Kun maxpuls (% HRmax)</a></li><li><a href="#bedre-maxpuls--hvilepuls-karvonen--pulsreserve">Bedre: Maxpuls + Hvilepuls (Karvonen / Pulsreserve)</a><ul><li><a href="#hvorfor-er-karvonen-formlen-bedre-end-ren-maxpuls">Hvorfor er Karvonen-formlen bedre end ren maxpuls?</a></li></ul></li><li><a href="#bedst-tærskelpuls-lthr--lt2">Bedst: Tærskelpuls (LTHR / LT2)</a></li></ul></li><li><a href="#2-valg-af-zonemodel-3-zone-vs-57-zone-modeller">2. Valg af zonemodel: 3-Zone vs. 5–7 Zone Modeller</a><ul><li><a href="#3-zone-modellen-lt1--lt2">3-Zone Modellen (LT1 &amp; LT2)</a></li><li><a href="#57-zone-modellerne-coggan--joe-friel">5–7 Zone Modellerne (Coggan &amp; Joe Friel)</a></li></ul></li><li><a href="#3-find-dine-egne-pulszoner-med-tests">3. Find dine egne pulszoner med tests</a><ul><li><a href="#tests-til-at-finde-den-anaerobe-tærskel-lt2--lthr">Tests til at finde den anaerobe tærskel (LT2 / LTHR)</a></li><li><a href="#tests-til-at-finde-den-aerobe-tærskel-lt1--udholdenhed">Tests til at finde den aerobe tærskel (LT1 / Udholdenhed)</a></li></ul></li><li><a href="#-visuel-sammenligning-se-forskellen-på-de-tre-beregningsmodeller">🔬 Visuel sammenligning: Se forskellen på de tre beregningsmodeller</a></li><li><a href="#andre-beskrivelser-af-pulstræningszoner">Andre beskrivelser af pulstræningszoner</a></li><li><a href="#næste-skridt-i-din-træning">Næste skridt i din træning</a></li><li><a href="#ofte-stillede-spørgsmål">Ofte stillede spørgsmål</a></li></ul>
+            </nav>
+          </details>
+        
+        <p><strong>Pulszoner er opdelinger af din puls, som bruges til præcist at styre intensiteten i din træning.</strong> Ved at kende dine personlige <a href="/traeningszoner/">træningszoner</a> kan du ramme det helt rigtige fysiologiske energisystem i din <a href="/pulstraening/">pulstræning</a> — uanset om målet er bedre udholdenhed, fedtforbrænding eller en højere VO₂max.</p>
+
+<p>Med denne samlede pulszoneberegner kan du udregne dine personlige træningszoner baseret på enten <strong><a href="/test-max-puls/">Maxpuls</a></strong>, <strong>Pulsreserve (Karvonen)</strong> eller din <strong>Laktattærskel (LTHR / Anaerob tærskel)</strong>.</p>
+
+<p>Uanset om du træner efter en simpel 3-zone model (polariseret træning) eller en 5–7 zone model (Garmin, Coggan, Joe Friel), hjælper beregneren dig med at tilpasse intensiteten.</p>
+
+<p><a href="#calculator" class="btn btn--success btn--jump"><i class="fas fa-calculator"></i> Hop direkte til beregneren</a></p>
+
+<hr />
+
+<h2 id="calculator">Pulszone- &amp; Pulsreserve Beregner</h2>
+
+<style>
+  .mp-hr-input-field {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+  }
+
+  .mp-hr-section-rel {
+    position: relative !important;
+  }
+
+  /* Symmetriske Labels */
+  .mp-hr-label {
+    font-size: 0.725rem !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    height: 22px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin-bottom: 0.35rem !important;
+    white-space: nowrap !important;
+  }
+
+  .mp-hr-label .opt {
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+  }
+
+  .mp-magic-link {
+    background: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    font-size: 0.725rem !important;
+    font-weight: 800 !important;
+    color: #2563eb !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 2px !important;
+  }
+
+  .mp-magic-link:hover {
+    text-decoration: underline !important;
+  }
+
+  /* Info Button (i) */
+  .mp-panel-info-btn {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 50% !important;
+    background: #eff6ff !important;
+    color: #2563eb !important;
+    border: 1px solid #bfdbfe !important;
+    font-size: 0.775rem !important;
+    font-weight: 900 !important;
+    font-style: italic !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+  }
+
+  /* Magic Wand Popover Modal */
+  .mp-hr-magic-popover {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: #ffffff !important;
+    border-radius: 14px !important;
+    z-index: 30 !important;
+    padding: 1.15rem !important;
+    display: none;
+    flex-direction: column !important;
+    box-shadow: inset 0 0 0 2px #2563eb, 0 10px 25px rgba(0,0,0,0.1);
+  }
+
+  /* Section Info Overlay */
+  .mp-panel-info-overlay {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    background: #ffffff !important;
+    border-radius: inherit !important;
+    z-index: 20 !important;
+    padding: 1.25rem !important;
+    box-sizing: border-box !important;
+    display: none;
+    flex-direction: column !important;
+    overflow-y: auto !important;
+    box-shadow: inset 0 0 0 1px #e2e8f0;
+  }
+
+  .mp-panel-info-close {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    background: #f1f5f9 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 1rem !important;
+    font-weight: 800 !important;
+    color: #64748b !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* --- TRIN 1: DATAGRUNDLAG KNAPPER --- */
+  .mp-hr-base-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 0.85rem;
+  }
+
+  @media (max-width: 640px) {
+    .mp-hr-base-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .mp-hr-base-btn {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 0.9rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 96px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    box-sizing: border-box;
+  }
+
+  .mp-hr-base-btn:hover:not(.is-active) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+    transform: translateY(-2px);
+  }
+
+  .mp-hr-base-btn.is-active {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-hr-base-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.4rem;
+  }
+
+  .mp-hr-base-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .mp-hr-base-title {
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.25;
+  }
+
+  .mp-hr-base-btn.is-active .mp-hr-base-title {
+    color: #1e40af;
+  }
+
+  .mp-hr-base-sub {
+    font-size: 0.725rem;
+    font-weight: 600;
+    color: #64748b;
+  }
+
+  .mp-hr-check-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #e2e8f0;
+    color: #94a3b8;
+    font-size: 0.75rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+  }
+
+  .mp-hr-base-btn.is-active .mp-hr-check-icon,
+  .mp-hr-mode-card.is-active .mp-hr-check-icon,
+  .mp-hr-picker-card.is-selected .mp-hr-check-icon {
+    background: #2563eb;
+    color: #ffffff;
+  }
+
+  .mp-hr-base-badge {
+    font-size: 0.675rem;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    white-space: nowrap !important;
+  }
+
+  .mp-hr-base-badge.badge-basis {
+    background: #f1f5f9;
+    color: #475569;
+  }
+
+  .mp-hr-base-badge.badge-hrr {
+    background: #dbeafe;
+    color: #1e40af;
+  }
+
+  .mp-hr-base-badge.badge-gold {
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fde68a;
+  }
+
+  /* TRIN 2: ZONETYPE KORT */
+  .mp-hr-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .mp-hr-mode-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    position: relative;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-hr-mode-card:hover:not(.is-active) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+    transform: translateY(-2px);
+  }
+
+  .mp-hr-mode-card.is-active {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.14);
+  }
+
+  .mp-hr-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.35rem;
+  }
+
+  .mp-hr-dots-indicator {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .mp-hr-dots-indicator .dot {
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12) !important;
+  }
+
+  .mp-hr-card-heading {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.2;
+  }
+
+  .mp-hr-mode-card.is-active .mp-hr-card-heading {
+    color: #1e40af;
+  }
+
+  .mp-hr-card-sub {
+    font-size: 0.725rem;
+    font-weight: 600;
+    color: #64748b;
+    line-height: 1.3;
+  }
+
+  /* FULL-CARD FORMULA BOKS */
+  .mp-hr-auto-badge {
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 0.9rem 1.15rem;
+    margin-bottom: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.05);
+  }
+
+  .mp-hr-badge-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .mp-hr-badge-title-group {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .mp-hr-badge-title {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .mp-hr-btn-gear {
+    background: #ffffff !important;
+    border: 1px solid #93c5fd !important;
+    color: #2563eb !important;
+    font-size: 1.05rem !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 9px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .mp-hr-btn-gear:hover {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+  }
+
+  .mp-hr-rec-tag {
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #1e40af;
+    background: #dbeafe;
+    padding: 2px 7px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  /* FORMELKORT LISTE */
+  .mp-hr-picker-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-hr-picker-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-hr-picker-card:hover:not(.is-selected) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+
+  .mp-hr-picker-card.is-selected {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+  }
+
+  /* ZONE KORT */
+  .mp-hr-zone-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left-width: 6px !important;
+    border-radius: 12px;
+    padding: 0.85rem 1.1rem;
+    margin-bottom: 0.65rem;
+    transition: all 0.15s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    cursor: pointer;
+    position: relative;
+  }
+
+  .mp-hr-zone-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    transform: translateY(-1px);
+  }
+
+  .mp-hr-card-title {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .mp-hr-card-bpm-container {
+    text-align: right !important;
+    flex-shrink: 0;
+  }
+
+  .mp-hr-card-bpm {
+    font-size: 1.35rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .mp-hr-pct-sub {
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    background: rgba(0, 0, 0, 0.06);
+    padding: 2px 7px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .mp-hr-rpe-badge {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    color: #1e293b;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
+
+  .mp-hr-threshold-tag {
+    font-size: 0.725rem;
+    font-weight: 700;
+    color: #64748b;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .mp-hr-empty-state {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 12px;
+    color: #64748b;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="heart-rate-calculator" data-ui-module="heart-rate-calculator-ui" data-default-mode="hrmax" data-hide-mode-selector="false">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">Beregn dine pulszoner</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn dine personlige trænervinduer og pulszoner.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;" />
+  </div>
+
+  <div class="mp-hr-container" style="width: 100%;">
+    
+    <!-- TRIN 1: VÆLG DATAGRUNDLAG OG INDTAST TAL -->
+    <div class="mp-hr-section-rel" style="margin-bottom: 1.25rem;">
+      <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="hr_basics" title="Information om Datagrundlag">i</button>
+
+      <!-- SECTION INFO OVERLAY -->
+      <div class="js-section-info-overlay mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-info-close" title="Luk forklaring">✕</button>
+        <div class="js-info-overlay-body"></div>
+      </div>
+
+      <h4 class="js-hr-step1-title" style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.75rem 0; padding-right: 32px;">
+        1. Vælg dit datagrundlag
+      </h4>
+
+      <!-- 3 KORT-KNAPPER PÅ HVID BAGGRUND -->
+      <div class="mp-hr-base-grid js-hr-base-grid">
+        <!-- MAXPULS -->
+        <button type="button" class="mp-hr-base-btn js-hr-input-mode-btn is-active" data-input-mode="hrmax">
+          <div class="mp-hr-base-top-row">
+            <span class="mp-hr-base-badge badge-basis">Basis</span>
+            <span class="mp-hr-check-icon">✓</span>
+          </div>
+          <div class="mp-hr-base-body">
+            <span class="mp-hr-base-title">Procent af Maxpuls</span>
+            <span class="mp-hr-base-sub">Kan udregnes eller testes</span>
+          </div>
+        </button>
+
+        <!-- MAXPULS + HVILEPULS -->
+        <button type="button" class="mp-hr-base-btn js-hr-input-mode-btn" data-input-mode="hrr">
+          <div class="mp-hr-base-top-row">
+            <span class="mp-hr-base-badge badge-hrr">Bedre</span>
+            <span class="mp-hr-check-icon">✓</span>
+          </div>
+          <div class="mp-hr-base-body">
+            <span class="mp-hr-base-title">Pulsreserven (Karvonen)</span>
+            <span class="mp-hr-base-sub">Maxpuls og hvilepuls</span>
+          </div>
+        </button>
+
+        <!-- TÆRSKELPULS LT2 -->
+        <button type="button" class="mp-hr-base-btn js-hr-input-mode-btn" data-input-mode="lthr">
+          <div class="mp-hr-base-top-row">
+            <span class="mp-hr-base-badge badge-gold">⭐ Bedst</span>
+            <span class="mp-hr-check-icon">✓</span>
+          </div>
+          <div class="mp-hr-base-body">
+            <span class="mp-hr-base-title">Laktattærskel (LTHR)</span>
+            <span class="mp-hr-base-sub">LT2 (&amp; LT1) - Kræver test</span>
+          </div>
+        </button>
+      </div>
+
+      <!-- GRÅ BOKS TIL INDSTILLINGER OG INPUT FELTER -->
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; position: relative;">
+        
+        <!-- MAXPULS ESTIMERING POPOVER (Åbnes via 🪄 Estimer linket) -->
+        <div class="js-hr-magic-popover mp-hr-magic-popover">
+          <button type="button" class="mp-panel-info-close js-hr-magic-close" title="Luk estimering">✕</button>
+          <h4 style="font-size: 0.875rem; font-weight: 800; color: #1e40af; margin: 0 0 0.5rem 0;">🪄 Estimer din Maxpuls fra alder</h4>
+          
+          <div style="display: flex; gap: 0.75rem; align-items: center; margin-top: 0.5rem;">
+            <div style="flex: 1;">
+              <input type="number" min="10" max="100" class="vbt-input-mega mp-hr-input-field js-hr-est-age" value="40" placeholder="40" style="width: 100%; margin: 0;" />
+            </div>
+            <button type="button" class="js-hr-apply-est-btn" style="flex: 1.5; height: 42px; background: #2563eb; color: #ffffff; border: none; border-radius: 8px; font-size: 0.8rem; font-weight: 800; cursor: pointer; display: flex; align-items: center; justify-content: center; margin: 0; transition: background 0.15s ease;">
+              Indsæt <span class="js-hr-est-val-span" style="margin: 0 4px;">180</span> bpm ↵
+            </button>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.75rem;">
+          <!-- MAXPULS -->
+          <div class="js-hr-field-wrapper-hrmax">
+            <label class="mp-hr-label">
+              <span>Maxpuls</span>
+              <button type="button" class="js-hr-magic-btn mp-magic-link" title="Estimer din maxpuls ud fra alder">🪄 Estimer</button>
+            </label>
+            <input type="number" min="100" max="230" class="vbt-input-mega mp-hr-input-field js-hr-input" data-key="hrMax" placeholder="190" value="190" />
+          </div>
+
+          <!-- HVILEPULS -->
+          <div class="js-hr-field-wrapper-hrrest" style="display: none;">
+            <label class="mp-hr-label">
+              <span>Hvilepuls</span>
+            </label>
+            <input type="number" min="30" max="110" class="vbt-input-mega mp-hr-input-field js-hr-input" data-key="hrRest" placeholder="55" value="55" />
+          </div>
+
+          <!-- TÆRSKELPULS LT2 -->
+          <div class="js-hr-field-wrapper-lthr" style="display: none;">
+            <label class="mp-hr-label">
+              <span>Tærskelpuls (LT2)</span>
+            </label>
+            <input type="number" min="100" max="210" class="vbt-input-mega mp-hr-input-field js-hr-input" data-key="lthr" placeholder="168" value="168" />
+          </div>
+
+          <!-- AEROB TÆRSKEL LT1 -->
+          <div class="js-hr-field-wrapper-lt1" style="display: none;">
+            <label class="mp-hr-label">
+              <span>Aerob tærskel (LT1) <span class="opt">(valgfri)</span></span>
+            </label>
+            <input type="number" min="80" max="200" class="vbt-input-mega mp-hr-input-field js-hr-input" data-key="lt1" placeholder="fx 145" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRIN 2: VÆLG STRUKTUR -->
+    <div style="margin-bottom: 1rem;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.65rem;">
+        2. Vælg zonetype
+      </label>
+      
+      <div class="mp-hr-cards-grid">
+        <!-- 3-ZONE KORT -->
+        <button type="button" class="mp-hr-mode-card js-hr-mode-btn is-active" data-mode="3_zone">
+          <div class="mp-hr-card-top">
+            <div class="mp-hr-dots-indicator">
+              <span class="dot" style="background:#10b981;"></span>
+              <span class="dot" style="background:#f59e0b;"></span>
+              <span class="dot" style="background:#ef4444;"></span>
+            </div>
+            <span class="mp-hr-check-icon">✓</span>
+          </div>
+          <div class="mp-hr-card-heading">3-Zone Model</div>
+          <div class="mp-hr-card-sub">Tærskel &amp; Polariseret (LT1 / LT2)</div>
+        </button>
+
+        <!-- 5-7 ZONE KORT -->
+        <button type="button" class="mp-hr-mode-card js-hr-mode-btn" data-mode="5_zone">
+          <div class="mp-hr-card-top">
+            <div class="mp-hr-dots-indicator">
+              <span class="dot" style="background:#0284c7;"></span>
+              <span class="dot" style="background:#10b981;"></span>
+              <span class="dot" style="background:#f59e0b;"></span>
+              <span class="dot" style="background:#f97316;"></span>
+              <span class="dot" style="background:#ef4444;"></span>
+            </div>
+            <span class="mp-hr-check-icon">✓</span>
+          </div>
+          <div class="mp-hr-card-heading">5–7 Zone Model</div>
+          <div class="mp-hr-card-sub">Garmin, Joe Friel, Coggan &amp; OLT</div>
+        </button>
+      </div>
+    </div>
+
+    <!-- TRIN 3: VÆLG FORMEL -->
+    <div style="margin-bottom: 1.25rem;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+        3. Vælg formel
+      </label>
+
+      <!-- FORMELKORT FOR DEN VALGTE FORMEL -->
+      <div class="js-hr-formula-bar mp-hr-auto-badge">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+
+      <!-- FORMEL LISTE (NÅR MAN KLIKKER PÅ TANDHJULET) -->
+      <div class="js-hr-manual-dropdown-wrapper" style="display: none;">
+        <div class="js-hr-picker-container mp-hr-picker-list">
+          <!-- Genereres dynamisk i JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTATKORT OG ZONE POP-UP OVERLAY -->
+    <div class="js-hr-results-wrapper mp-hr-section-rel" style="margin-bottom: 1.25rem;">
+      
+      <!-- ZONE DETAIL POPOVER OVERLAY -->
+      <div class="js-hr-zone-popover mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-hr-zone-popover-close" title="Luk zoneinfo">✕</button>
+        <div class="js-hr-zone-popover-body" style="padding-top: 0.5rem;">
+          <!-- Indsættes dynamisk ved zoneklik -->
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem;">
+        <h4 style="font-size: 0.875rem; font-weight: 800; color: #0f172a; margin: 0;">
+          Dine Personlige Pulszoner
+        </h4>
+        <!-- DYNAMISK BASIS BADGE -->
+        <span class="js-hr-rr-badge" style="font-size: 0.725rem; font-weight: 800; color: #2563eb; background: #eff6ff; padding: 4px 10px; border-radius: 6px;">
+          Maxpuls: 190 bpm
+        </span>
+      </div>
+
+      <!-- KORTCONTAINER -->
+      <div class="js-hr-zone-card-container">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+
+    </div>
+
+    <!-- Actions -->
+    <div id="hr-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag et billede</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>
+
+<hr />
+
+<h2 id="begreber-få-styr-på-fysiologien">Begreber: Få styr på fysiologien</h2>
+
+<p>Før du vælger datagrundlag i beregneren, er det en god idé at have styr på de fysiologiske grundbegreber:</p>
+
+<dl>
+  <dt>Hvilepuls ($HR_{rest}$)</dt>
+  <dd><a href="/hvilepuls/">Hvilepulsen</a> er antallet af hjerteslag pr. minut, når du slapper fuldstændigt af. Den måles bedst om morgenen inden du står op. En lavere hvilepuls er ofte et tegn på et større hjerte (slagvolumen) og en bedre grundkondition.</dd>
+  <dt>Maxpuls ($HR_{max}$)</dt>
+  <dd>Maxpulsen er det absolut højeste antal slag, dit hjerte kan præstere under maksimal belastning. Maxpulsen falder naturligt med alderen og bør <a href="/test-max-puls/">måles ved en maxpulstest</a>.</dd>
+  <dt>Pulsreserve ($HRR$)</dt>
+  <dd>Pulsreserven er spændet mellem din hvilepuls og din maxpuls ($HRR = HR_{\text{max}} - HR_{\text{hvile}}$). Den angiver det reelle fysiologiske arbejdsrum, dit hjerte har til rådighed. <a href="/pulsreserve/">Lær mere om pulsreserven</a>.</dd>
+  <dt>Aerob tærskel (LT1)</dt>
+  <dd>Den intensitet, hvor mælkesyreniveauet i blodet begynder at stige let over hvileniveau, men hvor kroppen stadig fuldt ud kan omsætte fedt og ilt uden at ophobe syre. <a href="/aerobe-taerskel/">Læs mere om den aerobe tærskel</a>.</dd>
+  <dt>Anaerob tærskel / Laktattærskel (LT2 / LTHR)</dt>
+  <dd>Den intensitet, hvor kroppen producerer mælkesyre i samme hastighed, som den kan nå at fjerne den (<em>maximal steady state</em>). Overskrides LT2, ophobes syren hurtigt, og du udtrættes. <a href="/anaerobe-taerskel/">Læs mere om den anaerobe tærskel</a>.</dd>
+</dl>
+
+<hr />
+
+<h2 id="1-datagrundlag-hvilken-metode-skal-du-vælge">1. Datagrundlag: Hvilken metode skal du vælge?</h2>
+
+<p>Beregneren giver dig mulighed for at vælge mellem tre fysiologiske datagrundlag:</p>
+
+<h3 id="basis-kun-maxpuls--hrmax">Basis: Kun maxpuls (% HRmax)</h3>
+
+<p>Den enkleste metode til at komme i gang. Kræver kun, at du kender eller har <a href="/test-max-puls/">testet din maxpuls</a>. Metoden tager dog ikke højde for din hvilepuls og din aktuelle form. Det smarte ved maxpulsen er, at du kan estimere den ud fra din alder direkte i beregneren eller via vores <a href="/max-puls-beregner/">maxpuls-beregner</a>.</p>
+
+<p><a href="/loebesiden-jack-daniels-loebeberegner/">Jack Daniels</a> anvender bl.a. relationer til maxpuls til sine løbeformer, om end tærsklen ofte er lavere hos begyndere end hos øvede løbere.</p>
+
+<h3 id="bedre-maxpuls--hvilepuls-karvonen--pulsreserve">Bedre: Maxpuls + Hvilepuls (Karvonen / Pulsreserve)</h3>
+
+<p><a href="https://runandbeyond.com/karvonen-heart-rate/">Karvonen-metoden</a> inddrager din <a href="/hvilepuls/">hvilepuls</a> og beregner zonerne ud fra din <strong><a href="/pulsreserve/">pulsreserve</a></strong> ($HRR = HR_{\text{max}} - HR_{\text{hvile}}$). Dette giver et mere præcist billede af din reelle kropslige belastning.</p>
+
+<figure class="">
+  <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/blog/pulsreserve-landscape.jpg" srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/blog/pulsreserve-landscape.jpg 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/blog/pulsreserve-landscape.jpg 1600w" sizes="(max-width: 800px) 100vw, 800px" alt="Pulsreserve illustration" loading="lazy" decoding="async" /><figcaption>
+      Pulsreserven er spændet mellem din hvilepuls og din maksimale puls.
+
+    </figcaption></figure>
+
+<h4 id="hvorfor-er-karvonen-formlen-bedre-end-ren-maxpuls">Hvorfor er Karvonen-formlen bedre end ren maxpuls?</h4>
+
+<p>Klassisk beregning ud fra% af maxpuls tager ikke højde for din nuværende form. Hvis two personer begge har en maxpuls på <strong>190 bpm</strong>, vil en ren maxpuls-beregning give dem <em>nøjagtig de samme pulszoner</em> — uanset om den ene er eliteløber og den anden er utrænet:</p>
+
+<ul>
+  <li><strong>Person A (Veltrænet):</strong> Maxpuls 190, Hvilepuls 40 $\rightarrow$ Pulsreserve = <strong>150 bpm</strong>.<br />
+<em>70% intensitet = $(150 \times 0{,}70) + 40 = \mathbf{145 \text{ bpm}}$</em></li>
+  <li><strong>Person B (Utrænet):</strong> Maxpuls 190, Hvilepuls 70 $\rightarrow$ Pulsreserve = <strong>120 bpm</strong>.<br />
+<em>70% intensitet = $(120 \times 0{,}70) + 70 = \mathbf{154 \text{ bpm}}$</em></li>
+</ul>
+
+<p>Med ren maxpuls ville begge have fået $190 \times 0{,}70 = 133 \text{ bpm}$, hvilket for den veltrænede person A ville svare til en næsten virkningsløs gåtur.</p>
+
+<p>Formlen for Karvonen lyder:</p>
+
+\[HR_{\text{mål}} = \left((HR_{\text{max}} - HR_{\text{hvile}}) \times \text{intensitet}\%\right) + HR_{\text{hvile}}\]
+
+<h3 id="bedst-tærskelpuls-lthr--lt2">Bedst: Tærskelpuls (LTHR / LT2)</h3>
+
+<p><a href="https://joefrieltraining.com/a-quick-guide-to-setting-zone/">Joe Friel</a> baserer sine træningszoner på pulsen ved laktattærsklen (LTHR). Ved at beregne zonerne ud fra LT2 og kende dit <strong>aerobe vindue</strong> ($LTHR - HR_{\text{hvile}}$), kan du ramme tærskelintervaller og tempo med kirurgisk præcision.</p>
+
+<figure class="">
+  <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/blog/pulsreserve-portrait.jpg" srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/blog/pulsreserve-portrait.jpg 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/blog/pulsreserve-portrait.jpg 1600w" sizes="(max-width: 800px) 100vw, 800px" alt="Aerobe vindue illustration" loading="lazy" decoding="async" /><figcaption>
+      Det aerobe vindue angiver spændet fra din hvilepuls op til din anaerobe tærskel.
+
+    </figcaption></figure>
+
+<hr />
+
+<h2 id="2-valg-af-zonemodel-3-zone-vs-57-zone-modeller">2. Valg af zonemodel: 3-Zone vs. 5–7 Zone Modeller</h2>
+
+<h3 id="3-zone-modellen-lt1--lt2">3-Zone Modellen (LT1 &amp; LT2)</h3>
+<p>Opdeler træningen direkte ud fra de to fysiologiske tærskler: <strong>LT1</strong> (den aerobe tærskel) og <strong>LT2</strong> (den anaerobe tærskel / syretærskel). Modellen benyttes i høj grad til <em>polariseret træning</em>:</p>
+<ul>
+  <li><strong>Zone 1 (Lav / Aerob):</strong> Under LT1. Rolige ture, restitution og opbygning af kapillærnet.</li>
+  <li><strong>Zone 2 (Moderat / Tærskel):</strong> Mellem LT1 og LT2. Tempoløb, maraton-tempo og kontrollerede tærskelintervaller.</li>
+  <li><strong>Zone 3 (Høj / Anaerob):</strong> Over LT2. VO₂max-intervaller og hård anaerob belastning.</li>
+</ul>
+
+<h3 id="57-zone-modellerne-coggan--joe-friel">5–7 Zone Modellerne (Coggan &amp; Joe Friel)</h3>
+<p>Andrew Coggan opererer med 7 forskellige træningszoner, som giver en finere opdeling af energisystemerne i strukturerede træningsprogrammer:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Zone</th>
+      <th style="text-align: left">Navn</th>
+      <th style="text-align: left">Beskrivelse &amp; Energisystem</th>
+      <th style="text-align: left">Vejrtrækning &amp; RPE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><strong>1</strong></td>
+      <td style="text-align: left">Restitution</td>
+      <td style="text-align: left">Ren aerob / Meget lav belastning</td>
+      <td style="text-align: left">Ubesværet samtale (RPE 1-2)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>2</strong></td>
+      <td style="text-align: left">Udholdenhed</td>
+      <td style="text-align: left">Aerob fedtforbrænding / Basistræning</td>
+      <td style="text-align: left">Kan tale i hele sætninger (RPE 3-4)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>3</strong></td>
+      <td style="text-align: left">Tempo</td>
+      <td style="text-align: left">Hovedsageligt aerob / Aerob tærskel (LT1)</td>
+      <td style="text-align: left">Anstrengt samtale (RPE 5-6)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>4</strong></td>
+      <td style="text-align: left">Anaerob tærskel</td>
+      <td style="text-align: left">Syretærskel (LT2) / Tærskelintervaller</td>
+      <td style="text-align: left">Korte sætninger / Sætninger knækker (RPE 7-8)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>5</strong></td>
+      <td style="text-align: left">VO₂max</td>
+      <td style="text-align: left">Maksimal iltoptagelse / Hård aerob</td>
+      <td style="text-align: left">Enkelte ord / Meget tung (RPE 9)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>6</strong></td>
+      <td style="text-align: left">Anaerob kapacitet</td>
+      <td style="text-align: left">Hovedsageligt anaerob / Korte intervaller</td>
+      <td style="text-align: left">Kan ikke tale (RPE 10)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>7</strong></td>
+      <td style="text-align: left">Neuromuskulær power</td>
+      <td style="text-align: left">Ren anaerob / Maksimal sprint (under 10 sek.)</td>
+      <td style="text-align: left">All-out effort</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="3-find-dine-egne-pulszoner-med-tests">3. Find dine egne pulszoner med tests</h2>
+
+<p>Generelle formler er et stærkt udgangspunkt, men i konditionstræning opnås de bedste resultater, hvis pulszonerne tilpasses individuelt ud fra tre nøgleelementer:</p>
+<ol>
+  <li><strong>Maksimal iltoptagelse / VO₂max</strong> (Zone 5)</li>
+  <li><strong>Anaerob tærskel / Tærskeltræning</strong> (Zone 4)</li>
+  <li><strong>Udholdenhed og hjertekapacitet / Slagvolumen</strong> (Zone 1–2)</li>
+</ol>
+
+<h3 id="tests-til-at-finde-den-anaerobe-tærskel-lt2--lthr">Tests til at finde den anaerobe tærskel (LT2 / LTHR)</h3>
+
+<ul>
+  <li><strong>30-minutters felttest:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/16095403/">McGehee et al. (2005)</a> sammenlignede VDOT, 3200 meter, 30 minutter og Conconi-test. De konkluderede, at en 30-minutters enkeltstartstest er den bedste felttest til at bestemme den anaerobe tærskel. Din gennemsnitspuls for de <strong>sidste 20 minutter</strong> af testen svarer meget tæt til din LTHR.</li>
+  <li><strong>Test på dit pulsur:</strong> Mange moderne sportsure (fx Garmin) tilbyder en automatisk guided laktattærskeltest.</li>
+  <li><strong>Laboratorietest:</strong> Du kan lade dig teste i et fysiologisk testcenter med blodmåling af mælkesyre. Læs mere om <a href="/iltoptagelse-laboratorietest/">iltoptagelsestests i laboratorium</a>.</li>
+</ul>
+
+<figure class="third ">
+
+    
+<img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_500/https://www.motionsplan.dk/assets/images/blog/garmin-setup-lactate-1.jpg" srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_500/https://www.motionsplan.dk/assets/images/blog/garmin-setup-lactate-1.jpg 500w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1000/https://www.motionsplan.dk/assets/images/blog/garmin-setup-lactate-1.jpg 1000w" sizes="(max-width: 768px) 100vw, 500px" alt="" loading="lazy" decoding="async" />
+
+    
+<img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_500/https://www.motionsplan.dk/assets/images/blog/garmin-setup-lactate-2.jpg" srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_500/https://www.motionsplan.dk/assets/images/blog/garmin-setup-lactate-2.jpg 500w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1000/https://www.motionsplan.dk/assets/images/blog/garmin-setup-lactate-2.jpg 1000w" sizes="(max-width: 768px) 100vw, 500px" alt="" loading="lazy" decoding="async" />
+
+    
+<img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_500/https://www.motionsplan.dk/assets/images/blog/garmin-setup-lactate-3.jpg" srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_500/https://www.motionsplan.dk/assets/images/blog/garmin-setup-lactate-3.jpg 500w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1000/https://www.motionsplan.dk/assets/images/blog/garmin-setup-lactate-3.jpg 1000w" sizes="(max-width: 768px) 100vw, 500px" alt="" loading="lazy" decoding="async" />
+    <figcaption>Eksempel på en guidet laktattærskeltest direkte på et Garmin-ur.
+</figcaption>
+  
+</figure>
+
+<h3 id="tests-til-at-finde-den-aerobe-tærskel-lt1--udholdenhed">Tests til at finde den aerobe tærskel (LT1 / Udholdenhed)</h3>
+
+<ul>
+  <li><strong>Cardiac Output træning:</strong> Joel Jamieson anbefaler roligt løb/cykling i pulsintervallet <strong>120–150 bpm</strong> for specifikt at stimulere hjertets slagvolumen.</li>
+  <li><strong>Næse-trækningstest:</strong> Løb i et tempo, hvor du lige nøjagtigt kan opretholde iltoptagelsen ved udelukkende at trække vejret gennem næsen. Når du bliver nødt til at åbne munden for at trække vejret, rammer du omkring din aerobe tærskel (LT1).</li>
+</ul>
+
+<p><strong>Læs mere</strong>: <a href="/aerobe-taerskel/">Dyk ned i teorien om den aerobe tærskel</a> og <a href="/zone-2-traening/">Zone 2 træning</a></p>
+
+<hr />
+
+<h2 id="-visuel-sammenligning-se-forskellen-på-de-tre-beregningsmodeller">🔬 Visuel sammenligning: Se forskellen på de tre beregningsmodeller</h2>
+
+<p>Et pulsslag på 145 bpm kan være rolig restitution i én model og tærskeltræning i en anden. Prøv sammenligneren herunder og se, hvordan zonerne rykker sig fysiologisk, når du skifter beregningsmetode for den samme person.</p>
+
+<!-- INTERAKTIV PULSZONE SAMMENLIGNER -->
+<div class="mp-hr-cmp-card">
+  
+  <div class="mp-hr-cmp-header">
+    <h3>🫀 Sammenligning af pulszone-modeller</h3>
+    <p>Indtast dine nøgletal og se direkte, hvordan zonerne flytter sig på tværs af modellerne.</p>
+  </div>
+
+  <!-- 4 ENSTRENGEDE KOLONNER (LABEL ØVERST, INPUT NEDENUNDER) -->
+  <div class="mp-hr-cmp-inputs">
+    <div class="mp-num-group">
+      <label for="cmp-max-hr">Maxpuls</label>
+      <div class="mp-input-wrap">
+        <input type="number" id="cmp-max-hr" min="140" max="220" value="200" step="1" />
+        <span class="mp-unit">bpm</span>
+      </div>
+    </div>
+
+    <div class="mp-num-group">
+      <label for="cmp-lthr-hr">Laktattærskel</label>
+      <div class="mp-input-wrap">
+        <input type="number" id="cmp-lthr-hr" min="120" max="210" value="180" step="1" />
+        <span class="mp-unit">bpm</span>
+      </div>
+    </div>
+
+    <div class="mp-num-group">
+      <label for="cmp-rest-hr">Hvilepuls</label>
+      <div class="mp-input-wrap">
+        <input type="number" id="cmp-rest-hr" min="30" max="100" value="50" step="1" />
+        <span class="mp-unit">bpm</span>
+      </div>
+    </div>
+
+    <div class="mp-num-group">
+      <label for="cmp-age">Alder (MAF)</label>
+      <div class="mp-input-wrap">
+        <input type="number" id="cmp-age" min="15" max="90" value="20" step="1" />
+        <span class="mp-unit">år</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- VISUEL GRAFISK SAMMENLIGNING -->
+  <div class="mp-hr-cmp-chart-wrap">
+    
+    <!-- SKALA I TOPPEN -->
+    <div class="mp-hr-cmp-scale" id="cmp-scale"></div>
+
+    <!-- MODEL 1: % AF MAXPULS -->
+    <div class="mp-model-row">
+      <div class="mp-model-info">
+        <strong>1. Maxpuls (%)</strong>
+        <span class="mp-model-sub">Upræcis standard</span>
+      </div>
+      <div class="mp-bar-container" id="bar-maxhr"></div>
+    </div>
+
+    <!-- MODEL 2: KARVONEN (PULSRESERVE) -->
+    <div class="mp-model-row">
+      <div class="mp-model-info">
+        <strong>2. Karvonen (HRR)</strong>
+        <span class="mp-model-sub">Maxpuls + Hvilepuls</span>
+      </div>
+      <div class="mp-bar-container" id="bar-karvonen"></div>
+    </div>
+
+    <!-- MODEL 3: LAKTATTÆRSKEL (LTHR / FRIEL) -->
+    <div class="mp-model-row">
+      <div class="mp-model-info">
+        <strong>3. Tærskel (LTHR)</strong>
+        <span class="mp-model-sub">Laktattærskel (LT2)</span>
+      </div>
+      <div class="mp-bar-container" id="bar-lthr"></div>
+    </div>
+
+    <!-- MODEL 4: MAFFETONE (MAF 180) -->
+    <div class="mp-model-row">
+      <div class="mp-model-info">
+        <strong>4. Maffetone 180</strong>
+        <span class="mp-model-sub">Aerobt baseloft</span>
+      </div>
+      <div class="mp-bar-container" id="bar-maf"></div>
+    </div>
+
+  </div>
+
+  <!-- TAKEAWAY BOKS -->
+  <div class="mp-hr-cmp-takeaway">
+    <div class="mp-takeaway-icon">💡</div>
+    <div class="mp-takeaway-text" id="cmp-takeaway-note"></div>
+  </div>
+
+</div>
+
+<style>
+  .mp-hr-cmp-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 1.15rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+    font-family: inherit;
+  }
+
+  .mp-hr-cmp-header h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.05rem;
+    color: #0f172a;
+    font-weight: 800;
+  }
+  .mp-hr-cmp-header p {
+    margin: 0 0 0.85rem 0;
+    font-size: 0.825rem;
+    color: #64748b;
+    line-height: 1.35;
+  }
+
+  /* 4 ENSARTEDE KOLONNER NÅR SKÆRMEN TILLADER DET */
+  .mp-hr-cmp-inputs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+  }
+
+  @media (max-width: 640px) {
+    .mp-hr-cmp-inputs {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .mp-num-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .mp-num-group label {
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
+
+  .mp-input-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .mp-num-group input[type="number"] {
+    width: 100%;
+    max-width: 72px;
+    padding: 0.3rem 0.45rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: #0f172a;
+    background: #ffffff;
+  }
+
+  .mp-unit {
+    font-size: 0.75rem;
+    color: #64748b;
+    font-weight: 600;
+  }
+
+  .mp-hr-cmp-chart-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+  }
+
+  .mp-hr-cmp-scale {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 175px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #94a3b8;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 0.2rem;
+  }
+
+  .mp-model-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 600px;
+  }
+
+  .mp-model-info {
+    width: 165px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.25;
+  }
+  .mp-model-info strong {
+    color: #0f172a;
+    font-size: 0.8rem;
+  }
+  .mp-model-sub {
+    font-size: 0.675rem;
+    color: #64748b;
+  }
+
+  .mp-bar-container {
+    flex-grow: 1;
+    height: 32px;
+    background: #f8fafc;
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #cbd5e1;
+  }
+
+  .mp-zone-segment {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(255,255,255,0.3);
+  }
+
+  .mp-zone-segment:last-child {
+    border-right: none;
+  }
+
+  .mp-zone-segment span {
+    line-height: 1;
+  }
+  .mp-zone-range {
+    font-size: 0.575rem;
+    font-weight: 700;
+    opacity: 0.95;
+    margin-top: 1px;
+    letter-spacing: -0.2px;
+  }
+
+  /* ZONEFARVER */
+  .z-bg-1 { background: #3b82f6; }
+  .z-bg-2 { background: #22c55e; }
+  .z-bg-3 { background: #eab308; }
+  .z-bg-4 { background: #f97316; }
+  .z-bg-5 { background: #ef4444; }
+  .z-bg-maf { background: #059669; }
+
+  .mp-hr-cmp-takeaway {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 6px;
+    padding: 0.65rem 0.85rem;
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #166534;
+    line-height: 1.35;
+  }
+  .mp-takeaway-icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const maxInput = document.getElementById('cmp-max-hr');
+    const lthrInput = document.getElementById('cmp-lthr-hr');
+    const restInput = document.getElementById('cmp-rest-hr');
+    const ageInput = document.getElementById('cmp-age');
+
+    const barMax = document.getElementById('bar-maxhr');
+    const barKarvonen = document.getElementById('bar-karvonen');
+    const barLthr = document.getElementById('bar-lthr');
+    const barMaf = document.getElementById('bar-maf');
+
+    const scale = document.getElementById('cmp-scale');
+    const takeaway = document.getElementById('cmp-takeaway-note');
+
+    function renderComparison() {
+      const max = parseInt(maxInput.value) || 200;
+      const lthr = parseInt(lthrInput.value) || 180;
+      const rest = parseInt(restInput.value) || 50;
+      const age = parseInt(ageInput.value) || 20;
+
+      const mafLimit = Math.max(rest, 180 - age);
+
+      const minScale = Math.max(30, rest - 10);
+      const maxScale = max;
+      const totalSpan = maxScale - minScale;
+
+      // Generer Skala Ticks
+      scale.innerHTML = '';
+      const step = Math.round(totalSpan / 5);
+      for (let i = 0; i <= 5; i++) {
+        const tickVal = Math.round(minScale + i * step);
+        const tickEl = document.createElement('span');
+        tickEl.textContent = tickVal + ' bpm';
+        scale.appendChild(tickEl);
+      }
+
+      // 1. REN % MAXPULS
+      const zMax = [
+        { name: 'Z1', min: Math.round(max * 0.5), max: Math.round(max * 0.6), cls: 'z-bg-1' },
+        { name: 'Z2', min: Math.round(max * 0.6), max: Math.round(max * 0.7), cls: 'z-bg-2' },
+        { name: 'Z3', min: Math.round(max * 0.7), max: Math.round(max * 0.8), cls: 'z-bg-3' },
+        { name: 'Z4', min: Math.round(max * 0.8), max: Math.round(max * 0.9), cls: 'z-bg-4' },
+        { name: 'Z5', min: Math.round(max * 0.9), max: max, cls: 'z-bg-5' }
+      ];
+
+      // 2. KARVONEN (PULSRESERVE HRR)
+      const hrr = max - rest;
+      const zKarv = [
+        { name: 'Z1', min: Math.round(rest + hrr * 0.5), max: Math.round(rest + hrr * 0.6), cls: 'z-bg-1' },
+        { name: 'Z2', min: Math.round(rest + hrr * 0.6), max: Math.round(rest + hrr * 0.7), cls: 'z-bg-2' },
+        { name: 'Z3', min: Math.round(rest + hrr * 0.7), max: Math.round(rest + hrr * 0.8), cls: 'z-bg-3' },
+        { name: 'Z4', min: Math.round(rest + hrr * 0.8), max: Math.round(rest + hrr * 0.9), cls: 'z-bg-4' },
+        { name: 'Z5', min: Math.round(rest + hrr * 0.9), max: max, cls: 'z-bg-5' }
+      ];
+
+      // 3. LAKTATTÆRSKEL (LTHR SAMMENHÆNGENDE SKALA)
+      const zLthr = [
+        { name: 'Z1', min: Math.round(lthr * 0.65), max: Math.round(lthr * 0.85), cls: 'z-bg-1' },
+        { name: 'Z2', min: Math.round(lthr * 0.85), max: Math.round(lthr * 0.90), cls: 'z-bg-2' },
+        { name: 'Z3', min: Math.round(lthr * 0.90), max: Math.round(lthr * 0.95), cls: 'z-bg-3' },
+        { name: 'Z4', min: Math.round(lthr * 0.95), max: Math.round(lthr * 1.00), cls: 'z-bg-4' },
+        { name: 'Z5', min: Math.round(lthr * 1.00), max: max, cls: 'z-bg-5' }
+      ];
+
+      // 4. MAFFETONE
+      const zMaf = [
+        { name: 'MAF Base', min: rest, max: mafLimit, cls: 'z-bg-maf' }
+      ];
+
+      function buildBar(element, zones) {
+        element.innerHTML = '';
+        zones.forEach(z => {
+          const widthPct = Math.max(0, ((z.max - z.min) / totalSpan) * 100);
+          const leftPct = Math.max(0, ((z.min - minScale) / totalSpan) * 100);
+
+          const seg = document.createElement('div');
+          seg.className = `mp-zone-segment ${z.cls}`;
+          seg.style.left = leftPct + '%';
+          seg.style.width = widthPct + '%';
+
+          const rangeHtml = widthPct > 6.5 ? `<span class="mp-zone-range">${z.min}-${z.max}</span>` : '';
+          seg.innerHTML = `<span>${z.name}</span>${rangeHtml}`;
+          
+          element.appendChild(seg);
+        });
+      }
+
+      buildBar(barMax, zMax);
+      buildBar(barKarvonen, zKarv);
+      buildBar(barLthr, zLthr);
+      buildBar(barMaf, zMaf);
+
+      takeaway.innerHTML = `
+        For en ${age}-årig med maxpuls <strong>${max} bpm</strong>, LTHR <strong>${lthr} bpm</strong> og hvilepuls <strong>${rest} bpm</strong>: % Maxpuls sætter Zone 2 til <strong>${zMax[1].min}–${zMax[1].max} bpm</strong>, Karvonen til <strong>${zKarv[1].min}–${zKarv[1].max} bpm</strong>, LTHR til <strong>${zLthr[1].min}–${zLthr[1].max} bpm</strong> og MAF til op til <strong>${mafLimit} bpm</strong>.
+      `;
+    }
+
+    maxInput.addEventListener('input', renderComparison);
+    lthrInput.addEventListener('input', renderComparison);
+    restInput.addEventListener('input', renderComparison);
+    ageInput.addEventListener('input', renderComparison);
+
+    renderComparison();
+  });
+</script>
+
+<p><strong>Hvorfor rykker zonerne sig så voldsomt?</strong></p>
+
+<p>Hvis vi tager udgangspunkt i en atlet med <strong>200 bpm i maxpuls</strong>, <strong>180 bpm i laktattærskel</strong> og <strong>50 bpm i hvilepuls</strong>, opstår der tre vidt forskellige træningsrammer:</p>
+
+<ul>
+  <li><strong>% af Maxpuls (Den enkle):</strong> Sætter Zone 2 til <strong>120–140 bpm</strong>. Metoden ignorerer hvilepulsen og behandler en veltrænet atlet nøjagtigt som en utrænet begynder. For en atlet i god form vil dette tempo føles som en næsten virkningsløs gåtur.</li>
+  <li><strong>Karvonen / Pulsreserve (Den bedre):</strong> Inddrager det fysiologiske arbejdsrum ($HRR = 150 \text{ bpm}$) og hæver Zone 2 til <strong>140–155 bpm</strong>. Det matcher kroppens reelle belastning langt bedre og sikrer en god aerob baseopbygning.</li>
+  <li><strong>Laktattærskel / LTHR (Guldstandarden):</strong> Forankrer zonerne direkte omkring syretærsklen ($LT2$) og sætter Zone 2 til <strong>153–160 bpm</strong>. Det giver den højeste fysiologiske præcision, fordi zonerne opbygges ud fra kroppens faktiske mælkesyre-håndtering i stedet for en aldersberegnet teoretisk maxpuls.</li>
+</ul>
+
+<hr />
+
+<h2 id="andre-beskrivelser-af-pulstræningszoner">Andre beskrivelser af pulstræningszoner</h2>
+
+<p>En anden udbredt angivelse af de fysiologiske zoner i forhold til HR<sub>max</sub> kan ses i denne grafik:</p>
+
+<figure class="">
+  <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/vic.tri-alliance.com/Training-Zones-Descriptions-1038x1467-ef142478.jpg" srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/vic.tri-alliance.com/Training-Zones-Descriptions-1038x1467-ef142478.jpg 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/vic.tri-alliance.com/Training-Zones-Descriptions-1038x1467-ef142478.jpg 1600w" sizes="(max-width: 800px) 100vw, 800px" alt="" loading="lazy" decoding="async" /><figcaption>
+      Kilde: <a href="https://vic.tri-alliance.com/know-training-zones/">vic.tri-alliance.com</a>. <a href="https://vic.tri-alliance.com/wp-content/uploads/sites/3/2018/02/Training-Zones-Descriptions-1038x1467.jpg" rel="nofollow noopener">📷</a>
+
+    </figcaption></figure>
+
+<hr />
+
+<blockquote class="notice--info">
+  <p>🎯 <strong>Få 100% præcise pulszoner i stedet for gæt</strong><br />
+Formler baseret på maxpuls rammer ofte forkert. Ved at udføre en blodlaktattest måler du direkte på blodets kemi og finder de nøjagtige pulsslag for din aerobe (Zone 2-loft) og anaerobe tærskel.<br />
+👉 <strong><a href="/laktattest/">Brug laktattesten til at indstille dine personlige pulszoner →</a></strong></p>
+</blockquote>
+
+<hr />
+
+<h2 id="næste-skridt-i-din-træning">Næste skridt i din træning</h2>
+
+<p>Når du har styr på dine pulszoner, kan du dykke dybere ned i fysiologien bag:</p>
+<ul>
+  <li>🏃‍♂️ <a href="/pulstraening/">Komplet guide til pulstræning og kredsløbsfysiologi</a></li>
+  <li>🫀 <a href="/test-max-puls/">SÅDAN tester du din maxpuls korrekt</a></li>
+  <li>💤 <a href="/hvilepuls/">Hvad fortæller din hvilepuls om din sundhed og form?</a></li>
+  <li>📏 <a href="/pulsreserve/">Lær mere om Heart Rate Reserve (Pulsreserven)</a></li>
+</ul>
+
+<hr />
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3>Har Jack Daniels pulszoner i sit træningssystem?</h3></summary>
+<p>Jack Daniels baserer primært sine træningsprogrammer på løbehastigheder (VDOT). Du kan udregne hans foreslåede løbehastigheder i <a href="/loebesiden-jack-daniels-loebeberegner/">Jack Daniels løbeberegner</a>. De enkelte løbeformer hos Daniels er dog også forbundet med specifikke pulsværdier i forhold til <a href="/test-max-puls/">den maksimale puls</a>.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvilken metode til pulszoner er mest præcis?</h3></summary>
+<p>Laktattærsklen (LTHR / LT2) er den mest præcise metode til at styre din træningsintensitet, da den tager direkte udgangspunkt i din krops fysiologiske syretærskel. Karvonen-metoden (pulsreserve) er næstbedst, mens ren procent af maxpuls er den enkleste, men mindst individuelle metode.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Har Jack Daniels pulszoner i sit træningssystem?","acceptedAnswer":{"@type":"Answer","text":"Jack Daniels baserer primært sine træningsprogrammer på løbehastigheder (VDOT). Du kan udregne hans foreslåede løbehastigheder i <a href='/loebesiden-jack-daniels-loebeberegner/'>Jack Daniels løbeberegner</a>. De enkelte løbeformer hos Daniels er dog også forbundet med specifikke pulsværdier i forhold til <a href='/test-max-puls/'>den maksimale puls</a>.\n"}},{"@type":"Question","name":"Hvilken metode til pulszoner er mest præcis?","acceptedAnswer":{"@type":"Answer","text":"Laktattærsklen (LTHR / LT2) er den mest præcise metode til at styre din træningsintensitet, da den tager direkte udgangspunkt i din krops fysiologiske syretærskel. Karvonen-metoden (pulsreserve) er næstbedst, mens ren procent af maxpuls er den enkleste, men mindst individuelle metode.\n"}}]
+    }
+</script>
+
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/pulszoner-beregner/#article",
+    "name": "Pulszoneberegner: Beregn pulszoner fra maxpuls, Karvonen og LTHR",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "19"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">19</span> stemmer. Gennemsnit: <span id="rating_average">4.5</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#karvonen" class="page__taxonomy-item" rel="tag">karvonen</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#kondition" class="page__taxonomy-item" rel="tag">kondition</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#laktatt%C3%A6rskel" class="page__taxonomy-item" rel="tag">laktattærskel</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#lthr" class="page__taxonomy-item" rel="tag">lthr</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#l%C3%B8b" class="page__taxonomy-item" rel="tag">løb</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#maxpuls" class="page__taxonomy-item" rel="tag">maxpuls</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#pulstr%C3%A6ning" class="page__taxonomy-item" rel="tag">pulstræning</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#pulszoneberegner" class="page__taxonomy-item" rel="tag">pulszoneberegner</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#kondition" class="page__taxonomy-item" rel="tag">Kondition</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#pulstr%C3%A6ning" class="page__taxonomy-item" rel="tag">Pulstræning</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-07-24">24. Jul, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/bmi/" class="pagination--pager" title="BMI Beregner &amp; Skema – Alt om Body Mass Index">Forrige</a>
+    
+    
+      <a href="/kondital-2400-meter/" class="pagination--pager" title="2400-meter løbetest: Beregn dit kondital (Politiets test) 🏃">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1729184648149-f907ee5f3d9a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Balke-testen: Løbebåndstest og 15-minutters felt-test
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Konditionstests</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/balke-test/" rel="permalink">Balke-testen: Løbebåndstest og 15-minutters felt-test
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-29T10:00:00+00:00">29. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          7 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Balke-testen er en klassisk gradueret konditionstest udviklet af fysiologen Bruno Balke. Lær hvordan du tester dit kondital på løbebånd eller atletikbane.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1683194381604-b0f7ee52584a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Snakketest (Talk Test): Guide til protokol, tekst og tærskler 🗣️
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kondition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/snakketest/" rel="permalink">Snakketest (Talk Test): Guide til protokol, tekst og tærskler 🗣️
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-28T12:00:00+00:00">28. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Lær hvordan du udfører snakketesten (Talk Test) i praksis med validerede læsetekster, ventilatoriske tærskler og Foster et al.’s officielle protokol.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?q=80&w=2950&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Critical Swim Speed (CSS): Beregn din tærskel i svømning 🏊
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kondition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/css-beregner/" rel="permalink">Critical Swim Speed (CSS): Beregn din tærskel i svømning 🏊
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-28T12:00:00+00:00">28. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Find din anærobe tærskel i vandet med Critical Swim Speed (CSS). Tag testen på 400m og 50m, og beregn dine personlige svømmezoner.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1758520705254-1e9d913d78ea?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Kondital for mænd og kvinder: Hvorfor snyder testresultaterne?
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Konditionstests</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/kondital-maend-kvinder-forskelle/" rel="permalink">Kondital for mænd og kvinder: Hvorfor snyder testresultaterne?
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-24T21:50:00+00:00">24. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Hvorfor får en pige et lavere kondital end en dreng ved samme distance i Andersen-testen? Læs den dybdegående forklaring på fysiologiske kønsforskelle i kond...</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>

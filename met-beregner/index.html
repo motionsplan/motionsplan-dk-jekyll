@@ -1,0 +1,1609 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>MET-beregner: Beregn dit energiforbrug ved fysisk aktivitet</title>
+<meta name="description" content="Brug vores MET-beregner til at estimere dit energiforbrug baseret på forskellige aktiviteter og din kropsvægt.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="MET-beregner: Beregn dit energiforbrug ved fysisk aktivitet">
+<meta property="og:url" content="https://www.motionsplan.dk/met-beregner/">
+<meta property="og:description" content="Brug vores MET-beregner til at estimere dit energiforbrug baseret på forskellige aktiviteter og din kropsvægt.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DMET-beregner%3A+Beregn+dit+energiforbrug+ved+fysisk+aktivitet%26excerpt%3DBrug+vores+MET-beregner+til+at+estimere+dit+energiforbrug+baseret+p%C3%A5+forskellige+aktiviteter+og+din+kropsv%C3%A6gt.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1581889470536-467bdbe30cd0.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D13.+Feb+2021%26domain%3Dwww.motionsplan.dk%26badge%3D%26layout%3D2%26v%3D1613205572/opengraph/">
+  <meta property="og:image:alt" content="MET-beregner: Beregn dit energiforbrug ved fysisk aktivitet">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://www.motionsplan.dk/assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="MET-beregner: Beregn dit energiforbrug ved fysisk aktivitet">
+  <meta name="twitter:description" content="Brug vores MET-beregner til at estimere dit energiforbrug baseret på forskellige aktiviteter og din kropsvægt.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/met-beregner/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DMET-beregner%3A+Beregn+dit+energiforbrug+ved+fysisk+aktivitet%26excerpt%3DBrug+vores+MET-beregner+til+at+estimere+dit+energiforbrug+baseret+p%C3%A5+forskellige+aktiviteter+og+din+kropsv%C3%A6gt.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1581889470536-467bdbe30cd0.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D13.+Feb+2021%26domain%3Dwww.motionsplan.dk%26badge%3D%26layout%3D2%26v%3D1613205572/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2020-07-24T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2021-02-13T08:39:32+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/met-beregner/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/met-beregner/#webpage",
+      "name": "MET-beregner: Beregn dit energiforbrug ved fysisk aktivitet",
+      "url": "https://www.motionsplan.dk/met-beregner/",
+      "description": "Brug vores MET-beregner til at estimere dit energiforbrug baseret på forskellige aktiviteter og din kropsvægt.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2020-07-24T00:00:00+00:00",
+      "dateModified": "2021-02-13T08:39:32+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/met-beregner/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/met-beregner/#article",
+        "inLanguage": "da",
+        "name": "MET-beregner: Personlig beregning af kalorieforbrug",
+        "headline": "MET-beregner: Beregn dit energiforbrug ved fysisk aktivitet",
+        "keywords": "beregner,kalorier,kalorieberegner,stofskifte,stofskifteberegner",
+        "description": "Brug vores MET-beregner til at estimere dit energiforbrug baseret på forskellige aktiviteter og din kropsvægt.",
+        "articleBody": "MET (Metabolic Equivalent of Task) er en metode til at estimere dit energiforbrug ved forskellige aktiviteter. Ved at kende MET-værdien for en aktivitet og din vægt kan du beregne, hvor mange kalorier du forbrænder.\n\nBrug vores MET-beregner til hurtigt at regne dit kalorieforbrug ud baseret på aktivitet, varighed og kropsvægt.\n\nVil du se en komplet oversigt over MET-værdier for forskellige aktiviteter? Besøg vores side med MET-værdier for at finde værdien for din aktivitet i en tabel eller lære mere om MET og MET-timer.\n\nBeregn MET-timer\n\n\n\n\n  \n  \n  \n    \n      MET Kalorie- &amp; Aktivitsberegner\n      \n        Søg blandt over 800 aktiviteter og beregn dit præcise energiforbrug ud fra MET-værdier.\n      \n    \n    \n  \n\n  \n    \n    \n    \n      \n      \n      \n        Aktivitet (Søg i database)\n        \n          \n          \n        \n      \n\n      \n      \n        \n          Kropsvægt (kg)\n          \n        \n\n        \n          Varighed (minutter)\n          \n        \n      \n\n    \n\n    \n    \n      🔥\n      -\n      Samlet kalorieforbrænding (kcal)\n\n      \n      \n        \n          -\n          MET-værdi\n        \n\n        \n          -\n          kcal / min\n        \n\n        \n          -\n          MET-timer\n        \n      \n\n      \n      \n        Vælg en aktivitet ovenfor for at starte beregningen\n      \n    \n\n    \n    \n      📸 Tag et billede\n      🗑️\n    \n\n  \n\n\nHvad er MET?\n\nMET er en forkortelse for Metabolic Equivalent of Task. MET er altså et udtryk for iltforbruget ved forskellige aktiviteter. MET er helt kort en metabolisk værdi for hvad iltforbruget - altså forbrændingen - er under fysisk aktivitet.\n\nLær mere: Hvad er MET - komplet med tabeller\n\nHvad er MET-timer?\n\nVi ved at 1 MET er energiforbruget i hvile. Hvis du så begynder at løbe, så stiger dit MET forbrug.\n\nEt eksempel:\n\nHvis du fx løber med omkring 10 km / timen, så svarer det til 10 MET. Det er altså 10 gange dit forbrug i hvile.\n\nLad os sige, at du kun løber i 30 minutter, så har du udført 5 MET-timers arbejde.\n\nMET = 10 MET * 0,5 time = 5 MET-timer\n\n\nNu kan du så udregne kalorieforbruget ved at løbe med 10 km / timen i 30 minutter.\n\nKalorier = MET x tid (timer) x kropsvægt (kg)\n\n\nHvis vi tager mig selv som eksempel, så vejer jeg 81 kg. Jeg har alle mine kg med ud at løbe, så jeg bruger i alt:\n\nKalorier = 5 MET-timer x 81 kg = 405 kcal\n\n\nHusk på at vi anslår, at 1 MET er lig med en kalorie.\n\nNår du bruger MET til at vurdere aktivteter, så skal du huske at værdierne er vejledende. Der vil altid være individuelle forskelle fra person til person.\n\n\n  Referencer\n\n  \n    Wahid, A.; Manek, N.; Nichols, M.; Kelly, P.; Foster, C.; Webster, P.; Kaur, A.; Friedemann Smith, C.; Wilkins, E.; Rayner, M.; Roberts, N.; Scarborough, P. (2016).“Quantifying the Association Between Physical Activity and Cardiovascular Disease and Diabetes: A Systematic Review and Meta‐Analysis”.Journal of the American Heart Association.5(9): e002495. doi: 10.1161/JAHA.115.002495.\n  \n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DMET-beregner%3A+Beregn+dit+energiforbrug+ved+fysisk+aktivitet%26excerpt%3DBrug+vores+MET-beregner+til+at+estimere+dit+energiforbrug+baseret+p%C3%A5+forskellige+aktiviteter+og+din+kropsv%C3%A6gt.%26author_name%3DLars+Olesen%26author_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Fauthors%2Flarsolesen.jpg%26post_img%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fassets%2Fimages%2Funsplash%2Fphoto-1581889470536-467bdbe30cd0.jpg%26logo%3Dhttps%3A%2F%2Fwww.motionsplan.dk%2Fandroid-chrome-192x192.png%26date%3D13.+Feb+2021%26domain%3Dwww.motionsplan.dk%26badge%3D%26layout%3D2%26v%3D1613205572/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/met-beregner/#webpage"
+        },
+        "datePublished": "2020-07-24T00:00:00+00:00",
+        "dateModified": "2021-02-13T08:39:32+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/met-beregner/#interaktiv-met-kalorieberegner",
+          "name": "Interaktiv MET- & Kalorieberegner",
+          "description": "Beregn dit samlede energiforbrug (kcal) og MET-timer ud fra valgt fysisk aktivitet, varighed og din kropsvægt.",
+          "applicationCategory": ["Kost & Ernæring","Kalorieberegnere"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/met-beregner/#webpage"
+          }
+        }
+        
+      
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=""
+>
+  
+    
+      
+      
+
+      <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg"
+           srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_800/https://www.motionsplan.dk/assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg 800w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1600/https://www.motionsplan.dk/assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg 1600w"
+           sizes="100vw"
+           alt="MET-beregner: Personlig beregning af kalorieforbrug"
+           class="page__hero-bg-img"
+           fetchpriority="high"
+           decoding="async">
+    
+  
+
+  
+    <div class="page__hero-filter" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));"></div>
+  
+
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          MET-beregner: Personlig beregning af kalorieforbrug
+
+        
+      </h1>
+      
+        <p class="page__lead">Brug vores MET-beregner til at estimere dit energiforbrug baseret på forskellige aktiviteter og din kropsvægt.
+</p>
+      
+      
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-02-13T08:39:32+00:00">13. feb, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">MET-værdier: Intensitet og kalorieforbrug ved fysisk aktivitet
+</span>
+  
+</div>
+
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/kost-ernaering/" itemprop="item"><span itemprop="name">Kost & Ernæring</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/kalorieberegner/" itemprop="item"><span itemprop="name">Kalorieberegnere</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">MET-beregner: Per...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="MET-beregner: Personlig beregning af kalorieforbrug">
+    <meta itemprop="description" content="Brug vores MET-beregner til at estimere dit energiforbrug baseret på forskellige aktiviteter og din kropsvægt.">
+    <meta itemprop="datePublished" content="2020-07-24T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2021-02-13T08:39:32+00:00">
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#beregn-met-timer">Beregn MET-timer</a></li><li><a href="#hvad-er-met">Hvad er MET?</a></li><li><a href="#hvad-er-met-timer">Hvad er MET-timer?</a></li><li><a href="#references">Referencer</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>MET (<em>Metabolic Equivalent of Task</em>) er en metode til at estimere dit energiforbrug ved forskellige aktiviteter. Ved at kende MET-værdien for en aktivitet og din vægt kan du beregne, hvor mange kalorier du forbrænder.</p>
+
+<p>Brug vores MET-beregner til hurtigt at regne dit kalorieforbrug ud baseret på aktivitet, varighed og kropsvægt.</p>
+
+<p>Vil du se en komplet oversigt over MET-værdier for forskellige aktiviteter? Besøg vores <a href="/met/">side med MET-værdier</a> for at finde værdien for din aktivitet i en tabel eller lære mere om MET og MET-timer.</p>
+
+<h2 id="beregn-met-timer">Beregn MET-timer</h2>
+
+<style>
+  .mp-met-input-field {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+  }
+
+  .mp-met-search-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .mp-met-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 240px;
+    overflow-y: auto;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    z-index: 50;
+    margin-top: 4px;
+    display: none;
+  }
+
+  .mp-met-dropdown-item {
+    padding: 0.65rem 0.85rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.15s ease;
+  }
+
+  .mp-met-dropdown-item:last-child {
+    border-bottom: none;
+  }
+
+  .mp-met-dropdown-item:hover,
+  .mp-met-dropdown-item.is-selected {
+    background: #f0f9ff;
+  }
+
+  /* Main Hero Result Card */
+  .mp-met-hero-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    text-align: center;
+  }
+
+  .mp-met-hero-emoji {
+    font-size: 3.2rem;
+    line-height: 1;
+    margin-bottom: 0.35rem;
+  }
+
+  .mp-met-hero-val {
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+
+  .mp-met-hero-unit {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #2563eb;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.25rem;
+  }
+
+  /* Sub Stats Row */
+  .mp-met-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    border-top: 1.5px dashed #cbd5e1;
+    padding-top: 1rem;
+  }
+
+  @media (max-width: 500px) {
+    .mp-met-stats-grid {
+      grid-template-columns: 1fr;
+      gap: 0.85rem;
+    }
+  }
+
+  .mp-met-stat-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 0.65rem 0.5rem;
+    text-align: center;
+  }
+
+  .mp-met-stat-val {
+    font-size: 1.35rem;
+    font-weight: 900;
+    color: #1e293b;
+    line-height: 1.1;
+  }
+
+  .mp-met-stat-lbl {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-top: 2px;
+  }
+
+  .mp-met-hero-meta {
+    margin-top: 1rem;
+    padding-top: 0.65rem;
+    border-top: 1px solid #f1f5f9;
+    font-size: 0.725rem;
+    font-weight: 700;
+    color: #64748b;
+    text-align: center;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="met-calculator" data-ui-module="met-calculator-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">MET Kalorie- &amp; Aktivitsberegner</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Søg blandt over 800 aktiviteter og beregn dit præcise energiforbrug ud fra MET-værdier.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;" />
+  </div>
+
+  <div class="mp-met-container" style="width: 100%;">
+    
+    <!-- INPUTS -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+      
+      <!-- SØGEFELT (Søg aktivitet) -->
+      <div style="margin-bottom: 0.85rem;">
+        <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Aktivitet (Søg i database)</label>
+        <div class="mp-met-search-container">
+          <input type="text" class="vbt-input-mega mp-met-input-field js-met-search-input" placeholder="🔍 fx Styrketræning, Græsslåning, Gang..." style="text-align: left !important; padding: 0 12px !important; width: 100%;" />
+          <div class="js-met-dropdown mp-met-dropdown"></div>
+        </div>
+      </div>
+
+      <!-- VÆGT OG TID -->
+      <div style="display: flex; gap: 0.85rem; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 120px;">
+          <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Kropsvægt <span style="font-weight: 500; color: #64748b;">(kg)</span></label>
+          <input type="number" min="30" max="250" class="vbt-input-mega mp-met-input-field js-met-input" data-input="weight" placeholder="70" />
+        </div>
+
+        <div style="flex: 1; min-width: 120px;">
+          <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Varighed <span style="font-weight: 500; color: #64748b;">(minutter)</span></label>
+          <input type="number" min="1" max="1440" class="vbt-input-mega mp-met-input-field js-met-input" data-input="duration" placeholder="60" />
+        </div>
+      </div>
+
+    </div>
+
+    <!-- HERO RESULTATKORT -->
+    <div class="mp-met-hero-card">
+      <div class="mp-met-hero-emoji">🔥</div>
+      <div class="js-met-res-total mp-met-hero-val">-</div>
+      <div class="js-met-res-total-lbl mp-met-hero-unit">Samlet kalorieforbrænding (kcal)</div>
+
+      <!-- SEKUNDÆRE NØGLETAL -->
+      <div class="mp-met-stats-grid">
+        <div class="mp-met-stat-box">
+          <div class="js-met-res-met-val mp-met-stat-val">-</div>
+          <div class="mp-met-stat-lbl">MET-værdi</div>
+        </div>
+
+        <div class="mp-met-stat-box">
+          <div class="js-met-res-min mp-met-stat-val">-</div>
+          <div class="mp-met-stat-lbl">kcal / min</div>
+        </div>
+
+        <div class="mp-met-stat-box">
+          <div class="js-met-res-hours mp-met-stat-val">-</div>
+          <div class="mp-met-stat-lbl">MET-timer</div>
+        </div>
+      </div>
+
+      <!-- BUND META -->
+      <div class="js-met-res-meta mp-met-hero-meta">
+        Vælg en aktivitet ovenfor for at starte beregningen
+      </div>
+    </div>
+
+    <!-- BUNDMENU -->
+    <div id="met-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag et billede</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>
+
+<h2 id="hvad-er-met">Hvad er MET?</h2>
+
+<p><strong>MET</strong> er en forkortelse for <em>Metabolic Equivalent of Task</em>. MET er altså et udtryk for iltforbruget ved forskellige aktiviteter. MET er helt kort en metabolisk værdi for hvad iltforbruget - altså forbrændingen - er under fysisk aktivitet.</p>
+
+<p class="notice"><strong>Lær mere</strong>: <a href="/met/">Hvad er MET - komplet med tabeller</a></p>
+
+<h2 id="hvad-er-met-timer">Hvad er MET-timer?</h2>
+
+<p>Vi ved at 1 MET er energiforbruget i hvile. Hvis du så begynder at løbe, så stiger dit MET forbrug.</p>
+
+<p>Et eksempel:</p>
+
+<p>Hvis du fx løber med omkring 10 km / timen, så svarer det til 10 MET. Det er altså 10 gange dit forbrug i hvile.</p>
+
+<p>Lad os sige, at du kun løber i 30 minutter, så har du udført 5 MET-timers arbejde.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MET = 10 MET * 0,5 time = 5 MET-timer
+</code></pre></div></div>
+
+<p>Nu kan du så udregne kalorieforbruget ved at løbe med 10 km / timen i 30 minutter.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Kalorier = MET x tid (timer) x kropsvægt (kg)
+</code></pre></div></div>
+
+<p>Hvis vi tager mig selv som eksempel, så vejer jeg 81 kg. Jeg har alle mine kg med ud at løbe, så jeg bruger i alt:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Kalorier = 5 MET-timer x 81 kg = 405 kcal
+</code></pre></div></div>
+
+<p>Husk på at vi anslår, at 1 MET er lig med en kalorie.</p>
+
+<p>Når du bruger MET til at vurdere aktivteter, så skal du huske at værdierne er vejledende. Der vil altid være individuelle forskelle fra person til person.</p>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Wahid, A.; Manek, N.; Nichols, M.; Kelly, P.; Foster, C.; Webster, P.; Kaur, A.; Friedemann Smith, C.; Wilkins, E.; Rayner, M.; Roberts, N.; Scarborough, P. (2016).<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5079002">“Quantifying the Association Between Physical Activity and Cardiovascular Disease and Diabetes: A Systematic Review and Meta‐Analysis”</a>.<em>Journal of the American Heart Association</em>.<strong>5</strong>(9): e002495. doi: <a href="https://doi.org/10.1161%2FJAHA.115.002495">10.1161/JAHA.115.002495</a>.</li>
+  </ul>
+</details>
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/met-beregner/#article",
+    "name": "MET-beregner: Personlig beregning af kalorieforbrug",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "11"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">11</span> stemmer. Gennemsnit: <span id="rating_average">4.7</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        <!-- Bundstak container til svære flashcards -->
+<!-- Bundstak container til svære flashcards -->
+<div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none;">
+  <div class="mp-bottom-stack-header">
+    <strong>🔄 Repetition fra denne artikel</strong>
+    <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
+  </div>
+  
+  <!-- Heri lander de svære kort automatisk -->
+  <div class="mp-card-stack"></div>
+</div>
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#beregner" class="page__taxonomy-item" rel="tag">beregner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#kalorieberegner" class="page__taxonomy-item" rel="tag">kalorieberegner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#kalorier" class="page__taxonomy-item" rel="tag">kalorier</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#stofskifteberegner" class="page__taxonomy-item" rel="tag">stofskifteberegner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#stofskifte" class="page__taxonomy-item" rel="tag">stofskifte</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#kalorieberegnere" class="page__taxonomy-item" rel="tag">Kalorieberegnere</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#kost-ern%C3%A6ring" class="page__taxonomy-item" rel="tag">Kost & Ernæring</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2021-02-13">13. Feb, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/y-balance-test/" class="pagination--pager" title="Y-balance: Test din balance med Y-balancetest 🤹‍♀️">Forrige</a>
+    
+    
+      <a href="/met/" class="pagination--pager" title="MET-værdier: Iltforbrug ved fysisk aktivitet [Tabel]">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1648748571003-98d6ff522019.jpg" alt="Brug dit energiforbrug som målsætning for træningen
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kost & Ernæring</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/energibudget/" rel="permalink">Brug dit energiforbrug som målsætning for træningen
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-16T22:21:26+00:00">16. jul, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Fokusér på arbejdet, ikke kun intensiteten. Brug vores beregner til at planlægge din træning ud fra energiforbrug og opbyg din arbejdskapacitet.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1583775598026-24bd150b540e?q=80&w=2101&auto=format&fit=crop&ixlib=rb-4.1.0" alt="RED-S / REM-S: Relativ energimangel i sport og løb
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Psykologi</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/rem-s/" rel="permalink">RED-S / REM-S: Relativ energimangel i sport og løb
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-18T00:00:00+00:00">18. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Test din risiko for RED-S / REM-S med vores kønsdifferentierede screening, beregn din energitilgængelighed og lær at genkende symptomerne på energimangel.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1530176611600-d05a6387d07c.jpg" alt="Kirsebærjuice og tranebærjuice til restitution
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kost & Ernæring</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/effekten-af-kirsebaer-og-tranebaer-juice/" rel="permalink">Kirsebærjuice og tranebærjuice til restitution
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-16T22:21:26+00:00">16. jul, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Kirsebær- og tranebærjuice bruges som naturlig hjælp til restitution, søvn og inflammation. Se hvad forskningen siger om effekten.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1581543870486-4435de4749fd.jpg" alt="Carb-loading: Hvad siger videnskaben og sådan gør du!
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kost & Ernæring</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/carb-loading/" rel="permalink">Carb-loading: Hvad siger videnskaben og sådan gør du!
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-16T22:21:26+00:00">16. jul, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Carb-loading øger dine glykogenlagre og forbedrer udholdenhed. Læs, hvad forskningen siger, og hvordan du gør i praksis før konkurrence.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>
