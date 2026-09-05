@@ -77,21 +77,21 @@ Du kan også se [andre variationer af steptests](/kondital-fra-steptest/).
 
 Brug beregneren til at finde ud af, hvor høj din stepbænk eller kasse skal være:
 
-{% include calculator/calculate-steptest-ymca-modified-stepheight.html %}
+{% include components/steptest-stepheight.html test="ymca_modified" %}
 
 ## Tag testen med interaktiv guide
 {: id="timer" }
 
 Brug afspilleren nedenfor til at holde den korrekte takt (96 BPM) og trinfølge under testen. Skærmen holdes automatisk tændt på din enhed.
 
-{% include components/steptest-timer.html type="ymca" %}
+{% include components/steptest-timer.html test="ymca_modified" %}
 
 ## Beregn dit resultat
 {: id="calculator" }
 
 Indtast din puls 1 minut efter testen for at beregne dit kondital:
 
-{% include calc/steptest.html test="ymca_modified" %}
+{% include calc/steptest.html test="ymca_modified" title="Beregner: YMCA Modified" %}
 
 ## Formlen bag beregningerne
 

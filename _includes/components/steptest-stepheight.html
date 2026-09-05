@@ -1,0 +1,414 @@
+{% assign title_text = include.title | default: "Beregn Stephøjde til Steptest" %}
+{% assign desc_text = include.description | default: "Find den præcise bokshøjde ud fra din kropshøjde, køn eller aktivitetsniveau." %}
+{% assign preset_test = include.test | default: "auto" %}
+
+<style>
+  .mp-sh-card {
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.25rem;
+    max-width: 680px;
+    margin: 0 auto 1.5rem auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    font-family: system-ui, -apple-system, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .mp-sh-card * { box-sizing: border-box; }
+
+  .mp-sh-header {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.85rem;
+    margin-bottom: 1.15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .mp-sh-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0 0 4px 0;
+  }
+
+  .mp-sh-desc {
+    margin: 0;
+    font-size: 0.825rem;
+    color: #64748b;
+    font-weight: 500;
+  }
+
+  .mp-sh-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    align-items: flex-end;
+  }
+
+  .mp-sh-field {
+    flex: 1 1 130px;
+    min-width: 0;
+  }
+
+  .mp-sh-gender-field {
+    flex: 1.5 1 150px;
+    min-width: 150px;
+  }
+
+  .mp-sh-input, .mp-sh-select {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+    border: 1.5px solid #cbd5e1 !important;
+    background: #ffffff !important;
+    margin: 0 !important;
+    width: 100% !important;
+    font-size: 0.9rem !important;
+    color: #0f172a !important;
+  }
+
+  .mp-sh-select {
+    text-align: left !important;
+    cursor: pointer !important;
+  }
+
+  .mp-sh-result-box {
+    background: #1e3a8a;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 1.15rem;
+    margin-top: 1.15rem;
+    text-align: center;
+    position: relative;
+  }
+
+  .mp-sh-result-val {
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 1;
+    color: #38bdf8;
+    margin: 0.25rem 0;
+  }
+
+  .mp-sh-result-note {
+    font-size: 0.775rem;
+    color: #93c5fd;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .mp-sh-sync-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #f0f9ff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-top: 0.65rem;
+  }
+</style>
+
+<div class="mp-sh-card js-sh-container" data-preset-test="{{ preset_test }}">
+
+  <!-- Header (Ingen <hx> tags) -->
+  <div class="mp-sh-header">
+    <div>
+      <div class="mp-sh-title">📏 {{ title_text }}</div>
+      <div class="mp-sh-desc">{{ desc_text }}</div>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- 1. Vælg Test (Viser kun valg hvis preset="auto") -->
+  <div class="js-sh-test-select-wrapper" style="margin-bottom: 1rem;">
+    <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+      Vælg Steptest Protokol
+    </label>
+    <select class="mp-sh-select js-sh-test-select">
+      <option value="ymca_modified">YMCA Modified (Individuel ud fra kropshøjde)</option>
+      <option value="chester">Chester Step Test (Ud fra alder og form/kategori)</option>
+      <option value="dansk">Den Danske Steptest (20-35 cm ud fra højde & form)</option>
+      <option value="astrand">Åstrand-Ryhming (Standard: 40 cm M / 33 cm K)</option>
+      <option value="harvard">Harvard Step Test (Standard: 50.8 cm M / 40.6 cm K)</option>
+      <option value="queens">Queens College (Standard: 41.3 cm)</option>
+      <option value="ymca_golding">YMCA Standard (Standard: 30 cm)</option>
+    </select>
+  </div>
+
+  <!-- 2. Dynamiske Betingelser & Stamdata -->
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
+    <div style="font-size: 0.8rem; font-weight: 800; color: #334155; margin-bottom: 0.75rem;">
+      Indtast dine oplysninger
+    </div>
+
+    <div class="mp-sh-flex-container">
+      <!-- Køn -->
+      <div class="mp-sh-field mp-sh-gender-field">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Køn
+        </label>
+        <div style="height: 42px; display: flex; background: #ffffff; border-radius: 8px; padding: 2px; border: 1.5px solid #cbd5e1; box-sizing: border-box; width: 100%;">
+          <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
+            <input type="radio" name="sh_gender" value="male" class="js-sh-input" checked style="display:none;">
+            <div class="js-sh-label-male" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.825rem; font-weight: 800; border-radius: 6px; transition: all 0.15s ease;">Mand</div>
+          </label>
+          <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
+            <input type="radio" name="sh_gender" value="female" class="js-sh-input" style="display:none;">
+            <div class="js-sh-label-female" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.825rem; font-weight: 800; border-radius: 6px; transition: all 0.15s ease;">Kvinde</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Kropshøjde -->
+      <div class="mp-sh-field js-sh-height-wrapper">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Kropshøjde <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(cm)</span>
+        </label>
+        <input type="number" name="sh_height" class="mp-sh-input js-sh-input" min="120" max="220" placeholder="180" value="180">
+      </div>
+
+      <!-- Alder -->
+      <div class="mp-sh-field js-sh-age-wrapper">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Alder <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(år)</span>
+        </label>
+        <input type="number" name="sh_age" class="mp-sh-input js-sh-input" min="15" max="90" placeholder="40" value="40">
+      </div>
+
+      <!-- Aktivitetsniveau / Træningstilstand (til Chester og Dansk Steptest) -->
+      <div class="mp-sh-field js-sh-fitness-wrapper" style="flex: 1.5 1 180px; display: none;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Aktivitetsniveau / Form
+        </label>
+        <select name="sh_fitness" class="mp-sh-select js-sh-input">
+          <option value="low">Utrænet / Ældre / Lavt niveau</option>
+          <option value="active" selected>Aktiv / Middel form</option>
+          <option value="fit">Meget veltrænet / Elite / Brandmand</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Resultat Boks -->
+  <div class="mp-sh-result-box">
+    <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; color: #93c5fd; font-weight: 800;">
+      Anbefalet Stephøjde
+    </div>
+    <div class="mp-sh-result-val js-sh-result-val">34.5 cm</div>
+    <div class="mp-sh-result-note js-sh-result-note">Beregnet ud fra din kropshøjde (180 cm × 0,192 for mænd).</div>
+    
+    <div class="mp-sh-sync-badge">
+      <span>⚡</span>
+      <span>Gemt automatisk – overføres til testberegneren</span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const containers = document.querySelectorAll('.js-sh-container');
+  const ANTHRO_KEY = 'mp_user_anthropometrics';
+  const BOX_HEIGHT_KEY = 'mp_steptest_box_height';
+
+  containers.forEach(function(container) {
+    const presetTest = (container.getAttribute('data-preset-test') || 'auto').toLowerCase();
+    
+    const testSelectWrapper = container.querySelector('.js-sh-test-select-wrapper');
+    const testSelect = container.querySelector('.js-sh-test-select');
+    const inputs = container.querySelectorAll('.js-sh-input');
+    
+    const heightWrapper = container.querySelector('.js-sh-height-wrapper');
+    const ageWrapper = container.querySelector('.js-sh-age-wrapper');
+    const fitnessWrapper = container.querySelector('.js-sh-fitness-wrapper');
+    
+    const resultVal = container.querySelector('.js-sh-result-val');
+    const resultNote = container.querySelector('.js-sh-result-note');
+
+    // Lås testen hvis indlejret direkte på en specifik protokol-side
+    if (presetTest !== 'auto') {
+      if (testSelect) {
+        testSelect.value = presetTest;
+      }
+      if (testSelectWrapper) {
+        testSelectWrapper.style.display = 'none';
+      }
+    }
+
+    function loadSharedAnthro() {
+      try {
+        const saved = localStorage.getItem(ANTHRO_KEY);
+        if (saved) {
+          const data = JSON.parse(saved);
+          if (data.age && container.querySelector('[name="sh_age"]')) {
+            container.querySelector('[name="sh_age"]').value = data.age;
+          }
+          if (data.height && container.querySelector('[name="sh_height"]')) {
+            container.querySelector('[name="sh_height"]').value = data.height;
+          }
+          if (data.gender) {
+            const radio = container.querySelector(`input[name="sh_gender"][value="${data.gender}"]`);
+            if (radio) radio.checked = true;
+          }
+        }
+      } catch(e) {}
+    }
+
+    function saveSharedAnthro(gender, age, height) {
+      try {
+        const saved = JSON.parse(localStorage.getItem(ANTHRO_KEY) || '{}');
+        saved.gender = gender;
+        saved.age = age;
+        saved.height = height;
+        localStorage.setItem(ANTHRO_KEY, JSON.stringify(saved));
+      } catch(e) {}
+    }
+
+    function updateGenderUI() {
+      const genderRadios = container.querySelectorAll('input[name="sh_gender"]');
+      genderRadios.forEach(r => {
+        const box = r.nextElementSibling;
+        if (box) {
+          if (r.checked) {
+            box.style.backgroundColor = '#2563eb';
+            box.style.color = '#ffffff';
+          } else {
+            box.style.backgroundColor = 'transparent';
+            box.style.color = '#475569';
+          }
+        }
+      });
+    }
+
+    function calculate() {
+      const testKey = testSelect ? testSelect.value : 'ymca_modified';
+      const genderEl = container.querySelector('input[name="sh_gender"]:checked');
+      const gender = genderEl ? genderEl.value : 'male';
+      const isMale = (gender === 'male' || gender === 'mand');
+
+      const height = parseFloat(container.querySelector('[name="sh_height"]')?.value || 180);
+      const age = parseInt(container.querySelector('[name="sh_age"]')?.value || 40, 10);
+      const fitness = container.querySelector('[name="sh_fitness"]')?.value || 'active';
+
+      saveSharedAnthro(gender, age, height);
+      updateGenderUI();
+
+      let boxHeightCm = 30;
+      let explanation = "";
+
+      // Tilpas synlighed af felter baseret på testen
+      if (testKey === 'ymca_modified') {
+        if (heightWrapper) heightWrapper.style.display = 'block';
+        if (ageWrapper) ageWrapper.style.display = 'none';
+        if (fitnessWrapper) fitnessWrapper.style.display = 'none';
+
+        boxHeightCm = isMale ? (height * 0.192) : (height * 0.189);
+        boxHeightCm = Math.round(boxHeightCm * 2) / 2; // Afrund til nærmeste 0.5 cm
+        explanation = `Santo & Golding formel: ${height} cm × ${isMale ? '0,192' : '0,189'} for ${isMale ? 'mænd' : 'kvinder'}.`;
+
+      } else if (testKey === 'chester') {
+        if (heightWrapper) heightWrapper.style.display = 'none';
+        if (ageWrapper) ageWrapper.style.display = 'block';
+        if (fitnessWrapper) fitnessWrapper.style.display = 'block';
+
+        if (fitness === 'fit') {
+          boxHeightCm = 30;
+          explanation = "30 cm anbefales til meget veltrænede personer, atleter og brandmænd.";
+        } else if (fitness === 'low' || age >= 60) {
+          boxHeightCm = 15;
+          explanation = "15 cm anbefales til ældre eller personer med lavt aktivitetsniveau.";
+        } else if (age >= 40) {
+          boxHeightCm = 20;
+          explanation = "20 cm anbefales til aktive voksne over 40 år.";
+        } else {
+          boxHeightCm = 25;
+          explanation = "25 cm anbefales til aktive voksne under 40 år.";
+        }
+
+      } else if (testKey === 'dansk') {
+        if (heightWrapper) heightWrapper.style.display = 'block';
+        if (ageWrapper) ageWrapper.style.display = 'none';
+        if (fitnessWrapper) fitnessWrapper.style.display = 'block';
+
+        let factor = 0.175;
+        if (fitness === 'low') factor = 0.15;
+        if (fitness === 'fit') factor = 0.19;
+
+        boxHeightCm = Math.min(35, Math.max(20, Math.round(height * factor)));
+        explanation = `Den Danske Steptest anbefaler 20–35 cm tilpasset din højde (${height} cm) og form.`;
+
+      } else if (testKey === 'astrand') {
+        if (heightWrapper) heightWrapper.style.display = 'none';
+        if (ageWrapper) ageWrapper.style.display = 'none';
+        if (fitnessWrapper) fitnessWrapper.style.display = 'none';
+
+        boxHeightCm = isMale ? 40 : 33;
+        explanation = `Standard Åstrand-Ryhming bænk: 40 cm for mænd og 33 cm for kvinder.`;
+
+      } else if (testKey === 'harvard') {
+        if (heightWrapper) heightWrapper.style.display = 'none';
+        if (ageWrapper) ageWrapper.style.display = 'none';
+        if (fitnessWrapper) fitnessWrapper.style.display = 'none';
+
+        boxHeightCm = isMale ? 50.8 : 40.6;
+        explanation = `Klassisk Harvard Step bænk: 50,8 cm (20") for mænd og 40,6 cm (16") for kvinder.`;
+
+      } else if (testKey === 'queens') {
+        if (heightWrapper) heightWrapper.style.display = 'none';
+        if (ageWrapper) ageWrapper.style.display = 'none';
+        if (fitnessWrapper) fitnessWrapper.style.display = 'none';
+
+        boxHeightCm = 41.3;
+        explanation = `Queens College (McArdle) standard bænk på 41,3 cm (16,25") for alle.`;
+
+      } else { // YMCA Standard
+        if (heightWrapper) heightWrapper.style.display = 'none';
+        if (ageWrapper) ageWrapper.style.display = 'none';
+        if (fitnessWrapper) fitnessWrapper.style.display = 'none';
+
+        boxHeightCm = 30;
+        explanation = `Standard YMCA 3-minutters steptest bænk på 30 cm (12") for alle.`;
+      }
+
+      // Opdater visning
+      if (resultVal) resultVal.textContent = `${boxHeightCm} cm`;
+      if (resultNote) resultNote.textContent = explanation;
+
+      // Gem bokshøjden i localStorage og overfør automatisk til beregnermodulet hvis det er på siden
+      try {
+        localStorage.setItem(BOX_HEIGHT_KEY, boxHeightCm.toString());
+        
+        // Opdater alle 'st_step_height' felter direkte i DOM'en hvis de findes på siden
+        const calcStepInputs = document.querySelectorAll('input[name="st_step_height"]');
+        calcStepInputs.forEach(input => {
+          input.value = boxHeightCm;
+          input.dispatchEvent(new Event('input', { bubbles: true }));
+          input.dispatchEvent(new Event('change', { bubbles: true }));
+        });
+      } catch(e) {}
+    }
+
+    inputs.forEach(input => {
+      ['change', 'input', 'keyup'].forEach(ev => input.addEventListener(ev, calculate));
+    });
+
+    if (testSelect) {
+      testSelect.addEventListener('change', calculate);
+    }
+
+    loadSharedAnthro();
+    calculate();
+  });
+});
+</script>

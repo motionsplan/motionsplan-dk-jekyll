@@ -76,7 +76,7 @@ Testen adskiller sig fra andre steptests ved at have **forskelligt tempo for mæ
 1. **Forberedelse**  
    Find en bænk eller skammel, der er **41,3 cm høj**.
 2. **Start testen**  
-   Start timeren i vores interaktive guide nedenfor. Vælg timeren til dit køn, så tempoet passer. Træd op og ned af skamlen i takt med afspilleren i præcis 3 minutter.
+   Start timeren i vores interaktive guide nedenfor. Vælg timeren til dit køn, så tempoet passer. Mænd kører med 96 BPM, mens kvinder kører med 88 BPM. Træd op og ned af skamlen i takt med afspilleren i præcis 3 minutter.
 3. **Mål din puls**  
    Når de 3 minutter er gået, skal du straks blive stående, vente 5 sekunder og derefter **måle din puls i 15 sekunder** (sekund 5–20 efter stoppet). Gang dette tal med 4 for at få din genoprettelsespuls i minut-relevante slag (BPM).
 4. **Beregn dit resultat**  
@@ -87,18 +87,14 @@ Testen adskiller sig fra andre steptests ved at have **forskelligt tempo for mæ
 
 Brug timeren nedenfor til at holde den korrekte kadence under testen. Skærmen holdes automatisk tændt på din enhed.
 
-### For mænd (96 BPM / 24 step pr. min)
-{% include components/steptest-timer.html type="queens-m" %}
-
-### For kvinder (88 BPM / 22 step pr. min)
-{% include components/steptest-timer.html type="queens-f" %}
+{% include components/steptest-timer.html type="queens" %}
 
 ## Beregn dit resultat
 {: id="calculator" }
 
 Når du har målt din puls i 15 sekunder efter testen og ganget tallet med 4, kan du bruge vores beregner herunder til at estimere dit kondital.
 
-{% include calc/steptest.html test="queens" %}
+{% include calc/steptest.html test="queens" title="Beregner: Queens College" %}
 
 ## Formlen bag beregning af konditallet
 

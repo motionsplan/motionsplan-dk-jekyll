@@ -1,24 +1,68 @@
-{% assign test_type = include.type | default: page.meta.type_id | default: "custom" %}
+{% assign test_type = include.test | default: include.type | default: page.meta.type_id | default: "custom" %}
 {% assign bpm = include.bpm | default: page.meta.bpm | default: 96 %}
 {% assign duration = include.duration | default: page.meta.duration | default: 180 %}
+{% assign title = include.title | default: "Steptest Timer" %}
+
+{% case test_type %}
+  {% when "ymca" %}{% assign test_name = "YMCA 3-Minutters Steptest (96 BPM)" %}
+  {% when "ymca_modified" %}{% assign test_name = "YMCA Modified Steptest (96 BPM)" %}
+  {% when "queens" %}{% assign test_name = "Queens College Step Test" %}
+  {% when "queens-m" %}{% assign test_name = "Queens College Step Test" %}
+  {% when "queens-f" %}{% assign test_name = "Queens College Step Test" %}
+  {% when "dansk" %}{% assign test_name = "Den Danske Steptest (Progressiv 60-120 BPM)" %}
+  {% when "chester" %}{% assign test_name = "Chester Step Test (Progressiv 60-140 BPM)" %}
+  {% when "harvard" %}{% assign test_name = "Harvard Step Test (120 BPM)" %}
+  {% when "astrand" %}{% assign test_name = "Åstrand-Ryhming (90 BPM)" %}
+  {% else %}{% assign test_name = "" %}
+{% endcase %}
 
 <div class="steptest-widget" 
      data-preset="{{ test_type }}" 
      data-bpm="{{ bpm }}" 
      data-duration="{{ duration }}">
   
+  <!-- Overskrift & Fuld Skærm -->
+  <div class="steptest-header">
+    <div class="steptest-title-group">
+      <div class="steptest-title-text">{{ title }}</div>
+      {% if test_type != "custom" and test_name != "" %}
+        <div class="steptest-subtitle-text">{{ test_name }}</div>
+      {% endif %}
+    </div>
+    <button class="btn-fullscreen" type="button" title="Fuld skærm" aria-label="Fuld skærm">
+      <svg class="icon-expand" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+      <svg class="icon-compress" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>
+    </button>
+  </div>
+
   <!-- Topbar med Vælger, Lydindstilling & Status Badge -->
   <div class="steptest-topbar">
-    <select class="steptest-select">
-      <option value="ymca">YMCA 3-Minutters / Modified (96 BPM)</option>
-      <option value="queens-m">Queens College – Mænd (96 BPM)</option>
-      <option value="queens-f">Queens College – Kvinder (88 BPM)</option>
-      <option value="dansk">Den Danske Steptest (Progressiv 60-120 BPM)</option>
-      <option value="chester">Chester Step Test (Progressiv 60-140 BPM)</option>
-      <option value="harvard">Harvard Step Test (120 BPM)</option>
-      <option value="astrand">Åstrand-Ryhming (90 BPM)</option>
-      <option value="custom">Brugerdefineret</option>
-    </select>
+    {% if test_type == "custom" or test_name == "" %}
+      <select class="steptest-select">
+        <option value="ymca">YMCA 3-Minutters Steptest (96 BPM)</option>
+        <option value="ymca_modified">YMCA Modified Steptest (96 BPM)</option>
+        <option value="queens">Queens College (M: 96 BPM / K: 88 BPM)</option>
+        <option value="dansk">Den Danske Steptest (Progressiv 60-120 BPM)</option>
+        <option value="chester">Chester Step Test (Progressiv 60-140 BPM)</option>
+        <option value="harvard">Harvard Step Test (120 BPM)</option>
+        <option value="astrand">Åstrand-Ryhming (90 BPM)</option>
+        <option value="custom">Brugerdefineret</option>
+      </select>
+    {% else %}
+      <select class="steptest-select" style="display: none;">
+        <option value="{{ test_type }}">{{ test_name }}</option>
+      </select>
+    {% endif %}
+
+    <!-- M/K Omskifter (Viser kun på Queens College) -->
+    <div class="queens-gender-toggle js-queens-toggle" style="display: none;">
+      <button type="button" class="btn-gender-switch active js-gender-btn" data-gender="male" data-bpm="96">
+        👨 Mand (96 BPM)
+      </button>
+      <button type="button" class="btn-gender-switch js-gender-btn" data-gender="female" data-bpm="88">
+        👩 Kvinde (88 BPM)
+      </button>
+    </div>
 
     <div class="topbar-subrow">
       <select class="sound-select" title="Metronom-lyd">
@@ -30,7 +74,7 @@
     </div>
   </div>
 
-  <!-- Boks med Live Status (BPM og Niveau) -->
+  <!-- Boks med Live Status (BPM, Niveau, Samlet Tid) -->
   <div class="steptest-info-bar">
     <div class="info-badge">
       <span class="info-label">TEMPO</span>
@@ -40,9 +84,13 @@
       <span class="info-label">NIVEAU</span>
       <span class="info-value stage-display">1 / 1</span>
     </div>
+    <div class="info-badge">
+      <span class="info-label">SAMLET TID</span>
+      <span class="info-value total-time-display">03:00</span>
+    </div>
   </div>
 
-  <!-- Timer & Fremdriftsbar -->
+  <!-- Timer & Fremdriftsbar (Kompakt og fast låst) -->
   <div class="steptest-timer-container">
     <div class="steptest-timer timer-display">03:00</div>
     <div class="steptest-progress-track" title="Samlet fremdrift">
@@ -91,10 +139,75 @@
   font-family: system-ui, -apple-system, sans-serif;
   box-shadow: 0 8px 24px rgba(0,0,0,0.08);
   box-sizing: border-box;
+  position: relative;
 }
 
 .steptest-widget * {
   box-sizing: border-box;
+}
+
+/* Fuld skærm tilstand */
+.steptest-widget:fullscreen,
+.steptest-widget.is-fullscreen {
+  max-width: 100% !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  border-radius: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.steptest-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.steptest-title-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  text-align: left;
+}
+
+.steptest-title-text {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #1c7ed6;
+  text-align: left;
+}
+
+.steptest-subtitle-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #495057;
+  text-align: left;
+}
+
+.btn-fullscreen {
+  background: transparent;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #495057;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-fullscreen:hover {
+  background: #f1f3f5;
+  border-color: #adb5bd;
 }
 
 .steptest-topbar {
@@ -103,6 +216,7 @@
   align-items: center;
   gap: 10px;
   margin-bottom: 14px;
+  width: 100%;
 }
 
 .steptest-select {
@@ -114,6 +228,36 @@
   font-size: 0.95rem;
   background: #f8f9fa;
   color: #212529;
+}
+
+/* Queens M/K Omskifter styling */
+.queens-gender-toggle {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+  background: #f1f3f5;
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+}
+
+.btn-gender-switch {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #495057;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-gender-switch.active {
+  background: #1c7ed6;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(28, 126, 214, 0.3);
 }
 
 .topbar-subrow {
@@ -159,14 +303,17 @@
   padding: 8px;
   border-radius: 10px;
   margin-bottom: 14px;
+  width: 100%;
 }
 
 .info-badge { display: flex; flex-direction: column; }
 .info-label { font-size: 0.65rem; font-weight: 800; color: #868e96; letter-spacing: 0.5px; }
-.info-value { font-size: 1.1rem; font-weight: 800; color: #212529; }
+.info-value { font-size: 1.05rem; font-weight: 800; color: #212529; }
 
+/* Timer container – helt fast højde uden layout shift */
 .steptest-timer-container { 
   margin: 10px 0 16px 0; 
+  width: 100%;
 }
 
 .steptest-timer {
@@ -175,6 +322,11 @@
   font-variant-numeric: tabular-nums;
   color: #1c7ed6;
   line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.steptest-timer.is-prep {
+  color: #f59f00;
 }
 
 .steptest-progress-track {
@@ -191,7 +343,7 @@
   width: 0%;
   background: #228be6;
   border-radius: 4px;
-  transition: width 0.3s linear;
+  transition: width 0.1s linear;
 }
 
 .steptest-visualizer {
@@ -202,6 +354,7 @@
   padding: 12px;
   border-radius: 12px;
   margin: 16px 0;
+  width: 100%;
 }
 
 .bench-zone {
@@ -238,7 +391,7 @@
   font-weight: 900;
   font-size: 1.2rem;
   color: rgba(255,255,255,0.5);
-  transition: all 0.08s ease-in-out;
+  transition: transform 0.08s ease-in-out, background-color 0.08s ease-in-out;
 }
 
 .foot-slot.active {
@@ -249,14 +402,17 @@
 }
 
 .steptest-instruction {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   font-weight: 800;
-  min-height: 2.2rem;
+  min-height: 2.4rem;
   color: #1c7ed6;
   margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.steptest-controls { display: flex; gap: 8px; justify-content: center; }
+.steptest-controls { display: flex; gap: 8px; justify-content: center; width: 100%; }
 .steptest-controls button {
   flex: 1;
   padding: 12px;
@@ -276,8 +432,16 @@
 document.addEventListener("DOMContentLoaded", function() {
   const PRESETS = {
     'ymca': {
-      name: 'YMCA Steptest',
+      name: 'YMCA 3-Minutters Steptest',
       stages: [{ duration: 180, bpm: 96, label: 'Standard' }]
+    },
+    'ymca_modified': {
+      name: 'YMCA Modified Steptest',
+      stages: [{ duration: 180, bpm: 96, label: 'Standard' }]
+    },
+    'queens': {
+      name: 'Queens College Steptest',
+      stages: [{ duration: 180, bpm: 96, label: 'Mænd' }]
     },
     'queens-m': {
       name: 'Queens College (Mænd)',
@@ -333,22 +497,39 @@ document.addEventListener("DOMContentLoaded", function() {
     localPresets.custom.stages = [{ duration: customDuration, bpm: customBpm, label: 'Custom' }];
 
     let currentPresetKey = widget.dataset.preset && localPresets[widget.dataset.preset] ? widget.dataset.preset : 'ymca';
+    
+    // Håndter queens varianter
+    if (currentPresetKey === 'queens-m' || currentPresetKey === 'queens-f') {
+      currentPresetKey = 'queens';
+    }
+
     let activeStages = localPresets[currentPresetKey].stages;
     let stageIndex = 0;
     let stageSecondsLeft = activeStages[0].duration;
+    
+    let isCountdown = false;
+    let countdownLeft = 10;
+    
     let currentBeat = 0; 
     let leadFoot = 'right';
     let isRunning = false;
     let beatTimeoutId = null;
     let timerIntervalId = null;
+    let nextBeatTime = 0;
     let wakeLock = null;
     let audioCtx = null;
 
-    // Lokale DOM elementer
+    // DOM Elementer
+    const btnFullscreen = widget.querySelector(".btn-fullscreen");
+    const iconExpand = widget.querySelector(".icon-expand");
+    const iconCompress = widget.querySelector(".icon-compress");
     const testSelector = widget.querySelector(".steptest-select");
     const soundSelector = widget.querySelector(".sound-select");
+    const queensToggle = widget.querySelector(".js-queens-toggle");
+    const queensGenderBtns = widget.querySelectorAll(".js-gender-btn");
     const bpmDisplay = widget.querySelector(".bpm-display");
     const stageDisplay = widget.querySelector(".stage-display");
+    const totalTimeDisplay = widget.querySelector(".total-time-display");
     const timerDisplay = widget.querySelector(".timer-display");
     const progressBar = widget.querySelector(".progress-bar");
     const instruction = widget.querySelector(".steptest-instruction");
@@ -364,22 +545,63 @@ document.addEventListener("DOMContentLoaded", function() {
       rightBottom: widget.querySelector(".foot-right-bottom")
     };
 
-    let soundMode = soundSelector.value; // 'all', 'first', 'off'
+    let soundMode = soundSelector.value;
 
-    testSelector.value = currentPresetKey;
+    if (testSelector) {
+      testSelector.value = currentPresetKey;
+    }
 
     soundSelector.addEventListener("change", (e) => {
       soundMode = e.target.value;
     });
 
-    function loadPreset(key) {
-      if (isRunning) stopTest();
-      currentPresetKey = key;
-      activeStages = localPresets[key].stages;
-      stageIndex = 0;
-      stageSecondsLeft = activeStages[0].duration;
-      leadFoot = 'right';
-      updateUI();
+    // Queens M/K Omskifter event listener
+    queensGenderBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (isRunning) return;
+        queensGenderBtns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        const targetBpm = parseInt(btn.dataset.bpm, 10);
+        activeStages[0].bpm = targetBpm;
+        updateUI();
+      });
+    });
+
+    // Fuld Skærm
+    btnFullscreen.addEventListener("click", () => {
+      if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+        if (widget.requestFullscreen) {
+          widget.requestFullscreen();
+        } else if (widget.webkitRequestFullscreen) {
+          widget.webkitRequestFullscreen();
+        }
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen();
+        }
+      }
+    });
+
+    const handleFullscreenChange = () => {
+      const isFS = !!(document.fullscreenElement || document.webkitFullscreenElement);
+      widget.classList.toggle("is-fullscreen", isFS);
+      if (iconExpand && iconCompress) {
+        iconExpand.style.display = isFS ? "none" : "block";
+        iconCompress.style.display = isFS ? "block" : "none";
+      }
+    };
+
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    document.addEventListener("webkitfullscreenchange", handleFullscreenChange);
+
+    function formatTime(seconds) {
+      const secsDisplay = Math.max(0, Math.ceil(seconds));
+      const mins = Math.floor(secsDisplay / 60).toString().padStart(2, '0');
+      const secs = (secsDisplay % 60).toString().padStart(2, '0');
+      return `${mins}:${secs}`;
     }
 
     function getTotalTestDuration() {
@@ -387,27 +609,61 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function getElapsedSecondsTotal() {
+      if (isCountdown) return 0;
       let elapsed = 0;
       for (let i = 0; i < stageIndex; i++) {
         elapsed += activeStages[i].duration;
       }
       elapsed += (activeStages[stageIndex].duration - stageSecondsLeft);
-      return elapsed;
+      return Math.max(0, elapsed);
+    }
+
+    function loadPreset(key) {
+      if (isRunning) stopTest();
+      currentPresetKey = key;
+      activeStages = localPresets[key].stages;
+      stageIndex = 0;
+      stageSecondsLeft = activeStages[0].duration;
+      isCountdown = false;
+      countdownLeft = 10;
+      leadFoot = 'right';
+
+      if (queensToggle) {
+        if (key === 'queens' || key === 'queens-m' || key === 'queens-f') {
+          queensToggle.style.display = 'flex';
+          const activeBtn = widget.querySelector(".js-gender-btn.active");
+          if (activeBtn) {
+            activeStages[0].bpm = parseInt(activeBtn.dataset.bpm, 10);
+          }
+        } else {
+          queensToggle.style.display = 'none';
+        }
+      }
+
+      updateUI();
     }
 
     function updateUI() {
       const currentStage = activeStages[stageIndex];
       bpmDisplay.textContent = `${currentStage.bpm} BPM`;
       stageDisplay.textContent = `${stageIndex + 1} / ${activeStages.length}`;
-
-      const mins = Math.floor(stageSecondsLeft / 60).toString().padStart(2, '0');
-      const secs = (stageSecondsLeft % 60).toString().padStart(2, '0');
-      timerDisplay.textContent = `${mins}:${secs}`;
-
+      
       const totalDuration = getTotalTestDuration();
-      const elapsed = getElapsedSecondsTotal();
-      const progressPct = Math.min(100, Math.max(0, (elapsed / totalDuration) * 100));
-      progressBar.style.width = `${progressPct}%`;
+      totalTimeDisplay.textContent = formatTime(totalDuration);
+
+      if (isCountdown) {
+        const secs = Math.max(0, Math.ceil(countdownLeft));
+        timerDisplay.textContent = `00:${secs.toString().padStart(2, '0')}`;
+        timerDisplay.classList.add("is-prep");
+        progressBar.style.width = `0%`;
+      } else {
+        timerDisplay.classList.remove("is-prep");
+        timerDisplay.textContent = formatTime(stageSecondsLeft);
+
+        const elapsed = getElapsedSecondsTotal();
+        const progressPct = Math.min(100, Math.max(0, (elapsed / totalDuration) * 100));
+        progressBar.style.width = `${progressPct}%`;
+      }
     }
 
     function playBeep(isFirstStep) {
@@ -459,7 +715,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       const currentPreset = localPresets[currentPresetKey];
 
-      if (currentBeat === 0 && currentPreset.alternateLead) {
+      if (currentBeat === 0 && currentPreset.alternateLead && !isCountdown) {
         if (getElapsedSecondsTotal() > 0) {
           leadFoot = (leadFoot === 'right') ? 'left' : 'right';
         }
@@ -467,30 +723,33 @@ document.addEventListener("DOMContentLoaded", function() {
 
       Object.values(feet).forEach(el => el.classList.remove("active"));
       
-      // Afspil lyd baseret på valgt lydindstilling
       handleAudioForBeat(currentBeat);
+
+      if (isCountdown) {
+        instruction.textContent = "⏳ Gør dig klar! Se tempoet på 1. trin i animationen nedenunder.";
+      }
 
       if (leadFoot === 'right') {
         switch(currentBeat) {
           case 0:
             feet.rightTop.classList.add("active");
             feet.leftBottom.classList.add("active");
-            instruction.textContent = "1. Højre OP";
+            if (!isCountdown) instruction.textContent = "1. Højre OP";
             break;
           case 1:
             feet.rightTop.classList.add("active");
             feet.leftTop.classList.add("active");
-            instruction.textContent = "2. Venstre OP";
+            if (!isCountdown) instruction.textContent = "2. Venstre OP";
             break;
           case 2:
             feet.leftTop.classList.add("active");
             feet.rightBottom.classList.add("active");
-            instruction.textContent = "3. Højre NED";
+            if (!isCountdown) instruction.textContent = "3. Højre NED";
             break;
           case 3:
             feet.leftBottom.classList.add("active");
             feet.rightBottom.classList.add("active");
-            instruction.textContent = "4. Venstre NED";
+            if (!isCountdown) instruction.textContent = "4. Venstre NED";
             break;
         }
       } else {
@@ -498,22 +757,22 @@ document.addEventListener("DOMContentLoaded", function() {
           case 0:
             feet.leftTop.classList.add("active");
             feet.rightBottom.classList.add("active");
-            instruction.textContent = "1. Venstre OP";
+            if (!isCountdown) instruction.textContent = "1. Venstre OP";
             break;
           case 1:
             feet.leftTop.classList.add("active");
             feet.rightTop.classList.add("active");
-            instruction.textContent = "2. Højre OP";
+            if (!isCountdown) instruction.textContent = "2. Højre OP";
             break;
           case 2:
             feet.rightTop.classList.add("active");
             feet.leftBottom.classList.add("active");
-            instruction.textContent = "3. Venstre NED";
+            if (!isCountdown) instruction.textContent = "3. Venstre NED";
             break;
           case 3:
             feet.leftBottom.classList.add("active");
             feet.rightBottom.classList.add("active");
-            instruction.textContent = "4. Højre NED";
+            if (!isCountdown) instruction.textContent = "4. Højre NED";
             break;
         }
       }
@@ -522,7 +781,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
       const currentBpm = activeStages[stageIndex].bpm;
       const intervalMs = (60 / currentBpm) * 1000;
-      beatTimeoutId = setTimeout(scheduleNextBeat, intervalMs);
+      
+      const now = performance.now();
+      if (!nextBeatTime) nextBeatTime = now + intervalMs;
+      else nextBeatTime += intervalMs;
+
+      const delay = Math.max(0, nextBeatTime - now);
+      beatTimeoutId = setTimeout(scheduleNextBeat, delay);
     }
 
     function startTest() {
@@ -533,25 +798,46 @@ document.addEventListener("DOMContentLoaded", function() {
       btnStart.disabled = true;
       btnPause.disabled = false;
       btnReset.disabled = false;
-      testSelector.disabled = true;
+      if (testSelector) testSelector.disabled = true;
+      queensGenderBtns.forEach(b => b.disabled = true);
 
+      if (getElapsedSecondsTotal() === 0 && stageSecondsLeft === activeStages[0].duration) {
+        isCountdown = true;
+        countdownLeft = 10;
+      }
+
+      nextBeatTime = 0;
       scheduleNextBeat();
 
+      let lastTimestamp = performance.now();
+      
       timerIntervalId = setInterval(() => {
-        stageSecondsLeft--;
-        updateUI();
+        const now = performance.now();
+        const delta = (now - lastTimestamp) / 1000;
+        lastTimestamp = now;
 
-        if (stageSecondsLeft <= 0) {
-          if (stageIndex < activeStages.length - 1) {
-            stageIndex++;
-            stageSecondsLeft = activeStages[stageIndex].duration;
-            updateUI();
-          } else {
-            stopTest();
-            instruction.textContent = "🎉 Test færdig! Mål din puls med det samme.";
+        if (isCountdown) {
+          countdownLeft -= delta;
+          if (countdownLeft <= 0) {
+            isCountdown = false;
+            countdownLeft = 0;
+            stageSecondsLeft = activeStages[0].duration;
+          }
+        } else {
+          stageSecondsLeft -= delta;
+          if (stageSecondsLeft <= 0) {
+            if (stageIndex < activeStages.length - 1) {
+              stageIndex++;
+              stageSecondsLeft = activeStages[stageIndex].duration;
+            } else {
+              stopTest();
+              instruction.textContent = "🎉 Test færdig! Mål din puls med det samme.";
+              return;
+            }
           }
         }
-      }, 1000);
+        updateUI();
+      }, 100);
     }
 
     function pauseTest() {
@@ -569,9 +855,13 @@ document.addEventListener("DOMContentLoaded", function() {
       pauseTest();
       stageIndex = 0;
       stageSecondsLeft = activeStages[0].duration;
+      isCountdown = false;
+      countdownLeft = 10;
       currentBeat = 0;
       leadFoot = 'right';
-      testSelector.disabled = false;
+      if (testSelector) testSelector.disabled = false;
+      queensGenderBtns.forEach(b => b.disabled = false);
+      instruction.textContent = "Klar til start";
       updateUI();
       
       Object.values(feet).forEach(el => el.classList.remove("active"));
@@ -579,7 +869,9 @@ document.addEventListener("DOMContentLoaded", function() {
       feet.rightBottom.classList.add("active");
     }
 
-    testSelector.addEventListener("change", (e) => loadPreset(e.target.value));
+    if (testSelector) {
+      testSelector.addEventListener("change", (e) => loadPreset(e.target.value));
+    }
     btnStart.addEventListener("click", startTest);
     btnPause.addEventListener("click", pauseTest);
     btnReset.addEventListener("click", stopTest);

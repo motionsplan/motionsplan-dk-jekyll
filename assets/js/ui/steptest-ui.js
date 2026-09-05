@@ -2,28 +2,40 @@
 import { calculateStepTest, STEPTEST_FORMULAS } from '../core/steptest.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
 
+const ANTHRO_STORAGE_KEY = 'mp_user_anthropometrics';
+const RESULTS_STORAGE_KEY = 'mp_steptest_results';
+
 export function initCalculator(container) {
   if (!container) return;
 
   const presetTestGroup = (container.getAttribute('data-preset-test') || 'auto').toLowerCase();
+  const TEST_STATE_KEY = `mp_steptest_state_${presetTestGroup}`;
   
-  // Finder formler, der matcher enten testGroup (fx 'ymca') eller direkte formel key (fx 'ymca_modified' / 'chester')
   const availableFormulas = Object.keys(STEPTEST_FORMULAS).filter(key => {
     if (presetTestGroup === 'auto') return true;
     const f = STEPTEST_FORMULAS[key];
     return f.testGroup === presetTestGroup || key === presetTestGroup;
   });
 
-  const STORAGE_KEY = `mp_steptest_state_${presetTestGroup}`;
   let activeFormulaKey = availableFormulas[0] || 'ymca_kieu';
 
-  const inputs = container.querySelectorAll('.js-st-input');
+  // Antropometriske inputs (Række 1)
+  const anthroInputs = container.querySelectorAll('.js-st-anthro-input');
   const heightWrapper = container.querySelector('.js-st-height-wrapper');
   const weightWrapper = container.querySelector('.js-st-weight-wrapper');
+
+  // Testspecifikke inputs (Række 2)
+  const testInputs = container.querySelectorAll('.js-st-test-input');
+  const testNameTag = container.querySelector('.js-st-test-name-tag');
+  const stopHrBadge = container.querySelector('.js-st-stop-hr-badge');
+  const hrWrapper = container.querySelector('.js-st-hr-wrapper');
   const stepHeightWrapper = container.querySelector('.js-st-step-height-wrapper');
+  const durationWrapper = container.querySelector('.js-st-duration-wrapper');
+  const harvardP1Wrapper = container.querySelector('.js-st-harvard-p1');
+  const harvardP2Wrapper = container.querySelector('.js-st-harvard-p2');
+  const harvardP3Wrapper = container.querySelector('.js-st-harvard-p3');
 
   // Formel UI
-  const formulaSection = container.querySelector('.js-st-formula-section');
   const formulaBar = container.querySelector('.js-st-formula-bar');
   const manualWrapper = container.querySelector('.js-st-manual-dropdown-wrapper');
   const pickerContainer = container.querySelector('.js-st-picker-container');
@@ -59,9 +71,7 @@ export function initCalculator(container) {
   }
 
   function renderFormulaPicker() {
-    if (!pickerContainer) return;
-
-    if (availableFormulas.length <= 1) {
+    if (!pickerContainer || availableFormulas.length <= 1) {
       if (manualWrapper) manualWrapper.style.display = 'none';
       return;
     }
@@ -90,38 +100,30 @@ export function initCalculator(container) {
       card.addEventListener('click', () => {
         activeFormulaKey = card.getAttribute('data-formula-key');
         toggleFormulaPicker(false);
-        saveState();
         calculate();
       });
     });
   }
 
-  function saveState() {
+  // Gemmer faste antropometriske data (Alder, Køn, Højde, Vægt) på tværs
+  function saveAnthroState() {
     try {
       const state = {
-        activeFormulaKey: activeFormulaKey,
-        hr: container.querySelector('[name="st_hr"]')?.value || '',
-        age: container.querySelector('[name="st_age"]')?.value || '',
-        height: container.querySelector('[name="st_height"]')?.value || '',
-        weight: container.querySelector('[name="st_weight"]')?.value || '',
-        stepHeight: container.querySelector('[name="st_step_height"]')?.value || '',
-        gender: container.querySelector('input[name="st_gender"]:checked')?.value || 'male'
+        age: container.querySelector('[name="st_age"]')?.value || '40',
+        gender: container.querySelector('input[name="st_gender"]:checked')?.value || 'male',
+        height: container.querySelector('[name="st_height"]')?.value || '180',
+        weight: container.querySelector('[name="st_weight"]')?.value || '80'
       };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      localStorage.setItem(ANTHRO_STORAGE_KEY, JSON.stringify(state));
     } catch (e) {}
   }
 
-  function loadState() {
+  // Henter faste antropometriske data
+  function loadAnthroState() {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY);
+      const saved = localStorage.getItem(ANTHRO_STORAGE_KEY);
       if (saved) {
         const state = JSON.parse(saved);
-        if (state.activeFormulaKey && availableFormulas.includes(state.activeFormulaKey)) {
-          activeFormulaKey = state.activeFormulaKey;
-        }
-        if (state.hr && container.querySelector('[name="st_hr"]')) {
-          container.querySelector('[name="st_hr"]').value = state.hr;
-        }
         if (state.age && container.querySelector('[name="st_age"]')) {
           container.querySelector('[name="st_age"]').value = state.age;
         }
@@ -131,12 +133,80 @@ export function initCalculator(container) {
         if (state.weight && container.querySelector('[name="st_weight"]')) {
           container.querySelector('[name="st_weight"]').value = state.weight;
         }
-        if (state.stepHeight && container.querySelector('[name="st_step_height"]')) {
-          container.querySelector('[name="st_step_height"]').value = state.stepHeight;
-        }
         if (state.gender) {
           const radio = container.querySelector(`input[name="st_gender"][value="${state.gender}"]`);
           if (radio) radio.checked = true;
+        }
+      }
+    } catch (e) {}
+  }
+
+  // Gemmer testens specifikke måledata og overfører resultatet til dashboardet
+  function saveTestStateAndResult(res) {
+    try {
+      const testState = {
+        activeFormulaKey: activeFormulaKey,
+        hr: container.querySelector('[name="st_hr"]')?.value || '',
+        stepHeight: container.querySelector('[name="st_step_height"]')?.value || '',
+        duration: container.querySelector('[name="st_duration"]')?.value || '',
+        p1: container.querySelector('[name="st_p1"]')?.value || '',
+        p2: container.querySelector('[name="st_p2"]')?.value || '',
+        p3: container.querySelector('[name="st_p3"]')?.value || ''
+      };
+
+      if (res && res.isValid) {
+        let dashboardKey = activeFormulaKey;
+        if (activeFormulaKey === 'ymca_kieu' || activeFormulaKey === 'ymca_golding') {
+          dashboardKey = 'ymca';
+        }
+
+        const unit = (activeFormulaKey === 'harvard') ? 'Fitness Index' : 'ml/kg/min';
+
+        testState.lastResult = {
+          score: res.fitnessLevel,
+          unit: unit
+        };
+
+        // Opdater fælles dashboard-lager
+        const allResults = JSON.parse(localStorage.getItem(RESULTS_STORAGE_KEY) || '{}');
+        allResults[dashboardKey] = {
+          score: res.fitnessLevel,
+          unit: unit,
+          timestamp: new Date().toISOString()
+        };
+        localStorage.setItem(RESULTS_STORAGE_KEY, JSON.stringify(allResults));
+      }
+
+      localStorage.setItem(TEST_STATE_KEY, JSON.stringify(testState));
+    } catch (e) {}
+  }
+
+  // Henter testens specifikke måledata
+  function loadTestState() {
+    try {
+      const saved = localStorage.getItem(TEST_STATE_KEY);
+      if (saved) {
+        const state = JSON.parse(saved);
+        if (state.activeFormulaKey && availableFormulas.includes(state.activeFormulaKey)) {
+          activeFormulaKey = state.activeFormulaKey;
+        }
+        if (state.hr && container.querySelector('[name="st_hr"]')) {
+          container.querySelector('[name="st_hr"]').value = state.hr;
+        }
+        if (state.stepHeight && container.querySelector('[name="st_step_height"]')) {
+          container.querySelector('[name="st_step_height"]').value = state.stepHeight;
+        }
+        if (state.duration && container.querySelector('[name="st_duration"]')) {
+          container.querySelector('[name="st_duration"]').value = state.duration;
+        }
+        if (state.p1 && container.querySelector('[name="st_p1"]')) {
+          container.querySelector('[name="st_p1"]').value = state.p1;
+        }
+        if (state.p2 && container.querySelector('[name="st_p2"]')) {
+          container.querySelector('[name="st_p2"]').value = state.p2;
+        }
+        if (state.p3 && container.querySelector('[name="st_p3"]')) {
+          container.querySelector('[name="st_p3"]').value = state.p3;
         }
       }
     } catch (e) {}
@@ -158,23 +228,52 @@ export function initCalculator(container) {
     });
   }
 
+  function updateFieldVisibilities(activeDef) {
+    if (heightWrapper) heightWrapper.style.display = activeDef.requiresHeight ? 'block' : 'none';
+    if (weightWrapper) weightWrapper.style.display = activeDef.requiresWeight ? 'block' : 'none';
+
+    if (testNameTag) testNameTag.textContent = activeDef.shortName || activeDef.name;
+
+    if (hrWrapper) hrWrapper.style.display = activeDef.requiresPulse ? 'block' : 'none';
+    if (stepHeightWrapper) stepHeightWrapper.style.display = activeDef.requiresStepHeight ? 'block' : 'none';
+    if (durationWrapper) durationWrapper.style.display = activeDef.requiresDuration ? 'block' : 'none';
+
+    if (harvardP1Wrapper) harvardP1Wrapper.style.display = activeDef.requiresHarvardP ? 'block' : 'none';
+    if (harvardP2Wrapper) harvardP2Wrapper.style.display = activeDef.requiresHarvardP ? 'block' : 'none';
+    if (harvardP3Wrapper) harvardP3Wrapper.style.display = activeDef.requiresHarvardP ? 'block' : 'none';
+
+    if (activeFormulaKey === 'chester') {
+      const age = parseInt(container.querySelector('[name="st_age"]')?.value || 40, 10);
+      const stopHr = Math.round((220 - age) * 0.80);
+      if (stopHrBadge) {
+        stopHrBadge.textContent = `🛑 Max stop-puls (80%): ${stopHr} BPM`;
+        stopHrBadge.style.display = 'inline-block';
+      }
+    } else if (stopHrBadge) {
+      stopHrBadge.style.display = 'none';
+    }
+  }
+
   function calculate() {
-    saveState();
+    saveAnthroState();
     updateGenderUI();
+
+    const activeDef = STEPTEST_FORMULAS[activeFormulaKey] || STEPTEST_FORMULAS.ymca_kieu;
+    updateFieldVisibilities(activeDef);
 
     const hr = container.querySelector('[name="st_hr"]')?.value || '';
     const age = parseInt(container.querySelector('[name="st_age"]')?.value || 0, 10);
     const height = parseFloat(container.querySelector('[name="st_height"]')?.value || 180);
     const weight = parseFloat(container.querySelector('[name="st_weight"]')?.value || 80);
-    const stepHeight = parseFloat(container.querySelector('[name="st_step_height"]')?.value || 30.5);
+    const stepHeight = parseFloat(container.querySelector('[name="st_step_height"]')?.value || 25);
+    const duration = parseFloat(container.querySelector('[name="st_duration"]')?.value || 300);
+
+    const p1 = container.querySelector('[name="st_p1"]')?.value || '';
+    const p2 = container.querySelector('[name="st_p2"]')?.value || '';
+    const p3 = container.querySelector('[name="st_p3"]')?.value || '';
+
     const genderEl = container.querySelector('input[name="st_gender"]:checked');
     const gender = genderEl ? genderEl.value : 'male';
-
-    const activeDef = STEPTEST_FORMULAS[activeFormulaKey] || STEPTEST_FORMULAS.ymca_kieu;
-
-    if (heightWrapper) heightWrapper.style.display = activeDef.requiresHeight ? 'block' : 'none';
-    if (weightWrapper) weightWrapper.style.display = activeDef.requiresWeight ? 'block' : 'none';
-    if (stepHeightWrapper) stepHeightWrapper.style.display = activeDef.requiresStepHeight ? 'block' : 'none';
 
     if (formulaBar && activeDef) {
       const showGear = availableFormulas.length > 1;
@@ -209,12 +308,16 @@ export function initCalculator(container) {
     const res = calculateStepTest({
       formulaKey: activeFormulaKey,
       hr,
+      p1, p2, p3,
+      duration,
       age,
       gender,
       height,
       weight,
       stepHeight
     });
+
+    saveTestStateAndResult(res);
 
     if (res && res.isValid) {
       if (resFitness) resFitness.textContent = res.fitnessLevel;
@@ -232,7 +335,7 @@ export function initCalculator(container) {
       }
 
       const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
-      const userAge = age > 0 ? age : 30;
+      const userAge = age > 0 ? age : 40;
       const evaluation = evaluateFitnessLevel(parseFloat(res.fitnessLevel), userAge, normGender);
 
       if (evaluation && age > 0) {
@@ -323,12 +426,16 @@ export function initCalculator(container) {
       resEvalBtn.style.color = '#64748b';
     }
     if (infoTitle) infoTitle.textContent = 'Valgt Steptest';
-    if (infoDesc) infoDesc.textContent = 'Indtast din testpuls for at se dit kondital.';
+    if (infoDesc) infoDesc.textContent = 'Indtast måledata for at se dit kondital.';
     if (harvardBox) harvardBox.style.display = 'none';
     if (marker) marker.style.display = 'none';
   }
 
-  inputs.forEach(input => {
+  anthroInputs.forEach(input => {
+    ['input', 'change', 'keyup'].forEach(ev => input.addEventListener(ev, calculate));
+  });
+
+  testInputs.forEach(input => {
     ['input', 'change', 'keyup'].forEach(ev => input.addEventListener(ev, calculate));
   });
 
@@ -349,25 +456,20 @@ export function initCalculator(container) {
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
-      activeFormulaKey = availableFormulas[0] || 'ymca_kieu';
-      toggleFormulaPicker(false);
-      
-      const hrInput = container.querySelector('[name="st_hr"]');
-      const ageInput = container.querySelector('[name="st_age"]');
-      const heightInput = container.querySelector('[name="st_height"]');
-      const weightInput = container.querySelector('[name="st_weight"]');
-      const stepHeightInput = container.querySelector('[name="st_step_height"]');
-      const maleRadio = container.querySelector('input[name="st_gender"][value="male"]');
+      testInputs.forEach(inp => inp.value = '');
+      try {
+        localStorage.removeItem(TEST_STATE_KEY);
 
-      if (hrInput) hrInput.value = '120';
-      if (ageInput) ageInput.value = '40';
-      if (heightInput) heightInput.value = '180';
-      if (weightInput) weightInput.value = '80';
-      if (stepHeightInput) stepHeightInput.value = '30.5';
-      if (maleRadio) maleRadio.checked = true;
+        let dashboardKey = activeFormulaKey;
+        if (activeFormulaKey === 'ymca_kieu' || activeFormulaKey === 'ymca_golding') {
+          dashboardKey = 'ymca';
+        }
 
-      if (popup) popup.style.display = 'none';
+        const allResults = JSON.parse(localStorage.getItem(RESULTS_STORAGE_KEY) || '{}');
+        delete allResults[dashboardKey];
+        localStorage.setItem(RESULTS_STORAGE_KEY, JSON.stringify(allResults));
+      } catch (e) {}
+
       calculate();
     });
   }
@@ -388,7 +490,8 @@ export function initCalculator(container) {
     });
   }
 
-  loadState();
+  loadAnthroState();
+  loadTestState();
   calculate();
 }
 

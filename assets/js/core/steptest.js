@@ -6,23 +6,27 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'ymca',
     name: 'YMCA – Kieu et al. (2020)',
     shortName: 'YMCA (Kieu)',
-    desc: 'Moderne og højdepræcis model. Inddrager alder, højde, vægt og 1-minutters genoprettelsespuls.',
+    desc: 'Inddrager alder, højde, vægt og 1-minutters genoprettelsespuls.',
     see: '±4.1 ml/kg/min',
     requiresWeight: true,
     requiresHeight: true,
     requiresStepHeight: false,
+    requiresPulse: true,
+    requiresDuration: false,
     isRecommended: true
   },
   ymca_modified: {
     key: 'ymca_modified',
     testGroup: 'ymca',
-    name: 'YMCA Modified (Justerbar stephøjde)',
+    name: 'YMCA Modified (Santo & Golding)',
     shortName: 'YMCA Modificeret',
-    desc: 'Modificeret YMCA-test hvor bænkens højde tilpasses. Beregner VO₂max ud fra stephøjde, vægt, alder og puls.',
+    desc: 'Modificeret YMCA-test hvor bænkens højde tilpasses din kropshøjde.',
     see: '±4.3 ml/kg/min',
-    requiresWeight: true,
-    requiresHeight: false,
+    requiresWeight: false,
+    requiresHeight: true,
     requiresStepHeight: true,
+    requiresPulse: true,
+    requiresDuration: false,
     isRecommended: false
   },
   ymca_golding: {
@@ -30,11 +34,13 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'ymca',
     name: 'YMCA – Golding et al. (Standard)',
     shortName: 'YMCA (Klassisk)',
-    desc: 'Klassisk YMCA-standardmodel baseret udelukkende på din genoprettelsespuls og køn.',
+    desc: 'Klassisk YMCA-standardmodel baseret på genoprettelsespuls og køn.',
     see: '±4.8 ml/kg/min',
     requiresWeight: false,
     requiresHeight: false,
     requiresStepHeight: false,
+    requiresPulse: true,
+    requiresDuration: false,
     isRecommended: false
   },
   queens: {
@@ -42,11 +48,13 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'queens',
     name: 'Queens College Steptest (McArdle)',
     shortName: 'Queens College',
-    desc: '3 minutter på 41,3 cm bænk (24 step/min mænd / 22 kvinder). Pulsen tælles i 15 sek.',
+    desc: '3 minutter på 41,3 cm bænk. Måler 15-sekunders genoprettelsespuls (omregnet til BPM).',
     see: '±3.8 ml/kg/min',
     requiresWeight: false,
     requiresHeight: false,
     requiresStepHeight: false,
+    requiresPulse: true,
+    requiresDuration: false,
     isRecommended: true
   },
   astrand: {
@@ -54,11 +62,13 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'astrand',
     name: 'Åstrand-Ryhming Steptest',
     shortName: 'Åstrand Step',
-    desc: '6 minutter på bænk (40 cm mænd / 33 cm kvinder). Måler arbejdispuls i 5.-6. minut.',
+    desc: '6 minutter på bænk (40 cm mænd / 33 cm kvinder). Måler steady-state arbejdspuls i 5.-6. min.',
     see: '±4.0 ml/kg/min',
     requiresWeight: true,
     requiresHeight: false,
     requiresStepHeight: false,
+    requiresPulse: true,
+    requiresDuration: false,
     isRecommended: true
   },
   chester: {
@@ -66,11 +76,13 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'chester',
     name: 'Chester Step Test',
     shortName: 'Chester Step',
-    desc: 'Progressiv steptest. Estimerer VO₂max ud fra din arbejdspuls, stephøjde (15-30 cm) og alder.',
+    desc: 'Progressiv steptest (max 80% HRmax). Ekstrapolerer VO₂max ud fra arbejdspuls og bokshøjde.',
     see: '±3.5 ml/kg/min',
     requiresWeight: true,
     requiresHeight: false,
     requiresStepHeight: true,
+    requiresPulse: true,
+    requiresDuration: false,
     isRecommended: true
   },
   harvard: {
@@ -78,11 +90,28 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'harvard',
     name: 'Harvard Step Test',
     shortName: 'Harvard Step',
-    desc: '5 minutter på høj bænk (50,8 cm mænd / 40,6 cm kvinder). Beregner et Fitness Index.',
+    desc: 'Intensiv test på høj bænk (50,8 / 40,6 cm). Udregner Fitness Index ud fra restitution.',
     see: 'Fitness Index',
     requiresWeight: false,
     requiresHeight: false,
     requiresStepHeight: false,
+    requiresPulse: false,
+    requiresHarvardP: true,
+    requiresDuration: true,
+    isRecommended: true
+  },
+  dansk: {
+    key: 'dansk',
+    testGroup: 'dansk',
+    name: 'Den Danske Steptest',
+    shortName: 'Den Danske Steptest',
+    desc: 'Progressiv test UDEN pulsmåling. Estimerer VO₂max ud fra trinhøjde, vægt og gennemført tid.',
+    see: 'Moderat',
+    requiresWeight: true,
+    requiresHeight: false,
+    requiresStepHeight: true,
+    requiresPulse: false,
+    requiresDuration: true,
     isRecommended: true
   }
 };
@@ -104,17 +133,24 @@ function getAstrandAgeFactor(age) {
 /**
  * Beregner kondital for den valgte steptest-formel
  */
-export function calculateStepTest({ formulaKey = 'ymca_kieu', hr, age = 30, gender = 'male', height = 175, weight = 70, stepHeight = 30.5 }) {
+export function calculateStepTest({
+  formulaKey = 'ymca_kieu',
+  hr,
+  p1, p2, p3,
+  duration,
+  age = 40,
+  gender = 'male',
+  height = 180,
+  weight = 80,
+  stepHeight = 25
+}) {
   const heartRate = parseFloat(hr);
-  const userAge = parseInt(age, 10) || 30;
-  const userHeight = parseFloat(height) || 175;
-  const bodyWeight = parseFloat(weight) || 70;
-  const boxHeightCm = parseFloat(stepHeight) || 30.5;
+  const userAge = parseInt(age, 10) || 40;
+  const userHeight = parseFloat(height) || 180;
+  const bodyWeight = parseFloat(weight) || 80;
+  const boxHeightCm = parseFloat(stepHeight) || 25;
+  const testDuration = parseFloat(duration) || 300;
   const isMale = (gender === 'male' || gender === 'mand');
-
-  if (isNaN(heartRate) || heartRate <= 30 || heartRate > 220) {
-    return { isValid: false };
-  }
 
   let vo2max = 0;
   let fitnessIndex = null;
@@ -122,7 +158,7 @@ export function calculateStepTest({ formulaKey = 'ymca_kieu', hr, age = 30, gend
 
   switch (key) {
     case 'ymca_kieu':
-      // Kieu et al. (2020) PMC7171059
+      if (isNaN(heartRate) || heartRate <= 30) return { isValid: false };
       if (isMale) {
         vo2max = 70.597 - (0.246 * userAge) + (0.077 * userHeight) - (0.222 * bodyWeight) - (0.147 * heartRate);
       } else {
@@ -130,23 +166,14 @@ export function calculateStepTest({ formulaKey = 'ymca_kieu', hr, age = 30, gend
       }
       break;
 
-    case 'ymca_modified': {
-      // ACSM submax stepper-ligning justeret for bænkens højde i meter
-      const heightMeters = boxHeightCm / 100;
-      const cadence = 24; // 24 step/min (96 bpm)
-      const vo2Submax = (0.2 * cadence) + (1.8 * cadence * heightMeters * 1.33) + 3.5;
-      
-      const maxHR = 208 - (0.7 * userAge);
-      const hrRestingEst = 61;
-      
-      const hrRatio = Math.max(0.3, (maxHR - hrRestingEst) / Math.max(1, heartRate - hrRestingEst));
-      vo2max = vo2Submax * hrRatio;
-
-      if (!isMale) vo2max *= 0.92;
+    case 'ymca_modified':
+      if (isNaN(heartRate) || heartRate <= 30) return { isValid: false };
+      // Santo & Golding (2003): VO2max = 76.710 - (0.2805 * HR_1min)
+      vo2max = 76.710 - (0.2805 * heartRate);
       break;
-    }
 
     case 'ymca_golding':
+      if (isNaN(heartRate) || heartRate <= 30) return { isValid: false };
       if (isMale) {
         vo2max = 70.03 - (0.35 * heartRate);
       } else {
@@ -155,6 +182,7 @@ export function calculateStepTest({ formulaKey = 'ymca_kieu', hr, age = 30, gend
       break;
 
     case 'queens':
+      if (isNaN(heartRate) || heartRate <= 30) return { isValid: false };
       if (isMale) {
         vo2max = 111.33 - (0.42 * heartRate);
       } else {
@@ -163,6 +191,7 @@ export function calculateStepTest({ formulaKey = 'ymca_kieu', hr, age = 30, gend
       break;
 
     case 'astrand': {
+      if (isNaN(heartRate) || heartRate <= 30) return { isValid: false };
       const ageFactor = getAstrandAgeFactor(userAge);
       let rawVo2L = isMale ? ((192 - heartRate) / 32 + 1.5) : ((188 - heartRate) / 30 + 1.2);
       if (rawVo2L <= 0) rawVo2L = 1.0;
@@ -171,12 +200,13 @@ export function calculateStepTest({ formulaKey = 'ymca_kieu', hr, age = 30, gend
     }
 
     case 'chester': {
-      // Chester Step Test (ACSM submax beregning baseret på stephøjde og puls)
+      if (isNaN(heartRate) || heartRate <= 30) return { isValid: false };
+      // Chester submax beregning baseret på bokshøjde og ekstrapolation til HRmax (220 - alder)
       const heightMeters = boxHeightCm / 100;
-      const cadence = 25; // typisk submax niveau (niveau 3 / 100 bpm)
+      const cadence = 25; // typisk niveau 3 (100 BPM)
       const vo2Submax = (0.2 * cadence) + (1.8 * cadence * heightMeters * 1.33) + 3.5;
       
-      const maxHR = 208 - (0.7 * userAge);
+      const maxHR = 220 - userAge;
       const hrRestingEst = 60;
 
       const hrRatio = Math.max(0.3, (maxHR - hrRestingEst) / Math.max(1, heartRate - hrRestingEst));
@@ -186,10 +216,36 @@ export function calculateStepTest({ formulaKey = 'ymca_kieu', hr, age = 30, gend
       break;
     }
 
-    case 'harvard':
-      fitnessIndex = ((300 * 100) / (2 * heartRate)).toFixed(1);
-      vo2max = (fitnessIndex * 0.55) + 12;
+    case 'harvard': {
+      const valP1 = parseFloat(p1);
+      const valP2 = parseFloat(p2);
+      const valP3 = parseFloat(p3);
+
+      if (isNaN(valP1) || valP1 <= 0) return { isValid: false };
+
+      if (!isNaN(valP2) && !isNaN(valP3) && valP2 > 0 && valP3 > 0) {
+        // Lang formel: (tid_sek * 100) / (2 * (P1 + P2 + P3))
+        fitnessIndex = ((testDuration * 100) / (2 * (valP1 + valP2 + valP3))).toFixed(1);
+      } else {
+        // Kort formel: (tid_sek * 100) / (5.5 * P1)
+        fitnessIndex = ((testDuration * 100) / (5.5 * valP1)).toFixed(1);
+      }
+
+      const fiNum = parseFloat(fitnessIndex);
+      vo2max = (fiNum * 0.55) + 12;
       break;
+    }
+
+    case 'dansk': {
+      // Den Danske Steptest: Ingen puls! Baseret på gennemført tid (sek) og stephøjde (cm)
+      if (isNaN(testDuration) || testDuration <= 0) return { isValid: false };
+      const timeInSec = Math.min(360, testDuration);
+      
+      // Zacho/Aadahl fysiologisk approksimationsmodel for præstation på Danske Steptest
+      vo2max = (0.118 * timeInSec) + (0.75 * boxHeightCm) - 4.5;
+      if (!isMale) vo2max *= 0.90;
+      break;
+    }
   }
 
   if (vo2max <= 0 || isNaN(vo2max)) {

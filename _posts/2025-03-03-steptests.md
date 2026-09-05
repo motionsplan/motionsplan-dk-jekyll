@@ -28,6 +28,20 @@ tags:
 last_modified_at: 2026-07-27T10:00:00Z
 toc: true
 breadcrumbs: true
+tools:
+  - id: "tool-steptest-dashboard"
+    title: "Steptest Dashboard"
+    description: "Interaktivt steptest-dashboard til samlet registrering, overblik og sammenligning af dit kondital (VO2max) og restitutionspuls på tværs af forskellige steptest-protokoller."
+    category: ["Kondition", "Beregnere", "Tests"]
+    type: ["Beregner", "Dashboard"]
+    measures: ["Kondital", "VO2max", "Fitness Index", "Restitutionspuls", "Testoversigt"]
+    anchor: "#dashboard"
+    category_schema: "HealthAndFitnessApplication"
+dashboards:
+  - title: "Steptest Dashboard"
+    url: "/kondital-fra-steptest/#dashboard"
+    icon: "📊"
+    description: "Sammenlign dine testresultater og kondital på tværs af de enkelte steptests."
 faq:
   - question: "Hvor høj skal en stepbænk være til en steptest?"
     answer: "Bokshøjden afhænger helt af den specifikke test. Den varierer fra 15 cm i Chester Step Test op til 50,8 cm i den klassiske Harvard Step Test. Flere nyere tests, som den Modificerede YMCA-test, tilpasser højden direkte til din kropshøjde."
@@ -85,15 +99,10 @@ De forskellige steptests varierer i intensitet, testens varighed og hvordan resu
 
 ---
 
-## Timer til steptests
+## Oversigt over vores online steptests
+{: id="dashboard" }
 
-{% include components/steptest-timer.html %}
-
----
-
-## Beregn kondital fra steptests
-
-{% include calc/steptest.html %}
+{% include components/steptest-dashboard.html %}
 
 ---
 

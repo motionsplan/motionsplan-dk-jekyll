@@ -68,14 +68,14 @@ Hvis du leder efter en mere skånsom test, kan du se [YMCA 3-minutters steptest]
 
 Harvard Step Test måler din krops evne til at restituere efter hårdt arbejde. I stedet for kun at måle iltoptagelse direkte, beregner testen et såkaldt **Fitness Index** (fysisk ydeevne-indeks) baseret på, hvor hurtigt din puls falder efter 5 minutters intensivt steppearbejde.
 
-* **Bokshøjde:** 50,8 cm (20 tommer) for mænd / 40,6 cm for kvinder.
-* **Tempo:** 30 step pr. minut (120 taktslag/minut).
+* **Bokshøjde:** 50,8 cm for mænd / 40,6 cm for kvinder.
+* **Tempo:** 30 step pr. minut (120 taktslag/minut eller BPM).
 * **Varighed:** Op til 5 minutter (300 sekunder).
 
 ## Sådan udfører du Harvard Step Test
 
 1. **Forberedelse**  
-   Find en bænk eller kasse på **50,8 cm** (eller 40,6 cm for kvinder). 
+   Find en bænk eller kasse på **50,8 cm for mænd** eller **40,6 cm for kvinder**. 
 2. **Gennemfør testen**  
    Start timeren nedenfor og træd op og ned i takt med metronomen i op til **5 minutter** (120 BPM / 30 step pr. minut). Hvis du ikke kan holde tempoet i 5 minutter, stopper du testen og noterer den nøjagtige tid, du holdt ud.
 3. **Hvile og pulsmåling**  
@@ -89,14 +89,14 @@ Harvard Step Test måler din krops evne til at restituere efter hårdt arbejde. 
 
 Brug afspilleren nedenfor til at holde den korrekte takt (120 BPM) under testen. Skærmen holdes automatisk tændt på din enhed.
 
-{% include components/steptest-timer.html type="harvard" %}
+{% include components/steptest-timer.html type="harvard" title="Harvard step timer" %}
 
 ## Beregn dit resultat
 {: id="calculator" }
 
 Indtast din gennemførte tid og dine tre 30-sekunders pulsmålinger herunder for at beregne dit **Fitness Index**:
 
-{% include calc/steptest.html test="harvard" %}
+{% include calc/steptest.html test="harvard" title="Beregner: Harvard Steptest" %}
 
 ## Formlen bag Harvard Step Test
 

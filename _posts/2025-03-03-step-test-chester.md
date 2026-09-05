@@ -81,6 +81,8 @@ Modsat mange andre tests tilpasses bokshøjden ud fra din alder og dit nuværend
 * **25 cm:** Aktive voksne under 40 år.
 * **30 cm:** Meget veltrænede personer eller erhvervsgrupper (fx brandmænd).
 
+{% include components/steptest-stepheight.html test="chester" %}
+
 ## Sådan udfører du Chester Step Test
 
 1. **Forberedelse**  

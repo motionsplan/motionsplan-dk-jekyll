@@ -1,4 +1,7 @@
+{% assign title_text = include.title | default: "Steptest Beregner" %}
+{% assign desc_text = include.description | default: "Beregn dit kondital ud fra din test." %}
 {% assign preset_test = include.test | default: "auto" %}
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
 <style>
@@ -16,7 +19,6 @@
     width: 100% !important;
   }
 
-  /* FLEKSIBELT CONTAINER-LAYOUT DER FORHINDRER KLEMTE KNAPPER OG OVERLAP */
   .mp-st-flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -30,8 +32,8 @@
   }
 
   .mp-st-gender-field {
-    flex: 1.5 1 170px;
-    min-width: 170px;
+    flex: 1.5 1 150px;
+    min-width: 150px;
   }
 
   .mp-st-auto-badge { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.25rem; }
@@ -55,17 +57,31 @@
     gap: 0.35rem; font-size: 0.8rem; font-weight: 800; padding: 0.35rem 0.75rem; border-radius: 6px; background: #e2e8f0; color: #64748b; transition: all 0.15s ease; align-self: center;
   }
   .mp-badge-btn-hero:hover { transform: translateY(-1px); box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+  
+  .mp-st-info-badge-inline {
+    display: inline-block;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #334155;
+    font-size: 0.725rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+    margin-top: 0.35rem;
+  }
 </style>
 
 <div class="mp-calc-card vbt-premium-card" data-calculator="steptest" data-ui-module="steptest-ui" data-preset-test="{{ preset_test }}" style="max-width: 680px; margin: 0 auto; position: relative;">
 
-  <!-- Header -->
+  <!-- Header uden <hx> -->
   <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.85rem; margin-bottom: 1.15rem; display: flex; justify-content: space-between; align-items: flex-start;">
     <div>
-      <h3 class="mp-calc-title js-st-main-title" style="margin: 0 0 4px 0;">🪜 Steptest Beregner</h3>
-      <p class="js-st-main-desc" style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
-        Beregn dit kondital ud fra din testpuls efter steptesten.
-      </p>
+      <div class="mp-calc-title js-st-main-title" style="margin: 0 0 4px 0; font-size: 1.15rem; font-weight: 800; color: #0f172a;">
+        🪜 {{ title_text }}
+      </div>
+      <div class="js-st-main-desc" style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        {{ desc_text }}
+      </div>
     </div>
     <div data-html2canvas-ignore="true">
       <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
@@ -74,9 +90,9 @@
 
   <!-- 1. FORMEL / TEST VÆLGER -->
   <div class="js-st-formula-section" style="margin-bottom: 1.25rem;">
-    <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+    <div style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
       1. Vælg beregningsformel / test
-    </label>
+    </div>
 
     <div class="js-st-formula-bar mp-st-auto-badge"></div>
 
@@ -85,49 +101,19 @@
     </div>
   </div>
 
-  <!-- 2. STAMDATA INPUTS -->
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
-    <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">2. Indtast din puls og stamdata</h4>
+  <!-- 2. RÆKKE 1: FAST STAMDATA (Gemmes i LocalStorage på tværs) -->
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1rem;">
+    <div style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">
+      2. Stamdata (Gemmes automatisk)
+    </div>
 
     <div class="mp-st-flex-container">
-      <!-- Testpuls -->
-      <div class="mp-st-field">
-        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
-          Testpuls <span class="js-st-hr-unit" style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(slag/min)</span>
-        </label>
-        <input type="number" name="st_hr" class="mp-st-input js-st-input" min="40" max="220" placeholder="120" value="120">
-      </div>
-
       <!-- Alder -->
       <div class="mp-st-field">
         <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
           Alder <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(år)</span>
         </label>
-        <input type="number" name="st_age" class="mp-st-input js-st-input" min="15" max="90" placeholder="40" value="40">
-      </div>
-
-      <!-- Højde -->
-      <div class="mp-st-field js-st-height-wrapper" style="display: none;">
-        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
-          Højde <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(cm)</span>
-        </label>
-        <input type="number" name="st_height" class="mp-st-input js-st-input" min="120" max="220" placeholder="180" value="180">
-      </div>
-
-      <!-- Vægt -->
-      <div class="mp-st-field js-st-weight-wrapper" style="display: none;">
-        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
-          Vægt <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(kg)</span>
-        </label>
-        <input type="number" name="st_weight" class="mp-st-input js-st-input" min="30" max="200" placeholder="80" value="80">
-      </div>
-
-      <!-- Stephøjde -->
-      <div class="mp-st-field js-st-step-height-wrapper" style="display: none;">
-        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
-          Stephøjde <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(cm)</span>
-        </label>
-        <input type="number" name="st_step_height" class="mp-st-input js-st-input" min="10" max="60" step="0.5" placeholder="30.5" value="30.5">
+        <input type="number" name="st_age" class="mp-st-input js-st-anthro-input" min="15" max="90" placeholder="40" value="40">
       </div>
 
       <!-- Køn Toggle -->
@@ -137,19 +123,93 @@
         </label>
         <div style="height: 42px; display: flex; background: #ffffff; border-radius: 8px; padding: 2px; border: 1.5px solid #cbd5e1; box-sizing: border-box; width: 100%;">
           <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
-            <input type="radio" name="st_gender" value="male" class="js-st-input" checked style="display:none;">
+            <input type="radio" name="st_gender" value="male" class="js-st-anthro-input" checked style="display:none;">
             <div class="js-st-label-male" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.825rem; font-weight: 800; border-radius: 6px; transition: all 0.15s ease;">Mand</div>
           </label>
           <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
-            <input type="radio" name="st_gender" value="female" class="js-st-input" style="display:none;">
+            <input type="radio" name="st_gender" value="female" class="js-st-anthro-input" style="display:none;">
             <div class="js-st-label-female" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.825rem; font-weight: 800; border-radius: 6px; transition: all 0.15s ease;">Kvinde</div>
           </label>
         </div>
       </div>
+
+      <!-- Højde -->
+      <div class="mp-st-field js-st-height-wrapper">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Højde <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(cm)</span>
+        </label>
+        <input type="number" name="st_height" class="mp-st-input js-st-anthro-input" min="120" max="220" placeholder="180" value="180">
+      </div>
+
+      <!-- Vægt -->
+      <div class="mp-st-field js-st-weight-wrapper">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Vægt <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(kg)</span>
+        </label>
+        <input type="number" name="st_weight" class="mp-st-input js-st-anthro-input" min="30" max="200" placeholder="80" value="80">
+      </div>
     </div>
   </div>
 
-  <!-- 3. RESULTATER -->
+  <!-- 3. RÆKKE 2: TESTSPECIFIKKE DATAPUNKTER (Huskes ikke på tværs) -->
+  <div class="js-st-test-row" style="background: #ffffff; border: 1.5px solid #2563eb; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem; box-shadow: 0 4px 12px rgba(37,99,235,0.05);">
+    <div style="font-size: 0.825rem; font-weight: 800; color: #1e40af; margin: 0 0 0.85rem 0; display: flex; justify-content: space-between; align-items: center;">
+      <span>3. Testens Måledata (<span class="js-st-test-name-tag">Valgt test</span>)</span>
+      <span class="js-st-stop-hr-badge mp-st-info-badge-inline" style="display: none;"></span>
+    </div>
+
+    <div class="mp-st-flex-container">
+      
+      <!-- Standard Testpuls -->
+      <div class="mp-st-field js-st-hr-wrapper">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Testpuls / Slutpuls <span class="js-st-hr-unit" style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(slag/min)</span>
+        </label>
+        <input type="number" name="st_hr" class="mp-st-input js-st-test-input" min="40" max="220" placeholder="120">
+      </div>
+
+      <!-- Stephøjde / Bokshøjde -->
+      <div class="mp-st-field js-st-step-height-wrapper" style="display: none;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Bokshøjde <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(cm)</span>
+        </label>
+        <input type="number" name="st_step_height" class="mp-st-input js-st-test-input" min="10" max="60" step="0.5" placeholder="25" value="25">
+      </div>
+
+      <!-- Testvarighed / Gennemført tid -->
+      <div class="mp-st-field js-st-duration-wrapper" style="display: none;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Gennemført tid <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(sekunder)</span>
+        </label>
+        <input type="number" name="st_duration" class="mp-st-input js-st-test-input" min="10" max="600" placeholder="300" value="300">
+      </div>
+
+      <!-- Harvard Pulsmålinger -->
+      <div class="mp-st-field js-st-harvard-p1" style="display: none;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          P₁ (1-1.5 min) <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(30s tælling)</span>
+        </label>
+        <input type="number" name="st_p1" class="mp-st-input js-st-test-input" min="10" max="120" placeholder="45">
+      </div>
+
+      <div class="mp-st-field js-st-harvard-p2" style="display: none;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          P₂ (2-2.5 min) <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(valgfri)</span>
+        </label>
+        <input type="number" name="st_p2" class="mp-st-input js-st-test-input" min="10" max="120" placeholder="38">
+      </div>
+
+      <div class="mp-st-field js-st-harvard-p3" style="display: none;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          P₃ (3-3.5 min) <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(valgfri)</span>
+        </label>
+        <input type="number" name="st_p3" class="mp-st-input js-st-test-input" min="10" max="120" placeholder="32">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 4. RESULTATER -->
   <div style="margin-bottom: 1.5rem; position: relative !important;">
     <div class="mp-results-split">
       
@@ -205,7 +265,7 @@
             <strong style="font-weight: 800; font-size: 0.8rem; color: #334155;" class="js-st-info-title">Valgt Steptest</strong>
           </div>
           <div style="font-size: 0.725rem; color: #64748b; line-height: 1.35;" class="js-st-info-desc">
-            Indtast din testpuls for at se dit kondital.
+            Indtast dine måledata for at se dit kondital.
           </div>
         </div>
 
@@ -215,7 +275,7 @@
     <!-- POPUP OVERLAY FOR NORM-TABEL -->
     <div class="js-st-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
-        <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</h4>
+        <div style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</div>
         <button type="button" class="js-st-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
       </div>
 

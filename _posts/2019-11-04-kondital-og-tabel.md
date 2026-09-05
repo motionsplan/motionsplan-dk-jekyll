@@ -189,7 +189,7 @@ Du kan forbedre dit kondital på to måder: enten ved at forbedre din maksimale 
 For at kunne bruge tabellerne skal du kende dit kondital. Der findes overordnet tre måder at finde det på, alt efter hvor præcist et svar du ønsker:
 
 * **1. Direkte laboratorietest (mest præcis):** Du løber eller cykler med en maske, som måler din præcise iltoptagelse ($VO_2max$) ved maksimal udmattelse.
-* **2. Fysiske felttests (ret præcise):** Du udfører en maksimal præstationstest i træningstøjet — som fx en [Cooper-test](/cooper-test/), [Bip-test](/bip-test/) eller [Watt-max test](/kondital-wattmax/) — hvor din ydeevne omregnes til et kondital.
+* **2. Fysiske felttests (ret præcise):** Du udfører en maksimal præstationstest i træningstøjet — som fx en [Cooper-test](/cooper-test/), [Bip-test](/bip-test/), [steptests](/steptests-kondital/) eller [Watt-max test](/kondital-wattmax/) — hvor din ydeevne omregnes til et kondital.
 * **3. Indirekte beregning / sofatest (hurtigt estimat):** Du estimerer dit kondital ud fra fysiologiske markører som hvilepuls, makspuls, alder, taljemål eller en nylig løbetid — helt uden at få sved på panden.
 * **4. Aflæsning på ur** Jeg har skrevet en guide til, hvordan du kan bruge dit [ur til at måle din kondition](/ur-vo2max/).
 

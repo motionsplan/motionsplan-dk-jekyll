@@ -16,6 +16,8 @@ author_profile: true
 toc: true
 breadcrumbs: true
 classes: wide
+last_modified_at: 2026-07-29T17:21:31.000Z
+author: lsolesen
 ---
 
 Velkommen til vores samlede overblik over **kost, ernæring og forbrænding**. Uanset om dit mål er at opnå et varigt vægttab, beregne dit daglige kaloriebehov, sammensætte en sund kostplan eller forstå [kroppens stofskifte](/stofskifte/), finder du vores guides, tabeller og beregnere herunder.
