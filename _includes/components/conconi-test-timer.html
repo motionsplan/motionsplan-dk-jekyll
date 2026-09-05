@@ -93,7 +93,7 @@
     </div>
   </div>
 
-  <!-- BREDERE OG MERE RUMMELIGT PULSFELT -->
+  <!-- Pulsfelt -->
   <div class="conconi-pulse-input-card">
     <div class="pulse-input-header">⚡ REGISTRÉR PULS VED 200M SKÆRING</div>
     <div class="pulse-input-row">
@@ -105,7 +105,7 @@
     </div>
   </div>
 
-  <!-- Progress Bar (Trin) -->
+  <!-- Progress Bar -->
   <div class="conconi-progress-container">
     <div class="progress-label-row">
       <span class="progress-stage-label">TRIN 1 (200m)</span>
@@ -123,7 +123,7 @@
     <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
   </div>
 
-  <!-- Omgangslog & Pulskurve Tabel med Underoverskrift -->
+  <!-- Omgangslog & Pulskurve Tabel -->
   <div class="conconi-log-wrapper">
     <div class="log-header-row">
       <div class="log-title-group">
@@ -147,12 +147,11 @@
     </table>
   </div>
 
-  <!-- CONCONI GRAF & BEREGNER SECTION -->
+  <!-- Graf & Beregner Section -->
   <div class="conconi-chart-wrapper">
     <div class="chart-header-row">
       <h5 class="chart-title">📈 Conconi Pulskurve (Hastighed vs. Puls)</h5>
       
-      <!-- Model-Vælger Dropdown -->
       <div class="method-selector-group">
         <label for="method-select" class="method-label">Metode:</label>
         <select id="method-select" class="method-select-box">
@@ -163,7 +162,6 @@
       </div>
     </div>
 
-    <!-- Tærskel Resultat-Badge med ét enkelt ikon -->
     <div class="threshold-result-card neutral" id="threshold-result-card">
       <span class="threshold-icon" id="threshold-icon">ℹ️</span>
       <span class="threshold-text" id="threshold-text">Indtast mindst 4 pulsværdier for at beregne den anaerobe tærskel</span>
@@ -171,7 +169,6 @@
 
     <div class="chart-container">
       <svg id="conconi-svg-chart" width="100%" height="240" viewBox="0 0 500 240" preserveAspectRatio="none">
-        <!-- SVG graf genereres dynamisk via JavaScript -->
       </svg>
     </div>
     <div class="chart-legend">
@@ -197,7 +194,6 @@
 .info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
 .card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
 
-/* Modal */
 .conconi-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
 .modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
 .modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
@@ -205,7 +201,6 @@
 .modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
 .modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
 
-/* Topbar Knapper */
 .topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 8px; margin-top: 4px; flex-wrap: nowrap; width: 100%; }
 .setting-item { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
 .setting-label { font-size: 0.72rem; font-weight: 800; color: #495057; white-space: nowrap; }
@@ -216,7 +211,6 @@
 .wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; white-space: nowrap; }
 .wakelock-status.active { opacity: 1; }
 
-/* Display skærm */
 .conconi-display-screen { padding: 16px; border-radius: 16px; margin-bottom: 12px; background: #f1f3f5; border: 3px solid #dee2e6; color: #343a40; position: relative; }
 .track-viz-container { margin: 0 auto 12px; max-width: 380px; width: 100%; }
 .conconi-display-screen.state-running { background: #e7f5ff; border-color: #a5d8ff; color: #1c7ed6; }
@@ -232,7 +226,6 @@
 .stat-value { font-size: 1.2rem; font-weight: 900; color: #212529; }
 .stat-label { font-size: 0.58rem; font-weight: 800; color: #868e96; margin-top: 2px; }
 
-/* BREDERE Touch-venligt Pulsfelt */
 .conconi-pulse-input-card { background: #e7f5ff; border: 2px solid #74c0fc; border-radius: 14px; padding: 14px 18px; margin-bottom: 14px; }
 .pulse-input-header { font-size: 0.78rem; font-weight: 900; color: #1864ab; margin-bottom: 10px; letter-spacing: 0.03em; }
 .pulse-input-row { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; }
@@ -243,20 +236,17 @@
 .btn--log-hr { background: #12b886; color: white; border: none; padding: 12px 22px; border-radius: 10px; font-weight: 900; font-size: 1rem; cursor: pointer; box-shadow: 0 4px 12px rgba(18, 184, 134, 0.3); transition: transform 0.1s ease; }
 .btn--log-hr:active { transform: scale(0.96); }
 
-/* Progress bar */
 .conconi-progress-container { margin-bottom: 12px; text-align: left; }
 .progress-label-row { display: flex; justify-content: space-between; font-size: 0.68rem; font-weight: 800; color: #868e96; margin-bottom: 4px; }
 .progress-bar-track { background: #e9ecef; height: 8px; border-radius: 4px; overflow: hidden; }
 .progress-bar-fill { background: #228be6; height: 100%; width: 0%; transition: width 0.1s linear; }
 
-/* Controls */
 .conconi-controls { display: flex; gap: 8px; margin-bottom: 16px; }
 .conconi-controls button { flex: 1; padding: 12px; font-size: 1rem; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; }
 .btn--primary { background: #228be6; color: white; }
 .btn--secondary { background: #868e96; color: white; }
 .btn--warning { background: #fa5252; color: white; }
 
-/* Redigerbar Tabel med Underoverskrift */
 .conconi-log-wrapper { margin-top: 16px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 12px; }
 .log-header-row { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; flex-wrap: wrap; gap: 8px; }
 .log-title-group { display: flex; flex-direction: column; gap: 2px; }
@@ -269,7 +259,6 @@
 .conconi-log-table th { background: #f8f9fa; padding: 6px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; }
 .conconi-log-table td { padding: 4px 6px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
 
-/* Fremhævet Tærskel-række i tabel */
 .conconi-log-table tr.threshold-row { background: #fff3bf !important; border-left: 4px solid #f59f00; }
 .conconi-log-table tr.threshold-row td { font-weight: 900; color: #212529; }
 
@@ -277,7 +266,6 @@
 .table-input-hr { color: #e67700; background: #fff9db; border-color: #fcc419; }
 .btn-delete-row { background: transparent; border: none; color: #fa5252; font-size: 1rem; cursor: pointer; padding: 2px 6px; display: none; }
 
-/* Graf Section */
 .conconi-chart-wrapper { margin-top: 20px; text-align: left; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 14px; }
 .chart-header-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
 .chart-title { font-size: 0.88rem; font-weight: 800; margin: 0; color: #343a40; }
@@ -286,7 +274,6 @@
 .method-label { font-size: 0.75rem; font-weight: 800; color: #495057; }
 .method-select-box { padding: 4px 8px; border-radius: 6px; border: 1px solid #ced4da; font-weight: 800; font-size: 0.75rem; background: #ffffff; color: #212529; outline: none; }
 
-/* Result Card */
 .threshold-result-card { padding: 10px 14px; border-radius: 8px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; font-size: 0.82rem; font-weight: 800; }
 .threshold-result-card.success { background: #d3f9d8; border: 1px solid #51cf66; color: #2b8a3e; }
 .threshold-result-card.warning { background: #fff3bf; border: 1px solid #fcc419; color: #e67700; }
@@ -304,24 +291,46 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+  function buildConconiTimeline(startSpeed, maxStages = 40) {
+    const stages = [];
+    let cumTime = 0;
+    let cumDist = 0;
+
+    for (let s = 1; s <= maxStages; s++) {
+      const spd = startSpeed + ((s - 1) * 0.5);
+      const dur = 720 / spd; // 200m / (spd/3.6)
+      const endT = cumTime + dur;
+      cumDist += 200;
+
+      stages.push({
+        stage: s,
+        speed: spd,
+        duration: dur,
+        startT: cumTime,
+        endT: endT,
+        targetDistance: cumDist
+      });
+
+      cumTime = endT;
+    }
+
+    return { stages, totalDuration: cumTime };
+  }
+
+  let initialSpeed = 10;
+  let selectedSound = 'on';
+  let timeline = buildConconiTimeline(initialSpeed, 40);
+
   let isRunning = false;
   let hasStarted = false;
-  let startTime = 0;
-  let pausedTime = 0;
-  let totalElapsed = 0;
+  let runStartTime = 0;
+  let pausedElapsed = 0;
 
+  let lastAutoLoggedStage = 0;
   let animFrameId = null;
   let audioCtx = null;
+  let scheduledAudioNodes = [];
   let wakeLock = null;
-
-  let initialSpeed = 10; 
-  let selectedSound = 'on';
-
-  let currentStage = 1;
-  let currentSpeed = 10;
-  let stageStartTime = 0;
-  let stageDuration = 0; 
-  let totalDistance = 0;
 
   const widget = document.querySelector(".conconi-widget");
   if (!widget) return;
@@ -368,19 +377,6 @@ document.addEventListener("DOMContentLoaded", function() {
     return `${m}:${s}`;
   }
 
-  function getLapDurationForSpeed(speedKmH) {
-    return 720 / speedKmH;
-  }
-
-  function updateStageInfo() {
-    currentSpeed = initialSpeed + ((currentStage - 1) * 0.5);
-    stageDuration = getLapDurationForSpeed(currentSpeed);
-
-    speedDisplay.textContent = `${currentSpeed.toFixed(1)} km/t`;
-    lapTimeDisplay.textContent = formatTime(stageDuration);
-    progressStageLabel.textContent = `TRIN ${currentStage} (Mål: ${currentStage * 200}m)`;
-  }
-
   function setupToggleGroup(groupId, onChange) {
     const group = widget.querySelector(`#${groupId}`);
     if (!group) return;
@@ -395,25 +391,55 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
-  setupToggleGroup("speed-toggle", (val) => { initialSpeed = parseFloat(val); updateStageInfo(); });
-  setupToggleGroup("sound-toggle", (val) => { selectedSound = val; });
+  setupToggleGroup("speed-toggle", (val) => { 
+    initialSpeed = parseFloat(val); 
+    timeline = buildConconiTimeline(initialSpeed, 40);
+    updateUIInitial();
+  });
+  
+  setupToggleGroup("sound-toggle", (val) => { 
+    selectedSound = val;
+    if (isRunning) {
+      scheduleAllAudioBeeps((performance.now() - runStartTime) / 1000);
+    }
+  });
 
-  function playBeep(type) {
+  function stopScheduledAudio() {
+    scheduledAudioNodes.forEach(osc => {
+      try { osc.stop(); osc.disconnect(); } catch (e) {}
+    });
+    scheduledAudioNodes = [];
+  }
+
+  function createAudioNode(ctx, time) {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.frequency.value = 1000;
+    gain.gain.setValueAtTime(0.3, time);
+    gain.gain.exponentialRampToValueAtTime(0.001, time + 0.3);
+    osc.start(time);
+    osc.stop(time + 0.3);
+    return osc;
+  }
+
+  function scheduleAllAudioBeeps(startFromElapsed) {
+    stopScheduledAudio();
     if (selectedSound === 'off') return;
+
     if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     if (audioCtx.state === 'suspended') audioCtx.resume();
 
-    const osc = audioCtx.createOscillator();
-    const gain = audioCtx.createGain();
-    osc.connect(gain); gain.connect(audioCtx.destination);
+    const nowAudio = audioCtx.currentTime;
 
-    const now = audioCtx.currentTime;
-    if (type === 'beep') {
-      osc.frequency.value = 1000;
-      gain.gain.setValueAtTime(0.3, now);
-      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
-      osc.start(now); osc.stop(now + 0.3);
-    }
+    timeline.stages.forEach(stg => {
+      if (stg.endT >= startFromElapsed) {
+        const beepAudioTime = nowAudio + (stg.endT - startFromElapsed);
+        scheduledAudioNodes.push(createAudioNode(audioCtx, beepAudioTime));
+      }
+    });
   }
 
   async function requestWakeLock() {
@@ -425,47 +451,71 @@ document.addEventListener("DOMContentLoaded", function() {
     if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
   }
 
-  function update() {
+  function updateUIInitial() {
+    const firstStage = timeline.stages[0];
+    speedDisplay.textContent = `${firstStage.speed.toFixed(1)} km/t`;
+    lapTimeDisplay.textContent = formatTime(firstStage.duration);
+    progressStageLabel.textContent = `TRIN 1 (Mål: 200m)`;
+  }
+
+  function tick() {
     if (!isRunning) return;
 
     const now = performance.now();
-    totalElapsed = (now - startTime) / 1000;
-    const stageElapsed = totalElapsed - stageStartTime;
-    const stageRemaining = Math.max(0, stageDuration - stageElapsed);
+    const elapsed = (now - runStartTime) / 1000;
 
-    totalTimerDisplay.textContent = formatTime(totalElapsed);
+    if (elapsed >= timeline.totalDuration) {
+      pauseTest();
+      phaseTitle.textContent = "🎉 TEST GENNEMFØRT!";
+      return;
+    }
+
+    let stageIdx = timeline.stages.findIndex(stg => elapsed >= stg.startT && elapsed < stg.endT);
+    if (stageIdx === -1) stageIdx = timeline.stages.length - 1;
+
+    const currentStg = timeline.stages[stageIdx];
+    const stageElapsed = elapsed - currentStg.startT;
+    const stageRemaining = Math.max(0, currentStg.duration - stageElapsed);
+
+    // Bip visualisering ved trin-skift
+    if (stageIdx > 0 && stageElapsed < 0.35) {
+      displayScreen.className = "conconi-display-screen state-beep";
+    } else {
+      displayScreen.className = "conconi-display-screen state-running";
+    }
+
+    // Automatisk række-oprettelse ved overgang til næste trin
+    if (stageIdx > lastAutoLoggedStage) {
+      for (let s = lastAutoLoggedStage + 1; s <= stageIdx; s++) {
+        const prevStg = timeline.stages[s - 1];
+        addOrUpdateRow(prevStg.stage, prevStg.targetDistance, prevStg.speed, prevStg.duration, null);
+      }
+      lastAutoLoggedStage = stageIdx;
+    }
+
+    totalTimerDisplay.textContent = formatTime(elapsed);
+    speedDisplay.textContent = `${currentStg.speed.toFixed(1)} km/t`;
+    lapTimeDisplay.textContent = formatTime(currentStg.duration);
+
+    const currentTotalDist = (currentStg.targetDistance - 200) + Math.round((stageElapsed / currentStg.duration) * 200);
+    distDisplay.textContent = `${currentTotalDist} m`;
+
+    progressStageLabel.textContent = `TRIN ${currentStg.stage} (Mål: ${currentStg.targetDistance}m)`;
     nextBeepLabel.textContent = `Næste bip om: ${stageRemaining.toFixed(1)}s`;
 
-    const pct = Math.min(100, Math.round((stageElapsed / stageDuration) * 100));
+    const pct = Math.min(100, Math.round((stageElapsed / currentStg.duration) * 100));
     progressBarFill.style.width = `${pct}%`;
 
     if (trackLength > 0) {
-      const currentRunDistance = totalDistance + (stageElapsed / stageDuration) * 200;
-      const trackPct = (currentRunDistance % 400) / 400; 
+      const trackPct = (currentTotalDist % 400) / 400; 
       const pt = trackPath.getPointAtLength(trackPct * trackLength);
       runnerDot.setAttribute("cx", pt.x);
       runnerDot.setAttribute("cy", pt.y);
     }
 
-    if (stageElapsed >= stageDuration) {
-      playBeep('beep');
-      addOrUpdateRow(currentStage, currentStage * 200, currentSpeed, stageDuration, null);
-
-      currentStage++;
-      stageStartTime = totalElapsed;
-      totalDistance = (currentStage - 1) * 200;
-      distDisplay.textContent = `${totalDistance} m`;
-
-      updateStageInfo();
-      
-      displayScreen.className = "conconi-display-screen state-beep";
-      setTimeout(() => { if (isRunning) displayScreen.className = "conconi-display-screen state-running"; }, 400);
-    }
-
-    animFrameId = requestAnimationFrame(update);
+    animFrameId = requestAnimationFrame(tick);
   }
 
-  // ALGORITMER TIL BEREGNING AF ANAEROB TÆRSKEL (HRdp)
   function linearRegression(pts) {
     let n = pts.length;
     let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
@@ -544,7 +594,6 @@ document.addEventListener("DOMContentLoaded", function() {
     return { success: false, reason: "Ukendt metode" };
   }
 
-  // SLET-KNAP KUN PÅ SIDSTE RÆKKE
   function updateDeleteButtons() {
     const trs = logTbody.querySelectorAll("tr");
     trs.forEach((tr, idx) => {
@@ -555,7 +604,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
-  // Tilføj / Opdater række i datatabellen
   function addOrUpdateRow(stageNum, distM, speedKmH, timeSecs, hrVal) {
     let tr = logTbody.querySelector(`tr[data-stage="${stageNum}"]`);
     
@@ -606,16 +654,19 @@ document.addEventListener("DOMContentLoaded", function() {
       alert("Indtast venligst en gyldig puls (fx 155)");
       return;
     }
-    addOrUpdateRow(currentStage, currentStage * 200, currentSpeed, stageDuration, val);
+
+    const elapsed = isRunning ? (performance.now() - runStartTime) / 1000 : pausedElapsed;
+    let stageIdx = timeline.stages.findIndex(stg => elapsed >= stg.startT && elapsed < stg.endT);
+    if (stageIdx === -1) stageIdx = 0;
+    const currentStg = timeline.stages[stageIdx];
+
+    addOrUpdateRow(currentStg.stage, currentStg.targetDistance, currentStg.speed, currentStg.duration, val);
     hrInput.value = "";
     hrInput.focus();
   }
 
-  // TEGN CONCONI GRAF & MARKÉR TÆRSKEL
   function renderChart() {
     const trs = Array.from(logTbody.querySelectorAll("tr"));
-    
-    // Nulstil tabel-fremhævninger
     trs.forEach(tr => tr.classList.remove("threshold-row"));
 
     if (trs.length === 0) {
@@ -646,11 +697,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     dataPoints.sort((a, b) => a.speed - b.speed);
 
-    // Kør Tærskelberegning
     const selectedMethod = methodSelect.value;
     const calcResult = calculateThreshold(dataPoints, selectedMethod);
 
-    // Opdater Resultat-Card & Tabel-fremhævning UDEN dobbelte ikoner
     if (calcResult.success) {
       thresholdResultCard.className = "threshold-result-card success";
       thresholdIcon.textContent = "🎯";
@@ -666,7 +715,6 @@ document.addEventListener("DOMContentLoaded", function() {
       thresholdText.textContent = calcResult.reason;
     }
 
-    // Graf-skalering
     const minSpeed = Math.min(...dataPoints.map(d => d.speed)) - 0.5;
     const maxSpeed = Math.max(...dataPoints.map(d => d.speed)) + 0.5;
     const minHr = Math.min(...dataPoints.map(d => d.hr)) - 10;
@@ -688,7 +736,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let svgHtml = '';
 
-    // Gitterlinjer
     const hrStep = Math.ceil((maxHr - minHr) / 4);
     for (let h = Math.floor(minHr); h <= maxHr; h += hrStep) {
       const y = getY(h);
@@ -696,13 +743,11 @@ document.addEventListener("DOMContentLoaded", function() {
       svgHtml += `<text x="${padL - 6}" y="${y + 4}" font-size="9" text-anchor="end" fill="#868e96" font-weight="bold">${Math.round(h)}</text>`;
     }
 
-    // X-akse hastigheder
     dataPoints.forEach(pt => {
       const x = getX(pt.speed);
       svgHtml += `<text x="${x}" y="${height - 10}" font-size="9" text-anchor="middle" fill="#495057" font-weight="bold">${pt.speed.toFixed(1)}</text>`;
     });
 
-    // Pulskurve linje
     let pathD = '';
     dataPoints.forEach((pt, i) => {
       const x = getX(pt.speed);
@@ -711,7 +756,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     svgHtml += `<path d="${pathD}" fill="none" stroke="#e67700" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>`;
 
-    // Sigtekorn for tærskel
     if (calcResult.success) {
       const tx = getX(calcResult.point.speed);
       const ty = getY(calcResult.point.hr);
@@ -719,7 +763,6 @@ document.addEventListener("DOMContentLoaded", function() {
       svgHtml += `<line x1="${padL}" y1="${ty}" x2="${width - padR}" y2="${ty}" stroke="#fa5252" stroke-width="1.5" stroke-dasharray="4,4"/>`;
     }
 
-    // Datapunkter
     dataPoints.forEach(pt => {
       const x = getX(pt.speed);
       const y = getY(pt.hr);
@@ -740,12 +783,11 @@ document.addEventListener("DOMContentLoaded", function() {
     svgChart.innerHTML = svgHtml;
   }
 
-  // Manuelt tilføj række
   btnAddRow.addEventListener("click", () => {
     const nextStage = logTbody.querySelectorAll("tr").length + 1;
     const nextDist = nextStage * 200;
     const nextSpd = initialSpeed + ((nextStage - 1) * 0.5);
-    const nextDur = getLapDurationForSpeed(nextSpd);
+    const nextDur = 720 / nextSpd;
 
     addOrUpdateRow(nextStage, nextDist, nextSpd, nextDur, null);
   });
@@ -763,27 +805,31 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (!hasStarted) {
       hasStarted = true;
-      startTime = performance.now();
-      stageStartTime = 0;
-      updateStageInfo();
+      runStartTime = performance.now();
+      pausedElapsed = 0;
+      scheduleAllAudioBeeps(0);
     } else {
-      const pausedDuration = performance.now() - pausedTime;
-      startTime += pausedDuration;
-      stageStartTime += pausedDuration / 1000;
+      runStartTime = performance.now() - (pausedElapsed * 1000);
+      scheduleAllAudioBeeps(pausedElapsed);
     }
 
     displayScreen.className = "conconi-display-screen state-running";
     phaseTitle.textContent = "🏃 TEST I GANG";
-    animFrameId = requestAnimationFrame(update);
+    animFrameId = requestAnimationFrame(tick);
   }
 
   function pauseTest() {
     if (!isRunning) return;
     isRunning = false;
-    cancelAnimationFrame(animFrameId);
+
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    stopScheduledAudio();
     releaseWakeLock();
 
-    pausedTime = performance.now();
+    if (hasStarted) {
+      pausedElapsed = Math.max(0, (performance.now() - runStartTime) / 1000);
+    }
+
     btnStart.disabled = false;
     btnStart.textContent = "Genoptag Test";
     btnPause.disabled = true;
@@ -798,13 +844,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     isRunning = false;
     hasStarted = false;
-    cancelAnimationFrame(animFrameId);
+
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    stopScheduledAudio();
     releaseWakeLock();
 
-    totalElapsed = 0;
-    currentStage = 1;
-    stageStartTime = 0;
-    totalDistance = 0;
+    pausedElapsed = 0;
+    lastAutoLoggedStage = 0;
 
     btnStart.disabled = false;
     btnStart.textContent = "Start Test";
@@ -815,15 +861,17 @@ document.addEventListener("DOMContentLoaded", function() {
     totalTimerDisplay.textContent = "00:00";
     distDisplay.textContent = "0 m";
     progressBarFill.style.width = "0%";
-    runnerDot.setAttribute("cx", 200);
-    runnerDot.setAttribute("cy", 140);
+    if (runnerDot) {
+      runnerDot.setAttribute("cx", 200);
+      runnerDot.setAttribute("cy", 140);
+    }
 
     logTbody.innerHTML = "";
     renderChart();
 
     displayScreen.className = "conconi-display-screen state-idle";
     phaseTitle.textContent = "Klar til start";
-    updateStageInfo();
+    updateUIInitial();
   }
 
   btnSaveHr.addEventListener("click", saveHeartRate);
@@ -836,10 +884,10 @@ document.addEventListener("DOMContentLoaded", function() {
   infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
   modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
 
-  updateStageInfo();
+  updateUIInitial();
   renderChart();
 
-  if(trackPath) {
+  if (trackPath && runnerDot) {
      const pt = trackPath.getPointAtLength(0);
      runnerDot.setAttribute("cx", pt.x);
      runnerDot.setAttribute("cy", pt.y);

@@ -87,7 +87,7 @@
       <!-- Start/Mållinje -->
       <line x1="120" y1="20" x2="120" y2="40" stroke="#ffffff" stroke-width="3" />
 
-      <!-- 8 Kegler (placeret for hver 50m: 0m, 50m, 100m, 150m, 200m, 250m, 300m, 350m) -->
+      <!-- 8 Kegler -->
       <g id="montreal-cones-group"></g>
 
       <!-- Løber Avatar -->
@@ -116,7 +116,7 @@
     <button class="btn btn--fault btn-fault" disabled>⚠️ Registrér Fejl/Forsinkelse (>5m fra kegle) (<span class="fault-count">0</span>/2)</button>
   </div>
 
-  <!-- 100% Indvendig Lap-tabel -->
+  <!-- Lap-tabel -->
   <div class="montreal-laps-wrapper" style="display: none;">
     <h5 class="laps-title">Registrerede Runder / Laps</h5>
     <div class="laps-table-container">
@@ -141,7 +141,7 @@
     <button class="btn btn--download btn-download">📥 Download Montreal Lydspor (WAV)</button>
   </div>
 
-  <!-- Nederste Handlingers-knapper (Side-om-side) -->
+  <!-- Nederste Handlingers-knapper -->
   <div class="montreal-bottom-actions">
     <button class="btn btn--action btn-screenshot">📸 Tag et billede</button>
     <button class="btn btn--action btn-csv">📊 Download CSV</button>
@@ -183,7 +183,6 @@
 .table-icon-btn:hover { transform: scale(1.15); }
 .card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
 
-/* Modal Overlay */
 .montreal-table-modal {
   position: absolute; top: 0; left: 0; right: 0; bottom: 0;
   background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left;
@@ -229,59 +228,18 @@
 .btn--warning { background: #fa5252; color: white; }
 .btn--fault { background: #ff922b; color: white; width: 100%; padding: 10px; font-weight: 800; border: none; border-radius: 8px; cursor: pointer; }
 
-/* Lap Tabel Styling – 100% INDVENDIG BREDDE */
-.montreal-laps-wrapper {
-  width: 100%;
-  margin-top: 16px;
-  text-align: left;
-}
-.laps-title {
-  font-size: 0.82rem;
-  font-weight: 800;
-  color: #495057;
-  margin: 0 0 8px 0;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.laps-table-container {
-  width: 100%;
-  max-height: 220px;
-  overflow-y: auto;
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
-  background: #ffffff;
-}
-.montreal-laps-table {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-  font-size: 0.8rem;
-}
-.montreal-laps-table th {
-  background: #f1f3f5;
-  padding: 9px 4px;
-  border-bottom: 2px solid #ced4da;
-  text-align: center;
-  font-weight: 800;
-  color: #343a40;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-.montreal-laps-table td {
-  padding: 7px 4px;
-  border-bottom: 1px solid #f1f3f5;
-  text-align: center;
-  color: #212529;
-  word-break: break-word;
-}
+.montreal-laps-wrapper { width: 100%; margin-top: 16px; text-align: left; }
+.laps-title { font-size: 0.82rem; font-weight: 800; color: #495057; margin: 0 0 8px 0; text-transform: uppercase; letter-spacing: 0.5px; }
+.laps-table-container { width: 100%; max-height: 220px; overflow-y: auto; border: 1px solid #dee2e6; border-radius: 8px; background: #ffffff; }
+.montreal-laps-table { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 0.8rem; }
+.montreal-laps-table th { background: #f1f3f5; padding: 9px 4px; border-bottom: 2px solid #ced4da; text-align: center; font-weight: 800; color: #343a40; position: sticky; top: 0; z-index: 2; }
+.montreal-laps-table td { padding: 7px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; color: #212529; word-break: break-word; }
 .montreal-laps-table tr:nth-child(even) { background: #f8f9fa; }
 
 .montreal-download-zone { margin-top: 14px; padding-top: 10px; border-top: 1px dashed #e9ecef; }
 .btn--download { background: transparent; color: #6c757d; border: 1px solid #ced4da; padding: 6px 12px; font-size: 0.78rem; font-weight: 700; border-radius: 6px; cursor: pointer; width: 100%; }
 .btn--download:hover:not(:disabled) { background: #f8f9fa; color: #212529; }
 
-/* Bottom Action Knapper (Side-om-side) */
 .montreal-bottom-actions { display: flex; gap: 10px; margin-top: 12px; width: 100%; }
 .montreal-bottom-actions .btn--action { flex: 1; padding: 10px 8px; font-size: 0.85rem; font-weight: 800; border-radius: 8px; border: 1px solid #ced4da; background: #f8f9fa; color: #343a40; cursor: pointer; transition: all 0.15s ease; }
 .montreal-bottom-actions .btn--action:hover:not(:disabled) { background: #e9ecef; color: #000; border-color: #adb5bd; }
@@ -295,20 +253,59 @@ document.addEventListener("DOMContentLoaded", function() {
   const CONE_DISTANCE = 50;   // Kegle for hver 50m
   const STORAGE_KEY = "montreal_track_test_state";
 
+  // Generer en fuldstændig deterministisk og absolut tidslinje for alle kegler
+  function buildMontrealTimeline(maxStages = 15) {
+    const events = [];
+    let cumTime = 0;
+    let cumDist = 0;
+    let nextConeDist = CONE_DISTANCE;
+
+    for (let s = 0; s < maxStages; s++) {
+      const speedKmH = 6.0 + (s * 1.2);
+      const speedMS = speedKmH / 3.6;
+      const stageEndDist = cumDist + (speedMS * STAGE_DURATION);
+      const stageEndTime = cumTime + STAGE_DURATION;
+
+      while (nextConeDist <= stageEndDist + 0.001) {
+        const distInStage = nextConeDist - cumDist;
+        const eventTime = cumTime + (distInStage / speedMS);
+        
+        // Tjek om denne kegle falder præcis på et niveauskift (inden for 0,1s)
+        const isStageBoundary = Math.abs(eventTime - stageEndTime) < 0.1;
+
+        events.push({
+          time: eventTime,
+          distance: nextConeDist,
+          stage: s + 1,
+          speed: speedKmH,
+          type: isStageBoundary ? 'stage' : 'cone'
+        });
+
+        nextConeDist += CONE_DISTANCE;
+      }
+
+      cumTime = stageEndTime;
+      cumDist = stageEndDist;
+    }
+
+    return { events, totalDuration: cumTime, maxDistance: cumDist };
+  }
+
+  const timeline = buildMontrealTimeline(15);
+
   let isRunning = false;
   let hasStarted = false;
-  let startTime = 0;
-  let totalElapsed = 0;
-  let currentDistance = 0;
   let faults = 0;
+  let runStartTime = 0;
+  let pausedElapsed = 0;
 
   let laps = [];
   let lastLapTime = 0;
 
   let animFrameId = null;
   let audioCtx = null;
+  let scheduledAudioNodes = [];
   let wakeLock = null;
-  let lastBeepSegment = -1;
 
   const widget = document.querySelector(".montreal-widget");
   if (!widget) return;
@@ -348,17 +345,16 @@ document.addEventListener("DOMContentLoaded", function() {
   const modalCloseBtn = widget.querySelector(".modal-close-btn");
   const modalBody = widget.querySelector(".modal-body");
 
-  // --- LOCALSTORAGE GEM & INDLÆS ---
   function saveState() {
+    const currentElapsed = isRunning ? Math.max(0, (performance.now() - runStartTime) / 1000) : pausedElapsed;
     const state = {
       isRunning: isRunning,
       hasStarted: hasStarted,
-      wallClockStartTime: isRunning ? (Date.now() - (totalElapsed * 1000)) : null,
-      totalElapsed: totalElapsed,
+      wallClockStartTime: isRunning ? (Date.now() - (currentElapsed * 1000)) : null,
+      pausedElapsed: currentElapsed,
       faults: faults,
       laps: laps,
-      lastLapTime: lastLapTime,
-      lastBeepSegment: lastBeepSegment
+      lastLapTime: lastLapTime
     };
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
@@ -376,7 +372,6 @@ document.addEventListener("DOMContentLoaded", function() {
       faults = state.faults || 0;
       laps = state.laps || [];
       lastLapTime = state.lastLapTime || 0;
-      lastBeepSegment = state.lastBeepSegment !== undefined ? state.lastBeepSegment : -1;
 
       faultCountDisplay.textContent = faults;
 
@@ -386,8 +381,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (isRunning && state.wallClockStartTime) {
           const nowWall = Date.now();
-          totalElapsed = Math.max(0, (nowWall - state.wallClockStartTime) / 1000);
-          startTime = performance.now() - (totalElapsed * 1000);
+          pausedElapsed = Math.max(0, (nowWall - state.wallClockStartTime) / 1000);
+          runStartTime = performance.now() - (pausedElapsed * 1000);
 
           btnStart.textContent = "Stop";
           btnStart.className = "btn btn--stop btn-start";
@@ -397,9 +392,11 @@ document.addEventListener("DOMContentLoaded", function() {
           phaseIndicator.textContent = "🏃 TEST I GANG";
 
           requestWakeLock();
-          animFrameId = requestAnimationFrame(update);
+          scheduleAllAudioBeeps(pausedElapsed);
+          animFrameId = requestAnimationFrame(tick);
         } else {
-          totalElapsed = state.totalElapsed || 0;
+          pausedElapsed = state.pausedElapsed || 0;
+          isRunning = false;
           btnStart.textContent = "Start Test";
           btnStart.className = "btn btn--primary btn-start";
           btnLap.disabled = true;
@@ -407,7 +404,7 @@ document.addEventListener("DOMContentLoaded", function() {
           phaseIndicator.className = "montreal-phase-badge finished";
           phaseIndicator.textContent = faults >= 2 ? "🛑 TEST SLUTTET (2 advarsler)" : "🛑 TEST STOPPET";
           
-          updateUI(totalElapsed);
+          updateUI(pausedElapsed);
         }
       }
       renderLapsTable();
@@ -448,11 +445,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  function getSpeedAtTime(seconds) {
-    const stage = Math.floor(seconds / STAGE_DURATION);
-    return 6.0 + (stage * 1.2);
-  }
-
   function getDistanceAtTime(seconds) {
     let dist = 0;
     let remTime = seconds;
@@ -475,28 +467,48 @@ document.addEventListener("DOMContentLoaded", function() {
     return vo2.toFixed(1);
   }
 
-  function playBeep(type) {
+  function stopScheduledAudio() {
+    scheduledAudioNodes.forEach(osc => {
+      try { osc.stop(); osc.disconnect(); } catch (e) {}
+    });
+    scheduledAudioNodes = [];
+  }
+
+  function createAudioNode(ctx, type, time) {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    if (type === 'cone') {
+      osc.frequency.value = 800;
+      gain.gain.setValueAtTime(0.2, time);
+      gain.gain.exponentialRampToValueAtTime(0.001, time + 0.15);
+      osc.start(time); osc.stop(time + 0.15);
+    } else if (type === 'stage') {
+      osc.frequency.value = 1200;
+      gain.gain.setValueAtTime(0.3, time);
+      gain.gain.exponentialRampToValueAtTime(0.001, time + 0.35);
+      osc.start(time); osc.stop(time + 0.35);
+    }
+    return osc;
+  }
+
+  function scheduleAllAudioBeeps(startFromElapsed) {
+    stopScheduledAudio();
     if (soundSelect.value === 'off') return;
+
     if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     if (audioCtx.state === 'suspended') audioCtx.resume();
 
-    const osc = audioCtx.createOscillator();
-    const gain = audioCtx.createGain();
-    osc.connect(gain);
-    gain.connect(audioCtx.destination);
+    const nowAudio = audioCtx.currentTime;
 
-    const now = audioCtx.currentTime;
-    if (type === 'cone') {
-      osc.frequency.value = 800;
-      gain.gain.setValueAtTime(0.2, now);
-      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
-      osc.start(now); osc.stop(now + 0.15);
-    } else if (type === 'stage') {
-      osc.frequency.value = 1200;
-      gain.gain.setValueAtTime(0.3, now);
-      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
-      osc.start(now); osc.stop(now + 0.35);
-    }
+    timeline.events.forEach(ev => {
+      if (ev.time >= startFromElapsed) {
+        const beepAudioTime = nowAudio + (ev.time - startFromElapsed);
+        scheduledAudioNodes.push(createAudioNode(audioCtx, ev.type, beepAudioTime));
+      }
+    });
   }
 
   async function requestWakeLock() {
@@ -509,7 +521,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function updateUI(elapsedSecs) {
-    currentDistance = getDistanceAtTime(elapsedSecs);
+    const currentDistance = getDistanceAtTime(elapsedSecs);
 
     const stageIdx = Math.floor(elapsedSecs / STAGE_DURATION);
     const stageLevel = stageIdx + 1;
@@ -527,7 +539,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const secs = Math.floor(timeInCurrentStage % 60).toString().padStart(2, '0');
     levelTimeDisplay.textContent = `${mins}:${secs} / 02:00`;
 
-    // Samlet løbetid ur inde i banen
     const totMins = Math.floor(elapsedSecs / 60).toString().padStart(2, '0');
     const totSecs = Math.floor(elapsedSecs % 60).toString().padStart(2, '0');
     if (trackTotalTimeDisplay) {
@@ -539,46 +550,40 @@ document.addEventListener("DOMContentLoaded", function() {
     const pt = trackPath.getPointAtLength(trackProgress * pathLength);
     runner.setAttribute("transform", `translate(${pt.x}, ${pt.y})`);
 
-    const speedMS = currentSpeed / 3.6;
-    const distToNextCone = CONE_DISTANCE - (currentDistance % CONE_DISTANCE);
-    const timeToNextCone = distToNextCone / speedMS;
-    timeToBeepDisplay.textContent = `${timeToNextCone.toFixed(1)}s`;
+    // Beregn tid til næste kegle ud fra den absolutte tidslinje
+    const nextEvent = timeline.events.find(ev => ev.time > elapsedSecs);
+    if (nextEvent) {
+      const timeToNext = nextEvent.time - elapsedSecs;
+      timeToBeepDisplay.textContent = `${timeToNext.toFixed(1)}s`;
+    } else {
+      timeToBeepDisplay.textContent = `0.0s`;
+    }
 
     liveVo2Display.textContent = calcVO2Max(currentSpeed);
   }
 
-  function update() {
+  function tick() {
     if (!isRunning) return;
 
     const now = performance.now();
-    totalElapsed = (now - startTime) / 1000;
-    
-    updateUI(totalElapsed);
+    const elapsed = (now - runStartTime) / 1000;
 
-    const stageIdx = Math.floor(totalElapsed / STAGE_DURATION);
-    const timeInCurrentStage = totalElapsed % STAGE_DURATION;
-
-    const currentSegment = Math.floor(currentDistance / CONE_DISTANCE);
-    if (currentSegment > lastBeepSegment) {
-      if (lastBeepSegment !== -1) {
-        if (timeInCurrentStage < 1.0 && stageIdx > 0) {
-          playBeep('stage');
-        } else {
-          playBeep('cone');
-        }
-      }
-      lastBeepSegment = currentSegment;
-      saveState();
+    if (elapsed >= timeline.totalDuration) {
+      stopTest();
+      phaseIndicator.className = "montreal-phase-badge finished";
+      phaseIndicator.textContent = "🎉 TEST GENNEMFØRT!";
+      return;
     }
 
-    animFrameId = requestAnimationFrame(update);
+    updateUI(elapsed);
+    animFrameId = requestAnimationFrame(tick);
   }
 
   function handleStartStop() {
     if (!isRunning) {
       isRunning = true;
       hasStarted = true;
-      startTime = performance.now() - (totalElapsed * 1000);
+      runStartTime = performance.now() - (pausedElapsed * 1000);
       requestWakeLock();
 
       btnStart.textContent = "Stop";
@@ -590,8 +595,9 @@ document.addEventListener("DOMContentLoaded", function() {
       phaseIndicator.className = "montreal-phase-badge running";
       phaseIndicator.textContent = "🏃 TEST I GANG";
 
+      scheduleAllAudioBeeps(pausedElapsed);
       saveState();
-      animFrameId = requestAnimationFrame(update);
+      animFrameId = requestAnimationFrame(tick);
     } else {
       if (confirm("Er du sikker på, at du vil stoppe testen?")) {
         stopTest();
@@ -601,8 +607,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function stopTest() {
     isRunning = false;
-    cancelAnimationFrame(animFrameId);
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    stopScheduledAudio();
     releaseWakeLock();
+
+    if (hasStarted) {
+      pausedElapsed = Math.max(0, (performance.now() - runStartTime) / 1000);
+    }
 
     btnStart.textContent = "Start Test";
     btnStart.className = "btn btn--primary btn-start";
@@ -623,18 +634,20 @@ document.addEventListener("DOMContentLoaded", function() {
   function recordLap() {
     if (!isRunning) return;
 
+    const currentElapsed = (performance.now() - runStartTime) / 1000;
     const lapNum = laps.length + 1;
-    const splitSec = totalElapsed - lastLapTime;
-    lastLapTime = totalElapsed;
+    const splitSec = currentElapsed - lastLapTime;
+    lastLapTime = currentElapsed;
 
-    const stageIdx = Math.floor(totalElapsed / STAGE_DURATION);
+    const stageIdx = Math.floor(currentElapsed / STAGE_DURATION);
     const stageLevel = stageIdx + 1;
     const currentSpeed = 6.0 + (stageIdx * 1.2);
+    const currentDistance = getDistanceAtTime(currentElapsed);
 
     const lapData = {
       num: lapNum,
       splitSec: splitSec,
-      totalSec: totalElapsed,
+      totalSec: currentElapsed,
       level: stageLevel,
       speed: currentSpeed.toFixed(1),
       dist: Math.floor(currentDistance),
@@ -673,13 +686,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     isRunning = false;
     hasStarted = false;
-    cancelAnimationFrame(animFrameId);
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    stopScheduledAudio();
     releaseWakeLock();
 
-    totalElapsed = 0;
-    currentDistance = 0;
+    pausedElapsed = 0;
     faults = 0;
-    lastBeepSegment = -1;
     laps = [];
     lastLapTime = 0;
 
@@ -809,33 +821,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const origText = btnDownload.textContent;
     btnDownload.textContent = "⏳ Genererer lydfil...";
 
-    const TOTAL_TEST_TIME = 12 * 120;
-    let events = [];
-
-    let elapsed = 0;
-    let dist = 0;
-    let lastSeg = 0;
-
-    while (elapsed <= TOTAL_TEST_TIME) {
-      const spd = getSpeedAtTime(elapsed);
-      dist += (spd / 3.6) * 0.1;
-      elapsed += 0.1;
-
-      const seg = Math.floor(dist / 50);
-      if (seg > lastSeg) {
-        const isStageChange = Math.abs((elapsed % 120)) < 0.2 && elapsed > 2;
-        events.push({ time: elapsed, type: isStageChange ? 'stage' : 'cone' });
-        lastSeg = seg;
-      }
-    }
-
     const sampleRate = 16000;
-    const totalSamples = Math.ceil(sampleRate * (TOTAL_TEST_TIME + 2));
+    const totalSamples = Math.ceil(sampleRate * (timeline.totalDuration + 2));
     
     try {
       const offlineCtx = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(1, totalSamples, sampleRate);
       
-      events.forEach(ev => {
+      timeline.events.forEach(ev => {
         const osc = offlineCtx.createOscillator();
         const gain = offlineCtx.createGain();
         osc.connect(gain);
@@ -880,6 +872,12 @@ document.addEventListener("DOMContentLoaded", function() {
     btnDownload.textContent = origText;
     btnDownload.disabled = false;
   }
+
+  soundSelect.addEventListener("change", () => {
+    if (isRunning) {
+      scheduleAllAudioBeeps((performance.now() - runStartTime) / 1000);
+    }
+  });
 
   window.addEventListener("beforeunload", saveState);
 

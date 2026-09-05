@@ -57,7 +57,7 @@ I modsætning til pendulløbstests som Beep-testen foregår VAM-eval som et kont
 
 ## Fra Montreal Track Test til VAM-eval
 
-For at forstå VAM-eval testen skal vi skrue tiden tilbage til 1980, hvor de canadiske forskere Luc Léger og Robert Boucher præsenterede **Université de Montréal Track Test (UM-TT)**.
+For at forstå VAM-eval testen skal vi skrue tiden tilbage til 1980, hvor de canadiske forskere Luc Léger og Robert Boucher præsenterede **[Université de Montréal Track Test (UM-TT)](/montreal-university-track-test/)**.
 
 ### Montreal Track Test (UM-TT) fra 1980
 UM-TT var banebrydende, fordi den bragte den kontinuerlige trinvise laboratorietest ud på atletikbanen. 
