@@ -151,34 +151,28 @@ Oprindeligt skulle konditallet findes ved at bruge det [nomogram](https://www.ss
 
 Senere er der lavet regressionsanalyser, hvor forskere har givet deres bud på formler, som kan bruges til at udregne iltoptagelsen på baggrund af Åstrands etpunktstest.
 
-Morten Zacho har estimeret en formel, som han har delt et regneark. Du kan frit downloade og bruge regnearket til eget brug fra [denne beskrivelse](https://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"} af Åstrand-testen, men formlen er desværre ikke offentligt tilgængelig.
+For at digitalisere den klassiske Åstrand-test benytter beregneren den validerede regressionsmodel af **Buono et al. (1989)**. Formlen omsætter det originale Åstrand-nomogram til en matematisk ligning ud fra arbejdsbelastning, puls og alderskorrektion.
 
-Zacho bruger også sin formel i nedenstående beregner til Åstrands etpunktstest, som er på engelsk.
+I beregneren ovenfor benyttes følgende formler til at estimere den maksimale iltoptagelse:
 
-[Beregner på Engelsk](https://www.health-calc.com/fitness-tests/aastrand-test){: .btn .btn--large .btn--info }
+* **Kvinder:**
+  $$ \text{VO}_2\text{max} = \frac{0{,}00193 \cdot \text{Workload} + 0{,}326}{0{,}769 \cdot \text{HR}_{\text{ss}} - 56{,}1} \cdot 100 $$
 
-I beregneren ovenfor har jeg brugt formlerne fra Buono et al (1989) til at estimere den maksimale iltoptagelse:
-
-- **Kvinder:** $\text{VO}\_2\text{max} = \frac{0{,}00193 \cdot \text{Workload} + 0{,}326}{0{,}769 \cdot \text{HR}\_{\text{ss}} - 56{,}1} \cdot 100$
-- **Mænd:** $\text{VO}\_2\text{max} = \frac{0{,}00212 \cdot \text{Workload} + 0{,}299}{0{,}769 \cdot \text{HR}\_{\text{ss}} - 48{,}5} \cdot 100$
+* **Mænd:**
+  $$ \text{VO}_2\text{max} = \frac{0{,}00212 \cdot \text{Workload} + 0{,}299}{0{,}769 \cdot \text{HR}_{\text{ss}} - 48{,}5} \cdot 100 $$
 
 Du kan sammenligne dit kondital i [tabellen for kondital for mænd og kvinder](/kondital/).
 
-{% comment %}
-https://books.google.dk/books?id=BQ2ZDfO6d6MC&pg=PA170&dq=idr%C3%A6t+c&hl=da&sa=X&ved=2ahUKEwiewZj18IL4AhUilMMKHeIPBu0Q6AF6BAgIEAI#v=onepage&q=idr%C3%A6t%20c&f=false
-Se side 63
-{% endcomment %}
-
 ## Alderskorrektion til etpunktstesten
 
-Til Åstrands etpunktstest giver de mest pålidelige resultater, hvis du korrigerer for alder. I beregneren ovenfor korrigerer jeg for alder med følgende formel fra Buono et al (1989).
+Åstrands etpunktstest giver de mest pålidelige resultater, hvis der korrigeres for alder. I beregneren ovenfor korrigeres resultatet automatisk ud fra den kontinuerlige formel af Buono et al. (1989):
 
-VO₂ = (0,166 - 0,028 * age) + 0,026 * weight + 0,66 * VO₂
+$$ \text{VO}_{2,\text{korrigeret}} = (0{,}166 - 0{,}028 \cdot \text{alder}) + 0{,}026 \cdot \text{vægt} + 0{,}66 \cdot \text{VO}_{2,\text{ukorrigeret}} $$
 
-Der er også lavet en tabel med [korrektionsfaktorer til alderskorrektion](https://www.topendsports.com/testing/tests/astrand.htm) af resultatet.
+Vil du i stedet foretage en manuel beregning, kan du benytte Åstrands klassiske [tabelfaktorer til alderskorrektion](https://www.topendsports.com/testing/tests/astrand.htm), som du ganger direkte på det ukorrigerede kondital:
 
-| Alder	| Korrektionsfaktor |
-|-|-|
+| Alder | Korrektionsfaktor |
+| - | - |
 | 15 | 1,10 |
 | 25 | 1,00 |
 | 35 | 0,87 |

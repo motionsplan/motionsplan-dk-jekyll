@@ -2,17 +2,36 @@
 
 export const MVT_PRESETS = {
   bench: { name: 'Bænkpres', mvt: 0.15 },
-  squat: { name: 'Squat', mvt: 0.30 },
+  squat: { name: 'Back Squat', mvt: 0.30 },
   deadlift: { name: 'Dødløft', mvt: 0.15 },
+  ohp: { name: 'Skulderpres / OHP', mvt: 0.20 },
+  row: { name: 'Vægtstangsroning / Row', mvt: 0.35 },
+  hipthrust: { name: 'Hip Thrust', mvt: 0.25 },
+  pullup: { name: 'Kropshævninger / Pull-ups', mvt: 0.20 },
+  frontsquat: { name: 'Front Squat', mvt: 0.30 },
   custom: { name: 'Brugerdefineret', mvt: 0.20 }
 };
 
+export const DEFAULT_TARGET_PERCENTAGES = [0.45, 0.60, 0.72, 0.82, 0.90, 0.95];
+
+export function roundTo2Point5(val) {
+  if (!val || isNaN(val) || val <= 0) return 0;
+  return Math.max(2.5, Math.round(val / 2.5) * 2.5);
+}
+
 export function calculateVBTProfile(attempts, mvtValue) {
-  const validPoints = attempts.filter(a => a.load > 0 && a.velocity > 0);
+  const validPoints = attempts
+    .filter(a => a && parseFloat(a.load) > 0 && parseFloat(a.velocity) > 0)
+    .map(a => ({
+      ...a,
+      load: parseFloat(a.load),
+      velocity: parseFloat(a.velocity)
+    }));
 
   if (validPoints.length < 2) {
     return {
       isValid: false,
+      validPointsCount: validPoints.length,
       message: 'Indtast mindst 2 forsøg for at danne profil og beregne e1RM.'
     };
   }
@@ -76,15 +95,16 @@ export function calculateVBTProfile(attempts, mvtValue) {
     };
   });
 
+  // Udregn dynamisk næste vægtforslag (afrundet til 2,5 kg)
   let suggestedNextLoad = 0;
-  if (e1RM > 0) {
+  if (e1RM > 0 && !isCutoffReached) {
     const maxLoadEntered = Math.max(...validPoints.map(p => p.load));
     const count = validPoints.length;
-    const targetPercent = count === 1 ? 0.60 : count === 2 ? 0.72 : count === 3 ? 0.82 : count === 4 ? 0.90 : 0.95;
-    suggestedNextLoad = Math.round((e1RM * targetPercent) / 2.5) * 2.5;
+    const targetPercent = DEFAULT_TARGET_PERCENTAGES[Math.min(count, DEFAULT_TARGET_PERCENTAGES.length - 1)];
+    suggestedNextLoad = roundTo2Point5(e1RM * targetPercent);
 
     if (suggestedNextLoad <= maxLoadEntered) {
-      suggestedNextLoad = Math.round((maxLoadEntered + 5) / 2.5) * 2.5;
+      suggestedNextLoad = roundTo2Point5(maxLoadEntered + 2.5);
     }
   }
 

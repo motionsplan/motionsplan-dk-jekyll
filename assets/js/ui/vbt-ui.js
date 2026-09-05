@@ -1,64 +1,89 @@
 // assets/js/ui/vbt-ui.js
-import { calculateVBTProfile, MVT_PRESETS } from '../core/vbt.js';
+import { calculateVBTProfile, MVT_PRESETS, roundTo2Point5, DEFAULT_TARGET_PERCENTAGES } from '../core/vbt.js';
 
-const STORAGE_KEY = 'vbt_calculator_state_v15';
+const STORAGE_KEY_STATE = 'vbt_calculator_state_v20';
+const STORAGE_KEY_HISTORY = 'vbt_calculator_history_v20';
 
-// Store, skarpe SVG Vektorikoner
-const SVG_SAVE_DISK = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>`;
-const SVG_CHECK = `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
-const SVG_CAMERA = `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>`;
-const SVG_EDIT = `<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>`;
+const DEFAULT_ATTEMPTS = [
+  { id: 1, load: '', velocity: '' },
+  { id: 2, load: '', velocity: '' },
+  { id: 3, load: '', velocity: '' },
+  { id: 4, load: '', velocity: '' },
+  { id: 5, load: '', velocity: '' }
+];
 
 const DEFAULT_STATE = {
+  sessionName: 'Bænkpres Profil',
   exercise: 'bench',
   customMVT: 0.15,
   isMvtUnlocked: false,
-  isFinished: false,
-  attempts: [
-    { id: 1, load: '', velocity: '' }
-  ]
+  attempts: DEFAULT_ATTEMPTS
 };
 
 export function initCalculator(container) {
   let state = loadState();
-  let timerInterval = null;
-  let activeTimerRow = null;
-  let timerTimeLeft = 120;
+  let history = loadHistory();
 
+  let activeTimerIdx = null;
+  let timerInterval = null;
+  let timerSecondsLeft = 120;
+
+  const fullscreenBtn = container.querySelector('#vbt-fullscreen-btn');
+  const sessionNameInput = container.querySelector('#vbt-session-name');
   const exerciseSelect = container.querySelector('#vbt-exercise');
   const mvtInput = container.querySelector('#vbt-mvt');
   const mvtLockBtn = container.querySelector('#vbt-mvt-lock-btn');
   const attemptsContainer = container.querySelector('#vbt-attempts-list');
   const addAttemptBtn = container.querySelector('#vbt-add-attempt-btn');
   const resetBtn = container.querySelector('#vbt-reset-btn');
+  const saveProfileBtn = container.querySelector('#vbt-save-profile-btn');
+  const historyListContainer = container.querySelector('#vbt-history-list');
+  const clearHistoryBtn = container.querySelector('#vbt-clear-history-btn');
 
   function saveState() {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      localStorage.setItem(STORAGE_KEY_STATE, JSON.stringify(state));
     } catch (e) {
-      console.warn('Kunne ikke gemme VBT data', e);
+      console.warn('Kunne ikke gemme VBT tilstandsdata', e);
     }
   }
 
   function loadState() {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY);
+      const saved = localStorage.getItem(STORAGE_KEY_STATE);
       if (!saved) return JSON.parse(JSON.stringify(DEFAULT_STATE));
-      
       const parsed = JSON.parse(saved);
       return {
         ...DEFAULT_STATE,
         ...parsed,
-        attempts: Array.isArray(parsed.attempts) && parsed.attempts.length > 0 
-          ? parsed.attempts 
-          : JSON.parse(JSON.stringify(DEFAULT_STATE.attempts))
+        attempts: Array.isArray(parsed.attempts) && parsed.attempts.length > 0
+          ? parsed.attempts
+          : JSON.parse(JSON.stringify(DEFAULT_ATTEMPTS))
       };
     } catch (e) {
       return JSON.parse(JSON.stringify(DEFAULT_STATE));
     }
   }
 
+  function saveHistory() {
+    try {
+      localStorage.setItem(STORAGE_KEY_HISTORY, JSON.stringify(history));
+    } catch (e) {
+      console.warn('Kunne ikke gemme historik', e);
+    }
+  }
+
+  function loadHistory() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY_HISTORY);
+      return saved ? JSON.parse(saved) : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
   function render() {
+    if (sessionNameInput) sessionNameInput.value = state.sessionName || 'Bænkpres Profil';
     if (exerciseSelect) exerciseSelect.value = state.exercise;
     
     const currentMVT = state.exercise === 'custom' 
@@ -75,69 +100,56 @@ export function initCalculator(container) {
       mvtLockBtn.classList.toggle('unlocked', state.isMvtUnlocked);
     }
 
-    if (addAttemptBtn) {
-      addAttemptBtn.style.display = state.isFinished ? 'none' : 'inline-flex';
-    }
-
     renderAttempts(currentMVT);
     updateResultsAndChart(currentMVT);
+    renderHistory();
   }
 
   function renderAttempts(mvt) {
     if (!attemptsContainer) return;
     attemptsContainer.innerHTML = '';
 
-    const res = calculateVBTProfile(state.attempts, mvt);
-
     state.attempts.forEach((att, idx) => {
-      let loadPlaceholder = 'kg';
-      if (res.isValid && res.suggestedNextLoad > 0 && !att.load && idx === state.attempts.length - 1) {
-        loadPlaceholder = `fx ${res.suggestedNextLoad}`;
-      }
-
       const isWarmup = parseFloat(att.velocity) > 1.0;
-      const isDisabled = state.isFinished ? 'disabled' : '';
-
       const tr = document.createElement('tr');
       tr.className = `vbt-attempt-row ${isWarmup ? 'vbt-row-warmup' : ''}`;
+      
       tr.innerHTML = `
-        <td class="vbt-col-num">#${idx + 1}</td>
+        <td class="vbt-col-num" style="text-align:center; font-weight:700; color:#64748b;">#${idx + 1}</td>
         <td>
-          <input type="number" step="0.5" class="vbt-input-cell vbt-load-input" data-idx="${idx}" value="${att.load !== '' && att.load !== undefined ? att.load : ''}" placeholder="${loadPlaceholder}" ${isDisabled}>
+          <input type="number" step="0.5" class="vbt-input-cell vbt-load-input" data-idx="${idx}" value="${att.load !== '' && att.load !== undefined ? att.load : ''}" placeholder="kg">
         </td>
         <td>
-          <input type="number" step="0.01" class="vbt-input-cell vbt-vel-input" data-idx="${idx}" value="${att.velocity !== '' && att.velocity !== undefined ? att.velocity : ''}" placeholder="m/s" ${isDisabled}>
+          <input type="number" step="0.01" class="vbt-input-cell vbt-vel-input" data-idx="${idx}" value="${att.velocity !== '' && att.velocity !== undefined ? att.velocity : ''}" placeholder="m/s">
         </td>
-        <td class="vbt-col-action">
-          <button type="button" class="vbt-save-diskette-btn" data-idx="${idx}" title="Gem & start pause" ${isDisabled}>
-            ${SVG_SAVE_DISK}
-          </button>
+        <td style="text-align:center;">
+          <button type="button" class="vbt-btn-delete-row vbt-del-btn" data-idx="${idx}" title="Slet række">🗑️</button>
         </td>
       `;
       attemptsContainer.appendChild(tr);
 
+      // Inline timer (folder sig ud under rækken ved indtastning)
       const timerTr = document.createElement('tr');
       timerTr.id = `vbt-timer-row-${idx}`;
       timerTr.className = 'vbt-timer-row';
-      timerTr.style.display = activeTimerRow === idx ? 'table-row' : 'none';
+      timerTr.style.display = activeTimerIdx === idx ? 'table-row' : 'none';
 
-      const m = Math.floor(timerTimeLeft / 60);
-      const s = timerTimeLeft % 60;
-      const initialTimerText = timerTimeLeft <= 0 ? 'Start næste forsøg! 💪' : `${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
+      const m = Math.floor(timerSecondsLeft / 60);
+      const s = timerSecondsLeft % 60;
+      const timeStr = timerSecondsLeft <= 0 ? '💪 Klar til næste løft!' : `${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
 
       timerTr.innerHTML = `
-        <td colspan="4" style="padding:0;">
-          <div class="vbt-inline-timer">
-            <span>⏱️ Pause: <strong class="vbt-timer-count-${idx}">${initialTimerText}</strong></span>
-            <button type="button" class="vbt-btn-timer-close vbt-stop-timer" data-idx="${idx}">Luk</button>
+        <td colspan="4" style="padding: 0.35rem 0.6rem; background: #eff6ff; border-bottom: 1px solid #bfdbfe;">
+          <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.82rem; color:#1e40af; font-weight:700;">
+            <span>⏱️ Pause til næste løft: <strong class="vbt-timer-count-${idx}" style="font-size:0.95rem; color:#1d4ed8;">${timeStr}</strong></span>
+            <button type="button" class="vbt-btn-xs vbt-stop-timer-btn" data-idx="${idx}" style="border-color:#93c5fd;">Luk</button>
           </div>
         </td>
       `;
       attemptsContainer.appendChild(timerTr);
     });
 
-    if (state.isFinished) return;
-
+    // Listeners for inputs
     attemptsContainer.querySelectorAll('.vbt-load-input').forEach(input => {
       input.addEventListener('input', (e) => {
         const idx = parseInt(e.target.dataset.idx, 10);
@@ -154,33 +166,35 @@ export function initCalculator(container) {
         state.attempts[idx].velocity = val;
         saveState();
         updateResultsAndChart(mvt);
+
+        // Automatisk opstart af pausetimer, når et gyldigt løft udfyldes
+        if (val > 0 && state.attempts[idx].load > 0) {
+          startInlineTimer(idx, 120);
+        }
       });
     });
 
-    attemptsContainer.querySelectorAll('.vbt-save-diskette-btn').forEach(btn => {
+    attemptsContainer.querySelectorAll('.vbt-stop-timer-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        stopInlineTimer();
+      });
+    });
+
+    attemptsContainer.querySelectorAll('.vbt-del-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
         const idx = parseInt(e.currentTarget.dataset.idx, 10);
-        if (idx === state.attempts.length - 1 && (state.attempts[idx].load || state.attempts[idx].velocity)) {
-          state.attempts.push({ id: state.attempts.length + 1, load: '', velocity: '' });
-        }
+        if (activeTimerIdx === idx) stopInlineTimer();
+        state.attempts.splice(idx, 1);
         saveState();
         render();
-        startInlineTimer(idx, 120);
-      });
-    });
-
-    attemptsContainer.querySelectorAll('.vbt-stop-timer').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        const idx = parseInt(e.currentTarget.dataset.idx, 10);
-        stopInlineTimer(idx);
       });
     });
   }
 
   function startInlineTimer(rowIdx, seconds = 120) {
     clearInterval(timerInterval);
-    activeTimerRow = rowIdx;
-    timerTimeLeft = seconds;
+    activeTimerIdx = rowIdx;
+    timerSecondsLeft = seconds;
 
     container.querySelectorAll('.vbt-timer-row').forEach(row => row.style.display = 'none');
     const targetRow = container.querySelector(`#vbt-timer-row-${rowIdx}`);
@@ -190,25 +204,30 @@ export function initCalculator(container) {
       const timerDisplay = container.querySelector(`.vbt-timer-count-${rowIdx}`);
       if (!timerDisplay) return;
 
-      if (timerTimeLeft <= 0) {
+      if (timerSecondsLeft <= 0) {
         clearInterval(timerInterval);
-        timerDisplay.textContent = 'Start næste forsøg! 💪';
+        timerDisplay.textContent = '💪 Klar til næste løft!';
       } else {
-        const m = Math.floor(timerTimeLeft / 60);
-        const s = timerTimeLeft % 60;
+        const m = Math.floor(timerSecondsLeft / 60);
+        const s = timerSecondsLeft % 60;
         timerDisplay.textContent = `${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
       }
     };
 
     updateText();
-    timerInterval = setInterval(() => { timerTimeLeft--; updateText(); }, 1000);
+    timerInterval = setInterval(() => {
+      timerSecondsLeft--;
+      updateText();
+    }, 1000);
   }
 
-  function stopInlineTimer(rowIdx) {
+  function stopInlineTimer() {
     clearInterval(timerInterval);
-    activeTimerRow = null;
-    const targetRow = container.querySelector(`#vbt-timer-row-${rowIdx}`);
-    if (targetRow) targetRow.style.display = 'none';
+    if (activeTimerIdx !== null) {
+      const targetRow = container.querySelector(`#vbt-timer-row-${activeTimerIdx}`);
+      if (targetRow) targetRow.style.display = 'none';
+    }
+    activeTimerIdx = null;
   }
 
   function updateResultsAndChart(mvt) {
@@ -219,6 +238,8 @@ export function initCalculator(container) {
     const guidanceBox = container.querySelector('#vbt-guidance-box');
     const overlayBox = container.querySelector('.vbt-chart-overlay-1rm');
 
+    updateDynamicPlaceholders(res);
+
     if (!res.isValid) {
       if (e1rmEl) e1rmEl.textContent = '0';
       if (r2El) r2El.textContent = '0.00';
@@ -227,7 +248,7 @@ export function initCalculator(container) {
         guidanceBox.className = 'vbt-guidance-premium mp-guidance-info';
         guidanceBox.innerHTML = `
           <span class="vbt-info-icon">💡</span>
-          <div class="vbt-info-text">Indtast <strong>min. 2 forsøg</strong> for at oprette graf og beregne e1RM. Målet er <strong>5-6 forsøg</strong> for maksimal præcision.</div>
+          <div class="vbt-info-text">Indtast <strong>mindst 2 forsøg</strong> for at beregne e1RM og oprette profil. Anbefalet mængde er <strong>5-6 forsøg</strong>.</div>
         `;
       }
       renderSvgChart([], mvt, 0, 0, 0);
@@ -239,52 +260,64 @@ export function initCalculator(container) {
     if (r2El) r2El.textContent = res.rSquared.toFixed(2);
     
     if (guidanceBox) {
-      if (state.isFinished) {
-        guidanceBox.className = 'vbt-guidance-premium mp-guidance-success vbt-finished-layout';
+      const count = res.validPointsCount;
+
+      if (res.isCutoffReached) {
+        guidanceBox.className = 'vbt-guidance-premium mp-guidance-success';
         guidanceBox.innerHTML = `
-          <div class="vbt-success-info">
-            <span class="vbt-info-icon">🏆</span>
-            <div class="vbt-info-text">
-              <strong>Testen er gemt og afsluttet!</strong><br>
-              Endeligt resultat: Estimeret 1RM er <strong>${Math.round(res.e1RM)} kg</strong> (R² = ${res.rSquared.toFixed(2)}).
-            </div>
-          </div>
-          <div class="vbt-square-btn-group">
-            <button type="button" class="vbt-btn-square vbt-btn-download" id="vbt-download-btn" title="Download fuld rapport som PNG">
-              <span class="vbt-square-icon">${SVG_CAMERA}</span>
-              <span class="vbt-square-text">Download</span>
-            </button>
-            <button type="button" class="vbt-btn-square vbt-btn-reopen" id="vbt-reopen-btn" title="Lås op og redigér">
-              <span class="vbt-square-icon">${SVG_EDIT}</span>
-              <span class="vbt-square-text">Redigér</span>
-            </button>
+          <span class="vbt-info-icon">🎯</span>
+          <div class="vbt-info-text">
+            <strong>Cutoff nået!</strong> Hastighed er ≤ ${(res.cutoffThreshold).toFixed(2)} m/s (MVT + 0.20). Profilen er komplet.
           </div>
         `;
-      } else if (res.isCutoffReached) {
-        guidanceBox.className = 'vbt-guidance-premium mp-guidance-success vbt-success-layout';
-        guidanceBox.innerHTML = `
-          <div class="vbt-success-info">
-            <span class="vbt-info-icon">🎯</span>
-            <div class="vbt-info-text">
-              <strong>Cutoff nået!</strong> Hastighed er ≤ ${res.cutoffThreshold.toFixed(2)} m/s (MVT + 0.20). Testen er godkendt.
-            </div>
-          </div>
-          <button type="button" class="vbt-btn-square vbt-btn-finish" id="vbt-finish-ok-btn" title="Gem og afslut test">
-            <span class="vbt-square-icon">${SVG_CHECK}</span>
-            <span class="vbt-square-text">Gem test</span>
-          </button>
-        `;
-      } else {
-        const count = res.validPointsCount;
+      } else if (count >= 5) {
+        const rec6th = roundTo2Point5(res.e1RM * 0.95);
         guidanceBox.className = 'vbt-guidance-premium mp-guidance-warning';
         guidanceBox.innerHTML = `
           <span class="vbt-info-icon">💡</span>
-          <div class="vbt-info-text">Du har gennemført <strong>${count} af 5-6 forsøg</strong>. Øg vægten til næste løft for at nå nærmere din MVT cutoff.</div>
+          <div class="vbt-info-text">
+            Du har gennemført <strong>${count} forsøg</strong>. Tilføj evt. et 6. forsøg på <strong>ca. ${rec6th} kg</strong> (~95% e1RM) for at nå Cutoff.
+          </div>
+        `;
+      } else {
+        const nextKg = res.suggestedNextLoad > 0 ? `${res.suggestedNextLoad} kg` : 'næste vægt';
+        guidanceBox.className = 'vbt-guidance-premium mp-guidance-info';
+        guidanceBox.innerHTML = `
+          <span class="vbt-info-icon">💡</span>
+          <div class="vbt-info-text">
+            Gennemført <strong>${count} af 5-6 forsøg</strong>. Foreslået belastning til næste løft er <strong>${nextKg}</strong>.
+          </div>
         `;
       }
     }
 
     renderSvgChart(res.processedPoints || [], mvt, res.slope, res.intercept, res.e1RM);
+  }
+
+  function updateDynamicPlaceholders(res) {
+    if (!attemptsContainer) return;
+    const inputs = attemptsContainer.querySelectorAll('.vbt-load-input');
+
+    const enteredLoads = state.attempts
+      .map(a => parseFloat(a.load))
+      .filter(l => !isNaN(l) && l > 0);
+    const maxEntered = enteredLoads.length > 0 ? Math.max(...enteredLoads) : 0;
+
+    inputs.forEach((input, idx) => {
+      if (state.attempts[idx] && (state.attempts[idx].load === '' || state.attempts[idx].load === undefined)) {
+        const targetPct = DEFAULT_TARGET_PERCENTAGES[Math.min(idx, DEFAULT_TARGET_PERCENTAGES.length - 1)];
+
+        if (res.isValid && res.e1RM > 0 && !res.isCutoffReached) {
+          let recKg = roundTo2Point5(res.e1RM * targetPct);
+          if (recKg <= maxEntered) {
+            recKg = roundTo2Point5(maxEntered + 2.5);
+          }
+          input.placeholder = `fx ${recKg} kg (${Math.round(targetPct * 100)}%)`;
+        } else {
+          input.placeholder = `fx ${Math.round(targetPct * 100)}% 1RM`;
+        }
+      }
+    });
   }
 
   function renderSvgChart(points, mvt, slope, intercept, e1RM) {
@@ -299,7 +332,7 @@ export function initCalculator(container) {
     const padLeft = 55;
 
     const maxLoad = points && points.length >= 2 
-      ? Math.max(e1RM * 1.06, ...points.map(p => p.load), 100) 
+      ? Math.max(e1RM * 1.08, ...points.map(p => p.load), 100) 
       : 120;
     const maxVel = 1.30;
 
@@ -319,11 +352,15 @@ export function initCalculator(container) {
     `;
 
     if (points && points.length >= 2) {
-      const zeroSpeedX = slope < 0 ? Math.min(maxLoad, -intercept / slope) : maxLoad;
-      const x1 = xScale(0);
-      const y1 = yScale(intercept);
-      const x2 = xScale(zeroSpeedX);
-      const y2 = yScale(0);
+      const x1Val = 0;
+      const y1Val = intercept;
+      const x2Val = maxLoad;
+      const y2Val = slope * maxLoad + intercept;
+
+      const x1 = xScale(x1Val);
+      const y1 = yScale(y1Val);
+      const x2 = xScale(x2Val);
+      const y2 = yScale(y2Val);
 
       svgHtml += `
         <line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
@@ -337,12 +374,6 @@ export function initCalculator(container) {
         }).join('')}
 
         <circle cx="${xScale(e1RM)}" cy="${yScale(mvt)}" r="8" fill="#16a34a" stroke="#ffffff" stroke-width="2.5"/>
-      `;
-    } else if (points && points.length === 1) {
-      const p = points[0];
-      const fillColor = p.isWarmup ? '#e2e8f0' : '#2563eb';
-      svgHtml += `
-        <circle cx="${xScale(p.load)}" cy="${yScale(p.velocity)}" r="7" fill="${fillColor}" stroke="${strokeColor}" stroke-width="2"/>
       `;
     } else {
       svgHtml += `
@@ -359,87 +390,91 @@ export function initCalculator(container) {
     svgWrapper.innerHTML = svgHtml;
   }
 
-  function downloadCardAsImage() {
-    const doExport = () => {
-      const card = container.closest('.mp-calc-card') || container;
+  function renderHistory() {
+    if (!historyListContainer) return;
+    historyListContainer.innerHTML = '';
 
-      window.html2canvas(card, {
-        scale: 2,
-        backgroundColor: '#ffffff',
-        logging: false,
-        useCORS: true,
-        onclone: (clonedDoc) => {
-          const clonedCard = clonedDoc.querySelector('.mp-calc-card') || clonedDoc.querySelector('.vbt-container');
-          if (!clonedCard) return;
-
-          clonedCard.querySelectorAll('.vbt-action-bar, .vbt-square-btn-group, .vbt-save-diskette-btn, .vbt-lock-inside-btn, .vbt-timer-row').forEach(el => {
-            el.style.display = 'none';
-          });
-
-          clonedCard.querySelectorAll('.vbt-table th:last-child, .vbt-table td:last-child').forEach(el => {
-            el.style.display = 'none';
-          });
-
-          clonedCard.querySelectorAll('.vbt-input-cell, .vbt-input-mega').forEach(input => {
-            input.style.border = 'none';
-            input.style.background = 'transparent';
-            input.style.boxShadow = 'none';
-            input.style.color = '#0f172a';
-            input.style.fontWeight = '800';
-            
-            if (input.tagName === 'SELECT') {
-              input.style.appearance = 'none';
-              input.style.backgroundImage = 'none';
-              input.style.paddingRight = '0';
-            }
-          });
-
-          clonedCard.style.padding = '1.5rem';
-          clonedCard.style.borderRadius = '16px';
-          clonedCard.style.boxShadow = 'none';
-          clonedCard.style.border = '2px solid #e2e8f0';
-        }
-      }).then(canvas => {
-        const imageUrl = canvas.toDataURL('image/png');
-        const link = document.createElement('a');
-        const e1rmVal = container.querySelector('[data-result="e1rm"]')?.textContent || '0';
-        
-        link.download = `VBT-1RM-Profil-${e1rmVal}kg.png`;
-        link.href = imageUrl;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-      }).catch(err => {
-        console.error('Fejl ved generering af billede:', err);
-        alert('Der opstod en fejl under oprettelse af billedet. Prøv venligst igen.');
-      });
-    };
-
-    if (window.html2canvas) {
-      doExport();
-    } else {
-      const script = document.createElement('script');
-      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
-      script.onload = doExport;
-      script.onerror = () => alert('Kunne ikke hente billed-generatoren.');
-      document.head.appendChild(script);
+    if (history.length === 0) {
+      historyListContainer.innerHTML = `<div style="color:#94a3b8; font-size:0.85rem; padding:0.25rem 0;">Ingen gemte profiler i historikken endnu.</div>`;
+      return;
     }
+
+    history.forEach((item, idx) => {
+      const div = document.createElement('div');
+      div.className = 'vbt-history-row';
+      div.innerHTML = `
+        <div class="vbt-history-info">
+          <span class="vbt-history-name-tag">${item.sessionName}</span>
+          <span class="vbt-history-stats-tag">(${item.exerciseName}) | 📅 ${item.date} | <strong>e1RM: ${item.e1RM} kg</strong> | R²: ${item.rSquared} | MVT: ${item.mvt} m/s</span>
+        </div>
+        <div class="vbt-history-actions-inline">
+          <button type="button" class="vbt-btn-xs vbt-load-history-btn" data-idx="${idx}">Gendan</button>
+          <button type="button" class="vbt-btn-xs vbt-rename-history-btn" data-idx="${idx}">Omdøb</button>
+          <button type="button" class="vbt-btn-xs vbt-btn-xs-danger vbt-delete-history-btn" data-idx="${idx}">Slet</button>
+        </div>
+      `;
+      historyListContainer.appendChild(div);
+    });
+
+    historyListContainer.querySelectorAll('.vbt-load-history-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const idx = parseInt(e.target.dataset.idx, 10);
+        const item = history[idx];
+        if (item) {
+          state.sessionName = item.sessionName;
+          state.exercise = item.exercise;
+          state.customMVT = item.mvt;
+          state.attempts = JSON.parse(JSON.stringify(item.attempts));
+          saveState();
+          render();
+        }
+      });
+    });
+
+    historyListContainer.querySelectorAll('.vbt-rename-history-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const idx = parseInt(e.target.dataset.idx, 10);
+        const newName = prompt('Omdøb gemt profil:', history[idx].sessionName);
+        if (newName && newName.trim()) {
+          history[idx].sessionName = newName.trim();
+          saveHistory();
+          renderHistory();
+        }
+      });
+    });
+
+    historyListContainer.querySelectorAll('.vbt-delete-history-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const idx = parseInt(e.target.dataset.idx, 10);
+        history.splice(idx, 1);
+        saveHistory();
+        renderHistory();
+      });
+    });
   }
 
-  container.addEventListener('click', (e) => {
-    if (e.target.closest('#vbt-finish-ok-btn')) {
-      state.isFinished = true;
-      stopInlineTimer(activeTimerRow);
+  // Global listeners
+  if (fullscreenBtn) {
+    fullscreenBtn.addEventListener('click', () => {
+      const card = container.closest('.mp-calc-card') || container;
+      if (!document.fullscreenElement) {
+        if (card.requestFullscreen) card.requestFullscreen();
+        else if (card.webkitRequestFullscreen) card.webkitRequestFullscreen();
+        card.classList.add('vbt-is-fullscreen');
+      } else {
+        if (document.exitFullscreen) document.exitFullscreen();
+        else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+        card.classList.remove('vbt-is-fullscreen');
+      }
+    });
+  }
+
+  if (sessionNameInput) {
+    sessionNameInput.addEventListener('input', (e) => {
+      state.sessionName = e.target.value;
       saveState();
-      render();
-    } else if (e.target.closest('#vbt-reopen-btn')) {
-      state.isFinished = false;
-      saveState();
-      render();
-    } else if (e.target.closest('#vbt-download-btn')) {
-      downloadCardAsImage();
-    }
-  });
+    });
+  }
 
   if (mvtLockBtn && mvtInput) {
     mvtLockBtn.addEventListener('click', () => {
@@ -452,7 +487,8 @@ export function initCalculator(container) {
 
   if (addAttemptBtn) {
     addAttemptBtn.addEventListener('click', () => {
-      state.attempts.push({ id: state.attempts.length + 1, load: '', velocity: '' });
+      const nextId = state.attempts.length + 1;
+      state.attempts.push({ id: nextId, load: '', velocity: '' });
       saveState();
       render();
     });
@@ -480,10 +516,69 @@ export function initCalculator(container) {
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      if (confirm('Vil du nulstille testen og starte forfra?')) {
+      if (confirm('Vil du nulstille testen og starte forfra med 5 tomme rækker?')) {
+        stopInlineTimer();
         state = JSON.parse(JSON.stringify(DEFAULT_STATE));
         saveState();
         render();
+      }
+    });
+  }
+
+  if (saveProfileBtn) {
+    saveProfileBtn.addEventListener('click', () => {
+      const currentMVT = state.exercise === 'custom' 
+        ? state.customMVT 
+        : (MVT_PRESETS[state.exercise] ? MVT_PRESETS[state.exercise].mvt : 0.15);
+      
+      const res = calculateVBTProfile(state.attempts, currentMVT);
+
+      if (!res.isValid) {
+        saveProfileBtn.style.background = '#ef4444';
+        saveProfileBtn.style.borderColor = '#dc2626';
+        saveProfileBtn.innerHTML = '⚠️ Indtast min. 2 forsøg';
+        setTimeout(() => {
+          saveProfileBtn.style.background = '#16a34a';
+          saveProfileBtn.style.borderColor = '#15803d';
+          saveProfileBtn.innerHTML = '💾 Gem profil';
+        }, 2200);
+        return;
+      }
+
+      const exerciseObj = MVT_PRESETS[state.exercise];
+      const exName = exerciseObj ? exerciseObj.name : 'Brugerdefineret';
+
+      const historyItem = {
+        id: Date.now(),
+        date: new Date().toLocaleDateString('da-DK', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }),
+        sessionName: state.sessionName || `${exName} Profil`,
+        exercise: state.exercise,
+        exerciseName: exName,
+        mvt: currentMVT,
+        e1RM: Math.round(res.e1RM),
+        rSquared: res.rSquared.toFixed(2),
+        attempts: JSON.parse(JSON.stringify(state.attempts))
+      };
+
+      history.unshift(historyItem);
+      saveHistory();
+      renderHistory();
+
+      saveProfileBtn.style.background = '#059669';
+      saveProfileBtn.innerHTML = '✓ Profil gemt!';
+      setTimeout(() => {
+        saveProfileBtn.style.background = '#16a34a';
+        saveProfileBtn.innerHTML = '💾 Gem profil';
+      }, 2000);
+    });
+  }
+
+  if (clearHistoryBtn) {
+    clearHistoryBtn.addEventListener('click', () => {
+      if (confirm('Vil du slette alle gemte profiler i historikken?')) {
+        history = [];
+        saveHistory();
+        renderHistory();
       }
     });
   }

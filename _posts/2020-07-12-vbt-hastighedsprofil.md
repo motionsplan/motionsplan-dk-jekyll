@@ -1,19 +1,19 @@
 ---
 title: "Hastighedsprofil og RPE i Velocity-Based Training"
-seo_title: "Forstå Forholdet mellem Hastighedsprofil og RPE"
-excerpt: Læs om hvordan hastighedsprofilen i VBT kan hjælpe med at måle træningsintensiteten og hvordan det relaterer sig til RPE (Rate of Perceived Exertion).
-description: Læs om hvordan hastighedsprofilen i VBT kan hjælpe med at måle træningsintensiteten og hvordan det relaterer sig til RPE (Rate of Perceived Exertion).
+seo_title: "Kortlæg RPE og RIR med et All-Out VBT Sæt"
+excerpt: "Lær at kortlægge sammenhængen mellem stangens hastighed, RPE og Reps in Reserve (RIR) ved hjælp af ét all-out sæt på ca. 80% af din e1RM."
+description: "Trin-for-trin guide til at opbygge din personlige RPE-hastighedsprofil med VBT ud fra ét udmattende sæt. Inkluderer interaktiv beregner."
 permalink: /vbt-hastighedsprofil/
 language: da
 header:
   overlay_image: /assets/images/assets.website-files.com/60f7885ace96d9569961c62e_App_20Pitch_20GRaph_20Highlight-66dec772.png
   credit: https://assets.website-files.com/606e9d26b5e253fc0880655c/60f7885ace96d9569961c62e_App%20Pitch%20GRaph%20Highlight.png
   teaser: /assets/images/assets.website-files.com/60f7885ace96d9569961c62e_App_20Pitch_20GRaph_20Highlight-66dec772.png
-  credit: https://assets.website-files.com/606e9d26b5e253fc0880655c/60f7885ace96d9569961c62e_App%20Pitch%20GRaph%20Highlight.png
   actions:
-    - label: "<i class='fas fa-file-excel'></i> Sheet med Velocity Profile og MVT"
+    - label: "<i class='fas fa-calculator'></i> RPE Beregner"
+      url: "#calculator"
+    - label: "<i class='fas fa-file-excel'></i> Google Sheet"
       url: "#sheet"
-      rel: nofollow noopener
 categories:
   - Styrketræning
 tags:
@@ -26,15 +26,15 @@ meta:
   measures: styrke og hastighed
   type: styrketest
   equipment: vbt-udstyr
-  max: maksimal test
-  direct: direkte test
-last_modified_at: 2023-01-01T08:39:32Z
+  max: submaskimal test
+  direct: indirekte test
+last_modified_at: 2026-03-06T08:39:32Z
 feature_row:
   - image_path: /assets/images/reponestrength.com/outerglow_hardware-1-370441b7.png
     credit: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
     url: https://repone-strength.myshopify.com/lars-olesen
     title: "Repone"
-    excerpt: "RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med."
+    excerpt: "RepOne er en lineær positionstransducer, der nemt kables til vægtstangen med en magnet."
     btn_class: "btn--info"
     btn_label: Læs mere
     rel: sponsored nofollow noopener
@@ -42,14 +42,14 @@ feature_row:
     credit: https://static1.squarespace.com/static/51509569e4b0cdd186de0b85/53c5cb51e4b01886bc5516b3/5a9ea0f30d9297fd81ae5127/1580650938021/push-band.png?format=1500w
     url: https://www.trainwithpush.com/
     title: "Push Band"
-    excerpt: "Push er et device, du bærer på armen, eller som du kan vikle rundt om stangen."
+    excerpt: "Push er et bærbart accelerometer til armen eller stangen."
     btn_class: "btn--info"
     btn_label: Læs mere
   - image_path: /assets/images/flexstronger.com/FLEX-IMAGE-800x800-9a829795.jpg
     credit: https://www.flexstronger.com/wp-content/uploads/2021/02/FLEX-IMAGE-800x800.jpg
     url: https://www.flexstronger.com/?rfsn=4448247.fcbbca
     title: "Flex (Gymaware)"
-    excerpt: "Gymaware er formentlig gold standard i forhold til måleudstyr til Velocity Based Training i forhold til store hold. De har netop lanceret Flex til at sætte på enden af stangen til den almindelige forbruger."
+    excerpt: "Optisk lasersensor beregnet til montering på stangens ende."
     btn_class: "btn--info"
     btn_label: Læs mere
     rel: sponsored nofollow noopener
@@ -63,96 +63,77 @@ templates:
     url: "https://docs.google.com/spreadsheets/d/1jQpPVOIp0i1PhTQ7uFuaFDIB3mav0NkPuhLXhzfHWIs/copy?usp=sharing"
     image: "/assets/images/blog/vbt-spreadsheet.png"
 ---
-Hvordan kan du bruge hastighedsbaserede data til at forstå din træning bedre? Denne artikel dykker ned i hastighedsprofilens relation til RPE og hvordan de sammen kan optimere din træning.
 
-- Måle indsatsen med dine løft, så du træner i den rigtige zone og med den rigtige hensigt
-- Autoregulere din træning
+En **RPE-hastighedsprofil** giver dig det præcise kort over, hvordan din stanghastighed (m/s) falder i takt med at du nærmer dig udmattelse (*failure*). 
 
-Du kan blive klogere på VBT i vores [grundlæggende guide om velocity based training](/vbt/).
+Ved at køre ét enkelt *all-out* sæt på omkring 75–80% af din e1RM kan du opbygge en personlig profil, der direkte kobler løftehastighed med din oplevede anstrengelse (RPE) og Reps in Reserve (RIR).
 
-Inden du starter med at lave din hastighedsprofil, kan det være nyttigt estimere din 1RM, læs vores artikel om [1RM ved VBT](/vbt-1rm/).
+{: .notice--info }
+> 📌 **Søger du andre VBT-værktøjer?**  
+> * Vil du opbygge en traditionel vægt-hastighedsprofil over flere sæt med stigende kilo? Se vores [Load-Velocity Guide & Google Sheet](#sheet).  
+> * Vil du estimere dit maksimale løft ud fra opvarmningssæt? Prøv vores [VBT 1RM Beregner](/vbt-1rm/).  
+> * Ønsker du den teoretiske introduktion til hastighedszoner? Læs vores [hovedguide til VBT](/vbt/).
 
-For at gå i gang med testen, så skal du naturligvis have noget [VBT-udstyr](/vbt-udstyr/).
+[<i class='fas fa-calculator'></i> Hop direkte til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
-{% include calc/vbt.html %}
+---
 
-## Hvad er velocity based training?
+## Princippet: Sådan fungerer testen med et all-out sæt
 
-Velocity based training er faktisk ikke noget nyt, men det er blevet meget mere tilgængeligt, og der er kommet mange fine forbrugerorienterede _gadgets_, som man kan bruge i træning.
+I stedet for at lave mange separate sæt med stigende vægt, nøjes du i denne test med **ét enkelt arbejdessæt til udmattelse** med en fast belastning på stangen (ca. 75–80% 1RM / en vægt du kan løfte ca. 6–10 gange).
 
-At det hedder velocity based training betyder ikke, at det kun er møntet på at forbedre dynamisk og eksplosiv styrke ved højere hastigheder. VBT er en måde at evaluere intensiteten i øvelserne i træningen.
+Når du løfter med **maximal voluntary intent** (maksimal eksplosiv kraft i den koncentriske fase på hver eneste rep), vil stangens hastighed falde gradvist fra rep til rep på grund af udmattelse.
 
-> Velocity-based training is simply an objective method of evaluating intensity of a given movement.
->
-> — <cite>[Cody Pfloker](https://simplifaster.com/articles/velocity-based-training-options-strength/)</cite>
+* **Sidste gennemførte rep:** Svarer pr. definition til **RPE 10** (0 RIR / din MVT for den øvelse).
+* **Næstsidste rep:** Svarer til **RPE 9** (1 RIR / 1 gentagelse i reserve).
+* **Tredjesidste rep:** Svarer til **RPE 8** (2 RIR / 2 gentagelser i reserve).
 
-Pga. sammenhængen i _force-velocity_-kurven kan vi bruge hastigheden til at bestemme intensiteten af en øvelse. I mange procentbaserede styrketræningsprogrammer til både styrke, hypertrofi og _dynamic effort_ bruger vi den procentvise belastning i forhold til 1RM som et mål for intensiteten. Vi kan i stedet bruge hastigheden til at måle intensiteten.
+Ved at tælle baglæns fra den sidste rep dannes en lineær sammenhæng mellem stanghastighed og RPE.
 
-*[VBT]: Velocity Based Training
+---
 
-VBT er en objektiv måde at kvantificere intensiteten af øvelserne på. **Sammen med velocity based training får vi mulighed for at lave en autoregulerende træning**.
+## Testprotokol: Trin-for-trin
 
-Jovanovic og Flannagan (2014) fandt i deres studier, at styrken ved 1RM kan variere med 18% i begge retninger på en dag. Det betyder, at et procentbaseret program vil være upræcist, hvis man træner på dage, hvor 1RM varierer - og på de værste dage vil man formentlig ikke kunne gennemføre sin træning.
+1. **Forberedelse og grundig opvarmning:** Vælg den øvelse, du vil profilere (fx bænkpres eller squat), og monter dit [VBT-udstyr](/vbt-udstyr/). Kør almindelige opvarmningssæt op til ca. 75–80% af din e1RM.
+2. **Udfør det valgte all-out sæt:** Sæt en vægt på stangen, som du kan tage ca. 6–10 gentagelser med. Udfør sættet til failure (eller RPE 10 / 0 RIR). **Vigtigt:** Hver eneste gentagelse skal presses med 100% koncentrisk kraft.
+3. **Notér hastighederne:** Registrer den målte hastighed (m/s) for hver enkelt rep fra start til slut.
+4. **Indtast i beregneren:** Indtast dine målinger i beregneren nedenfor. Værktøjet udregner automatisk regressionslinjen, evaluerer testens linearitet ($R^2$) og opstiller din personlige RPE-tabel.
 
-Når du bruger velocity based training, så træner du efter hastigheder på løftet. Det betyder, at du altid vil kunne gennemføre træningen på den tilrettelagte måde.
+---
 
-Du kan se Chris Duffin fra Kabuki Strength forklare lidt mere om VBT og autoregulering i denne video.
+## Beregn din RPE-hastighedsprofil
+{: id="calculator" }
 
-{% include video provider="youtube" id="B7bqNk7e4ro" %}
+{% include components/vbt-hastighedsprofil-rpe-rir.html %}
 
-## Lav din egen "Velocity Load Profil"
+---
 
-Velocity based training er individuel. Selvom der er nogle generelle guidelines for hastigheder, så er det nødvendigt, at du får etableret en _velocity load profile_ med dine egne hastigheder. Hvis vi tager squat som eksempel, så er alle bygget forskelligt, hvilket også betyder at hastigheden i løftet kan være forskellig.
+## Sådan bruger du dine RPE-hastigheder i træningen
 
-Det er heldigvis relativt let at lave en _velocity load profile_, men først skal du lige vide lidt om RPE.
+Når beregneren har opstillet din profil, har du et objektivt måleredskab til dine fremtidige træningspas i øvelsen. 
 
-Det er en fordel at sætte dig ind i skalaen Rate of Perceived Exertion først (RPE). [RPE-skalaen](/rpe/) går fra 1-10 og er en modificeret [Borgskala](/borg-skala/). På RPE-skalaen er 1 det letteste arbejde, du kan forestille dig, mens 10 er det hårdest mulige arbejde.
+Siger dit træningsprogram for eksempel, at du skal køre 4 sæt af 5 reps på **RPE 8**, behøver du ikke gætte dig frem. Du kigger i din profil og finder den m/s-hastighed, der svarer til RPE 8 (fx 0,32 m/s). Så længe dine reps ligger på eller over denne hastighed, rammer du den planlagte træningsintensitet.
 
-Når man bruger RPE-skalaen til styrketræning, så kan man tænke på tallene ud fra hvor mange _Repetitions in Reserved (RIR)_, man har. Hvis du fx laver et sæt med 5 gentagelser på RPE 8, så betyder det, at du stadig have 2 gentagelser i reserve; altså at du kunne have taget i alt 7 gentagelser. Hvis det var RPE 10, var der altså 0 gentagelser i reserve, og det var dit absolutte maxløft og en 5RM.
+---
 
-Nu er du klar til at lave din egen hastighedsprofil for de enkelte løft.
-
-Vælg en vægt som er omkring 70% af din 1RM; altså en vægt du formentlig kan lave omkring 10 gentagelser med. Nu er opgaven at lave så mange gentagelser så muligt med god teknik og maksimal hastighed på hvert eneste løft. Du skal kende dig selv godt nok til at du skal kunne komme op på den sidste gentagelse også, så det måske bliver en RPE 9,5.
-
-Nu lister du alle tallene i en tabel, der ser sådan her ud.
-
-{% include figure image_path="/assets/images/simplifaster.com/Velocity-and-Training-Grid-f5e596dd.jpg" caption="Velocity Load Profile for bænkpres sammenstillet med RPE for at etablere _Minimum Velocity Threshold (MVT)_ og sammenhængen mellem hastigheder og RPE. Kilde: [Simplyfaster](https://simplifaster.com/articles/velocity-based-training-options-strength/) [📷](https://simplifaster.com/wp-content/uploads/2017/08/Velocity-and-Training-Grid.jpg){: rel='nofollow noopener' }" %}
-
-Nu kan du så bruge hastighedsmålingerne til at hjælpe dig med et objektivt mål på din RPE på de enkelte løft. I eksemplet ovenfor er _minimal velocity threshold_ (MVT) ved RPE 9,5 0,18 m/s. Nu kan du ganske enkelt finde den _cutoff_-hastighed, der svarer til 8 RPE for bænkpres for dig selv.
-
-Men det er naturligvis væsentligt, at du laver din egen version af skemaet, så hastighederne bliver dine egne. Og husk at lave skemaet for de forskellige løft, da hastighederne er forskellige.
-
-Jeg har lavet et regneark, som du kan bruge som udgangspunkt til at lave din egen _load velocity profile_, finde din _minimum velocity threshold_ og estimere din 1RM.
-
-## Arbejdsark
+## Google Sheet til Load-Velocity Profiler (Flere sæt)
 {: id="sheet" }
+
+Hvis du ud over et all-out sæt også vil opbygge en traditionel Load-Velocity profil baseret på stigende belastningssæt (40–90% 1RM), kan du benytte vores gratis regneark:
 
 {% include motionsplan/templates.html id="vbt_load_velocity_sheet" %}
 
-## Konklusion
+---
 
-Nu er du bevæbnet med nyttig viden om, hvilke hastigheder du løfter ift. din RPE. Så har du et objektivt mål, som du kan holde din fornemmelse op imod.
+## Hvad er næste skridt?
 
-Hvis du gerne vil se, hvordan et styrketræningsprogram baseret på VBT kan se ud i praksis, så har vi lavet en let oversigt over den protokol, de brugte i studiet af Pereja-Blancho et al (2017), som jeg nævnte tidligere.
-
-Programmet kører VBT på squat og bænkpres, så du kan prøve det af med det samme.
-
-Oplev hvordan du kan inkorporere hastighedsprofilen i dit [VBT-baserede træningsprogram](/vbt-traeningsprogram).
-
-**Tjek** [VBT-programmet](/vbt-traeningsprogram/)
-{: .notice }
+* **Træningsprogram:** Se vores [6-ugers VBT Træningsprogram](/vbt-traeningsprogram/) for et periodiseret forløb med hastighedsstyring.
+* **Udstyr:** Læs vores gennemgang af [VBT-måleudstyr](/vbt-udstyr/) for at sikre højest mulige datakvalitet.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Balsalobre-Fernández, Carlos, David Marchante, Eneko Baz-Valle, Iván Alonso-Molero, Sergio L. Jiménez, og Mario Muñóz-López. 2017. “Analysis of Wearable and Smartphone-Based Technologies for the Measurement of Barbell Velocity in Different Resistance Training Exercises”. _Frontiers in Physiology_ 8: 649. [https://doi.org/10.3389/fphys.2017.00649](https://doi.org/10.3389/fphys.2017.00649).
-- Helms, Eric R., Adam Storey, Matt R. Cross, Scott R. Brown, Seth Lenetsky, Hamish Ramsay, Carolina Dillen, og Michael C. Zourdos. 2017. “RPE and Velocity Relationships for the Back Squat, Bench Press, and Deadlift in Powerlifters”. _Journal of Strength and Conditioning Research_ 31 (2): 292–97. [https://doi.org/10.1519/JSC.0000000000001517](https://doi.org/10.1519/JSC.0000000000001517).
-- Jidovtseff, Boris, Nigel K. Harris, Jean-Michel Crielaard, og John B. Cronin. 2011. “Using the load-velocity relationship for 1RM prediction”. _The Journal of Strength & Conditioning Research_ 25 (1): 267–270.
-- Jovanović, Mladen, og D. Flanagan. 2014a. “[From the Field RESEARCHED APPLICATIONS OF VELOCITY BASED STRENGTH TRAINING](https://www.researchgate.net/publication/265227430_Researched_Applications_of_Velocity_Based_Strength_Training)”. 2014.
-- Jovanović, Mladen, og Dr Eamonn P. Flanagan. 2014b. “RESEARCHED APPLICATIONS OF VELOCITY BASED STRENGTH TRAINING” 22 (2): 58–69.
-- Neto, José Campanholi, Luísa Cedin, Carla Cristina Dato, Danilo Rodrigues Bertucci, Sérgio Eduardo de Andrade Perez, og Vilmar Baldissera. 2015. “A single session of testing for one repetition maximum (1RM) with eight exercises is trustworthy”. _Journal of Exercise Physiology Online_ 18 (3): 74–81.
-- Pareja-Blanco, F., D. Rodríguez-Rosell, L. Sánchez-Medina, J. Sanchis-Moysi, C. Dorado, R. Mora-Custodio, J. M. Yáñez-García, m.fl. 2017. “Effects of Velocity Loss during Resistance Training on Athletic Performance, Strength Gains and Muscle Adaptations”. _Scandinavian Journal of Medicine & Science in Sports_ 27 (7): 724–35. [https://doi.org/10.1111/sms.12678](https://doi.org/10.1111/sms.12678).
-- Sánchez-Medina, Luis, og Juan José Badillo. 2011. “Velocity Loss as an Indicator of Neuromuscular Fatigue during Resistance Training”. _Medicine and science in sports and exercise_ 43 (februar): 1725–34. [https://doi.org/10.1249/MSS.0b013e318213f880](https://doi.org/10.1249/MSS.0b013e318213f880).
-- [Test 1RM baseret på VBT](https://www.strengthofscience.com/articles/velocity-based-training-maximal-strength/)
+- Helms, Eric R. et al. 2017. “RPE and Velocity Relationships for the Back Squat, Bench Press, and Deadlift in Powerlifters”. *Journal of Strength and Conditioning Research* 31 (2): 292–97.
+- Jidovtseff, Boris et al. 2011. “Using the load-velocity relationship for 1RM prediction”. *The Journal of Strength & Conditioning Research* 25 (1): 267–270.
+- Jovanović, Mladen, og D. Flanagan. 2014. “Researched Applications of Velocity Based Strength Training”.
 </details>
-

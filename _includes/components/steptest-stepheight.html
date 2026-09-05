@@ -130,15 +130,15 @@
     </div>
   </div>
 
-  <!-- 1. Vælg Test (Viser kun valg hvis preset="auto") -->
+  <!-- 1. Vælg Test -->
   <div class="js-sh-test-select-wrapper" style="margin-bottom: 1rem;">
     <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
       Vælg Steptest Protokol
     </label>
     <select class="mp-sh-select js-sh-test-select">
       <option value="ymca_modified">YMCA Modified (Individuel ud fra kropshøjde)</option>
+      <option value="dansk">Den Danske Steptest (20, 25, 30 eller 35 cm kategori)</option>
       <option value="chester">Chester Step Test (Ud fra alder og form/kategori)</option>
-      <option value="dansk">Den Danske Steptest (20-35 cm ud fra højde & form)</option>
       <option value="astrand">Åstrand-Ryhming (Standard: 40 cm M / 33 cm K)</option>
       <option value="harvard">Harvard Step Test (Standard: 50.8 cm M / 40.6 cm K)</option>
       <option value="queens">Queens College (Standard: 41.3 cm)</option>
@@ -154,7 +154,7 @@
 
     <div class="mp-sh-flex-container">
       <!-- Køn -->
-      <div class="mp-sh-field mp-sh-gender-field">
+      <div class="mp-sh-field mp-sh-gender-field js-sh-gender-wrapper">
         <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
           Køn
         </label>
@@ -186,15 +186,16 @@
         <input type="number" name="sh_age" class="mp-sh-input js-sh-input" min="15" max="90" placeholder="40" value="40">
       </div>
 
-      <!-- Aktivitetsniveau / Træningstilstand (til Chester og Dansk Steptest) -->
+      <!-- Aktivitetsniveau / Træningstilstand -->
       <div class="mp-sh-field js-sh-fitness-wrapper" style="flex: 1.5 1 180px; display: none;">
         <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
-          Aktivitetsniveau / Form
+          Aktivitetsniveau / Tilstand
         </label>
         <select name="sh_fitness" class="mp-sh-select js-sh-input">
-          <option value="low">Utrænet / Ældre / Lavt niveau</option>
-          <option value="active" selected>Aktiv / Middel form</option>
-          <option value="fit">Meget veltrænet / Elite / Brandmand</option>
+          <option value="weak">Meget svag / Genoptræning / Bevægeapparat</option>
+          <option value="low">Konditionssvag / Motion på recept / Ældre</option>
+          <option value="active" selected>Rask / Aktiv / Normal form</option>
+          <option value="fit">Meget veltrænet / Eliteniveau</option>
         </select>
       </div>
     </div>
@@ -205,8 +206,8 @@
     <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; color: #93c5fd; font-weight: 800;">
       Anbefalet Stephøjde
     </div>
-    <div class="mp-sh-result-val js-sh-result-val">34.5 cm</div>
-    <div class="mp-sh-result-note js-sh-result-note">Beregnet ud fra din kropshøjde (180 cm × 0,192 for mænd).</div>
+    <div class="mp-sh-result-val js-sh-result-val">35 cm</div>
+    <div class="mp-sh-result-note js-sh-result-note">Beregnet for Den Danske Steptest.</div>
     
     <div class="mp-sh-sync-badge">
       <span>⚡</span>
@@ -236,7 +237,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const resultVal = container.querySelector('.js-sh-result-val');
     const resultNote = container.querySelector('.js-sh-result-note');
 
-    // Lås testen hvis indlejret direkte på en specifik protokol-side
     if (presetTest !== 'auto') {
       if (testSelect) {
         testSelect.value = presetTest;
@@ -292,7 +292,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function calculate() {
-      const testKey = testSelect ? testSelect.value : 'ymca_modified';
+      const testKey = testSelect ? testSelect.value : 'dansk';
       const genderEl = container.querySelector('input[name="sh_gender"]:checked');
       const gender = genderEl ? genderEl.value : 'male';
       const isMale = (gender === 'male' || gender === 'mand');
@@ -307,14 +307,32 @@ document.addEventListener("DOMContentLoaded", function() {
       let boxHeightCm = 30;
       let explanation = "";
 
-      // Tilpas synlighed af felter baseret på testen
-      if (testKey === 'ymca_modified') {
+      if (testKey === 'dansk') {
+        if (heightWrapper) heightWrapper.style.display = 'none';
+        if (ageWrapper) ageWrapper.style.display = 'none';
+        if (fitnessWrapper) fitnessWrapper.style.display = 'block';
+
+        if (fitness === 'weak') {
+          boxHeightCm = 20;
+          explanation = "20 cm: Meget svage personer og ældre med bevægeapparatsproblemer.";
+        } else if (fitness === 'low') {
+          boxHeightCm = 25;
+          explanation = "25 cm: Konditionssvage personer, ældre samt Motion på recept-patienter.";
+        } else if (fitness === 'fit') {
+          boxHeightCm = 35;
+          explanation = isMale ? "35 cm: Raske mænd." : "35 cm: Meget veltrænede kvinder.";
+        } else {
+          boxHeightCm = isMale ? 35 : 30;
+          explanation = isMale ? "35 cm: Raske mænd." : "30 cm: Raske kvinder og børn.";
+        }
+
+      } else if (testKey === 'ymca_modified') {
         if (heightWrapper) heightWrapper.style.display = 'block';
         if (ageWrapper) ageWrapper.style.display = 'none';
         if (fitnessWrapper) fitnessWrapper.style.display = 'none';
 
         boxHeightCm = isMale ? (height * 0.192) : (height * 0.189);
-        boxHeightCm = Math.round(boxHeightCm * 2) / 2; // Afrund til nærmeste 0.5 cm
+        boxHeightCm = Math.round(boxHeightCm * 2) / 2;
         explanation = `Santo & Golding formel: ${height} cm × ${isMale ? '0,192' : '0,189'} for ${isMale ? 'mænd' : 'kvinder'}.`;
 
       } else if (testKey === 'chester') {
@@ -325,7 +343,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (fitness === 'fit') {
           boxHeightCm = 30;
           explanation = "30 cm anbefales til meget veltrænede personer, atleter og brandmænd.";
-        } else if (fitness === 'low' || age >= 60) {
+        } else if (fitness === 'weak' || fitness === 'low' || age >= 60) {
           boxHeightCm = 15;
           explanation = "15 cm anbefales til ældre eller personer med lavt aktivitetsniveau.";
         } else if (age >= 40) {
@@ -335,18 +353,6 @@ document.addEventListener("DOMContentLoaded", function() {
           boxHeightCm = 25;
           explanation = "25 cm anbefales til aktive voksne under 40 år.";
         }
-
-      } else if (testKey === 'dansk') {
-        if (heightWrapper) heightWrapper.style.display = 'block';
-        if (ageWrapper) ageWrapper.style.display = 'none';
-        if (fitnessWrapper) fitnessWrapper.style.display = 'block';
-
-        let factor = 0.175;
-        if (fitness === 'low') factor = 0.15;
-        if (fitness === 'fit') factor = 0.19;
-
-        boxHeightCm = Math.min(35, Math.max(20, Math.round(height * factor)));
-        explanation = `Den Danske Steptest anbefaler 20–35 cm tilpasset din højde (${height} cm) og form.`;
 
       } else if (testKey === 'astrand') {
         if (heightWrapper) heightWrapper.style.display = 'none';
@@ -381,15 +387,12 @@ document.addEventListener("DOMContentLoaded", function() {
         explanation = `Standard YMCA 3-minutters steptest bænk på 30 cm (12") for alle.`;
       }
 
-      // Opdater visning
       if (resultVal) resultVal.textContent = `${boxHeightCm} cm`;
       if (resultNote) resultNote.textContent = explanation;
 
-      // Gem bokshøjden i localStorage og overfør automatisk til beregnermodulet hvis det er på siden
       try {
         localStorage.setItem(BOX_HEIGHT_KEY, boxHeightCm.toString());
         
-        // Opdater alle 'st_step_height' felter direkte i DOM'en hvis de findes på siden
         const calcStepInputs = document.querySelectorAll('input[name="st_step_height"]');
         calcStepInputs.forEach(input => {
           input.value = boxHeightCm;

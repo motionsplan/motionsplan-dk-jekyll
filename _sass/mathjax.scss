@@ -1,20 +1,31 @@
-/* Gør MathJax v3 blokke responsive med egen horisontal scrollbar */
-mjx-container[display="true"] {
+/* Rammer ALLE MathJax v3 elementer (både inline og display) */
+mjx-container {
   max-width: 100% !important;
   overflow-x: auto !important;
   overflow-y: hidden !important;
-  -webkit-overflow-scrolling: touch; /* Sikrer blød scroll på iOS */
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
+  -webkit-overflow-scrolling: touch; /* Blød scroll på iOS */
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
 }
 
-/* Fallback hvis du også har sider med MathJax v2 rendering */
+/* Inline-formler (som den i dit screenshot) skal være inline-block for at overflow-x virker */
+mjx-container:not([display="true"]) {
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
+/* Blok-formler (display math) får deres egen linje med ren scrollbar */
+mjx-container[display="true"] {
+  display: block !important;
+  margin: 1em 0 !important;
+}
+
+/* Fallback til MathJax v2 hvis det benyttes */
 .MathJax_Display,
-.MathJax_SVG_Display {
+.MathJax_SVG_Display,
+.MathJax {
   max-width: 100% !important;
   overflow-x: auto !important;
   overflow-y: hidden !important;
   -webkit-overflow-scrolling: touch;
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
 }

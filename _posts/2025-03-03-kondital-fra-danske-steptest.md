@@ -38,7 +38,7 @@ tags:
   - konditionstest
   - indirekte test
   - steptest
-last_modified_at: 2024-12-02T23:14:14Z
+last_modified_at: 2026-09-05T23:14:14Z
 toc: true
 breadcrumbs: true
 ---
@@ -50,26 +50,63 @@ I denne artikel gennemgår vi protokollen for Den Danske Steptest, og hvordan du
 
 *[MET]: Metabolic equivalent of Task
 
+[<i class='fas fa-calculator'></i> Hop til beregner](#calculator){: .btn .btn--success .btn--jump } [<i class='fas fa-clock'></i> Hop til timer](#timer){: .btn .btn--success .btn--jump }
+
 ## Hvad er Den Danske Steptest?
 
-**Den Danske Steptest er udviklet af danske forskere med Morten Zacho i spidsen. Det er en en tilpasning af de eksisterende steptest, så man ikke behøver pulsmålinger undervejs. Den Danske Steptest er en præstationsbegrænset submaksimal test, hvor deltagerne træder op og ned af en forhøjning på en bestemt måde i et forudbestemt tempo, som progressivt stiger i løbet af testen.**
-
-Forhøjningen i Den Danske Steptest er på 20-35 cm og sættes i forhold til folks træningsniveau, hvilket du kan læse mere om i instruktionerne til testen på [exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest).
-
-Her kan du også tage testen online.
+**Den Danske Steptest er udviklet af danske forskere med bl.a. Morten Zacho i spidsen. Det er en en tilpasning af de eksisterende steptest, så man ikke behøver pulsmålinger undervejs. Den Danske Steptest er en præstationsbegrænset submaksimal test, hvor deltagerne træder op og ned af en forhøjning på en bestemt måde i et forudbestemt tempo, som progressivt stiger i løbet af testen.**
 
 Testen kan laves overalt, hvor man har en computer eller andet device og en forhøjning.
 
 Når testen er færdig får man en estimeret VO₂-max, sit kondital (den maksimale iltoptagelse i forhold til ens kropsvægt) og [MET-værdien](/met/) (som er et mål for hvor meget arbejde, du har lavet).
 
-Den Danske Steptest er udviklet af bl.a. Morten Zacho.
+### Valg af bokshøjde
 
-## Sådan udføres testen
+Forhøjningen i Den Danske Steptest er på 20-35 cm og sættes i forhold til folks nuværende træningsniveau. En højere boks giver en hårdere test, mens en lavere boks passer bedre til nybegyndere eller kortere personer.
 
-1. Find afspilleren på [Den Danske Steptest](https://exercise.dk/kondition/43-den-danske-steptest)
-2. Find en boks i passende højde i forhold til instruktionerne på siden
-3. Udfør testen
-4. Få dit kondital
+### Anbefalet bokshøjde til testen
+
+Trinhøjden vælges ud fra din alder, dit køn og din nuværende fysiske formåen:
+
+* **20 cm:** Til personer med markant nedsat funktionsevne, genoptræningsbehov eller ældre med ledsmerter og bevægelsesudfordringer.
+* **25 cm:** Til utrænede, personer med et lavt kondital.
+* **30 cm:** Standardhøjde til raske kvinder samt børn og unge.
+* **35 cm:** Til raske mænd samt kvinder i særdeles god fysisk form.
+
+> **Testens måleområde:**  
+> Så længe du bevarer koordinationen undervejs, kan testen estimere dit kondital præcist op til omkring **60 mL/kg/min**. Det opnås ved at gennemføre samtlige 6 minutter på den højeste bænk (35 cm).
+
+Her kan du bestemme bokshøjden.
+
+{% include components/steptest-stepheight.html test="dansk" %}
+
+## Sådan udfører du Den Danske Steptest
+
+1. **Forberedelse**  
+   Find den rette bokshøjde (20–35 cm) med beregneren ovenfor. En af de største fordele ved Den Danske Steptest er, at du **ikke** skal måle din puls undervejs eller tælle pulsslag bagefter.
+2. **Start testen**  
+   Start vores interaktive guide nedenfor. Træd op og ned af boksen i takt med timeren og animationen. Tempoet stiger automatisk for hvert minut (fra 60 BPM på niveau 1 til 120 BPM på niveau 6).
+3. **Notér din tid**  
+   Notér den nøjagtige tid i sekunder (eller det niveau du nåede til), da du stoppede testen.
+4. **Hvornår stopper testen?**  
+   Testen afsluttes enten når:
+   * Du har gennemført alle 6 niveauer (6 minutter i alt).
+   * Du ikke længere kan holde kadencen eller følge metronomens takt.
+   * Du føler dig udmattet eller mister koordinationen.
+
+## Tag testen med interaktiv guide
+{: id="timer" }
+
+Brug afspilleren nedenfor til at holde det præcise tempo under testen. Skærmen holdes automatisk tændt på din enhed. Du kan finde den originale afspiller på [exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest).
+
+{% include components/steptest-timer.html type="dansk" %}
+
+## Beregn dit resultat
+{: id="calculator" }
+
+Indtast din alder, den anvendte bokshøjde samt din målte puls for de gennemførte niveauer herunder:
+
+{% include calc/steptest.html test="dansk" %}
 
 ## Baggrunden for Den Danske Steptest
 
@@ -131,7 +168,7 @@ Castro-Piñero et al (2021) konkluderer at [YMCA modificerede steptest](/ymca-mo
 
 Desto mere intensivt arbejdet bliver, desto højere bliver energiomsætningen under arbejdet.
 
-## Andre steptests
+## Alternativer til Den Danske Steptest
 
 Der findes en række [andre steptests](/kondital-fra-steptest/), som du også kan kigge på, hvis du gerne vil estimere konditallet med en let test, der er let at sætte op overalt.
 
@@ -140,6 +177,7 @@ Vi har også lavet en [oversigt over andre tests af konditallet](/kondition/test
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
+- [Udvikling af ny steptest. Zacho & Bloomquist. CMRC 2005](https://exercise.dk/pdf/Steptest_rapport2005.pdf)
 - Aadahl, Mette, Morten Zacho, Allan Linneberg, Betina Thuesen, og Torben Jørgensen. 2012. “Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: The Health2008 study”. European journal of preventive cardiology 20 (september). <https://doi.org/10.1177/2047487312462825>.
 - Lerche, L., A. Olsen, K. E. N. Petersen, A. L. Rostgaard‐Hansen, L. O. Dragsted, N. B. Nordsborg, A. Tjønneland, og J. Halkjær. 2017. “Validity of Physical Activity and Cardiorespiratory Fitness in the Danish Cohort ‘Diet, Cancer and Health-Next Generations’”. Scandinavian Journal of Medicine & Science in Sports 27 (12): 1864–72. <https://doi.org/10.1111/sms.12873>.
 - Castro-Piñero, J., Marin-Jimenez, N., Fernandez-Santos, J. R., Martin-Acosta, F., Segura-Jimenez, V., Izquierdo-Gomez, R., Ruiz, J. R., & Cuenca-Garcia, M. (2021). Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. Journal of Clinical Medicine, 10(16), 3743. <https://doi.org/10.3390/jcm10163743>
