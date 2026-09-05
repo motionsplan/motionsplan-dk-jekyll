@@ -126,7 +126,9 @@ Er du interesseret i at prøve andre steptests? Tjek vores [oversigt over stepte
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Santo, A. S., & Golding, L. A. (2003). Predicting maximum oxygen uptake from a modified 3-minute step test. *Research Quarterly for Exercise and Sport*, 74(1), 110–115. <https://doi.org/10.1080/02701367.2003.10609070>
-- Bennett, H., Parfitt, G., Davison, K., & Eston, R. (2016). Validity of Submaximal Step Tests to Estimate Maximal Oxygen Uptake in Healthy Adults. *Sports Medicine (Auckland, N.Z.)*, 46(5), 737–750. <https://doi.org/10.1007/s40279-015-0445-1>
-- Castro-Piñero, J., Marin-Jimenez, N., Fernandez-Santos, J. R., Martin-Acosta, F., Segura-Jimenez, V., Izquierdo-Gomez, R., Ruiz, J. R., & Cuenca-Garcia, M. (2021). Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. *Journal of Clinical Medicine*, 10(16), 3743. <https://doi.org/10.3390/jcm10163743>
+1. Santo AS, Golding LA. Predicting maximum oxygen uptake from a modified 3-minute step test. Res Q Exerc Sport. 2003 Mar;74(1):110-5. doi: 10.1080/02701367.2003.10609070.
+2. Bennett H, Parfitt G, Davison K, Eston R. Validity of Submaximal Step Tests to Estimate Maximal Oxygen Uptake in Healthy Adults. Sports Med. 2016 May;46(5):737-50. doi: 10.1007/s40279-015-0445-1.
+3. Castro-Piñero J, Marin-Jimenez N, Fernandez-Santos JR, Martin-Acosta F, Segura-Jimenez V, Izquierdo-Gomez R, Ruiz JR, Cuenca-Garcia M. Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. J Clin Med. 2021 Aug 23;10(16):3743. doi: 10.3390/jcm10163743.
+4. McArdle WD, Katch FI, Pechar GS, Jacobson L, Ruck S. Reliability and interrelationships between maximal oxygen intake, physical work capacity and step-test scores in college women. Med Sci Sports. 1972 Fall;4(4):182-6.
+5. Åstrand PO, Ryhming I. A nomogram for calculation of aerobic capacity (physical work capacity) from pulse rate during submaximal work. J Appl Physiol. 1954 Sep;7(2):218-21. doi: 10.1152/jappl.1954.7.2.218.
 </details>

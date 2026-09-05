@@ -168,6 +168,18 @@ Castro-Piñero et al (2021) konkluderer at [YMCA modificerede steptest](/ymca-mo
 
 Desto mere intensivt arbejdet bliver, desto højere bliver energiomsætningen under arbejdet.
 
+## Hvorfor giver Den Danske Steptest ofte et meget højt kondital?
+
+Oplever du at gennemføre hele testen og opnå et ret højt kondital? Det er et kendt fænomen ved Den Danske Steptest. Testen er udviklet som en simpel præstationstest uden pulsmåling til store befolkningsundersøgelser (Zacho & Blomqvist, 2005; Aadahl et al., 2013). På individuelt niveau kan den dog overestimere iltoptagelsen markant af følgende fysiologiske og metodiske årsager:
+
+* **Ingen fysiologisk pulsmåling:** Formlen beregner udelukkende dit kondital ud fra den gennemførte tid, din kropsvægt og stephøjden. Den skelner ikke mellem, om du gennemfører testen med en overskuelig arbejdspuls på 160 bpm eller ved absolut udmattelse på 195 bpm – algoritmen antager altid, at du har ydet dit fysiologiske maksimum (Zacho & Blomqvist, 2005).
+* **Testens måleloft (Ceiling Effect):** Bliver du ikke tvunget til at stoppe, før tidstælleren udløber ved 6 minutter, rammer du formlens beregningsmæssige maksimum. Da formlen er opbygget som en teoretisk ekstrapolation for at dække et bredt udsnit af befolkningen, tildeler fuld gennemførelse automatisk et elite-kondital (Aadahl et al., 2013).
+* **Lokal muskeludholdenhed og benlængde:** I en steptest er begrænsningen ofte lokal muskeltræthed i lårene (quadriceps). Har du stærke ben, god trinhøjde-teknik eller lange ben, kan du gennemføre testen på lokal muskeludholdenhed, selvom dit hjerte-kredsløb reelt svarer til et lavere kondital.
+* **Høj usikkerhed på individniveau:** Valideringsstudier viser, at selvom testen korrelerer fornuftigt på gruppeniveau mod maksimale cykeltests, er der stor spredning på individniveau, hvor en betydelig del af testpersonerne kan misklassificeres i konditionskategorier (Aadahl et al., 2013; Castro-Piñero et al., 2021).
+
+> **Sådan tolker du dit resultat:**  
+> Den Danske Steptest er et lettilgængeligt redskab til at måle din samlede arbejdsudholdenhed. Bliver du ikke udmattet inden for de 6 minutter, bør du **øge stephøjden** (fx fra 25 cm til 30 eller 35 cm) for at fremprovokere et stop før tid. Hvis du er i rigtig god form, så kan det være en god ide at supplere med en pulsbaseret test som Åstrand, Chester eller Harvard for en fysiologisk mere præcis måling af dit kredsløb.
+
 ## Alternativer til Den Danske Steptest
 
 Der findes en række [andre steptests](/kondital-fra-steptest/), som du også kan kigge på, hvis du gerne vil estimere konditallet med en let test, der er let at sætte op overalt.
@@ -178,7 +190,7 @@ Vi har også lavet en [oversigt over andre tests af konditallet](/kondition/test
   <summary><h2 id="references">Referencer</h2></summary>
 
 - [Udvikling af ny steptest. Zacho & Bloomquist. CMRC 2005](https://exercise.dk/pdf/Steptest_rapport2005.pdf)
-- Aadahl, Mette, Morten Zacho, Allan Linneberg, Betina Thuesen, og Torben Jørgensen. 2012. “Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: The Health2008 study”. European journal of preventive cardiology 20 (september). <https://doi.org/10.1177/2047487312462825>.
+- Aadahl M, Zacho M, Linneberg A, Thuesen BH, Jørgensen T. Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: the Health2008 study. Eur J Prev Cardiol. 2013 Dec;20(6):1088-94. doi: 10.1177/2047487312462825.
+- Castro-Piñero J, Marin-Jimenez N, Fernandez-Santos JR, Martin-Acosta F, Segura-Jimenez V, Izquierdo-Gomez R, Ruiz JR, Cuenca-Garcia M. Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. J Clin Med. 2021 Aug 23;10(16):3743. doi: 10.3390/jcm10163743.
 - Lerche, L., A. Olsen, K. E. N. Petersen, A. L. Rostgaard‐Hansen, L. O. Dragsted, N. B. Nordsborg, A. Tjønneland, og J. Halkjær. 2017. “Validity of Physical Activity and Cardiorespiratory Fitness in the Danish Cohort ‘Diet, Cancer and Health-Next Generations’”. Scandinavian Journal of Medicine & Science in Sports 27 (12): 1864–72. <https://doi.org/10.1111/sms.12873>.
-- Castro-Piñero, J., Marin-Jimenez, N., Fernandez-Santos, J. R., Martin-Acosta, F., Segura-Jimenez, V., Izquierdo-Gomez, R., Ruiz, J. R., & Cuenca-Garcia, M. (2021). Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. Journal of Clinical Medicine, 10(16), 3743. <https://doi.org/10.3390/jcm10163743>
 </details>

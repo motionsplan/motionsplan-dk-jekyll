@@ -1,31 +1,36 @@
-/* Rammer ALLE MathJax v3 elementer (både inline og display) */
+/* Generelle MathJax v3 indstillinger */
 mjx-container {
   max-width: 100% !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Inline-formler (forhindrer uønsket scrollbar) */
+mjx-container:not([display="true"]) {
+  display: inline-block !important;
+  vertical-align: middle;
+  overflow: visible !important;
+}
+
+/* Blok-formler (display math) får kun scrollbar hvis nødvendigt */
+mjx-container[display="true"] {
+  display: block !important;
+  margin: 1em 0 !important;
   overflow-x: auto !important;
   overflow-y: hidden !important;
-  -webkit-overflow-scrolling: touch; /* Blød scroll på iOS */
   padding-top: 0.15em;
   padding-bottom: 0.15em;
 }
 
-/* Inline-formler (som den i dit screenshot) skal være inline-block for at overflow-x virker */
-mjx-container:not([display="true"]) {
-  display: inline-block !important;
-  vertical-align: middle;
-}
-
-/* Blok-formler (display math) får deres egen linje med ren scrollbar */
-mjx-container[display="true"] {
-  display: block !important;
-  margin: 1em 0 !important;
-}
-
-/* Fallback til MathJax v2 hvis det benyttes */
+/* Fallback til MathJax v2 */
 .MathJax_Display,
-.MathJax_SVG_Display,
-.MathJax {
+.MathJax_SVG_Display {
   max-width: 100% !important;
   overflow-x: auto !important;
   overflow-y: hidden !important;
   -webkit-overflow-scrolling: touch;
+}
+
+.MathJax {
+  max-width: 100% !important;
+  overflow: visible !important;
 }

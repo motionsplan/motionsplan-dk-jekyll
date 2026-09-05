@@ -89,7 +89,7 @@ Studiet viste, at ustrænede mænd i snit havde et FFMI på $21{,}8$, mens ingen
 
 Der er en fysiologisk grænse for, hvor meget muskelmasse den menneskelige krop kan opbygge uden tilførsel af syntetiske hormoner. Det er dog vigtigt at bemærke:
 
-* **Steroidebrug under 25:** Man kan sagtens tage steroider uden at have et FFMI over 25 (f.eks. ved dårlig kost, lavere doser eller kort træningserfaring).
+* **Steroidebrug under 25:** Man kan sagtens tage steroider uden at have et FFMI over 25 (fx ved dårlig kost, lavere doser eller kort træningserfaring).
 * **Varig effekt af steroider:** Tidligere brug af anabolske steroider ændrer muskelcellerne permanent (flere cellekerner), hvilket gør det muligt at opretholde et unaturligt højt FFMI, selvom man er holdt op med at tage præparaterne.
 
 Vil du læse mere om, hvor hurtigt du kan forvente at opbygge muskelmasse måned for måned, kan du læse vores artikel om [hvor hurtigt muskler vokser](/hvor-hurtigt-vokser-muskler/).

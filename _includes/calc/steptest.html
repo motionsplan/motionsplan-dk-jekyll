@@ -73,7 +73,7 @@
 
 <div class="mp-calc-card vbt-premium-card" data-calculator="steptest" data-ui-module="steptest-ui" data-preset-test="{{ preset_test }}" style="max-width: 680px; margin: 0 auto; position: relative;">
 
-  <!-- Header uden <hx> -->
+  <!-- Header -->
   <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.85rem; margin-bottom: 1.15rem; display: flex; justify-content: space-between; align-items: flex-start;">
     <div>
       <div class="mp-calc-title js-st-main-title" style="margin: 0 0 4px 0; font-size: 1.15rem; font-weight: 800; color: #0f172a;">
@@ -101,7 +101,7 @@
     </div>
   </div>
 
-  <!-- 2. RÆKKE 1: FAST STAMDATA (Gemmes i LocalStorage på tværs) -->
+  <!-- 2. STAMDATA -->
   <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1rem;">
     <div style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">
       2. Stamdata (Gemmes automatisk)
@@ -151,9 +151,9 @@
     </div>
   </div>
 
-  <!-- 3. RÆKKE 2: TESTSPECIFIKKE DATAPUNKTER (Huskes ikke på tværs) -->
+  <!-- 3. TESTSPECIFIKKE DATAPUNKTER -->
   <div class="js-st-test-row" style="background: #ffffff; border: 1.5px solid #2563eb; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem; box-shadow: 0 4px 12px rgba(37,99,235,0.05);">
-    <div style="font-size: 0.825rem; font-weight: 800; color: #1e40af; margin: 0 0 0.85rem 0; display: flex; justify-content: space-between; align-items: center;">
+    <div style="font-size: 0.825rem; font-weight: 800; color: #1e40af; margin: 0 0 0.85rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
       <span>3. Testens Måledata (<span class="js-st-test-name-tag">Valgt test</span>)</span>
       <span class="js-st-stop-hr-badge mp-st-info-badge-inline" style="display: none;"></span>
     </div>
@@ -166,6 +166,14 @@
           Testpuls / Slutpuls <span class="js-st-hr-unit" style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(slag/min)</span>
         </label>
         <input type="number" name="st_hr" class="mp-st-input js-st-test-input" min="40" max="220" placeholder="120">
+      </div>
+
+      <!-- Maxpuls (Chester) -->
+      <div class="mp-st-field js-st-max-hr-wrapper" style="display: none;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Maxpuls <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(bpm - redigerbar)</span>
+        </label>
+        <input type="number" name="st_max_hr" class="mp-st-input js-st-test-input" min="100" max="230" placeholder="180">
       </div>
 
       <!-- Stephøjde / Bokshøjde -->
@@ -204,6 +212,69 @@
           P₃ (3-3.5 min) <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(valgfri)</span>
         </label>
         <input type="number" name="st_p3" class="mp-st-input js-st-test-input" min="10" max="120" placeholder="32">
+      </div>
+
+      <!-- CHESTER TABEL-INPUT (STRUKTURERET OG FLOT BANE) -->
+      <div class="js-st-chester-levels-wrapper" style="display: none; width: 100%; margin-top: 0.85rem;">
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.85rem 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.65rem; flex-wrap: wrap; gap: 0.5rem;">
+            <strong style="font-size: 0.8rem; color: #0f172a;">Målte pulsværdier v. hvert 2-minutters level (min. 2 niveauer)</strong>
+            <span style="font-size: 0.7rem; color: #64748b;">Stop testen når 80% HRmax nås</span>
+          </div>
+
+          <table style="width: 100%; border-collapse: collapse; font-size: 0.8rem; text-align: left;">
+            <thead>
+              <tr style="border-bottom: 1.5px solid #cbd5e1; color: #475569; font-weight: 800;">
+                <th style="padding: 6px;">Niveau</th>
+                <th style="padding: 6px;">Tid</th>
+                <th style="padding: 6px;">Kadence</th>
+                <th style="padding: 6px; text-align: right;">Målt Puls (BPM)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom: 1px solid #f1f5f9;">
+                <td style="padding: 6px; font-weight: 700; color: #1e293b;">Niveau 1</td>
+                <td style="padding: 6px; color: #64748b;">2 min</td>
+                <td style="padding: 6px; color: #64748b;">15 step/min</td>
+                <td style="padding: 4px 6px; text-align: right;">
+                  <input type="number" name="st_chester_l1" class="mp-st-input js-st-test-input" min="40" max="220" placeholder="fx 95" style="width: 110px !important; display: inline-block;">
+                </td>
+              </tr>
+              <tr style="border-bottom: 1px solid #f1f5f9;">
+                <td style="padding: 6px; font-weight: 700; color: #1e293b;">Niveau 2</td>
+                <td style="padding: 6px; color: #64748b;">4 min</td>
+                <td style="padding: 6px; color: #64748b;">20 step/min</td>
+                <td style="padding: 4px 6px; text-align: right;">
+                  <input type="number" name="st_chester_l2" class="mp-st-input js-st-test-input" min="40" max="220" placeholder="fx 112" style="width: 110px !important; display: inline-block;">
+                </td>
+              </tr>
+              <tr style="border-bottom: 1px solid #f1f5f9;">
+                <td style="padding: 6px; font-weight: 700; color: #1e293b;">Niveau 3</td>
+                <td style="padding: 6px; color: #64748b;">6 min</td>
+                <td style="padding: 6px; color: #64748b;">25 step/min</td>
+                <td style="padding: 4px 6px; text-align: right;">
+                  <input type="number" name="st_chester_l3" class="mp-st-input js-st-test-input" min="40" max="220" placeholder="fx 128" style="width: 110px !important; display: inline-block;">
+                </td>
+              </tr>
+              <tr style="border-bottom: 1px solid #f1f5f9;">
+                <td style="padding: 6px; font-weight: 700; color: #1e293b;">Niveau 4</td>
+                <td style="padding: 6px; color: #64748b;">8 min</td>
+                <td style="padding: 6px; color: #64748b;">30 step/min</td>
+                <td style="padding: 4px 6px; text-align: right;">
+                  <input type="number" name="st_chester_l4" class="mp-st-input js-st-test-input" min="40" max="220" placeholder="valgfri" style="width: 110px !important; display: inline-block;">
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 6px; font-weight: 700; color: #1e293b;">Niveau 5</td>
+                <td style="padding: 6px; color: #64748b;">10 min</td>
+                <td style="padding: 6px; color: #64748b;">35 step/min</td>
+                <td style="padding: 4px 6px; text-align: right;">
+                  <input type="number" name="st_chester_l5" class="mp-st-input js-st-test-input" min="40" max="220" placeholder="valgfri" style="width: 110px !important; display: inline-block;">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
     </div>

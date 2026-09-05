@@ -86,14 +86,14 @@ Modsat mange andre tests tilpasses bokshøjden ud fra din alder og dit nuværend
 ## Sådan udfører du Chester Step Test
 
 1. **Forberedelse**  
-   Vælg den rette bokshøjde ud fra din alder og form. Udregn din vejledende maksimale puls:
-   $$ \text{HR}_{\text{max}} = 220 - \text{alder} $$
+   Vælg den rette bokshøjde ud fra din alder og form. [Find din maxpuls](/test-max-puls/) eller udregn den.
    Beregn din stop-grænse (80% af $\text{HR}_{\text{max}}$):
    $$ \text{Stop-puls} = \text{HR}_{\text{max}} \times 0{,}80 $$
 2. **Start testen**  
    Start vores interaktive guide nedenfor. Træd op og ned i takt med timeren. Timeren skruer automatisk op for tempoet hvert 2. minut.
 3. **Mål pulsen ved hvert niveau**  
    Notér din puls i de sidste 5–10 sekunder af hvert 2-minutters niveau.
+   Indtast kun pulsen for de niveauer, du har gennemført helt (2 minutter). Hvis du må stoppe midtvejs i et niveau (fx fordi du rammer din stop-puls), lader du blot dette felt stå tomt. Beregneren skal bruge pulsen fra minimum 2 gennemførte niveauer for at ekstrapolere dit kondital.
 4. **Hvornår stopper testen?**  
    Testen afsluttes enten når:
    * Du har gennemført alle 5 niveauer (10 minutter).
@@ -122,13 +122,13 @@ Det teoretiske iltkrav for et givet niveau beregnes fysiologisk som:
 
 $$ \text{VO}_2 = (\text{step/min} \times 0{,}2) + (\text{step/min} \times \text{stephøjde i m} \times 1{,}8 \times 1{,}33) + 3{,}5 $$
 
-Når pulsen for de gennemførte niveauer indplottes mod disse $\text{VO}_2$-værdier, ekstrapoleres den linje, der danner sig, op til din forventede maksimalpuls ($\text{HR}_{\text{max}} = 220 - \text{alder}$). Skæringspunktet angiver dit estimerede kondital (VO₂max) i $\text{mL O}_2/\text{kg/min}$.
+Når pulsen for de gennemførte niveauer indplottes mod disse VO₂-værdier, ekstrapoleres den linje, der danner sig, op til din forventede maksimalpuls. Skæringspunktet angiver dit estimerede kondital (VO₂max) i $\text{mL O}_2/\text{kg/min}$.
 
 ## Styrker og begræsninger for testen
 
 Chester Step Test er yderst fleksibel og sikker, fordi opvarmningen sker glidende i de første niveauer, og fordi testen tilpasses individuelt via bokshøjden.
 
-En begrænsning ved testen er, at formlen benytter standard-estimatet for maksimalpuls ($220 - \text{alder}$), som kan afvige med $\pm 10-15$ slag/minut hos enkelte individer.
+En begrænsning ved testen er, at formlen benytter standard-estimatet for maksimalpuls, som kan afvige med 10-15 slag/minut hos enkelte individer. Hvis du indtaster dit faktiske maxpuls er denne begrænsning naturligvis mindre.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

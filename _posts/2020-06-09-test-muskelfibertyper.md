@@ -144,7 +144,7 @@ Du kan få et indblik i din muskelfibertypesammensætning på tre måder:
 
 1. **Pragmatisk:** Ud fra dine sportslige præferencer (eksplosiv vs. udholdende).
 2. **Styrketræningstest:** Via en rep-test til udmattelse ved 80–85 % af din 1RM (Pipes, Hatfield, Poliquin).
-3. **Muskelbiopsi:** Direkte vævsprøve af f.eks. lårmusklen i et laboratorium.
+3. **Muskelbiopsi:** Direkte vævsprøve af fx lårmusklen i et laboratorium.
 
 Vil du lære mere om, hvordan Type 1, Type 2a og Type 2x fibre fungerer i kroppen? Læs vores hovedartikel om **[muskelfibertyper og røde/hvide fibre](/muskelfibertyper/)**.
 

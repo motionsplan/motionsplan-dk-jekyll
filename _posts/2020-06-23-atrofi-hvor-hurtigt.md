@@ -25,7 +25,7 @@ faq:
 - question: Hvad er muscle memory, og hvor hurtigt genvinder man musklerne?
   answer: Muscle memory (muskelhukommelse) skyldes, at de cellekerner (myonuclei), du opbyggede under din træning, bevares i muskelfibrene under pausen. Når du starter træningen igen, kan du genvinde din tidligere muskelmasse op til 2–3 gange hurtigere, end det tog at opbygge den første gang.
 - question: Hvor meget skal man træne for at bevare sin muskelmasse i en pause?
-  answer: Forskning viser, at du kan bevare stort set al din muskelmasse og styrke i flere måneder med blot 1/3 af din normale træningsvolumen (f.eks. ét enkelt intensivt helkropstræningspas om ugen).
+  answer: Forskning viser, at du kan bevare stort set al din muskelmasse og styrke i flere måneder med blot 1/3 af din normale træningsvolumen (fx ét enkelt intensivt helkropstræningspas om ugen).
 - question: Taber ældre mennesker muskelmasse hurtigere end yngre?
   answer: Ja, personer over 60 år mister muskelmasse og styrke hurtigere ved inaktivitet på grund af lavere anabolsk hormonproduktion og aldersrelateret muskelatrofi (sarkopeni).
 ---

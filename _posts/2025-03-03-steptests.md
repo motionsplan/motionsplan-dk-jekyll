@@ -76,26 +76,32 @@ Selvom protokolerne varierer fra test til test, er der tre grundlæggende ting, 
 Når du skal vælge den rette steptest, afhænger det af dit nuværende konditionsniveau, din alder, og hvilket udstyr du har til rådighed.
 
 De forskellige steptests varierer i intensitet, testens varighed og hvordan resultaterne skal tolkes. Her er overblikket over de mest anerkendte steptests.
+## Sammenligning og validitet af steptests
 
-### Sammenligning af steptests
+Nedenfor kan du sammenligne de mest anvendte steptests ud fra deres fysiologiske arbejdsform, pulsmålingstype og videnskabelige præcision:
 
-| Testnavn | Intensitet | Varighed | Udstyr krævet | Beskrivelse |
-|---|---|---|---|---|
-| **[Den Danske Steptest](/den-danske-steptest/)** | Moderat | 1-6 min | Stepbænk | Estimerer VO₂max ud fra trinhøjde og belastning helt uden brug af pulsmåling. Passer til de fleste niveauer. |
-| **[YMCA 3-minutters Steptest](/ymca-3-minutters-steptest/)** | Lav til moderat | 3 min | Stepbænk (30 cm), stopur | Kortere test, god til nybegyndere og dem, der hurtigt vil have et overslag over deres kondition baseret på pulsrespons. |
-| **[Modificeret YMCA Steptest](/ymca-modified-steptest/)** | Lav til moderat | 3 min | Stepbænk, stopur | Bokshøjden udregnes automatisk ud fra din kropshøjde, hvilket gør den mere retfærdig og præcis end standard-testen. |
-| **[Queens College Steptest](/queens-college-step-test/)** | Moderat til høj | 3 min | Stepbænk (41,3 cm), stopur | Højere boks end YMCA-testen. Kører med opdelt tempo for hhv. mænd (96 BPM) og kvinder (88 BPM). |
-| **[Åstrand-Ryhming Step Test](/astrand-ryhming-step-test/)** | Moderat | 6 min | Stepbænk (33/40 cm), stopur | Klassisk og anerkendt skandinavisk test. Måler din stabiliserede arbejdspuls i det 5. og 6. minut. |
-| **[Chester Step Test](/chester-step-test/)** | Moderat til høj | 2-10 min | Stepbænk (15-30 cm), stopur | Progressiv test opdelt i op til 5 niveauer, hvor tempoet stiger hvert 2. minut. Udbredt til sundhedstjek og i redningstjenester. |
-| **[Harvard Step Test](/harvard-step-test/)** | Høj | 5 min | Stepbænk (40,6/50,8 cm), stopur | Meget intensiv, klassisk udholdenhedstest på høj bænk. Udregner et samlet Fitness Index ud fra pulsfaldet efter testen. |
+| Testnavn | Belastning & Bænk | Pulsmåling | Præcision (SEE) & Validitet | Fysiologisk profil & Egnethed | Kilder |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Den Danske Steptest](/den-danske-steptest/)** | Progressiv (1–6 min)<br>25, 30 el. 35 cm bænk | **Ingen pulsmåling** | Moderat validitet<br>($r = 0{,}56 \text{--} 0{,}66$) | **Præstationstest:** Valideret til store danske kohorteunderøgelser. Måler udholdenhed i benene, men kan overestimere veltrænede pga. måleloft v. 6 min. | Zacho & Blomqvist (2005); Aadahl et al. (2013); Lerche et al. (2017) |
+| **[YMCA 3-minutters](/ymca-3-minutters-steptest/)** | Lav-moderat (3 min)<br>Fast 30 cm bænk | Restitutionspuls<br>(1 min sidde-puls) | Moderat præcision<br>(SEE: $\pm 4{,}1 \text{--} 4{,}8$ mL/kg/min) | **Restitutionstest:** Velegnet til begyndere og ældre. Underestimerer ofte veltrænede pga. brat fald i muskelpumpe. | Golding (2000); Bennett et al. (2016) |
+| **[Modificeret YMCA](/ymca-modified-steptest/)** | Lav-moderat (3 min)<br>Højde-tilpasset bænk | Restitutionspuls<br>(1 min sidde-puls) | Moderat præcision<br>(SEE: $\pm 4{,}3$ mL/kg/min) | **Anatomisk tilpasset:** Stephøjden følger din kropshøjde, hvilket giver mere retfærdig belastning for lave og høje personer. | Santo & Golding (2003); Bennett et al. (2016) |
+| **[Queens College](/queens-college-step-test/)** | Moderat-høj (3 min)<br>Høj 41,3 cm bænk | Restitutionspuls<br>(15 sek stå-puls) | Høj præcision<br>(SEE: $\pm 3{,}8$ mL/kg/min) | **Hurtig pulstest:** Høj bænk giver god lineær pulsrespons hos raske voksne, men kan være udfordrende ved lave ben. | McArdle et al. (1972); Bennett et al. (2016) |
+| **[Åstrand-Ryhming](/astrand-ryhming-step-test/)** | Moderat (6 min)<br>33 cm (K) / 40 cm (M) | Arbejdspuls<br>(Steady-state v. 5.–6. min) | Høj præcision<br>(SEE: $\pm 4{,}0$ mL/kg/min) | **Skandinavisk guldstandard:** Måler den stabiliserede arbejdspuls under belastning, hvilket minimerer test-stress og fejl. | Åstrand & Ryhming (1954); Bennett et al. (2016) |
+| **[Chester Step Test](/chester-step-test/)** | Progressiv (2–10 min)<br>15, 20, 25 el. 30 cm bænk | Arbejdspuls<br>(Måles v. hvert 2-min level) | Meget høj præcision<br>(SEE: $\pm 3{,}5$ mL/kg/min) | **Lineær ekstrapolation:** Danner en individuel pulskurve op til din maxpuls. Stop v. 80% HRmax gør den sikker og præcis. | Sykes & Roberts (2004); Bennett et al. (2016) |
+| **[Harvard Step Test](/harvard-step-test/)** | Meget høj (5 min)<br>50,8 cm (M) / 40,6 cm (K) | Restitutionspuls<br>(3 x 30 sek tælling) | Udregner Fitness Index | **Klassisk udholdenhedstest:** Ekstremt krævende test på meget høj bænk. Måler samlet kardiovaskulær tolerance og pulsfald. | Brouha et al. (1943) |
 
 ---
 
 ### Hvilken test skal du vælge?
 
-- **Hvis du er nybegynder eller i lavere form:** Den **[modificerede YMCA steptest](/ymca-modified-steptest/)** og **[YMCA 3-minutters steptest](/ymca-3-minutters-steptest/)** er ideelle valg, da bænkens højde enten er lav eller tilpasses din højde.
-- **Hvis du har en gennemsnitlig kondition:** **[Den Danske Steptest](/den-danske-steptest/)**, **[Åstrand-Ryhming Step Test](/astrand-ryhming-step-test/)** og **[Chester Step Test](/chester-step-test/)** giver meget pålidelige data, da de enten tilpasser belastningen i niveauer eller måler arbejdspulsen over længere tid.
-- **Hvis du er veltrænet eller søger en hård fysisk test:** **[Queens College Steptest](/queens-college-step-test/)** og den historiske **[Harvard Step Test](/harvard-step-test/)** vil presse din muskulære udholdenhed og dit kredsløb pga. de markant højere bænke.
+* **Til begyndere, ældre eller utrænede:**  
+  Vælg **[Modificeret YMCA](/ymca-modified-steptest/)** eller **[Chester Step Test](/chester-step-test/)** (på 15 cm bænk). Begge tests er skånsomme, har lav skaderisiko og lader dig stoppe ved en behagelig belastning, før pulsen bliver for høj (Bennett et al., 2016).
+* **Til dig, der ønsker den mest præcise fysiologiske måling:**  
+  Vælg **[Åstrand-Ryhming](/astrand-ryhming-step-test/)** eller **[Chester Step Test](/chester-step-test/)**. Forskningen viser, at tests, der måler *arbejdspulsen undervejs* (steady-state), har lavere målefejl end tests, der kun kigger på pulsen efter arbejdet (Bennett et al., 2016).
+* **Hvis du ikke har et pulsur:**  
+  Vælg **[Den Danske Steptest](/den-danske-steptest/)**. Den kræver intet pulsur og er valideret i store danske befolkningsundersøgelser (Aadahl et al., 2013; Lerche et al., 2017). *Bemærk:* Hvis du kan gennemføre alle 6 minutter, bør du øge stephøjden (fx til 30 eller 35 cm) for at undgå at ramme formlens måleloft.
+* **Hvis du er veltrænet og ønsker en hård fysisk udfordring:**  
+  Vælg **[Queens College](/queens-college-step-test/)** eller **[Harvard Step Test](/harvard-step-test/)**. De høje bænke kræver betydelig benstyrke og sætter store krav til både kredsløb og muskulær udholdenhed (McArdle et al., 1972).
 
 ---
 
@@ -119,8 +125,12 @@ Vil du prøve andre måder at måle din form på? Udforsk vores samlede [oversig
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Bennett, H., Parfitt, G., Davison, K., & Eston, R. (2016). Validity of Submaximal Step Tests to Estimate Maximal Oxygen Uptake in Healthy Adults. Sports Medicine (Auckland, N.Z.), 46(5), 737–750. <https://doi.org/10.1007/s40279-015-0445-1>
-- Brouha, L. (1943). The Step Test: A Simple Method of Measuring Physical Fitness for Muscular Work in Young Men. Research Quarterly. American Association for Health, Physical Education and Recreation, 14(1), 31–36.
-- Åstrand, P. O., & Ryhming, I. (1954). A nomogram for calculation of aerobic capacity (physical fitness) from pulse rate during submaximal work. Journal of Applied Physiology, 7(2), 218–221.
-- Sykes, K., & Roberts, A. (2004). The Chester step test—a simple submaximal field test for the estimation of aerobic capacity. Journal of Sports Sciences, 22(7), 641–645.
+1. Bennett H, Parfitt G, Davison K, Eston R. Validity of Submaximal Step Tests to Estimate Maximal Oxygen Uptake in Healthy Adults. Sports Med. 2016 May;46(5):737-50. doi: 10.1007/s40279-015-0445-1.
+2. Aadahl M, Zacho M, Linneberg A, Thuesen BH, Jørgensen T. Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: the Health2008 study. Eur J Prev Cardiol. 2013 Dec;20(6):1088-94. doi: 10.1177/2047487312462825.
+3. Lerche L, Olsen A, Petersen KEN, Rostgaard-Hansen AL, Dragsted LO, Nordsborg NB, Tjønneland A, Halkjær J. Validity of Physical Activity and Cardiorespiratory Fitness in the Danish Cohort "Diet, Cancer and Health-Next Generations". Scand J Med Sci Sports. 2017 Dec;27(12):1864-1872. doi: 10.1111/sms.12873.
+4. Zacho M, Blomqvist S. Udvikling af ny steptest. Center for Muskelforskning (CMRC), 2005.
+5. Sykes K, Roberts A. The Chester step test--a simple rate of perceived exertion physiological prediction of aerobic capacity. J Sports Sci. 2004 Feb;22(2):127-8.
+6. Åstrand PO, Ryhming I. A nomogram for calculation of aerobic capacity (physical work capacity) from pulse rate during submaximal work. J Appl Physiol. 1954 Sep;7(2):218-21.
+7. Santo AS, Golding LA. Predicting maximum oxygen uptake from a 3-minute step test. J Sports Med Phys Fitness. 2003 Jul;43(3):375-80.
+8. McArdle WD, Katch FI, Pechar GS, Jacobson L, Ruck S. Reliability and interrelationships between maximal oxygen intake, physical work capacity and step-test scores in college women. Med Sci Sports. 1972 Fall;4(4):182-6.
 </details>

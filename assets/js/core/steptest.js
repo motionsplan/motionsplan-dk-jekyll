@@ -76,12 +76,13 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'chester',
     name: 'Chester Step Test',
     shortName: 'Chester Step',
-    desc: 'Progressiv steptest (max 80% HRmax). Ekstrapolerer VO₂max ud fra arbejdspuls og bokshøjde.',
+    desc: 'Progressiv steptest. Mål puls v. hvert 2-min niveau og ekstrapoler til din maxpuls.',
     see: '±3.5 ml/kg/min',
-    requiresWeight: true,
+    requiresWeight: false,
     requiresHeight: false,
     requiresStepHeight: true,
-    requiresPulse: true,
+    requiresPulse: false,
+    requiresChesterLevels: true,
     requiresDuration: false,
     isRecommended: true
   },
@@ -142,7 +143,9 @@ export function calculateStepTest({
   gender = 'male',
   height = 180,
   weight = 80,
-  stepHeight = 25
+  stepHeight = 25,
+  maxHr,
+  chesterL1, chesterL2, chesterL3, chesterL4, chesterL5
 }) {
   const heartRate = parseFloat(hr);
   const userAge = parseInt(age, 10) || 40;
@@ -168,7 +171,6 @@ export function calculateStepTest({
 
     case 'ymca_modified':
       if (isNaN(heartRate) || heartRate <= 30) return { isValid: false };
-      // Santo & Golding (2003): VO2max = 76.710 - (0.2805 * HR_1min)
       vo2max = 76.710 - (0.2805 * heartRate);
       break;
 
@@ -200,19 +202,55 @@ export function calculateStepTest({
     }
 
     case 'chester': {
-      if (isNaN(heartRate) || heartRate <= 30) return { isValid: false };
-      // Chester submax beregning baseret på bokshøjde og ekstrapolation til HRmax (220 - alder)
+      // Tanaka maxpuls estimat hvis intet gyldigt tal er angivet
+      const tanakaMax = Math.round(208 - (0.7 * userAge));
+      const userMaxHr = parseFloat(maxHr) || tanakaMax;
       const heightMeters = boxHeightCm / 100;
-      const cadence = 25; // typisk niveau 3 (100 BPM)
-      const vo2Submax = (0.2 * cadence) + (1.8 * cadence * heightMeters * 1.33) + 3.5;
-      
-      const maxHR = 220 - userAge;
-      const hrRestingEst = 60;
 
-      const hrRatio = Math.max(0.3, (maxHR - hrRestingEst) / Math.max(1, heartRate - hrRestingEst));
-      vo2max = vo2Submax * hrRatio;
+      const stepRates = [15, 20, 25, 30, 35];
+      const hrs = [
+        parseFloat(chesterL1),
+        parseFloat(chesterL2),
+        parseFloat(chesterL3),
+        parseFloat(chesterL4),
+        parseFloat(chesterL5)
+      ];
 
-      if (!isMale) vo2max *= 0.90;
+      // Indsaml gyldige målepunkter (x = VO2, y = HR)
+      const validPoints = [];
+      for (let i = 0; i < 5; i++) {
+        if (!isNaN(hrs[i]) && hrs[i] > 40 && hrs[i] <= userMaxHr + 5) {
+          const rate = stepRates[i];
+          // Præcis fysiologisk iltkost-formel for Chester Step Test
+          const vo2 = (0.2 * rate) + (1.8 * rate * heightMeters * 1.33) + 3.5;
+          validPoints.push({ x: vo2, y: hrs[i] });
+        }
+      }
+
+      // Der skal indtastes mindst 2 målinger for at kunne lave lineær regression
+      if (validPoints.length < 2) return { isValid: false };
+
+      let n = validPoints.length;
+      let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
+      for (let p of validPoints) {
+        sumX += p.x;
+        sumY += p.y;
+        sumXY += p.x * p.y;
+        sumXX += p.x * p.x;
+      }
+
+      let denom = (n * sumXX - sumX * sumX);
+      if (denom === 0) return { isValid: false };
+
+      // Lineær regression: HR = m * VO2 + b
+      let m = (n * sumXY - sumX * sumY) / denom;
+      let b = (sumY - m * sumX) / n;
+
+      // Pulsen skal stige med belastningen (m > 0)
+      if (m <= 0) return { isValid: false };
+
+      // Ekstrapoler VO2max ved brugerens Maxpuls
+      vo2max = (userMaxHr - b) / m;
       break;
     }
 
@@ -224,10 +262,8 @@ export function calculateStepTest({
       if (isNaN(valP1) || valP1 <= 0) return { isValid: false };
 
       if (!isNaN(valP2) && !isNaN(valP3) && valP2 > 0 && valP3 > 0) {
-        // Lang formel: (tid_sek * 100) / (2 * (P1 + P2 + P3))
         fitnessIndex = ((testDuration * 100) / (2 * (valP1 + valP2 + valP3))).toFixed(1);
       } else {
-        // Kort formel: (tid_sek * 100) / (5.5 * P1)
         fitnessIndex = ((testDuration * 100) / (5.5 * valP1)).toFixed(1);
       }
 
@@ -237,11 +273,8 @@ export function calculateStepTest({
     }
 
     case 'dansk': {
-      // Den Danske Steptest: Ingen puls! Baseret på gennemført tid (sek) og stephøjde (cm)
       if (isNaN(testDuration) || testDuration <= 0) return { isValid: false };
       const timeInSec = Math.min(360, testDuration);
-      
-      // Zacho/Aadahl fysiologisk approksimationsmodel for præstation på Danske Steptest
       vo2max = (0.118 * timeInSec) + (0.75 * boxHeightCm) - 4.5;
       if (!isMale) vo2max *= 0.90;
       break;

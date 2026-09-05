@@ -29,11 +29,13 @@ export function initCalculator(container) {
   const testNameTag = container.querySelector('.js-st-test-name-tag');
   const stopHrBadge = container.querySelector('.js-st-stop-hr-badge');
   const hrWrapper = container.querySelector('.js-st-hr-wrapper');
+  const maxHrWrapper = container.querySelector('.js-st-max-hr-wrapper');
   const stepHeightWrapper = container.querySelector('.js-st-step-height-wrapper');
   const durationWrapper = container.querySelector('.js-st-duration-wrapper');
   const harvardP1Wrapper = container.querySelector('.js-st-harvard-p1');
   const harvardP2Wrapper = container.querySelector('.js-st-harvard-p2');
   const harvardP3Wrapper = container.querySelector('.js-st-harvard-p3');
+  const chesterLevelsWrapper = container.querySelector('.js-st-chester-levels-wrapper');
 
   // Formel UI
   const formulaBar = container.querySelector('.js-st-formula-bar');
@@ -105,7 +107,6 @@ export function initCalculator(container) {
     });
   }
 
-  // Gemmer faste antropometriske data (Alder, Køn, Højde, Vægt) på tværs
   function saveAnthroState() {
     try {
       const state = {
@@ -118,7 +119,6 @@ export function initCalculator(container) {
     } catch (e) {}
   }
 
-  // Henter faste antropometriske data
   function loadAnthroState() {
     try {
       const saved = localStorage.getItem(ANTHRO_STORAGE_KEY);
@@ -141,17 +141,22 @@ export function initCalculator(container) {
     } catch (e) {}
   }
 
-  // Gemmer testens specifikke måledata og overfører resultatet til dashboardet
   function saveTestStateAndResult(res) {
     try {
       const testState = {
         activeFormulaKey: activeFormulaKey,
         hr: container.querySelector('[name="st_hr"]')?.value || '',
+        maxHr: container.querySelector('[name="st_max_hr"]')?.value || '',
         stepHeight: container.querySelector('[name="st_step_height"]')?.value || '',
         duration: container.querySelector('[name="st_duration"]')?.value || '',
         p1: container.querySelector('[name="st_p1"]')?.value || '',
         p2: container.querySelector('[name="st_p2"]')?.value || '',
-        p3: container.querySelector('[name="st_p3"]')?.value || ''
+        p3: container.querySelector('[name="st_p3"]')?.value || '',
+        chesterL1: container.querySelector('[name="st_chester_l1"]')?.value || '',
+        chesterL2: container.querySelector('[name="st_chester_l2"]')?.value || '',
+        chesterL3: container.querySelector('[name="st_chester_l3"]')?.value || '',
+        chesterL4: container.querySelector('[name="st_chester_l4"]')?.value || '',
+        chesterL5: container.querySelector('[name="st_chester_l5"]')?.value || ''
       };
 
       if (res && res.isValid) {
@@ -167,7 +172,6 @@ export function initCalculator(container) {
           unit: unit
         };
 
-        // Opdater fælles dashboard-lager
         const allResults = JSON.parse(localStorage.getItem(RESULTS_STORAGE_KEY) || '{}');
         allResults[dashboardKey] = {
           score: res.fitnessLevel,
@@ -181,7 +185,6 @@ export function initCalculator(container) {
     } catch (e) {}
   }
 
-  // Henter testens specifikke måledata
   function loadTestState() {
     try {
       const saved = localStorage.getItem(TEST_STATE_KEY);
@@ -192,6 +195,11 @@ export function initCalculator(container) {
         }
         if (state.hr && container.querySelector('[name="st_hr"]')) {
           container.querySelector('[name="st_hr"]').value = state.hr;
+        }
+        if (state.maxHr && container.querySelector('[name="st_max_hr"]')) {
+          const maxHrInput = container.querySelector('[name="st_max_hr"]');
+          maxHrInput.value = state.maxHr;
+          maxHrInput.dataset.isCustom = 'true';
         }
         if (state.stepHeight && container.querySelector('[name="st_step_height"]')) {
           container.querySelector('[name="st_step_height"]').value = state.stepHeight;
@@ -207,6 +215,21 @@ export function initCalculator(container) {
         }
         if (state.p3 && container.querySelector('[name="st_p3"]')) {
           container.querySelector('[name="st_p3"]').value = state.p3;
+        }
+        if (state.chesterL1 && container.querySelector('[name="st_chester_l1"]')) {
+          container.querySelector('[name="st_chester_l1"]').value = state.chesterL1;
+        }
+        if (state.chesterL2 && container.querySelector('[name="st_chester_l2"]')) {
+          container.querySelector('[name="st_chester_l2"]').value = state.chesterL2;
+        }
+        if (state.chesterL3 && container.querySelector('[name="st_chester_l3"]')) {
+          container.querySelector('[name="st_chester_l3"]').value = state.chesterL3;
+        }
+        if (state.chesterL4 && container.querySelector('[name="st_chester_l4"]')) {
+          container.querySelector('[name="st_chester_l4"]').value = state.chesterL4;
+        }
+        if (state.chesterL5 && container.querySelector('[name="st_chester_l5"]')) {
+          container.querySelector('[name="st_chester_l5"]').value = state.chesterL5;
         }
       }
     } catch (e) {}
@@ -243,14 +266,28 @@ export function initCalculator(container) {
     if (harvardP3Wrapper) harvardP3Wrapper.style.display = activeDef.requiresHarvardP ? 'block' : 'none';
 
     if (activeFormulaKey === 'chester') {
+      if (maxHrWrapper) maxHrWrapper.style.display = 'block';
+      if (chesterLevelsWrapper) chesterLevelsWrapper.style.display = 'block';
+
       const age = parseInt(container.querySelector('[name="st_age"]')?.value || 40, 10);
-      const stopHr = Math.round((220 - age) * 0.80);
+      const maxHrInput = container.querySelector('[name="st_max_hr"]');
+      const tanakaMax = Math.round(208 - (0.7 * age));
+
+      if (maxHrInput && maxHrInput.dataset.isCustom !== 'true') {
+        maxHrInput.value = tanakaMax;
+      }
+
+      const activeMaxHr = parseFloat(maxHrInput?.value) || tanakaMax;
+      const stopHr = Math.round(activeMaxHr * 0.80);
+
       if (stopHrBadge) {
-        stopHrBadge.textContent = `🛑 Max stop-puls (80%): ${stopHr} BPM`;
+        stopHrBadge.textContent = `🛑 Stop-puls (80% HRmax): ${stopHr} BPM`;
         stopHrBadge.style.display = 'inline-block';
       }
-    } else if (stopHrBadge) {
-      stopHrBadge.style.display = 'none';
+    } else {
+      if (maxHrWrapper) maxHrWrapper.style.display = 'none';
+      if (chesterLevelsWrapper) chesterLevelsWrapper.style.display = 'none';
+      if (stopHrBadge) stopHrBadge.style.display = 'none';
     }
   }
 
@@ -262,6 +299,7 @@ export function initCalculator(container) {
     updateFieldVisibilities(activeDef);
 
     const hr = container.querySelector('[name="st_hr"]')?.value || '';
+    const maxHr = container.querySelector('[name="st_max_hr"]')?.value || '';
     const age = parseInt(container.querySelector('[name="st_age"]')?.value || 0, 10);
     const height = parseFloat(container.querySelector('[name="st_height"]')?.value || 180);
     const weight = parseFloat(container.querySelector('[name="st_weight"]')?.value || 80);
@@ -271,6 +309,12 @@ export function initCalculator(container) {
     const p1 = container.querySelector('[name="st_p1"]')?.value || '';
     const p2 = container.querySelector('[name="st_p2"]')?.value || '';
     const p3 = container.querySelector('[name="st_p3"]')?.value || '';
+
+    const chesterL1 = container.querySelector('[name="st_chester_l1"]')?.value || '';
+    const chesterL2 = container.querySelector('[name="st_chester_l2"]')?.value || '';
+    const chesterL3 = container.querySelector('[name="st_chester_l3"]')?.value || '';
+    const chesterL4 = container.querySelector('[name="st_chester_l4"]')?.value || '';
+    const chesterL5 = container.querySelector('[name="st_chester_l5"]')?.value || '';
 
     const genderEl = container.querySelector('input[name="st_gender"]:checked');
     const gender = genderEl ? genderEl.value : 'male';
@@ -314,7 +358,9 @@ export function initCalculator(container) {
       gender,
       height,
       weight,
-      stepHeight
+      stepHeight,
+      maxHr,
+      chesterL1, chesterL2, chesterL3, chesterL4, chesterL5
     });
 
     saveTestStateAndResult(res);
@@ -431,8 +477,21 @@ export function initCalculator(container) {
     if (marker) marker.style.display = 'none';
   }
 
+  const maxHrInput = container.querySelector('[name="st_max_hr"]');
+  if (maxHrInput) {
+    maxHrInput.addEventListener('input', () => {
+      maxHrInput.dataset.isCustom = 'true';
+    });
+  }
+
   anthroInputs.forEach(input => {
-    ['input', 'change', 'keyup'].forEach(ev => input.addEventListener(ev, calculate));
+    ['input', 'change', 'keyup'].forEach(ev => input.addEventListener(ev, () => {
+      if (input.name === 'st_age' && maxHrInput && maxHrInput.dataset.isCustom !== 'true') {
+        const age = parseInt(input.value || 40, 10);
+        maxHrInput.value = Math.round(208 - (0.7 * age));
+      }
+      calculate();
+    }));
   });
 
   testInputs.forEach(input => {
@@ -456,7 +515,12 @@ export function initCalculator(container) {
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      testInputs.forEach(inp => inp.value = '');
+      testInputs.forEach(inp => {
+        inp.value = '';
+        if (inp.name === 'st_max_hr') {
+          delete inp.dataset.isCustom;
+        }
+      });
       try {
         localStorage.removeItem(TEST_STATE_KEY);
 

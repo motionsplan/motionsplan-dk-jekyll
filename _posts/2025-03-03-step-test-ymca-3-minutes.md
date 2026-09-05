@@ -128,11 +128,25 @@ Vil du se en visuel gennemgang af testen inden start, kan du følge denne YouTub
 
 {% include video provider="youtube" id="jvSnWWGtMvk" %}
 
+## Hvorfor giver YMCA Modified Steptest ofte et lavere kondital?
+
+Oplever du, at YMCA Modified Steptest estimerer et lavere kondital end fx Åstrand, Chester eller Queens College? Selvom denne version tilpasser stephøjden til din kropshøjde, er underestimeringen et kendt fysiologisk fænomen, der skyldes testens opbygning:
+
+* **Måling af genoprettelsespuls (recovery HR):** Testen måler din puls i det første minut *efter* arbejdet, mens du sidder stille. Når du stopper op, ophører benenes muskelpumpe, hvilket midlertidigt dæmper blodtilbageløbet til hjertet. Det kan udløse en kompensatorisk høj puls i restitutionsminuttet, som beregningsmodellen tolker som dårligere kredsløbskapacitet (Santo & Golding, 2003).
+* **Manglende fysiologisk steady-state:** Med en varighed på kun 3 minutter når kredsløbet ikke altid at opnå en stabil arbejdspuls, hvilket gør testen mindre præcis sammenlignet med 6-minutters protokoller (Åstrand & Ryhming, 1954).
+* **Relativt lav arbejdsbelastning:** Selvom stephøjden her udregnes ud fra din kropshøjde, er kadencen på 24 step/minut og arbejdstiden stadig tilrettelagt som en mild til moderat belastning. Hos veltrænede udgør test-stress og pulsvariationer derfor en uforholdsmæssig stor andel af pulsmålingen (McArdle et al., 1972).
+* **Konservativ kalibrering i formlen:** Santo & Goldings regressionsmodel er udviklet ud fra en gennemsnitlig befolkningsgruppe. Det medfører en systematisk underestimering af iltoptagelsen hos unge, raske og meget aktive personer (Santo & Golding, 2003; Bennett et al., 2016).
+
+> **Kort opsummering:** YMCA Modified er en mere anatomisk retfærdig test til begyndere, høje/lave personer og utrænede, da stephøjden følger din kropshøjde. Er du i god eller meget god form, vil mere intensive protokoller som Åstrand, Chester eller Den Danske Steptest give et mere retvisende billede af dit faktiske kondital.
+
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
 1. YMCA Fitness Testing and Assessment Manual, YMCA of the USA, Edition 4, 2000.
-2. Castro-Piñero J, Marin-Jimenez N, Fernandez-Santos JR, Martin-Acosta F, Segura-Jimenez V, Izquierdo-Gomez R, Ruiz JR, Cuenca-Garcia M. Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. J Clin Med. 2021 Aug 23;10(16):3743. doi: 10.3390/jcm10163743.
-3. Kieu NTV, Jung SJ, Shin SW, Jung HW, Jung ES, Won YH, Kim YG, Chae SW. The Validity of the YMCA 3-Minute Step Test for Estimating Maximal Oxygen Uptake in Healthy Korean and Vietnamese Adults. J Lifestyle Med. 2020 Jan 31;10(1):21-29. doi: 10.15280/jlm.2020.10.1.21.
-4. Bohannon RW, Bubela DJ, Wang YC, Magasi SS, Gershon RC. Six-Minute Walk Test Vs. Three-Minute Step Test for Measuring Functional Endurance. J Strength Cond Res. 2015 Nov;29(11):3240-4. doi: 10.1519/JSC.0000000000000253.
+2. Kieu NTV, Jung SJ, Shin SW, Jung HW, Jung ES, Won YH, Kim YG, Chae SW. The Validity of the YMCA 3-Minute Step Test for Estimating Maximal Oxygen Uptake in Healthy Korean and Vietnamese Adults. J Lifestyle Med. 2020 Jan 31;10(1):21-29. doi: 10.15280/jlm.2020.10.1.21.
+3. Santo AS, Golding LA. Predicting maximum oxygen uptake from a 3-minute step test. J Sports Med Phys Fitness. 2003 Jul;43(3):375-80. PMID: 14625522.
+4. Castro-Piñero J, Marin-Jimenez N, Fernandez-Santos JR, Martin-Acosta F, Segura-Jimenez V, Izquierdo-Gomez R, Ruiz JR, Cuenca-Garcia M. Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. J Clin Med. 2021 Aug 23;10(16):3743. doi: 10.3390/jcm10163743.
+5. McArdle WD, Katch FI, Pechar GS, Jacobson L, Ruck S. Reliability and interrelationships between maximal oxygen intake, physical work capacity and step-test scores in college women. Med Sci Sports. 1972 Fall;4(4):182-6.
+6. Åstrand PO, Ryhming I. A nomogram for calculation of aerobic capacity (physical work capacity) from pulse rate during submaximal work. J Appl Physiol. 1954 Sep;7(2):218-21. doi: 10.1152/jappl.1954.7.2.218.
+7. Bohannon RW, Bubela DJ, Wang YC, Magasi SS, Gershon RC. Six-Minute Walk Test Vs. Three-Minute Step Test for Measuring Functional Endurance. J Strength Cond Res. 2015 Nov;29(11):3240-4. doi: 10.1519/JSC.0000000000000253.
 </details>

@@ -45,7 +45,7 @@ feature_row:
     excerpt: "Push er et bærbart accelerometer til armen eller stangen."
     btn_class: "btn--info"
     btn_label: Læs mere
-  - image_path: /assets/images/flexstronger.com/FLEX-IMAGE-800x800-9a829795.jpg
+  - image_path: /assets/images/products/flex-gymaware.jpg
     credit: https://www.flexstronger.com/wp-content/uploads/2021/02/FLEX-IMAGE-800x800.jpg
     url: https://www.flexstronger.com/?rfsn=4448247.fcbbca
     title: "Flex (Gymaware)"
