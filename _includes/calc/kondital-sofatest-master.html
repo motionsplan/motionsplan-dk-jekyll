@@ -174,7 +174,7 @@
     </div>
   </div>
 
-  <!-- 3. Resultater (Opdateret med align-items: stretch & flex: 1) -->
+  <!-- 3. Resultater -->
   <div style="margin-bottom: 1.25rem; position: relative !important;">
     <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: stretch;">
       
@@ -220,7 +220,7 @@
         </div>
       </div>
 
-      <!-- Højre Bokse (Opdelt ligeligt i højden) -->
+      <!-- Højre Bokse -->
       <div style="flex: 1; min-width: 180px; display: flex; flex-direction: column; gap: 0.5rem;">
         
         <!-- Iltoptagelse -->
@@ -327,7 +327,7 @@
 
     if (score < cutoffs.low) return { cat: 'Lav', color: '#ef4444', textColor: '#ffffff' };
     if (score < cutoffs.mid) return { cat: 'Under middel', color: '#f97316', textColor: '#ffffff' };
-    if (score < cutoffs.high) return { cat: 'Middel', color: '#eab308', textColor: '#ffffff' };
+    if (score < cutoffs.high) return { cat: 'Middel', color: '#ca8a04', textColor: '#ffffff' };
     if (score < cutoffs.vhigh) return { cat: 'Høj', color: '#22c55e', textColor: '#ffffff' };
     return { cat: 'Meget høj', color: '#2563eb', textColor: '#ffffff' };
   }
@@ -370,11 +370,11 @@
     });
   });
 
-  // Pill knapper (Aktivitet)
+  // Pill knapper (Aktivitet) - RETTET SCOPE
   pills.forEach(pill => {
-    btn = pill;
-    btn.addEventListener('click', () => {
-      const group = btn.closest('.js-kt-pill-group');
+    pill.addEventListener('click', (e) => {
+      const clickedBtn = e.currentTarget;
+      const group = clickedBtn.closest('.js-kt-pill-group');
       group.querySelectorAll('.js-kt-pill').forEach(p => {
         p.style.border = '1.5px solid #cbd5e1';
         p.style.background = '#ffffff';
@@ -382,11 +382,11 @@
         p.style.fontWeight = 'normal';
         p.classList.remove('is-active');
       });
-      btn.style.border = '2px solid #2563eb';
-      btn.style.background = '#eff6ff';
-      btn.style.color = '#1e40af';
-      btn.style.fontWeight = '700';
-      btn.classList.add('is-active');
+      clickedBtn.style.border = '2px solid #2563eb';
+      clickedBtn.style.background = '#eff6ff';
+      clickedBtn.style.color = '#1e40af';
+      clickedBtn.style.fontWeight = '700';
+      clickedBtn.classList.add('is-active');
       calculateAll();
     });
   });
@@ -569,14 +569,14 @@
       computedScores.uth = null;
     }
 
-    // 3. Nes (HUNT)
+    // 3. Nes (HUNT) - RETTET PA-LOGIK
     const waist = parseFloat(container.querySelector('[name="kt_waist"]').value);
     const nesRestHr = parseFloat(container.querySelector('[name="kt_nes_resthr"]').value);
     const nesPill = container.querySelector('[data-name="kt_nes_pa"] .js-kt-pill.is-active');
     const nesPa = nesPill ? parseFloat(nesPill.dataset.value) : 3;
     if (waist && nesRestHr) {
       const paScoreMap = { 1: 0, 2: 0.6, 3: 1.5, 4: 2.2 };
-      const paVal = paScoreMap[nesPa] || 1.5;
+      const paVal = paScoreMap[nesPa] ?? 1.5;
       if (gender === 'male') {
         computedScores.nes = 100.27 - (0.296 * age) - (0.369 * waist) - (0.155 * nesRestHr) + (0.226 * paVal * 10);
       } else {
@@ -593,7 +593,7 @@
     if (height && weight) {
       const bmi = weight / Math.pow(height / 100, 2);
       const genderVal = (gender === 'male') ? 1 : 0;
-      computedScores.jackson = 56.363 + (1.921 * par) - (0.381 * age) - (0.754 * bmi) + (10.887 * genderVal) - 10.887 * (1 - genderVal) / 2;
+      computedScores.jackson = 56.363 + (1.921 * par) - (0.381 * age) - (0.754 * bmi) + (10.887 * genderVal);
     } else {
       computedScores.jackson = null;
     }

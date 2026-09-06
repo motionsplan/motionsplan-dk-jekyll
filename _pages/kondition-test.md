@@ -71,7 +71,7 @@ Vil du vide, hvor god din kondition er? En **konditionstest** (også kaldet en k
 
 Her får du en oversigt over de mest populære konditionstests, så du kan vælge nøjagtigt den test, der passer bedst til dine mål.
 
-Her fokuserer vi på de fysiske konditionstests. Vil du beregne dit kondital uden at tage en test? Prøv [kondital-beregnere uden test her](/kondital/)!
+Her fokuserer vi på de fysiske konditionstests. Vil du beregne dit kondital uden at tage en test? Prøv [kondital-beregnere uden test her](/kondital/#calculator)!
 
 ## 🔍 Søg i alle konditionstests og tests af vo2max
 {: id="oversigt" }
@@ -222,7 +222,7 @@ Konditionstests kan udføres på fitnesscentre og laboratorier, men der findes o
 * 👟 **[YMCA 3-minutters step-test](/ymca-3-minutters-steptest/)** – Kræver kun en 30 cm høj bænk/trappetrin og et stopur. Du træder op og ned i 3 minutter og måler din puls bagefter. See også vores [oversigt over alle steptests](/kondital-fra-steptest/).
 * 🚶 **[Rockports 1,6 km gå-test](/gaatest/)** – Gå 1,6 km så hurtigt du kan og tæl din puls til sidst. Perfekt til begyndere og skånsom test i nærområdet.
 * 🏃 **[1,6 km jogging-test](/submaximal-jogging-test-vo2/)** – En submaksimal test, hvor du jogger i et roligt samtale-tempo og lader pulsen afsløre dit kondital.
-* 🏃 **[7 forskellige steptests](/kondital-fra-steptest/)** – En steptest er let at sætte op derhjemme. Vi gennemgår både steptests med og uden pulsmåling.
+* 🏃 **[7 forskellige steptests](/kondital-fra-steptest/)** – En steptest er let at sætte op derhjemme. Vi gennemgår både steptests med og uden pulsmåler.
 
 
 💡 **3 gyldne regler når du tester din kondition derhjemme:**

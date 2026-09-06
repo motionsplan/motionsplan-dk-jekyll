@@ -179,8 +179,8 @@ I 1871 formulerede den franske kirurg og antropolog Paul Broca en af de allerfø
 
 $$\text{Idealvægt (kg)} = \text{Højde (cm)} - 100$$
 
-* **Eksempel:** En person på $180\text{ cm}$ burde ifølge Broca veje præcis $80\text{ kg}$.
-* **Hvorfor den udgik:** Brocas indeks var alt for grovt. Det tog hverken højde for køn, alder eller skeletbygning, og formlen overestimerede i voldsom grad idealvægten for høje personer, mens den gjorde lave personer kunstigt slanke. Senere tilpassede man formlen (fx ved at trække $10\text{ \%}$ fra for mænd og $15\text{ \%}$ for kvinder), men grundlæggende var matematikken for forenklet.
+* **Eksempel:** En person på 180 cm burde ifølge Broca veje præcis 80 kg.
+* **Hvorfor den udgik:** Brocas indeks var alt for grovt. Det tog hverken højde for køn, alder eller skeletbygning, og formlen overestimerede i voldsom grad idealvægten for høje personer, mens den gjorde lave personer kunstigt slanke. Senere tilpassede man formlen (fx ved at trække 10% fra for mænd og 15% for kvinder), men grundlæggende var matematikken for forenklet.
 
 ### 2. Lorenz' indeks (1929)
 For at korrigere for Brocas manglende hensyn til køn og højdejustering, videreudviklede den tyske læge Friedrich Lorenz i 1929 formlen. Lorenz' formel indførte en differentiering mellem mænd og kvinder:

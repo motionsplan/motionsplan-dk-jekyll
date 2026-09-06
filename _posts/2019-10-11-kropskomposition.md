@@ -150,7 +150,7 @@ DEXA-scanninger er ofte relativt dyrt at få lavet.
 
 Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang. Du måler det eksterne fedt ved med to fingre at samle hud og måle, hvor tyk hudfolden er. Målingerne bliver lagt ind i matematiske formler, som så bestemmer fedtmassen i hele kroppen.
 
-{% include figure image_path="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfozK6s5V4DcMgTzb_xxa_iDhOspJxuNDAl-rIR0myepmBg-5nSg" caption="Skinfold Caliper målinger" alt="Skinfold Caliper målinger" %}
+{% include figure image_path="https://www.habdirect.com/wp-content/uploads/2024/11/Untitled-design-20.png" caption="Summen af hudfoldsmålingerne kan efterfølgende konverteres " alt="Skinfold Caliper målinger" %}
 
 {% include video provider="youtube" id="VBJuVfiKrbY" %}
 
