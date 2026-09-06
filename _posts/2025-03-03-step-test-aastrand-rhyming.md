@@ -74,7 +74,10 @@ Testen bygger på den fysiologiske sammenhæng mellem arbejdspuls og iltoptagels
 ## Sådan udfører du Åstrand-Ryhming Step Test
 
 1. **Forberedelse**  
-   Find en bænk med den rette højde for dit køn (40 cm for mænd, 33 cm for kvinder). 
+   Find en bænk med den rette højde for dit køn (40 cm for mænd, 33 cm for kvinder) og [test din maxpuls](/test-max-puls/) eller udregn den ud fra din alder.
+
+{% include calc/max-hr-inline.html %}
+
 2. **Start testen**  
    Start vores interaktive guide nedenfor og træd op og ned i takt med metronomen i **6 minutter** (90 BPM / 22,5 step pr. minut).
 3. **Registrer arbejdspulsen**  

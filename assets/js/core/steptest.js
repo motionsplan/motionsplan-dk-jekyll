@@ -6,11 +6,12 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'ymca',
     name: 'YMCA – Kieu et al. (2020)',
     shortName: 'YMCA (Kieu)',
-    desc: 'Inddrager alder, højde, vægt og 1-minutters genoprettelsespuls.',
+    desc: 'Inddrager alder, højde, vægt og 1-minuts puls efter testen.',
     see: '±4.1 ml/kg/min',
     requiresWeight: true,
     requiresHeight: true,
     requiresStepHeight: false,
+    requiresMaxHr: false,
     requiresPulse: true,
     requiresDuration: false,
     isRecommended: true
@@ -25,6 +26,7 @@ export const STEPTEST_FORMULAS = {
     requiresWeight: false,
     requiresHeight: true,
     requiresStepHeight: true,
+    requiresMaxHr: false,
     requiresPulse: true,
     requiresDuration: false,
     isRecommended: false
@@ -34,11 +36,12 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'ymca',
     name: 'YMCA – Golding et al. (Standard)',
     shortName: 'YMCA (Klassisk)',
-    desc: 'Klassisk YMCA-standardmodel baseret på genoprettelsespuls og køn.',
+    desc: 'Klassisk YMCA-standardmodel baseret på talt 1-minuts puls og køn.',
     see: '±4.8 ml/kg/min',
     requiresWeight: false,
     requiresHeight: false,
     requiresStepHeight: false,
+    requiresMaxHr: false,
     requiresPulse: true,
     requiresDuration: false,
     isRecommended: false
@@ -48,11 +51,12 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'queens',
     name: 'Queens College Steptest (McArdle)',
     shortName: 'Queens College',
-    desc: '3 minutter på 41,3 cm bænk. Måler 15-sekunders genoprettelsespuls (omregnet til BPM).',
+    desc: '3 minutter på 41,3 cm bænk. Mål 15-sekunders puls (omregnet til BPM).',
     see: '±3.8 ml/kg/min',
     requiresWeight: false,
     requiresHeight: false,
     requiresStepHeight: false,
+    requiresMaxHr: false,
     requiresPulse: true,
     requiresDuration: false,
     isRecommended: true
@@ -62,11 +66,12 @@ export const STEPTEST_FORMULAS = {
     testGroup: 'astrand',
     name: 'Åstrand-Ryhming Steptest',
     shortName: 'Åstrand Step',
-    desc: '6 minutter på bænk (40 cm mænd / 33 cm kvinder). Måler steady-state arbejdspuls i 5.-6. min.',
+    desc: '6 minutter på fast bænk (40 cm mænd / 33 cm kvinder). Måler steady-state arbejdspuls i 5.-6. min.',
     see: '±4.0 ml/kg/min',
     requiresWeight: true,
     requiresHeight: false,
     requiresStepHeight: false,
+    requiresMaxHr: true, // Nu synlig og redigerbar
     requiresPulse: true,
     requiresDuration: false,
     isRecommended: true
@@ -81,6 +86,7 @@ export const STEPTEST_FORMULAS = {
     requiresWeight: false,
     requiresHeight: false,
     requiresStepHeight: true,
+    requiresMaxHr: true,
     requiresPulse: false,
     requiresChesterLevels: true,
     requiresDuration: false,
@@ -96,6 +102,7 @@ export const STEPTEST_FORMULAS = {
     requiresWeight: false,
     requiresHeight: false,
     requiresStepHeight: false,
+    requiresMaxHr: false,
     requiresPulse: false,
     requiresHarvardP: true,
     requiresDuration: true,
@@ -111,6 +118,7 @@ export const STEPTEST_FORMULAS = {
     requiresWeight: true,
     requiresHeight: false,
     requiresStepHeight: true,
+    requiresMaxHr: false,
     requiresPulse: false,
     requiresDuration: true,
     isRecommended: true
@@ -131,9 +139,6 @@ function getAstrandAgeFactor(age) {
   return 0.60;
 }
 
-/**
- * Beregner kondital for den valgte steptest-formel
- */
 export function calculateStepTest({
   formulaKey = 'ymca_kieu',
   hr,
@@ -194,15 +199,30 @@ export function calculateStepTest({
 
     case 'astrand': {
       if (isNaN(heartRate) || heartRate <= 30) return { isValid: false };
-      const ageFactor = getAstrandAgeFactor(userAge);
-      let rawVo2L = isMale ? ((192 - heartRate) / 32 + 1.5) : ((188 - heartRate) / 30 + 1.2);
-      if (rawVo2L <= 0) rawVo2L = 1.0;
-      vo2max = ((rawVo2L * 1000) / bodyWeight) * ageFactor;
+      
+      const astrandBoxMeters = isMale ? 0.40 : 0.33;
+      const workKpm = bodyWeight * astrandBoxMeters * 22.5 * 1.333;
+      const submaxVo2 = (0.00193 * workKpm) + 0.326;
+
+      const userMaxHr = parseFloat(maxHr);
+      const tanakaMax = Math.round(208 - (0.7 * userAge));
+
+      // Hvis brugeren manuelt har overskrevet sin maxpuls, benyttes reelt indtastet maxpuls
+      if (!isNaN(userMaxHr) && userMaxHr > 100 && userMaxHr !== tanakaMax) {
+        let rawVo2L = submaxVo2 * ((userMaxHr - 61) / (heartRate - 61));
+        if (rawVo2L <= 0) rawVo2L = 1.0;
+        vo2max = (rawVo2L * 1000) / bodyWeight;
+      } else {
+        // Standard Åstrand (195 baseline + nomogram aldersfaktor)
+        let rawVo2L = submaxVo2 * ((195 - 61) / (heartRate - 61));
+        if (rawVo2L <= 0) rawVo2L = 1.0;
+        const ageFactor = getAstrandAgeFactor(userAge);
+        vo2max = ((rawVo2L * ageFactor) * 1000) / bodyWeight;
+      }
       break;
     }
 
     case 'chester': {
-      // Tanaka maxpuls estimat hvis intet gyldigt tal er angivet
       const tanakaMax = Math.round(208 - (0.7 * userAge));
       const userMaxHr = parseFloat(maxHr) || tanakaMax;
       const heightMeters = boxHeightCm / 100;
@@ -216,18 +236,15 @@ export function calculateStepTest({
         parseFloat(chesterL5)
       ];
 
-      // Indsaml gyldige målepunkter (x = VO2, y = HR)
       const validPoints = [];
       for (let i = 0; i < 5; i++) {
         if (!isNaN(hrs[i]) && hrs[i] > 40 && hrs[i] <= userMaxHr + 5) {
           const rate = stepRates[i];
-          // Præcis fysiologisk iltkost-formel for Chester Step Test
           const vo2 = (0.2 * rate) + (1.8 * rate * heightMeters * 1.33) + 3.5;
           validPoints.push({ x: vo2, y: hrs[i] });
         }
       }
 
-      // Der skal indtastes mindst 2 målinger for at kunne lave lineær regression
       if (validPoints.length < 2) return { isValid: false };
 
       let n = validPoints.length;
@@ -242,14 +259,11 @@ export function calculateStepTest({
       let denom = (n * sumXX - sumX * sumX);
       if (denom === 0) return { isValid: false };
 
-      // Lineær regression: HR = m * VO2 + b
       let m = (n * sumXY - sumX * sumY) / denom;
       let b = (sumY - m * sumX) / n;
 
-      // Pulsen skal stige med belastningen (m > 0)
       if (m <= 0) return { isValid: false };
 
-      // Ekstrapoler VO2max ved brugerens Maxpuls
       vo2max = (userMaxHr - b) / m;
       break;
     }

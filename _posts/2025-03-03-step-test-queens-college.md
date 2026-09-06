@@ -24,13 +24,13 @@ meta:
 tests:
   - id: "test-queens-college-step-test"
     title: "Queens College Step Test (QCST / McArdle)"
-    description: "Standardiseret submaksimal steptest (3 minutter på en 41,3 cm høj bænk ved 24 step/min for mænd og 22 step/min for kvinder) til indirekte estimering af kondital (VO2max) ud fra 15-sekunders genoprettelsespuls."
+    description: "Standardiseret submaksimal steptest (3 minutter på en 41,3 cm høj bænk ved 24 step/min for mænd og 22 step/min for kvinder) til indirekte estimering af kondital (VO2max) ud fra din puls."
     category: ["Tests", "Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk steppearbejde på 41,3 cm bænk
     method: "indirekte"                     # 📊 Indirekte estimering af VO2max baseret på restitutionspuls
     modality: ["Steptest"]
-    measures: ["Kondital", "VO2max", "Restitutionspuls", "Genoprettelsespuls"]
+    measures: ["Kondital", "VO2max", "Restitutionspuls"]
     equipment: ["Stepbænk / Skammel (41,3 cm)", "Timer / Metronom (96 BPM mænd / 88 BPM kvinder)", "Pulsmåler"]
     setting: ["Indendørs", "Testcenter", "Skole", "Individuel"]
     target_group: ["Mænd", "Kvinder", "Atleter", "Motionister", "Studerende"]
@@ -44,7 +44,7 @@ tools:
     description: "Interaktiv timer med opdelte kadencer for mænd (96 BPM) og kvinder (88 BPM) samt beregner til estimering af VO2max ud fra McArdles formel."
     category: ["Kondition", "Beregnere", "Tests"]
     type: ["Beregner", "Timer"]
-    measures: ["Kondital", "VO2max", "Genoprettelsespuls (BPM)"]  # 🎯 Output-parametre fra modulet
+    measures: ["Kondital", "VO2max"]  # 🎯 Output-parametre fra modulet
     anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 tags:
@@ -78,9 +78,25 @@ Testen adskiller sig fra andre steptests ved at have **forskelligt tempo for mæ
 2. **Start testen**  
    Start timeren i vores interaktive guide nedenfor. Vælg timeren til dit køn, så tempoet passer. Mænd kører med 96 BPM, mens kvinder kører med 88 BPM. Træd op og ned af skamlen i takt med afspilleren i præcis 3 minutter.
 3. **Mål din puls**  
-   Når de 3 minutter er gået, skal du straks blive stående, vente 5 sekunder og derefter **måle din puls i 15 sekunder** (sekund 5–20 efter stoppet). Gang dette tal med 4 for at få din genoprettelsespuls i minut-relevante slag (BPM).
+   Når de 3 minutter er gået, skal du straks blive stående, vente 5 sekunder og derefter **måle din puls i 15 sekunder** (sekund 5–20 efter stoppet). Gang dette tal med 4 for at få din minut-puls efter (BPM).
 4. **Beregn dit resultat**  
    Indtast din minut-puls i beregneren nedenfor for at få dit estimerede kondital.
+
+<div class="notice--info" markdown="1">
+
+### ⏱️ Vigtigt om pulsmålingen (sekund 5–20)
+
+I Queens College-testen er timing afgørende. Du skal bruge din **målte minutpuls i pausen** – du må **ikke** indtaste dit pulsfald (forskellen før og efter).
+
+* **🖐️ Manuel måling (Hals/Håndled):**  
+  Stop uret, vent præcis 5 sekunder, og tæl alle pulsslag i de næste 15 sekunder (sekund 5 til 20 efter stoppet).  
+  $$\text{Input til beregner (BPM)} = \text{Talt antal slag i 15 sek} \cdot 4$$
+
+* **⌚ Hvis du bruger pulsur eller brystbælte:**  
+  Da dit ur viser den øjeblikkelige puls fra sekund til sekund, falder den hurtigt i løbet af de 15 sekunder.  
+  *Sådan gør du:* Aflæs din puls på uret **12–15 sekunder efter stoppet** (midten af måleintervallet), eller brug urets gennemsnitspuls for det korte vindue fra sekund 5 til 20.
+
+</div>
 
 ## Tag testen med interaktive guides
 {: id="timer" }
@@ -106,9 +122,18 @@ $$ \text{VO}_2\text{max} = 111{,}33 - (0{,}42 \times \text{puls}) $$
 **For kvinder:**
 $$ \text{VO}_2\text{max} = 65{,}81 - (0{,}1847 \times \text{puls}) $$
 
-*Bemærk:* $\text{puls}$ repræsenterer din genoprettelsespuls omregnet til minut-slag (15-sekunders måling $\times 4$), taget umiddelbart efter testens afslutning.
+*Bemærk:* $\text{puls}$ repræsenterer din talte puls efter omregnet til minut-slag (15-sekunders måling $\times 4$), taget umiddelbart efter testens afslutning.
 
-## Find ud af mere om steptests
+## Ulemper og begrænsninger ved Queens College-testen
+
+Selvom Queens College Step Test er lynhurtig at udføre og kræver minimalt udstyr, har testen en række fysiologiske og metodiske ulemper, du bør kende:
+
+* **Hurtigt pulsfald hos veltrænede:** Testen måler din puls i de første 15 sekunder *efter* stoppet. Har du en god grundform, falder din puls drastisk i det sekund, du stopper. Formlen tolker det hurtige pulsfald som om, at arbejdet næsten ikke har påvirket dig, og belønner dig med et markant højere kondital.
+* **Kort varighed og lav belastning:** Med kun 3 minutters varighed ved fast kadence (24 step/min for mænd, 22 for kvinder) arbejder du i kort tid. For trænede personer fungerer testen reelt kun som opvarmningsintensitet.
+* **Fast bokshøjde (41,3 cm):** Testen korrigerer ikke for benlængde eller kropshøjde. Lavere personer skal løfte deres kropsvægt relativt højere pr. trin end høje personer, hvilket skaber en biomekanisk skævhed.
+* **Følsom over for tællefejl:** Måles pulsen manuelt på halsen i 15 sekunder, vil blot 1–2 fejltalte pulsslag ændre det beregnede kondital med flere enheder.
+
+## Alternativer til Queens College Steptesten
 
 Queens College Step Test er blot én af flere anerkendte steptests. Se vores samlede [oversigt over steptests](/kondital-fra-steptest/) for at finde den test, der passer bedst til dit niveau og udstyr.
 

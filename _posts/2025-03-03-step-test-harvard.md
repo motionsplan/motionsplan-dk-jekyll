@@ -83,6 +83,22 @@ Harvard Step Test måler din krops evne til at restituere efter hårdt arbejde. 
    * **$P_2$:** 2,0 til 2,5 minutter efter testen (tæl pulsslag i 30 sekunder).
    * **$P_3$:** 3,0 til 3,5 minutter efter testen (tæl pulsslag i 30 sekunder).
 
+<div class="notice--warning" markdown="1">
+
+**⏱️ Vigtigt om pulsmålingen ($P_1, P_2, P_3$)**
+ 
+Harvard-testen måler ikke din samlede gennemsnitspuls, men hvor hurtigt dit hjerte falder i tre specifikke pauser. Indtast det **faktiske antal pulsslag i de 30 sekunder** i beregneren.
+ 
+* **🖐️ Manuel måling (Hals/Håndled):**  
+  Sæt dig ned straks testen stopper. Tæl antal pulsslag i de tre 30-sekunders vinduer. Hold pause i de 30 sekunder mellem hver tælling.
+  * **$P_1$:** Tæl slag fra 1:00 til 1:30 min.
+  * **$P_2$:** Tæl slag fra 2:00 til 2:30 min.
+  * **$P_3$:** Tæl slag fra 3:00 til 3:30 min.
+
+* **⌚ Hvis du bruger pulsur / brystbælte:**  
+  Et pulsur viser typisk pulsen i slag pr. minut (BPM). Finder du din gennemsnitspuls i de tre 30-sekunders vinduer på dit ur, skal du **dividere tallet med 2** for at få antallet af slag på 30 sekunder (f.eks. 120 BPM på uret = 60 slag i feltet).
+</div>
+
 ## Tag testen med interaktiv guide
 {: id="timer" }
 

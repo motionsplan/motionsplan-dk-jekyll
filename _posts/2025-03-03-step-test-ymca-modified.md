@@ -30,7 +30,7 @@ tests:
     execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk steppearbejde på tilpasset bænk
     method: "indirekte"                     # 📊 Indirekte estimering af VO2max ud fra restitutionspuls
     modality: ["Steptest"]
-    measures: ["Kondital", "VO2max", "Individualiseret stephøjde", "Restitutionspuls", "Genoprettelsespuls"]
+    measures: ["Kondital", "VO2max", "Individualiseret stephøjde", "Restitutionspuls"]
     equipment: ["Justerbar stepbænk / Boks", "Målebånd", "Timer / Metronom (96 BPM)", "Pulsmåler / Stopur"]
     setting: ["Indendørs", "Testcenter", "Fitnesscenter", "Hjemmetest", "Individuel"]
     target_group: ["Voksne", "Motionister", "Mænd", "Kvinder"]
@@ -44,7 +44,7 @@ tools:
     description: "Interaktivt værktøj til udregning af individualiseret stephøjde, 96 BPM timer samt beregning af VO2max ud fra Santo & Golding (2003) formlen."
     category: ["Kondition", "Beregnere", "Tests"]
     type: ["Beregner", "Timer"]
-    measures: ["Kondital", "VO2max", "Genoprettelsespuls (1-minut)"] # 🎯 Output-parametre fra modulet
+    measures: ["Kondital", "VO2max"] # 🎯 Output-parametre fra modulet
     anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 tags:
@@ -72,6 +72,24 @@ Du kan også se [andre variationer af steptests](/kondital-fra-steptest/).
 3. **Gennemfør testen:** Træd op og ned af boksen i takt med lyden og visualiseringen i 3 minutter (24 step/min).
 4. **Mål din puls:** Så snart de 3 minutter er gået, sætter du dig ned med det samme og måler din puls i **ét helt minut** (eller fra sekund 60 til 75 for 15-sekunders tælling).
 5. **Beregn dit kondital:** Indtast din ét-minuts puls i resultat-beregneren.
+
+<div class="notice--info" markdown="1">
+
+### ⏱️ Vigtigt om pulsmålingen (efterpulsen)
+
+I den modificerede YMCA-test bruges din **målte efterpuls i minuttet efter testen** som input.
+
+* **🖐️ Manuel måling (Hals/Håndled):**  
+  Sæt dig ned i det nøjagtige sekund, testen stopper, og tæl alle pulsslag i et helt minut (sekund 0 til 60 efter stoppet).
+
+* **⌚ Hvis du bruger pulsur eller brystbælte:**  
+  Da et pulsur måler den øjeblikkelige puls fra sekund til sekund, må du **ikke** blot aflæse uret efter 60 sekunder (hvor pulsen er i bund).  
+  *Gør i stedet ét af følgende:*
+  1. Brug urets **gennemsnitspuls** for det 1 minut, du sidder stille efter testen.
+  2. Aflæs din puls idet du stopper ($P_{start}$) og din puls efter 1 minut ($P_{1min}$), og brug gennemsnittet af de to tal:
+     $$\text{Input til beregner (BPM)} = \frac{P_{start} + P_{1min}}{2}$$
+
+</div>
 
 ## Find din stephøjde
 
@@ -107,7 +125,7 @@ Stephøjden tilpasses din kropshøjde, så belastningen bliver proportional med 
   $$ \text{Stephøjde (cm)} = \text{kropshøjde i cm} \times 0{,}189 $$
 
 ### 2. Estimat af VO₂max
-Konditallet beregnes direkte ud fra din genoprettelsespuls målt 1 minut efter testens afslutning:
+Konditallet beregnes direkte ud fra din puls talt i 1 minut efter testens afslutning:
 
 $$ \text{VO}_2\text{max} = 76{,}710 - (0{,}2805 \times \text{puls}_{1\text{ min}}) $$
 

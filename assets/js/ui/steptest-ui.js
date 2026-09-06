@@ -265,9 +265,9 @@ export function initCalculator(container) {
     if (harvardP2Wrapper) harvardP2Wrapper.style.display = activeDef.requiresHarvardP ? 'block' : 'none';
     if (harvardP3Wrapper) harvardP3Wrapper.style.display = activeDef.requiresHarvardP ? 'block' : 'none';
 
-    if (activeFormulaKey === 'chester') {
+    // Vises hvis testen kræver maxpuls (Chester eller Åstrand)
+    if (activeDef.requiresMaxHr) {
       if (maxHrWrapper) maxHrWrapper.style.display = 'block';
-      if (chesterLevelsWrapper) chesterLevelsWrapper.style.display = 'block';
 
       const age = parseInt(container.querySelector('[name="st_age"]')?.value || 40, 10);
       const maxHrInput = container.querySelector('[name="st_max_hr"]');
@@ -277,12 +277,18 @@ export function initCalculator(container) {
         maxHrInput.value = tanakaMax;
       }
 
-      const activeMaxHr = parseFloat(maxHrInput?.value) || tanakaMax;
-      const stopHr = Math.round(activeMaxHr * 0.80);
+      if (activeFormulaKey === 'chester') {
+        if (chesterLevelsWrapper) chesterLevelsWrapper.style.display = 'block';
+        const activeMaxHr = parseFloat(maxHrInput?.value) || tanakaMax;
+        const stopHr = Math.round(activeMaxHr * 0.80);
 
-      if (stopHrBadge) {
-        stopHrBadge.textContent = `🛑 Stop-puls (80% HRmax): ${stopHr} BPM`;
-        stopHrBadge.style.display = 'inline-block';
+        if (stopHrBadge) {
+          stopHrBadge.textContent = `🛑 Stop-puls (80% HRmax): ${stopHr} BPM`;
+          stopHrBadge.style.display = 'inline-block';
+        }
+      } else {
+        if (chesterLevelsWrapper) chesterLevelsWrapper.style.display = 'none';
+        if (stopHrBadge) stopHrBadge.style.display = 'none';
       }
     } else {
       if (maxHrWrapper) maxHrWrapper.style.display = 'none';

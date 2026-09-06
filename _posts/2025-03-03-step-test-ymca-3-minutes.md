@@ -23,13 +23,13 @@ meta:
 tests:
   - id: "test-ymca-3-minutters-steptest"
     title: "YMCA 3-minutters Steptest (3MST)"
-    description: "Standardiseret submaksimal steptest (3 minutter på en 30 cm høj boks ved 96 BPM / 24 step/min) til indirekte estimering af kondital (VO2max) ud fra 1-minuts genoprettelsespuls."
+    description: "Standardiseret submaksimal steptest (3 minutter på en 30 cm høj boks ved 96 BPM / 24 step/min) til indirekte estimering af kondital (VO2max) ud fra puls."
     category: ["Tests", "Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk steppearbejde på 30 cm bænk
     method: "indirekte"                     # 📊 Indirekte estimering af VO2max ud fra restitutionspuls og antropometri
     modality: ["Steptest"]
-    measures: ["Kondital", "VO2max", "Restitutionspuls", "Genoprettelsespuls"]
+    measures: ["Kondital", "VO2max", "Restitutionspuls"]
     equipment: ["Stepbænk / Boks (30 cm)", "Timer / Metronom (96 BPM)", "Pulsmåler / Stopur"]
     setting: ["Indendørs", "Testcenter", "Fitnesscenter", "Hjemmetest", "Individuel"]
     target_group: ["Voksne", "Motionister", "Mænd", "Kvinder"]
@@ -40,10 +40,10 @@ tests:
 tools:
   - id: "tool-ymca-steptest-beregner"
     title: "YMCA 3-minutters Steptest Beregner & Interaktiv Timer"
-    description: "Interaktiv timer med 96 BPM metronom samt beregner til estimering af VO2max baseret på Kieu et al. (2020) formlerne ud fra genoprettelsespuls og kropsmål."
+    description: "Interaktiv timer med 96 BPM metronom samt beregner til estimering af VO2max baseret på Kieu et al. (2020) formlerne ud fra puls og kropsmål."
     category: ["Kondition", "Beregnere", "Tests"]
     type: ["Beregner", "Timer"]
-    measures: ["Kondital", "VO2max", "Genoprettelsespuls (1-minut)"]  # 🎯 Output-parametre fra modulet
+    measures: ["Kondital", "VO2max"]  # 🎯 Output-parametre fra modulet
     anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
 tags:
@@ -82,7 +82,25 @@ Der findes også en [modificeret udgave af YMCA-steptesten](/ymca-modified-stept
    Hvis du følger det samme trinmønster under hele testen, kan det føles ujævnt i benmusklerne til sidst. Du kan løbende skifte førende ben ved hjælp af en "tap step"-teknik.
 
 4. **Mål din puls**  
-   Når de 3 minutter er gået, skal du straks sætte dig ned og måle din puls i **ét helt minut**. Din ét-minuts genoprettelsespuls er dit testresultat.
+   Når de 3 minutter er gået, skal du straks sætte dig ned og måle din puls i **ét helt minut**. Din ét-minuts puls efter testen er dit testresultat.
+
+<div class="notice--info" markdown="1">
+
+### ⏱️ Vigtigt om pulsmålingen (det første minut)
+
+I YMCA-steptesten skal du bruge din **målte efterpuls i det første minut** i hvile.
+
+* **🖐️ Manuel måling (Hals/Håndled):**  
+  Sæt dig ned i det nøjagtige sekund, testen stopper, og tæl alle pulsslag i et helt minut (fra sekund 0 til 60 efter stoppet). Indtast det samlede antal talt slag direkte i feltet.
+
+* **⌚ Hvis du bruger pulsur eller brystbælte:**  
+  Da et pulsur måler din øjeblikkelige puls, som falder støt over minuttet, må du **ikke** blot aflæse uret efter 60 sekunder (hvor pulsen er på sit laveste).  
+  *Gør i stedet ét af følgende:*
+  1. Brug urets **gennemsnitspuls** for det 1 minut, du sidder stille efter testen.
+  2. Aflæs din puls idet du stopper ($P_{start}$) og din puls efter 1 minut ($P_{1min}$), og brug gennemsnittet af de to tal:
+     $$\text{Input til beregner (BPM)} = \frac{P_{start} + P_{1min}}{2}$$
+
+</div>
 
 ## Tag testen med interaktiv guide
 {: id="timer" }
@@ -132,7 +150,7 @@ Vil du se en visuel gennemgang af testen inden start, kan du følge denne YouTub
 
 Oplever du, at YMCA Modified Steptest estimerer et lavere kondital end fx Åstrand, Chester eller Queens College? Selvom denne version tilpasser stephøjden til din kropshøjde, er underestimeringen et kendt fysiologisk fænomen, der skyldes testens opbygning:
 
-* **Måling af genoprettelsespuls (recovery HR):** Testen måler din puls i det første minut *efter* arbejdet, mens du sidder stille. Når du stopper op, ophører benenes muskelpumpe, hvilket midlertidigt dæmper blodtilbageløbet til hjertet. Det kan udløse en kompensatorisk høj puls i restitutionsminuttet, som beregningsmodellen tolker som dårligere kredsløbskapacitet (Santo & Golding, 2003).
+* **Måling af puls:** Testen måler din puls i det første minut *efter* arbejdet, mens du sidder stille. Når du stopper op, ophører benenes muskelpumpe, hvilket midlertidigt dæmper blodtilbageløbet til hjertet. Det kan udløse en kompensatorisk høj puls i restitutionsminuttet, som beregningsmodellen tolker som dårligere kredsløbskapacitet (Santo & Golding, 2003).
 * **Manglende fysiologisk steady-state:** Med en varighed på kun 3 minutter når kredsløbet ikke altid at opnå en stabil arbejdspuls, hvilket gør testen mindre præcis sammenlignet med 6-minutters protokoller (Åstrand & Ryhming, 1954).
 * **Relativt lav arbejdsbelastning:** Selvom stephøjden her udregnes ud fra din kropshøjde, er kadencen på 24 step/minut og arbejdstiden stadig tilrettelagt som en mild til moderat belastning. Hos veltrænede udgør test-stress og pulsvariationer derfor en uforholdsmæssig stor andel af pulsmålingen (McArdle et al., 1972).
 * **Konservativ kalibrering i formlen:** Santo & Goldings regressionsmodel er udviklet ud fra en gennemsnitlig befolkningsgruppe. Det medfører en systematisk underestimering af iltoptagelsen hos unge, raske og meget aktive personer (Santo & Golding, 2003; Bennett et al., 2016).
