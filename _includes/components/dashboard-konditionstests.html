@@ -1,0 +1,243 @@
+<div class="mp-db-wrapper" style="max-width: 1000px; margin: 2rem auto; font-family: system-ui, -apple-system, sans-serif;">
+  
+  <!-- Topbar med title og nulstil -->
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; padding: 0 0.25rem;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.15rem; font-weight: 800; color: #0f172a;">Mit Test-Dashboard</h3>
+      <p style="margin: 0.15rem 0 0 0; font-size: 0.78rem; color: #64748b;">Tilpas dine foretrukne konditionstests. Dine seneste målinger gemmes automatisk.</p>
+    </div>
+    <button type="button" class="js-db-reset-btn" style="background: none; border: 1px solid #cbd5e1; border-radius: 6px; padding: 0.35rem 0.65rem; font-size: 0.75rem; font-weight: 600; color: #64748b; cursor: pointer; transition: all 0.15s ease;" onmouseover="this.style.background='#f1f5f9'" onmouseout="this.style.background='none'">
+      🔄 Nulstil dashboard
+    </button>
+  </div>
+
+  <!-- Dashboard Grid -->
+  <div class="js-db-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem;">
+    <!-- Kort genereres dynamisk af JS -->
+  </div>
+
+</div>
+
+<script>
+(function() {
+  // 1. Bibliotek over tilgængelige tests
+  const TEST_LIBRARY = {
+    'sofatest': {
+      title: 'Sofatest (HUNT / Nes)',
+      tag: '🛋️ Sofatest',
+      url: '/kondital/#calculator',
+      desc: 'Hurtig vurdering ud fra taljemål, hvilepuls og aktivitetsniveau.',
+      storageKey: 'mp_kondital_master_data'
+    },
+    'ymca': {
+      title: 'YMCA 3-Minutters Steptest',
+      tag: '🪜 Steptest',
+      url: '/steptest-ymca/',
+      desc: 'Klassisk 3-minutters submaksimal test på 30 cm boks med pulsmåling.',
+      storageKey: 'mp_score_ymca'
+    },
+    'cooper': {
+      title: 'Cooper-test (12 min)',
+      tag: '🏃 Løbetest',
+      url: '/cooper-test/',
+      desc: 'Guldstandarden inden for all-out løbetests på flad rute.',
+      storageKey: 'mp_score_cooper'
+    },
+    'bip': {
+      title: 'Bip-test (Shuttle Run)',
+      tag: '🔊 Holdsport & Haller',
+      url: '/bip-test/',
+      desc: 'Progressiv 20-meters intervaltest med bip-lydspor.',
+      storageKey: 'mp_score_bip'
+    },
+    'wattmax': {
+      title: 'Watt-max Cykeltest',
+      tag: '🚴 Cykeltest',
+      url: '/kondital-wattmax/',
+      desc: 'Progressiv belastningstest på ergometercykel.',
+      storageKey: 'mp_score_wattmax'
+    },
+    'rockport': {
+      title: 'Rockport 1,6 km Gangtest',
+      tag: '🚶 Gangtest',
+      url: '/rockport-gangtest/',
+      desc: '1,6 km udendørs gåtest med pulsmåling ved målstregen.',
+      storageKey: 'mp_score_rockport'
+    },
+    'andersen': {
+      title: 'Andersen-test',
+      tag: '🏃 Løbetest',
+      url: '/andersen-test/',
+      desc: '15/15 sekunders interval-løbetest velegnet til haller og baner.',
+      storageKey: 'mp_score_andersen'
+    },
+    'chester': {
+      title: 'Chester Step Test',
+      tag: '🪜 Steptest',
+      url: '/chester-step-test/',
+      desc: 'Progressiv steptest over op til 5 niveauer med øgende kadence.',
+      storageKey: 'mp_score_chester'
+    },
+    'dansk': {
+      title: 'Den Danske Steptest',
+      tag: '🪜 Steptest',
+      url: '/den-danske-steptest/',
+      desc: 'Progressiv steptest uden pulsmåling ud fra gennemført tid.',
+      storageKey: 'mp_score_dansk'
+    },
+    'astrand_bike': {
+      title: 'Åstrand Cykeltest',
+      tag: '🚴 Cykeltest',
+      url: '/astrand-cykeltest/',
+      desc: '6-minutters submaksimal cykeltest ved steady-state puls.',
+      storageKey: 'mp_score_astrand_bike'
+    }
+  };
+
+  const DEFAULT_DASHBOARD = ['sofatest', 'ymca', 'cooper', 'bip', 'wattmax', 'rockport'];
+  const STORAGE_KEY = 'mp_user_dashboard_cards';
+
+  function getUserDashboard() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (!saved) return [...DEFAULT_DASHBOARD];
+    try {
+      const parsed = JSON.parse(saved);
+      return Array.isArray(parsed) && parsed.length > 0 ? parsed : [...DEFAULT_DASHBOARD];
+    } catch(e) {
+      return [...DEFAULT_DASHBOARD];
+    }
+  }
+
+  function saveUserDashboard(cards) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(cards));
+  }
+
+  function getStoredScore(testKey) {
+    const testInfo = TEST_LIBRARY[testKey];
+    if (!testInfo) return null;
+
+    // Særlig håndtering af kondital-master (sofatest)
+    if (testKey === 'sofatest') {
+      const masterData = localStorage.getItem(testInfo.storageKey);
+      if (masterData) {
+        try {
+          const parsed = JSON.parse(masterData);
+          if (parsed.mode && parsed.mode === 'nes') {
+            // Hvis der er et beregnet tal for nes i master
+            return localStorage.getItem('mp_score_nes') || null;
+          }
+        } catch(e){}
+      }
+    }
+
+    return localStorage.getItem(testInfo.storageKey) || localStorage.getItem(`mp_score_${testKey}`);
+  }
+
+  function renderDashboard() {
+    const grid = document.querySelector('.js-db-grid');
+    if (!grid) return;
+
+    const currentCards = getUserDashboard();
+    grid.innerHTML = '';
+
+    // Render aktive kort
+    currentCards.forEach(key => {
+      const item = TEST_LIBRARY[key];
+      if (!item) return;
+
+      const score = getStoredScore(key);
+      const scoreDisplay = score ? `${parseFloat(score).toFixed(1)} <span style="font-size: 0.72rem; font-weight: 700;">ml/kg/min</span>` : '- <span style="font-size: 0.72rem; font-weight: 700; opacity: 0.6;">ml/kg/min</span>';
+      const scoreBg = score ? '#dcfce7' : '#f1f5f9';
+      const scoreColor = score ? '#15803d' : '#64748b';
+
+      const card = document.createElement('div');
+      card.style.cssText = 'background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem; display: flex; flex-direction: column; justify-content: space-between; position: relative; box-shadow: 0 2px 4px rgba(0,0,0,0.02); transition: transform 0.15s ease, box-shadow 0.15s ease; min-height: 150px; box-sizing: border-box;';
+
+      card.innerHTML = `
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+            <span style="font-size: 0.68rem; font-weight: 800; color: #2563eb; background: #eff6ff; padding: 0.2rem 0.5rem; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.03em;">${item.tag}</span>
+            <button type="button" class="js-db-remove" data-key="${key}" style="background: none; border: none; font-size: 1.1rem; color: #94a3b8; cursor: pointer; padding: 0 0.2rem; line-height: 1;" title="Fjern fra dashboard">&times;</button>
+          </div>
+          <h4 style="margin: 0 0 0.25rem 0; font-size: 0.95rem; font-weight: 800; color: #0f172a; line-height: 1.3;">${item.title}</h4>
+          <p style="margin: 0 0 1rem 0; font-size: 0.75rem; color: #64748b; line-height: 1.35;">${item.desc}</p>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; border-top: 1px solid #f1f5f9; padding-top: 0.75rem;">
+          <div style="background: ${scoreBg}; color: ${scoreColor}; font-weight: 900; font-size: 0.95rem; padding: 0.3rem 0.65rem; border-radius: 8px; white-space: nowrap;">
+            ${scoreDisplay}
+          </div>
+          <a href="${item.url}" style="background: #2563eb; color: #ffffff; text-decoration: none; font-size: 0.78rem; font-weight: 800; padding: 0.45rem 0.8rem; border-radius: 8px; white-space: nowrap; transition: background 0.15s ease;">
+            Tag testen →
+          </a>
+        </div>
+      `;
+
+      grid.appendChild(card);
+    });
+
+    // Render "Tilføj test" kort til sidst
+    const availableKeys = Object.keys(TEST_LIBRARY).filter(k => !currentCards.includes(k));
+    
+    if (availableKeys.length > 0) {
+      const addCard = document.createElement('div');
+      addCard.style.cssText = 'background: #f8fafc; border: 2px dashed #cbd5e1; border-radius: 12px; padding: 1rem; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-height: 150px; box-sizing: border-box;';
+
+      let optionsHTML = '<option value="" disabled selected>+ Tilføj test til dashboard...</option>';
+      availableKeys.forEach(k => {
+        optionsHTML += `<option value="${k}">${TEST_LIBRARY[k].title}</option>`;
+      });
+
+      addCard.innerHTML = `
+        <div style="font-size: 1.5rem; margin-bottom: 0.3rem; line-height: 1;">➕</div>
+        <div style="font-size: 0.85rem; font-weight: 800; color: #334155; margin-bottom: 0.6rem;">Tilpas dit dashboard</div>
+        <select class="js-db-add-select" style="width: 100%; max-width: 220px; padding: 0.45rem 0.5rem; border: 1.5px solid #cbd5e1; border-radius: 8px; font-size: 0.78rem; font-weight: 700; color: #0f172a; background: #ffffff; cursor: pointer; outline: none;">
+          ${optionsHTML}
+        </select>
+      `;
+
+      grid.appendChild(addCard);
+    }
+
+    attachEvents();
+  }
+
+  function attachEvents() {
+    // Fjern kort
+    document.querySelectorAll('.js-db-remove').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const keyToRemove = e.currentTarget.dataset.key;
+        let cards = getUserDashboard().filter(k => k !== keyToRemove);
+        saveUserDashboard(cards);
+        renderDashboard();
+      });
+    });
+
+    // Tilføj kort via select
+    const addSelect = document.querySelector('.js-db-add-select');
+    if (addSelect) {
+      addSelect.addEventListener('change', (e) => {
+        const selectedKey = e.target.value;
+        if (!selectedKey) return;
+        let cards = getUserDashboard();
+        if (!cards.includes(selectedKey)) {
+          cards.push(selectedKey);
+          saveUserDashboard(cards);
+          renderDashboard();
+        }
+      });
+    }
+
+    // Nulstil dashboard
+    const resetBtn = document.querySelector('.js-db-reset-btn');
+    if (resetBtn) {
+      resetBtn.onclick = function() {
+        saveUserDashboard([...DEFAULT_DASHBOARD]);
+        renderDashboard();
+      };
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', renderDashboard);
+})();
+</script>

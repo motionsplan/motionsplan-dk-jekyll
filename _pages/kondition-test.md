@@ -67,7 +67,7 @@ faq:
     answer: Nej, hjemmetests er indirekte og bygger på statistiske formler, hvorimod en laboratorietest måler din iltoptagelse direkte med maske. Hjemmetests er dog et fremragende og gratis redskab til at følge din egen relative formudvikling over tid.
 ---
 
-Vil du vide, hvor god din kondition er? En **konditionstest** (også kaldet en konditest) kan give dig indsigt i din VO2 max, udholdenhed og kondital. Uanset om du er nybegynder eller erfaren, findes der en test, der passer til dit niveau.
+Vil du vide, hvor god din [kondition](/kondition/) er? En **konditionstest** (også kaldet en konditest) kan give dig indsigt i din VO2 max, udholdenhed og kondital. Uanset om du er nybegynder eller erfaren, findes der en test, der passer til dit niveau.
 
 Her får du en oversigt over de mest populære konditionstests, så du kan vælge nøjagtigt den test, der passer bedst til dine mål.
 
@@ -100,6 +100,10 @@ Nogle konditionstests er særligt populære, enten fordi de er lette at lave, kr
 
 </div>
 
+{% comment %}
+{% include components/dashboard-konditionstests.html %}
+{% endcomment %}
+
 ## Hvad er en konditionstest, og hvorfor tage en?
 
 En konditionstest er en metode til at vurdere din aerobe kapacitet – altså hvor effektivt din krop optager og bruger ilt under fysisk aktivitet. Ved at måle din kondition, så kan du få indsigt i, om din træning virker.
@@ -112,9 +116,6 @@ Det kan være relevant at teste sin kondition for at:
 - Identificere forbedringspotentiale i din nuværende fysiske form.
 
 Konditionstests kan udføres enten som laboratorietests, hvor iltoptagelsen måles direkte, eller som felt-tests, du selv kan lave for at få et estimat af din kondition. Regelmæssig konditionstræning kan forbedre din score på disse tests.
-
-Læs: [Alt om kondition](/kondition/)
-{: .notice }
 
 ## Hvad måler en konditionstest?
 
@@ -218,7 +219,7 @@ Skånsomme og videnskabeligt validerede gangtests til ældre, genoptræningsforl
 
 Konditionstests kan udføres på fitnesscentre og laboratorier, men der findes også **nemme tests, du kan lave selv** – derhjemme eller udendørs. På denne side finder du nogle af de bedste **selvtests**, du kan lave uden udstyr.
 
-* 📊 **[Beregn din kondition uden fysisk tests](/kondital/)** – Se normtabeller og estimer dit kondital ud fra hvilepuls og alder.
+* 📊 **[Beregn din kondition uden fysisk tests](/kondital/#calculator)** – Se normtabeller og estimer dit kondital ud fra hvilepuls og alder.
 * 👟 **[YMCA 3-minutters step-test](/ymca-3-minutters-steptest/)** – Kræver kun en 30 cm høj bænk/trappetrin og et stopur. Du træder op og ned i 3 minutter og måler din puls bagefter. See også vores [oversigt over alle steptests](/kondital-fra-steptest/).
 * 🚶 **[Rockports 1,6 km gå-test](/gaatest/)** – Gå 1,6 km så hurtigt du kan og tæl din puls til sidst. Perfekt til begyndere og skånsom test i nærområdet.
 * 🏃 **[1,6 km jogging-test](/submaximal-jogging-test-vo2/)** – En submaksimal test, hvor du jogger i et roligt samtale-tempo og lader pulsen afsløre dit kondital.
