@@ -86,9 +86,8 @@
     {% endif %}
 
     {% comment %} Send 'badge' og 'post_seconds' (som cachebuster v) med i raw_preview_url {% endcomment %}
-    {% capture raw_preview_url %}{{ site.url }}/og-preview/?title={{ og_title }}&excerpt={{ og_excerpt }}&author_name={{ og_author_name }}&author_img={{ og_author_img }}&post_img={{ og_post_img }}&logo={{ og_logo }}&date={{ og_date }}&domain={{ og_domain }}&badge={{ og_badge | url_encode }}&layout={{ og_layout_num }}&v={{ post_seconds }}{% endcapture %}    
+    {% capture raw_preview_url %}{{ site.url }}/og-preview/?title={{ og_title | url_encode }}&excerpt={{ og_excerpt | url_encode }}&author_name={{ og_author_name | url_encode }}&author_img={{ og_author_img | url_encode }}&post_img={{ og_post_img | url_encode }}&logo={{ og_logo | url_encode }}&date={{ og_date | url_encode }}&domain={{ og_domain | url_encode }}&badge={{ og_badge | url_encode }}&layout={{ og_layout_num }}&v={{ post_seconds }}{% endcapture %} 
 
-    {% comment %} 4. Send til 11ty screenshot service {% endcomment %}
     {% assign encoded_preview_url = raw_preview_url | url_encode %}
     {% assign og_image = "https://v1.screenshot.11ty.dev/" | append: encoded_preview_url | append: "/opengraph/" %}
     
