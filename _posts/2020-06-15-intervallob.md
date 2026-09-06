@@ -239,7 +239,7 @@ Eksempler på løbeintervaller, som skal forbedre den maksimale iltoptagelse:
 
 - [HIIT-intervaller](/hiit/)
 - [Billat-intervaller](/billat-vvovmax-tlimvo2max/)
-- [V<sub>max</sub>](/vmax-loeb/)
+- [V<sub>max</sub>](/vmax/#vmax-til-loeb)
 - Se intervallerne i skemaet over intervalprogrammer i løb nedenunder
 
 Læs: [Intensitetens betydning for VO₂max](/maksimale-iltoptagelse-vo2max/)

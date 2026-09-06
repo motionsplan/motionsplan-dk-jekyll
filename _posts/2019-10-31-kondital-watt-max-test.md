@@ -203,7 +203,7 @@ På en **Wattbike** eller moderne hometrainer er testen særlig nem at afvikle:
 
 Når du har gennemført Watt-max testen og kender din MPO, har du ikke blot et tal for dit kondital – du har også et stærkt redskab til at tilrettelægge din træning.
 
-Du kan blandt andet bruge din MPO til at køre målrettet [$\text{V}_{\text{max}}$-træning og VO2-max intervaller på cyklen](/vmax-cykling/).
+Du kan blandt andet bruge din MPO til at køre målrettet [$\text{V}_{\text{max}}$-træning og VO2-max intervaller på cyklen](/vmax/#vmax-til-cykel).
 
 > 🚴 **Leder du efter andre cykeltests?**
 > Se vores samlede oversigt over [konditionstests på cykel](/tests/cykling/), hvor du kan sammenligne Åstrand-, Wattmax- og Ekblom-Bak-testene. Du kan også tjekke vores [samlede katalog over konditests](/kondition/tests/).
