@@ -49,7 +49,8 @@ Cykling er en effektiv måde at forbedre din kondition, styrke og udholdenhed. P
 
 Uanset om du er nybegynder eller erfaren rytter, får du indsigt i, hvordan du strukturerer din træning, vælger det rette udstyr og forbereder dig til forskellige typer cykelløb.  
 
-Her kan du lære om [pulstræning](/pulstraening/) og [intervaltræning til cykling](/intervaltraening-cykling/).  
+**Vil du have mere struktur på dine timer i sadlen og løfte din form?** Få konkrete programmer i vores store guide til [intervaltræning til cykling](/intervaltraening-cykling/), eller lær at styre din intensitet helt præcist med [pulstræning](/pulstraening/).
+{: .notice--info }
 
 Vores mål er at hjælpe dig med at nå dine cykelmål med evidensbaserede råd og praktiske tips. 🚴‍♂️💨
 
