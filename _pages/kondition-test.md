@@ -82,7 +82,7 @@ Her har du en oversigt over alle de forskellige måder du kan teste din konditio
    category="Kondition" 
    label="konditionstests" 
    placeholder="Søg i konditionstests (fx Cooper, Bip-test, Yo-Yo, VO2-max)..." 
-   pills="Maksimal, Submaksimal, Indirekte, Direkte, Løb, Cykling, Roning" %}
+   pills="Maksimal, Submaksimal, Indirekte, Direkte, Løb, Cykling, Roning, Gang" %}
 
 ## Mest populære konditionstests
 
@@ -147,7 +147,7 @@ Indirekte tests er en nem og tilgængelig måde at estimere dit kondital på ude
 
 * **Fordele:** Tilgængelige, billige og nemme at gentage jævnligt for at følge din formudvikling.
 * **Ulemper:** Bygger på statistiske formler, hvilket giver en mindre usikkerhedsmargin i forhold til lab-tests.
-* **Mest populære:** **[Cooper-test](/cooper-test/)** • **[2400-meter test](/kondital-2400-meter/)** • **[Åstrand 1-punktstest](/etpunktstest/)**
+* **Mest populære:** **[Cooper-test](/cooper-test/)** • **[2400-meter test](/kondital-2400-meter/)** • **[Åstrand 1-punktstest](/etpunktstest/)** • **[Steptests](/kondital-fra-steptest/)**
 
 ---
 
@@ -222,6 +222,8 @@ Konditionstests kan udføres på fitnesscentre og laboratorier, men der findes o
 * 👟 **[YMCA 3-minutters step-test](/ymca-3-minutters-steptest/)** – Kræver kun en 30 cm høj bænk/trappetrin og et stopur. Du træder op og ned i 3 minutter og måler din puls bagefter. See også vores [oversigt over alle steptests](/kondital-fra-steptest/).
 * 🚶 **[Rockports 1,6 km gå-test](/gaatest/)** – Gå 1,6 km så hurtigt du kan og tæl din puls til sidst. Perfekt til begyndere og skånsom test i nærområdet.
 * 🏃 **[1,6 km jogging-test](/submaximal-jogging-test-vo2/)** – En submaksimal test, hvor du jogger i et roligt samtale-tempo og lader pulsen afsløre dit kondital.
+* 🏃 **[7 forskellige steptests](/kondital-fra-steptest/)** – En steptest er let at sætte op derhjemme. Vi gennemgår både steptests med og uden pulsmåling.
+
 
 💡 **3 gyldne regler når du tester din kondition derhjemme:**
 

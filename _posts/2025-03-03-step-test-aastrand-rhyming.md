@@ -6,8 +6,7 @@ description: Åstrand-Ryhming Step Test er en anerkendt, submaksimal konditionst
 permalink: /astrand-ryhming-step-test/
 language: da
 header:
-  overlay_image: /assets/images/unsplash/photo-1546869372-abdd57773019.jpg
-  credit: https://images.unsplash.com/photo-1546869372-abdd57773019
+  teaser: /assets/images/unsplash/photo-1546869372-abdd57773019.jpg
   caption: Åstrand-Ryhming Step Test – Klassisk skandinavisk konditionstest
 categories:
 - Kondition

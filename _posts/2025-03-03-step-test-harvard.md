@@ -6,8 +6,7 @@ description: Harvard Step Test er en af de mest kendte og udfordrende steptests.
 permalink: /harvard-step-test/
 language: da
 header:
-  overlay_image: /assets/images/unsplash/photo-1546869372-abdd57773019.jpg
-  credit: https://images.unsplash.com/photo-1546869372-abdd57773019
+  teaser: https://images.unsplash.com/photo-1758875568074-0e7e4389b7d5?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: Harvard Step Test – Klassisk & intensiv konditionstest
 categories:
 - Kondition

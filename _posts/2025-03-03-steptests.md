@@ -89,6 +89,7 @@ Nedenfor kan du sammenligne de mest anvendte steptests ud fra deres fysiologiske
 | **[Åstrand-Ryhming](/astrand-ryhming-step-test/)** | Moderat (6 min)<br>33 cm (K) / 40 cm (M) | Arbejdspuls<br>(Steady-state v. 5.–6. min) | Høj præcision<br>(SEE: $\pm 4{,}0$ mL/kg/min) | **Skandinavisk guldstandard:** Måler den stabiliserede arbejdspuls under belastning, hvilket minimerer test-stress og fejl. | Åstrand & Ryhming (1954); Bennett et al. (2016) |
 | **[Chester Step Test](/chester-step-test/)** | Progressiv (2–10 min)<br>15, 20, 25 el. 30 cm bænk | Arbejdspuls<br>(Måles v. hvert 2-min level) | Meget høj præcision<br>(SEE: $\pm 3{,}5$ mL/kg/min) | **Lineær ekstrapolation:** Danner en individuel pulskurve op til din maxpuls. Stop v. 80% HRmax gør den sikker og præcis. | Sykes & Roberts (2004); Bennett et al. (2016) |
 | **[Harvard Step Test](/harvard-step-test/)** | Meget høj (5 min)<br>50,8 cm (M) / 40,6 cm (K) | Restitutionspuls<br>(3 x 30 sek tælling) | Udregner Fitness Index | **Klassisk udholdenhedstest:** Ekstremt krævende test på meget høj bænk. Måler samlet kardiovaskulær tolerance og pulsfald. | Brouha et al. (1943) |
+{: class="full" }
 
 ---
 

@@ -16,7 +16,6 @@ tags:
   - kondition
   - værktøj
 categories:
-  - Kondition
   - Værktøjer
 tools:
   - id: "tool-interval-timer"

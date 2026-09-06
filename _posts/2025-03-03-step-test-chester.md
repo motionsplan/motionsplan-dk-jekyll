@@ -6,7 +6,7 @@ description: Chester Step Test er en populær, submaksimal og progressiv steptes
 permalink: /chester-step-test/
 language: da
 header:
-  overlay_image: /assets/images/unsplash/photo-1546869372-abdd57773019.jpg
+  teaser: https://plus.unsplash.com/premium_photo-1661331717134-e6eed6bd8c3b?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   credit: https://images.unsplash.com/photo-1546869372-abdd57773019
   caption: Chester Step Test – Progressiv & udbredt konditionstest
 categories:

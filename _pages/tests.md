@@ -84,7 +84,7 @@ Uanset om du vil måle dit kondital, din trækstyrke, din løbekapacitet eller d
    category="Tests" 
    label="tests" 
    placeholder="Søg i alle tests (fx Cooper, Bip-test, Yo-Yo, VO2-max)..." 
-   pills="Løb, Cykling, Roning, Sprint, Spring" %}
+   pills="Løb, Cykling, Gang, Roning, Sprint, Spring, Retningsskift" %}
 
 ---
 
