@@ -71,8 +71,8 @@ Pulsreserven ($HRR$ – *Heart Rate Reserve*) er forskellen mellem din maksimale
 
 <div class="notice--info" markdown="1">
 
-### 💡 Leder du efter dine 5 personlige pulszoner?
-Hvis du vil have opdelt hele din træning i konkrete pulszoner (Zone 1 til 5) baseret på Karvonen-formlen, skal du bruge vores **[Pulszoner Beregner](/pulszoner-beregner/)**. Denne side fokuserer på matematikken bag pulsreserven og beregning af specifikke enkeltværdier.
+**💡 Leder du efter dine 5 personlige pulszoner?**
+Hvis du vil lave [pulstræning](/pulstraening/) og have opdelt hele din træning i konkrete pulszoner (Zone 1 til 5) baseret på Karvonen-formlen, skal du bruge vores **[Pulszoner Beregner](/pulszoner-beregner/)**. Denne side fokuserer på matematikken bag pulsreserven og beregning af specifikke enkeltværdier.
 
 </div>
 
