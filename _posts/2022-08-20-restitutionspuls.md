@@ -60,7 +60,7 @@ Herunder kan du aflæse normalkategorierne for voksne efter moderat til hård tr
 
 Når du træner, aktiverer kroppen det *sympatiske nervesystem* ("kemisk gaspedal"), som får hjertet til at slå hurtigere for at pumpe ilt ud til musklerne.
 
-Så snart du stopper træningen, overtager det *parasympatiske nervesystem* ("bremsen"). Hos en veltrænet person slår bremsen hurtigt og effektivt igennem, hvorfor pulsen dykker stejlt med det samme.
+Så snart du stopper træningen, overtager det *parasympatiske nervesystem* ("bremsen"). Hos en veltrænet person slår bremsen hurtigt og effektivt igennem, hvorfor [pulsen](/puls/) dykker stejlt med det samme.
 
 {% include figure image_path="/assets/images/blog/HeartRateRecovery.jpg" alt="restitutionspuls og heart rate recovery graf for trænet vs utrænet" caption="Kurven for pulsfald hos en trænet person dykker markant hurtigere sammenlignet med en utrænet. Kilde: derbycitycf.com" %}
 
@@ -127,7 +127,7 @@ Selvom alderen har en lille naturlig dæmpende effekt på nervesystemets bremse,
 
 ## Konklusion
 
-Din restitutionspuls er en enkel og gratis indikator for din hjerte-kar-sundhed og din fysiske form. Ved regelmæssigt at måle dit pulsfald efter 1 eller 2 minutter kan du hurtigt se, om din træning bærer frugt.
+Din restitutionspuls er en enkel og gratis indikator for din hjerte-kar-sundhed og din fysiske form. Ved regelmæssigt at måle dit pulsfald efter 1 eller 2 minutter kan du hurtigt se, om din træning bærer frugt. En anden indikator for forbedringer i dit kredsløb er [hvilepulsen](/hvilepuls/).
 
 ---
 

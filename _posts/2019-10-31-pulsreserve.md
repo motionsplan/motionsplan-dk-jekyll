@@ -78,7 +78,7 @@ Hvis du vil lave [pulstræning](/pulstraening/) og have opdelt hele din træning
 
 ---
 
-## Hvad er pulsreserven ($HRR$)?
+## Hvad er pulsreserven (HRR)?
 
 Pulsreserven udtrykker det rå spænd, som dit hjerte har at arbejde med fra absolut hvile til maksimal ydelse:
 
@@ -145,6 +145,7 @@ Træner du ved $70\% \text{ } HRR$, arbejder din krop altså meget tæt på $70\
 
 ## Næste skridt i din pulstræning
 
+* bliv klogere på **[puls](/puls/)**.
 * test din maxpuls præcist med vores **[guide til maxpuls-test](/test-max-puls/)**.
 * Lær at måle din hvilepuls korrekt om morgenen i vores **[guide til hvilepuls](/hvilepuls/)**.
 * Få hele dit træningsspektrum opdelt i 5 zoner med vores **[Pulszoner Beregner](/pulszoner-beregner/)**.
