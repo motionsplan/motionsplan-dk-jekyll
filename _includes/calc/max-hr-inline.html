@@ -1,0 +1,52 @@
+<div class="mp-maxpuls-compact" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 0.65rem 1rem; margin: 1rem 0; font-family: system-ui, -apple-system, sans-serif;">
+  
+  <!-- Venstre: Input & Formel -->
+  <div style="display: flex; align-items: center; gap: 0.5rem; white-space: nowrap;">
+    <span style="font-size: 1.2rem; line-height: 1;">💓</span>
+    <label for="mp-compact-age" style="font-size: 0.9rem; font-weight: 800; color: #0f172a; margin: 0;">Alder:</label>
+    <input type="number" id="mp-compact-age" class="js-mp-compact-age" min="10" max="100" value="40" style="width: 68px; padding: 0.2rem 0.4rem; text-align: center; border: 1.5px solid #cbd5e1; border-radius: 8px; font-weight: 900; font-size: 1.15rem; color: #0f172a; background: #ffffff; outline: none; box-sizing: border-box;">
+    <span style="font-size: 0.85rem; color: #64748b; font-weight: 600;">år</span>
+    <span style="font-size: 0.75rem; color: #94a3b8; font-weight: 500; margin-left: 0.25rem;">(Tanaka)</span>
+  </div>
+
+  <!-- Højre: Resultat & Link -->
+  <div style="display: flex; align-items: center; gap: 0.85rem; white-space: nowrap;">
+    <div style="display: flex; align-items: baseline; gap: 0.35rem;">
+      <span style="font-size: 0.75rem; font-weight: 800; color: #475569; text-transform: uppercase; letter-spacing: 0.03em;">Maxpuls:</span>
+      <strong class="js-mp-compact-result" style="font-size: 1.15rem; font-weight: 900; color: #1e40af; line-height: 1;">180</strong>
+      <span style="font-size: 0.75rem; font-weight: 700; color: #2563eb;">bpm</span>
+    </div>
+
+    <span style="color: #cbd5e1; font-weight: 300;">|</span>
+
+    <a href="/max-puls-beregner/#calculator" style="font-size: 0.72rem; font-weight: 600; color: #64748b; text-decoration: underline; text-underline-offset: 3px; transition: color 0.15s ease;" onmouseover="this.style.color='#2563eb'" onmouseout="this.style.color='#64748b'">
+      Avanceret →
+    </a>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  document.addEventListener("DOMContentLoaded", function() {
+    const widgets = document.querySelectorAll('.mp-maxpuls-compact');
+    widgets.forEach(w => {
+      const input = w.querySelector('.js-mp-compact-age');
+      const output = w.querySelector('.js-mp-compact-result');
+
+      function calc() {
+        const age = parseFloat(input.value);
+        if (age && age >= 5 && age <= 110) {
+          // Tanaka et al. (2001): 208 - (0.7 * alder)
+          output.textContent = Math.round(208 - (0.7 * age));
+        } else {
+          output.textContent = '-';
+        }
+      }
+
+      input.addEventListener('input', calc);
+      calc();
+    });
+  });
+})();
+</script>

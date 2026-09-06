@@ -89,6 +89,9 @@ Modsat mange andre tests tilpasses bokshøjden ud fra din alder og dit nuværend
    Vælg den rette bokshøjde ud fra din alder og form. [Find din maxpuls](/test-max-puls/) eller udregn den.
    Beregn din stop-grænse (80% af $\text{HR}_{\text{max}}$):
    $$ \text{Stop-puls} = \text{HR}_{\text{max}} \times 0{,}80 $$
+
+{% include calc/max-hr-inline.html %}
+
 2. **Start testen**  
    Start vores interaktive guide nedenfor. Træd op og ned i takt med timeren. Timeren skruer automatisk op for tempoet hvert 2. minut.
 3. **Mål pulsen ved hvert niveau**  
@@ -122,7 +125,7 @@ Det teoretiske iltkrav for et givet niveau beregnes fysiologisk som:
 
 $$ \text{VO}_2 = (\text{step/min} \times 0{,}2) + (\text{step/min} \times \text{stephøjde i m} \times 1{,}8 \times 1{,}33) + 3{,}5 $$
 
-Når pulsen for de gennemførte niveauer indplottes mod disse VO₂-værdier, ekstrapoleres den linje, der danner sig, op til din forventede maksimalpuls. Skæringspunktet angiver dit estimerede kondital (VO₂max) i $\text{mL O}_2/\text{kg/min}$.
+Når pulsen for de gennemførte niveauer plottes mod iltoptagelsen, danner datapunkterne en lineær sammenhæng. Linjen ekstrapoleres op til din estimerede makspuls, hvor skæringspunktet angiver dit kondital (VO₂max i mL O₂/kg/min).
 
 ## Styrker og begræsninger for testen
 
