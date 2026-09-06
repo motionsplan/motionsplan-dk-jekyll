@@ -3,6 +3,7 @@ title: 'Alder og løbetider: Sammenlign med aldersgraduerede løbetider'
 permalink: /aldersgraduerede-tider/
 seo_title: 'Aldersgradueret løbetid: Sammenlign din tid på 5 km og 10 km'
 description: 'Brug denne alderskorrigerede løbeberegner til at sammenligne dine løbetider på 5 km, 10 km og maraton i forhold til din alder og dit køn.'
+excerpt: 'Brug denne alderskorrigerede løbeberegner til at sammenligne dine løbetider på 5 km, 10 km og maraton i forhold til din alder og dit køn.'
 last_modified_at: '2026-07-26T10:00:00Z'
 language: da
 header:

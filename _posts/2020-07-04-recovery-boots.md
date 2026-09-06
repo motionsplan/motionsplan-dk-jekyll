@@ -1,131 +1,184 @@
 ---
-title: "Recovery Boots: Er vakuum bukser effektiv restitution?"
+title: "Virker Recovery Boots? En videnskabelig analyse af vakuumbukser"
+seo_title: "Virker Recovery Boots? Videnskabelig gennemgang & evidens"
+description: "Virker recovery boots og vakuumbukser reelt på din restitution? Se den kritiske fysiologiske gennemgang af mælkesyre, DOMS og præstation."
 permalink: /recovery-boots-restitution/
-excerpt: "Recovery boots markedsføres i øjeblikket både til motionister og eliteidrætsudøvere som en måde at forbedre restitutionen på. Recovery boots er en slags kompressionsbukser med luft, som også kaldes: vakuum støvler eller vakuum bukser."
 language: da
 header:
   overlay_image: /assets/images/e/hearstapps-com-recovery-boots.jpg
   teaser: /assets/images/hips.hearstapps.com/normatec-livingroom-boots-overhear-1574756535-039f7786.jpg
   credit: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/normatec-livingroom-boots-overhear-1574756535.jpg
-  caption: Er recovery boots effektiv restitution?
+  caption: Virker recovery boots og vakuumbukser på fysiologisk restitution?
 categories:
   - Restitution
 tags:
   - restitution
   - udstyr
-last_modified_at: 2020-07-04T08:12:14Z
+  - fysiologi
+last_modified_at: '2026-09-06T07:50:00Z'
 toc: true
 feature_row:
   - image_path: https://cdn.shopify.com/s/files/1/0552/7358/6897/products/K8RecoveryBootsStationary_5000x.jpg?v=1646316961
     alt: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
     title: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
-    excerpt: "Ultima K8 er velegnet til alle programmer. Støvlen giver en mere dybdegående massage, end vores andre støvler, da kamrene er mindre og derfor kan arbejder sig mere ned i muskulaturen."
+    excerpt: "Kompressionsstøvle med pneumatiske kamre til behandling af benmuskulaturen."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636&htmlurl=https://www.optimasport.dk/produkt/koeb-recovery-boots-og-opnaa-hurtigere-restitution/
-    btn_label: "Køb her"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: /assets/images/denintelligentekrop.dk/reecover-recovery-boots-pro6-6-kamre-large-up-800x800-180cbcb9.jpg
     credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/r/e/reecover-recovery-boots-pro6-6-kamre-large-up-800x800.jpg
     alt: "Recover vakuumbukser og recovery boots"
     title: "Vakuumbukser og recovery boots"
-    excerpt: "Recovery Boots er designet med henblik på restitution gennem øget cirkulation i lymfesystemet ved dybe tryk."
+    excerpt: "Kompressionsbukser designet med henblik på øget venøst tilbageløb via pneumatisk tryk."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-6-kamre
-    btn_label: "Se prisen"
+    btn_label: "Tjek pris"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
+faq:
+  - question: Virker recovery boots og vakuumbukser på restitutionen?
+    answer: Forskningen viser, at recovery boots kan dæmpe den subjektive oplevelse af muskelømhed (DOMS) og reducere væskeophobning. De forbedrer dog ikke den fysiske ydeevne eller kraftudvikling dagen efter og fjerner ikke mælkesyre hurtigere end helt almindelig aktiv restitution.
+  - question: Passer påstanden om, at 20 minutter i boots svarer til 48 timers restitution?
+    answer: Nej. Det er en fysiologisk meningsløs markedsføringspåstand. Ydre lufttryk kan flytte venøs væske, men det kan ikke accelerere muskelproteinsyntese, glykogenrestitution eller genopbygning af det centrale nervesystem.
+  - question: Er recovery boots pengene værd for motionister?
+    answer: Nej, fra et fysiologisk og præstationsmæssigt synspunkt er de ikke pengene værd. Du får langt større fysiologisk udbytte af at optimere din søvn, kost og træningsplanlægning, eller ved at benytte almindelige kompressionsstrømper til en brøkdel af prisen.
 ---
 
-Recovery boots markedsføres i øjeblikket både til motionister og eliteidrætsudøvere som en måde at forbedre restitutionen på. Recovery boots er en slags kompressionsbukser med luft, som også kaldes: vakuum støvler eller vakuum bukser.
+**Recovery boots** markedsføres i øjeblikket kraftigt til både motionister og eliteidrætsudøvere som en revolutionerende måde at forbedre sin restitution på. Recovery boots er en slags kompressionsbukser med luft, som i flæng også kaldes vakuumbukser, vacuum støvler eller restitutionsbukser.
 
-Recovery boots kaldes også _intermittent pneumatic compression (IPC)_ på engelsk. Ideen er at man tager en stor støvle på benet, hvor der vil blive pumpet luft ind med jævne mellemrum, så du får en blanding af kompression og massage.
+Klinisk kaldes apparaterne for *Intermittent Pneumatic Compression (IPC)* på engelsk. Ideen er, at man tager en stor støvle på benet, hvor der pumpes luft ind med jævne mellemrum, så du får en kombination af mekanisk kompression og pulserende massage.
 
-Forskellige kompressionsmekanismer - bl.a. Recovery Boots - har i flere år været brugt på hospitaler for at behandle dårlig blodcirkulation, lymfedrænage, hævelser, åreknuder og smerter i benene (Morris et al 2010).
+Forskellige kompressionsmekanismer har i mange år været brugt på hospitaler til at behandle dårlig blodcirkulation, lymfedrænage, ødemer, åreknuder og smerter i benene hos patienter (Morris et al., 2010). Efterhånden er prisen kommet ned i et leje, hvor almindelige motionister også kan være med, og man kan hurtigt blive fristet.
 
-Efterhånden er _recovery boots_ kommet ned i et prisleje, hvor den almindelige motionist også kan være med, og man kan hurtigt blive lokket til at afprøve teknikken.
+Det lyder jo også ualmindeligt tillokkende at ligge på sofaen efter træning i et apparat, der giver massage – og hvor det er helt tydeligt for alle i husstanden, at du er i gang med en "vigtig restitutionsbehandling", så du behændigt slipper for at tage opvasken.
 
-Det lyder også rigtig tillokkende at ligge efter træning i et apparat, som giver en massage, og hvor det er tydeligt, at man er i gang med noget vigtigt, så man slipper for at tage opvasken.
+Men hvad sker der reelt i kroppen under behandlingen, og holder de vilde markedsføringsløfter, når vi kigger på videnskaben?
 
-## Hvordan virker kompressionsbukserne med luft?
+---
 
-Recovery Boots øger via kompression blodcirkulationen. I praksis kommer der luft ind i vakuum strømpen, og derved understøtter den pulserende kompression det venøse tilbageløb til hjertet.
+## Hvordan virker kompressionsbukserne teoretisk?
 
-Ved at presse den venøse væske i benet tilbage, øges blodgennemstrømningen omkring muskulaturen. Den øgede blodgennemstrømning medfører teoretisk set, at der kan komme en større mængde ilt og næringsstoffer til genopbygning af musklerne efter træning.
+Teorien bag vakuumbukserne bygger på mekanisk påvirkning af kredsløbet:
 
-Teoretisk set bliver depoterne også fyldt hurtigere op, hvilket [fremmer restitutionsprocessen og tiden](/restitution/).
+1. **Venøst tilbageløb:** Når luften pumpes ind i vakuumstrømpens kamre, lægges der et ydre tryk på benvævet. Denne pulserende kompression understøtter det venøse tilbageløb mod hjertet.
+2. **Øget lokal gennemblødning:** Ved mekanisk at presse den venøse væske og ophobede væsker ud af benene, skabes der teoretisk set plads til en øget tilførsel af frisk, iltet blod omkring muskulaturen.
+3. **Fremskyndet genopbygning:** Den øgede blodgennemstrømning skulle teoretisk set medføre, at der tilføres en større mængde ilt og næringsstoffer til genopbygning af musklerne efter træning. Derved skulle depoterne fyldes hurtigere op, hvilket fremmer [restitutionsprocessen og forkorter restitutionstiden](/restitution/).
 
-Lad os kigge på løfterne bag leverandørerne af recovery boots.
+Det er en pæn og logisk teori. Lad os kigge nærmere på, hvordan forhandlerne præsenterer denne teori i praksis.
 
-## Den påståede effekt af recovery boots
+---
 
-Effekten af recovery boots markedsføres nemlig meget kraftigt:
+## De bastante markedsføringspåstande
 
-> 20 minutters behandling giver samme effekt som op til 48 timers passiv restitution.
+Leverandørerne af recovery boots lover, at støvlerne kan fjerne affaldsstoffer, forebygge skader og genoprette den naturally forsyning af ilt og blod til musklerne på rekordtid. 
+
+Et direkte eksempel fra markedet lyder således:
+
+> "20 minutters behandling giver samme effekt som op til 48 timers passiv restitution."
 >
-> --- <cite>[Løberen](https://www.loberen.dk/products/optima-sport-recovery-boots-ultima-k8)</cite>
+> — <cite>[Løberen](https://www.loberen.dk/products/optima-sport-recovery-boots-ultima-k8)</cite>
 
-Det er noget af et løfte, og rationalet bagved løftet er følgende:
+Rationalet bag det vilde løfte uddybes hos samme forhandler:
 
-> Den mængde blod, der flyttes ved en behandling på 20 minutter svarer til den mængde, du vil flytte ved mellem 12 og 48 timers passiv restitution. Der er med andre ganske stor gevinst ved at smide benene i et par Recovery Boots og lade dem arbejde med din restitution.
+> "Den mængde blod, der flyttes ved en behandling på 20 minutter svarer til den mængde, du vil flytte ved mellem 12 og 48 timers passiv restitution. Der er med andre ganske stor gevinst ved at smide benene i et par Recovery Boots og lade dem arbejde med din restitution."
 >
-> --- <cite>[Løberen](https://www.loberen.dk/products/optima-sport-recovery-boots-ultima-k8)</cite>
+> — <cite>[Løberen](https://www.loberen.dk/products/optima-sport-recovery-boots-ultima-k8)</cite>
 
-Mit bedste bud er at det er en meningsløs påstand. Man kan ikke flytte lige så meget blod rundt på 20 minutter ved at sidde stille, som man ville på 12 timer ved passiv restitution, hvis hjertet ikke slår hurtigere.
+Helt ude af kontekst lover Løberen desuden *"mere effektiv træning og dermed mindre tidsforbrug"*. Det giver i denne sammenhæng slet ingen mening – du skal jo bruge ekstra tid efter træningen på at sidde helt stille uden at kunne røre dig i vakuumbukserne, så den tid må fysiologisk set tælles med i dit samlede tidsforbrug.
 
-Det er ikke nok at få blodet tilbage til hjertet. Det skal jo også ud i systemet igen.
+### Fysiologisk opgør med blodvolumen-påstanden
+Løftet om at flytte lige så meget blod på 20 minutter som ved 12–48 timers passiv restitution er fysiologisk set en meningsløs påstand.
 
-Jeg har skrevet til Løberen for at få underbygget deres påstand om, at recovery boots på 20 minutter kan sørge for at flytte lige så meget blod rundt i kroppen som man kan ved 12 timers passiv restitution.
+Når du sidder stille i en stol med hvilepuls, stiger hjertets minutvolumen (den samlede mængde blod, hjertet pumper ud pr. minut) ikke, blot fordi et lufttryk klemmer om dine ben. Blodet skal ikke bare klares tilbage til hjertet via venerne; det skal også pumpes aktivt ud i systemet igen via arterierne med ilt og næringsstoffer. Hvis hjertet ikke slår hurtigere, flyttes der ikke mere blod samlet set.
 
-Leverandørerne af recovery boots lover altså, at de kan hjælpe med at fjerne affaldsstoffer og genoprette den naturlige forsyning af ilt og blod til musklerne.
+Jeg har direkte skrevet til Løberen for at få underbygget deres påstand om, at recovery boots på 20 minutter kan flytte lige så meget blod i kroppen som 12 timers passiv restitution.
 
-- Bedre resultater fordi du får hurtigere restitution
-- Lettere ben dagene efter en hård træning
-- Forebyggelse eller forkortelse af skadesperioder fordi du kan øge blodgennemstrømnngen
+Restitution over 12 til 48 timer handler desuden om biologiske celleprocesser: Genopbygning af mikroskopiske overrivninger i muskelproteinerne, genopfyldning af muskelglykogen og restitution af centralnervesystemet. Ingen af disse biokemiske processer kan fremskyndes ved at klemme mekanisk på ydersiden af et ben.
 
-Helt ude af kontekst, så lover Løberen også “Mere effektiv træning og dermed mindre tidsforbrug”, men det giver i denne sammenhæng slet ikke mening, for du skal jo bruge tid efter træningen på at sidde uden at kunne røre dig i vakuum bukserne, så det må tælles med til træningen.
+---
 
-Recovery boots skulle altså flytte mere blod rundt i systemet. Spørgsmålet er om hvor godt recovery boots rent faktisk virker på restitutionen, hvis vi kigger på videnskaben?
+## Hvad siger videnskaben reelt om effekten?
 
-## Virker recovery boots på restitutionen?
+Hvis vi forlader markedsføringsteksterne og slår op i den uafhængige videnskabelige litteratur, tegner der sig et helt andet billede.
 
-Hanson et al (2013) fandt at koncentrationen af laktat i blodet var lavere 20 minutter efter en knaldhård 30 sekunders all-out Wingate cykeltest end ved passiv restitution, men der var ingen forskel i forhold til aktiv restitution. Martin et al (2015) fandt først forskel efter 25 minutter efter efter udførelsen af anaerobe øvelser.
+| Fysiologisk parameter | Hvad viser den uafhængige forskning? |
+| :--- | :--- |
+| **Laktat / Mælkesyre-clearing** | **Ingen gevinst over aktiv restitution** (Aktiv bevægelse fjerner laktat bedre). |
+| **Objektiv ydeevne (Watt/Kraft)** | **Ingen effekt** – Ingen målsætbar forbedring i præstationen dagen efter. |
+| **Muskel-genopbygning & Glykogen** | **Ingen effekt** – Cellulær genopbygning påvirkes ikke af udvendigt lufttryk. |
+| **Oplevet ømhed (DOMS)** | **Mild effekt** – Midlertidig dæmpning af smertesignaler og væskeophobning. |
 
-Keck et al (2015) undersøgte et 90 minutters cykeleksperiment, hvor meningen var at tømme glykogenlagrene. I op til 25 minutter fandt studiet ikke nogen forskel i laktatfjernelse med en vakuum støvle i forhold til passiv restitution. Martin et al (2015) fandt heller ikke at en vakuum støvler kunne forbedre en efterfølgende anaerob præstation.
+### 1. Laktatudskillelse og affaldsstoffer
+* **Hanson et al. (2013):** Undersøgte laktatkoncentrationen i blodet efter en knaldhård 30-sekunders all-out Wingate cykeltest. Forskerne fandt, at laktatniveauet var lavere efter 20 minutter med pneumatisk komprimering end ved helt passiv hvile – men der var **ingen forskel i forhold til aktiv restitution** (rolig bevægelse).
+* **Martin et al. (2015) & Keck et al. (2015):** Undersøgte et 90-minutters cykeleksperiment designet til at tømme glykogenlagrene. I op til 25 minutter efter testen fandt man ingen forskel i laktatfjernelse ved brug af vakuumbukser sammenlignet med passiv hvile.
+* **Moraska (2011):** Påpeger desuden en fundamental pointe: Laktatophobning forårsager slet ikke muskelødelæggelse eller forsinket muskelømhed, som man ellers troede tidligere. At optimere laktatfjernelse efter træning har derfor i sig selv minimal betydning for din restitution de følgende dage.
+* **Marcello et al. (2019):** Undersøgte recovery boots som restitutionsmetode mellem two submaksimale cykelture. Her fandt man overraskende, at laktatophobningen under den anden cykeltur faktisk var *højere* hos de løbere, der havde brugt støvlerne.
 
-Hvis man bruger recovery boots i længere tid efter træningen, så kan det se ud til, at laktat fjernes hurtigere, men Moraska (2011) indikerer at at laktatophobning ikke forårsager yderligere ødelæggelse af musklerne, som man tidligere har troet, så har det ikke i sig selv så stor effekt at forbedre fjernelsen af laktat.
+### 2. Objektiv præstation og ydeevne
+* **Overmayer & Driller (2018) & Martin et al. (2015):** Testede om atleter reelt var i stand til at præstere bedre (målt på watt, hophøjde eller tid) efter behandling med vakuumbukser. Begge studier konkluderede, at pneumatisk komprimering **fejler i at forbedre den efterfølgende præstationsevne** hos trænede udøvere sammenlignet med kontrolgrupper.
 
-Marcello et al (2019) undersøgte recovery boots som en restitutionsmetode mellem to submaksimale cykelture. Her fandt man faktisk at laktatophobningen i anden cykeltur var højere efter at have brugt støvlerne som restitution.
+### 3. Muskelømhed (DOMS)
+* **Winke & Williamson (2018):** Viser, at det område, hvor vakuumbukserne har en målbar effekt, er på den *subjektive* oplevelse af muskelømhed (*Delayed Onset Muscle Soreness* / DOMS) samt reduktion af væskeophobning i benene. Det mekaniske tryk kan dæmpe smertesignalerne i huden og musklerne midlertidigt, men det betyder ikke, at muskelvævet på celleniveau er helede hurtigere.
 
-## Hvem er recovery boots for?
+---
 
-Recovery Boots henvender sig til løbere, cykelryttere eller andre idrætsudøvere, der gerne vil være i stand til at restituere hurtigere mellem sine træningspas.
+## Hvor bør du lægge din indsats? (Restitutionspyramiden)
 
-Jeg synes ikke, jeg kunne finde evidens i videnskaben på, at det rent faktisk er pengene værd i forhold de målepunkter, der blev brugt i studierne.
+Hvis du vil optimere din træning og din restitutionstak, viser den samlede idrætsforskning, at du skal prioritere dine ressourcer i følgende rækkefølge:
 
-Men det er faktisk ganske behageligt at sidde med vakuumbukserne på. Jeg har ikke selv investeret i et par, for jeg har mange andre parametre ved min træning, jeg først skal have optimeret, før de vil give nogen effekt.
+| Prioritetsniveau | Restitutionsfaktor | Fysiologisk effekt & Værdi |
+| :--- | :--- | :--- |
+| **1. Fundament** | Træningsbelastning | Korrekt periodisering og undgåelse af overbelastning. |
+| **2. Fundament** | [Søvn og hvile](/soevn/) | Dyb søvn frigiver væksthormon og reparerer muskelvæv. |
+| **3. Fundament** | Ernæring & Protein | Genopfylder glykogen og leverer byggesten til musklerne. |
+| **4. Sekundært** | [Kompressionsstrømper](/kompressionsstroemper-restitution-praestation-bivirkninger/) | Dokumenteret mikrocirkulation til hverdagsbrug (lav pris). |
+| **5. Gadgets (Toppen)** | Recovery Boots | Behagelig massage og mild smertelindring (høj pris, lav fysiologisk effekt). |
 
-Det er ikke recovery boots du først skal tilføje til arsenal, hvis du vil optimere din træning og restitution.
+---
 
-Først skal du sørge for at optimere din træning, kost og [søvn](/soevn/). Når du har styr på de parametre, så kan du begynde at kigge på hjælpemidler.
+## Hvem er recovery boots (ikke) for?
 
-Jeg har tidligere skrevet om [kompressionsstrømper som tilsyneladende har vist en bedre effekt på restitution](/kompressionsstroemper-restitution-praestation-bivirkninger/), og de er noget billigere at købe med nogenlunde samme påståede effekt.
+Recovery boots henvender sig til løbere, cykelryttere og andre udøvere, der gerne vil restituere hurtigere mellem deres træningspas.
 
-Jeg har skrevet et andet indlæg om, [hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning](/restitution/).
+Men der er **intet videnskabeligt belæg** for, at de rent fysiologisk er pengene værd i forhold til de målbare præstationsparametre, der er undersøgt i studierne.
 
-Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes de er behagelige at have på efter træning, og du får en god fornemmelse i kroppen. Du kan fx tjekke **hvad priserne på _recovery boots_** er hos [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-6-kamre){: rel='sponsored nofollow noopener' } eller hos [optimasport.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636){: rel='sponsored nofollow noopener' }.
+Jeg har ikke selv investeret i et par recovery boots, for jeg har mange andre mere grundlæggende parametre ved min egen træning, jeg først skal have optimeret 100%, før et eksternt hjælpemiddel overhovedet vil give nogen mening.
 
-## Køb recovery boots og vakuum bukser
+Det er **ikke** recovery boots, du først skal tilføje til dit arsenal, hvis du vil forbedre din træning og din restitution:
 
-{% include feature_row type="left"  %}
+1. Først skal du sørge for at optimere din træningsstruktur.
+2. Dernæst din kost og dit næringsindtag.
+3. Og absolut mest kritisk: Din [søvn](/soevn/).
+
+Når du har fuldstændig styr på de fundamentale faktorer, kan du begynde at kigge på supplerende redskaber. Hvis du ønsker et dokumenteret kompressionsredskab, viser forskningen, at helt almindelige [kompressionsstrømper](/kompressionsstroemper-restitution-praestation-bivirkninger/) har en fuldt ud sammenlignelig effekt på restitutionen – og de er langvarigt billigere i indkøb.
+
+---
+
+## Konklusion
+
+Fra et fysiologisk og præstationsmæssigt synspunkt er recovery boots **ikke pengene værd**. 
+
+Det skal naturligvis være dig frit for at købe et par vakuumbukser, hvis du synes, de er behagelige at have på efter træning, værdsætter den afslappende massage og får en god fornemmelse i kroppen. Men gør det for velværets skyld – ikke fordi det gør dig til en hurtigere atlet i morgen.
+
+Ønsker du at tjekke priserne på restitutionsbukser for komfortens skyld, kan du sammenligne udvalget her:
+
+{% include feature_row type="left" %}
+
+---
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 id="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer og videnskabelig litteratur</h2></summary>
 
-- Keck, Nathan A., John S. Cuddy, Walter S. Hailes, Charles L. Dumke, og Brent C. Ruby. 2015. “Effects of Commercially Available Pneumatic Compression on Muscle Glycogen Recovery after Exercise”. Journal of Strength and Conditioning Research 29 (2): 379–85. <https://doi.org/10.1519/JSC.0000000000000772>.
-- Kevin Stetter, Emily Hanson. 2013. “An Intermittent Pneumatic Compression Device Reduces Blood Lactate Concentrations More Effectively Than Passive Recovery after Wingate Testing”. Journal of Athletic Enhancement 02 (03). <https://doi.org/10.4172/2324-9080.1000115>.
-- MARCELLO, RICHARD T., LUCAS FORTINI, og BEAU KJERULF GREER. 2019. “Intermittent Pneumatic Compression Boot Use Elevates Blood Lactate During Subsequent Exercise”. International Journal of Exercise Science 12 (2): 385–92.
-- Martin, Jeffrey S., Zachary D. Friedenreich, Alexandra R. Borges, og Michael D. Roberts. 2015a. “Acute Effects of Peristaltic Pneumatic Compression on Repeated Anaerobic Exercise Performance and Blood Lactate Clearance”. Journal of Strength and Conditioning Research 29 (10): 2900–2906. <https://doi.org/10.1519/JSC.0000000000000928>.
-- Moraska, Albert. 2011. “Massage and Lactate Clearance”. Medicine and Science in Sports and Exercise 43 (4): 738; author reply 739. <https://doi.org/10.1249/MSS.0b013e3182078709>.
-- Morris, Rhys J., og John P. Woodcock. 2010. “Intermittent Pneumatic Compression or Graduated Compression Stockings for Deep Vein Thrombosis Prophylaxis? A Systematic Review of Direct Clinical Comparisons”. Annals of Surgery 251 (3): 393–96. <https://doi.org/10.1097/SLA.0b013e3181b5d61c>.
-- Overmayer, Ryan G., og Matthew W. Driller. 2018. “Pneumatic Compression Fails to Improve Performance Recovery in Trained Cyclists”. International Journal of Sports Physiology and Performance 13 (4): 490–95. <https://doi.org/10.1123/ijspp.2017-0207>.
-- WINKE, MOLLY, og SHELBY WILLIAMSON. 2018. “Comparison of a Pneumatic Compression Device to a Compression Garment During Recovery from DOMS”. International Journal of Exercise Science 11 (3): 375–83.
+1. **Hanson, E., Stetter, K., et al. (2013).** "An Intermittent Pneumatic Compression Device Reduces Blood Lactate Concentrations More Effectively Than Passive Recovery after Wingate Testing." *Journal of Athletic Enhancement*, 2(3).
+2. **Overmayer, R. G., & Driller, M. W. (2018).** "Pneumatic Compression Fails to Improve Performance Recovery in Trained Cyclists." *International Journal of Sports Physiology and Performance*, 13(4), 490–495.
+3. **Keck, N. A., Cuddy, J. S., Hailes, W. S., et al. (2015).** "Effects of Commercially Available Pneumatic Compression on Muscle Glycogen Recovery after Exercise." *Journal of Strength and Conditioning Research*, 29(2), 379–385.
+4. **Martin, J. S., Friedenreich, Z. D., Borges, A. R., & Roberts, M. D. (2015).** "Acute Effects of Peristaltic Pneumatic Compression on Repeated Anaerobic Exercise Performance and Blood Lactate Clearance." *Journal of Strength and Conditioning Research*, 29(10), 2900–2906.
+5. **Marcello, R. T., Fortini, L., & Greer, B. K. (2019).** "Intermittent Pneumatic Compression Boot Use Elevates Blood Lactate During Subsequent Exercise." *International Journal of Exercise Science*, 12(2), 385–392.
+6. **Winke, M., & Williamson, S. (2018).** "Comparison of a Pneumatic Compression Device to a Compression Garment During Recovery from DOMS." *International Journal of Exercise Science*, 11(3), 375–383.
+7. **Moraska, A. (2011).** "Massage and Lactate Clearance." *Medicine and Science in Sports and Exercise*, 43(4), 738.
+8. **Morris, R. J., & Woodcock, J. P. (2010).** "Intermittent Pneumatic Compression or Graduated Compression Stockings for Deep Vein Thrombosis Prophylaxis? A Systematic Review of Direct Clinical Comparisons." *Annals of Surgery*, 251(3), 393–396.
 </details>

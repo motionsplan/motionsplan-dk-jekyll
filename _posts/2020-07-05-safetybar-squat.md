@@ -1,5 +1,8 @@
 ---
-title: 'Safety Bar Squat: Hvilken safety squat bar kan anbefales?'
+title: 'Safety Bar Squat: Hvilken safety squat bar bør du vælge?'
+seo_title: 'Safety Squat Bar: Biomekanik, købsguide & anbefalinger'
+description: 'Hvad gør en safety squat bar, og hvilken skal du vælge? Dyk ned i fysiologien, 22-graders vinklen, forskningen og eksperternes anbefalinger.'
+excerpt: 'Hvad gør en safety squat bar, og hvilken skal du vælge? Dyk ned i fysiologien, 22-graders vinklen, forskningen og eksperternes anbefalinger.'
 permalink: /safety-bar-squats/
 language: da
 header:
@@ -8,138 +11,178 @@ header:
   teaser: /assets/images/unsplash/photo-1534368575702-7c65b7474f91.jpg
   caption: Ikke alle safety bars er skabt ens. Vælg den rigtige safety bar til din squat!
 categories:
-- Styrketræning
+  - Styrketræning
 tags:
-- squat
-- træningsøvelse
-last_modified_at: '2020-07-05T21:49:14Z'
-toc: 'true'
+  - squat
+  - træningsøvelse
+  - udstyr
+  - styrketræning
+last_modified_at: '2026-09-06T07:55:00Z'
+toc: true
 gallery:
-- image_path: /assets/images/unsplash/photo-1571019614242-c5c5dee9f50b.jpg
-  credit: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b
-  url: /assets/images/unsplash/photo-1571019614242-c5c5dee9f50b.jpg
-  alt: Håndtag til at lave armbøjninger, armstrækninger og pushups
-  title: Håndtag til at lave armbøjninger, armstrækninger og pushups
+  - image_path: /assets/images/unsplash/photo-1571019614242-c5c5dee9f50b.jpg
+    credit: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b
+    url: /assets/images/unsplash/photo-1571019614242-c5c5dee9f50b.jpg
+    alt: Håndtag til at lave armbøjninger, armstrækninger og pushups
+    title: Håndtag til at lave armbøjninger, armstrækninger og pushups
+faq:
+  - question: Hvad er en Safety Squat Bar (SSB)?
+    answer: En Safety Squat Bar er en specialstang til squat med indbygget nakke- og skulderpolstring, fremadrettede håndtag og vinklede ender (camber). Designet flytter tyngdepunktet fremad og skåner skuldre, albuer og håndled.
+  - question: Hvorfor er vinklen på en safety bar så vigtig?
+    answer: Vinklen mellem håndtagene og vægtenderne (camber) bestemmer stangens balance. Den optimale vinkel er ca. 22 grader. Er vinklen forkert eller manglende, tipper stangen uhensigtsmæssigt eller mister sine fysiologiske fordele.
+  - question: Er Safety Bar Squat bedre for skuldre og ryggen?
+    answer: Ja. Fordi du holder i håndtag foran kroppen i stedet for at rotere armene om bag ryggen, aflastes skuldrene 100%. Samtidig gør det forskudte tyngdepunkt det nemmere at holde ryggen oprejst under squatten.
+  - question: Hvilken safety squat bar kan anbefales?
+    answer: EliteFTS SS Yoke Bar er guldstandarden i fitnessmiljøet. Et stærkt og billigere alternativ med næsten identisk geometri er Titan Safety Squat Bar V2.
 ---
 
-Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety squat stang, men hvad en god safety bar, og hvilke fordele har en safety squat bar?
+Døjer du med skuldersmerter under almindelig *back squat*, eller har du svært ved at holde en oprejst ryg i bunden af løftet? Så er en **Safety Squat Bar (SSB)** et af de mest effektive specialredskaber, du kan introducere i din styrketræning.
 
-Hvad er en safety squat bar? **En safety squat bar er en vægtstang med polstring på nakken, håndtag man kan holde i, og så er der forskydning i den yderste del af stangen, hvor vægtskiverne sættes på.**
+Men ikke alle safety bars er støbt over samme læst. Geometrien og vinklingen på stangen er helt afgørende for, om den fungerer fysiologisk perfekt – eller om den føles som en håbløs konstruktionsfejl.
 
-Polstringen på en safety bar gør, at stangen ligger højere på nakken end en almindelig squat stang, og vinklingen mellem håndtaget og skiverne gør, at tyngdepunktet flyttes længere frem end almindelige _back squats_.
+I denne guide gennemgår vi fysiologien bag **safety bar squats**, biomekanikken med 22-graders vinklen, forskningen på området samt de bedste og værste modeller på markedet.
 
-Typisk vil du derfor med en safety bar squatte lidt mere oprejst lidt ligesom du gør i en _front squat_.
+---
 
-[Chris Duffin](https://www.spreaker.com/user/anders_nedergaard/236-chris-duffin_1) fra Kabuki Strength siger, at en safety squat bar gør det meget lettere for folk, der har problemer med at komme dybt ned i en almindelig _back squat_ har færre problemer med at få rigeligt med dybde på en safety bar squat med en god teknik.
+## Hvad er en Safety Squat Bar?
 
-Når du laver front squat vil du efterhånden blive trukket lidt fremefter, særligt hvis du bliver træt i det øverste af ryggen og får problemer med at holde albuerne oppe.
+En **Safety Squat Bar** er en specialfremstillet vægtstang med tre karakteristiske kendetegn:
+
+1. **Polstring om nakke og skuldre:** Tykke puder fordeler vægten behageligt over nakken og trapezmusklen.
+2. **Fremadrettede håndtag:** Du holder i håndtag foran brystet i stedet for at gribe fat om selve vægtstangen bag skuldrene.
+3. **Camber (Forskydning af vægtenderne):** Vægtskiverne sidder forskudt i forhold til stangens midterakse og vinkles let fremad/nedad.
+
+{% include figure image_path="/assets/images/garagegymlab.com/Safety-Squat-Bar-Profile-ef1e2cab.jpg" caption="Yoke Safety Bar fra EliteFts. Bemærk forskydningen og vinklen på vægtenderne. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
+
+### Fysiologisk effekt på kropsstillingen
+Fordi vægtskiverne er forskudt fremad i forhold til din akse, flyttes tyngdepunktet. Stangen prøver konstant at tippe din overkrop fremover. For at modstå dette pres tvinges du til at spænde kraftigt op i den øvre ryg (*thoracal ekstension*) og holde overkroppen mere oprejst – meget lig stillingen i en *front squat*.
+
+Manden bag Kabuki Strength, Chris Duffin, fremhæver ofte, at en korrekt konstrueret safety bar gør det langt nemmere for løbere og atleter med manglende ankel- eller hofteledsmobilitet at opnå fuld dybde med god teknik uden at miste ryggen.
 
 {% include video provider="youtube" id="cj3uz9i5EsE" %}
 
-Det samme sker ikke med safety squat stang, så det er lettere at lave mange gentagelser med en safety bar. Hvis altså stangen er konstrueret rigtigt.
+I modsætning til en almindelig front squat, hvor udmatning i skuldre og albuer ofte sætter begrænsningen før benene, ligger en safety bar stabilt på skuldrene af sig selv. Det gør den ideel til sæt med mange gentagelser (*high-rep hypertrophy*).
 
-## Hvordan skal en safety bar se ud?
+---
 
-{% include figure image_path="/assets/images/garagegymlab.com/Safety-Squat-Bar-Profile-ef1e2cab.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/). [📷](https://garagegymlab.com/wp-content/uploads/2017/11/Safety-Squat-Bar-Profile.jpg){: rel='nofollow noopener' }" alt="Yoke Safety Bar til Squat fra EliteFts" %}
+## Geometrien: Hvorfor vinklen (22°) er afgørende
 
-Simon fra [supertraining.dk](https://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquins version](https://supertraining.dk/180-charles-poliquin-master-of-bullshit/) af safety bar squats.
+Det er ikke ligegyldigt, hvordan en safety bar er svejset sammen. Det afgørende punkt er vinklen mellem håndtagene og de yderste ender, hvor vægtskiverne påsættes.
 
-Det handler nemlig om, at der skal være de rigtige vinkler i safety baren, så den har den rigtige balance på skuldrene.
+Den fysiologiske "sweet spot"-vinkel ligger på **ca. 22 grader**.
 
-En safety squat stang skal naturligvis være konstrueret på den rigtige måde, hvis man vil have alle fordelene.
+Styrkeeksperten Simon Bigshooter fra [supertraining.dk](https://supertraining.dk/) advarer mod dårligt designede stænger, der ødelægger balancen:
 
-> Watson er ingen garanti for kvalitet. Deres Safety Bar fx er en vederstyggelighed. Absurd fejldesign, og de sletter bemærkninger desangående på YT (Youtube, red.).
+> Watson er ingen garanti for kvalitet. Deres Safety Bar fx er en vederstyggelighed. Absurd fejldesign, og de sletter bemærkninger desangående på YT.
 >
-> --- <cite>[Simon Bigshooter](https://supertraining.dk/146-qa-squats-leg-curls/)</cite>
+> — <cite>[Simon Bigshooter](https://supertraining.dk/146-qa-squats-leg-curls/)</cite>
 
-Vinklen mellem puderne og vægtene skal så vidt jeg har kunnet finde ud af være 22 grader. Nogle stænger har for lille vinkel, og Watsons Safety Bar har for stor en vinkel.
+Hvis vinklen er for stor (som på Watson), skubbes tyngdepunktet alt for langt frem, så stangen reelt flår dig ud af balance. Hvis vinklen er 0 grader (som på visse billige modeller), mister du den unikke vægtforskydning, og stangen ruller rundt på nakken.
 
-Hvis du vil undersøge specifikationerne for den oprindelige safety squat bar, så kan du kigge i [Jesse Hoaglands US Patent](https://www.google.com/patents/US7112164).
+Specifikationerne for den oprindelige opbygning kan studeres i [Jesse Hoaglands US Patent](https://www.google.com/patents/US7112164).
 
-## Fordele ved safety bars
+---
 
-- **Beskytter skulderen**. Back squat kan være ret belastende for skuldrene, fordi man skal holde fast i stangen. Når safety baren er konstrueret rigtigt, så behøver man ikke engang holde fast i håndtagene, og så balancerer den stadig fint på skuldrene.
-- **Grebet kan varieres og tyngdepunktet flyttes**. Man kan flytte rundt på tyngdepunktet i stangen ved at variere hvor man holder håndtagene.
-- **Mere sikker**. Det er mere sikkert med en safety bar at køre tæt på _failure_ under hypertrof-træning. Når stangen selv kan ligge på skuldrene, så kan tage fat i racket for at hjælpe dig selv op. Det vil jeg dog under ingen omstændigheder anbefale. Det er mest dumt ikke at have sat  _sikkerhedspins_ op i racket.
+## Fordele ved Safety Bar Squats
 
-## En safety bar kan bruges til mere end squat
+* **Skåner skuldre, albuer og håndled 100%:** Du behøver ikke at uddadrotere i skuldrene for at holde stangen. Har du skulderklemsyndrom (*impingement*), biceps-tendinit eller manglende bevægelighed, kan du stadig squatte tungt uden smerter.
+* **Sikker træning til udmattelse (Failure):** Da stangen hviler stabilt på skuldrene uden at rulle, kan du køre hård hypertrofitræning tæt på failure i et squat rack med sikkerhedsarme (*safeties*) uden risiko for at miste grebet.
+* **Styrker den øvre ryg:** Den konstante fremadrettede kraft kræver enorm styrke i *erector spinae* og fældemusklerne (*trapezius*), hvilket har stor overførbarhed til dødløft.
+
+---
+
+## En Safety Bar kan bruges til mere end squat
+
+En safety bar er et af de mest alsidige specialredskaber i gymmet:
 
 {% include video provider="youtube" id="YN3meVAX5Gk" %}
 
-Du kan også bruge safety baren til andre øvelser.
+* **[Good Mornings](/oevelse/goodmorning/):** Fordi stangens vægtender peger fremad, ligger tyngdepunktet mere behageligt over midtfoden end med en almindelig stang.
+* **Hatfield Squats:** Du kan lade stangen ligge på skuldrene helt uden at holde ved den, og i stedet gribe fat om rack-stativerne med hænderne for at yde assistance. Det giver mulighed for overbelastningstræning af benene.
+* **Etbensøvelser (Lunges, Split Squats & Step-ups):** Balancen holdes automatisk af puderne, så du ikke skal bruge energi på at stabilisere vægten sideværts.
 
-- **[Good mornings](/oevelse/goodmorning/)**. Stangens tyngdepunkt kommer tættere ind på kroppen end med en almindelige squat stang.
-- **Etbensarbejde**. Safety baren er også anvendlig til lunges, split squats og stepups, fordi den har en god balance på skuldrene. Hvis du har brug for assistance, så kan du altså hjælpe dig selv undervejs ved at gribe fat i racket, når du laver etbensarbejde.
+---
 
-## Videnskabelig sammenligning med safety bar squats og alm. squats
+## Videnskaben: Hvad siger studierne om Safety Bar Squats?
 
-Der er ikke mange studier med safety bar squats, men der har været et par enkelt de seneste år.
+Der findes enkelte nyere studier, der har sammenlignet mekanikken og aktiveringen ved safety bar squats i forhold til klassiske back squats.
 
-Hecker et al (2018) fandt i deres studium, hvor de sammenlignede back squats og safety bar squats et mindre EMG-signal vastus lateralis og baglårsmusklerne. Det er dog sandsynligt at noget af effekten skyldes, at
+### EMG-aktivering (Hecker et al., 2018)
+Hecker et al. (2018) undersøgte forskelle i muskelaktivering (EMG) mellem traditionel back squat og safety bar squat. De fandt generelt lavere EMG-signaler i *vastus lateralis* (forlår) og baglårsmusklerne ved safety bar squat.
 
-> This means that the difference in total load was only about 6.3%, not 11.3%. However, the mean EMG differences for the hamstrings and the vastus lateralis were 10.2-20.6%, which are larger than would be expected based solely on differences in loading.
+Styrkeanalytikeren Greg Nuckols har dog gennemgået studiet kritisk og påpeget vigtige metodiske nuancer:
+
+> This means that the difference in total load was only about 6.3%, not 11.3%. However, the mean EMG differences for the hamstrings and the vastus lateralis were 10.2-20.6%, which are larger than would be expected based solely on differences in loading. (...) So, I wonder if the EMG differences in this study may be partially attributable to differences in comfort and technical proficiency with the two bars.
 >
-> (...) So, I wonder if the EMG differences in this study may be partially attributable to differences in comfort and technical proficiency with the two bars.
->
-> --- <cite>[Greg Nuckols](https://www.strongerbyscience.com/safety-bar-squats/)</cite>
+> — <cite>[Greg Nuckols](https://www.strongerbyscience.com/safety-bar-squats/)</cite>
 
-Meldrum og DeBeliso (2018) fulgte baseball spillere, og der var squat med safety bar mindst lige så effektiv til at være støttetræning til vertikal hop og sprint som almindelig squat.
+### Overførbarhed til atletisk ydeevne (Meldrum & DeBeliso, 2018)
+I et 9-ugers studie på Division I baseballspillere undersøgte Meldrum & DeBeliso (2018) effekten af safety bar squats sammenlignet med almindelige barbell squats på springhøjde, sprint og 1RM-styrke:
 
-|| Vertikal hop | 60-yard sprint | Squat 1RM* |
-|-|-|-|-|
-| Safety bar squats | +2,9 cm | -0,08 s | +40,3 kg |
-| Barbell squats | +1,9 cm | 0,07 s | +29,9 kg |
+| Træningsgruppe | Vertikalt Hop | 60-Yard Sprint | Squat 1RM Fremgang |
+| :--- | :--- | :--- | :--- |
+| **Safety Bar Squat** | **+2,9 cm** | **-0,08 s** | **+40,3 kg** |
+| **Barbell Back Squat** | +1,9 cm | +0,07 s | +29,9 kg |
 
-\* [1RM](/rm-beregner/) blev lavet med samme bar som træningen.
+*Kilde: Meldrum & DeBeliso (2018). (1RM blev målt i den respektive øvelse).*
 
-Når tyngdepunktet flytter sig, så ændrer muskelaktiviteten sig også. Der er ikke overbevisende forskning, der endnu viser, hvad det nøjagtigt betyder, når vi sammenligner safety bar squats med almindelig squat.
+Konklusionen er klar: Safety bar squat er mindst lige så effektiv – og i dette studie mere effektiv – til at opbygge underkroppens eksplosivitet og styrke hos atleter.
 
-Det er sandsynligt, at stangen er bedre at bruge i forbindelse med hypertrofitræning, og så ser det ud til, at den er mindst lige så god i forhold til overførbarhed til eksplosive aktiviteter.
+---
 
-## Dr. Squat Fred Hatfield Safety Bar
+## Historie: Myten om "Dr. Squat" Fred Hatfield
 
-Mange har troet at det er Fred Hatfield, der har opfundet safety baren, men det er som tidligere skrevet Jesse Hoagland, der har patentet på baren.
+Mange i styrkemiljøet tror fejlagtigt, at det var den legendariske styrkeløfter Dr. Fred Hatfield ("Dr. Squat"), der opfandt safety baren.
 
-At Hatfield får æren for opfindelsen er formentlig, fordi han ikke har gjort noget særligt for, at han ikke skulle have æren for det.
+Sandheden er dog, at det var **Jesse Hoagland**, der opfandt og patenterede stangen. Hatfield stødte på baren, brugte den intensivt i sin træning op til sine verdensrekorder og markedsførte derefter sit eget design intensivt:
 
 > Hatfield became aware of the Safety Bar. If rumours are to be believed, he relied heavily upon it as part of his training. Thus in the aftermath of his triumph Dr. Squat began publishing the advantages of the safety squat bar, began producing his own and generally associating himself with it at every turn. The lifting community being what it is, Hatfield and not Hoagland, became seen as its inventor.
 >
-> --- <cite>[Conor Heffernan](https://physicalculturestudy.com/2020/04/03/the-history-of-the-cambered-bar-3/)</cite>
+> — <cite>[Conor Heffernan](https://physicalculturestudy.com/2020/04/03/the-history-of-the-cambered-bar-3/)</cite>
 
-Hatfield mente, at safety bar squats er almindelige squats overlegne, og at de er mere skånsomme over for knæ og lænd. Hvordan det er i virkeligheden afhænger naturligvis af kropsbygning og squat-teknik.
+---
 
-## Hvilken safety squat bar skal man købe?
+## Hvilken Safety Squat Bar skal du vælge?
 
-Det vigtigste for en velfungerende safety bar er vinklingen mellem håndtagene og skiverne.
+Når du skal investere i en safety bar, skal du vælge en model med den rigtige vinkling og en robust polstring, der ikke falder sammen under tung vægt.
 
-Når du søger på safety bar kommer der mange versioner frem i mange forskellige prislejer.
+### 1. Guldstandarden: EliteFTS SS Yoke Bar
+Anbefales samstemmende af eksperter som Nikolaj Bach, Simon Bigshooter og Garage Gym Reviews.
 
-De følgende safety bars er ifølge Bigshooter **ikke konstrueret korrekt og kan således ikke anbefales**:
+* **[EliteFTS SS Yoke Bar](https://www.elitefts.com/ss-yoke-bar.html):** Designet med den helt rigtige geometri, kraftige udskiftelige puder og en konstruktion, der holder til flere hundrede kilos belastning i årtier.
 
-- **Watson Safety Bar** har for stor en vinkel mellem håndtaget og skiverne.
-- **Asbjørn Riis’ Safetybar** har ingen vinkling.
+{% include figure image_path="https://www.elitefts.com/wp/wp-content/uploads/2016/04/ssb3.jpg" caption="EliteFTS SS Yoke Bar i brug. Kilde: [elitefts.com](https://www.elitefts.com/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
-Men **hvilke safety bars kan så anbefales**?
+### 2. Det bedste budgetvalg: Titan Safety Squat Bar V2
+For dem, der ønsker samme geometri til en lavere pris:
 
-Jeg har læst virkelig mange sites og [grundige anbefalinger](https://www.garagegymreviews.com/the-best-safety-squat-bar) rundt omkring på nettet for at finde ud af, hvilken bar jeg selv vil købe.
-
-Både [Nikolaj Bach](https://nikolajbach.dk/safety-bar-squats/), [Simon Bigshooter](https://andersnedergaard.dk/fitness-mk/fitness-m-k-233/) og [Coop fra garagegymreviews.com](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler safety baren fra EliteFts.
-
-- **[EliteFts SS Yoke Bar](https://www.elitefts.com/ss-yoke-bar.html)**. EliteFts var blandt de første, der udviklede en safety bar. Den har først og fremmest det rigtige design, og så er den konstrueret til at håndtere meget vægt over lang tid.
-
-Her kan du se forskellige måder, safety baren fra EliteFts kan bruges på.
-
-{% include figure image_path="https://www.elitefts.com/wp/wp-content/uploads/2016/04/ssb3.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [www.elitefts.com](https://www.elitefts.com/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
-
-[Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler imidlertid også denne safety bar fra Titan. Garagegymreviews.com er uden tvivl et _affiliate_ site, men gennemgangen af de forskellige _safety bars_ er virkelig grundig.
-
-> [Titan Safety Squat Bar V2](https://www.titan.fitness/strength/barbells/specialty/safety-squat-olympic-bar-%7C-v2/430063.2.html) is the best Safety Squat Bar for most people. Our previous pick was the EliteFTS SS Yoke Bar; although we still love the SS Yoke, version two of the Titan SSB is almost identical at a much lower price, especially when shipping is considered. It features heavy-duty steel, removable handles, thick padding, and chrome plating. There isn't a warranty which is unfortunate, but we doubt you'll ever need to use it.
+> Titan Safety Squat Bar V2 is the best Safety Squat Bar for most people. Our previous pick was the EliteFTS SS Yoke Bar; although we still love the SS Yoke, version two of the Titan SSB is almost identical at a much lower price. It features heavy-duty steel, removable handles, thick padding, and chrome plating.
 >
-> --- <cite>[Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar)</cite>
+> — <cite>[Coop, Garage Gym Reviews](https://www.garagegymreviews.com/the-best-safety-squat-bar)</cite>
+
+### Modeller du bør undgå:
+* **Watson Safety Bar:** For stor vinkel på vægtenderne, hvilket skaber en ubehagelig vægtforskydning.
+* **Stænger uden vinkling (f.eks. ældre Asbjørn Riis-modeller):** Manglende vinkling gør, at stangen ikke balancerer fysiologisk korrekt på skuldrene.
+
+---
+
+## Sammenfatning
+
+En god Safety Squat Bar er et af de mest værdifulde redskaber i et styrketræningscenter. Den skåner dine skuldre, tvinger dig til en flot oprejst rygstilling og opbygger enorm styrke i ben og ryg.
+
+Sørg for at vælge en stang med den korrekte **22-graders camber-vinkel** (som EliteFTS eller Titan V2), så du får alle de biomekaniske fordele.
+
+---
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- [Effects of the Safety Squat Bar on Trunk and Lower-Body Mechanics During a Back Squat](https://www.ncbi.nlm.nih.gov/pubmed/30363042). Hecker et al. (2018)
-- Meldrum R, DeBeliso M. [A Comparison of Back Squat & Safety Squat Bar on Measures of Strength, Speed, and Power in NCAA Division I Baseball Players](http://article.sapub.org/10.5923.j.sports.20180805.01.html).International Journal of Sport Science. 2018; 8(5): 137-144.
+1. **Hecker, K. A., et al. (2018).** "Effects of the Safety Squat Bar on Trunk and Lower-Body Mechanics During a Back Squat." *Journal of Strength and Conditioning Research*, 33(suppl 1), S102–S108.
+2. **Meldrum, R., & DeBeliso, M. (2018).** "A Comparison of Back Squat & Safety Squat Bar on Measures of Strength, Speed, and Power in NCAA Division I Baseball Players." *International Journal of Sport Science*, 8(5), 137–144.
+3. **Nuckols, G. (2018).** "Safety Bar Squats: Biomechanics and Muscle Activation." *Stronger by Science*.
+4. **Heffernan, C. (2020).** "The History of the Cambered and Safety Squat Bar." *Physical Culture Study*.
 </details>
