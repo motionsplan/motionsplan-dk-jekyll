@@ -52,6 +52,21 @@ tags:
 last_modified_at: '2026-07-27T10:00:00Z'
 toc: 'true'
 breadcrumbs: 'true'
+faq:
+  - question: "Hvornår og hvordan måler jeg min puls under Åstrand-testen?"
+    answer: "Til forskel fra mange andre steptests skal du måle din puls MENS du stadig stepper i slutningen af testen. Mål din puls ved henholdsvis 5:00 minutter og 6:00 minutter. Hvis de to målinger afviger med højst 5 slag pr. minut, har din krop opnået steady state, og du bruger gennemsnittet af de to tal som din testpuls."
+
+  - question: "Hvorfor måles pulsen under arbejdet og ikke efter?"
+    answer: "Åstrand-Ryhming-modellen estimerer dit iltforbrug ud fra den fysiologiske sammenhæng mellem arbejdsbelastning og arbejdspuls ved et stabilt, submaksimalt niveau (steady state). Modeller, der måler pulsen efter testen (f.eks. YMCA eller Harvard Step Test), baserer sig i stedet på hjerterestitutionsevne."
+
+  - question: "Hvad gør jeg, hvis min puls stiger mere end 5 slag i 6. minut?"
+    answer: "Hvis din puls ved 6:00 minutter er mere end 5 slag højere end ved 5:00 minutter, er dit kredsløb endnu ikke nået i steady state. Fortsæt i samme tempo i yderligere 1–2 minutter, indtil pulsen stabiliserer sig fra et minut til det næste."
+
+  - question: "Kan jeg tage testen, hvis jeg er over 60 år eller utrænet?"
+    answer: "Ja, Åstrand-testen er en submaksimal test og kræver ikke, at du presser dig selv til maksimal udmattelse. Testen benytter en alderskorrektionsfaktor baseret på Åstrands nomogram, som tager højde for det naturlige fald i maxpuls med alderen. Hvis du kender din faktiske maxpuls, bør du indtaste den i beregneren for det mest præcise resultat."
+
+  - question: "Hvad er forskellen på den klassiske Åstrand-test og den 5-minutters beredskabstest?"
+    answer: "Den klassiske test varer 6 minutter med pulsmåling under arbejdet. 5-minutters varianten (f.eks. Forest Service Step Test) blev udviklet af det nordamerikanske beredskab som en hurtig screeningstest, hvor pulsen måles i 15 sekunder umiddelbart efter udført test."
 ---
 
 Åstrand-Ryhming Step Test er en af de mest fundamentale og anerkendte fysiologiske konditionstests i verden. Testen blev udviklet af de svenske fysiologer Per-Olof Åstrand og Irma Ryhming i 1950'erne og har en stærk forankring i skandinavisk idrætsforskning.
@@ -153,9 +168,28 @@ $$ \text{Kondital} = \frac{\text{VO}_2\text{max}_{\text{korrigeret}} \times 1000
 
 Testen kræver dog, at din puls forbliver i et submaksimalt område (typisk mellem 120 og 170 slag/minut). Hvis din puls er for høj eller for lav under testen, falder præcisionen af estimatet.
 
+### Variationer: Den 5-minutters steptest i beredskabet (USFS / Forest Service Step Test)
+
+Selvom den klassiske Åstrand-Ryhming steptest forskriftsmæssigt udføres over 6 minutter, findes der anerkendte modifikationer, hvor varigheden er skåret ned til **5 minutter**. 
+
+En af de mest kendte tilpasninger blev udviklet af det nordamerikanske beredskab (herunder *U.S. Forest Service* i samarbejde med canadiske og amerikanske beredskabsmyndigheder). Formålet var at skabe en hurtig, standardiseret og submaksimal arbejdstest til at screene brandmænd og redningspersonel for tilstrækkelig iltoptagelse under feltarbejde.
+
+#### Hvad er forskellen?
+* **Varighed:** Testen varer præcis 5 minutter i stedet for 6.
+* **Kadence og trinhøjde:** Der steppedes med den samme Åstrand-kadence på 22,5 step i minuttet (90 bpm på metronomen), ofte på en 40 cm bænk for mænd og 33 cm for kvinder.
+* **Pulsmåling:** Restitusjonspulsen måles i 15 sekunder lige efter de 5 minutters arbejde (fra sekund 15 til 30 efter udført test) for at bestemme arbejdskapaciteten via tilpassede Åstrand-tabeller.
+
+Denne 5-minutters variation gør testen endnu mere tidseffektiv, mens den bevarer den fysiologiske grundtanke fra Åstrand og Ryhmings oprindelige nomogram. 
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
+
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
 - Åstrand, P. O., & Ryhming, I. (1954). A nomogram for calculation of aerobic capacity (physical fitness) from pulse rate during submaximal work. *Journal of Applied Physiology*, 7(2), 218–221.
 - Åstrand, I. (1960). Aerobic work capacity in men and women with special reference to age. *Acta Physiologica Scandinavica. Supplementum*, 49(169), 1–92.
+* Sharkey, B. J. (1977). *Fitness and Work Capacity*. U.S. Department of Agriculture, Forest Service, Forest Support Research / Missoula Technology and Development Center (MTDC).
+* USDA Forest Service (1975/1997). *Wildland Firefighter Work Capacity and Step Test Protocols*.
 </details>

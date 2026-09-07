@@ -143,13 +143,7 @@ Når du har beregnet din score, kan du sammenligne dit resultat med den klassisk
 
 Som du ser, så kan resultatet fra Harvard testen ikke direkte [sammenlignes med konditallet](/kondital/) for de andre tests, da fitness indekset ligger noget højere.
 
-## Styrker og begræsninger for testen
-
-Harvard Step Test er er en udfordring for udholdenheden med den høje boks. Fordi bænken er høj (50,8 cm), kræver den dog en del benstyrke og god balance. 
-
-For personer med knæproblemer, høj kropsvægt eller lav træningstilstand anbefales det i stedet at benytte [YMCA Modified steptest](/ymca-modified-steptest/), hvor bokshøjden tilpasses den enkelte.
-
-### Kan Harvard Step Test bruges til at beregne et kondital (VO₂max)?
+## Kan Harvard Step Test bruges til at beregne et kondital (VO₂max)?
 
 Et ofte stillet spørgsmål er, om Harvard Step Test kan omregnes direkte til et kondital i ml O₂/kg/min. Det korte svar er, at testen oprindeligt ikke blev designet til dette formål. Testen blev udviklet af Lucien Brouha og hans kolleger i 1943 med det formål at måle kardiovaskulær restitutionsevne udtrykt ved et **Fitness Index (FI)** (*Brouha, L., 1943*). 
 
@@ -159,7 +153,15 @@ I litteraturen og fysiologiske beregningsmodeller benyttes der dog ofte en empir
 
 $$\text{VO}_2\text{max} \approx 6,04 + (0,51 \times \text{FI})$$
 
-Selvom denne formel giver en grov indikation af din maksimale iltoptagelse, viser valideringsstudier en lav korrelation ($r \approx 0,60–0,70$) sammenlignet med direkte laboratoriemålinger. Resultatet bør derfor altid tolkes som et **teoretisk skøn med høj usikkerhed**. Ønsker du en mere præcis og direkte beregning af dit kondital ud fra en steptest, anbefales validerede protokoller som *Queens College Step Test* eller *Åstrand-Ryhming*.
+Selvom denne formel giver en grov indikation af din maksimale iltoptagelse, viser valideringsstudier en lav korrelation ($r \approx 0,60–0,70$) sammenlignet med direkte laboratoriemålinger. Resultatet bør derfor altid tolkes som et **teoretisk skøn med høj usikkerhed**.
+
+Ønsker du en mere præcis og direkte beregning af dit kondital ud fra en steptest, anbefales validerede protokoller som *[Queens College Step Test](/queens-college-step-test/)* eller *[Åstrand-Ryhmings steptest](/astrand-ryhming-step-test/)*.
+
+## Styrker og begræsninger for testen
+
+Harvard Step Test er er en udfordring for udholdenheden med den høje boks. Fordi bænken er høj (50,8 cm), kræver den dog en del benstyrke og god balance. 
+
+For personer med knæproblemer, høj kropsvægt eller lav træningstilstand anbefales det i stedet at benytte [YMCA Modified steptest](/ymca-modified-steptest/), hvor bokshøjden tilpasses den enkelte.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
