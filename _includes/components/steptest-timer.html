@@ -85,7 +85,7 @@
       <span class="info-value stage-display">1 / 1</span>
     </div>
     <div class="info-badge">
-      <span class="info-label">SAMLET TID</span>
+      <span class="info-label">SAMLET STEPTID</span>
       <span class="info-value total-time-display">03:00</span>
     </div>
   </div>
@@ -124,7 +124,7 @@
   <!-- Kontroller -->
   <div class="steptest-controls">
     <button class="btn btn--primary btn-start">Start</button>
-    <button class="btn btn--secondary btn-pause" disabled>Pause</button>
+    <button class="btn btn--secondary btn-pause" disabled>Afbryd</button>
     <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
   </div>
 </div>
@@ -250,8 +250,8 @@
 .steptest-controls { display: flex; gap: 8px; justify-content: center; width: 100%; }
 .steptest-controls button { flex: 1; padding: 12px; font-size: 1rem; font-weight: 800; border-radius: 8px; cursor: pointer; border: none; }
 .btn--primary { background: #228be6; color: white; }
-.btn--secondary { background: #868e96; color: white; }
-.btn--warning { background: #fa5252; color: white; }
+.btn--secondary { background: #e03131; color: white; }
+.btn--warning { background: #868e96; color: white; }
 .steptest-controls button:disabled { opacity: 0.4; cursor: not-allowed; }
 </style>
 
@@ -350,6 +350,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let recoveryIndex = 0;
     let stageSecondsLeft = activeStages[0].duration;
     let countdownLeft = 10;
+    let storedElapsedSteppingSeconds = null;
     
     let currentBeat = 0; 
     let leadFoot = 'right';
@@ -442,6 +443,7 @@ document.addEventListener("DOMContentLoaded", function() {
       stageIndex = 0;
       recoveryIndex = 0;
       stageSecondsLeft = activeStages[0].duration;
+      storedElapsedSteppingSeconds = null;
       mode = 'IDLE';
       countdownLeft = 10;
       leadFoot = 'right';
@@ -464,7 +466,11 @@ document.addEventListener("DOMContentLoaded", function() {
       const preset = localPresets[currentPresetKey];
       
       timerDisplay.classList.remove("is-prep", "is-alert", "is-recovery", "is-done");
-      if (alertBanner) alertBanner.style.display = 'none';
+      if (alertBanner && mode !== 'RECOVERY' && mode !== 'FINISHED') {
+        alertBanner.style.display = 'none';
+      }
+
+      const activeSteppingSecs = storedElapsedSteppingSeconds !== null ? storedElapsedSteppingSeconds : getTotalStepDuration();
 
       if (mode === 'COUNTDOWN') {
         bpmDisplay.textContent = `${activeStages[0].bpm} BPM`;
@@ -509,9 +515,9 @@ document.addEventListener("DOMContentLoaded", function() {
       }
       else if (mode === 'RECOVERY') {
         const recStage = recoveryStages[recoveryIndex];
-        bpmDisplay.textContent = `REST`;
+        bpmDisplay.textContent = `PULS`;
         stageDisplay.textContent = `Puls`;
-        totalTimeDisplay.textContent = formatTime(recStage.duration);
+        totalTimeDisplay.textContent = formatTime(activeSteppingSecs);
         timerDisplay.textContent = formatTime(stageSecondsLeft);
         timerDisplay.classList.add("is-recovery");
         
@@ -525,6 +531,8 @@ document.addEventListener("DOMContentLoaded", function() {
         progressBar.style.width = `${Math.min(100, (recElapsed / recTotal) * 100)}%`;
       }
       else if (mode === 'FINISHED') {
+        bpmDisplay.textContent = `SLUT`;
+        totalTimeDisplay.textContent = formatTime(activeSteppingSecs);
         timerDisplay.textContent = "00:00";
         timerDisplay.classList.add("is-done");
         progressBar.style.width = "100%";
@@ -734,11 +742,62 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 100);
     }
 
-    function finishWholeTest() {
+    function abortTest() {
+      if (mode === 'COUNTDOWN') {
+        stopTest();
+        return;
+      }
+
+      if (mode === 'STEPPING') {
+        let elapsed = 0;
+        for (let i = 0; i < stageIndex; i++) {
+          elapsed += activeStages[i].duration;
+        }
+        elapsed += (activeStages[stageIndex].duration - stageSecondsLeft);
+        storedElapsedSteppingSeconds = Math.max(1, Math.floor(elapsed));
+      }
+
+      const totalSecs = storedElapsedSteppingSeconds || 0;
+      const formattedTime = formatTime(totalSecs);
+      const timeString = `${formattedTime} (${totalSecs} sek.)`;
+
+      if (recoveryStages.length > 0 && mode !== 'RECOVERY') {
+        mode = 'RECOVERY';
+        recoveryIndex = 0;
+        stageSecondsLeft = recoveryStages[0].duration;
+        currentBeat = 0;
+
+        if (alertBanner) {
+          alertBanner.style.display = 'block';
+          alertBanner.textContent = `🛑 Test afbrudt efter ${timeString}! Tæl puls nu.`;
+        }
+
+        playBeep(800, 0.2);
+        setIdleFeet();
+        updateUI();
+      } else {
+        finishWholeTest(true);
+      }
+    }
+
+    function finishWholeTest(isAborted = false) {
       pauseTest();
       mode = 'FINISHED';
       widget.classList.add("is-finished");
-      instruction.textContent = "🎉 TEST FULLDENDT! Notér dit resultat i beregneren.";
+
+      const finalSecs = storedElapsedSteppingSeconds !== null ? storedElapsedSteppingSeconds : getTotalStepDuration();
+      const timeString = `${formatTime(finalSecs)} (${finalSecs} sek.)`;
+
+      if (storedElapsedSteppingSeconds !== null || isAborted) {
+        instruction.textContent = `🛑 TEST AFBRUDT! Samlet steptid: ${timeString}. Notér dette i beregneren.`;
+        if (alertBanner) {
+          alertBanner.style.display = 'block';
+          alertBanner.textContent = `⏱️ Steptid ved afbrydelse: ${timeString}`;
+        }
+      } else {
+        instruction.textContent = `🎉 TEST FULLDENDT! Samlet steptid: ${timeString}. Notér dit resultat i beregneren.`;
+      }
+
       playFinishFanfare();
       setIdleFeet();
       updateUI();
@@ -752,7 +811,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
       btnStart.disabled = false;
       btnPause.disabled = true;
-      if (mode !== 'FINISHED') instruction.textContent = "Pauset";
     }
 
     function stopTest() {
@@ -761,6 +819,7 @@ document.addEventListener("DOMContentLoaded", function() {
       stageIndex = 0;
       recoveryIndex = 0;
       stageSecondsLeft = activeStages[0].duration;
+      storedElapsedSteppingSeconds = null;
       countdownLeft = 10;
       currentBeat = 0;
       leadFoot = 'right';
@@ -777,7 +836,7 @@ document.addEventListener("DOMContentLoaded", function() {
       testSelector.addEventListener("change", (e) => loadPreset(e.target.value));
     }
     btnStart.addEventListener("click", startTest);
-    btnPause.addEventListener("click", pauseTest);
+    btnPause.addEventListener("click", abortTest);
     btnReset.addEventListener("click", stopTest);
 
     loadPreset(currentPresetKey);
