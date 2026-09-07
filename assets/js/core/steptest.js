@@ -282,7 +282,7 @@ export function calculateStepTest({
       }
 
       const fiNum = parseFloat(fitnessIndex);
-      vo2max = (fiNum * 0.55) + 12;
+      vo2max = 6.04 + (fiNum * 0.51);
       break;
     }
 

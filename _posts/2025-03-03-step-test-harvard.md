@@ -57,15 +57,15 @@ breadcrumbs: 'true'
 
 Harvard Step Test er en af de mest kendte og ældste fysiologiske steptests i verden. Testen blev udviklet under 2. verdenskrig til at vurdere unge mænds fysiske form og kardiovaskulære udholdenhed.
 
-Modsat mange nyere, milde submaksimale tests er Harvard Step Test ret intens. Bænken er høj (ca. 50,8 cm), og tempoet er højt (120 BPM), hvilket gør testen til en reel udfordring for dit kredsløb og din benmuskulatur.
+Modsat mange nyere submaksimale tests er Harvard Step Test ret intens. Bænken er høj (ca. 50,8 cm), og tempoet er højt (120 BPM), hvilket gør testen til en udfordring for dit kredsløb og din benmuskulatur.
 
-Hvis du leder efter en mere skånsom test, kan du se [YMCA 3-minutters steptest](/ymca-3-minutters-steptest/) eller vores samlede [oversigt over steptests](/kondital-fra-steptest/).
+Hvis du leder efter en lettere test kan du tjekke vores [samlede oversigt over steptests](/kondital-fra-steptest/).
 
 [<i class='fas fa-calculator'></i> Hop til beregner](#calculator){: .btn .btn--success .btn--jump } [<i class='fas fa-clock'></i> Hop til timer](#timer){: .btn .btn--success .btn--jump }
 
 ## Hvad er Harvard Step Test?
 
-Harvard Step Test måler din krops evne til at restituere efter hårdt arbejde. I stedet for kun at måle iltoptagelse direkte, beregner testen et såkaldt **Fitness Index** (fysisk ydeevne-indeks) baseret på, hvor hurtigt din puls falder efter 5 minutters intensivt steppearbejde.
+Harvard Step Test måler din krops evne til at restituere efter hårdt arbejde. I stedet for at estimere konditallet, beregner testen et såkaldt **Fitness Index** (fysisk ydeevne-indeks) baseret på, hvor hurtigt din puls falder efter 5 minutters intensivt steppearbejde.
 
 * **Bokshøjde:** 50,8 cm for mænd / 40,6 cm for kvinder.
 * **Tempo:** 30 step pr. minut (120 taktslag/minut eller BPM).
@@ -76,7 +76,7 @@ Harvard Step Test måler din krops evne til at restituere efter hårdt arbejde. 
 1. **Forberedelse**  
    Find en bænk eller kasse på **50,8 cm for mænd** eller **40,6 cm for kvinder**. 
 2. **Gennemfør testen**  
-   Start timeren nedenfor og træd op og ned i takt med metronomen i op til **5 minutter** (120 BPM / 30 step pr. minut). Hvis du ikke kan holde tempoet i 5 minutter, stopper du testen og noterer den nøjagtige tid, du holdt ud.
+   Start timeren nedenfor og træd op og ned i takt med metronomen i op til **5 minutter** (120 BPM / 30 step pr. minut). Hvis du ikke kan holde tempoet i 5 minutter, stopper du testen og noterer den nøjagtige tid.
 3. **Hvile og pulsmåling**  
    Så snart testen er slut, sætter du dig ned og tæller din puls i tre specifikke tidsintervaller efter testen:
    * **$P_1$:** 1,0 til 1,5 minut efter testen (tæl pulsslag i 30 sekunder).
@@ -87,7 +87,7 @@ Harvard Step Test måler din krops evne til at restituere efter hårdt arbejde. 
 
 **⏱️ Vigtigt om pulsmålingen ($P_1, P_2, P_3$)**
  
-Harvard-testen måler ikke din samlede gennemsnitspuls, men hvor hurtigt dit hjerte falder i tre specifikke pauser. Indtast det **faktiske antal pulsslag i de 30 sekunder** i beregneren.
+I Harvard-testen skal du måle, hvor hurtigt din puls falder i tre specifikke tidsrum efter testen. Indtast det **faktiske antal pulsslag i de 30 sekunder** i beregneren.
  
 * **🖐️ Manuel måling (Hals/Håndled):**  
   Sæt dig ned straks testen stopper. Tæl antal pulsslag i de tre 30-sekunders vinduer. Hold pause i de 30 sekunder mellem hver tælling.
@@ -96,7 +96,7 @@ Harvard-testen måler ikke din samlede gennemsnitspuls, men hvor hurtigt dit hje
   * **$P_3$:** Tæl slag fra 3:00 til 3:30 min.
 
 * **⌚ Hvis du bruger pulsur / brystbælte:**  
-  Et pulsur viser typisk pulsen i slag pr. minut (BPM). Finder du din gennemsnitspuls i de tre 30-sekunders vinduer på dit ur, skal du **dividere tallet med 2** for at få antallet af slag på 30 sekunder (f.eks. 120 BPM på uret = 60 slag i feltet).
+  Et pulsur viser typisk pulsen i slag pr. minut (BPM). Finder du din gennemsnitspuls i de tre 30-sekunders vinduer på dit ur, skal du **dividere tallet med 2** for at få antallet af slag på 30 sekunder (fx 120 BPM på uret = 60 slag i feltet).
 </div>
 
 ## Tag testen med interaktiv guide
@@ -141,11 +141,25 @@ Når du har beregnet din score, kan du sammenligne dit resultat med den klassisk
 | **80 – 89** | Meget god |
 | **90 eller over** | Fremragende / Elite |
 
+Som du ser, så kan resultatet fra Harvard testen ikke direkte [sammenlignes med konditallet](/kondital/) for de andre tests, da fitness indekset ligger noget højere.
+
 ## Styrker og begræsninger for testen
 
-Harvard Step Test er en fantastisk historisk test, der giver en reel udfordring for udholdenheden. Fordi bænken er høj (50,8 cm), kræver den dog en del benstyrke og god balance. 
+Harvard Step Test er er en udfordring for udholdenheden med den høje boks. Fordi bænken er høj (50,8 cm), kræver den dog en del benstyrke og god balance. 
 
 For personer med knæproblemer, høj kropsvægt eller lav træningstilstand anbefales det i stedet at benytte [YMCA Modified steptest](/ymca-modified-steptest/), hvor bokshøjden tilpasses den enkelte.
+
+### Kan Harvard Step Test bruges til at beregne et kondital (VO₂max)?
+
+Et ofte stillet spørgsmål er, om Harvard Step Test kan omregnes direkte til et kondital i ml O₂/kg/min. Det korte svar er, at testen oprindeligt ikke blev designet til dette formål. Testen blev udviklet af Lucien Brouha og hans kolleger i 1943 med det formål at måle kardiovaskulær restitutionsevne udtrykt ved et **Fitness Index (FI)** (*Brouha, L., 1943*). 
+
+Da beregningen af Fitness Index udelukkende indeholder gennemført tid og restitusjonspuls, inddrages kropsvægt ikke i ligningen. En person på 60 kg og en på 100 kg, der gennemfører testen med samme pulsprofil, vil opnå nøjagtig samme Fitness Index – selvom den tunge person har udført et betydeligt større mekanisk arbejde på den 50,8 cm høje bænk.
+
+I litteraturen og fysiologiske beregningsmodeller benyttes der dog ofte en empirisk regressionsformel til at tilnærme et kondital:
+
+$$\text{VO}_2\text{max} \approx 6,04 + (0,51 \times \text{FI})$$
+
+Selvom denne formel giver en grov indikation af din maksimale iltoptagelse, viser valideringsstudier en lav korrelation ($r \approx 0,60–0,70$) sammenlignet med direkte laboratoriemålinger. Resultatet bør derfor altid tolkes som et **teoretisk skøn med høj usikkerhed**. Ønsker du en mere præcis og direkte beregning af dit kondital ud fra en steptest, anbefales validerede protokoller som *Queens College Step Test* eller *Åstrand-Ryhming*.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
