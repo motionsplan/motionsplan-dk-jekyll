@@ -36,7 +36,7 @@ tests:
     setting: ["Individuel", "Gruppetest", "Udendørs", "Skolebrug", "Militær", "Felttest"]
     target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-cooper-test-beregner", "tool-cooper-test-timer"]
-    ls_key: "mp_cooper_state"
+    ls_key: "mp_log_cooper_12min"
     icon: "🏃"
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER

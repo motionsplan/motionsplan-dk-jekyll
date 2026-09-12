@@ -1,9 +1,21 @@
 // assets/js/ui/steptest-ui.js
 import { calculateStepTest, STEPTEST_FORMULAS } from '../core/steptest.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
 
 const ANTHRO_STORAGE_KEY = 'mp_user_anthropometrics';
-const RESULTS_STORAGE_KEY = 'mp_steptest_results';
+
+const FORMULA_STORAGE_MAP = {
+  'ymca_kieu': 'ymca_step',
+  'ymca_golding': 'ymca_step',
+  'ymca': 'ymca_step',
+  'ymca_modified': 'ymca_modified_step',
+  'dansk': 'dansk_steptest',
+  'queens': 'queens_step',
+  'chester': 'chester_step',
+  'astrand': 'astrand_step',
+  'harvard': 'harvard_step'
+};
 
 export function initCalculator(container) {
   if (!container) return;
@@ -160,25 +172,35 @@ export function initCalculator(container) {
       };
 
       if (res && res.isValid) {
-        let dashboardKey = activeFormulaKey;
-        if (activeFormulaKey === 'ymca_kieu' || activeFormulaKey === 'ymca_golding') {
-          dashboardKey = 'ymca';
+        const storageKey = FORMULA_STORAGE_MAP[activeFormulaKey] || activeFormulaKey;
+
+        const age = parseInt(container.querySelector('[name="st_age"]')?.value || 0, 10);
+        const genderEl = container.querySelector('input[name="st_gender"]:checked');
+        const gender = genderEl ? genderEl.value : 'male';
+        const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
+        const userAge = age > 0 ? age : 40;
+
+        const evaluation = evaluateFitnessLevel(parseFloat(res.fitnessLevel), userAge, normGender);
+
+        const subMetrics = {};
+        if (activeFormulaKey === 'harvard' && res.fitnessIndex) {
+          subMetrics.fitnessIndex = parseFloat(res.fitnessIndex);
         }
 
-        const unit = (activeFormulaKey === 'harvard') ? 'Fitness Index' : 'ml/kg/min';
-
-        testState.lastResult = {
-          score: res.fitnessLevel,
-          unit: unit
-        };
-
-        const allResults = JSON.parse(localStorage.getItem(RESULTS_STORAGE_KEY) || '{}');
-        allResults[dashboardKey] = {
-          score: res.fitnessLevel,
-          unit: unit,
-          timestamp: new Date().toISOString()
-        };
-        localStorage.setItem(RESULTS_STORAGE_KEY, JSON.stringify(allResults));
+        StorageAdapter.commitToLog(storageKey, {
+          type: 'calculator',
+          primary: {
+            value: parseFloat(res.fitnessLevel),
+            unit: 'ml/kg/min',
+            label: 'Kondital'
+          },
+          norm: evaluation ? {
+            label: evaluation.label,
+            color: evaluation.color,
+            bg: `${evaluation.color}20`
+          } : null,
+          subMetrics: subMetrics
+        });
       }
 
       localStorage.setItem(TEST_STATE_KEY, JSON.stringify(testState));
@@ -265,7 +287,6 @@ export function initCalculator(container) {
     if (harvardP2Wrapper) harvardP2Wrapper.style.display = activeDef.requiresHarvardP ? 'block' : 'none';
     if (harvardP3Wrapper) harvardP3Wrapper.style.display = activeDef.requiresHarvardP ? 'block' : 'none';
 
-    // Vises hvis testen kræver maxpuls (Chester eller Åstrand)
     if (activeDef.requiresMaxHr) {
       if (maxHrWrapper) maxHrWrapper.style.display = 'block';
 
@@ -529,15 +550,8 @@ export function initCalculator(container) {
       });
       try {
         localStorage.removeItem(TEST_STATE_KEY);
-
-        let dashboardKey = activeFormulaKey;
-        if (activeFormulaKey === 'ymca_kieu' || activeFormulaKey === 'ymca_golding') {
-          dashboardKey = 'ymca';
-        }
-
-        const allResults = JSON.parse(localStorage.getItem(RESULTS_STORAGE_KEY) || '{}');
-        delete allResults[dashboardKey];
-        localStorage.setItem(RESULTS_STORAGE_KEY, JSON.stringify(allResults));
+        const storageKey = FORMULA_STORAGE_MAP[activeFormulaKey] || activeFormulaKey;
+        StorageAdapter.clearLog(storageKey);
       } catch (e) {}
 
       calculate();

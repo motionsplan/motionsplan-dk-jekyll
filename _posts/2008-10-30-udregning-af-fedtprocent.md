@@ -42,7 +42,7 @@ tests:
     setting: ["Individuel"]
     target_group: ["Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-fedtprocent-beregner-bmi"]
-    ls_key: "mp_fatpct_state"
+    ls_key: "mp_log_fatpct_bmi"
     icon: "⚡"
 tools:
   - id: "tool-fedtprocent-beregner-bmi"

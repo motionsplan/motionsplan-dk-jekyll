@@ -1,8 +1,13 @@
 // assets/js/ui/fitness-jogging-ui.js
 import { calculateFitnessJogging, getRecommendedJoggingFormula } from '../core/fitness-jogging.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
+
+const TEST_ID = 'jogging_test';
 
 export function initCalculator(container) {
+  if (!container) return;
+
   const inputs = container.querySelectorAll('.js-jog-input');
   const formulaSelect = container.querySelector('.js-jog-formula');
   
@@ -28,41 +33,61 @@ export function initCalculator(container) {
   const popupClose = container.querySelector('.js-jog-popup-close');
   const tableBody = container.querySelector('.js-jog-table-body');
 
+  const saveBtn = container.querySelector('.js-jog-save-btn') || container.querySelector('.js-save-btn');
+
   let isManuallySelected = false;
 
-  // --- STATE MANAGEMENT ---
-  function saveState() {
-    const state = {
+  // --- 1. GEM KLADDE & PROFIL VIA STORAGEADAPTER ---
+  function saveDraftAndProfile() {
+    const age = parseInt(container.querySelector('[name="age"]')?.value || '0', 10);
+    const weight = parseFloat(container.querySelector('[name="weight"]')?.value || '');
+    const genderEl = container.querySelector('input[name="gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'man';
+
+    if (age > 0 || weight > 0) {
+      StorageAdapter.saveProfile({
+        ...(age > 0 && { age }),
+        ...(weight > 0 && { weight }),
+        gender: (gender === 'man' || gender === 'male') ? 'male' : 'female'
+      });
+    }
+
+    StorageAdapter.saveDraft(TEST_ID, {
       formula: formulaSelect ? formulaSelect.value : 'auto',
-      isManuallySelected: isManuallySelected,
-      age: container.querySelector('[name="age"]').value,
-      weight: container.querySelector('[name="weight"]').value,
-      time_min: container.querySelector('[name="time_min"]').value,
-      time_sec: container.querySelector('[name="time_sec"]').value,
-      hr: container.querySelector('[name="hr"]').value,
-      gender: container.querySelector('input[name="gender"]:checked')?.value || 'man'
-    };
-    localStorage.setItem('mp_jogging_state', JSON.stringify(state));
+      isManuallySelected,
+      age: container.querySelector('[name="age"]')?.value || '',
+      weight: container.querySelector('[name="weight"]')?.value || '',
+      time_min: container.querySelector('[name="time_min"]')?.value || '',
+      time_sec: container.querySelector('[name="time_sec"]')?.value || '',
+      hr: container.querySelector('[name="hr"]')?.value || '',
+      gender
+    });
   }
 
-  function loadState() {
-    const saved = localStorage.getItem('mp_jogging_state');
-    if (saved) {
-      try {
-        const state = JSON.parse(saved);
-        if (state.formula && formulaSelect) formulaSelect.value = state.formula;
-        if (state.isManuallySelected !== undefined) isManuallySelected = state.isManuallySelected;
-        if (state.age) container.querySelector('[name="age"]').value = state.age;
-        if (state.weight) container.querySelector('[name="weight"]').value = state.weight;
-        if (state.time_min) container.querySelector('[name="time_min"]').value = state.time_min;
-        if (state.time_sec) container.querySelector('[name="time_sec"]').value = state.time_sec;
-        if (state.hr) container.querySelector('[name="hr"]').value = state.hr;
-        if (state.gender) {
-          const radio = container.querySelector(`input[name="gender"][value="${state.gender}"]`);
-          if (radio) radio.checked = true;
-        }
-      } catch (e) {
-        console.error("Kunne ikke indlæse gemt data.");
+  // --- 2. INDLÆS KLADDE ELLER PROFIL ---
+  function loadInitialData() {
+    const profile = StorageAdapter.getProfile();
+    const draft = StorageAdapter.loadDraft(TEST_ID);
+
+    if (draft) {
+      if (draft.formula && formulaSelect) formulaSelect.value = draft.formula;
+      if (draft.isManuallySelected !== undefined) isManuallySelected = draft.isManuallySelected;
+      if (draft.age && container.querySelector('[name="age"]')) container.querySelector('[name="age"]').value = draft.age;
+      if (draft.weight && container.querySelector('[name="weight"]')) container.querySelector('[name="weight"]').value = draft.weight;
+      if (draft.time_min && container.querySelector('[name="time_min"]')) container.querySelector('[name="time_min"]').value = draft.time_min;
+      if (draft.time_sec && container.querySelector('[name="time_sec"]')) container.querySelector('[name="time_sec"]').value = draft.time_sec;
+      if (draft.hr && container.querySelector('[name="hr"]')) container.querySelector('[name="hr"]').value = draft.hr;
+      if (draft.gender) {
+        const radio = container.querySelector(`input[name="gender"][value="${draft.gender}"]`);
+        if (radio) radio.checked = true;
+      }
+    } else {
+      if (profile.age && container.querySelector('[name="age"]')) container.querySelector('[name="age"]').value = profile.age;
+      if (profile.weight && container.querySelector('[name="weight"]')) container.querySelector('[name="weight"]').value = profile.weight;
+      if (profile.gender) {
+        const val = (profile.gender === 'male' || profile.gender === 'mand') ? 'man' : 'woman';
+        const radio = container.querySelector(`input[name="gender"][value="${val}"]`);
+        if (radio) radio.checked = true;
       }
     }
   }
@@ -84,21 +109,31 @@ export function initCalculator(container) {
   if (formulaSelect) {
     formulaSelect.addEventListener('change', () => {
       isManuallySelected = (formulaSelect.value !== 'auto');
-      saveState();
+      saveDraftAndProfile();
       calculate();
     });
   }
 
   inputs.forEach(input => {
     if (input !== formulaSelect) {
-      input.addEventListener('input', () => { saveState(); calculate(); });
-      input.addEventListener('change', () => { saveState(); calculate(); });
+      ['input', 'change', 'keyup'].forEach(ev => {
+        input.addEventListener(ev, () => {
+          saveDraftAndProfile();
+          calculate();
+        });
+      });
     }
   });
 
+  if (saveBtn) {
+    saveBtn.addEventListener('click', () => {
+      calculate();
+    });
+  }
+
   if (tableBtn && popup && popupClose) {
     tableBtn.addEventListener('click', () => {
-      const age = parseFloat(container.querySelector('[name="age"]').value);
+      const age = parseFloat(container.querySelector('[name="age"]')?.value || 0);
       if (age > 0) {
         popup.style.display = 'flex';
       } else {
@@ -109,16 +144,17 @@ export function initCalculator(container) {
   }
 
   function calculate() {
+    saveDraftAndProfile();
+
     const gender = container.querySelector('input[name="gender"]:checked')?.value || 'man';
-    const age = parseInt(container.querySelector('[name="age"]').value, 10);
-    const weight = parseFloat(container.querySelector('[name="weight"]').value);
-    const hr = parseInt(container.querySelector('[name="hr"]').value, 10);
-    const min = parseInt(container.querySelector('[name="time_min"]').value || '0', 10);
-    const sec = parseInt(container.querySelector('[name="time_sec"]').value || '0', 10);
+    const age = parseInt(container.querySelector('[name="age"]')?.value || '0', 10);
+    const weight = parseFloat(container.querySelector('[name="weight"]')?.value || '0');
+    const hr = parseInt(container.querySelector('[name="hr"]')?.value || '0', 10);
+    const min = parseInt(container.querySelector('[name="time_min"]')?.value || '0', 10);
+    const sec = parseInt(container.querySelector('[name="time_sec"]')?.value || '0', 10);
 
     const timeMinutes = min + (sec / 60);
 
-    // Opdater pokalen i dropdown ud fra alder
     updateDropdownTrophy(age);
 
     let chosenFormula = formulaSelect ? formulaSelect.value : 'auto';
@@ -133,7 +169,6 @@ export function initCalculator(container) {
       if (resSdText) resSdText.textContent = `± ${res.sd} ${res.sdUnit}`;
       resVo2Max.textContent = res.formattedVO2Max;
 
-      // Opdater Infoboks om den valgte formel
       if (infoTitle) infoTitle.textContent = res.formulaName;
       if (infoDesc) {
         const badgeText = res.isRecommended ? ' (Anbefalet)' : ' (Manuelt valgt)';
@@ -141,7 +176,6 @@ export function initCalculator(container) {
       }
       if (infoIcon) infoIcon.textContent = res.isRecommended ? '🏆' : '⚙️';
 
-      // Norm Vurdering & Slider
       const normGender = (gender === 'man' || gender === 'male') ? 'male' : 'female';
       const evaluation = evaluateFitnessLevel(res.fitnessLevel, age, normGender);
       
@@ -151,7 +185,6 @@ export function initCalculator(container) {
         resEvalBadge.style.color = '#ffffff';
       }
 
-      // Slider Position
       const thresholds = getFitnessThresholds(age, normGender);
       if (thresholds) {
         const v = res.fitnessLevel;
@@ -178,7 +211,6 @@ export function initCalculator(container) {
           marker.style.display = 'block';
         }
 
-        // Popup tabel opbygning
         if (tableBody) {
           const tableData = [
             { name: 'Meget lavt', range: `< ${t[0]}`, color: '#ef4444' },
@@ -214,6 +246,33 @@ export function initCalculator(container) {
           });
         }
       }
+
+      // AUTOMATISK GEM I LOGGEN VIA STORAGEADAPTER
+      StorageAdapter.commitToLog(TEST_ID, {
+        type: 'physical',
+        primary: {
+          value: parseFloat(res.formattedFitnessLevel),
+          unit: 'ml/kg/min',
+          label: 'Kondital'
+        },
+        norm: evaluation ? {
+          label: evaluation.label,
+          color: evaluation.color,
+          bg: evaluation.color + '18'
+        } : undefined,
+        subMetrics: {
+          vo2maxLmin: parseFloat(res.formattedVO2Max),
+          timeMinutes: parseFloat(timeMinutes.toFixed(2)),
+          heartRate: hr
+        },
+        context: {
+          age,
+          gender: normGender,
+          weight,
+          formula: chosenFormula
+        }
+      });
+
     } else {
       resetResults();
     }
@@ -234,12 +293,14 @@ export function initCalculator(container) {
     if (marker) marker.style.display = 'none';
   }
 
-  // Reset & Download knapper
   const resetBtn = container.querySelector('.js-reset-btn');
   const downloadBtn = container.querySelector('.js-download-btn');
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
+      StorageAdapter.clearDraft(TEST_ID);
+      StorageAdapter.clearLog(TEST_ID);
+
       isManuallySelected = false;
       inputs.forEach(input => {
         if (input.type === 'radio' && input.value === 'man') input.checked = true;
@@ -247,7 +308,6 @@ export function initCalculator(container) {
         else if (input.type !== 'radio') input.value = '';
       });
       if (popup) popup.style.display = 'none';
-      saveState();
       calculate();
     });
   }
@@ -268,6 +328,6 @@ export function initCalculator(container) {
     });
   }
 
-  loadState();
+  loadInitialData();
   calculate();
 }

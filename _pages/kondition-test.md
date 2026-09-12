@@ -100,9 +100,7 @@ Nogle konditionstests er særligt populære, enten fordi de er lette at lave, kr
 
 </div>
 
-{% comment %}
 {% include components/dashboard-konditionstests.html %}
-{% endcomment %}
 
 ## Hvad er en konditionstest, og hvorfor tage en?
 

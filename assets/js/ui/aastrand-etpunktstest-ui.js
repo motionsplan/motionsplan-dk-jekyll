@@ -1,11 +1,14 @@
 // assets/js/ui/aastrand-etpunktstest-ui.js
 import { AASTRAND_ETPUNKTSTEST_FORMULAS } from '../core/aastrand-etpunktstest.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
+
+// Matcher storageKey i KONDITION_LIBRARY
+const TEST_ID = 'astrand_bike';
 
 export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunktstest-all') {
   if (!container) return;
 
-  const STORAGE_KEY = `mp_aastrand_etpunktstest_state_${calcId}`;
   const formulaEngine = AASTRAND_ETPUNKTSTEST_FORMULAS['aastrand-etpunktstest-all'];
 
   // DOM Køn-knapper
@@ -34,36 +37,48 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
   const tableBody = container.querySelector('.js-astrand-table-body');
 
   // Action Buttons
+  const saveBtn = container.querySelector('.js-astrand-save-btn') || container.querySelector('.js-save-btn');
   const resetBtn = container.querySelector('.js-reset-btn');
   const downloadBtn = container.querySelector('.js-download-btn');
 
   let currentGender = 'male';
 
-  function saveState() {
-    try {
-      const state = {
-        gender: currentGender,
-        age: ageInput ? ageInput.value : '',
-        weight: weightInput ? weightInput.value : '',
-        watt: wattInput ? wattInput.value : '',
-        hr: hrInput ? hrInput.value : ''
-      };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    } catch (e) {}
+  function saveDraftAndProfile() {
+    const ageVal = ageInput ? parseFloat(ageInput.value) || 0 : 0;
+    const weightVal = weightInput ? parseFloat(weightInput.value) || 0 : 0;
+
+    if (ageVal > 0 || weightVal > 0) {
+      StorageAdapter.saveProfile({
+        ...(ageVal > 0 && { age: ageVal }),
+        ...(weightVal > 0 && { weight: weightVal }),
+        gender: currentGender
+      });
+    }
+
+    StorageAdapter.saveDraft(TEST_ID, {
+      gender: currentGender,
+      age: ageInput ? ageInput.value : '',
+      weight: weightInput ? weightInput.value : '',
+      watt: wattInput ? wattInput.value : '',
+      hr: hrInput ? hrInput.value : ''
+    });
   }
 
-  function loadState() {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        const state = JSON.parse(saved);
-        if (state.gender) currentGender = state.gender;
-        if (ageInput && state.age !== undefined) ageInput.value = state.age;
-        if (weightInput && state.weight !== undefined) weightInput.value = state.weight;
-        if (wattInput && state.watt !== undefined) wattInput.value = state.watt;
-        if (hrInput && state.hr !== undefined) hrInput.value = state.hr;
-      }
-    } catch (e) {}
+  function loadInitialData() {
+    const profile = StorageAdapter.getProfile();
+    const draft = StorageAdapter.loadDraft(TEST_ID);
+
+    if (draft) {
+      if (draft.gender) currentGender = draft.gender;
+      if (ageInput && draft.age !== undefined && draft.age !== '') ageInput.value = draft.age;
+      if (weightInput && draft.weight !== undefined && draft.weight !== '') weightInput.value = draft.weight;
+      if (wattInput && draft.watt !== undefined && draft.watt !== '') wattInput.value = draft.watt;
+      if (hrInput && draft.hr !== undefined && draft.hr !== '') hrInput.value = draft.hr;
+    } else {
+      if (profile.gender) currentGender = profile.gender;
+      if (profile.age && ageInput) ageInput.value = profile.age;
+      if (profile.weight && weightInput) weightInput.value = profile.weight;
+    }
   }
 
   function updateGenderUI(gender) {
@@ -88,7 +103,7 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
   }
 
   function calculate() {
-    saveState();
+    saveDraftAndProfile();
 
     const ageVal = ageInput ? parseFloat(ageInput.value) || 0 : 0;
     const weightVal = weightInput ? parseFloat(weightInput.value) || 0 : 0;
@@ -110,7 +125,6 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
       if (resVo2) resVo2.textContent = res.correctedVo2.toFixed(2);
       if (resAgeFactor) resAgeFactor.textContent = res.ageFactor.toFixed(2);
 
-      // Brug det delte modul til vurdering og normer
       const evaluation = evaluateFitnessLevel(res.fitnessLevel, ageVal, currentGender);
       if (evaluation && resBadge) {
         resBadge.textContent = evaluation.label;
@@ -122,14 +136,38 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
         resBadge.style.color = '#ffffff';
       }
 
-      // Opdater kontinuum-skalaen
       if (scalePin) {
         const pct = Math.min(100, Math.max(0, ((res.fitnessLevel - 15) / (65 - 15)) * 100));
         scalePin.style.left = `${pct}%`;
       }
 
-      // Byg den popup-tabel med aldersnormer
       buildPopupTable(res.fitnessLevel, ageVal, currentGender, evaluation);
+
+      // AUTOMATISK GEM I LOGGEN VIA STORAGEADAPTER
+      StorageAdapter.commitToLog(TEST_ID, {
+        type: 'physical',
+        primary: {
+          value: parseFloat(res.fitnessLevel.toFixed(1)),
+          unit: 'ml/kg/min',
+          label: 'Kondital'
+        },
+        norm: evaluation ? {
+          label: evaluation.label,
+          color: evaluation.color,
+          bg: evaluation.color + '18'
+        } : undefined,
+        subMetrics: {
+          correctedVo2: parseFloat(res.correctedVo2.toFixed(2)),
+          ageFactor: parseFloat(res.ageFactor.toFixed(2)),
+          watt: wattVal,
+          heartRate: hrVal
+        },
+        context: {
+          age: ageVal,
+          gender: currentGender,
+          weight: weightVal
+        }
+      });
 
     } else {
       if (resFitness) resFitness.textContent = '-';
@@ -212,10 +250,18 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
     ['input', 'change', 'keyup'].forEach(e => input.addEventListener(e, calculate));
   });
 
+  if (saveBtn) {
+    saveBtn.addEventListener('click', () => {
+      calculate();
+    });
+  }
+
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
+      StorageAdapter.clearDraft(TEST_ID);
+      StorageAdapter.clearLog(TEST_ID);
+
       container.querySelectorAll('input').forEach(i => i.value = '');
-      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
       if (popup) popup.style.display = 'none';
       updateGenderUI('male');
     });
@@ -238,7 +284,7 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
   }
 
   // Opstart
-  loadState();
+  loadInitialData();
   updateGenderUI(currentGender);
 }
 

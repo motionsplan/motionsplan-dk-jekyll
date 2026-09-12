@@ -1,6 +1,15 @@
 // assets/js/ui/yoyo-intermittent-ui.js
 import { calculateYoYoIntermittent, YOYO_INTERMITTENT_FORMULAS, getYoYoIntermittentRating } from '../core/yoyo-intermittent.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
+
+// Mapping fra beregnerens type+niveau kombinationer til dashboardets storageKeys
+const FORMULA_STORAGE_MAP = {
+  'yyir1': 'yoyo_ir1', // Yo-Yo Intermittent Recovery 1 (10s pause)
+  'yyir2': 'yoyo_ir2', // Yo-Yo Intermittent Recovery 2 (10s pause)
+  'yyie1': 'yoyo_ie1', // Yo-Yo Intermittent Endurance 1 (5s pause)
+  'yyie2': 'yoyo_ie2'  // Yo-Yo Intermittent Endurance 2 (5s pause)
+};
 
 export function initYoYoIntermittent(container) {
   if (!container) return;
@@ -9,6 +18,10 @@ export function initYoYoIntermittent(container) {
   const shuttlesInput = container.querySelector('[name="yyi_shuttles"]');
   const ageInput = container.querySelector('[name="yyi_age"]');
   const weightInput = container.querySelector('[name="yyi_weight"]');
+
+  // Gem-knap og status-indikatorer
+  const saveBtn = container.querySelector('.js-yyi-save-btn') || container.querySelector('.js-save-btn');
+  const saveStatus = container.querySelector('.js-yyi-save-status');
 
   // Dynamiske Labels
   const levelRangeLabel = container.querySelector('.js-yyi-level-range-label');
@@ -44,48 +57,127 @@ export function initYoYoIntermittent(container) {
     return `${type}${lvl}`;
   }
 
-  function saveState() {
-    try {
-      const typeEl = container.querySelector('input[name="yyi_type"]:checked');
-      const levelSelectEl = container.querySelector('input[name="yyi_level_select"]:checked');
-      const genderEl = container.querySelector('input[name="yyi_gender"]:checked');
-      
-      const state = {
-        type: typeEl ? typeEl.value : 'yyir',
-        levelSelect: levelSelectEl ? levelSelectEl.value : '1',
-        level: levelInput ? levelInput.value : '',
-        shuttles: shuttlesInput ? shuttlesInput.value : '',
-        age: ageInput ? ageInput.value : '',
-        weight: weightInput ? weightInput.value : '',
-        gender: genderEl ? genderEl.value : 'male'
-      };
-      localStorage.setItem('mp_yyi_state', JSON.stringify(state));
-    } catch (e) {}
+  function getActiveStorageKey() {
+    const formulaKey = getSelectedFormulaKey();
+    return FORMULA_STORAGE_MAP[formulaKey] || 'yoyo_ir1';
   }
 
-  function loadState() {
-    try {
-      const saved = localStorage.getItem('mp_yyi_state');
-      if (saved) {
-        const state = JSON.parse(saved);
-        if (state.type) {
-          const radio = container.querySelector(`input[name="yyi_type"][value="${state.type}"]`);
-          if (radio) radio.checked = true;
-        }
-        if (state.levelSelect) {
-          const radio = container.querySelector(`input[name="yyi_level_select"][value="${state.levelSelect}"]`);
-          if (radio) radio.checked = true;
-        }
-        if (state.level && levelInput) levelInput.value = state.level;
-        if (state.shuttles && shuttlesInput) shuttlesInput.value = state.shuttles;
-        if (state.age && ageInput) ageInput.value = state.age;
-        if (state.weight && weightInput) weightInput.value = state.weight;
-        if (state.gender) {
-          const radio = container.querySelector(`input[name="yyi_gender"][value="${state.gender}"]`);
-          if (radio) radio.checked = true;
-        }
+  // --- 1. INDLÆS KLADDE ELLER PROFIL FOR AKTIV TEST ---
+  function loadInitialData() {
+    const profile = StorageAdapter.getProfile();
+    const activeKey = getActiveStorageKey();
+    const draft = StorageAdapter.loadDraft(activeKey);
+
+    if (draft) {
+      if (draft.level && levelInput) levelInput.value = draft.level;
+      if (draft.shuttles && shuttlesInput) shuttlesInput.value = draft.shuttles;
+      if (draft.age && ageInput) ageInput.value = draft.age;
+      if (draft.weight && weightInput) weightInput.value = draft.weight;
+      if (draft.gender) {
+        const radio = container.querySelector(`input[name="yyi_gender"][value="${draft.gender}"]`);
+        if (radio) radio.checked = true;
       }
-    } catch (e) {}
+    } else {
+      if (levelInput) levelInput.value = '';
+      if (shuttlesInput) shuttlesInput.value = '';
+      if (ageInput && profile.age) ageInput.value = profile.age;
+      if (weightInput && profile.weight) weightInput.value = profile.weight;
+      if (profile.gender) {
+        const radio = container.querySelector(`input[name="yyi_gender"][value="${profile.gender}"]`);
+        if (radio) radio.checked = true;
+      }
+    }
+  }
+
+  // --- 2. GEM REAKTIV KLADDE & STAMDATA FOR AKTIV TEST ---
+  function saveDraftAndProfile() {
+    const typeEl = container.querySelector('input[name="yyi_type"]:checked');
+    const levelSelectEl = container.querySelector('input[name="yyi_level_select"]:checked');
+    const genderEl = container.querySelector('input[name="yyi_gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'male';
+    const age = parseInt(ageInput ? ageInput.value : '0', 10);
+    const weight = parseFloat(weightInput ? weightInput.value : '');
+    const activeKey = getActiveStorageKey();
+
+    if (age > 0 || weight > 0) {
+      StorageAdapter.saveProfile({
+        ...(age > 0 && { age }),
+        ...(weight > 0 && { weight }),
+        gender
+      });
+    }
+
+    StorageAdapter.saveDraft(activeKey, {
+      type: typeEl ? typeEl.value : 'yyir',
+      levelSelect: levelSelectEl ? levelSelectEl.value : '1',
+      level: levelInput ? levelInput.value : '',
+      shuttles: shuttlesInput ? shuttlesInput.value : '',
+      age: ageInput ? ageInput.value : '',
+      weight: weightInput ? weightInput.value : '',
+      gender
+    });
+  }
+
+  // --- 3. LÅS OG GEM LOGS (COMMIT) TIL KORREKT STORAGEKEY ---
+  function commitResult() {
+    const chosenKey = getSelectedFormulaKey();
+    const activeKey = getActiveStorageKey();
+    const level = levelInput ? levelInput.value : '';
+    const shuttles = shuttlesInput ? shuttlesInput.value : '';
+    const age = parseInt(ageInput ? ageInput.value : '0', 10);
+    const weight = parseFloat(weightInput ? weightInput.value : '');
+    const genderEl = container.querySelector('input[name="yyi_gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'male';
+
+    const res = calculateYoYoIntermittent(level, shuttles, weight, chosenKey);
+
+    if (!res || !res.isValid) {
+      alert('Indtast venligst et gyldigt niveau og shuttles for at gemme resultatet.');
+      return;
+    }
+
+    const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
+    const userAge = age > 0 ? age : 20;
+
+    let evaluation;
+    if (chosenKey === 'yyir1') {
+      evaluation = getYoYoIntermittentRating(res.totalDistance, normGender, userAge);
+    } else {
+      evaluation = evaluateFitnessLevel(res.fitnessLevel, userAge, normGender);
+    }
+
+    StorageAdapter.commitToLog(activeKey, {
+      type: 'physical',
+      primary: {
+        value: parseFloat(res.formattedFitnessLevel),
+        unit: 'ml/kg/min',
+        label: 'Kondital'
+      },
+      norm: evaluation ? {
+        label: evaluation.label,
+        color: evaluation.color,
+        bg: evaluation.color + '18'
+      } : undefined,
+      subMetrics: {
+        testType: chosenKey,
+        level: parseInt(res.level, 10),
+        shuttles: parseInt(res.shuttles, 10),
+        totalDistanceMeters: res.totalDistance,
+        totalShuttles: res.totalShuttles
+      },
+      context: {
+        age,
+        gender,
+        weight,
+        formulaKey: chosenKey
+      }
+    });
+
+    if (saveStatus) {
+      saveStatus.textContent = '✅ Resultat gemt!';
+      saveStatus.style.display = 'block';
+      setTimeout(() => { saveStatus.style.display = 'none'; }, 3000);
+    }
   }
 
   function updateLimitsAndLabels() {
@@ -122,6 +214,7 @@ export function initYoYoIntermittent(container) {
     }
   }
 
+  // --- 4. BEREGNING & VISNING ---
   function calculate() {
     updateLimitsAndLabels();
 
@@ -138,7 +231,6 @@ export function initYoYoIntermittent(container) {
     const res = calculateYoYoIntermittent(level, shuttles, weight, chosenKey);
 
     if (res && res.isValid) {
-      // 1. Level shuttles fremdrift
       if (levelText) levelText.textContent = res.level;
       if (shuttleProgressText) {
         shuttleProgressText.textContent = `${res.shuttles} / ${res.maxShuttlesForLevel} shuttles (${res.shuttlesPercent}%)`;
@@ -146,14 +238,12 @@ export function initYoYoIntermittent(container) {
       }
       if (shuttleProgressBar) shuttleProgressBar.style.width = `${res.shuttlesPercent}%`;
 
-      // 2. Samlet distance fremdrift
       if (distProgressText) {
         distProgressText.textContent = `${res.totalDistance.toLocaleString('da-DK')} m / ${res.maxTestDistance.toLocaleString('da-DK')} m (${res.distancePercent}%)`;
         distProgressText.style.color = '#059669';
       }
       if (distProgressBar) distProgressBar.style.width = `${res.distancePercent}%`;
 
-      // 3. Totale 40m shuttles fremdrift
       if (totalShuttlesProgressText) {
         totalShuttlesProgressText.textContent = `${res.totalShuttles} / ${res.maxTotalShuttles} shuttles (${res.totalShuttlesPercent}%)`;
         totalShuttlesProgressText.style.color = '#7c3aed';
@@ -164,7 +254,6 @@ export function initYoYoIntermittent(container) {
       if (resSdText) resSdText.textContent = `± ${res.sd} ${res.sdUnit}`;
       if (resVo2Max) resVo2Max.textContent = res.formattedVO2Max;
 
-      // Evaluation / Rating i øverste resultatboks
       const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
       const userAge = age > 0 ? age : 20;
       
@@ -187,7 +276,6 @@ export function initYoYoIntermittent(container) {
         }
       }
 
-      // Continuum Marker
       const thresholds = getFitnessThresholds(userAge, normGender);
       if (thresholds && age > 0 && marker) {
         const v = res.fitnessLevel;
@@ -213,7 +301,6 @@ export function initYoYoIntermittent(container) {
         marker.style.display = 'block';
       }
 
-      // Popup tabel
       if (thresholds && tableBody && age > 0) {
         const tableData = [
           { name: 'Meget højt / Elite', range: `> ${thresholds[3]}` },
@@ -282,15 +369,25 @@ export function initYoYoIntermittent(container) {
     if (marker) marker.style.display = 'none';
   }
 
+  // --- EVENT LISTENERS ---
   const allInputs = container.querySelectorAll('input');
   allInputs.forEach(input => {
     ['input', 'change', 'click', 'keyup'].forEach(eventType => {
-      input.addEventListener(eventType, () => {
-        saveState();
+      input.addEventListener(eventType, (e) => {
+        // Skifter brugeren test-type eller level (IR1, IR2 osv.), genindlæses den tilhørende kladde
+        if (e.target.name === 'yyi_type' || e.target.name === 'yyi_level_select') {
+          loadInitialData();
+        } else {
+          saveDraftAndProfile();
+        }
         calculate();
       });
     });
   });
+
+  if (saveBtn) {
+    saveBtn.addEventListener('click', commitResult);
+  }
 
   if (tableBtn && popup && popupClose) {
     tableBtn.addEventListener('click', () => {
@@ -309,6 +406,7 @@ export function initYoYoIntermittent(container) {
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
+      const activeKey = getActiveStorageKey();
       allInputs.forEach(input => {
         if (input.name === 'yyi_gender' && input.value === 'male') input.checked = true;
         else if (input.name === 'yyi_type' && input.value === 'yyir') input.checked = true;
@@ -316,7 +414,7 @@ export function initYoYoIntermittent(container) {
         else if (input.type !== 'radio') input.value = '';
       });
       if (popup) popup.style.display = 'none';
-      try { localStorage.removeItem('mp_yyi_state'); } catch(e){}
+      StorageAdapter.clearDraft(activeKey);
       calculate();
     });
   }
@@ -337,7 +435,8 @@ export function initYoYoIntermittent(container) {
     });
   }
 
-  loadState();
+  // Opstart
+  loadInitialData();
   calculate();
 }
 

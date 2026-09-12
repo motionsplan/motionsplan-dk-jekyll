@@ -79,7 +79,7 @@
   .borg-timer-big-val { font-size: 3.4rem; font-weight: 900; color: #0f172a; line-height: 1; margin: 2px 0; font-variant-numeric: tabular-nums; }
   .borg-timer-subtext { font-size: 0.82rem; font-weight: 700; color: #64748b; margin-top: 4px; }
   .borg-progress-bg { position: absolute; bottom: 0; left: 0; width: 100%; height: 6px; background: #cbd5e1; }
-  .borg-progress-fill { height: 100%; background: #2563eb; width: 0%; transition: width 1s linear; }
+  .borg-progress-fill { height: 100%; background: #2563eb; width: 0%; transition: width 0.25s linear; }
 
   /* TOGGLE KNAPPER FOR MÅLEMETODE */
   .borg-tab-btn {
@@ -440,10 +440,15 @@
 </div>
 </div>
 
-<!-- VANILLA JS -->
-<script>
+<!-- VANILLA JS MODULE -->
+<script type="module">
+import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
+
 document.addEventListener("DOMContentLoaded", function() {
+    const TEST_ID = 'borg15_cycle';
+
     let timerInterval = null;
+    let startTime = null;
     let totalSeconds = 0;
     let stageSeconds = 0;
     let currentStage = 0;
@@ -453,8 +458,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let wakeLock = null;
     let selectedGender = 'M';
     let inputMode = 'single';
+    let audioCtx = null;
 
-    let recordedPoints = []; // Opsamlede {watt, rpe} fra timer
+    let recordedPoints = [];
 
     const warmupDuration = 120;
     const stageDuration = 60;
@@ -479,6 +485,14 @@ document.addEventListener("DOMContentLoaded", function() {
         { num: 20, text: "Maksimalt anstrengende", stop: true }
     ];
 
+    const normColors = {
+        'Meget lavt': '#ef4444',
+        'Lavt': '#f97316',
+        'Middel': '#ca8a04',
+        'Højt': '#22c55e',
+        'Meget højt': '#2563eb'
+    };
+
     // Elementer
     const elCurrentName = document.getElementById('display-current-name');
     const elCurrentWatt = document.getElementById('display-current-watt');
@@ -495,6 +509,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const elOverlayTotalTime = document.getElementById('overlay-total-time');
     const elTalkFeedback = document.getElementById('talk-feedback-msg');
 
+    const btnSingle = document.getElementById('btn-mode-single');
+    const btnMulti = document.getElementById('btn-mode-multi');
+    const containerSingle = document.getElementById('mode-single-container');
+    const containerMulti = document.getElementById('mode-multi-container');
+
     // 1. GENERÉR BORG 6-20 GRID
     const scaleContainer = document.getElementById('borg-scale-vertical');
     borgScaleData.forEach(item => {
@@ -505,7 +524,6 @@ document.addEventListener("DOMContentLoaded", function() {
         scaleContainer.appendChild(row);
     });
 
-    // VÆLG BORG OG GEM I GEMTE PUNKTER / TABEL
     function selectBorgItem(num, isStop) {
         if (currentStage > 0) {
             let existingIdx = recordedPoints.findIndex(p => p.watt === currentWatt);
@@ -514,7 +532,7 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 recordedPoints.push({ watt: currentWatt, rpe: num });
             }
-            renderMultiRows(); // Synkroniser Eston & Faulkner tabellen live!
+            renderMultiRows();
         }
 
         elTalkFeedback.classList.add('borg-hidden');
@@ -525,39 +543,107 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // 2. KØN TOGGLE
+    // 2. STAMDATA & KLADDER SYNCRONISERING
+    function saveDraftAndProfile() {
+        let age = parseInt(document.getElementById('borg-age')?.value || '0', 10);
+        let weight = parseFloat(document.getElementById('borg-weight')?.value || '');
+        let height = parseFloat(document.getElementById('borg-height')?.value || '');
+        let gender = selectedGender === 'M' ? 'male' : 'female';
+
+        if (age > 0 || weight > 0) {
+            StorageAdapter.saveProfile({
+                ...(age > 0 && { age }),
+                ...(weight > 0 && { weight }),
+                gender
+            });
+        }
+
+        StorageAdapter.saveDraft(TEST_ID, {
+            age: document.getElementById('borg-age')?.value || '',
+            weight: document.getElementById('borg-weight')?.value || '',
+            height: document.getElementById('borg-height')?.value || '',
+            gender: selectedGender,
+            manualWatt: elManualWatt?.value || '',
+            inputMode
+        });
+    }
+
+    function loadInitialData() {
+        const profile = StorageAdapter.getProfile();
+        const draft = StorageAdapter.loadDraft(TEST_ID);
+
+        if (draft) {
+            if (draft.gender) {
+                selectedGender = draft.gender;
+                if (selectedGender === 'M') {
+                    document.getElementById('gender-m').classList.add('active');
+                    document.getElementById('gender-k').classList.remove('active');
+                } else {
+                    document.getElementById('gender-k').classList.add('active');
+                    document.getElementById('gender-m').classList.remove('active');
+                }
+            }
+            if (draft.age && document.getElementById('borg-age')) document.getElementById('borg-age').value = draft.age;
+            if (draft.weight && document.getElementById('borg-weight')) document.getElementById('borg-weight').value = draft.weight;
+            if (draft.height && document.getElementById('borg-height')) document.getElementById('borg-height').value = draft.height;
+            if (draft.manualWatt && elManualWatt) elManualWatt.value = draft.manualWatt;
+            if (draft.inputMode) {
+                inputMode = draft.inputMode;
+                if (inputMode === 'multi') {
+                    btnMulti.classList.add('active'); btnSingle.classList.remove('active');
+                    containerSingle.classList.add('borg-hidden'); containerMulti.classList.remove('borg-hidden');
+                } else {
+                    btnSingle.classList.add('active'); btnMulti.classList.remove('active');
+                    containerSingle.classList.remove('borg-hidden'); containerMulti.classList.add('borg-hidden');
+                }
+            }
+        } else {
+            if (profile.age && document.getElementById('borg-age')) document.getElementById('borg-age').value = profile.age;
+            if (profile.weight && document.getElementById('borg-weight')) document.getElementById('borg-weight').value = profile.weight;
+            if (profile.gender) {
+                selectedGender = (profile.gender === 'male' || profile.gender === 'mand') ? 'M' : 'K';
+                if (selectedGender === 'M') {
+                    document.getElementById('gender-m').classList.add('active');
+                    document.getElementById('gender-k').classList.remove('active');
+                } else {
+                    document.getElementById('gender-k').classList.add('active');
+                    document.getElementById('gender-m').classList.remove('active');
+                }
+            }
+        }
+    }
+
+    // 3. KØN TOGGLE
     document.getElementById('gender-m').onclick = function() {
         selectedGender = 'M'; this.classList.add('active');
         document.getElementById('gender-k').classList.remove('active');
-        calculateAuto();
+        saveDraftAndProfile();
+        calculateAuto(false);
     };
     document.getElementById('gender-k').onclick = function() {
         selectedGender = 'K'; this.classList.add('active');
         document.getElementById('gender-m').classList.remove('active');
-        calculateAuto();
+        saveDraftAndProfile();
+        calculateAuto(false);
     };
 
-    // 3. INDTASTNINGS MODE TOGGLE (Slutmåling vs Flere målinger)
-    const btnSingle = document.getElementById('btn-mode-single');
-    const btnMulti = document.getElementById('btn-mode-multi');
-    const containerSingle = document.getElementById('mode-single-container');
-    const containerMulti = document.getElementById('mode-multi-container');
-
+    // 4. INDTASTNINGS MODE TOGGLE
     btnSingle.onclick = function() {
         inputMode = 'single';
         btnSingle.classList.add('active'); btnMulti.classList.remove('active');
         containerSingle.classList.remove('borg-hidden'); containerMulti.classList.add('borg-hidden');
-        calculateAuto();
+        saveDraftAndProfile();
+        calculateAuto(false);
     };
     btnMulti.onclick = function() {
         inputMode = 'multi';
         btnMulti.classList.add('active'); btnSingle.classList.remove('active');
         containerSingle.classList.add('borg-hidden'); containerMulti.classList.remove('borg-hidden');
         renderMultiRows();
-        calculateAuto();
+        saveDraftAndProfile();
+        calculateAuto(false);
     };
 
-    // BYG TABEL TIL FLERE MÅLINGER (Synkroniserer med recordedPoints hvis de findes)
     function renderMultiRows() {
         const rowsContainer = document.getElementById('multi-rpe-rows');
         
@@ -580,11 +666,12 @@ document.addEventListener("DOMContentLoaded", function() {
         rowsContainer.innerHTML = html;
 
         rowsContainer.querySelectorAll('input').forEach(inp => {
-            inp.addEventListener('input', calculateAuto);
+            inp.addEventListener('input', () => calculateAuto(false));
+            inp.addEventListener('change', () => calculateAuto(true));
         });
     }
 
-    // 4. WAKE LOCK & AUDIO BEEP
+    // 5. WAKE LOCK & AUDIO BEEP
     async function requestWakeLock() {
         try { if ('wakeLock' in navigator) wakeLock = await navigator.wakeLock.request('screen'); } catch (err) {}
     }
@@ -611,7 +698,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return m + ":" + s;
     }
 
-    // 5. TIMER MANAGEMENT
+    // 6. TIMER MANAGEMENT (MED DATE.NOW DRIFT-PRÆCISION)
     elBtnStart.onclick = function() {
         if (isRunning) {
             elOverlayStageTitle.textContent = "SLUTMÅLING (" + currentWatt + " W)";
@@ -625,9 +712,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function startTimer() {
         isRunning = true;
+        startTime = Date.now();
         totalSeconds = 0; stageSeconds = 0; currentStage = 0; currentWatt = 30;
         recordedPoints = [];
-        renderMultiRows(); // Nulstil Eston & Faulkner tabellen ved ny test
+        renderMultiRows();
         
         elBtnStart.textContent = "🛑 Stop Test";
         elBtnStart.className = "borg-btn borg-btn-red";
@@ -635,17 +723,26 @@ document.addEventListener("DOMContentLoaded", function() {
         updateUI();
 
         timerInterval = setInterval(() => {
-            totalSeconds++; stageSeconds++;
-            let targetDur = (currentStage === 0) ? warmupDuration : stageDuration;
-            
-            if (stageSeconds >= targetDur) {
-                currentStage++;
-                stageSeconds = 0;
+            totalSeconds = Math.floor((Date.now() - startTime) / 1000);
+
+            let lastStage = currentStage;
+            if (totalSeconds < warmupDuration) {
+                currentStage = 0;
+                stageSeconds = totalSeconds;
+                currentWatt = 30;
+            } else {
+                const testElapsed = totalSeconds - warmupDuration;
+                currentStage = Math.floor(testElapsed / stageDuration) + 1;
+                stageSeconds = testElapsed % stageDuration;
                 currentWatt = startWatt + ((currentStage - 1) * wattIncrement);
+            }
+
+            if (currentStage !== lastStage) {
                 playBeep(800, 0.4);
             }
+
             updateUI();
-        }, 1000);
+        }, 250);
     }
 
     function stopTestAuto() {
@@ -657,12 +754,12 @@ document.addEventListener("DOMContentLoaded", function() {
         elEvalOverlay.classList.add('borg-hidden');
         
         elManualWatt.value = currentWatt;
-        calculateAuto();
+        calculateAuto(true);
     }
 
     function updateUI() {
         let targetDur = (currentStage === 0) ? warmupDuration : stageDuration;
-        let timeLeft = targetDur - stageSeconds;
+        let timeLeft = Math.max(0, targetDur - stageSeconds);
 
         elStageCountdown.textContent = fmtTime(timeLeft);
         elTotalTime.textContent = fmtTime(totalSeconds);
@@ -679,10 +776,12 @@ document.addEventListener("DOMContentLoaded", function() {
         elOverlayStageCountdown.textContent = fmtTime(timeLeft);
         elOverlayStageTitle.textContent = currentStage === 0 ? "OPVARMNING" : "TRIN " + currentStage + " (" + currentWatt + " W)";
 
-        if (currentStage > 0 && timeLeft === 15) {
-            elTalkFeedback.classList.add('borg-hidden');
-            elEvalOverlay.classList.remove('borg-hidden');
-            playBeep(400, 0.2);
+        if (currentStage > 0 && timeLeft === 15 && stageSeconds >= stageDuration - 15) {
+            if (elEvalOverlay.classList.contains('borg-hidden')) {
+                elTalkFeedback.classList.add('borg-hidden');
+                elEvalOverlay.classList.remove('borg-hidden');
+                playBeep(400, 0.2);
+            }
         }
     }
 
@@ -697,7 +796,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 
-    // 6. LINEÆR REGRESSION (Eston & Faulkner)
+    // 7. LINEÆR REGRESSION (Eston & Faulkner)
     function calcEstonFaulkner(points, weight) {
         let n = points.length;
         let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
@@ -715,8 +814,10 @@ document.addEventListener("DOMContentLoaded", function() {
         return { kondital: kondital, vo2L: vo2L, wMax: Math.round(wMax) };
     }
 
-    // 7. BEREGNING AF KONDITAL
-    function calculateAuto() {
+    // 8. BEREGNING AF KONDITAL
+    function calculateAuto(shouldCommit = false) {
+        saveDraftAndProfile();
+
         let age = parseFloat(document.getElementById('borg-age').value) || 40;
         let weight = parseFloat(document.getElementById('borg-weight').value) || 75;
         let heightCm = parseFloat(document.getElementById('borg-height').value) || 178;
@@ -740,7 +841,6 @@ document.addEventListener("DOMContentLoaded", function() {
             activePoints = recordedPoints;
         }
 
-        // Hvis ingen watt eller punkter angivet
         if (watt <= 0 && activePoints.length === 0) {
             document.getElementById('res-kondital').textContent = "0.0";
             document.getElementById('res-see').textContent = "± 4.2 ml/kg/min";
@@ -792,14 +892,49 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('res-formula-title').textContent = formulaTitle;
         document.getElementById('res-formula-desc').textContent = formulaDesc;
 
-        saveResult(watt, kondital.toFixed(1), level);
+        if (shouldCommit && kondital > 0) {
+            const formattedKondital = parseFloat(kondital.toFixed(1));
+            const color = normColors[level] || '#2563eb';
+
+            StorageAdapter.commitToLog(TEST_ID, {
+                type: 'physical',
+                primary: {
+                    value: formattedKondital,
+                    unit: 'ml/kg/min',
+                    label: 'Kondital'
+                },
+                norm: {
+                    label: level,
+                    color: color,
+                    bg: color + '18'
+                },
+                subMetrics: {
+                    vo2maxLmin: parseFloat(vo2L.toFixed(2)),
+                    finalWatt: watt
+                },
+                context: {
+                    age,
+                    gender: selectedGender === 'M' ? 'male' : 'female',
+                    weight,
+                    height: heightCm,
+                    formulaTitle
+                }
+            });
+
+            saveResultToUI(watt, kondital.toFixed(1), level);
+        }
     }
 
     // Input listeners
-    elManualWatt.addEventListener('input', calculateAuto);
-    document.getElementById('borg-age').addEventListener('input', calculateAuto);
-    document.getElementById('borg-weight').addEventListener('input', calculateAuto);
-    document.getElementById('borg-height').addEventListener('input', calculateAuto);
+    elManualWatt.addEventListener('input', () => calculateAuto(false));
+    document.getElementById('borg-age').addEventListener('input', () => calculateAuto(false));
+    document.getElementById('borg-weight').addEventListener('input', () => calculateAuto(false));
+    document.getElementById('borg-height').addEventListener('input', () => calculateAuto(false));
+
+    elManualWatt.addEventListener('change', () => calculateAuto(true));
+    document.getElementById('borg-age').addEventListener('change', () => calculateAuto(true));
+    document.getElementById('borg-weight').addEventListener('change', () => calculateAuto(true));
+    document.getElementById('borg-height').addEventListener('change', () => calculateAuto(true));
 
     // KONDITALSTABEL
     const normData = {
@@ -856,8 +991,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById('btn-close-norm').onclick = () => elNormContainer.classList.add('borg-hidden');
 
-    // 8. LOCALSTORAGE LOGIK
-    function saveResult(watt, kondital, level) {
+    // 9. LOCALSTORAGE LOGIK FOR HISTORIK-TABEL I WIDGET
+    function saveResultToUI(watt, kondital, level) {
         if (!kondital || kondital === "0.0") return;
         let history = JSON.parse(localStorage.getItem('borg15_history') || '[]');
         let item = {
@@ -892,6 +1027,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     document.getElementById('btn-clear-history').onclick = function() {
+        StorageAdapter.clearLog(TEST_ID);
+        StorageAdapter.clearDraft(TEST_ID);
         localStorage.removeItem('borg15_history');
         renderHistory();
     };
@@ -904,7 +1041,9 @@ document.addEventListener("DOMContentLoaded", function() {
         this.style.background = isSoundOn ? "#fff" : "#e2e8f0";
     };
 
-    calculateAuto();
+    // Opstart
+    loadInitialData();
+    calculateAuto(false);
     renderHistory();
 });
 </script>

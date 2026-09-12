@@ -1,10 +1,17 @@
+// assets/js/ui/rockport-walking-test-ui.js
 import { calculateWalkingTest, ROCKPORT_FORMULAS, UKK_FORMULAS } from '../core/rockport-walking-test.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
+
+// Mapping fra UI-testtyper til dashboardets storageKeys
+const TEST_STORAGE_MAP = {
+  'rockport': 'rockport_walk',
+  'ukk': 'ukk_walk'
+};
 
 export function initCalculator(container) {
   if (!container) return;
 
-  const STORAGE_KEY = 'mp_walking_test_state_v7';
   let activeTestType = 'rockport';
   let activeFormulaKey = 'auto';
 
@@ -37,6 +44,12 @@ export function initCalculator(container) {
   const popup = container.querySelector('.js-rw-popup');
   const popupClose = container.querySelector('.js-rw-popup-close');
   const tableBody = container.querySelector('.js-rw-table-body');
+
+  const saveBtn = container.querySelector('.js-rw-save-btn') || container.querySelector('.js-save-btn');
+
+  function getActiveStorageKey() {
+    return TEST_STORAGE_MAP[activeTestType] || 'rockport_walk';
+  }
 
   function getAvailableFormulas() {
     return activeTestType === 'ukk' ? UKK_FORMULAS : ROCKPORT_FORMULAS;
@@ -82,7 +95,7 @@ export function initCalculator(container) {
       card.addEventListener('click', () => {
         activeFormulaKey = card.getAttribute('data-formula-key');
         toggleFormulaPicker(false);
-        saveState();
+        saveDraftAndProfile();
         calculate();
       });
     });
@@ -111,52 +124,69 @@ export function initCalculator(container) {
     if (secInput) secInput.value = times.sec;
   }
 
-  function saveState() {
-    try {
-      // Gem den aktuelle tidsindtastning i objektet for den aktive test
-      timesByTest[activeTestType] = {
-        min: container.querySelector('[name="rw_min"]')?.value || '',
-        sec: container.querySelector('[name="rw_sec"]')?.value || ''
-      };
+  function saveDraftAndProfile() {
+    const age = parseInt(container.querySelector('[name="rw_age"]')?.value || '0', 10);
+    const weight = parseFloat(container.querySelector('[name="rw_weight"]')?.value || '');
+    const genderEl = container.querySelector('input[name="rw_gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'male';
+    const activeKey = getActiveStorageKey();
 
-      const state = {
-        activeTestType,
-        activeFormulaKey,
-        age: container.querySelector('[name="rw_age"]')?.value || '',
-        weight: container.querySelector('[name="rw_weight"]')?.value || '',
-        height: container.querySelector('[name="rw_height"]')?.value || '',
-        hr: container.querySelector('[name="rw_hr"]')?.value || '',
-        gender: container.querySelector('input[name="rw_gender"]:checked')?.value || 'male',
-        timesByTest
-      };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    } catch (e) {}
+    if (age > 0 || weight > 0) {
+      StorageAdapter.saveProfile({
+        ...(age > 0 && { age }),
+        ...(weight > 0 && { weight }),
+        gender
+      });
+    }
+
+    timesByTest[activeTestType] = {
+      min: container.querySelector('[name="rw_min"]')?.value || '',
+      sec: container.querySelector('[name="rw_sec"]')?.value || ''
+    };
+
+    StorageAdapter.saveDraft(activeKey, {
+      activeTestType,
+      activeFormulaKey,
+      age: container.querySelector('[name="rw_age"]')?.value || '',
+      weight: container.querySelector('[name="rw_weight"]')?.value || '',
+      height: container.querySelector('[name="rw_height"]')?.value || '',
+      hr: container.querySelector('[name="rw_hr"]')?.value || '',
+      gender,
+      timesByTest
+    });
   }
 
-  function loadState() {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        const state = JSON.parse(saved);
-        if (state.activeTestType) activeTestType = state.activeTestType;
-        if (state.activeFormulaKey) activeFormulaKey = state.activeFormulaKey;
-        if (state.age !== undefined && state.age !== '') container.querySelector('[name="rw_age"]').value = state.age;
-        if (state.weight !== undefined && state.weight !== '') container.querySelector('[name="rw_weight"]').value = state.weight;
-        if (state.height !== undefined && state.height !== '') container.querySelector('[name="rw_height"]').value = state.height;
-        if (state.hr !== undefined && state.hr !== '') container.querySelector('[name="rw_hr"]').value = state.hr;
-        if (state.gender) {
-          const radio = container.querySelector(`input[name="rw_gender"][value="${state.gender}"]`);
-          if (radio) radio.checked = true;
-        }
-        if (state.timesByTest) {
-          timesByTest = state.timesByTest;
-        }
+  function loadInitialData() {
+    const profile = StorageAdapter.getProfile();
+    const activeKey = getActiveStorageKey();
+    const draft = StorageAdapter.loadDraft(activeKey);
+
+    if (draft) {
+      if (draft.activeTestType) activeTestType = draft.activeTestType;
+      if (draft.activeFormulaKey) activeFormulaKey = draft.activeFormulaKey;
+      if (draft.age !== undefined && draft.age !== '' && container.querySelector('[name="rw_age"]')) container.querySelector('[name="rw_age"]').value = draft.age;
+      if (draft.weight !== undefined && draft.weight !== '' && container.querySelector('[name="rw_weight"]')) container.querySelector('[name="rw_weight"]').value = draft.weight;
+      if (draft.height !== undefined && draft.height !== '' && container.querySelector('[name="rw_height"]')) container.querySelector('[name="rw_height"]').value = draft.height;
+      if (draft.hr !== undefined && draft.hr !== '' && container.querySelector('[name="rw_hr"]')) container.querySelector('[name="rw_hr"]').value = draft.hr;
+      if (draft.gender) {
+        const radio = container.querySelector(`input[name="rw_gender"][value="${draft.gender}"]`);
+        if (radio) radio.checked = true;
       }
-    } catch (e) {}
+      if (draft.timesByTest) {
+        timesByTest = draft.timesByTest;
+      }
+    } else {
+      if (profile.age && container.querySelector('[name="rw_age"]')) container.querySelector('[name="rw_age"]').value = profile.age;
+      if (profile.weight && container.querySelector('[name="rw_weight"]')) container.querySelector('[name="rw_weight"]').value = profile.weight;
+      if (profile.gender) {
+        const radio = container.querySelector(`input[name="rw_gender"][value="${profile.gender}"]`);
+        if (radio) radio.checked = true;
+      }
+    }
   }
 
   function calculate() {
-    saveState();
+    saveDraftAndProfile();
 
     const age = parseFloat(container.querySelector('[name="rw_age"]')?.value || 0);
     const weight = parseFloat(container.querySelector('[name="rw_weight"]')?.value || 0);
@@ -166,6 +196,7 @@ export function initCalculator(container) {
     const hr = parseFloat(container.querySelector('[name="rw_hr"]')?.value || 0);
     const genderEl = container.querySelector('input[name="rw_gender"]:checked');
     const gender = genderEl ? genderEl.value : 'male';
+    const activeKey = getActiveStorageKey();
 
     const params = { testType: activeTestType, formula: activeFormulaKey, age, weight, height, min, sec, hr, gender };
     const result = calculateWalkingTest(params);
@@ -177,7 +208,6 @@ export function initCalculator(container) {
     }
     const usedFormulaObj = formulas[usedFormulaKey] || formulas.kline || formulas.ukk_std;
 
-    // Update Formula Badge
     const activeDef = formulas[activeFormulaKey] || formulas.auto || formulas.ukk_std;
     if (formulaBar && activeDef) {
       let subDesc = activeDef.desc;
@@ -287,6 +317,36 @@ export function initCalculator(container) {
           });
         }
       }
+
+      // AUTOMATISK GEM I LOGGEN VIA STORAGEADAPTER
+      StorageAdapter.commitToLog(activeKey, {
+        type: 'physical',
+        primary: {
+          value: parseFloat(result.fitnessLevel),
+          unit: 'ml/kg/min',
+          label: 'Kondital'
+        },
+        norm: evaluation ? {
+          label: evaluation.label,
+          color: evaluation.color,
+          bg: evaluation.color + '18'
+        } : undefined,
+        subMetrics: {
+          testType: activeTestType,
+          vo2maxLmin: parseFloat(result.maxOxygenUptake),
+          timeMin: min,
+          timeSec: sec,
+          heartRate: hr
+        },
+        context: {
+          age,
+          gender,
+          weight,
+          height,
+          formulaKey: usedFormulaKey
+        }
+      });
+
     } else {
       resetResults();
     }
@@ -306,9 +366,10 @@ export function initCalculator(container) {
   // Event listeners for Test Type Selector
   testTypeBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      saveState(); // Gem den aktuelle testtid først
+      saveDraftAndProfile();
       activeTestType = btn.getAttribute('data-test-type');
-      updateTimeFieldsForActiveTest(); // Hent den gemte tid for den nye test
+      loadInitialData();
+      updateTimeFieldsForActiveTest();
       updateTestTypeUI();
       toggleFormulaPicker(false);
       calculate();
@@ -319,6 +380,12 @@ export function initCalculator(container) {
   inputs.forEach(input => {
     ['input', 'change', 'keyup'].forEach(ev => input.addEventListener(ev, calculate));
   });
+
+  if (saveBtn) {
+    saveBtn.addEventListener('click', () => {
+      calculate();
+    });
+  }
 
   if (tableBtn && popup && popupClose) {
     tableBtn.addEventListener('click', () => {
@@ -337,7 +404,10 @@ export function initCalculator(container) {
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+      const activeKey = getActiveStorageKey();
+      StorageAdapter.clearDraft(activeKey);
+      StorageAdapter.clearLog(activeKey);
+
       activeTestType = 'rockport';
       activeFormulaKey = 'auto';
       timesByTest = { rockport: { min: '', sec: '' }, ukk: { min: '', sec: '' } };
@@ -372,7 +442,7 @@ export function initCalculator(container) {
     });
   }
 
-  loadState();
+  loadInitialData();
   updateTimeFieldsForActiveTest();
   updateTestTypeUI();
   calculate();

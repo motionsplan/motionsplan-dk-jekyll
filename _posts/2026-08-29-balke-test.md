@@ -72,7 +72,7 @@ Brug timeren herunder under din test på løbebåndet. Den holder styr på 1-min
 
 Beregningen af dit kondital ($\text{VO}_2\max$) afhænger af, hvilken Balke-protokol du har gennemført, samt dit køn. Nedenfor gennemgås de matematiske modeller, der benyttes i beregneren.
 
-### 1. Balke Løbebåndstest til Gang ($5{,}3 \text{ km/t}$)
+### 1. Balke Løbebåndstest til Gang (5,3 km/t)
 Når testen gennemføres som gangtest ved $5{,}3 \text{ km/t}$ ($3{,}3 \text{ mph}$), anvendes de klassiske validerede formler fra Pollock et al. (1976 / 1982). Ligningerne tager højde for køn, da mænd og kvinder har forskellig bevægelsesøkonomi og kropssammensætning ved gradueret gang.
 
 **Formel for mænd (Pollock et al., 1976):**
@@ -95,7 +95,7 @@ $$\text{VO}_2\max = 14{,}99 + (1{,}444 \cdot 14{,}5) = 14{,}99 + 20{,}94 = 35{,}
 
 ---
 
-### 2. Balke Løbebåndstest til Løb ($8{,}0 \text{ km/t}$)
+### 2. Balke Løbebåndstest til Løb (8,0 km/t)
 Ved løb med en fast starthastighed på $8{,}0 \text{ km/t}$ ($5{,}0 \text{ mph}$) skiftes der fysiologisk fra gang- til løbeøkonomi. Her benyttes ACSM's (American College of Sports Medicine) standardiserede running-ligning for gradueret belastning. Denne ligning gælder for både mænd og kvinder, da den fysiologiske iltomkostning ved at fremføre kropsvægten under løb med stigning er ensartet pr. kilo kropsvægt uanset køn.
 
 **Formel for løb (ACSM Running Equation):**
@@ -159,9 +159,16 @@ $$\text{VO}_2\max = \left(\left(\frac{D}{15} - 133\right) \cdot 0{,}172\right) +
 
 **Eksempel (Felt-test):**  
 
-Løber du $3.200 \text{ meter}$ på 15 minutter:  
-$$\text{Gennemsnitshastighed} = \frac{3200}{15} = 213{,}33 \text{ m/min}$$  
-$$\text{VO}_2\max = ((213{,}33 - 133) \cdot 0{,}172) + 33{,}3 = (80{,}33 \cdot 0{,}172) + 33{,}3 = 47{,}1 \text{ ml/kg/min}$$
+Løber du $3.200 \text{ meter}$ på 15 minutter:
+
+$$
+\begin{aligned}
+\text{Gennemsnitshastighed} &= \frac{3200}{15} = 213{,}33 \text{ m/min} \\[6pt]
+\text{VO}_2\max &= ((213{,}33 - 133) \cdot 0{,}172) + 33{,}3 \\
+&= (80{,}33 \cdot 0{,}172) + 33{,}3 \\
+&= 47{,}1 \text{ ml/kg/min}
+\end{aligned}
+$$
 
 ---
 

@@ -1,0 +1,241 @@
+// assets/scss/components/_dashboard.scss
+
+.mp-db-wrapper {
+  max-width: 1000px;
+  margin: 2rem auto;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.mp-db-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  padding: 0 0.25rem;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  .mp-db-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .mp-db-subtitle {
+    margin: 0.15rem 0 0 0;
+    font-size: 0.78rem;
+    color: #64748b;
+  }
+
+  .mp-db-actions {
+    display: flex;
+    gap: 8px;
+  }
+}
+
+.mp-db-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+/* Kompakt kort-design */
+.mp-db-card {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  min-height: 140px;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: #cbd5e1;
+  }
+
+  .mp-db-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+  }
+
+  .mp-db-tag {
+    font-size: 0.68rem;
+    font-weight: 800;
+    color: #2563eb;
+    background: #eff6ff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    text-transform: uppercase;
+  }
+
+  .mp-db-remove-btn {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    color: #94a3b8;
+    cursor: pointer;
+    padding: 0 0.2rem;
+    line-height: 1;
+
+    &:hover {
+      color: #ef4444;
+    }
+  }
+
+  .mp-db-card-title {
+    margin: 0 0 0.25rem 0;
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.3;
+  }
+
+  .mp-db-card-desc {
+    margin: 0 0 0.8rem 0;
+    font-size: 0.75rem;
+    color: #64748b;
+    line-height: 1.35;
+  }
+
+  /* Bundrække: Resultat til venstre, Blå CTA til højre */
+  .mp-db-card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 0.75rem;
+  }
+}
+
+/* Interaktiv Resultat-Pillekasse */
+.mp-db-score-pill {
+  font-weight: 900;
+  font-size: 0.95rem;
+  padding: 0.35rem 0.65rem;
+  border-radius: 8px;
+  white-space: nowrap;
+  text-align: center;
+  border: 1px solid transparent;
+  user-select: none;
+
+  &.is-interactive {
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+  }
+
+  .mp-db-subdetail {
+    font-size: 0.68rem;
+    font-weight: 700;
+    opacity: 0.85;
+    margin-top: 2px;
+  }
+}
+
+/* Primær Blå Knap */
+.mp-db-btn-primary {
+  background: #2563eb;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 0.45rem 0.8rem;
+  border-radius: 8px;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: #1d4ed8;
+  }
+}
+
+.mp-db-btn-outline {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #64748b;
+  cursor: pointer;
+
+  &:hover {
+    background: #f8fafc;
+  }
+}
+
+/* Bundrække med fast layout-balance */
+.mp-db-card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 0.75rem;
+
+  .mp-db-score-pill {
+    flex: 1; /* Fylder venstresiden ud med ensartet margin til knappen */
+    text-align: center;
+    font-weight: 900;
+    font-size: 0.92rem;
+    padding: 0.35rem 0.5rem;
+    border-radius: 8px;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    user-select: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &.is-interactive {
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+      &:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      }
+    }
+  }
+
+  /* Lille nedtonet enhed */
+  .mp-db-unit {
+    font-size: 0.68rem;
+    font-weight: 700;
+    opacity: 0.75;
+    margin-left: 2px;
+  }
+
+  /* Kompakt blå knap */
+  .mp-db-btn-primary {
+    flex-shrink: 0; /* Sikrer at knappen aldrig trykkes flad */
+    background: #2563eb;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-size: 0.78rem;
+    font-weight: 800;
+    padding: 0.45rem 0.75rem;
+    border-radius: 8px;
+    white-space: nowrap;
+    transition: background 0.15s ease;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background: #1d4ed8;
+    }
+  }
+}

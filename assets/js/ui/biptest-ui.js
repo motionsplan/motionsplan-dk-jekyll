@@ -1,6 +1,14 @@
 // assets/js/ui/biptest-ui.js
 import { calculateBipTest, BIPTEST_FORMULAS } from '../core/biptest.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
+
+// Enkel og direkte mapping
+const FORMULA_STORAGE_MAP = {
+  'leger': 'biptest',
+  'yye1': 'yoyo_e1',
+  'yye2': 'yoyo_e2'
+};
 
 export function initBipTest(container) {
   if (!container) return;
@@ -10,11 +18,12 @@ export function initBipTest(container) {
   const ageInput = container.querySelector('[name="bip_age"]');
   const weightInput = container.querySelector('[name="bip_weight"]');
 
-  // Dynamiske Label elementer
+  const saveBtn = container.querySelector('.js-bip-save-btn') || container.querySelector('.js-save-btn');
+  const saveStatus = container.querySelector('.js-bip-save-status');
+
   const levelRangeLabel = container.querySelector('.js-bip-level-range-label');
   const shuttleMaxLabel = container.querySelector('.js-bip-shuttle-max-label');
 
-  // 3 Fremdrifts-elementer
   const progressCard = container.querySelector('.js-bip-progress-card');
   const levelText = container.querySelector('.js-bip-current-level-text');
   const shuttleProgressText = container.querySelector('.js-bip-shuttle-progress-text');
@@ -24,14 +33,12 @@ export function initBipTest(container) {
   const totalShuttlesProgressText = container.querySelector('.js-bip-total-shuttles-progress-text');
   const totalShuttlesProgressBar = container.querySelector('.js-bip-total-shuttles-progress-bar');
 
-  // DOM elementer til resultater
   const resFitness = container.querySelector('.js-bip-fitness');
   const resSdText = container.querySelector('.js-bip-sd-text');
   const resEvalBadge = container.querySelector('.js-bip-eval-badge');
   const resVo2Max = container.querySelector('.js-bip-vo2max');
   const marker = container.querySelector('.js-bip-continuum-marker');
 
-  // Popup DOM
   const tableBtn = container.querySelector('.js-bip-table-btn');
   const popup = container.querySelector('.js-bip-popup');
   const popupClose = container.querySelector('.js-bip-popup-close');
@@ -39,48 +46,91 @@ export function initBipTest(container) {
 
   function getSelectedFormulaKey() {
     const formulaEl = container.querySelector('input[name="bip_formula"]:checked');
-    return formulaEl ? formulaEl.value : 'yye1';
+    return formulaEl ? formulaEl.value : 'bip';
   }
 
-  function saveState() {
-    try {
-      const genderEl = container.querySelector('input[name="bip_gender"]:checked');
-      const state = {
-        formula: getSelectedFormulaKey(),
-        level: levelInput ? levelInput.value : '',
-        shuttles: shuttlesInput ? shuttlesInput.value : '',
-        age: ageInput ? ageInput.value : '',
-        weight: weightInput ? weightInput.value : '',
-        gender: genderEl ? genderEl.value : 'male'
-      };
-      localStorage.setItem('mp_biptest_state', JSON.stringify(state));
-    } catch (e) {}
+  function getActiveStorageKey() {
+    const formulaKey = getSelectedFormulaKey();
+    return FORMULA_STORAGE_MAP[formulaKey] || 'biptest';
   }
 
-  function loadState() {
-    try {
-      const saved = localStorage.getItem('mp_biptest_state');
-      if (saved) {
-        const state = JSON.parse(saved);
-        if (state.formula) {
-          const radio = container.querySelector(`input[name="bip_formula"][value="${state.formula}"]`);
-          if (radio) radio.checked = true;
-        }
-        if (state.level && levelInput) levelInput.value = state.level;
-        if (state.shuttles && shuttlesInput) shuttlesInput.value = state.shuttles;
-        if (state.age && ageInput) ageInput.value = state.age;
-        if (state.weight && weightInput) weightInput.value = state.weight;
-        if (state.gender) {
-          const radio = container.querySelector(`input[name="bip_gender"][value="${state.gender}"]`);
-          if (radio) radio.checked = true;
-        }
+  // Visual animation på gem-knappen
+  function animateSaveButton() {
+    if (!saveBtn) return;
+    
+    const originalText = saveBtn.innerHTML;
+    saveBtn.style.transition = 'all 0.2s ease';
+    saveBtn.style.transform = 'scale(0.96)';
+    saveBtn.style.background = '#16a34a';
+    saveBtn.style.color = '#ffffff';
+    saveBtn.innerHTML = '✓ Gemt!';
+
+    setTimeout(() => {
+      saveBtn.style.transform = 'scale(1)';
+    }, 150);
+
+    setTimeout(() => {
+      saveBtn.style.background = '';
+      saveBtn.style.color = '';
+      saveBtn.style.transform = '';
+      saveBtn.innerHTML = originalText;
+    }, 1800);
+  }
+
+  function loadInitialData() {
+    const profile = StorageAdapter.getProfile();
+    const activeKey = getActiveStorageKey();
+    const draft = StorageAdapter.loadDraft(activeKey);
+
+    if (draft) {
+      if (draft.level && levelInput) levelInput.value = draft.level;
+      if (draft.shuttles && shuttlesInput) shuttlesInput.value = draft.shuttles;
+      if (draft.age && ageInput) ageInput.value = draft.age;
+      if (draft.weight && weightInput) weightInput.value = draft.weight;
+      if (draft.gender) {
+        const radio = container.querySelector(`input[name="bip_gender"][value="${draft.gender}"]`);
+        if (radio) radio.checked = true;
       }
-    } catch (e) {}
+    } else {
+      if (levelInput) levelInput.value = '';
+      if (shuttlesInput) shuttlesInput.value = '';
+      if (ageInput && profile.age) ageInput.value = profile.age;
+      if (weightInput && profile.weight) weightInput.value = profile.weight;
+      if (profile.gender) {
+        const radio = container.querySelector(`input[name="bip_gender"][value="${profile.gender}"]`);
+        if (radio) radio.checked = true;
+      }
+    }
+  }
+
+  function saveDraftAndProfile() {
+    const genderEl = container.querySelector('input[name="bip_gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'male';
+    const age = parseInt(ageInput ? ageInput.value : '0', 10);
+    const weight = parseFloat(weightInput ? weightInput.value : '');
+    const activeKey = getActiveStorageKey();
+
+    if (age > 0 || weight > 0) {
+      StorageAdapter.saveProfile({
+        ...(age > 0 && { age }),
+        ...(weight > 0 && { weight }),
+        gender
+      });
+    }
+
+    StorageAdapter.saveDraft(activeKey, {
+      formula: getSelectedFormulaKey(),
+      level: levelInput ? levelInput.value : '',
+      shuttles: shuttlesInput ? shuttlesInput.value : '',
+      age: ageInput ? ageInput.value : '',
+      weight: weightInput ? weightInput.value : '',
+      gender
+    });
   }
 
   function updateLimitsAndLabels() {
     const chosenFormulaKey = getSelectedFormulaKey();
-    const formula = BIPTEST_FORMULAS[chosenFormulaKey] || BIPTEST_FORMULAS.yye1;
+    const formula = BIPTEST_FORMULAS[chosenFormulaKey] || BIPTEST_FORMULAS.bip;
 
     if (levelInput) {
       levelInput.min = formula.minLevel;
@@ -112,6 +162,56 @@ export function initBipTest(container) {
     }
   }
 
+  function commitResult() {
+    const level = levelInput ? levelInput.value : '';
+    const shuttles = shuttlesInput ? shuttlesInput.value : '';
+    const age = parseInt(ageInput ? ageInput.value : '0', 10);
+    const weight = parseFloat(weightInput ? weightInput.value : '');
+    const genderEl = container.querySelector('input[name="bip_gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'male';
+    const chosenFormula = getSelectedFormulaKey();
+    const activeKey = getActiveStorageKey();
+
+    const res = calculateBipTest(level, shuttles, weight, chosenFormula);
+
+    if (!res || !res.isValid) {
+      alert('Indtast venligst et gyldigt niveau og shuttles for at gemme resultatet.');
+      return;
+    }
+
+    const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
+    const userAge = age > 0 ? age : 20;
+    const evaluation = evaluateFitnessLevel(res.fitnessLevel, userAge, normGender);
+
+    StorageAdapter.commitToLog(activeKey, {
+      type: 'physical',
+      primary: {
+        value: parseFloat(res.formattedFitnessLevel),
+        unit: 'ml/kg/min',
+        label: 'Kondital'
+      },
+      norm: evaluation ? {
+        label: evaluation.label,
+        color: evaluation.color,
+        bg: evaluation.color + '18'
+      } : undefined,
+      subMetrics: {
+        level: parseInt(res.level, 10),
+        shuttles: parseInt(res.shuttles, 10),
+        totalDistanceMeters: res.totalDistance,
+        totalShuttles: res.totalShuttles
+      },
+      context: {
+        age,
+        gender,
+        weight,
+        formulaKey: chosenFormula
+      }
+    });
+
+    animateSaveButton();
+  }
+
   function calculate() {
     updateLimitsAndLabels();
 
@@ -128,7 +228,6 @@ export function initBipTest(container) {
     if (res && res.isValid) {
       if (progressCard) progressCard.style.display = 'block';
 
-      // 1. Level shuttles fremdrift
       if (levelText) levelText.textContent = res.level;
       if (shuttleProgressText) {
         shuttleProgressText.textContent = `${res.shuttles} / ${res.maxShuttlesForLevel} shuttles (${res.shuttlesPercent}%)`;
@@ -136,14 +235,12 @@ export function initBipTest(container) {
       }
       if (shuttleProgressBar) shuttleProgressBar.style.width = `${res.shuttlesPercent}%`;
 
-      // 2. Samlet distance fremdrift
       if (distProgressText) {
         distProgressText.textContent = `${res.totalDistance.toLocaleString('da-DK')} m / ${res.maxTestDistance.toLocaleString('da-DK')} m (${res.distancePercent}%)`;
         distProgressText.style.color = '#059669';
       }
       if (distProgressBar) distProgressBar.style.width = `${res.distancePercent}%`;
 
-      // 3. Totale 20m shuttles fremdrift
       if (totalShuttlesProgressText) {
         totalShuttlesProgressText.textContent = `${res.totalShuttles} / ${res.maxTotalShuttles} shuttles (${res.totalShuttlesPercent}%)`;
         totalShuttlesProgressText.style.color = '#7c3aed';
@@ -154,7 +251,6 @@ export function initBipTest(container) {
       if (resSdText) resSdText.textContent = `± ${res.sd} ${res.sdUnit}`;
       if (resVo2Max) resVo2Max.textContent = res.formattedVO2Max;
 
-      // Norm vurdering
       const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
       const userAge = age > 0 ? age : 20;
       const evaluation = evaluateFitnessLevel(res.fitnessLevel, userAge, normGender);
@@ -171,7 +267,6 @@ export function initBipTest(container) {
         }
       }
 
-      // Continuum Marker
       const thresholds = getFitnessThresholds(userAge, normGender);
       if (thresholds && age > 0 && marker) {
         const v = res.fitnessLevel;
@@ -197,36 +292,6 @@ export function initBipTest(container) {
         marker.style.display = 'block';
       }
 
-      // Popup tabel
-      if (thresholds && tableBody && age > 0) {
-        const tableData = [
-          { name: 'Meget højt', range: `> ${thresholds[3]}` },
-          { name: 'Højt', range: `${thresholds[2] + 1} - ${thresholds[3]}` },
-          { name: 'Middel', range: `${thresholds[1]} - ${thresholds[2]}` },
-          { name: 'Lavt', range: `${thresholds[0]} - ${thresholds[1] - 1}` },
-          { name: 'Meget lavt', range: `< ${thresholds[0]}` }
-        ];
-
-        tableBody.innerHTML = '';
-        tableData.forEach(row => {
-          let rowStyle = 'border-bottom: 1px solid #e2e8f0;';
-          let nameStyle = 'color: #334155; font-size: 0.8rem; padding: 0.6rem 0.25rem;';
-          let valStyle = 'text-align: right; font-weight: 600; color: #0f172a; font-size: 0.85rem; padding: 0.6rem 0.25rem;';
-          let badgeHtml = '';
-
-          if (evaluation && row.name === evaluation.label) {
-            rowStyle = 'border-bottom: 1px solid #e2e8f0; background-color: #eff6ff; font-weight: 700;';
-            nameStyle = 'color: #0f172a; font-weight: 700; font-size: 0.8rem; padding: 0.6rem 0.25rem;';
-            valStyle = 'text-align: right; font-weight: 800; color: #0f172a; font-size: 0.85rem; padding: 0.6rem 0.25rem;';
-            badgeHtml = `<span style="font-size: 0.65rem; background: #3b82f6; color: #fff; padding: 2px 6px; border-radius: 4px; margin-left: 8px; vertical-align: middle;">${res.formattedFitnessLevel}</span>`;
-          }
-
-          const tr = document.createElement('tr');
-          tr.style = rowStyle;
-          tr.innerHTML = `<td style="${nameStyle}">${row.name}</td><td style="${valStyle}">${row.range} ${badgeHtml}</td>`;
-          tableBody.appendChild(tr);
-        });
-      }
     } else {
       resetResults();
     }
@@ -248,58 +313,37 @@ export function initBipTest(container) {
   const allInputs = container.querySelectorAll('input');
   allInputs.forEach(input => {
     ['input', 'change', 'click', 'keyup'].forEach(eventType => {
-      input.addEventListener(eventType, () => {
-        saveState();
+      input.addEventListener(eventType, (e) => {
+        if (e.target.name === 'bip_formula') {
+          loadInitialData();
+        } else {
+          saveDraftAndProfile();
+        }
         calculate();
       });
     });
   });
 
-  if (tableBtn && popup && popupClose) {
-    tableBtn.addEventListener('click', () => {
-      const age = parseFloat(ageInput ? ageInput.value : '0');
-      if (age > 0) {
-        popup.style.display = 'flex';
-      } else {
-        alert('Udfyld venligst din alder for at se norm-tabellen.');
-      }
-    });
-    popupClose.addEventListener('click', () => popup.style.display = 'none');
+  if (saveBtn) {
+    saveBtn.addEventListener('click', commitResult);
   }
 
   const resetBtn = container.querySelector('.js-reset-btn');
-  const downloadBtn = container.querySelector('.js-download-btn');
-
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
+      const activeKey = getActiveStorageKey();
       allInputs.forEach(input => {
         if (input.name === 'bip_gender' && input.value === 'male') input.checked = true;
-        else if (input.name === 'bip_formula' && input.value === 'yye1') input.checked = true;
+        else if (input.name === 'bip_formula' && input.value === 'bip') input.checked = true;
         else if (input.type !== 'radio') input.value = '';
       });
-      if (popup) popup.style.display = 'none';
-      try { localStorage.removeItem('mp_biptest_state'); } catch(e){}
+      StorageAdapter.clearDraft(activeKey);
+      StorageAdapter.clearLog(activeKey);
       calculate();
     });
   }
 
-  if (downloadBtn) {
-    downloadBtn.addEventListener('click', () => {
-      if (popup) popup.style.display = 'none';
-      setTimeout(() => {
-        if (typeof html2canvas !== 'undefined') {
-          html2canvas(container, { scale: 2, backgroundColor: '#ffffff' }).then(canvas => {
-            const link = document.createElement('a');
-            link.download = 'biptest-resultat.png';
-            link.href = canvas.toDataURL('image/png');
-            link.click();
-          });
-        }
-      }, 100);
-    });
-  }
-
-  loadState();
+  loadInitialData();
   calculate();
 }
 

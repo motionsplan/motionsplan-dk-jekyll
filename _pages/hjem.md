@@ -163,8 +163,20 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
 .benched-card { background: #f8fafc; border-style: dashed; border-color: #cbd5e1; cursor: default; }
 
 /* Overskrift & Tekst */
-.card-title { font-weight: 800; color: #0f172a; font-size: 0.95rem; margin: 0; line-height: 1.38; padding-right: 32px; }
+.card-header-group { padding-right: 28px; }
+.card-title { font-weight: 800; color: #0f172a; font-size: 0.95rem; margin: 0; line-height: 1.38; }
 .dash-desc { margin: 6px 0 0 0; font-size: 0.83rem; color: #64748b; line-height: 1.4; padding-right: 32px; }
+
+/* Norm Badges */
+.res-norm-badge {
+  display: inline-block;
+  font-size: 0.70rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin-top: 6px;
+  white-space: nowrap;
+}
 
 /* Bundsektion & Ikon */
 .card-bottom-row { display: flex; align-items: flex-end; justify-content: space-between; margin-top: 14px; width: 100%; }
@@ -260,29 +272,63 @@ document.addEventListener("DOMContentLoaded", function() {
     return url;
   }
 
-  function formatResultValue(rawData) {
-    if (!rawData) return '--';
+  // UNIVERSEL UNIFIED PARSER FOR BÅDE NYE (v2.0) OG GAMLE TESTFORMATER
+  function parseResultData(rawData) {
+    if (!rawData) return { display: '--', norm: null };
     try {
       const obj = JSON.parse(rawData);
-      if (typeof obj !== 'object' || obj === null) return rawData;
+      if (typeof obj !== 'object' || obj === null) return { display: String(rawData), norm: null };
 
-      if (obj.summary) return obj.summary;
-      if (obj.value) return obj.value;
-      if (obj.result) return obj.result;
+      // 1. StorageAdapter Format (history array)
+      if (Array.isArray(obj.history) && obj.history.length > 0) {
+        const latest = obj.history[0];
+        let display = '--';
+        
+        if (latest.primary) {
+          const val = latest.primary.value;
+          const unit = latest.primary.unit || '';
+          display = `${val} ${unit}`.trim();
+        }
+
+        let detail = '';
+        if (latest.subMetrics) {
+          if (latest.subMetrics.distanceMeters) detail = ` (${latest.subMetrics.distanceMeters} m)`;
+          else if (latest.subMetrics.totalDistanceMeters) detail = ` (${latest.subMetrics.totalDistanceMeters} m)`;
+          else if (latest.subMetrics.level !== undefined && latest.subMetrics.shuttles !== undefined) {
+            detail = ` (Lvl ${latest.subMetrics.level}.${latest.subMetrics.shuttles})`;
+          }
+        }
+
+        return {
+          display: display + detail,
+          norm: latest.norm || null
+        };
+      }
+
+      // 2. Gammelt / Arvet Format Fallback
+      let norm = null;
+      if (obj.norm || obj.evaluation) {
+        const n = obj.norm || obj.evaluation;
+        norm = typeof n === 'object' ? n : { label: n, color: '#2563eb', bg: '#eff6ff' };
+      }
+
+      if (obj.summary) return { display: obj.summary, norm };
+      if (obj.value) return { display: `${obj.value} ${obj.unit || ''}`.trim(), norm };
+      if (obj.result) return { display: String(obj.result), norm };
 
       if (obj.level !== undefined && obj.shuttles !== undefined) {
         const typeLabel = obj.type ? `${obj.type.toUpperCase()} ` : '';
         const vo2 = obj.vo2max ? ` (VO₂max: ${obj.vo2max})` : '';
-        return `${typeLabel}Niveau ${obj.level}.${obj.shuttles}${vo2}`;
+        return { display: `${typeLabel}Niveau ${obj.level}.${obj.shuttles}${vo2}`, norm };
       }
 
       if (obj.distance) {
         const vo2 = obj.vo2max ? ` · VO₂max: ${obj.vo2max}` : '';
-        return `${obj.distance} m${vo2}`;
+        return { display: `${obj.distance} m${vo2}`, norm };
       }
 
-      if (obj.oneRepMax || obj.rm1) return `1RM: ${obj.oneRepMax || obj.rm1} kg`;
-      if (obj.fatPercent || obj.bodyFat) return `${obj.fatPercent || obj.bodyFat}% kropsfedt`;
+      if (obj.oneRepMax || obj.rm1) return { display: `1RM: ${obj.oneRepMax || obj.rm1} kg`, norm };
+      if (obj.fatPercent || obj.bodyFat) return { display: `${obj.fatPercent || obj.bodyFat}% kropsfedt`, norm };
 
       const ignoreKeys = ['age', 'weight', 'gender', 'levelSelect', 'formula', 'isManuallySelected', 'type', 'method'];
       const keyData = Object.entries(obj)
@@ -290,9 +336,9 @@ document.addEventListener("DOMContentLoaded", function() {
         .map(([k, v]) => `${k}: ${v}`)
         .join(' · ');
 
-      return keyData || rawData;
+      return { display: keyData || rawData, norm };
     } catch (e) {
-      return rawData;
+      return { display: String(rawData), norm: null };
     }
   }
 
@@ -403,13 +449,22 @@ document.addEventListener("DOMContentLoaded", function() {
       for (const [category, tests] of Object.entries(groupedResults)) {
         resHtml += `<div class="category-group"><div class="category-title">${category}</div><div class="res-grid">`;
         tests.forEach(t => {
-          const formattedVal = formatResultValue(t.result);
+          const parsed = parseResultData(t.result);
+          const normBadge = parsed.norm ? `
+            <span class="res-norm-badge" style="background:${parsed.norm.bg || '#eff6ff'}; color:${parsed.norm.color || '#2563eb'};">
+              ${parsed.norm.label}
+            </span>
+          ` : '';
+
           resHtml += `
             <a href="${getFullUrl(t)}" class="res-card">
               <button class="btn-action-icon btn-delete" data-key="${t.lsKey}" title="Slet resultat">🗑️</button>
-              <h4 class="card-title">${t.title}</h4>
+              <div class="card-header-group">
+                <h4 class="card-title">${t.title}</h4>
+                ${normBadge}
+              </div>
               <div class="card-bottom-row">
-                <div class="res-value">${formattedVal}</div>
+                <div class="res-value">${parsed.display}</div>
                 <span class="card-corner-icon">${t.icon}</span>
               </div>
             </a>`;

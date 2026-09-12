@@ -109,16 +109,23 @@ Lad os tage et praktisk eksempel for at se, hvordan matematikken fungerer:
 * **Registreret puls i Fase 2:** Minut 3 = $132 \text{ bpm}$, Minut 4 = $134 \text{ bpm}$.
 
 **1. Tjek for Steady State:**
+
 $$\text{Afvigelse} = |134 - 132| = 2 \text{ bpm} \quad (\text{Godkendt, da } 2 < 5 \text{ bpm})$$
 $$\text{Gennemsnitspuls } (HR) = \frac{132 + 134}{2} = 133 \text{ bpm}$$
 
 **2. Omregn hastighed til mph ($S$):**
+
 $$S = \frac{5{,}6}{1{,}60934} = 3{,}48 \text{ mph}$$
 
 **3. Indsæt i Ebbeling-ligningen:**
-$$\text{VO}_2\max = 15{,}1 + (21{,}8 \cdot 3{,}48) - (0{,}327 \cdot 133) - (0{,}263 \cdot 35) + (5{,}98 \cdot 0)$$
-$$\text{VO}_2\max = 15{,}1 + 75{,}86 - 43{,}49 - 9{,}21 + 0$$
-$$\text{VO}_2\max = 38{,}26 \approx 38{,}3 \text{ ml O}_2/\text{kg/min}$$
+
+$$
+\begin{gather}
+\text{VO}_2\max = 15{,}1 + (21{,}8 \cdot 3{,}48) - (0{,}327 \cdot 133) - (0{,}263 \cdot 35) + (5{,}98 \cdot 0) \\
+\text{VO}_2\max = 15{,}1 + 75{,}86 - 43{,}49 - 9{,}21 + 0 \\
+\text{VO}_2\max = 38{,}26 \approx 38{,}3 \text{ ml O}_2/\text{kg/min}
+\end{gather}
+$$
 
 ---
 

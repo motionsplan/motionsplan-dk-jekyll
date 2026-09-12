@@ -1,11 +1,14 @@
 // assets/js/ui/wattmax-test-ui.js
 import { calculateWattMax, getRecommendedFormulaKey, WATTMAX_FORMULAS } from '../core/wattmax-test.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
+
+// Matcher storageKey i KONDITION_LIBRARY
+const TEST_ID = 'wattmax_bike';
 
 export function initCalculator(container) {
   if (!container) return;
 
-  const STORAGE_KEY = 'mp_wattmax_state_v2';
   let activeFormulaKey = 'auto';
 
   const inputs = container.querySelectorAll('.js-wm-input');
@@ -31,6 +34,8 @@ export function initCalculator(container) {
   const popup = container.querySelector('.js-wm-popup');
   const popupClose = container.querySelector('.js-wm-popup-close');
   const tableBody = container.querySelector('.js-wm-table-body');
+
+  const saveBtn = container.querySelector('.js-wm-save-btn') || container.querySelector('.js-save-btn');
 
   function updateGenderLabels(age) {
     if (maleLabel && femaleLabel) {
@@ -83,46 +88,62 @@ export function initCalculator(container) {
       card.addEventListener('click', () => {
         activeFormulaKey = card.getAttribute('data-formula-key');
         toggleFormulaPicker(false);
-        saveState();
+        saveDraftAndProfile();
         calculate();
       });
     });
   }
 
-  function saveState() {
-    try {
-      const state = {
-        activeFormulaKey,
-        age: container.querySelector('[name="wm_age"]')?.value || '',
-        weight: container.querySelector('[name="wm_weight"]')?.value || '',
-        watt: container.querySelector('[name="wm_watt"]')?.value || '',
-        sec: container.querySelector('[name="wm_sec"]')?.value || '',
-        gender: container.querySelector('input[name="wm_gender"]:checked')?.value || 'male'
-      };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    } catch (e) {}
+  function saveDraftAndProfile() {
+    const age = parseInt(container.querySelector('[name="wm_age"]')?.value || '0', 10);
+    const weight = parseFloat(container.querySelector('[name="wm_weight"]')?.value || '');
+    const genderEl = container.querySelector('input[name="wm_gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'male';
+
+    if (age > 0 || weight > 0) {
+      StorageAdapter.saveProfile({
+        ...(age > 0 && { age }),
+        ...(weight > 0 && { weight }),
+        gender
+      });
+    }
+
+    StorageAdapter.saveDraft(TEST_ID, {
+      activeFormulaKey,
+      age: container.querySelector('[name="wm_age"]')?.value || '',
+      weight: container.querySelector('[name="wm_weight"]')?.value || '',
+      watt: container.querySelector('[name="wm_watt"]')?.value || '',
+      sec: container.querySelector('[name="wm_sec"]')?.value || '',
+      gender
+    });
   }
 
-  function loadState() {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        const state = JSON.parse(saved);
-        if (state.activeFormulaKey) activeFormulaKey = state.activeFormulaKey;
-        if (state.age !== undefined && state.age !== '') container.querySelector('[name="wm_age"]').value = state.age;
-        if (state.weight !== undefined && state.weight !== '') container.querySelector('[name="wm_weight"]').value = state.weight;
-        if (state.watt !== undefined && state.watt !== '') container.querySelector('[name="wm_watt"]').value = state.watt;
-        if (state.sec !== undefined && state.sec !== '') container.querySelector('[name="wm_sec"]').value = state.sec;
-        if (state.gender) {
-          const radio = container.querySelector(`input[name="wm_gender"][value="${state.gender}"]`);
-          if (radio) radio.checked = true;
-        }
+  function loadInitialData() {
+    const profile = StorageAdapter.getProfile();
+    const draft = StorageAdapter.loadDraft(TEST_ID);
+
+    if (draft) {
+      if (draft.activeFormulaKey) activeFormulaKey = draft.activeFormulaKey;
+      if (draft.age !== undefined && draft.age !== '' && container.querySelector('[name="wm_age"]')) container.querySelector('[name="wm_age"]').value = draft.age;
+      if (draft.weight !== undefined && draft.weight !== '' && container.querySelector('[name="wm_weight"]')) container.querySelector('[name="wm_weight"]').value = draft.weight;
+      if (draft.watt !== undefined && draft.watt !== '' && container.querySelector('[name="wm_watt"]')) container.querySelector('[name="wm_watt"]').value = draft.watt;
+      if (draft.sec !== undefined && draft.sec !== '' && container.querySelector('[name="wm_sec"]')) container.querySelector('[name="wm_sec"]').value = draft.sec;
+      if (draft.gender) {
+        const radio = container.querySelector(`input[name="wm_gender"][value="${draft.gender}"]`);
+        if (radio) radio.checked = true;
       }
-    } catch (e) {}
+    } else {
+      if (profile.age && container.querySelector('[name="wm_age"]')) container.querySelector('[name="wm_age"]').value = profile.age;
+      if (profile.weight && container.querySelector('[name="wm_weight"]')) container.querySelector('[name="wm_weight"]').value = profile.weight;
+      if (profile.gender) {
+        const radio = container.querySelector(`input[name="wm_gender"][value="${profile.gender}"]`);
+        if (radio) radio.checked = true;
+      }
+    }
   }
 
   function calculate() {
-    saveState();
+    saveDraftAndProfile();
 
     const age = parseFloat(container.querySelector('[name="wm_age"]')?.value || 0);
     const weight = parseFloat(container.querySelector('[name="wm_weight"]')?.value || 0);
@@ -141,7 +162,6 @@ export function initCalculator(container) {
     const activeDef = WATTMAX_FORMULAS[resolvedKey] || WATTMAX_FORMULAS.andersen;
     const isRecommended = (resolvedKey === recommendedKey);
 
-    // Opdater Formel Badge i toppen med den KONKRETE testbeskrivelse
     if (formulaBar && activeDef) {
       formulaBar.innerHTML = `
         <div class="mp-wm-badge-header">
@@ -183,7 +203,6 @@ export function initCalculator(container) {
         resEvalBadge.style.color = '#ffffff';
       }
 
-      // Slider Marker positionering
       const thresholds = getFitnessThresholds(age, normGender);
       if (thresholds && marker) {
         const v = parseFloat(result.fitnessLevel);
@@ -208,7 +227,6 @@ export function initCalculator(container) {
         marker.style.left = `${percent}%`;
         marker.style.display = 'block';
 
-        // Opbyg Popuptabel
         if (tableBody) {
           const tableData = [
             { name: 'Meget lavt', range: `< ${t[0]}`, color: '#ef4444' },
@@ -244,6 +262,34 @@ export function initCalculator(container) {
           });
         }
       }
+
+      // AUTOMATISK GEM I LOGGEN VIA STORAGEADAPTER
+      StorageAdapter.commitToLog(TEST_ID, {
+        type: 'physical',
+        primary: {
+          value: parseFloat(result.fitnessLevel),
+          unit: 'ml/kg/min',
+          label: 'Kondital'
+        },
+        norm: evaluation ? {
+          label: evaluation.label,
+          color: evaluation.color,
+          bg: evaluation.color + '18'
+        } : undefined,
+        subMetrics: {
+          mpo: parseFloat(result.mpo),
+          vo2maxLmin: parseFloat(result.vo2max),
+          wmax,
+          sec
+        },
+        context: {
+          age,
+          gender,
+          weight,
+          formulaKey: resolvedKey
+        }
+      });
+
     } else {
       resetResults();
     }
@@ -266,6 +312,12 @@ export function initCalculator(container) {
     ['input', 'change', 'keyup'].forEach(ev => input.addEventListener(ev, calculate));
   });
 
+  if (saveBtn) {
+    saveBtn.addEventListener('click', () => {
+      calculate();
+    });
+  }
+
   if (tableBtn && popup && popupClose) {
     tableBtn.addEventListener('click', () => {
       const age = parseFloat(container.querySelector('[name="wm_age"]')?.value || 0);
@@ -283,7 +335,9 @@ export function initCalculator(container) {
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+      StorageAdapter.clearDraft(TEST_ID);
+      StorageAdapter.clearLog(TEST_ID);
+
       activeFormulaKey = 'auto';
       toggleFormulaPicker(false);
       
@@ -313,7 +367,7 @@ export function initCalculator(container) {
     });
   }
 
-  loadState();
+  loadInitialData();
   calculate();
 }
 

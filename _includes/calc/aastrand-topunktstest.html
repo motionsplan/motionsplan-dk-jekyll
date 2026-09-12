@@ -4,8 +4,8 @@
 <div class="mp-calc-card" data-calculator="aastrand-topunktstest" style="max-width: 700px; margin: 0 auto; position: relative;">
 
   <!-- Header & Introduktion -->
-  <div class="mp-calc-header" style="margin-bottom: 0.35rem;">
-    <h3 class="mp-calc-title" style="margin-bottom: 0;">Åstrands topunktstest</h3>
+  <div class="mp-calc-header" style="margin-bottom: 0.35rem; display: flex; justify-content: space-between; align-items: center;">
+    <div class="mp-calc-title" style="margin-bottom: 0; font-size: 1.25rem; font-weight: 800; color: #0f172a;">Åstrands topunktstest</div>
     <div data-html2canvas-ignore="true">
       <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 32px; height: 32px; object-fit: contain; border-radius: 6px;">
     </div>
@@ -18,8 +18,8 @@
   <!-- Skilnelinje -->
   <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 0 0 1.25rem 0;">
 
-  <!-- 1. Demografi & Maxpuls (Skarp, kompakt række) -->
-  <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; align-items: flex-start;">
+  <!-- 1. Demografi & Maxpuls -->
+  <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; align-items: flex-start;">
     
     <!-- Alder -->
     <div class="mp-form-group" style="flex: 0 0 85px;">
@@ -64,70 +64,91 @@
 
   </div>
 
-  <!-- 2. Belastningsdata (Kompakte fieldsets uden ekstra inder-bokse) -->
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.75rem; margin-bottom: 1.25rem;">
+  <!-- DISKRET TEST-TIMER (Fyldende hel række) -->
+  <div class="js-as-timer-card" style="background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 10px; padding: 0.65rem 0.85rem; margin-bottom: 1.25rem; display: flex; flex-direction: column; gap: 0.4rem;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <button type="button" class="js-as-timer-btn" style="background: #2563eb; color: #ffffff; border: none; border-radius: 6px; padding: 0.35rem 0.75rem; font-size: 0.8rem; font-weight: 800; cursor: pointer; display: flex; align-items: center; gap: 4px; transition: background 0.15s;">
+          🚀 Start Timer
+        </button>
+        <span class="js-as-timer-guide" style="font-size: 0.78rem; font-weight: 800; color: #334155;">
+          Klar til opstart (10 min i alt)
+        </span>
+      </div>
+      <div style="font-size: 1.1rem; font-weight: 900; color: #0f172a; font-variant-numeric: tabular-nums;">
+        <span class="js-as-timer-display">00:00</span>
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div style="width: 100%; height: 5px; background: #e2e8f0; border-radius: 3px; overflow: hidden;">
+      <div class="js-as-timer-bar" style="width: 0%; height: 100%; background: #2563eb; transition: width 0.25s linear;"></div>
+    </div>
+  </div>
+
+  <!-- 2. Belastningsdata -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem; margin-bottom: 1.25rem;">
     
     <!-- Fieldset 1 -->
-    <fieldset style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.5rem 0.75rem 0.6rem; margin: 0; background: #f8fafc;">
-      <legend style="padding: 0 0.3rem; font-weight: 700; font-size: 0.8rem; color: #1e293b;">1. belastning</legend>
+    <fieldset class="js-as-fieldset-1" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.5rem 0.75rem 0.6rem; margin: 0; background: #f8fafc; min-width: 0; box-sizing: border-box; transition: all 0.3s ease;">
+      <legend style="padding: 0 0.3rem; font-weight: 700; font-size: 0.8rem; color: #1e293b;">1. belastning (Min 0-6)</legend>
       
       <div style="display: flex; gap: 0.5rem; margin-bottom: 0.35rem;">
-        <div class="mp-form-group" style="flex: 1; margin: 0;">
+        <div class="mp-form-group" style="flex: 1; margin: 0; min-width: 0;">
           <label style="font-size: 0.75rem; font-weight: 700;">Belastning <span style="font-weight: normal; color: #64748b;">(watt)</span></label>
-          <input type="number" name="as_work1" class="mp-form-control js-as-input" min="50" max="400" placeholder="fx 100">
+          <input type="number" name="as_work1" class="mp-form-control js-as-input" min="50" max="400" placeholder="fx 100" style="width: 100%; box-sizing: border-box;">
         </div>
-        <div class="mp-form-group" style="flex: 1; margin: 0;">
+        <div class="mp-form-group" style="flex: 1; margin: 0; min-width: 0;">
           <label style="font-size: 0.75rem; font-weight: 700;">Puls <span style="font-weight: normal; color: #64748b;">(slag/min)</span></label>
-          <input type="number" name="as_hr1" class="mp-form-control js-as-input" min="80" max="220" placeholder="fx 130">
+          <input type="number" name="as_hr1" class="mp-form-control js-as-input" min="80" max="220" placeholder="fx 130" style="width: 100%; box-sizing: border-box;">
         </div>
       </div>
       
-      <!-- Ren, diskret tekst uden ekstra boks -->
-      <div style="font-size: 0.68rem; color: #64748b; line-height: 1.2; padding-top: 0.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-        💡 Puls skal ramme <strong>steady state (~120-140)</strong> efter ca. 5-6 min.
+      <div style="font-size: 0.68rem; color: #64748b; line-height: 1.35; padding-top: 0.1rem;">
+        💡 Puls skal ramme <strong>steady state (~120-140)</strong> i minut 5-6.
       </div>
     </fieldset>
 
     <!-- Fieldset 2 -->
-    <fieldset style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.5rem 0.75rem 0.6rem; margin: 0; background: #f8fafc;">
-      <legend style="padding: 0 0.3rem; font-weight: 700; font-size: 0.8rem; color: #1e293b;">2. belastning</legend>
+    <fieldset class="js-as-fieldset-2" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.5rem 0.75rem 0.6rem; margin: 0; background: #f8fafc; min-width: 0; box-sizing: border-box; transition: all 0.3s ease;">
+      <legend style="padding: 0 0.3rem; font-weight: 700; font-size: 0.8rem; color: #1e293b;">2. belastning (Min 6-10)</legend>
       
       <div style="display: flex; gap: 0.5rem; margin-bottom: 0.35rem;">
-        <div class="mp-form-group" style="flex: 1; margin: 0;">
+        <div class="mp-form-group" style="flex: 1; margin: 0; min-width: 0;">
           <label style="font-size: 0.75rem; font-weight: 700;">Belastning <span style="font-weight: normal; color: #64748b;">(watt)</span></label>
-          <input type="number" name="as_work2" class="mp-form-control js-as-input" min="50" max="400" placeholder="fx 180">
+          <input type="number" name="as_work2" class="mp-form-control js-as-input" min="50" max="400" placeholder="fx 180" style="width: 100%; box-sizing: border-box;">
         </div>
-        <div class="mp-form-group" style="flex: 1; margin: 0;">
+        <div class="mp-form-group" style="flex: 1; margin: 0; min-width: 0;">
           <label style="font-size: 0.75rem; font-weight: 700;">Puls <span style="font-weight: normal; color: #64748b;">(slag/min)</span></label>
-          <input type="number" name="as_hr2" class="mp-form-control js-as-input" min="80" max="220" placeholder="fx 160">
+          <input type="number" name="as_hr2" class="mp-form-control js-as-input" min="80" max="220" placeholder="fx 160" style="width: 100%; box-sizing: border-box;">
         </div>
       </div>
 
-      <!-- Ren, diskret tekst uden ekstra boks -->
-      <div style="font-size: 0.68rem; color: #64748b; line-height: 1.2; padding-top: 0.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-        💡 Puls skal ramme <strong>steady state (~150-170)</strong> efter yderligere 4-5 min.
+      <div style="font-size: 0.68rem; color: #64748b; line-height: 1.35; padding-top: 0.1rem;">
+        💡 Puls skal ramme <strong>steady state (~150-170)</strong> i minut 9-10.
       </div>
     </fieldset>
 
   </div>
 
-  <!-- 3. Resultater (Explicit position: relative tvinger absolute børne-elementer til at blive HER) -->
+  <!-- 3. Resultater -->
   <div style="margin-bottom: 1.5rem; position: relative !important;">
     
     <div class="mp-results-split">
       
-      <!-- Venstre: Kondital & Slider -->
+      <!-- Venstre: Kondital & Slider (Kompakt layout med SEE) -->
       <div class="mp-results-left">
-        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 1.25rem; text-align: center;">
-          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; margin-bottom: 0.25rem; color: #1e40af; font-weight: 700;">
+        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 0.85rem 1rem; text-align: center;">
+          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; color: #1e40af; font-weight: 700; line-height: 1.1;">
             Estimeret Kondital
           </div>
           
-          <div class="js-as-fitness" style="font-size: 3.8rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.25rem 0;">-</div>
-          <div style="font-size: 0.95rem; font-weight: 800; color: #3b82f6;">ml/kg/min</div>
-          
+          <div class="js-as-fitness" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.15rem 0;">-</div>
+          <div style="font-size: 0.9rem; font-weight: 800; color: #3b82f6; line-height: 1;">ml/kg/min</div>
+          <div style="font-size: 0.7rem; font-weight: 600; color: #64748b; margin-top: 0.2rem;">± 10-15% (ca. ± 4,5)</div>
+
           <!-- Slider -->
-          <div class="mp-fitness-continuum" style="margin-top: 1.25rem;">
+          <div class="mp-fitness-continuum" style="margin-top: 0.5rem;">
             <div class="mp-continuum-bar-wrapper">
               <div class="mp-continuum-bar">
                 <div class="mp-segment" style="background: #ef4444;"></div>
@@ -138,7 +159,7 @@
               </div>
               <div class="js-as-continuum-marker mp-continuum-marker" style="display: none;"></div>
             </div>
-            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 4px; text-transform: uppercase;">
+            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 3px; text-transform: uppercase;">
               <span>Lav</span>
               <span>Høj</span>
             </div>
@@ -190,11 +211,11 @@
       </div>
     </div>
 
-    <!-- Popup-tabel: Låst præcist til resultatsektionen via top/bottom/left/right 0 -->
+    <!-- Popup-tabel -->
     <div class="js-as-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
       
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
-        <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</h4>
+        <div style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</div>
         <button type="button" class="js-as-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
       </div>
 

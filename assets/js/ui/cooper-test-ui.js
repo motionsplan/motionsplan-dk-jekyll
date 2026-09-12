@@ -1,6 +1,9 @@
 // assets/js/ui/cooper-test-ui.js
 import { calculateCooperTest } from '../core/cooper-test.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
+
+const TEST_ID = 'cooper_12min';
 
 export function initCooperTest(container) {
   if (!container) return;
@@ -10,6 +13,10 @@ export function initCooperTest(container) {
   const ageInput = container.querySelector('[name="cooper_age"]');
   const weightInput = container.querySelector('[name="cooper_weight"]');
   const weightHelper = container.querySelector('.js-cooper-weight-helper');
+
+  // Gem-knap og status-indikatorer
+  const saveBtn = container.querySelector('.js-cooper-save-btn') || container.querySelector('.js-save-btn');
+  const saveStatus = container.querySelector('.js-cooper-save-status');
 
   // DOM elementer til resultater
   const resFitness = container.querySelector('.js-cooper-fitness');
@@ -31,45 +38,114 @@ export function initCooperTest(container) {
 
   let isManuallySelected = false;
 
-  // --- STATE MANAGEMENT (Sikker) ---
-  function saveState() {
-    try {
-      const genderEl = container.querySelector('input[name="cooper_gender"]:checked');
-      const state = {
-        formula: formulaSelect ? formulaSelect.value : 'auto',
-        isManuallySelected: isManuallySelected,
-        distance: distInput ? distInput.value : '',
-        age: ageInput ? ageInput.value : '',
-        weight: weightInput ? weightInput.value : '',
-        gender: genderEl ? genderEl.value : 'male'
-      };
-      localStorage.setItem('mp_cooper_state', JSON.stringify(state));
-    } catch (e) {
-      // Ignorer localStorage fejl
-    }
-  }
+  // --- 1. INDLÆS KLADDE ELLER PROFIL ---
+  function loadInitialData() {
+    const profile = StorageAdapter.getProfile();
+    const draft = StorageAdapter.loadDraft(TEST_ID);
 
-  function loadState() {
-    try {
-      const saved = localStorage.getItem('mp_cooper_state');
-      if (saved) {
-        const state = JSON.parse(saved);
-        if (state.formula && formulaSelect) formulaSelect.value = state.formula;
-        if (state.isManuallySelected !== undefined) isManuallySelected = state.isManuallySelected;
-        if (state.distance && distInput) distInput.value = state.distance;
-        if (state.age && ageInput) ageInput.value = state.age;
-        if (state.weight && weightInput) weightInput.value = state.weight;
-        if (state.gender) {
-          const radio = container.querySelector(`input[name="cooper_gender"][value="${state.gender}"]`);
-          if (radio) radio.checked = true;
-        }
+    if (draft) {
+      if (draft.formula && formulaSelect) formulaSelect.value = draft.formula;
+      if (draft.isManuallySelected !== undefined) isManuallySelected = draft.isManuallySelected;
+      if (draft.distance && distInput) distInput.value = draft.distance;
+      if (draft.age && ageInput) ageInput.value = draft.age;
+      if (draft.weight && weightInput) weightInput.value = draft.weight;
+      if (draft.gender) {
+        const radio = container.querySelector(`input[name="cooper_gender"][value="${draft.gender}"]`);
+        if (radio) radio.checked = true;
       }
-    } catch (e) {
-      console.warn("Kunne ikke indlæse gemt tilstand", e);
+    } else {
+      // Falder tilbage på globale bruger-stamdata
+      if (ageInput && profile.age) ageInput.value = profile.age;
+      if (weightInput && profile.weight) weightInput.value = profile.weight;
+      if (profile.gender) {
+        const radio = container.querySelector(`input[name="cooper_gender"][value="${profile.gender}"]`);
+        if (radio) radio.checked = true;
+      }
     }
   }
 
-  // --- BEREGNINGSLOGIK ---
+  // --- 2. GEM REAKTIV KLADDE & STAMDATA ---
+  function saveDraftAndProfile() {
+    const genderEl = container.querySelector('input[name="cooper_gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'male';
+    const age = parseInt(ageInput ? ageInput.value : '0', 10);
+    const weight = parseFloat(weightInput ? weightInput.value : '');
+
+    // Opdater globale stamdata
+    if (age > 0 || weight > 0) {
+      StorageAdapter.saveProfile({
+        ...(age > 0 && { age }),
+        ...(weight > 0 && { weight }),
+        gender
+      });
+    }
+
+    // Gem udkast til formularen
+    StorageAdapter.saveDraft(TEST_ID, {
+      formula: formulaSelect ? formulaSelect.value : 'auto',
+      isManuallySelected,
+      distance: distInput ? distInput.value : '',
+      age: ageInput ? ageInput.value : '',
+      weight: weightInput ? weightInput.value : '',
+      gender
+    });
+  }
+
+  // --- 3. LÅS OG GEM LOGS (COMMIT) ---
+  function commitResult() {
+    const genderEl = container.querySelector('input[name="cooper_gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'male';
+    const distance = distInput ? distInput.value : '';
+    const age = parseInt(ageInput ? ageInput.value : '0', 10);
+    const weight = parseFloat(weightInput ? weightInput.value : '');
+
+    let chosenFormula = formulaSelect ? formulaSelect.value : 'auto';
+    if (!isManuallySelected) chosenFormula = 'auto';
+
+    const res = calculateCooperTest(distance, weight, chosenFormula);
+
+    if (!res || !res.isValid) {
+      alert('Indtast venligst en gyldig distance (meter) for at gemme resultatet.');
+      return;
+    }
+
+    const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
+    const userAge = age > 0 ? age : 30;
+    const evaluation = evaluateFitnessLevel(res.fitnessLevel, userAge, normGender);
+
+    // Gem i den universelle historik
+    StorageAdapter.commitToLog(TEST_ID, {
+      type: 'physical',
+      primary: {
+        value: parseFloat(res.formattedFitnessLevel),
+        unit: 'ml/kg/min',
+        label: 'Kondital'
+      },
+      norm: evaluation ? {
+        label: evaluation.label,
+        color: evaluation.color,
+        bg: evaluation.color + '18'
+      } : undefined,
+      subMetrics: {
+        distanceMeters: parseFloat(distance),
+        ...(res.maxOxygenUptake && { maxOxygenUptakeLMin: parseFloat(res.formattedVO2Max) })
+      },
+      context: {
+        age,
+        gender,
+        weight,
+        formulaKey: res.activeFormulaKey
+      }
+    });
+
+    if (saveStatus) {
+      saveStatus.textContent = '✅ Resultat gemt!';
+      saveStatus.style.display = 'block';
+      setTimeout(() => { saveStatus.style.display = 'none'; }, 3000);
+    }
+  }
+
+  // --- 4. BEREGNING & VISNING ---
   function calculate() {
     const genderEl = container.querySelector('input[name="cooper_gender"]:checked');
     const gender = genderEl ? genderEl.value : 'male';
@@ -101,7 +177,7 @@ export function initCooperTest(container) {
       }
       if (infoIcon) infoIcon.textContent = res.isRecommended ? '🏆' : '⚙️';
 
-      // Evaluation & Slider
+      // Evaluering og Continuum Slider
       const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
       const userAge = age > 0 ? age : 30; 
       const evaluation = evaluateFitnessLevel(res.fitnessLevel, userAge, normGender);
@@ -143,7 +219,7 @@ export function initCooperTest(container) {
         marker.style.display = 'block';
       }
 
-      // Popup tabel
+      // Popup norm-tabel
       if (thresholds && tableBody && age > 0) {
         const tableData = [
           { name: 'Meget højt', range: `> ${thresholds[3]}` },
@@ -205,11 +281,15 @@ export function initCooperTest(container) {
         if (input === formulaSelect && eventType === 'change') {
           isManuallySelected = (formulaSelect.value !== 'auto');
         }
-        saveState();
+        saveDraftAndProfile();
         calculate();
       });
     });
   });
+
+  if (saveBtn) {
+    saveBtn.addEventListener('click', commitResult);
+  }
 
   if (tableBtn && popup && popupClose) {
     tableBtn.addEventListener('click', () => {
@@ -235,7 +315,7 @@ export function initCooperTest(container) {
         else if (input.type !== 'radio') input.value = '';
       });
       if (popup) popup.style.display = 'none';
-      try { localStorage.removeItem('mp_cooper_state'); } catch(e){}
+      StorageAdapter.clearDraft(TEST_ID);
       calculate();
     });
   }
@@ -256,8 +336,8 @@ export function initCooperTest(container) {
     });
   }
 
-  // Kør opstart
-  loadState();
+  // Opstart
+  loadInitialData();
   calculate();
 }
 

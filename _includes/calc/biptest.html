@@ -2,9 +2,9 @@
 
 <div class="mp-calc-card" data-calculator="biptest" style="max-width: 700px; margin: 0 auto; position: relative;">
 
-  <!-- Header & Introduktion -->
-  <div class="mp-calc-header" style="margin-bottom: 0.35rem;">
-    <h3 class="mp-calc-title" style="margin-bottom: 0;">🔊 Yo-Yo & Bip-test (20m Shuttle Run)</h3>
+  <!-- Header & Introduktion uden <hx> tags -->
+  <div class="mp-calc-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+    <div class="mp-calc-title" style="margin-bottom: 0; font-size: 1.25rem; font-weight: 800; color: #0f172a;">🔊 Yo-Yo & Bip-test (20m Shuttle Run)</div>
     <div data-html2canvas-ignore="true">
       <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 32px; height: 32px; object-fit: contain; border-radius: 6px;">
     </div>
@@ -53,13 +53,12 @@
     </div>
   </div>
 
-<!-- TRIN 2: TESTVALG (Synlige knapper med baggrundsramme) -->
+  <!-- TRIN 2: TESTVALG (Rene knapværdier: yye1, yye2, bip) -->
   <div style="margin-bottom: 1.25rem;">
     <div style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #475569; margin-bottom: 0.5rem;">
       2. Vælg Testtype
     </div>
 
-    <!-- Knap-container med lys baggrund og kant, så uvalgte knapper ligner rigtige knapper -->
     <div class="mp-toggle-group" style="display: flex; height: auto; min-height: initial; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; padding: 4px; gap: 4px;">
       
       <!-- Knap 1: YYE1 -->
@@ -80,9 +79,9 @@
         </div>
       </label>
 
-      <!-- Knap 3: Léger -->
+      <!-- Knap 3: Bip-test (Léger 20m) -->
       <label style="flex: 1; margin: 0; position: relative;">
-        <input type="radio" name="bip_formula" value="leger1988" class="js-bip-input">
+        <input type="radio" name="bip_formula" value="leger" class="js-bip-input">
         <div class="mp-toggle-btn" style="padding: 0.5rem 0.3rem; height: auto; min-height: initial; flex-direction: column; justify-content: center; align-items: center; text-align: center; border-radius: 6px;">
           <span style="font-size: 0.8rem; font-weight: 800; line-height: 1.2; display: block;">Léger Biptest</span>
           <span style="font-size: 0.65rem; font-weight: 500; opacity: 0.85; margin-top: 2px; display: block; line-height: 1.25;">Den oprindelige bip-test.<br>(Multi-stage)</span>
@@ -228,7 +227,7 @@
     <div class="js-bip-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
       
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
-        <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</h4>
+        <div style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</div>
         <button type="button" class="js-bip-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
       </div>
 
@@ -245,10 +244,18 @@
   </div>
 
   <!-- Action knapper -->
-  <div class="mp-action-group" style="margin-bottom: 1rem;" data-html2canvas-ignore="true">
-    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag billede</button>
-    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd felter">🗑️</button>
+  <div class="mp-action-group" style="display: flex; gap: 8px; margin-bottom: 1rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-bip-save-btn" style="flex: 1; background: #2563eb; color: #ffffff; transition: all 0.2s ease;">
+      💾 Gem resultat
+    </button>
+    <button type="button" class="mp-btn-action-reset js-download-btn" title="Tag billede">
+      📸
+    </button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd felter">
+      🗑️
+    </button>
   </div>
+  
   <div style="text-align: center; font-size: 0.7rem; color: #94a3b8; font-weight: 600;">&copy; motionsplan.dk</div>
 
 </div>

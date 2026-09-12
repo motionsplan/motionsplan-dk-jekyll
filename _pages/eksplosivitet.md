@@ -71,7 +71,7 @@ Gem dine testresultater direkte i browseren. Indtast dine værdier for de fire f
 
 ---
 
-## De 4 Eksplosive Bevægelsesretninger
+## De 4 eksplosive bevægelsesretninger
 
 For at få et komplet og retfærdigt billede af din samlede eksplosive profil opdeles træningen og testene i fire overskuelige hovedområder. Hver kategori har én primær kernetest samt sekundære testmuligheder:
 
