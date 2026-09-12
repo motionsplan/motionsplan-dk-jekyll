@@ -3,7 +3,6 @@ import { AASTRAND_ETPUNKTSTEST_FORMULAS } from '../core/aastrand-etpunktstest.js
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
 import { StorageAdapter } from '../core/StorageAdapter.js';
 
-// Matcher storageKey i KONDITION_LIBRARY
 const TEST_ID = 'astrand_bike';
 
 export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunktstest-all') {
@@ -20,7 +19,8 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
   const wattInput = container.querySelector('[data-input="watt"]');
   const hrInput = container.querySelector('[data-input="hr"]');
 
-  // DOM Guides
+  // DOM Notice / Advarsel
+  const noticeEl = container.querySelector('#aastrand-etpunktstest-notice');
   const wattGuide = container.querySelector('.js-astrand-watt-guide');
 
   // DOM Resultatfelter
@@ -92,14 +92,42 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
     });
 
     if (wattGuide) {
-      if (gender === 'female') {
-        wattGuide.textContent = '(Vejledende: 50–100W)';
-      } else {
-        wattGuide.textContent = '(Vejledende: 100–150W)';
-      }
+      wattGuide.textContent = (gender === 'female') ? '(Vejledende: 50–100W)' : '(Vejledende: 100–150W)';
     }
 
     calculate();
+  }
+
+  function updateNoticeUI(hrVal) {
+    if (!noticeEl) return;
+
+    const wattText = (currentGender === 'female') ? '(Vejledende: 50–100W)' : '(Vejledende: 100–150W)';
+
+    if (!hrVal || isNaN(hrVal)) {
+      noticeEl.style.color = '#64748b';
+      noticeEl.innerHTML = `
+        <span>💡</span>
+        <span>Puls skal ramme steady state (~120–170 bpm) efter ca. 5–6 min. <span class="js-astrand-watt-guide" style="font-weight: 700; color: #475569;">${wattText}</span></span>
+      `;
+    } else if (hrVal < 120) {
+      noticeEl.style.color = '#dc2626';
+      noticeEl.innerHTML = `
+        <span>⚠️</span>
+        <span><strong>Pulsen er for lav (${hrVal} bpm):</strong> Arbejdspulsen nåede ikke det gyldige steady-state interval (120–170 bpm). Gentag testen med en højere belastning (+25–50 W).</span>
+      `;
+    } else if (hrVal > 170) {
+      noticeEl.style.color = '#dc2626';
+      noticeEl.innerHTML = `
+        <span>⚠️</span>
+        <span><strong>Pulsen er for høj (${hrVal} bpm):</strong> Arbejdspulsen ligger over det gyldige interval (120–170 bpm). Gentag testen med en lavere belastning.</span>
+      `;
+    } else {
+      noticeEl.style.color = '#16a34a';
+      noticeEl.innerHTML = `
+        <span>✅</span>
+        <span><strong>Godkendt arbejdspuls (${hrVal} bpm):</strong> Pulsen er inden for det gyldige steady-state interval (120–170 bpm).</span>
+      `;
+    }
   }
 
   function calculate() {
@@ -109,6 +137,9 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
     const weightVal = weightInput ? parseFloat(weightInput.value) || 0 : 0;
     const wattVal = wattInput ? parseFloat(wattInput.value) || 0 : 0;
     const hrVal = hrInput ? parseFloat(hrInput.value) || 0 : 0;
+
+    // Opdater dynamisk advarselstekst
+    updateNoticeUI(hrVal);
 
     const params = {
       gender: currentGender,
@@ -143,7 +174,6 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
 
       buildPopupTable(res.fitnessLevel, ageVal, currentGender, evaluation);
 
-      // AUTOMATISK GEM I LOGGEN VIA STORAGEADAPTER
       StorageAdapter.commitToLog(TEST_ID, {
         type: 'physical',
         primary: {
@@ -241,7 +271,6 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
     });
   }
 
-  // Event Listeners
   genderBtns.forEach(btn => {
     btn.addEventListener('click', () => updateGenderUI(btn.getAttribute('data-gender')));
   });
@@ -251,9 +280,7 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
   });
 
   if (saveBtn) {
-    saveBtn.addEventListener('click', () => {
-      calculate();
-    });
+    saveBtn.addEventListener('click', calculate);
   }
 
   if (resetBtn) {
@@ -283,7 +310,6 @@ export function initAAstrandEtpunktstestUI(container, calcId = 'aastrand-etpunkt
     });
   }
 
-  // Opstart
   loadInitialData();
   updateGenderUI(currentGender);
 }

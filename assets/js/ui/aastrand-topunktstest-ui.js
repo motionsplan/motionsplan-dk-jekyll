@@ -146,7 +146,7 @@ export function initAstrand(container) {
 
     if (elapsedSecs >= TOTAL_TEST_SECONDS) {
       stopTimer();
-      if (timerGuide) timerGuide.textContent = '✅ Test gennemført! Tjek dine beregnede resultater nedenfor.';
+      if (timerGuide) timerGuide.textContent = '✅ Test gennemført! Indtast puls og intensitet.';
     }
   }
 

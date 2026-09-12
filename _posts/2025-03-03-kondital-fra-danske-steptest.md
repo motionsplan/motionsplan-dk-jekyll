@@ -44,7 +44,7 @@ breadcrumbs: true
 ---
 Den Danske Steptest eller Den Nye Steptest er en præstationsbegrænset submaksimal test, der estimerer den maksimale iltoptagelse og konditallet.
 
-I forhold til de andre [steptests](/kondital-fra-steptest/) så er fordelen, at du i denne test ikke skal tælle din puls efterfølgende.
+I forhold til de andre [steptests](/kondital-fra-steptest/) så er fordelen, at du i denne test ikke skal tælle din puls efterfølgende, og den adskiller sig ved at have et progressivt stignede tempo gennem hele testen.
 
 I denne artikel gennemgår vi protokollen for Den Danske Steptest, og hvordan du kan bruge den til at estimere dit kondital uden brug af pulsmåler.
 
@@ -85,7 +85,7 @@ Her kan du bestemme bokshøjden.
 1. **Forberedelse**  
    Find den rette bokshøjde (20–35 cm) med beregneren ovenfor. En af de største fordele ved Den Danske Steptest er, at du **ikke** skal måle din puls undervejs eller tælle pulsslag bagefter.
 2. **Start testen**  
-   Start vores interaktive guide nedenfor. Træd op og ned af boksen i takt med timeren og animationen. Tempoet stiger automatisk for hvert minut (fra 60 BPM på niveau 1 til 120 BPM på niveau 6).
+   Start vores interaktive guide nedenfor. Træd op og ned af boksen i takt med timeren og animationen. Tempoet stiger glidende og uafbrudt undervejs (fra 48 BPM ved start til 192 BPM efter 6 minutter).
 3. **Notér din tid**  
    Notér den nøjagtige tid i sekunder (eller det niveau du nåede til), da du stoppede testen.
 4. **Hvornår stopper testen?**  
@@ -97,7 +97,7 @@ Her kan du bestemme bokshøjden.
 ## Tag testen med interaktiv guide
 {: id="timer" }
 
-Brug afspilleren nedenfor til at holde det præcise tempo under testen. Skærmen holdes automatisk tændt på din enhed. Du kan finde den originale afspiller på [exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest).
+Indtast dit køn, din alder, kropsvægt, den anvendte bokshøjde samt din samlede steptid i sekunder herunder - Du kan finde den originale afspiller på [exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest).
 
 {% include components/steptest-timer.html type="dansk" %}
 
@@ -110,31 +110,54 @@ Indtast din alder, den anvendte bokshøjde samt din målte puls for de gennemfø
 
 ## Baggrunden for Den Danske Steptest
 
-Den Danske Steptest bruger kun trinhøjden, tiden og kropsvægten som input for at lave sine beregninger til at estimere det den maksimale iltoptagelse og konditallet.
+Den Danske Steptest bruger kun trinhøjden, steptiden og kropsvægten som input til sine beregninger for at estimere den maksimale iltoptagelse og konditallet.
 
-Som baggrund for Den Danske Steptest bruger [Morten Zacho](https://exercise.dk/kondition/43-den-danske-steptest) følgende teoretiske sammenhæng:
+Som teoretisk baggrund for Den Danske Steptest benytter [Morten Zacho](https://exercise.dk/kondition/43-den-danske-steptest) fysiologiske principper for mekanisk arbejde, energiproduktion og nyttevirkning.
+
+### 1. Det mekaniske arbejde
+Når du træder op og ned af en boks, udfører du et mekanisk arbejde mod tyngdekraften. Det teoretiske arbejde beregnes som:
 
 $$
 \text{arbejde}_{\text{total}} = \frac{\text{kropsvægt} \times \text{tyngdeacceleration} \times \text{stephøjde} \times \text{stepfrekvens}}{\text{nyttevirkning}}
 $$
 
-Tyngdekraften er ifølge [Wikipedia](https://da.wikipedia.org/wiki/Tyngdeacceleration) 9,816 m/s<sup>2</sup> i Danmark. Det totale arbejde er i sidste ende præstationsbegrænset ved at både koordinationen og kredsløbet kan være den begrænsende faktor.
+* **Tyngdeaccelerationen** i Danmark er ifølge [Wikipedia](https://da.wikipedia.org/wiki/Tyngdeacceleration) sat til $9{,}816 \text{ m/s}^2$.
+* **Nyttevirkningen** (kroppens mekaniske effektivitet ved steptest) sættes til $25\%$ ($0{,}25$), da kun omkring en fjerdedel af den kemiske energi omsættes til ydre mekanisk arbejde, mens resten afgives som varme.
+
+Det totale arbejde er i sidste ende præstationsbegrænset, hvor enten den lokale muskulære koordination eller kredsløbet udgør den begrænsende faktor.
+
+### 2. Fra mekanisk arbejde til iltoptagelse ($VO_2$)
+For at omregne det udførte mekaniske arbejde til et iltforbrug benyttes iltens energetiske værdi:
+
+* **Energiækvivalent:** Når vi yder vort maksimale, forbrænder kroppen udelukkende kulhydrat (se [den respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/)). Forbrænding af kulhydrat frigiver $21{,}1 \text{ kJ pr. liter ilt}$.
+* **Hvilestofskifte:** Hvilestofskiftet er sat til cirka [0,25 liter O₂ pr. minut](https://web.archive.org/web/20230307005511/http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf){: rel="nofollow" }.
 
 $$
-\text{VO}_2\text{max} = \frac{\frac{\text{arbejde}_{\text{total}}}{\text{O}_2\text{-energi}}}{\text{intensitet}_{\text{slut}}} + \text{VO}_2\text{hvile}
+\text{VO}_2\text{max} = \frac{\frac{\text{arbejde}_{\text{total}}}{\text{O}_2\text{-energi}}}{\text{tid}} + \text{VO}_2\text{hvile}
 $$
 
-Hvilestofskiftet er cirka [0,25 liter O₂ pr. minut](https://web.archive.org/web/20230307005511/http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf){: rel="nofollow" }. Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/).
+### 3. Hvordan slutintensiteten estimeres uden puls
+Da tempoet i Den Danske Steptest stiger uafbrudt og lineært over tid ($f(t) = 0{,}2 + 0{,}001666 \cdot t \text{ Hz}$), stiger det akkumulerede arbejde kvadratisk i forhold til tiden ($t^2$).
 
-Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat. 
+Modellen behøver derfor ikke en pulsmåling: Den antager, at den tid, du formår at opretholde kadencen, repræsenterer din maksimale ydeevne. Ved at integrere det samlede arbejde over den gennemførte steptid beregner algoritmen direkte spidsbelastningen (slutintensiteten) i det øjeblik, du må stoppe.
 
-Hvordan testen estimerer slutintensiteten er ikke klart, men hvis du ved det, så brug endelig kommentarerne.
-
-Når man kender den estimerede VO₂max, så kan man udregne konditallet.
+### 4. Beregning af kondital
+Når den samlede maksimale iltoptagelse ($\text{VO}_2\max$ i $\text{L/min}$) er fundet, omregnes den til det relativerede kondital ($\text{mL/kg/min}$):
 
 $$
-\text{kondital} = \frac{\text{VO}_2\text{max}}{\text{kropsvægt}}
+\text{kondital} = \frac{\text{VO}_2\max \times 1000}{\text{kropsvægt}}
 $$
+
+## Tempoet i Den Danske Steptest
+
+Den Danske Steptest benytter en glidende og uafbrudt accelererende kadence frem for faste minutsatser.
+
+* **Starttempo:** 48 BPM (12 hele stepcyklusser pr. minut).
+* **Glidende acceleration:** Tempoet stiger uafbrudt med **+0,4 BPM pr. sekund** (+24 BPM for hvert minut).
+* **Sluttempo (6 minutter):** Efter 360 sekunder når testen sit maksimale tempo på **192 BPM** (48 stepcyklusser pr. minut).
+* **Steptakt:** Hver stepcyklus består af en 4-takt (*Fod 1 op, Fod 2 op, Fod 1 ned, Fod 2 ned*).
+
+Den lineære acceleration sikrer, at den fysiologiske belastning og det akkumulerede arbejde stiger helt jævnt undervejs i testen.
 
 ## Hvor pålidelig er steptesten?
 

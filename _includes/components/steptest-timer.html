@@ -9,7 +9,7 @@
   {% when "queens" %}{% assign test_name = "Queens College Step Test" %}
   {% when "queens-m" %}{% assign test_name = "Queens College Step Test" %}
   {% when "queens-f" %}{% assign test_name = "Queens College Step Test" %}
-  {% when "dansk" %}{% assign test_name = "Den Danske Steptest (Progressiv 60-120 BPM)" %}
+  {% when "dansk" %}{% assign test_name = "Den Danske Steptest (Glidende 48-192 BPM)" %}
   {% when "chester" %}{% assign test_name = "Chester Step Test (Progressiv 60-140 BPM)" %}
   {% when "harvard" %}{% assign test_name = "Harvard Step Test (120 BPM)" %}
   {% when "astrand" %}{% assign test_name = "Åstrand-Ryhming (90 BPM)" %}
@@ -42,7 +42,7 @@
         <option value="ymca">YMCA 3-Minutters Steptest (96 BPM)</option>
         <option value="ymca_modified">YMCA Modified Steptest (96 BPM)</option>
         <option value="queens">Queens College (M: 96 BPM / K: 88 BPM)</option>
-        <option value="dansk">Den Danske Steptest (Progressiv 60-120 BPM)</option>
+        <option value="dansk">Den Danske Steptest (Glidende 48-192 BPM)</option>
         <option value="chester">Chester Step Test (Progressiv 60-140 BPM)</option>
         <option value="harvard">Harvard Step Test (120 BPM)</option>
         <option value="astrand">Åstrand-Ryhming (90 BPM)</option>
@@ -78,7 +78,7 @@
   <div class="steptest-info-bar">
     <div class="info-badge">
       <span class="info-label">TEMPO</span>
-      <span class="info-value bpm-display">96 BPM</span>
+      <span class="info-value bpm-display">48 BPM</span>
     </div>
     <div class="info-badge">
       <span class="info-label">NIVEAU</span>
@@ -86,7 +86,7 @@
     </div>
     <div class="info-badge">
       <span class="info-label">SAMLET STEPTID</span>
-      <span class="info-value total-time-display">03:00</span>
+      <span class="info-value total-time-display">06:00</span>
     </div>
   </div>
 
@@ -95,7 +95,7 @@
 
   <!-- Timer & Fremdriftsbar -->
   <div class="steptest-timer-container">
-    <div class="steptest-timer timer-display">03:00</div>
+    <div class="steptest-timer timer-display">06:00</div>
     <div class="steptest-progress-track" title="Samlet fremdrift">
       <div class="steptest-progress-bar progress-bar"></div>
     </div>
@@ -283,13 +283,10 @@ document.addEventListener("DOMContentLoaded", function() {
     'dansk': {
       name: 'Den Danske Steptest',
       alternateLead: true,
+      isContinuous: true,
+      startBpm: 48,
       stages: [
-        { duration: 60, bpm: 60, label: 'Niveau 1' },
-        { duration: 60, bpm: 72, label: 'Niveau 2' },
-        { duration: 60, bpm: 84, label: 'Niveau 3' },
-        { duration: 60, bpm: 96, label: 'Niveau 4' },
-        { duration: 60, bpm: 108, label: 'Niveau 5' },
-        { duration: 60, bpm: 120, label: 'Niveau 6' }
+        { duration: 360, bpm: 48, label: 'Glidende (6 min)' }
       ]
     },
     'chester': {
@@ -357,9 +354,13 @@ document.addEventListener("DOMContentLoaded", function() {
     let isRunning = false;
     let beatTimeoutId = null;
     let timerIntervalId = null;
-    let nextBeatTime = 0;
     let wakeLock = null;
     let audioCtx = null;
+
+    // Zacho 1:1 cyklus-variabler for Den Danske Steptest
+    let stepStartTime = 0;
+    let currentCycle = 0;
+    let cycleStartTime = 0;
 
     const btnFullscreen = widget.querySelector(".btn-fullscreen");
     const iconExpand = widget.querySelector(".icon-expand");
@@ -435,6 +436,13 @@ document.addEventListener("DOMContentLoaded", function() {
       return activeStages.reduce((acc, s) => acc + s.duration, 0);
     }
 
+    function getCurrentBpm(preset, elapsedTotalSecs) {
+      if (preset.isContinuous) {
+        return Math.round((0.2 + elapsedTotalSecs * 0.001666) * 240);
+      }
+      return (mode === 'COUNTDOWN') ? activeStages[0].bpm : activeStages[stageIndex]?.bpm || 96;
+    }
+
     function loadPreset(key) {
       if (isRunning) stopTest();
       currentPresetKey = key;
@@ -447,6 +455,9 @@ document.addEventListener("DOMContentLoaded", function() {
       mode = 'IDLE';
       countdownLeft = 10;
       leadFoot = 'right';
+
+      currentCycle = 0;
+      cycleStartTime = 0;
 
       if (queensToggle) {
         if (key === 'queens' || key === 'queens-m' || key === 'queens-f') {
@@ -482,14 +493,16 @@ document.addEventListener("DOMContentLoaded", function() {
       } 
       else if (mode === 'STEPPING') {
         const curStage = activeStages[stageIndex];
-        bpmDisplay.textContent = `${curStage.bpm} BPM`;
-        stageDisplay.textContent = `${stageIndex + 1} / ${activeStages.length}`;
-        totalTimeDisplay.textContent = formatTime(getTotalStepDuration());
-        timerDisplay.textContent = formatTime(stageSecondsLeft);
 
         let elapsedTotal = 0;
         for (let i = 0; i < stageIndex; i++) elapsedTotal += activeStages[i].duration;
         elapsedTotal += (curStage.duration - stageSecondsLeft);
+
+        const currentBpm = getCurrentBpm(preset, elapsedTotal);
+        bpmDisplay.textContent = `${currentBpm} BPM`;
+        stageDisplay.textContent = `${stageIndex + 1} / ${activeStages.length}`;
+        totalTimeDisplay.textContent = formatTime(getTotalStepDuration());
+        timerDisplay.textContent = formatTime(stageSecondsLeft);
         
         const pct = Math.min(100, Math.max(0, (elapsedTotal / getTotalStepDuration()) * 100));
         progressBar.style.width = `${pct}%`;
@@ -603,34 +616,60 @@ document.addEventListener("DOMContentLoaded", function() {
           setIdleFeet();
           instruction.textContent = `🛑 GØR DIG KLAR PÅ GULVET! Testen starter om ${Math.max(1, Math.ceil(countdownLeft))}...`;
         }
+
+        const intervalMs = (60 / activeStages[0].bpm) * 1000;
+        beatTimeoutId = setTimeout(scheduleNextBeat, Math.max(0, intervalMs));
       }
       else if (mode === 'STEPPING') {
-        if (currentBeat === 0 && currentPreset.alternateLead) {
-          let elapsed = 0;
-          for (let i = 0; i < stageIndex; i++) elapsed += activeStages[i].duration;
-          elapsed += (activeStages[stageIndex].duration - stageSecondsLeft);
-          if (elapsed > 0) leadFoot = (leadFoot === 'right') ? 'left' : 'right';
-        }
-
         animateStep(currentBeat);
 
         if (soundMode === 'all') playBeep(currentBeat === 0 ? 880 : 440);
         else if (soundMode === 'first' && currentBeat === 0) playBeep(880);
 
-        currentBeat = (currentBeat + 1) % 4;
+        if (currentPreset.isContinuous) {
+          // --- Zacho 1:1 Eksakt Matematik for Den Danske Steptest ---
+          const f_cycle = 0.2 + (cycleStartTime * 0.001666);
+          const C_duration = 1 / f_cycle;
+          const B_duration = C_duration / 4;
+
+          let nextBeatTargetSec = 0;
+
+          if (currentBeat < 3) {
+            currentBeat++;
+            nextBeatTargetSec = cycleStartTime + (currentBeat * B_duration);
+          } else {
+            currentCycle++;
+            cycleStartTime += C_duration;
+            currentBeat = 0;
+            if (currentPreset.alternateLead) {
+              leadFoot = (currentCycle % 2 === 0) ? 'right' : 'left';
+            }
+            nextBeatTargetSec = cycleStartTime;
+          }
+
+          const targetTimeMs = stepStartTime + (nextBeatTargetSec * 1000);
+          const delayMs = Math.max(0, targetTimeMs - performance.now());
+          beatTimeoutId = setTimeout(scheduleNextBeat, delayMs);
+
+        } else {
+          // Standard fast-BPM steptest (YMCA, Queens, Chester, osv.)
+          if (currentBeat === 3 && currentPreset.alternateLead) {
+            leadFoot = (leadFoot === 'right') ? 'left' : 'right';
+          }
+          currentBeat = (currentBeat + 1) % 4;
+
+          let elapsedTotal = 0;
+          for (let i = 0; i < stageIndex; i++) elapsedTotal += activeStages[i].duration;
+          elapsedTotal += (activeStages[stageIndex].duration - stageSecondsLeft);
+
+          const activeBpm = activeStages[stageIndex]?.bpm || 96;
+          const intervalMs = (60 / activeBpm) * 1000;
+          beatTimeoutId = setTimeout(scheduleNextBeat, Math.max(0, intervalMs));
+        }
       }
       else {
         setIdleFeet();
       }
-
-      const activeBpm = (mode === 'COUNTDOWN') ? activeStages[0].bpm : activeStages[stageIndex]?.bpm || 96;
-      const intervalMs = (60 / activeBpm) * 1000;
-      
-      const now = performance.now();
-      if (!nextBeatTime) nextBeatTime = now + intervalMs;
-      else nextBeatTime += intervalMs;
-
-      beatTimeoutId = setTimeout(scheduleNextBeat, Math.max(0, nextBeatTime - now));
     }
 
     function animateStep(beat) {
@@ -676,9 +715,9 @@ document.addEventListener("DOMContentLoaded", function() {
       if (mode === 'IDLE') {
         mode = 'COUNTDOWN';
         countdownLeft = 10;
+        leadFoot = 'right';
       }
 
-      nextBeatTime = 0;
       scheduleNextBeat();
 
       let lastTimestamp = performance.now();
@@ -702,6 +741,10 @@ document.addEventListener("DOMContentLoaded", function() {
             stageIndex = 0;
             stageSecondsLeft = activeStages[0].duration;
             currentBeat = 0;
+            currentCycle = 0;
+            cycleStartTime = 0;
+            leadFoot = 'right';
+            stepStartTime = performance.now();
             playBeep(1000, 0.2);
           }
         } 
@@ -822,6 +865,8 @@ document.addEventListener("DOMContentLoaded", function() {
       storedElapsedSteppingSeconds = null;
       countdownLeft = 10;
       currentBeat = 0;
+      currentCycle = 0;
+      cycleStartTime = 0;
       leadFoot = 'right';
 
       widget.classList.remove("is-finished");

@@ -71,7 +71,7 @@ export const STEPTEST_FORMULAS = {
     requiresWeight: true,
     requiresHeight: false,
     requiresStepHeight: false,
-    requiresMaxHr: true, // Nu synlig og redigerbar
+    requiresMaxHr: true,
     requiresPulse: true,
     requiresDuration: false,
     isRecommended: true
@@ -207,13 +207,11 @@ export function calculateStepTest({
       const userMaxHr = parseFloat(maxHr);
       const tanakaMax = Math.round(208 - (0.7 * userAge));
 
-      // Hvis brugeren manuelt har overskrevet sin maxpuls, benyttes reelt indtastet maxpuls
       if (!isNaN(userMaxHr) && userMaxHr > 100 && userMaxHr !== tanakaMax) {
         let rawVo2L = submaxVo2 * ((userMaxHr - 61) / (heartRate - 61));
         if (rawVo2L <= 0) rawVo2L = 1.0;
         vo2max = (rawVo2L * 1000) / bodyWeight;
       } else {
-        // Standard Åstrand (195 baseline + nomogram aldersfaktor)
         let rawVo2L = submaxVo2 * ((195 - 61) / (heartRate - 61));
         if (rawVo2L <= 0) rawVo2L = 1.0;
         const ageFactor = getAstrandAgeFactor(userAge);
@@ -289,8 +287,12 @@ export function calculateStepTest({
     case 'dansk': {
       if (isNaN(testDuration) || testDuration <= 0) return { isValid: false };
       const timeInSec = Math.min(360, testDuration);
-      vo2max = (0.118 * timeInSec) + (0.75 * boxHeightCm) - 4.5;
-      if (!isMale) vo2max *= 0.90;
+      const stepHeightMeters = boxHeightCm / 100;
+      
+      // Morten Zachos originale fysiologiske formel fra step.js
+      const vo2Lmin = (0.6 + (0.0035 * bodyWeight) + (bodyWeight * timeInSec * ((timeInSec * 0.000000192) + 0.00002305))) * (stepHeightMeters / 0.25);
+      
+      vo2max = (vo2Lmin * 1000) / bodyWeight;
       break;
     }
   }
