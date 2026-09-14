@@ -1,6 +1,6 @@
 ---
 title: 'Kondital: Hvad er et godt kondital? (Tabel & beregner)'
-seo_title: "Kondital: Se tabel for mænd og kvinder (og beregn dit eget)"
+seo_title: "Kondital: Beregner & tabel for mænd og kvinder"
 description: Hvad er et godt, højt kondital? Se kondital for mænd, kvinder, teenagere og børn i en samlet tabel og skema lige til at printe ud – eller beregn dit eget her!
 excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital for mænd, kvinder og børn i tabel. Find metoder til at teste dit kondital.
 keywords:
@@ -127,14 +127,14 @@ Hvad er et godt kondital, og hvordan finder du det? Konditallet siger meget om, 
 
 **I denne artikel finder du:**
 
-- **Kondital-tabeller:** Se normer for et godt kondital for mænd, kvinder og børn i alle aldersgrupper.
-- **Beregner fra sofaen:** Udregn et estimat på dit kondital ud fra din puls eller livsstil – helt uden træningstøj.
+- **[Kondital-tabeller](#table):** Se normer for et godt kondital for mænd, kvinder og børn i alle aldersgrupper.
+- **[Beregner fra sofaen](#calculator):** Udregn et estimat på dit kondital ud fra din puls eller livsstil – helt uden træningstøj.
 - **Fysiske konditionstests:** Find de mest populære løbe-, cykel- og gangtests til at måle dit præcise tal.
 - **Sundhed & rekordtal:** Læs om konditallets betydning for sygdomsrisiko, retfærdig vurdering for overvægtige og de højeste kondital nogensinde målt.
 
 [<i class='fas fa-table'></i> Gå til kondital-tabellen](#table){: .btn .btn--success .btn--jump }
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--info .btn--jump }
 [<i class='fas fa-clock'></i> Sådan tester du](#howto){: .btn .btn--success .btn--jump }
-[<i class='fas fa-calculator'></i> Lav en sofatest](#calculator){: .btn .btn--info .btn--jump }
 
 *[BMI]: Body Mass Index
 
@@ -271,7 +271,7 @@ Tokmakidis-formlen estimerer din maksimale iltoptagelse ($\text{VO}_2\max$) dire
 * **Kræver:** Løbedistance og løbetid (all-out præstation).
 * **Præcision:** Stærkt fysiologisk match til måling af den funktionelle motor under reelt løbearbejde.
 
-> **Læs mere:** Se teorien bag formlen i vores beregner til at finde [kondital ud fra en løbetur baseret på tid og distance](/kondital-loeb-distance-tid/). Vil du også have beregnet dine konkrete træningstempi (E-, T- og I-pace) samt VDOT-forudsigelser ud fra din løbetid, kan du prøve vores [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
+> **Læs mere:** Se teorien bag formlen i vores beregner til at finde [kondital ud fra en løbetur](/kondital-loeb-distance-tid/). Vil du også have beregnet dine konkrete træningstempi (E-, T- og I-pace) samt VDOT-forudsigelser ud fra din løbetid, kan du prøve vores [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
 </details>
 
 <details class="faq" markdown="1">
@@ -397,7 +397,7 @@ Vil du forbedre dit kondital, er der to primære knapper at skrue på:
 
 Du behøver ikke et avanceret laboratorium for at følge din fremgang. Hvis du bruger den samme [indirekte konditionstest](/kondition/tests/) regelmæssigt og præsterer bedre fra gang til gang, ved du med sikkerhed, at din form og sundhed er i fremgang.
 
-Har du en specifik løbetid, du gerne vil regne ud fra? Prøv vores [konditalberegner ud fra en løbetur](/kondital-loeb-distance-tid/).
+Har du en specifik løbetid, du gerne vil regne ud fra? Så har vi lavet et [værktøj til at finde dit kondital ud fra en løbetur](/kondital-loeb-distance-tid/).
 
 
 ---

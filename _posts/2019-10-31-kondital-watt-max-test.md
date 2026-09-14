@@ -91,7 +91,7 @@ Watt-max testen er en af de mest anvendte, præcise og enkle [konditionstests](/
 **⏱️ Kort fortalt: Sæt testen i gang**
 
 * **Standard-protokol (Andersen, 1995):** 5 min opvarmning (100W for mænd / 70 W for kvinder). Derefter **+35 watt hvert 2. minut** til udmattelse.
-* **Mål med testen:** At finde din **MPO** (*Maximal Power Output*) og beregne dit [kondital](/kondital/).
+* **Mål med testen:** At finde din **MPO** (*Maximal Power Output*) og [beregne dit kondital](/kondital/).
 * **Tidsforbrug:** Ca. 15–25 minutter inkl. opvarmning.
 </div>
 

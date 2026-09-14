@@ -1,7 +1,7 @@
 ---
-title: Beregn kondital ud fra løb (tid og distance)
-permalink: "/kondital-loeb-distance-tid/"
-seo_title: "Beregn kondital ud fra løb: Indtast tid & distance"
+title: Kondital ud fra løb (tid og distance)
+permalink: /kondital-loeb-distance-tid/
+seo_title: "Kondital ud fra løb: Beregn VO2max (Tid & Distance)"
 description: "Brug denne nemme beregner til at udregne dit kondital baseret på en løbetur. Indtast blot din distanceret og tid for at få dit resultat."
 excerpt: "Brug denne nemme beregner til at udregne dit kondital baseret på en løbetur. Indtast blot din distanceret og tid for at få dit resultat."
 language: da
@@ -72,6 +72,9 @@ breadcrumbs: 'true'
 
 Du kan beregne dit kondital ud fra en løbetur, du har løbet. Du indtaster bare, hvor mange kilometer du har løbet, og hvor lang tid det tog. I denne beregner kan du udregne dit kondital på baggrund af en løbetest, hvor du registrerer din hastighed og din distance.
 
+> 📊 **Vil du hellere beregne dit kondital uden en løbetest?**  
+> Hvis du leder efter andre metoder, så har vi samlet flere metoder til at [beregne dit kondital](/kondital/) – fx direkte fra sofaen.
+
 [<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 ## Find dit kondital fra løbetest
@@ -140,9 +143,6 @@ Formler baseret på kun tid og distance kan ikke kende forskel på din biologisk
 ## Andre konditionstests
 
 Du kan også bruge en [Cooper Test til at finde dit kondital](/cooper-test/) eller se alle de andre måder at lave en [beregning af dit kondital](/kondital/). Tjek også alle de andre [test af din kondition](/kondition/tests/).
-
-> 📊 **Skal du lave en beregning af dit kondital?**  
-> Brug vores samlede [kondital beregner](/kondital/) til at udregne dit formniveau hurtigt og præcist.
 
 **For flere smarte løbeværktøjer**, besøg vores [fulde samling af beregnere og værktøjer](/loebesiden/#beregnere).
 

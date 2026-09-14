@@ -70,6 +70,7 @@ $VO_2\text{-max}$ måler, hvor mange milliliter ilt dit hjerte, dine lunger og d
 
 ### A. Non-exercise estimering (HUNT-modellen)
 I mange år krævede en præcis bestemmelse af $VO_2\text{-max}$ en udmattende løbebåndstest med iltmaske. Forskere fra Norges Teknisk-Naturvitenskapelige Universitet (NTNU) har gennem det gigantiske **HUNT-studie** (med data fra over 230.000 personer) påvist, at man kan beregne iltoptagelsen med høj nøjagtighed ud fra fem fysiologiske markører:
+
 * Alder og køn
 * Taljemål eller BMI
 * Hvilepuls ($HR_{\text{rest}}$)
@@ -83,6 +84,8 @@ Kender du din hvilepuls og din maksimale puls, benytter testen den anerkendte **
 $$VO_2\text{-max} \approx 15{,}3 \cdot \left( \frac{HR_{\text{max}}}{HR_{\text{rest}}} \right)$$
 
 Formlen bygger på det direkte lineære forhold mellem hjertets maksimale slagvolumen og hvilepulsen.
+
+**Prøv**: Vores [konditalberegner](/kondital/#calculator), hvis du vil se flere tests.
 
 [Anslå kondital fra hvile- og maxpuls](/kondital-fra-puls/){: .btn .btn--large .btn--success }
 [Anslå kondital ud fra løbedistance](/kondital-loeb-distance-tid/){: .btn .btn--large .btn--info }
