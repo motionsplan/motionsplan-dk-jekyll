@@ -16,12 +16,13 @@ tags:
   - test
   - springtest
   - return-to-sport
+  - eksplosivitet
 # TESTS / PROTOKOLLER
 tests:
   - id: "test-hoptest-batteriet"
     title: "Hoptest-batteriet (Single, Triple, Crossover & 6m Timed Hop)"
     description: "Standardiseret fysiologisk og funktionelt testbatteri bestående af 4 enkeltsbens hoptests til vurdering af funktionel ben-asymmetri (LSI) og knæstabilitet ved genoptræning og Return to Sport."
-    category: ["Tests", "Hop-tests", "Genoptræning"]
+    category: ["Spring", "Horisontal", "Genoptræning"]
     type: ["Protokol", "Funktionel test", "Rehabiliteringstest"]
     execution: ["Fysisk"]                  # 🦵 FYSISK TEST: Kræver enkeltsbens hop, landinger og hink på tid
     method: "indirekte"                     # 📊 Indirekte måling af funktionel knæstabilitet og asymmetri
@@ -32,6 +33,11 @@ tests:
     target_group: ["ACL-skadede / Korsbåndsskadede", "Genoptrænende atleter", "Atleter", "Mænd", "Kvinder"]
     related_tools:
       - "tool-hoptest-batteri-beregner"
+    icon: "📏"
+    badge: "Horisontal"
+    unit: "cm"
+    storage_key: "hoptest_batteriet"
+    allow_quick_log: true
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

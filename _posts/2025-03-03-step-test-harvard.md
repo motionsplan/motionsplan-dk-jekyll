@@ -20,10 +20,10 @@ meta:
   max: udholdenhedstest
   direct: indirekte test
 tests:
-  - id: "test-harvard-step-test"
+  - id: "harvard-step-test"
     title: "Harvard Step Test"
     description: "Intensiv fysiologisk steptest (op til 5 minutter ved 120 BPM på en 50,8 cm / 40,6 cm høj bænk) til vurdering af kardiovaskulær udholdenhed og restitutionskapacitet via Fitness Index."
-    category: ["Tests", "Kondition"]
+    category: ["Steptest", "Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver intensivt steppearbejde på høj bænk
     method: "indirekte"                     # 📊 Indirekte vurdering baseret på pulserestitution efter testen
@@ -34,6 +34,11 @@ tests:
     target_group: ["Atleter", "Motionister", "Mænd", "Kvinder"]
     related_tools:
       - "tool-harvard-steptest-beregner"
+    icon: "🪜"
+    badge: "Steptest"
+    unit: "ml/kg/min"
+    storage_key: "harvard_step"
+    allow_quick_log: false
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

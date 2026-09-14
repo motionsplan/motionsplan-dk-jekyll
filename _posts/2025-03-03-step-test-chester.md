@@ -21,10 +21,10 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tests:
-  - id: "test-chester-step-test"
+  - id: "chester-step-test"
     title: "Chester Step Test (CST)"
     description: "Progressiv, submaksimal steptest over op til 5 niveauer (2 min pr. niveau med øgende kadence) til indirekte estimering af kondital (VO2max) ud fra pulsekstrapolation."
-    category: ["Tests", "Kondition"]
+    category: ["Steptest", "Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk træde-arbejde op/ned af stepbænk
     method: "indirekte"                     # 📊 Indirekte estimering af VO2max baseret på submax pulstilpasning
@@ -35,6 +35,11 @@ tests:
     target_group: ["Brandmænd / Politi", "Atleter", "Voksne", "Mænd", "Kvinder"]
     related_tools:
       - "tool-chester-steptest-beregner"
+    icon: "🪜"
+    badge: "Steptest"
+    unit: "ml/kg/min"
+    storage_key: "chester_step"
+    allow_quick_log: false
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

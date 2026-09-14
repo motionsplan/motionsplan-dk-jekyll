@@ -32,8 +32,8 @@ tests:
   - id: "test-wingate-cykel"
     title: "Wingate 30 Sekunders Anaerob Test"
     description: "Maksimal 30-sekunders all-out sprinttest på cykelergometer til bestemmelse af Peak Power Output (PPO), relativ power, anaerob kapacitet og Fatigue Index."
-    category: ["Tests", "Cykling", "Kondition"]
-    type: ["Protokol", "Konditionstest"]
+    category: ["Cykling", "Sprint"]
+    type: ["Protokol"]
     execution: ["Fysisk"]                  # 🚴‍♂️ FYSISK TEST: Kræver 30 sekunders maksimal all-out fysisk anstrengelse
     method: "direkte"                     # ⚡ Direkte wattmåling via cykelergometer/wattmåler
     modality: ["Cykling"]

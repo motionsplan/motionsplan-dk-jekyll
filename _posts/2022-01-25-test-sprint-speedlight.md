@@ -18,10 +18,6 @@ tags:
   - test
   - sprinttest
   - eksplosivitet
-  - 5m sprinttest
-  - 10m sprinttest
-  - 20m sprinttest
-  - 30m sprinttest
 last_modified_at: '2026-08-08T10:00:00Z'
 toc: true
 meta:
@@ -32,20 +28,62 @@ meta:
   max: maksimal test
   direct: direkte test
 tests:
-  - id: "test-lineaer-sprinttest"
-    title: "Lineær Sprinttest (5m, 10m, 20m, 30m)"
-    description: "Standardiseret fysisk sprinttest med fotoceller eller stopur til præcis måling af eksplosiv startkraft (0–5m), acceleration (0–10m) og tophastighed (20–30m)."
-    category: ["Tests", "Eksplosivitet", "Løb"]
+  - id: "sprint-10m"
+    title: "10m Acceleration Sprint"
+    description: "Måler den eksplosive startkraft og rene acceleration fra stående start."
+    icon: "⚡"
+    badge: "Sprint"
+    unit: "sek"
+    storage_key: "sprint_10m"
+    allow_quick_log: true
+    category: ["Sprint", "Eksplosivitet"]
     type: ["Protokol", "Sprinttest"]
-    execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver maksimal sprintindsats
-    method: "direkte"                     # 📊 Måles direkte via tidsregistrering i sekunder
-    modality: ["Sprint", "Eksplosivitet"]
-    measures: ["Splittider", "Acceleration", "Tophastighed", "Startkraft", "Gennemsnitshastighed (km/t)", "Gennemsnitshastighed (m/s)"]
-    equipment: ["Fotoceller / Sprintceller", "Stopur", "Målebånd", "Kegler"]
-    setting: ["Udendørs", "Indendørs", "Idrætsanlæg", "Testcenter", "Individuel"]
-    target_group: ["Atleter", "Fodboldspillere", "Håndboldspillere", "Motionister", "Mænd", "Kvinder"]
-    related_tools:
-      - "tool-sprint-calc-beregner"
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Sprint"]
+    measures: ["Acceleration", "Startkraft", "Splittid"]
+    equipment: ["Fotoceller / Sprintceller", "Målebånd", "Kegler"]
+    setting: ["Udendørs", "Indendørs", "Løbebane"]
+    target_group: ["Atleter", "Fodboldspillere", "Håndboldspillere", "Motionister"]
+    related_tools: ["tool-sprint-calc-beregner"]
+
+  - id: "sprint-30m"
+    title: "30m Total Sprint"
+    description: "Standardiseret sprinttest der måler den samlede tid fra start til 30 meters mærket."
+    icon: "⚡"
+    badge: "Sprint"
+    unit: "sek"
+    storage_key: "sprint_30m"
+    allow_quick_log: true
+    category: ["Sprint", "Eksplosivitet"]
+    type: ["Protokol", "Sprinttest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Sprint"]
+    measures: ["Total sprinttid", "Gennemsnitshastighed"]
+    equipment: ["Fotoceller / Sprintceller", "Målebånd", "Kegler"]
+    setting: ["Udendørs", "Indendørs", "Løbebane"]
+    target_group: ["Atleter", "Fodboldspillere", "Håndboldspillere", "Motionister"]
+    related_tools: ["tool-sprint-calc-beregner"]
+
+  - id: "flying-10m"
+    title: "Flyvende 10m (Topfart 20-30m)"
+    description: "Måler den maksimale tophastighed (Maximal Velocity) isoleret over 10 meter med tilløb."
+    icon: "🚀"
+    badge: "Sprint"
+    unit: "sek"
+    storage_key: "flying_10m"
+    allow_quick_log: true
+    category: ["Sprint", "Eksplosivitet"]
+    type: ["Protokol", "Sprinttest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Sprint"]
+    measures: ["Tophastighed", "Max Velocity (m/s / km/t)"]
+    equipment: ["Fotoceller / Sprintceller", "Målebånd", "Kegler"]
+    setting: ["Udendørs", "Indendørs", "Løbebane"]
+    target_group: ["Atleter", "Fodboldspillere", "Sprintere"]
+    related_tools: ["tool-sprint-calc-beregner"]
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

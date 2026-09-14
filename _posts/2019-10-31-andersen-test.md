@@ -24,7 +24,7 @@ meta:
   target: "børn"
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-andersen-test"
+  - id: "andersen-test"
     title: "Andersen Test (15/15 Intervalløb)"
     description: "Maksimal 10-minutters 15/15 interval-pendulløbstest på en 20-meters bane til estimering af børns og unges kondital."
     category: ["Kondition", "Løb"]
@@ -37,6 +37,11 @@ tests:
     setting: ["Skolebrug", "Individuel", "Gruppetest", "Indendørs"]
     target_group: ["Børn", "Unge"]
     related_tools: ["tool-andersen-test-beregner", "tool-andersen-test-timer"]
+    icon: "🏃"
+    badge: "Løbetest"
+    unit: "ml/kg/min"
+    storage_key: "andersen_test"
+    allow_quick_log: false
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

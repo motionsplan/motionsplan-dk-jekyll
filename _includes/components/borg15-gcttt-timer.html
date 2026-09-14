@@ -16,13 +16,37 @@
   }
   #borg-widget * { box-sizing: border-box; }
 
+  /* Fjern spinner-pile i number inputs */
+  #borg-widget input[type=number]::-webkit-inner-spin-button,
+  #borg-widget input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  #borg-widget input[type=number] {
+    -moz-appearance: textfield;
+  }
+
   /* Utilities */
   .borg-hidden { display: none !important; }
   .borg-flex-between { display: flex; justify-content: space-between; align-items: center; }
 
-  /* Title Elements */
+  /* Title Elements & Header Actions */
   .borg-main-title { font-size: 1.25rem; font-weight: 800; display: flex; align-items: center; gap: 8px; color: #0f172a; margin: 0; }
   .borg-section-title { font-size: 0.85rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; text-align: center; }
+
+  .borg-header-actions { display: flex; gap: 8px; align-items: center; }
+  .borg-toggle-btn {
+    border: 1px solid #cbd5e1; background: #ffffff; color: #334155;
+    padding: 6px 12px; font-size: 0.82rem; font-weight: 700; border-radius: 8px;
+    cursor: pointer; transition: all 0.15s; display: inline-flex; align-items: center; gap: 4px;
+  }
+  .borg-toggle-btn.active { background: #eff6ff; color: #2563eb; border-color: #3b82f6; }
+  .borg-icon-btn {
+    border: 1px solid #cbd5e1; background: #ffffff; color: #334155;
+    width: 34px; height: 34px; border-radius: 8px; font-size: 1rem;
+    cursor: pointer; display: inline-flex; justify-content: center; align-items: center; transition: all 0.15s;
+  }
+  .borg-icon-btn:hover { background: #f1f5f9; color: #0f172a; }
 
   /* Info Modal */
   .borg-modal-overlay {
@@ -69,16 +93,23 @@
   }
   .borg-gender-btn.active { background: #2563eb; color: #fff; border-color: #2563eb; }
 
-  /* Full-Width Integreret Timer Card */
+  /* Kompakt & Symmetrisk Timer Card */
   .borg-timer-card {
-    position: relative; border-radius: 12px; padding: 18px; border: 2px solid #2563eb;
+    position: relative; border-radius: 12px; padding: 14px 18px; border: 2px solid #2563eb;
     background: #eff6ff; overflow: hidden; margin-bottom: 14px; text-align: center;
   }
-  .borg-timer-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-  .borg-badge-time { background: #1e293b; color: #fff; font-size: 0.78rem; font-weight: 800; padding: 4px 10px; border-radius: 20px; }
-  .borg-timer-big-val { font-size: 3.4rem; font-weight: 900; color: #0f172a; line-height: 1; margin: 2px 0; font-variant-numeric: tabular-nums; }
-  .borg-timer-subtext { font-size: 0.82rem; font-weight: 700; color: #64748b; margin-top: 4px; }
-  .borg-progress-bg { position: absolute; bottom: 0; left: 0; width: 100%; height: 6px; background: #cbd5e1; }
+  
+  .borg-timer-display-group {
+    display: grid; grid-template-columns: 1fr 2px 1fr; gap: 16px; align-items: center; margin: 2px 0;
+  }
+  .borg-timer-divider { width: 2px; height: 64px; background: #cbd5e1; margin: 0 auto; }
+
+  .borg-timer-col { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .borg-timer-big-val { font-size: 3rem; font-weight: 900; color: #0f172a; line-height: 1; font-variant-numeric: tabular-nums; }
+  .borg-watt-big-val { font-size: 3rem; font-weight: 900; color: #2563eb; line-height: 1; font-variant-numeric: tabular-nums; }
+  
+  .borg-timer-subtext { font-size: 0.80rem; font-weight: 700; color: #64748b; margin-top: 4px; }
+  .borg-progress-bg { position: absolute; bottom: 0; left: 0; width: 100%; height: 5px; background: #cbd5e1; }
   .borg-progress-fill { height: 100%; background: #2563eb; width: 0%; transition: width 0.25s linear; }
 
   /* TOGGLE KNAPPER FOR MÅLEMETODE */
@@ -137,7 +168,7 @@
   .borg-btn-blue { background: #2563eb; color: #fff; } .borg-btn-blue:hover { background: #1d4ed8; }
   .borg-btn-red { background: #ef4444; color: #fff; } .borg-btn-red:hover { background: #dc2626; }
 
-  /* RESULTAT GRID (Venstre boks 1.35fr mod højre stack 1fr) */
+  /* RESULTAT GRID */
   .borg-result-grid {
     display: grid;
     grid-template-columns: 1.35fr 1fr;
@@ -148,13 +179,16 @@
     .borg-result-grid { grid-template-columns: 1fr; }
   }
 
-  /* VENSTRE STOR BOKS */
   .borg-left-card {
     background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 14px;
     padding: 18px; display: flex; flex-direction: column; justify-content: space-between; text-align: center;
   }
-  .borg-kondital-val { font-size: 4.2rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 2px 0; }
-  .borg-see-val { font-size: 0.82rem; font-weight: 700; color: #64748b; margin-top: 2px; }
+  .borg-kondital-val { font-size: 4rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 2px 0; }
+  
+  .borg-kondital-unit-line {
+    font-size: 0.88rem; font-weight: 800; color: #2563eb; margin-top: 2px;
+  }
+  .borg-see-inline { font-size: 0.80rem; font-weight: 700; color: #64748b; margin-left: 4px; }
   
   .borg-slider-container { position: relative; margin: 14px 0 4px 0; }
   .borg-slider-track { display: flex; height: 10px; border-radius: 5px; overflow: hidden; }
@@ -165,23 +199,21 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   }
 
-  /* HØJRE STABLEDE BOKSE */
   .borg-right-stack { display: flex; flex-direction: column; gap: 10px; justify-content: space-between; }
   .borg-subcard {
     background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px;
     padding: 14px; height: 100%; display: flex; flex-direction: column; justify-content: center;
   }
 
-  /* Level Knap */
+  /* Kompakt Level Knap */
   .borg-level-btn {
     background: #3b82f6; color: #fff; border: none; border-radius: 8px;
-    padding: 8px 16px; font-size: 0.88rem; font-weight: 800; cursor: pointer;
+    padding: 6px 16px; font-size: 0.85rem; font-weight: 800; cursor: pointer;
     display: inline-flex; align-items: center; justify-content: center; gap: 6px;
-    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2); transition: transform 0.1s, background-color 0.2s; margin-top: 8px;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2); transition: transform 0.1s, background-color 0.2s; margin: 8px auto 0 auto; width: auto;
   }
   .borg-level-btn:hover { background: #2563eb; transform: translateY(-1px); }
 
-  /* Historik & Norm-Tabel Styling */
   .borg-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 8px; }
   .borg-table th, .borg-table td { padding: 8px 8px; text-align: left; border-bottom: 1px solid #e2e8f0; }
   .borg-table th { background: #f1f5f9; color: #475569; font-weight: 700; }
@@ -202,7 +234,7 @@
             <ul>
                 <li><strong>Okura & Tanaka (2001):</strong> Standardformel for raske voksne med BMI &lt; 30 (SEE: ±4.2 mL/kg/min).</li>
                 <li><strong>Coquart et al. (2009):</strong> Specifik formel til overvægtige med BMI ≥ 30 (SEE: ±3.1 mL/kg/min).</li>
-                <li><strong>Eston & Faulkner (2007):</strong> Anvendes ved min. 3 RPE-målinger. Estimerer individuel $W_{\max}$ ved Borg 20 via lineær regression (SEE: ±2.8 mL/kg/min).</li>
+                <li><strong>Eston & Faulkner (2007):</strong> Anvendes ved min. 3 RPE-målinger. Estimerer individuel Wmax ved Borg 20 via lineær regression (SEE: ±2.8 mL/kg/min).</li>
             </ul>
         </div>
     </div>
@@ -213,10 +245,13 @@
             Borg 15 & Snakketest
             <button id="borg-info-trigger" class="borg-info-btn" title="Læs testprotokol">i</button>
         </div>
-        <button id="borg-btn-sound" style="border:1px solid #cbd5e1; background:#fff; padding:5px 12px; font-size:0.85rem; font-weight:700; border-radius:6px; cursor:pointer;">🔊 Lyd</button>
+        <div class="borg-header-actions">
+            <button id="borg-btn-sound" class="borg-toggle-btn active" title="Slå lyd til/fra">🔊 Lyd Til</button>
+            <button id="borg-btn-fullscreen" class="borg-icon-btn" title="Fuld skærm">⛶</button>
+        </div>
     </div>
 
-    <!-- STAMDATA (Præcis Grid Alignment) -->
+    <!-- STAMDATA -->
     <div class="borg-card borg-card-blue">
         <div class="borg-antrop-grid">
             <div>
@@ -241,21 +276,25 @@
         </div>
     </div>
 
-    <!-- FULL-WIDTH INTEGRERET TIMER -->
+    <!-- SYMMETRISK & KOMPAKT TIMER CARD -->
     <div class="borg-timer-card">
-        <div class="borg-timer-top">
-            <span style="font-weight:800; color:#1d4ed8; font-size:0.88rem;" id="display-current-name">⚡ OPVARMNING (30 W)</span>
-            <span class="borg-badge-time">⏱ Samlet tid: <span id="display-total-time">00:00</span></span>
-        </div>
         
-        <div>
-            <span class="borg-label" style="text-transform:uppercase; letter-spacing:0.5px;">Tid tilbage af nuværende trin</span>
-            <div class="borg-timer-big-val" id="display-stage-countdown">02:00</div>
-        </div>
+        <div class="borg-timer-display-group">
+            <!-- VENSTRE: WATT -->
+            <div class="borg-timer-col">
+                <span class="borg-label" style="text-transform:uppercase; letter-spacing:0.5px;">Belastning</span>
+                <div class="borg-watt-big-val" id="display-current-watt">30 W</div>
+                <div class="borg-timer-subtext" id="display-next-info">Næste: Trin 1 (50 W)</div>
+            </div>
 
-        <div class="borg-timer-subtext">
-            Belastning: <strong id="display-current-watt" style="color:#0f172a;">30 W</strong> &nbsp;|&nbsp; 
-            <span id="display-next-info">Næste: Trin 1 (50 W)</span>
+            <div class="borg-timer-divider"></div>
+
+            <!-- HØJRE: TRIN NAVN & TID -->
+            <div class="borg-timer-col">
+                <span class="borg-label" style="text-transform:uppercase; letter-spacing:0.5px; color:#1d4ed8;" id="display-current-name">⚡ OPVARMNING</span>
+                <div class="borg-timer-big-val" id="display-stage-countdown">02:00</div>
+                <div class="borg-timer-subtext">Samlet tid: <span id="display-total-time">00:00</span></div>
+            </div>
         </div>
 
         <div class="borg-progress-bg"><div id="prog-fill" class="borg-progress-fill"></div></div>
@@ -266,7 +305,7 @@
         <button id="btn-start-toggle" class="borg-btn borg-btn-blue">🚀 Start Live Test Timer</button>
     </div>
 
-    <!-- INDTASTNING AF RESULTATER (SLUTMÅLING vs FLERE MÅLINGER) -->
+    <!-- INDTASTNING AF RESULTATER -->
     <div class="borg-card" style="margin-bottom: 0; background: #fafafa;">
         <div style="display:flex; gap:8px; margin-bottom: 10px;">
             <button id="btn-mode-single" type="button" class="borg-tab-btn active">En slutmåling</button>
@@ -279,7 +318,7 @@
             <input type="number" id="manual-watt-input" class="borg-input" style="width:120px;" placeholder="Watt" value="">
         </div>
 
-        <!-- FLERE MÅLINGER CONTAINER (Eston & Faulkner Tabel) -->
+        <!-- FLERE MÅLINGER CONTAINER -->
         <div id="mode-multi-container" class="borg-hidden">
             <table class="borg-table" style="margin-top:0; background:#fff; border:1px solid #cbd5e1; border-radius:8px; overflow:hidden;">
                 <thead>
@@ -290,26 +329,28 @@
                     </tr>
                 </thead>
                 <tbody id="multi-rpe-rows">
-                    <!-- JS genererer og synkroniserer automatisk live-målinger her -->
+                    <!-- JS genererer live-målinger her -->
                 </tbody>
             </table>
+            <div style="text-align:right; margin-top:8px;">
+                <button id="btn-add-rpe-row" type="button" style="border:1px solid #cbd5e1; background:#fff; padding:4px 10px; font-size:0.75rem; font-weight:700; border-radius:6px; cursor:pointer; color:#2563eb;">+ Tilføj trin</button>
+            </div>
         </div>
     </div>
 
-    <!-- RESULTATKASSER (Direkte 2-Kolonne Grid) -->
+    <!-- RESULTATKASSER -->
     <div id="result-section" class="borg-result-grid" style="margin-top:14px;">
         
-        <!-- VENSTRE: 1 STOR BOKS (Bredere) -->
         <div class="borg-left-card">
             <div>
                 <div class="borg-section-title">ESTIMERET KONDITAL</div>
                 <div id="res-kondital" class="borg-kondital-val">0.0</div>
-                <strong style="color:#2563eb; font-size:0.85rem;">ml/kg/min</strong>
-                <div id="res-see" class="borg-see-val">± 4.2 ml/kg/min</div>
+                <div class="borg-kondital-unit-line">
+                    ml/kg/min <span id="res-see" class="borg-see-inline">(± 4.2)</span>
+                </div>
             </div>
 
             <div>
-                <!-- Farveskala med markerings-pin -->
                 <div class="borg-slider-container">
                     <div class="borg-slider-track">
                         <div style="background:#ef4444;"></div>
@@ -324,16 +365,13 @@
                     <span>LAV</span><span>HØJ</span>
                 </div>
 
-                <!-- Niveau Knap med Tabel Emoji -->
-                <button id="btn-toggle-norm-table" type="button" class="borg-level-btn" style="width:100%;">
+                <button id="btn-toggle-norm-table" type="button" class="borg-level-btn">
                     <span id="res-level-text">-</span> 📊
                 </button>
             </div>
         </div>
 
-        <!-- HØJRE: 2 STABLEDE BOKSE -->
         <div class="borg-right-stack">
-            <!-- Øverste Boks: VO2max -->
             <div class="borg-subcard">
                 <div class="borg-flex-between">
                     <div>
@@ -347,7 +385,6 @@
                 </div>
             </div>
 
-            <!-- Nederste Boks: Valgt Formel -->
             <div class="borg-subcard">
                 <strong style="font-size:0.9rem; color:#1e293b; display:block; margin-bottom:4px;" id="res-formula-title">
                     🏆 Okura & Tanaka (2001)
@@ -360,11 +397,11 @@
 
     </div>
 
-    <!-- BREDDE-DÆKKENDE NORM-TABEL -->
+    <!-- NORM-TABEL -->
     <div id="norm-table-container" class="borg-hidden" style="margin-top:14px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:12px; padding:14px;">
         <div class="borg-flex-between" style="margin-bottom:8px;">
             <strong style="font-size:0.88rem; color:#1e3a8a;">📊 Konditalstabel (Normer for <span id="norm-gender-title">Mænd</span>)</strong>
-            <button id="btn-close-norm" style="border:none; background:none; color:#64748b; font-weight:bold; cursor:pointer;">✕ Skjul</button>
+            <button id="btn-close-norm" style="border:none; background:none; color:#64748b; font-weight:bold; cursor:pointer;">✕</button>
         </div>
         <table class="borg-table" id="norm-table">
             <thead>
@@ -378,7 +415,6 @@
                 </tr>
             </thead>
             <tbody id="norm-table-body">
-                <!-- Genereres dynamisk i JS -->
             </tbody>
         </table>
     </div>
@@ -387,12 +423,11 @@
     <div id="eval-overlay" class="borg-eval-overlay borg-hidden">
         
         <div class="borg-mini-timer-bar">
-            <span id="overlay-stage-title">TRIN 1 (50 W)</span>
+            <span id="overlay-stage-title">TRIN 1</span>
             <span>⏱ Trin tid: <span id="overlay-stage-countdown">00:15</span></span>
             <span>Samlet: <span id="overlay-total-time">00:00</span></span>
         </div>
 
-        <!-- 1. Snakketest -->
         <div style="margin-bottom: 12px;">
             <label class="borg-label" style="font-size:0.82rem;">1. Læs teksten højt og vurder taleevnen:</label>
             <div id="talk-text-box" style="background:#f8fafc; border-left:4px solid #10b981; padding:8px 12px; font-style:italic; font-size:0.82rem; color:#334155; margin-bottom:6px; border-radius:4px;">
@@ -406,11 +441,9 @@
             <div id="talk-feedback-msg" class="borg-talk-feedback borg-hidden"></div>
         </div>
 
-        <!-- 2. Borg Skala 6-20 -->
         <div>
             <label class="borg-label" style="font-size:0.82rem;">2. Vælg oplevet anstrengelse i benene (Lukker vinduet / Borg 15+ afbryder):</label>
             <div class="borg-scale-vertical" id="borg-scale-vertical">
-                <!-- JS genererer 6-20 rækker -->
             </div>
         </div>
 
@@ -485,6 +518,23 @@ document.addEventListener("DOMContentLoaded", function() {
         { num: 20, text: "Maksimalt anstrengende", stop: true }
     ];
 
+    const normData = {
+        M: [
+            { age: "20-29", vLav: "< 38", lav: "38-43", mid: "44-51", hoj: "52-56", vHoj: "> 56" },
+            { age: "30-39", vLav: "< 34", lav: "34-39", mid: "40-47", hoj: "48-51", vHoj: "> 51" },
+            { age: "40-49", vLav: "< 31", lav: "31-35", mid: "36-43", hoj: "44-47", vHoj: "> 47" },
+            { age: "50-59", vLav: "< 25", lav: "25-31", mid: "32-39", hoj: "40-43", vHoj: "> 43" },
+            { age: "60+",   vLav: "< 21", lav: "21-26", mid: "27-35", hoj: "36-40", vHoj: "> 40" }
+        ],
+        K: [
+            { age: "20-29", vLav: "< 28", lav: "28-34", mid: "35-43", hoj: "44-48", vHoj: "> 48" },
+            { age: "30-39", vLav: "< 27", lav: "27-31", mid: "32-39", hoj: "40-43", vHoj: "> 43" },
+            { age: "40-49", vLav: "< 25", lav: "25-29", mid: "30-36", hoj: "37-41", vHoj: "> 41" },
+            { age: "50-59", vLav: "< 21", lav: "21-25", mid: "26-32", hoj: "33-36", vHoj: "> 36" },
+            { age: "60+",   vLav: "< 19", lav: "19-22", mid: "23-29", hoj: "30-33", vHoj: "> 33" }
+        ]
+    };
+
     const normColors = {
         'Meget lavt': '#ef4444',
         'Lavt': '#f97316',
@@ -513,6 +563,57 @@ document.addEventListener("DOMContentLoaded", function() {
     const btnMulti = document.getElementById('btn-mode-multi');
     const containerSingle = document.getElementById('mode-single-container');
     const containerMulti = document.getElementById('mode-multi-container');
+
+    // FULLSCREEN & LYD CONTROLS
+    const btnSound = document.getElementById('borg-btn-sound');
+    const btnFullscreen = document.getElementById('borg-btn-fullscreen');
+
+    btnSound.onclick = function() {
+        isSoundOn = !isSoundOn;
+        if (isSoundOn) {
+            btnSound.classList.add('active');
+            btnSound.textContent = '🔊 Lyd Til';
+        } else {
+            btnSound.classList.remove('active');
+            btnSound.textContent = '🔇 Lyd Fra';
+        }
+    };
+
+    btnFullscreen.onclick = function() {
+        const widget = document.getElementById('borg-widget');
+        if (!document.fullscreenElement) {
+            if (widget.requestFullscreen) widget.requestFullscreen();
+            else if (widget.webkitRequestFullscreen) widget.webkitRequestFullscreen();
+        } else {
+            if (document.exitFullscreen) document.exitFullscreen();
+        }
+    };
+
+    // DYNAMISK ALDERSMÆSSIG NORM-EVALUERING
+    function getNormEvaluation(gender, age, kondital) {
+        const list = normData[gender] || normData['M'];
+        let row = list.find(r => {
+            if (r.age === "20-29" && age < 30) return true;
+            if (r.age === "30-39" && age >= 30 && age < 40) return true;
+            if (r.age === "40-49" && age >= 40 && age < 50) return true;
+            if (r.age === "50-59" && age >= 50 && age < 60) return true;
+            if (r.age === "60+" && age >= 60) return true;
+            return false;
+        });
+        if (!row) row = list[list.length - 1];
+
+        const parseVal = (str) => parseFloat(str.replace(/[^0-9.]/g, ''));
+        const vLavMax = parseVal(row.vLav);
+        const lavMax = parseVal(row.lav.split('-')[1]);
+        const midMax = parseVal(row.mid.split('-')[1]);
+        const hojMax = parseVal(row.hoj.split('-')[1]);
+
+        if (kondital < vLavMax) return { level: "Meget lavt", pct: 10 };
+        if (kondital <= lavMax) return { level: "Lavt", pct: 30 };
+        if (kondital <= midMax) return { level: "Middel", pct: 50 };
+        if (kondital <= hojMax) return { level: "Højt", pct: 75 };
+        return { level: "Meget højt", pct: 90 };
+    }
 
     // 1. GENERÉR BORG 6-20 GRID
     const scaleContainer = document.getElementById('borg-scale-vertical');
@@ -543,7 +644,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // 2. STAMDATA & KLADDER SYNCRONISERING
+    // 2. STAMDATA & PROFILE SYNCRONISERING
     function saveDraftAndProfile() {
         let age = parseInt(document.getElementById('borg-age')?.value || '0', 10);
         let weight = parseFloat(document.getElementById('borg-weight')?.value || '');
@@ -564,7 +665,8 @@ document.addEventListener("DOMContentLoaded", function() {
             height: document.getElementById('borg-height')?.value || '',
             gender: selectedGender,
             manualWatt: elManualWatt?.value || '',
-            inputMode
+            inputMode,
+            recordedPoints
         });
     }
 
@@ -587,6 +689,8 @@ document.addEventListener("DOMContentLoaded", function() {
             if (draft.weight && document.getElementById('borg-weight')) document.getElementById('borg-weight').value = draft.weight;
             if (draft.height && document.getElementById('borg-height')) document.getElementById('borg-height').value = draft.height;
             if (draft.manualWatt && elManualWatt) elManualWatt.value = draft.manualWatt;
+            if (draft.recordedPoints && Array.isArray(draft.recordedPoints)) recordedPoints = draft.recordedPoints;
+
             if (draft.inputMode) {
                 inputMode = draft.inputMode;
                 if (inputMode === 'multi') {
@@ -627,7 +731,7 @@ document.addEventListener("DOMContentLoaded", function() {
         calculateAuto(false);
     };
 
-    // 4. INDTASTNINGS MODE TOGGLE
+    // 4. INDTASTNINGS MODE TOGGLE & TRIN-TABEL
     btnSingle.onclick = function() {
         inputMode = 'single';
         btnSingle.classList.add('active'); btnMulti.classList.remove('active');
@@ -644,9 +748,13 @@ document.addEventListener("DOMContentLoaded", function() {
         calculateAuto(false);
     };
 
+    document.getElementById('btn-add-rpe-row').onclick = function() {
+        recordedPoints.push({ watt: '', rpe: '' });
+        renderMultiRows();
+    };
+
     function renderMultiRows() {
         const rowsContainer = document.getElementById('multi-rpe-rows');
-        
         let displayList = [...recordedPoints];
         while (displayList.length < 4) {
             displayList.push({ watt: '', rpe: '' });
@@ -666,18 +774,56 @@ document.addEventListener("DOMContentLoaded", function() {
         rowsContainer.innerHTML = html;
 
         rowsContainer.querySelectorAll('input').forEach(inp => {
-            inp.addEventListener('input', () => calculateAuto(false));
-            inp.addEventListener('change', () => calculateAuto(true));
+            inp.addEventListener('input', () => {
+                syncRecordedPointsFromUI();
+                calculateAuto(false);
+            });
+            inp.addEventListener('change', () => {
+                syncRecordedPointsFromUI();
+                calculateAuto(true);
+            });
         });
     }
 
-    // 5. WAKE LOCK & AUDIO BEEP
+    function syncRecordedPointsFromUI() {
+        const wInputs = document.querySelectorAll('.multi-w');
+        const rpeInputs = document.querySelectorAll('.multi-rpe');
+        recordedPoints = [];
+        wInputs.forEach((inp, idx) => {
+            let wVal = parseFloat(inp.value);
+            let rpeVal = parseFloat(rpeInputs[idx] ? rpeInputs[idx].value : '');
+            if (!isNaN(wVal) || !isNaN(rpeVal)) {
+                recordedPoints.push({
+                    watt: isNaN(wVal) ? '' : wVal,
+                    rpe: isNaN(rpeVal) ? '' : rpeVal
+                });
+            }
+        });
+        saveDraftAndProfile();
+    }
+
+    // 5. WAKE LOCK (SKÆRM-SLUKNINGS BESKYTTELSE) & AUDIO BEEP
     async function requestWakeLock() {
-        try { if ('wakeLock' in navigator) wakeLock = await navigator.wakeLock.request('screen'); } catch (err) {}
+        try {
+            if ('wakeLock' in navigator) {
+                wakeLock = await navigator.wakeLock.request('screen');
+            }
+        } catch (err) {
+            console.warn('Wake Lock ikke tilgængelig:', err);
+        }
     }
     function releaseWakeLock() {
-        if (wakeLock) { wakeLock.release(); wakeLock = null; }
+        if (wakeLock) {
+            wakeLock.release();
+            wakeLock = null;
+        }
     }
+
+    document.addEventListener('visibilitychange', async () => {
+        if (wakeLock !== null && document.visibilityState === 'visible' && isRunning) {
+            await requestWakeLock();
+        }
+    });
 
     function playBeep(freq, duration) {
         if (!isSoundOn) return;
@@ -698,7 +844,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return m + ":" + s;
     }
 
-    // 6. TIMER MANAGEMENT (MED DATE.NOW DRIFT-PRÆCISION)
+    // 6. TIMER MANAGEMENT
     elBtnStart.onclick = function() {
         if (isRunning) {
             elOverlayStageTitle.textContent = "SLUTMÅLING (" + currentWatt + " W)";
@@ -764,7 +910,7 @@ document.addEventListener("DOMContentLoaded", function() {
         elStageCountdown.textContent = fmtTime(timeLeft);
         elTotalTime.textContent = fmtTime(totalSeconds);
         
-        elCurrentName.textContent = currentStage === 0 ? "⚡ OPVARMNING (30 W)" : "⚡ TRIN " + currentStage + " (" + currentWatt + " W)";
+        elCurrentName.textContent = currentStage === 0 ? "⚡ OPVARMNING" : "⚡ TRIN " + currentStage;
         elCurrentWatt.textContent = currentWatt + " W";
         
         let nextWatt = currentStage === 0 ? startWatt : currentWatt + wattIncrement;
@@ -774,7 +920,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         elOverlayTotalTime.textContent = fmtTime(totalSeconds);
         elOverlayStageCountdown.textContent = fmtTime(timeLeft);
-        elOverlayStageTitle.textContent = currentStage === 0 ? "OPVARMNING" : "TRIN " + currentStage + " (" + currentWatt + " W)";
+        elOverlayStageTitle.textContent = currentStage === 0 ? "OPVARMNING" : "TRIN " + currentStage;
 
         if (currentStage > 0 && timeLeft === 15 && stageSeconds >= stageDuration - 15) {
             if (elEvalOverlay.classList.contains('borg-hidden')) {
@@ -796,25 +942,35 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 
-    // 7. LINEÆR REGRESSION (Eston & Faulkner)
+    // 7. LINEÆR REGRESSION (Eston & Faulkner Dynamic Model)
     function calcEstonFaulkner(points, weight) {
-        let n = points.length;
+        let validPoints = points.filter(p => typeof p.watt === 'number' && typeof p.rpe === 'number' && !isNaN(p.watt) && !isNaN(p.rpe) && p.watt > 0 && p.rpe >= 6);
+        if (validPoints.length < 2) return null;
+
+        let n = validPoints.length;
         let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
-        points.forEach(p => {
+        validPoints.forEach(p => {
             sumX += p.rpe; sumY += p.watt;
             sumXY += (p.rpe * p.watt); sumXX += (p.rpe * p.rpe);
         });
-        let slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+
+        let denom = (n * sumXX - sumX * sumX);
+        if (denom <= 0) return null;
+
+        let slope = (n * sumXY - sumX * sumY) / denom;
         let intercept = (sumY - slope * sumX) / n;
-        let wMax = (slope * 20) + intercept;
-        if (isNaN(wMax) || wMax <= 0) wMax = points[points.length - 1].watt * 1.3;
+        if (slope <= 0) return null;
+
+        let rawWMax = (slope * 20) + intercept;
+        let maxRecordedW = Math.max(...validPoints.map(p => p.watt));
+        let wMax = Math.max(rawWMax, maxRecordedW);
 
         let kondital = (10.8 * wMax / weight) + 7;
         let vo2L = (kondital * weight) / 1000;
         return { kondital: kondital, vo2L: vo2L, wMax: Math.round(wMax) };
     }
 
-    // 8. BEREGNING AF KONDITAL
+    // 8. BEREGNING AF KONDITAL OG DYNAMISKE NORMER
     function calculateAuto(shouldCommit = false) {
         saveDraftAndProfile();
 
@@ -830,71 +986,90 @@ document.addEventListener("DOMContentLoaded", function() {
             const wInputs = document.querySelectorAll('.multi-w');
             const rpeInputs = document.querySelectorAll('.multi-rpe');
             wInputs.forEach((inp, idx) => {
-                let wVal = parseFloat(inp.value) || 0;
-                let rpeVal = parseFloat(rpeInputs[idx] ? rpeInputs[idx].value : 0) || 0;
-                if (wVal > 0 && rpeVal >= 6) {
+                let wVal = parseFloat(inp.value);
+                let rpeVal = parseFloat(rpeInputs[idx] ? rpeInputs[idx].value : '');
+                if (!isNaN(wVal) && !isNaN(rpeVal) && wVal > 0 && rpeVal >= 6) {
                     activePoints.push({ watt: wVal, rpe: rpeVal });
                 }
             });
             if (activePoints.length > 0) watt = activePoints[activePoints.length - 1].watt;
-        } else if (recordedPoints.length >= 3) {
-            activePoints = recordedPoints;
+        } else if (recordedPoints.length >= 2) {
+            activePoints = recordedPoints.filter(p => typeof p.watt === 'number' && typeof p.rpe === 'number' && !isNaN(p.watt) && !isNaN(p.rpe));
         }
 
         if (watt <= 0 && activePoints.length === 0) {
             document.getElementById('res-kondital').textContent = "0.0";
-            document.getElementById('res-see').textContent = "± 4.2 ml/kg/min";
+            document.getElementById('res-see').textContent = "(± 4.2)";
             document.getElementById('res-vo2max').textContent = "0.00";
             document.getElementById('res-level-text').textContent = "-";
             document.getElementById('res-slider-pointer').style.left = '0%';
             return;
         }
 
-        let kondital = 0, vo2L = 0, seeText = "", formulaTitle = "", formulaDesc = "";
-
-        if (activePoints.length >= 3) {
-            let resEF = calcEstonFaulkner(activePoints, weight);
-            kondital = resEF.kondital; vo2L = resEF.vo2L;
-            seeText = "± 2.8 ml/kg/min";
-            formulaTitle = "🏆 Eston & Faulkner (Ekstrapolering)";
-            formulaDesc = `Baseret på ${activePoints.length} registrerede RPE-trin. Fremskriver teoretisk Wmax (${resEF.wMax}W) ved Borg 20.`;
-        } else if (bmi >= 30) {
-            vo2L = 1.355 - (0.00992 * age) + (0.0085 * watt);
-            kondital = (vo2L * 1000) / weight;
-            seeText = "± 3.1 ml/kg/min";
-            formulaTitle = "⚕️ Coquart et al. (2009)";
-            formulaDesc = `Automatisk valgt da BMI er ${bmi.toFixed(1)} (≥ 30). Formlen er valideret til overvægtige og kliniske grupper.`;
+        // Beregn Enkel slutmåling (Okura & Tanaka eller Coquart)
+        let singleKondital = 0, singleVo2L = 0, singleSee = "", singleTitle = "", singleDesc = "";
+        if (bmi >= 30) {
+            singleVo2L = 1.355 - (0.00992 * age) + (0.0085 * watt);
+            singleKondital = (singleVo2L * 1000) / weight;
+            singleSee = "(± 3.1)";
+            singleTitle = "⚕️ Coquart et al. (2009)";
+            singleDesc = `Automatisk valgt da BMI er ${bmi.toFixed(1)} (≥ 30). Valideret til overvægtige.`;
         } else {
             let workload = watt * 6.12;
             let vo2ml = (1.19 * workload) - (15.84 * age) + (13.06 * weight) + 1365;
-            vo2L = vo2ml / 1000;
-            kondital = vo2ml / weight;
-            seeText = "± 4.2 ml/kg/min";
-            formulaTitle = "🏆 Okura & Tanaka (2001)";
-            formulaDesc = `Standardformel for raske voksne motionister (BMI < 30). Beregnet ud fra Borg 15 anstrengelse.`;
+            singleVo2L = vo2ml / 1000;
+            singleKondital = vo2ml / weight;
+            singleSee = "(± 4.2)";
+            singleTitle = "🏆 Okura & Tanaka (2001)";
+            singleDesc = `Standardformel for raske voksne (BMI < 30). Beregnet ud fra Borg 15 slutmåling (${watt}W).`;
         }
 
-        let lowThresh = selectedGender === 'M' ? 35 : 28;
-        let highThresh = selectedGender === 'M' ? 52 : 44;
-        let level = "Middel", pct = 55;
+        // Beregn Flere målinger (Eston & Faulkner) hvis muligt
+        let multiKondital = 0, multiVo2L = 0, multiSee = "(± 2.8)", multiWMax = 0;
+        let resEF = calcEstonFaulkner(activePoints, weight);
+        let hasMultiCalc = resEF !== null;
 
-        if (kondital < lowThresh - 6) { level = "Meget lavt"; pct = 10; }
-        else if (kondital < lowThresh) { level = "Lavt"; pct = 30; }
-        else if (kondital > highThresh + 6) { level = "Meget højt"; pct = 90; }
-        else if (kondital > highThresh) { level = "Højt"; pct = 75; }
+        if (hasMultiCalc) {
+            multiKondital = resEF.kondital;
+            multiVo2L = resEF.vo2L;
+            multiWMax = resEF.wMax;
+        }
 
-        document.getElementById('res-kondital').textContent = kondital.toFixed(1);
-        document.getElementById('res-see').textContent = seeText;
-        document.getElementById('res-vo2max').textContent = vo2L.toFixed(2);
-        document.getElementById('res-level-text').textContent = level;
-        document.getElementById('res-slider-pointer').style.left = pct + '%';
+        // Vælg primært kondital baseret på den aktive fane/mode
+        let primaryKondital = 0, primaryVo2L = 0, primarySee = "", primaryTitle = "", primaryDesc = "";
 
-        document.getElementById('res-formula-title').textContent = formulaTitle;
-        document.getElementById('res-formula-desc').textContent = formulaDesc;
+        if (inputMode === 'multi' && hasMultiCalc) {
+            primaryKondital = multiKondital;
+            primaryVo2L = multiVo2L;
+            primarySee = multiSee;
+            primaryTitle = "🏆 Eston & Faulkner (RPE-regression)";
+            primaryDesc = `Baseret på ${activePoints.length} RPE-trin. Estimeret Wmax: ${multiWMax}W.<br><span style="color:#2563eb; font-weight:700;">Enkel slutmåling (${singleTitle}): ${singleKondital.toFixed(1)} ml/kg/min</span>`;
+        } else {
+            primaryKondital = singleKondital;
+            primaryVo2L = singleVo2L;
+            primarySee = singleSee;
+            primaryTitle = singleTitle;
+            primaryDesc = singleDesc;
+            if (hasMultiCalc) {
+                primaryDesc += `<br><span style="color:#2563eb; font-weight:700;">Flere målinger (Eston & Faulkner): ${multiKondital.toFixed(1)} ml/kg/min (Wmax: ${multiWMax}W)</span>`;
+            }
+        }
 
-        if (shouldCommit && kondital > 0) {
-            const formattedKondital = parseFloat(kondital.toFixed(1));
-            const color = normColors[level] || '#2563eb';
+        // DYNAMISK ALDERSMÆSSIG ALDERSNORM FRA NORM-TABELLEN
+        const normEval = getNormEvaluation(selectedGender, age, primaryKondital);
+
+        document.getElementById('res-kondital').textContent = primaryKondital.toFixed(1);
+        document.getElementById('res-see').textContent = primarySee;
+        document.getElementById('res-vo2max').textContent = primaryVo2L.toFixed(2);
+        document.getElementById('res-level-text').textContent = normEval.level;
+        document.getElementById('res-slider-pointer').style.left = normEval.pct + '%';
+
+        document.getElementById('res-formula-title').textContent = primaryTitle;
+        document.getElementById('res-formula-desc').innerHTML = primaryDesc;
+
+        if (shouldCommit && primaryKondital > 0) {
+            const formattedKondital = parseFloat(primaryKondital.toFixed(1));
+            const color = normColors[normEval.level] || '#2563eb';
 
             StorageAdapter.commitToLog(TEST_ID, {
                 type: 'physical',
@@ -904,24 +1079,25 @@ document.addEventListener("DOMContentLoaded", function() {
                     label: 'Kondital'
                 },
                 norm: {
-                    label: level,
+                    label: normEval.level,
                     color: color,
                     bg: color + '18'
                 },
                 subMetrics: {
-                    vo2maxLmin: parseFloat(vo2L.toFixed(2)),
-                    finalWatt: watt
+                    vo2maxLmin: parseFloat(primaryVo2L.toFixed(2)),
+                    finalWatt: watt,
+                    ...(hasMultiCalc && { estonFaulknerKondital: parseFloat(multiKondital.toFixed(1)), singleKondital: parseFloat(singleKondital.toFixed(1)) })
                 },
                 context: {
                     age,
                     gender: selectedGender === 'M' ? 'male' : 'female',
                     weight,
                     height: heightCm,
-                    formulaTitle
+                    formulaTitle: primaryTitle
                 }
             });
 
-            saveResultToUI(watt, kondital.toFixed(1), level);
+            saveResultToUI(watt, primaryKondital.toFixed(1), normEval.level);
         }
     }
 
@@ -937,23 +1113,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('borg-height').addEventListener('change', () => calculateAuto(true));
 
     // KONDITALSTABEL
-    const normData = {
-        M: [
-            { age: "20-29", vLav: "< 38", lav: "38-43", mid: "44-51", hoj: "52-56", vHoj: "> 56" },
-            { age: "30-39", vLav: "< 34", lav: "34-39", mid: "40-47", hoj: "48-51", vHoj: "> 51" },
-            { age: "40-49", vLav: "< 31", lav: "31-35", mid: "36-43", hoj: "44-47", vHoj: "> 47" },
-            { age: "50-59", vLav: "< 25", lav: "25-31", mid: "32-39", hoj: "40-43", vHoj: "> 43" },
-            { age: "60+",   vLav: "< 21", lav: "21-26", mid: "27-35", hoj: "36-40", vHoj: "> 40" }
-        ],
-        K: [
-            { age: "20-29", vLav: "< 28", lav: "28-34", mid: "35-43", hoj: "44-48", vHoj: "> 48" },
-            { age: "30-39", vLav: "< 27", lav: "27-31", mid: "32-39", hoj: "40-43", vHoj: "> 43" },
-            { age: "40-49", vLav: "< 25", lav: "25-29", mid: "30-36", hoj: "37-41", vHoj: "> 41" },
-            { age: "50-59", vLav: "< 21", lav: "21-25", mid: "26-32", hoj: "33-36", vHoj: "> 36" },
-            { age: "60+",   vLav: "< 19", lav: "19-22", mid: "23-29", hoj: "30-33", vHoj: "> 33" }
-        ]
-    };
-
     const elNormContainer = document.getElementById('norm-table-container');
     document.getElementById('btn-toggle-norm-table').onclick = function() {
         if (!elNormContainer.classList.contains('borg-hidden')) {
@@ -1035,11 +1194,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById('borg-info-trigger').onclick = () => document.getElementById('borg-modal').classList.remove('borg-hidden');
     document.getElementById('borg-modal-close').onclick = () => document.getElementById('borg-modal').classList.add('borg-hidden');
-    
-    document.getElementById('borg-btn-sound').onclick = function() {
-        isSoundOn = !isSoundOn;
-        this.style.background = isSoundOn ? "#fff" : "#e2e8f0";
-    };
 
     // Opstart
     loadInitialData();

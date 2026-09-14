@@ -14,28 +14,22 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
 
 <div id="mp-dashboard-app">
   
-  <!-- 1. DASHBOARDS -->
-  <h2 class="dash-section-title">🚀 Dine dashboards</h2>
+  <!-- 1. SAMLE-DASHBOARDS -->
+  <h2 class="dash-section-title">🚀 Dashboards</h2>
   <div id="dashboards-container" class="dash-grid">
     <p class="loading-text">Indlæser dashboards...</p>
   </div>
 
-  <!-- 2. GEMTE TESTRESULTATER -->
-  <h2 class="dash-section-title">📊 Dine seneste resultater</h2>
-  <div id="results-container" class="results-container">
-    <p class="loading-text">Indlæser dine resultater...</p>
+  <!-- 2. MIT DASHBOARD (SAMLET AKTIVE RESULTATER OG PLANLAGTE TESTS) -->
+  <h2 class="dash-section-title">📊 Mit Dashboard</h2>
+  <div id="unified-dashboard-container">
+    <p class="loading-text">Indlæser dit dashboard...</p>
   </div>
 
-  <!-- 3. MIN ØNSKELISTE -->
-  <h2 class="dash-section-title">🎯 Min ønskeliste</h2>
-  <div id="wishlist-container" class="todo-grid">
-    <!-- Udfyldes af JS -->
-  </div>
-
-  <!-- 4. UDFORSK OG FILTER -->
+  <!-- 3. UDFORSK OG KATALOG -->
   <h2 class="dash-section-title">🔍 Udforsk værktøjer</h2>
   <div class="search-filter-wrapper">
-    <input type="text" id="test-search" class="test-search-input" placeholder="Søg efter værktøj eller test (fx 'fedtprocent', 'squat' eller 'hop')...">
+    <input type="text" id="test-search" class="test-search-input" placeholder="Søg efter værktøj eller test (fx 'fedtprocent', 'squat', 'balke' eller 'hop')...">
     <div id="category-filters" class="category-pills">
       <!-- Genereres af JS -->
     </div>
@@ -44,7 +38,7 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
     <!-- Udfyldes af JS -->
   </div>
 
-  <!-- 5. SKJULTE DASHBOARDS -->
+  <!-- 4. SKJULTE DASHBOARDS -->
   <div id="hidden-dash-section" style="margin-top: 3rem; display: none;">
     <h2 class="dash-section-title" style="color: #64748b; border-color: #cbd5e1;">🙈 Skjulte dashboards</h2>
     <div id="hidden-dash-container" class="benched-grid">
@@ -54,62 +48,63 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
 
 </div>
 
-<!-- DATA BRIDGE: Jekyll Frontmatter -> JavaScript -->
+<!-- DATA BRIDGE: Jekyll Frontmatter -> Global Data Object -->
 <script>
-  const siteTests = [];
-  const siteDashboards = [];
-  
-  {% assign all_docs = site.pages | concat: site.documents | uniq %}
-  
-  {% for p in all_docs %}
-    {% comment %} Dashboards {% endcomment %}
-    {% if p.dashboards %}
-      {% for dash in p.dashboards %}
-        siteDashboards.push({
+  window.MP_DATA = {
+    dashboards: [
+      {% assign all_docs = site.pages | concat: site.documents | uniq %}
+      {% for p in all_docs %}{% if p.dashboards %}{% for dash in p.dashboards %}
+        {
           id: "{{ dash.id | default: dash.title | slugify }}",
           title: "{{ dash.title | escape }}",
           url: "{{ dash.url | default: p.url }}",
           anchor: "{{ dash.anchor | default: dash.id }}",
           icon: "{{ dash.icon | default: '📊' }}",
           description: "{{ dash.description | escape }}"
-        });
-      {% endfor %}
-    {% endif %}
-
-    {% comment %} Tests {% endcomment %}
-    {% if p.tests %}
-      {% for item in p.tests %}
-        {% if item.ls_key %}
-          siteTests.push({
-            id: "{{ item.id }}",
-            title: "{{ item.title | escape }}",
-            url: "{{ item.url | default: p.url }}",
-            anchor: "{{ item.anchor | default: item.id }}",
-            category: "{{ item.category | join: ',' | split: ',' | first | default: 'Tests' }}", 
-            lsKey: "{{ item.ls_key }}",
-            icon: "{{ item.icon | default: '📈' }}"
-          });
+        },
+      {% endfor %}{% endif %}{% endfor %}
+    ],
+    tests: [
+      {% for p in all_docs %}
+        {% if p.tests %}
+          {% for item in p.tests %}
+            {% assign key = item.storage_key | default: item.ls_key %}
+            {% if key %}
+              {
+                id: "{{ item.id }}",
+                title: "{{ item.title | escape }}",
+                url: "{{ item.url | default: p.url }}",
+                anchor: "{{ item.anchor | default: item.id }}",
+                category: "{{ item.category | join: ',' | split: ',' | first | default: item.badge | default: 'Diverse' }}", 
+                storageKey: "{{ key }}",
+                unit: "{{ item.unit }}",
+                allowQuickLog: {{ item.allow_quick_log | default: false }},
+                icon: "{{ item.icon | default: '📈' }}"
+              },
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        {% if p.tools %}
+          {% for item in p.tools %}
+            {% assign key = item.storage_key | default: item.ls_key %}
+            {% if key %}
+              {
+                id: "{{ item.id }}",
+                title: "{{ item.title | default: item.name | escape }}",
+                url: "{{ item.url | default: p.url }}",
+                anchor: "{{ item.anchor | default: item.id }}",
+                category: "{{ item.category | join: ',' | split: ',' | first | default: item.badge | default: 'Diverse' }}",
+                storageKey: "{{ key }}",
+                unit: "{{ item.unit }}",
+                allowQuickLog: {{ item.allow_quick_log | default: false }},
+                icon: "{{ item.icon | default: '🔧' }}"
+              },
+            {% endif %}
+          {% endfor %}
         {% endif %}
       {% endfor %}
-    {% endif %}
-
-    {% comment %} Tools {% endcomment %}
-    {% if p.tools %}
-      {% for item in p.tools %}
-        {% if item.ls_key %}
-          siteTests.push({
-            id: "{{ item.id }}",
-            title: "{{ item.title | default: item.name | escape }}",
-            url: "{{ item.url | default: p.url }}",
-            anchor: "{{ item.anchor | default: item.id }}",
-            category: "{{ item.category | join: ',' | split: ',' | first | default: 'Værktøjer' }}",
-            lsKey: "{{ item.ls_key }}",
-            icon: "{{ item.icon | default: '🔧' }}"
-          });
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+    ]
+  };
 </script>
 
 <style>
@@ -117,7 +112,6 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
 #mp-dashboard-app { font-family: system-ui, -apple-system, sans-serif; }
 .dash-section-title { margin: 2.2rem 0 0.9rem 0; font-size: 1.3rem; font-weight: 800; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
 
-/* Fjern alle understregninger på tværs af kort og hovers */
 #mp-dashboard-app a,
 #mp-dashboard-app a:hover,
 #mp-dashboard-app a *,
@@ -125,16 +119,15 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
   text-decoration: none !important;
 }
 
-/* Grids (100% ensartet opbygning og kortbredde) */
-.category-group { margin-bottom: 1.8rem; }
-.category-title { font-size: 0.88rem; color: #64748b; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 800; }
-.dash-grid, .res-grid, .todo-grid, .explore-grid, .benched-grid { 
+.category-group { margin-bottom: 2rem; }
+.category-title { font-size: 0.95rem; color: #475569; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 800; }
+
+.dash-grid, .res-grid, .explore-grid, .benched-grid { 
   display: grid; 
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); 
   gap: 16px; 
 }
 
-/* Kort Base Style */
 .dash-card, .res-card, .wish-card, .explore-card, .benched-card { 
   background: #ffffff; 
   border: 1.5px solid #e2e8f0; 
@@ -162,28 +155,28 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
 .wish-card { background: #fafafa; border-style: dashed; border-color: #cbd5e1; }
 .benched-card { background: #f8fafc; border-style: dashed; border-color: #cbd5e1; cursor: default; }
 
-/* Overskrift & Tekst */
 .card-header-group { padding-right: 28px; }
 .card-title { font-weight: 800; color: #0f172a; font-size: 0.95rem; margin: 0; line-height: 1.38; }
 .dash-desc { margin: 6px 0 0 0; font-size: 0.83rem; color: #64748b; line-height: 1.4; padding-right: 32px; }
 
-/* Norm Badges */
-.res-norm-badge {
+.badge-todo {
   display: inline-block;
-  font-size: 0.70rem;
+  font-size: 0.68rem;
   font-weight: 800;
-  padding: 2px 8px;
-  border-radius: 6px;
-  margin-top: 6px;
-  white-space: nowrap;
+  color: #d97706;
+  background: #fef3c7;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
 }
 
-/* Bundsektion & Ikon */
 .card-bottom-row { display: flex; align-items: flex-end; justify-content: space-between; margin-top: 14px; width: 100%; }
 .card-corner-icon { font-size: 2.2rem; line-height: 1; flex-shrink: 0; margin-left: auto; }
-.res-value { font-size: 1.25rem; font-weight: 800; color: #2563eb; word-break: break-word; }
+.res-value { font-size: 1.15rem; font-weight: 800; padding: 4px 10px; border-radius: 8px; border: 1px solid transparent; }
+.res-value .mp-db-unit { font-size: 0.75rem; font-weight: 700; opacity: 0.85; }
+.res-value-placeholder { font-size: 0.85rem; font-weight: 700; color: #2563eb; }
 
-/* --- KNAPPER I ØVERSTE HØJRE HJØRNE --- */
 .btn-action-icon { 
   position: absolute;
   top: 12px;
@@ -200,7 +193,6 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
 }
 .btn-action-icon:hover { color: #ef4444; transform: scale(1.15); }
 
-/* Grønne Plus-knapper til tilføjelse og genoprettelse */
 .btn-plus-action {
   position: absolute;
   top: 12px;
@@ -229,7 +221,6 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
 
 .res-empty { color: #64748b; font-style: italic; font-size: 0.9rem; grid-column: 1 / -1; }
 
-/* Søgning og Kategori-pills */
 .search-filter-wrapper { margin-bottom: 16px; display: flex; flex-direction: column; gap: 12px; }
 .test-search-input { width: 100%; padding: 12px 16px; font-size: 0.95rem; border: 1.5px solid #cbd5e1; border-radius: 10px; outline: none; transition: border-color 0.2s; box-sizing: border-box; }
 .test-search-input:focus { border-color: #3b82f6; }
@@ -250,19 +241,27 @@ Velkommen til dit personlige overblik. Alle dine testresultater gemmes udelukken
 .filter-pill.active { background: #2563eb; color: #ffffff; border-color: #2563eb; }
 </style>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const dashContainer = document.getElementById('dashboards-container');
-  const benchedContainer = document.getElementById('hidden-dash-container');
-  const benchedSection = document.getElementById('hidden-dash-section');
-  const resContainer = document.getElementById('results-container');
-  const wishlistContainer = document.getElementById('wishlist-container');
-  const exploreContainer = document.getElementById('explore-container');
-  const searchInput = document.getElementById('test-search');
-  const categoryFiltersContainer = document.getElementById('category-filters');
+<!-- MODULÆR ORKESTRERING VIA DASHBOARDMANAGER & STORAGEADAPTER -->
+<script type="module">
+  import { DashboardManager } from '/assets/js/core/DashboardManager.js';
+  import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
 
-  let exploreTests = []; 
-  let activeCategory = 'Alle';
+  const CATEGORY_ORDER = [
+    "Kondition & Løb",
+    "Cykel",
+    "Styrke & 1RM",
+    "Hop & Agility",
+    "Kropssammensætning",
+    "Diverse"
+  ];
+
+  let state = {
+    tests: window.MP_DATA ? window.MP_DATA.tests : [],
+    dashboards: window.MP_DATA ? window.MP_DATA.dashboards : [],
+    exploreTests: [],
+    activeCategory: 'Alle',
+    searchTerm: ''
+  };
 
   function getFullUrl(item) {
     let url = item.url || '';
@@ -272,87 +271,34 @@ document.addEventListener("DOMContentLoaded", function() {
     return url;
   }
 
-  // UNIVERSEL UNIFIED PARSER FOR BÅDE NYE (v2.0) OG GAMLE TESTFORMATER
-  function parseResultData(rawData) {
-    if (!rawData) return { display: '--', norm: null };
-    try {
-      const obj = JSON.parse(rawData);
-      if (typeof obj !== 'object' || obj === null) return { display: String(rawData), norm: null };
-
-      // 1. StorageAdapter Format (history array)
-      if (Array.isArray(obj.history) && obj.history.length > 0) {
-        const latest = obj.history[0];
-        let display = '--';
-        
-        if (latest.primary) {
-          const val = latest.primary.value;
-          const unit = latest.primary.unit || '';
-          display = `${val} ${unit}`.trim();
-        }
-
-        let detail = '';
-        if (latest.subMetrics) {
-          if (latest.subMetrics.distanceMeters) detail = ` (${latest.subMetrics.distanceMeters} m)`;
-          else if (latest.subMetrics.totalDistanceMeters) detail = ` (${latest.subMetrics.totalDistanceMeters} m)`;
-          else if (latest.subMetrics.level !== undefined && latest.subMetrics.shuttles !== undefined) {
-            detail = ` (Lvl ${latest.subMetrics.level}.${latest.subMetrics.shuttles})`;
-          }
-        }
-
-        return {
-          display: display + detail,
-          norm: latest.norm || null
-        };
-      }
-
-      // 2. Gammelt / Arvet Format Fallback
-      let norm = null;
-      if (obj.norm || obj.evaluation) {
-        const n = obj.norm || obj.evaluation;
-        norm = typeof n === 'object' ? n : { label: n, color: '#2563eb', bg: '#eff6ff' };
-      }
-
-      if (obj.summary) return { display: obj.summary, norm };
-      if (obj.value) return { display: `${obj.value} ${obj.unit || ''}`.trim(), norm };
-      if (obj.result) return { display: String(obj.result), norm };
-
-      if (obj.level !== undefined && obj.shuttles !== undefined) {
-        const typeLabel = obj.type ? `${obj.type.toUpperCase()} ` : '';
-        const vo2 = obj.vo2max ? ` (VO₂max: ${obj.vo2max})` : '';
-        return { display: `${typeLabel}Niveau ${obj.level}.${obj.shuttles}${vo2}`, norm };
-      }
-
-      if (obj.distance) {
-        const vo2 = obj.vo2max ? ` · VO₂max: ${obj.vo2max}` : '';
-        return { display: `${obj.distance} m${vo2}`, norm };
-      }
-
-      if (obj.oneRepMax || obj.rm1) return { display: `1RM: ${obj.oneRepMax || obj.rm1} kg`, norm };
-      if (obj.fatPercent || obj.bodyFat) return { display: `${obj.fatPercent || obj.bodyFat}% kropsfedt`, norm };
-
-      const ignoreKeys = ['age', 'weight', 'gender', 'levelSelect', 'formula', 'isManuallySelected', 'type', 'method'];
-      const keyData = Object.entries(obj)
-        .filter(([k, v]) => !ignoreKeys.includes(k) && v !== '' && v !== null && v !== undefined)
-        .map(([k, v]) => `${k}: ${v}`)
-        .join(' · ');
-
-      return { display: keyData || rawData, norm };
-    } catch (e) {
-      return { display: String(rawData), norm: null };
-    }
+  function mapToMainCategory(rawCategory) {
+    if (!rawCategory) return "Diverse";
+    const cat = rawCategory.toLowerCase();
+    
+    if (cat.includes("løb") || cat.includes("gang") || cat.includes("løbebånd") || cat.includes("kondition") || cat.includes("sofatest") || cat.includes("puls")) return "Kondition & Løb";
+    if (cat.includes("cykel")) return "Cykel";
+    if (cat.includes("styrke") || cat.includes("1rm")) return "Styrke & 1RM";
+    if (cat.includes("hop") || cat.includes("vertikal") || cat.includes("horisontal") || cat.includes("cod") || cat.includes("sprint") || cat.includes("agility")) return "Hop & Agility";
+    if (cat.includes("fedt") || cat.includes("bmi") || cat.includes("krop")) return "Kropssammensætning";
+    
+    return "Diverse";
   }
 
-  // --- 1. DASHBOARDS ---
+  // --- 1. RENDERING AF TEMADASHBOARDS ---
   function renderDashboards() {
+    const dashContainer = document.getElementById('dashboards-container');
+    const benchedContainer = document.getElementById('hidden-dash-container');
+    const benchedSection = document.getElementById('hidden-dash-section');
+    if (!dashContainer) return;
+
     let hiddenIds = JSON.parse(localStorage.getItem('mp_hidden_dashboards')) || [];
-    let activeHtml = '';
-    let hiddenHtml = '';
+    let activeHtml = '', hiddenHtml = '';
 
-    const activeDashboards = siteDashboards.filter(d => !hiddenIds.includes(d.id));
-    const hiddenDashboards = siteDashboards.filter(d => hiddenIds.includes(d.id));
+    const active = state.dashboards.filter(d => !hiddenIds.includes(d.id));
+    const hidden = state.dashboards.filter(d => hiddenIds.includes(d.id));
 
-    if (activeDashboards.length > 0) {
-      activeDashboards.forEach(d => {
+    if (active.length > 0) {
+      active.forEach(d => {
         activeHtml += `
           <a href="${getFullUrl(d)}" class="dash-card">
             <button class="btn-action-icon btn-hide-dash" data-id="${d.id}" title="Skjul dashboard">×</button>
@@ -360,9 +306,7 @@ document.addEventListener("DOMContentLoaded", function() {
               <h3 class="card-title">${d.title}</h3>
               <p class="dash-desc">${d.description}</p>
             </div>
-            <div class="card-bottom-row">
-              <span class="card-corner-icon">${d.icon}</span>
-            </div>
+            <div class="card-bottom-row"><span class="card-corner-icon">${d.icon}</span></div>
           </a>`;
       });
     } else {
@@ -370,16 +314,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     dashContainer.innerHTML = activeHtml;
 
-    if (hiddenDashboards.length > 0) {
+    if (hidden.length > 0) {
       benchedSection.style.display = 'block';
-      hiddenDashboards.forEach(d => {
+      hidden.forEach(d => {
         hiddenHtml += `
           <div class="benched-card">
             <button class="btn-plus-action btn-unbench" data-id="${d.id}" title="Vis på overblik">+</button>
             <h4 class="card-title">${d.title}</h4>
-            <div class="card-bottom-row">
-              <span class="card-corner-icon">${d.icon}</span>
-            </div>
+            <div class="card-bottom-row"><span class="card-corner-icon">${d.icon}</span></div>
           </div>`;
       });
       benchedContainer.innerHTML = hiddenHtml;
@@ -387,147 +329,167 @@ document.addEventListener("DOMContentLoaded", function() {
       benchedSection.style.display = 'none';
     }
 
-    document.querySelectorAll('.btn-hide-dash').forEach(btn => {
-      btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        const id = this.dataset.id;
-        let hidden = JSON.parse(localStorage.getItem('mp_hidden_dashboards')) || [];
-        if (!hidden.includes(id)) {
-          hidden.push(id);
-          localStorage.setItem('mp_hidden_dashboards', JSON.stringify(hidden));
+    dashContainer.querySelectorAll('.btn-hide-dash').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault(); e.stopPropagation();
+        let hiddenList = JSON.parse(localStorage.getItem('mp_hidden_dashboards')) || [];
+        if (!hiddenList.includes(btn.dataset.id)) {
+          hiddenList.push(btn.dataset.id);
+          localStorage.setItem('mp_hidden_dashboards', JSON.stringify(hiddenList));
           renderDashboards();
         }
       });
     });
 
-    document.querySelectorAll('.btn-unbench').forEach(btn => {
-      btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        const id = this.dataset.id;
-        let hidden = JSON.parse(localStorage.getItem('mp_hidden_dashboards')) || [];
-        hidden = hidden.filter(i => i !== id);
-        localStorage.setItem('mp_hidden_dashboards', JSON.stringify(hidden));
-        renderDashboards();
+    if (benchedContainer) {
+      benchedContainer.querySelectorAll('.btn-unbench').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault(); e.stopPropagation();
+          let hiddenList = JSON.parse(localStorage.getItem('mp_hidden_dashboards')) || [];
+          hiddenList = hiddenList.filter(id => id !== btn.dataset.id);
+          localStorage.setItem('mp_hidden_dashboards', JSON.stringify(hiddenList));
+          renderDashboards();
+        });
       });
-    });
+    }
   }
 
-  // --- 2. MAIN RENDER ---
-  function renderDashboard() {
-    let resHtml = '';
-    let wishHtml = '';
-    
-    let wishlistKeys = JSON.parse(localStorage.getItem('mp_wishlist')) || [];
-    const groupedResults = {};
-    const wishlistedTests = [];
-    exploreTests = [];
+  // --- 2. MIT DASHBOARD (UNIFIED VIA DASHBOARDMANAGER) ---
+  function renderUnifiedDashboard() {
+    const unifiedContainer = document.getElementById('unified-dashboard-container');
+    if (!unifiedContainer) return;
 
-    siteTests.forEach(test => {
-      const resultData = localStorage.getItem(test.lsKey);
-      
-      if (resultData) {
-        if (!groupedResults[test.category]) groupedResults[test.category] = [];
-        groupedResults[test.category].push({ ...test, result: resultData });
+    let wishlistKeys = JSON.parse(localStorage.getItem('mp_wishlist')) || [];
+    const groupedData = {};
+
+    CATEGORY_ORDER.forEach(cat => groupedData[cat] = { results: [], wishlist: [] });
+    state.exploreTests = [];
+
+    state.tests.forEach(test => {
+      const mainCat = mapToMainCategory(test.category);
+      if (!groupedData[mainCat]) groupedData[mainCat] = { results: [], wishlist: [] };
+
+      // Hent måling direkte via StorageAdapter
+      const latestRecord = StorageAdapter.getLatest(test.storageKey);
+
+      if (latestRecord) {
+        // Hent færdigformateret score og norm-farver via DashboardManager
+        const score = DashboardManager.getCardScore(test.storageKey);
+        groupedData[mainCat].results.push({ ...test, score, mainCat });
         
-        if (wishlistKeys.includes(test.lsKey)) {
-          wishlistKeys = wishlistKeys.filter(k => k !== test.lsKey);
+        if (wishlistKeys.includes(test.storageKey)) {
+          wishlistKeys = wishlistKeys.filter(k => k !== test.storageKey);
           localStorage.setItem('mp_wishlist', JSON.stringify(wishlistKeys));
         }
-      } else if (wishlistKeys.includes(test.lsKey)) {
-        wishlistedTests.push(test);
+      } else if (wishlistKeys.includes(test.storageKey)) {
+        groupedData[mainCat].wishlist.push({ ...test, mainCat });
       } else {
-        exploreTests.push(test);
+        state.exploreTests.push({ ...test, mainCat });
       }
     });
 
-    // RESULTATER
-    if (Object.keys(groupedResults).length === 0) {
-      resHtml = `<p class="res-empty">Du har endnu ikke gemt nogen resultater på Motionsplan.</p>`;
-    } else {
-      for (const [category, tests] of Object.entries(groupedResults)) {
-        resHtml += `<div class="category-group"><div class="category-title">${category}</div><div class="res-grid">`;
-        tests.forEach(t => {
-          const parsed = parseResultData(t.result);
-          const normBadge = parsed.norm ? `
-            <span class="res-norm-badge" style="background:${parsed.norm.bg || '#eff6ff'}; color:${parsed.norm.color || '#2563eb'};">
-              ${parsed.norm.label}
-            </span>
-          ` : '';
+    let html = '';
+    let totalItems = 0;
 
-          resHtml += `
+    CATEGORY_ORDER.forEach(catName => {
+      const group = groupedData[catName];
+      if (group.results.length > 0 || group.wishlist.length > 0) {
+        totalItems += group.results.length + group.wishlist.length;
+        
+        html += `
+          <div class="category-group">
+            <div class="category-title">📂 ${catName}</div>
+            <div class="res-grid">`;
+
+        // Aktive målinger
+        group.results.sort((a, b) => a.title.localeCompare(b.title)).forEach(t => {
+          html += `
             <a href="${getFullUrl(t)}" class="res-card">
-              <button class="btn-action-icon btn-delete" data-key="${t.lsKey}" title="Slet resultat">🗑️</button>
+              <button class="btn-action-icon btn-delete" data-key="${t.storageKey}" title="Slet data">🗑️</button>
               <div class="card-header-group">
                 <h4 class="card-title">${t.title}</h4>
-                ${normBadge}
               </div>
               <div class="card-bottom-row">
-                <div class="res-value">${parsed.display}</div>
+                <div class="res-value" style="background:${t.score.bg}; color:${t.score.color}; border-color:${t.score.border};">
+                  ${t.score.display}
+                </div>
                 <span class="card-corner-icon">${t.icon}</span>
               </div>
             </a>`;
         });
-        resHtml += `</div></div>`;
+
+        // Planlagte målinger
+        group.wishlist.sort((a, b) => a.title.localeCompare(b.title)).forEach(t => {
+          html += `
+            <a href="${getFullUrl(t)}" class="wish-card">
+              <button class="btn-action-icon btn-remove-wish" data-key="${t.storageKey}" title="Fjern fra dashboard">×</button>
+              <div class="card-header-group">
+                <span class="badge-todo">📋 Planlagt</span>
+                <h4 class="card-title">${t.title}</h4>
+              </div>
+              <div class="card-bottom-row">
+                <span class="res-value-placeholder">Start test →</span>
+                <span class="card-corner-icon">${t.icon}</span>
+              </div>
+            </a>`;
+        });
+
+        html += `</div></div>`;
       }
+    });
+
+    if (totalItems === 0) {
+      html = `<p class="res-empty">Dit dashboard er tomt. Søg i kataloget nedenfor og klik på **+** for at tilføje tests eller beregnere.</p>`;
     }
-    resContainer.innerHTML = resHtml;
 
-    // ØNSKELISTE
-    if (wishlistedTests.length > 0) {
-      wishlistedTests.forEach(t => {
-        wishHtml += `
-          <a href="${getFullUrl(t)}" class="wish-card">
-            <button class="btn-action-icon btn-remove-wish" data-key="${t.lsKey}" title="Fjern fra ønskeliste">×</button>
-            <h4 class="card-title">${t.title}</h4>
-            <div class="card-bottom-row">
-              <span class="card-corner-icon">${t.icon}</span>
-            </div>
-          </a>`;
-      });
-    } else {
-      wishHtml = `<p class="res-empty">Din ønskeliste er tom. Søg efter et værktøj nedenfor og klik på det grønne + ikon.</p>`;
-    }
-    wishlistContainer.innerHTML = wishHtml;
+    unifiedContainer.innerHTML = html;
 
-    renderCategoryFilters();
-    filterAndRenderExplore();
-
-    document.querySelectorAll('.btn-delete').forEach(btn => {
-      btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
+    // Slet historik via StorageAdapter
+    unifiedContainer.querySelectorAll('.btn-delete').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault(); e.stopPropagation();
         if(confirm('Vil du slette dette resultat permanent fra din browser?')) {
-          localStorage.removeItem(this.dataset.key);
-          renderDashboard();
+          StorageAdapter.clearLog(btn.dataset.key);
+          renderUnifiedDashboard();
+          renderCategoryFilters();
+          filterAndRenderExplore();
         }
       });
     });
 
-    document.querySelectorAll('.btn-remove-wish').forEach(btn => {
-      btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        wishlistKeys = wishlistKeys.filter(k => k !== this.dataset.key);
-        localStorage.setItem('mp_wishlist', JSON.stringify(wishlistKeys));
-        renderDashboard();
+    // Fjern fra ønsker
+    unifiedContainer.querySelectorAll('.btn-remove-wish').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault(); e.stopPropagation();
+        let wish = JSON.parse(localStorage.getItem('mp_wishlist')) || [];
+        wish = wish.filter(k => k !== btn.dataset.key);
+        localStorage.setItem('mp_wishlist', JSON.stringify(wish));
+        renderUnifiedDashboard();
+        renderCategoryFilters();
+        filterAndRenderExplore();
       });
     });
+
+    renderCategoryFilters();
+    filterAndRenderExplore();
   }
 
+  // --- 3. KATALOG OG SØGNING ---
   function renderCategoryFilters() {
-    const categories = ['Alle', ...new Set(exploreTests.map(t => t.category))];
+    const categoryFiltersContainer = document.getElementById('category-filters');
+    if (!categoryFiltersContainer) return;
+
+    const categories = ['Alle', ...CATEGORY_ORDER];
     let html = '';
     categories.forEach(cat => {
-      const activeClass = activeCategory === cat ? 'active' : '';
+      const activeClass = state.activeCategory === cat ? 'active' : '';
       html += `<button class="filter-pill ${activeClass}" data-category="${cat}">${cat}</button>`;
     });
     categoryFiltersContainer.innerHTML = html;
 
-    document.querySelectorAll('.filter-pill').forEach(btn => {
-      btn.addEventListener('click', function() {
-        activeCategory = this.dataset.category;
+    categoryFiltersContainer.querySelectorAll('.filter-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        state.activeCategory = btn.dataset.category;
         renderCategoryFilters();
         filterAndRenderExplore();
       });
@@ -535,27 +497,27 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function filterAndRenderExplore() {
-    const searchTerm = searchInput.value.toLowerCase();
-    const filtered = exploreTests.filter(t => {
-      const matchesSearch = t.title.toLowerCase().includes(searchTerm) || t.category.toLowerCase().includes(searchTerm);
-      const matchesCategory = activeCategory === 'Alle' || t.category === activeCategory;
+    const exploreContainer = document.getElementById('explore-container');
+    if (!exploreContainer) return;
+
+    const filtered = state.exploreTests.filter(t => {
+      const matchesSearch = t.title.toLowerCase().includes(state.searchTerm) || t.category.toLowerCase().includes(state.searchTerm);
+      const matchesCategory = state.activeCategory === 'Alle' || t.mainCat === state.activeCategory;
       return matchesSearch && matchesCategory;
     });
 
-    renderExploreGrid(filtered);
-  }
-
-  function renderExploreGrid(testsToRender) {
-    if(testsToRender.length === 0) {
+    if(filtered.length === 0) {
       exploreContainer.innerHTML = `<p class="res-empty">Ingen tilgængelige værktøjer matcher din søgning.</p>`;
       return;
     }
     
+    filtered.sort((a, b) => a.title.localeCompare(b.title));
+
     let expHtml = '';
-    testsToRender.forEach(t => {
+    filtered.forEach(t => {
       expHtml += `
         <a href="${getFullUrl(t)}" class="explore-card">
-          <button class="btn-plus-action btn-add-wish" data-key="${t.lsKey}" title="Tilføj til ønskeliste">+</button>
+          <button class="btn-plus-action btn-add-wish" data-key="${t.storageKey}" title="Tilføj til mit dashboard">+</button>
           <h4 class="card-title">${t.title}</h4>
           <div class="card-bottom-row">
             <span class="card-corner-icon">${t.icon}</span>
@@ -564,26 +526,33 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     exploreContainer.innerHTML = expHtml;
 
-    document.querySelectorAll('.btn-add-wish').forEach(btn => {
-      btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        let currentWish = JSON.parse(localStorage.getItem('mp_wishlist')) || [];
-        if (!currentWish.includes(this.dataset.key)) {
-          currentWish.push(this.dataset.key);
-          localStorage.setItem('mp_wishlist', JSON.stringify(currentWish));
-          renderDashboard();
-          searchInput.value = '';
+    exploreContainer.querySelectorAll('.btn-add-wish').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault(); e.stopPropagation();
+        let wish = JSON.parse(localStorage.getItem('mp_wishlist')) || [];
+        if (!wish.includes(btn.dataset.key)) {
+          wish.push(btn.dataset.key);
+          localStorage.setItem('mp_wishlist', JSON.stringify(wish));
+          state.searchTerm = '';
+          const searchInput = document.getElementById('test-search');
+          if (searchInput) searchInput.value = '';
+          renderUnifiedDashboard();
         }
       });
     });
   }
 
-  searchInput.addEventListener('input', function() {
-    filterAndRenderExplore();
-  });
+  // Initialisering
+  document.addEventListener("DOMContentLoaded", () => {
+    const searchInput = document.getElementById('test-search');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        state.searchTerm = e.target.value.toLowerCase();
+        filterAndRenderExplore();
+      });
+    }
 
-  renderDashboards();
-  renderDashboard();
-});
+    renderDashboards();
+    renderUnifiedDashboard();
+  });
 </script>

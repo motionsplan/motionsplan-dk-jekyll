@@ -20,10 +20,10 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tests:
-  - id: "test-astrand-ryhming-step-test"
+  - id: "astrand-ryhming-step-test"
     title: "Åstrand-Ryhming Step Test"
     description: "Klassisk, submaksimal fysiologisk steptest (6 minutter ved 90 BPM på en 40 cm / 33 cm høj bænk) til indirekte estimering af absolut VO2max og kondital baseret på steady-state arbejdspuls og alderskorrektion."
-    category: ["Tests", "Kondition"]
+    category: ["Steptest", "Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]
     method: "indirekte"
@@ -34,6 +34,11 @@ tests:
     target_group: ["Voksne", "Motionister", "Atleter", "Mænd", "Kvinder"]
     related_tools:
       - "tool-astrand-ryhming-steptest-beregner"
+    icon: "🪜"
+    badge: "Steptest"
+    unit: "ml/kg/min"
+    storage_key: "astrand_step"
+    allow_quick_log: false
 
 tools:
   - id: "tool-astrand-ryhming-steptest-beregner"

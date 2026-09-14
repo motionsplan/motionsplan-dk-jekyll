@@ -22,10 +22,10 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tests:
-  - id: "test-queens-college-step-test"
+  - id: "queens-college-step-test"
     title: "Queens College Step Test (QCST / McArdle)"
     description: "Standardiseret submaksimal steptest (3 minutter på en 41,3 cm høj bænk ved 24 step/min for mænd og 22 step/min for kvinder) til indirekte estimering af kondital (VO2max) ud fra din puls."
-    category: ["Tests", "Kondition"]
+    category: ["Steptest", "Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk steppearbejde på 41,3 cm bænk
     method: "indirekte"                     # 📊 Indirekte estimering af VO2max baseret på restitutionspuls
@@ -36,6 +36,11 @@ tests:
     target_group: ["Mænd", "Kvinder", "Atleter", "Motionister", "Studerende"]
     related_tools:
       - "tool-queens-college-steptest-beregner"
+    icon: "🪜"
+    badge: "Steptest"
+    unit: "ml/kg/min"
+    storage_key: "queens_step"
+    allow_quick_log: true
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

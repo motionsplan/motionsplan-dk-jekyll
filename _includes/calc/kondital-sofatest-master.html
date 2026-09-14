@@ -2,7 +2,7 @@
 
 <div class="mp-calc-card" data-calculator="kondital-master" style="max-width: 720px; margin: 0 auto; position: relative; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1.25rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
 
-  <!-- Header uden <hx> tags -->
+  <!-- Header -->
   <div class="mp-calc-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
     <div class="mp-calc-title" style="margin: 0; font-size: 1.25rem; font-weight: 800; color: #0f172a;">Kondital Beregner: Sofatests</div>
     <div data-html2canvas-ignore="true">
@@ -270,30 +270,30 @@
     <!-- Indsættes dynamisk af JS -->
   </div>
 
-  <!-- Action knapper -->
+  <!-- Action knapper med Gem-knap -->
   <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;" data-html2canvas-ignore="true">
-    <button type="button" class="js-download-btn" style="flex: 1; padding: 0.6rem; border: none; border-radius: 6px; background: #2563eb; color: #ffffff; font-weight: 700; font-size: 0.85rem; cursor: pointer;">📸 Tag billede</button>
+    <button type="button" class="js-save-btn" style="flex: 1.5; padding: 0.6rem; border: none; border-radius: 6px; background: #2563eb; color: #ffffff; font-weight: 700; font-size: 0.85rem; cursor: pointer;" disabled>💾 Gem resultat</button>
+    <button type="button" class="js-download-btn" style="flex: 1; padding: 0.6rem; border: 1px solid #cbd5e1; border-radius: 6px; background: #ffffff; color: #334155; font-weight: 700; font-size: 0.85rem; cursor: pointer;">📸 Tag billede</button>
     <button type="button" class="js-reset-btn" style="width: 42px; padding: 0; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc; font-size: 1rem; cursor: pointer;" title="Ryd felter">🗑️</button>
   </div>
   
   <div style="text-align: center; font-size: 0.7rem; color: #94a3b8; font-weight: 600;">&copy; motionsplan.dk</div>
 
 </div>
-
 <script type="module">
 import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
+import { calculateRunningDistanceVO2 } from '/assets/js/core/running-distance-vo2max.js';
+import { calculateVo2MaxFromPulse } from '/assets/js/core/vo2max-maxhr-uth.js';
+import { evaluateFitnessLevel, getFitnessThresholds } from '/assets/js/core/vo2max-norms.js';
 
 (function() {
   const container = document.querySelector('[data-calculator="kondital-master"]');
   if (!container) return;
 
-  const UI_STORAGE_KEY = 'mp_kondital_master_data';
-
-  // Storage-nøgler til StorageAdapter synkronisering
   const MODE_STORAGE_KEYS = {
-    tokmakidis: 'tokmakidis_run',
-    uth: 'uth_pulse',
-    nes: 'sofatest',
+    tokmakidis: 'running_distance_vo2max',
+    uth: 'vo2max_maxhr_uth',
+    nes: 'sofatest_nes',
     jackson: 'jackson_nasa'
   };
 
@@ -307,7 +307,6 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
     jackson: '<strong>Jackson et al. (1990) / NASA:</strong> Non-exercise model udviklet for NASA til hurtig vurdering af kondital ud fra BMI og NASA\'s PAR-aktivitetsskala (0-7).'
   };
 
-  // UI Elementer
   const modeBtns = container.querySelectorAll('.js-kt-mode-btn');
   const sections = container.querySelectorAll('.js-kt-section');
   const inputs = container.querySelectorAll('.js-kt-input');
@@ -329,30 +328,18 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
   const estimateBtn = container.querySelector('.js-kt-estimate-btn');
   const maxHrHelper = container.querySelector('.js-kt-maxhr-helper');
 
+  const saveBtn = container.querySelector('.js-save-btn');
+  const resetBtn = container.querySelector('.js-reset-btn');
+  const downloadBtn = container.querySelector('.js-download-btn');
+
   function getActiveStorageKey() {
-    return MODE_STORAGE_KEYS[currentMode] || 'sofatest';
+    return MODE_STORAGE_KEYS[currentMode] || 'sofatest_nes';
   }
 
-  function getEvalCategory(score, gender) {
-    if (!score || score <= 0) return { cat: 'Mangler data', color: '#cbd5e1', textColor: '#475569' };
-    const cutoffs = (gender === 'male') 
-      ? { low: 35, mid: 44, high: 52, vhigh: 57 }
-      : { low: 28, mid: 35, high: 44, vhigh: 49 };
-
-    if (score < cutoffs.low) return { cat: 'Lav', color: '#ef4444', textColor: '#ffffff' };
-    if (score < cutoffs.mid) return { cat: 'Under middel', color: '#f97316', textColor: '#ffffff' };
-    if (score < cutoffs.high) return { cat: 'Middel', color: '#ca8a04', textColor: '#ffffff' };
-    if (score < cutoffs.vhigh) return { cat: 'Høj', color: '#22c55e', textColor: '#ffffff' };
-    return { cat: 'Meget høj', color: '#2563eb', textColor: '#ffffff' };
-  }
-
-  // --- 1. INDLÆS KLADDE ELLER PROFIL FOR AKTIV TEST ---
+  // --- 1. INDLÆS KLADDER OG PROFIL FOR ALLE 4 MODELLER SAMTIDIG ---
   function loadInitialData() {
     const profile = StorageAdapter.getProfile();
-    const activeKey = getActiveStorageKey();
-    const draft = StorageAdapter.loadDraft(activeKey);
 
-    // Indlæs fælles profil
     if (profile.age && container.querySelector('[name="kt_age"]')) {
       container.querySelector('[name="kt_age"]').value = profile.age;
     }
@@ -363,65 +350,65 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
       const radio = container.querySelector(`[name="kt_gender"][value="${profile.gender}"]`);
       if (radio) {
         radio.checked = true;
-        genderBtns.forEach(b => {
-          b.style.background = '#f8fafc';
-          b.style.color = '#475569';
+        container.querySelectorAll('.js-kt-gender-btn').forEach(b => {
+          b.style.background = '#f8fafc'; b.style.color = '#475569';
         });
         const activeBtn = radio.parentElement.querySelector('.js-kt-gender-btn');
         if (activeBtn) {
-          activeBtn.style.background = '#2563eb';
-          activeBtn.style.color = '#ffffff';
+          activeBtn.style.background = '#2563eb'; activeBtn.style.color = '#ffffff';
         }
       }
     }
 
-    // Indlæs tilstandskladde hvis den findes
-    if (draft) {
-      if (draft.tok_dist && container.querySelector('[name="kt_tok_dist"]')) container.querySelector('[name="kt_tok_dist"]').value = draft.tok_dist;
-      if (draft.tok_min && container.querySelector('[name="kt_tok_min"]')) container.querySelector('[name="kt_tok_min"]').value = draft.tok_min;
-      if (draft.tok_sec && container.querySelector('[name="kt_tok_sec"]')) container.querySelector('[name="kt_tok_sec"]').value = draft.tok_sec;
-      if (draft.resthr && container.querySelector('[name="kt_resthr"]')) container.querySelector('[name="kt_resthr"]').value = draft.resthr;
-      if (draft.maxhr && container.querySelector('[name="kt_maxhr"]')) container.querySelector('[name="kt_maxhr"]').value = draft.maxhr;
-      if (draft.waist && container.querySelector('[name="kt_waist"]')) container.querySelector('[name="kt_waist"]').value = draft.waist;
-      if (draft.nes_resthr && container.querySelector('[name="kt_nes_resthr"]')) container.querySelector('[name="kt_nes_resthr"]').value = draft.nes_resthr;
-      if (draft.height && container.querySelector('[name="kt_height"]')) container.querySelector('[name="kt_height"]').value = draft.height;
+    // A. Tokmakidis kladde
+    const draftTok = StorageAdapter.loadDraft(MODE_STORAGE_KEYS.tokmakidis);
+    if (draftTok) {
+      if (draftTok.distanceKm && container.querySelector('[name="kt_tok_dist"]')) container.querySelector('[name="kt_tok_dist"]').value = draftTok.distanceKm;
+      if (draftTok.minutes && container.querySelector('[name="kt_tok_min"]')) container.querySelector('[name="kt_tok_min"]').value = draftTok.minutes;
+      if (draftTok.seconds && container.querySelector('[name="kt_tok_sec"]')) container.querySelector('[name="kt_tok_sec"]').value = draftTok.seconds;
+    }
 
-      if (draft.nes_pa) {
+    // B. Uth kladde
+    const draftUth = StorageAdapter.loadDraft(MODE_STORAGE_KEYS.uth);
+    if (draftUth) {
+      if (draftUth.restHr && container.querySelector('[name="kt_resthr"]')) container.querySelector('[name="kt_resthr"]').value = draftUth.restHr;
+      if (draftUth.maxHr && container.querySelector('[name="kt_maxhr"]')) container.querySelector('[name="kt_maxhr"]').value = draftUth.maxHr;
+    }
+
+    // C. Nes (HUNT) kladde
+    const draftNes = StorageAdapter.loadDraft(MODE_STORAGE_KEYS.nes);
+    if (draftNes) {
+      if (draftNes.waist && container.querySelector('[name="kt_waist"]')) container.querySelector('[name="kt_waist"]').value = draftNes.waist;
+      if (draftNes.restHr && container.querySelector('[name="kt_nes_resthr"]')) container.querySelector('[name="kt_nes_resthr"]').value = draftNes.restHr;
+      if (draftNes.nesPa) {
         const nesGroup = container.querySelector('[data-name="kt_nes_pa"]');
         if (nesGroup) {
           nesGroup.querySelectorAll('.js-kt-pill').forEach(p => {
-            p.classList.remove('is-active');
-            p.style.border = '1.5px solid #cbd5e1';
-            p.style.background = '#ffffff';
-            p.style.color = '#0f172a';
-            p.style.fontWeight = 'normal';
-            if (p.dataset.value === String(draft.nes_pa)) {
-              p.classList.add('is-active');
-              p.style.border = '2px solid #2563eb';
-              p.style.background = '#eff6ff';
-              p.style.color = '#1e40af';
-              p.style.fontWeight = '700';
-            }
+            const isMatch = p.dataset.value === String(draftNes.nesPa);
+            p.classList.toggle('is-active', isMatch);
+            p.style.border = isMatch ? '2px solid #2563eb' : '1.5px solid #cbd5e1';
+            p.style.background = isMatch ? '#eff6ff' : '#ffffff';
+            p.style.color = isMatch ? '#1e40af' : '#0f172a';
+            p.style.fontWeight = isMatch ? '700' : 'normal';
           });
         }
       }
+    }
 
-      if (draft.jackson_par) {
+    // D. Jackson (NASA) kladde
+    const draftJack = StorageAdapter.loadDraft(MODE_STORAGE_KEYS.jackson);
+    if (draftJack) {
+      if (draftJack.height && container.querySelector('[name="kt_height"]')) container.querySelector('[name="kt_height"]').value = draftJack.height;
+      if (draftJack.jacksonPar) {
         const jackGroup = container.querySelector('[data-name="kt_jackson_par"]');
         if (jackGroup) {
           jackGroup.querySelectorAll('.js-kt-pill').forEach(p => {
-            p.classList.remove('is-active');
-            p.style.border = '1.5px solid #cbd5e1';
-            p.style.background = '#ffffff';
-            p.style.color = '#0f172a';
-            p.style.fontWeight = 'normal';
-            if (p.dataset.value === String(draft.jackson_par)) {
-              p.classList.add('is-active');
-              p.style.border = '2px solid #2563eb';
-              p.style.background = '#eff6ff';
-              p.style.color = '#1e40af';
-              p.style.fontWeight = '700';
-            }
+            const isMatch = p.dataset.value === String(draftJack.jacksonPar);
+            p.classList.toggle('is-active', isMatch);
+            p.style.border = isMatch ? '2px solid #2563eb' : '1.5px solid #cbd5e1';
+            p.style.background = isMatch ? '#eff6ff' : '#ffffff';
+            p.style.color = isMatch ? '#1e40af' : '#0f172a';
+            p.style.fontWeight = isMatch ? '700' : 'normal';
           });
         }
       }
@@ -444,35 +431,46 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
       });
     }
 
-    const nesPill = container.querySelector('[data-name="kt_nes_pa"] .js-kt-pill.is-active');
-    const jackPill = container.querySelector('[data-name="kt_jackson_par"] .js-kt-pill.is-active');
+    let draftData = {};
 
-    StorageAdapter.saveDraft(activeKey, {
-      mode: currentMode,
-      tok_dist: container.querySelector('[name="kt_tok_dist"]')?.value || '',
-      tok_min: container.querySelector('[name="kt_tok_min"]')?.value || '',
-      tok_sec: container.querySelector('[name="kt_tok_sec"]')?.value || '',
-      resthr: container.querySelector('[name="kt_resthr"]')?.value || '',
-      maxhr: container.querySelector('[name="kt_maxhr"]')?.value || '',
-      waist: container.querySelector('[name="kt_waist"]')?.value || '',
-      nes_resthr: container.querySelector('[name="kt_nes_resthr"]')?.value || '',
-      nes_pa: nesPill ? nesPill.dataset.value : '3',
-      height: container.querySelector('[name="kt_height"]')?.value || '',
-      jackson_par: jackPill ? jackPill.dataset.value : '4'
-    });
+    if (currentMode === 'tokmakidis') {
+      draftData = {
+        distanceKm: container.querySelector('[name="kt_tok_dist"]')?.value || '',
+        hours: '',
+        minutes: container.querySelector('[name="kt_tok_min"]')?.value || '',
+        seconds: container.querySelector('[name="kt_tok_sec"]')?.value || ''
+      };
+    } else if (currentMode === 'uth') {
+      draftData = {
+        restHr: container.querySelector('[name="kt_resthr"]')?.value || '',
+        maxHr: container.querySelector('[name="kt_maxhr"]')?.value || ''
+      };
+    } else if (currentMode === 'nes') {
+      const nesPill = container.querySelector('[data-name="kt_nes_pa"] .js-kt-pill.is-active');
+      draftData = {
+        waist: container.querySelector('[name="kt_waist"]')?.value || '',
+        restHr: container.querySelector('[name="kt_nes_resthr"]')?.value || '',
+        nesPa: nesPill ? nesPill.dataset.value : '3'
+      };
+    } else if (currentMode === 'jackson') {
+      const jackPill = container.querySelector('[data-name="kt_jackson_par"] .js-kt-pill.is-active');
+      draftData = {
+        height: container.querySelector('[name="kt_height"]')?.value || '',
+        jacksonPar: jackPill ? jackPill.dataset.value : '4'
+      };
+    }
+
+    StorageAdapter.saveDraft(activeKey, draftData);
   }
 
-  // Skift Mode
   modeBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       currentMode = btn.dataset.mode;
       modeBtns.forEach(b => {
-        b.style.border = '2px solid #e2e8f0';
-        b.style.background = '#ffffff';
+        b.style.border = '2px solid #e2e8f0'; b.style.background = '#ffffff';
         b.classList.remove('is-active');
       });
-      btn.style.border = '2px solid #2563eb';
-      btn.style.background = '#eff6ff';
+      btn.style.border = '2px solid #2563eb'; btn.style.background = '#eff6ff';
       btn.classList.add('is-active');
 
       sections.forEach(sec => {
@@ -480,38 +478,30 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
       });
 
       infoBox.innerHTML = modeInfos[currentMode];
-      loadInitialData();
       calculateAll();
     });
   });
 
-  // Køn toggle
-  const genderBtns = container.querySelectorAll('.js-kt-gender-btn');
-  genderBtns.forEach(btn => {
+  container.querySelectorAll('.js-kt-gender-btn').forEach(btn => {
     btn.parentElement.querySelector('input').addEventListener('change', (e) => {
-      genderBtns.forEach(b => {
-        b.style.background = '#f8fafc';
-        b.style.color = '#475569';
+      container.querySelectorAll('.js-kt-gender-btn').forEach(b => {
+        b.style.background = '#f8fafc'; b.style.color = '#475569';
       });
       if (e.target.checked) {
-        btn.style.background = '#2563eb';
-        btn.style.color = '#ffffff';
+        btn.style.background = '#2563eb'; btn.style.color = '#ffffff';
       }
       saveDraftAndProfile();
       calculateAll();
     });
   });
 
-  // Pill knapper (Aktivitet)
   pills.forEach(pill => {
     pill.addEventListener('click', (e) => {
       const clickedBtn = e.currentTarget;
       const group = clickedBtn.closest('.js-kt-pill-group');
       group.querySelectorAll('.js-kt-pill').forEach(p => {
-        p.style.border = '1.5px solid #cbd5e1';
-        p.style.background = '#ffffff';
-        p.style.color = '#0f172a';
-        p.style.fontWeight = 'normal';
+        p.style.border = '1.5px solid #cbd5e1'; p.style.background = '#ffffff';
+        p.style.color = '#0f172a'; p.style.fontWeight = 'normal';
         p.classList.remove('is-active');
       });
       clickedBtn.style.border = '2px solid #2563eb';
@@ -524,7 +514,6 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
     });
   });
 
-  // Maxpuls estimering (Tanaka 2001)
   if (estimateBtn) {
     estimateBtn.addEventListener('click', () => {
       const ageInput = container.querySelector('[name="kt_age"]');
@@ -540,7 +529,6 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
     });
   }
 
-  // Input ændringer
   inputs.forEach(input => {
     input.addEventListener('input', () => {
       saveDraftAndProfile();
@@ -548,45 +536,38 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
     });
   });
 
-  // Popup tabel
   if (evalBadge) evalBadge.addEventListener('click', () => popup.style.display = 'flex');
   if (popupClose) popupClose.addEventListener('click', () => popup.style.display = 'none');
 
-  // Hovedberegning for alle 4 modeller
   function calculateAll() {
-    const ageInput = container.querySelector('[name="kt_age"]');
-    const weightInput = container.querySelector('[name="kt_weight"]');
-    const genderInput = container.querySelector('[name="kt_gender"]:checked');
+    const age = parseFloat(container.querySelector('[name="kt_age"]')?.value || '40') || 40;
+    const weight = parseFloat(container.querySelector('[name="kt_weight"]')?.value || '80') || 80;
+    const gender = container.querySelector('[name="kt_gender"]:checked')?.value || 'male';
 
-    const age = parseFloat(ageInput ? ageInput.value : 40) || 40;
-    const weight = parseFloat(weightInput ? weightInput.value : 80) || 80;
-    const gender = genderInput ? genderInput.value : 'male';
-
-    // 1. Tokmakidis (Løbetur)
-    const dist = parseFloat(container.querySelector('[name="kt_tok_dist"]').value);
-    const min = parseFloat(container.querySelector('[name="kt_tok_min"]').value);
-    const sec = parseFloat(container.querySelector('[name="kt_tok_sec"]').value) || 0;
-    if (dist && min && dist >= 1.5) {
-      const timeInMin = min + (sec / 60);
-      const speedKmH = dist / (timeInMin / 60);
-      const met = 3.1747 + (0.9139 * speedKmH);
-      computedScores.tokmakidis = met * 3.5;
+    // 1. Tokmakidis
+    const distKm = parseFloat(container.querySelector('[name="kt_tok_dist"]')?.value);
+    const min = parseFloat(container.querySelector('[name="kt_tok_min"]')?.value);
+    const sec = parseFloat(container.querySelector('[name="kt_tok_sec"]')?.value) || 0;
+    if (distKm && min && distKm >= 1.5) {
+      const resRun = calculateRunningDistanceVO2(distKm * 1000, 0, min, sec, weight);
+      computedScores.tokmakidis = (resRun && resRun.isValid) ? resRun.fitnessLevel : null;
     } else {
       computedScores.tokmakidis = null;
     }
 
-    // 2. Uth (Puls)
-    const restHr = parseFloat(container.querySelector('[name="kt_resthr"]').value);
-    const maxHr = parseFloat(container.querySelector('[name="kt_maxhr"]').value);
-    if (restHr && maxHr && maxHr > restHr) {
-      computedScores.uth = 15.3 * (maxHr / restHr);
+    // 2. Uth
+    const restHr = parseFloat(container.querySelector('[name="kt_resthr"]')?.value);
+    const maxHr = parseFloat(container.querySelector('[name="kt_maxhr"]')?.value);
+    if (restHr && maxHr) {
+      const resPulse = calculateVo2MaxFromPulse({ maxHr, restHr, weight, gender });
+      computedScores.uth = (resPulse && resPulse.isValid) ? parseFloat(resPulse.fitnessLevel) : null;
     } else {
       computedScores.uth = null;
     }
 
     // 3. Nes (HUNT)
-    const waist = parseFloat(container.querySelector('[name="kt_waist"]').value);
-    const nesRestHr = parseFloat(container.querySelector('[name="kt_nes_resthr"]').value);
+    const waist = parseFloat(container.querySelector('[name="kt_waist"]')?.value);
+    const nesRestHr = parseFloat(container.querySelector('[name="kt_nes_resthr"]')?.value);
     const nesPill = container.querySelector('[data-name="kt_nes_pa"] .js-kt-pill.is-active');
     const nesPa = nesPill ? parseFloat(nesPill.dataset.value) : 3;
     if (waist && nesRestHr) {
@@ -602,7 +583,7 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
     }
 
     // 4. Jackson (NASA)
-    const height = parseFloat(container.querySelector('[name="kt_height"]').value);
+    const height = parseFloat(container.querySelector('[name="kt_height"]')?.value);
     const jackPill = container.querySelector('[data-name="kt_jackson_par"] .js-kt-pill.is-active');
     const par = jackPill ? parseFloat(jackPill.dataset.value) : 4;
     if (height && weight) {
@@ -613,16 +594,16 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
       computedScores.jackson = null;
     }
 
-    // Opdater Badges
+    // Opdater alle 4 badges med det samme ved opstart
     Object.keys(computedScores).forEach(mode => {
       const badge = container.querySelector(`.js-kt-card-badge[data-badge="${mode}"]`);
       const score = computedScores[mode];
       if (badge) {
         if (score && score > 0) {
-          const evalRes = getEvalCategory(score, gender);
+          const evalRes = evaluateFitnessLevel(score, age, gender);
           badge.textContent = score.toFixed(1);
-          badge.style.background = evalRes.color;
-          badge.style.color = evalRes.textColor;
+          badge.style.background = evalRes ? evalRes.color : '#2563eb';
+          badge.style.color = '#ffffff';
         } else {
           badge.textContent = '-';
           badge.style.background = '#cbd5e1';
@@ -631,17 +612,14 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
       }
     });
 
-    // Opdater Hovedresultat for aktiv mode
     const activeScore = computedScores[currentMode];
     if (activeScore && activeScore > 0) {
       const formattedScore = parseFloat(activeScore.toFixed(1));
       displayFitness.textContent = formattedScore;
       
       const vo2Abs = (activeScore * weight) / 1000;
-      const formattedVo2Abs = parseFloat(vo2Abs.toFixed(2));
-      displayVo2max.textContent = formattedVo2Abs;
+      displayVo2max.textContent = vo2Abs.toFixed(2);
 
-      // Fitnessalder
       const baseAgeScore = (gender === 'male') ? (52 - (0.35 * age)) : (44 - (0.32 * age));
       const ageDiff = Math.round((baseAgeScore - activeScore) / 0.35);
       const fitnessAge = Math.max(18, Math.min(85, age + ageDiff));
@@ -649,31 +627,61 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
 
       displaySdText.textContent = (currentMode === 'tokmakidis') ? 'Målt via løbehastighed' : '± 4.9 ml/kg/min';
 
-      const pct = Math.max(0, Math.min(100, ((activeScore - 20) / 50) * 100));
-      marker.style.left = pct + '%';
-      marker.style.display = 'block';
+      if (saveBtn) saveBtn.disabled = false;
 
-      const evalRes = updateEvaluation(activeScore, age, gender);
+      const evaluation = evaluateFitnessLevel(activeScore, age, gender);
+      const thresholds = getFitnessThresholds(age, gender);
 
-      // GEM RESULTAT TIL STORAGEADAPTER
-      const activeKey = getActiveStorageKey();
-      StorageAdapter.commitToLog(activeKey, {
-        type: 'calculator',
-        primary: {
-          value: formattedScore,
-          unit: 'ml/kg/min',
-          label: 'Kondital'
-        },
-        norm: evalRes ? {
-          label: evalRes.cat,
-          color: evalRes.color,
-          bg: `${evalRes.color}20`
-        } : null,
-        subMetrics: {
-          vo2maxLmin: formattedVo2Abs,
-          fitnessAge: fitnessAge
+      if (evaluation) {
+        evalText.textContent = evaluation.label;
+        evalBadge.style.background = evaluation.color;
+        evalBadge.style.color = '#ffffff';
+      }
+
+      if (thresholds) {
+        const v = activeScore;
+        const t = thresholds;
+        let percent = 0;
+
+        if (v <= t[0]) {
+          const minBound = Math.max(0, t[0] - 10);
+          percent = ((v - minBound) / (t[0] - minBound)) * 20;
+        } else if (v <= t[1]) {
+          percent = 20 + ((v - t[0]) / (t[1] - t[0])) * 20;
+        } else if (v <= t[2]) {
+          percent = 40 + ((v - t[1]) / (t[2] - t[1])) * 20;
+        } else if (v <= t[3]) {
+          percent = 60 + ((v - t[2]) / (t[3] - t[2])) * 20;
+        } else {
+          const maxBound = t[3] + 15;
+          percent = 80 + ((v - t[3]) / (maxBound - t[3])) * 20;
         }
-      });
+
+        marker.style.left = `${Math.max(2, Math.min(98, percent))}%`;
+        marker.style.display = 'block';
+
+        if (tableBody) {
+          const tableData = [
+            { name: 'Meget højt', range: `> ${t[3]}` },
+            { name: 'Højt', range: `${t[2] + 1} - ${t[3]}` },
+            { name: 'Middel', range: `${t[1]} - ${t[2]}` },
+            { name: 'Lavt', range: `${t[0]} - ${t[1] - 1}` },
+            { name: 'Meget lavt', range: `< ${t[0]}` }
+          ];
+
+          tableBody.innerHTML = '';
+          tableData.forEach(row => {
+            const isMatch = evaluation && row.name === evaluation.label;
+            const tr = document.createElement('tr');
+            tr.style.cssText = `border-bottom: 1px solid #e2e8f0; ${isMatch ? 'background: #eff6ff; font-weight: 700;' : ''}`;
+            tr.innerHTML = `
+              <td style="padding: 0.5rem; color: ${isMatch ? '#0f172a' : '#334155'};">${row.name}</td>
+              <td style="padding: 0.5rem; text-align: right;">${row.range} ${isMatch ? `<span style="font-size: 0.65rem; background: #3b82f6; color: #fff; padding: 2px 6px; border-radius: 4px; margin-left: 6px;">${formattedScore}</span>` : ''}</td>
+            `;
+            tableBody.appendChild(tr);
+          });
+        }
+      }
 
     } else {
       displayFitness.textContent = '-';
@@ -683,41 +691,64 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
       evalText.textContent = 'Mangler data';
       evalBadge.style.background = '#e2e8f0';
       evalBadge.style.color = '#64748b';
+      if (saveBtn) saveBtn.disabled = true;
     }
   }
 
-  function updateEvaluation(score, age, gender) {
-    const evalRes = getEvalCategory(score, gender);
-    const cat = evalRes.cat;
-    const color = evalRes.color;
+  if (saveBtn) {
+    saveBtn.addEventListener('click', () => {
+      const age = parseFloat(container.querySelector('[name="kt_age"]')?.value || '40') || 40;
+      const gender = container.querySelector('[name="kt_gender"]:checked')?.value || 'male';
+      const activeScore = computedScores[currentMode];
 
-    evalText.textContent = cat;
-    evalBadge.style.background = color;
-    evalBadge.style.color = '#ffffff';
+      if (activeScore && activeScore > 0) {
+        const formattedScore = parseFloat(activeScore.toFixed(1));
+        const activeKey = getActiveStorageKey();
+        const evaluation = evaluateFitnessLevel(activeScore, age, gender);
 
-    const cutoffs = (gender === 'male') 
-      ? { low: 35, mid: 44, high: 52, vhigh: 57 }
-      : { low: 28, mid: 35, high: 44, vhigh: 49 };
+        const recordData = {
+          type: 'physical',
+          primary: {
+            value: formattedScore,
+            unit: 'ml/kg/min',
+            label: 'Kondital (VO₂max)'
+          },
+          ...(evaluation && {
+            norm: {
+              label: evaluation.label,
+              color: evaluation.color,
+              bg: evaluation.color + '18'
+            }
+          }),
+          subMetrics: {
+            vo2maxLmin: parseFloat(((activeScore * parseFloat(container.querySelector('[name="kt_weight"]').value)) / 1000).toFixed(2))
+          },
+          context: {
+            mode: currentMode,
+            method: modeInfos[currentMode].split(':')[0].replace(/<[^>]*>/g, '')
+          }
+        };
 
-    tableBody.innerHTML = `
-      <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 0.4rem; font-weight: 700;">Kategori</td><td style="padding: 0.4rem; font-weight: 700;">Grænse (ml/kg/min)</td></tr>
-      <tr style="background: ${cat==='Lav'?'#fee2e2':'transparent'};"><td style="padding: 0.4rem; color: #ef4444; font-weight: 700;">Lav</td><td style="padding: 0.4rem;">< ${cutoffs.low}</td></tr>
-      <tr style="background: ${cat==='Under middel'?'#ffedd5':'transparent'};"><td style="padding: 0.4rem; color: #f97316; font-weight: 700;">Under middel</td><td style="padding: 0.4rem;">${cutoffs.low} - ${cutoffs.mid-1}</td></tr>
-      <tr style="background: ${cat==='Middel'?'#fef9c3':'transparent'};"><td style="padding: 0.4rem; color: #ca8a04; font-weight: 700;">Middel</td><td style="padding: 0.4rem;">${cutoffs.mid} - ${cutoffs.high-1}</td></tr>
-      <tr style="background: ${cat==='Høj'?'#dcfce7':'transparent'};"><td style="padding: 0.4rem; color: #16a34a; font-weight: 700;">Høj</td><td style="padding: 0.4rem;">${cutoffs.high} - ${cutoffs.vhigh-1}</td></tr>
-      <tr style="background: ${cat==='Meget høj'?'#dbeafe':'transparent'};"><td style="padding: 0.4rem; color: #2563eb; font-weight: 700;">Meget høj</td><td style="padding: 0.4rem;">> ${cutoffs.vhigh}</td></tr>
-    `;
+        StorageAdapter.commitToLog(activeKey, recordData);
 
-    return evalRes;
+        const originalText = saveBtn.innerHTML;
+        saveBtn.innerHTML = '✅ Gemt!';
+        saveBtn.style.background = '#16a34a';
+        saveBtn.disabled = true;
+
+        setTimeout(() => {
+          saveBtn.innerHTML = originalText;
+          saveBtn.style.background = '#2563eb';
+          saveBtn.disabled = false;
+        }, 2000);
+      }
+    });
   }
 
-  // Reset knap
-  const resetBtn = container.querySelector('.js-reset-btn');
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
       const activeKey = getActiveStorageKey();
       StorageAdapter.clearDraft(activeKey);
-      StorageAdapter.clearLog(activeKey);
 
       container.querySelectorAll('input').forEach(i => {
         if (i.type === 'number') i.value = '';
@@ -725,12 +756,11 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
       container.querySelector('[name="kt_age"]').value = 40;
       container.querySelector('[name="kt_weight"]').value = 80;
       if (maxHrHelper) maxHrHelper.style.display = 'none';
+      saveDraftAndProfile();
       calculateAll();
     });
   }
 
-  // Billede Download
-  const downloadBtn = container.querySelector('.js-download-btn');
   if (downloadBtn) {
     downloadBtn.addEventListener('click', () => {
       if (typeof html2canvas !== 'undefined') {
@@ -744,7 +774,7 @@ import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
     });
   }
 
-  // Initiel kørsel
+  // Opstart: Indlæs kladder for alle 4 modeller og regn med det samme
   loadInitialData();
   infoBox.innerHTML = modeInfos[currentMode];
   calculateAll();

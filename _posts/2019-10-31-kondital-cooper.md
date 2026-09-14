@@ -23,7 +23,7 @@ meta:
   method: "indirekte"
   intensity: "maksimal"
 tests:
-  - id: "test-cooper-test"
+  - id: "cooper-test"
     title: "Cooper-test (12 minutters løbetest)"
     description: "Maksimal 12-minutters felt-test til estimering af maksimal iltoptagelse (VO2max) og kondital ud fra tilbagelagt distance."
     category: ["Kondition", "Løb"]        # 💡 Søgbar under BÅDE Kondition og Løb i test-databasen
@@ -36,8 +36,12 @@ tests:
     setting: ["Individuel", "Gruppetest", "Udendørs", "Skolebrug", "Militær", "Felttest"]
     target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-cooper-test-beregner", "tool-cooper-test-timer"]
-    ls_key: "mp_log_cooper_12min"
+
+    storage_key: "cooper_12min"
+    unit: "ml/kg/min"
+    allow_quick_log: false
     icon: "🏃"
+    badge: "Løbetest"
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

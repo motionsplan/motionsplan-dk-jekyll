@@ -56,15 +56,17 @@ faq:
 Vil du vide, om din fedtprocent er sund, lav eller høj, eller leder du efter en metode til at måle den? Kvinders og mænds fysiologi er forskellig, og derfor afhænger en **normal fedtprocent** i høj grad af både dit køn og din alder.
 
 {: .notice--warning }
-> ⚠️ **Husk forbeholdet:** Ingen praktisk metode til måling af fedtprocent er 100% præcis. Målinger indeholder altid en viss usikkerhed eller fejlmargen. Brug tallet som et relativt pejlemærke for din egen udvikling over tid – ikke som en absolut sandhed eller som et styringsredskab for din trivsel.
+> ⚠️ **Husk:** Ingen praktisk metode til måling af fedtprocent er 100% præcis. Målinger indeholder altid en viss usikkerhed eller fejlmargen. Brug tallet som et relativt pejlemærke for din egen udvikling over tid – ikke som en absolut sandhed eller som et styringsredskab for din trivsel.
 
-I denne samlede guide finder du de officielle **fedtprocent skemaer og tabeller** baseret på WHO og American Council on Exercise (ACE), samt vores gennemgang af 7 forskellige målemetoder og beregnere.
+I denne samlede guide finder du de officielle **[fedtprocent skemaer og tabeller](#normer)** baseret på WHO og American Council on Exercise (ACE), samt vores gennemgang af 7 forskellige målemetoder og beregnere.
 
 **🏃‍♀️ Hvad vil du gøre nu?**
-* **Vil du bruge et målebånd derhjemme?** Brug [US Navy-beregneren eller McArdle & Katch-beregneren](/fedtprocent-navy/).
-* **Vil du beregne ud fra højde/vægt?** Prøv vores [simple fedtprocent-udregner](/artikel/udregning-af-fedtprocent/).
-* **Vil du beregne ud fra skinfold-målinger?** Tjek vores [guide til fedtprocent ud fra hudfoldsmålinger](/skinfold/).
-* **Vil du se 7 måder at måle fedtprocent på?** Hop ned til vores [sammenligning af målemetoder](#metoder).
+
+* **Se 7 måder at måle fedtprocent på?** Hop ned til vores [sammenligning af målemetoder](#metoder).
+* **Sammenligne metoder i vores dashboard?** Tjek vores [dashboard](#dashboard).
+* **Bruge et målebånd derhjemme?** Brug [US Navy-beregneren eller McArdle & Katch-beregneren](/fedtprocent-navy/).
+* **Beregne ud fra højde/vægt?** Prøv vores [simple fedtprocent-udregner](/artikel/udregning-af-fedtprocent/).
+* **Beregne ud fra skinfold-målinger med fedttang?** Tjek vores [guide til fedtprocent ud fra hudfoldsmålinger](/skinfold/).
 
 ---
 
@@ -192,19 +194,23 @@ Ulempen ved øjemålet er, at man kan blive snydt af det fedt, der sidder inde o
 
 ### 4. Udregning af fedtprocent (Formler)
 Der findes formler, hvor du kan udregne din fedtprocent ud fra simple antropometriske mål som køn, højde og vægt. Formlerne er imidlertid behæftet med stor usikkerhed.
+
 👉 **[Tryk her og prøv vores simple beregner baseret på køn, højde og vægt](/artikel/udregning-af-fedtprocent/)**
 
 ### 5. Bestemmelse af fedtprocent med målebånd
 En af de mest praktiske metoder til hjemmebrug er at måle kropsomkredse med et målebånd. Metoden påvirkes ikke af din væskebalance på samme måde som en bioimpedansbadevægt.
+
 👉 **[Prøv vores gratis Navy-beregner med målebånd her](/fedtprocent-navy/)**
 
 ### 6. Måling af fedtprocent med fedttang (Skinfold)
 {% include figure image_path="/assets/images/shutterstock/fedtmaaling-fedttang.jpg" %}
 En fedttang kan være et udmærket værktøj til at følge en fremgang over tid. Hvis du øver dig, kan du med stor sikkerhed reproducere dine målinger. Tangen giver ikke en 100% eksakt fedtprocent, men er pålidelig i forhold til at se ændringer i underhudsfedtet.
+
 👉 **[Læs vores store guide til hudfoldsmålinger med fedttang her](/skinfold/)**
 
 ### 7. Måling af fedtprocent med bioimpedans
 Nogle af de nye, dyrere bioimpedansmålere kan give et fornuftigt bud, mens billige badevægte ofte er meget upræcise og utrolig følsomme over for din væskebalance. 
+
 👉 **[Læs alt om bioimpedansmåling, InBody og teknologiens præcision her](/bioimpedans-maaling/)**
 
 ---

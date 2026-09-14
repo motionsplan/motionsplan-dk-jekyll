@@ -22,7 +22,7 @@ tests:
   - id: "test-aastrand-etpunktstest"
     title: "Åstrands 1-punktstest (Cykel)"
     description: "Submaksimal 6-minutters cykeltest til estimering af maksimal iltoptagelse (VO2max) og kondital ud fra steady-state puls og belastning."
-    category: ["Kondition", "Cykling"]
+    category: ["Cykling", "Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]
     method: "indirekte"                  # 🧮 Indirekte test: Måler puls ved givet watt-belastning for at beregne VO2max
@@ -32,6 +32,11 @@ tests:
     setting: ["Individuel", "Laboratorietest", "Fitnesscenter"]
     target_group: ["Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
     related_tools: ["tool-aastrand-etpunktstest-beregner", "tool-aastrand-test-timer"]
+    icon: "🚴"
+    badge: "Cykeltest"
+    unit: "ml/kg/min"
+    storage_key: "astrand_bike"
+    allow_quick_log: false
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
@@ -163,6 +168,15 @@ I beregneren ovenfor benyttes følgende formler til at estimere den maksimale il
 
 Du kan sammenligne dit kondital i [tabellen for kondital for mænd og kvinder](/kondital/).
 
+## Hvorfor skal Åstrands test køres med 50–60 RPM?
+
+Det kan føles langsomt og tungt at træde 50–60 pedalomdrejninger i minuttet (RPM), hvis du er vant til at cykle med en højere kadence (fx 80–90 RPM), men den lave frekvens er fysiologisk afgørende for testens gyldighed:
+
+* **Mekanisk virkningsgrad:** Åstrand-testens beregninger antager en fast mekanisk effektivitet (ca. 22–23 %), som oprindeligt er målt og kalibreret ved netop 50 RPM (Åstrand & Ryhming, 1954; Ettema & Lorås, 2009).
+* **Internt arbejde ved lav belastning:** Ved lave til moderate watt-belastninger (50–150 W) kræver det en del energi blot at flytte benenes egenvægt hurtigt rundt. Hvis du træder 80–90 RPM i stedet for 50–60 RPM, stiger dette "interne arbejde", hvilket øger iltoptagelsen og hæver pulsen med 5–15 slag/min – uden at det udmønter sig i flere watt på cyklen (Coast & Welch, 1985; Francescato et al., 1995).
+* **Underestimering af kondital:** Da testen estimerer dit kondital direkte ud fra din puls ved en given belastning, vil den ekstra pulsstigning fra en høj kadence få testen til at konkludere, at dit hjerte er svagere belastet, end det reelt er. Resultatet bliver en underestimering af dit $VO_2\max$ (Swain et al., 1997).
+* **Praktisk anvendelse:** Vil du have et matematisk præcist bud på dit absolutte kondital via Åstrands nomogram/formel, bør du holde kadencen strengt på 50–60 RPM. Vælger du alligevel at køre testen ved 80–90 RPM, kan den stadig bruges til at spore din *relative formfremgang* over tid, så længe du benytter præcis samme kadence hver gang.
+
 ## Alderskorrektion til etpunktstesten
 
 Åstrands etpunktstest giver de mest pålidelige resultater, hvis der korrigeres for alder. I beregneren ovenfor korrigeres resultatet automatisk ud fra den kontinuerlige formel af Buono et al. (1989):
@@ -193,16 +207,13 @@ Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at esti
 
 Åstrands etpunktstest kan imidlertid sagtens bruges til at måle ændringer i konditionen over tid. Du behøver ikke konvertere resultatet til et kondital for at bruge testen til at _tracke_ din træningsfremgang. Testen er pålidelig, fordi du kører med en forudbestemt belastning. Hvis din puls over tid falder, når du kører med samme belastning, er det en indikation for, at din kondition er blevet bedre.
 
-Du kan læse mere om testen fra [Monark](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/), som laver de legendariske Monark-cykler, som er blevet brugt i rigtig mange år i testcentre rundt omkring i verden.
-
-Et alternativ til etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblombaktest). Har Ekblom-Bak-testen udbredelse i Danmark?
+Du kan læse mere om testen fra [Monark](https://monarksportsmed.com/en/tester/professor-astrands-submaximala-cykeltest/), som laver de legendariske Monark-cykler, som er blevet brugt i rigtig mange år i testcentre rundt omkring i verden.
 
 ## Hvad er forskellen på 1-punkts og 2-punkts testen?
 
 * **1-punktstest:** Hurtigst (6 minutter, 1 belastning). God til at måle din egen fremgang over tid.
-* **2-punktstest:** Mere præcis. Bruger to belastningspunkter til at tegne din pulskurve op mod max-pulsen.
-
-👉 **Klar til en mere præcis måling?** [Prøv Åstrands 2-punktstest her](/topunktstest/){: .btn .btn--info}
+* **[2-punktstest](/topunktstest/):** Mere præcis. Bruger to belastningspunkter til at tegne din pulskurve op mod max-pulsen.
+* **[Ekblom-Bak-testen](/ekblom-bak-test/)**: En nyere test, som ikke har vundet så meget udbredelse i Danmark, og som bruger pulsforskellen mellem en meget let belastning og en højere belastning.
 
 > 🚴 **Leder du efter andre cykeltests?**
 > Se vores samlede oversigt over [konditionstests på cykel](/tests/cykling/), hvor du kan sammenligne Åstrand-, Wattmax- og Ekblom-Bak-testene.
@@ -216,6 +227,10 @@ Et alternativ til etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblo
 - Buono MJ, Roby JJ, Micale FG, Sallis JF. Predicting maximal oxygen uptake in children: modification of the Astrand-Ryhming test. Pediatric Exercise Science 1989;1:278-283.
 - RE Cink and TR Thomas, Validity of the Astrand-Ryhming nomogram for predicting maximal oxygen intake. British Journal of Sports Medicine, 1981, Vol 15, Issue 3 182-185.
 Legge and Banister, The Astrand-Rhyming nomogram revisited J Appl Physiol.1986; 61: 1203-1209.
+- Coast, J. R. & Welch, H. G. (1985) "Linear increase in optimal cadence with increasing power output in cycling." *Medicine and Science in Sports and Exercise*, 17(6), 672–674. *(Viser at den iltmæssigt mest økonomiske kadence er lav ved lave watt)*.
+- Francescato, M. P. et al. (1995) "The oxygen cost of internal work during cycling." *European Journal of Applied Physiology*, 72(1), 51–57. *(Dokumenterer iltomkostningen ved "internt arbejde" / benenes egenvægt ved høj frekvens)*.
+- Swain, D. P. et al. (1997) "Prediction of VO2peak from submaximal cycle ergometry using 50 and 80 rpm." *Medicine and Science in Sports and Exercise*, 29(5), 268. *(Sammenligner præcision og pulskurver ved 50 vs. 80 RPM)*.
+- Ettema, G. & Lorås, H. W. (2009) "Efficiency in cycling: a review." *European Journal of Applied Physiology*, 106(1), 1–14. *(Gennemgang af mekanisk virkningsgrad og kadencepåvirkning)*.
 </details>
 
 {% include motionsplan/pinterest image_path="/assets/images/aastrand-nomogram.png" data-pin-description="Åstrands Nomogram" class="hidden" %}

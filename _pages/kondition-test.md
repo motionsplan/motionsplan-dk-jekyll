@@ -19,7 +19,7 @@ header:
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
   - label: <i class='fas fa-download'></i> Gå til oversigten
-    url: /kondition/tests/#oversigt-over-konditionstests
+    url: /kondition/tests/#oversigt
 classes: wide
 feature_row_about_tests:
 - image_path: /assets/images/unsplash/photo-1501820434261-5bb046afcf6b.jpg

@@ -25,7 +25,7 @@ meta:
   target: "begyndere"
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-rockport-16km-gangtest"
+  - id: "rockport-16km-gangtest"
     title: "Rockports 1,6 km Gangtest"
     description: "Submaksimal 1,6 km (1 mile) felt-gangtest til estimering af VO2max og kondital ud fra tid, slutpuls, kropsvægt, alder og køn."
     category: ["Kondition", "Gang"]        
@@ -38,7 +38,12 @@ tests:
     setting: ["Udendørs", "Løbebane", "Individuel"]
     target_group: ["Begyndere", "Utrænede", "Overvægtige", "Ældre", "Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-rockport-gangtest-beregner"]
-  - id: "test-ukk-2km-gangtest"
+    icon: "🚶"
+    badge: "Gangtest"
+    unit: "ml/kg/min"
+    storage_key: "rockport_walk"
+    allow_quick_log: false
+  - id: "ukk-2km-gangtest"
     title: "UKK 2,0 km Gangtest"
     description: "Nordisk submaksimal 2,0 km felt-gangtest til estimering af VO2max ud fra gangtid, slutpuls, alder, køn og BMI."
     category: ["Kondition", "Gang"]        
@@ -51,6 +56,11 @@ tests:
     setting: ["Udendørs", "Løbebane", "Individuel"]
     target_group: ["Begyndere", "Utrænede", "Overvægtige", "Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-rockport-gangtest-beregner"]
+    icon: "🚶"
+    badge: "Gangtest"
+    unit: "ml/kg/min"
+    storage_key: "ukk_walk"
+    allow_quick_log: false
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

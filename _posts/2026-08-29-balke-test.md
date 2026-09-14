@@ -26,6 +26,75 @@ faq:
     answer: "Balke-formlen afhænger af testtypen og køn. For gang benyttes Pollock et al. formlerne: VO2max = 14,99 + (1,444 * T) for mænd og VO2max = 5,22 + (1,38 * T) for kvinder. For løb ved 8,0 km/t benyttes ACSM-ligningen: VO2max = 30,17 + (1,20 * T), hvor T er tiden i minutter."
   - question: "Kan man gennemføre Balke-testen ved rent gangtempo?"
     answer: "Ja, den oprindelige Balke-Ware gangtest udføres ved en fast hastighed på 5,3 km/t (3,3 mph), hvilket gør den særdeles velegnet til utrænede, ældre eller i klinisk genoptræning."
+tests:
+  - id: "balke_walk_max"
+    title: "Balke Gang (Max)"
+    description: "Gradueret gå-test til udmattelse (+1% hældning/min ved 5,3 km/t)."
+    icon: "🏃"
+    badge: "Løbebånd"
+    unit: "ml/kg/min"
+    storage_key: "balke_walk_max"
+    allow_quick_log: false
+    category: ["Gang", "Løbebånd", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"
+    modality: ["Gang", "Løbebånd"]
+    measures: ["Kondital", "VO2max", "Testtid"]
+    equipment: ["Løbebånd med hældning", "Stopur", "Pulsbælte"]
+    setting: ["Testlaboratorium", "Fitnesscenter", "Indendørs"]
+    target_group: ["Voksne", "Seniorer", "Motionister", "Mænd", "Kvinder"]
+    related_tools: ["tool-balke-beregner"]
+
+  - id: "balke_walk_mod"
+    title: "Balke Gang (85% submax)"
+    description: "Submaksimal gå-test afbrudt ved 85% af maksimumpuls."
+    icon: "🏃"
+    badge: "Løbebånd"
+    unit: "ml/kg/min"
+    storage_key: "balke_walk_mod"
+    allow_quick_log: false
+    category: ["Gang", "Løbebånd", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "submaksimal"
+    modality: ["Gang", "Løbebånd"]
+    measures: ["Kondital", "VO2max", "Puls"]
+    equipment: ["Løbebånd med hældning", "Stopur", "Pulsmåler"]
+    setting: ["Testlaboratorium", "Fitnesscenter", "Indendørs"]
+    target_group: ["Voksne", "Seniorer", "Motionister", "Mænd", "Kvinder"]
+    related_tools: ["tool-balke-beregner"]
+
+  - id: "balke_run_max"
+    title: "Balke Løb (Max)"
+    description: "Gradueret løbetest til udmattelse (+1% hældning/min ved 8,0 km/t)."
+    icon: "🏃"
+    badge: "Løbebånd"
+    unit: "ml/kg/min"
+    storage_key: "balke_run_max"
+    allow_quick_log: false
+    category: ["Løb", "Løbebånd", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "indirekte"
+    modality: ["Løb", "Løbebånd"]
+    measures: ["Kondital", "VO2max", "Testtid"]
+    equipment: ["Løbebånd med hældning", "Stopur", "Pulsbælte"]
+    setting: ["Testlaboratorium", "Fitnesscenter", "Indendørs"]
+    target_group: ["Motionister", "Atleter", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-balke-beregner"]
+
+tools:
+  - id: "tool-balke-beregner"
+    title: "Balke Løbebåndstest Beregner"
+    description: "Interaktiv beregner til estimering af VO2max og kondital ud fra gennemført testtid på Balke-protokollen."
+    icon: "🧮"
+    badge: "Beregner"
+    type: ["Beregner", "Konditionstest"]
+    execution: ["Digital"]
+    inputs: ["Testtid", "Køn", "Alder", "Vægt", "Slutpuls"]
+    outputs: ["Kondital", "VO2max", "Iltoptagelse", "Aldersnorm"]
+    related_tests: ["balke_walk_max", "balke_walk_mod", "balke_run_max"]
 ---
 
 **Balke-testen** er en af de mest anerkendte og klassiske metoder til at estimere kroppens maksimale iltoptagelse ($\text{VO}_2\max$) og kondital. Testen blev oprindelig udviklet af den tysk-amerikanske idrætsfysiolog dr. Bruno Balke i 1960'erne som et mere kontrolleret og skånsomt alternativ til eksplosive løbetests.

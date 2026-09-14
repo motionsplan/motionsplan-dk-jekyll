@@ -30,10 +30,10 @@ meta:
   description: Test for at måle, hvor langt du kan springe fremad.
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-broad-jump"
+  - id: "broad-jump"
     title: "Broad Jump Test (Stående Længdespring)"
     description: "Standardiseret fysisk præstationstest af eksplosiv horisontal springstyrke og underkroppens muskelkraft udført fra stående samlet afsæt."
-    category: ["Tests", "Eksplosivitet", "Spring"]
+    category: ["Eksplosivitet", "Spring", "Horisontal"]
     type: ["Protokol", "Springtest"]
     execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver maksimalt stående længdespring
     method: "direkte"                     # 📊 Måles direkte i cm fra afsætslinje til bagerste hæl
@@ -44,6 +44,11 @@ tests:
     target_group: ["Atleter", "Politiansøgere", "Motionister", "Mænd", "Kvinder"]
     related_tools:
       - "tool-broad-jump-calculator"
+    icon: "📏"
+    badge: "Horisontal"
+    unit: "cm"
+    storage_key: "broad_jump"
+    allow_quick_log: true
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

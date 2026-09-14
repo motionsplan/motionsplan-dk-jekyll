@@ -25,10 +25,10 @@ last_modified_at: '2026-07-30T10:00:00Z'
 toc: true
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-squat-jump"
+  - id: "squat-jump"
     title: "Squat Jump (SJ)"
     description: "Vertikal hoppetest til måling af ren koncentrisk muskelkraft i benene helt uden forspænding (start fra 90° bøjede knæ i 2-3 sekunder)."
-    category: ["Tests", "Eksplosivitet"]
+    category: ["Eksplosivitet", "Spring", "Vertikal"]
     type: ["Protokol", "Springtest"]
     execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver maksimalt lodret hop fra statisk position
     method: "direkte"                     # 📏 Måles direkte i cm (via svævetid eller kraftplatform)
@@ -40,11 +40,16 @@ tests:
     related_tools:
       - "tool-sj-cmj-abalakov-analysator"
       - "tool-svaevetid-hoppehoejde-beregner"
+    icon: "🦘"
+    badge: "Vertikal"
+    unit: "cm"
+    storage_key: "squat_jump"
+    allow_quick_log: true
 
-  - id: "test-countermovement-jump"
+  - id: "countermovement-jump"
     title: "Countermovement Jump (CMJ)"
     description: "Vertikal hoppetest til måling af underkroppens eksplosivitet med udnyttelse af stræk-forkortningscyklussen (SSC) og forspænding."
-    category: ["Tests", "Eksplosivitet"]
+    category: ["Eksplosivitet", "Spring", "Vertikal"]
     type: ["Protokol", "Springtest"]
     execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver dynamisk knæbøjning og eksplosivt hop
     method: "direkte"                     # 📏 Måles direkte i cm
@@ -56,11 +61,16 @@ tests:
     related_tools:
       - "tool-sj-cmj-abalakov-analysator"
       - "tool-svaevetid-hoppehoejde-beregner"
+    icon: "🦘"
+    badge: "Vertikal"
+    unit: "cm"
+    storage_key: "cmj"
+    allow_quick_log: true
 
-  - id: "test-abalakov"
+  - id: "abalakov"
     title: "Abalakov-test (CMJ med armsving)"
     description: "Vertikal hoppetest til måling af den maksimale hoppehøjde ved kombinering af underkroppens eksplosivitet og overkroppens armsving."
-    category: ["Tests", "Eksplosivitet"]
+    category: ["Eksplosivitet", "Spring", "Vertikal"]
     type: ["Protokol", "Springtest"]
     execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver maksimalt hop med aktivt armsving
     method: "direkte"                     # 📏 Måles direkte i cm
@@ -72,6 +82,11 @@ tests:
     related_tools:
       - "tool-sj-cmj-abalakov-analysator"
       - "tool-svaevetid-hoppehoejde-beregner"
+    icon: "🦘"
+    badge: "Vertikal"
+    unit: "cm"
+    storage_key: "abalakov"
+    allow_quick_log: true
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

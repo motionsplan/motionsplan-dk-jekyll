@@ -40,6 +40,11 @@ tests:
     target_group: ["Motionister", "Cykelryttere", "Atleter", "Mænd", "Kvinder"]
     related_tools:
       - "tool-trappetest-cykel-beregner"
+    icon: "🚴"
+    badge: "Cykeltest"
+    unit: "ml/kg/min"
+    storage_key: "hawley_ramp_bike"
+    allow_quick_log: false
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
@@ -154,7 +159,7 @@ Jeg har lavet en beregner, hvis du foretrækker ikke selv skulle lave beregninge
 ## Beregner til trappetesten på cykel
 {: id="calculator" }
 
-{% include calculator/calculate-fitness-trappetest.html %}
+{% include components/trappetest-cykel-timer.html protocol="hawley" start_watt=100  %}
 
 ## Forklaring til trappetest-beregneren
 

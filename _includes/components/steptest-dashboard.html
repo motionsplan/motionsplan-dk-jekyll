@@ -49,6 +49,34 @@
 <script type="module">
 import { DashboardManager } from '/assets/js/core/DashboardManager.js';
 
+export const STEPTEST_LIBRARY = {
+{%- assign first_item = true -%}
+{%- assign all_items = site.posts | concat: site.pages -%}
+{%- assign items_with_tests = all_items | where_exp: "item", "item.categories contains 'Steptests'" | where_exp: "item", "item.tests != nil" -%}
+{%- for item in items_with_tests -%}
+  {%- for test in item.tests -%}
+    {%- assign key = test.storage_key -%}
+    {%- if key != nil and key != "" -%}
+      {%- unless first_item %},{%- endunless %}
+  '{{ test.id }}': {
+    title: {{ test.title | jsonify }},
+    icon: {{ test.icon | jsonify }},
+    badge: {{ test.badge | jsonify }},
+    tag: '{{ test.icon }} {{ test.badge }}',
+    category: {{ test.category.first | jsonify }},
+    unit: {{ test.unit | default: "ml/kg/min" | jsonify }},
+    url: {{ item.url | jsonify }},
+    desc: {{ test.description | jsonify }},
+    storageKey: {{ key | replace: "mp_log_", "" | jsonify }},
+    allowQuickLog: {{ test.allow_quick_log | default: false }}
+  }
+      {%- assign first_item = false -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor %}
+};
+
+{% comment %}
 const STEPTEST_LIBRARY = {
   'ymca': { title: 'YMCA 3-Minutters Steptest', tag: '🪜 Steptest', category: 'Submaksimal', unit: 'ml/kg/min', url: '/ymca-3-minutters-steptest/', desc: 'Enkel 3-minutters test på 30 cm boks med talte 1-minuts puls efter testen.', storageKey: 'ymca_step', allowQuickLog: true },
   'ymca_modified': { title: 'YMCA Modified Steptest', tag: '🪜 Steptest', category: 'Submaksimal', unit: 'ml/kg/min', url: '/ymca-modified-steptest/', desc: 'Tilpasset 3-minutters test, hvor bokshøjden udregnes ud fra kropshøjde.', storageKey: 'ymca_modified_step', allowQuickLog: true },
@@ -58,12 +86,13 @@ const STEPTEST_LIBRARY = {
   'astrand': { title: 'Åstrand-Ryhming Step Test', tag: '🪜 Steptest', category: 'Submaksimal', unit: 'ml/kg/min', url: '/astrand-ryhming-step-test/', desc: 'Klassisk 6-minutters fysiologisk test med fast kadence og steady-state puls.', storageKey: 'astrand_step', allowQuickLog: true },
   'harvard': { title: 'Harvard Step Test', tag: '🪜 Steptest', category: 'Udholdenhed', unit: 'ml/kg/min', url: '/harvard-step-test/', desc: 'Intensiv udholdenhedstest på høj bænk. Beregner både VO₂max og Fitness Index.', storageKey: 'harvard_step', allowQuickLog: true }
 };
+{% endcomment %}
 
 function init() {
   DashboardManager.initGrid({
     gridSelector: '.js-db-grid',
     library: STEPTEST_LIBRARY,
-    defaultCards: ['ymca', 'ymca_modified', 'dansk', 'queens', 'chester', 'astrand', 'harvard'],
+    defaultCards: ['ymca-3-minutes-steptest', 'ymca-modified-steptest', 'queens-college-step-test', 'den-danske-steptest', 'chester-step-test', 'astrand-ryhming-step-test', 'harvard-step-test'],
     configStorageKey: 'mp_steptest_dashboard_cards',
     resetBtnSelector: '.js-db-reset-btn',
     addBtnSelector: '.js-db-add-btn',

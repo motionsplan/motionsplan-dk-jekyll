@@ -2,6 +2,9 @@
 import { calculateVo2MaxFromPulse } from '../core/vo2max-maxhr-uth.js';
 import { estimateMaxHr } from '../core/max-hr.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
+import { StorageAdapter } from '../core/StorageAdapter.js'; // <-- TILFØJET
+
+const TEST_ID = 'vo2max_maxhr_uth'; // ID til StorageAdapter
 
 export function initPulseVo2Max(container) {
   const inputs = container.querySelectorAll('.js-vp-input');
@@ -20,35 +23,42 @@ export function initPulseVo2Max(container) {
   const popupClose = container.querySelector('.js-vp-popup-close');
   const tableBody = container.querySelector('.js-vp-table-body');
 
-  // --- STATE MANAGEMENT ---
+  // Tilstandsvariabler til at gemme det seneste resultat
+  let currentResult = null;
+  let currentParams = null;
+
+  // --- STATE MANAGEMENT VIA STORAGE ADAPTER ---
   function saveState() {
-    const state = {
-      age: container.querySelector('[name="vp_age"]').value,
-      weight: container.querySelector('[name="vp_weight"]').value,
-      restHr: container.querySelector('[name="vp_resthr"]').value,
-      maxHr: container.querySelector('[name="vp_maxhr"]').value,
-      gender: container.querySelector('input[name="vp_gender"]:checked').value
-    };
-    localStorage.setItem('mp_pulse_vo2max_state', JSON.stringify(state));
+    const age = container.querySelector('[name="vp_age"]').value;
+    const weight = container.querySelector('[name="vp_weight"]').value;
+    const gender = container.querySelector('input[name="vp_gender"]:checked').value;
+    const restHr = container.querySelector('[name="vp_resthr"]').value;
+    const maxHr = container.querySelector('[name="vp_maxhr"]').value;
+
+    // Gem universelle stamdata i Profile
+    StorageAdapter.saveProfile({
+      ...(age && { age: Number(age) }),
+      ...(weight && { weight: Number(weight) }),
+      gender: gender
+    });
+
+    // Gem felter specifikt for denne test i Draft
+    StorageAdapter.saveDraft(TEST_ID, { restHr, maxHr });
   }
 
   function loadState() {
-    const saved = localStorage.getItem('mp_pulse_vo2max_state');
-    if (saved) {
-      try {
-        const state = JSON.parse(saved);
-        if (state.age) container.querySelector('[name="vp_age"]').value = state.age;
-        if (state.weight) container.querySelector('[name="vp_weight"]').value = state.weight;
-        if (state.restHr) container.querySelector('[name="vp_resthr"]').value = state.restHr;
-        if (state.maxHr) container.querySelector('[name="vp_maxhr"]').value = state.maxHr;
-        if (state.gender) {
-          const radio = container.querySelector(`input[name="vp_gender"][value="${state.gender}"]`);
-          if (radio) radio.checked = true;
-        }
-      } catch (e) {
-        console.error("Kunne ikke indlæse gemt data.");
-      }
+    const profile = StorageAdapter.getProfile();
+    const draft = StorageAdapter.loadDraft(TEST_ID) || {};
+
+    if (profile.age) container.querySelector('[name="vp_age"]').value = profile.age;
+    if (profile.weight) container.querySelector('[name="vp_weight"]').value = profile.weight;
+    if (profile.gender) {
+      const radio = container.querySelector(`input[name="vp_gender"][value="${profile.gender}"]`);
+      if (radio) radio.checked = true;
     }
+
+    if (draft.restHr) container.querySelector('[name="vp_resthr"]').value = draft.restHr;
+    if (draft.maxHr) container.querySelector('[name="vp_maxhr"]').value = draft.maxHr;
   }
 
   inputs.forEach(input => {
@@ -91,18 +101,22 @@ export function initPulseVo2Max(container) {
       restHr: parseFloat(container.querySelector('[name="vp_resthr"]').value),
       maxHr: parseFloat(container.querySelector('[name="vp_maxhr"]').value),
       age: parseFloat(container.querySelector('[name="vp_age"]').value),
-      weight: parseFloat(container.querySelector('[name="vp_weight"]').value)
+      weight: parseFloat(container.querySelector('[name="vp_weight"]').value),
+      gender: container.querySelector('input[name="vp_gender"]:checked').value
     };
-    const gender = container.querySelector('input[name="vp_gender"]:checked').value;
 
     const result = calculateVo2MaxFromPulse(params);
 
     if (result.isValid) {
+      currentResult = result;
+      currentParams = params;
       resFitness.textContent = result.fitnessLevel;
       resVo2Max.textContent = result.maxOxygenUptake;
 
+      if (saveBtn) saveBtn.disabled = false; // Aktiver Gem-knap
+
       if (params.age > 0) {
-        const evaluation = evaluateFitnessLevel(result.fitnessLevel, params.age, gender);
+        const evaluation = evaluateFitnessLevel(result.fitnessLevel, params.age, params.gender);
         if (evaluation) {
           resEvalBadge.textContent = evaluation.label;
           resEvalBadge.style.backgroundColor = evaluation.color;
@@ -110,7 +124,7 @@ export function initPulseVo2Max(container) {
         }
 
         // Slider marker
-        const thresholds = getFitnessThresholds(params.age, gender);
+        const thresholds = getFitnessThresholds(params.age, params.gender);
         if (thresholds) {
           const v = parseFloat(result.fitnessLevel);
           const t = thresholds;
@@ -138,7 +152,7 @@ export function initPulseVo2Max(container) {
         }
 
         // Popup tabel
-        const t = getFitnessThresholds(params.age, gender);
+        const t = getFitnessThresholds(params.age, params.gender);
         if (t && tableBody) {
           const tableData = [
             { name: 'Meget højt', range: `> ${t[3]}` },
@@ -172,9 +186,12 @@ export function initPulseVo2Max(container) {
         resetBadge();
       }
     } else {
+      currentResult = null;
+      currentParams = null;
       resFitness.textContent = '-';
       resVo2Max.textContent = '-';
       resetBadge();
+      if (saveBtn) saveBtn.disabled = true;
     }
   }
 
@@ -187,6 +204,7 @@ export function initPulseVo2Max(container) {
 
   const resetBtn = container.querySelector('.js-reset-btn');
   const downloadBtn = container.querySelector('.js-download-btn');
+  const saveBtn = container.querySelector('.js-save-btn'); // <-- TILFØJET
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
@@ -196,6 +214,7 @@ export function initPulseVo2Max(container) {
       });
       maxHrHelper.style.display = 'none';
       if (popup) popup.style.display = 'none';
+      StorageAdapter.clearDraft(TEST_ID); // Ryd kladden for denne test
       saveState(); calculate();
     });
   }
@@ -211,6 +230,63 @@ export function initPulseVo2Max(container) {
           link.click();
         });
       }, 100);
+    });
+  }
+
+  // --- LOGIK TIL AT GEMME I HISTORIKKEN ---
+  // --- LOGIK TIL AT GEMME I HISTORIKKEN ---
+  if (saveBtn) {
+    saveBtn.addEventListener('click', () => {
+      if (currentResult && currentResult.isValid && currentParams) {
+        
+        // 1. Beregn norm-evaluering til dashboardet
+        const evaluation = evaluateFitnessLevel(currentResult.fitnessLevel, currentParams.age, currentParams.gender);
+
+        // 2. Opbyg fuldstændig datamodel med norm-objekt
+        const recordData = {
+          type: 'physical',
+          primary: {
+            value: parseFloat(currentResult.fitnessLevel),
+            unit: 'ml/kg/min',
+            label: 'Kondital (VO₂max)'
+          },
+          ...(evaluation && {
+            norm: {
+              label: evaluation.label,
+              color: evaluation.color,
+              bg: evaluation.color + '18' // 10% transparens til baggrunden
+            }
+          }),
+          subMetrics: {
+            ...(currentResult.maxOxygenUptake !== '-' && {
+              maxOxygenUptake: parseFloat(currentResult.maxOxygenUptake)
+            })
+          },
+          context: {
+            method: 'Uth et al. (2004/2005)',
+            maxHr: currentParams.maxHr,
+            restHr: currentParams.restHr,
+            factorUsed: currentResult.factorUsed
+          }
+        };
+
+        // Gemmer i local storage via adapteren
+        StorageAdapter.commitToLog(TEST_ID, recordData);
+        
+        // Visuel feedback på knappen
+        const originalText = saveBtn.innerHTML;
+        const originalBg = saveBtn.style.background;
+        
+        saveBtn.innerHTML = '✅ Gemt!';
+        saveBtn.style.background = '#16a34a';
+        saveBtn.disabled = true;
+
+        setTimeout(() => {
+          saveBtn.innerHTML = originalText;
+          saveBtn.style.background = originalBg;
+          saveBtn.disabled = false;
+        }, 2000);
+      }
     });
   }
 

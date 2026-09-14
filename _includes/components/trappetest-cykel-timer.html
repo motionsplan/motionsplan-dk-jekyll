@@ -1,0 +1,719 @@
+{% assign preset_protocol = include.protocol | default: include.preset | default: "" %}
+{% assign default_start_watt = include.start_watt | default: 150 %}
+
+<style>
+  /* ====== TRAPPETEST & RAMP TEST WIDGET ====== */
+  #ramp-widget {
+    max-width: 720px;
+    margin: 0 auto;
+    font-family: inherit;
+    color: #1e293b;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+  }
+  #ramp-widget * { box-sizing: border-box; }
+
+  /* Utilities & Inputs */
+  .ramp-hidden { display: none !important; }
+  .ramp-flex-between { display: flex; justify-content: space-between; align-items: center; }
+
+  #ramp-widget input[type=number]::-webkit-inner-spin-button,
+  #ramp-widget input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+  #ramp-widget input[type=number] { -moz-appearance: textfield; }
+
+  /* Header & Titles */
+  .ramp-main-title { font-size: 1.25rem; font-weight: 800; display: flex; align-items: center; gap: 8px; color: #0f172a; margin: 0; }
+  .ramp-header-actions { display: flex; gap: 8px; align-items: center; }
+  .ramp-toggle-btn {
+    border: 1px solid #cbd5e1; background: #ffffff; color: #334155;
+    padding: 6px 12px; font-size: 0.82rem; font-weight: 700; border-radius: 8px;
+    cursor: pointer; transition: all 0.15s; display: inline-flex; align-items: center; gap: 4px;
+  }
+  .ramp-toggle-btn.active { background: #eff6ff; color: #2563eb; border-color: #3b82f6; }
+  .ramp-icon-btn {
+    border: 1px solid #cbd5e1; background: #ffffff; color: #334155;
+    width: 34px; height: 34px; border-radius: 8px; font-size: 1rem;
+    cursor: pointer; display: inline-flex; justify-content: center; align-items: center; transition: all 0.15s;
+  }
+  .ramp-icon-btn:hover { background: #f1f5f9; color: #0f172a; }
+
+  /* Info Modal */
+  .ramp-modal-overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(15, 23, 42, 0.75); border-radius: 16px; z-index: 70;
+    display: flex; justify-content: center; align-items: center; padding: 20px;
+  }
+  .ramp-modal-content {
+    background: #fff; padding: 24px; border-radius: 12px; max-width: 580px;
+    max-height: 90%; overflow-y: auto; font-size: 0.88rem; line-height: 1.5;
+  }
+
+  /* Cards & Layout */
+  .ramp-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 16px; margin-bottom: 14px; }
+  .ramp-card-blue { background: #eff6ff; border-color: #bfdbfe; }
+  
+  .ramp-grid-4 { display: grid; grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 10px; align-items: end; }
+  .ramp-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: end; }
+  @media (max-width: 540px) {
+    .ramp-grid-4, .ramp-grid-2 { grid-template-columns: 1fr 1fr; }
+  }
+
+  .ramp-label { display: block; font-size: 0.78rem; font-weight: 700; color: #475569; margin-bottom: 5px; white-space: nowrap; }
+  .ramp-input, .ramp-select {
+    width: 100%; height: 38px; padding: 0 8px; border: 1px solid #cbd5e1; border-radius: 8px;
+    text-align: center; font-size: 0.92rem; font-weight: 700; background: #fff; line-height: 38px;
+  }
+  .ramp-select { text-align: left; }
+
+  .ramp-gender-group { display: flex; gap: 4px; height: 38px; }
+  .ramp-gender-btn {
+    flex: 1; height: 38px; border: 1px solid #cbd5e1; background: #fff;
+    border-radius: 8px; font-weight: 700; font-size: 0.8rem; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .ramp-gender-btn.active { background: #2563eb; color: #fff; border-color: #2563eb; }
+
+  /* Live Timer Display Card */
+  .ramp-timer-card {
+    position: relative; border-radius: 12px; padding: 14px 18px; border: 2px solid #2563eb;
+    background: #eff6ff; overflow: hidden; margin-bottom: 14px; text-align: center;
+  }
+  .ramp-timer-display-group {
+    display: grid; grid-template-columns: 1fr 2px 1fr; gap: 16px; align-items: center; margin: 2px 0;
+  }
+  .ramp-timer-divider { width: 2px; height: 64px; background: #cbd5e1; margin: 0 auto; }
+  .ramp-timer-col { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .ramp-timer-big-val { font-size: 3rem; font-weight: 900; color: #0f172a; line-height: 1; font-variant-numeric: tabular-nums; }
+  .ramp-watt-big-val { font-size: 3rem; font-weight: 900; color: #2563eb; line-height: 1; font-variant-numeric: tabular-nums; }
+  .ramp-timer-subtext { font-size: 0.80rem; font-weight: 700; color: #64748b; margin-top: 4px; }
+  
+  .ramp-progress-bg { position: absolute; bottom: 0; left: 0; width: 100%; height: 5px; background: #cbd5e1; }
+  .ramp-progress-fill { height: 100%; background: #2563eb; width: 0%; transition: width 0.25s linear; }
+
+  /* Buttons */
+  .ramp-btn {
+    width: 100%; padding: 12px; border: none; border-radius: 10px; font-size: 1rem;
+    font-weight: 700; cursor: pointer; transition: background 0.2s; text-align: center;
+  }
+  .ramp-btn-blue { background: #2563eb; color: #fff; } .ramp-btn-blue:hover { background: #1d4ed8; }
+  .ramp-btn-red { background: #ef4444; color: #fff; } .ramp-btn-red:hover { background: #dc2626; }
+
+  /* Result Grid */
+  .ramp-result-grid {
+    display: grid; grid-template-columns: 1.35fr 1fr; gap: 14px; align-items: stretch; margin-top: 14px;
+  }
+  @media (max-width: 580px) { .ramp-result-grid { grid-template-columns: 1fr; } }
+
+  .ramp-left-card {
+    background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 14px;
+    padding: 18px; display: flex; flex-direction: column; justify-content: space-between; text-align: center;
+  }
+  .ramp-kondital-val { font-size: 4rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 2px 0; }
+  .ramp-kondital-unit-line { font-size: 0.88rem; font-weight: 800; color: #2563eb; margin-top: 2px; }
+
+  .ramp-slider-container { position: relative; margin: 14px 0 4px 0; }
+  .ramp-slider-track { display: flex; height: 10px; border-radius: 5px; overflow: hidden; }
+  .ramp-slider-track div { flex: 1; }
+  .ramp-slider-pointer {
+    position: absolute; top: -5px; width: 14px; height: 20px; background: #1e293b;
+    border: 2px solid #fff; border-radius: 4px; transform: translateX(-50%); transition: left 0.4s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+
+  .ramp-right-stack { display: flex; flex-direction: column; gap: 10px; justify-content: space-between; }
+  .ramp-subcard {
+    background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px;
+    padding: 12px 14px; height: 100%; display: flex; flex-direction: column; justify-content: center;
+  }
+  .ramp-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 8px; }
+  .ramp-table th, .ramp-table td { padding: 8px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+  .ramp-table th { background: #f1f5f9; color: #475569; font-weight: 700; }
+</style>
+
+<div class="full">
+<div id="ramp-widget">
+
+    <!-- INFO MODAL -->
+    <div id="ramp-modal" class="ramp-modal-overlay ramp-hidden">
+        <div class="ramp-modal-content">
+            <div class="ramp-flex-between" style="margin-bottom: 12px;">
+                <div style="font-size:1.1rem; font-weight:800;">Trappetest & Ramptest Protokoller</div>
+                <button id="ramp-modal-close" style="border:none; background:none; font-size:1.2rem; cursor:pointer;">✕</button>
+            </div>
+            <p><strong>Trappetesten på cykel</strong> er en maksimal udmattelsestest til estimering af PPO, VO₂max og FTP.</p>
+            <ul>
+                <li><strong>Hawley & Noakes (1992):</strong> 2,5 min trintid / +25W stigning. Guldstandard for VO₂max. (FTP ≈ 82,5% PPO).</li>
+                <li><strong>Andersen Watt-max (1995):</strong> 2,0 min trintid / +35W (mænd) eller +25W (kvinder). Klinisk standard.</li>
+                <li><strong>Zwift / 1-Minut Ramp:</strong> 1,0 min trintid / +20W stigning. Hurtig eksplosiv test. (FTP ≈ 75% PPO).</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div class="ramp-flex-between" style="margin-bottom: 14px;">
+        <div class="ramp-main-title">
+            🚴 Trappetest & Ramptest
+            <button id="ramp-info-trigger" style="background:#0284c7; color:#fff; border:none; border-radius:50%; width:22px; height:22px; font-size:0.8rem; font-weight:bold; cursor:pointer;" title="Læs om testen">i</button>
+        </div>
+        <div class="ramp-header-actions">
+            <button id="ramp-btn-sound" class="ramp-toggle-btn active" title="Slå lyd til/fra">🔊 Lyd Til</button>
+            <button id="ramp-btn-fullscreen" class="ramp-icon-btn" title="Fuld skærm">⛶</button>
+        </div>
+    </div>
+
+    <!-- STAMDATA & PROTOKOL -->
+    <div class="ramp-card ramp-card-blue">
+        <div class="ramp-grid-4">
+            <div>
+                <label class="ramp-label">Køn</label>
+                <div class="ramp-gender-group">
+                    <button id="ramp-gender-m" class="ramp-gender-btn active" type="button">Mand</button>
+                    <button id="ramp-gender-k" class="ramp-gender-btn" type="button">Kvinde</button>
+                </div>
+            </div>
+            <div>
+                <label class="ramp-label">Alder (år)</label>
+                <input type="number" id="ramp-age" value="30" class="ramp-input" min="10" max="99">
+            </div>
+            <div>
+                <label class="ramp-label">Vægt (kg)</label>
+                <input type="number" id="ramp-weight" value="75" class="ramp-input" min="30" max="200" step="0.1">
+            </div>
+            <div>
+                <label class="ramp-label">Start Watt</label>
+                <input type="number" id="ramp-start-watt" value="{{ default_start_watt }}" class="ramp-input" min="25" max="300" step="5">
+            </div>
+        </div>
+
+        {% if preset_protocol != "" %}
+            <input type="hidden" id="ramp-protocol" value="{{ preset_protocol }}">
+        {% else %}
+            <div style="margin-top: 10px;">
+                <label class="ramp-label">Testprotokol</label>
+                <select id="ramp-protocol" class="ramp-select">
+                    <option value="hawley" selected>Hawley & Noakes (2,5 min / +25 W) – VO₂max guldstandard</option>
+                    <option value="andersen">Andersen Watt-max (2,0 min / +35 W) – Klinisk standard</option>
+                    <option value="zwift">1-Minut Ramptest (1,0 min / +20 W) – Zwift/MAP format</option>
+                </select>
+            </div>
+        {% endif %}
+    </div>
+
+    <!-- LIVE TIMER DISPLAY -->
+    <div class="ramp-timer-card">
+        <div class="ramp-timer-display-group">
+            <div class="ramp-timer-col">
+                <span class="ramp-label" style="text-transform:uppercase;">Mål Belastning</span>
+                <div class="ramp-watt-big-val" id="display-ramp-watt">{{ default_start_watt }} W</div>
+                <div class="ramp-timer-subtext" id="display-ramp-next">Næste: Trin 2</div>
+            </div>
+
+            <div class="ramp-timer-divider"></div>
+
+            <div class="ramp-timer-col">
+                <span class="ramp-label" style="text-transform:uppercase; color:#1d4ed8;" id="display-ramp-stage">⚡ TRIN 1</span>
+                <div class="ramp-timer-big-val" id="display-ramp-countdown">00:00</div>
+                <div class="ramp-timer-subtext">Samlet tid: <span id="display-ramp-total">00:00</span></div>
+            </div>
+        </div>
+        <div class="ramp-progress-bg"><div id="ramp-prog-fill" class="ramp-progress-fill"></div></div>
+    </div>
+
+    <!-- START / STOP TOGGLE -->
+    <div style="margin-bottom: 14px;">
+        <button id="btn-ramp-toggle" class="ramp-btn ramp-btn-blue">🚀 Start Live Test Timer</button>
+    </div>
+
+    <!-- MANUEL ELLER AUTOMATISK SLUT-RESULTAT -->
+    <div class="ramp-card" style="background: #fafafa; margin-bottom: 0;">
+        <div class="ramp-grid-2">
+            <div>
+                <label class="ramp-label">Højeste påbegyndte Watt</label>
+                <input type="number" id="ramp-input-max-watt" class="ramp-input" placeholder="fx 375">
+            </div>
+            <div>
+                <label class="ramp-label">Sekunder på højeste Watt</label>
+                <input type="number" id="ramp-input-seconds" class="ramp-input" placeholder="fx 90">
+            </div>
+        </div>
+    </div>
+
+    <!-- RESULTATER -->
+    <div class="ramp-result-grid">
+        <div class="ramp-left-card">
+            <div>
+                <div style="font-size:0.85rem; font-weight:800; color:#1e40af; text-transform:uppercase;">ESTIMERET KONDITAL</div>
+                <div id="res-ramp-kondital" class="ramp-kondital-val">0.0</div>
+                <div class="ramp-kondital-unit-line">ml/kg/min</div>
+            </div>
+
+            <div>
+                <div class="ramp-slider-container">
+                    <div class="ramp-slider-track">
+                        <div style="background:#ef4444;"></div>
+                        <div style="background:#f97316;"></div>
+                        <div style="background:#facc15;"></div>
+                        <div style="background:#4ade80;"></div>
+                        <div style="background:#2563eb;"></div>
+                    </div>
+                    <div id="res-ramp-pointer" class="ramp-slider-pointer" style="left: 0%;"></div>
+                </div>
+                <div class="ramp-flex-between" style="font-size:0.7rem; font-weight:bold; color:#64748b;">
+                    <span>LAV</span><span>HØJ</span>
+                </div>
+                <div id="res-ramp-level" style="margin-top:6px; font-weight:800; font-size:0.9rem; color:#2563eb;">-</div>
+            </div>
+        </div>
+
+        <div class="ramp-right-stack">
+            <div class="ramp-subcard">
+                <div class="ramp-flex-between">
+                    <div>
+                        <strong style="font-size:0.85rem; color:#1e293b;">Peak Power (PPO)</strong>
+                        <div style="font-size:0.75rem; color:#64748b;">Maksimal effekt</div>
+                    </div>
+                    <span id="res-ramp-ppo" style="font-size:1.3rem; font-weight:900; color:#0f172a;">-</span>
+                </div>
+            </div>
+
+            <div class="ramp-subcard">
+                <div class="ramp-flex-between">
+                    <div>
+                        <strong style="font-size:0.85rem; color:#1e293b;">Max Iltoptagelse</strong>
+                        <div style="font-size:0.75rem; color:#64748b;">VO₂max (L/min)</div>
+                    </div>
+                    <span id="res-ramp-vo2" style="font-size:1.3rem; font-weight:900; color:#0f172a;">-</span>
+                </div>
+            </div>
+
+            <div class="ramp-subcard">
+                <div class="ramp-flex-between">
+                    <div>
+                        <strong style="font-size:0.85rem; color:#1e3a8a;">Estimeret FTP</strong>
+                        <div style="font-size:0.75rem; color:#64748b;">Tærskeleffekt</div>
+                    </div>
+                    <span id="res-ramp-ftp" style="font-size:1.3rem; font-weight:900; color:#2563eb;">-</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LOG HISTORIK -->
+    <div style="margin-top: 20px;">
+        <div class="ramp-flex-between">
+            <strong style="font-size:0.85rem; color:#475569;">Gemte Testresultater (<span id="lbl-active-ramp-title">Hawley & Noakes</span>)</strong>
+            <button id="btn-ramp-clear-history" style="border:none; background:none; color:#ef4444; font-size:0.8rem; font-weight:bold; cursor:pointer;">🗑 Ryd log for denne test</button>
+        </div>
+        <table class="ramp-table">
+            <thead>
+                <tr>
+                    <th>Dato</th>
+                    <th>PPO (Watt)</th>
+                    <th>Est. FTP</th>
+                    <th>Kondital</th>
+                </tr>
+            </thead>
+            <tbody id="ramp-history-body">
+                <tr><td colspan="4" style="text-align:center; color:#94a3b8;">Ingen gemte tests endnu</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</div>
+
+<script type="module">
+import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
+import { evaluateFitnessLevel, getFitnessThresholds } from '/assets/js/core/vo2max-norms.js';
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const PROTOCOLS = {
+        hawley: { name: 'Hawley & Noakes (2,5 min)', stepSecs: 150, stepWatt: 25, ftpFactor: 0.825, storageKey: 'hawley_ramp_bike' },
+        andersen: { name: 'Andersen Watt-max (2 min)', stepSecs: 120, stepWatt: 35, ftpFactor: 0.78, storageKey: 'andersen_wattmax_bike' },
+        zwift: { name: '1-Minut Ramp Test', stepSecs: 60, stepWatt: 20, ftpFactor: 0.75, storageKey: 'ramp_1min_bike' }
+    };
+
+    let isRunning = false;
+    let isSoundOn = true;
+    let timerInterval = null;
+    let startTime = null;
+    let totalSeconds = 0;
+    let currentGender = 'M';
+    let wakeLock = null;
+    let audioCtx = null;
+
+    // Elementer
+    const elBtnToggle = document.getElementById('btn-ramp-toggle');
+    const elProtocol = document.getElementById('ramp-protocol');
+    const elStartWatt = document.getElementById('ramp-start-watt');
+    const elAge = document.getElementById('ramp-age');
+    const elWeight = document.getElementById('ramp-weight');
+    const elInputMaxWatt = document.getElementById('ramp-input-max-watt');
+    const elInputSeconds = document.getElementById('ramp-input-seconds');
+
+    const elDisplayWatt = document.getElementById('display-ramp-watt');
+    const elDisplayNext = document.getElementById('display-ramp-next');
+    const elDisplayStage = document.getElementById('display-ramp-stage');
+    const elDisplayCountdown = document.getElementById('display-ramp-countdown');
+    const elDisplayTotal = document.getElementById('display-ramp-total');
+    const elProgFill = document.getElementById('ramp-prog-fill');
+
+    const elResKondital = document.getElementById('res-ramp-kondital');
+    const elResPPO = document.getElementById('res-ramp-ppo');
+    const elResVO2 = document.getElementById('res-ramp-vo2');
+    const elResFTP = document.getElementById('res-ramp-ftp');
+    const elResLevel = document.getElementById('res-ramp-level');
+    const elResPointer = document.getElementById('res-ramp-pointer');
+
+    const elLblActiveTitle = document.getElementById('lbl-active-ramp-title');
+
+    function getActiveProtoKey() {
+        return elProtocol ? elProtocol.value : 'hawley';
+    }
+
+    function getActiveConfig() {
+        const key = getActiveProtoKey();
+        return PROTOCOLS[key] || PROTOCOLS.hawley;
+    }
+
+    function getStorageKey() {
+        return getActiveConfig().storageKey;
+    }
+
+    // Controls
+    document.getElementById('ramp-btn-sound').onclick = function() {
+        isSoundOn = !isSoundOn;
+        this.classList.toggle('active', isSoundOn);
+        this.textContent = isSoundOn ? '🔊 Lyd Til' : '🔇 Lyd Fra';
+    };
+
+    document.getElementById('ramp-btn-fullscreen').onclick = function() {
+        const widget = document.getElementById('ramp-widget');
+        if (!document.fullscreenElement) {
+            if (widget.requestFullscreen) widget.requestFullscreen();
+        } else {
+            if (document.exitFullscreen) document.exitFullscreen();
+        }
+    };
+
+    document.getElementById('ramp-gender-m').onclick = function() {
+        currentGender = 'M'; this.classList.add('active');
+        document.getElementById('ramp-gender-k').classList.remove('active');
+        calculateAuto(false);
+    };
+    document.getElementById('ramp-gender-k').onclick = function() {
+        currentGender = 'K'; this.classList.add('active');
+        document.getElementById('ramp-gender-m').classList.remove('active');
+        calculateAuto(false);
+    };
+
+    // Sound & Wake Lock
+    function playBeep(freq = 600, duration = 0.08) {
+        if (!isSoundOn) return;
+        try {
+            if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.frequency.value = freq;
+            osc.connect(gain); gain.connect(audioCtx.destination);
+            osc.start();
+            gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
+            setTimeout(() => osc.stop(), duration * 1000);
+        } catch (e) {}
+    }
+
+    async function requestWakeLock() {
+        try {
+            if ('wakeLock' in navigator) wakeLock = await navigator.wakeLock.request('screen');
+        } catch (e) {}
+    }
+    function releaseWakeLock() {
+        if (wakeLock) { wakeLock.release(); wakeLock = null; }
+    }
+
+    function fmtTime(sec) {
+        let m = Math.floor(sec / 60).toString().padStart(2, '0');
+        let s = Math.floor(sec % 60).toString().padStart(2, '0');
+        return `${m}:${s}`;
+    }
+
+    // Timer Logic
+    elBtnToggle.onclick = function() {
+        if (isRunning) {
+            stopTimer();
+        } else {
+            startTimer();
+        }
+    };
+
+    function startTimer() {
+        isRunning = true;
+        startTime = Date.now();
+        totalSeconds = 0;
+        requestWakeLock();
+
+        elBtnToggle.textContent = '🛑 Udmattelse / STOP';
+        elBtnToggle.className = 'ramp-btn ramp-btn-red';
+        if (elProtocol && elProtocol.tagName === 'SELECT') elProtocol.disabled = true;
+        elStartWatt.disabled = true;
+
+        updateTimerUI();
+        timerInterval = setInterval(() => {
+            totalSeconds = (Date.now() - startTime) / 1000;
+            updateTimerUI();
+        }, 200);
+    }
+
+    function stopTimer() {
+        if (!isRunning) return;
+        isRunning = false;
+        clearInterval(timerInterval);
+        timerInterval = null;
+        releaseWakeLock();
+
+        elBtnToggle.textContent = '🚀 Start Live Test Timer';
+        elBtnToggle.className = 'ramp-btn ramp-btn-blue';
+        if (elProtocol && elProtocol.tagName === 'SELECT') elProtocol.disabled = false;
+        elStartWatt.disabled = false;
+
+        const proto = getActiveConfig();
+        const startW = parseFloat(elStartWatt.value) || 150;
+        const completedSteps = Math.floor(totalSeconds / proto.stepSecs);
+        const secsInCurrentStep = Math.floor(totalSeconds % proto.stepSecs);
+        const highestStartedWatt = startW + (completedSteps * proto.stepWatt);
+
+        // Overfør automatisk til manuelle felter
+        elInputMaxWatt.value = highestStartedWatt;
+        elInputSeconds.value = secsInCurrentStep;
+
+        calculateAuto(true);
+    }
+
+    function updateTimerUI() {
+        const proto = getActiveConfig();
+        const startW = parseFloat(elStartWatt.value) || 150;
+
+        const currentStepIndex = Math.floor(totalSeconds / proto.stepSecs);
+        const secsInStep = totalSeconds % proto.stepSecs;
+        const secsLeftInStep = Math.ceil(proto.stepSecs - secsInStep);
+
+        const currentWatt = startW + (currentStepIndex * proto.stepWatt);
+        const nextWatt = currentWatt + proto.stepWatt;
+
+        elDisplayWatt.textContent = `${currentWatt} W`;
+        elDisplayNext.textContent = `Næste: Trin ${currentStepIndex + 2} (${nextWatt} W)`;
+        elDisplayStage.textContent = `⚡ TRIN ${currentStepIndex + 1}`;
+        elDisplayCountdown.textContent = fmtTime(secsLeftInStep);
+        elDisplayTotal.textContent = fmtTime(totalSeconds);
+
+        const pct = (secsInStep / proto.stepSecs) * 100;
+        elProgFill.style.width = `${pct}%`;
+
+        if (secsLeftInStep <= 3 && Math.floor(secsInStep * 5) % 5 === 0) {
+            playBeep(secsLeftInStep === 1 ? 900 : 500, 0.08);
+        }
+    }
+
+    // Dynamic Storage & Calculations
+    function saveDraftAndProfile() {
+        const age = parseInt(elAge.value || '0', 10);
+        const weight = parseFloat(elWeight.value || '');
+        const gender = currentGender === 'M' ? 'male' : 'female';
+        const currentKey = getStorageKey();
+
+        if (age > 0 || weight > 0) {
+            StorageAdapter.saveProfile({
+                ...(age > 0 && { age }),
+                ...(weight > 0 && { weight }),
+                gender
+            });
+        }
+
+        StorageAdapter.saveDraft(currentKey, {
+            age: elAge.value,
+            weight: elWeight.value,
+            maxWatt: elInputMaxWatt.value,
+            seconds: elInputSeconds.value,
+            protocol: getActiveProtoKey(),
+            startWatt: elStartWatt.value,
+            gender: currentGender
+        });
+    }
+
+    function loadInitialData() {
+        const profile = StorageAdapter.getProfile();
+        const currentKey = getStorageKey();
+        const draft = StorageAdapter.loadDraft(currentKey);
+        const cfg = getActiveConfig();
+
+        if (elLblActiveTitle) elLblActiveTitle.textContent = cfg.name;
+
+        if (draft) {
+            if (draft.gender) {
+                currentGender = draft.gender;
+                document.getElementById('ramp-gender-m').classList.toggle('active', currentGender === 'M');
+                document.getElementById('ramp-gender-k').classList.toggle('active', currentGender === 'K');
+            }
+            if (draft.age) elAge.value = draft.age;
+            if (draft.weight) elWeight.value = draft.weight;
+            elInputMaxWatt.value = draft.maxWatt || '';
+            elInputSeconds.value = draft.seconds || '';
+            if (draft.protocol && elProtocol && elProtocol.tagName === 'SELECT') elProtocol.value = draft.protocol;
+            if (draft.startWatt) elStartWatt.value = draft.startWatt;
+        } else {
+            elInputMaxWatt.value = '';
+            elInputSeconds.value = '';
+            if (profile.age) elAge.value = profile.age;
+            if (profile.weight) elWeight.value = profile.weight;
+            if (profile.gender) {
+                currentGender = (profile.gender === 'male' || profile.gender === 'mand') ? 'M' : 'K';
+                document.getElementById('ramp-gender-m').classList.toggle('active', currentGender === 'M');
+                document.getElementById('ramp-gender-k').classList.toggle('active', currentGender === 'K');
+            }
+        }
+    }
+
+    function calculateAuto(shouldCommit = false) {
+        saveDraftAndProfile();
+
+        const age = parseFloat(elAge.value) || 0;
+        const weight = parseFloat(elWeight.value) || 0;
+        const maxWatt = parseFloat(elInputMaxWatt.value) || 0;
+        const seconds = parseFloat(elInputSeconds.value) || 0;
+        const proto = getActiveConfig();
+        const currentKey = getStorageKey();
+        const gender = currentGender === 'M' ? 'male' : 'female';
+
+        if (maxWatt > 0 && weight > 0) {
+            const completedWatt = maxWatt - proto.stepWatt;
+            const ppo = completedWatt + (proto.stepWatt * (Math.min(proto.stepSecs, seconds) / proto.stepSecs));
+            const vo2Lmin = (0.01141 * ppo) + 0.435;
+            const kondital = (vo2Lmin * 1000) / weight;
+            const ftpEstimate = ppo * proto.ftpFactor;
+
+            elResKondital.textContent = kondital.toFixed(1);
+            elResPPO.textContent = `${ppo.toFixed(1)} W`;
+            elResVO2.textContent = `${vo2Lmin.toFixed(2)} L`;
+            elResFTP.textContent = `${ftpEstimate.toFixed(0)} W`;
+
+            let evalLabel = '-';
+            if (age > 0) {
+                const evaluation = evaluateFitnessLevel(kondital, age, gender);
+                if (evaluation) {
+                    evalLabel = evaluation.label;
+                    elResLevel.textContent = evaluation.label;
+                    elResLevel.style.color = evaluation.color;
+                }
+
+                const t = getFitnessThresholds(age, gender);
+                if (t) {
+                    let pct = 0;
+                    if (kondital <= t[0]) pct = ((kondital - 15) / (t[0] - 15)) * 20;
+                    else if (kondital <= t[1]) pct = 20 + ((kondital - t[0]) / (t[1] - t[0])) * 20;
+                    else if (kondital <= t[2]) pct = 40 + ((kondital - t[1]) / (t[2] - t[1])) * 20;
+                    else if (kondital <= t[3]) pct = 60 + ((kondital - t[2]) / (t[3] - t[2])) * 20;
+                    else pct = 80 + ((kondital - t[3]) / 15) * 20;
+
+                    elResPointer.style.left = `${Math.max(2, Math.min(98, pct))}%`;
+                }
+            }
+
+            if (shouldCommit) {
+                StorageAdapter.commitToLog(currentKey, {
+                    type: 'physical',
+                    primary: { value: parseFloat(kondital.toFixed(1)), unit: 'ml/kg/min', label: 'Kondital' },
+                    norm: { label: evalLabel, color: '#2563eb', bg: '#2563eb18' },
+                    subMetrics: {
+                        ppo: Math.round(ppo),
+                        vo2maxLmin: parseFloat(vo2Lmin.toFixed(2)),
+                        ftp: Math.round(ftpEstimate),
+                        maxWatt,
+                        seconds
+                    },
+                    context: { age, gender, weight, protocol: getActiveProtoKey() }
+                });
+
+                saveResultToUI(Math.round(ppo), Math.round(ftpEstimate), kondital.toFixed(1));
+            }
+        } else {
+            elResKondital.textContent = '0.0';
+            elResPPO.textContent = '-';
+            elResVO2.textContent = '-';
+            elResFTP.textContent = '-';
+            elResLevel.textContent = '-';
+            elResPointer.style.left = '0%';
+        }
+    }
+
+    // Input Events
+    [elAge, elWeight, elInputMaxWatt, elInputSeconds, elStartWatt].forEach(inp => {
+        inp.addEventListener('input', () => calculateAuto(false));
+        inp.addEventListener('change', () => calculateAuto(true));
+    });
+
+    if (elProtocol && elProtocol.tagName === 'SELECT') {
+        elProtocol.addEventListener('change', () => {
+            loadInitialData();
+            calculateAuto(false);
+            renderHistory();
+        });
+    }
+
+    // History Table per Storage Key
+    function saveResultToUI(ppo, ftp, kondital) {
+        const currentKey = getStorageKey();
+        let history = JSON.parse(localStorage.getItem(`ramp_history_${currentKey}`) || '[]');
+        let item = {
+            date: new Date().toLocaleDateString('da-DK', {day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit'}),
+            ppo: ppo + ' W',
+            ftp: ftp + ' W',
+            kondital
+        };
+        history.unshift(item);
+        if (history.length > 5) history.pop();
+        localStorage.setItem(`ramp_history_${currentKey}`, JSON.stringify(history));
+        renderHistory();
+    }
+
+    function renderHistory() {
+        const currentKey = getStorageKey();
+        let history = JSON.parse(localStorage.getItem(`ramp_history_${currentKey}`) || '[]');
+        let tbody = document.getElementById('ramp-history-body');
+        if (history.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="4" style="text-align:center; color:#94a3b8;">Ingen gemte tests endnu for denne protokol</td></tr>';
+            return;
+        }
+        tbody.innerHTML = history.map(h => `
+            <tr>
+                <td>${h.date}</td>
+                <td><strong>${h.ppo}</strong></td>
+                <td><strong style="color:#2563eb;">${h.ftp}</strong></td>
+                <td><strong>${h.kondital}</strong></td>
+            </tr>
+        `).join('');
+    }
+
+    document.getElementById('btn-ramp-clear-history').onclick = function() {
+        const currentKey = getStorageKey();
+        StorageAdapter.clearLog(currentKey);
+        StorageAdapter.clearDraft(currentKey);
+        localStorage.removeItem(`ramp_history_${currentKey}`);
+        renderHistory();
+    };
+
+    document.getElementById('ramp-info-trigger').onclick = () => document.getElementById('ramp-modal').classList.remove('ramp-hidden');
+    document.getElementById('ramp-modal-close').onclick = () => document.getElementById('ramp-modal').classList.add('ramp-hidden');
+
+    loadInitialData();
+    calculateAuto(false);
+    renderHistory();
+});
+</script>

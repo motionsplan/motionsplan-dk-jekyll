@@ -21,10 +21,10 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tests:
-  - id: "test-ymca-3-minutters-steptest"
+  - id: "ymca-3-minutes-steptest"
     title: "YMCA 3-minutters Steptest (3MST)"
     description: "Standardiseret submaksimal steptest (3 minutter på en 30 cm høj boks ved 96 BPM / 24 step/min) til indirekte estimering af kondital (VO2max) ud fra puls."
-    category: ["Tests", "Kondition"]
+    category: ["Steptest", "Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk steppearbejde på 30 cm bænk
     method: "indirekte"                     # 📊 Indirekte estimering af VO2max ud fra restitutionspuls og antropometri
@@ -35,6 +35,11 @@ tests:
     target_group: ["Voksne", "Motionister", "Mænd", "Kvinder"]
     related_tools:
       - "tool-ymca-steptest-beregner"
+    icon: "🪜"
+    badge: "Steptest"
+    unit: "ml/kg/min"
+    storage_key: "ymca_step"
+    allow_quick_log: false
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

@@ -1,6 +1,9 @@
 // assets/js/ui/running-distance-vo2max-ui.js
 import { calculateRunningDistanceVO2 } from '../core/running-distance-vo2max.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
+
+const TEST_ID = 'running_distance_vo2max';
 
 export function initRunningDistanceVO2(container) {
   if (!container) return;
@@ -35,39 +38,47 @@ export function initRunningDistanceVO2(container) {
   const vdotPopup = container.querySelector('.js-vdot-popup');
   const vdotPopupClose = container.querySelector('.js-vdot-popup-close');
 
+  // Tilstandsvariabler til at holde det seneste gyldige resultat
+  let currentResult = null;
+
+  // --- STATE MANAGEMENT VIA STORAGE ADAPTER ---
   function saveState() {
-    try {
-      const genderEl = container.querySelector('input[name="rdv_gender"]:checked');
-      const state = {
-        distanceKm: distanceKmInput ? distanceKmInput.value : '',
-        hours: hoursInput ? hoursInput.value : '',
-        minutes: minutesInput ? minutesInput.value : '',
-        seconds: secondsInput ? secondsInput.value : '',
-        age: ageInput ? ageInput.value : '',
-        weight: weightInput ? weightInput.value : '',
-        gender: genderEl ? genderEl.value : 'male'
-      };
-      localStorage.setItem('mp_rdv_state', JSON.stringify(state));
-    } catch (e) {}
+    const age = ageInput ? ageInput.value : '';
+    const weight = weightInput ? weightInput.value : '';
+    const genderEl = container.querySelector('input[name="rdv_gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'male';
+
+    // Gem universelle stamdata i Profile
+    StorageAdapter.saveProfile({
+      ...(age && { age: Number(age) }),
+      ...(weight && { weight: Number(weight) }),
+      gender
+    });
+
+    // Gem felter specifikt for denne test i Draft
+    StorageAdapter.saveDraft(TEST_ID, {
+      distanceKm: distanceKmInput ? distanceKmInput.value : '',
+      hours: hoursInput ? hoursInput.value : '',
+      minutes: minutesInput ? minutesInput.value : '',
+      seconds: secondsInput ? secondsInput.value : ''
+    });
   }
 
   function loadState() {
-    try {
-      const saved = localStorage.getItem('mp_rdv_state');
-      if (saved) {
-        const state = JSON.parse(saved);
-        if (state.distanceKm && distanceKmInput) distanceKmInput.value = state.distanceKm;
-        if (state.hours && hoursInput) hoursInput.value = state.hours;
-        if (state.minutes && minutesInput) minutesInput.value = state.minutes;
-        if (state.seconds && secondsInput) secondsInput.value = state.seconds;
-        if (state.age && ageInput) ageInput.value = state.age;
-        if (state.weight && weightInput) weightInput.value = state.weight;
-        if (state.gender) {
-          const radio = container.querySelector(`input[name="rdv_gender"][value="${state.gender}"]`);
-          if (radio) radio.checked = true;
-        }
-      }
-    } catch (e) {}
+    const profile = StorageAdapter.getProfile();
+    const draft = StorageAdapter.loadDraft(TEST_ID) || {};
+
+    if (profile.age && ageInput) ageInput.value = profile.age;
+    if (profile.weight && weightInput) weightInput.value = profile.weight;
+    if (profile.gender) {
+      const radio = container.querySelector(`input[name="rdv_gender"][value="${profile.gender}"]`);
+      if (radio) radio.checked = true;
+    }
+
+    if (draft.distanceKm && distanceKmInput) distanceKmInput.value = draft.distanceKm;
+    if (draft.hours && hoursInput) hoursInput.value = draft.hours;
+    if (draft.minutes && minutesInput) minutesInput.value = draft.minutes;
+    if (draft.seconds && secondsInput) secondsInput.value = draft.seconds;
   }
 
   function calculate() {
@@ -85,12 +96,16 @@ export function initRunningDistanceVO2(container) {
     const res = calculateRunningDistanceVO2(distanceMeters, hrs, mins, secs, weight);
 
     if (res && res.isValid) {
+      currentResult = res;
+
       if (resFitness) resFitness.textContent = res.formattedFitnessLevel;
       if (resVdot) resVdot.textContent = res.formattedVDOT;
       if (resSdText) resSdText.textContent = `± ${res.sd} ${res.sdUnit}`;
       if (resKmtNum) resKmtNum.textContent = res.formattedKmtNum;
       if (resPaceNum) resPaceNum.textContent = res.paceNum;
       if (resVo2Max) resVo2Max.textContent = res.formattedVO2Max;
+
+      if (saveBtn) saveBtn.disabled = false;
 
       // Norm vurdering
       const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
@@ -166,7 +181,9 @@ export function initRunningDistanceVO2(container) {
         });
       }
     } else {
+      currentResult = null;
       resetResults();
+      if (saveBtn) saveBtn.disabled = true;
     }
   }
 
@@ -232,6 +249,7 @@ export function initRunningDistanceVO2(container) {
 
   const resetBtn = container.querySelector('.js-reset-btn');
   const downloadBtn = container.querySelector('.js-download-btn');
+  const saveBtn = container.querySelector('.js-save-btn');
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
@@ -241,7 +259,8 @@ export function initRunningDistanceVO2(container) {
       });
       if (popup) popup.style.display = 'none';
       if (vdotPopup) vdotPopup.style.display = 'none';
-      try { localStorage.removeItem('mp_rdv_state'); } catch(e){}
+      StorageAdapter.clearDraft(TEST_ID);
+      saveState();
       calculate();
     });
   }
@@ -260,6 +279,64 @@ export function initRunningDistanceVO2(container) {
           });
         }
       }, 100);
+    });
+  }
+
+  // --- LOGIK TIL AT GEMME I HISTORIKKEN ---
+  if (saveBtn) {
+    saveBtn.addEventListener('click', () => {
+      if (currentResult && currentResult.isValid) {
+        const age = parseInt(ageInput ? ageInput.value : '0', 10);
+        const genderEl = container.querySelector('input[name="rdv_gender"]:checked');
+        const gender = genderEl ? genderEl.value : 'male';
+        const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
+        const userAge = age > 0 ? age : 20;
+
+        const evaluation = evaluateFitnessLevel(currentResult.fitnessLevel, userAge, normGender);
+
+        const recordData = {
+          type: 'physical',
+          primary: {
+            value: parseFloat(currentResult.formattedFitnessLevel),
+            unit: 'ml/kg/min',
+            label: 'Kondital (VO₂max)'
+          },
+          ...(evaluation && {
+            norm: {
+              label: evaluation.label,
+              color: evaluation.color,
+              bg: evaluation.color + '18'
+            }
+          }),
+          subMetrics: {
+            vdot: parseFloat(currentResult.formattedVDOT),
+            pace: currentResult.paceNum,
+            speedKmh: parseFloat(currentResult.formattedKmtNum),
+            distanceKm: parseFloat(distanceKmInput ? distanceKmInput.value : '0')
+          },
+          context: {
+            method: 'Løbetest (Distance & Tid)',
+            hours: hoursInput ? hoursInput.value : '0',
+            minutes: minutesInput ? minutesInput.value : '0',
+            seconds: secondsInput ? secondsInput.value : '0'
+          }
+        };
+
+        StorageAdapter.commitToLog(TEST_ID, recordData);
+
+        const originalText = saveBtn.innerHTML;
+        const originalBg = saveBtn.style.background;
+
+        saveBtn.innerHTML = '✅ Gemt!';
+        saveBtn.style.background = '#16a34a';
+        saveBtn.disabled = true;
+
+        setTimeout(() => {
+          saveBtn.innerHTML = originalText;
+          saveBtn.style.background = originalBg;
+          saveBtn.disabled = false;
+        }, 2000);
+      }
     });
   }
 

@@ -48,6 +48,11 @@ tools:
     execution: ["Testberegner"]
     anchor: "#calculator"
     category_schema: "HealthAndFitnessApplication"
+    icon: "🏃"
+    badge: "Løb"
+    unit: "ml/kg/min"
+    storage_key: "jogging_test"
+    allow_quick_log: false
 tags:
 - test
 - konditionstest

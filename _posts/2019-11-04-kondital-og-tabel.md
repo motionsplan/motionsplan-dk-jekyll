@@ -25,6 +25,7 @@ categories:
 - Kondition
 tags:
 - kondition
+- konditionstest
 - tabel
 - beregner
 - featured
@@ -68,6 +69,56 @@ faq:
 flashcards:
   - question: "Kondital beskriver din maksimale iltoptagelse i forhold til kropsvægt og angives i enheden {{c1::ml O2/min/kg::enhed}}."
     answer: "Ved at dividere iltoptagelsen med vægten i kg kan du sammenligne kondition direkte på tværs af kropsstørrelser."
+tests:
+  - id: "sofatest"
+    title: "Sofatest (Nes / HUNT)"
+    description: "Hurtig vurdering ud fra taljemål, hvilepuls og aktivitetsniveau."
+    icon: "🛋️"
+    badge: "Sofatest"
+    unit: "ml/kg/min"
+    storage_key: "sofatest"
+    allow_quick_log: false
+    category: ["Sofatest", "Kondition"]
+    type: ["Spørgeskema", "Konditionstest"]
+    execution: ["Digital"]
+    method: "submaksimal"
+    modality: ["Ingen"]
+    measures: ["Kondital", "VO2max"]
+    equipment: ["Målebånd"]
+    setting: ["Hjemme", "Online"]
+    target_group: ["Begyndere", "Utrænede", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-kondital-master-beregner"]
+
+  - id: "jackson_nasa"
+    title: "NASA PAR Test (Jackson)"
+    description: "Non-exercise vurdering ud fra BMI og NASA aktivitetsindeks (0-7)."
+    icon: "🛋️"
+    badge: "Sofatest"
+    unit: "ml/kg/min"
+    storage_key: "jackson_nasa"
+    allow_quick_log: false
+    category: ["Sofatest", "Kondition"]
+    type: ["Spørgeskema", "Konditionstest"]
+    execution: ["Digital"]
+    method: "submaksimal"
+    modality: ["Ingen"]
+    measures: ["Kondital", "VO2max", "PAR-score"]
+    equipment: ["Vægt", "Højde-måler"]
+    setting: ["Hjemme", "Online"]
+    target_group: ["Begyndere", "Utrænede", "Voksne", "Mænd", "Kvinder"]
+    related_tools: ["tool-kondital-master-beregner"]
+
+tools:
+  - id: "tool-kondital-master-beregner"
+    title: "Kondital & Sofatest Master-beregner"
+    description: "Samlet beregner til estimering af VO2max via Nes/HUNT sofatest, Tokmakidis løbeformel, Uth puls-ratio og NASA PAR-indeks."
+    icon: "🧮"
+    badge: "Beregner"
+    type: ["Beregner", "Konditionstest"]
+    execution: ["Digital"]
+    inputs: ["Hvilepuls", "Makspuls", "Taljemål", "Højde", "Vægt", "Løbetid", "Løbedistance", "PAR-score"]
+    outputs: ["Kondital", "VO2max", "Aldersnorm"]
+    related_tests: ["sofatest", "tokmakidis_run", "uth_pulse", "jackson_nasa"]
 ---
 
 Dit **kondital** fortæller, hvor effektivt din krop kan optage og anvende ilt i forhold til din kropsvægt ($\text{ml O}_2/\text{min/kg}$). 

@@ -9,12 +9,14 @@ header:
   teaser: https://images.unsplash.com/photo-1580977345188-0f9997ed457f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: 'Single-stage submaksimal gå-test på løbebånd ved 5% hældning'
 categories:
+  - Kondition
   - Konditionstests
 tags:
   - ebbeling test
   - kondital
   - vo2max
   - løbebåndstest
+  - konditionstest
   - submaksimal test
 last_modified_at: '2026-08-29T10:00:00Z'
 toc: true
@@ -25,6 +27,37 @@ faq:
     answer: "Testen består af 4 minutters opvarmning ved 0% hældning efterfulgt af 4 minutters testfase ved nøjagtigt 5,0% hældning med uændret gå-hastighed."
   - question: "Hvem er Ebbeling-testen egnet til?"
     answer: "Den er særdeles velegnet til voksne (20–59 år), motionister, kliniske patienter eller folk, der ikke ønsker eller kan gennemføre maksimale løbetests som Cooper-testen."
+tests:
+  - id: "ebbeling-walk"
+    title: "Ebbeling Løbebåndstest"
+    description: "8-minutters submaksimal gå-test på løbebånd (5% hældning)."
+    icon: "🏃"
+    badge: "Løbebånd"
+    unit: "ml/kg/min"
+    storage_key: "ebbeling_walk"
+    allow_quick_log: false
+    category: ["Gang", "Løbebånd", "Kondition"]
+    type: ["Protokol", "Konditionstest"]
+    execution: ["Fysisk"]
+    method: "submaksimal"
+    modality: ["Gang", "Løbebånd"]
+    measures: ["Kondital", "VO2max", "Puls"]
+    equipment: ["Løbebånd med hældning", "Stopur", "Pulsmåler"]
+    setting: ["Testlaboratorium", "Fitnesscenter", "Indendørs"]
+    target_group: ["Motionister", "Voksne", "Utrænede", "Mænd", "Kvinder"]
+    related_tools: ["tool-ebbeling-beregner"]
+
+tools:
+  - id: "tool-ebbeling-beregner"
+    title: "Ebbeling Løbebåndstest Beregner"
+    description: "Interaktiv beregner til estimering af VO2max og kondital ud fra 4-minutters steady-state puls ved 5% hældning."
+    icon: "🧮"
+    badge: "Beregner"
+    type: ["Beregner", "Konditionstest"]
+    execution: ["Digital"]
+    inputs: ["Hastighed", "Slutpuls", "Alder", "Køn"]
+    outputs: ["Kondital", "VO2max", "Aldersnorm"]
+    related_tests: ["ebbeling_walk"]
 ---
 
 **Ebbeling-testen** (*Ebbeling Submaximal Treadmill Test*) er en af de mest anvendte og fysiologisk veldokumenterede submaksimale gangtests i verden. Testen blev udviklet af dr. Cara B. Ebbeling og hendes forskerhold i 1991 og er i dag en fast del af **ACSM's (American College of Sports Medicine)** retningslinjer for helbreds- og motionstesting.

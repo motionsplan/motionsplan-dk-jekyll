@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Eksplosivitet: Træningsmetoder & Eksplosiv Styrke Dashboard"
-seo_title: "Eksplosivitet – Træningsmetoder, Øvelser og Dashboard"
-description: "Test din samlede eksplosivitet på tværs af spring, sprint og retningsskift i vores interaktive dashboard. Gem dine testresultater og lær at træne din eksplosive styrke."
+title: "Eksplosivitet: Træningsmetoder, Tests & Eksplosiv Styrke"
+seo_title: "Eksplosivitet – Træningsmetoder, Tests & Øvelser"
+description: "Test din samlede eksplosivitet på tværs af spring, sprint og retningsskift. Gem dine testresultater og lær at træne din eksplosive styrke."
 excerpt: "Lær hvordan du øger din eksplosivitet med plyometri, sprint og styrketræning. Test din samlede eksplosive profil i vores interaktive dashboard."
 permalink: /eksplosivitet/
 last_modified_at: 2026-08-16T19:30:00.000Z
@@ -16,7 +16,7 @@ header:
   teaser: /assets/images/unsplash/photo-1507853941863-0ed76ec6add4.jpg
   caption: Eksplosivitet – Udvikling af maksimal kraft på kort tid
   actions:
-    - label: "<i class='fas fa-tachometer-alt'></i> Åbn Eksplosivitet Dashboard ↓"
+    - label: "<i class='fas fa-tachometer-alt'></i> Eksplosive tests ↓"
       url: "#eksplosivitet-dashboard"
 feature_row_subhubs:
   - image_path: /assets/images/unsplash/photo-1501820434261-5bb046afcf6b.jpg
@@ -62,7 +62,7 @@ Eksplosivitet er en afgørende præstationsfaktor i næsten alle idrætsgrene �
 
 ---
 
-## Eksplosiv Dashboard
+## Eksplosive tests
 {: id="eksplosivitet-dashboard" }
 
 Gem dine testresultater direkte i browseren. Indtast dine værdier for de fire fysiologiske kerneområder (Core 4), eller udvid dit dashboard med ekstra felt-tests under **`+`** knappen.

@@ -29,7 +29,7 @@ meta:
   equipment: beregner
   measures: fedtprocent
 tests:
-  - id: "test-fedtprocent-bmi-formler"
+  - id: "fedtprocent-bmi-formler"
     title: "Estimat af fedtprocent ud fra BMI, alder og køn"
     description: "Indirekte estimering af kropsfedt baseret på køn, alder, højde og vægt ud fra populationsbaserede formler."
     category: ["Kropskomposition", "Antropometri"]
@@ -42,8 +42,11 @@ tests:
     setting: ["Individuel"]
     target_group: ["Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-fedtprocent-beregner-bmi"]
-    ls_key: "mp_log_fatpct_bmi"
-    icon: "⚡"
+    icon: "⚖️"
+    badge: "Kropssammensætning"
+    unit: "%"
+    storage_key: "fatpct_bmi"
+    allow_quick_log: false
 tools:
   - id: "tool-fedtprocent-beregner-bmi"
     title: "Fedtprocent Beregner (Alder, Højde & Vægt)"

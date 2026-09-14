@@ -21,10 +21,10 @@ meta:
 
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-borg-15"
+  - id: "borg-15"
     title: "Borg 15 Cykeltest"
     description: "Submaksimal cykeltest med gradvist øget belastning (+15 W/min) indtil den oplevede anstrengelse i benene når niveau 15 (Anstrengende) på Borg-skalaen."
-    category: ["Kondition", "Cykling"]
+    category: ["Cykling", "Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]
     method: "indirekte"
@@ -34,6 +34,11 @@ tests:
     setting: ["Fitnesscenter", "Klinik", "Laboratorietest", "Individuel"]
     target_group: ["Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
     related_tools: ["tool-borg-15-beregner"]
+    icon: "🚴"
+    badge: "Cykeltest"
+    unit: "ml/kg/min"
+    storage_key: "borg15_cycle"
+    allow_quick_log: false
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
@@ -79,6 +84,8 @@ I **Borg 15-testen** (også omtalt som Borg15 cykeltest) cykler forsøgspersonen
 > 💡 **Leder du efter selve anstrengelsesskalaen eller en PDF til print?**  
 > Hvis du vil lære teorien bag skalaen eller downloade skemaet, skal du gå til vores [guide til Borg-skalaen](/borg-skala/). Denne side er udelukkende til udførelse og beregning af **Borg 15 konditionstesten**.
 {: .notice--info }
+
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 {% include figure image_path=page.header.teaser caption="Cykeltesten Borg 15 kan være med til at estimere dit kondital via en submaksimal test." alt="Borg 15 cykeltest" %}
 

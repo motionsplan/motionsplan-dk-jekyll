@@ -80,16 +80,19 @@ De forskellige steptests varierer i intensitet, testens varighed og hvordan resu
 
 Nedenfor kan du sammenligne de mest anvendte steptests ud fra deres fysiologiske arbejdsform, pulsmålingstype og videnskabelige præcision:
 
+<div class="full" markdown="1">
+
 | Testnavn | Belastning & Bænk | Pulsmåling | Præcision (SEE) & Validitet | Fysiologisk profil & Egnethed | Kilder |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[Den Danske Steptest](/den-danske-steptest/)** | Progressiv (1–6 min)<br>25, 30 el. 35 cm bænk | **Ingen pulsmåling** | Moderat validitet<br>($r = 0{,}56 \text{--} 0{,}66$) | **Præstationstest:** Valideret til store danske kohorteunderøgelser. Måler udholdenhed i benene, men kan overestimere veltrænede pga. måleloft v. 6 min. | Zacho & Blomqvist (2005); Aadahl et al. (2013); Lerche et al. (2017) |
+| **[Den Danske Steptest](/den-danske-steptest/)** | Progressiv (1–6 min)<br>25, 30 el. 35 cm bænk | **Ingen pulsmåling** | Moderat validitet<br>(r = 0,56- 0,66) | **Præstationstest:** Valideret til store danske kohorteunderøgelser. Måler udholdenhed i benene, men kan overestimere veltrænede pga. måleloft v. 6 min. | Zacho & Blomqvist (2005); Aadahl et al. (2013); Lerche et al. (2017) |
 | **[YMCA 3-minutters](/ymca-3-minutters-steptest/)** | Lav-moderat (3 min)<br>Fast 30 cm bænk | Restitutionspuls<br>(1 min sidde-puls) | Moderat præcision<br>(SEE: $\pm 4{,}1 \text{--} 4{,}8$ mL/kg/min) | **Restitutionstest:** Velegnet til begyndere og ældre. Underestimerer ofte veltrænede pga. brat fald i muskelpumpe. | Golding (2000); Bennett et al. (2016) |
 | **[Modificeret YMCA](/ymca-modified-steptest/)** | Lav-moderat (3 min)<br>Højde-tilpasset bænk | Restitutionspuls<br>(1 min sidde-puls) | Moderat præcision<br>(SEE: $\pm 4{,}3$ mL/kg/min) | **Anatomisk tilpasset:** Stephøjden følger din kropshøjde, hvilket giver mere retfærdig belastning for lave og høje personer. | Santo & Golding (2003); Bennett et al. (2016) |
 | **[Queens College](/queens-college-step-test/)** | Moderat-høj (3 min)<br>Høj 41,3 cm bænk | Restitutionspuls<br>(15 sek stå-puls) | Høj præcision<br>(SEE: $\pm 3{,}8$ mL/kg/min) | **Hurtig pulstest:** Høj bænk giver god lineær pulsrespons hos raske voksne, men kan være udfordrende ved lave ben. | McArdle et al. (1972); Bennett et al. (2016) |
 | **[Åstrand-Ryhming](/astrand-ryhming-step-test/)** | Moderat (6 min)<br>33 cm (K) / 40 cm (M) | Arbejdspuls<br>(Steady-state v. 5.–6. min) | Høj præcision<br>(SEE: $\pm 4{,}0$ mL/kg/min) | **Skandinavisk guldstandard:** Måler den stabiliserede arbejdspuls under belastning, hvilket minimerer test-stress og fejl. | Åstrand & Ryhming (1954); Bennett et al. (2016) |
 | **[Chester Step Test](/chester-step-test/)** | Progressiv (2–10 min)<br>15, 20, 25 el. 30 cm bænk | Arbejdspuls<br>(Måles v. hvert 2-min level) | Meget høj præcision<br>(SEE: $\pm 3{,}5$ mL/kg/min) | **Lineær ekstrapolation:** Danner en individuel pulskurve op til din maxpuls. Stop v. 80% HRmax gør den sikker og præcis. | Sykes & Roberts (2004); Bennett et al. (2016) |
 | **[Harvard Step Test](/harvard-step-test/)** | Meget høj (5 min)<br>50,8 cm (M) / 40,6 cm (K) | Restitutionspuls<br>(3 x 30 sek tælling) | Udregner Fitness Index | **Klassisk udholdenhedstest:** Ekstremt krævende test på meget høj bænk. Måler samlet kardiovaskulær tolerance og pulsfald. | Brouha et al. (1943) |
-{: class="full" }
+
+</div>
 
 ---
 

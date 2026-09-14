@@ -21,10 +21,10 @@ meta:
   direct: indirekte test
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-wattmax-cykel"
+  - id: "wattmax-cykel"
     title: "Watt-max Test på Cykel (Andersen-protokol)"
     description: "Maksimal trinvist stigende cykeltest (+35W/2 min) til bestemmelse af Maximal Power Output (MPO) og estimering af VO2max og kondital."
-    category: ["Kondition", "Cykling"]        # 💡 Søgbar under BÅDE Kondition og Cykling i test-databasen
+    category: ["Cykling", "Kondition"]        # 💡 Søgbar under BÅDE Kondition og Cykling i test-databasen
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]
     method: "indirekte"                  # 🧮 Indirekte test: Estimering af VO2max ud fra MPO og kropsvægt
@@ -34,6 +34,11 @@ tests:
     setting: ["Fitnesscenter", "Klinik", "Laboratorietest", "Individuel"]
     target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-wattmax-beregner"]
+    icon: "🚴"
+    badge: "Cykeltest"
+    unit: "ml/kg/min"
+    storage_key: "wattmax_bike"
+    allow_quick_log: false
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
@@ -206,7 +211,7 @@ Når du har gennemført Watt-max testen og kender din MPO, har du ikke blot et t
 Du kan blandt andet bruge din MPO til at køre målrettet [$\text{V}_{\text{max}}$-træning og VO2-max intervaller på cyklen](/vmax/#vmax-til-cykel).
 
 > 🚴 **Leder du efter andre cykeltests?**
-> Se vores samlede oversigt over [konditionstests på cykel](/tests/cykling/), hvor du kan sammenligne Åstrand-, Wattmax- og Ekblom-Bak-testene. Du kan også tjekke vores [samlede katalog over konditests](/kondition/tests/).
+> Se vores samlede oversigt over [konditionstests på cykel](/tests/cykling/), hvor du kan sammenligne de forskellige cykeltests. Du kan også tjekke vores [samlede katalog over konditests](/kondition/tests/).
 
 ---
 

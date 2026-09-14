@@ -1,10 +1,11 @@
 ---
 title: Find dit kondital ud fra din puls 💗
+seo_title: "Kondital ud fra puls: Beregn VO2max fra hvilepuls og maxpuls"
+excerpt: Beregn dit kondital lynhurtigt uden udmattende løbetests. Med Uths formel skal du kun bruge din hvilepuls og maxpuls for at estimere din iltoptagelse.
+seo_description: Beregn dit estimerede kondital (VO2max) udelukkende ud fra din hvilepuls og maxpuls. Test Uths anerkendte formel direkte i beregneren her.
 permalink: /kondital-fra-puls/
 redirect_from:
 - /kondition-fra-puls/
-excerpt: Danske forskere har udviklet en konditionstest, hvor du kun skal bruge din hvilepuls og maxpuls til at finde dit
-  kondital.
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1517867065801-e20f409696b0.jpg
@@ -26,24 +27,29 @@ meta:
   method: "formel"
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-uth-heart-rate-ratio"
+  - id: "uth-heart-rate-ratio"
     title: "Kondital ud fra Puls (Uth's Formel)"
     description: "Indirekte test til estimering af VO2max og kondital ud fra forholdet mellem maxpuls og hvilepuls (Heart Rate Ratio Method)."
     category: ["Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Sofatest"]
-    method: "formel"                    # 🧮 Ren matematisk formel: (HRmax / HRrest) * 15.3
+    method: "formel"                    # 🧮 Ren matematisk formel: (HRmax / HRrest) * 15.3 / 14.5
     modality: ["Puls"]
     measures: ["Kondital", "VO2max", "Iltoptagelse"]
     equipment: ["Pulsmåler", "Pulsbælte"]
     setting: ["Hjemmetest", "Sofatest", "Individuel"]
     target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-uth-puls-beregner"]
+    icon: "🫀"
+    badge: "Kondition"
+    unit: "ml/kg/min"
+    storage_key: "vo2max_maxhr_uth"
+    allow_quick_log: true
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
   - id: "tool-uth-puls-beregner"
-    title: "Kondital Beregner ud fra Puls (Uth's Formel)"
+    title: "Kondital Beregner ud fra Puls (Uths Formel)"
     description: "Beregn dit estimerede kondital (VO2max) ud fra forholdet mellem din hvilepuls og din maxpuls baseret på Uth et al. formlen."
     category: ["Kondition"]
     type: ["Beregner"]
@@ -56,108 +62,102 @@ tags:
 - indirekte test
 - tracking
 - beregner
-last_modified_at: '2026-07-06T23:14:14Z'
+last_modified_at: '2026-09-13T14:50:00Z'
 toc: 'true'
 breadcrumbs: 'true'
 ---
 
-Du kan estimere dit kondital kun ved hjælp af din puls med denne test fra danske forskere. Det bliver næsten ikke lettere.
+Du kan estimere dit kondital kun ved hjælp af din puls med denne anerkendte metode fra danske forskere. Det bliver næsten ikke lettere.
 
-Det kan være besværligt at finde sit kondital, men [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en test, hvor det ikke er så besværligt.
+Det kan normalt være både hårdt og besværligt at lave en fuld [konditionstest](/konditionstests/), men forskerne [Uth et al. (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en formel (*The Heart Rate Ratio Method*), hvor du slipper for udmattende løb eller cykling. 
 
-Du skal faktisk kun bruge lidt viden om din [puls](/puls/).
+Alt du skal bruge, er to tal: Din **hvilepuls** og din **maxpuls**.
 
-[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+[<i class='fas fa-calculator'></i> Hop direkte til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
-Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
+## Baggrund for formlen
 
-Testen bygger på en forudsætning om, at desto større afstand der er mellem hvilepulsen og den maksimale puls, desto større sandsynlighed er der for, at testpersonen har en høj maksimal iltoptagelse og derved et højt kondital. Testen forsøger altså at estimere den maksimale iltoptagelse blot ved hjælp af hvilepulsen og max-pulsen.
+Formlens præmis er enkel: Når du kommer i bedre form, falder din hvilepuls, fordi hjertets slagvolumen øges (hjertet pumper mere blod pr. slag og behøver derfor færre slag i hvile). 
 
-Testen er baseret på en test af veltrænede mænd i alderen 20-50 år. Det betyder, at man ikke kan forvente, at testen er præcis på andre målgrupper.
+Testen bygger derfor på den fysiologiske forudsætning, at **jo større afstand der er mellem din hvilepuls og din maksimale puls, desto større sandsynlighed er der for, at du har en høj maksimal iltoptagelse (VO₂max)**. 
 
-{% comment %}
-Later studies have revised the constant factor for different populations. According to Voutilainen et al. 2020, the constant factor should be 14 in around 40-year-old normal weight never-smoking men with no cardiovascular diseases, bronchial asthma, or cancer.[11] Every 10 years of age reduces the coefficient by one, as well as does the change in body weight from normal weight to obese or the change from never-smoker to current smoker. Consequently, V̇O2 max of 60-year-old obese current smoker men should be estimated by multiplying the HRmax to HRrest ratio by 10.
+## Det skal du bruge for at beregne konditallet fra pulsen
 
-TODO - måske skal vi slette noget af det med hvilepuls og maxpuls og bare henvise til de andre artikler.
+For at formlen bliver så præcis som mulig, kræver det naturligvis, at du kender dine pulsværdier ret præcist.
 
- Voutilainen, Ari; Mounir Ould Setti; Tomi-Pekka Tuomainen (July 2020). "Estimating Maximal Oxygen Uptake from the Ratio of Heart Rate at Maximal Exercise to Heart Rate at Rest in Middle-Aged Men" (PDF). World J Mens Health. 38 (4): 666–672. doi:10.5534/wjmh.200055. ISSN 2287-4208. PMC 8443998. PMID 32777866.
+### 1. Måling af hvilepulsen
+Det bedste tidspunkt at måle hvilepulsen er lige før, du står op om morgenen. Hvis du ikke har mulighed for det, kan du lægge dig ned og hvile fuldstændig afslappet i 5-10 minutter og derefter tage pulsen. Hold et ubesværet åndedræt.
 
- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8443998/
+Som tommelfingerregel ser normale hvilepuls-værdier for voksne ca. sådan her ud:
 
- https://portal.findresearcher.sdu.dk/en/publications/estimation-of-maximal-oxygen-uptake-using-the-heart-rate-ratio-me
-
-
- Se alternativ med netHR.
-{% endcomment %}
-
-## Måling af hvilepulsen
-
-Det bedste tidspunkt at måle hvilepulsen lige før, at du står op om morgenen. Hvis ikke du har mulighed for det, så kan du lægge dig ned og hvile i fem minutter og derefter tage hvilepulsen. Hold et ubesværet åndedræt.
-
-Du kan også estimere din hvilepuls ud fra følgende skema:
-
-| Form              | Hvilepuls |
+| Niveau | Hvilepuls (slag/min) |
 |-------------------|----------:|
-| Ekstremt god form | 40        |
-| Meget god form    | 50        |
-| God form          | 60        |
-| Dårlig form       | 70        |
-| Meget dårlig form | 80        |
+| Meget lav (ofte konditionsstærk atlet) | < 50 |
+| Lav / God form | 50 - 60 |
+| Normal hvilepuls | 60 - 80 |
+| Forhøjet hvilepuls | > 80 |
 
-### Hvad er en normal hvilepuls?
+*Læs meget mere i vores dybdegående guide til [hvordan du måler og forstår din hvilepuls](/hvilepuls/).*
 
-|                                                          | slag pr. minut |
-|----------------------------------------------------------|---------------:|
-| Meget høj hvilepuls                                      | > 100          |
-| Lettere forhøjet                                         | 80-100         |
-| Normal hvilepuls                                         | 70-80          |
-| Lidt lavere end normalt                                  | 60-70          |
-| Lav hvilepuls                                            | 50-60          |
-| Meget lav hvilepuls (typisk meget konditionsstærk atlet) | < 50           |
-
-Jeg har skrevet et andet indlæg, som går i dybden med, [hvad hvilepulsen er og hvordan du måler den](/hvilepuls/).
-
-## Måling af maxpulsen
-
-Du kan måle din maksimale puls ved efter grundig opvarmning at lave en række bakkesprints af op til 45 sekunder.
-
-Vil du teste din maxpuls, gøres det bedst ved at løbe i et jævnt og forholdsvis højt tempo i 2 min, efterfulgt af 20 sek. sprint. Herefter lunter du lige så stille i 30-45 sek, hvorefter du gentager hele proceduren to gange mere. Med et pulsur med bryststrop vil du efter sidste hårde sprint kunne aflæse din maxpuls.
+### 2. Måling af maxpulsen
+For at finde din maksimale puls, skal du presse dit hjerte til det yderste. Det gøres bedst ved at varme grundigt op, løbe i et jævnt og forholdsvis højt tempo i 2 minutter, efterfulgt af 20 sekunders sprint. Herefter lunter du i 30-45 sekunder, og gentager proceduren to gange mere. Efter den sidste hårde sprint vil du kunne aflæse din maxpuls på dit pulsur.
 {: .notice .notice--success }
 
-Du kan også estimere den ud fra alder, da den maksimale puls typisk falder med alderen. I denne beregner har vi brugt følgende formel:
-
-HR<sub>max</sub> = 208 – 0,7 x alder
-
-{% include calculator/calculate-max-hr.html %}
-
-Denne formel har vist sig at være mere præcis end den tidligere tommelfingerregel for estimering af maxpuls. Jeg skriver mere om [hvordan du kan måle, beregne og teste maxpulsen](/test-max-puls/) i et andet indlæg.
+Kender du ikke din maxpuls, kan beregneren herunder automatisk estimere den for dig baseret på din alder (Tanaka-formlen), men vær opmærksom på, at dette gør kondital-estimatet mindre præcist. Du kan læse mere om [hvordan du tester din maxpuls i praksis her](/test-max-puls/).
 
 ## Udregn dit kondital på baggrund af hvilepuls og maxpuls
 {: id="calculator" }
 
+Indtast dine værdier herunder. Har du ikke testet din maxpuls, kan du trykke på den lille tryllestav (🪄) for at lade beregneren estimere den ud fra din alder.
+
 {% include calc/vo2max-maxpuls-uth.html %}
 
-## Formlen bag beregneren af kondital
+*(Når du har beregnet dit resultat, kan du læse meget mere om, hvad et godt resultat er, i vores [store artikel om kondital og normer](/kondital/)).*
 
-[Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har lavet en formel, hvor du kan estimere dit kondital på baggrund af forholdet mellem din maxpuls og din hvilepuls. 
+## Formlen bag beregneren (og forskellen på mænd og kvinder)
 
-Formlen ser sådan her ud:
+Den oprindelige formel fra Uth et al. (2004) blev valideret på en gruppe veltrænede mænd. Året efter opdaterede Niels Uth dog metoden i et nyt studie for også at inkludere en mere præcis faktor for kvinder, da kvinder gennemsnitligt har en lidt lavere kropssammensætning ift. iltoptagelse.
 
+Formlen ser således ud:
+
+**For mænd:**
 $$
-\text{kondital} = \frac{\text{maxpuls}}{\text{hvilepuls}} \times 15{,}3
-$$
-
-For at finde iltoptagelsen dividerer vi med 1000 ml/l og ganger med vægten i kilo.
-
-$$
-\text{VO}_2\text{max} = \frac{\text{kondital} \times \text{kropsvægt}}{1000}
+\text{Kondital} = \frac{\text{maxpuls}}{\text{hvilepuls}} \times 15{,}3
 $$
 
-Du kan sammenligne dit kondital i [tabellen for kondital for mænd og kvinder](/kondital/).
+**For kvinder (Uth 2005):**
+$$
+\text{Kondital} = \frac{\text{maxpuls}}{\text{hvilepuls}} \times 14{,}5
+$$
+
+For at finde din absolutte iltoptagelse (VO₂max i Liter/minut) ganges konditallet med din kropsvægt i kilo, hvorefter der divideres med 1000.
+
+$$
+\text{VO}_2\text{max (L/min)} = \frac{\text{kondital} \times \text{kropsvægt}}{1000}
+$$
+
+## Hvor præcis er formlen? (Validitet)
+
+Uths formel er en elegant og lynhurtig rettesnor, men det er vigtigt at huske, at hjertefrekvens-ratio-metoden (HRRM) giver et *estimat*.
+
+**Fra laboratoriepræcision til den brede befolkning**
+I det oprindelige studie fra 2004 fandt Niels Uth et al. en høj korrelation ($r = 0{,}97$) og en relativt lav usikkerhed ($\text{SEE} = 4{,}9\text{ ml/kg/min}$). Testpersonerne i dette studie var dog en meget homogen gruppe af veltrænede mænd i alderen 20–50 år. I 2005 validerede forskergruppen formlen for kvinder.
+
+Nyere valideringsstudier (bl.a. *Voutilainen et al. 2020* samt *Castagna et al. 2022*) har undersøgt formlens præcision i mere diverse befolkningsgrupper, hvilket har givet følgende indsigter:
+
+* **Lavere korrelation i brede grupper:** I den brede befolkning, blandt midaldrende og hos almindelige motionister falder korrelationen typisk til $r = 0{,}40\text{--}0{,}70$, mens usikkerheden (standardfejlen) stiger til omkring $5\text{--}10\text{ ml/kg/min}$.
+* **Alder, BMI og livsstil ændrer faktoren:** Proportionalitetsfaktoren (15,3 for mænd / 14,5 for kvinder) antager et fast forhold mellem hvilepuls og maksimal iltoptagelse. *Voutilainen et al. (2020)* viste dog, at faktoren falder med alderen, et højt BMI og rygning. For f.eks. en 60-årig overvægtig ryger kan den mest præcise faktor i virkeligheden være helt nede omkring 10.
+* **Systematisk bias i yderpunkterne:** Formlen har en klar tendens til at **overestimere** konditallet hos utrænede eller svært overvægtige, mens den omvendt kan **underestimere** konditallet hos absolutte elite-udholdenhedsatleter med ekstremt stort slagvolumen.
+* **Usikkerhed ved estimeret maxpuls:** Hvis du ikke har testet din reelle maxpuls, men lader beregneren estimere den ud fra din alder, tilføjes der et ekstra usikkerhedslag på $\pm 7\text{--}10\text{ slag/min}$.
+
+**Konklusion på præcisionen**
+Selvom det absolutte tal kan afvige med $5\text{--}10\%$ fra et laboratorieresultat, er metoden fremragende til **relativ sporing af egen form**. Da din maxpuls er stort set konstant i samme aldersperiode, vil et fald i hvilepuls (som følge af god træning) direkte slå igennem i beregneren og vise din fremgang over tid.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Uth, Niels, Henrik Sørensen, Kristian Overgaard, og Preben K. Pedersen. 2004. “Estimation of VO2max from the Ratio between HRmax and HRrest--the Heart Rate Ratio Method”. European Journal of Applied Physiology 91 (1): 111–15. <https://doi.org/10.1007/s00421-003-0988-y>.
-- Tanaka, H., K. D. Monahan, og D. R. Seals. 2001. “Age-Predicted Maximal Heart Rate Revisited”. Journal of the American College of Cardiology 37 (1): 153–56. <https://doi.org/10.1016/s0735-1097(00)01054-8>.
+- Uth, Niels, Henrik Sørensen, Kristian Overgaard, og Preben K. Pedersen. 2004. “Estimation of VO2max from the Ratio between HRmax and HRrest--the Heart Rate Ratio Method”. *European Journal of Applied Physiology* 91 (1): 111–15. <https://doi.org/10.1007/s00421-003-0988-y>.
+- Uth, Niels. 2005. “VO2max estimation from the ratio between heart rate at maximal exercise and heart rate at rest”. *International Journal of Sports Medicine*.
+- Tanaka, H., K. D. Monahan, og D. R. Seals. 2001. “Age-Predicted Maximal Heart Rate Revisited”. *Journal of the American College of Cardiology* 37 (1): 153–56. <https://doi.org/10.1016/s0735-1097(00)01054-8>.
+- Voutilainen, Ari, Mounir Ould Setti, og Tomi-Pekka Tuomainen. 2020. “Estimating Maximal Oxygen Uptake from the Ratio of Heart Rate at Maximal Exercise to Heart Rate at Rest in Middle-Aged Men”. *The World Journal of Men's Health* 38 (4): 666–72. <https://doi.org/10.5534/wjmh.200055>.
 </details>

@@ -14,6 +14,10 @@ export function initAstrand(container) {
   const maxHrHelper = container.querySelector('.js-as-maxhr-helper');
   const chartDetailsEl = container.querySelector('.js-as-chart-details');
   const canvas = container.querySelector('.js-as-chart');
+
+  // DOM-elementer til dynamiske pulsanbefalinger via dine ID'er
+  const hr1GuideEl = container.querySelector('#hr-suggestion-trin-1') || container.querySelector('.js-as-hr1-guide');
+  const hr2GuideEl = container.querySelector('#hr-suggestion-trin-2') || container.querySelector('.js-as-hr2-guide');
   
   // DOM elementer til resultater
   const resFitness = container.querySelector('.js-as-fitness');
@@ -53,6 +57,34 @@ export function initAstrand(container) {
     const m = Math.floor(secs / 60).toString().padStart(2, '0');
     const s = Math.floor(secs % 60).toString().padStart(2, '0');
     return `${m}:${s}`;
+  }
+
+  // --- DYNAMISKE PULSANBEFALINGER ---
+  function updatePulseRecommendations(maxHr) {
+    if (maxHr && maxHr > 100) {
+      // Trin 1: 65 - 73 % af maxpuls
+      const p1Min = Math.round(maxHr * 0.65);
+      const p1Max = Math.round(maxHr * 0.73);
+
+      // Trin 2: 80 - 85 % af maxpuls
+      const p2Min = Math.round(maxHr * 0.80);
+      const p2Max = Math.round(maxHr * 0.85);
+
+      if (hr1GuideEl) {
+        hr1GuideEl.innerHTML = `💡 Puls i <strong>steady state (~${p1Min}-${p1Max})</strong> i minut 5-6 baseret på maxpuls.`;
+      }
+      if (hr2GuideEl) {
+        hr2GuideEl.innerHTML = `💡 Puls i <strong>steady state (~${p2Min}-${p2Max})</strong> i minut 9-10 baseret på maxpuls.`;
+      }
+    } else {
+      // Standard anbefalinger uden kendt maxpuls
+      if (hr1GuideEl) {
+        hr1GuideEl.innerHTML = '💡 Puls i <strong>steady state (~120-140)</strong> i minut 5-6.';
+      }
+      if (hr2GuideEl) {
+        hr2GuideEl.innerHTML = '💡 Puls i <strong>steady state (~150-170)</strong> i minut 9-10.';
+      }
+    }
   }
 
   function startTimer() {
@@ -282,6 +314,9 @@ export function initAstrand(container) {
   function calculate() {
     saveDraftAndProfile();
 
+    const maxHrVal = parseFloat(container.querySelector('[name="as_maxhr"]')?.value || 0);
+    updatePulseRecommendations(maxHrVal);
+
     const params = {
       work1: parseFloat(container.querySelector('[name="as_work1"]')?.value || 0),
       hr1: parseFloat(container.querySelector('[name="as_hr1"]')?.value || 0),
@@ -289,7 +324,7 @@ export function initAstrand(container) {
       hr2: parseFloat(container.querySelector('[name="as_hr2"]')?.value || 0),
       age: parseFloat(container.querySelector('[name="as_age"]')?.value || 0),
       weight: parseFloat(container.querySelector('[name="as_weight"]')?.value || 0),
-      maxHr: parseFloat(container.querySelector('[name="as_maxhr"]')?.value || 0)
+      maxHr: maxHrVal
     };
     const genderEl = container.querySelector('input[name="as_gender"]:checked');
     const gender = genderEl ? genderEl.value : 'male';

@@ -21,10 +21,10 @@ meta:
   direct: indirekte test
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-den-danske-steptest"
+  - id: "den-danske-steptest"
     title: "Den Danske Steptest"
     description: "Præstationsbegrænset submaksimal steptest på en 20–35 cm boks med stigende tempo til estimering af VO2max og kondital ud fra trinhøjde, vægt og gennemført tid."
-    category: ["Kondition", "Steptest"]      # 💡 Søgbar under BÅDE Kondition og Steptest i databasen
+    category: ["Steptest", "Kondition"]      # 💡 Søgbar under BÅDE Kondition og Steptest i databasen
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]
     method: "indirekte"                  # 🧮 Indirekte test: Estimering af VO2max ud fra udført mekanisk arbejde og tid uden puls
@@ -33,6 +33,11 @@ tests:
     equipment: ["Stepbænk", "Boks", "Timer", "Metronom"]
     setting: ["Hjemmetest", "Fitnesscenter", "Skolebrug", "Individuel"]
     target_group: ["Unge", "Voksne", "Ældre", "Mænd", "Kvinder"]
+    icon: "🪜"
+    badge: "Steptest"
+    unit: "ml/kg/min"
+    storage_key: "dansk_steptest"
+    allow_quick_log: true
 tags:
   - test
   - konditionstest

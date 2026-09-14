@@ -22,10 +22,10 @@ meta:
   direct: indirekte test
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-ymca-modified-steptest"
+  - id: "ymca-modified-steptest"
     title: "YMCA Modified 3-minutters Steptest (Santo & Golding)"
     description: "Individualiseret, submaksimal steptest (3 minutter ved 96 BPM, hvor bokshøjden beregnes ud fra kropshøjde) til indirekte estimering af kondital (VO2max) ud fra 1-minuts restitutionspuls."
-    category: ["Tests", "Kondition"]
+    category: ["Steptest", "Kondition"]
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]                  # 🪜 FYSISK TEST: Kræver fysisk steppearbejde på tilpasset bænk
     method: "indirekte"                     # 📊 Indirekte estimering af VO2max ud fra restitutionspuls
@@ -36,6 +36,11 @@ tests:
     target_group: ["Voksne", "Motionister", "Mænd", "Kvinder"]
     related_tools:
       - "tool-ymca-modified-steptest-beregner"
+    icon: "🪜"
+    badge: "Steptest"
+    unit: "ml/kg/min"
+    storage_key: "ymca_modified_step"
+    allow_quick_log: false
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

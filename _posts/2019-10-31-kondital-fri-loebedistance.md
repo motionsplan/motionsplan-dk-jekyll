@@ -27,7 +27,7 @@ meta:
   intensity: "maksimal"
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-kondital-loeb-distance-tid"
+  - id: "kondital-loeb-distance-tid"
     title: "Kondital ud fra Løbedistance og Tid"
     description: "Maksimal felt-test på valgfri løbedistance (1500 m til 42 km) til estimering af VO2max og kondital baseret på Tokmakidis et al. formlerne."
     category: ["Kondition", "Løb"]        # 💡 Søgbar under BÅDE Kondition og Løb i test-databasen
@@ -35,11 +35,16 @@ tests:
     execution: ["Fysisk"]
     method: "indirekte"                  # 🧮 Indirekte test: Estimering af VO2max ud fra løbehastighed og distance
     modality: ["Løb"]
-    measures: ["Kondital", "VO2max", "Iltoptagelse", "VDOT"]
+    measures: ["Kondital", "VO2max", "Iltoptagelse"]
     equipment: ["Stopur", "GPS-ur", "Løbebane"]
     setting: ["Udendørs", "Individuel"]
     target_group: ["Unge", "Voksne", "Mænd", "Kvinder"]
     related_tools: ["tool-kondital-loeb-distance-tid-beregner"]
+    icon: "🏃‍♂️"
+    badge: "Løb"
+    unit: "ml/kg/min"
+    storage_key: "running_distance_vo2max"
+    allow_quick_log: true
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
