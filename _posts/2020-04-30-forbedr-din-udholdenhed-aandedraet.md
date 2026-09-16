@@ -1,4 +1,5 @@
 ---
+title: 'Åndedrætstræning: Øvelser til vejrtrækning og afspænding'
 seo_title: "Åndedrætstræning & 3 effektive vejrtrækningsøvelser"
 description: "Lær effektiv åndedrætstræning med enkle vejrtrækningsøvelser. Sænk din åndedrætsfrekvens, styrk lungerne og forbedr din udholdenhed og ro."
 excerpt: "Lær effektiv åndedrætstræning med enkle vejrtrækningsøvelser. Styrk din vejrtrækning, sænk din åndedrætsfrekvens og få mere energi i hverdagen."
