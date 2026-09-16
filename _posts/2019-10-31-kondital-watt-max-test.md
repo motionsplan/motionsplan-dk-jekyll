@@ -22,8 +22,8 @@ meta:
 # TESTS / PROTOKOLLER
 tests:
   - id: "wattmax-cykel"
-    title: "Watt-max Test på Cykel (Andersen-protokol)"
-    description: "Maksimal trinvist stigende cykeltest (+35W/2 min) til bestemmelse af Maximal Power Output (MPO) og estimering af VO2max og kondital."
+    title: "Watt-max Test på Cykel"
+    description: "Maksimal trinvist stigende cykeltest (+35W/2 min) til bestemmelse af Maximal Power Output (MPO) og estimering af VO2max og kondital. Andersens protokol."
     category: ["Cykling", "Kondition"]        # 💡 Søgbar under BÅDE Kondition og Cykling i test-databasen
     type: ["Protokol", "Konditionstest"]
     execution: ["Fysisk"]

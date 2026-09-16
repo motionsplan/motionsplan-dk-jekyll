@@ -2,6 +2,7 @@
 title: 'Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓'
 seo_title: 'Hvilepuls: Hvad er normalt? (Se tabel for mænd & kvinder)'
 description: 'Hvad er en normal hvilepuls? Se gennemsnit og percentiltabeller for kvinder og mænd opdelt på alder. Lær om slagvolumen, studier og korrekt måling.'
+excerpt: 'Hvad er en normal hvilepuls? Se gennemsnit og percentiltabeller for kvinder og mænd opdelt på alder. Lær om slagvolumen, studier og korrekt måling.'
 permalink: /hvilepuls/
 language: da
 header:
@@ -39,14 +40,14 @@ faq:
   answer: Nej, hos utrænede kan en meget lav hvilepuls skyldes sygdomme i hjertets ledningssystem, bivirkninger fra medicin (fx betablokkere) eller lavt stofskifte.
 ---
 
-> ### ⏱️ Hurtigt overblik: Hvad er en normal hvilepuls?
+Din hvilepuls er en af de simpleste og mest informative målinger, du kan foretage på din krop. Jeg bruger den selv til at følge effekten af min træning – og til at opdage, når kroppen har brug for mere restitution.
+
+> **⏱️ Hurtigt overblik: Hvad er en normal hvilepuls?**
 > * **Gennemsnit for mænd:** **60 – 75 slag/min** (atleter: 40–55 slag/min).
 > * **Gennemsnit for kvinder:** **65 – 78 slag/min** (kvinder har i snit 3–5 slag højere hvilepuls pga. et lidt mindre hjerte).
 > * **Medicinsk normalområde:** **60 – 100 slag/min** i hvile.
 > 
-> 📊 **Hop direkte til:** [Tabel for mænd og kvinder opdelt på alder ↓](#tabel-over-hvilepuls-for-maend-og-kvinder-alder-og-percentiler)
-
-Din hvilepuls er en af de simpleste og mest informative målinger, du kan foretage på din krop. Jeg bruger den selv til at følge effekten af min træning – og til at opdage, når kroppen har brug for mere restitution.
+> 📊 **Hop direkte til:** [Tabel for mænd og kvinder opdelt på alder ↓](#tabel)
 
 I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** svar på:
 
@@ -55,7 +56,8 @@ I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** 
 - hvordan du måler den korrekt
 - hvordan du forbedrer din hvilepuls med træning
 
-[<i class='fas fa-heartbeat'></i> Tjek din hvilepuls i beregneren →](#calculator){: .btn .btn--success .btn--jump }
+[<i class='fas fa-heartbeat'></i> Test din hvilepuls →](#calculator){: .btn .btn--success .btn--jump }
+[<i class='fas fa-heartbeat'></i> Vurdering af puls →](#vurdering){: .btn .btn--success .btn--jump }
 
 {% include figure image_path="https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="hvilepuls for mænd og kvinder" %}
 
@@ -121,11 +123,19 @@ Ifølge et stort studie af Avram et al. (2019) i *NPJ Digital Medicine*, baseret
 ## Test din hvilepuls
 {: id="calculator" }
 
+Prøv denne enkele test for at finde din hvilepuls i forskellige situationer.
+
+{% include components/resting-hr-widget.html %}
+
+## Vurdering din hvilepuls
+{: id="vurdering" }
+
 Indtast din alder, dit køn og din hvilepuls herunder for at få en øjeblikkelig vurdering af dit niveau:
 
 {% include calc/resting-hr.html %}
 
 ## Tabel over hvilepuls for mænd og kvinder (alder og percentiler)
+{: id="tabel" }
 
 Mange standard-skemaer på nettet deler hvilepuls op i vilkårlige kasser. I den fysiologiske forskning benytter man i stedet **percentiler** opdelt på alder og køn, da det giver et mere retvisende billede af, hvor du ligger i forhold til befolkningen:
 
@@ -163,6 +173,27 @@ Som udgangspunkt er en lav hvilepuls altså at foretrække.
 
 Miguel Indurain, tidligere cykelrytter, havde efter sigende en hvilepuls i hvile på 28 slag/min. Udfordringen ved en så lav puls og et så stort hjerte er angiveligt, at man kan blive nødt til at fortsætte sin træning for at hjertet fastholder sin styrke til at pumpe blodet rundt og tømme sig selv komplet. Måske er det bare en god historie – men den har i hvert fald bidt sig fast hos mig.
 {: .notice .notice--info }
+
+## Liggende, siddende og stående puls: Hvad er forskellen?
+
+Når du skifter kropsstilling, skal hjertet øjeblikkeligt tilpasse sin arbejdsindsats på grund af tyngdekraften. Derfor vil din puls variere markant, alt efter om du ligger ned, sidder på en stol eller står op:
+
+* **Liggende hvilepuls (det rene baseline-niveau):** Når du ligger fladt på ryggen, modarbejder tyngdekraften ikke blodets tilbageløb til hjertet. Det sympatiske nervesystem har minimal aktivitet, og hjertet arbejder under de mest lempelige vilkår. Det er din laveste reelle hvilepuls.
+* **Siddende puls (moderat tilpasning):** Når du sætter dig op på en stol, samles en lille smule af blodet i underkroppen. Hjertet og blodkarrene kompenserer ved at øge pulsen med typisk **3–8 slag/min** i forhold til liggende stilling for at fastholde tilstrækkeligt blodtryk.
+* **Stående puls og den ortostatiske reaktion:** Når du rejses op til stående stilling, udfordres kredsløbet af tyngdekraften, hvilket udløser en todelt fysiologisk reaktion:
+  * **Akut ortostatisk peak (efter 30 sekunder):** I det øjeblik du rejser dig, løber en del af blodet ned i benene, hvormed blodtilførslen tilbage til hjertet falder kortvarigt. Baroreceptorerne i halsåren opdager faldet i blodtryk og sender et lynsignal om at hæve pulsen markant (typisk **10–20 slag/min** ekstra) for at sikre blodforsyningen til hjernen.
+  * **Stabiliseret stående hvilepuls (efter 2 minutter):** Efter 1–2 minutter i stående stilling har blodkarrene trukket sig sammen (*vasokonstriktion*), og nervesystemet har fundet en balance. Pulsen falder lidt igen fra sit indledende peak, men fastholdes på et stabilt niveau over den liggende hvilepuls.
+
+### Hvad fortæller forskellen dig om din restitution?
+
+Forskellen mellem din liggende hvilepuls og din stående puls kaldes den **ortostatiske reaktion** ($\Delta\text{Puls}$). 
+
+En sund og velrestitueret krop udviser en moderat stigning fra liggende til stående på ca. **10–20 slag/min**. Hvis din stående puls pludselig stiger med mere end **25–30 slag/min** ud over dit normale niveau, er det et stærkt fysiologisk tegn på, at dit autonome nervesystem er presset. Det ses typisk ved:
+
+* Akut ubalance mellem træning og restitution (overtræthed/fatigue)
+* Dehydrering eller væskemangel (mindre blodvolumen kræver højere puls)
+* Mentalt stress eller dårlig søvn
+* Begyndende infektion i kroppen
 
 ## Hvornår har jeg høj hvilepuls?
 

@@ -1,0 +1,950 @@
+<div class="rhr-widget">
+  
+  <!-- Info Modal -->
+  <div class="rhr-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Om Hvilepuls & Ortostatisk Test</h4>
+        <span class="modal-subtitle-text">Fysiologisk restitutions- og autonom hjerteanalyse</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>TESTPROTOKOL (4 FASERE):</strong><br>
+        1. <strong>Liggende (5 min):</strong> Læg dig fladt på ryggen i et roligt rum. Mål pulsen efter 5 minutter (primær hvilepuls).<br>
+        2. <strong>Siddende på stol (3 min):</strong> Sæt dig op på en stol med fødderne fladt på gulvet og slap af.<br>
+        3. <strong>Stående (30 sek - Ortostatisk Peak):</strong> Rejs dig op og mål pulsen nøjagtigt ved 30 sekunder for at fange den akutte sympatiske reaktion.<br>
+        4. <strong>Stående (2 min - Stående Hvilepuls):</strong> Bliv stående i yderligere 90 sekunder (2 min i alt stående) for at måle den stabiliserede stående hvilepuls.
+      </p>
+
+      <h5 style="font-size: 0.88rem; font-weight: 800; color: #212529; margin: 14px 0 6px 0;">Vurdering af Ortostatisk Respons</h5>
+      <ul style="font-size: 0.82rem; color: #495057; padding-left: 18px; margin: 0;">
+        <li><strong>Normal stigning (10 – 25 bpm):</strong> Sund kardiovaskulær tilpasning.</li>
+        <li><strong>Markant stigning (&gt; 25 – 30 bpm):</strong> Kan indikere akut fatigue, overtræning, væskemangel eller stress.</li>
+        <li><strong>Høj stående hvilepuls (2 min):</strong> Viser vedvarende kardiovaskulær belastning i oprejst stilling.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- INTERAKTIV ZONE (FULDSKÆRM) -->
+  <div class="rhr-interactive-zone" id="rhr-fullscreen-zone">
+    
+    <!-- Topbar -->
+    <div class="rhr-topbar">
+      <div class="rhr-header-card">
+        <div class="card-title-row">
+          <span class="card-title">
+            Hvilepuls & Ortostatisk Test
+            <button class="info-icon-btn" type="button" title="Læs om protokollen">ℹ️</button>
+          </span>
+          <button type="button" class="btn-widget-fullscreen" id="btn-rhr-fullscreen" title="Åbn Fuldskærm (Ekskl. Log)">⛶</button>
+        </div>
+        <div class="card-desc">Mål hjertefrekvensen i 4 faser for at opgøre liggende hvilepuls, akut ortostatisk peak og stående hvilepuls.</div>
+      </div>
+
+      <div class="topbar-subrow">
+        <div class="setting-item">
+          <div class="btn-toggle-group" id="rhr-sound-toggle">
+            <button type="button" class="toggle-btn active" data-val="on" title="Lyd slået til">🔊 Lyd</button>
+            <button type="button" class="toggle-btn" data-val="off" title="Lydløs">🔇</button>
+          </div>
+        </div>
+        <div class="wakelock-status">📱 Skærm tændt</div>
+      </div>
+    </div>
+
+    <!-- TIDSGUIDE / PROTOKOL TIMER -->
+    <div class="rhr-timer-card">
+      <div class="timer-header-row">
+        <span class="timer-phase-badge" id="rhr-phase-badge">⏱️ PROTOKOL-TIMER</span>
+        <span class="timer-clock-display" id="rhr-clock-display">05:00</span>
+      </div>
+      <div class="timer-instructions" id="rhr-timer-instruction">Tryk på 'Start Tidsguide' for at blive guidet igennem de 4 faser med lyd-bip.</div>
+      <div class="timer-actions-row">
+        <button type="button" class="btn-timer-start" id="btn-rhr-timer-toggle">▶ Start Tidsguide</button>
+        <button type="button" class="btn-timer-reset" id="btn-rhr-timer-reset" title="Nulstil timer">🗑️</button>
+      </div>
+    </div>
+
+    <!-- 4 KORT SIDE OM SIDE -->
+    <div class="rhr-sides-grid">
+      
+      <!-- 1. LIGGENDE (HVILEPULS) -->
+      <div class="side-card card-lying">
+        <div class="side-card-header header-lying">
+          <span class="card-main-title">Liggende</span>
+          <span class="card-sub-title">(Hvilepuls - 5 min)</span>
+        </div>
+
+        <div class="side-svg-container">
+          <svg width="100%" viewBox="0 0 180 120" preserveAspectRatio="xMidYMid meet">
+            <rect x="5" y="5" width="170" height="110" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+            <line x1="20" y1="85" x2="160" y2="85" stroke="#228be6" stroke-width="3" stroke-linecap="round"/>
+            <line x1="35" y1="85" x2="35" y2="102" stroke="#228be6" stroke-width="2.5"/>
+            <line x1="145" y1="85" x2="145" y2="102" stroke="#228be6" stroke-width="2.5"/>
+            
+            <circle cx="45" cy="73" r="8" fill="#1c7ed6"/>
+            <line x1="53" y1="76" x2="115" y2="76" stroke="#1c7ed6" stroke-width="3.5" stroke-linecap="round"/>
+            <line x1="115" y1="76" x2="148" y2="76" stroke="#1c7ed6" stroke-width="3" stroke-linecap="round"/>
+            <line x1="68" y1="76" x2="90" y2="80" stroke="#1c7ed6" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="single-input-wrapper">
+          <div class="input-box">
+            <input type="number" id="input-hr-lying" class="rhr-input" placeholder="0" min="30" max="220">
+            <span class="input-unit">bpm</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. SIDDENDE (STOL) -->
+      <div class="side-card card-seated">
+        <div class="side-card-header header-seated">
+          <span class="card-main-title">Siddende</span>
+          <span class="card-sub-title">(På stol - 3 min)</span>
+        </div>
+
+        <div class="side-svg-container">
+          <svg width="100%" viewBox="0 0 180 120" preserveAspectRatio="xMidYMid meet">
+            <rect x="5" y="5" width="170" height="110" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+            <line x1="20" y1="108" x2="160" y2="108" stroke="#adb5bd" stroke-width="2" stroke-linecap="round"/>
+            
+            <path d="M 85,55 L 85,82 L 115,82 L 115,108 M 85,82 L 85,108" fill="none" stroke="#0ca678" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            
+            <circle cx="82" cy="38" r="8" fill="#0ca678"/>
+            <line x1="82" y1="46" x2="82" y2="78" stroke="#0ca678" stroke-width="3.5"/>
+            <line x1="82" y1="78" x2="110" y2="78" stroke="#0ca678" stroke-width="3.5"/>
+            <line x1="110" y1="78" x2="110" y2="108" stroke="#0ca678" stroke-width="3.5"/>
+            <line x1="82" y1="58" x2="100" y2="72" stroke="#0ca678" stroke-width="2.5"/>
+          </svg>
+        </div>
+
+        <div class="single-input-wrapper">
+          <div class="input-box">
+            <input type="number" id="input-hr-seated" class="rhr-input" placeholder="0" min="30" max="220">
+            <span class="input-unit">bpm</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. STÅENDE 30s (AKUT PEAK) -->
+      <div class="side-card card-standing-30s">
+        <div class="side-card-header header-standing-30s">
+          <span class="card-main-title">Stående 30s</span>
+          <span class="card-sub-title">(Akut Peak)</span>
+        </div>
+
+        <div class="side-svg-container">
+          <svg width="100%" viewBox="0 0 180 120" preserveAspectRatio="xMidYMid meet">
+            <rect x="5" y="5" width="170" height="110" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+            <line x1="20" y1="108" x2="160" y2="108" stroke="#adb5bd" stroke-width="2" stroke-linecap="round"/>
+
+            <!-- Lyn-ikon for akut stigning -->
+            <path d="M 135,22 L 122,40 L 132,40 L 120,58 L 140,36 L 128,36 Z" fill="#ff922b"/>
+
+            <circle cx="80" cy="30" r="8" fill="#ff922b"/>
+            <line x1="80" y1="38" x2="80" y2="75" stroke="#ff922b" stroke-width="3.5"/>
+            <line x1="80" y1="50" x2="62" y2="70" stroke="#ff922b" stroke-width="2.5"/>
+            <line x1="80" y1="50" x2="98" y2="70" stroke="#ff922b" stroke-width="2.5"/>
+            <line x1="80" y1="75" x2="68" y2="108" stroke="#ff922b" stroke-width="3.5"/>
+            <line x1="80" y1="75" x2="92" y2="108" stroke="#ff922b" stroke-width="3.5"/>
+          </svg>
+        </div>
+
+        <div class="single-input-wrapper">
+          <div class="input-box">
+            <input type="number" id="input-hr-standing-30s" class="rhr-input" placeholder="0" min="30" max="220">
+            <span class="input-unit">bpm</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. STÅENDE 2m (STÅENDE HVILEPULS) -->
+      <div class="side-card card-standing-2m">
+        <div class="side-card-header header-standing-2m">
+          <span class="card-main-title">Stående 2m</span>
+          <span class="card-sub-title">(Stående Hvile)</span>
+        </div>
+
+        <div class="side-svg-container">
+          <svg width="100%" viewBox="0 0 180 120" preserveAspectRatio="xMidYMid meet">
+            <rect x="5" y="5" width="170" height="110" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+            <line x1="20" y1="108" x2="160" y2="108" stroke="#adb5bd" stroke-width="2" stroke-linecap="round"/>
+
+            <circle cx="90" cy="30" r="8" fill="#e03131"/>
+            <line x1="90" y1="38" x2="90" y2="75" stroke="#e03131" stroke-width="3.5"/>
+            <line x1="90" y1="50" x2="72" y2="70" stroke="#e03131" stroke-width="2.5"/>
+            <line x1="90" y1="50" x2="108" y2="70" stroke="#e03131" stroke-width="2.5"/>
+            <line x1="90" y1="75" x2="78" y2="108" stroke="#e03131" stroke-width="3.5"/>
+            <line x1="90" y1="75" x2="102" y2="108" stroke="#e03131" stroke-width="3.5"/>
+          </svg>
+        </div>
+
+        <div class="single-input-wrapper">
+          <div class="input-box">
+            <input type="number" id="input-hr-standing-2m" class="rhr-input" placeholder="0" min="30" max="220">
+            <span class="input-unit">bpm</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RESULTAT BEREGNINGER -->
+    <div class="rhr-stats-wrapper">
+      <h5 class="section-title">📊 Fysiologisk Analyse & Respons</h5>
+      <div class="rhr-stats-grid">
+        <div class="stat-box highlight-box" id="box-rhr-eval">
+          <span class="stat-value" id="stat-rhr-val">--</span>
+          <span class="stat-label">LIGGENDE HVILEPULS</span>
+          <span class="stat-sub" id="stat-rhr-norm">Mangler data</span>
+        </div>
+        <div class="stat-box" id="box-orto-peak">
+          <span class="stat-value" id="stat-orto-peak-val">--</span>
+          <span class="stat-label">ORTOSTATISK PEAK ($\Delta$ 30s)</span>
+          <span class="stat-sub" id="stat-orto-peak-sub">30s Stående vs. Liggende</span>
+        </div>
+        <div class="stat-box" id="box-standing-rest">
+          <span class="stat-value" id="stat-standing-rest-val">--</span>
+          <span class="stat-label">STÅENDE HVILEPULS ($\Delta$ 2m)</span>
+          <span class="stat-sub" id="stat-standing-rest-sub">2m Stående vs. Liggende</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SØJLEDIAGRAM OVER PULS I FASERE -->
+    <div class="rhr-chart-wrapper">
+      <h5 class="section-title">📈 Hjertefrekvens pr. Position (bpm)</h5>
+      <div class="chart-container">
+        <svg id="rhr-svg-chart" width="100%" height="160" viewBox="0 0 480 160" preserveAspectRatio="none">
+          <text x="240" y="80" text-anchor="middle" font-size="12" fill="#adb5bd">Indtast pulsværdier for at se grafen</text>
+        </svg>
+      </div>
+      <div class="chart-legend">
+        <span class="legend-item"><span class="legend-dot lying"></span> Liggende</span>
+        <span class="legend-item"><span class="legend-dot seated"></span> Siddende</span>
+        <span class="legend-item"><span class="legend-dot peak"></span> Stående 30s</span>
+        <span class="legend-item"><span class="legend-dot standing"></span> Stående 2m</span>
+      </div>
+    </div>
+
+    <!-- ACTION KNAPPER -->
+    <div class="rhr-actions-row">
+      <button type="button" class="btn btn--save-result" id="btn-save-rhr-test">💾 Gem i Log & Dashboard</button>
+      <button type="button" class="btn btn--screenshot btn-take-screenshot">📸 Tag et billede</button>
+    </div>
+    <div class="save-status-msg" id="save-status-msg" style="display:none;"></div>
+
+  </div> <!-- SLUT PÅ INTERAKTIV ZONE -->
+
+  <!-- LOCALSTORAGE LOG TABEL -->
+  <div class="rhr-log-wrapper">
+    <div class="log-header-row">
+      <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
+      <button class="btn btn--clear-log btn-clear-log" type="button">🗑️ Ryd log</button>
+    </div>
+    <table class="rhr-log-table">
+      <thead>
+        <tr>
+          <th>Dato & Tid</th>
+          <th>Liggende</th>
+          <th>Siddende</th>
+          <th>Stående 30s</th>
+          <th>Stående 2m</th>
+          <th>Ortostatisk Peak</th>
+          <th style="width: 32px;"></th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="7" style="color: #adb5bd;">Ingen gemte målinger endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<style>
+.rhr-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 18px;
+  max-width: 720px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+}
+.rhr-widget * { box-sizing: border-box; }
+
+.rhr-interactive-zone { position: relative; width: 100%; }
+.rhr-interactive-zone:fullscreen {
+  background: #ffffff; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px;
+}
+
+.rhr-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; text-align: left; }
+.rhr-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; display: flex; align-items: center; gap: 6px; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.0rem; cursor: pointer; padding: 0 2px; }
+.card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.35; }
+
+.btn-widget-fullscreen {
+  background: #ffffff; border: 1px solid #a5d8ff; border-radius: 6px;
+  font-size: 0.95rem; width: 30px; height: 30px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; color: #1c7ed6;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05); transition: background 0.15s ease, color 0.15s ease; flex-shrink: 0;
+}
+.btn-widget-fullscreen:hover { background: #228be6; color: #ffffff; }
+
+/* Modal */
+.rhr-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 35; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* Topbar Subrow */
+.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 8px; margin-top: 2px; flex-wrap: wrap; }
+.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
+.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
+.toggle-btn.active { background: #228be6; color: #ffffff; }
+
+.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
+.wakelock-status.active { opacity: 1; }
+
+/* Timer Card */
+.rhr-timer-card { background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 12px; padding: 10px 14px; margin-bottom: 12px; text-align: left; }
+.timer-header-row { display: flex; justify-content: space-between; align-items: center; }
+.timer-phase-badge { font-size: 0.82rem; font-weight: 900; color: #1e293b; }
+.timer-clock-display { font-size: 1.6rem; font-weight: 900; color: #2563eb; font-variant-numeric: tabular-nums; line-height: 1; }
+.timer-instructions { font-size: 0.76rem; font-weight: 700; color: #475569; margin: 4px 0 8px 0; }
+
+.timer-actions-row { display: flex; gap: 6px; }
+.btn-timer-start { flex: 1; background: #2563eb; color: #ffffff; border: none; border-radius: 8px; padding: 8px; font-size: 0.85rem; font-weight: 800; cursor: pointer; transition: background 0.15s; }
+.btn-timer-start:hover { background: #1d4ed8; }
+.btn-timer-reset { background: #94a3b8; color: #ffffff; border: none; border-radius: 8px; width: 36px; height: 36px; cursor: pointer; }
+
+/* Grid med 4 kort side om side */
+.rhr-sides-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 12px; }
+@media (max-width: 620px) { .rhr-sides-grid { grid-template-columns: repeat(2, 1fr); } }
+
+.side-card {
+  background: #ffffff; border: 2px solid #dee2e6; border-radius: 14px; padding: 8px 6px;
+  transition: all 0.2s ease-in-out; position: relative; display: flex; flex-direction: column; justify-content: space-between;
+}
+.side-card.card-lying { border-color: #74c0fc; background: #f4f9ff; }
+.side-card.card-seated { border-color: #63e6be; background: #e6fcf5; }
+.side-card.card-standing-30s { border-color: #ffd43b; background: #fff9db; }
+.side-card.card-standing-2m { border-color: #ff8787; background: #fff5f5; }
+
+.side-card-header { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; margin-bottom: 4px; min-height: 34px; text-align: center; }
+.header-lying .card-main-title { color: #1c7ed6; }
+.header-seated .card-main-title { color: #0ca678; }
+.header-standing-30s .card-main-title { color: #f59f00; }
+.header-standing-2m .card-main-title { color: #e03131; }
+
+.card-main-title { font-size: 0.82rem; font-weight: 900; line-height: 1.1; }
+.card-sub-title { font-size: 0.65rem; font-weight: 700; color: #495057; opacity: 0.85; line-height: 1; }
+
+.side-svg-container { width: 100%; margin-bottom: 4px; }
+
+.single-input-wrapper { display: flex; justify-content: center; align-items: center; margin-top: 4px; }
+.input-box { display: flex; align-items: center; gap: 3px; }
+
+.rhr-input::-webkit-outer-spin-button,
+.rhr-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.rhr-input {
+  -moz-appearance: textfield; appearance: textfield;
+  width: 52px; text-align: center; border: 1.5px solid #ced4da; border-radius: 6px;
+  font-size: 0.90rem; font-weight: 900; color: #212529; background: #ffffff; padding: 4px 1px; outline: none;
+}
+.rhr-input:focus { border-color: #228be6; }
+.input-unit { font-size: 0.70rem; font-weight: 800; color: #64748b; }
+
+/* Stats Section */
+.rhr-stats-wrapper { margin-top: 12px; text-align: left; }
+.section-title { font-size: 0.85rem; font-weight: 800; margin: 0 0 6px 0; color: #343a40; }
+
+.rhr-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 8px 4px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.highlight-box { background: #fff9db; border-color: #fcc419; }
+.stat-box.ok-box { background: #ebfbee; border-color: #b2f2bb; }
+.stat-box.alert-box { background: #ffe3e3; border-color: #ff6b6b; }
+
+.stat-value { font-size: 1.25rem; font-weight: 900; color: #212529; line-height: 1; }
+.stat-label { font-size: 0.58rem; font-weight: 800; color: #868e96; margin-top: 3px; }
+.stat-sub { font-size: 0.68rem; font-weight: 800; color: #1c7ed6; margin-top: 2px; }
+
+/* Chart Section */
+.rhr-chart-wrapper { margin-top: 14px; text-align: left; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 10px; }
+.chart-container { background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 6px; width: 100%; }
+.chart-legend { display: flex; justify-content: center; gap: 10px; margin-top: 6px; font-size: 0.68rem; font-weight: 700; color: #6c757d; flex-wrap: wrap; }
+.legend-item { display: flex; align-items: center; gap: 4px; }
+.legend-dot { width: 9px; height: 9px; border-radius: 3px; }
+.legend-dot.lying { background: #228be6; }
+.legend-dot.seated { background: #0ca678; }
+.legend-dot.peak { background: #f59f00; }
+.legend-dot.standing { background: #e03131; }
+
+/* Gem & Billed Knapper */
+.rhr-actions-row { display: flex; gap: 8px; margin-top: 12px; width: 100%; }
+.rhr-actions-row .btn {
+  flex: 1; padding: 10px; font-size: 0.85rem; font-weight: 800; border-radius: 10px;
+  border: none; cursor: pointer; transition: background 0.15s ease;
+}
+.btn--save-result { background: #0f172a; color: #ffffff; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15); }
+.btn--save-result:hover { background: #1e293b; }
+
+.btn--screenshot { background: #228be6; color: #ffffff; box-shadow: 0 4px 12px rgba(34, 139, 230, 0.2); }
+.btn--screenshot:hover { background: #1c7ed6; }
+
+.save-status-msg { font-size: 0.75rem; font-weight: 800; color: #2b8a3e; margin-top: 6px; text-align: center; }
+
+/* Log Tabel */
+.rhr-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.rhr-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.74rem; table-layout: fixed; margin: 0; }
+.rhr-log-table th { background: #f8f9fa; padding: 6px 3px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.rhr-log-table td { padding: 6px 3px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+.btn-delete-row { background: transparent; border: none; color: #fa5252; font-size: 0.85rem; cursor: pointer; opacity: 0.7; transition: opacity 0.15s; padding: 0 4px; }
+.btn-delete-row:hover { opacity: 1.0; }
+</style>
+
+<script type="module">
+// ROBUST MODUL-IMPORT MED FALLBACK
+let StorageAdapterModule;
+try {
+  const mod = await import('../core/StorageAdapter.js');
+  StorageAdapterModule = mod.StorageAdapter;
+} catch (e) {
+  try {
+    const mod = await import('/assets/js/core/StorageAdapter.js');
+    StorageAdapterModule = mod.StorageAdapter;
+  } catch (e2) {
+    StorageAdapterModule = window.StorageAdapter;
+  }
+}
+const SA = StorageAdapterModule || window.StorageAdapter;
+
+(function() {
+  function initRestingHRWidget() {
+    const widget = document.querySelector(".rhr-widget");
+    if (!widget) return;
+
+    let selectedSound = 'on';
+    let wakeLock = null;
+    let audioCtx = null;
+
+    // PROTOKOL TIMER VARIABLER (4 FASERE)
+    let timerState = 'IDLE'; // IDLE, LYING, SEATED, STANDING_30S, STANDING_2M
+    let timerInterval = null;
+    let currentSeconds = 300;
+
+    const fullscreenZone = widget.querySelector("#rhr-fullscreen-zone");
+    const btnFullscreen = widget.querySelector("#btn-rhr-fullscreen");
+
+    const inputLying = widget.querySelector("#input-hr-lying");
+    const inputSeated = widget.querySelector("#input-hr-seated");
+    const inputStanding30s = widget.querySelector("#input-hr-standing-30s");
+    const inputStanding2m = widget.querySelector("#input-hr-standing-2m");
+
+    const statRhrVal = widget.querySelector("#stat-rhr-val");
+    const statRhrNorm = widget.querySelector("#stat-rhr-norm");
+    const boxRhrEval = widget.querySelector("#box-rhr-eval");
+
+    const statOrtoPeakVal = widget.querySelector("#stat-orto-peak-val");
+    const statOrtoPeakSub = widget.querySelector("#stat-orto-peak-sub");
+    const boxOrtoPeak = widget.querySelector("#box-orto-peak");
+
+    const statStandingRestVal = widget.querySelector("#stat-standing-rest-val");
+    const statStandingRestSub = widget.querySelector("#stat-standing-rest-sub");
+    const boxStandingRest = widget.querySelector("#box-standing-rest");
+
+    const btnSaveTest = widget.querySelector("#btn-save-rhr-test");
+    const saveStatusMsg = widget.querySelector("#save-status-msg");
+
+    const svgChart = widget.querySelector("#rhr-svg-chart");
+    const logTbody = widget.querySelector(".log-tbody");
+    const btnClearLog = widget.querySelector(".btn-clear-log");
+    const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+    const wakelockStatus = widget.querySelector(".wakelock-status");
+
+    const infoModal = widget.querySelector(".rhr-info-modal");
+    const infoIconBtn = widget.querySelector(".info-icon-btn");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+    const rhrPhaseBadge = widget.querySelector("#rhr-phase-badge");
+    const rhrClockDisplay = widget.querySelector("#rhr-clock-display");
+    const rhrTimerInstruction = widget.querySelector("#rhr-timer-instruction");
+    const btnTimerToggle = widget.querySelector("#btn-rhr-timer-toggle");
+    const btnTimerReset = widget.querySelector("#btn-rhr-timer-reset");
+
+    function setupToggleGroup(groupId, onChange) {
+      const group = widget.querySelector(`#${groupId}`);
+      if (!group) return;
+      const btns = group.querySelectorAll(".toggle-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          btns.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          onChange(btn.dataset.val);
+        });
+      });
+    }
+    setupToggleGroup("rhr-sound-toggle", (val) => { selectedSound = val; });
+
+    if (btnFullscreen && fullscreenZone) {
+      btnFullscreen.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (!document.fullscreenElement) {
+          if (fullscreenZone.requestFullscreen) fullscreenZone.requestFullscreen();
+          else if (fullscreenZone.webkitRequestFullscreen) fullscreenZone.webkitRequestFullscreen();
+        } else {
+          if (document.exitFullscreen) document.exitFullscreen();
+        }
+      });
+    }
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+      }
+    }
+    function releaseWakeLock() {
+      if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+    }
+
+    function playSound(type) {
+      if (selectedSound === 'off') return;
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const now = audioCtx.currentTime;
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain); gain.connect(audioCtx.destination);
+
+      if (type === 'warn') {
+        osc.frequency.value = 600;
+        gain.gain.setValueAtTime(0.2, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+        osc.start(now); osc.stop(now + 0.2);
+      } else if (type === 'measure') {
+        osc.frequency.value = 1000;
+        gain.gain.setValueAtTime(0.4, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+        osc.start(now); osc.stop(now + 0.4);
+      }
+    }
+
+    function formatTime(secs) {
+      const m = Math.floor(secs / 60).toString().padStart(2, '0');
+      const s = (secs % 60).toString().padStart(2, '0');
+      return `${m}:${s}`;
+    }
+
+    function startTimerPhase(phase) {
+      timerState = phase;
+      requestWakeLock();
+
+      if (phase === 'LYING') {
+        currentSeconds = 300; // 5 min
+        rhrPhaseBadge.textContent = "1. LIGGENDE (HVILEPULS)";
+        rhrTimerInstruction.textContent = "🛌 Læg dig fladt ned og slap af. Bip lyder om 5 minutter når du skal notere hvilepulsen.";
+        btnTimerToggle.textContent = "⏸ Pause Tidsguide";
+      } else if (phase === 'SEATED') {
+        currentSeconds = 180; // 3 min
+        rhrPhaseBadge.textContent = "2. SIDDENDE PÅ STOL";
+        rhrTimerInstruction.textContent = "🪑 Sæt dig op på en stol. Bip lyder om 3 minutter når du skal notere pulsen.";
+        btnTimerToggle.textContent = "⏸ Pause Tidsguide";
+      } else if (phase === 'STANDING_30S') {
+        currentSeconds = 30; // 30 sek
+        rhrPhaseBadge.textContent = "3. STÅENDE (30s PEAK)";
+        rhrTimerInstruction.textContent = "🚶 Rejs dig op NU! Tæller 30 sekunder ned til ortostatisk peak-måling.";
+        btnTimerToggle.textContent = "⏸ Pause Tidsguide";
+      } else if (phase === 'STANDING_2M') {
+        currentSeconds = 90; // Yderligere 90 sek (totalt 2 min stående)
+        rhrPhaseBadge.textContent = "4. STÅENDE (2m HVILEPULS)";
+        rhrTimerInstruction.textContent = "🧍 Bliv stående i yderligere 90 sekunder for at måle den stabiliserede stående hvilepuls.";
+        btnTimerToggle.textContent = "⏸ Pause Tidsguide";
+      }
+
+      rhrClockDisplay.textContent = formatTime(currentSeconds);
+
+      clearInterval(timerInterval);
+      timerInterval = setInterval(() => {
+        currentSeconds--;
+        rhrClockDisplay.textContent = formatTime(currentSeconds);
+
+        if (currentSeconds === 10) {
+          playSound('warn');
+        }
+
+        if (currentSeconds <= 0) {
+          clearInterval(timerInterval);
+          playSound('measure');
+
+          if (timerState === 'LYING') {
+            alert("⏰ 5 minutter gået! Notér din liggende hvilepuls.");
+            startTimerPhase('SEATED');
+          } else if (timerState === 'SEATED') {
+            alert("⏰ 3 minutter gået! Notér din siddende puls.");
+            startTimerPhase('STANDING_30S');
+          } else if (timerState === 'STANDING_30S') {
+            alert("⏰ 30 sekunder stående gået! Notér din ortostatiske peak-puls.");
+            startTimerPhase('STANDING_2M');
+          } else if (timerState === 'STANDING_2M') {
+            alert("⏰ 2 minutter stående gået! Notér din stabiliserede stående hvilepuls.");
+            timerState = 'IDLE';
+            rhrPhaseBadge.textContent = "✅ PROTOKOL GENNEMFØRT";
+            rhrTimerInstruction.textContent = "Alle faser gennemført. Gem dit resultat i loggen.";
+            btnTimerToggle.textContent = "▶ Start Ny Tidsguide";
+            releaseWakeLock();
+          }
+        }
+      }, 1000);
+    }
+
+    btnTimerToggle.addEventListener("click", () => {
+      if (timerState === 'IDLE') {
+        startTimerPhase('LYING');
+      } else {
+        clearInterval(timerInterval);
+        timerState = 'IDLE';
+        btnTimerToggle.textContent = "▶ Fortsæt Tidsguide";
+        rhrTimerInstruction.textContent = "Tidsguide sat på pause.";
+        releaseWakeLock();
+      }
+    });
+
+    btnTimerReset.addEventListener("click", () => {
+      clearInterval(timerInterval);
+      timerState = 'IDLE';
+      currentSeconds = 300;
+      rhrClockDisplay.textContent = "05:00";
+      rhrPhaseBadge.textContent = "⏱️ PROTOKOL-TIMER";
+      rhrTimerInstruction.textContent = "Tryk på 'Start Tidsguide' for at blive guidet igennem de 4 faser.";
+      btnTimerToggle.textContent = "▶ Start Tidsguide";
+      releaseWakeLock();
+    });
+
+    function evaluateRestingHRNorm(hr, gender, age) {
+      if (!hr || isNaN(hr) || hr <= 0) return null;
+      const isFemale = gender === 'female';
+
+      if (isFemale) {
+        if (hr < 54) return { label: 'Fremragende (Elite)', color: '#3b82f6' };
+        if (hr <= 64) return { label: 'Godt (Atlet)', color: '#22c55e' };
+        if (hr <= 74) return { label: 'Middel (Normal)', color: '#eab308' };
+        return { label: 'Under middel', color: '#ef4444' };
+      } else {
+        if (hr < 50) return { label: 'Fremragende (Elite)', color: '#3b82f6' };
+        if (hr <= 60) return { label: 'Godt (Atlet)', color: '#22c55e' };
+        if (hr <= 70) return { label: 'Middel (Normal)', color: '#eab308' };
+        return { label: 'Under middel', color: '#ef4444' };
+      }
+    }
+
+    function loadInputDrafts() {
+      if (SA) {
+        const draft = SA.loadDraft('resting_hr');
+        if (draft) {
+          if (draft.lying !== undefined) inputLying.value = draft.lying;
+          if (draft.seated !== undefined) inputSeated.value = draft.seated;
+          if (draft.standing30s !== undefined) inputStanding30s.value = draft.standing30s;
+          if (draft.standing2m !== undefined) inputStanding2m.value = draft.standing2m;
+        }
+      }
+    }
+
+    function saveInputDrafts() {
+      if (SA) {
+        SA.saveDraft('resting_hr', {
+          lying: inputLying.value,
+          seated: inputSeated.value,
+          standing30s: inputStanding30s.value,
+          standing2m: inputStanding2m.value
+        });
+      }
+    }
+
+    [inputLying, inputSeated, inputStanding30s, inputStanding2m].forEach(inp => {
+      inp.addEventListener("input", () => {
+        saveInputDrafts();
+        updateCalculationsAndChart();
+      });
+    });
+
+    function updateCalculationsAndChart() {
+      const lying = parseInt(inputLying.value, 10);
+      const seated = parseInt(inputSeated.value, 10);
+      const standing30s = parseInt(inputStanding30s.value, 10);
+      const standing2m = parseInt(inputStanding2m.value, 10);
+
+      const hasLying = !isNaN(lying) && lying > 0;
+      const hasSeated = !isNaN(seated) && seated > 0;
+      const hasStanding30s = !isNaN(standing30s) && standing30s > 0;
+      const hasStanding2m = !isNaN(standing2m) && standing2m > 0;
+
+      const profile = SA ? SA.getProfile() : {};
+      const userAge = profile.age || 25;
+      const userGender = profile.gender || 'male';
+
+      // 1. LIGGENDE HVILEPULS EVALUERING
+      if (hasLying) {
+        statRhrVal.textContent = `${lying} bpm`;
+        const norm = evaluateRestingHRNorm(lying, userGender, userAge);
+        if (norm) {
+          statRhrNorm.textContent = norm.label;
+          boxRhrEval.style.borderColor = norm.color;
+        }
+      } else {
+        statRhrVal.textContent = "--";
+        statRhrNorm.textContent = "Mangler data";
+        boxRhrEval.style.borderColor = "#fcc419";
+      }
+
+      // 2. ORTOSTATISK PEAK (30s STÅENDE - LIGGENDE)
+      if (hasLying && hasStanding30s) {
+        const peakDelta = standing30s - lying;
+        statOrtoPeakVal.textContent = `${peakDelta >= 0 ? '+' : ''}${peakDelta} bpm`;
+
+        if (peakDelta <= 25) {
+          statOrtoPeakSub.textContent = "✅ Normal hjerterespons";
+          boxOrtoPeak.className = "stat-box ok-box";
+        } else if (peakDelta <= 30) {
+          statOrtoPeakSub.textContent = "⚠️ Moderat stigning";
+          boxOrtoPeak.className = "stat-box highlight-box";
+        } else {
+          statOrtoPeakSub.textContent = "🔥 Høj respons (Fatigue/Stress)";
+          boxOrtoPeak.className = "stat-box alert-box";
+        }
+      } else {
+        statOrtoPeakVal.textContent = "--";
+        statOrtoPeakSub.textContent = "Kræver Liggende & 30s";
+        boxOrtoPeak.className = "stat-box";
+      }
+
+      // 3. STÅENDE HVILEPULS (2m STÅENDE - LIGGENDE)
+      if (hasLying && hasStanding2m) {
+        const stableDelta = standing2m - lying;
+        statStandingRestVal.textContent = `${standing2m} bpm (+${stableDelta})`;
+        statStandingRestSub.textContent = "Stabiliseret stående hvile";
+        boxStandingRest.className = "stat-box ok-box";
+      } else {
+        statStandingRestVal.textContent = "--";
+        statStandingRestSub.textContent = "2m Stående vs. Liggende";
+        boxStandingRest.className = "stat-box";
+      }
+
+      renderBarChart(
+        hasLying ? lying : 0,
+        hasSeated ? seated : 0,
+        hasStanding30s ? standing30s : 0,
+        hasStanding2m ? standing2m : 0
+      );
+    }
+
+    function renderBarChart(lying, seated, standing30s, standing2m) {
+      if (lying === 0 && seated === 0 && standing30s === 0 && standing2m === 0) {
+        svgChart.innerHTML = '<text x="240" y="80" text-anchor="middle" font-size="12" fill="#adb5bd">Indtast pulsværdier for at se grafen</text>';
+        return;
+      }
+
+      const maxVal = Math.max(lying, seated, standing30s, standing2m, 100);
+      const width = 480;
+      const height = 160;
+      const padL = 35;
+      const padR = 15;
+      const padT = 20;
+      const padB = 30;
+
+      let svgHtml = '';
+
+      const gridSteps = 4;
+      for (let i = 0; i <= gridSteps; i++) {
+        const vVal = (maxVal / gridSteps) * i;
+        const y = height - padB - (vVal / maxVal) * (height - padT - padB);
+        svgHtml += `<line x1="${padL}" y1="${y}" x2="${width - padR}" y2="${y}" stroke="#f1f3f5" stroke-width="1"/>`;
+        svgHtml += `<text x="${padL - 5}" y="${y + 4}" font-size="9" text-anchor="end" fill="#868e96" font-weight="bold">${Math.round(vVal)}</text>`;
+      }
+
+      const bars = [
+        { label: 'Liggende', val: lying, color: '#228be6' },
+        { label: 'Siddende', val: seated, color: '#0ca678' },
+        { label: 'Stående 30s', val: standing30s, color: '#f59f00' },
+        { label: 'Stående 2m', val: standing2m, color: '#e03131' }
+      ];
+
+      const barWidth = 50;
+      const availWidth = width - padL - padR;
+      const barGap = (availWidth - (4 * barWidth)) / 5;
+
+      bars.forEach((b, i) => {
+        const x = padL + barGap + i * (barWidth + barGap);
+        const barHeight = b.val > 0 ? (b.val / maxVal) * (height - padT - padB) : 0;
+        const y = height - padB - barHeight;
+
+        if (b.val > 0) {
+          svgHtml += `<rect x="${x}" y="${y}" width="${barWidth}" height="${barHeight}" rx="4" fill="${b.color}"/>`;
+          svgHtml += `<text x="${x + barWidth/2}" y="${y - 6}" font-size="9" text-anchor="middle" font-weight="900" fill="#212529">${b.val} bpm</text>`;
+        } else {
+          svgHtml += `<rect x="${x}" y="${height - padB - 2}" width="${barWidth}" height="2" fill="#e9ecef"/>`;
+        }
+
+        svgHtml += `<text x="${x + barWidth/2}" y="${height - 10}" font-size="8" text-anchor="middle" font-weight="bold" fill="#495057">${b.label}</text>`;
+      });
+
+      svgChart.innerHTML = svgHtml;
+    }
+
+    function saveTestToLogAndDashboard() {
+      const lying = parseInt(inputLying.value, 10);
+      const seated = parseInt(inputSeated.value, 10);
+      const standing30s = parseInt(inputStanding30s.value, 10);
+      const standing2m = parseInt(inputStanding2m.value, 10);
+
+      const hasLying = !isNaN(lying) && lying > 0;
+      const hasSeated = !isNaN(seated) && seated > 0;
+      const hasStanding30s = !isNaN(standing30s) && standing30s > 0;
+      const hasStanding2m = !isNaN(standing2m) && standing2m > 0;
+
+      if (!hasLying) {
+        alert("Indtast venligst din liggende hvilepuls for at gemme.");
+        return;
+      }
+
+      const profile = SA ? SA.getProfile() : {};
+      const userAge = profile.age || 25;
+      const userGender = profile.gender || 'male';
+      const normEval = evaluateRestingHRNorm(lying, userGender, userAge);
+
+      const peakDelta = (hasLying && hasStanding30s) ? (standing30s - lying) : null;
+      const stableDelta = (hasLying && hasStanding2m) ? (standing2m - lying) : null;
+
+      // 1. GEM I LOKAL LOG
+      const logs = JSON.parse(localStorage.getItem("resting_hr_logs") || "[]");
+      const now = new Date();
+      const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+      logs.unshift({
+        date: dateStr,
+        lying: lying + ' bpm',
+        seated: hasSeated ? seated + ' bpm' : '--',
+        standing30s: hasStanding30s ? standing30s + ' bpm' : '--',
+        standing2m: hasStanding2m ? standing2m + ' bpm' : '--',
+        peakDelta: peakDelta !== null ? (peakDelta >= 0 ? '+' : '') + peakDelta + ' bpm' : '--'
+      });
+
+      localStorage.setItem("resting_hr_logs", JSON.stringify(logs.slice(0, 20)));
+      renderLocalStorageLog();
+
+      // 2. SKRIV DIREKTE TIL STORAGEADAPTER FOR DASHBOARDET (/hjem/)
+      if (SA) {
+        SA.commitToLog('resting_hr', {
+          type: 'physical',
+          primary: { value: lying, unit: 'bpm', label: 'Hvilepuls (Liggende)' },
+          ...(normEval && { norm: { label: normEval.label, color: normEval.color, bg: `${normEval.color}18` } }),
+          subMetrics: {
+            hrSeated: hasSeated ? seated : null,
+            hrStanding30s: hasStanding30s ? standing30s : null,
+            hrStanding2m: hasStanding2m ? standing2m : null,
+            ortostaticPeakDelta: peakDelta,
+            ortostaticStableDelta: stableDelta
+          },
+          context: { age: userAge, gender: userGender }
+        });
+
+        window.dispatchEvent(new CustomEvent('storage-update', { detail: { key: 'resting_hr' } }));
+        window.dispatchEvent(new Event('storage'));
+      }
+
+      saveStatusMsg.textContent = "✅ Hvilepuls gemt i historik og synkroniseret med Dashboard!";
+      saveStatusMsg.style.display = "block";
+      setTimeout(() => { saveStatusMsg.style.display = "none"; }, 3500);
+    }
+
+    function renderLocalStorageLog() {
+      const logs = JSON.parse(localStorage.getItem("resting_hr_logs") || "[]");
+      logTbody.innerHTML = "";
+
+      if (logs.length === 0) {
+        logTbody.innerHTML = '<tr class="empty-row"><td colspan="7" style="color: #adb5bd;">Ingen gemte målinger endnu</td></tr>';
+        return;
+      }
+
+      logs.forEach((item, index) => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${item.date}</td>
+          <td><strong>${item.lying}</strong></td>
+          <td>${item.seated}</td>
+          <td>${item.standing30s}</td>
+          <td>${item.standing2m}</td>
+          <td><span style="color:#f59f00; font-weight:800;">${item.peakDelta}</span></td>
+          <td><button type="button" class="btn-delete-row" data-index="${index}" title="Slet denne post">🗑️</button></td>
+        `;
+        logTbody.appendChild(tr);
+      });
+
+      logTbody.querySelectorAll('.btn-delete-row').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const idx = parseInt(e.currentTarget.getAttribute('data-index'), 10);
+          const currentLogs = JSON.parse(localStorage.getItem("resting_hr_logs") || "[]");
+          currentLogs.splice(idx, 1);
+          localStorage.setItem("resting_hr_logs", JSON.stringify(currentLogs));
+          renderLocalStorageLog();
+        });
+      });
+    }
+
+    function takeScreenshot() {
+      function capture() {
+        html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = `hvilepuls-resultat-${new Date().toISOString().slice(0,10)}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+
+      if (typeof html2canvas === 'undefined') {
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+        script.onload = capture;
+        document.head.appendChild(script);
+      } else {
+        capture();
+      }
+    }
+
+    if (btnSaveTest) btnSaveTest.addEventListener("click", saveTestToLogAndDashboard);
+
+    if (btnClearLog) {
+      btnClearLog.addEventListener("click", () => {
+        if (confirm("Vil du slette alle gemte hvilepulsmålinger fra hukommelsen?")) {
+          localStorage.removeItem("resting_hr_logs");
+          if (SA) SA.clearDraft('resting_hr');
+          renderLocalStorageLog();
+        }
+      });
+    }
+
+    if (btnScreenshot) btnScreenshot.addEventListener("click", takeScreenshot);
+    if (infoIconBtn) infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+    if (modalCloseBtn) modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+    loadInputDrafts();
+    renderLocalStorageLog();
+    updateCalculationsAndChart();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initRestingHRWidget);
+  } else {
+    initRestingHRWidget();
+  }
+})();
+</script>

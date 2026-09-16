@@ -12,8 +12,11 @@
      data-exhale="{{ exhale_sec }}" 
      data-hold2="{{ hold2_sec }}">
 
+  <!-- Header uden Hx tags -->
   <div class="pacer-header">
-    <h4 class="pacer-title">{{ pacer_title }}</h4>
+    <div class="pacer-total-timer js-total-timer" title="Samlet varighed">00:00</div>
+    <button type="button" class="btn-widget-fullscreen pacer-fullscreen-btn" title="Skift til fuld skærm">⛶</button>
+    <div class="pacer-title-text">{{ pacer_title }}</div>
     <div class="pacer-formula">
       <span>{{ inhale_sec }}s Ind</span>
       {% if hold1_sec > 0 %} · <span>{{ hold1_sec }}s Hold</span>{% endif %}
@@ -22,6 +25,7 @@
     </div>
   </div>
 
+  <!-- VISUEL PACER ZONE -->
   <div class="pacer-visual-zone">
     <div class="pacer-circle-outer">
       <div class="pacer-circle-inner"></div>
@@ -32,9 +36,77 @@
     </div>
   </div>
 
+  <!-- KONTROLLER -->
   <div class="pacer-controls">
-    <button type="button" class="btn btn--primary pacer-start-btn">Start Åndedræt</button>
+    <button type="button" class="btn pacer-start-btn js-main-btn">Start Åndedræt</button>
   </div>
+
+  <!-- HRV & PULS TOGGLE ROW -->
+  <div class="pacer-hrv-toggle-row">
+    <label class="hrv-switch-label">
+      <input type="checkbox" class="js-hrv-toggle">
+      <span class="hrv-slider"></span>
+      <span class="hrv-toggle-text">Mål HRV og pulstest (før / efter)</span>
+    </label>
+  </div>
+
+  <!-- HRV & PULS PANEL (3 KOLONNER) -->
+  <div class="pacer-hrv-panel js-hrv-panel" style="display: none;">
+    
+    <!-- HRV PROTOKOL GUIDE BANNER -->
+    <div class="hrv-protocol-box js-protocol-box">
+      <div class="protocol-header-title js-protocol-step-title">HRV og Åndedræts-Protokol</div>
+      <div class="protocol-body-text js-protocol-text">
+        Slå testen til og tryk 'Start Protokol'. Du guides igennem 1 min før-måling, 3-5 min åndedræt og 1 min efter-måling.
+      </div>
+      <div class="protocol-timer-badge js-protocol-timer" style="display: none;">01:00</div>
+    </div>
+
+    <!-- 3 KOLONNE GRID -->
+    <div class="hrv-grid-wrapper">
+      
+      <!-- KOLONNE 1: FØR -->
+      <div class="hrv-col js-col-pre">
+        <div class="hrv-col-header">FØR ØVELSE</div>
+        <div class="hrv-field">
+          <span class="hrv-field-label">Puls (bpm)</span>
+          <input type="number" class="hrv-input js-pre-hr" placeholder="60" min="30" max="220">
+        </div>
+        <div class="hrv-field">
+          <span class="hrv-field-label">HRV (ms)</span>
+          <input type="number" class="hrv-input js-pre-hrv" placeholder="45" min="5" max="300">
+        </div>
+      </div>
+
+      <!-- KOLONNE 2: EFTER -->
+      <div class="hrv-col js-col-post">
+        <div class="hrv-col-header">EFTER ØVELSE</div>
+        <div class="hrv-field">
+          <span class="hrv-field-label">Puls (bpm)</span>
+          <input type="number" class="hrv-input js-post-hr" placeholder="54" min="30" max="220">
+        </div>
+        <div class="hrv-field">
+          <span class="hrv-field-label">HRV (ms)</span>
+          <input type="number" class="hrv-input js-post-hrv" placeholder="62" min="5" max="300">
+        </div>
+      </div>
+
+      <!-- KOLONNE 3: RESULTAT / Δ -->
+      <div class="hrv-col hrv-col-delta">
+        <div class="hrv-col-header">RESPONS (Δ)</div>
+        <div class="hrv-delta-box">
+          <span class="delta-title">Puls-fald</span>
+          <span class="delta-value js-hr-delta">-- bpm</span>
+        </div>
+        <div class="hrv-delta-box">
+          <span class="delta-title">HRV-ændring</span>
+          <span class="delta-value js-hrv-delta">-- ms</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 </div>
 
 <style>
@@ -44,22 +116,78 @@
   border-radius: 16px;
   padding: 1.5rem;
   margin: 1.5rem auto;
-  max-width: 480px;
+  max-width: 520px;
   text-align: center;
   font-family: system-ui, -apple-system, sans-serif;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.breathing-pacer-widget:fullscreen {
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  overflow-y: auto;
 }
 
 .pacer-header {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.0rem;
+  position: relative;
+  width: 100%;
 }
 
-.pacer-title {
-  color: #ffffff !important;
-  margin: 0 0 4px 0 !important;
-  font-size: 1.15rem !important;
+.pacer-total-timer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #94a3b8;
+  font-variant-numeric: tabular-nums;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 4px 8px;
+  border-radius: 6px;
+  letter-spacing: 0.04em;
+  pointer-events: none;
+}
+
+.btn-widget-fullscreen {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  z-index: 5;
+}
+.btn-widget-fullscreen:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.pacer-title-text {
+  color: #ffffff;
+  font-size: 1.2rem;
   font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 4px;
 }
 
 .pacer-formula {
@@ -72,14 +200,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 220px;
+  height: 200px;
   margin-bottom: 1rem;
 }
 
 .pacer-circle-outer {
   position: relative;
-  width: 190px;
-  height: 190px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   border: 2px dashed rgba(255, 255, 255, 0.2);
   display: flex;
@@ -89,8 +217,8 @@
 
 .pacer-circle-inner {
   position: absolute;
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
   background: radial-gradient(circle, #4fd1c5 0%, #319795 100%);
   box-shadow: 0 0 20px rgba(79, 209, 197, 0.4);
@@ -134,13 +262,13 @@
 .pacer-start-btn {
   background: #319795;
   color: white;
-  border: none;
-  padding: 10px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 28px;
   font-size: 0.95rem;
-  font-weight: 800;
+  font-weight: 700;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(49, 151, 149, 0.3);
+  box-shadow: 0 4px 12px rgba(49, 151, 149, 0.25);
   transition: all 0.2s ease;
 }
 
@@ -148,110 +276,539 @@
   background: #2c7a7b;
   transform: translateY(-1px);
 }
+
+.pacer-start-btn.is-running {
+  background: #4a5568;
+  color: #e2e8f0;
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pacer-start-btn.is-running:hover {
+  background: #3d4756;
+}
+
+/* Toggle Switch Styling */
+.pacer-hrv-toggle-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+}
+
+.hrv-switch-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.hrv-switch-label input {
+  display: none;
+}
+
+.hrv-slider {
+  position: relative;
+  width: 38px;
+  height: 20px;
+  background-color: #4a5568;
+  border-radius: 20px;
+  transition: background-color 0.2s;
+}
+
+.hrv-slider::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.hrv-switch-label input:checked + .hrv-slider {
+  background-color: #319795;
+}
+
+.hrv-switch-label input:checked + .hrv-slider::before {
+  transform: translateX(18px);
+}
+
+.hrv-toggle-text {
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: #cbd5e1;
+}
+
+/* HRV Panel & 3 Kolonner */
+.pacer-hrv-panel {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.hrv-protocol-box {
+  background: rgba(49, 151, 149, 0.12);
+  border: 1px solid rgba(79, 209, 197, 0.25);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hrv-protocol-box.is-highlighted {
+  background: rgba(79, 209, 197, 0.25);
+  border-color: #4fd1c5;
+}
+
+.protocol-header-title {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: #4fd1c5;
+  margin-bottom: 3px;
+}
+
+.protocol-body-text {
+  font-size: 0.70rem;
+  color: #cbd5e1;
+  line-height: 1.35;
+}
+
+.protocol-timer-badge {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #4fd1c5;
+  font-variant-numeric: tabular-nums;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(79, 209, 197, 0.4);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.hrv-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+@media (max-width: 480px) {
+  .hrv-grid-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hrv-col {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 8px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+
+.hrv-col.is-active-input {
+  border-color: #4fd1c5;
+  box-shadow: 0 0 10px rgba(79, 209, 197, 0.25);
+  background: rgba(49, 151, 149, 0.15);
+}
+
+.hrv-col-header {
+  font-size: 0.62rem;
+  font-weight: 800;
+  color: #94a3b8;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.hrv-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hrv-field-label {
+  font-size: 0.60rem;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+.hrv-input::-webkit-outer-spin-button,
+.hrv-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+.hrv-input {
+  -moz-appearance: textfield; appearance: textfield;
+  width: 100%;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 4px;
+  outline: none;
+}
+
+.hrv-input:focus {
+  border-color: #4fd1c5;
+}
+
+.hrv-col-delta {
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(79, 209, 197, 0.3);
+}
+
+.hrv-delta-box {
+  background: rgba(15, 23, 42, 0.8);
+  border-radius: 6px;
+  padding: 6px 4px;
+  text-align: center;
+}
+
+.delta-title {
+  display: block;
+  font-size: 0.58rem;
+  font-weight: 700;
+  color: #94a3b8;
+}
+
+.delta-value {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: 1px;
+}
+
+.delta-value.is-positive {
+  color: #4ade80;
+}
+
+.delta-value.is-negative {
+  color: #f87171;
+}
 </style>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelectorAll(".breathing-pacer-widget").forEach(function(widget) {
-    const inhale = parseFloat(widget.dataset.inhale) || 4;
-    const hold1 = parseFloat(widget.dataset.hold1) || 0;
-    const exhale = parseFloat(widget.dataset.exhale) || 4;
-    const hold2 = parseFloat(widget.dataset.hold2) || 0;
+<script type="module">
+import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
 
-    const circle = widget.querySelector(".pacer-circle-inner");
-    const phaseLabel = widget.querySelector(".pacer-phase-label");
-    const timerCount = widget.querySelector(".pacer-timer-count");
-    const startBtn = widget.querySelector(".pacer-start-btn");
+(function() {
+  function initBreathingPacerWidget() {
+    document.querySelectorAll(".breathing-pacer-widget").forEach(function(widget) {
+      const inhale = parseFloat(widget.dataset.inhale) || 4;
+      const hold1 = parseFloat(widget.dataset.hold1) || 0;
+      const exhale = parseFloat(widget.dataset.exhale) || 4;
+      const hold2 = parseFloat(widget.dataset.hold2) || 0;
 
-    let isRunning = false;
-    let animFrame = null;
-    let cycleStartTime = 0;
+      const circle = widget.querySelector(".pacer-circle-inner");
+      const phaseLabel = widget.querySelector(".pacer-phase-label");
+      const timerCount = widget.querySelector(".pacer-timer-count");
+      const mainBtn = widget.querySelector(".js-main-btn");
+      const fullscreenBtn = widget.querySelector(".pacer-fullscreen-btn");
+      const totalTimerEl = widget.querySelector(".js-total-timer");
 
-    const MIN_SCALE = 1.0;
-    const MAX_SCALE = 2.0;
+      // HRV Elements
+      const hrvToggle = widget.querySelector(".js-hrv-toggle");
+      const hrvPanel = widget.querySelector(".js-hrv-panel");
+      const protocolBox = widget.querySelector(".js-protocol-box");
+      const protocolTitle = widget.querySelector(".js-protocol-step-title");
+      const protocolText = widget.querySelector(".js-protocol-text");
+      const protocolTimerBadge = widget.querySelector(".js-protocol-timer");
+      const colPre = widget.querySelector(".js-col-pre");
+      const colPost = widget.querySelector(".js-col-post");
 
-    function getPhaseInfo(elapsed) {
-      let t = elapsed;
+      const preHrInp = widget.querySelector(".js-pre-hr");
+      const preHrvInp = widget.querySelector(".js-pre-hrv");
+      const postHrInp = widget.querySelector(".js-post-hr");
+      const postHrvInp = widget.querySelector(".js-post-hrv");
+      const hrDeltaTxt = widget.querySelector(".js-hr-delta");
+      const hrvDeltaTxt = widget.querySelector(".js-hrv-delta");
 
-      // Phase 1: Inhale
-      if (t < inhale) {
-        const progress = t / inhale;
-        const scale = MIN_SCALE + (MAX_SCALE - MIN_SCALE) * progress;
-        const remaining = Math.ceil(inhale - t);
-        return { name: "Ånd ind", scale: scale, count: remaining, color: "#4fd1c5" };
-      }
-      t -= inhale;
+      // FLOW STATE MACHINE: IDLE, PRE_HRV, BREATHING, POST_HRV
+      let flowState = 'IDLE';
+      let animFrame = null;
+      let cycleStartTime = 0;
+      let sessionStartTime = 0;
+      let protocolInterval = null;
+      let wakeLock = null;
 
-      // Phase 2: Hold 1
-      if (hold1 > 0 && t < hold1) {
-        const remaining = Math.ceil(hold1 - t);
-        return { name: "Hold vejret", scale: MAX_SCALE, count: remaining, color: "#f6ad55" };
-      }
-      if (hold1 > 0) t -= hold1;
+      const MIN_SCALE = 1.0;
+      const MAX_SCALE = 2.0;
 
-      // Phase 3: Exhale
-      if (t < exhale) {
-        const progress = t / exhale;
-        const scale = MAX_SCALE - (MAX_SCALE - MIN_SCALE) * progress;
-        const remaining = Math.ceil(exhale - t);
-        return { name: "Pust ud", scale: scale, count: remaining, color: "#63b3ed" };
-      }
-      t -= exhale;
-
-      // Phase 4: Hold 2
-      if (hold2 > 0 && t < hold2) {
-        const remaining = Math.ceil(hold2 - t);
-        return { name: "Pause", scale: MIN_SCALE, count: remaining, color: "#f6ad55" };
-      }
-
-      return null; // Cycle complete
-    }
-
-    function loop(now) {
-      if (!isRunning) return;
-
-      const totalCycleDuration = (inhale + hold1 + exhale + hold2) * 1000;
-      let elapsed = (now - cycleStartTime) % totalCycleDuration;
-      let elapsedSec = elapsed / 1000;
-
-      let info = getPhaseInfo(elapsedSec);
-
-      if (info) {
-        circle.style.transform = `scale(${info.scale})`;
-        circle.style.background = info.color;
-        phaseLabel.textContent = info.name;
-        timerCount.textContent = info.count;
+      // FULD SKÆRM
+      if (fullscreenBtn) {
+        fullscreenBtn.addEventListener("click", () => {
+          if (!document.fullscreenElement) {
+            if (widget.requestFullscreen) widget.requestFullscreen();
+            else if (widget.webkitRequestFullscreen) widget.webkitRequestFullscreen();
+          } else {
+            if (document.exitFullscreen) document.exitFullscreen();
+          }
+        });
       }
 
-      animFrame = requestAnimationFrame(loop);
-    }
-
-    function start() {
-      isRunning = true;
-      startBtn.textContent = "Stop Pacer";
-      startBtn.style.background = "#e53e3e";
-      cycleStartTime = performance.now();
-      animFrame = requestAnimationFrame(loop);
-    }
-
-    function stop() {
-      isRunning = false;
-      cancelAnimationFrame(animFrame);
-      startBtn.textContent = "Start Åndedræt";
-      startBtn.style.background = "#319795";
-      circle.style.transform = "scale(1)";
-      circle.style.background = "radial-gradient(circle, #4fd1c5 0%, #319795 100%)";
-      phaseLabel.textContent = "KLAR";
-      timerCount.textContent = "--";
-    }
-
-    startBtn.addEventListener("click", function() {
-      if (isRunning) {
-        stop();
-      } else {
-        start();
+      // WAKELOCK
+      async function requestWakeLock() {
+        if ('wakeLock' in navigator) {
+          try { wakeLock = await navigator.wakeLock.request('screen'); } catch (e) {}
+        }
       }
+
+      function releaseWakeLock() {
+        if (wakeLock) { wakeLock.release(); wakeLock = null; }
+      }
+
+      // HRV TOGGLE UPDATE
+      if (hrvToggle) {
+        hrvToggle.addEventListener("change", () => {
+          const enabled = hrvToggle.checked;
+          hrvPanel.style.display = enabled ? "block" : "none";
+          resetFlowState();
+        });
+      }
+
+      function resetFlowState() {
+        flowState = 'IDLE';
+        cancelAnimationFrame(animFrame);
+        clearInterval(protocolInterval);
+        releaseWakeLock();
+
+        mainBtn.textContent = hrvToggle && hrvToggle.checked ? "Start HRV-Protokol" : "Start Åndedræt";
+        mainBtn.classList.remove("is-running");
+        
+        circle.style.transform = "scale(1)";
+        circle.style.background = "radial-gradient(circle, #4fd1c5 0%, #319795 100%)";
+        phaseLabel.textContent = "KLAR";
+        timerCount.textContent = "--";
+
+        if (colPre) colPre.classList.remove("is-active-input");
+        if (colPost) colPost.classList.remove("is-active-input");
+        if (protocolBox) protocolBox.classList.remove("is-highlighted");
+        if (protocolTimerBadge) protocolTimerBadge.style.display = "none";
+
+        if (protocolTitle) protocolTitle.textContent = "HRV og Åndedræts-Protokol";
+        if (protocolText) {
+          protocolText.innerHTML = "Slå testen til og tryk 'Start Protokol'. Du guides igennem 1 min før-måling, 3-5 min åndedræt og 1 min efter-måling.";
+        }
+      }
+
+      function start1MinTimer(onComplete) {
+        let remaining = 60;
+        if (protocolTimerBadge) {
+          protocolTimerBadge.style.display = "inline-block";
+          protocolTimerBadge.textContent = "01:00";
+        }
+
+        clearInterval(protocolInterval);
+        protocolInterval = setInterval(() => {
+          remaining--;
+          const m = Math.floor(remaining / 60).toString().padStart(2, '0');
+          const s = (remaining % 60).toString().padStart(2, '0');
+          if (protocolTimerBadge) protocolTimerBadge.textContent = `${m}:${s}`;
+
+          if (remaining <= 0) {
+            clearInterval(protocolInterval);
+            if (protocolTimerBadge) protocolTimerBadge.style.display = "none";
+            if (onComplete) onComplete();
+          }
+        }, 1000);
+      }
+
+      // PACER LØKKE
+      function getPhaseInfo(elapsed) {
+        let t = elapsed;
+        if (t < inhale) {
+          const progress = t / inhale;
+          return { name: "Ånd ind", scale: MIN_SCALE + (MAX_SCALE - MIN_SCALE) * progress, count: Math.ceil(inhale - t), color: "#4fd1c5" };
+        }
+        t -= inhale;
+
+        if (hold1 > 0 && t < hold1) {
+          return { name: "Hold vejret", scale: MAX_SCALE, count: Math.ceil(hold1 - t), color: "#f6ad55" };
+        }
+        if (hold1 > 0) t -= hold1;
+
+        if (t < exhale) {
+          const progress = t / exhale;
+          return { name: "Pust ud", scale: MAX_SCALE - (MAX_SCALE - MIN_SCALE) * progress, count: Math.ceil(exhale - t), color: "#63b3ed" };
+        }
+        t -= exhale;
+
+        if (hold2 > 0 && t < hold2) {
+          return { name: "Pause", scale: MIN_SCALE, count: Math.ceil(hold2 - t), color: "#f6ad55" };
+        }
+
+        return null;
+      }
+
+      function loop(now) {
+        if (flowState !== 'BREATHING') return;
+
+        const totalSessionSecs = Math.floor((now - sessionStartTime) / 1000);
+        const mins = Math.floor(totalSessionSecs / 60).toString().padStart(2, '0');
+        const secs = (totalSessionSecs % 60).toString().padStart(2, '0');
+        if (totalTimerEl) totalTimerEl.textContent = `${mins}:${secs}`;
+
+        const totalCycleDuration = (inhale + hold1 + exhale + hold2) * 1000;
+        let elapsed = (now - cycleStartTime) % totalCycleDuration;
+        let info = getPhaseInfo(elapsed / 1000);
+
+        if (info) {
+          circle.style.transform = `scale(${info.scale})`;
+          circle.style.background = info.color;
+          phaseLabel.textContent = info.name;
+          timerCount.textContent = info.count;
+        }
+
+        animFrame = requestAnimationFrame(loop);
+      }
+
+      // HOVED KNAP LOGIK (FLOW MACHINE)
+      mainBtn.addEventListener("click", () => {
+        const isHrvEnabled = hrvToggle && hrvToggle.checked;
+
+        if (!isHrvEnabled) {
+          // Standard pacer
+          if (flowState === 'BREATHING') {
+            resetFlowState();
+          } else {
+            flowState = 'BREATHING';
+            requestWakeLock();
+            mainBtn.textContent = "Stop";
+            mainBtn.classList.add("is-running");
+            sessionStartTime = performance.now();
+            cycleStartTime = performance.now();
+            animFrame = requestAnimationFrame(loop);
+          }
+          return;
+        }
+
+        // HVIS HRV ER SLÅET TIL (3-TRINS PROTOKOL)
+        if (flowState === 'IDLE') {
+          // TRIN 1: FØR-MÅLING (1 MINUT)
+          flowState = 'PRE_HRV';
+          requestWakeLock();
+          mainBtn.textContent = "Start Åndedrætsøvelse";
+          
+          if (colPre) colPre.classList.add("is-active-input");
+          if (colPost) colPost.classList.remove("is-active-input");
+          if (protocolBox) protocolBox.classList.add("is-highlighted");
+          
+          if (protocolTitle) protocolTitle.textContent = "Trin 1 af 3: Mål Før-HRV (1 min)";
+          if (protocolText) {
+            protocolText.innerHTML = "Sid helt roligt og mål din baseline i 1 minut. Indtast værdierne under 'Før Øvelse'. Tryk 'Start Åndedrætsøvelse' når du er klar.";
+          }
+          if (preHrInp) preHrInp.focus();
+          start1MinTimer();
+
+        } else if (flowState === 'PRE_HRV') {
+          // TRIN 2: ÅNDEDRÆTSØVELSE (3-5 MINUTTER)
+          flowState = 'BREATHING';
+          clearInterval(protocolInterval);
+          if (protocolTimerBadge) protocolTimerBadge.style.display = "none";
+
+          mainBtn.textContent = "Stop & Mål Efter-HRV";
+          mainBtn.classList.add("is-running");
+
+          if (colPre) colPre.classList.remove("is-active-input");
+          if (protocolTitle) protocolTitle.textContent = "Trin 2 af 3: Åndedrætsøvelse i gang";
+          if (protocolText) {
+            protocolText.innerHTML = "Følg paceren i <strong>3–5 minutter</strong> for optimal vagal aktivering og HRV-respons.";
+          }
+
+          sessionStartTime = performance.now();
+          cycleStartTime = performance.now();
+          animFrame = requestAnimationFrame(loop);
+
+        } else if (flowState === 'BREATHING') {
+          // TRIN 3: EFTER-MÅLING (1 MINUT)
+          flowState = 'POST_HRV';
+          cancelAnimationFrame(animFrame);
+          
+          circle.style.transform = "scale(1)";
+          circle.style.background = "radial-gradient(circle, #4fd1c5 0%, #319795 100%)";
+          phaseLabel.textContent = "KLAR";
+          timerCount.textContent = "--";
+
+          mainBtn.textContent = "Afslut Protokol";
+          mainBtn.classList.remove("is-running");
+
+          if (colPost) colPost.classList.add("is-active-input");
+          if (protocolTitle) protocolTitle.textContent = "Trin 3 af 3: Mål Efter-HRV (1 min)";
+          if (protocolText) {
+            protocolText.innerHTML = "Sid helt roligt og mål din puls & HRV i 1 minut. Indtast værdierne under 'Efter Øvelse'.";
+          }
+          if (postHrInp) postHrInp.focus();
+          start1MinTimer();
+
+        } else if (flowState === 'POST_HRV') {
+          resetFlowState();
+        }
+      });
+
+      function updateHrvCalculations() {
+        const preHr = parseInt(preHrInp.value, 10);
+        const preHrv = parseInt(preHrvInp.value, 10);
+        const postHr = parseInt(postHrInp.value, 10);
+        const postHrv = parseInt(postHrvInp.value, 10);
+
+        if (!isNaN(preHr) && !isNaN(postHr)) {
+          const hrDiff = postHr - preHr;
+          hrDeltaTxt.textContent = `${hrDiff > 0 ? '+' : ''}${hrDiff} bpm`;
+          hrDeltaTxt.className = `delta-value ${hrDiff < 0 ? 'is-positive' : (hrDiff > 0 ? 'is-negative' : '')}`;
+        } else {
+          hrDeltaTxt.textContent = "-- bpm";
+          hrDeltaTxt.className = "delta-value";
+        }
+
+        if (!isNaN(preHrv) && !isNaN(postHrv)) {
+          const hrvDiff = postHrv - preHrv;
+          hrvDeltaTxt.textContent = `${hrvDiff > 0 ? '+' : ''}${hrvDiff} ms`;
+          hrvDeltaTxt.className = `delta-value ${hrvDiff > 0 ? 'is-positive' : (hrvDiff < 0 ? 'is-negative' : '')}`;
+        } else {
+          hrvDeltaTxt.textContent = "-- ms";
+          hrvDeltaTxt.className = "delta-value";
+        }
+
+        if (!isNaN(preHr) && !isNaN(postHr) && StorageAdapter) {
+          StorageAdapter.commitToLog('breathing_hrv_test', {
+            type: 'physical',
+            primary: { value: postHrv || postHr, unit: postHrv ? 'ms' : 'bpm', label: 'Åndedræt HRV Respons' },
+            subMetrics: {
+              preHr, postHr, preHrv, postHrv,
+              hrDelta: postHr - preHr,
+              hrvDelta: !isNaN(preHrv) && !isNaN(postHrv) ? postHrv - preHrv : null
+            }
+          });
+          window.dispatchEvent(new CustomEvent('storage-update', { detail: { key: 'breathing_hrv_test' } }));
+        }
+      }
+
+      [preHrInp, preHrvInp, postHrInp, postHrvInp].forEach(inp => {
+        if (inp) inp.addEventListener("input", updateHrvCalculations);
+      });
     });
-  });
-});
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initBreathingPacerWidget);
+  } else {
+    initBreathingPacerWidget();
+  }
+})();
 </script>

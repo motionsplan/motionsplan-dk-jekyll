@@ -175,9 +175,12 @@ Vekselåndedræt er en klassisk yogateknik, der balancerer venstre og højre sid
 
 ---
 
-## Videnskabelige kilder og litteratur
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 * **Illi, S. K., Hostettler, S., Mohler, E., Aliverti, A., & Spengler, C. M. (2012).** *Effect of respiratory muscle training on performance in athletes: a systematic review.* Sports Medicine, 42(6), 485–503.
 * **Ma, X., Yue, Z. Q., Gong, Z. Q., Zhang, H., Duan, N. Y., Shi, Y. T., Wei, G. X., & Li, Y. F. (2017).** *The Effect of Diaphragmatic Breathing on Attention, Negative Affect and Stress in Healthy Adults.* Frontiers in Psychology, 8, 874.
 * **McConnell, A. K., & Romer, L. M. (2004).** *Respiratory muscle training in healthy humans: physiological responses and training recommendations.* European Journal of Applied Physiology, 91(5-6), 485–499.
 * **Stromberg, S. E., Russell, M. E., & Carlson, C. R. (2015).** *Diaphragmatic breathing reduces post-prandial oxidative stress and glypression in athletes.* Journal of Alternative and Complementary Medicine, 21(3), 136–142.
+
+</details>
