@@ -792,7 +792,7 @@ function commitToStorageAdapter(calcRes) {
       if (int20_30) {
         StorageAdapter.commitToLog('sprint_20_30m', {
           type: 'physical',
-          primary: { value: parseFloat(int20_30.timeSecs.toFixed(2)), unit: 'sek', label: '20-30m Topfart' },
+          primary: { value: parseFloat(int20_30.timeSecs.toFixed(2)), unit: 'sek', label: '20-30m topfart' },
           subMetrics: { topSpeedKmh: parseFloat(int20_30.kmh.toFixed(1)) },
           context: ctx
         });
@@ -802,8 +802,8 @@ function commitToStorageAdapter(calcRes) {
       if (calcRes.int25_30) {
         StorageAdapter.commitToLog('sprint_25_30m', {
           type: 'physical',
-          primary: { value: parseFloat(calcRes.int25_30.timeSecs.toFixed(2)), unit: 'sek', label: '25-30m Spidshastighed' },
-          subMetrics: { topSpeedKmh: parseFloat(calcRes.int25_30.kmh.toFixed(1)) },
+          primary: { value: parseFloat(calcRes.int25_30.kmh.toFixed(1)), unit: 'km/t', label: '25-30m tophastighed' },
+          subMetrics: { time: parseFloat(calcRes.int25_30.timeSecs.toFixed(2)) },
           context: ctx
         });
       }
