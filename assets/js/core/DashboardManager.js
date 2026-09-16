@@ -46,13 +46,19 @@ export const DashboardManager = {
     }
   },
 
-  // Henter seneste resultat og norm-farver via StorageAdapter
-  getCardScore(storageKey) {
+  // Henter seneste resultat og norm-farver via StorageAdapter med dynamisk enhed
+  getCardScore(storageKey, fallbackUnit = '') {
     const latest = StorageAdapter.getLatest(storageKey);
     
+    // Automatisk fallback-opslag i MP_DATA hvis unit ikke er sendt direkte med
+    if (!fallbackUnit && typeof window !== 'undefined' && window.MP_DATA?.tests) {
+      const testDef = window.MP_DATA.tests.find(t => t.storage_key === storageKey || t.id === storageKey);
+      if (testDef) fallbackUnit = testDef.unit || '';
+    }
+
     if (!latest || !latest.primary) {
       return {
-        display: '- <span class="mp-db-unit">ml/kg/min</span>',
+        display: `- <span class="mp-db-unit">${fallbackUnit}</span>`,
         bg: '#f8fafc',
         color: '#64748b',
         border: '#e2e8f0'
@@ -60,7 +66,7 @@ export const DashboardManager = {
     }
 
     const val = latest.primary.value;
-    const unit = latest.primary.unit || 'ml/kg/min';
+    const unit = latest.primary.unit || fallbackUnit;
     const display = `${val} <span class="mp-db-unit">${unit}</span>`;
 
     let bg = '#dcfce7';
@@ -110,7 +116,8 @@ export const DashboardManager = {
         const item = library[key];
         if (!item) return;
 
-        const score = this.getCardScore(item.storageKey);
+        // Sender både storageKey og item.unit videre til getCardScore
+        const score = this.getCardScore(item.storageKey, item.unit || '');
         const isInteractive = !!item.allowQuickLog;
         const hasTag = showTag && item.tag;
 
@@ -171,7 +178,7 @@ export const DashboardManager = {
 
           quickModal.querySelector('.js-quicklog-title').textContent = item.title;
           quickModal.querySelector('.js-quicklog-key').value = key;
-          quickModal.querySelector('.js-quicklog-unit').textContent = item.quickLogUnit || item.unit || 'ml/kg/min';
+          quickModal.querySelector('.js-quicklog-unit').textContent = item.quickLogUnit || item.unit || '';
           quickModal.querySelector('.js-quicklog-input').value = '';
           quickModal.style.display = 'flex';
         });
@@ -192,7 +199,7 @@ export const DashboardManager = {
             type: 'manual',
             primary: {
               value: val,
-              unit: item.unit || 'ml/kg/min'
+              unit: item.unit || ''
             }
           });
 
@@ -226,7 +233,12 @@ export const DashboardManager = {
 
       Object.keys(library).forEach(key => {
         const item = library[key];
-        if (activeCategory !== 'all' && item.category !== activeCategory) return;
+        const matchesCategory = activeCategory === 'all' || 
+        (Array.isArray(item.category) 
+          ? item.category.includes(activeCategory) 
+          : item.category === activeCategory);
+
+        if (!matchesCategory) return;
 
         const isAdded = currentCards.includes(key);
 

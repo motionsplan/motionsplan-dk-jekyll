@@ -1,10 +1,12 @@
 // assets/js/ui/jump-reach-ui.js
 import { calculateJumpReach, evaluateJumpHeight, JUMP_POWER_FORMULAS, JUMP_VARIATIONS } from '../core/jump-reach.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
+
+const PRIMARY_TEST_ID = 'jump_reach';
+const LEGACY_STORAGE_KEY = 'mp_jump_reach_dashboard_v9';
 
 export function initCalculator(container) {
   if (!container) return;
-
-  const STORAGE_KEY = 'mp_jump_reach_dashboard_v9';
 
   let activeFormulaKey = 'sayers_cmj';
   let activeMethod = 'reach';
@@ -230,59 +232,80 @@ export function initCalculator(container) {
     });
   }
 
+  // --- 1. GEM KLADDE & PROFIL VIA STORAGEADAPTER + LEGACY FALLBACK ---
   function saveState() {
+    saveCurrentInputsToVariation();
+
+    const age = parseInt(container.querySelector('[name="jr_age"]')?.value || '0', 10);
+    const weight = parseFloat(container.querySelector('[name="jr_weight"]')?.value || '0');
+    const bodyHeight = parseFloat(container.querySelector('[name="jr_body_height"]')?.value || '0');
+    const genderEl = container.querySelector('input[name="jr_gender"]:checked');
+    const gender = genderEl ? genderEl.value : 'male';
+
+    if (age > 0 || weight > 0 || bodyHeight > 0) {
+      StorageAdapter.saveProfile({
+        ...(age > 0 && { age }),
+        ...(weight > 0 && { weight }),
+        ...(bodyHeight > 0 && { height: bodyHeight }),
+        gender: (gender === 'male' || gender === 'mand') ? 'male' : 'female'
+      });
+    }
+
+    const stateObj = {
+      activeFormulaKey,
+      activeMethod,
+      activeVariationKey,
+      variationData,
+      savedLogEntries,
+      weight: container.querySelector('[name="jr_weight"]')?.value || '',
+      bodyHeight: container.querySelector('[name="jr_body_height"]')?.value || '',
+      age: container.querySelector('[name="jr_age"]')?.value || '',
+      gender
+    };
+
+    // Dobbelt-gem for både StorageAdapter draft og legacy v9 nøgle
+    StorageAdapter.saveDraft(PRIMARY_TEST_ID, stateObj);
     try {
-      saveCurrentInputsToVariation();
-      const state = {
-        activeFormulaKey,
-        activeMethod,
-        activeVariationKey,
-        variationData,
-        savedLogEntries,
-        weight: container.querySelector('[name="jr_weight"]')?.value || '',
-        bodyHeight: container.querySelector('[name="jr_body_height"]')?.value || '',
-        age: container.querySelector('[name="jr_age"]')?.value || '',
-        gender: container.querySelector('input[name="jr_gender"]:checked')?.value || 'male'
-      };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      localStorage.setItem(LEGACY_STORAGE_KEY, JSON.stringify(stateObj));
     } catch (e) {}
   }
 
+  // --- 2. INDLÆS KLADDE ELLER PROFIL ---
   function loadState() {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        const state = JSON.parse(saved);
-        if (state.activeFormulaKey && JUMP_POWER_FORMULAS[state.activeFormulaKey]) {
-          activeFormulaKey = state.activeFormulaKey;
-        }
-        if (state.activeMethod) {
-          activeMethod = state.activeMethod;
-        }
-        if (state.activeVariationKey && variationData[state.activeVariationKey]) {
-          activeVariationKey = state.activeVariationKey;
-        }
-        if (state.variationData) {
-          variationData = { ...variationData, ...state.variationData };
-        }
-        if (state.savedLogEntries && Array.isArray(state.savedLogEntries)) {
-          savedLogEntries = state.savedLogEntries;
-        }
-        if (state.weight && container.querySelector('[name="jr_weight"]')) {
-          container.querySelector('[name="jr_weight"]').value = state.weight;
-        }
-        if (state.bodyHeight && container.querySelector('[name="jr_body_height"]')) {
-          container.querySelector('[name="jr_body_height"]').value = state.bodyHeight;
-        }
-        if (state.age && container.querySelector('[name="jr_age"]')) {
-          container.querySelector('[name="jr_age"]').value = state.age;
-        }
-        if (state.gender) {
-          const radio = container.querySelector(`input[name="jr_gender"][value="${state.gender}"]`);
-          if (radio) radio.checked = true;
-        }
+    const profile = StorageAdapter.getProfile();
+    let state = StorageAdapter.loadDraft(PRIMARY_TEST_ID);
+
+    if (!state) {
+      try {
+        const legacy = localStorage.getItem(LEGACY_STORAGE_KEY);
+        if (legacy) state = JSON.parse(legacy);
+      } catch (e) {}
+    }
+
+    if (state) {
+      if (state.activeFormulaKey && JUMP_POWER_FORMULAS[state.activeFormulaKey]) activeFormulaKey = state.activeFormulaKey;
+      if (state.activeMethod) activeMethod = state.activeMethod;
+      if (state.activeVariationKey && variationData[state.activeVariationKey]) activeVariationKey = state.activeVariationKey;
+      if (state.variationData) variationData = { ...variationData, ...state.variationData };
+      if (state.savedLogEntries && Array.isArray(state.savedLogEntries)) savedLogEntries = state.savedLogEntries;
+
+      if (state.weight && container.querySelector('[name="jr_weight"]')) container.querySelector('[name="jr_weight"]').value = state.weight;
+      if (state.bodyHeight && container.querySelector('[name="jr_body_height"]')) container.querySelector('[name="jr_body_height"]').value = state.bodyHeight;
+      if (state.age && container.querySelector('[name="jr_age"]')) container.querySelector('[name="jr_age"]').value = state.age;
+      if (state.gender) {
+        const radio = container.querySelector(`input[name="jr_gender"][value="${state.gender}"]`);
+        if (radio) radio.checked = true;
       }
-    } catch (e) {}
+    } else {
+      if (profile.weight && container.querySelector('[name="jr_weight"]')) container.querySelector('[name="jr_weight"]').value = profile.weight;
+      if (profile.height && container.querySelector('[name="jr_body_height"]')) container.querySelector('[name="jr_body_height"]').value = profile.height;
+      if (profile.age && container.querySelector('[name="jr_age"]')) container.querySelector('[name="jr_age"]').value = profile.age;
+      if (profile.gender) {
+        const genderVal = (profile.gender === 'male' || profile.gender === 'man') ? 'male' : 'female';
+        const radio = container.querySelector(`input[name="jr_gender"][value="${genderVal}"]`);
+        if (radio) radio.checked = true;
+      }
+    }
   }
 
   function updateGenderUI() {
@@ -409,7 +432,7 @@ export function initCalculator(container) {
         resEvalBtn.style.color = '#64748b';
       }
 
-      const t = evaluation.thresholds;
+      const t = evaluation ? evaluation.thresholds : null;
       if (t && marker) {
         const v = res.jumpHeightNumber;
         let percent = 0;
@@ -499,7 +522,7 @@ export function initCalculator(container) {
     });
   });
 
-  // GEM RESULTAT PÅ VALGT KORT & I LOG
+  // GEM RESULTAT PÅ INTERNT KORT OG GEM TIL STORAGEADAPTER
   if (btnSaveToCard) {
     btnSaveToCard.addEventListener('click', () => {
       const currentHeight = resHeightOut ? parseFloat(resHeightOut.textContent) : 0;
@@ -515,7 +538,7 @@ export function initCalculator(container) {
       const gender = genderEl ? genderEl.value : 'male';
       const evaluation = evaluateJumpHeight(currentHeight, age > 0 ? age : 25, gender);
 
-      // OPDATER KORTETS PR HVIS HOPPET ER STØRRE END NUVÆRENDE REKORD
+      // 1. OPDATER DET LOKALE KORTS PR (Visuelt i UI)
       const curData = variationData[activeVariationKey] || {};
       if (currentHeight >= curData.prHeight) {
         curData.prHeight = currentHeight;
@@ -524,7 +547,7 @@ export function initCalculator(container) {
         curData.prEvalColor = evaluation ? evaluation.color : '#3b82f6';
       }
 
-      // GEM I LOG TABELLEN
+      // 2. GEM I DEN INTERNE LOKALE LOG TABEL
       const vDef = JUMP_VARIATIONS.find(v => v.key === activeVariationKey);
       savedLogEntries.unshift({
         title: vDef ? vDef.label : 'Hop-type',
@@ -532,11 +555,55 @@ export function initCalculator(container) {
         powerW: currentPower > 0 ? currentPower : '-'
       });
 
+      // 3. SKRIV TIL STORAGEADAPTER FOR DASHBOARDET (/hjem/)
+      const recordPayload = {
+        type: 'physical',
+        primary: {
+          value: parseFloat(currentHeight.toFixed(1)),
+          unit: 'cm',
+          label: 'Hophøjde'
+        },
+        ...(evaluation && {
+          norm: {
+            label: evaluation.label,
+            color: evaluation.color,
+            bg: `${evaluation.color}18`
+          }
+        }),
+        subMetrics: {
+          peakPowerW: currentPower > 0 ? currentPower : null,
+          variation: activeVariationKey,
+          variationTitle: vDef ? vDef.label : activeVariationKey
+        },
+        context: {
+          age,
+          gender,
+          weight: parseFloat(container.querySelector('[name="jr_weight"]')?.value || '0'),
+          bodyHeight: parseFloat(container.querySelector('[name="jr_body_height"]')?.value || '0'),
+          formulaKey: activeFormulaKey
+        }
+      };
+
+      // Gem til både generel nøgle (jump_reach) og specifik variant-nøgle (f.eks. jump_reach_cmj_1h)
+      StorageAdapter.commitToLog(PRIMARY_TEST_ID, recordPayload);
+      StorageAdapter.commitToLog(`jump_reach_${activeVariationKey}`, recordPayload);
+
+      // Visuel feedback på Gem-knappen
+      const originalText = btnSaveToCard.innerHTML;
+      btnSaveToCard.innerHTML = '✅ Gemt!';
+      btnSaveToCard.style.background = '#16a34a';
+      btnSaveToCard.disabled = true;
+
+      setTimeout(() => {
+        btnSaveToCard.innerHTML = originalText;
+        btnSaveToCard.style.background = '#2563eb';
+        btnSaveToCard.disabled = false;
+      }, 2000);
+
       calculate();
     });
   }
 
-  // NULSTIL PR KUN FOR DEN AKTIVE / FREMHÆVEDE VARIATION
   if (btnClearPr) {
     btnClearPr.addEventListener('click', () => {
       if (variationData[activeVariationKey]) {
@@ -574,7 +641,9 @@ export function initCalculator(container) {
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+      StorageAdapter.clearDraft(PRIMARY_TEST_ID);
+      try { localStorage.removeItem(LEGACY_STORAGE_KEY); } catch (e) {}
+
       activeFormulaKey = 'sayers_cmj';
       activeMethod = 'reach';
       activeVariationKey = 'cmj_1h';

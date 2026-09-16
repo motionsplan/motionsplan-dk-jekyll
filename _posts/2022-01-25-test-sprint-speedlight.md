@@ -12,8 +12,8 @@ header:
   overlay_image: /assets/images/unsplash/photo-1461896836934-ffe607ba8211.jpg
   overlay_filter: "0.3"
 categories:
-  - Tests
   - Eksplosivitet
+  - Sprint
 tags:
   - test
   - sprinttest
@@ -28,9 +28,29 @@ meta:
   max: maksimal test
   direct: direkte test
 tests:
+  - id: "sprint-5m"
+    title: "5m Sprint"
+    description: "Måler den eksplosive kraft fra stående start til 5 meter (0-5m)."
+    icon: "⚡"
+    badge: "Sprint"
+    unit: "sek"
+    storage_key: "sprint_5m"
+    allow_quick_log: true
+    category: ["Sprint", "Eksplosivitet"]
+    type: ["Protokol", "Sprinttest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Sprint"]
+    measures: ["Startkraft", "Reaktionshastighed", "Splittid"]
+    equipment: ["Fotoceller / Sprintceller", "Målebånd"]
+    setting: ["Udendørs", "Indendørs", "Løbebane"]
+    target_group: ["Atleter", "Fodboldspillere", "Håndboldspillere"]
+    related_tools:
+      - "tool-sprint-calc-beregner"
+
   - id: "sprint-10m"
     title: "10m Acceleration Sprint"
-    description: "Måler den eksplosive startkraft og rene acceleration fra stående start."
+    description: "Måler evnen til at accellerere fra stående start over 10 meter."
     icon: "⚡"
     badge: "Sprint"
     unit: "sek"
@@ -42,14 +62,75 @@ tests:
     method: "direkte"
     modality: ["Sprint"]
     measures: ["Acceleration", "Startkraft", "Splittid"]
-    equipment: ["Fotoceller / Sprintceller", "Målebånd", "Kegler"]
+    equipment: ["Fotoceller / Sprintceller", "Målebånd"]
     setting: ["Udendørs", "Indendørs", "Løbebane"]
-    target_group: ["Atleter", "Fodboldspillere", "Håndboldspillere", "Motionister"]
-    related_tools: ["tool-sprint-calc-beregner"]
+    target_group: ["Atleter", "Fodboldspillere", "Håndboldspillere"]
+    related_tools:
+      - "tool-sprint-calc-beregner"
+
+  - id: "sprint-10-20m"
+    title: "10-20m max-v opbygning"
+    description: "Måler overgangen fra acceleration til maksimal opbygning af hastighed i zone 10-20 meter."
+    icon: "🏎️"
+    badge: "Sprint"
+    unit: "sek"
+    storage_key: "sprint_10_20m"
+    allow_quick_log: true
+    category: ["Sprint", "Eksplosivitet"]
+    type: ["Protokol", "Sprinttest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Sprint"]
+    measures: ["Hastighedsopbygning", "Splittid", "Midtvejsfart"]
+    equipment: ["Fotoceller / Sprintceller", "Målebånd"]
+    setting: ["Udendørs", "Indendørs", "Løbebane"]
+    target_group: ["Atleter", "Fodboldspillere", "Sprintere"]
+    related_tools:
+      - "tool-sprint-calc-beregner"
+
+  - id: "sprint-20-30m"
+    title: "20-30m topfart (10m Fly)"
+    description: "Måler den maksimale tophastighed (MaxV) isoleret over 10 meters flyvende zone med 20m tilløb."
+    icon: "🚀"
+    badge: "Sprint"
+    unit: "sek"
+    storage_key: "sprint_20_30m"
+    allow_quick_log: true
+    category: ["Sprint", "Eksplosivitet"]
+    type: ["Protokol", "Sprinttest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Sprint"]
+    measures: ["Tophastighed", "Max Velocity (km/t)", "Splittid"]
+    equipment: ["Fotoceller / Sprintceller", "Målebånd"]
+    setting: ["Udendørs", "Indendørs", "Løbebane"]
+    target_group: ["Atleter", "Fodboldspillere", "Sprintere"]
+    related_tools:
+      - "tool-sprint-calc-beregner"
+
+  - id: "sprint-25-30m"
+    title: "25-30m topfart (5m Fly)"
+    description: "Måler den absolutte tophastighed isoleret over de sidste 5 meter med 25m tilløb."
+    icon: "🚀"
+    badge: "Sprint"
+    unit: "sek"
+    storage_key: "sprint_25_30m"
+    allow_quick_log: true
+    category: ["Sprint", "Eksplosivitet"]
+    type: ["Protokol", "Sprinttest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Sprint"]
+    measures: ["Spidshastighed", "Max Velocity (km/t)", "Terminal fart"]
+    equipment: ["Fotoceller / Sprintceller", "Målebånd"]
+    setting: ["Udendørs", "Indendørs", "Løbebane"]
+    target_group: ["Atleter", "Sprintere"]
+    related_tools:
+      - "tool-sprint-calc-beregner"
 
   - id: "sprint-30m"
     title: "30m Total Sprint"
-    description: "Standardiseret sprinttest der måler den samlede tid fra start til 30 meters mærket."
+    description: "Standardiseret sprinttest der måler den samlede tid fra stående start til 30-meters mærket."
     icon: "⚡"
     badge: "Sprint"
     unit: "sek"
@@ -61,29 +142,11 @@ tests:
     method: "direkte"
     modality: ["Sprint"]
     measures: ["Total sprinttid", "Gennemsnitshastighed"]
-    equipment: ["Fotoceller / Sprintceller", "Målebånd", "Kegler"]
+    equipment: ["Fotoceller / Sprintceller", "Målebånd"]
     setting: ["Udendørs", "Indendørs", "Løbebane"]
-    target_group: ["Atleter", "Fodboldspillere", "Håndboldspillere", "Motionister"]
-    related_tools: ["tool-sprint-calc-beregner"]
-
-  - id: "flying-10m"
-    title: "Flyvende 10m (Topfart 20-30m)"
-    description: "Måler den maksimale tophastighed (Maximal Velocity) isoleret over 10 meter med tilløb."
-    icon: "🚀"
-    badge: "Sprint"
-    unit: "sek"
-    storage_key: "flying_10m"
-    allow_quick_log: true
-    category: ["Sprint", "Eksplosivitet"]
-    type: ["Protokol", "Sprinttest"]
-    execution: ["Fysisk"]
-    method: "direkte"
-    modality: ["Sprint"]
-    measures: ["Tophastighed", "Max Velocity (m/s / km/t)"]
-    equipment: ["Fotoceller / Sprintceller", "Målebånd", "Kegler"]
-    setting: ["Udendørs", "Indendørs", "Løbebane"]
-    target_group: ["Atleter", "Fodboldspillere", "Sprintere"]
-    related_tools: ["tool-sprint-calc-beregner"]
+    target_group: ["Atleter", "Fodboldspillere", "Håndboldspillere"]
+    related_tools:
+      - "tool-sprint-calc-beregner"
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:
@@ -111,7 +174,7 @@ Ved at måle splittider på 5, 10, 20 og 30 meter fanger du alle de vigtige fase
 * **0–5 meter:** Eksplosiv reaktion og startkraft (*first-step quickness*).
 * **0–10 meter:** Ren acceleration fra stående position.
 * **10–20 meter:** Overgangsfase til tophastighed.
-* **20–30 meter:** Maksimal løbehastighed (*max velocity*).
+* **20–30 meter eller 25-30 meter:** Maksimal løbehastighed (*max velocity*).
 
 <div class="notice--info" markdown="1">
 👉 **Leder du efter andre sprint- eller udholdenhedstests?** Se vores komplette oversigt over **[sprinttests og hurtighed](/tests/sprint/)**.  

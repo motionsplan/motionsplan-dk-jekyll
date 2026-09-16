@@ -28,7 +28,7 @@ tests:
   - id: "squat-jump"
     title: "Squat Jump (SJ)"
     description: "Vertikal hoppetest til måling af ren koncentrisk muskelkraft i benene helt uden forspænding (start fra 90° bøjede knæ i 2-3 sekunder)."
-    category: ["Eksplosivitet", "Spring", "Vertikal"]
+    category: ["Vertikal", "Eksplosivitet", "Spring"]
     type: ["Protokol", "Springtest"]
     execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver maksimalt lodret hop fra statisk position
     method: "direkte"                     # 📏 Måles direkte i cm (via svævetid eller kraftplatform)
@@ -49,7 +49,7 @@ tests:
   - id: "countermovement-jump"
     title: "Countermovement Jump (CMJ)"
     description: "Vertikal hoppetest til måling af underkroppens eksplosivitet med udnyttelse af stræk-forkortningscyklussen (SSC) og forspænding."
-    category: ["Eksplosivitet", "Spring", "Vertikal"]
+    category: ["Vertikal", "Eksplosivitet", "Spring"]
     type: ["Protokol", "Springtest"]
     execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver dynamisk knæbøjning og eksplosivt hop
     method: "direkte"                     # 📏 Måles direkte i cm
@@ -67,10 +67,10 @@ tests:
     storage_key: "cmj"
     allow_quick_log: true
 
-  - id: "abalakov"
+  - id: "abalakov-cmj"
     title: "Abalakov-test (CMJ med armsving)"
     description: "Vertikal hoppetest til måling af den maksimale hoppehøjde ved kombinering af underkroppens eksplosivitet og overkroppens armsving."
-    category: ["Eksplosivitet", "Spring", "Vertikal"]
+    category: ["Vertikal", "Eksplosivitet", "Spring"]
     type: ["Protokol", "Springtest"]
     execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver maksimalt hop med aktivt armsving
     method: "direkte"                     # 📏 Måles direkte i cm
@@ -129,13 +129,12 @@ I stedet for blot at kigge på ét enkelt talløst hop, giver kombinationen af *
 
 ## De 3 vertikale hoppetests
 
-<div class="notice--info" markdown="1">
 ### 1. Squat Jump (SJ) – ren koncentrisk styrke
 {: id="sj" }
+
 [Squat Jump](/squat-jump-test/) måler den rene koncentriske muskelkraft i benene **helt uden forspænding**. 
 * **Udførelse:** Atleten starter fra en statisk position med knæene bøjede i $90^\circ$ vinkel i mindst 2–3 sekunder. Derefter springes der direkte lodret op uden nogen forudgående nedbevægelse.
 * **Formål:** Isolere musklernes evne til at skabe kraft fra nulpunktet uden hjælp fra oplagret elastisk energi.
-</div>
 
 {% include figure image_path="https://www.researchgate.net/profile/Karim_Chamari/publication/229085181/figure/fig3/AS:667776209412097@1536221663136/Squat-Jump.png" caption="Squat Jump (SJ) faser: Statisk udgangsposition, afsæt og landing. Kilde: [Chamari et al. (2010)](https://www.researchgate.net/publication/229085181_Anaerobic_power_and_capacity)." %}
 
@@ -143,13 +142,12 @@ I stedet for blot at kigge på ét enkelt talløst hop, giver kombinationen af *
 
 ---
 
-<div class="notice--success" markdown="1">
 ### 2. Countermovement Jump (CMJ) – eksplosivitet med forspænding
 {: id="cmj" }
+
 Countermovement Jump er den mest udbredte test i sportens verden. Den måler din underkrops eksplosivitet, når musklernes **stræk-forkortningscyklus (SSC)** aktiveres.
 * **Udførelse:** Atleten starter stående, laver en hurtig, dynamisk knæbøjning ned til ca. $90^\circ$ og vender bevægelsen øjeblikkeligt i et eksplosivt lodret afsæt. Hænderne holdes på hoften.
 * **Formål:** Måle evnen til at genanvende den elastiske energi, der oplagres i sener og muskelhinder under nedbevægelsen.
-</div>
 
 {% include figure image_path="https://www.researchgate.net/profile/Karim_Chamari/publication/229085181/figure/fig1/AS:300700530692099@1448704001393/Counter-movement-Jump.png" caption="Countermovement Jump (CMJ) faser. Kilde: [Chamari et al. (2010)](https://www.researchgate.net/publication/229085181_Anaerobic_power_and_capacity)." %}
 
@@ -158,13 +156,12 @@ Countermovement Jump er den mest udbredte test i sportens verden. Den måler din
 
 ---
 
-<div class="notice--warning" markdown="1">
 ### 3. Abalakov-test – CMJ med aktivt armsving
 {: id="abalakov" }
+
 Abalakov-testen udføres nøjagtigt som et CMJ, men med **fri anvendelse af armene**.
 * **Udførelse:** Atleten svinger armene aktivt bagud i nedbevægelsen og trækker dem kraftfuldt opad i afsættet.
 * **Formål:** Måle hvor meget overkroppens impuls og tyngdepunktsforskydning bidrager til den samlede hoppehøjde (typisk en forøgelse på 10–15%).
-</div>
 
 #### Eksempel på CMJ med armsving (Abalakov):
 {% include video provider="youtube" id="lgkCxnSHV7w" %}

@@ -35,7 +35,7 @@
         <button type="button" class="js-modal-tab" data-category="Vertikal" style="background: transparent; border: none; padding: 5px 12px; font-size: 0.78rem; font-weight: 700; color: #64748b; border-radius: 6px; cursor: pointer;">Vertikal</button>
         <button type="button" class="js-modal-tab" data-category="Horisontal" style="background: transparent; border: none; padding: 5px 12px; font-size: 0.78rem; font-weight: 700; color: #64748b; border-radius: 6px; cursor: pointer;">Horisontal</button>
         <button type="button" class="js-modal-tab" data-category="Sprint" style="background: transparent; border: none; padding: 5px 12px; font-size: 0.78rem; font-weight: 700; color: #64748b; border-radius: 6px; cursor: pointer;">Sprint</button>
-        <button type="button" class="js-modal-tab" data-category="COD" style="background: transparent; border: none; padding: 5px 12px; font-size: 0.78rem; font-weight: 700; color: #64748b; border-radius: 6px; cursor: pointer;">Retningsskift</button>
+        <button type="button" class="js-modal-tab" data-category="Retningsskift" style="background: transparent; border: none; padding: 5px 12px; font-size: 0.78rem; font-weight: 700; color: #64748b; border-radius: 6px; cursor: pointer;">Retningsskift</button>
       </div>
 
       <div class="js-modal-test-list" style="padding: 16px 20px; overflow-y: auto; flex: 1;">
@@ -64,7 +64,7 @@ export const EKSPLOSIVITET_LIBRARY = {
     icon: {{ test.icon | jsonify }},
     badge: {{ test.badge | jsonify }},
     tag: '{{ test.icon }} {{ test.badge }}',
-    category: {{ test.category.first | jsonify }},
+    category: {{ test.category | jsonify }},
     unit: {{ test.unit | default: "ml/kg/min" | jsonify }},
     url: {{ item.url | jsonify }},
     desc: {{ test.description | jsonify }},
@@ -77,126 +77,11 @@ export const EKSPLOSIVITET_LIBRARY = {
 {%- endfor %}
 };
 
-{% comment %}
-const EKSPLOSIVITET_LIBRARY = {
-  'cmj_no_arms': { 
-    title: 'CMJ (u. arme)', 
-    tag: 'Vertikal', 
-    category: 'Vertikal', 
-    unit: 'cm', 
-    url: '/countermovement-jump-cmj-squat-jump-sj/#cmj', 
-    desc: 'Ren underkroppens eksplosivitet og Slow SSC.', 
-    storageKey: 'cmj_no_arms',
-    allowQuickLog: true 
-  },
-  'broad_jump': { 
-    title: 'Stående Længdehop', 
-    tag: 'Horisontal', 
-    category: 'Horisontal', 
-    unit: 'cm', 
-    url: '/broadjump/', 
-    desc: 'Horisontal kraftudvikling og afsæt fremad.', 
-    storageKey: 'broad_jump',
-    allowQuickLog: true 
-  },
-  'sprint_30m': { 
-    title: '30m Sprint', 
-    tag: 'Sprint', 
-    category: 'Sprint', 
-    unit: 'sek', 
-    url: '/sprinttest-med-sprintceller/', 
-    desc: 'Måler både startacceleration og topfart.', 
-    storageKey: 'sprint_30m',
-    allowQuickLog: true 
-  },
-  'pro_agility_5_10_5': { 
-    title: '5-10-5 Pro Agility', 
-    tag: 'COD', 
-    category: 'COD', 
-    unit: 'sek', 
-    url: '/pro-agility-5-10-5-test/', 
-    desc: 'Lateral opbremsning, vægtforskydning og genacceleration.', 
-    storageKey: 'pro_agility',
-    allowQuickLog: true
-  },
-  'squat_jump': { 
-    title: 'Squat Jump (SJ)', 
-    tag: 'Vertikal', 
-    category: 'Vertikal', 
-    unit: 'cm', 
-    url: '/countermovement-jump-cmj-squat-jump-sj/#sj', 
-    desc: 'Koncentrisk kraft uden elastisk energi.', 
-    storageKey: 'squat_jump',
-    allowQuickLog: true 
-  },
-  'abalakov': { 
-    title: 'Abalakov', 
-    tag: 'Vertikal', 
-    category: 'Vertikal', 
-    unit: 'cm', 
-    url: '/countermovement-jump-cmj-squat-jump-sj/#abalakov', 
-    desc: 'Koncentrisk kraft uden elastisk energi.', 
-    storageKey: 'squat_jump',
-    allowQuickLog: true 
-  },
-  'drop_jump_rsi': { 
-    title: 'Drop Jump (RSI)', 
-    tag: 'Vertikal', 
-    category: 'Vertikal', 
-    unit: 'm/s', 
-    url: '/reactive-strength-index-rsi/', 
-    desc: 'Reaktiv styrke og senestivhed (Fast SSC).', 
-    storageKey: 'drop_jump_rsi',
-    allowQuickLog: true 
-  },
-  'hoptest_batteriet': { 
-    title: 'Hoptest-batteriet', 
-    tag: 'Horisontal', 
-    category: 'Horisontal', 
-    unit: 'cm', 
-    url: '/hoptest-batteriet/', 
-    desc: 'Kontinuerlig reaktiv horisontal kraft.', 
-    storageKey: 'hoptest_batteriet',
-    allowQuickLog: true 
-  },
-  'sprint_10m': { 
-    title: '10m Acceleration', 
-    tag: 'Sprint', 
-    category: 'Sprint', 
-    unit: 'sek', 
-    url: '/sprinttest-med-sprintceller/', 
-    desc: 'Ren startacceleration fra 0 til 10m.', 
-    storageKey: 'sprint_10m',
-    allowQuickLog: true 
-  },
-  'fly_10m': { 
-    title: 'Fly 10m Topfart', 
-    tag: 'Sprint', 
-    category: 'Sprint', 
-    unit: 'sek', 
-    url: '/sprinttest-med-sprintceller/', 
-    desc: 'Maksimal løbehastighed i topfartszone.', 
-    storageKey: 'fly_10m',
-    allowQuickLog: true 
-  },
-  'agility_505': { 
-    title: '505 Agility Test', 
-    tag: 'COD', 
-    category: 'COD', 
-    unit: 'sek', 
-    url: '/505-agility-test/', 
-    desc: 'Isolerer 180° retningsskift og bremseeffekt.', 
-    storageKey: 'agility_505',
-    allowQuickLog: true 
-  }
-};
-{% endcomment %}
-
 document.addEventListener('DOMContentLoaded', () => {
   DashboardManager.initGrid({
     gridSelector: '.js-db-grid',
     library: EKSPLOSIVITET_LIBRARY,
-    defaultCards: ['countermovement-jump', 'broad-jump', 'sprint-30m', 'pro-agility-5-10-5'],
+    defaultCards: ['countermovement-jump', 'abalakov-cmj', 'jump-reach-abalakov-1h', 'jump-reach-run-left-1h', 'jump-reach-run-right-1h', 'broad-jump', 'sprint-5m', 'sprint-25-30m', 'sprint-30m', 'pro-agility-5-10-5'],
     configStorageKey: 'mp_eksplosivitet_dashboard_cards',
     resetBtnSelector: '.js-db-reset-btn',
     addBtnSelector: '.js-db-add-btn',

@@ -51,7 +51,23 @@ export function initAstrand(container) {
   let timerInterval = null;
   let timerStartTime = null;
   let isTimerRunning = false;
+  let wakeLock = null;
   const TOTAL_TEST_SECONDS = 600; // 10 minutter i alt (6 min level 1 + 4 min level 2)
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try {
+        wakeLock = await navigator.wakeLock.request('screen');
+      } catch (err) {}
+    }
+  }
+
+  function releaseWakeLock() {
+    if (wakeLock) {
+      wakeLock.release().catch(() => {});
+      wakeLock = null;
+    }
+  }
 
   function formatTime(secs) {
     const m = Math.floor(secs / 60).toString().padStart(2, '0');
@@ -90,6 +106,7 @@ export function initAstrand(container) {
   function startTimer() {
     isTimerRunning = true;
     timerStartTime = Date.now();
+    requestWakeLock();
     if (timerBtn) {
       timerBtn.textContent = '🛑 Stop';
       timerBtn.style.background = '#ef4444';
@@ -105,6 +122,7 @@ export function initAstrand(container) {
     isTimerRunning = false;
     if (timerInterval) clearInterval(timerInterval);
     timerInterval = null;
+    releaseWakeLock();
     if (timerBtn) {
       timerBtn.textContent = '🚀 Start Timer';
       timerBtn.style.background = '#2563eb';

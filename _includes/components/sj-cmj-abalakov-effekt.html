@@ -25,173 +25,165 @@
     </div>
   </div>
 
-  <!-- Topbar -->
-  <div class="jump-topbar">
-    <div class="jump-header-card">
-      <div class="card-title-row">
-        <span class="card-title">Jump Profiler (SJ, CMJ & Abalakov)</span>
-        <button class="info-icon-btn" type="button" title="Læs om opsætning og beregning">ℹ️</button>
+  <!-- INTERAKTIV ZONE (OMFATTES AF FULDSKÆRM) -->
+  <div class="jump-interactive-zone" id="jp-fullscreen-zone">
+
+    <!-- Topbar -->
+    <div class="jump-topbar">
+      <div class="jump-header-card">
+        <div class="card-title-row">
+          <span class="card-title">
+            Jump Profiler (SJ, CMJ & Abalakov)
+            <button class="info-icon-btn" type="button" title="Læs om opsætning og beregning">ℹ️</button>
+          </span>
+          <button type="button" class="btn-widget-fullscreen" id="btn-jp-fullscreen" title="Åbn Fuldskærm (Ekskl. Log)">⛶</button>
+        </div>
+        <div class="card-desc">Indtast hopresultater for hver type for at analysere effekten af forspænding og armtræk.</div>
       </div>
-      <div class="card-desc">Indtast bedste hop for hver type for at analysere effekten af forspænding og armtræk.</div>
     </div>
 
-    <div class="topbar-subrow">
-      <div class="setting-item">
-        <div class="btn-toggle-group" id="jump-sound-toggle">
-          <button type="button" class="toggle-btn active" data-val="on">🔊 Lyd</button>
-          <button type="button" class="toggle-btn" data-val="off">🔇</button>
+    <!-- 3 KORT SIDE OM SIDE: SJ, CMJ & ABALAKOV -->
+    <div class="jump-sides-grid">
+      
+      <!-- 1. SQUAT JUMP (SJ) -->
+      <div class="side-card card-sj">
+        <div class="side-card-header header-sj">
+          <span class="card-main-title">Squat Jump</span>
+          <span class="card-sub-title">(ren muskelkraft)</span>
+        </div>
+
+        <div class="side-svg-container">
+          <svg width="100%" viewBox="0 0 180 140" preserveAspectRatio="xMidYMid meet">
+            <rect x="5" y="5" width="170" height="130" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+            <line x1="20" y1="125" x2="160" y2="125" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+
+            <!-- Figur SJ -->
+            <circle cx="90" cy="52" r="10" fill="#1c7ed6"/>
+            <line x1="90" y1="62" x2="90" y2="92" stroke="#1c7ed6" stroke-width="3.5"/>
+            <path d="M 90,70 L 80,80 L 90,84 M 90,70 L 100,80 L 90,84" fill="none" stroke="#1c7ed6" stroke-width="2.5"/>
+            <line x1="90" y1="92" x2="72" y2="108" stroke="#1c7ed6" stroke-width="3.5"/>
+            <line x1="90" y1="92" x2="108" y2="108" stroke="#1c7ed6" stroke-width="3.5"/>
+            <line x1="72" y1="108" x2="78" y2="125" stroke="#1c7ed6" stroke-width="3.5"/>
+            <line x1="108" y1="108" x2="102" y2="125" stroke="#1c7ed6" stroke-width="3.5"/>
+          </svg>
+        </div>
+
+        <div class="single-input-wrapper">
+          <div class="input-box">
+            <input type="number" id="input-sj" class="jump-input" placeholder="0.0" step="0.1">
+            <span class="input-unit">cm</span>
+          </div>
         </div>
       </div>
 
-      <div class="wakelock-status">📱 Skærm tændt</div>
-    </div>
-  </div>
+      <!-- 2. COUNTERMOVEMENT JUMP (CMJ) -->
+      <div class="side-card card-cmj">
+        <div class="side-card-header header-cmj">
+          <span class="card-main-title">CMJ</span>
+          <span class="card-sub-title">(forspænding)</span>
+        </div>
 
-  <!-- 3 KORT SIDE OM SIDE: SJ, CMJ & ABALAKOV -->
-  <div class="jump-sides-grid">
-    
-    <!-- 1. SQUAT JUMP (SJ) -->
-    <div class="side-card card-sj">
-      <div class="side-card-header header-sj">
-        <span class="card-main-title">Squat Jump</span>
-        <span class="card-sub-title">(ren muskelkraft)</span>
+        <div class="side-svg-container">
+          <svg width="100%" viewBox="0 0 180 140" preserveAspectRatio="xMidYMid meet">
+            <rect x="5" y="5" width="170" height="130" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+            <line x1="20" y1="125" x2="160" y2="125" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+
+            <!-- Figur CMJ -->
+            <circle cx="90" cy="38" r="10" fill="#0ca678"/>
+            <line x1="90" y1="48" x2="90" y2="85" stroke="#0ca678" stroke-width="3.5"/>
+            <path d="M 90,58 L 78,71 L 90,75 M 90,58 L 102,71 L 90,75" fill="none" stroke="#0ca678" stroke-width="2.5"/>
+            <line x1="90" y1="85" x2="80" y2="125" stroke="#0ca678" stroke-width="3.5"/>
+            <line x1="90" y1="85" x2="100" y2="125" stroke="#0ca678" stroke-width="3.5"/>
+          </svg>
+        </div>
+
+        <div class="single-input-wrapper">
+          <div class="input-box">
+            <input type="number" id="input-cmj" class="jump-input" placeholder="0.0" step="0.1">
+            <span class="input-unit">cm</span>
+          </div>
+        </div>
       </div>
 
-      <div class="side-svg-container">
-        <svg width="100%" viewBox="0 0 180 150" preserveAspectRatio="xMidYMid meet">
-          <rect x="5" y="5" width="170" height="140" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
-          <line x1="20" y1="135" x2="160" y2="135" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+      <!-- 3. ABALAKOV (ABK / CMJ MED ARME) -->
+      <div class="side-card card-abk">
+        <div class="side-card-header header-abk">
+          <span class="card-main-title">Abalakov</span>
+          <span class="card-sub-title">(med armtræk)</span>
+        </div>
 
-          <!-- Figur SJ -->
-          <circle cx="90" cy="62" r="10" fill="#1c7ed6"/>
-          <line x1="90" y1="72" x2="90" y2="102" stroke="#1c7ed6" stroke-width="3.5"/>
-          <path d="M 90,80 L 80,90 L 90,94 M 90,80 L 100,90 L 90,94" fill="none" stroke="#1c7ed6" stroke-width="2.5"/>
-          <line x1="90" y1="102" x2="72" y2="118" stroke="#1c7ed6" stroke-width="3.5"/>
-          <line x1="90" y1="102" x2="108" y2="118" stroke="#1c7ed6" stroke-width="3.5"/>
-          <line x1="72" y1="118" x2="78" y2="135" stroke="#1c7ed6" stroke-width="3.5"/>
-          <line x1="108" y1="118" x2="102" y2="135" stroke="#1c7ed6" stroke-width="3.5"/>
+        <div class="side-svg-container">
+          <svg width="100%" viewBox="0 0 180 140" preserveAspectRatio="xMidYMid meet">
+            <rect x="5" y="5" width="170" height="130" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
+            <line x1="20" y1="125" x2="160" y2="125" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+
+            <!-- Figur Abalakov -->
+            <circle cx="90" cy="38" r="10" fill="#e03131"/>
+            <line x1="90" y1="48" x2="90" y2="85" stroke="#e03131" stroke-width="3.5"/>
+            <line x1="90" y1="58" x2="72" y2="18" stroke="#e03131" stroke-width="3" stroke-linecap="round"/>
+            <line x1="90" y1="58" x2="108" y2="18" stroke="#e03131" stroke-width="3" stroke-linecap="round"/>
+            <line x1="90" y1="85" x2="80" y2="125" stroke="#e03131" stroke-width="3.5"/>
+            <line x1="90" y1="85" x2="100" y2="125" stroke="#e03131" stroke-width="3.5"/>
+          </svg>
+        </div>
+
+        <div class="single-input-wrapper">
+          <div class="input-box">
+            <input type="number" id="input-abk" class="jump-input" placeholder="0.0" step="0.1">
+            <span class="input-unit">cm</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RESULTAT BEREGNINGER -->
+    <div class="jump-stats-wrapper">
+      <h5 class="section-title">📊 Biomekanisk Hopprofil & Effekter</h5>
+      <div class="jump-stats-grid">
+        <div class="stat-box highlight-box" id="box-ssc">
+          <span class="stat-value" id="stat-ssc-index">0.0%</span>
+          <span class="stat-label">FORSPÆNDINGSEFFEKT</span>
+          <span class="stat-sub" id="stat-ssc-sub">CMJ vs. SJ</span>
+        </div>
+        <div class="stat-box highlight-box" id="box-arms">
+          <span class="stat-value" id="stat-arm-index">0.0%</span>
+          <span class="stat-label">ARMTRÆKSEFFEKT</span>
+          <span class="stat-sub" id="stat-arm-sub">Abalakov vs. CMJ</span>
+        </div>
+        <div class="stat-box highlight-box" id="box-total">
+          <span class="stat-value" id="stat-total-boost">0.0%</span>
+          <span class="stat-label">SAMLET GEVINST</span>
+          <span class="stat-sub" id="stat-total-sub">Abalakov vs. SJ</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SØJLEDIAGRAM OVER DE 3 HOP -->
+    <div class="jump-chart-wrapper">
+      <h5 class="section-title">📈 Hoppehøjde Sammenligning (cm)</h5>
+      <div class="chart-container">
+        <svg id="jump-svg-chart" width="100%" height="170" viewBox="0 0 480 170" preserveAspectRatio="none">
+          <text x="240" y="85" text-anchor="middle" font-size="12" fill="#adb5bd">Indtast hopresultater for at se profilen</text>
         </svg>
       </div>
-
-      <div class="single-input-wrapper">
-        <label class="input-label" for="input-sj">Bedste SJ:</label>
-        <div class="input-box">
-          <input type="number" id="input-sj" class="jump-input" placeholder="0.0" step="0.1">
-          <span class="input-unit">cm</span>
-        </div>
-      </div>
-      <div class="side-best-footer" id="sj-display">SJ: -- cm</div>
-    </div>
-
-    <!-- 2. COUNTERMOVEMENT JUMP (CMJ) -->
-    <div class="side-card card-cmj">
-      <div class="side-card-header header-cmj">
-        <span class="card-main-title">CMJ</span>
-        <span class="card-sub-title">(forspænding)</span>
-      </div>
-
-      <div class="side-svg-container">
-        <svg width="100%" viewBox="0 0 180 150" preserveAspectRatio="xMidYMid meet">
-          <rect x="5" y="5" width="170" height="140" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
-          <line x1="20" y1="135" x2="160" y2="135" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
-
-          <!-- Figur CMJ -->
-          <circle cx="90" cy="45" r="10" fill="#0ca678"/>
-          <line x1="90" y1="55" x2="90" y2="92" stroke="#0ca678" stroke-width="3.5"/>
-          <path d="M 90,65 L 78,78 L 90,82 M 90,65 L 102,78 L 90,82" fill="none" stroke="#0ca678" stroke-width="2.5"/>
-          <line x1="90" y1="92" x2="80" y2="135" stroke="#0ca678" stroke-width="3.5"/>
-          <line x1="90" y1="92" x2="100" y2="135" stroke="#0ca678" stroke-width="3.5"/>
-        </svg>
-      </div>
-
-      <div class="single-input-wrapper">
-        <label class="input-label" for="input-cmj">Bedste CMJ:</label>
-        <div class="input-box">
-          <input type="number" id="input-cmj" class="jump-input" placeholder="0.0" step="0.1">
-          <span class="input-unit">cm</span>
-        </div>
-      </div>
-      <div class="side-best-footer" id="cmj-display">CMJ: -- cm</div>
-    </div>
-
-    <!-- 3. ABALAKOV (ABK / CMJ MED ARME) -->
-    <div class="side-card card-abk">
-      <div class="side-card-header header-abk">
-        <span class="card-main-title">Abalakov</span>
-        <span class="card-sub-title">(med armtræk)</span>
-      </div>
-
-      <div class="side-svg-container">
-        <svg width="100%" viewBox="0 0 180 150" preserveAspectRatio="xMidYMid meet">
-          <rect x="5" y="5" width="170" height="140" rx="10" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1.5"/>
-          <line x1="20" y1="135" x2="160" y2="135" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
-
-          <!-- Figur Abalakov -->
-          <circle cx="90" cy="45" r="10" fill="#e03131"/>
-          <line x1="90" y1="55" x2="90" y2="92" stroke="#e03131" stroke-width="3.5"/>
-          <line x1="90" y1="65" x2="72" y2="25" stroke="#e03131" stroke-width="3" stroke-linecap="round"/>
-          <line x1="90" y1="65" x2="108" y2="25" stroke="#e03131" stroke-width="3" stroke-linecap="round"/>
-          <line x1="90" y1="92" x2="80" y2="135" stroke="#e03131" stroke-width="3.5"/>
-          <line x1="90" y1="92" x2="100" y2="135" stroke="#e03131" stroke-width="3.5"/>
-        </svg>
-      </div>
-
-      <div class="single-input-wrapper">
-        <label class="input-label" for="input-abk">Bedste Abalakov:</label>
-        <div class="input-box">
-          <input type="number" id="input-abk" class="jump-input" placeholder="0.0" step="0.1">
-          <span class="input-unit">cm</span>
-        </div>
-      </div>
-      <div class="side-best-footer" id="abk-display">Abalakov: -- cm</div>
-    </div>
-
-  </div>
-
-  <!-- RESULTAT BEREGNINGER -->
-  <div class="jump-stats-wrapper">
-    <h5 class="section-title">📊 Biomekanisk Hopprofil & Effekter</h5>
-    <div class="jump-stats-grid">
-      <div class="stat-box highlight-box" id="box-ssc">
-        <span class="stat-value" id="stat-ssc-index">0.0%</span>
-        <span class="stat-label">FORSPÆNDINGSEFFEKT</span>
-        <span class="stat-sub" id="stat-ssc-sub">CMJ vs. SJ</span>
-      </div>
-      <div class="stat-box highlight-box" id="box-arms">
-        <span class="stat-value" id="stat-arm-index">0.0%</span>
-        <span class="stat-label">ARMTRÆKSEFFEKT</span>
-        <span class="stat-sub" id="stat-arm-sub">Abalakov vs. CMJ</span>
-      </div>
-      <div class="stat-box highlight-box" id="box-total">
-        <span class="stat-value" id="stat-total-boost">0.0%</span>
-        <span class="stat-label">SAMLET GEVINST</span>
-        <span class="stat-sub" id="stat-total-sub">Abalakov vs. SJ</span>
+      <div class="chart-legend">
+        <span class="legend-item"><span class="legend-dot sj"></span> Squat Jump (SJ)</span>
+        <span class="legend-item"><span class="legend-dot cmj"></span> CMJ</span>
+        <span class="legend-item"><span class="legend-dot abk"></span> Abalakov</span>
       </div>
     </div>
-  </div>
 
-  <!-- SØJLEDIAGRAM OVER DE 3 HOP -->
-  <div class="jump-chart-wrapper">
-    <h5 class="section-title">📈 Hoppehøjde Sammenligning (cm)</h5>
-    <div class="chart-container">
-      <svg id="jump-svg-chart" width="100%" height="170" viewBox="0 0 480 170" preserveAspectRatio="none">
-        <text x="240" y="85" text-anchor="middle" font-size="12" fill="#adb5bd">Indtast hopresultater for at se profilen</text>
-      </svg>
+    <!-- KNAPPER PÅ SAMME LINJE -->
+    <div class="jump-actions-row">
+      <button type="button" class="btn btn--save-result" id="btn-save-jump-test">💾 Gem i Log & Dashboard</button>
+      <button type="button" class="btn btn--screenshot btn-take-screenshot">📸 Tag et billede</button>
     </div>
-    <div class="chart-legend">
-      <span class="legend-item"><span class="legend-dot sj"></span> Squat Jump (SJ)</span>
-      <span class="legend-item"><span class="legend-dot cmj"></span> CMJ</span>
-      <span class="legend-item"><span class="legend-dot abk"></span> Abalakov</span>
-    </div>
-  </div>
-
-  <!-- KNAP TIL EKSLICIT GEMNING -->
-  <div class="jump-save-actions">
-    <button type="button" class="btn btn--save-result" id="btn-save-jump-test">💾 Gem Test i Log & Dashboard</button>
     <div class="save-status-msg" id="save-status-msg" style="display:none;"></div>
-  </div>
 
-  <!-- LOCALSTORAGE LOG TABEL -->
+  </div> <!-- SLUT PÅ INTERAKTIV ZONE -->
+
+  <!-- LOCALSTORAGE LOG TABEL (UDEN FOR FULDSKÆRM) -->
   <div class="jump-log-wrapper">
     <div class="log-header-row">
       <h5 class="log-title">Gemte Testresultater (Hukommelse)</h5>
@@ -206,17 +198,13 @@
           <th>ABK (cm)</th>
           <th>Forspænding</th>
           <th>Armtræk</th>
+          <th style="width: 32px;"></th>
         </tr>
       </thead>
       <tbody class="log-tbody">
-        <tr class="empty-row"><td colspan="6" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
+        <tr class="empty-row"><td colspan="7" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>
       </tbody>
     </table>
-  </div>
-
-  <!-- SCREENSHOT KNAP -->
-  <div class="jump-screenshot-wrapper">
-    <button class="btn btn--screenshot btn-take-screenshot" type="button">📸 Tag et billede af resultatet</button>
   </div>
 
 </div>
@@ -229,29 +217,35 @@
 }
 .jump-profile-widget * { box-sizing: border-box; }
 
+/* INTERAKTIV ZONE OG FULDSKÆRMSKNAP */
+.jump-interactive-zone { position: relative; width: 100%; }
+.jump-interactive-zone:fullscreen {
+  background: #ffffff; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px;
+}
+
 .jump-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; text-align: left; }
 .jump-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
-.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
-.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
-.info-icon-btn { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px; border-radius: 6px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; display: flex; align-items: center; gap: 6px; }
+.info-icon-btn { background: transparent; border: none; font-size: 1.0rem; cursor: pointer; padding: 0 2px; }
 .card-desc { font-size: 0.76rem; color: #475569; margin-top: 3px; line-height: 1.35; }
 
+.btn-widget-fullscreen {
+  background: #ffffff; border: 1px solid #a5d8ff; border-radius: 6px;
+  font-size: 0.95rem; width: 30px; height: 30px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; color: #1c7ed6;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05); transition: background 0.15s ease, color 0.15s ease;
+  flex-shrink: 0;
+}
+.btn-widget-fullscreen:hover { background: #228be6; color: #ffffff; }
+
 /* Modal */
-.jump-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.jump-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 35; padding: 20px; display: flex; flex-direction: column; text-align: left; }
 .modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
 .modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
 .modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
 .modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
 .modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
-
-/* Topbar Settings */
-.topbar-subrow { display: flex; align-items: center; justify-content: flex-start; gap: 8px; margin-top: 2px; }
-.btn-toggle-group { display: inline-flex; background: #f1f3f5; padding: 2px; border-radius: 8px; border: 1px solid #ced4da; }
-.toggle-btn { background: transparent; border: none; padding: 3px 8px; font-size: 0.75rem; font-weight: 700; color: #495057; border-radius: 6px; cursor: pointer; }
-.toggle-btn.active { background: #228be6; color: #ffffff; }
-
-.wakelock-status { font-size: 0.70rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 3px 6px; border-radius: 12px; opacity: 0; margin-left: auto; }
-.wakelock-status.active { opacity: 1; }
 
 /* Grid med 3 kort side om side */
 .jump-sides-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
@@ -260,7 +254,7 @@
 }
 
 .side-card {
-  background: #ffffff; border: 2px solid #dee2e6; border-radius: 14px; padding: 10px 8px 8px 8px;
+  background: #ffffff; border: 2px solid #dee2e6; border-radius: 14px; padding: 10px 8px;
   transition: all 0.2s ease-in-out; position: relative; display: flex; flex-direction: column; justify-content: space-between;
 }
 .side-card.card-sj { border-color: #74c0fc; background: #f4f9ff; }
@@ -269,7 +263,7 @@
 
 .side-card-header {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 2px; margin-bottom: 6px; min-height: 36px; text-align: center;
+  gap: 2px; margin-bottom: 4px; min-height: 34px; text-align: center;
 }
 .header-sj .card-main-title { color: #1c7ed6; }
 .header-cmj .card-main-title { color: #0ca678; }
@@ -280,17 +274,21 @@
 
 .side-svg-container { width: 100%; margin-bottom: 4px; }
 
-.single-input-wrapper { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-top: 4px; }
-.input-label { font-size: 0.65rem; font-weight: 800; color: #495057; }
-.input-box { display: flex; align-items: center; gap: 3px; }
+.single-input-wrapper { display: flex; justify-content: center; align-items: center; margin-top: 4px; }
+.input-box { display: flex; align-items: center; gap: 4px; }
+
+/* Skjul spin-pile */
+.jump-input::-webkit-outer-spin-button,
+.jump-input::-webkit-inner-spin-button {
+  -webkit-appearance: none; margin: 0;
+}
 .jump-input {
-  width: 68px; text-align: center; border: 1.5px solid #ced4da; border-radius: 6px;
-  font-size: 0.88rem; font-weight: 900; color: #212529; background: #ffffff; padding: 4px 2px; outline: none;
+  -moz-appearance: textfield; appearance: textfield;
+  width: 58px; text-align: center; border: 1.5px solid #ced4da; border-radius: 6px;
+  font-size: 0.95rem; font-weight: 900; color: #212529; background: #ffffff; padding: 4px 2px; outline: none;
 }
 .jump-input:focus { border-color: #228be6; }
-.input-unit { font-size: 0.65rem; font-weight: 700; color: #868e96; }
-
-.side-best-footer { font-size: 0.72rem; font-weight: 800; color: #495057; margin-top: 6px; text-align: center; }
+.input-unit { font-size: 0.75rem; font-weight: 800; color: #64748b; }
 
 /* Stats Section */
 .jump-stats-wrapper { margin-top: 14px; text-align: left; }
@@ -316,15 +314,19 @@
 .legend-dot.cmj { background: #0ca678; }
 .legend-dot.abk { background: #e03131; }
 
-/* Gem knap sektion */
-.jump-save-actions { margin-top: 12px; }
-.btn--save-result {
-  width: 100%; padding: 10px; font-size: 0.88rem; font-weight: 800; border-radius: 10px;
-  border: none; background: #0f172a; color: #ffffff; cursor: pointer;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15); transition: background 0.15s ease;
+/* Gem & Billed Knapper på samme linje */
+.jump-actions-row { display: flex; gap: 8px; margin-top: 12px; width: 100%; }
+.jump-actions-row .btn {
+  flex: 1; padding: 10px; font-size: 0.85rem; font-weight: 800; border-radius: 10px;
+  border: none; cursor: pointer; transition: background 0.15s ease;
 }
+.btn--save-result { background: #0f172a; color: #ffffff; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15); }
 .btn--save-result:hover { background: #1e293b; }
-.save-status-msg { font-size: 0.75rem; font-weight: 800; color: #2b8a3e; margin-top: 4px; }
+
+.btn--screenshot { background: #228be6; color: #ffffff; box-shadow: 0 4px 12px rgba(34, 139, 230, 0.2); }
+.btn--screenshot:hover { background: #1c7ed6; }
+
+.save-status-msg { font-size: 0.75rem; font-weight: 800; color: #2b8a3e; margin-top: 6px; text-align: center; }
 
 /* Log Tabel */
 .jump-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
@@ -336,32 +338,45 @@
 .jump-log-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
 .jump-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
 
-/* Billed knap */
-.jump-screenshot-wrapper { margin-top: 12px; width: 100%; }
-.btn--screenshot {
-  width: 100%; padding: 10px; font-size: 0.90rem; font-weight: 800; border-radius: 10px;
-  border: none; background: #228be6; color: #ffffff; cursor: pointer;
-  box-shadow: 0 4px 12px rgba(34, 139, 230, 0.25); transition: background 0.15s ease;
-}
-.btn--screenshot:hover { background: #1c7ed6; }
+.btn-delete-row { background: transparent; border: none; color: #fa5252; font-size: 0.85rem; cursor: pointer; opacity: 0.7; transition: opacity 0.15s; padding: 0 4px; }
+.btn-delete-row:hover { opacity: 1.0; }
 </style>
 
-<script>
+<script type="module">
+// ROBUST MODUL-IMPORT MED FALLBACK
+let StorageAdapterModule;
+try {
+  const mod = await import('../core/StorageAdapter.js');
+  StorageAdapterModule = mod.StorageAdapter;
+} catch (e) {
+  try {
+    const mod = await import('/assets/js/core/StorageAdapter.js');
+    StorageAdapterModule = mod.StorageAdapter;
+  } catch (e2) {
+    StorageAdapterModule = window.StorageAdapter;
+  }
+}
+const SA = StorageAdapterModule || window.StorageAdapter;
+
+let evaluateJumpHeightFn;
+try {
+  const mod = await import('/assets/js/core/jump-reach.js');
+  evaluateJumpHeightFn = mod.evaluateJumpHeight;
+} catch (e) {
+  evaluateJumpHeightFn = window.evaluateJumpHeight;
+}
+
 (function() {
   function initJumpProfileWidget() {
-    let selectedSound = 'on';
-    let wakeLock = null;
-
     const widget = document.querySelector(".jump-profile-widget");
     if (!widget) return;
+
+    const fullscreenZone = widget.querySelector("#jp-fullscreen-zone");
+    const btnFullscreen = widget.querySelector("#btn-jp-fullscreen");
 
     const inputSj = widget.querySelector("#input-sj");
     const inputCmj = widget.querySelector("#input-cmj");
     const inputAbk = widget.querySelector("#input-abk");
-
-    const sjDisplay = widget.querySelector("#sj-display");
-    const cmjDisplay = widget.querySelector("#cmj-display");
-    const abkDisplay = widget.querySelector("#abk-display");
 
     const statSscIndex = widget.querySelector("#stat-ssc-index");
     const statSscSub = widget.querySelector("#stat-ssc-sub");
@@ -382,7 +397,6 @@
     const logTbody = widget.querySelector(".log-tbody");
     const btnClearLog = widget.querySelector(".btn-clear-log");
     const btnScreenshot = widget.querySelector(".btn-take-screenshot");
-    const wakelockStatus = widget.querySelector(".wakelock-status");
 
     const infoModal = widget.querySelector(".jump-info-modal");
     const infoIconBtn = widget.querySelector(".info-icon-btn");
@@ -390,46 +404,41 @@
 
     const allInputs = [inputSj, inputCmj, inputAbk];
 
-    function setupToggleGroup(groupId, onChange) {
-      const group = widget.querySelector(`#${groupId}`);
-      if (!group) return;
-      const btns = group.querySelectorAll(".toggle-btn");
-      btns.forEach(btn => {
-        btn.addEventListener("click", () => {
-          btns.forEach(b => b.classList.remove("active"));
-          btn.classList.add("active");
-          onChange(btn.dataset.val);
-        });
+    if (btnFullscreen && fullscreenZone) {
+      btnFullscreen.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (!document.fullscreenElement) {
+          if (fullscreenZone.requestFullscreen) fullscreenZone.requestFullscreen();
+          else if (fullscreenZone.webkitRequestFullscreen) fullscreenZone.webkitRequestFullscreen();
+        } else {
+          if (document.exitFullscreen) document.exitFullscreen();
+        }
       });
     }
-    setupToggleGroup("jump-sound-toggle", (val) => { selectedSound = val; });
 
-    async function requestWakeLock() {
-      if ('wakeLock' in navigator) {
-        try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    function loadInputDrafts() {
+      if (SA) {
+        const draft = SA.loadDraft('jump_profile');
+        if (draft) {
+          if (draft.sj !== undefined) inputSj.value = draft.sj;
+          if (draft.cmj !== undefined) inputCmj.value = draft.cmj;
+          if (draft.abk !== undefined) inputAbk.value = draft.abk;
+        }
       }
     }
 
-    // 1. INDLÆS GEMTE UDKAST I INPUT-FELTERNE (DRAFT)
-    function loadInputDrafts() {
-      const draft = JSON.parse(localStorage.getItem("jump_profile_draft") || "{}");
-      if (draft.sj !== undefined) inputSj.value = draft.sj;
-      if (draft.cmj !== undefined) inputCmj.value = draft.cmj;
-      if (draft.abk !== undefined) inputAbk.value = draft.abk;
-    }
-
     function saveInputDrafts() {
-      const draft = {
-        sj: inputSj.value,
-        cmj: inputCmj.value,
-        abk: inputAbk.value
-      };
-      localStorage.setItem("jump_profile_draft", JSON.stringify(draft));
+      if (SA) {
+        SA.saveDraft('jump_profile', {
+          sj: inputSj.value,
+          cmj: inputCmj.value,
+          abk: inputAbk.value
+        });
+      }
     }
 
     allInputs.forEach(inp => {
       inp.addEventListener("input", () => {
-        requestWakeLock();
         saveInputDrafts();
         updateCalculationsAndChart();
       });
@@ -444,11 +453,7 @@
       const hasCmj = !isNaN(cmj) && cmj > 0;
       const hasAbk = !isNaN(abk) && abk > 0;
 
-      sjDisplay.textContent = hasSj ? `SJ: ${sj.toFixed(1)} cm` : "SJ: -- cm";
-      cmjDisplay.textContent = hasCmj ? `CMJ: ${cmj.toFixed(1)} cm` : "CMJ: -- cm";
-      abkDisplay.textContent = hasAbk ? `Abalakov: ${abk.toFixed(1)} cm` : "Abalakov: -- cm";
-
-      // 1. FORSPÆNDINGSEFFEKT (CMJ vs SJ)
+      // FORSPÆNDINGSEFFEKT (CMJ vs SJ)
       let sscPct = null;
       if (hasSj && hasCmj) {
         sscPct = ((cmj - sj) / sj) * 100;
@@ -469,7 +474,7 @@
         boxSsc.className = "stat-box highlight-box";
       }
 
-      // 2. ARMTRÆKSEFFEKT (ABK vs CMJ)
+      // ARMTRÆKSEFFEKT (ABK vs CMJ)
       let armPct = null;
       if (hasCmj && hasAbk) {
         armPct = ((abk - cmj) / cmj) * 100;
@@ -490,7 +495,7 @@
         boxArms.className = "stat-box highlight-box";
       }
 
-      // 3. SAMLET GEVINST (ABK vs SJ)
+      // SAMLET GEVINST (ABK vs SJ)
       let totalPct = null;
       if (hasSj && hasAbk) {
         totalPct = ((abk - sj) / sj) * 100;
@@ -558,7 +563,6 @@
       svgChart.innerHTML = svgHtml;
     }
 
-    // GEM TEST I HISTORIK OG DASHBOARD VED KLIK
     function saveTestToLogAndDashboard() {
       const sj = parseFloat(inputSj.value);
       const cmj = parseFloat(inputCmj.value);
@@ -593,37 +597,61 @@
       localStorage.setItem("jump_profile_logs", JSON.stringify(logs.slice(0, 20)));
       renderLocalStorageLog();
 
-      // 2. GEM DIREKTE TIL MAIN EKSPLOSIVITET DASHBOARD
-      syncToMainDashboard(hasSj ? sj : null, hasCmj ? cmj : null, hasAbk ? abk : null);
+      // 2. SKRIV DIREKTE TIL STORAGEADAPTER FOR DIT CENTRALE DASHBOARD (/hjem/)
+      const profile = SA ? SA.getProfile() : {};
+      const userAge = profile.age || 25;
+      const userGender = profile.gender || 'male';
+
+      if (SA) {
+        if (hasSj) {
+          const evalSj = evaluateJumpHeightFn ? evaluateJumpHeightFn(sj, userAge, userGender) : null;
+          SA.commitToLog('squat_jump', {
+            type: 'physical',
+            primary: { value: parseFloat(sj.toFixed(1)), unit: 'cm', label: 'Squat Jump' },
+            ...(evalSj && { norm: { label: evalSj.label, color: evalSj.color, bg: `${evalSj.color}18` } })
+          });
+        }
+
+        if (hasCmj) {
+          const evalCmj = evaluateJumpHeightFn ? evaluateJumpHeightFn(cmj, userAge, userGender) : null;
+          SA.commitToLog('cmj', {
+            type: 'physical',
+            primary: { value: parseFloat(cmj.toFixed(1)), unit: 'cm', label: 'CMJ' },
+            ...(evalCmj && { norm: { label: evalCmj.label, color: evalCmj.color, bg: `${evalCmj.color}18` } })
+          });
+        }
+
+        if (hasAbk) {
+          const evalAbk = evaluateJumpHeightFn ? evaluateJumpHeightFn(abk, userAge, userGender) : null;
+          SA.commitToLog('abalakov', {
+            type: 'physical',
+            primary: { value: parseFloat(abk.toFixed(1)), unit: 'cm', label: 'Abalakov' },
+            ...(evalAbk && { norm: { label: evalAbk.label, color: evalAbk.color, bg: `${evalAbk.color}18` } })
+          });
+        }
+
+        const bestVal = Math.max(hasSj ? sj : 0, hasCmj ? cmj : 0, hasAbk ? abk : 0);
+        const evalBest = evaluateJumpHeightFn ? evaluateJumpHeightFn(bestVal, userAge, userGender) : null;
+        SA.commitToLog('jump_profile', {
+          type: 'physical',
+          primary: { value: parseFloat(bestVal.toFixed(1)), unit: 'cm', label: 'Bedste Hop (Profil)' },
+          ...(evalBest && { norm: { label: evalBest.label, color: evalBest.color, bg: `${evalBest.color}18` } }),
+          subMetrics: {
+            sj: hasSj ? parseFloat(sj.toFixed(1)) : null,
+            cmj: hasCmj ? parseFloat(cmj.toFixed(1)) : null,
+            abk: hasAbk ? parseFloat(abk.toFixed(1)) : null,
+            sscPct: sscPct !== null ? parseFloat(sscPct.toFixed(1)) : null,
+            armPct: armPct !== null ? parseFloat(armPct.toFixed(1)) : null
+          }
+        });
+
+        window.dispatchEvent(new CustomEvent('storage-update', { detail: { key: 'jump_profile' } }));
+        window.dispatchEvent(new Event('storage'));
+      }
 
       saveStatusMsg.textContent = "✅ Test gemt i historik og synkroniseret med Dashboard!";
       saveStatusMsg.style.display = "block";
       setTimeout(() => { saveStatusMsg.style.display = "none"; }, 3500);
-    }
-
-    function syncToMainDashboard(sj, cmj, abk) {
-      const dashKey = 'eksplosivitet_dashboard_v1';
-      let dashData = JSON.parse(localStorage.getItem(dashKey) || '{"activeTestIds":["cmj_no_arms","broad_jump","sprint_30m","pro_agility_5_10_5"],"results":{}}');
-
-      if (!dashData.results) dashData.results = {};
-      const isoNow = new Date().toISOString();
-
-      if (cmj !== null) {
-        if (!dashData.results['cmj_no_arms']) dashData.results['cmj_no_arms'] = [];
-        dashData.results['cmj_no_arms'].push({ date: isoNow, val: cmj });
-      }
-
-      if (sj !== null) {
-        if (!dashData.results['squat_jump']) dashData.results['squat_jump'] = [];
-        dashData.results['squat_jump'].push({ date: isoNow, val: sj });
-      }
-
-      if (abk !== null) {
-        if (!dashData.results['jump_and_reach']) dashData.results['jump_and_reach'] = [];
-        dashData.results['jump_and_reach'].push({ date: isoNow, val: abk });
-      }
-
-      localStorage.setItem(dashKey, JSON.stringify(dashData));
     }
 
     function renderLocalStorageLog() {
@@ -631,11 +659,11 @@
       logTbody.innerHTML = "";
 
       if (logs.length === 0) {
-        logTbody.innerHTML = '<tr class="empty-row"><td colspan="6" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
+        logTbody.innerHTML = '<tr class="empty-row"><td colspan="7" style="color: #adb5bd;">Ingen gemte test endnu</td></tr>';
         return;
       }
 
-      logs.forEach(item => {
+      logs.forEach((item, index) => {
         const tr = document.createElement("tr");
         tr.innerHTML = `
           <td>${item.date}</td>
@@ -644,8 +672,19 @@
           <td><strong>${item.abk}</strong></td>
           <td><span style="color:#0ca678; font-weight:800;">${item.ssc}</span></td>
           <td><span style="color:#e03131; font-weight:800;">${item.arm}</span></td>
+          <td><button type="button" class="btn-delete-row" data-index="${index}" title="Slet denne post">🗑️</button></td>
         `;
         logTbody.appendChild(tr);
+      });
+
+      logTbody.querySelectorAll('.btn-delete-row').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const idx = parseInt(e.currentTarget.getAttribute('data-index'), 10);
+          const currentLogs = JSON.parse(localStorage.getItem("jump_profile_logs") || "[]");
+          currentLogs.splice(idx, 1);
+          localStorage.setItem("jump_profile_logs", JSON.stringify(currentLogs));
+          renderLocalStorageLog();
+        });
       });
     }
 
@@ -675,6 +714,7 @@
       btnClearLog.addEventListener("click", () => {
         if (confirm("Vil du slette alle gemte test fra hukommelsen?")) {
           localStorage.removeItem("jump_profile_logs");
+          if (SA) SA.clearDraft('jump_profile');
           renderLocalStorageLog();
         }
       });

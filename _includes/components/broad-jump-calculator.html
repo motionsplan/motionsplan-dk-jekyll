@@ -169,8 +169,9 @@
 .bj-log-table th { background: #f8f9fa; padding: 6px 4px; border-bottom: 2px solid #dee2e6; font-weight: 800; color: #495057; }
 .bj-log-table td { padding: 6px 4px; border-bottom: 1px solid #f1f3f5; }
 </style>
+<script type="module">
+import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
 
-<script>
 (function() {
   function initBroadJumpWidget() {
     let gender = 'm'; // 'm' eller 'k'
@@ -189,13 +190,15 @@
     const logTbody = widget.querySelector("#bj-log-tbody");
     const btnClearLog = widget.querySelector("#btn-clear-bj-log");
 
-    // Køn toggle
     const genderBtns = widget.querySelectorAll("#bj-gender-toggle .toggle-btn");
+
+    // Køn toggle
     genderBtns.forEach(btn => {
       btn.addEventListener("click", () => {
         genderBtns.forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
         gender = btn.dataset.val;
+        saveInputDrafts();
         updateEvaluation();
       });
     });
@@ -203,27 +206,29 @@
     // Synkroniser Slider & Number field
     rangeSlider.addEventListener("input", (e) => {
       numInput.value = e.target.value;
+      saveInputDrafts();
       updateEvaluation();
     });
 
     numInput.addEventListener("input", (e) => {
-      let val = parseInt(e.target.value);
+      let val = parseInt(e.target.value, 10);
       if (!isNaN(val)) {
         rangeSlider.value = Math.min(350, Math.max(100, val));
+        saveInputDrafts();
         updateEvaluation();
       }
     });
 
     function getEvaluations(cm, g) {
       let level = "Under middel";
-      let police = "-3 (Ikke bestået)";
+      let police = "Karakter -3";
+      let color = "#ef4444";
 
       if (g === 'm') {
-        // Mænd
-        if (cm >= 270) level = "🔥 Elite / Atlet";
-        else if (cm >= 230) level = "🌟 Godt / Trænet";
-        else if (cm >= 200) level = "👍 Middel";
-        else level = "⚡ Under middel";
+        if (cm >= 270) { level = "Elite / Atlet"; color = "#3b82f6"; }
+        else if (cm >= 230) { level = "Godt / Trænet"; color = "#22c55e"; }
+        else if (cm >= 200) { level = "Middel"; color = "#eab308"; }
+        else { level = "Under middel"; color = "#ef4444"; }
 
         if (cm >= 255) police = "Karakter 12";
         else if (cm >= 240) police = "Karakter 10";
@@ -233,11 +238,10 @@
         else if (cm >= 200) police = "Karakter 00";
         else police = "Karakter -3";
       } else {
-        // Kvinder
-        if (cm >= 230) level = "🔥 Elite / Atlet";
-        else if (cm >= 180) level = "🌟 Godt / Trænet";
-        else if (cm >= 150) level = "👍 Middel";
-        else level = "⚡ Under middel";
+        if (cm >= 230) { level = "Elite / Atlet"; color = "#3b82f6"; }
+        else if (cm >= 180) { level = "Godt / Trænet"; color = "#22c55e"; }
+        else if (cm >= 150) { level = "Middel"; color = "#eab308"; }
+        else { level = "Under middel"; color = "#ef4444"; }
 
         if (cm >= 205) police = "Karakter 12";
         else if (cm >= 190) police = "Karakter 10";
@@ -248,29 +252,58 @@
         else police = "Karakter -3";
       }
 
-      return { level, police };
+      return { level, police, color };
     }
 
     function updateEvaluation() {
-      const cm = parseInt(numInput.value) || 0;
+      const cm = parseInt(numInput.value, 10) || 0;
       const ev = getEvaluations(cm, gender);
 
       fbLevelText.textContent = ev.level;
       fbPoliceText.textContent = ev.police;
-
-      // Gem udkast i browser
-      localStorage.setItem("broad_jump_draft", JSON.stringify({ cm, gender }));
     }
 
+    // --- 1. GEM KLADDE VIA STORAGEADAPTER ---
+    function saveInputDrafts() {
+      const cm = parseInt(numInput.value, 10) || 230;
+      const normGender = gender === 'm' ? 'male' : 'female';
+      
+      StorageAdapter.saveProfile({ gender: normGender });
+      StorageAdapter.saveDraft('broad_jump', { cm, gender });
+    }
+
+    // --- 2. INDLÆS KLADDE ELLER PROFIL ---
+    function loadInputDrafts() {
+      const profile = StorageAdapter.getProfile();
+      const draft = StorageAdapter.loadDraft('broad_jump');
+
+      if (profile.gender) {
+        gender = (profile.gender === 'male' || profile.gender === 'man') ? 'm' : 'k';
+      }
+
+      if (draft) {
+        if (draft.cm) {
+          numInput.value = draft.cm;
+          rangeSlider.value = draft.cm;
+        }
+        if (draft.gender) gender = draft.gender;
+      }
+
+      genderBtns.forEach(b => {
+        b.classList.toggle("active", b.dataset.val === gender);
+      });
+    }
+
+    // --- 3. GEM HOVEDRESULTAT I STORAGEADAPTER ---
     function saveToLogAndDashboard() {
-      const cm = parseInt(numInput.value);
+      const cm = parseInt(numInput.value, 10);
       if (isNaN(cm) || cm <= 0) return;
 
       const ev = getEvaluations(cm, gender);
       const now = new Date();
       const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
 
-      // 1. Gem i lokal log
+      // A. Gem i lokal visuel log
       const logs = JSON.parse(localStorage.getItem("broad_jump_logs") || "[]");
       logs.unshift({
         date: dateStr,
@@ -282,27 +315,30 @@
       localStorage.setItem("broad_jump_logs", JSON.stringify(logs.slice(0, 20)));
       renderLog();
 
-      // 2. Synkroniser til Main Eksplosivitets-Dashboard
-      syncToMainDashboard(cm);
+      // B. Skriv til den centrale StorageAdapter for /hjem/
+      StorageAdapter.commitToLog('broad_jump', {
+        type: 'physical',
+        primary: {
+          value: cm,
+          unit: 'cm',
+          label: 'Stående Længdehop'
+        },
+        norm: {
+          label: ev.level,
+          color: ev.color,
+          bg: `${ev.color}18`
+        },
+        subMetrics: {
+          policeGrade: ev.police
+        },
+        context: {
+          gender: gender === 'm' ? 'male' : 'female'
+        }
+      });
 
       statusMsg.textContent = "✅ Hoppet blev gemt i din log og synkroniseret med Dashboard!";
       statusMsg.style.display = "block";
       setTimeout(() => { statusMsg.style.display = "none"; }, 3500);
-    }
-
-    function syncToMainDashboard(cm) {
-      const dashKey = 'eksplosivitet_dashboard_v1';
-      let dashData = JSON.parse(localStorage.getItem(dashKey) || '{"activeTestIds":["cmj_no_arms","broad_jump","sprint_30m","pro_agility_5_10_5"],"results":{}}');
-
-      if (!dashData.results) dashData.results = {};
-      if (!dashData.results['broad_jump']) dashData.results['broad_jump'] = [];
-
-      dashData.results['broad_jump'].push({
-        date: new Date().toISOString(),
-        val: cm
-      });
-
-      localStorage.setItem(dashKey, JSON.stringify(dashData));
     }
 
     function renderLog() {
@@ -327,28 +363,17 @@
       });
     }
 
-    // Indlæs udkast
-    const draft = JSON.parse(localStorage.getItem("broad_jump_draft") || "{}");
-    if (draft.cm) {
-      numInput.value = draft.cm;
-      rangeSlider.value = draft.cm;
-    }
-    if (draft.gender) {
-      gender = draft.gender;
-      genderBtns.forEach(b => {
-        b.classList.toggle("active", b.dataset.val === gender);
-      });
-    }
-
     btnSave.addEventListener("click", saveToLogAndDashboard);
 
     btnClearLog.addEventListener("click", () => {
       if (confirm("Vil du slette alle gemte hop fra hukommelsen?")) {
         localStorage.removeItem("broad_jump_logs");
+        StorageAdapter.clearDraft('broad_jump');
         renderLog();
       }
     });
 
+    loadInputDrafts();
     renderLog();
     updateEvaluation();
   }

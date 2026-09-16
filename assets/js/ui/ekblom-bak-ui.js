@@ -41,7 +41,23 @@ export function initEkblomBak(container) {
   let timerInterval = null;
   let timerStartTime = null;
   let isTimerRunning = false;
+  let wakeLock = null;
   const TOTAL_TEST_SECONDS = 480; // 8 minutter i alt (4 min baseline + 4 min arbejde)
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try {
+        wakeLock = await navigator.wakeLock.request('screen');
+      } catch (err) {}
+    }
+  }
+
+  function releaseWakeLock() {
+    if (wakeLock) {
+      wakeLock.release().catch(() => {});
+      wakeLock = null;
+    }
+  }
 
   function formatTime(secs) {
     const m = Math.floor(secs / 60).toString().padStart(2, '0');
@@ -52,6 +68,7 @@ export function initEkblomBak(container) {
   function startTimer() {
     isTimerRunning = true;
     timerStartTime = Date.now();
+    requestWakeLock();
     if (timerBtn) {
       timerBtn.textContent = '🛑 Stop';
       timerBtn.style.background = '#ef4444';
@@ -67,6 +84,7 @@ export function initEkblomBak(container) {
     isTimerRunning = false;
     if (timerInterval) clearInterval(timerInterval);
     timerInterval = null;
+    releaseWakeLock();
     if (timerBtn) {
       timerBtn.textContent = '🚀 Start Timer';
       timerBtn.style.background = '#2563eb';

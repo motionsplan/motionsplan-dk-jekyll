@@ -9,7 +9,6 @@ header:
   credit: https://m.media-amazon.com/images/I/61+QaSxNKDL.jpg
   caption: *title
 categories:
-  - Tests
   - Eksplosivitet
   - Hoppetests
 tags:
@@ -38,21 +37,126 @@ meta:
   direct: direkte test
 # TESTS / PROTOKOLLER
 tests:
-  - id: "test-jump-reach"
-    title: "Jump and Reach Test (Vertec)"
-    description: "Måling af funktionel hoppehøjde og rækkevidde med/uden tilløb, 1- eller 2-bens afsæt samt 1- eller 2-hånds berøring via Vertec eller vægmærke."
-    category: ["Tests", "Eksplosivitet"]
+  - id: "jump-reach-abalakov-1h"
+    title: "Jump & Reach - Stående 1-hånd"
+    description: "Måling af vertikal hophøjde fra stående position (Countermovement Jump med armtræk) med 1-hånds berøring."
+    icon: "🦘"
+    badge: "Vertikal"
+    unit: "cm"
+    storage_key: "jump_reach_cmj_1h"
+    allow_quick_log: true
+    category: ["Eksplosivitet", "Springtest", "Vertikal"]
     type: ["Protokol", "Springtest"]
-    execution: ["Fysisk"]                  # 🏋️‍♂️ FYSISK TEST: Kræver maksimalt vertikalt hop
-    method: "direkte"                     # 📏 Måles direkte i cm (forskellen mellem rækkehøjde og hoppet)
+    execution: ["Fysisk"]
+    method: "direkte"
     modality: ["Hop"]
-    measures: ["Hoppehøjde", "Rækkehøjde", "Jump & Reach score", "Eksplosivitet", "Springstyrke"]
-    equipment: ["Vertec", "Målebånd", "Kridt", "Basketballplade"]
+    measures: ["Hoppehøjde", "Rækkehøjde", "Peak Power (Watt)"]
+    equipment: ["Vertec", "Målebånd", "Kridt"]
     setting: ["Fitnesscenter", "Klinik", "Individuel", "Holdtest"]
     target_group: ["Motionister", "Atleter", "Unge", "Voksne", "Mænd", "Kvinder"]
     related_tools:
       - "tool-jump-reach-score-beregner"
-      - "tool-jump-power-beregner"
+
+  - id: "jump-reach-abalakov-2h"
+    title: "Jump & Reach - Stående 2-hånd"
+    description: "Vertikal springtest fra stående position med stående afsæt (CMJ med armtræk) og berøring med begge hænder i toppen."
+    icon: "🦘"
+    badge: "Vertikal"
+    unit: "cm"
+    storage_key: "jump_reach_cmj_2h"
+    allow_quick_log: true
+    category: ["Eksplosivitet", "Springtest", "Vertikal"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Hop"]
+    measures: ["Hoppehøjde", "Rækkehøjde", "Peak Power (Watt)"]
+    equipment: ["Vertec", "Målebånd", "Kridt"]
+    setting: ["Fitnesscenter", "Klinik", "Individuel", "Holdtest"]
+    target_group: ["Motionister", "Atleter", "Unge", "Voksne", "Mænd", "Kvinder"]
+    related_tools:
+      - "tool-jump-reach-score-beregner"
+
+  - id: "jump-reach-run-2leg-1h"
+    title: "Jump & Reach - Tilløb 2-bens afsæt (1-hånd)"
+    description: "Vertikal springtest med kort tilløb, dobbelt afsæt og 1-hånds rækkevidde."
+    icon: "🏃‍♂️"
+    badge: "Vertikal"
+    unit: "cm"
+    storage_key: "jump_reach_run_2leg_1h"
+    allow_quick_log: true
+    category: ["Eksplosivitet", "Springtest", "Vertikal"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Hop"]
+    measures: ["Hoppehøjde", "Rækkehøjde", "Spike-højde"]
+    equipment: ["Vertec", "Målebånd", "Basketballplade"]
+    setting: ["Fitnesscenter", "Klinik", "Individuel", "Holdtest"]
+    target_group: ["Atleter", "Volleyballspillere", "Basketballspillere"]
+    related_tools:
+      - "tool-jump-reach-score-beregner"
+
+  - id: "jump-reach-run-2leg-2h"
+    title: "Jump & Reach - Tilløb 2-bens afsæt (2-hånd)"
+    description: "Måling af maksimal hophøjde med tilløb, to-bens afsæt og samlet 2-hånds berøring i toppen af svævet."
+    icon: "🏃‍♂️"
+    badge: "Vertikal"
+    unit: "cm"
+    storage_key: "jump_reach_run_2leg_2h"
+    allow_quick_log: true
+    category: ["Eksplosivitet", "Springtest", "Vertikal"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Hop"]
+    measures: ["Hoppehøjde", "Rækkehøjde"]
+    equipment: ["Vertec", "Målebånd"]
+    setting: ["Fitnesscenter", "Klinik", "Individuel", "Holdtest"]
+    target_group: ["Atleter", "Volleyballspillere", "Basketballspillere"]
+    related_tools:
+      - "tool-jump-reach-score-beregner"
+
+  - id: "jump-reach-run-left-1h"
+    title: "Jump & Reach - Tilløb venstre ben (1-hånd)"
+    description: "Unilateral vertikal springtest med tilløb og et-bens afsæt på venstre ben med 1-hånds berøring."
+    icon: "🦵"
+    badge: "Vertikal"
+    unit: "cm"
+    storage_key: "jump_reach_run_left_1h"
+    allow_quick_log: true
+    category: ["Eksplosivitet", "Springtest", "Vertikal"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Hop"]
+    measures: ["Hoppehøjde", "Sideforskel", "Unilateral springstyrke"]
+    equipment: ["Vertec", "Målebånd"]
+    setting: ["Fitnesscenter", "Klinik", "Individuel", "Holdtest"]
+    target_group: ["Atleter", "Fodboldspillere", "Højdespringere"]
+    related_tools:
+      - "tool-jump-reach-score-beregner"
+
+  - id: "jump-reach-run-right-1h"
+    title: "Jump & Reach - Tilløb højre ben (1-hånd)"
+    description: "Unilateral vertikal springtest med tilløb og et-bens afsæt på højre ben med 1-hånds berøring."
+    icon: "🦵"
+    badge: "Vertikal"
+    unit: "cm"
+    storage_key: "jump_reach_run_right_1h"
+    allow_quick_log: true
+    category: ["Eksplosivitet", "Springtest", "Vertikal"]
+    type: ["Protokol", "Springtest"]
+    execution: ["Fysisk"]
+    method: "direkte"
+    modality: ["Hop"]
+    measures: ["Hoppehøjde", "Sideforskel", "Unilateral springstyrke"]
+    equipment: ["Vertec", "Målebånd"]
+    setting: ["Fitnesscenter", "Klinik", "Individuel", "Holdtest"]
+    target_group: ["Atleter", "Fodboldspillere", "Højdespringere"]
+    related_tools:
+      - "tool-jump-reach-score-beregner"
+
 
 # INTERAKTIVE SOFTWARE-VÆRKTØJER
 tools:

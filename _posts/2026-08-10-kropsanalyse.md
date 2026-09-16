@@ -50,7 +50,7 @@ Start med at indtaste dine stamdata i Niveau 1. Åbn sektion 2 og 3 for at tilf�
 {% include calc/kropsanalyse-dashboard.html title="🧪 Fysiologisk Kropsanalyse Dashboard" calc_id="body-analysis-dashboard" %}
 
 > **💡 Vigtigt om præcision:**  
-> Beregningerne herunder er **statistiske estimater** baseret på populatoriske modeller og kropsmål – ikke en direkte anatomisk måling (som fx en DEXA-scanning eller hydrostatic vejning). Dashboardets primære værdi er at give dig et **pædagogisk overblik** og hjælpe dig med at **spore relative ændringer over tid**.
+> Beregningerne er **statistiske estimater** baseret på modeller lavet i populationsstudier og kropsmål – ikke en direkte måling (som fx en DEXA-scanning eller hydrostatisk vejning). Oversigten er til inspiration om, hvad kroppen består af.
 
 ---
 

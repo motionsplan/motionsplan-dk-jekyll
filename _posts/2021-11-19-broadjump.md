@@ -31,9 +31,9 @@ meta:
 # TESTS / PROTOKOLLER
 tests:
   - id: "broad-jump"
-    title: "Broad Jump Test (Stående Længdespring)"
-    description: "Standardiseret fysisk præstationstest af eksplosiv horisontal springstyrke og underkroppens muskelkraft udført fra stående samlet afsæt."
-    category: ["Eksplosivitet", "Spring", "Horisontal"]
+    title: "Stående Længdespring"
+    description: "Broadjump måler eksplosiv horisontal springstyrke og underkroppens muskelkraft udført fra stående samlet afsæt."
+    category: ["Horisontal", "Spring", "Eksplosivitet"]
     type: ["Protokol", "Springtest"]
     execution: ["Fysisk"]                  # 🏃‍♂️ FYSISK TEST: Kræver maksimalt stående længdespring
     method: "direkte"                     # 📊 Måles direkte i cm fra afsætslinje til bagerste hæl

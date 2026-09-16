@@ -111,6 +111,10 @@ Du skal helst have en hjælper til at lave målingerne. Hvis du gerne vil have d
 
 Du skal bruge tommel- og pegefinger til at trække hudfolden ud på de steder de forskellige tests angiver. Når du har fat i hudfolden sætter du hudfoldsmåleren på cirka 1 cm ved siden af fingrene. Nu skal du aflæse tykkelsen af hudfolden på tangen inden et par sekunder, så tangen ikke når at komprimere huden, eller det bliver ubehageligt for personen, der bliver testet.
 
+Se eksempler i denne Youtube-video:
+
+{% include video provider="youtube" id="VBJuVfiKrbY" %}
+
 ## Hvor præcis er måling af fedtprocent med fedttang
 
 En fedttang kan ikke give dig en eksakt måling af din fedtprocent ved at måle hudfoldstykkelserne. Fordelen ved fedttangen er nøjagtigheden fra måling til måling. Hvis du måler hudfoldstykkelsen gentagne gange eller over flere dage i træk, så vil de enkelte målinger være tæt på identiske (hvis vi antager at kropskompositionen og fedtprocenten ikke har ændret sig).
