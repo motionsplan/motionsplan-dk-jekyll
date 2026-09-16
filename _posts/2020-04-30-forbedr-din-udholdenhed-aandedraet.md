@@ -159,6 +159,27 @@ Vekselåndedræt er en klassisk yogateknik, der balancerer venstre og højre sid
 
 ---
 
+## Hvorfor måle HRV sammen med vejrtrækningsøvelser?
+
+Når du udfører vejrtrækningsøvelser, påvirker du hjertet direkte gennem et fysiologisk fænomen kaldet **Respiratory Sinus Arrhythmia (RSA)**. Når du ånder ind, falder trykket i brystkassen, og pulsen stiger en smule. Når du ånder ud, aktiveres vagusnerven, og pulsen falder igen.
+
+Ved langsom og regelmæssig vejrtrækning — særligt ved 5,5 til 6 åndedrag pr. minut — forstærkes denne naturlige svingning. Det udløser en markant og øjeblikkelig stigning i din **Heart Rate Variability (HRV)**, som er et direkte udtryk for aktiviteten i det parasympatiske (beroligende) nervesystem.
+
+### Hvad fortæller før- og eftermålingen dig?
+
+At måle din puls og HRV umiddelbart før og efter en åndedrætsøvelse fungerer som biofeedback og giver dig et målbart svar på øvelsens effekt:
+
+* **Dokumentation for vagal tone:** En stigning i HRV (særligt målt i rMSSD) viser, at kroppen har skiftet gear fra sympatisk kamp/flugt-tilstand til parasympatisk restitution.
+* **Sænkning af hjertets arbejdsbelastning:** Et fald i pulsen efter øvelsen bekræfter, at blodkarrene har slappet af, og at hjertet pumper med større effektivitet.
+* **Find din optimale øvelse:** Responsens størrelse varierer fra person til person. Ved at sammenligne dine før- og eftermålinger kan du identificere, om fx *Box Breathing* eller *Resonant Åndedræt* giver den stærkeste fysiologiske ro hos dig.
+
+Du kan slå HRV-målingen til i åndedræts-pacerne ovenfor for at gennemføre en guidet før- og eftertest i forbindelse med din øvelse.
+
+👉 **Læs mere:** [Alt om Heart Rate Variability (HRV) og hvordan det måles →](/hrv/)
+{: .notice--info }
+
+---
+
 ## Bøger om vejrtrækning og åndedrætsøvelser
 
 {% include feature_row id="feature_row_books" type="left" %}
@@ -179,8 +200,18 @@ Vekselåndedræt er en klassisk yogateknik, der balancerer venstre og højre sid
   <summary><h2 id="references">Referencer</h2></summary>
 
 * **Illi, S. K., Hostettler, S., Mohler, E., Aliverti, A., & Spengler, C. M. (2012).** *Effect of respiratory muscle training on performance in athletes: a systematic review.* Sports Medicine, 42(6), 485–503.
+* **Lehrer, P. M., & Gevirtz, R. (2014).** *Heart rate variability biofeedback: how and why does it work?* Frontiers in Psychology, 5, 756. <https://doi.org/10.3389/fpsyg.2014.00756>
+  *(Gennemgang af de fysiologiske mekanismer bag resonansvejrtrækning, barorefleksfølsomhed og vagal stimulation).*
 * **Ma, X., Yue, Z. Q., Gong, Z. Q., Zhang, H., Duan, N. Y., Shi, Y. T., Wei, G. X., & Li, Y. F. (2017).** *The Effect of Diaphragmatic Breathing on Attention, Negative Affect and Stress in Healthy Adults.* Frontiers in Psychology, 8, 874.
 * **McConnell, A. K., & Romer, L. M. (2004).** *Respiratory muscle training in healthy humans: physiological responses and training recommendations.* European Journal of Applied Physiology, 91(5-6), 485–499.
-* **Stromberg, S. E., Russell, M. E., & Carlson, C. R. (2015).** *Diaphragmatic breathing reduces post-prandial oxidative stress and glypression in athletes.* Journal of Alternative and Complementary Medicine, 21(3), 136–142.
+* **Russo, M. A., Santarelli, D. M., & O’Rourke, D. (2017).** *The physiological effects of slow breathing in the healthy human.* Journal of Human Hypertension, 31(12), 778–783. <https://doi.org/10.1038/jhh.2017.13>
+  *(Undersøgelse af fænomenet Respiratory Sinus Arrhythmia (RSA) og langsom vejrtræknings indvirkning på autonomsystemet).*
+* **Shaffer, F., & Ginsberg, J. P. (2017).** *An Overview of Heart Rate Variability Metrics and Norms.* Frontiers in Public Health, 5, 258. <https://doi.org/10.3389/fpubh.2017.00258>
+  *(Standardreference for HRV-metrikker som rMSSD og High Frequency (HF) og deres direkte kobling til vejrtrækningsmønstre).*
+* **Stromberg, S. E., Russell, M. E., & Carlson, C. R. (2015).** *Diaphragmatic breathing reduces post-prandial oxidative stress and glycemia in athletes.* Journal of Alternative and Complementary Medicine, 21(3), 136–142.
+* **Vaschillo, E. G., Vaschillo, B., & Lehrer, P. M. (2006).** *Characteristics of resonance in heart rate variability stimulated by biofeedback.* Applied Psychophysiology and Biofeedback, 31(2), 129–142. <https://doi.org/10.1007/s10484-006-9009-3>
+  *(Den grundlæggende undersøgelse af henholdsvis 5,5 og 6,0 åndedrag pr. minut som den fysiologiske resonansfrekvens for hjerterytmesvingninger).*
+* **Zaccaro, A., Piarulli, A., Laurino, M., Garbella, E., Menicucci, D., Neri, B., & Gemignani, A. (2018).** *How Breath-Control Can Change Your Life: A Systematic Review on Psycho-Physiological Correlates of Slow Breathing.* Frontiers in Human Neuroscience, 12, 353. <https://doi.org/10.3389/fnhum.2018.00353>
+  *(Systematisk review af sammenhængen mellem langsom vejrtrækning (< 10 åndedrag/min), øget parasympatisk aktivitet og løft i HRV).*
 
 </details>
