@@ -1,0 +1,803 @@
+<div class="imtp-analyzer-widget" id="imtp-widget-container">
+  
+  <!-- Info Modal -->
+  <div class="imtp-info-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <div class="modal-title-text">Om IMTP Fil-Analysen</div>
+        <div class="modal-subtitle-text">AccuPower (.acp) Automatisk Dataekstraktion</div>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size: 0.85rem; line-height: 1.5; color: #495057;">
+        <strong>SÅDAN BRUGER DU MODULET:</strong><br>
+        1. Træk din <code>.acp</code> eller <code>.acp2</code> fil direkte ind et vilkårligt sted på widgetten.<br>
+        2. Modulet udlæser automatisk kropsvægt fra filen eller profilen (eller du kan indtaste den manuelt).<br>
+        3. Modulet analyserer den vertikale kraft (Filt Fz) og beregner Peak Force, Time to 80% Peak, RFD (0-100ms, 0-200ms, Peak) samt Impuls (0-100ms, 0-200ms).<br>
+        4. Gem resultatet i din centrale log og dashboard.
+      </p>
+    </div>
+  </div>
+
+  <!-- INTERAKTIV ZONE (FULDSKÆRM) -->
+  <div class="imtp-interactive-zone" id="imtp-fullscreen-zone">
+    
+    <!-- Topbar -->
+    <div class="imtp-topbar">
+      <div class="imtp-header-card">
+        <div class="card-title-row">
+          <span class="card-title">
+            Isometric Mid-Thigh Pull (IMTP) Fil-Analyser
+            <button class="info-icon-btn" type="button" title="Læs om analysen">ⓘ</button>
+          </span>
+          <button type="button" class="btn-widget-fullscreen" id="btn-imtp-fullscreen" title="Skift til fuld skærm">⛶</button>
+        </div>
+        <div class="card-desc">Upload en .acp fil fra AccuPower for automatisk beregning af Peak Force, RFD, Impuls og $T_{80\%PF}$.</div>
+      </div>
+    </div>
+
+    <!-- 2-KOLONNE INPUT GRID (KROPSVÆGT VENSTRE, UPLOAD HØJRE) -->
+    <div class="imtp-input-grid">
+      
+      <!-- KOLONNE 1: KROPSVÆGT INPUT -->
+      <div class="imtp-weight-card">
+        <div class="weight-card-title">Atletens Kropsvægt</div>
+        <div class="weight-input-wrapper">
+          <input type="number" id="input-bodyweight" class="option-input" placeholder="80" step="0.1" min="30" max="250">
+          <span class="weight-unit">kg</span>
+        </div>
+        <div class="weight-sub-text" id="weight-auto-source">Udlæses automatisk fra fil / profil</div>
+      </div>
+
+      <!-- KOLONNE 2: DRAG & DROP UPLOAD -->
+      <div class="imtp-drop-zone" id="imtp-drop-zone">
+        <div class="drop-zone-title">Træk .acp fil hertil</div>
+        <div class="drop-zone-sub">eller klik for at vælge fil</div>
+        <input type="file" id="imtp-file-input" accept=".acp,.acp2,.txt,.csv" style="display: none;">
+        <div class="file-name-display" id="imtp-file-name">Ingen fil valgt</div>
+      </div>
+
+    </div>
+
+    <!-- RESULTAT BEREGNINGER (3x3 GRID MED 9 STATS) -->
+    <div class="imtp-stats-wrapper">
+      <div class="section-title">Testanalyse & Nøgletal</div>
+      <div class="imtp-stats-grid">
+        
+        <!-- RÆKKE 1 -->
+        <div class="stat-box highlight-box">
+          <span class="stat-label">PEAK FORCE</span>
+          <span class="stat-value" id="stat-peak-force">-- N</span>
+          <span class="stat-sub" id="stat-peak-kg">-- kg</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">RELATIV PEAK FORCE</span>
+          <span class="stat-value" id="stat-rel-force">-- N/kg</span>
+          <span class="stat-sub" id="stat-rel-sub">Kraft / Kropsvægt</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">TIME TO 80% PEAK</span>
+          <span class="stat-value" id="stat-time-to-80">-- s</span>
+          <span class="stat-sub" id="stat-time-80-sub">Eksplosiv tærskel</span>
+        </div>
+
+        <!-- RÆKKE 2 -->
+        <div class="stat-box">
+          <span class="stat-label">TIME TO PEAK FORCE</span>
+          <span class="stat-value" id="stat-time-to-peak">-- s</span>
+          <span class="stat-sub" id="stat-time-sub">Fra træk-start</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">RFD 0-100ms</span>
+          <span class="stat-value" id="stat-rfd100">-- N/s</span>
+          <span class="stat-sub">Tidlig eksplosivitet</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">RFD 0-200ms</span>
+          <span class="stat-value" id="stat-rfd200">-- N/s</span>
+          <span class="stat-sub">Maksimal kraftstigning</span>
+        </div>
+
+        <!-- RÆKKE 3 -->
+        <div class="stat-box">
+          <span class="stat-label">PEAK RFD</span>
+          <span class="stat-value" id="stat-peak-rfd">-- N/s</span>
+          <span class="stat-sub">Stejleste hældning</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">IMPULS 0-100ms</span>
+          <span class="stat-value" id="stat-impulse100">-- N·s</span>
+          <span class="stat-sub">Start-impuls</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">IMPULS 0-200ms</span>
+          <span class="stat-value" id="stat-impulse200">-- N·s</span>
+          <span class="stat-sub">Total driv-impuls</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- HØJ KRAFT-TID KURVE (RESPONSIV SKARP SVG) -->
+    <div class="imtp-chart-wrapper">
+      <div class="section-title">Vertikal Kraft-Tid Kurve (Fz i Newton)</div>
+      <div class="chart-container" id="imtp-chart-container">
+        <svg id="imtp-svg-chart" width="100%" height="100%">
+          <text x="50%" y="140" text-anchor="middle" font-size="13" fill="#adb5bd">Træk eller upload en .acp fil for at se grafen</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- ACTION KNAPPER -->
+    <div class="imtp-actions-row">
+      <button type="button" class="btn btn--save-result" id="btn-save-imtp-test">Gem i log</button>
+      <button type="button" class="btn btn--screenshot btn-take-screenshot">Tag et billede</button>
+    </div>
+    <div class="save-status-msg" id="save-status-msg" style="display:none;"></div>
+
+  </div> <!-- SLUT PÅ INTERAKTIV ZONE -->
+
+  <!-- LOCALSTORAGE LOG TABEL -->
+  <div class="imtp-log-wrapper">
+    <div class="log-header-row">
+      <div class="log-title">Gemte testresultater</div>
+      <button class="btn btn--clear-log btn-clear-log" type="button">Ryd log</button>
+    </div>
+    <table class="imtp-log-table">
+      <thead>
+        <tr>
+          <th>Dato & Tid</th>
+          <th>Peak Force</th>
+          <th>Relativ</th>
+          <th>T 80% Peak</th>
+          <th>RFD 100ms</th>
+          <th>RFD 200ms</th>
+          <th>Impuls 100ms</th>
+          <th>Impuls 200ms</th>
+          <th style="width: 32px;"></th>
+        </tr>
+      </thead>
+      <tbody class="log-tbody">
+        <tr class="empty-row"><td colspan="9" style="color: #adb5bd;">Ingen gemte målinger endnu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<style>
+.imtp-analyzer-widget {
+  background: #ffffff; border: 2px solid #e9ecef; border-radius: 16px; padding: 18px;
+  max-width: 780px; width: 100%; margin: 2rem auto; text-align: center; font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08); box-sizing: border-box; position: relative; overflow: hidden;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+.imtp-analyzer-widget * { box-sizing: border-box; }
+
+.imtp-analyzer-widget.is-widget-dragover {
+  border-color: #228be6 !important;
+  background-color: #f4f9ff !important;
+}
+
+.imtp-interactive-zone { position: relative; width: 100%; }
+.imtp-interactive-zone:fullscreen {
+  background: #ffffff; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px;
+}
+
+.imtp-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; text-align: left; }
+.imtp-header-card { background: #e7f5ff; border: 1px solid #a5d8ff; border-radius: 12px; padding: 10px 12px; }
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; display: flex; align-items: center; gap: 6px; }
+
+.info-icon-btn {
+  background: #d0ebff; border: 1px solid #74c0fc; color: #1c7ed6; border-radius: 50%;
+  width: 22px; height: 22px; font-size: 0.80rem; font-weight: 800; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; padding: 0; line-height: 1;
+}
+
+.btn-widget-fullscreen {
+  background: #ffffff; border: 1px solid #a5d8ff; border-radius: 6px;
+  font-size: 0.95rem; width: 30px; height: 30px; cursor: pointer; color: #1c7ed6;
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: background 0.15s ease, color 0.15s ease; flex-shrink: 0;
+}
+.btn-widget-fullscreen:hover { background: #228be6; color: #ffffff; }
+
+/* Modal */
+.imtp-info-modal { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 35; padding: 20px; display: flex; flex-direction: column; text-align: left; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 0.90rem; font-weight: 800; width: 28px; height: 28px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+/* 2-KOLONNE INPUT GRID (VENSTRE: KROPSVÆGT, HØJRE: UPLOAD) */
+.imtp-input-grid {
+  display: grid; grid-template-columns: 1fr 1.3fr; gap: 10px; margin-bottom: 12px;
+}
+@media (max-width: 580px) { .imtp-input-grid { grid-template-columns: 1fr; } }
+
+.imtp-weight-card {
+  background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 12px; padding: 12px;
+  display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+}
+.weight-card-title { font-size: 0.82rem; font-weight: 800; color: #334155; margin-bottom: 6px; }
+.weight-input-wrapper { display: flex; align-items: center; gap: 4px; }
+.option-input::-webkit-outer-spin-button, .option-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.option-input {
+  -moz-appearance: textfield; appearance: textfield;
+  width: 65px; text-align: center; border: 1.5px solid #cbd5e1; border-radius: 6px;
+  font-size: 0.90rem; font-weight: 900; color: #0f172a; padding: 4px; outline: none; background: #ffffff;
+}
+.option-input:focus { border-color: #228be6; }
+.weight-unit { font-size: 0.72rem; font-weight: 800; color: #64748b; }
+.weight-sub-text { font-size: 0.62rem; color: #64748b; margin-top: 4px; line-height: 1.2; }
+
+.imtp-drop-zone {
+  border: 2px dashed #94a3b8; border-radius: 12px; padding: 12px; background: #f8fafc;
+  cursor: pointer; transition: all 0.2s ease; display: flex; flex-direction: column;
+  justify-content: center; align-items: center; text-align: center;
+}
+.imtp-drop-zone:hover, .imtp-drop-zone.is-dragover { border-color: #228be6; background: #e7f5ff; }
+.drop-zone-title { font-size: 0.85rem; font-weight: 800; color: #1e293b; }
+.drop-zone-sub { font-size: 0.70rem; color: #64748b; margin-top: 2px; }
+.file-name-display { font-size: 0.73rem; font-weight: 800; color: #2563eb; margin-top: 4px; word-break: break-all; }
+
+/* Stats Section */
+.imtp-stats-wrapper { margin-top: 8px; text-align: left; }
+.section-title { font-size: 0.85rem; font-weight: 800; margin: 0 0 6px 0; color: #343a40; }
+
+/* 3x3 GRID STATS */
+.imtp-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+@media (max-width: 580px) { .imtp-stats-grid { grid-template-columns: repeat(2, 1fr); } }
+
+.stat-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 10px; padding: 8px 4px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stat-box.highlight-box { background: #fff9db; border-color: #fcc419; }
+
+/* Overskrift øverst, mindre enheder i bunden */
+.stat-label { font-size: 0.58rem; font-weight: 800; color: #868e96; margin-bottom: 3px; text-transform: uppercase; }
+.stat-value { font-size: 1.15rem; font-weight: 900; color: #212529; line-height: 1.1; }
+.stat-sub { font-size: 0.60rem; font-weight: 700; color: #1c7ed6; margin-top: 2px; }
+
+/* Chart Section (Højde justeret til fullscreen) */
+.imtp-chart-wrapper { margin-top: 14px; text-align: left; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px; padding: 10px; }
+.chart-container { background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 6px; width: 100%; height: 280px; overflow: hidden; }
+
+.imtp-interactive-zone:fullscreen .chart-container {
+  height: 380px;
+}
+
+#imtp-svg-chart { width: 100%; height: 100%; display: block; }
+
+/* Actions */
+.imtp-actions-row { display: flex; gap: 8px; margin-top: 12px; width: 100%; }
+.imtp-actions-row .btn {
+  flex: 1; padding: 10px; font-size: 0.85rem; font-weight: 800; border-radius: 10px;
+  border: none; cursor: pointer; transition: background 0.15s ease;
+}
+.btn--save-result { background: #0f172a; color: #ffffff; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15); }
+.btn--save-result:hover { background: #1e293b; }
+
+.btn--screenshot { background: #228be6; color: #ffffff; box-shadow: 0 4px 12px rgba(34, 139, 230, 0.2); }
+.btn--screenshot:hover { background: #1c7ed6; }
+
+.save-status-msg { font-size: 0.75rem; font-weight: 800; color: #2b8a3e; margin-top: 6px; text-align: center; }
+
+/* Log Tabel */
+.imtp-log-wrapper { margin-top: 14px; text-align: left; border-top: 1px solid #e9ecef; padding-top: 10px; width: 100%; display: block; box-sizing: border-box; }
+.log-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; width: 100%; }
+.log-title { font-size: 0.85rem; font-weight: 800; margin: 0; color: #343a40; }
+.btn--clear-log { background: transparent; border: none; color: #fa5252; font-weight: 800; font-size: 0.75rem; cursor: pointer; }
+
+.imtp-log-table { width: 100% !important; display: table !important; border-collapse: collapse; font-size: 0.70rem; table-layout: fixed; margin: 0; }
+.imtp-log-table th { background: #f8f9fa; padding: 6px 2px; border-bottom: 2px solid #dee2e6; text-align: center; font-weight: 800; color: #495057; }
+.imtp-log-table td { padding: 6px 2px; border-bottom: 1px solid #f1f3f5; text-align: center; vertical-align: middle; }
+
+.btn-delete-row { background: transparent; border: none; color: #fa5252; font-size: 0.80rem; font-weight: 800; cursor: pointer; opacity: 0.7; transition: opacity 0.15s; padding: 0 4px; }
+.btn-delete-row:hover { opacity: 1.0; }
+</style>
+
+<script type="module">
+let StorageAdapterModule;
+try {
+  const mod = await import('../core/StorageAdapter.js');
+  StorageAdapterModule = mod.StorageAdapter;
+} catch (e) {
+  try {
+    const mod = await import('/assets/js/core/StorageAdapter.js');
+    StorageAdapterModule = mod.StorageAdapter;
+  } catch (e2) {
+    StorageAdapterModule = window.StorageAdapter;
+  }
+}
+const SA = StorageAdapterModule || window.StorageAdapter;
+
+(function() {
+  function initIMTPAnalyzerWidget() {
+    const widget = document.querySelector(".imtp-analyzer-widget");
+    if (!widget) return;
+
+    let parsedResults = null;
+    let timeSeriesData = [];
+    let lastRenderArgs = null;
+
+    const fullscreenZone = widget.querySelector("#imtp-fullscreen-zone");
+    const btnFullscreen = widget.querySelector("#btn-imtp-fullscreen");
+
+    const dropZone = widget.querySelector("#imtp-drop-zone");
+    const fileInput = widget.querySelector("#imtp-file-input");
+    const fileNameDisplay = widget.querySelector("#imtp-file-name");
+    const inputBodyweight = widget.querySelector("#input-bodyweight");
+    const weightAutoSource = widget.querySelector("#weight-auto-source");
+
+    const statPeakForce = widget.querySelector("#stat-peak-force");
+    const statPeakKg = widget.querySelector("#stat-peak-kg");
+    const statRelForce = widget.querySelector("#stat-rel-force");
+    const statTimeTo80 = widget.querySelector("#stat-time-to-80");
+    const statTimeToPeak = widget.querySelector("#stat-time-to-peak");
+    const statRfd100 = widget.querySelector("#stat-rfd100");
+    const statRfd200 = widget.querySelector("#stat-rfd200");
+    const statPeakRfd = widget.querySelector("#stat-peak-rfd");
+    const statImpulse100 = widget.querySelector("#stat-impulse100");
+    const statImpulse200 = widget.querySelector("#stat-impulse200");
+
+    const chartContainer = widget.querySelector("#imtp-chart-container");
+    const svgChart = widget.querySelector("#imtp-svg-chart");
+    const btnSaveTest = widget.querySelector("#btn-save-imtp-test");
+    const saveStatusMsg = widget.querySelector("#save-status-msg");
+
+    const logTbody = widget.querySelector(".log-tbody");
+    const btnClearLog = widget.querySelector(".btn-clear-log");
+    const btnScreenshot = widget.querySelector(".btn-take-screenshot");
+
+    const infoModal = widget.querySelector(".imtp-info-modal");
+    const infoIconBtn = widget.querySelector(".info-icon-btn");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+
+    if (SA) {
+      const profile = SA.getProfile();
+      if (profile && profile.weight) {
+        inputBodyweight.value = profile.weight;
+      }
+    }
+
+    if (btnFullscreen && fullscreenZone) {
+      btnFullscreen.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (!document.fullscreenElement) {
+          if (fullscreenZone.requestFullscreen) fullscreenZone.requestFullscreen();
+          else if (fullscreenZone.webkitRequestFullscreen) fullscreenZone.webkitRequestFullscreen();
+        } else {
+          if (document.exitFullscreen) document.exitFullscreen();
+        }
+      });
+    }
+
+    window.addEventListener('resize', () => {
+      if (lastRenderArgs) renderForceChart(...lastRenderArgs);
+    });
+
+    document.addEventListener('fullscreenchange', () => {
+      setTimeout(() => {
+        if (lastRenderArgs) renderForceChart(...lastRenderArgs);
+      }, 100);
+    });
+
+    // DRAG AND DROP
+    ['dragenter', 'dragover'].forEach(eventName => {
+      widget.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        widget.classList.add('is-widget-dragover');
+        dropZone.classList.add('is-dragover');
+      }, false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      widget.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        widget.classList.remove('is-widget-dragover');
+        dropZone.classList.remove('is-dragover');
+      }, false);
+    });
+
+    widget.addEventListener('drop', (e) => {
+      const dt = e.dataTransfer;
+      const files = dt.files;
+      if (files && files.length > 0) handleFileSelect(files[0]);
+    });
+
+    dropZone.addEventListener("click", () => fileInput.click());
+
+    fileInput.addEventListener('change', (e) => {
+      if (e.target.files && e.target.files.length > 0) handleFileSelect(e.target.files[0]);
+    });
+
+    inputBodyweight.addEventListener('input', () => {
+      if (parsedResults) recalculateRelativeMetrics();
+    });
+
+    function handleFileSelect(file) {
+      fileNameDisplay.textContent = `${file.name}`;
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        parseACP2File(evt.target.result);
+      };
+      reader.readAsText(file);
+    }
+
+    function parseACP2File(text) {
+      const lines = text.split(/\r?\n/);
+      timeSeriesData = [];
+      let fzColumnIndex = -1;
+
+      // 1. UDLÆS KROPSVÆGT FRA ACP FILEN
+      const bwLine = lines.find(l => l.includes("body and load weights"));
+      if (bwLine) {
+        const parts = bwLine.trim().split(/\s+/);
+        const fileBw = parseFloat(parts[0]);
+        if (!isNaN(fileBw) && fileBw > 0) {
+          inputBodyweight.value = fileBw;
+          if (weightAutoSource) weightAutoSource.textContent = "Udlæst direkte fra .acp fil";
+        }
+      }
+
+      // 2. SØG EFTER KOLONNEOVERSKRIFT (Filt Fz)
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (line.includes("Fz") || line.includes("Time")) {
+          const headers = line.split(/\t/).map(h => h.trim());
+          let idx = headers.findIndex(h => h.includes("Filt Fz"));
+          if (idx === -1) idx = headers.findIndex(h => h.includes("Raw Fz"));
+          if (idx === -1) idx = headers.findIndex(h => h.includes("Fz"));
+
+          if (idx !== -1) {
+            fzColumnIndex = idx;
+            break;
+          }
+        }
+      }
+
+      if (fzColumnIndex === -1) fzColumnIndex = 11;
+
+      // 3. EKSTRAHÉR TIDSSERIE-DATA FOR Fz
+      lines.forEach(line => {
+        const parts = line.split(/\t/).map(p => p.trim());
+        if (parts.length > fzColumnIndex) {
+          const t = parseFloat(parts[0]);
+          let f = parseFloat(parts[fzColumnIndex]);
+
+          if (isNaN(f) && parts.length > 3) f = parseFloat(parts[3]);
+
+          if (!isNaN(t) && !isNaN(f)) {
+            timeSeriesData.push({ time: t, force: f });
+          }
+        }
+      });
+
+      if (timeSeriesData.length < 10) {
+        alert("Kunne ikke ekstrahere vertikale kraftdata (Fz) fra .acp filen.");
+        return;
+      }
+
+      // 4. PEAK FORCE
+      let peakForceN = -Infinity;
+      let peakIndex = 0;
+      timeSeriesData.forEach((pt, idx) => {
+        if (pt.force > peakForceN) {
+          peakForceN = pt.force;
+          peakIndex = idx;
+        }
+      });
+
+      // 5. ONSET DETEKTION
+      const baselineCount = Math.min(50, Math.floor(timeSeriesData.length * 0.05));
+      let baselineSum = 0;
+      for (let i = 0; i < baselineCount; i++) {
+        baselineSum += timeSeriesData[i].force;
+      }
+      const baseline = baselineSum / baselineCount;
+
+      let onsetIndex = timeSeriesData.findIndex((pt, idx) => idx > 10 && pt.force > (baseline + 35));
+      if (onsetIndex === -1 || onsetIndex >= peakIndex) onsetIndex = 0;
+
+      const t0 = timeSeriesData[onsetIndex].time;
+      const tPeak = timeSeriesData[peakIndex].time;
+      const timeToPeakSec = Math.max(0, tPeak - t0);
+
+      // 6. TIME TO 80% PEAK FORCE
+      const target80Force = baseline + 0.8 * (peakForceN - baseline);
+      let idx80 = timeSeriesData.findIndex((pt, idx) => idx >= onsetIndex && pt.force >= target80Force);
+      if (idx80 === -1) idx80 = peakIndex;
+      const timeTo80Sec = Math.max(0, timeSeriesData[idx80].time - t0);
+
+      // 7. RFD 0-100ms & RFD 0-200ms
+      const pt100 = timeSeriesData.find(pt => pt.time >= (t0 + 0.100)) || timeSeriesData[peakIndex];
+      const rfd100Val = (pt100.force - baseline) / 0.100;
+
+      const pt200 = timeSeriesData.find(pt => pt.time >= (t0 + 0.200)) || timeSeriesData[peakIndex];
+      const rfd200Val = (pt200.force - baseline) / 0.200;
+
+      // 8. PEAK RFD
+      let peakRfdVal = 0;
+      const windowSize = 4;
+      for (let i = onsetIndex; i < peakIndex - windowSize; i++) {
+        const dt = timeSeriesData[i + windowSize].time - timeSeriesData[i].time;
+        const df = timeSeriesData[i + windowSize].force - timeSeriesData[i].force;
+        if (dt > 0) {
+          const slope = df / dt;
+          if (slope > peakRfdVal) peakRfdVal = slope;
+        }
+      }
+
+      // 9. IMPULS 0-100ms & IMPULS 0-200ms
+      let impulse100Val = 0;
+      let impulse200Val = 0;
+      for (let i = onsetIndex; i < timeSeriesData.length - 1; i++) {
+        const currentTime = timeSeriesData[i].time;
+        if (currentTime >= (t0 + 0.200)) break;
+
+        const dt = timeSeriesData[i + 1].time - currentTime;
+        const avgF = (timeSeriesData[i].force + timeSeriesData[i + 1].force) / 2;
+
+        if (currentTime < (t0 + 0.100)) {
+          impulse100Val += avgF * dt;
+        }
+        impulse200Val += avgF * dt;
+      }
+
+      parsedResults = {
+        peakForceN: peakForceN,
+        peakForceKg: peakForceN / 9.81,
+        timeTo80Sec: timeTo80Sec,
+        timeToPeakSec: timeToPeakSec,
+        rfd100: Math.max(0, rfd100Val),
+        rfd200: Math.max(0, rfd200Val),
+        peakRfd: Math.max(0, peakRfdVal),
+        impulse100: Math.max(0, impulse100Val),
+        impulse200: Math.max(0, impulse200Val),
+        baseline: baseline
+      };
+
+      recalculateRelativeMetrics();
+      lastRenderArgs = [timeSeriesData, onsetIndex, idx80, peakIndex];
+      renderForceChart(timeSeriesData, onsetIndex, idx80, peakIndex);
+    }
+
+    function recalculateRelativeMetrics() {
+      if (!parsedResults) return;
+
+      const bw = parseFloat(inputBodyweight.value);
+      const hasBw = !isNaN(bw) && bw > 0;
+
+      const relForce = hasBw ? (parsedResults.peakForceN / bw) : null;
+
+      statPeakForce.textContent = `${parsedResults.peakForceN.toFixed(0)} N`;
+      statPeakKg.textContent = `${parsedResults.peakForceKg.toFixed(1)} kg`;
+
+      if (relForce) {
+        statRelForce.textContent = `${relForce.toFixed(2)} N/kg`;
+      } else {
+        statRelForce.textContent = "-- N/kg";
+      }
+
+      statTimeTo80.textContent = `${parsedResults.timeTo80Sec.toFixed(3)} s`;
+      statTimeToPeak.textContent = `${parsedResults.timeToPeakSec.toFixed(3)} s`;
+      statRfd100.textContent = `${parsedResults.rfd100.toFixed(0)} N/s`;
+      statRfd200.textContent = `${parsedResults.rfd200.toFixed(0)} N/s`;
+      statPeakRfd.textContent = `${parsedResults.peakRfd.toFixed(0)} N/s`;
+      statImpulse100.textContent = `${parsedResults.impulse100.toFixed(1)} N·s`;
+      statImpulse200.textContent = `${parsedResults.impulse200.toFixed(1)} N·s`;
+
+      parsedResults.relativeForce = relForce;
+      parsedResults.bodyWeight = hasBw ? bw : null;
+    }
+
+    function renderForceChart(data, onsetIdx, idx80, peakIdx) {
+      if (!data || data.length === 0) return;
+
+      const rect = chartContainer.getBoundingClientRect();
+      const width = rect.width > 0 ? rect.width : 520;
+      const height = rect.height > 0 ? rect.height : 280;
+
+      svgChart.setAttribute("viewBox", `0 0 ${width} ${height}`);
+      svgChart.setAttribute("preserveAspectRatio", "none");
+
+      const padL = 50;
+      const padR = 20;
+      const padT = 20;
+      const padB = 30;
+
+      const forces = data.map(d => d.force);
+      const minF = Math.min(0, ...forces);
+      const maxF = Math.max(...forces) * 1.08;
+
+      const minT = data[0].time;
+      const maxT = data[data.length - 1].time;
+
+      let svgHtml = '';
+
+      // Grid-linjer (Med større og mere læselig Y-aksetekst)
+      const gridSteps = 5;
+      for (let i = 0; i <= gridSteps; i++) {
+        const vVal = minF + ((maxF - minF) / gridSteps) * i;
+        const y = height - padB - ((vVal - minF) / (maxF - minF)) * (height - padT - padB);
+        svgHtml += `<line x1="${padL}" y1="${y}" x2="${width - padR}" y2="${y}" stroke="#f1f3f5" stroke-width="1"/>`;
+        svgHtml += `<text x="${padL - 8}" y="${y + 4}" font-size="11" text-anchor="end" fill="#495057" font-weight="bold">${Math.round(vVal)}</text>`;
+      }
+
+      // Tegn Kurve
+      let pathD = '';
+      data.forEach((pt, i) => {
+        const x = padL + ((pt.time - minT) / (maxT - minT)) * (width - padL - padR);
+        const y = height - padB - ((pt.force - minF) / (maxF - minF)) * (height - padT - padB);
+        pathD += (i === 0 ? 'M' : 'L') + ` ${x.toFixed(1)},${y.toFixed(1)}`;
+      });
+
+      svgHtml += `<path d="${pathD}" fill="none" stroke="#228be6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>`;
+
+      // Marker Onset (Grøn)
+      if (onsetIdx >= 0 && onsetIdx < data.length) {
+        const xOn = padL + ((data[onsetIdx].time - minT) / (maxT - minT)) * (width - padL - padR);
+        const yOn = height - padB - ((data[onsetIdx].force - minF) / (maxF - minF)) * (height - padT - padB);
+        svgHtml += `<circle cx="${xOn}" cy="${yOn}" r="5" fill="#0ca678"/>`;
+      }
+
+      // Marker 80% Peak (Gul)
+      if (idx80 >= 0 && idx80 < data.length) {
+        const x80 = padL + ((data[idx80].time - minT) / (maxT - minT)) * (width - padL - padR);
+        const y80 = height - padB - ((data[idx80].force - minF) / (maxF - minF)) * (height - padT - padB);
+        svgHtml += `<circle cx="${x80}" cy="${y80}" r="5.5" fill="#f59f00"/>`;
+      }
+
+      // Marker Peak Force (Rød)
+      if (peakIdx >= 0 && peakIdx < data.length) {
+        const xPk = padL + ((data[peakIdx].time - minT) / (maxT - minT)) * (width - padL - padR);
+        const yPk = height - padB - ((data[peakIdx].force - minF) / (maxF - minF)) * (height - padT - padB);
+        svgHtml += `<circle cx="${xPk}" cy="${yPk}" r="6" fill="#e03131"/>`;
+      }
+
+      svgChart.innerHTML = svgHtml;
+    }
+
+    function saveTestToLogAndDashboard() {
+      if (!parsedResults) {
+        alert("Upload venligst en gyldig .acp fil først.");
+        return;
+      }
+
+      const profile = SA ? SA.getProfile() : {};
+      const userAge = profile.age || 25;
+      const userGender = profile.gender || 'male';
+
+      // 1. GEM I LOKAL LOG
+      const logs = JSON.parse(localStorage.getItem("imtp_test_logs") || "[]");
+      const now = new Date();
+      const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+
+      logs.unshift({
+        date: dateStr,
+        peakForce: parsedResults.peakForceN.toFixed(0) + ' N',
+        relForce: parsedResults.relativeForce ? parsedResults.relativeForce.toFixed(2) + ' N/kg' : '--',
+        timeTo80: parsedResults.timeTo80Sec.toFixed(3) + ' s',
+        rfd100: parsedResults.rfd100.toFixed(0) + ' N/s',
+        rfd200: parsedResults.rfd200.toFixed(0) + ' N/s',
+        impulse100: parsedResults.impulse100.toFixed(1) + ' N·s',
+        impulse200: parsedResults.impulse200.toFixed(1) + ' N·s'
+      });
+
+      localStorage.setItem("imtp_test_logs", JSON.stringify(logs.slice(0, 20)));
+      renderLocalStorageLog();
+
+      // 2. SKRIV DIREKTE TIL STORAGEADAPTER
+      if (SA) {
+        SA.commitToLog('imtp_test', {
+          type: 'physical',
+          primary: { value: parseFloat(parsedResults.peakForceN.toFixed(0)), unit: 'N', label: 'IMTP Peak Force' },
+          subMetrics: {
+            peakForceKg: parseFloat(parsedResults.peakForceKg.toFixed(1)),
+            relativeForce: parsedResults.relativeForce ? parseFloat(parsedResults.relativeForce.toFixed(2)) : null,
+            timeTo80Sec: parseFloat(parsedResults.timeTo80Sec.toFixed(3)),
+            timeToPeakSec: parseFloat(parsedResults.timeToPeakSec.toFixed(3)),
+            rfd100: parseFloat(parsedResults.rfd100.toFixed(0)),
+            rfd200: parseFloat(parsedResults.rfd200.toFixed(0)),
+            peakRfd: parseFloat(parsedResults.peakRfd.toFixed(0)),
+            impulse100: parseFloat(parsedResults.impulse100.toFixed(1)),
+            impulse200: parseFloat(parsedResults.impulse200.toFixed(1)),
+            bodyWeight: parsedResults.bodyWeight
+          },
+          context: { age: userAge, gender: userGender }
+        });
+
+        window.dispatchEvent(new CustomEvent('storage-update', { detail: { key: 'imtp_test' } }));
+        window.dispatchEvent(new Event('storage'));
+      }
+
+      saveStatusMsg.textContent = "Test gemt i historik og synkroniseret med Dashboard!";
+      saveStatusMsg.style.display = "block";
+      setTimeout(() => { saveStatusMsg.style.display = "none"; }, 3500);
+    }
+
+    function renderLocalStorageLog() {
+      const logs = JSON.parse(localStorage.getItem("imtp_test_logs") || "[]");
+      logTbody.innerHTML = "";
+
+      if (logs.length === 0) {
+        logTbody.innerHTML = '<tr class="empty-row"><td colspan="9" style="color: #adb5bd;">Ingen gemte målinger endnu</td></tr>';
+        return;
+      }
+
+      logs.forEach((item, index) => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${item.date}</td>
+          <td><strong>${item.peakForce}</strong></td>
+          <td>${item.relForce}</td>
+          <td>${item.timeTo80}</td>
+          <td><span style="color:#1c7ed6; font-weight:800;">${item.rfd100}</span></td>
+          <td>${item.rfd200}</td>
+          <td>${item.impulse100}</td>
+          <td>${item.impulse200}</td>
+          <td><button type="button" class="btn-delete-row" data-index="${index}" title="Slet måling">✖</button></td>
+        `;
+        logTbody.appendChild(tr);
+      });
+
+      logTbody.querySelectorAll('.btn-delete-row').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const idx = parseInt(e.currentTarget.getAttribute('data-index'), 10);
+          const currentLogs = JSON.parse(localStorage.getItem("imtp_test_logs") || "[]");
+          currentLogs.splice(idx, 1);
+          localStorage.setItem("imtp_test_logs", JSON.stringify(currentLogs));
+          renderLocalStorageLog();
+        });
+      });
+    }
+
+    function takeScreenshot() {
+      function capture() {
+        html2canvas(widget, { scale: 2, useCORS: true }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = `imtp-test-resultat-${new Date().toISOString().slice(0,10)}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        });
+      }
+
+      if (typeof html2canvas === 'undefined') {
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+        script.onload = capture;
+        document.head.appendChild(script);
+      } else {
+        capture();
+      }
+    }
+
+    if (btnSaveTest) btnSaveTest.addEventListener("click", saveTestToLogAndDashboard);
+
+    if (btnClearLog) {
+      btnClearLog.addEventListener("click", () => {
+        if (confirm("Vil du slette alle gemte IMTP-målinger fra hukommelsen?")) {
+          localStorage.removeItem("imtp_test_logs");
+          renderLocalStorageLog();
+        }
+      });
+    }
+
+    if (btnScreenshot) btnScreenshot.addEventListener("click", takeScreenshot);
+    if (infoIconBtn) infoIconBtn.addEventListener("click", () => { infoModal.style.display = "flex"; });
+    if (modalCloseBtn) modalCloseBtn.addEventListener("click", () => { infoModal.style.display = "none"; });
+
+    renderLocalStorageLog();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initIMTPAnalyzerWidget);
+  } else {
+    initIMTPAnalyzerWidget();
+  }
+})();
+</script>
