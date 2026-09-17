@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang='da' class="webshop-html" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<title>Siden er blevet væk</title>
+<style class="PRO">
+
+    
+   
+
+    #headerusp span.dynamicstock a {
+    color: #fff;
+}
+  
+  div.importantMessage, .infobarX {
+    background: linear-gradient(90deg, rgba(227,103,25,1) 0%, rgba(85,38,150,1) 35%, rgba(85,38,150,1) 65%, rgba(227,103,25,1) 100%) !important}
+
+    .Prices_Custom_DIV > div:nth-child(2) {
+    display: none !important;
+}
+</style>
+<!-- Google Tag Manager -->
+<script>
+var ssUrl = '';
+if (window.location.href.indexOf('www.bodylab.dk') !== -1) {
+ssUrl = "https://ss.bodylab.dk/"; 
+} else if (window.location.href.indexOf('www.bodylab.se') !== -1) {
+ssUrl = "https://ss.bodylab.se/";
+} else if (window.location.href.indexOf('www.bodylab.fi') !== -1) {
+ssUrl = "https://ss.bodylab.fi/";
+} else if (window.location.href.indexOf('www.bodylab.no') !== -1) {
+ssUrl = "https://ss.bodylab.no/"; 
+}
+if (ssUrl != '') {
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}gtag("consent","default",{ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied",analytics_storage:"denied",functionality_storage:"denied",personalization_storage:"denied",security_storage:"denied",wait_for_update:500})
+,gtag("set","ads_data_redaction",!0);
+!function(){"use strict";function e(e,t,o){return void 0===t&&(t=""),"cookie"===e?function(e){for(var t=0,o=document.cookie.split(";");t<o.length;t++){var r=o[t].split("=");if(r[0].trim()===e)return r[1]}}(t):"localStorage"===e?(r=t,localStorage.getItem(r)):"jsVariable"===e?window[t]:"cssSelector"===e?(n=t,i=o,a=document.querySelector(n),i?null==a?void 0:a.getAttribute(i):null==a?void 0:a.textContent):void console.warn("invalid uid source",e);var r,n,i,a}!function(t,o,r,n,i,a,c,l,s,u){var d,v,E,I;try{v=l&&(E=navigator.userAgent,(I=/Version\/([0-9\._]+)(.*Mobile)?.*Safari.*/.exec(E))&&parseFloat(I[1])>=16.4)?e(l,"_dcid",""):void 0}catch(e){console.error(e)}var g=t;g[n]=g[n]||[],g[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=o.getElementsByTagName(r)[0],T=v?"&bi="+encodeURIComponent(v):"",_=o.createElement(r),f=v?"kp"+c:c;_.async=!0,_.src=ssUrl+f+".js?id=GTM-MCQQLSQ"+T,null===(d=m.parentNode)||void 0===d||d.insertBefore(_,m)}(window,document,"script","dataLayer",0,0,"jjcbjorj","cookie")}();}</script>
+<link rel="alternate" hreflang="da" href="https://www.bodylab.dk/shop/cms-error-404.html"/>
+<link rel="alternate" hreflang="sv" href="https://www.bodylab.se/shop/cms-error-404.html"/>
+<link rel="alternate" hreflang="nb" href="https://www.bodylab.no/shop/cms-error-404.html"/>
+<link rel="alternate" hreflang="fi" href="https://www.bodylab.fi/shop/cms-error-404.html"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="generator" content="DanDomain Webshop" />
+    <link rel="canonical" href="https://www.bodylab.dk/shop/cms-error-404.html"/>
+<script id="CookieConsent" src="https://policy.app.cookieinformation.com/uc.js" type="text/javascript" data-gcm-version="2.0" data-culture="DA"></script>
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)">
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)">
+    <script type="text/javascript">
+        var UsesOwnDoctype = true
+        var LanguageID = '1';
+        var ReloadBasket = '';
+        var MaxBuyMsg = 'Antal må ikke være større end';
+        var MinBuyMsg = 'Antal må ikke være mindre end';
+        var SelectVarMsg = 'Vælg variant før køb';
+        var ProductNumber = '';
+        var ProductVariantMasterID = '';
+        var Keyword = '';
+        var SelectVarTxt = 'Vælg din smag';
+        var ShowBasketUrl = '/shop/showbasket.html';
+        var CurrencyReturnUrl = '/shop/cms-error-404.html?alias=/images/products/zma-105g-2019-p.png/&amp;rewriteType=';
+        var ReqVariantSelect = 'true';
+        var EnablePicProtect = false;
+        var PicprotectMsg = '';
+        var AddedToBasketMessageTriggered = false;
+        var CookiePolicy = {"cookiesRequireConsent":false,"allowTrackingCookies":true,"allowStatisticsCookies":true,"allowFunctionalCookies":true};
+        setInterval(function(){SilentAjaxGetRequest(location.href);},900000);
+    </script>
+    <script type="text/javascript" src="/shop/frontend/public/js/webshop.all.min.js?v=8.117.5220"></script>
+
+<script>
+  var leadpopupsettings = {
+    'active': false,
+    'codes': ['VIP75', 'PREACCESS'],
+    'unlock': {
+      'title': 'Vil du have Black Friday<br/>PRE-ACCESS?<br/><small>Spar op til 75 %</small>',
+      'subtitle': 'VIP-salget er i gang på den anden side. Vil du med? Indtast din hemmelige kode for at få adgang til rabatterne nu!',
+      'codeplaceholder': 'Indtast kode',
+      'submit': 'LUK MIG IND',
+      'bottom': '<strong>Har du ikke fået en kode?</strong><br/>Bare rolig, du kan stadig nå at være med.<br /><a href="#invite">Få din kode.</a>',
+      'wrong':'Koden er forkert'
+    },
+    'invite': {
+      'title': 'GET YOUR PRE-ACCESS CODE ',
+      'subtitle': 'Tilmeld dig vores nyhedsbrev - og få adgang til vores eksklusive Black Friday-tilbud',
+      'nameplaceholder': 'Fornavn og efternavn',
+      'emailplaceholder': 'E-mail',
+      'phoneplaceholder': 'Mobilnummer',
+      'consent': 'Ved deltagelse i konkurrencen accepterer jeg Bodylabs <a href="/shop/cms-terms.html">betingelser</a> samt behandling af <a href="/shop/cms-privacy-policy.html">personoplysninger</a>.',
+      'submit': 'TILMELD OG LUK MIG IND'
+    },
+    'success': {
+      'title': 'WELCOME TO THE PARTY! ',
+      'subtitle': 'Er du klar til tonsvis af lækre deals? Selvfølgelig er du det – og det får du lige her. God fornøjelse!',
+      'button': 'Shop till you drop!'
+    }
+  }
+   var now = new Date();
+    var hours = now.getHours();
+	var auto = true;
+    if (hours < 20 && auto) {
+        leadpopupsettings.active = false;
+    } else {
+        leadpopupsettings.active = false;
+    }
+  
+</script>
+
+<!--<script>if (ProductVariantMasterID != 'M0228'){function avRedirect(a) {$('form[name="myform"] input[name="ProductID"]').val(a)}}</script>-->
+<script>  
+  window.VOYADO_SHOPBASEURL = 'https://www.bodylab.dk';
+  window.VOYADO_SHOPBASELANG = 'da-DK';
+</script>
+
+<script>
+  var changesources = [
+    {'old':'/images/products/hydrotabs-3stk-old.png','new':'/images/products/hydro-tabs-3x.png'},{'old':'/images/products/hydrotabs-3stk-old-t.png','new':'/images/products/hydro-tabs-3x-t.png'},{'old':'/images/products/hydrotabs-3stk-old-p.png','new':'/images/products/hydro-tabs-3x-p.png'}
+  ];
+</script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=5, user-scalable=yes">
+
+<link href="/images/skins/Bodylab/css/main.v19.css?v=7" rel="stylesheet" type="text/css">
+<script src="https://image.bodylab.dk/images/skins/Bodylab/js/head.js" type="text/javascript"></script>
+
+<link rel="preconnect" href="https://www.google.dk">
+<link rel="preconnect" href="https://www.google.com">
+<link rel="preconnect" href="https://www.googleadservices.com">
+<link rel="preconnect" href="https://s3-eu-west-1.amazonaws.com">
+<link rel="preconnect" href="https://cm.g.doubleclick.net">
+<link rel="preconnect" href="https://sslwidget.criteo.com">
+<link rel="preconnect" href="https://dynamic.criteo.com">
+<link rel="preconnect" href="https://googleads.g.doubleclick.net">
+<link rel="preconnect" href="https://rtb-csync.smartadserver.com">
+<link rel="preconnect" href="https://secure.adnxs.com">
+<link rel="preconnect" href="https://contextual.media.net">
+<link rel="preconnect" href="https://cdn.sitecampaign.com">
+<link rel="preconnect" href="https://pixel.rubiconproject.com">
+<link rel="preconnect" href="https://x.bidswitch.net">
+<link rel="preconnect" href="https://static.criteo.net">
+<link rel="preconnect" href="https://cm.adform.net">
+<link rel="preconnect" href="https://www.facebook.com">
+<link rel="preconnect" href="https://id5-sync.com">
+<link rel="preconnect" href="https://criteo-sync.teads.tv">
+<link rel="preconnect" href="https://rules.quantcount.com">
+<link rel="preconnect" href="https://campaign.assets.sitecampaign.com">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://connect.facebook.net">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+<script>  
+  var ismobile = false;
+  var isb2b = false;
+  var b2bonly = false;
+  
+  
+  
+  function changeSources() {
+    for (let i = 0; i < changesources.length; i++) {
+      let elements = $('[src*="'+changesources[i].old+'"]:not(.changed),[href*="'+changesources[i].old+'"]:not(.changed)');
+      if (elements.length) {
+        elements.each(function() {
+          let element = $(this);
+          element.addClass('changed');
+          if (element.is('a')) {
+            let href = element.attr('href').replace(changesources[i].old,changesources[i].new);
+            element.attr('href',href);
+          }
+          else if (element.is('img')) {
+            let src = element.attr('src').replace(changesources[i].old,changesources[i].new);
+            element.attr('src',src);
+          }
+        });
+      }
+    }
+  }
+</script>
+<style>
+  body.webshop-paygateway-api.webshop-body * {
+    display:none;
+    height: 100vh;
+  }
+  body.webshop-paygateway-api.webshop-body {
+    height: 100vh;
+  }
+  body.webshop-paygateway-api.webshop-body {
+    background-image: url(/images/skins/Bodylab/images/loader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .savings.blackweek {background-color:#000000;color:#ffde02;font-weight:bold;}
+    @media (min-width: 1000px) {
+    #ProductMenu_List > li {
+        padding: 35px 1.5%;}
+</style>
+<script type="text/javascript">var counterActive = "0";var counterState = "2";var shopIdentifier = 4879319;var siteId = 1;var campaignState = 1;var showDialogType = 1;var spotlightCampaign = "spring-mysterybag";var spotlightUrl = "/shop/mystery-bag-4323p.html";var spotlightText = "Mystery bag";var spotlightActive = "normal";  var bundleCampaign = "2022-10-smoothie";var bundleAmount = "1";var bundleProduct = "1007752#1007753";var bundleProductShow = true;var bundleProductText = "+ 3 x Protein Smoothie (19,-)";var bundleIgnore = "#M0349#";var stockMessageState = "1";var showCounter = true;var tpScore = "Fremragende 4.9 ud af 5.0";var freeShippingActive = "0";var freeShippingLimit = "499";var competition = "0";var competitionImage = "";var campaignMessage = '<a href="/shop/clear-whey-3662p.html">Spar 30% på Clear Whey</a>';var sc_abandoned_cart = 'false';var sc_lead = 'true';var sc_recommendations = 'false';var holiday = '0';var christmas = '0';var ShippingGLS = "1-2 hverdage";var ShippingBring = "2-3 hverdage";var ShippingOther = "2-3 hverdage";var ShippingInstaBoxSE = "3-4 vardagar";var ShippingBringSE = "4-5 vardagar";var ShippingBringNO = "3-5 hverdager";var ShippingPosti = "3-6 arkipäivää";</script>
+</head>
+
+
+<body class="webshop-cmspage webshop-body">
+<script>
+let blockedCodes = ["GETA6PACK", "GETA6PACKAAA"];
+  var badges = [
+    {'trigger':721,'content':'Limited edition','background':'red','color':'white'},{'trigger':722,'content':'2-for-1','background':'blue','color':'white'},{'trigger':10,'content':'Begrænset antal','background':'rgb(253 219 7)','color':'black'},{'trigger':2,'content':'<img src="/images/skins/Bodylab/icons/Labels/Saelges-hurtigt.svg" />'},{'trigger':3,'content':'-50 % with code*','background':'#995492','color':'white'},{'trigger':0,'content':'Udsolgt','background':'#6c6c6c','color':'white'},{'trigger':99,'content':'Lager: 01-08-2023','background':'#6c6c6c','color':'white'},{'trigger':321,'content':'Original','background':'#000','color':'white'},{'trigger':1147,'content':'Stop wasting whey','background':'#000','color':'white'},{'trigger':245,'content':'Text','background':'#000','color':'white'}]
+  var listview = [
+    '-84sx',
+    '-2cx'
+  ];
+</script>
+<script>
+  checkIfMobile();
+  window.onresize = function() {
+    checkIfMobile()
+  }
+  function checkIfMobile() {
+    if (window.innerWidth <= 999) {
+      ismobile = true;
+    }
+    else {
+      ismobile = false;
+    } 
+  }
+  
+</script>
+
+<!--<script type="text/javascript" src="/images/skins/Bodylab/js/leadpopup.v2.js?23-11-4"></script>-->
+
+<style>
+ 
+    #headerusp .floatingusp>* {
+    display: flex;
+    align-items: center;
+    margin: 5px 5px;
+}
+  
+  
+  @media (max-width: 999px) {
+.container.banners {
+    max-width: 100%;
+    }
+    .container.banners {
+    margin-top: 2%;
+    }
+  .container.banners > div ,.container.banners > columns  {
+    margin-bottom: 2%;
+    display:block;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 1000px) {
+     .container.banners {
+    margin-top: 10px;
+    }
+    
+    .container.banners > div ,.container.banners > columns  {
+    margin-bottom: 10px;
+   
+    }
+.article .row.readMore {
+    flex-wrap: wrap !important;
+    }
+  
+  .bestbefore {
+    text-align: center;
+}}
+  
+  .shipping-methods_errormessage {
+    color: rgba(166, 76, 78, 1.00);
+    font-weight: bold;
+}
+  small.error {font-size:unset;font-weight:bold;}
+  #confirm-complete-button:disabled {
+    /* Din CSS her */
+    background-color: #ccc;
+    color: #666;
+    border: 1px solid #aaa;
+    cursor: not-allowed;
+}
+
+ .scoop img{
+    float:left;
+  }
+  .scoop span{
+    display:inline-block;
+    padding-top:5px;
+    padding-left:10px;
+  }
+  .scoop{
+    background-color:#f1f5f9;
+    padding:5px;
+    margin:10px 0;
+    margin-bottom:0px;
+    overflow:hidden;
+    display:none;
+  }
+  .scoop a{
+    display:inline-block;
+    padding-top:4px;
+  }
+    .scoop strong {
+    display: block;
+}
+
+</style>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://ss.bodylab.dk/ns.html?id=GTM-MCQQLSQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<style>
+
+  .categorycampaign {
+    background-color: #66bddb;
+    padding: 0px;
+    margin-bottom: 25px;
+}
+  .badges > :not(:last-child) {
+    margin-bottom: 5px;
+    margin-top: 5px !important;
+}
+  .badges {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column-reverse !important;}
+</style>
+<script>
+  var changeSize = "test";
+  var campaignIsFinish ="Kampagnen er afsluttet";
+  var variabel_google_conversion_id = 761857584;
+  var stockMessageUSP ="Dag-til-Dag levering";
+  if (!isNaN(Number(stockMessageState)) && isFinite(stockMessageState)) {
+    const numberToAdd = Number(stockMessageState);
+    var stockMessageUSPfrom = 0+numberToAdd;
+    var stockMessageUSPto = 1+numberToAdd;
+ 	var stockMessageUSP = stockMessageUSPfrom + "-"+stockMessageUSPto+' hverdages levering';
+  } 
+  var stockMessageUSPlate ="1-2 dages levering";
+  
+  var badges = [
+    {'trigger':10010,'content':'Mængderabat','background':'#000','color':'white'},
+    {'trigger':1010,'content':'Mængderabat','background':'#000','color':'white'},
+    {'trigger':0,'content':'Udsolgt','background':'#6c6c6c','color':'white'},
+    {'trigger':99,'content':'Lager: 28-09-2023','background':'#6c6c6c','color':'white'},
+    {'trigger':10,'content':'10 stk pr. kasse','background':'#000','color':'white'},
+    {'trigger':1002,'content':'Intro price','background':'#000','color':'white'},
+    {'trigger':9999,'content':'Fri fragt','background':'#66bddb','color':'white'},
+    {'trigger':147,'content':'Lagersalg','background':'#66bddb','color':'white'},
+    {'trigger':963,'content':'Stop madspild','background':'#66bddb','color':'white'},
+    {'trigger':456,'content':'Free cap','background':'#66bddb','color':'white'},
+    {'trigger':342,'content':'3 for 2','background':'#995392','color':'white'},
+    {'trigger':333,'content':'Afholdt','background':'#995392','color':'white'},
+    {'trigger':741,'content':'Bitesize','background':'#995392','color':'white'},
+    {'trigger':222,'content':'1. Generation','background':'#995392','color':'white'},
+    {'trigger':89011,'content':'New & Improved','background':'#e13215','color':'white'},
+    {'trigger':12345,'content':'Hot & Spicy','background':'#e13215','color':'white'},
+    {'trigger':54321,'content':'Limited edition','background':'black','color':'white'},
+	{'trigger':987654,'content':'NEW!','background':'#945e99','color':'white'},
+    {'trigger':500,'content':'Begrænset antal','background':'#995392','color':'white'},
+    {'trigger':11,'content':'Udgår snart!','background':'#9f9f9f','color':'#fff'},
+    {'trigger':111,'content':'Maks 1','background':'#9f9f9f','color':'#fff'},
+
+  ]
+  var listview = [
+    '-84sx',
+    '-2cx'
+  ];
+
+</script>
+<script>
+  var categoryCampaign = {
+    'active':false,
+    'onoffers':false,
+    'allcategories': false,
+    'categories':[],
+    'allproducts':true,
+    'products':[],
+    'listcontent':'<a data-discountcode="SAVE20" href="#"> <img src="https://image.bodylab.dk/images/banners/2026/0100-01-2026-05-20-hele-shoppen/dk-mobile.jpg" />',
+    'cardcontent':'<a data-discountcode="SAVE20" href="#"> <img src="https://image.bodylab.dk/images/banners/2026/0100-01-2026-05-20-hele-shoppen/dk-mobile.jpg" />'
+     }
+ 
+  
+  var categoryCampaignPopup = {
+    'active':false,
+    'onoffers':true,
+    'allcategories': true,
+    'categories':[],
+    'allproducts':true,
+    'products':['VARENUMMER'],
+    'listcontent':'<strong>6 X FREE SHAKES!</strong> <br>Ved køb over 299,- <br>Brug rabatkoden: <a href="#" data-discountcode="FREESHAKES"">FREESHAKES</a>. <br>Rabatkoden kan ikke kombineres mes andre rabatkoder.',
+    'cardcontent':'<strong>6 X FREE SHAKES!</strong><br>Ved køb over 299,- <br>Brug rabatkoden: <a href="#" data-discountcode="FREESHAKES">FREESHAKES</a>. <br>Rabatkoden kan ikke kombineres mes andre rabatkoder.'
+     }
+  
+  
+  var language = {
+    discountCodeActivated: "Rabatkoden er aktiveret. Rabatkoden kan ikke kombineres med andre rabatkoder.",
+    save :           "Spar",
+    saveAt :           "v/",
+    abBasketIsEmpty :           "Din kurv er tom",
+    productAddedToBasket :      "Varen er tilføjet til kurven",
+    productsInBasketBefore :    "",
+    productsInBasketSingle :    "vare i kurven",
+    productsInBasket :          "varer i kurven",
+    shopOn :                    "Shop videre",
+    goToCheckout :              "Gå til kurven",
+    buyFor :                    "Kø for ",
+    moreAndUnlockShipping :     "mere og få fri fragt",
+    freeShippingUnlocked :      "Vi sender din ordre med fri fragt",
+    abBasketNextButton :        "Fortsæt",
+    ok :                        "OK",
+    goToConfirmation :          "Gå til godkendelse",
+    basketDialogFreeShipping :  "Fri fragt med GLS lige nu <br>+ gratis gave ved køb over 500 kr.",
+    noSearchResults :           "S\370gningen gav ingen resultater.",
+    fullnameError :             "Det ser ud til at dit efternavn mangler.",
+    wrongCountry :              "Postnummeret du har valgt findes ikke i Danmark",
+    selectCountry :             "Vælg land",
+    orderReview :               "Opsummering",
+    total :                     "Total",
+    littleToNoExercise :        "Lidt eller ingen aktivitet",
+    lightExercise :             "Let træning (1-3 dage pr. uge)",
+    moderateExercise :          "Moderat træning (3-5 dage pr. uge)",
+    heavyExercise :             "Hård træning (6-7 dage pr. uge)",
+    veryHeavyExercise :         "Meget hård træning (2 gange pr. dag, ekstra hårde træninger)",
+    protein :					"Protein",
+    fat :					"Fedt",
+    carbs :					"Kulhydrater",
+    calsDay :					"kalorier om dagen",
+    competition: 				"Vind 1.000 kr.",
+    competitiongiftcard: 		"Vind et gavekort på 1.000 kr.",
+    free:                       "Gratis",
+    back:                       "Tilbage",
+    domain:                       "http://www.bodylab.dk/",
+    youMadeOfferText:                       "LIGE NU:",
+    youMadeOfferButton:                       "Se tilbuddet",
+    youMadeIt:                       "SÅDAN!",
+    youMadeItText:                       "<b>DU FÅR LIGE NU GRATIS",
+    youMadeItText2:                       "<b>MED DIN ORDRE</b>",
+    youMadeItTextLimit:                       "Gratis",
+    //youMadeItText2Limit:                       "Ved køb over 99 kr. + fragt",
+    youMadeItText2Limit:                       "Ved køb over 249 kr.",
+    youMadeItText3Limit:                       "(Gælder kun i en begrænset periode)",
+    youDidNotMadeIt:                       "Du nåede det desværre ikke.",
+    youDidNotMadeItText:                "Næste gang må du være lidt hurtigere",
+    youDidNotMadeItText2:                "",
+    backCountDown:                      "Tilbage",
+    freeThing:                       "din gratis bøtte Whey 100 Strawberry Milkshake<br> er lagt i kurven",
+    ajaxPaymentIcon: 		    "paymentIconsAjaxBasket.gif",
+    soldOut: 		    		"Udsolgt",
+    onStockAgain: 		    		"På lager igen:",
+    stock: 		    		"Lager",
+    stockHeader: 		    		"Udsolgte varianter",
+    onStockAgainUnknown:			"Ukendt",
+    onStockGetMessage:			"Få besked",
+    onStockGetMessageHeader:			"Lagerstatus",
+    onStockGetMessageInfo:			"Få besked som den første, når varen er på lager igen:",
+    onStockGetMessageSubmit:			"Tilmeld",
+    onStockGetMessageThankYou:			"Perfekt! Du er nu tilmeldt, du hører fra os når varen er på lager.",
+    bestseller:          "BESTSELLER",
+    email:			"Indsat e-mail",
+    close:			"Luk",
+    christmasGift:			"Pakket ind som julegave (Gratis)",
+    bundle:			"Ja tak, 2 Protein Ice Coffee: 35,-",
+    popupHeader:			"<span class='hide-for-small'>Prøv </span> 2 Protein Ice Coffee<span class='hide-for-small'> for</span>",
+    popupText:			"KUN 35,-",
+    popupNo:			"Nej, tak",
+    popupYes:			"Ja, tak",
+    decaf:			"Koffeinfri",
+    noFees:			"Gebyrfrit",
+    sms:			"Tilmeld SMS (1-2 ekstra gode tilbud pr. mdr.)",
+    discontinued:			"Udgået",
+    bestBefore:			"Bedst før: [[bestBeforeDate]]. Hvad betyder \"bedst før\", tænker du måske? Det betyder ganske enkelt, at du sagtens kan spise varen, selvom datoen er overskredet, da \"bedst før-datoen\" kun er vejledende.",
+    discountactivated:			"Din rabatkode er nu aktiveret.",
+    popupHeader: "Ved køb over 200 kr",
+    popupText: "Køb mere, få mere!",
+    discountCode: "Rabatkode",
+    addXToBasket: "Tilføj ### vare(r) til kurven",
+    b2bminbuy: "Vi beklager, men minimumsbestilling er<br />###<br />Tilføj venligst flere produkter.",
+	estimatedshipping: "Aktuel leveringstid:"
+  };
+
+  
+  
+  var stockMessageUSPchristmas ="<a data-fancybox data-filter='#christmas' data-type='ajax' href='/shop/cms-christmas.html'>Julelevering</a>"
+  if (stockMessageState == 'christmas') {
+    stockMessageUSP = stockMessageUSPchristmas;
+  }
+  
+ 
+
+  var stockMessageOrder4 ="Går alt efter planen, og har du bestilt inden dagens sidste pakkesending forlader lageret? Ja, så lander din pakke den næstkommende hverdag – ellers går der lige en dag ekstra." //fx "Dag-til-dag levering" , "1-2 dages levering"
+  var errorMissingAnswer = 'Du mangler at svare';
+  var errorMissingFields = 'Udfyld alle felter';
+  var errorMissingEmail = 'Din e-mail ser forkert ud.';
+  var noteWarningText = 'Dette er vigtigt ... <br/>En besked i dette felt, kan betyde 1-2 dages længere leveringstid af din ordre.<br/>Så lad os se om vi kan løse det på forhånd – så har du din pakke hurtigere.<br/>Disse 2 ting er det vi oftest ser:<br/>1) Er alt med på ordren? Rul ned og tjek om alt er under ordreresuméet.<br/>2) Kan vi give en besked til GLS eller PostNord? Desværre ikke.<br/>Ring gerne på tlf. 96 52 55 25 hvis du har spørgsmål.';
+  var noteCampaignText = 'Gratis Shaker Kampagnen er desværre ikke aktiv længere.<br/>Ring gerne på tlf. <a href="tel:+4596525525" style="color: #fff;">96 52 55 25</a> hvis du har spørgsmål.';
+  var noteCampaignRFC = 'Bodylab støtter Randers FC - 15% i rabat. Pakken leveres direkte til klubben og kan hentes i administrationen. Husk at udfylde dit navn, telefon nr. og e-mail.';
+  var noteCampaignAalborg = 'Bodylab støtter Aalborg Håndbold med 45% i rabat. Pakken leveres direkte til klubben og kan hentes i vareindleveringen. Husk at udfylde dit navn, telefon nr. og e-mail.';
+
+  //* herfra og ned *//
+  var freeshippingcontent = 'Lige nu: Gratis fragt over 99,-';
+
+  var shipping = {
+    'todayText': 'i dag',
+    'limitNotReedeemedText' : 'Du er der næsten! Du er ### fra fri fragt',
+    'limitRedeemedText':'Sådan! Du har nu fri fragt på din ordre!',
+    'countdownhtml' : 'Bestil inden <strong>####</strong> så sender vi i dag',
+    'countdowntomorrowhtml' : 'Bestil inden <strong>####</strong> så sender vi i morgen',
+    'countdownexceededhtml' : 'Bestil i dag, så sender vi <strong>####</strong>',
+    'tomorrow' : 'imorgen',
+    'days' : [
+      {'day':1,'deadline':'17:00','excluded':false},
+      {'day':2,'deadline':'17:00','excluded':false},
+      {'day':3,'deadline':'17:00','excluded':false},
+      {'day':4,'deadline':'17:00','excluded':false},
+      {'day':5,'deadline':'16:00','excluded':false},
+      {'day':6,'deadline':'17:00','excluded':true},
+      {'day':7,'deadline':'16:00','excluded':false}
+    ],
+    'holidays' : [
+      '01-05-2024',
+      '09-05-2024',
+      '20-05-2024',
+      '05-06-2024',
+      '24-12-2024',
+      '25-12-2024',
+      '31-12-2024'
+    ],
+    'translatedDays' : [
+      'Mandag',
+      'Tirsdag',
+      'Onsdag',
+      'Torsdag',
+      'Fredag',
+      'Lørdag',
+      'Søndag'
+    ]
+  };
+
+
+  var voyadosettings = {
+    'active':true,
+    'status':[
+      {'trigger':'ok','message':'Din rabatkode er aktiveret'},
+      {'trigger':'dontexist','message':'Rabatkoden findes ikke'},
+      {'trigger':'notvalid','message':'Rabatkoden er ikke gyldig'},
+      {'trigger':'redeemed','message':'Koden er allerede indløst'}
+    ]
+  };
+
+</script>
+<style>
+
+   
+    .floatingusp img {margin-right: 5px;margin-left: 5px;}
+  .frontGroups {display:none;}
+</style>
+
+  <div class="hideoncheckout" style="background-color: #66bddb;color: #FFFFFF;">
+    <div id="headerusp">
+    <ul class="floatingusp" style="padding-top:5px;padding-bottom:5px;margin-top:0;padding-left:0px;">
+      <li><img alt="Levering" height="18" src="/images/skins/Bodylab/icons/Small/Shipping_white.svg" width="18"><span class="dynamicstock">Dag-til-Dag levering</span></li>
+      <li><img alt="Fragt" height="10" src="/images/skins/Bodylab/icons/Small/Accept_white.svg" width="12">Fri fragt&nbsp;<span class="hide-for-small">ved køb&nbsp;</span>over&nbsp;<span class="freedeliverylimit">499,00</span></li>
+      <li class="hide-for-small"><img alt="Emærket" height="12" src="/images/skins/Bodylab/icons/Small/E-maerket_white.svg" width="20" style="width:25px;">E-mærket webshop</li>
+       <li class="hide-for-small"><img alt="TrustPilot" height="18" src="/images/skins/Bodylab/icons/Small/star-w.svg" width="18" style="width:18px;">4,7 på&nbsp;<a href="/shop/trustpilot-3324c1.html" style="color:white;text-decoration:none;">TrustPilot</a> - over 41.500 anmeldelser.</li>
+     
+    </ul>
+    </div>
+  </div>
+
+
+<div class="toolbar hideoncheckout">
+  <div class="container small">
+    <ul class="shortcuts">
+      <li><a href="/shop/kom-godt-i-gang-343s1.html"><img src="/images/skins/Bodylab/icons/small/Protein.svg" width="16" height="16" alt="Protein"  />Kom i gang</a></li>
+      <li><a href="/shop/opskrifter-21s1.html"><img src="/images/skins/Bodylab/icons/small/Recipe.svg" width="14" height="14" alt="Opskrifter"  />Opskrifter</a></li>
+      <li><a href="/shop/artikler-156s1.html"><img src="/images/skins/Bodylab/icons/small/Article.svg" width="14" height="14" alt="Artikler"  />Artikler</a></li>
+      <li><a href="/shop/team-bodylab-2050s1.html"><img src="/images/skins/Bodylab/icons/small/Team.svg" width="18" height="15" alt="Team Bodylab"  />Team Bodylab</a></li>
+      <li><a href="/shop/bootcamp-3715s1.html"><img src="/images/skins/Bodylab/icons/small/bootcamp-icon.svg" width="16" height="16" alt="Bodylab Bootcamp"  /> Bodylab Bootcamp</a></li>
+      
+    </ul>
+    <form class="search" method="post" action="/shop/cms-search.html">
+      <input type="hidden" name="InitSearch" value="1">
+      <input type="text" name="Keyword" value="" class="SearchField_SearchPage" placeholder="Hvad leder du efter?" autocomplete="off">
+    </form>
+  </div>
+</div>
+<header class="hideoncheckout">
+  <div class="container small">
+    <a href="/shop/frontpage.html" class="logo"><img src="/images/skins/Bodylab/images/bodylab-logo.svg" width="120" height="30" alt="Bodylab" /></a>
+    <div id="ProductmenuContainer_DIV" class="ProductmenuContainer_DIV"><style type="text/css">.ProductMenu_MenuItemBold{font-weight:bold;}</style><ul id="ProductMenu_List"><li class="RootCategory_Productmenu has-dropdown"><a href="/shop/muskelopbygning-86s1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Muskelopbygning"><span class="ProductMenu_MenuItemBold">Muskelopbygning</span></a><ul class="dropdown"><li class="SubCategory1_Productmenu has-dropdown"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/proteinpulver-84s1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Proteinpulver"><img src="https://image.bodylab.dk/images/collections/protein-powder/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Proteinpulver"></a>&nbsp;</span><a href="/shop/proteinpulver-84s1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Proteinpulver"><span class="ProductMenu_MenuItemBold">Proteinpulver</span></a><ul class="dropdown"><li class="SubCategory2_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/whey-proteinpulver-2c1.html" class="CategoryLink2_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/whey-100/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Whey proteinpulver"></a>&nbsp;</span><a href="/shop/whey-proteinpulver-2c1.html" class="CategoryLink2_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Whey proteinpulver">Whey proteinpulver</a></li><li class="SubCategory2_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/clear-whey-3398c1.html" class="CategoryLink2_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/clear-whey/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Clear Whey proteinpulver"></a>&nbsp;</span><a href="/shop/clear-whey-3398c1.html" class="CategoryLink2_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Clear Whey proteinpulver">Clear Whey proteinpulver</a></li><li class="SubCategory2_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/vegansk-proteinpulver-1869c1.html" class="CategoryLink2_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/vegan-protein/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Vegansk proteinpulver"></a>&nbsp;</span><a href="/shop/vegansk-proteinpulver-1869c1.html" class="CategoryLink2_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Vegansk proteinpulver">Vegansk proteinpulver</a></li><li class="SubCategory2_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/kasein-proteinpulver-6c1.html" class="CategoryLink2_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/casein/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Kasein proteinpulver"></a>&nbsp;</span><a href="/shop/kasein-proteinpulver-6c1.html" class="CategoryLink2_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Kasein proteinpulver">Kasein proteinpulver</a></li></ul></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/kreatin-4c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/creatine/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Kreatin"></a>&nbsp;</span><a href="/shop/kreatin-4c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Kreatin">Kreatin</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/weight-gainer-5c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/weight-gainer/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Weight gainer"></a>&nbsp;</span><a href="/shop/weight-gainer-5c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Weight gainer">Weight gainer</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/bcaa-aminosyrer-25c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/eaa-bcaa/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Aminosyrer"></a>&nbsp;</span><a href="/shop/bcaa-aminosyrer-25c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Aminosyrer">Aminosyrer</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/pre-workout-1286c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/pre-workout/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Pre workout"></a>&nbsp;</span><a href="/shop/pre-workout-1286c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Pre workout">Pre workout</a></li><li class="SubCategory1_Productmenu has-dropdown"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/proteinbarer-12s1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Proteinbarer"><img src="https://image.bodylab.dk/images/collections/protein-bars/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Proteinbarer"></a>&nbsp;</span><a href="/shop/proteinbarer-12s1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Proteinbarer"><span class="ProductMenu_MenuItemBold">Proteinbarer</span></a><ul class="dropdown"></ul></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/proteindrikke-24c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/protein-drinks/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Proteindrikke"></a>&nbsp;</span><a href="/shop/proteindrikke-24c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Proteindrikke">Proteindrikke</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/pro-series-3779c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/pro-series/350x350.webp" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Pro-serie"></a>&nbsp;</span><a href="/shop/pro-series-3779c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Pro-serie">Pro-serie</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/sports-nutrition-reimagined-3770c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/sports-nutrition-reimagined/350x350.webp" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Sports Nutrition Reimagined"></a>&nbsp;</span><a href="/shop/sports-nutrition-reimagined-3770c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Sports Nutrition Reimagined">Sports Nutrition Reimagined</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/gummies-3774c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="/images/collections/gummies/350x350.webp" loading="lazy" width="350" height="350" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Gummies"></a>&nbsp;</span><a href="/shop/gummies-3774c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Gummies">Gummies</a></li></ul></li><li class="RootCategory_Productmenu has-dropdown"><a href="/shop/food-snacks-2590s1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Mad & Snacks"><span class="ProductMenu_MenuItemBold">Mad & Snacks</span></a><ul class="dropdown"><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/pancake-and-waffle-mix-3644c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/pancakes/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Pandekager &amp; Vafler"></a>&nbsp;</span><a href="/shop/pancake-and-waffle-mix-3644c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Pandekager & Vafler">Pandekager & Vafler</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/smoothies-morgenmad-3573c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/breakfast-smoothies/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Morgenmad"></a>&nbsp;</span><a href="/shop/smoothies-morgenmad-3573c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Morgenmad">Morgenmad</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/bagning-150c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/baking-cooking/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Bagning &amp; Madlavning"></a>&nbsp;</span><a href="/shop/bagning-150c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Bagning & Madlavning">Bagning & Madlavning</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/toppings-dressing-2660c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/toppings/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Toppings"></a>&nbsp;</span><a href="/shop/toppings-dressing-2660c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Toppings">Toppings</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/dessert-snacks-113c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/dessert-snacks/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Dessert &amp; Snacks"></a>&nbsp;</span><a href="/shop/dessert-snacks-113c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Dessert & Snacks">Dessert & Snacks</a></li><li class="SubCategory1_Productmenu has-dropdown"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/proteinbarer-12s1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Proteinbarer"><img src="https://image.bodylab.dk/images/collections/protein-bars/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Proteinbarer"></a>&nbsp;</span><a href="/shop/proteinbarer-12s1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Proteinbarer"><span class="ProductMenu_MenuItemBold">Proteinbarer</span></a><ul class="dropdown"></ul></li></ul></li><li class="RootCategory_Productmenu has-dropdown"><a href="/shop/vaegttab-91s1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Vægttab"><span class="ProductMenu_MenuItemBold">Vægttab</span></a><ul class="dropdown"></ul></li><li class="RootCategory_Productmenu has-dropdown"><a href="/shop/energi-88s1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Energi"><span class="ProductMenu_MenuItemBold">Energi</span></a><ul class="dropdown"><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/pre-workout-1286c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/pre-workout/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Pre workout"></a>&nbsp;</span><a href="/shop/pre-workout-1286c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Pre workout">Pre workout</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/kulhydrater-3c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/carbohydrates/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Kulhydrater"></a>&nbsp;</span><a href="/shop/kulhydrater-3c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Kulhydrater">Kulhydrater</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/elektrolytter-3563c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/electrolytes/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Elektrolytter"></a>&nbsp;</span><a href="/shop/elektrolytter-3563c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Elektrolytter">Elektrolytter</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/energy-gels-3816c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/energy-gel/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Energy Gels"></a>&nbsp;</span><a href="/shop/energy-gels-3816c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Energy Gels">Energy Gels</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/koffein-11c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/caffeine/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Koffein"></a>&nbsp;</span><a href="/shop/koffein-11c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Koffein">Koffein</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/pro-series-3779c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/pro-series/350x350.webp" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Pro-serie"></a>&nbsp;</span><a href="/shop/pro-series-3779c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Pro-serie">Pro-serie</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/sports-nutrition-reimagined-3770c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/sports-nutrition-reimagined/350x350.webp" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Sports Nutrition Reimagined"></a>&nbsp;</span><a href="/shop/sports-nutrition-reimagined-3770c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Sports Nutrition Reimagined">Sports Nutrition Reimagined</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/gummies-3774c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="/images/collections/gummies/350x350.webp" loading="lazy" width="350" height="350" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Gummies"></a>&nbsp;</span><a href="/shop/gummies-3774c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Gummies">Gummies</a></li></ul></li><li class="RootCategory_Productmenu has-dropdown"><a href="/shop/tilskud-87s1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Tilskud"><span class="ProductMenu_MenuItemBold">Tilskud</span></a><ul class="dropdown"><li class="SubCategory1_Productmenu has-dropdown"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/collagen-3445s1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Collagen"><img src="https://image.bodylab.dk/images/collections/collagen/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Collagen"></a>&nbsp;</span><a href="/shop/collagen-3445s1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Collagen"><span class="ProductMenu_MenuItemBold">Collagen</span></a><ul class="dropdown"></ul></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/vitaminer-mineraler-7c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/vitamins-minerals/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Vitaminer/mineraler"></a>&nbsp;</span><a href="/shop/vitaminer-mineraler-7c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Vitaminer/mineraler">Vitaminer/mineraler</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/fiskeolie-8c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/fish-oil/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Fiskeolie"></a>&nbsp;</span><a href="/shop/fiskeolie-8c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Fiskeolie">Fiskeolie</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/daily-greens-3823c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/daily-greens/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Daily Greens"></a>&nbsp;</span><a href="/shop/daily-greens-3823c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Daily Greens">Daily Greens</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/health-essentials-3666c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/health/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Health Essentials"></a>&nbsp;</span><a href="/shop/health-essentials-3666c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Health Essentials">Health Essentials</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/gummies-3774c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="/images/collections/gummies/350x350.webp" loading="lazy" width="350" height="350" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Gummies"></a>&nbsp;</span><a href="/shop/gummies-3774c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Gummies">Gummies</a></li></ul></li><li class="RootCategory_Productmenu has-dropdown"><a href="/shop/udstyr-90s1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Tøj & Tilbehør"><span class="ProductMenu_MenuItemBold">Tøj & Tilbehør</span></a><ul class="dropdown"><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/shakers-1289c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/shakers/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Shakers"></a>&nbsp;</span><a href="/shop/shakers-1289c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Shakers">Shakers</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/hjemmetraening-3385c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/home-traning/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Hjemmetr&#230;ning"></a>&nbsp;</span><a href="/shop/hjemmetraening-3385c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Hjemmetræning">Hjemmetræning</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/tasker-3403c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/bags/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Tasker"></a>&nbsp;</span><a href="/shop/tasker-3403c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Tasker">Tasker</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/clothes-3524c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/clothe/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="T&#248;j"></a>&nbsp;</span><a href="/shop/clothes-3524c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Tøj">Tøj</a></li><li class="SubCategory1_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/okklusionstraening-2336c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="https://image.bodylab.dk/images/collections/occlusion-training/350x350.webp?format=auto" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Okklusionstr&#230;ning"></a>&nbsp;</span><a href="/shop/okklusionstraening-2336c1.html" class="CategoryLink1_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Okklusionstræning">Okklusionstræning</a></li></ul></li><li class="RootCategory_Productmenu"><a href="/shop/endurance-3817c1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Endurance">Endurance</a></li><li class="RootCategory_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/tilbud-59c1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="/images/skins/Bodylab/icons/Small/sale.svg" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Tilbud"></a>&nbsp;</span><a href="/shop/tilbud-59c1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Tilbud">Tilbud</a></li><li class="RootCategory_Productmenu"><span class="ProductMenu_Category_Icon_Container Productmenu_Category_Icon_Container"><a href="/shop/pakker-369c1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu"><img src="/images/skins/Bodylab/icons/small/Shipping.svg" loading="lazy" border="0" align="middle" class="ProductMenu_Category_Icon Productmenu_Category_Icon" alt="Pakker"></a>&nbsp;</span><a href="/shop/pakker-369c1.html" class="CategoryLink0_Productmenu Deactiv_Productmenu Deactiv_ProductMenu" title="Pakker">Pakker</a></li></ul><!--<CategoryStructure></CategoryStructure>-->
+<!--Loaded from disk cache--></div><input type="hidden" value="" id="RootCatagory"><!--categories loaded in: 15ms--><div class="right">
+  <div class="searchbtn">
+    <img src="/images/skins/Bodylab/icons/Small/Search.svg" width="18" height="18" alt="Søg"  />
+  </div>
+  <div class="basketbtn">
+    <span class="count"></span>
+    <span class="hide-for-small splitTestHide">Indkøbskurv</span> <img src="/images/skins/Bodylab/icons/small/Cart.svg" width="18" height="18" alt="Kurv"  />
+  </div>
+  <div class="menubtn">
+    <img src="/images/skins/Bodylab/icons/small/Menu.svg" width="18" height="18" alt="Menu"  />
+  </div>
+</div>
+  </div>
+</header>
+<div class="infobar hideoncheckout gradient" data-hiddenhours="12" data-force="false">
+  <div class="container">
+    <span class="shippingtimecountdown"></span>
+  </div>
+</div>
+<script>
+  $(function(){function e(e,n){if(!n&&(n=window.location.href),e=e.replace(/[\[\]]/g,"\\$&"),/(=([^&#]*)|&|#|$)/.test(e)){var t=new RegExp("[?&]"+e+"(=([^&#]*)|&|#|$)").exec(n);if(!t)return null;if(!t[2])return"";return decodeURIComponent(t[2].replace(/\+/g,""))}}var n=e("showmessage");n&&$("article").before($('<div class="voyadobanner active"><div class="container" style="font-size: 40px;text-align: center;padding: 50px;">'+n+"</div></div>"))});
+  
+  var campaignlink = $('.TopMenu_MenuItems a[target*="campaign"]');
+  if (campaignlink.length) {
+    campaignlink = $('<a href="'+campaignlink.attr('href')+'" class="campaign"><img src="/images/skins/Bodylab/icons/caroline-berg-eriksen.svg" alt="'+campaignlink.text()+'" /></a>');
+  }
+  
+  let mobilesearch = $('.mobilesearch');
+  if (!mobilesearch.length) {
+    mobilesearch = $('<div class="mobilesearch"></div>');
+    mobilesearch.append($('.toolbar .search').clone());
+    $('header').append(mobilesearch);
+  }
+  
+  handleInfobar($('.infobar'));
+  if ($('.TopMenu_MenuItems a[href="/shop/b2blogin.html?Logout=1"]').length) {
+    isb2b = true;
+  }
+  $('.TopMenu_MenuItems').remove();
+  
+  if (LanguageID == '30' || LanguageID == '35') {
+    b2bonly = true;
+    $('body').addClass('b2bonly');
+  }
+  
+
+  if (getCookie('hideinfobar') == '') {
+     $('.infobar').addClass('active');
+  }
+  if ($('.infobar').data('force') && getCookie('forceinfobar') == '') {
+    $('.infobar').addClass('active');
+  }
+  /*
+  if ((document.cookie.match(/^(?:.*;)?\s*hideinfobar\s*=\s*([^;]+)(?:.*)?$/)||[,null])[1] == null) {
+    $('.infobar').addClass('active');
+  }
+  */
+</script>
+<article class="CMS_TD">
+  <style type="text/css">
+.CmsPageStyle
+{
+padding-left:px;
+padding-right:px;
+padding-top:px;
+padding-bottom:px;
+}
+.CmsPageStyle_Table{width:100%;height:100%;}
+</style>
+
+<table class="CmsPageStyle_Table" border="0" cellspacing="0" cellpadding="0"><tr><td class="CmsPageStyle" valign="top">        <div class="container small center spacetop spacebottom">      <div class="boxes boxes-2 container paddingbottom-small">        <div class="text paddingbottom">          <h1>Ups! Teknikken driller&hellip;&nbsp;          </h1>          God teknik er vigtig. B&aring;de i tr&aelig;ningscentret og online. Derfor f&aring;r du to muligheder:          <br />          Du kan g&aring; tilbage <a href="/shop/frontpage.html">til forsiden</a> eller arbejde lidt p&aring; din teknik sammen med os. S&aring; lover vi at f&aring; tjek p&aring; teknikken p&aring; bodylab.dk bagefter.&nbsp;          <br />          &nbsp;        </div>        <div>          <div class="video">            <img src="/images/error-gif-komp.gif" />          </div>        </div>      </div>    </div>    <style type="text/css">      .boxes .text {        font-weight: normal;        margin-top: 10px;        /*text-align: right;*/      }      .vp-center {        display: flex;        align-items: center;        justify-content: flex-start !important;      }      .boxes:not(.slick-initialized) {        display: flex;        flex-wrap: wrap;        justify-content: space-between;        align-items: center;      }      .video .videobox iframe {        height: 500px !important;      }    </style>  </td></tr></table>
+  <script>
+    $('article.Customer_TD > table, article.Customer_TD > form').addClass('container small');
+    if (isb2b) {
+      $('body').addClass('isb2b');
+      $('[data-b2b]').each(function() {
+        let str = $.trim($(this).data('b2b'));
+        if (str !== '') {
+          $(this).html(str);
+        }
+      });
+    }
+    
+    if (typeof changesources !== 'undefined') {
+      changeSources();
+    }
+    
+    let listul = $('.ProductList_Custom_UL:not(:empty)');
+    if (listul.length) {
+      
+      if (window.location.href.indexOf('quickbuy') !== -1 || isb2b) {
+        if (!$('.ProductList_Custom_UL .item.article').length) {
+          listul.addClass('quickbuy');
+          //listul.parent().removeClass('small').addClass('mini');
+        }
+      }
+      else {
+        if (ismobile) {
+          if (listul.children().length == 1) {
+            listul.addClass('single');
+            loadLargeImages(1,listul);
+          }
+          else if (listul.children().length == 3) {
+            listul.addClass('firstlarge');
+            loadLargeImages(1,listul);
+          }
+        }
+        else {
+          if (!$('article.article').length) {
+            if (listul.children().length < 4) {
+              listul.addClass('centered');
+              loadLargeImages(3,listul);
+            }
+            else if (listul.children().length == 5 || listul.children().length == 6) {
+              listul.addClass('w33');
+              loadLargeImages(6,listul);
+            }
+          }
+        }
+      }
+      
+      
+    }
+
+    function loadLargeImages(amount,ul) {
+      ul.children('li:nth-child(-n+'+amount+')').each(function() {
+        let li = $(this);
+        let img = li.find('.image img[src*="image.bodylab"]');
+        if (img.length) {
+          //let imgwidth = Math.ceil(img.parent().outerWidth());
+          let src = img.attr('src');
+          let srcarr = src.split('&');
+          src = srcarr[0];
+          for (let i = 0; i < srcarr.length; i++) {
+              if (srcarr[i].indexOf('width') !== -1) {
+                  let widtharr = srcarr[i].split('=');
+                  src += '&'+widtharr[0]+'=410';
+              }
+              else {
+                  src += '&'+srcarr[i];
+              }
+          }
+          img.attr('src',src);
+        }
+      });
+    }
+    
+    // create header
+    if ($('.webshop-productlist').length && !$('.campaign').length && !$('.landingpage').length) {
+      let h1 = $('h1:not(:empty)').eq(0);
+      if (h1.length) {
+        let listheader = $('<div class="listheader"></div>');
+        let src = 'https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80';
+        let articleimage = $('article img.articleimage').eq(0);
+        let bgheaderimage = $('.bfPageHeader');
+        let recipeimage = $('.header_img');
+        let ogimage = $('meta[property="og:image"]').attr('content');
+        if (articleimage.length) {
+          src = articleimage.attr('src');
+          if (!ismobile) {
+            let desktopsrc = articleimage.data('desktop');
+            if (desktopsrc !== undefined && desktopsrc !== '') {
+              src = desktopsrc;
+            }
+          }
+          articleimage.hide().addClass('movedimage');
+        }
+        else if (bgheaderimage.length) {
+          let bgsrc = bgheaderimage.attr('style').split("'")[1];
+          src = bgsrc;
+        }
+        else if (recipeimage.length) {
+          src = recipeimage.attr('src');
+          if (!ismobile) {
+            let desktopsrc = recipeimage.data('desktop');
+            if (desktopsrc !== undefined && desktopsrc !== '') {
+              src = desktopsrc;
+            }
+          }
+          recipeimage.hide().addClass('movedimage');
+        }
+        else if (ogimage !== undefined && ogimage !== '') {
+          
+          let path = ogimage.split('/images')[1];
+          src = 'https://image.bodylab.dk/images'+path+'?format=webp&width=1000';
+        }
+
+        if (src !== '') {
+          listheader.css('background-image','url('+src+')');
+        }
+        let h2 = h1.nextAll('h2').eq(0);
+        let h3 = h1.nextAll('h3').eq(0);
+        let h4 = h1.nextAll('h4').eq(0);
+        let container = $('<div class="container small"></div>');
+        
+        let recipecontainer = $('[itemtype="http://schema.org/Recipe"]');
+        if (recipecontainer.length) {
+          let h1text = $.trim(h1.text());
+          recipecontainer.prepend('<meta itemprop="name" content="'+h1text+'" />');
+          h1.removeAttr('itemprop');
+        }
+        
+        container.append(h1);
+        
+        listheader.append(container);
+        $('article').before(listheader);
+
+      }
+    }
+    
+    // listview
+   
+      for (let i = 0; i < listview.length; i++) {
+        if (window.location.href.indexOf(listview[i]) !== -1) {
+          $(".ProductList_Custom_UL").addClass("listview");
+          break
+        }
+      }
+   
+    
+</script>
+    <div class="container spacetop hideoncheckout" id="competition"></div>
+</article>
+
+<style>
+div.importantMessage, .infobar {color: #fff !important;background: #65bddb;}
+div.importantMessage p, .infobar p, .infobar a {color: #fff !important;border-color: #fff !important;}
+div.importantMessage p span, .infobar p span {color: #fff !important;}
+span.freeShippingCountdown {display:none!important;}
+#spotlight {display:block!important;}
+#campaignSpotlight a#spotlightText {color:#ffffff;background-color:#FF9001;}
+#campaignSpotlight a div {background-image: url(/images/products/spring-mysterybag-2022-p.png);}
+.bundle:after {background-image: url(https://image.bodylab.dk/images/products/smoothie-30g-t.png?version=2&format=auto&compress=true&widt);}
+.bundle {color: #FFFFFF;}
+.bundle {background-color: #807dc5;}
+</style>
+<div class="container footertrustpilot">
+  <div class="trustpilot-widget" data-locale="da-DK" data-template-id="53aa8912dec7e10d38f59f36" data-businessunit-id="46b336770000640005009321" data-style-height="140px" data-style-width="100%" data-theme="light" data-stars="4,5" data-review-languages="da">
+    <a href="https://dk.trustpilot.com/review/www.bodylab.dk" target="_blank" rel="noopener">Trustpilot</a>
+  </div>
+</div>
+<div class="newsletter hideoncheckout">
+  <div class="container small">
+    <div>
+      Få <strong>personlige tilbud</strong>, <strong>proteinrige opskrifter</strong> og <strong>gratis træningsprogrammer</strong> ved at tilmelde dig vores nyhedsbrev. 
+    </div>
+    <form class="newslettersignup" data-success="Tak for din tilmelding.">
+      <input type="text" placeholder="For- & efternavn ..." name="name" required />
+      <input type="email" placeholder="E-mail ..." name="email" required />
+      <input type="text" name="phone" style="position:absolute;left:-9999px;opacity:0;" tabindex="-1" autocomplete="off">
+      <input type="submit" class="light" value="Tilmeld nyhedsbrev" />
+    </form>
+  </div>
+</div>
+<div class="colorline lightblue"></div>
+<div class="colorline blue"></div>
+<div class="colorline purple"></div>
+<div class="colorline darkpurple"></div>
+
+<footer>
+  
+
+<span itemscope itemtype="https://schema.org/Organization">
+  <div class="container small row">
+  <div>
+    <div class="mediumheader expandable open" itemprop="name">Bodylab ApS</div>
+    <section itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+      <!--<span itemprop="telephone">(+45) 96 525 525</span><br />
+      <a href="mailto:kundeservice@bodylab.dk" itemprop="email">kundeservice@bodylab.dk</a><br />-->
+      <span itemprop="streetAddress">Plastvænget 3D</span><br />
+      <span itemprop="postalCode">9560 Hadsund</span><br />
+      <span itemprop="addressLocality">Danmark</span><br />
+      <span>CVR: 36 56 08 78</span>
+    </section>
+  </div>
+  <div>
+    <div class="mediumheader expandable">Kundeservice</div>
+    <section>
+      <a href="/shop/cms-contact.html">Kontakt</a><br />
+      <a href="/shop/cms-faq.html">Oftest stilllede spørgsmål</a><br />
+
+      <a href="/shop/cms-shipping.html">Fragt</a><br />
+      <a href="/shop/cms-return.html">Fortrydelse & returnering</a><br />
+      <a href="/shop/cms-complaint.html">Reklamation</a><br />
+        <a href="/shop/cms-terms.html">Handelsbetingelser</a><br />
+     <!-- <a href="/shop/cms-subscription.html">Abonnementsbetingelser</a><br />
+      <a href="/login/">Opsig abonnement</a>-->
+    </section>
+  </div>
+  <div>
+    <div class="mediumheader expandable">Information</div>
+    <section>
+      <a href="/shop/bodylab-195s1.html">Om Bodylab</a><br />
+      <a href="/shop/job-198s1.html">Jobs</a><br />
+      <a href="/shop/elektronisk-gavekort-290p.html">Gavekort</a><br />
+      <a href="/shop/affiliate-3377c1.html">Affiliate</a><br />
+      <a href="/shop/sponsorat-event-3374c1.html">Sponsorat / Event</a><br />
+      <a href="/shop/ambassadoer-3298c1.html">Ambassadører</a><br />
+    
+    </section>
+  </div>
+  <div class="social">
+    <a href="https://www.instagram.com/bodylab/" rel="noreferrer" target="_blank"><img src="/images/skins/Bodylab/icons/SoMe/Instagram.svg" alt="Instagram" width="50" height="50" /></a>
+    <a href="https://www.facebook.com/bodylab.dk" rel="noreferrer" target="_blank"><img src="/images/skins/Bodylab/icons/SoMe/Facebook.svg" alt="Facebook" width="50" height="50" /></a>
+      <!--<a href="https://www.findsmiley.dk/560964" onclick="sendEvent('footerSubMenu', 'click', 'smiley');" target="_blank" rel="nofollow"><img alt="" src="https://image.bodylab.dk/images/skins/bodylab2015/images/fodevarestyrelsen_smiley.svg" width="50" height="50"></a>-->
+  </div>
+</div>
+</span>
+
+
+<div class="tagline"><center><picture><source media="(min-width: 1000px)" srcset="https://image.bodylab.dk/images/skins/bodylab/images/release-the-feeling.svg"><img alt="Release the Feeling" src="https://image.bodylab.dk/images/skins/bodylab/images/release-the-feeling-mobile.svg" style="width:90%;"></picture>
+    </center></div>
+
+<style>.tagline{background:linear-gradient(-45deg,#7dbbd8,#425c90,#90578f,#431e46);background-size:400% 400%;animation:gradient 15s ease infinite}@keyframes gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}</style>
+
+<div class="extra">
+  <div class="container small">
+    <div class="country">
+      <a data-fancybox data-filter="#countries" data-type="ajax" href="/shop/cms-dynamic.html"><img src="/images/skins/Bodylab/icons/Small/Globe.svg" alt="Globe" width="18" height="18"/>Danmark</a>
+      <small>© BODYLAB. Alle retigheder forbeholdes</small>
+    </div>
+    <div class="links">
+      <a href="https://www.findsmiley.dk/560964" target="_blank" rel="nofollow">Se Fødevarestyrelsens smiley-rapporter</a>
+      <a href="/shop/cms-sitemap.html">Sitemap</a>
+      <a href="/shop/content-271s1.html">Indhold</a>
+      <a href="/shop/cms-privacy-policy.html">Persondatapolitik</a>
+      <a href="/shop/cms-cookies.html">Vi bruger cookies</a>
+    </div>
+  </div>
+</div>
+
+<div class="container small payment">
+  <img src="/images/skins/Bodylab/icons/Payment/MobilePay.svg" width="36" height="24" alt="MobilePay" loading="lazy" />
+  <img src="/images/skins/Bodylab/icons/Payment/Dankort.svg" width="36" height="24" alt="Dankort" loading="lazy"/>
+  <img src="/images/skins/Bodylab/icons/Payment/Visa.svg" width="36" height="24" alt="Visa" loading="lazy"/>
+  <img src="/images/skins/Bodylab/icons/Payment/Visa Electron.svg" width="36" height="24" alt="Visa Electron" loading="lazy" />
+  <img src="/images/skins/Bodylab/icons/Payment/Mastercard.svg" width="36" height="24" alt="Mastercard" loading="lazy"/>
+  <img src="/images/skins/Bodylab/icons/Payment/Maestro.svg" width="36" height="24" alt="Maestro" loading="lazy" />
+</div>
+<!--
+<div class="popupCookieAccept">
+  <p>
+    Bodylab og vores partnere anvender cookies til at give dig den bedst mulige personlige oplevelse på vores hjemmeside, samt til annoncering og analyse.
+  </p>
+  <div class="popupCookieInfo"><a onclick="sendEvent('Cookies', 'Click', 'Accept');" title="Accepter brug af cookies" class="popupCookieAcceptButton" href="#">Accepter og luk</a> <a onclick="sendEvent('Cookies', 'Click', 'Info');" title="Vi benytter cookies" href="/shop/cms-privacy-policy.html">Læs mere</a></div>
+</div>-->
+
+
+
+
+<script>window.VOYADO_SHOPGUID = "685f4f72-c0b5-47a4-84b5-c953fb7a121a";</script>
+</footer>
+
+
+
+<script>
+  if (ProductNumber !== '') {
+    $('.VariantGroup').attr('cellpadding','0').attr('cellspacing','0');
+    
+    if (ProductNumber == '1007727') {
+      $('#variant1 option:eq(1)').attr('selected','selected');
+      $('#variant2 option:eq(2)').attr('selected','selected');
+      $('#variant3 option:eq(3)').attr('selected','selected');
+      $('#variant4 option:eq(4)').attr('selected','selected');
+      $('#variant5 option:eq(3)').attr('selected','selected');
+    }
+  
+    $('.Variants option[value*="##"]').each(function() {
+      let option = $(this);
+      let value = option.text().replaceAll('##','');
+      option.attr('disabled','disabled').text(value);
+    });
+    UpdateBuyControls();
+  }
+  
+  
+  jQuery.event.special.touchstart = {
+    setup: function( _, ns, handle ) {
+      this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+    }
+  };
+  jQuery.event.special.touchmove = {
+    setup: function( _, ns, handle ) {
+      this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+    }
+  };
+  $('.removeme').remove();
+</script>
+<style type="text/css">
+  .baskettabs > :not(.active) {
+    color: #000000;
+  }
+  .basket .savings, .basket .volumediscountcontainer, .varifyScoop {
+    display: none;
+  }
+</style>
+<div class="basket overlay"><section><div class="close"></div>
+<div class="addedheader header">
+      Varen er lagt i kurven
+    </div>
+<div class="defaultheader header">
+      Indkøbskurv
+    </div>
+<div class="shippingcountdown"></div>
+<div class="homeshippingcountdown"></div>
+<div class="baskettabs">
+<div class="default active">
+        Indkøbskurv<span class="count">0</span></div>
+<div class="recommendations">
+        Vi anbefaler </div>
+</div>
+<div class="lines productsview active" data-remove="Fjern"></div>
+<div class="recommended productsview helloRetailBasket"></div>
+<div class="footer">
+<div class="totalsavings">
+<div>
+          Besparelse i alt
+        </div>
+<div>
+          0,00 DKK</div>
+</div>
+<div class="shipping">
+<div>
+          Fragt
+        </div>
+<div></div>
+</div>
+<form class="redeemdiscountcode"><input placeholder="Kampagnekode" required="required" type="text"><button data-default="Indløs" data-redeemed="Fjern"></button><div class="dicsountmessage">
+          Maks. 1 kode pr. ordre
+        </div>
+</form>
+<div class="customerdiscount">
+<div>
+          Rabat
+        </div>
+<div class="customerdiscountamount"></div>
+</div>
+<div class="total">
+<div>
+          Pris i alt (inkl. moms)
+        </div>
+<div>0,00 DKK</div>
+</div><a class="button" href="/shop/checkout.html">Gå til bestilling</a></div></section></div>
+
+<div class="darkness"></div><script type="text/javascript">
+$(function(){DetectBrowser();});
+</script>
+<!--Page loaded in: 47ms-->
+<div id="divRememberToBuy" style="display:none"></div>
+<div id="ReviewDialog" style="display:none;"></div>
+<!--<script src="/images/skins/bodylab2015/js/lang_default.min.js" type="text/javascript" defer></script>-->
+<script src="https://image.bodylab.dk/images/skins/Bodylab/js/fancybox.js?v=19" type="text/javascript" defer></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>-->
+<script src="/images/skins/Bodylab/js/scripts.v31.js?v=52" type="text/javascript" defer></script>
+
+<link href="/images/skins/Bodylab/css/defer.v2.css?v=10" rel="stylesheet" type="text/css">
+
+<style>
+  #othername {display:none;}
+  #shortcutsBottom {display:none;}
+  .offerdatecontainer{margin-bottom:20px;margin-top:-5px;display:none;}
+</style>
+<script type="text/javascript">$.ajax({type: "POST",url: "/shop/StatInit.asp",data: {SharedSessionId:"464A45A7-621C-4D62-883B-4E2CBA00DBAE"}});</script>
+</body>
+
+</html>
