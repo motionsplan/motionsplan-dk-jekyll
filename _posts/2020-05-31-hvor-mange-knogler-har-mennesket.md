@@ -1,7 +1,8 @@
 ---
 title: Hvor mange knogler har et menneske i kroppen? 🦴️
 seo_title: 'Hvor mange knogler har vi? (Og har mænd flere end kvinder?)'
-description: Vidste du, at voksne og babyer ikke har lige mange knogler? Få det præcise svar, se den fulde liste over knogler i kroppen, og bliv klogere på din anatomi.
+description: Hvor mange knogler har et voksent menneske og en baby? Få det præcise svar her, se den komplette liste over kroppens knogler og lær om knoglernes opbygning.
+excerpt: Vidste du, at voksne og babyer ikke har lige mange knogler? Få det præcise svar, se den fulde liste over knogler i kroppen, og bliv klogere på din anatomi.
 permalink: /hvor-mange-knogler-har-mennesket/
 language: da
 header:

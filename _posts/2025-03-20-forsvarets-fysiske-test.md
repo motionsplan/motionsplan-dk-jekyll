@@ -1,9 +1,9 @@
 ---
 title: "Forsvarets fysiske test: Krav til Værnepligt & Basistest 🪖"
-seo_title: "Forsvarets fysiske test – Krav til værnepligt og basistest"
+seo_title: "Forsvarets Fysiske Test | Kravene til Værnepligt & Basistest"
 permalink: /forsvarets-fysiske-test/
 excerpt: "Skal du til optagelsesprøve i Forsvaret eller aftjene værnepligt? Se alle de fysiske krav, basistesten, pointtabeller og bliv klar til prøven."
-description: "Se de konkrete fysiske krav til Forsvarets optagelsesprøve og værnepligt (Niveau 1). Få overblik over basistesten, Cooper-test kravene og træningstips."
+description: "Se alle fysiske krav til Forsvarets optagelsesprøve og værnepligt (Basistest Niveau 1-5). Få overblik over pointtabeller, løbekrav og opbyg dit træningsprogram."
 last_modified_at: '2026-07-29T08:00:00Z'
 language: da
 header:

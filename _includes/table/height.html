@@ -1,0 +1,297 @@
+<!-- Chart.js fra CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div style="width: 100%; max-width: 900px; margin: 2rem auto; padding: 1.5rem; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); font-family: system-ui, -apple-system, sans-serif;">
+  <h3 style="margin-top: 0; margin-bottom: 0.5rem; text-align: center; color: #2c3e50; font-size: 1.35rem;">
+    Mænds gennemsnitshøjde i 20 udvalgte lande (1960–2026)
+  </h3>
+  <p style="text-align: center; color: #7f8c8d; font-size: 0.85rem; margin-bottom: 1rem;">
+    Klik på landenes navne i forklaringen for at slå dem til/fra, eller brug knapperne nedenfor:
+  </p>
+  
+  <div style="display: flex; justify-content: center; gap: 8px; margin-bottom: 1.5rem; flex-wrap: wrap;">
+    <button onclick="showKeyCountries()" style="padding: 6px 14px; background: #e74c3c; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 0.85rem; font-weight: 600;">Vis nøglelande</button>
+    <button onclick="showAllCountries()" style="padding: 6px 14px; background: #3498db; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 0.85rem; font-weight: 600;">Vis alle 20 lande</button>
+  </div>
+  
+  <div style="position: relative; height: 500px; width: 100%;">
+    <canvas id="chart20Countries"></canvas>
+  </div>
+  
+  <p style="font-size: 0.75rem; color: #95a5a6; margin-top: 1rem; margin-bottom: 0; text-align: right;">
+    Kilde: NCD Risk Factor Collaboration (NCD-RisC), WHO & eLife
+  </p>
+</div>
+
+<script>
+let heightChartInstance = null;
+
+document.addEventListener("DOMContentLoaded", function() {
+  const ctx = document.getElementById('chart20Countries').getContext('2d');
+  const years = [1960, 1970, 1980, 1990, 2000, 2010, 2020, 2026];
+  
+  const datasets = [
+    {
+      label: 'Holland (183.8 cm)',
+      data: [178.0, 180.2, 182.0, 183.0, 183.5, 183.8, 183.8, 183.8],
+      borderColor: '#e67e22',
+      backgroundColor: '#e67e22',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: false,
+      tension: 0.2
+    },
+    {
+      label: 'Montenegro (183.3 cm)',
+      data: [176.0, 177.8, 179.5, 181.0, 182.0, 182.8, 183.1, 183.3],
+      borderColor: '#d35400',
+      backgroundColor: '#d35400',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Danmark (181.8 cm)',
+      data: [176.5, 178.0, 179.8, 180.6, 181.1, 181.4, 181.6, 181.8],
+      borderColor: '#e74c3c',
+      backgroundColor: '#e74c3c',
+      borderWidth: 3,
+      borderDash: [],
+      hidden: false,
+      tension: 0.2
+    },
+    {
+      label: 'Sverige (180.6 cm)',
+      data: [176.7, 178.2, 179.5, 179.8, 180.2, 180.4, 180.5, 180.6],
+      borderColor: '#f1c40f',
+      backgroundColor: '#f1c40f',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Tyskland (180.4 cm)',
+      data: [174.9, 176.5, 178.2, 179.2, 179.8, 180.2, 180.3, 180.4],
+      borderColor: '#27ae60',
+      backgroundColor: '#27ae60',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Tjekkiet (180.3 cm)',
+      data: [173.8, 175.5, 177.2, 178.5, 179.5, 180.0, 180.2, 180.3],
+      borderColor: '#2ecc71',
+      backgroundColor: '#2ecc71',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Frankrig (178.7 cm)',
+      data: [170.0, 172.5, 174.2, 176.0, 177.5, 178.4, 178.6, 178.7],
+      borderColor: '#3498db',
+      backgroundColor: '#3498db',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Storbritannien (178.2 cm)',
+      data: [172.8, 174.2, 175.5, 176.8, 177.5, 177.8, 178.0, 178.2],
+      borderColor: '#2980b9',
+      backgroundColor: '#2980b9',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'USA (177.0 cm)',
+      data: [175.1, 175.9, 176.5, 176.9, 177.1, 176.9, 176.9, 177.0],
+      borderColor: '#1abc9c',
+      backgroundColor: '#1abc9c',
+      borderWidth: 2,
+      borderDash: [4, 4],
+      hidden: false,
+      tension: 0.2
+    },
+    {
+      label: 'Spanien (176.8 cm)',
+      data: [166.8, 169.5, 171.8, 174.0, 175.5, 176.3, 176.6, 176.8],
+      borderColor: '#9b59b6',
+      backgroundColor: '#9b59b6',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Kina (176.2 cm)',
+      data: [164.8, 166.2, 168.0, 169.8, 171.0, 172.5, 175.7, 176.2],
+      borderColor: '#8e44ad',
+      backgroundColor: '#8e44ad',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: false,
+      tension: 0.2
+    },
+    {
+      label: 'Sydkorea (175.8 cm)',
+      data: [166.4, 168.8, 171.2, 173.5, 174.9, 175.5, 175.5, 175.8],
+      borderColor: '#a29bfe',
+      backgroundColor: '#a29bfe',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Tyrkiet (174.3 cm)',
+      data: [166.0, 168.0, 170.1, 171.8, 173.2, 174.0, 174.2, 174.3],
+      borderColor: '#fd79a8',
+      backgroundColor: '#fd79a8',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Japan (172.3 cm)',
+      data: [165.2, 167.5, 169.5, 170.8, 171.5, 172.0, 172.2, 172.3],
+      borderColor: '#e84393',
+      backgroundColor: '#e84393',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Brasilien (171.2 cm)',
+      data: [164.5, 166.1, 168.0, 169.5, 170.2, 170.7, 171.0, 171.2],
+      borderColor: '#6c5ce7',
+      backgroundColor: '#6c5ce7',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Nigeria (167.0 cm)',
+      data: [163.5, 164.5, 165.2, 165.8, 166.2, 166.5, 166.8, 167.0],
+      borderColor: '#00b894',
+      backgroundColor: '#00b894',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Indien (165.8 cm)',
+      data: [161.2, 162.0, 163.1, 164.0, 164.8, 165.2, 165.6, 165.8],
+      borderColor: '#00bec4',
+      backgroundColor: '#00bec4',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Guatemala (165.0 cm)',
+      data: [157.0, 158.2, 159.8, 161.2, 162.5, 163.4, 164.4, 165.0],
+      borderColor: '#ff7675',
+      backgroundColor: '#ff7675',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Laos (162.8 cm)',
+      data: [155.0, 156.2, 157.5, 158.8, 160.0, 161.2, 162.3, 162.8],
+      borderColor: '#d63031',
+      backgroundColor: '#d63031',
+      borderWidth: 2,
+      borderDash: [],
+      hidden: true,
+      tension: 0.2
+    },
+    {
+      label: 'Østtimor (160.1 cm)',
+      data: [153.0, 154.5, 156.0, 157.2, 158.5, 159.2, 159.7, 160.1],
+      borderColor: '#2c3e50',
+      backgroundColor: '#2c3e50',
+      borderWidth: 2,
+      borderDash: [2, 2],
+      hidden: false,
+      tension: 0.2
+    }
+  ];
+
+  heightChartInstance = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: years,
+      datasets: datasets
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: {
+        mode: 'index',
+        intersect: false,
+      },
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: {
+            usePointStyle: true,
+            boxWidth: 8,
+            font: { size: 10 }
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.dataset.label.split(' ')[0] + ': ' + context.parsed.y + ' cm';
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          title: { display: true, text: 'År' },
+          grid: { display: false }
+        },
+        y: {
+          min: 150,
+          max: 186,
+          title: { display: true, text: 'Gennemsnitshøjde (cm)' },
+          ticks: { stepSize: 5 }
+        }
+      }
+    }
+  });
+});
+
+function showAllCountries() {
+  if (!heightChartInstance) return;
+  heightChartInstance.data.datasets.forEach(ds => ds.hidden = false);
+  heightChartInstance.update();
+}
+
+function showKeyCountries() {
+  if (!heightChartInstance) return;
+  const keyNames = ['Danmark', 'Holland', 'USA', 'Kina', 'Østtimor'];
+  heightChartInstance.data.datasets.forEach(ds => {
+    const countryName = ds.label.split(' ')[0];
+    ds.hidden = !keyNames.includes(countryName);
+  });
+  heightChartInstance.update();
+}
+</script>

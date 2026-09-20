@@ -1,7 +1,9 @@
 ---
 layout: single
 permalink: /kondition/
-title: 'Kondition: Alt om hvordan den trænes og måles'
+title: 'Kondition: Hvad er det?'
+seo_title: 'Hvad er kondition? Forstå fysiologi, form og helbred'
+description: 'Hvad betyder det at være i god eller dårlig kondition? Lær om kroppens iltoptagelse, energisystemer og de fysiologiske fordele ved en god form.'
 excerpt: Her kan du lære mere om kondition, og hvordan du træner og måler din kondition. Få eksempler på træning og se om du er i god form?
 header:
   overlay_image: /assets/images/unsplash/photo-1529662795444-4a44b7a29db1.jpg
@@ -162,28 +164,20 @@ Vi har skrevet en guide til intervaltræning, og hvad intervaller kan bruges til
 Læs: [Guide til intervaltræning og hvad der virker?](/intervaltraening/)
 {: .notice }
 
-## Ofte stillede spørgsmål
+## Hvad vil det sige at have dårlig kondition?
 
-{% include motionsplan/faq.html %}
+At være i dårlig kondition betyder fysiologisk set, at dit hjerte, lunger og blodkredsløb har sværere ved at levere tilstrækkeligt med ilt til musklerne under fysisk arbejde. Resultatet af dette er et lavt kondital.
+
+I hverdagen oplever du det typisk ved, at du hurtigt bliver forpustet ved lette anstrengelser (som at tage trappen), at din [hvilepuls](/hvilepuls/) er relativt høj, og at det tager lang tid for din puls at falde til ro igen efter aktivitet. Sundhedsmæssigt øger en dårlig kondition risikoen for livsstilssygdomme markant.
+
+## Begreber om kondition
+
+{% include concepts.html type="kondition" %}
 
 ## Konklusion
 
 En god form er afgørende for et godt helbred, at hverdagen føles lettere og du kan præstere mere i din idræt og sport. Det er heldigvis ikke er så svært, som du måske tror, at holde dig i form. Det eneste, du har brug for, er nogle få grundlæggende retningslinjer og en vis vedholdenhed.
 
-## Artikler om kondition
+## Ofte stillede spørgsmål
 
-{% assign site_posts = site.posts | where: "categories", "Kondition" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" show_excerpt="false" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Begreber om kondition
-
-{% include concepts.html type="kondition" %}
+{% include motionsplan/faq.html %}

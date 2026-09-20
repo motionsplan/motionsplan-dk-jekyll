@@ -1,7 +1,7 @@
 ---
 title: 'Cooper-test: Beregn dit kondital med 12 minutters løbetest'
-seo_title: 'Cooper-test: Guide og værktøj til at beregne dit kondital'
-description: Beregn dit kondital med Cooper-testen. Få en detaljeret guide, beregner og tabel over resultater til at måle din kondition på 12 minutter.
+seo_title: 'Cooper Test Beregner & Skema | Find dit Kondital [12 min]'
+description: Beregn dit kondital på 2 sekunder med Cooper-testen (12 min. løbetest). Se aldersopdelte skemaer og normtabeller for mænd og kvinder her.
 excerpt: Beregn dit kondital med Cooper-testen. Få en detaljeret guide, beregner og tabel over resultater til at måle din kondition på 12 minutter.
 permalink: /cooper-test/
 redirect_from:

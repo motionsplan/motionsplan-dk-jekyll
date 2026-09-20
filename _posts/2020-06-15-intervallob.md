@@ -322,9 +322,7 @@ Efter nogle uger, så kan du måske løbe 1 kilometer, hvorefter du går i to mi
 
 ## Mål effekten af din træning
 
-Intervalløb skal introduceres gradvist. Prøv at holde fast i en specifik metode i 6-8 uger. Hvis du før og efter laver en løbetest, fx på en bestemt løbedistance eller fx [coopers 12 minutters løbetest](/cooper-test/), så kan du se, om træningen hjælper dig.
-
-## Konklusion
+Intervalløb skal introduceres gradvist. Prøv at holde fast i en specifik metode i 6-8 uger. Hvis du før og efter laver en løbetest, fx på en bestemt løbedistance eller fx [Coopers 12 minutters løbetest](/cooper-test/), så kan du se, om træningen hjælper dig.
 
 ## Konklusion
 

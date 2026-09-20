@@ -199,6 +199,10 @@ Derfor vinder **talje-højde-ratioen** stadigt større indpas i videnskabelig li
    title="📐 Beregn Talje-Højde-Ratio" 
 %}
 
+Eksempel:
+
+Hvis vi tager [gennemsnitshøjde for kvinder](/hvad-er-gennemsnitshoejden-i-danmark/) på 167 cm og et taljemål på 79 cm, så får man et resultat på 0,47. Det kategoriseres som 'Sundt'.
+
 ### Hvorfor er WHtR bedre end Sundhedsstyrelsens taljemål?
 
 Sundhedsstyrelsen opererer med faste grænseværdier (fx over 80 cm for kvinder og 94 cm for mænd), men de tal tager ikke højde for, hvor høj du er. Det skaber et åbenlyst problem:

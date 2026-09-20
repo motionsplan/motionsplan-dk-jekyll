@@ -5,6 +5,8 @@ permalink: /repeated-sprint-test-cykling/
 description: "Lær hvordan en gentagen 6-sekunders sprinttest (Repeated Sprint Ability) måler din anaerobe kapacitet, Fatigue Index og Sdec. Inkl. gratis beregnere."
 excerpt: "Ved at gentage 6-sekunders sprints med korte pauser kan du kortlægge din anaerobe kapacitet og evnen til at genoplade det eksplosive system hurtigt."
 language: da
+header:
+  teaser: /assets/images/i.ytimg.com/maxresdefault-edd65ea2.jpg
 categories:
   - Cykling
   - Cykeltests

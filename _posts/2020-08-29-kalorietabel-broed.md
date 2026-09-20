@@ -1,7 +1,7 @@
 ---
 title: 'Kalorietabel for brød: Se kalorier i rugbrød, franskbrød og knækbrød 🍞'
-seo_title: 'Kalorietabel for brød: Hvor mange kalorier er der i brød?'
-description: 'Hvor mange kalorier er der i rugbrød, hvidt brød og knækbrød? Se vores store kalorietabel for brød og find ud af, hvilket brød der har færrest kalorier.'
+seo_title: 'Kalorietabel for Brød | Se Kalorier i Rugbrød & Hvedebrød'
+description: 'Hvor mange kalorier indeholder dit brød? Søg i vores komplette kalorietabel for rugbrød, franskbrød og knækbrød – se næringsindhold og få kalorielet brød.'
 permalink: /kalorietabel-broed/
 last_modified_at: '2026-07-25T18:00:00Z'
 language: da

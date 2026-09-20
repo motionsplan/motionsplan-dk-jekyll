@@ -3,7 +3,7 @@ title: 'Ruteopmåler til løberuter: 5 gode alternativer'
 seo_title: 'Ruteopmåler: Tegn & mål din løberute gratis (2026)'
 permalink: /ruteopmaaler-loebetur/
 classes: wide
-description: Skal du måle din løberute op? Se de bedste gratis ruteopmålere og ruteplanlæggere (som PlotARoute, Komoot og Garmin), hvor du nemt kan indtegne ruter på kort.
+description: Mål længden på din løberute eller gåtur gratis på interaktivt kort. Beregn præcis distance, højdemetre og tidsforbrug til din næste tur.
 excerpt: Når du sidder derhjemme og planlægger en løbetur, kan det være rart at have en mulighed for at måle ruten op på forhånd. Vi kigger her på 5 stærke og gratis ruteopmålere til din næste løbetur.
 language: da
 header:

@@ -1,7 +1,7 @@
 ---
 title: Hvor langt er et skridt? (Sådan måler du din skridtlængde)
-seo_title: "Hvor langt er et skridt? [Se gennemsnit & skridtlængde-beregner]"
-description: Find din skridtlængde nemt – se skridtlængde tabel for kvinder og mænd, lær hvordan du måler den selv, eller beregn dine skridt pr. kilometer.
+seo_title: "Skridtlængde for Mænd & Kvinder | Gennemsnit & Beregner"
+description: Hvor langt er et skridt? Se gennemsnitlig skridtlængde for mænd og kvinder, lær at måle din egen skridtlængde, eller beregn antal skridt pr. km.
 excerpt: Vil du kende din præcise skridtlængde? Lær, hvordan du måler den med en nem metode eller bruger vores beregner til at finde ud af, hvor mange skridt du tager per kilometer.
 permalink: /skridtlaengde-gang/
 header:
