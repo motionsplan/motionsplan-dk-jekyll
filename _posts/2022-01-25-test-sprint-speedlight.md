@@ -29,7 +29,7 @@ meta:
   direct: direkte test
 tests:
   - id: "sprint-5m"
-    title: "5m Sprint"
+    title: "5m sprint - 1 step eksplosivitet"
     description: "Måler den eksplosive kraft fra stående start til 5 meter (0-5m)."
     icon: "⚡"
     badge: "Sprint"
@@ -49,7 +49,7 @@ tests:
       - "tool-sprint-calc-beregner"
 
   - id: "sprint-10m"
-    title: "10m Acceleration Sprint"
+    title: "10m sprint - Acceleration"
     description: "Måler evnen til at accellerere fra stående start over 10 meter."
     icon: "⚡"
     badge: "Sprint"
@@ -69,7 +69,7 @@ tests:
       - "tool-sprint-calc-beregner"
 
   - id: "sprint-10-20m"
-    title: "10-20m max-v opbygning"
+    title: "10-20m sprint - max-v opbygning"
     description: "Måler overgangen fra acceleration til maksimal opbygning af hastighed i zone 10-20 meter."
     icon: "🏎️"
     badge: "Sprint"
@@ -89,7 +89,7 @@ tests:
       - "tool-sprint-calc-beregner"
 
   - id: "sprint-20-30m"
-    title: "20-30m topfart (10m Fly)"
+    title: "20-30m sprint - topfart (10m Fly)"
     description: "Måler den maksimale tophastighed (MaxV) isoleret over 10 meters flyvende zone med 20m tilløb."
     icon: "🚀"
     badge: "Sprint"
@@ -109,7 +109,7 @@ tests:
       - "tool-sprint-calc-beregner"
 
   - id: "sprint-25-30m"
-    title: "25-30m topfart (5m Fly)"
+    title: "25-30m sprint - topfart (5m Fly)"
     description: "Måler den absolutte tophastighed isoleret over de sidste 5 meter med 25m tilløb."
     icon: "🚀"
     badge: "Sprint"

@@ -672,15 +672,18 @@ const SA = StorageAdapterModule || window.StorageAdapter;
       const userAge = profile.age || 25;
       const userGender = profile.gender || 'male';
 
-      // 1. GEM I LOKAL LOG
+      const peakForceVal = parseFloat(parsedResults.peakForceN.toFixed(0));
+      const relForceVal = parsedResults.relativeForce ? parseFloat(parsedResults.relativeForce.toFixed(2)) : null;
+
+      // 1. GEM I WIDGETTENS LOKALE LOG
       const logs = JSON.parse(localStorage.getItem("imtp_test_logs") || "[]");
       const now = new Date();
       const dateStr = `${now.getDate()}/${now.getMonth()+1} - ${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
 
       logs.unshift({
         date: dateStr,
-        peakForce: parsedResults.peakForceN.toFixed(0) + ' N',
-        relForce: parsedResults.relativeForce ? parsedResults.relativeForce.toFixed(2) + ' N/kg' : '--',
+        peakForce: peakForceVal + ' N',
+        relForce: relForceVal ? relForceVal + ' N/kg' : '--',
         timeTo80: parsedResults.timeTo80Sec.toFixed(3) + ' s',
         rfd100: parsedResults.rfd100.toFixed(0) + ' N/s',
         rfd200: parsedResults.rfd200.toFixed(0) + ' N/s',
@@ -691,14 +694,20 @@ const SA = StorageAdapterModule || window.StorageAdapter;
       localStorage.setItem("imtp_test_logs", JSON.stringify(logs.slice(0, 20)));
       renderLocalStorageLog();
 
-      // 2. SKRIV DIREKTE TIL STORAGEADAPTER
+      // 2. SKRIV TIL STORAGEADAPTER MED IMTP_TEST SOM NØGLE
       if (SA) {
         SA.commitToLog('imtp_test', {
           type: 'physical',
-          primary: { value: parseFloat(parsedResults.peakForceN.toFixed(0)), unit: 'N', label: 'IMTP Peak Force' },
+          value: peakForceVal, // Top-level value til DashboardManager
+          unit: 'N',           // Top-level unit
+          primary: {
+            value: peakForceVal,
+            unit: 'N',
+            label: 'Peak Force'
+          },
           subMetrics: {
             peakForceKg: parseFloat(parsedResults.peakForceKg.toFixed(1)),
-            relativeForce: parsedResults.relativeForce ? parseFloat(parsedResults.relativeForce.toFixed(2)) : null,
+            relativeForce: relForceVal,
             timeTo80Sec: parseFloat(parsedResults.timeTo80Sec.toFixed(3)),
             timeToPeakSec: parseFloat(parsedResults.timeToPeakSec.toFixed(3)),
             rfd100: parseFloat(parsedResults.rfd100.toFixed(0)),
@@ -711,6 +720,7 @@ const SA = StorageAdapterModule || window.StorageAdapter;
           context: { age: userAge, gender: userGender }
         });
 
+        // Udsend opdateringsevents
         window.dispatchEvent(new CustomEvent('storage-update', { detail: { key: 'imtp_test' } }));
         window.dispatchEvent(new Event('storage'));
       }
