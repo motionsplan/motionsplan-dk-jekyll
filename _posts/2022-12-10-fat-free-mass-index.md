@@ -43,7 +43,7 @@ faq:
 
 ---
 
-## FFMI Beregner
+## FFMI beregner
 {: id="ffmi-beregner" }
 
 Brug vores beregner herunder til at udregne dit FFMI og dit normaliserede FFMI. Du skal kende din højde, vægt og et estimat af din [fedtprocent](/fedtprocent-normer/).

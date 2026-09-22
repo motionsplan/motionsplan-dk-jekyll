@@ -177,7 +177,7 @@ Når du har beregnet dit kondital, kan du sammenligne dit resultat med de alders
 
 ---
 
-## 🧮 Online Bruce Test Beregner
+## 🧮 Online Bruce test beregner
 {: id="calculator"}
 
 Tast din samlede tid fra løbebåndet direkte ind i vores beregner herunder og få dit kondital med det samme:
@@ -186,20 +186,22 @@ Tast din samlede tid fra løbebåndet direkte ind i vores beregner herunder og f
 
 ---
 
-## Fordele og Ulemper ved Bruce-testen
+## Fordele og ulemper ved Bruce-testen
 
-### Fordele:
+### Fordele
+
 * **Ingen avanceret udstyr:** Kræver kun et standard løbebånd og et stopur.
 * **Uafhængig af løbeteknik i starten:** Da testen starter ved lav hastighed (2,7 km/t), påvirkes de første faser i ringe grad af god eller dårlig løbeøkonomi.
 * **Høj videnskabelig reliabilitet:** Meget veldokumenterede formler og normtal.
 
-### Ulemper:
+### Ulemper
+
 * **Meget stejl hældning:** Hældninger på over 15–18% belaster lægmuskler og baglår ekstremt hårdt, hvilket for nogle deltagere kan sætte en stopper for testen før kredsløbet er maksimalt belastet.
 * **Pludselige hop i belastning:** At gå direkte fra 14% til 16% hældning hvert 3. minut kan føles som et voldsomt trin i intensitet.
 
 ---
 
-## FAQ - Ofte Stillede Spørgsmål
+## FAQ - Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
 

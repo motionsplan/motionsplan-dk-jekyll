@@ -70,8 +70,6 @@ Her på siden kan du beregne den forventede voksenhøjde ved hjælp af **to vide
 
 Vælg hvilken beregningsmetode du vil benytte nedenfor. Hvis dit barn er fyldt 4 år, anbefaler vi at bruge **Khamis-Roche metoden** for det mest nøjagtige resultat.
 
-{% include calculator/calculate-how-tall.html %}
-
 {% include calc/how-tall.html %}
 
 ---
@@ -90,7 +88,8 @@ Denne metode kaldes også *Midparental Height* og benyttes ofte af praktiserende
 * **Formel for piger:**
   $$\text{Sluthøjde} = \frac{(\text{Fars højde} - 13\text{ cm}) + \text{Mors højde}}{2}$$
 
-#### Hvorfor lægges der 13 cm til eller trækkes 13 cm fra?
+**Hvorfor lægges der 13 cm til eller trækkes 13 cm fra?**
+
 I gennemsnit er voksne mænd i den vestlige verden ca. **13 cm højere end voksne kvinder**. For at kunne lægge mors og fars genetik sammen på en sammenlignelig skala, omregnes moderens højde til "mandlig ækvivalent" for drenge ($+13\text{ cm}$), eller faderens højde omregnes til "kvindelig ækvivalent" for piger ($-13\text{ cm}$).
 
 > **Begrænsning ved denne metode:**  
@@ -108,7 +107,8 @@ $$\text{Estimeret Sluthøjde} = \beta_0 + (\beta_1 \cdot \text{Barnets Højde}) 
 
 Hvor koefficienterne ($\beta_0, \beta_1, \beta_2, \beta_3$) skifter for hvert halve år fra 4,0 til 17,5 år for hhv. drenge og piger.
 
-#### Hvorfor er Khamis-Roche metoden mere præcis?
+**Hvorfor er Khamis-Roche metoden mere præcis?**
+
 * **Tager højde for den reelle vækst:** Ved at inddrage barnets aktuelle højde og alder fanger formlen, om barnet følger en høj eller lav vækstkurve.
 * **Inddrager kropsvægten:** Vægt fungerer som en indikator for biologisk modning. En høj kropsvægt i forhold til alderen er ofte et tegn på, at barnet modnes hurtigere og dermed har kortere tid tilbage at vokse i.
 * **Lav fejlmargin:** Metoden har en gennemsnitlig usikkerhed på kun **$\pm 2,1\text{ cm}$ for drenge** og **$\pm 1,7\text{ cm}$ for piger**.

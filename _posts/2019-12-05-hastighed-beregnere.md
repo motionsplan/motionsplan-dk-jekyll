@@ -1,8 +1,8 @@
 ---
 title: 'Paceberegner & Hastighedsberegner'
-seo_title: 'Paceberegner: Omregn pace til km/t & beregn din tid'
-description: 'Gratis hastigheds- og paceberegner til løb. Indtast din tid og distance, eller omregn lynhurtigt mellem pace (min/km) og km/t. Få svaret her!'
-excerpt: 'Gratis hastigheds- og paceberegner til løb. Indtast din tid og distance, eller omregn lynhurtigt mellem pace (min/km) og km/t. Få svaret her!'
+seo_title: 'Paceberegner: Omregn pace (min/km) til km/t & beregn din tid'
+description: 'Omregn lynhurtigt mellem pace (min/km) og km/t. Tast ét tal og få svaret med det samme — plus beregning af tid, distance og fart.'
+excerpt: Brug vores samlede hastighedsberegner til at udregne gennemsnitshastighed (km/t), pace (min/km), tid og distance på ét samlet sted.
 permalink: /hastighed/
 redirect_from:
   - /hastighed/beregn-fart/
@@ -10,7 +10,6 @@ redirect_from:
   - /hastighed/beregn-tid/
   - /hastighed/omregner-tempo-fart/
   - /hastighed/beregn-hastighed/
-excerpt: Brug vores samlede hastighedsberegner til at udregne gennemsnitshastighed (km/t), pace (min/km), tid og distance på ét samlet sted.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1585218059208-5cfd7659560b.jpg
@@ -75,7 +74,7 @@ faq:
 
 Hvordan hænger **hastighed, tempo og tid** sammen i træning og løb? Med denne super-beregner kan du udregne og omregne alle variabler på ét samlet sted:
 
-[<i class='fas fa-calculator'></i> Gå direkte til beregneren](#calculator){: .btn .btn--success .btn--jump }
+[<i class='fas fa-calculator'></i> Beregn pace og hastighed lynhurtigt](#calculator){: .btn .btn--success .btn--jump }
 
 **Brug vores hastighedsberegner til:**
 

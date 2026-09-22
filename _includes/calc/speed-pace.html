@@ -1,4 +1,4 @@
-{% assign calc_title = include.title | default: "⏱️ Hastighedsberegner" %}
+{% assign calc_title = include.title | default: "⏱️ Pace- & Hastighedsberegner" %}
 {% assign data_id = include.calc_id | default: "speed-pace-all" %}
 
 <style>
@@ -164,7 +164,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px; /* Løfter lighedstegnet op ud for midten af 44px inputfeltet */
+    margin-bottom: 10px;
     flex-shrink: 0;
   }
 </style>
@@ -179,21 +179,62 @@
 
   <div class="mp-sp-container" style="width: 100%;">
     
-    <!-- MODE VÆLGER MED IKONER -->
-    <div class="mp-sp-mode-selector">
-      <button type="button" class="mp-sp-mode-btn active js-sp-mode" data-mode="speed">
-        <span>🏁</span><span>Fart / Pace</span>
-      </button>
-      <button type="button" class="mp-sp-mode-btn js-sp-mode" data-mode="time">
-        <span>⏱️</span><span>Tid</span>
-      </button>
-      <button type="button" class="mp-sp-mode-btn js-sp-mode" data-mode="distance">
-        <span>📍</span><span>Distance</span>
-      </button>
+    <!-- SEKTION 1: LYN-OMREGNER (NU ØVERST) -->
+    <div id="lyn-omregner" style="background: #f0fdf4; border: 2px solid #22c55e; border-radius: 14px; padding: 1.1rem 1.25rem; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgba(34, 197, 94, 0.08);">
+      <h4 style="margin: 0 0 0.85rem 0; font-size: 0.9rem; font-weight: 800; color: #14532d; text-transform: uppercase; letter-spacing: 0.03em; display: flex; align-items: center; gap: 6px;">
+        <span>⚡ Lyn-omregner (Pace ↔ km/t)</span>
+        <span style="font-size: 0.75rem; font-weight: 600; color: #15803d; text-transform: none;">(Indtast min/km, km/t eller m/s)</span>
+      </h4>
+
+      <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+        
+        <!-- Input km/t -->
+        <div style="flex: 1; min-width: 95px;">
+          <label class="mp-sp-conv-label">KM / T</label>
+          <input type="number" step="0.1" min="0" class="vbt-input-mega js-sp-conv-kmh" placeholder="12.0" style="font-weight: 800; text-align: center; height: 44px; padding: 0 6px !important;">
+        </div>
+
+        <div class="mp-sp-conv-eq">=</div>
+
+        <!-- Input Pace -->
+        <div style="flex: 1.3; min-width: 120px;">
+          <label class="mp-sp-conv-label">PACE (MIN / KM)</label>
+          <div class="mp-sp-time-group" style="height: 44px;">
+            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-conv-pacemin" placeholder="05" style="padding: 0 4px !important;">
+            <span style="font-weight: 900; color: #94a3b8;">:</span>
+            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-conv-pacesec" placeholder="00" style="padding: 0 4px !important;">
+          </div>
+        </div>
+
+        <div class="mp-sp-conv-eq">=</div>
+
+        <!-- Input m/s -->
+        <div style="flex: 1; min-width: 95px;">
+          <label class="mp-sp-conv-label">M / S</label>
+          <input type="number" step="0.01" min="0" class="vbt-input-mega js-sp-conv-ms" placeholder="3.33" style="font-weight: 800; text-align: center; height: 44px; color: #059669; padding: 0 6px !important;">
+        </div>
+
+      </div>
     </div>
 
-    <!-- SEKTION 1: DYNAMISK TREPARTSBEREGNER -->
+    <!-- SEKTION 2: DYNAMISK TREPARTSBEREGNER (TID, DISTANCE & FART) -->
     <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.25rem; margin-bottom: 1.5rem;">
+      <h4 style="margin: 0 0 1rem 0; font-size: 0.85rem; font-weight: 800; color: #334155; text-transform: uppercase; letter-spacing: 0.03em;">
+        Beregn tur (Tid, Distance eller Gennemsnitshastighed)
+      </h4>
+
+      <!-- MODE VÆLGER MED IKONER -->
+      <div class="mp-sp-mode-selector">
+        <button type="button" class="mp-sp-mode-btn active js-sp-mode" data-mode="speed">
+          <span>🏁</span><span>Fart / Pace</span>
+        </button>
+        <button type="button" class="mp-sp-mode-btn js-sp-mode" data-mode="time">
+          <span>⏱️</span><span>Tid</span>
+        </button>
+        <button type="button" class="mp-sp-mode-btn js-sp-mode" data-mode="distance">
+          <span>📍</span><span>Distance</span>
+        </button>
+      </div>
       
       <div style="display: flex; gap: 0.85rem; margin-bottom: 1.25rem; align-items: flex-end; flex-wrap: wrap;">
         
@@ -271,44 +312,6 @@
 
       </div>
 
-    </div>
-
-    <!-- SEKTION 2: LYN-OMREGNER MED IKON OG ELEGANTE LIGHEDSTEGN-BADGES -->
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.1rem 1.25rem; margin-bottom: 1.25rem;">
-      <h4 style="margin: 0 0 0.85rem 0; font-size: 0.85rem; font-weight: 800; color: #0f172a; text-transform: uppercase; letter-spacing: 0.03em; display: flex; align-items: center; gap: 6px;">
-        <span>⚡ Lyn-omregner</span>
-        <span style="font-size: 0.75rem; font-weight: 600; color: #64748b; text-transform: none;">(Tast km/t, min/km eller m/s)</span>
-      </h4>
-
-      <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
-        
-        <!-- Input km/t -->
-        <div style="flex: 1; min-width: 95px;">
-          <label class="mp-sp-conv-label">KM / T</label>
-          <input type="number" step="0.1" min="0" class="vbt-input-mega js-sp-conv-kmh" placeholder="12.0" style="font-weight: 800; text-align: center; height: 44px; padding: 0 6px !important;">
-        </div>
-
-        <div class="mp-sp-conv-eq">=</div>
-
-        <!-- Input Pace -->
-        <div style="flex: 1.3; min-width: 120px;">
-          <label class="mp-sp-conv-label">PACE (MIN / KM)</label>
-          <div class="mp-sp-time-group" style="height: 44px;">
-            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-conv-pacemin" placeholder="05" style="padding: 0 4px !important;">
-            <span style="font-weight: 900; color: #94a3b8;">:</span>
-            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-conv-pacesec" placeholder="00" style="padding: 0 4px !important;">
-          </div>
-        </div>
-
-        <div class="mp-sp-conv-eq">=</div>
-
-        <!-- Input m/s -->
-        <div style="flex: 1; min-width: 95px;">
-          <label class="mp-sp-conv-label">M / S</label>
-          <input type="number" step="0.01" min="0" class="vbt-input-mega js-sp-conv-ms" placeholder="3.33" style="font-weight: 800; text-align: center; height: 44px; color: #059669; padding: 0 6px !important;">
-        </div>
-
-      </div>
     </div>
 
     <!-- BUNDMENU -->
