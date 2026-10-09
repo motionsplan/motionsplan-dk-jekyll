@@ -2,7 +2,7 @@
 permalink: /politiets-fysiske-tests-krav-optagelsesproeve/
 redirect_from:
   - /traening-politiets-fysiske-test/
-title: &title "Politiets Fysiske Test: Krav, Karakterskala & Træning (Mænd & Kvinder)"
+title: &title "Politiets fysiske test: Krav, karakterskala & træning (Mænd & Kvinder)"
 seo_title: "Politiets fysiske test – Krav, karakterskala & træning"
 excerpt: "Skal du til optagelsesprøve hos Politiet? Se alle fysiske krav, karakterskalaer, løbetest, træningstips og træningsprogrammer for mænd og kvinder."
 description: "Komplet guide til Politiets fysiske optagelsesprøve. Få overblik over kravene, karakterskalaen, 2400m løbetest, bænkpres og målrettet træning."
@@ -89,7 +89,8 @@ Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til pol
 
 Her får du en gennemgang af alle de fysiske krav, du skal mestre for at bestå politiets fysiske optagelsesprøve – sammen med specifikke træningstips og konkrete råd til din forberedelse.
 
-**Hop direkte til det, du søger:**  
+**Hop direkte til det, du søger:**
+
 [<i class="fas fa-list-ol"></i> Krav & Karakterskala](#krav){: .btn .btn--primary .btn--jump }
 [<i class="fas fa-dumbbell"></i> Træningstips](#traeningstips){: .btn .btn--success .btn--jump }
 [<i class="fas fa-file-download"></i> Træningsprogrammer](#programs){: .btn .btn--info .btn--jump }

@@ -87,16 +87,38 @@ I denne guide gennemgår vi testens opbygning, regler, samt hvordan du kan træn
 
 Du får en karakter på baggrund af løbetiden.
 
-|          | Mænd                     | Kvinder                  |
-| -------- | ------------------------ | ------------------------ |
-| Karakter | Tid (sek.)               | Tid (sek.)               |
-| 12       | 15,0 sek. eller derunder | 16,4 sek. eller derunder |
-| 10       | 15,1 - 15,6 sek.         | 16,5 - 17,1 sek.         |
-| 7        | 15,7 - 16,2 sek.         | 17,2 - 17,7 sek.         |
-| 4        | 16,3 - 16,8 sek.         | 17,8 - 18,3 sek.         |
-| 02       | 16,9 - 17,5 sek.         | 18,4 - 18,7 sek.         |
-| 00       | 17,6 - 18,1 sek.         | 18,8 - 19,3 sek.         |
-| \-3      | 18,2 sek. eller derover  | 19,4 sek. eller derover  |
+
+<div class="m-k-grid" markdown="1">
+
+<div class="card-mand" markdown="1">
+
+**👨 Mænd: Karakterskala**
+
+| Karakter | Tid i sekunder |
+| :---: | :--- |
+| **12** | 15,0 sek. eller derunder |
+| **10** | 15,1 - 15,6 sek. |
+| **7** | 15,7 - 16,2 sek. |
+| **4** | 16,3 - 16,8 sek. |
+| **02** | 16,9 - 17,5 sek. |
+| **00 / -3** | 17,6 sek. eller derover |
+
+</div>
+
+<div class="card-kvinde" markdown="1">
+
+**👩 Kvinder: Karakterskala**
+
+| Karakter | Tid i sekunder |
+| :---: | :--- |
+| **12** | 16,4 sek. eller derunder |
+| **10** | 16,5 - 17,1 sek. |
+| **7** | 17,2 - 17,7 sek. |
+| **4** | 17,8 - 18,3 sek. |
+| **02** | 18,4 - 18,7 sek. |
+| **00 / -3** | 18,8 sek. eller derover |
+
+</div>
 
 ## Konklusion på hurtighedstesten
 

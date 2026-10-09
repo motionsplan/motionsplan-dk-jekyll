@@ -3,7 +3,7 @@ title: '2400-meter løbetest: Beregn dit kondital (Politiets test) 🏃'
 seo_title: 2400-meter løbetest - Beregn dit kondital & se normer
 permalink: /kondital-2400-meter/
 excerpt: På 2400-meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt. Beregn dit kondital og sammenlign med normerne her.
-description: Test din kondition med 2400-meter løbetesten. Beregn dit kondital ud fra din tid, se normtabeller for mænd og kvinder, og gør dig klar til politiets optagelsesprøve.
+description: Test din kondition med 2400-meter løbetesten. Beregn dit kondital ud fra din tid, se normtabeller for mænd og kvinder.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1585855822554-4d21c841708c.jpg
@@ -68,7 +68,7 @@ tags:
 - aerob test
 - populær
 - politi
-last_modified_at: '2026-08-26T18:00:00Z'
+last_modified_at: '2026-10-06T18:00:00Z'
 gallery_whyiexercise:
 - image_path: /assets/images/whyiexercise.com/xcooper-1_5-mile-run-score-chart-women-by-age-group_jpg_pagespeed_ic_KhNsKxmeOD-1eac3be7.webp
   credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
@@ -136,7 +136,7 @@ Skal du op til Politiets fysiske optagelsesprøve, gælder følgende specifikke 
 | **4**  | 10:21 - 11:00 min | 12:01 - 12:40 min |
 | **02** | 11:01 - 12:00 min | 12:41 - 13:30 min |
 
-👉 [**Se de samlede krav til alle øvelser i Politiets fysiske test her**](/politiets-fysiske-tests-krav-optagelsesproeve/){: .btn .btn--primary }
+👉 Læs også: [**De samlede krav til alle øvelser i Politiets fysiske test her**](/politiets-fysiske-tests-krav-optagelsesproeve/){: .btn .btn--primary }
 
 ---
 
@@ -155,17 +155,29 @@ Skal du op til Politiets fysiske optagelsesprøve, gælder følgende specifikke 
 
 Brug tabellen herunder til at se, hvilket pace (min/km) og hvilken hastighed på løbebåndet der kræves for at ramme din måltid på 2400 meter:
 
-| Sluttid (2400 m) | Nødvendigt pace | Hastighed (løbebånd) | Relevans / Politikrav |
-| :--- | :--- | :--- | :--- |
-| **08:00 min** | 03:20 min/km | 18,0 km/t | Eliteniveau |
-| **09:00 min** | 03:45 min/km | 16,0 km/t | **Karakter 12** (Mænd) |
-| **09:40 min** | 04:02 min/km | 14,9 km/t | **Karakter 10** (Mænd) |
-| **10:00 min** | 04:10 min/km | 14,4 km/t | Super god grundform |
-| **10:30 min** | 04:23 min/km | 13,7 km/t | **Karakter 12** (Kvinder) / Karakter 7 (Mænd) |
-| **11:00 min** | 04:35 min/km | 13,1 km/t | **Karakter 4** (Mænd) / Karakter 10 (Kvinder) |
-| **12:00 min** | 05:00 min/km | 12,0 km/t | **Karakter 02** (Mænd) / Karakter 7 (Kvinder) |
-| **12:40 min** | 05:16 min/km | 11,4 km/t | **Karakter 4** (Kvinder) |
-| **13:30 min** | 05:37 min/km | 10,7 km/t | **Karakter 02** (Kvinder) |
+<div class="full">
+
+| Sluttid (2.400 m) | Pace (min/km) | Hastighed (løbebånd) | Omgangstid (400 m) | Politi (Mænd) | Politi (Kvinder) | Relevans / Niveau | 
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
+| **08:00 min** | 03:20 min/km | 18,0 km/t | 01:20 min |  |  | Eliteniveau | 
+| **08:30 min** | 03:32 min/km | 16,9 km/t | 01:25 min |  |  | Eliteniveau | 
+| **09:00 min** | 03:45 min/km | 16,0 km/t | 01:30 min | Karakter 12 |  | Topscore / Eliteniveau | 
+| **09:30 min** | 03:58 min/km | 15,2 km/t | 01:35 min |  |  | Meget høj form | 
+| **09:40 min** | 04:02 min/km | 14,9 km/t | 01:37 min | Karakter 10 |  | Meget høj form | 
+| **10:00 min** | 04:10 min/km | 14,4 km/t | 01:40 min |  |  | Høj form (Bane-krav for mænd) | 
+| **10:20 min** | 04:18 min/km | 13,9 km/t | 01:43 min | Karakter 7 |  | God form | 
+| **10:30 min** | 04:23 min/km | 13,7 km/t | 01:45 min |  | Karakter 12 | God form | 
+| **11:00 min** | 04:35 min/km | 13,1 km/t | 01:50 min | Karakter 4 |  | Middel / God form | 
+| **11:30 min** | 04:48 min/km | 12,5 km/t | 01:55 min |  | Karakter 10 | Middel form | 
+| **12:00 min** | 05:00 min/km | 12,0 km/t | 02:00 min | Karakter 02 | Karakter 7 | Middel form (Bane-krav for kvinder) | 
+| **12:40 min** | 05:17 min/km | 11,4 km/t | 02:07 min | Ej bestået | Karakter 4 | Under middel | 
+| **13:00 min** | 05:25 min/km | 11,1 km/t | 02:10 min | |  | Under middel | 
+| **13:30 min** | 05:38 min/km | 10,7 km/t | 02:15 min | | Karakter 02 | Lav form | 
+| **14:00 min** | 05:50 min/km | 10,3 km/t | 02:20 min | | Ej bestået | Lav form | 
+
+*(Bemærk: Karakteren i tabellen angiver det tidspunkt, hvor man **senest** skal i mål for at opnå karakteren. Løber en kvinde eksempelvis ind på 11:45, ligger hun i intervallet for et 7-tal).*
+
+</div>
 
 ---
 
@@ -214,36 +226,9 @@ Det er bedst at lave 2400-meter testen udenfor, men du kan også gennemføre tes
 
 ---
 
-### Sådan beregner du den nødvendige hastighed (km/t)
+### Hvilken fart skal løbebåndet stå på?
 
-For at finde den præcise hastighed, du skal indstille løbebåndet til for at ramme en bestemt sluttid, bruges denne formel fra [paceberegneren](/hastighed/):
-
-$$\text{Påkrævet hastighed (km/t)} = \frac{144}{\text{Måltid i minutter}}$$
-
-**Eksempel:**
-
-Vil du løbe 2,4 km på nøjagtigt **10 minutter og 0 sekunder** ($10{,}0 \text{ min}$):  
-
-$$\text{Hastighed} = \frac{144}{10{,}0} = 14{,}4 \text{ km/t}$$
-
----
-
-### Hastighedstabel: Hvilken fart skal løbebåndet stå på?
-
-Brug tabellen til at vælge din fart på løbebåndet ud fra dit tidsmål på 2,4 km:
-
-| Måltid (2,4 km) | Påkrævet fart (km/t) | Pace (min/km) | Typisk kontekst / Niveau |
-| :--- | :--- | :--- | :--- |
-| **08:30 min** | 16,9 km/t | 3:32 min/km | Eliteniveau |
-| **09:00 min** | 16,0 km/t | 3:45 min/km | Topscore (Forsvaret / Politi) |
-| **09:30 min** | 15,2 km/t | 3:57 min/km | Meget høj form |
-| **10:00 min** | 14,4 km/t | 4:10 min/km | Høj form (Bane-krav for mænd) |
-| **10:30 min** | 13,7 km/t | 4:22 min/km | God form |
-| **11:00 min** | 13,1 km/t | 4:35 min/km | Middel / God form |
-| **11:30 min** | 12,5 km/t | 4:47 min/km | Middel form |
-| **12:00 min** | 12,0 km/t | 5:00 min/km | Middel form (Bane-krav for kvinder) |
-| **13:00 min** | 11,1 km/t | 5:25 min/km | Under middel |
-| **14:00 min** | 10,3 km/t | 5:50 min/km | Lav form |
+Brug tabellen ovenfor for at finde den hastighed løbebåndet skal stå på for at opnå din måltid.
 
 ---
 

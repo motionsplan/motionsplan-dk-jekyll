@@ -62,11 +62,12 @@ Timeren styrer automatisk hele forløbet:
 
 ## Programmet for Politiets opvarmning
 
-Opvarmningen tager ca. 15 minutter og er opbygget i tre faste faser: løbedel, hoppedel og styrkedel. Du kan forberede dig 100% på opvarmningen, da det altid er nøjagtigt de samme øvelser, der udføres i samme rækkefølge.
+Opvarmningen tager ca. 15 minutter og er opbygget i tre faste faser: løbedel, hoppedel og styrkedel. Du kan forberede dig på opvarmningen på forhånd, da det typisk er de samme øvelser, der udføres i samme rækkefølge.
 
 {% include video provider="youtube" id="isDmCC3_fPk" %}
 
 ### 1. Løbedel (4–5 minutter)
+
 *Udføres i 30 sekunder pr. øvelse. Ved rundsving, sidestep og krydsløb skiftes arm/retning efter 15 sekunder.*
 
 - Almindeligt løb 
@@ -79,6 +80,7 @@ Opvarmningen tager ca. 15 minutter og er opbygget i tre faste faser: løbedel, h
 - Reaktionsøvelser (klap i gulvet med hhv. højre, venstre og begge hænder)
 
 ### 2. Hoppedel (4–5 minutter)
+
 *Udføres i 30 sekunder pr. øvelse med kort klargøring mellem øvelserne.*
 
 - Sprællemand 
@@ -90,6 +92,7 @@ Opvarmningen tager ca. 15 minutter og er opbygget i tre faste faser: løbedel, h
 - Fod-til-hånd Englehop 
 
 ### 3. Styrkedel (3–4 minutter)
+
 *Udføres som faste gentagelser i roligt, kontrolleret tempo.*
 
 - Mavebøjninger (12 stk.) 
@@ -106,4 +109,6 @@ Opvarmningen tager ca. 15 minutter og er opbygget i tre faste faser: løbedel, h
 
 Når du har styr på opvarmningsrutinen, er det afgørende, at du også træner op til de fem øvrige delprøver, så du vænner kroppen til at præstere under samlet træthed.
 
-* 📋 **[Se alle fysiske krav & karakterskalaer for Politiets Fysiske Test](/politiets-fysiske-tests-krav-optagelsesproeve/)** – Få det fulde overblik over kravene i 2400-meter løb, bænkpres, kropshævninger, længdespring og 8-tals løbet, samt strukturerede træningsprogrammer.
+Der er ikke karakter for opvarmningen, men det er godt at vise overskud og bevægelsesoverskud, så husk at få trænet din koordination, udholdenhed og styrke så du kan gennemføre den.
+
+Få det fulde overblik over kravene i 2400-meter løb, bænkpres, kropshævninger, længdespring og 8-tals løbet, samt strukturerede træningsprogrammer i vores beskrivelse af de [fysiske krav & karakterskalaer for politiets fysiske test](/politiets-fysiske-tests-krav-optagelsesproeve/).

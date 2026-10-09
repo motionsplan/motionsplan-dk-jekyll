@@ -52,10 +52,12 @@ For at beregne iltoptagelsen ($VO_2$) og udskillelsen af kuldioxid ($VCO_2$) ska
 3. **Kuldioxidkoncentration ($CO_2\%$):** Forskellen mellem omgivelsesluft (~0,04%) og udåndingsluft.
 
 ### 1. Oxygen-sensorer: Paramagnetisk vs. Galvanisk
+
 * **Paramagnetiske sensorer:** Anvender ilts fysiske magnetiske egenskaber. De er ekstremt præcise, kræver minimal opvarmning, slides ikke op og er standarden i professionelle laboratorieanlæg.
 * **Galvaniske / Elektrokemiske celler:** Også kendt som "brændselsceller". De er billigere og fylder mindre (anvendes ofte i bærbart udstyr), men de forbruges over tid og skal udskiftes jævnligt.
 
 ### 2. Kuldioxid-sensorer: NDIR
+
 * Næsten alt moderne udstyr benytter **Non-Dispersive Infrared (NDIR)** infrarød gasspektroskopi, da $CO_2$-molekyler absorberer specifikke infrarøde bølgelængder.
 
 ---
@@ -79,10 +81,11 @@ Selvom elektronisk udstyr har overtaget hverdagen i laboratoriet, er **Douglas-s
 
 {% include figure image_path="/assets/images/wp.vih.dk/2K2A0602-2084a13d.jpeg" alt="Douglas sæk system til VO2max test" caption="Den klassiske Douglas-sæk opsamler udåndingsluften i tætte poser over præcise tidsintervaller." %}
 
-### Hvordan fungerer det?
+**Hvordan fungerer det?**
+
 Forsøgspersonen bærer en envejsventil. Udåndingsluften opsamles i store, lufttætte poser af mylar eller latex i nøjagtigt afmålte tidsintervaller (fx 1–2 minutter ved steady state). Posens volumen måles derefter via en mekanisk tørgas-volumenmåler, og gassammensætningen måles med præcisionsanalysatorer.
 
-* **Hvorfor guldstandard?** Metoden eliminerer tidsforsinkelsesfejl (*time-delay*) og beregningsmæssige antagelser i mikrokontrollere.
+**Hvorfor guldstandard?** Metoden eliminerer tidsforsinkelsesfejl (*time-delay*) og beregningsmæssige antagelser.
 
 ---
 
@@ -92,7 +95,8 @@ De største testcentre, universiteter og hospitaler benytter **stationære metab
 
 {% include figure image_path="/assets/images/blog/laboratorie-test-max-iltoptagelse.jpg" alt="Stationært VO2max laboratorieanlæg" caption="Et stationært laboratorieanlæg integrerer gasanalyse, automatisk kalibreringsgas og EKG." %}
 
-### Karakteristika:
+**Karakteristika:**
+
 * **Automatisk kalibrering:** Indbyggede magnetventiler skifter automatisk mellem rumluft og en præcisionsgasflaske med kendt $O_2$- og $CO_2$-koncentration.
 * **Høj driftssikkerhed:** Kræver fast placering i laboratoriet, strømforsyning og fast gasforsyning.
 * **EKG-integration:** Kan integreres direkte med 12-afledningers klinisk EKG for spidsbelastningstests af hjertepatienter.
@@ -105,7 +109,8 @@ I nyere tid er bærbart udstyr blevet meget populært, da det gør det muligt at
 
 {% include figure image_path="https://images.unsplash.com/photo-1709601414405-db08d323a87a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="VO2 master bærbart gasanalyseudstyr" caption="VO2 master måler direkte breath-by-breath måling i felten direkte gennem masken." %}
 
-### Cosmed K5 & Cortex MetaMax 3B:
+### Cosmed K5 & Cortex MetaMax 3B
+
 * **Vægt & mobilitet:** Vejer under 1 kg og monteres i en sele på løberens ryg.
 * **Dual-teknologi:** Cosmed K5 kan skifte mellem ren *Breath-by-Breath* og *Micro-Mixing Chamber*.
 * **Trådløs datatransmission:** Sender data via Bluetooth eller langtrækkende radiofrekvens direkte til testlederens bærbar.
@@ -113,7 +118,9 @@ I nyere tid er bærbart udstyr blevet meget populært, da det gør det muligt at
 {% include video provider="youtube" id="9QWic5oCXu8" %}
 
 ### Bærbart vs. Stationært – Hvad skal du være opmærksom på?
+
 Selvom bærbare anlæg som Cosmed K5 leverer meget høj præcision, stiller de højere krav til brugeren:
+
 * **Følsomhed over for vind og temperatur:** Udendørs temperaturudsving og vind kan påvirke flowmetersensorerne (opvarmede pneumotachografer hjælper på dette).
 * **Manuel kalibrering:** Du skal medbringe bærbare gasflasker og kalibreringssprøjter (3-liters kalibreringssprøjte) under feltmæssige forhold.
 
