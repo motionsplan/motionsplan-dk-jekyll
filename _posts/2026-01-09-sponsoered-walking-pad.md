@@ -77,5 +77,4 @@ Det er små fysiologiske ændringer – gentaget ofte – der over måneder og �
 
 * Levine, J. A. 2002. "Non-exercise activity thermogenesis (NEAT)". *Best Practice & Research Clinical Endocrinology & Metabolism* 16 (4): 679–702. <https://doi.org/10.1053/beem.2002.0225>.
 * Thosar, S. S., S. L. Johnson, M. P. Johnston, og J. A. Wallace. 2015. "Effect of Prolonged Sitting and Breaks in Sitting Time on Endothelial Function". *Medicine & Science in Sports & Exercise* 47 (4): 843–49. <https://doi.org/10.1249/MSS.0000000000000479>.
-* Tufano, J. J., L. Brown, A. Coburn, og D. A. Feigenbaum. 2012. "Effect of Active Recovery on Muscle Fatigue and Lactate Clearance". *Journal of Strength and Conditioning Research* 26 (11): 2980–85. <https://doi.org/10.1519/JSC.0b013e31824730e6>.
 </details>
