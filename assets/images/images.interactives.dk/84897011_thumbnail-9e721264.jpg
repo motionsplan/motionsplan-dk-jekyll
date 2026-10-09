@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="da-DK">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martel:wght@900&family=Maven+Pro:wght@500;700;900&family=Poppins:wght@900&family=Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="/app/themes/bonnierpublications/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/app/themes/bonnierpublications/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/app/themes/bonnierpublications/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/app/themes/bonnierpublications/assets/favicon/site.webmanifest">
+<link rel="shortcut icon" href="/app/themes/bonnierpublications/assets/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#33ffcc">
+<meta name="msapplication-config" content="/app/themes/bonnierpublications/assets/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff"><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" href="https://bonnierpublications.com/" hreflang="da" />
+<link rel="alternate" href="https://bonnierpublications.com/en/bonnier-publications-2/" hreflang="en" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v18.8 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Bonnier Publications</title>
+	<meta name="description" content="Bonnier Publications skaber medier, der hjælper dig med at få mere ud af dine interesser. Sundhed, videnskab, mode, design og meget mere." />
+	<link rel="canonical" href="https://bonnierpublications.com/" />
+	<meta property="og:locale" content="da_DK" />
+	<meta property="og:locale:alternate" content="en_GB" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Bonnier Publications" />
+	<meta property="og:description" content="Bonnier Publications skaber medier, der hjælper dig med at få mere ud af dine interesser. Sundhed, videnskab, mode, design og meget mere." />
+	<meta property="og:url" content="https://bonnierpublications.com/" />
+	<meta property="og:site_name" content="Bonnier Publications" />
+	<meta property="article:modified_time" content="2023-11-15T09:40:53+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Bonnier Publications" />
+	<meta name="twitter:description" content="Bonnier Publications skaber medier, der hjælper dig med at få mere ud af dine interesser. Sundhed, videnskab, mode, design og meget mere." />
+	<meta name="twitter:image" content="https://bonnierpublications.com/app/uploads/2023/01/share-image.jpg" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://bonnierpublications.com/#website","url":"https://bonnierpublications.com/","name":"Bonnier Publications","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://bonnierpublications.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"da-DK"},{"@type":"ImageObject","inLanguage":"da-DK","@id":"https://bonnierpublications.com/#primaryimage","url":"https://bonnierpublications.com/app/uploads/2023/01/share-image.jpg","contentUrl":"https://bonnierpublications.com/app/uploads/2023/01/share-image.jpg","width":1200,"height":627},{"@type":"WebPage","@id":"https://bonnierpublications.com/#webpage","url":"https://bonnierpublications.com/","name":"Bonnier Publications","isPartOf":{"@id":"https://bonnierpublications.com/#website"},"primaryImageOfPage":{"@id":"https://bonnierpublications.com/#primaryimage"},"datePublished":"2022-05-16T14:48:57+00:00","dateModified":"2023-11-15T09:40:53+00:00","description":"Bonnier Publications skaber medier, der hjælper dig med at få mere ud af dine interesser. Sundhed, videnskab, mode, design og meget mere.","breadcrumb":{"@id":"https://bonnierpublications.com/#breadcrumb"},"inLanguage":"da-DK","potentialAction":[{"@type":"ReadAction","target":["https://bonnierpublications.com/"]}]},{"@type":"BreadcrumbList","@id":"https://bonnierpublications.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+        <script type="text/javascript">window.gdprAppliesGlobally=true;(function(){function r(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}else{setTimeout(function(){r(e)},5)}}}function e(n,i,o,c,s){function e(e,t,n,r){if(typeof n!=="function"){return}if(!window[i]){window[i]=[]}var a=false;if(s){a=s(e,r,n)}if(!a){window[i].push({command:e,version:t,callback:n,parameter:r})}}e.stub=true;e.stubVersion=2;function t(r){if(!window[n]||window[n].stub!==true){return}if(!r.data){return}var a=typeof r.data==="string";var e;try{e=a?JSON.parse(r.data):r.data}catch(t){return}if(e[o]){var i=e[o];window[n](i.command,i.version,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:i.callId};r.source.postMessage(a?JSON.stringify(n):n,"*")},i.parameter)}}if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");r("__tcfapiLocator");(function(e,t){var n=document.createElement("link");n.rel="preload";n.as="script";var r=document.createElement("script");r.id="spcloader";r.type="text/javascript";r["async"]=true;r.charset="utf-8";var a="https://sdk.privacy-center.org/"+e+"/loader.js?target_type=notice&target="+t;n.href=a;r.src=a;var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(n,i);i.parentNode.insertBefore(r,i)})("fb809c51-e9cd-4e35-a92d-e44bb858841e","qB6xLpce")})();
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelector('.didomi-consent-link').addEventListener('click', function (event) {event.preventDefault();Didomi.preferences.show()});
+            });
+        </script>
+        <script type="didomi/javascript" data-vendor="c:bonniera-xUjzTNPx">
+            function sleep(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+            }
+            function getOldDidomiEvents(dl) {
+                return dl.event !== undefined && dl.event.startsWith("didomi");
+            }
+            function getOldDLEvents(dl) {
+                return dl.event !== undefined && !dl.event.startsWith("didomi");
+            }
+            sleep(1000).then(() => {
+                dataLayer = dataLayer || [];
+                old_dl_events = dataLayer.filter(getOldDLEvents);
+                dataLayer = dataLayer.filter(getOldDidomiEvents);
+                dataLayer.push({
+                    'consent': 'didomi',
+                    'pageBrand': 'COR',
+                    'pageMarket': 'DK',
+                    'pageCms': 'WP-CORP',
+                    'siteType': 'corporate'
+                });
+                dataLayer = dataLayer.concat(old_dl_events);
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                    var f = d.getElementsByTagName(s)[0], j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = 'https://tracking.bonnierpublications.com/gtm.js?id=' + i + dl;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-5HQ6KLM');
+            });
+        </script>
+        <link rel='dns-prefetch' href='//europe-west1-bonnier-big-data.cloudfunctions.net' />
+<link rel='dns-prefetch' href='//unpkg.co' />
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}body { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='dnd-upload-cf7-css'  href='https://bonnierpublications.com/app/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/css/dnd-upload-cf7.css?ver=1.3.6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://bonnierpublications.com/app/plugins/contact-form-7/includes/css/styles.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='advice_style-css'  href='https://bonnierpublications.com/app/themes/bonnierpublications/assets/css/style.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://bonnierpublications.com/app/plugins/tablepress/css/default.min.css?ver=1.14' type='text/css' media='all' />
+<script type='text/javascript' src='//europe-west1-bonnier-big-data.cloudfunctions.net/commonBonnierDataLayer?ver=1.0' id='common-datalayer-js'></script>
+<script type='text/javascript' id='bp-datalayer-js-extra'>
+/* <![CDATA[ */
+var bpDatalayer = {"pageId":"post-5","pageCMS":"WP-CORP","pageName":"Bonnier Publications","pageBrand":"COR","pageStatus":"success","pageMarket":"DK","pagePillar":"frontpage","contentType":"frontpage","contentAuthor":"interactive","userLoginStatus":"false","siteType":"corporate","contentPublication":"2022-05-16","contentLastModified":"2023-11-15"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://bonnierpublications.com/app/plugins/wp-datalayer/assets/datalayer.js?ver=1.0' id='bp-datalayer-js'></script>
+<script type='text/javascript' src='https://bonnierpublications.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://bonnierpublications.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://bonnierpublications.com/wp-json/" /><link rel="alternate" type="application/json" href="https://bonnierpublications.com/wp-json/wp/v2/pages/5" /><link rel="alternate" type="application/json+oembed" href="https://bonnierpublications.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbonnierpublications.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://bonnierpublications.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbonnierpublications.com%2F&#038;format=xml" />
+<!-- Google Tag Manager -->
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5HQ6KLM');//]]>
+</script><!-- End Google Tag Manager -->		<style type="text/css" id="wp-custom-css">
+			#didomi-host .didomi-popup-backdrop{
+	box-sizing: border-box !important;
+}		</style>
+		</head>
+<body class="home page-template-default page page-id-5">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><div class="c-skip-nav">
+  <a href="#content-start" class="c-skip-nav__link">
+    Jump to content  </a>
+</div><div id="container">
+  <header class="c-site-header">
+  <div class="container grid">
+  <div class="c-site-header__logo-container">
+    <a class="c-site-header__logo-link" href="https://bonnierpublications.com/" title="Bonnier Publications" rel="home">
+      <img class="c-site-header__logo" width="203" height="56" alt="Bonnier Publications" src="https://bonnierpublications.com/app/themes/bonnierpublications/assets/img/logo.svg" />
+    </a>
+  </div>
+
+  <nav class="c-site-header__navigation c-menu grid">
+    <button class="c-menu__toggle" aria-expanded="false">
+          <div class="c-menu__burger">
+            <div class="c-menu__burger__stripe"></div>
+            <div class="c-menu__burger__stripe"></div>
+            <div class="c-menu__burger__stripe"></div>
+          </div>
+    </button>
+
+    <div class="c-menu__menus">
+      <button class="c-menu__toggle c-menu__toggle__close"><img src="https://bonnierpublications.com/app/themes/bonnierpublications/assets/img/icon-close-black.svg"/></button>
+      <ul class="c-menu__primary "><li class="c-menu__primary__item  c-menu__primary__item--8"><a href="https://bonnierpublications.com/brands/">Brands</a></li>
+<li class="c-menu__primary__item  c-menu__primary__item--10"><a href="https://bonnierpublications.com/annoncer/">Annoncer</a></li>
+<li class="c-menu__primary__item  c-menu__primary__item--12"><a href="https://bonnierpublications.com/karriere/">Karriere</a></li>
+<li class="c-menu__primary__item  c-menu__primary__item--14"><a href="https://bonnierpublications.com/om-os/">Om os</a></li>
+</ul>
+      
+      <div class='c-menu-secondary__container'><button class='c-menu-secondary__toggle'>Sekundær menu</button><ul class="c-menu__secondary "><li class="c-menu__secondary__item  c-menu__secondary__item--217"><a target="_blank" href="https://bonniershop.dk/">Køb abonnement</a></li>
+<li class="c-menu__secondary__item  c-menu__secondary__item--18"><a href="https://bonnierpublications.com/kontakt/">Kontakt</a></li>
+<li class="c-menu__secondary__item  c-menu__secondary__item--16"><a href="https://bonnierpublications.com/presse/">Presse</a></li>
+<li class="c-menu__secondary__item  c-menu__secondary__item--2894  lang-item"><a href="https://bonnierpublications.com/en/bonnier-publications-2/">English</a></li>
+</ul></div>          </div>
+
+
+  </nav>
+  </div>
+</header>
+<main id="content">
+  
+<section id="hero-frontpage-block_6284c749ef4f5" class="c-hero-fp color-white" data-aos="fade">
+    <div class="c-hero-fp__cover-image" >
+        <video playsinline autoplay muted loop class="c-hero__video-file lazy-video" >
+            <source data-src="https://bonnierpublications.com/app/uploads/2022/11/bonnier-header-video-2022-vers03-overlay.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="c-hero-fp__filter filter-dark"></div>
+            
+        
+                <div class="__fifth-element __fifth-element--position-center_left ">
+            <div class="__fifth-element-container __fifth-element-container--geometry-right_half">
+                <div class="__fifth-element-container__image-container rellax" data-rellax-speed="7" data-rellax-percentage="0.5">
+                    <div class="__image-crop">
+                        <img aria-hidden="true" src="https://bonnierpublications.com/app/themes/bonnierpublications/assets/img/fifth-element-turquoise.svg" alt="" class="__fifth-element__image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="c-hero-fp__content container grid">
+                <div class="c-hero-fp__text-box">
+                <div class="c-hero-fp__headline rellax"
+                        data-rellax-xs-speed="0"
+                        data-rellax-mobile-speed="0" 
+                        data-rellax-tablet-speed="3"
+                        data-rellax-desktop-speed="3"
+                >
+                    <h1>Få mere ud af dine interesser</h1>
+                </div>
+            <div class="c-hero-fp__caption trompet rellax">
+                <figcaption class="rellax"
+                        data-rellax-xs-speed="2"
+                        data-rellax-mobile-speed="2" 
+                        data-rellax-tablet-speed="6"
+                        data-rellax-desktop-speed="6"
+                ></figcaptions> 
+        </div>
+    </div>
+</section>
+
+
+<section id="banner-block_6284c8adeac8c" class="c-banner bg-white color-blue">
+        
+        
+                <div class="__fifth-element __fifth-element--position-none ">
+            <div class="__fifth-element-container __fifth-element-container--geometry-left_half">
+                <div class="__fifth-element-container__image-container rellax" data-rellax-speed="7" data-rellax-percentage="0.5">
+                    <div class="__image-crop">
+                        <img aria-hidden="true" src="https://bonnierpublications.com/app/themes/bonnierpublications/assets/img/fifth-element-turquoise.svg" alt="" class="__fifth-element__image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+    <div class="c-banner__inner">
+        <div class="c-banner__header">
+            <h2 class="c-banner__preheader preheader">OM OS</h2>
+            <p class="c-banner__headline headline">Nordens mest elskede interessemedier</p>
+            <p class="c-banner__lead lead-20"></p>
+        </div>
+
+        <div class="c-banner__content">
+                    <p class="c-banner__text bodytext-regular">Vi skaber medier for at gøre dig klogere. Underholde dig. Inspirere dig. Motivere dig til at dyrke det, der interesserer dig.<br />
+Bonnier Publications står bag mediebrands, som engagerer millioner af læsere, lyttere og seere på tværs af platforme.</p>
+        
+
+                    <div>
+                <a class="c-button  c-button--primary c-button--blue" href="https://bonnierpublications.com/om-os/" target="_self">
+                    Lær os at kende                </a>
+            </div>
+                </div>
+
+    </div>
+
+        </div>
+
+</section>
+
+
+<section id="brands-list-block_6295c853ed191" class="c-brands-list bg-white color-red ">
+
+        
+        
+                <div class="__fifth-element __fifth-element--position-top_left ">
+            <div class="__fifth-element-container __fifth-element-container--geometry-right_half">
+                <div class="__fifth-element-container__image-container rellax" data-rellax-speed="-7" data-rellax-percentage="0.5">
+                    <div class="__image-crop">
+                        <img aria-hidden="true" src="https://bonnierpublications.com/app/themes/bonnierpublications/assets/img/fifth-element-turquoise.svg" alt="" class="__fifth-element__image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <div class="c-brands-list__inner sliderify ">
+        <header class="c-brands-list__header" data-aos="fade">
+            <h2 class="c-brands-list__preheader preheader">MEDIEBRANDS</h2>
+            <p class="c-brands-list__headline headline">Find et match til dine interesser</p>
+                            <p class="c-brands-list__lead lead-20 long">Løbesko, værktøjskasse eller stjernekikkert? <br />
+<br />
+Bonnier Publications har medier om videnskab, sundhed, mode og meget mere.</p>
+            
+        </header>
+        <div class="c-brands-list__card-container sliderify-container"> 
+        <div class="c-brands-list__card-container__inner sliderify-inner">
+                    <!-- brands loop -->
+                            <article class="sliderify-card c-brands-list__card" style="--mod3: 0;--column3:  1; --row3:  1; --column2:  1; --row2:  1">
+                    <a href="https://bonnierpublications.com/brands/illustreret-videnskab/" class="c-brand-card">
+                    <img width="720" height="480" src="https://bonnierpublications.com/app/uploads/2022/05/illvid-720x480.jpg" class="c-brand-card__image" alt="" loading="lazy" srcset="https://bonnierpublications.com/app/uploads/2022/05/illvid-720x480.jpg 720w, https://bonnierpublications.com/app/uploads/2022/05/illvid-1200x800.jpg 1200w, https://bonnierpublications.com/app/uploads/2022/05/illvid-360x240.jpg 360w, https://bonnierpublications.com/app/uploads/2022/05/illvid-768x512.jpg 768w, https://bonnierpublications.com/app/uploads/2022/05/illvid-1536x1024.jpg 1536w, https://bonnierpublications.com/app/uploads/2022/05/illvid.jpg 1800w" sizes="(max-width: 720px) 100vw, 720px" />                    <img width="651" height="169" src="https://bonnierpublications.com/app/uploads/2022/05/illu-vid-hvid.svg" class="c-brand-card__logo" alt="" loading="lazy" />                    </a>
+                </article> 
+                            <article class="sliderify-card c-brands-list__card" style="--mod3: 0;--column3:  2; --row3:  1; --column2:  2; --row2:  1">
+                    <a href="https://bonnierpublications.com/brands/gor-det-selv/" class="c-brand-card">
+                    <img width="720" height="1080" src="https://bonnierpublications.com/app/uploads/2022/05/gds-2-720x1080.jpg" class="c-brand-card__image" alt="" loading="lazy" srcset="https://bonnierpublications.com/app/uploads/2022/05/gds-2-720x1080.jpg 720w, https://bonnierpublications.com/app/uploads/2022/05/gds-2-768x1152.jpg 768w, https://bonnierpublications.com/app/uploads/2022/05/gds-2-1024x1536.jpg 1024w, https://bonnierpublications.com/app/uploads/2022/05/gds-2-1365x2048.jpg 1365w, https://bonnierpublications.com/app/uploads/2022/05/gds-2-300x450.jpg 300w, https://bonnierpublications.com/app/uploads/2022/05/gds-2-600x900.jpg 600w, https://bonnierpublications.com/app/uploads/2022/05/gds-2.jpg 1707w" sizes="(max-width: 720px) 100vw, 720px" />                    <img width="550" height="89" src="https://bonnierpublications.com/app/uploads/2022/05/gds-hvid-1.svg" class="c-brand-card__logo" alt="" loading="lazy" />                    </a>
+                </article> 
+                            <article class="sliderify-card c-brands-list__card" style="--mod3: 0;--column3:  3; --row3:  1; --column2:  1; --row2:  2">
+                    <a href="https://bonnierpublications.com/brands/i-form/" class="c-brand-card">
+                    <img width="720" height="480" src="https://bonnierpublications.com/app/uploads/2022/05/iform-sommer2019-mave-546-hi-res-720x480.jpg" class="c-brand-card__image" alt="" loading="lazy" srcset="https://bonnierpublications.com/app/uploads/2022/05/iform-sommer2019-mave-546-hi-res-720x480.jpg 720w, https://bonnierpublications.com/app/uploads/2022/05/iform-sommer2019-mave-546-hi-res-1200x800.jpg 1200w, https://bonnierpublications.com/app/uploads/2022/05/iform-sommer2019-mave-546-hi-res-360x240.jpg 360w, https://bonnierpublications.com/app/uploads/2022/05/iform-sommer2019-mave-546-hi-res-768x512.jpg 768w, https://bonnierpublications.com/app/uploads/2022/05/iform-sommer2019-mave-546-hi-res-1536x1024.jpg 1536w, https://bonnierpublications.com/app/uploads/2022/05/iform-sommer2019-mave-546-hi-res-2048x1365.jpg 2048w" sizes="(max-width: 720px) 100vw, 720px" />                    <img width="136" height="34" src="https://bonnierpublications.com/app/uploads/2022/05/i-form-white.svg" class="c-brand-card__logo" alt="" loading="lazy" />                    </a>
+                </article> 
+                            <article class="sliderify-card c-brands-list__card" style="--mod3: 0;--column3:  1; --row3:  2; --column2:  2; --row2:  2">
+                    <a href="https://bonnierpublications.com/brands/bo-bedre/" class="c-brand-card">
+                    <img width="480" height="720" src="https://bonnierpublications.com/app/uploads/2022/05/bo-bedre.jpg" class="c-brand-card__image" alt="" loading="lazy" srcset="https://bonnierpublications.com/app/uploads/2022/05/bo-bedre.jpg 480w, https://bonnierpublications.com/app/uploads/2022/05/bo-bedre-300x450.jpg 300w" sizes="(max-width: 480px) 100vw, 480px" />                    <img width="257" height="90" src="https://bonnierpublications.com/app/uploads/2022/05/bobedre-white.svg" class="c-brand-card__logo" alt="" loading="lazy" />                    </a>
+                </article> 
+                            <article class="sliderify-card c-brands-list__card" style="--mod3: 0;--column3:  2; --row3:  2; --column2:  1; --row2:  3">
+                    <a href="https://bonnierpublications.com/brands/costume/" class="c-brand-card">
+                    <img width="480" height="720" src="https://bonnierpublications.com/app/uploads/2022/05/costume-1.jpg" class="c-brand-card__image" alt="" loading="lazy" srcset="https://bonnierpublications.com/app/uploads/2022/05/costume-1.jpg 480w, https://bonnierpublications.com/app/uploads/2022/05/costume-1-300x450.jpg 300w" sizes="(max-width: 480px) 100vw, 480px" />                    <img width="720" height="115" src="https://bonnierpublications.com/app/uploads/2022/06/costume3x-720x115.png" class="c-brand-card__logo" alt="" loading="lazy" srcset="https://bonnierpublications.com/app/uploads/2022/06/costume3x-720x115.png 720w, https://bonnierpublications.com/app/uploads/2022/06/costume3x-768x123.png 768w, https://bonnierpublications.com/app/uploads/2022/06/costume3x-1536x245.png 1536w, https://bonnierpublications.com/app/uploads/2022/06/costume3x-2048x327.png 2048w" sizes="(max-width: 720px) 100vw, 720px" />                    </a>
+                </article> 
+                                    <article class="c-brands-list__infocard sliderify-card bg-red color-white" >
+                    <div class="c-brands-list__infocard-content">
+                        <h4 class="headerH4">+ 20 andre mediebrands</h4>
+                        <p class="bodytext-regular">Vores medier favner mange interesser. Fordyb dig bare.</p>
+                                                    <a href="https://bonnierpublications.com/brands/" target=""  class="c-button c-button--red c-button--primary">
+                                Se mediebrands                            </a>
+                                                </div>
+                    </a>
+            </article>
+            <article class="c-brands-list__infocard spacer-card"></article>
+                                </div>
+        </div> 
+            <div class="c-slider__controls sliderify-controls">
+                <div class="c-slider__buttons sliderify-buttons">
+                    <button id="brands-list-block_6295c853ed191-prev" class="c-slider__buttons__button c-horizontal-elements__navigation-button--prev color-red"><svg width="40" height="40" viewBox="0 0 19 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 14.991L15.56 30.28l2.76-2.712-12.742-12.52L18.132 2.712 15.372 0 2.817 12.335l-.057-.056L0 14.991z" fill="currentColor"/></svg></button>
+                    <button id="brands-list-block_6295c853ed191-next" class="c-slider__buttons__button c-horizontal-elements__navigation-button--next color-red"><svg viewBox="0 0 19 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.32 15.288L2.76 0 0 2.712l12.742 12.52L.188 27.567l2.76 2.712 12.555-12.335.057.056 2.76-2.712z" fill="currentColor"/></svg></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="twi-block_6295c96fed198" class="c-twi c-twi__split bg-black color-white">
+
+
+    <div class="c-twi__inner">
+     
+                
+        
+                <div class="__fifth-element __fifth-element--position-top_right ">
+            <div class="__fifth-element-container __fifth-element-container--geometry-third_quadrant">
+                <div class="__fifth-element-container__image-container rellax" data-rellax-speed="-7" data-rellax-percentage="0.5">
+                    <div class="__image-crop">
+                        <img aria-hidden="true" src="https://bonnierpublications.com/app/themes/bonnierpublications/assets/img/fifth-element-turquoise.svg" alt="" class="__fifth-element__image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                                <div class="c-twi__cover-image filter-none">
+                <img width="1200" height="800" src="https://bonnierpublications.com/app/uploads/2022/06/talenter-bonnier-publications-1200x800.jpg" class="" alt="" loading="lazy" srcset="https://bonnierpublications.com/app/uploads/2022/06/talenter-bonnier-publications-1200x800.jpg 1200w, https://bonnierpublications.com/app/uploads/2022/06/talenter-bonnier-publications-360x240.jpg 360w" sizes="(max-width: 1200px) 100vw, 1200px" />            </div>
+        
+
+
+        <div class="c-twi__content">
+            
+    <div class="container">
+            <div class="c-twi__header">
+                <h2 class="c-twi__preheader preheader">KARRIERE</h2>
+                <p class="c-twi__headline headline">Arbejd med dit talent</p>
+                                    <p class="c-twi__headline lead">Vi lægger arbejdsplads til mange talenter, nørder og faglige interesser. Sammen skaber vi fremtidens medier. <br />
+<br />
+Sammen med dig?</p>
+                            </div>
+            <div class="c-twi__body">
+                        </div>
+
+
+
+
+                    <div class="c-twi__cta">
+                <a class="c-button  c-button--primary c-button--blue" href="https://bonnierpublications.com/karriere/" target="_self">
+                    Find job                </a>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+</section>
+
+</main>
+  <footer class="c-site-footer">
+  <div class="container">
+    <div class="c-site-footer__content grid">
+    <div class="c-site-footer__copyright">
+      <div class="c-site-footer__logo-container">
+    <div>&copy; Bonnier Publications A/S</div>
+    <!-- <div>&copy; 2026 Bonnier Publications A/S</div> -->
+</div>              <div>CVR no. 12376405</div>
+            <div class="c-site-footer__social-links">
+  <ul class="c-site-footer__social-links-list">
+        <li class="c-site-footer__social-links-list-item c-site-footer__social-links-list-item--linkedin">
+      <a class="c-site-footer__social-links-list-item-link c-site-footer__social-links-list-item-link--linkedin" href="https://www.linkedin.com/company/bonnier-publications-a-s/" title="Follow us on LinkedIn" target="_blank" rel="noopener">
+        <!-- <img class="c-site-footer__social-links-logo" alt="LinkedIn" src="https://bonnierpublications.com/app/themes/bonnierpublications/assets/img/icon-linkedin-turquoise.svg" /> -->
+        <div class="c-site-footer__social-links-logo"><svg class="c-social-share__icon " viewbox="0 0 35 35">
+        <use xlink:href="#icon-linkedin-turqoise"></use>
+      </svg></div>
+      </a>
+    </li>
+    </div>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+<defs>
+<g id="icon-linkedin-turqoise">
+<circle cx="17.5" cy="17.5" r="17.5" fill="#33FFCC"/>
+<g clip-path="url(#clip0_2489_12859)">
+<path d="M13.7312 14.0208H10.7188C10.4598 14.0208 10.25 14.2307 10.25 14.4895V24.5312C10.25 24.7902 10.4598 25 10.7188 25H13.7312C13.9901 25 14.2 24.7902 14.2 24.5312V14.4895C14.2 14.2307 13.9901 14.0208 13.7312 14.0208Z" fill="#031893"/>
+<path d="M12.2251 9C11.136 9 10.25 9.88599 10.25 10.9749C10.25 12.064 11.136 12.9498 12.2251 12.9498C13.3141 12.9498 14.2 12.0638 14.2 10.9749C14.2 9.88599 13.3141 9 12.2251 9Z" fill="#031893"/>
+<path d="M21.2626 13.9545C20.55 13.9545 19.8478 14.1262 19.2189 14.4475C19.1975 14.2084 18.9967 14.0208 18.752 14.0208H15.7393C15.4805 14.0208 15.2705 14.2307 15.2705 14.4895V24.5312C15.2705 24.7902 15.4805 25 15.7393 25H18.752C19.0109 25 19.2207 24.7902 19.2207 24.5312V19.0083C19.2207 18.2979 19.7987 17.7198 20.5093 17.7198C21.2196 17.7198 21.7976 18.2979 21.7976 19.0083V24.5312C21.7976 24.7902 22.0076 25 22.2664 25H25.2789C25.5378 25 25.7477 24.7902 25.7477 24.5312V18.4396C25.7477 15.9664 23.7357 13.9545 21.2626 13.9545Z" fill="#031893"/>
+</g>
+<defs>
+<clipPath id="clip0_2489_12859">
+<rect width="16" height="16" fill="white" transform="translate(10 9)"/>
+</clipPath>
+</defs>
+  </g>
+    </defs>
+  </svg>
+    </div>
+      
+      <div class="c-site-footer__menu">
+  <ul class="c-footer-menu "><li class="c-footer-menu__item  c-footer-menu__item--24"><a href="https://bonnierpublications.com/karriere/ledige-jobs/">Find job</a></li>
+<li class="c-footer-menu__item  c-footer-menu__item--3788"><a href="https://bonnierpublications.com/annoncer/faq/">Spørgsmål til annoncering?</a></li>
+<li class="c-footer-menu__item  c-footer-menu__item--26"><a href="https://bonnierpublications.com/organisation/">Organisation</a></li>
+<li class="c-footer-menu__item  c-footer-menu__item--7432"><a href="https://bonnierpublications.com/kontakt/">Kontakt</a></li>
+</ul>  <ul class="c-footer-menu "><li class="c-footer-menu__item  c-footer-menu__item--7433"><a href="https://bonnierpublications.com/cookiepolitik/">Cookiepolitik</a></li>
+<li class="c-footer-menu__item  c-footer-menu__item--7434  didomi-consent-link"><a href="#cookie">Cookieindstillinger</a></li>
+<li class="c-footer-menu__item  c-footer-menu__item--3"><a href="https://bonnierpublications.com/privatlivspolitik/">Persondatapolitik</a></li>
+</ul></div>
+</div>
+  </div>
+</footer></div>
+<script type='text/javascript' src='https://bonnierpublications.com/app/plugins/wp-datalayer/assets/scrollDepthDataLayer.js?ver=1.1' id='bp-datalayer-depth-js'></script>
+<script type='text/javascript' src='https://bonnierpublications.com/wp/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://bonnierpublications.com/wp/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/bonnierpublications.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://bonnierpublications.com/app/plugins/contact-form-7/includes/js/index.js?ver=5.6' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://bonnierpublications.com/app/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/js/codedropz-uploader-min.js?ver=1.3.6.5' id='codedropz-uploader-js'></script>
+<script type='text/javascript' id='dnd-upload-cf7-js-extra'>
+/* <![CDATA[ */
+var dnd_cf7_uploader = {"ajax_url":"https:\/\/bonnierpublications.com\/wp\/wp-admin\/admin-ajax.php","ajax_nonce":"d1b8127eba","drag_n_drop_upload":{"tag":"h3","text":"Drag & Drop Files Here","or_separator":"or","browse":"Browse Files","server_max_error":"The uploaded file exceeds the maximum upload size of your server.","large_file":"Uploaded file is too large","inavalid_type":"Uploaded file is not allowed for file type","max_file_limit":"Note : Some of the files are not uploaded ( Only %count% files allowed )","required":"This field is required.","delete":{"text":"deleting","title":"Remove"}},"dnd_text_counter":"of","disable_btn":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://bonnierpublications.com/app/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/js/dnd-upload-cf7.js?ver=1.3.6.5' id='dnd-upload-cf7-js'></script>
+<script type='text/javascript' src='//unpkg.co/gsap@3/dist/gsap.min.js' id='gsap-js'></script>
+<script type='text/javascript' src='//unpkg.com/gsap@3/dist/ScrollTrigger.min.js' id='scrollTrigge-js'></script>
+<script type='text/javascript' src='//unpkg.com/aos@next/dist/aos.js' id='aos-js'></script>
+<script type='text/javascript' src='//cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js' id='rellax-js'></script>
+<script type='text/javascript' src='https://bonnierpublications.com/app/themes/bonnierpublications/assets/js/custom.js' id='advice_customJs-js'></script>
+</body>
+</html>
