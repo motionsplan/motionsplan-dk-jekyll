@@ -70,6 +70,12 @@ Måler din præfrontale cortex' evne til at analysere, filtrere støj, time hand
 | **[Corsi Grid](/arbejdshukommelse-test/)** | Måler den visuospatiale lagerkapacitet og spændvidde (*spatial span*). | Hvor mange positioner på banen din hjerne kan "fotografere" og fastholde på én gang. |
 | **[Stroop Test](/mental-traethed/)** | Måler modstandskraft over for kognitiv interferens og mental udtrætning. | At bevare skarpheden og træffe korrekte valg i kampens slutfase under mental udmattelse. |
 
+### Dybdegående Kognitive & Kliniske Tests
+Ud over det daglige screening-batteri kan du teste specifikke kognitive funktioner med to af forskningens mest anerkendte protokoller:
+
+* **[PVT-B Test (3 minutter)](/pvt-b-test/):** NASAs validerede Psychomotor Vigilance Task. Måler dit reelle søvnunderskud, vedvarende opmærksomhed og mikroskopiske KNS-udfald (*lapses*).
+* **[DSST Test (90 sekunder)](/dsst-test/):** Digit Symbol Substitution Test fra WAIS-batteriet. Måler din mentale processeringshastighed, arbejdshukommelse og kognitive arbejdskapacitet under tidspres.
+
 ---
 
 ## Fysiologien bag CNS-træthed og kognitiv belastning

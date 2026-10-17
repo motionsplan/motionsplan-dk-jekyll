@@ -1,0 +1,564 @@
+<!-- PVT-B (Brief Psychomotor Vigilance Task) Component -->
+<div class="pvtb-wrapper" id="pvtb-container">
+
+  <!-- START SKÆRM -->
+  <div class="pvtb-card" id="pvtb-start-screen">
+    <div class="pvtb-icon-badge"><i class="fas fa-stopwatch"></i></div>
+    <h3>PVT-B: 3-Minutters Vigilans & Søvntest</h3>
+    <p>Forskningens guldstandard til at måle vedvarende opmærksomhed, søvnunderskud og KNS-træthed.</p>
+    
+    <div class="pvtb-rule-box">
+      <strong>⚠️ Test-protokol (Basner & Dinges):</strong><br>
+      • Testen varer <strong>præcis 3 minutter</strong>.<br>
+      • Millisekund-tælleren starter uventet med pauser på 1 til 4 sekunder.<br>
+      • Tap på det store felt (eller tryk på <strong>Mellemrumstasten</strong>) SÅ SNART tallene begynder at løbe.<br>
+      • <em>Undgå at gætte:</em> Tryk før signalet tæller som "False Start". Reaktioner over 355 ms tæller som "Lapse".
+    </div>
+
+    <button class="btn btn--primary btn--large" id="start-pvtb-btn" type="button">Start 3-Minutters Test</button>
+  </div>
+
+  <!-- SPIL SKÆRM -->
+  <div class="pvtb-card" id="pvtb-game-screen" style="display: none;">
+    <div class="pvtb-top-bar">
+      <div class="pvtb-status-item">
+        <span class="label">Tid tilbage:</span>
+        <span class="val highlight" id="pvtb-time-left">03:00</span>
+      </div>
+      <div class="pvtb-status-item">
+        <span class="label">Forsøg:</span>
+        <span class="val" id="pvtb-trial-count">#0</span>
+      </div>
+      <div class="pvtb-status-item">
+        <span class="label">Lapses (≥355ms):</span>
+        <span class="val danger" id="pvtb-live-lapses">0</span>
+      </div>
+    </div>
+
+    <!-- Hoved-stimulus boks (Sort digital måleboks) -->
+    <div class="pvtb-stimulus-box state-waiting" id="pvtb-box" tabindex="0">
+      <div class="pvtb-display-container">
+        <div class="pvtb-ms-counter" id="pvtb-counter">---</div>
+        <div class="pvtb-status-text" id="pvtb-status-msg">Vent på tælleren...</div>
+      </div>
+    </div>
+
+    <div class="pvtb-tap-prompt">
+      TAP PÅ FELTET ELLER BRUG MELLEMRUMSTASTEN
+    </div>
+  </div>
+
+  <!-- RESULTAT SKÆRM -->
+  <div class="pvtb-card" id="pvtb-result-screen" style="display: none;">
+    <div class="pvtb-icon-badge" id="pvtb-res-icon"><i class="fas fa-bed"></i></div>
+    <h3>Dit Vigilans & Restitutions-resultat</h3>
+
+    <div class="pvtb-results-grid">
+      <div class="pvtb-res-box">
+        <span class="res-label">Gns. Reaktion:</span>
+        <span class="res-value" id="res-pvtb-avg">0 ms</span>
+      </div>
+      <div class="pvtb-res-box highlight">
+        <span class="res-label">Lapses (≥355ms):</span>
+        <span class="res-value" id="res-pvtb-lapses">0</span>
+      </div>
+      <div class="pvtb-res-box">
+        <span class="res-label">False Starts:</span>
+        <span class="res-value" id="res-pvtb-fs">0</span>
+      </div>
+      <div class="pvtb-res-box">
+        <span class="res-label">Hurtigste hit:</span>
+        <span class="res-value" id="res-pvtb-best">0 ms</span>
+      </div>
+    </div>
+
+    <div class="pvtb-assessment" id="pvtb-assessment">
+      <!-- Genereres dynamisk -->
+    </div>
+
+    <div class="result-actions">
+      <button class="btn btn--success" id="retry-pvtb-btn" type="button">Prøv igen</button>
+      <a href="/kognitive-tests/#dashboard" class="btn btn--outline">← Kontrolpanel</a>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.pvtb-wrapper {
+  margin: 2rem 0;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.pvtb-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.pvtb-icon-badge {
+  width: 56px;
+  height: 56px;
+  background: #edf2f7;
+  color: #2b6cb0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto 1rem auto;
+}
+
+.pvtb-card h3 {
+  margin: 0 0 0.5rem 0 !important;
+  color: #2d3748;
+}
+
+.pvtb-rule-box {
+  background: #ebf8ff;
+  border-left: 4px solid #3182ce;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  color: #2b6cb0;
+  font-size: 0.92rem;
+  margin: 1rem 0 1.5rem 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.pvtb-top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0.6rem 0.8rem;
+  background: #f7fafc;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.pvtb-status-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pvtb-status-item .label {
+  font-size: 0.72rem;
+  color: #718096;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pvtb-status-item .val {
+  font-size: 1.15rem;
+  font-weight: 900;
+  color: #2d3748;
+  font-variant-numeric: tabular-nums;
+}
+
+.pvtb-status-item .val.highlight { color: #3182ce; }
+.pvtb-status-item .val.danger { color: #e53e3e; }
+
+/* Sort stimulerings-boks (Klassisk LED look) */
+.pvtb-stimulus-box {
+  background-color: #0d1117;
+  border-radius: 16px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  box-shadow: inset 0 4px 12px rgba(0,0,0,0.5);
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pvtb-stimulus-box:active {
+  background-color: #05070a;
+}
+
+.pvtb-display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+}
+
+.pvtb-ms-counter {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #4a5568;
+  letter-spacing: 2px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.pvtb-status-text {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #718096;
+  margin-top: 10px;
+}
+
+/* Tilstande */
+.pvtb-stimulus-box.state-running .pvtb-ms-counter {
+  color: #e53e3e; /* Røde løbende tal */
+}
+
+.pvtb-stimulus-box.state-result .pvtb-ms-counter {
+  color: #38a169; /* Grønt fastfrosset tal */
+}
+
+.pvtb-stimulus-box.state-lapse .pvtb-ms-counter {
+  color: #dd6b20; /* Orange ved lapse */
+}
+
+.pvtb-stimulus-box.state-fs .pvtb-ms-counter {
+  color: #e53e3e;
+  font-size: 2.8rem;
+}
+
+.pvtb-tap-prompt {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #a0aec0;
+  margin-top: 10px;
+}
+
+.pvtb-results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 1.2rem 0;
+}
+
+.pvtb-res-box {
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #edf2f7;
+}
+
+.pvtb-res-box.highlight {
+  background: #fff5f5;
+  border-color: #feb2b2;
+}
+
+.pvtb-res-box.highlight .res-value {
+  color: #e53e3e;
+}
+
+.res-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #718096;
+}
+
+.res-value {
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: #2d3748;
+}
+
+.pvtb-assessment {
+  background: #edf2f7;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.result-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.result-actions .btn, .result-actions a.btn {
+  flex: 1;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--outline {
+  background: transparent;
+  border: 2px solid #cbd5e0;
+  color: #4a5568;
+  transition: all 0.2s ease;
+}
+
+.btn--outline:hover {
+  background: #f7fafc;
+  color: #2d3748;
+  border-color: #a0aec0;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const TEST_TOTAL_TIME = 180; // 3 minutter (180 sekunder)
+  const LAPSE_THRESHOLD = 355; // Basner & Dinges (2011) grænse for PVT-B (355 ms)
+  
+  let state = 'idle'; // 'idle', 'isi' (pause mellem stimuli), 'counting', 'feedback'
+  let testStartTime = 0;
+  let stimulusStartTime = 0;
+  let testTimerInterval = null;
+  let animFrameId = null;
+  let isiTimeout = null;
+  
+  let reactionTimes = [];
+  let lapsesCount = 0;
+  let falseStartsCount = 0;
+  let trialCount = 0;
+
+  const startScreen = document.getElementById('pvtb-start-screen');
+  const gameScreen = document.getElementById('pvtb-game-screen');
+  const resultScreen = document.getElementById('pvtb-result-screen');
+
+  const box = document.getElementById('pvtb-box');
+  const counterEl = document.getElementById('pvtb-counter');
+  const statusMsg = document.getElementById('pvtb-status-msg');
+  
+  const timeLeftEl = document.getElementById('pvtb-time-left');
+  const trialCountEl = document.getElementById('pvtb-trial-count');
+  const liveLapsesEl = document.getElementById('pvtb-live-lapses');
+
+  const startBtn = document.getElementById('start-pvtb-btn');
+  const retryBtn = document.getElementById('retry-pvtb-btn');
+
+  const resAvg = document.getElementById('res-pvtb-avg');
+  const resLapses = document.getElementById('res-pvtb-lapses');
+  const resFs = document.getElementById('res-pvtb-fs');
+  const resBest = document.getElementById('res-pvtb-best');
+  const assessmentEl = document.getElementById('pvtb-assessment');
+
+  function vibrate(ms) {
+    if (navigator.vibrate) navigator.vibrate(ms);
+  }
+
+  function formatTime(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+  }
+
+  function startTest() {
+    state = 'idle';
+    reactionTimes = [];
+    lapsesCount = 0;
+    falseStartsCount = 0;
+    trialCount = 0;
+
+    trialCountEl.textContent = '#0';
+    liveLapsesEl.textContent = '0';
+    timeLeftEl.textContent = '03:00';
+
+    startScreen.style.display = 'none';
+    resultScreen.style.display = 'none';
+    gameScreen.style.display = 'block';
+
+    testStartTime = performance.now();
+
+    // Hoved-nedtælling for hele testen (3 minutter)
+    testTimerInterval = setInterval(() => {
+      const elapsedTotal = (performance.now() - testStartTime) / 1000;
+      const remaining = Math.max(0, Math.ceil(TEST_TOTAL_TIME - elapsedTotal));
+      timeLeftEl.textContent = formatTime(remaining);
+
+      if (remaining <= 0) {
+        endTest();
+      }
+    }, 500);
+
+    startNextTrial();
+  }
+
+  // Næste stimulus forberedes (Inter-Stimulus Interval: 1000 - 4000 ms)
+  function startNextTrial() {
+    state = 'isi';
+    box.className = 'pvtb-stimulus-box state-waiting';
+    counterEl.textContent = '---';
+    statusMsg.textContent = 'Vent på tælleren...';
+
+    // Tilfældig pause (uniform distribution 1000 - 4000 ms)
+    const isi = Math.floor(Math.random() * 3000) + 1000;
+
+    isiTimeout = setTimeout(() => {
+      triggerStimulus();
+    }, isi);
+  }
+
+  function triggerStimulus() {
+    state = 'counting';
+    trialCount++;
+    trialCountEl.textContent = '#' + trialCount;
+
+    box.className = 'pvtb-stimulus-box state-running';
+    statusMsg.textContent = 'TAP NU!';
+
+    requestAnimationFrame(() => {
+      stimulusStartTime = performance.now();
+      updateCounter();
+    });
+  }
+
+  function updateCounter() {
+    if (state !== 'counting') return;
+    const currentMs = Math.round(performance.now() - stimulusStartTime);
+    counterEl.textContent = currentMs;
+
+    // Hvis brugeren slet ikke reagerer inden for 5 sekunder (maks lapse)
+    if (currentMs > 5000) {
+      handleTap();
+      return;
+    }
+
+    animFrameId = requestAnimationFrame(updateCounter);
+  }
+
+  function handleTap(e) {
+    if (e && e.cancelable) e.preventDefault();
+
+    if (state === 'isi') {
+      // FALSE START: Brugeren trykkede for tidligt (før tælleren startede)
+      clearTimeout(isiTimeout);
+      falseStartsCount++;
+      vibrate([40, 40, 40]);
+
+      state = 'feedback';
+      box.className = 'pvtb-stimulus-box state-fs';
+      counterEl.textContent = 'FS';
+      statusMsg.textContent = '⚠️ FOR TIDLIGT! Vent på tælleren.';
+
+      setTimeout(startNextTrial, 1200);
+      return;
+    }
+
+    if (state === 'counting') {
+      // GYLDIG REAKTION
+      cancelAnimationFrame(animFrameId);
+      const rt = Math.round(performance.now() - stimulusStartTime);
+      state = 'feedback';
+
+      if (rt < 100) {
+        // Anticipation (under 100 ms er fysiologisk umuligt og tæller som false start)
+        falseStartsCount++;
+        box.className = 'pvtb-stimulus-box state-fs';
+        counterEl.textContent = rt + ' ms';
+        statusMsg.textContent = '⚠️ For tidligt (<100ms)';
+        vibrate([40, 40]);
+      } else {
+        reactionTimes.push(rt);
+
+        if (rt >= LAPSE_THRESHOLD) {
+          // LAPSE (≥ 355 ms)
+          lapsesCount++;
+          liveLapsesEl.textContent = lapsesCount;
+          box.className = 'pvtb-stimulus-box state-lapse';
+          counterEl.textContent = rt + ' ms';
+          statusMsg.textContent = '⚠️ LAPSE (Langsom reaktion)';
+          vibrate(40);
+        } else {
+          // HURTIGT HIT
+          box.className = 'pvtb-stimulus-box state-result';
+          counterEl.textContent = rt + ' ms';
+          statusMsg.textContent = 'God reaktion!';
+          vibrate(20);
+        }
+      }
+
+      // Fastfrys display i 750 ms, så brugeren ser sin tid
+      setTimeout(() => {
+        const elapsedTotal = (performance.now() - testStartTime) / 1000;
+        if (elapsedTotal < TEST_TOTAL_TIME) {
+          startNextTrial();
+        }
+      }, 750);
+    }
+  }
+
+  function endTest() {
+    clearInterval(testTimerInterval);
+    clearTimeout(isiTimeout);
+    cancelAnimationFrame(animFrameId);
+
+    state = 'idle';
+    gameScreen.style.display = 'none';
+    resultScreen.style.display = 'block';
+
+    const validHits = reactionTimes.length;
+    const avgRt = validHits > 0 
+      ? Math.round(reactionTimes.reduce((a, b) => a + b, 0) / validHits)
+      : 0;
+    const bestRt = validHits > 0 ? Math.min(...reactionTimes) : 0;
+
+    resAvg.textContent = avgRt > 0 ? avgRt + ' ms' : '-';
+    resLapses.textContent = lapsesCount;
+    resFs.textContent = falseStartsCount;
+    resBest.textContent = bestRt > 0 ? bestRt + ' ms' : '-';
+
+    // Gem til dashboard i localStorage
+    try {
+      const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+      const today = new Date().toLocaleDateString('da-DK');
+      store['pvtb'] = {
+        value: avgRt,
+        lapses: lapsesCount,
+        display: `${avgRt} ms (${lapsesCount} lapses)`,
+        date: today
+      };
+      localStorage.setItem('mp_neuro_results', JSON.stringify(store));
+    } catch(e) {
+      console.error('Kunne ikke gemme PVT-B score:', e);
+    }
+
+    // Feedback vurdering
+    let feedback = '';
+    if (lapsesCount <= 1 && avgRt < 265) {
+      feedback = '<strong>🟢 Høj KNS-Parathed (Fuldt restitueret):</strong> Ekstremt stabilt fokus med maksimalt ét lapse over 3 minutter. Dit nervesystem er fuldt restitueret efter søvn og klar til maksimal fysisk eller kognitiv belastning.';
+    } else if (lapsesCount <= 4 && avgRt < 310) {
+      feedback = '<strong>🟡 Moderat KNS-Træthed:</strong> Enkelte lapses indikerer, at din hjerne tager mikropauser undervejs. Typisk tegn på let søvnunderskud eller akkumuleret træthed fra ugens træningspas.';
+    } else {
+      feedback = '<strong>🔴 Udtalt KNS-Fatigue / Søvnmangel:</strong> Flere end 4 lapses eller markant forhøjet reaktionstid. Din frontallap og dit opmærksomhedsnetværk er overtræt. Undgå maksimal styrketræning eller komplekse tekniske pas i dag; prioriter søvn og aktiv restitution.';
+    }
+
+    assessmentEl.innerHTML = feedback;
+  }
+
+  // ULTRA LOW LATENCY LISTENERS
+  box.addEventListener('touchstart', handleTap, { passive: false });
+  box.addEventListener('mousedown', function(e) {
+    if (e.button === 0) handleTap(e);
+  });
+
+  window.addEventListener('keydown', function(e) {
+    if (state !== 'isi' && state !== 'counting') return;
+    if (e.code === 'Space' || e.code === 'Enter') {
+      if (e.repeat) return;
+      e.preventDefault();
+      handleTap(e);
+    }
+  });
+
+  startBtn.addEventListener('click', startTest);
+  retryBtn.addEventListener('click', startTest);
+});
+</script>

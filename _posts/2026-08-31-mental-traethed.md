@@ -117,6 +117,7 @@ Stroop-testen fungerer perfekt i samspil med vores andre mavefornemmelses- og ne
 * **[Reaktionstid-test](/reaktionstid-test/)** – Mål din rene visuelle reaktionstid i millisekunder.
 * **[Finger Tapping Test (CNS Fatigue)](/cns-fatigue/)** – Mål din finmotoriske fyringsfrekvens.
 * **[Psykologiske Tests & Sundhedstests](/psykologiske-tests/)** – Se alle vore anerkendte spørgeskemaer for stress, trivsel og overtræning.
+- **[DSST Test](/dsst-test/):** Mål hvor hurtigt din hjerne koder og omsætter symboler under 90 sekunders tidspres.
 
 ---
 

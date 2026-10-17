@@ -93,6 +93,10 @@ Man kan også forestille sig, at man kan bruge finger tapping test til at se, om
 
 {% include components/finger-tapping.html %}
 
+## Andre tests
+
+* **Dybdegående måling af søvnmangel:** Suppler din motoriske fingertap-test med **[PVT-B Restitutionstesten](/pvt-b-test/)** for at se, om dit centralnervesystem udviser tegn på kognitiv udmattelse.
+
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 

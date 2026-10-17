@@ -116,6 +116,12 @@ Du kan bruge denne reaktionstid-test som en del af din daglige restitutions-trac
 
 ---
 
+## Vil du teste din reaktionsevne over tid?
+
+En simpel reaktionstest med 5 forsøg viser dit absolutte topniveau, når du samler al din viljestyrke i ét sekund. Hvis du vil måle din reelle **vedvarende opmærksomhed** og afsløre skjult søvnunderskud eller KNS-træthed, bør du tage den validerede 3-minutters **[PVT-B Test](/pvt-b-test/)**, som tæller dine kognitive pauser (*lapses*).
+
+---
+
 ## Udforsk flere kognitive & fysiologiske tests
 
 Reaktionstid er blot én af flere brikker i at forstå kroppens parathed:
