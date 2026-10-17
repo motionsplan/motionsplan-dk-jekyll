@@ -1,0 +1,433 @@
+<!-- Schulte Grid / Visual Search Test Component -->
+<div class="schulte-wrapper" id="schulte-container">
+
+  <!-- START SKÆRM -->
+  <div class="schulte-card" id="schulte-start-screen">
+    <div class="schulte-icon-badge"><i class="fas fa-border-all"></i></div>
+    <h3>Schulte Tabel: Perifert Syn</h3>
+    <p>Mål hvor hurtigt dit perifere syn og din visuelle cortex kan scanne og lokalisere tal i rummet.</p>
+    
+    <div class="schulte-rule-box">
+      <strong>⚠️ Opgaven:</strong> Tryk på tallene fra <strong>1 til 25</strong> i numerisk rækkefølge så hurtigt som muligt.<br>
+      <small style="opacity: 0.9; margin-top: 6px; display: block;">
+        🎯 <em>Træningstip:</em> Forsøg at fiksere blikket på midten af pladen og brug dit perifere syn til at lokalisere tallene frem for at flytte øjnene overalt.
+      </small>
+    </div>
+
+    <button class="btn btn--primary btn--large" id="start-schulte-btn" type="button">Start Schulte Test (1-25)</button>
+  </div>
+
+  <!-- SPIL SKÆRM -->
+  <div class="schulte-card" id="schulte-game-screen" style="display: none;">
+    <div class="schulte-top-bar">
+      <div class="schulte-target-badge">
+        Næste tal: <span id="schulte-target-number">1</span>
+      </div>
+      <div class="schulte-timer" id="schulte-live-timer">0.0s</div>
+    </div>
+
+    <div class="schulte-grid" id="schulte-grid">
+      <!-- 25 celler genereres dynamisk via JS -->
+    </div>
+  </div>
+
+  <!-- RESULTAT SKÆRM -->
+  <div class="schulte-card" id="schulte-result-screen" style="display: none;">
+    <div class="schulte-icon-badge" id="schulte-res-icon"><i class="fas fa-eye"></i></div>
+    <h3>Dit Visuelle Resultat</h3>
+
+    <div class="schulte-results-grid">
+      <div class="schulte-res-box">
+        <span class="res-label">Sluttid:</span>
+        <span class="res-value" id="res-schulte-time">0.0 s</span>
+      </div>
+      <div class="schulte-res-box">
+        <span class="res-label">Gns. pr. tal:</span>
+        <span class="res-value" id="res-schulte-avg">0.0 s</span>
+      </div>
+      <div class="schulte-res-box">
+        <span class="res-label">Fejltryk:</span>
+        <span class="res-value" id="res-schulte-errors">0</span>
+      </div>
+    </div>
+
+    <div class="schulte-assessment" id="schulte-assessment">
+      <!-- Genereres dynamisk -->
+    </div>
+
+    <div class="result-actions">
+      <button class="btn btn--success" id="retry-schulte-btn" type="button">Prøv igen</button>
+      <a href="/sportsvision/" class="btn btn--outline">← Sports Vision Hub</a>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.schulte-wrapper {
+  margin: 2rem 0;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.schulte-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.schulte-icon-badge {
+  width: 56px;
+  height: 56px;
+  background: #e6fffa;
+  color: #319795;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto 1rem auto;
+}
+
+.schulte-card h3 {
+  margin: 0 0 0.5rem 0 !important;
+  color: #2d3748;
+}
+
+.schulte-rule-box {
+  background: #e6fffa;
+  border-left: 4px solid #319795;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  color: #234e52;
+  font-size: 0.95rem;
+  margin: 1rem 0 1.5rem 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.schulte-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.schulte-target-badge {
+  background: #319795;
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.schulte-target-badge span {
+  font-size: 1.25rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.schulte-timer {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #2d3748;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 5x5 Grid Styling */
+.schulte-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  max-width: 360px;
+  margin: 0 auto;
+  touch-action: none;
+}
+
+.schulte-cell {
+  background: #f7fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #2d3748;
+  cursor: pointer;
+  transition: transform 0.05s ease, background-color 0.1s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.schulte-cell:active, .schulte-cell.is-pressed {
+  transform: scale(0.92);
+}
+
+.schulte-cell.correct-hit {
+  background-color: #c6f6d5 !important;
+  color: #22543d !important;
+  border-color: #38a169 !important;
+}
+
+.schulte-cell.wrong-hit {
+  background-color: #fed7d7 !important;
+  color: #742a2a !important;
+  border-color: #e53e3e !important;
+}
+
+.schulte-results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 1.2rem 0;
+}
+
+.schulte-res-box {
+  background: #f7fafc;
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 1px solid #edf2f7;
+}
+
+.res-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #718096;
+}
+
+.res-value {
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: #2d3748;
+}
+
+.schulte-assessment {
+  background: #edf2f7;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.result-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.result-actions .btn, .result-actions a.btn {
+  flex: 1;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--outline {
+  background: transparent;
+  border: 2px solid #cbd5e0;
+  color: #4a5568;
+  transition: all 0.2s ease;
+}
+
+.btn--outline:hover {
+  background: #f7fafc;
+  color: #2d3748;
+  border-color: #a0aec0;
+}
+
+@media (max-width: 400px) {
+  .schulte-cell {
+    font-size: 1.15rem;
+    border-radius: 8px;
+  }
+  .schulte-grid {
+    gap: 6px;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const GRID_SIZE = 25; // 5x5
+  let expectedNumber = 1;
+  let startTime = 0;
+  let animFrameId = null;
+  let isTesting = false;
+  let errorCount = 0;
+
+  const startScreen = document.getElementById('schulte-start-screen');
+  const gameScreen = document.getElementById('schulte-game-screen');
+  const resultScreen = document.getElementById('schulte-result-screen');
+  const gridContainer = document.getElementById('schulte-grid');
+  const targetNumberEl = document.getElementById('schulte-target-number');
+  const liveTimerEl = document.getElementById('schulte-live-timer');
+
+  const startBtn = document.getElementById('start-schulte-btn');
+  const retryBtn = document.getElementById('retry-schulte-btn');
+
+  const resTime = document.getElementById('res-schulte-time');
+  const resAvg = document.getElementById('res-schulte-avg');
+  const resErrors = document.getElementById('res-schulte-errors');
+  const assessmentEl = document.getElementById('schulte-assessment');
+
+  function vibrate(ms) {
+    if (navigator.vibrate) navigator.vibrate(ms);
+  }
+
+  function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  function updateTimer() {
+    if (!isTesting) return;
+    const elapsed = (performance.now() - startTime) / 1000;
+    liveTimerEl.textContent = elapsed.toFixed(1) + 's';
+    animFrameId = requestAnimationFrame(updateTimer);
+  }
+
+  function buildGrid() {
+    gridContainer.innerHTML = '';
+    const numbers = [];
+    for (let i = 1; i <= GRID_SIZE; i++) numbers.push(i);
+    shuffle(numbers);
+
+    numbers.forEach(num => {
+      const cell = document.createElement('div');
+      cell.className = 'schulte-cell';
+      cell.textContent = num;
+      cell.setAttribute('data-num', num);
+      gridContainer.appendChild(cell);
+    });
+  }
+
+  function startTest() {
+    expectedNumber = 1;
+    errorCount = 0;
+    isTesting = true;
+
+    targetNumberEl.textContent = expectedNumber;
+    liveTimerEl.textContent = '0.0s';
+
+    buildGrid();
+
+    startScreen.style.display = 'none';
+    resultScreen.style.display = 'none';
+    gameScreen.style.display = 'block';
+
+    requestAnimationFrame(() => {
+      startTime = performance.now();
+      updateTimer();
+    });
+  }
+
+  function handleCellClick(cell) {
+    if (!isTesting) return;
+
+    const clickedNum = parseInt(cell.getAttribute('data-num'));
+
+    if (clickedNum === expectedNumber) {
+      // Korrekt tal
+      vibrate(20);
+      cell.classList.add('correct-hit');
+      setTimeout(() => cell.classList.remove('correct-hit'), 150);
+
+      expectedNumber++;
+
+      if (expectedNumber > GRID_SIZE) {
+        finishTest();
+      } else {
+        targetNumberEl.textContent = expectedNumber;
+      }
+    } else {
+      // Forkert tal
+      errorCount++;
+      vibrate([40, 40]);
+      cell.classList.add('wrong-hit');
+      setTimeout(() => cell.classList.remove('wrong-hit'), 200);
+    }
+  }
+
+  function finishTest() {
+    isTesting = false;
+    cancelAnimationFrame(animFrameId);
+
+    const totalTimeMs = performance.now() - startTime;
+    const totalSec = (totalTimeMs / 1000).toFixed(1);
+    const avgSecPerNumber = (totalTimeMs / 1000 / GRID_SIZE).toFixed(2);
+
+    gameScreen.style.display = 'none';
+    resultScreen.style.display = 'block';
+
+    resTime.textContent = totalSec + ' s';
+    resAvg.textContent = avgSecPerNumber + ' s';
+    resErrors.textContent = errorCount;
+
+    // Gem resultat i localStorage
+    try {
+      const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+      store['schulte'] = {
+        value: parseFloat(totalSec),
+        display: totalSec + 's (' + errorCount + ' fejl)',
+        date: new Date().toLocaleDateString('da-DK')
+      };
+      localStorage.setItem('mp_neuro_results', JSON.stringify(store));
+    } catch (e) {
+      console.error('Kunne ikke gemme schulte-resultat:', e);
+    }
+
+    // Feedback vurdering
+    let feedback = '';
+    const numericSec = parseFloat(totalSec);
+
+    if (numericSec < 25 && errorCount <= 1) {
+      feedback = '<strong>🟢 Elite-synsfelt & Lynhurtig scanning:</strong> Under 25 sekunder vidner om et usædvanligt veludviklet perifert syn. Du opfanger tal uden at skulle scanne hele pladen frem og tilbage.';
+    } else if (numericSec < 38) {
+      feedback = '<strong>🟡 God visuel scanningshastighed:</strong> Solidt over middel. Dine øjne arbejder effektivt over pladen, og du har et fint perifert overblik.';
+    } else {
+      feedback = '<strong>🔴 Nedsat scanningshastighed / Tunnelsyn:</strong> Tiden oversteg 38 sekunder. Dette ses hyppigt ved visuel træthed, skærmudtrætning eller tendens til at fokusere snævert på ét tal ad gangen.';
+    }
+
+    assessmentEl.innerHTML = feedback;
+  }
+
+  // ULTRA LOW LATENCY EVENT DELEGATION
+  gridContainer.addEventListener('touchstart', function(e) {
+    const target = e.target.closest('.schulte-cell');
+    if (!target) return;
+    if (e.cancelable) e.preventDefault();
+    handleCellClick(target);
+  }, { passive: false });
+
+  gridContainer.addEventListener('mousedown', function(e) {
+    if (e.button !== 0) return;
+    const target = e.target.closest('.schulte-cell');
+    if (!target) return;
+    handleCellClick(target);
+  });
+
+  startBtn.addEventListener('click', startTest);
+  retryBtn.addEventListener('click', startTest);
+});
+</script>

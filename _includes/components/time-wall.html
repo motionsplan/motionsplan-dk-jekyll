@@ -9,7 +9,7 @@
     
     <div class="timewall-rule-box">
       <strong>⚠️ Opgaven:</strong> En bold triller mod højre med konstant fart. Når den ruller ind bag muren, forsvinder den. 
-      Tap på skærmen (eller tryk på <strong>Mellemrumstasten</strong>) <u>PRÆCIS</u> i det millisekund, du mener bolden rammer den røde streg!
+      Tap på skærmen (eller tryk på <strong>Mellemrumstasten</strong>) <u>PRÆCIS</u> i det øjeblik, du mener bolden rammer den røde målstreg!
     </div>
 
     <button class="btn btn--primary btn--large" id="start-timewall-btn">Start timing-test (5 runder)</button>
@@ -27,7 +27,7 @@
       <div class="timewall-wall" id="timewall-wall">
         <span>MUR</span>
       </div>
-      <div class="timewall-finish-line"></div>
+      <div class="timewall-finish-line" id="timewall-finish-line"></div>
     </div>
 
     <div class="timewall-tap-zone" id="timewall-tap-zone">
@@ -127,8 +127,6 @@
   margin-bottom: 1.2rem;
   border: 1px solid #cbd5e0;
   cursor: pointer;
-  
-  /* LOW LATENCY TOUCH OPTIMERING */
   touch-action: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -146,6 +144,33 @@
   z-index: 1;
 }
 
+/* Visuel markering ved fastfrysning */
+.timewall-ball.is-revealed {
+  z-index: 10 !important;
+  opacity: 1 !important;
+  box-shadow: 0 0 0 3px #ffffff, 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.timewall-ball.is-perfect {
+  background-color: #38a169;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 16px rgba(56, 161, 105, 0.9);
+}
+
+.timewall-ball.is-hit {
+  background-color: #48bb78;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 12px rgba(72, 187, 120, 0.7);
+}
+
+.timewall-ball.is-early {
+  background-color: #dd6b20;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 16px rgba(221, 107, 32, 0.85);
+}
+
+.timewall-ball.is-late {
+  background-color: #e53e3e;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 16px rgba(229, 62, 62, 0.85);
+}
+
 .timewall-wall {
   position: absolute;
   top: 0;
@@ -161,6 +186,12 @@
   font-weight: 800;
   letter-spacing: 2px;
   font-size: 0.9rem;
+  transition: opacity 0.15s ease;
+}
+
+/* Røntgen-effekt: Muren gøres transparent, så bolden kan ses */
+.timewall-wall.revealed {
+  opacity: 0.25;
 }
 
 .timewall-finish-line {
@@ -184,8 +215,6 @@
   box-shadow: 0 4px 12px rgba(49, 151, 149, 0.3);
   transition: transform 0.05s ease, background-color 0.15s ease;
   outline: none;
-
-  /* LOW LATENCY TOUCH OPTIMERING */
   touch-action: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -266,6 +295,8 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const TOTAL_ROUNDS = 5;
+  const BALL_SIZE = 28; // Boldens diameter i pixels
+  const LINE_WIDTH = 4; // Stregens bredde i pixels
   
   let currentRound = 0;
   let animId = null;
@@ -276,11 +307,18 @@ document.addEventListener('DOMContentLoaded', function() {
   let hasTapped = false;
   let errors = [];
 
+  let trackWidth = 0;
+  let finishLineCenter = 0;
+  let targetLeft = 0;
+  let pxPerMs = 0;
+
   const startScreen = document.getElementById('timewall-start-screen');
   const gameScreen = document.getElementById('timewall-game-screen');
   const resultScreen = document.getElementById('timewall-result-screen');
   
+  const track = document.getElementById('timewall-track');
   const ball = document.getElementById('timewall-ball');
+  const wall = document.getElementById('timewall-wall');
   const progressEl = document.getElementById('timewall-progress');
   const statusEl = document.getElementById('timewall-status');
   const tapZone = document.getElementById('timewall-tap-zone');
@@ -303,12 +341,23 @@ document.addEventListener('DOMContentLoaded', function() {
     statusEl.textContent = 'Hold øje med bolden...';
     statusEl.style.color = '#718096';
 
-    ball.style.left = '0%';
-    ball.style.opacity = '1';
+    ball.className = 'timewall-ball';
+    ball.style.left = '0px';
+    wall.classList.remove('revealed');
+
     isRunning = false;
     hasTapped = false;
 
-    duration = Math.floor(Math.random() * 1000) + 1600;
+    // Beregn banens reelle dimensioner
+    trackWidth = track.clientWidth;
+    const finishLineX = trackWidth * 0.80; // 80% af banen
+    finishLineCenter = finishLineX + (LINE_WIDTH / 2);
+    
+    // Boldens centrum skal flugte perfekt med stregens centrum:
+    targetLeft = finishLineCenter - (BALL_SIZE / 2);
+
+    duration = Math.floor(Math.random() * 1000) + 1600; // 1600 - 2600 ms
+    pxPerMs = targetLeft / duration;
 
     setTimeout(function() {
       if (currentRound > TOTAL_ROUNDS) return;
@@ -324,20 +373,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const now = performance.now();
     const elapsed = now - startTime;
+    const currentLeft = pxPerMs * elapsed;
 
-    const progress = elapsed / duration; 
-    const currentPosPct = progress * 80;
+    if (currentLeft <= trackWidth - BALL_SIZE) {
+      ball.style.left = currentLeft + 'px';
 
-    if (currentPosPct <= 100) {
-      ball.style.left = currentPosPct + '%';
-      
-      if (currentPosPct >= 35 && currentPosPct < 80) {
-        ball.style.opacity = '0';
-      } else {
-        ball.style.opacity = '1';
-      }
-
-      if (elapsed > duration + 1200) {
+      // Timeout hvis bolden er rullet langt forbi
+      if (elapsed > duration + 1000) {
         handleTimeout();
       } else {
         animId = requestAnimationFrame(animate);
@@ -354,9 +396,14 @@ document.addEventListener('DOMContentLoaded', function() {
       cancelAnimationFrame(animId);
       vibrate([40, 40, 40]);
       errors.push(800);
+
+      ball.style.left = (trackWidth - BALL_SIZE) + 'px';
+      ball.className = 'timewall-ball is-revealed is-late';
+      wall.classList.add('revealed');
+
       statusEl.textContent = '❌ Du tappede ikke i tide!';
       statusEl.style.color = '#e53e3e';
-      setTimeout(startRound, 1500);
+      setTimeout(startRound, 1800);
     }
   }
 
@@ -372,24 +419,50 @@ document.addEventListener('DOMContentLoaded', function() {
     const diff = Math.round(tapTime - targetTime);
     const absDiff = Math.abs(diff);
 
-    errors.push(absDiff);
-    ball.style.opacity = '1';
+    // Beregn præcis boldposition i millisekundet for trykket
+    const elapsed = tapTime - startTime;
+    const exactLeft = Math.max(0, Math.min(trackWidth - BALL_SIZE, pxPerMs * elapsed));
 
-    if (absDiff < 60) {
-      vibrate(30);
-      statusEl.textContent = '🎯 PERFEKT! (' + (diff >= 0 ? '+' : '') + diff + ' ms)';
+    // Fastfrys bolden og gør muren gennemsigtig
+    ball.style.left = exactLeft + 'px';
+    ball.className = 'timewall-ball is-revealed';
+    wall.classList.add('revealed');
+
+    errors.push(absDiff);
+
+    // Beregn om boldens krop fysisk overlapper den røde streg
+    const finishLineX = trackWidth * 0.80;
+    const ballRight = exactLeft + BALL_SIZE;
+    const isPhysicallyTouchingLine = (ballRight >= finishLineX && exactLeft <= finishLineX + LINE_WIDTH);
+
+    if (absDiff <= 45) {
+      // 🎯 PLETSKUD: Bullseye midt på stregen
+      vibrate(35);
+      ball.classList.add('is-perfect');
+      statusEl.textContent = '🎯 PLETSKUD! (' + (diff >= 0 ? '+' : '') + diff + ' ms)';
+      statusEl.style.color = '#38a169';
+    } else if (isPhysicallyTouchingLine || absDiff <= 110) {
+      // 🟢 GODT TRÆF: Bolden rører eller dækker stregen
+      vibrate(25);
+      ball.classList.add('is-hit');
+      const sideText = diff < 0 ? 'Lidt tidligt' : 'Lidt sent';
+      statusEl.textContent = '🟢 Træf! ' + sideText + ' (' + (diff >= 0 ? '+' : '') + diff + ' ms)';
       statusEl.style.color = '#38a169';
     } else if (diff < 0) {
+      // ⚡ FOR TIDLIGT: Bolden nåede slet ikke frem til stregen
       vibrate(20);
+      ball.classList.add('is-early');
       statusEl.textContent = '⚡ For tidligt (' + diff + ' ms)';
       statusEl.style.color = '#dd6b20';
     } else {
+      // ⏳ FOR SENT: Bolden er rullet helt forbi stregen
       vibrate(20);
+      ball.classList.add('is-late');
       statusEl.textContent = '⏳ For sent (+' + diff + ' ms)';
       statusEl.style.color = '#e53e3e';
     }
 
-    setTimeout(startRound, 1600);
+    setTimeout(startRound, 1800);
   }
 
   function startGame() {
@@ -428,18 +501,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const assessmentEl = document.getElementById('timewall-assessment');
     let feedback = '';
 
-    if (avgError < 60) {
-      feedback = '<strong>🟢 Fænomenalt "boldøje":</strong> En gennemsnitlig afvigelse på under 60 ms indikerer en fantastisk evne til at forudsige fart og baner i blinde. Dette er elite-timing!';
-    } else if (avgError < 120) {
-      feedback = '<strong>🟡 God visuel timing:</strong> Du har en fin fornemmelse for objekters hastighed. Med lidt mere kognitivt overskud kan timingen findubbes endnu skarpere.';
+    if (avgError < 65) {
+      feedback = '<strong>🟢 Fænomenalt "boldøje":</strong> En gennemsnitlig afvigelse på under 65 ms indikerer en fantastisk evne til at forudsige fart og baner i blinde. Dette er elite-timing!';
+    } else if (avgError < 130) {
+      feedback = '<strong>🟡 God visuel timing:</strong> Du har en solid fornemmelse for objekters hastighed. Langt de fleste forsøg ramte stregen med fin præcision.';
     } else {
-      feedback = '<strong>🔴 Nedsat timing-fornemmelse:</strong> Stor afvigelse i dine gæt. Mangel på fokus, mental træthed eller synstræthed gør det svært for hjernen at beregne bevægelsen præcist.';
+      feedback = '<strong>🔴 Nedsat timing-fornemmelse:</strong> Uregelmæssige gæt. Mangel på fokus, mental træthed eller synstræthed gør det svært for hjernen at ekstrapolere bevægelsen præcist.';
     }
 
     assessmentEl.innerHTML = feedback;
   }
 
-  // LOW LATENCY POINTER-LISTENERS (Instant touch/mus på hele spil-arealet)
+  // Pointer listeners (mobil og mus)
   gameScreen.addEventListener('pointerdown', function(e) {
     if (e.target.id !== 'retry-timewall-btn' && e.target.id !== 'start-timewall-btn') {
       tapZone.classList.add('is-pressed');
@@ -448,11 +521,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // TASTATUR-SUPPORT (Mellemrumstast og Enter med snyde-spærring)
+  // Tastatursupport (Mellemrum og Enter)
   window.addEventListener('keydown', function(e) {
     if (!isRunning) return;
     if (e.code === 'Space' || e.code === 'Enter') {
-      if (e.repeat) return; // Blokerer hold-nede snyd
+      if (e.repeat) return;
       e.preventDefault();
       
       tapZone.classList.add('is-pressed');

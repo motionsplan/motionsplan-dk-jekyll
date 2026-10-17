@@ -23,10 +23,10 @@
     <div class="stroop-word-display" id="stroop-word">KLAR</div>
 
     <div class="stroop-buttons-grid">
-      <button class="stroop-btn stroop-btn-red" data-color="red" data-key="1">RØD (1 / ⬅️)</button>
-      <button class="stroop-btn stroop-btn-blue" data-color="blue" data-key="2">BLÅ (2 / ⬆️)</button>
-      <button class="stroop-btn stroop-btn-green" data-color="green" data-key="3">GRØN (3 / ⬇️)</button>
-      <button class="stroop-btn stroop-btn-yellow" data-color="yellow" data-key="4">GUL (4 / ➡️)</button>
+      <button type="button" class="stroop-btn stroop-btn-red" data-color="red">RØD (1 / ⬅️)</button>
+      <button type="button" class="stroop-btn stroop-btn-blue" data-color="blue">BLÅ (2 / ⬆️)</button>
+      <button type="button" class="stroop-btn stroop-btn-green" data-color="green">GRØN (3 / ⬇️)</button>
+      <button type="button" class="stroop-btn stroop-btn-yellow" data-color="yellow">GUL (4 / ➡️)</button>
     </div>
   </div>
 
@@ -45,7 +45,7 @@
         <span class="res-value" id="res-accuracy">100%</span>
       </div>
       <div class="stroop-res-box">
-        <span class="res-label">Gns. pr. svar:</span>
+        <span class="res-label">Gns. reaktionstid:</span>
         <span class="res-value" id="res-avg-time">0 ms</span>
       </div>
     </div>
@@ -129,7 +129,17 @@
   background: #f7fafc;
   border-radius: 12px;
   margin-bottom: 1.5rem;
-  border: 1px solid #edf2f7;
+  border: 3px solid #edf2f7;
+  transition: border-color 0.1s ease;
+}
+
+/* Visuel feedback direkte i displayet */
+.stroop-word-display.feedback-correct {
+  border-color: #38a169;
+}
+
+.stroop-word-display.feedback-wrong {
+  border-color: #e53e3e;
 }
 
 .stroop-buttons-grid {
@@ -149,9 +159,7 @@
   transition: transform 0.05s ease, filter 0.15s ease;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   outline: none;
-  
-  /* LOW LATENCY TOUCH OPTIMERING: Ingenting zoom/panorering */
-  touch-action: manipulation;
+  touch-action: none;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -236,10 +244,10 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const COLOR_DATA = [
-    { id: 'red', name: 'RØD', hex: '#e53e3e', keys: ['1', 'ArrowLeft', 'r'] },
-    { id: 'blue', name: 'BLÅ', hex: '#3182ce', keys: ['2', 'ArrowUp', 'b'] },
-    { id: 'green', name: 'GRØN', hex: '#38a169', keys: ['3', 'ArrowDown', 'g'] },
-    { id: 'yellow', name: 'GUL', hex: '#d69e2e', keys: ['4', 'ArrowRight', 'y'] }
+    { id: 'red',    name: 'RØD',  hex: '#e53e3e', keys: ['1', 'ArrowLeft'] },
+    { id: 'blue',   name: 'BLÅ',  hex: '#3182ce', keys: ['2', 'ArrowUp'] },
+    { id: 'green',  name: 'GRØN', hex: '#38a169', keys: ['3', 'ArrowDown'] },
+    { id: 'yellow', name: 'GUL',  hex: '#d69e2e', keys: ['4', 'ArrowRight'] }
   ];
 
   const TOTAL_ROUNDS = 10;
@@ -252,6 +260,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let currentColorId = '';
   let roundReactionTimes = [];
   let isGameActive = false;
+  let isTransitioning = false; // Forhindrer dobbelt-klik registrering
 
   const startScreen = document.getElementById('stroop-start-screen');
   const gameScreen = document.getElementById('stroop-game-screen');
@@ -293,22 +302,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
     currentRound++;
     progressEl.textContent = 'Runde ' + currentRound + ' af ' + TOTAL_ROUNDS;
+    wordDisplay.className = 'stroop-word-display';
 
     const textObj = COLOR_DATA[getRandomIndex(COLOR_DATA.length)];
-    let colorObj = COLOR_DATA[getRandomIndex(COLOR_DATA.length)];
+    let colorObj;
 
-    if (Math.random() < 0.8) {
-      while (colorObj.id === textObj.id) {
+    // Præcis 80% sandsynlighed for inkongruent (forstyrrende) farve
+    const isCongruent = Math.random() >= 0.80;
+
+    if (isCongruent) {
+      colorObj = textObj;
+    } else {
+      do {
         colorObj = COLOR_DATA[getRandomIndex(COLOR_DATA.length)];
-      }
+      } while (colorObj.id === textObj.id);
     }
 
     currentColorId = colorObj.id;
     wordDisplay.textContent = textObj.name;
     wordDisplay.style.color = colorObj.hex;
     
-    // Sub-millisekund tidsstempel for runden
-    roundStartTime = performance.now();
+    // Synkroniser tidsstempel med næste render-frame
+    requestAnimationFrame(() => {
+      roundStartTime = performance.now();
+      isTransitioning = false;
+    });
   }
 
   function startGame() {
@@ -316,7 +334,9 @@ document.addEventListener('DOMContentLoaded', function() {
     correctAnswers = 0;
     roundReactionTimes = [];
     isGameActive = true;
+    isTransitioning = false;
 
+    cancelAnimationFrame(animFrameId);
     startScreen.style.display = 'none';
     resultScreen.style.display = 'none';
     gameScreen.style.display = 'block';
@@ -328,7 +348,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function handleChoice(chosenColor) {
-    if (!isGameActive) return;
+    if (!isGameActive || isTransitioning) return;
+    isTransitioning = true;
 
     const roundMs = Math.round(performance.now() - roundStartTime);
     roundReactionTimes.push(roundMs);
@@ -336,11 +357,14 @@ document.addEventListener('DOMContentLoaded', function() {
     if (chosenColor === currentColorId) {
       correctAnswers++;
       vibrate(25);
+      wordDisplay.classList.add('feedback-correct');
     } else {
       vibrate([40, 40, 40]);
+      wordDisplay.classList.add('feedback-wrong');
     }
 
-    nextRound();
+    // Kort 120 ms pause giver synlig feedback og forhindrer dobbelt-tap bugs
+    setTimeout(nextRound, 120);
   }
 
   function endGame() {
@@ -379,32 +403,38 @@ document.addEventListener('DOMContentLoaded', function() {
     } else if (accuracyPct >= 70 && avgMs < 1600) {
       feedback = '<strong>🟡 Moderat kognitiv belastning:</strong> Fin præstation, men en smule tøven på de forstyrrende farver. Indikerer et normalt hverdags-overskud.';
     } else {
-      feedback = '<strong>🔴 Tegn på kognitiv udmattelse:</strong> Mange fejl eller lang responstid. Din hjernes prefrontale cortex udviser tegn på mental træthed fra studie, arbejde eller manglende søvn.';
+      feedback = '<strong>🔴 Tegn på kognitiv udmattelse:</strong> Mange fejl eller lang responstid. Din hjernes præfrontale cortex udviser tegn på mental træthed fra studie, arbejde eller manglende søvn.';
     }
 
     assessmentEl.innerHTML = feedback;
   }
 
-  // LOW LATENCY POINTER-LISTENERS (Instant touch/mus uden 300ms delay)
+  // ULTRA LOW-LATENCY TOUCH & MUS EVENT-LISTENERS
   colorBtns.forEach(function(btn) {
-    btn.addEventListener('pointerdown', function(e) {
+    btn.addEventListener('touchstart', function(e) {
       if (e.cancelable) e.preventDefault();
       const chosen = this.getAttribute('data-color');
-      
       this.classList.add('is-pressed');
       setTimeout(() => this.classList.remove('is-pressed'), 100);
+      handleChoice(chosen);
+    }, { passive: false });
 
+    btn.addEventListener('mousedown', function(e) {
+      if (e.button !== 0) return;
+      const chosen = this.getAttribute('data-color');
+      this.classList.add('is-pressed');
+      setTimeout(() => this.classList.remove('is-pressed'), 100);
       handleChoice(chosen);
     });
   });
 
-  // TASTATOR-SUPPORT (1, 2, 3, 4, Piletaster og Bogstaver)
+  // TASTATUR-SUPPORT (1, 2, 3, 4 og Piletaster)
   window.addEventListener('keydown', function(e) {
-    if (!isGameActive) return;
-    if (e.repeat) return; // Blokerer hold-nede snyd
+    if (!isGameActive || isTransitioning) return;
+    if (e.repeat) return;
 
     COLOR_DATA.forEach(function(colorObj) {
-      if (colorObj.keys.includes(e.key) || colorObj.keys.includes(e.key.toLowerCase())) {
+      if (colorObj.keys.includes(e.key)) {
         e.preventDefault();
         
         const btn = document.querySelector(`.stroop-btn[data-color="${colorObj.id}"]`);

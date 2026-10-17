@@ -1,0 +1,541 @@
+<!-- Spatial N-Back Component (1, 2 & 3-Back) -->
+<div class="nback-wrapper" id="nback-container">
+
+  <!-- START SKÆRM -->
+  <div class="nback-card" id="nback-start-screen">
+    <div class="nback-icon-badge"><i class="fas fa-sync-alt"></i></div>
+    <h3>Spatial N-Back Test</h3>
+    <p>Test hvor hurtigt din arbejdshukommelse kan udskifte og overvåge rumlig information.</p>
+    
+    <!-- NIVEAU VÆLGER -->
+    <div class="nback-level-picker">
+      <span class="nback-picker-label">Vælg sværhedsgrad:</span>
+      <div class="nback-btn-group">
+        <button type="button" class="nback-lvl-btn" data-n="1">1-Back (Begynder)</button>
+        <button type="button" class="nback-lvl-btn active" data-n="2">2-Back (Standard)</button>
+        <button type="button" class="nback-lvl-btn" data-n="3">3-Back (Elite)</button>
+      </div>
+    </div>
+
+    <div class="nback-rule-box" id="nback-dynamic-rules">
+      <!-- Genereres dynamisk ud fra valgt niveau -->
+    </div>
+
+    <button class="btn btn--primary btn--large" id="start-nback-btn">Start Testen</button>
+  </div>
+
+  <!-- SPIL SKÆRM -->
+  <div class="nback-card" id="nback-game-screen" style="display: none;">
+    <div class="nback-top-bar">
+      <span class="nback-badge" id="nback-level-indicator">2-Back</span>
+      <span class="nback-badge nback-badge--secondary" id="nback-trial-display">Trin: 0 / 24</span>
+      <span class="nback-status" id="nback-status-msg">Gør dig klar...</span>
+    </div>
+
+    <div class="nback-grid" id="nback-grid">
+      <div class="nback-cell" data-index="0"></div>
+      <div class="nback-cell" data-index="1"></div>
+      <div class="nback-cell" data-index="2"></div>
+      <div class="nback-cell" data-index="3"></div>
+      <div class="nback-cell" data-index="4"></div>
+      <div class="nback-cell" data-index="5"></div>
+      <div class="nback-cell" data-index="6"></div>
+      <div class="nback-cell" data-index="7"></div>
+      <div class="nback-cell" data-index="8"></div>
+    </div>
+
+    <div class="nback-controls">
+      <button class="btn-nback-match" id="nback-match-btn" type="button">
+        <i class="fas fa-bullseye"></i> MATCH!
+      </button>
+      <div class="nback-shortcut-hint">Tip: Tryk på <strong>Mellemrumstasten</strong> på computer</div>
+    </div>
+  </div>
+
+  <!-- RESULTAT SKÆRM -->
+  <div class="nback-card" id="nback-result-screen" style="display: none;">
+    <div class="nback-icon-badge" id="nback-res-icon"><i class="fas fa-brain"></i></div>
+    <h3 id="nback-res-title">Dit Resultat: 2-Back</h3>
+
+    <div class="nback-results-grid">
+      <div class="nback-res-box">
+        <span class="res-label">Netto-score:</span>
+        <span class="res-value" id="res-nback-accuracy">0%</span>
+      </div>
+      <div class="nback-res-box">
+        <span class="res-label">Hits (fangede match):</span>
+        <span class="res-value" id="res-nback-hits">0 / 0</span>
+      </div>
+      <div class="nback-res-box">
+        <span class="res-label">Falske alarmer (fejl-klik):</span>
+        <span class="res-value" id="res-nback-fa">0</span>
+      </div>
+      <div class="nback-res-box">
+        <span class="res-label">Gns. Reaktionstid:</span>
+        <span class="res-value" id="res-nback-rt">0 ms</span>
+      </div>
+    </div>
+
+    <div class="nback-assessment" id="nback-assessment">
+      <!-- Genereres dynamisk -->
+    </div>
+
+    <div class="result-actions">
+      <button class="btn btn--success" id="retry-nback-btn">Prøv igen</button>
+      <a href="/kognitive-tests/#dashboard" class="btn btn--outline">← Kontrolpanel</a>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.nback-wrapper {
+  margin: 2rem 0;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.nback-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.nback-icon-badge {
+  width: 56px;
+  height: 56px;
+  background: #e9d8fd;
+  color: #805ad5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto 1rem auto;
+}
+
+.nback-card h3 {
+  margin: 0 0 0.5rem 0 !important;
+  color: #2d3748;
+}
+
+.nback-level-picker {
+  margin: 1.2rem 0 0.8rem 0;
+}
+
+.nback-picker-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+.nback-btn-group {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.nback-lvl-btn {
+  flex: 1;
+  padding: 8px 12px;
+  border: 2px solid #e2e8f0;
+  background: #f7fafc;
+  color: #4a5568;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.nback-lvl-btn.active {
+  background: #805ad5;
+  color: #ffffff;
+  border-color: #805ad5;
+  box-shadow: 0 2px 6px rgba(128, 90, 213, 0.35);
+}
+
+.nback-rule-box {
+  background: #faf5ff;
+  border-left: 4px solid #805ad5;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  color: #553c9a;
+  font-size: 0.92rem;
+  margin: 1rem 0 1.5rem 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.nback-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.nback-badge {
+  background: #805ad5;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+}
+
+.nback-badge--secondary {
+  background: #2b6cb0;
+}
+
+.nback-status {
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.nback-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  max-width: 300px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.nback-cell {
+  background: #edf2f7;
+  border-radius: 12px;
+  aspect-ratio: 1 / 1;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: background-color 0.1s ease, transform 0.1s ease;
+}
+
+.nback-cell.active {
+  background-color: #ecc94b;
+  transform: scale(1.05);
+  box-shadow: 0 0 16px rgba(236, 201, 75, 0.7);
+}
+
+.nback-controls {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.btn-nback-match {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #805ad5;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(128, 90, 213, 0.35);
+  transition: transform 0.08s ease, background-color 0.15s ease;
+  touch-action: manipulation;
+}
+
+.btn-nback-match:active, .btn-nback-match.pressed {
+  transform: scale(0.97);
+  background-color: #6b46c1;
+}
+
+.nback-shortcut-hint {
+  margin-top: 0.6rem;
+  font-size: 0.78rem;
+  color: #a0aec0;
+}
+
+.nback-results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 1.2rem 0;
+}
+
+.nback-res-box {
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #edf2f7;
+}
+
+.nback-res-box .res-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #718096;
+  margin-bottom: 0.25rem;
+}
+
+.nback-res-box .res-value {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #2d3748;
+}
+
+.nback-assessment {
+  background: #edf2f7;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.result-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.result-actions .btn, .result-actions a.btn {
+  flex: 1;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  let chosenN = 2;               // Standard: 2-Back
+  const TOTAL_TRIALS = 24;       // Runder pr. test
+  const TARGET_PROBABILITY = 0.35; // ~35% targets
+  const STIMULUS_DURATION = 600; // ms brikken lyser
+  const ISI_DURATION = 1600;     // Pause mellem brikker
+
+  let sequence = [];
+  let currentTrialIndex = -1;
+  let timerRef = null;
+  let trialStartTime = 0;
+  let userPressedInCurrentTrial = false;
+
+  // Statistik
+  let targetsTotal = 0;
+  let hits = 0;
+  let falseAlarms = 0;
+  let reactionTimes = [];
+
+  const startScreen = document.getElementById('nback-start-screen');
+  const gameScreen = document.getElementById('nback-game-screen');
+  const resultScreen = document.getElementById('nback-result-screen');
+  const trialDisplay = document.getElementById('nback-trial-display');
+  const levelIndicator = document.getElementById('nback-level-indicator');
+  const statusMsg = document.getElementById('nback-status-msg');
+  const cells = document.querySelectorAll('.nback-cell');
+  const matchBtn = document.getElementById('nback-match-btn');
+  const startBtn = document.getElementById('start-nback-btn');
+  const retryBtn = document.getElementById('retry-nback-btn');
+  const ruleBox = document.getElementById('nback-dynamic-rules');
+  const levelBtns = document.querySelectorAll('.nback-lvl-btn');
+
+  function updateRuleText() {
+    let explanation = '';
+    if (chosenN === 1) {
+      explanation = '<strong>⚠️ Opgaven (1-Back):</strong> Tryk på <strong>MATCH</strong>, hver gang et felt lyser op på <u>PRÆCIS SAMME POSITION</u> som feltet <strong>lige før (1 trin siden)</strong>. God opvarmning!';
+    } else if (chosenN === 2) {
+      explanation = '<strong>⚠️ Opgaven (2-Back):</strong> Tryk på <strong>MATCH</strong>, hver gang et felt lyser op på <u>PRÆCIS SAMME POSITION</u> som for <strong>2 trin siden</strong>. Standardtesten for kognitiv overvågning.';
+    } else {
+      explanation = '<strong>⚠️ Opgaven (3-Back):</strong> Ekstrem kognitiv belastning! Tryk på <strong>MATCH</strong>, hver gang et felt lyser op på <u>PRÆCIS SAMME POSITION</u> som for <strong>3 trin siden</strong>.';
+    }
+    ruleBox.innerHTML = explanation;
+  }
+
+  // Niveau knapper
+  levelBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      levelBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      chosenN = parseInt(this.getAttribute('data-n'));
+      updateRuleText();
+    });
+  });
+
+  updateRuleText();
+
+  function generateSequence() {
+    sequence = [];
+    targetsTotal = 0;
+    
+    for (let i = 0; i < TOTAL_TRIALS; i++) {
+      if (i >= chosenN && Math.random() < TARGET_PROBABILITY) {
+        sequence.push(sequence[i - chosenN]);
+        targetsTotal++;
+      } else {
+        let candidate;
+        do {
+          candidate = Math.floor(Math.random() * 9);
+        } while (i >= chosenN && candidate === sequence[i - chosenN]);
+        sequence.push(candidate);
+      }
+    }
+
+    // Sikr mindst 3 targets
+    if (targetsTotal < 3) {
+      generateSequence();
+    }
+  }
+
+  function startTest() {
+    hits = 0;
+    falseAlarms = 0;
+    reactionTimes = [];
+    currentTrialIndex = -1;
+
+    generateSequence();
+
+    levelIndicator.textContent = chosenN + '-Back';
+    matchBtn.innerHTML = '<i class="fas fa-bullseye"></i> MATCH! (' + chosenN + ' trin tilbage)';
+    
+    startScreen.style.display = 'none';
+    resultScreen.style.display = 'none';
+    gameScreen.style.display = 'block';
+
+    statusMsg.textContent = 'Gør dig klar...';
+    trialDisplay.textContent = 'Trin: 0 / ' + TOTAL_TRIALS;
+
+    setTimeout(nextTrial, 1200);
+  }
+
+  function nextTrial() {
+    currentTrialIndex++;
+
+    if (currentTrialIndex >= TOTAL_TRIALS) {
+      endTest();
+      return;
+    }
+
+    userPressedInCurrentTrial = false;
+    trialDisplay.textContent = 'Trin: ' + (currentTrialIndex + 1) + ' / ' + TOTAL_TRIALS;
+    
+    if (currentTrialIndex < chosenN) {
+      statusMsg.textContent = 'Husk placering ' + (currentTrialIndex + 1) + '...';
+    } else {
+      statusMsg.textContent = 'Klar på match!';
+    }
+
+    const activeCellIndex = sequence[currentTrialIndex];
+    const cell = cells[activeCellIndex];
+    cell.classList.add('active');
+    trialStartTime = performance.now();
+
+    setTimeout(() => {
+      cell.classList.remove('active');
+    }, STIMULUS_DURATION);
+
+    timerRef = setTimeout(nextTrial, STIMULUS_DURATION + ISI_DURATION);
+  }
+
+  function registerResponse() {
+    if (gameScreen.style.display === 'none' || userPressedInCurrentTrial || currentTrialIndex < 0) {
+      return;
+    }
+
+    userPressedInCurrentTrial = true;
+    const rt = Math.round(performance.now() - trialStartTime);
+
+    matchBtn.classList.add('pressed');
+    setTimeout(() => matchBtn.classList.remove('pressed'), 120);
+
+    if (currentTrialIndex < chosenN) {
+      falseAlarms++;
+      if (navigator.vibrate) navigator.vibrate([40, 40]);
+      return;
+    }
+
+    const isMatch = (sequence[currentTrialIndex] === sequence[currentTrialIndex - chosenN]);
+
+    if (isMatch) {
+      hits++;
+      reactionTimes.push(rt);
+      if (navigator.vibrate) navigator.vibrate(25);
+    } else {
+      falseAlarms++;
+      if (navigator.vibrate) navigator.vibrate([40, 40]);
+    }
+  }
+
+  function endTest() {
+    clearTimeout(timerRef);
+    gameScreen.style.display = 'none';
+    resultScreen.style.display = 'block';
+
+    cells.forEach(c => c.classList.remove('active'));
+
+    const totalEvaluated = TOTAL_TRIALS - chosenN;
+    const nonTargetsTotal = totalEvaluated - targetsTotal;
+
+    // RETVISENDE DISKRIMINATIONS-SCORING (Signal Detection)
+    // Hit Rate (0 - 1) minus False Alarm Rate (0 - 1)
+    const hitRate = targetsTotal > 0 ? (hits / targetsTotal) : 0;
+    const faRate = nonTargetsTotal > 0 ? (falseAlarms / nonTargetsTotal) : 0;
+    
+    // Netto-score i % (kan ikke blive under 0%)
+    const netAccuracy = Math.max(0, Math.round((hitRate - faRate) * 100));
+
+    const avgRt = reactionTimes.length > 0 
+      ? Math.round(reactionTimes.reduce((a, b) => a + b, 0) / reactionTimes.length) 
+      : 0;
+
+    document.getElementById('nback-res-title').textContent = 'Dit Resultat: ' + chosenN + '-Back';
+    document.getElementById('res-nback-accuracy').textContent = netAccuracy + '%';
+    document.getElementById('res-nback-hits').textContent = hits + ' / ' + targetsTotal;
+    document.getElementById('res-nback-fa').textContent = falseAlarms;
+    document.getElementById('res-nback-rt').textContent = avgRt > 0 ? avgRt + ' ms' : '-';
+
+    // Gem i localStorage til kontrolpanel
+    try {
+      const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+      store['nback'] = {
+        value: netAccuracy,
+        display: netAccuracy + '% (' + chosenN + '-Back: ' + hits + '/' + targetsTotal + ' hits)',
+        rt: avgRt,
+        date: new Date().toLocaleDateString('da-DK')
+      };
+      localStorage.setItem('mp_neuro_results', JSON.stringify(store));
+    } catch (e) {
+      console.error('Kunne ikke gemme neuro-resultat:', e);
+    }
+
+    // Feedback vurdering tilpasset netto-scoren
+    const assessmentEl = document.getElementById('nback-assessment');
+    let feedback = '';
+
+    if (netAccuracy >= 75) {
+      feedback = '<strong>🟢 Skarp arbejdshukommelse:</strong> Exceptionel præcision på ' + chosenN + '-Back! Du overvåger og opdaterer information lynhurtigt uden at lade dig snyde af støj.';
+    } else if (netAccuracy >= 45) {
+      feedback = '<strong>🟡 Solidt gennemsnit:</strong> Godkendt præstation. Du fanger de fleste mønstre, men enkelte misses eller fejltryk viser, at hjernen kom på overarbejde mod slutningen.';
+    } else {
+      feedback = '<strong>🔴 Udfordret arbejdshukommelse:</strong> Lav nettoscore (' + netAccuracy + '%). Du missede størstedelen af match-situationerne eller havde for mange falske gæt. Det er helt normalt, hvis du er mentalt træt, ukoncentreret eller uvant med N-back.';
+    }
+
+    assessmentEl.innerHTML = feedback;
+  }
+
+  matchBtn.addEventListener('click', registerResponse);
+
+  window.addEventListener('keydown', function(e) {
+    if (e.code === 'Space' && gameScreen.style.display === 'block') {
+      e.preventDefault();
+      registerResponse();
+    }
+  });
+
+  startBtn.addEventListener('click', startTest);
+  retryBtn.addEventListener('click', startTest);
+});
+</script>

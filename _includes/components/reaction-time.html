@@ -148,11 +148,12 @@
   text-align: center;
   padding: 2rem;
   cursor: pointer;
-  transition: background-color 0.05s ease, transform 0.05s ease;
+  /* Optimering: transition på background-color er fjernet for øjeblikkeligt farveskift */
+  transition: transform 0.05s ease;
   box-shadow: 0 8px 24px rgba(0,0,0,0.12);
   outline: none;
   
-  /* LOW LATENCY OPTIMERING: Slår skærm-zooming og panorering fra */
+  /* LOW LATENCY OPTIMERING: Forhindrer zoom og scroll-forsinkelser */
   touch-action: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -183,7 +184,7 @@
   font-size: 1.05rem;
 }
 
-/* Tilstande */
+/* Tilstande - Skifter instant uden fade */
 .state-waiting { background-color: #2b6cb0; }
 .state-ready { background-color: #c53030; }
 .state-go { background-color: #2f855a; }
@@ -324,7 +325,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const modeBtns = document.querySelectorAll('#reaction-mode-toggle .toggle-btn');
   modeBtns.forEach(btn => {
     btn.addEventListener('click', function() {
-      if (state === 'ready') return; // Lås under aktiv ventetid
+      if (state === 'ready') return;
       modeBtns.forEach(b => b.classList.remove('active'));
       this.classList.add('active');
       selectedMode = this.getAttribute('data-val');
@@ -367,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function() {
       gain.connect(audioCtx.destination);
 
       const now = audioCtx.currentTime;
-      osc.frequency.value = 1000; // 1000 Hz ren tone
+      osc.frequency.value = 1000;
       gain.gain.setValueAtTime(0.4, now);
       gain.gain.exponentialRampToValueAtTime(0.001, now + 0.18);
 
@@ -387,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function startTest() {
-    initAudioContext(); // Forvarm lyd-konteksten ved første tryk
+    initAudioContext();
 
     if (selectedMode === 'visuel') {
       setBoxState('ready', 'Vent på grøn...', 'Tap SÅ SNART feltet skifter farve!', 'fa-ellipsis-h');
@@ -395,22 +396,27 @@ document.addEventListener('DOMContentLoaded', function() {
       setBoxState('ready', 'Vent på lyd...', 'Tap SÅ SNART du hører tonen!', 'fa-volume-mute');
     }
 
-    const randomDelay = Math.floor(Math.random() * 3000) + 2000; // 2-5 sekunder
+    const randomDelay = Math.floor(Math.random() * 3000) + 2000;
 
     timer = setTimeout(function() {
       if (selectedMode === 'lyd') {
         playSignalSound();
+        setBoxState('go', 'TRYK NU!', 'Tap på skærmen!', 'fa-bolt');
+        startTime = performance.now();
+      } else {
+        setBoxState('go', 'TRYK NU!', 'Tap på skærmen!', 'fa-bolt');
+        // Venter på at skærmen reelt tegner det grønne billede i næste repaint-cyklus
+        requestAnimationFrame(() => {
+          startTime = performance.now();
+        });
       }
       
-      setBoxState('go', 'TRYK NU!', 'Tap på skærmen!', 'fa-bolt');
-      
-      // Sub-millisekund tidsstempel
-      startTime = performance.now();
       vibrate(50);
     }, randomDelay);
   }
 
   function handleTap(e) {
+    // e.preventDefault() forhindrer at touchstart trigger et syntetisk musetryk efterfølgende
     if (e && e.cancelable) e.preventDefault();
 
     if (state === 'waiting' || state === 'result' || state === 'early') {
@@ -547,16 +553,20 @@ document.addEventListener('DOMContentLoaded', function() {
     updateInstructionText();
   }
 
-  // LOW LATENCY EVENT LISTENERS:
-  // 1. Pointerdown registrerer touch/mus instant uden 300ms mobil-forsinkelse
-  box.addEventListener('pointerdown', handleTap);
+  // ULTRA LOW-LATENCY LISTENERS:
+  // 1. Touchstart på mobilenheder (slår standard browser-forsinkelse fra)
+  box.addEventListener('touchstart', handleTap, { passive: false });
 
-  // 2. Tastatur-support (Mellemrumstast og Enter) med blokering af snyd
+  // 2. Mousedown til mus og trackpad
+  box.addEventListener('mousedown', function(e) {
+    if (e.button === 0) handleTap(e);
+  });
+
+  // 3. Tastatur-support (Mellemrumstast og Enter)
   window.addEventListener('keydown', function(e) {
     if (e.code === 'Space' || e.code === 'Enter') {
-      if (e.repeat) return; // Blokerer hold-nede snyd
+      if (e.repeat) return;
       
-      // Kun hvis fokus er i/omkring boksen eller aktiv test
       if (document.activeElement === box || state === 'ready' || state === 'go' || state === 'waiting' || state === 'result' || state === 'early') {
         e.preventDefault();
         handleTap();

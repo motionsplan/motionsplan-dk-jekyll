@@ -43,9 +43,9 @@ Vælg en test herunder for at måle din parathed. Hver test åbner direkte i din
 
 ---
 
-## De 7 komponenter i test-batteriet
+## Komponenterne i test-batteriet
 
-For at give et præcist billede af din form opdeler vi testene i henholdsvis din **neuromuskulære parathed** (ren nerveledningshastighed) og din **kognitive kontrol** (hjernens bearbejdning og overblik):
+For at give et præcist billede af din form opdeles testene i henholdsvis din **neuromuskulære parathed** (ren nerveledningshastighed og fyringsfrekvens) og din **kognitive kontrol** (hjernens eksekutive funktioner og overblik):
 
 ### 1. Neuromuskulær Parathed (Nervesystem & Signalhastighed)
 Måler hvor hurtigt dit centrale nervesystem (CNS) sender uforstyrrede elektriske impulser til musklerne – uden kognitiv tøven.
@@ -53,22 +53,22 @@ Måler hvor hurtigt dit centrale nervesystem (CNS) sender uforstyrrede elektrisk
 | Test | Fysiologisk funktion | Betydning i sport og hverdag |
 |---|---|---|
 | **[Simpel Reaktionstid](/reaktionstid-test/)** | Måler den efferente overførselshastighed fra nethinde til motorisk cortex og ud i musklen. | Hvor hurtigt du reagerer på et simpelt visuelt signal eller en startpistol. |
-| **[Finger Tapping (CNS Fatigue)](/cns-fatigue/#widget)** | Måler den maksimale fyringsfrekvens af motoriske enheder fra motorisk cortex. | Den reneste fysiologiske indikator for centralnervesystem-træthed efter tunge løft. |
-| **[Ruler Drop Test](#ruler-test)** | Fysisk felttest af den visuelt-motoriske gribereaktion ud fra tyngdeacceleration ($t = \sqrt{\frac{2d}{g}}$). | Lynhurtig overførsel fra synsindtryk til fysisk gribereaktion helt uden skærm-latens. |
+| **[Finger Tapping (CNS Fatigue)](/cns-fatigue/#widget)** | Måler den maksimale fyringsfrekvens af motoriske enheder fra motorisk cortex. | Den reneste fysiologiske indikator for centralnervesystem-træthed efter hård træning. |
+| **[Ruler Drop Test](#ruler-test)** *(Analog felttest)* | Måler den visuelt-motoriske gribereaktion baseret på tyngdeacceleration ($t = \sqrt{\frac{2d}{g}}$). | Lynhurtig overførsel fra synsindtryk til fysisk gribereaktion helt uden skærm-forsinkelse. |
 
 ---
 
 ### 2. Kognitiv Kontrol & Processing (Hjernens Overblik)
-Måler din præfrontale cortex' evne til at analysere, filtrere støj, time handlinger og træffe beslutninger under tidspres.
+Måler din præfrontale cortex' evne til at analysere, filtrere støj, time handlinger og opdatere information under tidspres.
 
 | Test | Kognitiv funktion | Betydning i sport og hverdag |
 |---|---|---|
-| **[Go / No-Go](/impulskontrol-test/)** | Tester hjernens hæmningskontrol (*response inhibition*) under tids-stress. | Evnen til at undgå at falde for modstanderens finte eller undgå fejlafleveringer. |
-| **[Time Wall](/visuel-forudsigelse/)** | Tester evnen til intern ekstrapolering og tidsmæssig forudsigelse (*anticipation*). | Hvornår du skal starte dit løb, gribe bolden eller time en takling i blinde. |
-| **[Flanker Test](/fokus-test/)** | Måler evnen til selektiv opmærksomhed og filtrering af irrelevant visuel støj. | At fastholde blikket på den frie medspiller trods tilskuere og kaotiske forsvarsspillere. |
-| **N-back** | Måler arbejdshukommelsens kapacitet (*Working Memory*) under løbende opdatering. | At fastholde taktiske aftaler og overskue baneåbninger under høj puls. |
-| **[Corsi Grid](/arbejdshukommelse-test/)** | Måler primært visuospatial korttidshukommelse og spændvidde (span). Testen undersøger, hvor mange rumlige placeringer du kan fastholde i hukommelsen på én gang (den rumlige pendant til en klassisk digit span-test med talrækker). Kører man den baglæns (backward Corsi), trækker den også på arbejdshukommelsens manipulationsdel. |
-| **[Stroop-testen](/mental-traethed/)** | En af verdens mest validerede kognitive tests til at måle hjernens overskud og evne til at filtrere forstyrrende informationer (kognitiv inhibering). |
+| **[Go / No-Go](/impulskontrol-test/)** | Tester hjernens hæmningskontrol (*response inhibition*) under tidspres. | Evnen til ikke at hoppe på modstanderens finte og undgå forhastede fejlbeslutninger. |
+| **[Time Wall](/visuel-forudsigelse/)** | Tester spatio-temporal ekstrapolering og tidsmæssig forudsigelse (*anticipation*). | Evnen til at forudsige fart og baner i blinde (f.eks. timing af dybdeløb eller gribning). |
+| **[Flanker Test](/fokus-test/)** | Måler selektiv visuel opmærksomhed og filtrering af irrelevant visuel støj. | At fastholde blikket på medspilleren trods tilskuere og kaotiske forsvarere. |
+| **[Spatial N-Back](/n-back-test/)** | Måler arbejdshukommelsens eksekutive opdatering under en kontinuerlig informationsstrøm. | At slette forældet positionsdata og opdatere det taktiske overblik i realtid. |
+| **[Corsi Grid](/arbejdshukommelse-test/)** | Måler den visuospatiale lagerkapacitet og spændvidde (*spatial span*). | Hvor mange positioner på banen din hjerne kan "fotografere" og fastholde på én gang. |
+| **[Stroop Test](/mental-traethed/)** | Måler modstandskraft over for kognitiv interferens og mental udtrætning. | At bevare skarpheden og træffe korrekte valg i kampens slutfase under mental udmattelse. |
 
 ---
 

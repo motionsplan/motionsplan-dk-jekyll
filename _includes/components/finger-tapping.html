@@ -4,7 +4,7 @@
   <div class="ftt-info-modal" style="display: none;">
     <div class="modal-header">
       <div class="modal-title-group">
-        <h4 class="modal-title-text">Om Finger Tapping Testen (FTT)</h4>
+        <p class="modal-title-text">Om Finger Tapping Testen (FTT)</p>
         <span class="modal-subtitle-text">Måling af neuromuskulær træthed (KNS)</span>
       </div>
       <button class="modal-close-btn" type="button" aria-label="Luk modal">✖</button>
@@ -77,7 +77,7 @@
 
   <!-- Den KÆMPE Tap-Zone -->
   <div class="ftt-action-zone">
-    <button class="ftt-tap-area" disabled>
+    <button class="ftt-tap-area" disabled type="button">
       <span class="tap-area-main-text">KLAR TIL START</span>
       <span class="tap-area-sub-text">Tryk på 'Start Test' for at begynde</span>
     </button>
@@ -85,8 +85,8 @@
 
   <!-- Kontroller -->
   <div class="ftt-controls">
-    <button class="btn btn--primary btn-start">Start 10s Test</button>
-    <button class="btn btn--warning btn-reset">Nulstil Log</button>
+    <button class="btn btn--primary btn-start" type="button">Start 10s Test</button>
+    <button class="btn btn--warning btn-reset" type="button">Nulstil Log</button>
   </div>
 
   <!-- Resultat Log Tabel & Asymmetri-box -->
@@ -197,12 +197,12 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: background 0.05s ease, transform 0.05s ease, border-color 0.05s ease;
+  transition: transform 0.04s ease;
   
-  /* DE KRITISKE CSS-OPTIMERINGER: */
+  /* CRITICAL LOW-LATENCY CSS */
   user-select: none;
   -webkit-user-select: none;
-  touch-action: none; /* Slår ALT browser-gestik og lag fra */
+  touch-action: none;
   -webkit-tap-highlight-color: transparent;
   outline: none;
 }
@@ -396,8 +396,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
     startTime = performance.now();
     animFrameId = requestAnimationFrame(updateTimer);
-    
-    tapArea.focus();
   }
 
   function finishTest() {
@@ -530,31 +528,49 @@ document.addEventListener("DOMContentLoaded", function() {
     } catch(e) {}
   }
 
-  // OPTIMERET: Pointerdown til touch/mus sikrer absolut instant aktivering (0ms lag)
-  tapArea.addEventListener("pointerdown", (e) => {
+  function handleRegisterTap(countToAdd = 1) {
     if (!isTesting) return;
-    
-    tapCount++;
+    tapCount += countToAdd;
     tapDisplay.textContent = tapCount;
     tapArea.classList.add("is-tapped");
+  }
+
+  // 1. ULTRA-LAV LATENS TOUCH PÅ MOBILSKÆRME
+  tapArea.addEventListener("touchstart", (e) => {
+    if (!isTesting) return;
+    if (e.cancelable) e.preventDefault(); // Forhindrer scrolling, gestures og syntetiske ghost clicks
+
+    const touchesCount = e.changedTouches ? e.changedTouches.length : 1;
+    handleRegisterTap(touchesCount);
+  }, { passive: false });
+
+  tapArea.addEventListener("touchend", (e) => {
+    if (e.cancelable) e.preventDefault();
+    tapArea.classList.remove("is-tapped");
+  }, { passive: false });
+
+  tapArea.addEventListener("touchcancel", (e) => {
+    if (e.cancelable) e.preventDefault();
+    tapArea.classList.remove("is-tapped");
+  }, { passive: false });
+
+  // 2. MUS TIL PC / BROWSER
+  tapArea.addEventListener("mousedown", (e) => {
+    if (e.button !== 0) return;
+    handleRegisterTap(1);
   });
 
-  // Fjerner den visuelle effekt det sekund man slipper, ikke via timeout
-  tapArea.addEventListener("pointerup", () => tapArea.classList.remove("is-tapped"));
-  tapArea.addEventListener("pointercancel", () => tapArea.classList.remove("is-tapped"));
-  tapArea.addEventListener("pointerout", () => tapArea.classList.remove("is-tapped"));
+  window.addEventListener("mouseup", () => {
+    tapArea.classList.remove("is-tapped");
+  });
 
-  // OPTIMERET: Tastatur-lytter der blokerer OS "hold-nede-snyd"
+  // 3. TASTATUR (Mellemrum og Enter med repeat-blokering)
   document.addEventListener("keydown", (e) => {
     if (!isTesting) return;
     if (e.code === "Space" || e.code === "Enter") {
       e.preventDefault(); 
-      // VIGTIGT: Hvis e.repeat er true, holder brugeren knappen nede - ignorér det!
-      if (e.repeat) return;
-      
-      tapCount++;
-      tapDisplay.textContent = tapCount;
-      tapArea.classList.add("is-tapped");
+      if (e.repeat) return; // Blokerer hold-nede snyd
+      handleRegisterTap(1);
     }
   });
 

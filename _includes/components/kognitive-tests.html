@@ -88,13 +88,21 @@
           <p>Mål din evne til at forudsige objekters hastighed og bane (Boldøje).</p>
         </a>
 
+        <a href="/n-back-test/" class="dash-card">
+          <div class="card-header-row">
+            <h4>Spatial N-Back Test</h4>
+            <div class="card-icon" style="background:#f3e8ff; color:#7c3aed;"><i class="fas fa-sync-alt"></i></div>
+          </div>
+          <p>Mål arbejdshukommelsens evne til kontinuerligt at udskifte og opdatere information i realtid.</p>
+        </a>
+
         <a href="/fokus-test/" class="dash-card">
-  <div class="card-header-row">
-    <h4>Flanker Fokus Test</h4>
-    <div class="card-icon" style="background:#edf2f7; color:#4a5568;"><i class="fas fa-compress-arrows-alt"></i></div>
-  </div>
-  <p>Mål din evne til at filtrere visuel støj fra i synsfeltet under tidspres.</p>
-</a>
+          <div class="card-header-row">
+            <h4>Flanker Fokus Test</h4>
+            <div class="card-icon" style="background:#edf2f7; color:#4a5568;"><i class="fas fa-compress-arrows-alt"></i></div>
+          </div>
+          <p>Mål din evne til at filtrere visuel støj fra i synsfeltet under tidspres.</p>
+        </a>
 
       </div>
     </div>
@@ -223,7 +231,7 @@
   color: #1a202c;
   font-weight: 700;
   line-height: 1.3;
-  padding-top: 4px; /* Finpudsning for at flugte pænt med ikonet */
+  padding-top: 4px;
 }
 
 .card-icon {
@@ -234,7 +242,7 @@
   align-items: center;
   justify-content: center;
   font-size: 1.15rem;
-  flex-shrink: 0; /* Forhindrer at ikonet krymper, hvis titlen er lang */
+  flex-shrink: 0;
 }
 
 .dash-card p {
@@ -242,7 +250,7 @@
   color: #4a5568;
   margin: 0 0 1rem 0 !important;
   line-height: 1.45;
-  flex-grow: 1; /* Pytter stat-badgen helt i bunden */
+  flex-grow: 1;
 }
 
 /* Status Badges */
@@ -272,16 +280,18 @@ document.addEventListener('DOMContentLoaded', function() {
   const clearBtn = document.getElementById('clear-neuro-data');
   const ringBorder = document.getElementById('score-ring-border');
 
-const testConfig = {
-  tapping:  { url: 'cns-fatigue',           calcScore: (v) => Math.min(100, Math.round((v / 70) * 100)) },
-  stroop:   { url: 'mental-traethed',       calcScore: (v) => v },
-  reaction: { url: 'reaktionstid-test',     calcScore: (v) => Math.max(0, Math.min(100, Math.round(100 - (v - 180) / 2))) },
-  gonogo:   { url: 'impulskontrol-test',    calcScore: (v) => v },
-  corsi:    { url: 'arbejdshukommelse-test',calcScore: (v) => Math.min(100, Math.round((v / 7) * 100)) },
-  timewall: { url: 'visuel-forudsigelse',   calcScore: (v) => Math.max(0, Math.min(100, Math.round(100 - v / 1.5))) },
-  flanker:  { url: 'fokus-test',            calcScore: (v) => v } // Ny 7. test!
-};
+  const testConfig = {
+    tapping:  { url: 'cns-fatigue',            calcScore: (v) => Math.min(100, Math.round((v / 70) * 100)) },
+    stroop:   { url: 'mental-traethed',        calcScore: (v) => v },
+    reaction: { url: 'reaktionstid-test',      calcScore: (v) => Math.max(0, Math.min(100, Math.round(100 - (v - 180) / 2))) },
+    gonogo:   { url: 'impulskontrol-test',     calcScore: (v) => v },
+    corsi:    { url: 'arbejdshukommelse-test', calcScore: (v) => Math.min(100, Math.round((v / 7) * 100)) },
+    timewall: { url: 'visuel-forudsigelse',    calcScore: (v) => Math.max(0, Math.min(100, Math.round(100 - v / 1.5))) },
+    nback:    { url: 'n-back-test',            calcScore: (v) => v },
+    flanker:  { url: 'fokus-test',             calcScore: (v) => v }
+  };
 
+  const TOTAL_TESTS = Object.keys(testConfig).length;
   let todayScores = [];
   let completedTodayCount = 0;
 
@@ -321,15 +331,15 @@ const testConfig = {
     if (avgPerformance >= 85) {
       ringBorder.style.borderColor = '#38a169';
       bannerTitle.textContent = '🟢 Optimal Dagsform';
-      bannerDesc.textContent = `Dit nervesystem udviser høj skarphed og overskud (${completedTodayCount}/6 tests gennemført).`;
+      bannerDesc.textContent = `Dit nervesystem udviser høj skarphed og overskud (${completedTodayCount}/${TOTAL_TESTS} tests gennemført).`;
     } else if (avgPerformance >= 65) {
       ringBorder.style.borderColor = '#dd6b20';
       bannerTitle.textContent = '🟡 Moderat Træthed';
-      bannerDesc.textContent = `Nervesystemet er let udfordret. Hav fokus på god opvarmning i dag (${completedTodayCount}/6 tests gennemført).`;
+      bannerDesc.textContent = `Nervesystemet er let udfordret. Hav fokus på god opvarmning i dag (${completedTodayCount}/${TOTAL_TESTS} tests gennemført).`;
     } else {
       ringBorder.style.borderColor = '#e53e3e';
       bannerTitle.textContent = '🔴 Markant Centraltræthed';
-      bannerDesc.textContent = `Lave scorer indikerer kognitiv udmattelse eller manglende restitution (${completedTodayCount}/6 tests gennemført).`;
+      bannerDesc.textContent = `Lave scorer indikerer kognitiv udmattelse eller manglende restitution (${completedTodayCount}/${TOTAL_TESTS} tests gennemført).`;
     }
   }
 

@@ -40,7 +40,7 @@ Sakkader er de lynhurtige hop, dine øjne foretager, når du flytter blikket fra
 
 **Typisk problem på banen:** Du er langsom til at skifte blikket fra bolden på fødderne op til en fri medspiller.
 
-**Træn det her:** [Træn sakkade & Læs om Hart Charts](/sakkader-synstraening/#widget)
+**Træn og test det her:** [Træn sakkader med Hart Charts](/sakkader-synstraening/#widget) eller test dine sakkadiske øjenbevægelser i [Schulte Tabellen](/schulte-tabel/#widget).
 
 ### 2. Smooth Pursuit (Visuel sporing)
 Smooth pursuit er øjets evne til at fange et objekt i bevægelse og følge det i en helt glidende, uafbrudt bevægelse. Hvis systemet er utrænet, vil øjnene "chokke" og hoppe undervejs, hvilket slører billedet af bolden.
@@ -61,7 +61,8 @@ Det perifere syn reagerer lynhurtigt på bevægelse i udkanten af dit synsfelt. 
 
 **Typisk problem på banen:** Du får "tunnelsyn", når du bliver træt, og bliver overrumplet af modstandere fra siden.
 
-**Træn det her:** [Træn dit periferisyn](/perifert-syn-synstraening/#widget)
+* **Test dit overblik:** [Tag Schulte Tabel Testen (1-25)](/schulte-tabel/#widget) — Mål din visuelle scanningshastighed og perifere bredde.
+* **Træn det her:** [Træn dit periferisyn](/perifert-syn-synstraening/#widget)
 
 ---
 
@@ -88,9 +89,10 @@ Det perifere syn reagerer lynhurtigt på bevægelse i udkanten af dit synsfelt. 
 
 Synstræning hænger tæt sammen med din generelle kognitive reaktionsevne. Suppler din synstræning med vores øvrige måleredskaber:
 
-* **[Reaktionstid Test](/reaktionstid-test/):** Mål din reaktionshastighed på skærmen i millisekunder.
-* **[Time Wall Test](/visuel-forudsigelse/):** Test din evne til at forudsige objekters bevægelse og timing.
-* **[Flanker Fokus Test](/fokus-test/):** Test hvor godt du sorterer udefrakommende visuel støj fra.
+- **[Schulte Tabel Test](/schulte-tabel/):** Mål dit perifere synsfelt og din visuelle søgehastighed i sekunder.
+- **[Reaktionstid Test](/reaktionstid-test/):** Mål din reaktionshastighed på skærmen i millisekunder.
+- **[Time Wall Test](/visuel-forudsigelse/):** Test din evne til at forudsige objekters bevægelse og timing.
+- **[Flanker Fokus Test](/fokus-test/):** Test hvor godt du sorterer udefrakommende visuel støj fra.
 
 ---
 

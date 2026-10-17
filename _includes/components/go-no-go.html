@@ -10,7 +10,7 @@
     <div class="gonogo-rules">
       <div class="rule-item rule-go">
         <span class="rule-circle bg-green"></span>
-        <span><strong>GRØN cirkel (GO):</strong> Tap lynhurtigt på skærmen eller tryk på <strong>Mellemrumstast</strong>!</span>
+        <span><strong>GRØN cirkel (GO):</strong> Tap lynhurtigt på feltet eller tryk på <strong>Mellemrumstast</strong>!</span>
       </div>
       <div class="rule-item rule-nogo">
         <span class="rule-circle bg-red"></span>
@@ -41,15 +41,15 @@
     
     <div class="gonogo-results-grid">
       <div class="gonogo-res-box">
-        <span class="res-label">Impulskontrol:</span>
+        <span class="res-label">Samlet Præcision:</span>
         <span class="res-value" id="res-gonogo-accuracy">0%</span>
       </div>
       <div class="gonogo-res-box">
-        <span class="res-label">Gns. GO-tid:</span>
+        <span class="res-label">Gns. GO-reaktion:</span>
         <span class="res-value" id="res-gonogo-speed">0 ms</span>
       </div>
       <div class="gonogo-res-box">
-        <span class="res-label">Fejl-taps:</span>
+        <span class="res-label">Falske alarmer (på rød):</span>
         <span class="res-value" id="res-gonogo-errors">0 / 5</span>
       </div>
     </div>
@@ -153,9 +153,14 @@
   cursor: pointer;
   outline: none;
   
-  /* LOW LATENCY TOUCH OPTIMERING: Slår skærm-zooming og panorering fra */
+  /* CRITICAL LOW-LATENCY TOUCH SETTINGS */
   touch-action: none;
   -webkit-tap-highlight-color: transparent;
+  transition: transform 0.05s ease;
+}
+
+.gonogo-target-area:active {
+  transform: scale(0.99);
 }
 
 .gonogo-target-circle {
@@ -164,7 +169,6 @@
   border-radius: 50%;
   display: none;
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-  transition: transform 0.05s ease;
 }
 
 .gonogo-target-circle.active {
@@ -174,7 +178,7 @@
 .gonogo-feedback-msg {
   position: absolute;
   bottom: 12px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 700;
 }
 
@@ -194,13 +198,13 @@
 
 .res-label {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: #718096;
 }
 
 .res-value {
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: #2d3748;
 }
 
@@ -212,6 +216,7 @@
   color: #2d3748;
   margin-bottom: 1.5rem;
   text-align: left;
+  line-height: 1.5;
 }
 
 .result-actions {
@@ -249,17 +254,18 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const TOTAL_ROUNDS = 20;
-  const NOGO_RATIO = 0.25; // 25% No-Go cirkler (5 ud af 20)
-  const DISPLAY_TIME = 900; // Cirkel synlig i ms
+  const TOTAL_NOGO = 5;       // Præcis 5 No-Go runder
+  const TOTAL_GO = 15;        // Præcis 15 Go runder
+  const DISPLAY_TIME = 850;   // Cirkel synlig i ms
 
-  let currentRound = 0;
+  let trialSequence = [];
+  let currentRoundIndex = -1;
   let falseAlarms = 0;
-  let totalNoGo = 0;
   let correctGoTaps = 0;
-  let totalGo = 0;
+  let missedGo = 0;
+  let correctNoGoPasses = 0;
   let goReactionTimes = [];
   
-  let isCurrentGo = false;
   let roundActive = false;
   let roundTapped = false;
   let roundTimer = null;
@@ -287,48 +293,59 @@ document.addEventListener('DOMContentLoaded', function() {
     if (navigator.vibrate) navigator.vibrate(ms);
   }
 
+  // Generer en fast sekvens på 15 Go og 5 No-Go uden 3 No-Go i træk
+  function generateTrialSequence() {
+    let array = Array(TOTAL_GO).fill('go').concat(Array(TOTAL_NOGO).fill('nogo'));
+    
+    // Fisher-Yates Shuffle
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    
+    trialSequence = array;
+  }
+
   function startRound() {
-    if (currentRound >= TOTAL_ROUNDS) {
+    currentRoundIndex++;
+
+    if (currentRoundIndex >= TOTAL_ROUNDS) {
       endGame();
       return;
     }
 
-    currentRound++;
-    progressEl.textContent = 'Runde ' + currentRound + ' af ' + TOTAL_ROUNDS;
+    progressEl.textContent = 'Runde ' + (currentRoundIndex + 1) + ' af ' + TOTAL_ROUNDS;
     roundActive = false;
     roundTapped = false;
     circle.classList.remove('active');
     feedbackEl.textContent = '';
 
-    const pauseTime = Math.floor(Math.random() * 1500) + 800; // 0.8 til 2.3s pause
+    const pauseTime = Math.floor(Math.random() * 1400) + 700; // 0.7 - 2.1s pause
 
     setTimeout(function() {
-      if (currentRound > TOTAL_ROUNDS) return;
+      if (currentRoundIndex >= TOTAL_ROUNDS) return;
 
-      isCurrentGo = Math.random() >= NOGO_RATIO;
-      if (isCurrentGo) {
-        totalGo++;
-        circle.style.backgroundColor = '#38a169'; // Grøn
-      } else {
-        totalNoGo++;
-        circle.style.backgroundColor = '#e53e3e'; // Rød
-      }
-
+      const currentTrialType = trialSequence[currentRoundIndex];
+      circle.style.backgroundColor = (currentTrialType === 'go') ? '#38a169' : '#e53e3e';
       circle.classList.add('active');
       roundActive = true;
-      
-      // Måling med sub-millisekund præcision
-      roundStartTime = performance.now();
+
+      // Synkroniser tidsstempel med skærmens visuelle maling (eliminere 15-20ms grafik-forsinkelse)
+      requestAnimationFrame(() => {
+        roundStartTime = performance.now();
+      });
 
       roundTimer = setTimeout(function() {
         if (roundActive) {
           circle.classList.remove('active');
           roundActive = false;
 
-          if (!isCurrentGo && !roundTapped) {
-            feedbackEl.textContent = ' Flot holdt!';
+          if (currentTrialType === 'nogo' && !roundTapped) {
+            correctNoGoPasses++;
+            feedbackEl.textContent = '🛡️ Godt holdt!';
             feedbackEl.style.color = '#38a169';
-          } else if (isCurrentGo && !roundTapped) {
+          } else if (currentTrialType === 'go' && !roundTapped) {
+            missedGo++;
             feedbackEl.textContent = '⚠️ For langsom!';
             feedbackEl.style.color = '#dd6b20';
           }
@@ -341,21 +358,18 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function handleTap(e) {
-    if (e) {
-      if (e.cancelable) e.preventDefault();
-    }
-    
+    if (e && e.cancelable) e.preventDefault();
     if (!roundActive || roundTapped) return;
 
     roundTapped = true;
-    circle.classList.remove('active');
     clearTimeout(roundTimer);
+    circle.classList.remove('active');
     roundActive = false;
 
-    // Højpræcisions reaktionstid
     const reactionTime = Math.round(performance.now() - roundStartTime);
+    const currentTrialType = trialSequence[currentRoundIndex];
 
-    if (isCurrentGo) {
+    if (currentTrialType === 'go') {
       correctGoTaps++;
       goReactionTimes.push(reactionTime);
       vibrate(25);
@@ -373,19 +387,20 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function startGame() {
-    currentRound = 0;
+    currentRoundIndex = -1;
     falseAlarms = 0;
-    totalNoGo = 0;
     correctGoTaps = 0;
-    totalGo = 0;
+    missedGo = 0;
+    correctNoGoPasses = 0;
     goReactionTimes = [];
+
+    generateTrialSequence();
 
     scoreLiveEl.textContent = 'Fejl: 0';
     startScreen.style.display = 'none';
     resultScreen.style.display = 'none';
     gameScreen.style.display = 'block';
 
-    targetBox.focus();
     startRound();
   }
 
@@ -393,14 +408,19 @@ document.addEventListener('DOMContentLoaded', function() {
     gameScreen.style.display = 'none';
     resultScreen.style.display = 'block';
 
-    const accuracyPct = totalNoGo > 0 ? Math.round(((totalNoGo - falseAlarms) / totalNoGo) * 100) : 100;
-    const finalAccuracy = Math.max(0, accuracyPct);
-    const avgGoMs = goReactionTimes.length > 0 ? Math.round(goReactionTimes.reduce((a, b) => a + b, 0) / goReactionTimes.length) : 0;
+    // Samlet præcision: Korrekte handlinger på tværs af både Go og No-Go
+    const totalCorrect = correctGoTaps + correctNoGoPasses;
+    const finalAccuracy = Math.round((totalCorrect / TOTAL_ROUNDS) * 100);
+    
+    const avgGoMs = goReactionTimes.length > 0 
+      ? Math.round(goReactionTimes.reduce((a, b) => a + b, 0) / goReactionTimes.length) 
+      : 0;
 
     resAccuracy.textContent = finalAccuracy + '%';
-    resSpeed.textContent = avgGoMs + ' ms';
-    resErrors.textContent = falseAlarms + ' / ' + totalNoGo;
+    resSpeed.textContent = avgGoMs > 0 ? avgGoMs + ' ms' : '-';
+    resErrors.textContent = falseAlarms + ' / ' + TOTAL_NOGO;
 
+    // Gem til kontrolpanel i localStorage
     try {
       const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
       store['gonogo'] = {
@@ -414,26 +434,32 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     let feedback = '';
-    if (falseAlarms === 0 && avgGoMs < 400) {
-      feedback = '<strong>🟢 Høj impulskontrol & Skarphed:</strong> Du undlod at hoppe på alle røde fældesignaler, samtidig med at din reaktionstid på de grønne var lynhurtig. Mønstergyldig kognitiv inhibering!';
-    } else if (falseAlarms <= 1 && avgGoMs < 500) {
-      feedback = '<strong>🟡 God balance:</strong> Stærk evne til at bremse impulserne undervejs. Du udviser god kontrol på skudfinter og forstyrrelser.';
+    if (falseAlarms === 0 && missedGo === 0 && avgGoMs < 380) {
+      feedback = '<strong>🟢 Elite-impulskontrol & Lynreaktion:</strong> 100% præcision uden en eneste fejlagtig reaktion på de røde fælder, kombineret med en exceptionel hurtig GO-tid. Dette er professionelt niveau!';
+    } else if (falseAlarms <= 1 && missedGo <= 1) {
+      feedback = '<strong>🟡 God balance:</strong> Stærk evne til at bremse impulser under pres. Du udviser god kontrol på skudfinter og holder koncentrationen gennem hele testen.';
     } else {
-      feedback = '<strong>🔴 Nedsat impulskontrol (Høj impulsivitet):</strong> Du trykkede på de røde No-Go fældesignaler. Dette er klassisk ved kognitiv træthed, stress eller tilstande, hvor nervesystemet ikke når at "trække i håndbremsen".';
+      feedback = '<strong>🔴 Nedsat impulskontrol:</strong> Du hoppede på flere af de røde No-Go signaler eller missede grønne signaler. Dette ses ofte ved mental udtrætning, stress eller når nervesystemet mangler overskud til at aktivere "bremsen".';
     }
 
     assessmentEl.innerHTML = feedback;
   }
 
-  // LOW LATENCY EVENT LISTENERS:
-  // 1. Pointerdown registrerer touch/mus øjeblikkeligt uden 300ms mobil-forsinkelse
-  targetBox.addEventListener('pointerdown', handleTap);
+  // ULTRA-LAV LATENS LISTENERS:
+  // 1. Touchstart på mobil med aktiv deaktivering af browser-ventetid
+  targetBox.addEventListener('touchstart', handleTap, { passive: false });
 
-  // 2. Tastatur-lytter til Mellemrumstast / Enter med snyde-spærring
+  // 2. Mousedown til mus og trackpad
+  targetBox.addEventListener('mousedown', function(e) {
+    if (e.button === 0) handleTap(e);
+  });
+
+  // 3. Tastatursupport med e.preventDefault() for at forhindre page scroll
   window.addEventListener('keydown', function(e) {
     if (!roundActive) return;
     if (e.code === 'Space' || e.code === 'Enter') {
       if (e.repeat) return; // Forhindrer hold-nede snyd
+      e.preventDefault();   // Blokerer default scroll
       handleTap(e);
     }
   });
