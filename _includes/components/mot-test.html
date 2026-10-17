@@ -1,0 +1,537 @@
+<!-- Multiple Object Tracking (MOT) Test Component -->
+<div class="mot-wrapper" id="mot-container">
+
+  <!-- START SKÆRM -->
+  <div class="mot-card" id="mot-start-screen">
+    <div class="mot-icon-badge"><i class="fas fa-project-diagram"></i></div>
+    <h3>Dynamisk Overblik (MOT)</h3>
+    <p>Mål dit "split vision" og hjernens evne til at følge flere modspillere på én gang.</p>
+    
+    <div class="mot-rule-box">
+      <strong>⚠️ Opgaven:</strong><br>
+      1. Kig efter de <strong>3 bolde</strong>, der lyser op i starten.<br>
+      2. Følg de 3 mål med øjnene, mens alle boldene svæver rundt i 8 sekunder.<br>
+      3. Når boldene stopper, tap på de 3 rigtige.
+    </div>
+
+    <button class="btn btn--primary btn--large" id="start-mot-btn">Start Test (5 Runder)</button>
+  </div>
+
+  <!-- SPIL SKÆRM -->
+  <div class="mot-card" id="mot-game-screen" style="display: none; padding: 1rem;">
+    <div class="mot-top-bar">
+      <span class="mot-progress" id="mot-progress">Runde 1 af 5</span>
+      <span class="mot-instruction" id="mot-instruction">Forbereder...</span>
+    </div>
+
+    <!-- CANVAS TIL SPILLET -->
+    <div class="mot-canvas-container">
+      <canvas id="mot-canvas" width="400" height="300"></canvas>
+    </div>
+
+    <div class="mot-controls" style="display: none;" id="mot-controls">
+      <button class="btn btn--success" id="confirm-mot-btn" disabled>Bekræft Valg</button>
+    </div>
+  </div>
+
+  <!-- RESULTAT SKÆRM -->
+  <div class="mot-card" id="mot-result-screen" style="display: none;">
+    <div class="mot-icon-badge" id="mot-res-icon"><i class="fas fa-brain"></i></div>
+    <h3>Dit Dynamiske Overblik</h3>
+
+    <div class="mot-results-grid">
+      <div class="mot-res-box">
+        <span class="res-label">Præcision:</span>
+        <span class="res-value" id="res-mot-accuracy">0%</span>
+      </div>
+      <div class="mot-res-box">
+        <span class="res-label">Fundne mål:</span>
+        <span class="res-value" id="res-mot-hits">0 / 15</span>
+      </div>
+    </div>
+
+    <div class="mot-assessment" id="mot-assessment">
+      <!-- Genereres dynamisk -->
+    </div>
+
+    <div class="result-actions">
+      <button class="btn btn--success" id="retry-mot-btn" type="button">Prøv igen</button>
+      <a href="/sportsvision/" class="btn btn--outline">← Sports Vision Hub</a>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.mot-wrapper {
+  margin: 2rem 0;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.mot-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.mot-icon-badge {
+  width: 56px;
+  height: 56px;
+  background: #e2e8f0;
+  color: #4a5568;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto 1rem auto;
+}
+
+.mot-card h3 {
+  margin: 0 0 0.5rem 0 !important;
+  color: #2d3748;
+}
+
+.mot-rule-box {
+  background: #f7fafc;
+  border-left: 4px solid #4a5568;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  color: #2d3748;
+  font-size: 0.95rem;
+  margin: 1rem 0 1.5rem 0;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.mot-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.mot-progress {
+  background: #e2e8f0;
+  color: #4a5568;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.mot-instruction {
+  font-size: 1rem;
+  color: #2d3748;
+}
+
+.mot-canvas-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  aspect-ratio: 4/3;
+  background-color: #1a202c; /* Mørk baggrund for høj kontrast */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: inset 0 4px 10px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none; /* Slår scrolling/zoom fra på mobilen */
+  -webkit-tap-highlight-color: transparent;
+  cursor: crosshair;
+}
+
+.mot-controls {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mot-results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 1.2rem 0;
+}
+
+.mot-res-box {
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #edf2f7;
+}
+
+.res-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #718096;
+}
+
+.res-value {
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: #2d3748;
+}
+
+.mot-assessment {
+  background: #edf2f7;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.result-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const TOTAL_ROUNDS = 5;
+  const TOTAL_BALLS = 8;
+  const TARGET_COUNT = 3;
+  const TRACKING_TIME = 7000; // 7 sekunder bevægelse pr. runde
+  const SPEED = 2.5; // Boldhastighed
+  
+  let currentRound = 0;
+  let hitsTotal = 0;
+  let state = 'idle'; // idle, reveal, track, select, feedback
+  
+  let balls = [];
+  let animFrameId = null;
+  
+  const startScreen = document.getElementById('mot-start-screen');
+  const gameScreen = document.getElementById('mot-game-screen');
+  const resultScreen = document.getElementById('mot-result-screen');
+  const progressEl = document.getElementById('mot-progress');
+  const instructionEl = document.getElementById('mot-instruction');
+  const canvas = document.getElementById('mot-canvas');
+  const ctx = canvas.getContext('2d');
+  
+  const startBtn = document.getElementById('start-mot-btn');
+  const retryBtn = document.getElementById('retry-mot-btn');
+  const confirmBtn = document.getElementById('confirm-mot-btn');
+  const controlsDiv = document.getElementById('mot-controls');
+
+  // Håndter Canvas skalering og DPI for skarpe kanter
+  function resizeCanvas() {
+    const rect = canvas.parentElement.getBoundingClientRect();
+    canvas.width = rect.width;
+    canvas.height = rect.height;
+  }
+
+  function vibrate(ms) {
+    if (navigator.vibrate) navigator.vibrate(ms);
+  }
+
+  class Ball {
+    constructor(x, y, radius) {
+      this.x = x;
+      this.y = y;
+      this.radius = radius;
+      // Tilfældig startretning
+      let angle = Math.random() * Math.PI * 2;
+      this.vx = Math.cos(angle) * SPEED;
+      this.vy = Math.sin(angle) * SPEED;
+      this.isTarget = false;
+      this.isSelected = false;
+    }
+    
+    update(width, height) {
+      this.x += this.vx;
+      this.y += this.vy;
+
+      // Bounce på vægge
+      if (this.x - this.radius <= 0) { this.x = this.radius; this.vx *= -1; }
+      if (this.x + this.radius >= width) { this.x = width - this.radius; this.vx *= -1; }
+      if (this.y - this.radius <= 0) { this.y = this.radius; this.vy *= -1; }
+      if (this.y + this.radius >= height) { this.y = height - this.radius; this.vy *= -1; }
+    }
+
+    draw(ctx, state) {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+      
+      if (state === 'reveal' && this.isTarget) {
+        ctx.fillStyle = '#dd6b20'; // Orange targets
+        ctx.shadowBlur = 15;
+        ctx.shadowColor = '#dd6b20';
+      } else if (state === 'feedback') {
+        if (this.isTarget && this.isSelected) {
+          ctx.fillStyle = '#38a169'; // Grøn (korrekt)
+        } else if (this.isTarget && !this.isSelected) {
+          ctx.fillStyle = '#dd6b20'; // Orange (missede target)
+        } else if (!this.isTarget && this.isSelected) {
+          ctx.fillStyle = '#e53e3e'; // Rød (Falsk alarm)
+        } else {
+          ctx.fillStyle = '#4a5568'; // Neutral base
+        }
+        ctx.shadowBlur = 0;
+      } else {
+        ctx.fillStyle = '#4a5568'; // Neutral blå/grå
+        ctx.shadowBlur = 0;
+      }
+
+      ctx.fill();
+      
+      // Hvis valgt, vis en lille hvid ring omkring bolden
+      if (this.isSelected && state !== 'idle' && state !== 'track') {
+        ctx.lineWidth = 3;
+        ctx.strokeStyle = '#ffffff';
+        ctx.stroke();
+      }
+      ctx.closePath();
+    }
+  }
+
+  function resolveCollisions() {
+    for (let i = 0; i < balls.length; i++) {
+      for (let j = i + 1; j < balls.length; j++) {
+        let b1 = balls[i];
+        let b2 = balls[j];
+        let dx = b2.x - b1.x;
+        let dy = b2.y - b1.y;
+        let dist = Math.sqrt(dx * dx + dy * dy);
+        
+        if (dist < b1.radius + b2.radius) {
+          // Sikr at de ikke hænger fast i hinanden (overlap resolution)
+          let overlap = (b1.radius + b2.radius) - dist;
+          let nx = dx / dist;
+          let ny = dy / dist;
+          b1.x -= (nx * overlap) / 2;
+          b1.y -= (ny * overlap) / 2;
+          b2.x += (nx * overlap) / 2;
+          b2.y += (ny * overlap) / 2;
+
+          // Simpel elastisk bounce
+          let dot = (b1.vx - b2.vx) * nx + (b1.vy - b2.vy) * ny;
+          if (dot > 0) {
+            b1.vx -= dot * nx;
+            b1.vy -= dot * ny;
+            b2.vx += dot * nx;
+            b2.vy += dot * ny;
+          }
+        }
+      }
+    }
+  }
+
+  function initBalls() {
+    balls = [];
+    const radius = canvas.width > 400 ? 18 : 14; // Skalér boldstørrelse til skærm
+    
+    // Spawn boldene forsvarligt spredt
+    while (balls.length < TOTAL_BALLS) {
+      let x = Math.random() * (canvas.width - radius * 4) + radius * 2;
+      let y = Math.random() * (canvas.height - radius * 4) + radius * 2;
+      
+      let overlap = false;
+      for (let b of balls) {
+        let d = Math.sqrt(Math.pow(x - b.x, 2) + Math.pow(y - b.y, 2));
+        if (d < radius * 3) { overlap = true; break; }
+      }
+      if (!overlap) {
+        balls.push(new Ball(x, y, radius));
+      }
+    }
+
+    // Udvælg 3 targets
+    let targets = 0;
+    while(targets < TARGET_COUNT) {
+      let rIdx = Math.floor(Math.random() * balls.length);
+      if (!balls[rIdx].isTarget) {
+        balls[rIdx].isTarget = true;
+        targets++;
+      }
+    }
+  }
+
+  function gameLoop() {
+    // Ryd skærm
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    if (state === 'track') {
+      resolveCollisions();
+      balls.forEach(b => b.update(canvas.width, canvas.height));
+    }
+
+    balls.forEach(b => b.draw(ctx, state));
+    animFrameId = requestAnimationFrame(gameLoop);
+  }
+
+  function startRound() {
+    currentRound++;
+    progressEl.textContent = `Runde ${currentRound} af ${TOTAL_ROUNDS}`;
+    
+    controlsDiv.style.display = 'none';
+    confirmBtn.disabled = true;
+    
+    resizeCanvas();
+    initBalls();
+
+    // FASE 1: Reveal
+    state = 'reveal';
+    instructionEl.textContent = 'Husk disse 3 mål!';
+    instructionEl.style.color = '#dd6b20';
+    
+    setTimeout(() => {
+      // FASE 2: Tracking
+      state = 'track';
+      instructionEl.textContent = 'Følg boldene!';
+      instructionEl.style.color = '#e2e8f0';
+      
+      setTimeout(() => {
+        // FASE 3: Select
+        state = 'select';
+        instructionEl.textContent = 'Tap på de 3 mål';
+        instructionEl.style.color = '#48bb78';
+        controlsDiv.style.display = 'flex';
+      }, TRACKING_TIME);
+
+    }, 2500); // Reveal vises i 2.5s
+  }
+
+  function checkSelection() {
+    state = 'feedback';
+    controlsDiv.style.display = 'none';
+    
+    let roundHits = 0;
+    balls.forEach(b => {
+      if (b.isTarget && b.isSelected) roundHits++;
+    });
+    hitsTotal += roundHits;
+
+    instructionEl.textContent = roundHits === 3 ? 'Perfekt!' : `Du fandt ${roundHits} af 3`;
+    instructionEl.style.color = roundHits === 3 ? '#38a169' : '#e53e3e';
+
+    setTimeout(() => {
+      if (currentRound >= TOTAL_ROUNDS) {
+        endGame();
+      } else {
+        startRound();
+      }
+    }, 2000); // Vis feedback i 2 sek
+  }
+
+  function endGame() {
+    cancelAnimationFrame(animFrameId);
+    gameScreen.style.display = 'none';
+    resultScreen.style.display = 'block';
+
+    const maxHits = TOTAL_ROUNDS * TARGET_COUNT;
+    const accuracyPct = Math.round((hitsTotal / maxHits) * 100);
+
+    document.getElementById('res-mot-accuracy').textContent = accuracyPct + '%';
+    document.getElementById('res-mot-hits').textContent = `${hitsTotal} / ${maxHits}`;
+
+    // Save to dashboard
+    try {
+      const store = JSON.parse(localStorage.getItem('mp_neuro_results') || '{}');
+      store['mot'] = {
+        value: accuracyPct,
+        display: accuracyPct + '% (' + hitsTotal + ' mål)',
+        date: new Date().toLocaleDateString('da-DK')
+      };
+      localStorage.setItem('mp_neuro_results', JSON.stringify(store));
+    } catch (e) {
+      console.error('Kunne ikke gemme neuro-resultat:', e);
+    }
+
+    const assessmentEl = document.getElementById('mot-assessment');
+    let feedback = '';
+
+    if (hitsTotal >= 14) {
+      feedback = '<strong>🟢 Elite-Overblik:</strong> Fremragende! Din evne til dynamisk delt opmærksomhed er på niveau med professionelle atleter. Du har et vidtåbent radar-syn.';
+    } else if (hitsTotal >= 10) {
+      feedback = '<strong>🟡 Solidt Overblik:</strong> God præstation. Din hjerne håndterer flere samtidige visuelle stimuli godt, med plads til at fange de sidste procenter i kaos.';
+    } else {
+      feedback = '<strong>🔴 Udfordret Split-Vision:</strong> Du mistede ofte tråden. Dette er helt normalt for utrænede personer, men det afslører, at din opmærksomhed nemt kan snydes på banen under pres.';
+    }
+
+    assessmentEl.innerHTML = feedback;
+  }
+
+  // Håndter klik på canvas
+  canvas.addEventListener('pointerdown', function(e) {
+    if (state !== 'select') return;
+    
+    // Beregn musens/fingerens (x,y) i canvas-koordinater
+    const rect = canvas.getBoundingClientRect();
+    // Skalér hvis canvas interne størrelse adskiller sig fra CSS-størrelse
+    const scaleX = canvas.width / rect.width;
+    const scaleY = canvas.height / rect.height;
+    
+    const x = (e.clientX - rect.left) * scaleX;
+    const y = (e.clientY - rect.top) * scaleY;
+
+    // Find klikket bold
+    for (let b of balls) {
+      const dx = x - b.x;
+      const dy = y - b.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      
+      // Hitbox på boldens radius + 5px buffer for fat fingers
+      if (dist <= b.radius + 5) {
+        b.isSelected = !b.isSelected;
+        vibrate(15);
+        break;
+      }
+    }
+
+    // Tjek om brugeren har valgt 3 bolde
+    const selectedCount = balls.filter(b => b.isSelected).length;
+    if (selectedCount === TARGET_COUNT) {
+      confirmBtn.disabled = false;
+    } else {
+      confirmBtn.disabled = true;
+    }
+  });
+
+  startBtn.addEventListener('click', () => {
+    currentRound = 0;
+    hitsTotal = 0;
+    
+    startScreen.style.display = 'none';
+    resultScreen.style.display = 'none';
+    gameScreen.style.display = 'block';
+    
+    if (!animFrameId) gameLoop();
+    startRound();
+  });
+
+  retryBtn.addEventListener('click', () => {
+    currentRound = 0;
+    hitsTotal = 0;
+    
+    resultScreen.style.display = 'none';
+    gameScreen.style.display = 'block';
+    
+    startRound();
+  });
+
+  confirmBtn.addEventListener('click', checkSelection);
+
+  // Resize canvas responsivt ved skærmrotation
+  window.addEventListener('resize', () => {
+    if (gameScreen.style.display === 'block') {
+      resizeCanvas();
+    }
+  });
+});
+</script>

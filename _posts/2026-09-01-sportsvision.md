@@ -47,7 +47,8 @@ Smooth pursuit er øjets evne til at fange et objekt i bevægelse og følge det 
 
 **Typisk problem på banen:** Du mister boldens præcise skru og bane af syne, når den flyver gennem luften.
 
-**Træn det her:** [Åbn Smooth Pursuit Tracker & Læs om Marsden Ball](/smooth-pursuit-synstraening/#widget)
+* **Træn enkeltsporing:** [Åbn Smooth Pursuit Tracker & Læs om Marsden Ball](/smooth-pursuit-synstraening/#widget)
+* **Test sporing af flere modstandere:** [Multiple Object Tracking (MOT)](/multiple-object-tracking/#widget) — Test hvor mange bevægelige mål din hjerne kan holde styr på samtidigt.
 
 ### 3. Samsyn & Dybdesyn (Binokulær kontrol)
 Samsyn handler om, at begge øjne fikserer på *nøjagtig* det samme punkt samtidig. Det er dette samarbejde, der skaber hjernens 3D-dybdesyn og gør dig i stand til at bedømme afstande og fart.
@@ -62,6 +63,7 @@ Det perifere syn reagerer lynhurtigt på bevægelse i udkanten af dit synsfelt. 
 **Typisk problem på banen:** Du får "tunnelsyn", når du bliver træt, og bliver overrumplet af modstandere fra siden.
 
 * **Test dit overblik:** [Tag Schulte Tabel Testen (1-25)](/schulte-tabel/#widget) — Mål din visuelle scanningshastighed og perifere bredde.
+* **Test dit dynamiske overblik:** [Multiple Object Tracking (MOT)](/multiple-object-tracking/#widget) — Mål din evne til at bevare overblikket i et kaotisk spilmiljø.
 * **Træn det her:** [Træn dit periferisyn](/perifert-syn-synstraening/#widget)
 
 ---
@@ -85,14 +87,19 @@ Det perifere syn reagerer lynhurtigt på bevægelse i udkanten af dit synsfelt. 
 
 ---
 
-## Test din fremgang med vores kognitive værktøjer
+## Test din fremgang med vores interaktive værktøjer
 
-Synstræning hænger tæt sammen med din generelle kognitive reaktionsevne. Suppler din synstræning med vores øvrige måleredskaber:
+Synstræning hænger tæt sammen med hjernens generelle reaktionsevne og proceshastighed. Test dine færdigheder med vores specialiserede moduler:
 
-- **[Schulte Tabel Test](/schulte-tabel/):** Mål dit perifere synsfelt og din visuelle søgehastighed i sekunder.
-- **[Reaktionstid Test](/reaktionstid-test/):** Mål din reaktionshastighed på skærmen i millisekunder.
-- **[Time Wall Test](/visuel-forudsigelse/):** Test din evne til at forudsige objekters bevægelse og timing.
-- **[Flanker Fokus Test](/fokus-test/):** Test hvor godt du sorterer udefrakommende visuel støj fra.
+### Sports Vision Tests (Syn & Tracking)
+- **[Multiple Object Tracking (MOT)](/multiple-object-tracking/):** Test din delte opmærksomhed og evne til at følge 3 ud af 8 mål i bevægelse.
+- **[Schulte Tabel Test](/schulte-tabel/):** Mål dit perifere synsfelt og din visuelle scanningshastighed fra 1 til 25.
+
+### Kognitive & Neuromuskulære Tests
+- **[Reaktionstid Test](/reaktionstid-test/):** Mål din visuelle og auditive reaktionshastighed i millisekunder.
+- **[Time Wall Test](/visuel-forudsigelse/):** Test din evne til at forudsige objekters hastighed og bane i "blinde".
+- **[Flanker Fokus Test](/fokus-test/):** Mål din evne til at undertrykke visuel støj og bevare fokus.
+- **[Kognitivt Kontrolpanel](/kognitive-tests/):** Få det samlede overblik over din restitution og neuromuskulære dagsform.
 
 ---
 
