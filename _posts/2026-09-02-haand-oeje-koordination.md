@@ -97,7 +97,7 @@ Jo hurtigere du prøver at udføre bevægelsen, desto kortere tid har hjernen ti
 Ud over Alternate Wall Toss findes der andre tilgængelige felttests til vurdering af arm- og håndkoordination:
 
 * **[Plate Tapping Test (Eurofit)](/eurofit-testbatteri/):** Måler ren overkropshastighed og håndfrekvens ved at flytte den dominante hånd frem og tilbage mellemสอง skiver 50 gange på tid.
-* **[Ruler Drop Test](/kognitive-tests/):** Måler din rene visuelt-motoriske gribereaktion uden skærm-latens.
+* **[Ruler Drop Test](/kognitive-tests/#ruler-test):** Måler din rene visuelt-motoriske gribereaktion uden skærm-latens.
 
 ---
 

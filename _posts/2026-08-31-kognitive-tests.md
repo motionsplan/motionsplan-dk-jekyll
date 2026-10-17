@@ -17,7 +17,7 @@ tags:
   - kognition
   - fysiologi
   - hjernen
-last_modified_at: '2026-08-31T23:59:00Z'
+last_modified_at: '2026-10-17T23:59:00Z'
 toc: true
 faq:
   - question: "Hvad er central nervesystem-træthed (CNS fatigue)?"
@@ -52,9 +52,9 @@ Måler hvor hurtigt dit centrale nervesystem (CNS) sender uforstyrrede elektrisk
 
 | Test | Fysiologisk funktion | Betydning i sport og hverdag |
 |---|---|---|
-| **Simpel Reaktionstid** | Måler den efferente overførselshastighed fra nethinde til motorisk cortex og ud i musklen. | Hvor hurtigt du reagerer på et simpelt visuelt signal eller en startpistol. |
-| **Finger Tapping (CNS Fatigue)** | Måler den maksimale fyringsfrekvens af motoriske enheder fra motorisk cortex. | Den reneste fysiologiske indikator for centralnervesystem-træthed efter tunge løft. |
-| **Ruler Drop Test** | Fysisk felttest af den visuelt-motoriske gribereaktion ud fra tyngdeacceleration ($t = \sqrt{\frac{2d}{g}}$). | Lynhurtig overførsel fra synsindtryk til fysisk gribereaktion helt uden skærm-latens. |
+| **[Simpel Reaktionstid](/reaktionstid-test/)** | Måler den efferente overførselshastighed fra nethinde til motorisk cortex og ud i musklen. | Hvor hurtigt du reagerer på et simpelt visuelt signal eller en startpistol. |
+| **[Finger Tapping (CNS Fatigue)](/cns-fatigue/#widget)** | Måler den maksimale fyringsfrekvens af motoriske enheder fra motorisk cortex. | Den reneste fysiologiske indikator for centralnervesystem-træthed efter tunge løft. |
+| **[Ruler Drop Test](#ruler-test)** | Fysisk felttest af den visuelt-motoriske gribereaktion ud fra tyngdeacceleration ($t = \sqrt{\frac{2d}{g}}$). | Lynhurtig overførsel fra synsindtryk til fysisk gribereaktion helt uden skærm-latens. |
 
 ---
 
@@ -63,10 +63,12 @@ Måler din præfrontale cortex' evne til at analysere, filtrere støj, time hand
 
 | Test | Kognitiv funktion | Betydning i sport og hverdag |
 |---|---|---|
-| **Go / No-Go** | Tester hjernens hæmningskontrol (*response inhibition*) under tids-stress. | Evnen til at undgå at falde for modstanderens finte eller undgå fejlafleveringer. |
-| **Time Wall** | Tester evnen til intern ekstrapolering og tidsmæssig forudsigelse (*anticipation*). | Hvornår du skal starte dit løb, gribe bolden eller time en takling i blinde. |
-| **Flanker Test** | Måler evnen til selektiv opmærksomhed og filtrering af irrelevant visuel støj. | At fastholde blikket på den frie medspiller trods tilskuere og kaotiske forsvarsspillere. |
+| **[Go / No-Go](/impulskontrol-test/)** | Tester hjernens hæmningskontrol (*response inhibition*) under tids-stress. | Evnen til at undgå at falde for modstanderens finte eller undgå fejlafleveringer. |
+| **[Time Wall](/visuel-forudsigelse/)** | Tester evnen til intern ekstrapolering og tidsmæssig forudsigelse (*anticipation*). | Hvornår du skal starte dit løb, gribe bolden eller time en takling i blinde. |
+| **[Flanker Test](/fokus-test/)** | Måler evnen til selektiv opmærksomhed og filtrering af irrelevant visuel støj. | At fastholde blikket på den frie medspiller trods tilskuere og kaotiske forsvarsspillere. |
 | **N-back** | Måler arbejdshukommelsens kapacitet (*Working Memory*) under løbende opdatering. | At fastholde taktiske aftaler og overskue baneåbninger under høj puls. |
+| **[Corsi Grid](/arbejdshukommelse-test/)** | Måler primært visuospatial korttidshukommelse og spændvidde (span). Testen undersøger, hvor mange rumlige placeringer du kan fastholde i hukommelsen på én gang (den rumlige pendant til en klassisk digit span-test med talrækker). Kører man den baglæns (backward Corsi), trækker den også på arbejdshukommelsens manipulationsdel. |
+| **[Stroop-testen](/mental-traethed/)** | En af verdens mest validerede kognitive tests til at måle hjernens overskud og evne til at filtrere forstyrrende informationer (kognitiv inhibering). |
 
 ---
 
@@ -98,7 +100,8 @@ For at omsætte tallene fra kontrolpanelet til bedre træningsbeslutninger bør 
 
 ---
 
-### Ruler Drop Test: Den analoge reaktionstest
+## Ruler Drop Test: Den analoge reaktionstest
+{: id="ruler-test" }
 
 Hvor digitale reaktionstests måler din reaktion på en skærm, måler *Ruler Drop Testen* din direkte visuelt-motoriske gribereaktion med en fysikbaseret beregning. 
 
