@@ -1,0 +1,107 @@
+<div class="ea-calculator-container" style="max-width: 600px; margin: 0 auto; font-family: sans-serif;">
+    
+    <!-- Sektion 1: Stamdata -->
+    <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; background: #fff;">
+        <legend style="margin-top: 0;">1. Indtast stamdata</legend>
+        <div style="display: flex; gap: 15px;">
+            <div style="flex: 1;">
+                <label for="ea-weight" style="display: block; font-size: 0.9em; margin-bottom: 5px;">Vægt (kg)</label>
+                <input type="number" id="ea-weight" placeholder="Fx 65" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" oninput="calculateEA()">
+            </div>
+            <div style="flex: 1;">
+                <label for="ea-fat" style="display: block; font-size: 0.9em; margin-bottom: 5px;">Fedtprocent (%)</label>
+                <input type="number" id="ea-fat" placeholder="Fx 20" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" oninput="calculateEA()">
+            </div>
+        </div>
+    </div>
+
+    <!-- Sektion 2: Energi -->
+    <div class="card" style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; background: #fff;">
+        <legend style="margin-top: 0;">2. Indtast energi (kcal)</legend>
+        <div style="display: flex; gap: 15px;">
+            <div style="flex: 1;">
+                <label for="ea-intake" style="display: block; font-size: 0.9em; margin-bottom: 5px;">Dagligt indtag (kcal)</label>
+                <input type="number" id="ea-intake" placeholder="Fx 2500" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" oninput="calculateEA()">
+            </div>
+            <div style="flex: 1;">
+                <label for="ea-burn" style="display: block; font-size: 0.9em; margin-bottom: 5px;">Træningsforbrug (kcal)</label>
+                <input type="number" id="ea-burn" placeholder="Fx 800" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" oninput="calculateEA()">
+            </div>
+        </div>
+    </div>
+
+    <!-- Sektion 3: Resultat -->
+    <div class="card" id="ea-result-card" style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; background: #f9f9f9; text-align: center; display: none;">
+        <legend style="margin-top: 0;">Din Energitilgængelighed</legend>
+        
+        <div id="ea-score" style="font-size: 2.5em; font-weight: bold; color: #333; margin: 10px 0;">--</div>
+        <div style="font-size: 0.9em; color: #666; margin-bottom: 20px;">kcal pr. kg fedtfri vægt</div>
+
+        <!-- Visuel Indikator (Simpel version) -->
+        <div style="width: 100%; height: 10px; background: linear-gradient(to right, #dc3545 33%, #ffc107 33%, #ffc107 66%, #28a745 66%); border-radius: 5px; position: relative; margin-bottom: 10px;">
+             <!-- Markøren flyttes via JS -->
+             <div id="ea-marker" style="width: 4px; height: 16px; background: black; position: absolute; top: -3px; left: 0%; transition: left 0.3s ease;"></div>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.8em; color: #555;">
+            <span>Lav (< 30)</span>
+            <span>Suboptimal (30-45)</span>
+            <span>Optimal (> 45)</span>
+        </div>
+        
+        <p id="ea-message" style="margin-top: 15px; font-weight: bold;"></p>
+    </div>
+
+    <script>
+        function calculateEA() {
+            const weight = parseFloat(document.getElementById('ea-weight').value);
+            const fat = parseFloat(document.getElementById('ea-fat').value);
+            const intake = parseFloat(document.getElementById('ea-intake').value);
+            const burn = parseFloat(document.getElementById('ea-burn').value);
+
+            // Tjek om alle data er indtastet
+            if (weight > 0 && fat >= 0 && intake > 0 && burn >= 0) {
+                
+                // Udregning
+                const ffw = weight * (1 - (fat / 100));
+                const availableEnergy = intake - burn;
+                let ea = availableEnergy / ffw;
+                
+                // Forhindre negative eller absurde tal
+                if(ea < 0) ea = 0;
+
+                // Vis resultat-kortet
+                document.getElementById('ea-result-card').style.display = 'block';
+                
+                // Opdater tal
+                document.getElementById('ea-score').innerText = ea.toFixed(1);
+
+                // Logik for farver og tekst
+                let message = "";
+                let markerPos = 0;
+
+                if (ea < 30) {
+                    message = "Kritisk lav energitilgængelighed (Risiko for RED-S).";
+                    document.getElementById('ea-message').style.color = "#dc3545";
+                    markerPos = (ea / 30) * 33; // Placer markør i første tredjedel
+                } else if (ea >= 30 && ea <= 45) {
+                    message = "Suboptimal energitilgængelighed.";
+                    document.getElementById('ea-message').style.color = "#d39e00";
+                    markerPos = 33 + (((ea - 30) / 15) * 33); // Placer markør i midten
+                } else {
+                    message = "Optimal energitilgængelighed.";
+                    document.getElementById('ea-message').style.color = "#28a745";
+                    // Cap markøren ved 100% (f.eks. ved EA = 60)
+                    markerPos = Math.min(100, 66 + (((ea - 45) / 15) * 34)); 
+                }
+
+                // Opdater visuel markør
+                document.getElementById('ea-marker').style.left = markerPos + '%';
+                document.getElementById('ea-message').innerText = message;
+
+            } else {
+                // Skjul resultat hvis data mangler
+                document.getElementById('ea-result-card').style.display = 'none';
+            }
+        }
+    </script>
+</div>
