@@ -29,7 +29,7 @@
 
     <!-- Spørgsmål 1 -->
     <div class="who5-step active" data-step="1">
-      <h3 class="who5-question">1. ... har jeg været glad og i godt humør</h3>
+      <div class="who5-question" role="heading" aria-level="3">1. ... har jeg været glad og i godt humør</div>
       <div class="who5-options-grid">
         <button type="button" class="who5-option-btn" data-val="5"><span class="who5-opt-num">5</span> Hele tiden</button>
         <button type="button" class="who5-option-btn" data-val="4"><span class="who5-opt-num">4</span> Det meste af tiden</button>
@@ -42,7 +42,7 @@
 
     <!-- Spørgsmål 2 -->
     <div class="who5-step" data-step="2">
-      <h3 class="who5-question">2. ... har jeg følt mig rolig og afslappet</h3>
+      <div class="who5-question" role="heading" aria-level="3">2. ... har jeg følt mig rolig og afslappet</div>
       <div class="who5-options-grid">
         <button type="button" class="who5-option-btn" data-val="5"><span class="who5-opt-num">5</span> Hele tiden</button>
         <button type="button" class="who5-option-btn" data-val="4"><span class="who5-opt-num">4</span> Det meste af tiden</button>
@@ -55,7 +55,7 @@
 
     <!-- Spørgsmål 3 -->
     <div class="who5-step" data-step="3">
-      <h3 class="who5-question">3. ... har jeg følt mig aktiv og energisk</h3>
+      <div class="who5-question" role="heading" aria-level="3">3. ... har jeg følt mig aktiv og energisk</div>
       <div class="who5-options-grid">
         <button type="button" class="who5-option-btn" data-val="5"><span class="who5-opt-num">5</span> Hele tiden</button>
         <button type="button" class="who5-option-btn" data-val="4"><span class="who5-opt-num">4</span> Det meste af tiden</button>
@@ -68,7 +68,7 @@
 
     <!-- Spørgsmål 4 -->
     <div class="who5-step" data-step="4">
-      <h3 class="who5-question">4. ... er jeg vågnet frisk og udhvilet</h3>
+      <div class="who5-question" role="heading" aria-level="3">4. ... er jeg vågnet frisk og udhvilet</div>
       <div class="who5-options-grid">
         <button type="button" class="who5-option-btn" data-val="5"><span class="who5-opt-num">5</span> Hele tiden</button>
         <button type="button" class="who5-option-btn" data-val="4"><span class="who5-opt-num">4</span> Det meste af tiden</button>
@@ -81,7 +81,7 @@
 
     <!-- Spørgsmål 5 -->
     <div class="who5-step" data-step="5">
-      <h3 class="who5-question">5. ... har min dagligdag været fyldt med ting, der interesserer mig</h3>
+      <div class="who5-question" role="heading" aria-level="3">5. ... har min dagligdag været fyldt med ting, der interesserer mig</div>
       <div class="who5-options-grid">
         <button type="button" class="who5-option-btn" data-val="5"><span class="who5-opt-num">5</span> Hele tiden</button>
         <button type="button" class="who5-option-btn" data-val="4"><span class="who5-opt-num">4</span> Det meste af tiden</button>
@@ -102,7 +102,7 @@
   <!-- Resultat Dashboard (Skjult fra start) -->
   <div class="who5-result-card" id="who5-result-card" style="display: none;">
     <div class="who5-result-header">
-      <h2>Dine Testresultater</h2>
+      <div class="who5-result-title">Dine Testresultater</div>
       <p class="who5-result-subtitle">Målt ud fra WHO-5 Trivselsindeks</p>
     </div>
 
@@ -125,340 +125,6 @@
     <button type="button" class="who5-restart-btn" id="who5-restart-btn">🔄 Tag testen igen</button>
   </div>
 </div>
-
-<style>
-/* CSS STYLES FOR WHO-5 ELEGANT TOOL */
-.who5-app-container {
-  max-width: 680px;
-  margin: 30px auto;
-  background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e2e8f0;
-  overflow: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  color: #1e293b;
-}
-
-.who5-header {
-  padding: 24px 28px 16px;
-  background: #f8fafc;
-  border-bottom: 1px solid #e2e8f0;
-}
-
-.who5-tracker-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
-.who5-badge {
-  background: #e0f2fe;
-  color: #0284c7;
-  font-size: 0.8rem;
-  font-weight: 700;
-  padding: 4px 10px;
-  border-radius: 20px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.who5-step-counter {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #64748b;
-}
-
-/* Dots indikator */
-.who5-dots-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 14px;
-}
-
-.who5-dot {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: #e2e8f0;
-  color: #64748b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.85rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.who5-dot.active {
-  background: #0284c7;
-  color: #ffffff;
-  box-shadow: 0 0 0 4px rgba(2, 132, 199, 0.2);
-}
-
-.who5-dot.completed {
-  background: #10b981;
-  color: #ffffff;
-}
-
-/* Progress bar */
-.who5-progress-bar {
-  height: 6px;
-  background: #e2e8f0;
-  border-radius: 3px;
-  overflow: hidden;
-}
-
-.who5-progress-fill {
-  height: 100%;
-  background: linear-gradient(90deg, #0284c7, #10b981);
-  transition: width 0.4s ease;
-}
-
-/* Body & Wizard Steps */
-.who5-wizard-body {
-  padding: 28px;
-}
-
-.who5-intro-text {
-  font-size: 0.95rem;
-  color: #64748b;
-  margin-bottom: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.who5-step {
-  display: none;
-  animation: fadeIn 0.35s ease-in-out;
-}
-
-.who5-step.active {
-  display: block;
-}
-
-.who5-question {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #0f172a;
-  margin-top: 0;
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-/* Svarkort / knapper */
-.who5-options-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.who5-option-btn {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 14px 18px;
-  background: #ffffff;
-  border: 2px solid #e2e8f0;
-  border-radius: 10px;
-  font-size: 0.98rem;
-  font-weight: 500;
-  color: #334155;
-  text-align: left;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.who5-option-btn:hover {
-  border-color: #38bdf8;
-  background: #f0f9ff;
-  transform: translateY(-1px);
-}
-
-.who5-option-btn.selected {
-  border-color: #0284c7;
-  background: #e0f2fe;
-  color: #0369a1;
-  font-weight: 600;
-}
-
-.who5-opt-num {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  background: #f1f5f9;
-  border-radius: 6px;
-  margin-right: 14px;
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: #475569;
-  flex-shrink: 0;
-}
-
-.who5-option-btn.selected .who5-opt-num {
-  background: #0284c7;
-  color: #ffffff;
-}
-
-/* Navigation footer */
-.who5-nav-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 24px;
-  padding-top: 16px;
-  border-top: 1px solid #f1f5f9;
-}
-
-.who5-nav-btn {
-  padding: 10px 18px;
-  border-radius: 8px;
-  border: none;
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.who5-nav-btn.prev {
-  background: #f1f5f9;
-  color: #475569;
-}
-
-.who5-nav-btn.prev:hover:not(:disabled) {
-  background: #e2e8f0;
-}
-
-.who5-nav-btn:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
-
-.who5-auto-hint {
-  font-size: 0.8rem;
-  color: #94a3b8;
-  font-style: italic;
-}
-
-/* Resultat Card */
-.who5-result-card {
-  padding: 32px 28px;
-  text-align: center;
-  animation: fadeIn 0.4s ease-in-out;
-}
-
-.who5-result-header h2 {
-  margin: 0;
-  font-size: 1.6rem;
-  color: #0f172a;
-}
-
-.who5-result-subtitle {
-  color: #64748b;
-  margin-top: 4px;
-  font-size: 0.95rem;
-}
-
-.who5-score-display {
-  margin: 24px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.who5-score-circle {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  border: 6px solid #0284c7;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 12px;
-  background: #f0f9ff;
-}
-
-.who5-score-number {
-  font-size: 2.6rem;
-  font-weight: 800;
-  line-height: 1;
-  color: #0284c7;
-}
-
-.who5-score-max {
-  font-size: 0.85rem;
-  color: #64748b;
-  margin-top: 2px;
-}
-
-.who5-status-badge {
-  display: inline-block;
-  padding: 6px 16px;
-  border-radius: 20px;
-  font-weight: 700;
-  font-size: 0.95rem;
-  margin-top: 4px;
-}
-
-.status-green { background: #dcfce7; color: #166534; }
-.status-yellow { background: #fef9c3; color: #854d0e; }
-.status-red { background: #fee2e2; color: #991b1b; }
-
-.who5-result-description {
-  background: #f8fafc;
-  padding: 18px;
-  border-radius: 12px;
-  color: #334155;
-  font-size: 0.98rem;
-  line-height: 1.5;
-  text-align: left;
-  margin-bottom: 20px;
-  border-left: 4px solid #0284c7;
-}
-
-.who5-action-box {
-  text-align: left;
-  margin-bottom: 24px;
-}
-
-.who5-restart-btn {
-  padding: 12px 24px;
-  background: #0f172a;
-  color: #ffffff;
-  border: none;
-  border-radius: 10px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-.who5-restart-btn:hover {
-  background: #334155;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@media (max-width: 480px) {
-  .who5-wizard-body, .who5-header, .who5-result-card {
-    padding: 18px;
-  }
-  .who5-question {
-    font-size: 1.1rem;
-  }
-  .who5-option-btn {
-    padding: 12px;
-    font-size: 0.9rem;
-  }
-}
-</style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
