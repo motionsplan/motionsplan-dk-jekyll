@@ -2,10 +2,8 @@
 title: Liftosaur - app til styrketræning
 seo_title: Liftosaur - app til styrketræning
 permalink: /liftosaur/
-description: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende
-  bruge det til træningslog.
-excerpt: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende
-  bruge det til træningslog.
+description: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende bruge det til træningslog.
+excerpt: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende bruge det til træningslog.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1656774950529-44a6153521ee.jpg
@@ -16,11 +14,11 @@ categories:
 tags:
 - styrketræning
 - træningslog
-last_modified_at: '2024-10-12T10:14:14Z'
+last_modified_at: '2026-10-12T10:14:14Z'
 gallery_program:
-- image_path: /assets/images/liftosaur/liftosaur-choose-program.png
-- image_path: /assets/images/liftosaur/liftosaur-choose-program-start.jpg
-- image_path: /assets/images/liftosaur/liftosaur-choose-program-start-1.png
+- image_path: /assets/images/liftosaur/liftosaur-choose-program-1.jpg
+- image_path: /assets/images/liftosaur/liftosaur-choose-program-2.jpg
+- image_path: /assets/images/liftosaur/liftosaur-choose-program-3.jpg
 gallery_rm:
 - image_path: /assets/images/liftosaur/liftosaur-edit-1rm.png
 - image_path: /assets/images/liftosaur/liftosaur-edit-1rm-2.png
@@ -35,7 +33,7 @@ Jeg har i mange år brugt et regneark til at dele træningsprogrammer til mine e
 
 Jeg har længe drømt om, at jeg let kunne skrive en workout i tekstformat, og teksten kan læses af en app og få det til at ligne et godt træningsprogram.
 
-Det kan du delvist gøre med [weightxreps.net](https://weightxreps.net/). Her får du en [god træningslog](/traeningsdagbog-app/). Men den er ikke helt perfekt.
+Der er mange [gode træningslogs](/traeningsdagbog-app/). Men de er ikke helt perfekte.
 
 For jeg vil gerne have en app, hvor jeg kan lave et træningsprogram på forhånd.
 
@@ -48,12 +46,6 @@ Og det kan [Liftosaur](https://www.liftosaur.com).
 ## Opret en profil i Liftosaur
 
 Du kan bruge Liftosaur med og uden konto. Der er masser af fordele i at bruge det sammen med en konto, så appen virker på tværs af dine enheder og på din computer.
-
-## Tjek indstillingerne
-
-Du skal lige ind og tjekke indstillingerne. Jeg foretrækker, at de metriske betegnelser `kg` og `cm`.
-
-![](/assets/images/liftosaur/liftosaur-settings.png)
 
 Så er du faktisk klar til at gå i gang.
 
