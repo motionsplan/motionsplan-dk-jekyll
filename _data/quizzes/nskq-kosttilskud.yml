@@ -1,0 +1,87 @@
+- question: "Bør atleter altid tage et tilskud af C-vitamin?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Et velafbalanceret indtag af frugt og grønt dækker behovet for C-vitamin. Kronisk overdosering af antioxidanter kan tilmed hæmme kroppens naturlige træningsadaptationer."
+
+- question: "Bør man tage B-vitamintilskud, hvis ens energiniveau føles lavt?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. B-vitaminer indeholder ikke energi i sig selv, men indgår som co-enzymer i stofskiftet. Medmindre der foreligger en diagnosticeret mangel, giver ekstra tilskud intet energiboost."
+
+- question: "Bør atleter, der oplever muskelkramper under træning, tage salttabletter?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Muskelkramper under træning skyldes overvejende neuromuskulær udtrætning snarere end systemisk elektrolytmangel, og salttabletter forebygger sjældent kramper."
+
+- question: "Bør jerntabletter tages af alle atleter, der føler sig trætte og blege?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Jernoverskud kan være giftigt for lever og hjerte. Jerntilskud bør udelukkende indtages efter en lægelig blodprøve (serum-ferritin), der dokumenterer klinisk jernmangel."
+
+- question: "Er alle kosttilskud på markedet testet for sikkerhed og garanteret fri for forurening/doping?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Kosttilskud godkendes ikke som lægemidler før salg. Risikoen for utilsigtet forurening med udeklarerede eller forbudte stoffer (fx prohormoner eller stimulanser) er veldokumenteret."
+
+- question: "Varedeklarationer og markedsføring på kosttilskud kan indeholde påstande, der ikke er videnskabeligt sande."
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Mange producenter benytter aggressive markedsføringspåstande med tvivlsom eller mangelfuld evidens."
+
+- question: "Får kreatin hjernen til at opfatte træningen som mindre anstrengende?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Kreatin virker perifert i musklerne ved at øge depoterne af fosfokreatin til hurtig ATP-gendannelse. Det er koffein – ikke kreatin – der sænker den centrale opfattelse af anstrengelse (RPE)."
+
+- question: "Gør koffein musklerne i stand til at arbejde hårdere uden brug af ekstra ilt?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Koffeins primære virkningsmekanisme er central: Det blokerer adenosin-receptorer i centralnervesystemet, hvilket mindsker træthedsfølelsen og øger motorisk fyring."
+
+- question: "Gør rødbedejuice (uorganisk nitrat), at musklerne bliver mindre ømme efter træning?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Nitrat omdannes til nitrogenoxid (NO), som udvider blodkarrene og sænker iltomkostningen ved submaksimalt arbejde, men det fjerner ikke muskelømhed (DOMS)."
+
+- question: "Kan Beta-Alanin mindske mængden af syre, musklerne ophober under intensiv træning?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Beta-alanin øger musklernes koncentration af carnosin, som fungerer som en intracellulær buffer mod ophobning af brintioner (H+) under hårdt anaerobt arbejde af 1-4 minutters varighed."
+
+- question: "Hvilket af følgende stoffer mangler tilstrækkelig videnskabelig evidens for at forbedre kropskomposition eller præstation?"
+  options:
+    - "Ferulasyre (Ferulic acid)"
+    - "Koffein"
+    - "Bikarbonat (Natron)"
+    - "Leucin"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ferulasyre. Mens koffein, bikarbonat og leucin er veldokumenterede i sportsernæring, mangler ferulasyre robust klinisk dokumentation."
+
+- question: "Hvilket af følgende stoffer er forbudt af det internationale antidopingagentur (WADA)?"
+  options:
+    - "Testosteron"
+    - "Koffein"
+    - "Bikarbonat"
+    - "Carnitin"
+    - "Ved ikke"
+  answer: "Korrekt svar: Testosteron. Anabole androgene steroider som testosteron er strengt forbudte. Koffein og bikarbonat er fuldt lovlige præstationsfremmere."

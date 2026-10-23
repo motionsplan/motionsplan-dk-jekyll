@@ -406,7 +406,7 @@ Har du en specifik løbetid, du gerne vil regne ud fra? Så har vi lavet et [væ
 
 {% include motionsplan/faq.html %}
 
-{% include components/flashcards.html cards=page.flashcards%}
+{% include components/flashcards.html cards=page.flashcards %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

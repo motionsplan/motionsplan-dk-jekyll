@@ -1,0 +1,90 @@
+- question: "Calcium (kalk) er den primære strukturelle bestanddel af knoglerne."
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Calcium danner sammen med fosfat krystaller af hydroxyapatit, som giver knogler og tænder deres mekaniske hårdhed og styrke."
+
+- question: "Vitamin C fungerer som en antioxidant i kroppen."
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Vitamin C (ascorbinsyre) er en kraftig vandopløselig antioxidant, der neutraliserer frie radikaler og beskytter celler mod oxidativt stress."
+
+- question: "Er Thiamin (Vitamin B1) nødvendigt for at transportere ilt rundt til musklerne?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Det er jern (som del af hæmoglobin og myoglobin), der transporterer ilt. Thiamin (B1) er derimod et afgørende co-enzym i kulhydratstofskiftet."
+
+- question: "Er jern nødvendigt for at omdanne mad direkte til brugbar cellulær energi?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. B-vitaminerne er de primære co-enzymer ved energiomsætningen. Jerns primære opgave er binding og transport af ilt i blodet og musklerne."
+
+- question: "Fremmer Vitamin D kroppens optagelse af calcium i tarmen?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Aktivt D-vitamin (calcitriol) stimulerer dannelsen af calcium-bindende proteiner i tarmens slimhinde og øger dermed calciumoptagelsen markant."
+
+- question: "Er kød, kylling og fisk gode kilder til mineralet zink?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Animalske fødevarer (særligt kød, skaldyr og fjerkræ) er rige på zink med høj biotilgængelighed."
+
+- question: "Er fuldkornsprodukter gode kilder til Vitamin C?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Fuldkorn indeholder B-vitaminer, mineraler og fibre, men indeholder stort set intet C-vitamin, som primært findes i frugt, bær og grøntsager."
+
+- question: "Er frugt og grøntsager generelt de bedste kilder til calcium i kosten?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Mejeriprodukter (mælk, ost, yoghurt) eller berigede plantedrikke er de primære calciumkilder. Selvom grønne grøntsager som kål indeholder calcium, kræves der urealistisk store mængder for at dække dagsbehovet."
+
+- question: "Er fede fisk (som laks, sild og makrel) en god kilde til Vitamin D?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Da Vitamin D er fedtopløseligt, findes det naturligt i høje koncentrationer i fedtrige fisk og fiskeolier."
+
+- question: "Har kvinder, der har regelmæssig menstruation, brug for mere jern i kosten end mænd?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Det månedlige blodtab under menstruationen øger jernbehovet betydeligt hos kvinder i den fødedygtige alder (typisk 15 mg/dag mod 9-10 mg/dag for mænd)."
+
+- question: "Har unge atleter i alderen 15 til 24 år kun brug for ca. 500 mg calcium om dagen?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. I denne aldersgruppe opbygges den maksimale spidsknoglemasse (peak bone mass), og anbefalingen er markant højere: mellem 1000 og 1300 mg calcium pr. dag."
+
+- question: "Kan en atlet i god form, som i forvejen spiser en sund og varieret kost, forbedre sin præstation ved at indtage ekstra vitaminer og mineraler fra maden?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Når behovet for vitaminer og mineraler først er dækket, giver et yderligere overskud ikke øget præstation eller hurtigere restitution."
+
+- question: "Indeholder vitaminer energi (kalorier eller kilojoule)?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Vitaminer er mikronæringsstoffer og indeholder 0 kalorier. De er nødvendige for at kroppen kan forbrænde maden, men tilfører ikke brændstof i sig selv."

@@ -1,8 +1,7 @@
 ---
 layout: single
 title: 'Fitnessinstruktør: Hvad skal du vide som instruktør?'
-excerpt: Som fitnessinstruktør skal du vide noget om fysiologi, anatomi, bevægelsesanalyse, øvelser, træningslære, kredsløbstræning,
-  styrketræning, doping og træning af særlige målgrupper.
+excerpt: Som fitnessinstruktør skal du vide noget om fysiologi, anatomi, bevægelsesanalyse, øvelser, træningslære, kredsløbstræning, styrketræning, doping og træning af særlige målgrupper.
 permalink: /fitnessinstruktoer/
 redirect_from:
 - /fitnessinstruktor/
@@ -87,6 +86,43 @@ feature_row_rm_calculator:
   url: /rm-beregner/
   btn_label: Beregn din styrke
   btn_class: btn--info
+quiz_modules:
+  - id: fysiologi
+    title: Fysiologi
+    icon: 🧬
+    key: fysiologi
+  - id: anatomi
+    title: Anatomi
+    icon: 🦴
+    key: anatomi
+  - id: traeningslaere
+    title: Træningslære
+    icon: 📖
+    key: traeningslaere
+  - id: kredsloebstraening
+    title: Kredsløbstræning
+    icon: ❤️
+    key: kredsloebstraening
+  - id: traeningsoevelser
+    title: Træningsøvelser
+    icon: 💪
+    key: traeningsoevelser
+  - id: programlaegning
+    title: Programlægning
+    icon: 📝
+    key: programlaegning
+  - id: maalgrupper
+    title: Specifikke målgrupper
+    icon: 🎯
+    key: specifikke_maalgrupper
+  - id: skader
+    title: Skadesbehandling
+    icon: 🩹
+    key: skadesbehandling
+  - id: doping
+    title: Information om doping
+    icon: ⚠️
+    key: doping
 ---
 
 {{ page.excerpt }}
@@ -272,12 +308,13 @@ På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv so
 
 ## 🤔 Quiz om fitnessinstruktør
 
-{% include components/fitnessinstruktoer-quiz.html %}
-
 På Vejle Idrætshøjskole underviser vi i [Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktoer/). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
 
+{% include components/flashcard-decks.html decks=page.quiz_modules %}
+
 <details markdown="1" class="faq">
-  <summary>🤔 Prøv selv en quiz - Sådan virker det</summary>
+  <summary>🤔 Prøv quizzen i Quizizz</summary>
+
 De forskellige quiz om fitness er lavet på Quizizz.
 
 {% include figure image_path="/assets/images/quizizz.jpg" alt="quizizz screenshot" caption="Sådan kan du prøve quizzen om de forskellige emner i fitnessinstruktør." %}
@@ -286,11 +323,12 @@ De forskellige quiz om fitness er lavet på Quizizz.
 2. Vælg "Preview" hvis du vil øve selv, og "Live Game", hvis I vil spille mod hinanden.
 3. I vælger selv, om I vil have en Quizizz konto for at spille.
 4. Svar på spørgsmålene.
-</details>
 
 [<i class="fas fa-bone"></i> Anatomi](https://quizizz.com/admin/quiz/5856b0c7aef9e6020e94438c){: .btn .btn--large .btn--warning }
 [<i class="fas fa-heart-pulse"></i> Fysiologi](https://quizizz.com/admin/quiz/5b995e2702a076001910328f){: .btn .btn--large .btn--success }
 [<i class="fas fa-dumbbell"></i> Træningslære](https://quizizz.com/admin/quiz/5dd7a9787ce184001b624109){: .btn .btn--large .btn--info }
+
+</details>
 
 ## Anbefalelsesværdige bøger som fitnessinstruktør
 

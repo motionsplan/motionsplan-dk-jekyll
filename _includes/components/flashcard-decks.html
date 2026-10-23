@@ -1,0 +1,189 @@
+{% comment %}
+  Multi-Deck Flashcard Hub Component
+  Brug: {% include components/flashcard-decks.html decks=page.quiz_modules %}
+{% endcomment %}
+
+<style>
+  .mp-deck-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+    margin: 1.5rem 0 2rem 0;
+  }
+
+  .mp-cat-btn {
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    color: #1e293b;
+    padding: 12px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    gap: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+
+  .mp-cat-btn:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+    transform: translateY(-1px);
+  }
+
+  .mp-cat-btn.active {
+    background: #eff6ff;
+    border-color: #2563eb;
+    color: #1d4ed8;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-cat-btn-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.3;
+  }
+
+  /* Progress Badge */
+  .mp-deck-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    color: #64748b;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 999px;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+  }
+
+  .mp-cat-btn.active .mp-deck-badge {
+    background: #dbeafe;
+    border-color: #bfdbfe;
+    color: #1d4ed8;
+  }
+
+  .mp-cat-btn.is-completed {
+    border-color: #86efac;
+  }
+
+  .mp-cat-btn.is-completed .mp-deck-badge {
+    background: #dcfce7;
+    border-color: #bbf7d0;
+    color: #15803d;
+  }
+</style>
+
+<!-- DECK CHOOSER -->
+<div class="mp-deck-grid" role="tablist">
+  {% for deck in include.decks %}
+    {% assign cards = site.data.quizzes[deck.key] %}
+    {% assign total_count = cards.size | default: 0 %}
+    <button type="button" 
+            class="mp-cat-btn {% if forloop.first %}active{% endif %}" 
+            data-cat="{{ deck.id }}"
+            role="tab"
+            aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
+      <span class="mp-cat-btn-title">
+        <span class="mp-deck-icon">{{ deck.icon }}</span>
+        <span>{{ deck.title }}</span>
+      </span>
+      <span class="mp-deck-badge" data-deck-badge="{{ deck.id }}">
+        <span class="mp-done-count">0</span>/<span class="mp-total-count">{{ total_count }}</span>
+      </span>
+    </button>
+  {% endfor %}
+</div>
+
+<!-- DECK PANELS -->
+{% for deck in include.decks %}
+  {%- assign cards = site.data.quizzes[deck.key] -%}
+  {%- if cards -%}
+    <div id="quiz-{{ deck.id }}" 
+         class="mp-quiz-panel" 
+         role="tabpanel"
+         style="display: {% if forloop.first %}block{% else %}none{% endif %};">
+      {% include components/flashcards.html cards=cards %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+<!-- DECK SWITCHER LOGIK -->
+<script>
+(function() {
+  function switchDeck(catId, btnElement) {
+    if (!catId) return;
+
+    // 1. Skjul alle paneler og vis det valgte
+    document.querySelectorAll('.mp-quiz-panel').forEach(panel => {
+      panel.style.display = 'none';
+    });
+
+    const targetPanel = document.getElementById('quiz-' + catId);
+    if (targetPanel) {
+      targetPanel.style.display = 'block';
+    }
+
+    // 2. Opdater aktiv knap og ARIA-tags
+    document.querySelectorAll('.mp-cat-btn').forEach(btn => {
+      btn.classList.remove('active');
+      btn.setAttribute('aria-selected', 'false');
+    });
+
+    if (!btnElement) {
+      btnElement = document.querySelector(`.mp-cat-btn[data-cat="${catId}"]`);
+    }
+
+    if (btnElement) {
+      btnElement.classList.add('active');
+      btnElement.setAttribute('aria-selected', 'true');
+    }
+
+    // 3. Opdater adressebar (URL hash)
+    if (window.location.hash.replace('#', '') !== catId) {
+      if (history.pushState) {
+        history.pushState(null, null, '#' + catId);
+      } else {
+        location.hash = '#' + catId;
+      }
+    }
+  }
+
+  function syncFromHash() {
+    const hash = window.location.hash.replace('#', '');
+    if (hash && document.getElementById('quiz-' + hash)) {
+      switchDeck(hash);
+    }
+  }
+
+  function initDeckSwitcher() {
+    // Event delegation: Lytter på klik i knap-griddet
+    document.querySelector('.mp-deck-grid')?.addEventListener('click', (e) => {
+      const btn = e.target.closest('.mp-cat-btn');
+      if (btn && btn.dataset.cat) {
+        switchDeck(btn.dataset.cat, btn);
+      }
+    });
+
+    // Læs URL hash ved start (fx hvis siden tilgås via #anatomi)
+    syncFromHash();
+
+    // Håndter browserens frem/tilbage-knapper
+    window.addEventListener('hashchange', syncFromHash);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initDeckSwitcher);
+  } else {
+    initDeckSwitcher();
+  }
+})();
+</script>

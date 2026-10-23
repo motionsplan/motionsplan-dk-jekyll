@@ -1,0 +1,59 @@
+- question: "Hvor mange gram ren alkohol (ethanol) er der i en standardgenstand?"
+  options:
+    - "8 - 14 gram (i Danmark standardiseret til 12 gram)"
+    - "1 - 2 gram"
+    - "30 - 50 gram"
+    - "Ved ikke"
+  answer: "Korrekt svar: 8 - 14 gram. I international litteratur regnes 10-12 g ethanol som en genstand (Sundhedsstyrelsen i Danmark definerer 1 genstand som præcis 12 gram alkohol)."
+
+- question: "Hvilken af følgende mængder svarer til en standardgenstand?"
+  options:
+    - "Et lille glas spiritus / shots (ca. 30 - 40 ml ren spiritus på 40 %)"
+    - "En kvart flaske rødvin (175 ml)"
+    - "En hel fadøl / pint stærk øl (425 - 500 ml)"
+    - "Ved ikke"
+  answer: "Korrekt svar: Et lille glas spiritus (30-40 ml på 40 %). Både 175 ml vin og en stor fadøl indeholder væsentligt mere end én standardgenstand."
+
+- question: "Kan alkoholindtag føre til vægtøgning?"
+  options:
+    - "Ja"
+    - "Nej"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ja. Alkohol er meget energitæt (29 kJ / 7 kcal pr. gram), og kroppen prioriterer forbrændingen af ethanol først, hvilket nedsætter fedtforbrændingen."
+
+- question: "Hvor mange genstande anbefaler sundhedsmyndigheder højst, at man indtager på en enkelt dag?"
+  options:
+    - "Højst 2 genstande"
+    - "Højst 3 genstande"
+    - "Højst 4 genstande"
+    - "Ved ikke"
+  answer: "Korrekt svar: Højst 2 genstande (i de officielle nordiske og internationale retningslinjer anbefales det at begrænse indtaget til maks. 2 genstande på samme dag)."
+
+- question: "Hvis man ikke drikker i løbet af ugen, er det så uproblematisk at drikke 5 eller flere genstande fredag eller lørdag?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. 'Binge drinking' belaster hjerte, lever og kredsløb kraftigt og ophæver restitutionen, uanset om man har været afholdende i hverdagene."
+
+- question: "Kan et stort alkoholindtag forringe kroppens evne til at hele sportsskader?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Alkohol øger vasodilatation (hvilket forværrer hævelser og blødninger i akut skadet væv) og hæmmer muskelproteinsyntesen samt immunforsvarets reparationsprocesser."
+
+- question: "Gør alkohol, at man tisser mere (virker vanddrivende)?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Alkohol hæmmer udskillelsen af det antidiuretiske hormon (ADH/vasopressin) fra hypofysen, hvilket medfører øget urinproduktion og risiko for dehydrering."
+
+- question: "Hvordan defineres 'binge drinking' (episorisk druk) typisk i sundhedsvidenskaben?"
+  options:
+    - "At drikke 4-5 eller flere genstande ved samme lejlighed"
+    - "At drikke 2 eller flere genstande ved samme lejlighed"
+    - "At drikke 7-8 eller flere genstande ved samme lejlighed"
+    - "Ved ikke"
+  answer: "Korrekt svar: 4-5 eller flere genstande ved samme lejlighed. Dette niveau hæver promillen til over 0,8 og øger risikoen for ulykker og fysiologiske skader markant."

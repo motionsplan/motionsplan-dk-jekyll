@@ -1,0 +1,90 @@
+- question: "Hvilket næringsstof indeholder mest energi (kJ / kalorier) pr. 100 gram?"
+  options:
+    - "Fedt"
+    - "Kulhydrat"
+    - "Protein"
+    - "Ved ikke"
+  answer: "Korrekt svar: Fedt. Fedt indeholder ca. 37 kJ (9 kcal) pr. gram, mens kulhydrat og protein kun indeholder ca. 17 kJ (4 kcal) pr. gram."
+
+- question: "Gavner den lavest mulige kropsvægt altid udholdenhedspræstationen på lang sigt?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Kronisk lav vægt eller lav energitilgængelighed (REDs) fører på sigt til hormonforstyrrelser, svækket knogletæthed, nedsat immunforsvar og tab af præstationsevne."
+
+- question: "Er det at spise mere protein den vigtigste kostændring, hvis man vil opbygge mere muskelmasse?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Et tilstrækkeligt samlet energiindtag (kaloriebalance/overskud) og et progressivt mekanisk træningsstimulus er mindst lige så vigtigt som et højt proteinindtag."
+
+- question: "Kan et kalorieoverskud skabt af protein gøre, at man tager fedt på?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Selvom protein koster mere energi at fordøje (højere termisk effekt), vil et vedvarende kalorieoverskud over tid uundgåeligt føre til fedtlagring."
+
+- question: "Er det en god strategi ved vægttab at udskifte kalorietætte fødevarer med fiberrige grøntsager?"
+  options:
+    - "Ja"
+    - "Nej"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ja. Grøntsager har lav energitæthed, højt vand- og fiberindhold og mætter derfor meget for få kalorier."
+
+- question: "Er det en god strategi ved vægttab at spise margarine i stedet for smør?"
+  options:
+    - "Nej"
+    - "Ja"
+    - "Ved ikke"
+  answer: "Korrekt svar: Nej. Margarine og smør har omtrent samme høje fedt- og kalorieindhold (~700-750 kcal pr. 100 g). Fedtsyresammensætningen er forskellig, men kaloriebesparelsen er minimal."
+
+- question: "Er det en god strategi ved vægttab at udskifte yoghurt, frugt og müslibarer med proteinbarer og shakes?"
+  options:
+    - "Nej"
+    - "Ja"
+    - "Ved ikke"
+  answer: "Korrekt svar: Nej. Kommercielle proteinbarer er ofte meget kalorietætte og mætter mindre pr. kalorie end f.eks. magre mejeriprodukter og frisk frugt."
+
+- question: "Hjælper det på appetitreguleringen under vægttab at vælge kulhydrater med et lavt glykæmisk indeks (GI)?"
+  options:
+    - "Ja"
+    - "Nej"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ja. Lav-GI kulhydrater (som fuldkorn og bælgfrugter) nedbrydes langsommere, hvilket giver mere stabilt blodsukker og længerevarende mæthedsfølelse."
+
+- question: "Hvis en atlet ønsker at tabe sig, bør vedkommende primært:"
+  options:
+    - "Spise færre kalorier, end kroppen forbrænder"
+    - "Spise under 50 g kulhydrat pr. dag"
+    - "Spise under 20 g fedt pr. dag"
+    - "Ved ikke"
+  answer: "Korrekt svar: Spise færre kalorier, end kroppen forbrænder. Vægttab kræver et stabilt, moderat kalorieunderskud. Ekstreme restriktioner på enkelte makronæringsstoffer er ikke nødvendige."
+
+- question: "For at sikre at energibehovet dækkes, bør atleter:"
+  options:
+    - "Planlægge kosten efter alder, køn, kropsstørrelse, sportsgren og træningsmængde"
+    - "Spise udelukkende efter deres naturlige sult- og mæthedssignaler"
+    - "Spise mindst 2000 kalorier (8400 kJ) om dagen"
+    - "Spise flest mulige kulhydratrige fødevarer"
+    - "Ved ikke"
+  answer: "Korrekt svar: Planlægge kosten efter alder, køn, kropsstørrelse, sportsgren og træningsmængde. Træningsinduceret appetitundertrykkelse kan snyde sultfornemmelsen hos hårdt trænende."
+
+- question: "Hvilket restitutionsmåltid er bedst for en atlet, der vil opbygge muskelmasse?"
+  options:
+    - "Pasta med magert oksekød og grøntsagssauce, plus en dessert af frugt, yoghurt og nødder"
+    - "En 'mass gainer' proteinshake og 3-4 røræg"
+    - "Et stort stykke grillet kylling med salat (agurk, tomat, salatblade)"
+    - "En stor bøf med spejlæg"
+    - "Ved ikke"
+  answer: "Korrekt svar: Pasta med magert oksekød og grøntsagssauce, plus dessert med yoghurt, frugt og nødder. Det leverer både komplet protein til proteinsyntesen og kulhydrater til genopfyldning af glykogen."
+
+- question: "Hvilket restitutionsmåltid er bedst for en atlet, der vil reducere kropsvægten?"
+  options:
+    - "Et blandet måltid med en moderat portion kød og kulhydrat (fx pasta med magert kød og grønt) plus en stor salat"
+    - "En grøn salat uden dressing (kun agurk, tomat og salatblade)"
+    - "En ren valleproteinshake (WPI) rørt op i vand"
+    - "Ved ikke"
+  answer: "Korrekt svar: Et blandet måltid med en moderat portion kød og kulhydrat plus en stor salat. Det sikrer restitution, bevarer muskelmassen og mætter godt, uden at næringsstoffer udelukkes."

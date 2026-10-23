@@ -1,0 +1,217 @@
+- question: "En atlet, der træner udholdenhedstræning ved moderat til høj intensitet i ca. 2 timer, bør dagligt indtage:"
+  options:
+    - "5 - 7 g kulhydrat pr. kg kropsvægt (stigende op til 10 g/kg ved ekstra hårde pas/konkurrence)"
+    - "1 - 3 g kulhydrat pr. kg kropsvægt"
+    - "15 - 25 % af det samlede daglige kalorieindtag som kulhydrat"
+    - "75 - 85 % af det samlede daglige kalorieindtag som kulhydrat"
+    - "Ved ikke"
+  answer: "Korrekt svar: 5 - 7 g kulhydrat pr. kg kropsvægt. Ved 1-3 timers daglig moderat til hård udholdenhedstræning kræves 5–7 g/kg/dag for at holde muskelglykogenet fyldt op."
+
+- question: "Er 1 mellemstor banan nok kulhydrat til optimal restitution efter 1 times hård konditionstræning (for en atlet på ca. 70 kg)?"
+  options:
+    - "Ikke nok"
+    - "Tilstrækkeligt"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ikke nok. En banan indeholder kun ca. 20-25 g kulhydrat. Efter 1 times hård aerob træning anbefales ca. 1,0-1,2 g kulhydrat pr. kg kropsvægt (~70-85 g for en person på 70 kg)."
+
+- question: "Er 1 kop kogt quinoa og 1 dåse tun nok kulhydrat til restitution efter 1 times hård konditionstræning (70 kg atlet)?"
+  options:
+    - "Ikke nok"
+    - "Tilstrækkeligt"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ikke nok. En kop quinoa leverer kun ca. 35-40 g kulhydrat og tun intet. Det dækker kun omkring halvdelen af det anbefalede restitutionsbehov for kulhydrat."
+
+- question: "Er 1 kop yoghurt naturel nok kulhydrat til restitution efter 1 times hård konditionstræning (70 kg atlet)?"
+  options:
+    - "Ikke nok"
+    - "Tilstrækkeligt"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ikke nok. En kop almindelig yoghurt indeholder kun ca. 10-12 g kulhydrat (laktose), hvilket er alt for lidt til effektiv glykogenresyntese."
+
+- question: "Er 1 dåse bagte bønner (baked beans) på to skiver brød nok kulhydrat til restitution efter 1 times hård konditionstræning (70 kg atlet)?"
+  options:
+    - "Tilstrækkeligt"
+    - "Ikke nok"
+    - "Ved ikke"
+  answer: "Korrekt svar: Tilstrækkeligt. En dåse bagte bønner plus to skiver brød leverer tilsammen ca. 70-80 g kulhydrat, hvilket rammer det optimale mål på ~1,0-1,2 g/kg."
+
+- question: "Hvilken af disse fødevarer indeholder flest kulhydrater?"
+  options:
+    - "1 kop (168 g) kogte ris"
+    - "2 skiver hvidt sandwichbrød"
+    - "1 mellemstor (150 g) kogt kartoffel"
+    - "1 mellemstor (150 g) moden banan"
+    - "Ved ikke"
+  answer: "Korrekt svar: 1 kop kogte ris. En kop kogte ris indeholder ca. 45-50 g kulhydrat, mens de andre valgmuligheder typisk indeholder mellem 20 og 30 g."
+
+- question: "Har kroppen brug for fedt i kosten til at understøtte immunforsvaret og modstå sygdom?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Essentielle fedtsyrer og fedtopløselige vitaminer (A, D, E) er fundamentale for en sund immunfunktion og cellemembranernes integritet."
+
+- question: "Bør atleter aldrig spise mere end 20 g fedt om dagen?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Et fedtindtag under 20 g/dag er ekstremt restriktivt, skadeligt for hormonproduktionen (fx testosteron) og medfører mangel på essentielle fedtsyrer."
+
+- question: "Når vi øger træningsintensiteten, stiger den procentvise andel af fedt, vi forbrænder som brændstof."
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Ved stigende intensitet skifter kroppen markant over mod anaerob og aerob forbrænding af kulhydrater (glykogen), mens fedtforbrændingens procentvise andel falder drastisk."
+
+- question: "Når vi træner ved meget lav intensitet (fx gang eller roligt tempo), bruger kroppen primært fedt som brændstof."
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Ved lav intensitet er ilttilgængeligheden rigelig, og lipolysen leverer den største procentdel af energien."
+
+- question: "Er cheddarost en fødevare med et højt fedtindhold?"
+  options:
+    - "Ja"
+    - "Nej"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ja. Fast ost som cheddar består typisk af 30-35 % fedt, og over 60-70 % af energien i osten kommer fra fedt."
+
+- question: "Er margarine en fødevare med et højt fedtindhold?"
+  options:
+    - "Ja"
+    - "Nej"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ja. Margarine består af ca. 70-80 % rent fedt."
+
+- question: "Er blandede nødder en fødevare med et højt fedtindhold?"
+  options:
+    - "Ja"
+    - "Nej"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ja. Nødder indeholder ca. 50-60 % fedt (overvejende sunde enkelt- og flerumættede fedtsyrer)."
+
+- question: "Er honning en fødevare med et højt fedtindhold?"
+  options:
+    - "Nej"
+    - "Ja"
+    - "Ved ikke"
+  answer: "Korrekt svar: Nej. Honning indeholder 0 % fedt og består næsten udelukkende af simple sukkerarter (fruktose og glukose) samt vand."
+
+- question: "Er protein det primære brændstof, som musklerne forbrænder under træning?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Kulhydrat og fedt er musklernes primære energikilder. Protein bidrager normalt kun med under 5 % af energiforbruget under træning."
+
+- question: "Kan vegetariske atleter dække deres proteinbehov fuldt ud uden brug af proteintilskud?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Ved at kombinere bælgfrugter, fuldkorn, nødder, frø (og evt. æg og mejeriprodukter) kan vegetarer uden problemer dække deres aminosyre- og proteinbehov."
+
+- question: "Har en erfaren atlet med mange års træning bag sig brug for mere protein end en ung atlet, der lige er startet med hård træning?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Begyndere oplever en voldsom stigning i muskelnedbrydning og reparation, mens erfarne atleter udnytter protein mere effektivt og ofte har et lavere eller uændret relativt proteinbehov."
+
+- question: "Har kroppen en øvre grænse for, hvor meget protein den kan udnytte til muskelproteinsyntese (MPS) pr. måltid?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Muskelproteinsyntesen mættes typisk ved ca. 20-40 g højkvalitetsprotein pr. måltid (den såkaldte 'muscle full'-effekt); overskydende aminosyrer forbrændes som energi."
+
+- question: "Dækker en afbalanceret kost med nok kalorier proteinbehovet for langt de fleste atleter?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Når det samlede kaloriebehov dækkes gennem en varieret kost, vil det totale proteinindtag automatisk være tilstrækkeligt for størstedelen af atleter."
+
+- question: "Hvilken af disse fødevarer indeholder mest protein?"
+  options:
+    - "100 g råt kyllingebryst uden skind"
+    - "2 hele æg"
+    - "30 g mandler"
+    - "Ved ikke"
+  answer: "Korrekt svar: 100 g råt kyllingebryst. Kyllingebryst indeholder ca. 22-24 g protein, 2 æg giver ca. 12 g, og 30 g mandler giver ca. 6 g."
+
+- question: "Proteinbehovet for en 100 kg veltrænet styrkeatlet er tættest på:"
+  options:
+    - "150 g pr. dag (1,5 g/kg)"
+    - "100 g pr. dag (1,0 g/kg)"
+    - "500 g pr. dag (5,0 g/kg)"
+    - "Så meget som overhovedet muligt uden grænse"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ca. 150 g pr. dag (1,5 g/kg). Forskningen viser, at et indtag på 1,4-2,0 g/kg/dag dækker behovet for maksimal muskelvækst hos styrkeatleter."
+
+- question: "Giver 100 g kyllingebryst nok protein til at maksimere muskelvæksten efter et styrketræningspas?"
+  options:
+    - "Tilstrækkeligt"
+    - "Ikke nok"
+    - "Ved ikke"
+  answer: "Korrekt svar: Tilstrækkeligt. 100 g kyllingebryst giver over 20 g komplet kvalitetsprotein med rigelige mængder leucin til at udløse maksimal muskelproteinsyntese."
+
+- question: "Giver 30 g gul skæreost nok protein til at maksimere muskelvæksten efter et styrketræningspas?"
+  options:
+    - "Ikke nok"
+    - "Tilstrækkeligt"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ikke nok. 30 g skæreost indeholder kun ca. 7-8 g protein, hvilket er for lidt til at stimulere muskelproteinsyntesen optimalt efter træning."
+
+- question: "Giver 1 kop bagte bønner (baked beans) nok protein til at maksimere muskelvæksten efter et styrketræningspas?"
+  options:
+    - "Ikke nok"
+    - "Tilstrækkeligt"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ikke nok. En kop bønner indeholder ca. 12-14 g protein med et lavere leucinindhold, hvilket ikke er nok til at udløse maksimal proteinsyntese alene."
+
+- question: "Giver 1/2 kop kogt quinoa nok protein til at maksimere muskelvæksten efter et styrketræningspas?"
+  options:
+    - "Ikke nok"
+    - "Tilstrækkeligt"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ikke nok. En halv kop kogt quinoa indeholder kun ca. 4 g protein."
+
+- question: "Indeholder en oksekødsbøf alle kroppens essentielle aminosyrer i tilstrækkelige mængder?"
+  options:
+    - "Ja"
+    - "Nej"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ja. Oksekød er en komplet proteinkilde med alle essentielle aminosyrer."
+
+- question: "Indeholder æg alle kroppens essentielle aminosyrer i tilstrækkelige mængder?"
+  options:
+    - "Ja"
+    - "Nej"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ja. Æg regnes for en guldstandard inden for komplet protein med meget høj biologisk værdi."
+
+- question: "Indeholder linser alene alle kroppens essentielle aminosyrer i fuldt dækkende proportioner?"
+  options:
+    - "Nej"
+    - "Ja"
+    - "Ved ikke"
+  answer: "Korrekt svar: Nej. Bælgfrugter som linser har et lavt indhold af visse essentielle svovlholdige aminosyrer (f.eks. methionin) og skal suppleres med andre fødevarer (som kornprodukter) for at være komplette."
+
+- question: "Indeholder komælk alle kroppens essentielle aminosyrer i tilstrækkelige mængder?"
+  options:
+    - "Ja"
+    - "Nej"
+    - "Ved ikke"
+  answer: "Korrekt svar: Ja. Mælkeprotein (kasein og valle) indeholder alle essentielle aminosyrer i optimale mængder."
+
+- question: "Mængden af protein i skummetmælk sammenlignet med sødmælk er:"
+  options:
+    - "Omtrent den samme"
+    - "Meget mindre i skummetmælk"
+    - "Meget mere i skummetmælk"
+    - "Ved ikke"
+  answer: "Korrekt svar: Omtrent den samme. Når fedtet fjernes fra mælken, ændres proteinmængden stort set ikke (begge indeholder ca. 3,4-3,5 g protein pr. 100 ml)."

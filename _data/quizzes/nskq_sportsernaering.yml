@@ -1,0 +1,96 @@
+- question: "Hvorfor bør atleter drikke vand under træning?"
+  options:
+    - "Alle de nævnte årsager (holde plasmavolumen stabil, forhindre tør mund og sikre svedproduktion)"
+    - "Kun for at holde blodets plasmavolumen stabilt"
+    - "Kun for at undgå tørhed i munden"
+    - "Kun for at sikre kroppens evne til at svede"
+    - "Ved ikke"
+  answer: "Korrekt svar: Alle de nævnte årsager. Væskeindtag vedligeholder blodvolumen, muliggør effektiv varmeregulerende svedproduktion og afhjælper ubehagelig mundtørhed under træning."
+
+- question: "Hvad anbefaler sportsernæringseksperter vedrørende atleters væskeindtag?"
+  options:
+    - "At drikke efter en individuel plan baseret på vægtændringer under træning i et lignende klima"
+    - "At drikke 50 - 100 ml fast hvert 15. - 20. minut"
+    - "At sutte på isterninger frem for at drikke under træning"
+    - "Altid at drikke sportsdrik frem for vand under al træning"
+    - "Ved ikke"
+  answer: "Korrekt svar: At drikke efter en individuel plan baseret på vægttab under træning. Svedrater varierer enormt fra person til person, så en personlig væskeplan baseret på vejedata før/efter træning er guldstandarden."
+
+- question: "Hvor meget natrium (salt) bør væske til hydrering under længerevarende træning indeholde?"
+  options:
+    - "Mindst 11 - 25 mmol/L (~ 250 - 575 mg/L)"
+    - "Mindst 4 - 8 mmol/L (~ 90 - 185 mg/L)"
+    - "Intet salt (0 mg/L)"
+    - "Ved ikke"
+  answer: "Korrekt svar: Mindst 11 - 25 mmol/L (~ 250 - 575 mg/L). Natrium stimulerer glukose- og vandoptagelsen i tyndtarmen, fastholder tørstfornemmelsen og modvirker hyponatriæmi."
+
+- question: "Hvad bør atleter primært spise i timerne før en vigtig konkurrence?"
+  options:
+    - "Fødevarer med et højt indhold af væske og kulhydrater"
+    - "Fødevarer med et højt indhold af væske, fedt og kulhydrater"
+    - "Fødevarer med et højt indhold af væske, fibre og kulhydrater"
+    - "Ved ikke"
+  answer: "Korrekt svar: Væske og kulhydrater. Måltidet før konkurrence skal fylde glykogen- og væskedepoterne uden at belaste maven unødigt; fedt og store mængder fibre bør begrænses for at undgå mavekramper."
+
+- question: "Gør indtagelse af kulhydrater under træning det sværere at opbygge muskelmasse og styrke?"
+  options:
+    - "Uenig"
+    - "Enig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Uenig. Kulhydrater under træning hæmmer ikke muskelopbygning eller styrkefremgang; tværtimod kan de opretholde blodsukkeret og præstationsevnen i lange pas."
+
+- question: "Bør man ved konkurrencer/træning af 60 - 90 minutters varighed indtage 30 - 60 g kulhydrat i timen?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. For kontinuerlig højintensiv aktivitet over 60 minutters varighed anbefaler konsensusretningslinjerne 30–60 g letoptagelige kulhydrater i timen."
+
+- question: "Hjælper indtagelse af kulhydrater under træning med at holde blodsukkerniveauet stabilt?"
+  options:
+    - "Enig"
+    - "Uenig"
+    - "Ved ikke"
+  answer: "Korrekt svar: Enig. Eksogent tilført kulhydrat under træning modvirker fald i blodglukose og skåner leverens glykogendepoter."
+
+- question: "Nogle atleter får maveproblemer, når de indtager energi under træning. Hvad kan forværre disse mavesmerter?"
+  options:
+    - "At indtage koncentrerede energigels uden tilstrækkeligt vand frem for en færdigblandet sportsdrik"
+    - "At drikke små mængder vand ad gangen"
+    - "At drikke sportsdrikke med flere forskellige kulhydrattyper (fx fruktose og glukose)"
+    - "Ved ikke"
+  answer: "Korrekt svar: At tage energigels uden nok væske. Hypertoniske geler trækker væske ind i tarmen ved osmose, hvilket forsinker ventrikeltømningen og udløser mavekramper og kvalme."
+
+- question: "Hvad bør atleter primært indtage under selve konkurrencen/kampen?"
+  options:
+    - "Væske og kulhydrater"
+    - "Væske, fibre og fedt"
+    - "Væske og protein"
+    - "Ved ikke"
+  answer: "Korrekt svar: Væske og kulhydrater. Dette leverer hurtig tilgængelig energi til arbejdende muskler uden at forsinke fordøjelsen med protein eller fedt."
+
+- question: "Hvad er den bedste snack at indtage under et hårdt træningspas på 90 minutter?"
+  options:
+    - "En moden banan"
+    - "En proteinshake"
+    - "2 kogte æg"
+    - "En håndfuld nødder"
+    - "Ved ikke"
+  answer: "Korrekt svar: En moden banan. Bananen leverer letfordøjelige, hurtige kulhydrater (glukose og fruktose) med minimalt fedt og protein, som ellers ville ligge tungt i maven."
+
+- question: "Hvad bør et måltid lige efter en hård konkurrence eller træning primært indeholde?"
+  options:
+    - "Kulhydrat og protein"
+    - "Protein, kulhydrat og fedt"
+    - "Kun protein"
+    - "Kun kulhydrat"
+    - "Ved ikke"
+  answer: "Korrekt svar: Kulhydrat og protein. Kulhydraterne genopfylder de tømte muskel- og leverglykogendepoter, mens proteinet leverer aminosyrer til reparation og opbygning af muskelvæv."
+
+- question: "Hvor meget protein anbefaler eksperter, at atleter indtager efter et styrketræningspas?"
+  options:
+    - "Ca. 0,3 g/kg kropsvægt (~ 15 - 25 g for de fleste)"
+    - "Ca. 1,0 g/kg kropsvægt (~ 50 - 100 g for de fleste)"
+    - "Ca. 1,5 g/kg kropsvægt (~ 100 - 150 g for de fleste)"
+    - "Ved ikke"
+  answer: "Korrekt svar: 0,3 g/kg kropsvægt (~ 15 - 25 g for de fleste). Doser herover (typisk over 20-30 g protein af høj biologisk kvalitet) giver kun marginal ekstra stimulering af muskelproteinsyntesen i et enkelt måltid."
