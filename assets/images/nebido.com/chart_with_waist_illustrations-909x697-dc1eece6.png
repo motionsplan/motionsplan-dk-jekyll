@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page not found | Grünenthal</title>
+
+  <style>
+
+    html {
+      border: 0;
+      font: inherit;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+      font-family: sans-serif;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+      background: #fefefe;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 1rem;
+      line-height: 1.35rem;
+      color: #0a0a0a;
+      font-weight: 400;
+      font-family: visuelt-regular, Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+
+    h1 {
+      font-weight: 700;
+      font-family: visuelt-medium, Arial, sans-serif;
+      font-size: 3.5rem;
+      margin-bottom: 4rem;
+      padding: 0;
+      color: #00a059;
+    }
+
+    h2 {
+      font-size: 2.375rem;
+      line-height: 2.75rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-family: visuelt-medium, Arial, sans-serif;
+      font-weight: 700;
+    }
+
+    a {
+      border: 0;
+      font: inherit;
+      font-size: 1rem;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+      padding: 0;
+      background-color: transparent;
+      -webkit-text-decoration-skip: objects;
+      font-family: visuelt-medium, Arial, sans-serif;
+      color: #00a059;
+      font-weight: 700;
+      text-decoration: underline;
+      position: relative;
+      display: inline-block;
+    }
+
+    p {
+      border: 0;
+      font: inherit;
+      font-size: 1rem;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+      margin: 0;
+      margin-bottom: 1.75rem;
+      line-height: 1.7rem;
+    }
+
+    a:focus {
+      outline: 2px solid #00a059;
+      outline-offset: 2px;
+    }
+
+    .inner {
+      max-width: 75rem;
+      margin: 0 auto
+    }
+
+    img {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+    }
+
+    .logo {
+      margin-bottom: 100px;
+    }
+
+      .logo img {
+        width: 225px;
+      }
+
+    header {
+      margin-top: 50px;
+    }
+
+    .error__box {
+      max-width: 1000px;
+    }
+
+
+    @font-face {
+      font-family: visuelt-medium;
+      font-style: normal;
+      font-weight: 400;
+      src: url(/error/fonts/visuelt-medium.eot);
+      src: url(/error/fonts/visuelt-medium.eot?#iefix) format("embedded-opentype"), url(/error/fonts/visuelt-medium.woff) format("woff"), url(/error/fonts/visuelt-medium.woff2) format("woff2"), url(/error/fonts/visuelt-medium.ttf) format("truetype");
+    }
+
+    @font-face {
+      font-family: visuelt-regular;
+      font-style: normal;
+      font-weight: 400;
+      src: url(/error/fonts/visuelt-regular.eot);
+      src: url(/error/fonts/visuelt-regular.eot?#iefix) format("embedded-opentype"), url(/error/fonts/visuelt-regular.woff) format("woff"), url(/error/fonts/visuelt-regular.woff2) format("woff2"), url(/error/fonts/visuelt-regular.ttf) format("truetype");
+    }
+  </style>
+
+</head>
+<body>
+  <div class="error_page" role="main" aria-labelledby="error-title">
+    <div class="inner">
+      <header class="logo">
+        <a title="Grünenthal Homepage" href="/" aria-label="Go to Grünenthal homepage">
+          <img src="/error/logo-grunenthal--dark.svg" alt="Grünenthal Logo">
+        </a>
+      </header>
+      <main>
+        <section class="error__container">
+          <h1 id="error-title">Error 404</h1>
+          <div class="error__box">
+            <h2>Page Not Found</h2>
+            <p>
+              We can’t seem to find the page you are looking for. The requested page/URL was not found on the server. <br>
+              It probably no longer exists, or it was a typing mistake. <br>
+              If you have entered the URL manually, please check the spelling and try again.
+            </p>
+            <p>
+              If you consider this to be a server malfunction or need information about Grünenthal, please contact <a title="Grünenthal's general contact" aria-label="Send an email to Grünenthal's general contact info@grunenthal.com" href="mailto:info@grunenthal.com">info@grunenthal.com</a>. <br>
+              Product-related questions can be addressed to <a title="Product inquiries" aria-label="Send an email to product inquiries at mim@grunenthal.com" href="mailto:mim@grunenthal.com">mim@grunenthal.com</a>. <br>
+              If you wish to report an adverse event, please email <a title="Grünenthal drug safety" aria-label="Send an email to report an adverse event to drugsafety@grunenthal.com" href="mailto:drugsafety@grunenthal.com">drugsafety@grunenthal.com</a>.
+            </p>
+            <p>We are sorry for this inconvenience!</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
