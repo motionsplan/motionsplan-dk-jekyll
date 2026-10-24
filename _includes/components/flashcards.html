@@ -227,14 +227,14 @@ Sti: _includes/components/flashcards.html
   </div>
 
   <!-- SLUT-BOKS -->
-  <div class="mp-stack-complete" style="display: none;">
-    <div class="mp-complete-badge">🎉 REPETITION GENNEMFØRT</div>
-    <h3>Dine svar er gemt!</h3>
-    <p>Gennemgangen hjælper dig med at flytte det, du lige har læst, over i langtidshukommelsen.</p>
+  <div class="mp-stack-complete" style="display: none; padding: 24px; text-align: center; border: 1.5px solid #e2e8f0; border-radius: 12px; background: #ffffff; min-height: 250px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+    <div class="mp-complete-badge" style="display: inline-block; background: #dcfce7; color: #15803d; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; margin-bottom: 12px;">🎉 MODUL GENNEMFØRT</div>
+    
+    <!-- JavaScriptet indsætter nu resultatboks og genstart-knap her via et kompakt grid -->
+    <div class="mp-complete-dynamic-content" style="width: 100%; max-width: 400px;"></div>
 
-    <div class="mp-complete-cta-box">
-      <p>📌 <strong>Tip:</strong> Bogmærk repetitions-siden for at gennemgå dine kort, når de er klar igen:</p>
-      <a href="/repetition/" class="mp-btn-cta">Gå til Mine Flashcards ➔</a>
+    <div class="mp-complete-cta-box" style="margin-top: 16px; font-size: 0.85rem; color: #64748b;">
+      Vil du repetere i fremtiden? <a href="/repetition/" style="color: #2563eb; font-weight: 600; text-decoration: none;">Gå til Mine Flashcards ➔</a>
     </div>
   </div>
 
