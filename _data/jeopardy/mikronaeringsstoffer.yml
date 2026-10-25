@@ -1,0 +1,13 @@
+title: "Vitaminer & Mineraler"
+icon: "🥦"
+questions:
+  - q: "Mængden af energi (kalorier eller kilojoule), som vitaminer tilfører kroppen direkte."
+    a: "Hvad er 0 kalorier?"
+  - q: "Det fedtopløselige vitamin, der findes i fede fisk, og som fremmer kroppens optagelse af calcium i tarmen."
+    a: "Hvad er Vitamin D?"
+  - q: "Mineralet, som kvinder i den fødedygtige alder har et markant højere dagsbehov for end mænd pga. menstruation."
+    a: "Hvad er jern (typisk 15 mg/dag mod 9-10 mg for mænd)?"
+  - q: "Kød, fjerkræ og fisk er særligt rige kilder til dette mineral med høj biotilgængelighed."
+    a: "Hvad er zink?"
+  - q: "Krystalstrukturen, som calcium og fosfat danner i knogler og tænder for at give mekanisk styrke."
+    a: "Hvad er hydroxyapatit?"

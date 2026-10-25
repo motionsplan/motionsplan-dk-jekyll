@@ -1,0 +1,13 @@
+title: "Alkohol og krop"
+icon: "🍺"
+questions:
+  - q: "Antallet af gram ren alkohol (ethanol), der findes i én dansk standardgenstand."
+    a: "Hvad er 12 gram? (internationalt ofte 8-14 g)"
+  - q: "Mængden af energi målt i kalorier (kcal), som ét gram alkohol indeholder."
+    a: "Hvad er 7 kcal (29 kJ)?"
+  - q: "Det maksimale antal genstande, sundhedsmyndighederne anbefaler, at man højst indtager på en enkelt dag."
+    a: "Hvad er højst 2 genstande?"
+  - q: "Den sundhedsvidenskabelige definition på 'binge drinking' (episorisk druk) ved samme lejlighed."
+    a: "Hvad er 4-5 eller flere genstande?"
+  - q: "Hormonet fra hypofysen som alkohol hæmmer, hvilket medfører øget vandladning og risiko for dehydrering."
+    a: "Hvad er det antidiuretiske hormon (ADH / vasopressin)?"

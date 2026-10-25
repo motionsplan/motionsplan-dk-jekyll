@@ -1,0 +1,1152 @@
+{% comment %}
+-----------------------------------------------------------------------------
+MOTIONSPLAN.DK - JEOPARDY STORSKÆRM
+Sti: _includes/components/jeopardy.html
+Brug: 
+  Alle kategorier:  {% include components/jeopardy.html %}
+  Udvalgte emner:   {% include components/jeopardy.html categories="alkohol, traeningsmyter, kosttilskud" %}
+-----------------------------------------------------------------------------
+{% endcomment %}
+
+{% assign allowed_filter = include.categories | default: page.jeopardy_categories %}
+{% if allowed_filter and allowed_filter.first == nil %}
+  {% assign allowed_filter = allowed_filter | split: "," %}
+{% endif %}
+
+<div class="mp-jeopardy-launcher-box">
+  <div class="mp-jeopardy-launcher">
+    <div class="mp-jeopardy-icon">📺</div>
+    <div class="mp-jeopardy-text">
+      <div class="mp-jeopardy-title">Jeopardy (Storskærm)</div>
+      <div class="mp-jeopardy-desc" id="mp-jeopardy-launcher-desc">Klassisk spilleplade for 2-4 hold med pointtildeling og tur-styring.</div>
+    </div>
+    
+    <div class="mp-jeopardy-launcher-actions" id="mp-jeopardy-launcher-actions">
+      <button type="button" class="mp-btn-launch-jeopardy" onclick="MPJeopardy.openLobby()">Opsæt Spilleplade</button>
+    </div>
+  </div>
+
+  <script type="application/json" id="mp-jeopardy-data">
+    [
+      {% assign first_cat = true %}
+      {% for item in site.data.jeopardy %}
+        {% assign cat_key = item[0] %}
+        {% assign cat_data = item[1] %}
+
+        {% if allowed_filter %}
+          {% assign keep_cat = false %}
+          {% for af in allowed_filter %}
+            {% assign clean_af = af | strip %}
+            {% if clean_af == cat_key %}
+              {% assign keep_cat = true %}
+            {% endif %}
+          {% endfor %}
+          {% unless keep_cat %}{% continue %}{% endunless %}
+        {% endif %}
+
+        {% if cat_data.questions %}
+          {% if first_cat %}{% assign first_cat = false %}{% else %},{% endif %}
+          {
+            "key": {{ cat_key | jsonify }},
+            "title": {{ cat_data.title | default: cat_key | jsonify }},
+            "icon": {{ cat_data.icon | default: "❓" | jsonify }},
+            "questions": [
+              {% assign first_q = true %}
+              {% for q in cat_data.questions limit: 5 %}
+                {% if first_q %}{% assign first_q = false %}{% else %},{% endif %}
+                {
+                  "points": {{ forloop.index | times: 100 }},
+                  "q": {{ q.q | default: q.question | strip_html | jsonify }},
+                  "a": {{ q.a | default: q.answer | strip_html | jsonify }}
+                }
+              {% endfor %}
+            ]
+          }
+        {% endif %}
+      {% endfor %}
+    ]
+  </script>
+</div>
+
+<style>
+  body.mp-jeopardy-active { overflow: hidden !important; }
+  body.mp-jeopardy-active .masthead,
+  body.mp-jeopardy-active header,
+  body.mp-jeopardy-active nav { display: none !important; }
+
+  .mp-jeopardy-launcher-box { margin: 2rem 0; }
+  .mp-jeopardy-launcher {
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: border-color 0.2s;
+  }
+  .mp-jeopardy-launcher:hover { border-color: #3b82f6; }
+  .mp-jeopardy-icon { font-size: 2.2rem; line-height: 1; }
+  .mp-jeopardy-title { font-size: 1.25rem; font-weight: 800; color: #0f172a; margin: 0; }
+  .mp-jeopardy-desc { font-size: 0.9rem; color: #475569; margin: 0; max-width: 500px; }
+  
+  .mp-jeopardy-launcher-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mp-btn-launch-jeopardy {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 9px 24px;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(37,99,235,0.25);
+    transition: transform 0.15s, background 0.15s;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .mp-btn-launch-jeopardy:hover { transform: scale(1.04); background: #1d4ed8; }
+  .mp-btn-launch-jeopardy.btn-resume-direct {
+    background: #16a34a;
+    box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
+  }
+  .mp-btn-launch-jeopardy.btn-resume-direct:hover { background: #15803d; }
+  .mp-btn-launcher-secondary {
+    background: none;
+    border: none;
+    color: #64748b;
+    font-weight: 700;
+    font-size: 0.88rem;
+    cursor: pointer;
+    padding: 6px 12px;
+  }
+  .mp-btn-launcher-secondary:hover { color: #ef4444; text-decoration: underline; }
+
+  /* OVERLAY */
+  #mp-jeopardy-overlay {
+    display: none;
+    position: fixed !important;
+    top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+    width: 100vw !important; height: 100vh !important;
+    background: #00008b;
+    z-index: 2147483647 !important;
+    font-family: inherit;
+    overflow: hidden;
+    margin: 0 !important; padding: 0 !important;
+    box-sizing: border-box;
+  }
+
+  /* LOBBY */
+  #mp-jeopardy-lobby {
+    position: absolute;
+    inset: 0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    overflow-y: auto;
+  }
+  .mp-jeopardy-lobby-inner {
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
+  }
+  .mp-jeopardy-title-main { font-size: 1.85rem; font-weight: 900; color: #0f172a; margin-bottom: 0.35rem; }
+  .mp-jeopardy-sub-main { color: #64748b; font-size: 0.92rem; margin-bottom: 1.5rem; line-height: 1.4; }
+
+  .mp-jeopardy-section { width: 100%; text-align: left; margin-bottom: 1.25rem; }
+  .mp-jeopardy-label {
+    font-size: 0.78rem; font-weight: 800; color: #475569;
+    letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 8px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .mp-jeopardy-link-subtle { font-size: 0.75rem; color: #2563eb; background: none; border: none; cursor: pointer; font-weight: 700; padding: 4px; }
+  .mp-jeopardy-link-subtle:hover { text-decoration: underline; }
+
+  .mp-jeopardy-cat-list {
+    display: flex; flex-direction: column; gap: 6px;
+    max-height: 160px; overflow-y: auto;
+    border: 1.5px solid #e2e8f0; border-radius: 12px;
+    padding: 8px; background: #f8fafc;
+  }
+  .mp-jeopardy-cat-item {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 8px 12px; background: #ffffff;
+    border-radius: 8px; border: 1px solid #e2e8f0; cursor: pointer;
+    user-select: none; transition: all 0.12s;
+  }
+  .mp-jeopardy-cat-item:hover { border-color: #cbd5e1; }
+  .mp-jeopardy-cat-item.is-checked { border-color: #2563eb; background: #eff6ff; }
+  .mp-jeopardy-cat-left { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 0.9rem; color: #1e293b; }
+
+  .mp-jeopardy-teams-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .mp-jeopardy-team-input-box {
+    display: flex; align-items: center; background: #f1f5f9;
+    border: 1.5px solid #e2e8f0; border-radius: 10px; padding: 6px 10px;
+  }
+  .mp-team-color-indicator { width: 14px; height: 14px; border-radius: 50%; margin-right: 8px; flex-shrink: 0; }
+  .team-c-0 { background: #ef4444; } .team-c-1 { background: #3b82f6; }
+  .team-c-2 { background: #10b981; } .team-c-3 { background: #f59e0b; }
+  .mp-jeopardy-team-input-box input { width: 100%; background: transparent; border: none; outline: none; font-weight: 700; font-size: 0.9rem; color: #1e293b; }
+
+  .mp-jeopardy-pill-selector { display: flex; gap: 8px; }
+  .mp-jeopardy-pill {
+    flex: 1; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 8px;
+    padding: 8px; font-size: 0.85rem; font-weight: 700; color: #334155;
+    cursor: pointer; text-align: center; transition: all 0.15s;
+  }
+  .mp-jeopardy-pill.is-active { background: #eff6ff; border-color: #2563eb; color: #1e40af; }
+
+  /* SPILSKÆRM */
+  #mp-jeopardy-game {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    background: #00005a;
+    color: #ffffff;
+  }
+
+  .mp-jeo-topbar {
+    background: #000030;
+    padding: clamp(8px, 1.4vh, 14px) clamp(16px, 2vw, 32px);
+    display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 2px solid #fbbf24;
+    flex-shrink: 0;
+  }
+  .mp-jeo-logo { font-size: 1.15rem; font-weight: 900; letter-spacing: 0.05em; color: #fbbf24; text-transform: uppercase; }
+  .mp-jeo-actions { display: flex; gap: 10px; }
+  .mp-btn-jeo-nav {
+    background: rgba(255,255,255,0.1); color: #e2e8f0; border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 6px; padding: 6px 14px; font-size: 0.85rem; font-weight: 700; cursor: pointer; transition: background 0.15s;
+  }
+  .mp-btn-jeo-nav:hover { background: rgba(255,255,255,0.2); color: #fff; }
+  .mp-btn-jeo-reset { background: rgba(239,68,68,0.2); color: #f87171; border-color: rgba(239,68,68,0.3); }
+  .mp-btn-jeo-reset:hover { background: #ef4444; color: #ffffff; }
+
+  .mp-jeo-board-container {
+    flex: 1; padding: clamp(10px, 1.8vh, 20px);
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  .mp-jeo-grid {
+    display: flex; flex-direction: row; flex: 1; gap: clamp(6px, 1vw, 14px);
+    max-width: 1650px; margin: 0 auto; width: 100%;
+  }
+  .mp-jeo-col {
+    flex: 1; display: flex; flex-direction: column; gap: clamp(6px, 1vw, 14px);
+  }
+  .mp-jeo-cat-header {
+    background: #0000cd; color: #ffffff;
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    padding: 10px; border: 3px solid #000; border-radius: 8px;
+    font-weight: 900; font-size: clamp(0.85rem, 1.5vw, 1.3rem); text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    height: 15%;
+  }
+  .mp-jeo-card {
+    background: #0000cd; color: #fbbf24;
+    display: flex; align-items: center; justify-content: center;
+    border: 3px solid #000; border-radius: 8px; cursor: pointer;
+    font-weight: 900; font-size: clamp(1.5rem, 3.2vw, 3.5rem);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    flex: 1; transition: transform 0.1s, filter 0.15s;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.3);
+  }
+  .mp-jeo-card:hover { transform: scale(1.02); filter: brightness(1.2); }
+  .mp-jeo-card.is-used {
+    background: #000038; color: transparent; cursor: default;
+    box-shadow: none; border-color: #000028; pointer-events: none;
+  }
+
+  /* SPØRGSMÅLSVISNING */
+  #mp-jeo-active-q-overlay {
+    position: absolute; inset: 0; background: #00008b;
+    display: none; flex-direction: column; z-index: 50;
+    justify-content: space-between;
+  }
+  .mp-jeo-active-header {
+    display: flex; justify-content: space-between; padding: clamp(14px, 2vh, 24px);
+    font-size: clamp(1.1rem, 2vw, 1.5rem); font-weight: 900; color: #fbbf24;
+  }
+  .mp-jeo-active-center {
+    flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 1rem clamp(1.5rem, 5vw, 4rem); text-align: center;
+  }
+  .mp-jeo-question-text {
+    font-size: clamp(1.45rem, 2.8vw, 2.8rem);
+    font-weight: 700;
+    line-height: 1.4;
+    color: #ffffff;
+    max-width: 1200px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+  }
+  .mp-jeo-answer-text {
+    display: none;
+    margin-top: clamp(1.2rem, 2.5vh, 2.2rem);
+    font-size: clamp(1.25rem, 2.2vw, 2.2rem);
+    font-weight: 700;
+    color: #fbbf24;
+    background: rgba(0,0,0,0.45);
+    border: 2px solid #fbbf24;
+    padding: 14px 28px;
+    border-radius: 14px;
+    max-width: 1100px;
+    line-height: 1.35;
+  }
+
+  /* BUNDPANEL (PUNKTGIVNING I FULD BREDDE) */
+  .mp-jeo-active-footer {
+    background: #000030;
+    border-top: 2px solid #fbbf24;
+    padding: clamp(14px, 2.2vh, 26px) clamp(16px, 3vw, 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .mp-jeo-active-awarding-panel {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: min(1650px, 96vw);
+  }
+
+  /* STORE HOLDKASSER I FULD BREDDE */
+  .mp-jeo-award-teams-row {
+    display: grid;
+    grid-template-columns: repeat(var(--teams-count, 3), 1fr);
+    gap: clamp(12px, 2vw, 24px);
+    width: 100%;
+  }
+
+  .mp-jeo-award-team-card {
+    background: #00004d;
+    border: 2px solid #00008b;
+    border-radius: 16px;
+    padding: clamp(12px, 1.8vh, 18px) clamp(12px, 1.5vw, 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    transition: all 0.2s ease;
+  }
+  .mp-jeo-award-team-card.is-active-turn {
+    background: #000075;
+    border-color: #fbbf24;
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.35);
+  }
+  .mp-jeo-award-team-card.is-penalized {
+    opacity: 0.35;
+    filter: grayscale(80%);
+    pointer-events: none;
+    border-color: #ef4444;
+  }
+  .mp-jeo-award-team-card.flash-penalty {
+    animation: mpPenaltyShake 0.4s ease;
+    border-color: #ef4444;
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.8);
+  }
+  @keyframes mpPenaltyShake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-6px); }
+    40%, 80% { transform: translateX(6px); }
+  }
+
+  .mp-jeo-card-team-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+  }
+  .mp-jeo-card-team-name {
+    font-weight: 900;
+    font-size: clamp(1.2rem, 1.8vw, 1.7rem);
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .mp-jeo-award-team-card.is-active-turn .mp-jeo-card-team-name {
+    color: #fbbf24;
+  }
+  .mp-jeo-award-turn-pill {
+    background: #fbbf24;
+    color: #000030;
+    font-size: 0.72rem;
+    font-weight: 900;
+    padding: 2px 8px;
+    border-radius: 999px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  /* STORE HANDLINGSKNAPPER */
+  .mp-jeo-award-team-btns {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+  .mp-btn-quick-award {
+    flex: 1;
+    background: #22c55e;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    padding: clamp(10px, 1.6vh, 16px) 14px;
+    font-size: clamp(1.1rem, 1.6vw, 1.45rem);
+    font-weight: 900;
+    cursor: pointer;
+    transition: transform 0.1s, background 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+  }
+  .mp-btn-quick-award:hover { background: #16a34a; transform: scale(1.02); }
+  .mp-btn-quick-award:active { transform: scale(0.98); }
+
+  .mp-btn-quick-penalize {
+    background: rgba(239, 68, 68, 0.18);
+    color: #f87171;
+    border: 2px solid rgba(239, 68, 68, 0.4);
+    border-radius: 12px;
+    padding: clamp(10px, 1.6vh, 16px) clamp(12px, 1.4vw, 18px);
+    font-size: clamp(1rem, 1.4vw, 1.25rem);
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  .mp-btn-quick-penalize:hover {
+    background: #ef4444;
+    color: #ffffff;
+    border-color: #ef4444;
+    transform: scale(1.02);
+  }
+
+  .mp-jeo-penalty-toast {
+    position: absolute;
+    top: -12px;
+    right: 14px;
+    background: #ef4444;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 900;
+    padding: 3px 10px;
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    display: none;
+  }
+
+  .mp-jeo-q-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .mp-btn-jeo-big {
+    background: #fbbf24; color: #00005a; border: none; border-radius: 12px;
+    padding: 12px 32px; font-size: clamp(1rem, 1.4vw, 1.25rem); font-weight: 900; cursor: pointer; text-transform: uppercase;
+    transition: background 0.15s, transform 0.1s;
+  }
+  .mp-btn-jeo-big:hover { background: #f59e0b; transform: scale(1.02); }
+  .mp-btn-jeo-back { background: rgba(255,255,255,0.15); color: #fff; }
+  .mp-btn-jeo-back:hover { background: rgba(255,255,255,0.25); }
+
+  /* BUNDPANEL (PÅ PLADEN) */
+  .mp-jeo-control-panel {
+    background: #000030;
+    padding: clamp(10px, 1.6vh, 18px) clamp(14px, 2vw, 32px);
+    display: grid;
+    grid-template-columns: repeat(var(--teams-count, 3), 1fr);
+    gap: clamp(10px, 1.5vw, 20px);
+    border-top: 2px solid #fbbf24;
+    flex-shrink: 0;
+  }
+  .mp-jeo-team-box {
+    background: #00004d;
+    border: 2px solid #00008b;
+    border-radius: 14px;
+    padding: clamp(8px, 1.2vh, 14px) 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    transition: all 0.2s ease;
+  }
+  .mp-jeo-team-box:hover {
+    border-color: #3b82f6;
+    background: #000066;
+  }
+  .mp-jeo-team-box.is-active-turn {
+    background: #000075;
+    border-color: #fbbf24;
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.45);
+    transform: translateY(-2px);
+  }
+  .mp-jeo-turn-indicator-badge {
+    position: absolute;
+    top: -10px;
+    background: #fbbf24;
+    color: #000030;
+    font-size: 0.72rem;
+    font-weight: 900;
+    padding: 2px 8px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    display: none;
+  }
+  .mp-jeo-team-box.is-active-turn .mp-jeo-turn-indicator-badge {
+    display: inline-block;
+  }
+  .mp-jeo-team-name {
+    font-size: clamp(0.95rem, 1.4vw, 1.25rem);
+    font-weight: 800;
+    color: #94a3b8;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .mp-jeo-team-box.is-active-turn .mp-jeo-team-name {
+    color: #fbbf24;
+  }
+  .mp-jeo-team-score {
+    font-size: clamp(1.8rem, 3vw, 3rem);
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.1;
+  }
+</style>
+
+<!-- MODAL MARKUP -->
+<div id="mp-jeopardy-overlay">
+  <!-- LOBBY -->
+  <div id="mp-jeopardy-lobby">
+    <div class="mp-jeopardy-lobby-inner">
+      <div class="mp-jeopardy-icon" style="font-size: 3rem; margin-bottom: 0.5rem;">📺</div>
+      <div class="mp-jeopardy-title-main">Opsæt Jeopardy</div>
+      <div class="mp-jeopardy-sub-main">Systemet styrer automatisk tur-rækkefølgen og gemmer stillingen i baggrunden.</div>
+
+      <!-- Kategori-valg -->
+      <div class="mp-jeopardy-section">
+        <div class="mp-jeopardy-label">
+          <span>1. Vælg kategorier</span>
+          <button type="button" class="mp-jeopardy-link-subtle" onclick="MPJeopardy.selectRandomCats()">Vælg 5 tilfældige</button>
+        </div>
+        <div class="mp-jeopardy-cat-list" id="mp-jeopardy-cats-list"></div>
+      </div>
+
+      <!-- Tur-indstilling -->
+      <div class="mp-jeopardy-section">
+        <div class="mp-jeopardy-label">2. Tur-rækkefølge</div>
+        <div class="mp-jeopardy-pill-selector">
+          <div class="mp-jeopardy-pill is-active" id="jeo-turn-keep" onclick="MPJeopardy.setKeepTurnOnCorrect(true)">Behold turen ved rigtigt svar</div>
+          <div class="mp-jeopardy-pill" id="jeo-turn-rotate" onclick="MPJeopardy.setKeepTurnOnCorrect(false)">Turen går altid videre</div>
+        </div>
+      </div>
+
+      <!-- Håndtering af forkert svar -->
+      <div class="mp-jeopardy-section">
+        <div class="mp-jeopardy-label">3. Ved forkert svar</div>
+        <div class="mp-jeopardy-pill-selector">
+          <div class="mp-jeopardy-pill is-active" id="jeo-wrong-close" onclick="MPJeopardy.setCloseOnWrong(true)">Træk point fra & luk spørgsmål</div>
+          <div class="mp-jeopardy-pill" id="jeo-wrong-stay" onclick="MPJeopardy.setCloseOnWrong(false)">Giv andre hold chancen</div>
+        </div>
+      </div>
+
+      <!-- Straffepoint -->
+      <div class="mp-jeopardy-section">
+        <div class="mp-jeopardy-label">4. Straffepoint</div>
+        <div class="mp-jeopardy-pill-selector">
+          <div class="mp-jeopardy-pill is-active" id="jeo-opt-minus" onclick="MPJeopardy.setMinusPoints(true)">Minuspoint ved forkert</div>
+          <div class="mp-jeopardy-pill" id="jeo-opt-nominus" onclick="MPJeopardy.setMinusPoints(false)">Nul point ved forkert</div>
+        </div>
+      </div>
+
+      <!-- Antal hold -->
+      <div class="mp-jeopardy-section">
+        <div class="mp-jeopardy-label">5. Antal hold</div>
+        <div class="mp-jeopardy-pill-selector">
+          <div class="mp-jeopardy-pill" data-teams="2" onclick="MPJeopardy.setTeamCount(2)">2 Hold</div>
+          <div class="mp-jeopardy-pill is-active" data-teams="3" onclick="MPJeopardy.setTeamCount(3)">3 Hold</div>
+          <div class="mp-jeopardy-pill" data-teams="4" onclick="MPJeopardy.setTeamCount(4)">4 Hold</div>
+        </div>
+      </div>
+
+      <!-- Holdnavne -->
+      <div class="mp-jeopardy-section">
+        <div class="mp-jeopardy-label">6. Holdnavne</div>
+        <div class="mp-jeopardy-teams-grid" id="mp-jeopardy-teams-inputs"></div>
+      </div>
+
+      <button type="button" class="mp-btn-launch-jeopardy" onclick="MPJeopardy.startGame()" style="width: 100%; padding: 14px; font-size: 1.05rem; margin-top: 0.5rem;">Start Spillet!</button>
+      
+      <div style="display:flex; justify-content: space-between; width:100%; margin-top:1rem;">
+        <button type="button" onclick="MPJeopardy.closeQuiz()" style="background:none; border:none; color:#64748b; font-weight:700; cursor:pointer;">Afbryd</button>
+        <button type="button" id="btn-jeo-resume" onclick="MPJeopardy.resumeSavedGame()" style="display:none; background:none; border:none; color:#2563eb; font-weight:700; cursor:pointer;">▶ Genoptag gemt spil</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPILLEPLADE -->
+  <div id="mp-jeopardy-game" style="display: none;">
+    <div class="mp-jeo-topbar">
+      <div class="mp-jeo-logo">JEOPARDY</div>
+      <div class="mp-jeo-actions">
+        <button type="button" class="mp-btn-jeo-nav" onclick="MPJeopardy.toggleScoresPanel()">Vis/Skjul Stilling</button>
+        <button type="button" class="mp-btn-jeo-nav mp-btn-jeo-reset" onclick="MPJeopardy.resetGameData()">Nulstil spil</button>
+        <button type="button" class="mp-btn-jeo-nav" onclick="MPJeopardy.closeQuiz()">✕ Luk skærm</button>
+      </div>
+    </div>
+
+    <div class="mp-jeo-board-container">
+      <div class="mp-jeo-grid" id="mp-jeo-grid-wrapper"></div>
+    </div>
+
+    <!-- SPØRGSMÅLS- OG SVARSKÆRM -->
+    <div id="mp-jeo-active-q-overlay">
+      <div class="mp-jeo-active-header">
+        <span id="mp-active-cat-name">KATEGORI</span>
+        <span id="mp-active-val-name">300</span>
+      </div>
+      
+      <div class="mp-jeo-active-center">
+        <div class="mp-jeo-question-text" id="mp-active-q-text">Spørgsmål...</div>
+        <div class="mp-jeo-answer-text" id="mp-active-a-text">FACIT...</div>
+      </div>
+
+      <!-- BUNDPANEL PÅ SVARSKÆRMEN -->
+      <div class="mp-jeo-active-footer">
+        <div class="mp-jeo-active-awarding-panel" id="mp-jeo-awarding-container">
+          <div class="mp-jeo-award-teams-row" id="mp-jeo-award-buttons-container"></div>
+        </div>
+
+        <div class="mp-jeo-q-actions">
+          <button type="button" class="mp-btn-jeo-big" id="mp-btn-reveal-a" onclick="MPJeopardy.revealAnswer()">Vis svaret 👁️</button>
+          <button type="button" class="mp-btn-jeo-big mp-btn-jeo-back" id="mp-btn-close-q" onclick="MPJeopardy.closeActiveQuestion(true)">Ingen point (Luk) ➔</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOLDSTILLING I BUNDEN AF PLADEN -->
+    <div class="mp-jeo-control-panel" id="mp-jeo-scoreboard-strip"></div>
+  </div>
+</div>
+
+<script>
+window.MPJeopardy = window.MPJeopardy || (function() {
+  const STORAGE_KEY = 'mp_jeopardy_save';
+
+  let allCategories = [];
+  let selectedCatIndices = new Set();
+  let teamCount = 3;
+  let useMinusPoints = true;
+  let keepTurnOnCorrect = true;
+  let closeOnWrong = true;
+
+  let gameState = {
+    cats: [],
+    teams: [],
+    currentTurnTeamIdx: 0,
+    keepTurnOnCorrect: true,
+    useMinusPoints: true,
+    closeOnWrong: true
+  };
+
+  let activeQuestionRef = null;
+  let pickingTeamIdx = 0; // Holder fast i, hvem der ejede turen da spørgsmålet blev åbnet
+  let penalizedTeamsInActiveQ = new Set();
+
+  function ensureMountedToBody() {
+    const overlay = document.getElementById('mp-jeopardy-overlay');
+    if (overlay && overlay.parentElement !== document.body) {
+      document.body.appendChild(overlay);
+    }
+  }
+
+  function syncLauncherOnPage() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    const actionContainer = document.getElementById('mp-jeopardy-launcher-actions');
+    const descEl = document.getElementById('mp-jeopardy-launcher-desc');
+    if (!actionContainer) return;
+
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (parsed && parsed.cats && parsed.cats.length > 0) {
+          if (descEl) descEl.textContent = `Et spil er allerede i gang med ${parsed.teams.length} hold.`;
+          actionContainer.innerHTML = `
+            <button type="button" class="mp-btn-launch-jeopardy btn-resume-direct" onclick="MPJeopardy.resumeSavedGame()">▶ Fortsæt spillet</button>
+            <button type="button" class="mp-btn-launcher-secondary" onclick="MPJeopardy.openLobby()">Start forfra</button>
+          `;
+          return;
+        }
+      } catch(e) {}
+    }
+
+    if (descEl) descEl.textContent = "Klassisk spilleplade for 2-4 hold med pointtildeling og tur-styring.";
+    actionContainer.innerHTML = `<button type="button" class="mp-btn-launch-jeopardy" onclick="MPJeopardy.openLobby()">Opsæt Spilleplade</button>`;
+  }
+
+  function initLobby() {
+    const dataEl = document.getElementById('mp-jeopardy-data');
+    if (!dataEl) { alert("Ingen jeopardy data fundet."); return; }
+    
+    try {
+      allCategories = JSON.parse(dataEl.textContent);
+    } catch(e) {
+      console.error(e); allCategories = [];
+    }
+
+    if (allCategories.length === 0) {
+      alert("Fandt ingen tilgængelige kategorier i _data/jeopardy/");
+      return;
+    }
+
+    const saved = localStorage.getItem(STORAGE_KEY);
+    const resumeBtn = document.getElementById('btn-jeo-resume');
+    if (resumeBtn) {
+      resumeBtn.style.display = saved ? 'inline-block' : 'none';
+    }
+
+    selectedCatIndices.clear();
+    const limit = Math.min(5, allCategories.length);
+    for (let i = 0; i < limit; i++) selectedCatIndices.add(i);
+
+    renderLobbyCats();
+    setTeamCount(3);
+  }
+
+  function openLobby() {
+    ensureMountedToBody();
+    initLobby();
+
+    document.body.classList.add('mp-jeopardy-active');
+    const overlay = document.getElementById('mp-jeopardy-overlay');
+    if (overlay.requestFullscreen) overlay.requestFullscreen().catch(()=>{});
+
+    document.getElementById('mp-jeopardy-lobby').style.display = 'flex';
+    document.getElementById('mp-jeopardy-game').style.display = 'none';
+    overlay.style.display = 'block';
+  }
+
+  function closeQuiz() {
+    document.body.classList.remove('mp-jeopardy-active');
+    const overlay = document.getElementById('mp-jeopardy-overlay');
+    if (overlay) overlay.style.display = 'none';
+    if (document.exitFullscreen && document.fullscreenElement) {
+      document.exitFullscreen().catch(()=>{});
+    }
+    syncLauncherOnPage();
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' || e.keyCode === 27) {
+      const activeQ = document.getElementById('mp-jeo-active-q-overlay');
+      if (activeQ && activeQ.style.display === 'flex') {
+        e.preventDefault();
+        closeActiveQuestion();
+      }
+    }
+  });
+
+  function renderLobbyCats() {
+    const container = document.getElementById('mp-jeopardy-cats-list');
+    container.innerHTML = '';
+    
+    allCategories.forEach((cat, idx) => {
+      const item = document.createElement('div');
+      const isChecked = selectedCatIndices.has(idx);
+      item.className = `mp-jeopardy-cat-item ${isChecked ? 'is-checked' : ''}`;
+      item.innerHTML = `
+        <div class="mp-jeopardy-cat-left">
+          <span>${cat.icon}</span>
+          <span>${cat.title}</span>
+        </div>
+      `;
+      item.onclick = () => {
+        if (selectedCatIndices.has(idx)) {
+          selectedCatIndices.delete(idx);
+        } else {
+          selectedCatIndices.add(idx);
+        }
+        renderLobbyCats();
+      };
+      container.appendChild(item);
+    });
+  }
+
+  function selectRandomCats() {
+    selectedCatIndices.clear();
+    let indices = allCategories.map((_, i) => i);
+    indices.sort(() => Math.random() - 0.5);
+    const limit = Math.min(5, indices.length);
+    for (let i = 0; i < limit; i++) {
+      selectedCatIndices.add(indices[i]);
+    }
+    renderLobbyCats();
+  }
+
+  function setKeepTurnOnCorrect(boolVal) {
+    keepTurnOnCorrect = boolVal;
+    document.getElementById('jeo-turn-keep').classList.toggle('is-active', boolVal);
+    document.getElementById('jeo-turn-rotate').classList.toggle('is-active', !boolVal);
+  }
+
+  function setCloseOnWrong(boolVal) {
+    closeOnWrong = boolVal;
+    document.getElementById('jeo-wrong-close').classList.toggle('is-active', boolVal);
+    document.getElementById('jeo-wrong-stay').classList.toggle('is-active', !boolVal);
+  }
+
+  function setMinusPoints(boolVal) {
+    useMinusPoints = boolVal;
+    document.getElementById('jeo-opt-minus').classList.toggle('is-active', boolVal);
+    document.getElementById('jeo-opt-nominus').classList.toggle('is-active', !boolVal);
+  }
+
+  function setTeamCount(count) {
+    teamCount = count;
+    document.querySelectorAll('[data-teams]').forEach(p => {
+      p.classList.toggle('is-active', parseInt(p.dataset.teams, 10) === count);
+    });
+    
+    const grid = document.getElementById('mp-jeopardy-teams-inputs');
+    grid.innerHTML = '';
+    for (let i = 0; i < count; i++) {
+      const box = document.createElement('div');
+      box.className = 'mp-jeopardy-team-input-box';
+      box.innerHTML = `
+        <div class="mp-team-color-indicator team-c-${i}"></div>
+        <input type="text" id="mp-jeo-team-name-${i}" placeholder="Hold ${i+1}" value="Hold ${i+1}">
+      `;
+      grid.appendChild(box);
+    }
+  }
+
+  function startGame() {
+    if (selectedCatIndices.size === 0) { alert("Vælg mindst én kategori!"); return; }
+
+    gameState.useMinusPoints = useMinusPoints;
+    gameState.keepTurnOnCorrect = keepTurnOnCorrect;
+    gameState.closeOnWrong = closeOnWrong;
+    gameState.currentTurnTeamIdx = 0;
+    
+    gameState.teams = [];
+    for (let i = 0; i < teamCount; i++) {
+      const input = document.getElementById(`mp-jeo-team-name-${i}`);
+      gameState.teams.push({
+        name: (input && input.value.trim()) ? input.value.trim() : `Hold ${i+1}`,
+        score: 0
+      });
+    }
+
+    gameState.cats = [];
+    selectedCatIndices.forEach(idx => {
+      const rawCat = allCategories[idx];
+      const cleanQuestions = rawCat.questions.map(q => ({
+        points: q.points, q: q.q, a: q.a, isUsed: false
+      }));
+      gameState.cats.push({
+        title: rawCat.title,
+        questions: cleanQuestions
+      });
+    });
+
+    saveState();
+    launchGameUI();
+  }
+
+  function resumeSavedGame() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        gameState = JSON.parse(saved);
+        ensureMountedToBody();
+        document.body.classList.add('mp-jeopardy-active');
+        const overlay = document.getElementById('mp-jeopardy-overlay');
+        if (overlay.requestFullscreen) overlay.requestFullscreen().catch(()=>{});
+        overlay.style.display = 'block';
+        launchGameUI();
+      } catch(e) {
+        alert("Kunne ikke genindlæse spillet. Starter forfra.");
+        localStorage.removeItem(STORAGE_KEY);
+        openLobby();
+      }
+    }
+  }
+
+  function saveState() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(gameState));
+    syncLauncherOnPage();
+  }
+
+  function resetGameData() {
+    if (confirm("Er du sikker på, du vil slette dette spil og alle point?")) {
+      localStorage.removeItem(STORAGE_KEY);
+      document.getElementById('mp-jeopardy-game').style.display = 'none';
+      document.getElementById('mp-jeopardy-lobby').style.display = 'flex';
+      syncLauncherOnPage();
+      initLobby();
+    }
+  }
+
+  function launchGameUI() {
+    document.getElementById('mp-jeopardy-lobby').style.display = 'none';
+    document.getElementById('mp-jeopardy-game').style.display = 'flex';
+    document.getElementById('mp-jeo-active-q-overlay').style.display = 'none';
+    
+    renderBoard();
+    renderScoreboard();
+  }
+
+  function renderBoard() {
+    const grid = document.getElementById('mp-jeo-grid-wrapper');
+    grid.innerHTML = '';
+
+    gameState.cats.forEach((cat, cIdx) => {
+      const col = document.createElement('div');
+      col.className = 'mp-jeo-col';
+
+      const header = document.createElement('div');
+      header.className = 'mp-jeo-cat-header';
+      header.textContent = cat.title;
+      col.appendChild(header);
+
+      for (let i = 0; i < 5; i++) {
+        const card = document.createElement('div');
+        const qData = cat.questions[i];
+        
+        if (qData) {
+          card.className = `mp-jeo-card ${qData.isUsed ? 'is-used' : ''}`;
+          card.textContent = qData.points;
+          if (!qData.isUsed) {
+            card.onclick = () => openQuestion(cIdx, i);
+          }
+        } else {
+          card.className = 'mp-jeo-card is-used';
+          card.textContent = '';
+        }
+        col.appendChild(card);
+      }
+      grid.appendChild(col);
+    });
+  }
+
+  function openQuestion(cIdx, qIdx) {
+    const qData = gameState.cats[cIdx].questions[qIdx];
+    activeQuestionRef = { cIdx, qIdx, points: qData.points };
+    pickingTeamIdx = gameState.currentTurnTeamIdx; // Lås fast hvem der startede turen
+    penalizedTeamsInActiveQ.clear();
+
+    document.getElementById('mp-active-cat-name').textContent = gameState.cats[cIdx].title;
+    document.getElementById('mp-active-val-name').textContent = `${qData.points} POINT`;
+    document.getElementById('mp-active-q-text').innerHTML = qData.q;
+    document.getElementById('mp-active-a-text').innerHTML = qData.a;
+    
+    document.getElementById('mp-active-a-text').style.display = 'none';
+    document.getElementById('mp-jeo-awarding-container').style.display = 'none';
+    document.getElementById('mp-btn-reveal-a').style.display = 'inline-block';
+
+    renderActiveAwardButtons(qData.points);
+
+    document.getElementById('mp-jeo-active-q-overlay').style.display = 'flex';
+  }
+
+  function revealAnswer() {
+    document.getElementById('mp-active-a-text').style.display = 'block';
+    document.getElementById('mp-jeo-awarding-container').style.display = 'flex';
+    document.getElementById('mp-btn-reveal-a').style.display = 'none';
+  }
+
+  function renderActiveAwardButtons(points) {
+    const container = document.getElementById('mp-jeo-award-buttons-container');
+    container.style.setProperty('--teams-count', gameState.teams.length);
+    container.innerHTML = '';
+
+    gameState.teams.forEach((team, tIdx) => {
+      const card = document.createElement('div');
+      const isPenalized = penalizedTeamsInActiveQ.has(tIdx);
+      const isTurn = (tIdx === pickingTeamIdx);
+
+      card.className = `mp-jeo-award-team-card ${isTurn ? 'is-active-turn' : ''} ${isPenalized ? 'is-penalized' : ''}`;
+      card.id = `jeo-award-card-${tIdx}`;
+
+      const header = document.createElement('div');
+      header.className = 'mp-jeo-card-team-header';
+      header.innerHTML = `
+        <span class="mp-jeo-card-team-name">${team.name}</span>
+        ${isTurn ? '<span class="mp-jeo-award-turn-pill">🎯 TUR</span>' : ''}
+      `;
+      card.appendChild(header);
+
+      const btnGroup = document.createElement('div');
+      btnGroup.className = 'mp-jeo-award-team-btns';
+
+      const addBtn = document.createElement('button');
+      addBtn.type = 'button';
+      addBtn.className = 'mp-btn-quick-award';
+      addBtn.innerHTML = `✓ +${points}`;
+      addBtn.title = `Rigtigt svar: +${points} pt`;
+      addBtn.onclick = () => awardAndReturn(tIdx, points);
+      btnGroup.appendChild(addBtn);
+
+      const subBtn = document.createElement('button');
+      subBtn.type = 'button';
+      subBtn.className = 'mp-btn-quick-penalize';
+      subBtn.innerHTML = `– ${points}`;
+      subBtn.title = `Forkert svar: -${points} pt`;
+      subBtn.onclick = () => penalizeTeam(tIdx, points);
+      btnGroup.appendChild(subBtn);
+
+      card.appendChild(btnGroup);
+
+      const toast = document.createElement('div');
+      toast.className = 'mp-jeo-penalty-toast';
+      toast.id = `jeo-toast-${tIdx}`;
+      toast.textContent = `-${points} pt`;
+      card.appendChild(toast);
+
+      container.appendChild(card);
+    });
+  }
+
+  /* FAIR TUR-STYRING VED POINTGIVNING */
+  function awardAndReturn(teamIdx, points) {
+    gameState.teams[teamIdx].score += points;
+
+    // Kun hvis det hold, der havde turen, SELV svarer rigtigt, må de beholde turen (hvis slået til)
+    if (gameState.keepTurnOnCorrect && teamIdx === pickingTeamIdx) {
+      gameState.currentTurnTeamIdx = pickingTeamIdx; 
+    } else {
+      // Hvis et andet hold stjal pointene (eller 'turen går altid videre'), rykker vælger-retten altid videre
+      gameState.currentTurnTeamIdx = (pickingTeamIdx + 1) % gameState.teams.length;
+    }
+
+    if (activeQuestionRef) {
+      gameState.cats[activeQuestionRef.cIdx].questions[activeQuestionRef.qIdx].isUsed = true;
+    }
+    saveState();
+    closeActiveQuestion();
+  }
+
+  function penalizeTeam(teamIdx, points) {
+    if (penalizedTeamsInActiveQ.has(teamIdx)) return;
+    penalizedTeamsInActiveQ.add(teamIdx);
+
+    if (gameState.useMinusPoints) {
+      gameState.teams[teamIdx].score -= points;
+    }
+    saveState();
+    renderScoreboard();
+
+    const card = document.getElementById(`jeo-award-card-${teamIdx}`);
+    const toast = document.getElementById(`jeo-toast-${teamIdx}`);
+    
+    if (toast) toast.style.display = 'block';
+    if (card) card.classList.add('flash-penalty');
+
+    if (gameState.closeOnWrong) {
+      setTimeout(() => {
+        // Turen rykker videre fra det hold, der valgte spørgsmålet
+        gameState.currentTurnTeamIdx = (pickingTeamIdx + 1) % gameState.teams.length;
+        closeActiveQuestion();
+      }, 500);
+    } else {
+      setTimeout(() => {
+        if (card) {
+          card.classList.remove('flash-penalty');
+          card.classList.add('is-penalized');
+        }
+      }, 600);
+    }
+  }
+
+  function closeActiveQuestion() {
+    if (activeQuestionRef) {
+      gameState.cats[activeQuestionRef.cIdx].questions[activeQuestionRef.qIdx].isUsed = true;
+    }
+
+    // Hvis spørgsmålet blev lukket uden en vinder (f.eks. på 'Ingen point'-knappen), går turen til næste hold
+    if (penalizedTeamsInActiveQ.size === 0 || !gameState.closeOnWrong) {
+      gameState.currentTurnTeamIdx = (pickingTeamIdx + 1) % gameState.teams.length;
+    }
+
+    activeQuestionRef = null;
+    penalizedTeamsInActiveQ.clear();
+    document.getElementById('mp-jeo-active-q-overlay').style.display = 'none';
+    saveState();
+    renderBoard();
+    renderScoreboard();
+  }
+
+  function setActiveTurn(tIdx) {
+    gameState.currentTurnTeamIdx = tIdx;
+    saveState();
+    renderScoreboard();
+  }
+
+  function renderScoreboard() {
+    const strip = document.getElementById('mp-jeo-scoreboard-strip');
+    strip.style.setProperty('--teams-count', gameState.teams.length);
+    strip.innerHTML = '';
+
+    gameState.teams.forEach((team, tIdx) => {
+      const isTurn = (tIdx === gameState.currentTurnTeamIdx);
+      const box = document.createElement('div');
+      box.className = `mp-jeo-team-box ${isTurn ? 'is-active-turn' : ''}`;
+      box.title = "Klik for manuelt at give dette hold turen";
+      box.onclick = () => setActiveTurn(tIdx);
+
+      box.innerHTML = `
+        <span class="mp-jeo-turn-indicator-badge">🎯 Har turen</span>
+        <div class="mp-jeo-team-name">${team.name}</div>
+        <div class="mp-jeo-team-score">${team.score}</div>
+      `;
+      strip.appendChild(box);
+    });
+  }
+
+  function toggleScoresPanel() {
+    const strip = document.getElementById('mp-jeo-scoreboard-strip');
+    strip.style.display = (strip.style.display === 'none') ? 'grid' : 'none';
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', syncLauncherOnPage);
+  } else {
+    syncLauncherOnPage();
+  }
+
+  return { 
+    openLobby, closeQuiz, selectRandomCats, setKeepTurnOnCorrect, setCloseOnWrong, setMinusPoints, setTeamCount, 
+    startGame, resumeSavedGame, resetGameData,
+    openQuestion, revealAnswer, closeActiveQuestion,
+    awardAndReturn, penalizeTeam, setActiveTurn, toggleScoresPanel
+  };
+})();
+</script>

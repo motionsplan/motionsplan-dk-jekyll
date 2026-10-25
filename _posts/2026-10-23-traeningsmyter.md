@@ -169,6 +169,12 @@ Ernæring og kosttilskud er et minefelt af aggressive reklamer og myter. Her er 
 
 ---
 
+## Bonus: Jeopardy med træningsmyter
+
+{% include components/jeopardy.html %}
+
+---
+
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
