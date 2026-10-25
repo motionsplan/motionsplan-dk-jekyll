@@ -1,37 +1,45 @@
 {% comment %}
 -----------------------------------------------------------------------------
-MOTIONSPLAN.DK - HOTSEAT DUEL (Enkelt Deck)
+MOTIONSPLAN.DK - HOTSEAT DUEL ENGINE
 Sti: _includes/components/hotseat-duel.html
-Brug: {% include components/hotseat-duel.html cards=page.quiz %}
+Brug: 
+  Enkelt deck:  {% include components/hotseat-duel.html cards=page.quiz %}
+  Som motor:    {% include components/hotseat-duel.html engine_only=true %}
 -----------------------------------------------------------------------------
 {% endcomment %}
 
 {% assign duel_cards = include.cards | default: include.quiz | default: page.quiz | default: page.flashcards %}
 
-{% if duel_cards %}
-<div class="mp-duel-container">
-  <div class="mp-duel-launcher">
-    <div class="mp-duel-icon">⚔️</div>
-    <div class="mp-duel-text">
-      <div class="mp-duel-title">{{ include.title | default: "Hotseat Duel" }}</div>
-      <div class="mp-duel-desc">{{ include.description | default: "Dyst mod en makker i paratviden og reaktionsevne – på samme enhed." }}</div>
+{% unless include.engine_only %}
+  {% if duel_cards %}
+  <div class="mp-duel-container">
+    <div class="mp-duel-launcher">
+      <div class="mp-duel-icon">⚔️</div>
+      <div class="mp-duel-text">
+        <div class="mp-duel-title">{{ include.title | default: "Hotseat Duel" }}</div>
+        <div class="mp-duel-desc">{{ include.description | default: "Dyst mod en makker i paratviden og reaktionsevne – på samme enhed." }}</div>
+      </div>
+      <button type="button" class="mp-btn-launch-duel" onclick="MPHotseat.openLobby(this)">{{ include.button | default: "Start Duel" }}</button>
     </div>
-    <button type="button" class="mp-btn-launch-duel" onclick="MPHotseat.openLobby(this)">{{ include.button | default: "Start Duel" }}</button>
-  </div>
 
-  <script type="application/json" class="mp-duel-data">
-    [
-      {% for card in duel_cards %}
-        {% if card.options %}
-        {
-          "q": {{ card.question | default: card.front | strip_html | jsonify }},
-          "opts": {{ card.options | jsonify }}
-        }{% if forloop.last == false %},{% endif %}
-        {% endif %}
-      {% endfor %}
-    ]
-  </script>
-</div>
+    <script type="application/json" class="mp-duel-data">
+      [
+        {% assign first_card = true %}
+        {% for card in duel_cards %}
+          {% assign card_opts = card.options | default: card.choices | default: card.answers %}
+          {% if card_opts and card_opts.size > 1 %}
+            {% if first_card %}{% assign first_card = false %}{% else %},{% endif %}
+            {
+              "q": {{ card.question | default: card.front | default: card.title | strip_html | jsonify }},
+              "opts": {{ card_opts | jsonify }}
+            }
+          {% endif %}
+        {% endfor %}
+      ]
+    </script>
+  </div>
+  {% endif %}
+{% endunless %}
 
 <style>
   body.mp-duel-active { overflow: hidden !important; }
@@ -175,7 +183,6 @@ Brug: {% include components/hotseat-duel.html cards=page.quiz %}
   .btn-color-2 { background: #eab308; }
   .btn-color-3 { background: #22c55e; }
 
-  /* Split screen */
   #mp-duel-game-splitscreen {
     position: absolute;
     inset: 0;
@@ -281,7 +288,6 @@ Brug: {% include components/hotseat-duel.html cards=page.quiz %}
   .mp-overlay-status { font-size: 2.5rem; margin-bottom: 4px; }
   .mp-overlay-pts { font-size: 1.25rem; font-weight: 800; color: #0f172a; }
 
-  /* Pass and Play */
   #mp-duel-game-passplay {
     position: absolute;
     inset: 0;
@@ -352,7 +358,6 @@ Brug: {% include components/hotseat-duel.html cards=page.quiz %}
   .mp-interstitial-title { font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-bottom: 0.5rem; }
   .mp-interstitial-desc { font-size: 0.95rem; color: #64748b; margin-bottom: 1.5rem; max-width: 320px; line-height: 1.4; }
 
-  /* Slutresultat */
   #mp-duel-results {
     position: absolute;
     inset: 0;
@@ -372,9 +377,8 @@ Brug: {% include components/hotseat-duel.html cards=page.quiz %}
   .mp-score-row { display: flex; justify-content: space-between; font-size: 1.15rem; font-weight: 700; padding: 8px 0; border-bottom: 1px solid #334155; }
 </style>
 
-<!-- FULLSCREEN MODAL -->
+<!-- MODAL MARKUP -->
 <div id="mp-duel-overlay">
-  <!-- LOBBY -->
   <div id="mp-duel-lobby">
     <div class="mp-duel-icon" style="font-size: 2.6rem; margin-bottom: 0.35rem;">📱</div>
     <div class="mp-lobby-title">Hotseat Duel</div>
@@ -408,7 +412,6 @@ Brug: {% include components/hotseat-duel.html cards=page.quiz %}
     <button type="button" onclick="MPHotseat.closeDuel()" style="margin-top: 0.85rem; background:none; border:none; color:#64748b; font-weight:600; cursor:pointer;">Annuller</button>
   </div>
 
-  <!-- SPLIT SCREEN -->
   <div id="mp-duel-game-splitscreen" style="display: none;">
     <div id="mp-zone-p2" class="mp-player-zone">
       <div class="mp-zone-header">
@@ -443,7 +446,6 @@ Brug: {% include components/hotseat-duel.html cards=page.quiz %}
     </div>
   </div>
 
-  <!-- PASS AND PLAY -->
   <div id="mp-duel-game-passplay" style="display: none;">
     <div class="mp-pass-topbar">
       <div class="mp-pass-scoreboard">
@@ -471,7 +473,6 @@ Brug: {% include components/hotseat-duel.html cards=page.quiz %}
     </div>
   </div>
 
-  <!-- RESULTAT -->
   <div id="mp-duel-results">
     <div class="mp-result-trophy">🏆</div>
     <div class="mp-result-title" id="mp-duel-winner-text">Vinderen er kåret!</div>
@@ -881,4 +882,3 @@ window.MPHotseat = window.MPHotseat || (function() {
   return { openLobby, openLobbyWithQuestions, closeDuel, selectMode, startGame, passPlayNextStep };
 })();
 </script>
-{% endif %}

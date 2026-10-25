@@ -2,11 +2,13 @@
 -----------------------------------------------------------------------------
 MOTIONSPLAN.DK - HOTSEAT DECKS SELECTOR
 Sti: _includes/components/hotseat-decks.html
-Brug: {% include components/hotseat-decks.html decks=page.decks %}
+Brug: 
+  Moduler:  {% include components/hotseat-decks.html decks=page.quiz_modules %}
+  Decks:    {% include components/hotseat-decks.html decks=page.decks %}
 -----------------------------------------------------------------------------
 {% endcomment %}
 
-{% assign duel_decks = include.decks | default: page.decks %}
+{% assign duel_decks = include.decks | default: page.quiz_modules | default: page.decks %}
 
 {% if duel_decks %}
 <div class="mp-duel-decks-wrapper">
@@ -31,49 +33,75 @@ Brug: {% include components/hotseat-decks.html decks=page.decks %}
 
     <!-- Individuelle kategorier -->
     {% for deck in duel_decks %}
-      {% assign deck_key = deck.key | default: deck.id %}
-      {% assign deck_cards = deck.cards | default: page[deck_key] | default: site.data.quizzes[deck_key] %}
-      
       <div class="mp-duel-deck-card" onclick="MPHotseatDecks.startDeck({{ forloop.index0 }})">
         <div class="mp-deck-card-top">
           <span class="mp-deck-icon-badge">{{ deck.icon | default: "📚" }}</span>
           <span class="mp-deck-count" data-deck-count="{{ forloop.index0 }}">...</span>
         </div>
-        <div class="mp-deck-card-name">{{ deck.title | default: deck.name }}</div>
+        <div class="mp-deck-card-name">{{ deck.title | default: deck.name | default: deck.id }}</div>
         <div class="mp-deck-card-action">Dyst i dette emne ➔</div>
       </div>
     {% endfor %}
   </div>
 
-  <!-- Generér JSON med korrekt opslag via keys -->
+  <!-- Generér JSON med direkte opslag i site.data.quizzes -->
   <script type="application/json" id="mp-duel-multi-data">
     [
+      {% assign first_deck = true %}
       {% for deck in duel_decks %}
-        {% assign deck_key = deck.key | default: deck.id %}
-        {% assign deck_cards = deck.cards | default: page[deck_key] | default: site.data.quizzes[deck_key] %}
+        {% assign k_key = deck.key %}
+        {% assign k_id = deck.id %}
+        {% assign k_slug = deck.title | default: deck.name | slugify %}
+
+        {% assign raw_source = deck.cards 
+          | default: deck.quiz 
+          | default: deck.questions 
+          | default: deck.flashcards 
+          | default: page[k_key] 
+          | default: page[k_id] 
+          | default: page[k_slug] 
+          | default: site.data.quizzes[k_key]
+          | default: site.data.quizzes[k_id]
+          | default: site.data.quizzes[k_slug]
+          | default: site.data[k_key] 
+          | default: site.data[k_id] 
+          | default: site.data[k_slug] 
+        %}
+
+        {% assign deck_cards = raw_source.cards 
+          | default: raw_source.quiz 
+          | default: raw_source.questions 
+          | default: raw_source.flashcards 
+          | default: raw_source 
+        %}
+
+        {% if first_deck %}{% assign first_deck = false %}{% else %},{% endif %}
         {
-          "name": {{ deck.title | default: deck.name | jsonify }},
+          "name": {{ deck.title | default: deck.name | default: deck.id | jsonify }},
           "icon": {{ deck.icon | default: "📚" | jsonify }},
           "cards": [
+            {% assign first_card = true %}
             {% if deck_cards %}
               {% for card in deck_cards %}
-                {% if card.options %}
-                {
-                  "q": {{ card.question | default: card.front | strip_html | jsonify }},
-                  "opts": {{ card.options | jsonify }}
-                }{% if forloop.last == false %},{% endif %}
+                {% assign card_opts = card.options | default: card.choices | default: card.answers %}
+                {% if card_opts and card_opts.size > 1 %}
+                  {% if first_card %}{% assign first_card = false %}{% else %},{% endif %}
+                  {
+                    "q": {{ card.question | default: card.front | default: card.title | strip_html | jsonify }},
+                    "opts": {{ card_opts | jsonify }}
+                  }
                 {% endif %}
               {% endfor %}
             {% endif %}
           ]
-        }{% if forloop.last == false %},{% endif %}
+        }
       {% endfor %}
     ]
   </script>
 </div>
 
-<!-- Sørg for at den delte duel-motor er loaded -->
-{% include components/hotseat-duel.html %}
+<!-- Sørg for at duel-motoren og overlay altid indlæses -->
+{% include components/hotseat-duel.html engine_only=true %}
 
 <style>
   .mp-duel-decks-wrapper {
@@ -176,7 +204,9 @@ window.MPHotseatDecks = (function() {
 
       const mixEl = document.getElementById('mp-total-mix-count');
       if (mixEl) mixEl.textContent = `${totalCount} spørgsmål`;
-    } catch(e) {}
+    } catch(e) {
+      console.error("Fejl ved parsing af deck data", e);
+    }
   }
 
   function startDeck(key) {

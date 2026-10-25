@@ -22,7 +22,7 @@ Brug:
     <button type="button" class="mp-btn-launch-pubquiz" onclick="MPPubQuiz.openLobby(this)">Opsæt Pub Quiz</button>
   </div>
 
-  <!-- Skudsikker JSON-datagenerering uden kommafejl -->
+  <!-- Indlejret JSON-data med direkte opslag i site.data.quizzes -->
   <script type="application/json" class="mp-pubquiz-decks-data">
     {% if duel_decks %}
       [
@@ -39,6 +39,9 @@ Brug:
             | default: page[k_key] 
             | default: page[k_id] 
             | default: page[k_slug] 
+            | default: site.data.quizzes[k_key]
+            | default: site.data.quizzes[k_id]
+            | default: site.data.quizzes[k_slug]
             | default: site.data[k_key] 
             | default: site.data[k_id] 
             | default: site.data[k_slug] 
@@ -140,6 +143,7 @@ Brug:
   }
   .mp-btn-launch-pubquiz:hover { transform: scale(1.04); background: #b45309; }
 
+  /* FULLSCREEN CONTAINER */
   #mp-pubquiz-overlay {
     display: none;
     position: fixed !important;
@@ -153,6 +157,7 @@ Brug:
     box-sizing: border-box;
   }
 
+  /* LOBBY */
   #mp-pubquiz-lobby {
     position: absolute;
     inset: 0;
@@ -283,7 +288,9 @@ Brug:
     color: #1e293b;
   }
 
-  /* SPILSKÆRM */
+  /* --------------------------------------------------------------------------
+     SPILSKÆRM MED SKALERBAR RESPONSIVITET
+     -------------------------------------------------------------------------- */
   #mp-pubquiz-game {
     position: absolute;
     inset: 0;
@@ -297,7 +304,7 @@ Brug:
   .mp-pq-topbar {
     background: #1e293b;
     border-bottom: 1px solid #334155;
-    padding: 12px 24px;
+    padding: clamp(8px, 1.5vh, 16px) clamp(16px, 2vw, 32px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -335,44 +342,67 @@ Brug:
     transition: width 0.1s linear, background-color 0.3s;
   }
 
+  /* FLUID ARENA TYPOGRAFI */
   .mp-pq-arena {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 1000px;
+    max-width: min(1200px, 94vw);
     width: 100%;
     margin: 0 auto;
-    padding: 1.5rem 2rem;
+    padding: clamp(1rem, 2vh, 2.5rem) clamp(1rem, 2vw, 2.5rem);
     box-sizing: border-box;
+    position: relative;
   }
+
   .mp-pq-question-card {
     background: #1e293b;
     border: 2px solid #334155;
-    border-radius: 20px;
-    padding: 2rem;
+    border-radius: clamp(14px, 2vw, 24px);
+    padding: clamp(1.2rem, 3vh, 2.8rem) clamp(1.5rem, 3vw, 3rem);
     text-align: center;
-    font-size: 1.7rem;
+    font-size: clamp(1.25rem, 2.6vw, 2.5rem);
     font-weight: 800;
     line-height: 1.35;
     color: #f8fafc;
-    margin-bottom: 1.5rem;
+    margin-bottom: clamp(1rem, 2.5vh, 2rem);
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+
+  /* FRYS STATUS-BANNER (MELLEMSKÆRM) */
+  .mp-pq-freeze-banner {
+    display: none;
+    background: #78350f;
+    border: 2px solid #f59e0b;
+    color: #fef3c7;
+    border-radius: 12px;
+    padding: clamp(8px, 1.2vh, 14px) 18px;
+    font-size: clamp(0.95rem, 1.6vw, 1.35rem);
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: clamp(10px, 1.5vh, 18px);
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+    animation: mpPulse 1.5s infinite;
+  }
+  @keyframes mpPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.85; }
   }
 
   .mp-pq-options-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    gap: clamp(10px, 1.6vw, 20px);
   }
   .mp-pq-option {
     background: #1e293b;
     border: 2px solid #334155;
-    border-radius: 14px;
-    padding: 16px 20px;
+    border-radius: clamp(10px, 1.4vw, 16px);
+    padding: clamp(10px, 2vh, 20px) clamp(14px, 2vw, 24px);
     display: flex;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: clamp(1.05rem, 1.8vw, 1.85rem);
     font-weight: 700;
     color: #e2e8f0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
@@ -382,12 +412,12 @@ Brug:
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 38px;
-    height: 38px;
+    width: clamp(32px, 3.2vw, 50px);
+    height: clamp(32px, 3.2vw, 50px);
     border-radius: 10px;
-    font-size: 1.15rem;
+    font-size: clamp(1rem, 1.8vw, 1.6rem);
     font-weight: 900;
-    margin-right: 16px;
+    margin-right: clamp(10px, 1.5vw, 18px);
     flex-shrink: 0;
   }
   .opt-letter-0 { background: #ef4444; color: #fff; }
@@ -395,22 +425,24 @@ Brug:
   .opt-letter-2 { background: #f59e0b; color: #fff; }
   .opt-letter-3 { background: #10b981; color: #fff; }
 
+  /* Når svaret afsløres */
   .mp-pq-option.is-revealed-correct {
     background: #064e3b !important;
     border-color: #22c55e !important;
     color: #ffffff !important;
     transform: scale(1.02);
-    box-shadow: 0 0 20px rgba(34, 197, 94, 0.4);
+    box-shadow: 0 0 25px rgba(34, 197, 94, 0.45);
   }
   .mp-pq-option.is-revealed-wrong {
-    opacity: 0.35;
-    filter: grayscale(80%);
+    opacity: 0.3;
+    filter: grayscale(85%);
   }
 
+  /* BUNDPANEL */
   .mp-pq-control-panel {
     background: #1e293b;
     border-top: 1px solid #334155;
-    padding: 14px 24px;
+    padding: clamp(10px, 1.6vh, 18px) clamp(16px, 2vw, 32px);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -433,10 +465,10 @@ Brug:
     gap: 10px;
     user-select: none;
   }
-  .mp-pq-chip-name { font-weight: 800; font-size: 0.95rem; }
+  .mp-pq-chip-name { font-weight: 800; font-size: clamp(0.85rem, 1.2vw, 1.05rem); }
   .mp-pq-chip-score {
     font-weight: 900;
-    font-size: 1.15rem;
+    font-size: clamp(1rem, 1.4vw, 1.3rem);
     color: #fbbf24;
     background: #1e293b;
     padding: 2px 8px;
@@ -447,14 +479,14 @@ Brug:
     color: #e2e8f0;
     border: none;
     border-radius: 6px;
-    padding: 4px 8px;
-    font-size: 0.82rem;
+    padding: 4px 10px;
+    font-size: 0.85rem;
     font-weight: 800;
     cursor: pointer;
     transition: all 0.15s;
     display: inline-flex;
     align-items: center;
-    gap: 3px;
+    gap: 4px;
   }
   .mp-btn-award-pt:hover { background: #10b981; color: #ffffff; }
   .mp-btn-award-pt.has-point { background: #10b981; color: #ffffff; }
@@ -470,16 +502,19 @@ Brug:
     border: none;
     border-radius: 10px;
     padding: 10px 22px;
-    font-size: 1rem;
+    font-size: clamp(0.95rem, 1.3vw, 1.15rem);
     font-weight: 800;
     cursor: pointer;
     transition: background 0.15s;
     white-space: nowrap;
   }
   .mp-btn-reveal-action:hover { background: #1d4ed8; }
-  .mp-btn-reveal-action.next-step { background: #10b981; }
-  .mp-btn-reveal-action.next-step:hover { background: #059669; }
+  .mp-btn-reveal-action.stage-freeze { background: #d97706; }
+  .mp-btn-reveal-action.stage-freeze:hover { background: #b45309; }
+  .mp-btn-reveal-action.stage-next { background: #10b981; }
+  .mp-btn-reveal-action.stage-next:hover { background: #059669; }
 
+  /* SLUTSKÆRM */
   #mp-pubquiz-results {
     position: absolute;
     inset: 0;
@@ -493,39 +528,39 @@ Brug:
     text-align: center;
   }
   .mp-pq-trophy { font-size: 5rem; line-height: 1; margin-bottom: 0.5rem; }
-  .mp-pq-results-title { font-size: 2.4rem; font-weight: 900; color: #fbbf24; margin-bottom: 0.5rem; }
+  .mp-pq-results-title { font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 900; color: #fbbf24; margin-bottom: 0.5rem; }
   .mp-pq-results-desc { color: #94a3b8; font-size: 1.1rem; margin-bottom: 2rem; }
 
   .mp-pq-podium {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     width: 100%;
-    max-width: 440px;
+    max-width: 500px;
     margin-bottom: 2rem;
   }
   .mp-pq-podium-row {
     background: #1e293b;
     border: 1.5px solid #334155;
     border-radius: 12px;
-    padding: 12px 18px;
+    padding: 14px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 800;
-    font-size: 1.15rem;
+    font-size: clamp(1.05rem, 1.6vw, 1.35rem);
   }
   .mp-pq-podium-row.is-winner {
     background: #2e2612;
     border-color: #f59e0b;
-    box-shadow: 0 0 15px rgba(245, 158, 11, 0.2);
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.25);
   }
 </style>
 
 <!-- MODAL MARKUP -->
 <div id="mp-pubquiz-overlay">
 
-  <!-- LOBBY -->
+  <!-- 1. LOBBY -->
   <div id="mp-pubquiz-lobby">
     <div class="mp-pubquiz-lobby-inner">
       <div class="mp-pubquiz-icon" style="font-size: 3rem; margin-bottom: 0.5rem;">🍻</div>
@@ -569,7 +604,7 @@ Brug:
     </div>
   </div>
 
-  <!-- SPIL -->
+  <!-- 2. SPIL -->
   <div id="mp-pubquiz-game" style="display: none;">
     <div>
       <div class="mp-pq-topbar">
@@ -587,20 +622,28 @@ Brug:
       </div>
     </div>
 
+    <!-- ARENA -->
     <div class="mp-pq-arena">
       <div class="mp-pq-question-card" id="mp-pq-question-text">Spørgsmål indlæses...</div>
+      
+      <!-- Mellemskærms-banner -->
+      <div class="mp-pq-freeze-banner" id="mp-pq-freeze-banner">
+        🛑 TIDEN ER GÅET! — Vis jeres svarkort (A-D) nu!
+      </div>
+
       <div class="mp-pq-options-grid" id="mp-pq-options-container"></div>
     </div>
 
+    <!-- BUNDPANEL (Point & Flow) -->
     <div class="mp-pq-control-panel">
       <div class="mp-pq-teams-score-strip" id="mp-pq-score-strip"></div>
       <div class="mp-pq-master-action">
-        <button type="button" class="mp-btn-reveal-action" id="mp-pq-main-action-btn" onclick="MPPubQuiz.handleMainAction()">Stop tid & vis svar ➔</button>
+        <button type="button" class="mp-btn-reveal-action" id="mp-pq-main-action-btn" onclick="MPPubQuiz.handleMainAction()">Stop tid ⏸️</button>
       </div>
     </div>
   </div>
 
-  <!-- PODIUM -->
+  <!-- 3. PODIUM -->
   <div id="mp-pubquiz-results">
     <div class="mp-pq-trophy">🏆</div>
     <div class="mp-pq-results-title">Pub Quizzen er Afsluttet!</div>
@@ -628,7 +671,9 @@ window.MPPubQuiz = window.MPPubQuiz || (function() {
   ];
 
   let roundPointsAwarded = [false, false, false, false];
-  let isAnswerRevealed = false;
+
+  // Faser: 'RUNNING' -> 'FROZEN' (Mellemskærm) -> 'REVEALED'
+  let roundStage = 'RUNNING'; 
   let timerInterval = null;
   let timeLeftMs = 0;
   let isTimerPaused = false;
@@ -658,7 +703,7 @@ window.MPPubQuiz = window.MPPubQuiz || (function() {
     }
 
     if (allDecks.length === 0) {
-      alert("Ingen spørgsmål med svarmuligheder (multiple choice) fundet. Tjek at dine kort har 'options' defineret.");
+      alert("Ingen spørgsmål med svarmuligheder fundet. Tjek at der er kort med 'options' i modulerne.");
       return;
     }
 
@@ -792,9 +837,11 @@ window.MPPubQuiz = window.MPPubQuiz || (function() {
   }
 
   function loadQuestion(index) {
-    isAnswerRevealed = false;
+    roundStage = 'RUNNING';
     isTimerPaused = false;
     roundPointsAwarded = [false, false, false, false];
+
+    document.getElementById('mp-pq-freeze-banner').style.display = 'none';
 
     const qData = activeQuestions[index];
     document.getElementById('mp-pq-progress-tag').textContent = `Spørgsmål ${index + 1} af ${activeQuestions.length}`;
@@ -820,7 +867,7 @@ window.MPPubQuiz = window.MPPubQuiz || (function() {
     });
 
     const mainBtn = document.getElementById('mp-pq-main-action-btn');
-    mainBtn.textContent = 'Stop tid & vis svar ➔';
+    mainBtn.textContent = 'Stop tid ⏸️';
     mainBtn.className = 'mp-btn-reveal-action';
 
     document.getElementById('mp-btn-pause-timer').style.display = timeLimitSeconds > 0 ? 'inline-block' : 'none';
@@ -859,28 +906,50 @@ window.MPPubQuiz = window.MPPubQuiz || (function() {
 
       if (timeLeftMs <= 0) {
         clearInterval(timerInterval);
-        revealAnswer();
+        enterFreezeStage();
       }
     }, 50);
   }
 
   function toggleTimerPause() {
-    if (isAnswerRevealed) return;
+    if (roundStage !== 'RUNNING') return;
     isTimerPaused = !isTimerPaused;
     document.getElementById('mp-btn-pause-timer').textContent = isTimerPaused ? 'Genoptag tid ▶️' : 'Pause tid ⏸️';
   }
 
+  /* 3-TRINS HOVEDKNAP: RUNNING -> FROZEN -> REVEALED */
   function handleMainAction() {
-    if (!isAnswerRevealed) {
+    if (roundStage === 'RUNNING') {
+      clearInterval(timerInterval);
+      enterFreezeStage();
+    } else if (roundStage === 'FROZEN') {
       revealAnswer();
-    } else {
+    } else if (roundStage === 'REVEALED') {
       nextQuestion();
     }
   }
 
+  /* FASE 2: TIDEN ER GÅET - MELLEMSKÆRM (SVARKORT OP!) */
+  function enterFreezeStage() {
+    roundStage = 'FROZEN';
+    document.getElementById('mp-pq-timer').style.width = '0%';
+    document.getElementById('mp-pq-timer').style.backgroundColor = '#ef4444';
+    document.getElementById('mp-btn-pause-timer').style.display = 'none';
+
+    // Vis frys-banner
+    document.getElementById('mp-pq-freeze-banner').style.display = 'block';
+
+    // Skift knap til at afsløre svar
+    const mainBtn = document.getElementById('mp-pq-main-action-btn');
+    mainBtn.textContent = 'Afslør rigtigt svar 👁️';
+    mainBtn.className = 'mp-btn-reveal-action stage-freeze';
+  }
+
+  /* FASE 3: AFSLØRING AF FACIT OG POINTGIVNING */
   function revealAnswer() {
-    clearInterval(timerInterval);
-    isAnswerRevealed = true;
+    roundStage = 'REVEALED';
+
+    document.getElementById('mp-pq-freeze-banner').style.display = 'none';
 
     const options = document.querySelectorAll('.mp-pq-option');
     options.forEach(opt => {
@@ -894,7 +963,7 @@ window.MPPubQuiz = window.MPPubQuiz || (function() {
     const mainBtn = document.getElementById('mp-pq-main-action-btn');
     const isLast = currentQIndex + 1 >= activeQuestions.length;
     mainBtn.textContent = isLast ? 'Se slutresultat 🏆' : 'Næste spørgsmål ➔';
-    mainBtn.className = 'mp-btn-reveal-action next-step';
+    mainBtn.className = 'mp-btn-reveal-action stage-next';
   }
 
   function renderControlPanelScore() {
