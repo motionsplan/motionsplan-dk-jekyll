@@ -1,4 +1,4 @@
-{% assign calc_title = include.title | default: "⚡ VBT RPE hastighedsprofil (All-Out Sæt)" %}
+{% assign calc_title = include.title | default: "⚡ VBT RPE & Hastighedsprofil (All-Out Sæt)" %}
 
 <style>
   .vbt-rpe-card {
@@ -67,7 +67,7 @@
     .vbt-rpe-card:fullscreen .vbt-rpe-layout-grid,
     .vbt-rpe-card:-webkit-full-screen .vbt-rpe-layout-grid,
     .vbt-rpe-card.vbt-is-fullscreen .vbt-rpe-layout-grid {
-      grid-template-columns: 1.05fr 1.15fr 0.95fr !important;
+      grid-template-columns: 1.15fr 1.15fr 0.95fr !important;
       align-items: start !important;
     }
   }
@@ -108,14 +108,15 @@
     box-sizing: border-box !important;
   }
 
-  /* Top settings grid (nu kun 2 felter) */
+  /* Top settings grid - Alle 3 felter på 1 række */
   .vbt-rpe-grid-top {
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
-    gap: 0.75rem;
+    grid-template-columns: 1fr 1fr 1.15fr;
+    gap: 0.65rem;
+    align-items: flex-end;
     margin-bottom: 1rem;
   }
-  @media (max-width: 550px) {
+  @media (max-width: 600px) {
     .vbt-rpe-grid-top {
       grid-template-columns: 1fr;
     }
@@ -125,15 +126,20 @@
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+    position: relative;
+    min-width: 0;
   }
   .vbt-field-label {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     font-weight: 700;
     color: #475569;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .vbt-input-mega {
     width: 100%;
+    height: 38px;
     padding: 0.45rem 0.55rem;
     border: 1px solid #cbd5e1;
     border-radius: 8px;
@@ -149,7 +155,67 @@
     background: #ffffff;
   }
 
-  /* Fixed Table Layout */
+  /* Fjern op/ned-pile i tal-felter */
+  input[type="number"].vbt-no-spin::-webkit-outer-spin-button,
+  input[type="number"].vbt-no-spin::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"].vbt-no-spin {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+  /* Centreret lommeregner-ikon i inputfeltet */
+  .vbt-input-with-calc {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .vbt-input-with-calc input {
+    padding-right: 38px !important;
+  }
+  .vbt-calc-btn-inside {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 1.15rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    z-index: 5;
+    transition: transform 0.15s ease;
+  }
+  .vbt-calc-btn-inside:hover {
+    transform: translateY(-50%) scale(1.15);
+  }
+
+  /* Popover forankret til højre */
+  .vbt-calc-popover {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    width: 220px;
+    z-index: 50;
+    background: #ffffff;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 10px 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    box-sizing: border-box;
+  }
+
+  /* Fast tabellayout */
   .vbt-rpe-table-wrapper {
     width: 100%;
     overflow-x: hidden;
@@ -211,7 +277,7 @@
     background: #fee2e2;
   }
 
-  /* Actions */
+  /* Handlingsknapper */
   .vbt-action-row {
     display: flex;
     gap: 0.5rem;
@@ -241,7 +307,7 @@
     background: #15803d;
   }
 
-  /* Metrics Cards */
+  /* Nøgletalskort */
   .vbt-rpe-metrics-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -278,7 +344,7 @@
     font-weight: 600;
   }
 
-  /* Output Table */
+  /* RPE Output Tabel */
   .vbt-rpe-output-box {
     background: #f0fdf4;
     border: 1px solid #bbf7d0;
@@ -302,7 +368,7 @@
     border-bottom: 1px solid #dcfce7;
   }
 
-  /* Assessment */
+  /* Testvurdering */
   .vbt-assessment-box {
     border-radius: 10px;
     padding: 0.85rem;
@@ -314,7 +380,7 @@
   .vbt-assessment-warn { background: #fffbebfb; border: 1px solid #fde68a; color: #92400e; }
   .vbt-assessment-bad { background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; }
 
-  /* SVG Chart */
+  /* SVG Kurve */
   .vbt-rpe-chart-box {
     background: #ffffff;
     border: 1px solid #e2e8f0;
@@ -322,7 +388,7 @@
     padding: 0.85rem;
   }
 
-  /* Compact History */
+  /* Historik */
   .vbt-history-card {
     background: #ffffff;
     border: 1px solid #e2e8f0;
@@ -417,6 +483,34 @@
             <option value="8">RPE 8 (2 RIR)</option>
           </select>
         </div>
+
+        <!-- Vægt-input uden spin-pile med lommeregner -->
+        <div class="vbt-field-group">
+          <label class="vbt-field-label">⚖️ Vægt (75-80% 1RM)</label>
+          <div class="vbt-input-with-calc">
+            <input type="number" step="0.5" id="vbt-rpe-load" class="vbt-input-mega vbt-no-spin" placeholder="fx 85 kg">
+            <button type="button" id="vbt-rpe-calc-btn" class="vbt-calc-btn-inside" title="Beregn fra 1RM">🧮</button>
+          </div>
+
+          <!-- Popover til beregning -->
+          <div id="vbt-rpe-calc-popover" class="vbt-calc-popover" style="display: none;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+              <span style="font-weight: 700; font-size: 0.78rem; color: #1e293b;">⚡ Beregn fra 1RM</span>
+              <button type="button" id="vbt-rpe-calc-close" style="background: none; border: none; font-size: 0.85rem; cursor: pointer; color: #64748b; line-height: 1;">✕</button>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+              <div>
+                <label style="font-size: 0.7rem; color: #64748b; font-weight: 700;">1RM (kg)</label>
+                <input type="number" step="2.5" id="vbt-rpe-calc-1rm" class="vbt-cell-input vbt-no-spin" placeholder="fx 105" style="max-width:100%;">
+              </div>
+              <div>
+                <label style="font-size: 0.7rem; color: #64748b; font-weight: 700;">Procent</label>
+                <input type="number" step="1" id="vbt-rpe-calc-pct" class="vbt-cell-input vbt-no-spin" value="80" style="max-width:100%;">
+              </div>
+            </div>
+            <button type="button" id="vbt-rpe-calc-apply" class="vbt-btn-action" style="width: 100%; padding: 6px; font-size: 0.78rem; background: #2563eb; color: #fff; border-color: #1d4ed8;">Indsæt vægt</button>
+          </div>
+        </div>
       </div>
 
       <div class="vbt-rpe-table-wrapper">
@@ -497,7 +591,7 @@
 
 <script>
 (function() {
-  const STORAGE_KEY_RPE_HISTORY = 'vbt_rpe_history_v2';
+  const STORAGE_KEY_RPE_HISTORY = 'vbt_rpe_history_v3';
 
   const MVT_STANDARDS = {
     bench: { name: 'Bænkpres', stdMvt: 0.15 },
@@ -527,6 +621,13 @@
   const fullscreenIcon = card.querySelector('#vbt-rpe-fullscreen-icon');
   const exerciseSelect = card.querySelector('#vbt-rpe-exercise');
   const lastRpeSelect = card.querySelector('#vbt-rpe-last-rpe');
+  const loadInput = card.querySelector('#vbt-rpe-load');
+  const calcBtn = card.querySelector('#vbt-rpe-calc-btn');
+  const calcPopover = card.querySelector('#vbt-rpe-calc-popover');
+  const calcCloseBtn = card.querySelector('#vbt-rpe-calc-close');
+  const calc1rmInput = card.querySelector('#vbt-rpe-calc-1rm');
+  const calcPctInput = card.querySelector('#vbt-rpe-calc-pct');
+  const calcApplyBtn = card.querySelector('#vbt-rpe-calc-apply');
   const repsContainer = card.querySelector('#vbt-rpe-reps-list');
   const addRepBtn = card.querySelector('#vbt-rpe-add-rep');
   const resetBtn = card.querySelector('#vbt-rpe-reset');
@@ -664,7 +765,7 @@
     const lastVel = validData[validData.length - 1].vel;
     const vLoss = firstVel > 0 ? Math.round(((firstVel - lastVel) / firstVel) * 100) : 0;
 
-    // Udregnet MVT: Bounded af reelt udført RPE 10 eller mindste hastighed
+    // Udregnet MVT: Må aldrig overstige den faktiske minimumshastighed eller RPE 10-hastigheden
     let calculatedMvt = Math.max(0.05, slope * 10 + intercept);
     const rpe10Rep = validData.find(d => d.rpe === 10);
     if (rpe10Rep && rpe10Rep.vel < calculatedMvt) {
@@ -787,10 +888,11 @@
     history.forEach((item, idx) => {
       const div = document.createElement('div');
       div.className = 'vbt-history-row';
+      const loadStr = item.load ? `⚖️ ${item.load} kg | ` : '';
       div.innerHTML = `
         <div class="vbt-history-info">
           <span class="vbt-history-name-tag">${item.sessionName}</span>
-          <span class="vbt-history-stats-tag">📅 ${item.date} | <strong>RPE 8: ${item.rpe8Vel} m/s</strong> | <strong>MVT: ${item.mvtVel} m/s</strong> (R² = ${item.r2})</span>
+          <span class="vbt-history-stats-tag">${loadStr}📅 ${item.date} | <strong>RPE 8: ${item.rpe8Vel} m/s</strong> | <strong>MVT: ${item.mvtVel} m/s</strong> (R² = ${item.r2})</span>
         </div>
         <div style="display:flex; gap:0.3rem;">
           <button type="button" class="vbt-btn-xs vbt-rpe-load-history" data-idx="${idx}">Hent</button>
@@ -808,6 +910,7 @@
         if (item) {
           exerciseSelect.value = item.exercise;
           lastRpeSelect.value = item.lastRpe;
+          loadInput.value = item.load || '';
           reps = JSON.parse(JSON.stringify(item.reps));
           render();
         }
@@ -833,6 +936,41 @@
         saveHistory();
         renderHistory();
       });
+    });
+  }
+
+  // Lommeregner popover logik
+  if (calcBtn && calcPopover) {
+    calcBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      calcPopover.style.display = calcPopover.style.display === 'none' ? 'block' : 'none';
+      if (calcPopover.style.display === 'block' && calc1rmInput) {
+        calc1rmInput.focus();
+      }
+    });
+
+    calcCloseBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      calcPopover.style.display = 'none';
+    });
+
+    calcApplyBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const oneRm = parseFloat(calc1rmInput.value);
+      const pct = parseFloat(calcPctInput.value) || 80;
+
+      if (!isNaN(oneRm) && oneRm > 0) {
+        // Afrund til nærmeste 2.5 kg
+        const calculatedKg = Math.max(2.5, Math.round((oneRm * (pct / 100)) / 2.5) * 2.5);
+        loadInput.value = calculatedKg;
+        calcPopover.style.display = 'none';
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!calcPopover.contains(e.target) && e.target !== calcBtn) {
+        calcPopover.style.display = 'none';
+      }
     });
   }
 
@@ -890,12 +1028,13 @@
     resetBtn.addEventListener('click', () => {
       if (confirm('Vil du nulstille målingerne i sættet?')) {
         reps = JSON.parse(JSON.stringify(DEFAULT_REPS));
+        loadInput.value = '';
         render();
       }
     });
   }
 
-  // Gem profil med standardnavn = "${Øvelse} RPE Profil"
+  // Gem profil med standardnavn = "${Øvelse} (${Vægt} kg) RPE Profil"
   if (saveBtn) {
     saveBtn.addEventListener('click', () => {
       const lastRpeVal = parseFloat(lastRpeSelect.value) || 10;
@@ -938,13 +1077,16 @@
 
       const rpe8Vel = Math.max(0.05, slope * 8 + intercept).toFixed(2);
       const exObj = MVT_STANDARDS[exerciseSelect.value] || MVT_STANDARDS.custom;
+      const loadVal = loadInput.value.trim();
+      const defaultName = loadVal ? `${exObj.name} (${loadVal} kg) RPE Profil` : `${exObj.name} RPE Profil`;
 
       const historyItem = {
         id: Date.now(),
         date: new Date().toLocaleDateString('da-DK', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }),
-        sessionName: `${exObj.name} RPE Profil`,
+        sessionName: defaultName,
         exercise: exerciseSelect.value,
         exerciseName: exObj.name,
+        load: loadVal,
         lastRpe: lastRpeSelect.value,
         rpe8Vel,
         mvtVel: mvtVal.toFixed(2),
