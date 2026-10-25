@@ -68,14 +68,6 @@ layout: default
             <div class="page__ext-link"><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
           {% endif %}
 
-          <div id="mp-bottom-stack" class="mp-flashcard-stack-container" style="display: none; margin-top: 2em;">
-            <div class="mp-bottom-stack-header">
-              <strong>🔄 Repetition fra denne artikel</strong>
-              <p><small>Du markerede disse kort som svære undervejs. Tag dem lige igennem igen!</small></p>
-            </div>
-            <div class="mp-card-stack"></div>
-          </div>
-
           <div style="margin-top: 3em;">
             {% include motionsplan/rating.html %}
           </div>

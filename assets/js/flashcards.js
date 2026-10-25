@@ -1,162 +1,165 @@
 (function () {
-  const STORAGE_KEY = 'motionsplan_flashcards';
+  const RUNS_KEY = 'motionsplan_quiz_progress_v8';
   const OPT_OUT_KEY = 'motionsplan_disable_flashcards';
 
-  // 1. Parser Anki-style Cloze deletion: {{c1::svar}} eller {{c1::svar::hint}}
-  function parseAnkiCloze(text) {
-    if (!text) return null;
-    const clozeRegex = /\{\{c\d+::([^:]+?)(?:::([^:]+?))?\}\}/g;
-    if (!clozeRegex.test(text)) return null;
-
-    clozeRegex.lastIndex = 0;
-    const frontText = text.replace(clozeRegex, (match, answer, hint) => {
-      const placeholder = hint ? `[${hint}]` : '[...]';
-      return `<span class="mp-cloze-blank">${placeholder}</span>`;
-    });
-
-    clozeRegex.lastIndex = 0;
-    const backText = text.replace(clozeRegex, (match, answer) => {
-      return `<span class="mp-cloze-revealed">${answer}</span>`;
-    });
-
-    return { front: frontText, back: backText };
-  }
-
-  function getStoredData() {
-    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
+  function getAllDeckRuns() {
+    try { return JSON.parse(localStorage.getItem(RUNS_KEY)) || {}; }
     catch (e) { return {}; }
   }
 
-  function saveData(data) {
-    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); }
-    catch (e) {}
+  function getDeckRun(deckId) {
+    const runs = getAllDeckRuns();
+    return runs[deckId] || { answered: {}, isCompleted: false };
   }
 
-  function getBottomStack() {
-    const bottomStack = document.getElementById('mp-bottom-stack');
-    if (!bottomStack) return null;
+  function saveDeckRun(deckId, runData) {
+    try {
+      const runs = getAllDeckRuns();
+      runs[deckId] = runData;
+      localStorage.setItem(RUNS_KEY, JSON.stringify(runs));
+    } catch (e) {}
+  }
 
-    let cardStack = bottomStack.querySelector('.mp-card-stack');
-    if (!cardStack) {
-      cardStack = document.createElement('div');
-      cardStack.className = 'mp-card-stack';
-      bottomStack.appendChild(cardStack);
+  function getDeckId(container) {
+    const panel = container.closest('.mp-quiz-panel');
+    if (panel && panel.id) {
+      return panel.id.replace('quiz-', '');
     }
-    return { bottomStack, cardStack };
+    return 'single-deck';
   }
 
-  function refreshBottomStack() {
-    const bottomData = getBottomStack();
-    if (!bottomData) return;
-
-    const { bottomStack, cardStack } = bottomData;
-    const cards = Array.from(cardStack.children).filter(child => child.classList.contains('mp-card-wrapper'));
-
-    if (cards.length === 0) {
-      bottomStack.style.display = 'none';
-    } else {
-      bottomStack.style.display = 'block';
-      cards.forEach((card, index) => {
-        card.classList.remove('flipped');
-        if (index === 0) {
-          card.classList.add('is-active');
-          card.style.display = 'block';
-        } else {
-          card.classList.remove('is-active');
-          card.style.display = 'none';
-        }
-      });
-    }
-  }
-
-  // SM-2 Algoritme (Spaced Repetition)
-  function calculateSM2(card, rating) {
-    let ease = card.ease || 2.5;
-    let reps = card.reps || 0;
-    let interval = card.interval || 0;
-    const nextReview = new Date();
-
-    if (rating === 'hard') {
-      reps = 0;
-      interval = 0;
-      ease = Math.max(1.3, ease - 0.2);
-      nextReview.setSeconds(nextReview.getSeconds() - 1);
-    } else if (rating === 'good') {
-      reps += 1;
-      interval = reps === 1 ? 1 : reps === 2 ? 6 : Math.round(interval * ease);
-      nextReview.setDate(nextReview.getDate() + interval);
-    } else if (rating === 'easy') {
-      reps += 1;
-      interval = reps === 1 ? 4 : Math.round(interval * ease * 1.3);
-      ease += 0.15;
-      nextReview.setDate(nextReview.getDate() + interval);
-    }
-
-    return { ease: parseFloat(ease.toFixed(2)), reps, interval, nextReview: nextReview.toISOString() };
-  }
-
-  // Viser et kompakt resultat og "Tag igen"-knap på én vandret linje
-  function renderCompleteBoxUI(container, completeBox) {
-    const store = getStoredData();
+  // Slutkort med fremdriftsbar og knapper i hvert hjørne
+  function renderCompleteBoxUI(container, completeBox, deckRun) {
     const allCards = Array.from(container.querySelectorAll('.mp-card-wrapper'));
     const mcCards = allCards.filter(c => c.querySelector('.mp-options-grid'));
     
-    let dynamicContainer = completeBox.querySelector('.mp-complete-dynamic-content');
-    if (!dynamicContainer) dynamicContainer = completeBox;
-    dynamicContainer.innerHTML = '';
+    const dynamicContainer = completeBox.querySelector('.mp-complete-dynamic-content');
+    if (dynamicContainer) dynamicContainer.innerHTML = '';
 
-    const row = document.createElement('div');
-    row.style.cssText = 'display: inline-flex; align-items: center; justify-content: center; gap: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 8px 14px;';
+    const totalMc = mcCards.length;
+    let correctCount = 0;
+    let actualSkippedCount = 0;
+    let needsReviewCards = [];
 
-    const resultSpan = document.createElement('span');
-    resultSpan.style.cssText = 'font-size: 0.95rem; font-weight: 700; color: #1e293b;';
+    allCards.forEach(c => {
+      const cId = c.dataset.id;
+      const ansInfo = deckRun.answered[cId];
+      const hasMc = !!c.querySelector('.mp-options-grid');
 
-    if (mcCards.length > 0) {
-      let correctCount = 0;
-      mcCards.forEach(c => {
-        const cId = c.dataset.id;
-        if (c.dataset.mcCorrect === 'true' || (store[cId] && store[cId].mcCorrect === true)) {
+      if (!ansInfo || ansInfo.skipped) {
+        // Reelt skippet eller aldrig nået
+        actualSkippedCount++;
+        needsReviewCards.push(c);
+      } else {
+        if (hasMc && ansInfo.mcCorrect === true) {
           correctCount++;
         }
-      });
-      const pct = Math.round((correctCount / mcCards.length) * 100);
-      resultSpan.textContent = `Resultat: ${correctCount} / ${mcCards.length} (${pct}%)`;
-    } else {
-      resultSpan.textContent = `✓ Alle ${allCards.length} kort gennemgået`;
+
+        // Skal gentages hvis: 1) markeret svær, eller 2) forkert MC-svar
+        const isHard = ansInfo.rating === 'hard';
+        const isWrongMc = hasMc && ansInfo.mcCorrect === false;
+
+        if (isHard || isWrongMc) {
+          needsReviewCards.push(c);
+        }
+      }
+    });
+
+    const needsReviewCount = needsReviewCards.length;
+
+    if (dynamicContainer) {
+      if (totalMc > 0) {
+        const pct = Math.round((correctCount / totalMc) * 100);
+        const barColor = pct >= 60 ? '#10b981' : (pct >= 40 ? '#f59e0b' : '#ef4444');
+
+        dynamicContainer.innerHTML = `
+          <div class="mp-score-display">
+            <div class="mp-score-headline">
+              <span class="mp-score-correct">${correctCount}</span> af ${totalMc} rigtige
+              <span class="mp-score-pct">(${pct}%)</span>
+            </div>
+            <div class="mp-progress-bar-track">
+              <div class="mp-progress-bar-fill" style="width: ${pct}%; background: ${barColor};"></div>
+            </div>
+          </div>
+        `;
+      } else {
+        dynamicContainer.innerHTML = `
+          <div class="mp-score-display">
+            <div class="mp-score-headline">
+              <span class="mp-score-correct">✓ Alle ${allCards.length} kort</span> gennemgået
+            </div>
+            <div class="mp-progress-bar-track">
+              <div class="mp-progress-bar-fill" style="width: 100%; background: #10b981;"></div>
+            </div>
+          </div>
+        `;
+      }
     }
 
-    const restartBtn = document.createElement('button');
-    restartBtn.type = 'button';
-    restartBtn.textContent = '🔄 Tag igen';
-    restartBtn.style.cssText = 'background: #ffffff; color: #475569; border: 1px solid #cbd5e1; padding: 4px 8px; border-radius: 6px; font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: background 0.15s ease;';
-    restartBtn.onmouseover = () => restartBtn.style.background = '#f1f5f9';
-    restartBtn.onmouseout = () => restartBtn.style.background = '#ffffff';
+    // Knapper i bunden
+    const leftContainer = completeBox.querySelector('.mp-complete-bottom-left');
+    const rightContainer = completeBox.querySelector('.mp-complete-bottom-right');
 
-    restartBtn.onclick = () => restartDeck(container, completeBox);
+    if (leftContainer) {
+      leftContainer.innerHTML = '';
 
-    row.appendChild(resultSpan);
-    row.appendChild(restartBtn);
-    dynamicContainer.appendChild(row);
+      if (needsReviewCount > 0) {
+        // Viser KUN "ubesvarede", hvis samtlige kort i puljen reelt var skippede
+        const isOnlySkipped = (actualSkippedCount === needsReviewCount);
+        const btnLabel = isOnlySkipped 
+          ? `🔁 Prøv ubesvarede (${needsReviewCount})` 
+          : `🔁 Gentag svære/forkerte (${needsReviewCount})`;
+
+        const repeatHardBtn = document.createElement('button');
+        repeatHardBtn.type = 'button';
+        repeatHardBtn.className = 'mp-btn-text-subtle mp-btn-repeat-hard';
+        repeatHardBtn.innerHTML = btnLabel;
+        repeatHardBtn.onclick = () => restartDeck(container, completeBox, true);
+        leftContainer.appendChild(repeatHardBtn);
+      } else if (totalMc > 0 && correctCount === totalMc) {
+        leftContainer.innerHTML = `<span style="font-size:0.84rem; font-weight:700; color:#15803d;">✓ Alle besvaret fejlfrit!</span>`;
+      } else if (totalMc === 0) {
+        leftContainer.innerHTML = `<span style="font-size:0.84rem; font-weight:700; color:#15803d;">✓ Alle gennemført!</span>`;
+      }
+    }
+
+    if (rightContainer) {
+      rightContainer.innerHTML = '';
+      const restartBtn = document.createElement('button');
+      restartBtn.type = 'button';
+      restartBtn.className = 'mp-btn-text-subtle mp-btn-restart-subtle';
+      restartBtn.innerHTML = '🔄 Start forfra';
+      restartBtn.onclick = () => restartDeck(container, completeBox, false);
+      rightContainer.appendChild(restartBtn);
+    }
   }
 
-  // Nulstiller et dæk, så det kan tages forfra
-  function restartDeck(container, completeBox) {
-    const store = getStoredData();
+  // Genstart dækket (enten hele modulet eller kun svære/forkerte kort)
+  function restartDeck(container, completeBox, onlyHard = false) {
+    const deckId = getDeckId(container);
+    const deckRun = getDeckRun(deckId);
     const mainStack = container.querySelector('.mp-card-stack');
     const cards = Array.from(mainStack.children).filter(child => child.classList.contains('mp-card-wrapper'));
 
-    cards.forEach((card, index) => {
-      const id = card.dataset.id;
-      if (store[id]) {
-        store[id].answered = false;
-        store[id].reps = 0;
-        store[id].interval = 0;
-        delete store[id].mcCorrect;
-      }
+    let activeSubset = [];
 
-      delete card.dataset.answered;
-      delete card.dataset.mcAnswered;
-      delete card.dataset.mcCorrect;
+    if (onlyHard) {
+      activeSubset = cards.filter(card => {
+        const ans = deckRun.answered[card.dataset.id];
+        const hasMc = !!card.querySelector('.mp-options-grid');
+        return !ans || ans.skipped || ans.rating === 'hard' || (hasMc && ans.mcCorrect === false);
+      });
+      activeSubset.forEach(c => delete deckRun.answered[c.dataset.id]);
+      deckRun.isCompleted = false;
+      saveDeckRun(deckId, deckRun);
+    } else {
+      activeSubset = cards;
+      saveDeckRun(deckId, { answered: {}, isCompleted: false });
+    }
+
+    cards.forEach(card => {
+      const isTarget = activeSubset.includes(card);
       card.classList.remove('flipped');
 
       const badge = card.querySelector('.mp-user-result-badge');
@@ -165,7 +168,6 @@
         badge.className = 'mp-user-result-badge';
       }
 
-      // Nulstil forsidens vend-knap
       const flipBtn = card.querySelector('.mp-btn-flip');
       const hasOptions = card.querySelector('.mp-options-grid');
       if (flipBtn) {
@@ -173,30 +175,44 @@
         flipBtn.textContent = 'Vend kort 🔄';
       }
 
-      if (index === 0) {
-        card.classList.add('is-active');
-        card.style.display = 'block';
+      if (isTarget) {
+        delete card.dataset.answered;
+        delete card.dataset.mcAnswered;
+        delete card.dataset.mcCorrect;
       } else {
-        card.classList.remove('is-active');
-        card.style.display = 'none';
+        // Bevar answered-markør på kort, der ikke skal gentages
+        card.dataset.answered = 'true';
       }
+
+      card.classList.remove('is-active');
+      card.style.display = 'none';
     });
 
-    saveData(store);
+    if (activeSubset.length > 0) {
+      activeSubset[0].classList.add('is-active');
+      activeSubset[0].style.display = 'block';
+    }
 
     completeBox.style.display = 'none';
     mainStack.style.display = 'block';
+
     updateDeckBadges();
   }
 
-  // Gå til næste kort i stakken
   function advanceMainStack(container, currentWrapper) {
     const mainStack = container.querySelector('.mp-card-stack');
     if (!mainStack) return;
 
-    const cards = Array.from(mainStack.children).filter(child => child.classList.contains('mp-card-wrapper'));
-    const currentIndex = cards.indexOf(currentWrapper);
-    const nextWrapper = cards[currentIndex + 1];
+    const allCards = Array.from(mainStack.children).filter(child => child.classList.contains('mp-card-wrapper'));
+    const currentIndex = allCards.indexOf(currentWrapper);
+
+    let nextWrapper = null;
+    for (let i = currentIndex + 1; i < allCards.length; i++) {
+      if (allCards[i].dataset.answered !== 'true') {
+        nextWrapper = allCards[i];
+        break;
+      }
+    }
 
     currentWrapper.classList.remove('is-active', 'flipped');
     currentWrapper.style.display = 'none';
@@ -205,60 +221,72 @@
       nextWrapper.classList.add('is-active');
       nextWrapper.style.display = 'block';
     } else {
+      const deckId = getDeckId(container);
+      const deckRun = getDeckRun(deckId);
+      deckRun.isCompleted = true;
+      saveDeckRun(deckId, deckRun);
+
       mainStack.style.display = 'none';
       const completeBox = container.querySelector('.mp-stack-complete');
       if (completeBox) {
-        completeBox.style.display = 'block';
-        renderCompleteBoxUI(container, completeBox);
+        completeBox.style.display = 'flex';
+        renderCompleteBoxUI(container, completeBox, deckRun);
       }
+      updateDeckBadges();
     }
   }
 
-  // Scanner status ved page-load og springer direkte til første ubesvarede kort
-  function resumeDeckProgress(container, store) {
+  function resumeDeckProgress(container) {
+    const deckId = getDeckId(container);
+    const deckRun = getDeckRun(deckId);
     const mainStack = container.querySelector('.mp-card-stack');
     if (!mainStack) return;
 
     const cards = Array.from(mainStack.children).filter(child => child.classList.contains('mp-card-wrapper'));
     if (cards.length === 0) return;
 
+    if (deckRun.isCompleted) {
+      mainStack.style.display = 'none';
+      const completeBox = container.querySelector('.mp-stack-complete');
+      if (completeBox) {
+        completeBox.style.display = 'flex';
+        renderCompleteBoxUI(container, completeBox, deckRun);
+      }
+      return;
+    }
+
     let firstUnanswered = null;
 
     cards.forEach(card => {
       const cardId = card.dataset.id;
-      const isAnswered = store[cardId] && (store[cardId].answered === true || store[cardId].reps > 0);
+      const ansInfo = deckRun.answered[cardId];
 
-      if (isAnswered) {
+      if (ansInfo) {
         card.dataset.answered = 'true';
-        if (store[cardId].mcCorrect !== undefined) {
-          card.dataset.mcCorrect = String(store[cardId].mcCorrect);
-        }
+        card.dataset.mcCorrect = String(ansInfo.mcCorrect);
         card.classList.remove('is-active', 'flipped');
         card.style.display = 'none';
       } else if (!firstUnanswered) {
         firstUnanswered = card;
+        card.classList.add('is-active');
+        card.style.display = 'block';
       } else {
         card.classList.remove('is-active', 'flipped');
         card.style.display = 'none';
       }
     });
 
-    if (firstUnanswered) {
-      firstUnanswered.classList.add('is-active');
-      firstUnanswered.style.display = 'block';
-      mainStack.style.display = 'block';
-    } else {
+    if (!firstUnanswered) {
       mainStack.style.display = 'none';
       const completeBox = container.querySelector('.mp-stack-complete');
       if (completeBox) {
-        completeBox.style.display = 'block';
-        renderCompleteBoxUI(container, completeBox);
+        completeBox.style.display = 'flex';
+        renderCompleteBoxUI(container, completeBox, deckRun);
       }
     }
   }
 
-  // Opsætning af events for det enkelte kort
-  function setupCardEvents(container, wrapper, memoryStore) {
+  function setupCardEvents(container, wrapper, srsEngine) {
     if (wrapper.dataset.initialized === 'true') return;
     wrapper.dataset.initialized = 'true';
 
@@ -270,9 +298,8 @@
     const questionTextEl = wrapper.querySelector('.mp-question-text');
     const answerTextEl = wrapper.querySelector('.mp-answer-text');
 
-    // Håndter Anki Cloze syntax
-    if (questionTextEl) {
-      const clozeData = parseAnkiCloze(questionTextEl.innerHTML);
+    if (questionTextEl && srsEngine) {
+      const clozeData = srsEngine.parseAnkiCloze(questionTextEl.innerHTML);
       if (clozeData) {
         questionTextEl.innerHTML = clozeData.front;
         if (answerTextEl) {
@@ -286,18 +313,20 @@
       }
     }
 
-    // Gem baseline-data i hukommelsen
-    if (!memoryStore[id]) {
-      memoryStore[id] = { id, ease: 2.5, reps: 0, interval: 0, nextReview: new Date().toISOString() };
-    }
-    if (frontContent && backContent) {
-      memoryStore[id].front = frontContent.innerHTML;
-      memoryStore[id].back = backContent.innerHTML;
-      memoryStore[id].url = url;
-      memoryStore[id].title = title;
+    if (srsEngine) {
+      let memoryStore = srsEngine.getStoredData();
+      if (!memoryStore[id]) {
+        memoryStore[id] = { id, ease: 2.5, reps: 0, interval: 0, nextReview: new Date().toISOString() };
+      }
+      if (frontContent && backContent) {
+        memoryStore[id].front = frontContent.innerHTML;
+        memoryStore[id].back = backContent.innerHTML;
+        memoryStore[id].url = url;
+        memoryStore[id].title = title;
+      }
+      srsEngine.saveData(memoryStore);
     }
 
-    // 1. Vend kort knap (forside -> bagside)
     const flipBtn = wrapper.querySelector('.mp-btn-flip');
     if (flipBtn) {
       flipBtn.onclick = (e) => {
@@ -306,7 +335,6 @@
       };
     }
 
-    // 1b. Se spørgsmål knap (bagside -> forside)
     const flipBackBtn = wrapper.querySelector('.mp-btn-flip-back');
     if (flipBackBtn) {
       flipBackBtn.onclick = (e) => {
@@ -315,27 +343,26 @@
       };
     }
 
-    // 2. Skip knap
     wrapper.querySelectorAll('.mp-btn-skip').forEach(skipBtn => {
       skipBtn.onclick = (e) => {
         e.preventDefault();
-        const isInBottom = wrapper.closest('#mp-bottom-stack');
-        if (isInBottom) {
-          wrapper.parentElement.appendChild(wrapper);
-          refreshBottomStack();
-        } else {
-          advanceMainStack(container, wrapper);
-        }
+        wrapper.dataset.answered = 'true';
+        
+        const deckId = getDeckId(container);
+        const deckRun = getDeckRun(deckId);
+        deckRun.answered[id] = { skipped: true, mcCorrect: null, rating: null };
+        saveDeckRun(deckId, deckRun);
+
+        advanceMainStack(container, wrapper);
+        updateDeckBadges();
       };
     });
 
-    // 3. Svarmuligheder (Multiple Choice & Sandt/Falsk)
     const grid = wrapper.querySelector('.mp-options-grid');
     if (grid) {
       const btns = Array.from(grid.children);
       const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
 
-      // Bland altid mulighederne (også ved 2 valg som Sandt/Falsk)
       if (btns.length > 1) {
         for (let i = btns.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
@@ -355,19 +382,12 @@
           wrapper.dataset.mcAnswered = 'true';
           wrapper.dataset.mcCorrect = isCorrect ? 'true' : 'false';
 
-          const store = getStoredData();
-          if (store[id]) {
-            store[id].mcCorrect = isCorrect;
-            saveData(store);
-          }
-
           const resultBadge = wrapper.querySelector('.mp-user-result-badge');
           if (resultBadge) {
             resultBadge.textContent = isCorrect ? "Korrekt! 🎉" : "Forkert ❌";
             resultBadge.className = `mp-user-result-badge ${isCorrect ? 'correct' : 'wrong'}`;
           }
 
-          // Vis vend-knappen på forsiden med teksten "Se svar ➔"
           if (flipBtn) {
             flipBtn.style.display = 'inline-flex';
             flipBtn.textContent = 'Se svar ➔';
@@ -378,77 +398,42 @@
       });
     }
 
-    // 4. Rating knapper (🔴 Svær, 🟡 OK, 🟢 Let)
     wrapper.querySelectorAll('[data-rating]').forEach(btn => {
       btn.onclick = (e) => {
         e.preventDefault();
         e.stopPropagation();
         const rating = btn.dataset.rating;
-        const currentStore = getStoredData();
 
-        const updatedStats = calculateSM2(currentStore[id] || { ease: 2.5, reps: 0, interval: 0 }, rating);
-        currentStore[id] = { 
-          ...currentStore[id], 
-          ...updatedStats, 
-          answered: true,
-          mcCorrect: wrapper.dataset.mcCorrect === 'true'
+        if (srsEngine) {
+          const currentStore = srsEngine.getStoredData();
+          const updatedStats = srsEngine.calculateSM2(currentStore[id] || { ease: 2.5, reps: 0, interval: 0 }, rating);
+          currentStore[id] = { ...currentStore[id], ...updatedStats };
+          srsEngine.saveData(currentStore);
+        }
+
+        const hasMc = !!wrapper.querySelector('.mp-options-grid');
+        const isMcAnswered = wrapper.dataset.mcAnswered === 'true';
+        // Kun true/false hvis der rent faktisk var et MC-spørgsmål, ellers null
+        const mcCorrectVal = hasMc ? (isMcAnswered && wrapper.dataset.mcCorrect === 'true') : null;
+
+        const deckId = getDeckId(container);
+        const deckRun = getDeckRun(deckId);
+        deckRun.answered[id] = {
+          rating: rating,
+          mcCorrect: mcCorrectVal,
+          skipped: false
         };
-        saveData(currentStore);
+        saveDeckRun(deckId, deckRun);
 
         wrapper.dataset.answered = 'true';
         updateDeckBadges();
 
-        const isInBottom = wrapper.closest('#mp-bottom-stack');
-
-        if (rating === 'hard') {
-          if (!isInBottom) {
-            const stackData = getBottomStack();
-            if (stackData) {
-              advanceMainStack(container, wrapper);
-              wrapper.classList.remove('flipped', 'is-active');
-              stackData.cardStack.appendChild(wrapper);
-              refreshBottomStack();
-            } else {
-              const mainStack = container.querySelector('.mp-card-stack');
-              const cards = Array.from(mainStack.children).filter(child => child.classList.contains('mp-card-wrapper'));
-              const currentIndex = cards.indexOf(wrapper);
-              const nextWrapper = cards[currentIndex + 1];
-
-              wrapper.classList.remove('flipped');
-
-              if (nextWrapper) {
-                wrapper.classList.remove('is-active');
-                wrapper.style.display = 'none';
-                mainStack.appendChild(wrapper);
-
-                nextWrapper.classList.add('is-active');
-                nextWrapper.style.display = 'block';
-              } else {
-                wrapper.classList.add('is-active');
-                wrapper.style.display = 'block';
-              }
-            }
-          } else {
-            wrapper.classList.remove('flipped');
-            wrapper.parentElement.appendChild(wrapper);
-            refreshBottomStack();
-          }
-        } else {
-          if (isInBottom) {
-            wrapper.remove();
-            refreshBottomStack();
-          } else {
-            advanceMainStack(container, wrapper);
-          }
-        }
+        advanceMainStack(container, wrapper);
       };
     });
   }
 
-  // Opdaterer live fremskridt på dæk-knapperne
   function updateDeckBadges() {
-    const store = getStoredData();
-
     document.querySelectorAll('[data-deck-badge]').forEach(badge => {
       const deckId = badge.dataset.deckBadge;
       const panel = document.getElementById('quiz-' + deckId);
@@ -457,15 +442,9 @@
       const cards = panel.querySelectorAll('.mp-card-wrapper');
       const totalEl = badge.querySelector('.mp-total-count');
       const totalCount = totalEl ? (parseInt(totalEl.textContent, 10) || cards.length) : cards.length;
-      let completedCount = 0;
 
-      cards.forEach(card => {
-        const cardId = card.dataset.id;
-        const cardData = store[cardId];
-        if (card.dataset.answered === 'true' || (cardData && (cardData.answered === true || cardData.reps > 0))) {
-          completedCount++;
-        }
-      });
+      const deckRun = getDeckRun(deckId);
+      const completedCount = Object.keys(deckRun.answered).length;
 
       const doneEl = badge.querySelector('.mp-done-count');
       if (doneEl) {
@@ -474,7 +453,7 @@
 
       const parentBtn = badge.closest('.mp-cat-btn');
       if (parentBtn) {
-        if (completedCount >= totalCount && totalCount > 0) {
+        if (deckRun.isCompleted || (completedCount >= totalCount && totalCount > 0)) {
           parentBtn.classList.add('is-completed');
         } else {
           parentBtn.classList.remove('is-completed');
@@ -483,55 +462,30 @@
     });
   }
 
-  // Initialisering
   function initFlashcards() {
     if (localStorage.getItem(OPT_OUT_KEY) === 'true') {
       document.querySelectorAll('.mp-flashcard-stack-container').forEach(el => el.style.display = 'none');
       return;
     }
 
-    const memoryStore = getStoredData();
+    const srsEngine = window.MPSRS;
+    if (!srsEngine) {
+      console.warn("MPSRS Engine ikke indlæst. Spaced Repetition logik deaktiveret.");
+    }
 
     document.querySelectorAll('.mp-flashcard-stack-container').forEach(container => {
-      if (container.id === 'mp-bottom-stack') return;
-
-      const optoutOverlay = container.querySelector('.mp-optout-overlay');
-      container.querySelectorAll('.mp-btn-close-trigger').forEach(btn => {
-        btn.onclick = () => {
-          if (optoutOverlay) optoutOverlay.style.display = 'flex';
-        };
-      });
-
-      if (optoutOverlay) {
-        const disableBtn = optoutOverlay.querySelector('.mp-btn-optout-disable');
-        const keepBtn = optoutOverlay.querySelector('.mp-btn-optout-keep');
-        if (disableBtn) {
-          disableBtn.onclick = () => {
-            localStorage.setItem(OPT_OUT_KEY, 'true');
-            document.querySelectorAll('.mp-flashcard-stack-container').forEach(el => el.style.display = 'none');
-          };
-        }
-        if (keepBtn) {
-          keepBtn.onclick = () => {
-            optoutOverlay.style.display = 'none';
-          };
-        }
-      }
-
       container.querySelectorAll('.mp-card-wrapper').forEach(wrapper => {
-        setupCardEvents(container, wrapper, memoryStore);
+        setupCardEvents(container, wrapper, srsEngine);
       });
-
-      resumeDeckProgress(container, memoryStore);
+      resumeDeckProgress(container);
     });
 
-    saveData(memoryStore);
     updateDeckBadges();
   }
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initFlashcards);
   } else {
-    initFlashcards();
+    setTimeout(initFlashcards, 50);
   }
 })();
