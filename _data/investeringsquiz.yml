@@ -1,0 +1,110 @@
+- set: 1
+  set_title: "1. Sæt – Kroppens Brændstof & Energitæthed (Max 1/2 saldo)"
+  max_ratio: 0.5
+  categories:
+    # RUNDE 1
+    - title: "Kulhydrat & Glykogen"
+      icon: "🍞"
+      questions:
+        - q: "Hvor mange gram kulhydrat pr. kg kropsvægt anbefales dagligt til en atlet, der træner udholdenhedstræning i ca. 2 timer?"
+          a: "5 - 7 gram pr. kg kropsvægt (stigende til 8-10 g ved ekstreme pas)."
+        - q: "Hvor mange gram letoptageligt kulhydrat anbefales det at indtage i timen under kontinuerlig hård træning over 60 minutters varighed?"
+          a: "30 - 60 gram kulhydrat i timen."
+        - q: "Hvorfor kan koncentrerede energigels indtaget uden tilstrækkeligt vand fremkalde akutte mavekramper?"
+          a: "De er hypertoniske og trækker vand fra kroppen ind i tarmen via osmose."
+
+    # RUNDE 2
+    - title: "Fedt & Forbrænding"
+      icon: "🥑"
+      questions:
+        - q: "Hvor mange kalorier (kcal) indeholder ét gram fedt sammenlignet med kulhydrat og protein?"
+          a: "Ca. 9 kcal (37 kJ) pr. gram – mod ca. 4 kcal (17 kJ) for protein og kulhydrat."
+        - q: "Hvad sker der med fedtforbrændingens procentvise andel af energien, når intensiteten stiger fra moderat til maksimal?"
+          a: "Den falder drastisk (kroppen skifter næsten udelukkende over til kulhydrat/glykogen)."
+        - q: "Hvorfor sparer man stort set ingen kalorier ved at udskifte almindeligt smør med margarine under et vægttab?"
+          a: "De har næsten samme høje fedt- og kalorieindhold (ca. 700-750 kcal pr. 100 gram)."
+
+    # RUNDE 3
+    - title: "Protein & Opbygning"
+      icon: "🥩"
+      questions:
+        - q: "Ved hvilken mængde kvalitetsprotein i et måltid mættes muskelproteinsyntesen typisk hos en voksen atlet ('muscle full'-effekten)?"
+          a: "Ved ca. 20 - 40 gram protein (afhængigt af kropsstørrelse og leucin-indhold)."
+        - q: "Hvad er det optimale daglige proteinindtag (i g/kg) for maksimal muskelvækst hos en styrkeatlet?"
+          a: "Ca. 1,4 - 2,0 gram pr. kg kropsvægt (ca. 150 g for en person på 100 kg)."
+        - q: "Hvorfor er æg, mælk og kød 'komplette' proteinkilder, mens linser og bønner alene ikke er det?"
+          a: "De indeholder alle essentielle aminosyrer i optimale mængder (bælgfrugter mangler bl.a. methionin)."
+
+- set: 2
+  set_title: "2. Sæt – Væske, Vitaminer & Nydelsesmidler (Max 2/3 saldo)"
+  max_ratio: 0.6667
+  categories:
+    # RUNDE 4
+    - title: "Vitaminer & Mineraler"
+      icon: "🥦"
+      questions:
+        - q: "Hvor mange kalorier eller joule tilfører vitaminer kroppen direkte som brændstof?"
+          a: "0 kalorier / 0 kJ (de er mikronæringsstoffer og fungerer som hjælpestoffer/co-enzymer)."
+        - q: "Hvilket fedtopløseligt vitamin fremmer calciumoptagelsen i tarmen og findes naturligt i høje mængder i fede fisk?"
+          a: "Vitamin D (calciferol)."
+        - q: "Hvilken specifik blodprøve bør en læge altid måle for at dokumentere jernmangel, før man tager jerntilskud?"
+          a: "Serum-ferritin (kroppens jernlager)."
+
+    # RUNDE 5
+    - title: "Væskebalance & Hydrering"
+      icon: "💧"
+      questions:
+        - q: "Hvor meget natrium (salt) bør væske til længerevarende træning mindst indeholde pr. liter for optimal optagelse?"
+          a: "Mindst 11 - 25 mmol/L (ca. 250 - 575 mg natrium pr. liter)."
+        - q: "Hvad regnes for guldstandarden til at fastlægge en atlets personlige væskebehov under træning i et givent klima?"
+          a: "At veje sig før og efter træningspasset for at beregne sit personlige svedtab."
+        - q: "Hvilken almindelig frugt regnes for en optimal og letfordøjelig kulhydratsnack under et træningspas på 90 minutter?"
+          a: "En moden banan (giver hurtige kulhydrater med minimalt fedt og protein)."
+
+    # RUNDE 6
+    - title: "Alkohol & Restitution"
+      icon: "🍺"
+      questions:
+        - q: "Hvor mange gram ren alkohol (ethanol) er der standardiseret i én dansk genstand?"
+          a: "12 gram ren alkohol (internationalt ofte sat til 10-14 g)."
+        - q: "Hvilket hormon fra hypofysen hæmmer alkohol, hvilket medfører markant øget vandladning?"
+          a: "Det antidiuretiske hormon (ADH / vasopressin)."
+        - q: "Nævn mindst to fysiologiske årsager til, at stort alkoholindtag forhaler helingen af akutte sportsskader."
+          a: "Det øger vasodilatation (blødning/hævelse) og hæmmer muskelproteinsyntesen samt immunforsvaret."
+
+- set: 3
+  set_title: "3. Sæt – Præstationsboostere & Træningsmyter (All-in / Hele saldoen)"
+  max_ratio: 1.0
+  categories:
+    # RUNDE 7
+    - title: "Kosttilskud & Piller"
+      icon: "💊"
+      questions:
+        - q: "Hvordan virker koffein som præstationsfremmer i centralnervesystemet?"
+          a: "Det blokerer adenosin-receptorer i hjernen, hvilket dæmper træthedsfølelsen og sænker RPE."
+        - q: "Hvilket kosttilskud øger musklernes koncentration af carnosin og fungerer som intracellulær syre-buffer ved arbejde på 1-4 minutter?"
+          a: "Beta-alanin."
+        - q: "Hvorfor er kreatin-monohydrat dokumenteret effektivt til at øge maksimal muskelstyrke og eksplosivitet?"
+          a: "Det øger musklernes depoter af fosfokreatin, som lynhurtigt gendanner kroppens energimolekyle ATP."
+
+    # RUNDE 8
+    - title: "Træningsmyter under Luppen"
+      icon: "🏋️"
+      questions:
+        - q: "Kan lette vægte med mange gentagelser bygge lige så megen muskelmasse (hypertrofi) som tunge vægte?"
+          a: "Ja, forudsat at sættene køres tæt på muskulær udmattelse."
+        - q: "Hvad viser forskningen om effekten af fuld bevægebane (Full ROM) sammenlignet med delvis bevægebane (Partial ROM) på muskelvækst?"
+          a: "Fuld bevægebane (Full ROM) er overlegen i forhold til muskelvækst."
+        - q: "Er det en myte eller sandhed, at man SKAL træne til absolut muskulært svigt (failure) i alle sæt for at få maksimal muskelvækst?"
+          a: "Det er en myte (træning med 1-3 gentagelser i reserve / RIR giver optimalt udbytte uden overbelastning)."
+
+    # RUNDE 9
+    - title: "Kramper, Timing & Myter"
+      icon: "⚡"
+      questions:
+        - q: "Hvad er ifølge nyere forskning den primære årsag til muskelkramper under hård træning?"
+          a: "Neuromuskulær udtrætning og fejlregulering af strækreflekser (ikke elektrolytmangel)."
+        - q: "Er der videnskabelig evidens for, at magnesium-tilskud forebygger almindelige muskelkramper hos raske udøvere?"
+          a: "Nej, det er en udbredt myte uden videnskabelig dokumentation."
+        - q: "Hvorfor er påstanden om et snævert 'anabolsk vindue' (protein inden for 30 min. efter træning) en myte for almindelige udøvere?"
+          a: "Det totale daglige proteinindtag og måltider jævnt fordelt er langt vigtigere end den præcise timing lige efter passet."

@@ -175,6 +175,12 @@ Ernæring og kosttilskud er et minefelt af aggressive reklamer og myter. Her er 
 
 ---
 
+## Bonus: Investeringsquiz
+
+{% include components/investeringsquiz.html %}
+
+---
+
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
