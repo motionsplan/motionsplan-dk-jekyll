@@ -359,7 +359,6 @@ Sti: _includes/components/investeringsquiz.html
     <div class="mp-invest-lobby-inner">
       <div class="mp-invest-icon" style="font-size: 3rem; margin-bottom: 0.5rem;">📈</div>
       <div class="mp-invest-title-main">Investeringsbørsen</div>
-      <div class="mp-invest-sub-main">Sats op til loftet pr. sæt. 3 rigtige fordobler, 2 bevarer, 1 halverer, 0 koster alt![cite: 12, 16]</div>
 
       <!-- Længde -->
       <div class="mp-invest-section">
@@ -1044,7 +1043,6 @@ window.MPInvest = window.MPInvest || (function() {
             pod.classList.add('shake-error');
           }
         });
-        alert("Husk at vælge antal rigtige svar (0, 1, 2 eller 3) for alle hold, inden I fortsætter!");
         return;
       }
 
@@ -1053,13 +1051,13 @@ window.MPInvest = window.MPInvest || (function() {
         const correct = team.correctCount || 0;
 
         if (correct === 3) {
-          team.balance += bet;[cite: 12, 16]
+          team.balance += bet;
         } else if (correct === 2) {
-          // Status quo[cite: 12, 16]
+          // Status quo
         } else if (correct === 1) {
-          team.balance -= Math.round(bet * 0.5);[cite: 12, 16]
+          team.balance -= Math.round(bet * 0.5);
         } else if (correct === 0) {
-          team.balance -= bet;[cite: 12, 16]
+          team.balance -= bet;
         }
 
         if (team.balance < 0) team.balance = 0;
