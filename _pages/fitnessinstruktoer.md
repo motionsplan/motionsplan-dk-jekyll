@@ -112,7 +112,7 @@ quiz_modules:
     icon: 📝
     key: programlaegning
   - id: maalgrupper
-    title: Specifikke målgrupper
+    title: Målgrupper
     icon: 🎯
     key: specifikke_maalgrupper
   - id: skader
@@ -311,6 +311,8 @@ På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv so
 På Vejle Idrætshøjskole underviser vi i [Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktoer/). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
 
 {% include components/flashcard-decks.html decks=page.quiz_modules %}
+
+**Prøv også:** Du kan også tjekke vores [quiz om træningsmyter](/traeningsmyter/).
 
 <details markdown="1" class="faq">
   <summary>🤔 Prøv quizzen i Quizizz</summary>
