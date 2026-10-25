@@ -28,7 +28,7 @@ meta:
   equipment: vbt-udstyr
   max: submaskimal test
   direct: indirekte test
-last_modified_at: 2026-03-06T08:39:32Z
+last_modified_at: 2026-10-24T08:39:32Z
 feature_row:
   - image_path: /assets/images/reponestrength.com/outerglow_hardware-1-370441b7.png
     credit: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
@@ -64,17 +64,19 @@ templates:
     image: "/assets/images/blog/vbt-spreadsheet.png"
 ---
 
-En **RPE-hastighedsprofil** giver dig det præcise kort over, hvordan din stanghastighed (m/s) falder i takt med at du nærmer dig udmattelse (*failure*). 
+En af fordelene ved [velocity based training](/vbt/) er, at du kan få et objektivt mål for, hvor hårdt et sæt er. [RPE i styrketræning](/rpe/) er et subjektivt mål for dette. Med VBT kan du få et objektivt mål for, hvor hurtigt stangen bevæger sig i forhold, hvor hårdt sættet er.
+
+En **RPE-hastighedsprofil** giver dig det præcise kort over, hvordan din stanghastighed (m/s) falder i takt med at du nærmer dig udmattelse (*failure*).
 
 Ved at køre ét enkelt *all-out* sæt på omkring 75–80% af din e1RM kan du opbygge en personlig profil, der direkte kobler løftehastighed med din oplevede anstrengelse (RPE) og Reps in Reserve (RIR).
+
+[<i class='fas fa-calculator'></i> Hop direkte til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 {: .notice--info }
 > 📌 **Søger du andre VBT-værktøjer?**  
 > * Vil du opbygge en traditionel vægt-hastighedsprofil over flere sæt med stigende kilo? Se vores [Load-Velocity Guide & Google Sheet](#sheet).  
 > * Vil du estimere dit maksimale løft ud fra opvarmningssæt? Prøv vores [VBT 1RM Beregner](/vbt-1rm/).  
 > * Ønsker du den teoretiske introduktion til hastighedszoner? Læs vores [hovedguide til VBT](/vbt/).
-
-[<i class='fas fa-calculator'></i> Hop direkte til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 ---
 
@@ -113,6 +115,8 @@ Ved at tælle baglæns fra den sidste rep dannes en lineær sammenhæng mellem s
 Når beregneren har opstillet din profil, har du et objektivt måleredskab til dine fremtidige træningspas i øvelsen. 
 
 Siger dit træningsprogram for eksempel, at du skal køre 4 sæt af 5 reps på **RPE 8**, behøver du ikke gætte dig frem. Du kigger i din profil og finder den m/s-hastighed, der svarer til RPE 8 (fx 0,32 m/s). Så længe dine reps ligger på eller over denne hastighed, rammer du den planlagte træningsintensitet.
+
+**Lær mere:**: Du kan læse mere om [RPE til styrketræning](/rpe/).
 
 ---
 

@@ -1,9 +1,10 @@
 // assets/js/ui/vbt-ui.js
 import { calculateVBTProfile, MVT_PRESETS, roundTo2Point5, DEFAULT_TARGET_PERCENTAGES } from '../core/vbt.js';
 
-const STORAGE_KEY_STATE = 'vbt_calculator_state_v20';
-const STORAGE_KEY_HISTORY = 'vbt_calculator_history_v20';
+const STORAGE_KEY_STATE = 'vbt_calculator_state_v21';
+const STORAGE_KEY_HISTORY = 'vbt_calculator_history_v21';
 
+// Starter altid med 5 rækker som standard
 const DEFAULT_ATTEMPTS = [
   { id: 1, load: '', velocity: '' },
   { id: 2, load: '', velocity: '' },
@@ -13,7 +14,6 @@ const DEFAULT_ATTEMPTS = [
 ];
 
 const DEFAULT_STATE = {
-  sessionName: 'Bænkpres Profil',
   exercise: 'bench',
   customMVT: 0.15,
   isMvtUnlocked: false,
@@ -29,7 +29,7 @@ export function initCalculator(container) {
   let timerSecondsLeft = 120;
 
   const fullscreenBtn = container.querySelector('#vbt-fullscreen-btn');
-  const sessionNameInput = container.querySelector('#vbt-session-name');
+  const fullscreenIcon = container.querySelector('#vbt-fullscreen-icon');
   const exerciseSelect = container.querySelector('#vbt-exercise');
   const mvtInput = container.querySelector('#vbt-mvt');
   const mvtLockBtn = container.querySelector('#vbt-mvt-lock-btn');
@@ -82,22 +82,25 @@ export function initCalculator(container) {
     }
   }
 
+  function getActiveMVT() {
+    if (state.isMvtUnlocked || state.exercise === 'custom') {
+      return parseFloat(state.customMVT) || 0.15;
+    }
+    return MVT_PRESETS[state.exercise] ? MVT_PRESETS[state.exercise].mvt : 0.15;
+  }
+
   function render() {
-    if (sessionNameInput) sessionNameInput.value = state.sessionName || 'Bænkpres Profil';
     if (exerciseSelect) exerciseSelect.value = state.exercise;
-    
-    const currentMVT = state.exercise === 'custom' 
-      ? state.customMVT 
-      : (MVT_PRESETS[state.exercise] ? MVT_PRESETS[state.exercise].mvt : 0.15);
+
+    const currentMVT = getActiveMVT();
 
     if (mvtInput) {
-      mvtInput.value = state.exercise === 'custom' ? state.customMVT : currentMVT;
+      mvtInput.value = currentMVT;
       mvtInput.disabled = !state.isMvtUnlocked && state.exercise !== 'custom';
     }
 
     if (mvtLockBtn) {
-      mvtLockBtn.textContent = state.isMvtUnlocked ? '🔓' : '🔒';
-      mvtLockBtn.classList.toggle('unlocked', state.isMvtUnlocked);
+      mvtLockBtn.textContent = (state.isMvtUnlocked || state.exercise === 'custom') ? '🔓' : '🔒';
     }
 
     renderAttempts(currentMVT);
@@ -128,7 +131,7 @@ export function initCalculator(container) {
       `;
       attemptsContainer.appendChild(tr);
 
-      // Inline timer (folder sig ud under rækken ved indtastning)
+      // Inline timer
       const timerTr = document.createElement('tr');
       timerTr.id = `vbt-timer-row-${idx}`;
       timerTr.className = 'vbt-timer-row';
@@ -141,7 +144,7 @@ export function initCalculator(container) {
       timerTr.innerHTML = `
         <td colspan="4" style="padding: 0.35rem 0.6rem; background: #eff6ff; border-bottom: 1px solid #bfdbfe;">
           <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.82rem; color:#1e40af; font-weight:700;">
-            <span>⏱️ Pause til næste løft: <strong class="vbt-timer-count-${idx}" style="font-size:0.95rem; color:#1d4ed8;">${timeStr}</strong></span>
+            <span>⏱️ Pause: <strong class="vbt-timer-count-${idx}" style="font-size:0.95rem; color:#1d4ed8;">${timeStr}</strong></span>
             <button type="button" class="vbt-btn-xs vbt-stop-timer-btn" data-idx="${idx}" style="border-color:#93c5fd;">Luk</button>
           </div>
         </td>
@@ -149,13 +152,12 @@ export function initCalculator(container) {
       attemptsContainer.appendChild(timerTr);
     });
 
-    // Listeners for inputs
     attemptsContainer.querySelectorAll('.vbt-load-input').forEach(input => {
       input.addEventListener('input', (e) => {
         const idx = parseInt(e.target.dataset.idx, 10);
         state.attempts[idx].load = e.target.value !== '' ? parseFloat(e.target.value) : '';
         saveState();
-        updateResultsAndChart(mvt);
+        updateResultsAndChart(getActiveMVT());
       });
     });
 
@@ -165,9 +167,8 @@ export function initCalculator(container) {
         const val = e.target.value !== '' ? parseFloat(e.target.value) : '';
         state.attempts[idx].velocity = val;
         saveState();
-        updateResultsAndChart(mvt);
+        updateResultsAndChart(getActiveMVT());
 
-        // Automatisk opstart af pausetimer, når et gyldigt løft udfyldes
         if (val > 0 && state.attempts[idx].load > 0) {
           startInlineTimer(idx, 120);
         }
@@ -175,9 +176,7 @@ export function initCalculator(container) {
     });
 
     attemptsContainer.querySelectorAll('.vbt-stop-timer-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        stopInlineTimer();
-      });
+      btn.addEventListener('click', () => stopInlineTimer());
     });
 
     attemptsContainer.querySelectorAll('.vbt-del-btn').forEach(btn => {
@@ -248,7 +247,7 @@ export function initCalculator(container) {
         guidanceBox.className = 'vbt-guidance-premium mp-guidance-info';
         guidanceBox.innerHTML = `
           <span class="vbt-info-icon">💡</span>
-          <div class="vbt-info-text">Indtast <strong>mindst 2 forsøg</strong> for at beregne e1RM og oprette profil. Anbefalet mængde er <strong>5-6 forsøg</strong>.</div>
+          <div class="vbt-info-text">Indtast <strong>mindst 2 forsøg</strong> for at beregne e1RM. Anbefalet mængde er <strong>5 forsøg</strong>.</div>
         `;
       }
       renderSvgChart([], mvt, 0, 0, 0);
@@ -276,7 +275,7 @@ export function initCalculator(container) {
         guidanceBox.innerHTML = `
           <span class="vbt-info-icon">💡</span>
           <div class="vbt-info-text">
-            Du har gennemført <strong>${count} forsøg</strong>. Tilføj evt. et 6. forsøg på <strong>ca. ${rec6th} kg</strong> (~95% e1RM) for at nå Cutoff.
+            Du har gennemført <strong>${count} forsøg</strong>. Tag evt. et sidste løft på <strong>ca. ${rec6th} kg</strong> for at nå Cutoff.
           </div>
         `;
       } else {
@@ -285,7 +284,7 @@ export function initCalculator(container) {
         guidanceBox.innerHTML = `
           <span class="vbt-info-icon">💡</span>
           <div class="vbt-info-text">
-            Gennemført <strong>${count} af 5-6 forsøg</strong>. Foreslået belastning til næste løft er <strong>${nextKg}</strong>.
+            Gennemført <strong>${count} af 5 forsøg</strong>. Foreslået belastning til næste løft: <strong>${nextKg}</strong>.
           </div>
         `;
       }
@@ -324,12 +323,12 @@ export function initCalculator(container) {
     const svgWrapper = container.querySelector('#vbt-svg-wrapper');
     if (!svgWrapper) return;
 
-    const width = 650;
-    const height = 340; 
+    const width = 600;
+    const height = 320; 
     const padTop = 20;
     const padRight = 20;
     const padBottom = 45;
-    const padLeft = 55;
+    const padLeft = 50;
 
     const maxLoad = points && points.length >= 2 
       ? Math.max(e1RM * 1.08, ...points.map(p => p.load), 100) 
@@ -357,13 +356,8 @@ export function initCalculator(container) {
       const x2Val = maxLoad;
       const y2Val = slope * maxLoad + intercept;
 
-      const x1 = xScale(x1Val);
-      const y1 = yScale(y1Val);
-      const x2 = xScale(x2Val);
-      const y2 = yScale(y2Val);
-
       svgHtml += `
-        <line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+        <line x1="${xScale(x1Val)}" y1="${yScale(y1Val)}" x2="${xScale(x2Val)}" y2="${yScale(y2Val)}" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
 
         ${points.map(p => {
           const isWarmup = p.isWarmup;
@@ -395,7 +389,7 @@ export function initCalculator(container) {
     historyListContainer.innerHTML = '';
 
     if (history.length === 0) {
-      historyListContainer.innerHTML = `<div style="color:#94a3b8; font-size:0.85rem; padding:0.25rem 0;">Ingen gemte profiler i historikken endnu.</div>`;
+      historyListContainer.innerHTML = `<div style="color:#94a3b8; font-size:0.85rem; padding:0.25rem 0;">Ingen gemte profiler endnu.</div>`;
       return;
     }
 
@@ -405,10 +399,10 @@ export function initCalculator(container) {
       div.innerHTML = `
         <div class="vbt-history-info">
           <span class="vbt-history-name-tag">${item.sessionName}</span>
-          <span class="vbt-history-stats-tag">(${item.exerciseName}) | 📅 ${item.date} | <strong>e1RM: ${item.e1RM} kg</strong> | R²: ${item.rSquared} | MVT: ${item.mvt} m/s</span>
+          <span class="vbt-history-stats-tag">| 📅 ${item.date} | <strong>e1RM: ${item.e1RM} kg</strong> | R²: ${item.rSquared} | MVT: ${item.mvt}</span>
         </div>
         <div class="vbt-history-actions-inline">
-          <button type="button" class="vbt-btn-xs vbt-load-history-btn" data-idx="${idx}">Gendan</button>
+          <button type="button" class="vbt-btn-xs vbt-load-history-btn" data-idx="${idx}">Hent</button>
           <button type="button" class="vbt-btn-xs vbt-rename-history-btn" data-idx="${idx}">Omdøb</button>
           <button type="button" class="vbt-btn-xs vbt-btn-xs-danger vbt-delete-history-btn" data-idx="${idx}">Slet</button>
         </div>
@@ -421,9 +415,9 @@ export function initCalculator(container) {
         const idx = parseInt(e.target.dataset.idx, 10);
         const item = history[idx];
         if (item) {
-          state.sessionName = item.sessionName;
           state.exercise = item.exercise;
           state.customMVT = item.mvt;
+          state.isMvtUnlocked = item.isMvtUnlocked || false;
           state.attempts = JSON.parse(JSON.stringify(item.attempts));
           saveState();
           render();
@@ -453,35 +447,92 @@ export function initCalculator(container) {
     });
   }
 
-  // Global listeners
+// Fulskærm ikon toggle logik
+  function updateFullscreenIcon(isFullscreen) {
+    if (!fullscreenIcon) return;
+    if (isFullscreen) {
+      // Exit fullscreen ikon
+      fullscreenIcon.innerHTML = `<path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>`;
+    } else {
+      // Enter fullscreen ikon
+      fullscreenIcon.innerHTML = `<path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>`;
+    }
+  }
+
   if (fullscreenBtn) {
     fullscreenBtn.addEventListener('click', () => {
       const card = container.closest('.mp-calc-card') || container;
-      if (!document.fullscreenElement) {
-        if (card.requestFullscreen) card.requestFullscreen();
-        else if (card.webkitRequestFullscreen) card.webkitRequestFullscreen();
+      const isAlreadyFs = card.classList.contains('vbt-is-fullscreen') || !!document.fullscreenElement;
+
+      if (!isAlreadyFs) {
+        // Forsøg native fullscreen først
+        if (card.requestFullscreen) {
+          card.requestFullscreen().catch(() => {});
+        } else if (card.webkitRequestFullscreen) {
+          card.webkitRequestFullscreen();
+        }
+        // Tilføj altid klassen (fungerer perfekt på iOS Safari, tablets og mobiler)
         card.classList.add('vbt-is-fullscreen');
+        updateFullscreenIcon(true);
       } else {
-        if (document.exitFullscreen) document.exitFullscreen();
-        else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+        if (document.exitFullscreen && document.fullscreenElement) {
+          document.exitFullscreen().catch(() => {});
+        } else if (document.webkitExitFullscreen && document.webkitFullscreenElement) {
+          document.webkitExitFullscreen();
+        }
         card.classList.remove('vbt-is-fullscreen');
+        updateFullscreenIcon(false);
+      }
+    });
+
+    document.addEventListener('fullscreenchange', () => {
+      const card = container.closest('.mp-calc-card') || container;
+      const isFs = !!document.fullscreenElement;
+      if (!isFs) {
+        card.classList.remove('vbt-is-fullscreen');
+      }
+      updateFullscreenIcon(card.classList.contains('vbt-is-fullscreen') || isFs);
+    });
+  }
+  
+  // MVT Lås & Redigering
+  if (mvtLockBtn && mvtInput) {
+    mvtLockBtn.addEventListener('click', () => {
+      state.isMvtUnlocked = !state.isMvtUnlocked;
+      if (state.isMvtUnlocked) {
+        state.customMVT = getActiveMVT();
+      }
+      saveState();
+      render();
+      if (state.isMvtUnlocked) {
+        mvtInput.focus();
+        mvtInput.select();
       }
     });
   }
 
-  if (sessionNameInput) {
-    sessionNameInput.addEventListener('input', (e) => {
-      state.sessionName = e.target.value;
-      saveState();
+  if (mvtInput) {
+    mvtInput.addEventListener('input', (e) => {
+      const val = parseFloat(e.target.value);
+      if (!isNaN(val) && val > 0) {
+        state.customMVT = val;
+        saveState();
+        updateResultsAndChart(val);
+      }
     });
   }
 
-  if (mvtLockBtn && mvtInput) {
-    mvtLockBtn.addEventListener('click', () => {
-      state.isMvtUnlocked = !state.isMvtUnlocked;
+  if (exerciseSelect) {
+    exerciseSelect.addEventListener('change', (e) => {
+      state.exercise = e.target.value;
+      if (state.exercise !== 'custom') {
+        state.customMVT = MVT_PRESETS[state.exercise] ? MVT_PRESETS[state.exercise].mvt : 0.15;
+        state.isMvtUnlocked = false;
+      } else {
+        state.isMvtUnlocked = true;
+      }
       saveState();
       render();
-      if (state.isMvtUnlocked && mvtInput) mvtInput.focus();
     });
   }
 
@@ -494,29 +545,9 @@ export function initCalculator(container) {
     });
   }
 
-  if (exerciseSelect) {
-    exerciseSelect.addEventListener('change', (e) => {
-      state.exercise = e.target.value;
-      if (state.exercise !== 'custom') {
-        state.customMVT = MVT_PRESETS[state.exercise] ? MVT_PRESETS[state.exercise].mvt : 0.15;
-        state.isMvtUnlocked = false;
-      }
-      saveState();
-      render();
-    });
-  }
-
-  if (mvtInput) {
-    mvtInput.addEventListener('input', (e) => {
-      state.customMVT = parseFloat(e.target.value) || 0.15;
-      saveState();
-      render();
-    });
-  }
-
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      if (confirm('Vil du nulstille testen og starte forfra med 5 tomme rækker?')) {
+      if (confirm('Vil du starte forfra med 5 tomme rækker?')) {
         stopInlineTimer();
         state = JSON.parse(JSON.stringify(DEFAULT_STATE));
         saveState();
@@ -525,18 +556,16 @@ export function initCalculator(container) {
     });
   }
 
+  // Gem profil (Automatisk navn = fx "Back Squat Profil")
   if (saveProfileBtn) {
     saveProfileBtn.addEventListener('click', () => {
-      const currentMVT = state.exercise === 'custom' 
-        ? state.customMVT 
-        : (MVT_PRESETS[state.exercise] ? MVT_PRESETS[state.exercise].mvt : 0.15);
-      
+      const currentMVT = getActiveMVT();
       const res = calculateVBTProfile(state.attempts, currentMVT);
 
       if (!res.isValid) {
         saveProfileBtn.style.background = '#ef4444';
         saveProfileBtn.style.borderColor = '#dc2626';
-        saveProfileBtn.innerHTML = '⚠️ Indtast min. 2 forsøg';
+        saveProfileBtn.innerHTML = '⚠️ Min. 2 forsøg';
         setTimeout(() => {
           saveProfileBtn.style.background = '#16a34a';
           saveProfileBtn.style.borderColor = '#15803d';
@@ -550,11 +579,12 @@ export function initCalculator(container) {
 
       const historyItem = {
         id: Date.now(),
-        date: new Date().toLocaleDateString('da-DK', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }),
-        sessionName: state.sessionName || `${exName} Profil`,
+        date: new Date().toLocaleDateString('da-DK', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }),
+        sessionName: `${exName} Profil`,
         exercise: state.exercise,
         exerciseName: exName,
         mvt: currentMVT,
+        isMvtUnlocked: state.isMvtUnlocked,
         e1RM: Math.round(res.e1RM),
         rSquared: res.rSquared.toFixed(2),
         attempts: JSON.parse(JSON.stringify(state.attempts))
@@ -569,7 +599,7 @@ export function initCalculator(container) {
       setTimeout(() => {
         saveProfileBtn.style.background = '#16a34a';
         saveProfileBtn.innerHTML = '💾 Gem profil';
-      }, 2000);
+      }, 1800);
     });
   }
 

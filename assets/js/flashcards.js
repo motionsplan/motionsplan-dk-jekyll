@@ -95,23 +95,22 @@
     return { ease: parseFloat(ease.toFixed(2)), reps, interval, nextReview: nextReview.toISOString() };
   }
 
-  // Viser resultatboks og "Start forfra"-knap på afslutningskortet
-// Viser et superkompakt resultat og "Start forfra"-knap
+  // Viser et kompakt resultat og "Tag igen"-knap på én vandret linje
   function renderCompleteBoxUI(container, completeBox) {
     const store = getStoredData();
-    const allCards = container.querySelectorAll('.mp-card-wrapper');
-    const mcCards = Array.from(allCards).filter(c => c.querySelector('.mp-options-grid'));
+    const allCards = Array.from(container.querySelectorAll('.mp-card-wrapper'));
+    const mcCards = allCards.filter(c => c.querySelector('.mp-options-grid'));
     
-    // Find det dynamiske container-element vi lige har lavet i HTML
     let dynamicContainer = completeBox.querySelector('.mp-complete-dynamic-content');
-    if (!dynamicContainer) {
-      // Fallback, hvis den gamle HTML stadig bruges
-      dynamicContainer = completeBox; 
-    }
-    
-    dynamicContainer.innerHTML = ''; // Ryd for tidligere data
+    if (!dynamicContainer) dynamicContainer = completeBox;
+    dynamicContainer.innerHTML = '';
 
-    // 1. Resultat for multiple choice kort
+    const row = document.createElement('div');
+    row.style.cssText = 'display: inline-flex; align-items: center; justify-content: center; gap: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 8px 14px;';
+
+    const resultSpan = document.createElement('span');
+    resultSpan.style.cssText = 'font-size: 0.95rem; font-weight: 700; color: #1e293b;';
+
     if (mcCards.length > 0) {
       let correctCount = 0;
       mcCards.forEach(c => {
@@ -120,38 +119,26 @@
           correctCount++;
         }
       });
-
-      const totalMc = mcCards.length;
-      const pct = Math.round((correctCount / totalMc) * 100);
-
-      const scoreBox = document.createElement('div');
-      scoreBox.className = 'mp-mc-score-box';
-      // Meget mere kompakt styling:
-      scoreBox.style.cssText = 'background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center;';
-      
-      scoreBox.innerHTML = `
-        <span style="font-size: 0.8rem; font-weight: 700; color: #64748b; text-transform: uppercase;">Dit resultat:</span>
-        <span style="font-size: 1rem; font-weight: 800; color: #1e293b;">${correctCount} / ${totalMc} korrekte (${pct}%)</span>
-      `;
-      dynamicContainer.appendChild(scoreBox);
+      const pct = Math.round((correctCount / mcCards.length) * 100);
+      resultSpan.textContent = `Resultat: ${correctCount} / ${mcCards.length} (${pct}%)`;
+    } else {
+      resultSpan.textContent = `✓ Alle ${allCards.length} kort gennemgået`;
     }
 
-    // 2. "Start Forfra" knap (kompakt)
     const restartBtn = document.createElement('button');
     restartBtn.type = 'button';
-    restartBtn.className = 'mp-btn-restart-deck';
-    restartBtn.innerHTML = '🔄 Tag modulet igen';
-    restartBtn.style.cssText = 'width: 100%; background: #2563eb; color: #ffffff; border: none; padding: 10px; border-radius: 8px; font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: background 0.15s ease; margin-bottom: 12px;';
-    restartBtn.onmouseover = () => restartBtn.style.background = '#1d4ed8';
-    restartBtn.onmouseout = () => restartBtn.style.background = '#2563eb';
+    restartBtn.textContent = '🔄 Tag igen';
+    restartBtn.style.cssText = 'background: #ffffff; color: #475569; border: 1px solid #cbd5e1; padding: 4px 8px; border-radius: 6px; font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: background 0.15s ease;';
+    restartBtn.onmouseover = () => restartBtn.style.background = '#f1f5f9';
+    restartBtn.onmouseout = () => restartBtn.style.background = '#ffffff';
 
-    restartBtn.onclick = () => {
-      restartDeck(container, completeBox);
-    };
+    restartBtn.onclick = () => restartDeck(container, completeBox);
 
-    dynamicContainer.appendChild(restartBtn);
+    row.appendChild(resultSpan);
+    row.appendChild(restartBtn);
+    dynamicContainer.appendChild(row);
   }
-  
+
   // Nulstiller et dæk, så det kan tages forfra
   function restartDeck(container, completeBox) {
     const store = getStoredData();
@@ -178,6 +165,14 @@
         badge.className = 'mp-user-result-badge';
       }
 
+      // Nulstil forsidens vend-knap
+      const flipBtn = card.querySelector('.mp-btn-flip');
+      const hasOptions = card.querySelector('.mp-options-grid');
+      if (flipBtn) {
+        flipBtn.style.display = hasOptions ? 'none' : 'inline-flex';
+        flipBtn.textContent = 'Vend kort 🔄';
+      }
+
       if (index === 0) {
         card.classList.add('is-active');
         card.style.display = 'block';
@@ -189,13 +184,8 @@
 
     saveData(store);
 
-    // Skjul fuldført boks og vis kort igen
     completeBox.style.display = 'none';
-    const scoreBox = completeBox.querySelector('.mp-mc-score-box');
-    if (scoreBox) scoreBox.remove();
-
     mainStack.style.display = 'block';
-
     updateDeckBadges();
   }
 
@@ -218,7 +208,7 @@
       mainStack.style.display = 'none';
       const completeBox = container.querySelector('.mp-stack-complete');
       if (completeBox) {
-        completeBox.style.display = 'flex';
+        completeBox.style.display = 'block';
         renderCompleteBoxUI(container, completeBox);
       }
     }
@@ -258,11 +248,10 @@
       firstUnanswered.style.display = 'block';
       mainStack.style.display = 'block';
     } else {
-      // Alle kort i stakken er allerede besvaret
       mainStack.style.display = 'none';
       const completeBox = container.querySelector('.mp-stack-complete');
       if (completeBox) {
-        completeBox.style.display = 'flex';
+        completeBox.style.display = 'block';
         renderCompleteBoxUI(container, completeBox);
       }
     }
@@ -308,12 +297,21 @@
       memoryStore[id].title = title;
     }
 
-    // 1. Vend kort knap
+    // 1. Vend kort knap (forside -> bagside)
     const flipBtn = wrapper.querySelector('.mp-btn-flip');
     if (flipBtn) {
       flipBtn.onclick = (e) => {
         e.preventDefault();
         wrapper.classList.add('flipped');
+      };
+    }
+
+    // 1b. Se spørgsmål knap (bagside -> forside)
+    const flipBackBtn = wrapper.querySelector('.mp-btn-flip-back');
+    if (flipBackBtn) {
+      flipBackBtn.onclick = (e) => {
+        e.preventDefault();
+        wrapper.classList.remove('flipped');
       };
     }
 
@@ -337,7 +335,7 @@
       const btns = Array.from(grid.children);
       const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
 
-      // Bland altid valgmuligheder tilfældigt
+      // Bland altid mulighederne (også ved 2 valg som Sandt/Falsk)
       if (btns.length > 1) {
         for (let i = btns.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
@@ -369,6 +367,12 @@
             resultBadge.className = `mp-user-result-badge ${isCorrect ? 'correct' : 'wrong'}`;
           }
 
+          // Vis vend-knappen på forsiden med teksten "Se svar ➔"
+          if (flipBtn) {
+            flipBtn.style.display = 'inline-flex';
+            flipBtn.textContent = 'Se svar ➔';
+          }
+
           wrapper.classList.add('flipped');
         };
       });
@@ -392,8 +396,6 @@
         saveData(currentStore);
 
         wrapper.dataset.answered = 'true';
-
-        // Opdater badge-tællere live på knapperne
         updateDeckBadges();
 
         const isInBottom = wrapper.closest('#mp-bottom-stack');
@@ -407,7 +409,6 @@
               stackData.cardStack.appendChild(wrapper);
               refreshBottomStack();
             } else {
-              // Flyt bagerst i nuværende bunke
               const mainStack = container.querySelector('.mp-card-stack');
               const cards = Array.from(mainStack.children).filter(child => child.classList.contains('mp-card-wrapper'));
               const currentIndex = cards.indexOf(wrapper);
@@ -444,7 +445,7 @@
     });
   }
 
-  // Beregner og opdaterer fremskridt for alle dæk på siden
+  // Opdaterer live fremskridt på dæk-knapperne
   function updateDeckBadges() {
     const store = getStoredData();
 
@@ -482,7 +483,7 @@
     });
   }
 
-  // Hoved-initialisering
+  // Initialisering
   function initFlashcards() {
     if (localStorage.getItem(OPT_OUT_KEY) === 'true') {
       document.querySelectorAll('.mp-flashcard-stack-container').forEach(el => el.style.display = 'none');
@@ -521,7 +522,6 @@
         setupCardEvents(container, wrapper, memoryStore);
       });
 
-      // Gendan fremskridt: Spring frem til første ubesvarede kort
       resumeDeckProgress(container, memoryStore);
     });
 

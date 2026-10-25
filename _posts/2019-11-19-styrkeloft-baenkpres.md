@@ -32,6 +32,9 @@ feature_row:
   excerpt: Dødløft
 flashcards:
   - question: "Må hovedet løftes fra bænken i bænkpres?"
+    options:
+      - "Nej"
+      - "Ja"
     answer: |
       Nej, hovedet, skuldrene og ballerne skal røre bænken, og fødderne skal være flade i gulvet.
       ![Bænkpres teknik](/assets/images/i.ytimg.com/maxresdefault-61842227.jpg)

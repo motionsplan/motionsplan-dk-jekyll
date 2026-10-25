@@ -30,6 +30,26 @@ Sti: _includes/components/flashcards.html
   .mp-cloze-sentence {
     margin-bottom: 12px;
   }
+  .mp-btn-flip-back {
+    background: none;
+    border: none;
+    color: #64748b;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 4px 6px;
+    border-radius: 6px;
+    transition: color 0.15s ease;
+  }
+  .mp-btn-flip-back:hover {
+    color: #1e293b;
+  }
+  .mp-bottombar-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+  }
 </style>
 
 {% if include.front and include.back %}
@@ -73,7 +93,7 @@ Sti: _includes/components/flashcards.html
 
           <div class="mp-card-bottombar">
             <button type="button" class="mp-btn-flip">Vend kort 🔄</button>
-            <button type="button" class="mp-btn-skip">Skip ⏩</button>
+            <button type="button" class="mp-btn-skip" style="margin-left: auto;">Skip ⏩</button>
           </div>
         </div>
 
@@ -97,21 +117,25 @@ Sti: _includes/components/flashcards.html
               <button type="button" class="mp-pill mp-pill-good" data-rating="good">🟡 OK</button>
               <button type="button" class="mp-pill mp-pill-easy" data-rating="easy">🟢 Let</button>
             </div>
-            <button type="button" class="mp-btn-skip">Skip ⏩</button>
+            <div class="mp-bottombar-actions">
+              <button type="button" class="mp-btn-flip-back">Se spørgsmål 🔄</button>
+              <button type="button" class="mp-btn-skip">Skip ⏩</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="mp-stack-complete" style="display: none;">
-    <div class="mp-complete-badge">🎉 REPETITION GENNEMFØRT</div>
-    <h3>Dine svar er gemt!</h3>
-    <p>Gennemgangen hjælper dig med at flytte det, du lige har læst, over i langtidshukommelsen.</p>
-
-    <div class="mp-complete-cta-box">
-      <p>📌 <strong>Tip:</strong> Bogmærk repetitions-siden for at gennemgå dine kort, når de er klar igen:</p>
-      <a href="/repetition/" class="mp-btn-cta">Gå til Mine Flashcards (/repetition/) ➔</a>
+  <!-- SLUT-BOKS -->
+  <div class="mp-stack-complete" style="display: none; padding: 20px; text-align: center; border: 1.5px solid #e2e8f0; border-radius: 12px; background: #ffffff;">
+    <div class="mp-complete-badge" style="display: inline-block; background: #dcfce7; color: #15803d; font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; margin-bottom: 12px;">🎉 MODUL GENNEMFØRT</div>
+    <p style="font-size: 0.9rem; color: #475569; margin: 0 0 14px 0; line-height: 1.4;">
+      Gennemgangen hjælper dig med at flytte det, du lige har læst, over i langtidshukommelsen.
+    </p>
+    <div class="mp-complete-dynamic-content" style="margin-bottom: 14px;"></div>
+    <div style="font-size: 0.85rem; color: #64748b;">
+      Vil du repetere i fremtiden? <a href="/repetition/" style="color: #2563eb; font-weight: 600; text-decoration: underline;">Gå til Mine Flashcards ➔</a>
     </div>
   </div>
 </div>
@@ -177,8 +201,7 @@ Sti: _includes/components/flashcards.html
             {% if card.options %}
             <div class="mp-options-grid">
               {% for opt in card.options %}
-              <button type="button" class="mp-option-btn" data-value="{{ opt | escape }}" {% if forloop.first
-                %}data-correct="true" {% endif %}>
+              <button type="button" class="mp-option-btn" data-value="{{ opt | escape }}" {% if forloop.first %}data-correct="true"{% endif %}>
                 <span class="mp-option-letter"></span>
                 <span class="mp-option-text">{{ opt }}</span>
               </button>
@@ -188,12 +211,8 @@ Sti: _includes/components/flashcards.html
           </div>
 
           <div class="mp-card-bottombar">
-            {% unless card.options %}
-            <button type="button" class="mp-btn-flip">Vend kort 🔄</button>
-            {% else %}
-            <div></div>
-            {% endunless %}
-            <button type="button" class="mp-btn-skip">Skip ⏩</button>
+            <button type="button" class="mp-btn-flip" {% if card.options %}style="display: none;"{% endif %}>Vend kort 🔄</button>
+            <button type="button" class="mp-btn-skip" style="margin-left: auto;">Skip ⏩</button>
           </div>
         </div>
 
@@ -217,7 +236,10 @@ Sti: _includes/components/flashcards.html
               <button type="button" class="mp-pill mp-pill-good" data-rating="good">🟡 OK</button>
               <button type="button" class="mp-pill mp-pill-easy" data-rating="easy">🟢 Let</button>
             </div>
-            <button type="button" class="mp-btn-skip">Skip ⏩</button>
+            <div class="mp-bottombar-actions">
+              <button type="button" class="mp-btn-flip-back">Se spørgsmål 🔄</button>
+              <button type="button" class="mp-btn-skip">Skip ⏩</button>
+            </div>
           </div>
         </div>
 
@@ -227,14 +249,14 @@ Sti: _includes/components/flashcards.html
   </div>
 
   <!-- SLUT-BOKS -->
-  <div class="mp-stack-complete" style="display: none; padding: 24px; text-align: center; border: 1.5px solid #e2e8f0; border-radius: 12px; background: #ffffff; min-height: 250px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-    <div class="mp-complete-badge" style="display: inline-block; background: #dcfce7; color: #15803d; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; margin-bottom: 12px;">🎉 MODUL GENNEMFØRT</div>
-    
-    <!-- JavaScriptet indsætter nu resultatboks og genstart-knap her via et kompakt grid -->
-    <div class="mp-complete-dynamic-content" style="width: 100%; max-width: 400px;"></div>
-
-    <div class="mp-complete-cta-box" style="margin-top: 16px; font-size: 0.85rem; color: #64748b;">
-      Vil du repetere i fremtiden? <a href="/repetition/" style="color: #2563eb; font-weight: 600; text-decoration: none;">Gå til Mine Flashcards ➔</a>
+  <div class="mp-stack-complete" style="display: none; padding: 20px; text-align: center; border: 1.5px solid #e2e8f0; border-radius: 12px; background: #ffffff;">
+    <div class="mp-complete-badge" style="display: inline-block; background: #dcfce7; color: #15803d; font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; margin-bottom: 12px;">🎉 MODUL GENNEMFØRT</div>
+    <p style="font-size: 0.9rem; color: #475569; margin: 0 0 14px 0; line-height: 1.4;">
+      Gennemgangen hjælper dig med at flytte det, du lige har læst, over i langtidshukommelsen.
+    </p>
+    <div class="mp-complete-dynamic-content" style="margin-bottom: 14px;"></div>
+    <div style="font-size: 0.85rem; color: #64748b;">
+      Vil du repetere i fremtiden? <a href="/repetition/" style="color: #2563eb; font-weight: 600; text-decoration: underline;">Gå til Mine Flashcards ➔</a>
     </div>
   </div>
 

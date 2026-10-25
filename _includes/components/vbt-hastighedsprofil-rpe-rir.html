@@ -1,4 +1,4 @@
-{% assign calc_title = include.title | default: "⚡ VBT RPE & Hastighedsprofil (All-Out Sæt)" %}
+{% assign calc_title = include.title | default: "⚡ VBT RPE hastighedsprofil (All-Out Sæt)" %}
 
 <style>
   .vbt-rpe-card {
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #f1f5f9;
   }
@@ -27,29 +27,95 @@
     color: #0f172a;
   }
   .vbt-fullscreen-btn {
-    background: #f1f5f9;
-    border: 1px solid #cbd5e1;
-    color: #334155;
+    background: #f8fafc;
+    border: 1.5px solid #cbd5e1;
+    color: #1e293b;
     border-radius: 8px;
-    padding: 5px 8px;
+    padding: 6px 10px;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    transition: all 0.15s ease;
   }
   .vbt-fullscreen-btn:hover {
     background: #e2e8f0;
+    border-color: #94a3b8;
   }
 
-  /* Top settings grid */
+  /* 3-Kolonnet Grid Layout */
+  .vbt-rpe-layout-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .vbt-rpe-col-left,
+  .vbt-rpe-col-mid,
+  .vbt-rpe-col-right {
+    min-width: 0;
+    width: 100%;
+  }
+  .vbt-rpe-col-full {
+    grid-column: 1 / -1 !important;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  /* 3 kolonner KUN når fuldskærm er aktiv */
+  @media (min-width: 960px) {
+    .vbt-rpe-card:fullscreen .vbt-rpe-layout-grid,
+    .vbt-rpe-card:-webkit-full-screen .vbt-rpe-layout-grid,
+    .vbt-rpe-card.vbt-is-fullscreen .vbt-rpe-layout-grid {
+      grid-template-columns: 1.05fr 1.15fr 0.95fr !important;
+      align-items: start !important;
+    }
+  }
+
+  /* 2 kolonner fallback ved mindre skærme i fuldskærm */
+  @media (min-width: 620px) and (max-width: 959px) {
+    .vbt-rpe-card:fullscreen .vbt-rpe-layout-grid,
+    .vbt-rpe-card:-webkit-full-screen .vbt-rpe-layout-grid,
+    .vbt-rpe-card.vbt-is-fullscreen .vbt-rpe-layout-grid {
+      grid-template-columns: 1fr 1fr !important;
+      align-items: start !important;
+    }
+    .vbt-rpe-card:fullscreen .vbt-rpe-col-right,
+    .vbt-rpe-card:-webkit-full-screen .vbt-rpe-col-right,
+    .vbt-rpe-card.vbt-is-fullscreen .vbt-rpe-col-right {
+      grid-column: 1 / -1 !important;
+    }
+  }
+
+  /* Fuldskærmstilstand (Native + Simulated fallback til iOS) */
+  .vbt-rpe-card:fullscreen,
+  .vbt-rpe-card:-webkit-full-screen,
+  .vbt-rpe-card.vbt-is-fullscreen {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: 100vw !important;
+    z-index: 999999 !important;
+    background: #ffffff !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    overflow-y: auto !important;
+    padding: 1.5rem !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Top settings grid (nu kun 2 felter) */
   .vbt-rpe-grid-top {
     display: grid;
-    grid-template-columns: 1.4fr 1.1fr 1.1fr;
+    grid-template-columns: 1.2fr 1fr;
     gap: 0.75rem;
     margin-bottom: 1rem;
   }
-  @media (max-width: 680px) {
+  @media (max-width: 550px) {
     .vbt-rpe-grid-top {
       grid-template-columns: 1fr;
     }
@@ -76,7 +142,6 @@
     background: #f8fafc;
     color: #0f172a;
     box-sizing: border-box;
-    text-overflow: ellipsis;
   }
   .vbt-input-mega:focus {
     outline: none;
@@ -84,7 +149,7 @@
     background: #ffffff;
   }
 
-  /* Fixed Table Layout - Ingen scrollbar & fast Rep # bredde */
+  /* Fixed Table Layout */
   .vbt-rpe-table-wrapper {
     width: 100%;
     overflow-x: hidden;
@@ -115,7 +180,7 @@
     text-align: center;
   }
   .vbt-col-vel {
-    width: 115px;
+    width: 110px;
   }
   .vbt-col-rpe {
     width: auto;
@@ -183,7 +248,7 @@
     gap: 0.5rem;
     margin-bottom: 1rem;
   }
-  @media (max-width: 520px) {
+  @media (max-width: 480px) {
     .vbt-rpe-metrics-grid {
       grid-template-columns: 1fr;
     }
@@ -233,7 +298,7 @@
     font-size: 0.82rem;
   }
   .vbt-rpe-summary-table td {
-    padding: 0.3rem 0.4rem;
+    padding: 0.35rem 0.4rem;
     border-bottom: 1px solid #dcfce7;
   }
 
@@ -259,7 +324,6 @@
 
   /* Compact History */
   .vbt-history-card {
-    margin-top: 1.25rem;
     background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 12px;
@@ -315,136 +379,125 @@
     color: #334155;
   }
   .vbt-btn-xs-danger { color: #dc2626; border-color: #fca5a5; }
-
-  /* Fullscreen */
-  .vbt-rpe-card:fullscreen,
-  .vbt-rpe-card.vbt-is-fullscreen {
-    background: #ffffff;
-    padding: 2rem;
-    overflow-y: auto;
-    width: 100vw;
-    height: 100vh;
-  }
 </style>
 
 <div class="vbt-rpe-card" id="vbt-rpe-calculator">
   <div class="vbt-rpe-header">
     <div class="vbt-rpe-title">{{ calc_title }}</div>
     <button type="button" class="vbt-fullscreen-btn" id="vbt-rpe-fullscreen" title="Fuld skærm">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <svg id="vbt-rpe-fullscreen-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
       </svg>
     </button>
   </div>
 
-  <!-- Indstillinger for sættet -->
-  <div class="vbt-rpe-grid-top">
-    <div class="vbt-field-group">
-      <label class="vbt-field-label">📝 Profil- / Atletnavn</label>
-      <input type="text" id="vbt-rpe-session-name" class="vbt-input-mega" value="Bænkpres RPE Profil" placeholder="fx Bænkpres 80kg">
+  <div class="vbt-rpe-layout-grid">
+    
+    <!-- KOLONNE 1: Input & Tabel -->
+    <div class="vbt-rpe-col-left">
+      <div class="vbt-rpe-grid-top">
+        <div class="vbt-field-group">
+          <label class="vbt-field-label">🏋️‍♂️ Øvelse</label>
+          <select id="vbt-rpe-exercise" class="vbt-input-mega">
+            <option value="bench">Bænkpres</option>
+            <option value="squat">Back Squat</option>
+            <option value="deadlift">Dødløft</option>
+            <option value="ohp">Skulderpres / OHP</option>
+            <option value="custom">Brugerdefineret</option>
+          </select>
+        </div>
+
+        <div class="vbt-field-group">
+          <label class="vbt-field-label">🎯 Sidste rep svarer til</label>
+          <select id="vbt-rpe-last-rpe" class="vbt-input-mega">
+            <option value="10">RPE 10 (0 RIR)</option>
+            <option value="9.5">RPE 9.5 (0.5 RIR)</option>
+            <option value="9">RPE 9 (1 RIR)</option>
+            <option value="8.5">RPE 8.5 (1.5 RIR)</option>
+            <option value="8">RPE 8 (2 RIR)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="vbt-rpe-table-wrapper">
+        <table class="vbt-rpe-table">
+          <thead>
+            <tr>
+              <th class="vbt-col-rep">Rep #</th>
+              <th class="vbt-col-vel">Hastighed (m/s)</th>
+              <th class="vbt-col-rpe">Beregnet RPE / RIR</th>
+              <th class="vbt-col-act"></th>
+            </tr>
+          </thead>
+          <tbody id="vbt-rpe-reps-list">
+            <!-- Genereres dynamisk -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="vbt-action-row">
+        <button type="button" class="vbt-btn-action" id="vbt-rpe-add-rep">+ Tilføj rep</button>
+        <button type="button" class="vbt-btn-action" id="vbt-rpe-reset">↺ Nulstil</button>
+        <button type="button" class="vbt-btn-action vbt-btn-save" id="vbt-rpe-save-btn">💾 Gem profil</button>
+      </div>
     </div>
 
-    <div class="vbt-field-group">
-      <label class="vbt-field-label">🏋️‍♂️ Øvelse</label>
-      <select id="vbt-rpe-exercise" class="vbt-input-mega">
-        <option value="bench">Bænkpres</option>
-        <option value="squat">Back Squat</option>
-        <option value="deadlift">Dødløft</option>
-        <option value="ohp">Skulderpres / OHP</option>
-        <option value="custom">Brugerdefineret</option>
-      </select>
+    <!-- KOLONNE 2: Nøgletal & Hastighedskurve -->
+    <div class="vbt-rpe-col-mid">
+      <div class="vbt-rpe-metrics-grid">
+        <div class="vbt-metric-card">
+          <div class="vbt-metric-label">Din MVT (RPE 10)</div>
+          <div class="vbt-metric-value" id="vbt-metric-mvt">0.00 m/s</div>
+          <div class="vbt-metric-sub" id="vbt-metric-mvt-std">(Lit. std: 0.15 m/s)</div>
+        </div>
+        <div class="vbt-metric-card">
+          <div class="vbt-metric-label">Hastighedstab</div>
+          <div class="vbt-metric-value" id="vbt-metric-vloss">0%</div>
+          <div class="vbt-metric-sub">I alt i sættet</div>
+        </div>
+        <div class="vbt-metric-card">
+          <div class="vbt-metric-label">Linearitet (R²)</div>
+          <div class="vbt-metric-value" id="vbt-metric-r2">0.00</div>
+          <div class="vbt-metric-sub">Testens kvalitet</div>
+        </div>
+      </div>
+
+      <div class="vbt-rpe-chart-box">
+        <div id="vbt-rpe-chart-wrapper"></div>
+      </div>
     </div>
 
-    <div class="vbt-field-group">
-      <label class="vbt-field-label">🎯 Sidste rep svarer til</label>
-      <select id="vbt-rpe-last-rpe" class="vbt-input-mega">
-        <option value="10">RPE 10 (0 RIR)</option>
-        <option value="9.5">RPE 9.5 (0.5 RIR)</option>
-        <option value="9">RPE 9 (1 RIR)</option>
-        <option value="8.5">RPE 8.5 (1.5 RIR)</option>
-        <option value="8">RPE 8 (2 RIR)</option>
-      </select>
+    <!-- KOLONNE 3: RPE-Tabel & Testvurdering -->
+    <div class="vbt-rpe-col-right">
+      <div class="vbt-rpe-output-box">
+        <div class="vbt-output-title">📊 Din Personlige RPE-Hastighedsprofil</div>
+        <table class="vbt-rpe-summary-table">
+          <tbody id="vbt-rpe-summary-body">
+            <!-- Fyldes af JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <div id="vbt-rpe-assessment" class="vbt-assessment-box vbt-assessment-warn">
+        Indtast mindst 3 sammenhængende reps i sættet for at evaluere testens kvalitet.
+      </div>
     </div>
-  </div>
 
-  <!-- Tabel over reps i all-out sættet -->
-  <div class="vbt-rpe-table-wrapper">
-    <table class="vbt-rpe-table">
-      <thead>
-        <tr>
-          <th class="vbt-col-rep">Rep #</th>
-          <th class="vbt-col-vel">Hastighed (m/s)</th>
-          <th class="vbt-col-rpe">Beregnet RPE / RIR</th>
-          <th class="vbt-col-act"></th>
-        </tr>
-      </thead>
-      <tbody id="vbt-rpe-reps-list">
-        <!-- Genereres dynamisk -->
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Knapper -->
-  <div class="vbt-action-row">
-    <button type="button" class="vbt-btn-action" id="vbt-rpe-add-rep">+ Tilføj rep</button>
-    <button type="button" class="vbt-btn-action" id="vbt-rpe-reset">↺ Nulstil</button>
-    <button type="button" class="vbt-btn-action vbt-btn-save" id="vbt-rpe-save-btn">💾 Gem profil</button>
-  </div>
-
-  <!-- Nøgletal & Sammenligning med MVT standard -->
-  <div class="vbt-rpe-metrics-grid">
-    <div class="vbt-metric-card">
-      <div class="vbt-metric-label">Din MVT (RPE 10)</div>
-      <div class="vbt-metric-value" id="vbt-metric-mvt">0.00 m/s</div>
-      <div class="vbt-metric-sub" id="vbt-metric-mvt-std">(Lit. std: 0.15 m/s)</div>
+    <!-- FULD BREDDE: Historik -->
+    <div class="vbt-history-card vbt-rpe-col-full">
+      <div class="vbt-history-header">
+        <div class="vbt-history-title">📜 Gemte RPE Profiler (Historik)</div>
+        <button type="button" class="vbt-btn-xs" id="vbt-rpe-clear-history">Ryd historik</button>
+      </div>
+      <div id="vbt-rpe-history-list" class="vbt-history-list"></div>
     </div>
-    <div class="vbt-metric-card">
-      <div class="vbt-metric-label">Hastighedstab</div>
-      <div class="vbt-metric-value" id="vbt-metric-vloss">0%</div>
-      <div class="vbt-metric-sub">I alt i sættet</div>
-    </div>
-    <div class="vbt-metric-card">
-      <div class="vbt-metric-label">Linearitet (R²)</div>
-      <div class="vbt-metric-value" id="vbt-metric-r2">0.00</div>
-      <div class="vbt-metric-sub">Testens kvalitet</div>
-    </div>
-  </div>
 
-  <!-- Beregnet RPE-Hastighedsskema -->
-  <div class="vbt-rpe-output-box">
-    <div class="vbt-output-title">📊 Din Personlige RPE-Hastighedsprofil</div>
-    <table class="vbt-rpe-summary-table">
-      <tbody id="vbt-rpe-summary-body">
-        <!-- Fyldes af JS -->
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Vurdering af testen -->
-  <div id="vbt-rpe-assessment" class="vbt-assessment-box vbt-assessment-warn">
-    Indtast mindst 3 sammenhængende reps i sættet for at evaluere testens kvalitet.
-  </div>
-
-  <!-- SVG Graf -->
-  <div class="vbt-rpe-chart-box">
-    <div id="vbt-rpe-chart-wrapper"></div>
-  </div>
-
-  <!-- LocalStorage Gemte Profiler (Historik) -->
-  <div class="vbt-history-card">
-    <div class="vbt-history-header">
-      <div class="vbt-history-title">📜 Gemte RPE Profiler (Historik)</div>
-      <button type="button" class="vbt-btn-xs" id="vbt-rpe-clear-history">Ryd historik</button>
-    </div>
-    <div id="vbt-rpe-history-list" class="vbt-history-list">
-      <!-- Gemte profiler vises her -->
-    </div>
   </div>
 </div>
 
 <script>
 (function() {
-  const STORAGE_KEY_RPE_HISTORY = 'vbt_rpe_history_v1';
+  const STORAGE_KEY_RPE_HISTORY = 'vbt_rpe_history_v2';
 
   const MVT_STANDARDS = {
     bench: { name: 'Bænkpres', stdMvt: 0.15 },
@@ -471,7 +524,7 @@
   if (!card) return;
 
   const fullscreenBtn = card.querySelector('#vbt-rpe-fullscreen');
-  const sessionNameInput = card.querySelector('#vbt-rpe-session-name');
+  const fullscreenIcon = card.querySelector('#vbt-rpe-fullscreen-icon');
   const exerciseSelect = card.querySelector('#vbt-rpe-exercise');
   const lastRpeSelect = card.querySelector('#vbt-rpe-last-rpe');
   const repsContainer = card.querySelector('#vbt-rpe-reps-list');
@@ -611,8 +664,15 @@
     const lastVel = validData[validData.length - 1].vel;
     const vLoss = firstVel > 0 ? Math.round(((firstVel - lastVel) / firstVel) * 100) : 0;
 
-    // Udregnet MVT ved RPE 10
-    const calculatedMvt = Math.max(0.05, slope * 10 + intercept);
+    // Udregnet MVT: Bounded af reelt udført RPE 10 eller mindste hastighed
+    let calculatedMvt = Math.max(0.05, slope * 10 + intercept);
+    const rpe10Rep = validData.find(d => d.rpe === 10);
+    if (rpe10Rep && rpe10Rep.vel < calculatedMvt) {
+      calculatedMvt = rpe10Rep.vel;
+    } else if (lastRpeVal === 10) {
+      const minVel = Math.min(...validData.map(d => d.vel));
+      calculatedMvt = Math.min(calculatedMvt, minVel);
+    }
 
     // Update Metrics UI
     metricMvt.textContent = `${calculatedMvt.toFixed(2)} m/s`;
@@ -624,7 +684,8 @@
     const targetRpes = [10, 9.5, 9, 8.5, 8, 7.5, 7];
     let summaryHtml = '';
     targetRpes.forEach(rpe => {
-      const velAtRpe = Math.max(0.05, slope * rpe + intercept);
+      let velAtRpe = Math.max(0.05, slope * rpe + intercept);
+      if (rpe === 10) velAtRpe = calculatedMvt;
       const rir = (10 - rpe).toFixed(1);
       summaryHtml += `
         <tr>
@@ -635,36 +696,36 @@
     });
     summaryBody.innerHTML = summaryHtml;
 
-    // Test Assessment & MVT Comparison
+    // Test Assessment & MVT Sammenligning
     let assessClass = 'vbt-assessment-good';
     let mvtDiffText = '';
     const diffMvt = calculatedMvt - stdObj.stdMvt;
 
     if (Math.abs(diffMvt) <= 0.04) {
-      mvtDiffText = `Din beregnede MVT (${calculatedMvt.toFixed(2)} m/s) matcher litteraturens standard for ${stdObj.name} (${stdObj.stdMvt.toFixed(2)} m/s) meget flot.`;
+      mvtDiffText = `Din målte MVT (${calculatedMvt.toFixed(2)} m/s) matcher litteraturens standard for ${stdObj.name} (${stdObj.stdMvt.toFixed(2)} m/s) meget flot.`;
     } else if (diffMvt > 0.04) {
-      mvtDiffText = `Din beregnede MVT (${calculatedMvt.toFixed(2)} m/s) er noget højere end standarden (${stdObj.stdMvt.toFixed(2)} m/s). Du stopper typisk løftet tidligere eller har en eksplosiv løftestil.`;
+      mvtDiffText = `Din målte MVT (${calculatedMvt.toFixed(2)} m/s) er højere end standarden (${stdObj.stdMvt.toFixed(2)} m/s). Du stopper typisk løftet tidligere eller har en meget eksplosiv løftestil.`;
     } else {
-      mvtDiffText = `Din beregnede MVT (${calculatedMvt.toFixed(2)} m/s) er lavere end standarden (${stdObj.stdMvt.toFixed(2)} m/s). Du kan grinde tunge løft ved lave hastigheder.`;
+      mvtDiffText = `Din målte MVT (${calculatedMvt.toFixed(2)} m/s) er lavere end standarden (${stdObj.stdMvt.toFixed(2)} m/s). Du er god til at grinde tunge løft ud ved lave hastigheder.`;
     }
 
     if (r2 >= 0.90 && vLoss >= 25) {
       assessClass = 'vbt-assessment-good';
-      assessmentBox.innerHTML = `🟢 **Fremragende testkvalitet (R² = ${r2.toFixed(2)})!** Hastighedsfaldet er meget lineært med et samlet hastighedstab på **${vLoss}%**. ${mvtDiffText}`;
+      assessmentBox.innerHTML = `🟢 <strong>Fremragende testkvalitet (R² = ${r2.toFixed(2)})!</strong> Hastighedsfaldet er meget lineært med et samlet hastighedstab på <strong>${vLoss}%</strong>. ${mvtDiffText}`;
     } else if (r2 >= 0.80) {
       assessClass = 'vbt-assessment-warn';
-      assessmentBox.innerHTML = `🟡 **Godkendt test (R² = ${r2.toFixed(2)}).** Pænt fald over sættet med **${vLoss}%** hastighedstab. ${mvtDiffText}`;
+      assessmentBox.innerHTML = `🟡 <strong>Godkendt test (R² = ${r2.toFixed(2)}).</strong> Pænt fald over sættet med <strong>${vLoss}%</strong> hastighedstab. ${mvtDiffText}`;
     } else {
       assessClass = 'vbt-assessment-bad';
-      assessmentBox.innerHTML = `🔴 **Ujævn testkvalitet (R² = ${r2.toFixed(2)}).** Faldet varierer en del fra rep til rep. Sørg for 100% eksplosiv kraft på samtlige gentagelser.`;
+      assessmentBox.innerHTML = `🔴 <strong>Ujævn testkvalitet (R² = ${r2.toFixed(2)}).</strong> Faldet varierer en del fra rep til rep. Sørg for maksimal eksplosiv kraft på samtlige gentagelser.`;
     }
 
     assessmentBox.className = `vbt-assessment-box ${assessClass}`;
 
-    renderChart(validData, slope, intercept);
+    renderChart(validData, slope, intercept, calculatedMvt);
   }
 
-  function renderChart(points, slope, intercept) {
+  function renderChart(points, slope, intercept, mvtFinal) {
     if (!chartWrapper) return;
 
     const width = 600;
@@ -691,7 +752,7 @@
       const x1 = xScale(minX);
       const y1 = yScale(slope * minX + intercept);
       const x2 = xScale(10);
-      const y2 = yScale(slope * 10 + intercept);
+      const y2 = yScale(mvtFinal || (slope * 10 + intercept));
 
       svg += `
         <line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#16a34a" stroke-width="3" stroke-linecap="round"/>
@@ -719,7 +780,7 @@
     historyListContainer.innerHTML = '';
 
     if (history.length === 0) {
-      historyListContainer.innerHTML = `<div style="color:#94a3b8; font-size:0.82rem;">Ingen gemte RPE-profiler i historikken endnu.</div>`;
+      historyListContainer.innerHTML = `<div style="color:#94a3b8; font-size:0.82rem; padding:0.2rem 0;">Ingen gemte RPE-profiler endnu.</div>`;
       return;
     }
 
@@ -729,10 +790,10 @@
       div.innerHTML = `
         <div class="vbt-history-info">
           <span class="vbt-history-name-tag">${item.sessionName}</span>
-          <span class="vbt-history-stats-tag">(${item.exerciseName}) | 📅 ${item.date} | <strong>RPE 8: ${item.rpe8Vel} m/s</strong> | MVT: ${item.mvtVel} m/s (R² = ${item.r2})</span>
+          <span class="vbt-history-stats-tag">📅 ${item.date} | <strong>RPE 8: ${item.rpe8Vel} m/s</strong> | <strong>MVT: ${item.mvtVel} m/s</strong> (R² = ${item.r2})</span>
         </div>
         <div style="display:flex; gap:0.3rem;">
-          <button type="button" class="vbt-btn-xs vbt-rpe-load-history" data-idx="${idx}">Gendan</button>
+          <button type="button" class="vbt-btn-xs vbt-rpe-load-history" data-idx="${idx}">Hent</button>
           <button type="button" class="vbt-btn-xs vbt-rpe-rename-history" data-idx="${idx}">Omdøb</button>
           <button type="button" class="vbt-btn-xs vbt-btn-xs-danger vbt-rpe-del-history" data-idx="${idx}">Slet</button>
         </div>
@@ -745,7 +806,6 @@
         const idx = parseInt(e.target.dataset.idx, 10);
         const item = history[idx];
         if (item) {
-          sessionNameInput.value = item.sessionName;
           exerciseSelect.value = item.exercise;
           lastRpeSelect.value = item.lastRpe;
           reps = JSON.parse(JSON.stringify(item.reps));
@@ -776,16 +836,43 @@
     });
   }
 
-  // Listeners
+  // Fullscreen toggle med ikon-opdatering
+  function updateFullscreenIcon(isFullscreen) {
+    if (!fullscreenIcon) return;
+    if (isFullscreen) {
+      fullscreenIcon.innerHTML = `<path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>`;
+    } else {
+      fullscreenIcon.innerHTML = `<path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>`;
+    }
+  }
+
   if (fullscreenBtn) {
     fullscreenBtn.addEventListener('click', () => {
-      if (!document.fullscreenElement) {
-        if (card.requestFullscreen) card.requestFullscreen();
+      const isAlreadyFs = card.classList.contains('vbt-is-fullscreen') || !!document.fullscreenElement;
+
+      if (!isAlreadyFs) {
+        if (card.requestFullscreen) {
+          card.requestFullscreen().catch(() => {});
+        } else if (card.webkitRequestFullscreen) {
+          card.webkitRequestFullscreen();
+        }
         card.classList.add('vbt-is-fullscreen');
+        updateFullscreenIcon(true);
       } else {
-        if (document.exitFullscreen) document.exitFullscreen();
+        if (document.exitFullscreen && document.fullscreenElement) {
+          document.exitFullscreen().catch(() => {});
+        } else if (document.webkitExitFullscreen && document.webkitFullscreenElement) {
+          document.webkitExitFullscreen();
+        }
         card.classList.remove('vbt-is-fullscreen');
+        updateFullscreenIcon(false);
       }
+    });
+
+    document.addEventListener('fullscreenchange', () => {
+      const isFs = !!document.fullscreenElement;
+      if (!isFs) card.classList.remove('vbt-is-fullscreen');
+      updateFullscreenIcon(card.classList.contains('vbt-is-fullscreen') || isFs);
     });
   }
 
@@ -808,6 +895,7 @@
     });
   }
 
+  // Gem profil med standardnavn = "${Øvelse} RPE Profil"
   if (saveBtn) {
     saveBtn.addEventListener('click', () => {
       const lastRpeVal = parseFloat(lastRpeSelect.value) || 10;
@@ -820,7 +908,6 @@
         return;
       }
 
-      // Regn RPE 8 og MVT ud til historik
       const totalReps = reps.length;
       const pts = reps
         .map((r, idx) => ({ vel: parseFloat(r.velocity), rpe: Math.max(1, lastRpeVal - (totalReps - 1 - idx)) }))
@@ -834,23 +921,33 @@
       const intercept = (sumY - slope * sumX) / n;
 
       const ssTot = pts.reduce((acc, d) => acc + Math.pow(d.vel - (sumY/n), 2), 0);
-      const ssRes = pts.reduce((acc, d) => acc + Math.pow(d.vel - (slope * d.rpe + intercept), 2), 0);
+      const ssRes = pts.reduce((acc, d) => {
+        const predY = slope * d.rpe + intercept;
+        return acc + Math.pow(d.vel - predY, 2);
+      }, 0);
       const r2 = ssTot > 0 ? Math.max(0, 1 - (ssRes / ssTot)) : 0;
 
-      const rpe8Vel = Math.max(0.05, slope * 8 + intercept).toFixed(2);
-      const mvtVel = Math.max(0.05, slope * 10 + intercept).toFixed(2);
+      let mvtVal = Math.max(0.05, slope * 10 + intercept);
+      const rpe10Rep = pts.find(d => d.rpe === 10);
+      if (rpe10Rep && rpe10Rep.vel < mvtVal) {
+        mvtVal = rpe10Rep.vel;
+      } else if (lastRpeVal === 10) {
+        const minV = Math.min(...pts.map(d => d.vel));
+        mvtVal = Math.min(mvtVal, minV);
+      }
 
+      const rpe8Vel = Math.max(0.05, slope * 8 + intercept).toFixed(2);
       const exObj = MVT_STANDARDS[exerciseSelect.value] || MVT_STANDARDS.custom;
 
       const historyItem = {
         id: Date.now(),
         date: new Date().toLocaleDateString('da-DK', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }),
-        sessionName: sessionNameInput.value || `${exObj.name} RPE Profil`,
+        sessionName: `${exObj.name} RPE Profil`,
         exercise: exerciseSelect.value,
         exerciseName: exObj.name,
         lastRpe: lastRpeSelect.value,
         rpe8Vel,
-        mvtVel,
+        mvtVel: mvtVal.toFixed(2),
         r2: r2.toFixed(2),
         reps: JSON.parse(JSON.stringify(reps))
       };

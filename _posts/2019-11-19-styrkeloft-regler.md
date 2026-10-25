@@ -36,7 +36,10 @@ flashcards:
     credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
     answer: Hofteleddet skal være under knæleddet.
   - question: Må hovedet løftes fra bænken i bænkpres?
-    answer: Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
+    options:
+      - "Nej"
+      - "Ja"
+    answer: Nej! Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
     answer-attachment: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
     credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
 ---
