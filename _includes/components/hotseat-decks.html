@@ -1,0 +1,212 @@
+{% comment %}
+-----------------------------------------------------------------------------
+MOTIONSPLAN.DK - HOTSEAT DECKS SELECTOR
+Sti: _includes/components/hotseat-decks.html
+Brug: {% include components/hotseat-decks.html decks=page.decks %}
+-----------------------------------------------------------------------------
+{% endcomment %}
+
+{% assign duel_decks = include.decks | default: page.decks %}
+
+{% if duel_decks %}
+<div class="mp-duel-decks-wrapper">
+  <div class="mp-duel-decks-header">
+    <div class="mp-duel-decks-icon">⚔️</div>
+    <div class="mp-duel-decks-info">
+      <div class="mp-duel-title">{{ include.title | default: "Hotseat Duel: Vælg emne" }}</div>
+      <div class="mp-duel-desc">{{ include.description | default: "Vælg en kategori nedenfor for at dyste mod en makker på samme enhed." }}</div>
+    </div>
+  </div>
+
+  <div class="mp-duel-decks-grid">
+    <!-- Mix af alle spørgsmål -->
+    <div class="mp-duel-deck-card is-mix" onclick="MPHotseatDecks.startDeck('all')">
+      <div class="mp-deck-card-top">
+        <span class="mp-deck-icon-badge">🎲</span>
+        <span class="mp-deck-count" id="mp-total-mix-count">...</span>
+      </div>
+      <div class="mp-deck-card-name">Alle emner (Blandet)</div>
+      <div class="mp-deck-card-action">Start stor duel ➔</div>
+    </div>
+
+    <!-- Individuelle kategorier -->
+    {% for deck in duel_decks %}
+      {% assign deck_key = deck.key | default: deck.id %}
+      {% assign deck_cards = deck.cards | default: page[deck_key] | default: site.data.quizzes[deck_key] %}
+      
+      <div class="mp-duel-deck-card" onclick="MPHotseatDecks.startDeck({{ forloop.index0 }})">
+        <div class="mp-deck-card-top">
+          <span class="mp-deck-icon-badge">{{ deck.icon | default: "📚" }}</span>
+          <span class="mp-deck-count" data-deck-count="{{ forloop.index0 }}">...</span>
+        </div>
+        <div class="mp-deck-card-name">{{ deck.title | default: deck.name }}</div>
+        <div class="mp-deck-card-action">Dyst i dette emne ➔</div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Generér JSON med korrekt opslag via keys -->
+  <script type="application/json" id="mp-duel-multi-data">
+    [
+      {% for deck in duel_decks %}
+        {% assign deck_key = deck.key | default: deck.id %}
+        {% assign deck_cards = deck.cards | default: page[deck_key] | default: site.data.quizzes[deck_key] %}
+        {
+          "name": {{ deck.title | default: deck.name | jsonify }},
+          "icon": {{ deck.icon | default: "📚" | jsonify }},
+          "cards": [
+            {% if deck_cards %}
+              {% for card in deck_cards %}
+                {% if card.options %}
+                {
+                  "q": {{ card.question | default: card.front | strip_html | jsonify }},
+                  "opts": {{ card.options | jsonify }}
+                }{% if forloop.last == false %},{% endif %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          ]
+        }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    ]
+  </script>
+</div>
+
+<!-- Sørg for at den delte duel-motor er loaded -->
+{% include components/hotseat-duel.html %}
+
+<style>
+  .mp-duel-decks-wrapper {
+    margin: 2rem 0;
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 16px;
+    padding: 1.5rem;
+  }
+  .mp-duel-decks-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1.25rem;
+  }
+  .mp-duel-decks-icon { font-size: 2.2rem; line-height: 1; }
+  .mp-duel-decks-info .mp-duel-title { font-size: 1.25rem; font-weight: 800; color: #0f172a; margin: 0; }
+  .mp-duel-decks-info .mp-duel-desc { font-size: 0.9rem; color: #475569; margin-top: 2px; }
+
+  .mp-duel-decks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+  }
+  .mp-duel-deck-card {
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 12px 14px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 95px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    transition: all 0.15s ease;
+  }
+  .mp-duel-deck-card:hover {
+    border-color: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37,99,235,0.08);
+  }
+  .mp-duel-deck-card.is-mix {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+  }
+  .mp-deck-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .mp-deck-icon-badge {
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+  .mp-deck-count {
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: #f1f5f9;
+    color: #475569;
+    padding: 2px 8px;
+    border-radius: 999px;
+  }
+  .mp-duel-deck-card.is-mix .mp-deck-count {
+    background: #dbeafe;
+    color: #1e40af;
+  }
+  .mp-deck-card-name {
+    font-weight: 800;
+    font-size: 0.98rem;
+    color: #0f172a;
+    line-height: 1.3;
+    margin-bottom: 8px;
+  }
+  .mp-deck-card-action {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #2563eb;
+  }
+</style>
+
+<script>
+window.MPHotseatDecks = (function() {
+  let decks = [];
+
+  function init() {
+    const dataEl = document.getElementById('mp-duel-multi-data');
+    if (!dataEl) return;
+    try {
+      decks = JSON.parse(dataEl.textContent);
+      
+      let totalCount = 0;
+      decks.forEach((d, idx) => {
+        const c = d.cards ? d.cards.length : 0;
+        totalCount += c;
+        const el = document.querySelector(`[data-deck-count="${idx}"]`);
+        if (el) el.textContent = `${c} spørgsmål`;
+      });
+
+      const mixEl = document.getElementById('mp-total-mix-count');
+      if (mixEl) mixEl.textContent = `${totalCount} spørgsmål`;
+    } catch(e) {}
+  }
+
+  function startDeck(key) {
+    if (!window.MPHotseat) {
+      alert("Hotseat motoren kunne ikke findes.");
+      return;
+    }
+
+    let qPool = [];
+    if (key === 'all') {
+      decks.forEach(d => { if (d.cards) qPool = qPool.concat(d.cards); });
+    } else if (decks[key] && decks[key].cards) {
+      qPool = [...decks[key].cards];
+    }
+
+    if (qPool.length === 0) {
+      alert("Der er ingen multiple choice-spørgsmål fundet i dette emne.");
+      return;
+    }
+
+    window.MPHotseat.openLobbyWithQuestions(qPool);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  return { startDeck };
+})();
+</script>
+{% endif %}

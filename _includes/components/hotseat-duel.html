@@ -1,0 +1,884 @@
+{% comment %}
+-----------------------------------------------------------------------------
+MOTIONSPLAN.DK - HOTSEAT DUEL (Enkelt Deck)
+Sti: _includes/components/hotseat-duel.html
+Brug: {% include components/hotseat-duel.html cards=page.quiz %}
+-----------------------------------------------------------------------------
+{% endcomment %}
+
+{% assign duel_cards = include.cards | default: include.quiz | default: page.quiz | default: page.flashcards %}
+
+{% if duel_cards %}
+<div class="mp-duel-container">
+  <div class="mp-duel-launcher">
+    <div class="mp-duel-icon">⚔️</div>
+    <div class="mp-duel-text">
+      <div class="mp-duel-title">{{ include.title | default: "Hotseat Duel" }}</div>
+      <div class="mp-duel-desc">{{ include.description | default: "Dyst mod en makker i paratviden og reaktionsevne – på samme enhed." }}</div>
+    </div>
+    <button type="button" class="mp-btn-launch-duel" onclick="MPHotseat.openLobby(this)">{{ include.button | default: "Start Duel" }}</button>
+  </div>
+
+  <script type="application/json" class="mp-duel-data">
+    [
+      {% for card in duel_cards %}
+        {% if card.options %}
+        {
+          "q": {{ card.question | default: card.front | strip_html | jsonify }},
+          "opts": {{ card.options | jsonify }}
+        }{% if forloop.last == false %},{% endif %}
+        {% endif %}
+      {% endfor %}
+    ]
+  </script>
+</div>
+
+<style>
+  body.mp-duel-active { overflow: hidden !important; }
+  body.mp-duel-active .masthead,
+  body.mp-duel-active header,
+  body.mp-duel-active nav { display: none !important; }
+
+  .mp-duel-container { margin: 2rem 0; }
+  .mp-duel-launcher {
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: border-color 0.2s;
+  }
+  .mp-duel-launcher:hover { border-color: #3b82f6; }
+  .mp-duel-icon { font-size: 2.2rem; line-height: 1; }
+  .mp-duel-title { font-size: 1.25rem; font-weight: 800; color: #0f172a; margin: 0; }
+  .mp-duel-desc { font-size: 0.9rem; color: #475569; margin: 0; }
+  .mp-btn-launch-duel {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 9px 24px;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(37,99,235,0.2);
+    transition: transform 0.15s, background 0.15s;
+  }
+  .mp-btn-launch-duel:hover { transform: scale(1.04); background: #1d4ed8; }
+
+  #mp-duel-overlay {
+    display: none;
+    position: fixed !important;
+    top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+    width: 100vw !important; height: 100vh !important;
+    background: #0f172a;
+    z-index: 2147483647 !important;
+    font-family: inherit;
+    overflow: hidden;
+    margin: 0 !important; padding: 0 !important;
+  }
+
+  #mp-duel-lobby {
+    position: absolute;
+    inset: 0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+    overflow-y: auto;
+  }
+  .mp-lobby-title { font-size: 1.75rem; font-weight: 900; color: #0f172a; margin-bottom: 0.25rem; }
+  .mp-lobby-sub { color: #64748b; margin-bottom: 1.25rem; max-width: 380px; font-size: 0.88rem; line-height: 1.4; }
+
+  .mp-mode-selector {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 1.25rem;
+  }
+  .mp-mode-card {
+    flex: 1;
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 10px 8px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+  }
+  .mp-mode-card.is-active { border-color: #2563eb; background: #eff6ff; }
+  .mp-mode-card-icon { font-size: 1.6rem; margin-bottom: 4px; }
+  .mp-mode-card-title { font-weight: 800; font-size: 0.88rem; color: #0f172a; }
+  .mp-mode-card-sub { font-size: 0.72rem; color: #64748b; line-height: 1.25; margin-top: 2px; }
+
+  .mp-player-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 1.25rem;
+  }
+  .mp-player-input-group {
+    display: flex;
+    align-items: center;
+    background: #f1f5f9;
+    border-radius: 10px;
+    padding: 8px 12px;
+    border: 2px solid transparent;
+  }
+  .mp-player-input-group:focus-within { border-color: #3b82f6; background: #ffffff; }
+  .mp-player-icon { font-size: 1.2rem; margin-right: 8px; }
+  .mp-player-input-group input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1e293b;
+    width: 100%;
+  }
+
+  .mp-duel-btn {
+    border: none;
+    border-radius: 10px;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .mp-duel-btn:active { transform: translateY(3px); box-shadow: inset 0 0 0 rgba(0,0,0,0.2); }
+  .mp-duel-btn.disabled { opacity: 0.45; pointer-events: none; filter: grayscale(70%); }
+  .mp-duel-btn.correct-reveal {
+    box-shadow: 0 0 12px 4px rgba(34, 197, 94, 0.6) !important;
+    border: 2px solid #fff;
+    z-index: 5;
+  }
+  .btn-color-0 { background: #ef4444; }
+  .btn-color-1 { background: #3b82f6; }
+  .btn-color-2 { background: #eab308; }
+  .btn-color-3 { background: #22c55e; }
+
+  /* Split screen */
+  #mp-duel-game-splitscreen {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .mp-player-zone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0.85rem 1rem;
+    background: #f8fafc;
+    overflow: hidden;
+  }
+  #mp-zone-p2 { transform: rotate(180deg); }
+
+  .mp-duel-center-divider {
+    height: 28px;
+    background: #0f172a;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  .mp-duel-timer-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    background: #22c55e;
+    width: 100%;
+    transition: width 0.1s linear, background-color 0.3s;
+  }
+  .mp-divider-round-indicator {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #94a3b8;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .mp-divider-close-btn {
+    background: rgba(255, 255, 255, 0.12);
+    color: #e2e8f0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.15s ease;
+  }
+  .mp-divider-close-btn:hover { background: #ef4444; border-color: #ef4444; color: #ffffff; }
+
+  .mp-zone-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+  }
+  .mp-zone-name { font-weight: 800; font-size: 0.95rem; color: #475569; }
+  .mp-zone-score { font-weight: 900; font-size: 1.2rem; color: #0f172a; background: #e2e8f0; padding: 2px 10px; border-radius: 8px; }
+  .mp-zone-question {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+    padding: 0 8px;
+    line-height: 1.35;
+  }
+  .mp-zone-answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    height: 48%;
+    min-height: 125px;
+  }
+  .mp-zone-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.95);
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+  .mp-zone-overlay.show { opacity: 1; pointer-events: auto; }
+  .mp-overlay-status { font-size: 2.5rem; margin-bottom: 4px; }
+  .mp-overlay-pts { font-size: 1.25rem; font-weight: 800; color: #0f172a; }
+
+  /* Pass and Play */
+  #mp-duel-game-passplay {
+    position: absolute;
+    inset: 0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  .mp-pass-topbar {
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mp-pass-scoreboard { display: flex; gap: 16px; font-weight: 800; font-size: 0.95rem; }
+  .mp-pass-timer-track { height: 6px; background: #e2e8f0; width: 100%; position: relative; }
+  .mp-pass-timer-fill { height: 100%; background: #22c55e; width: 100%; transition: width 0.1s linear; }
+  .mp-pass-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    max-width: 580px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .mp-pass-turn-badge {
+    align-self: center;
+    font-size: 0.8rem;
+    font-weight: 800;
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  .mp-pass-question-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0f172a;
+    text-align: center;
+    line-height: 1.4;
+    margin: auto 0;
+  }
+  .mp-pass-answers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    min-height: 160px;
+  }
+  .mp-pass-interstitial {
+    position: absolute;
+    inset: 0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    z-index: 30;
+  }
+  .mp-interstitial-icon { font-size: 3.5rem; margin-bottom: 0.75rem; }
+  .mp-interstitial-title { font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-bottom: 0.5rem; }
+  .mp-interstitial-desc { font-size: 0.95rem; color: #64748b; margin-bottom: 1.5rem; max-width: 320px; line-height: 1.4; }
+
+  /* Slutresultat */
+  #mp-duel-results {
+    position: absolute;
+    inset: 0;
+    background: #0f172a;
+    color: #ffffff;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 50;
+    padding: 2rem;
+  }
+  .mp-result-trophy { font-size: 4rem; margin-bottom: 0.5rem; }
+  .mp-result-title { font-size: 2rem; font-weight: 900; margin-bottom: 0.5rem; color: #fbbf24; }
+  .mp-result-scores { margin: 1.5rem 0; width: 100%; max-width: 320px; }
+  .mp-score-row { display: flex; justify-content: space-between; font-size: 1.15rem; font-weight: 700; padding: 8px 0; border-bottom: 1px solid #334155; }
+</style>
+
+<!-- FULLSCREEN MODAL -->
+<div id="mp-duel-overlay">
+  <!-- LOBBY -->
+  <div id="mp-duel-lobby">
+    <div class="mp-duel-icon" style="font-size: 2.6rem; margin-bottom: 0.35rem;">📱</div>
+    <div class="mp-lobby-title">Hotseat Duel</div>
+    <div class="mp-lobby-sub">Vælg hvordan I vil dyste sammen på denne enhed.</div>
+    
+    <div class="mp-mode-selector">
+      <div class="mp-mode-card is-active" id="mode-opt-splitscreen" onclick="MPHotseat.selectMode('splitscreen')">
+        <div class="mp-mode-card-icon">⚡</div>
+        <div class="mp-mode-card-title">På bordet</div>
+        <div class="mp-mode-card-sub">Split-screen live dyst</div>
+      </div>
+      <div class="mp-mode-card" id="mode-opt-passplay" onclick="MPHotseat.selectMode('passplay')">
+        <div class="mp-mode-card-icon">🤝</div>
+        <div class="mp-mode-card-title">Ræk videre</div>
+        <div class="mp-mode-card-sub">Svar efter tur</div>
+      </div>
+    </div>
+
+    <div class="mp-player-inputs">
+      <div class="mp-player-input-group">
+        <span class="mp-player-icon" id="mp-icon-p2">🙃</span>
+        <input type="text" id="mp-duel-p2-name" placeholder="Spiller 2" value="Spiller 2">
+      </div>
+      <div class="mp-player-input-group">
+        <span class="mp-player-icon">🙂</span>
+        <input type="text" id="mp-duel-p1-name" placeholder="Spiller 1" value="Spiller 1">
+      </div>
+    </div>
+    
+    <button type="button" class="mp-btn-launch-duel" onclick="MPHotseat.startGame()" style="width: 100%; max-width: 320px; padding: 12px;">Start Duellen!</button>
+    <button type="button" onclick="MPHotseat.closeDuel()" style="margin-top: 0.85rem; background:none; border:none; color:#64748b; font-weight:600; cursor:pointer;">Annuller</button>
+  </div>
+
+  <!-- SPLIT SCREEN -->
+  <div id="mp-duel-game-splitscreen" style="display: none;">
+    <div id="mp-zone-p2" class="mp-player-zone">
+      <div class="mp-zone-header">
+        <div class="mp-zone-name" id="p2-name-display">Spiller 2</div>
+        <div class="mp-zone-score" id="p2-score-display">0</div>
+      </div>
+      <div class="mp-zone-question" id="p2-question">Gør klar...</div>
+      <div class="mp-zone-answers" id="p2-answers"></div>
+      <div id="p2-overlay" class="mp-zone-overlay">
+        <div class="mp-overlay-status" id="p2-overlay-icon">⏳</div>
+        <div class="mp-overlay-pts" id="p2-overlay-pts">Venter...</div>
+      </div>
+    </div>
+
+    <div class="mp-duel-center-divider">
+      <div class="mp-divider-round-indicator" id="mp-split-round-indicator">Kort 1 / 1</div>
+      <button type="button" class="mp-divider-close-btn" onclick="MPHotseat.closeDuel()">✕ Afslut</button>
+      <div class="mp-duel-timer-bar" id="mp-split-timer"></div>
+    </div>
+
+    <div id="mp-zone-p1" class="mp-player-zone">
+      <div class="mp-zone-header">
+        <div class="mp-zone-name" id="p1-name-display">Spiller 1</div>
+        <div class="mp-zone-score" id="p1-score-display">0</div>
+      </div>
+      <div class="mp-zone-question" id="p1-question">Gør klar...</div>
+      <div class="mp-zone-answers" id="p1-answers"></div>
+      <div id="p1-overlay" class="mp-zone-overlay">
+        <div class="mp-overlay-status" id="p1-overlay-icon">⏳</div>
+        <div class="mp-overlay-pts" id="p1-overlay-pts">Venter...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PASS AND PLAY -->
+  <div id="mp-duel-game-passplay" style="display: none;">
+    <div class="mp-pass-topbar">
+      <div class="mp-pass-scoreboard">
+        <span style="color:#2563eb;" id="pass-p1-badge">P1: 0</span>
+        <span style="color:#d97706;" id="pass-p2-badge">P2: 0</span>
+      </div>
+      <button type="button" class="mp-divider-close-btn" style="background:#f1f5f9; color:#475569; border:1px solid #cbd5e1;" onclick="MPHotseat.closeDuel()">✕ Afslut</button>
+    </div>
+    
+    <div class="mp-pass-timer-track">
+      <div class="mp-pass-timer-fill" id="mp-pass-timer"></div>
+    </div>
+
+    <div class="mp-pass-body">
+      <div class="mp-pass-turn-badge" id="pass-active-player-name">Spiller 1's tur</div>
+      <div class="mp-pass-question-text" id="pass-question">Henter spørgsmål...</div>
+      <div class="mp-pass-answers-grid" id="pass-answers"></div>
+    </div>
+
+    <div id="mp-pass-screen-interstitial" class="mp-pass-interstitial" style="display: none;">
+      <div class="mp-interstitial-icon" id="pass-inter-icon">🤝</div>
+      <div class="mp-interstitial-title" id="pass-inter-title">Giv enheden videre</div>
+      <div class="mp-interstitial-desc" id="pass-inter-desc">Ræk enheden til Spiller 2 uden at afsløre dit svar!</div>
+      <button type="button" class="mp-btn-launch-duel" id="pass-inter-btn" onclick="MPHotseat.passPlayNextStep()">Jeg er klar!</button>
+    </div>
+  </div>
+
+  <!-- RESULTAT -->
+  <div id="mp-duel-results">
+    <div class="mp-result-trophy">🏆</div>
+    <div class="mp-result-title" id="mp-duel-winner-text">Vinderen er kåret!</div>
+    
+    <div class="mp-result-scores">
+      <div class="mp-score-row">
+        <span id="res-p2-name">Spiller 2</span>
+        <span id="res-p2-score">0 pts</span>
+      </div>
+      <div class="mp-score-row">
+        <span id="res-p1-name">Spiller 1</span>
+        <span id="res-p1-score">0 pts</span>
+      </div>
+    </div>
+    
+    <button type="button" class="mp-btn-launch-duel" onclick="MPHotseat.closeDuel()">Afslut & Luk</button>
+  </div>
+</div>
+
+<script>
+window.MPHotseat = window.MPHotseat || (function() {
+  let selectedMode = 'splitscreen';
+  let questions = [];
+  let currentQIndex = 0;
+  let score = { p1: 0, p2: 0 };
+  let names = { p1: 'Spiller 1', p2: 'Spiller 2' };
+
+  let timerInterval;
+  let timeLeft = 0;
+  const MAX_TIME = 15000;
+
+  let splitRoundData = {
+    p1: { answered: false, correct: false, pts: 0, timeout: false },
+    p2: { answered: false, correct: false, pts: 0, timeout: false }
+  };
+
+  let passPlayRoundData = { p1: { time: 0, correct: false }, p2: { time: 0, correct: false } };
+  let passPlaySubState = 'p1';
+
+  function ensureMountedToBody() {
+    const overlay = document.getElementById('mp-duel-overlay');
+    if (overlay && overlay.parentElement !== document.body) {
+      document.body.appendChild(overlay);
+    }
+  }
+
+  function selectMode(mode) {
+    selectedMode = mode;
+    document.getElementById('mode-opt-splitscreen').classList.toggle('is-active', mode === 'splitscreen');
+    document.getElementById('mode-opt-passplay').classList.toggle('is-active', mode === 'passplay');
+    document.getElementById('mp-icon-p2').style.transform = mode === 'splitscreen' ? 'rotate(180deg)' : 'none';
+  }
+
+  function openLobbyWithQuestions(qArray) {
+    questions = qArray.filter(i => i.q && i.opts && i.opts.length > 1);
+    if (questions.length === 0) {
+      alert("Der er ingen multiple-choice spørgsmål at dyste om i dette modul.");
+      return;
+    }
+
+    ensureMountedToBody();
+    document.body.classList.add('mp-duel-active');
+
+    const overlay = document.getElementById('mp-duel-overlay');
+    if (overlay.requestFullscreen) {
+      overlay.requestFullscreen().catch(()=>{});
+    }
+
+    document.getElementById('mp-duel-lobby').style.display = 'flex';
+    document.getElementById('mp-duel-game-splitscreen').style.display = 'none';
+    document.getElementById('mp-duel-game-passplay').style.display = 'none';
+    document.getElementById('mp-duel-results').style.display = 'none';
+    overlay.style.display = 'block';
+  }
+
+  function openLobby(btnEl) {
+    const parentContainer = btnEl ? btnEl.closest('.mp-duel-container') : document.querySelector('.mp-duel-container');
+    const dataEl = parentContainer ? parentContainer.querySelector('.mp-duel-data') : null;
+
+    if (!dataEl) {
+      alert("Kunne ikke hente spørgsmål til modulet.");
+      return;
+    }
+
+    try {
+      const raw = JSON.parse(dataEl.textContent);
+      openLobbyWithQuestions(raw);
+    } catch(e) {
+      alert("Kunne ikke indlæse moduldata.");
+    }
+  }
+
+  function closeDuel() {
+    clearInterval(timerInterval);
+    document.body.classList.remove('mp-duel-active');
+    const overlay = document.getElementById('mp-duel-overlay');
+    if (overlay) overlay.style.display = 'none';
+    if (document.exitFullscreen && document.fullscreenElement) {
+      document.exitFullscreen().catch(()=>{});
+    }
+  }
+
+  function startGame() {
+    names.p1 = document.getElementById('mp-duel-p1-name').value || 'Spiller 1';
+    names.p2 = document.getElementById('mp-duel-p2-name').value || 'Spiller 2';
+
+    score = { p1: 0, p2: 0 };
+    currentQIndex = 0;
+    questions.sort(() => Math.random() - 0.5);
+
+    document.getElementById('mp-duel-lobby').style.display = 'none';
+
+    if (selectedMode === 'splitscreen') {
+      document.getElementById('p1-name-display').textContent = names.p1;
+      document.getElementById('p2-name-display').textContent = names.p2;
+      document.getElementById('mp-duel-game-splitscreen').style.display = 'flex';
+      nextSplitRound();
+    } else {
+      document.getElementById('mp-duel-game-passplay').style.display = 'flex';
+      nextPassPlayRound();
+    }
+  }
+
+  function nextSplitRound() {
+    if (currentQIndex >= questions.length) {
+      endGame();
+      return;
+    }
+
+    splitRoundData = {
+      p1: { answered: false, correct: false, pts: 0, timeout: false },
+      p2: { answered: false, correct: false, pts: 0, timeout: false }
+    };
+
+    document.getElementById('p1-overlay').className = 'mp-zone-overlay';
+    document.getElementById('p2-overlay').className = 'mp-zone-overlay';
+    document.getElementById('mp-split-round-indicator').textContent = `Kort ${currentQIndex + 1} af ${questions.length}`;
+
+    const qData = questions[currentQIndex];
+    document.getElementById('p1-question').innerHTML = qData.q;
+    document.getElementById('p2-question').innerHTML = qData.q;
+
+    let opts = qData.opts.map((text, idx) => ({ text, isCorrect: idx === 0 }));
+    opts.sort(() => Math.random() - 0.5);
+
+    renderSplitButtons('p1', opts);
+    renderSplitButtons('p2', opts);
+
+    startSplitTimer();
+  }
+
+  function renderSplitButtons(player, opts) {
+    const container = document.getElementById(`${player}-answers`);
+    container.innerHTML = '';
+    opts.forEach((opt, idx) => {
+      const btn = document.createElement('button');
+      btn.className = `mp-duel-btn btn-color-${idx % 4}`;
+      btn.textContent = opt.text;
+      btn.dataset.correct = opt.isCorrect;
+      btn.onclick = () => handleSplitAnswer(player, opt.isCorrect, btn);
+      container.appendChild(btn);
+    });
+  }
+
+  function startSplitTimer() {
+    clearInterval(timerInterval);
+    timeLeft = MAX_TIME;
+    const timerBar = document.getElementById('mp-split-timer');
+    timerBar.style.width = '100%';
+    timerBar.style.backgroundColor = '#22c55e';
+
+    const startTime = Date.now();
+    timerInterval = setInterval(() => {
+      const elapsed = Date.now() - startTime;
+      timeLeft = Math.max(0, MAX_TIME - elapsed);
+      const pct = (timeLeft / MAX_TIME) * 100;
+      timerBar.style.width = `${pct}%`;
+
+      if (pct < 30) timerBar.style.backgroundColor = '#ef4444';
+      else if (pct < 60) timerBar.style.backgroundColor = '#f59e0b';
+
+      if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        handleSplitTimeout();
+      }
+    }, 50);
+  }
+
+  function handleSplitAnswer(player, isCorrect, btnEl) {
+    if (splitRoundData[player].answered) return;
+
+    const container = document.getElementById(`${player}-answers`);
+    Array.from(container.children).forEach(b => { if (b !== btnEl) b.classList.add('disabled'); });
+
+    let pts = 0;
+    if (isCorrect) {
+      pts = Math.round(500 + (500 * (timeLeft / MAX_TIME)));
+      score[player] += pts;
+    }
+
+    splitRoundData[player] = { answered: true, correct: isCorrect, pts: pts, timeout: false };
+
+    const otherPlayer = player === 'p1' ? 'p2' : 'p1';
+    if (!splitRoundData[otherPlayer].answered) {
+      const overlay = document.getElementById(`${player}-overlay`);
+      document.getElementById(`${player}-overlay-icon`).textContent = '⏳';
+      document.getElementById(`${player}-overlay-pts`).textContent = 'Venter...';
+      overlay.style.backgroundColor = 'rgba(255,255,255,0.95)';
+      overlay.className = 'mp-zone-overlay show';
+    } else {
+      clearInterval(timerInterval);
+      resolveSplitRound();
+    }
+  }
+
+  function handleSplitTimeout() {
+    ['p1', 'p2'].forEach(p => {
+      if (!splitRoundData[p].answered) {
+        splitRoundData[p] = { answered: true, correct: false, pts: 0, timeout: true };
+      }
+    });
+    resolveSplitRound();
+  }
+
+  function resolveSplitRound() {
+    document.getElementById('p1-score-display').textContent = score.p1;
+    document.getElementById('p2-score-display').textContent = score.p2;
+
+    ['p1', 'p2'].forEach(p => {
+      const container = document.getElementById(`${p}-answers`);
+      Array.from(container.children).forEach(b => {
+        if (b.dataset.correct === 'true') b.classList.add('correct-reveal');
+      });
+
+      const data = splitRoundData[p];
+      const overlay = document.getElementById(`${p}-overlay`);
+      const icon = document.getElementById(`${p}-overlay-icon`);
+      const text = document.getElementById(`${p}-overlay-pts`);
+
+      overlay.className = 'mp-zone-overlay show';
+
+      if (data.timeout) {
+        icon.textContent = '⏰';
+        text.textContent = 'Tiden løb ud!';
+        overlay.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+      } else if (data.correct) {
+        icon.textContent = '✅';
+        text.textContent = `+${data.pts} pts`;
+        overlay.style.backgroundColor = 'rgba(220, 252, 231, 0.95)';
+      } else {
+        icon.textContent = '❌';
+        text.textContent = 'Forkert!';
+        overlay.style.backgroundColor = 'rgba(254, 226, 226, 0.95)';
+      }
+    });
+
+    setTimeout(() => {
+      currentQIndex++;
+      nextSplitRound();
+    }, 3000);
+  }
+
+  function nextPassPlayRound() {
+    if (currentQIndex >= questions.length) {
+      endGame();
+      return;
+    }
+
+    passPlayRoundData = { p1: { time: 0, correct: false }, p2: { time: 0, correct: false } };
+    updatePassScoreUI();
+    startPassTurn('p1');
+  }
+
+  function updatePassScoreUI() {
+    document.getElementById('pass-p1-badge').textContent = `${names.p1}: ${score.p1}`;
+    document.getElementById('pass-p2-badge').textContent = `${names.p2}: ${score.p2}`;
+  }
+
+  function startPassTurn(player) {
+    passPlaySubState = player;
+    document.getElementById('mp-pass-screen-interstitial').style.display = 'none';
+    document.getElementById('pass-active-player-name').textContent = `${player === 'p1' ? names.p1 : names.p2}'s tur (Kort ${currentQIndex + 1} af ${questions.length})`;
+
+    const qData = questions[currentQIndex];
+    document.getElementById('pass-question').innerHTML = qData.q;
+
+    let opts = qData.opts.map((text, idx) => ({ text, isCorrect: idx === 0 }));
+    opts.sort(() => Math.random() - 0.5);
+
+    const answersGrid = document.getElementById('pass-answers');
+    answersGrid.innerHTML = '';
+    opts.forEach((opt, idx) => {
+      const btn = document.createElement('button');
+      btn.className = `mp-duel-btn btn-color-${idx % 4}`;
+      btn.textContent = opt.text;
+      btn.dataset.correct = opt.isCorrect;
+      btn.onclick = () => handlePassAnswer(player, opt.isCorrect);
+      answersGrid.appendChild(btn);
+    });
+
+    startPassTimer(player);
+  }
+
+  function startPassTimer(player) {
+    clearInterval(timerInterval);
+    timeLeft = MAX_TIME;
+    const timerFill = document.getElementById('mp-pass-timer');
+    timerFill.style.width = '100%';
+    timerFill.style.backgroundColor = '#22c55e';
+
+    const startTime = Date.now();
+    timerInterval = setInterval(() => {
+      const elapsed = Date.now() - startTime;
+      timeLeft = Math.max(0, MAX_TIME - elapsed);
+      const pct = (timeLeft / MAX_TIME) * 100;
+      timerFill.style.width = `${pct}%`;
+
+      if (pct < 30) timerFill.style.backgroundColor = '#ef4444';
+      else if (pct < 60) timerFill.style.backgroundColor = '#f59e0b';
+
+      if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        handlePassAnswer(player, false);
+      }
+    }, 50);
+  }
+
+  function handlePassAnswer(player, isCorrect) {
+    clearInterval(timerInterval);
+    passPlayRoundData[player] = { correct: isCorrect, timeRemaining: timeLeft };
+
+    if (player === 'p1') {
+      passPlaySubState = 'inter_p2';
+      const screen = document.getElementById('mp-pass-screen-interstitial');
+      document.getElementById('pass-inter-icon').textContent = '🔒';
+      document.getElementById('pass-inter-title').textContent = 'Svar gemt!';
+      document.getElementById('pass-inter-desc').textContent = `Ræk nu enheden til ${names.p2} uden at afsløre svaret.`;
+      document.getElementById('pass-inter-btn').textContent = `Jeg er ${names.p2} – start!`;
+      screen.style.display = 'flex';
+    } else {
+      passPlaySubState = 'round_result';
+      resolvePassRound();
+    }
+  }
+
+  function passPlayNextStep() {
+    if (passPlaySubState === 'inter_p2') {
+      startPassTurn('p2');
+    } else if (passPlaySubState === 'round_result') {
+      currentQIndex++;
+      nextPassPlayRound();
+    }
+  }
+
+  function resolvePassRound() {
+    let p1Pts = 0;
+    let p2Pts = 0;
+
+    if (passPlayRoundData.p1.correct) {
+      p1Pts = Math.round(500 + (500 * (passPlayRoundData.p1.timeRemaining / MAX_TIME)));
+      score.p1 += p1Pts;
+    }
+    if (passPlayRoundData.p2.correct) {
+      p2Pts = Math.round(500 + (500 * (passPlayRoundData.p2.timeRemaining / MAX_TIME)));
+      score.p2 += p2Pts;
+    }
+
+    updatePassScoreUI();
+
+    const screen = document.getElementById('mp-pass-screen-interstitial');
+    document.getElementById('pass-inter-icon').textContent = '📊';
+    document.getElementById('pass-inter-title').textContent = 'Rundens resultat';
+    
+    let summaryHtml = `
+      <div style="font-size:0.95rem; text-align:left; background:#f8fafc; border-radius:10px; padding:12px; margin-bottom:1rem; border:1px solid #e2e8f0;">
+        <div><strong>${names.p1}:</strong> ${passPlayRoundData.p1.correct ? `✅ Rigtigt (+${p1Pts} pts)` : '❌ Forkert'}</div>
+        <div style="margin-top:6px;"><strong>${names.p2}:</strong> ${passPlayRoundData.p2.correct ? `✅ Rigtigt (+${p2Pts} pts)` : '❌ Forkert'}</div>
+      </div>
+    `;
+
+    document.getElementById('pass-inter-desc').innerHTML = summaryHtml;
+    document.getElementById('pass-inter-btn').textContent = currentQIndex + 1 >= questions.length ? 'Se slutresultat ➔' : 'Næste spørgsmål ➔';
+    screen.style.display = 'flex';
+  }
+
+  function endGame() {
+    document.getElementById('mp-duel-game-splitscreen').style.display = 'none';
+    document.getElementById('mp-duel-game-passplay').style.display = 'none';
+    const results = document.getElementById('mp-duel-results');
+    results.style.display = 'flex';
+
+    document.getElementById('res-p1-name').textContent = names.p1;
+    document.getElementById('res-p2-name').textContent = names.p2;
+    document.getElementById('res-p1-score').textContent = `${score.p1} pts`;
+    document.getElementById('res-p2-score').textContent = `${score.p2} pts`;
+
+    const title = document.getElementById('mp-duel-winner-text');
+    if (score.p1 > score.p2) {
+      title.textContent = `🎉 ${names.p1} Vinder!`;
+    } else if (score.p2 > score.p1) {
+      title.textContent = `🎉 ${names.p2} Vinder!`;
+    } else {
+      title.textContent = "🤝 Uafgjort kamp!";
+    }
+  }
+
+  return { openLobby, openLobbyWithQuestions, closeDuel, selectMode, startGame, passPlayNextStep };
+})();
+</script>
+{% endif %}

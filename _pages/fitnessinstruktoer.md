@@ -332,6 +332,14 @@ De forskellige quiz om fitness er lavet på Quizizz.
 
 </details>
 
+## Quiz parvis mod hinanden
+
+{% include components/hotseat-decks.html decks=page.quiz_modules %}
+
+## Quiz i hold på projektor
+
+{% include components/pubquiz.html decks=page.quiz_modules %}
+
 ## Anbefalelsesværdige bøger som fitnessinstruktør
 
 {% include feature_row type="left" %}

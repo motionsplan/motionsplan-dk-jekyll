@@ -1,0 +1,976 @@
+{% comment %}
+-----------------------------------------------------------------------------
+MOTIONSPLAN.DK - PUB QUIZ / UNDERVISER-MODE (STORSKÆRM)
+Sti: _includes/components/pubquiz.html
+Brug: 
+  Moduler:      {% include components/pubquiz.html decks=page.quiz_modules %}
+  Enkelt deck:  {% include components/pubquiz.html cards=page.quiz %}
+-----------------------------------------------------------------------------
+{% endcomment %}
+
+{% assign duel_decks = include.decks | default: page.quiz_modules | default: page.decks %}
+{% assign single_cards = include.cards | default: include.quiz | default: page.quiz | default: page.flashcards %}
+
+{% if duel_decks or single_cards %}
+<div class="mp-pubquiz-launcher-box">
+  <div class="mp-pubquiz-launcher">
+    <div class="mp-pubquiz-icon">🍻</div>
+    <div class="mp-pubquiz-text">
+      <div class="mp-pubquiz-title">{{ include.title | default: "Pub Quiz & Storskærm" }}</div>
+      <div class="mp-pubquiz-desc">{{ include.description | default: "Kør en quiz på storskærm for op til 4 hold. Deltagerne svarer ved bordene med A-D svarkort." }}</div>
+    </div>
+    <button type="button" class="mp-btn-launch-pubquiz" onclick="MPPubQuiz.openLobby(this)">Opsæt Pub Quiz</button>
+  </div>
+
+  <!-- Skudsikker JSON-datagenerering uden kommafejl -->
+  <script type="application/json" class="mp-pubquiz-decks-data">
+    {% if duel_decks %}
+      [
+        {% assign first_deck = true %}
+        {% for deck in duel_decks %}
+          {% assign k_key = deck.key %}
+          {% assign k_id = deck.id %}
+          {% assign k_slug = deck.title | default: deck.name | slugify %}
+
+          {% assign raw_source = deck.cards 
+            | default: deck.quiz 
+            | default: deck.questions 
+            | default: deck.flashcards 
+            | default: page[k_key] 
+            | default: page[k_id] 
+            | default: page[k_slug] 
+            | default: site.data[k_key] 
+            | default: site.data[k_id] 
+            | default: site.data[k_slug] 
+          %}
+
+          {% assign deck_cards = raw_source.cards 
+            | default: raw_source.quiz 
+            | default: raw_source.questions 
+            | default: raw_source.flashcards 
+            | default: raw_source 
+          %}
+
+          {% if first_deck %}{% assign first_deck = false %}{% else %},{% endif %}
+          {
+            "name": {{ deck.title | default: deck.name | default: deck.id | jsonify }},
+            "icon": {{ deck.icon | default: "📚" | jsonify }},
+            "cards": [
+              {% assign first_card = true %}
+              {% if deck_cards %}
+                {% for card in deck_cards %}
+                  {% assign card_opts = card.options | default: card.choices | default: card.answers %}
+                  {% if card_opts and card_opts.size > 1 %}
+                    {% if first_card %}{% assign first_card = false %}{% else %},{% endif %}
+                    {
+                      "q": {{ card.question | default: card.front | default: card.title | strip_html | jsonify }},
+                      "opts": {{ card_opts | jsonify }}
+                    }
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            ]
+          }
+        {% endfor %}
+      ]
+    {% elsif single_cards %}
+      [
+        {
+          "name": "Standard",
+          "icon": "📝",
+          "cards": [
+            {% assign first_card = true %}
+            {% for card in single_cards %}
+              {% assign card_opts = card.options | default: card.choices | default: card.answers %}
+              {% if card_opts and card_opts.size > 1 %}
+                {% if first_card %}{% assign first_card = false %}{% else %},{% endif %}
+                {
+                  "q": {{ card.question | default: card.front | default: card.title | strip_html | jsonify }},
+                  "opts": {{ card_opts | jsonify }}
+                }
+              {% endif %}
+            {% endfor %}
+          ]
+        }
+      ]
+    {% endif %}
+  </script>
+</div>
+
+<style>
+  body.mp-pubquiz-active {
+    overflow: hidden !important;
+  }
+  body.mp-pubquiz-active .masthead,
+  body.mp-pubquiz-active header,
+  body.mp-pubquiz-active nav {
+    display: none !important;
+  }
+
+  .mp-pubquiz-launcher-box {
+    margin: 2rem 0;
+  }
+  .mp-pubquiz-launcher {
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: border-color 0.2s;
+  }
+  .mp-pubquiz-launcher:hover { border-color: #f59e0b; }
+  .mp-pubquiz-icon { font-size: 2.2rem; line-height: 1; }
+  .mp-pubquiz-title { font-size: 1.25rem; font-weight: 800; color: #0f172a; margin: 0; }
+  .mp-pubquiz-desc { font-size: 0.9rem; color: #475569; margin: 0; max-width: 500px; }
+  .mp-btn-launch-pubquiz {
+    background: #d97706;
+    color: #fff;
+    border: none;
+    padding: 9px 24px;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(217,119,6,0.25);
+    transition: transform 0.15s, background 0.15s;
+  }
+  .mp-btn-launch-pubquiz:hover { transform: scale(1.04); background: #b45309; }
+
+  #mp-pubquiz-overlay {
+    display: none;
+    position: fixed !important;
+    top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+    width: 100vw !important; height: 100vh !important;
+    background: #0f172a;
+    z-index: 2147483647 !important;
+    font-family: inherit;
+    overflow: hidden;
+    margin: 0 !important; padding: 0 !important;
+    box-sizing: border-box;
+  }
+
+  #mp-pubquiz-lobby {
+    position: absolute;
+    inset: 0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    overflow-y: auto;
+  }
+  .mp-pubquiz-lobby-inner {
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
+  }
+  .mp-pq-title-main { font-size: 1.85rem; font-weight: 900; color: #0f172a; margin-bottom: 0.35rem; }
+  .mp-pq-sub-main { color: #64748b; font-size: 0.92rem; margin-bottom: 1.5rem; line-height: 1.4; }
+
+  .mp-pq-section {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1.25rem;
+  }
+  .mp-pq-label {
+    font-size: 0.78rem;
+    font-weight: 800;
+    color: #475569;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mp-pq-link-subtle {
+    font-size: 0.75rem;
+    color: #2563eb;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .mp-pq-deck-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 140px;
+    overflow-y: auto;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 8px;
+    background: #f8fafc;
+  }
+  .mp-pq-deck-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.12s;
+  }
+  .mp-pq-deck-item:hover { border-color: #cbd5e1; }
+  .mp-pq-deck-item.is-checked { border-color: #d97706; background: #fffbeb; }
+  .mp-pq-deck-left { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 0.9rem; color: #1e293b; }
+  .mp-pq-deck-badge { font-size: 0.75rem; font-weight: 700; background: #f1f5f9; color: #64748b; padding: 2px 8px; border-radius: 999px; }
+
+  .mp-pq-pill-selector { display: flex; gap: 8px; }
+  .mp-pq-pill {
+    flex: 1;
+    background: #f8fafc;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #334155;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.15s;
+  }
+  .mp-pq-pill.is-active {
+    background: #eff6ff;
+    border-color: #2563eb;
+    color: #1e40af;
+  }
+
+  .mp-pq-teams-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .mp-pq-team-input-box {
+    display: flex;
+    align-items: center;
+    background: #f1f5f9;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 6px 10px;
+  }
+  .mp-team-color-indicator {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 8px;
+    flex-shrink: 0;
+  }
+  .team-c-0 { background: #ef4444; }
+  .team-c-1 { background: #3b82f6; }
+  .team-c-2 { background: #10b981; }
+  .team-c-3 { background: #f59e0b; }
+
+  .mp-pq-team-input-box input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #1e293b;
+  }
+
+  /* SPILSKÆRM */
+  #mp-pubquiz-game {
+    position: absolute;
+    inset: 0;
+    background: #0f172a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .mp-pq-topbar {
+    background: #1e293b;
+    border-bottom: 1px solid #334155;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mp-pq-meta-left { display: flex; align-items: center; gap: 12px; }
+  .mp-pq-round-tag { font-size: 0.85rem; font-weight: 800; background: #334155; color: #94a3b8; padding: 4px 10px; border-radius: 6px; letter-spacing: 0.04em; text-transform: uppercase; }
+  .mp-pq-theme-title { font-size: 1rem; font-weight: 700; color: #f8fafc; }
+
+  .mp-pq-topbar-actions { display: flex; align-items: center; gap: 10px; }
+  .mp-btn-pq-nav {
+    background: #334155;
+    color: #e2e8f0;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .mp-btn-pq-nav:hover { background: #475569; }
+  .mp-btn-pq-close { background: rgba(239,68,68,0.2); color: #f87171; border: 1px solid rgba(239,68,68,0.3); }
+  .mp-btn-pq-close:hover { background: #ef4444; color: #ffffff; }
+
+  .mp-pq-timer-wrapper {
+    height: 8px;
+    background: #334155;
+    width: 100%;
+    position: relative;
+  }
+  .mp-pq-timer-bar {
+    height: 100%;
+    background: #22c55e;
+    width: 100%;
+    transition: width 0.1s linear, background-color 0.3s;
+  }
+
+  .mp-pq-arena {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
+  }
+  .mp-pq-question-card {
+    background: #1e293b;
+    border: 2px solid #334155;
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 800;
+    line-height: 1.35;
+    color: #f8fafc;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+
+  .mp-pq-options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .mp-pq-option {
+    background: #1e293b;
+    border: 2px solid #334155;
+    border-radius: 14px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #e2e8f0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+  }
+  .mp-pq-letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    font-weight: 900;
+    margin-right: 16px;
+    flex-shrink: 0;
+  }
+  .opt-letter-0 { background: #ef4444; color: #fff; }
+  .opt-letter-1 { background: #3b82f6; color: #fff; }
+  .opt-letter-2 { background: #f59e0b; color: #fff; }
+  .opt-letter-3 { background: #10b981; color: #fff; }
+
+  .mp-pq-option.is-revealed-correct {
+    background: #064e3b !important;
+    border-color: #22c55e !important;
+    color: #ffffff !important;
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.4);
+  }
+  .mp-pq-option.is-revealed-wrong {
+    opacity: 0.35;
+    filter: grayscale(80%);
+  }
+
+  .mp-pq-control-panel {
+    background: #1e293b;
+    border-top: 1px solid #334155;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .mp-pq-teams-score-strip {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .mp-pq-team-chip {
+    background: #0f172a;
+    border: 1.5px solid #334155;
+    border-radius: 10px;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    user-select: none;
+  }
+  .mp-pq-chip-name { font-weight: 800; font-size: 0.95rem; }
+  .mp-pq-chip-score {
+    font-weight: 900;
+    font-size: 1.15rem;
+    color: #fbbf24;
+    background: #1e293b;
+    padding: 2px 8px;
+    border-radius: 6px;
+  }
+  .mp-btn-award-pt {
+    background: #334155;
+    color: #e2e8f0;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.82rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+  }
+  .mp-btn-award-pt:hover { background: #10b981; color: #ffffff; }
+  .mp-btn-award-pt.has-point { background: #10b981; color: #ffffff; }
+
+  .mp-pq-master-action {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .mp-btn-reveal-action {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 22px;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background 0.15s;
+    white-space: nowrap;
+  }
+  .mp-btn-reveal-action:hover { background: #1d4ed8; }
+  .mp-btn-reveal-action.next-step { background: #10b981; }
+  .mp-btn-reveal-action.next-step:hover { background: #059669; }
+
+  #mp-pubquiz-results {
+    position: absolute;
+    inset: 0;
+    background: #0f172a;
+    color: #ffffff;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  .mp-pq-trophy { font-size: 5rem; line-height: 1; margin-bottom: 0.5rem; }
+  .mp-pq-results-title { font-size: 2.4rem; font-weight: 900; color: #fbbf24; margin-bottom: 0.5rem; }
+  .mp-pq-results-desc { color: #94a3b8; font-size: 1.1rem; margin-bottom: 2rem; }
+
+  .mp-pq-podium {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 440px;
+    margin-bottom: 2rem;
+  }
+  .mp-pq-podium-row {
+    background: #1e293b;
+    border: 1.5px solid #334155;
+    border-radius: 12px;
+    padding: 12px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.15rem;
+  }
+  .mp-pq-podium-row.is-winner {
+    background: #2e2612;
+    border-color: #f59e0b;
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.2);
+  }
+</style>
+
+<!-- MODAL MARKUP -->
+<div id="mp-pubquiz-overlay">
+
+  <!-- LOBBY -->
+  <div id="mp-pubquiz-lobby">
+    <div class="mp-pubquiz-lobby-inner">
+      <div class="mp-pubquiz-icon" style="font-size: 3rem; margin-bottom: 0.5rem;">🍻</div>
+      <div class="mp-pq-title-main">Pub Quiz Storskærm</div>
+      <div class="mp-pq-sub-main">Klargør dyst for klassen, holdet eller pubben.</div>
+
+      <div class="mp-pq-section">
+        <div class="mp-pq-label">
+          <span>1. Vælg emner</span>
+          <button type="button" class="mp-pq-link-subtle" onclick="MPPubQuiz.toggleAllDecks()">Vælg alle / fravælg</button>
+        </div>
+        <div class="mp-pq-deck-list" id="mp-pq-decks-checkboxes"></div>
+      </div>
+
+      <div class="mp-pq-section">
+        <div class="mp-pq-label">2. Antal hold</div>
+        <div class="mp-pq-pill-selector">
+          <div class="mp-pq-pill" data-teams="2" onclick="MPPubQuiz.setTeamCount(2)">2 Hold</div>
+          <div class="mp-pq-pill is-active" data-teams="3" onclick="MPPubQuiz.setTeamCount(3)">3 Hold</div>
+          <div class="mp-pq-pill" data-teams="4" onclick="MPPubQuiz.setTeamCount(4)">4 Hold</div>
+        </div>
+      </div>
+
+      <div class="mp-pq-section">
+        <div class="mp-pq-label">3. Holdnavne</div>
+        <div class="mp-pq-teams-grid" id="mp-pq-teams-inputs"></div>
+      </div>
+
+      <div class="mp-pq-section">
+        <div class="mp-pq-label">4. Tænketid pr. spørgsmål</div>
+        <div class="mp-pq-pill-selector">
+          <div class="mp-pq-pill" data-time="15" onclick="MPPubQuiz.setTimeLimit(15)">15s</div>
+          <div class="mp-pq-pill is-active" data-time="25" onclick="MPPubQuiz.setTimeLimit(25)">25s</div>
+          <div class="mp-pq-pill" data-time="40" onclick="MPPubQuiz.setTimeLimit(40)">40s</div>
+          <div class="mp-pq-pill" data-time="0" onclick="MPPubQuiz.setTimeLimit(0)">Fri tid</div>
+        </div>
+      </div>
+
+      <button type="button" class="mp-btn-launch-pubquiz" onclick="MPPubQuiz.startGame()" style="width: 100%; padding: 14px; font-size: 1.05rem; margin-top: 0.5rem;">Start Quizzen på Storskærm!</button>
+      <button type="button" onclick="MPPubQuiz.closeQuiz()" style="margin-top: 1rem; background:none; border:none; color:#64748b; font-weight:700; cursor:pointer;">Annuller</button>
+    </div>
+  </div>
+
+  <!-- SPIL -->
+  <div id="mp-pubquiz-game" style="display: none;">
+    <div>
+      <div class="mp-pq-topbar">
+        <div class="mp-pq-meta-left">
+          <span class="mp-pq-round-tag" id="mp-pq-progress-tag">Kort 1 / 1</span>
+          <span class="mp-pq-theme-title" id="mp-pq-theme-display">Emne</span>
+        </div>
+        <div class="mp-pq-topbar-actions">
+          <button type="button" class="mp-btn-pq-nav" onclick="MPPubQuiz.toggleTimerPause()" id="mp-btn-pause-timer">Pause tid ⏸️</button>
+          <button type="button" class="mp-btn-pq-nav mp-btn-pq-close" onclick="MPPubQuiz.closeQuiz()">✕ Afslut</button>
+        </div>
+      </div>
+      <div class="mp-pq-timer-wrapper">
+        <div class="mp-pq-timer-bar" id="mp-pq-timer"></div>
+      </div>
+    </div>
+
+    <div class="mp-pq-arena">
+      <div class="mp-pq-question-card" id="mp-pq-question-text">Spørgsmål indlæses...</div>
+      <div class="mp-pq-options-grid" id="mp-pq-options-container"></div>
+    </div>
+
+    <div class="mp-pq-control-panel">
+      <div class="mp-pq-teams-score-strip" id="mp-pq-score-strip"></div>
+      <div class="mp-pq-master-action">
+        <button type="button" class="mp-btn-reveal-action" id="mp-pq-main-action-btn" onclick="MPPubQuiz.handleMainAction()">Stop tid & vis svar ➔</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PODIUM -->
+  <div id="mp-pubquiz-results">
+    <div class="mp-pq-trophy">🏆</div>
+    <div class="mp-pq-results-title">Pub Quizzen er Afsluttet!</div>
+    <div class="mp-pq-results-desc">Her er den endelige stilling på podiet:</div>
+    <div class="mp-pq-podium" id="mp-pq-podium-list"></div>
+    <button type="button" class="mp-btn-launch-pubquiz" onclick="MPPubQuiz.closeQuiz()" style="padding: 12px 30px; font-size: 1rem;">Afslut & Gå tilbage</button>
+  </div>
+
+</div>
+
+<script>
+window.MPPubQuiz = window.MPPubQuiz || (function() {
+  let allDecks = [];
+  let selectedDeckIndices = new Set();
+  let teamCount = 3;
+  let timeLimitSeconds = 25;
+  let activeQuestions = [];
+  let currentQIndex = 0;
+  
+  let teams = [
+    { name: "Hold 1", score: 0 },
+    { name: "Hold 2", score: 0 },
+    { name: "Hold 3", score: 0 },
+    { name: "Hold 4", score: 0 }
+  ];
+
+  let roundPointsAwarded = [false, false, false, false];
+  let isAnswerRevealed = false;
+  let timerInterval = null;
+  let timeLeftMs = 0;
+  let isTimerPaused = false;
+
+  function ensureMountedToBody() {
+    const overlay = document.getElementById('mp-pubquiz-overlay');
+    if (overlay && overlay.parentElement !== document.body) {
+      document.body.appendChild(overlay);
+    }
+  }
+
+  function openLobby(btnEl) {
+    const parentContainer = btnEl ? btnEl.closest('.mp-pubquiz-launcher-box') : document.querySelector('.mp-pubquiz-launcher-box');
+    const dataEl = parentContainer ? parentContainer.querySelector('.mp-pubquiz-decks-data') : null;
+
+    if (!dataEl) {
+      alert("Kunne ikke finde quizdata.");
+      return;
+    }
+
+    try {
+      const raw = JSON.parse(dataEl.textContent);
+      allDecks = raw.filter(d => d.cards && d.cards.length > 0);
+    } catch(e) {
+      console.error("JSON parse error:", e, dataEl.textContent);
+      allDecks = [];
+    }
+
+    if (allDecks.length === 0) {
+      alert("Ingen spørgsmål med svarmuligheder (multiple choice) fundet. Tjek at dine kort har 'options' defineret.");
+      return;
+    }
+
+    selectedDeckIndices.clear();
+    allDecks.forEach((_, i) => selectedDeckIndices.add(i));
+
+    renderLobbyDecks();
+    renderLobbyTeams();
+
+    ensureMountedToBody();
+    document.body.classList.add('mp-pubquiz-active');
+
+    const overlay = document.getElementById('mp-pubquiz-overlay');
+    if (overlay.requestFullscreen) {
+      overlay.requestFullscreen().catch(()=>{});
+    }
+
+    document.getElementById('mp-pubquiz-lobby').style.display = 'flex';
+    document.getElementById('mp-pubquiz-game').style.display = 'none';
+    document.getElementById('mp-pubquiz-results').style.display = 'none';
+    overlay.style.display = 'block';
+  }
+
+  function closeQuiz() {
+    clearInterval(timerInterval);
+    document.body.classList.remove('mp-pubquiz-active');
+    const overlay = document.getElementById('mp-pubquiz-overlay');
+    if (overlay) overlay.style.display = 'none';
+    if (document.exitFullscreen && document.fullscreenElement) {
+      document.exitFullscreen().catch(()=>{});
+    }
+  }
+
+  function renderLobbyDecks() {
+    const container = document.getElementById('mp-pq-decks-checkboxes');
+    container.innerHTML = '';
+
+    allDecks.forEach((deck, idx) => {
+      const item = document.createElement('div');
+      const isChecked = selectedDeckIndices.has(idx);
+      item.className = `mp-pq-deck-item ${isChecked ? 'is-checked' : ''}`;
+      item.innerHTML = `
+        <div class="mp-pq-deck-left">
+          <span>${deck.icon || '📚'}</span>
+          <span>${deck.name}</span>
+        </div>
+        <span class="mp-pq-deck-badge">${deck.cards.length} spørgsmål</span>
+      `;
+      item.onclick = () => {
+        if (selectedDeckIndices.has(idx)) {
+          if (selectedDeckIndices.size > 1) selectedDeckIndices.delete(idx);
+        } else {
+          selectedDeckIndices.add(idx);
+        }
+        renderLobbyDecks();
+      };
+      container.appendChild(item);
+    });
+  }
+
+  function toggleAllDecks() {
+    if (selectedDeckIndices.size === allDecks.length) {
+      selectedDeckIndices.clear();
+      selectedDeckIndices.add(0);
+    } else {
+      allDecks.forEach((_, i) => selectedDeckIndices.add(i));
+    }
+    renderLobbyDecks();
+  }
+
+  function setTeamCount(count) {
+    teamCount = count;
+    document.querySelectorAll('[data-teams]').forEach(p => {
+      p.classList.toggle('is-active', parseInt(p.dataset.teams, 10) === count);
+    });
+    renderLobbyTeams();
+  }
+
+  function renderLobbyTeams() {
+    const grid = document.getElementById('mp-pq-teams-inputs');
+    grid.innerHTML = '';
+    for (let i = 0; i < teamCount; i++) {
+      const box = document.createElement('div');
+      box.className = 'mp-pq-team-input-box';
+      box.innerHTML = `
+        <div class="mp-team-color-indicator team-c-${i}"></div>
+        <input type="text" id="mp-pq-team-name-${i}" value="${teams[i].name}" placeholder="Hold ${i+1}">
+      `;
+      grid.appendChild(box);
+    }
+  }
+
+  function setTimeLimit(seconds) {
+    timeLimitSeconds = seconds;
+    document.querySelectorAll('[data-time]').forEach(p => {
+      p.classList.toggle('is-active', parseInt(p.dataset.time, 10) === seconds);
+    });
+  }
+
+  function startGame() {
+    for (let i = 0; i < teamCount; i++) {
+      const input = document.getElementById(`mp-pq-team-name-${i}`);
+      teams[i].name = (input && input.value.trim()) ? input.value.trim() : `Hold ${i+1}`;
+      teams[i].score = 0;
+    }
+
+    activeQuestions = [];
+    selectedDeckIndices.forEach(idx => {
+      const deck = allDecks[idx];
+      deck.cards.forEach(c => {
+        activeQuestions.push({
+          q: c.q,
+          opts: c.opts,
+          theme: deck.name
+        });
+      });
+    });
+
+    if (activeQuestions.length === 0) {
+      alert("Ingen spørgsmål valgt!");
+      return;
+    }
+
+    activeQuestions.sort(() => Math.random() - 0.5);
+    currentQIndex = 0;
+
+    document.getElementById('mp-pubquiz-lobby').style.display = 'none';
+    document.getElementById('mp-pubquiz-game').style.display = 'flex';
+
+    loadQuestion(currentQIndex);
+  }
+
+  function loadQuestion(index) {
+    isAnswerRevealed = false;
+    isTimerPaused = false;
+    roundPointsAwarded = [false, false, false, false];
+
+    const qData = activeQuestions[index];
+    document.getElementById('mp-pq-progress-tag').textContent = `Spørgsmål ${index + 1} af ${activeQuestions.length}`;
+    document.getElementById('mp-pq-theme-display').textContent = qData.theme || 'Spørgsmål';
+    document.getElementById('mp-pq-question-text').innerHTML = qData.q;
+
+    let opts = qData.opts.map((text, idx) => ({ text, isCorrect: idx === 0 }));
+    opts.sort(() => Math.random() - 0.5);
+
+    const container = document.getElementById('mp-pq-options-container');
+    container.innerHTML = '';
+    const letters = ['A', 'B', 'C', 'D', 'E'];
+
+    opts.forEach((opt, idx) => {
+      const row = document.createElement('div');
+      row.className = 'mp-pq-option';
+      row.dataset.correct = opt.isCorrect;
+      row.innerHTML = `
+        <span class="mp-pq-letter opt-letter-${idx % 4}">${letters[idx] || ''}</span>
+        <span>${opt.text}</span>
+      `;
+      container.appendChild(row);
+    });
+
+    const mainBtn = document.getElementById('mp-pq-main-action-btn');
+    mainBtn.textContent = 'Stop tid & vis svar ➔';
+    mainBtn.className = 'mp-btn-reveal-action';
+
+    document.getElementById('mp-btn-pause-timer').style.display = timeLimitSeconds > 0 ? 'inline-block' : 'none';
+    document.getElementById('mp-btn-pause-timer').textContent = 'Pause tid ⏸️';
+
+    renderControlPanelScore();
+    startTimer();
+  }
+
+  function startTimer() {
+    clearInterval(timerInterval);
+    const timerBar = document.getElementById('mp-pq-timer');
+
+    if (timeLimitSeconds <= 0) {
+      timerBar.style.width = '100%';
+      timerBar.style.backgroundColor = '#22c55e';
+      return;
+    }
+
+    const totalMs = timeLimitSeconds * 1000;
+    timeLeftMs = totalMs;
+    timerBar.style.width = '100%';
+    timerBar.style.backgroundColor = '#22c55e';
+
+    const startTime = Date.now();
+    timerInterval = setInterval(() => {
+      if (isTimerPaused) return;
+
+      const elapsed = Date.now() - startTime;
+      timeLeftMs = Math.max(0, totalMs - elapsed);
+      const pct = (timeLeftMs / totalMs) * 100;
+      timerBar.style.width = `${pct}%`;
+
+      if (pct < 30) timerBar.style.backgroundColor = '#ef4444';
+      else if (pct < 60) timerBar.style.backgroundColor = '#f59e0b';
+
+      if (timeLeftMs <= 0) {
+        clearInterval(timerInterval);
+        revealAnswer();
+      }
+    }, 50);
+  }
+
+  function toggleTimerPause() {
+    if (isAnswerRevealed) return;
+    isTimerPaused = !isTimerPaused;
+    document.getElementById('mp-btn-pause-timer').textContent = isTimerPaused ? 'Genoptag tid ▶️' : 'Pause tid ⏸️';
+  }
+
+  function handleMainAction() {
+    if (!isAnswerRevealed) {
+      revealAnswer();
+    } else {
+      nextQuestion();
+    }
+  }
+
+  function revealAnswer() {
+    clearInterval(timerInterval);
+    isAnswerRevealed = true;
+
+    const options = document.querySelectorAll('.mp-pq-option');
+    options.forEach(opt => {
+      if (opt.dataset.correct === 'true') {
+        opt.classList.add('is-revealed-correct');
+      } else {
+        opt.classList.add('is-revealed-wrong');
+      }
+    });
+
+    const mainBtn = document.getElementById('mp-pq-main-action-btn');
+    const isLast = currentQIndex + 1 >= activeQuestions.length;
+    mainBtn.textContent = isLast ? 'Se slutresultat 🏆' : 'Næste spørgsmål ➔';
+    mainBtn.className = 'mp-btn-reveal-action next-step';
+  }
+
+  function renderControlPanelScore() {
+    const strip = document.getElementById('mp-pq-score-strip');
+    strip.innerHTML = '';
+
+    for (let i = 0; i < teamCount; i++) {
+      const chip = document.createElement('div');
+      chip.className = 'mp-pq-team-chip';
+      const hasPt = roundPointsAwarded[i];
+
+      chip.innerHTML = `
+        <div class="mp-team-color-indicator team-c-${i}"></div>
+        <span class="mp-pq-chip-name">${teams[i].name}</span>
+        <span class="mp-pq-chip-score" id="mp-pq-score-val-${i}">${teams[i].score}</span>
+        <button type="button" class="mp-btn-award-pt ${hasPt ? 'has-point' : ''}" onclick="MPPubQuiz.togglePointForTeam(${i})">
+          ${hasPt ? '✓ +1 pt' : '+1 pt'}
+        </button>
+      `;
+      strip.appendChild(chip);
+    }
+  }
+
+  function togglePointForTeam(teamIdx) {
+    if (!roundPointsAwarded[teamIdx]) {
+      teams[teamIdx].score += 1;
+      roundPointsAwarded[teamIdx] = true;
+    } else {
+      teams[teamIdx].score = Math.max(0, teams[teamIdx].score - 1);
+      roundPointsAwarded[teamIdx] = false;
+    }
+    renderControlPanelScore();
+  }
+
+  function nextQuestion() {
+    currentQIndex++;
+    if (currentQIndex >= activeQuestions.length) {
+      showFinalResults();
+    } else {
+      loadQuestion(currentQIndex);
+    }
+  }
+
+  function showFinalResults() {
+    document.getElementById('mp-pubquiz-game').style.display = 'none';
+    const resScreen = document.getElementById('mp-pubquiz-results');
+    resScreen.style.display = 'flex';
+
+    const sorted = teams.slice(0, teamCount).sort((a, b) => b.score - a.score);
+    const podiumList = document.getElementById('mp-pq-podium-list');
+    podiumList.innerHTML = '';
+
+    const medals = ['🥇 1. Plads', '🥈 2. Plads', '🥉 3. Plads', '4. Plads'];
+
+    sorted.forEach((team, idx) => {
+      const row = document.createElement('div');
+      row.className = `mp-pq-podium-row ${idx === 0 ? 'is-winner' : ''}`;
+      row.innerHTML = `
+        <span>${medals[idx] || (idx+1)+'. Plads'}: ${team.name}</span>
+        <span style="color:#fbbf24;">${team.score} point</span>
+      `;
+      podiumList.appendChild(row);
+    });
+  }
+
+  return {
+    openLobby,
+    closeQuiz,
+    toggleAllDecks,
+    setTeamCount,
+    setTimeLimit,
+    startGame,
+    toggleTimerPause,
+    handleMainAction,
+    togglePointForTeam
+  };
+})();
+</script>
+{% endif %}
