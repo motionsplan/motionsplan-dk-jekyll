@@ -90,6 +90,7 @@ Brug:
     margin: 0 !important; padding: 0 !important;
   }
 
+  /* LOBBY */
   #mp-duel-lobby {
     position: absolute;
     inset: 0;
@@ -155,53 +156,29 @@ Brug:
     width: 100%;
   }
 
-  .mp-duel-btn {
-    border: none;
-    border-radius: 10px;
-    font-size: 0.92rem;
-    font-weight: 700;
-    color: #ffffff;
-    cursor: pointer;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-  }
-  .mp-duel-btn:active { transform: translateY(3px); box-shadow: inset 0 0 0 rgba(0,0,0,0.2); }
-  .mp-duel-btn.disabled { opacity: 0.45; pointer-events: none; filter: grayscale(70%); }
-  .mp-duel-btn.correct-reveal {
-    box-shadow: 0 0 12px 4px rgba(34, 197, 94, 0.6) !important;
-    border: 2px solid #fff;
-    z-index: 5;
-  }
-  .btn-color-0 { background: #ef4444; }
-  .btn-color-1 { background: #3b82f6; }
-  .btn-color-2 { background: #eab308; }
-  .btn-color-3 { background: #22c55e; }
-
+  /* SPLIT-SCREEN LAYOUT MED MOBIL-SIKRING */
   #mp-duel-game-splitscreen {
     position: absolute;
     inset: 0;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
   }
   .mp-player-zone {
     flex: 1;
     display: flex;
     flex-direction: column;
     position: relative;
-    padding: 0.85rem 1rem;
+    padding: clamp(6px, 1.2vh, 12px) clamp(8px, 2vw, 16px);
     background: #f8fafc;
     overflow: hidden;
+    min-height: 0; /* Tillader flexbox at krympe indholdet korrekt */
   }
   #mp-zone-p2 { transform: rotate(180deg); }
 
   .mp-duel-center-divider {
-    height: 28px;
+    height: 26px;
     background: #0f172a;
     position: relative;
     display: flex;
@@ -209,6 +186,7 @@ Brug:
     justify-content: space-between;
     padding: 0 12px;
     z-index: 10;
+    flex-shrink: 0;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
   }
   .mp-duel-timer-bar {
@@ -221,7 +199,7 @@ Brug:
     transition: width 0.1s linear, background-color 0.3s;
   }
   .mp-divider-round-indicator {
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 800;
     color: #94a3b8;
     letter-spacing: 0.04em;
@@ -233,7 +211,7 @@ Brug:
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 6px;
     padding: 2px 8px;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 700;
     cursor: pointer;
     display: inline-flex;
@@ -247,30 +225,72 @@ Brug:
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.4rem;
+    margin-bottom: 2px;
+    flex-shrink: 0;
   }
-  .mp-zone-name { font-weight: 800; font-size: 0.95rem; color: #475569; }
-  .mp-zone-score { font-weight: 900; font-size: 1.2rem; color: #0f172a; background: #e2e8f0; padding: 2px 10px; border-radius: 8px; }
+  .mp-zone-name { font-weight: 800; font-size: clamp(0.8rem, 2.4vw, 0.95rem); color: #475569; }
+  .mp-zone-score { font-weight: 900; font-size: clamp(0.9rem, 2.8vw, 1.2rem); color: #0f172a; background: #e2e8f0; padding: 2px 8px; border-radius: 6px; }
+
   .mp-zone-question {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: clamp(0.85rem, 2.7vw, 1.15rem);
     font-weight: 700;
     color: #1e293b;
-    margin-bottom: 0.5rem;
-    padding: 0 8px;
-    line-height: 1.35;
+    margin-bottom: 6px;
+    padding: 0 4px;
+    line-height: 1.25;
+    min-height: 0;
+    overflow: hidden;
   }
+
+  /* FAST 2x2 SVAR-GRID DER ALDRIG OVERSKRIDER HØJDEN */
   .mp-zone-answers {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8px;
-    height: 48%;
-    min-height: 125px;
+    grid-template-rows: 1fr 1fr;
+    gap: clamp(4px, 1.2vw, 8px);
+    height: 52%;
+    max-height: 180px;
+    min-height: 90px;
+    flex-shrink: 0;
   }
+
+  .mp-duel-btn {
+    border: none;
+    border-radius: 8px;
+    font-size: clamp(0.75rem, 2.2vw, 0.92rem);
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.2;
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.2);
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+    word-break: break-word;
+    hyphens: auto;
+  }
+  .mp-duel-btn:active { transform: translateY(2px); box-shadow: inset 0 0 0 rgba(0,0,0,0.2); }
+  .mp-duel-btn.disabled { opacity: 0.45; pointer-events: none; filter: grayscale(70%); }
+  .mp-duel-btn.correct-reveal {
+    box-shadow: 0 0 12px 4px rgba(34, 197, 94, 0.6) !important;
+    border: 2px solid #fff;
+    z-index: 5;
+  }
+  .btn-color-0 { background: #ef4444; }
+  .btn-color-1 { background: #3b82f6; }
+  .btn-color-2 { background: #eab308; }
+  .btn-color-3 { background: #22c55e; }
+
   .mp-zone-overlay {
     position: absolute;
     inset: 0;
@@ -285,9 +305,10 @@ Brug:
     transition: opacity 0.2s;
   }
   .mp-zone-overlay.show { opacity: 1; pointer-events: auto; }
-  .mp-overlay-status { font-size: 2.5rem; margin-bottom: 4px; }
-  .mp-overlay-pts { font-size: 1.25rem; font-weight: 800; color: #0f172a; }
+  .mp-overlay-status { font-size: clamp(2rem, 5vw, 2.5rem); margin-bottom: 2px; }
+  .mp-overlay-pts { font-size: clamp(1rem, 3vw, 1.25rem); font-weight: 800; color: #0f172a; }
 
+  /* PASS AND PLAY */
   #mp-duel-game-passplay {
     position: absolute;
     inset: 0;
@@ -329,7 +350,7 @@ Brug:
     text-transform: uppercase;
   }
   .mp-pass-question-text {
-    font-size: 1.25rem;
+    font-size: clamp(1.05rem, 2.5vw, 1.35rem);
     font-weight: 700;
     color: #0f172a;
     text-align: center;
@@ -339,6 +360,7 @@ Brug:
   .mp-pass-answers-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 10px;
     min-height: 160px;
   }
@@ -358,6 +380,7 @@ Brug:
   .mp-interstitial-title { font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-bottom: 0.5rem; }
   .mp-interstitial-desc { font-size: 0.95rem; color: #64748b; margin-bottom: 1.5rem; max-width: 320px; line-height: 1.4; }
 
+  /* SLUTSKÆRM */
   #mp-duel-results {
     position: absolute;
     inset: 0;
@@ -504,6 +527,7 @@ window.MPHotseat = window.MPHotseat || (function() {
   let timeLeft = 0;
   const MAX_TIME = 15000;
 
+  let currentRoundOpts = [];
   let splitRoundData = {
     p1: { answered: false, correct: false, pts: 0, timeout: false },
     p2: { answered: false, correct: false, pts: 0, timeout: false }
@@ -524,6 +548,27 @@ window.MPHotseat = window.MPHotseat || (function() {
     document.getElementById('mode-opt-splitscreen').classList.toggle('is-active', mode === 'splitscreen');
     document.getElementById('mode-opt-passplay').classList.toggle('is-active', mode === 'passplay');
     document.getElementById('mp-icon-p2').style.transform = mode === 'splitscreen' ? 'rotate(180deg)' : 'none';
+  }
+
+  /* Udvælg maksimalt 4 svarmuligheder, hvor det rigtige svar altid er med */
+  function prepareRoundOptions(qData) {
+    const correctOpt = { text: qData.opts[0], isCorrect: true };
+    const wrongOpts = qData.opts.slice(1).map(t => ({ text: t, isCorrect: false }));
+
+    // Bland de forkerte svar og snup maks 3
+    for (let i = wrongOpts.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [wrongOpts[i], wrongOpts[j]] = [wrongOpts[j], wrongOpts[i]];
+    }
+    const selected = [correctOpt, ...wrongOpts.slice(0, 3)];
+
+    // Bland de endelige svarmuligheder, så det rigtige svar ikke altid er først
+    for (let i = selected.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [selected[i], selected[j]] = [selected[j], selected[i]];
+    }
+
+    return selected;
   }
 
   function openLobbyWithQuestions(qArray) {
@@ -596,6 +641,7 @@ window.MPHotseat = window.MPHotseat || (function() {
     }
   }
 
+  /* SPLIT SCREEN */
   function nextSplitRound() {
     if (currentQIndex >= questions.length) {
       endGame();
@@ -609,17 +655,18 @@ window.MPHotseat = window.MPHotseat || (function() {
 
     document.getElementById('p1-overlay').className = 'mp-zone-overlay';
     document.getElementById('p2-overlay').className = 'mp-zone-overlay';
+
     document.getElementById('mp-split-round-indicator').textContent = `Kort ${currentQIndex + 1} af ${questions.length}`;
 
     const qData = questions[currentQIndex];
     document.getElementById('p1-question').innerHTML = qData.q;
     document.getElementById('p2-question').innerHTML = qData.q;
 
-    let opts = qData.opts.map((text, idx) => ({ text, isCorrect: idx === 0 }));
-    opts.sort(() => Math.random() - 0.5);
+    // Præcis maks 4 muligheder dannes én gang for begge spillere
+    currentRoundOpts = prepareRoundOptions(qData);
 
-    renderSplitButtons('p1', opts);
-    renderSplitButtons('p2', opts);
+    renderSplitButtons('p1', currentRoundOpts);
+    renderSplitButtons('p2', currentRoundOpts);
 
     startSplitTimer();
   }
@@ -735,6 +782,7 @@ window.MPHotseat = window.MPHotseat || (function() {
     }, 3000);
   }
 
+  /* PASS AND PLAY */
   function nextPassPlayRound() {
     if (currentQIndex >= questions.length) {
       endGame();
@@ -742,6 +790,8 @@ window.MPHotseat = window.MPHotseat || (function() {
     }
 
     passPlayRoundData = { p1: { time: 0, correct: false }, p2: { time: 0, correct: false } };
+    currentRoundOpts = prepareRoundOptions(questions[currentQIndex]);
+
     updatePassScoreUI();
     startPassTurn('p1');
   }
@@ -759,12 +809,9 @@ window.MPHotseat = window.MPHotseat || (function() {
     const qData = questions[currentQIndex];
     document.getElementById('pass-question').innerHTML = qData.q;
 
-    let opts = qData.opts.map((text, idx) => ({ text, isCorrect: idx === 0 }));
-    opts.sort(() => Math.random() - 0.5);
-
     const answersGrid = document.getElementById('pass-answers');
     answersGrid.innerHTML = '';
-    opts.forEach((opt, idx) => {
+    currentRoundOpts.forEach((opt, idx) => {
       const btn = document.createElement('button');
       btn.className = `mp-duel-btn btn-color-${idx % 4}`;
       btn.textContent = opt.text;
