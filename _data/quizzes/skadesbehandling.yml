@@ -11,3 +11,38 @@
     - "En enkelt pludselig og skarp bevægelse"
     - "Mangel på protein i kosten dagen før"
   answer: "Overbelastningsskader opstår typisk, når vævets tolerance overskrides gradvist over tid (for meget, for hurtigt, for tidligt)."
+
+- question: "Hvad står 'M' for i manualens udvidede RCIEM-princip for akut førstehjælp?"
+  options:
+    - "Mobilisering (små, kontrollerede bevægelser inden for smertegrænsen)"
+    - "Massage (dybdegående tværmassage af det skadede område)"
+    - "Medicinering (omgående indtagelse af smertestillende piller)"
+  answer: "I RCIEM-princippet står M for Mobilisering, hvor det skadede led/område bevæges forsigtigt 10-15 gange inden for smertegrænsen for at stimulere helingen."
+
+- question: "Hvilke tre ting må man ifølge manualen ALDRIG gøre ved en akut skade i de første 48 timer?"
+  options:
+    - "Påføre varme, massere skaden eller drikke alkohol"
+    - "Lægge trykforbinding, holde området i ro eller tilkalde hjælp"
+    - "Elevére skaden, køle området ned eller holde pauser"
+  answer: "Varme, massage og alkohol øger blodcirkulationen og hævelsen voldsomt, hvilket forværrer vævsskaden markant i den akutte fase."
+
+- question: "Hvilke fire klassiske tegn viser sig ved en inflammatorisk proces ved en overbelastningsskade?"
+  options:
+    - "Vævet bliver varmt, rødmer, gør ondt og hæver"
+    - "Området bliver koldt, blegner, mister følesansen og kramper"
+    - "Musklen sitrer ukontrolleret, mister reflekser og bliver blålig"
+  answer: "Varme, rødme, smerte og hævelse er kroppens forsvarsreaktion og helingsproces, men den medfølgende væskeansamling og tryk nedsætter midlertidigt vævets funktion."
+
+- question: "Hvilket simpelt førstehjælpsudstyr bør en fitnessinstruktør altid have i nærheden ifølge manualen?"
+  options:
+    - "Elastikbind af god kvalitet og størrelse samt evt. en engangs-ispose"
+    - "Varmepuder og massagecreme til hurtig blødgøring af musklerne"
+    - "Smertestillende håndkøbsmedicin og bedøvende spray"
+  answer: "Elastikbind er instruktørens vigtigste redskab, så der lynhurtigt kan anlægges en komprimerende trykforbinding, gerne suppleret med en ispose til nedkøling."
+
+- question: "Hvordan håndteres en alvorlig skade med mistanke om knoglebrud ifølge manualen?"
+  options:
+    - "Flyt ikke personen, tilkald straks ambulance/læge, rør mindst muligt og hold personen varm mod chok"
+    - "Få straks personen op at støtte på benet for at afgøre om knoglen bærer"
+    - "Forsøg forsigtigt at trykke eller rette bruddet på plads inden hjælpen ankommer"
+  answer: "Ved alvorlige skader og brud må den tilskadekomne ikke flyttes unødigt; man tilkalder professionel hjælp, dækker evt. åbne brud sterilt og forebygger chok ved at holde personen varm."

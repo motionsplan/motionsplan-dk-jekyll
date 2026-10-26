@@ -25,3 +25,24 @@
     - "Nedbrydning og genopbygning af knoglevæv"
     - "Direkte styring af de viljestyrede muskelkontraktioner"
   answer: "Blodkredsløbet fungerer som kroppens infrastruktursystem, der forsyner alle celler med ilt og næring samt transporterer $CO_2$ og affaldsstoffer bort."
+
+- question: "Hvilke tre fysiologiske systemer opstiller manualen for konditionstræning?"
+  options:
+    - "Tilførselssystemet (kredsløbet), forbrændingssystemet (musklerne) og aktiveringssystemet (nervesystemet)"
+    - "Hjertesystemet, lungesystemet og det perifere hormonsystem"
+    - "Det aerobe system, det anaerobe system og det laktacide system"
+  answer: "Manualen opdeler fysiologisk konditionstræning i tilførselssystemet (kredsløb og iltoptagelse), forbrændingssystemet (musklernes udnyttelse af ilt og næring) og aktiveringssystemet (nervesystemets hurtige muskelaktivering)."
+
+- question: "Hvad er 'reservepulsen' et udtryk for ifølge manualen, og hvordan beregnes den?"
+  options:
+    - "Differencen mellem maksimalpuls og hvilepuls, som udtrykker det tilgængelige træningspotentiale"
+    - "Det fald i puls man oplever i det første minut efter et afsluttet intervalpas"
+    - "Maksimalpulsen minus personens alder (220 - alder)"
+  answer: "Reservepulsen er differencen mellem max-puls og hvilepuls (Maxpuls - Hvilepuls) og angiver det tilgængelige arbejdspotentiale; jo bedre træningstilstand, desto lavere hvilepuls og dermed større reservepuls."
+
+- question: "Hvad er det primære formål med 'cooldown' umiddelbart efter konditionstræning?"
+  options:
+    - "At udnytte musklernes venepumpe til at pumpe blodet tilbage til hjertet og sikre en rolig pulssænkning"
+    - "At forbrænde de sidste fedtsyrer uden at aktivere Type IIx-muskelfibre"
+    - "At genopbygge musklernes kreatinfosfatdepoter (CrP) hurtigst muligt"
+  answer: "Cooldown hjælper via musklernes venepumper med at transportere det ophobede blod fra benene og musklerne tilbage til hjertet og forhindrer, at pulsen og blodtrykket falder for brat efter hårdt arbejde."

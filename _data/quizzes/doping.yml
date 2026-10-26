@@ -11,3 +11,38 @@
     - "Forbedret syn og bedre hørelse"
     - "Permanent nedsat risiko for hårtab"
   answer: "Tilførsel af kunstigt testosteron får kropens egenproduktion til at lukke ned, og det kan medføre alvorlige bivirkninger på organer og hjerte."
+
+- question: "Hvad er formålet med at anvende væksthormon (hGH) i dopingsammenhæng?"
+  options:
+    - "At øge fedtforbrændingen og styrke senerne, så man kan træne hårdere eller restituere hurtigere"
+    - "At øge dannelsen af røde blodlegemer for at forbedre den aerobe udholdenhed"
+    - "At hæmme nervesystemets træthedssignaler under langvarig konditionstræning"
+  answer: "Væksthormon anvendes i dopingsammenhæng primært for at stimulere fedtforbrændingen og styrke sener og bindevæv, så træningstolerancen øges og skader restitueres hurtigere."
+
+- question: "Hvad sker der, hvis en udøver nægter at medvirke ved en indkaldt dopingkontrol?"
+  options:
+    - "Det sidestilles med og straffes på samme måde som en positiv dopingprøve"
+    - "Udøveren modtager en advarsel og får tilbudt en ny kontroluge"
+    - "Udøveren pålægges et kontrolgebyr, men må fortsætte træningen uhindret"
+  answer: "Hvis man nægter eller forsøger at undgå kontrollen, tolkes det i henhold til antidopingreglerne på præcis samme måde som en positiv prøve."
+
+- question: "Hvem bærer ansvaret, hvis et kosttilskud indeholder et forbudt dopingstof, som ikke fremgår af varedeklarationen?"
+  options:
+    - "Idrætsudøveren har altid selv det fulde og personlige ansvar"
+    - "Forhandleren eller den udenlandske producent bærer det juridiske ansvar"
+    - "Træningscentret hæfter for produktet, hvis det er indkøbt lovligt på nettet"
+  answer: "Idrætsudøvere er altid selv ansvarlige for indtagelse af forbudte stoffer gennem kosttilskud eller naturpræparater og skal altid stå til ansvar for en positiv prøve."
+
+- question: "Hvad betyder henholdsvis den 'androgene' og den 'anabole' virkning ved AAS?"
+  options:
+    - "Androgen betyder udvikling af mandlige kønstræk, mens anabol betyder øget vævs- og muskelvækst"
+    - "Androgen fremmer fedtforbrænding, mens anabol udelukkende styrker ledbånd og sener"
+    - "Androgen påvirker centralnervesystemet, mens anabol stimulerer dannelsen af mælkesyre"
+  answer: "Den androgene virkning stimulerer udviklingen af mandlige kønstræk (maskulinisering), mens den anabole virkning giver øget muskel- og knoglevækst."
+
+- question: "Hvilket fysisk tegn er et klassisk kendetegn på misbrug af anabole steroider?"
+  options:
+    - "Meget hurtig vægtøgning (op til 10 kg på 3 måneder) med lav fedtprocent og uproportional vækst af skuldre, nakke og bryst"
+    - "Markant vægttab og generelt fald i muskelmasse over hele kroppen"
+    - "Kronisk nedsat kropstemperatur og tab af muskeltonus i overkroppen"
+  answer: "Det væsentligste og tydeligste tegn er en hurtig og voldsom vægtøgning med lav fedtprocent samt en uproportional muskelvækst, særligt omkring skuldre, nakke og bryst."

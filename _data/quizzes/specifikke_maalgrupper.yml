@@ -18,3 +18,32 @@
     - "Nej, det stopper altid børns højdevækst"
     - "Kun hvis de udelukkende køre maskintræning"
   answer: "Myten om at styrketræning hæmmer børns vækst er afkræftet. Supervision og hensigtsmæssig progression er nøglen."
+
+- question: "Hvad anbefaler manualen vedrørende pulsen under konditionstræning for gravide?"
+  options:
+    - "At undgå en puls over 140 slag/min for ikke at reducere ilttilførslen til fosteret"
+    - "At holde pulsen over 160 slag/min for at vedligeholde kredsløbets minutvolumen"
+    - "At pulsen altid skal ligge på mindst 85% af maksimalpulsen under hele træningen"
+  answer: "Ved konditionstræning bør den gravide som udgangspunkt undgå en puls over 140 slag/min, da det kan være med til at reducere ilttilførslen til barnet."
+
+- question: "Hvad kendetegner hypermobilitet, og hvad bør det primære træningsfokus være?"
+  options:
+    - "Sener og ledbånd er for elastiske, og man bør styrke musklerne omkring alle større led"
+    - "Muskelfibrene er for stive, og man bør primært udføre intensiv udstrækning i yderstillinger"
+    - "Knoglevævet er afkalket, og udøveren må derfor overhovedet ikke belastes med ydre vægte"
+  answer: "Ved hypermobilitet er sener og ledbånd for elastiske til at begrænse leddenes udsving, og udøveren bør derfor styrke muskulaturen omkring de store led for at øge stabiliteten og mindske skadesrisikoen."
+
+- question: "Hvordan defineres ældre i manualen, og hvilket forbehold bør tages inden opstart på målrettet fitness?"
+  options:
+    - "Personer over 60 år, som bør have fået 'grønt lys' fra egen læge"
+    - "Personer over 50 år, som udelukkende må udføre isoleret maskintræning"
+    - "Personer over 70 år, som skal undgå enhver form for muskeltræning"
+  answer: "Ældre defineres som personer over 60 år, og det anbefales, at de har fået accept fra deres egen læge for at tage højde for medicin, blodtryk og eventuelle kroniske lidelser."
+
+- question: "Hvad peger manualen på som den største kilde til unges rygsmerter, og hvordan bør det imødegås?"
+  options:
+    - "Inaktivitet er hovedårsagen, og løsningen er bevægelse, stabilitet og funktionel træning"
+    - "For tunge løft i fitnesscentret, og løsningen er sengeleje med smertestillende medicin"
+    - "Medfødte skævheder i rygsøjlen, som udelukkende kan afhjælpes med korset og passiv hvile"
+  answer: "50-60% af de 18-20-årige oplever rygsmerter primært pga. inaktivitet; manualen understreger, at bevægelse, stabilitet, styrke og funktionel træning er vejen frem frem for passivitet."
+  

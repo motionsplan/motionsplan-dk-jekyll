@@ -30,7 +30,7 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--danger
   rel: sponsored nofollow noopener
-doping:
+feature_row_doping:
 - image_path: https://imgcdn.saxo.com/_9788771843378/0x500
   alt: Motionsdoping - styrketræning, identitet og kultur
   title: Motionsdoping - styrketræning, identitet og kultur
@@ -120,7 +120,7 @@ quiz_modules:
     icon: 🩹
     key: skadesbehandling
   - id: doping
-    title: Information om doping
+    title: Doping
     icon: ⚠️
     key: doping
 ---
@@ -288,7 +288,7 @@ Doping er også blevet udbredt for motionsbrugere. Motionsdoping handler om, hvo
 
 Du kan blive meget klogere om motionsdoping i denne rigtig gode bog om emnet:
 
-{% include feature_row id="doping" type="left" %}
+{% include feature_row id="feature_row_doping" type="left" %}
 
 </details>
 
