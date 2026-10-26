@@ -181,6 +181,12 @@ Ernæring og kosttilskud er et minefelt af aggressive reklamer og myter. Her er 
 
 ---
 
+## Bonus: Tættest på
+
+{% include components/taettestpaa.html %}
+
+---
+
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}

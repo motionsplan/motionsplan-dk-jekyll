@@ -562,6 +562,100 @@ Brug:
     border-color: #f59e0b;
     box-shadow: 0 0 20px rgba(245, 158, 11, 0.25);
   }
+  /* Grundlæggende overlay layout */
+.mp-quiz-wrapper {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+/* Midter-arena: scroller internt, hvis skærmen er for lav */
+.mp-quiz-main-content {
+  flex: 1;
+  min-height: 0; /* Afgørende for at forhindre overlap */
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(8px, 2vh, 20px) clamp(12px, 3vw, 24px);
+  gap: clamp(10px, 1.8vh, 18px);
+}
+
+/* Spørgsmålsboks */
+.mp-quiz-question-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  padding: clamp(12px, 2vh, 20px);
+  text-align: center;
+  flex-shrink: 0;
+}
+.mp-quiz-question-text {
+  font-size: clamp(1.1rem, 2.2vw, 1.6rem);
+  font-weight: 800;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* Svarmuligheder: 1 kolonne på stående mobil, 2 på tablet/desktop */
+.mp-quiz-options-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 kolonne som standard på stående mobil */
+  gap: clamp(8px, 1.4vh, 14px);
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Skift til 2 kolonner, når der er 4 svarmuligheder OG skærmen er bred nok */
+@media (min-width: 600px) {
+  .mp-quiz-options-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Enkelt svarkort */
+.mp-quiz-option-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: clamp(10px, 1.5vh, 16px);
+  border-radius: 12px;
+  font-size: clamp(0.95rem, 1.4vw, 1.15rem);
+  text-align: left;
+}
+
+/* ==========================================================
+   LANDSCAPE OPTIMERING FOR SPØRGSMÅL (@media max-height: 500px)
+   Forhindrer at elementer skubbes ind over hinanden (Billede 4)
+   ========================================================== */
+@media (max-height: 500px) {
+  .mp-quiz-main-content {
+    justify-content: flex-start !important; /* Start fra toppen med scroll */
+    padding: 6px 16px !important;
+    gap: 8px !important;
+  }
+  .mp-quiz-question-card {
+    padding: 8px 12px !important;
+  }
+  .mp-quiz-question-text {
+    font-size: 1rem !important;
+  }
+  .mp-quiz-options-grid {
+    grid-template-columns: repeat(2, 1fr) !important; /* 2 kolonner i landscape for at spare højde */
+    gap: 6px !important;
+  }
+  .mp-quiz-option-card {
+    padding: 6px 10px !important;
+    font-size: 0.85rem !important;
+  }
+  .mp-quiz-bottom-bar {
+    padding: 6px 16px calc(6px + env(safe-area-inset-bottom, 0px)) 16px !important;
+  }
+}
 </style>
 
 <!-- MODAL MARKUP -->

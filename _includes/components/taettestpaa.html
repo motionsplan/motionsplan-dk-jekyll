@@ -1,0 +1,760 @@
+{% comment %}
+-----------------------------------------------------------------------------
+MOTIONSPLAN.DK - TÆTTEST PÅ (ESTIMERINGSDUEL)
+Sti: _includes/components/taettestpaa.html
+Brug: {% include components/taettestpaa.html %}
+-----------------------------------------------------------------------------
+{% endcomment %}
+
+{% assign quiz_data = include.data | default: site.data.taettestpaa %}
+
+<div class="mp-tp-launcher-box">
+  <div class="mp-tp-launcher">
+    <div class="mp-tp-icon">🎯</div>
+    <div class="mp-tp-text">
+      <div class="mp-tp-title">Tættest På</div>
+      <div class="mp-tp-desc" id="mp-tp-launcher-desc">Estimeringsduellen. Ram tættest på facit for at vinde point. 1-4 hold.</div>
+    </div>
+    
+    <div class="mp-tp-launcher-actions" id="mp-tp-launcher-actions">
+      <button type="button" class="mp-btn-launch-tp" onclick="MPTaettest.openLobby()">Opsæt Estimeringsduel</button>
+    </div>
+  </div>
+
+  <script type="application/json" id="mp-tp-data">
+    {% if quiz_data %}{{ quiz_data | jsonify }}{% else %}[]{% endif %}
+  </script>
+</div>
+
+<style>
+  body.mp-tp-active { overflow: hidden !important; }
+  body.mp-tp-active .masthead,
+  body.mp-tp-active header,
+  body.mp-tp-active nav { display: none !important; }
+
+  /* LAUNCHER */
+  .mp-tp-launcher-box { margin: 2rem 0; }
+  .mp-tp-launcher {
+    background: #fdf4ff; border: 2px dashed #d8b4fe; border-radius: 16px;
+    padding: 1.5rem; text-align: center; display: flex; flex-direction: column;
+    align-items: center; gap: 10px; transition: border-color 0.2s;
+  }
+  .mp-tp-launcher:hover { border-color: #9333ea; }
+  .mp-tp-icon { font-size: 2.2rem; line-height: 1; }
+  .mp-tp-title { font-size: 1.25rem; font-weight: 800; color: #3b0764; margin: 0; }
+  .mp-tp-desc { font-size: 0.9rem; color: #6b21a8; margin: 0; max-width: 500px; }
+  .mp-tp-launcher-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .mp-btn-launch-tp {
+    background: #9333ea; color: #fff; border: none; padding: 10px 24px;
+    border-radius: 999px; font-size: 0.95rem; font-weight: 800; cursor: pointer;
+    box-shadow: 0 4px 12px rgba(147,51,234,0.25); transition: transform 0.15s, background 0.15s;
+  }
+  .mp-btn-launch-tp:hover { transform: scale(1.04); background: #7e22ce; }
+  .mp-btn-launch-tp.btn-resume { background: #10b981; box-shadow: 0 4px 12px rgba(16,185,129,0.3); }
+  .mp-btn-launch-tp.btn-resume:hover { background: #059669; }
+  .mp-btn-tp-secondary {
+    background: none; border: none; color: #9333ea; font-weight: 700;
+    font-size: 0.88rem; cursor: pointer; padding: 6px 12px;
+  }
+  .mp-btn-tp-secondary:hover { color: #dc2626; text-decoration: underline; }
+
+  /* OVERLAY (100dvh TIL MOBIL) */
+  #mp-tp-overlay {
+    display: none; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+    width: 100vw !important; height: 100dvh !important; background: #2e1065; z-index: 2147483647 !important;
+    font-family: inherit; overflow: hidden; margin: 0 !important; padding: 0 !important; box-sizing: border-box;
+  }
+
+  /* LOBBY */
+  #mp-tp-lobby {
+    position: absolute; inset: 0; background: #ffffff; display: flex; flex-direction: column;
+    align-items: center; padding: 2rem 1.5rem; overflow-y: auto; -webkit-overflow-scrolling: touch;
+  }
+  .mp-tp-lobby-inner {
+    width: 100%; max-width: 580px; display: flex; flex-direction: column; align-items: center; text-align: center; margin: auto 0;
+  }
+  .mp-tp-title-main { font-size: clamp(1.8rem, 3.5vw, 2.2rem); font-weight: 900; color: #3b0764; margin-bottom: 0.35rem; }
+  .mp-tp-sub-main { color: #6b21a8; font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.4; }
+  .mp-tp-section { width: 100%; text-align: left; margin-bottom: 1.35rem; }
+  .mp-tp-label { font-size: 0.8rem; font-weight: 800; color: #4c1d95; text-transform: uppercase; margin-bottom: 8px; letter-spacing: 0.05em; }
+
+  .mp-tp-pill-selector { display: flex; gap: 8px; flex-wrap: wrap; }
+  .mp-tp-pill {
+    flex: 1; min-width: 110px; background: #f3e8ff; border: 2px solid #e9d5ff; border-radius: 10px;
+    padding: 10px 8px; font-size: 0.88rem; font-weight: 700; color: #6b21a8; cursor: pointer; text-align: center; transition: all 0.15s;
+  }
+  .mp-tp-pill.is-active { background: #9333ea; border-color: #7e22ce; color: #ffffff; font-weight: 800; }
+
+  .mp-tp-teams-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+  .mp-tp-team-input-box {
+    display: flex; align-items: center; background: #faf5ff; border: 2px solid #e9d5ff; border-radius: 10px; padding: 8px 12px;
+  }
+  .mp-tp-dot { width: 16px; height: 16px; border-radius: 50%; margin-right: 10px; flex-shrink: 0; }
+  .c-dot-0 { background: #ef4444; } .c-dot-1 { background: #3b82f6; } .c-dot-2 { background: #10b981; } .c-dot-3 { background: #f59e0b; }
+  .mp-tp-team-input-box input { width: 100%; background: transparent; border: none; outline: none; font-weight: 800; font-size: 16px; color: #3b0764; }
+
+  /* GAME ARENA */
+  #mp-tp-game {
+    position: absolute; inset: 0; display: flex; flex-direction: column; background: #1e1b4b; color: #ffffff; height: 100dvh;
+  }
+  .mp-tp-topbar {
+    background: #2e1065; padding: clamp(8px, 1.4vh, 16px) clamp(16px, 2vw, 32px);
+    display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #8b5cf6; flex-shrink: 0;
+  }
+  .mp-tp-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .mp-tp-tag { background: #8b5cf6; color: #ffffff; font-weight: 900; font-size: clamp(0.75rem, 1.2vw, 0.95rem); padding: 4px 10px; border-radius: 8px; text-transform: uppercase; }
+  .mp-tp-mode-label { font-size: clamp(0.85rem, 1.4vw, 1.15rem); font-weight: 700; color: #c4b5fd; }
+  
+  .mp-tp-actions { display: flex; gap: 10px; }
+  .mp-btn-tp-nav {
+    background: rgba(255,255,255,0.1); color: #ddd6fe; border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px; padding: 6px 12px; font-size: 0.85rem; font-weight: 700; cursor: pointer; transition: background 0.15s;
+  }
+  .mp-btn-tp-nav:hover { background: rgba(255,255,255,0.2); color: #fff; }
+
+  /* MIDTERARENA MED PERFEKT VERTIKAL CENTRERING */
+  .mp-tp-arena {
+    flex: 1; min-height: 0; display: flex; flex-direction: column;
+    padding: clamp(0.8rem, 2.5vh, 2.5rem) clamp(1rem, 3.5vw, 3.5rem);
+    overflow-y: auto; -webkit-overflow-scrolling: touch;
+  }
+  .mp-tp-arena-inner {
+    margin: auto; width: 100%; max-width: 1250px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; gap: clamp(1rem, 2.5vh, 2.2rem);
+  }
+  .mp-tp-question {
+    font-size: clamp(1.4rem, 2.8vw, 2.9rem); font-weight: 900; color: #ffffff; line-height: 1.35;
+    margin: 0; text-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  }
+  
+  /* FACIT BOKS */
+  .mp-tp-target-box {
+    display: none; flex-direction: column; align-items: center; background: #4c1d95;
+    border: 4px solid #c4b5fd; border-radius: 20px; padding: clamp(1.2rem, 2.5vh, 2.2rem) clamp(1.5rem, 4vw, 4.5rem);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5); transform: scale(0.8); opacity: 0;
+    transition: all 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275); max-width: 850px; width: 100%; box-sizing: border-box;
+  }
+  .mp-tp-target-box.is-revealed { transform: scale(1); opacity: 1; display: flex; }
+  .mp-tp-target-label { font-size: clamp(0.85rem, 1.2vw, 1.05rem); font-weight: 900; color: #c4b5fd; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px; }
+  .mp-tp-target-value { font-size: clamp(2.8rem, 5.5vw, 5.5rem); font-weight: 900; color: #22d3ee; line-height: 1; text-shadow: 0 0 20px rgba(34,211,238,0.5); word-break: break-word; }
+  .mp-tp-target-unit { font-size: clamp(1.1rem, 1.6vw, 1.6rem); font-weight: 700; color: #a78bfa; margin-top: 6px; }
+  .mp-tp-target-info { font-size: clamp(0.95rem, 1.3vw, 1.15rem); color: #ddd6fe; margin-top: 12px; font-weight: 600; line-height: 1.4; }
+
+  /* BUNDPANEL */
+  .mp-tp-control-strip {
+    background: #2e1065; border-top: 3px solid #8b5cf6;
+    padding: clamp(12px, 2vh, 20px) clamp(12px, 2vw, 32px);
+    display: flex; flex-direction: column; gap: clamp(12px, 2vh, 16px); flex-shrink: 0;
+  }
+  .mp-tp-teams-row {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: clamp(10px, 1.5vw, 20px);
+  }
+  .mp-tp-team-pod {
+    background: #3b0764; border: 2.5px solid #581c87; border-radius: 14px;
+    padding: clamp(10px, 1.5vh, 16px); display: flex; flex-direction: column; align-items: center; gap: clamp(8px, 1.2vh, 12px);
+    position: relative; transition: all 0.3s ease;
+  }
+  .mp-tp-team-pod.is-winner {
+    background: #4c1d95; border-color: #f59e0b; box-shadow: 0 0 25px rgba(245,158,11,0.4); transform: translateY(-3px);
+  }
+  .mp-tp-team-pod.is-bust {
+    opacity: 0.55; filter: grayscale(70%); border-color: #ef4444;
+  }
+
+  .mp-tp-pod-header { display: flex; justify-content: space-between; width: 100%; align-items: center; gap: 8px; }
+  .mp-tp-team-name { font-size: clamp(0.95rem, 1.4vw, 1.3rem); font-weight: 900; color: #e9d5ff; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .mp-tp-team-score { font-size: clamp(1.2rem, 1.8vw, 1.7rem); font-weight: 900; color: #22d3ee; background: #2e1065; padding: 2px 8px; border-radius: 8px; }
+
+  /* Input */
+  .mp-tp-guess-input {
+    width: 100%; background: #1e1b4b; border: 2px solid #8b5cf6; border-radius: 10px;
+    padding: clamp(8px, 1.2vh, 12px); color: #fff; font-size: clamp(16px, 1.8vw, 1.6rem); font-weight: 900; text-align: center; outline: none;
+    -moz-appearance: textfield;
+  }
+  .mp-tp-guess-input::-webkit-outer-spin-button,
+  .mp-tp-guess-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+  .mp-tp-guess-input:focus { border-color: #22d3ee; box-shadow: 0 0 15px rgba(34,211,238,0.3); }
+
+  /* Låst bud */
+  .mp-tp-locked-guess {
+    font-size: clamp(1.6rem, 2.5vw, 2.8rem); font-weight: 900; color: #ffffff; text-align: center; width: 100%;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5); word-break: break-word; line-height: 1.1;
+  }
+  .mp-tp-diff-badge {
+    font-size: clamp(0.85rem, 1.2vw, 1.15rem); font-weight: 900; padding: 4px 10px; border-radius: 999px; margin-top: 2px; text-align: center;
+  }
+  .badge-winner { background: #f59e0b; color: #451a03; }
+  .badge-close { background: #10b981; color: #022c22; }
+  .badge-far { background: #6b7280; color: #f9fafb; }
+  .badge-bust { background: #ef4444; color: #7f1d1d; }
+
+  /* MASTER BAR */
+  .mp-tp-master-bar { display: flex; justify-content: center; }
+  .mp-btn-tp-master {
+    background: #22d3ee; color: #083344; border: none; border-radius: 12px;
+    padding: clamp(10px, 1.6vh, 16px) clamp(20px, 3vw, 40px); font-size: clamp(1rem, 1.4vw, 1.3rem); font-weight: 900; cursor: pointer;
+    text-transform: uppercase; letter-spacing: 0.05em; transition: all 0.15s; box-shadow: 0 4px 15px rgba(34,211,238,0.3);
+  }
+  .mp-btn-tp-master:hover { background: #06b6d4; transform: scale(1.02); }
+
+  /* LANDSCAPE OPTIMERING */
+  @media (max-height: 500px) {
+    .mp-tp-topbar { padding: 4px 12px !important; }
+    .mp-tp-arena { padding: 8px 16px !important; }
+    .mp-tp-arena-inner { gap: 8px !important; }
+    .mp-tp-question { font-size: 1.2rem !important; }
+    .mp-tp-target-box { padding: 8px 20px !important; border-width: 2px !important; }
+    .mp-tp-target-value { font-size: 2.4rem !important; }
+    .mp-tp-control-strip { padding: 6px 16px calc(6px + env(safe-area-inset-bottom, 0px)) 16px !important; gap: 6px !important; }
+    .mp-tp-teams-row { gap: 6px !important; }
+    .mp-tp-team-pod { padding: 4px 8px !important; gap: 4px !important; border-width: 1.5px !important; }
+    .mp-tp-guess-input { font-size: 16px !important; padding: 4px !important; }
+    .mp-tp-locked-guess { font-size: 1.3rem !important; }
+    .mp-tp-diff-badge { font-size: 0.78rem !important; padding: 2px 6px !important; }
+    .mp-btn-tp-master { padding: 6px 20px !important; font-size: 0.9rem !important; }
+  }
+
+  /* RESULTS */
+  #mp-tp-results {
+    position: absolute; inset: 0; background: #1e1b4b; display: none; flex-direction: column;
+    align-items: center; justify-content: center; padding: 2rem; text-align: center;
+  }
+  .mp-tp-trophy { font-size: 5rem; margin-bottom: 1rem; filter: drop-shadow(0 0 20px rgba(245,158,11,0.5)); }
+  .mp-tp-res-title { font-size: clamp(2rem, 4vw, 4rem); font-weight: 900; color: #22d3ee; margin-bottom: 0.5rem; }
+  .mp-tp-podium-list { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 500px; margin: 1.5rem 0; }
+  .mp-tp-podium-card {
+    background: #3b0764; border: 2.5px solid #6b21a8; border-radius: 14px;
+    padding: 14px 20px; display: flex; justify-content: space-between; align-items: center;
+    font-size: clamp(1.1rem, 1.6vw, 1.4rem); font-weight: 900; color: #e9d5ff;
+  }
+  .mp-tp-podium-card.winner { border-color: #f59e0b; background: #4c1d95; color: #fbbf24; box-shadow: 0 0 25px rgba(245,158,11,0.35); transform: scale(1.03); }
+</style>
+
+<div id="mp-tp-overlay">
+  <!-- LOBBY -->
+  <div id="mp-tp-lobby">
+    <div class="mp-tp-lobby-inner">
+      <div class="mp-tp-icon" style="font-size: 3.5rem; margin-bottom: 0.5rem;">🎯</div>
+      <div class="mp-tp-title-main">Estimeringsduel</div>
+      <div class="mp-tp-sub-main">Indtast jeres bedste gæt. Maskinen beregner afvigelsen og uddeler point!</div>
+
+      <div class="mp-tp-section">
+        <div class="mp-tp-label">1. Spiltilstand</div>
+        <div class="mp-tp-pill-selector">
+          <div class="mp-tp-pill is-active" id="tp-mode-normal" onclick="MPTaettest.setMode('normal')">
+            <div style="font-size:1.02rem; margin-bottom:3px;">Klassisk</div>
+            <div style="font-size:0.75rem; font-weight:600;">Nærmeste tal</div>
+          </div>
+          <div class="mp-tp-pill" id="tp-mode-tpir" onclick="MPTaettest.setMode('tpir')">
+            <div style="font-size:1.02rem; margin-bottom:3px;">Price is Right</div>
+            <div style="font-size:0.75rem; font-weight:600;">Skyd ikke over</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NYT: VALG AF POINTSYSTEM -->
+      <div class="mp-tp-section">
+        <div class="mp-tp-label">2. Pointberegning</div>
+        <div class="mp-tp-pill-selector">
+          <div class="mp-tp-pill is-active" id="tp-score-winner" onclick="MPTaettest.setScoringMode('winner')">
+            <div style="font-size:1.02rem; margin-bottom:3px;">Kun Vinder</div>
+            <div style="font-size:0.75rem; font-weight:600;">1 pt til tætteste</div>
+          </div>
+          <div class="mp-tp-pill" id="tp-score-podium" onclick="MPTaettest.setScoringMode('podium')">
+            <div style="font-size:1.02rem; margin-bottom:3px;">Podie / Rang</div>
+            <div style="font-size:0.75rem; font-weight:600;">3, 2, 1 point</div>
+          </div>
+          <div class="mp-tp-pill" id="tp-score-precision" onclick="MPTaettest.setScoringMode('precision')">
+            <div style="font-size:1.02rem; margin-bottom:3px;">Præcision</div>
+            <div style="font-size:0.75rem; font-weight:600;">0-100 pt efter %</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mp-tp-section">
+        <div class="mp-tp-label">3. Antal Hold / Spillere</div>
+        <div class="mp-tp-pill-selector">
+          <div class="mp-tp-pill" data-teams="1" onclick="MPTaettest.setTeamCount(1)">1</div>
+          <div class="mp-tp-pill" data-teams="2" onclick="MPTaettest.setTeamCount(2)">2</div>
+          <div class="mp-tp-pill is-active" data-teams="3" onclick="MPTaettest.setTeamCount(3)">3</div>
+          <div class="mp-tp-pill" data-teams="4" onclick="MPTaettest.setTeamCount(4)">4</div>
+        </div>
+      </div>
+
+      <div class="mp-tp-section">
+        <div class="mp-tp-label">4. Holdnavne</div>
+        <div class="mp-tp-teams-grid" id="mp-tp-teams-inputs"></div>
+      </div>
+
+      <button type="button" class="mp-btn-launch-tp" onclick="MPTaettest.startGame()" style="width: 100%; padding: 15px; font-size: 1.1rem; margin-top: 0.5rem;">Start Duellen!</button>
+      
+      <div style="display:flex; justify-content: space-between; width:100%; margin-top:1.5rem;">
+        <button type="button" onclick="MPTaettest.closeQuiz()" style="background:none; border:none; color:#9ca3af; font-weight:700; cursor:pointer;">Afbryd</button>
+        <button type="button" id="btn-tp-resume" onclick="MPTaettest.resumeSavedGame()" style="display:none; background:none; border:none; color:#10b981; font-weight:700; cursor:pointer;">▶ Genoptag gemt spil</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GAME SCREEN -->
+  <div id="mp-tp-game" style="display: none;">
+    <div class="mp-tp-topbar">
+      <div class="mp-tp-meta">
+        <span class="mp-tp-tag" id="mp-tp-q-counter">Runde 1/10</span>
+        <span class="mp-tp-mode-label" id="mp-tp-mode-display">Klassisk Tilstand</span>
+      </div>
+      <div class="mp-tp-actions">
+        <button type="button" class="mp-btn-tp-nav" onclick="MPTaettest.resetGameData()" style="color:#fca5a5; border-color:rgba(239,68,68,0.3);">Nulstil</button>
+        <button type="button" class="mp-btn-tp-nav" onclick="MPTaettest.closeQuiz()">✕ Luk</button>
+      </div>
+    </div>
+
+    <!-- ARENA (CENTRERET) -->
+    <div class="mp-tp-arena">
+      <div class="mp-tp-arena-inner">
+        <div class="mp-tp-question" id="mp-tp-q-text">Spørgsmål indlæses...</div>
+        
+        <!-- Det rigtige svar -->
+        <div class="mp-tp-target-box" id="mp-tp-target-box">
+          <div class="mp-tp-target-label">Det rigtige svar er</div>
+          <div class="mp-tp-target-value" id="mp-tp-target-val">0</div>
+          <div class="mp-tp-target-unit" id="mp-tp-target-unit">enhed</div>
+          <div class="mp-tp-target-info" id="mp-tp-target-info">Ekstra information...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mp-tp-control-strip">
+      <div class="mp-tp-teams-row" id="mp-tp-teams-strip"></div>
+      
+      <div class="mp-tp-master-bar">
+        <button type="button" class="mp-btn-tp-master" id="mp-tp-master-btn" onclick="MPTaettest.handleMasterAction()">Lås gæt & Afslør facit ➔</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <div id="mp-tp-results">
+    <div class="mp-tp-trophy">🏆</div>
+    <div class="mp-tp-res-title">Spillet er slut!</div>
+    <div class="mp-tp-podium-list" id="mp-tp-podium-container"></div>
+    <button type="button" class="mp-btn-launch-tp" onclick="MPTaettest.closeQuiz()" style="padding: 14px 36px; font-size:1.1rem; margin-top:1.5rem;">Afslut og vend tilbage</button>
+  </div>
+</div>
+
+<script>
+window.MPTaettest = window.MPTaettest || (function() {
+  const STORAGE_KEY = 'mp_tp_save_state_v3';
+
+  let rawData = [];
+  let teamCount = 3;
+  let gameMode = 'normal';
+  let scoringMode = 'winner'; // 'winner', 'podium', 'precision'
+
+  let state = {
+    teams: [],
+    questions: [],
+    currentQIndex: 0,
+    phase: 'INPUT',
+    mode: 'normal',
+    scoringMode: 'winner'
+  };
+
+  const FALLBACK_DATA = [
+    { q: "Hvor mange procent af kropsvægten udgør skeletmuskulaturen hos en ung, rask mand?", target: 40, unit: "%", info: "Hos kvinder er det typisk 30-35%." },
+    { q: "Hvor mange knogler er der normalt i et fuldvoksent menneskes krop?", target: 206, unit: "knogler", info: "Vi fødes med næsten 300, men de vokser sammen." },
+    { q: "Hvor mange liter blod pumper hjertet ca. pr. minut hos en eliteatlet under maksimalt arbejde?", target: 35, unit: "liter/min", info: "En almindelig person pumper ca. 20-25 liter." },
+    { q: "Hvad var Usain Bolts tophastighed i km/t, da han satte verdensrekord i 2009?", target: 44.72, unit: "km/t", info: "Hans gennemsnitshastighed over de 100 meter var 37,58 km/t." },
+    { q: "Hvor mange kalorier forbrænder en person på 75 kg cirka på at løbe et marathon (42,2 km)?", target: 3150, unit: "kcal", info: "Tommelfingerregel: ca. 1 kcal pr. kg pr. km." }
+  ];
+
+  function ensureMountedToBody() {
+    const overlay = document.getElementById('mp-tp-overlay');
+    if (overlay && overlay.parentElement !== document.body) {
+      document.body.appendChild(overlay);
+    }
+  }
+
+  function syncLauncher() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    const container = document.getElementById('mp-tp-launcher-actions');
+    const desc = document.getElementById('mp-tp-launcher-desc');
+    if (!container) return;
+
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (parsed.teams && parsed.teams.length > 0 && parsed.questions && parsed.questions.length > 0) {
+          if (desc) desc.textContent = `Spil i gang: Runde ${parsed.currentQIndex + 1} af ${parsed.questions.length}.`;
+          container.innerHTML = `
+            <button type="button" class="mp-btn-launch-tp btn-resume" onclick="MPTaettest.resumeSavedGame()">▶ Fortsæt spillet</button>
+            <button type="button" class="mp-btn-tp-secondary" onclick="MPTaettest.openLobby()">Start forfra</button>
+          `;
+          return;
+        }
+      } catch(e) {}
+    }
+    if (desc) desc.textContent = "Estimeringsduellen. Ram tættest på facit for at vinde point. 1-4 hold.";
+    container.innerHTML = `<button type="button" class="mp-btn-launch-tp" onclick="MPTaettest.openLobby()">Opsæt Estimeringsduel</button>`;
+  }
+
+  function initLobby() {
+    const dataEl = document.getElementById('mp-tp-data');
+    try { 
+      rawData = JSON.parse(dataEl.textContent); 
+    } catch(e) { rawData = []; }
+    
+    if (!rawData || rawData.length === 0) {
+      rawData = FALLBACK_DATA;
+    }
+
+    const saved = localStorage.getItem(STORAGE_KEY);
+    const resumeBtn = document.getElementById('btn-tp-resume');
+    if (resumeBtn) resumeBtn.style.display = saved ? 'inline-block' : 'none';
+    setTeamCount(teamCount);
+  }
+
+  function openLobby() {
+    ensureMountedToBody();
+    initLobby();
+    document.body.classList.add('mp-tp-active');
+    const overlay = document.getElementById('mp-tp-overlay');
+    if (overlay.requestFullscreen) overlay.requestFullscreen().catch(()=>{});
+    document.getElementById('mp-tp-lobby').style.display = 'flex';
+    document.getElementById('mp-tp-game').style.display = 'none';
+    document.getElementById('mp-tp-results').style.display = 'none';
+    overlay.style.display = 'block';
+  }
+
+  function closeQuiz() {
+    document.body.classList.remove('mp-tp-active');
+    const overlay = document.getElementById('mp-tp-overlay');
+    if (overlay) overlay.style.display = 'none';
+    if (document.exitFullscreen && document.fullscreenElement) document.exitFullscreen().catch(()=>{});
+    syncLauncher();
+  }
+
+  function setMode(m) {
+    gameMode = m;
+    document.getElementById('tp-mode-normal').classList.toggle('is-active', m === 'normal');
+    document.getElementById('tp-mode-tpir').classList.toggle('is-active', m === 'tpir');
+  }
+
+  function setScoringMode(sm) {
+    scoringMode = sm;
+    document.getElementById('tp-score-winner').classList.toggle('is-active', sm === 'winner');
+    document.getElementById('tp-score-podium').classList.toggle('is-active', sm === 'podium');
+    document.getElementById('tp-score-precision').classList.toggle('is-active', sm === 'precision');
+  }
+
+  function setTeamCount(count) {
+    teamCount = count;
+    document.querySelectorAll('[data-teams]').forEach(p => {
+      p.classList.toggle('is-active', parseInt(p.dataset.teams, 10) === count);
+    });
+    const grid = document.getElementById('mp-tp-teams-inputs');
+    grid.innerHTML = '';
+    for (let i = 0; i < count; i++) {
+      const box = document.createElement('div');
+      box.className = 'mp-tp-team-input-box';
+      box.innerHTML = `<div class="mp-tp-dot c-dot-${i}"></div><input type="text" id="tp-team-name-${i}" value="Hold ${i+1}">`;
+      grid.appendChild(box);
+    }
+  }
+
+  function startGame() {
+    if (!rawData || rawData.length === 0) return;
+    
+    state.mode = gameMode;
+    state.scoringMode = scoringMode;
+    state.currentQIndex = 0;
+    state.phase = 'INPUT';
+    state.questions = [...rawData];
+    
+    state.teams = [];
+    for (let i = 0; i < teamCount; i++) {
+      const input = document.getElementById(`tp-team-name-${i}`);
+      state.teams.push({
+        name: (input && input.value.trim()) ? input.value.trim() : `Hold ${i+1}`,
+        score: 0,
+        currentGuess: null,
+        lastResult: null
+      });
+    }
+
+    saveState();
+    launchGameUI();
+  }
+
+  function resumeSavedGame() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        state = JSON.parse(saved);
+        ensureMountedToBody();
+        document.body.classList.add('mp-tp-active');
+        const overlay = document.getElementById('mp-tp-overlay');
+        if (overlay.requestFullscreen) overlay.requestFullscreen().catch(()=>{});
+        overlay.style.display = 'block';
+        launchGameUI();
+      } catch(e) { 
+        localStorage.removeItem(STORAGE_KEY);
+        openLobby(); 
+      }
+    }
+  }
+
+  function saveState() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    syncLauncher();
+  }
+
+  function resetGameData() {
+    if (confirm("Slet spillet og start forfra?")) {
+      localStorage.removeItem(STORAGE_KEY);
+      openLobby();
+    }
+  }
+
+  function launchGameUI() {
+    document.getElementById('mp-tp-lobby').style.display = 'none';
+    document.getElementById('mp-tp-game').style.display = 'flex';
+    document.getElementById('mp-tp-results').style.display = 'none';
+    renderState();
+  }
+
+  function renderState() {
+    const qData = state.questions[state.currentQIndex];
+    if (!qData) { showResults(); return; }
+
+    const modeText = (state.mode === 'tpir') ? 'Price Is Right' : 'Klassisk';
+    const scoreText = (state.scoringMode === 'precision') ? 'Præcision (0-100 pt)' : (state.scoringMode === 'podium' ? 'Podie (3-2-1 pt)' : 'Vinder (1 pt)');
+
+    document.getElementById('mp-tp-q-counter').textContent = `Runde ${state.currentQIndex + 1}/${state.questions.length}`;
+    document.getElementById('mp-tp-mode-display').textContent = `${modeText} • ${scoreText}`;
+    document.getElementById('mp-tp-q-text').textContent = qData.q;
+
+    const targetBox = document.getElementById('mp-tp-target-box');
+    const masterBtn = document.getElementById('mp-tp-master-btn');
+    const strip = document.getElementById('mp-tp-teams-strip');
+    
+    strip.style.setProperty('--tp-teams', state.teams.length);
+    strip.innerHTML = '';
+
+    if (state.phase === 'INPUT') {
+      targetBox.classList.remove('is-revealed');
+      masterBtn.textContent = 'Lås gæt & Afslør facit ➔';
+      masterBtn.style.background = '#22d3ee';
+      masterBtn.style.color = '#083344';
+
+      state.teams.forEach((t, i) => {
+        const pod = document.createElement('div');
+        pod.className = 'mp-tp-team-pod';
+        pod.innerHTML = `
+          <div class="mp-tp-pod-header">
+            <span class="mp-tp-team-name">${t.name}</span>
+            <span class="mp-tp-team-score">${t.score} pt</span>
+          </div>
+          <input type="number" step="any" class="mp-tp-guess-input" id="tp-guess-${i}" placeholder="Indtast gæt...">
+        `;
+        strip.appendChild(pod);
+      });
+
+    } else if (state.phase === 'REVEALED') {
+      masterBtn.textContent = 'Gå til næste runde ➔';
+      masterBtn.style.background = '#10b981';
+      masterBtn.style.color = '#ffffff';
+
+      document.getElementById('mp-tp-target-val').textContent = qData.target;
+      document.getElementById('mp-tp-target-unit').textContent = qData.unit || '';
+      const infoEl = document.getElementById('mp-tp-target-info');
+      if (qData.info) {
+        infoEl.textContent = qData.info;
+        infoEl.style.display = 'block';
+      } else {
+        infoEl.style.display = 'none';
+      }
+      targetBox.classList.add('is-revealed');
+
+      state.teams.forEach((t, i) => {
+        const pod = document.createElement('div');
+        pod.className = `mp-tp-team-pod ${t.lastResult.won ? 'is-winner' : ''} ${t.lastResult.bust ? 'is-bust' : ''}`;
+        
+        let badgeHtml = '';
+        if (t.lastResult.bust) {
+          badgeHtml = `<div class="mp-tp-diff-badge badge-bust">Bust! (For højt)</div>`;
+        } else if (t.currentGuess === null) {
+          badgeHtml = `<div class="mp-tp-diff-badge badge-far">Intet gæt</div>`;
+        } else {
+          const diff = Math.abs(t.currentGuess - qData.target);
+          const formattedDiff = Number.isInteger(diff) ? diff : diff.toFixed(1);
+          const diffPrefix = t.currentGuess > qData.target ? '+' : (t.currentGuess < qData.target ? '-' : '');
+          const diffClass = t.lastResult.won ? 'badge-winner' : (t.lastResult.ptsAwarded > 0 ? 'badge-close' : 'badge-far');
+          
+          let badgeText = '';
+          if (state.scoringMode === 'precision') {
+            badgeText = `+${t.lastResult.ptsAwarded} pt (${t.lastResult.pct.toFixed(1)}% afvigelse)`;
+          } else if (state.scoringMode === 'podium') {
+            badgeText = t.lastResult.ptsAwarded > 0 ? `+${t.lastResult.ptsAwarded} pt (${diffPrefix}${formattedDiff})` : `0 pt (${diffPrefix}${formattedDiff})`;
+          } else {
+            badgeText = t.lastResult.won ? `🏆 +1 pt (${diffPrefix}${formattedDiff})` : `${diffPrefix}${formattedDiff}`;
+          }
+
+          badgeHtml = `<div class="mp-tp-diff-badge ${diffClass}">${badgeText}</div>`;
+        }
+
+        const displayGuess = t.currentGuess !== null ? (Number.isInteger(t.currentGuess) ? t.currentGuess : t.currentGuess.toFixed(2)) : '-';
+        
+        pod.innerHTML = `
+          <div class="mp-tp-pod-header">
+            <span class="mp-tp-team-name">${t.name}</span>
+            <span class="mp-tp-team-score">${t.score} pt</span>
+          </div>
+          <div class="mp-tp-locked-guess">${displayGuess}</div>
+          ${badgeHtml}
+        `;
+        strip.appendChild(pod);
+      });
+    }
+  }
+
+  function handleMasterAction() {
+    if (state.phase === 'INPUT') {
+      const qData = state.questions[state.currentQIndex];
+      const target = parseFloat(qData.target);
+
+      // Klargør hvert holds afvigelse
+      state.teams.forEach((t, i) => {
+        const input = document.getElementById(`tp-guess-${i}`);
+        const valStr = input ? input.value.replace(',', '.') : '';
+        const guess = parseFloat(valStr);
+        
+        t.currentGuess = isNaN(guess) ? null : guess;
+        t.lastResult = { dist: Infinity, pct: 100, won: false, bust: false, ptsAwarded: 0 };
+
+        if (t.currentGuess !== null) {
+          if (state.mode === 'tpir' && t.currentGuess > target) {
+            t.lastResult.bust = true;
+          } else {
+            t.lastResult.dist = Math.abs(t.currentGuess - target);
+            t.lastResult.pct = (target !== 0) ? (t.lastResult.dist / target) * 100 : t.lastResult.dist;
+          }
+        }
+      });
+
+      // 1. SCORING: PRÆCISION (0 - 100 point efter % afvigelse)
+      if (state.scoringMode === 'precision') {
+        let bestDist = Infinity;
+        state.teams.forEach(t => {
+          if (!t.lastResult.bust && t.currentGuess !== null) {
+            const pts = Math.max(0, Math.round(100 - t.lastResult.pct));
+            t.lastResult.ptsAwarded = pts;
+            t.score += pts;
+            if (t.lastResult.dist < bestDist) bestDist = t.lastResult.dist;
+          }
+        });
+        state.teams.forEach(t => {
+          if (!t.lastResult.bust && t.currentGuess !== null && Math.abs(t.lastResult.dist - bestDist) < 0.0001) {
+            t.lastResult.won = true;
+          }
+        });
+
+      // 2. SCORING: PODIE (3, 2, 1 point)
+      } else if (state.scoringMode === 'podium') {
+        const validTeams = state.teams.filter(t => !t.lastResult.bust && t.currentGuess !== null);
+        validTeams.sort((a, b) => a.lastResult.dist - b.lastResult.dist);
+        
+        const podiumScores = [3, 2, 1];
+        validTeams.forEach((t, rank) => {
+          if (rank < podiumScores.length) {
+            const pts = podiumScores[rank];
+            t.lastResult.ptsAwarded = pts;
+            t.score += pts;
+            if (rank === 0) t.lastResult.won = true;
+          }
+        });
+
+      // 3. SCORING: KUN VINDER (1 point)
+      } else {
+        const validGuesses = state.teams.filter(t => !t.lastResult.bust && t.currentGuess !== null).map(t => t.lastResult.dist);
+        if (validGuesses.length > 0) {
+          const minDist = Math.min(...validGuesses);
+          state.teams.forEach(t => {
+            if (!t.lastResult.bust && t.currentGuess !== null && Math.abs(t.lastResult.dist - minDist) < 0.0001) {
+              t.lastResult.won = true;
+              t.lastResult.ptsAwarded = 1;
+              t.score += 1;
+            }
+          });
+        }
+      }
+
+      state.phase = 'REVEALED';
+      saveState();
+      renderState();
+      animateValue(document.getElementById('mp-tp-target-val'), 0, target, 1100);
+
+    } else if (state.phase === 'REVEALED') {
+      state.currentQIndex++;
+      state.phase = 'INPUT';
+      saveState();
+      renderState();
+    }
+  }
+
+  function animateValue(obj, start, end, duration) {
+    let startTimestamp = null;
+    const isFloat = !Number.isInteger(end);
+    const step = (timestamp) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+      const easeProgress = 1 - Math.pow(1 - progress, 3);
+      const current = start + easeProgress * (end - start);
+      
+      obj.innerHTML = isFloat 
+        ? current.toLocaleString('da-DK', { minimumFractionDigits: 1, maximumFractionDigits: 2 }) 
+        : Math.floor(current).toLocaleString('da-DK');
+        
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      } else {
+        obj.innerHTML = isFloat 
+          ? end.toLocaleString('da-DK', { minimumFractionDigits: 1, maximumFractionDigits: 2 }) 
+          : end.toLocaleString('da-DK');
+      }
+    };
+    window.requestAnimationFrame(step);
+  }
+
+  function showResults() {
+    document.getElementById('mp-tp-game').style.display = 'none';
+    const res = document.getElementById('mp-tp-results');
+    res.style.display = 'flex';
+
+    const container = document.getElementById('mp-tp-podium-container');
+    container.innerHTML = '';
+    const sorted = [...state.teams].sort((a,b) => b.score - a.score);
+    
+    sorted.forEach((team, idx) => {
+      const card = document.createElement('div');
+      card.className = `mp-tp-podium-card ${idx === 0 ? 'winner' : ''}`;
+      card.innerHTML = `
+        <span>${idx === 0 ? '🥇 1. Plads' : (idx === 1 ? '🥈 2. Plads' : (idx === 2 ? '🥉 3. Plads' : (idx+1) + '. Plads'))}: ${team.name}</span>
+        <span style="color:#22d3ee;">${team.score} pt</span>
+      `;
+      container.appendChild(card);
+    });
+
+    localStorage.removeItem(STORAGE_KEY);
+    syncLauncher();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', syncLauncher);
+  } else {
+    syncLauncher();
+  }
+
+  return { openLobby, closeQuiz, setMode, setScoringMode, setTeamCount, startGame, resumeSavedGame, resetGameData, handleMasterAction };
+})();
+</script>

@@ -540,6 +540,144 @@ Brug:
     color: #ffffff;
     line-height: 1.1;
   }
+  /* Fuldskærms container med dynamisk højde */
+#mp-jeopardy-overlay {
+  display: none;
+  position: fixed !important;
+  top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+  width: 100vw !important;
+  height: 100dvh !important; /* Retter 100vh fejlen */
+  background: #00008b;
+  z-index: 2147483647 !important;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#mp-jeopardy-game {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  background: #00005a;
+  color: #ffffff;
+  height: 100dvh;
+}
+
+/* Plade-container: muliggør horisontal swipe på stående mobil */
+.mp-jeo-board-container {
+  flex: 1;
+  min-height: 0; /* Vigtigt: tillader flex-children at krympe */
+  padding: clamp(6px, 1.5vh, 16px);
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto; /* Sikrer at 5. kolonne kan nås på smalle skærme */
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mp-jeo-grid {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: clamp(4px, 1vw, 12px);
+  max-width: 1650px;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 580px; /* Forhindrer at 5 kolonner mases til ulæselighed i portrait */
+}
+
+.mp-jeo-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(4px, 0.8vh, 10px);
+  min-width: 0;
+}
+
+.mp-jeo-cat-header {
+  background: #0000cd;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4px 6px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  font-weight: 900;
+  font-size: clamp(0.7rem, 1.2vw, 1.1rem);
+  text-transform: uppercase;
+  flex: 0 0 16%;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.mp-jeo-card {
+  background: #0000cd;
+  color: #fbbf24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: clamp(1.1rem, 2.8vw, 2.8rem);
+  flex: 1;
+  transition: transform 0.1s, filter 0.15s;
+}
+
+/* ==========================================================
+   LANDSCAPE OPTIMERING FOR MOBIL (@media max-height: 500px)
+   Løser afskårne 400 & 500 point-felter (Billede 6)
+   ========================================================== */
+@media (max-height: 500px) {
+  .mp-jeo-topbar {
+    padding: 4px 12px !important;
+  }
+  .mp-jeo-logo {
+    font-size: 0.95rem !important;
+  }
+  .mp-btn-jeo-nav {
+    padding: 3px 8px !important;
+    font-size: 0.75rem !important;
+  }
+  .mp-jeo-board-container {
+    padding: 4px 8px !important;
+  }
+  .mp-jeo-grid {
+    gap: 4px !important;
+    min-width: 100% !important;
+  }
+  .mp-jeo-col {
+    gap: 3px !important;
+  }
+  .mp-jeo-cat-header {
+    font-size: 0.7rem !important;
+    padding: 2px !important;
+    flex: 0 0 15% !important;
+  }
+  .mp-jeo-card {
+    font-size: 1.1rem !important;
+    border-width: 1.5px !important;
+  }
+  .mp-jeo-control-panel {
+    padding: 4px 12px calc(4px + env(safe-area-inset-bottom, 0px)) 12px !important;
+  }
+  .mp-jeo-team-box {
+    padding: 2px 8px !important;
+    border-radius: 8px !important;
+  }
+  .mp-jeo-team-name {
+    font-size: 0.75rem !important;
+  }
+  .mp-jeo-team-score {
+    font-size: 1.1rem !important;
+  }
+  .mp-jeo-turn-indicator-badge {
+    top: -6px !important;
+    font-size: 0.6rem !important;
+    padding: 1px 6px !important;
+  }
+}
 </style>
 
 <!-- MODAL MARKUP -->
