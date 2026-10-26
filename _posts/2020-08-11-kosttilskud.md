@@ -17,6 +17,11 @@ tags:
 - kost & ernæring
 - kosttilskud
 - populær
+quiz_modules:
+  - id: nskq-kosttilskud
+    title: 5. Kosttilskud
+    icon: 💊
+    key: nskq_kosttilskud
 ---
 
 Er du også interesseret i at vide, hvilke kosttilskud der rent faktisk virker? Her hjælper vi dig til, hvilke tilskud det kan betale sig at bruge penge på, hvis du gerne vil have mere ud af din træning.
@@ -52,6 +57,12 @@ Eric Helms har lavet en rigtig god introduktion til, hvordan man skal gribe sin 
 Som du kan se i pyramiden, så er kosttilskud noget du skal supplere med, når du har gjort dig umage for at få styr på alle de underliggende niveauer i kostpyramiden.
 
 Når [Helsam](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=66247&htmlurl=https://www.helsam.dk/artikler/forskelligt/hvilke-kosttilskud-skal-jeg-tage){: rel='sponsored nofollow noopener' } lover at hjælpe med hvilke kosttilskud man bør tage, så synes jeg det er lidt ærgerligt, at Helsam bare lister en lang række kosttilskud alfabetisk og fortæller om, hvad de enkelte vitaminer og mineraler kan. Der er ingen hjælp til, hvad man typisk får nok af i kosten.
+
+## Quiz om kosttilskud
+
+Herunder finder du en quiz om kosttilskud fra den videnskabeligt validerede *Nutrition for Sport Knowledge Questionnaire* (NSKQ) udviklet af Trakman et al.
+
+{% include components/flashcard-decks.html decks=page.quiz_modules %}
 
 ## Hvilke kosttilskud virker?
 

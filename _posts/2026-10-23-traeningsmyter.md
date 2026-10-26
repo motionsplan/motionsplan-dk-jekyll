@@ -1,7 +1,7 @@
 ---
 title: "Træningsmyter og kostmyter: Test din viden om styrketræning og ernæring"
 seo_title: "Træningsmyter: Test din viden mod videnskaben (Quiz & Fakta)"
-description: "Tror du stadig, at lette vægte ikke bygger muskler, eller at magnesium fjerner kramper? Test din viden mod 45 systematiske reviews i vores evidensbaserede myte-quiz."
+description: "Test din viden om træning og kost mod 45 systematiske reviews i vores evidensbaserede myte-quiz."
 excerpt: "Hvor meget af det, du hører i fitnesscenteret, er ren 'broscience'? Test din viden mod et videnskabeligt studie af 721 fitnessudøvere."
 permalink: /traeningsmyter/
 language: da
@@ -101,7 +101,7 @@ Herunder finder du det komplette, videnskabeligt validerede *Nutrition for Sport
 
 ---
 
-## 🏋️ De 8 Træningsmyter: Hvad siger forskningen?
+## 🏋️ De 8 træningsmyter: Hvad siger forskningen?
 
 Forud for undersøgelsen gennemgik forskerne 45 systematiske oversigtsartikler og metaanalyser for at etablere den videnskabelige konsensus bag hver enkelt påstand.
 

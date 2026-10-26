@@ -14,6 +14,37 @@ author_profile: true
 toc: true
 breadcrumbs: true
 classes: wide
+quiz_modules:
+  # 2. NSKQ Sektion 1-6 i officiel rækkefølge (Trakman et al., 2017)
+  - id: nskq-vaegtstyring
+    title: 1. Vægtstyring
+    icon: ⚖️
+    key: nskq_vaegtstyring
+
+  - id: nskq-makronaeringsstoffer
+    title: 2. Kulhydrat, Fedt & Protein
+    icon: 🥩
+    key: nskq_makronaeringsstoffer
+
+  - id: nskq-mikronaeringsstoffer
+    title: 3. Vitaminer & Mineraler
+    icon: 🔬
+    key: nskq_mikronaeringsstoffer
+
+  - id: nskq-sportsernaering
+    title: 4. Sportsernæring
+    icon: 🏃
+    key: nskq_sportsernaering
+
+  - id: nskq-kosttilskud
+    title: 5. Kosttilskud
+    icon: 💊
+    key: nskq_kosttilskud
+
+  - id: nskq-alkohol
+    title: 6. Alkohol i Sport
+    icon: 🍺
+    key: nskq_alkohol
 ---
 
 Hvad enten du løber, cykler, styrketræner eller dyrker holdsport, stiller fysisk aktivitet helt særlige krav til din krop. **Sportsernæring** handler om at tilføre den rette energi, i de rette mængder og på de rette tidspunkter, så du kan yde dit maksimale i træningen, restituere hurtigt og undgå skader.
@@ -72,6 +103,16 @@ Når energiindtaget ikke matcher træningsmængden, kan det få alvorlige konsek
 * **[Energibudget i træningen](/energibudget/)** – Brug dit energiforbrug som målsætning for træningen.
 * **[Kropskomposition i sport](/kropskomposition/)** – Ansvarlig tilgang til vægt, vejning og kropssammensætning.
 </div>
+
+---
+
+## Quiz om sportsernæring
+
+Vil du teste din viden inden for kost, kosttilskud og vægtregulering? 
+
+Herunder finder du det komplette, videnskabeligt validerede *Nutrition for Sport Knowledge Questionnaire* (NSKQ) udviklet af Trakman et al. Testen rummer 89 spørgsmål opdelt i 6 uafhængige sektioner. Vælg et modul for at starte:
+
+{% include components/flashcard-decks.html decks=page.quiz_modules %}
 
 ---
 
