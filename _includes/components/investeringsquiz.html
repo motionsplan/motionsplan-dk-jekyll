@@ -2,10 +2,13 @@
 -----------------------------------------------------------------------------
 MOTIONSPLAN.DK - INVESTERINGSQUIZ ("SOLSBÆK"-MODE)
 Sti: _includes/components/investeringsquiz.html
+Brug:
+  Fra datafil:     {% include components/investeringsquiz.html sets=site.data.min_fil %}
+  Fra frontmatter: {% include components/investeringsquiz.html sets=page.invest_sets %}
 -----------------------------------------------------------------------------
 {% endcomment %}
 
-{% assign raw_sets = include.sets_data | default: site.data.investeringsquiz %}
+{% assign raw_sets = include.sets | default: include.data | default: include.questions | default: include.sets_data | default: page.invest_sets %}
 {% assign force_custom = include.custom | default: page.invest_custom | default: false %}
 
 <div class="mp-invest-launcher-box">
@@ -22,11 +25,7 @@ Sti: _includes/components/investeringsquiz.html
   </div>
 
   <script type="application/json" id="mp-invest-data">
-    {% if raw_sets %}
-      {{ raw_sets | jsonify }}
-    {% else %}
-      []
-    {% endif %}
+    {% if raw_sets %}{{ raw_sets | jsonify }}{% else %}[]{% endif %}
   </script>
 </div>
 
@@ -88,7 +87,7 @@ Sti: _includes/components/investeringsquiz.html
     display: none;
     position: fixed !important;
     top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
-    width: 100vw !important; height: 100vh !important;
+    width: 100vw !important; height: 100dvh !important;
     background: #064e3b;
     z-index: 2147483647 !important;
     font-family: inherit;
@@ -101,7 +100,7 @@ Sti: _includes/components/investeringsquiz.html
   #mp-invest-lobby {
     position: absolute; inset: 0; background: #ffffff;
     display: flex; flex-direction: column; align-items: center;
-    padding: 2rem 1.5rem; overflow-y: auto;
+    padding: 2rem 1.5rem; overflow-y: auto; -webkit-overflow-scrolling: touch;
   }
   .mp-invest-lobby-inner {
     width: 100%; max-width: 580px; display: flex; flex-direction: column;
@@ -134,7 +133,7 @@ Sti: _includes/components/investeringsquiz.html
   }
   .mp-invest-limit-title { font-size: 0.82rem; font-weight: 800; color: #1e293b; min-width: 90px; }
 
-  .mp-invest-teams-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .mp-invest-teams-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; }
   .mp-invest-team-input-box {
     display: flex; align-items: center; background: #f1f5f9;
     border: 1.5px solid #e2e8f0; border-radius: 10px; padding: 6px 10px;
@@ -142,12 +141,12 @@ Sti: _includes/components/investeringsquiz.html
   .mp-team-color-dot { width: 14px; height: 14px; border-radius: 50%; margin-right: 8px; flex-shrink: 0; }
   .t-dot-0 { background: #ef4444; } .t-dot-1 { background: #3b82f6; }
   .t-dot-2 { background: #10b981; } .t-dot-3 { background: #f59e0b; }
-  .mp-invest-team-input-box input { width: 100%; background: transparent; border: none; outline: none; font-weight: 700; font-size: 0.9rem; color: #1e293b; }
+  .mp-invest-team-input-box input { width: 100%; background: transparent; border: none; outline: none; font-weight: 800; font-size: 16px; color: #1e293b; }
 
   /* SPILLET */
   #mp-invest-game {
     position: absolute; inset: 0; display: flex; flex-direction: column;
-    background: #022c22; color: #ffffff;
+    background: #022c22; color: #ffffff; height: 100dvh;
   }
 
   .mp-invest-topbar {
@@ -170,9 +169,9 @@ Sti: _includes/components/investeringsquiz.html
   }
   .mp-btn-inv-nav:hover { background: rgba(255,255,255,0.25); color: #fff; }
 
-  /* ARENA - SIKKER SCROLL */
+  /* ARENA */
   .mp-invest-arena {
-    flex: 1; display: flex; flex-direction: column;
+    flex: 1; display: flex; flex-direction: column; min-height: 0;
     max-width: min(1560px, 96vw); width: 100%; margin: 0 auto;
     padding: clamp(8px, 1.5vh, 18px) clamp(10px, 2vw, 24px) clamp(16px, 2.5vh, 28px);
     box-sizing: border-box; overflow-y: auto; -webkit-overflow-scrolling: touch;
@@ -204,7 +203,7 @@ Sti: _includes/components/investeringsquiz.html
     box-shadow: 0 4px 15px rgba(251, 191, 36, 0.35);
   }
 
-  /* FASE 2: ADAPTIVT OPKORT-GRID (1, 2 el. 3 kolonner) */
+  /* FASE 2: ADAPTIVT OPKORT-GRID */
   .mp-invest-questions-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -255,11 +254,11 @@ Sti: _includes/components/investeringsquiz.html
   }
   .mp-invest-oral-desc { font-size: clamp(1.1rem, 1.8vw, 1.5rem); color: #d1fae5; max-width: 750px; margin: 0 auto; line-height: 1.45; }
 
-  /* BUNDPANEL */
+  /* BUNDPANEL (Responsivt grid) */
   .mp-invest-control-strip {
     background: #011d17; border-top: 2px solid #10b981;
     padding: clamp(8px, 1.4vh, 14px) clamp(12px, 2vw, 24px);
-    display: grid; grid-template-columns: repeat(var(--invest-teams-count, 3), 1fr);
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: clamp(8px, 1.2vw, 16px); flex-shrink: 0;
   }
 
@@ -296,7 +295,7 @@ Sti: _includes/components/investeringsquiz.html
   .mp-inv-input-row { display: flex; gap: 6px; width: 100%; }
   .mp-inv-bet-input {
     flex: 1; background: #022c22; border: 1.5px solid #10b981; border-radius: 8px;
-    padding: 6px 10px; color: #fff; font-weight: 900; font-size: clamp(1.05rem, 1.4vw, 1.35rem); text-align: center; outline: none; width: 100%;
+    padding: 6px 10px; color: #fff; font-weight: 900; font-size: 16px; text-align: center; outline: none; width: 100%;
   }
   .mp-inv-quick-btns { display: flex; gap: 4px; width: 100%; }
   .mp-inv-quick-btn {
@@ -334,6 +333,23 @@ Sti: _includes/components/investeringsquiz.html
   }
   .mp-btn-inv-master:hover { background: #f59e0b; transform: scale(1.02); }
 
+  /* LANDSCAPE */
+  @media (max-height: 500px) {
+    .mp-invest-topbar { padding: 4px 12px !important; }
+    .mp-invest-arena { padding: 6px 12px !important; }
+    .mp-invest-bet-banner { padding: 12px 16px !important; }
+    .mp-invest-bet-title { font-size: 1.4rem !important; }
+    .mp-invest-bet-desc { font-size: 0.95rem !important; margin-bottom: 8px !important; }
+    .mp-invest-limit-badge-center { padding: 4px 12px !important; font-size: 0.95rem !important; }
+    .mp-invest-q-box { padding: 6px 10px !important; }
+    .mp-invest-q-txt { font-size: 0.95rem !important; }
+    .mp-invest-a-txt { font-size: 0.85rem !important; padding: 4px 8px !important; }
+    .mp-invest-control-strip { padding: 6px 12px calc(6px + env(safe-area-inset-bottom, 0px)) 12px !important; gap: 6px !important; }
+    .mp-invest-team-pod { padding: 4px 8px !important; gap: 4px !important; }
+    .mp-inv-bet-input { font-size: 16px !important; padding: 4px !important; }
+    .mp-btn-inv-master { padding: 6px 18px !important; font-size: 0.9rem !important; }
+  }
+
   /* SLUTSKÆRM */
   #mp-invest-results {
     position: absolute; inset: 0; background: #022c22;
@@ -353,17 +369,17 @@ Sti: _includes/components/investeringsquiz.html
 
 <!-- MODAL MARKUP -->
 <div id="mp-invest-overlay">
-
   <!-- 1. LOBBY -->
   <div id="mp-invest-lobby">
     <div class="mp-invest-lobby-inner">
       <div class="mp-invest-icon" style="font-size: 3rem; margin-bottom: 0.5rem;">📈</div>
       <div class="mp-invest-title-main">Investeringsbørsen</div>
+      <div class="mp-invest-sub-main">Sats klogt af jeres saldo i hvert sæt med 3 opgaver pr. kategori.</div>
 
       <!-- Længde -->
       <div class="mp-invest-section">
         <div class="mp-invest-label">1. Spillets længde (Antal runder)</div>
-        <div class="mp-invest-pill-selector">
+        <div class="mp-invest-pill-selector" id="mp-inv-rounds-selector">
           <div class="mp-invest-pill" data-rounds="3" onclick="MPInvest.setRoundsCount(3)">3 runder (1 sæt)</div>
           <div class="mp-invest-pill" data-rounds="6" onclick="MPInvest.setRoundsCount(6)">6 runder (2 sæt)</div>
           <div class="mp-invest-pill is-active" data-rounds="9" onclick="MPInvest.setRoundsCount(9)">9 runder (3 sæt)</div>
@@ -507,15 +523,13 @@ Sti: _includes/components/investeringsquiz.html
     <div class="mp-inv-podium-list" id="mp-inv-podium-container"></div>
     <button type="button" class="mp-btn-launch-invest" onclick="MPInvest.closeQuiz()" style="padding: 14px 34px; font-size:1.1rem;">Afslut og vend tilbage</button>
   </div>
-
 </div>
 
 <script>
 window.MPInvest = window.MPInvest || (function() {
-  const STORAGE_KEY = 'mp_invest_save_state_v5';
+  const STORAGE_KEY = 'mp_invest_save_state_v6';
 
-  let rawSets = [];
-  // Sikker Liquid boolean uden ukendte filtre
+  let rawInputData = [];
   let isOralMode = {% if force_custom %}true{% else %}false{% endif %};
   let teamCount = 3;
   let targetRoundsCount = 9;
@@ -535,96 +549,40 @@ window.MPInvest = window.MPInvest || (function() {
     setLimits: { 1: 0.5, 2: 0.6667, 3: 1.0 }
   };
 
-  // Indbygget 27-spørgsmåls fallback hvis datafilen ikke findes endnu
-  const DEFAULT_FALLBACK_SETS = [
-    {
-      set: 1, set_title: "1. Sæt – Kroppens Brændstof & Energitæthed",
-      categories: [
-        {
-          title: "Kulhydrat & Glykogen", icon: "🍞",
-          questions: [
-            { q: "Hvor mange gram kulhydrat pr. kg kropsvægt anbefales dagligt til ca. 2 timers udholdenhedstræning?", a: "5 - 7 gram pr. kg kropsvægt." },
-            { q: "Hvor mange gram letoptageligt kulhydrat anbefales i timen under hård træning over 60 minutter?", a: "30 - 60 gram i timen." },
-            { q: "Hvorfor kan koncentrerede energigels uden nok vand fremkalde mavekramper?", a: "De er hypertoniske og trækker væske ind i tarmen via osmose." }
-          ]
-        },
-        {
-          title: "Fedt & Forbrænding", icon: "🥑",
-          questions: [
-            { q: "Hvor mange kalorier (kcal) indeholder ét gram fedt sammenlignet med kulhydrat og protein?", a: "Ca. 9 kcal (37 kJ) mod ca. 4 kcal (17 kJ)." },
-            { q: "Hvad sker der med fedtforbrændingens procentvise andel, når intensiteten stiger mod maks?", a: "Den falder drastisk mod kulhydrat/glykogenforbrænding." },
-            { q: "Hvorfor sparer man næsten ingen kalorier ved at skifte fra smør til margarine?", a: "Begge indeholder ca. 700-750 kcal pr. 100 gram." }
-          ]
-        },
-        {
-          title: "Protein & Opbygning", icon: "🥩",
-          questions: [
-            { q: "Ved hvilken mængde kvalitetsprotein mættes muskelproteinsyntesen typisk i et måltid?", a: "Ved ca. 20 - 40 gram protein." },
-            { q: "Hvad er det optimale daglige proteinindtag (i g/kg) for maksimal muskelvækst hos styrkeatleter?", a: "Ca. 1,4 - 2,0 g/kg/dag." },
-            { q: "Hvorfor er æg og kød 'komplette' proteinkilder, mens linser og bønner alene ikke er det?", a: "De indeholder alle essentielle aminosyrer i fuldt dækkende proportioner." }
-          ]
-        }
-      ]
-    },
-    {
-      set: 2, set_title: "2. Sæt – Væske, Vitaminer & Nydelsesmidler",
-      categories: [
-        {
-          title: "Vitaminer & Mineraler", icon: "🥦",
-          questions: [
-            { q: "Hvor mange kalorier eller joule tilfører vitaminer kroppen direkte som brændstof?", a: "0 kalorier / 0 kJ (de er mikronæringsstoffer)." },
-            { q: "Hvilket fedtopløseligt vitamin i fede fisk fremmer calciumoptagelsen i tarmen?", a: "Vitamin D." },
-            { q: "Hvilken specifik blodprøve bør altid tages før jerntilskud for at påvise jernmangel?", a: "Serum-ferritin (kroppens jernlager)." }
-          ]
-        },
-        {
-          title: "Væskebalance & Hydrering", icon: "💧",
-          questions: [
-            { q: "Hvor meget natrium (salt) bør væske til længere træning mindst indeholde pr. liter?", a: "Mindst 11 - 25 mmol/L (ca. 250 - 575 mg/L)." },
-            { q: "Hvad er guldstandarden til at fastlægge en atlets personlige væskebehov under træning?", a: "Vejning før og efter træningspasset for at måle svedtab." },
-            { q: "Hvilken frugt regnes for en optimal kulhydratsnack under et træningspas på 90 minutter?", a: "En moden banan." }
-          ]
-        },
-        {
-          title: "Alkohol & Restitution", icon: "🍺",
-          questions: [
-            { q: "Hvor mange gram ren alkohol (ethanol) er der i én dansk standardgenstand?", a: "12 gram ren alkohol." },
-            { q: "Hvilket hormon fra hypofysen hæmmes af alkohol og giver øget vandladning?", a: "Det antidiuretiske hormon (ADH / vasopressin)." },
-            { q: "Nævn to årsager til, at alkohol forhaler helingen af sportsskader.", a: "Øget blødning/hævelse og hæmmet muskelproteinsyntese." }
-          ]
-        }
-      ]
-    },
-    {
-      set: 3, set_title: "3. Sæt – Præstationsboostere & Træningsmyter",
-      categories: [
-        {
-          title: "Kosttilskud & Piller", icon: "💊",
-          questions: [
-            { q: "Hvordan virker koffein som præstationsfremmer i centralnervesystemet?", a: "Det blokerer adenosin-receptorer og mindsker træthedsfølelsen." },
-            { q: "Hvilket tilskud øger carnosin i musklerne og buffer syreophobning ved 1-4 minutters arbejde?", a: "Beta-alanin." },
-            { q: "Hvorfor øger kreatin muskelstyrke og eksplosivitet?", a: "Det øger musklernes depoter af fosfokreatin til hurtig ATP-gendannelse." }
-          ]
-        },
-        {
-          title: "Træningsmyter", icon: "🏋️",
-          questions: [
-            { q: "Kan lette vægte med mange gentagelser bygge lige så megen muskelmasse som tunge vægte?", a: "Ja, forudsat at sættene trænes tæt på udmattelse." },
-            { q: "Er fuld bevægebane (Full ROM) bedre for muskelvækst end delvis bevægebane (Partial ROM)?", a: "Ja, forskningen viser at fuld ROM er overlegen." },
-            { q: "Skal man træne til absolut failure i alle sæt for optimal hypertrofi?", a: "Nej, det er en myte (1-3 gentagelser i reserve / RIR er optimalt)." }
-          ]
-        },
-        {
-          title: "Kramper & Timing", icon: "⚡",
-          questions: [
-            { q: "Hvad er den primære årsag til muskelkramper under hård træning ifølge nyere forskning?", a: "Neuromuskulær udtrætning (ikke elektrolytmangel)." },
-            { q: "Forebygger magnesium-tilskud dokumenteret muskelkramper hos raske udøvere?", a: "Nej, der er ingen videnskabelig evidens for effekten." },
-            { q: "Hvorfor er et snævert 'anabolsk vindue' inden for 30 min. efter træning en myte?", a: "Total daglig proteinmængde fordelt på dagen er langt vigtigere." }
-          ]
-        }
-      ]
+  function normalizeInputCategories(input) {
+    if (!Array.isArray(input) || input.length === 0) return [];
+    
+    let flat = [];
+    // 1. Hierarkisk sæt: [ { set: 1, categories: [...] }, ... ]
+    if (input[0] && input[0].categories && Array.isArray(input[0].categories)) {
+      input.forEach(s => {
+        const setNum = s.set || 1;
+        const setTitle = s.set_title || `${setNum}. Sæt`;
+        (s.categories || []).forEach(c => {
+          flat.push({
+            set_num: setNum,
+            set_title: setTitle,
+            cat_title: c.title || c.name || "Kategori",
+            icon: c.icon || "📚",
+            questions: c.questions || []
+          });
+        });
+      });
+    } else {
+      // 2. Flad liste af kategorier: [ { title: "...", icon: "...", questions: [...] }, ... ]
+      input.forEach((c, idx) => {
+        const setNum = Math.floor(idx / 3) + 1;
+        flat.push({
+          set_num: setNum,
+          set_title: `${setNum}. Sæt`,
+          cat_title: c.title || c.name || `Kategori ${idx + 1}`,
+          icon: c.icon || "📚",
+          questions: c.questions || []
+        });
+      });
     }
-  ];
+    return flat;
+  }
 
   function ensureMountedToBody() {
     const overlay = document.getElementById('mp-invest-overlay');
@@ -660,11 +618,33 @@ window.MPInvest = window.MPInvest || (function() {
   function initLobby() {
     const dataEl = document.getElementById('mp-invest-data');
     try {
-      rawSets = JSON.parse(dataEl.textContent);
-    } catch(e) { rawSets = []; }
+      rawInputData = JSON.parse(dataEl.textContent);
+    } catch(e) { rawInputData = []; }
 
-    if (!rawSets || rawSets.length === 0) {
-      rawSets = DEFAULT_FALLBACK_SETS;
+    const flat = normalizeInputCategories(rawInputData);
+    if (!flat || flat.length === 0) {
+      alert("Ingen spørgsmål fundet til Investeringsquizzen. Husk at kalde modulet med fx: sets=site.data.min_fil eller sets=page.invest_sets");
+      return;
+    }
+
+    const maxAvail = flat.length;
+    targetRoundsCount = Math.min(targetRoundsCount, maxAvail);
+
+    // Tilpas rundevælgeren dynamisk
+    const roundsSelector = document.getElementById('mp-inv-rounds-selector');
+    if (roundsSelector) {
+      roundsSelector.innerHTML = '';
+      [3, 6, 9, 12].forEach(n => {
+        if (n <= maxAvail || n === 3) {
+          const isAct = (n === targetRoundsCount || (targetRoundsCount > maxAvail && n === maxAvail));
+          const p = document.createElement('div');
+          p.className = `mp-invest-pill ${isAct ? 'is-active' : ''}`;
+          p.dataset.rounds = n;
+          p.textContent = `${n} runder (${Math.ceil(n/3)} sæt)`;
+          p.onclick = () => MPInvest.setRoundsCount(n);
+          roundsSelector.appendChild(p);
+        }
+      });
     }
 
     const saved = localStorage.getItem(STORAGE_KEY);
@@ -677,6 +657,9 @@ window.MPInvest = window.MPInvest || (function() {
   function openLobby() {
     ensureMountedToBody();
     initLobby();
+
+    const flat = normalizeInputCategories(rawInputData);
+    if (!flat || flat.length === 0) return;
 
     document.body.classList.add('mp-invest-active');
     const overlay = document.getElementById('mp-invest-overlay');
@@ -746,6 +729,9 @@ window.MPInvest = window.MPInvest || (function() {
   }
 
   function startGame() {
+    const flat = normalizeInputCategories(rawInputData);
+    if (!flat || flat.length === 0) return;
+
     gameState.isOralMode = isOralMode;
     gameState.currentIndex = 0;
     gameState.step = 'BET';
@@ -762,21 +748,12 @@ window.MPInvest = window.MPInvest || (function() {
       });
     }
 
-    gameState.flatCategories = [];
-    const sourceSets = (rawSets && rawSets.length > 0) ? rawSets : DEFAULT_FALLBACK_SETS;
-
-    sourceSets.forEach(s => {
-      s.categories.forEach(c => {
-        const assignedLimit = gameState.setLimits[s.set] || (s.set === 1 ? 0.5 : (s.set === 2 ? 0.6667 : 1.0));
-        gameState.flatCategories.push({
-          set_num: s.set,
-          set_title: s.set_title || `${s.set}. Sæt`,
-          max_ratio: assignedLimit,
-          cat_title: c.title,
-          icon: c.icon || "📚",
-          questions: c.questions
-        });
-      });
+    gameState.flatCategories = flat.map(c => {
+      const assignedLimit = gameState.setLimits[c.set_num] || (c.set_num === 1 ? 0.5 : (c.set_num === 2 ? 0.6667 : 1.0));
+      return {
+        ...c,
+        max_ratio: assignedLimit
+      };
     });
 
     if (gameState.flatCategories.length > targetRoundsCount) {

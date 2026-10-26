@@ -2,11 +2,13 @@
 -----------------------------------------------------------------------------
 MOTIONSPLAN.DK - TÆTTEST PÅ (ESTIMERINGSDUEL)
 Sti: _includes/components/taettestpaa.html
-Brug: {% include components/taettestpaa.html %}
+Brug: 
+  Med datafil:     {% include components/taettestpaa.html questions=site.data.kropsanalyse %}
+  Fra frontmatter: {% include components/taettestpaa.html questions=page.questions %}
 -----------------------------------------------------------------------------
 {% endcomment %}
 
-{% assign quiz_data = include.data | default: site.data.taettestpaa %}
+{% assign quiz_data = include.questions | default: include.data | default: page.questions %}
 
 <div class="mp-tp-launcher-box">
   <div class="mp-tp-launcher">
@@ -58,7 +60,7 @@ Brug: {% include components/taettestpaa.html %}
   }
   .mp-btn-tp-secondary:hover { color: #dc2626; text-decoration: underline; }
 
-  /* OVERLAY (100dvh TIL MOBIL) */
+  /* OVERLAY */
   #mp-tp-overlay {
     display: none; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
     width: 100vw !important; height: 100dvh !important; background: #2e1065; z-index: 2147483647 !important;
@@ -112,7 +114,7 @@ Brug: {% include components/taettestpaa.html %}
   }
   .mp-btn-tp-nav:hover { background: rgba(255,255,255,0.2); color: #fff; }
 
-  /* MIDTERARENA MED PERFEKT VERTIKAL CENTRERING */
+  /* MIDTERARENA */
   .mp-tp-arena {
     flex: 1; min-height: 0; display: flex; flex-direction: column;
     padding: clamp(0.8rem, 2.5vh, 2.5rem) clamp(1rem, 3.5vw, 3.5rem);
@@ -137,7 +139,7 @@ Brug: {% include components/taettestpaa.html %}
   }
   .mp-tp-target-box.is-revealed { transform: scale(1); opacity: 1; display: flex; }
   .mp-tp-target-label { font-size: clamp(0.85rem, 1.2vw, 1.05rem); font-weight: 900; color: #c4b5fd; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px; }
-  .mp-tp-target-value { font-size: clamp(2.8rem, 5.5vw, 5.5rem); font-weight: 900; color: #22d3ee; line-height: 1; text-shadow: 0 0 20px rgba(34,211,238,0.5); word-break: break-word; }
+  .mp-tp-target-value { font-size: clamp(2.4rem, 5vw, 5rem); font-weight: 900; color: #22d3ee; line-height: 1.1; text-shadow: 0 0 20px rgba(34,211,238,0.5); word-break: break-word; }
   .mp-tp-target-unit { font-size: clamp(1.1rem, 1.6vw, 1.6rem); font-weight: 700; color: #a78bfa; margin-top: 6px; }
   .mp-tp-target-info { font-size: clamp(0.95rem, 1.3vw, 1.15rem); color: #ddd6fe; margin-top: 12px; font-weight: 600; line-height: 1.4; }
 
@@ -182,7 +184,7 @@ Brug: {% include components/taettestpaa.html %}
     text-shadow: 0 2px 10px rgba(0,0,0,0.5); word-break: break-word; line-height: 1.1;
   }
   .mp-tp-diff-badge {
-    font-size: clamp(0.85rem, 1.2vw, 1.15rem); font-weight: 900; padding: 4px 10px; border-radius: 999px; margin-top: 2px; text-align: center;
+    font-size: clamp(0.82rem, 1.2vw, 1.1rem); font-weight: 900; padding: 4px 10px; border-radius: 999px; margin-top: 2px; text-align: center;
   }
   .badge-winner { background: #f59e0b; color: #451a03; }
   .badge-close { background: #10b981; color: #022c22; }
@@ -198,14 +200,14 @@ Brug: {% include components/taettestpaa.html %}
   }
   .mp-btn-tp-master:hover { background: #06b6d4; transform: scale(1.02); }
 
-  /* LANDSCAPE OPTIMERING */
+  /* LANDSCAPE */
   @media (max-height: 500px) {
     .mp-tp-topbar { padding: 4px 12px !important; }
     .mp-tp-arena { padding: 8px 16px !important; }
     .mp-tp-arena-inner { gap: 8px !important; }
     .mp-tp-question { font-size: 1.2rem !important; }
     .mp-tp-target-box { padding: 8px 20px !important; border-width: 2px !important; }
-    .mp-tp-target-value { font-size: 2.4rem !important; }
+    .mp-tp-target-value { font-size: 2rem !important; }
     .mp-tp-control-strip { padding: 6px 16px calc(6px + env(safe-area-inset-bottom, 0px)) 16px !important; gap: 6px !important; }
     .mp-tp-teams-row { gap: 6px !important; }
     .mp-tp-team-pod { padding: 4px 8px !important; gap: 4px !important; border-width: 1.5px !important; }
@@ -237,7 +239,7 @@ Brug: {% include components/taettestpaa.html %}
     <div class="mp-tp-lobby-inner">
       <div class="mp-tp-icon" style="font-size: 3.5rem; margin-bottom: 0.5rem;">🎯</div>
       <div class="mp-tp-title-main">Estimeringsduel</div>
-      <div class="mp-tp-sub-main">Indtast jeres bedste gæt. Maskinen beregner afvigelsen og uddeler point!</div>
+      <div class="mp-tp-sub-main">Indtast jeres bedste gæt. Maskinen beregner afvigelsen og kårer vinderen!</div>
 
       <div class="mp-tp-section">
         <div class="mp-tp-label">1. Spiltilstand</div>
@@ -253,7 +255,6 @@ Brug: {% include components/taettestpaa.html %}
         </div>
       </div>
 
-      <!-- NYT: VALG AF POINTSYSTEM -->
       <div class="mp-tp-section">
         <div class="mp-tp-label">2. Pointberegning</div>
         <div class="mp-tp-pill-selector">
@@ -300,7 +301,7 @@ Brug: {% include components/taettestpaa.html %}
   <div id="mp-tp-game" style="display: none;">
     <div class="mp-tp-topbar">
       <div class="mp-tp-meta">
-        <span class="mp-tp-tag" id="mp-tp-q-counter">Runde 1/10</span>
+        <span class="mp-tp-tag" id="mp-tp-q-counter">Runde 1/1</span>
         <span class="mp-tp-mode-label" id="mp-tp-mode-display">Klassisk Tilstand</span>
       </div>
       <div class="mp-tp-actions">
@@ -309,14 +310,14 @@ Brug: {% include components/taettestpaa.html %}
       </div>
     </div>
 
-    <!-- ARENA (CENTRERET) -->
+    <!-- ARENA -->
     <div class="mp-tp-arena">
       <div class="mp-tp-arena-inner">
         <div class="mp-tp-question" id="mp-tp-q-text">Spørgsmål indlæses...</div>
         
         <!-- Det rigtige svar -->
         <div class="mp-tp-target-box" id="mp-tp-target-box">
-          <div class="mp-tp-target-label">Det rigtige svar er</div>
+          <div class="mp-tp-target-label" id="mp-tp-target-lbl">Det rigtige svar er</div>
           <div class="mp-tp-target-value" id="mp-tp-target-val">0</div>
           <div class="mp-tp-target-unit" id="mp-tp-target-unit">enhed</div>
           <div class="mp-tp-target-info" id="mp-tp-target-info">Ekstra information...</div>
@@ -344,12 +345,12 @@ Brug: {% include components/taettestpaa.html %}
 
 <script>
 window.MPTaettest = window.MPTaettest || (function() {
-  const STORAGE_KEY = 'mp_tp_save_state_v3';
+  const STORAGE_KEY = 'mp_tp_save_state_v5';
 
   let rawData = [];
   let teamCount = 3;
   let gameMode = 'normal';
-  let scoringMode = 'winner'; // 'winner', 'podium', 'precision'
+  let scoringMode = 'winner';
 
   let state = {
     teams: [],
@@ -360,13 +361,40 @@ window.MPTaettest = window.MPTaettest || (function() {
     scoringMode: 'winner'
   };
 
-  const FALLBACK_DATA = [
-    { q: "Hvor mange procent af kropsvægten udgør skeletmuskulaturen hos en ung, rask mand?", target: 40, unit: "%", info: "Hos kvinder er det typisk 30-35%." },
-    { q: "Hvor mange knogler er der normalt i et fuldvoksent menneskes krop?", target: 206, unit: "knogler", info: "Vi fødes med næsten 300, men de vokser sammen." },
-    { q: "Hvor mange liter blod pumper hjertet ca. pr. minut hos en eliteatlet under maksimalt arbejde?", target: 35, unit: "liter/min", info: "En almindelig person pumper ca. 20-25 liter." },
-    { q: "Hvad var Usain Bolts tophastighed i km/t, da han satte verdensrekord i 2009?", target: 44.72, unit: "km/t", info: "Hans gennemsnitshastighed over de 100 meter var 37,58 km/t." },
-    { q: "Hvor mange kalorier forbrænder en person på 75 kg cirka på at løbe et marathon (42,2 km)?", target: 3150, unit: "kcal", info: "Tommelfingerregel: ca. 1 kcal pr. kg pr. km." }
-  ];
+  function parseQuestionTarget(q) {
+    let min, max, isRange;
+    if (q.target_min !== undefined && q.target_max !== undefined) {
+      min = parseFloat(q.target_min);
+      max = parseFloat(q.target_max);
+      isRange = min !== max;
+    } else if (Array.isArray(q.target)) {
+      min = parseFloat(q.target[0]);
+      max = parseFloat(q.target[1]);
+      isRange = min !== max;
+    } else if (typeof q.target === 'string' && q.target.includes('..')) {
+      const parts = q.target.split('..');
+      min = parseFloat(parts[0].replace(',', '.'));
+      max = parseFloat(parts[1].replace(',', '.'));
+      isRange = min !== max;
+    } else if (typeof q.target === 'string' && q.target.includes('-') && !q.target.trim().startsWith('-')) {
+      const parts = q.target.split('-');
+      min = parseFloat(parts[0].replace(',', '.'));
+      max = parseFloat(parts[1].replace(',', '.'));
+      isRange = min !== max;
+    } else {
+      const val = parseFloat(String(q.target).replace(',', '.'));
+      min = isNaN(val) ? 0 : val;
+      max = min;
+      isRange = false;
+    }
+    const mid = (min + max) / 2;
+    return { min, max, mid, isRange };
+  }
+
+  function formatDisplayNumber(num) {
+    if (Number.isInteger(num)) return num.toLocaleString('da-DK');
+    return num.toLocaleString('da-DK', { minimumFractionDigits: 1, maximumFractionDigits: 2 });
+  }
 
   function ensureMountedToBody() {
     const overlay = document.getElementById('mp-tp-overlay');
@@ -402,10 +430,13 @@ window.MPTaettest = window.MPTaettest || (function() {
     const dataEl = document.getElementById('mp-tp-data');
     try { 
       rawData = JSON.parse(dataEl.textContent); 
-    } catch(e) { rawData = []; }
+    } catch(e) { 
+      rawData = []; 
+    }
     
-    if (!rawData || rawData.length === 0) {
-      rawData = FALLBACK_DATA;
+    if (!rawData || !Array.isArray(rawData) || rawData.length === 0) {
+      alert("Ingen spørgsmål angivet. Husk at kalde modulet med: questions=site.data.filnavn eller questions=page.mit_array");
+      return;
     }
 
     const saved = localStorage.getItem(STORAGE_KEY);
@@ -417,6 +448,8 @@ window.MPTaettest = window.MPTaettest || (function() {
   function openLobby() {
     ensureMountedToBody();
     initLobby();
+    if (!rawData || rawData.length === 0) return;
+
     document.body.classList.add('mp-tp-active');
     const overlay = document.getElementById('mp-tp-overlay');
     if (overlay.requestFullscreen) overlay.requestFullscreen().catch(()=>{});
@@ -527,6 +560,7 @@ window.MPTaettest = window.MPTaettest || (function() {
     const qData = state.questions[state.currentQIndex];
     if (!qData) { showResults(); return; }
 
+    const targetInfo = parseQuestionTarget(qData);
     const modeText = (state.mode === 'tpir') ? 'Price Is Right' : 'Klassisk';
     const scoreText = (state.scoringMode === 'precision') ? 'Præcision (0-100 pt)' : (state.scoringMode === 'podium' ? 'Podie (3-2-1 pt)' : 'Vinder (1 pt)');
 
@@ -565,8 +599,9 @@ window.MPTaettest = window.MPTaettest || (function() {
       masterBtn.style.background = '#10b981';
       masterBtn.style.color = '#ffffff';
 
-      document.getElementById('mp-tp-target-val').textContent = qData.target;
+      document.getElementById('mp-tp-target-lbl').textContent = targetInfo.isRange ? 'Det korrekte interval er' : 'Det rigtige svar er';
       document.getElementById('mp-tp-target-unit').textContent = qData.unit || '';
+      
       const infoEl = document.getElementById('mp-tp-target-info');
       if (qData.info) {
         infoEl.textContent = qData.info;
@@ -586,13 +621,16 @@ window.MPTaettest = window.MPTaettest || (function() {
         } else if (t.currentGuess === null) {
           badgeHtml = `<div class="mp-tp-diff-badge badge-far">Intet gæt</div>`;
         } else {
-          const diff = Math.abs(t.currentGuess - qData.target);
-          const formattedDiff = Number.isInteger(diff) ? diff : diff.toFixed(1);
-          const diffPrefix = t.currentGuess > qData.target ? '+' : (t.currentGuess < qData.target ? '-' : '');
+          const diff = t.lastResult.dist;
+          const formattedDiff = formatDisplayNumber(diff);
+          const diffPrefix = t.currentGuess > targetInfo.max ? '+' : (t.currentGuess < targetInfo.min ? '-' : '');
           const diffClass = t.lastResult.won ? 'badge-winner' : (t.lastResult.ptsAwarded > 0 ? 'badge-close' : 'badge-far');
           
           let badgeText = '';
-          if (state.scoringMode === 'precision') {
+          if (diff === 0) {
+            const winTag = t.lastResult.won ? '🏆 ' : '';
+            badgeText = `${winTag}🎯 Pletskud! (${t.lastResult.ptsAwarded > 0 ? '+' + t.lastResult.ptsAwarded + ' pt' : '+1 pt'})`;
+          } else if (state.scoringMode === 'precision') {
             badgeText = `+${t.lastResult.ptsAwarded} pt (${t.lastResult.pct.toFixed(1)}% afvigelse)`;
           } else if (state.scoringMode === 'podium') {
             badgeText = t.lastResult.ptsAwarded > 0 ? `+${t.lastResult.ptsAwarded} pt (${diffPrefix}${formattedDiff})` : `0 pt (${diffPrefix}${formattedDiff})`;
@@ -603,7 +641,7 @@ window.MPTaettest = window.MPTaettest || (function() {
           badgeHtml = `<div class="mp-tp-diff-badge ${diffClass}">${badgeText}</div>`;
         }
 
-        const displayGuess = t.currentGuess !== null ? (Number.isInteger(t.currentGuess) ? t.currentGuess : t.currentGuess.toFixed(2)) : '-';
+        const displayGuess = t.currentGuess !== null ? formatDisplayNumber(t.currentGuess) : '-';
         
         pod.innerHTML = `
           <div class="mp-tp-pod-header">
@@ -621,9 +659,8 @@ window.MPTaettest = window.MPTaettest || (function() {
   function handleMasterAction() {
     if (state.phase === 'INPUT') {
       const qData = state.questions[state.currentQIndex];
-      const target = parseFloat(qData.target);
+      const targetInfo = parseQuestionTarget(qData);
 
-      // Klargør hvert holds afvigelse
       state.teams.forEach((t, i) => {
         const input = document.getElementById(`tp-guess-${i}`);
         const valStr = input ? input.value.replace(',', '.') : '';
@@ -633,16 +670,24 @@ window.MPTaettest = window.MPTaettest || (function() {
         t.lastResult = { dist: Infinity, pct: 100, won: false, bust: false, ptsAwarded: 0 };
 
         if (t.currentGuess !== null) {
-          if (state.mode === 'tpir' && t.currentGuess > target) {
+          if (state.mode === 'tpir' && t.currentGuess > targetInfo.max) {
             t.lastResult.bust = true;
           } else {
-            t.lastResult.dist = Math.abs(t.currentGuess - target);
-            t.lastResult.pct = (target !== 0) ? (t.lastResult.dist / target) * 100 : t.lastResult.dist;
+            if (t.currentGuess >= targetInfo.min && t.currentGuess <= targetInfo.max) {
+              t.lastResult.dist = 0;
+              t.lastResult.pct = 0;
+            } else if (t.currentGuess < targetInfo.min) {
+              t.lastResult.dist = targetInfo.min - t.currentGuess;
+              t.lastResult.pct = (targetInfo.mid !== 0) ? (t.lastResult.dist / targetInfo.mid) * 100 : t.lastResult.dist;
+            } else {
+              t.lastResult.dist = t.currentGuess - targetInfo.max;
+              t.lastResult.pct = (targetInfo.mid !== 0) ? (t.lastResult.dist / targetInfo.mid) * 100 : t.lastResult.dist;
+            }
           }
         }
       });
 
-      // 1. SCORING: PRÆCISION (0 - 100 point efter % afvigelse)
+      // 1. SCORING: PRÆCISION (0 - 100 point)
       if (state.scoringMode === 'precision') {
         let bestDist = Infinity;
         state.teams.forEach(t => {
@@ -692,7 +737,13 @@ window.MPTaettest = window.MPTaettest || (function() {
       state.phase = 'REVEALED';
       saveState();
       renderState();
-      animateValue(document.getElementById('mp-tp-target-val'), 0, target, 1100);
+      
+      const targetValEl = document.getElementById('mp-tp-target-val');
+      if (targetInfo.isRange) {
+        animateRange(targetValEl, targetInfo.min, targetInfo.max, 1000);
+      } else {
+        animateSingleValue(targetValEl, 0, targetInfo.min, 1000);
+      }
 
     } else if (state.phase === 'REVEALED') {
       state.currentQIndex++;
@@ -702,7 +753,7 @@ window.MPTaettest = window.MPTaettest || (function() {
     }
   }
 
-  function animateValue(obj, start, end, duration) {
+  function animateSingleValue(obj, start, end, duration) {
     let startTimestamp = null;
     const isFloat = !Number.isInteger(end);
     const step = (timestamp) => {
@@ -718,9 +769,29 @@ window.MPTaettest = window.MPTaettest || (function() {
       if (progress < 1) {
         window.requestAnimationFrame(step);
       } else {
-        obj.innerHTML = isFloat 
-          ? end.toLocaleString('da-DK', { minimumFractionDigits: 1, maximumFractionDigits: 2 }) 
-          : end.toLocaleString('da-DK');
+        obj.innerHTML = formatDisplayNumber(end);
+      }
+    };
+    window.requestAnimationFrame(step);
+  }
+
+  function animateRange(obj, min, max, duration) {
+    let startTimestamp = null;
+    const isFloat = !Number.isInteger(min) || !Number.isInteger(max);
+    const step = (timestamp) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+      const easeProgress = 1 - Math.pow(1 - progress, 3);
+      const curMax = easeProgress * max;
+      
+      obj.innerHTML = isFloat
+        ? `${curMax.toLocaleString('da-DK', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}`
+        : `${Math.floor(curMax).toLocaleString('da-DK')}`;
+        
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      } else {
+        obj.innerHTML = `${formatDisplayNumber(min)} – ${formatDisplayNumber(max)}`;
       }
     };
     window.requestAnimationFrame(step);

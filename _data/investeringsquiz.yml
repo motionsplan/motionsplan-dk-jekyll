@@ -1,6 +1,5 @@
 - set: 1
-  set_title: "1. Sæt – Kroppens Brændstof & Energitæthed (Max 1/2 saldo)"
-  max_ratio: 0.5
+  set_title: "1. Sæt – Kroppens Brændstof & Energitæthed"
   categories:
     # RUNDE 1
     - title: "Kulhydrat & Glykogen"
@@ -36,8 +35,7 @@
           a: "De indeholder alle essentielle aminosyrer i optimale mængder (bælgfrugter mangler bl.a. methionin)."
 
 - set: 2
-  set_title: "2. Sæt – Væske, Vitaminer & Nydelsesmidler (Max 2/3 saldo)"
-  max_ratio: 0.6667
+  set_title: "2. Sæt – Væske, Vitaminer & Nydelsesmidler"
   categories:
     # RUNDE 4
     - title: "Vitaminer & Mineraler"
@@ -73,8 +71,7 @@
           a: "Det øger vasodilatation (blødning/hævelse) og hæmmer muskelproteinsyntesen samt immunforsvaret."
 
 - set: 3
-  set_title: "3. Sæt – Præstationsboostere & Træningsmyter (All-in / Hele saldoen)"
-  max_ratio: 1.0
+  set_title: "3. Sæt – Præstationsboostere & Træningsmyter"
   categories:
     # RUNDE 7
     - title: "Kosttilskud & Piller"
@@ -108,3 +105,39 @@
           a: "Nej, det er en udbredt myte uden videnskabelig dokumentation."
         - q: "Hvorfor er påstanden om et snævert 'anabolsk vindue' (protein inden for 30 min. efter træning) en myte for almindelige udøvere?"
           a: "Det totale daglige proteinindtag og måltider jævnt fordelt er langt vigtigere end den præcise timing lige efter passet."
+
+- set: 4
+  set_title: "4. Sæt – Fysiologi & Bevægeapparat"
+  categories:
+    # RUNDE 10
+    - title: "Fysiologi & Cellen"
+      icon: "🧬"
+      questions:
+        - q: "Hvor mange sekunders maksimalt arbejde rækker cellens frie ATP-depoter til?"
+          a: "Ca. 4 sekunder (hvorefter kreatinfosfat spaltes)."
+        - q: "Hvad kaldes den anaerobe spaltningsproces, hvor kulhydrat nedbrydes uden ilt?"
+          a: "Glykolyse (hvorved der også ophobes laktat/mælkesyre)."
+        - q: "Hvilken type muskelfibre har den højeste tæthed af mitokondrier og kapillærer?"
+          a: "Type I (de langsomme, aerobe og udholdende fibre)."
+
+    # RUNDE 11
+    - title: "Kredsløb & Iltoptagelse"
+      icon: "❤️"
+      questions:
+        - q: "Hvad er formlen for det estimerede kondital?"
+          a: "Maksimal iltoptagelse i ml ilt pr. minut divideret med kropsvægt i kg (ml O2/min/kg)."
+        - q: "Hvad sker der med hvilepulsen i takt med, at hjertets slagvolumen stiger?"
+          a: "Den falder, fordi hjertet pumper mere blod pr. slag og derfor skal slå færre gange."
+        - q: "Hvad er reservepulsen?"
+          a: "Forskellen mellem personens maksimale puls og hvilepuls (Maxpuls - Hvilepuls)."
+
+    # RUNDE 12
+    - title: "Knogler & Led"
+      icon: "🦴"
+      questions:
+        - q: "Hvilken type led er kroppens mest bevægelige, og hvor findes det?"
+          a: "Kugleled – findes i skulderleddet og hofteleddet."
+        - q: "Hvad kaldes det bindevævslag, som omgiver hele musklen og samler sig i senerne?"
+          a: "Fascien (eller bindevævsposen)."
+        - q: "I hvilket plan foregår bøjning (fleksion) og strækning (ekstension) af et led?"
+          a: "I det sagittale plan."

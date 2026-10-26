@@ -3,15 +3,13 @@
 MOTIONSPLAN.DK - JEOPARDY STORSKÆRM
 Sti: _includes/components/jeopardy.html
 Brug: 
-  Alle kategorier:  {% include components/jeopardy.html %}
-  Udvalgte emner:   {% include components/jeopardy.html categories="alkohol, traeningsmyter, kosttilskud" %}
+  Eget datasæt (array): {% include components/jeopardy.html categories=site.data.min_fil %}
+  Fra frontmatter:      {% include components/jeopardy.html categories=page.jeopardy %}
+  Standardfil:          {% include components/jeopardy.html %}
 -----------------------------------------------------------------------------
 {% endcomment %}
 
-{% assign allowed_filter = include.categories | default: page.jeopardy_categories %}
-{% if allowed_filter and allowed_filter.first == nil %}
-  {% assign allowed_filter = allowed_filter | split: "," %}
-{% endif %}
+{% assign raw_data = include.categories | default: include.data | default: include.questions | default: include.board | default: page.jeopardy | default: site.data.jeopardy %}
 
 <div class="mp-jeopardy-launcher-box">
   <div class="mp-jeopardy-launcher">
@@ -27,44 +25,7 @@ Brug:
   </div>
 
   <script type="application/json" id="mp-jeopardy-data">
-    [
-      {% assign first_cat = true %}
-      {% for item in site.data.jeopardy %}
-        {% assign cat_key = item[0] %}
-        {% assign cat_data = item[1] %}
-
-        {% if allowed_filter %}
-          {% assign keep_cat = false %}
-          {% for af in allowed_filter %}
-            {% assign clean_af = af | strip %}
-            {% if clean_af == cat_key %}
-              {% assign keep_cat = true %}
-            {% endif %}
-          {% endfor %}
-          {% unless keep_cat %}{% continue %}{% endunless %}
-        {% endif %}
-
-        {% if cat_data.questions %}
-          {% if first_cat %}{% assign first_cat = false %}{% else %},{% endif %}
-          {
-            "key": {{ cat_key | jsonify }},
-            "title": {{ cat_data.title | default: cat_key | jsonify }},
-            "icon": {{ cat_data.icon | default: "❓" | jsonify }},
-            "questions": [
-              {% assign first_q = true %}
-              {% for q in cat_data.questions limit: 5 %}
-                {% if first_q %}{% assign first_q = false %}{% else %},{% endif %}
-                {
-                  "points": {{ forloop.index | times: 100 }},
-                  "q": {{ q.q | default: q.question | strip_html | jsonify }},
-                  "a": {{ q.a | default: q.answer | strip_html | jsonify }}
-                }
-              {% endfor %}
-            ]
-          }
-        {% endif %}
-      {% endfor %}
-    ]
+    {% if raw_data %}{{ raw_data | jsonify }}{% else %}[]{% endif %}
   </script>
 </div>
 
@@ -130,12 +91,12 @@ Brug:
   }
   .mp-btn-launcher-secondary:hover { color: #ef4444; text-decoration: underline; }
 
-  /* OVERLAY */
+  /* OVERLAY (100dvh MOBIL-SIKRET) */
   #mp-jeopardy-overlay {
     display: none;
     position: fixed !important;
     top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
-    width: 100vw !important; height: 100vh !important;
+    width: 100vw !important; height: 100dvh !important;
     background: #00008b;
     z-index: 2147483647 !important;
     font-family: inherit;
@@ -154,6 +115,7 @@ Brug:
     align-items: center;
     padding: 2rem 1.5rem;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .mp-jeopardy-lobby-inner {
     width: 100%;
@@ -192,7 +154,7 @@ Brug:
   .mp-jeopardy-cat-item.is-checked { border-color: #2563eb; background: #eff6ff; }
   .mp-jeopardy-cat-left { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 0.9rem; color: #1e293b; }
 
-  .mp-jeopardy-teams-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .mp-jeopardy-teams-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; }
   .mp-jeopardy-team-input-box {
     display: flex; align-items: center; background: #f1f5f9;
     border: 1.5px solid #e2e8f0; border-radius: 10px; padding: 6px 10px;
@@ -200,15 +162,15 @@ Brug:
   .mp-team-color-indicator { width: 14px; height: 14px; border-radius: 50%; margin-right: 8px; flex-shrink: 0; }
   .team-c-0 { background: #ef4444; } .team-c-1 { background: #3b82f6; }
   .team-c-2 { background: #10b981; } .team-c-3 { background: #f59e0b; }
-  .mp-jeopardy-team-input-box input { width: 100%; background: transparent; border: none; outline: none; font-weight: 700; font-size: 0.9rem; color: #1e293b; }
+  .mp-jeopardy-team-input-box input { width: 100%; background: transparent; border: none; outline: none; font-weight: 800; font-size: 16px; color: #1e293b; }
 
-  .mp-jeopardy-pill-selector { display: flex; gap: 8px; }
+  .mp-jeopardy-pill-selector { display: flex; gap: 8px; flex-wrap: wrap; }
   .mp-jeopardy-pill {
-    flex: 1; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 8px;
+    flex: 1; min-width: 100px; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 8px;
     padding: 8px; font-size: 0.85rem; font-weight: 700; color: #334155;
     cursor: pointer; text-align: center; transition: all 0.15s;
   }
-  .mp-jeopardy-pill.is-active { background: #eff6ff; border-color: #2563eb; color: #1e40af; }
+  .mp-jeopardy-pill.is-active { background: #eff6ff; border-color: #2563eb; color: #1e40af; font-weight: 800; }
 
   /* SPILSKÆRM */
   #mp-jeopardy-game {
@@ -216,11 +178,12 @@ Brug:
     display: flex; flex-direction: column;
     background: #00005a;
     color: #ffffff;
+    height: 100dvh;
   }
 
   .mp-jeo-topbar {
     background: #000030;
-    padding: clamp(8px, 1.4vh, 14px) clamp(16px, 2vw, 32px);
+    padding: clamp(6px, 1.2vh, 12px) clamp(16px, 2vw, 32px);
     display: flex; justify-content: space-between; align-items: center;
     border-bottom: 2px solid #fbbf24;
     flex-shrink: 0;
@@ -236,29 +199,30 @@ Brug:
   .mp-btn-jeo-reset:hover { background: #ef4444; color: #ffffff; }
 
   .mp-jeo-board-container {
-    flex: 1; padding: clamp(10px, 1.8vh, 20px);
-    display: flex; flex-direction: column; overflow: hidden;
+    flex: 1; min-height: 0; padding: clamp(6px, 1.5vh, 16px);
+    display: flex; flex-direction: column; overflow-x: auto; overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
   }
   .mp-jeo-grid {
-    display: flex; flex-direction: row; flex: 1; gap: clamp(6px, 1vw, 14px);
-    max-width: 1650px; margin: 0 auto; width: 100%;
+    display: flex; flex-direction: row; flex: 1; gap: clamp(4px, 1vw, 12px);
+    max-width: 1650px; margin: 0 auto; width: 100%; min-width: 580px;
   }
   .mp-jeo-col {
-    flex: 1; display: flex; flex-direction: column; gap: clamp(6px, 1vw, 14px);
+    flex: 1; display: flex; flex-direction: column; gap: clamp(4px, 0.8vh, 10px); min-width: 0;
   }
   .mp-jeo-cat-header {
     background: #0000cd; color: #ffffff;
     display: flex; align-items: center; justify-content: center; text-align: center;
-    padding: 10px; border: 3px solid #000; border-radius: 8px;
-    font-weight: 900; font-size: clamp(0.85rem, 1.5vw, 1.3rem); text-transform: uppercase;
+    padding: 6px 8px; border: 2px solid #000; border-radius: 6px;
+    font-weight: 900; font-size: clamp(0.72rem, 1.2vw, 1.15rem); text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    height: 15%;
+    flex: 0 0 16%; overflow: hidden; word-break: break-word;
   }
   .mp-jeo-card {
     background: #0000cd; color: #fbbf24;
     display: flex; align-items: center; justify-content: center;
-    border: 3px solid #000; border-radius: 8px; cursor: pointer;
-    font-weight: 900; font-size: clamp(1.5rem, 3.2vw, 3.5rem);
+    border: 2px solid #000; border-radius: 6px; cursor: pointer;
+    font-weight: 900; font-size: clamp(1.2rem, 2.8vw, 3rem);
     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
     flex: 1; transition: transform 0.1s, filter 0.15s;
     box-shadow: inset 0 0 15px rgba(0,0,0,0.3);
@@ -269,78 +233,75 @@ Brug:
     box-shadow: none; border-color: #000028; pointer-events: none;
   }
 
-  /* SPØRGSMÅLSVISNING */
+  /* SPØRGSMÅLSOVERLAY */
   #mp-jeo-active-q-overlay {
     position: absolute; inset: 0; background: #00008b;
-    display: none; flex-direction: column; z-index: 50;
-    justify-content: space-between;
+    display: none; flex-direction: column; z-index: 50; justify-content: space-between;
   }
   .mp-jeo-active-header {
-    display: flex; justify-content: space-between; padding: clamp(14px, 2vh, 24px);
+    display: flex; justify-content: space-between; padding: clamp(12px, 1.8vh, 20px);
     font-size: clamp(1.1rem, 2vw, 1.5rem); font-weight: 900; color: #fbbf24;
   }
   .mp-jeo-active-center {
     flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
-    padding: 1rem clamp(1.5rem, 5vw, 4rem); text-align: center;
+    padding: 1rem clamp(1.5rem, 5vw, 4rem); text-align: center; overflow-y: auto;
   }
   .mp-jeo-question-text {
-    font-size: clamp(1.45rem, 2.8vw, 2.8rem);
+    font-size: clamp(1.35rem, 2.7vw, 2.7rem);
     font-weight: 700;
-    line-height: 1.4;
+    line-height: 1.35;
     color: #ffffff;
     max-width: 1200px;
     text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
   }
   .mp-jeo-answer-text {
     display: none;
-    margin-top: clamp(1.2rem, 2.5vh, 2.2rem);
-    font-size: clamp(1.25rem, 2.2vw, 2.2rem);
+    margin-top: clamp(1rem, 2vh, 2rem);
+    font-size: clamp(1.15rem, 2vw, 2rem);
     font-weight: 700;
     color: #fbbf24;
     background: rgba(0,0,0,0.45);
     border: 2px solid #fbbf24;
-    padding: 14px 28px;
+    padding: 12px 24px;
     border-radius: 14px;
     max-width: 1100px;
     line-height: 1.35;
   }
 
-  /* BUNDPANEL (PUNKTGIVNING I FULD BREDDE) */
+  /* BUNDPANEL (PUNKTGIVNING) */
   .mp-jeo-active-footer {
     background: #000030;
     border-top: 2px solid #fbbf24;
-    padding: clamp(14px, 2.2vh, 26px) clamp(16px, 3vw, 40px);
+    padding: clamp(10px, 1.8vh, 20px) clamp(16px, 3vw, 40px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 14px;
+    gap: 12px;
   }
   .mp-jeo-active-awarding-panel {
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     width: 100%;
     max-width: min(1650px, 96vw);
   }
-
-  /* STORE HOLDKASSER I FULD BREDDE */
   .mp-jeo-award-teams-row {
     display: grid;
     grid-template-columns: repeat(var(--teams-count, 3), 1fr);
-    gap: clamp(12px, 2vw, 24px);
+    gap: clamp(8px, 1.5vw, 20px);
     width: 100%;
   }
 
   .mp-jeo-award-team-card {
     background: #00004d;
     border: 2px solid #00008b;
-    border-radius: 16px;
-    padding: clamp(12px, 1.8vh, 18px) clamp(12px, 1.5vw, 20px);
+    border-radius: 14px;
+    padding: clamp(8px, 1.4vh, 14px) 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
     position: relative;
     transition: all 0.2s ease;
   }
@@ -370,105 +331,51 @@ Brug:
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 6px;
     width: 100%;
   }
   .mp-jeo-card-team-name {
     font-weight: 900;
-    font-size: clamp(1.2rem, 1.8vw, 1.7rem);
+    font-size: clamp(1rem, 1.5vw, 1.4rem);
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 0.03em;
-    text-align: center;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  .mp-jeo-award-team-card.is-active-turn .mp-jeo-card-team-name {
-    color: #fbbf24;
-  }
+  .mp-jeo-award-team-card.is-active-turn .mp-jeo-card-team-name { color: #fbbf24; }
   .mp-jeo-award-turn-pill {
-    background: #fbbf24;
-    color: #000030;
-    font-size: 0.72rem;
-    font-weight: 900;
-    padding: 2px 8px;
-    border-radius: 999px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+    background: #fbbf24; color: #000030; font-size: 0.7rem; font-weight: 900;
+    padding: 2px 6px; border-radius: 999px; text-transform: uppercase;
   }
 
-  /* STORE HANDLINGSKNAPPER */
-  .mp-jeo-award-team-btns {
-    display: flex;
-    width: 100%;
-    gap: 10px;
-  }
+  .mp-jeo-award-team-btns { display: flex; width: 100%; gap: 6px; }
   .mp-btn-quick-award {
-    flex: 1;
-    background: #22c55e;
-    color: #ffffff;
-    border: none;
-    border-radius: 12px;
-    padding: clamp(10px, 1.6vh, 16px) 14px;
-    font-size: clamp(1.1rem, 1.6vw, 1.45rem);
-    font-weight: 900;
-    cursor: pointer;
-    transition: transform 0.1s, background 0.15s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
+    flex: 1; background: #22c55e; color: #ffffff; border: none; border-radius: 10px;
+    padding: clamp(8px, 1.3vh, 12px) 8px; font-size: clamp(0.95rem, 1.4vw, 1.25rem); font-weight: 900;
+    cursor: pointer; transition: transform 0.1s, background 0.15s;
     box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
   }
   .mp-btn-quick-award:hover { background: #16a34a; transform: scale(1.02); }
-  .mp-btn-quick-award:active { transform: scale(0.98); }
 
   .mp-btn-quick-penalize {
-    background: rgba(239, 68, 68, 0.18);
-    color: #f87171;
-    border: 2px solid rgba(239, 68, 68, 0.4);
-    border-radius: 12px;
-    padding: clamp(10px, 1.6vh, 16px) clamp(12px, 1.4vw, 18px);
-    font-size: clamp(1rem, 1.4vw, 1.25rem);
-    font-weight: 900;
-    cursor: pointer;
-    transition: all 0.15s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
+    background: rgba(239, 68, 68, 0.18); color: #f87171; border: 2px solid rgba(239, 68, 68, 0.4);
+    border-radius: 10px; padding: clamp(8px, 1.3vh, 12px) 10px;
+    font-size: clamp(0.9rem, 1.2vw, 1.15rem); font-weight: 900; cursor: pointer; transition: all 0.15s ease;
   }
-  .mp-btn-quick-penalize:hover {
-    background: #ef4444;
-    color: #ffffff;
-    border-color: #ef4444;
-    transform: scale(1.02);
-  }
+  .mp-btn-quick-penalize:hover { background: #ef4444; color: #ffffff; border-color: #ef4444; transform: scale(1.02); }
 
   .mp-jeo-penalty-toast {
-    position: absolute;
-    top: -12px;
-    right: 14px;
-    background: #ef4444;
-    color: #ffffff;
-    font-size: 0.8rem;
-    font-weight: 900;
-    padding: 3px 10px;
-    border-radius: 999px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-    display: none;
+    position: absolute; top: -10px; right: 10px; background: #ef4444;
+    color: #ffffff; font-size: 0.75rem; font-weight: 900; padding: 2px 8px;
+    border-radius: 999px; display: none;
   }
 
-  .mp-jeo-q-actions {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
+  .mp-jeo-q-actions { display: flex; align-items: center; gap: 10px; }
   .mp-btn-jeo-big {
     background: #fbbf24; color: #00005a; border: none; border-radius: 12px;
-    padding: 12px 32px; font-size: clamp(1rem, 1.4vw, 1.25rem); font-weight: 900; cursor: pointer; text-transform: uppercase;
-    transition: background 0.15s, transform 0.1s;
+    padding: 10px 28px; font-size: clamp(0.95rem, 1.3vw, 1.2rem); font-weight: 900;
+    cursor: pointer; text-transform: uppercase; transition: background 0.15s, transform 0.1s;
   }
   .mp-btn-jeo-big:hover { background: #f59e0b; transform: scale(1.02); }
   .mp-btn-jeo-back { background: rgba(255,255,255,0.15); color: #fff; }
@@ -477,207 +384,52 @@ Brug:
   /* BUNDPANEL (PÅ PLADEN) */
   .mp-jeo-control-panel {
     background: #000030;
-    padding: clamp(10px, 1.6vh, 18px) clamp(14px, 2vw, 32px);
+    padding: clamp(8px, 1.4vh, 14px) clamp(12px, 2vw, 24px);
     display: grid;
     grid-template-columns: repeat(var(--teams-count, 3), 1fr);
-    gap: clamp(10px, 1.5vw, 20px);
+    gap: clamp(8px, 1.2vw, 16px);
     border-top: 2px solid #fbbf24;
     flex-shrink: 0;
   }
   .mp-jeo-team-box {
-    background: #00004d;
-    border: 2px solid #00008b;
-    border-radius: 14px;
-    padding: clamp(8px, 1.2vh, 14px) 14px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    position: relative;
-    user-select: none;
-    transition: all 0.2s ease;
+    background: #00004d; border: 2px solid #00008b; border-radius: 12px;
+    padding: clamp(6px, 1vh, 10px) 10px; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; cursor: pointer; position: relative;
+    user-select: none; transition: all 0.2s ease;
   }
-  .mp-jeo-team-box:hover {
-    border-color: #3b82f6;
-    background: #000066;
-  }
+  .mp-jeo-team-box:hover { border-color: #3b82f6; background: #000066; }
   .mp-jeo-team-box.is-active-turn {
-    background: #000075;
-    border-color: #fbbf24;
-    box-shadow: 0 0 20px rgba(251, 191, 36, 0.45);
-    transform: translateY(-2px);
+    background: #000075; border-color: #fbbf24;
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.45); transform: translateY(-2px);
   }
   .mp-jeo-turn-indicator-badge {
-    position: absolute;
-    top: -10px;
-    background: #fbbf24;
-    color: #000030;
-    font-size: 0.72rem;
-    font-weight: 900;
-    padding: 2px 8px;
-    border-radius: 999px;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    display: none;
+    position: absolute; top: -8px; background: #fbbf24; color: #000030;
+    font-size: 0.68rem; font-weight: 900; padding: 1px 6px; border-radius: 999px;
+    text-transform: uppercase; display: none;
   }
-  .mp-jeo-team-box.is-active-turn .mp-jeo-turn-indicator-badge {
-    display: inline-block;
-  }
+  .mp-jeo-team-box.is-active-turn .mp-jeo-turn-indicator-badge { display: inline-block; }
   .mp-jeo-team-name {
-    font-size: clamp(0.95rem, 1.4vw, 1.25rem);
-    font-weight: 800;
-    color: #94a3b8;
-    text-transform: uppercase;
-    margin-bottom: 2px;
+    font-size: clamp(0.85rem, 1.2vw, 1.15rem); font-weight: 800; color: #94a3b8;
+    text-transform: uppercase; margin-bottom: 2px;
   }
-  .mp-jeo-team-box.is-active-turn .mp-jeo-team-name {
-    color: #fbbf24;
-  }
+  .mp-jeo-team-box.is-active-turn .mp-jeo-team-name { color: #fbbf24; }
   .mp-jeo-team-score {
-    font-size: clamp(1.8rem, 3vw, 3rem);
-    font-weight: 900;
-    color: #ffffff;
-    line-height: 1.1;
+    font-size: clamp(1.5rem, 2.6vw, 2.6rem); font-weight: 900; color: #ffffff; line-height: 1.1;
   }
-  /* Fuldskærms container med dynamisk højde */
-#mp-jeopardy-overlay {
-  display: none;
-  position: fixed !important;
-  top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
-  width: 100vw !important;
-  height: 100dvh !important; /* Retter 100vh fejlen */
-  background: #00008b;
-  z-index: 2147483647 !important;
-  overflow: hidden;
-  box-sizing: border-box;
-}
 
-#mp-jeopardy-game {
-  position: absolute; inset: 0;
-  display: flex; flex-direction: column;
-  background: #00005a;
-  color: #ffffff;
-  height: 100dvh;
-}
-
-/* Plade-container: muliggør horisontal swipe på stående mobil */
-.mp-jeo-board-container {
-  flex: 1;
-  min-height: 0; /* Vigtigt: tillader flex-children at krympe */
-  padding: clamp(6px, 1.5vh, 16px);
-  display: flex;
-  flex-direction: column;
-  overflow-x: auto; /* Sikrer at 5. kolonne kan nås på smalle skærme */
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-}
-
-.mp-jeo-grid {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  gap: clamp(4px, 1vw, 12px);
-  max-width: 1650px;
-  margin: 0 auto;
-  width: 100%;
-  min-width: 580px; /* Forhindrer at 5 kolonner mases til ulæselighed i portrait */
-}
-
-.mp-jeo-col {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: clamp(4px, 0.8vh, 10px);
-  min-width: 0;
-}
-
-.mp-jeo-cat-header {
-  background: #0000cd;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 4px 6px;
-  border: 2px solid #000;
-  border-radius: 6px;
-  font-weight: 900;
-  font-size: clamp(0.7rem, 1.2vw, 1.1rem);
-  text-transform: uppercase;
-  flex: 0 0 16%;
-  overflow: hidden;
-  word-break: break-word;
-}
-
-.mp-jeo-card {
-  background: #0000cd;
-  color: #fbbf24;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #000;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: 900;
-  font-size: clamp(1.1rem, 2.8vw, 2.8rem);
-  flex: 1;
-  transition: transform 0.1s, filter 0.15s;
-}
-
-/* ==========================================================
-   LANDSCAPE OPTIMERING FOR MOBIL (@media max-height: 500px)
-   Løser afskårne 400 & 500 point-felter (Billede 6)
-   ========================================================== */
-@media (max-height: 500px) {
-  .mp-jeo-topbar {
-    padding: 4px 12px !important;
+  /* LANDSCAPE MOBIL */
+  @media (max-height: 500px) {
+    .mp-jeo-topbar { padding: 4px 12px !important; }
+    .mp-jeo-board-container { padding: 4px 8px !important; }
+    .mp-jeo-grid { gap: 4px !important; min-width: 100% !important; }
+    .mp-jeo-col { gap: 3px !important; }
+    .mp-jeo-cat-header { font-size: 0.7rem !important; padding: 2px !important; flex: 0 0 15% !important; }
+    .mp-jeo-card { font-size: 1.1rem !important; border-width: 1.5px !important; }
+    .mp-jeo-control-panel { padding: 4px 12px calc(4px + env(safe-area-inset-bottom, 0px)) 12px !important; }
+    .mp-jeo-team-box { padding: 2px 8px !important; border-radius: 8px !important; }
+    .mp-jeo-team-name { font-size: 0.75rem !important; }
+    .mp-jeo-team-score { font-size: 1.1rem !important; }
   }
-  .mp-jeo-logo {
-    font-size: 0.95rem !important;
-  }
-  .mp-btn-jeo-nav {
-    padding: 3px 8px !important;
-    font-size: 0.75rem !important;
-  }
-  .mp-jeo-board-container {
-    padding: 4px 8px !important;
-  }
-  .mp-jeo-grid {
-    gap: 4px !important;
-    min-width: 100% !important;
-  }
-  .mp-jeo-col {
-    gap: 3px !important;
-  }
-  .mp-jeo-cat-header {
-    font-size: 0.7rem !important;
-    padding: 2px !important;
-    flex: 0 0 15% !important;
-  }
-  .mp-jeo-card {
-    font-size: 1.1rem !important;
-    border-width: 1.5px !important;
-  }
-  .mp-jeo-control-panel {
-    padding: 4px 12px calc(4px + env(safe-area-inset-bottom, 0px)) 12px !important;
-  }
-  .mp-jeo-team-box {
-    padding: 2px 8px !important;
-    border-radius: 8px !important;
-  }
-  .mp-jeo-team-name {
-    font-size: 0.75rem !important;
-  }
-  .mp-jeo-team-score {
-    font-size: 1.1rem !important;
-  }
-  .mp-jeo-turn-indicator-badge {
-    top: -6px !important;
-    font-size: 0.6rem !important;
-    padding: 1px 6px !important;
-  }
-}
 </style>
 
 <!-- MODAL MARKUP -->
@@ -687,7 +439,7 @@ Brug:
     <div class="mp-jeopardy-lobby-inner">
       <div class="mp-jeopardy-icon" style="font-size: 3rem; margin-bottom: 0.5rem;">📺</div>
       <div class="mp-jeopardy-title-main">Opsæt Jeopardy</div>
-      <div class="mp-jeopardy-sub-main">Systemet styrer automatisk tur-rækkefølgen og gemmer stillingen i baggrunden.</div>
+      <div class="mp-jeopardy-sub-main">Vælg kategorier, spilleregler og hold før spillet skydes i gang.</div>
 
       <!-- Kategori-valg -->
       <div class="mp-jeopardy-section">
@@ -769,7 +521,7 @@ Brug:
     <div id="mp-jeo-active-q-overlay">
       <div class="mp-jeo-active-header">
         <span id="mp-active-cat-name">KATEGORI</span>
-        <span id="mp-active-val-name">300</span>
+        <span id="mp-active-val-name">300 POINT</span>
       </div>
       
       <div class="mp-jeo-active-center">
@@ -777,7 +529,6 @@ Brug:
         <div class="mp-jeo-answer-text" id="mp-active-a-text">FACIT...</div>
       </div>
 
-      <!-- BUNDPANEL PÅ SVARSKÆRMEN -->
       <div class="mp-jeo-active-footer">
         <div class="mp-jeo-active-awarding-panel" id="mp-jeo-awarding-container">
           <div class="mp-jeo-award-teams-row" id="mp-jeo-award-buttons-container"></div>
@@ -790,14 +541,14 @@ Brug:
       </div>
     </div>
 
-    <!-- HOLDSTILLING I BUNDEN AF PLADEN -->
+    <!-- HOLDSTILLING -->
     <div class="mp-jeo-control-panel" id="mp-jeo-scoreboard-strip"></div>
   </div>
 </div>
 
 <script>
 window.MPJeopardy = window.MPJeopardy || (function() {
-  const STORAGE_KEY = 'mp_jeopardy_save';
+  const STORAGE_KEY = 'mp_jeopardy_save_v3';
 
   let allCategories = [];
   let selectedCatIndices = new Set();
@@ -816,8 +567,46 @@ window.MPJeopardy = window.MPJeopardy || (function() {
   };
 
   let activeQuestionRef = null;
-  let pickingTeamIdx = 0; // Holder fast i, hvem der ejede turen da spørgsmålet blev åbnet
+  let pickingTeamIdx = 0;
   let penalizedTeamsInActiveQ = new Set();
+
+  function normalizeCategories(raw) {
+    if (!raw) return [];
+    let list = [];
+
+    if (Array.isArray(raw)) {
+      list = raw;
+    } else if (typeof raw === 'object') {
+      list = Object.keys(raw).map(key => {
+        const val = raw[key] || {};
+        return {
+          key: key,
+          title: val.title || key,
+          icon: val.icon || "❓",
+          questions: val.questions || val.cards || []
+        };
+      });
+    }
+
+    return list.map((cat, cIdx) => {
+      const rawQs = cat.questions || cat.cards || [];
+      const cleanQs = rawQs.slice(0, 5).map((q, qIdx) => {
+        return {
+          points: parseInt(q.points, 10) || ((qIdx + 1) * 100),
+          q: q.q || q.question || q.front || "",
+          a: q.a || q.answer || q.back || "",
+          isUsed: false
+        };
+      }).filter(q => q.q);
+
+      return {
+        key: cat.key || `cat_${cIdx}`,
+        title: cat.title || cat.name || `Kategori ${cIdx + 1}`,
+        icon: cat.icon || "❓",
+        questions: cleanQs
+      };
+    }).filter(cat => cat.questions && cat.questions.length > 0);
+  }
 
   function ensureMountedToBody() {
     const overlay = document.getElementById('mp-jeopardy-overlay');
@@ -852,16 +641,18 @@ window.MPJeopardy = window.MPJeopardy || (function() {
 
   function initLobby() {
     const dataEl = document.getElementById('mp-jeopardy-data');
-    if (!dataEl) { alert("Ingen jeopardy data fundet."); return; }
+    if (!dataEl) return;
     
     try {
-      allCategories = JSON.parse(dataEl.textContent);
+      const raw = JSON.parse(dataEl.textContent);
+      allCategories = normalizeCategories(raw);
     } catch(e) {
-      console.error(e); allCategories = [];
+      console.error(e);
+      allCategories = [];
     }
 
     if (allCategories.length === 0) {
-      alert("Fandt ingen tilgængelige kategorier i _data/jeopardy/");
+      alert("Fandt ingen tilgængelige kategorier. Sørg for at kalde modulet med fx: categories=site.data.min_fil eller data=page.jeopardy");
       return;
     }
 
@@ -876,12 +667,13 @@ window.MPJeopardy = window.MPJeopardy || (function() {
     for (let i = 0; i < limit; i++) selectedCatIndices.add(i);
 
     renderLobbyCats();
-    setTeamCount(3);
+    setTeamCount(teamCount);
   }
 
   function openLobby() {
     ensureMountedToBody();
     initLobby();
+    if (allCategories.length === 0) return;
 
     document.body.classList.add('mp-jeopardy-active');
     const overlay = document.getElementById('mp-jeopardy-overlay');
@@ -923,12 +715,12 @@ window.MPJeopardy = window.MPJeopardy || (function() {
       item.innerHTML = `
         <div class="mp-jeopardy-cat-left">
           <span>${cat.icon}</span>
-          <span>${cat.title}</span>
+          <span>${cat.title} (${cat.questions.length} spg.)</span>
         </div>
       `;
       item.onclick = () => {
         if (selectedCatIndices.has(idx)) {
-          selectedCatIndices.delete(idx);
+          if (selectedCatIndices.size > 1) selectedCatIndices.delete(idx);
         } else {
           selectedCatIndices.add(idx);
         }
@@ -1098,7 +890,7 @@ window.MPJeopardy = window.MPJeopardy || (function() {
   function openQuestion(cIdx, qIdx) {
     const qData = gameState.cats[cIdx].questions[qIdx];
     activeQuestionRef = { cIdx, qIdx, points: qData.points };
-    pickingTeamIdx = gameState.currentTurnTeamIdx; // Lås fast hvem der startede turen
+    pickingTeamIdx = gameState.currentTurnTeamIdx;
     penalizedTeamsInActiveQ.clear();
 
     document.getElementById('mp-active-cat-name').textContent = gameState.cats[cIdx].title;
@@ -1111,7 +903,6 @@ window.MPJeopardy = window.MPJeopardy || (function() {
     document.getElementById('mp-btn-reveal-a').style.display = 'inline-block';
 
     renderActiveAwardButtons(qData.points);
-
     document.getElementById('mp-jeo-active-q-overlay').style.display = 'flex';
   }
 
@@ -1149,7 +940,6 @@ window.MPJeopardy = window.MPJeopardy || (function() {
       addBtn.type = 'button';
       addBtn.className = 'mp-btn-quick-award';
       addBtn.innerHTML = `✓ +${points}`;
-      addBtn.title = `Rigtigt svar: +${points} pt`;
       addBtn.onclick = () => awardAndReturn(tIdx, points);
       btnGroup.appendChild(addBtn);
 
@@ -1157,7 +947,6 @@ window.MPJeopardy = window.MPJeopardy || (function() {
       subBtn.type = 'button';
       subBtn.className = 'mp-btn-quick-penalize';
       subBtn.innerHTML = `– ${points}`;
-      subBtn.title = `Forkert svar: -${points} pt`;
       subBtn.onclick = () => penalizeTeam(tIdx, points);
       btnGroup.appendChild(subBtn);
 
@@ -1173,15 +962,12 @@ window.MPJeopardy = window.MPJeopardy || (function() {
     });
   }
 
-  /* FAIR TUR-STYRING VED POINTGIVNING */
   function awardAndReturn(teamIdx, points) {
     gameState.teams[teamIdx].score += points;
 
-    // Kun hvis det hold, der havde turen, SELV svarer rigtigt, må de beholde turen (hvis slået til)
     if (gameState.keepTurnOnCorrect && teamIdx === pickingTeamIdx) {
       gameState.currentTurnTeamIdx = pickingTeamIdx; 
     } else {
-      // Hvis et andet hold stjal pointene (eller 'turen går altid videre'), rykker vælger-retten altid videre
       gameState.currentTurnTeamIdx = (pickingTeamIdx + 1) % gameState.teams.length;
     }
 
@@ -1210,7 +996,6 @@ window.MPJeopardy = window.MPJeopardy || (function() {
 
     if (gameState.closeOnWrong) {
       setTimeout(() => {
-        // Turen rykker videre fra det hold, der valgte spørgsmålet
         gameState.currentTurnTeamIdx = (pickingTeamIdx + 1) % gameState.teams.length;
         closeActiveQuestion();
       }, 500);
@@ -1229,7 +1014,6 @@ window.MPJeopardy = window.MPJeopardy || (function() {
       gameState.cats[activeQuestionRef.cIdx].questions[activeQuestionRef.qIdx].isUsed = true;
     }
 
-    // Hvis spørgsmålet blev lukket uden en vinder (f.eks. på 'Ingen point'-knappen), går turen til næste hold
     if (penalizedTeamsInActiveQ.size === 0 || !gameState.closeOnWrong) {
       gameState.currentTurnTeamIdx = (pickingTeamIdx + 1) % gameState.teams.length;
     }
