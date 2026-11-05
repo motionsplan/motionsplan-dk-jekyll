@@ -29,15 +29,15 @@
   <div class="mcardle-input-grid-top">
     <div class="mcardle-input-group">
       <label for="mcardle-age">🎂 Alder <span class="mcardle-unit">(år)</span></label>
-      <input type="number" id="mcardle-age" placeholder="fx 25" value="25" min="10" max="100">
+      <input type="number" id="mcardle-age" placeholder="fx 25" value="" min="10" max="100">
     </div>
     <div class="mcardle-input-group">
       <label for="mcardle-height">📏 Højde <span class="mcardle-unit">(cm)</span></label>
-      <input type="number" id="mcardle-height" placeholder="fx 180" value="180" min="100" max="250" step="0.5">
+      <input type="number" id="mcardle-height" placeholder="fx 180" value="" min="100" max="250" step="0.5">
     </div>
     <div class="mcardle-input-group">
       <label for="mcardle-weight">⚖️ Vægt <span class="mcardle-unit">(kg)</span></label>
-      <input type="number" id="mcardle-weight" placeholder="fx 80" value="80" min="30" max="250" step="0.1">
+      <input type="number" id="mcardle-weight" placeholder="fx 80" value="" min="30" max="250" step="0.1">
     </div>
   </div>
 
@@ -67,7 +67,7 @@
             <span class="mcardle-measure-sub" id="mcardle-sub-1">(Upper arm)</span>
           </div>
           <div class="mcardle-input-wrap">
-            <input type="number" id="mcardle-input-1" value="32" step="0.5" min="10" max="150">
+            <input type="number" id="mcardle-input-1" value="" step="0.5" min="10" max="150">
             <span class="mcardle-unit-tag">cm</span>
           </div>
         </div>
@@ -79,7 +79,7 @@
             <span class="mcardle-measure-sub" id="mcardle-sub-2">(Forearm)</span>
           </div>
           <div class="mcardle-input-wrap">
-            <input type="number" id="mcardle-input-2" value="28" step="0.5" min="10" max="150">
+            <input type="number" id="mcardle-input-2" value="" step="0.5" min="10" max="150">
             <span class="mcardle-unit-tag">cm</span>
           </div>
         </div>
@@ -91,7 +91,7 @@
             <span class="mcardle-measure-sub" id="mcardle-sub-3">(Waist)</span>
           </div>
           <div class="mcardle-input-wrap">
-            <input type="number" id="mcardle-input-3" value="82" step="0.5" min="20" max="200">
+            <input type="number" id="mcardle-input-3" value="" step="0.5" min="20" max="200">
             <span class="mcardle-unit-tag">cm</span>
           </div>
         </div>
@@ -543,14 +543,16 @@
     }
   }
 </style>
+<script type="module">
+  import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
 
-<!-- JAVASCRIPT LOGIK MED DEDIKERET TILSTAND PR. KROPSDEL -->
-<script>
   document.addEventListener("DOMContentLoaded", function() {
     const calc = document.getElementById("mcardle-calculator");
     if (!calc) return;
 
-    // Elementer
+    const TEST_ID = 'fatpct_mcardle';
+
+    // DOM Elementer
     const btnMale = calc.querySelector("#mcardle-btn-male");
     const btnFemale = calc.querySelector("#mcardle-btn-female");
     
@@ -582,17 +584,16 @@
 
     let gender = "male";
 
-    // TILSTAND: GEMMER MÅLINGER PR. KROPSDEL I CM
+    // Tilstand pr. kropsdel (starter tomme – ingen demotal)
     const bodyPartValues = {
-      overarm: 32,
-      underarm: 28,
-      talje: 82,
-      hofte: 95,
-      laar: 55,
-      laeg: 38
+      overarm: '',
+      underarm: '',
+      talje: '',
+      hofte: '',
+      laar: '',
+      laeg: ''
     };
 
-    // Billedstier til de 4 illustrationer
     const diagramPaths = {
       m_young: "/assets/images/tools/mcardle-male-younger.jpg",
       m_old: "/assets/images/tools/mcardle-male-older.jpg",
@@ -600,7 +601,6 @@
       f_old: "/assets/images/tools/mcardle-female-older.jpg"
     };
 
-    // DEFINITION AF KATEGORIER OG DERES 3 KROPSDELE
     const categories = {
       m_young: {
         badge: "Mand (< 27 år)",
@@ -641,14 +641,93 @@
     };
 
     function getCurrentCategoryKey() {
-      const age = parseInt(inputAge.value) || 25;
+      const age = parseInt(inputAge.value, 10) || 25;
       const isYoung = age < 27;
+      return gender === "male" ? (isYoung ? "m_young" : "m_old") : (isYoung ? "f_young" : "f_old");
+    }
 
-      if (gender === "male") {
-        return isYoung ? "m_young" : "m_old";
-      } else {
-        return isYoung ? "f_young" : "f_old";
+    // --- STORAGE INTEGRATION: INDLÆS GEMTE DATA ---
+    function loadSavedData() {
+      try {
+        if (typeof StorageAdapter !== 'undefined' && StorageAdapter.getProfile) {
+          const profile = StorageAdapter.getProfile();
+          if (profile) {
+            if (profile.age) inputAge.value = profile.age;
+            if (profile.height) inputHeight.value = profile.height;
+            if (profile.weight) inputWeight.value = profile.weight;
+            if (profile.gender) gender = (profile.gender === 'female' || profile.gender === 'woman') ? 'female' : 'male';
+          }
+        }
+
+        let draft = null;
+        if (typeof StorageAdapter !== 'undefined' && StorageAdapter.loadDraft) {
+          draft = StorageAdapter.loadDraft(TEST_ID);
+        }
+        if (!draft) {
+          const raw = localStorage.getItem('mp_mcardle_draft') || localStorage.getItem(`mp_${TEST_ID}_draft`);
+          if (raw) draft = JSON.parse(raw);
+        }
+
+        if (draft) {
+          if (draft.age) inputAge.value = draft.age;
+          if (draft.height) inputHeight.value = draft.height;
+          if (draft.weight) inputWeight.value = draft.weight;
+          if (draft.gender) gender = draft.gender;
+
+          const vals = draft.bodyPartValues || draft.girths || draft;
+          if (vals) {
+            if (vals.overarm || vals.upperarm) bodyPartValues.overarm = vals.overarm || vals.upperarm;
+            if (vals.underarm || vals.forearm) bodyPartValues.underarm = vals.underarm || vals.forearm;
+            if (vals.talje || vals.waist) bodyPartValues.talje = vals.talje || vals.waist;
+            if (vals.hofte || vals.hip) bodyPartValues.hofte = vals.hofte || vals.hip;
+            if (vals.laar || vals.thigh) bodyPartValues.laar = vals.laar || vals.thigh;
+            if (vals.laeg || vals.calf) bodyPartValues.laeg = vals.laeg || vals.calf;
+          }
+        }
+      } catch (e) {
+        console.warn('Kunne ikke hente gemte McArdle-data:', e);
       }
+    }
+
+    // --- STORAGE INTEGRATION: GEM KLADDE & PROFIL ---
+    function saveDraftAndProfile() {
+      const age = parseInt(inputAge.value, 10) || 0;
+      const height = parseFloat(inputHeight.value) || 0;
+      const weight = parseFloat(inputWeight.value) || 0;
+
+      if (typeof StorageAdapter !== 'undefined' && StorageAdapter.saveProfile) {
+        if (age > 0 || height > 0 || weight > 0) {
+          StorageAdapter.saveProfile({
+            ...(age > 0 && { age }),
+            ...(height > 0 && { height }),
+            ...(weight > 0 && { weight }),
+            gender
+          });
+        }
+      }
+
+      const draftPayload = {
+        gender,
+        age: inputAge.value,
+        height: inputHeight.value,
+        weight: inputWeight.value,
+        bodyPartValues: { ...bodyPartValues },
+        girths: {
+          upperarm: bodyPartValues.overarm,
+          forearm: bodyPartValues.underarm,
+          waist: bodyPartValues.talje,
+          hip: bodyPartValues.hofte,
+          thigh: bodyPartValues.laar,
+          calf: bodyPartValues.laeg
+        }
+      };
+
+      if (typeof StorageAdapter !== 'undefined' && StorageAdapter.saveDraft) {
+        StorageAdapter.saveDraft(TEST_ID, draftPayload);
+      }
+      try {
+        localStorage.setItem('mp_mcardle_draft', JSON.stringify(draftPayload));
+      } catch (e) {}
     }
 
     function updateCategoryUI() {
@@ -658,23 +737,28 @@
       catBadge.textContent = cat.badge;
       diagramImg.src = cat.img;
 
-      // Sæt Felt 1
+      if (gender === 'male') {
+        btnMale.classList.add("active");
+        btnFemale.classList.remove("active");
+      } else {
+        btnFemale.classList.add("active");
+        btnMale.classList.remove("active");
+      }
+
       label1.textContent = cat.parts[0].label;
       sub1.textContent = cat.parts[0].sub;
       input1.dataset.part = cat.parts[0].id;
-      input1.value = bodyPartValues[cat.parts[0].id];
+      input1.value = bodyPartValues[cat.parts[0].id] !== '' ? bodyPartValues[cat.parts[0].id] : '';
 
-      // Sæt Felt 2
       label2.textContent = cat.parts[1].label;
       sub2.textContent = cat.parts[1].sub;
       input2.dataset.part = cat.parts[1].id;
-      input2.value = bodyPartValues[cat.parts[1].id];
+      input2.value = bodyPartValues[cat.parts[1].id] !== '' ? bodyPartValues[cat.parts[1].id] : '';
 
-      // Sæt Felt 3
       label3.textContent = cat.parts[2].label;
       sub3.textContent = cat.parts[2].sub;
       input3.dataset.part = cat.parts[2].id;
-      input3.value = bodyPartValues[cat.parts[2].id];
+      input3.value = bodyPartValues[cat.parts[2].id] !== '' ? bodyPartValues[cat.parts[2].id] : '';
 
       calculateMcArdle();
     }
@@ -682,52 +766,42 @@
     function handleInputRecord(inputEl) {
       const partId = inputEl.dataset.part;
       if (partId) {
-        bodyPartValues[partId] = parseFloat(inputEl.value) || 0;
+        bodyPartValues[partId] = inputEl.value;
       }
+      saveDraftAndProfile();
       calculateMcArdle();
     }
 
     function calculateMcArdle() {
-      const age = parseInt(inputAge.value) || 25;
+      const age = parseInt(inputAge.value, 10) || 0;
       const weight = parseFloat(inputWeight.value) || 0;
       const catKey = getCurrentCategoryKey();
 
       let density = 0;
 
+      const m_overarm = parseFloat(bodyPartValues.overarm) || 0;
+      const m_underarm = parseFloat(bodyPartValues.underarm) || 0;
+      const m_talje = parseFloat(bodyPartValues.talje) || 0;
+      const m_hofte = parseFloat(bodyPartValues.hofte) || 0;
+      const m_laar = parseFloat(bodyPartValues.laar) || 0;
+      const m_laeg = parseFloat(bodyPartValues.laeg) || 0;
+
       if (catKey === "m_young") {
-        // Mand < 27: Overarm, Underarm, Talje
-        const m1 = bodyPartValues.overarm;
-        const m2 = bodyPartValues.underarm;
-        const m3 = bodyPartValues.talje;
-        if (!m1 || !m2 || !m3) return resetDisplay();
-        density = 1.1017 - (0.000282 * m3) + (0.000736 * m2) - (0.0003 * m1);
-
+        if (!m_overarm || !m_underarm || !m_talje) return resetDisplay();
+        density = 1.1017 - (0.000282 * m_talje) + (0.000736 * m_underarm) - (0.0003 * m_overarm);
       } else if (catKey === "m_old") {
-        // Mand 27+: Underarm, Talje, Hofte
-        const m1 = bodyPartValues.underarm;
-        const m2 = bodyPartValues.talje;
-        const m3 = bodyPartValues.hofte;
-        if (!m1 || !m2 || !m3) return resetDisplay();
-        density = 1.03 - (0.000288 * m2) + (0.0007 * m1) - (0.0002 * m3);
-
+        if (!m_underarm || !m_talje || !m_hofte) return resetDisplay();
+        density = 1.03 - (0.000288 * m_underarm) + (0.0007 * m_talje) - (0.0002 * m_hofte);
       } else if (catKey === "f_young") {
-        // Kvinde < 27: Underarm, Talje, Lår
-        const m1 = bodyPartValues.underarm;
-        const m2 = bodyPartValues.talje;
-        const m3 = bodyPartValues.laar;
-        if (!m1 || !m2 || !m3) return resetDisplay();
-        density = 1.0764 - (0.00081 * m2) - (0.00088 * m3) + (0.00133 * m1);
-
+        if (!m_underarm || !m_talje || !m_laar) return resetDisplay();
+        density = 1.0764 - (0.00081 * m_underarm) - (0.00088 * m_talje) + (0.00133 * m_laar);
       } else if (catKey === "f_old") {
-        // Kvinde 27+: Talje, Lår, Læg
-        const m1 = bodyPartValues.talje;
-        const m2 = bodyPartValues.laar;
-        const m3 = bodyPartValues.laeg;
-        if (!m1 || !m2 || !m3) return resetDisplay();
-        density = 1.0602 - (0.00048 * m1) - (0.0005 * m2) + (0.00075 * m3);
+        if (!m_talje || !m_laar || !m_laeg) return resetDisplay();
+        density = 1.0602 - (0.00048 * m_talje) - (0.0005 * m_laar) + (0.00075 * m_laeg);
       }
 
-      // Siri formel: BF% = (495 / D) - 450
+      if (density <= 0) return resetDisplay();
+
       let bodyFat = (495 / density) - 450;
       bodyFat = Math.max(3, Math.min(55, bodyFat));
 
@@ -736,69 +810,133 @@
       if (weight > 0) {
         const fatKg = weight * (bodyFat / 100);
         const leanKg = weight - fatKg;
-
-        resFatMass.innerHTML = fatKg.toFixed(1) + " <small>kg</small>";
-        resLeanMass.innerHTML = leanKg.toFixed(1) + " <small>kg</small>";
+        resFatMass.innerHTML = `${fatKg.toFixed(1)} <small>kg</small>`;
+        resLeanMass.innerHTML = `${leanKg.toFixed(1)} <small>kg</small>`;
       } else {
         resFatMass.innerHTML = "- <small>kg</small>";
         resLeanMass.innerHTML = "- <small>kg</small>";
       }
+
+      return { bodyFat, density };
     }
 
     function resetDisplay() {
       resFatPct.textContent = "0.0";
       resFatMass.innerHTML = "0.0 <small>kg</small>";
       resLeanMass.innerHTML = "0.0 <small>kg</small>";
+      return null;
+    }
+
+    // --- GEM RESULTAT (COMMIT TO LOG) ---
+    function commitResult() {
+      const calcRes = calculateMcArdle();
+      const weight = parseFloat(inputWeight.value) || 0;
+      const height = parseFloat(inputHeight.value) || 0;
+      const age = parseInt(inputAge.value, 10) || 0;
+
+      if (!calcRes || !calcRes.bodyFat) {
+        alert('Indtast venligst alle 3 påkrævede omkredsmålinger for at gemme.');
+        return;
+      }
+
+      saveDraftAndProfile();
+
+      if (typeof StorageAdapter !== 'undefined' && StorageAdapter.commitToLog) {
+        const fatKg = weight > 0 ? (weight * calcRes.bodyFat / 100) : 0;
+        const leanKg = weight > 0 ? (weight - fatKg) : 0;
+
+        StorageAdapter.commitToLog(TEST_ID, {
+          type: 'physical',
+          primary: {
+            value: parseFloat(calcRes.bodyFat.toFixed(1)),
+            unit: '%',
+            label: 'Fedtprocent'
+          },
+          subMetrics: {
+            methodName: 'McArdle & Katch',
+            fatMassKg: parseFloat(fatKg.toFixed(1)),
+            leanMassKg: parseFloat(leanKg.toFixed(1)),
+            density: parseFloat(calcRes.density.toFixed(4))
+          },
+          context: {
+            gender,
+            age,
+            height,
+            weight,
+            bodyPartValues: { ...bodyPartValues },
+            girths: {
+              upperarm: bodyPartValues.overarm,
+              forearm: bodyPartValues.underarm,
+              waist: bodyPartValues.talje,
+              hip: bodyPartValues.hofte,
+              thigh: bodyPartValues.laar,
+              calf: bodyPartValues.laeg
+            }
+          }
+        });
+      }
+
+      if (btnCapture) {
+        const origText = btnCapture.innerHTML;
+        btnCapture.innerHTML = '✅ Gemt i loggen!';
+        btnCapture.style.background = '#16a34a';
+        setTimeout(() => {
+          btnCapture.innerHTML = origText;
+          btnCapture.style.background = '#2563eb';
+        }, 2000);
+      }
     }
 
     // Event Listeners
     btnMale.addEventListener("click", function() {
       gender = "male";
-      btnMale.classList.add("active");
-      btnFemale.classList.remove("active");
+      saveDraftAndProfile();
       updateCategoryUI();
     });
 
     btnFemale.addEventListener("click", function() {
       gender = "female";
-      btnFemale.classList.add("active");
-      btnMale.classList.remove("active");
+      saveDraftAndProfile();
       updateCategoryUI();
     });
 
-    inputAge.addEventListener("input", updateCategoryUI);
+    inputAge.addEventListener("input", () => {
+      saveDraftAndProfile();
+      updateCategoryUI();
+    });
     
+    inputHeight.addEventListener("input", () => {
+      saveDraftAndProfile();
+      calculateMcArdle();
+    });
+
+    inputWeight.addEventListener("input", () => {
+      saveDraftAndProfile();
+      calculateMcArdle();
+    });
+
     input1.addEventListener("input", () => handleInputRecord(input1));
     input2.addEventListener("input", () => handleInputRecord(input2));
     input3.addEventListener("input", () => handleInputRecord(input3));
 
-    inputHeight.addEventListener("input", calculateMcArdle);
-    inputWeight.addEventListener("input", calculateMcArdle);
+    btnCapture.addEventListener("click", commitResult);
 
     btnReset.addEventListener("click", function() {
-      inputAge.value = 25;
-      inputHeight.value = 180;
-      inputWeight.value = 80;
-
-      bodyPartValues.overarm = 32;
-      bodyPartValues.underarm = 28;
-      bodyPartValues.talje = 90;
-      bodyPartValues.hofte = 95;
-      bodyPartValues.laar = 55;
-      bodyPartValues.laeg = 38;
-
-      gender = "male";
-      btnMale.classList.add("active");
-      btnFemale.classList.remove("active");
-
-      updateCategoryUI();
+      if (confirm('Vil du rydde alle indtastninger for McArdle & Katch?')) {
+        Object.keys(bodyPartValues).forEach(k => bodyPartValues[k] = '');
+        inputAge.value = '';
+        inputHeight.value = '';
+        inputWeight.value = '';
+        if (typeof StorageAdapter !== 'undefined' && StorageAdapter.clearDraft) {
+          StorageAdapter.clearDraft(TEST_ID);
+        }
+        localStorage.removeItem('mp_mcardle_draft');
+        updateCategoryUI();
+      }
     });
 
-    btnCapture.addEventListener("click", function() {
-      window.print();
-    });
-
-    // Initialisér UI
+    // Start
+    loadSavedData();
     updateCategoryUI();
   });
 </script>

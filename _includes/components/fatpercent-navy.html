@@ -28,15 +28,11 @@
   <div class="navy-input-grid-top">
     <div class="navy-input-group">
       <label for="navy-height">📏 Højde <span class="navy-unit">(cm)</span></label>
-      <input type="number" id="navy-height" placeholder="fx 180" value="180" min="100" max="250" step="0.5">
+      <input type="number" id="navy-height" placeholder="fx 180" value="" min="100" max="250" step="0.5">
     </div>
     <div class="navy-input-group">
       <label for="navy-weight">⚖️ Vægt <span class="navy-unit">(kg)</span></label>
-      <input type="number" id="navy-weight" placeholder="fx 80" value="80" min="30" max="250" step="0.1">
-    </div>
-    <div class="navy-input-group">
-      <label for="navy-age">🎂 Alder <span class="navy-unit">(år)</span></label>
-      <input type="number" id="navy-age" placeholder="fx 30" value="30" min="10" max="100">
+      <input type="number" id="navy-weight" placeholder="fx 80" value="" min="30" max="250" step="0.1">
     </div>
   </div>
 
@@ -55,7 +51,7 @@
           <span class="navy-measure-name">Hals</span>
           <span class="navy-measure-sub">(Under strubehoved)</span>
           <div class="navy-measure-input-wrap">
-            <input type="number" id="navy-neck" value="38" step="0.5" min="20" max="70">
+            <input type="number" id="navy-neck" value="" step="0.5" min="20" max="70">
             <span class="navy-unit-tag">cm</span>
           </div>
         </div>
@@ -70,7 +66,7 @@
           <span class="navy-measure-name" id="navy-waist-label">Talje</span>
           <span class="navy-measure-sub" id="navy-waist-sub">(Ved navlen)</span>
           <div class="navy-measure-input-wrap">
-            <input type="number" id="navy-waist" value="85" step="0.5" min="40" max="200">
+            <input type="number" id="navy-waist" value="" step="0.5" min="40" max="200">
             <span class="navy-unit-tag">cm</span>
           </div>
         </div>
@@ -85,7 +81,7 @@
           <span class="navy-measure-name">Hofte</span>
           <span class="navy-measure-sub">(Bredeste sted)</span>
           <div class="navy-measure-input-wrap">
-            <input type="number" id="navy-hip" value="95" step="0.5" min="50" max="200">
+            <input type="number" id="navy-hip" value="" step="0.5" min="50" max="200">
             <span class="navy-unit-tag">cm</span>
           </div>
         </div>
@@ -227,13 +223,21 @@
     box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
   }
 
-  /* TOP INPUT GRID */
-  .navy-input-grid-top {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    margin-bottom: 20px;
+.navy-input-grid-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .navy-results-container {
+    grid-template-columns: 1fr;
   }
+  .navy-input-grid-top {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
   .navy-input-group label {
     display: block;
@@ -475,28 +479,28 @@
   }
 
   @media (max-width: 500px) {
-    .navy-results-container {
-      grid-template-columns: 1fr;
-    }
-    .navy-input-grid-top {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+.navy-results-container {
+    grid-template-columns: 1fr;
   }
-</style>
+  .navy-input-grid-top {
+    grid-template-columns: 1fr 1fr;
+  }
+  }
+</style><script type="module">
+  import { StorageAdapter } from '/assets/js/core/StorageAdapter.js';
 
-<!-- JAVASCRIPT LOGIK -->
-<script>
   document.addEventListener("DOMContentLoaded", function() {
     const calc = document.getElementById("navy-calculator");
     if (!calc) return;
 
-    // Elementer
+    const TEST_ID = 'fatpct_navy';
+
+    // DOM Elementer
     const btnMale = calc.querySelector("#navy-btn-male");
     const btnFemale = calc.querySelector("#navy-btn-female");
     
     const inputHeight = calc.querySelector("#navy-height");
     const inputWeight = calc.querySelector("#navy-weight");
-    const inputAge = calc.querySelector("#navy-age");
     
     const inputNeck = calc.querySelector("#navy-neck");
     const inputWaist = calc.querySelector("#navy-waist");
@@ -518,7 +522,6 @@
 
     let gender = "male";
 
-    // Billedstier (Kan tilpasses)
     const imgPaths = {
       male: {
         neck: "/assets/images/tools/mneck.jpg",
@@ -530,6 +533,81 @@
         hip: "/assets/images/tools/fhip.jpg"
       }
     };
+
+    // --- STORAGE INTEGRATION: INDLÆS GEMTE DATA ---
+    function loadSavedData() {
+      try {
+        if (typeof StorageAdapter !== 'undefined' && StorageAdapter.getProfile) {
+          const profile = StorageAdapter.getProfile();
+          if (profile) {
+            if (profile.height) inputHeight.value = profile.height;
+            if (profile.weight) inputWeight.value = profile.weight;
+            if (profile.gender) gender = (profile.gender === 'female' || profile.gender === 'woman') ? 'female' : 'male';
+          }
+        }
+
+        let draft = null;
+        if (typeof StorageAdapter !== 'undefined' && StorageAdapter.loadDraft) {
+          draft = StorageAdapter.loadDraft(TEST_ID);
+        }
+        if (!draft) {
+          const raw = localStorage.getItem(`mp_${TEST_ID}_draft`) || localStorage.getItem('mp_navy_draft');
+          if (raw) draft = JSON.parse(raw);
+        }
+
+        if (draft) {
+          if (draft.height) inputHeight.value = draft.height;
+          if (draft.weight) inputWeight.value = draft.weight;
+          if (draft.gender) gender = draft.gender;
+
+          const g = draft.girths || draft;
+          if (g.neck || g.hals) inputNeck.value = g.neck || g.hals;
+          if (g.waist || g.talje) inputWaist.value = g.waist || g.talje;
+          if (g.hip || g.hofte) inputHip.value = g.hip || g.hofte;
+        }
+      } catch (e) {
+        console.warn('Kunne ikke hente gemte US Navy data:', e);
+      }
+    }
+
+    // --- STORAGE INTEGRATION: GEM KLADDE & PROFIL ---
+    function saveDraftAndProfile() {
+      let height = parseFloat(inputHeight.value) || 0;
+      const weight = parseFloat(inputWeight.value) || 0;
+
+      if (height > 0 && height < 3.0) height = height * 100;
+
+      if (typeof StorageAdapter !== 'undefined' && StorageAdapter.saveProfile) {
+        if (height > 0 || weight > 0) {
+          StorageAdapter.saveProfile({
+            ...(height > 0 && { height }),
+            ...(weight > 0 && { weight }),
+            gender
+          });
+        }
+      }
+
+      const draftPayload = {
+        gender,
+        height: inputHeight.value,
+        weight: inputWeight.value,
+        neck: inputNeck.value,
+        waist: inputWaist.value,
+        hip: inputHip.value,
+        girths: {
+          neck: inputNeck.value,
+          waist: inputWaist.value,
+          hip: inputHip.value
+        }
+      };
+
+      if (typeof StorageAdapter !== 'undefined' && StorageAdapter.saveDraft) {
+        StorageAdapter.saveDraft(TEST_ID, draftPayload);
+      }
+      try {
+        localStorage.setItem(`mp_${TEST_ID}_draft`, JSON.stringify(draftPayload));
+      } catch (e) {}
+    }
 
     function setGender(newGender) {
       gender = newGender;
@@ -554,21 +632,25 @@
         waistLabel.textContent = "Talje";
         waistSub.textContent = "(Smalleste sted)";
       }
+      saveDraftAndProfile();
       calculateNavy();
     }
 
     function calculateNavy() {
-      const h = parseFloat(inputHeight.value) || 0;
+      let h = parseFloat(inputHeight.value) || 0;
       const w = parseFloat(inputWeight.value) || 0;
       const neck = parseFloat(inputNeck.value) || 0;
       const waist = parseFloat(inputWaist.value) || 0;
       const hip = parseFloat(inputHip.value) || 0;
 
-      if (h <= 0 || neck <= 0 || waist <= 0) {
+      // Autokorrektion hvis højde indtastes i meter
+      if (h > 0 && h < 3.0) h = h * 100;
+
+      if (h <= 0 || neck <= 0 || waist <= 0 || (gender === "female" && hip <= 0)) {
         resFatPct.textContent = "0.0";
         resFatMass.innerHTML = "0.0 <small>kg</small>";
         resLeanMass.innerHTML = "0.0 <small>kg</small>";
-        return;
+        return null;
       }
 
       let bodyFat = 0;
@@ -577,33 +659,88 @@
         const diff = waist - neck;
         if (diff <= 0) {
           resFatPct.textContent = "--";
-          return;
+          return null;
         }
-        // US Navy Formel for Mænd
         bodyFat = 495 / (1.0324 - 0.19077 * Math.log10(diff) + 0.15456 * Math.log10(h)) - 450;
       } else {
-        const sum = waist + hip - neck;
+        const sum = (waist + hip) - neck;
         if (sum <= 0) {
           resFatPct.textContent = "--";
-          return;
+          return null;
         }
-        // US Navy Formel for Kvinder
         bodyFat = 495 / (1.29579 - 0.35004 * Math.log10(sum) + 0.22100 * Math.log10(h)) - 450;
       }
 
-      bodyFat = Math.max(2, Math.min(60, bodyFat)); // Begræns til realistisk spænd
-
+      bodyFat = Math.max(2, Math.min(60, bodyFat));
       resFatPct.textContent = bodyFat.toFixed(1);
 
       if (w > 0) {
         const fatKg = w * (bodyFat / 100);
         const leanKg = w - fatKg;
-
-        resFatMass.innerHTML = fatKg.toFixed(1) + " <small>kg</small>";
-        resLeanMass.innerHTML = leanKg.toFixed(1) + " <small>kg</small>";
+        resFatMass.innerHTML = `${fatKg.toFixed(1)} <small>kg</small>`;
+        resLeanMass.innerHTML = `${leanKg.toFixed(1)} <small>kg</small>`;
       } else {
         resFatMass.innerHTML = "- <small>kg</small>";
         resLeanMass.innerHTML = "- <small>kg</small>";
+      }
+
+      return { bodyFat };
+    }
+
+    // --- GEM RESULTAT I HISTORIKKEN ---
+    function commitResult() {
+      const calcRes = calculateNavy();
+      const w = parseFloat(inputWeight.value) || 0;
+      let h = parseFloat(inputHeight.value) || 0;
+      if (h > 0 && h < 3.0) h = h * 100;
+
+      if (!calcRes || !calcRes.bodyFat) {
+        alert('Udfyld venligst højde samt påkrævede omkredsmål for at gemme.');
+        return;
+      }
+
+      saveDraftAndProfile();
+
+      if (typeof StorageAdapter !== 'undefined' && StorageAdapter.commitToLog) {
+        const fatKg = w > 0 ? (w * calcRes.bodyFat / 100) : 0;
+        const leanKg = w > 0 ? (w - fatKg) : 0;
+
+        StorageAdapter.commitToLog(TEST_ID, {
+          type: 'physical',
+          primary: {
+            value: parseFloat(calcRes.bodyFat.toFixed(1)),
+            unit: '%',
+            label: 'Fedtprocent'
+          },
+          subMetrics: {
+            methodName: 'US Navy Metoden',
+            fatMassKg: parseFloat(fatKg.toFixed(1)),
+            leanMassKg: parseFloat(leanKg.toFixed(1))
+          },
+          context: {
+            gender,
+            height: h,
+            weight: w,
+            neck: parseFloat(inputNeck.value) || 0,
+            waist: parseFloat(inputWaist.value) || 0,
+            hip: parseFloat(inputHip.value) || 0,
+            girths: {
+              neck: inputNeck.value,
+              waist: inputWaist.value,
+              hip: inputHip.value
+            }
+          }
+        });
+      }
+
+      if (btnCapture) {
+        const origText = btnCapture.innerHTML;
+        btnCapture.innerHTML = '✅ Gemt i loggen!';
+        btnCapture.style.background = '#16a34a';
+        setTimeout(() => {
+          btnCapture.innerHTML = origText;
+          btnCapture.style.background = '#2563eb';
+        }, 2000);
       }
     }
 
@@ -611,25 +748,32 @@
     btnMale.addEventListener("click", () => setGender("male"));
     btnFemale.addEventListener("click", () => setGender("female"));
 
-    [inputHeight, inputWeight, inputAge, inputNeck, inputWaist, inputHip].forEach(el => {
-      el.addEventListener("input", calculateNavy);
+    [inputHeight, inputWeight, inputNeck, inputWaist, inputHip].forEach(el => {
+      el.addEventListener("input", () => {
+        saveDraftAndProfile();
+        calculateNavy();
+      });
     });
+
+    btnCapture.addEventListener("click", commitResult);
 
     btnReset.addEventListener("click", function() {
-      inputHeight.value = 180;
-      inputWeight.value = 80;
-      inputAge.value = 30;
-      inputNeck.value = 38;
-      inputWaist.value = 85;
-      inputHip.value = 95;
-      setGender("male");
+      if (confirm('Vil du rydde alle indtastninger for US Navy?')) {
+        inputHeight.value = '';
+        inputWeight.value = '';
+        inputNeck.value = '';
+        inputWaist.value = '';
+        inputHip.value = '';
+        if (typeof StorageAdapter !== 'undefined' && StorageAdapter.clearDraft) {
+          StorageAdapter.clearDraft(TEST_ID);
+        }
+        localStorage.removeItem(`mp_${TEST_ID}_draft`);
+        setGender("male");
+      }
     });
 
-    btnCapture.addEventListener("click", function() {
-      window.print();
-    });
-
-    // Initiel beregning
-    calculateNavy();
+    // Start
+    loadSavedData();
+    setGender(gender);
   });
 </script>

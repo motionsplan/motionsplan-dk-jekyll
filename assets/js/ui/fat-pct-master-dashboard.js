@@ -1,26 +1,28 @@
+// assets/js/ui/fat-pct-master-dashboard.js
 import { calculateFatPercent } from '../core/fat-pct.js';
 import { SKINFOLD_FORMULAS } from '../core/skinfold.js';
+import { StorageAdapter } from '../core/StorageAdapter.js';
 
-// Målebåndssteder
+// Målebåndssteder (Girths i cm)
 const GIRTH_SITES = {
   neck: { main: 'Hals', sub: '(Under strubehoved)', imgMale: '/assets/images/tools/mneck.jpg', imgFemale: '/assets/images/tools/fneck.jpg' },
   waist: { main: 'Talje', sub: '(Ved navle/smalle)', imgMale: '/assets/images/tools/mabdomen.jpg', imgFemale: '/assets/images/tools/fwaist.jpg' },
   hip: { main: 'Hofte', sub: '(Bredeste sted)', imgMale: '/assets/images/tools/fhip.jpg', imgFemale: '/assets/images/tools/fhip.jpg' },
-  forearm: { main: 'Underarm', sub: '(Bredeste sted)', imgMale: '/assets/images/skinfold/male/biceps.jpg', imgFemale: '/assets/images/skinfold/female/biceps.jpg' },
-  upperarm: { main: 'Overarm', sub: '(Midt på overarm)', imgMale: '/assets/images/skinfold/male/triceps.jpg', imgFemale: '/assets/images/skinfold/female/triceps.jpg' },
-  thigh: { main: 'Lår', sub: '(Øverste lår)', imgMale: '/assets/images/skinfold/male/thigh.jpg', imgFemale: '/assets/images/skinfold/female/thigh.jpg' },
-  calf: { main: 'Læg', sub: '(Bredeste sted)', imgMale: '/assets/images/skinfold/male/calf.jpg', imgFemale: '/assets/images/skinfold/female/calf.jpg' }
+  forearm: { main: 'Underarm', sub: '(Bredeste sted)', imgMale: '/assets/images/tools/mcardle-male-younger.jpg', imgFemale: '/assets/images/tools/mcardle-female-younger.jpg' },
+  upperarm: { main: 'Overarm', sub: '(Midt på overarm)', imgMale: '/assets/images/tools/mcardle-male-younger.jpg', imgFemale: '/assets/images/tools/mcardle-female-younger.jpg' },
+  thigh: { main: 'Lår (omkreds)', sub: '(Øverste lår i cm)', imgMale: '/assets/images/tools/mcardle-female-younger.jpg', imgFemale: '/assets/images/tools/mcardle-female-younger.jpg' },
+  calf: { main: 'Læg (omkreds)', sub: '(Bredeste sted i cm)', imgMale: '/assets/images/tools/mcardle-female-older.jpg', imgFemale: '/assets/images/tools/mcardle-female-older.jpg' }
 };
 
-// Fedttangssteder
+// Fedttangssteder (Skinfolds i mm)
 const SKINFOLD_SITES = {
-  triceps: { main: 'Triceps', sub: '(Triceps)', imgName: 'triceps.jpg' },
-  biceps: { main: 'Biceps', sub: '(Biceps)', imgName: 'biceps.jpg' },
+  triceps: { main: 'Triceps', sub: '(Triceps hudfold)', imgName: 'triceps.jpg' },
+  biceps: { main: 'Biceps', sub: '(Biceps hudfold)', imgName: 'biceps.jpg' },
   subscapular: { main: 'Skulderblad', sub: '(Subscapularis)', imgName: 'subscapular.jpg' },
   suprailiac: { main: 'Hoftekam', sub: '(Suprailiac)', imgName: 'suprailiac.jpg' },
   chest: { main: 'Bryst', sub: '(Chest)', imgName: 'chest.jpg' },
   abdomen: { main: 'Mave', sub: '(Abdomen)', imgName: 'abdominal.jpg' },
-  thigh: { main: 'Lår', sub: '(Midthigh)', imgName: 'thigh.jpg' }
+  thigh: { main: 'Lår (hudfold)', sub: '(Midthigh i mm)', imgName: 'thigh.jpg' }
 };
 
 export function initFatPctMasterDashboard(container) {
@@ -28,16 +30,16 @@ export function initFatPctMasterDashboard(container) {
 
   const STORAGE_KEY = 'mp_fatpct_master_dashboard_state';
 
-  // Tilstand
+  // Initial tilstand – starter helt tom uden demoværdier
   const state = {
     gender: 'male',
-    demo: { age: '30', height: '180', weight: '80' },
+    demo: { age: '', height: '', weight: '' },
     girths: { neck: '', waist: '', hip: '', forearm: '', upperarm: '', thigh: '', calf: '' },
     skinfolds: { triceps: '', biceps: '', subscapular: '', suprailiac: '', chest: '', abdomen: '', thigh: '' },
     direct: { dexa: '', bia: '', hydro: '' }
   };
 
-  // DOM
+  // DOM referencer
   const girthsGrid = container.querySelector('.js-master-girths-grid');
   const skinfoldsGrid = container.querySelector('.js-master-skinfolds-grid');
   const matrixGrid = container.querySelector('.js-master-matrix-grid');
@@ -57,9 +59,177 @@ export function initFatPctMasterDashboard(container) {
     });
   }
 
+  // Gennemsøg objekter dybt efter hudfolder
+  const siteNames = ['triceps', 'biceps', 'subscapular', 'suprailiac', 'chest', 'abdomen', 'thigh', 'calf'];
+  const siteAliases = {
+    triceps: ['tricep'],
+    biceps: ['bicep'],
+    subscapular: ['subscapularis', 'skulderblad', 'subscap'],
+    suprailiac: ['suprailiaca', 'hoftekam', 'iliac'],
+    chest: ['bryst'],
+    abdomen: ['mave', 'abdominal'],
+    thigh: ['laar', 'lår'],
+    calf: ['laeg', 'læg']
+  };
+
+  function extractSkinfoldsDeep(obj) {
+    if (!obj || typeof obj !== 'object') return {};
+    const result = {};
+    const queue = [obj];
+    const visited = new Set();
+
+    while (queue.length > 0) {
+      const curr = queue.shift();
+      if (!curr || typeof curr !== 'object' || visited.has(curr)) continue;
+      visited.add(curr);
+
+      siteNames.forEach(s => {
+        if (!result[s] || !parseFloat(result[s])) {
+          if (curr[s] !== undefined && String(curr[s]).trim() !== '' && String(curr[s]).trim() !== '0') {
+            result[s] = String(curr[s]);
+          } else if (siteAliases[s]) {
+            for (const alias of siteAliases[s]) {
+              if (curr[alias] !== undefined && String(curr[alias]).trim() !== '' && String(curr[alias]).trim() !== '0') {
+                result[s] = String(curr[alias]);
+                break;
+              }
+            }
+          }
+        }
+      });
+
+      Object.keys(curr).forEach(k => {
+        if (curr[k] && typeof curr[k] === 'object') {
+          queue.push(curr[k]);
+        }
+      });
+    }
+    return result;
+  }
+
+  // Synkroniser udelukkende hvad der findes i StorageAdapter eller localStorage
+  function syncFromStorageAdapter() {
+    try {
+      // 1. Stamdata fra profil
+      if (typeof StorageAdapter !== 'undefined' && StorageAdapter.getProfile) {
+        const profile = StorageAdapter.getProfile();
+        if (profile) {
+          if (!parseFloat(state.demo.age) && profile.age) state.demo.age = String(profile.age);
+          if (!parseFloat(state.demo.height) && profile.height) state.demo.height = String(profile.height);
+          if (!parseFloat(state.demo.weight) && profile.weight) state.demo.weight = String(profile.weight);
+          if (profile.gender) {
+            state.gender = (profile.gender === 'female' || profile.gender === 'woman') ? 'female' : 'male';
+          }
+        }
+      }
+
+      // 2. Hudfolder (Durnin m.fl.)
+      const sfSources = [
+        'skinfold-durnin-4', 'skinfold-durnin', 'durnin-4', 'durnin',
+        'skinfold-dashboard', 'skinfold', 'skinfolds',
+        'skinfold-peterson-4', 'peterson-4',
+        'skinfold-ymca-4', 'ymca-4',
+        'skinfold-jackson-pollock-3', 'jackson-pollock-3'
+      ];
+
+      sfSources.forEach(key => {
+        let src = null;
+        if (typeof StorageAdapter !== 'undefined') {
+          if (StorageAdapter.loadDraft) src = StorageAdapter.loadDraft(key);
+          if (!src && StorageAdapter.getLatest) src = StorageAdapter.getLatest(key);
+        }
+
+        if (src) {
+          const extracted = extractSkinfoldsDeep(src);
+          Object.keys(extracted).forEach(site => {
+            if (!parseFloat(state.skinfolds[site]) && parseFloat(extracted[site]) > 0) {
+              state.skinfolds[site] = extracted[site];
+            }
+          });
+        }
+      });
+
+      // Rå localStorage scanning for hudfolder
+      try {
+        for (let i = 0; i < localStorage.length; i++) {
+          const key = localStorage.key(i);
+          if (!key || key === STORAGE_KEY) continue;
+
+          if (key.includes('durnin') || key.includes('skinfold')) {
+            try {
+              const rawData = localStorage.getItem(key);
+              if (rawData && (rawData.startsWith('{') || rawData.startsWith('['))) {
+                const parsed = JSON.parse(rawData);
+                const extracted = extractSkinfoldsDeep(parsed);
+                Object.keys(extracted).forEach(site => {
+                  if (!parseFloat(state.skinfolds[site]) && parseFloat(extracted[site]) > 0) {
+                    state.skinfolds[site] = extracted[site];
+                  }
+                });
+              }
+            } catch (err) {}
+          }
+        }
+      } catch (err) {}
+
+      // 3. Målebånd (McArdle & Navy)
+      const girthSources = ['fatpct_mcardle', 'mcardle', 'fatpct_navy', 'navy'];
+      girthSources.forEach(key => {
+        let src = null;
+        if (typeof StorageAdapter !== 'undefined') {
+          if (StorageAdapter.loadDraft) src = StorageAdapter.loadDraft(key);
+          if (!src && StorageAdapter.getLatest) src = StorageAdapter.getLatest(key);
+        }
+        if (!src) {
+          try {
+            const raw = localStorage.getItem('mp_mcardle_draft') || localStorage.getItem(`mp_${key}_draft`) || localStorage.getItem(key);
+            if (raw) src = JSON.parse(raw);
+          } catch (e) {}
+        }
+
+        if (src) {
+          const g = src.girths || src.bodyPartValues || src.bodyParts || src.context || src;
+          const map = {
+            neck: g.neck || g.hals,
+            waist: g.waist || g.talje,
+            hip: g.hip || g.hofte,
+            forearm: g.forearm || g.underarm,
+            upperarm: g.upperarm || g.overarm,
+            thigh: g.thigh || g.laar,
+            calf: g.calf || g.laeg
+          };
+
+          Object.keys(map).forEach(site => {
+            if (!parseFloat(state.girths[site]) && parseFloat(map[site]) > 0) {
+              state.girths[site] = String(map[site]);
+            }
+          });
+        }
+      });
+
+    } catch (e) {
+      console.warn('Fejl under synkronisering af målinger:', e);
+    }
+  }
+
   function saveState() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+
+      if (typeof StorageAdapter !== 'undefined') {
+        const age = parseInt(state.demo.age, 10);
+        const height = parseFloat(state.demo.height);
+        const weight = parseFloat(state.demo.weight);
+
+        if ((age > 0 || height > 0 || weight > 0) && StorageAdapter.saveProfile) {
+          StorageAdapter.saveProfile({
+            ...(age > 0 && { age }),
+            ...(height > 0 && { height }),
+            ...(weight > 0 && { weight }),
+            gender: state.gender === 'female' ? 'female' : 'male'
+          });
+        }
+      }
     } catch (e) {}
   }
 
@@ -75,9 +245,12 @@ export function initFatPctMasterDashboard(container) {
         if (parsed.direct) Object.assign(state.direct, parsed.direct);
       }
     } catch (e) {}
+
+    // Hent gemte værdier fra andre tests/profil uden at tilføje fallback-tal
+    syncFromStorageAdapter();
   }
 
-  // Render Målebåndskort
+  // Render Målebåndskort (4 i en række med navn og subtekst)
   function renderGirthCards(gender) {
     if (!girthsGrid) return;
     girthsGrid.innerHTML = '';
@@ -89,17 +262,25 @@ export function initFatPctMasterDashboard(container) {
       const val = state.girths[siteKey] !== undefined ? state.girths[siteKey] : '';
 
       const html = `
-        <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 8px; display: flex; flex-direction: column; align-items: center; text-align: center;">
-          <div style="width: 100%; height: 80px; border-radius: 6px; overflow: hidden; background: #f8fafc; margin-bottom: 6px; display: flex; align-items: center; justify-content: center; border: 1px solid #f1f5f9;">
+        <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 10px 8px 12px; display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+          
+          <!-- Billede -->
+          <div style="width: 100%; height: 95px; border-radius: 8px; overflow: hidden; background: #f8fafc; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; border: 1px solid #f1f5f9;">
             <img src="${imgPath}" alt="${site.main}" style="max-height: 100%; max-width: 100%; object-fit: contain;">
           </div>
-          <label for="${uniqueId}" style="cursor: pointer; display: block; margin-bottom: 4px;">
-            <span style="display: block; font-size: 0.8rem; font-weight: 800; color: #0f172a;">${site.main}</span>
+          
+          <!-- Titel og subtekst -->
+          <label for="${uniqueId}" style="cursor: pointer; display: block; margin-bottom: 8px; width: 100%;">
+            <span style="display: block; font-size: 0.84rem; font-weight: 800; color: #0f172a; line-height: 1.2;">${site.main}</span>
+            <span style="display: block; font-size: 0.68rem; font-weight: 600; color: #64748b; margin-top: 2px;">${site.sub}</span>
           </label>
-          <div style="position: relative; width: 100%;">
-            <input type="number" step="0.5" id="${uniqueId}" class="js-master-girth" data-site="${siteKey}" value="${val}" placeholder="0.0" style="width: 100%; padding: 6px 24px 6px 6px; border: 1px solid #cbd5e1; border-radius: 6px; font-weight: 700; text-align: center; font-size: 0.85rem; box-sizing: border-box;">
-            <span style="position: absolute; right: 6px; top: 50%; transform: translateY(-50%); font-size: 0.7rem; color: #94a3b8; font-weight: 600;">cm</span>
+          
+          <!-- Inputfelt -->
+          <div style="position: relative; width: 100%; max-width: 110px;">
+            <input type="number" step="0.5" id="${uniqueId}" class="js-master-girth" data-site="${siteKey}" value="${val}" placeholder="0.0" style="width: 100%; padding: 6px 24px 6px 6px; border: 1.5px solid #cbd5e1; border-radius: 8px; font-weight: 800; text-align: center; font-size: 0.9rem; color: #0f172a; box-sizing: border-box; background: #ffffff;">
+            <span style="position: absolute; right: 6px; top: 50%; transform: translateY(-50%); font-size: 0.68rem; color: #94a3b8; font-weight: 700; pointer-events: none;">cm</span>
           </div>
+
         </div>
       `;
       girthsGrid.insertAdjacentHTML('beforeend', html);
@@ -113,7 +294,7 @@ export function initFatPctMasterDashboard(container) {
     });
   }
 
-  // Render Hudfoldskort
+  // Render Hudfoldskort (4 i en række med navn og subtekst)
   function renderSkinfoldCards(gender) {
     if (!skinfoldsGrid) return;
     skinfoldsGrid.innerHTML = '';
@@ -125,17 +306,25 @@ export function initFatPctMasterDashboard(container) {
       const val = state.skinfolds[siteKey] !== undefined ? state.skinfolds[siteKey] : '';
 
       const html = `
-        <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 8px; display: flex; flex-direction: column; align-items: center; text-align: center;">
-          <div style="width: 100%; height: 80px; border-radius: 6px; overflow: hidden; background: #f8fafc; margin-bottom: 6px; display: flex; align-items: center; justify-content: center; border: 1px solid #f1f5f9;">
+        <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 10px 8px 12px; display: flex; flex-direction: column; align-items: center; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+          
+          <!-- Billede -->
+          <div style="width: 100%; height: 95px; border-radius: 8px; overflow: hidden; background: #f8fafc; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; border: 1px solid #f1f5f9;">
             <img src="${imgPath}" alt="${site.main}" style="max-height: 100%; max-width: 100%; object-fit: contain;">
           </div>
-          <label for="${uniqueId}" style="cursor: pointer; display: block; margin-bottom: 4px;">
-            <span style="display: block; font-size: 0.8rem; font-weight: 800; color: #0f172a;">${site.main}</span>
+          
+          <!-- Titel og subtekst -->
+          <label for="${uniqueId}" style="cursor: pointer; display: block; margin-bottom: 8px; width: 100%;">
+            <span style="display: block; font-size: 0.84rem; font-weight: 800; color: #0f172a; line-height: 1.2;">${site.main}</span>
+            <span style="display: block; font-size: 0.68rem; font-weight: 600; color: #64748b; margin-top: 2px;">${site.sub}</span>
           </label>
-          <div style="position: relative; width: 100%;">
-            <input type="number" step="0.5" id="${uniqueId}" class="js-master-sf" data-site="${siteKey}" value="${val}" placeholder="0.0" style="width: 100%; padding: 6px 24px 6px 6px; border: 1px solid #cbd5e1; border-radius: 6px; font-weight: 700; text-align: center; font-size: 0.85rem; box-sizing: border-box;">
-            <span style="position: absolute; right: 6px; top: 50%; transform: translateY(-50%); font-size: 0.7rem; color: #94a3b8; font-weight: 600;">mm</span>
+          
+          <!-- Inputfelt -->
+          <div style="position: relative; width: 100%; max-width: 110px;">
+            <input type="number" step="0.5" id="${uniqueId}" class="js-master-sf" data-site="${siteKey}" value="${val}" placeholder="0.0" style="width: 100%; padding: 6px 24px 6px 6px; border: 1.5px solid #cbd5e1; border-radius: 8px; font-weight: 800; text-align: center; font-size: 0.9rem; color: #0f172a; box-sizing: border-box; background: #ffffff;">
+            <span style="position: absolute; right: 6px; top: 50%; transform: translateY(-50%); font-size: 0.68rem; color: #94a3b8; font-weight: 700; pointer-events: none;">mm</span>
           </div>
+
         </div>
       `;
       skinfoldsGrid.insertAdjacentHTML('beforeend', html);
@@ -156,12 +345,12 @@ export function initFatPctMasterDashboard(container) {
 
     container.querySelectorAll('.js-master-demo').forEach(inp => {
       const f = inp.dataset.field;
-      if (state.demo[f] !== undefined) inp.value = state.demo[f];
+      inp.value = state.demo[f] !== undefined ? state.demo[f] : '';
     });
 
     container.querySelectorAll('.js-master-direct').forEach(inp => {
       const m = inp.dataset.method;
-      if (state.direct[m] !== undefined) inp.value = state.direct[m];
+      inp.value = state.direct[m] !== undefined ? state.direct[m] : '';
     });
 
     renderGirthCards(state.gender);
@@ -169,7 +358,6 @@ export function initFatPctMasterDashboard(container) {
   }
 
   function updateAccordionBadges() {
-    // Stamdata
     const badgeDemo = container.querySelector('.js-acc-badge-demo');
     const ageVal = parseFloat(state.demo.age) || 0;
     const heightVal = parseFloat(state.demo.height) || 0;
@@ -193,7 +381,6 @@ export function initFatPctMasterDashboard(container) {
       }
     }
 
-    // Målebånd
     const filledGirths = Object.values(state.girths).filter(v => parseFloat(v) > 0).length;
     const badgeG = container.querySelector('.js-acc-badge-girths');
     if (badgeG) {
@@ -210,7 +397,6 @@ export function initFatPctMasterDashboard(container) {
       }
     }
 
-    // Fedttang
     const filledSf = Object.values(state.skinfolds).filter(v => parseFloat(v) > 0).length;
     const badgeSf = container.querySelector('.js-acc-badge-skinfolds');
     if (badgeSf) {
@@ -227,7 +413,6 @@ export function initFatPctMasterDashboard(container) {
       }
     }
 
-    // Direkte
     const filledDir = Object.values(state.direct).filter(v => parseFloat(v) > 0).length;
     const badgeDir = container.querySelector('.js-acc-badge-direct');
     if (badgeDir) {
@@ -245,7 +430,6 @@ export function initFatPctMasterDashboard(container) {
     }
   }
 
-  // --- BEREGNING AF ALLE 16 METODER ---
   function calculateAll() {
     saveState();
     updateAccordionBadges();
@@ -257,7 +441,6 @@ export function initFatPctMasterDashboard(container) {
 
     const methods = [];
 
-    // Tjek hvad der mangler af stamdata
     const missingDemoList = [];
     if (!age) missingDemoList.push('Alder');
     if (!height) missingDemoList.push('Højde');
@@ -355,11 +538,11 @@ export function initFatPctMasterDashboard(container) {
       if (isYoung) {
         if (!forearmG) missingMc.push('Underarm');
         if (!waistG) missingMc.push('Talje');
-        if (!thighG) missingMc.push('Lår');
+        if (!thighG) missingMc.push('Lår (omkreds)');
       } else {
         if (!waistG) missingMc.push('Talje');
-        if (!thighG) missingMc.push('Lår');
-        if (!calfG) missingMc.push('Læg');
+        if (!thighG) missingMc.push('Lår (omkreds)');
+        if (!calfG) missingMc.push('Læg (omkreds)');
       }
     }
 
@@ -381,7 +564,7 @@ export function initFatPctMasterDashboard(container) {
       methods.push({ icon: '📏', tagColor: '#059669', category: 'Målebånd', name: 'McArdle & Katch', isUnlocked: false, fatPct: null, missing: missingMc.length ? `Mangler ${missingMc.join(', ')}` : 'Mangler mål' });
     }
 
-    // D. FEDTTANG (4 VOKSENFORMLER MED DANSKE NAVNE)
+    // D. FEDTTANG (Durnin m.fl.)
     const sfParams = {
       gender, age, weight, height,
       triceps: parseFloat(state.skinfolds.triceps) || 0,
@@ -429,7 +612,7 @@ export function initFatPctMasterDashboard(container) {
     if (biaVal > 0) methods.push({ icon: '🔬', tagColor: '#7c3aed', category: 'Lab / Direkte', name: 'Badevægt / BIA', isUnlocked: true, fatPct: biaVal, missing: '' });
     if (hydroVal > 0) methods.push({ icon: '🔬', tagColor: '#7c3aed', category: 'Lab / Direkte', name: 'BodPod / Vand', isUnlocked: true, fatPct: hydroVal, missing: '' });
 
-    // BYG KOMPAKTE STATUSKORT
+    // BYG STATUSKORT
     let unlockedCount = 0;
     let sumPct = 0;
     let matrixHTML = '';
@@ -498,17 +681,15 @@ export function initFatPctMasterDashboard(container) {
     }
   }
 
-  // --- HARMONIKA / ACCORDION LOGIK ---
+  // Harmonikaer
   container.querySelectorAll('.js-master-acc-toggle').forEach(header => {
     header.addEventListener('click', () => {
       const box = header.closest('.js-master-acc');
-      if (box) {
-        box.classList.toggle('is-open');
-      }
+      if (box) box.classList.toggle('is-open');
     });
   });
 
-  // --- EVENT LISTENERS ---
+  // Event Listeners
   container.querySelectorAll('.js-master-gender-radio').forEach(radio => {
     radio.addEventListener('change', (e) => {
       state.gender = e.target.value;
@@ -537,9 +718,9 @@ export function initFatPctMasterDashboard(container) {
     resetBtn.addEventListener('click', () => {
       if (confirm('Vil du nulstille alle indtastninger i det samlede dashboard?')) {
         localStorage.removeItem(STORAGE_KEY);
-        
+
         state.gender = 'male';
-        state.demo = { age: '30', height: '180', weight: '80' };
+        state.demo = { age: '', height: '', weight: '' };
         Object.keys(state.girths).forEach(k => state.girths[k] = '');
         Object.keys(state.skinfolds).forEach(k => state.skinfolds[k] = '');
         Object.keys(state.direct).forEach(k => state.direct[k] = '');
@@ -550,7 +731,7 @@ export function initFatPctMasterDashboard(container) {
     });
   }
 
-  // INITIALISERING
+  // Initialisering
   loadState();
   syncDOM();
   calculateAll();
