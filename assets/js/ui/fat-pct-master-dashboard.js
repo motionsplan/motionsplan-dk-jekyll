@@ -6,12 +6,12 @@ import { StorageAdapter } from '../core/StorageAdapter.js';
 // Målebåndssteder (Girths i cm)
 const GIRTH_SITES = {
   neck: { main: 'Hals', sub: '(Under strubehoved)', imgMale: '/assets/images/tools/mneck.jpg', imgFemale: '/assets/images/tools/fneck.jpg' },
-  waist: { main: 'Talje', sub: '(Ved navle/smalle)', imgMale: '/assets/images/tools/mabdomen.jpg', imgFemale: '/assets/images/tools/fwaist.jpg' },
+  waist: { main: 'Talje', sub: '(Ved navlen)', imgMale: '/assets/images/tools/mabdomen.jpg', imgFemale: '/assets/images/tools/fwaist.jpg' },
   hip: { main: 'Hofte', sub: '(Bredeste sted)', imgMale: '/assets/images/tools/fhip.jpg', imgFemale: '/assets/images/tools/fhip.jpg' },
   forearm: { main: 'Underarm', sub: '(Bredeste sted)', imgMale: '/assets/images/tools/mcardle-male-younger.jpg', imgFemale: '/assets/images/tools/mcardle-female-younger.jpg' },
   upperarm: { main: 'Overarm', sub: '(Midt på overarm)', imgMale: '/assets/images/tools/mcardle-male-younger.jpg', imgFemale: '/assets/images/tools/mcardle-female-younger.jpg' },
-  thigh: { main: 'Lår (omkreds)', sub: '(Øverste lår i cm)', imgMale: '/assets/images/tools/mcardle-female-younger.jpg', imgFemale: '/assets/images/tools/mcardle-female-younger.jpg' },
-  calf: { main: 'Læg (omkreds)', sub: '(Bredeste sted i cm)', imgMale: '/assets/images/tools/mcardle-female-older.jpg', imgFemale: '/assets/images/tools/mcardle-female-older.jpg' }
+  thigh: { main: 'Lår (omkreds)', sub: '(Øverste lår)', imgMale: '/assets/images/tools/mcardle-female-younger.jpg', imgFemale: '/assets/images/tools/mcardle-female-younger.jpg' },
+  calf: { main: 'Læg (omkreds)', sub: '(Bredeste sted)', imgMale: '/assets/images/tools/mcardle-female-older.jpg', imgFemale: '/assets/images/tools/mcardle-female-older.jpg' }
 };
 
 // Fedttangssteder (Skinfolds i mm)
@@ -22,7 +22,7 @@ const SKINFOLD_SITES = {
   suprailiac: { main: 'Hoftekam', sub: '(Suprailiac)', imgName: 'suprailiac.jpg' },
   chest: { main: 'Bryst', sub: '(Chest)', imgName: 'chest.jpg' },
   abdomen: { main: 'Mave', sub: '(Abdomen)', imgName: 'abdominal.jpg' },
-  thigh: { main: 'Lår (hudfold)', sub: '(Midthigh i mm)', imgName: 'thigh.jpg' }
+  thigh: { main: 'Lår', sub: '(Midthigh)', imgName: 'thigh.jpg' }
 };
 
 export function initFatPctMasterDashboard(container) {
