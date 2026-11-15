@@ -1,8 +1,8 @@
 ---
 title: Hvad er gennemsnitshøjden for mænd og kvinder i Danmark?
-seo_title: Gennemsnitshøjde i Danmark (Mænd & Kvinder) | Se tallene
-description: Den gennemsnitlige danske mand er 181,4 cm og kvinden er 167,2 cm. Få de præcise svar, se historisk udvikling og sammenlign dig med andre lande her.
-excerpt: Den gennemsnitlige danske mand er 181,4 cm og kvinden er 167,2 cm. Få de præcise svar, se historisk udvikling og sammenlign dig med andre lande her.
+seo_title: Gennemsnitshøjde i Danmark (2026) – Mænd & Kvinder [Tabel]
+description: Hvad er gennemsnitshøjden i Danmark? Danske mænd er i snit 181,4 cm og kvinder 167,2 cm. Se historisk udvikling, højde efter alder og verdensrangliste.
+excerpt: Den gennemsnitlige danske mand er 181,4 cm høj, og den gennemsnitlige danske kvinde er 167,2 cm høj. Se udviklingen over 100 år og sammenlign Danmark med resten af verden.
 permalink: /hvad-er-gennemsnitshoejden-i-danmark/
 language: da
 header:
@@ -13,122 +13,122 @@ categories:
   - Kropskomposition
 tags:
   - højde
-last_modified_at: '2026-09-20T08:14:14Z'
+  - gennemsnitshøjde
+  - kropskomposition
+last_modified_at: '2026-11-15T14:45:00Z'
 toc: 'true'
 faq:
   - question: Hvad er gennemsnitshøjden for kvinder i Danmark?
-    answer: Danske kvinder er i gennemsnit 167,2 cm høje.
-  - question: Hvad er gennemsnitshøjden for danske mænd?
-    answer: Gennemsnitshøjden for danske mænd er 181,4 cm.
-  - question: Kan man blive højere?
-    answer: Der er mange der søger på, om man kan blive højere. Vi har skrevet et andet indlæg om, [hvordan man bliver højere](/hvordan-bliver-jeg-hojere/), hvor du kan finde tips til, hvordan du kan skyde i vejret.
-  - question: Hvor længe bliver vi ved med at vokse?
-    answer: Mænd og kvinder stopper med at vokse på forskellig tid. Kvinder bliver sjældent højere, når de runder deres 18 års fødselsdag. Mænd kan måske stadig blive lidt højere indtil omkring 20 års alderen. Væksten går imidlertid noget langsommere når man nærmer sig at være udvokset.
+    answer: Den gennemsnitlige danske kvinde er 167,2 cm høj (og op mod 169,5 cm blandt 19-årige unge voksne i nyere internationale opgørelser). Det placerer danske kvinder blandt de allerhøjeste i verden.
+  - question: Hvad er gennemsnitshøjden for mænd i Danmark?
+    answer: Gennemsnitshøjden for danske mænd er 181,4 cm (og omkring 181,9 cm blandt unge mænd på 18–19 år ved session og i nyere befolkningsmålinger). Danske mænd er gennemsnitligt 14,2 cm højere end danske kvinder.
+  - question: Hvor meget er gennemsnitshøjden i Danmark steget de seneste 100 år?
+    answer: Over de seneste 100 år er danske mænd blevet 11,4 cm højere (fra 170,0 cm for årgang 1896 til 181,4 cm for årgang 1996), mens danske kvinder er blevet 10,1 cm højere (fra 157,1 cm til 167,2 cm).
+  - question: Hvor længe bliver mænd og kvinder ved med at vokse?
+    answer: Piger og unge kvinder er typisk færdigudvoksede omkring 16–18-årsalderen, mens drenge og unge mænd ofte vokser lidt længere og først når deres endelige voksenhøjde omkring 18–20-årsalderen, når vækstzonerne i knoglerne lukker.
+  - question: Kan man selv påvirke sin endelige højde?
+    answer: Omkring 60–80 % af din sluthøjde bestemmes af genetik, mens de sidste 20–40 % afhænger af ernæring, søvn og helbred i barndommen og puberteten. Når vækstzonerne er lukket i voksenalderen, kan du ikke øge din knoglelængde, men god kropsholdning og kernestyrke kan forbedre din holdning.
 ---
 
-Er du højere eller lavere end den gennemsnitlige dansker? Her får du det præcise svar med det samme:
+**Gennemsnitshøjden i Danmark er 181,4 cm for mænd og 167,2 cm for kvinder.** På tværs af begge køn svarer det til en samlet dansk gennemsnitshøjde på **174,3 cm**, hvilket placerer danskerne helt i toppen blandt verdens højeste befolkninger.
 
-**Ifølge de nyeste tal er gennemsnitshøjden for danske mænd 181,4 cm, mens den gennemsnitlige danske kvinde er 167,2 cm høj.**
+I tabellen herunder får du det hurtige overblik over danskernes højde – både historisk og i nyere målinger af unge voksne:
 
-Det gør danskerne til nogle af de absolut højeste mennesker i verden. 
+| Gruppe / Måling | Mænd (gns.) | Kvinder (gns.) | Forskel (mænd vs. kvinder) |
+| :--- | :---: | :---: | :---: |
+| **Danskere (NCD-RisC standardtal)** | **181,4 cm** | **167,2 cm** | +14,2 cm |
+| **Unge voksne, 19 år (NCD-RisC 2020)** | **181,9 cm** | **169,5 cm** | +12,4 cm |
+| **Danskere født i 1896 (historisk)** | 170,0 cm | 157,1 cm | +12,9 cm |
+| **Samlet stigning over 100 år** | **+11,4 cm** | **+10,1 cm** | +1,3 cm |
 
-Gennemsnitsdanskeren har haft et solidt vokseværk, og højden er faktisk øget med hele 10 cm over de seneste 100 år. Læs videre for at se interessante facts om vores højde, og hvordan vi sammenligner os med resten af verden.
+Er du endnu ikke færdigudvokset, kan du estimere din eller dit barns kommende voksenhøjde med vores [højdeberegner](/hvor-hoej-bliver-jeg/).
 
-{% include figure image_path="https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="gennemsnitshøjde i Danmark" %}
+{% include figure image_path="https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="Gennemsnitshøjde for mænd og kvinder i Danmark" %}
 
-## Hvad er gennemsnitshøjden i Danmark for mænd og kvinder?
+## Hvorfor er der forskel på tallene for danskernes gennemsnitshøjde?
 
-**I dag er gennemsnitshøjden i Danmark for danske mænd 181,4 cm. Den gennemsnitlige danske kvinde er 167,2 cm høj. Det gør danskerne til nogle af de højeste i verden.**
+Når du slår danskernes gennemsnitshøjde op forskellige steder, støder du typisk på to tætliggende tal: **181,4 cm / 167,2 cm** og **181,9 cm / 169,5 cm**. Forskellen skyldes måletidspunkt og aldersgruppe:
 
-[DR.dk](https://www.dr.dk/nyheder/viden/danske-maend-og-kvinder-er-blandt-verdens-hoejeste) skriver, at forskere har gennemgået 1.500 tidligere studier for at undersøge, hvordan verdensbefolkningens højde har ændret sig de seneste 100 år. På denne måde kan man sammenligne hele verdens gennemsnitlige højde, og gennemsnitshøjden i Danmark er altså nok til at placere sig i toppen af undersøgelsen.
+1. **NCD-RisC's 100-års studie (181,4 cm og 167,2 cm):** Det store globale studie i *eLife* (NCD-RisC, 2016) sammenlignede 18-årige fra fødselsårgangene 1896 til 1996 på tværs af 200 lande. Her landede danske mænd på **181,4 cm** (nr. 5 i verden) og danske kvinder på **167,2 cm** (nr. 7 i verden). Disse tal bruges fortsat som standardreference hos bl.a. Statens Institut for Folkesundhed og Danmarks Statistik.
+2. **Nyere målinger af 19-årige (181,9 cm og 169,5 cm):** I en opfølgende analyse i *The Lancet* (NCD-RisC, 2020) af 19-årige i 2019 målte unge danske mænd i gennemsnit **181,9 cm** og unge danske kvinder **169,5 cm**. Tallene stemmer godt overens med sessionsdata fra Forsvarets Dag, hvor danske mænd i slutningen af teenageårene typisk måler mellem 181,4 og 182,0 cm.
+3. **Hele den voksne befolkning (18–80+ år):** Hvis man medregner ældre generationer, er gennemsnitshøjden for hele den voksne befolkning et par centimeter lavere – dels fordi ældre kohorter var lavere som unge, og dels fordi rygsøjlens bruskskiver (diski) mister væske med alderen, så man typisk svinder 2–4 cm fra 30- til 70-årsalderen.
 
-Du kan læse mere om Gennemsnitsdanskeren hos [Dansk Statistik](https://www.dst.dk/da/Statistik/Publikationer/gennemsnitsdanskeren). Jeg synes altid, at det er sjovt at se, hvordan man er i forhold til andre mennesker. 
+## Historisk udvikling: Danskerne er vokset over 10 cm på 100 år
 
-Der er Dansk Statistik en guldgrube for at se, hvordan den gennemsnitlige dansker lever. Du vil sikkert opleve, at du har mange fællestræk med andre danskere.
+Danskernes gennemsnitshøjde har gennemgået en markant stigning siden slutningen af 1800-tallet. Fra fødselsårgang 1896 til årgang 1996 er danske mænd i gennemsnit blevet **11,4 cm højere**, mens danske kvinder er blevet **10,1 cm højere** (Statens Institut for Folkesundhed, 2016):
 
-Hvis du endnu ikke er udvokset, så kan du sammenligne dig med gennemsnitsdanskeren ved at [beregne hvor høj du bliver](/hvor-hoej-bliver-jeg/).
-
-## Undersøgelse af gennemsnitshøjde i Danmark
-
-Undersøgelsen sammenligner de indberettede højder for hver befolkningsgruppe for at se på udviklingen i højde rundt omkring i verden. Danskernes gennemsnitshøjde har altid ligget højt i lignende undersøgelser.
-
-Gennemsnitshøjden for mænd er generelt højere end for kvinder, men hvis vi kigger på gennemsnitshøjden i Danmark, så er gennemsnittet for en dansker på tværs af køn 174,3 centimeter høj.
+| Fødselsårgang | Mænd (gns. højde) | Kvinder (gns. højde) | Gennemsnit på tværs af køn |
+| :--- | :---: | :---: | :---: |
+| **1896** | 170,0 cm | 157,1 cm | 163,6 cm |
+| **1936** | 176,8 cm | 163,4 cm | 170,1 cm |
+| **1976** | 180,6 cm | 166,8 cm | 173,7 cm |
+| **1996** | **181,4 cm** | **167,2 cm** | **174,3 cm** |
+| **2000 (19 år i 2019)** | **181,9 cm** | **169,5 cm** | **175,7 cm** |
 
 > Mænd født i 1896 blev i gennemsnit **170,0 cm** høje, mens kvinderne i gennemsnit blev **157,1 cm** høje. Siden da er danskerne skudt gevaldigt i vejret. I dag er gennemsnitshøjden for danske mænd og kvinder henholdsvis **181,4 cm** og **167,2 cm**, og det gør os til nogle af de højeste mennesker i verden.
 >
-> --- <cite>[Janne Tolstrup](https://www.sdu.dk/da/sif/ugens_tal/35_2016), professor ved Syddansk Universitet</cite>
+> — <cite>[Janne Tolstrup](https://www.sdu.dk/da/sif/ugens_tal/35_2016), professor ved Statens Institut for Folkesundhed (SDU)</cite>
 
-I undersøgelsen er det nok til at give mændene en femteplads og kvinderne en syvendeplads for gennemsnitshøjder på verdensplan.
-
-Men det betyder faktisk også, at mændenes gennemsnitshøjde er steget med 11,4 cm og kvindernes gennemsnitshøjde med 10,1 cm de seneste 100 år.
-
-Det er ret vildt, synes jeg.
+De seneste årtier er vækstkurven i Danmark – ligesom i resten af Nordeuropa – fladet ud, hvilket tyder på, at befolkningen nærmer sig sit genetiske vækstpotentiale under moderne levevilkår.
 
 ## Hvorfor er gennemsnitshøjden så høj i Danmark?
 
-Danmark følger altså godt med, når det gælder gennemsnitshøjden. Generne spiller naturligvis ind, men de vigtigste parametre for, at gennemsnitshøjden i Danmark bliver høj er kost og sundhed i løbet af barndommen.
+Forskellen i højde mellem individer inden for samme land skyldes for **60–80 % vedkommende genetik**, men den store stigning over 100 år på befolkningsniveau skyldes primært forbedrede levevilkår i barndommen og ungdommen:
 
-Vi spiser en relativt varieret og sund kost, [får nok søvn](/soevn/) og har et godt, mentalt helbred. Det gør det lettere at opnå en høj gennemsnitshøjde.
-
-Generne spiller naturligvis også ind, men det gør følgende formentlig også:
+* **Ernæring og proteinindtag:** Rigelig adgang til energi, kvalitetsprotein (bl.a. mejeriprodukter, kød, fisk og bælgfrugter), kalk og D-vitamin i vækstperioden giver knoglerne optimale betingelser for længdevækst.
+* **Sundhed og færre infektioner:** Bedre hygiejne, vaccinationer og færre alvorlige børnesygdomme betyder, at kroppen kan bruge energi på vækst frem for at bekæmpe kroniske infektioner.
+* **Søvn og hormonbalance:** Væksthormon (*somatotropin*) udskilles primært under den dybe [søvn](/soevn/), og tilstrækkelig søvn i opvæksten understøtter normal knoglevækst.
+* **Evolutionær tilpasning:** Antropologiske teorier peger desuden på, at en større kropsbygning historisk har været en fordel i køligere nordeuropæiske klimaer:
 
 > Det har sandsynligvis været mere effektivt at være stor og høj, når vi har skullet arbejde i kulden for flere tusinde år siden. Klimaet i Nordeuropa har krævet mere fysisk robusthed end i Sydeuropa. Det er muligt, at vi altid har været blandt de højeste.
 >
-> --- <cite>[Jesper Lier Boldsen](https://web.archive.org/web/20201028141402/https://samvirke.dk/artikler/danskerne-er-blandt-de-hoejeste-i-verden){: rel="nofollow noopener" }, lektor ved Retsmedicinsk Institut</cite>
+> — <cite>[Jesper Lier Boldsen](https://web.archive.org/web/20201028141402/https://samvirke.dk/artikler/danskerne-er-blandt-de-hoejeste-i-verden){: rel="nofollow noopener" }, lektor ved Retsmedicinsk Institut</cite>
 
-Hvis dine forældre ikke er så høje, så får du formentlig heller ikke en højde over gennemsnitshøjden. Jeg har skrevet mere om [hvad der har betydning for din højde](/hvordan-bliver-jeg-hojere/). God mad og rigeligt med motion og i det hele taget en sund livsstil vil gøre det lettere at blive højere, hvis du ønsker det.
+Vil du læse mere om genetik, vækstzoner og myter om kosttilskud og strækøvelser, kan du se vores gennemgang af, [hvordan man bliver højere](/hvordan-bliver-jeg-hojere/).
 
-## Danskerne er nogle af verdens højeste
+## Top 5 over verdens højeste og laveste befolkninger
 
-Danskerne er altså i løbet af blot 100 år gennemsnitligt blevet mere end 10 cm højere. Det er kun europæiske lande, der er at finde på top 10-listen over lande med de højeste befolkningsgrupper.
+Europæiske lande – særligt i Nordeuropa og på Balkan – dominerer toppen af verdensranglisten over kropshøjde. I NCD-RisC's globale kortlægning af 19-årige fordeler toppen sig således:
 
-Danskerne er for alvor skudt i vejret siden man har kunnet måle de forskellige befolkningsgrupper i hele verden. Derfor er danskerne også nogle af verdens højeste.
+### Top 5 højeste befolkninger (Mænd)
 
-Der er også for alvor sket noget med de iranske mænd. De er fra 1914 til 2014 blevet i alt 16,5 cm højere, mens de sydkoreanske kvinder er vokset hele 20,2 cm.
-
-De højeste i verden er de hollandske mænd med hele 182,5 cm (og op mod 183,8 cm i nyere målinger) og de lettiske kvinder med 170 cm.
-
-{% include figure image_path="data:image/png;base64,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" caption="Danske mænds gennemsnitshøjde målt på session de seneste mange år" alt="Gennemsnitshøjde i Danmark" %}
-
-## Hvem er de laveste?
-
-Ifølge [TV2](https://livsstil.tv2.dk/2016-07-26-ny-forskning-afslorer-disse-lande-har-verdens-hojeste-befolkning) ser det ud til, at Østtimor og Guatemala huser verdens laveste befolkningsgrupper. Mænd fra Østtimor er 160,1 cm høje, mens de laveste kvinder er fra Guatemala og er 149 cm høje.
-
-## Top 5 over verdens højeste befolkninger
-
-Europæiske lande dominerer toppen af listen over verdens højeste befolkninger. Her er de 5 lande med den højeste gennemsnitshøjde for henholdsvis mænd og kvinder:
-
-### Mænd
 | Rangering | Land | Gennemsnitshøjde |
-| :--- | :--- | :--- |
-| 1 | Holland | 183,8 cm |
-| 2 | Montenegro | 183,3 cm |
-| 3 | Estland | 182,8 cm |
-| 4 | Bosnien-Hercegovina | 182,5 cm |
-| 5 | Island | 182,1 cm |
+| :--- | :--- | :---: |
+| **1** | Holland | 183,8 cm |
+| **2** | Montenegro | 183,3 cm |
+| **3** | Estland | 182,8 cm |
+| **4** | Bosnien-Hercegovina | 182,5 cm |
+| **5** | Island | 182,1 cm |
 
-*(Til sammenligning ligger danske mænd på en 6.-plads med et gennemsnit på ca. 181,4–181,8 cm).*
+*(Til sammenligning ligger danske mænd lige efter top 5 på en 6.-plads med et gennemsnit på ca. **181,4–181,9 cm**).*
 
-### Kvinder
+### Top 5 højeste befolkninger (Kvinder)
+
 | Rangering | Land | Gennemsnitshøjde |
-| :--- | :--- | :--- |
-| 1 | Holland | 170,4 cm |
-| 2 | Montenegro | 170,0 cm |
-| 3 | Island | 168,9 cm |
-| 4 | Letland | 168,8 cm |
-| 5 | Estland | 168,7 cm |
+| :--- | :--- | :---: |
+| **1** | Holland | 170,4 cm |
+| **2** | Montenegro | 170,0 cm |
+| **3** | Danmark | **169,5 cm** |
+| **4** | Island | 168,9 cm |
+| **5** | Letland | 168,8 cm |
 
-*(Danske kvinder ligger tæt på top 5 med et gennemsnit på ca. 167,2 cm).*
+*(Blandt 19-årige placerer danske kvinder sig helt oppe på en 3.-plads globalt med **169,5 cm**, mens gennemsnittet for årgang 1996 er **167,2 cm**).*
 
-## Sammenligning mellem lande
+### Hvem er de laveste i verden?
+I den modsatte ende af skalaen findes de laveste gennemsnitshøjder i dele af Sydøstasien og Mellemamerika, hvor bl.a. mænd i Østtimor (ca. 160,1 cm) og kvinder i Guatemala (ca. 149,4–150,9 cm) har det laveste gennemsnit – primært som følge af forskelle i ernæring og levevilkår i opvæksten (NCD-RisC, 2016; 2020).
+
+## Sammenlign gennemsnitshøjde mellem lande
 
 {% include table/height.html %}
 
-## Konklusion
+## Hvad betyder din højde for vægt, BMI og skridtlængde?
 
-Vi bliver altså gennemsnitligt højere i Danmark - ligesom resten af verden. Men gennemsnitshøjden i Danmark er altså blandt de højeste i verden. Det bliver spændende at se de næste undersøgelser af danskernes højde.
+Din kropshøjde indgår som en central variabel i en lang række sundheds- og træningsberegninger. Brug din højde videre i disse beregnere på motionsplan.dk:
 
-Jeg har skrevet et andet indlæg, der handler om, [hvordan man bliver højere](/hvordan-bliver-jeg-hojere/). Hvis du gerne vil syne højere, så kan du også kigge på [din kropsholdning og rette ryggen](/ret-ryggen-kropsholdning/).
+* **Beregn forventet voksenhøjde:** [Højdeberegner for børn og unge (2 validerede formler)](/hvor-hoej-bliver-jeg/)
+* **Vurder vægt i forhold til højde:** [Idealvægt beregner](/idealvaegt/), [BMI beregner](/bmi/) og [Ponderal Index](/ponderal-index/) (som korrigerer bedre for meget høje og meget lave personer end klassisk BMI)
+* **Beregn din skridtlængde:** [Skridtlængde for mænd og kvinder ud fra højde](/skridtlaengde-gang/)
+* **Forbedr din holdning:** [Ret ryggen – fakta og myter om kropsholdning](/ret-ryggen-kropsholdning/)
 
 ## Ofte stillede spørgsmål
 
@@ -137,8 +137,9 @@ Jeg har skrevet et andet indlæg, der handler om, [hvordan man bliver højere](/
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-1. **NCD Risk Factor Collaboration (NCD-RisC)** (2016). *A century of trends in adult human height*. eLife, 5:e13410. [doi:10.7554/eLife.13410](https://doi.org/10.7554/eLife.13410) *(Det omfattende globale studie af 1.500 undersøgelser).*
-2. **Statens Institut for Folkesundhed (SDU)** (2016). *Danskernes gennemsnitshøjde igennem 100 år*. Ugens Tal (Uge 35). [sdu.dk/sif](https://www.sdu.dk/da/sif/ugens_tal/35_2016)
-3. **Danmarks Statistik**. *Gennemsnitsdanskeren - nøgletal om befolkningen*. [dst.dk](https://www.dst.dk/da/Statistik/Publikationer/gennemsnitsdanskeren)
-4. **Samvirke & Retsmedicinsk Institut**. *Danskerne er blandt de højeste i verden*. [samvirke.dk](https://web.archive.org/web/20201028141402/https://samvirke.dk/artikler/danskerne-er-blandt-de-hoejeste-i-verden)
+1. **NCD Risk Factor Collaboration (NCD-RisC)** (2016). *A century of trends in adult human height*. eLife, 5:e13410. <https://doi.org/10.7554/eLife.13410>
+2. **NCD Risk Factor Collaboration (NCD-RisC)** (2020). *Height and body-mass index trajectories of school-aged children and adolescents from 1985 to 2019 in 200 countries and territories: a pooled analysis of 2181 population-based studies with 65 million participants*. The Lancet, 396(10261), 1511–1524. <https://doi.org/10.1016/S0140-6736(20)31859-6>
+3. **Statens Institut for Folkesundhed (SDU)** (2016). *Danskernes gennemsnitshøjde igennem 100 år*. Ugens Tal (Uge 35). <https://www.sdu.dk/da/sif/ugens_tal/35_2016>
+4. **Danmarks Statistik**. *Gennemsnitsdanskeren – nøgletal om befolkningen*. <https://www.dst.dk/da/Statistik/Publikationer/gennemsnitsdanskeren>
+5. **Samvirke & Retsmedicinsk Institut**. *Danskerne er blandt de højeste i verden*. <https://web.archive.org/web/20201028141402/https://samvirke.dk/artikler/danskerne-er-blandt-de-hoejeste-i-verden>
 </details>

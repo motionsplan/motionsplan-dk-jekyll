@@ -1,39 +1,59 @@
 {% assign recipe = include.recipe %}
 
-<div itemscope itemtype="https://schema.org/Recipe">
-  <h2 itemprop="name" id="{{ recipe.title | slugify }}">{{ recipe.title }}</h2>
-  {% if recipe.author %}
-  af <span itemprop="author">{{ recipe.author }}</span>,
-  <meta itemprop="datePublished" content="{{ page.last_modified_at | date: "%y-%m-%d" }}">{{ page.last_modified_at | date: date: "%a, %b %d, %y" }}
-  {% endif %}
-  <p>
-    <i class="fas fa-clock" aria-hidden="true"></i> Forberedelsestid: <meta itemprop="prepTime" content="{{ recipe.prep_time }}">{{ recipe.prep_time | date: "%H:%M" }}
-    <i class="fas fa-clock" aria-hidden="true"></i> Tid: <meta itemprop="cookTime" content="{{ recipe.cook_time }}">{{ recipe.cook_time | date: "%H:%M" }}
-  </p>
-  <figure>
-    <img itemprop="image" src="{{ recipe.image_path }}" alt="{{ recipe.title | downcase }}" />
-    <figcaption>{{ recipe.caption | markdownify }}</figcaption>
-  </figure>
-
-  <div itemprop="description">{{ recipe.description | markdownify }}</div>
+<div itemscope itemtype="https://schema.org/Recipe" class="recipe-wrapper" style="margin-bottom: 3rem; padding: 1.5rem; background: #f9f9f9; border-radius: 8px;">
+  <h2 itemprop="name" id="{{ recipe.title | slugify }}" style="margin-top: 0;">{{ recipe.title }}</h2>
   
-  {% comment %}
-  <div itemprop="nutrition"
-    itemscope itemtype="https://schema.org/NutritionInformation">
-    Nutrition facts:
-    <span itemprop="calories">240 calories</span>,
-    <span itemprop="fatContent">9 grams fat</span>
+  {% if recipe.author %}
+  <p style="font-size: 0.9em; color: #666;">
+    af <span itemprop="author">{{ recipe.author }}</span>,
+    <meta itemprop="datePublished" content="{{ page.last_modified_at | date: '%Y-%m-%d' }}">{{ page.last_modified_at | date: "%d. %b, %Y" }}
+  </p>
+  {% endif %}
+  
+  <p class="recipe-meta" style="font-weight: bold;">
+    <i class="fas fa-clock" aria-hidden="true"></i> Forberedelsestid: 
+    <meta itemprop="prepTime" content="{{ recipe.prep_time }}">{{ recipe.prep_time | replace: 'PT0H', '' | replace: 'M', ' min' | replace: 'PT', '' }}
+    <span style="margin: 0 10px;">|</span>
+    <i class="fas fa-fire" aria-hidden="true"></i> Stegetid: 
+    <meta itemprop="cookTime" content="{{ recipe.cook_time }}">{{ recipe.cook_time | replace: 'PT0H', '' | replace: 'M', ' min' | replace: 'PT', '' }}
+    {% if recipe.total_time %}
+    <meta itemprop="totalTime" content="{{ recipe.total_time }}">
+    {% endif %}
+  </p>
+  
+  {% if recipe.image_path %}
+  <figure style="margin-top: 1rem;">
+    <img itemprop="image" src="{{ recipe.image_path }}" alt="{{ recipe.title | downcase }}" style="max-width: 100%; border-radius: 4px;" />
+    {% if recipe.caption %}
+    <figcaption style="font-size: 0.85em; text-align: center; color: #555; margin-top: 0.5rem;">{{ recipe.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
+    {% endif %}
+  </figure>
+  {% endif %}
+
+  <div itemprop="description" style="margin-top: 1.5rem;">
+    {{ recipe.description | markdownify }}
   </div>
-  {% endcomment %}
+  
+  {% if recipe.nutrition %}
+  <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation" style="background: #eef5f9; padding: 1rem; border-radius: 4px; margin-top: 1.5rem;">
+    <h4 style="margin-top: 0;">Næringsindhold (pr. portion / angivne mængde)</h4>
+    <p style="margin-bottom: 0;">
+      {% if recipe.nutrition.calories %}<strong>Kalorier:</strong> <span itemprop="calories">{{ recipe.nutrition.calories }}</span>{% endif %}
+      {% if recipe.nutrition.protein %}&nbsp;|&nbsp; <strong>Protein:</strong> <span itemprop="proteinContent">{{ recipe.nutrition.protein }}</span>{% endif %}
+      {% if recipe.nutrition.carbohydrate %}&nbsp;|&nbsp; <strong>Kulhydrat:</strong> <span itemprop="carbohydrateContent">{{ recipe.nutrition.carbohydrate }}</span>{% endif %}
+      {% if recipe.nutrition.fat %}&nbsp;|&nbsp; <strong>Fedt:</strong> <span itemprop="fatContent">{{ recipe.nutrition.fat }}</span>{% endif %}
+    </p>
+  </div>
+  {% endif %}
 
   <h3 id="ingredienser--{{ recipe.title | slugify }}">Ingredienser</h3>
   
   <p>
-    <i class="fas fa-bread-slice" aria-hidden="true"></i> Giver <span itemprop="yield">{{ recipe.yield }}</span>
-    til <span itemprop="recipeYield">{{ recipe.servings }}</span>
+    <i class="fas fa-bread-slice" aria-hidden="true"></i> Giver <span itemprop="recipeYield">{{ recipe.yield }}</span>
+    {% if recipe.servings %}(til {{ recipe.servings }}){% endif %}
   </p>
 
-  <ul>
+  <ul style="list-style-type: square;">
   {% for row in recipe.ingredients %}
     <li itemprop="recipeIngredient">{{ row | markdownify | remove: '<p>' | remove: '</p>' }}</li>
   {% endfor %}
@@ -46,14 +66,5 @@
     <li itemprop="recipeInstructions">{{ row | markdownify | remove: '<p>' | remove: '</p>' }}</li>
   {% endfor %}
   </ol>
-  
-{% comment %}
-  <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" class="penci-recipe-rating penci-recipe-review">
-							<span class="penci-rate-text">
-								Rating: 								<span itemprop="ratingValue" class="penci-rate-number">5.0</span>/5
-							</span>
-							<div class="penci_rateyo" id="penci_rateyo" data-allow="1" data-rate="5.0" data-postid="3121" data-people="1" data-total="5"></div>
-							<span class="penci-numbers-rate">( <span class="penci-number-people" itemprop="reviewCount">1</span> voted )</span>
-						</div>
-{% endcomment %}
+
 </div>

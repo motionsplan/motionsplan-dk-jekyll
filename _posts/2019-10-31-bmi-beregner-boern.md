@@ -1,8 +1,8 @@
 ---
 title: BMI-beregner for børn, unge og teenagere
-seo_title: BMI beregner for børn, unge og teenagere
-description: Vil du gerne forstå BMI-tallet for børn, unge og teenagere? Her har du en gratis BMI beregner og tabel, som gælder
-  for børn og unge.
+seo_title: 'BMI Beregner for Børn & Unge (2–19 år) – WHO & IOTF Skema'
+description: Beregn BMI for børn, unge og teenagere (2–19 år) ud fra alder og køn. Se WHO's vækstkurver, grænseværdier og hvorfor TMI ofte er mere præcist.
+toc: 'true'
 permalink: /bmi-beregner-boern-unge-teenagere/
 excerpt: Hvordan kan du bruge BMI-skalaer for børn, unge og teenagere? Body Mass Index (BMI) kan bruges til at udregne idealvægt,
   men hvordan hænger BMI og tabeller sammen for børn, unge og teenagere.
