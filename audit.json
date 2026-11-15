@@ -1,14 +1,39 @@
 ---
 layout: null
+sitemap: false
 ---
 [
-  {% assign all_pages = site.pages | concat: site.posts %}
+  {% assign all_docs = site.html_pages | concat: site.posts %}
+  {% if site.documents %}
+    {% assign all_docs = all_docs | concat: site.documents %}
+  {% endif %}
+  {% assign all_docs = all_docs | uniq %}
+
   {% assign filtered_pages = "" | split: "" %}
 
-  {% comment %} 1. Byg en ren liste UDEN redirects og UDEN audit.json selv {% endcomment %}
-  {% for p in all_pages %}
-    {% if p.title and p.title != "" and p.layout != "redirect" and p.redirect_to == nil and p.url != "/audit.json" %}
-      {% assign filtered_pages = filtered_pages | push: p %}
+  {% comment %} 1. Filtrer efter samme regler som sitemap.xml + udeluk redirects og tomme titler {% endcomment %}
+  {% for doc in all_docs %}
+    {% assign doc_text = doc.content | default: "" | strip_html %}
+    {% assign word_count = doc_text | number_of_words %}
+
+    {% assign is_special = false %}
+    {% if doc.layout == 'calculator' or doc.layout == 'frontpage' or doc.url == '/' %}
+      {% assign is_special = true %}
+    {% endif %}
+
+    {% assign is_pagination = false %}
+    {% if doc.url contains '/page/' %}
+      {% assign is_pagination = true %}
+    {% endif %}
+
+    {% if doc.sitemap != false and doc.robots != 'noindex' and doc.url %}
+      {% unless doc.url contains '.xml' or doc.url contains '.css' or doc.url contains '.js' or doc.url contains '.json' or is_pagination %}
+        {% if word_count >= 150 or is_special %}
+          {% if doc.title and doc.title != "" and doc.layout != "redirect" and doc.redirect_to == nil and doc.url != "/audit.json" %}
+            {% assign filtered_pages = filtered_pages | push: doc %}
+          {% endif %}
+        {% endif %}
+      {% endunless %}
     {% endif %}
   {% endfor %}
 
@@ -18,10 +43,10 @@ layout: null
     "url": {{ page.url | jsonify }},
     "title": {{ page.title | jsonify }},
     "seo_title": {{ page.seo_title | default: page.title | jsonify }},
-    "word_count": {{ page.content | strip_html | number_of_words }},
-    "excerpt": {{ page.excerpt | strip_html | strip_newlines | jsonify }},
-    "description": {{ page.description | default: page.excerpt | jsonify }},
-    "sitemap": {{ page.sitemap | default: "true"  }}
+    "word_count": {{ page.content | default: "" | strip_html | number_of_words }},
+    "excerpt": {{ page.excerpt | default: "" | strip_html | strip_newlines | jsonify }},
+    "description": {{ page.description | default: page.excerpt | default: "" | strip_html | strip_newlines | jsonify }},
+    "sitemap": {{ page.sitemap | default: true | jsonify }}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
