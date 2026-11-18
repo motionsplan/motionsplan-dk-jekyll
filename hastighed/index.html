@@ -1,0 +1,1883 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.1 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Paceberegner (Gratis): Omregn pace (min/km), km/t &amp; tid</title>
+<meta name="description" content="Gratis paceberegner til løb og cykling: Omregn mellem pace (min/km) og km/t, og beregn sluttid, distance og gennemsnitsfart. Se formler og tabel her.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="Paceberegner (Gratis): Omregn pace (min/km), km/t &amp; tid">
+<meta property="og:url" content="https://www.motionsplan.dk/hastighed/">
+<meta property="og:description" content="Gratis paceberegner til løb og cykling: Omregn mellem pace (min/km) og km/t, og beregn sluttid, distance og gennemsnitsfart. Se formler og tabel her.">
+<meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DPaceberegner%2B%2528Gratis%2529%253A%2BOmregn%2Bpace%2B%2528min%252Fkm%2529%252C%2Bkm%252Ft%2B%2526%2Btid%26excerpt%3DGratis%2Bpaceberegner%2Btil%2Bl%25C3%25B8b%2Bog%2Bcykling%253A%2BOmregn%2Bmellem%2Bpace%2B%2528min%252Fkm%2529%2Bog%2Bkm%252Ft%252C%2Bog%2Bberegn%2Bsluttid%252C%2Bdistance%2Bog%2Bgennemsnitsfart.%2BSe%2Bformler%2Bog%2Btabel%2Bher.%26author_name%3DLars%2BOlesen%26author_img%3Dhttps%253A%252F%252Fwww.motionsplan.dk%252Fassets%252Fimages%252Fauthors%252Flarsolesen.jpg%26post_img%3Dhttps%253A%252F%252Fwww.motionsplan.dk%252Fassets%252Fimages%252Funsplash%252Fphoto-1585218059208-5cfd7659560b.jpg%26logo%3Dhttps%253A%252F%252Fwww.motionsplan.dk%252Fandroid-chrome-192x192.png%26date%3D15.%2BNov%2B2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1794753600/opengraph/">
+  <meta property="og:image:alt" content="Paceberegner (Gratis): Omregn pace (min/km), km/t &amp; tid">
+
+
+
+  
+
+  
+
+  <meta name="thumbnail" content="https://res.cloudinary.com/nipuzl73/image/fetch/c_fill,ar_1:1,g_west,w_500,q_auto,f_auto/https://www.motionsplan.dk/assets/images/unsplash/photo-1585218059208-5cfd7659560b.jpg" />
+
+
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="Paceberegner (Gratis): Omregn pace (min/km), km/t &amp; tid">
+  <meta name="twitter:description" content="Gratis paceberegner til løb og cykling: Omregn mellem pace (min/km) og km/t, og beregn sluttid, distance og gennemsnitsfart. Se formler og tabel her.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/hastighed/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DPaceberegner%2B%2528Gratis%2529%253A%2BOmregn%2Bpace%2B%2528min%252Fkm%2529%252C%2Bkm%252Ft%2B%2526%2Btid%26excerpt%3DGratis%2Bpaceberegner%2Btil%2Bl%25C3%25B8b%2Bog%2Bcykling%253A%2BOmregn%2Bmellem%2Bpace%2B%2528min%252Fkm%2529%2Bog%2Bkm%252Ft%252C%2Bog%2Bberegn%2Bsluttid%252C%2Bdistance%2Bog%2Bgennemsnitsfart.%2BSe%2Bformler%2Bog%2Btabel%2Bher.%26author_name%3DLars%2BOlesen%26author_img%3Dhttps%253A%252F%252Fwww.motionsplan.dk%252Fassets%252Fimages%252Fauthors%252Flarsolesen.jpg%26post_img%3Dhttps%253A%252F%252Fwww.motionsplan.dk%252Fassets%252Fimages%252Funsplash%252Fphoto-1585218059208-5cfd7659560b.jpg%26logo%3Dhttps%253A%252F%252Fwww.motionsplan.dk%252Fandroid-chrome-192x192.png%26date%3D15.%2BNov%2B2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1794753600/opengraph/">
+  
+
+  
+
+
+<meta property="article:published_time" content="2019-12-05T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2026-11-15T14:40:00+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/hastighed/" data-proofer-ignore>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    
+
+    
+
+    
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motionsplan.dk/hastighed/#webpage",
+      "name": "Paceberegner (Gratis): Omregn pace (min/km), km/t &amp; tid",
+      "url": "https://www.motionsplan.dk/hastighed/",
+      "description": "Gratis paceberegner til løb og cykling: Omregn mellem pace (min/km) og km/t, og beregn sluttid, distance og gennemsnitsfart. Se formler og tabel her.",
+      "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+      "datePublished": "2019-12-05T00:00:00+00:00",
+      "dateModified": "2026-11-15T14:40:00+00:00",
+      
+      "inLanguage": "da",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/hastighed/"] }
+      ]
+    }
+    
+
+    
+      ,
+      {
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/hastighed/#article",
+        "inLanguage": "da",
+        "name": "Paceberegner & Hastighedsberegner",
+        "headline": "Paceberegner (Gratis): Omregn pace (min/km), km/t &amp; tid",
+        "keywords": "beregner,løb,cykling,pace,hastighed",
+        "description": "Omregn nemt mellem pace (min/km), hastighed (km/t) og m/s, eller beregn sluttid, distance og gennemsnitsfart med vores gratis pace- og hastighedsberegner.",
+        "articleBody": "Med en paceberegner kan du lynhurtigt omregne mellem løbetempo (min/km) og hastighed (km/t) samt beregne sluttid, distance og gennemsnitsfart. Du omregner pace til km/t ved at dividere 60 med dit tempo i minutter pr. kilometer – eksempelvis svarer 5:00 min/km til præcis 12,0 km/t (25:00 på 5 km og 50:00 på 10 km).\n\nIndtast ét eller to tal i beregneren herunder for at få alle dine værdier i km/t, min/km og m/s med det samme.\n\n Beregn pace og hastighed lynhurtigt\n\n\n\nBeregn dit pace og din hastighed\n\n\n\n\n  \n  \n  \n    ⏱️ Pace- &amp; Hastighedsberegner\n    \n  \n\n  \n    \n    \n    \n      \n        ⚡ Lyn-omregner (Pace ↔ km/t)\n        (Indtast min/km, km/t eller m/s)\n      \n\n      \n        \n        \n        \n          KM / T\n          \n        \n\n        =\n\n        \n        \n          PACE (MIN / KM)\n          \n            \n            :\n            \n          \n        \n\n        =\n\n        \n        \n          M / S\n          \n        \n\n      \n    \n\n    \n    \n      \n        Beregn tur (Tid, Distance eller Gennemsnitshastighed)\n      \n\n      \n      \n        \n          🏁Fart / Pace\n        \n        \n          ⏱️Tid\n        \n        \n          📍Distance\n        \n      \n      \n      \n        \n        \n        \n          Distance (km)\n          \n        \n\n        \n        \n          Tid (tt : mm : ss)\n          \n            \n            :\n            \n            :\n            \n          \n        \n\n        \n        \n          \n            Hastighed\n            \n              km/t\n              min/km\n            \n          \n\n          \n          \n            \n          \n\n          \n          \n            \n              \n              :\n              \n            \n          \n        \n\n      \n\n      \n      \n        \n        \n          HASTIGHED\n          \n            -\n            \n          \n        \n\n        \n          PACE\n          \n            -\n            \n          \n        \n\n        \n          M/S\n          \n            -\n            \n          \n        \n\n      \n\n    \n\n    \n    \n      📸 Tag et billede\n      🗑️\n    \n\n  \n\n\n\n\nHurtig omregningstabel: Pace (min/km) til km/t og sluttider\n\nTabellen herunder giver dig et direkte opslag over sammenhængen mellem tempo i min/km, hastighed i km/t og forventet sluttid på de mest populære løbedistancer:\n\n\n  \n    \n      Pace (min/km)\n      Hastighed (km/t)\n      5 km tid\n      10 km tid\n      Halvmaraton (21,1 km)\n    \n  \n  \n    \n      3:30 min/km\n      17,14 km/t\n      17:30\n      35:00\n      1:13:50\n    \n    \n      4:00 min/km\n      15,00 km/t\n      20:00\n      40:00\n      1:24:23\n    \n    \n      4:30 min/km\n      13,33 km/t\n      22:30\n      45:00\n      1:34:56\n    \n    \n      5:00 min/km\n      12,00 km/t\n      25:00\n      50:00\n      1:45:29\n    \n    \n      5:30 min/km\n      10,91 km/t\n      27:30\n      55:00\n      1:56:02\n    \n    \n      6:00 min/km\n      10,00 km/t\n      30:00\n      1:00:00\n      2:06:35\n    \n    \n      6:30 min/km\n      9,23 km/t\n      32:30\n      1:05:00\n      2:17:08\n    \n    \n      7:00 min/km\n      8,57 km/t\n      35:00\n      1:10:00\n      2:27:41\n    \n  \n\n\nVil du slå op i komplette tabeller for hvert 5. sekund inklusiv maraton og meter pr. sekund, kan du gå videre til vores store pacetabel.\n\n\n\nHvordan angiver man hastighed og tempo i sport?\n\nAfhængigt af idrætsgren og træningsudstyr angives fart og tempo på tre forskellige måder:\n\n\n  Pace i minutter pr. kilometer (min/km): Den mest udbredte enhed blandt løbere. Angiver hvor mange minutter og sekunder du bruger på at tilbagelægge én kilometer (jo lavere tal, desto hurtigere løber du).\n  Kilometer i timen (km/t): Standard på løbebånd, cykelcomputere og i biler. Angiver hvor mange kilometer du tilbagelægger på én time ved konstant fart.\n  Meter pr. sekund (m/s): Bruges i atletik, sprinttests og træningsfysiologi (fx ved beregning af MAS – Maximal Aerobic Speed). Du omregner fra km/t til m/s ved at dividere med $3{,}6$ (fx er $18\\text{ km/t} = 5{,}0\\text{ m/s}$).\n\n\n\n\nFormler og eksempler: Sådan regner du det manuelt\n\nVil du selv have lommeregneren frem eller forstå matematikken bag beregneren, er her formlerne og konkrete regneeksempler for hver udregning:\n\n1. Beregn gennemsnitshastighed (km/t) ud fra distance og tid\n\nFor at finde din gennemsnitshastighed i km/t dividerer du distancen i km med tiden i timer (hvilket svarer til at gange med 60 og dividere med antal minutter):\n\n\\[\\text{Hastighed (km/t)} = \\frac{\\text{Distance (km)} \\times 60}{\\text{Tid (min)}}\\]\n\nEksempel: Du løber 10 km på 50 minutter:\n\n\\[\\text{Hastighed} = \\frac{10 \\times 60}{50} = \\mathbf{12{,}0 \\text{ km/t}}\\]\n\nDu kan også beregne din gennemsnitshastighed og dit kondital under Cooper-testens 12 minutter.\n\n\n\n2. Beregn distance ud fra hastighed og tid\n\nVil du vide, hvor langt du når på en bestemt tid med en given gennemsnitshastighed, bruger du denne formel:\n\n\\[\\text{Distance (km)} = \\frac{\\text{Hastighed (km/t)} \\times \\text{Tid (min)}}{60}\\]\n\nEksempel: Du løber i 15 minutter med en hastighed på 15 km/t:\n\n\\[\\text{Distance} = \\frac{15 \\times 15}{60} = \\mathbf{3{,}75 \\text{ km}}\\]\n\n\n\n3. Beregn tid ud fra distance og hastighed\n\nHvis du kender din planlagte distance og din hastighed, kan du udregne den forventede sluttid:\n\n\\[\\text{Tid (min)} = \\frac{\\text{Distance (km)} \\times 60}{\\text{Hastighed (km/t)}}\\]\n\nEksempel: Du skal løbe 10 km med en hastighed på 12 km/t:\n\n\\[\\text{Tid} = \\frac{10 \\times 60}{12} = \\mathbf{50 \\text{ minutter}}\\]\n\n\n\n4. Omregn mellem pace (min/km) og km/t\n\n\n  \n    Fra km/t til pace (min/km): Divider 60 med din hastighed i km/t:\n\\(\\text{Pace (min/km)} = \\frac{60}{\\text{Hastighed (km/t)}}\\)\nEksempel: $12 \\text{ km/t} \\rightarrow \\frac{60}{12} = \\mathbf{5:00 \\text{ min/km}}$.\n  \n  \n    Fra pace (min/km) til km/t: Divider 60 med dit tempo i minutter (hvor sekunderne først omregnes til decimaltal):\n\\(\\text{Hastighed (km/t)} = \\frac{60}{\\text{Minutter} + \\frac{\\text{Sekunder}}{60}}\\)\nEksempel: Et tempo på $6:00 \\text{ min/km} \\rightarrow \\frac{60}{6} = \\mathbf{10{,}0 \\text{ km/t}}$.\n  \n\n\nEksempel A: Fra tempo (5:30 min/km) til hastighed (km/t)\n\n  Omregn sekunder til decimalminutter: $30 \\text{ sek.} / 60 = 0{,}5 \\text{ min.}$ Dit tempo er altså 5,5 min/km.\n  Divider 60 med decimaltempoet: $\\frac{60}{5{,}5} = \\mathbf{10{,}91 \\text{ km/t}}$.\n\n\nEksempel B: Fra hastighed (14 km/t) til tempo (min/km)\n\n  Divider 60 med hastigheden: $\\frac{60}{14} = 4{,}2857 \\text{ min/km}$.\n  Omregn decimalerne til sekunder: $0{,}2857 \\times 60 \\approx \\mathbf{17 \\text{ sekunder}}$. Dit tempo er altså 4:17 min/km.\n\n\n\n\nSådan angiver du tiden korrekt (Minutter vs. Decimaltimer)\n\nEn klassisk regnefejl opstår, når minutter blandes sammen med decimaltimer:\n\n\n  Tid i minutter: Løber du i 1 time og 15 minutter, omregner du det hele til minutter ($60 + 15 = \\mathbf{75 \\text{ minutter}}$).\n  Tid i decimaltimer: 90 minutter svarer til $\\frac{90}{60} = \\mathbf{1{,}5 \\text{ time}}$. Husk at 30 minutter er $0{,}50$ time og ikke $0{,}30$ time.\n\n\n\n\nHvornår bør du styre træningen efter pace – og hvornår bør du ikke?\n\nAt kende sit tempo i min/km eller km/t er et stærkt redskab til at ramme den rigtige intensitet – især når du vil holde igen på dine rolige baseture i Zone 2 eller styre farten præcist under intervalløb.\n\nSamtidig er ekstern hastighed ikke altid lig med intern fysiologisk belastning:\n\n\n  Bakker, modvind og ujævnt underlag: Løber du i kuperet terræn, på skovstier eller i kraftig modvind, kræver 5:00 min/km markant højere iltoptagelse end på flad asfalt. Her bør du supplere tempoet med dine pulszoner eller din oplevede anstrengelse på Borg-skalaen.\n  Løbebånd uden vindmodstand: På et løbebånd mangler du luftmodstanden, hvilket gør en given hastighed i km/t fysiologisk lettere end udendørs (Jones &amp; Doust, 1996). Brug vores løbebånd-beregner til at se, hvordan stigningsprocent og hastighed på båndet svarer til udendørs pace.\n  Individuelle træningszoner: Vil du omsætte dit konkurrencetempo til personlige træningszoner (Easy, Marathon, Threshold, Interval og Repetition), kan du bruge Jack Daniels løbeberegner eller beregne din Functional Threshold Pace (FTPa).\n\n\n\n\nKomplette pacetabeller og engelske enheder\n\nVil du have det fulde overblik over splittider og forventede sluttider på 5 km, 10 km, halvmaraton og maraton?\n\n👉 Gå til siden med detaljerede pace-tabeller\n\n\n\n  \n    \n      \n        \n          \n            \n\n            \n\n            \n\n            \n          \n        \n\n        \n          \n            Skema med hastighed og pace\n          \n\n          \n            \n              Komplet tabel med hastighed og pace fra 1 km til maraton. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer til i pace i min/km.\n\n            \n          \n\n          \n             Se komplet pacetabel\n          \n        \n      \n    \n  \n\n\n\nOmregning til min/mile og mph\nHvis du følger amerikanske træningsprogrammer eller bruger et GPS-ur indstillet til miles, svarer 1 mile til 1,609 km:\n\n\n  Fra min/km til min/mile: Gang dit min/km-tempo med $1{,}609$.\nEksempel: $5:00 \\text{ min/km} \\times 1{,}609 = \\mathbf{8:03 \\text{ min/mile}}$.\n  Fra mph (miles per hour) til km/t: Gang hastigheden i mph med $1{,}609$.\n\n\n\n\nRelaterede værktøjer til løb, cykling og gang\n\n\n  📊 Pacetabeller for 5 km, 10 km og maraton: Se komplette tabeller for hvert 5. sekund.\n  ⏱️ Jack Daniels løbeberegner: Beregn VDOT, konkurrencetider og træningstempo.\n  📈 Riegels formel til konkurrencetider: Forudsig din tid på nye løbedistancer.\n  🏊‍♂️ Triatlon &amp; Ironman beregner: Planlæg pace og splittider på tværs af svømning, cykling og løb.\n  🚶‍♂️ Hvor lang tid tager det at gå 10.000 skridt?: Beregn gangtempo og varighed.\n\n\n\n\nOfte stillede spørgsmål\n\n\nHvad bruger løbere og cyklister mest – min/km eller km/t?\nLøbere bruger næsten altid pace angivet i minutter pr. kilometer (min/km), fordi det gør det nemt at styre kilometertider på banen og i konkurrencer. Cyklister og roere bruger derimod primært hastighed i kilometer i timen (km/t) eller watt.\n\n\n\n\nHvordan beregner man gennemsnitshastighed i km/t?\nDu beregner gennemsnitsfarten i km/t ved at dividere distancen i kilometer med tiden i timer (eller gange distancen i km med 60 og dividere med antal minutter). Løber du eksempelvis 10 km på 50 minutter, er din gennemsnitshastighed (10 × 60) / 50 = 12,0 km/t.\n\n\n\n\nHvordan omregner man pace (min/km) til km/t?\nDu omregner pace (min/km) til km/t ved at dividere 60 med dit tempo i minutter pr. kilometer. Eksempelvis svarer et pace på 5:00 min/km til 60 / 5 = 12,0 km/t, mens 6:00 min/km svarer til 10,0 km/t.\n\n\n\n\nHvordan regner man distance ud fra hastighed og tid?\nDu beregner distancen i kilometer ved at gange hastigheden i km/t med tiden i minutter og dividere med 60. Løber eller cykler du i 15 minutter med 15 km/t, tilbagelægger du (15 × 15) / 60 = 3,75 km.\n\n\n\n\nHvordan beregner jeg, hvor lang tid det tager at løbe en bestemt distance?\nDu dividerer distancen i kilometer med din hastighed i km/t og ganger med 60 for at få tiden i minutter: Tid (min) = (Distance × 60) / Hastighed. Løber du 10 km med 12 km/t, tager turen (10 × 60) / 12 = 50 minutter.\n\n\n\n\nHvordan omregner man km/t til min/km (pace)?\nDu omregner hastighed i km/t til tempo i min/km med formlen: pace = 60 / hastighed. Eksempelvis svarer 12 km/t til 60 / 12 = 5:00 min/km, mens 15 km/t svarer til 60 / 15 = 4:00 min/km.\n\n\n\n\n\n\n  Referencer\n\n  \n    Daniels, Jack. 2013. Daniels’ Running Formula. 3. udg. Champaign, IL: Human Kinetics.\n    Jones, Andrew M., og Jonathan H. Doust. 1996. “A 1% Treadmill Grade Most Accurately Reflects the Energetic Cost of Outdoor Running”. Journal of Sports Sciences 14 (4): 321–27. https://doi.org/10.1080/02640419608727717.\n    Riegel, Peter S. 1981. “Athletic Records and Human Endurance”. American Scientist 69 (3): 285–90.\n  \n\n",
+        "image": [
+          
+            "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.motionsplan.dk%2Fog-preview%2F%3Ftitle%3DPaceberegner%2B%2528Gratis%2529%253A%2BOmregn%2Bpace%2B%2528min%252Fkm%2529%252C%2Bkm%252Ft%2B%2526%2Btid%26excerpt%3DGratis%2Bpaceberegner%2Btil%2Bl%25C3%25B8b%2Bog%2Bcykling%253A%2BOmregn%2Bmellem%2Bpace%2B%2528min%252Fkm%2529%2Bog%2Bkm%252Ft%252C%2Bog%2Bberegn%2Bsluttid%252C%2Bdistance%2Bog%2Bgennemsnitsfart.%2BSe%2Bformler%2Bog%2Btabel%2Bher.%26author_name%3DLars%2BOlesen%26author_img%3Dhttps%253A%252F%252Fwww.motionsplan.dk%252Fassets%252Fimages%252Fauthors%252Flarsolesen.jpg%26post_img%3Dhttps%253A%252F%252Fwww.motionsplan.dk%252Fassets%252Fimages%252Funsplash%252Fphoto-1585218059208-5cfd7659560b.jpg%26logo%3Dhttps%253A%252F%252Fwww.motionsplan.dk%252Fandroid-chrome-192x192.png%26date%3D15.%2BNov%2B2026%26domain%3Dwww.motionsplan.dk%26badge%3DOPDATERET%26layout%3D2%26v%3D1794753600/opengraph/"
+          
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.motionsplan.dk/hastighed/#webpage"
+        },
+        "datePublished": "2019-12-05T00:00:00+00:00",
+        "dateModified": "2026-11-15T14:40:00+00:00",
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Lars Olesen",
+          "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.\n",
+          "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Motionsplan",
+          "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+          "sameAs": "https://www.motionsplan.dk",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+          },
+          "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+      }
+      
+    
+
+    
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/hastighed/#paceberegner-min-km",
+          "name": "Paceberegner (min/km)",
+          "description": "Beregn dit løbetempo (pace i min/km) ud fra tid og distance, eller omregn dit tempo direkte til en sluttid på 5 km, 10 km, halvmaraton eller maraton.",
+          "applicationCategory": ["Løb"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/hastighed/#webpage"
+          }
+        }
+        
+      
+        ,
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.motionsplan.dk/hastighed/#hastighedsberegner-km-t",
+          "name": "Hastighedsberegner (km/t)",
+          "description": "Udregn din gennemsnitshastighed i km/t eller m/s ud fra distance og tid. Perfekt til både løbebånd, cykling og løbetræning.",
+          "applicationCategory": ["Løb","Cykling"],
+          "operatingSystem": "Web browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "DKK"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/hastighed/#webpage"
+          }
+        }
+        
+      
+    
+  ]
+}
+</script>
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+
+
+
+
+
+
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    s[er].on = function(event, callback) {
+      s[er].listeners = s[er].listeners || {};
+      (s[er].listeners[event] = s[er].listeners[event] || []).push(callback);
+    };
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+
+
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Øvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsprogrammer/">Programmer</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/beregnere/" itemprop="item"><span itemprop="name">Beregnere</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/loebesiden/" itemprop="item"><span itemprop="name">Løb</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">Paceberegner & Ha...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Paceberegner &amp; Hastighedsberegner">
+    <meta itemprop="description" content="Omregn nemt mellem pace (min/km), hastighed (km/t) og m/s, eller beregn sluttid, distance og gennemsnitsfart med vores gratis pace- og hastighedsberegner.">
+    <meta itemprop="datePublished" content="2019-12-05T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-11-15T14:40:00+00:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title p-name" class="page__title" itemprop="headline">Paceberegner &amp; Hastighedsberegner
+</h1>
+          
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-11-15T14:40:00+00:00">15. nov, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          7 min læsning
+        
+      </span>
+    
+  </p>
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#calculator">Beregn dit pace og din hastighed</a></li><li><a href="#hurtig-omregningstabel-pace-minkm-til-kmt-og-sluttider">Hurtig omregningstabel: Pace (min/km) til km/t og sluttider</a></li><li><a href="#hvordan-angiver-man-hastighed-og-tempo-i-sport">Hvordan angiver man hastighed og tempo i sport?</a></li><li><a href="#formler-og-eksempler">Formler og eksempler: Sådan regner du det manuelt</a><ul><li><a href="#beregn-hastighed">1. Beregn gennemsnitshastighed (km/t) ud fra distance og tid</a></li><li><a href="#beregn-distance">2. Beregn distance ud fra hastighed og tid</a></li><li><a href="#beregn-tid">3. Beregn tid ud fra distance og hastighed</a></li><li><a href="#omregn-pace-til-kmt">4. Omregn mellem pace (min/km) og km/t</a><ul><li><a href="#eksempel-a-fra-tempo-530-minkm-til-hastighed-kmt">Eksempel A: Fra tempo (5:30 min/km) til hastighed (km/t)</a></li><li><a href="#eksempel-b-fra-hastighed-14-kmt-til-tempo-minkm">Eksempel B: Fra hastighed (14 km/t) til tempo (min/km)</a></li></ul></li><li><a href="#sådan-angiver-du-tiden-korrekt-minutter-vs-decimaltimer">Sådan angiver du tiden korrekt (Minutter vs. Decimaltimer)</a></li></ul></li><li><a href="#hvornår-bør-du-styre-træningen-efter-pace--og-hvornår-bør-du-ikke">Hvornår bør du styre træningen efter pace – og hvornår bør du ikke?</a></li><li><a href="#komplette-pacetabeller-og-engelske-enheder">Komplette pacetabeller og engelske enheder</a><ul><li><a href="#omregning-til-minmile-og-mph">Omregning til min/mile og mph</a></li></ul></li><li><a href="#relaterede-værktøjer-til-løb-cykling-og-gang">Relaterede værktøjer til løb, cykling og gang</a></li><li><a href="#ofte-stillede-spørgsmål">Ofte stillede spørgsmål</a></li><li><a href="#references">Referencer</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p><strong>Med en paceberegner kan du lynhurtigt omregne mellem løbetempo (min/km) og hastighed (km/t) samt beregne sluttid, distance og gennemsnitsfart.</strong> Du omregner pace til km/t ved at dividere 60 med dit tempo i minutter pr. kilometer – eksempelvis svarer <strong>5:00 min/km til præcis 12,0 km/t</strong> (25:00 på 5 km og 50:00 på 10 km).</p>
+
+<p>Indtast ét eller to tal i beregneren herunder for at få alle dine værdier i <strong>km/t, min/km og m/s</strong> med det samme.</p>
+
+<p><a href="#calculator" class="btn btn--success btn--jump"><i class="fas fa-calculator"></i> Beregn pace og hastighed lynhurtigt</a></p>
+
+<hr />
+
+<h2 id="calculator">Beregn dit pace og din hastighed</h2>
+
+<style>
+  .mp-sp-sync-height {
+    height: 48px !important;
+    box-sizing: border-box !important;
+    margin-bottom: 0 !important;
+  }
+
+  .mp-sp-time-group {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mp-sp-field-center {
+    text-align: center;
+    font-weight: 800;
+  }
+
+  /* 1. TOP LABELS MED ENSARTET ALIGNMENT */
+  .mp-sp-top-label {
+    font-size: 0.825rem;
+    font-weight: 700;
+    color: #1e293b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.35rem;
+    min-height: 24px;
+  }
+
+  /* 2. RESULTATKORT MED CLEAN HEADER-STRIBE */
+  .mp-sp-res-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    flex: 1;
+    min-width: 95px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  }
+
+  .mp-sp-res-header {
+    background: #f1f5f9;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 8px;
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-align: center;
+    line-height: 1;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mp-sp-res-body {
+    padding: 0.85rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .mp-sp-res-num {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #1d4ed8;
+    line-height: 1;
+  }
+
+  .mp-sp-res-unit {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #64748b;
+    margin-top: 5px;
+  }
+
+  /* 3. HOVEDFANER MED IKONER */
+  .mp-sp-mode-selector {
+    display: flex;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 12px;
+    margin-bottom: 1.25rem;
+    gap: 4px;
+  }
+
+  .mp-sp-mode-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 8px 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #64748b;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .mp-sp-mode-btn.active {
+    background: #ffffff;
+    color: #1d4ed8;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  }
+
+  /* 4. SUB-TOGGLE TIL FART / PACE */
+  .mp-sp-subtab-container {
+    display: inline-flex;
+    background: #f1f5f9;
+    padding: 2px;
+    border-radius: 8px;
+  }
+
+  .mp-sp-subtab {
+    border: none;
+    background: transparent;
+    padding: 3px 8px;
+    font-size: 0.725rem;
+    font-weight: 700;
+    color: #64748b;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .mp-sp-subtab.active {
+    background: #ffffff;
+    color: #1d4ed8;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  /* 5. LYN-OMREGNER DESIGN & ALIGNMENT */
+  .mp-sp-conv-label {
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    display: block;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+
+  .mp-sp-conv-eq {
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #64748b;
+    background: #e2e8f0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="speed-pace-all" data-ui-module="speed-pace-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+    <h3 class="mp-calc-title" style="margin: 0;">⏱️ Pace- &amp; Hastighedsberegner</h3>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;" />
+  </div>
+
+  <div class="mp-sp-container" style="width: 100%;">
+    
+    <!-- SEKTION 1: LYN-OMREGNER (NU ØVERST) -->
+    <div id="lyn-omregner" style="background: #f0fdf4; border: 2px solid #22c55e; border-radius: 14px; padding: 1.1rem 1.25rem; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgba(34, 197, 94, 0.08);">
+      <h4 style="margin: 0 0 0.85rem 0; font-size: 0.9rem; font-weight: 800; color: #14532d; text-transform: uppercase; letter-spacing: 0.03em; display: flex; align-items: center; gap: 6px;">
+        <span>⚡ Lyn-omregner (Pace ↔ km/t)</span>
+        <span style="font-size: 0.75rem; font-weight: 600; color: #15803d; text-transform: none;">(Indtast min/km, km/t eller m/s)</span>
+      </h4>
+
+      <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+        
+        <!-- Input km/t -->
+        <div style="flex: 1; min-width: 95px;">
+          <label class="mp-sp-conv-label">KM / T</label>
+          <input type="number" step="0.1" min="0" class="vbt-input-mega js-sp-conv-kmh" placeholder="12.0" style="font-weight: 800; text-align: center; height: 44px; padding: 0 6px !important;" />
+        </div>
+
+        <div class="mp-sp-conv-eq">=</div>
+
+        <!-- Input Pace -->
+        <div style="flex: 1.3; min-width: 120px;">
+          <label class="mp-sp-conv-label">PACE (MIN / KM)</label>
+          <div class="mp-sp-time-group" style="height: 44px;">
+            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-conv-pacemin" placeholder="05" style="padding: 0 4px !important;" />
+            <span style="font-weight: 900; color: #94a3b8;">:</span>
+            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-conv-pacesec" placeholder="00" style="padding: 0 4px !important;" />
+          </div>
+        </div>
+
+        <div class="mp-sp-conv-eq">=</div>
+
+        <!-- Input m/s -->
+        <div style="flex: 1; min-width: 95px;">
+          <label class="mp-sp-conv-label">M / S</label>
+          <input type="number" step="0.01" min="0" class="vbt-input-mega js-sp-conv-ms" placeholder="3.33" style="font-weight: 800; text-align: center; height: 44px; color: #059669; padding: 0 6px !important;" />
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SEKTION 2: DYNAMISK TREPARTSBEREGNER (TID, DISTANCE & FART) -->
+    <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.25rem; margin-bottom: 1.5rem;">
+      <h4 style="margin: 0 0 1rem 0; font-size: 0.85rem; font-weight: 800; color: #334155; text-transform: uppercase; letter-spacing: 0.03em;">
+        Beregn tur (Tid, Distance eller Gennemsnitshastighed)
+      </h4>
+
+      <!-- MODE VÆLGER MED IKONER -->
+      <div class="mp-sp-mode-selector">
+        <button type="button" class="mp-sp-mode-btn active js-sp-mode" data-mode="speed">
+          <span>🏁</span><span>Fart / Pace</span>
+        </button>
+        <button type="button" class="mp-sp-mode-btn js-sp-mode" data-mode="time">
+          <span>⏱️</span><span>Tid</span>
+        </button>
+        <button type="button" class="mp-sp-mode-btn js-sp-mode" data-mode="distance">
+          <span>📍</span><span>Distance</span>
+        </button>
+      </div>
+      
+      <div style="display: flex; gap: 0.85rem; margin-bottom: 1.25rem; align-items: flex-end; flex-wrap: wrap;">
+        
+        <!-- Field: Distance -->
+        <div class="js-sp-group-distance" style="flex: 0.8; min-width: 110px;">
+          <label class="mp-sp-top-label">Distance (km)</label>
+          <input type="number" step="0.01" min="0" class="vbt-input-mega js-sp-input mp-sp-sync-height" data-input="distance" placeholder="fx 10" style="padding: 0 8px !important;" />
+        </div>
+
+        <!-- Field: Tid -->
+        <div class="js-sp-group-time" style="flex: 1.2; min-width: 160px;">
+          <label class="mp-sp-top-label">Tid (tt : mm : ss)</label>
+          <div class="mp-sp-time-group mp-sp-sync-height">
+            <input type="number" min="0" max="23" class="vbt-input-mega mp-sp-field-center js-sp-input" data-input="hours" placeholder="00" style="padding: 0 4px !important;" />
+            <span style="font-weight: 900; color: #94a3b8;">:</span>
+            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-input" data-input="minutes" placeholder="45" style="padding: 0 4px !important;" />
+            <span style="font-weight: 900; color: #94a3b8;">:</span>
+            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-input" data-input="seconds" placeholder="00" style="padding: 0 4px !important;" />
+          </div>
+        </div>
+
+        <!-- Field: Fart / Pace -->
+        <div class="js-sp-group-pace" style="display: none; flex: 1.2; min-width: 160px;">
+          <div class="mp-sp-top-label">
+            <span>Hastighed</span>
+            <div class="mp-sp-subtab-container">
+              <button type="button" class="mp-sp-subtab active js-sp-speedtype" data-type="kmh">km/t</button>
+              <button type="button" class="mp-sp-subtab js-sp-speedtype" data-type="pace">min/km</button>
+            </div>
+          </div>
+
+          <!-- km/t input -->
+          <div class="js-sp-input-kmh-wrap">
+            <input type="number" step="0.1" min="0" class="vbt-input-mega js-sp-input mp-sp-sync-height" data-input="targetSpeed" placeholder="fx 12.0" style="width: 100%; text-align: center; font-weight: 800; padding: 0 8px !important;" />
+          </div>
+
+          <!-- Pace input -->
+          <div class="js-sp-input-pace-wrap" style="display: none;">
+            <div class="mp-sp-time-group mp-sp-sync-height">
+              <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-input" data-input="paceMin" placeholder="min" style="padding: 0 4px !important;" />
+              <span style="font-weight: 900; color: #94a3b8;">:</span>
+              <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-input" data-input="paceSec" placeholder="sek" style="padding: 0 4px !important;" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RESULTATKORT -->
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+        
+        <div class="mp-sp-res-card">
+          <div class="js-sp-res-primary-label mp-sp-res-header">HASTIGHED</div>
+          <div class="mp-sp-res-body">
+            <span class="js-sp-res-primary-val mp-sp-res-num">-</span>
+            <span class="js-sp-res-primary-unit mp-sp-res-unit"></span>
+          </div>
+        </div>
+
+        <div class="mp-sp-res-card">
+          <div class="js-sp-res-secondary-label mp-sp-res-header">PACE</div>
+          <div class="mp-sp-res-body">
+            <span class="js-sp-res-secondary-val mp-sp-res-num">-</span>
+            <span class="js-sp-res-secondary-unit mp-sp-res-unit"></span>
+          </div>
+        </div>
+
+        <div class="mp-sp-res-card">
+          <div class="js-sp-res-tertiary-label mp-sp-res-header">M/S</div>
+          <div class="mp-sp-res-body">
+            <span class="js-sp-res-tertiary-val mp-sp-res-num">-</span>
+            <span class="js-sp-res-tertiary-unit mp-sp-res-unit"></span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- BUNDMENU -->
+    <div id="sp-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag et billede</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>
+
+<hr />
+
+<h2 id="hurtig-omregningstabel-pace-minkm-til-kmt-og-sluttider">Hurtig omregningstabel: Pace (min/km) til km/t og sluttider</h2>
+
+<p>Tabellen herunder giver dig et direkte opslag over sammenhængen mellem tempo i min/km, hastighed i km/t og forventet sluttid på de mest populære løbedistancer:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pace (min/km)</th>
+      <th style="text-align: center">Hastighed (km/t)</th>
+      <th style="text-align: center">5 km tid</th>
+      <th style="text-align: center">10 km tid</th>
+      <th style="text-align: center">Halvmaraton (21,1 km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>3:30 min/km</strong></td>
+      <td style="text-align: center">17,14 km/t</td>
+      <td style="text-align: center">17:30</td>
+      <td style="text-align: center">35:00</td>
+      <td style="text-align: center">1:13:50</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>4:00 min/km</strong></td>
+      <td style="text-align: center">15,00 km/t</td>
+      <td style="text-align: center">20:00</td>
+      <td style="text-align: center">40:00</td>
+      <td style="text-align: center">1:24:23</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>4:30 min/km</strong></td>
+      <td style="text-align: center">13,33 km/t</td>
+      <td style="text-align: center">22:30</td>
+      <td style="text-align: center">45:00</td>
+      <td style="text-align: center">1:34:56</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>5:00 min/km</strong></td>
+      <td style="text-align: center"><strong>12,00 km/t</strong></td>
+      <td style="text-align: center"><strong>25:00</strong></td>
+      <td style="text-align: center"><strong>50:00</strong></td>
+      <td style="text-align: center"><strong>1:45:29</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>5:30 min/km</strong></td>
+      <td style="text-align: center">10,91 km/t</td>
+      <td style="text-align: center">27:30</td>
+      <td style="text-align: center">55:00</td>
+      <td style="text-align: center">1:56:02</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>6:00 min/km</strong></td>
+      <td style="text-align: center"><strong>10,00 km/t</strong></td>
+      <td style="text-align: center"><strong>30:00</strong></td>
+      <td style="text-align: center"><strong>1:00:00</strong></td>
+      <td style="text-align: center"><strong>2:06:35</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>6:30 min/km</strong></td>
+      <td style="text-align: center">9,23 km/t</td>
+      <td style="text-align: center">32:30</td>
+      <td style="text-align: center">1:05:00</td>
+      <td style="text-align: center">2:17:08</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>7:00 min/km</strong></td>
+      <td style="text-align: center">8,57 km/t</td>
+      <td style="text-align: center">35:00</td>
+      <td style="text-align: center">1:10:00</td>
+      <td style="text-align: center">2:27:41</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Vil du slå op i komplette tabeller for hvert 5. sekund inklusiv maraton og meter pr. sekund, kan du gå videre til vores store <a href="/hastighed/pace-tabeller/">pacetabel</a>.</p>
+
+<hr />
+
+<h2 id="hvordan-angiver-man-hastighed-og-tempo-i-sport">Hvordan angiver man hastighed og tempo i sport?</h2>
+
+<p>Afhængigt af idrætsgren og træningsudstyr angives fart og tempo på tre forskellige måder:</p>
+
+<ul>
+  <li><strong>Pace i minutter pr. kilometer (min/km):</strong> Den mest udbredte enhed blandt løbere. Angiver hvor mange minutter og sekunder du bruger på at tilbagelægge én kilometer (jo lavere tal, desto hurtigere løber du).</li>
+  <li><strong>Kilometer i timen (km/t):</strong> Standard på løbebånd, cykelcomputere og i biler. Angiver hvor mange kilometer du tilbagelægger på én time ved konstant fart.</li>
+  <li><strong>Meter pr. sekund (m/s):</strong> Bruges i atletik, sprinttests og træningsfysiologi (fx ved beregning af <a href="/anaerobic-speed-reserve/">MAS – Maximal Aerobic Speed</a>). Du omregner fra km/t til m/s ved at dividere med $3{,}6$ (fx er $18\text{ km/t} = 5{,}0\text{ m/s}$).</li>
+</ul>
+
+<hr />
+
+<h2 id="formler-og-eksempler">Formler og eksempler: Sådan regner du det manuelt</h2>
+
+<p>Vil du selv have lommeregneren frem eller forstå matematikken bag beregneren, er her formlerne og konkrete regneeksempler for hver udregning:</p>
+
+<h3 id="beregn-hastighed">1. Beregn gennemsnitshastighed (km/t) ud fra distance og tid</h3>
+
+<p>For at finde din gennemsnitshastighed i km/t dividerer du distancen i km med tiden i timer (hvilket svarer til at gange med 60 og dividere med antal minutter):</p>
+
+\[\text{Hastighed (km/t)} = \frac{\text{Distance (km)} \times 60}{\text{Tid (min)}}\]
+
+<p><strong>Eksempel:</strong> Du løber <strong>10 km</strong> på <strong>50 minutter</strong>:</p>
+
+\[\text{Hastighed} = \frac{10 \times 60}{50} = \mathbf{12{,}0 \text{ km/t}}\]
+
+<p>Du kan også beregne din gennemsnitshastighed og dit kondital under <a href="/cooper-test/">Cooper-testens 12 minutter</a>.</p>
+
+<hr />
+
+<h3 id="beregn-distance">2. Beregn distance ud fra hastighed og tid</h3>
+
+<p>Vil du vide, hvor langt du når på en bestemt tid med en given gennemsnitshastighed, bruger du denne formel:</p>
+
+\[\text{Distance (km)} = \frac{\text{Hastighed (km/t)} \times \text{Tid (min)}}{60}\]
+
+<p><strong>Eksempel:</strong> Du løber i <strong>15 minutter</strong> med en hastighed på <strong>15 km/t</strong>:</p>
+
+\[\text{Distance} = \frac{15 \times 15}{60} = \mathbf{3{,}75 \text{ km}}\]
+
+<hr />
+
+<h3 id="beregn-tid">3. Beregn tid ud fra distance og hastighed</h3>
+
+<p>Hvis du kender din planlagte distance og din hastighed, kan du udregne den forventede sluttid:</p>
+
+\[\text{Tid (min)} = \frac{\text{Distance (km)} \times 60}{\text{Hastighed (km/t)}}\]
+
+<p><strong>Eksempel:</strong> Du skal løbe <strong>10 km</strong> med en hastighed på <strong>12 km/t</strong>:</p>
+
+\[\text{Tid} = \frac{10 \times 60}{12} = \mathbf{50 \text{ minutter}}\]
+
+<hr />
+
+<h3 id="omregn-pace-til-kmt">4. Omregn mellem pace (min/km) og km/t</h3>
+
+<ul>
+  <li>
+    <p><strong>Fra km/t til pace (min/km):</strong> Divider 60 med din hastighed i km/t:
+\(\text{Pace (min/km)} = \frac{60}{\text{Hastighed (km/t)}}\)
+<em>Eksempel:</em> $12 \text{ km/t} \rightarrow \frac{60}{12} = \mathbf{5:00 \text{ min/km}}$.</p>
+  </li>
+  <li>
+    <p><strong>Fra pace (min/km) til km/t:</strong> Divider 60 med dit tempo i minutter (hvor sekunderne først omregnes til decimaltal):
+\(\text{Hastighed (km/t)} = \frac{60}{\text{Minutter} + \frac{\text{Sekunder}}{60}}\)
+<em>Eksempel:</em> Et tempo på $6:00 \text{ min/km} \rightarrow \frac{60}{6} = \mathbf{10{,}0 \text{ km/t}}$.</p>
+  </li>
+</ul>
+
+<h4 id="eksempel-a-fra-tempo-530-minkm-til-hastighed-kmt">Eksempel A: Fra tempo (5:30 min/km) til hastighed (km/t)</h4>
+<ol>
+  <li><strong>Omregn sekunder til decimalminutter:</strong> $30 \text{ sek.} / 60 = 0{,}5 \text{ min.}$ Dit tempo er altså <strong>5,5 min/km</strong>.</li>
+  <li><strong>Divider 60 med decimaltempoet:</strong> $\frac{60}{5{,}5} = \mathbf{10{,}91 \text{ km/t}}$.</li>
+</ol>
+
+<h4 id="eksempel-b-fra-hastighed-14-kmt-til-tempo-minkm">Eksempel B: Fra hastighed (14 km/t) til tempo (min/km)</h4>
+<ol>
+  <li><strong>Divider 60 med hastigheden:</strong> $\frac{60}{14} = 4{,}2857 \text{ min/km}$.</li>
+  <li><strong>Omregn decimalerne til sekunder:</strong> $0{,}2857 \times 60 \approx \mathbf{17 \text{ sekunder}}$. Dit tempo er altså <strong>4:17 min/km</strong>.</li>
+</ol>
+
+<hr />
+
+<h3 id="sådan-angiver-du-tiden-korrekt-minutter-vs-decimaltimer">Sådan angiver du tiden korrekt (Minutter vs. Decimaltimer)</h3>
+
+<p>En klassisk regnefejl opstår, når minutter blandes sammen med decimaltimer:</p>
+
+<ul>
+  <li><strong>Tid i minutter:</strong> Løber du i 1 time og 15 minutter, omregner du det hele til minutter ($60 + 15 = \mathbf{75 \text{ minutter}}$).</li>
+  <li><strong>Tid i decimaltimer:</strong> 90 minutter svarer til $\frac{90}{60} = \mathbf{1{,}5 \text{ time}}$. Husk at 30 minutter er $0{,}50$ time og ikke $0{,}30$ time.</li>
+</ul>
+
+<hr />
+
+<h2 id="hvornår-bør-du-styre-træningen-efter-pace--og-hvornår-bør-du-ikke">Hvornår bør du styre træningen efter pace – og hvornår bør du ikke?</h2>
+
+<p>At kende sit tempo i min/km eller km/t er et stærkt redskab til at ramme den rigtige intensitet – især når du vil holde igen på dine rolige baseture i <a href="/zone-2-traening/">Zone 2</a> eller styre farten præcist under <a href="/intervallob-intervaltraening/">intervalløb</a>.</p>
+
+<p>Samtidig er <strong>ekstern hastighed</strong> ikke altid lig med <strong>intern fysiologisk belastning</strong>:</p>
+
+<ol>
+  <li><strong>Bakker, modvind og ujævnt underlag:</strong> Løber du i kuperet terræn, på skovstier eller i kraftig modvind, kræver 5:00 min/km markant højere iltoptagelse end på flad asfalt. Her bør du supplere tempoet med dine <a href="/pulszoner-beregner/">pulszoner</a> eller din oplevede anstrengelse på <a href="/borg-skala/">Borg-skalaen</a>.</li>
+  <li><strong>Løbebånd uden vindmodstand:</strong> På et løbebånd mangler du luftmodstanden, hvilket gør en given hastighed i km/t fysiologisk lettere end udendørs (Jones &amp; Doust, 1996). Brug vores <a href="/loebebaand-beregner/">løbebånd-beregner</a> til at se, hvordan stigningsprocent og hastighed på båndet svarer til udendørs pace.</li>
+  <li><strong>Individuelle træningszoner:</strong> Vil du omsætte dit konkurrencetempo til personlige træningszoner (Easy, Marathon, Threshold, Interval og Repetition), kan du bruge <a href="/loebesiden-jack-daniels-loebeberegner/">Jack Daniels løbeberegner</a> eller beregne din <a href="/ftpa-loeb/">Functional Threshold Pace (FTPa)</a>.</li>
+</ol>
+
+<hr />
+
+<h2 id="komplette-pacetabeller-og-engelske-enheder">Komplette pacetabeller og engelske enheder</h2>
+
+<p>Vil du have det fulde overblik over splittider og forventede sluttider på 5 km, 10 km, halvmaraton og maraton?</p>
+
+<p>👉 <strong><a href="/hastighed/pace-tabeller/">Gå til siden med detaljerede pace-tabeller</a></strong></p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            
+
+            
+
+            <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_500/https://www.motionsplan.dk/assets/images/freebies/hastighed-og-pace.png" srcset="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_500/https://www.motionsplan.dk/assets/images/freebies/hastighed-og-pace.png 500w, https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto:eco,w_1000/https://www.motionsplan.dk/assets/images/freebies/hastighed-og-pace.png 1000w" sizes="(max-width: 768px) 100vw, 500px" alt="" loading="lazy" decoding="async" />
+
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Skema med hastighed og pace</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Komplet tabel med hastighed og pace fra 1 km til maraton. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer til i pace i min/km.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/hastighed/pace-tabeller/" class="btn btn--success" rel="nofollow noopener"><i class="fas fa-file-alt"></i> Se komplet pacetabel</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<h3 id="omregning-til-minmile-og-mph">Omregning til min/mile og mph</h3>
+<p>Hvis du følger amerikanske træningsprogrammer eller bruger et GPS-ur indstillet til miles, svarer 1 mile til <strong>1,609 km</strong>:</p>
+
+<ul>
+  <li><strong>Fra min/km til min/mile:</strong> Gang dit min/km-tempo med $1{,}609$.<br />
+<em>Eksempel:</em> $5:00 \text{ min/km} \times 1{,}609 = \mathbf{8:03 \text{ min/mile}}$.</li>
+  <li><strong>Fra mph (miles per hour) til km/t:</strong> Gang hastigheden i mph med $1{,}609$.</li>
+</ul>
+
+<hr />
+
+<h2 id="relaterede-værktøjer-til-løb-cykling-og-gang">Relaterede værktøjer til løb, cykling og gang</h2>
+
+<ul>
+  <li>📊 <strong><a href="/hastighed/pace-tabeller/">Pacetabeller for 5 km, 10 km og maraton</a>:</strong> Se komplette tabeller for hvert 5. sekund.</li>
+  <li>⏱️ <strong><a href="/loebesiden-jack-daniels-loebeberegner/">Jack Daniels løbeberegner</a>:</strong> Beregn VDOT, konkurrencetider og træningstempo.</li>
+  <li>📈 <strong><a href="/riegels-loebeberegner/">Riegels formel til konkurrencetider</a>:</strong> Forudsig din tid på nye løbedistancer.</li>
+  <li>🏊‍♂️ <strong><a href="/triatlon-beregner/">Triatlon &amp; Ironman beregner</a>:</strong> Planlæg pace og splittider på tværs af svømning, cykling og løb.</li>
+  <li>🚶‍♂️ <strong><a href="/tid-at-gaa/">Hvor lang tid tager det at gå 10.000 skridt?</a>:</strong> Beregn gangtempo og varighed.</li>
+</ul>
+
+<hr />
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3>Hvad bruger løbere og cyklister mest – min/km eller km/t?</h3></summary>
+<p>Løbere bruger næsten altid pace angivet i minutter pr. kilometer (min/km), fordi det gør det nemt at styre kilometertider på banen og i konkurrencer. Cyklister og roere bruger derimod primært hastighed i kilometer i timen (km/t) eller watt.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvordan beregner man gennemsnitshastighed i km/t?</h3></summary>
+<p>Du beregner gennemsnitsfarten i km/t ved at dividere distancen i kilometer med tiden i timer (eller gange distancen i km med 60 og dividere med antal minutter). Løber du eksempelvis 10 km på 50 minutter, er din gennemsnitshastighed (10 × 60) / 50 = 12,0 km/t.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvordan omregner man pace (min/km) til km/t?</h3></summary>
+<p>Du omregner pace (min/km) til km/t ved at dividere 60 med dit tempo i minutter pr. kilometer. Eksempelvis svarer et pace på 5:00 min/km til 60 / 5 = 12,0 km/t, mens 6:00 min/km svarer til 10,0 km/t.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvordan regner man distance ud fra hastighed og tid?</h3></summary>
+<p>Du beregner distancen i kilometer ved at gange hastigheden i km/t med tiden i minutter og dividere med 60. Løber eller cykler du i 15 minutter med 15 km/t, tilbagelægger du (15 × 15) / 60 = 3,75 km.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvordan beregner jeg, hvor lang tid det tager at løbe en bestemt distance?</h3></summary>
+<p>Du dividerer distancen i kilometer med din hastighed i km/t og ganger med 60 for at få tiden i minutter: Tid (min) = (Distance × 60) / Hastighed. Løber du 10 km med 12 km/t, tager turen (10 × 60) / 12 = 50 minutter.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvordan omregner man km/t til min/km (pace)?</h3></summary>
+<p>Du omregner hastighed i km/t til tempo i min/km med formlen: pace = 60 / hastighed. Eksempelvis svarer 12 km/t til 60 / 12 = 5:00 min/km, mens 15 km/t svarer til 60 / 15 = 4:00 min/km.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad bruger løbere og cyklister mest – min/km eller km/t?","acceptedAnswer":{"@type":"Answer","text":"Løbere bruger næsten altid pace angivet i minutter pr. kilometer (min/km), fordi det gør det nemt at styre kilometertider på banen og i konkurrencer. Cyklister og roere bruger derimod primært hastighed i kilometer i timen (km/t) eller watt.\n"}},{"@type":"Question","name":"Hvordan beregner man gennemsnitshastighed i km/t?","acceptedAnswer":{"@type":"Answer","text":"Du beregner gennemsnitsfarten i km/t ved at dividere distancen i kilometer med tiden i timer (eller gange distancen i km med 60 og dividere med antal minutter). Løber du eksempelvis 10 km på 50 minutter, er din gennemsnitshastighed (10 × 60) / 50 = 12,0 km/t.\n"}},{"@type":"Question","name":"Hvordan omregner man pace (min/km) til km/t?","acceptedAnswer":{"@type":"Answer","text":"Du omregner pace (min/km) til km/t ved at dividere 60 med dit tempo i minutter pr. kilometer. Eksempelvis svarer et pace på 5:00 min/km til 60 / 5 = 12,0 km/t, mens 6:00 min/km svarer til 10,0 km/t.\n"}},{"@type":"Question","name":"Hvordan regner man distance ud fra hastighed og tid?","acceptedAnswer":{"@type":"Answer","text":"Du beregner distancen i kilometer ved at gange hastigheden i km/t med tiden i minutter og dividere med 60. Løber eller cykler du i 15 minutter med 15 km/t, tilbagelægger du (15 × 15) / 60 = 3,75 km.\n"}},{"@type":"Question","name":"Hvordan beregner jeg, hvor lang tid det tager at løbe en bestemt distance?","acceptedAnswer":{"@type":"Answer","text":"Du dividerer distancen i kilometer med din hastighed i km/t og ganger med 60 for at få tiden i minutter: Tid (min) = (Distance × 60) / Hastighed. Løber du 10 km med 12 km/t, tager turen (10 × 60) / 12 = 50 minutter.\n"}},{"@type":"Question","name":"Hvordan omregner man km/t til min/km (pace)?","acceptedAnswer":{"@type":"Answer","text":"Du omregner hastighed i km/t til tempo i min/km med formlen: pace = 60 / hastighed. Eksempelvis svarer 12 km/t til 60 / 12 = 5:00 min/km, mens 15 km/t svarer til 60 / 15 = 4:00 min/km.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Daniels, Jack. 2013. <em>Daniels’ Running Formula</em>. 3. udg. Champaign, IL: Human Kinetics.</li>
+    <li>Jones, Andrew M., og Jonathan H. Doust. 1996. “A 1% Treadmill Grade Most Accurately Reflects the Energetic Cost of Outdoor Running”. <em>Journal of Sports Sciences</em> 14 (4): 321–27. <a href="https://doi.org/10.1080/02640419608727717">https://doi.org/10.1080/02640419608727717</a>.</li>
+    <li>Riegel, Peter S. 1981. “Athletic Records and Human Endurance”. <em>American Scientist</em> 69 (3): 285–90.</li>
+  </ul>
+</details>
+
+        
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/hastighed/#article",
+    "name": "Paceberegner & Hastighedsberegner",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "19"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">19</span> stemmer. Gennemsnit: <span id="rating_average">4.6</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på Vejle Idrætshøjskole og ansvarlig for uddannelse af fitnessinstruktører hos Bevæg Dig For Livets Foreningsfitness, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle - uanset niveau.
+
+    </p>
+  </div>
+</div>
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            
+            <div>
+                <p class="signup__title">Få nye træningsprogrammer & beregnere</p>
+                <p>Modtag de nyeste guides, øvelser og redskaber direkte i din indbakke.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld nu" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+                <p class="signup__microcopy" style="font-size: 0.8em; margin-top: 8px; opacity: 0.75;">
+                    🔒 100% spam-fri. Du kan altid afmelde dig igen.
+                </p>
+            </div>
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+<figure class=" hidden">
+  <img src="/assets/images/pinterest-hide-mini-image.png"
+       alt="Paceberegner & Hastighedsberegner"
+       data-pin-media="https://www.motionsplan.dk/assets/images/pinterest/generated/hastighed.jpg"
+       data-pin-description="Gratis paceberegner til løb og cykling: Omregn mellem pace (min/km) og km/t, og beregn sluttid, distance og gennemsnitsfart. Se formler og tabel her. #beregner #løb #cykling #pace #hastighed"
+        loading="lazy">
+  
+</figure>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#beregner" class="page__taxonomy-item" rel="tag">beregner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#cykling" class="page__taxonomy-item" rel="tag">cykling</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#hastighed" class="page__taxonomy-item" rel="tag">hastighed</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#l%C3%B8b" class="page__taxonomy-item" rel="tag">løb</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#pace" class="page__taxonomy-item" rel="tag">pace</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#beregnere" class="page__taxonomy-item" rel="tag">Beregnere</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#l%C3%B8b" class="page__taxonomy-item" rel="tag">Løb</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-updated" datetime="2026-11-15">15. Nov, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+  <nav class="pagination" aria-label="Post pagination">
+    
+      <a href="/styrkeloeft/squat/" class="pagination--pager" title="Squat i styrkeløft – Teknik, regler og træning">Forrige</a>
+    
+    
+      <a href="/hastighed/pace-tabeller/" class="pagination--pager" title="Pacetabel: Se tempo, tid og hastighed for distancer">Næste</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      
+<div class="page__comments">
+  
+  
+</div>
+
+    
+  </article>
+
+  
+  <div class="page__related">
+    <p class="page__related-title">Måske kan du også lide</p>
+    <div class="grid__wrapper">
+      
+      
+      
+
+      
+      
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://images.unsplash.com/photo-1494698852314-652666555934?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sports-BH Impact &amp; Størrelsesberegner – Find den rette støtte til din træning
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Beregnere</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/sports-bh-beregner/" rel="permalink">Sports-BH Impact &amp; Størrelsesberegner – Find den rette støtte til din træning
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-16T23:00:00+00:00">16. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Utilstrækkelig bryststøtte koster præstationsevne, ændrer din løbeøkonomi og belaster kropsholdningen. Find din rette BH-størrelse og støtteprofil her.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1600493033157-eed3fbe95d96.jpg" alt="ABSI Beregner: Body Shape Index og risiko for dødelighed
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kropskomposition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/absi/" rel="permalink">ABSI Beregner: Body Shape Index og risiko for dødelighed
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-08-18T21:00:00+00:00">18. aug, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">A Body Shape Index (ABSI) er et moderne antropometrisk indeks, der er udviklet som et mere præcist alternativ til traditionelle BMI-målinger og isolerede tal...</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1611077544695-c7942e060c4d.jpg" alt="Omregner fra kJ til kcal og kcal til kJ
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kalorieberegnere</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/kj-kcal-omregner/" rel="permalink">Omregner fra kJ til kcal og kcal til kJ
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-07-25T18:00:00+00:00">25. jul, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Omregn nemt mellem kilojoule (kJ) og kilokalorier (kcal). Brug vores gratis omregner og se den præcise formel og omregningstabel her!
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+            
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://res.cloudinary.com/nipuzl73/image/fetch/f_auto,q_auto,w_500/https://www.motionsplan.dk/assets/images/unsplash/photo-1453342664588-b702c83fc822.jpg" alt="Motionsomregner: Omregn aktivitet og sport til skridt 🚴‍♀️ ⇒ 🚶‍♀️
+" data-pin-nopin="true" loading="lazy" decoding="async">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Gang</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/omregn-motion-aktivitet-sport-til-skridt/" rel="permalink">Motionsomregner: Omregn aktivitet og sport til skridt 🚴‍♀️ ⇒ 🚶‍♀️
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-11-15T14:30:00+00:00">15. nov, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Omregn cykling, svømning, styrketræning og anden motion til ækvivalente skridt med vores gratis motionsomregner – baseret på videnskabelige MET-værdier.
+</p>
+  </article>
+</div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+      
+    </div>
+  </div>
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        
+<div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[Motionsplan] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tocHeaders = document.querySelectorAll('.toc header');
+  tocHeaders.forEach(function (header) {
+    header.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tocContainer = header.closest('.toc');
+      if (tocContainer) {
+        tocContainer.classList.toggle('is-open');
+      }
+    });
+  });
+});
+</script>
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Artikler</a></li>
+        
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+        
+          <li><a href="/om/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-info-circle" aria-hidden="true"></i> Om</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>
