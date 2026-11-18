@@ -27,19 +27,24 @@
     border-color: #94a3b8 !important;
   }
 
+  /* Fjern op/ned-pile i tal-felter */
+  .vbt-no-spin::-webkit-outer-spin-button,
+  .vbt-no-spin::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .vbt-no-spin {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
   /* Centreret MVT input og låse-ikon */
   .vbt-input-with-lock {
     position: relative;
     display: flex;
     align-items: center;
   }
-  .vbt-input-with-lock input[type="number"]::-webkit-outer-spin-button,
-  .vbt-input-with-lock input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
   .vbt-input-with-lock input[type="number"] {
-    -moz-appearance: textfield;
     padding-right: 42px !important;
   }
   .vbt-lock-inside-btn {
@@ -95,6 +100,41 @@
     background: #fee2e2;
   }
 
+  /* Tilføj række-knap direkte under tabellen */
+  .vbt-add-row-full {
+    width: 100% !important;
+    margin-top: 0.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.35rem !important;
+    padding: 0.5rem 0.85rem !important;
+  }
+
+  /* Handlingsrække i bunden på én samlet linje */
+  .vbt-action-bar-clean {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+    margin-top: 0.85rem !important;
+    padding-top: 0.75rem !important;
+    border-top: 1px solid #f1f5f9 !important;
+  }
+  .vbt-action-bar-right {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    flex-wrap: wrap !important;
+    margin-left: auto !important;
+  }
+  .vbt-btn-compact {
+    padding: 0.5rem 0.85rem !important;
+    font-size: 0.85rem !important;
+    white-space: nowrap !important;
+  }
+
   /* Grid Layout: Standard er 1 samlet lodret kolonne */
   .vbt-layout-grid {
     display: grid;
@@ -143,6 +183,29 @@
     overflow-y: auto !important;
     padding: 1.75rem !important;
     box-sizing: border-box !important;
+  }
+
+  /* Graf-forklaring */
+  .vbt-chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: #64748b;
+    font-weight: 600;
+  }
+  .vbt-legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  .vbt-legend-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
   }
 
   /* Historik sektion */
@@ -257,7 +320,7 @@
           <div class="mp-form-group" style="margin: 0;">
             <label for="vbt-mvt" class="vbt-premium-label">🎯 MVT (m/s)</label>
             <div class="vbt-input-with-lock">
-              <input type="number" step="0.01" id="vbt-mvt" class="vbt-input-mega" value="0.15" disabled>
+              <input type="number" step="0.01" id="vbt-mvt" class="vbt-input-mega vbt-no-spin" value="0.15" disabled>
               <button type="button" id="vbt-mvt-lock-btn" class="vbt-lock-inside-btn" title="Lås op for at redigere">🔒</button>
             </div>
           </div>
@@ -280,16 +343,22 @@
           </table>
         </div>
 
-        <div class="vbt-action-bar" style="margin-top: 1rem;">
-          <button type="button" class="vbt-btn-add-modern" id="vbt-add-attempt-btn">
-            <span class="vbt-icon-plus">+</span> Tilføj række
-          </button>
+        <button type="button" class="vbt-btn-add-modern vbt-add-row-full" id="vbt-add-attempt-btn">
+          <span class="vbt-icon-plus">+</span> Tilføj række
+        </button>
+
+        <div class="vbt-action-bar vbt-action-bar-clean">
           <button type="button" class="vbt-btn-reset-modern" id="vbt-reset-btn">
             ↺ Start forfra
           </button>
-          <button type="button" class="vbt-btn-add-modern" id="vbt-save-profile-btn" style="background:#16a34a; border-color:#15803d; color:#fff;">
-            💾 Gem profil
-          </button>
+          <div class="vbt-action-bar-right">
+            <button type="button" class="vbt-btn-add-modern vbt-btn-compact" id="vbt-save-profile-btn" style="background:#16a34a; border-color:#15803d; color:#fff;">
+              💾 Gem profil
+            </button>
+            <button type="button" class="vbt-btn-add-modern vbt-btn-compact" id="vbt-export-img-btn" style="background:#2563eb; border-color:#1d4ed8; color:#fff;">
+              📸 Gem billede
+            </button>
+          </div>
         </div>
       </div>
 
@@ -305,9 +374,14 @@
             <div class="vbt-chart-overlay-1rm">
               <div class="vbt-overlay-label">ESTIMERET 1RM</div>
               <div class="vbt-overlay-val"><span data-result="e1rm">0</span> <small>kg</small></div>
-              <div class="vbt-overlay-r2">R² = <span data-result="r2">0.00</span></div>
+              <div class="vbt-overlay-r2">R² = <span data-result="r2">—</span></div>
             </div>
             <div id="vbt-svg-wrapper"></div>
+            <div class="vbt-chart-legend">
+              <span class="vbt-legend-item"><span class="vbt-legend-dot" style="background:#2563eb;"></span> Arbejdsløft</span>
+              <span class="vbt-legend-item"><span class="vbt-legend-dot" style="background:#cbd5e1; border:1px solid #94a3b8;"></span> Opvarmning (&gt;1.0 m/s)</span>
+              <span class="vbt-legend-item"><span class="vbt-legend-dot" style="background:#16a34a;"></span> Estimeret 1RM</span>
+            </div>
           </div>
         </div>
       </div>

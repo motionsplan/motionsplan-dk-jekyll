@@ -1,5 +1,8 @@
 {% assign calc_title = include.title | default: "⚡ VBT RPE & Hastighedsprofil (All-Out Sæt)" %}
 
+<!-- Inkluder html2canvas til billedgenerering -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
 <style>
   .vbt-rpe-card {
     background: #ffffff;
@@ -12,6 +15,7 @@
     color: #0f172a;
     box-sizing: border-box;
     position: relative;
+    max-width: 100%;
   }
   .vbt-rpe-header {
     display: flex;
@@ -219,7 +223,7 @@
   .vbt-rpe-table-wrapper {
     width: 100%;
     overflow-x: hidden;
-    margin-bottom: 0.85rem;
+    margin-bottom: 1.25rem;
   }
   .vbt-rpe-table {
     width: 100%;
@@ -240,31 +244,27 @@
     border-bottom: 1px solid #f1f5f9;
     vertical-align: middle;
   }
-  .vbt-col-rep {
-    width: 48px !important;
-    white-space: nowrap !important;
-    text-align: center;
-  }
-  .vbt-col-vel {
-    width: 110px;
-  }
-  .vbt-col-rpe {
-    width: auto;
-  }
-  .vbt-col-act {
-    width: 32px;
-    text-align: center;
-  }
+  
+  /* Kolonnebredder opdateret */
+  .vbt-col-rep { width: 40px; text-align: center; }
+  .vbt-col-vel { width: 95px; }
+  .vbt-col-rpe { width: 65px; }
+  .vbt-col-rir { width: 65px; }
+  .vbt-col-act { width: 32px; text-align: center; }
 
   .vbt-cell-input {
     width: 100%;
-    max-width: 95px;
     padding: 0.35rem 0.45rem;
     border: 1px solid #cbd5e1;
     border-radius: 6px;
     font-size: 0.85rem;
     box-sizing: border-box;
   }
+  
+  /* Dimmed rækker (RPE < 6) */
+  .vbt-dimmed-text { color: #94a3b8; font-weight: 500; }
+  .vbt-highlight-text { color: #1e293b; font-weight: 700; }
+
   .vbt-btn-delete {
     background: transparent;
     border: none;
@@ -277,12 +277,33 @@
     background: #fee2e2;
   }
 
+  .vbt-btn-add-rep {
+    width: 100%;
+    padding: 0.6rem;
+    background: #f8fafc;
+    border: 1.5px dashed #cbd5e1;
+    color: #475569;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .vbt-btn-add-rep:hover {
+    background: #f1f5f9;
+    border-color: #94a3b8;
+    color: #0f172a;
+  }
+
   /* Handlingsknapper */
   .vbt-action-row {
     display: flex;
     gap: 0.5rem;
     margin-bottom: 1rem;
     flex-wrap: wrap;
+    justify-content: flex-end; /* Rykker dem til højre */
+    padding-top: 0.5rem;
+    border-top: 1px solid #f1f5f9;
   }
   .vbt-btn-action {
     padding: 0.45rem 0.85rem;
@@ -294,9 +315,20 @@
     cursor: pointer;
     color: #334155;
     transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
   }
   .vbt-btn-action:hover {
     background: #f1f5f9;
+  }
+  .vbt-btn-export {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1d4ed8;
+  }
+  .vbt-btn-export:hover {
+    background: #dbeafe;
   }
   .vbt-btn-save {
     background: #16a34a;
@@ -314,7 +346,7 @@
     gap: 0.5rem;
     margin-bottom: 1rem;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 380px) {
     .vbt-rpe-metrics-grid {
       grid-template-columns: 1fr;
     }
@@ -355,16 +387,30 @@
   .vbt-output-title {
     font-weight: 800;
     color: #166534;
-    margin-bottom: 0.4rem;
-    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
+    font-size: 0.95rem;
+  }
+  .vbt-output-subtitle {
+    font-size: 0.75rem;
+    color: #166534;
+    opacity: 0.85;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
   }
   .vbt-rpe-summary-table {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.82rem;
   }
+  .vbt-rpe-summary-table th {
+    text-align: left;
+    padding: 0.2rem 0.4rem 0.4rem;
+    color: #15803d;
+    font-weight: 700;
+    border-bottom: 1.5px solid #bbf7d0;
+  }
   .vbt-rpe-summary-table td {
-    padding: 0.35rem 0.4rem;
+    padding: 0.4rem;
     border-bottom: 1px solid #dcfce7;
   }
 
@@ -377,7 +423,7 @@
     line-height: 1.45;
   }
   .vbt-assessment-good { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
-  .vbt-assessment-warn { background: #fffbebfb; border: 1px solid #fde68a; color: #92400e; }
+  .vbt-assessment-warn { background: #fffbeb; border: 1px solid #fde68a; color: #92400e; }
   .vbt-assessment-bad { background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; }
 
   /* SVG Kurve */
@@ -445,9 +491,45 @@
     color: #334155;
   }
   .vbt-btn-xs-danger { color: #dc2626; border-color: #fca5a5; }
+
+  /* BILLEDE EXPORT STYLING */
+  .vbt-export-header-info { display: none; }
+  .vbt-rpe-card.vbt-exporting {
+    width: 800px !important;
+    max-width: 800px !important;
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: #ffffff !important;
+    padding: 2rem !important;
+    position: absolute !important;
+    left: -9999px !important; /* Gem under selve genereringen for at undgå flimmer */
+  }
+  .vbt-exporting .vbt-rpe-layout-grid {
+    grid-template-columns: 1fr 1fr !important;
+    display: grid !important;
+    gap: 1.5rem !important;
+    align-items: stretch !important;
+  }
+  .vbt-exporting .vbt-rpe-col-left,
+  .vbt-exporting .vbt-history-card,
+  .vbt-exporting .vbt-action-row,
+  .vbt-exporting .vbt-fullscreen-btn,
+  .vbt-exporting .vbt-rpe-header {
+    display: none !important;
+  }
+  .vbt-exporting .vbt-export-header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #f1f5f9;
+  }
 </style>
 
 <div class="vbt-rpe-card" id="vbt-rpe-calculator">
+  <!-- Header til normal visning -->
   <div class="vbt-rpe-header">
     <div class="vbt-rpe-title">{{ calc_title }}</div>
     <button type="button" class="vbt-fullscreen-btn" id="vbt-rpe-fullscreen" title="Fuld skærm">
@@ -457,9 +539,21 @@
     </button>
   </div>
 
+  <!-- Skjult Header (Aktiveres kun ved billede-export) -->
+  <div class="vbt-export-header-info">
+    <div>
+      <div style="font-size:1.4rem; font-weight:800; color:#0f172a;">⚡ Personlig RPE-Hastighedsprofil</div>
+      <div style="font-size:0.95rem; font-weight:600; color:#475569; margin-top:0.3rem;">
+        Øvelse: <span id="vbt-exp-ex" style="color:#2563eb;"></span> &nbsp;|&nbsp; 
+        Vægt: <span id="vbt-exp-load" style="color:#2563eb;"></span>
+      </div>
+    </div>
+    <div style="font-size:0.85rem; font-weight:700; color:#94a3b8;" id="vbt-exp-date"></div>
+  </div>
+
   <div class="vbt-rpe-layout-grid">
     
-    <!-- KOLONNE 1: Input & Tabel -->
+    <!-- KOLONNE 1: Input & Tabel (Skjules ved export) -->
     <div class="vbt-rpe-col-left">
       <div class="vbt-rpe-grid-top">
         <div class="vbt-field-group">
@@ -517,21 +611,29 @@
         <table class="vbt-rpe-table">
           <thead>
             <tr>
-              <th class="vbt-col-rep">Rep #</th>
+              <th class="vbt-col-rep">Rep</th>
               <th class="vbt-col-vel">Hastighed (m/s)</th>
-              <th class="vbt-col-rpe">Beregnet RPE / RIR</th>
+              <th class="vbt-col-rpe">RPE</th>
+              <th class="vbt-col-rir">RIR</th>
               <th class="vbt-col-act"></th>
             </tr>
           </thead>
           <tbody id="vbt-rpe-reps-list">
             <!-- Genereres dynamisk -->
           </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="5" style="padding-top: 0.75rem; border-bottom: none;">
+                <button type="button" class="vbt-btn-add-rep" id="vbt-rpe-add-rep">+ Tilføj gentagelse (Rep)</button>
+              </td>
+            </tr>
+          </tfoot>
         </table>
       </div>
 
       <div class="vbt-action-row">
-        <button type="button" class="vbt-btn-action" id="vbt-rpe-add-rep">+ Tilføj rep</button>
         <button type="button" class="vbt-btn-action" id="vbt-rpe-reset">↺ Nulstil</button>
+        <button type="button" class="vbt-btn-action vbt-btn-export" id="vbt-rpe-export-btn">📸 Gem billede</button>
         <button type="button" class="vbt-btn-action vbt-btn-save" id="vbt-rpe-save-btn">💾 Gem profil</button>
       </div>
     </div>
@@ -564,8 +666,16 @@
     <!-- KOLONNE 3: RPE-Tabel & Testvurdering -->
     <div class="vbt-rpe-col-right">
       <div class="vbt-rpe-output-box">
-        <div class="vbt-output-title">📊 Din Personlige RPE-Hastighedsprofil</div>
+        <div class="vbt-output-title">📊 RPE Målhastigheder</div>
+        <div class="vbt-output-subtitle">Udledt af din personlige tendenslinje</div>
         <table class="vbt-rpe-summary-table">
+          <thead>
+            <tr>
+              <th style="width:35%;">RPE</th>
+              <th style="width:35%;">RIR</th>
+              <th style="text-align:right; width:30%;">Hastighed</th>
+            </tr>
+          </thead>
           <tbody id="vbt-rpe-summary-body">
             <!-- Fyldes af JS -->
           </tbody>
@@ -577,7 +687,7 @@
       </div>
     </div>
 
-    <!-- FULD BREDDE: Historik -->
+    <!-- FULD BREDDE: Historik (Skjules ved export) -->
     <div class="vbt-history-card vbt-rpe-col-full">
       <div class="vbt-history-header">
         <div class="vbt-history-title">📜 Gemte RPE Profiler (Historik)</div>
@@ -591,7 +701,7 @@
 
 <script>
 (function() {
-  const STORAGE_KEY_RPE_HISTORY = 'vbt_rpe_history_v3';
+  const STORAGE_KEY_RPE_HISTORY = 'vbt_rpe_history_v4';
 
   const MVT_STANDARDS = {
     bench: { name: 'Bænkpres', stdMvt: 0.15 },
@@ -622,16 +732,20 @@
   const exerciseSelect = card.querySelector('#vbt-rpe-exercise');
   const lastRpeSelect = card.querySelector('#vbt-rpe-last-rpe');
   const loadInput = card.querySelector('#vbt-rpe-load');
+  
   const calcBtn = card.querySelector('#vbt-rpe-calc-btn');
   const calcPopover = card.querySelector('#vbt-rpe-calc-popover');
   const calcCloseBtn = card.querySelector('#vbt-rpe-calc-close');
   const calc1rmInput = card.querySelector('#vbt-rpe-calc-1rm');
   const calcPctInput = card.querySelector('#vbt-rpe-calc-pct');
   const calcApplyBtn = card.querySelector('#vbt-rpe-calc-apply');
+  
   const repsContainer = card.querySelector('#vbt-rpe-reps-list');
   const addRepBtn = card.querySelector('#vbt-rpe-add-rep');
   const resetBtn = card.querySelector('#vbt-rpe-reset');
   const saveBtn = card.querySelector('#vbt-rpe-save-btn');
+  const exportBtn = card.querySelector('#vbt-rpe-export-btn');
+  
   const metricMvt = card.querySelector('#vbt-metric-mvt');
   const metricMvtStd = card.querySelector('#vbt-metric-mvt-std');
   const metricVLoss = card.querySelector('#vbt-metric-vloss');
@@ -639,6 +753,7 @@
   const summaryBody = card.querySelector('#vbt-rpe-summary-body');
   const assessmentBox = card.querySelector('#vbt-rpe-assessment');
   const chartWrapper = card.querySelector('#vbt-rpe-chart-wrapper');
+  
   const historyListContainer = card.querySelector('#vbt-rpe-history-list');
   const clearHistoryBtn = card.querySelector('#vbt-rpe-clear-history');
 
@@ -675,15 +790,21 @@
     reps.forEach((r, idx) => {
       const calculatedRpe = Math.max(1, lastRpeVal - (totalReps - 1 - idx));
       const rir = Math.max(0, 10 - calculatedRpe);
-
+      
+      const isLowRpe = calculatedRpe < 6;
+      const textClass = isLowRpe ? 'vbt-dimmed-text' : 'vbt-highlight-text';
+      
       const tr = document.createElement('tr');
       tr.innerHTML = `
-        <td class="vbt-col-rep">#${idx + 1}</td>
+        <td class="vbt-col-rep ${isLowRpe ? 'vbt-dimmed-text' : ''}">#${idx + 1}</td>
         <td class="vbt-col-vel">
-          <input type="number" step="0.01" class="vbt-cell-input vbt-rpe-vel-input" data-idx="${idx}" value="${r.velocity}" placeholder="m/s">
+          <input type="number" step="0.01" class="vbt-cell-input vbt-rpe-vel-input vbt-no-spin" data-idx="${idx}" value="${r.velocity}" placeholder="m/s">
         </td>
-        <td class="vbt-col-rpe" style="font-weight:600; color:#1e293b;">
-          RPE ${calculatedRpe.toFixed(1)} <small style="color:#64748b;">(${rir.toFixed(1)} RIR)</small>
+        <td class="vbt-col-rpe ${textClass}">
+          ${calculatedRpe.toFixed(1)}
+        </td>
+        <td class="vbt-col-rir ${textClass}">
+          ${rir.toFixed(1)}
         </td>
         <td class="vbt-col-act">
           <button type="button" class="vbt-btn-delete" data-idx="${idx}" title="Slet rep">🗑️</button>
@@ -728,7 +849,7 @@
       metricMvtStd.textContent = `(Lit. std: ${stdObj.stdMvt.toFixed(2)} m/s)`;
       metricVLoss.textContent = '0%';
       metricR2.textContent = '0.00';
-      summaryBody.innerHTML = `<tr><td colspan="2" style="color:#94a3b8;">Indtast mindst 3 gyldige reps for at generere din profil.</td></tr>`;
+      summaryBody.innerHTML = `<tr><td colspan="3" style="color:#94a3b8; text-align:center;">Indtast mindst 3 gyldige reps for at generere din profil.</td></tr>`;
       assessmentBox.className = 'vbt-assessment-box vbt-assessment-warn';
       assessmentBox.innerHTML = '💡 Indtast **mindst 3 sammenhængende reps** i sættet for at opbygge profilen og evaluere testen.';
       renderChart([]);
@@ -765,7 +886,7 @@
     const lastVel = validData[validData.length - 1].vel;
     const vLoss = firstVel > 0 ? Math.round(((firstVel - lastVel) / firstVel) * 100) : 0;
 
-    // Udregnet MVT: Må aldrig overstige den faktiske minimumshastighed eller RPE 10-hastigheden
+    // Udregnet MVT
     let calculatedMvt = Math.max(0.05, slope * 10 + intercept);
     const rpe10Rep = validData.find(d => d.rpe === 10);
     if (rpe10Rep && rpe10Rep.vel < calculatedMvt) {
@@ -781,17 +902,21 @@
     metricVLoss.textContent = `${vLoss}%`;
     metricR2.textContent = r2.toFixed(2);
 
-    // Summary Table
-    const targetRpes = [10, 9.5, 9, 8.5, 8, 7.5, 7];
+    // Summary Table (RPE 6 til 10)
+    const targetRpes = [10, 9.5, 9, 8.5, 8, 7.5, 7, 6.5, 6];
     let summaryHtml = '';
     targetRpes.forEach(rpe => {
       let velAtRpe = Math.max(0.05, slope * rpe + intercept);
       if (rpe === 10) velAtRpe = calculatedMvt;
       const rir = (10 - rpe).toFixed(1);
+      
+      const rowStyle = rpe % 1 === 0 ? 'font-weight:700;' : 'font-weight:500; color:#475569;';
+      
       summaryHtml += `
-        <tr>
-          <td><strong>RPE ${rpe}</strong> (${rir} RIR)</td>
-          <td style="text-align:right; font-weight:800; color:#15803d;">${velAtRpe.toFixed(2)} m/s</td>
+        <tr style="${rowStyle}">
+          <td>${rpe.toFixed(1)}</td>
+          <td>${rir}</td>
+          <td style="text-align:right; color:#15803d; font-weight:800;">${velAtRpe.toFixed(2)} m/s</td>
         </tr>
       `;
     });
@@ -803,22 +928,22 @@
     const diffMvt = calculatedMvt - stdObj.stdMvt;
 
     if (Math.abs(diffMvt) <= 0.04) {
-      mvtDiffText = `Din målte MVT (${calculatedMvt.toFixed(2)} m/s) matcher litteraturens standard for ${stdObj.name} (${stdObj.stdMvt.toFixed(2)} m/s) meget flot.`;
+      mvtDiffText = `Din målte MVT (${calculatedMvt.toFixed(2)} m/s) matcher standarden flot.`;
     } else if (diffMvt > 0.04) {
-      mvtDiffText = `Din målte MVT (${calculatedMvt.toFixed(2)} m/s) er højere end standarden (${stdObj.stdMvt.toFixed(2)} m/s). Du stopper typisk løftet tidligere eller har en meget eksplosiv løftestil.`;
+      mvtDiffText = `Din målte MVT (${calculatedMvt.toFixed(2)} m/s) er lidt høj. Du har muligvis mere i tanken.`;
     } else {
-      mvtDiffText = `Din målte MVT (${calculatedMvt.toFixed(2)} m/s) er lavere end standarden (${stdObj.stdMvt.toFixed(2)} m/s). Du er god til at grinde tunge løft ud ved lave hastigheder.`;
+      mvtDiffText = `Din målte MVT (${calculatedMvt.toFixed(2)} m/s) er lav. Du er god til at grinde tunge løft ud.`;
     }
 
     if (r2 >= 0.90 && vLoss >= 25) {
       assessClass = 'vbt-assessment-good';
-      assessmentBox.innerHTML = `🟢 <strong>Fremragende testkvalitet (R² = ${r2.toFixed(2)})!</strong> Hastighedsfaldet er meget lineært med et samlet hastighedstab på <strong>${vLoss}%</strong>. ${mvtDiffText}`;
+      assessmentBox.innerHTML = `🟢 <strong>Fremragende testkvalitet (R² = ${r2.toFixed(2)})!</strong> Perfekt lineært hastighedsfald på <strong>${vLoss}%</strong>. ${mvtDiffText}`;
     } else if (r2 >= 0.80) {
       assessClass = 'vbt-assessment-warn';
-      assessmentBox.innerHTML = `🟡 <strong>Godkendt test (R² = ${r2.toFixed(2)}).</strong> Pænt fald over sættet med <strong>${vLoss}%</strong> hastighedstab. ${mvtDiffText}`;
+      assessmentBox.innerHTML = `🟡 <strong>Godkendt test (R² = ${r2.toFixed(2)}).</strong> Pænt fald over sættet med <strong>${vLoss}%</strong> tab. ${mvtDiffText}`;
     } else {
       assessClass = 'vbt-assessment-bad';
-      assessmentBox.innerHTML = `🔴 <strong>Ujævn testkvalitet (R² = ${r2.toFixed(2)}).</strong> Faldet varierer en del fra rep til rep. Sørg for maksimal eksplosiv kraft på samtlige gentagelser.`;
+      assessmentBox.innerHTML = `🔴 <strong>Ujævn testkvalitet (R² = ${r2.toFixed(2)}).</strong> Faldet varierer en del. Sørg for maksimal kraft på ALLE gentagelser.`;
     }
 
     assessmentBox.className = `vbt-assessment-box ${assessClass}`;
@@ -830,23 +955,44 @@
     if (!chartWrapper) return;
 
     const width = 600;
-    const height = 260;
-    const padL = 50, padR = 20, padT = 20, padB = 40;
+    const height = 280;
+    const padL = 45, padR = 25, padT = 25, padB = 40;
 
-    const minX = 6, maxX = 10.5;
-    const minY = 0.0, maxY = 0.80;
+    // Dynamisk X og Y akse
+    let minX = 6;
+    if (points && points.length > 0) {
+      const minDataX = Math.floor(Math.min(...points.map(p => p.rpe)));
+      minX = Math.min(6, Math.max(1, minDataX));
+    }
+    const maxX = 10.5;
+    
+    let maxY = 0.80;
+    if (points && points.length > 0) {
+      const maxDataVel = Math.max(...points.map(p => p.vel));
+      maxY = Math.max(0.80, Math.ceil(maxDataVel * 10) / 10 + 0.1);
+    }
+    const minY = 0.0;
 
     const xScale = (rpe) => padL + ((rpe - minX) / (maxX - minX)) * (width - padL - padR);
     const yScale = (vel) => height - padB - ((vel - minY) / (maxY - minY)) * (height - padT - padB);
 
     let svg = `
       <svg viewBox="0 0 ${width} ${height}" style="width:100%; height:auto;" xmlns="http://www.w3.org/2000/svg">
-        <line x1="${padL}" y1="${yScale(0.2)}" x2="${width - padR}" y2="${yScale(0.2)}" stroke="#f1f5f9" stroke-width="1.5"/>
-        <line x1="${padL}" y1="${yScale(0.4)}" x2="${width - padR}" y2="${yScale(0.4)}" stroke="#f1f5f9" stroke-width="1.5"/>
-        <line x1="${padL}" y1="${yScale(0.6)}" x2="${width - padR}" y2="${yScale(0.6)}" stroke="#f1f5f9" stroke-width="1.5"/>
+        <!-- Y-akse gitter og labels -->
+        ${[0.2, 0.4, 0.6, 0.8, 1.0, 1.2].filter(v => v <= maxY).map(val => `
+          <line x1="${padL}" y1="${yScale(val)}" x2="${width - padR}" y2="${yScale(val)}" stroke="#f1f5f9" stroke-width="1.5"/>
+          <text x="${padL - 8}" y="${yScale(val) + 4}" font-size="11" fill="#64748b" text-anchor="end">${val}</text>
+        `).join('')}
 
+        <!-- X og Y akse basislinjer -->
         <line x1="${padL}" y1="${height - padB}" x2="${width - padR}" y2="${height - padB}" stroke="#94a3b8" stroke-width="2"/>
         <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${height - padB}" stroke="#94a3b8" stroke-width="2"/>
+        
+        <!-- X-akse labels (RPE) -->
+        ${Array.from({length: 11}, (_, i) => i).filter(i => i >= minX && i <= 10).map(i => `
+          <text x="${xScale(i)}" y="${height - padB + 16}" font-size="11" fill="#64748b" text-anchor="middle">${i}</text>
+          <line x1="${xScale(i)}" y1="${height - padB}" x2="${xScale(i)}" y2="${height - padB + 4}" stroke="#94a3b8" stroke-width="1.5"/>
+        `).join('')}
     `;
 
     if (points && points.length >= 3) {
@@ -858,7 +1004,9 @@
       svg += `
         <line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#16a34a" stroke-width="3" stroke-linecap="round"/>
         ${points.map(p => `
+          <!-- Datapunkter og direkte RPE-labels over dem -->
           <circle cx="${xScale(p.rpe)}" cy="${yScale(p.vel)}" r="6" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+          <text x="${xScale(p.rpe)}" y="${yScale(p.vel) - 10}" font-size="11" font-weight="800" fill="#0f172a" text-anchor="middle">${p.rpe.toFixed(1)}</text>
         `).join('')}
       `;
     } else {
@@ -868,8 +1016,8 @@
     }
 
     svg += `
-        <text x="${(width + padL - padR)/2}" y="${height - 8}" font-size="11" font-weight="700" fill="#475569" text-anchor="middle">Oplevet Anstrengelse (RPE)</text>
-        <text x="14" y="${(height + padT - padB)/2}" font-size="11" font-weight="700" fill="#475569" text-anchor="middle" transform="rotate(-90 14 ${(height + padT - padB)/2})">Hastighed (m/s)</text>
+        <text x="${(width + padL - padR)/2 + padL/2}" y="${height - 4}" font-size="12" font-weight="700" fill="#475569" text-anchor="middle">Oplevet Anstrengelse (RPE)</text>
+        <text x="12" y="${(height + padT - padB)/2}" font-size="12" font-weight="700" fill="#475569" text-anchor="middle" transform="rotate(-90 12 ${(height + padT - padB)/2})">Hastighed (m/s)</text>
       </svg>
     `;
 
@@ -1034,7 +1182,7 @@
     });
   }
 
-  // Gem profil med standardnavn = "${Øvelse} (${Vægt} kg) RPE Profil"
+  // Gem profil Historik
   if (saveBtn) {
     saveBtn.addEventListener('click', () => {
       const lastRpeVal = parseFloat(lastRpeSelect.value) || 10;
@@ -1101,6 +1249,57 @@
       saveBtn.style.background = '#059669';
       saveBtn.innerHTML = '✓ Profil gemt!';
       setTimeout(() => { saveBtn.style.background = '#16a34a'; saveBtn.innerHTML = '💾 Gem profil'; }, 2000);
+    });
+  }
+
+  // Gem billede logik (html2canvas)
+  if (exportBtn) {
+    exportBtn.addEventListener('click', () => {
+      // Tjek for biblioteket
+      if (typeof html2canvas === 'undefined') {
+        alert('Eksportmodulet (html2canvas) indlæses stadig. Prøv igen om et sekund.');
+        return;
+      }
+      
+      const originalText = exportBtn.innerHTML;
+      exportBtn.innerHTML = '⏳ Genererer...';
+      
+      // Forbered visning til export
+      card.classList.add('vbt-exporting');
+      
+      // Fyld den skjulte header ud
+      const exText = exerciseSelect.options[exerciseSelect.selectedIndex].text;
+      document.getElementById('vbt-exp-ex').textContent = exText;
+      document.getElementById('vbt-exp-load').textContent = loadInput.value ? loadInput.value + ' kg' : 'Ikke angivet';
+      document.getElementById('vbt-exp-date').textContent = new Date().toLocaleDateString('da-DK', {day: 'numeric', month: 'long', year: 'numeric'});
+
+      // Giv browseren et millisekund til at gentegne DOM med de nye klasser før snapshot
+      setTimeout(() => {
+        // Tag screenshot!
+        html2canvas(card, { 
+          scale: 2, 
+          backgroundColor: '#ffffff',
+          useCORS: true
+        }).then(canvas => {
+          // Gendan den almindelige UI med det samme
+          card.classList.remove('vbt-exporting');
+          exportBtn.innerHTML = '✓ Gemt!';
+          setTimeout(() => { exportBtn.innerHTML = originalText; }, 2000);
+
+          // Start download af billedet
+          const link = document.createElement('a');
+          const cleanExName = exText.replace(/[^a-z0-9]/gi, '_').toLowerCase();
+          link.download = `vbt-profil-${cleanExName}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        }).catch(err => {
+          console.error('Fejl ved generering af billede:', err);
+          card.classList.remove('vbt-exporting');
+          exportBtn.innerHTML = '❌ Fejl';
+          setTimeout(() => { exportBtn.innerHTML = originalText; }, 2000);
+          alert('Kunne ikke generere billede. Prøv venligst igen.');
+        });
+      }, 150);
     });
   }
 

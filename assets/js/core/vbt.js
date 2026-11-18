@@ -37,50 +37,94 @@ export function calculateVBTProfile(attempts, mvtValue) {
   }
 
   const n = validPoints.length;
-  let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0, sumYY = 0;
+  let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
 
   validPoints.forEach(p => {
     sumX += p.load;
     sumY += p.velocity;
     sumXY += p.load * p.velocity;
     sumXX += p.load * p.load;
-    sumYY += p.velocity * p.velocity;
   });
 
+  const meanX = sumX / n;
   const meanY = sumY / n;
   const denominator = (n * sumXX - sumX * sumX);
-  if (denominator === 0) return { isValid: false, message: 'Ugyldige data.' };
 
-  const slope = (n * sumXY - sumX * sumY) / denominator;
-  let intercept = (sumY - slope * sumX) / n;
+  if (denominator === 0) {
+    return {
+      isValid: false,
+      validPointsCount: validPoints.length,
+      message: 'Indtast forskellige vægte for at beregne profilen.'
+    };
+  }
 
-  // R^2 (Forklaringsgrad)
+  let slope = (n * sumXY - sumX * sumY) / denominator;
+  let intercept = meanY - slope * meanX;
+
+  const maxLoadEntered = Math.max(...validPoints.map(p => p.load));
+  const lowestVelocity = Math.min(...validPoints.map(p => p.velocity));
+  const cutoffThreshold = mvtValue + 0.20;
+  const isCutoffReached = lowestVelocity <= cutoffThreshold;
+
+  // Hvis hastigheden ikke er faldet med øget vægt (flad eller positiv hældning)
+  if (slope >= -0.0005) {
+    const safeStep = Math.max(5, roundTo2Point5(maxLoadEntered * 0.075));
+    return {
+      isValid: true,
+      hasNegativeSlope: false,
+      slope,
+      intercept,
+      rSquared: null,
+      e1RM: 0,
+      isCappedByRealLift: false,
+      isCutoffReached,
+      cutoffThreshold,
+      suggestedNextLoad: isCutoffReached ? 0 : roundTo2Point5(maxLoadEntered + safeStep),
+      processedPoints: validPoints.map((p, idx) => ({
+        index: idx,
+        id: p.id,
+        load: p.load,
+        velocity: p.velocity,
+        isWarmup: p.velocity > 1.00,
+        isOutlier: false
+      })),
+      validPointsCount: validPoints.length
+    };
+  }
+
+  // R^2 (kun meningsfuld ved >= 3 punkter, da 2 punkter altid giver R^2 = 1.00)
   const ssTot = validPoints.reduce((acc, p) => acc + Math.pow(p.velocity - meanY, 2), 0);
   const ssRes = validPoints.reduce((acc, p) => {
     const predY = slope * p.load + intercept;
     return acc + Math.pow(p.velocity - predY, 2);
   }, 0);
-  
-  const rSquared = ssTot > 0 ? Math.max(0, 1 - (ssRes / ssTot)) : 0;
+  const rSquared = (n >= 3 && ssTot > 0) ? Math.max(0, 1 - (ssRes / ssTot)) : null;
 
-  let e1RM = 0;
-  if (slope < 0) {
-    e1RM = (mvtValue - intercept) / slope;
+  let e1RM = (mvtValue - intercept) / slope;
+
+  // Sikkerhedsloft ved kun 2 punkter: roterer linjen omkring (meanX, meanY) i stedet for at parallelforskyde
+  if (n === 2) {
+    const maxSaneMultiplier = lowestVelocity > 0.90 ? 2.35 : (lowestVelocity > 0.70 ? 1.95 : 1.65);
+    const maxSaneE1RM = maxLoadEntered * maxSaneMultiplier;
+    if (e1RM > maxSaneE1RM && maxSaneE1RM > meanX) {
+      e1RM = maxSaneE1RM;
+      slope = (mvtValue - meanY) / (e1RM - meanX);
+      intercept = meanY - slope * meanX;
+    }
   }
 
-  const successfulLifts = validPoints.filter(p => p.velocity >= mvtValue).map(p => p.load);
-  const maxLiftedAtOrAboveMVT = successfulLifts.length > 0 ? Math.max(...successfulLifts) : 0;
-
+  // Et faktisk gennemført løft i tabellen sætter altid minimumsgulvet for e1RM
   let isCappedByRealLift = false;
-  if (maxLiftedAtOrAboveMVT > e1RM) {
-    e1RM = maxLiftedAtOrAboveMVT;
+  if (maxLoadEntered > e1RM) {
+    e1RM = maxLoadEntered;
     isCappedByRealLift = true;
-    intercept = mvtValue - slope * e1RM;
+    if (e1RM > meanX) {
+      slope = (mvtValue - meanY) / (e1RM - meanX);
+      intercept = meanY - slope * meanX;
+    } else {
+      intercept = mvtValue - slope * e1RM;
+    }
   }
-
-  const cutoffThreshold = mvtValue + 0.20;
-  const lowestVelocity = Math.min(...validPoints.map(p => p.velocity));
-  const isCutoffReached = lowestVelocity <= cutoffThreshold;
 
   const processedPoints = validPoints.map((p, idx) => {
     const expectedVel = slope * p.load + intercept;
@@ -95,13 +139,30 @@ export function calculateVBTProfile(attempts, mvtValue) {
     };
   });
 
-  // Udregn dynamisk næste vægtforslag (afrundet til 2,5 kg)
+  // Stabiliseret forslag til næste vægt
   let suggestedNextLoad = 0;
   if (e1RM > 0 && !isCutoffReached) {
-    const maxLoadEntered = Math.max(...validPoints.map(p => p.load));
-    const count = validPoints.length;
-    const targetPercent = DEFAULT_TARGET_PERCENTAGES[Math.min(count, DEFAULT_TARGET_PERCENTAGES.length - 1)];
-    suggestedNextLoad = roundTo2Point5(e1RM * targetPercent);
+    const currentPct = maxLoadEntered / e1RM;
+    const remainingSteps = Math.max(1, 5 - n);
+
+    let idealStepKg;
+    if (currentPct < 0.90) {
+      idealStepKg = ((0.92 - currentPct) / remainingSteps) * e1RM;
+    } else {
+      idealStepKg = Math.max(2.5, e1RM * 0.03);
+    }
+
+    let maxAllowedJumpKg;
+    if (n === 2 || lowestVelocity > 0.75) {
+      maxAllowedJumpKg = Math.min(15, Math.max(5, maxLoadEntered * 0.15));
+    } else if (lowestVelocity > 0.55) {
+      maxAllowedJumpKg = Math.min(10, Math.max(5, maxLoadEntered * 0.10));
+    } else {
+      maxAllowedJumpKg = Math.min(7.5, Math.max(2.5, maxLoadEntered * 0.075));
+    }
+
+    const clampedStep = Math.max(2.5, Math.min(idealStepKg, maxAllowedJumpKg));
+    suggestedNextLoad = roundTo2Point5(maxLoadEntered + clampedStep);
 
     if (suggestedNextLoad <= maxLoadEntered) {
       suggestedNextLoad = roundTo2Point5(maxLoadEntered + 2.5);
@@ -110,6 +171,7 @@ export function calculateVBTProfile(attempts, mvtValue) {
 
   return {
     isValid: true,
+    hasNegativeSlope: true,
     slope,
     intercept,
     rSquared,

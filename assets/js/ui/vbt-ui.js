@@ -4,7 +4,6 @@ import { calculateVBTProfile, MVT_PRESETS, roundTo2Point5, DEFAULT_TARGET_PERCEN
 const STORAGE_KEY_STATE = 'vbt_calculator_state_v21';
 const STORAGE_KEY_HISTORY = 'vbt_calculator_history_v21';
 
-// Starter altid med 5 rækker som standard
 const DEFAULT_ATTEMPTS = [
   { id: 1, load: '', velocity: '' },
   { id: 2, load: '', velocity: '' },
@@ -26,6 +25,7 @@ export function initCalculator(container) {
 
   let activeTimerIdx = null;
   let timerInterval = null;
+  let timerDebounce = null;
   let timerSecondsLeft = 120;
 
   const fullscreenBtn = container.querySelector('#vbt-fullscreen-btn');
@@ -37,6 +37,7 @@ export function initCalculator(container) {
   const addAttemptBtn = container.querySelector('#vbt-add-attempt-btn');
   const resetBtn = container.querySelector('#vbt-reset-btn');
   const saveProfileBtn = container.querySelector('#vbt-save-profile-btn');
+  const exportImgBtn = container.querySelector('#vbt-export-img-btn');
   const historyListContainer = container.querySelector('#vbt-history-list');
   const clearHistoryBtn = container.querySelector('#vbt-clear-history-btn');
 
@@ -120,10 +121,10 @@ export function initCalculator(container) {
       tr.innerHTML = `
         <td class="vbt-col-num" style="text-align:center; font-weight:700; color:#64748b;">#${idx + 1}</td>
         <td>
-          <input type="number" step="0.5" class="vbt-input-cell vbt-load-input" data-idx="${idx}" value="${att.load !== '' && att.load !== undefined ? att.load : ''}" placeholder="kg">
+          <input type="number" step="0.5" class="vbt-input-cell vbt-no-spin vbt-load-input" data-idx="${idx}" value="${att.load !== '' && att.load !== undefined ? att.load : ''}" placeholder="kg">
         </td>
         <td>
-          <input type="number" step="0.01" class="vbt-input-cell vbt-vel-input" data-idx="${idx}" value="${att.velocity !== '' && att.velocity !== undefined ? att.velocity : ''}" placeholder="m/s">
+          <input type="number" step="0.01" class="vbt-input-cell vbt-no-spin vbt-vel-input" data-idx="${idx}" value="${att.velocity !== '' && att.velocity !== undefined ? att.velocity : ''}" placeholder="m/s">
         </td>
         <td style="text-align:center;">
           <button type="button" class="vbt-btn-delete-row vbt-del-btn" data-idx="${idx}" title="Slet række">🗑️</button>
@@ -131,7 +132,6 @@ export function initCalculator(container) {
       `;
       attemptsContainer.appendChild(tr);
 
-      // Inline timer
       const timerTr = document.createElement('tr');
       timerTr.id = `vbt-timer-row-${idx}`;
       timerTr.className = 'vbt-timer-row';
@@ -169,8 +169,14 @@ export function initCalculator(container) {
         saveState();
         updateResultsAndChart(getActiveMVT());
 
+        clearTimeout(timerDebounce);
         if (val > 0 && state.attempts[idx].load > 0) {
-          startInlineTimer(idx, 120);
+          const lastFilledIdx = state.attempts.reduce((last, a, i) => (a.load > 0 && a.velocity > 0 ? i : last), -1);
+          if (idx === lastFilledIdx) {
+            timerDebounce = setTimeout(() => {
+              startInlineTimer(idx, 120);
+            }, 900);
+          }
         }
       });
     });
@@ -221,6 +227,7 @@ export function initCalculator(container) {
   }
 
   function stopInlineTimer() {
+    clearTimeout(timerDebounce);
     clearInterval(timerInterval);
     if (activeTimerIdx !== null) {
       const targetRow = container.querySelector(`#vbt-timer-row-${activeTimerIdx}`);
@@ -241,7 +248,7 @@ export function initCalculator(container) {
 
     if (!res.isValid) {
       if (e1rmEl) e1rmEl.textContent = '0';
-      if (r2El) r2El.textContent = '0.00';
+      if (r2El) r2El.textContent = '—';
       if (overlayBox) overlayBox.style.opacity = '0.4';
       if (guidanceBox) {
         guidanceBox.className = 'vbt-guidance-premium mp-guidance-info';
@@ -254,9 +261,28 @@ export function initCalculator(container) {
       return;
     }
 
+    if (!res.hasNegativeSlope) {
+      if (e1rmEl) e1rmEl.textContent = '—';
+      if (r2El) r2El.textContent = '—';
+      if (overlayBox) overlayBox.style.opacity = '0.6';
+      if (guidanceBox) {
+        guidanceBox.className = 'vbt-guidance-premium mp-guidance-warning';
+        guidanceBox.innerHTML = `
+          <span class="vbt-info-icon">⚠️</span>
+          <div class="vbt-info-text">
+            Hastigheden faldt ikke på seneste løft. Øg vægten til ca. <strong>${res.suggestedNextLoad} kg</strong> og løft med maksimal eksplosiv kraft.
+          </div>
+        `;
+      }
+      renderSvgChart(res.processedPoints || [], mvt, 0, 0, 0);
+      return;
+    }
+
     if (overlayBox) overlayBox.style.opacity = '1';
     if (e1rmEl) e1rmEl.textContent = Math.round(res.e1RM);
-    if (r2El) r2El.textContent = res.rSquared.toFixed(2);
+    if (r2El) {
+      r2El.textContent = res.rSquared !== null ? res.rSquared.toFixed(2) : '— (2 forsøg)';
+    }
     
     if (guidanceBox) {
       const count = res.validPointsCount;
@@ -270,21 +296,22 @@ export function initCalculator(container) {
           </div>
         `;
       } else if (count >= 5) {
-        const rec6th = roundTo2Point5(res.e1RM * 0.95);
+        const nextKg = res.suggestedNextLoad > 0 ? `${res.suggestedNextLoad} kg` : 'en lidt tungere vægt';
         guidanceBox.className = 'vbt-guidance-premium mp-guidance-warning';
         guidanceBox.innerHTML = `
           <span class="vbt-info-icon">💡</span>
           <div class="vbt-info-text">
-            Du har gennemført <strong>${count} forsøg</strong>. Tag evt. et sidste løft på <strong>ca. ${rec6th} kg</strong> for at nå Cutoff.
+            Du har gennemført <strong>${count} forsøg</strong>. Tag evt. et sidste løft på <strong>ca. ${nextKg}</strong> for at nå Cutoff.
           </div>
         `;
       } else {
         const nextKg = res.suggestedNextLoad > 0 ? `${res.suggestedNextLoad} kg` : 'næste vægt';
+        const prelimNote = count === 2 ? ' <span style="opacity:0.8;">(foreløbigt estimat)</span>' : '';
         guidanceBox.className = 'vbt-guidance-premium mp-guidance-info';
         guidanceBox.innerHTML = `
           <span class="vbt-info-icon">💡</span>
           <div class="vbt-info-text">
-            Gennemført <strong>${count} af 5 forsøg</strong>. Foreslået belastning til næste løft: <strong>${nextKg}</strong>.
+            Gennemført <strong>${count} af 5 forsøg</strong>${prelimNote}. Foreslået belastning til næste løft: <strong>${nextKg}</strong>.
           </div>
         `;
       }
@@ -300,17 +327,24 @@ export function initCalculator(container) {
     const enteredLoads = state.attempts
       .map(a => parseFloat(a.load))
       .filter(l => !isNaN(l) && l > 0);
-    const maxEntered = enteredLoads.length > 0 ? Math.max(...enteredLoads) : 0;
+    let prevSuggestedKg = enteredLoads.length > 0 ? Math.max(...enteredLoads) : 0;
+    let firstEmptyAssigned = false;
 
     inputs.forEach((input, idx) => {
       if (state.attempts[idx] && (state.attempts[idx].load === '' || state.attempts[idx].load === undefined)) {
         const targetPct = DEFAULT_TARGET_PERCENTAGES[Math.min(idx, DEFAULT_TARGET_PERCENTAGES.length - 1)];
 
-        if (res.isValid && res.e1RM > 0 && !res.isCutoffReached) {
+        if (res.isValid && res.suggestedNextLoad > 0 && !res.isCutoffReached && !firstEmptyAssigned) {
+          firstEmptyAssigned = true;
+          prevSuggestedKg = res.suggestedNextLoad;
+          const pctLabel = res.e1RM > 0 ? ` (~${Math.round((res.suggestedNextLoad / res.e1RM) * 100)}%)` : '';
+          input.placeholder = `fx ${res.suggestedNextLoad} kg${pctLabel}`;
+        } else if (res.isValid && res.e1RM > 0 && !res.isCutoffReached) {
           let recKg = roundTo2Point5(res.e1RM * targetPct);
-          if (recKg <= maxEntered) {
-            recKg = roundTo2Point5(maxEntered + 2.5);
+          if (recKg <= prevSuggestedKg) {
+            recKg = roundTo2Point5(prevSuggestedKg + 2.5);
           }
+          prevSuggestedKg = recKg;
           input.placeholder = `fx ${recKg} kg (${Math.round(targetPct * 100)}%)`;
         } else {
           input.placeholder = `fx ${Math.round(targetPct * 100)}% 1RM`;
@@ -319,56 +353,101 @@ export function initCalculator(container) {
     });
   }
 
+  function getChartBounds(points, mvt, e1RM) {
+    const rawMaxLoad = points && points.length > 0
+      ? Math.max(e1RM > 0 ? e1RM * 1.08 : 0, ...points.map(p => p.load * 1.15), 80)
+      : 120;
+    const maxLoad = Math.ceil(rawMaxLoad / 20) * 20;
+
+    const highestVel = points && points.length > 0 ? Math.max(...points.map(p => p.velocity)) : 1.0;
+    const rawMaxVel = Math.max(1.25, mvt + 0.4, highestVel * 1.12);
+    const maxVel = Math.ceil(rawMaxVel * 5) / 5;
+
+    return { maxLoad, maxVel };
+  }
+
+  // Eksakt klipning af regressionslinjen til grafboksens kanter
+  function getClippedLineEndpoints(slope, intercept, maxLoad, maxVel) {
+    const xStart = intercept > maxVel ? Math.max(0, (maxVel - intercept) / slope) : 0;
+    const yStart = Math.min(maxVel, intercept);
+    const xAtZero = -intercept / slope;
+    const xEnd = xAtZero <= maxLoad ? xAtZero : maxLoad;
+    const yEnd = xAtZero <= maxLoad ? 0 : Math.max(0, slope * maxLoad + intercept);
+    return { xStart, yStart, xEnd, yEnd };
+  }
+
   function renderSvgChart(points, mvt, slope, intercept, e1RM) {
     const svgWrapper = container.querySelector('#vbt-svg-wrapper');
     if (!svgWrapper) return;
 
     const width = 600;
     const height = 320; 
-    const padTop = 20;
-    const padRight = 20;
-    const padBottom = 45;
-    const padLeft = 50;
+    const padTop = 24;
+    const padRight = 26;
+    const padBottom = 46;
+    const padLeft = 52;
 
-    const maxLoad = points && points.length >= 2 
-      ? Math.max(e1RM * 1.08, ...points.map(p => p.load), 100) 
-      : 120;
-    const maxVel = 1.30;
+    const { maxLoad, maxVel } = getChartBounds(points, mvt, e1RM);
 
     const xScale = (load) => padLeft + (load / maxLoad) * (width - padLeft - padRight);
     const yScale = (vel) => height - padBottom - (vel / maxVel) * (height - padTop - padBottom);
 
+    const yTicks = [];
+    for (let v = 0.2; v <= maxVel + 0.001; v += 0.2) {
+      yTicks.push(Number(v.toFixed(1)));
+    }
+
+    const xStep = maxLoad <= 120 ? 20 : (maxLoad <= 240 ? 40 : 50);
+    const xTicks = [];
+    for (let kg = xStep; kg <= maxLoad; kg += xStep) {
+      xTicks.push(kg);
+    }
+
     let svgHtml = `
       <svg viewBox="0 0 ${width} ${height}" class="vbt-svg-chart" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <line x1="${padLeft}" y1="${yScale(0.5)}" x2="${width - padRight}" y2="${yScale(0.5)}" stroke="#f1f5f9" stroke-width="1.5"/>
-        <line x1="${padLeft}" y1="${yScale(1.0)}" x2="${width - padRight}" y2="${yScale(1.0)}" stroke="#f1f5f9" stroke-width="1.5"/>
+        ${yTicks.map(v => `
+          <line x1="${padLeft}" y1="${yScale(v)}" x2="${width - padRight}" y2="${yScale(v)}" stroke="#f1f5f9" stroke-width="1.5"/>
+          <text x="${padLeft - 8}" y="${yScale(v) + 4}" font-size="11" font-family="inherit" fill="#64748b" text-anchor="end">${v.toFixed(1)}</text>
+        `).join('')}
 
+        ${xTicks.map(kg => `
+          <line x1="${xScale(kg)}" y1="${padTop}" x2="${xScale(kg)}" y2="${height - padBottom}" stroke="#f8fafc" stroke-width="1.5"/>
+          <text x="${xScale(kg)}" y="${height - padBottom + 16}" font-size="11" font-family="inherit" fill="#64748b" text-anchor="middle">${kg}</text>
+        `).join('')}
+
+        <!-- Hovedakser -->
         <line x1="${padLeft}" y1="${height - padBottom}" x2="${width - padRight}" y2="${height - padBottom}" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
         <line x1="${padLeft}" y1="${padTop}" x2="${padLeft}" y2="${height - padBottom}" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
         
-        <line x1="${padLeft}" y1="${yScale(mvt)}" x2="${width - padRight}" y2="${yScale(mvt)}" stroke="#ef4444" stroke-dasharray="4 4" stroke-width="1.5"/>
-        <text x="${padLeft + 8}" y="${yScale(mvt) - 8}" font-size="11" font-family="inherit" font-weight="700" fill="#ef4444" text-anchor="start">MVT (${mvt} m/s)</text>
+        <!-- MVT Linje -->
+        <line x1="${padLeft}" y1="${yScale(mvt)}" x2="${width - padRight}" y2="${yScale(mvt)}" stroke="#ef4444" stroke-dasharray="5 4" stroke-width="1.5"/>
+        <text x="${padLeft + 8}" y="${yScale(mvt) - 7}" font-size="11" font-family="inherit" font-weight="700" fill="#ef4444" text-anchor="start">MVT (${mvt.toFixed(2)} m/s)</text>
     `;
 
     if (points && points.length >= 2) {
-      const x1Val = 0;
-      const y1Val = intercept;
-      const x2Val = maxLoad;
-      const y2Val = slope * maxLoad + intercept;
+      if (slope < 0 && e1RM > 0) {
+        const { xStart, yStart, xEnd, yEnd } = getClippedLineEndpoints(slope, intercept, maxLoad, maxVel);
+        svgHtml += `
+          <line x1="${xScale(xStart)}" y1="${yScale(yStart)}" x2="${xScale(xEnd)}" y2="${yScale(yEnd)}" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+        `;
+      }
 
-      svgHtml += `
-        <line x1="${xScale(x1Val)}" y1="${yScale(y1Val)}" x2="${xScale(x2Val)}" y2="${yScale(y2Val)}" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+      svgHtml += points.map(p => {
+        const isWarmup = p.isWarmup;
+        const fillColor = isWarmup ? '#cbd5e1' : '#2563eb';
+        const strokeColor = isWarmup ? '#64748b' : '#ffffff';
+        const r = isWarmup ? 5.5 : 7;
+        return `<circle cx="${xScale(p.load)}" cy="${yScale(p.velocity)}" r="${r}" fill="${fillColor}" stroke="${strokeColor}" stroke-width="2"/>`;
+      }).join('');
 
-        ${points.map(p => {
-          const isWarmup = p.isWarmup;
-          const fillColor = isWarmup ? '#e2e8f0' : '#2563eb';
-          const strokeColor = isWarmup ? '#94a3b8' : '#ffffff';
-          const r = isWarmup ? 5.5 : 7;
-          return `<circle cx="${xScale(p.load)}" cy="${yScale(p.velocity)}" r="${r}" fill="${fillColor}" stroke="${strokeColor}" stroke-width="2"/>`;
-        }).join('')}
-
-        <circle cx="${xScale(e1RM)}" cy="${yScale(mvt)}" r="8" fill="#16a34a" stroke="#ffffff" stroke-width="2.5"/>
-      `;
+      if (slope < 0 && e1RM > 0) {
+        const cx = xScale(e1RM);
+        const cy = yScale(mvt);
+        svgHtml += `
+          <circle cx="${cx}" cy="${cy}" r="8" fill="#16a34a" stroke="#ffffff" stroke-width="2.5"/>
+          <text x="${cx}" y="${cy - 12}" font-size="11" font-family="inherit" font-weight="800" fill="#15803d" text-anchor="middle">${Math.round(e1RM)} kg</text>
+        `;
+      }
     } else {
       svgHtml += `
         <text x="${width/2}" y="${height/2}" font-size="14" font-family="inherit" fill="#94a3b8" text-anchor="middle">Indtast forsøg for at vise profilgrafen.</text>
@@ -376,12 +455,298 @@ export function initCalculator(container) {
     }
 
     svgHtml += `
-        <text x="${(width + padLeft - padRight) / 2}" y="${height - 10}" font-size="12" font-family="inherit" fill="#475569" font-weight="700" text-anchor="middle">Vægt (kg)</text>
-        <text x="16" y="${(height + padTop - padBottom) / 2}" font-size="12" font-family="inherit" fill="#475569" font-weight="700" text-anchor="middle" transform="rotate(-90 16 ${(height + padTop - padBottom) / 2})">Hastighed (m/s)</text>
+        <text x="${(width + padLeft - padRight) / 2}" y="${height - 8}" font-size="12" font-family="inherit" fill="#475569" font-weight="700" text-anchor="middle">Vægt (kg)</text>
+        <text x="15" y="${(height + padTop - padBottom) / 2}" font-size="12" font-family="inherit" fill="#475569" font-weight="700" text-anchor="middle" transform="rotate(-90 15 ${(height + padTop - padBottom) / 2})">Hastighed (m/s)</text>
       </svg>
     `;
 
     svgWrapper.innerHTML = svgHtml;
+  }
+
+  function exportProfileAsImage() {
+    const currentMVT = getActiveMVT();
+    const res = calculateVBTProfile(state.attempts, currentMVT);
+
+    if (!res.isValid || !res.hasNegativeSlope || res.e1RM <= 0) {
+      if (exportImgBtn) {
+        const origHtml = exportImgBtn.innerHTML;
+        exportImgBtn.style.background = '#ef4444';
+        exportImgBtn.style.borderColor = '#dc2626';
+        exportImgBtn.innerHTML = '⚠️ Min. 2 forsøg';
+        setTimeout(() => {
+          exportImgBtn.style.background = '#2563eb';
+          exportImgBtn.style.borderColor = '#1d4ed8';
+          exportImgBtn.innerHTML = origHtml;
+        }, 2000);
+      }
+      return;
+    }
+
+    const exObj = MVT_PRESETS[state.exercise];
+    const exName = exObj ? exObj.name : 'Brugerdefineret';
+    const dateStr = new Date().toLocaleDateString('da-DK', { day: '2-digit', month: '2-digit', year: 'numeric' });
+    const points = res.processedPoints || [];
+
+    const scale = 2;
+    const W = 680;
+    const rowsNeeded = Math.ceil(points.length / 3);
+    const H = 510 + rowsNeeded * 34;
+
+    const canvas = document.createElement('canvas');
+    canvas.width = W * scale;
+    canvas.height = H * scale;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(scale, scale);
+
+    function roundRect(x, y, w, h, r) {
+      ctx.beginPath();
+      ctx.moveTo(x + r, y);
+      ctx.arcTo(x + w, y, x + w, y + h, r);
+      ctx.arcTo(x + w, y + h, x, y + h, r);
+      ctx.arcTo(x, y + h, x, y, r);
+      ctx.arcTo(x, y, x + w, y, r);
+      ctx.closePath();
+    }
+
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, W, H);
+
+    ctx.strokeStyle = '#e2e8f0';
+    ctx.lineWidth = 2;
+    roundRect(8, 8, W - 16, H - 16, 16);
+    ctx.stroke();
+
+    ctx.fillStyle = '#0f172a';
+    ctx.font = '800 20px system-ui, -apple-system, sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText(`⚡ VBT 1RM Profil — ${exName}`, 28, 44);
+
+    ctx.fillStyle = '#64748b';
+    ctx.font = '600 13px system-ui, -apple-system, sans-serif';
+    ctx.textAlign = 'right';
+    ctx.fillText(`MVT: ${currentMVT.toFixed(2)} m/s  •  ${dateStr}`, W - 28, 43);
+
+    ctx.strokeStyle = '#f1f5f9';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(28, 58);
+    ctx.lineTo(W - 28, 58);
+    ctx.stroke();
+
+    const cardY = 72;
+    const cardH = 74;
+    const gap = 12;
+    const cardW = (W - 56 - gap * 2) / 3;
+
+    const cards = [
+      {
+        label: 'ESTIMERET 1RM',
+        val: `${Math.round(res.e1RM)} kg`,
+        bg: '#f0fdf4',
+        border: '#bbf7d0',
+        valColor: '#15803d',
+        labelColor: '#166534'
+      },
+      {
+        label: 'LINEARITET (R²)',
+        val: res.rSquared !== null ? res.rSquared.toFixed(2) : '— (2 løft)',
+        bg: '#f8fafc',
+        border: '#e2e8f0',
+        valColor: '#0f172a',
+        labelColor: '#64748b'
+      },
+      {
+        label: 'FORSØG & STATUS',
+        val: `${points.length} løft${res.isCutoffReached ? ' ✓' : ''}`,
+        bg: '#f8fafc',
+        border: '#e2e8f0',
+        valColor: '#0f172a',
+        labelColor: '#64748b'
+      }
+    ];
+
+    cards.forEach((c, i) => {
+      const cx = 28 + i * (cardW + gap);
+      ctx.fillStyle = c.bg;
+      roundRect(cx, cardY, cardW, cardH, 12);
+      ctx.fill();
+      ctx.strokeStyle = c.border;
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+
+      ctx.fillStyle = c.labelColor;
+      ctx.font = '700 11px system-ui, -apple-system, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText(c.label, cx + cardW / 2, cardY + 25);
+
+      ctx.fillStyle = c.valColor;
+      ctx.font = '800 23px system-ui, -apple-system, sans-serif';
+      ctx.fillText(c.val, cx + cardW / 2, cardY + 54);
+    });
+
+    const boxX = 28;
+    const boxY = 160;
+    const boxW = W - 56;
+    const boxH = 290;
+
+    ctx.fillStyle = '#ffffff';
+    roundRect(boxX, boxY, boxW, boxH, 12);
+    ctx.fill();
+    ctx.strokeStyle = '#e2e8f0';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+
+    const padL = boxX + 52;
+    const padR = boxX + boxW - 24;
+    const padT = boxY + 24;
+    const padB = boxY + boxH - 44;
+
+    const { maxLoad, maxVel } = getChartBounds(points, currentMVT, res.e1RM);
+    const xMap = (load) => padL + (load / maxLoad) * (padR - padL);
+    const yMap = (vel) => padB - (vel / maxVel) * (padB - padT);
+
+    ctx.font = '600 11px system-ui, -apple-system, sans-serif';
+    for (let v = 0.2; v <= maxVel + 0.001; v += 0.2) {
+      const y = yMap(v);
+      ctx.strokeStyle = '#f1f5f9';
+      ctx.lineWidth = 1.2;
+      ctx.beginPath();
+      ctx.moveTo(padL, y);
+      ctx.lineTo(padR, y);
+      ctx.stroke();
+
+      ctx.fillStyle = '#64748b';
+      ctx.textAlign = 'right';
+      ctx.fillText(v.toFixed(1), padL - 8, y + 4);
+    }
+
+    const xStep = maxLoad <= 120 ? 20 : (maxLoad <= 240 ? 40 : 50);
+    for (let kg = xStep; kg <= maxLoad; kg += xStep) {
+      const x = xMap(kg);
+      ctx.strokeStyle = '#f8fafc';
+      ctx.lineWidth = 1.2;
+      ctx.beginPath();
+      ctx.moveTo(x, padT);
+      ctx.lineTo(x, padB);
+      ctx.stroke();
+
+      ctx.fillStyle = '#64748b';
+      ctx.textAlign = 'center';
+      ctx.fillText(String(kg), x, padB + 16);
+    }
+
+    ctx.strokeStyle = '#94a3b8';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(padL, padT);
+    ctx.lineTo(padL, padB);
+    ctx.lineTo(padR, padB);
+    ctx.stroke();
+
+    ctx.fillStyle = '#475569';
+    ctx.font = '700 12px system-ui, -apple-system, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('Vægt (kg)', (padL + padR) / 2, boxY + boxH - 10);
+
+    ctx.save();
+    ctx.translate(boxX + 16, (padT + padB) / 2);
+    ctx.rotate(-Math.PI / 2);
+    ctx.fillText('Hastighed (m/s)', 0, 0);
+    ctx.restore();
+
+    const mvtY = yMap(currentMVT);
+    ctx.save();
+    ctx.setLineDash([6, 4]);
+    ctx.strokeStyle = '#ef4444';
+    ctx.lineWidth = 1.8;
+    ctx.beginPath();
+    ctx.moveTo(padL, mvtY);
+    ctx.lineTo(padR, mvtY);
+    ctx.stroke();
+    ctx.restore();
+
+    ctx.fillStyle = '#ef4444';
+    ctx.font = '700 11px system-ui, -apple-system, sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText(`MVT (${currentMVT.toFixed(2)} m/s)`, padL + 8, mvtY - 7);
+
+    const { xStart, yStart, xEnd, yEnd } = getClippedLineEndpoints(res.slope, res.intercept, maxLoad, maxVel);
+    ctx.strokeStyle = '#2563eb';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.moveTo(xMap(xStart), yMap(yStart));
+    ctx.lineTo(xMap(xEnd), yMap(yEnd));
+    ctx.stroke();
+
+    points.forEach(p => {
+      const px = xMap(p.load);
+      const py = yMap(p.velocity);
+      ctx.beginPath();
+      ctx.arc(px, py, p.isWarmup ? 5.5 : 7, 0, Math.PI * 2);
+      ctx.fillStyle = p.isWarmup ? '#cbd5e1' : '#2563eb';
+      ctx.fill();
+      ctx.strokeStyle = p.isWarmup ? '#64748b' : '#ffffff';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+    });
+
+    const e1rmX = xMap(res.e1RM);
+    ctx.beginPath();
+    ctx.arc(e1rmX, mvtY, 8.5, 0, Math.PI * 2);
+    ctx.fillStyle = '#16a34a';
+    ctx.fill();
+    ctx.strokeStyle = '#ffffff';
+    ctx.lineWidth = 2.5;
+    ctx.stroke();
+
+    ctx.fillStyle = '#15803d';
+    ctx.font = '800 12px system-ui, -apple-system, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText(`${Math.round(res.e1RM)} kg`, e1rmX, mvtY - 13);
+
+    const listY = boxY + boxH + 16;
+    ctx.fillStyle = '#475569';
+    ctx.font = '700 11px system-ui, -apple-system, sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText('UDFØRTE LØFT:', 28, listY + 12);
+
+    const pillW = (W - 56 - 20) / 3;
+    points.forEach((p, idx) => {
+      const col = idx % 3;
+      const row = Math.floor(idx / 3);
+      const px = 28 + col * (pillW + 10);
+      const py = listY + 20 + row * 32;
+
+      ctx.fillStyle = '#f8fafc';
+      roundRect(px, py, pillW, 25, 6);
+      ctx.fill();
+      ctx.strokeStyle = '#e2e8f0';
+      ctx.lineWidth = 1;
+      ctx.stroke();
+
+      ctx.fillStyle = '#334155';
+      ctx.font = '600 11.5px system-ui, -apple-system, sans-serif';
+      ctx.textAlign = 'left';
+      ctx.fillText(`#${idx + 1}:  ${p.load} kg  →  ${p.velocity.toFixed(2)} m/s`, px + 10, py + 16.5);
+    });
+
+    const link = document.createElement('a');
+    const safeName = exName.toLowerCase().replace(/[^a-z0-9æøå]+/gi, '-');
+    link.download = `vbt-1rm-${safeName}.png`;
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+
+    if (exportImgBtn) {
+      const origHtml = exportImgBtn.innerHTML;
+      exportImgBtn.style.background = '#059669';
+      exportImgBtn.style.borderColor = '#047857';
+      exportImgBtn.innerHTML = '✓ Billede gemt!';
+      setTimeout(() => {
+        exportImgBtn.style.background = '#2563eb';
+        exportImgBtn.style.borderColor = '#1d4ed8';
+        exportImgBtn.innerHTML = origHtml;
+      }, 1800);
+    }
   }
 
   function renderHistory() {
@@ -447,14 +812,11 @@ export function initCalculator(container) {
     });
   }
 
-// Fulskærm ikon toggle logik
   function updateFullscreenIcon(isFullscreen) {
     if (!fullscreenIcon) return;
     if (isFullscreen) {
-      // Exit fullscreen ikon
       fullscreenIcon.innerHTML = `<path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>`;
     } else {
-      // Enter fullscreen ikon
       fullscreenIcon.innerHTML = `<path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>`;
     }
   }
@@ -465,13 +827,11 @@ export function initCalculator(container) {
       const isAlreadyFs = card.classList.contains('vbt-is-fullscreen') || !!document.fullscreenElement;
 
       if (!isAlreadyFs) {
-        // Forsøg native fullscreen først
         if (card.requestFullscreen) {
           card.requestFullscreen().catch(() => {});
         } else if (card.webkitRequestFullscreen) {
           card.webkitRequestFullscreen();
         }
-        // Tilføj altid klassen (fungerer perfekt på iOS Safari, tablets og mobiler)
         card.classList.add('vbt-is-fullscreen');
         updateFullscreenIcon(true);
       } else {
@@ -495,7 +855,6 @@ export function initCalculator(container) {
     });
   }
   
-  // MVT Lås & Redigering
   if (mvtLockBtn && mvtInput) {
     mvtLockBtn.addEventListener('click', () => {
       state.isMvtUnlocked = !state.isMvtUnlocked;
@@ -556,13 +915,16 @@ export function initCalculator(container) {
     });
   }
 
-  // Gem profil (Automatisk navn = fx "Back Squat Profil")
+  if (exportImgBtn) {
+    exportImgBtn.addEventListener('click', exportProfileAsImage);
+  }
+
   if (saveProfileBtn) {
     saveProfileBtn.addEventListener('click', () => {
       const currentMVT = getActiveMVT();
       const res = calculateVBTProfile(state.attempts, currentMVT);
 
-      if (!res.isValid) {
+      if (!res.isValid || !res.hasNegativeSlope || res.e1RM <= 0) {
         saveProfileBtn.style.background = '#ef4444';
         saveProfileBtn.style.borderColor = '#dc2626';
         saveProfileBtn.innerHTML = '⚠️ Min. 2 forsøg';
@@ -586,7 +948,7 @@ export function initCalculator(container) {
         mvt: currentMVT,
         isMvtUnlocked: state.isMvtUnlocked,
         e1RM: Math.round(res.e1RM),
-        rSquared: res.rSquared.toFixed(2),
+        rSquared: res.rSquared !== null ? res.rSquared.toFixed(2) : '—',
         attempts: JSON.parse(JSON.stringify(state.attempts))
       };
 
